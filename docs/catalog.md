@@ -68,3 +68,12 @@ msgstr ""
 
 `blender/blender-4.5.po`、`blender/blender-5.x.po`，分别用 `supported_versions` 声明
 `>=4.5.0 <4.6.0`、`>=5.0.0 <6.0.0`。两版词条不同（实测仅 4.5 有 1,714 条、仅 5.2 有 4,497 条），必须分开。
+
+## 推送后自查
+
+```bash
+curl -sS https://raw.githubusercontent.com/KeshiMiao/perfect-chinese-translations/main/catalog.json
+sha256sum locale/<id>.po   # 与目录里的 sha256、bytes 对比
+```
+
+CI 只在 `locale/`、`blender/`、`scripts/` 或本文件变化时重建目录；`catalog.json` 里的哈希与文件内容不一致，客户端就会把它当成一次更新。
