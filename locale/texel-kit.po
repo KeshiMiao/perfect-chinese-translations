@@ -6,14 +6,14 @@
 # name_zh: 纹素工具
 # translator: KeshiMiao
 # category: UV
-# translation_version: 0.1.0
+# translation_version: 0.1.1
 # supported_versions: >=4.2.0
 # updated_at: 2026-11-14
-
 msgid ""
 msgstr ""
 "Language: zh_HANS\n"
 "Content-Type: text/plain; charset=UTF-8\n"
+
 #: ops.py:91
 msgid "Active object has no UV map"
 msgstr "活动物体没有 UV 贴图"
@@ -50,6 +50,10 @@ msgstr "已测量"
 msgid "No UV map or no faces to measure"
 msgstr "没有 UV 贴图或没有可测量的面"
 
+#: ui.py:23
+msgid "Not measured"
+msgstr "未测量"
+
 #: props.py:29
 msgid "Per Island"
 msgstr "按孤岛"
@@ -69,6 +73,10 @@ msgstr "像素/英寸"
 #: props.py:10
 msgid "Pixels per meter"
 msgstr "像素/米"
+
+#: ui.py:46
+msgid "Remove Checker"
+msgstr "移除棋盘格"
 
 #: props.py:29
 msgid "Scale every UV island to the target on its own. Off keeps islands in proportion"
