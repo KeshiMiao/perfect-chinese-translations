@@ -1,0 +1,192 @@
+# perfect-chinese: 1
+# id: texel-kit
+# kind: addon
+# module: bl_ext.blender_org.texel_kit
+# name: Texel Kit
+# name_zh: 纹素工具
+# translator: KeshiMiao
+# category: UV
+# translation_version: 0.1.0
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-14
+
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+#: ops.py:91
+msgid "Active object has no UV map"
+msgstr "活动物体没有 UV 贴图"
+
+#: props.py:32
+msgid "Black and white grid"
+msgstr "黑白网格"
+
+#: ui.py:66
+msgid "Check"
+msgstr "检查"
+
+#: props.py:33
+msgid "Colored grid with letters, shows rotation"
+msgstr "带字母的彩色网格，显示旋转"
+
+#: props.py:35
+msgid "Heatmap counts faces within this range of the target as on target"
+msgstr "热力图将目标此范围内的面计为达标"
+
+#: props.py:27
+msgid "In Edit Mode, only work on selected faces"
+msgstr "在编辑模式下，仅处理选中的面"
+
+#: ops.py:105
+msgid "Leave at -1 to use the panel's target"
+msgstr "保持 -1 以使用面板的目标值"
+
+#: props.py:25
+msgid "Measured"
+msgstr "已测量"
+
+#: ops.py:68
+msgid "No UV map or no faces to measure"
+msgstr "没有 UV 贴图或没有可测量的面"
+
+#: props.py:29
+msgid "Per Island"
+msgstr "按孤岛"
+
+#: props.py:11
+msgid "Pixels per centimeter"
+msgstr "像素/厘米"
+
+#: props.py:13
+msgid "Pixels per foot"
+msgstr "像素/英尺"
+
+#: props.py:12
+msgid "Pixels per inch"
+msgstr "像素/英寸"
+
+#: props.py:10
+msgid "Pixels per meter"
+msgstr "像素/米"
+
+#: props.py:29
+msgid "Scale every UV island to the target on its own. Off keeps islands in proportion"
+msgstr "将每个 UV 孤岛单独缩放到目标值。关闭则保持孤岛比例"
+
+#: props.py:27
+msgid "Selected Faces Only"
+msgstr "仅选中的面"
+
+#: ops.py:359
+msgid "Set a target density first"
+msgstr "请先设置目标密度"
+
+#: props.py:23
+msgid "Target density in the chosen unit"
+msgstr "所选单位下的目标密度"
+
+#: ops.py:116
+msgid "Target density must be above zero"
+msgstr "目标密度必须大于零"
+
+#: ui.py:55
+#: ui.py:77
+msgid "Texel Density"
+msgstr "纹素密度"
+
+#: ui.py:59
+#: ui.py:70
+#: ui.py:81
+msgid "Texel Kit"
+msgstr "纹素工具"
+
+#: props.py:19
+msgid "Texture resolution the density is measured against"
+msgstr "测量密度所依据的纹理分辨率"
+
+#: props.py:11
+msgid "px/cm"
+msgstr "像素/厘米"
+
+#: props.py:13
+msgid "px/ft"
+msgstr "像素/英尺"
+
+#: props.py:12
+msgid "px/in"
+msgstr "像素/英寸"
+
+#: props.py:10
+msgid "px/m"
+msgstr "像素/米"
+
+#: ops.py:384
+msgctxt "Operator"
+msgid "Clear Heatmap"
+msgstr "清除热力图"
+
+#: ops.py:348
+msgctxt "Operator"
+msgid "Color faces by density: blue is too low, green is on target, red is too high"
+msgstr "按密度为面着色：蓝色过低，绿色达标，红色过高"
+
+#: ops.py:54
+msgctxt "Operator"
+msgid "Measure"
+msgstr "测量"
+
+#: ops.py:55
+msgctxt "Operator"
+msgid "Measure the texel density of the active object, or its selected faces in Edit Mode"
+msgstr "测量活动物体或其编辑模式下选中面的纹素密度"
+
+#: ops.py:78
+msgctxt "Operator"
+msgid "Pick From Active"
+msgstr "从活动项拾取"
+
+#: ops.py:147
+msgctxt "Operator"
+msgid "Preset"
+msgstr "预设"
+
+#: ops.py:385
+msgctxt "Operator"
+msgid "Remove the heatmap colors and restore the viewport color mode"
+msgstr "移除热力图颜色并恢复视图颜色模式"
+
+#: ops.py:102
+msgctxt "Operator"
+msgid "Scale UVs of the selected objects (or selected faces in Edit Mode) to the target density"
+msgstr "将选中物体（或编辑模式下选中面）的 UV 缩放至目标密度"
+
+#: ops.py:101
+msgctxt "Operator"
+msgid "Set Density"
+msgstr "设置密度"
+
+#: ops.py:148
+msgctxt "Operator"
+msgid "Set the target density"
+msgstr "设置目标密度"
+
+#: ops.py:347
+msgctxt "Operator"
+msgid "Show Heatmap"
+msgstr "显示热力图"
+
+#: ops.py:206
+msgctxt "Operator"
+msgid "Swap materials on the selected objects for a checker texture, or put the originals back"
+msgstr "将选中物体的材质替换为棋盘格纹理，或恢复原材质"
+
+#: ops.py:205
+msgctxt "Operator"
+msgid "Toggle Checker"
+msgstr "切换棋盘格"
+
+#: ops.py:79
+msgctxt "Operator"
+msgid "Use the active object's current density as the target"
+msgstr "使用活动物体的当前密度作为目标"
