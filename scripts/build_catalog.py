@@ -20,7 +20,7 @@ MAX_BYTES = 512 * 1024
 ID_PATTERN = re.compile(r"^[a-z0-9][a-z0-9._-]*$")
 HEADER_PATTERN = re.compile(r"^#\s*([a-z_]+)\s*:\s*(.+)$")
 DIRECTORIES = {"locale": "addon", "blender": "blender"}
-REQUIRED = ("id", "name", "translation_version")
+REQUIRED = ("id", "name")
 
 
 def read_header(path):
@@ -81,7 +81,7 @@ def entry_for(path):
         "translator": meta.get("translator", ""),
         "category": meta.get("category", ""),
         "locale": locale,
-        "translation_version": meta["translation_version"],
+        "translation_version": meta.get("translation_version", ""),
         "supported_versions": supported,
         "url": str(path.relative_to(ROOT)),
         "sha256": hashlib.sha256(data).hexdigest(),

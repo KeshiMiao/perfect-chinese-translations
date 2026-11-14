@@ -18,7 +18,6 @@
       "translator": "可是",
       "category": "建模",
       "locale": "zh_HANS",
-      "translation_version": "1.0.0",
       "supported_versions": ">=0.5.0 <1.0.0",
       "url": "locale/edgeflow.po",
       "sha256": "…",
@@ -47,7 +46,6 @@
 # name_zh: 边流动
 # translator: 可是
 # category: 建模
-# translation_version: 1.0.0
 # supported_versions: >=0.5.0 <1.0.0
 # updated_at: 2026-11-14
 
@@ -57,7 +55,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 ```
 
-必填：`id`、`name`、`translation_version`。`kind` 缺省按路径推断（`blender/` 下为 `blender`）。
+必填：`id`、`name`、`url`、`sha256`。`kind` 缺省按路径推断（`blender/` 下为 `blender`）。
+
+变更识别只用 `sha256`：文件内容一变，目录里的哈希就变，客户端据此判断是否需要更新，不需要人工递增版本号。`translation_version` 与 `updated_at` 都只是展示字段。
 
 ## 版本区间
 
