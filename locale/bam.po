@@ -1,0 +1,2405 @@
+# perfect-chinese: 1
+# id: bam
+# kind: addon
+# module: bl_ext.blender_org.BAM
+# name: [BAM] AutoMat
+# name_zh: 材质批量生成
+# translator: KeshiMiao
+# category: Material
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: BAM/__init__.py:564
+msgid "-- AutoMat Panel --"
+msgstr "-- AutoMat 面板 --"
+
+#: BAM/__init__.py:559
+msgid "-- MaterialManager Panel --"
+msgstr "-- 材质管理器面板 --"
+
+#: BAM/BAM_BamAutomat_M.py:442
+msgid "->ALPHA"
+msgstr "->Alpha"
+
+#: BAM/BAM_BamAutomat_M.py:441
+msgid "->BLUE"
+msgstr "->蓝色"
+
+#: BAM/BAM_BamAutomat_M.py:440
+msgid "->GREEN"
+msgstr "->绿色"
+
+#: BAM/BAM_BamAutomat_M.py:439
+msgid "->RED"
+msgstr "->红色"
+
+#: BAM/__init__.py:424
+#: BAM/__init__.py:469
+msgid "3D View"
+msgstr "3D 视图"
+
+#: BAM/BAM_BamAutomat_M.py:178
+#: BAM/BAM_BamAutomat_M.py:205
+msgid "ACES2065-1"
+msgstr "ACES2065-1"
+
+#: BAM/BAM_BamAutomat_M.py:179
+msgid "ACEScc"
+msgstr "ACEScc"
+
+#: BAM/BAM_BamAutomat_M.py:180
+msgid "ACEScct"
+msgstr "ACEScct"
+
+#: BAM/BAM_BamAutomat_M.py:181
+#: BAM/BAM_BamAutomat_M.py:206
+msgid "ACEScg"
+msgstr "ACEScg"
+
+#: BAM/BAM_BamAutomat_M.py:2440
+msgid "AO Suffix"
+msgstr "AO 后缀"
+
+#: BAM/BAM_BamAutomat_M.py:2521
+msgid "AO: ColorSpace"
+msgstr "AO：色彩空间"
+
+#: BAM/BAM_MaterialManager_M.py:2657
+msgid "Action"
+msgstr "动作"
+
+#: BAM/__init__.py:93
+msgid "Active"
+msgstr "活动"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Constants_M.py:102
+msgid "Active Material Border"
+msgstr "活动材质边框"
+
+#: BAM/__init__.py:368
+msgid "Active Tab"
+msgstr "活动标签页"
+
+#: BAM/BAM_MaterialManager_M.py:2662
+msgid "Add as new slot"
+msgstr "添加为新槽位"
+
+#: BAM/BAM_MaterialManager_M.py:2663
+msgid "Add to scene"
+msgstr "添加到场景"
+
+#: BAM/BAM_BamAutomat_M.py:1915
+msgid "Additional TextureMap Definitions:"
+msgstr "其他纹理贴图定义："
+
+#: BAM/BAM_MaterialManager_M.py:2702
+msgid "Alpha"
+msgstr "Alpha"
+
+#: BAM/BAM_BamAutomat_M.py:404
+msgid "Alpha Blend"
+msgstr "Alpha 混合"
+
+#: BAM/BAM_BamAutomat_M.py:404
+msgid "Alpha Blend Blend Mode"
+msgstr "Alpha Blend 混合模式"
+
+#: BAM/BAM_BamAutomat_M.py:442
+msgid "Alpha Channel (from texture alpha output)"
+msgstr "Alpha 通道（来自纹理 Alpha 输出）"
+
+#: BAM/BAM_BamAutomat_M.py:402
+msgid "Alpha Clip"
+msgstr "Alpha 裁剪"
+
+#: BAM/BAM_BamAutomat_M.py:402
+msgid "Alpha Clip Blend Mode"
+msgstr "Alpha 裁剪混合模式"
+
+#: BAM/BAM_BamAutomat_M.py:403
+msgid "Alpha Hashed"
+msgstr "Alpha 哈希"
+
+#: BAM/BAM_BamAutomat_M.py:403
+msgid "Alpha Hashed Blend Mode"
+msgstr "Alpha 哈希混合模式"
+
+#: BAM/BAM_MaterialManager_M.py:2702
+msgid "Alpha value of the material"
+msgstr "材质的 Alpha 值"
+
+#: BAM/BAM_BamAutomat_M.py:2473
+msgid "Anisotropic Suffix"
+msgstr "各向异性后缀"
+
+#: BAM/BAM_BamAutomat_M.py:2557
+msgid "Anisotropic: ColorSpace"
+msgstr "各向异性：色彩空间"
+
+#: BAM/BAM_MaterialManager_M.py:3260
+msgid "Asset Library"
+msgstr "资产库"
+
+#: BAM/BAM_MaterialManager_M.py:3592
+msgid "Asset Library Path:"
+msgstr "资产库路径："
+
+#: BAM/BAM_MaterialManager_M.py:2661
+msgid "Assign to selected faces/objects"
+msgstr "指定给选中的面/物体"
+
+#: BAM/__init__.py:507
+msgid "Auto Switch to Cycles for faster"
+msgstr "自动切换到 Cycles 以加快速度"
+
+#: BAM/BAM_MaterialManager_M.py:4240
+msgid "Automatically sync textures when their files are updated."
+msgstr "纹理文件更新后自动同步。"
+
+#: BAM/BAM_MaterialManager_M.py:3587
+msgid "BAM Material Asset Manager"
+msgstr "BAM 材质资产管理器"
+
+#: BAM/__init__.py:172
+msgid "BAM preferences are not available"
+msgstr "BAM 偏好设置不可用"
+
+#: BAM/__init__.py:233
+msgid "Background color of the overlay"
+msgstr "叠加层背景色"
+
+#: BAM/BAM_MaterialManager_M.py:2668
+msgid "Base Color"
+msgstr "基础色"
+
+#: BAM/BAM_BamAutomat_M.py:2435
+msgid "Base Color Suffix"
+msgstr "基础色后缀"
+
+#: BAM/BAM_BamAutomat_M.py:2511
+msgid "Base Color: ColorSpace"
+msgstr "基础色：色彩空间"
+
+#: BAM/BAM_MaterialManager_M.py:2668
+msgid "Base color of the material"
+msgstr "材质的基础色"
+
+#: BAM/__init__.py:9
+msgid "Batch creation of materials from textures folder. Thanks KITBASH3D Team for early testing. Special thanks Nikita Kulchitskiy and Anderson Araujo"
+msgstr "从纹理文件夹批量创建材质。感谢 KITBASH3D 团队参与早期测试。特别感谢 Nikita Kulchitskiy 和 Anderson Araujo"
+
+#: BAM/BAM_BamAutomat_M.py:407
+msgid "Blend Mode"
+msgstr "混合模式"
+
+#: BAM/BAM_BamAutomat_M.py:1880
+msgid "Blend Mode for Opacity"
+msgstr "不透明度混合模式"
+
+#: BAM/BAM_MaterialManager_M.py:4264
+msgid "Blend file name for saving materials"
+msgstr "用于保存材质的 Blend 文件名"
+
+#: BAM/BAM_BamAutomat_M.py:441
+msgid "Blue Channel"
+msgstr "蓝色通道"
+
+#: BAM/__init__.py:243
+msgid "Border color of the overlay"
+msgstr "叠加层边框颜色"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Runtime_M.py:7199
+msgid "Browser Height"
+msgstr "浏览器高度"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Runtime_M.py:7222
+msgid "Browser Horizontal Scroll"
+msgstr "浏览器水平滚动"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Runtime_M.py:7213
+msgid "Browser Scroll"
+msgstr "浏览器滚动"
+
+#: BAM/BAM_BamAutomat_M.py:416
+msgid "Bump Only"
+msgstr "仅凹凸"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Constants_M.py:86
+msgid "Button Background"
+msgstr "按钮背景"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Constants_M.py:87
+msgid "Button Background Active"
+msgstr "活动按钮背景"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Constants_M.py:88
+msgid "Button Border"
+msgstr "按钮边框"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Constants_M.py:89
+msgid "Button Border Active"
+msgstr "活动按钮边框"
+
+#: BAM/BAM_MaterialManager_M.py:3572
+msgid "Catalog"
+msgstr "目录"
+
+#: BAM/BAM_MaterialManager_M.py:3572
+msgid "Catalog in Library"
+msgstr "库中的目录"
+
+#: BAM/__init__.py:353
+#: BAM/__init__.py:360
+msgid "Category"
+msgstr "类别"
+
+#: BAM/BAM_BamAutomat_M.py:438
+msgid "Channel"
+msgstr "通道"
+
+#: BAM/__init__.py:408
+#: BAM/__init__.py:453
+msgid "Channels"
+msgstr "通道"
+
+#: BAM/BAM_MaterialManager_M.py:3537
+msgid "Choose Asset Library"
+msgstr "选择资产库"
+
+#: BAM/BAM_BamAutomat_M.py:407
+msgid "Choose a Blend Mode for material with Opacity maps"
+msgstr "为带不透明度贴图的材质选择混合模式"
+
+#: BAM/BAM_BamAutomat_M.py:420
+msgid "Choose a Surface Displacement Mode for materials with Displacement maps"
+msgstr "为带置换贴图的材质选择表面置换模式"
+
+#: BAM/__init__.py:360
+msgid "Choose the category for AutoMat"
+msgstr "选择 AutoMat 的类别"
+
+#: BAM/__init__.py:353
+msgid "Choose the category for MaterialManager"
+msgstr "选择 MaterialManager 的类别"
+
+#: BAM/__init__.py:447
+msgid "Choose the region type for AutoMat"
+msgstr "选择 AutoMat 的区域类型"
+
+#: BAM/__init__.py:402
+msgid "Choose the region type for MaterialManager"
+msgstr "选择 MaterialManager 的区域类型"
+
+#: BAM/__init__.py:464
+msgid "Choose the space type for AutoMat"
+msgstr "选择 AutoMat 的空间类型"
+
+#: BAM/__init__.py:419
+msgid "Choose the space type for MaterialManager"
+msgstr "选择 MaterialManager 的空间类型"
+
+#: BAM/BAM_BamAutomat_M.py:2489
+msgid "Clearcoat Roughness Suffix"
+msgstr "清漆粗糙度后缀"
+
+#: BAM/BAM_BamAutomat_M.py:2577
+msgid "Clearcoat Roughness: ColorSpace"
+msgstr "清漆粗糙度：色彩空间"
+
+#: BAM/BAM_BamAutomat_M.py:2485
+msgid "Clearcoat Suffix"
+msgstr "清漆后缀"
+
+#: BAM/BAM_BamAutomat_M.py:2572
+msgid "Clearcoat: ColorSpace"
+msgstr "清漆：色彩空间"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Constants_M.py:94
+msgid "Close Button Background"
+msgstr "关闭按钮背景"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Constants_M.py:95
+msgid "Close Button Border"
+msgstr "关闭按钮边框"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Constants_M.py:96
+msgid "Close Button Border Hover"
+msgstr "关闭按钮边框悬停"
+
+#: BAM/BAM_MaterialManager_M.py:4151
+msgid "Collapse Recent Materials"
+msgstr "折叠最近材质"
+
+#: BAM/BAM_MaterialManager_M.py:4157
+msgid "Collapse Selected Materials"
+msgstr "折叠选中材质"
+
+#: BAM/BAM_MaterialManager_M.py:4151
+msgid "Collapse or expand recent materials in the Material Manager"
+msgstr "在材质管理器中折叠或展开最近材质"
+
+#: BAM/BAM_MaterialManager_M.py:4157
+msgid "Collapse or expand selected-object materials in the Material Manager"
+msgstr "在材质管理器中折叠或展开选中物体的材质"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Runtime_M.py:7256
+msgid "Collapse the recent-materials section in MatDeck"
+msgstr "折叠 MatDeck 中的最近材质区域"
+
+#: BAM/BAM_BamAutomat_M.py:1640
+msgid "Color spaces matched!"
+msgstr "色彩空间已匹配！"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Constants_M.py:71
+msgid "Content Background"
+msgstr "内容背景"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Constants_M.py:73
+msgid "Content Border"
+msgstr "内容边框"
+
+#: BAM/BAM_MaterialManager_M.py:3526
+#: BAM/BAM_MaterialManager_M.py:3601
+msgid "Copy Textures"
+msgstr "复制贴图"
+
+#: BAM/BAM_MaterialManager_M.py:3526
+msgid "Copy linked textures to the library folder"
+msgstr "将链接的贴图复制到库文件夹"
+
+#: BAM/BAM_MaterialManager_M.py:4274
+msgid "Copy textures into the asset library folder"
+msgstr "将贴图复制到资产库文件夹"
+
+#: BAM/BAM_BamAutomat_M.py:2339
+msgid "Create Fake User"
+msgstr "创建假用户"
+
+#: BAM/BAM_MaterialManager_M.py:2459
+msgid "Create UV Sphere"
+msgstr "创建 UV 球体"
+
+#: BAM/BAM_MaterialManager_M.py:2508
+msgid "Create a new object with this material?"
+msgstr "使用此材质创建新物体？"
+
+#: BAM/BAM_MaterialManager_M.py:4281
+msgid "Debug Render Scenes"
+msgstr "调试渲染场景"
+
+#: BAM/BAM_MaterialManager_M.py:3566
+msgid "Default"
+msgstr "默认"
+
+#: BAM/BAM_BamAutomat_M.py:1920
+#: BAM/BAM_BamAutomat_M.py:2605
+msgid "Default Specular Tint"
+msgstr "默认镜面色调"
+
+#: BAM/BAM_BamAutomat_M.py:2636
+msgid "Default displacement intensity for new materials.\n\nThis value controls the strength of height/displacement maps.\nIt is used to initialize the BAM_DispScale node connected to the Displacement input."
+msgstr "新材质的默认置换强度。\n\n此值控制高度/置换贴图的强度。\n它用于初始化连接到置换输入的 BAM_DispScale 节点。"
+
+#: BAM/BAM_BamAutomat_M.py:2623
+msgid "Defines how much specular reflections are tinted by Base Color.\n\n• 0.0 = pure white reflections (no tint)\n• 1.0 = fully tinted reflections by Base Color\n• 0.5 = balanced, physically-correct default for non-metals\n\nIn Blender 3.x, Specular Tint is numeric. In Blender 4+, it is a color value for more artistic control."
+msgstr "定义镜面反射受基础色着色的程度。\n\n• 0.0 = 纯白反射（无着色）\n• 1.0 = 完全由基础色着色\n• 0.5 = 平衡的非金属物理正确默认值\n\n在 Blender 3.x 中，镜面色调是数值。在 Blender 4+ 中，它是颜色值，可提供更多艺术控制。"
+
+#: BAM/__init__.py:533
+msgid "Delay before BAM asks Blender to generate"
+msgstr "BAM 请求 Blender 生成前的延迟"
+
+#: BAM/BAM_BamAutomat_M.py:2648
+msgid "Displacement Midlevel"
+msgstr "置换中间值"
+
+#: BAM/BAM_BamAutomat_M.py:420
+#: BAM/BAM_BamAutomat_M.py:1885
+msgid "Displacement Mode"
+msgstr "置换模式"
+
+#: BAM/BAM_BamAutomat_M.py:417
+msgid "Displacement Only"
+msgstr "仅置换"
+
+#: BAM/BAM_BamAutomat_M.py:2636
+msgid "Displacement Scale"
+msgstr "置换缩放"
+
+#: BAM/BAM_BamAutomat_M.py:2501
+msgid "Displacement Suffix"
+msgstr "置换后缀"
+
+#: BAM/BAM_BamAutomat_M.py:418
+msgid "Displacement and Bump"
+msgstr "置换和凹凸"
+
+#: BAM/BAM_BamAutomat_M.py:2592
+msgid "Displacement: ColorSpace"
+msgstr "置换：色彩空间"
+
+#: BAM/__init__.py:92
+msgid "Display Name"
+msgstr "显示名称"
+
+#: BAM/__init__.py:92
+msgid "Display name of the format"
+msgstr "格式的显示名称"
+
+#: BAM/__init__.py:429
+#: BAM/__init__.py:474
+msgid "Dope Sheet"
+msgstr "摄影表"
+
+#: BAM/BAM_BamAutomat_M.py:2505
+msgid "Emission Suffix"
+msgstr "自发光后缀"
+
+#: BAM/BAM_BamAutomat_M.py:2597
+msgid "Emission: ColorSpace"
+msgstr "自发光：色彩空间"
+
+#: BAM/__init__.py:423
+#: BAM/__init__.py:468
+msgid "Empty"
+msgstr "空"
+
+#: BAM/BAM_MaterialManager_M.py:4253
+msgid "Enable Fake User Buttons"
+msgstr "启用假用户按钮"
+
+#: BAM/__init__.py:185
+msgid "Enable switching to Cycles renderer"
+msgstr "启用切换到 Cycles 渲染器"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Runtime_M.py:7186
+msgid "Expand MatDeck under the main material list"
+msgstr "在主材质列表下方展开 MatDeck"
+
+#: BAM/BAM_MaterialManager_M.py:4248
+msgid "Expand Material Preview"
+msgstr "展开材质预览"
+
+#: BAM/BAM_MaterialManager_M.py:4248
+msgid "Expand or collapse the Material Preview section"
+msgstr "展开或折叠材质预览区域"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Constants_M.py:90
+msgid "Fade Button Background"
+msgstr "淡化按钮背景"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Constants_M.py:91
+msgid "Fade Button Background Active"
+msgstr "淡化按钮背景（激活）"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Constants_M.py:92
+msgid "Fade Button Border"
+msgstr "淡化按钮边框"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Constants_M.py:93
+msgid "Fade Button Border Active"
+msgstr "淡化按钮边框（激活）"
+
+#: BAM/__init__.py:347
+msgid "Fade MatDeck when the cursor is away"
+msgstr "光标离开时淡出 MatDeck"
+
+#: BAM/BAM_MaterialManager_M.py:2709
+msgid "Fake User"
+msgstr "伪用户"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Runtime_M.py:7231
+msgid "Filter MatDeck by material name"
+msgstr "按材质名称筛选 MatDeck"
+
+#: BAM/BAM_BamAutomat_M.py:2378
+msgid "Flip Normal Green Channel"
+msgstr "翻转法线绿色通道"
+
+#: BAM/__init__.py:87
+msgid "Format Key"
+msgstr "格式键"
+
+#: BAM/BAM_MaterialManager_M.py:3269
+#: BAM/BAM_MaterialManager_M.py:3274
+msgid "Future Sub Menu"
+msgstr "未来子菜单"
+
+#: BAM/__init__.py:371
+msgid "General"
+msgstr "常规"
+
+#: BAM/__init__.py:371
+msgid "General settings"
+msgstr "常规设置"
+
+#: BAM/__init__.py:430
+#: BAM/__init__.py:475
+msgid "Graph Editor"
+msgstr "曲线编辑器"
+
+#: BAM/BAM_BamAutomat_M.py:440
+msgid "Green Channel"
+msgstr "绿色通道"
+
+#: BAM/__init__.py:407
+#: BAM/__init__.py:452
+msgid "Header"
+msgstr "标题栏"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Constants_M.py:70
+msgid "Header Border"
+msgstr "标题栏边框"
+
+#: BAM/__init__.py:193
+msgid "Horizontal offset of the material overlay"
+msgstr "材质叠加层的水平偏移"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Runtime_M.py:7222
+msgid "Horizontal scroll position inside MatDeck"
+msgstr "MatDeck 内部的水平滚动位置"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Constants_M.py:103
+msgid "Hover Material Border"
+msgstr "悬停材质边框"
+
+#: BAM/__init__.py:515
+msgid "How frequently to check folder with"
+msgstr "检查文件夹的频率"
+
+#: BAM/__init__.py:254
+msgid "How frequently to check for texture updates (in seconds)."
+msgstr "检查纹理更新的频率（秒）。"
+
+#: BAM/__init__.py:262
+msgid "How long MatDeck waits before asking Blender to generate a large material preview for newly seen materials"
+msgstr "MatDeck 在请求 Blender 为新出现的材质生成大型材质预览前等待的时长"
+
+#: BAM/__init__.py:304
+msgid "How many recently used materials to show in MatDeck"
+msgstr "在 MatDeck 中显示多少个最近使用的材质"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Runtime_M.py:7199
+msgid "How many rows are visible in MatDeck"
+msgstr "MatDeck 中可见的行数"
+
+#: BAM/BAM_BamAutomat_M.py:2493
+msgid "IOR Suffix"
+msgstr "IOR 后缀"
+
+#: BAM/BAM_BamAutomat_M.py:2582
+msgid "IOR: ColorSpace"
+msgstr "IOR：色彩空间"
+
+#: BAM/__init__.py:227
+msgid "If enabled, override user color with random color per material"
+msgstr "启用后，使用每个材质的随机颜色覆盖用户颜色"
+
+#: BAM/__init__.py:425
+#: BAM/__init__.py:470
+msgid "Image Editor"
+msgstr "图像编辑器"
+
+#: BAM/__init__.py:539
+msgid "Image Formats Manager"
+msgstr "图像格式管理器"
+
+#: BAM/BAM_BamAutomat_M.py:2388
+msgid "Include Subfolders"
+msgstr "包含子文件夹"
+
+#: BAM/BAM_MaterialManager_M.py:3547
+msgid "Index"
+msgstr "索引"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Constants_M.py:100
+msgid "Index Badge Background"
+msgstr "索引徽标背景"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Constants_M.py:101
+msgid "Index Badge Border"
+msgstr "索引徽标边框"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Runtime_M.py:7162
+msgid "Internal pointer to the dedicated BAM MatDeck window"
+msgstr "指向专用 BAM MatDeck 窗口的内部指针"
+
+#: BAM/BAM_BamAutomat_M.py:1706
+msgid "Invert Normal Map Green Channel"
+msgstr "反转法线贴图绿色通道"
+
+#: BAM/BAM_BamAutomat_M.py:2383
+msgid "Invert Roughness"
+msgstr "反转粗糙度"
+
+#: BAM/BAM_BamAutomat_M.py:2378
+msgid "Invert the Green channel of the normal map using RGB curves"
+msgstr "使用 RGB 曲线反转法线贴图的绿色通道"
+
+#: BAM/BAM_BamAutomat_M.py:1706
+msgid "Invert the green channel of the normal map"
+msgstr "反转法线贴图的绿色通道"
+
+#: BAM/BAM_BamAutomat_M.py:2383
+msgid "Invert the roughness using RGB curves"
+msgstr "使用 RGB 曲线反转粗糙度"
+
+#: BAM/BAM_MaterialManager_M.py:2805
+msgid "Keep Fake User"
+msgstr "保留伪用户"
+
+#: BAM/BAM_MaterialManager_M.py:4164
+msgid "Keep Selection"
+msgstr "保留选择"
+
+#: BAM/BAM_MaterialManager_M.py:4164
+msgid "Keep the previous selection when selecting faces by material"
+msgstr "按材质选择面时保留之前的选择"
+
+#: BAM/__init__.py:87
+msgid "Key of the image format (e.g., EXR, PNG, etc.)"
+msgstr "图像格式的键（例如 EXR、PNG 等）"
+
+#: BAM/BAM_MaterialManager_M.py:3537
+msgid "Library"
+msgstr "库"
+
+#: BAM/BAM_MaterialManager_M.py:3531
+#: BAM/BAM_MaterialManager_M.py:3596
+msgid "Library File"
+msgstr "库文件"
+
+#: BAM/BAM_MaterialManager_M.py:2341
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Runtime_M.py:6713
+msgid "Library Filepath"
+msgstr "库文件路径"
+
+#: BAM/BAM_BamAutomat_M.py:270
+msgid "Linear"
+msgstr "线性"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Runtime_M.py:6731
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Runtime_M.py:6744
+msgid "Linked materials cannot be renamed from the current file."
+msgstr "链接的材质无法在当前文件中重命名。"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Runtime_M.py:6376
+msgid "Locked Window"
+msgstr "锁定窗口"
+
+#: BAM/BAM_MaterialManager_M.py:3443
+msgid "MPreview"
+msgstr "MPreview"
+
+#: BAM/__init__.py:378
+#: BAM/__init__.py:521
+msgid "MatDeck"
+msgstr "MatDeck"
+
+#: BAM/__init__.py:347
+msgid "MatDeck Fade Enabled"
+msgstr "启用 MatDeck 淡出"
+
+#: BAM/__init__.py:332
+msgid "MatDeck Height"
+msgstr "MatDeck 高度"
+
+#: BAM/__init__.py:339
+msgid "MatDeck Thumbnail Size"
+msgstr "MatDeck 缩略图大小"
+
+#: BAM/__init__.py:325
+msgid "MatDeck Width"
+msgstr "MatDeck 宽度"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Runtime_M.py:7162
+msgid "MatDeck Window Pointer"
+msgstr "MatDeck 窗口指针"
+
+#: BAM/__init__.py:313
+msgid "MatDeck X"
+msgstr "MatDeck X"
+
+#: BAM/__init__.py:319
+msgid "MatDeck Y"
+msgstr "MatDeck Y"
+
+#: BAM/__init__.py:9
+msgid "Material"
+msgstr "材质"
+
+#: BAM/BAM_MaterialManager_M.py:3248
+msgid "Material Cleanup"
+msgstr "材质清理"
+
+#: BAM/BAM_MaterialManager_M.py:4134
+msgid "Material Display Index"
+msgstr "材质显示索引"
+
+#: BAM/BAM_MaterialManager_M.py:3256
+msgid "Material Generation"
+msgstr "材质生成"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Constants_M.py:77
+msgid "Material Label Text"
+msgstr "材质标签文本"
+
+#: BAM/__init__.py:508
+msgid "Material Miniature generation"
+msgstr "材质缩略图生成"
+
+#: BAM/BAM_MaterialManager_M.py:2340
+#: BAM/BAM_MaterialManager_M.py:2651
+msgid "Material Name"
+msgstr "材质名称"
+
+#: BAM/__init__.py:574
+msgid "Material Overlay Settings"
+msgstr "材质叠加设置"
+
+#: BAM/BAM_MaterialManager_M.py:2167
+msgid "Material has no node tree."
+msgstr "材质没有节点树。"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Runtime_M.py:6749
+msgid "Material name cannot be empty."
+msgstr "材质名称不能为空。"
+
+#: BAM/BAM_MaterialManager_M.py:2534
+msgid "Material not found"
+msgstr "未找到材质"
+
+#: BAM/BAM_MaterialManager_M.py:1309
+#: BAM/BAM_MaterialManager_M.py:2007
+msgid "Material not found."
+msgstr "未找到材质。"
+
+#: BAM/BAM_BamAutomat_M.py:1956
+msgid "Materials Create/Update filter"
+msgstr "材质创建/更新过滤器"
+
+#: BAM/__init__.py:505
+msgid "Materials Thumbnails Generation"
+msgstr "材质缩略图生成"
+
+#: BAM/BAM_MaterialManager_M.py:2229
+msgid "Materials not found."
+msgstr "未找到材质。"
+
+#: BAM/BAM_MaterialManager_M.py:2686
+msgid "Metallic"
+msgstr "金属度"
+
+#: BAM/BAM_BamAutomat_M.py:2452
+msgid "Metallic Suffix"
+msgstr "金属度后缀"
+
+#: BAM/BAM_MaterialManager_M.py:2686
+msgid "Metallic property of the material"
+msgstr "材质的金属度属性"
+
+#: BAM/BAM_BamAutomat_M.py:2531
+msgid "Metallic: ColorSpace"
+msgstr "金属度：色彩空间"
+
+#: BAM/BAM_BamAutomat_M.py:1889
+#: BAM/BAM_BamAutomat_M.py:2648
+msgid "Midlevel"
+msgstr "中间值"
+
+#: BAM/BAM_MaterialManager_M.py:1952
+msgid "Missing material"
+msgstr "缺失材质"
+
+#: BAM/__init__.py:428
+#: BAM/__init__.py:473
+msgid "Movie Clip Editor"
+msgstr "影片剪辑编辑器"
+
+#: BAM/__init__.py:431
+#: BAM/__init__.py:476
+msgid "NLA Editor"
+msgstr "NLA 编辑器"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Runtime_M.py:6763
+msgid "Name"
+msgstr "名称"
+
+#: BAM/BAM_MaterialManager_M.py:3531
+msgid "Name of the .blend file to store materials"
+msgstr "用于存储材质的 .blend 文件名"
+
+#: BAM/BAM_MaterialManager_M.py:2651
+msgid "Name of the new material"
+msgstr "新材质名称"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Runtime_M.py:6714
+msgid "New Name"
+msgstr "新名称"
+
+#: BAM/BAM_BamAutomat_M.py:2358
+msgid "New Preset Name"
+msgstr "新预设名称"
+
+#: BAM/BAM_MaterialManager_M.py:2183
+msgid "No Shader Editor found. Please open a Shader Editor window."
+msgstr "未找到着色器编辑器。请打开一个着色器编辑器窗口。"
+
+#: BAM/BAM_MaterialManager_M.py:1679
+msgid "No UVs for apply material, try another mode."
+msgstr "没有可用于应用材质的 UV，请尝试其他模式。"
+
+#: BAM/BAM_MaterialManager_M.py:1139
+msgid "No active material to duplicate"
+msgstr "没有可复制的活动材质"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Runtime_M.py:6841
+msgid "No materials found."
+msgstr "未找到材质。"
+
+#: BAM/BAM_MaterialManager_M.py:3156
+msgid "No materials in scene."
+msgstr "场景中没有材质。"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Runtime_M.py:6315
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Runtime_M.py:6416
+msgid "No materials match the current filter."
+msgstr "没有材质匹配当前过滤器。"
+
+#: BAM/BAM_MaterialManager_M.py:3725
+msgid "No materials selected."
+msgstr "未选择材质。"
+
+#: BAM/BAM_MaterialManager_M.py:3195
+msgid "No new materials to process."
+msgstr "没有要处理的新材质。"
+
+#: BAM/BAM_MaterialManager_M.py:2507
+msgid "No objects with the selected material were found."
+msgstr "未找到使用所选材质的物体。"
+
+#: BAM/BAM_MaterialManager_M.py:1283
+#: BAM/BAM_MaterialManager_M.py:3450
+msgid "No preview available."
+msgstr "没有可用预览。"
+
+#: BAM/BAM_MaterialManager_M.py:3717
+msgid "No valid Asset Library path selected."
+msgstr "未选择有效的资产库路径。"
+
+#: BAM/__init__.py:426
+#: BAM/__init__.py:471
+msgid "Node Editor"
+msgstr "节点编辑器"
+
+#: BAM/BAM_BamAutomat_M.py:194
+#: BAM/BAM_BamAutomat_M.py:222
+msgid "Non-Color"
+msgstr "非色彩"
+
+#: BAM/BAM_BamAutomat_M.py:2444
+msgid "Normal Suffix"
+msgstr "法线后缀"
+
+#: BAM/BAM_BamAutomat_M.py:2516
+msgid "Normal: ColorSpace"
+msgstr "法线：色彩空间"
+
+#: BAM/__init__.py:111
+msgid "Not supported by this Blender"
+msgstr "此 Blender 不支持"
+
+#: BAM/BAM_BamAutomat_M.py:2456
+msgid "Opacity Suffix"
+msgstr "不透明度后缀"
+
+#: BAM/BAM_BamAutomat_M.py:2536
+msgid "Opacity: ColorSpace"
+msgstr "不透明度：色彩空间"
+
+#: BAM/BAM_BamAutomat_M.py:401
+msgid "Opaque"
+msgstr "不透明"
+
+#: BAM/BAM_BamAutomat_M.py:401
+msgid "Opaque Blend Mode"
+msgstr "不透明混合模式"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Runtime_M.py:6581
+msgid "Open the browser window from a 3D View sidebar."
+msgstr "从 3D 视图侧边栏打开浏览器窗口。"
+
+#: BAM/BAM_MaterialManager_M.py:3268
+msgid "Other"
+msgstr "其他"
+
+#: BAM/__init__.py:437
+#: BAM/__init__.py:482
+msgid "Outliner"
+msgstr "大纲视图"
+
+#: BAM/__init__.py:233
+msgid "Overlay Background Color"
+msgstr "叠加层背景颜色"
+
+#: BAM/__init__.py:243
+msgid "Overlay Border Color"
+msgstr "叠加层边框颜色"
+
+#: BAM/__init__.py:209
+msgid "Overlay Font Size"
+msgstr "叠加层字体大小"
+
+#: BAM/__init__.py:193
+msgid "Overlay Offset X"
+msgstr "叠加层偏移 X"
+
+#: BAM/__init__.py:201
+msgid "Overlay Offset Y"
+msgstr "叠加层偏移 Y"
+
+#: BAM/__init__.py:272
+msgid "Overlay Preview Displacement"
+msgstr "叠加层预览置换"
+
+#: BAM/__init__.py:286
+msgid "Overlay Preview Displacement Scale"
+msgstr "叠加层预览置换缩放"
+
+#: BAM/__init__.py:262
+msgid "Overlay Preview Settle Delay"
+msgstr "叠加层预览稳定延迟"
+
+#: BAM/__init__.py:217
+msgid "Overlay Text Color"
+msgstr "叠加层文本颜色"
+
+#: BAM/__init__.py:279
+msgid "Override Displacement Scale"
+msgstr "覆盖置换缩放"
+
+#: BAM/BAM_MaterialManager_M.py:3600
+#: BAM/BAM_MaterialManager_M.py:4269
+msgid "Override Existing"
+msgstr "覆盖现有"
+
+#: BAM/BAM_MaterialManager_M.py:3521
+msgid "Override Existing Assets"
+msgstr "覆盖现有资产"
+
+#: BAM/__init__.py:279
+msgid "Override shader Displacement node Scale while rendering MatDeck previews"
+msgstr "渲染 MatDeck 预览时覆盖着色器置换节点的缩放"
+
+#: BAM/__init__.py:558
+msgid "Panels UI Settings"
+msgstr "面板 UI 设置"
+
+#: BAM/BAM_MaterialManager_M.py:4260
+msgid "Path to selected asset library"
+msgstr "所选资产库的路径"
+
+#: BAM/BAM_MaterialManager_M.py:1745
+msgid "Pipette mode cancelled."
+msgstr "吸管模式已取消。"
+
+#: BAM/BAM_MaterialManager_M.py:1604
+msgid "Pipette not supported in Edit Mode. Switch to Object Mode first."
+msgstr "编辑模式下不支持吸管。请先切换到物体模式。"
+
+#: BAM/BAM_BamAutomat_M.py:1975
+msgid "Please select a texture folder"
+msgstr "请选择纹理文件夹"
+
+#: BAM/__init__.py:441
+#: BAM/__init__.py:486
+msgid "Preferences"
+msgstr "偏好设置"
+
+#: BAM/__init__.py:150
+msgid "Preferences saved successfully"
+msgstr "偏好设置已成功保存"
+
+#: BAM/BAM_BamAutomat_M.py:1994
+msgid "Preset Name"
+msgstr "预设名称"
+
+#: BAM/BAM_BamAutomat_M.py:2004
+msgid "Preset name cannot be empty"
+msgstr "预设名称不能为空"
+
+#: BAM/BAM_BamAutomat_M.py:1860
+#: BAM/BAM_BamAutomat_M.py:2401
+msgid "Presets"
+msgstr "预设"
+
+#: BAM/__init__.py:413
+#: BAM/__init__.py:458
+msgid "Preview"
+msgstr "预览"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Constants_M.py:74
+msgid "Preview Backdrop"
+msgstr "预览背景"
+
+#: BAM/BAM_MaterialManager_M.py:1289
+msgid "Preview is rendering."
+msgstr "预览正在渲染。"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Constants_M.py:75
+msgid "Primary Text"
+msgstr "主文本"
+
+#: BAM/__init__.py:438
+#: BAM/__init__.py:483
+msgid "Properties"
+msgstr "属性"
+
+#: BAM/BAM_BamAutomat_M.py:438
+msgid "RGB Channel"
+msgstr "RGB 通道"
+
+#: BAM/__init__.py:227
+msgid "Random Font Color"
+msgstr "随机字体颜色"
+
+#: BAM/BAM_BamAutomat_M.py:273
+msgid "Raw"
+msgstr "Raw"
+
+#: BAM/BAM_BamAutomat_M.py:195
+#: BAM/BAM_BamAutomat_M.py:223
+msgid "Rec.1886"
+msgstr "Rec.1886"
+
+#: BAM/BAM_BamAutomat_M.py:196
+#: BAM/BAM_BamAutomat_M.py:224
+msgid "Rec.2020"
+msgstr "Rec.2020"
+
+#: BAM/BAM_BamAutomat_M.py:197
+msgid "Rec.2100-HLG"
+msgstr "Rec.2100-HLG"
+
+#: BAM/BAM_BamAutomat_M.py:198
+msgid "Rec.2100-PQ"
+msgstr "Rec.2100-PQ"
+
+#: BAM/BAM_BamAutomat_M.py:275
+msgid "Rec.709"
+msgstr "Rec.709"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Constants_M.py:72
+msgid "Recent Content Background"
+msgstr "最近内容背景"
+
+#: BAM/BAM_MaterialManager_M.py:4140
+msgid "Recent Material Display Index"
+msgstr "最近材质显示索引"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Runtime_M.py:7256
+msgid "Recent Materials Collapsed"
+msgstr "最近材质折叠"
+
+#: BAM/__init__.py:304
+msgid "Recent Materials Count"
+msgstr "最近材质数量"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Runtime_M.py:7262
+msgid "Recent Materials Scroll"
+msgstr "最近材质滚动"
+
+#: BAM/BAM_BamAutomat_M.py:439
+msgid "Red Channel"
+msgstr "红色通道"
+
+#: BAM/__init__.py:402
+#: BAM/__init__.py:447
+msgid "Region Type"
+msgstr "区域类型"
+
+#: BAM/BAM_BamAutomat_M.py:1827
+#: BAM/BAM_BamAutomat_M.py:2395
+msgid "Relative Paths"
+msgstr "相对路径"
+
+#: BAM/__init__.py:272
+msgid "Render MatDeck preview thumbnails with material displacement enabled. This is slower and uses Cycles when available."
+msgstr "渲染 MatDeck 预览缩略图时启用材质置换。这会较慢，并在可用时使用 Cycles。"
+
+#: BAM/BAM_MaterialManager_M.py:2258
+msgid "Replace Material"
+msgstr "替换材质"
+
+#: BAM/BAM_MaterialManager_M.py:3521
+msgid "Replace existing assets if duplicates found"
+msgstr "发现重复项时替换现有资产"
+
+#: BAM/BAM_MaterialManager_M.py:4269
+msgid "Replace existing materials in the asset library"
+msgstr "替换资产库中的现有材质"
+
+#: BAM/BAM_MaterialManager_M.py:2251
+msgid "Replace with:"
+msgstr "替换为："
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Runtime_M.py:7244
+msgid "Reverse MatDeck order"
+msgstr "反转 MatDeck 顺序"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Runtime_M.py:7244
+msgid "Reverse Sort"
+msgstr "反向排序"
+
+#: BAM/BAM_MaterialManager_M.py:3139
+msgid "Rings"
+msgstr "环"
+
+#: BAM/BAM_MaterialManager_M.py:2678
+msgid "Roughness"
+msgstr "粗糙度"
+
+#: BAM/BAM_BamAutomat_M.py:2448
+msgid "Roughness Suffix"
+msgstr "粗糙度后缀"
+
+#: BAM/BAM_MaterialManager_M.py:2678
+msgid "Roughness of the material"
+msgstr "材质的粗糙度"
+
+#: BAM/BAM_BamAutomat_M.py:2526
+msgid "Roughness: ColorSpace"
+msgstr "粗糙度：色彩空间"
+
+#: BAM/BAM_MaterialManager_M.py:4281
+msgid "Save preview render scenes to project directory if enabled"
+msgstr "启用后将预览渲染场景保存到项目目录"
+
+#: BAM/BAM_MaterialManager_M.py:2709
+msgid "Save the material from being deleted"
+msgstr "保护材质不被删除"
+
+#: BAM/__init__.py:313
+msgid "Saved X position for MatDeck"
+msgstr "MatDeck 保存的 X 位置"
+
+#: BAM/__init__.py:319
+msgid "Saved Y position for MatDeck"
+msgstr "MatDeck 保存的 Y 位置"
+
+#: BAM/__init__.py:332
+msgid "Saved height for MatDeck"
+msgstr "MatDeck 保存的高度"
+
+#: BAM/__init__.py:339
+msgid "Saved thumbnail size for MatDeck"
+msgstr "MatDeck 保存的缩略图大小"
+
+#: BAM/__init__.py:325
+msgid "Saved width for MatDeck"
+msgstr "MatDeck 保存的宽度"
+
+#: BAM/BAM_BamAutomat_M.py:1888
+msgid "Scale"
+msgstr "缩放"
+
+#: BAM/__init__.py:286
+msgid "Scale applied to shader displacement nodes while rendering MatDeck previews"
+msgstr "渲染 MatDeck 预览时应用于着色器置换节点的缩放"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Runtime_M.py:7191
+msgid "Scale of material thumbnails in the custom browser"
+msgstr "自定义浏览器中材质缩略图的缩放"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Runtime_M.py:7213
+msgid "Scroll position inside MatDeck"
+msgstr "MatDeck 内部的滚动位置"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Runtime_M.py:7262
+msgid "Scroll position inside the MatDeck recent-materials section"
+msgstr "MatDeck 最近材质区域内的滚动位置"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Constants_M.py:97
+msgid "Scrollbar Background"
+msgstr "滚动条背景"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Constants_M.py:98
+msgid "Scrollbar Rail"
+msgstr "滚动条轨道"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Constants_M.py:99
+msgid "Scrollbar Thumb"
+msgstr "滚动条滑块"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Constants_M.py:78
+msgid "Search Background"
+msgstr "搜索背景"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Constants_M.py:79
+msgid "Search Background Active"
+msgstr "搜索背景（活动）"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Constants_M.py:80
+msgid "Search Border"
+msgstr "搜索边框"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Runtime_M.py:7231
+msgid "Search Materials"
+msgstr "搜索材质"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Constants_M.py:82
+msgid "Search Placeholder"
+msgstr "搜索占位符"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Constants_M.py:83
+msgid "Search Selection"
+msgstr "搜索选中项"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Constants_M.py:81
+msgid "Search Text"
+msgstr "搜索文本"
+
+#: BAM/BAM_BamAutomat_M.py:2388
+msgid "Search for textures in subfolders"
+msgstr "在子文件夹中搜索纹理"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Constants_M.py:76
+msgid "Secondary Text"
+msgstr "次要文本"
+
+#: BAM/BAM_MaterialManager_M.py:3138
+msgid "Segments"
+msgstr "分段"
+
+#: BAM/BAM_MaterialManager_M.py:3611
+msgid "Select Materials to Export:"
+msgstr "选择要导出的材质："
+
+#: BAM/BAM_BamAutomat_M.py:2401
+msgid "Select a preset to apply"
+msgstr "选择要应用的预设"
+
+#: BAM/BAM_MaterialManager_M.py:4260
+msgid "Selected Library Path"
+msgstr "所选库路径"
+
+#: BAM/BAM_MaterialManager_M.py:4146
+msgid "Selected Material Display Index"
+msgstr "所选材质显示索引"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Runtime_M.py:7250
+msgid "Selected Materials Only"
+msgstr "仅所选材质"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Runtime_M.py:6323
+msgid "Selected Only"
+msgstr "仅选中项"
+
+#: BAM/__init__.py:427
+#: BAM/__init__.py:472
+msgid "Sequencer"
+msgstr "序列编辑器"
+
+#: BAM/BAM_BamAutomat_M.py:2339
+msgid "Set Fake User on created materials, to save them from being deleted."
+msgstr "为创建的材质设置假用户，以免被删除。"
+
+#: BAM/BAM_BamAutomat_M.py:2477
+msgid "Sheen Suffix"
+msgstr "光泽后缀"
+
+#: BAM/BAM_BamAutomat_M.py:2481
+msgid "Sheen Tint Suffix"
+msgstr "光泽色调后缀"
+
+#: BAM/BAM_BamAutomat_M.py:2567
+msgid "Sheen Tint: ColorSpace"
+msgstr "光泽色调：色彩空间"
+
+#: BAM/BAM_BamAutomat_M.py:2562
+msgid "Sheen: ColorSpace"
+msgstr "光泽：色彩空间"
+
+#: BAM/BAM_MaterialManager_M.py:3633
+msgid "Shift+ESC = Close Overlay (if active)"
+msgstr "Shift+ESC = 关闭叠加层（如果激活）"
+
+#: BAM/BAM_MaterialManager_M.py:4219
+msgid "Show Advanced Buttons"
+msgstr "显示高级按钮"
+
+#: BAM/BAM_BamAutomat_M.py:2360
+msgid "Show Advanced Texture Settings"
+msgstr "显示高级纹理设置"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Runtime_M.py:7207
+msgid "Show Browser Filters"
+msgstr "显示浏览器过滤器"
+
+#: BAM/BAM_BamAutomat_M.py:2372
+msgid "Show Filter"
+msgstr "显示过滤器"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Runtime_M.py:7186
+msgid "Show MatDeck"
+msgstr "显示 MatDeck"
+
+#: BAM/__init__.py:378
+msgid "Show MatDeck theme controls"
+msgstr "显示 MatDeck 主题控件"
+
+#: BAM/BAM_MaterialManager_M.py:4119
+msgid "Show Material Object Count"
+msgstr "显示材质物体数量"
+
+#: BAM/__init__.py:297
+msgid "Show Recent Materials"
+msgstr "显示最近使用的材质"
+
+#: BAM/BAM_MaterialManager_M.py:4125
+msgid "Show Selected Materials"
+msgstr "显示所选材质"
+
+#: BAM/BAM_BamAutomat_M.py:2366
+msgid "Show Texture Settings"
+msgstr "显示纹理设置"
+
+#: BAM/__init__.py:297
+msgid "Show a collapsible recent-materials section at the top of MatDeck"
+msgstr "在 MatDeck 顶部显示可折叠的最近材质区域"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Runtime_M.py:7250
+msgid "Show only materials assigned to selected mesh objects"
+msgstr "仅显示分配给所选网格物体的材质"
+
+#: BAM/BAM_MaterialManager_M.py:4125
+msgid "Show only materials assigned to selected objects"
+msgstr "仅显示分配给所选物体的材质"
+
+#: BAM/BAM_MaterialManager_M.py:4219
+msgid "Show or hide advanced buttons in the Material Manager"
+msgstr "显示或隐藏材质管理器中的高级按钮"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Runtime_M.py:7207
+msgid "Show or hide filter controls for MatDeck"
+msgstr "显示或隐藏 MatDeck 的过滤器控件"
+
+#: BAM/BAM_MaterialManager_M.py:4253
+msgid "Show per-material fake user toggle buttons"
+msgstr "显示每个材质的假用户切换按钮"
+
+#: BAM/BAM_MaterialManager_M.py:4119
+msgid "Show the count of objects using each material"
+msgstr "显示使用每个材质的物体数量"
+
+#: BAM/__init__.py:209
+msgid "Size of the text in the overlay"
+msgstr "叠加层中文本的大小"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Constants_M.py:84
+msgid "Slider Rail"
+msgstr "滑块轨道"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Constants_M.py:85
+msgid "Slider Thumb"
+msgstr "滑块手柄"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Runtime_M.py:7238
+msgid "Sort Alphabetically"
+msgstr "按字母排序"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Runtime_M.py:7238
+msgid "Sort MatDeck by material name"
+msgstr "按材质名称排序 MatDeck"
+
+#: BAM/__init__.py:419
+#: BAM/__init__.py:464
+msgid "Space Type"
+msgstr "空间类型"
+
+#: BAM/BAM_MaterialManager_M.py:3136
+msgid "Spacing"
+msgstr "间距"
+
+#: BAM/BAM_BamAutomat_M.py:2465
+msgid "Specular Suffix"
+msgstr "高光后缀"
+
+#: BAM/BAM_BamAutomat_M.py:2469
+msgid "Specular Tint Suffix"
+msgstr "高光色调后缀"
+
+#: BAM/BAM_BamAutomat_M.py:2552
+msgid "Specular Tint: ColorSpace"
+msgstr "高光色调：色彩空间"
+
+#: BAM/BAM_BamAutomat_M.py:2547
+msgid "Specular: ColorSpace"
+msgstr "高光：色彩空间"
+
+#: BAM/BAM_MaterialManager_M.py:3137
+msgid "Sphere Radius"
+msgstr "球体半径"
+
+#: BAM/__init__.py:440
+#: BAM/__init__.py:485
+msgid "Spreadsheet"
+msgstr "电子表格"
+
+#: BAM/BAM_BamAutomat_M.py:2395
+msgid "Store texture file paths as relative to the current .blend file"
+msgstr "将纹理文件路径存储为相对于当前 .blend 文件"
+
+#: BAM/BAM_BamAutomat_M.py:1826
+msgid "Subfolders Scan"
+msgstr "子文件夹扫描"
+
+#: BAM/BAM_MaterialManager_M.py:4043
+msgid "Subprocess died before READY."
+msgstr "子进程在 READY 前终止。"
+
+#: BAM/BAM_MaterialManager_M.py:4064
+msgid "Subprocess failed — see console."
+msgstr "子进程失败——请查看控制台。"
+
+#: BAM/BAM_BamAutomat_M.py:2460
+msgid "Subsurface Suffix"
+msgstr "次表面后缀"
+
+#: BAM/BAM_BamAutomat_M.py:2541
+msgid "Subsurface: ColorSpace"
+msgstr "次表面：色彩空间"
+
+#: BAM/__init__.py:185
+msgid "Switch to Cycles"
+msgstr "切换到 Cycles"
+
+#: BAM/BAM_MaterialManager_M.py:2254
+msgid "Target Mat"
+msgstr "目标材质"
+
+#: BAM/__init__.py:409
+#: BAM/__init__.py:454
+msgid "Temporary"
+msgstr "临时"
+
+#: BAM/__init__.py:432
+#: BAM/__init__.py:477
+msgid "Text Editor"
+msgstr "文本编辑器"
+
+#: BAM/__init__.py:217
+msgid "Text Font COlor"
+msgstr "文本字体颜色"
+
+#: BAM/BAM_MaterialManager_M.py:3140
+msgid "Text Size"
+msgstr "文本大小"
+
+#: BAM/BAM_BamAutomat_M.py:2346
+msgid "Texture Folder"
+msgstr "纹理文件夹"
+
+#: BAM/BAM_MaterialManager_M.py:3265
+#: BAM/BAM_MaterialManager_M.py:4240
+msgid "Texture Sync"
+msgstr "纹理同步"
+
+#: BAM/BAM_MaterialManager_M.py:3264
+msgid "Texture Tools"
+msgstr "纹理工具"
+
+#: BAM/BAM_BamAutomat_M.py:1823
+msgid "TextureFolder:"
+msgstr "纹理文件夹："
+
+#: BAM/BAM_BamAutomat_M.py:1871
+msgid "TextureMap Definitions:"
+msgstr "纹理贴图定义："
+
+#: BAM/__init__.py:513
+msgid "Textures Auto Refresh (Sync)"
+msgstr "纹理自动刷新（同步）"
+
+#: BAM/__init__.py:254
+msgid "Textures Sync Interval"
+msgstr "纹理同步间隔"
+
+#: BAM/BAM_MaterialManager_M.py:2409
+#: BAM/BAM_MaterialManager_M.py:2495
+msgid "This operation cannot be performed in Edit Mode."
+msgstr "此操作无法在编辑模式下执行。"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Runtime_M.py:6216
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Runtime_M.py:6380
+msgid "Thumbnail Size"
+msgstr "缩略图大小"
+
+#: BAM/BAM_MaterialManager_M.py:4229
+msgid "Thumbnails OFF"
+msgstr "缩略图关闭"
+
+#: BAM/BAM_MaterialManager_M.py:4230
+msgid "Thumbnails ON"
+msgstr "缩略图开启"
+
+#: BAM/BAM_MaterialManager_M.py:4049
+msgid "Timeout waiting READY."
+msgstr "等待 READY 超时。"
+
+#: BAM/BAM_BamAutomat_M.py:2372
+msgid "Toggle the visibility of Filter"
+msgstr "切换筛选器的可见性"
+
+#: BAM/BAM_BamAutomat_M.py:2360
+msgid "Toggle the visibility of advanced texture settings"
+msgstr "切换高级纹理设置的可见性"
+
+#: BAM/BAM_BamAutomat_M.py:2366
+msgid "Toggle the visibility of texture settings"
+msgstr "切换纹理设置的可见性"
+
+#: BAM/__init__.py:412
+#: BAM/__init__.py:457
+msgid "Tool Props"
+msgstr "工具属性"
+
+#: BAM/__init__.py:411
+#: BAM/__init__.py:456
+msgid "Tools"
+msgstr "工具"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Constants_M.py:104
+msgid "Tooltip Background"
+msgstr "工具提示背景"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Constants_M.py:105
+msgid "Tooltip Border"
+msgstr "工具提示边框"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Constants_M.py:106
+msgid "Tooltip Text"
+msgstr "工具提示文本"
+
+#: BAM/BAM_MaterialManager_M.py:2694
+msgid "Transmission"
+msgstr "透射"
+
+#: BAM/BAM_BamAutomat_M.py:2497
+msgid "Transmission Suffix"
+msgstr "透射后缀"
+
+#: BAM/BAM_MaterialManager_M.py:2694
+msgid "Transmission of the material"
+msgstr "材质的透射"
+
+#: BAM/BAM_BamAutomat_M.py:2587
+msgid "Transmission: ColorSpace"
+msgstr "透射：色彩空间"
+
+#: BAM/__init__.py:410
+#: BAM/__init__.py:455
+msgid "UI"
+msgstr "界面"
+
+#: BAM/__init__.py:177
+msgid "UI Styles reset to defaults"
+msgstr "界面样式已重置为默认值"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Runtime_M.py:6507
+msgid "Unable to attach MatDeck to this viewport."
+msgstr "无法将 MatDeck 附加到该视图。"
+
+#: BAM/BAM_MaterialManager_M.py:2353
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Runtime_M.py:6828
+msgid "Unable to queue thumbnail refresh."
+msgstr "无法加入缩略图刷新队列。"
+
+#: BAM/BAM_MaterialManager_M.py:3242
+#: BAM/BAM_MaterialManager_M.py:3419
+msgid "Utilities"
+msgstr "实用工具"
+
+#: BAM/BAM_BamAutomat_M.py:1714
+#: BAM/BAM_BamAutomat_M.py:1727
+msgid "Value"
+msgstr "值"
+
+#: BAM/__init__.py:201
+msgid "Vertical offset of the material overlay"
+msgstr "材质叠加层的垂直偏移"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Runtime_M.py:6321
+msgid "Visible: 0 / 0"
+msgstr "可见：0 / 0"
+
+#: BAM/BAM_MaterialManager_M.py:2657
+msgid "What to do with the new material"
+msgstr "新材质的处理方式"
+
+#: BAM/__init__.py:406
+#: BAM/__init__.py:451
+msgid "Window"
+msgstr "窗口"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Constants_M.py:67
+msgid "Window Background"
+msgstr "窗口背景"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Constants_M.py:68
+msgid "Window Border"
+msgstr "窗口边框"
+
+#: BAM/BAM_BamAutomat_M.py:1791
+#: BAM/BAM_BamAutomat_M.py:1795
+msgid "[BAM] AutoMat"
+msgstr "[BAM] AutoMat"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Runtime_M.py:6587
+msgid "[BAM] MatDeck window is already open."
+msgstr "[BAM] MatDeck 窗口已打开。"
+
+#: BAM/BAM_MaterialManager_M.py:3384
+msgid "[BAM] MaterialManager"
+msgstr "[BAM] MaterialManager"
+
+#: BAM/__init__.py:568
+msgid "[NOTE] *Addon panels do not support"
+msgstr "[注意] *插件面板不支持"
+
+#: BAM/BAM_BamAutomat_M.py:2281
+#: BAM/BAM_BamAutomat_M.py:2302
+msgid "_anisotropic"
+msgstr "_anisotropic"
+
+#: BAM/BAM_BamAutomat_M.py:2281
+#: BAM/BAM_BamAutomat_M.py:2302
+msgid "_ao"
+msgstr "_ao"
+
+#: BAM/BAM_BamAutomat_M.py:2281
+#: BAM/BAM_BamAutomat_M.py:2302
+msgid "_basecolor"
+msgstr "_basecolor"
+
+#: BAM/BAM_BamAutomat_M.py:2281
+#: BAM/BAM_BamAutomat_M.py:2302
+msgid "_clearcoat"
+msgstr "_clearcoat"
+
+#: BAM/BAM_BamAutomat_M.py:2281
+#: BAM/BAM_BamAutomat_M.py:2302
+msgid "_clearcoat_roughness"
+msgstr "_clearcoat_roughness"
+
+#: BAM/BAM_BamAutomat_M.py:2281
+#: BAM/BAM_BamAutomat_M.py:2302
+msgid "_emissive"
+msgstr "_emissive"
+
+#: BAM/BAM_BamAutomat_M.py:2281
+#: BAM/BAM_BamAutomat_M.py:2302
+msgid "_height"
+msgstr "_height"
+
+#: BAM/BAM_BamAutomat_M.py:2281
+#: BAM/BAM_BamAutomat_M.py:2302
+msgid "_ior"
+msgstr "_ior"
+
+#: BAM/BAM_BamAutomat_M.py:2281
+#: BAM/BAM_BamAutomat_M.py:2302
+msgid "_metallic"
+msgstr "_metallic"
+
+#: BAM/BAM_BamAutomat_M.py:2281
+#: BAM/BAM_BamAutomat_M.py:2302
+msgid "_normal"
+msgstr "_normal"
+
+#: BAM/BAM_BamAutomat_M.py:2281
+#: BAM/BAM_BamAutomat_M.py:2302
+msgid "_opacity"
+msgstr "_opacity"
+
+#: BAM/BAM_BamAutomat_M.py:2281
+#: BAM/BAM_BamAutomat_M.py:2302
+msgid "_roughness"
+msgstr "_roughness"
+
+#: BAM/BAM_BamAutomat_M.py:2281
+#: BAM/BAM_BamAutomat_M.py:2302
+msgid "_sheen"
+msgstr "_sheen"
+
+#: BAM/BAM_BamAutomat_M.py:2281
+#: BAM/BAM_BamAutomat_M.py:2302
+msgid "_sheen_tint"
+msgstr "_sheen_tint"
+
+#: BAM/BAM_BamAutomat_M.py:2281
+#: BAM/BAM_BamAutomat_M.py:2302
+msgid "_specular"
+msgstr "_specular"
+
+#: BAM/BAM_BamAutomat_M.py:2281
+msgid "_specular_ior"
+msgstr "_specular_ior"
+
+#: BAM/BAM_BamAutomat_M.py:2302
+msgid "_specular_tint"
+msgstr "_specular_tint"
+
+#: BAM/BAM_BamAutomat_M.py:2281
+#: BAM/BAM_BamAutomat_M.py:2302
+msgid "_subsurface"
+msgstr "_subsurface"
+
+#: BAM/BAM_BamAutomat_M.py:2281
+#: BAM/BAM_BamAutomat_M.py:2302
+msgid "_transmission"
+msgstr "_transmission"
+
+#: BAM/__init__.py:534
+msgid "a large preview for a newly seen material"
+msgstr "新发现材质的大预览"
+
+#: BAM/__init__.py:569
+msgid "display in all Region Types and Space Types*"
+msgstr "在所有区域类型和空间类型中显示*"
+
+#: BAM/BAM_BamAutomat_M.py:199
+#: BAM/BAM_BamAutomat_M.py:225
+msgid "sRGB"
+msgstr "sRGB"
+
+#: BAM/__init__.py:516
+msgid "textures for auto refresh in seconds"
+msgstr "纹理自动刷新间隔（秒）"
+
+#: BAM/BAM_MaterialManager_M.py:3632
+msgid "✔ OK = Add to Library"
+msgstr "✔ 确定 = 添加到库"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Runtime_M.py:5599
+msgctxt "Operator"
+msgid "- Assign material to selected"
+msgstr "- 为选中项指定材质"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Runtime_M.py:5663
+msgctxt "Operator"
+msgid "- Delete Material + Textures Data"
+msgstr "- 删除材质 + 纹理数据"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Runtime_M.py:5646
+msgctxt "Operator"
+msgid "- Refresh Thumbnail"
+msgstr "- 刷新缩略图"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Runtime_M.py:5654
+msgctxt "Operator"
+msgid "- Refresh thumbnails for all materials"
+msgstr "- 刷新所有材质的缩略图"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Runtime_M.py:5628
+msgctxt "Operator"
+msgid "- Rename Material"
+msgstr "- 重命名材质"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Runtime_M.py:5606
+msgctxt "Operator"
+msgid "- Replace Material"
+msgstr "- 替换材质"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Runtime_M.py:5613
+msgctxt "Operator"
+msgid "- Select Faces By Material"
+msgstr "- 按材质选择面"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Runtime_M.py:5620
+msgctxt "Operator"
+msgid "- Select Objects By Material"
+msgstr "- 按材质选择物体"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Runtime_M.py:5637
+msgctxt "Operator"
+msgid "- Switch to Shader Editor"
+msgstr "- 切换到着色器编辑器"
+
+#: BAM/BAM_MaterialManager_M.py:1776
+#: BAM/BAM_MaterialManager_M.py:1780
+msgctxt "Operator"
+msgid "."
+msgstr "."
+
+#: BAM/__init__.py:660
+msgctxt "Operator"
+msgid "Add Image Format"
+msgstr "添加图像格式"
+
+#: BAM/BAM_MaterialManager_M.py:2647
+#: BAM/BAM_MaterialManager_M.py:3280
+msgctxt "Operator"
+msgid "Add Material"
+msgstr "添加材质"
+
+#: BAM/BAM_MaterialManager_M.py:3698
+msgctxt "Operator"
+msgid "Add Materials to Library (Subprocess)"
+msgstr "将材质添加到库（子进程）"
+
+#: BAM/BAM_MaterialManager_M.py:2648
+msgctxt "Operator"
+msgid "Add new Empty Material to Blender Scene"
+msgstr "向 Blender 场景添加新的空材质"
+
+#: BAM/BAM_BamAutomat_M.py:1636
+msgctxt "Operator"
+msgid "Apply Color Space rules to all textures in Project."
+msgstr "将色彩空间规则应用到项目中的所有纹理。"
+
+#: BAM/BAM_MaterialManager_M.py:1588
+msgctxt "Operator"
+msgid "Apply Material via Pipette"
+msgstr "通过吸管应用材质"
+
+#: BAM/BAM_MaterialManager_M.py:2360
+msgctxt "Operator"
+msgid "Assign Material to Selection"
+msgstr "为选中项指定材质"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Runtime_M.py:6639
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Runtime_M.py:6640
+msgctxt "Operator"
+msgid "Assign material to selected"
+msgstr "为选中项指定材质"
+
+#: BAM/BAM_MaterialManager_M.py:3517
+msgctxt "Operator"
+msgid "BAM Material Asset Manager"
+msgstr "BAM 材质资产管理器"
+
+#: BAM/BAM_MatOverlay_M.py:236
+msgctxt "Operator"
+msgid "BAM Material Overlay Toggle"
+msgstr "BAM 材质叠加层开关"
+
+#: BAM/BAM_BamAutomat_M.py:1649
+msgctxt "Operator"
+msgid "Batch Materials Creator and Updater"
+msgstr "批量材质创建与更新器"
+
+#: BAM/BAM_BamAutomat_M.py:1541
+msgctxt "Operator"
+msgid "Check All"
+msgstr "检查全部"
+
+#: BAM/BAM_BamAutomat_M.py:1542
+msgctxt "Operator"
+msgid "Check all materials"
+msgstr "检查所有材质"
+
+#: BAM/BAM_MaterialManager_M.py:3105
+#: BAM/BAM_MaterialManager_M.py:3252
+msgctxt "Operator"
+msgid "Clean All Materials Nodes (scene or selected)"
+msgstr "清理所有材质节点（场景或选中项）"
+
+#: BAM/BAM_MaterialManager_M.py:3118
+#: BAM/BAM_MaterialManager_M.py:3253
+msgctxt "Operator"
+msgid "Clean All Materials Nodes + Textures Data (scene or selected)"
+msgstr "清理所有材质节点 + 纹理数据（场景或选中项）"
+
+#: BAM/BAM_MaterialManager_M.py:3106
+msgctxt "Operator"
+msgid "Clean all Materials by removing unnecessary nodes and links"
+msgstr "通过移除不必要的节点和链接来清理所有材质"
+
+#: BAM/BAM_MaterialManager_M.py:3119
+msgctxt "Operator"
+msgid "Clean all materials by removing unnecessary nodes, links, and associated texture data blocks"
+msgstr "通过移除不必要的节点、链接和相关纹理数据块来清理所有材质"
+
+#: BAM/BAM_MaterialManager_M.py:3251
+msgctxt "Operator"
+msgid "Clear Materials Duplicates"
+msgstr "清除重复材质"
+
+#: BAM/BAM_MaterialManager_M.py:3249
+msgctxt "Operator"
+msgid "Clear Unused Material Slots (scene or selected)"
+msgstr "清除未使用的材质槽（场景或选中项）"
+
+#: BAM/BAM_MaterialManager_M.py:3250
+msgctxt "Operator"
+msgid "Clear Unused Materials"
+msgstr "清除未使用的材质"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Runtime_M.py:6624
+msgctxt "Operator"
+msgid "Close MatDeck Window"
+msgstr "关闭 MatDeck 窗口"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Runtime_M.py:6625
+msgctxt "Operator"
+msgid "Close the locked MatDeck window"
+msgstr "关闭锁定的 MatDeck 窗口"
+
+#: BAM/BAM_MaterialManager_M.py:3257
+msgctxt "Operator"
+msgid "Create MatSpheres Grid"
+msgstr "创建材质球网格"
+
+#: BAM/BAM_MaterialManager_M.py:3132
+msgctxt "Operator"
+msgid "Create Spheres for Materials"
+msgstr "为材质创建球体"
+
+#: BAM/BAM_BamAutomat_M.py:1648
+msgctxt "Operator"
+msgid "Create and update Materials"
+msgstr "创建并更新材质"
+
+#: BAM/BAM_MaterialManager_M.py:3133
+msgctxt "Operator"
+msgid "Create labeled spheres for each material in the scene"
+msgstr "为场景中的每个材质创建带标签的球体"
+
+#: BAM/BAM_MaterialManager_M.py:3699
+msgctxt "Operator"
+msgid "Create or update BAMMatLib.blend, add selected materials and mark them as Assets with rendered previews"
+msgstr "创建或更新 BAMMatLib.blend，添加所选材质并将其标记为带渲染预览的资产"
+
+#: BAM/BAM_MaterialManager_M.py:2821
+msgctxt "Operator"
+msgid "Del Material"
+msgstr "删除材质"
+
+#: BAM/BAM_MaterialManager_M.py:2853
+msgctxt "Operator"
+msgid "Delete Duplicated Materials"
+msgstr "删除重复材质"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Runtime_M.py:6768
+msgctxt "Operator"
+msgid "Delete Material + Textures Data"
+msgstr "删除材质 + 纹理数据"
+
+#: BAM/BAM_BamAutomat_M.py:2044
+msgctxt "Operator"
+msgid "Delete Material Preset"
+msgstr "删除材质预设"
+
+#: BAM/BAM_BamAutomat_M.py:2043
+msgctxt "Operator"
+msgid "Delete Preset"
+msgstr "删除预设"
+
+#: BAM/BAM_MaterialManager_M.py:2895
+msgctxt "Operator"
+msgid "Delete Unused Material Slots"
+msgstr "删除未使用的材质槽"
+
+#: BAM/BAM_MaterialManager_M.py:2937
+msgctxt "Operator"
+msgid "Delete Unused Materials"
+msgstr "删除未使用的材质"
+
+#: BAM/BAM_MaterialManager_M.py:2896
+msgctxt "Operator"
+msgid "Delete material slots not assigned to any face. If objects are selected, only their slots are cleared; otherwise, the whole scene."
+msgstr "删除未指定给任何面的材质槽。如果选中了物体，则仅清除它们的材质槽；否则清除整个场景。"
+
+#: BAM/BAM_MaterialManager_M.py:2938
+msgctxt "Operator"
+msgid "Delete materials not used by any object except Dots Stroke"
+msgstr "删除未被任何物体使用的材质，Dots Stroke 除外"
+
+#: BAM/BAM_MaterialManager_M.py:2822
+msgctxt "Operator"
+msgid "Delete selected material. \nShift+LMB for Delete Material + Textures Data"
+msgstr "删除所选材质。\nShift+左键可删除材质 + 纹理数据"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Runtime_M.py:6769
+msgctxt "Operator"
+msgid "Delete this material and its texture data. Shift+LMB deletes only the material."
+msgstr "删除此材质及其纹理数据。Shift+左键仅删除材质。"
+
+#: BAM/BAM_MaterialManager_M.py:4106
+msgctxt "Operator"
+msgid "Deselect All Materials"
+msgstr "取消选择所有材质"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Runtime_M.py:7018
+msgctxt "Operator"
+msgid "Drag Thumbnail Browser Scroll"
+msgstr "拖动缩略图浏览器滚动条"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Runtime_M.py:7092
+msgctxt "Operator"
+msgid "Drag the bottom grip vertically to resize MatDeck"
+msgstr "垂直拖动底部手柄以调整 MatDeck 大小"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Runtime_M.py:7019
+msgctxt "Operator"
+msgid "Drag the scrollbar thumb vertically"
+msgstr "垂直拖动滚动条滑块"
+
+#: BAM/BAM_MaterialManager_M.py:1131
+msgctxt "Operator"
+msgid "Duplicate Material"
+msgstr "复制材质"
+
+#: BAM/BAM_MaterialManager_M.py:1132
+msgctxt "Operator"
+msgid "Duplicate the selected material with a '_d' suffix"
+msgstr "复制所选材质并添加 '_d' 后缀"
+
+#: BAM/BAM_BamAutomat_M.py:1980
+msgctxt "Operator"
+msgid "Force Refresh"
+msgstr "强制刷新"
+
+#: BAM/BAM_MaterialManager_M.py:2338
+msgctxt "Operator"
+msgid "Force refresh this material thumbnail in the Material Manager"
+msgstr "强制刷新材质管理器中的此材质缩略图"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Runtime_M.py:6920
+msgctxt "Operator"
+msgid "Grip marker for MatDeck"
+msgstr "MatDeck 的手柄标记"
+
+#: BAM/BAM_BamAutomat_M.py:1698
+msgctxt "Operator"
+msgid "Hi Stranger"
+msgstr "你好，陌生人"
+
+#: BAM/BAM_BamAutomat_M.py:1561
+msgctxt "Operator"
+msgid "Invert Selection"
+msgstr "反选"
+
+#: BAM/BAM_BamAutomat_M.py:1562
+msgctxt "Operator"
+msgid "Invert the selection of materials"
+msgstr "反选材质"
+
+#: BAM/BAM_MaterialManager_M.py:1589
+msgctxt "Operator"
+msgid "MODE:[Click] - replace the face/slot material.\nMODE:[Click+Shift] - replace all materials on the object.\nMODE:[Click+Ctrl] - apply the material to the entire UV island.\nMODE:[Click+Alt] - apply the material to only one face.\nUse it only in Object Mode!"
+msgstr "模式：[单击] - 替换面/槽位材质。\n模式：[单击+Shift] - 替换物体上的所有材质。\n模式：[单击+Ctrl] - 将材质应用到整个 UV 孤岛。\n模式：[单击+Alt] - 仅将材质应用到一个面。\n仅在物体模式下使用！"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Runtime_M.py:6458
+msgctxt "Operator"
+msgid "Make this material active in the custom thumbnail browser"
+msgstr "在自定义缩略图浏览器中将此材质设为活动材质"
+
+#: BAM/BAM_MaterialManager_M.py:3518
+msgctxt "Operator"
+msgid "Manage materials and export them as assets to a library file"
+msgstr "管理材质并将其作为资产导出到库文件"
+
+#: BAM/BAM_MaterialManager_M.py:3437
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Runtime_M.py:6488
+msgctxt "Operator"
+msgid "MatDeck"
+msgstr "MatDeck"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Runtime_M.py:6919
+msgctxt "Operator"
+msgid "MatDeck Grip"
+msgstr "MatDeck 手柄"
+
+#: BAM/BAM_MaterialManager_M.py:3440
+#: BAM/BAM_MaterialManager_M.py:3442
+msgctxt "Operator"
+msgid "MatName Overlay"
+msgstr "MatName 叠加层"
+
+#: BAM/BAM_BamAutomat_M.py:1699
+msgctxt "Operator"
+msgid "Material already exists in scene"
+msgstr "场景中已存在材质"
+
+#: BAM/BAM_MaterialManager_M.py:3261
+msgctxt "Operator"
+msgid "MatsAsset [BETA]"
+msgstr "MatsAsset [BETA]"
+
+#: BAM/__init__.py:116
+msgctxt "Operator"
+msgid "Open BAM Preferences"
+msgstr "打开 BAM 首选项"
+
+#: BAM/__init__.py:117
+msgctxt "Operator"
+msgid "Open BAM add-on preferences"
+msgstr "打开 BAM 插件首选项"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Runtime_M.py:6576
+msgctxt "Operator"
+msgid "Open MatDeck Window"
+msgstr "打开 MatDeck 窗口"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Runtime_M.py:6577
+msgctxt "Operator"
+msgid "Open MatDeck in a separate resizable Blender window"
+msgstr "在可调整大小的独立 Blender 窗口中打开 MatDeck"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Runtime_M.py:6489
+msgctxt "Operator"
+msgid "Open or close MatDeck as a floating viewport window"
+msgstr "将 MatDeck 作为浮动视图窗口打开或关闭"
+
+#: BAM/BAM_MaterialManager_M.py:3418
+msgctxt "Operator"
+msgid "RTextures"
+msgstr "RTextures"
+
+#: BAM/BAM_MaterialManager_M.py:2300
+#: BAM/BAM_MaterialManager_M.py:2337
+msgctxt "Operator"
+msgid "Refresh Thumbnail"
+msgstr "刷新缩略图"
+
+#: BAM/BAM_BamAutomat_M.py:1981
+msgctxt "Operator"
+msgid "Refresh the texture list"
+msgstr "刷新纹理列表"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Runtime_M.py:6807
+msgctxt "Operator"
+msgid "Refresh this material thumbnail in MatDeck"
+msgstr "刷新 MatDeck 中的此材质缩略图"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Runtime_M.py:6834
+msgctxt "Operator"
+msgid "Refresh thumbnails for all materials"
+msgstr "刷新所有材质的缩略图"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Runtime_M.py:6835
+msgctxt "Operator"
+msgid "Refresh thumbnails for all materials in MatDeck"
+msgstr "刷新 MatDeck 中所有材质的缩略图"
+
+#: BAM/BAM_MaterialManager_M.py:2960
+msgctxt "Operator"
+msgid "Reload Textures"
+msgstr "重新加载纹理"
+
+#: BAM/BAM_MaterialManager_M.py:2961
+msgctxt "Operator"
+msgid "Reload all textures in Blender Scene or just for selected objects if any are selected"
+msgstr "重新加载 Blender 场景中的所有纹理；若选中了物体，则仅重新加载选中物体的纹理"
+
+#: BAM/__init__.py:672
+msgctxt "Operator"
+msgid "Remove Image Format"
+msgstr "移除图像格式"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Runtime_M.py:6708
+msgctxt "Operator"
+msgid "Rename Material"
+msgstr "重命名材质"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Runtime_M.py:6709
+msgctxt "Operator"
+msgid "Rename this material"
+msgstr "重命名此材质"
+
+#: BAM/BAM_MaterialManager_M.py:2209
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Runtime_M.py:6666
+msgctxt "Operator"
+msgid "Replace Material"
+msgstr "替换材质"
+
+#: BAM/BAM_MaterialManager_M.py:2854
+msgctxt "Operator"
+msgid "Replace and delete duplicated materials. \nBased on (.001 ...) suffixes. \nWill consider the material to be original by the smallest suffix if there is no material without a suffix."
+msgstr "替换并删除重复材质。\n基于（.001 ...）后缀。\n如果没有无后缀的材质，则将后缀最小的材质视为原始材质。"
+
+#: BAM/BAM_MaterialManager_M.py:2210
+msgctxt "Operator"
+msgid "Replace selected material with another one in all objects\nHold Shift for replace only on selected objects"
+msgstr "在所有物体中用另一个材质替换选定材质\n按住 Shift 仅替换选中物体"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Runtime_M.py:6667
+msgctxt "Operator"
+msgid "Replace this material with another material\nHold Shift for replace only on selected objects"
+msgstr "用另一个材质替换此材质\n按住 Shift 仅替换选中物体"
+
+#: BAM/__init__.py:162
+msgctxt "Operator"
+msgid "Reset BAM UI Styles colors to the add-on defaults"
+msgstr "将 BAM UI 样式颜色重置为插件默认值"
+
+#: BAM/__init__.py:161
+#: BAM/__init__.py:621
+msgctxt "Operator"
+msgid "Reset UI Styles"
+msgstr "重置 UI 样式"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Runtime_M.py:7091
+msgctxt "Operator"
+msgid "Resize MatDeck"
+msgstr "调整 MatDeck 大小"
+
+#: BAM/__init__.py:622
+msgctxt "Operator"
+msgid "Save Changes"
+msgstr "保存更改"
+
+#: BAM/BAM_BamAutomat_M.py:1992
+msgctxt "Operator"
+msgid "Save Material Preset"
+msgstr "保存材质预设"
+
+#: BAM/__init__.py:130
+msgctxt "Operator"
+msgid "Save Preferences"
+msgstr "保存首选项"
+
+#: BAM/BAM_BamAutomat_M.py:1991
+msgctxt "Operator"
+msgid "Save Preset"
+msgstr "保存预设"
+
+#: BAM/__init__.py:131
+msgctxt "Operator"
+msgid "Save the image formats list and states"
+msgstr "保存图像格式列表和状态"
+
+#: BAM/BAM_BamAutomat_M.py:1635
+msgctxt "Operator"
+msgid "Scene ColorSpace Match"
+msgstr "场景色彩空间匹配"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Runtime_M.py:6865
+msgctxt "Operator"
+msgid "Scroll MatDeck"
+msgstr "滚动 MatDeck"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Runtime_M.py:6866
+msgctxt "Operator"
+msgid "Scroll MatDeck up or down"
+msgstr "向上或向下滚动 MatDeck"
+
+#: BAM/BAM_MaterialManager_M.py:4096
+msgctxt "Operator"
+msgid "Select All Materials"
+msgstr "选择所有材质"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Runtime_M.py:6457
+msgctxt "Operator"
+msgid "Select Material Thumbnail"
+msgstr "选择材质缩略图"
+
+#: BAM/BAM_MaterialManager_M.py:2524
+msgctxt "Operator"
+msgid "Select faces by Material"
+msgstr "按材质选择面"
+
+#: BAM/BAM_MaterialManager_M.py:2525
+msgctxt "Operator"
+msgid "Select faces of selected objects in scene by Material ID, if no objects selected, select faces of all objects."
+msgstr "按材质 ID 选择场景中选中物体的面；若未选中物体，则选择所有物体的面。"
+
+#: BAM/BAM_MaterialManager_M.py:2454
+msgctxt "Operator"
+msgid "Select objects by Material"
+msgstr "按材质选择物体"
+
+#: BAM/BAM_MaterialManager_M.py:2455
+msgctxt "Operator"
+msgid "Select objects that have the specified material. Offers to create a new object if none exists."
+msgstr "选择具有指定材质的物体。如果不存在则提供创建新物体的选项。"
+
+#: BAM/BAM_MaterialManager_M.py:3684
+msgctxt "Operator"
+msgid "Select/Deselect All Materials"
+msgstr "选择/取消选择所有材质"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Runtime_M.py:6898
+msgctxt "Operator"
+msgid "Set MatDeck Scroll"
+msgstr "设置 MatDeck 滚动"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Runtime_M.py:6899
+msgctxt "Operator"
+msgid "Set scroll position in MatDeck"
+msgstr "设置 MatDeck 中的滚动位置"
+
+#: BAM/BAM_MaterialManager_M.py:1294
+msgctxt "Operator"
+msgid "Show Material Preview"
+msgstr "显示材质预览"
+
+#: BAM/BAM_MaterialManager_M.py:1295
+msgctxt "Operator"
+msgid "Show a preview of the material"
+msgstr "显示材质的预览"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Runtime_M.py:6944
+msgctxt "Operator"
+msgid "Start immediate drag for MatDeck grips"
+msgstr "为 MatDeck 手柄立即开始拖动"
+
+#: BAM/BAM_MaterialManager_M.py:2146
+msgctxt "Operator"
+msgid "Switch to Shader Editor"
+msgstr "切换到着色器编辑器"
+
+#: BAM/BAM_MaterialManager_M.py:2147
+msgctxt "Operator"
+msgid "Switch to the Shader Editor and display the selected material"
+msgstr "切换到着色器编辑器并显示所选材质"
+
+#: BAM/Modules/BAM_MMOverlay/BAM_MMOverlay_Runtime_M.py:6943
+msgctxt "Operator"
+msgid "Thumbnail Grip Click Drag"
+msgstr "缩略图手柄单击拖动"
+
+#: BAM/BAM_MaterialManager_M.py:1995
+msgctxt "Operator"
+msgid "Toggle Fake User"
+msgstr "切换伪用户"
+
+#: BAM/BAM_MaterialManager_M.py:3672
+msgctxt "Operator"
+msgid "Toggle Material Selection"
+msgstr "切换材质选择"
+
+#: BAM/BAM_MaterialManager_M.py:1996
+msgctxt "Operator"
+msgid "Toggle fake user for this material"
+msgstr "切换此材质的伪用户"
+
+#: BAM/BAM_MatOverlay_M.py:237
+msgctxt "Operator"
+msgid "Toggle the viewport overlay that displays material names under the cursor"
+msgstr "切换在光标下显示材质名称的视图叠加层"
+
+#: BAM/BAM_BamAutomat_M.py:1551
+msgctxt "Operator"
+msgid "Uncheck All"
+msgstr "全部取消勾选"
+
+#: BAM/BAM_BamAutomat_M.py:1552
+msgctxt "Operator"
+msgid "Uncheck all materials"
+msgstr "取消勾选所有材质"
+
+#: BAM/BAM_MaterialManager_M.py:2193
+msgctxt "Operator"
+msgid "Update Material Cache"
+msgstr "更新材质缓存"
+
+#: BAM/BAM_MaterialManager_M.py:2361
+msgctxt "Operator"
+msgid "[LMB] - Assign material to selected object/objects or faces. \n[SHIFT+LMB] - Replace Material. \n[CTRL+LMB] - Select Objects by Material (in scene or by selected).\n[ALT+LMB] - Select Faces by Material (in scene или by selected).\n[SHIFT+ALT+LMB] - Add to current material selection.\n[CTRL+ALT+LMB] - Material Preview (BETA)."
+msgstr "[LMB] - 将材质指定给选中的物体或面。 \n[SHIFT+LMB] - 替换材质。 \n[CTRL+LMB] - 按材质选择物体（场景中或基于选中项）。\n[ALT+LMB] - 按材质选择面（场景中或基于选中项）。\n[SHIFT+ALT+LMB] - 添加到当前材质选择。\n[CTRL+ALT+LMB] - 材质预览（BETA）。"

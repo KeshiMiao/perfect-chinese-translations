@@ -1,0 +1,1102 @@
+# perfect-chinese: 1
+# id: bool_tool
+# kind: addon
+# module: bl_ext.blender_org.bool_tool
+# name: Bool Tool
+# name_zh: 布尔工具
+# translator: KeshiMiao
+# category: Modeling
+# supported_versions: >=4.5.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: tools/common/properties.py:23
+#: tools/common/properties.py:45
+msgid "3D Cursor"
+msgstr "3D 游标"
+
+#: tools/common/properties.py:150
+msgid "Add 'Smooth by Angle' modifier to cutter object"
+msgstr "为切割器物体添加“按角度平滑”修改器"
+
+#: preferences.py:40
+msgid "Add a sidebar panel in 3D Viewport with add-ons operators and properties"
+msgstr "在 3D 视图中添加侧边栏面板，包含插件的操作符和属性"
+
+#: preferences.py:34
+msgid "Add-on"
+msgstr "插件"
+
+#: preferences.py:67
+msgid "Added Boolean modifiers will have 'Show in Edit Mode' enabled by default"
+msgstr "添加的布尔修改器将默认启用“在编辑模式下显示”"
+
+#: tools/common/properties.py:45
+msgid "Align cutters to the 3D cursor orientation"
+msgstr "将切割器对齐到 3D 游标的朝向"
+
+#: tools/common/properties.py:42
+msgid "Align cutters to the current view"
+msgstr "将切割器对齐到当前视图"
+
+#: tools/common/properties.py:39
+msgid "Align cutters to the surface normal of the mesh under the mouse"
+msgstr "将切割器对齐到鼠标下方网格的表面法线"
+
+#: tools/common/properties.py:48
+msgid "Align cutters to the world grid"
+msgstr "将切割器对齐到世界网格"
+
+#: tools/common/ui.py:62
+msgid "Align to"
+msgstr "对齐到"
+
+#: tools/common/properties.py:77
+msgid "Align to Anything"
+msgstr "对齐到任意物体"
+
+#: tools/common/properties.py:37
+#: tools/common/ui.py:18
+msgid "Alignment"
+msgstr "对齐"
+
+#: tools/common/properties.py:82
+msgid "Alignment Axis"
+msgstr "对齐轴"
+
+#: preferences.py:93
+#: operators/cutter.py:53
+msgid "All"
+msgstr "全部"
+
+#: preferences.py:93
+msgid "All modifiers on object (and shape keys) will be applied during destructive operators"
+msgstr "破坏性操作符执行时将应用物体上的所有修改器（及形态键）"
+
+#: operators/boolean.py:51
+msgid "Allow self-intersection in operands"
+msgstr "允许操作数自相交"
+
+#: preferences.py:101
+msgid "Always make new Boolean modifiers first in the modifier stack.\nNOTE: Order of modifiers can drastically affect the final result"
+msgstr "始终将新的布尔修改器放在修改器堆栈最前面。\n注意：修改器顺序会极大影响最终结果"
+
+#: tools/common/properties.py:108
+msgid "Always make new Boolean modifiers first in the modifier stack.\nNOTE: Order of modifiers can drastically affect the result (especially in destructive mode)"
+msgstr "始终将新的布尔修改器放在修改器堆栈最前面。\n注意：修改器顺序会极大影响结果（尤其是在破坏性模式下）"
+
+#: tools/common/properties.py:155
+msgid "Angle"
+msgstr "角度"
+
+#: preferences.py:89
+msgid "Apply Modifiers"
+msgstr "应用修改器"
+
+#: preferences.py:95
+msgid "Apply all modifiers that come before the last Boolean modifier in the stack"
+msgstr "应用堆栈中最后一个布尔修改器之前的所有修改器"
+
+#: operators/cutter.py:239
+msgid "Apply all selected cutter to all canvases that use them"
+msgstr "将所有选中的切割器应用到使用它们的全部画布"
+
+#: operators/cutter.py:240
+msgid "Apply selected cutter to a specified canvas"
+msgstr "将选中的切割器应用到指定画布"
+
+#: tools/carver_box.py:236
+#: tools/carver_box.py:277
+msgid "Array"
+msgstr "阵列"
+
+#: tools/common/types.py:146
+msgid "Array modifier cannot be loaded for cutter"
+msgstr "无法为切割器加载阵列修改器"
+
+#: tools/carver_box.py:77
+#: tools/carver_box.py:228
+msgid "Aspect"
+msgstr "宽高比"
+
+#: tools/common/properties.py:22
+msgid "Auto"
+msgstr "自动"
+
+#: ui/common.py:60
+#: ui/panels.py:35
+msgid "Auto Boolean"
+msgstr "自动布尔"
+
+#: tools/common/ui.py:144
+msgid "Auto Smooth"
+msgstr "自动平滑"
+
+#: operators/boolean.py:56
+msgid "Better results when there are holes (slower)"
+msgstr "有孔洞时结果更好（较慢）"
+
+#: tools/carver_box.py:238
+#: tools/carver_box.py:279
+msgid "Bevel"
+msgstr "倒角"
+
+#: tools/common/properties.py:189
+msgid "Bevel Cutter"
+msgstr "倒角切割器"
+
+#: tools/common/properties.py:205
+msgid "Bevel Profile"
+msgstr "倒角轮廓"
+
+#: tools/common/properties.py:194
+msgid "Bevel Segments"
+msgstr "倒角段数"
+
+#: tools/common/properties.py:200
+msgid "Bevel Width"
+msgstr "倒角宽度"
+
+#: tools/common/properties.py:189
+msgid "Bevel each side edge of the cutter"
+msgstr "对切割器的每条侧边倒角"
+
+#: ui/menus.py:17
+#: ui/menus.py:39
+msgid "Boolean"
+msgstr "布尔"
+
+#: properties.py:9
+msgid "Boolean Canvas"
+msgstr "布尔画布"
+
+#: properties.py:14
+msgid "Boolean Cutter"
+msgstr "布尔切割器"
+
+#: preferences.py:36
+#: ui/panels.py:159
+msgid "Boolean Operators"
+msgstr "布尔操作符"
+
+#: properties.py:18
+msgid "Boolean Slice"
+msgstr "布尔切片"
+
+#: preferences.py:53
+msgid "Boolean Solver"
+msgstr "布尔求解器"
+
+#: tools/common/properties.py:30
+msgid "Boolean cutters are immediatelly applied and removed after the cut"
+msgstr "布尔切割器在切割后立即应用并移除"
+
+#: operators/cutter.py:82
+#: operators/cutter.py:178
+msgid "Boolean cutters are not selected"
+msgstr "未选中布尔切割器"
+
+#: operators/boolean.py:129
+#: operators/boolean.py:248
+msgid "Boolean operator needs at least two selected objects"
+msgstr "布尔操作符至少需要选中两个物体"
+
+#: preferences.py:97
+#: properties.py:50
+msgid "Booleans"
+msgstr "布尔"
+
+#: preferences.py:95
+msgid "Booleans & Everything Before"
+msgstr "布尔及之前所有修改器"
+
+#: tools/common/properties.py:137
+msgid "Bounding Box"
+msgstr "边界框"
+
+#: preferences.py:64
+#: tools/common/properties.py:132
+msgid "Bounds"
+msgstr "边界"
+
+#: tools/carver_box.py:36
+#: tools/carver_box.py:68
+msgid "Box Carve"
+msgstr "盒形雕刻"
+
+#: ui/common.py:67
+#: ui/panels.py:50
+msgid "Brush Boolean"
+msgstr "笔刷布尔"
+
+#: tools/carver_box.py:221
+#: tools/carver_box.py:264
+msgid "Cancel"
+msgstr "取消"
+
+#: ui/menus.py:51
+msgid "Carve"
+msgstr "雕刻"
+
+#: tools/common/ui.py:112
+msgid "Carver Cutter"
+msgstr "雕刻切割器"
+
+#: preferences.py:32
+msgid "Category"
+msgstr "类别"
+
+#: preferences.py:45
+msgid "Category Name"
+msgstr "类别名称"
+
+#: tools/carver_box.py:88
+#: tools/carver_circle.py:75
+msgid "Center"
+msgstr "中心"
+
+#: tools/common/properties.py:91
+msgid "Change which way the geometry is extruded"
+msgstr "更改几何体挤出的方向"
+
+#: tools/carver_circle.py:20
+msgid "Circle Carve"
+msgstr "圆形雕刻"
+
+#: tools/carver_circle.py:58
+msgid "Circle Subdivisions"
+msgstr "圆形细分"
+
+#: tools/common/properties.py:66
+msgid "Closest Edge"
+msgstr "最近边"
+
+#: preferences.py:79
+msgid "Collection Name"
+msgstr "集合名称"
+
+#: tools/common/properties.py:173
+msgid "Columns"
+msgstr "列"
+
+#: operators/canvas.py:93
+#: operators/canvas.py:144
+msgid "Completely remove cutters if they're not used by any other remaining canvas"
+msgstr "如果切割器未被任何其他剩余画布使用，则将其完全移除"
+
+#: operators/cutter.py:251
+msgid "Completely remove the cutter object if it's not used by any other canvas"
+msgstr "如果切割器物体未被任何其他画布使用，则将其完全移除"
+
+#: tools/carver_box.py:217
+#: tools/carver_box.py:260
+msgid "Confirm"
+msgstr "确认"
+
+#: tools/common/properties.py:33
+msgid "Cuts are stored as Boolean modifiers and cutters are placed inside the collection"
+msgstr "切割以布尔修改器形式存储，切割器放置在集合内"
+
+#: tools/common/ui.py:27
+msgid "Cutter"
+msgstr "切割器"
+
+#: preferences.py:61
+#: tools/common/properties.py:129
+msgid "Cutter Display"
+msgstr "切割器显示"
+
+#: tools/common/ui.py:72
+msgid "Cutter Effects"
+msgstr "切割器效果"
+
+#: tools/common/properties.py:135
+msgid "Cutter Origin Point"
+msgstr "切割器原点"
+
+#: tools/common/ui.py:34
+msgid "Cutter Shape"
+msgstr "切割器形状"
+
+#: ui/panels.py:67
+msgid "Cutters"
+msgstr "切割器"
+
+#: preferences.py:84
+msgid "Cutters will be parented to first canvas they're applied to"
+msgstr "切割器将父级到其应用的第一个画布"
+
+#: operators/cutter.py:251
+msgid "Delete Unused Cutter"
+msgstr "删除未使用的切割器"
+
+#: operators/canvas.py:93
+#: operators/canvas.py:144
+msgid "Delete Unused Cutters"
+msgstr "删除未使用的切割器"
+
+#: tools/common/properties.py:53
+#: tools/common/ui.py:19
+msgid "Depth"
+msgstr "深度"
+
+#: tools/common/properties.py:21
+msgid "Depth can be manually set after creating a cutter shape"
+msgstr "创建切割器形状后可手动设置深度"
+
+#: tools/common/properties.py:22
+msgid "Depth is set automatically to cover selected objects entirely"
+msgstr "深度自动设置以完全覆盖选中物体"
+
+#: tools/common/properties.py:23
+msgid "Depth is set to 3D cursors location"
+msgstr "深度设置为 3D 游标位置"
+
+#: tools/common/properties.py:30
+msgid "Destructive"
+msgstr "破坏性"
+
+#: tools/common/ui.py:135
+msgid "Display"
+msgstr "显示"
+
+#: preferences.py:64
+#: tools/common/properties.py:132
+msgid "Display only the bounds of the cutter object"
+msgstr "仅显示切割器物体的边界"
+
+#: preferences.py:63
+#: tools/common/properties.py:131
+msgid "Display the cutter object as a wireframe"
+msgstr "以线框显示切割器物体"
+
+#: tools/common/properties.py:70
+msgid "Distance between the shape and the surface of the mesh.\nOffset is important for avoiding Z-fighting issues and solver failures"
+msgstr "形状与网格表面之间的距离。\n偏移对于避免 Z 冲突问题和求解器失败很重要"
+
+#: tools/carver_box.py:215
+msgid "Draw"
+msgstr "绘制"
+
+#: tools/carver_box.py:87
+#: tools/carver_circle.py:74
+msgid "Edge"
+msgstr "边"
+
+#: ui/panels.py:21
+#: ui/panels.py:70
+msgid "Edit"
+msgstr "编辑"
+
+#: tools/common/ui.py:26
+msgid "Effects"
+msgstr "效果"
+
+#: preferences.py:67
+msgid "Enable 'Show in Edit Mode' by Default"
+msgstr "默认启用「在编辑模式中显示」"
+
+#: preferences.py:57
+#: tools/common/properties.py:104
+msgid "Exact"
+msgstr "精确"
+
+#: preferences.py:109
+msgid "Experimental method of applying modifiers that results in 30-50% faster destructive Booleans.\nHowever, changing modifier properties in the redo panel (like material transfer)\nis not available for this method yet."
+msgstr "应用修改器的实验性方法，可使破坏性布尔运算快 30-50%。\n但此方法尚不支持在重做面板中更改修改器属性（如材质传递）。"
+
+#: tools/common/properties.py:65
+msgid "Face Normal"
+msgstr "面法线"
+
+#: preferences.py:109
+msgid "Faster Destructive Booleans"
+msgstr "更快的破坏性布尔运算"
+
+#: preferences.py:36
+msgid "Features for brush and auto Boolean operators"
+msgstr "画笔和自动布尔运算的功能"
+
+#: preferences.py:35
+msgid "Features shared by all of add-ons operators and tools"
+msgstr "所有插件运算符和工具共用的功能"
+
+#: tools/common/properties.py:141
+msgid "First Face"
+msgstr "第一个面"
+
+#: tools/carver_box.py:81
+#: tools/carver_circle.py:68
+msgid "Fixed"
+msgstr "固定"
+
+#: operators/boolean.py:33
+msgid "Flip Canvas & Cutters"
+msgstr "翻转画布与切割器"
+
+#: tools/carver_box.py:271
+#: tools/carver_polyline.py:268
+msgid "Flip Direction"
+msgstr "翻转方向"
+
+#: preferences.py:56
+#: tools/common/properties.py:103
+msgid "Float"
+msgstr "浮点"
+
+#: tools/carver_box.py:80
+#: tools/carver_circle.py:67
+msgid "Free"
+msgstr "自由"
+
+#: tools/common/properties.py:179
+msgid "Gap"
+msgstr "间隙"
+
+#: preferences.py:34
+msgid "General add-on features"
+msgstr "插件通用功能"
+
+#: tools/common/properties.py:139
+msgid "Geometry"
+msgstr "几何"
+
+#: tools/common/properties.py:48
+msgid "Grid"
+msgstr "栅格"
+
+#: ui/panels.py:131
+msgid "Helpers"
+msgstr "辅助对象"
+
+#: tools/common/properties.py:118
+msgid "Hide Cutter"
+msgstr "隐藏切割器"
+
+#: tools/common/properties.py:118
+msgid "Hide cutter objects in the viewport after they are created."
+msgstr "创建后在视图中隐藏切割器物体。"
+
+#: operators/boolean.py:56
+msgid "Hole Tolerant"
+msgstr "容忍孔洞"
+
+#: operators/boolean.py:43
+msgid "Index Based"
+msgstr "基于索引"
+
+#: tools/carver_polyline.py:217
+msgid "Insert Point"
+msgstr "插入点"
+
+#: properties.py:29
+msgid "Is Carver Cutter"
+msgstr "是 Carver 切割器"
+
+#: tools/common/properties.py:67
+msgid "Longest Edge"
+msgstr "最长边"
+
+#: preferences.py:58
+#: tools/common/properties.py:105
+msgid "Manifold"
+msgstr "流形"
+
+#: tools/common/properties.py:21
+msgid "Manual"
+msgstr "手动"
+
+#: operators/boolean.py:40
+msgid "Materials"
+msgstr "材质"
+
+#: tools/common/properties.py:155
+msgid "Maximum face angle for sharp edges"
+msgstr "锐边的最大面角度"
+
+#: operators/cutter.py:51
+#: operators/cutter.py:145
+msgid "Method"
+msgstr "方法"
+
+#: operators/boolean.py:40
+msgid "Method for setting materials on the new faces"
+msgstr "在新面上设置材质的方法"
+
+#: tools/common/properties.py:28
+#: tools/common/ui.py:17
+msgid "Mode"
+msgstr "模式"
+
+#: tools/common/properties.py:33
+msgid "Modifier"
+msgstr "修改器"
+
+#: tools/common/properties.py:143
+msgid "Mouse Click"
+msgstr "鼠标点击"
+
+#: tools/carver_box.py:224
+#: tools/carver_box.py:267
+msgid "Move"
+msgstr "移动"
+
+#: preferences.py:79
+msgid "Name of the collection where cutters will be added"
+msgstr "将要添加切割器的集合名称"
+
+#: operators/boolean.py:109
+#: operators/canvas.py:49
+msgid "No valid canvases selected"
+msgstr "未选择有效的画布"
+
+#: operators/boolean.py:115
+msgid "No valid cutters selected"
+msgstr "未选择有效的切割器"
+
+#: tools/common/properties.py:167
+msgid "Number of times the shape is duplicated horizontally"
+msgstr "形状在水平方向复制的次数"
+
+#: tools/common/properties.py:173
+msgid "Number of times the shape is duplicated vertically"
+msgstr "形状在垂直方向复制的次数"
+
+#: tools/carver_circle.py:58
+msgid "Number of vertices that will make up the circular shape that will be extruded into a cylinder"
+msgstr "构成将被挤出为圆柱的圆形形状的顶点数"
+
+#: tools/common/ui.py:59
+#: tools/common/ui.py:67
+msgid "Offset"
+msgstr "偏移"
+
+#: tools/common/properties.py:70
+msgid "Offset from Surface"
+msgstr "距表面偏移"
+
+#: preferences.py:97
+msgid "Only apply Boolean modifiers"
+msgstr "仅应用布尔修改器"
+
+#: tools/common/properties.py:66
+msgid "Orient the shape along the closest edge of the face"
+msgstr "沿面的最近边定向形状"
+
+#: tools/common/properties.py:67
+msgid "Orient the shape along the longest edge of the face"
+msgstr "沿面的最长边定向形状"
+
+#: tools/common/properties.py:65
+msgid "Orient the shape along the normal of the face"
+msgstr "沿面的法线定向形状"
+
+#: tools/common/properties.py:62
+msgid "Orientation"
+msgstr "朝向"
+
+#: tools/common/properties.py:62
+msgid "Orientation method for the shape placement"
+msgstr "形状放置的朝向方式"
+
+#: tools/carver_box.py:84
+#: tools/carver_box.py:230
+msgid "Origin"
+msgstr "原点"
+
+#: operators/boolean.py:61
+msgid "Overlap Threshold"
+msgstr "重叠阈值"
+
+#: preferences.py:84
+msgid "Parent Cutters to Object"
+msgstr "父级设为物体"
+
+#: tools/common/properties.py:123
+msgid "Parent new cutters to active object (even if they are cutting multiple objects).\nIf there is no active object in the selection, parent might be chosen randomly"
+msgstr "将新建切割器设为活动物体的子级（即使它们正在切割多个物体）。\n如果选择中没有活动物体，父级可能会随机选择"
+
+#: tools/common/properties.py:123
+msgid "Parent to Canvas"
+msgstr "父级设为画布"
+
+#: tools/common/properties.py:108
+msgid "Pin Boolean Modifier"
+msgstr "固定布尔修改器"
+
+#: preferences.py:101
+msgid "Pin Boolean Modifiers"
+msgstr "固定布尔修改器"
+
+#: tools/common/ui.py:129
+msgid "Pin Modifier"
+msgstr "固定修改器"
+
+#: tools/carver_polyline.py:34
+#: tools/carver_polyline.py:64
+msgid "Polyline Carve"
+msgstr "折线雕刻"
+
+#: tools/common/ui.py:96
+msgid "Profile"
+msgstr "轮廓"
+
+#: preferences.py:74
+msgid "Put Cutters in Collection"
+msgstr "将切割器放入集合"
+
+#: preferences.py:74
+msgid "Put all cutters in the same collection, and create one if it doesn't exist"
+msgstr "将所有切割器放入同一个集合，若不存在则创建一个"
+
+#: tools/common/properties.py:141
+msgid "Put the object origin at the center of cutters first face (i.e. shape)"
+msgstr "将物体原点置于切割器第一个面的中心（即形状）"
+
+#: tools/common/properties.py:137
+msgid "Put the object origin at the center of the cutters bounding box"
+msgstr "将物体原点置于切割器边界框的中心"
+
+#: tools/common/properties.py:139
+msgid "Put the object origin at the center of the cutters geometry (not including effects)"
+msgstr "将物体原点置于切割器几何体的中心（不包括效果）"
+
+#: tools/common/properties.py:143
+msgid "Put the object origin at the point where mouse was first clicked"
+msgstr "将物体原点置于鼠标首次点击的位置"
+
+#: tools/common/properties.py:145
+msgid "Put the object origin of the cutter to the origin point of the cutter"
+msgstr "将切割器的物体原点置于切割器的原点"
+
+#: tools/common/ui.py:95
+msgid "Radius"
+msgstr "半径"
+
+#: tools/carver_polyline.py:228
+msgid "Remove Last Point"
+msgstr "移除最后一个点"
+
+#: operators/cutter.py:147
+msgid "Remove cutter from all canvases that use it"
+msgstr "从使用该切割器的所有画布中移除该切割器"
+
+#: operators/cutter.py:148
+msgid "Remove cutter from specified canvas"
+msgstr "从指定画布中移除切割器"
+
+#: tools/carver_box.py:226
+#: tools/carver_box.py:269
+msgid "Rotate"
+msgstr "旋转"
+
+#: tools/carver_box.py:219
+#: tools/carver_box.py:262
+msgid "Rotate View"
+msgstr "旋转视图"
+
+#: tools/carver_box.py:91
+msgid "Rotation"
+msgstr "旋转"
+
+#: tools/common/properties.py:167
+msgid "Rows"
+msgstr "行数"
+
+#: tools/common/properties.py:145
+msgid "Same as Canvas"
+msgstr "与画布相同"
+
+#: tools/common/ui.py:94
+msgid "Segments"
+msgstr "段数"
+
+#: tools/common/properties.py:194
+msgid "Segments for curved edge"
+msgstr "曲线边的段数"
+
+#: tools/carver_box.py:109
+msgid "Select mesh objects that should be carved"
+msgstr "选择要雕刻的网格物体"
+
+#: operators/boolean.py:51
+msgid "Self Intersection"
+msgstr "自相交"
+
+#: tools/carver_box.py:258
+#: tools/carver_polyline.py:254
+msgid "Set Depth"
+msgstr "设置深度"
+
+#: operators/boolean.py:43
+msgid "Set the material on new faces based on the order of the material slot lists. If a material doesn't exist on the\nmodifier object, the face will use the same material slot or the first if the object doesn't have enough slots."
+msgstr "根据材质槽列表的顺序为新面设置材质。如果修改器物体上不存在某个材质，该面将使用相同的材质槽；若物体没有足够的槽位，则使用第一个。"
+
+#: tools/common/properties.py:150
+msgid "Shade Auto Smooth"
+msgstr "自动平滑着色"
+
+#: tools/common/ui.py:25
+msgid "Shape"
+msgstr "形状"
+
+#: preferences.py:35
+msgid "Shared"
+msgstr "共享"
+
+#: preferences.py:40
+msgid "Show Add-on Panel in Sidebar"
+msgstr "在侧边栏中显示插件面板"
+
+#: tools/common/ui.py:92
+msgid "Side Bevel"
+msgstr "侧边倒角"
+
+#: preferences.py:45
+msgid "Sidebar category name. Using the name of the existing category will add the panel there"
+msgstr "侧边栏类别名称。使用现有类别的名称会将面板添加到该类别中"
+
+#: properties.py:24
+msgid "Slice of..."
+msgstr "切片..."
+
+#: preferences.py:159
+#: tools/common/properties.py:101
+msgid "Solver"
+msgstr "求解器"
+
+#: tools/common/properties.py:179
+msgid "Spacing between duplicates, both in rows and columns (relative unit)"
+msgstr "副本之间的间距，行和列均适用（相对单位）"
+
+#: operators/cutter.py:54
+#: operators/cutter.py:148
+msgid "Specified"
+msgstr "指定"
+
+#: tools/common/properties.py:39
+msgid "Surface"
+msgstr "表面"
+
+#: tools/common/properties.py:205
+msgid "The bevel profile shape (0.5 = round)"
+msgstr "倒角轮廓形状（0.5 = 圆）"
+
+#: tools/carver_box.py:77
+#: tools/carver_circle.py:64
+msgid "The initial aspect"
+msgstr "初始宽高比"
+
+#: tools/carver_box.py:84
+#: tools/carver_circle.py:71
+msgid "The initial position for placement"
+msgstr "放置时的初始位置"
+
+#: operators/boolean.py:61
+msgid "Threshold for checking overlapping geometry"
+msgstr "检查重叠几何体的阈值"
+
+#: operators/cutter.py:53
+msgid "Toggle all selected cutters"
+msgstr "切换所有选中切割器"
+
+#: operators/cutter.py:54
+msgid "Toggle selected cutter"
+msgstr "切换选中切割器"
+
+#: tools/common/ui.py:38
+#: tools/common/ui.py:76
+msgid "Tool"
+msgstr "工具"
+
+#: operators/boolean.py:46
+msgid "Transfer"
+msgstr "传递"
+
+#: operators/boolean.py:46
+msgid "Transfer materials from non-empty slots to the result mesh, adding new materials as necessary.\nFor empty slots, fall back to using the same material index as the operand mesh."
+msgstr "将材质从非空槽传递到结果网格，必要时添加新材质。\n对于空槽，回退使用与操作对象网格相同的材质索引。"
+
+#: tools/carver_box.py:81
+#: tools/carver_circle.py:68
+msgid "Use a fixed 1:1 aspect"
+msgstr "使用固定 1:1 宽高比"
+
+#: tools/common/properties.py:77
+msgid "Use all visible objects for surface alignment, not just selected objects"
+msgstr "使用所有可见物体进行表面对齐，而不仅是选中物体"
+
+#: tools/carver_box.py:80
+#: tools/carver_circle.py:67
+msgid "Use an unconstrained aspect"
+msgstr "使用不受约束的宽高比"
+
+#: tools/common/ui.py:52
+msgid "Vertices"
+msgstr "顶点"
+
+#: tools/common/properties.py:42
+msgid "View"
+msgstr "视图"
+
+#: tools/common/properties.py:82
+msgid "Which axis of the world grid or 3D cursor should be used for workplane alignment"
+msgstr "用于工作平面对齐的世界网格或 3D 光标轴"
+
+#: preferences.py:89
+msgid "Which modifiers to apply when using add-ons destructive operators.\nNOTE: This option is not used when applying individual cutters"
+msgstr "使用插件的破坏性操作符时要应用的修改器。\n注意：应用单个切割器时不使用此选项"
+
+#: preferences.py:53
+msgid "Which solver to use for automatic and brush Boolean operators"
+msgstr "自动和笔刷布尔操作符使用的求解器"
+
+#: preferences.py:63
+#: tools/common/properties.py:131
+msgid "Wire"
+msgstr "线框"
+
+#: tools/common/properties.py:85
+msgid "X"
+msgstr "X"
+
+#: tools/common/properties.py:86
+msgid "Y"
+msgstr "Y"
+
+#: tools/common/properties.py:87
+msgid "Z"
+msgstr "Z"
+
+#: manual.py:16
+#: manual.py:17
+msgid "booleans/auto_booleans.html"
+msgstr "booleans/auto_booleans.html"
+
+#: manual.py:11
+#: manual.py:12
+msgid "booleans/brush_booleans.html"
+msgstr "booleans/brush_booleans.html"
+
+#: manual.py:21
+#: manual.py:22
+msgid "carver/index.html"
+msgstr "carver/index.html"
+
+#: manual.py:27
+#: manual.py:31
+msgid "utilities/apply.html"
+msgstr "utilities/apply.html"
+
+#: manual.py:26
+#: manual.py:30
+msgid "utilities/remove.html"
+msgstr "utilities/remove.html"
+
+#: manual.py:33
+#: manual.py:34
+msgid "utilities/select.html"
+msgstr "utilities/select.html"
+
+#: manual.py:25
+#: manual.py:29
+msgid "utilities/toggle.html"
+msgstr "utilities/toggle.html"
+
+#: operators/canvas.py:140
+msgctxt "Operator"
+msgid "Apply All Boolean Cutters"
+msgstr "应用所有布尔切割器"
+
+#: ui/common.py:87
+msgctxt "Operator"
+msgid "Apply All Cutters"
+msgstr "应用所有切割器"
+
+#: operators/cutter.py:227
+msgctxt "Operator"
+msgid "Apply Boolean Cutter"
+msgstr "应用布尔切割器"
+
+#: ui/common.py:95
+msgctxt "Operator"
+msgid "Apply Cutter"
+msgstr "应用切割器"
+
+#: operators/canvas.py:141
+msgctxt "Operator"
+msgid "Apply all Boolean cutters to selected canvases"
+msgstr "将所有布尔切割器应用到选中画布"
+
+#: ui/menus.py:84
+msgctxt "Operator"
+msgid "Boolean Canvases"
+msgstr "布尔画布"
+
+#: ui/menus.py:82
+msgctxt "Operator"
+msgid "Boolean Cutters"
+msgstr "布尔切割器"
+
+#: operators/boolean.py:332
+msgctxt "Operator"
+msgid "Boolean Difference (Auto)"
+msgstr "布尔差集（自动）"
+
+#: operators/boolean.py:211
+msgctxt "Operator"
+msgid "Boolean Difference (Brush)"
+msgstr "布尔差集（笔刷）"
+
+#: operators/boolean.py:347
+msgctxt "Operator"
+msgid "Boolean Intersect (Auto)"
+msgstr "布尔交集（自动）"
+
+#: operators/boolean.py:196
+msgctxt "Operator"
+msgid "Boolean Intersection (Brush)"
+msgstr "布尔交集（笔刷）"
+
+#: operators/boolean.py:362
+msgctxt "Operator"
+msgid "Boolean Slice (Auto)"
+msgstr "布尔切片（自动）"
+
+#: operators/boolean.py:226
+msgctxt "Operator"
+msgid "Boolean Slice (Brush)"
+msgstr "布尔切片（笔刷）"
+
+#: operators/boolean.py:317
+msgctxt "Operator"
+msgid "Boolean Union (Auto)"
+msgstr "布尔并集（自动）"
+
+#: operators/boolean.py:181
+msgctxt "Operator"
+msgid "Boolean Union (Brush)"
+msgstr "布尔并集（笔刷）"
+
+#: ui/menus.py:56
+msgctxt "Operator"
+msgid "Box Carve"
+msgstr "盒形雕刻"
+
+#: ui/menus.py:57
+msgctxt "Operator"
+msgid "Circle Carve"
+msgstr "圆形雕刻"
+
+#: ui/common.py:61
+#: ui/common.py:68
+msgctxt "Operator"
+msgid "Difference"
+msgstr "差集"
+
+#: ui/common.py:63
+#: ui/common.py:70
+msgctxt "Operator"
+msgid "Intersect"
+msgstr "交集"
+
+#: ui/menus.py:58
+msgctxt "Operator"
+msgid "Polyline Carve"
+msgstr "折线雕刻"
+
+#: ui/common.py:88
+msgctxt "Operator"
+msgid "Remove All Cutters"
+msgstr "移除所有切割器"
+
+#: operators/cutter.py:134
+msgctxt "Operator"
+msgid "Remove Boolean Cutter"
+msgstr "移除布尔切割器"
+
+#: operators/canvas.py:89
+msgctxt "Operator"
+msgid "Remove Boolean Cutters"
+msgstr "移除布尔切割器"
+
+#: ui/common.py:96
+msgctxt "Operator"
+msgid "Remove Cutter"
+msgstr "移除切割器"
+
+#: operators/canvas.py:90
+msgctxt "Operator"
+msgid "Remove all Boolean cutters from selected canvases"
+msgstr "从选中画布中移除所有布尔切割器"
+
+#: operators/select.py:22
+msgctxt "Operator"
+msgid "Select Boolean Canvas"
+msgstr "选择布尔画布"
+
+#: operators/select.py:73
+msgctxt "Operator"
+msgid "Select Boolean Cutter"
+msgstr "选择布尔切割器"
+
+#: operators/select.py:48
+msgctxt "Operator"
+msgid "Select Boolean Cutters"
+msgstr "选择布尔切割器"
+
+#: operators/select.py:49
+msgctxt "Operator"
+msgid "Select all Boolean cutters affecting selected canvases"
+msgstr "选择影响选中画布的所有布尔切割器"
+
+#: operators/select.py:23
+msgctxt "Operator"
+msgid "Select all canvases that use selected objects as Boolean cutters"
+msgstr "选择将选中物体用作布尔切割器的所有画布"
+
+#: ui/common.py:64
+#: ui/common.py:71
+msgctxt "Operator"
+msgid "Slice"
+msgstr "切片"
+
+#: operators/boolean.py:227
+#: operators/boolean.py:363
+msgctxt "Operator"
+msgid "Slice active object along the selected ones. Will create slices as separate objects"
+msgstr "沿所选物体切割活动物体。切片将作为独立物体创建"
+
+#: ui/common.py:86
+msgctxt "Operator"
+msgid "Toggle All Cuters"
+msgstr "切换所有切割器"
+
+#: operators/cutter.py:41
+msgctxt "Operator"
+msgid "Toggle Boolean Cutter"
+msgstr "切换布尔切割器"
+
+#: operators/canvas.py:37
+msgctxt "Operator"
+msgid "Toggle Boolean Cutters"
+msgstr "切换所有布尔切割器"
+
+#: ui/common.py:94
+msgctxt "Operator"
+msgid "Toggle Cutter"
+msgstr "切换切割器"
+
+#: operators/canvas.py:38
+msgctxt "Operator"
+msgid "Toggle all Boolean cutters affecting selected canvases"
+msgstr "切换影响所选画布的所有布尔切割器"
+
+#: ui/common.py:62
+#: ui/common.py:69
+msgctxt "Operator"
+msgid "Union"
+msgstr "并集"
