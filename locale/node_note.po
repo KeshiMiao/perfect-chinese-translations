@@ -1,0 +1,889 @@
+# perfect-chinese: 1
+# id: node_note
+# kind: addon
+# module: bl_ext.blender_org.node_note
+# name: Node Note/节点随记
+# name_zh: 节点随记
+# translator: KeshiMiao
+# category: Node
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: operators.py:276
+#: ui.py:220
+msgid "Active node required"
+msgstr "需要活动节点"
+
+#: preferences.py:59
+msgid "Add special characters before existing text"
+msgstr "在现有文本前添加特殊字符"
+
+#: preferences.py:179
+#: preferences.py:205
+msgid "Alignment"
+msgstr "对齐"
+
+#: node_properties.py:48
+#: node_properties.py:49
+msgid "Alignment Mode"
+msgstr "对齐模式"
+
+#: ui.py:57
+msgid "All"
+msgstr "全部"
+
+#: operators.py:80
+msgid "All Node Trees"
+msgstr "所有节点树"
+
+#: operators.py:80
+msgid "All nodes in all node groups/trees"
+msgstr "所有节点组/树中的所有节点"
+
+#: operators.py:79
+msgid "All nodes in the active node tree"
+msgstr "活动节点树中的所有节点"
+
+#: preferences.py:121
+msgid "Also Filter Images"
+msgstr "同时过滤图像"
+
+#: operators.py:152
+msgid "Also Remove Image"
+msgstr "同时移除图像"
+
+#: operators.py:110
+#: operators.py:113
+msgid "Also remove images from Blender file"
+msgstr "同时从 Blender 文件中移除图像"
+
+#: operators.py:216
+#: operators.py:217
+msgid "Apply Preset to Selected Nodes (Multi-Select)"
+msgstr "将预设应用到选中节点（多选）"
+
+#: preferences.py:58
+msgid "Auto Occlusion"
+msgstr "自动遮挡"
+
+#: preferences.py:172
+#: preferences.py:213
+msgid "Background"
+msgstr "背景"
+
+#: node_properties.py:41
+#: node_properties.py:42
+msgid "Background Color"
+msgstr "背景颜色"
+
+#: preferences.py:181
+msgid "Background Presets:"
+msgstr "背景预设："
+
+#: node_properties.py:44
+#: operators.py:234
+msgid "Background Width"
+msgstr "背景宽度"
+
+#: ui.py:119
+msgid "Background:"
+msgstr "背景："
+
+#: preferences.py:63
+#: preferences.py:65
+msgid "Before blender5.2, line break separator in text, supports multiple (separated by |), e.g.: ;|\\"
+msgstr "Blender 5.2 之前，文本中的换行分隔符，支持多个（用 | 分隔），例如：;|\\"
+
+#: node_properties.py:33
+#: node_properties.py:34
+msgid "Center"
+msgstr "居中"
+
+#: operators.py:661
+msgid "Center Text"
+msgstr "居中文本"
+
+#: node_properties.py:33
+#: node_properties.py:34
+msgid "Center when top/bottom aligned"
+msgstr "顶部/底部对齐时居中"
+
+#: preferences.py:57
+msgid "Choose list sort method"
+msgstr "选择列表排序方式"
+
+#: preferences.py:86
+msgid "Circle Background Color"
+msgstr "圆形背景颜色"
+
+#: preferences.py:56
+msgid "Click nodes to number, right-click or ESC to exit"
+msgstr "点击节点进行编号，右键或 ESC 退出"
+
+#: operators.py:334
+#: operators.py:599
+msgid "Clipboard is empty"
+msgstr "剪贴板为空"
+
+#: preferences.py:225
+#: ui.py:217
+msgid "Color"
+msgstr "颜色"
+
+#: operators.py:621
+msgid "Copied to clipboard"
+msgstr "已复制到剪贴板"
+
+#: operators.py:613
+msgid "Copy Text to Clipboard"
+msgstr "复制文本到剪贴板"
+
+#: operators.py:614
+msgid "Copy text to clipboard, restore line breaks to \\n"
+msgstr "复制文本到剪贴板，将换行还原为 \\n"
+
+#: operators.py:346
+msgid "Create files in blend file directory (no overwrite)"
+msgstr "在 blend 文件目录中创建文件（不覆盖）"
+
+#: operators.py:348
+msgid "Create files in original image directory (no overwrite)"
+msgstr "在原图像目录中创建文件（不覆盖）"
+
+#: operators.py:79
+msgid "Current Node Tree"
+msgstr "当前节点树"
+
+#: preferences.py:80
+#: preferences.py:84
+msgid "Default Alignment"
+msgstr "默认对齐"
+
+#: preferences.py:76
+msgid "Default Background Color"
+msgstr "默认背景颜色"
+
+#: preferences.py:72
+msgid "Default Font Size"
+msgstr "默认字体大小"
+
+#: preferences.py:83
+msgid "Default Image Width"
+msgstr "默认图像宽度"
+
+#: preferences.py:156
+msgid "Default Mouse Offset"
+msgstr "默认鼠标偏移"
+
+#: preferences.py:79
+msgid "Default Text Background Width"
+msgstr "默认文本背景宽度"
+
+#: preferences.py:75
+msgid "Default Text Color"
+msgstr "默认文本颜色"
+
+#: preferences.py:68
+msgid "Default hide image note panel"
+msgstr "默认隐藏图像笔记面板"
+
+#: preferences.py:69
+msgid "Default hide index note panel"
+msgstr "默认隐藏编号笔记面板"
+
+#: preferences.py:67
+msgid "Default hide text note panel"
+msgstr "默认隐藏文本笔记面板"
+
+#: operators.py:65
+msgid "Delete Index (Multi-Select)"
+msgstr "删除编号（多选）"
+
+#: operators.py:665
+msgid "Delete Label"
+msgstr "删除标签"
+
+#: operators.py:131
+msgid "Delete Notes"
+msgstr "删除笔记"
+
+#: operators.py:54
+msgid "Delete Text (Multi-Select)"
+msgstr "删除文本（多选）"
+
+#: operators.py:145
+msgid "Delete Types"
+msgstr "删除类型"
+
+#: operators.py:66
+msgid "Delete index notes from selected nodes"
+msgstr "从选中节点删除编号笔记"
+
+#: operators.py:665
+msgid "Delete nodes custom label if processed/imported"
+msgstr "删除已处理/导入的节点自定义标签"
+
+#: operators.py:132
+msgid "Delete notes with customizable scope and types"
+msgstr "按可自定义范围和类型删除笔记"
+
+#: operators.py:55
+msgid "Delete text notes from selected nodes"
+msgstr "从选中节点删除文本笔记"
+
+#: preferences.py:121
+msgid "Filter images when filtering text"
+msgstr "过滤文本时同时过滤图像"
+
+#: preferences.py:54
+msgid "Follow Overlay"
+msgstr "跟随叠加层"
+
+#: preferences.py:166
+#: ui.py:70
+msgid "Font"
+msgstr "字体"
+
+#: node_properties.py:40
+#: operators.py:232
+msgid "Font Color"
+msgstr "字体颜色"
+
+#: node_properties.py:43
+#: operators.py:231
+msgid "Font Size"
+msgstr "字体大小"
+
+#: preferences.py:73
+msgid "Font file path, leave empty to use default font"
+msgstr "字体文件路径，留空使用默认字体"
+
+#: preferences.py:130
+#: ui.py:56
+msgid "Global"
+msgstr "全局"
+
+#: preferences.py:68
+msgid "Hide Image Panel"
+msgstr "隐藏图像面板"
+
+#: preferences.py:69
+msgid "Hide Index Panel"
+msgstr "隐藏编号面板"
+
+#: preferences.py:67
+msgid "Hide Text Panel"
+msgstr "隐藏文本面板"
+
+#: node_properties.py:30
+#: operators.py:135
+msgid "Image"
+msgstr "图像"
+
+#: preferences.py:197
+msgid "Image Notes Default Settings"
+msgstr "图像笔记默认设置"
+
+#: node_properties.py:49
+msgid "Image Position"
+msgstr "图像位置"
+
+#: node_properties.py:45
+#: operators.py:241
+msgid "Image Width"
+msgstr "图像宽度"
+
+#: node_properties.py:36
+msgid "Image offset"
+msgstr "图像偏移"
+
+#: ui.py:331
+msgid "Image:  {name}"
+msgstr "图像： {name}"
+
+#: operators.py:655
+msgid "Import Node Label to Text Note"
+msgstr "导入节点标签到文本笔记"
+
+#: operators.py:656
+msgid "Import node label to text note"
+msgstr "导入节点标签到文本笔记"
+
+#: node_properties.py:31
+#: operators.py:136
+msgid "Index"
+msgstr "编号"
+
+#: preferences.py:210
+msgid "Index Notes Default Settings"
+msgstr "编号笔记默认设置"
+
+#: preferences.py:88
+msgid "Index Scale"
+msgstr "编号缩放"
+
+#: operators.py:660
+msgid "Inherit node custom color as background color"
+msgstr "继承节点自定义颜色作为背景颜色"
+
+#: preferences.py:56
+msgid "Interactive Mode"
+msgstr "交互模式"
+
+#: preferences.py:102
+msgid "Label 1"
+msgstr "标签 1"
+
+#: preferences.py:103
+msgid "Label 2"
+msgstr "标签 2"
+
+#: preferences.py:104
+msgid "Label 3"
+msgstr "标签 3"
+
+#: preferences.py:105
+msgid "Label 4"
+msgstr "标签 4"
+
+#: preferences.py:106
+msgid "Label 5"
+msgstr "标签 5"
+
+#: preferences.py:107
+msgid "Label 6"
+msgstr "标签 6"
+
+#: preferences.py:91
+msgid "Line Color"
+msgstr "线条颜色"
+
+#: preferences.py:63
+#: preferences.py:65
+msgid "Line Separator"
+msgstr "行分隔符"
+
+#: preferences.py:92
+#: preferences.py:226
+msgid "Line Width"
+msgstr "线宽"
+
+#: preferences.py:224
+#: ui.py:216
+msgid "Lines"
+msgstr "行"
+
+#: ui.py:235
+#: ui.py:284
+msgid "List ({count})"
+msgstr "列表 ({count})"
+
+#: ui.py:44
+msgid "Need turn on Overlay or off Follow"
+msgstr "需开启叠加层或关闭跟随"
+
+#: ui.py:318
+msgid "No Image"
+msgstr "无图像"
+
+#: ui.py:267
+msgid "No matching items found"
+msgstr "未找到匹配项"
+
+#: ui.py:271
+msgid "No notes yet"
+msgstr "暂无笔记"
+
+#: operators.py:632
+msgid "No separator configured, nothing to migrate"
+msgstr "未配置分隔符，无可迁移内容"
+
+#: ui.py:14
+msgid "Node"
+msgstr "节点"
+
+#: ui.py:10
+#: ui.py:374
+msgid "Node Note"
+msgstr "节点随记"
+
+#: operators.py:585
+msgid "Node editor not found"
+msgstr "未找到节点编辑器"
+
+#: ui.py:327
+msgid "Node:  {name}"
+msgstr "节点：  {name}"
+
+#: ui.py:304
+#: ui.py:319
+msgid "None"
+msgstr "无"
+
+#: preferences.py:90
+msgid "Number Color"
+msgstr "编号颜色"
+
+#: preferences.py:90
+msgid "Number color for all indexes"
+msgstr "所有索引的编号颜色"
+
+#: node_properties.py:35
+#: node_properties.py:36
+msgid "Offset"
+msgstr "偏移"
+
+#: operators.py:659
+msgid "Only Frame Nodes"
+msgstr "仅框节点"
+
+#: operators.py:78
+msgid "Only nodes currently selected"
+msgstr "仅当前选中的节点"
+
+#: operators.py:659
+msgid "Only process Frame nodes"
+msgstr "仅处理框节点"
+
+#: preferences.py:53
+msgid "Only show notes of selected nodes"
+msgstr "仅显示选中节点的笔记"
+
+#: operators.py:437
+msgid "Open Image Editor"
+msgstr "打开图像编辑器"
+
+#: operators.py:103
+#: operators.py:141
+msgid "Operation Scope"
+msgstr "操作范围"
+
+#: ui.py:90
+msgid "Others"
+msgstr "其他"
+
+#: operators.py:342
+msgid "Pack Mode"
+msgstr "打包模式"
+
+#: operators.py:339
+msgid "Pack/Unpack Images"
+msgstr "打包/解包图像"
+
+#: preferences.py:135
+msgid "Panel Shortcut Key:"
+msgstr "面板快捷键："
+
+#: preferences.py:51
+msgid "Panel Width"
+msgstr "面板宽度"
+
+#: operators.py:321
+msgid "Paste Image"
+msgstr "粘贴图像"
+
+#: operators.py:322
+msgid "Paste Image from Clipboard"
+msgstr "从剪贴板粘贴图像"
+
+#: operators.py:592
+msgid "Paste Text from Clipboard"
+msgstr "从剪贴板粘贴文本"
+
+#: operators.py:593
+msgid "Paste text from clipboard, replace line breaks according to settings"
+msgstr "从剪贴板粘贴文本，按设置替换换行符"
+
+#: operators.py:378
+msgid "Please save Blend file first"
+msgstr "请先保存 Blend 文件"
+
+#: preferences.py:125
+msgid "Plugin Location: Right-click Menu + NPanel->Node->Node Note"
+msgstr "插件位置：右键菜单 + N 面板->节点->节点随记"
+
+#: preferences.py:59
+msgid "Prepend Mode"
+msgstr "前置模式"
+
+#: preferences.py:97
+msgid "Preset Blue"
+msgstr "预设蓝色"
+
+#: preferences.py:96
+msgid "Preset Green"
+msgstr "预设绿色"
+
+#: preferences.py:100
+msgid "Preset None"
+msgstr "预设无"
+
+#: preferences.py:98
+msgid "Preset Orange"
+msgstr "预设橙色"
+
+#: preferences.py:99
+msgid "Preset Purple"
+msgstr "预设紫色"
+
+#: preferences.py:95
+msgid "Preset Red"
+msgstr "预设红色"
+
+#: preferences.py:221
+msgid "Relative Scale"
+msgstr "相对缩放"
+
+#: operators.py:117
+msgid "Remove Image (Multi-Select)"
+msgstr "移除图像（多选）"
+
+#: operators.py:118
+msgid "Remove images corresponding to selected nodes' image notes from Blender file"
+msgstr "从 Blender 文件中移除选中节点图像笔记对应的图像"
+
+#: operators.py:308
+msgid "Reset Offset (Multi-Select)"
+msgstr "重置偏移（多选）"
+
+#: preferences.py:74
+msgid "Roundness"
+msgstr "圆角"
+
+#: preferences.py:74
+msgid "Roundness of note background rectangle"
+msgstr "笔记背景矩形的圆角"
+
+#: preferences.py:126
+msgid "Saving v5.0+ files in v4.x results in missing notes when reopening in v5.x."
+msgstr "在 v4.x 中保存 v5.0+ 文件后，用 v5.x 重新打开会丢失笔记。"
+
+#: preferences.py:217
+#: ui.py:209
+msgid "Scale"
+msgstr "缩放"
+
+#: preferences.py:87
+msgid "Scale Mode"
+msgstr "缩放模式"
+
+#: operators.py:75
+msgid "Scope"
+msgstr "范围"
+
+#: preferences.py:219
+msgid "Screen Scale"
+msgstr "屏幕缩放"
+
+#: preferences.py:89
+msgid "Screen Space Scale"
+msgstr "屏幕空间缩放"
+
+#: preferences.py:60
+msgid "Search"
+msgstr "搜索"
+
+#: ui.py:60
+msgid "Selected"
+msgstr "已选中"
+
+#: operators.py:78
+msgid "Selected Nodes"
+msgstr "选中的节点"
+
+#: operators.py:661
+msgid "Set text alignment to center"
+msgstr "将文本对齐设为居中"
+
+#: preferences.py:155
+msgid "Shortcut Panel Width"
+msgstr "快捷键面板宽度"
+
+#: preferences.py:50
+msgid "Shortcut key cursor offset"
+msgstr "快捷键光标偏移"
+
+#: preferences.py:153
+msgid "Shortcut key not registered"
+msgstr "快捷键未注册"
+
+#: preferences.py:52
+msgid "Show All"
+msgstr "显示全部"
+
+#: preferences.py:117
+msgid "Show Blue"
+msgstr "显示蓝色"
+
+#: preferences.py:55
+msgid "Show Connection Lines"
+msgstr "显示连接线"
+
+#: preferences.py:109
+msgid "Show Global Settings"
+msgstr "显示全局设置"
+
+#: preferences.py:116
+msgid "Show Green"
+msgstr "显示绿色"
+
+#: node_properties.py:26
+msgid "Show Image"
+msgstr "显示图像"
+
+#: operators.py:192
+msgid "Show Image (Multi-Select)"
+msgstr "显示图像（多选）"
+
+#: preferences.py:111
+msgid "Show Image Notes"
+msgstr "显示图像笔记"
+
+#: node_properties.py:27
+msgid "Show Index"
+msgstr "显示索引"
+
+#: operators.py:204
+msgid "Show Index (Multi-Select)"
+msgstr "显示索引（多选）"
+
+#: preferences.py:112
+msgid "Show Index Notes"
+msgstr "显示索引笔记"
+
+#: preferences.py:113
+msgid "Show Notes List"
+msgstr "显示笔记列表"
+
+#: preferences.py:118
+msgid "Show Orange"
+msgstr "显示橙色"
+
+#: preferences.py:120
+msgid "Show Others"
+msgstr "显示其他"
+
+#: preferences.py:119
+msgid "Show Purple"
+msgstr "显示紫色"
+
+#: preferences.py:115
+msgid "Show Red"
+msgstr "显示红色"
+
+#: preferences.py:53
+msgid "Show Selected Only"
+msgstr "仅显示选中项"
+
+#: node_properties.py:25
+msgid "Show Text"
+msgstr "显示文本"
+
+#: operators.py:180
+msgid "Show Text (Multi-Select)"
+msgstr "显示文本（多选）"
+
+#: preferences.py:110
+msgid "Show Text Notes"
+msgstr "显示文本笔记"
+
+#: preferences.py:115
+#: preferences.py:116
+msgid "Show by preset color"
+msgstr "按预设颜色显示"
+
+#: operators.py:193
+msgid "Show image notes of selected nodes"
+msgstr "显示所选节点的图像笔记"
+
+#: preferences.py:55
+msgid "Show index lines between nodes"
+msgstr "显示节点间的索引连线"
+
+#: operators.py:205
+msgid "Show index notes of selected nodes"
+msgstr "显示所选节点的索引笔记"
+
+#: operators.py:181
+msgid "Show text notes of selected nodes"
+msgstr "显示所选节点的文本笔记"
+
+#: operators.py:662
+msgid "Skip nodes that already have text notes"
+msgstr "跳过已有文本笔记的节点"
+
+#: operators.py:662
+msgid "Skip not none"
+msgstr "跳过不为「无」的项"
+
+#: preferences.py:158
+msgid "Some property changes require Blender restart to take effect"
+msgstr "部分属性更改需重启 Blender 才能生效"
+
+#: preferences.py:57
+msgid "Sort Mode"
+msgstr "排序模式"
+
+#: node_properties.py:28
+msgid "Swap Position"
+msgstr "交换位置"
+
+#: operators.py:36
+msgid "Swap Text and Image Position"
+msgstr "交换文本与图像位置"
+
+#: node_properties.py:28
+msgid "Swap image and text order"
+msgstr "交换图像与文本顺序"
+
+#: operators.py:37
+msgid "Swap text and image note order for selected nodes"
+msgstr "交换所选节点的文本与图像笔记顺序"
+
+#: operators.py:228
+msgid "Sync Active Node Note Style"
+msgstr "同步活动节点笔记样式"
+
+#: operators.py:298
+msgid "Tag"
+msgstr "标签"
+
+#: node_properties.py:29
+#: operators.py:134
+msgid "Text"
+msgstr "文本"
+
+#: preferences.py:162
+msgid "Text Notes Default Settings"
+msgstr "文本笔记默认设置"
+
+#: node_properties.py:48
+msgid "Text Position"
+msgstr "文本位置"
+
+#: node_properties.py:35
+msgid "Text and Image offset"
+msgstr "文本与图像偏移"
+
+#: ui.py:350
+msgid "Text:  None"
+msgstr "文本：  无"
+
+#: operators.py:343
+#: operators.py:366
+msgid "Unpack Method"
+msgstr "解包方式"
+
+#: operators.py:346
+msgid "Use Current Directory"
+msgstr "使用当前目录"
+
+#: operators.py:660
+msgid "Use Node Color"
+msgstr "使用节点颜色"
+
+#: operators.py:348
+msgid "Use Original Location"
+msgstr "使用原始位置"
+
+#: preferences.py:127
+msgid "Versions within 4.x are fully compatible. v5.0 can load notes saved in v4.x."
+msgstr "4.x 各版本完全兼容。v5.0 可加载 v4.x 保存的笔记。"
+
+#: operators.py:438
+msgid "View image in floating image editor"
+msgstr "在浮动图像编辑器中查看图像"
+
+#: preferences.py:54
+msgid "Whether to hide notes when node editor overlay is closed"
+msgstr "节点编辑器叠加层关闭时是否隐藏笔记"
+
+#: preferences.py:176
+#: preferences.py:202
+msgid "Width"
+msgstr "宽度"
+
+#: node_properties.py:46
+#: node_properties.py:47
+msgid "Width Mode"
+msgstr "宽度模式"
+
+#: preferences.py:51
+msgid "Width of the shortcut panel"
+msgstr "快捷面板宽度"
+
+#: operators.py:347
+msgid "Write files to blend file directory (overwrite)"
+msgstr "写入 blend 文件目录（覆盖）"
+
+#: operators.py:349
+msgid "Write files to original image directory (overwrite)"
+msgstr "写入原始图像目录（覆盖）"
+
+#: operators.py:347
+msgid "Write to Current Directory"
+msgstr "写入当前目录"
+
+#: operators.py:349
+msgid "Write to Original Location"
+msgstr "写入原始位置"
+
+#: operators.py:520
+msgctxt "Operator"
+msgid "Click nodes to auto-number (right-click/ESC to exit)"
+msgstr "点击节点自动编号（右键/ESC 退出）"
+
+#: operators.py:519
+msgctxt "Operator"
+msgid "Interactive Numbering"
+msgstr "交互式编号"
+
+#: operators.py:421
+msgctxt "Operator"
+msgid "Jump to Node with Note"
+msgstr "跳转到带笔记的节点"
+
+#: operators.py:422
+msgctxt "Operator"
+msgid "Jump to the node containing the note"
+msgstr "跳转到包含该笔记的节点"
+
+#: operators.py:626
+msgctxt "Operator"
+msgid "Migrate"
+msgstr "迁移"
+
+#: operators.py:503
+#: ui.py:371
+msgctxt "Operator"
+msgid "Node Note"
+msgstr "节点随记"
+
+#: ui.py:175
+msgctxt "Operator"
+msgid "Pack"
+msgstr "打包"
+
+#: ui.py:67
+msgctxt "Operator"
+msgid "Preferences"
+msgstr "偏好设置"
+
+#: operators.py:627
+msgctxt "Operator"
+msgid "Replace legacy line separators with new line characters"
+msgstr "将旧版行分隔符替换为换行符"
+
+#: ui.py:173
+msgctxt "Operator"
+msgid "Unpack"
+msgstr "解包"
+
+#: ui.py:154
+msgctxt "Operator"
+msgid "⇅"
+msgstr "⇅"

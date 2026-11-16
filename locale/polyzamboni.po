@@ -1,0 +1,1037 @@
+# perfect-chinese: 1
+# id: polyzamboni
+# kind: addon
+# module: bl_ext.blender_org.polyzamboni
+# name: PolyZamboni
+# name_zh: 纸模工具
+# translator: KeshiMiao
+# category: 3D View
+# supported_versions: >=5.1.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: polyzamboni/ui.py:163
+#: polyzamboni/ui.py:175
+msgid "("
+msgstr "("
+
+#: polyzamboni/properties.py:174
+#: polyzamboni/properties.py:239
+msgid ","
+msgstr ","
+
+#: polyzamboni/properties.py:215
+msgid "-"
+msgstr "-"
+
+#: polyzamboni/properties.py:218
+msgid "--."
+msgstr "--."
+
+#: polyzamboni/properties.py:217
+msgid "-."
+msgstr "-."
+
+#: polyzamboni/properties.py:219
+msgid "-.."
+msgstr "-.."
+
+#: polyzamboni/properties.py:216
+msgid ".."
+msgstr ".."
+
+#: polyzamboni/operators_backend.py:203
+#: polyzamboni/operators_backend.py:315
+msgid "A piece does not fit on one page!"
+msgstr "有零件无法放入单个页面！"
+
+#: polyzamboni/properties.py:88
+msgid "A value of 1 makes all non-selected sections disappear"
+msgstr "值为 1 时，所有未选中的部分都会消失"
+
+#: polyzamboni/properties.py:165
+#: polyzamboni/properties.py:230
+msgid "A0"
+msgstr "A0"
+
+#: polyzamboni/properties.py:166
+#: polyzamboni/properties.py:231
+msgid "A1"
+msgstr "A1"
+
+#: polyzamboni/properties.py:167
+#: polyzamboni/properties.py:232
+msgid "A2"
+msgstr "A2"
+
+#: polyzamboni/properties.py:168
+#: polyzamboni/properties.py:233
+msgid "A3"
+msgstr "A3"
+
+#: polyzamboni/properties.py:169
+#: polyzamboni/properties.py:234
+msgid "A4"
+msgstr "A4"
+
+#: polyzamboni/properties.py:170
+#: polyzamboni/properties.py:235
+msgid "A5"
+msgstr "A5"
+
+#: polyzamboni/properties.py:171
+#: polyzamboni/properties.py:236
+msgid "A6"
+msgstr "A6"
+
+#: polyzamboni/properties.py:172
+#: polyzamboni/properties.py:237
+msgid "A7"
+msgstr "A7"
+
+#: polyzamboni/properties.py:173
+#: polyzamboni/properties.py:238
+msgid "A8"
+msgstr "A8"
+
+#: polyzamboni/properties.py:208
+msgid "Active build section"
+msgstr "活动拼装部分"
+
+#: polyzamboni/operators.py:459
+msgid "Add Cuts"
+msgstr "添加切口"
+
+#: polyzamboni/operators.py:419
+msgid "Add glue flaps"
+msgstr "添加粘贴翼"
+
+#: polyzamboni/operators.py:419
+msgid "Adds glue flaps to the selected edges"
+msgstr "为选中的边添加粘贴翼"
+
+#: polyzamboni/properties.py:312
+msgid "After glueing the pieces together, prints will be on the meshes inside if set to True"
+msgstr "启用后，将零件粘合在一起时，打印内容会位于网格内侧"
+
+#: polyzamboni/operators.py:500
+msgid "Algorithm"
+msgstr "算法"
+
+#: polyzamboni/operators.py:514
+msgid "Allow all overlaps"
+msgstr "允许所有重叠"
+
+#: polyzamboni/operators.py:514
+msgid "Allow all overlaps (all cut pieces have to be not red)"
+msgstr "允许所有重叠（所有切割零件必须不为红色）"
+
+#: polyzamboni/operators.py:513
+msgid "Allow glue flap overlaps (all cut pieces have to be yellow or green)"
+msgstr "允许粘贴翼重叠（所有切割零件必须为黄色或绿色）"
+
+#: polyzamboni/operators.py:512
+msgid "Allow no overlaps (all cut pieces have to be green)"
+msgstr "不允许重叠（所有切割零件必须为绿色）"
+
+#: polyzamboni/operators.py:513
+msgid "Allow overlapping glue flaps"
+msgstr "允许粘贴翼重叠"
+
+#: polyzamboni/properties.py:401
+#: polyzamboni/properties.py:416
+msgid "Applies some texture to all faces. If no texture can be found in a materials node tree, the diffuse color is used"
+msgstr "为所有面应用纹理。若在材质节点树中找不到纹理，则使用漫射颜色"
+
+#: polyzamboni/properties.py:401
+#: polyzamboni/properties.py:416
+msgid "Apply textures"
+msgstr "应用纹理"
+
+#: polyzamboni/properties.py:521
+msgid "Auto Cuts Progress"
+msgstr "自动切割进度"
+
+#: polyzamboni/properties.py:522
+msgid "Auto Cuts computation running"
+msgstr "自动切割计算进行中"
+
+#: polyzamboni/operators.py:418
+msgid "Automatically shrinks glue flaps to fit on the piece it will be glued onto"
+msgstr "自动收缩粘贴翼，使其适配将要粘贴到的零件"
+
+#: polyzamboni/operators_backend.py:282
+msgid "Back"
+msgstr "背面"
+
+#: polyzamboni/operators.py:104
+msgid "Bad normals! Try \"Recalculate Outside\" (Shift-N)"
+msgstr "法线错误！请尝试「重新计算外侧」(Shift-N)"
+
+#: polyzamboni/ui.py:203
+#: polyzamboni/ui.py:296
+msgid "Build Sections"
+msgstr "拼装部分"
+
+#: polyzamboni/ui.py:181
+msgid "Build section specials"
+msgstr "拼装部分特殊操作"
+
+#: polyzamboni/properties.py:204
+msgid "Build sections"
+msgstr "拼装部分"
+
+#: polyzamboni/properties.py:78
+msgid "Build step numbers"
+msgstr "拼装步骤编号"
+
+#: polyzamboni/properties.py:305
+msgid "Build steps color"
+msgstr "拼装步骤颜色"
+
+#: polyzamboni/properties.py:293
+msgid "Build steps font size"
+msgstr "拼装步骤字号"
+
+#: polyzamboni/ui.py:285
+msgid "Change step number with F"
+msgstr "按 F 更改步骤编号"
+
+#: polyzamboni/operators_backend.py:254
+msgid "Choose linestyles of:"
+msgstr "选择线型："
+
+#: polyzamboni/operators.py:461
+msgid "Clear Edges"
+msgstr "清除边"
+
+#: polyzamboni/operators_backend.py:218
+msgid "Color"
+msgstr "颜色"
+
+#: polyzamboni/properties.py:406
+#: polyzamboni/properties.py:421
+msgid "Color glue flaps"
+msgstr "为粘贴翼着色"
+
+#: polyzamboni/properties.py:98
+msgid "Component id"
+msgstr "组件 ID"
+
+#: polyzamboni/properties.py:354
+msgid "Concave fold edges linestyle"
+msgstr "凹折边线型"
+
+#: polyzamboni/properties.py:107
+msgid "Connected components"
+msgstr "连通组件"
+
+#: polyzamboni/properties.py:123
+msgid "Controls how far the glue flaps extend"
+msgstr "控制粘贴翼的延伸距离"
+
+#: polyzamboni/properties.py:193
+msgid "Controls the size of the printed patterns"
+msgstr "控制打印图案的大小"
+
+#: polyzamboni/properties.py:378
+msgid "Convave folds color"
+msgstr "凹折颜色"
+
+#: polyzamboni/properties.py:349
+msgid "Convex fold edges linestyle"
+msgstr "凸折边线型"
+
+#: polyzamboni/properties.py:371
+msgid "Convex folds color"
+msgstr "凸折颜色"
+
+#: polyzamboni/properties.py:177
+#: polyzamboni/properties.py:242
+msgid "Custom"
+msgstr "自定义"
+
+#: polyzamboni/operators_backend.py:180
+#: polyzamboni/operators_backend.py:292
+msgid "Custom page size"
+msgstr "自定义页面尺寸"
+
+#: polyzamboni/properties.py:325
+#: polyzamboni/properties.py:502
+msgid "Custom scaling factor"
+msgstr "自定义缩放系数"
+
+#: polyzamboni/properties.py:344
+msgid "Cut edge linestyle"
+msgstr "切割边线型"
+
+#: polyzamboni/operators.py:459
+msgid "Cut the selected edges"
+msgstr "切割选中的边"
+
+#: polyzamboni/operators.py:462
+msgid "Define Region"
+msgstr "定义区域"
+
+#: polyzamboni/operators.py:518
+msgid "Determine what edges should have a high cut priority, depending on their alignment with one coordinate axis"
+msgstr "根据边与某一坐标轴的对齐程度，决定哪些边应具有较高的切割优先级"
+
+#: polyzamboni/operators.py:508
+msgid "Determine what kind of print overlaps are allowed"
+msgstr "确定允许哪种打印内容重叠"
+
+#: polyzamboni/properties.py:130
+msgid "Determines the shape of all glue flaps"
+msgstr "决定所有粘贴翼的形状"
+
+#: polyzamboni/properties.py:433
+msgid "Determines the size of the texture buffer. The \"super\" setting will give you a bit more than 300dpi on a DinA4 page"
+msgstr "决定纹理缓冲区的大小。「super」设置在 DinA4 页面上可提供略高于 300dpi 的精度"
+
+#: polyzamboni/properties.py:321
+#: polyzamboni/properties.py:492
+msgid "Directly define the scaling factor from blender units to the unit active in the scene (m per default)"
+msgstr "直接定义从 Blender 单位到场景当前单位（默认为米）的缩放系数"
+
+#: polyzamboni/properties.py:73
+msgid "Display colors"
+msgstr "显示颜色"
+
+#: polyzamboni/properties.py:33
+msgid "Dotted line length"
+msgstr "虚线长度"
+
+#: polyzamboni/properties.py:23
+msgid "Draw edges"
+msgstr "绘制边"
+
+#: polyzamboni/properties.py:298
+msgid "Edge number color"
+msgstr "边编号颜色"
+
+#: polyzamboni/properties.py:288
+msgid "Edge number font size"
+msgstr "边编号字号"
+
+#: polyzamboni/properties.py:385
+msgid "Edge number offset"
+msgstr "边编号偏移"
+
+#: polyzamboni/operators_backend.py:220
+msgid "Edge numbers"
+msgstr "边编号"
+
+#: polyzamboni/properties.py:523
+msgid "Editing page layout"
+msgstr "编辑页面布局"
+
+#: polyzamboni/properties.py:406
+#: polyzamboni/properties.py:421
+msgid "Enable this to color glue flap faces. This is helpful for knowing what has to be glued"
+msgstr "启用后为粘贴翼面着色，便于了解需要粘合的部分"
+
+#: polyzamboni/operators.py:417
+msgid "Flip all glue flaps attached to the selected edges"
+msgstr "翻转连接到选中边的所有粘贴翼"
+
+#: polyzamboni/operators.py:417
+msgid "Flip glue flaps"
+msgstr "翻转粘贴翼"
+
+#: polyzamboni/properties.py:64
+msgid "Folds below this angle wont be drawn"
+msgstr "小于此角度的折线将不绘制"
+
+#: polyzamboni/operators_backend.py:275
+msgid "Front"
+msgstr "正面"
+
+#: polyzamboni/operators_backend.py:167
+msgid "General print settings"
+msgstr "常规打印设置"
+
+#: polyzamboni/operators.py:460
+msgid "Glue Edges"
+msgstr "粘合边"
+
+#: polyzamboni/ui.py:121
+msgid "Glue Flap Editing"
+msgstr "粘合翼片编辑"
+
+#: polyzamboni/properties.py:130
+msgid "Glue flap angle"
+msgstr "粘合翼片角度"
+
+#: polyzamboni/properties.py:426
+msgid "Glue flap color"
+msgstr "粘合翼片颜色"
+
+#: polyzamboni/properties.py:359
+msgid "Glue flap edges linestyle"
+msgstr "粘合翼片边线样式"
+
+#: polyzamboni/properties.py:123
+msgid "Glue flap height"
+msgstr "粘合翼片高度"
+
+#: polyzamboni/properties.py:144
+msgid "Glue flaps get automatically trimmed to fit on the piece it is glued onto"
+msgstr "粘合翼片会自动裁剪，以适配其粘合到的部件"
+
+#: polyzamboni/operators.py:504
+msgid "Greedy"
+msgstr "贪心"
+
+#: polyzamboni/properties.py:118
+msgid "Has attached paper model"
+msgstr "已附加纸模型"
+
+#: polyzamboni/properties.py:187
+#: polyzamboni/properties.py:252
+msgid "Height"
+msgstr "高度"
+
+#: polyzamboni/properties.py:88
+msgid "Highlight factor"
+msgstr "高亮系数"
+
+#: polyzamboni/properties.py:83
+msgid "Highlight selected section"
+msgstr "高亮选中分区"
+
+#: polyzamboni/properties.py:139
+msgid "If glue flaps should alternate along a patch boundary"
+msgstr "粘合翼片是否应沿拼片边界交替"
+
+#: polyzamboni/properties.py:118
+msgid "Is true if the mesh has a paper model attached to it"
+msgstr "网格附加纸模型时为真"
+
+#: polyzamboni/properties.py:175
+#: polyzamboni/properties.py:240
+msgid "Legal"
+msgstr "Legal"
+
+#: polyzamboni/properties.py:174
+#: polyzamboni/properties.py:239
+msgid "Letter"
+msgstr "Letter"
+
+#: polyzamboni/properties.py:364
+msgid "Line color"
+msgstr "线条颜色"
+
+#: polyzamboni/operators_backend.py:240
+msgid "Line settings"
+msgstr "线条设置"
+
+#: polyzamboni/properties.py:332
+msgid "Line width"
+msgstr "线宽"
+
+#: polyzamboni/properties.py:111
+msgid "Lock section"
+msgstr "锁定分区"
+
+#: polyzamboni/operators.py:518
+msgid "Loop Alignment"
+msgstr "循环对齐"
+
+#: polyzamboni/operators.py:522
+msgid "Loops around the x-axis"
+msgstr "绕 X 轴循环"
+
+#: polyzamboni/operators.py:523
+msgid "Loops around the y-axis"
+msgstr "绕 Y 轴循环"
+
+#: polyzamboni/operators.py:524
+msgid "Loops around the z-axis"
+msgstr "绕 Z 轴循环"
+
+#: polyzamboni/operators.py:462
+msgid "Mark the selected faces as one region"
+msgstr "将选中面标记为一个区域"
+
+#: polyzamboni/operators.py:528
+msgid "Max pieces per component"
+msgstr "每个组件最大部件数"
+
+#: polyzamboni/properties.py:150
+msgid "Mesh is non manifold"
+msgstr "网格非流形"
+
+#: polyzamboni/properties.py:337
+msgid "Min fold angle to print a fold edge."
+msgstr "打印折边的最小折角。"
+
+#: polyzamboni/properties.py:64
+msgid "Min fold edge angle"
+msgstr "最小折边角度"
+
+#: polyzamboni/properties.py:193
+msgid "Model scale"
+msgstr "模型缩放"
+
+#: polyzamboni/ui.py:107
+msgid "Modify Paper Model in Edit Mode"
+msgstr "在编辑模式下修改纸模型"
+
+#: polyzamboni/ui.py:283
+msgid "Move selected piece with G"
+msgstr "用 G 移动选中部件"
+
+#: polyzamboni/properties.py:154
+msgid "Multi touching faces present"
+msgstr "存在多接触面"
+
+#: polyzamboni/ui.py:155
+#: polyzamboni/ui.py:238
+msgid "No Cutgraph selected"
+msgstr "未选择切割图"
+
+#: polyzamboni/ui.py:199
+msgid "No Papermodel selected"
+msgstr "未选择纸模型"
+
+#: polyzamboni/operators.py:512
+msgid "No overlaps"
+msgstr "无重叠"
+
+#: polyzamboni/properties.py:47
+msgid "Normal offset"
+msgstr "法向偏移"
+
+#: polyzamboni/properties.py:158
+msgid "Not tri-able faces present"
+msgstr "存在无法三角化的面"
+
+#: polyzamboni/properties.py:270
+#: polyzamboni/properties.py:484
+msgid "One material per page"
+msgstr "每页一个材质"
+
+#: polyzamboni/ui.py:273
+msgid "Page Layout Preview"
+msgstr "页面布局预览"
+
+#: polyzamboni/properties.py:162
+#: polyzamboni/properties.py:227
+msgid "Page Size"
+msgstr "页面大小"
+
+#: polyzamboni/properties.py:258
+#: polyzamboni/properties.py:472
+msgid "Page margin"
+msgstr "页边距"
+
+#: polyzamboni/ui.py:65
+msgid "Please leave the page layout editor first."
+msgstr "请先退出页面布局编辑器。"
+
+#: polyzamboni/ui.py:5
+#: polyzamboni/ui.py:262
+msgid "Poly Zamboni"
+msgstr "Poly Zamboni"
+
+#: polyzamboni/ui.py:9
+#: polyzamboni/ui.py:125
+msgid "PolyZamboni"
+msgstr "PolyZamboni"
+
+#: polyzamboni/ui.py:63
+#: polyzamboni/ui.py:67
+msgid "PolyZamboni Editing Tools"
+msgstr "PolyZamboni 编辑工具"
+
+#: polyzamboni/operators.py:608
+msgid "Polyzamboni Cut Tools"
+msgstr "PolyZamboni 切割工具"
+
+#: polyzamboni/operators.py:618
+msgid "Polyzamboni Glue Flap Tools"
+msgstr "PolyZamboni 粘合翼片工具"
+
+#: polyzamboni/ui.py:70
+msgid "Press Alt+C to edit cuts"
+msgstr "按 Alt+C 编辑切割"
+
+#: polyzamboni/ui.py:72
+msgid "Press Alt+X to edit glue flaps"
+msgstr "按 Alt+X 编辑粘合翼片"
+
+#: polyzamboni/operators.py:460
+msgid "Prevent selected edges from being cut"
+msgstr "防止选中边被切割"
+
+#: polyzamboni/operators_backend.py:271
+msgid "Print on both sides of paper"
+msgstr "在纸张双面打印"
+
+#: polyzamboni/operators_backend.py:216
+msgid "Print?"
+msgstr "打印？"
+
+#: polyzamboni/properties.py:312
+msgid "Prints inside of mesh"
+msgstr "打印网格内部"
+
+#: polyzamboni/operators.py:508
+msgid "Quality"
+msgstr "质量"
+
+#: polyzamboni/properties.py:40
+msgid "Region transparency"
+msgstr "区域透明度"
+
+#: polyzamboni/operators.py:461
+msgid "Remove any constraints"
+msgstr "移除所有约束"
+
+#: polyzamboni/operators.py:420
+msgid "Remove glue flaps"
+msgstr "移除粘合翼片"
+
+#: polyzamboni/operators.py:420
+msgid "Removes all glue flaps attached to the selected edges"
+msgstr "移除附着到选中边的所有粘合翼片"
+
+#: polyzamboni/ui.py:241
+#: polyzamboni/ui.py:329
+msgid "Render Settings"
+msgstr "渲染设置"
+
+#: polyzamboni/ui.py:284
+msgid "Rotate selected piece with R"
+msgstr "用 R 旋转选中部件"
+
+#: polyzamboni/properties.py:320
+#: polyzamboni/properties.py:491
+msgid "Scales all pieces to achieve the desired model height"
+msgstr "缩放所有部件以达到所需模型高度"
+
+#: polyzamboni/properties.py:317
+#: polyzamboni/properties.py:488
+msgid "Scaling mode"
+msgstr "缩放模式"
+
+#: polyzamboni/properties.py:103
+msgid "Section Name"
+msgstr "分区名称"
+
+#: polyzamboni/operators.py:413
+#: polyzamboni/operators.py:455
+msgid "Select an action"
+msgstr "选择操作"
+
+#: polyzamboni/ui.py:282
+msgid "Select piece with LMB"
+msgstr "用左键选择部件"
+
+#: polyzamboni/properties.py:199
+msgid "Selected Component ID"
+msgstr "选中组件 ID"
+
+#: polyzamboni/properties.py:321
+#: polyzamboni/properties.py:492
+msgid "Set scale"
+msgstr "设置缩放"
+
+#: polyzamboni/properties.py:59
+msgid "Show Page Layout"
+msgstr "显示页面布局"
+
+#: polyzamboni/properties.py:18
+msgid "Show Zamboni interface"
+msgstr "显示 Zamboni 界面"
+
+#: polyzamboni/properties.py:280
+msgid "Show build steps"
+msgstr "显示构建步骤"
+
+#: polyzamboni/properties.py:284
+msgid "Show edge numbers"
+msgstr "显示边编号"
+
+#: polyzamboni/properties.py:54
+msgid "Show glue flaps"
+msgstr "显示粘合翼片"
+
+#: polyzamboni/properties.py:28
+msgid "Show region quality"
+msgstr "显示区域质量"
+
+#: polyzamboni/operators_backend.py:217
+msgid "Size"
+msgstr "大小"
+
+#: polyzamboni/properties.py:144
+msgid "Smart flap trimming"
+msgstr "智能翼片裁剪"
+
+#: polyzamboni/operators.py:418
+msgid "Smart trim glue flaps"
+msgstr "智能裁剪粘合翼片"
+
+#: polyzamboni/operators.py:110
+msgid "Some faces are highly non-planar! (err: {:.2f})"
+msgstr "一些面高度非平面！（误差：{:.2f}）"
+
+#: polyzamboni/operators.py:108
+msgid "Some faces can't be triangulated by PolyZamboni!"
+msgstr "某些面无法由 PolyZamboni 三角化！"
+
+#: polyzamboni/operators.py:106
+msgid "Some faces touch at more than one edge!"
+msgstr "某些面在不止一条边上接触！"
+
+#: polyzamboni/properties.py:264
+#: polyzamboni/properties.py:478
+msgid "Space between pieces"
+msgstr "部件间距"
+
+#: polyzamboni/operators.py:504
+msgid "Start with all edges cut and then remove as many as possible"
+msgstr "先切割所有边，然后尽可能多地移除"
+
+#: polyzamboni/operators.py:853
+msgid "Step Number"
+msgstr "步骤编号"
+
+#: polyzamboni/operators_backend.py:228
+msgid "Step numbers"
+msgstr "步骤编号"
+
+#: polyzamboni/operators_backend.py:237
+msgid "Sure about the step numbers?"
+msgstr "确定步骤编号吗？"
+
+#: polyzamboni/properties.py:176
+#: polyzamboni/properties.py:241
+msgid "Tabloid"
+msgstr "Tabloid"
+
+#: polyzamboni/properties.py:320
+#: polyzamboni/properties.py:491
+msgid "Target height"
+msgstr "目标高度"
+
+#: polyzamboni/properties.py:274
+#: polyzamboni/properties.py:496
+msgid "Target model height"
+msgstr "目标模型高度"
+
+#: polyzamboni/properties.py:433
+msgid "Texture quality"
+msgstr "纹理质量"
+
+#: polyzamboni/operators_backend.py:261
+msgid "Texture settings"
+msgstr "纹理设置"
+
+#: polyzamboni/operators.py:500
+msgid "The algorithm used to generate auto-cuts"
+msgstr "用于生成自动切割的算法"
+
+#: polyzamboni/operators.py:528
+msgid "The maximum amount of mesh faces per component. High values can lead to very high runtimes!"
+msgstr "每个组件的最大网格面数。高数值可能导致运行时间非常长！"
+
+#: polyzamboni/operators.py:102
+msgid "The selected mesh is not manifold!"
+msgstr "所选网格不是流形！"
+
+#: polyzamboni/operators.py:111
+msgid "This might crash the addon later..."
+msgstr "这可能导致插件稍后崩溃……"
+
+#: polyzamboni/properties.py:411
+msgid "Two sided texture mode"
+msgstr "双面纹理模式"
+
+#: polyzamboni/properties.py:223
+msgid "Use custom layout"
+msgstr "使用自定义布局"
+
+#: polyzamboni/properties.py:411
+msgid "When selected, build instructions and textures are printed on separate pages for two-sided printing"
+msgstr "选中后，构建说明和纹理会分别打印在单独页面上，以便双面打印"
+
+#: polyzamboni/properties.py:111
+msgid "When set to true, this section can only be changed manually."
+msgstr "设为 true 时，此部分只能手动更改。"
+
+#: polyzamboni/properties.py:181
+#: polyzamboni/properties.py:246
+msgid "Width"
+msgstr "宽度"
+
+#: polyzamboni/operators.py:522
+msgid "X axis"
+msgstr "X 轴"
+
+#: polyzamboni/operators.py:523
+msgid "Y axis"
+msgstr "Y 轴"
+
+#: polyzamboni/operators.py:524
+msgid "Z axis"
+msgstr "Z 轴"
+
+#: polyzamboni/properties.py:139
+msgid "ZigZag Flaps"
+msgstr "锯齿翼片"
+
+#: polyzamboni/ui.py:163
+#: polyzamboni/ui.py:175
+msgid "islands)"
+msgstr "孤岛)"
+
+#: polyzamboni/ui.py:16
+msgid "thanks for using me!"
+msgstr "感谢使用！"
+
+#: polyzamboni/operators.py:1274
+msgctxt "Operator"
+msgid "Add the selected islands to the active build section"
+msgstr "将所选孤岛添加到活动构建分区"
+
+#: polyzamboni/operators.py:1273
+msgctxt "Operator"
+msgid "Add to build section"
+msgstr "添加到构建分区"
+
+#: polyzamboni/operators.py:497
+msgctxt "Operator"
+msgid "Auto Unfold"
+msgstr "自动展开"
+
+#: polyzamboni/operators.py:1378
+msgctxt "Operator"
+msgid "Clear selection"
+msgstr "清除选择"
+
+#: polyzamboni/operators.py:392
+msgctxt "Operator"
+msgid "Compute Build Order"
+msgstr "计算构建顺序"
+
+#: polyzamboni/operators.py:1229
+msgctxt "Operator"
+msgid "Create a build section from the selected islands"
+msgstr "从所选孤岛创建构建分区"
+
+#: polyzamboni/operators.py:1228
+msgctxt "Operator"
+msgid "Create build section"
+msgstr "创建构建分区"
+
+#: polyzamboni/operators.py:789
+msgctxt "Operator"
+msgid "Create print preview"
+msgstr "创建打印预览"
+
+#: polyzamboni/operators.py:312
+msgctxt "Operator"
+msgid "Cut at Seams"
+msgstr "在接缝处切割"
+
+#: polyzamboni/operators.py:333
+msgctxt "Operator"
+msgid "Cuts to Seams"
+msgstr "将切割转换为接缝"
+
+#: polyzamboni/operators.py:1339
+msgctxt "Operator"
+msgid "Decreases the active section index by one"
+msgstr "将活动分区索引减一"
+
+#: polyzamboni/operators.py:892
+msgctxt "Operator"
+msgid "Edit Page Layout"
+msgstr "编辑页面布局"
+
+#: polyzamboni/operators.py:850
+msgctxt "Operator"
+msgid "Edit build step number"
+msgstr "编辑构建步骤编号"
+
+#: polyzamboni/operators.py:840
+msgctxt "Operator"
+msgid "Exit Page Editing"
+msgstr "退出页面编辑"
+
+#: polyzamboni/operators.py:628
+msgctxt "Operator"
+msgid "Export PDF"
+msgstr "导出 PDF"
+
+#: polyzamboni/operators.py:708
+msgctxt "Operator"
+msgid "Export SVG"
+msgstr "导出 SVG"
+
+#: polyzamboni/operators.py:373
+msgctxt "Operator"
+msgid "Flip Glue Flaps"
+msgstr "翻转粘合翼片"
+
+#: polyzamboni/operators.py:1360
+msgctxt "Operator"
+msgid "Increases the active section index by one"
+msgstr "将活动分区索引加一"
+
+#: polyzamboni/operators.py:1394
+msgctxt "Operator"
+msgid "Lock all"
+msgstr "全部锁定"
+
+#: polyzamboni/operators.py:1395
+msgctxt "Operator"
+msgid "Locks all build sections"
+msgstr "锁定所有构建分区"
+
+#: polyzamboni/operators.py:1338
+#: polyzamboni/operators.py:1359
+msgctxt "Operator"
+msgid "Move down"
+msgstr "下移"
+
+#: polyzamboni/operators.py:1249
+msgctxt "Operator"
+msgid "Overwrite a build section with the selected islands"
+msgstr "用所选孤岛覆盖构建分区"
+
+#: polyzamboni/operators.py:1248
+msgctxt "Operator"
+msgid "Overwrite build section"
+msgstr "覆盖构建分区"
+
+#: polyzamboni/operators.py:451
+msgctxt "Operator"
+msgid "PolyZamboni Cut Design Tool"
+msgstr "PolyZamboni 切割设计工具"
+
+#: polyzamboni/operators.py:410
+msgctxt "Operator"
+msgid "PolyZamboni Glue Flap Design Tool"
+msgstr "PolyZamboni 粘合翼片设计工具"
+
+#: polyzamboni/operators.py:1473
+msgctxt "Operator"
+msgid "Polyzamboni Export PDF"
+msgstr "Polyzamboni 导出 PDF"
+
+#: polyzamboni/operators.py:1476
+msgctxt "Operator"
+msgid "Polyzamboni Export SVG"
+msgstr "Polyzamboni 导出 SVG"
+
+#: polyzamboni/operators.py:358
+msgctxt "Operator"
+msgid "Recompute Flaps"
+msgstr "重新计算翼片"
+
+#: polyzamboni/operators.py:297
+msgctxt "Operator"
+msgid "Remove Auto Cuts"
+msgstr "移除自动切割"
+
+#: polyzamboni/operators.py:231
+msgctxt "Operator"
+msgid "Remove Paper Model"
+msgstr "移除纸模型"
+
+#: polyzamboni/operators.py:1323
+msgctxt "Operator"
+msgid "Remove build section"
+msgstr "移除构建分区"
+
+#: polyzamboni/operators.py:1298
+msgctxt "Operator"
+msgid "Remove from build section"
+msgstr "从构建分区移除"
+
+#: polyzamboni/operators.py:1299
+msgctxt "Operator"
+msgid "Remove the selected islands from the active build section"
+msgstr "从活动构建分区移除所选孤岛"
+
+#: polyzamboni/operators.py:1324
+msgctxt "Operator"
+msgid "Removes the selected build section"
+msgstr "移除所选构建分区"
+
+#: polyzamboni/operators.py:200
+msgctxt "Operator"
+msgid "Select all faces that can not be triangulated by PolyZamboni"
+msgstr "选择 PolyZamboni 无法三角化的所有面"
+
+#: polyzamboni/operators.py:168
+msgctxt "Operator"
+msgid "Select all faces that share more than one edge with another face"
+msgstr "选择与另一面共享不止一条边的所有面"
+
+#: polyzamboni/operators.py:136
+msgctxt "Operator"
+msgid "Select all non-manifold vertices"
+msgstr "选择所有非流形顶点"
+
+#: polyzamboni/operators.py:167
+msgctxt "Operator"
+msgid "Select ambiguous faces"
+msgstr "选择歧义面"
+
+#: polyzamboni/operators.py:1428
+msgctxt "Operator"
+msgid "Select faces"
+msgstr "选择面"
+
+#: polyzamboni/operators.py:135
+msgctxt "Operator"
+msgid "Select non manifold"
+msgstr "选择非流形"
+
+#: polyzamboni/operators.py:199
+msgctxt "Operator"
+msgid "Select non triangulatable faces"
+msgstr "选择无法三角化的面"
+
+#: polyzamboni/operators.py:1429
+msgctxt "Operator"
+msgid "Selects all faces in the selected build sections islands"
+msgstr "选择所选构建分区孤岛中的所有面"
+
+#: polyzamboni/operators.py:282
+msgctxt "Operator"
+msgid "Separate Materials"
+msgstr "分离材质"
+
+#: polyzamboni/operators.py:1379
+msgctxt "Operator"
+msgid "Sets the active section index to -1"
+msgstr "将活动分区索引设为 -1"
+
+#: polyzamboni/operators.py:252
+msgctxt "Operator"
+msgid "Sync Mesh Changes"
+msgstr "同步网格更改"
+
+#: polyzamboni/operators.py:37
+msgctxt "Operator"
+msgid "Unfold this mesh"
+msgstr "展开此网格"
+
+#: polyzamboni/operators.py:1411
+msgctxt "Operator"
+msgid "Unlock all"
+msgstr "全部解锁"
+
+#: polyzamboni/operators.py:1412
+msgctxt "Operator"
+msgid "Unlocks all build sections"
+msgstr "解锁所有构建分区"

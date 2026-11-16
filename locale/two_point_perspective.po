@@ -1,0 +1,59 @@
+# perfect-chinese: 1
+# id: two_point_perspective
+# kind: addon
+# module: bl_ext.blender_org.two_point_perspective
+# name: Two-Point Perspective
+# name_zh: 两点透视
+# translator: KeshiMiao
+# category: Camera
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:6
+#: two_point_perspective_pt.py:10
+msgid "Camera"
+msgstr "摄像机"
+
+#: two_point_perspective_pt.py:20
+msgid "Custom Angle"
+msgstr "自定义角度"
+
+#: two_point_perspective_ot.py:9
+msgid "Custom target angle"
+msgstr "自定义目标角度"
+
+#: two_point_perspective_ot.py:34
+msgid "No camera was assigned to the scene, the first camera in the hierarchy will be used"
+msgstr "场景未指定摄像机，将使用层级中的第一个摄像机"
+
+#: __init__.py:6
+msgid "Replaces the active camera with a copy of it that uses two-point perspective"
+msgstr "用使用两点透视的副本替换活动摄像机"
+
+#: two_point_perspective_ot.py:9
+#: two_point_perspective_ot.py:14
+msgid "Set the target angle manually"
+msgstr "手动设置目标角度"
+
+#: two_point_perspective_ot.py:43
+msgid "There is no camera in the scene"
+msgstr "场景中没有摄像机"
+
+#: __init__.py:6
+#: two_point_perspective_pt.py:9
+msgid "Two-Point Perspective Camera"
+msgstr "两点透视摄像机"
+
+#: two_point_perspective_ot.py:26
+msgctxt "Operator"
+msgid "Create Two-Point Perspective Camera"
+msgstr "创建两点透视摄像机"
+
+#: two_point_perspective_ot.py:28
+msgctxt "Operator"
+msgid "Make the active camera two-point perspective"
+msgstr "使活动摄像机使用两点透视"

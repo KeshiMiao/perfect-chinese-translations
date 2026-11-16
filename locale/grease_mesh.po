@@ -1,0 +1,348 @@
+# perfect-chinese: 1
+# id: grease_mesh
+# kind: addon
+# module: bl_ext.blender_org.grease_mesh
+# name: Grease Mesh
+# name_zh: 蜡笔转网格
+# translator: KeshiMiao
+# category: Mesh
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: operators/gn_blocks_mesh.py:433
+msgid "Blocks modifier added. Activate the 'Paint' layer and draw closed strokes — each becomes its own block."
+msgstr "已添加块状修改器。激活“Paint”图层并绘制闭合笔划 — 每条都会成为独立的块。"
+
+#: operators/gn_blocks_mesh.py:438
+msgid "Blocks modifier added/updated. Each closed stroke on the 'Paint' layer is now its own block."
+msgstr "块状修改器已添加/更新。“Paint”图层上的每条闭合笔划现在都是独立的块。"
+
+#: operators/bool_cut.py:317
+msgid "Boolean produced empty geometry — try adjusting Cut Depth"
+msgstr "布尔运算产生空几何体 — 请尝试调整切割深度"
+
+#: operators/bool_cut.py:281
+msgid "Could not create cutter mesh from GP strokes"
+msgstr "无法从蜡笔笔划创建切割网格"
+
+#: panels.py:26
+msgid "Create"
+msgstr "创建"
+
+#: operators/bool_cut.py:250
+msgid "Cut Depth"
+msgstr "切割深度"
+
+#: operators/knife_cut.py:106
+msgid "Cut Through"
+msgstr "穿透切割"
+
+#: operators/knife_cut.py:106
+msgid "Cut through the entire mesh, not just the visible surface"
+msgstr "穿透切割整个网格，而不仅是可见表面"
+
+#: operators/gn_blocks_mesh.py:409
+msgid "Draw a line on any non-'Paint' layer first, then click Blocks again."
+msgstr "请先在任何非“Paint”图层上画一条线，然后再次点击“块状”。"
+
+#: panels.py:68
+msgid "Draw one or more profiles across the path"
+msgstr "横跨路径绘制一个或多个轮廓"
+
+#: operators/gn_stroke_mesh.py:305
+msgid "Draw some strokes first (need at least 3 points)."
+msgstr "请先绘制一些笔划（至少需要 3 个点）。"
+
+#: panels.py:64
+msgid "Draw the path to sweep along"
+msgstr "绘制要扫掠的路径"
+
+#: operators/gn_path_mesh.py:706
+msgid "Draw the path, then click Next in the GMesh panel."
+msgstr "绘制路径，然后在 GMesh 面板中点击“下一步”。"
+
+#: operators/gn_path_mesh.py:711
+msgid "Draw the profile shape, then click Done in the GMesh panel."
+msgstr "绘制轮廓形状，然后在 GMesh 面板中点击“完成”。"
+
+#: __init__.py:1
+msgid "Easy toolbox for creating meshes from Grease Pencil"
+msgstr "从蜡笔创建网格的便捷工具箱"
+
+#: panels.py:80
+msgid "Edit Drawing"
+msgstr "编辑绘制"
+
+#: operators/array_on_curve.py:108
+msgid "Failed to add Array modifier"
+msgstr "添加阵列修改器失败"
+
+#: panels.py:8
+#: panels.py:12
+msgid "GMesh"
+msgstr "GMesh"
+
+#: __init__.py:1
+msgid "Grease Mesh"
+msgstr "Grease Mesh"
+
+#: operators/edit_drawing.py:60
+msgid "Layer"
+msgstr "图层"
+
+#: __init__.py:1
+msgid "Mesh"
+msgstr "网格"
+
+#: panels.py:34
+msgid "Mesh from GP"
+msgstr "从 GP 创建网格"
+
+#: operators/gn_mirror_mesh.py:254
+msgid "Mirror mesh GN modifier added."
+msgstr "已添加镜像网格几何节点修改器。"
+
+#: operators/screw_mesh.py:123
+msgid "Need at least 2 points in Grease Pencil"
+msgstr "蜡笔中至少需要 2 个点"
+
+#: operators/gn_mirror_mesh.py:242
+#: operators/gn_solid_mesh.py:739
+msgid "Need at least 3 stroke points"
+msgstr "至少需要 3 个笔划点"
+
+#: operators/knife_cut.py:168
+msgid "No 3D viewport found"
+msgstr "未找到 3D 视图"
+
+#: operators/gn_blocks_mesh.py:396
+#: operators/gn_mirror_mesh.py:237
+msgid "No active Grease Pencil found"
+msgstr "未找到活动的蜡笔"
+
+#: operators/apply_modifiers.py:191
+msgid "No mesh geometry or instances produced by modifiers."
+msgstr "修改器未生成网格几何体或实例。"
+
+#: operators/apply_modifiers.py:210
+msgid "No mesh geometry produced by modifiers."
+msgstr "修改器未生成网格几何体。"
+
+#: operators/bool_cut.py:275
+#: operators/knife_cut.py:136
+msgid "No selected mesh object found as cut target"
+msgstr "未找到选中的网格物体作为切割目标"
+
+#: operators/array_on_curve.py:85
+msgid "No strokes found in Grease Pencil"
+msgstr "蜡笔中未找到笔划"
+
+#: operators/knife_cut.py:141
+msgid "No usable strokes found in Grease Pencil"
+msgstr "蜡笔中未找到可用的笔划"
+
+#: panels.py:52
+msgid "Other"
+msgstr "其他"
+
+#: panels.py:63
+msgid "Path Mesh  1/2"
+msgstr "路径网格 1/2"
+
+#: panels.py:67
+msgid "Path Mesh  2/2"
+msgstr "路径网格 2/2"
+
+#: operators/gn_path_mesh.py:716
+#: operators/gn_path_mesh.py:749
+msgid "Path mesh GN modifier added."
+msgstr "已添加路径网格几何节点修改器。"
+
+#: operators/gn_scatter.py:287
+msgid "Pick a Ground Object on the Scatter modifier"
+msgstr "在散布修改器上选择地面物体"
+
+#: operators/knife_cut.py:111
+msgid "Resample the combined loop to this many points (0 = use original points)"
+msgstr "将合并后的循环重采样为此点数（0 = 使用原始点）"
+
+#: operators/knife_cut.py:111
+msgid "Resolution"
+msgstr "分辨率"
+
+#: panels.py:46
+msgid "Screw Mesh"
+msgstr "螺旋网格"
+
+#: operators/array_on_curve.py:79
+msgid "Select a Grease Pencil and a mesh object"
+msgstr "选择一个蜡笔和一个网格物体"
+
+#: operators/bind_to_surface.py:70
+msgid "Select a surface mesh or an armature."
+msgstr "选择一个表面网格或骨架。"
+
+#: operators/gn_solid_mesh.py:756
+msgid "Solid mesh modifier added. Edit strokes to reshape; adjust Thickness for depth."
+msgstr "已添加实体网格修改器。编辑笔划以重塑形状；调整厚度以控制深度。"
+
+#: operators/gn_stroke_mesh.py:330
+msgid "Stroke mesh added. Apply, then Bind to Surface to rig it."
+msgstr "已添加笔划网格。应用后，再使用“绑定到表面”进行绑定。"
+
+#: operators/bool_cut.py:250
+msgid "Thickness of the cutter volume — must exceed target mesh thickness"
+msgstr "切割体的厚度 — 必须大于目标网格的厚度"
+
+#: operators/bind_to_surface.py:105
+msgid "Unexpected vertex count change while transferring weights."
+msgstr "传递权重时顶点数发生意外变化。"
+
+#: operators/gn_wall_mesh.py:229
+msgid "Wall mesh GN modifier added."
+msgstr "已添加墙壁网格几何节点修改器。"
+
+#: panels.py:27
+#: operators/add_gpencil.py:8
+msgctxt "Operator"
+msgid "Add New Grease Pencil"
+msgstr "添加新蜡笔"
+
+#: panels.py:28
+#: operators/apply_modifiers.py:165
+msgctxt "Operator"
+msgid "Apply All Modifiers"
+msgstr "应用所有修改器"
+
+#: operators/array_on_curve.py:59
+msgctxt "Operator"
+msgid "Array on Curve"
+msgstr "沿曲线阵列"
+
+#: panels.py:55
+msgctxt "Operator"
+msgid "Array on Pencil"
+msgstr "沿蜡笔阵列"
+
+#: panels.py:57
+#: operators/bind_to_surface.py:49
+msgctxt "Operator"
+msgid "Bind to Surface"
+msgstr "绑定到表面"
+
+#: panels.py:39
+msgctxt "Operator"
+msgid "Blocks"
+msgstr "块状"
+
+#: operators/gn_blocks_mesh.py:386
+msgctxt "Operator"
+msgid "Blocks Mesh"
+msgstr "块状网格"
+
+#: panels.py:54
+#: operators/bool_cut.py:247
+msgctxt "Operator"
+msgid "Bool Cut"
+msgstr "布尔切割"
+
+#: operators/gn_path_mesh.py:757
+msgctxt "Operator"
+msgid "Cancel"
+msgstr "取消"
+
+#: operators/screw_mesh.py:106
+msgctxt "Operator"
+msgid "Create Screw Mesh"
+msgstr "创建螺旋网格"
+
+#: panels.py:92
+#: operators/edit_drawing.py:92
+msgctxt "Operator"
+msgid "Done"
+msgstr "完成"
+
+#: operators/edit_drawing.py:57
+msgctxt "Operator"
+msgid "Edit Drawing"
+msgstr "编辑绘制"
+
+#: panels.py:56
+msgctxt "Operator"
+msgid "Knife"
+msgstr "刀具"
+
+#: operators/knife_cut.py:103
+msgctxt "Operator"
+msgid "Knife Cut"
+msgstr "切割"
+
+#: panels.py:37
+msgctxt "Operator"
+msgid "Mirror"
+msgstr "镜像"
+
+#: operators/gn_mirror_mesh.py:227
+msgctxt "Operator"
+msgid "Mirror Mesh (GN)"
+msgstr "镜像网格 (GN)"
+
+#: operators/gn_path_mesh.py:724
+msgctxt "Operator"
+msgid "Next"
+msgstr "下一步"
+
+#: panels.py:38
+msgctxt "Operator"
+msgid "Path"
+msgstr "路径"
+
+#: operators/gn_path_mesh.py:685
+msgctxt "Operator"
+msgid "Path Mesh (GN)"
+msgstr "路径网格 (GN)"
+
+#: panels.py:42
+#: operators/gn_scatter.py:253
+msgctxt "Operator"
+msgid "Scatter"
+msgstr "散布"
+
+#: panels.py:48
+msgctxt "Operator"
+msgid "Screw"
+msgstr "螺旋"
+
+#: panels.py:36
+msgctxt "Operator"
+msgid "Solid"
+msgstr "实体"
+
+#: operators/gn_solid_mesh.py:724
+msgctxt "Operator"
+msgid "Solid Mesh"
+msgstr "实体网格"
+
+#: panels.py:41
+msgctxt "Operator"
+msgid "Stroke"
+msgstr "笔划"
+
+#: operators/gn_stroke_mesh.py:290
+msgctxt "Operator"
+msgid "Stroke Mesh"
+msgstr "笔划网格"
+
+#: panels.py:40
+msgctxt "Operator"
+msgid "Wall"
+msgstr "墙壁"
+
+#: operators/gn_wall_mesh.py:207
+msgctxt "Operator"
+msgid "Wall Mesh (GN)"
+msgstr "墙壁网格 (GN)"

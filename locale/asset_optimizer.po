@@ -1,0 +1,926 @@
+# perfect-chinese: 1
+# id: asset_optimizer
+# kind: addon
+# module: bl_ext.blender_org.asset_optimizer
+# name: Game Asset Optimizer
+# name_zh: 游戏资产优化器
+# translator: KeshiMiao
+# category: Modeling
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: operators/lod_generator.py:90
+#: operators/mesh_decimation.py:45
+msgid "Add Weighted Normals"
+msgstr "添加加权法线"
+
+#: operators/mesh_decimation.py:45
+msgid "Add weighted normal modifier for better shading"
+msgstr "添加加权法线修改器以改善着色"
+
+#: operators/lod_generator.py:90
+msgid "Add weighted normal modifier to each LOD"
+msgstr "为每个 LOD 添加加权法线修改器"
+
+#: ui/main_panel.py:130
+msgid "Advanced Settings"
+msgstr "高级设置"
+
+#: operators/batch_optimizer.py:20
+msgid "Aggressive optimization for VR (heavy decimate, LODs, lightmap UV)"
+msgstr "针对 VR 的激进优化（高强度减面、LOD、光照贴图 UV）"
+
+#: operators/dual_uv_unwrap.py:64
+msgid "Allow rotation of UV0 islands during packing"
+msgstr "打包时允许旋转 UV0 孤岛"
+
+#: operators/mesh_decimation.py:35
+msgid "Angle Limit"
+msgstr "角度限制"
+
+#: operators/mesh_decimation.py:69
+msgid "Angle for auto smooth"
+msgstr "自动平滑角度"
+
+#: operators/dual_uv_unwrap.py:33
+msgid "Angle limit for UV0 smart projection"
+msgstr "UV0 智能投影的角度限制"
+
+#: operators/dual_uv_unwrap.py:95
+msgid "Angle limit for UV1 smart projection"
+msgstr "UV1 智能投影的角度限制"
+
+#: operators/lod_generator.py:114
+#: operators/mesh_decimation.py:35
+msgid "Angle limit for planar decimation"
+msgstr "平面减面的角度限制"
+
+#: operators/vertex_merge.py:30
+msgid "Angle threshold for marking edges as sharp"
+msgstr "将边标记为锐边的角度阈值"
+
+#: operators/mesh_decimation.py:79
+msgid "Apply Modifiers"
+msgstr "应用修改器"
+
+#: operators/mesh_decimation.py:79
+msgid "Apply all modifiers after adding them"
+msgstr "添加后应用所有修改器"
+
+#: operators/batch_optimizer.py:33
+msgid "Apply mesh decimation"
+msgstr "应用网格减面"
+
+#: operators/mesh_decimation.py:57
+msgid "Area & Angle"
+msgstr "面积与角度"
+
+#: operators/dual_uv_unwrap.py:111
+msgid "Area Weight"
+msgstr "面积权重"
+
+#: operators/lod_generator.py:75
+msgid "Auto Progressive"
+msgstr "自动递进"
+
+#: operators/lod_generator.py:96
+#: operators/mesh_decimation.py:63
+msgid "Auto Smooth"
+msgstr "自动平滑"
+
+#: operators/lod_generator.py:75
+msgid "Automatically calculate progressive ratios"
+msgstr "自动计算递进比例"
+
+#: operators/lod_generator.py:28
+msgid "Blender collection-based LODs"
+msgstr "基于 Blender 集合的 LOD"
+
+#: operators/batch_optimizer.py:18
+msgid "CAD Import"
+msgstr "CAD 导入"
+
+#: operators/vertex_merge.py:200
+msgid "Cleanup"
+msgstr "清理"
+
+#: operators/batch_optimizer.py:202
+msgid "Click OK to apply preset"
+msgstr "点击「确定」应用预设"
+
+#: operators/lod_generator.py:107
+#: operators/mesh_decimation.py:27
+msgid "Collapse"
+msgstr "折叠"
+
+#: operators/lod_generator.py:28
+msgid "Collection"
+msgstr "集合"
+
+#: operators/batch_optimizer.py:19
+msgid "Convert models to game-ready assets (decimate, dual UV, LODs)"
+msgstr "将模型转换为游戏就绪资产（减面、双 UV、LOD）"
+
+#: operators/mesh_decimation.py:56
+msgid "Corner Angle"
+msgstr "拐角角度"
+
+#: operators/dual_uv_unwrap.py:105
+msgid "Correct Aspect"
+msgstr "校正宽高比"
+
+#: operators/lod_generator.py:135
+msgid "Create Collection"
+msgstr "创建集合"
+
+#: operators/lod_generator.py:135
+msgid "Create a collection to organize LOD objects"
+msgstr "创建集合以组织 LOD 物体"
+
+#: operators/dual_uv_unwrap.py:26
+msgid "Cube Projection"
+msgstr "立方体投影"
+
+#: operators/dual_uv_unwrap.py:26
+msgid "Cube projection (good for architectural)"
+msgstr "立方体投影（适合建筑）"
+
+#: operators/batch_optimizer.py:21
+msgid "Custom"
+msgstr "自定义"
+
+#: operators/batch_optimizer.py:21
+msgid "Custom settings"
+msgstr "自定义设置"
+
+#: operators/lod_generator.py:130
+msgid "Custom style: Object.LOD0"
+msgstr "自定义样式：Object.LOD0"
+
+#: operators/dual_uv_unwrap.py:27
+msgid "Cylinder"
+msgstr "圆柱体"
+
+#: operators/dual_uv_unwrap.py:27
+msgid "Cylinder projection"
+msgstr "圆柱投影"
+
+#: operators/batch_optimizer.py:33
+msgid "Decimate Mesh"
+msgstr "减面网格"
+
+#: operators/batch_optimizer.py:61
+#: operators/mesh_decimation.py:14
+msgid "Decimate Ratio"
+msgstr "减面比例"
+
+#: operators/lod_generator.py:103
+#: operators/mesh_decimation.py:23
+msgid "Decimate Type"
+msgstr "减面类型"
+
+#: operators/lod_generator.py:369
+#: operators/mesh_decimation.py:209
+msgid "Decimation Settings"
+msgstr "减面设置"
+
+#: operators/lod_generator.py:103
+msgid "Decimation algorithm to use"
+msgstr "使用的减面算法"
+
+#: operators/vertex_merge.py:52
+msgid "Degenerate Threshold"
+msgstr "退化阈值"
+
+#: operators/vertex_merge.py:61
+msgid "Delete Loose"
+msgstr "删除松散"
+
+#: operators/vertex_merge.py:61
+msgid "Delete loose vertices and edges"
+msgstr "删除松散顶点和边"
+
+#: operators/vertex_merge.py:46
+msgid "Dissolve Degenerate"
+msgstr "融并退化"
+
+#: operators/mesh_decimation.py:29
+msgid "Dissolve geometry based on planar angle"
+msgstr "基于平面角度融并几何体"
+
+#: operators/lod_generator.py:109
+msgid "Dissolve geometry based on planar angle (best for CAD)"
+msgstr "基于平面角度融并几何体（最适合 CAD）"
+
+#: operators/batch_optimizer.py:39
+msgid "Dual UV Unwrap"
+msgstr "双 UV 展开"
+
+#: operators/vertex_merge.py:192
+msgid "Edge Preservation"
+msgstr "边保留"
+
+#: operators/lod_generator.py:96
+msgid "Enable auto smooth on all LODs"
+msgstr "在所有 LOD 上启用自动平滑"
+
+#: operators/mesh_decimation.py:63
+msgid "Enable auto smooth with custom angle"
+msgstr "以自定义角度启用自动平滑"
+
+#: ui/main_panel.py:152
+msgid "Export Recommendations"
+msgstr "导出建议"
+
+#: operators/mesh_decimation.py:55
+msgid "Face Area"
+msgstr "面面积"
+
+#: operators/lod_generator.py:81
+msgid "Factor for automatic progression (0.5 = halve each level)"
+msgstr "自动递进系数（0.5 = 每级减半）"
+
+#: operators/batch_optimizer.py:19
+msgid "Game Asset"
+msgstr "游戏资产"
+
+#: ui/main_panel.py:28
+msgid "Game Asset Optimization Toolkit"
+msgstr "游戏资产优化工具集"
+
+#: ui/main_panel.py:8
+msgid "Game Asset Optimizer"
+msgstr "游戏资产优化器"
+
+#: ui/main_panel.py:12
+#: ui/main_panel.py:134
+msgid "Game Assets"
+msgstr "游戏资产"
+
+#: operators/dual_uv_unwrap.py:371
+msgid "General Settings"
+msgstr "常规设置"
+
+#: operators/batch_optimizer.py:45
+msgid "Generate LOD levels"
+msgstr "生成 LOD 层级"
+
+#: operators/batch_optimizer.py:45
+msgid "Generate LODs"
+msgstr "生成 LOD"
+
+#: operators/dual_uv_unwrap.py:14
+msgid "Generate UV0"
+msgstr "生成 UV0"
+
+#: operators/dual_uv_unwrap.py:337
+msgid "Generate UV0 (Texturing)"
+msgstr "生成 UV0（纹理制作）"
+
+#: operators/batch_optimizer.py:39
+msgid "Generate UV0 and UV1"
+msgstr "生成 UV0 和 UV1"
+
+#: operators/dual_uv_unwrap.py:14
+msgid "Generate UV0 map for texturing"
+msgstr "生成用于纹理制作的 UV0 贴图"
+
+#: operators/dual_uv_unwrap.py:71
+msgid "Generate UV1"
+msgstr "生成 UV1"
+
+#: operators/dual_uv_unwrap.py:357
+msgid "Generate UV1 (Lightmapping)"
+msgstr "生成 UV1（光照贴图）"
+
+#: operators/dual_uv_unwrap.py:71
+msgid "Generate UV1 map for lightmapping"
+msgstr "生成用于光照贴图的 UV1 贴图"
+
+#: operators/mesh_decimation.py:51
+msgid "How to weight face normals"
+msgstr "面法线的加权方式"
+
+#: ui/main_panel.py:83
+msgid "Individual Tools"
+msgstr "单独工具"
+
+#: operators/batch_optimizer.py:69
+msgid "LOD Count"
+msgstr "LOD 数量"
+
+#: operators/lod_generator.py:14
+msgid "LOD Levels"
+msgstr "LOD 层级"
+
+#: operators/lod_generator.py:356
+msgid "LOD Settings"
+msgstr "LOD 设置"
+
+#: operators/lod_generator.py:34
+msgid "LOD0 Ratio"
+msgstr "LOD0 比例"
+
+#: operators/lod_generator.py:34
+msgid "LOD0 is the original mesh (1.0 = 100%)"
+msgstr "LOD0 为原始网格（1.0 = 100%）"
+
+#: operators/lod_generator.py:42
+msgid "LOD1 Ratio"
+msgstr "LOD1 比例"
+
+#: operators/lod_generator.py:50
+msgid "LOD2 Ratio"
+msgstr "LOD2 比例"
+
+#: operators/lod_generator.py:58
+msgid "LOD3 Ratio"
+msgstr "LOD3 比例"
+
+#: operators/lod_generator.py:66
+msgid "LOD4 Ratio"
+msgstr "LOD4 比例"
+
+#: operators/dual_uv_unwrap.py:25
+#: operators/dual_uv_unwrap.py:82
+msgid "Lightmap Pack"
+msgstr "光照贴图打包"
+
+#: operators/dual_uv_unwrap.py:25
+msgid "Lightmap packing (good for simple objects)"
+msgstr "光照贴图打包（适合简单物体）"
+
+#: operators/dual_uv_unwrap.py:82
+msgid "Lightmap packing (recommended for lightmaps)"
+msgstr "光照贴图打包（推荐用于光照贴图）"
+
+#: operators/dual_uv_unwrap.py:105
+msgid "Map UVs taking image aspect ratio into account"
+msgstr "展开 UV 时考虑图像宽高比"
+
+#: operators/dual_uv_unwrap.py:42
+msgid "Margin between UV0 islands"
+msgstr "UV0 孤岛之间的边距"
+
+#: operators/dual_uv_unwrap.py:87
+msgid "Margin between UV1 islands (larger for lightmaps to avoid bleeding)"
+msgstr "UV1 孤岛之间的边距（光照贴图需更大以避免渗色）"
+
+#: operators/dual_uv_unwrap.py:56
+msgid "Margin when packing UV0 islands"
+msgstr "打包 UV0 孤岛时的边距"
+
+#: operators/vertex_merge.py:24
+msgid "Mark edges as sharp based on angle between faces (prevents merging across hard edges)"
+msgstr "根据面之间的角度标记锐边（防止跨硬边合并）"
+
+#: operators/vertex_merge.py:14
+msgid "Maximum distance between vertices to merge"
+msgstr "要合并的顶点之间的最大距离"
+
+#: operators/batch_optimizer.py:52
+#: operators/vertex_merge.py:14
+msgid "Merge Distance"
+msgstr "合并距离"
+
+#: operators/vertex_merge.py:186
+msgid "Merge Settings"
+msgstr "合并设置"
+
+#: operators/batch_optimizer.py:27
+msgid "Merge Vertices"
+msgstr "合并顶点"
+
+#: operators/batch_optimizer.py:27
+msgid "Merge vertices by distance"
+msgstr "按距离合并顶点"
+
+#: operators/mesh_decimation.py:27
+msgid "Merge vertices together"
+msgstr "将顶点合并在一起"
+
+#: operators/lod_generator.py:107
+msgid "Merge vertices together (best for organic)"
+msgstr "将顶点合并在一起（最适合有机模型）"
+
+#: operators/lod_generator.py:378
+msgid "Modifiers"
+msgstr "修改器"
+
+#: operators/dual_uv_unwrap.py:119
+msgid "Multi-Object Mode"
+msgstr "多物体模式"
+
+#: operators/lod_generator.py:124
+msgid "Naming convention for LOD objects"
+msgstr "LOD 物体的命名规则"
+
+#: operators/batch_optimizer.py:127
+#: operators/dual_uv_unwrap.py:217
+msgid "No mesh objects selected"
+msgstr "未选择网格物体"
+
+#: operators/lod_generator.py:374
+msgid "Note: Planar + Collapse for target ratio"
+msgstr "注意：平面 + 塌陷以达到目标比例"
+
+#: operators/batch_optimizer.py:69
+msgid "Number of LOD levels"
+msgstr "LOD 层级数量"
+
+#: operators/lod_generator.py:14
+msgid "Number of LOD levels to generate (including LOD0)"
+msgstr "要生成的 LOD 层级数量（含 LOD0）"
+
+#: operators/lod_generator.py:130
+msgid "Object.LOD0"
+msgstr "Object.LOD0"
+
+#: operators/lod_generator.py:128
+msgid "Object_LOD0"
+msgstr "Object_LOD0"
+
+#: operators/lod_generator.py:129
+msgid "Object_LOD_0"
+msgstr "Object_LOD_0"
+
+#: operators/batch_optimizer.py:14
+#: operators/batch_optimizer.py:198
+msgid "Optimization Preset"
+msgstr "优化预设"
+
+#: operators/batch_optimizer.py:208
+msgid "Optimization Steps"
+msgstr "优化步骤"
+
+#: operators/batch_optimizer.py:18
+msgid "Optimize imported CAD models (merge vertices, decimate, dual UV)"
+msgstr "优化导入的 CAD 模型（合并顶点、减面、双 UV）"
+
+#: operators/mesh_decimation.py:238
+msgid "Options"
+msgstr "选项"
+
+#: operators/lod_generator.py:384
+msgid "Organization"
+msgstr "组织"
+
+#: operators/dual_uv_unwrap.py:50
+msgid "Pack UV0 Islands"
+msgstr "打包 UV0 孤岛"
+
+#: operators/dual_uv_unwrap.py:50
+msgid "Pack UV0 islands for optimal space usage"
+msgstr "打包 UV0 孤岛以最优利用空间"
+
+#: operators/lod_generator.py:109
+#: operators/mesh_decimation.py:29
+msgid "Planar"
+msgstr "平面"
+
+#: operators/lod_generator.py:114
+msgid "Planar Angle"
+msgstr "平面角度"
+
+#: operators/dual_uv_unwrap.py:221
+msgid "Please enable at least one UV layer"
+msgstr "请至少启用一个 UV 层"
+
+#: operators/batch_optimizer.py:14
+msgid "Preset optimization workflow"
+msgstr "预设优化工作流"
+
+#: operators/dual_uv_unwrap.py:119
+msgid "Process multiple objects, each with its own UV space"
+msgstr "处理多个物体，每个物体使用独立的 UV 空间"
+
+#: operators/lod_generator.py:81
+msgid "Progressive Factor"
+msgstr "渐进系数"
+
+#: ui/main_panel.py:52
+msgid "Quick Batch Optimization"
+msgstr "快速批量优化"
+
+#: operators/batch_optimizer.py:219
+#: ui/main_panel.py:145
+msgid "Quick Settings"
+msgstr "快速设置"
+
+#: utils/properties.py:10
+msgid "Quick decimate ratio"
+msgstr "快速减面比例"
+
+#: utils/properties.py:18
+msgid "Quick merge distance"
+msgstr "快速合并距离"
+
+#: operators/lod_generator.py:42
+msgid "Ratio for LOD1"
+msgstr "LOD1 的比例"
+
+#: operators/lod_generator.py:50
+msgid "Ratio for LOD2"
+msgstr "LOD2 的比例"
+
+#: operators/lod_generator.py:58
+msgid "Ratio for LOD3"
+msgstr "LOD3 的比例"
+
+#: operators/lod_generator.py:66
+msgid "Ratio for LOD4"
+msgstr "LOD4 的比例"
+
+#: operators/mesh_decimation.py:14
+msgid "Ratio of faces to keep (0.1 = 10% of original)"
+msgstr "保留面的比例（0.1 = 原始的 10%）"
+
+#: operators/vertex_merge.py:67
+msgid "Recalculate Normals"
+msgstr "重新计算法向"
+
+#: operators/vertex_merge.py:67
+msgid "Recalculate face normals after merging"
+msgstr "合并后重新计算面法向"
+
+#: operators/vertex_merge.py:39
+msgid "Remove Doubles"
+msgstr "移除重复项"
+
+#: operators/vertex_merge.py:46
+msgid "Remove degenerate geometry (zero-area faces)"
+msgstr "移除退化几何体（零面积面）"
+
+#: operators/lod_generator.py:108
+#: operators/mesh_decimation.py:28
+msgid "Remove subdivision levels"
+msgstr "移除细分级别"
+
+#: operators/dual_uv_unwrap.py:64
+msgid "Rotate UV0 Islands"
+msgstr "旋转 UV0 孤岛"
+
+#: operators/vertex_merge.py:30
+msgid "Sharp Edge Angle"
+msgstr "锐边角度"
+
+#: operators/vertex_merge.py:24
+msgid "Sharp Edges from Normals"
+msgstr "根据法向确定锐边"
+
+#: utils/properties.py:37
+msgid "Show Advanced"
+msgstr "显示高级"
+
+#: utils/properties.py:37
+msgid "Show advanced options"
+msgstr "显示高级选项"
+
+#: operators/dual_uv_unwrap.py:24
+#: operators/dual_uv_unwrap.py:81
+msgid "Smart UV Project"
+msgstr "智能 UV 投影"
+
+#: operators/dual_uv_unwrap.py:81
+msgid "Smart UV projection"
+msgstr "智能 UV 投影"
+
+#: operators/dual_uv_unwrap.py:24
+msgid "Smart UV projection (good for complex models)"
+msgstr "智能 UV 投影（适合复杂模型）"
+
+#: operators/mesh_decimation.py:69
+msgid "Smooth Angle"
+msgstr "平滑角度"
+
+#: operators/mesh_decimation.py:230
+msgid "Smooth Shading"
+msgstr "平滑着色"
+
+#: operators/dual_uv_unwrap.py:28
+msgid "Sphere"
+msgstr "球体"
+
+#: operators/dual_uv_unwrap.py:28
+msgid "Sphere projection"
+msgstr "球体投影"
+
+#: operators/batch_optimizer.py:134
+msgid "Step 1/4: Merging vertices..."
+msgstr "第 1/4 步：正在合并顶点…"
+
+#: operators/batch_optimizer.py:149
+msgid "Step 2/4: Decimating mesh..."
+msgstr "第 2/4 步：正在减面…"
+
+#: operators/batch_optimizer.py:162
+msgid "Step 3/4: Generating dual UV maps..."
+msgstr "第 3/4 步：正在生成双 UV 贴图…"
+
+#: operators/batch_optimizer.py:177
+msgid "Step 4/4: Generating LOD levels..."
+msgstr "第 4/4 步：正在生成 LOD 层级…"
+
+#: operators/lod_generator.py:124
+msgid "Suffix Format"
+msgstr "后缀格式"
+
+#: operators/batch_optimizer.py:77
+#: operators/lod_generator.py:22
+msgid "Target Engine"
+msgstr "目标引擎"
+
+#: operators/batch_optimizer.py:77
+msgid "Target game engine"
+msgstr "目标游戏引擎"
+
+#: operators/lod_generator.py:22
+msgid "Target game engine for LOD setup"
+msgstr "用于 LOD 设置的目标游戏引擎"
+
+#: utils/properties.py:27
+msgid "Target game engine for export"
+msgstr "用于导出的目标游戏引擎"
+
+#: operators/batch_optimizer.py:61
+msgid "Target poly count ratio"
+msgstr "目标面数比例"
+
+#: operators/vertex_merge.py:52
+msgid "Threshold for degenerate faces"
+msgstr "退化面的阈值"
+
+#: ui/main_panel.py:118
+msgid "Tips"
+msgstr "提示"
+
+#: operators/mesh_decimation.py:85
+msgid "Triangulate"
+msgstr "三角化"
+
+#: operators/mesh_decimation.py:85
+msgid "Triangulate the mesh before decimation (recommended for game engines)"
+msgstr "减面前对网格进行三角化（推荐用于游戏引擎）"
+
+#: operators/mesh_decimation.py:23
+msgid "Type of decimation algorithm"
+msgstr "减面算法类型"
+
+#: ui/main_panel.py:103
+msgid "UV Information"
+msgstr "UV 信息"
+
+#: operators/dual_uv_unwrap.py:33
+msgid "UV0 Angle Limit"
+msgstr "UV0 角度限制"
+
+#: operators/dual_uv_unwrap.py:42
+msgid "UV0 Island Margin"
+msgstr "UV0 孤岛边距"
+
+#: operators/dual_uv_unwrap.py:20
+msgid "UV0 Method"
+msgstr "UV0 方法"
+
+#: operators/dual_uv_unwrap.py:56
+msgid "UV0 Pack Margin"
+msgstr "UV0 排布边距"
+
+#: operators/dual_uv_unwrap.py:95
+msgid "UV1 Angle Limit"
+msgstr "UV1 角度限制"
+
+#: operators/dual_uv_unwrap.py:87
+msgid "UV1 Margin"
+msgstr "UV1 边距"
+
+#: operators/dual_uv_unwrap.py:77
+msgid "UV1 Method"
+msgstr "UV1 方法"
+
+#: operators/lod_generator.py:108
+#: operators/mesh_decimation.py:28
+msgid "Un-Subdivide"
+msgstr "反细分"
+
+#: operators/batch_optimizer.py:81
+#: operators/lod_generator.py:26
+msgid "Unity"
+msgstr "Unity"
+
+#: utils/properties.py:31
+msgid "Unity Engine"
+msgstr "Unity 引擎"
+
+#: ui/main_panel.py:158
+msgid "Unity Export:"
+msgstr "Unity 导出："
+
+#: operators/lod_generator.py:26
+msgid "Unity LOD Group format"
+msgstr "Unity LOD 组格式"
+
+#: operators/lod_generator.py:128
+msgid "Unity style: Object_LOD0"
+msgstr "Unity 风格：Object_LOD0"
+
+#: operators/batch_optimizer.py:82
+#: operators/lod_generator.py:27
+msgid "Unreal"
+msgstr "Unreal"
+
+#: operators/batch_optimizer.py:82
+#: utils/properties.py:32
+msgid "Unreal Engine"
+msgstr "Unreal 引擎"
+
+#: operators/lod_generator.py:27
+msgid "Unreal Engine LOD format"
+msgstr "Unreal 引擎 LOD 格式"
+
+#: ui/main_panel.py:164
+msgid "Unreal Export:"
+msgstr "Unreal 导出："
+
+#: operators/lod_generator.py:129
+msgid "Unreal style: Object_LOD_0"
+msgstr "Unreal 风格：Object_LOD_0"
+
+#: operators/dual_uv_unwrap.py:20
+msgid "Unwrapping method for UV0"
+msgstr "UV0 的展开方法"
+
+#: operators/dual_uv_unwrap.py:77
+msgid "Unwrapping method for UV1 (lightmaps need non-overlapping UVs)"
+msgstr "UV1 的展开方法（光照贴图需要不重叠的 UV）"
+
+#: operators/vertex_merge.py:39
+msgid "Use remove doubles algorithm (legacy)"
+msgstr "使用移除重复顶点算法（旧版）"
+
+#: operators/batch_optimizer.py:20
+msgid "VR Optimized"
+msgstr "VR 优化"
+
+#: operators/batch_optimizer.py:52
+msgid "Vertex merge distance"
+msgstr "顶点合并距离"
+
+#: operators/mesh_decimation.py:57
+msgid "Weight by both face area and corner angle"
+msgstr "按面面积和角角度加权"
+
+#: operators/mesh_decimation.py:56
+msgid "Weight by corner angle"
+msgstr "按角角度加权"
+
+#: operators/mesh_decimation.py:55
+msgid "Weight by face area"
+msgstr "按面面积加权"
+
+#: operators/dual_uv_unwrap.py:111
+msgid "Weight for area preservation"
+msgstr "面积保持权重"
+
+#: operators/mesh_decimation.py:222
+msgid "Weighted Normals"
+msgstr "加权法线"
+
+#: operators/mesh_decimation.py:51
+msgid "Weighting Mode"
+msgstr "加权模式"
+
+#: ui/main_panel.py:121
+msgid "• CAD Import: For imported CAD models"
+msgstr "• CAD 导入：用于导入的 CAD 模型"
+
+#: ui/main_panel.py:160
+msgid "• Enable 'Apply Transform'"
+msgstr "• 启用「应用变换」"
+
+#: ui/main_panel.py:167
+msgid "• Enable 'Generate Lightmap UVs'"
+msgstr "• 启用「生成光照贴图 UV」"
+
+#: ui/main_panel.py:122
+msgid "• Game Asset: For standard game objects"
+msgstr "• 游戏资产：用于标准游戏物体"
+
+#: ui/main_panel.py:161
+msgid "• LOD naming: Object_LOD0"
+msgstr "• LOD 命名：Object_LOD0"
+
+#: ui/main_panel.py:166
+msgid "• LOD naming: Object_LOD_0"
+msgstr "• LOD 命名：Object_LOD_0"
+
+#: ui/main_panel.py:125
+msgid "• LODs reduce draw calls in VR"
+msgstr "• LOD 可减少 VR 中的绘制调用"
+
+#: ui/main_panel.py:162
+msgid "• UV0 = Albedo, UV1 = Lightmap"
+msgstr "• UV0 = 反照率，UV1 = 光照贴图"
+
+#: ui/main_panel.py:168
+msgid "• UV0 = BaseColor, UV1 = Lightmap"
+msgstr "• UV0 = 基础颜色，UV1 = 光照贴图"
+
+#: ui/main_panel.py:124
+msgid "• UV0: Texturing | UV1: Lightmaps"
+msgstr "• UV0：贴图 | UV1：光照贴图"
+
+#: ui/main_panel.py:159
+#: ui/main_panel.py:165
+msgid "• Use FBX format"
+msgstr "• 使用 FBX 格式"
+
+#: ui/main_panel.py:123
+msgid "• VR Optimized: Aggressive optimization"
+msgstr "• VR 优化：激进优化"
+
+#: operators/mesh_decimation.py:10
+msgctxt "Operator"
+msgid "Apply decimate modifier with weighted normal and auto smooth for optimized CAD models"
+msgstr "为优化后的 CAD 模型应用精简修改器，并使用加权法线和自动平滑"
+
+#: operators/mesh_decimation.py:9
+msgctxt "Operator"
+msgid "Auto Decimate Mesh"
+msgstr "自动精简网格"
+
+#: operators/batch_optimizer.py:9
+msgctxt "Operator"
+msgid "Batch Optimize VR Assets"
+msgstr "批量优化 VR 资产"
+
+#: ui/main_panel.py:59
+msgctxt "Operator"
+msgid "CAD Import"
+msgstr "CAD 导入"
+
+#: operators/lod_generator.py:10
+msgctxt "Operator"
+msgid "Create multiple LOD levels with progressive decimation for Unity/Unreal Engine"
+msgstr "为 Unity/Unreal 引擎创建多级 LOD，逐级精简"
+
+#: ui/main_panel.py:69
+msgctxt "Operator"
+msgid "Custom"
+msgstr "自定义"
+
+#: ui/main_panel.py:90
+msgctxt "Operator"
+msgid "Decimate Mesh"
+msgstr "精简网格"
+
+#: operators/dual_uv_unwrap.py:9
+#: ui/main_panel.py:93
+msgctxt "Operator"
+msgid "Dual UV Unwrap (UV0 + UV1)"
+msgstr "双 UV 展开（UV0 + UV1）"
+
+#: ui/main_panel.py:62
+msgctxt "Operator"
+msgid "Game Asset"
+msgstr "游戏资产"
+
+#: operators/lod_generator.py:9
+#: ui/main_panel.py:96
+msgctxt "Operator"
+msgid "Generate LOD Groups"
+msgstr "生成 LOD 组"
+
+#: operators/dual_uv_unwrap.py:10
+msgctxt "Operator"
+msgid "Generate UV0 for textures and UV1 for lightmaps - optimized for Unity/Unreal Engine"
+msgstr "生成用于贴图的 UV0 和用于光照贴图的 UV1 — 针对 Unity/Unreal 引擎优化"
+
+#: ui/main_panel.py:87
+msgctxt "Operator"
+msgid "Merge Vertices"
+msgstr "合并顶点"
+
+#: operators/vertex_merge.py:9
+msgctxt "Operator"
+msgid "Merge Vertices by Distance"
+msgstr "按距离合并顶点"
+
+#: operators/vertex_merge.py:10
+msgctxt "Operator"
+msgid "Merge vertices by distance - essential for imported CAD models"
+msgstr "按距离合并顶点 — 对导入的 CAD 模型必不可少"
+
+#: operators/batch_optimizer.py:10
+msgctxt "Operator"
+msgid "One-click optimization for VR - combines vertex merge, decimation, and UV unwrap"
+msgstr "一键 VR 优化 — 结合顶点合并、精简和 UV 展开"
+
+#: ui/main_panel.py:66
+msgctxt "Operator"
+msgid "VR Optimized"
+msgstr "VR 优化"

@@ -1,0 +1,927 @@
+# perfect-chinese: 1
+# id: sb_path_actions
+# kind: addon
+# module: bl_ext.blender_org.SB_path_actions
+# name: Path Actions
+# name_zh: 路径操作
+# translator: KeshiMiao
+# category: System
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: SB_path_actions/blend_open_ops.py:227
+msgid "%Y-%m-%d %H:%M"
+msgstr "%Y-%m-%d %H:%M"
+
+#: SB_path_actions/links_checker.py:339
+msgid "(Relocate apply changes immediately)"
+msgstr "（重新定位会立即应用更改）"
+
+#: SB_path_actions/blend_open_ops.py:125
+msgid "(use Ctrl to bypass this prompt even if not saved)"
+msgstr "（即使未保存，也可按住 Ctrl 跳过此提示）"
+
+#: SB_path_actions/blend_open_ops.py:298
+msgid "Absolute"
+msgstr "绝对路径"
+
+#: SB_path_actions/prefs.py:113
+msgid "Add a button on upper-right corner to fully reopen blender with current file (not just revert)            \nAdd features for developpers, TDs or advanced users (temp folder shortcut, link checker,...)"
+msgstr "在右上角添加按钮，用当前文件完全重新打开 Blender（不仅仅是恢复）\n为开发者、TD 或高级用户添加功能（临时文件夹快捷方式、链接检查器等）"
+
+#: SB_path_actions/prefs.py:111
+msgid "Addon Preferences"
+msgstr "插件偏好设置"
+
+#: SB_path_actions/open_addons_path.py:112
+#: SB_path_actions/open_addons_path.py:154
+msgid "Addons"
+msgstr "插件"
+
+#: SB_path_actions/prefs.py:118
+msgid "Addons Directory Shortcuts"
+msgstr "插件目录快捷方式"
+
+#: SB_path_actions/prefs.py:124
+msgid "All"
+msgstr "全部"
+
+#: SB_path_actions/prefs.py:26
+msgid "Application:"
+msgstr "应用程序："
+
+#: SB_path_actions/operators.py:77
+msgid "As Is"
+msgstr "原样"
+
+#: SB_path_actions/operators.py:91
+msgid "Back Quote"
+msgstr "反引号"
+
+#: SB_path_actions/operators.py:377
+msgid "Blend not saved: Cannot make path relative"
+msgstr "Blend 未保存：无法将路径设为相对路径"
+
+#: SB_path_actions/operators.py:341
+msgid "Blend not saved: Cannot resolve relative output path"
+msgstr "Blend 未保存：无法解析相对输出路径"
+
+#: SB_path_actions/operators.py:290
+msgid "Blend not saved: No folder to open or copy"
+msgstr "Blend 未保存：没有可打开或复制的文件夹"
+
+#: SB_path_actions/operators.py:327
+msgid "Blend's folder opened"
+msgstr "已打开 Blend 所在文件夹"
+
+#: SB_path_actions/operators.py:16
+msgid "Blender Locations"
+msgstr "Blender 位置"
+
+#: SB_path_actions/history.py:254
+msgid "Blender Version"
+msgstr "Blender 版本"
+
+#: SB_path_actions/history.py:254
+msgid "Blender version to get history from (default to current version)"
+msgstr "获取历史记录的 Blender 版本（默认为当前版本）"
+
+#: SB_path_actions/history.py:88
+msgid "Blends"
+msgstr "Blend 文件"
+
+#: SB_path_actions/panels.py:46
+msgid "Bookmarks"
+msgstr "书签"
+
+#: SB_path_actions/prefs.py:22
+msgid "Browse Blender Folders"
+msgstr "浏览 Blender 文件夹"
+
+#: SB_path_actions/blend_open_ops.py:327
+msgid "Cannot overwrite current blend file"
+msgstr "无法覆盖当前 blend 文件"
+
+#: SB_path_actions/open_addons_path.py:112
+msgid "Choose addon in list"
+msgstr "在列表中选择插件"
+
+#: SB_path_actions/open_addons_path.py:154
+msgid "Choose addon in list to open preferences"
+msgstr "在列表中选择插件以打开偏好设置"
+
+#: SB_path_actions/operators.py:73
+msgid "Choose how backslashes are written (only shown when paths contain backslashes)"
+msgstr "选择反斜杠的写入方式（仅在路径包含反斜杠时显示）"
+
+#: SB_path_actions/operators.py:84
+msgid "Choose the quote style"
+msgstr "选择引号样式"
+
+#: SB_path_actions/blend_open_ops.py:280
+msgid "Compress"
+msgstr "压缩"
+
+#: SB_path_actions/blend_open_ops.py:144
+msgid "Date"
+msgstr "日期"
+
+#: SB_path_actions/extend_history.py:84
+msgid "Destination is a directory."
+msgstr "目标是文件夹。"
+
+#: SB_path_actions/prefs.py:93
+msgid "Dev Extras:"
+msgstr "开发者附加功能："
+
+#: SB_path_actions/prefs.py:113
+msgid "Developer mode"
+msgstr "开发者模式"
+
+#: SB_path_actions/prefs.py:126
+msgid "Disabled"
+msgstr "已禁用"
+
+#: SB_path_actions/prefs.py:137
+msgid "Don't remove the hotkeys, use disable checkbox"
+msgstr "不要移除快捷键，请使用禁用复选框"
+
+#: SB_path_actions/operators.py:89
+msgid "Double Quote"
+msgstr "双引号"
+
+#: SB_path_actions/operators.py:79
+msgid "Double backslashes \\\\ (ex: for code strings)"
+msgstr "双反斜杠 \\\\（例如用于代码字符串）"
+
+#: SB_path_actions/prefs.py:125
+msgid "Enabled"
+msgstr "已启用"
+
+#: SB_path_actions/links_checker.py:289
+msgid "Enter the new file path"
+msgstr "输入新的文件路径"
+
+#: SB_path_actions/links_checker.py:214
+msgid "Error"
+msgstr "错误"
+
+#: SB_path_actions/history.py:292
+msgid "Error, Nothing found"
+msgstr "错误，未找到任何内容"
+
+#: SB_path_actions/links_checker.py:510
+msgid "Error: Extended path list not found"
+msgstr "错误：未找到扩展路径列表"
+
+#: SB_path_actions/operators.py:79
+msgid "Escaped"
+msgstr "转义"
+
+#: SB_path_actions/history.py:268
+msgid "Expand Path Match"
+msgstr "展开路径匹配"
+
+#: SB_path_actions/blend_open_ops.py:283
+msgid "Fake User"
+msgstr "伪用户"
+
+#: SB_path_actions/blend_open_ops.py:124
+msgid "File is not saved! Reopen anyway ?"
+msgstr "文件未保存！仍要重新打开？"
+
+#: SB_path_actions/panels.py:47
+msgid "Filebrowser"
+msgstr "文件浏览器"
+
+#: SB_path_actions/prefs.py:120
+msgid "Filter"
+msgstr "过滤"
+
+#: SB_path_actions/prefs.py:120
+msgid "Filter addon list to open their directory"
+msgstr "过滤插件列表以打开其目录"
+
+#: SB_path_actions/history.py:262
+#: SB_path_actions/links_checker.py:432
+msgid "Filter by name, case insensitive"
+msgstr "按名称过滤，不区分大小写"
+
+#: SB_path_actions/links_checker.py:533
+msgid "Find missing:"
+msgstr "查找缺失："
+
+#: SB_path_actions/operators.py:78
+msgid "Forward Slash"
+msgstr "正斜杠"
+
+#: SB_path_actions/prefs.py:136
+msgid "Hotkeys:"
+msgstr "快捷键："
+
+#: SB_path_actions/blend_open_ops.py:292
+msgid "How to handle external file paths"
+msgstr "如何处理外部文件路径"
+
+#: SB_path_actions/links_checker.py:337
+msgid "Important infos:"
+msgstr "重要信息："
+
+#: SB_path_actions/links_checker.py:302
+msgid "It is recommended to increment or backup file before editing library path"
+msgstr "建议在编辑库路径前递增版本号或备份文件"
+
+#: SB_path_actions/operators.py:77
+msgid "Keep path separators as is"
+msgstr "保持路径分隔符原样"
+
+#: SB_path_actions/prefs.py:151
+msgid "Keymap was deleted, restart blender (if you have saved prefs, disable > re-enable addon to reset)"
+msgstr "键位映射已删除，请重启 Blender（若已保存偏好设置，请禁用 > 重新启用插件以重置）"
+
+#: SB_path_actions/links_checker.py:237
+msgid "Library was not replaced"
+msgstr "库未被替换"
+
+#: SB_path_actions/links_checker.py:733
+msgid "Links"
+msgstr "链接"
+
+#: SB_path_actions/prefs.py:124
+msgid "List all addons"
+msgstr "列出所有插件"
+
+#: SB_path_actions/prefs.py:126
+msgid "List only Disabled addons"
+msgstr "仅列出已禁用的插件"
+
+#: SB_path_actions/prefs.py:125
+msgid "List only enabled addons"
+msgstr "仅列出已启用的插件"
+
+#: SB_path_actions/blend_open_ops.py:298
+msgid "Make all paths absolute on writing"
+msgstr "写入时将所有路径设为绝对路径"
+
+#: SB_path_actions/blend_open_ops.py:286
+msgid "Mark As Asset"
+msgstr "标记为资产"
+
+#: SB_path_actions/blend_open_ops.py:286
+msgid "Mark exported datablocks as assets in the written file            \nOnly supported types (object, collection, material, node group, world, action, brush)            \nPreview thumbnail is not generated (existing previews are kept)            \nCurrent file is left unchanged"
+msgstr "在写入的文件中将导出的数据块标记为资产\n仅支持的类型（物体、集合、材质、节点组、世界、动作、笔刷）\n不会生成预览缩略图（保留现有预览）\n当前文件保持不变"
+
+#: SB_path_actions/history.py:381
+msgid "Matches in paths to blends"
+msgstr "Blend 文件路径中的匹配项"
+
+#: SB_path_actions/blend_open_ops.py:143
+#: SB_path_actions/links_checker.py:442
+msgid "Name"
+msgstr "名称"
+
+#: SB_path_actions/links_checker.py:289
+msgid "New Path"
+msgstr "新路径"
+
+#: SB_path_actions/links_checker.py:561
+msgid "No external links found"
+msgstr "未找到外部链接"
+
+#: SB_path_actions/blend_open_ops.py:248
+msgid "No filepath"
+msgstr "无文件路径"
+
+#: SB_path_actions/blend_open_ops.py:322
+msgid "No filepath given"
+msgstr "未提供文件路径"
+
+#: SB_path_actions/extend_history.py:19
+#: SB_path_actions/history.py:98
+msgid "No history file found"
+msgstr "未找到历史记录文件"
+
+#: SB_path_actions/blend_open_ops.py:304
+msgid "No local datablock selected"
+msgstr "未选择本地数据块"
+
+#: SB_path_actions/blend_open_ops.py:318
+msgid "No local datablock to export"
+msgstr "没有可导出的本地数据块"
+
+#: SB_path_actions/blend_open_ops.py:295
+msgid "No path manipulation"
+msgstr "不修改路径"
+
+#: SB_path_actions/operators.py:88
+msgid "No quotes"
+msgstr "无引号"
+
+#: SB_path_actions/links_checker.py:279
+msgid "No references found to update"
+msgstr "未找到可更新的引用"
+
+#: SB_path_actions/links_checker.py:380
+msgid "No updates found"
+msgstr "未找到更新"
+
+#: SB_path_actions/links_checker.py:404
+msgid "No updates to apply"
+msgstr "没有可应用的更新"
+
+#: SB_path_actions/blend_open_ops.py:295
+msgid "None"
+msgstr "无"
+
+#: SB_path_actions/links_checker.py:301
+msgid "Note: Save and reopen blend file after applying changes"
+msgstr "注意：应用更改后保存并重新打开 blend 文件"
+
+#: SB_path_actions/history.py:323
+#: SB_path_actions/links_checker.py:581
+msgid "Nothing found"
+msgstr "未找到"
+
+#: SB_path_actions/operators.py:266
+msgid "Only works in fileBrowser context"
+msgstr "仅在文件浏览器上下文中可用"
+
+#: SB_path_actions/__init__.py:3
+msgid "Open blend folder in OS explorer"
+msgstr "在操作系统资源管理器中打开 blend 文件夹"
+
+#: SB_path_actions/prefs.py:82
+msgid "Other Script Directories:"
+msgstr "其他脚本目录："
+
+#: SB_path_actions/links_checker.py:443
+msgid "Path"
+msgstr "路径"
+
+#: SB_path_actions/__init__.py:3
+msgid "Path Actions"
+msgstr "路径操作"
+
+#: SB_path_actions/blend_open_ops.py:292
+msgid "Path Remap"
+msgstr "路径重映射"
+
+#: SB_path_actions/links_checker.py:310
+msgid "Path unchanged"
+msgstr "路径未更改"
+
+#: SB_path_actions/extend_history.py:87
+msgid "Permission denied."
+msgstr "权限被拒绝。"
+
+#: SB_path_actions/operators.py:88
+msgid "Plain"
+msgstr "普通"
+
+#: SB_path_actions/prefs.py:145
+msgid "Pop up search/open blend history"
+msgstr "弹出搜索/打开 blend 历史记录"
+
+#: SB_path_actions/operators.py:84
+#: SB_path_actions/operators.py:162
+msgid "Quote Style"
+msgstr "引号样式"
+
+#: SB_path_actions/links_checker.py:343
+msgid "Recommended to Backup/increment first"
+msgstr "建议先备份/增量保存"
+
+#: SB_path_actions/links_checker.py:215
+msgid "Refresh"
+msgstr "刷新"
+
+#: SB_path_actions/blend_open_ops.py:296
+msgid "Relative"
+msgstr "相对"
+
+#: SB_path_actions/blend_open_ops.py:297
+msgid "Relative All"
+msgstr "全部相对"
+
+#: SB_path_actions/blend_open_ops.py:297
+msgid "Remap all paths to be relative to the new location"
+msgstr "将所有路径重映射为相对于新位置"
+
+#: SB_path_actions/blend_open_ops.py:296
+msgid "Remap paths that are already relative to the new location"
+msgstr "重映射已相对于新位置的路径"
+
+#: SB_path_actions/operators.py:78
+msgid "Replace \\ with /"
+msgstr "将 \\ 替换为 /"
+
+#: SB_path_actions/operators.py:39
+#: SB_path_actions/operators.py:97
+msgid "Report Info"
+msgstr "报告信息"
+
+#: SB_path_actions/links_checker.py:450
+msgid "Reverse Sort"
+msgstr "反向排序"
+
+#: SB_path_actions/links_checker.py:450
+msgid "Reverse the sort order"
+msgstr "反转排序顺序"
+
+#: SB_path_actions/prefs.py:49
+msgid "Scripts / Addons:"
+msgstr "脚本 / 插件："
+
+#: SB_path_actions/history.py:262
+#: SB_path_actions/links_checker.py:432
+msgid "Search Filter"
+msgstr "搜索过滤器"
+
+#: SB_path_actions/links_checker.py:332
+msgid "Select a file to replace current:"
+msgstr "选择要替换当前文件的文件："
+
+#: SB_path_actions/blend_open_ops.py:283
+msgid "Set fake user on written datablocks"
+msgstr "为写入的数据块设置伪用户"
+
+#: SB_path_actions/history.py:271
+msgid "Show Full Path"
+msgstr "显示完整路径"
+
+#: SB_path_actions/operators.py:90
+msgid "Single Quote"
+msgstr "单引号"
+
+#: SB_path_actions/operators.py:73
+#: SB_path_actions/operators.py:166
+msgid "Slash Style"
+msgstr "斜杠样式"
+
+#: SB_path_actions/blend_open_ops.py:140
+#: SB_path_actions/links_checker.py:438
+msgid "Sort By"
+msgstr "排序依据"
+
+#: SB_path_actions/links_checker.py:444
+msgid "Sort by file type"
+msgstr "按文件类型排序"
+
+#: SB_path_actions/links_checker.py:442
+msgid "Sort by filename"
+msgstr "按文件名排序"
+
+#: SB_path_actions/links_checker.py:443
+msgid "Sort by full path"
+msgstr "按完整路径排序"
+
+#: SB_path_actions/links_checker.py:445
+msgid "Sort by link status (broken first)"
+msgstr "按链接状态排序（损坏的在前）"
+
+#: SB_path_actions/blend_open_ops.py:144
+msgid "Sort by modification date, last saved on top"
+msgstr "按修改日期排序，最近保存的在顶部"
+
+#: SB_path_actions/blend_open_ops.py:143
+msgid "Sort by name"
+msgstr "按名称排序"
+
+#: SB_path_actions/links_checker.py:438
+msgid "Sort the list by this criteria"
+msgstr "按此条件对列表排序"
+
+#: SB_path_actions/extend_history.py:81
+msgid "Source and destination represents the same file."
+msgstr "源和目标表示同一个文件。"
+
+#: SB_path_actions/links_checker.py:248
+#: SB_path_actions/links_checker.py:347
+msgid "Source or target path is missing"
+msgstr "源路径或目标路径缺失"
+
+#: SB_path_actions/links_checker.py:306
+msgid "Source path is missing"
+msgstr "源路径缺失"
+
+#: SB_path_actions/links_checker.py:445
+msgid "Status"
+msgstr "状态"
+
+#: SB_path_actions/__init__.py:3
+msgid "System"
+msgstr "系统"
+
+#: SB_path_actions/history.py:88
+msgid "Take the blend"
+msgstr "采用此 blend 文件"
+
+#: SB_path_actions/links_checker.py:338
+msgid "This is NOT equivalent to \"Relocate\""
+msgstr "这不等同于“重新定位”"
+
+#: SB_path_actions/links_checker.py:340
+msgid "To apply changes: Save and Reopen"
+msgstr "要应用更改：保存并重新打开"
+
+#: SB_path_actions/links_checker.py:444
+msgid "Type"
+msgstr "类型"
+
+#: SB_path_actions/links_checker.py:342
+msgid "Use at your own risk"
+msgstr "使用风险自负"
+
+#: SB_path_actions/operators.py:15
+msgid "View"
+msgstr "视图"
+
+#: SB_path_actions/history.py:172
+msgid "When path is an error message instead of a path"
+msgstr "当路径是错误消息而不是路径时"
+
+#: SB_path_actions/operators.py:89
+msgid "Wrap with \""
+msgstr "用双引号包裹"
+
+#: SB_path_actions/operators.py:90
+msgid "Wrap with '"
+msgstr "用单引号包裹"
+
+#: SB_path_actions/operators.py:91
+msgid "Wrap with `"
+msgstr "用反引号包裹"
+
+#: SB_path_actions/blend_open_ops.py:280
+msgid "Write compressed blend file"
+msgstr "写入压缩的 blend 文件"
+
+#: SB_path_actions/links_checker.py:240
+msgid "You may want to open folder to inspect"
+msgstr "你可能需要打开文件夹进行检查"
+
+#: SB_path_actions/links_checker.py:528
+msgid "|"
+msgstr "|"
+
+#: SB_path_actions/extend_history.py:12
+msgctxt "Operator"
+msgid "Add the file history to a single file"
+msgstr "将文件历史添加到单个文件"
+
+#: SB_path_actions/links_checker.py:534
+msgctxt "Operator"
+msgid "All Files"
+msgstr "所有文件"
+
+#: SB_path_actions/links_checker.py:556
+msgctxt "Operator"
+msgid "Apply All Updates"
+msgstr "应用所有更新"
+
+#: SB_path_actions/history.py:248
+msgctxt "Operator"
+msgid "Blend History"
+msgstr "Blend 历史记录"
+
+#: SB_path_actions/panels.py:31
+#: SB_path_actions/panels.py:66
+msgctxt "Operator"
+msgid "Blend Location"
+msgstr "Blend 位置"
+
+#: SB_path_actions/prefs.py:37
+msgctxt "Operator"
+msgid "Blender App Folder"
+msgstr "Blender 应用文件夹"
+
+#: SB_path_actions/links_checker.py:318
+msgctxt "Operator"
+msgid "Browse for a file to replace current library path"
+msgstr "浏览文件以替换当前库路径"
+
+#: SB_path_actions/operators.py:250
+msgctxt "Operator"
+msgid "Browser to blend folder"
+msgstr "浏览到 blend 文件夹"
+
+#: SB_path_actions/links_checker.py:738
+#: SB_path_actions/prefs.py:99
+msgctxt "Operator"
+msgid "Check File Links"
+msgstr "检查文件链接"
+
+#: SB_path_actions/links_checker.py:362
+msgctxt "Operator"
+msgid "Check Latest Versions"
+msgstr "检查最新版本"
+
+#: SB_path_actions/links_checker.py:555
+msgctxt "Operator"
+msgid "Check Updates"
+msgstr "检查更新"
+
+#: SB_path_actions/links_checker.py:363
+msgctxt "Operator"
+msgid "Check for newer versions of files in their directories"
+msgstr "检查其目录中文件是否有较新版本"
+
+#: SB_path_actions/links_checker.py:429
+msgctxt "Operator"
+msgid "Check states of external links in blend file"
+msgstr "检查 blend 文件中外部链接的状态"
+
+#: SB_path_actions/operators.py:201
+msgctxt "Operator"
+msgid "Click: Copy path        \nAlt + Click: Pop-up alternative path to copy (with optional quote styles)"
+msgstr "单击：复制路径\nAlt + 单击：弹出可复制的替代路径（可选引号样式）"
+
+#: SB_path_actions/blend_open_ops.py:100
+msgctxt "Operator"
+msgid "Close and re-open blender file        \nCtrl: Force reopen even if file is not saved"
+msgstr "关闭并重新打开 Blender 文件\nCtrl：即使文件未保存也强制重新打开"
+
+#: SB_path_actions/prefs.py:31
+msgctxt "Operator"
+msgid "Config"
+msgstr "配置"
+
+#: SB_path_actions/operators.py:60
+msgctxt "Operator"
+msgid "Copy Alternative Path"
+msgstr "复制替代路径"
+
+#: SB_path_actions/operators.py:233
+msgctxt "Operator"
+msgid "Copy Blend Path"
+msgstr "复制 Blend 路径"
+
+#: SB_path_actions/prefs.py:41
+msgctxt "Operator"
+msgid "Copy Blender Executable Path"
+msgstr "复制 Blender 可执行文件路径"
+
+#: SB_path_actions/operators.py:22
+msgctxt "Operator"
+msgid "Copy Formatted Blend Path"
+msgstr "复制格式化后的 Blend 路径"
+
+#: SB_path_actions/prefs.py:45
+msgctxt "Operator"
+msgid "Copy Launch Command"
+msgstr "复制启动命令"
+
+#: SB_path_actions/operators.py:200
+msgctxt "Operator"
+msgid "Copy Path To Clipboard"
+msgstr "复制路径到剪贴板"
+
+#: SB_path_actions/operators.py:33
+msgctxt "Operator"
+msgid "Copy String"
+msgstr "复制字符串"
+
+#: SB_path_actions/operators.py:61
+msgctxt "Operator"
+msgid "Copy a chosen alternative path in a list from a single path"
+msgstr "从单个路径复制列表中所选的替代路径"
+
+#: SB_path_actions/operators.py:34
+msgctxt "Operator"
+msgid "Copy passed string to clipboard"
+msgstr "复制传入的字符串到剪贴板"
+
+#: SB_path_actions/operators.py:234
+msgctxt "Operator"
+msgid "Copy path to blend from a list of proposed alternative"
+msgstr "从备选列表中复制 blend 路径"
+
+#: SB_path_actions/extend_history.py:11
+msgctxt "Operator"
+msgid "Dump File History"
+msgstr "转储文件历史"
+
+#: SB_path_actions/links_checker.py:284
+msgctxt "Operator"
+msgid "Edit File Path"
+msgstr "编辑文件路径"
+
+#: SB_path_actions/links_checker.py:285
+msgctxt "Operator"
+msgid "Edit the file path directly"
+msgstr "直接编辑文件路径"
+
+#: SB_path_actions/blend_open_ops.py:271
+msgctxt "Operator"
+msgid "Export To Blend"
+msgstr "导出为 Blend"
+
+#: SB_path_actions/prefs.py:54
+msgctxt "Operator"
+msgid "Extensions"
+msgstr "扩展"
+
+#: SB_path_actions/prefs.py:78
+msgctxt "Operator"
+msgid "External Addons"
+msgstr "外部插件"
+
+#: SB_path_actions/operators.py:21
+msgctxt "Operator"
+msgid "File History"
+msgstr "文件历史"
+
+#: SB_path_actions/links_checker.py:428
+msgctxt "Operator"
+msgid "File Links Checker"
+msgstr "文件链接检查器"
+
+#: SB_path_actions/blend_open_ops.py:99
+msgctxt "Operator"
+msgid "Full Reopen Blend"
+msgstr "完整重新打开 Blend"
+
+#: SB_path_actions/prefs.py:68
+msgctxt "Operator"
+msgid "Native Scripts"
+msgstr "原生脚本"
+
+#: SB_path_actions/links_checker.py:539
+msgctxt "Operator"
+msgid "Near Blend"
+msgstr "邻近 Blend"
+
+#: SB_path_actions/open_addons_path.py:106
+msgctxt "Operator"
+msgid "Open Addon Directory"
+msgstr "打开插件目录"
+
+#: SB_path_actions/history.py:79
+msgctxt "Operator"
+msgid "Open Blend From History"
+msgstr "从历史打开 Blend"
+
+#: SB_path_actions/blend_open_ops.py:15
+msgctxt "Operator"
+msgid "Open Blend In New Instance"
+msgstr "在新实例中打开 Blend"
+
+#: SB_path_actions/blend_open_ops.py:400
+msgctxt "Operator"
+msgid "Open Containing Folder"
+msgstr "打开所在文件夹"
+
+#: SB_path_actions/operators.py:259
+msgctxt "Operator"
+msgid "Open Current filepath"
+msgstr "打开当前文件路径"
+
+#: SB_path_actions/panels.py:24
+#: SB_path_actions/panels.py:70
+msgctxt "Operator"
+msgid "Open Folder"
+msgstr "打开文件夹"
+
+#: SB_path_actions/history.py:40
+msgctxt "Operator"
+msgid "Open Last File"
+msgstr "打开上次文件"
+
+#: SB_path_actions/blend_open_ops.py:240
+msgctxt "Operator"
+msgid "Open Path In Browser"
+msgstr "在浏览器中打开路径"
+
+#: SB_path_actions/blend_open_ops.py:136
+msgctxt "Operator"
+msgid "Open Side Blend"
+msgstr "在侧边打开 Blend"
+
+#: SB_path_actions/blend_open_ops.py:16
+msgctxt "Operator"
+msgid "Open blend file in a new instance of blender        \nAlt + Click : Strip extra arguments from initial command, opening with command [blender filepath]"
+msgstr "在新 Blender 实例中打开 blend 文件        \nAlt + 单击：从初始命令中去除额外参数，使用命令 [blender filepath] 打开"
+
+#: SB_path_actions/operators.py:272
+msgctxt "Operator"
+msgid "Open blend folder"
+msgstr "打开 blend 文件夹"
+
+#: SB_path_actions/blend_open_ops.py:137
+msgctxt "Operator"
+msgid "Open blend in same folder as current"
+msgstr "打开与当前相同文件夹中的 blend"
+
+#: SB_path_actions/operators.py:273
+msgctxt "Operator"
+msgid "Open blend's directory in OS explorer        \n        \nCtrl: Copy path to blend        \nShift: Open a side blend        \nAlt: History and blend app locations        \nCtrl+Alt: Copy formatted blend path"
+msgstr "在系统资源管理器中打开 blend 所在目录        \n        \nCtrl：复制 blend 路径        \nShift：在侧边打开 blend        \nAlt：历史与 blend 应用位置        \nCtrl+Alt：复制格式化的 blend 路径"
+
+#: SB_path_actions/open_addons_path.py:107
+msgctxt "Operator"
+msgid "Open chosen addon directory"
+msgstr "打开所选插件目录"
+
+#: SB_path_actions/open_addons_path.py:149
+msgctxt "Operator"
+msgid "Open chosen addon preferences (only enabled addons are listed)"
+msgstr "打开所选插件偏好设置（仅列出已启用的插件）"
+
+#: SB_path_actions/operators.py:335
+msgctxt "Operator"
+msgid "Open output folder"
+msgstr "打开输出文件夹"
+
+#: SB_path_actions/blend_open_ops.py:241
+msgctxt "Operator"
+msgid "Open passed file/folder in OS browser. If a file, the file will be selected"
+msgstr "在系统浏览器中打开传入的文件/文件夹。若为文件，将选中该文件"
+
+#: SB_path_actions/history.py:41
+msgctxt "Operator"
+msgid "Open the last blend file"
+msgstr "打开上次的 blend 文件"
+
+#: SB_path_actions/links_checker.py:317
+msgctxt "Operator"
+msgid "Replace File Library"
+msgstr "替换文件库"
+
+#: SB_path_actions/extend_history.py:61
+msgctxt "Operator"
+msgid "Replace the current history file by the tmp"
+msgstr "用临时文件替换当前历史文件"
+
+#: SB_path_actions/extend_history.py:60
+msgctxt "Operator"
+msgid "Restore File History"
+msgstr "恢复文件历史"
+
+#: SB_path_actions/prefs.py:175
+msgctxt "Operator"
+msgid "Search"
+msgstr "搜索"
+
+#: SB_path_actions/open_addons_path.py:148
+msgctxt "Operator"
+msgid "Search And Open Addon Preferences"
+msgstr "搜索并打开插件偏好设置"
+
+#: SB_path_actions/history.py:249
+msgctxt "Operator"
+msgid "Show the history of opened blend files with mutliple actions"
+msgstr "显示已打开 blend 文件的历史，并提供多种操作"
+
+#: SB_path_actions/operators.py:28
+msgctxt "Operator"
+msgid "Single Addon Directory"
+msgstr "单个插件目录"
+
+#: SB_path_actions/operators.py:29
+msgctxt "Operator"
+msgid "Single Addon Preferences"
+msgstr "单个插件偏好设置"
+
+#: SB_path_actions/operators.py:367
+msgctxt "Operator"
+msgid "Switch output path mode"
+msgstr "切换输出路径模式"
+
+#: SB_path_actions/prefs.py:96
+msgctxt "Operator"
+msgid "Temp Directory"
+msgstr "临时目录"
+
+#: SB_path_actions/links_checker.py:386
+msgctxt "Operator"
+msgid "Update All To Latest"
+msgstr "全部更新至最新"
+
+#: SB_path_actions/links_checker.py:207
+msgctxt "Operator"
+msgid "Update File Path"
+msgstr "更新文件路径"
+
+#: SB_path_actions/links_checker.py:387
+msgctxt "Operator"
+msgid "Update all files to their latest versions"
+msgstr "将所有文件更新至最新版本"
+
+#: SB_path_actions/links_checker.py:208
+msgctxt "Operator"
+msgid "Update this file path to the specified target path"
+msgstr "将此文件路径更新为指定的目标路径"
+
+#: SB_path_actions/prefs.py:61
+msgctxt "Operator"
+msgid "User Scripts"
+msgstr "用户脚本"
+
+#: SB_path_actions/blend_open_ops.py:272
+msgctxt "Operator"
+msgid "Write selected local datablocks (and their dependencies) to an external blend file"
+msgstr "将选定的本地数据块（及其依赖项）写入外部 blend 文件"

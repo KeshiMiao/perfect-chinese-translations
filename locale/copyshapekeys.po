@@ -1,0 +1,194 @@
+# perfect-chinese: 1
+# id: copyshapekeys
+# kind: addon
+# module: bl_ext.blender_org.copyshapekeys
+# name: ShapeKey Copy
+# name_zh: 形态键复制
+# translator: KeshiMiao
+# category: Mesh
+# supported_versions: >=4.5.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:136
+msgid "(Armatures must be identical)"
+msgstr "（骨架必须一致）"
+
+#: __init__.py:123
+#: __init__.py:777
+msgid "Active Only"
+msgstr "仅活动"
+
+#: __init__.py:557
+msgid "Active object has no shapekeys."
+msgstr "活动物体没有形态键。"
+
+#: __init__.py:553
+msgid "Active object must be a Mesh or Curve."
+msgstr "活动物体必须是网格或曲线。"
+
+#: __init__.py:106
+msgid "BB Copy Shapekeys"
+msgstr "BB 复制形态键"
+
+#: __init__.py:135
+msgid "Copy Armature Anim"
+msgstr "复制骨架动画"
+
+#: __init__.py:772
+msgid "Create shape keys with names only, without copying deformation data"
+msgstr "仅按名称创建形态键，不复制变形数据"
+
+#: __init__.py:122
+#: __init__.py:772
+msgid "Name Only"
+msgstr "仅名称"
+
+#: __init__.py:228
+#: __init__.py:417
+msgid "No active (target) object selected."
+msgstr "未选择活动（目标）物体。"
+
+#: __init__.py:549
+msgid "No active object selected."
+msgstr "未选择活动物体。"
+
+#: __init__.py:764
+msgid "No animation data found to copy."
+msgstr "未找到可复制的动画数据。"
+
+#: __init__.py:602
+msgid "No source armature objects selected."
+msgstr "未选择源骨架。"
+
+#: __init__.py:237
+msgid "No source objects selected."
+msgstr "未选择源物体。"
+
+#: __init__.py:430
+msgid "No valid source objects selected."
+msgstr "未选择有效的源物体。"
+
+#: __init__.py:777
+msgid "Only copy unmuted (active) shape keys and their animations"
+msgstr "仅复制未静音（活动）的形态键及其动画"
+
+#: __init__.py:151
+#: __init__.py:218
+msgid "Operator must be run in Object mode."
+msgstr "操作符必须在物体模式下运行。"
+
+#: __init__.py:588
+msgid "Select at least one source armature and one target armature (active)."
+msgstr "至少选择一个源骨架和一个目标骨架（活动）。"
+
+#: __init__.py:223
+#: __init__.py:412
+msgid "Select at least one source object and one target object (active)."
+msgstr "至少选择一个源物体和一个目标物体（活动）。"
+
+#: __init__.py:156
+msgid "Select at least one source object and one target object."
+msgstr "至少选择一个源物体和一个目标物体。"
+
+#: __init__.py:119
+msgid "Shapekey Tools"
+msgstr "形态键工具"
+
+#: __init__.py:425
+msgid "Target has no shapekeys. Copy shapekeys first."
+msgstr "目标没有形态键。请先复制形态键。"
+
+#: __init__.py:421
+msgid "Target must be a Mesh or Curve."
+msgstr "目标必须是网格或曲线。"
+
+#: __init__.py:163
+msgid "Target must be a mesh object."
+msgstr "目标必须是网格物体。"
+
+#: __init__.py:597
+msgid "Target must be an armature."
+msgstr "目标必须是骨架。"
+
+#: __init__.py:232
+msgid "Target object must be a Mesh or Curve."
+msgstr "目标物体必须是网格或曲线。"
+
+#: __init__.py:110
+msgid "Tool"
+msgstr "工具"
+
+#: __init__.py:137
+msgctxt "Operator"
+msgid "Copy"
+msgstr "复制"
+
+#: __init__.py:125
+msgctxt "Operator"
+msgid "Copy Animation"
+msgstr "复制动画"
+
+#: __init__.py:577
+msgctxt "Operator"
+msgid "Copy Armature Animation"
+msgstr "复制骨架动画"
+
+#: __init__.py:124
+msgctxt "Operator"
+msgid "Copy Shape keys"
+msgstr "复制形态键"
+
+#: __init__.py:334
+msgctxt "Operator"
+msgid "Copy Shapekey Animation"
+msgstr "复制形态键动画"
+
+#: __init__.py:126
+#: __init__.py:145
+msgctxt "Operator"
+msgid "Copy Vertex Groups"
+msgstr "复制顶点组"
+
+#: __init__.py:578
+msgctxt "Operator"
+msgid "Copy armature animation from selected sources to active target"
+msgstr "将所选源的骨架动画复制到活动目标"
+
+#: __init__.py:335
+msgctxt "Operator"
+msgid "Copy shapekey animation from selected sources to active target"
+msgstr "将所选源的形态键动画复制到活动目标"
+
+#: __init__.py:146
+msgctxt "Operator"
+msgid "Copy vertex groups from selected objects to active target (same topology)"
+msgstr "将所选物体的顶点组复制到活动目标（相同拓扑）"
+
+#: __init__.py:129
+msgctxt "Operator"
+msgid "Set Keys to 0"
+msgstr "将形态键设为 0"
+
+#: __init__.py:539
+msgctxt "Operator"
+msgid "Set all shapekey values to 0 for the selected object"
+msgstr "将所选物体的所有形态键值设为 0"
+
+#: __init__.py:212
+msgctxt "Operator"
+msgid "Transfer Shapekeys"
+msgstr "传递形态键"
+
+#: __init__.py:213
+msgctxt "Operator"
+msgid "Transfer shapekeys from selected source objects to active target object"
+msgstr "将所选源物体的形态键传递到活动目标物体"
+
+#: __init__.py:538
+msgctxt "Operator"
+msgid "Zero All Shapekeys"
+msgstr "将所有形态键归零"

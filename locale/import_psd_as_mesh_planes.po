@@ -1,0 +1,282 @@
+# perfect-chinese: 1
+# id: import_psd_as_mesh_planes
+# kind: addon
+# module: bl_ext.blender_org.import_psd_as_mesh_planes
+# name: Import .PSD as Mesh Planes
+# name_zh: 导入PSD为网格平面
+# translator: KeshiMiao
+# category: Import-Export
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:329
+msgid "Allows for colored transparency, but incompatible with render passes and raytracing. Also known as forward rendering."
+msgstr "允许彩色透明，但不兼容渲染通道和光线追踪。也称为前向渲染。"
+
+#: __init__.py:328
+msgid "Allows for grayscale hashed transparency, and compatible with render passes and raytracing. Also known as deferred rendering."
+msgstr "允许灰度哈希透明，兼容渲染通道和光线追踪。也称为延迟渲染。"
+
+#: __init__.py:364
+msgid "Alpha Mode"
+msgstr "Alpha 模式"
+
+#: __init__.py:343
+msgid "Backface Culling"
+msgstr "背面剔除"
+
+#: __init__.py:351
+msgid "Bicubic when magnifying, else bilinear (OSL only)"
+msgstr "放大时使用双三次，否则使用双线性（仅 OSL）"
+
+#: __init__.py:329
+msgid "Blended"
+msgstr "混合"
+
+#: __init__.py:325
+msgid "Brightness of Emission Texture"
+msgstr "自发光纹理的亮度"
+
+#: __init__.py:357
+msgid "Causes the image to repeat horizontally and vertically"
+msgstr "使图像在水平和垂直方向重复"
+
+#: __init__.py:369
+msgid "Channel Packed"
+msgstr "通道打包"
+
+#: __init__.py:358
+msgid "Clip"
+msgstr "裁剪"
+
+#: __init__.py:358
+msgid "Clip to image size and set exterior pixels as transparent"
+msgstr "裁剪到图像尺寸，并将外部像素设为透明"
+
+#: __init__.py:349
+msgid "Closest"
+msgstr "最近"
+
+#: __init__.py:331
+msgid "Controls the blending and compatibility with certain features"
+msgstr "控制混合方式及与某些功能的兼容性"
+
+#: __init__.py:350
+msgid "Cubic"
+msgstr "三次"
+
+#: __init__.py:350
+msgid "Cubic interpolation"
+msgstr "三次插值"
+
+#: __init__.py:369
+msgid "Different images are packed in the RGB and alpha channels, and they should not affect each other. Channel packing is commonly used by game engines to save memory."
+msgstr "不同图像分别打包在 RGB 和 Alpha 通道中，二者不应互相影响。通道打包常用于游戏引擎以节省内存。"
+
+#: __init__.py:328
+msgid "Dithered"
+msgstr "抖动"
+
+#: __init__.py:321
+msgid "Emission"
+msgstr "自发光"
+
+#: __init__.py:321
+msgid "Emission Shader"
+msgstr "自发光着色器"
+
+#: __init__.py:325
+msgid "Emission Strength"
+msgstr "自发光强度"
+
+#: __init__.py:357
+msgid "Extend"
+msgstr "扩展"
+
+#: __init__.py:356
+msgid "Extend by repeating the edge pixels of the image"
+msgstr "通过重复图像边缘像素来扩展"
+
+#: __init__.py:360
+msgid "Extension"
+msgstr "扩展"
+
+#: __init__.py:313
+msgid "Flatten Image"
+msgstr "拼合图像"
+
+#: __init__.py:313
+msgid "Flattens all .psd layers into one mesh plane."
+msgstr "将所有 .psd 图层拼合到一个网格平面中。"
+
+#: __init__.py:360
+msgid "How the image is extrapolated past its original bounds"
+msgstr "图像超出原始边界时的外推方式"
+
+#: __init__.py:370
+msgid "Ignore alpha channel from the file and make image fully opaque."
+msgstr "忽略文件中的 Alpha 通道，使图像完全不透明。"
+
+#: __init__.py:385
+msgid "Import Settings:"
+msgstr "导入设置："
+
+#: __init__.py:353
+msgid "Interpolation"
+msgstr "插值"
+
+#: __init__.py:348
+msgid "Linear"
+msgstr "线性"
+
+#: __init__.py:348
+msgid "Linear interpolation"
+msgstr "线性插值"
+
+#: __init__.py:394
+msgid "Material Settings:"
+msgstr "材质设置："
+
+#: __init__.py:349
+msgid "No interpolation (sample closest texel)"
+msgstr "无插值（采样最近的纹素）"
+
+#: __init__.py:442
+#: __init__.py:464
+msgid "No layers found."
+msgstr "未找到图层。"
+
+#: __init__.py:323
+msgid "Nodes shader to use"
+msgstr "要使用的节点着色器"
+
+#: __init__.py:370
+msgid "None"
+msgstr "无"
+
+#: __init__.py:311
+msgid "Number of pixels per meter (e.g. 1000 px = 1 m)"
+msgstr "每米像素数（例如 1000 px = 1 m）"
+
+#: __init__.py:312
+msgid "Offsets each mesh plane by the Z-axis."
+msgstr "沿 Z 轴偏移每个网格平面。"
+
+#: __init__.py:343
+msgid "Only renders the front faces."
+msgstr "仅渲染正面。"
+
+#: __init__.py:320
+msgid "Only visible to camera and reflections"
+msgstr "仅对摄像机和反射可见"
+
+#: __init__.py:375
+msgid "Pack Textures"
+msgstr "打包纹理"
+
+#: __init__.py:375
+msgid "Packs all imported image textures to this .blend file."
+msgstr "将所有导入的图像纹理打包到此 .blend 文件。"
+
+#: __init__.py:311
+msgid "Pixels per Metre"
+msgstr "每米像素数"
+
+#: __init__.py:368
+msgid "Premultiplied"
+msgstr "预乘"
+
+#: __init__.py:319
+msgid "Principled"
+msgstr "原理化"
+
+#: __init__.py:319
+msgid "Principled Shader"
+msgstr "原理化着色器"
+
+#: __init__.py:331
+msgid "Render Method"
+msgstr "渲染方法"
+
+#: __init__.py:337
+msgid "Render multiple transparent layers (may introduce transparency sorting problems)"
+msgstr "渲染多个透明层（可能引入透明排序问题）"
+
+#: __init__.py:356
+msgid "Repeat"
+msgstr "重复"
+
+#: __init__.py:364
+msgid "Representation of alpha in the image file, to convert to and from when saving and loading the image"
+msgstr "图像文件中 Alpha 的表示方式，保存和加载图像时用于转换。"
+
+#: __init__.py:320
+msgid "Shadeless"
+msgstr "无光照"
+
+#: __init__.py:323
+msgid "Shader"
+msgstr "着色器"
+
+#: __init__.py:314
+msgid "Skip Hidden"
+msgstr "跳过隐藏"
+
+#: __init__.py:314
+msgid "Skips importing hidden layers and layer groups."
+msgstr "跳过导入隐藏的图层和图层组。"
+
+#: __init__.py:351
+msgid "Smart"
+msgstr "智能"
+
+#: __init__.py:367
+msgid "Store RGB and alpha channels separately with alpha acting as a mask, also known as unassociated alpha.\nCommonly used by image editing applications and file formats like PNG."
+msgstr "将 RGB 和 Alpha 通道分开存储，Alpha 用作遮罩，也称为非关联 Alpha。\n常用于图像编辑应用和 PNG 等文件格式。"
+
+#: __init__.py:368
+msgid "Store RGB channels with alpha multiplied in, also known as associated alpha. The natural format for renders and used by formats like OpenEXR."
+msgstr "存储已预乘 Alpha 的 RGB 通道，也称为关联 Alpha。是渲染的自然格式，OpenEXR 等格式使用。"
+
+#: __init__.py:367
+msgid "Straight"
+msgstr "直通"
+
+#: __init__.py:353
+msgid "Texture Interpolation"
+msgstr "纹理插值"
+
+#: __init__.py:409
+msgid "Texture Settings:"
+msgstr "纹理设置："
+
+#: __init__.py:337
+msgid "Transparency Overlap"
+msgstr "透明重叠"
+
+#: __init__.py:362
+msgid "Use Alpha"
+msgstr "使用 Alpha"
+
+#: __init__.py:312
+msgid "Z Offset"
+msgstr "Z 偏移"
+
+#: __init__.py:302
+msgctxt "Operator"
+msgid "Import .PSD as Mesh Planes"
+msgstr "将 .PSD 导入为网格平面"
+
+#: __init__.py:475
+msgctxt "Operator"
+msgid "Import .PSD as Mesh Planes (.psd)"
+msgstr "将 .PSD 导入为网格平面（.psd）"
+
+#: __init__.py:303
+msgctxt "Operator"
+msgid "Import .PSD file with layers as mesh planes."
+msgstr "将带图层的 .PSD 文件导入为网格平面。"

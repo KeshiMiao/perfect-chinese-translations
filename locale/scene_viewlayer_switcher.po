@@ -1,0 +1,224 @@
+# perfect-chinese: 1
+# id: scene_viewlayer_switcher
+# kind: addon
+# module: bl_ext.blender_org.Scene_ViewLayer_Switcher
+# name: Scene/View/Workspace Switcher
+# name_zh: 场景视图工作区切换器
+# translator: KeshiMiao
+# category: User Interface
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: Scene_View_Workspace_Switcher/preferences.py:256
+msgid "(Blender built-in):"
+msgstr "（Blender 内置）："
+
+#: Scene_View_Workspace_Switcher/operators.py:263
+msgid "Browse Scenes"
+msgstr "浏览场景"
+
+#: Scene_View_Workspace_Switcher/operators.py:290
+msgid "Browse ViewLayers"
+msgstr "浏览视图层"
+
+#: Scene_View_Workspace_Switcher/operators.py:346
+msgid "Browse Workspaces"
+msgstr "浏览工作区"
+
+#: Scene_View_Workspace_Switcher/preferences.py:44
+msgid "Color of the viewport text"
+msgstr "视图文本颜色"
+
+#: Scene_View_Workspace_Switcher/preferences.py:26
+msgid "Display Duration"
+msgstr "显示时长"
+
+#: Scene_View_Workspace_Switcher/preferences.py:9
+msgid "Display Viewport Feedback"
+msgstr "显示视图反馈"
+
+#: Scene_View_Workspace_Switcher/preferences.py:9
+msgid "Enable/disable text feedback in the 3D viewport when switching scenes or view layers"
+msgstr "切换场景或视图层时，在 3D 视图中启用/禁用文本反馈"
+
+#: Scene_View_Workspace_Switcher/preferences.py:35
+msgid "Fade Duration"
+msgstr "淡出时长"
+
+#: Scene_View_Workspace_Switcher/preferences.py:198
+msgid "For maximized productivity, assign these shortcuts to your mouse buttons:"
+msgstr "为获得最高效率，请将这些快捷键分配到鼠标按键："
+
+#: Scene_View_Workspace_Switcher/preferences.py:65
+msgid "Horizontal Position"
+msgstr "水平位置"
+
+#: Scene_View_Workspace_Switcher/preferences.py:65
+msgid "Horizontal position of the text (percentage from left)"
+msgstr "文本的水平位置（距左侧的百分比）"
+
+#: Scene_View_Workspace_Switcher/preferences.py:26
+msgid "How long to display the text (seconds)"
+msgstr "文本显示时长（秒）"
+
+#: Scene_View_Workspace_Switcher/preferences.py:35
+msgid "How long to fade out the text (seconds)"
+msgstr "文本淡出时长（秒）"
+
+#: Scene_View_Workspace_Switcher/operators.py:392
+#: Scene_View_Workspace_Switcher/operators.py:397
+msgid "Include in Switcher"
+msgstr "包含在切换器中"
+
+#: Scene_View_Workspace_Switcher/__init__.py:1
+msgid "Jump to the next/previous Scene or ViewLayer with ability to exclude specific ones. Includes shortcuts to jump to Master scene and return to last scene."
+msgstr "跳转到下一个/上一个场景或视图层，并可排除特定项。包含跳转到主场景和返回上一场景的快捷键。"
+
+#: Scene_View_Workspace_Switcher/operators.py:408
+msgid "Last Scene Name"
+msgstr "上一场景名称"
+
+#: Scene_View_Workspace_Switcher/operators.py:402
+msgid "Mark this as the Master scene. Only one scene can be marked at a time. Use Alt+Home to jump to it from anywhere"
+msgstr "将此场景标记为主场景。同一时间只能标记一个场景。使用 Alt+Home 可从任意位置跳转到它"
+
+#: Scene_View_Workspace_Switcher/operators.py:402
+#: Scene_View_Workspace_Switcher/ui.py:11
+msgid "Master Scene"
+msgstr "主场景"
+
+#: Scene_View_Workspace_Switcher/preferences.py:258
+msgid "NEXT"
+msgstr "下一个"
+
+#: Scene_View_Workspace_Switcher/operators.py:408
+msgid "Name of the last scene that was active"
+msgstr "上次活动场景的名称"
+
+#: Scene_View_Workspace_Switcher/operators.py:179
+msgid "No previous scene to return to"
+msgstr "没有可返回的上一场景"
+
+#: Scene_View_Workspace_Switcher/operators.py:153
+msgid "No scene is marked as Master Scene"
+msgstr "没有场景被标记为主场景"
+
+#: Scene_View_Workspace_Switcher/preferences.py:263
+msgid "PREV"
+msgstr "上一个"
+
+#: Scene_View_Workspace_Switcher/operators.py:250
+msgid "Scene Name"
+msgstr "场景名称"
+
+#: Scene_View_Workspace_Switcher/__init__.py:1
+msgid "Scene/View/Workspace Switcher"
+msgstr "场景/视图/工作区切换器"
+
+#: Scene_View_Workspace_Switcher/preferences.py:17
+msgid "Size of the viewport text"
+msgstr "视图文本大小"
+
+#: Scene_View_Workspace_Switcher/preferences.py:44
+msgid "Text Color"
+msgstr "文本颜色"
+
+#: Scene_View_Workspace_Switcher/preferences.py:17
+msgid "Text Size"
+msgstr "文本大小"
+
+#: Scene_View_Workspace_Switcher/__init__.py:1
+msgid "User Interface"
+msgstr "用户界面"
+
+#: Scene_View_Workspace_Switcher/preferences.py:55
+msgid "Vertical Position"
+msgstr "垂直位置"
+
+#: Scene_View_Workspace_Switcher/preferences.py:55
+msgid "Vertical position of the text (percentage from bottom)"
+msgstr "文本的垂直位置（距底部的百分比）"
+
+#: Scene_View_Workspace_Switcher/operators.py:310
+msgid "View Layer Name"
+msgstr "视图层名称"
+
+#: Scene_View_Workspace_Switcher/preferences.py:98
+msgid "Viewport Text Display Settings:"
+msgstr "视图文本显示设置："
+
+#: Scene_View_Workspace_Switcher/operators.py:392
+msgid "When enabled, this scene will be included when cycling through scenes. Disable to skip this scene when using next/previous shortcuts"
+msgstr "启用后，循环切换场景时将包含此场景。禁用则在使用下一个/上一个快捷键时跳过此场景"
+
+#: Scene_View_Workspace_Switcher/operators.py:397
+msgid "When enabled, this view layer will be included when cycling through view layers. Disable to skip this view layer when using next/previous shortcuts"
+msgstr "启用后，循环切换视图层时将包含此视图层。禁用则在使用下一个/上一个快捷键时跳过此视图层"
+
+#: Scene_View_Workspace_Switcher/operators.py:335
+msgid "Workspace Name"
+msgstr "工作区名称"
+
+#: Scene_View_Workspace_Switcher/operators.py:237
+msgctxt "Operator"
+msgid "Last Scene"
+msgstr "上一场景"
+
+#: Scene_View_Workspace_Switcher/operators.py:227
+msgctxt "Operator"
+msgid "Master Scene"
+msgstr "主场景"
+
+#: Scene_View_Workspace_Switcher/operators.py:187
+msgctxt "Operator"
+msgid "Next Scene"
+msgstr "下一个场景"
+
+#: Scene_View_Workspace_Switcher/operators.py:207
+msgctxt "Operator"
+msgid "Next View Layer"
+msgstr "下一个视图层"
+
+#: Scene_View_Workspace_Switcher/operators.py:280
+msgctxt "Operator"
+msgid "Open Scene Lister"
+msgstr "打开场景列表"
+
+#: Scene_View_Workspace_Switcher/operators.py:322
+msgctxt "Operator"
+msgid "Open View Layer Lister"
+msgstr "打开视图层列表"
+
+#: Scene_View_Workspace_Switcher/operators.py:363
+msgctxt "Operator"
+msgid "Open Workspace Lister"
+msgstr "打开工作区列表"
+
+#: Scene_View_Workspace_Switcher/operators.py:197
+msgctxt "Operator"
+msgid "Previous Scene"
+msgstr "上一个场景"
+
+#: Scene_View_Workspace_Switcher/operators.py:217
+msgctxt "Operator"
+msgid "Previous View Layer"
+msgstr "上一个视图层"
+
+#: Scene_View_Workspace_Switcher/operators.py:247
+msgctxt "Operator"
+msgid "Switch to Scene"
+msgstr "切换到场景"
+
+#: Scene_View_Workspace_Switcher/operators.py:307
+msgctxt "Operator"
+msgid "Switch to View Layer"
+msgstr "切换到视图层"
+
+#: Scene_View_Workspace_Switcher/operators.py:332
+msgctxt "Operator"
+msgid "Switch to Workspace"
+msgstr "切换到工作区"

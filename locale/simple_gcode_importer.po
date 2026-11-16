@@ -1,0 +1,132 @@
+# perfect-chinese: 1
+# id: simple_gcode_importer
+# kind: addon
+# module: bl_ext.blender_org.simple_gcode_importer
+# name: Simple Gcode Importer
+# name_zh: 简易G代码导入器
+# translator: KeshiMiao
+# category: Import-Export
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:693
+msgid "A G-code import is already running"
+msgstr "G-code 导入已在进行中"
+
+#: __init__.py:593
+msgid "Circular bevel with flat caps"
+msgstr "带平端面的圆形倒角"
+
+#: __init__.py:594
+msgid "Editable extrusion paths without thickness"
+msgstr "无厚度的可编辑挤出路径"
+
+#: __init__.py:541
+msgid "Esc to cancel G-code import"
+msgstr "按 Esc 取消 G-code 导入"
+
+#: __init__.py:636
+msgid "Estimate unavailable"
+msgstr "无法估算"
+
+#: __init__.py:632
+msgid "Estimated RAM required"
+msgstr "预计所需内存"
+
+#: __init__.py:605
+msgid "Exclude infill"
+msgstr "排除填充"
+
+#: __init__.py:611
+msgid "Exclude supports"
+msgstr "排除支撑"
+
+#: __init__.py:624
+msgid "Exclude wipe/prime tower"
+msgstr "排除擦拭塔/预挤出塔"
+
+#: __init__.py:598
+msgid "Exclude wipe/prime tower (PrusaSlicer and OrcaSlicer only)"
+msgstr "排除擦拭塔/预挤出塔（仅 PrusaSlicer 和 OrcaSlicer）"
+
+#: __init__.py:591
+msgid "Extrusion profile"
+msgstr "挤出截面"
+
+#: __init__.py:597
+msgid "Fallback bead width (mm)"
+msgstr "备用料条宽度 (mm)"
+
+#: __init__.py:595
+msgid "Fallback filament diameter (mm)"
+msgstr "备用耗材直径 (mm)"
+
+#: __init__.py:596
+msgid "Fallback layer height (mm)"
+msgstr "备用层高 (mm)"
+
+#: __init__.py:18
+msgid "GCode Importer"
+msgstr "GCode 导入器"
+
+#: __init__.py:753
+msgid "GCode/BGCode File Handler"
+msgstr "GCode/BGCode 文件处理器"
+
+#: __init__.py:18
+msgid "Import text or binary GCode as 3D paths"
+msgstr "将文本或二进制 GCode 导入为 3D 路径"
+
+#: __init__.py:18
+msgid "Import-Export"
+msgstr "导入-导出"
+
+#: __init__.py:594
+msgid "None"
+msgstr "无"
+
+#: __init__.py:592
+msgid "One flattened profile for the entire print, with rounded ends"
+msgstr "整个打印使用一个扁平截面，两端为圆头"
+
+#: __init__.py:625
+msgid "PrusaSlicer and OrcaSlicer only"
+msgstr "仅限 PrusaSlicer 和 OrcaSlicer"
+
+#: __init__.py:634
+msgid "Reading G-code…"
+msgstr "正在读取 G-code…"
+
+#: __init__.py:593
+msgid "Round"
+msgstr "圆形"
+
+#: __init__.py:592
+msgid "Simulated Bead"
+msgstr "模拟料条"
+
+#: __init__.py:605
+msgid "Skip marked sparse, internal solid and gap infill; keep top/bottom surfaces. Requires slicer TYPE or FEATURE comments"
+msgstr "跳过标记的稀疏、内部实心和间隙填充；保留顶面/底面。需要切片软件的 TYPE 或 FEATURE 注释"
+
+#: __init__.py:611
+msgid "Skip marked supports and support interfaces. Requires slicer TYPE or FEATURE comments"
+msgstr "跳过标记的支撑和支撑接触面。需要切片软件的 TYPE 或 FEATURE 注释"
+
+#: __init__.py:598
+msgid "Skip paths marked as wipe/prime tower by PrusaSlicer or OrcaSlicer; files without recognized markers are unchanged"
+msgstr "跳过 PrusaSlicer 或 OrcaSlicer 标记为擦拭塔/预挤出塔的路径；没有识别标记的文件保持不变"
+
+#: __init__.py:787
+msgctxt "Operator"
+msgid "GCode (.gcode, .bgcode)"
+msgstr "GCode（.gcode、.bgcode）"
+
+#: __init__.py:581
+msgctxt "Operator"
+msgid "Import GCode/BGCode"
+msgstr "导入 GCode/BGCode"

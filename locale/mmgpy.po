@@ -1,0 +1,574 @@
+# perfect-chinese: 1
+# id: mmgpy
+# kind: addon
+# module: bl_ext.blender_org.mmgpy
+# name: MMGpy - Mesh Remeshing
+# name_zh: MMG网格重划
+# translator: KeshiMiao
+# category: Mesh
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: panels.py:238
+msgid "(MMG in-radius ratio)"
+msgstr "（MMG 内切圆半径比）"
+
+#: panels.py:301
+msgid "(toggle off/on to compute)"
+msgstr "（关闭/开启以计算）"
+
+#: properties.py:331
+msgid "Absolute [0, 1]"
+msgstr "绝对 [0, 1]"
+
+#: properties.py:288
+msgid "Active Constraint"
+msgstr "活动约束"
+
+#: panels.py:388
+msgid "Add a sphere or box."
+msgstr "添加球体或立方体。"
+
+#: panels.py:163
+msgid "Advanced Options"
+msgstr "高级选项"
+
+#: properties.py:214
+msgid "Angle"
+msgstr "角度"
+
+#: panels.py:159
+msgid "Angle Detection"
+msgstr "角度检测"
+
+#: properties.py:214
+msgid "Angle threshold for ridge detection (degrees)"
+msgstr "脊线检测的角度阈值（度）"
+
+#: properties.py:340
+msgid "Auto [min, max]"
+msgstr "自动 [最小值, 最大值]"
+
+#: properties.py:131
+msgid "Balanced quality and performance"
+msgstr "质量与性能均衡"
+
+#: properties.py:94
+msgid "Box"
+msgstr "盒体"
+
+#: properties.py:94
+msgid "Box-shaped refinement zone"
+msgstr "盒体形状的细化区域"
+
+#: properties.py:132
+msgid "Coarse"
+msgstr "粗糙"
+
+#: properties.py:314
+msgid "Color by Quality"
+msgstr "按质量着色"
+
+#: properties.py:314
+msgid "Compute MMG's in-radius-ratio quality per triangle and apply a red->yellow->green material (red = poor, green = excellent). Requires an all-triangle mesh"
+msgstr "计算每个三角形的 MMG 内切圆半径比质量，并应用红->黄->绿材质（红 = 差，绿 = 优）。需要网格全部由三角形组成"
+
+#: properties.py:178
+msgid "Constant edge size (hsiz)"
+msgstr "固定边长（hsiz）"
+
+#: properties.py:129
+msgid "Custom"
+msgstr "自定义"
+
+#: properties.py:374
+msgid "Custom Max"
+msgstr "自定义最大值"
+
+#: properties.py:363
+msgid "Custom Min"
+msgstr "自定义最小值"
+
+#: properties.py:349
+msgid "Custom [min, max]"
+msgstr "自定义 [最小值, 最大值]"
+
+#: preferences.py:32
+msgid "Debug Mode"
+msgstr "调试模式"
+
+#: preferences.py:98
+msgid "Debug:"
+msgstr "调试："
+
+#: preferences.py:48
+msgid "Delete Original"
+msgstr "删除原始网格"
+
+#: preferences.py:48
+msgid "Delete the original mesh after remeshing (cannot undo)"
+msgstr "重网格化后删除原始网格（无法撤销）"
+
+#: properties.py:267
+msgid "Disable edge/face swapping"
+msgstr "禁用边/面交换"
+
+#: properties.py:260
+msgid "Disable point insertion"
+msgstr "禁用点插入"
+
+#: properties.py:274
+msgid "Disable point relocation"
+msgstr "禁用点重定位"
+
+#: properties.py:100
+msgid "Empty"
+msgstr "空物体"
+
+#: properties.py:100
+msgid "Empty object defining the constraint location and size"
+msgstr "用于定义约束位置和尺寸的空物体"
+
+#: properties.py:190
+msgid "Enable Hausdorff distance constraint for geometry approximation"
+msgstr "启用用于几何近似的 Hausdorff 距离约束"
+
+#: properties.py:208
+msgid "Enable angle-based ridge detection"
+msgstr "启用基于角度的脊线检测"
+
+#: preferences.py:32
+msgid "Enable debug output in console"
+msgstr "在控制台启用调试输出"
+
+#: properties.py:226
+msgid "Enable gradation control"
+msgstr "启用渐变控制"
+
+#: properties.py:155
+msgid "Enable maximum edge size constraint"
+msgstr "启用最大边长约束"
+
+#: properties.py:138
+msgid "Enable minimum edge size constraint"
+msgstr "启用最小边长约束"
+
+#: panels.py:62
+msgid "Faces: {count:,}"
+msgstr "面数：{count:,}"
+
+#: properties.py:132
+msgid "Fast remeshing, larger elements"
+msgstr "快速重网格化，单元更大"
+
+#: properties.py:130
+msgid "Fine"
+msgstr "精细"
+
+#: preferences.py:90
+msgid "General:"
+msgstr "常规："
+
+#: panels.py:131
+msgid "Geometry"
+msgstr "几何"
+
+#: panels.py:125
+#: properties.py:232
+msgid "Gradation"
+msgstr "渐变"
+
+#: properties.py:232
+msgid "Gradation parameter (controls size transition between elements)"
+msgstr "渐变参数（控制单元之间的尺寸过渡）"
+
+#: panels.py:151
+msgid "Hausdorff"
+msgstr "Hausdorff"
+
+#: properties.py:196
+msgid "Hausdorff Distance"
+msgstr "Hausdorff 距离"
+
+#: preferences.py:40
+msgid "Hide Original"
+msgstr "隐藏原始网格"
+
+#: preferences.py:40
+msgid "Hide the original mesh after remeshing"
+msgstr "重网格化后隐藏原始网格"
+
+#: properties.py:130
+msgid "High quality, smaller elements"
+msgstr "高质量，单元更小"
+
+#: properties.py:326
+msgid "How to map quality values onto the red->yellow->green ramp"
+msgstr "如何将质量值映射到红->黄->绿色带"
+
+#: operators.py:552
+msgid "Index"
+msgstr "索引"
+
+#: operators.py:552
+msgid "Index of constraint to remove"
+msgstr "要移除的约束索引"
+
+#: panels.py:389
+msgid "It defines a local refinement zone."
+msgstr "它定义局部细化区域。"
+
+#: panels.py:330
+msgid "Local Refinement"
+msgstr "局部细化"
+
+#: properties.py:363
+msgid "Lower bound for the Custom colormap range (red end)"
+msgstr "自定义颜色映射范围的下限（红色端）"
+
+#: preferences.py:69
+msgid "MMG version: {version}"
+msgstr "MMG 版本：{version}"
+
+#: panels.py:29
+#: panels.py:76
+msgid "MMGpy"
+msgstr "MMGpy"
+
+#: panels.py:24
+msgid "MMGpy Remesh"
+msgstr "MMGpy 重网格化"
+
+#: properties.py:129
+msgid "Manual settings"
+msgstr "手动设置"
+
+#: properties.py:331
+msgid "Map 0 -> red and 1 -> green. Absolute reading: a perfect equilateral triangle is solid green; anything below 0.5 is warning territory regardless of the rest of the mesh."
+msgstr "将 0 映射为红色、1 映射为绿色。绝对读数：完美等边三角形为纯绿色；无论网格其余部分如何，低于 0.5 即属于警告范围。"
+
+#: panels.py:245
+msgid "Max"
+msgstr "最大值"
+
+#: panels.py:117
+#: properties.py:161
+msgid "Max Size"
+msgstr "最大尺寸"
+
+#: properties.py:196
+msgid "Maximum distance between original and remeshed surface"
+msgstr "原始表面与重网格化表面之间的最大距离"
+
+#: properties.py:161
+msgid "Maximum edge size (hmax)"
+msgstr "最大边长（hmax）"
+
+#: properties.py:131
+msgid "Medium"
+msgstr "中等"
+
+#: panels.py:237
+msgid "Mesh quality"
+msgstr "网格质量"
+
+#: panels.py:244
+msgid "Min"
+msgstr "最小值"
+
+#: panels.py:111
+#: properties.py:144
+msgid "Min Size"
+msgstr "最小尺寸"
+
+#: properties.py:144
+msgid "Minimum edge size (hmin)"
+msgstr "最小边长（hmin）"
+
+#: panels.py:175
+#: properties.py:260
+msgid "No Insert"
+msgstr "禁止插入"
+
+#: panels.py:177
+#: properties.py:274
+msgid "No Move"
+msgstr "禁止移动"
+
+#: panels.py:176
+#: properties.py:267
+msgid "No Swap"
+msgstr "禁止交换"
+
+#: panels.py:387
+msgid "No constraints defined"
+msgstr "未定义约束"
+
+#: preferences.py:75
+msgid "Not installed or import error: {error}"
+msgstr "未安装或导入错误：{error}"
+
+#: panels.py:53
+msgid "Object: {name}"
+msgstr "物体：{name}"
+
+#: properties.py:253
+msgid "Only optimize mesh quality without changing topology"
+msgstr "仅优化网格质量而不改变拓扑"
+
+#: panels.py:174
+#: properties.py:253
+msgid "Optimize Only"
+msgstr "仅优化"
+
+#: properties.py:303
+msgid "Overlay the mesh wireframe on top of the shaded surface for the active object (toggles obj.show_wire / show_all_edges)"
+msgstr "在活动物体的着色表面上叠加网格线框（切换 obj.show_wire / show_all_edges）"
+
+#: preferences.py:82
+msgid "Please reinstall the extension with wheels included."
+msgstr "请重新安装包含 wheels 的扩展。"
+
+#: panels.py:38
+#: properties.py:124
+msgid "Preset"
+msgstr "预设"
+
+#: properties.py:124
+msgid "Quick preset for remeshing settings"
+msgstr "重网格化设置的快速预设"
+
+#: operators.py:416
+msgid "Radius"
+msgstr "半径"
+
+#: operators.py:416
+msgid "Radius of the refinement sphere"
+msgstr "细化球的半径"
+
+#: panels.py:241
+#: properties.py:326
+msgid "Range"
+msgstr "范围"
+
+#: properties.py:295
+msgid "Show Advanced"
+msgstr "显示高级选项"
+
+#: properties.py:295
+msgid "Show advanced options"
+msgstr "显示高级选项"
+
+#: operators.py:484
+#: panels.py:372
+msgid "Size"
+msgstr "尺寸"
+
+#: panels.py:71
+msgid "Size Control"
+msgstr "尺寸控制"
+
+#: operators.py:484
+msgid "Size of the refinement box"
+msgstr "细化盒体的尺寸"
+
+#: properties.py:282
+msgid "Sizing Constraints"
+msgstr "尺寸约束"
+
+#: properties.py:93
+msgid "Sphere"
+msgstr "球体"
+
+#: properties.py:93
+msgid "Spherical refinement zone"
+msgstr "球形细化区域"
+
+#: properties.py:340
+msgid "Stretch the ramp across the current mesh's min..max so the variation within this specific mesh is visible even when all triangles cluster near the same quality value."
+msgstr "将色带拉伸至当前网格的最小..最大值，以便即使所有三角形都聚集在相近的质量值附近，也能看出该网格内部的差异。"
+
+#: operators.py:424
+#: operators.py:492
+msgid "Target Size"
+msgstr "目标尺寸"
+
+#: operators.py:492
+msgid "Target edge size within the box"
+msgstr "盒体内的目标边长"
+
+#: operators.py:424
+msgid "Target edge size within the sphere"
+msgstr "球体内的目标边长"
+
+#: properties.py:108
+msgid "Target edge size within this region"
+msgstr "该区域内的目标边长"
+
+#: panels.py:307
+msgid "Triangles: {count:,}"
+msgstr "三角形：{count:,}"
+
+#: properties.py:89
+msgid "Type"
+msgstr "类型"
+
+#: panels.py:100
+#: properties.py:178
+msgid "Uniform Size"
+msgstr "统一尺寸"
+
+#: properties.py:374
+msgid "Upper bound for the Custom colormap range (green end)"
+msgstr "自定义色图范围的上限（绿色端）"
+
+#: properties.py:208
+msgid "Use Angle Detection"
+msgstr "使用角度检测"
+
+#: properties.py:226
+msgid "Use Gradation"
+msgstr "使用渐变"
+
+#: properties.py:190
+msgid "Use Hausdorff"
+msgstr "使用豪斯多夫距离"
+
+#: properties.py:155
+msgid "Use Max Size"
+msgstr "使用最大尺寸"
+
+#: properties.py:138
+msgid "Use Min Size"
+msgstr "使用最小尺寸"
+
+#: properties.py:172
+msgid "Use Uniform Size"
+msgstr "使用统一尺寸"
+
+#: properties.py:172
+msgid "Use constant edge size (overrides hmin/hmax)"
+msgstr "使用恒定边长（覆盖 hmin/hmax）"
+
+#: properties.py:349
+msgid "Use the Custom Min / Custom Max sliders below as the ramp endpoints. Useful for comparing several meshes on the same fixed scale."
+msgstr "将下方的自定义最小值/最大值滑块用作色带端点。便于在相同固定尺度下比较多个网格。"
+
+#: panels.py:179
+#: properties.py:243
+msgid "Verbosity"
+msgstr "详细程度"
+
+#: properties.py:243
+msgid "Verbosity level (-1=silent, 0=errors, 1=info)"
+msgstr "详细程度级别（-1=静默，0=错误，1=信息）"
+
+#: panels.py:58
+msgid "Vertices: {count:,}"
+msgstr "顶点：{count:,}"
+
+#: panels.py:261
+msgid "Visualization"
+msgstr "可视化"
+
+#: properties.py:303
+msgid "Wireframe on Surface"
+msgstr "表面线框"
+
+#: panels.py:321
+msgid "max:  {value:.3f}"
+msgstr "最大：{value:.3f}"
+
+#: panels.py:317
+msgid "mean: {value:.3f}"
+msgstr "平均：{value:.3f}"
+
+#: panels.py:313
+msgid "min:  {value:.3f}"
+msgstr "最小：{value:.3f}"
+
+#: preferences.py:62
+#: preferences.py:74
+msgid "mmgpy Status:"
+msgstr "mmgpy 状态："
+
+#: preferences.py:63
+msgid "mmgpy version: {version}"
+msgstr "mmgpy 版本：{version}"
+
+#: operators.py:479
+#: panels.py:352
+msgctxt "Operator"
+msgid "Add Box"
+msgstr "添加盒体"
+
+#: operators.py:411
+#: panels.py:346
+msgctxt "Operator"
+msgid "Add Sphere"
+msgstr "添加球体"
+
+#: operators.py:481
+msgctxt "Operator"
+msgid "Add a box-shaped local refinement zone"
+msgstr "添加盒状局部细化区域"
+
+#: operators.py:413
+msgctxt "Operator"
+msgid "Add a spherical local refinement zone"
+msgstr "添加球形局部细化区域"
+
+#: operators.py:337
+#: panels.py:86
+msgctxt "Operator"
+msgid "Auto-fit to Mesh"
+msgstr "自动适配网格"
+
+#: panels.py:380
+msgctxt "Operator"
+msgid "Clear All"
+msgstr "清除全部"
+
+#: operators.py:608
+msgctxt "Operator"
+msgid "Clear All Constraints"
+msgstr "清除全部约束"
+
+#: operators.py:55
+msgctxt "Operator"
+msgid "MMGpy Remesh"
+msgstr "MMGpy 重网格化"
+
+#: panels.py:44
+msgctxt "Operator"
+msgid "Remesh"
+msgstr "重网格化"
+
+#: operators.py:57
+msgctxt "Operator"
+msgid "Remesh the selected mesh using MMGpy"
+msgstr "使用 MMGpy 对选中网格进行重网格化"
+
+#: operators.py:547
+msgctxt "Operator"
+msgid "Remove Constraint"
+msgstr "移除约束"
+
+#: operators.py:610
+msgctxt "Operator"
+msgid "Remove all sizing constraints"
+msgstr "移除所有尺寸约束"
+
+#: operators.py:549
+msgctxt "Operator"
+msgid "Remove the selected sizing constraint"
+msgstr "移除选中的尺寸约束"
+
+#: operators.py:339
+msgctxt "Operator"
+msgid "Set sizing parameters based on the active mesh dimensions"
+msgstr "根据活动网格的尺寸设置尺寸参数"

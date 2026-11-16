@@ -1,0 +1,123 @@
+# perfect-chinese: 1
+# id: new_object_from_selected_geometry
+# kind: addon
+# module: bl_ext.blender_org.new_object_from_selected_geometry
+# name: New Object From Selected Geometry
+# name_zh: 选中几何新建对象
+# translator: KeshiMiao
+# category: Mesh
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: NewObjectFromSelectedGeometry.py:28
+msgid "Create object from edges"
+msgstr "从边创建物体"
+
+#: NewObjectFromSelectedGeometry.py:27
+msgid "Create object from faces"
+msgstr "从面创建物体"
+
+#: NewObjectFromSelectedGeometry.py:29
+msgid "Create object from vertices"
+msgstr "从顶点创建物体"
+
+#: __init__.py:11
+msgid "Creates a new object from the selected geometry in Edit mode"
+msgstr "在编辑模式下从选中的几何体创建新物体"
+
+#: NewObjectFromSelectedGeometry.py:35
+msgid "Draw edges"
+msgstr "绘制边"
+
+#: NewObjectFromSelectedGeometry.py:36
+msgid "Even-Odd"
+msgstr "奇偶"
+
+#: NewObjectFromSelectedGeometry.py:37
+msgid "If checked, an edge is added between the first and last selected vertices"
+msgstr "若勾选，则在第一个和最后一个选中的顶点之间添加一条边"
+
+#: NewObjectFromSelectedGeometry.py:35
+msgid "If checked, edges are drawn between the vertices"
+msgstr "若勾选，则在顶点之间绘制边"
+
+#: NewObjectFromSelectedGeometry.py:39
+msgid "If checked, it flips the face normals"
+msgstr "若勾选，则翻转面法向"
+
+#: NewObjectFromSelectedGeometry.py:41
+msgid "If checked, it tries to add edges between vertices connected to less than 3 edges"
+msgstr "若勾选，则尝试在连接边数少于 3 的顶点之间添加边"
+
+#: NewObjectFromSelectedGeometry.py:43
+msgid "If checked, it tries to fill holes in the mesh"
+msgstr "若勾选，则尝试填充网格中的孔洞"
+
+#: NewObjectFromSelectedGeometry.py:36
+msgid "If checked, the edges are created between even vertices and between odd vertices (the first is connected to the third, the second is connected to the fourth, etc.). Need to select at least 4 vertices"
+msgstr "若勾选，则在偶数顶点之间和奇数顶点之间创建边（第一个与第三个相连，第二个与第四个相连，依此类推）。需要至少选中 4 个顶点"
+
+#: NewObjectFromSelectedGeometry.py:37
+msgid "Join ends"
+msgstr "连接端点"
+
+#: __init__.py:11
+msgid "Mesh"
+msgstr "网格"
+
+#: NewObjectFromSelectedGeometry.py:25
+msgid "Mode"
+msgstr "模式"
+
+#: __init__.py:11
+msgid "New Object From Selected Geometry"
+msgstr "从选中几何体创建新物体"
+
+#: NewObjectFromSelectedGeometry.py:126
+msgid "No face selected for the Object from Faces mode, switching to the Object from Vertices mode"
+msgstr "「从面创建物体」模式未选中面，切换到「从顶点创建物体」模式"
+
+#: NewObjectFromSelectedGeometry.py:39
+msgid "Normals inside"
+msgstr "法向朝内"
+
+#: NewObjectFromSelectedGeometry.py:28
+msgid "Object from Edges"
+msgstr "从边创建物体"
+
+#: NewObjectFromSelectedGeometry.py:27
+msgid "Object from Faces"
+msgstr "从面创建物体"
+
+#: NewObjectFromSelectedGeometry.py:29
+msgid "Object from Vertices"
+msgstr "从顶点创建物体"
+
+#: NewObjectFromSelectedGeometry.py:41
+msgid "Try adding edges"
+msgstr "尝试添加边"
+
+#: NewObjectFromSelectedGeometry.py:43
+msgid "Try filling holes"
+msgstr "尝试填充孔洞"
+
+#: NewObjectFromSelectedGeometry.py:151
+msgid "You need to select at least 2 edges for the Object from Edges mode, switching to the Object from Vertices mode"
+msgstr "「从边创建物体」模式需要至少选中 2 条边，切换到「从顶点创建物体」模式"
+
+#: NewObjectFromSelectedGeometry.py:88
+msgid "You need to select at least 3 vertices, or 2 edges, or 1 face"
+msgstr "需要至少选中 3 个顶点、2 条边或 1 个面"
+
+#: NewObjectFromSelectedGeometry.py:171
+msgid "You need to select at least 4 vertices if the Even-Odd option is enabled"
+msgstr "启用「奇偶」选项时需要至少选中 4 个顶点"
+
+#: NewObjectFromSelectedGeometry.py:22
+msgctxt "Operator"
+msgid "New object from selected geometry"
+msgstr "从选中几何体创建新物体"

@@ -1,0 +1,393 @@
+# perfect-chinese: 1
+# id: typst_importer
+# kind: addon
+# module: bl_ext.blender_org.typst_importer
+# name: Typst Importer
+# name_zh: Typst导入器
+# translator: KeshiMiao
+# category: Geometry Nodes
+# supported_versions: >=5.3.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: operators/path.py:196
+msgid "Active object must be a curve"
+msgstr "活动物体必须是曲线"
+
+#: __init__.py:92
+#: operators/imports.py:48
+msgid "Add a Smooth by Angle modifier to every imported element"
+msgstr "为每个导入的元素添加「按角度平滑」修改器"
+
+#: operators/path.py:132
+#: operators/path.py:266
+msgid "Adjustable Y parameter that controls the arc's curvature"
+msgstr "可调节的 Y 参数，用于控制弧线的曲率"
+
+#: __init__.py:223
+msgid "Alignment (XY)"
+msgstr "对齐 (XY)"
+
+#: operators/imports.py:25
+msgid "Allow Images Outside Typst Folder"
+msgstr "允许使用 Typst 文件夹外的图像"
+
+#: operators/imports.py:25
+msgid "Allow absolute paths and parent-directory image references; leave disabled for untrusted Typst files"
+msgstr "允许绝对路径和上级目录图像引用；处理不受信任的 Typst 文件时请保持禁用"
+
+#: operators/path.py:406
+msgid "Collection 'beziers' not found"
+msgstr "未找到集合 'beziers'"
+
+#: operators/path.py:132
+#: operators/path.py:266
+msgid "Curve Height"
+msgstr "曲线高度"
+
+#: __init__.py:113
+#: __init__.py:170
+msgid "Custom Header"
+msgstr "自定义头部"
+
+#: __init__.py:99
+msgid "Custom Material"
+msgstr "自定义材质"
+
+#: __init__.py:158
+msgid "Depth"
+msgstr "深度"
+
+#: __init__.py:300
+msgid "Export"
+msgstr "导出"
+
+#: __init__.py:120
+msgid "Export Path"
+msgstr "导出路径"
+
+#: __init__.py:310
+msgid "Export SVG"
+msgstr "导出 SVG"
+
+#: __init__.py:80
+#: operators/imports.py:38
+msgid "Extrude Depth"
+msgstr "挤出深度"
+
+#: __init__.py:74
+#: operators/imports.py:33
+msgid "Extrude every imported element along the Z axis"
+msgstr "沿 Z 轴挤出每个导入的元素"
+
+#: operators/export_svg.py:18
+msgid "File Path"
+msgstr "文件路径"
+
+#: operators/imports.py:113
+msgid "File handler for TXT/TYP import (Typst)"
+msgstr "用于 TXT/TYP 导入的文件处理器 (Typst)"
+
+#: __init__.py:74
+#: __init__.py:155
+msgid "Import Extruded"
+msgstr "导入时挤出"
+
+#: __init__.py:148
+msgid "Import Options"
+msgstr "导入选项"
+
+#: __init__.py:322
+msgid "Import Typst content first"
+msgstr "请先导入 Typst 内容"
+
+#: operators/textbox_import.py:90
+msgid "Import from Textbox as Curve"
+msgstr "从文本框导入为曲线"
+
+#: operators/textbox_import.py:136
+msgid "Import from Textbox as Grease Pencil"
+msgstr "从文本框导入为蜡笔"
+
+#: operators/textbox_import.py:113
+msgid "Import from Textbox as Mesh"
+msgstr "从文本框导入为网格"
+
+#: operators/textbox_import.py:157
+msgid "Import from Textbox as Unfilled Curve"
+msgstr "从文本框导入为未填充曲线"
+
+#: typst_to_svg.py:32
+msgid "Last Processed SVG"
+msgstr "上次处理的 SVG"
+
+#: __init__.py:160
+#: operators/imports.py:54
+msgid "Material"
+msgstr "材质"
+
+#: typst_to_svg.py:32
+msgid "Most recently generated processed SVG from Typst"
+msgstr "最近由 Typst 生成的已处理 SVG"
+
+#: operators/export_svg.py:30
+msgid "No Typst SVG found. Import Typst content first."
+msgstr "未找到 Typst SVG。请先导入 Typst 内容。"
+
+#: __init__.py:67
+#: __init__.py:151
+msgid "Origin to Character"
+msgstr "原点设为字符"
+
+#: __init__.py:238
+msgid "Path Animation (XY)"
+msgstr "路径动画 (XY)"
+
+#: __init__.py:120
+#: operators/export_svg.py:18
+msgid "Path to save the exported SVG"
+msgstr "保存导出 SVG 的路径"
+
+#: __init__.py:106
+msgid "Prepend the custom Typst header below. If unchecked, use the content as-is."
+msgstr "在下方前置自定义 Typst 头部。若未勾选，则按原样使用内容。"
+
+#: typst_to_svg.py:26
+msgid "Processed SVG"
+msgstr "已处理 SVG"
+
+#: typst_to_svg.py:26
+msgid "Processed SVG content from Typst"
+msgstr "来自 Typst 的已处理 SVG 内容"
+
+#: __init__.py:320
+msgid "Ready: last imported SVG available"
+msgstr "就绪：上次导入的 SVG 可用"
+
+#: operators/alignment.py:65
+msgid "Select at least 2 objects: source objects and destination object"
+msgstr "请至少选择 2 个物体：源物体和目标物体"
+
+#: operators/imports.py:63
+msgid "Selected file is not a TXT or TYP file"
+msgstr "所选文件不是 TXT 或 TYP 文件"
+
+#: __init__.py:67
+msgid "Set the origin of each object to its geometry"
+msgstr "将每个物体的原点设为其几何体"
+
+#: __init__.py:92
+#: __init__.py:159
+msgid "Shade Auto Smooth"
+msgstr "自动平滑着色"
+
+#: operators/textbox_import.py:22
+msgid "Textbox is empty"
+msgstr "文本框为空"
+
+#: __init__.py:80
+#: operators/imports.py:38
+msgid "Thickness toward the front (+Z); the back face stays at the origin"
+msgstr "厚度朝前 (+Z)；背面保持在原点"
+
+#: __init__.py:215
+msgid "Tools"
+msgstr "工具"
+
+#: __init__.py:143
+msgid "Typst Content"
+msgstr "Typst 内容"
+
+#: __init__.py:133
+msgid "Typst Input"
+msgstr "Typst 输入"
+
+#: __init__.py:60
+msgid "Typst Text"
+msgstr "Typst 文本"
+
+#: __init__.py:132
+#: __init__.py:214
+msgid "Typst Tools"
+msgstr "Typst 工具"
+
+#: __init__.py:113
+msgid "Typst code prepended to the textbox content before importing"
+msgstr "导入前前置到文本框内容的 Typst 代码"
+
+#: __init__.py:60
+msgid "Typst content to import"
+msgstr "要导入的 Typst 内容"
+
+#: __init__.py:106
+#: __init__.py:163
+msgid "Use Custom Header"
+msgstr "使用自定义头部"
+
+#: __init__.py:99
+#: operators/imports.py:54
+msgid "Use this material for every imported element instead of the Typst colors"
+msgstr "为每个导入的元素使用此材质，而不使用 Typst 颜色"
+
+#: __init__.py:285
+msgid "Utils"
+msgstr "实用工具"
+
+#: __init__.py:253
+msgid "Visibility"
+msgstr "可见性"
+
+#: __init__.py:230
+msgctxt "Operator"
+msgid "Align Collection"
+msgstr "对齐集合"
+
+#: operators/alignment.py:50
+msgctxt "Operator"
+msgid "Align Collection (XY)"
+msgstr "对齐集合 (XY)"
+
+#: __init__.py:225
+msgctxt "Operator"
+msgid "Align Object"
+msgstr "对齐物体"
+
+#: operators/alignment.py:15
+msgctxt "Operator"
+msgid "Align Object (XY)"
+msgstr "对齐物体 (XY)"
+
+#: __init__.py:245
+#: operators/path.py:263
+msgctxt "Operator"
+msgid "Arc and Follow"
+msgstr "弧线与跟随"
+
+#: __init__.py:288
+msgctxt "Operator"
+msgid "Copy (no keyframes)"
+msgstr "复制（无关键帧）"
+
+#: operators/utility.py:16
+msgctxt "Operator"
+msgid "Copy Without Keyframes"
+msgstr "复制（不含关键帧）"
+
+#: operators/visibility.py:252
+msgctxt "Operator"
+msgid "Copy to Animation Plane"
+msgstr "复制到动画平面"
+
+#: operators/path.py:129
+msgctxt "Operator"
+msgid "Create Arc (XY)"
+msgstr "创建弧线 (XY)"
+
+#: __init__.py:312
+#: operators/export_svg.py:15
+msgctxt "Operator"
+msgid "Export SVG"
+msgstr "导出 SVG"
+
+#: operators/fade.py:54
+msgctxt "Operator"
+msgid "Fade In (Move to Animation Plane)"
+msgstr "淡入（移到动画平面）"
+
+#: operators/fade.py:10
+msgctxt "Operator"
+msgid "Fade In Objects"
+msgstr "淡入物体"
+
+#: operators/fade.py:131
+msgctxt "Operator"
+msgid "Fade Out Objects"
+msgstr "淡出物体"
+
+#: __init__.py:276
+msgctxt "Operator"
+msgid "FadeIn to 🌀"
+msgstr "淡入到 🌀"
+
+#: __init__.py:281
+msgctxt "Operator"
+msgid "FadeOut"
+msgstr "淡出"
+
+#: operators/path.py:176
+msgctxt "Operator"
+msgid "Follow Path"
+msgstr "跟随路径"
+
+#: operators/path.py:383
+msgctxt "Operator"
+msgid "Hide Bezier Collection"
+msgstr "隐藏贝塞尔集合"
+
+#: operators/imports.py:15
+msgctxt "Operator"
+msgid "Import Typst File (.txt/.typ)"
+msgstr "导入 Typst 文件 (.txt/.typ)"
+
+#: __init__.py:186
+msgctxt "Operator"
+msgid "Import as Curve"
+msgstr "导入为曲线"
+
+#: __init__.py:202
+msgctxt "Operator"
+msgid "Import as Grease Pencil"
+msgstr "导入为蜡笔"
+
+#: __init__.py:194
+msgctxt "Operator"
+msgid "Import as Mesh"
+msgstr "导入为网格"
+
+#: __init__.py:178
+msgctxt "Operator"
+msgid "Import as Unfilled Curve"
+msgstr "导入为未填充曲线"
+
+#: operators/visibility.py:188
+msgctxt "Operator"
+msgid "Join to Animation Plane"
+msgstr "合并到动画平面"
+
+#: operators/visibility.py:333
+msgctxt "Operator"
+msgid "Join: Joined -> Objects"
+msgstr "合并：已合并 -> 物体"
+
+#: operators/visibility.py:118
+msgctxt "Operator"
+msgid "Join: Objects -> Joined"
+msgstr "合并：物体 -> 已合并"
+
+#: __init__.py:258
+msgctxt "Operator"
+msgid "Off"
+msgstr "关闭"
+
+#: operators/visibility.py:88
+msgctxt "Operator"
+msgid "Off (Visibility)"
+msgstr "关闭（可见性）"
+
+#: operators/visibility.py:60
+msgctxt "Operator"
+msgid "On (Visibility)"
+msgstr "开启（可见性）"
+
+#: __init__.py:255
+msgctxt "Operator"
+msgid "On to 🌀"
+msgstr "开启至 🌀"
+
+#: __init__.py:327
+msgctxt "Operator"
+msgid "Typst 🦢 via (.txt/.typ)"
+msgstr "Typst 🦢 经由 (.txt/.typ)"
