@@ -1,0 +1,269 @@
+# perfect-chinese: 1
+# id: control_render_regions
+# kind: addon
+# module: bl_ext.blender_org.Control_Render_Regions
+# name: Control Render Regions
+# name_zh: 控制渲染区域
+# translator: KeshiMiao
+# category: Render
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:285
+msgid "Add margins to regions"
+msgstr "为区域添加边距"
+
+#: __init__.py:285
+msgid "Add margins to regions, only within the image"
+msgstr "为区域添加边距，仅在图像内"
+
+#: __init__.py:154
+msgid "CM -> Pixel"
+msgstr "厘米 -> 像素"
+
+#: __init__.py:412
+msgid "Calculate margins"
+msgstr "计算边距"
+
+#: __init__.py:154
+msgid "Centimeters to Pixels"
+msgstr "厘米转像素"
+
+#: __init__.py:187
+msgid "Columns"
+msgstr "列"
+
+#: __init__.py:430
+msgid "Create reference image"
+msgstr "创建参考图像"
+
+#: __init__.py:278
+msgid "Create script for render from command line and python script for join regions rendered"
+msgstr "创建用于命令行渲染的脚本和合并已渲染区域的 Python 脚本"
+
+#: __init__.py:278
+msgid "Create scripts for render, save and join images"
+msgstr "创建用于渲染、保存和合并图像的脚本"
+
+#: __init__.py:215
+msgid "Crop to Render Regions (override)"
+msgstr "裁剪到渲染区域（覆盖）"
+
+#: __init__.py:215
+msgid "Crops the rendered image to the size of the render region (normally ok for render region), instead of rendering a full resolution image with a transparent background around it, if unchecked (useful for rendering just one region and placing it already in place in Compositor or VSE)."
+msgstr "将渲染图像裁剪为渲染区域大小（通常适合渲染区域），而不是渲染周围带透明背景的完整分辨率图像；未勾选时（适合仅渲染一个区域并将其直接放到合成器或 VSE 中）。"
+
+#: __init__.py:165
+msgid "Divide"
+msgstr "划分"
+
+#: __init__.py:165
+msgid "Divide actual resolution in rows and columns"
+msgstr "将实际分辨率按行和列划分"
+
+#: __init__.py:172
+msgid "Divide render resolution into rows and columns"
+msgstr "将渲染分辨率划分为行和列"
+
+#: __init__.py:1874
+msgid "Error create regions, check values"
+msgstr "创建区域时出错，请检查数值"
+
+#: __init__.py:1631
+msgid "Error in Output path, set a valid path"
+msgstr "输出路径错误，请设置有效路径"
+
+#: __init__.py:299
+msgid "H"
+msgstr "H"
+
+#: __init__.py:776
+msgid "Imagemagick not found, no image created"
+msgstr "未找到 ImageMagick，未创建图像"
+
+#: __init__.py:401
+msgid "Margin (px)"
+msgstr "边距（像素）"
+
+#: __init__.py:307
+msgid "Max margin"
+msgstr "最大边距"
+
+#: __init__.py:161
+msgid "Method"
+msgstr "方法"
+
+#: __init__.py:203
+msgid "Multiplier"
+msgstr "乘数"
+
+#: __init__.py:166
+msgid "Multiply"
+msgstr "相乘"
+
+#: __init__.py:166
+msgid "Multiply actual resolution by a multiplier, and render each regions using actual resolution"
+msgstr "将实际分辨率乘以乘数，并使用实际分辨率渲染每个区域"
+
+#: __init__.py:197
+msgid "Multiply resolution by a multiplier, and render regions using actual dimension"
+msgstr "将分辨率乘以乘数，并使用实际尺寸渲染区域"
+
+#: __init__.py:155
+msgid "Pixel -> CM"
+msgstr "像素 -> 厘米"
+
+#: __init__.py:155
+msgid "Pixels to Centermeters"
+msgstr "像素转厘米"
+
+#: __init__.py:227
+msgid "RR_activeRendername"
+msgstr "RR_activeRendername"
+
+#: __init__.py:264
+msgid "RR_cntrnd"
+msgstr "RR_cntrnd"
+
+#: __init__.py:232
+msgid "RR_msg1"
+msgstr "RR_msg1"
+
+#: __init__.py:246
+msgid "RR_oldPerc"
+msgstr "RR_oldPerc"
+
+#: __init__.py:241
+msgid "RR_oldoutputfilepath"
+msgstr "RR_oldoutputfilepath"
+
+#: __init__.py:253
+msgid "RR_outputImgName"
+msgstr "RR_outputImgName"
+
+#: __init__.py:258
+msgid "RR_renderGo"
+msgstr "RR_renderGo"
+
+#: __init__.py:210
+msgid "Regions to render"
+msgstr "要渲染的区域"
+
+#: __init__.py:210
+msgid "Regions to render: all= render all regions; x,y,z= render the region number x, y and z; x-z= render the region from number x to z"
+msgstr "要渲染的区域：all=渲染所有区域；x,y,z=渲染编号 x、y 和 z 的区域；x-z=渲染编号从 x 到 z 的区域"
+
+#: __init__.py:316
+msgid "Render Region"
+msgstr "渲染区域"
+
+#: __init__.py:161
+msgid "Render region method"
+msgstr "渲染区域方法"
+
+#: __init__.py:178
+msgid "Rows"
+msgstr "行"
+
+#: __init__.py:150
+msgid "Set from"
+msgstr "从…设置"
+
+#: __init__.py:187
+msgid "Set number of columns"
+msgstr "设置列数"
+
+#: __init__.py:178
+msgid "Set number of rows"
+msgstr "设置行数"
+
+#: __init__.py:203
+msgid "Set number of tiles"
+msgstr "设置图块数"
+
+#: __init__.py:427
+msgid "Stop render"
+msgstr "停止渲染"
+
+#: __init__.py:227
+msgid "The name of the active rendered image"
+msgstr "当前活动渲染图像的名称"
+
+#: __init__.py:197
+#: __init__.py:379
+msgid "Use render dimension"
+msgstr "使用渲染尺寸"
+
+#: __init__.py:172
+#: __init__.py:369
+msgid "Use rows and columns"
+msgstr "使用行和列"
+
+#: __init__.py:291
+msgid "W"
+msgstr "W"
+
+#: __init__.py:145
+msgid "descrizione 1"
+msgstr "描述 1"
+
+#: __init__.py:145
+msgid "isEnabled"
+msgstr "isEnabled"
+
+#: __init__.py:299
+msgid "pixels to add to the height of the regions"
+msgstr "为区域高度添加的像素数"
+
+#: __init__.py:291
+msgid "pixels to add to the width of the regions"
+msgstr "为区域宽度添加的像素数"
+
+#: __init__.py:849
+msgctxt "Operator"
+msgid "Calculate best margins"
+msgstr "计算最佳边距"
+
+#: __init__.py:850
+msgctxt "Operator"
+msgid "Calculate the margins compatible with the rendering size starting from the 'max margins' value; if no compatible margins are found, zero is returned: try changing render size or increasing 'max margins'"
+msgstr "从“最大边距”值开始计算与渲染尺寸兼容的边距；如果未找到兼容边距，则返回零：请尝试更改渲染尺寸或增大“最大边距”"
+
+#: __init__.py:515
+msgctxt "Operator"
+msgid "Create a reference image with all regions numbered and margins"
+msgstr "创建一张包含所有区域编号和边距的参考图像"
+
+#: __init__.py:514
+msgctxt "Operator"
+msgid "Create reference image"
+msgstr "创建参考图像"
+
+#: __init__.py:926
+msgctxt "Operator"
+msgid "Render regions"
+msgstr "渲染区域"
+
+#: __init__.py:496
+msgctxt "Operator"
+msgid "Render stop"
+msgstr "停止渲染"
+
+#: __init__.py:927
+msgctxt "Operator"
+msgid "Start render regions"
+msgstr "开始渲染区域"
+
+#: __init__.py:497
+msgctxt "Operator"
+msgid "Stop render regions"
+msgstr "停止渲染区域"
+
+#: __init__.py:442
+msgctxt "Operator"
+msgid "test var"
+msgstr "测试变量"

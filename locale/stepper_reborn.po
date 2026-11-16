@@ -1,0 +1,248 @@
+# perfect-chinese: 1
+# id: stepper_reborn
+# kind: addon
+# module: bl_ext.blender_org.stepper_reborn
+# name: STEPper Reborn
+# name_zh: STEPper重生
+# translator: KeshiMiao
+# category: Import-Export
+# supported_versions: >=5.1.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:63
+msgid "Angular Deflection"
+msgstr "角度偏差"
+
+#: __init__.py:84
+msgid "Build Materials"
+msgstr "构建材质"
+
+#: __init__.py:84
+msgid "Build materials from STEP file colors"
+msgstr "根据 STEP 文件颜色构建材质"
+
+#: __init__.py:162
+msgid "Custom Scale"
+msgstr "自定义缩放"
+
+#: __init__.py:561
+msgid "Default Values:"
+msgstr "默认值："
+
+#: __init__.py:74
+msgid "Detail"
+msgstr "细节"
+
+#: __init__.py:108
+msgid "File"
+msgstr "文件"
+
+#: __init__.py:321
+msgid "File does not exist."
+msgstr "文件不存在。"
+
+#: __init__.py:141
+msgid "Forward"
+msgstr "前向"
+
+#: __init__.py:141
+msgid "Forward axis of the imported model"
+msgstr "导入模型的前向轴"
+
+#: __init__.py:207
+msgid "General"
+msgstr "常规"
+
+#: __init__.py:215
+msgid "Hierarchy"
+msgstr "层级"
+
+#: __init__.py:568
+msgid "Hierarchy Type"
+msgstr "层级类型"
+
+#: __init__.py:74
+msgid "Higher values means higher polygon count"
+msgstr "值越大，多边形数量越多"
+
+#: __init__.py:162
+msgid "Instead of loading the unit information from the file, determine it manually"
+msgstr "不从文件加载单位信息，改为手动确定"
+
+#: __init__.py:54
+msgid "Linear Deflection"
+msgstr "线性偏差"
+
+#: __init__.py:63
+msgid "Max angle between the tangent plane and the surrounding mesh each of sample point. Smaller values increase polygon count"
+msgstr "每个采样点处切平面与周围网格之间的最大角度。值越小，多边形数量越多"
+
+#: __init__.py:54
+msgid "Max distance between the mesh and the theoretical shape. Smaller values increase polygon count. In Blender unit"
+msgstr "网格与理论形状之间的最大距离。值越小，多边形数量越多。以 Blender 单位计"
+
+#: __init__.py:96
+msgid "More intuitive resolution parameter for visual look"
+msgstr "更直观的视觉效果分辨率参数"
+
+#: __init__.py:337
+msgid "Operation finished."
+msgstr "操作已完成。"
+
+#: __init__.py:187
+msgid "Operator Already ran in this session"
+msgstr "该操作已在本次会话中运行过"
+
+#: __init__.py:155
+msgid "Organization style of objects"
+msgstr "物体的组织方式"
+
+#: __init__.py:108
+msgid "Path to problematic STEP file"
+msgstr "有问题的 STEP 文件路径"
+
+#: __init__.py:123
+msgid "Preferred Hierarchy Type"
+msgstr "首选层级类型"
+
+#: __init__.py:116
+msgid "Preferred Up Axis"
+msgstr "首选上轴"
+
+#: __init__.py:123
+msgid "Preselected hierarchy type at first import"
+msgstr "首次导入时预选的层级类型"
+
+#: __init__.py:116
+msgid "Preselected up axis at first import"
+msgstr "首次导入时预选的上轴"
+
+#: __init__.py:227
+msgid "Resolution"
+msgstr "分辨率"
+
+#: __init__.py:288
+msgid "STEP file could not be opened. Possibly damaged file."
+msgstr "无法打开 STEP 文件。文件可能已损坏。"
+
+#: __init__.py:446
+msgid "STEPper: Build"
+msgstr "STEPper：构建"
+
+#: __init__.py:482
+msgid "STEPper: File"
+msgstr "STEPper：文件"
+
+#: __init__.py:168
+msgid "Scale"
+msgstr "缩放"
+
+#: __init__.py:168
+msgid "Set object scale"
+msgstr "设置物体缩放"
+
+#: __init__.py:181
+msgid "Simple Mode"
+msgstr "简单模式"
+
+#: __init__.py:96
+msgid "Simple Resolution"
+msgstr "简单分辨率"
+
+#: __init__.py:90
+msgid "Skip Faulty Solids"
+msgstr "跳过有问题的实体"
+
+#: __init__.py:90
+msgid "Skip some shapes the library hangs on and fails to load"
+msgstr "跳过库卡住而无法加载的部分形状"
+
+#: __init__.py:449
+#: __init__.py:485
+msgid "Stepper"
+msgstr "Stepper"
+
+#: __init__.py:155
+msgid "Tree hierarchy"
+msgstr "树状层级"
+
+#: __init__.py:148
+#: __init__.py:564
+msgid "Up Axis"
+msgstr "上轴"
+
+#: __init__.py:148
+msgid "Up axis of the imported model"
+msgstr "导入模型的上轴"
+
+#: __init__.py:32
+msgid "X"
+msgstr "X"
+
+#: __init__.py:34
+msgid "Y"
+msgstr "Y"
+
+#: __init__.py:36
+msgid "Z"
+msgstr "Z"
+
+#: __init__.py:306
+msgctxt "Operator"
+msgid "Attempt STEP ASCII fix"
+msgstr "尝试修复 STEP ASCII"
+
+#: __init__.py:307
+msgctxt "Operator"
+msgid "Attempt repairing invalid STEP characters.\nFor files that crash the program when trying to load.\nA new file with _fix post-fix is created into the folder."
+msgstr "尝试修复无效的 STEP 字符。\n用于加载时会导致程序崩溃的文件。\n修复后的文件（带 _fix 后缀）会创建到该文件夹中。"
+
+#: __init__.py:296
+msgctxt "Operator"
+msgid "Clear STEP cache"
+msgstr "清除 STEP 缓存"
+
+#: __init__.py:297
+msgctxt "Operator"
+msgid "Clear STEP cache, enabling the reload of a file"
+msgstr "清除 STEP 缓存，以便重新加载文件"
+
+#: __init__.py:133
+msgctxt "Operator"
+msgid "Import STEP"
+msgstr "导入 STEP"
+
+#: __init__.py:134
+msgctxt "Operator"
+msgid "Import a STEP file"
+msgstr "导入 STEP 文件"
+
+#: __init__.py:478
+msgctxt "Operator"
+msgid "Rebuild selected"
+msgstr "重建所选"
+
+#: __init__.py:364
+msgctxt "Operator"
+msgid "Rebuild selected objects from the STEP file"
+msgstr "从 STEP 文件重建所选物体"
+
+#: __init__.py:346
+msgctxt "Operator"
+msgid "Reload STEP"
+msgstr "重新加载 STEP"
+
+#: __init__.py:347
+#: __init__.py:490
+msgctxt "Operator"
+msgid "Reload STEP file"
+msgstr "重新加载 STEP 文件"
+
+#: __init__.py:573
+msgctxt "Operator"
+msgid "STEP (.step, .stp)"
+msgstr "STEP (.step, .stp)"

@@ -1,0 +1,100 @@
+# perfect-chinese: 1
+# id: import_export_skin_weights
+# kind: addon
+# module: bl_ext.blender_org.import_export_skin_weights
+# name: Import Export Skin Weights
+# name_zh: 导入导出蒙皮权重
+# translator: KeshiMiao
+# category: Rigging
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:1
+#: skin_weights_operator.py:1
+msgid "Export and Import Skin Weights using Position or UV mapping"
+msgstr "使用位置或 UV 映射导出和导入蒙皮权重"
+
+#: skin_weights_operator.py:223
+#: skin_weights_operator.py:274
+msgid "Map by closest vertex position"
+msgstr "按最近的顶点位置映射"
+
+#: skin_weights_operator.py:224
+#: skin_weights_operator.py:275
+msgid "Map using UV coordinates"
+msgstr "使用 UV 坐标映射"
+
+#: skin_weights_operator.py:221
+#: skin_weights_operator.py:272
+msgid "Mapping Mode"
+msgstr "映射模式"
+
+#: skin_weights_operator.py:265
+msgid "Mapping Mode:"
+msgstr "映射模式："
+
+#: skin_weights_operator.py:196
+#: skin_weights_operator.py:237
+msgid "No file selected!"
+msgstr "未选择文件！"
+
+#: skin_weights_operator.py:192
+#: skin_weights_operator.py:233
+msgid "No valid mesh selected!"
+msgstr "未选择有效的网格！"
+
+#: skin_weights_operator.py:223
+#: skin_weights_operator.py:274
+msgid "Position"
+msgstr "位置"
+
+#: __init__.py:1
+#: skin_weights_operator.py:1
+msgid "Rigging"
+msgstr "绑定"
+
+#: skin_weights_operator.py:254
+msgid "Skin Weight Tools"
+msgstr "蒙皮权重工具"
+
+#: __init__.py:1
+#: skin_weights_operator.py:1
+msgid "Skin Weights Export/Import"
+msgstr "蒙皮权重导出/导入"
+
+#: skin_weights_operator.py:201
+msgid "Skin weights exported successfully!"
+msgstr "蒙皮权重导出成功！"
+
+#: skin_weights_operator.py:242
+msgid "Skin weights imported successfully!"
+msgstr "蒙皮权重导入成功！"
+
+#: skin_weights_operator.py:224
+#: skin_weights_operator.py:275
+msgid "UV"
+msgstr "UV"
+
+#: skin_weights_operator.py:183
+msgctxt "Operator"
+msgid "Export Skin Weights"
+msgstr "导出蒙皮权重"
+
+#: skin_weights_operator.py:185
+msgctxt "Operator"
+msgid "Export skin weights for active mesh to a JSON file, storing vertex group influences for later re-import."
+msgstr "将活动网格的蒙皮权重导出为 JSON 文件，保存顶点组影响以便之后重新导入。"
+
+#: skin_weights_operator.py:216
+msgctxt "Operator"
+msgid "Import Skin Weights"
+msgstr "导入蒙皮权重"
+
+#: skin_weights_operator.py:218
+msgctxt "Operator"
+msgid "Import skin weights from a JSON file using the selected mapping mode (Position or UV)."
+msgstr "使用选定的映射模式（位置或 UV）从 JSON 文件导入蒙皮权重。"

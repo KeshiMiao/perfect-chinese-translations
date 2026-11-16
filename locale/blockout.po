@@ -1,0 +1,1294 @@
+# perfect-chinese: 1
+# id: blockout
+# kind: addon
+# module: bl_ext.blender_org.Blockout
+# name: Blockout
+# name_zh: 粗模搭建
+# translator: KeshiMiao
+# category: Modeling
+# supported_versions: >=4.5.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: blockout/tools/block/common.py:60
+msgid "2D"
+msgstr "2D"
+
+#: blockout/tools/block/common.py:61
+msgid "3D"
+msgstr "3D"
+
+#: blockout/tools/block/common.py:49
+#: blockout/ui/popups/block.py:37
+msgid "AREA_DOCK"
+msgstr "AREA_DOCK"
+
+#: blockout/ops/obj/bevel/base.py:36
+#: blockout/tools/block/data.py:59
+msgid "Absolute"
+msgstr "绝对"
+
+#: blockout/tools/block/common.py:13
+#: blockout/ui/popups/block.py:100
+msgid "Absolute increments snap"
+msgstr "绝对增量吸附"
+
+#: blockout/ops/block/data.py:605
+#: blockout/ops/block/ui.py:253
+msgid "Active"
+msgstr "活动"
+
+#: blockout/ops/obj/apply_modifiers.py:54
+msgid "Active Object"
+msgstr "活动物体"
+
+#: blockout/ops/block/ui.py:253
+msgid "Active indicator color"
+msgstr "活动指示器颜色"
+
+#: blockout/ops/block/data.py:605
+msgid "Active shape enum name"
+msgstr "活动形状枚举名称"
+
+#: blockout/tools/block/data.py:19
+msgid "Add"
+msgstr "添加"
+
+#: blockout/ops/block/ui.py:262
+msgid "Add Vertex"
+msgstr "添加顶点"
+
+#: blockout/ops/block/ui.py:262
+msgid "Add-vertex (edge midpoint) indicator color"
+msgstr "添加顶点（边中点）指示器颜色"
+
+#: blockout/utils/infobar.py:72
+msgid "Adjust"
+msgstr "调整"
+
+#: blockout/ops/obj/bevel/base.py:474
+msgid "Adjust Radius"
+msgstr "调整半径"
+
+#: blockout/tools/block/mesh.py:97
+#: blockout/tools/block/obj.py:106
+msgid "Align"
+msgstr "对齐"
+
+#: blockout/btypes.py:30
+msgid "Align the mesh to a custom plane"
+msgstr "将网格对齐到自定义平面"
+
+#: blockout/btypes.py:29
+msgid "Align the mesh to the face"
+msgstr "将网格对齐到面"
+
+#: blockout/tools/block/mesh.py:85
+#: blockout/tools/block/obj.py:94
+msgid "Align:"
+msgstr "对齐："
+
+#: blockout/ops/obj/bevel/unpinned.py:73
+msgid "All Mode"
+msgstr "全部模式"
+
+#: blockout/ops/block/data.py:328
+#: blockout/ops/block/data.py:356
+msgid "Angle"
+msgstr "角度"
+
+#: blockout/ops/obj/bevel/unpinned.py:25
+msgid "Angle Limit"
+msgstr "角度限制"
+
+#: blockout/ops/obj/bevel/base.py:55
+#: blockout/ops/obj/bevel/properties.py:21
+msgid "Angle limit for beveling"
+msgstr "倒角的角度限制"
+
+#: blockout/ops/obj/apply_modifiers.py:33
+#: blockout/ops/obj/bevel/base.py:464
+msgid "Apply"
+msgstr "应用"
+
+#: blockout/btypes.py:90
+msgid "Axis X"
+msgstr "X 轴"
+
+#: blockout/ops/block/operator.py:249
+msgid "B"
+msgstr "B"
+
+#: blockout/preferences.py:67
+msgid "BLOCKOUT"
+msgstr "BLOCKOUT"
+
+#: blockout/ops/obj/bevel/unpinned.py:70
+msgid "Bevel"
+msgstr "倒角"
+
+#: blockout/ops/obj/bevel/properties.py:5
+msgid "Bevel Guid"
+msgstr "倒角参考线"
+
+#: blockout/ops/obj/bevel/pinned.py:15
+msgid "Bevel Pinned"
+msgstr "固定倒角"
+
+#: blockout/tools/block/data.py:78
+msgid "Bevel Segments"
+msgstr "倒角分段"
+
+#: blockout/ops/block/data.py:511
+msgid "Bisect Mode"
+msgstr "切分模式"
+
+#: blockout/tools/block/mesh.py:11
+#: blockout/tools/block/obj.py:11
+msgid "BlockOut"
+msgstr "BlockOut"
+
+#: blockout/ui/menus/object.py:6
+msgid "Blockout"
+msgstr "Blockout"
+
+#: blockout/gizmo/group/axis.py:11
+msgid "Blockout Axis Gizmo"
+msgstr "Blockout 轴小部件"
+
+#: blockout/ops/block/mesh.py:26
+#: blockout/ops/block/obj.py:26
+msgid "Blockout Block"
+msgstr "Blockout 块"
+
+#: blockout/ops/obj/boolean.py:159
+msgid "Boolean"
+msgstr "布尔"
+
+#: blockout/ops/obj/boolean.py:321
+msgid "Boolean Carve"
+msgstr "布尔挖除"
+
+#: blockout/ops/obj/boolean.py:160
+msgid "Boolean Objects together"
+msgstr "布尔合并物体"
+
+#: blockout/ops/obj/boolean.py:227
+msgid "Boolean Slice"
+msgstr "布尔切割"
+
+#: blockout/ops/block/operator.py:289
+#: blockout/tools/block/data.py:72
+msgid "Boolean Solver"
+msgstr "布尔求解器"
+
+#: blockout/tools/block/data.py:4
+msgid "Box"
+msgstr "盒体"
+
+#: blockout/ops/block/data.py:294
+msgid "Box base XY dimensions"
+msgstr "盒体底面 XY 尺寸"
+
+#: blockout/ops/obj/bevel/base.py:466
+#: blockout/ops/obj/bevel/base.py:480
+msgid "Cancel"
+msgstr "取消"
+
+#: blockout/ops/block/edit.py:174
+msgid "Cannot delete vertex: minimum 3 vertices required"
+msgstr "无法删除顶点：至少需要 3 个顶点"
+
+#: blockout/ops/block/ui.py:235
+#: blockout/tools/block/data.py:22
+msgid "Carve"
+msgstr "挖除"
+
+#: blockout/ops/obj/boolean.py:322
+msgid "Carve into objects using boolean operations"
+msgstr "使用布尔运算挖入物体"
+
+#: blockout/tools/block/data.py:9
+msgid "Circle"
+msgstr "圆"
+
+#: blockout/ops/block/data.py:377
+#: blockout/tools/block/data.py:85
+msgid "Circle Verts"
+msgstr "圆顶点数"
+
+#: blockout/ops/block/data.py:374
+msgid "Circle radius"
+msgstr "圆半径"
+
+#: blockout/ops/obj/bevel/base.py:24
+#: blockout/ops/obj/bevel/unpinned.py:27
+msgid "Clamp Overlap"
+msgstr "限制重叠"
+
+#: blockout/ops/obj/clean_cutter.py:66
+msgid "Cleaned duplicates will be created."
+msgstr "将创建清理后的副本。"
+
+#: blockout/ops/block/data.py:261
+msgid "Co"
+msgstr "坐标"
+
+#: blockout/ops/obj/bevel/properties.py:5
+msgid "Color of the guide line"
+msgstr "参考线颜色"
+
+#: blockout/ops/obj/bevel/base.py:477
+#: blockout/utils/infobar.py:75
+msgid "Confirm"
+msgstr "确认"
+
+#: blockout/tools/block/data.py:11
+msgid "Corner"
+msgstr "拐角"
+
+#: blockout/ops/block/data.py:423
+msgid "Corner XY dimensions"
+msgstr "拐角 XY 尺寸"
+
+#: blockout/btypes.py:30
+msgid "Custom"
+msgstr "自定义"
+
+#: blockout/ops/mesh/custom_plane.py:51
+#: blockout/ops/obj/custom_plane.py:164
+msgid "Custom plane disabled"
+msgstr "自定义平面已禁用"
+
+#: blockout/ops/mesh/custom_plane.py:160
+msgid "Custom plane set based on selection"
+msgstr "已根据选择设置自定义平面"
+
+#: blockout/ops/block/data.py:514
+#: blockout/ops/block/ui.py:199
+msgid "Cut"
+msgstr "切割"
+
+#: blockout/ops/block/data.py:284
+#: blockout/ops/block/data.py:334
+msgid "Cutter depth (auto-promoted)"
+msgstr "切割器深度（自动提升）"
+
+#: blockout/tools/block/data.py:5
+msgid "Cylinder"
+msgstr "圆柱体"
+
+#: blockout/ops/block/data.py:390
+msgid "Cylinder radius"
+msgstr "圆柱半径"
+
+#: blockout/ops/block/data.py:393
+msgid "Cylinder verts"
+msgstr "圆柱顶点数"
+
+#: blockout/preferences.py:16
+#: blockout/preferences.py:21
+msgid "Debug"
+msgstr "调试"
+
+#: blockout/ops/obj/bevel/base.py:470
+msgid "Delete"
+msgstr "删除"
+
+#: blockout/ops/obj/bevel/base.py:35
+msgid "Depth"
+msgstr "深度"
+
+#: blockout/ops/block/data.py:570
+msgid "Detected"
+msgstr "已检测"
+
+#: blockout/ops/obj/boolean.py:167
+msgid "Difference"
+msgstr "差集"
+
+#: blockout/ops/block/operator.py:148
+#: blockout/ops/block/operator.py:198
+msgid "Dimensions"
+msgstr "尺寸"
+
+#: blockout/ops/block/operator.py:223
+#: blockout/ops/block/operator.py:240
+msgid "Dimensions Z"
+msgstr "Z 尺寸"
+
+#: blockout/ops/block/data.py:538
+msgid "Direction"
+msgstr "方向"
+
+#: blockout/tools/block/data.py:50
+msgid "Edge"
+msgstr "边"
+
+#: blockout/ops/obj/bevel/base.py:65
+#: blockout/ops/obj/bevel/unpinned.py:26
+msgid "Edge Weight"
+msgstr "边权重"
+
+#: blockout/ops/block/data.py:524
+msgid "Edit Mesh"
+msgstr "编辑网格"
+
+#: blockout/ops/tools/set.py:10
+msgid "Edit Mode"
+msgstr "编辑模式"
+
+#: blockout/ops/obj/bevel/unpinned.py:73
+msgid "Edit all unpinned modifiers at once"
+msgstr "一次性编辑所有未固定的修改器"
+
+#: blockout/ops/obj/bevel/pinned.py:16
+msgid "Edit last pinned bevel modifier"
+msgstr "编辑最后固定的倒角修改器"
+
+#: blockout/ops/obj/bevel/unpinned.py:71
+msgid "Edit unpinned bevel modifiers"
+msgstr "编辑未固定的倒角修改器"
+
+#: blockout/ops/block/data.py:495
+msgid "Enable"
+msgstr "启用"
+
+#: blockout/preferences.py:21
+msgid "Enable debug mode"
+msgstr "启用调试模式"
+
+#: blockout/ops/obj/apply_modifiers.py:40
+msgid "Enabled"
+msgstr "启用"
+
+#: blockout/ops/block/data.py:317
+#: blockout/ops/block/data.py:345
+msgid "Equilateral"
+msgstr "等边"
+
+#: blockout/ops/block/data.py:317
+#: blockout/ops/block/data.py:345
+msgid "Equilateral (vs right-angle) triangle"
+msgstr "等边（而非直角）三角形"
+
+#: blockout/ops/block/data.py:303
+#: blockout/ops/block/data.py:362
+msgid "Extrude depth"
+msgstr "挤出深度"
+
+#: blockout/btypes.py:29
+msgid "Face"
+msgstr "面"
+
+#: blockout/tools/block/data.py:46
+msgid "Face Orientation"
+msgstr "面朝向"
+
+#: blockout/ops/block/edit.py:191
+msgid "Failed to add vertex to edge"
+msgstr "无法向边添加顶点"
+
+#: blockout/ops/block/draw.py:41
+#: blockout/ops/block/edit.py:17
+msgid "Failed to detect drawing plane"
+msgstr "无法检测绘制平面"
+
+#: blockout/ops/block/orientation.py:37
+#: blockout/ops/obj/custom_plane.py:76
+msgid "Fallback: Geometry is not real"
+msgstr "回退：几何体不是真实的"
+
+#: blockout/ops/block/operator.py:192
+#: blockout/ops/block/operator.py:212
+msgid "Fill"
+msgstr "填充"
+
+#: blockout/ops/block/data.py:316
+#: blockout/ops/block/data.py:344
+msgid "Flip"
+msgstr "翻转"
+
+#: blockout/ops/obj/bevel/base.py:388
+msgid "Geometry"
+msgstr "几何体"
+
+#: blockout/ops/obj/apply_modifiers.py:34
+msgid "Group Index"
+msgstr "组索引"
+
+#: blockout/ops/block/ui.py:244
+msgid "Guid"
+msgstr "GUID"
+
+#: blockout/ops/block/ui.py:244
+msgid "Guid indicator color"
+msgstr "GUID 指示器颜色"
+
+#: blockout/ops/obj/bevel/base.py:27
+#: blockout/ops/obj/bevel/properties.py:20
+msgid "Harden Normals"
+msgstr "硬化法向"
+
+#: blockout/ops/block/data.py:322
+#: blockout/ops/block/data.py:350
+msgid "Height"
+msgstr "高度"
+
+#: blockout/btypes.py:12
+msgid "Highlight X axis"
+msgstr "高亮 X 轴"
+
+#: blockout/btypes.py:15
+msgid "Highlight Y axis"
+msgstr "高亮 Y 轴"
+
+#: blockout/tools/block/data.py:66
+msgid "Increments"
+msgstr "增量"
+
+#: blockout/ops/obj/bevel/unpinned.py:83
+msgid "Index of selected modifier in redo panel"
+msgstr "重做面板中选中修改器的索引"
+
+#: blockout/preferences.py:14
+msgid "Info"
+msgstr "信息"
+
+#: blockout/ops/align/custom_plane.py:50
+msgid "Initial interactive mode"
+msgstr "初始交互模式"
+
+#: blockout/ops/obj/bevel/base.py:462
+msgid "Input"
+msgstr "输入"
+
+#: blockout/ops/block/edit.py:210
+msgid "Insufficient vertices for initialization"
+msgstr "顶点不足，无法初始化"
+
+#: blockout/ops/block/ui.py:226
+#: blockout/ops/obj/boolean.py:166
+msgid "Intersect"
+msgstr "相交"
+
+#: blockout/tools/block/common.py:39
+#: blockout/ui/popups/block.py:20
+msgid "LIGHTPROBE_PLANE"
+msgstr "LIGHTPROBE_PLANE"
+
+#: blockout/tools/block/common.py:47
+#: blockout/ui/popups/block.py:35
+msgid "LIGHTPROBE_SPHERE"
+msgstr "LIGHTPROBE_SPHERE"
+
+#: blockout/ops/obj/bevel/base.py:45
+#: blockout/ops/obj/bevel/base.py:489
+msgid "Limit Method"
+msgstr "限制方法"
+
+#: blockout/ops/obj/bevel/base.py:49
+msgid "Limit by angle"
+msgstr "按角度限制"
+
+#: blockout/ops/obj/bevel/base.py:51
+msgid "Limit by vertex group"
+msgstr "按顶点组限制"
+
+#: blockout/ops/obj/bevel/base.py:50
+msgid "Limit by weight"
+msgstr "按权重限制"
+
+#: blockout/btypes.py:67
+#: blockout/ops/block/operator.py:137
+msgid "Location"
+msgstr "位置"
+
+#: blockout/btypes.py:67
+msgid "Location of the custom plane"
+msgstr "自定义平面的位置"
+
+#: blockout/ops/obj/bevel/base.py:25
+#: blockout/ops/obj/bevel/unpinned.py:28
+msgid "Loop Slide"
+msgstr "环滑移"
+
+#: blockout/tools/block/common.py:41
+#: blockout/ui/popups/block.py:22
+msgid "MARKER"
+msgstr "MARKER"
+
+#: blockout/tools/block/common.py:40
+#: blockout/ui/popups/block.py:21
+msgid "MESH_CIRCLE"
+msgstr "MESH_CIRCLE"
+
+#: blockout/tools/block/common.py:50
+#: blockout/ui/popups/block.py:38
+msgid "MESH_CONE"
+msgstr "MESH_CONE"
+
+#: blockout/tools/block/common.py:45
+#: blockout/ui/popups/block.py:33
+msgid "MESH_CUBE"
+msgstr "MESH_CUBE"
+
+#: blockout/tools/block/common.py:46
+#: blockout/ui/popups/block.py:34
+msgid "MESH_CYLINDER"
+msgstr "MESH_CYLINDER"
+
+#: blockout/tools/block/common.py:38
+#: blockout/ui/popups/block.py:19
+msgid "MESH_PLANE"
+msgstr "MESH_PLANE"
+
+#: blockout/tools/block/common.py:48
+#: blockout/ui/popups/block.py:36
+msgid "MESH_UVSPHERE"
+msgstr "MESH_UVSPHERE"
+
+#: blockout/btypes.py:42
+msgid "Matrix"
+msgstr "矩阵"
+
+#: blockout/ops/block/ui.py:199
+#: blockout/ops/block/ui.py:208
+msgid "Mesh indicator color"
+msgstr "网格指示器颜色"
+
+#: blockout/btypes.py:25
+#: blockout/ops/align/custom_plane.py:50
+msgid "Mode"
+msgstr "模式"
+
+#: blockout/ui/popups/block.py:57
+msgid "Mode:"
+msgstr "模式："
+
+#: blockout/ops/obj/apply_modifiers.py:10
+msgid "Modifier Count"
+msgstr "修改器数量"
+
+#: blockout/ops/obj/bevel/unpinned.py:14
+msgid "Modifier Index"
+msgstr "修改器索引"
+
+#: blockout/ops/obj/apply_modifiers.py:30
+#: blockout/ops/obj/bevel/unpinned.py:13
+msgid "Modifier Name"
+msgstr "修改器名称"
+
+#: blockout/ops/obj/apply_modifiers.py:31
+msgid "Modifier Type"
+msgstr "修改器类型"
+
+#: blockout/ops/obj/apply_modifiers.py:360
+msgid "Modifiers to apply:"
+msgstr "要应用的修改器："
+
+#: blockout/ops/block/draw.py:100
+#: blockout/ops/block/edit.py:82
+msgid "Mouse was outside the drawing plane"
+msgstr "鼠标在绘制平面之外"
+
+#: blockout/ops/align/custom_plane.py:54
+#: blockout/ops/mesh/custom_plane.py:24
+msgid "Move"
+msgstr "移动"
+
+#: blockout/ops/align/custom_plane.py:56
+msgid "Move + Orient"
+msgstr "移动 + 定向"
+
+#: blockout/ops/align/custom_plane.py:56
+msgid "Move the plane and re-orient it to the element"
+msgstr "移动平面并将其重新定向到元素"
+
+#: blockout/ops/align/custom_plane.py:54
+msgid "Move the plane, keep its orientation"
+msgstr "移动平面，保持其方向"
+
+#: blockout/tools/block/data.py:7
+msgid "N-gon"
+msgstr "N 边形"
+
+#: blockout/tools/block/data.py:8
+msgid "N-hedron"
+msgstr "N 面体"
+
+#: blockout/ops/obj/bevel/base.py:468
+msgid "Next"
+msgstr "下一个"
+
+#: blockout/ops/obj/bevel/unpinned.py:691
+msgid "Next/Previous"
+msgstr "下一个/上一个"
+
+#: blockout/ops/obj/bevel/base.py:48
+msgid "No limit"
+msgstr "无限制"
+
+#: blockout/ops/block/operator.py:430
+msgid "No mesh detected: Please select object"
+msgstr "未检测到网格：请选择物体"
+
+#: blockout/ops/obj/apply_modifiers.py:353
+msgid "No modifiers found"
+msgstr "未找到修改器"
+
+#: blockout/ops/obj/apply_modifiers.py:393
+msgid "No modifiers found for this object"
+msgstr "未找到此物体的修改器"
+
+#: blockout/ops/obj/apply_modifiers.py:86
+msgid "No modifiers found on selected objects"
+msgstr "未在选中物体上找到修改器"
+
+#: blockout/ops/obj/custom_plane.py:205
+msgid "No object found under cursor, using default plane at (0,0,0)"
+msgstr "光标下未找到物体，使用 (0,0,0) 处的默认平面"
+
+#: blockout/ops/obj/apply_modifiers.py:384
+msgid "No object selected"
+msgstr "未选择物体"
+
+#: blockout/ops/obj/bevel/base.py:104
+msgid "No objects selected for bevel operation"
+msgstr "未选择用于倒角操作的物体"
+
+#: blockout/ops/obj/bevel/base.py:48
+msgid "None"
+msgstr "无"
+
+#: blockout/ops/block/data.py:475
+#: blockout/ops/block/operator.py:138
+msgid "Normal"
+msgstr "法向"
+
+#: blockout/ops/obj/boolean.py:134
+msgid "Not enough objects selected for boolean operation"
+msgstr "未选择足够的物体进行布尔运算"
+
+#: blockout/utilsbmesh/ngon.py:426
+msgid "Nothing to redo"
+msgstr "没有可重做的操作"
+
+#: blockout/utilsbmesh/ngon.py:416
+msgid "Nothing to undo"
+msgstr "没有可撤销的操作"
+
+#: blockout/tools/block/data.py:78
+msgid "Number of bevel segments"
+msgstr "倒角分段数"
+
+#: blockout/ops/block/data.py:524
+msgid "Object"
+msgstr "物体"
+
+#: blockout/ops/obj/apply_modifiers.py:9
+#: blockout/ops/obj/apply_modifiers.py:32
+msgid "Object Name"
+msgstr "物体名称"
+
+#: blockout/ops/obj/clean_cutter.py:56
+msgid "Objects in use:"
+msgstr "使用中的物体："
+
+#: blockout/ops/block/data.py:496
+#: blockout/ops/block/data.py:530
+msgid "Offset"
+msgstr "偏移"
+
+#: blockout/ops/obj/boolean.py:324
+msgid "Offset distance for carving"
+msgstr "雕刻偏移距离"
+
+#: blockout/ops/obj/bevel/base.py:32
+msgid "Offset the bevel width"
+msgstr "偏移倒角宽度"
+
+#: blockout/tools/block/data.py:60
+msgid "Offset the mesh above the drawing plane"
+msgstr "将网格偏移到绘图平面上方"
+
+#: blockout/ops/obj/boolean.py:162
+msgid "Operation"
+msgstr "操作"
+
+#: blockout/ops/obj/apply_modifiers.py:355
+msgid "Options:"
+msgstr "选项："
+
+#: blockout/ops/align/custom_plane.py:55
+msgid "Orient"
+msgstr "定向"
+
+#: blockout/tools/block/data.py:50
+msgid "Orient drawing plane using the closest edge of the face"
+msgstr "使用面最近的边定向绘图平面"
+
+#: blockout/tools/block/data.py:51
+msgid "Orient drawing plane using the face normal and viewport up vector"
+msgstr "使用面法线和视图向上向量定向绘图平面"
+
+#: blockout/tools/block/data.py:46
+msgid "Orientation"
+msgstr "方向"
+
+#: blockout/ops/block/data.py:468
+#: blockout/ops/block/data.py:557
+msgid "Origin"
+msgstr "原点"
+
+#: blockout/ops/block/data.py:482
+msgid "Origin Local"
+msgstr "局部原点"
+
+#: blockout/ops/block/data.py:557
+msgid "Origin in draw-plane local space (X=direction, Y=binormal, Z=normal)"
+msgstr "绘图平面局部空间中的原点（X=方向，Y=副法线，Z=法线）"
+
+#: blockout/ops/obj/clean_cutter.py:67
+msgid "Originals will remain as cutters."
+msgstr "原始对象将保留为切割器。"
+
+#: blockout/ops/obj/bevel/base.py:34
+msgid "Percent"
+msgstr "百分比"
+
+#: blockout/tools/block/mesh.py:113
+msgid "Pick shape of the object\n • Box\n • Cylinder\n • Rectangle\n • Circle\n • Sphere"
+msgstr "选择物体形状\n • 长方体\n • 圆柱体\n • 矩形\n • 圆\n • 球体"
+
+#: blockout/tools/block/obj.py:122
+msgid "Pick shape of the object\n • Box\n • Cylinder\n • Rectangle\n • Circle\n • Sphere\n • N-gon\n • N-hedron\n • Corner"
+msgstr "选择物体形状\n • 长方体\n • 圆柱体\n • 矩形\n • 圆\n • 球体\n • N 边形\n • N 面体\n • 角"
+
+#: blockout/ops/obj/bevel/base.py:17
+msgid "Pin modifier to last"
+msgstr "将修改器固定到最后"
+
+#: blockout/ops/obj/bevel/base.py:17
+msgid "Pin to Last"
+msgstr "固定到最后"
+
+#: blockout/tools/block/data.py:51
+msgid "Planar"
+msgstr "平面"
+
+#: blockout/ops/block/data.py:475
+msgid "Plane normal"
+msgstr "平面法线"
+
+#: blockout/ops/block/data.py:468
+msgid "Plane origin (world-space)"
+msgstr "平面原点（世界空间）"
+
+#: blockout/ops/block/data.py:482
+msgid "Plane world origin captured at draw time; the anchor for Pref.origin_local (plane-local F9 Origin values)"
+msgstr "绘制时捕获的平面世界原点；Pref.origin_local（平面局部 F9 原点值）的锚点"
+
+#: blockout/ops/mesh/custom_plane.py:133
+msgid "Please select exactly one face, edge, vertex, or two vertices"
+msgstr "请仅选择一个面、一条边、一个顶点，或两个顶点"
+
+#: blockout/tools/block/data.py:13
+msgid "Prism"
+msgstr "棱柱"
+
+#: blockout/ops/block/data.py:356
+msgid "Prism angle"
+msgstr "棱柱角度"
+
+#: blockout/ops/block/data.py:350
+msgid "Prism height"
+msgstr "棱柱高度"
+
+#: blockout/ui/popups/block.py:93
+msgid "Properties"
+msgstr "属性"
+
+#: blockout/ops/block/data.py:374
+#: blockout/ops/block/data.py:390
+msgid "Radius"
+msgstr "半径"
+
+#: blockout/ops/align/custom_plane.py:55
+msgid "Re-orient the plane, keep its location"
+msgstr "重新定向平面，保持其位置"
+
+#: blockout/tools/block/data.py:6
+msgid "Rectangle"
+msgstr "矩形"
+
+#: blockout/ops/block/data.py:275
+msgid "Rectangle XY dimensions"
+msgstr "矩形 XY 尺寸"
+
+#: blockout/ops/obj/apply_modifiers.py:55
+msgid "Remove objects that were used by modifiers and are no longer needed"
+msgstr "移除修改器使用过且不再需要的物体"
+
+#: blockout/ops/obj/apply_modifiers.py:55
+msgid "Remove objects used by modifiers"
+msgstr "移除修改器使用的物体"
+
+#: blockout/ops/block/data.py:574
+msgid "Reveal"
+msgstr "显示"
+
+#: blockout/ops/mesh/custom_plane.py:25
+#: blockout/ops/obj/custom_plane.py:27
+msgid "Rotate"
+msgstr "旋转"
+
+#: blockout/utils/infobar.py:78
+msgid "Rotate View"
+msgstr "旋转视图"
+
+#: blockout/ops/block/data.py:576
+msgid "Rotate X"
+msgstr "旋转 X"
+
+#: blockout/ops/block/data.py:582
+msgid "Rotate Y"
+msgstr "旋转 Y"
+
+#: blockout/ops/block/data.py:588
+msgid "Rotate Z"
+msgstr "旋转 Z"
+
+#: blockout/btypes.py:74
+#: blockout/ops/block/operator.py:278
+msgid "Rotation"
+msgstr "旋转"
+
+#: blockout/ops/block/data.py:430
+#: blockout/ops/block/operator.py:248
+msgid "Rotation A"
+msgstr "旋转 A"
+
+#: blockout/ops/block/data.py:436
+msgid "Rotation B"
+msgstr "旋转 B"
+
+#: blockout/ops/block/data.py:576
+msgid "Rotation around plane X axis"
+msgstr "绕平面 X 轴旋转"
+
+#: blockout/ops/block/data.py:582
+msgid "Rotation around plane Y axis"
+msgstr "绕平面 Y 轴旋转"
+
+#: blockout/ops/block/data.py:588
+msgid "Rotation around plane Z axis (normal)"
+msgstr "绕平面 Z 轴（法线）旋转"
+
+#: blockout/btypes.py:74
+msgid "Rotation of the custom plane"
+msgstr "自定义平面的旋转"
+
+#: blockout/ops/block/data.py:430
+msgid "Rotation of the first corner face"
+msgstr "第一个角面的旋转"
+
+#: blockout/ops/block/data.py:436
+msgid "Rotation of the second corner face"
+msgstr "第二个角面的旋转"
+
+#: blockout/ops/block/operator.py:156
+#: blockout/ops/block/operator.py:171
+msgid "Round"
+msgstr "四舍五入"
+
+#: blockout/tools/block/data.py:66
+msgid "Round the values to the nearest increment"
+msgstr "将值四舍五入到最近增量"
+
+#: blockout/ops/block/data.py:508
+msgid "Running"
+msgstr "运行中"
+
+#: blockout/ui/popups/block.py:62
+msgid "STRIP_COLOR_01"
+msgstr "STRIP_COLOR_01"
+
+#: blockout/ui/popups/block.py:66
+msgid "STRIP_COLOR_02"
+msgstr "STRIP_COLOR_02"
+
+#: blockout/ui/popups/block.py:64
+msgid "STRIP_COLOR_03"
+msgstr "STRIP_COLOR_03"
+
+#: blockout/ui/popups/block.py:67
+msgid "STRIP_COLOR_04"
+msgstr "STRIP_COLOR_04"
+
+#: blockout/ui/popups/block.py:65
+msgid "STRIP_COLOR_05"
+msgstr "STRIP_COLOR_05"
+
+#: blockout/ui/popups/block.py:63
+msgid "STRIP_COLOR_09"
+msgstr "STRIP_COLOR_09"
+
+#: blockout/ops/block/data.py:594
+#: blockout/ops/block/operator.py:282
+msgid "Scale"
+msgstr "缩放"
+
+#: blockout/ops/block/data.py:594
+msgid "Scale factor (plane X/Y/Z)"
+msgstr "缩放系数（平面 X/Y/Z）"
+
+#: blockout/ops/block/data.py:499
+#: blockout/ops/obj/bevel/base.py:43
+msgid "Segments"
+msgstr "段数"
+
+#: blockout/ops/obj/bevel/unpinned.py:659
+msgid "Select Modifier to Edit:"
+msgstr "选择要编辑的修改器："
+
+#: blockout/tools/block/mesh.py:100
+#: blockout/tools/block/obj.py:109
+msgid "Select how object is aligned to the surface\n • Face - align to the face of the selected/visible object\n • Custom - align to the custom plane"
+msgstr "选择物体与表面对齐的方式\n • 面 - 对齐到选中/可见物体的面\n • 自定义 - 对齐到自定义平面"
+
+#: blockout/tools/block/obj.py:136
+msgid "Select type of the operation\n • Cut - boolean difference object into another\n • Add - add new object\n • Slice - Slice object into another\n • Intersect - boolean intersect object into another \n • Carve - carve object into another \n • Union - boolean union object into another"
+msgstr "选择操作类型\n • 切割 - 用布尔差集将物体切入另一个物体\n • 添加 - 添加新物体\n • 切片 - 将物体切片到另一个物体中\n • 相交 - 用布尔交集将物体与另一个物体相交\n • 雕刻 - 将物体雕刻到另一个物体中\n • 并集 - 用布尔并集将物体与另一个物体合并"
+
+#: blockout/tools/block/mesh.py:127
+msgid "Select type of the operation\n • Cut - boolean difference object into another\n • Add - add new object\n • Slice - Slice object into another\n • Intersect - boolean intersect object into another \n • Union - boolean union object into another"
+msgstr "选择操作类型\n • 切割 - 用布尔差集将物体切入另一个物体\n • 添加 - 添加新物体\n • 切片 - 将物体切片到另一个物体中\n • 相交 - 用布尔交集将物体与另一个物体相交\n • 并集 - 用布尔并集将物体与另一个物体合并"
+
+#: blockout/ops/obj/bevel/unpinned.py:83
+msgid "Selected Modifier"
+msgstr "选中的修改器"
+
+#: blockout/ops/obj/apply_modifiers.py:364
+msgid "Selected Objects:"
+msgstr "选中的物体："
+
+#: blockout/ops/mesh/custom_plane.py:23
+#: blockout/ops/obj/custom_plane.py:25
+msgid "Set"
+msgstr "设置"
+
+#: blockout/ops/obj/bevel/base.py:35
+msgid "Set the bevel depth"
+msgstr "设置倒角深度"
+
+#: blockout/ops/obj/bevel/base.py:33
+msgid "Set the bevel width"
+msgstr "设置倒角宽度"
+
+#: blockout/ops/obj/bevel/base.py:36
+msgid "Set the bevel width in absolute units"
+msgstr "以绝对单位设置倒角宽度"
+
+#: blockout/ops/obj/bevel/base.py:34
+msgid "Set the bevel width in percent"
+msgstr "以百分比设置倒角宽度"
+
+#: blockout/preferences.py:10
+msgid "Settings"
+msgstr "设置"
+
+#: blockout/preferences.py:10
+msgid "Settings to display"
+msgstr "要显示的设置"
+
+#: blockout/ops/obj/bevel/base.py:395
+msgid "Shading"
+msgstr "着色"
+
+#: blockout/tools/block/__init__.py:8
+#: blockout/tools/block/mesh.py:110
+msgid "Shape"
+msgstr "形状"
+
+#: blockout/tools/block/mesh.py:41
+#: blockout/tools/block/obj.py:50
+msgid "Shape:"
+msgstr "形状："
+
+#: blockout/ops/obj/apply_modifiers.py:41
+msgid "Show Expanded"
+msgstr "显示展开"
+
+#: blockout/ops/block/data.py:275
+#: blockout/ops/block/data.py:294
+msgid "Size"
+msgstr "尺寸"
+
+#: blockout/ops/block/ui.py:208
+#: blockout/tools/block/data.py:20
+msgid "Slice"
+msgstr "切片"
+
+#: blockout/ops/obj/boolean.py:228
+msgid "Slice objects into two parts using boolean operations"
+msgstr "使用布尔操作将物体切成两部分"
+
+#: blockout/ops/obj/boolean.py:84
+#: blockout/tools/block/data.py:72
+msgid "Solver"
+msgstr "求解器"
+
+#: blockout/tools/block/data.py:10
+msgid "Sphere"
+msgstr "球体"
+
+#: blockout/ops/block/data.py:410
+msgid "Sphere radius"
+msgstr "球体半径"
+
+#: blockout/ops/block/data.py:413
+msgid "Sphere subdivisions"
+msgstr "球体细分"
+
+#: blockout/ops/block/data.py:514
+msgid "Split"
+msgstr "拆分"
+
+#: blockout/ops/block/data.py:413
+#: blockout/ops/block/operator.py:236
+msgid "Subdivisions"
+msgstr "细分"
+
+#: blockout/ops/block/data.py:282
+#: blockout/ops/block/data.py:301
+msgid "Symmetry X"
+msgstr "X 对称"
+
+#: blockout/ops/block/data.py:283
+#: blockout/ops/block/data.py:302
+msgid "Symmetry Y"
+msgstr "Y 对称"
+
+#: blockout/ops/block/data.py:306
+#: blockout/ops/block/data.py:365
+msgid "Symmetry Z"
+msgstr "Z 对称"
+
+#: blockout/preferences.py:15
+msgid "Theme"
+msgstr "主题"
+
+#: blockout/ops/obj/bevel/unpinned.py:686
+msgid "Toggle Mode"
+msgstr "切换模式"
+
+#: blockout/ops/block/mesh.py:28
+#: blockout/ops/block/obj.py:28
+msgid "Tool for drawing a mesh"
+msgstr "用于绘制网格的工具"
+
+#: blockout/ops/block/data.py:566
+msgid "Transform Gizmo"
+msgstr "变换控件"
+
+#: blockout/tools/block/data.py:12
+msgid "Triangle"
+msgstr "三角形"
+
+#: blockout/ops/block/data.py:328
+msgid "Triangle angle"
+msgstr "三角形角度"
+
+#: blockout/ops/block/data.py:322
+msgid "Triangle height"
+msgstr "三角形高度"
+
+#: blockout/ops/block/data.py:521
+#: blockout/tools/block/mesh.py:124
+msgid "Type"
+msgstr "类型"
+
+#: blockout/ops/block/ui.py:217
+#: blockout/ops/obj/boolean.py:165
+msgid "Union"
+msgstr "并集"
+
+#: blockout/ops/obj/bevel/base.py:51
+msgid "Vertex Group"
+msgstr "顶点组"
+
+#: blockout/ops/block/data.py:261
+msgid "Vertex coordinate"
+msgstr "顶点坐标"
+
+#: blockout/ops/block/data.py:377
+#: blockout/ops/block/data.py:393
+msgid "Verts"
+msgstr "顶点"
+
+#: blockout/ops/obj/clean_cutter.py:51
+msgid "Warning: Selected objects are used by modifiers!"
+msgstr "警告：选中的物体被修改器使用！"
+
+#: blockout/ops/obj/bevel/unpinned.py:15
+msgid "Was Created"
+msgstr "已创建"
+
+#: blockout/ops/obj/bevel/base.py:50
+msgid "Weight"
+msgstr "权重"
+
+#: blockout/ops/obj/bevel/unpinned.py:15
+msgid "Whether this modifier was created by the operator"
+msgstr "此修改器是否由该操作符创建"
+
+#: blockout/ops/obj/bevel/base.py:33
+#: blockout/ops/obj/bevel/unpinned.py:21
+msgid "Width"
+msgstr "宽度"
+
+#: blockout/ops/obj/bevel/base.py:29
+msgid "Width Type"
+msgstr "宽度类型"
+
+#: blockout/btypes.py:12
+#: blockout/ops/block/data.py:282
+msgid "X"
+msgstr "X"
+
+#: blockout/btypes.py:90
+msgid "X axis color"
+msgstr "X 轴颜色"
+
+#: blockout/btypes.py:15
+#: blockout/btypes.py:99
+msgid "Y"
+msgstr "Y"
+
+#: blockout/btypes.py:99
+msgid "Y axis colo"
+msgstr "Y 轴颜色"
+
+#: blockout/btypes.py:108
+#: blockout/ops/block/data.py:284
+msgid "Z"
+msgstr "Z"
+
+#: blockout/btypes.py:108
+msgid "Z axis colo"
+msgstr "Z 轴颜色"
+
+#: blockout/ops/align/custom_plane.py:40
+msgctxt "Operator"
+msgid "Align Custom Plane"
+msgstr "对齐自定义平面"
+
+#: blockout/ops/obj/apply_modifiers.py:47
+msgctxt "Operator"
+msgid "Apply Modifiers"
+msgstr "应用修改器"
+
+#: blockout/ops/obj/apply_modifiers.py:49
+msgctxt "Operator"
+msgid "Apply modifiers with grouping and selective application"
+msgstr "按分组和选择性应用来应用修改器"
+
+#: blockout/ui/menus/object.py:13
+msgctxt "Operator"
+msgid "Bevel (Unpinned)"
+msgstr "倒角（未固定）"
+
+#: blockout/ui/menus/object.py:15
+msgctxt "Operator"
+msgid "Bevel Pinned"
+msgstr "倒角（已固定）"
+
+#: blockout/ui/popups/block.py:10
+msgctxt "Operator"
+msgid "Blockout"
+msgstr "Blockout"
+
+#: blockout/ui/menus/object.py:28
+msgctxt "Operator"
+msgid "Carve"
+msgstr "挖切"
+
+#: blockout/ops/obj/clean_cutter.py:6
+msgctxt "Operator"
+msgid "Clean Cutter"
+msgstr "清理切割对象"
+
+#: blockout/ops/obj/clean_cutter.py:7
+msgctxt "Operator"
+msgid "Clean selected cutter objects by removing wireframe display, enabling render, and moving to active collection"
+msgstr "清理选中的切割对象：移除线框显示、启用渲染并移动到活动集合"
+
+#: blockout/ui/menus/object.py:19
+msgctxt "Operator"
+msgid "Cut"
+msgstr "切割"
+
+#: blockout/ops/obj/veil.py:9
+msgctxt "Operator"
+msgid "Hide all mesh objects that are set to wire visibility"
+msgstr "隐藏所有设置为线框可见的网格物体"
+
+#: blockout/ops/align/custom_plane.py:41
+msgctxt "Operator"
+msgid "Interactively move or re-orient the custom plane by snapping to geometry\n • Move mouse - snap to vert/edge/face under cursor\n • TAB - cycle Move / Orient / Move+Orient\n • LMB / SPACE - confirm\n • RMB / ESC - cancel"
+msgstr "通过吸附到几何体以交互方式移动或重新调整自定义平面朝向\n • 移动鼠标 - 吸附到光标下的顶点/边/面\n • TAB - 循环切换 移动 / 定向 / 移动+定向\n • 左键 / SPACE - 确认\n • 右键 / ESC - 取消"
+
+#: blockout/ui/menus/object.py:23
+msgctxt "Operator"
+msgid "Intersect"
+msgstr "交集"
+
+#: blockout/ops/tools/set.py:8
+msgctxt "Operator"
+msgid "Set Active Tool"
+msgstr "设置活动工具"
+
+#: blockout/ops/mesh/custom_plane.py:15
+#: blockout/ops/obj/custom_plane.py:17
+msgctxt "Operator"
+msgid "Set Custom Plane"
+msgstr "设置自定义平面"
+
+#: blockout/ops/obj/custom_plane.py:18
+msgctxt "Operator"
+msgid "Set custom plane based on raycast hit location"
+msgstr "根据射线命中位置设置自定义平面"
+
+#: blockout/ops/mesh/custom_plane.py:16
+msgctxt "Operator"
+msgid "Set custom plane based on selected vertex, edge, or face"
+msgstr "根据选中的顶点、边或面设置自定义平面"
+
+#: blockout/ui/menus/object.py:27
+msgctxt "Operator"
+msgid "Slice"
+msgstr "切片"
+
+#: blockout/ops/obj/veil.py:39
+msgctxt "Operator"
+msgid "Unhide all objects used as booleans in selected objects"
+msgstr "取消隐藏选中物体中用作布尔运算的所有物体"
+
+#: blockout/ui/menus/object.py:21
+msgctxt "Operator"
+msgid "Union"
+msgstr "并集"
+
+#: blockout/ops/obj/veil.py:38
+msgctxt "Operator"
+msgid "Unveil Objects"
+msgstr "取消隐藏物体"
+
+#: blockout/ops/obj/veil.py:8
+msgctxt "Operator"
+msgid "Veil Objects"
+msgstr "隐藏物体"

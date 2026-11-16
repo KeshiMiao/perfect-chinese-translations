@@ -1,0 +1,2148 @@
+# perfect-chinese: 1
+# id: wfc_3d_generator
+# kind: addon
+# module: bl_ext.blender_org.wfc_3d_generator
+# name: WFC 3D Generator
+# name_zh: 波函数三维生成器
+# translator: KeshiMiao
+# category: Object
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: properties.py:125
+#: properties.py:129
+msgid "(De)Select building block."
+msgstr "选择/取消选择构建块。"
+
+#: properties.py:146
+#: properties.py:165
+msgid "(De)Select constraint."
+msgstr "选择/取消选择约束。"
+
+#: properties.py:169
+#: properties.py:173
+msgid "(De)Select direction."
+msgstr "选择/取消选择方向。"
+
+#: properties.py:206
+msgid "(De)Select random seed bookmark."
+msgstr "选择/取消选择随机种子书签。"
+
+#: properties.py:157
+msgid "(De)select objects"
+msgstr "选择/取消选择物体"
+
+#: edit_panel.py:695
+#: edit_panel.py:708
+msgid ","
+msgstr ","
+
+#: properties.py:326
+#: properties.py:339
+msgid "-"
+msgstr "-"
+
+#: properties.py:317
+msgid "... prevents empty grid cells"
+msgstr "...防止出现空网格单元"
+
+#: rotation_panel.py:68
+msgid "180°"
+msgstr "180°"
+
+#: rotation_panel.py:69
+msgid "270°"
+msgstr "270°"
+
+#: rotation_panel.py:67
+msgid "90°"
+msgstr "90°"
+
+#: properties.py:480
+#: properties.py:481
+msgid "90°, 180°, 270°"
+msgstr "90°, 180°, 270°"
+
+#: properties.py:253
+msgid "<"
+msgstr "<"
+
+#: properties.py:253
+msgid "<="
+msgstr "<="
+
+#: properties.py:253
+msgid "="
+msgstr "="
+
+#: properties.py:253
+msgid ">"
+msgstr ">"
+
+#: properties.py:253
+msgid ">="
+msgstr ">="
+
+#: properties.py:164
+#: properties.py:217
+msgid "Abs:"
+msgstr "绝对值："
+
+#: properties.py:164
+#: properties.py:217
+msgid "Absolute position"
+msgstr "绝对位置"
+
+#: properties.py:306
+msgid "Active Constraints"
+msgstr "活动约束"
+
+#: properties.py:306
+msgid "Active constraints"
+msgstr "活动约束"
+
+#: edit_operators.py:305
+msgid "All WFC3D Generator constraints have been reset."
+msgstr "所有 WFC3D Generator 约束均已重置。"
+
+#: backup_panel.py:26
+msgid "All existing constraints will be deleted!"
+msgstr "所有现有约束都将被删除！"
+
+#: properties.py:317
+msgid "Allow Neighbor Constraint Violations"
+msgstr "允许违反相邻约束"
+
+#: rotation_panel.py:66
+msgid "Angles:"
+msgstr "角度："
+
+#: properties.py:370
+msgid "Any Axes"
+msgstr "任意轴"
+
+#: properties.py:377
+msgid "Any Corner"
+msgstr "任意角"
+
+#: properties.py:378
+msgid "Any Edge"
+msgstr "任意边"
+
+#: properties.py:376
+msgid "Any Face"
+msgstr "任意面"
+
+#: properties.py:369
+msgid "Any Neighbor"
+msgstr "任意相邻"
+
+#: properties.py:369
+msgid "Any Neighbor frequency max"
+msgstr "任意相邻最大频率"
+
+#: edit_panel.py:473
+msgid "Any Object"
+msgstr "任意物体"
+
+#: properties.py:370
+msgid "Any Object in Axes frequency max"
+msgstr "任意物体轴向最大频率"
+
+#: edit_panel.py:643
+msgid "Applies only to mesh objects."
+msgstr "仅适用于网格物体。"
+
+#: properties.py:398
+msgid "Apply Flipping to Translation"
+msgstr "将翻转应用于平移"
+
+#: properties.py:398
+msgid "Apply the flipping to the translation transformation"
+msgstr "将翻转应用于平移变换"
+
+#: properties.py:420
+#: properties.py:535
+msgid "Auto save"
+msgstr "自动保存"
+
+#: properties.py:420
+#: properties.py:535
+msgid "Auto save constraint properties"
+msgstr "自动保存约束属性"
+
+#: properties.py:197
+msgid "Auto-detect"
+msgstr "自动检测"
+
+#: properties.py:279
+msgid "Automatic Model Generation when Random Seed Changes"
+msgstr "随机种子变化时自动生成模型"
+
+#: properties.py:197
+#: properties.py:264
+msgid "Automatic cell space detection"
+msgstr "自动检测单元空间"
+
+#: seed_panel.py:27
+msgid "Automatic spacing detection"
+msgstr "自动检测间距"
+
+#: properties.py:350
+msgid "Automatic weight determination"
+msgstr "自动确定权重"
+
+#: properties.py:315
+#: properties.py:316
+msgid "Automatically select objects selected in the 3D Viewport."
+msgstr "自动选择 3D 视图中已选中的物体。"
+
+#: properties.py:154
+#: properties.py:366
+msgid "Axes"
+msgstr "轴"
+
+#: properties.py:366
+msgid "Axes frequency max"
+msgstr "轴向最大频率"
+
+#: properties.py:154
+msgid "Axes frequency max."
+msgstr "轴向最大频率。"
+
+#: properties.py:399
+msgid "Axis"
+msgstr "轴"
+
+#: properties.py:341
+msgid "Back"
+msgstr "后"
+
+#: properties.py:331
+msgid "Back Bottom"
+msgstr "后下"
+
+#: properties.py:322
+msgid "Back Bottom Left"
+msgstr "后下左"
+
+#: properties.py:323
+msgid "Back Bottom Right"
+msgstr "后下右"
+
+#: properties.py:332
+msgid "Back Left"
+msgstr "后左"
+
+#: properties.py:333
+msgid "Back Right"
+msgstr "后右"
+
+#: properties.py:334
+msgid "Back Top"
+msgstr "后上"
+
+#: properties.py:324
+msgid "Back Top Left"
+msgstr "后上左"
+
+#: properties.py:325
+msgid "Back Top Right"
+msgstr "后上右"
+
+#: properties.py:458
+msgid "Back face"
+msgstr "背面"
+
+#: properties.py:261
+msgid "Background Processing"
+msgstr "后台处理"
+
+#: properties.py:448
+msgid "Basis"
+msgstr "基"
+
+#: properties.py:345
+msgid "Bottom"
+msgstr "下"
+
+#: properties.py:462
+msgid "Bottom face"
+msgstr "底面"
+
+#: properties.py:239
+msgid "C: Cell count, E: Empty cells, T: Time required for generation/rendering/total; Click to show/hide object statistics."
+msgstr "C：单元数，E：空单元，T：生成/渲染/总耗时；点击显示/隐藏物体统计信息。"
+
+#: edit_panel.py:8
+msgid "Case sensitive"
+msgstr "区分大小写"
+
+#: search_panel.py:35
+msgid "Cells"
+msgstr "单元"
+
+#: properties.py:534
+msgid "Cherry Picking Delay"
+msgstr "择优挑选延迟"
+
+#: properties.py:280
+msgid "Cherry Picking Running"
+msgstr "择优挑选运行中"
+
+#: properties.py:534
+msgid "Cherry picking delay in seconds"
+msgstr "择优挑选延迟（秒）"
+
+#: edit_panel.py:179
+msgid "Choose a Source Collection"
+msgstr "选择源集合"
+
+#: properties.py:223
+msgid "Click to (de)activate constraint."
+msgstr "点击以启用/停用约束。"
+
+#: properties.py:305
+msgid "Collection Defaults"
+msgstr "集合默认值"
+
+#: properties.py:305
+msgid "Collection defaults"
+msgstr "集合默认值"
+
+#: properties.py:485
+msgid "Connector"
+msgstr "连接器"
+
+#: constants.py:325
+msgid "Connector Constraints"
+msgstr "连接器约束"
+
+#: properties.py:487
+msgid "Connector Exclusion"
+msgstr "连接器排除"
+
+#: constants.py:326
+msgid "Connector Exclusion Constraints"
+msgstr "连接器排除约束"
+
+#: constants.py:325
+msgid "Connector constraints"
+msgstr "连接器约束"
+
+#: edit_panel.py:764
+msgid "Connector constraints:"
+msgstr "连接器约束："
+
+#: constants.py:326
+msgid "Connector exclusion constraints"
+msgstr "连接器排除约束"
+
+#: properties.py:181
+#: properties.py:411
+msgid "Connector name"
+msgstr "连接器名称"
+
+#: properties.py:176
+msgid "Connector name to exclude"
+msgstr "要排除的连接器名称"
+
+#: properties.py:224
+msgid "Constraint"
+msgstr "约束"
+
+#: properties.py:226
+msgid "Constraint Description"
+msgstr "约束描述"
+
+#: properties.py:225
+msgid "Constraint ID"
+msgstr "约束 ID"
+
+#: properties.py:226
+msgid "Constraint description"
+msgstr "约束描述"
+
+#: edit_panel.py:743
+msgid "Constraints Information"
+msgstr "约束信息"
+
+#: properties.py:532
+msgid "Copy Modifiers"
+msgstr "复制修改器"
+
+#: edit_panel.py:272
+#: properties.py:509
+msgid "Copy all constraints from"
+msgstr "从以下对象复制所有约束"
+
+#: properties.py:509
+msgid "Copy all constraints from object"
+msgstr "从物体复制所有约束"
+
+#: properties.py:508
+msgid "Copy constraints from object"
+msgstr "从物体复制约束"
+
+#: properties.py:532
+msgid "Copy modifiers"
+msgstr "复制修改器"
+
+#: properties.py:282
+msgid "Copy modifiers to linked objects."
+msgstr "将修改器复制到关联物体。"
+
+#: properties.py:509
+msgid "Copy selected constraints from"
+msgstr "从以下对象复制所选约束"
+
+#: properties.py:509
+msgid "Copy the currently selected constraints from object"
+msgstr "从物体复制当前所选约束"
+
+#: properties.py:152
+#: properties.py:372
+msgid "Corner"
+msgstr "角"
+
+#: properties.py:152
+msgid "Corner frequency max."
+msgstr "角频率上限"
+
+#: edit_panel.py:333
+msgid "Corners"
+msgstr "角"
+
+#: properties.py:254
+#: properties.py:256
+msgid "Count"
+msgstr "数量"
+
+#: properties.py:256
+msgid "Count of occupied cells or objects"
+msgstr "已占用单元或物体的数量"
+
+#: properties.py:254
+msgid "Count the Number of Objects"
+msgstr "统计物体数量"
+
+#: properties.py:536
+msgid "Default Empty Name"
+msgstr "默认空物体名称"
+
+#: properties.py:432
+#: properties.py:490
+msgid "Dimensions"
+msgstr "尺寸"
+
+#: constants.py:331
+msgid "Dimensions Constraints"
+msgstr "尺寸约束"
+
+#: constants.py:331
+msgid "Dimensions constraints"
+msgstr "尺寸约束"
+
+#: properties.py:432
+msgid "Dimensions of a building block."
+msgstr "建筑块的尺寸。"
+
+#: properties.py:155
+#: properties.py:168
+msgid "Direction"
+msgstr "方向"
+
+#: properties.py:156
+#: properties.py:368
+msgid "Direction frequency max."
+msgstr "方向频率上限"
+
+#: properties.py:209
+msgid "Distance"
+msgstr "距离"
+
+#: constants.py:334
+msgid "Distance Constraints"
+msgstr "距离约束"
+
+#: constants.py:334
+msgid "Distance constraints"
+msgstr "距离约束"
+
+#: properties.py:210
+msgid "Distance from"
+msgstr "距离来源"
+
+#: properties.py:212
+msgid "Distance from a grid position"
+msgstr "与网格位置的距离"
+
+#: properties.py:211
+msgid "Distance from an object"
+msgstr "与物体的距离"
+
+#: properties.py:213
+msgid "Distance from objects in a sub-collection."
+msgstr "与子集合中物体的距离。"
+
+#: properties.py:219
+msgid "Distancy type"
+msgstr "距离类型"
+
+#: properties.py:153
+#: properties.py:373
+msgid "Edge"
+msgstr "边"
+
+#: properties.py:339
+msgid "Edge Forbidden"
+msgstr "禁止边"
+
+#: properties.py:153
+msgid "Edge frequency max."
+msgstr "边频率上限"
+
+#: edit_panel.py:347
+#: properties.py:463
+msgid "Edges"
+msgstr "边"
+
+#: edit_panel.py:183
+msgid "Empty Collection"
+msgstr "空集合"
+
+#: properties.py:489
+msgid "Empty Neighbor"
+msgstr "空相邻"
+
+#: constants.py:329
+msgid "Empty Neighbor Constraints"
+msgstr "空相邻约束"
+
+#: constants.py:329
+msgid "Empty Neighbor constraints"
+msgstr "空相邻约束"
+
+#: properties.py:202
+#: properties.py:277
+msgid "Entropy"
+msgstr "熵"
+
+#: properties.py:277
+msgid "Entropy = Number of permitted elements."
+msgstr "熵 = 允许元素的数量。"
+
+#: properties.py:277
+msgid "Entropy = Optimized Shannon entropy."
+msgstr "熵 = 优化香农熵。"
+
+#: properties.py:277
+msgid "Entropy = Shannon entropy."
+msgstr "熵 = 香农熵。"
+
+#: properties.py:219
+msgid "Equal distance"
+msgstr "等距"
+
+#: backup_panel.py:27
+msgid "Existing constraints will be overwritten!"
+msgstr "现有约束将被覆盖！"
+
+#: backup_panel.py:16
+msgid "Export constraints"
+msgstr "导出约束"
+
+#: properties.py:151
+#: properties.py:371
+msgid "Face"
+msgstr "面"
+
+#: properties.py:151
+msgid "Face frequency max."
+msgstr "面频率上限"
+
+#: edit_panel.py:362
+#: properties.py:464
+msgid "Faces"
+msgstr "面"
+
+#: properties.py:346
+msgid "Faces Forbidden"
+msgstr "禁止面"
+
+#: edit_panel.py:651
+msgid "Faces:"
+msgstr "面："
+
+#: properties.py:405
+msgid "First"
+msgstr "第一"
+
+#: properties.py:405
+msgid "First level (z=1)"
+msgstr "第一层 (z=1)"
+
+#: constants.py:332
+msgid "Fixed Position Constraints"
+msgstr "固定位置约束"
+
+#: properties.py:160
+#: properties.py:163
+msgid "Fixed Position for a building block"
+msgstr "建筑块的固定位置"
+
+#: constants.py:332
+msgid "Fixed position constraints"
+msgstr "固定位置约束"
+
+#: properties.py:164
+#: properties.py:217
+msgid "Fixed position type"
+msgstr "固定位置类型"
+
+#: edit_panel.py:508
+msgid "Flip Mirror Partner"
+msgstr "翻转镜像配对"
+
+#: properties.py:396
+msgid "Flip object on X & Y & Z axes"
+msgstr "在 X、Y、Z 轴上翻转物体"
+
+#: properties.py:393
+msgid "Flip object on X & Y axes"
+msgstr "在 X、Y 轴上翻转物体"
+
+#: properties.py:394
+msgid "Flip object on X & Z axes"
+msgstr "在 X、Z 轴上翻转物体"
+
+#: properties.py:390
+msgid "Flip object on X axis"
+msgstr "在 X 轴上翻转物体"
+
+#: properties.py:395
+msgid "Flip object on Y & Z axes"
+msgstr "在 Y、Z 轴上翻转物体"
+
+#: properties.py:391
+msgid "Flip object on Y axis"
+msgstr "在 Y 轴上翻转物体"
+
+#: properties.py:392
+msgid "Flip object on Z axis"
+msgstr "在 Z 轴上翻转物体"
+
+#: properties.py:362
+msgid "Flipping"
+msgstr "翻转"
+
+#: properties.py:362
+msgid "Flipping probability on given axes"
+msgstr "指定轴上的翻转概率"
+
+#: properties.py:326
+msgid "Forbidden"
+msgstr "禁止"
+
+#: properties.py:144
+msgid "Frequency"
+msgstr "频率"
+
+#: properties.py:145
+msgid "Frequency %"
+msgstr "频率 %"
+
+#: constants.py:335
+msgid "Frequency Constraints"
+msgstr "频率约束"
+
+#: constants.py:335
+msgid "Frequency constraints"
+msgstr "频率约束"
+
+#: properties.py:210
+msgid "From"
+msgstr "来源"
+
+#: properties.py:340
+msgid "Front"
+msgstr "前"
+
+#: properties.py:327
+msgid "Front Bottom"
+msgstr "前下"
+
+#: properties.py:318
+msgid "Front Bottom Left"
+msgstr "前下左"
+
+#: properties.py:319
+msgid "Front Bottom Right"
+msgstr "前下右"
+
+#: properties.py:328
+msgid "Front Left"
+msgstr "前左"
+
+#: properties.py:329
+msgid "Front Right"
+msgstr "前右"
+
+#: properties.py:330
+msgid "Front Top"
+msgstr "前上"
+
+#: properties.py:320
+msgid "Front Top Left"
+msgstr "前上左"
+
+#: properties.py:321
+msgid "Front Top Right"
+msgstr "前上右"
+
+#: properties.py:457
+msgid "Front face"
+msgstr "前面"
+
+#: properties.py:437
+#: properties.py:447
+msgid "Function"
+msgstr "函数"
+
+#: properties.py:445
+#: properties.py:454
+msgid "Gain"
+msgstr "增益"
+
+#: properties.py:261
+msgid "Generate the model in a background process so that it can be canceled or paused."
+msgstr "在后台进程中生成模型，以便可以取消或暂停。"
+
+#: properties.py:262
+msgid "Generate the selected number of cells at once before pausing or canceling is possible."
+msgstr "一次生成选定数量的单元格，之后才可暂停或取消。"
+
+#: properties.py:486
+msgid "Geometry"
+msgstr "几何体"
+
+#: constants.py:328
+msgid "Geometry Constraints"
+msgstr "几何约束"
+
+#: constants.py:328
+msgid "Geometry constraints"
+msgstr "几何约束"
+
+#: properties.py:363
+msgid "Grid"
+msgstr "网格"
+
+#: properties.py:364
+msgid "Grid %"
+msgstr "网格 %"
+
+#: properties.py:262
+msgid "Grid Cells"
+msgstr "网格单元"
+
+#: constants.py:333
+msgid "Grid Constraints"
+msgstr "网格约束"
+
+#: properties.py:254
+msgid "Grid Occupancy"
+msgstr "网格占用率"
+
+#: gen_panel.py:24
+msgid "Grid Size (width/depth/height)"
+msgstr "网格大小（宽/深/高）"
+
+#: constants.py:333
+#: edit_panel.py:783
+msgid "Grid constraints"
+msgstr "网格约束"
+
+#: properties.py:363
+msgid "Grid frequency max"
+msgstr "网格频率最大值"
+
+#: properties.py:364
+msgid "Grid frequency max. %"
+msgstr "网格频率最大值 %"
+
+#: properties.py:215
+msgid "Grid position"
+msgstr "网格位置"
+
+#: properties.py:404
+msgid "Ground"
+msgstr "地面"
+
+#: properties.py:404
+msgid "Ground level (z=0)"
+msgstr "地面高度（z=0）"
+
+#: properties.py:441
+#: properties.py:450
+msgid "H"
+msgstr "高"
+
+#: constants.py:351
+msgid "Hetero Terrain"
+msgstr "异质地形"
+
+#: properties.py:284
+msgid "Hide last target(s)"
+msgstr "隐藏最后的目标"
+
+#: constants.py:349
+msgid "Hybrid Multifractal"
+msgstr "混合多重分形"
+
+#: properties.py:497
+msgid "I'm sure!"
+msgstr "我确定！"
+
+#: backup_panel.py:20
+msgid "Import constraints"
+msgstr "导入约束"
+
+#: backup_panel.py:28
+msgid "Imported constraints will be added."
+msgstr "将添加导入的约束。"
+
+#: properties.py:421
+msgid "Info"
+msgstr "信息"
+
+#: edit_panel.py:375
+msgid "Inside"
+msgstr "内部"
+
+#: properties.py:347
+msgid "Inside Forbidden"
+msgstr "内部禁止"
+
+#: gen_panel.py:99
+#: search_panel.py:37
+msgid "Iterations"
+msgstr "迭代次数"
+
+#: edit_panel.py:545
+msgid "Known connector names:"
+msgstr "已知连接器名称："
+
+#: properties.py:443
+#: properties.py:452
+msgid "Lacunarity"
+msgstr "空隙度"
+
+#: properties.py:342
+msgid "Left"
+msgstr "左"
+
+#: properties.py:336
+msgid "Left Bottom"
+msgstr "左下"
+
+#: properties.py:335
+msgid "Left Top"
+msgstr "左上"
+
+#: properties.py:459
+msgid "Left face"
+msgstr "左面"
+
+#: edit_panel.py:394
+msgid "Level:"
+msgstr "层级："
+
+#: properties.py:531
+msgid "Link Objects"
+msgstr "关联物体"
+
+#: properties.py:281
+msgid "Link new objects instead of copying them. (recommended)"
+msgstr "关联新物体而不是复制它们。（推荐）"
+
+#: properties.py:531
+msgid "Link objects"
+msgstr "关联物体"
+
+#: gen_panel.py:44
+#: properties.py:199
+msgid "Location"
+msgstr "位置"
+
+#: edit_panel.py:645
+msgid "Match"
+msgstr "匹配"
+
+#: properties.py:463
+msgid "Match edges (fast)"
+msgstr "匹配边（快速）"
+
+#: properties.py:464
+msgid "Match faces (slow)"
+msgstr "匹配面（慢速）"
+
+#: properties.py:352
+#: properties.py:356
+msgid "Max"
+msgstr "最大"
+
+#: properties.py:253
+msgid "Maximum"
+msgstr "最大值"
+
+#: properties.py:219
+msgid "Maximum distance"
+msgstr "最大距离"
+
+#: properties.py:407
+msgid "Mid"
+msgstr "中间"
+
+#: properties.py:407
+msgid "Mid level (2<z<max-2)"
+msgstr "中间层级（2<z<max-2）"
+
+#: properties.py:351
+#: properties.py:355
+msgid "Min"
+msgstr "最小"
+
+#: properties.py:253
+msgid "Minimum"
+msgstr "最小值"
+
+#: properties.py:209
+msgid "Minimum cell distance"
+msgstr "单元格最小距离"
+
+#: properties.py:219
+msgid "Minimum distance"
+msgstr "最小距离"
+
+#: edit_panel.py:496
+msgid "Mirror Symmetry"
+msgstr "镜像对称"
+
+#: constants.py:347
+msgid "Multifractal"
+msgstr "多重分形"
+
+#: properties.py:488
+msgid "Multiple Connector"
+msgstr "多重连接器"
+
+#: constants.py:327
+msgid "Multiple Connector Constraints"
+msgstr "多重连接器约束"
+
+#: constants.py:327
+msgid "Multiple Connector constraints"
+msgstr "多重连接器约束"
+
+#: properties.py:141
+#: properties.py:186
+msgid "Name"
+msgstr "名称"
+
+#: properties.py:150
+#: properties.py:365
+msgid "Neighbor"
+msgstr "相邻"
+
+#: constants.py:324
+msgid "Neighbor Constraints"
+msgstr "相邻约束"
+
+#: constants.py:324
+#: edit_panel.py:752
+msgid "Neighbor constraints"
+msgstr "相邻约束"
+
+#: properties.py:372
+#: properties.py:377
+msgid "Neighbor corner frequency max"
+msgstr "相邻角落频率最大值"
+
+#: properties.py:373
+#: properties.py:378
+msgid "Neighbor edge frequency max"
+msgstr "相邻边频率最大值"
+
+#: properties.py:371
+#: properties.py:376
+msgid "Neighbor face frequency max"
+msgstr "相邻面频率最大值"
+
+#: properties.py:365
+msgid "Neighbor frequency max"
+msgstr "相邻频率最大值"
+
+#: properties.py:150
+msgid "Neighbor frequency max."
+msgstr "相邻频率最大值"
+
+#: properties.py:314
+msgid "No Neighbor Allowed"
+msgstr "不允许相邻"
+
+#: properties.py:354
+msgid "No Scaling"
+msgstr "不缩放"
+
+#: edit_operators.py:154
+#: rotation_operators.py:193
+msgid "No active object found"
+msgstr "未找到活动物体"
+
+#: properties.py:314
+msgid "No neighbor allowed"
+msgstr "不允许相邻"
+
+#: constants.py:346
+msgid "Noise"
+msgstr "噪波"
+
+#: properties.py:438
+msgid "Noise Basis"
+msgstr "噪波基准"
+
+#: constants.py:342
+msgid "Noise Constraints"
+msgstr "噪声约束"
+
+#: constants.py:342
+msgid "Noise constraints"
+msgstr "噪声约束"
+
+#: edit_panel.py:614
+msgid "Noise on probability of occurrence:"
+msgstr "出现概率噪声："
+
+#: edit_panel.py:625
+msgid "Noise on transformations:"
+msgstr "变换噪声："
+
+#: properties.py:354
+msgid "Non-Uniform Scaling"
+msgstr "非均匀缩放"
+
+#: properties.py:354
+msgid "Non-uniform scaling"
+msgstr "非均匀缩放"
+
+#: properties.py:203
+msgid "Note"
+msgstr "备注"
+
+#: properties.py:202
+#: properties.py:277
+msgid "Number"
+msgstr "数量"
+
+#: properties.py:202
+msgid "Number of permitted elements."
+msgstr "允许的元素数量。"
+
+#: properties.py:400
+msgid "Number of rotations"
+msgstr "旋转次数"
+
+#: properties.py:149
+#: properties.py:211
+msgid "Object"
+msgstr "物体"
+
+#: properties.py:304
+msgid "Object Constraints"
+msgstr "物体约束"
+
+#: constants.py:335
+msgid "Object Frequency Constraints"
+msgstr "物体频率约束"
+
+#: properties.py:304
+msgid "Object constraints"
+msgstr "物体约束"
+
+#: properties.py:149
+#: properties.py:214
+msgid "Object from the source collection"
+msgstr "源集合中的物体"
+
+#: properties.py:254
+msgid "Occupancy"
+msgstr "占用率"
+
+#: properties.py:442
+#: properties.py:451
+msgid "Octaves"
+msgstr "倍频"
+
+#: gen_panel.py:40
+#: properties.py:198
+msgid "Odd Offset"
+msgstr "奇数偏移"
+
+#: properties.py:444
+#: properties.py:453
+msgid "Offset"
+msgstr "偏移"
+
+#: properties.py:483
+msgid "Offset location for the created building blocks"
+msgstr "所创建建筑块的偏移位置"
+
+#: properties.py:253
+msgid "Operator"
+msgstr "操作符"
+
+#: properties.py:202
+#: properties.py:277
+msgid "Optimized"
+msgstr "优化"
+
+#: properties.py:202
+msgid "Optimized Shannon entropy."
+msgstr "优化的香农熵。"
+
+#: properties.py:141
+#: properties.py:186
+msgid "Optional name of the region"
+msgstr "可选的区域名称"
+
+#: properties.py:203
+msgid "Optional note shown as a tooltip"
+msgstr "作为工具提示显示的可选备注"
+
+#: properties.py:474
+msgid "Overwrite"
+msgstr "覆盖"
+
+#: properties.py:510
+msgid "Overwrite existing constraints"
+msgstr "覆盖现有约束"
+
+#: properties.py:474
+msgid "Overwrite existing properties"
+msgstr "覆盖现有属性"
+
+#: properties.py:275
+msgid "Paused Delayed Renderer"
+msgstr "已暂停的延迟渲染器"
+
+#: properties.py:164
+#: properties.py:217
+msgid "Pct:"
+msgstr "百分比："
+
+#: properties.py:408
+msgid "Penultimate"
+msgstr "倒数第二"
+
+#: properties.py:408
+msgid "Penultimate level (z=max-1)"
+msgstr "倒数第二层（z=max-1）"
+
+#: properties.py:216
+msgid "Percentage-based relative grid position"
+msgstr "基于百分比的相对网格位置"
+
+#: properties.py:164
+#: properties.py:217
+msgid "Percentage-based relative position within the grid"
+msgstr "网格内基于百分比的相对位置"
+
+#: properties.py:34
+#: properties.py:38
+msgid "Please select a direction"
+msgstr "请选择方向"
+
+#: helper.py:393
+msgid "Please select a noise basis"
+msgstr "请选择噪声基"
+
+#: constants.py:345
+msgid "Please select a noise function"
+msgstr "请选择噪声函数"
+
+#: gen_panel.py:126
+msgid "Please select a non-empty source collection."
+msgstr "请选择一个非空源集合。"
+
+#: properties.py:354
+msgid "Please select a scaling type"
+msgstr "请选择缩放类型"
+
+#: gen_panel.py:122
+msgid "Please select a source collection."
+msgstr "请选择源集合。"
+
+#: edit_operators.py:117
+#: rotation_operators.py:209
+msgid "Please select an object in the object list."
+msgstr "请在物体列表中选择一个物体。"
+
+#: rotation_panel.py:87
+msgid "Please select at least one rotation angle!"
+msgstr "请至少选择一个旋转角度！"
+
+#: properties.py:212
+#: properties.py:215
+msgid "Position"
+msgstr "位置"
+
+#: properties.py:430
+msgid "Preferences migrated"
+msgstr "偏好设置已迁移"
+
+#: properties.py:190
+#: properties.py:349
+msgid "Probability"
+msgstr "概率"
+
+#: constants.py:338
+msgid "Probability Constraints"
+msgstr "概率约束"
+
+#: properties.py:349
+msgid "Probability constraint"
+msgstr "概率约束"
+
+#: constants.py:338
+msgid "Probability constraints"
+msgstr "概率约束"
+
+#: edit_panel.py:698
+msgid "Prohibit any empty neighbors in selected directions:"
+msgstr "禁止所选方向上存在任何空邻居："
+
+#: edit_panel.py:684
+msgid "Prohibit empty neighbors in selected directions:"
+msgstr "禁止所选方向上的空邻居："
+
+#: properties.py:403
+msgid "Quadrant"
+msgstr "象限"
+
+#: properties.py:403
+msgid "Quadrant (fbl,fbr,ftl,ftr,bbl,bbr,btl,btr)"
+msgstr "象限（fbl,fbr,ftl,ftr,bbl,bbr,btl,btr）"
+
+#: edit_panel.py:388
+msgid "Quadrant:"
+msgstr "象限："
+
+#: properties.py:278
+msgid "Random Seed"
+msgstr "随机种子"
+
+#: properties.py:297
+msgid "Random Seeds"
+msgstr "随机种子"
+
+#: properties.py:200
+#: seed_panel.py:46
+msgid "Random Start Cell"
+msgstr "随机起始单元格"
+
+#: properties.py:194
+#: properties.py:278
+msgid "Random seed"
+msgstr "随机种子"
+
+#: properties.py:200
+#: properties.py:276
+msgid "Random start cell"
+msgstr "随机起始单元格"
+
+#: properties.py:286
+msgid "Randomize the random seed"
+msgstr "随机化随机种子"
+
+#: properties.py:286
+msgid "Randomize the random seed rather than incrementing it sequentially"
+msgstr "随机化随机种子，而不是按顺序递增"
+
+#: properties.py:455
+msgid "Randomize the starting position"
+msgstr "随机化起始位置"
+
+#: constants.py:333
+msgid "Region Constraints"
+msgstr "区域约束"
+
+#: constants.py:335
+msgid "Region Frequency Constraints"
+msgstr "区域频率约束"
+
+#: constants.py:335
+msgid "Region Frequency constraints"
+msgstr "区域频率约束"
+
+#: constants.py:339
+msgid "Region Probability Constraints"
+msgstr "区域概率约束"
+
+#: constants.py:339
+msgid "Region Probability constraints"
+msgstr "区域概率约束"
+
+#: constants.py:333
+#: edit_panel.py:790
+msgid "Region constraints"
+msgstr "区域约束"
+
+#: properties.py:144
+msgid "Region frequency"
+msgstr "区域频率"
+
+#: properties.py:145
+msgid "Region frequency in %"
+msgstr "区域频率（%）"
+
+#: properties.py:143
+#: properties.py:188
+msgid "Region max"
+msgstr "区域最大值"
+
+#: properties.py:402
+msgid "Region maximum"
+msgstr "区域最大值"
+
+#: properties.py:142
+#: properties.py:187
+msgid "Region min"
+msgstr "区域最小值"
+
+#: properties.py:401
+msgid "Region minimum"
+msgstr "区域最小值"
+
+#: properties.py:190
+msgid "Region probability"
+msgstr "区域概率"
+
+#: properties.py:189
+msgid "Region weight"
+msgstr "区域权重"
+
+#: properties.py:533
+msgid "Remove Target(s)"
+msgstr "移除目标"
+
+#: properties.py:283
+msgid "Remove existing target"
+msgstr "移除现有目标"
+
+#: properties.py:533
+msgid "Remove target(s)"
+msgstr "移除目标"
+
+#: properties.py:273
+#: properties.py:537
+msgid "Render Delay"
+msgstr "渲染延迟"
+
+#: properties.py:537
+msgid "Render Delay in seconds"
+msgstr "渲染延迟（秒）"
+
+#: properties.py:273
+msgid "Render delay in milliseconds"
+msgstr "渲染延迟（毫秒）"
+
+#: properties.py:475
+msgid "Replace"
+msgstr "替换"
+
+#: properties.py:475
+msgid "Replace existing properties"
+msgstr "替换现有属性"
+
+#: backup_panel.py:34
+msgid "Reset All WFC3D Generator Constraints"
+msgstr "重置所有 WFC3D 生成器约束"
+
+#: properties.py:307
+msgid "Reset Constraints"
+msgstr "重置约束"
+
+#: properties.py:307
+msgid "Reset constraints"
+msgstr "重置约束"
+
+#: constants.py:348
+msgid "Ridged Multifractal"
+msgstr "脊状多重分形"
+
+#: properties.py:343
+msgid "Right"
+msgstr "右"
+
+#: properties.py:338
+msgid "Right Bottom"
+msgstr "右下"
+
+#: properties.py:337
+msgid "Right Top"
+msgstr "右上"
+
+#: properties.py:460
+msgid "Right face"
+msgstr "右侧面"
+
+#: properties.py:382
+msgid "Rotate Object"
+msgstr "旋转物体"
+
+#: properties.py:382
+msgid "Rotate Objects"
+msgstr "旋转物体"
+
+#: properties.py:485
+msgid "Rotate connector constraints"
+msgstr "旋转连接器约束"
+
+#: properties.py:487
+msgid "Rotate connector exclusion constraints"
+msgstr "旋转连接器排除约束"
+
+#: rotation_panel.py:43
+msgid "Rotate constraints:"
+msgstr "旋转约束："
+
+#: properties.py:490
+msgid "Rotate dimensions constraints"
+msgstr "旋转尺寸约束"
+
+#: properties.py:489
+msgid "Rotate empty neighbor constraints"
+msgstr "旋转空邻居约束"
+
+#: properties.py:486
+msgid "Rotate geometry constraints"
+msgstr "旋转几何约束"
+
+#: properties.py:488
+msgid "Rotate multiple connector constraints"
+msgstr "旋转多重连接器约束"
+
+#: properties.py:484
+msgid "Rotate neighbor constraints"
+msgstr "旋转邻居约束"
+
+#: edit_panel.py:428
+msgid "Rotation"
+msgstr "旋转"
+
+#: properties.py:399
+msgid "Rotation Axis"
+msgstr "旋转轴"
+
+#: properties.py:353
+msgid "Rotation degrees Steps"
+msgstr "旋转角度步数"
+
+#: properties.py:352
+msgid "Rotation degrees max"
+msgstr "旋转角度最大值"
+
+#: properties.py:351
+msgid "Rotation degrees min"
+msgstr "旋转角度最小值"
+
+#: edit_panel.py:524
+msgid "Rotational Symmetry"
+msgstr "旋转对称"
+
+#: properties.py:274
+msgid "Running Delayed Renderer"
+msgstr "正在运行延迟渲染器"
+
+#: edit_panel.py:459
+msgid "Same Object"
+msgstr "相同物体"
+
+#: edit_panel.py:435
+#: properties.py:440
+msgid "Scale"
+msgstr "缩放"
+
+#: properties.py:356
+msgid "Scale maximum"
+msgstr "缩放最大值"
+
+#: properties.py:358
+msgid "Scale min/max/steps"
+msgstr "缩放最小值/最大值/步数"
+
+#: properties.py:355
+msgid "Scale minimum"
+msgstr "缩放最小值"
+
+#: properties.py:357
+msgid "Scale steps"
+msgstr "缩放步数"
+
+#: properties.py:445
+#: properties.py:454
+msgid "Scaling applied to the values."
+msgstr "应用于数值的缩放。"
+
+#: properties.py:254
+msgid "Scope"
+msgstr "范围"
+
+#: properties.py:285
+msgid "Search Iterations"
+msgstr "搜索迭代"
+
+#: properties.py:253
+msgid "Search Operator"
+msgstr "搜索运算符"
+
+#: properties.py:254
+msgid "Search Scope"
+msgstr "搜索范围"
+
+#: properties.py:285
+msgid "Search iterations"
+msgstr "搜索迭代"
+
+#: properties.py:406
+msgid "Second"
+msgstr "秒"
+
+#: properties.py:406
+msgid "Second level (z=2)"
+msgstr "第二层 (z=2)"
+
+#: constants.py:322
+msgid "Select a Constraint Type"
+msgstr "选择约束类型"
+
+#: properties.py:34
+#: properties.py:38
+msgid "Select a Direction"
+msgstr "选择方向"
+
+#: properties.py:311
+msgid "Select a Neighbor Constraint"
+msgstr "选择邻居约束"
+
+#: properties.py:201
+#: properties.py:259
+msgid "Select a collection"
+msgstr "选择集合"
+
+#: constants.py:322
+msgid "Select a constraint type"
+msgstr "选择约束类型"
+
+#: properties.py:410
+msgid "Select a direction"
+msgstr "选择方向"
+
+#: properties.py:383
+#: properties.py:384
+msgid "Select a mirror partner"
+msgstr "选择镜像配对"
+
+#: properties.py:438
+#: properties.py:448
+msgid "Select a noise basis"
+msgstr "选择噪波基础"
+
+#: properties.py:437
+#: properties.py:447
+msgid "Select a noise function"
+msgstr "选择噪波函数"
+
+#: properties.py:297
+msgid "Select a saved random seed."
+msgstr "选择已保存的随机种子。"
+
+#: properties.py:310
+msgid "Select constraint type"
+msgstr "选择约束类型"
+
+#: properties.py:303
+msgid "Select constraints type"
+msgstr "选择约束类型"
+
+#: properties.py:412
+msgid "Select to apply"
+msgstr "选择以应用"
+
+#: edit_panel.py:243
+msgid "Selected object not found! Please press the reload button."
+msgstr "未找到选中物体！请按重新加载按钮。"
+
+#: properties.py:202
+#: properties.py:277
+msgid "Shannon"
+msgstr "香农"
+
+#: properties.py:202
+msgid "Shannon entropy."
+msgstr "香农熵。"
+
+#: properties.py:425
+msgid "Show directions in the 3D Viewport"
+msgstr "在 3D 视图中显示方向"
+
+#: properties.py:504
+msgid "Show inactive constraints menu items"
+msgstr "显示未激活的约束菜单项"
+
+#: properties.py:207
+msgid "Show/Hide random seed bookmark properties."
+msgstr "显示/隐藏随机种子书签属性。"
+
+#: properties.py:421
+msgid "Shows constraint properties"
+msgstr "显示约束属性"
+
+#: properties.py:196
+#: properties.py:263
+msgid "Size of a Grid Cell"
+msgstr "网格单元大小"
+
+#: properties.py:195
+#: properties.py:260
+msgid "Size of the 3D grid"
+msgstr "3D 网格大小"
+
+#: gen_panel.py:124
+msgid "Source and target collection should not be the same."
+msgstr "源集合与目标集合不能相同。"
+
+#: gen_panel.py:34
+msgid "Space"
+msgstr "空间"
+
+#: properties.py:353
+#: properties.py:357
+msgid "Steps"
+msgstr "步数"
+
+#: properties.py:213
+#: properties.py:218
+msgid "Sub-Collection"
+msgstr "子集合"
+
+#: properties.py:218
+msgid "Sub-collection from the source collection"
+msgstr "源集合中的子集合"
+
+#: properties.py:270
+#: properties.py:271
+msgid "Switch between target collection and target object"
+msgstr "在目标集合与目标物体之间切换"
+
+#: properties.py:381
+msgid "Symmetry Axes"
+msgstr "对称轴"
+
+#: constants.py:336
+msgid "Symmetry Constraints"
+msgstr "对称约束"
+
+#: constants.py:336
+msgid "Symmetry constraints"
+msgstr "对称约束"
+
+#: properties.py:270
+msgid "Target Collection"
+msgstr "目标集合"
+
+#: properties.py:270
+msgid "Target Object"
+msgstr "目标物体"
+
+#: gen_panel.py:113
+msgid "Target collection will be removed!"
+msgstr "目标集合将被移除！"
+
+#: properties.py:269
+msgid "Target for the 3D grid"
+msgstr "3D 网格的目标"
+
+#: gen_panel.py:115
+msgid "Target object will be removed!"
+msgstr "目标物体将被移除！"
+
+#: gen_operators.py:144
+msgid "The WFC 3D model was successfully generated."
+msgstr "WFC 3D 模型已成功生成。"
+
+#: properties.py:441
+#: properties.py:450
+msgid "The fractal dimension of the roughest areas or the fractal increment parameter."
+msgstr "最粗糙区域的分形维度或分形增量参数。"
+
+#: properties.py:443
+#: properties.py:452
+msgid "The gap between successive frequencies."
+msgstr "相邻频率之间的间隔。"
+
+#: properties.py:444
+#: properties.py:453
+msgid "The height of the terrain above ‘sea level’"
+msgstr "地形高于“海平面”的高度"
+
+#: properties.py:442
+#: properties.py:451
+msgid "The number of different noise frequencies used."
+msgstr "使用的不同噪声频率数量。"
+
+#: edit_panel.py:260
+msgid "These constraints are disabled."
+msgstr "这些约束已禁用。"
+
+#: properties.py:439
+#: properties.py:466
+msgid "Threshold"
+msgstr "阈值"
+
+#: properties.py:204
+msgid "Timestamp"
+msgstr "时间戳"
+
+#: properties.py:465
+msgid "Tolerance"
+msgstr "容差"
+
+#: properties.py:344
+#: properties.py:409
+msgid "Top"
+msgstr "顶部"
+
+#: properties.py:461
+msgid "Top face"
+msgstr "顶面"
+
+#: properties.py:409
+msgid "Top level (z=max)"
+msgstr "顶层（z=max）"
+
+#: properties.py:397
+msgid "Transfer Random Transformations"
+msgstr "传递随机变换"
+
+#: properties.py:397
+msgid "Transfer random scaling, rotation and translation to mirror partners"
+msgstr "将随机缩放、旋转和平移传递到镜像配对"
+
+#: constants.py:341
+msgid "Transformations"
+msgstr "变换"
+
+#: edit_panel.py:421
+msgid "Translation Offset"
+msgstr "平移偏移"
+
+#: properties.py:360
+msgid "Translation maximum"
+msgstr "平移最大值"
+
+#: properties.py:359
+msgid "Translation minimum"
+msgstr "平移最小值"
+
+#: properties.py:361
+msgid "Translation steps"
+msgstr "平移步数"
+
+#: properties.py:219
+msgid "Type"
+msgstr "类型"
+
+#: edit_operators.py:278
+msgid "URL"
+msgstr "URL"
+
+#: properties.py:354
+msgid "Uniform Scaling"
+msgstr "均匀缩放"
+
+#: properties.py:354
+#: properties.py:358
+msgid "Uniform scaling"
+msgstr "均匀缩放"
+
+#: properties.py:205
+#: seed_panel.py:45
+msgid "Use Constraints"
+msgstr "使用约束"
+
+#: properties.py:205
+#: properties.py:268
+msgid "Use constraints"
+msgstr "使用约束"
+
+#: properties.py:267
+msgid "Use cursor location (rotation is ignored if you use a target collection instead of a target object)"
+msgstr "使用光标位置（如果使用目标集合而非目标物体，则忽略旋转）"
+
+#: edit_panel.py:280
+msgid "Visit GitHub to get help"
+msgstr "访问 GitHub 获取帮助"
+
+#: backup_panel.py:5
+msgid "WFC 3D Backup"
+msgstr "WFC 3D 备份"
+
+#: edit_panel.py:167
+msgid "WFC 3D Constraints Editor"
+msgstr "WFC 3D 约束编辑器"
+
+#: backup_panel.py:8
+#: edit_panel.py:171
+msgid "WFC 3D Edit"
+msgstr "WFC 3D 编辑"
+
+#: gen_panel.py:11
+#: properties.py:540
+msgid "WFC 3D Gen"
+msgstr "WFC 3D 生成"
+
+#: gen_panel.py:7
+msgid "WFC 3D Generator"
+msgstr "WFC 3D 生成器"
+
+#: search_panel.py:6
+#: search_panel.py:8
+msgid "WFC 3D Random Seed Search"
+msgstr "WFC 3D 随机种子搜索"
+
+#: rotation_panel.py:10
+msgid "WFC 3D Rotation Tool"
+msgstr "WFC 3D 旋转工具"
+
+#: validator_panel.py:5
+msgid "WFC 3D Validator"
+msgstr "WFC 3D 验证器"
+
+#: properties.py:189
+#: properties.py:348
+msgid "Weight"
+msgstr "权重"
+
+#: properties.py:348
+msgid "Weight constraint"
+msgstr "权重约束"
+
+#: properties.py:383
+#: properties.py:390
+msgid "X"
+msgstr "X"
+
+#: edit_panel.py:500
+msgid "X Partner"
+msgstr "X 配对"
+
+#: properties.py:480
+msgid "X Rotation"
+msgstr "X 旋转"
+
+#: properties.py:386
+#: properties.py:393
+msgid "XY"
+msgstr "XY"
+
+#: edit_panel.py:503
+msgid "XY Partner"
+msgstr "XY 配对"
+
+#: properties.py:389
+#: properties.py:396
+msgid "XYZ"
+msgstr "XYZ"
+
+#: edit_panel.py:506
+msgid "XYZ Partner"
+msgstr "XYZ 配对"
+
+#: properties.py:387
+#: properties.py:394
+msgid "XZ"
+msgstr "XZ"
+
+#: edit_panel.py:504
+msgid "XZ Partner"
+msgstr "XZ 配对"
+
+#: properties.py:384
+#: properties.py:391
+msgid "Y"
+msgstr "Y"
+
+#: edit_panel.py:501
+msgid "Y Partner"
+msgstr "Y 配对"
+
+#: properties.py:481
+msgid "Y Rotation"
+msgstr "Y 旋转"
+
+#: properties.py:388
+#: properties.py:395
+msgid "YZ"
+msgstr "YZ"
+
+#: edit_panel.py:505
+msgid "YZ Partner"
+msgstr "YZ 配对"
+
+#: properties.py:385
+#: properties.py:392
+msgid "Z"
+msgstr "Z"
+
+#: edit_panel.py:502
+msgid "Z Partner"
+msgstr "Z 配对"
+
+#: properties.py:482
+msgid "Z Rotation"
+msgstr "Z 旋转"
+
+#: properties.py:253
+msgid "greater than"
+msgstr "大于"
+
+#: properties.py:253
+msgid "greater than or equal"
+msgstr "大于等于"
+
+#: constants.py:350
+msgid "jBM"
+msgstr "jBM"
+
+#: properties.py:253
+msgid "less than"
+msgstr "小于"
+
+#: properties.py:253
+msgid "less than or equal"
+msgstr "小于等于"
+
+#: edit_panel.py:325
+#: edit_panel.py:559
+msgid "nothing defined yet"
+msgstr "尚未定义"
+
+#: edit_operators.py:252
+msgctxt "Operator"
+msgid "Add new constraint item to list"
+msgstr "向列表添加新的约束项"
+
+#: seed_operators.py:31
+msgctxt "Operator"
+msgid "Add/Remove current random seed to/from random seeds list."
+msgstr "将当前随机种子添加到随机种子列表或从中移除。"
+
+#: seed_operators.py:9
+msgctxt "Operator"
+msgid "Apply random seed"
+msgstr "应用随机种子"
+
+#: validator_operators.py:242
+msgctxt "Operator"
+msgid "Clear Log"
+msgstr "清空日志"
+
+#: edit_operators.py:348
+msgctxt "Operator"
+msgid "Copy constraints from object to selected object(s)."
+msgstr "将约束从物体复制到选定物体。"
+
+#: rotation_operators.py:161
+msgctxt "Operator"
+msgid "Create Rotated Copies"
+msgstr "创建旋转副本"
+
+#: edit_operators.py:262
+msgctxt "Operator"
+msgid "Duplicate selected constraints"
+msgstr "复制选定约束"
+
+#: backup_operators.py:101
+msgctxt "Operator"
+msgid "Export Constraints"
+msgstr "导出约束"
+
+#: backup_operators.py:102
+msgctxt "Operator"
+msgid "Export constraints to a JSON file"
+msgstr "将约束导出到 JSON 文件"
+
+#: gen_operators.py:139
+msgctxt "Operator"
+msgid "Generate WFC 3D Model"
+msgstr "生成 WFC 3D 模型"
+
+#: backup_operators.py:48
+msgctxt "Operator"
+msgid "Import Constraints"
+msgstr "导入约束"
+
+#: backup_operators.py:49
+msgctxt "Operator"
+msgid "Import constraints from a JSON file"
+msgstr "从 JSON 文件导入约束"
+
+#: gen_operators.py:257
+msgctxt "Operator"
+msgid "Increment/Decrement Number in Name"
+msgstr "增加/减少名称中的数字"
+
+#: edit_operators.py:327
+msgctxt "Operator"
+msgid "Move selected items down"
+msgstr "将选定项下移"
+
+#: edit_operators.py:313
+msgctxt "Operator"
+msgid "Move selected items up"
+msgstr "将选定项上移"
+
+#: edit_operators.py:277
+msgctxt "Operator"
+msgid "Open Online Help on GitHub"
+msgstr "在 GitHub 上打开在线帮助"
+
+#: gen_operators.py:213
+msgctxt "Operator"
+msgid "Pause Toggle"
+msgstr "暂停切换"
+
+#: edit_operators.py:237
+msgctxt "Operator"
+msgid "Remove selected constraint items from list"
+msgstr "从列表中移除选定约束项"
+
+#: seed_operators.py:19
+msgctxt "Operator"
+msgid "Remove selected random seeds from random seeds list."
+msgstr "从随机种子列表中移除选定随机种子。"
+
+#: edit_operators.py:95
+#: edit_panel.py:285
+msgctxt "Operator"
+msgid "Reset"
+msgstr "重置"
+
+#: edit_operators.py:287
+msgctxt "Operator"
+msgid "Reset All"
+msgstr "全部重置"
+
+#: edit_operators.py:288
+msgctxt "Operator"
+msgid "Reset all constraints"
+msgstr "重置所有约束"
+
+#: edit_operators.py:96
+msgctxt "Operator"
+msgid "Reset selected constraints"
+msgstr "重置所选约束"
+
+#: edit_operators.py:61
+msgctxt "Operator"
+msgid "Save Connector"
+msgstr "保存连接器"
+
+#: edit_operators.py:83
+msgctxt "Operator"
+msgid "Save Constraints"
+msgstr "保存约束"
+
+#: edit_operators.py:71
+msgctxt "Operator"
+msgid "Save Grid Constraints"
+msgstr "保存网格约束"
+
+#: edit_operators.py:51
+msgctxt "Operator"
+msgid "Save Neighbor(s)"
+msgstr "保存相邻项"
+
+#: edit_operators.py:340
+msgctxt "Operator"
+msgid "Save active constraints"
+msgstr "保存活动约束"
+
+#: edit_operators.py:341
+msgctxt "Operator"
+msgid "Save active constraints."
+msgstr "保存活动约束。"
+
+#: search_operators.py:104
+msgctxt "Operator"
+msgid "Search"
+msgstr "搜索"
+
+#: gen_panel.py:100
+#: search_panel.py:48
+msgctxt "Operator"
+msgid "Search Seed"
+msgstr "搜索种子"
+
+#: search_operators.py:105
+msgctxt "Operator"
+msgid "Search for a random seed"
+msgstr "搜索随机种子"
+
+#: edit_operators.py:109
+#: rotation_operators.py:200
+msgctxt "Operator"
+msgid "Select objects in the 3D Viewport"
+msgstr "选择 3D 视图中的物体"
+
+#: edit_operators.py:140
+#: rotation_operators.py:177
+msgctxt "Operator"
+msgid "Select objects selected in the 3D Viewport"
+msgstr "选择在 3D 视图中选中的物体"
+
+#: gen_operators.py:276
+msgctxt "Operator"
+msgid "Set a random random seed"
+msgstr "设置随机种子"
+
+#: edit_operators.py:219
+msgctxt "Operator"
+msgid "Show directions in the 3D Viewport."
+msgstr "在 3D 视图中显示方向。"
+
+#: gen_operators.py:285
+msgctxt "Operator"
+msgid "Show/Hide Collection"
+msgstr "显示/隐藏集合"
+
+#: gen_operators.py:204
+msgctxt "Operator"
+msgid "Stop background process."
+msgstr "停止后台进程。"
+
+#: gen_operators.py:322
+msgctxt "Operator"
+msgid "Toggle Relationship Lines"
+msgstr "切换关系线"
+
+#: validator_operators.py:233
+msgctxt "Operator"
+msgid "Validate Source Collection"
+msgstr "验证源集合"

@@ -1,0 +1,264 @@
+# perfect-chinese: 1
+# id: modifier_manager
+# kind: addon
+# module: bl_ext.blender_org.modifier_manager
+# name: Modifier Manager
+# name_zh: 修改器管理器
+# translator: KeshiMiao
+# category: 
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: modifier_manager/copy.py:86
+msgid "Active → Selected"
+msgstr "活动 → 选中"
+
+#: modifier_manager/__init__.py:14
+msgid "Additional utilities for working with the modifier stack."
+msgstr "用于处理修改器堆栈的附加实用工具。"
+
+#: modifier_manager/prefs.py:8
+msgid "Adds Apply, Remove, and Copy modifiers to the context menu in object mode"
+msgstr "在物体模式的上下文菜单中添加应用、移除和复制修改器"
+
+#: modifier_manager/prefs.py:14
+msgid "Adds new selection modifiers to the Object mode select menu"
+msgstr "在物体模式的选择菜单中添加新的选择修改器"
+
+#: modifier_manager/prefs.py:8
+msgid "Allow add-on to extend the Context Menu"
+msgstr "允许插件扩展上下文菜单"
+
+#: modifier_manager/prefs.py:14
+msgid "Allow add-on to extend the Select menu"
+msgstr "允许插件扩展选择菜单"
+
+#: modifier_manager/apply.py:64
+msgid "Apply Modifiers"
+msgstr "应用修改器"
+
+#: modifier_manager/apply.py:77
+#: modifier_manager/remove.py:52
+msgid "By Type"
+msgstr "按类型"
+
+#: modifier_manager/mixins.py:45
+msgid "Case Sensitive"
+msgstr "区分大小写"
+
+#: modifier_manager/copy.py:82
+msgid "Choose which object is the source and which is the destination"
+msgstr "选择源物体和目标物体"
+
+#: modifier_manager/copy.py:86
+msgid "Copy modifiers from the active object to the other selected object"
+msgstr "将修改器从活动物体复制到其他选中物体"
+
+#: modifier_manager/copy.py:87
+msgid "Copy modifiers from the other selected object to the active object"
+msgstr "将修改器从其他选中物体复制到活动物体"
+
+#: modifier_manager/copy.py:82
+msgid "Direction"
+msgstr "方向"
+
+#: modifier_manager/mixins.py:41
+msgid "Exact Match"
+msgstr "精确匹配"
+
+#: modifier_manager/select_by_type.py:35
+msgid "Extend Current Selection"
+msgstr "扩展当前选择"
+
+#: modifier_manager/__init__.py:14
+msgid "GG Modifier Manager"
+msgstr "GG Modifier Manager"
+
+#: modifier_manager/__init__.py:14
+msgid "Generic"
+msgstr "通用"
+
+#: modifier_manager/select_by_type.py:29
+msgid "Invert Selection"
+msgstr "反选"
+
+#: modifier_manager/select_by_type.py:23
+msgid "Modifier"
+msgstr "修改器"
+
+#: modifier_manager/apply.py:87
+#: modifier_manager/remove.py:58
+msgid "On Active Object Only"
+msgstr "仅活动物体"
+
+#: modifier_manager/remove.py:39
+msgid "Remove Modifiers"
+msgstr "移除修改器"
+
+#: modifier_manager/mixins.py:37
+msgid "Search"
+msgstr "搜索"
+
+#: modifier_manager/select_by_type.py:79
+msgid "Select Objects by Modifier Type"
+msgstr "按修改器类型选择物体"
+
+#: modifier_manager/copy.py:129
+msgid "Select exactly two objects (one active) of the same type."
+msgstr "选择两个同类型的物体（其中一个为活动物体）。"
+
+#: modifier_manager/copy.py:87
+msgid "Selected → Active"
+msgstr "选中 → 活动"
+
+#: modifier_manager/select_by_type.py:23
+msgid "The modifier type that objects must have to be added to the selection"
+msgstr "要加入选择，物体必须具有的修改器类型"
+
+#: modifier_manager/mixins.py:86
+msgid "The modifier type that will be applied"
+msgstr "将要应用的修改器类型"
+
+#: modifier_manager/mixins.py:37
+msgid "The name or partial substring to look for"
+msgstr "要查找的名称或部分字符串"
+
+#: modifier_manager/mixins.py:86
+msgid "Type"
+msgstr "类型"
+
+#: modifier_manager/select_by_type.py:35
+msgid "When enabled, the selection will be extended rather than replaced"
+msgstr "启用时，将扩展选择而不是替换选择"
+
+#: modifier_manager/select_by_type.py:29
+msgid "When enabled, the type selection will be inverted and objects NOT containing the specified modifier type will be selected"
+msgstr "启用时，将反转类型选择，并选中不包含指定修改器类型的物体"
+
+#: modifier_manager/mixins.py:45
+msgid "When true, search comparisons will be case sensitive"
+msgstr "为真时，搜索比较将区分大小写"
+
+#: modifier_manager/mixins.py:41
+msgid "When true, the name will have to match the given search string"
+msgstr "为真时，名称必须与给定的搜索字符串匹配"
+
+#: modifier_manager/apply.py:11
+msgid "❌ Error: Invalid object or modifier."
+msgstr "❌ 错误：无效的物体或修改器。"
+
+#: modifier_manager/apply.py:72
+#: modifier_manager/remove.py:47
+msgctxt "Operator"
+msgid "All"
+msgstr "全部"
+
+#: modifier_manager/select_by_type.py:88
+msgctxt "Operator"
+msgid "Any"
+msgstr "任意"
+
+#: modifier_manager/apply.py:37
+msgctxt "Operator"
+msgid "Apply Modifiers"
+msgstr "应用修改器"
+
+#: modifier_manager/apply.py:46
+msgctxt "Operator"
+msgid "Apply Modifiers by Name"
+msgstr "按名称应用修改器"
+
+#: modifier_manager/apply.py:55
+msgctxt "Operator"
+msgid "Apply Modifiers by Type"
+msgstr "按类型应用修改器"
+
+#: modifier_manager/apply.py:57
+msgctxt "Operator"
+msgid "Apply and remove all modifiers of a specific type on the selected object(s)"
+msgstr "应用并移除选中物体上指定类型的所有修改器"
+
+#: modifier_manager/apply.py:39
+msgctxt "Operator"
+msgid "Apply and remove all modifiers on the selected object(s)"
+msgstr "应用并移除选中物体上的所有修改器"
+
+#: modifier_manager/apply.py:48
+msgctxt "Operator"
+msgid "Apply and remove modifiers on the selected object(s) based on the modifier's name"
+msgstr "根据修改器名称应用并移除选中物体上的修改器"
+
+#: modifier_manager/apply.py:73
+#: modifier_manager/remove.py:48
+msgctxt "Operator"
+msgid "By Name"
+msgstr "按名称"
+
+#: modifier_manager/remove.py:12
+msgctxt "Operator"
+msgid "Clear Modifiers"
+msgstr "清除修改器"
+
+#: modifier_manager/copy.py:77
+msgctxt "Operator"
+msgid "Copy Modifiers"
+msgstr "复制修改器"
+
+#: modifier_manager/copy.py:79
+msgctxt "Operator"
+msgid "Copy all modifiers from one object to the other (two objects selected)"
+msgstr "将一个物体的所有修改器复制到另一个物体（需选中两个物体）"
+
+#: modifier_manager/select_by_type.py:84
+msgctxt "Operator"
+msgid "None"
+msgstr "无"
+
+#: modifier_manager/remove.py:21
+msgctxt "Operator"
+msgid "Remove Modifiers by Name"
+msgstr "按名称移除修改器"
+
+#: modifier_manager/remove.py:30
+msgctxt "Operator"
+msgid "Remove Modifiers by Type"
+msgstr "按类型移除修改器"
+
+#: modifier_manager/remove.py:32
+msgctxt "Operator"
+msgid "Remove all modifiers of a specific type on the selected object(s)"
+msgstr "移除选中物体上指定类型的所有修改器"
+
+#: modifier_manager/remove.py:23
+msgctxt "Operator"
+msgid "Remove modifiers on the selected object(s) based on the modifier's name"
+msgstr "根据修改器名称移除选中物体上的修改器"
+
+#: modifier_manager/remove.py:14
+msgctxt "Operator"
+msgid "Removes all modifiers from the currently selected object(s)"
+msgstr "移除当前选中物体上的所有修改器"
+
+#: modifier_manager/select_by_type.py:18
+msgctxt "Operator"
+msgid "Select Objects by Modifier Type"
+msgstr "按修改器类型选择物体"
+
+#: modifier_manager/select_by_type.py:20
+msgctxt "Operator"
+msgid "Selects all objects in the current scene based on their modifiers"
+msgstr "根据其修改器选择当前场景中的所有物体"
+
+#: modifier_manager/toggle_visibility.py:6
+msgctxt "Operator"
+msgid "Show / hide all modifiers on selected objects"
+msgstr "显示/隐藏选中物体上的所有修改器"
+
+#: modifier_manager/toggle_visibility.py:5
+msgctxt "Operator"
+msgid "Toggle Modifiers"
+msgstr "切换修改器"

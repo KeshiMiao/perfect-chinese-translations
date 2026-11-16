@@ -1,0 +1,977 @@
+# perfect-chinese: 1
+# id: analysis_toolkit
+# kind: addon
+# module: bl_ext.blender_org.Analysis_Toolkit
+# name: Analysis Toolkit
+# name_zh: 分析工具包
+# translator: KeshiMiao
+# category: 3D View
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: ui.py:260
+msgid "(Atmospheric refraction is considered)"
+msgstr "（已考虑大气折射）"
+
+#: ui.py:290
+msgid "(Objects farther than this will shift less than {:.1f}px)"
+msgstr "（距离超过此值的物体偏移将小于 {:.1f}px）"
+
+#: ui.py:129
+msgid "({coverage:.1f}% Coverage)"
+msgstr "（覆盖率 {coverage:.1f}%）"
+
+#: ui.py:178
+msgid "0.3-0.6 lx"
+msgstr "0.3-0.6 lx"
+
+#: ui.py:175
+msgid "1,300-5,100 lx"
+msgstr "1,300-5,100 lx"
+
+#: ui.py:177
+msgid "1-5 lx"
+msgstr "1-5 lx"
+
+#: ui.py:11
+msgid "1. Sensor Management"
+msgstr "1. 传感器管理"
+
+#: ui.py:177
+msgid "10-40 lx"
+msgstr "10-40 lx"
+
+#: ui.py:15
+msgid "2. Correction Settings"
+msgstr "2. 校正设置"
+
+#: ui.py:21
+msgid "3. Measurement & Results"
+msgstr "3. 测量与结果"
+
+#: properties.py:127
+msgid "3D Cursor"
+msgstr "3D 游标"
+
+#: ui.py:176
+msgid "640 lx"
+msgstr "640 lx"
+
+#: ui.py:176
+msgid "80-320 lx"
+msgstr "80-320 lx"
+
+#: ui.py:26
+#: ui.py:33
+msgid ":"
+msgstr "："
+
+#: ui.py:109
+msgid "Active Camera: {cam}"
+msgstr "活动摄像机：{cam}"
+
+#: properties.py:127
+msgid "Active Object"
+msgstr "活动物体"
+
+#: ui.py:112
+msgid "Active UV: {uv}"
+msgstr "活动 UV：{uv}"
+
+#: operators.py:84
+msgid "All sensor measurements are complete."
+msgstr "所有传感器测量均已完成。"
+
+#: ui.py:281
+msgid "Allowed Pixel Shift"
+msgstr "允许像素偏移"
+
+#: ui.py:366
+msgid "AnalysisToolkit"
+msgstr "AnalysisToolkit"
+
+#: ui.py:213
+msgid "Angle (°)"
+msgstr "角度 (°)"
+
+#: properties.py:10
+#: properties.py:12
+msgid "Aperture"
+msgstr "光圈"
+
+#: properties.py:11
+msgid "Aperture Preset"
+msgstr "光圈预设"
+
+#: properties.py:105
+#: ui.py:26
+msgid "Average Lux"
+msgstr "平均 Lux"
+
+#: ui.py:353
+msgid "Average Speed"
+msgstr "平均速度"
+
+#: properties.py:81
+msgid "Average Speed (m/s)"
+msgstr "平均速度 (m/s)"
+
+#: properties.py:117
+#: ui.py:58
+msgid "Basis Sensor"
+msgstr "基准传感器"
+
+#: ui.py:115
+msgid "Calculation Results"
+msgstr "计算结果"
+
+#: properties.py:132
+msgid "Camera Height (m)"
+msgstr "摄像机高度 (m)"
+
+#: properties.py:128
+msgid "Camera Name for Distance"
+msgstr "用于距离的摄像机名称"
+
+#: properties.py:134
+msgid "Camera Name for Horizon"
+msgstr "用于地平线的摄像机名称"
+
+#: properties.py:145
+msgid "Camera Name for Parallax"
+msgstr "用于视差的摄像机名称"
+
+#: ui.py:170
+msgid "Condition"
+msgstr "条件"
+
+#: properties.py:50
+msgid "Coverage"
+msgstr "覆盖率"
+
+#: ui.py:268
+msgid "Current Settings"
+msgstr "当前设置"
+
+#: ui.py:337
+msgid "Current Speed"
+msgstr "当前速度"
+
+#: ui.py:257
+#: ui.py:304
+msgid "Distance"
+msgstr "距离"
+
+#: properties.py:126
+msgid "Distance to Target (m)"
+msgstr "到目标距离 (m)"
+
+#: properties.py:10
+#: properties.py:19
+msgid "EV"
+msgstr "EV"
+
+#: ui.py:162
+msgid "EV / Lux Reference"
+msgstr "EV / Lux 参考"
+
+#: ui.py:387
+msgid "EV Calculator"
+msgstr "EV 计算器"
+
+#: properties.py:108
+#: ui.py:17
+msgid "EV Compensation"
+msgstr "EV 补偿"
+
+#: ui.py:383
+msgid "EV Lux Converter"
+msgstr "EV Lux 转换器"
+
+#: operators.py:148
+msgid "EV compensation resulted in a division by zero."
+msgstr "EV 补偿导致除以零。"
+
+#: properties.py:47
+msgid "Effective Resolution"
+msgstr "有效分辨率"
+
+#: ui.py:117
+msgid "Effective Resolution (Calculated):"
+msgstr "有效分辨率（计算值）："
+
+#: properties.py:119
+msgid "Expand Reference Panel"
+msgstr "展开参考面板"
+
+#: properties.py:118
+msgid "Expand Sun Correction"
+msgstr "展开太阳光校正"
+
+#: ui.py:236
+msgid "Exposure Value (EV)"
+msgstr "曝光值 (EV)"
+
+#: properties.py:16
+msgid "FPS"
+msgstr "FPS"
+
+#: properties.py:150
+msgid "Feet"
+msgstr "英尺"
+
+#: properties.py:148
+msgid "Feet (ft)"
+msgstr "英尺 (ft)"
+
+#: properties.py:75
+msgid "Feet per second"
+msgstr "英尺/秒"
+
+#: ui.py:272
+msgid "Focal Length"
+msgstr "焦距"
+
+#: ui.py:216
+msgid "Frame Rate"
+msgstr "帧率"
+
+#: ui.py:255
+#: ui.py:285
+msgid "From Camera: {cam}"
+msgstr "来自摄像机：{cam}"
+
+#: properties.py:133
+msgid "Ground Z Offset"
+msgstr "地面 Z 偏移"
+
+#: ui.py:256
+msgid "Height above offset"
+msgstr "高于偏移的高度"
+
+#: ui.py:391
+msgid "Horizon Distance"
+msgstr "地平线距离"
+
+#: properties.py:131
+msgid "Horizon Distance (m)"
+msgstr "地平线距离 (m)"
+
+#: properties.py:10
+#: properties.py:18
+msgid "ISO"
+msgstr "ISO"
+
+#: properties.py:17
+msgid "ISO Preset"
+msgstr "ISO 预设"
+
+#: ui.py:375
+msgid "Illuminance Meter"
+msgstr "照度计"
+
+#: properties.py:148
+msgid "Imperial Unit"
+msgstr "英制单位"
+
+#: properties.py:151
+msgid "Inches"
+msgstr "英寸"
+
+#: properties.py:148
+msgid "Inches (in)"
+msgstr "英寸 (in)"
+
+#: ui.py:39
+msgid "Individual Results"
+msgstr "单项结果"
+
+#: ui.py:106
+msgid "Info"
+msgstr "信息"
+
+#: properties.py:67
+msgid "Instantaneous"
+msgstr "瞬时"
+
+#: properties.py:75
+msgid "Kilometers per hour"
+msgstr "公里/小时"
+
+#: properties.py:75
+msgid "Knots"
+msgstr "节"
+
+#: properties.py:123
+#: ui.py:153
+msgid "Lux"
+msgstr "Lux"
+
+#: ui.py:169
+msgid "Lux (Approx.)"
+msgstr "Lux（约）"
+
+#: properties.py:75
+msgid "Mach"
+msgstr "马赫"
+
+#: properties.py:75
+msgid "Mach number"
+msgstr "马赫数"
+
+#: properties.py:107
+msgid "Max Lux"
+msgstr "最大 Lux"
+
+#: ui.py:356
+msgid "Max Speed"
+msgstr "最大速度"
+
+#: properties.py:82
+msgid "Max Speed (m/s)"
+msgstr "最大速度 (m/s)"
+
+#: properties.py:75
+msgid "Meters per minute"
+msgstr "米/分钟"
+
+#: properties.py:75
+msgid "Meters per second"
+msgstr "米/秒"
+
+#: properties.py:149
+msgid "Metric Unit"
+msgstr "公制单位"
+
+#: properties.py:75
+msgid "Miles per hour"
+msgstr "英里/小时"
+
+#: ui.py:33
+msgid "Min / Max"
+msgstr "最小 / 最大"
+
+#: properties.py:106
+msgid "Min Lux"
+msgstr "最小照度"
+
+#: ui.py:359
+msgid "Min Speed"
+msgstr "最小速度"
+
+#: properties.py:83
+msgid "Min Speed (m/s)"
+msgstr "最小速度 (米/秒)"
+
+#: properties.py:9
+#: ui.py:189
+msgid "Mode"
+msgstr "模式"
+
+#: properties.py:9
+msgid "Movie"
+msgstr "影片"
+
+#: ui.py:142
+msgid "N/A"
+msgstr "不适用"
+
+#: properties.py:10
+#: ui.py:226
+msgid "ND Filter"
+msgstr "ND 滤镜"
+
+#: properties.py:20
+msgid "ND Filter Preset"
+msgstr "ND 滤镜预设"
+
+#: properties.py:21
+msgid "ND Filter Stops"
+msgstr "ND 滤镜档数"
+
+#: ui.py:95
+msgid "No active camera in scene"
+msgstr "场景中没有活动相机"
+
+#: operators.py:104
+msgid "No results to save."
+msgstr "没有可保存的结果。"
+
+#: operators.py:47
+msgid "No sensors found in the collection."
+msgstr "集合中未找到传感器。"
+
+#: operators.py:86
+msgid "No valid measurements were obtained."
+msgstr "未获取到有效测量结果。"
+
+#: ui.py:229
+msgid "Not Required"
+msgstr "不需要"
+
+#: ui.py:91
+msgid "Object has no UV map!"
+msgstr "物体没有 UV 贴图！"
+
+#: ui.py:395
+msgid "Parallax Distance"
+msgstr "视差距离"
+
+#: properties.py:139
+msgid "Parallax Distance (m)"
+msgstr "视差距离 (米)"
+
+#: properties.py:140
+msgid "Pixel Shift"
+msgstr "像素偏移"
+
+#: ui.py:273
+msgid "Please select a camera"
+msgstr "请选择相机"
+
+#: operators.py:138
+msgid "Please select a valid sensor from the list."
+msgstr "请从列表中选择有效的传感器。"
+
+#: properties.py:68
+msgid "Range Analysis"
+msgstr "范围分析"
+
+#: ui.py:98
+msgid "Ready"
+msgstr "就绪"
+
+#: properties.py:48
+msgid "Recommended Resolution"
+msgstr "推荐分辨率"
+
+#: ui.py:123
+msgid "Recommended Single Texture Resolution:"
+msgstr "推荐单张纹理分辨率："
+
+#: properties.py:137
+msgid "Reference Frame A"
+msgstr "参考帧 A"
+
+#: properties.py:138
+msgid "Reference Frame B"
+msgstr "参考帧 B"
+
+#: ui.py:275
+msgid "Reference Frames (A, B):"
+msgstr "参考帧 (A, B)："
+
+#: ui.py:110
+msgid "Render Resolution: {x} x {y} px"
+msgstr "渲染分辨率：{x} x {y} px"
+
+#: ui.py:270
+msgid "Resolution"
+msgstr "分辨率"
+
+#: ui.py:254
+#: ui.py:301
+msgid "Result"
+msgstr "结果"
+
+#: properties.py:53
+msgid "Scene Scale Factor"
+msgstr "场景缩放系数"
+
+#: ui.py:87
+msgid "Select an object"
+msgstr "选择物体"
+
+#: ui.py:271
+msgid "Sensor"
+msgstr "传感器"
+
+#: ui.py:75
+msgid "Settings"
+msgstr "设置"
+
+#: ui.py:399
+msgid "Shooting Distance"
+msgstr "拍摄距离"
+
+#: properties.py:10
+msgid "Shutter"
+msgstr "快门"
+
+#: properties.py:15
+msgid "Shutter Angle"
+msgstr "快门角度"
+
+#: properties.py:14
+msgid "Shutter Speed"
+msgstr "快门速度"
+
+#: properties.py:13
+msgid "Shutter Speed Preset"
+msgstr "快门速度预设"
+
+#: properties.py:10
+msgid "Solve Target"
+msgstr "求解目标"
+
+#: ui.py:190
+msgid "Solve for"
+msgstr "求解对象"
+
+#: properties.py:80
+msgid "Speed (m/s)"
+msgstr "速度 (米/秒)"
+
+#: ui.py:203
+msgid "Speed (s)"
+msgstr "速度 (秒)"
+
+#: properties.py:79
+msgid "Speed End Frame"
+msgstr "速度结束帧"
+
+#: properties.py:78
+msgid "Speed Start Frame"
+msgstr "速度起始帧"
+
+#: properties.py:64
+msgid "Speedo Mode"
+msgstr "速度表模式"
+
+#: ui.py:407
+msgid "Speedometer"
+msgstr "速度表"
+
+#: properties.py:9
+msgid "Stills"
+msgstr "静帧"
+
+#: ui.py:134
+msgid "Suggested UDIM Tiles (Based on {res}):"
+msgstr "建议的 UDIM 分块（基于 {res}）："
+
+#: ui.py:55
+msgid "Sun Correction"
+msgstr "太阳光校正"
+
+#: properties.py:115
+#: ui.py:57
+msgid "Sun Object"
+msgstr "太阳光物体"
+
+#: ui.py:69
+#: ui.py:327
+msgid "Target"
+msgstr "目标"
+
+#: properties.py:116
+#: ui.py:60
+msgid "Target Lux"
+msgstr "目标照度"
+
+#: properties.py:127
+msgid "Target Mode"
+msgstr "目标模式"
+
+#: properties.py:29
+#: properties.py:59
+msgid "Target Object"
+msgstr "目标物体"
+
+#: ui.py:71
+msgid "Target Object:"
+msgstr "目标物体："
+
+#: properties.py:35
+msgid "Target Pixel Ratio"
+msgstr "目标像素比"
+
+#: ui.py:77
+msgid "Target Pixel Ratio:"
+msgstr "目标像素比："
+
+#: operators.py:218
+msgid "Texel density calculated successfully."
+msgstr "纹素密度计算成功。"
+
+#: properties.py:41
+msgid "UDIM Base Resolution"
+msgstr "UDIM 基础分辨率"
+
+#: ui.py:80
+msgid "UDIM Base Resolution:"
+msgstr "UDIM 基础分辨率："
+
+#: properties.py:49
+msgid "UDIM Tiles"
+msgstr "UDIM 分块"
+
+#: ui.py:379
+msgid "UV SS Resolution"
+msgstr "UV SS 分辨率"
+
+#: properties.py:72
+#: ui.py:330
+msgid "Unit"
+msgstr "单位"
+
+#: ui.py:403
+msgid "Unit Converter"
+msgstr "单位转换器"
+
+#: properties.py:148
+msgid "ft' in\""
+msgstr "英尺' 英寸\""
+
+#: properties.py:75
+msgid "ft/s"
+msgstr "英尺/秒"
+
+#: properties.py:75
+msgid "km/h"
+msgstr "公里/小时"
+
+#: properties.py:75
+msgid "m/min"
+msgstr "米/分钟"
+
+#: properties.py:75
+msgid "m/s"
+msgstr "米/秒"
+
+#: ui.py:286
+msgid "{:.1f} Pixel Parallax Distance:"
+msgstr "{:.1f} 像素视差距离："
+
+#: ui.py:214
+msgid "{angle:.1f}°"
+msgstr "{angle:.1f}°"
+
+#: ui.py:228
+msgid "{stops:.1f} Stops"
+msgstr "{stops:.1f} 档"
+
+#: ui.py:175
+msgid "~10,000 lx"
+msgstr "~10,000 lx"
+
+#: ui.py:173
+msgid "~164,000 lx"
+msgstr "~164,000 lx"
+
+#: ui.py:174
+msgid "~20,000 lx"
+msgstr "~20,000 lx"
+
+#: ui.py:174
+msgid "~41,000 lx"
+msgstr "~41,000 lx"
+
+#: ui.py:173
+msgid "~82,000 lx"
+msgstr "~82,000 lx"
+
+#: ui.py:242
+msgctxt "Operator"
+msgid "+1"
+msgstr "+1"
+
+#: ui.py:245
+msgctxt "Operator"
+msgid "+⅓"
+msgstr "+⅓"
+
+#: ui.py:241
+msgctxt "Operator"
+msgid "-1"
+msgstr "-1"
+
+#: ui.py:244
+msgctxt "Operator"
+msgid "-⅓"
+msgstr "-⅓"
+
+#: ui.py:277
+#: ui.py:342
+msgctxt "Operator"
+msgid "A"
+msgstr "A"
+
+#: operators.py:10
+#: ui.py:12
+msgctxt "Operator"
+msgid "Add Sensor"
+msgstr "添加传感器"
+
+#: operators.py:123
+#: ui.py:61
+msgctxt "Operator"
+msgid "Adjust Sun Strength"
+msgstr "调整太阳强度"
+
+#: operators.py:377
+#: ui.py:280
+msgctxt "Operator"
+msgid "Auto-Detect Max Range"
+msgstr "自动检测最大范围"
+
+#: ui.py:279
+#: ui.py:344
+msgctxt "Operator"
+msgid "B"
+msgstr "B"
+
+#: operators.py:295
+#: ui.py:251
+msgctxt "Operator"
+msgid "Calculate Horizon Distance"
+msgstr "计算地平线距离"
+
+#: operators.py:332
+#: ui.py:282
+msgctxt "Operator"
+msgid "Calculate Parallax Distance"
+msgstr "计算视差距离"
+
+#: operators.py:205
+msgctxt "Operator"
+msgid "Calculate Screen-Space Texel Density"
+msgstr "计算屏幕空间纹素密度"
+
+#: operators.py:275
+#: ui.py:298
+msgctxt "Operator"
+msgid "Calculate Shooting Distance"
+msgstr "计算拍摄距离"
+
+#: operators.py:225
+#: ui.py:345
+msgctxt "Operator"
+msgid "Calculate Speed over Range"
+msgstr "计算范围内速度"
+
+#: operators.py:429
+msgctxt "Operator"
+msgid "Copy Value"
+msgstr "复制数值"
+
+#: ui.py:261
+#: ui.py:291
+msgctxt "Operator"
+msgid "Create Empty at Distance"
+msgstr "在距离处创建空物体"
+
+#: operators.py:312
+msgctxt "Operator"
+msgid "Create Empty for Horizon"
+msgstr "为地平线创建空物体"
+
+#: operators.py:405
+msgctxt "Operator"
+msgid "Create Empty for Parallax"
+msgstr "为视差创建空物体"
+
+#: ui.py:22
+msgctxt "Operator"
+msgid "Illuminance measurement"
+msgstr "照度测量"
+
+#: operators.py:33
+msgctxt "Operator"
+msgid "Measure All Sensors"
+msgstr "测量所有传感器"
+
+#: ui.py:103
+msgctxt "Operator"
+msgid "Recalculate at Current Position"
+msgstr "在当前位置重新计算"
+
+#: operators.py:91
+#: ui.py:50
+msgctxt "Operator"
+msgid "Save Results as CSV"
+msgstr "将结果保存为 CSV"
+
+#: operators.py:355
+msgctxt "Operator"
+msgid "Set Point A"
+msgstr "设置点 A"
+
+#: operators.py:258
+msgctxt "Operator"
+msgid "Set Point A for Speedo"
+msgstr "为速度计设置点 A"
+
+#: operators.py:366
+msgctxt "Operator"
+msgid "Set Point B"
+msgstr "设置点 B"
+
+#: operators.py:266
+msgctxt "Operator"
+msgid "Set Point B for Speedo"
+msgstr "为速度计设置点 B"
+
+#: operators.py:419
+msgctxt "Operator"
+msgid "Step EV Value"
+msgstr "步进 EV 值"
+
+#: operators.py:11
+msgctxt "Tooltip"
+msgid "Adds a new sensor to the 'LuxMeter Sensors' collection at the 3D cursor's position"
+msgstr "在 3D 光标位置向「LuxMeter Sensors」集合添加新传感器"
+
+#: operators.py:420
+msgctxt "Tooltip"
+msgid "Adjust the Exposure Value by a specific step"
+msgstr "按指定步长调整曝光值"
+
+#: properties.py:133
+msgctxt "Tooltip"
+msgid "Adjust the ground level (Z-axis) if it's not at 0"
+msgstr "如果地面高度（Z 轴）不在 0，请调整"
+
+#: operators.py:124
+msgctxt "Tooltip"
+msgid "Adjusts the strength of the selected Sun Light so that the 'Basis Sensor' receives the 'Target Lux' value"
+msgstr "调整所选太阳光的强度，使「Basis Sensor」接收到「Target Lux」值"
+
+#: properties.py:68
+msgctxt "Tooltip"
+msgid "Analyzes speed over a specified frame range using Point A and Point B"
+msgstr "使用点 A 和点 B 分析指定帧范围内的速度"
+
+#: operators.py:206
+msgctxt "Tooltip"
+msgid "Calculate the optimal texture size based on the active camera view"
+msgstr "根据活动相机视图计算最佳纹理尺寸"
+
+#: properties.py:67
+msgctxt "Tooltip"
+msgid "Calculates speed by advancing the timeline frame by frame"
+msgstr "逐帧推进时间轴以计算速度"
+
+#: operators.py:226
+msgctxt "Tooltip"
+msgid "Calculates the average, maximum, and minimum speed of the target object between the start and end frames"
+msgstr "计算目标物体在起始帧与结束帧之间的平均、最大和最小速度"
+
+#: operators.py:333
+msgctxt "Tooltip"
+msgid "Calculates the distance at which an object would have a parallax shift equal to the 'Allowed Pixel Shift'"
+msgstr "计算物体视差偏移等于「Allowed Pixel Shift」时的距离"
+
+#: operators.py:276
+msgctxt "Tooltip"
+msgid "Calculates the distance from the scene's active camera to the target (3D Cursor or Active Object)"
+msgstr "计算场景活动相机到目标（3D 光标或活动物体）的距离"
+
+#: operators.py:296
+msgctxt "Tooltip"
+msgid "Calculates the distance to the horizon from the active camera's height, considering atmospheric refraction"
+msgstr "根据活动相机高度计算到地平线的距离，并考虑大气折射"
+
+#: properties.py:127
+msgctxt "Tooltip"
+msgid "Choose the target for distance calculation: the 3D Cursor or the currently active object"
+msgstr "选择距离计算的目标：3D 光标或当前活动物体"
+
+#: properties.py:110
+msgctxt "Tooltip"
+msgid "Converts exposure based on visual appearance back to 0 EV physical luminance and calculates illuminance on an absolute scale.If the original exposure reference is unknown, entering the estimated EV value of the environment will provide results closer to real-world illuminance."
+msgstr "将基于视觉外观的曝光转换为 0 EV 的物理亮度，并按绝对尺度计算照度。如果原始曝光参考未知，输入环境的估计 EV 值可获得更接近真实照度的结果。"
+
+#: operators.py:430
+msgctxt "Tooltip"
+msgid "Copy the specified value to the clipboard"
+msgstr "将指定数值复制到剪贴板"
+
+#: properties.py:55
+msgctxt "Tooltip"
+msgid "Correction factor for speed calculation. E.g., if 1 Blender Unit = 1 cm, set to 0.01 to get results in meters/sec"
+msgstr "速度计算的修正系数。例如：若 1 Blender 单位 = 1 厘米，设为 0.01 即可得到米/秒的结果"
+
+#: operators.py:313
+msgctxt "Tooltip"
+msgid "Creates an Empty object at the calculated horizon distance in front of the camera"
+msgstr "在相机前方计算出的地平线距离处创建空物体"
+
+#: operators.py:406
+msgctxt "Tooltip"
+msgid "Creates an Empty object at the calculated parallax distance in front of the camera"
+msgstr "在相机前方计算出的视差距离处创建空物体"
+
+#: operators.py:378
+msgctxt "Tooltip"
+msgid "Finds the two frames within the scene's frame range where the camera has moved the farthest apart"
+msgstr "在场景帧范围内查找相机移动距离最远的两帧"
+
+#: properties.py:37
+msgctxt "Tooltip"
+msgid "How many texture pixels to assign per 1 screen pixel. The slider goes up to 100%, but higher values can be entered manually"
+msgstr "每 1 个屏幕像素分配多少纹理像素。滑块最高为 100%，但可手动输入更高值"
+
+#: operators.py:34
+msgctxt "Tooltip"
+msgid "Measures the illuminance (lux) for all sensors in the collection. This may take time as it involves rendering"
+msgstr "测量集合中所有传感器的照度（lux）。由于涉及渲染，可能需要一些时间"
+
+#: operators.py:92
+msgctxt "Tooltip"
+msgid "Saves the names and lux values of all measured sensors to a CSV file"
+msgstr "将所有已测量传感器的名称和 lux 值保存到 CSV 文件"
+
+#: properties.py:115
+msgctxt "Tooltip"
+msgid "Select the Sun Light object you want to adjust"
+msgstr "选择要调整的太阳光物体"
+
+#: properties.py:74
+msgctxt "Tooltip"
+msgid "Select the unit for speed measurement"
+msgstr "选择速度测量的单位"
+
+#: operators.py:356
+msgctxt "Tooltip"
+msgid "Set the current frame as reference point A for parallax calculation"
+msgstr "将当前帧设为视差计算的参考点 A"
+
+#: operators.py:367
+msgctxt "Tooltip"
+msgid "Set the current frame as reference point B for parallax calculation"
+msgstr "将当前帧设为视差计算的参考点 B"
+
+#: operators.py:267
+msgctxt "Tooltip"
+msgid "Set the current frame as the end point for range analysis"
+msgstr "将当前帧设为范围分析的终点"
+
+#: operators.py:259
+msgctxt "Tooltip"
+msgid "Set the current frame as the start point for range analysis"
+msgstr "将当前帧设为范围分析的起点"
+
+#: properties.py:116
+msgctxt "Tooltip"
+msgid "The desired illuminance value that the Basis Sensor should receive from the Sun Light"
+msgstr "Basis Sensor 应从太阳光接收的目标照度值"
+
+#: properties.py:142
+msgctxt "Tooltip"
+msgid "The maximum number of pixels an object is allowed to shift between frames A and B to be considered 'in focus' or at a stable distance"
+msgstr "在帧 A 与帧 B 之间，物体被视为「对焦」或处于稳定距离所允许的最大像素偏移量"
+
+#: properties.py:61
+msgctxt "Tooltip"
+msgid "The object whose speed you want to measure"
+msgstr "要测量速度的物体"
+
+#: properties.py:117
+msgctxt "Tooltip"
+msgid "The sensor to use as a reference for adjusting the sun's strength"
+msgstr "用作调整太阳强度参考的传感器"

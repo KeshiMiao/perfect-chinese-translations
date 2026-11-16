@@ -1,0 +1,673 @@
+# perfect-chinese: 1
+# id: paws_bakery
+# kind: addon
+# module: bl_ext.blender_org.paws_bakery
+# name: PAWS: Bakery
+# name_zh: PAWS烘焙
+# translator: KeshiMiao
+# category: Bake
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: preferences/props.py:70
+msgid "A comma separated list of aliases to search for in filenames (e.g. `albedo, color, basecolor`)"
+msgstr "用于在文件名中搜索的别名列表，以逗号分隔（例如 `albedo, color, basecolor`）"
+
+#: props.py:76
+msgid "AA"
+msgstr "抗锯齿"
+
+#: preferences/__init__.py:178
+msgid "ABOUT"
+msgstr "关于"
+
+#: props.py:108
+msgid "ADJACENT_FACES"
+msgstr "相邻面"
+
+#: props.py:275
+msgid "Add baked textures to the material already assigned to the object instead of creating a new material"
+msgstr "将烘焙纹理添加到物体已指定的材质，而不是创建新材质"
+
+#: preferences/props.py:70
+msgid "Aliases"
+msgstr "别名"
+
+#: props.py:76
+msgid "Anti Aliasing"
+msgstr "抗锯齿"
+
+#: props.py:186
+msgid "Apply fake user to created material to prevent it's purge"
+msgstr "为创建的材质启用伪用户以防止被清理"
+
+#: props.py:293
+msgid "Assign created materials to baked objects"
+msgstr "将创建的材质指定给烘焙物体"
+
+#: props.py:293
+msgid "Assign to Objects"
+msgstr "指定给物体"
+
+#: ui/texture_set/main.py:115
+msgid "BAKING IN PROGRESS"
+msgstr "烘焙进行中"
+
+#: props.py:303
+msgid "Bake Enabled"
+msgstr "启用烘焙"
+
+#: operators/material_setup.py:566
+msgid "Bake Image Name"
+msgstr "烘焙图像名称"
+
+#: props.py:225
+#: props.py:254
+msgid "Bake enabled"
+msgstr "启用烘焙"
+
+#: ui/debug.py:126
+msgid "BakeManager"
+msgstr "BakeManager"
+
+#: operators/bake_selected.py:100
+#: operators/texture_set_bake.py:175
+msgid "Baking went wrong"
+msgstr "烘焙出错"
+
+#: props.py:126
+msgid "Cage"
+msgstr "罩体"
+
+#: props.py:131
+msgid "Cage Extrusion"
+msgstr "罩体挤出"
+
+#: props.py:215
+msgid "Continue"
+msgstr "继续"
+
+#: props.py:269
+#: ui/texture_set/main.py:163
+msgid "Create Materials"
+msgstr "创建材质"
+
+#: props.py:269
+msgid "Create materials from baked textures after baking"
+msgstr "烘焙后从烘焙纹理创建材质"
+
+#: operators/bake_selected.py:26
+msgid "Create new image instead of adding to existing"
+msgstr "创建新图像而不是添加到现有图像"
+
+#: ui/debug.py:40
+msgid "Debug"
+msgstr "调试"
+
+#: props.py:212
+msgid "Debug pause"
+msgstr "调试暂停"
+
+#: props.py:93
+msgid "Denoise"
+msgstr "降噪"
+
+#: ui/debug.py:55
+msgid "Development utils. Use only if you know what you're doing."
+msgstr "开发工具。仅在你知道自己在做什么时使用。"
+
+#: preferences/__init__.py:158
+msgid "Directory to save baked images"
+msgstr "保存烘焙图像的目录"
+
+#: props.py:107
+msgid "EXTEND"
+msgstr "扩展"
+
+#: preferences/__init__.py:166
+msgid "Enable Debug Tools"
+msgstr "启用调试工具"
+
+#: preferences/__init__.py:166
+msgid "Enable development utils. Use only if you know what you're doing."
+msgstr "启用开发工具。仅在你知道自己在做什么时使用。"
+
+#: preferences/__init__.py:176
+msgid "GENERAL"
+msgstr "常规"
+
+#: ui/helpers/main.py:13
+msgid "Helpers"
+msgstr "辅助工具"
+
+#: ui/_draw_bake_settings.py:57
+msgid "High to Low"
+msgstr "高模到低模"
+
+#: ui/helpers/texture_import.py:129
+msgid "Image without path"
+msgstr "无路径图像"
+
+#: ui/debug.py:24
+msgid "Internal State"
+msgstr "内部状态"
+
+#: ui/texture_set/main.py:66
+msgid "Internal name not set"
+msgstr "未设置内部名称"
+
+#: props.py:258
+msgid "Last Bake Time"
+msgstr "上次烘焙时间"
+
+#: props.py:202
+msgid "Load the image to the active editor view"
+msgstr "将图像加载到活动编辑器视图"
+
+#: ui/simple_bake.py:69
+msgid "Local View is active!"
+msgstr "局部视图已激活！"
+
+#: props.py:98
+msgid "Margin"
+msgstr "边距"
+
+#: props.py:103
+msgid "Margin Type"
+msgstr "边距类型"
+
+#: props.py:103
+msgid "MarginType"
+msgstr "MarginType"
+
+#: props.py:181
+msgid "Mark as Asset"
+msgstr "标记为资产"
+
+#: props.py:181
+msgid "Mark created material as asset for Asset Library"
+msgstr "将创建的材质标记为资产库资产"
+
+#: ui/settings.py:34
+msgid "Material Creation"
+msgstr "材质创建"
+
+#: operators/material_setup.py:562
+#: operators/texture_import.py:67
+msgid "Material Name"
+msgstr "材质名称"
+
+#: props.py:284
+msgid "Material template to use as base for created materials.\nLeave empty to use default one"
+msgstr "用作创建材质基础的材质模板。\n留空则使用默认模板"
+
+#: operators/texture_import.py:67
+msgid "Material to set textures. All selected if empty"
+msgstr "要设置纹理的材质。留空则使用所有选定项"
+
+#: ui/helpers/materials.py:15
+msgid "Materials"
+msgstr "材质"
+
+#: ui/texture_set/mesh.py:22
+msgid "Mesh Specials"
+msgstr "网格特殊项"
+
+#: props.py:300
+msgid "Name"
+msgstr "名称"
+
+#: props.py:169
+msgid "Name Prefix"
+msgstr "名称前缀"
+
+#: ui/_draw_bake_settings.py:31
+#: ui/settings.py:54
+msgid "Name Preview:"
+msgstr "名称预览："
+
+#: props.py:175
+msgid "Name Suffix"
+msgstr "名称后缀"
+
+#: props.py:54
+msgid "Name Template"
+msgstr "名称模板"
+
+#: ui/texture_set/main.py:70
+msgid "Name not set"
+msgstr "未设置名称"
+
+#: operators/material_setup.py:566
+msgid "Name of the image to bake textures into"
+msgstr "要烘焙纹理到的图像名称"
+
+#: ui/texture_set/mesh.py:120
+msgid "No Objects added to Texture Set"
+msgstr "未将物体添加到纹理集"
+
+#: ui/texture_set/texture.py:152
+msgid "No Textures added to Texture Set"
+msgstr "未将纹理添加到纹理集"
+
+#: ui/texture_set/mesh.py:80
+msgid "No active UV map"
+msgstr "无活动 UV 贴图"
+
+#: ui/helpers/texture_import.py:123
+msgid "No image set"
+msgstr "未设置图像"
+
+#: ui/helpers/materials.py:50
+msgid "No material assigned to slot"
+msgstr "槽位未指定材质"
+
+#: ui/helpers/materials.py:44
+msgid "No materials assigned"
+msgstr "未指定材质"
+
+#: ui/helpers/texture_import.py:59
+msgid "No materials assigned to objects"
+msgstr "物体未指定材质"
+
+#: ui/simple_bake.py:59
+#: ui/helpers/materials.py:24
+msgid "No objects selected"
+msgstr "未选择物体"
+
+#: ui/texture_set/main.py:77
+msgid "No textures in set"
+msgstr "纹理集中无纹理"
+
+#: preferences/props.py:60
+msgid "Node Name Prefix"
+msgstr "节点名称前缀"
+
+#: preferences/props.py:54
+msgid "Non-Color"
+msgstr "非颜色"
+
+#: props.py:80
+msgid "None"
+msgstr "无"
+
+#: props.py:87
+msgid "Number of samples. Global value if 0"
+msgstr "采样数。为 0 时使用全局值"
+
+#: operators/randomize_color.py:24
+msgid "Object to randomize color. If empty, applies to all selected"
+msgstr "要随机化颜色的物体。留空则应用于所有选定项"
+
+#: ui/texture_set/mesh.py:91
+msgid "Objects"
+msgstr "物体"
+
+#: ui/helpers/objects_color.py:18
+msgid "Objects Color"
+msgstr "物体颜色"
+
+#: preferences/__init__.py:158
+msgid "Output Directory"
+msgstr "输出目录"
+
+#: operators/bake_selected.py:48
+#: operators/texture_set_bake.py:116
+msgid "PAWSBKR: Baking already running"
+msgstr "PAWSBKR：烘焙已在运行"
+
+#: operators/bake_selected.py:58
+msgid "PAWSBKR: No active Object"
+msgstr "PAWSBKR：无活动物体"
+
+#: props.py:169
+msgid "Prefix to add to the new material"
+msgstr "要添加到新材质的前缀"
+
+#: ui/debug.py:125
+msgid "R"
+msgstr "R"
+
+#: props.py:138
+msgid "Ray Distance"
+msgstr "光线距离"
+
+#: props.py:275
+msgid "Reuse Existing"
+msgstr "重用现有"
+
+#: ui/_draw_bake_settings.py:25
+msgid "SETTINGS"
+msgstr "设置"
+
+#: props.py:87
+msgid "Samples"
+msgstr "采样"
+
+#: operators/bake_selected.py:31
+msgid "Scale image if AA enabled"
+msgstr "启用抗锯齿时缩放图像"
+
+#: props.py:121
+#: ui/_draw_bake_settings.py:57
+msgid "Selected To Active"
+msgstr "选中到活动"
+
+#: props.py:121
+msgid "Selected to active"
+msgstr "选中到活动"
+
+#: ui/debug.py:31
+#: ui/debug.py:71
+msgid "Settings Storage"
+msgstr "设置存储"
+
+#: props.py:383
+msgid "Settings for simple mode"
+msgstr "简单模式设置"
+
+#: props.py:386
+msgid "Settings for texture sets"
+msgstr "纹理集设置"
+
+#: props.py:202
+msgid "Show Baked Image In Editor"
+msgstr "在编辑器中显示烘焙图像"
+
+#: ui/simple_bake.py:21
+msgid "Simple Bake Specials"
+msgstr "简单烘焙特殊项"
+
+#: ui/simple_bake.py:50
+msgid "Simple Mode"
+msgstr "简单模式"
+
+#: props.py:61
+msgid "Size"
+msgstr "尺寸"
+
+#: ui/debug.py:64
+msgid "State"
+msgstr "状态"
+
+#: props.py:175
+msgid "Suffix to add to the new material"
+msgstr "添加到新材质的后缀"
+
+#: operators/randomize_color.py:24
+msgid "Target Object"
+msgstr "目标物体"
+
+#: operators/texture_set_texture.py:104
+msgid "Target texture name"
+msgstr "目标纹理名称"
+
+#: operators/texture_set_texture.py:101
+#: operators/texture_set_texture.py:147
+msgid "Target texture set name"
+msgstr "目标纹理集名称"
+
+#: props.py:284
+msgid "Template"
+msgstr "模板"
+
+#: props.py:54
+msgid "Template of texture filename"
+msgstr "纹理文件名模板"
+
+#: ui/helpers/texture_import.py:38
+msgid "Texture Import"
+msgstr "纹理导入"
+
+#: preferences/__init__.py:177
+msgid "Texture Import Rules"
+msgstr "纹理导入规则"
+
+#: ui/helpers/texture_import.py:22
+msgid "Texture Import Specials"
+msgstr "纹理导入特殊项"
+
+#: ui/texture_set/main.py:101
+msgid "Texture Set Mode"
+msgstr "纹理集模式"
+
+#: ui/texture_set/main.py:24
+msgid "Texture Set Specials"
+msgstr "纹理集特殊项"
+
+#: ui/debug.py:78
+msgid "Texture Sets Storage"
+msgstr "纹理集存储"
+
+#: ui/texture_set/texture.py:29
+msgid "Texture Specials"
+msgstr "纹理特殊项"
+
+#: props.py:61
+msgid "Texture size"
+msgstr "纹理尺寸"
+
+#: ui/texture_set/texture.py:123
+msgid "Textures"
+msgstr "纹理"
+
+#: ui/debug.py:25
+msgid "The internal state of addon systems."
+msgstr "插件系统的内部状态。"
+
+#: ui/simple_bake.py:70
+msgid "The result may not be what you expect."
+msgstr "结果可能与预期不符。"
+
+#: ui/debug.py:32
+msgid "The state of settings storage in the current file."
+msgstr "当前文件中设置存储的状态。"
+
+#: preferences/props.py:60
+msgid "The texture node name prefix used to determine where to assign the image"
+msgstr "用于确定图像分配位置的纹理节点名称前缀"
+
+#: props.py:258
+msgid "Time spent on the last bake"
+msgstr "上次烘焙所用时间"
+
+#: props.py:197
+msgid "Unlink Baked Image"
+msgstr "取消链接烘焙图像"
+
+#: operators/texture_import.py:73
+msgid "Unlink Existing Textures"
+msgstr "取消链接现有纹理"
+
+#: operators/texture_import.py:73
+msgid "Unlink existing textures from managed nodes"
+msgstr "从受管理的节点取消链接现有纹理"
+
+#: props.py:197
+msgid "Unlink the baked image from the current .blend file"
+msgstr "从当前 .blend 文件取消链接烘焙图像"
+
+#: props.py:186
+msgid "Use Fake User"
+msgstr "使用假用户"
+
+#: props.py:114
+msgid "Use Object Color"
+msgstr "使用物体颜色"
+
+#: props.py:93
+msgid "Use denoising"
+msgstr "使用降噪"
+
+#: preferences/props.py:54
+msgid "Use non-color space for image"
+msgstr "图像使用非色彩空间"
+
+#: props.py:114
+msgid "Use object color instead of material color for matid map"
+msgstr "材质 ID 贴图使用物体颜色而非材质颜色"
+
+#: ui/texture_set/main.py:127
+msgid "bl name:"
+msgstr "bl 名称："
+
+#: preferences/__init__.py:243
+msgid "❤️ Support Free Open Source Software ❤️"
+msgstr "❤️ 支持免费开源软件 ❤️"
+
+#: ui/settings.py:16
+msgid "🍰PAWS: Bakery Settings"
+msgstr "🍰PAWS: Bakery 设置"
+
+#: ui/_utils.py:64
+msgid "🍰PAWSBKR"
+msgstr "🍰PAWSBKR"
+
+#: operators/texture_set_mesh.py:17
+msgctxt "Operator"
+msgid "Add Object"
+msgstr "添加物体"
+
+#: operators/texture_set_texture.py:21
+msgctxt "Operator"
+msgid "Add Texture"
+msgstr "添加纹理"
+
+#: preferences/__init__.py:49
+msgctxt "Operator"
+msgid "Add Texture Import Rule"
+msgstr "添加纹理导入规则"
+
+#: operators/texture_set.py:16
+msgctxt "Operator"
+msgid "Add Texture Set"
+msgstr "添加纹理集"
+
+#: ui/simple_bake.py:79
+msgctxt "Operator"
+msgid "BAKE SELECTED"
+msgstr "烘焙选中项"
+
+#: ui/simple_bake.py:79
+msgctxt "Operator"
+msgid "BAKING IN PROGRESS"
+msgstr "烘焙进行中"
+
+#: operators/bake_selected.py:24
+msgctxt "Operator"
+msgid "Bake Map"
+msgstr "烘焙贴图"
+
+#: operators/texture_set_bake.py:38
+msgctxt "Operator"
+msgid "Bake Texture Set Textures"
+msgstr "烘焙纹理集纹理"
+
+#: ui/helpers/texture_import.py:65
+msgctxt "Operator"
+msgid "Batch Import Textures"
+msgstr "批量导入纹理"
+
+#: operators/texture_set_texture.py:144
+msgctxt "Operator"
+msgid "Cleanup Material"
+msgstr "清理材质"
+
+#: ui/simple_bake.py:38
+#: ui/texture_set/texture.py:56
+msgctxt "Operator"
+msgid "Cleanup Materials"
+msgstr "清理材质"
+
+#: operators/material_setup.py:508
+msgctxt "Operator"
+msgid "Cleanup Selected Materials"
+msgstr "清理选中材质"
+
+#: operators/texture_set_material_create.py:29
+msgctxt "Operator"
+msgid "Create Materials from Baked Textures"
+msgstr "从烘焙纹理创建材质"
+
+#: operators/texture_import.py:47
+msgctxt "Operator"
+msgid "Import Textures"
+msgstr "导入纹理"
+
+#: operators/texture_import.py:32
+msgctxt "Operator"
+msgid "Load Sample Material"
+msgstr "加载示例材质"
+
+#: operators/randomize_color.py:21
+msgctxt "Operator"
+msgid "Randomize Color"
+msgstr "随机化颜色"
+
+#: ui/helpers/objects_color.py:41
+msgctxt "Operator"
+msgid "Randomize selected"
+msgstr "随机化选中项"
+
+#: operators/texture_set_mesh.py:67
+msgctxt "Operator"
+msgid "Remove All Object"
+msgstr "移除所有物体"
+
+#: operators/texture_set_mesh.py:49
+msgctxt "Operator"
+msgid "Remove Object"
+msgstr "移除物体"
+
+#: operators/texture_set_texture.py:44
+msgctxt "Operator"
+msgid "Remove Texture"
+msgstr "移除纹理"
+
+#: preferences/__init__.py:64
+msgctxt "Operator"
+msgid "Remove Texture Import Rule"
+msgstr "移除纹理导入规则"
+
+#: operators/texture_set.py:33
+msgctxt "Operator"
+msgid "Remove Texture Set"
+msgstr "移除纹理集"
+
+#: operators/debug.py:15
+msgctxt "Operator"
+msgid "Reset Addon State"
+msgstr "重置插件状态"
+
+#: operators/material_setup.py:555
+#: operators/texture_set_texture.py:98
+msgctxt "Operator"
+msgid "Setup Material"
+msgstr "设置材质"
+
+#: ui/simple_bake.py:30
+#: ui/texture_set/texture.py:45
+msgctxt "Operator"
+msgid "Setup Materials"
+msgstr "设置材质"
+
+#: operators/material_setup.py:524
+msgctxt "Operator"
+msgid "Setup Selected Materials"
+msgstr "设置选中材质"
+
+#: operators/texture_set.py:49
+#: ui/texture_set/main.py:36
+msgctxt "Operator"
+msgid "Sort Texture Sets"
+msgstr "排序纹理集"
+
+#: operators/texture_set_texture.py:66
+#: ui/texture_set/texture.py:66
+msgctxt "Operator"
+msgid "Sort Textures"
+msgstr "排序纹理"

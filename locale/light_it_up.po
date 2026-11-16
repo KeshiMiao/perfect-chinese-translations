@@ -1,0 +1,479 @@
+# perfect-chinese: 1
+# id: light_it_up
+# kind: addon
+# module: bl_ext.blender_org.light_it_up
+# name: Light It Up
+# name_zh: 影棚灯光预设
+# translator: KeshiMiao
+# category: Lighting
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: core/preset_base.py:37
+#: core/settings.py:113
+msgid "Add Camera"
+msgstr "添加摄像机"
+
+#: core/settings.py:132
+#: core/ui.py:276
+msgid "Aim At"
+msgstr "对准"
+
+#: core/preset_base.py:37
+msgid "Also create a camera aimed at the subject"
+msgstr "同时创建一个对准主体的摄像机"
+
+#: core/settings.py:172
+msgid "Animation effect to apply to the active rig"
+msgstr "应用于当前活动灯组的动画效果"
+
+#: core/settings.py:182
+msgid "Blend through four colours"
+msgstr "在四种颜色间渐变过渡"
+
+#: core/settings.py:184
+msgid "Bounce"
+msgstr "弹跳"
+
+#: core/settings.py:188
+msgid "Breathe"
+msgstr "呼吸"
+
+#: presets/free/broad_light.py:16
+msgid "Broad Lighting"
+msgstr "宽光"
+
+#: presets/free/butterfly.py:6
+msgid "Butterfly Lighting"
+msgstr "蝴蝶光"
+
+#: core/preset_base.py:174
+msgid "Camera added"
+msgstr "已添加摄像机"
+
+#: presets/free/clamshell.py:6
+msgid "Clamshell Lighting"
+msgstr "蚌壳光"
+
+#: core/settings.py:182
+msgid "Colour Fade"
+msgstr "颜色渐隐"
+
+#: core/settings.py:43
+msgid "Colour temperature in Kelvin. 6500 leaves the preset's own colours untouched; lower is warmer, higher is cooler"
+msgstr "色温，单位为开尔文。6500 保持预设自身颜色不变；数值越低越暖，越高越冷"
+
+#: core/settings.py:51
+msgid "Contrast between the brightest light and the rest. 1.0 is the preset as authored; higher darkens the fills"
+msgstr "最亮灯光与其余灯光之间的对比度。1.0 为预设原始值；数值越高补光越暗"
+
+#: presets/free/moonlight.py:7
+msgid "Cool Moonlight"
+msgstr "冷月光"
+
+#: core/settings.py:113
+msgid "Create a camera aimed at the subject when applying a preset. Off by default -- a lighting tool should not take over a shot you have already framed"
+msgstr "应用预设时创建一个对准主体的摄像机。默认关闭——灯光工具不应接管你已经构好图的镜头"
+
+#: core/settings.py:179
+msgid "Cycle hue through the spectrum"
+msgstr "色相在光谱中循环"
+
+#: presets/free/dramatic.py:6
+msgid "Dramatic Lighting"
+msgstr "戏剧照明"
+
+#: core/settings.py:172
+msgid "Effect"
+msgstr "效果"
+
+#: core/settings.py:177
+msgid "Fade"
+msgstr "渐隐"
+
+#: core/preset_base.py:43
+#: core/settings.py:120
+msgid "Fit To Subject"
+msgstr "适配主体"
+
+#: core/settings.py:176
+msgid "Flicker"
+msgstr "闪烁"
+
+#: core/preferences.py:62
+msgid "Folder to keep your saved presets in. Leave empty to use Blender's own extension folder, which is separate for each Blender version. Set it to a folder of your own and your presets follow you across versions and machines"
+msgstr "用于存放已保存预设的文件夹。留空则使用 Blender 自带的扩展文件夹，每个 Blender 版本各自独立。设为自己的文件夹后，预设可跨版本、跨设备使用"
+
+#: core/settings.py:186
+msgid "Follow"
+msgstr "跟随"
+
+#: core/custom_presets.py:104
+msgid "Give the preset a name"
+msgstr "为预设命名"
+
+#: presets/free/golden_hour.py:6
+msgid "Golden Hour Lighting"
+msgstr "黄金时刻光"
+
+#: core/settings.py:178
+msgid "Hard on/off flashing -- alarms, horror"
+msgstr "硬开关式闪烁——警报、恐怖场景"
+
+#: presets/free/high_key.py:6
+msgid "High Key Lighting"
+msgstr "高调照明"
+
+#: core/settings.py:166
+msgid "How large each preset thumbnail is drawn. The number of columns follows the width of the panel"
+msgstr "每个预设缩略图的绘制大小。列数随面板宽度变化"
+
+#: core/settings.py:32
+msgid "Intensity"
+msgstr "强度"
+
+#: core/settings.py:176
+msgid "Irregular power changes -- candles, faulty bulbs"
+msgstr "不规则的功率变化——烛光、故障灯泡"
+
+#: core/settings.py:51
+msgid "Key / Fill"
+msgstr "主光 / 补光"
+
+#: core/ui.py:244
+msgid "Light"
+msgstr "灯光"
+
+#: __init__.py:16
+msgid "Light It Up"
+msgstr "Light It Up"
+
+#: core/ui.py:499
+msgid "Light a subject, then save it here"
+msgstr "为主体布光，然后保存到此处"
+
+#: __init__.py:16
+msgid "Lighting"
+msgstr "灯光"
+
+#: core/ui.py:462
+msgid "Lighting Presets"
+msgstr "灯光预设"
+
+#: presets/free/loop_light.py:6
+msgid "Loop Lighting"
+msgstr "环形光"
+
+#: presets/free/low_key.py:6
+msgid "Low Key Lighting"
+msgstr "低调照明"
+
+#: core/custom_presets.py:92
+#: core/custom_presets.py:151
+msgid "Name"
+msgstr "名称"
+
+#: core/custom_presets.py:92
+msgid "Name for this preset"
+msgstr "此预设的名称"
+
+#: core/preset_base.py:316
+msgid "No armature found -- add an empty at the head and set it as the aim target instead"
+msgstr "未找到骨架——可在头部添加一个空物体并将其设为瞄准目标"
+
+#: core/preset_base.py:168
+msgid "No lighting rig in this scene"
+msgstr "此场景中没有灯光组"
+
+#: core/preset_base.py:187
+msgid "No lighting rig selected"
+msgstr "未选择灯光组"
+
+#: core/preset_base.py:153
+msgid "No lighting rigs to remove"
+msgstr "没有可移除的灯光组"
+
+#: core/settings.py:183
+msgid "Noise Flicker"
+msgstr "噪波闪烁"
+
+#: core/settings.py:183
+msgid "Noise-driven flicker -- torches, fire"
+msgstr "噪波驱动的闪烁——火把、火焰"
+
+#: core/settings.py:181
+msgid "One smooth swell and return"
+msgstr "一次平滑的增强与回落"
+
+#: core/settings.py:141
+msgid "Open Categories"
+msgstr "展开分类"
+
+#: core/settings.py:61
+#: core/settings.py:185
+msgid "Orbit"
+msgstr "环绕"
+
+#: core/settings.py:185
+msgid "Orbit a target object"
+msgstr "环绕目标物体"
+
+#: core/settings.py:32
+msgid "Overall brightness, multiplying every light in this rig"
+msgstr "整体亮度，会乘到此灯光组中的每一盏灯"
+
+#: presets/free/overcast_soft.py:6
+msgid "Overcast Soft Lighting"
+msgstr "阴天柔光"
+
+#: core/preferences.py:95
+msgid "Pick your own folder above to keep presets when you upgrade."
+msgstr "在上方选择自己的文件夹，以便升级后仍保留预设。"
+
+#: core/settings.py:132
+msgid "Point every new rig at this object instead of at the centre of what you selected. A portrait pattern on a full figure otherwise lights the chest, because the centre of a standing character is its chest. Use Aim At Head, or point it at anything you like"
+msgstr "让每个新灯光组都对准此物体，而不是对准所选内容的中心。否则人像布光模式用于全身人物时会照在胸口，因为站立角色的中心就是胸部。可使用「对准头部」，也可对准任意物体"
+
+#: core/ui.py:213
+msgid "Preset Display"
+msgstr "预设显示"
+
+#: core/preferences.py:62
+msgid "Presets Folder"
+msgstr "预设文件夹"
+
+#: core/preferences.py:85
+msgid "Presets are saved to:"
+msgstr "预设保存至："
+
+#: core/settings.py:181
+msgid "Pulse"
+msgstr "脉动"
+
+#: core/settings.py:179
+msgid "RGB Cycle"
+msgstr "RGB 循环"
+
+#: core/settings.py:177
+msgid "Ramp power up or down over a frame range"
+msgstr "在帧范围内逐渐增强或减弱功率"
+
+#: presets/free/rembrandt.py:19
+msgid "Rembrandt Lighting"
+msgstr "伦勃朗光"
+
+#: core/preset_base.py:31
+msgid "Remove other lighting rigs first"
+msgstr "请先移除其他灯光组"
+
+#: core/settings.py:192
+msgid "Remove other lighting rigs when applying a preset. Off by default so presets can be layered"
+msgstr "应用预设时移除其他灯光组。默认关闭，以便预设可叠加"
+
+#: core/preset_base.py:31
+#: core/settings.py:192
+msgid "Replace Existing"
+msgstr "替换现有"
+
+#: core/settings.py:184
+msgid "Rhythmic power bounce at a set BPM"
+msgstr "按设定 BPM 有节奏地弹跳功率"
+
+#: core/ui.py:286
+msgid "Rig"
+msgstr "灯光组"
+
+#: presets/free/rim_light.py:6
+msgid "Rim Lighting"
+msgstr "轮廓光"
+
+#: core/settings.py:61
+msgid "Rotate the whole rig around the subject"
+msgstr "围绕主体旋转整个灯光组"
+
+#: core/preset_base.py:43
+msgid "Scale the rig to the size of the object being lit"
+msgstr "将灯光组缩放到被照物体的大小"
+
+#: core/settings.py:120
+msgid "Scale the whole rig to the size of the object being lit. Preset distances are authored for a human-sized subject, so without this a 12cm product is lit by a softbox ten times its own size and comes out flat. Turn it off to light a whole environment, or several objects with one rig"
+msgstr "将整个灯光组缩放到被照物体的大小。预设距离按人体尺寸设定，若不启用，12 厘米的产品会被十倍于自身大小的柔光箱照亮，显得平淡。关闭它可为整个环境布光，或用一组灯光为多个物体布光"
+
+#: core/settings.py:105
+msgid "Section"
+msgstr "区块"
+
+#: presets/free/short_light.py:19
+msgid "Short Lighting"
+msgstr "窄光"
+
+#: core/settings.py:156
+msgid "Show Thumbnails"
+msgstr "显示缩略图"
+
+#: core/settings.py:156
+msgid "Show each lighting preset as a rendered thumbnail rather than as a text button"
+msgstr "将每个灯光预设显示为渲染缩略图，而非文字按钮"
+
+#: core/settings.py:188
+msgid "Slow in-and-out power cycle"
+msgstr "缓慢的渐强渐弱功率循环"
+
+#: presets/free/softbox_diffused.py:6
+msgid "Softbox Diffused"
+msgstr "柔光箱漫射"
+
+#: presets/free/split_light.py:17
+msgid "Split Lighting"
+msgstr "分割光"
+
+#: core/settings.py:178
+msgid "Strobe"
+msgstr "频闪"
+
+#: __init__.py:16
+msgid "Studio lighting presets you can adjust after applying"
+msgstr "应用后仍可调整的影棚灯光预设"
+
+#: presets/free/sunset.py:6
+msgid "Sunset Lighting"
+msgstr "日落光照"
+
+#: core/settings.py:180
+msgid "Swarm"
+msgstr "群集"
+
+#: core/settings.py:187
+msgid "Sweep"
+msgstr "扫动"
+
+#: core/settings.py:187
+msgid "Sweep an area light across an axis"
+msgstr "沿轴扫动区域光"
+
+#: core/settings.py:180
+msgid "Swirling orbital motion around the rig"
+msgstr "围绕灯光组的旋转轨道运动"
+
+#: core/settings.py:43
+msgid "Temperature"
+msgstr "色温"
+
+#: core/ui.py:335
+msgid "The other categories of the same library, comma-joined. Opening one closes these"
+msgstr "同一库中的其他类别，以逗号连接。打开其中一个会关闭这些"
+
+#: core/preferences.py:93
+msgid "This folder belongs to this version of Blender."
+msgstr "此文件夹属于此版本的 Blender。"
+
+#: core/preset_base.py:62
+msgid "This preset defines no lights"
+msgstr "此预设未定义任何灯光"
+
+#: presets/free/three_point_preset.py:6
+msgid "Three-Point Lighting"
+msgstr "三点布光"
+
+#: core/settings.py:166
+msgid "Tile Size"
+msgstr "平铺尺寸"
+
+#: core/settings.py:186
+msgid "Track a moving target"
+msgstr "跟踪移动目标"
+
+#: core/settings.py:105
+msgid "Which part of the add-on the panel is showing"
+msgstr "面板当前显示插件的哪个部分"
+
+#: core/settings.py:141
+msgid "Which preset categories are expanded"
+msgstr "哪些预设类别处于展开状态"
+
+#: core/ui.py:493
+msgid "Your Presets"
+msgstr "你的预设"
+
+#: core/ui.py:304
+msgid "{} rigs in scene -- select one to edit"
+msgstr "场景中有 {} 个灯光组 -- 选择一个进行编辑"
+
+#: core/preset_base.py:161
+msgctxt "Operator"
+msgid "Add Camera"
+msgstr "添加摄像机"
+
+#: core/preset_base.py:305
+msgctxt "Operator"
+msgid "Aim At Head"
+msgstr "对准头部"
+
+#: core/preset_base.py:21
+msgctxt "Operator"
+msgid "Base Lighting Preset"
+msgstr "基础光照预设"
+
+#: core/preset_base.py:363
+msgctxt "Operator"
+msgid "Clear Aim Target"
+msgstr "清除瞄准目标"
+
+#: core/preset_base.py:162
+msgctxt "Operator"
+msgid "Create a camera aimed at this rig's subject"
+msgstr "创建一个对准此灯光组主体的摄像机"
+
+#: core/custom_presets.py:147
+msgctxt "Operator"
+msgid "Delete Custom Preset"
+msgstr "删除自定义预设"
+
+#: core/preset_base.py:147
+msgctxt "Operator"
+msgid "Delete every lighting rig this add-on created"
+msgstr "删除此插件创建的所有灯光组"
+
+#: core/custom_presets.py:148
+msgctxt "Operator"
+msgid "Delete this saved preset"
+msgstr "删除此已保存的预设"
+
+#: core/preset_base.py:146
+msgctxt "Operator"
+msgid "Remove All Lighting"
+msgstr "移除所有光照"
+
+#: core/preset_base.py:180
+msgctxt "Operator"
+msgid "Reset Controls"
+msgstr "重置控制项"
+
+#: core/preset_base.py:181
+msgctxt "Operator"
+msgid "Return this rig's master controls to the preset's own values"
+msgstr "将此灯光组的主控制项恢复为预设自身的值"
+
+#: core/custom_presets.py:88
+msgctxt "Operator"
+msgid "Save Current Lighting"
+msgstr "保存当前光照"
+
+#: core/ui.py:308
+msgctxt "Operator"
+msgid "Save Lighting"
+msgstr "保存光照"
+
+#: core/custom_presets.py:89
+msgctxt "Operator"
+msgid "Save the lights in this scene as a reusable preset"
+msgstr "将此场景中的灯光保存为可复用的预设"
+
+#: core/ui.py:329
+msgctxt "Operator"
+msgid "Toggle Category"
+msgstr "切换类别"

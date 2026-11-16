@@ -1,0 +1,2209 @@
+# perfect-chinese: 1
+# id: cad_sketcher
+# kind: addon
+# module: bl_ext.blender_org.CAD_Sketcher
+# name: CAD Sketcher
+# name_zh: 参数化草图工具
+# translator: KeshiMiao
+# category: 3D View
+# supported_versions: >=5.0.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: units.py:14
+msgid "1 Inch"
+msgstr "1 英寸"
+
+#: units.py:14
+msgid "1\""
+msgstr "1\""
+
+#: units.py:18
+msgid "1/16\""
+msgstr "1/16\""
+
+#: units.py:18
+msgid "1/16th Inch"
+msgstr "1/16 英寸"
+
+#: units.py:15
+msgid "1/2 Inch"
+msgstr "1/2 英寸"
+
+#: units.py:15
+msgid "1/2\""
+msgstr "1/2\""
+
+#: units.py:19
+msgid "1/32\""
+msgstr "1/32\""
+
+#: units.py:19
+msgid "1/32th Inch"
+msgstr "1/32 英寸"
+
+#: units.py:16
+msgid "1/4 Inch"
+msgstr "1/4 英寸"
+
+#: units.py:16
+msgid "1/4\""
+msgstr "1/4\""
+
+#: units.py:20
+msgid "1/64\""
+msgstr "1/64\""
+
+#: units.py:20
+msgid "1/64th Inch"
+msgstr "1/64 英寸"
+
+#: units.py:17
+msgid "1/8\""
+msgstr "1/8\""
+
+#: units.py:17
+msgid "1/8th Inch"
+msgstr "1/8 英寸"
+
+#: workspacetools/add_rectangle.py:53
+msgid "3-Point Rectangle"
+msgstr "三点矩形"
+
+#: operators/move.py:56
+msgid "3D Offset"
+msgstr "3D 偏移"
+
+#: operators/add_arc.py:215
+msgid "A point the arc passes through"
+msgstr "圆弧经过的点"
+
+#: model/group_sketcher.py:217
+msgid "Active Sketch Object"
+msgstr "活动草图物体"
+
+#: ui/panels/sketch_select.py:14
+#: workspacetools/add_sketch.py:13
+msgid "Add Sketch"
+msgstr "添加草图"
+
+#: workspacetools/add_circle2d.py:14
+msgid "Add a circle from its center and its radius"
+msgstr "通过圆心和半径添加圆"
+
+#: operators/add_dimension.py:48
+msgid "Add a diameter or radius constraint"
+msgstr "添加直径或半径约束"
+
+#: operators/offset.py:128
+msgid "Add a dimension holding the offset (on when the distance is typed)"
+msgstr "添加用于保持偏移的尺寸（输入距离时开启）"
+
+#: operators/add_dimension.py:46
+msgid "Add a distance constraint"
+msgstr "添加距离约束"
+
+#: workspacetools/add_line2d.py:14
+#: workspacetools/add_line3d.py:14
+msgid "Add a line from its start to its end point"
+msgstr "通过起点和终点添加直线"
+
+#: workspacetools/offset.py:15
+msgid "Add a parallel copy of a segment or a whole chain"
+msgstr "添加线段或整条链的平行副本"
+
+#: workspacetools/add_point2d.py:15
+#: workspacetools/add_point3d.py:15
+msgid "Add a point to the active sketch"
+msgstr "向活动草图添加点"
+
+#: operators/bevel.py:202
+msgid "Add a radius dimension to the bevel (on when the radius is typed)"
+msgstr "为倒角添加半径尺寸（输入半径时开启）"
+
+#: workspacetools/add_rectangle.py:37
+msgid "Add a rectangle from its center and one corner"
+msgstr "通过中心和一个角添加矩形"
+
+#: workspacetools/add_rectangle.py:54
+msgid "Add a rectangle from one edge and its width, at any angle"
+msgstr "通过一条边及其宽度添加任意角度的矩形"
+
+#: workspacetools/add_rectangle.py:14
+msgid "Add a rectangle from two opposite corners"
+msgstr "通过两个对角添加矩形"
+
+#: workspacetools/add_sketch.py:14
+msgid "Add a sketch on a workplane, a mesh face or an origin plane"
+msgstr "在工作平面、网格面或原点平面上添加草图"
+
+#: operators/add_dimension.py:47
+msgid "Add an angle constraint"
+msgstr "添加角度约束"
+
+#: workspacetools/add_arc2d.py:14
+msgid "Add an arc from its center and its two end points"
+msgstr "通过圆心和两个端点添加圆弧"
+
+#: workspacetools/add_arc2d.py:37
+msgid "Add an arc from its start and end points, curving the way you set off"
+msgstr "通过起点和终点添加圆弧，沿起手方向弯曲"
+
+#: utilities/select.py:41
+msgid "Add to existing selection"
+msgstr "添加到现有选择"
+
+#: base/preferences.py:240
+msgid "Advanced"
+msgstr "高级"
+
+#: model/distance.py:118
+msgid "Align"
+msgstr "对齐"
+
+#: operators/modifiers.py:1108
+#: operators/modifiers.py:1395
+msgid "Align Rotation"
+msgstr "对齐旋转"
+
+#: model/distance.py:104
+msgid "Align Storage"
+msgstr "对齐存储"
+
+#: base/preferences.py:146
+msgid "Align View"
+msgstr "对齐视图"
+
+#: operators/add_dimension.py:123
+#: operators/add_distance.py:24
+msgid "Alignment"
+msgstr "对齐"
+
+#: model/distance.py:526
+msgid "Alignment:"
+msgstr "对齐："
+
+#: operators/add_angle.py:15
+#: operators/add_dimension.py:47
+msgid "Angle"
+msgstr "角度"
+
+#: gizmos/angle.py:18
+msgid "Angle Constraint Gizmo Group"
+msgstr "角度约束控件组"
+
+#: base/preferences.py:113
+msgid "Angle Precision"
+msgstr "角度精度"
+
+#: model/angle.py:63
+msgid "Angle Storage"
+msgstr "角度存储"
+
+#: base/preferences.py:113
+msgid "Angle decimal precision"
+msgstr "角度小数精度"
+
+#: operators/modifiers.py:1264
+msgid "Angular Resolution"
+msgstr "角度分辨率"
+
+#: base/preferences.py:145
+msgid "Arrow Scale"
+msgstr "箭头缩放"
+
+#: operators/modifiers.py:754
+msgid "Asymmetric"
+msgstr "不对称"
+
+#: operators/modifiers.py:755
+msgid "Asymmetry Distance"
+msgstr "不对称距离"
+
+#: operators/add_part_instance.py:26
+msgid "At Cursor"
+msgstr "在光标处"
+
+#: operators/custom_attributes.py:148
+#: operators/custom_attributes.py:157
+msgid "Attribute no longer exists"
+msgstr "属性已不存在"
+
+#: ui/panels/custom_attributes.py:11
+msgid "Attributes"
+msgstr "属性"
+
+#: operators/add_dimension.py:45
+msgid "Auto"
+msgstr "自动"
+
+#: model/group_sketcher.py:202
+msgid "Auto Boolean"
+msgstr "自动布尔"
+
+#: model/group_sketcher.py:184
+#: workspacetools/add_arc2d.py:24
+msgid "Auto Constraints"
+msgstr "自动约束"
+
+#: base/preferences.py:121
+msgid "Auto Fade Objects"
+msgstr "自动淡化物体"
+
+#: model/group_sketcher.py:184
+msgid "Automatically add inferred constraints (for example auto axis alignment and auto coincident)"
+msgstr "自动添加推断的约束（例如自动轴对齐和自动重合）"
+
+#: base/preferences.py:146
+msgid "Automatically align view to workplane when activating a sketch."
+msgstr "激活草图时自动将视图对齐到工作平面。"
+
+#: model/group_sketcher.py:202
+msgid "Automatically boolean a new Extrude/Revolve result into overlapping bodies. Turn off to keep new solids separate; you can still choose a boolean operation per tool in its redo panel"
+msgstr "自动将新的挤出/旋转结果布尔到重叠的实体中。关闭可让新实体保持独立；仍可在每个工具的重做面板中选择布尔操作"
+
+#: workspacetools/bevel.py:14
+msgid "Bevel"
+msgstr "倒角"
+
+#: model/group_sketcher.py:305
+msgid "Body Object"
+msgstr "实体物体"
+
+#: operators/custom_attributes.py:8
+#: operators/modifiers.py:440
+msgid "Boolean"
+msgstr "布尔"
+
+#: base/preferences.py:162
+#: operators/modifiers.py:1540
+msgid "Boolean Solver"
+msgstr "布尔求解器"
+
+#: workspacetools/project_geometry.py:14
+msgid "Bring a picked vertex, edge or face into the active sketch"
+msgstr "将拾取的顶点、边或面带入活动草图"
+
+#: ui/pie_menu.py:63
+msgid "CAD Sketcher"
+msgstr "CAD Sketcher"
+
+#: ui/pie_menu.py:115
+msgid "CAD Sketcher Constraints"
+msgstr "CAD Sketcher 约束"
+
+#: ui/pie_menu.py:187
+msgid "CAD Sketcher More"
+msgstr "CAD Sketcher 更多"
+
+#: model/group_sketcher.py:211
+msgid "CAD Sketcher extension version this scene was saved with"
+msgstr "此场景保存时所用的 CAD Sketcher 扩展版本"
+
+#: operators/workplane_anchor.py:106
+msgid "Can't anchor to a mesh whose modifiers change its faces"
+msgstr "无法锚定到修改器会改变其面的网格"
+
+#: operators/add_geometric_constraints.py:164
+msgid "Cannot merge multiple fixed points"
+msgstr "无法合并多个固定点"
+
+#: global_data.py:68
+msgid "Cannot solve sketch because of inconsistent constraints, check through the failed constraints and remove the ones that contradict each other."
+msgstr "由于约束不一致，无法求解草图；请检查失败的约束，并移除相互矛盾的约束。"
+
+#: global_data.py:85
+msgid "Cannot solve sketch because of too many unknowns."
+msgstr "未知量过多，无法求解草图。"
+
+#: global_data.py:102
+msgid "Cannot solve sketch because of unknown failure."
+msgstr "由于未知故障，无法求解草图。"
+
+#: global_data.py:78
+msgid "Cannot solve sketch, system didn't converge."
+msgstr "无法求解草图，系统未收敛。"
+
+#: workspacetools/add_arc2d.py:13
+msgid "Center Arc"
+msgstr "中心圆弧"
+
+#: workspacetools/add_rectangle.py:36
+msgid "Center Rectangle"
+msgstr "中心矩形"
+
+#: workspacetools/add_circle2d.py:13
+msgid "Circle"
+msgstr "圆"
+
+#: workspacetools/array_circular.py:13
+msgid "Circular Array"
+msgstr "环形阵列"
+
+#: model/arc.py:48
+msgid "Connect the points in the inverted order"
+msgstr "按反向顺序连接点"
+
+#: base/theme.py:165
+msgid "Constraint"
+msgstr "约束"
+
+#: gizmos/constraint.py:37
+msgid "Constraint Gizmo Group"
+msgstr "约束小工具组"
+
+#: base/preferences.py:99
+msgid "Constraint Grid View"
+msgstr "约束网格视图"
+
+#: model/base_constraint.py:115
+msgid "Constraint UID"
+msgstr "约束 UID"
+
+#: ui/panels/constraints_list.py:66
+msgid "Constraints"
+msgstr "约束"
+
+#: ui/panels/tools.py:57
+msgid "Constraints:"
+msgstr "约束："
+
+#: model/base_entity.py:61
+#: ui/pie_menu.py:216
+msgid "Construction"
+msgstr "构造"
+
+#: operators/project_geometry.py:37
+msgid "Construction Geometry"
+msgstr "构造几何"
+
+#: model/group_sketcher.py:177
+msgid "Construction Mode"
+msgstr "构造模式"
+
+#: operators/add_arc.py:205
+#: operators/add_line_2d.py:47
+msgid "Continuous Draw"
+msgstr "连续绘制"
+
+#: model/group_sketcher.py:123
+#: model/group_sketcher.py:126
+msgid "Coordinates"
+msgstr "坐标"
+
+#: operators/modifiers.py:1113
+msgid "Copies along the second direction (1 keeps a single row)"
+msgstr "沿第二方向的复制数（1 表示单行）"
+
+#: operators/copy_paste.py:164
+msgid "Copying is not supported in 3d space"
+msgstr "3D 空间不支持复制"
+
+#: workspacetools/add_rectangle.py:13
+msgid "Corner Rectangle"
+msgstr "角点矩形"
+
+#: operators/modifiers.py:1103
+#: operators/modifiers.py:1226
+msgid "Count"
+msgstr "数量"
+
+#: operators/modifiers.py:1113
+msgid "Count 2"
+msgstr "数量 2"
+
+#: model/sketch.py:32
+msgid "Counter for generating unique curve IDs within this sketch"
+msgstr "用于在此草图中生成唯一曲线 ID 的计数器"
+
+#: operators/project_geometry.py:37
+msgid "Create the projected points and lines as construction geometry"
+msgstr "将投影的点和线创建为构造几何"
+
+#: base/preferences.py:22
+msgid "Critical"
+msgstr "严重"
+
+#: model/curve_names.py:20
+#: operators/context_menu.py:20
+msgid "Curve ID"
+msgstr "曲线 ID"
+
+#: model/angle.py:92
+#: model/coincident.py:41
+msgid "Curve ID 1"
+msgstr "曲线 ID 1"
+
+#: model/angle.py:93
+#: model/coincident.py:42
+msgid "Curve ID 2"
+msgstr "曲线 ID 2"
+
+#: model/symmetry.py:46
+msgid "Curve ID 3"
+msgstr "曲线 ID 3"
+
+#: base/preferences.py:151
+msgid "Curve Resolution"
+msgstr "曲线分辨率"
+
+#: workspacetools/trim.py:14
+msgid "Cut a segment back to where it crosses another"
+msgstr "裁剪线段至与其他线段相交处"
+
+#: operators/modifiers.py:1560
+msgid "Cutter"
+msgstr "切割器"
+
+#: operators/modifiers.py:1549
+msgid "Cutter Display"
+msgstr "切割器显示"
+
+#: operators/select.py:31
+msgid "Cycle Overlapping"
+msgstr "循环切换重叠项"
+
+#: operators/batch_set.py:16
+msgid "Data Path"
+msgstr "数据路径"
+
+#: operators/batch_set.py:16
+msgid "Data path to resolve from the context e.g. 'context.scene'"
+msgstr "从上下文解析的数据路径，例如 'context.scene'"
+
+#: base/preferences.py:26
+msgid "Debug"
+msgstr "调试"
+
+#: ui/panels/debug.py:10
+msgid "Debug Settings"
+msgstr "调试设置"
+
+#: base/preferences.py:105
+msgid "Decimal Precision"
+msgstr "小数精度"
+
+#: operators/custom_attributes.py:10
+msgid "Decimal number"
+msgstr "小数"
+
+#: base/theme.py:16
+#: base/theme.py:82
+msgid "Default"
+msgstr "默认"
+
+#: model/sketch.py:26
+msgid "Degrees of Freedom"
+msgstr "自由度"
+
+#: model/base_constraint.py:268
+#: model/base_entity.py:356
+msgid "Dependencies:"
+msgstr "依赖项："
+
+#: operators/select.py:74
+msgid "Deselect"
+msgstr "取消选择"
+
+#: ui/panels/sketch_select.py:146
+msgid "Detached from face"
+msgstr "已脱离面"
+
+#: operators/add_dimension.py:48
+#: operators/add_dimension.py:608
+msgid "Diameter"
+msgstr "直径"
+
+#: gizmos/diameter.py:14
+msgid "Diameter Gizmo Group"
+msgstr "直径小工具组"
+
+#: global_data.py:78
+msgid "Didnt Converge"
+msgstr "未收敛"
+
+#: operators/modifiers.py:285
+#: operators/modifiers.py:1532
+msgid "Difference"
+msgstr "差集"
+
+#: workspacetools/add_dimension.py:13
+msgid "Dimension"
+msgstr "尺寸"
+
+#: operators/offset.py:128
+msgid "Dimension Distance"
+msgstr "距离尺寸"
+
+#: operators/bevel.py:202
+msgid "Dimension Radius"
+msgstr "半径尺寸"
+
+#: ui/pie_menu.py:135
+msgid "Dimensional Constraints"
+msgstr "尺寸约束"
+
+#: ui/panels/constraints_list.py:90
+msgid "Dimensional:"
+msgstr "尺寸："
+
+#: ui/pie_menu.py:127
+msgid "Dimensions"
+msgstr "尺寸"
+
+#: operators/add_dimension.py:46
+#: operators/add_dimension.py:130
+msgid "Distance"
+msgstr "距离"
+
+#: gizmos/distance.py:17
+msgid "Distance Constraint Gizmo Group"
+msgstr "距离约束小工具组"
+
+#: operators/add_rectangle.py:347
+msgid "Distance from the drawn edge to the opposite one"
+msgstr "从绘制边到对边的距离"
+
+#: operators/modifiers.py:284
+msgid "Do not boolean; just build the solid"
+msgstr "不进行布尔运算；仅构建实体"
+
+#: operators/custom_attributes.py:83
+msgid "Domain"
+msgstr "域"
+
+#: model/angle.py:86
+#: model/diameter.py:64
+msgid "Draw Offset"
+msgstr "绘制偏移"
+
+#: model/angle.py:87
+#: model/distance.py:126
+msgid "Draw Outset"
+msgstr "绘制外扩"
+
+#: model/group_sketcher.py:177
+msgid "Draw all subsequent entities in construction mode"
+msgstr "以构造模式绘制所有后续实体"
+
+#: ui/panels/tools.py:112
+msgid "Drawing:"
+msgstr "绘制："
+
+#: operators/duplicate.py:11
+msgid "Duplicate"
+msgstr "复制"
+
+#: ui/__init__.py:38
+#: ui/panels/sketch_select.py:76
+msgid "Edit Sketch"
+msgstr "编辑草图"
+
+#: model/sketch.py:37
+msgid "Empty object whose transform defines the workplane"
+msgstr "变换定义工作平面的空物体"
+
+#: operators/modifiers.py:279
+msgid "Enabled"
+msgstr "启用"
+
+#: operators/add_line_3d.py:35
+msgid "End Coordinates"
+msgstr "终点坐标"
+
+#: workspacetools/add_arc2d.py:36
+msgid "Endpoint Arc"
+msgstr "端点弧"
+
+#: ui/panels/entities_list.py:22
+msgid "Entities"
+msgstr "实体"
+
+#: base/theme.py:164
+msgid "Entity"
+msgstr "实体"
+
+#: base/preferences.py:126
+msgid "Entity Scale"
+msgstr "实体缩放"
+
+#: base/preferences.py:23
+msgid "Error"
+msgstr "错误"
+
+#: utilities/boolean_nodes.py:49
+msgid "Exact"
+msgstr "精确"
+
+#: base/preferences.py:66
+msgid "Expand this box to show various theme settings"
+msgstr "展开此框以显示各种主题设置"
+
+#: utilities/select.py:41
+msgid "Extend"
+msgstr "延伸"
+
+#: model/group_sketcher.py:211
+msgid "Extension Version"
+msgstr "扩展版本"
+
+#: workspacetools/extrude.py:13
+msgid "Extrude"
+msgstr "挤出"
+
+#: base/preferences.py:121
+msgid "Fade curves/meshes while in sketch mode"
+msgstr "草图模式下淡显曲线/网格"
+
+#: base/theme.py:102
+#: model/base_constraint.py:114
+msgid "Failed"
+msgstr "失败"
+
+#: base/theme.py:112
+msgid "Failed Highlight"
+msgstr "失败高亮"
+
+#: stateful_operator/invoke_op.py:31
+msgid "Fall Through"
+msgstr "穿透"
+
+#: operators/migrate.py:84
+msgid "File is already up to date"
+msgstr "文件已是最新"
+
+#: operators/migrate.py:82
+msgid "File updated"
+msgstr "文件已更新"
+
+#: ui/selected_menu.py:37
+msgid "Fix the selected geometry in place"
+msgstr "将所选几何图形固定到位"
+
+#: base/theme.py:70
+#: model/base_entity.py:58
+msgid "Fixed"
+msgstr "固定"
+
+#: model/distance.py:117
+#: operators/add_dimension.py:124
+msgid "Flip"
+msgstr "翻转"
+
+#: operators/modifiers.py:1273
+msgid "Flip Direction"
+msgstr "翻转方向"
+
+#: operators/custom_attributes.py:10
+msgid "Float"
+msgstr "浮动"
+
+#: base/preferences.py:83
+msgid "Force Entity Redraw"
+msgstr "强制重绘实体"
+
+#: operators/workplane_anchor.py:25
+msgid "Free the workplane for this sketch only (takes precedence)"
+msgstr "仅为此草图释放工作平面（优先）"
+
+#: operators/add_sketch.py:431
+msgid "Front plane (normal Y)"
+msgstr "前平面（法向 Y）"
+
+#: ui/panels/constraints_list.py:99
+msgid "Geometric:"
+msgstr "几何："
+
+#: base/preferences.py:227
+msgid "Geometry"
+msgstr "几何"
+
+#: workspacetools/extrude.py:14
+msgid "Give the selected profile depth, as a live modifier"
+msgstr "为所选轮廓赋予深度，作为实时修改器"
+
+#: model/base_entity.py:32
+msgid "Global Index"
+msgstr "全局索引"
+
+#: operators/add_sketch.py:430
+msgid "Ground plane (normal Z)"
+msgstr "地平面（法向 Z）"
+
+#: base/preferences.py:135
+msgid "Group Constraint Icons"
+msgstr "组合约束图标"
+
+#: stateful_operator/invoke_op.py:23
+msgid "Group Key"
+msgstr "组合键"
+
+#: base/preferences.py:84
+msgid "Hide Legacy Drawing"
+msgstr "隐藏旧版绘制"
+
+#: base/preferences.py:84
+msgid "Hide entity-based drawing (shows only native curve overlay)"
+msgstr "隐藏基于实体的绘制（仅显示原生曲线叠加）"
+
+#: base/preferences.py:77
+msgid "Hide inactive Constraints"
+msgstr "隐藏未激活的约束"
+
+#: base/theme.py:25
+#: base/theme.py:92
+msgid "Highlight"
+msgstr "高亮"
+
+#: utilities/highlighting.py:32
+#: utilities/highlighting.py:33
+msgid "Highlight Hover"
+msgstr "高亮悬停"
+
+#: utilities/highlighting.py:34
+msgid "Highlight Members"
+msgstr "高亮成员"
+
+#: operators/modifiers.py:1539
+msgid "Hole Tolerant"
+msgstr "容忍孔洞"
+
+#: model/distance.py:55
+msgid "Horizontal"
+msgstr "水平"
+
+#: base/preferences.py:132
+msgid "Icon Scale"
+msgstr "图标缩放"
+
+#: units.py:12
+msgid "Imperial Precision"
+msgstr "英制精度"
+
+#: base/theme.py:52
+msgid "Inactive"
+msgstr "未激活"
+
+#: base/theme.py:61
+msgid "Inactive Selected"
+msgstr "未激活选中"
+
+#: global_data.py:68
+msgid "Inconsistent"
+msgstr "不一致"
+
+#: operators/context_menu.py:19
+msgid "Index"
+msgstr "索引"
+
+#: model/base_entity.py:355
+msgid "Index:"
+msgstr "索引："
+
+#: operators/add_dimension.py:45
+msgid "Infer the dimension from the picked geometry"
+msgstr "从所拾取的几何图形推断尺寸"
+
+#: base/preferences.py:25
+msgid "Info"
+msgstr "信息"
+
+#: operators/custom_attributes.py:9
+msgid "Integer"
+msgstr "整数"
+
+#: base/preferences.py:214
+msgid "Interface"
+msgstr "界面"
+
+#: operators/modifiers.py:287
+#: operators/modifiers.py:1534
+msgid "Intersect"
+msgstr "相交"
+
+#: model/arc.py:48
+msgid "Invert direction"
+msgstr "反转方向"
+
+#: model/base_entity.py:350
+msgid "Is Origin:"
+msgstr "是原点："
+
+#: ui/panels/sketch_select.py:181
+msgid "Its sketches stay hidden until it is updated."
+msgstr "其草图在更新前保持隐藏。"
+
+#: operators/modifiers.py:1534
+msgid "Keep only the overlap"
+msgstr "仅保留重叠部分"
+
+#: operators/modifiers.py:287
+msgid "Keep only the overlap with the targets"
+msgstr "仅保留与目标的重叠部分"
+
+#: model/diameter.py:63
+msgid "Leader Angle"
+msgstr "引线角度"
+
+#: operators/modifiers.py:1553
+msgid "Leave the cutter shaded solid"
+msgstr "保持切割体为实体着色"
+
+#: stateful_operator/invoke_op.py:31
+msgid "Let other shortcuts on the same key run when the tool isn't available in this context"
+msgstr "当此上下文中该工具不可用时，允许同一按键的其他快捷键执行"
+
+#: workspacetools/add_line2d.py:13
+#: workspacetools/add_line3d.py:13
+msgid "Line"
+msgstr "直线"
+
+#: workspacetools/array_linear.py:13
+msgid "Linear Array"
+msgstr "线性阵列"
+
+#: model/group_sketcher.py:191
+#: workspacetools/add_arc2d.py:27
+msgid "Live Project Snaps"
+msgstr "实时投影吸附"
+
+#: model/point_3d.py:59
+msgid "Location"
+msgstr "位置"
+
+#: base/preferences.py:71
+msgid "Logging Level"
+msgstr "日志级别"
+
+#: base/preferences.py:89
+msgid "Make Shift+D copy a whole part (its workplanes, sketches and cutters) and Alt+D place another copy of it, when the selection belongs to a part. Blender's own duplicates still apply to everything else, and to all of it when this is off"
+msgstr "当所选内容属于某个零件时，使 Shift+D 复制整个零件（其工作平面、草图和切割体），Alt+D 放置它的另一个副本。Blender 自身的复制仍适用于其他所有内容，关闭此项时也适用于全部"
+
+#: base/preferences.py:80
+msgid "Make all Entities Selectable"
+msgstr "使所有实体可选择"
+
+#: utilities/boolean_nodes.py:50
+msgid "Manifold"
+msgstr "流形"
+
+#: base/preferences.py:151
+msgid "Maximum angle per edge when arcs and circles are meshed, used for new sketches. Change it per sketch on its CAD Sketcher Convert modifier"
+msgstr "圆弧和圆细分网格时每条边的最大角度，用于新建草图。可在每个草图的 CAD Sketcher 转换修改器上单独更改"
+
+#: operators/modifiers.py:1264
+msgid "Maximum angle per segment; the step count adapts to the revolve angle to keep a consistent smoothness"
+msgstr "每段的最大角度；步数随旋转角度调整以保持一致的光滑度"
+
+#: operators/add_dimension.py:126
+msgid "Measure Supplementary Angle"
+msgstr "测量补角"
+
+#: model/angle.py:78
+#: operators/add_angle.py:22
+msgid "Measure supplementary angle"
+msgstr "测量补角"
+
+#: workspacetools/add_dimension.py:14
+msgid "Measure what you pick and hold it at that value"
+msgstr "测量所拾取的内容并将其保持在该值"
+
+#: units.py:12
+msgid "Measurement Precision for Imperial Units"
+msgstr "英制单位的测量精度"
+
+#: operators/modifiers.py:1110
+#: operators/modifiers.py:1402
+msgid "Merge Distance"
+msgstr "合并距离"
+
+#: operators/modifiers.py:1109
+#: operators/modifiers.py:1401
+msgid "Merge by Distance"
+msgstr "按距离合并"
+
+#: operators/modifiers.py:1533
+msgid "Merge the cutter into the body"
+msgstr "将切割体合并到主体"
+
+#: operators/modifiers.py:286
+msgid "Merge the solid into the targets"
+msgstr "将实体合并到目标"
+
+#: model/sketch.py:29
+msgid "Mesh Curve Resolution"
+msgstr "网格曲线分辨率"
+
+#: operators/modifiers.py:753
+msgid "Mirror Extrude"
+msgstr "镜像挤出"
+
+#: utilities/select.py:37
+msgid "Mode"
+msgstr "模式"
+
+#: ui/pie_menu.py:111
+msgid "More"
+msgstr "更多"
+
+#: ui/pie_menu.py:128
+msgid "More Constraints"
+msgstr "更多约束"
+
+#: ui/pie_menu.py:148
+msgid "More Geometric Constraints"
+msgstr "更多几何约束"
+
+#: utilities/boolean_nodes.py:50
+msgid "Much faster, but only for clean closed meshes: non-manifold input is dropped from the result"
+msgstr "快得多，但仅适用于干净的封闭网格：非流形输入会从结果中丢弃"
+
+#: model/base_constraint.py:104
+#: model/base_constraint.py:113
+msgid "Name"
+msgstr "名称"
+
+#: operators/set_sketch.py:17
+msgid "Name of the sketch object to activate (empty to deactivate)"
+msgstr "要激活的草图物体名称（留空则停用）"
+
+#: model/base_entity.py:63
+msgid "Needs Update"
+msgstr "需要更新"
+
+#: model/sketch.py:32
+msgid "Next Curve ID"
+msgstr "下一个曲线 ID"
+
+#: operators/align_view.py:64
+msgid "No 3D viewport available for alignment"
+msgstr "没有可用于对齐的 3D 视图"
+
+#: ui/panels/custom_attributes.py:25
+msgid "No custom attributes"
+msgstr "无自定义属性"
+
+#: operators/snapshot.py:35
+msgid "No snapshot available"
+msgstr "无可用快照"
+
+#: operators/bevel.py:324
+msgid "No valid points to bevel"
+msgstr "没有可倒角的有效点"
+
+#: ui/pie_menu.py:224
+msgid "Node Tools"
+msgstr "节点工具"
+
+#: ui/panels/tools.py:119
+msgid "Node Tools:"
+msgstr "节点工具："
+
+#: model/distance.py:54
+#: operators/modifiers.py:284
+msgid "None"
+msgstr "无"
+
+#: ui/selected_menu.py:68
+msgid "Nothing selected"
+msgstr "未选择任何内容"
+
+#: base/preferences.py:27
+msgid "Notset"
+msgstr "未设置"
+
+#: base/preferences.py:105
+msgid "Number of digits after the comma"
+msgstr "小数点后的位数"
+
+#: gizmos/object_hover.py:177
+msgid "Object Hover Gizmo Group"
+msgstr "物体悬停小工具组"
+
+#: operators/modifiers.py:752
+#: operators/modifiers.py:1100
+msgid "Offset"
+msgstr "偏移"
+
+#: operators/modifiers.py:1119
+msgid "Offset 2"
+msgstr "偏移 2"
+
+#: global_data.py:61
+msgid "Okay"
+msgstr "确定"
+
+#: model/angle.py:56
+#: model/base_constraint.py:456
+msgid "Only measure"
+msgstr "仅测量"
+
+#: operators/modifiers.py:1529
+msgid "Operation"
+msgstr "操作"
+
+#: stateful_operator/invoke_op.py:22
+msgid "Operator ID"
+msgstr "操作符 ID"
+
+#: operators/modifiers.py:1232
+#: operators/modifiers.py:1495
+msgid "Options"
+msgstr "选项"
+
+#: model/normal_3d.py:48
+#: model/normal_3d.py:56
+msgid "Orientation"
+msgstr "方向"
+
+#: model/base_entity.py:60
+msgid "Origin"
+msgstr "原点"
+
+#: workspacetools/add_sketch.py:41
+msgid "Origin Workplanes"
+msgstr "原点工作平面"
+
+#: operators/add_sketch.py:446
+msgid "Origin workplane not available"
+msgstr "原点工作平面不可用"
+
+#: operators/workplane_anchor.py:75
+msgid "Origin workplanes can't be anchored"
+msgstr "原点工作平面无法锚定"
+
+#: ui/panels/sketch_select.py:152
+msgid "Own frame"
+msgstr "自身坐标系"
+
+#: base/preferences.py:89
+msgid "Part Shortcuts for Duplicate"
+msgstr "部件复制快捷键"
+
+#: ui/panels/tools.py:130
+msgid "Parts:"
+msgstr "部件："
+
+#: operators/copy_paste.py:208
+msgid "Pasting is not supported in 3d space"
+msgstr "3D 空间不支持粘贴"
+
+#: operators/modifiers.py:1652
+msgid "Pick a cutter object to boolean with"
+msgstr "选择用于布尔运算的切割物体"
+
+#: operators/modifiers.py:1343
+msgid "Pick a revolve axis (an edge or line)"
+msgstr "选择旋转轴（边或线）"
+
+#: operators/modifiers.py:1470
+msgid "Pick an axis to pattern around (an edge or line)"
+msgstr "选择用于环绕阵列的轴（边或线）"
+
+#: operators/add_part_instance.py:26
+msgid "Place the copy at the 3D cursor instead of on the original"
+msgstr "将副本放置在 3D 光标处，而不是原物体上"
+
+#: operators/add_sketch.py:427
+msgid "Plane"
+msgstr "平面"
+
+#: operators/add_sketch.py:400
+msgid "Please select an Empty as workplane"
+msgstr "请选择一个空物体作为工作平面"
+
+#: operators/custom_attributes.py:14
+#: workspacetools/add_point2d.py:14
+msgid "Point"
+msgstr "点"
+
+#: workspacetools/project_geometry.py:13
+msgid "Project Geometry"
+msgstr "投影几何"
+
+#: model/group_sketcher.py:161
+msgid "Projected Source"
+msgstr "投影源"
+
+#: operators/batch_set.py:21
+msgid "Property"
+msgstr "属性"
+
+#: model/normal_3d.py:48
+msgid "Quaternion which describes the orientation of the normal"
+msgstr "描述法线方向的四元数"
+
+#: model/circle.py:40
+#: operators/add_circle.py:38
+msgid "Radius"
+msgstr "半径"
+
+#: operators/add_geometric_constraints.py:385
+msgid "Ratio"
+msgstr "比率"
+
+#: global_data.py:92
+msgid "Redundant Constraints"
+msgstr "冗余约束"
+
+#: base/theme.py:132
+msgid "Reference Highlight"
+msgstr "参考高亮"
+
+#: base/theme.py:122
+msgid "Reference Measurement"
+msgstr "参考测量"
+
+#: workspacetools/array_linear.py:14
+msgid "Repeat the selected object along a direction"
+msgstr "沿方向重复所选物体"
+
+#: workspacetools/revolve.py:13
+msgid "Revolve"
+msgstr "旋转"
+
+#: operators/migrate.py:51
+msgid "Revolve node group upgrade failed"
+msgstr "旋转节点组升级失败"
+
+#: utilities/boolean_nodes.py:49
+msgid "Robust with imperfect geometry, but slow"
+msgstr "对不完美几何体稳健，但速度较慢"
+
+#: workspacetools/bevel.py:15
+msgid "Round off the corner between two segments with an arc"
+msgstr "用圆弧倒圆两段之间的角"
+
+#: ui/panels/sketch_select.py:176
+msgid "Saved by an older version"
+msgstr "由旧版本保存"
+
+#: operators/modifiers.py:1225
+msgid "Second Direction"
+msgstr "第二方向"
+
+#: operators/modifiers.py:1119
+msgid "Second direction and spacing; zero uses the first spacing at a right angle in the object's XY plane"
+msgstr "第二方向和间距；为零时在物体 XY 平面内以直角使用第一间距"
+
+#: base/whats_new.py:141
+msgid "See the full changelog for details."
+msgstr "查看完整变更日志以了解详情。"
+
+#: operators/custom_attributes.py:13
+msgid "Segment"
+msgstr "线段"
+
+#: workspacetools/select.py:11
+msgid "Select"
+msgstr "选择"
+
+#: workspacetools/select.py:12
+msgid "Select and tweak sketch entities"
+msgstr "选择并调整草图实体"
+
+#: operators/add_geometric_constraints.py:159
+msgid "Select at least two points to merge"
+msgstr "选择至少两个点以合并"
+
+#: operators/custom_attributes.py:162
+msgid "Select one or more sketch entities first"
+msgstr "请先选择一个或多个草图实体"
+
+#: operators/make_part.py:60
+msgid "Select what the part should be rooted in"
+msgstr "选择部件应根植于的对象"
+
+#: base/theme.py:34
+msgid "Selected"
+msgstr "已选择"
+
+#: base/theme.py:43
+msgid "Selected Highlight"
+msgstr "选中高亮"
+
+#: ui/selected_menu.py:60
+msgid "Selected Menu"
+msgstr "选中菜单"
+
+#: operators/modifiers.py:1538
+msgid "Self Intersection"
+msgstr "自相交"
+
+#: operators/batch_set.py:20
+msgid "Sequence"
+msgstr "序列"
+
+#: utilities/select.py:40
+msgid "Set"
+msgstr "设置"
+
+#: utilities/select.py:40
+msgid "Set new selection"
+msgstr "设置新选择"
+
+#: base/preferences.py:62
+msgid "Show Debug Settings"
+msgstr "显示调试设置"
+
+#: model/group_sketcher.py:170
+msgid "Show Origin Workplanes"
+msgstr "显示原点工作平面"
+
+#: base/preferences.py:66
+msgid "Show Theme Settings"
+msgstr "显示主题设置"
+
+#: base/preferences.py:172
+msgid "Show What's New on Update"
+msgstr "更新时显示新内容"
+
+#: base/preferences.py:172
+msgid "Show a summary of the changes after CAD Sketcher is updated"
+msgstr "CAD Sketcher 更新后显示变更摘要"
+
+#: base/whats_new.py:148
+msgid "Show on update"
+msgstr "更新时显示"
+
+#: base/preferences.py:135
+msgid "Show the constraint icons on one element, or close together, as one icon with a count that expands while hovered"
+msgstr "将同一元素上或彼此靠近的约束图标显示为一个带计数的图标，悬停时展开"
+
+#: base/preferences.py:99
+msgid "Show the constraint tools as a compact icon grid instead of a list"
+msgstr "以紧凑图标网格而不是列表显示约束工具"
+
+#: operators/modifiers.py:1552
+msgid "Show the cutter as wireframe so the result is visible"
+msgstr "以线框显示切割物体，以便看到结果"
+
+#: operators/add_sketch.py:432
+msgid "Side plane (normal X)"
+msgstr "侧平面（法线 X）"
+
+#: model/diameter.py:50
+#: operators/add_diameter.py:16
+msgid "Size"
+msgstr "大小"
+
+#: model/diameter.py:44
+msgid "Size Storage"
+msgstr "大小存储"
+
+#: ui/pie_menu.py:107
+#: ui/pie_menu.py:162
+msgid "Sketch"
+msgstr "草图"
+
+#: operators/delete_sketch.py:18
+#: operators/set_sketch.py:17
+msgid "Sketch Name"
+msgstr "草图名称"
+
+#: operators/workplane_anchor.py:199
+msgid "Sketch is already on this workplane"
+msgstr "草图已在此工作平面上"
+
+#: ui/panels/__init__.py:7
+#: ui/panels/sketch_select.py:227
+msgid "Sketcher"
+msgstr "草图器"
+
+#: operators/snapshot.py:40
+msgid "Snapshot restored"
+msgstr "快照已恢复"
+
+#: operators/snapshot.py:21
+msgid "Snapshot taken"
+msgstr "快照已拍摄"
+
+#: operators/modifiers.py:1553
+msgid "Solid"
+msgstr "实体"
+
+#: operators/solve.py:14
+msgid "Solve All"
+msgstr "全部求解"
+
+#: model/sketch.py:23
+msgid "Solver Status"
+msgstr "求解器状态"
+
+#: operators/solve.py:28
+msgid "Solver failed"
+msgstr "求解器失败"
+
+#: base/preferences.py:162
+msgid "Solver used for new booleans (the Boolean tool, and Extrude/Revolve when they boolean their result). Change it per boolean on its CAD Sketcher Boolean modifier"
+msgstr "用于新布尔运算的求解器（布尔工具，以及挤出/旋转在对其结果执行布尔运算时）。可在其 CAD Sketcher 布尔修改器上按布尔运算更改"
+
+#: global_data.py:92
+msgid "Some constraints seem to be redundant, this might cause an error once the constraints are no longer consistent. Check through the marked constraints and only keep what's necessary."
+msgstr "部分约束似乎冗余；一旦约束不再一致，这可能导致错误。请检查标记的约束，仅保留必要项。"
+
+#: operators/add_line_3d.py:28
+msgid "Start Coordinates"
+msgstr "起始坐标"
+
+#: stateful_operator/invoke_op.py:23
+msgid "Start whichever member of the tool's toolbar group is shown, rather than the tool named here"
+msgstr "启动工具工具栏组中当前显示的成员，而不是此处指定的工具"
+
+#: operators/modifiers.py:1489
+msgid "Step Angle"
+msgstr "步进角度"
+
+#: operators/custom_attributes.py:13
+msgid "Store one value per native sketch entity/segment"
+msgstr "为每个原生草图实体/线段存储一个值"
+
+#: operators/custom_attributes.py:14
+msgid "Store values on the selected entity's native points"
+msgstr "将值存储在所选实体的原生点上"
+
+#: utilities/select.py:42
+msgid "Subtract"
+msgstr "减去"
+
+#: utilities/select.py:42
+msgid "Subtract from existing selection"
+msgstr "从现有选择中减去"
+
+#: operators/modifiers.py:1532
+msgid "Subtract the cutter from the body"
+msgstr "从主体中减去切割体"
+
+#: operators/modifiers.py:285
+msgid "Subtract the solid from the targets"
+msgstr "从目标中减去实体"
+
+#: operators/solve.py:26
+msgid "Successfully solved"
+msgstr "求解成功"
+
+#: global_data.py:61
+msgid "Successfully solved sketch."
+msgstr "成功求解草图。"
+
+#: workspacetools/revolve.py:14
+msgid "Sweep the selected profile around a picked axis"
+msgstr "绕所选轴扫掠选中的轮廓"
+
+#: operators/modifiers.py:443
+msgid "Targets"
+msgstr "目标"
+
+#: base/theme.py:142
+msgid "Text"
+msgstr "文本"
+
+#: base/theme.py:152
+msgid "Text Highlight"
+msgstr "文本高亮"
+
+#: base/preferences.py:144
+msgid "Text Size"
+msgstr "文本大小"
+
+#: operators/modifiers.py:1670
+msgid "That cutter depends on the body; it would create a dependency cycle"
+msgstr "该切割体依赖于主体；这会形成依赖循环"
+
+#: model/point_2d.py:81
+msgid "The coordinates of the point on its sketch"
+msgstr "点在草图上的坐标"
+
+#: operators/modifiers.py:1657
+msgid "The cutter must be a mesh or sketch object"
+msgstr "切割体必须是网格或草图物体"
+
+#: model/point_3d.py:59
+msgid "The location of the point"
+msgstr "点的位置"
+
+#: model/circle.py:40
+msgid "The radius of the circle"
+msgstr "圆的半径"
+
+#: operators/modifiers.py:1380
+msgid "The whole sweep the copies are spread over, or the turn between two copies with Use Total Angle off"
+msgstr "副本分布的总扫掠范围；关闭“使用总角度”时，为两个副本之间的转角"
+
+#: base/preferences.py:252
+msgid "Theme"
+msgstr "主题"
+
+#: base/preferences.py:43
+#: base/preferences.py:50
+msgid "Theme Presets"
+msgstr "主题预设"
+
+#: operators/project_geometry.py:108
+msgid "This curve element can't be projected yet (arc/circle)"
+msgstr "此曲线元素尚无法投影（圆弧/圆）"
+
+#: operators/add_arc.py:215
+msgid "Through"
+msgstr "穿透"
+
+#: utilities/select.py:49
+msgid "Toggle"
+msgstr "切换"
+
+#: utilities/select.py:49
+msgid "Toggle selection"
+msgstr "切换选择"
+
+#: global_data.py:85
+msgid "Too Many Unknowns"
+msgstr "未知量过多"
+
+#: stateful_operator/invoke_op.py:19
+msgid "Tool ID"
+msgstr "工具 ID"
+
+#: ui/panels/tools.py:13
+msgid "Tools"
+msgstr "工具"
+
+#: operators/modifiers.py:1489
+msgid "Total Angle"
+msgstr "总角度"
+
+#: operators/modifiers.py:1104
+msgid "Treat distance as the total span rather than per-item spacing"
+msgstr "将距离视为总跨度，而非各项间距"
+
+#: operators/modifiers.py:1389
+msgid "Treat the angle as the whole sweep rather than the turn between two copies"
+msgstr "将角度视为整个扫掠，而非两个副本之间的转角"
+
+#: workspacetools/trim.py:13
+msgid "Trim"
+msgstr "修剪"
+
+#: operators/custom_attributes.py:8
+msgid "True / False"
+msgstr "真 / 假"
+
+#: operators/modifiers.py:1395
+msgid "Turn each copy with the pattern (a bolt circle); off keeps the original orientation while the copy travels round"
+msgstr "使每个副本随阵列旋转（如螺栓圆周）；关闭时副本绕行但保持原始方向"
+
+#: operators/add_dimension.py:122
+#: operators/context_menu.py:18
+msgid "Type"
+msgstr "类型"
+
+#: model/base_entity.py:349
+msgid "Type:"
+msgstr "类型："
+
+#: operators/modifiers.py:286
+#: operators/modifiers.py:1533
+msgid "Union"
+msgstr "并集"
+
+#: base/preferences.py:233
+msgid "Units"
+msgstr "单位"
+
+#: global_data.py:102
+msgid "Unknown Failure"
+msgstr "未知失败"
+
+#: operators/align_view.py:47
+msgid "Use Active Sketch"
+msgstr "使用活动草图"
+
+#: model/diameter.py:60
+#: operators/add_diameter.py:23
+msgid "Use Radius"
+msgstr "使用半径"
+
+#: model/diameter.py:59
+msgid "Use Radius Storage"
+msgstr "使用半径存储"
+
+#: operators/modifiers.py:1389
+msgid "Use Total Angle"
+msgstr "使用总角度"
+
+#: operators/modifiers.py:1104
+msgid "Use Total Distance"
+msgstr "使用总距离"
+
+#: model/base_constraint.py:501
+#: operators/batch_set.py:22
+msgid "Value"
+msgstr "值"
+
+#: model/distance.py:98
+msgid "Value Storage"
+msgstr "值存储"
+
+#: model/distance.py:56
+msgid "Vertical"
+msgstr "垂直"
+
+#: operators/constraint_visibility.py:23
+msgid "Visibility"
+msgstr "可见性"
+
+#: model/base_constraint.py:116
+#: model/base_entity.py:59
+msgid "Visible"
+msgstr "可见"
+
+#: utilities/workplane.py:448
+msgid "WP_XY"
+msgstr "WP_XY"
+
+#: utilities/workplane.py:449
+msgid "WP_XZ"
+msgstr "WP_XZ"
+
+#: utilities/workplane.py:450
+msgid "WP_YZ"
+msgstr "WP_YZ"
+
+#: base/preferences.py:24
+msgid "Warning"
+msgstr "警告"
+
+#: model/group_sketcher.py:191
+msgid "When snapping a point onto external mesh geometry, project the snapped element into the sketch as a live reference and link the point to it, instead of placing a dead static point"
+msgstr "将点捕捉到外部网格几何体时，把捕捉的元素作为实时参考投影到草图中，并将该点链接到它，而不是放置无关联的静态点"
+
+#: operators/custom_attributes.py:9
+msgid "Whole number"
+msgstr "整数"
+
+#: operators/add_rectangle.py:347
+msgid "Width"
+msgstr "宽度"
+
+#: operators/modifiers.py:1552
+msgid "Wire"
+msgstr "线框"
+
+#: ui/panels/sketch_select.py:107
+#: ui/panels/sketch_select.py:141
+msgid "Workplane"
+msgstr "工作平面"
+
+#: gizmos/workplane.py:47
+msgid "Workplane Gizmo Group"
+msgstr "工作平面控件组"
+
+#: model/group_sketcher.py:301
+#: model/sketch.py:37
+msgid "Workplane Object"
+msgstr "工作平面物体"
+
+#: base/preferences.py:129
+msgid "Workplane Size"
+msgstr "工作平面大小"
+
+#: operators/workplane_anchor.py:46
+msgid "Workplane is now free"
+msgstr "工作平面现已自由"
+
+#: operators/workplane_anchor.py:43
+#: operators/workplane_anchor.py:68
+msgid "Workplane not found"
+msgstr "未找到工作平面"
+
+#: operators/add_sketch.py:430
+msgid "XY"
+msgstr "XY"
+
+#: model/group_sketcher.py:173
+msgid "XY Workplane"
+msgstr "XY 工作平面"
+
+#: operators/add_sketch.py:431
+msgid "XZ"
+msgstr "XZ"
+
+#: model/group_sketcher.py:174
+msgid "XZ Workplane"
+msgstr "XZ 工作平面"
+
+#: operators/add_sketch.py:432
+msgid "YZ"
+msgstr "YZ"
+
+#: model/group_sketcher.py:175
+msgid "YZ Workplane"
+msgstr "YZ 工作平面"
+
+#: gizmos/preselection.py:28
+msgid "preselection ggt"
+msgstr "预选 ggt"
+
+#: operators/add_rectangle.py:344
+msgctxt "Operator"
+msgid "Add 3-Point Rectangle"
+msgstr "添加三点矩形"
+
+#: operators/add_line_3d.py:23
+msgctxt "Operator"
+msgid "Add 3D Line"
+msgstr "添加 3D 线"
+
+#: operators/add_point_3d.py:21
+msgctxt "Operator"
+msgid "Add 3D Point"
+msgstr "添加 3D 点"
+
+#: operators/add_sketch_3d.py:15
+#: ui/panels/sketch_select.py:20
+msgctxt "Operator"
+msgid "Add 3D Sketch"
+msgstr "添加 3D 草图"
+
+#: operators/add_assembly.py:17
+msgctxt "Operator"
+msgid "Add Assembly"
+msgstr "添加装配体"
+
+#: ui/panels/custom_attributes.py:40
+msgctxt "Operator"
+msgid "Add Attribute"
+msgstr "添加属性"
+
+#: operators/add_arc.py:51
+msgctxt "Operator"
+msgid "Add Center Arc"
+msgstr "添加中心圆弧"
+
+#: operators/add_rectangle.py:287
+msgctxt "Operator"
+msgid "Add Center Rectangle"
+msgstr "添加中心矩形"
+
+#: operators/add_circle.py:25
+msgctxt "Operator"
+msgid "Add Circle"
+msgstr "添加圆"
+
+#: operators/add_rectangle.py:74
+msgctxt "Operator"
+msgid "Add Corner Rectangle"
+msgstr "添加角点矩形"
+
+#: operators/add_arc.py:202
+msgctxt "Operator"
+msgid "Add Endpoint Arc"
+msgstr "添加端点圆弧"
+
+#: operators/add_line_2d.py:41
+msgctxt "Operator"
+msgid "Add Line"
+msgstr "添加直线"
+
+#: operators/add_point_2d.py:22
+msgctxt "Operator"
+msgid "Add Point"
+msgstr "添加点"
+
+#: operators/add_sketch.py:327
+#: ui/panels/sketch_select.py:201
+msgctxt "Operator"
+msgid "Add Sketch"
+msgstr "添加草图"
+
+#: operators/custom_attributes.py:77
+msgctxt "Operator"
+msgid "Add Sketch Attribute"
+msgstr "添加草图属性"
+
+#: operators/add_sketch.py:422
+msgctxt "Operator"
+msgid "Add Sketch on Origin Plane"
+msgstr "在原点平面添加草图"
+
+#: operators/presets.py:12
+msgctxt "Operator"
+msgid "Add Theme Preset"
+msgstr "添加主题预设"
+
+#: operators/add_sketch_3d.py:16
+msgctxt "Operator"
+msgid "Add a free-3D sketch anchored by an origin Empty"
+msgstr "添加由原点空物体锚定的自由 3D 草图"
+
+#: ui/pie_menu.py:220
+msgctxt "Operator"
+msgid "Align View"
+msgstr "对齐视图"
+
+#: operators/align_view.py:43
+msgctxt "Operator"
+msgid "Align View to Sketch"
+msgstr "视图对齐到草图"
+
+#: operators/align_workplane.py:12
+msgctxt "Operator"
+msgid "Align Workplane to 3D Cursor"
+msgstr "工作平面对齐到 3D 游标"
+
+#: operators/align_view.py:44
+msgctxt "Operator"
+msgid "Align the viewport to a given sketch"
+msgstr "将视图对齐到指定草图"
+
+#: operators/workplane_anchor.py:56
+msgctxt "Operator"
+msgid "Anchor Workplane to Face"
+msgstr "工作平面锚定到面"
+
+#: operators/add_angle.py:13
+msgctxt "Operator"
+msgid "Angle"
+msgstr "角度"
+
+#: operators/batch_set.py:13
+msgctxt "Operator"
+msgid "Batch Set"
+msgstr "批量设置"
+
+#: operators/bevel.py:198
+msgctxt "Operator"
+msgid "Bevel"
+msgstr "倒角"
+
+#: operators/modifiers.py:1507
+msgctxt "Operator"
+msgid "Boolean"
+msgstr "布尔"
+
+#: operators/select_box.py:105
+msgctxt "Operator"
+msgid "Box Select"
+msgstr "框选"
+
+#: base/whats_new.py:119
+msgctxt "Operator"
+msgid "CAD Sketcher — What's New"
+msgstr "CAD Sketcher — 新功能"
+
+#: operators/workplane_anchor.py:135
+msgctxt "Operator"
+msgid "Change Sketch Workplane"
+msgstr "更改草图工作平面"
+
+#: operators/modifiers.py:1372
+msgctxt "Operator"
+msgid "Circular Array"
+msgstr "环形阵列"
+
+#: operators/add_geometric_constraints.py:204
+#: ui/pie_menu.py:121
+msgctxt "Operator"
+msgid "Coincident"
+msgstr "重合"
+
+#: operators/copy_paste.py:158
+msgctxt "Operator"
+msgid "Copy"
+msgstr "复制"
+
+#: operators/select.py:126
+msgctxt "Operator"
+msgid "Cycle Hovered Element"
+msgstr "循环切换悬停元素"
+
+#: operators/custom_attributes.py:78
+msgctxt "Operator"
+msgid "Define an attribute on the native sketch source geometry"
+msgstr "在原生草图源几何体上定义属性"
+
+#: operators/context_menu.py:86
+#: operators/context_menu.py:89
+msgctxt "Operator"
+msgid "Delete"
+msgstr "删除"
+
+#: operators/delete_constraint.py:21
+#: operators/delete_constraint.py:22
+msgctxt "Operator"
+msgid "Delete Constraint"
+msgstr "删除约束"
+
+#: ui/selected_menu.py:87
+msgctxt "Operator"
+msgid "Delete Entities"
+msgstr "删除实体"
+
+#: operators/delete_entity.py:81
+msgctxt "Operator"
+msgid "Delete Entity"
+msgstr "删除实体"
+
+#: operators/delete_sketch.py:15
+msgctxt "Operator"
+msgid "Delete Sketch"
+msgstr "删除草图"
+
+#: operators/add_diameter.py:13
+msgctxt "Operator"
+msgid "Diameter"
+msgstr "直径"
+
+#: operators/add_dimension.py:106
+msgctxt "Operator"
+msgid "Dimension"
+msgstr "尺寸"
+
+#: base/preferences.py:207
+msgctxt "Operator"
+msgid "Discord"
+msgstr "Discord"
+
+#: operators/add_distance.py:14
+msgctxt "Operator"
+msgid "Distance"
+msgstr "距离"
+
+#: base/preferences.py:191
+msgctxt "Operator"
+msgid "Documentation"
+msgstr "文档"
+
+#: operators/duplicate_part.py:20
+msgctxt "Operator"
+msgid "Duplicate Part"
+msgstr "复制零件"
+
+#: ui/__init__.py:43
+msgctxt "Operator"
+msgid "Edit Sketch"
+msgstr "编辑草图"
+
+#: operators/add_geometric_constraints.py:243
+#: ui/pie_menu.py:122
+msgctxt "Operator"
+msgid "Equal"
+msgstr "相等"
+
+#: operators/select.py:101
+msgctxt "Operator"
+msgid "Extend Selection"
+msgstr "扩展选择"
+
+#: operators/modifiers.py:740
+msgctxt "Operator"
+msgid "Extrude"
+msgstr "挤出"
+
+#: operators/update.py:10
+msgctxt "Operator"
+msgid "Force Update"
+msgstr "强制更新"
+
+#: base/whats_new.py:145
+msgctxt "Operator"
+msgid "Full changelog"
+msgstr "完整更新日志"
+
+#: operators/add_assembly.py:18
+msgctxt "Operator"
+msgid "Group parts under an assembly that can be moved as a whole"
+msgstr "将零件分组到可整体移动的装配体中"
+
+#: ui/panels/constraints_list.py:84
+msgctxt "Operator"
+msgid "Hide All"
+msgstr "全部隐藏"
+
+#: operators/add_geometric_constraints.py:282
+#: ui/pie_menu.py:123
+msgctxt "Operator"
+msgid "Horizontal"
+msgstr "水平"
+
+#: operators/add_part_instance.py:23
+msgctxt "Operator"
+msgid "Instance Part"
+msgstr "实例化零件"
+
+#: model/curve_ref.py:698
+#: operators/set_curve_flag.py:92
+msgctxt "Operator"
+msgid "Invert Direction"
+msgstr "反转方向"
+
+#: operators/select.py:89
+msgctxt "Operator"
+msgid "Invert Selection"
+msgstr "反选"
+
+#: stateful_operator/invoke_op.py:17
+msgctxt "Operator"
+msgid "Invoke Tool"
+msgstr "调用工具"
+
+#: ui/__init__.py:75
+msgctxt "Operator"
+msgid "Leave Sketch"
+msgstr "退出草图"
+
+#: ui/panels/sketch_select.py:212
+msgctxt "Operator"
+msgid "Leave:"
+msgstr "退出："
+
+#: operators/modifiers.py:1080
+msgctxt "Operator"
+msgid "Linear Array"
+msgstr "线性阵列"
+
+#: operators/make_part.py:48
+msgctxt "Operator"
+msgid "Make Part"
+msgstr "生成零件"
+
+#: operators/workplane_anchor.py:21
+msgctxt "Operator"
+msgid "Make Workplane Free"
+msgstr "释放工作平面"
+
+#: operators/add_geometric_constraints.py:136
+#: ui/pie_menu.py:158
+msgctxt "Operator"
+msgid "Merge Points"
+msgstr "合并点"
+
+#: operators/add_geometric_constraints.py:362
+#: ui/pie_menu.py:155
+msgctxt "Operator"
+msgid "Midpoint"
+msgstr "中点"
+
+#: operators/move.py:50
+msgctxt "Operator"
+msgid "Move Entities"
+msgstr "移动实体"
+
+#: operators/offset.py:124
+msgctxt "Operator"
+msgid "Offset"
+msgstr "偏移"
+
+#: operators/add_geometric_constraints.py:302
+#: ui/pie_menu.py:125
+msgctxt "Operator"
+msgid "Parallel"
+msgstr "平行"
+
+#: operators/copy_paste.py:202
+msgctxt "Operator"
+msgid "Paste"
+msgstr "粘贴"
+
+#: operators/add_geometric_constraints.py:322
+#: ui/pie_menu.py:126
+msgctxt "Operator"
+msgid "Perpendicular"
+msgstr "垂直"
+
+#: operators/project_geometry.py:34
+msgctxt "Operator"
+msgid "Project Geometry"
+msgstr "投影几何体"
+
+#: operators/add_geometric_constraints.py:382
+#: ui/pie_menu.py:156
+msgctxt "Operator"
+msgid "Ratio"
+msgstr "比例"
+
+#: operators/custom_attributes.py:175
+msgctxt "Operator"
+msgid "Remove Sketch Attribute"
+msgstr "移除草图属性"
+
+#: operators/custom_attributes.py:176
+msgctxt "Operator"
+msgid "Remove the attribute definition and its native source data"
+msgstr "移除属性定义及其原生源数据"
+
+#: operators/set_curve_flag.py:49
+msgctxt "Operator"
+msgid "Rename Entity"
+msgstr "重命名实体"
+
+#: base/preferences.py:199
+msgctxt "Operator"
+msgid "Report a Bug"
+msgstr "报告错误"
+
+#: base/preferences.py:204
+msgctxt "Operator"
+msgid "Request a Feature"
+msgstr "请求新功能"
+
+#: operators/snapshot.py:29
+msgctxt "Operator"
+msgid "Restore"
+msgstr "恢复"
+
+#: operators/modifiers.py:1247
+msgctxt "Operator"
+msgid "Revolve"
+msgstr "旋转"
+
+#: operators/select.py:72
+msgctxt "Operator"
+msgid "Select / Deselect Entities"
+msgstr "选择/取消选择实体"
+
+#: operators/select.py:113
+msgctxt "Operator"
+msgid "Select Chain"
+msgstr "选择链"
+
+#: operators/select.py:23
+msgctxt "Operator"
+msgid "Select Sketch Entities"
+msgstr "选择草图实体"
+
+#: ui/panels/custom_attributes.py:31
+msgctxt "Operator"
+msgid "Set"
+msgstr "设置"
+
+#: operators/set_sketch.py:14
+msgctxt "Operator"
+msgid "Set Active Sketch"
+msgstr "设置活动草图"
+
+#: operators/constraint_visibility.py:14
+msgctxt "Operator"
+msgid "Set Constraints Visibility"
+msgstr "设置约束可见性"
+
+#: operators/set_curve_flag.py:14
+msgctxt "Operator"
+msgid "Set Curve Flag"
+msgstr "设置曲线标记"
+
+#: operators/custom_attributes.py:120
+msgctxt "Operator"
+msgid "Set Sketch Attribute"
+msgstr "设置草图属性"
+
+#: operators/constraint_visibility.py:15
+msgctxt "Operator"
+msgid "Set all constraints' visibility"
+msgstr "设置所有约束的可见性"
+
+#: operators/custom_attributes.py:121
+msgctxt "Operator"
+msgid "Set this attribute on selected native sketch geometry"
+msgstr "为选中的原生草图几何体设置此属性"
+
+#: ui/panels/constraints_list.py:80
+msgctxt "Operator"
+msgid "Show All"
+msgstr "显示全部"
+
+#: ui/__init__.py:60
+msgctxt "Operator"
+msgid "Sketch"
+msgstr "草图"
+
+#: operators/context_menu.py:16
+msgctxt "Operator"
+msgid "Sketcher Context Menu"
+msgstr "草图绘制器上下文菜单"
+
+#: operators/snapshot.py:15
+msgctxt "Operator"
+msgid "Snapshot"
+msgstr "快照"
+
+#: operators/solve.py:12
+msgctxt "Operator"
+msgid "Solve"
+msgstr "求解"
+
+#: ui/panels/debug.py:18
+msgctxt "Operator"
+msgid "Solve All"
+msgstr "全部求解"
+
+#: operators/solver_state.py:12
+msgctxt "Operator"
+msgid "Solver Status"
+msgstr "求解器状态"
+
+#: base/preferences.py:194
+msgctxt "Operator"
+msgid "Source Code"
+msgstr "源代码"
+
+#: operators/add_geometric_constraints.py:412
+#: ui/pie_menu.py:157
+msgctxt "Operator"
+msgid "Symmetry"
+msgstr "对称"
+
+#: operators/add_geometric_constraints.py:342
+#: ui/pie_menu.py:154
+msgctxt "Operator"
+msgid "Tangent"
+msgstr "相切"
+
+#: stateful_operator/test_op.py:12
+msgctxt "Operator"
+msgid "Test StateOps"
+msgstr "测试 StateOps"
+
+#: operators/set_sketch.py:52
+msgctxt "Operator"
+msgid "Toggle Sketch Visibility"
+msgstr "切换草图可见性"
+
+#: operators/trim.py:23
+msgctxt "Operator"
+msgid "Trim"
+msgstr "修剪"
+
+#: operators/tweak_constraint.py:27
+msgctxt "Operator"
+msgid "Tweak Constraint"
+msgstr "调整约束"
+
+#: operators/tweak.py:35
+msgctxt "Operator"
+msgid "Tweak Entity"
+msgstr "调整实体"
+
+#: operators/tweak_constraint.py:28
+msgctxt "Operator"
+msgid "Tweak constraint's value or display position"
+msgstr "调整约束的值或显示位置"
+
+#: operators/migrate.py:24
+#: ui/panels/sketch_select.py:182
+msgctxt "Operator"
+msgid "Update File"
+msgstr "更新文件"
+
+#: operators/add_geometric_constraints.py:262
+#: ui/pie_menu.py:124
+msgctxt "Operator"
+msgid "Vertical"
+msgstr "垂直"
+
+#: base/preferences.py:190
+msgctxt "Operator"
+msgid "What's New"
+msgstr "新功能"
