@@ -1,0 +1,434 @@
+# perfect-chinese: 1
+# id: cad2cube
+# kind: addon
+# module: bl_ext.blender_org.cad2cube
+# name: CAD2Cube — DXF Importer
+# name_zh: CAD2Cube DXF导入
+# translator: KeshiMiao
+# category: Import-Export
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: operators.py:118
+msgid "All hatches as solid"
+msgstr "全部填充作为实心填充"
+
+#: operators.py:157
+msgid "Always Bezier"
+msgstr "始终使用贝塞尔"
+
+#: operators.py:66
+msgid "As Collections"
+msgstr "作为集合"
+
+#: operators.py:68
+msgid "As Materials"
+msgstr "作为材质"
+
+#: operators.py:155
+msgid "Auto (Bezier if Curved)"
+msgstr "自动（曲线时用贝塞尔）"
+
+#: operators.py:195
+msgid "Auto-Join & Heal Curves"
+msgstr "自动合并并修复曲线"
+
+#: operators.py:41
+msgid "Auto-detect"
+msgstr "自动检测"
+
+#: preferences.py:22
+msgid "Auto-detect Units"
+msgstr "自动检测单位"
+
+#: operators.py:217
+msgid "Bbox Center to Origin"
+msgstr "包围盒中心到原点"
+
+#: operators.py:84
+#: operators.py:330
+msgid "Blocks"
+msgstr "块"
+
+#: operators.py:165
+msgid "CAD Linetypes"
+msgstr "CAD 线型"
+
+#: preferences.py:28
+msgid "CAD files often use geographic/project coordinates far from origin. Recentering keeps imported geometry workable"
+msgstr "CAD 文件常使用远离原点的地理/项目坐标。重新居中可让导入的几何体保持可用"
+
+#: __init__.py:12
+msgid "CAD2Cube — DXF Importer"
+msgstr "CAD2Cube — DXF 导入器"
+
+#: operators.py:44
+msgid "Centimeters"
+msgstr "厘米"
+
+#: operators.py:195
+msgid "Chain connected curve segments on the same layer into continuous/closed splines"
+msgstr "将同一图层上相连的曲线段链接为连续/闭合的样条线"
+
+#: operators.py:88
+msgid "Collection Instances"
+msgstr "集合实例"
+
+#: operators.py:136
+msgid "Color by Layer"
+msgstr "按图层着色"
+
+#: operators.py:125
+msgid "Combine all imported 3DFACE entities into one Blender mesh and weld shared vertices. Useful for terrain meshes from Civil 3D or any surface composed of many triangles. Off by default since most architectural files don't need it"
+msgstr "将所有导入的 3DFACE 实体合并为一个 Blender 网格并焊接共享顶点。适用于 Civil 3D 生成的地形网格或任何由大量三角形组成的表面。默认关闭，因为大多数建筑文件不需要"
+
+#: operators.py:76
+msgid "Comma-separated layer names to import (empty = all). Prefix a name with '!' to exclude it"
+msgstr "要导入的图层名，用逗号分隔（留空 = 全部）。在名称前加 '!' 可排除该图层"
+
+#: operators.py:157
+msgid "Convert all polylines to editable Bezier curves with control handles"
+msgstr "将所有多段线转换为带控制手柄的可编辑贝塞尔曲线"
+
+#: operators.py:159
+msgid "Convert all polylines to simple polyline segments (classic CAD2Cube)"
+msgstr "将所有多段线转换为简单的多段线线段（经典 CAD2Cube）"
+
+#: operators.py:180
+msgid "Curve Resolution"
+msgstr "曲线分辨率"
+
+#: operators.py:155
+msgid "Curved polylines with arc bulges become Bezier, straight polylines stay Poly"
+msgstr "带圆弧凸度的弯曲多段线转换为贝塞尔，笔直多段线保持为多段线"
+
+#: preferences.py:13
+msgid "Default Scale"
+msgstr "默认缩放"
+
+#: preferences.py:13
+msgid "Default scale factor when unit auto-detect is disabled"
+msgstr "单位自动检测关闭时使用的默认缩放系数"
+
+#: operators.py:90
+msgid "Duplicate block geometry at each insert point (heavy)"
+msgstr "在每个插入点复制块几何体（较重）"
+
+#: operators.py:66
+msgid "Each layer becomes a Blender collection (recommended for arch viz)"
+msgstr "每个图层成为一个 Blender 集合（推荐用于建筑表现）"
+
+#: operators.py:68
+msgid "Each layer becomes a material with the layer's color"
+msgstr "每个图层成为一个材质，使用该图层的颜色"
+
+#: operators.py:334
+msgid "Entities"
+msgstr "实体"
+
+#: operators.py:90
+msgid "Expand In Place"
+msgstr "原位展开"
+
+#: operators.py:47
+msgid "Feet"
+msgstr "英尺"
+
+#: operators.py:70
+msgid "Flat / Ignore"
+msgstr "平展 / 忽略"
+
+#: operators.py:188
+msgid "Flatten to XY Plane"
+msgstr "平展到 XY 平面"
+
+#: operators.py:188
+msgid "Force Z = 0 on every entity (useful for 2D drawings with Z noise)"
+msgstr "强制每个实体的 Z = 0（适用于带 Z 噪声的二维图纸）"
+
+#: operators.py:233
+msgid "Frame View After Import"
+msgstr "导入后框选视图"
+
+#: operators.py:62
+msgid "How DXF layers map to Blender"
+msgstr "DXF 图层如何映射到 Blender"
+
+#: operators.py:37
+msgid "How to determine the scale factor"
+msgstr "如何确定缩放系数"
+
+#: operators.py:111
+msgid "How to handle HATCH fill regions"
+msgstr "如何处理 HATCH 填充区域"
+
+#: operators.py:84
+msgid "How to handle INSERT entities (block references)"
+msgstr "如何处理 INSERT 实体（块参照）"
+
+#: operators.py:151
+msgid "How to import DXF polylines"
+msgstr "如何导入 DXF 多段线"
+
+#: operators.py:210
+msgid "How to position imported geometry relative to Blender's origin"
+msgstr "如何相对 Blender 原点定位导入的几何体"
+
+#: operators.py:92
+msgid "Ignore Blocks"
+msgstr "忽略块"
+
+#: __init__.py:12
+msgid "Import DXF with layers, units, and block support"
+msgstr "导入支持图层、单位和块的 DXF"
+
+#: preferences.py:40
+msgid "Import Defaults"
+msgstr "导入默认设置"
+
+#: operators.py:111
+msgid "Import HATCH"
+msgstr "导入 HATCH"
+
+#: operators.py:105
+msgid "Import POINT entities as empty axes"
+msgstr "将 POINT 实体导入为轴状空物体"
+
+#: operators.py:105
+msgid "Import Points"
+msgstr "导入点"
+
+#: operators.py:99
+msgid "Import TEXT and MTEXT entities as Blender text objects"
+msgstr "将 TEXT 和 MTEXT 实体导入为 Blender 文本物体"
+
+#: operators.py:99
+msgid "Import Text"
+msgstr "导入文本"
+
+#: operators.py:118
+msgid "Import every hatch as a solid fill, including pattern hatches (pattern lines are dropped, only the filled boundary is kept)"
+msgstr "将所有填充作为实心填充导入，包括图案填充（丢弃图案线，仅保留填充边界）"
+
+#: operators.py:116
+msgid "Import only hatches that are already solid fills"
+msgstr "仅导入本身即为实心填充的填充图案"
+
+#: __init__.py:12
+msgid "Import-Export"
+msgstr "导入-导出"
+
+#: operators.py:46
+msgid "Inches"
+msgstr "英寸"
+
+#: operators.py:227
+msgid "Join By Layer"
+msgstr "按图层合并"
+
+#: operators.py:201
+msgid "Join Tolerance (m)"
+msgstr "合并容差（米）"
+
+#: operators.py:214
+msgid "Keep original CAD coordinates — CAD (0,0,0) maps to Blender (0,0,0). Use when multiple files share the same coordinate system"
+msgstr "保留原始 CAD 坐标 — CAD (0,0,0) 映射到 Blender (0,0,0)。当多个文件共享同一坐标系时使用"
+
+#: operators.py:76
+msgid "Layer Filter"
+msgstr "图层过滤"
+
+#: operators.py:62
+#: operators.py:323
+msgid "Layers"
+msgstr "图层"
+
+#: operators.py:171
+msgid "Linetype Scale"
+msgstr "线型比例"
+
+#: operators.py:52
+msgid "Manual Scale"
+msgstr "手动缩放"
+
+#: operators.py:42
+msgid "Manual scale"
+msgstr "手动缩放"
+
+#: operators.py:201
+msgid "Maximum distance (in meters) to weld endpoints together"
+msgstr "焊接端点的最大距离（米）"
+
+#: operators.py:125
+msgid "Merge 3D Faces into Single Mesh"
+msgstr "合并 3D 面为单一网格"
+
+#: operators.py:227
+msgid "Merge all curves on the same layer into a single object (faster scene)"
+msgstr "将同一图层上的所有曲线合并为单个物体（场景更轻快）"
+
+#: operators.py:45
+msgid "Meters"
+msgstr "米"
+
+#: operators.py:43
+msgid "Millimeters"
+msgstr "毫米"
+
+#: operators.py:220
+msgid "Min Corner to Origin"
+msgstr "最小角到原点"
+
+#: operators.py:220
+msgid "Move geometry so its bottom-left bounding box corner sits at origin. Useful when you want the building corner at (0,0,0)"
+msgstr "移动几何体，使其包围盒左下角位于原点。适用于希望建筑角位于 (0,0,0) 的情况"
+
+#: operators.py:217
+msgid "Move geometry so its bounding box center sits at world origin. Best for files with geographic/project coordinates far from zero"
+msgstr "移动几何体，使其包围盒中心位于世界原点。最适合远离零点的地理/项目坐标文件"
+
+#: operators.py:52
+msgid "Multiplier applied to every coordinate. Used when Units = Manual"
+msgstr "应用于每个坐标的乘数。当单位 = 手动时使用"
+
+#: operators.py:171
+msgid "Multiplier for dash patterns (in addition to DXF $LTSCALE)"
+msgstr "虚线图案的乘数（在 DXF $LTSCALE 之外附加）"
+
+#: operators.py:214
+msgid "No Recenter"
+msgstr "不重新居中"
+
+#: operators.py:272
+msgid "No file selected"
+msgstr "未选择文件"
+
+#: operators.py:115
+msgid "None"
+msgstr "无"
+
+#: operators.py:159
+msgid "Polyline Only"
+msgstr "仅多段线"
+
+#: operators.py:151
+msgid "Polylines"
+msgstr "多段线"
+
+#: operators.py:70
+msgid "Put everything in one collection, no layer separation"
+msgstr "将所有内容放入一个集合，不分离图层"
+
+#: operators.py:41
+msgid "Read $INSUNITS from DXF header"
+msgstr "从 DXF 文件头读取 $INSUNITS"
+
+#: preferences.py:22
+msgid "Read $INSUNITS from DXF header and convert to Blender meters"
+msgstr "从 DXF 文件头读取 $INSUNITS 并转换为 Blender 米"
+
+#: operators.py:210
+msgid "Recenter"
+msgstr "重新居中"
+
+#: preferences.py:28
+msgid "Recenter to Origin by Default"
+msgstr "默认重新居中到原点"
+
+#: operators.py:165
+msgid "Render non-continuous lines (Dashed, Hidden, Center, Dot) as dashed curves"
+msgstr "将非连续线（虚线、隐藏线、中心线、点线）渲染为虚线曲线"
+
+#: operators.py:88
+msgid "Reuse geometry via instances (memory-efficient, recommended)"
+msgstr "通过实例复用几何体（节省内存，推荐）"
+
+#: operators.py:342
+msgid "Scale"
+msgstr "缩放"
+
+#: operators.py:316
+msgid "Scale & Units"
+msgstr "缩放与单位"
+
+#: operators.py:349
+msgid "Scene"
+msgstr "场景"
+
+#: operators.py:180
+msgid "Segments per full revolution for arcs, ellipses, splines"
+msgstr "圆弧、椭圆、样条每整圈的段数"
+
+#: operators.py:144
+msgid "Skip Hidden / Frozen Layers"
+msgstr "跳过隐藏/冻结图层"
+
+#: operators.py:92
+msgid "Skip all block references entirely"
+msgstr "完全跳过所有块参照"
+
+#: operators.py:115
+msgid "Skip all hatches"
+msgstr "跳过所有填充"
+
+#: operators.py:144
+msgid "Skip layers that are off, frozen, or locked in the source file"
+msgstr "跳过源文件中关闭、冻结或锁定的图层"
+
+#: operators.py:116
+msgid "Solid hatches only"
+msgstr "仅实体填充"
+
+#: operators.py:44
+msgid "Source is cm, target is m (x0.01)"
+msgstr "源为厘米，目标为米（x0.01）"
+
+#: operators.py:47
+msgid "Source is feet (x0.3048)"
+msgstr "源为英尺（x0.3048）"
+
+#: operators.py:46
+msgid "Source is inches (x0.0254)"
+msgstr "源为英寸（x0.0254）"
+
+#: operators.py:45
+msgid "Source is m, target is m (x1.0)"
+msgstr "源为米，目标为米（x1.0）"
+
+#: operators.py:43
+msgid "Source is mm, target is m (x0.001)"
+msgstr "源为毫米，目标为米（x0.001）"
+
+#: operators.py:136
+msgid "Tint objects with their CAD layer color in the viewport (object color only — no materials, does not affect render). Makes the import look like the original CAD drawing"
+msgstr "在视图中用 CAD 图层颜色为物体着色（仅物体颜色——不使用材质，不影响渲染）。使导入结果看起来像原始 CAD 图纸"
+
+#: operators.py:353
+msgid "Tol (m)"
+msgstr "容差 (m)"
+
+#: operators.py:37
+msgid "Units"
+msgstr "单位"
+
+#: operators.py:42
+msgid "Use the scale factor below"
+msgstr "使用下方的缩放系数"
+
+#: operators.py:233
+msgid "Zoom the viewport to the imported geometry and fix clipping distance"
+msgstr "将视图缩放至导入的几何体并修正裁剪距离"
+
+#: __init__.py:32
+msgctxt "Operator"
+msgid "CAD2Cube — DXF (.dxf)"
+msgstr "CAD2Cube — DXF (.dxf)"
+
+#: operators.py:247
+msgctxt "Operator"
+msgid "Import DXF (CAD2Cube)"
+msgstr "导入 DXF (CAD2Cube)"

@@ -1,0 +1,95 @@
+# perfect-chinese: 1
+# id: org_tayou_bone_vertex_group_merge
+# kind: addon
+# module: bl_ext.blender_org.org_tayou_bone_vertex_group_merge
+# name: Bone and Vertex Group Merge
+# name_zh: 骨骼顶点组合并
+# translator: KeshiMiao
+# category: Rigging
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:53
+msgid "Active"
+msgstr "活动项"
+
+#: __init__.py:64
+msgid "Adjust End"
+msgstr "调整末端"
+
+#: __init__.py:62
+msgid "Adjust end when possible, otherwise keep"
+msgstr "尽可能调整末端，否则保留"
+
+#: __init__.py:23
+msgid "Allows you to merge any amount of selected bones into the active bone, with respect to any meshes and their vertex groups."
+msgstr "允许你将任意数量的选中骨骼合并到活动骨骼，并兼顾网格及其顶点组。"
+
+#: __init__.py:23
+msgid "Armature"
+msgstr "骨架"
+
+#: __init__.py:62
+msgid "Auto"
+msgstr "自动"
+
+#: __init__.py:23
+msgid "Bone and Vertex Group Merge"
+msgstr "骨骼与顶点组合并"
+
+#: __init__.py:48
+msgid "Choose how the merge target is selected"
+msgstr "选择合并目标的选取方式"
+
+#: __init__.py:58
+msgid "Choose how the surviving bone is reshaped"
+msgstr "选择存活骨骼的重塑方式"
+
+#: __init__.py:63
+msgid "Do not change the bone shape"
+msgstr "不改变骨骼形状"
+
+#: __init__.py:52
+msgid "First of Chain"
+msgstr "链首"
+
+#: __init__.py:65
+msgid "Full Average"
+msgstr "完全平均"
+
+#: __init__.py:63
+msgid "Keep"
+msgstr "保留"
+
+#: __init__.py:58
+msgid "Merge Mode"
+msgstr "合并模式"
+
+#: __init__.py:53
+msgid "Merge all selected bones into the active bone"
+msgstr "将所有选中骨骼合并到活动骨骼"
+
+#: __init__.py:52
+msgid "Merge each selected chain into its own root bone"
+msgstr "将每条选中的链合并到各自的根骨骼"
+
+#: __init__.py:65
+msgid "Move both head and tail based on the selection"
+msgstr "根据选择移动头部和尾部"
+
+#: __init__.py:64
+msgid "Move the tail to the end bone, or average end positions for branching"
+msgstr "将尾部移到末端骨骼，分支时取末端位置平均值"
+
+#: __init__.py:48
+msgid "Target Bone"
+msgstr "目标骨骼"
+
+#: __init__.py:45
+msgctxt "Operator"
+msgid "Merge Bones"
+msgstr "合并骨骼"

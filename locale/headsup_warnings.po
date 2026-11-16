@@ -1,0 +1,1126 @@
+# perfect-chinese: 1
+# id: headsup_warnings
+# kind: addon
+# module: bl_ext.blender_org.headsup_warnings
+# name: HeadsUp Warnings
+# name_zh: 界面警告提示
+# translator: KeshiMiao
+# category: 3D View
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: headsup_warnings/panels.py:220
+msgid "'Active Only' reports to 3d viewport"
+msgstr "“仅活动”向 3D 视图报告"
+
+#: headsup_warnings/properties.py:71
+msgid "'Affect only Origins/Locations/Parents’ is active in your 3D Viewport.  ▶▶▶ Go to the 3D Viewport → Right Sidebar → Tool → Options → Transform → Affect"
+msgstr "“仅影响原点/位置/父级”已在 3D 视图中启用。▶▶▶ 转到 3D 视图 → 右侧边栏 → 工具 → 选项 → 变换 → 影响"
+
+#: headsup_warnings/properties.py:113
+msgid "'Auto Merge Vertices’ is active in your 3d Viewport.  ▶▶▶ Go to the 3D Viewport → Right Sidebar → Tool → Options → Transform → ‘Auto Merge’"
+msgstr "“自动合并顶点”已在 3D 视图中启用。▶▶▶ 转到 3D 视图 → 右侧边栏 → 工具 → 选项 → 变换 → “自动合并”"
+
+#: headsup_warnings/properties.py:161
+msgid "'Clipping Borders’ are active in one of your 3D Viewports. ▶▶▶ Alt+B to clear Clipping Borders"
+msgstr "“裁剪边界”已在某个 3D 视图中启用。▶▶▶ 按 Alt+B 清除裁剪边界"
+
+#: headsup_warnings/properties.py:131
+msgid "'Correct Face Attributes’ is turned on. Changing the Geometry will change the UV Layout. ▶▶▶ Go to the 3D Viewport → Right Sidebar → Tool → Options → Correct Face Attributes"
+msgstr "“正确面属性”已开启。更改几何体将更改 UV 布局。▶▶▶ 转到 3D 视图 → 右侧边栏 → 工具 → 选项 → 正确面属性"
+
+#: headsup_warnings/properties.py:155
+msgid "'Local View’ is activated in one of your 3D Viewports. ▶▶▶ Press Numpad Slash (/) or go to the View menu in the 3D Viewport and select Local View → Toggle Local View"
+msgstr "“局部视图”已在某个 3D 视图中启用。▶▶▶ 按小键盘斜杠 (/) 或转到 3D 视图的视图菜单，选择局部视图 → 切换局部视图"
+
+#: headsup_warnings/properties.py:41
+msgid "'Lock Camera To View’ is active in one of your 3D Viewports. This setting might destructively change your camera position and might not be undone. ▶▶▶ Disable via 3D Viewports Right Sidebar → View → Lock → Camera To View"
+msgstr "“锁定相机到视图”已在某个 3D 视图中启用。此设置可能会以破坏性方式更改相机位置，且可能无法撤销。▶▶▶ 通过 3D 视图右侧边栏 → 视图 → 锁定 → 相机到视图 禁用"
+
+#: headsup_warnings/properties.py:119
+msgid "'UV Sync Selection’ is turned on, you are only seeing UV for selected Geometry. Watch out for hidden Geometry. ▶▶▶ Consider disabling ‘UV Sync Selection’ in the UV Editor Top Bar or check if there is Geometry to unhide in the Edit-Mode (Alt+H)"
+msgstr "“UV 同步选择”已开启，你只会看到选中几何体的 UV。注意隐藏的几何体。▶▶▶ 考虑在 UV 编辑器顶栏中禁用“UV 同步选择”，或检查编辑模式中是否有可取消隐藏的几何体 (Alt+H)"
+
+#: headsup_warnings/__init__.py:19
+msgid "3D View"
+msgstr "3D 视图"
+
+#: headsup_warnings/properties.py:47
+msgid "A Collection or Object has different settings for Viewport and Rendering. This can cause unexpected outcomes in Rendering, ▶▶▶ Use HeadsUp “Collection/Object Mismatch” Panels to resolve visiblity issues"
+msgstr "集合或物体在视图和渲染中具有不同设置。这可能导致渲染出现意外结果，▶▶▶ 使用 HeadsUp“集合/物体不匹配”面板解决可见性问题"
+
+#: headsup_warnings/properties.py:245
+msgid "A Material Override has been set up for a Viewlayer ▶▶▶ Check Viewlayer Properties → Overrides and disable if needed"
+msgstr "已为某个视图层设置材质覆盖 ▶▶▶ 检查视图层属性 → 覆盖，并在需要时禁用"
+
+#: headsup_warnings/properties.py:221
+msgid "A Preview Range is used, that means not the whole timeline will play/render. ▶▶▶ Consider disabling via the Timeline → ‘Stopwatch’ Button in the Top Bar"
+msgstr "使用了预览范围，这意味着不会播放/渲染整个时间线。▶▶▶ 考虑通过时间线 → 顶栏中的“秒表”按钮禁用"
+
+#: headsup_warnings/properties.py:355
+msgid "A custom HeadsUp warning was set up. ▶▶▶ To change or delete the warning, go to the text editor and find the text file that starts with ‘Headsup:’ in the first line"
+msgstr "已设置自定义 HeadsUp 警告。▶▶▶ 要更改或删除警告，请转到文本编辑器，找到第一行以“Headsup:”开头的文本文件"
+
+#: headsup_warnings/properties.py:233
+msgid "Active Object has locked Transforms ▶▶▶ In the 3D Viewport → Right Sidebar → Item → Lock/Unlock Icons"
+msgstr "活动物体已锁定变换 ▶▶▶ 在 3D 视图 → 右侧边栏 → 条目 → 锁定/解锁图标"
+
+#: headsup_warnings/properties.py:167
+msgid "Active Object is a Shadow Catcher or Holdout Object ▶▶▶ Check Object Properties → Visbility → Shadow Catcher / Holdout and change if needed"
+msgstr "活动物体是阴影捕捉器或遮罩物体 ▶▶▶ 检查物体属性 → 可见性 → 阴影捕捉器 / 遮罩，并按需更改"
+
+#: headsup_warnings/preferences.py:308
+msgid "Active Object: Armature in Rest Position"
+msgstr "活动物体：骨架处于静止位置"
+
+#: headsup_warnings/preferences.py:424
+#: headsup_warnings/properties.py:329
+msgid "Active Object: Collection Instance"
+msgstr "活动物体：集合实例"
+
+#: headsup_warnings/preferences.py:430
+#: headsup_warnings/properties.py:335
+msgid "Active Object: Faces/Verts Instance"
+msgstr "活动物体：面/顶点实例"
+
+#: headsup_warnings/preferences.py:406
+#: headsup_warnings/properties.py:311
+msgid "Active Object: In Front"
+msgstr "活动物体：在前面"
+
+#: headsup_warnings/preferences.py:302
+#: headsup_warnings/properties.py:233
+msgid "Active Object: Locked Transforms"
+msgstr "活动物体：锁定的变换"
+
+#: headsup_warnings/preferences.py:262
+#: headsup_warnings/properties.py:203
+msgid "Active Object: Relative Array"
+msgstr "活动物体：相对阵列"
+
+#: headsup_warnings/preferences.py:361
+msgid "Active Object: Render < Viewport SubDiv"
+msgstr "活动物体：渲染 < 视图细分"
+
+#: headsup_warnings/properties.py:239
+msgid "Active Object: Rig in Rest Position"
+msgstr "活动物体：绑定骨架处于静止位置"
+
+#: headsup_warnings/preferences.py:102
+#: headsup_warnings/properties.py:83
+msgid "Active Object: Scaling Issues"
+msgstr "活动物体：缩放问题"
+
+#: headsup_warnings/preferences.py:209
+#: headsup_warnings/properties.py:167
+msgid "Active Object: Shadow Catcher/Holdout"
+msgstr "活动物体：阴影捕捉器/遮罩"
+
+#: headsup_warnings/preferences.py:442
+#: headsup_warnings/properties.py:347
+msgid "Active Object: Shape Key Edit Mode"
+msgstr "活动物体：形态键编辑模式"
+
+#: headsup_warnings/preferences.py:436
+#: headsup_warnings/properties.py:341
+msgid "Active Object: Solo Active Shape Key"
+msgstr "活动物体：独显活动形态键"
+
+#: headsup_warnings/preferences.py:412
+#: headsup_warnings/properties.py:317
+msgid "Active Object: Visible Texture Space"
+msgstr "活动物体：可见纹理空间"
+
+#: headsup_warnings/preferences.py:418
+#: headsup_warnings/properties.py:323
+msgid "Active Object: Wireframe Display"
+msgstr "活动物体：线框显示"
+
+#: headsup_warnings/preferences.py:238
+msgid "Active Only"
+msgstr "仅活动"
+
+#: headsup_warnings/preferences.py:554
+msgid "Addon stores your correct theme color automatically. Use button after theme changes."
+msgstr "插件会自动存储你当前正确的主题颜色。主题更改后请使用按钮。"
+
+#: headsup_warnings/preferences.py:239
+msgid "All Objects"
+msgstr "所有物体"
+
+#: headsup_warnings/preferences.py:488
+msgid "Also display HeadsUp warnings at the bottom of the Compositor"
+msgstr "同时在合成器底部显示 HeadsUp 警告"
+
+#: headsup_warnings/preferences.py:488
+msgid "Also show warnings in the Compositor"
+msgstr "同时在合成器中显示警告"
+
+#: headsup_warnings/preferences.py:67
+#: headsup_warnings/properties.py:59
+msgid "Animation: Auto Keying"
+msgstr "动画：自动关键帧"
+
+#: headsup_warnings/preferences.py:280
+msgid "Animation: Use Preview Range"
+msgstr "动画：使用预览范围"
+
+#: headsup_warnings/properties.py:149
+msgid "Auto-Pack is activated, the Blender File will automatically pack all images and might become very large. ▶▶▶ File → External Data → Automatically Pack Ressources"
+msgstr "自动打包已启用，Blender 文件将自动打包所有图像，文件可能变得非常大。▶▶▶ 文件 → 外部数据 → 自动打包资源"
+
+#: headsup_warnings/preferences.py:297
+msgid "CPU"
+msgstr "CPU"
+
+#: headsup_warnings/properties.py:355
+msgid "CUSTOM Warning"
+msgstr "自定义警告"
+
+#: headsup_warnings/panels.py:216
+msgid "Check"
+msgstr "检查"
+
+#: headsup_warnings/preferences.py:239
+msgid "Check all objects in enabled collections"
+msgstr "检查已启用集合中的所有物体"
+
+#: headsup_warnings/panels.py:294
+msgid "Check for 'Undefined' nodes disabled in Preferences"
+msgstr "检查首选项中已禁用的“未定义”节点"
+
+#: headsup_warnings/preferences.py:238
+msgid "Check only the active object"
+msgstr "仅检查活动物体"
+
+#: headsup_warnings/preferences.py:338
+msgid "Choose prefered Film 'Transparent' setting"
+msgstr "选择首选的胶片“透明”设置"
+
+#: headsup_warnings/preferences.py:73
+msgid "Choose the overlay of a red dot in the corner of the viewport"
+msgstr "选择视图角落红点叠加层的显示"
+
+#: headsup_warnings/preferences.py:292
+msgid "Choose the prefered rendering device for Cycles"
+msgstr "选择 Cycles 的首选渲染设备"
+
+#: headsup_warnings/preferences.py:234
+msgid "Choose to check only the active object or all objects in enabled collections"
+msgstr "选择仅检查活动物体，或检查已启用集合中的所有物体"
+
+#: headsup_warnings/operators.py:72
+msgid "Collection Name"
+msgstr "集合名称"
+
+#: headsup_warnings/panels.py:134
+msgid "Collection Visibilities"
+msgstr "集合可见性"
+
+#: headsup_warnings/preferences.py:12
+msgid "Color of the main warning text"
+msgstr "主要警告文本的颜色"
+
+#: headsup_warnings/preferences.py:20
+msgid "Color of the text and brackets within [ ]"
+msgstr "[ ] 内文本和括号的颜色"
+
+#: headsup_warnings/properties.py:251
+msgid "Compositing: 'Use Nodes' OFF"
+msgstr "合成：“使用节点”关闭"
+
+#: headsup_warnings/preferences.py:320
+msgid "Compositing: 'Use Nodes' is OFF"
+msgstr "合成：“使用节点”已关闭"
+
+#: headsup_warnings/properties.py:305
+msgid "Compositing: Renderlayer Node Issue"
+msgstr "合成：渲染层节点问题"
+
+#: headsup_warnings/preferences.py:400
+msgid "Compositing: Renderlayer Node Issues"
+msgstr "合成：渲染层节点问题"
+
+#: headsup_warnings/properties.py:227
+msgid "Cycles: Render Device"
+msgstr "Cycles：渲染设备"
+
+#: headsup_warnings/preferences.py:314
+msgid "Cycles: Warn me about a material override"
+msgstr "Cycles：材质覆盖时警告我"
+
+#: headsup_warnings/preferences.py:388
+#: headsup_warnings/properties.py:299
+msgid "Data: Blender Version"
+msgstr "数据：Blender 版本"
+
+#: headsup_warnings/preferences.py:381
+#: headsup_warnings/properties.py:293
+msgid "Data: Missing Libraries"
+msgstr "数据：缺失库"
+
+#: headsup_warnings/preferences.py:374
+#: headsup_warnings/properties.py:287
+msgid "Data: Missing Textures"
+msgstr "数据：缺失纹理"
+
+#: headsup_warnings/preferences.py:42
+msgid "Do not change the UI border color to warn me"
+msgstr "不要更改 UI 边框颜色来警告我"
+
+#: headsup_warnings/preferences.py:482
+msgid "Don't show text warnings if overlays are turned off for a 3D viewport"
+msgstr "如果 3D 视图关闭了叠加层，则不显示文本警告"
+
+#: headsup_warnings/preferences.py:494
+msgid "Draw Highlight border around Viewport if there are Viewport Warnings but 'Show Overlays' is OFF"
+msgstr "如果存在视图警告但“显示叠加层”关闭，则在视图周围绘制高亮边框"
+
+#: headsup_warnings/preferences.py:494
+msgid "Draw a highlight border around the Viewport if 'Show Overlays' is OFF but there are viewport specific warnings"
+msgstr "如果“显示叠加层”关闭但存在视图特定警告，则在视图周围绘制高亮边框"
+
+#: headsup_warnings/preferences.py:154
+#: headsup_warnings/properties.py:113
+msgid "Edit: Auto-Merge Vertices"
+msgstr "编辑：自动合并顶点"
+
+#: headsup_warnings/preferences.py:124
+#: headsup_warnings/properties.py:89
+msgid "Edit: Mirror Options"
+msgstr "编辑：镜像选项"
+
+#: headsup_warnings/preferences.py:448
+msgid "Enable Custom Warnings"
+msgstr "启用自定义警告"
+
+#: headsup_warnings/preferences.py:448
+msgid "Enable custom warnings, simply use the text editor and write 'Headsup:', followed by your custom HeadsUp Overlay warning"
+msgstr "启用自定义警告，只需使用文本编辑器写入“Headsup:”，后接自定义 HeadsUp 叠加警告"
+
+#: headsup_warnings/preferences.py:500
+msgid "First Setup"
+msgstr "首次设置"
+
+#: headsup_warnings/preferences.py:394
+msgid "Fullscreen"
+msgstr "全屏"
+
+#: headsup_warnings/preferences.py:296
+msgid "GPU"
+msgstr "GPU"
+
+#: headsup_warnings/preferences.py:90
+#: headsup_warnings/properties.py:71
+msgid "General: Affect Only"
+msgstr "常规：仅影响"
+
+#: headsup_warnings/preferences.py:191
+#: headsup_warnings/properties.py:149
+msgid "General: Autopack Ressources"
+msgstr "常规：自动打包资源"
+
+#: headsup_warnings/preferences.py:84
+#: headsup_warnings/properties.py:65
+msgid "General: Proportional Editing"
+msgstr "常规：比例编辑"
+
+#: headsup_warnings/preferences.py:96
+#: headsup_warnings/properties.py:77
+msgid "General: Snapping"
+msgstr "常规：吸附"
+
+#: headsup_warnings/panels.py:8
+#: headsup_warnings/panels.py:12
+msgid "HeadsUp"
+msgstr "HeadsUp"
+
+#: headsup_warnings/__init__.py:19
+#: headsup_warnings/panels.py:21
+msgid "HeadsUp Warnings"
+msgstr "HeadsUp Warnings"
+
+#: headsup_warnings/operators.py:139
+msgid "HeadsUp: Stored current theme color!"
+msgstr "HeadsUp：已保存当前主题颜色！"
+
+#: headsup_warnings/preferences.py:20
+msgid "Highlight Color"
+msgstr "高亮颜色"
+
+#: headsup_warnings/operators.py:58
+msgid "Highlighting only works in Object Mode!"
+msgstr "高亮仅在物体模式下有效！"
+
+#: headsup_warnings/panels.py:105
+#: headsup_warnings/panels.py:179
+msgid "In Current View Layer:"
+msgstr "在当前视图层中："
+
+#: headsup_warnings/panels.py:106
+#: headsup_warnings/panels.py:180
+msgid "In Other View Layer:"
+msgstr "在其他视图层中："
+
+#: headsup_warnings/properties.py:305
+msgid "In the Compositor a Renderlayer Node is either Muted or connected to a muted File Output Saver although the RenderLayer is active. ▶▶▶ Go to the Compositor and check"
+msgstr "合成器中，渲染层节点已静音，或连接到已静音的文件输出保存节点，但该渲染层仍处于活动状态。▶▶▶ 前往合成器检查"
+
+#: headsup_warnings/properties.py:251
+msgid "In the Compositor ‘Use Nodes’ is turned OFF but the Compositor contains Nodes ▶▶▶ Double Check and enable ‘Use Nodes’ in a Compositor if needed"
+msgstr "合成器中的“使用节点”已关闭，但合成器包含节点 ▶▶▶ 请仔细检查，并在需要时在合成器中启用“使用节点”"
+
+#: headsup_warnings/preferences.py:500
+msgid "Indicates if this is the first setup for the add-on"
+msgstr "指示这是否为该插件的首次设置"
+
+#: headsup_warnings/preferences.py:367
+msgid "Material: 'Undefined' nodes"
+msgstr "材质：“未定义”节点"
+
+#: headsup_warnings/preferences.py:178
+msgid "Material: Img-Sequence not unique"
+msgstr "材质：图像序列不唯一"
+
+#: headsup_warnings/panels.py:301
+msgid "Materials contain 'Undefined' nodes:"
+msgstr "材质包含“未定义”节点："
+
+#: headsup_warnings/properties.py:281
+msgid "Materials contain Undefined Nodes, those are usually caused by Blendfiles being opened in lower versions than they were saved in. ▶▶▶ Use Headsup “Undefined” Panel to find problematic materials"
+msgstr "材质包含未定义节点，通常是因为 Blend 文件在低于保存版本的版本中打开。▶▶▶ 使用 HeadsUp“未定义”面板查找有问题的材质"
+
+#: headsup_warnings/properties.py:89
+msgid "Mirror options are active in your 3D Viewport. ▶▶▶ Go to the 3D Viewport (Edit Mode) → Right Sidebar → Tool → Options → Transform → Mirror X/Y/Z"
+msgstr "3D 视图中启用了镜像选项。▶▶▶ 前往 3D 视图（编辑模式）→ 右侧边栏 → 工具 → 选项 → 变换 → 镜像 X/Y/Z"
+
+#: headsup_warnings/panels.py:68
+#: headsup_warnings/panels.py:142
+msgid "Mismatch Checks disabled in Preferences"
+msgstr "偏好设置中已禁用不匹配检查"
+
+#: headsup_warnings/properties.py:293
+msgid "Missing Libraries found ▶▶▶ Go to File → External Data → Report Missing Files and check the Log printed to the Console"
+msgstr "发现缺失库 ▶▶▶ 前往 文件 → 外部数据 → 报告缺失文件，并查看打印到控制台的日志"
+
+#: headsup_warnings/properties.py:287
+msgid "Missing Textures found ▶▶▶ Go to File → External Data → Report Missing Files and check the Log printed to the Console"
+msgstr "发现缺失纹理 ▶▶▶ 前往 文件 → 外部数据 → 报告缺失文件，并查看打印到控制台的日志"
+
+#: headsup_warnings/panels.py:208
+msgid "Modifier Visibilities"
+msgstr "修改器可见性"
+
+#: headsup_warnings/properties.py:137
+msgid "Multiple Image Sequence nodes refer to the same datablock but have different settings, that is not really supported. Expect weird behavior. ▶▶▶ Create a unique datablock for your Image Sequence Nodes"
+msgstr "多个图像序列节点引用同一数据块但设置不同，这并不受支持。可能会出现异常行为。▶▶▶ 为图像序列节点创建唯一数据块"
+
+#: headsup_warnings/operators.py:72
+msgid "Name of the collection to highlight"
+msgstr "要高亮的集合名称"
+
+#: headsup_warnings/operators.py:13
+msgid "Name of the object to select"
+msgstr "要选择的物体名称"
+
+#: headsup_warnings/preferences.py:108
+msgid "Negative"
+msgstr "负值"
+
+#: headsup_warnings/panels.py:299
+msgid "No 'Undefined' nodes found"
+msgstr "未找到“未定义”节点"
+
+#: headsup_warnings/panels.py:170
+msgid "No Collection Mismatches"
+msgstr "无集合不匹配"
+
+#: headsup_warnings/panels.py:248
+msgid "No Modifier Mismatches"
+msgstr "无修改器不匹配"
+
+#: headsup_warnings/panels.py:96
+msgid "No Object Mismatches"
+msgstr "无物体不匹配"
+
+#: headsup_warnings/panels.py:30
+msgid "No warnings to display :)"
+msgstr "没有可显示的警告 :)"
+
+#: headsup_warnings/preferences.py:118
+msgid "Non-1"
+msgstr "非 1"
+
+#: headsup_warnings/preferences.py:113
+msgid "Non-Uniform"
+msgstr "非均匀"
+
+#: headsup_warnings/preferences.py:342
+msgid "OFF"
+msgstr "关闭"
+
+#: headsup_warnings/preferences.py:343
+msgid "ON"
+msgstr "开启"
+
+#: headsup_warnings/operators.py:13
+msgid "Object Name"
+msgstr "物体名称"
+
+#: headsup_warnings/panels.py:60
+msgid "Object Visibilities"
+msgstr "物体可见性"
+
+#: headsup_warnings/operators.py:56
+msgid "Object successfully highlighted in Outliner!"
+msgstr "已在大纲视图中成功高亮物体！"
+
+#: headsup_warnings/properties.py:209
+msgid "One of your 3D Viewports has Hidden Object Types. ▶▶▶ Toggle the Visibilities of the affected Viewport via the Top Bar Dropdown ’View Object Types’"
+msgstr "你的某个 3D 视图隐藏了物体类型。▶▶▶ 通过顶栏下拉菜单“视图物体类型”切换受影响视图的可见性"
+
+#: headsup_warnings/properties.py:215
+msgid "One of your 3D Viewports has Unselectable Object Types. ▶▶▶ Toggle the Selectabilities of the affected Viewport via the Top Bar Dropdown ’View Object Types’"
+msgstr "你的某个 3D 视图中有不可选择的物体类型。▶▶▶ 通过顶栏下拉菜单“视图物体类型”切换受影响视图的可选性"
+
+#: headsup_warnings/preferences.py:42
+msgid "Only display text warning"
+msgstr "仅显示文字警告"
+
+#: headsup_warnings/preferences.py:136
+msgid "Only warn for 'Render' subdivisions"
+msgstr "仅对“渲染”细分级别发出警告"
+
+#: headsup_warnings/preferences.py:35
+msgid "Original Theme Color"
+msgstr "原始主题颜色"
+
+#: headsup_warnings/properties.py:65
+msgid "Proportional Editing is active and might unintentionally change off-screen data. ▶▶▶ Press ‘o’ in the affected editor type or use the UI Button"
+msgstr "比例编辑已启用，可能会意外更改屏幕外数据。▶▶▶ 在受影响的编辑器类型中按 ‘o’ 或使用 UI 按钮"
+
+#: headsup_warnings/panels.py:35
+msgid "Read tooltips for more info"
+msgstr "阅读工具提示以了解更多信息"
+
+#: headsup_warnings/preferences.py:659
+msgid "Render"
+msgstr "渲染"
+
+#: headsup_warnings/properties.py:107
+msgid "Render Region is turned on in the Output Properties. Double check that render result is as expected. ▶▶▶ Consider turning off Output Properties → Format → Render Region"
+msgstr "输出属性中已开启渲染区域。请再次确认渲染结果符合预期。▶▶▶ 考虑关闭 输出属性 → 格式 → 渲染区域"
+
+#: headsup_warnings/properties.py:173
+msgid "Render Resolution has been changed from 100% to another value. This is often done for test rendering and can lead to final render mistakes. ▶▶▶ In the Output Properties, reset the resolution to 100% if needed"
+msgstr "渲染分辨率已从 100% 更改为其他值。这通常用于测试渲染，可能导致最终渲染出错。▶▶▶ 如有需要，在输出属性中将分辨率重置为 100%"
+
+#: headsup_warnings/preferences.py:286
+msgid "Render: Cycles not using"
+msgstr "渲染：未使用 Cycles"
+
+#: headsup_warnings/preferences.py:332
+msgid "Render: Film 'Transparent' is"
+msgstr "渲染：胶片“透明”已开启"
+
+#: headsup_warnings/properties.py:263
+msgid "Render: Film Transparent"
+msgstr "渲染：胶片透明"
+
+#: headsup_warnings/preferences.py:221
+#: headsup_warnings/properties.py:179
+msgid "Render: Filter Size"
+msgstr "渲染：过滤尺寸"
+
+#: headsup_warnings/preferences.py:314
+#: headsup_warnings/properties.py:245
+msgid "Render: Material Override"
+msgstr "渲染：材质覆盖"
+
+#: headsup_warnings/preferences.py:326
+msgid "Render: Output as Video"
+msgstr "渲染：输出为视频"
+
+#: headsup_warnings/properties.py:257
+msgid "Render: Output to Video"
+msgstr "渲染：输出到视频"
+
+#: headsup_warnings/preferences.py:148
+#: headsup_warnings/properties.py:107
+msgid "Render: Render Region"
+msgstr "渲染：渲染区域"
+
+#: headsup_warnings/preferences.py:215
+#: headsup_warnings/properties.py:173
+msgid "Render: Resolution not 100%"
+msgstr "渲染：分辨率不是 100%"
+
+#: headsup_warnings/preferences.py:245
+#: headsup_warnings/properties.py:191
+msgid "Render: Sample Override"
+msgstr "渲染：采样覆盖"
+
+#: headsup_warnings/preferences.py:256
+msgid "Render: Samples higher than"
+msgstr "渲染：采样数高于"
+
+#: headsup_warnings/preferences.py:251
+msgid "Render: Samples lower than"
+msgstr "渲染：采样数低于"
+
+#: headsup_warnings/properties.py:197
+msgid "Render: Samples lower than threshold"
+msgstr "渲染：采样数低于阈值"
+
+#: headsup_warnings/preferences.py:130
+#: headsup_warnings/properties.py:95
+msgid "Render: Simplify"
+msgstr "渲染：简化"
+
+#: headsup_warnings/properties.py:221
+msgid "Render: Use Preview Range"
+msgstr "渲染：使用预览范围"
+
+#: headsup_warnings/properties.py:83
+msgid "Scaling issues detected for your active object. ▶▶▶ Check the scaling values and consider applying scale (Ctrl+A → Scale)"
+msgstr "检测到活动物体存在缩放问题。▶▶▶ 检查缩放值，并考虑应用缩放（Ctrl+A → 缩放）"
+
+#: headsup_warnings/properties.py:143
+msgid "Sculpt Mode + Corrective Smooth can lead to Geometry looking extremely different than expected once Corrective Smooth is turned off ▶▶▶Temporarily disable the modifier if needed"
+msgstr "雕刻模式 + 校正平滑可能导致关闭校正平滑后几何体外观与预期差异极大 ▶▶▶ 如有需要，临时禁用该修改器"
+
+#: headsup_warnings/preferences.py:185
+#: headsup_warnings/properties.py:143
+msgid "Sculpt: Corrective Smooth active"
+msgstr "雕刻：校正平滑已启用"
+
+#: headsup_warnings/preferences.py:61
+#: headsup_warnings/properties.py:53
+msgid "Sculpt: Shapekey Value not 1"
+msgstr "雕刻：形态键值不为 1"
+
+#: headsup_warnings/preferences.py:348
+msgid "Sequencer: Audio Louder than"
+msgstr "序列编辑器：音频响度高于"
+
+#: headsup_warnings/properties.py:269
+msgid "Sequencer: Loud Audio"
+msgstr "序列编辑器：音频过响"
+
+#: headsup_warnings/preferences.py:142
+#: headsup_warnings/properties.py:101
+msgid "Sequencer: Sequencer contains Strips"
+msgstr "序列编辑器：序列编辑器包含片段"
+
+#: headsup_warnings/properties.py:281
+msgid "Shader: 'Undefined' Nodes'"
+msgstr "着色器：“未定义”节点"
+
+#: headsup_warnings/properties.py:137
+msgid "Shader: Img-Sequence not unique"
+msgstr "着色器：图像序列不唯一"
+
+#: headsup_warnings/preferences.py:394
+msgid "Show a central warning in the 3D View to remind me of the Version mismatch"
+msgstr "在 3D 视图中显示中央警告，以提醒我版本不匹配"
+
+#: headsup_warnings/preferences.py:400
+msgid "Show a warning for Renderlayer Node Issues, like missing Renderlayer nodes or muted savers"
+msgstr "显示渲染层节点问题警告，例如缺少渲染层节点或保存节点被静音"
+
+#: headsup_warnings/preferences.py:442
+msgid "Show a warning if the Active Object has 'Shape Key Edit Mode' enabled"
+msgstr "如果活动物体启用了“形态键编辑模式”，则显示警告"
+
+#: headsup_warnings/preferences.py:436
+msgid "Show a warning if the Active Object has 'Solo Active Shape Key' enabled for Shape Keys"
+msgstr "如果活动物体为形态键启用了“独显活动形态键”，则显示警告"
+
+#: headsup_warnings/preferences.py:412
+msgid "Show a warning if the Active Object has 'Texture Space' visible"
+msgstr "如果活动物体可见“纹理空间”，则显示警告"
+
+#: headsup_warnings/preferences.py:424
+msgid "Show a warning if the Active Object is a Collection Instance"
+msgstr "如果活动物体是集合实例，则显示警告"
+
+#: headsup_warnings/preferences.py:430
+msgid "Show a warning if the Active Object is a Faces/Verts Instance"
+msgstr "如果活动物体是面/顶点实例，则显示警告"
+
+#: headsup_warnings/preferences.py:406
+msgid "Show a warning if the Active Object is set to 'In Front'"
+msgstr "如果活动物体设置为“在前面”，则显示警告"
+
+#: headsup_warnings/preferences.py:418
+msgid "Show a warning if the Active Object is set to 'Wireframe' or 'Bounds' display mode"
+msgstr "如果活动物体设置为“线框”或“边界框”显示模式，则显示警告"
+
+#: headsup_warnings/properties.py:95
+msgid "Simplify is turned on and the subdivision level is below your chosen threshold. Rendering with low Simplify settings can lead to unsatisfying results. ▶▶▶ Change the Simplify Settings in the Render Properties"
+msgstr "简化已开启，且细分级别低于你选择的阈值。使用较低的简化设置渲染可能导致结果不理想。▶▶▶ 在渲染属性中更改简化设置"
+
+#: headsup_warnings/preferences.py:28
+msgid "Size of the warning text"
+msgstr "警告文字大小"
+
+#: headsup_warnings/properties.py:77
+msgid "Snapping is activated. ▶▶▶ Go to the affected editor type and press on the Top Bar UI Button (Magnet)"
+msgstr "吸附已启用。▶▶▶ 前往受影响的编辑器类型，然后点击顶栏 UI 按钮（磁铁）"
+
+#: headsup_warnings/properties.py:275
+msgid "SubSurf: Render < Viewport"
+msgstr "表面细分：渲染 < 视图"
+
+#: headsup_warnings/__init__.py:19
+msgid "Temporarily change UI colors and overlay a text with warnings about potentially destructive Blender settings"
+msgstr "临时更改 UI 颜色并叠加文字，警告可能具有破坏性的 Blender 设置"
+
+#: headsup_warnings/preferences.py:537
+msgid "Text Size:"
+msgstr "文字大小："
+
+#: headsup_warnings/properties.py:341
+msgid "The Active Object has 'Solo Active Shape Key' enabled. This will ONLY show you the selected Shape Key. ▶▶▶ Go to Properties → Mesh → Shape Keys → Disable 'Solo Active Shape Key'"
+msgstr "活动物体已启用“独显活动形态键”。这只会显示选中的形态键。▶▶▶ 前往 属性 → 网格 → 形态键 → 禁用“独显活动形态键”"
+
+#: headsup_warnings/properties.py:275
+msgid "The Active Object has a higher Viewport subdivision than Render subdivision. ▶▶▶ Check the Subdivision Surface modifier"
+msgstr "活动物体的视图细分高于渲染细分。▶▶▶ 检查表面细分修改器"
+
+#: headsup_warnings/properties.py:329
+msgid "The Active Object is a Collection Instance. ▶▶▶ Go to Object Properties → Instancing"
+msgstr "活动物体是集合实例。▶▶▶ 前往物体属性 → 实例化"
+
+#: headsup_warnings/properties.py:335
+msgid "The Active Object is a Faces/Verts Instance. All children objects will be instanced to it's Verts/Faces. ▶▶▶ Go to Object Properties → Instancing"
+msgstr "活动物体是面/顶点实例。所有子物体都将被实例化到其顶点/面上。▶▶▶ 前往物体属性 → 实例化"
+
+#: headsup_warnings/properties.py:347
+msgid "The Active Object is in Shape Key Edit Mode. This will show the MIX of all Shape Keys with their current values! Disable to only see current Shape Key! . ▶▶▶ Go to Properties → Mesh → Shape Keys → Disalbe 'Shape Key Edit Mode'"
+msgstr "活动物体处于形态键编辑模式。这将显示所有形态键及其当前值的混合结果！禁用后仅显示当前形态键！▶▶▶ 前往属性 → 网格 → 形态键 → 禁用「形态键编辑模式」"
+
+#: headsup_warnings/properties.py:311
+msgid "The Active Object is set to 'In Front', being shown in Front of all other objects in the 3D viewport. This might be confusing sometimes. ▶▶▶ Go to Object Properties → Viewport Display → 'In Front'"
+msgstr "活动物体被设为「在前面」，会显示在 3D 视口中所有其他物体的前方。这有时可能会造成混淆。▶▶▶ 前往物体属性 → 视图显示 → 「在前面」"
+
+#: headsup_warnings/properties.py:323
+msgid "The Active Object is set to 'Wireframe' display mode in the viewport. This might be confusing sometimes. ▶▶▶ Go to Object Properties → Viewport Display → Display As"
+msgstr "活动物体在视口中被设为「线框」显示模式。这有时可能会造成混淆。▶▶▶ 前往物体属性 → 视图显示 → 显示为"
+
+#: headsup_warnings/properties.py:317
+msgid "The Active Object is set to show its Texture Space in the viewport. This might be confusing sometimes. ▶▶▶ Go to Object Properties → Viewport Display → 'Texture Space'"
+msgstr "活动物体被设为在视口中显示其纹理空间。这有时可能会造成混淆。▶▶▶ 前往物体属性 → 视图显示 → 「纹理空间」"
+
+#: headsup_warnings/properties.py:239
+msgid "The Active Rig is set to Rest Position, so no animation can be seen or rendered right now ▶▶▶ In the Rig Properties → Skeleton → Pose Position"
+msgstr "活动骨架被设为静止位置，因此当前无法看到或渲染任何动画 ▶▶▶ 在骨架属性 → 骨架 → 姿势位置"
+
+#: headsup_warnings/properties.py:227
+msgid "The Cycles Render Device is not set to your chosen preference. ▶▶▶ Change in the Render Properties → Device"
+msgstr "Cycles 渲染设备未设置为你选择的偏好。▶▶▶ 在渲染属性 → 设备中更改"
+
+#: headsup_warnings/properties.py:179
+msgid "The Filter Size is changed from its default value. This can lead to pixelated or blurry renders. ▶▶▶ Consider changing the Filter Size back to 1.5px in the Render Properties → Film"
+msgstr "过滤尺寸已从默认值更改。这可能导致渲染出现像素化或模糊。▶▶▶ 考虑在渲染属性 → 胶片中将过滤尺寸改回 1.5px"
+
+#: headsup_warnings/properties.py:257
+msgid "The Render Output has been set to a video format, that can cause issues, e.g. it won’t work on distributed rendering etc. ▶▶▶ Check Output Properties → Output → File Format and change If needed"
+msgstr "渲染输出已被设为视频格式，这可能导致问题，例如无法用于分布式渲染等。▶▶▶ 检查输出属性 → 输出 → 文件格式，必要时更改"
+
+#: headsup_warnings/properties.py:269
+msgid "The Sequencer contains Audio Strips that are louder than your chosen threshold value. ▶▶▶ Check the Sequencer"
+msgstr "序列编辑器中包含音量高于所选阈值的音频片段。▶▶▶ 检查序列编辑器"
+
+#: headsup_warnings/properties.py:101
+msgid "The Sequencer is turned on in the Output Properties and the Sequencer does contain image data. That might result in “Render” not working as expected. ▶▶▶ Consider turning off Output Properties → Post Processing → Sequencer"
+msgstr "输出属性中启用了序列编辑器，且序列编辑器中包含图像数据。这可能导致「渲染」无法按预期工作。▶▶▶ 考虑关闭输出属性 → 后期处理 → 序列编辑器"
+
+#: headsup_warnings/properties.py:263
+msgid "The Transparency setting of the Render Output is different to your chosen preference. ▶▶▶ Check Render Properties → Film → Transparent and change If needed"
+msgstr "渲染输出的透明设置与你选择的偏好不同。▶▶▶ 检查渲染属性 → 胶片 → 透明，必要时更改"
+
+#: headsup_warnings/properties.py:203
+msgid "The active Object has an Array modifier with Relative offset with other modifiers in the stack before it. This might lead to changing positions between Render and Viewport. ▶▶▶ Double Check the Modifier Stack"
+msgstr "活动物体的阵列修改器使用相对偏移，且堆栈中它前面还有其他修改器。这可能导致渲染与视图之间的位置变化。▶▶▶ 仔细检查修改器堆栈"
+
+#: headsup_warnings/properties.py:299
+msgid "The file was saved with another Blender Version. ▶▶▶ Make sure that you are aware of the differing versions, consider the limitations and save the file with this version to resolve the Warning"
+msgstr "该文件是用其他 Blender 版本保存的。▶▶▶ 请确保了解版本差异，考虑其限制，并用此版本保存文件以消除该警告"
+
+#: headsup_warnings/properties.py:185
+msgid "There is a mismatch for the Render/Viewport visibilities of some modifier. ▶▶▶ Check the modifiers and change if needed"
+msgstr "某些修改器的渲染/视图可见性不匹配。▶▶▶ 检查修改器，必要时更改"
+
+#: headsup_warnings/properties.py:191
+msgid "There is an active Sample override for a Viewlayer. If this was done for test render purposes, this could be unwanted. ▶▶▶ Check Viewlayer Properties → Overrides and disable if needed"
+msgstr "某个视图层存在活动的采样覆盖。如果这是为了测试渲染，可能并非所愿。▶▶▶ 检查视图层属性 → 覆盖，必要时禁用"
+
+#: headsup_warnings/properties.py:197
+msgid "This scene has either very high or low render samples. ▶▶▶ Check the sample numbers and change if needed"
+msgstr "此场景的渲染采样数过高或过低。▶▶▶ 检查采样数，必要时更改"
+
+#: headsup_warnings/preferences.py:482
+msgid "Toggle text warnings together with 'Show Overlays' toggle"
+msgstr "将文字警告与「显示叠加层」开关一起切换"
+
+#: headsup_warnings/preferences.py:648
+msgid "Toggle these warnings with more options:"
+msgstr "用更多选项切换这些警告："
+
+#: headsup_warnings/preferences.py:559
+msgid "Toggle what you would like to be warned about:"
+msgstr "切换你希望收到警告的内容："
+
+#: headsup_warnings/properties.py:125
+msgid "UV ‘Live Unwrap’ is turned on. Changing the Geometry or Seams will change the UV Layout. ▶▶▶ Go to the 3D Viewport → Right Sidebar → Tool → Options → Transform → Uvs Live Unwrap"
+msgstr "UV「实时展开」已开启。更改几何体或接缝将改变 UV 布局。▶▶▶ 前往 3D 视口 → 右侧边栏 → 工具 → 选项 → 变换 → UV 实时展开"
+
+#: headsup_warnings/preferences.py:172
+#: headsup_warnings/properties.py:131
+msgid "UV: Correct Face Attributes"
+msgstr "UV：校正面属性"
+
+#: headsup_warnings/preferences.py:166
+#: headsup_warnings/properties.py:125
+msgid "UV: Live Unwrap"
+msgstr "UV：实时展开"
+
+#: headsup_warnings/preferences.py:160
+#: headsup_warnings/properties.py:119
+msgid "UV: Select Sync"
+msgstr "UV：选择同步"
+
+#: headsup_warnings/panels.py:286
+msgid "Undefined Nodes"
+msgstr "未定义节点"
+
+#: headsup_warnings/preferences.py:658
+msgid "Viewport"
+msgstr "视图"
+
+#: headsup_warnings/preferences.py:227
+#: headsup_warnings/properties.py:185
+msgid "Viewport/Render: Modifier Mismatch"
+msgstr "视图/渲染：修改器不匹配"
+
+#: headsup_warnings/preferences.py:54
+#: headsup_warnings/properties.py:47
+msgid "Viewport/Render: Visibility Mismatch"
+msgstr "视图/渲染：可见性不匹配"
+
+#: headsup_warnings/panels.py:98
+#: headsup_warnings/panels.py:172
+msgid "Viewport/Rendering Mismatch:"
+msgstr "视图/渲染不匹配："
+
+#: headsup_warnings/preferences.py:203
+#: headsup_warnings/properties.py:161
+msgid "Viewport: Clipping Border"
+msgstr "视图：剪裁边界"
+
+#: headsup_warnings/preferences.py:268
+#: headsup_warnings/properties.py:209
+msgid "Viewport: Hidden Object Types"
+msgstr "视图：隐藏的物体类型"
+
+#: headsup_warnings/preferences.py:197
+#: headsup_warnings/properties.py:155
+msgid "Viewport: Local View"
+msgstr "视图：局部视图"
+
+#: headsup_warnings/preferences.py:48
+#: headsup_warnings/properties.py:41
+msgid "Viewport: Lock Camera to View"
+msgstr "视图：锁定相机到视图"
+
+#: headsup_warnings/preferences.py:274
+#: headsup_warnings/properties.py:215
+msgid "Viewport: Unselectable Object Types"
+msgstr "视图：不可选的物体类型"
+
+#: headsup_warnings/preferences.py:12
+msgid "Warn Color"
+msgstr "警告颜色"
+
+#: headsup_warnings/preferences.py:297
+msgid "Warn if CPU Rendering is NOT used"
+msgstr "当未使用 CPU 渲染时警告"
+
+#: headsup_warnings/preferences.py:342
+msgid "Warn if Film Transparent is OFF"
+msgstr "当胶片透明关闭时警告"
+
+#: headsup_warnings/preferences.py:343
+msgid "Warn if Film Transparent is ON"
+msgstr "当胶片透明开启时警告"
+
+#: headsup_warnings/preferences.py:296
+msgid "Warn if GPU Rendering is NOT used"
+msgstr "当未使用 GPU 渲染时警告"
+
+#: headsup_warnings/preferences.py:461
+msgid "Warn if Render Samples are EQUAL to or HIGHER than this value"
+msgstr "当渲染采样数等于或高于此值时警告"
+
+#: headsup_warnings/preferences.py:454
+msgid "Warn if Render Samples are EQUAL to or LOWER than this value"
+msgstr "当渲染采样数等于或低于此值时警告"
+
+#: headsup_warnings/preferences.py:468
+msgid "Warn if Render Subdivisions are EQUAL to or LOWER than this value"
+msgstr "当渲染细分等于或低于此值时警告"
+
+#: headsup_warnings/preferences.py:475
+msgid "Warn if Viewport Subdivisions are EQUAL to or LOWER than this value"
+msgstr "当视图细分等于或低于此值时警告"
+
+#: headsup_warnings/preferences.py:67
+msgid "Warn me about 'Auto Keying' being active"
+msgstr "警告我「自动关键帧」处于启用状态"
+
+#: headsup_warnings/preferences.py:48
+msgid "Warn me about 'Camera to View' being active, as it can be destructive and is not undo-able"
+msgstr "警告我「相机到视图」处于启用状态，因为它可能具有破坏性且无法撤销"
+
+#: headsup_warnings/preferences.py:84
+msgid "Warn me about 'Proportional Editing' being active"
+msgstr "警告我「比例编辑」处于启用状态"
+
+#: headsup_warnings/preferences.py:367
+msgid "Warn me about 'UNDEFINED' nodes"
+msgstr "警告我「未定义」节点"
+
+#: headsup_warnings/preferences.py:154
+msgid "Warn me about Auto-merge Vertices being active"
+msgstr "警告我自动合并顶点处于启用状态"
+
+#: headsup_warnings/preferences.py:172
+msgid "Warn me about Correct Face Attributes being active. This can change the UVs with transforms done in edit mode"
+msgstr "警告我校正面属性处于启用状态。这会在编辑模式下进行变换时改变 UV"
+
+#: headsup_warnings/preferences.py:256
+msgid "Warn me about Cycles samples being higher than this number"
+msgstr "警告我 Cycles 采样数高于此数值"
+
+#: headsup_warnings/preferences.py:251
+msgid "Warn me about Cycles samples being lower than this number"
+msgstr "警告我 Cycles 采样数低于此数值"
+
+#: headsup_warnings/preferences.py:166
+msgid "Warn me about Live Unwrap being active"
+msgstr "警告我实时展开处于启用状态"
+
+#: headsup_warnings/preferences.py:124
+msgid "Warn me about Mirror options being active"
+msgstr "警告我镜像选项处于启用状态"
+
+#: headsup_warnings/preferences.py:178
+msgid "Warn me about Multiple Image Sequence Nodes using the same image datablock with different settings. This will not work"
+msgstr "警告我多个图像序列节点使用同一图像数据块但设置不同。这将无法工作"
+
+#: headsup_warnings/preferences.py:142
+msgid "Warn me about Post Processing 'Use Sequencer' being active while the Sequencer contains strips"
+msgstr "警告我后期处理「使用序列编辑器」处于启用状态且序列编辑器中包含片段"
+
+#: headsup_warnings/preferences.py:245
+msgid "Warn me about Sample Override being active on a Viewlayer"
+msgstr "警告我某视图层上采样覆盖处于启用状态"
+
+#: headsup_warnings/preferences.py:102
+#: headsup_warnings/preferences.py:108
+msgid "Warn me about Scaling Issues"
+msgstr "警告我缩放问题"
+
+#: headsup_warnings/preferences.py:61
+msgid "Warn me about Sculpting on a Shapekey which is not set to Value 1.0"
+msgstr "警告我在未设为值 1.0 的形态键上进行雕刻"
+
+#: headsup_warnings/preferences.py:130
+#: headsup_warnings/preferences.py:136
+msgid "Warn me about Simplify being active when below treshhold values"
+msgstr "警告我启用简化且数值低于阈值"
+
+#: headsup_warnings/preferences.py:96
+msgid "Warn me about Snapping"
+msgstr "警告我吸附"
+
+#: headsup_warnings/preferences.py:160
+msgid "Warn me about UV Select Sync being active, only showing UVs for selected Geometry"
+msgstr "警告我 UV 选择同步处于启用状态，仅显示所选几何体的 UV"
+
+#: headsup_warnings/preferences.py:148
+msgid "Warn me about a Render Region being used"
+msgstr "警告我使用了渲染区域"
+
+#: headsup_warnings/preferences.py:361
+msgid "Warn me about a Subdivision or MultiRes being higher for Viewport than for Render"
+msgstr "警告我视图的细分或多重分辨率高于渲染"
+
+#: headsup_warnings/preferences.py:332
+msgid "Warn me about a the Film 'Transparent' option being turned OFF"
+msgstr "警告我胶片「透明」选项被关闭"
+
+#: headsup_warnings/preferences.py:185
+msgid "Warn me about active Corrective Smooth modifiers when in Sculpt Mode"
+msgstr "警告我在雕刻模式下有活动的校正平滑修改器"
+
+#: headsup_warnings/preferences.py:197
+msgid "Warn me about an active Local-View"
+msgstr "警告我有活动的局部视图"
+
+#: headsup_warnings/preferences.py:308
+msgid "Warn me about an active Rig being in Rest Position"
+msgstr "警告我活动骨架处于静止位置"
+
+#: headsup_warnings/preferences.py:280
+msgid "Warn me about an active preview range"
+msgstr "警告我有活动的预览范围"
+
+#: headsup_warnings/preferences.py:348
+#: headsup_warnings/preferences.py:354
+msgid "Warn me about an audio strip being louder than a threshold"
+msgstr "警告我音频片段音量高于阈值"
+
+#: headsup_warnings/preferences.py:203
+msgid "Warn me about an clipping borders being used"
+msgstr "警告我使用了剪裁边界"
+
+#: headsup_warnings/preferences.py:90
+msgid "Warn me about any of the Affect Only (Origins/Locations/Parents) being active"
+msgstr "警告我任何「仅影响」（原点/位置/父级）处于启用状态"
+
+#: headsup_warnings/preferences.py:268
+msgid "Warn me about hidden object types in a visible viewport"
+msgstr "警告我在可见视口中隐藏的物体类型"
+
+#: headsup_warnings/preferences.py:302
+msgid "Warn me about locked location, rotation or scale"
+msgstr "警告我锁定的位置、旋转或缩放"
+
+#: headsup_warnings/preferences.py:54
+msgid "Warn me about mismatches for the Render/Viewport visiblity Settings of collections or objects"
+msgstr "警告我集合或物体的渲染/视图可见性设置不匹配"
+
+#: headsup_warnings/preferences.py:381
+msgid "Warn me about missing libraries"
+msgstr "警告我缺失的库"
+
+#: headsup_warnings/preferences.py:374
+msgid "Warn me about missing textures"
+msgstr "警告我缺失的纹理"
+
+#: headsup_warnings/preferences.py:262
+msgid "Warn me about modifiers before an array modifier mismatching for render and viewport. Might cause changing positions of the array result"
+msgstr "警告我阵列修改器之前的修改器在渲染与视图之间不匹配。可能导致阵列结果位置变化"
+
+#: headsup_warnings/preferences.py:227
+msgid "Warn me about modifiers which have mismatching viewport/render visibilities"
+msgstr "警告我视图/渲染可见性不匹配的修改器"
+
+#: headsup_warnings/preferences.py:326
+msgid "Warn me about the Output being set to FFMPEG video, which can lead to many issues"
+msgstr "当输出设置为 FFMPEG 视频时警告我，这可能导致许多问题"
+
+#: headsup_warnings/preferences.py:221
+msgid "Warn me about the Pixel Filter being changed from its 1.50 px default"
+msgstr "当像素过滤器偏离默认值 1.50 px 时警告我"
+
+#: headsup_warnings/preferences.py:286
+msgid "Warn me about the render device for Cycles"
+msgstr "警告我关于 Cycles 的渲染设备设置"
+
+#: headsup_warnings/preferences.py:274
+msgid "Warn me about unselectable object types in a visible viewport"
+msgstr "当可见视图中存在不可选择的物体类型时警告我"
+
+#: headsup_warnings/preferences.py:78
+msgid "Warn me and show a red dot and border"
+msgstr "警告我并显示红点和边框"
+
+#: headsup_warnings/preferences.py:320
+msgid "Warn me if 'Use Nodes' is OFF in the compositor, but the compositor is NOT emtpy"
+msgstr "当合成器中「使用节点」关闭但合成器不为空时警告我"
+
+#: headsup_warnings/preferences.py:209
+msgid "Warn me if active object is a shadow catcher or holdout"
+msgstr "当活动物体是阴影捕捉器或保持对象时警告我"
+
+#: headsup_warnings/preferences.py:215
+msgid "Warn me if the Render Resolution is not set to 100%"
+msgstr "当渲染分辨率未设置为 100% 时警告我"
+
+#: headsup_warnings/preferences.py:191
+msgid "Warn me when Autopacking is activated for the current file"
+msgstr "当当前文件启用自动打包时警告我"
+
+#: headsup_warnings/preferences.py:388
+msgid "Warn me when the file was created in another Blender version"
+msgstr "当文件由其他 Blender 版本创建时警告我"
+
+#: headsup_warnings/preferences.py:676
+msgid "When this is activated, any text file in Blender starting with the word 'HeadsUp:' in"
+msgstr "启用此项后，Blender 中任何以「HeadsUp:」开头的文本文件"
+
+#: headsup_warnings/properties.py:53
+msgid "You are trying to sculpt on a Shape Key, but that Shape Key is not fully applied, therefore the Viewport is not „What you see is what you get“. ▶▶▶ Go to Properties → Mesh → Shape Keys → Set Active Shape Key Value to 1.0"
+msgstr "你正在对形态键进行雕刻，但该形态键未完全应用，因此视图并非「所见即所得」。▶▶▶ 转到 属性 → 网格 → 形态键 → 将活动形态键值设为 1.0"
+
+#: headsup_warnings/preferences.py:678
+msgid "the first line will be adding the following part of that line as a HeadsUp Warning."
+msgstr "其第一行中该词之后的部分将作为 HeadsUp 警告添加。"
+
+#: headsup_warnings/properties.py:59
+msgid "„Auto-Keying“ is active. This can potentially be destructive by inserting unwanted Keyframes or overwriting existing ones. ▶▶▶ Disable via the Timeline UI Button (⏺)"
+msgstr "「自动关键帧」已启用。这可能插入不需要的关键帧或覆盖现有帧，具有破坏性。▶▶▶ 通过时间线 UI 按钮 (⏺) 禁用"
+
+#: headsup_warnings/preferences.py:78
+msgid "⏺[REC]"
+msgstr "⏺[REC]"
+
+#: headsup_warnings/preferences.py:515
+msgid "┗▶"
+msgstr "┗▶"
+
+#: headsup_warnings/preferences.py:666
+msgid "┗▶ Settings:"
+msgstr "┗▶ 设置："
+
+#: headsup_warnings/preferences.py:657
+msgid "┗▶ Settings: (Warn if equal or lower than)"
+msgstr "┗▶ 设置：（等于或低于时警告）"
+
+#: headsup_warnings/panels.py:32
+#: headsup_warnings/panels.py:56
+msgctxt "Operator"
+msgid "HeadsUp Preferences"
+msgstr "HeadsUp 偏好设置"
+
+#: headsup_warnings/operators.py:69
+msgctxt "Operator"
+msgid "Highlight Collection"
+msgstr "高亮集合"
+
+#: headsup_warnings/operators.py:145
+msgctxt "Operator"
+msgid "Open HeadsUp Preferences"
+msgstr "打开 HeadsUp 偏好设置"
+
+#: headsup_warnings/operators.py:10
+msgctxt "Operator"
+msgid "Select and highlight in Outliner"
+msgstr "在大纲视图中选择并高亮"
+
+#: headsup_warnings/preferences.py:552
+msgctxt "Operator"
+msgid "Store current theme color"
+msgstr "存储当前主题颜色"
+
+#: headsup_warnings/operators.py:135
+msgctxt "Operator"
+msgid "Store the current theme color in the Original Theme Color preference."
+msgstr "将当前主题颜色存储到「原始主题颜色」偏好设置中。"

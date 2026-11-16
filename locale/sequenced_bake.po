@@ -1,0 +1,2263 @@
+# perfect-chinese: 1
+# id: sequenced_bake
+# kind: addon
+# module: bl_ext.blender_org.sequenced_bake
+# name: Sequenced Bake
+# name_zh: 序列烘焙
+# translator: KeshiMiao
+# category: Material
+# supported_versions: >=5.0.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: sequenced_bake_core/properties.py:78
+msgid "+X"
+msgstr "+X"
+
+#: sequenced_bake_core/properties.py:79
+msgid "+Y"
+msgstr "+Y"
+
+#: sequenced_bake_core/properties.py:80
+msgid "+Z"
+msgstr "+Z"
+
+#: sequenced_bake_core/properties.py:81
+msgid "-X"
+msgstr "-X"
+
+#: sequenced_bake_core/properties.py:82
+msgid "-Y"
+msgstr "-Y"
+
+#: sequenced_bake_core/properties.py:83
+msgid "-Z"
+msgstr "-Z"
+
+#: sequenced_bake_core/properties.py:490
+msgid "32-bit Float"
+msgstr "32 位浮点"
+
+#: __init__.py:19
+msgid "3D View"
+msgstr "3D 视图"
+
+#: sequenced_bake_core/properties.py:310
+msgid "ACES interchange color space for archival and data exchange (very wide gamut)"
+msgstr "用于存档与数据交换的 ACES 交换色彩空间（超宽色域）"
+
+#: sequenced_bake_core/properties.py:87
+msgid "ACES interchange colorspace (scene-linear, archival and exchange)"
+msgstr "ACES 交换色彩空间（场景线性，存档与交换）"
+
+#: sequenced_bake_core/properties.py:92
+msgid "ACES scene-linear working space for CG rendering and compositing"
+msgstr "用于 CG 渲染与合成的 ACES 场景线性工作空间"
+
+#: sequenced_bake_core/properties.py:315
+msgid "ACES scene-linear working space optimized for CG rendering and compositing"
+msgstr "针对 CG 渲染与合成优化的 ACES 场景线性工作空间"
+
+#: sequenced_bake_core/properties.py:87
+#: sequenced_bake_core/properties.py:310
+msgid "ACES2065-1"
+msgstr "ACES2065-1"
+
+#: sequenced_bake_core/properties.py:92
+#: sequenced_bake_core/properties.py:315
+msgid "ACEScg"
+msgstr "ACEScg"
+
+#: sprite_sheet_creator/properties.py:254
+msgid "Active Image Index"
+msgstr "活动图像索引"
+
+#: sequenced_bake_core/properties.py:883
+msgid "Active Material"
+msgstr "活动材质"
+
+#: sequenced_bake_core/properties.py:546
+msgid "Active UDIM Index"
+msgstr "活动 UDIM 索引"
+
+#: sequenced_bake_core/ui.py:283
+msgid "Active UDIM Tiles:"
+msgstr "活动 UDIM 分块："
+
+#: sequenced_bake_core/operator.py:397
+msgid "Active mesh object required"
+msgstr "需要活动的网格物体"
+
+#: sequenced_bake_core/operator.py:401
+msgid "Active object with material required"
+msgstr "需要带材质的活动物体"
+
+#: sequenced_bake_core/properties.py:934
+msgid "Actual bake throughput (frames per second)"
+msgstr "实际烘焙吞吐量（帧/秒）"
+
+#: sequenced_bake_core/properties.py:828
+msgid "Adjust the exposure level"
+msgstr "调整曝光级别"
+
+#: sequenced_bake_core/properties.py:837
+msgid "Adjust the gamma level"
+msgstr "调整伽马级别"
+
+#: sequenced_bake_core/properties.py:239
+msgid "AgX"
+msgstr "AgX"
+
+#: sequenced_bake_core/properties.py:268
+msgid "AgX only — increased contrast and saturation"
+msgstr "仅 AgX — 提高对比度和饱和度"
+
+#: sequenced_bake_core/properties.py:270
+msgid "AgX only — monochrome output"
+msgstr "仅 AgX — 单色输出"
+
+#: sequenced_bake_core/properties.py:884
+msgid "All Materials"
+msgstr "所有材质"
+
+#: sequenced_bake_core/properties.py:526
+msgid "Alpha"
+msgstr "Alpha"
+
+#: sequenced_bake_core/properties.py:650
+msgid "Ambient Occlusion"
+msgstr "环境光遮蔽"
+
+#: sequenced_bake_core/properties.py:629
+msgid "B"
+msgstr "B"
+
+#: sequenced_bake_core/properties.py:33
+#: sprite_sheet_creator/properties.py:26
+msgid "BMP"
+msgstr "BMP"
+
+#: sequenced_bake_core/properties.py:971
+#: sequenced_bake_core/ui.py:394
+msgid "Bake Controls"
+msgstr "烘焙控制"
+
+#: sequenced_bake_core/ui.py:406
+msgid "Bake Controls:"
+msgstr "烘焙控制："
+
+#: sequenced_bake_core/properties.py:977
+#: sequenced_bake_core/ui.py:454
+msgid "Bake Details"
+msgstr "烘焙详情"
+
+#: sequenced_bake_core/ui.py:444
+msgid "Bake Progress:"
+msgstr "烘焙进度："
+
+#: sequenced_bake_core/ui.py:407
+msgid "Bake Scope:"
+msgstr "烘焙范围："
+
+#: sequenced_bake_core/properties.py:965
+msgid "Bake Type"
+msgstr "烘焙类型"
+
+#: sequenced_bake_core/ui.py:303
+msgid "Bake Type Options"
+msgstr "烘焙类型选项"
+
+#: sequenced_bake_core/ui.py:481
+#: sequenced_bake_core/ui.py:498
+msgid "Bake a material sequence based on the defined settings and keyframed node settings."
+msgstr "根据已定义的设置和已设置关键帧的节点设置烘焙材质序列。"
+
+#: sequenced_bake_core/properties.py:893
+msgid "Bake across the full frame range"
+msgstr "烘焙整个帧范围"
+
+#: sequenced_bake_core/properties.py:884
+msgid "Bake all materials in the object"
+msgstr "烘焙物体中的所有材质"
+
+#: sequenced_bake_core/properties.py:879
+msgid "Bake only active material or all materials"
+msgstr "仅烘焙活动材质或所有材质"
+
+#: sequenced_bake_core/properties.py:883
+msgid "Bake only the active material"
+msgstr "仅烘焙活动材质"
+
+#: sequenced_bake_core/properties.py:894
+msgid "Bake only the current frame"
+msgstr "仅烘焙当前帧"
+
+#: sequenced_bake_core/sculpt_map.py:554
+msgid "Base Size"
+msgstr "基础尺寸"
+
+#: sequenced_bake_core/sculpt_map.py:487
+#: sequenced_bake_core/sculpt_map.py:491
+msgid "Bevel Radius"
+msgstr "倒角半径"
+
+#: sequenced_bake_core/sculpt_map.py:486
+#: sequenced_bake_core/sculpt_map.py:490
+msgid "Bevel Weight"
+msgstr "倒角权重"
+
+#: sequenced_bake_core/properties.py:513
+msgid "Blend"
+msgstr "混合"
+
+#: sequenced_bake_core/properties.py:63
+msgid "Blender"
+msgstr "Blender"
+
+#: sequenced_bake_core/properties.py:63
+msgid "Blender default (OpenGL +Y)"
+msgstr "Blender 默认（OpenGL +Y）"
+
+#: sequenced_bake_core/sculpt_map.py:422
+msgid "Bolt"
+msgstr "螺栓"
+
+#: sequenced_bake_core/sculpt_map.py:578
+msgid "Bolt Settings:"
+msgstr "螺栓设置："
+
+#: sequenced_bake_core/properties.py:710
+msgid "Bounding Object"
+msgstr "边界物体"
+
+#: sequenced_bake_core/properties.py:297
+msgid "Box"
+msgstr "方盒"
+
+#: sequenced_bake_core/properties.py:297
+msgid "Box projection"
+msgstr "方盒投影"
+
+#: sequenced_bake_core/properties.py:206
+msgid "Broadcast SDR display device (gamma-based television standard)"
+msgstr "广播 SDR 显示设备（基于伽马的电视标准）"
+
+#: sequenced_bake_core/properties.py:947
+msgid "CPU Usage"
+msgstr "CPU 使用率"
+
+#: sequenced_bake_core/properties.py:553
+msgid "Cage"
+msgstr "罩体"
+
+#: sequenced_bake_core/properties.py:558
+msgid "Cage Object"
+msgstr "罩体物体"
+
+#: sequenced_bake_core/sculpt_map.py:417
+msgid "Capsule"
+msgstr "胶囊"
+
+#: sequenced_bake_core/sculpt_map.py:538
+msgid "Capsule Settings:"
+msgstr "胶囊设置："
+
+#: sequenced_bake_core/properties.py:553
+msgid "Cast rays to active object from a cage"
+msgstr "从罩体向活动物体投射光线"
+
+#: sprite_sheet_creator/properties.py:292
+msgid "Cell Height"
+msgstr "单元格高度"
+
+#: sprite_sheet_creator/properties.py:286
+msgid "Cell Width"
+msgstr "单元格宽度"
+
+#: sequenced_bake_core/properties.py:53
+msgid "Channel Packed"
+msgstr "通道打包"
+
+#: sequenced_bake_core/properties.py:479
+msgid "Choose the image format"
+msgstr "选择图像格式"
+
+#: sprite_sheet_creator/properties.py:199
+msgid "Choose where frames are sourced from"
+msgstr "选择帧的来源"
+
+#: sequenced_bake_core/properties.py:38
+#: sprite_sheet_creator/properties.py:31
+msgid "Cineon"
+msgstr "Cineon"
+
+#: sequenced_bake_core/properties.py:495
+msgid "Clear Baked Maps"
+msgstr "清除烘焙贴图"
+
+#: sprite_sheet_creator/properties.py:367
+msgid "Clear Temporary Images"
+msgstr "清除临时图像"
+
+#: sequenced_bake_core/properties.py:495
+msgid "Clears the baked maps from blenders image viewer list"
+msgstr "从 Blender 图像查看器列表中清除烘焙贴图"
+
+#: sequenced_bake_core/properties.py:305
+msgid "Clip"
+msgstr "裁剪"
+
+#: sequenced_bake_core/properties.py:305
+msgid "Clip the texture to the image bounds"
+msgstr "将纹理裁剪到图像边界内"
+
+#: sequenced_bake_core/properties.py:290
+msgid "Closest"
+msgstr "最近"
+
+#: sequenced_bake_core/sculpt_map.py:485
+msgid "Collapse Ends"
+msgstr "收缩端点"
+
+#: sequenced_bake_core/properties.py:734
+#: sequenced_bake_core/properties.py:749
+msgid "Color"
+msgstr "颜色"
+
+#: sequenced_bake_core/properties.py:717
+msgid "Color ID"
+msgstr "颜色 ID"
+
+#: sequenced_bake_core/ui.py:379
+msgid "Color Management"
+msgstr "色彩管理"
+
+#: sequenced_bake_core/properties.py:866
+msgid "Colorspace"
+msgstr "色彩空间"
+
+#: sprite_sheet_creator/properties.py:274
+msgid "Columns"
+msgstr "列"
+
+#: sequenced_bake_core/properties.py:685
+msgid "Combined"
+msgstr "组合"
+
+#: sprite_sheet_creator/properties.py:238
+msgid "Comma-separated list of detected UDIM tile indexes"
+msgstr "检测到的 UDIM 平铺索引的逗号分隔列表"
+
+#: sprite_sheet_creator/properties.py:205
+msgid "Compositor Output"
+msgstr "合成器输出"
+
+#: sprite_sheet_creator/ui.py:226
+msgid "Compositor Output Directory:"
+msgstr "合成器输出目录："
+
+#: sprite_sheet_creator/properties.py:229
+msgid "Compositor Output Path"
+msgstr "合成器输出路径"
+
+#: sprite_sheet_creator/operators.py:175
+msgid "Compositor output path is required"
+msgstr "合成器输出路径为必填项"
+
+#: sprite_sheet_creator/properties.py:312
+msgid "Constrain the sprite sheet to a fixed pixel resolution and split overflow frames across multiple sheets"
+msgstr "将精灵表限制为固定像素分辨率，并将溢出的帧拆分到多个精灵表"
+
+#: sequenced_bake_core/properties.py:889
+msgid "Control whether to bake a full frame range or only the current frame"
+msgstr "控制烘焙完整帧范围还是仅烘焙当前帧"
+
+#: sequenced_bake_core/sculpt_map.py:443
+msgid "Controls the sharpness of corners for Square/Rounded, and the flatness of the D-Ring"
+msgstr "控制方形/圆角形状的角锐度，以及 D 形环的平坦度"
+
+#: sprite_sheet_creator/ui.py:80
+msgid "Create Sprite Sheets"
+msgstr "创建精灵表"
+
+#: sequenced_bake_core/properties.py:490
+msgid "Create image with 32-bit floating-point bit depth\nControls the internal precision of the image during creation and baking."
+msgstr "创建 32 位浮点位深的图像\n控制创建和烘焙期间图像的内部精度。"
+
+#: sequenced_bake_core/sculpt_map.py:593
+msgid "Cross-Section Vertices"
+msgstr "横截面顶点"
+
+#: sequenced_bake_core/sculpt_map.py:428
+msgid "Cross-sectional shape of the torus ring"
+msgstr "圆环的横截面形状"
+
+#: sequenced_bake_core/sculpt_map.py:418
+msgid "Cube"
+msgstr "立方体"
+
+#: sequenced_bake_core/sculpt_map.py:545
+msgid "Cube Settings:"
+msgstr "立方体设置："
+
+#: sequenced_bake_core/properties.py:291
+msgid "Cubic"
+msgstr "三次"
+
+#: sequenced_bake_core/ui.py:215
+msgid "Current"
+msgstr "当前"
+
+#: sequenced_bake_core/properties.py:894
+msgid "Current Frame"
+msgstr "当前帧"
+
+#: sequenced_bake_core/properties.py:916
+msgid "Current bake execution state (Idle, Baking, Completed, Cancelled)"
+msgstr "当前烘焙执行状态（空闲、烘焙中、已完成、已取消）"
+
+#: sequenced_bake_core/properties.py:965
+msgid "Current bake pass type being executed (e.g. Normal, AO, Roughness)"
+msgstr "当前正在执行的烘焙通道类型（例如法线、环境光遮蔽、粗糙度）"
+
+#: sequenced_bake_core/properties.py:928
+msgid "Current frame index and total frame range (e.g. '12 / 240')"
+msgstr "当前帧索引和总帧范围（例如 '12 / 240'）"
+
+#: sequenced_bake_core/properties.py:546
+msgid "Currently selected UDIM tile in the UI list"
+msgstr "UI 列表中当前选中的 UDIM 平铺"
+
+#: sequenced_bake_core/sculpt_map.py:499
+msgid "Curve (Degrees)"
+msgstr "曲线（度）"
+
+#: sequenced_bake_core/properties.py:69
+msgid "Custom"
+msgstr "自定义"
+
+#: sequenced_bake_core/sculpt_map.py:332
+#: sequenced_bake_core/sculpt_map.py:415
+msgid "Cylinder"
+msgstr "圆柱体"
+
+#: sequenced_bake_core/sculpt_map.py:522
+msgid "Cylinder Settings:"
+msgstr "圆柱体设置："
+
+#: sequenced_bake_core/sculpt_map.py:332
+#: sequenced_bake_core/sculpt_map.py:415
+msgid "Cylindrical topology"
+msgstr "圆柱拓扑"
+
+#: sequenced_bake_core/sculpt_map.py:433
+msgid "D-Ring Loop"
+msgstr "D 形环循环"
+
+#: sequenced_bake_core/sculpt_map.py:433
+msgid "D-shaped ring loop"
+msgstr "D 形环循环"
+
+#: sequenced_bake_core/properties.py:39
+#: sprite_sheet_creator/properties.py:32
+msgid "DPX"
+msgstr "DPX"
+
+#: sequenced_bake_core/properties.py:172
+msgid "Data colorspace (no color transform; masks, mattes, data)"
+msgstr "数据色彩空间（无颜色变换；遮罩、蒙版、数据）"
+
+#: sequenced_bake_core/properties.py:395
+msgid "Data-only space with no color transform (normals, roughness, masks)"
+msgstr "仅数据空间，无颜色变换（法线、粗糙度、遮罩）"
+
+#: sequenced_bake_core/properties.py:459
+msgid "Define the output path for the rendered images"
+msgstr "定义渲染图像的输出路径"
+
+#: sequenced_bake_core/sculpt_map.py:378
+msgid "Depth"
+msgstr "深度"
+
+#: sprite_sheet_creator/properties.py:238
+msgid "Detected UDIM Tiles"
+msgstr "检测到的 UDIM 平铺"
+
+#: sequenced_bake_core/properties.py:675
+#: sequenced_bake_core/properties.py:784
+msgid "Diffuse"
+msgstr "漫射"
+
+#: sequenced_bake_core/properties.py:724
+#: sequenced_bake_core/properties.py:739
+msgid "Direct"
+msgstr "直接"
+
+#: sequenced_bake_core/properties.py:60
+msgid "DirectX"
+msgstr "DirectX"
+
+#: sequenced_bake_core/properties.py:60
+msgid "DirectX normal map convention (-Y)"
+msgstr "DirectX 法线贴图约定（-Y）"
+
+#: sprite_sheet_creator/properties.py:249
+msgid "Directory Images"
+msgstr "图像目录"
+
+#: __init__.py:79
+msgid "Discord URL"
+msgstr "Discord URL"
+
+#: sequenced_bake_core/properties.py:807
+msgid "Display Device"
+msgstr "显示设备"
+
+#: sequenced_bake_core/properties.py:177
+msgid "Display-referred Rec.1886 broadcast colorspace"
+msgstr "显示参考 Rec.1886 广播色彩空间"
+
+#: sequenced_bake_core/properties.py:400
+msgid "Display-referred Rec.1886 color space for legacy video systems"
+msgstr "用于传统视频系统的显示参考 Rec.1886 色彩空间"
+
+#: sequenced_bake_core/properties.py:405
+msgid "Display-referred Rec.2020 color space for HDR and wide-gamut displays"
+msgstr "用于 HDR 和广色域显示器的显示参考 Rec.2020 色彩空间"
+
+#: sequenced_bake_core/properties.py:182
+msgid "Display-referred Rec.2020 wide-gamut colorspace"
+msgstr "显示参考 Rec.2020 广色域色彩空间"
+
+#: sequenced_bake_core/properties.py:229
+msgid "Display-referred view with no tone mapping (linear to display conversion only)"
+msgstr "无色调映射的显示参考视图（仅线性到显示转换）"
+
+#: sequenced_bake_core/properties.py:645
+msgid "Emission"
+msgstr "自发光"
+
+#: sequenced_bake_core/properties.py:799
+msgid "Emit"
+msgstr "发射"
+
+#: sequenced_bake_core/properties.py:705
+msgid "Enable to bake a Second Life-compatible sculpt map for the active mesh object"
+msgstr "启用后为活动网格物体烘焙兼容 Second Life 的雕刻贴图"
+
+#: sequenced_bake_core/properties.py:717
+msgid "Enable to bake a color ID map based on loose mesh geometry"
+msgstr "启用后基于松散网格几何体烘焙颜色 ID 贴图"
+
+#: sequenced_bake_core/properties.py:500
+msgid "Enable to bake from the selected object into the active one"
+msgstr "启用后从选中物体烘焙到活动物体"
+
+#: sequenced_bake_core/properties.py:695
+msgid "Enable to bake the ORM map for the selected objects active material\nAn ORM map (Occlusion, Roughness, Metallic) is a PBR texture packing technique that combines three grayscale maps into a single image's RGB channels—Red for Ambient Occlusion, Green for Roughness, and Blue for Metalness."
+msgstr "启用后为选中物体的活动材质烘焙 ORM 贴图\nORM 贴图（环境光遮蔽、粗糙度、金属度）是一种 PBR 纹理打包技术，可将三张灰度贴图合并到单张图像的 RGB 通道中——红色用于环境光遮蔽，绿色用于粗糙度，蓝色用于金属度。"
+
+#: sequenced_bake_core/properties.py:665
+msgid "Enable to bake the UV map for the selected objects active material"
+msgstr "启用后为选中物体的活动材质烘焙 UV 贴图"
+
+#: sequenced_bake_core/properties.py:650
+msgid "Enable to bake the ambient occlusion map for the selected objects active material"
+msgstr "启用后为选中物体的活动材质烘焙环境光遮蔽贴图"
+
+#: sequenced_bake_core/properties.py:685
+msgid "Enable to bake the combined map for the selected objects active material"
+msgstr "启用后为选中物体的活动材质烘焙组合贴图"
+
+#: sequenced_bake_core/properties.py:675
+msgid "Enable to bake the diffuse map for the selected objects active material"
+msgstr "启用后为选中物体的活动材质烘焙漫射贴图"
+
+#: sequenced_bake_core/properties.py:645
+msgid "Enable to bake the emissive map for the selected objects active material"
+msgstr "启用后为选中物体的活动材质烘焙自发光贴图"
+
+#: sequenced_bake_core/properties.py:670
+msgid "Enable to bake the environment map for the selected objects active material"
+msgstr "启用后为选中物体的活动材质烘焙环境贴图"
+
+#: sequenced_bake_core/properties.py:640
+msgid "Enable to bake the glossy map for the selected objects active material"
+msgstr "启用后为选中物体的活动材质烘焙光泽贴图"
+
+#: sequenced_bake_core/properties.py:690
+msgid "Enable to bake the metallic map for the selected objects active material"
+msgstr "启用后为选中物体的活动材质烘焙金属度贴图"
+
+#: sequenced_bake_core/properties.py:580
+msgid "Enable to bake the normal map for the selected objects active material"
+msgstr "启用后为选中物体的活动材质烘焙法线贴图"
+
+#: sequenced_bake_core/properties.py:660
+msgid "Enable to bake the position map for the selected objects active material"
+msgstr "启用后为选中物体的活动材质烘焙位置贴图"
+
+#: sequenced_bake_core/properties.py:635
+msgid "Enable to bake the roughness map for the selected objects active material"
+msgstr "启用后为选中物体的活动材质烘焙粗糙度贴图"
+
+#: sequenced_bake_core/properties.py:655
+msgid "Enable to bake the shadow map for the selected objects active material"
+msgstr "启用后为选中物体的活动材质烘焙阴影贴图"
+
+#: sequenced_bake_core/properties.py:680
+msgid "Enable to bake the transmission map for the selected objects active material"
+msgstr "启用后为选中物体的活动材质烘焙透射贴图"
+
+#: sequenced_bake_core/ui.py:214
+msgid "End"
+msgstr "结束"
+
+#: sprite_sheet_creator/properties.py:306
+msgid "End Frame"
+msgstr "结束帧"
+
+#: sequenced_bake_core/properties.py:670
+msgid "Environment"
+msgstr "环境"
+
+#: sequenced_bake_core/properties.py:941
+msgid "Estimated Time"
+msgstr "预计时间"
+
+#: sequenced_bake_core/properties.py:941
+msgid "Estimated remaining bake time based on current progress"
+msgstr "基于当前进度估算的剩余烘焙时间"
+
+#: sequenced_bake_core/properties.py:828
+msgid "Exposure"
+msgstr "曝光"
+
+#: sequenced_bake_core/properties.py:304
+msgid "Extend"
+msgstr "扩展"
+
+#: sequenced_bake_core/properties.py:304
+msgid "Extend the texture edges"
+msgstr "扩展纹理边缘"
+
+#: sequenced_bake_core/properties.py:507
+msgid "Extension"
+msgstr "扩展"
+
+#: sequenced_bake_core/properties.py:563
+msgid "Extrusion"
+msgstr "挤出"
+
+#: sequenced_bake_core/properties.py:934
+msgid "FPS"
+msgstr "帧率"
+
+#: sequenced_bake_core/ui.py:469
+msgid "FPS: %.3f"
+msgstr "帧率：%.3f"
+
+#: sprite_sheet_creator/properties.py:44
+msgid "File Name"
+msgstr "文件名"
+
+#: sprite_sheet_creator/properties.py:49
+msgid "File Path"
+msgstr "文件路径"
+
+#: sequenced_bake_core/ui.py:424
+msgid "File Prefix:"
+msgstr "文件前缀："
+
+#: sequenced_bake_core/properties.py:244
+msgid "Filmic"
+msgstr "Filmic"
+
+#: sprite_sheet_creator/properties.py:300
+msgid "First frame to include"
+msgstr "包含的起始帧"
+
+#: sprite_sheet_creator/properties.py:312
+msgid "Fixed Output Resolution"
+msgstr "固定输出分辨率"
+
+#: sequenced_bake_core/properties.py:296
+msgid "Flat"
+msgstr "平面"
+
+#: sequenced_bake_core/sculpt_map.py:330
+#: sequenced_bake_core/sculpt_map.py:413
+msgid "Flat grid topology (standard plane sculptie)"
+msgstr "平面网格拓扑（标准平面 sculptie）"
+
+#: sequenced_bake_core/properties.py:296
+msgid "Flat projection"
+msgstr "平面投影"
+
+#: sequenced_bake_core/properties.py:513
+msgid "For box mapping, amount of blend to use between sides"
+msgstr "盒式映射时各面之间的混合量"
+
+#: sequenced_bake_core/properties.py:928
+msgid "Frame Info"
+msgstr "帧信息"
+
+#: sequenced_bake_core/properties.py:889
+msgid "Frame Scope"
+msgstr "帧范围"
+
+#: sequenced_bake_core/properties.py:893
+msgid "Frame Sequence"
+msgstr "帧序列"
+
+#: sequenced_bake_core/properties.py:899
+msgid "Frame Step"
+msgstr "帧步长"
+
+#: sprite_sheet_creator/properties.py:49
+msgid "Full path to the image file"
+msgstr "图像文件的完整路径"
+
+#: sequenced_bake_core/properties.py:623
+msgid "G"
+msgstr "G"
+
+#: sequenced_bake_core/properties.py:837
+msgid "Gamma"
+msgstr "伽马"
+
+#: sequenced_bake_core/sculpt_map.py:417
+msgid "Generate a capsule sculpt map"
+msgstr "生成胶囊体雕刻贴图"
+
+#: sequenced_bake_core/sculpt_map.py:422
+msgid "Generate a cylinder-mapped bolt"
+msgstr "生成圆柱映射螺栓"
+
+#: sequenced_bake_core/sculpt_map.py:421
+msgid "Generate a folded staircase sculpt map"
+msgstr "生成折叠楼梯雕刻贴图"
+
+#: sequenced_bake_core/sculpt_map.py:420
+msgid "Generate a helical spring sculpt map"
+msgstr "生成螺旋弹簧雕刻贴图"
+
+#: sequenced_bake_core/sculpt_map.py:419
+msgid "Generate a smoothly blended cube"
+msgstr "生成平滑混合立方体"
+
+#: sequenced_bake_core/sculpt_map.py:418
+msgid "Generate a spherical-grid cube"
+msgstr "生成球面网格立方体"
+
+#: sequenced_bake_core/sculpt_map.py:423
+msgid "Generate a torus-mapped nut"
+msgstr "生成圆环映射螺母"
+
+#: sequenced_bake_core/properties.py:43
+msgid "Generated"
+msgstr "已生成"
+
+#: sequenced_bake_core/ui.py:194
+msgid "Generated Image Settings"
+msgstr "生成图像设置"
+
+#: sequenced_bake_core/properties.py:43
+msgid "Generated image (Default)"
+msgstr "生成的图像（默认）"
+
+#: __init__.py:74
+msgid "GitHub URL"
+msgstr "GitHub URL"
+
+#: sequenced_bake_core/properties.py:640
+#: sequenced_bake_core/properties.py:789
+msgid "Glossy"
+msgstr "光泽"
+
+#: sequenced_bake_core/properties.py:270
+msgid "Greyscale"
+msgstr "灰度"
+
+#: sequenced_bake_core/sculpt_map.py:512
+msgid "Grid Settings:"
+msgstr "网格设置："
+
+#: sequenced_bake_core/sculpt_map.py:473
+msgid "Head Height"
+msgstr "头部高度"
+
+#: sequenced_bake_core/sculpt_map.py:472
+msgid "Head Radius"
+msgstr "头部半径"
+
+#: sequenced_bake_core/sculpt_map.py:476
+msgid "Head Sides"
+msgstr "头部边数"
+
+#: sequenced_bake_core/properties.py:472
+#: sequenced_bake_core/sculpt_map.py:468
+msgid "Height"
+msgstr "高度"
+
+#: sequenced_bake_core/sculpt_map.py:378
+msgid "Height of cylinder"
+msgstr "圆柱高度"
+
+#: sprite_sheet_creator/properties.py:292
+msgid "Height of each sprite cell"
+msgstr "每个精灵单元的高度"
+
+#: sequenced_bake_core/sculpt_map.py:420
+msgid "Helix"
+msgstr "螺旋"
+
+#: sequenced_bake_core/sculpt_map.py:569
+msgid "Helix Settings:"
+msgstr "螺旋设置："
+
+#: sequenced_bake_core/properties.py:507
+msgid "How the image texture behaves outside its bounds"
+msgstr "图像纹理超出边界时的行为"
+
+#: sprite_sheet_creator/ui.py:115
+msgid "Image Directory:"
+msgstr "图像目录："
+
+#: sequenced_bake_core/properties.py:44
+#: sprite_sheet_creator/properties.py:203
+msgid "Image Sequence"
+msgstr "图像序列"
+
+#: sequenced_bake_core/ui.py:252
+msgid "Image Texture Settings"
+msgstr "图像纹理设置"
+
+#: sprite_sheet_creator/properties.py:44
+msgid "Image filename in the selected directory"
+msgstr "所选目录中的图像文件名"
+
+#: sequenced_bake_core/properties.py:54
+msgid "Image has no alpha channel"
+msgstr "图像没有 Alpha 通道"
+
+#: sequenced_bake_core/properties.py:53
+msgid "Image rgb and alpha channels are packed"
+msgstr "图像 RGB 和 Alpha 通道已打包"
+
+#: sequenced_bake_core/properties.py:44
+msgid "Image sequence"
+msgstr "图像序列"
+
+#: sprite_sheet_creator/properties.py:331
+msgid "Include alpha channel in the sprite sheet"
+msgstr "在精灵表中包含 Alpha 通道"
+
+#: sequenced_bake_core/properties.py:734
+#: sequenced_bake_core/properties.py:749
+msgid "Include color lighting contributions in the bake"
+msgstr "烘焙中包含颜色光照贡献"
+
+#: sequenced_bake_core/properties.py:784
+msgid "Include diffuse contributions in the bake"
+msgstr "烘焙中包含漫射贡献"
+
+#: sequenced_bake_core/properties.py:724
+#: sequenced_bake_core/properties.py:739
+msgid "Include direct lighting in the bake"
+msgstr "烘焙中包含直接光照"
+
+#: sequenced_bake_core/properties.py:799
+msgid "Include emission contributions in the bake"
+msgstr "烘焙中包含自发光贡献"
+
+#: sequenced_bake_core/properties.py:789
+msgid "Include glossy contributions in the bake"
+msgstr "烘焙中包含光泽贡献"
+
+#: sequenced_bake_core/properties.py:729
+#: sequenced_bake_core/properties.py:744
+msgid "Include indirect lighting in the bake"
+msgstr "烘焙中包含间接光照"
+
+#: sequenced_bake_core/properties.py:794
+msgid "Include transmission contributions in the bake"
+msgstr "烘焙中包含透射贡献"
+
+#: sequenced_bake_core/properties.py:729
+#: sequenced_bake_core/properties.py:744
+msgid "Indirect"
+msgstr "间接"
+
+#: sequenced_bake_core/properties.py:563
+msgid "Inflate the active object by the specified distance for baking"
+msgstr "烘焙时按指定距离膨胀活动物体"
+
+#: sequenced_bake_core/sculpt_map.py:479
+#: sequenced_bake_core/sculpt_map.py:498
+msgid "Inner Radius"
+msgstr "内半径"
+
+#: sequenced_bake_core/properties.py:854
+msgid "Interpolation"
+msgstr "插值"
+
+#: sequenced_bake_core/properties.py:32
+#: sprite_sheet_creator/properties.py:25
+msgid "JPEG"
+msgstr "JPEG"
+
+#: sprite_sheet_creator/properties.py:306
+msgid "Last frame to include"
+msgstr "包含的结束帧"
+
+#: sequenced_bake_core/properties.py:244
+msgid "Legacy Filmic tone mapping for high dynamic range scenes"
+msgstr "用于高动态范围场景的旧版 Filmic 色调映射"
+
+#: sequenced_bake_core/sculpt_map.py:571
+msgid "Length Segments"
+msgstr "长度分段"
+
+#: sequenced_bake_core/ui.py:325
+#: sequenced_bake_core/ui.py:339
+msgid "Lighting Contributions:"
+msgstr "光照贡献："
+
+#: sequenced_bake_core/properties.py:289
+msgid "Linear"
+msgstr "线性"
+
+#: sequenced_bake_core/properties.py:541
+msgid "List of active UDIM tile indexes to bake"
+msgstr "要烘焙的活动 UDIM 平铺索引列表"
+
+#: sequenced_bake_core/properties.py:821
+msgid "Look"
+msgstr "外观"
+
+#: sequenced_bake_core/sculpt_map.py:441
+#: sequenced_bake_core/sculpt_map.py:466
+msgid "Major Radius"
+msgstr "主半径"
+
+#: sequenced_bake_core/sculpt_map.py:394
+msgid "Major Segments"
+msgstr "主分段"
+
+#: sequenced_bake_core/properties.py:69
+msgid "Manual configuration"
+msgstr "手动配置"
+
+#: sequenced_bake_core/properties.py:922
+msgid "Material"
+msgstr "材质"
+
+#: sequenced_bake_core/ui.py:428
+msgid "Material Output Path:"
+msgstr "材质输出路径："
+
+#: sequenced_bake_core/properties.py:879
+msgid "Material Scope"
+msgstr "材质范围"
+
+#: sequenced_bake_core/ui.py:39
+msgid "Materials"
+msgstr "材质"
+
+#: sequenced_bake_core/properties.py:571
+msgid "Max Ray Distance"
+msgstr "最大光线距离"
+
+#: sprite_sheet_creator/properties.py:323
+msgid "Maximum pixel height of each generated sprite sheet"
+msgstr "每张生成的精灵表的最大像素高度"
+
+#: sprite_sheet_creator/properties.py:317
+msgid "Maximum pixel width of each generated sprite sheet"
+msgstr "每张生成的精灵表的最大像素宽度"
+
+#: sequenced_bake_core/properties.py:953
+msgid "Memory Usage"
+msgstr "内存占用"
+
+#: sequenced_bake_core/properties.py:690
+msgid "Metallic"
+msgstr "金属度"
+
+#: sequenced_bake_core/sculpt_map.py:442
+#: sequenced_bake_core/sculpt_map.py:467
+msgid "Minor Radius"
+msgstr "次半径"
+
+#: sequenced_bake_core/sculpt_map.py:401
+msgid "Minor Segments"
+msgstr "次分段"
+
+#: sequenced_bake_core/properties.py:306
+msgid "Mirror"
+msgstr "镜像"
+
+#: sequenced_bake_core/properties.py:306
+msgid "Mirror the texture"
+msgstr "镜像纹理"
+
+#: sequenced_bake_core/properties.py:239
+msgid "Modern high-dynamic-range tone mapping view (default in Blender 5.0)"
+msgstr "现代高动态范围色调映射视图（Blender 5.0 默认）"
+
+#: sprite_sheet_creator/operators.py:304
+msgid "Move Down"
+msgstr "下移"
+
+#: sprite_sheet_creator/operators.py:303
+msgid "Move Up"
+msgstr "上移"
+
+#: sprite_sheet_creator/operators.py:304
+msgid "Move selected image down in the list"
+msgstr "在列表中将所选图像下移"
+
+#: sprite_sheet_creator/operators.py:305
+msgid "Move selected image to the bottom of the list"
+msgstr "将所选图像移至列表底部"
+
+#: sprite_sheet_creator/operators.py:302
+msgid "Move selected image to the top of the list"
+msgstr "将所选图像移至列表顶部"
+
+#: sprite_sheet_creator/operators.py:303
+msgid "Move selected image up in the list"
+msgstr "在列表中将所选图像上移"
+
+#: sprite_sheet_creator/operators.py:305
+msgid "Move to Bottom"
+msgstr "移至底部"
+
+#: sprite_sheet_creator/operators.py:302
+msgid "Move to Top"
+msgstr "移至顶部"
+
+#: sequenced_bake_core/properties.py:45
+msgid "Movie"
+msgstr "影片"
+
+#: sequenced_bake_core/properties.py:45
+msgid "Movie file"
+msgstr "影片文件"
+
+#: sequenced_bake_core/properties.py:420
+msgid "Name"
+msgstr "名称"
+
+#: sequenced_bake_core/properties.py:922
+msgid "Name of the material currently being processed in the bake queue"
+msgstr "烘焙队列中当前处理的材质名称"
+
+#: sequenced_bake_core/properties.py:81
+msgid "Negative X axis"
+msgstr "负 X 轴"
+
+#: sequenced_bake_core/properties.py:82
+msgid "Negative Y axis"
+msgstr "负 Y 轴"
+
+#: sequenced_bake_core/properties.py:83
+msgid "Negative Z axis"
+msgstr "负 Z 轴"
+
+#: sequenced_bake_core/properties.py:267
+msgid "No artistic look (AgX only)"
+msgstr "无艺术外观（仅限 AgX）"
+
+#: sequenced_bake_core/operator.py:59
+msgid "No available UDIM indexes remain."
+msgstr "没有剩余的可用 UDIM 索引。"
+
+#: sequenced_bake_core/operator.py:427
+msgid "No bake tasks were generated"
+msgstr "未生成烘焙任务"
+
+#: sequenced_bake_core/operator.py:416
+msgid "No bake types are enabled"
+msgstr "未启用任何烘焙类型"
+
+#: sequenced_bake_core/ui.py:42
+msgid "No compatible object selected"
+msgstr "未选择兼容物体"
+
+#: sequenced_bake_core/operator.py:412
+msgid "No materials found"
+msgstr "未找到材质"
+
+#: node_group_library/__init__.py:231
+msgid "No node groups available"
+msgstr "没有可用的节点组"
+
+#: sequenced_bake_core/operator.py:393
+msgid "No output path specified"
+msgstr "未指定输出路径"
+
+#: sprite_sheet_creator/operators.py:269
+msgid "No valid image files were selected"
+msgstr "未选择有效的图像文件"
+
+#: sequenced_bake_core/operator.py:294
+msgid "Node"
+msgstr "节点"
+
+#: __init__.py:112
+#: node_group_library/__init__.py:224
+msgid "Node Group Library"
+msgstr "节点组库"
+
+#: node_group_library/__init__.py:261
+msgid "Node Group Name"
+msgstr "节点组名称"
+
+#: sequenced_bake_core/operator.py:290
+msgid "Node Tree"
+msgstr "节点树"
+
+#: node_group_library/magma_material.py:41
+msgid "NodeSocketFloat"
+msgstr "NodeSocketFloat"
+
+#: node_group_library/magma_material.py:36
+msgid "NodeSocketShader"
+msgstr "NodeSocketShader"
+
+#: node_group_library/magma_material.py:43
+msgid "NodeSocketVector"
+msgstr "NodeSocketVector"
+
+#: sequenced_bake_core/properties.py:172
+#: sequenced_bake_core/properties.py:395
+msgid "Non-Color"
+msgstr "非颜色"
+
+#: sequenced_bake_core/properties.py:54
+#: sequenced_bake_core/properties.py:267
+msgid "None"
+msgstr "无"
+
+#: sequenced_bake_core/properties.py:580
+msgid "Normal"
+msgstr "法线"
+
+#: sequenced_bake_core/ui.py:315
+msgid "Normal Map Options:"
+msgstr "法线贴图选项："
+
+#: sequenced_bake_core/properties.py:604
+msgid "Normal map convention preset"
+msgstr "法线贴图约定预设"
+
+#: sequenced_bake_core/properties.py:611
+msgid "Normal map coordinate space"
+msgstr "法线贴图坐标空间"
+
+#: sprite_sheet_creator/properties.py:274
+msgid "Number of columns in the sprite sheet"
+msgstr "精灵图集中的列数"
+
+#: sequenced_bake_core/sculpt_map.py:385
+msgid "Number of height segments for cylinder"
+msgstr "圆柱的高度分段数"
+
+#: sequenced_bake_core/sculpt_map.py:362
+msgid "Number of rings for sphere"
+msgstr "球体的环数"
+
+#: sprite_sheet_creator/properties.py:280
+msgid "Number of rows in the sprite sheet"
+msgstr "精灵图集中的行数"
+
+#: sequenced_bake_core/sculpt_map.py:355
+msgid "Number of segments for sphere"
+msgstr "球体的分段数"
+
+#: sequenced_bake_core/sculpt_map.py:339
+msgid "Number of subdivisions along X axis for grid"
+msgstr "网格沿 X 轴的细分次数"
+
+#: sequenced_bake_core/sculpt_map.py:346
+msgid "Number of subdivisions along Y axis for grid"
+msgstr "网格沿 Y 轴的细分次数"
+
+#: sequenced_bake_core/sculpt_map.py:371
+msgid "Number of vertices around cylinder"
+msgstr "圆柱的环绕顶点数"
+
+#: sequenced_bake_core/sculpt_map.py:423
+msgid "Nut"
+msgstr "螺母"
+
+#: sequenced_bake_core/sculpt_map.py:592
+msgid "Nut Settings:"
+msgstr "螺母设置："
+
+#: sequenced_bake_core/properties.py:695
+msgid "ORM"
+msgstr "ORM"
+
+#: sequenced_bake_core/properties.py:73
+msgid "Object"
+msgstr "物体"
+
+#: sequenced_bake_core/properties.py:558
+msgid "Object to use as cage"
+msgstr "用作笼体的物体"
+
+#: sequenced_bake_core/ui.py:415
+msgid "Only current frame will be baked"
+msgstr "仅烘焙当前帧"
+
+#: sprite_sheet_creator/properties.py:261
+msgid "Only render strips from this Video Sequencer channel"
+msgstr "仅渲染此视频序列编辑器通道中的片段"
+
+#: sprite_sheet_creator/properties.py:357
+msgid "Open Image"
+msgstr "打开图像"
+
+#: sprite_sheet_creator/properties.py:362
+msgid "Open Output Directory"
+msgstr "打开输出目录"
+
+#: sprite_sheet_creator/properties.py:357
+msgid "Open generated sprite sheets in the Image Editor"
+msgstr "在图像编辑器中打开生成的精灵图集"
+
+#: sprite_sheet_creator/properties.py:362
+msgid "Open the output directory after generation"
+msgstr "生成后打开输出目录"
+
+#: sequenced_bake_core/properties.py:36
+#: sprite_sheet_creator/properties.py:29
+msgid "OpenEXR"
+msgstr "OpenEXR"
+
+#: sequenced_bake_core/properties.py:59
+msgid "OpenGL"
+msgstr "OpenGL"
+
+#: sequenced_bake_core/properties.py:454
+msgid "Optional prefix added to the beginning of baked filenames"
+msgstr "添加到烘焙文件名开头的可选前缀"
+
+#: sequenced_bake_core/properties.py:710
+msgid "Optional reference object (e.g., a cube) to use as a stable bounding box across animation frames"
+msgstr "可选参考物体（例如立方体），用作跨动画帧的稳定包围盒"
+
+#: sprite_sheet_creator/properties.py:249
+msgid "Ordered list of images found in the selected directory"
+msgstr "在所选目录中找到的图像的有序列表"
+
+#: sequenced_bake_core/sculpt_map.py:480
+msgid "Outer Radius"
+msgstr "外半径"
+
+#: sprite_sheet_creator/ui.py:213
+msgid "Output File Name:"
+msgstr "输出文件名："
+
+#: sprite_sheet_creator/properties.py:323
+msgid "Output Height"
+msgstr "输出高度"
+
+#: sprite_sheet_creator/properties.py:317
+msgid "Output Width"
+msgstr "输出宽度"
+
+#: sprite_sheet_creator/properties.py:229
+msgid "Output directory for sprite sheets generated from the Compositor"
+msgstr "合成器生成的精灵图集的输出目录"
+
+#: sprite_sheet_creator/properties.py:222
+msgid "Output directory for sprite sheets generated from the Video Sequencer"
+msgstr "视频序列编辑器生成的精灵图集的输出目录"
+
+#: sprite_sheet_creator/properties.py:342
+msgid "Output file name.\nIf empty, a default name is generated"
+msgstr "输出文件名。\n如果为空，则生成默认名称"
+
+#: sprite_sheet_creator/properties.py:336
+msgid "Output image format"
+msgstr "输出图像格式"
+
+#: sequenced_bake_core/properties.py:907
+msgid "Overall progress of the sequencing bake operation (0.0 - 1.0)"
+msgstr "序列烘焙操作的总进度（0.0 - 1.0）"
+
+#: sprite_sheet_creator/properties.py:350
+msgid "Overwrite Existing"
+msgstr "覆盖现有"
+
+#: sprite_sheet_creator/properties.py:350
+msgid "Overwrite existing files with the same name"
+msgstr "覆盖同名的现有文件"
+
+#: sequenced_bake_core/properties.py:31
+#: sprite_sheet_creator/properties.py:24
+msgid "PNG"
+msgstr "PNG"
+
+#: sequenced_bake_core/sculpt_map.py:594
+msgid "Perimeter Segments"
+msgstr "周向分段"
+
+#: sequenced_bake_core/sculpt_map.py:579
+msgid "Perimeter Vertices"
+msgstr "周向顶点"
+
+#: sequenced_bake_core/properties.py:947
+msgid "Placeholder for CPU usage monitoring (requires external system integration)"
+msgstr "CPU 使用率监控占位符（需要外部系统集成）"
+
+#: sequenced_bake_core/properties.py:959
+msgid "Placeholder for GPU VRAM usage during bake (requires GPU telemetry integration)"
+msgstr "烘焙期间 GPU 显存使用量占位符（需要 GPU 遥测集成）"
+
+#: sequenced_bake_core/properties.py:953
+msgid "Placeholder for system memory usage during bake (requires external monitoring)"
+msgstr "烘焙期间系统内存使用量占位符（需要外部监控）"
+
+#: sequenced_bake_core/sculpt_map.py:330
+#: sequenced_bake_core/sculpt_map.py:413
+msgid "Plane / Grid"
+msgstr "平面 / 栅格"
+
+#: sequenced_bake_core/properties.py:660
+msgid "Position"
+msgstr "位置"
+
+#: sequenced_bake_core/properties.py:78
+msgid "Positive X axis"
+msgstr "X 轴正向"
+
+#: sequenced_bake_core/properties.py:79
+msgid "Positive Y axis"
+msgstr "Y 轴正向"
+
+#: sequenced_bake_core/properties.py:80
+msgid "Positive Z axis"
+msgstr "Z 轴正向"
+
+#: sequenced_bake_core/properties.py:52
+msgid "Premultiplied"
+msgstr "预乘"
+
+#: sequenced_bake_core/properties.py:604
+msgid "Preset"
+msgstr "预设"
+
+#: sequenced_bake_core/sculpt_map.py:560
+msgid "Profile Resolution"
+msgstr "轮廓分辨率"
+
+#: sequenced_bake_core/sculpt_map.py:580
+msgid "Profile Segments"
+msgstr "轮廓分段"
+
+#: sequenced_bake_core/properties.py:907
+msgid "Progress"
+msgstr "进度"
+
+#: sequenced_bake_core/properties.py:860
+msgid "Projection"
+msgstr "投影"
+
+#: sequenced_bake_core/properties.py:268
+msgid "Punchy"
+msgstr "强烈"
+
+#: sequenced_bake_core/properties.py:617
+msgid "R"
+msgstr "R"
+
+#: sequenced_bake_core/properties.py:37
+#: sprite_sheet_creator/properties.py:30
+msgid "Radiance HDR"
+msgstr "Radiance HDR"
+
+#: sequenced_bake_core/sculpt_map.py:456
+msgid "Radius"
+msgstr "半径"
+
+#: sequenced_bake_core/properties.py:259
+msgid "Raw"
+msgstr "原始"
+
+#: sequenced_bake_core/properties.py:177
+#: sequenced_bake_core/properties.py:206
+msgid "Rec.1886"
+msgstr "Rec.1886"
+
+#: sequenced_bake_core/properties.py:182
+#: sequenced_bake_core/properties.py:211
+msgid "Rec.2020"
+msgstr "Rec.2020"
+
+#: sprite_sheet_creator/operators.py:308
+msgid "Refresh"
+msgstr "刷新"
+
+#: sprite_sheet_creator/operators.py:308
+msgid "Reload images from the selected directory"
+msgstr "从所选目录重新加载图像"
+
+#: sprite_sheet_creator/operators.py:307
+msgid "Remove Image"
+msgstr "移除图像"
+
+#: sprite_sheet_creator/properties.py:367
+msgid "Remove generated intermediate images from Blender"
+msgstr "从 Blender 中移除生成的中间图像"
+
+#: sprite_sheet_creator/operators.py:307
+msgid "Remove the selected image from the list"
+msgstr "从列表中移除选中的图像"
+
+#: sequenced_bake_core/properties.py:303
+msgid "Repeat"
+msgstr "重复"
+
+#: sequenced_bake_core/properties.py:303
+msgid "Repeat the texture"
+msgstr "重复纹理"
+
+#: sequenced_bake_core/properties.py:526
+msgid "Representation of alpha in the image file"
+msgstr "图像文件中 Alpha 的表示方式"
+
+#: __init__.py:87
+msgid "Resources and Community."
+msgstr "资源与社区。"
+
+#: sprite_sheet_creator/operators.py:306
+msgid "Reverse Order"
+msgstr "反转顺序"
+
+#: sprite_sheet_creator/operators.py:306
+msgid "Reverse the order of all images in the list"
+msgstr "反转列表中所有图像的顺序"
+
+#: sequenced_bake_core/sculpt_map.py:428
+msgid "Ring Shape"
+msgstr "环形状"
+
+#: sequenced_bake_core/sculpt_map.py:362
+msgid "Rings"
+msgstr "环"
+
+#: sequenced_bake_core/properties.py:635
+msgid "Roughness"
+msgstr "粗糙度"
+
+#: sequenced_bake_core/sculpt_map.py:419
+msgid "Round Cube"
+msgstr "圆角立方体"
+
+#: sequenced_bake_core/sculpt_map.py:551
+msgid "Round Cube Settings:"
+msgstr "圆角立方体设置："
+
+#: sequenced_bake_core/sculpt_map.py:435
+msgid "Rounded loop"
+msgstr "圆角环形"
+
+#: sequenced_bake_core/sculpt_map.py:435
+msgid "Rounded rectangular loop"
+msgstr "圆角矩形环形"
+
+#: sprite_sheet_creator/properties.py:280
+msgid "Rows"
+msgstr "行"
+
+#: sequenced_bake_core/properties.py:33
+#: sprite_sheet_creator/properties.py:26
+msgid "Save as BMP"
+msgstr "保存为 BMP"
+
+#: sequenced_bake_core/properties.py:38
+#: sprite_sheet_creator/properties.py:31
+msgid "Save as Cineon"
+msgstr "保存为 Cineon"
+
+#: sequenced_bake_core/properties.py:39
+#: sprite_sheet_creator/properties.py:32
+msgid "Save as DPX"
+msgstr "保存为 DPX"
+
+#: sequenced_bake_core/properties.py:32
+#: sprite_sheet_creator/properties.py:25
+msgid "Save as JPEG"
+msgstr "保存为 JPEG"
+
+#: sequenced_bake_core/properties.py:36
+#: sprite_sheet_creator/properties.py:29
+msgid "Save as OpenEXR"
+msgstr "保存为 OpenEXR"
+
+#: sequenced_bake_core/properties.py:31
+#: sprite_sheet_creator/properties.py:24
+msgid "Save as PNG"
+msgstr "保存为 PNG"
+
+#: sequenced_bake_core/properties.py:37
+#: sprite_sheet_creator/properties.py:30
+msgid "Save as Radiance HDR"
+msgstr "保存为 Radiance HDR"
+
+#: sequenced_bake_core/properties.py:35
+#: sprite_sheet_creator/properties.py:28
+msgid "Save as TGA"
+msgstr "保存为 TGA"
+
+#: sequenced_bake_core/properties.py:34
+#: sprite_sheet_creator/properties.py:27
+msgid "Save as TIFF"
+msgstr "保存为 TIFF"
+
+#: sequenced_bake_core/properties.py:705
+msgid "Sculpt Map"
+msgstr "雕刻贴图"
+
+#: sequenced_bake_core/sculpt_map.py:326
+#: sequenced_bake_core/sculpt_map.py:409
+msgid "Sculpt Type"
+msgstr "雕刻类型"
+
+#: sequenced_bake_core/sculpt_map.py:1283
+msgid "Sculpts"
+msgstr "雕刻"
+
+#: sequenced_bake_core/properties.py:534
+msgid "Seam Margin"
+msgstr "接缝边距"
+
+#: sequenced_bake_core/sculpt_map.py:355
+#: sequenced_bake_core/sculpt_map.py:385
+msgid "Segments"
+msgstr "分段"
+
+#: sequenced_bake_core/sculpt_map.py:401
+msgid "Segments in the cross-section of the torus"
+msgstr "圆环体横截面的分段数"
+
+#: sequenced_bake_core/sculpt_map.py:394
+msgid "Segments in the major ring of the torus"
+msgstr "圆环体主环的分段数"
+
+#: sequenced_bake_core/properties.py:866
+msgid "Select the color space"
+msgstr "选择色彩空间"
+
+#: sequenced_bake_core/properties.py:807
+msgid "Select the display device"
+msgstr "选择显示设备"
+
+#: sequenced_bake_core/properties.py:520
+msgid "Select the image source type"
+msgstr "选择图像源类型"
+
+#: sequenced_bake_core/properties.py:821
+msgid "Select the look"
+msgstr "选择外观"
+
+#: sequenced_bake_core/properties.py:846
+msgid "Select the sequencer color space"
+msgstr "选择序列编辑器色彩空间"
+
+#: sequenced_bake_core/properties.py:814
+msgid "Select the view transform"
+msgstr "选择视图变换"
+
+#: sprite_sheet_creator/properties.py:243
+msgid "Select which UDIM tile's image sequence to view and sort"
+msgstr "选择要查看和排序的 UDIM 瓦片图像序列"
+
+#: sequenced_bake_core/properties.py:500
+#: sequenced_bake_core/ui.py:230
+msgid "Selected to Active"
+msgstr "选中项到活动项"
+
+#: __init__.py:19
+#: __init__.py:96
+msgid "Sequenced Bake"
+msgstr "序列烘焙"
+
+#: __init__.py:191
+msgid "Sequenced Bake Props"
+msgstr "序列烘焙属性"
+
+#: sequenced_bake_core/ui.py:139
+msgid "Sequenced Bake Socket"
+msgstr "序列烘焙插槽"
+
+#: sequenced_bake_core/operator.py:661
+msgid "Sequenced Bake completed"
+msgstr "序列烘焙完成"
+
+#: sequenced_bake_core/operator.py:343
+msgid "Sequenced Bake node could not be resolved; using scene bake settings"
+msgstr "无法解析序列烘焙节点；将使用场景烘焙设置"
+
+#: sequenced_bake_core/ui.py:487
+msgid "Sequenced Bake not initialized"
+msgstr "序列烘焙未初始化"
+
+#: sequenced_bake_core/operator.py:389
+msgid "Sequenced Bake requires Cycles render engine for material passes"
+msgstr "序列烘焙的材质通道需要 Cycles 渲染引擎"
+
+#: sequenced_bake_core/properties.py:846
+msgid "Sequencer"
+msgstr "序列编辑器"
+
+#: sequenced_bake_core/properties.py:854
+msgid "Set the texture interpolation method"
+msgstr "设置纹理插值方式"
+
+#: sequenced_bake_core/properties.py:860
+msgid "Set the texture projection method"
+msgstr "设置纹理投影方式"
+
+#: sequenced_bake_core/properties.py:655
+msgid "Shadow"
+msgstr "阴影"
+
+#: sequenced_bake_core/sculpt_map.py:475
+msgid "Shaft Height"
+msgstr "柱体高度"
+
+#: sequenced_bake_core/sculpt_map.py:474
+msgid "Shaft Radius"
+msgstr "柱体半径"
+
+#: sequenced_bake_core/sculpt_map.py:443
+msgid "Shape Power"
+msgstr "形状强度"
+
+#: sequenced_bake_core/sculpt_map.py:463
+msgid "Sharpness"
+msgstr "锐度"
+
+#: sequenced_bake_core/properties.py:873
+msgid "Show Material Manager"
+msgstr "显示材质管理器"
+
+#: sequenced_bake_core/properties.py:873
+msgid "Show material management UI in the add-on"
+msgstr "在插件中显示材质管理界面"
+
+#: sequenced_bake_core/sculpt_map.py:482
+msgid "Sides"
+msgstr "边数"
+
+#: sequenced_bake_core/properties.py:46
+msgid "Single Image"
+msgstr "单张图像"
+
+#: sequenced_bake_core/properties.py:46
+msgid "Single image file"
+msgstr "单个图像文件"
+
+#: sequenced_bake_core/sculpt_map.py:460
+msgid "Size"
+msgstr "尺寸"
+
+#: sequenced_bake_core/properties.py:292
+msgid "Smart"
+msgstr "智能"
+
+#: sequenced_bake_core/properties.py:520
+msgid "Source"
+msgstr "源"
+
+#: sprite_sheet_creator/properties.py:211
+msgid "Source and output directory for Image Sequence sprite sheets.\nIf left blank, the material output path is used"
+msgstr "图像序列精灵图的源目录和输出目录。\n如果留空，则使用材质输出路径"
+
+#: sprite_sheet_creator/ui.py:111
+msgid "Source:"
+msgstr "源："
+
+#: sequenced_bake_core/properties.py:611
+msgid "Space"
+msgstr "空间"
+
+#: sequenced_bake_core/sculpt_map.py:331
+#: sequenced_bake_core/sculpt_map.py:414
+msgid "Sphere"
+msgstr "球体"
+
+#: sequenced_bake_core/sculpt_map.py:517
+msgid "Sphere Settings:"
+msgstr "球体设置："
+
+#: sequenced_bake_core/sculpt_map.py:331
+#: sequenced_bake_core/sculpt_map.py:414
+msgid "Spherical topology with unmerged pole rows"
+msgstr "极点行未合并的球面拓扑"
+
+#: sprite_sheet_creator/ui.py:79
+#: sprite_sheet_creator/ui.py:247
+msgid "Sprite Sheet Creator"
+msgstr "精灵图创建器"
+
+#: sprite_sheet_creator/ui.py:68
+msgid "Sprite Sheet Creator Socket"
+msgstr "精灵图创建器插口"
+
+#: sprite_sheet_creator/ui.py:162
+msgid "Sprite Sheet Properties:"
+msgstr "精灵图属性："
+
+#: __init__.py:195
+msgid "Sprite Sheet Props"
+msgstr "精灵图属性"
+
+#: sprite_sheet_creator/operators.py:82
+msgid "Sprite sheet generation cancelled"
+msgstr "精灵图生成已取消"
+
+#: sprite_sheet_creator/operators.py:90
+msgid "Sprite sheets created successfully"
+msgstr "精灵图创建成功"
+
+#: sequenced_bake_core/properties.py:298
+msgid "Square"
+msgstr "正方形"
+
+#: sequenced_bake_core/sculpt_map.py:434
+msgid "Square Loop"
+msgstr "方形环"
+
+#: sequenced_bake_core/properties.py:298
+msgid "Square projection"
+msgstr "方形投影"
+
+#: sequenced_bake_core/sculpt_map.py:434
+msgid "Square shaped loop"
+msgstr "方形环状"
+
+#: sequenced_bake_core/sculpt_map.py:421
+msgid "Stairs"
+msgstr "楼梯"
+
+#: sequenced_bake_core/sculpt_map.py:558
+msgid "Stairs Settings:"
+msgstr "楼梯设置："
+
+#: sequenced_bake_core/properties.py:229
+#: sequenced_bake_core/sculpt_map.py:432
+msgid "Standard"
+msgstr "标准"
+
+#: sequenced_bake_core/properties.py:59
+msgid "Standard OpenGL normal map convention (+Y)"
+msgstr "标准 OpenGL 法线贴图约定（+Y）"
+
+#: sequenced_bake_core/sculpt_map.py:432
+msgid "Standard circular torus"
+msgstr "标准圆环体"
+
+#: sequenced_bake_core/properties.py:410
+msgid "Standard display-referred sRGB color space"
+msgstr "标准显示参考 sRGB 色彩空间"
+
+#: sequenced_bake_core/properties.py:187
+msgid "Standard display-referred sRGB colorspace (default)"
+msgstr "标准显示参考 sRGB 色彩空间（默认）"
+
+#: sequenced_bake_core/properties.py:196
+msgid "Standard dynamic range display device (default; OCIO standard)"
+msgstr "标准动态范围显示设备（默认；OCIO 标准）"
+
+#: sequenced_bake_core/ui.py:213
+msgid "Start"
+msgstr "起始"
+
+#: sprite_sheet_creator/properties.py:300
+msgid "Start Frame"
+msgstr "起始帧"
+
+#: sequenced_bake_core/properties.py:916
+msgid "Status"
+msgstr "状态"
+
+#: sequenced_bake_core/sculpt_map.py:496
+msgid "Step Depth"
+msgstr "台阶深度"
+
+#: sequenced_bake_core/sculpt_map.py:495
+msgid "Step Height"
+msgstr "台阶高度"
+
+#: sequenced_bake_core/properties.py:899
+msgid "Step interval between frames when baking a sequence (e.g. 2 = every other frame)"
+msgstr "烘焙序列时的帧步进间隔（例如 2 = 每隔一帧）"
+
+#: sequenced_bake_core/sculpt_map.py:494
+msgid "Steps"
+msgstr "台阶数"
+
+#: sequenced_bake_core/properties.py:51
+msgid "Straight"
+msgstr "直梯"
+
+#: sequenced_bake_core/properties.py:66
+msgid "Substance"
+msgstr "Substance"
+
+#: sequenced_bake_core/properties.py:66
+msgid "Substance Painter/Designer (OpenGL +Y by default)"
+msgstr "Substance Painter/Designer（默认 OpenGL +Y）"
+
+#: sequenced_bake_core/properties.py:629
+msgid "Swizzle for the B channel"
+msgstr "B 通道重排"
+
+#: sequenced_bake_core/properties.py:623
+msgid "Swizzle for the G channel"
+msgstr "G 通道重排"
+
+#: sequenced_bake_core/properties.py:617
+msgid "Swizzle for the R channel"
+msgstr "R 通道重排"
+
+#: sequenced_bake_core/properties.py:35
+#: sprite_sheet_creator/properties.py:28
+msgid "TGA"
+msgstr "TGA"
+
+#: sequenced_bake_core/properties.py:34
+#: sprite_sheet_creator/properties.py:27
+msgid "TIFF"
+msgstr "TIFF"
+
+#: sequenced_bake_core/properties.py:74
+msgid "Tangent"
+msgstr "切线"
+
+#: sequenced_bake_core/properties.py:534
+msgid "Texture seam margin/bleed for UDIM tile boundaries"
+msgstr "UDIM 拼块边界的纹理接缝边距/溢出"
+
+#: __init__.py:69
+msgid "The Blender Extensions website."
+msgstr "Blender 扩展网站。"
+
+#: __init__.py:79
+msgid "The Discord Community Server"
+msgstr "Discord 社区服务器"
+
+#: __init__.py:74
+msgid "The GitHub repository for the Sequenced Bake add-on."
+msgstr "Sequenced Bake 附加组件的 GitHub 仓库。"
+
+#: sequenced_bake_core/properties.py:472
+msgid "The height of the baked image"
+msgstr "烘焙图像的高度"
+
+#: sequenced_bake_core/properties.py:571
+msgid "The maximum ray distance for matching points between the active and selected objects. If zero, there is no limit"
+msgstr "活动物体与选中物体之间匹配点的最大光线距离。为零时无限制"
+
+#: sequenced_bake_core/properties.py:465
+msgid "The width of the baked image"
+msgstr "烘焙图像的宽度"
+
+#: sequenced_bake_core/properties.py:971
+msgid "Toggle visibility of bake control panel"
+msgstr "切换烘焙控制面板的可见性"
+
+#: sequenced_bake_core/properties.py:977
+msgid "Toggle visibility of live bake diagnostics panel"
+msgstr "切换实时烘焙诊断面板的可见性"
+
+#: __init__.py:19
+msgid "Tools for baking material sequences and generating sprite sheets"
+msgstr "用于烘焙材质序列和生成精灵图的工具"
+
+#: sequenced_bake_core/sculpt_map.py:326
+#: sequenced_bake_core/sculpt_map.py:409
+msgid "Topological mesh type for the sculpt map"
+msgstr "雕刻贴图的拓扑网格类型"
+
+#: sequenced_bake_core/sculpt_map.py:333
+#: sequenced_bake_core/sculpt_map.py:416
+msgid "Torus"
+msgstr "圆环"
+
+#: sequenced_bake_core/sculpt_map.py:333
+#: sequenced_bake_core/sculpt_map.py:416
+msgid "Torus / ring topology"
+msgstr "圆环/环形拓扑"
+
+#: sequenced_bake_core/sculpt_map.py:528
+msgid "Torus Settings:"
+msgstr "圆环设置："
+
+#: sequenced_bake_core/sculpt_map.py:457
+msgid "Total Height"
+msgstr "总高度"
+
+#: sequenced_bake_core/sculpt_map.py:499
+msgid "Total rotation angle for spiral staircases. Positive curves right, negative left"
+msgstr "螺旋楼梯的总旋转角度。正值向右弯曲，负值向左"
+
+#: sequenced_bake_core/properties.py:680
+#: sequenced_bake_core/properties.py:794
+msgid "Transmission"
+msgstr "透射"
+
+#: sequenced_bake_core/properties.py:51
+msgid "Transparent RGB and alpha pixels are unmodified"
+msgstr "透明 RGB 和 Alpha 像素保持不变"
+
+#: sequenced_bake_core/properties.py:52
+msgid "Transparent RGB pixels are multiplied by the alpha channel"
+msgstr "透明 RGB 像素乘以 Alpha 通道"
+
+#: sequenced_bake_core/properties.py:299
+msgid "Tube"
+msgstr "管状"
+
+#: sequenced_bake_core/properties.py:299
+msgid "Tube projection"
+msgstr "管状投影"
+
+#: sequenced_bake_core/sculpt_map.py:469
+msgid "Turns"
+msgstr "圈数"
+
+#: sequenced_bake_core/properties.py:424
+msgid "UDIM Index"
+msgstr "UDIM 索引"
+
+#: sprite_sheet_creator/properties.py:55
+#: sprite_sheet_creator/properties.py:243
+msgid "UDIM Tile"
+msgstr "UDIM 拼块"
+
+#: sequenced_bake_core/properties.py:47
+#: sequenced_bake_core/properties.py:541
+msgid "UDIM Tiles"
+msgstr "UDIM 拼块"
+
+#: sprite_sheet_creator/properties.py:55
+msgid "UDIM tile index (0 if non-UDIM)"
+msgstr "UDIM 拼块索引（非 UDIM 为 0）"
+
+#: sequenced_bake_core/properties.py:424
+msgid "UDIM tile number"
+msgstr "UDIM 拼块编号"
+
+#: sequenced_bake_core/properties.py:47
+msgid "UDIM tiled image"
+msgstr "UDIM 拼块图像"
+
+#: sequenced_bake_core/properties.py:665
+msgid "UV"
+msgstr "UV"
+
+#: sequenced_bake_core/properties.py:64
+msgid "Unity"
+msgstr "Unity"
+
+#: sequenced_bake_core/properties.py:64
+msgid "Unity default (OpenGL +Y)"
+msgstr "Unity 默认（OpenGL +Y）"
+
+#: sequenced_bake_core/properties.py:259
+msgid "Unprocessed scene-linear values with no view transform applied"
+msgstr "未应用视图变换的未处理场景线性值"
+
+#: sequenced_bake_core/properties.py:65
+msgid "Unreal Engine"
+msgstr "Unreal Engine"
+
+#: sequenced_bake_core/properties.py:65
+msgid "Unreal Engine default (DirectX -Y)"
+msgstr "Unreal Engine 默认（DirectX -Y）"
+
+#: sprite_sheet_creator/operators.py:46
+msgid "Unsupported source type"
+msgstr "不支持的源类型"
+
+#: sprite_sheet_creator/properties.py:267
+msgid "Use All Channels"
+msgstr "使用所有通道"
+
+#: sequenced_bake_core/properties.py:485
+#: sprite_sheet_creator/properties.py:331
+msgid "Use Alpha"
+msgstr "使用 Alpha"
+
+#: sprite_sheet_creator/properties.py:267
+msgid "Use all enabled Video Sequencer channels"
+msgstr "使用所有启用的视频序列编辑器通道"
+
+#: sequenced_bake_core/properties.py:485
+msgid "Use alpha channel in the generated material maps"
+msgstr "在生成的材质贴图中使用 Alpha 通道"
+
+#: sequenced_bake_core/properties.py:291
+msgid "Use cubic interpolation"
+msgstr "使用三次插值"
+
+#: sprite_sheet_creator/properties.py:204
+msgid "Use frames from the Video Sequencer"
+msgstr "使用视频序列编辑器中的帧"
+
+#: sprite_sheet_creator/properties.py:205
+msgid "Use frames rendered from the compositor"
+msgstr "使用合成器渲染的帧"
+
+#: sprite_sheet_creator/properties.py:203
+msgid "Use image files from a directory"
+msgstr "使用目录中的图像文件"
+
+#: sequenced_bake_core/properties.py:289
+msgid "Use linear interpolation"
+msgstr "使用线性插值"
+
+#: sequenced_bake_core/properties.py:290
+msgid "Use nearest neighbor interpolation"
+msgstr "使用最近邻插值"
+
+#: sequenced_bake_core/properties.py:73
+msgid "Use object space for the normal map"
+msgstr "法向贴图使用物体空间"
+
+#: sequenced_bake_core/properties.py:292
+msgid "Use smart interpolation"
+msgstr "使用智能插值"
+
+#: sequenced_bake_core/properties.py:74
+msgid "Use tangent space for the normal map"
+msgstr "法向贴图使用切向空间"
+
+#: sequenced_bake_core/properties.py:959
+msgid "VRAM Usage"
+msgstr "显存占用"
+
+#: sprite_sheet_creator/properties.py:261
+msgid "VSE Channel"
+msgstr "VSE 通道"
+
+#: sprite_sheet_creator/ui.py:222
+msgid "VSE Output Directory:"
+msgstr "VSE 输出目录："
+
+#: sprite_sheet_creator/properties.py:222
+msgid "VSE Output Path"
+msgstr "VSE 输出路径"
+
+#: sprite_sheet_creator/operators.py:148
+msgid "VSE output path is required"
+msgstr "需要 VSE 输出路径"
+
+#: sequenced_bake_core/sculpt_map.py:371
+#: sequenced_bake_core/sculpt_map.py:452
+msgid "Vertices"
+msgstr "顶点"
+
+#: sprite_sheet_creator/properties.py:204
+msgid "Video Sequencer"
+msgstr "视频序列编辑器"
+
+#: sequenced_bake_core/properties.py:814
+msgid "View Transform"
+msgstr "视图变换"
+
+#: __init__.py:69
+msgid "Website URL"
+msgstr "网站 URL"
+
+#: sequenced_bake_core/properties.py:211
+msgid "Wide-gamut SDR display device (BT.2020 color primaries)"
+msgstr "广色域 SDR 显示设备（BT.2020 原色）"
+
+#: sequenced_bake_core/properties.py:465
+#: sequenced_bake_core/sculpt_map.py:497
+msgid "Width"
+msgstr "宽度"
+
+#: sequenced_bake_core/sculpt_map.py:559
+msgid "Width Resolution"
+msgstr "宽度分辨率"
+
+#: sprite_sheet_creator/properties.py:286
+msgid "Width of each sprite cell"
+msgstr "每个精灵单元格的宽度"
+
+#: sequenced_bake_core/sculpt_map.py:570
+msgid "Wire Vertices"
+msgstr "线框顶点"
+
+#: sequenced_bake_core/sculpt_map.py:339
+msgid "X Subdivisions"
+msgstr "X 细分"
+
+#: sequenced_bake_core/sculpt_map.py:346
+msgid "Y Subdivisions"
+msgstr "Y 细分"
+
+#: sequenced_bake_core/ui.py:329
+#: sequenced_bake_core/ui.py:343
+msgid "_"
+msgstr "_"
+
+#: sequenced_bake_core/properties.py:187
+#: sequenced_bake_core/properties.py:196
+msgid "sRGB"
+msgstr "sRGB"
+
+#: sequenced_bake_core/ui.py:83
+msgctxt "Operator"
+msgid "Add New Material"
+msgstr "添加新材质"
+
+#: sequenced_bake_core/sculpt_map.py:323
+msgctxt "Operator"
+msgid "Add Sculpt Mesh"
+msgstr "添加雕刻网格"
+
+#: node_group_library/__init__.py:258
+msgctxt "Operator"
+msgid "Add Sequenced Bake Node Group"
+msgstr "添加 Sequenced Bake 节点组"
+
+#: sequenced_bake_core/operator.py:41
+msgctxt "Operator"
+msgid "Add UDIM Tile"
+msgstr "添加 UDIM 拼块"
+
+#: sprite_sheet_creator/operators.py:222
+msgctxt "Operator"
+msgid "Append Images"
+msgstr "追加图像"
+
+#: sequenced_bake_core/ui.py:433
+msgctxt "Operator"
+msgid "Bake Material Sequence"
+msgstr "烘焙材质序列"
+
+#: __init__.py:88
+msgctxt "Operator"
+msgid "Blender Extensions"
+msgstr "Blender 扩展"
+
+#: sequenced_bake_core/sculpt_map.py:1304
+msgctxt "Operator"
+msgid "Bolt"
+msgstr "螺栓"
+
+#: sequenced_bake_core/sculpt_map.py:1295
+msgctxt "Operator"
+msgid "Capsule"
+msgstr "胶囊"
+
+#: sequenced_bake_core/sculpt_map.py:1296
+msgctxt "Operator"
+msgid "Cube"
+msgstr "立方体"
+
+#: sequenced_bake_core/sculpt_map.py:1293
+msgctxt "Operator"
+msgid "Cylinder"
+msgstr "圆柱体"
+
+#: __init__.py:90
+msgctxt "Operator"
+msgid "Discord Community"
+msgstr "Discord 社区"
+
+#: sprite_sheet_creator/operators.py:29
+#: sprite_sheet_creator/ui.py:243
+msgctxt "Operator"
+msgid "Generate Sprite Sheet"
+msgstr "生成精灵图集"
+
+#: sprite_sheet_creator/operators.py:30
+msgctxt "Operator"
+msgid "Generate a sprite sheet from the selected source"
+msgstr "从所选源生成精灵图集"
+
+#: __init__.py:89
+msgctxt "Operator"
+msgid "GitHub"
+msgstr "GitHub"
+
+#: sequenced_bake_core/sculpt_map.py:1289
+msgctxt "Operator"
+msgid "Grid"
+msgstr "网格"
+
+#: sequenced_bake_core/sculpt_map.py:1300
+msgctxt "Operator"
+msgid "Helix"
+msgstr "螺旋"
+
+#: sprite_sheet_creator/operators.py:296
+msgctxt "Operator"
+msgid "Image List Action"
+msgstr "图像列表操作"
+
+#: sequenced_bake_core/sculpt_map.py:1305
+msgctxt "Operator"
+msgid "Nut"
+msgstr "螺母"
+
+#: sprite_sheet_creator/operators.py:223
+msgctxt "Operator"
+msgid "Open a directory and append selected images to the list"
+msgstr "打开目录并将所选图像追加到列表"
+
+#: sequenced_bake_core/operator.py:82
+msgctxt "Operator"
+msgid "Remove UDIM Tile"
+msgstr "移除 UDIM 拼块"
+
+#: sprite_sheet_creator/operators.py:297
+msgctxt "Operator"
+msgid "Reorder, reverse, remove, or refresh the directory image list"
+msgstr "重新排序、反转、移除或刷新目录图像列表"
+
+#: sequenced_bake_core/sculpt_map.py:1299
+msgctxt "Operator"
+msgid "Round Cube"
+msgstr "圆角立方体"
+
+#: __init__.py:101
+#: sequenced_bake_core/operator.py:287
+msgctxt "Operator"
+msgid "Sequenced Bake"
+msgstr "Sequenced Bake"
+
+#: sequenced_bake_core/sculpt_map.py:1292
+msgctxt "Operator"
+msgid "Sphere"
+msgstr "球体"
+
+#: __init__.py:106
+msgctxt "Operator"
+msgid "Sprite Sheet Creator"
+msgstr "精灵图集创建器"
+
+#: sequenced_bake_core/sculpt_map.py:1301
+msgctxt "Operator"
+msgid "Stairs"
+msgstr "楼梯"
+
+#: sequenced_bake_core/sculpt_map.py:1294
+msgctxt "Operator"
+msgid "Torus"
+msgstr "圆环"

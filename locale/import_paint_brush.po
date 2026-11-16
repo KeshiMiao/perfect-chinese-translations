@@ -1,0 +1,292 @@
+# perfect-chinese: 1
+# id: import_paint_brush
+# kind: addon
+# module: bl_ext.blender_org.import_paint_brush
+# name: Import Paint Brushes
+# name_zh: 绘画笔刷导入
+# translator: KeshiMiao
+# category: Import-Export
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: operators/image_utils.py:135
+msgid "Alpha"
+msgstr "Alpha"
+
+#: operators/brush_import.py:142
+msgid "Animated Brush as Image Sequence"
+msgstr "将动画笔刷作为图像序列"
+
+#: operators/brush_import.py:136
+msgid "As GIMP Brushes"
+msgstr "作为 GIMP 笔刷"
+
+#: operators/brush_import.py:137
+msgid "As Krita Brushes"
+msgstr "作为 Krita 笔刷"
+
+#: operators/brush_import.py:167
+msgid "Attributes Parsing:"
+msgstr "属性解析："
+
+#: __init__.py:20
+#: __init__.py:41
+msgid "Brush Utilities"
+msgstr "笔刷工具"
+
+#: __init__.py:30
+msgid "Brush Utilities (Mask)"
+msgstr "笔刷工具（遮罩）"
+
+#: operators/brush_import.py:134
+msgid "Choose how to interpret a Krita .bundle file"
+msgstr "选择如何解读 Krita .bundle 文件"
+
+#: operators/image_utils.py:136
+#: operators/image_utils.py:173
+msgid "Color"
+msgstr "颜色"
+
+#: operators/brush_import.py:150
+msgid "Count"
+msgstr "数量"
+
+#: operators/brush_import.py:164
+msgid "Create New Brushes for:"
+msgstr "新建笔刷用于："
+
+#: operators/brush_import.py:142
+msgid "Create a multi-frame brush to use with the add-on \"Animated Texture Brush\". If you do not have this add-on, please do not enable this option. The multi-frame brush is a feature of .sut and .gih formats but not natively supported by Blender"
+msgstr "创建多帧笔刷以配合插件“Animated Texture Brush”使用。若没有该插件，请不要启用此选项。多帧笔刷是 .sut 和 .gih 格式的特性，但 Blender 原生不支持"
+
+#: operators/image_utils.py:133
+msgid "Criterion"
+msgstr "判定依据"
+
+#: operators/brush_import.py:129
+msgid "Determine whether to rotate the texture randomly for each drawn stroke point when the brush file itself does not specify it, or related attributes cannot be parsed"
+msgstr "当笔刷文件本身未指定该属性或相关属性无法解析时，决定是否为每个绘制的笔画点随机旋转纹理"
+
+#: operators/brush_import.py:147
+msgid "Dot Placement Mode"
+msgstr "点放置模式"
+
+#: operators/brush_import.py:192
+msgid "Dot Placement Mode:"
+msgstr "点放置模式："
+
+#: operators/image_utils.py:190
+msgid "Duo Colors"
+msgstr "双色"
+
+#: operators/image_utils.py:54
+msgid "Edge Style"
+msgstr "边缘样式"
+
+#: operators/image_utils.py:48
+msgid "Edge Width"
+msgstr "边缘宽度"
+
+#: operators/brush_import.py:137
+msgid "Extract .kpp brush presets from the bundle"
+msgstr "从捆绑包中提取 .kpp 笔刷预设"
+
+#: operators/brush_import.py:136
+msgid "Extract and import .gih/.gbr files from the bundle"
+msgstr "从捆绑包中提取并导入 .gih/.gbr 文件"
+
+#: __init__.py:2
+msgid "Extract textures from brush files exported by painting software and use them to create Blender brushes"
+msgstr "从绘图软件导出的笔刷文件中提取纹理，并用它们创建 Blender 笔刷"
+
+#: operators/brush_import.py:97
+msgid "File Path"
+msgstr "文件路径"
+
+#: operators/brush_import.py:112
+msgid "Folder of Blend File"
+msgstr "Blend 文件所在文件夹"
+
+#: operators/brush_import.py:113
+msgid "Folder of Brush File"
+msgstr "笔刷文件所在文件夹"
+
+#: operators/brush_import.py:106
+msgid "Grease Pencil"
+msgstr "蜡笔"
+
+#: operators/brush_import.py:189
+msgid "Grease Pencil Options:"
+msgstr "蜡笔选项："
+
+#: operators/brush_import.py:123
+msgid "If non-empty, copy attributes from an existing brush for any attributes not specified or not parsed from the brush file"
+msgstr "若不为空，则从现有笔刷复制未指定或无法从笔刷文件中解析的属性"
+
+#: operators/brush_import.py:177
+msgid "Import Krita Bundle:"
+msgstr "导入 Krita 捆绑包："
+
+#: operators/brush_import.py:134
+msgid "Import Krita Bundles"
+msgstr "导入 Krita 捆绑包"
+
+#: __init__.py:2
+msgid "Import Paint Brushes"
+msgstr "导入绘画笔刷"
+
+#: __init__.py:2
+msgid "Import-Export"
+msgstr "导入-导出"
+
+#: operators/brush_import.py:147
+msgid "In Blender 5.2 or newer versions, Grease Pencil supports multiple ways to place dots along the drawn stroke. Earlier Blender versions ignore this option"
+msgstr "在 Blender 5.2 或更新版本中，蜡笔支持多种沿绘制笔画放置点的方式。较早的 Blender 版本会忽略此选项"
+
+#: operators/image_utils.py:238
+msgid "Invert Alpha"
+msgstr "反转 Alpha"
+
+#: operators/image_utils.py:234
+msgid "Invert Color"
+msgstr "反转颜色"
+
+#: operators/image_utils.py:56
+msgid "Linear"
+msgstr "线性"
+
+#: operators/brush_import.py:102
+msgid "Mode"
+msgstr "模式"
+
+#: operators/image_utils.py:63
+msgid "Multiply"
+msgstr "正片叠底"
+
+#: operators/image_utils.py:60
+msgid "Output Mode"
+msgstr "输出模式"
+
+#: operators/brush_import.py:118
+msgid "Pack Images into Blend File"
+msgstr "将图像打包到 Blend 文件"
+
+#: operators/brush_import.py:118
+msgid "Pack the brush texture images into the .blend file, which may increase the file size. When disabled, save the image files to the selected location instead. If the option to import as an image sequence is enabled, the sequences cannot be packed and will always be saved outside"
+msgstr "将笔刷纹理图像打包到 .blend 文件中，这可能会增大文件体积。禁用时，改为将图像文件保存到所选位置。若启用了作为图像序列导入的选项，则序列无法打包，将始终保存在外部"
+
+#: operators/brush_import.py:174
+msgid "Per-Format Options:"
+msgstr "各格式选项："
+
+#: operators/image_utils.py:185
+msgid "Pixels darker than threshold will be filled with the secondary color"
+msgstr "比阈值更暗的像素将用辅助颜色填充"
+
+#: operators/brush_import.py:150
+msgid "Place dots based on the drawing pace"
+msgstr "根据绘制速度放置点"
+
+#: operators/brush_import.py:151
+msgid "Place dots evenly along the stroke"
+msgstr "沿笔画均匀放置点"
+
+#: operators/brush_import.py:151
+msgid "Radius"
+msgstr "半径"
+
+#: operators/brush_import.py:129
+msgid "Random Rotation by Default"
+msgstr "默认随机旋转"
+
+#: operators/image_utils.py:62
+msgid "Replace"
+msgstr "替换"
+
+#: operators/brush_import.py:181
+msgid "Resource Management:"
+msgstr "资源管理："
+
+#: operators/brush_import.py:184
+msgid "Save Icons to:"
+msgstr "保存图标至："
+
+#: operators/brush_import.py:110
+msgid "Save Icons/Images to"
+msgstr "保存图标/图像至"
+
+#: operators/brush_import.py:105
+msgid "Sculpt"
+msgstr "雕刻"
+
+#: operators/image_utils.py:179
+msgid "Secondary Color"
+msgstr "辅助颜色"
+
+#: operators/image_utils.py:57
+msgid "Sphere"
+msgstr "球体"
+
+#: operators/brush_import.py:123
+msgid "Template Brush"
+msgstr "模板笔刷"
+
+#: operators/brush_import.py:170
+msgid "Template Brush:"
+msgstr "模板笔刷："
+
+#: operators/brush_import.py:114
+msgid "Temporary Folder"
+msgstr "临时文件夹"
+
+#: operators/brush_import.py:104
+msgid "Texture Paint"
+msgstr "纹理绘制"
+
+#: operators/brush_import.py:110
+msgid "The directory to save thumbnail images, which are required to display brush icons for lower versions of Blender"
+msgstr "用于保存缩略图图像的目录，较低版本的 Blender 显示笔刷图标时需要这些图像"
+
+#: operators/image_utils.py:128
+#: operators/image_utils.py:185
+msgid "Threshold"
+msgstr "阈值"
+
+#: operators/brush_import.py:107
+msgid "Vertex Paint"
+msgstr "顶点绘制"
+
+#: operators/image_utils.py:124
+msgctxt "Operator"
+msgid "Alpha Clip"
+msgstr "Alpha 裁剪"
+
+#: operators/image_utils.py:44
+msgctxt "Operator"
+msgid "Alpha Edge Soften"
+msgstr "Alpha 边缘柔化"
+
+#: operators/image_utils.py:169
+msgctxt "Operator"
+msgid "Color Fill"
+msgstr "颜色填充"
+
+#: operators/image_utils.py:230
+msgctxt "Operator"
+msgid "Invert"
+msgstr "反转"
+
+#: operators/brush_import.py:91
+msgctxt "Operator"
+msgid "Paint Brushes (.abr/.gbr/.brushset/.sut/.bundle)"
+msgstr "绘画笔刷（.abr/.gbr/.brushset/.sut/.bundle）"
+
+#: operators/brush_import.py:92
+#: operators/image_utils.py:45
+msgctxt "Operator"
+msgid "View"
+msgstr "视图"

@@ -1,0 +1,530 @@
+# perfect-chinese: 1
+# id: siemen_lens_blender_autotrack
+# kind: addon
+# module: bl_ext.blender_org.siemen_lens_blender_autotrack
+# name: AutoTrack
+# name_zh: 自动跟踪
+# translator: KeshiMiao
+# category: Tracking
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:104
+msgid "Adjust the scale of the object solution in camera space"
+msgstr "调整相机空间中物体解算的比例"
+
+#: __init__.py:284
+msgid "Amount of times it'll try to solve the tracking for a better result"
+msgstr "尝试解算跟踪以获得更好结果的次数"
+
+#: __init__.py:98
+msgid "Annotation Mode"
+msgstr "标注模式"
+
+#: __init__.py:3
+#: __init__.py:1618
+msgid "AutoTrack"
+msgstr "AutoTrack"
+
+#: __init__.py:1614
+msgid "AutoTrack Settings"
+msgstr "AutoTrack 设置"
+
+#: __init__.py:413
+msgid "AutoTrack Status"
+msgstr "AutoTrack 状态"
+
+#: __init__.py:418
+msgid "AutoTrack Warning"
+msgstr "AutoTrack 警告"
+
+#: __init__.py:3
+msgid "Automatically track imported footage with optimized solving logic."
+msgstr "使用优化的解算逻辑自动跟踪导入的素材。"
+
+#: __init__.py:1666
+msgid "Begin"
+msgstr "开始"
+
+#: __init__.py:363
+msgid "Best Solve"
+msgstr "最佳解算"
+
+#: __init__.py:1942
+msgid "Blender may freeze. Do not touch"
+msgstr "Blender 可能无响应。请勿操作"
+
+#: __init__.py:296
+msgid "Calculates distortion on your clip, enable this if your clip has radial distortion."
+msgstr "计算剪辑中的畸变，如果剪辑存在径向畸变请启用此项。"
+
+#: __init__.py:1764
+msgid "Camera Not Solved Yet!"
+msgstr "相机尚未解算！"
+
+#: __init__.py:200
+msgid "Cannot remove the last tracking object."
+msgstr "无法移除最后一个跟踪物体。"
+
+#: __init__.py:260
+msgid "Choose your Camera sensor type, if you don't know it, leave it at full frame"
+msgstr "选择相机传感器类型，如果不确定，请保留全画幅"
+
+#: __init__.py:247
+msgid "Clean bad markers using a dual pass system, This will clean more accurately but takes longer. This second pass will only run if the solve error is still unusable. (Recommended Option)"
+msgstr "使用双通道系统清理不良标记，清理更准确但耗时更长。仅当解算误差仍不可用时才会运行第二通道。（推荐选项）"
+
+#: __init__.py:944
+msgid "Corrected scene begin frame because it was below 1."
+msgstr "已修正场景起始帧，因为其小于 1。"
+
+#: __init__.py:941
+msgid "Corrected scene end frame because your video is shorter than your timeline."
+msgstr "已修正场景结束帧，因为视频比时间线短。"
+
+#: __init__.py:1696
+msgid "Create Zones using Annotations"
+msgstr "使用标注创建区域"
+
+#: __init__.py:93
+msgid "Create zones using the annotation feature for this tracking object"
+msgstr "为此跟踪物体使用标注功能创建区域"
+
+#: __init__.py:1636
+msgid "Created by Siemen Lens"
+msgstr "作者：Siemen Lens"
+
+#: __init__.py:236
+msgid "Crop Sensor"
+msgstr "裁剪传感器"
+
+#: __init__.py:239
+msgid "Custom"
+msgstr "自定义"
+
+#: __init__.py:387
+msgid "Customize Optical Center"
+msgstr "自定义光心"
+
+#: __init__.py:392
+msgid "Customize Radial Distortion"
+msgstr "自定义径向畸变"
+
+#: __init__.py:387
+msgid "Deviate Optical Center from using default settings"
+msgstr "使光心偏离默认设置"
+
+#: __init__.py:392
+msgid "Deviate Radial Distortion from using default settings"
+msgstr "使径向畸变偏离默认设置"
+
+#: __init__.py:104
+#: __init__.py:1814
+msgid "Distance (Scale)"
+msgstr "距离（比例）"
+
+#: __init__.py:247
+msgid "Dual Pass"
+msgstr "双通道"
+
+#: __init__.py:1667
+msgid "End"
+msgstr "结束"
+
+#: __init__.py:28
+msgid "Exclude"
+msgstr "排除"
+
+#: __init__.py:28
+msgid "Exclude the annotated area from tracking"
+msgstr "从跟踪中排除标注区域"
+
+#: __init__.py:243
+msgid "Fast Pass (Legacy)"
+msgstr "快速通道（旧版）"
+
+#: __init__.py:343
+msgid "Filter"
+msgstr "过滤"
+
+#: __init__.py:253
+msgid "Focal Length"
+msgstr "焦距"
+
+#: __init__.py:235
+msgid "Full Frame"
+msgstr "全画幅"
+
+#: __init__.py:334
+msgid "How many % of tracks to keep during Cleanup pass"
+msgstr "清理通道中保留的跟踪点百分比"
+
+#: __init__.py:325
+msgid "How many tracks to keep during prefilter pass"
+msgstr "预过滤通道中保留的跟踪点数"
+
+#: __init__.py:1903
+msgid "Import a video to get started."
+msgstr "导入视频以开始。"
+
+#: __init__.py:1737
+msgid "K1"
+msgstr "K1"
+
+#: __init__.py:1738
+msgid "K2"
+msgstr "K2"
+
+#: __init__.py:1739
+msgid "K3"
+msgstr "K3"
+
+#: __init__.py:334
+msgid "Keep Tracks Cleanup %"
+msgstr "保留跟踪点清理 %"
+
+#: __init__.py:325
+msgid "Keep Tracks Prefilter %"
+msgstr "保留跟踪点预过滤 %"
+
+#: __init__.py:1810
+msgid "Linked Object"
+msgstr "关联物体"
+
+#: __init__.py:238
+msgid "Mainstream Smartphone"
+msgstr "主流智能手机"
+
+#: __init__.py:1686
+msgid "Marker Placement Settings"
+msgstr "标记放置设置"
+
+#: __init__.py:350
+msgid "Marker Retention Rate"
+msgstr "标记保留率"
+
+#: __init__.py:302
+msgid "Marker's Distance"
+msgstr "标记距离"
+
+#: __init__.py:275
+msgid "Marker's Scale"
+msgstr "标记比例"
+
+#: __init__.py:268
+msgid "Marker's Threshold"
+msgstr "标记阈值"
+
+#: __init__.py:302
+msgid "Marker's minimum distance from each other relative to the video resolution"
+msgstr "标记之间的最小距离（相对于视频分辨率）"
+
+#: __init__.py:368
+msgid "Match the scene frame length with the frame length of the video."
+msgstr "使场景帧长度与视频帧长度一致。"
+
+#: __init__.py:310
+msgid "Maximum Interval"
+msgstr "最大间隔"
+
+#: __init__.py:310
+msgid "Maximum frame interval before intervening with the automatic substep system"
+msgstr "自动子步系统介入前的最大帧间隔"
+
+#: __init__.py:237
+msgid "Micro Four-Thirds"
+msgstr "微四分之三"
+
+#: __init__.py:317
+msgid "Minimum Track Length"
+msgstr "最小跟踪长度"
+
+#: __init__.py:317
+msgid "Minimum length of a Substep frame track."
+msgstr "子步帧跟踪的最小长度。"
+
+#: __init__.py:1828
+msgid "Miscellaneous Settings"
+msgstr "其他设置"
+
+#: __init__.py:1219
+msgid "No clip selected"
+msgstr "未选择剪辑"
+
+#: __init__.py:932
+#: __init__.py:1318
+msgid "No video clip is selected"
+msgstr "未选择视频剪辑"
+
+#: __init__.py:1747
+msgid "Object Tracking (Beta)"
+msgstr "物体跟踪（Beta）"
+
+#: __init__.py:29
+msgid "Only"
+msgstr "仅"
+
+#: __init__.py:245
+msgid "Only clean bad markers with a single pass (without a second solver sequence)"
+msgstr "仅用单通道清理不良标记（不进行第二次解算序列）"
+
+#: __init__.py:29
+msgid "Only keep annotated area in tracking"
+msgstr "仅在跟踪中保留标注区域"
+
+#: __init__.py:403
+msgid "Play Sound on Finish"
+msgstr "完成时播放声音"
+
+#: __init__.py:428
+#: __init__.py:1937
+msgid "Progress"
+msgstr "进度"
+
+#: __init__.py:296
+msgid "Refine Distortion"
+msgstr "细化畸变"
+
+#: __init__.py:291
+msgid "Refine Focal Length"
+msgstr "细化焦距"
+
+#: __init__.py:291
+msgid "Refines the focal length you've entered. Enable this if you're not really sure of your focal length."
+msgstr "细化你输入的焦距。如果不确定焦距，请启用此项。"
+
+#: __init__.py:408
+msgid "Result Message"
+msgstr "结果消息"
+
+#: __init__.py:275
+msgid "Scale of the placed markers"
+msgstr "放置标记的比例"
+
+#: __init__.py:1662
+msgid "Scene Settings"
+msgstr "场景设置"
+
+#: __init__.py:260
+msgid "Sensor"
+msgstr "传感器"
+
+#: __init__.py:1674
+msgid "Sensor Width"
+msgstr "传感器宽度"
+
+#: __init__.py:368
+msgid "Set Scene Frame Length"
+msgstr "设置场景帧长度"
+
+#: __init__.py:245
+msgid "Single Pass"
+msgstr "单通道"
+
+#: __init__.py:284
+msgid "Solver Iterations"
+msgstr "解算迭代次数"
+
+#: __init__.py:1717
+msgid "Solver Settings"
+msgstr "解算设置"
+
+#: __init__.py:861
+msgid "Solving failed, no solutions were found. Try tracking with more markers."
+msgstr "解算失败，未找到解。请尝试使用更多标记进行跟踪。"
+
+#: __init__.py:359
+msgid "Status"
+msgstr "状态"
+
+#: __init__.py:1837
+msgid "Surface Generator Settings"
+msgstr "曲面生成器设置"
+
+#: __init__.py:253
+msgid "The focal length of the lens used to record the video. You can always change this after the tracking to fine-tune. If you enter the equivalent focal length, set the sensor size to Full Frame."
+msgstr "录制视频所用镜头的焦距。追踪后始终可以修改以进行微调。如果输入等效焦距，请将传感器尺寸设为全画幅。"
+
+#: __init__.py:350
+msgid "The threshold of how many markers are left before we should add new markers"
+msgstr "添加新标记前剩余标记数量的阈值"
+
+#: __init__.py:268
+msgid "Threshold of placing markers"
+msgstr "标记放置阈值"
+
+#: __init__.py:423
+msgid "Time Remaining"
+msgstr "剩余时间"
+
+#: __init__.py:374
+msgid "Tripod Mode (Rotation Only)"
+msgstr "三脚架模式（仅旋转）"
+
+#: __init__.py:93
+msgid "Use Annotations"
+msgstr "使用标注"
+
+#: __init__.py:236
+msgid "Use Crop Sensor as the Sensor Type"
+msgstr "使用裁切传感器作为传感器类型"
+
+#: __init__.py:235
+msgid "Use Full Frame as the Sensor Type (default)"
+msgstr "使用全画幅作为传感器类型（默认）"
+
+#: __init__.py:237
+msgid "Use Micro Four Thirds as the Sensor Type"
+msgstr "使用微型四分之三作为传感器类型"
+
+#: __init__.py:239
+msgid "Use a Custom Sensor Type"
+msgstr "使用自定义传感器类型"
+
+#: __init__.py:238
+msgid "Use a Smartphone Sensor as the Sensor Type"
+msgstr "使用智能手机传感器作为传感器类型"
+
+#: __init__.py:243
+msgid "Use a simple and fast filtering algorithm, not very versatile and may not work."
+msgstr "使用简单快速的过滤算法，通用性不强，可能不起作用。"
+
+#: __init__.py:3
+msgid "VFX"
+msgstr "VFX"
+
+#: __init__.py:1900
+msgid "Welcome to AutoTrack!"
+msgstr "欢迎使用 AutoTrack！"
+
+#: __init__.py:374
+msgid "Were you using a tripod to shoot this video?"
+msgstr "拍摄此视频时是否使用了三脚架？"
+
+#: __init__.py:343
+msgid "What algorithm should be used to clean bad markers?"
+msgstr "应使用哪种算法清理不良标记？"
+
+#: __init__.py:98
+msgid "What mode should annotation work in?"
+msgstr "标注应在哪种模式下工作？"
+
+#: __init__.py:1591
+msgctxt "Operator"
+msgid "About AutoTrack"
+msgstr "关于 AutoTrack"
+
+#: __init__.py:1800
+#: __init__.py:1818
+msgctxt "Operator"
+msgid "Add Object Track"
+msgstr "添加物体追踪"
+
+#: __init__.py:1324
+msgctxt "Operator"
+msgid "Clear Annotations"
+msgstr "清除标注"
+
+#: __init__.py:1325
+msgctxt "Operator"
+msgid "Clears annotations on current video"
+msgstr "清除当前视频上的标注"
+
+#: __init__.py:1604
+msgctxt "Operator"
+msgid "Closes the About Page"
+msgstr "关闭“关于”页面"
+
+#: __init__.py:1640
+msgctxt "Operator"
+msgid "Discord Support"
+msgstr "Discord 支持"
+
+#: __init__.py:1360
+msgctxt "Operator"
+msgid "Generate Surface (Beta)"
+msgstr "生成曲面（Beta）"
+
+#: __init__.py:1361
+msgctxt "Operator"
+msgid "Generates a Surface with reprojection"
+msgstr "通过重投影生成曲面"
+
+#: __init__.py:1649
+msgctxt "Operator"
+msgid "Go Back"
+msgstr "返回"
+
+#: __init__.py:1603
+msgctxt "Operator"
+msgid "Go Back..."
+msgstr "返回..."
+
+#: __init__.py:1644
+msgctxt "Operator"
+msgid "Open Extension Page"
+msgstr "打开扩展页面"
+
+#: __init__.py:1592
+msgctxt "Operator"
+msgid "Opens the About Page"
+msgstr "打开“关于”页面"
+
+#: __init__.py:1209
+msgctxt "Operator"
+msgid "Quick Resolve"
+msgstr "快速解算"
+
+#: __init__.py:158
+msgctxt "Operator"
+msgid "Remove Track Object"
+msgstr "移除追踪物体"
+
+#: __init__.py:159
+msgctxt "Operator"
+msgid "Remove this tracking object"
+msgstr "移除此追踪物体"
+
+#: __init__.py:1642
+msgctxt "Operator"
+msgid "Report a Bug"
+msgstr "报告错误"
+
+#: __init__.py:1210
+msgctxt "Operator"
+msgid "Run the solver without re-tracking"
+msgstr "不重新追踪直接运行解算器"
+
+#: __init__.py:208
+msgctxt "Operator"
+msgid "Run the tracking process"
+msgstr "运行追踪过程"
+
+#: __init__.py:116
+msgctxt "Operator"
+msgid "Set Active Track Object"
+msgstr "设置活动追踪物体"
+
+#: __init__.py:117
+msgctxt "Operator"
+msgid "Set this tracking object as active"
+msgstr "将此追踪物体设为活动"
+
+#: __init__.py:207
+msgctxt "Operator"
+msgid "Start Tracking!"
+msgstr "开始追踪！"
+
+#: __init__.py:1235
+msgctxt "Operator"
+msgid "Test Markers"
+msgstr "测试标记"
+
+#: __init__.py:1236
+msgctxt "Operator"
+msgid "Test the placement of markers on the current frame"
+msgstr "测试当前帧上标记的放置情况"

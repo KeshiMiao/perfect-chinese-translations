@@ -1,0 +1,671 @@
+# perfect-chinese: 1
+# id: microscopynodes
+# kind: addon
+# module: bl_ext.blender_org.microscopynodes
+# name: Microscopy Nodes
+# name_zh: 显微节点
+# translator: KeshiMiao
+# category: Import-Export
+# supported_versions: >=5.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: ui/panel.py:26
+msgid ".tif or .zarr:"
+msgstr ".tif 或 .zarr："
+
+#: ui/ops.py:233
+msgid ".tif path"
+msgstr ".tif 路径"
+
+#: ui/ops.py:238
+msgid ".zarr path"
+msgstr ".zarr 路径"
+
+#: ui/preferences.py:88
+msgid "Actual"
+msgstr "实际"
+
+#: min_nodes/shader_nodes/__init__.py:18
+msgid "Add LUT"
+msgstr "添加 LUT"
+
+#: ui/preferences.py:37
+msgid "Additional channel slots to reserve beyond the current dataset channel count"
+msgstr "在当前数据集通道数之外额外预留的通道槽"
+
+#: min_nodes/geo_nodes/__init__.py:30
+#: min_nodes/geo_nodes/annotation/__init__.py:43
+msgid "Annotation"
+msgstr "标注"
+
+#: ui/channel_list.py:14
+msgid "Bright"
+msgstr "Bright"
+
+#: handle_blender_structs/props.py:30
+msgid "Center volume in XY"
+msgstr "在 XY 方向居中体积"
+
+#: handle_blender_structs/props.py:31
+msgid "Center volume in XYZ"
+msgstr "在 XYZ 方向居中体积"
+
+#: ui/channel_list.py:63
+msgid "Channel name (unsupported bundle characters become underscores)"
+msgstr "通道名称（不支持的 bundle 字符会变成下划线）"
+
+#: ui/preferences.py:54
+msgid "Clip rendered materials with the Slice Cube shader node. More accurate box slicing, but strictly only on bounding boxes."
+msgstr "使用 Slice Cube 着色器节点裁剪渲染材质。更精确的盒体切片，但严格仅限包围盒。"
+
+#: ui/preferences.py:89
+msgid "Close to actual grid meshing, but more flexible"
+msgstr "接近实际网格化，但更灵活"
+
+#: ui/preferences.py:91
+msgid "Coarse"
+msgstr "粗糙"
+
+#: ui/preferences.py:91
+msgid "Coarse mesh minimizes the RAM usage of surface encoding."
+msgstr "粗糙网格可最小化表面编码的 RAM 占用。"
+
+#: ui/preferences.py:85
+msgid "Coarser will be less RAM intensive"
+msgstr "越粗糙，RAM 占用越低"
+
+#: ui/channel_list.py:73
+msgid "Colormap for this channel"
+msgstr "此通道的颜色映射"
+
+#: min_nodes/geo_nodes/__init__.py:20
+#: min_nodes/geo_nodes/combine_channels/__init__.py:45
+msgid "Combine Channels"
+msgstr "合并通道"
+
+#: ui/channel_list.py:11
+msgid "Coolwarm"
+msgstr "Coolwarm"
+
+#: ui/panel.py:164
+msgid "Data Storage:"
+msgstr "数据存储："
+
+#: ui/preferences.py:72
+msgid "Data is resaved into vdb files (large 32bit volume files) for volumes and isosurfaces, and smaller abc mesh files for labelmasks. Microscopy Nodes does not clean out the files."
+msgstr "数据会重新保存为 vdb 文件（大型 32 位体积文件）用于体积和等值面，以及较小的 abc 网格文件用于标签掩码。Microscopy Nodes 不会清理这些文件。"
+
+#: ui/preferences.py:72
+msgid "Data storage"
+msgstr "数据存储"
+
+#: ui/preferences.py:105
+msgid "Data storage \"Path\" default:"
+msgstr "数据存储“路径”默认值："
+
+#: ui/preferences.py:107
+msgid "Data storage \"Temporary\" default:"
+msgstr "数据存储“临时”默认值："
+
+#: blender_objects/holder.py:21
+#: min_nodes/geo_nodes/nodeHolderBundleInputs.py:12
+msgid "Dataset BBox Extents"
+msgstr "数据集包围盒范围"
+
+#: blender_objects/holder.py:20
+#: min_nodes/geo_nodes/nodeHolderBundleInputs.py:11
+msgid "Dataset BBox Max"
+msgstr "数据集包围盒最大值"
+
+#: blender_objects/holder.py:19
+#: min_nodes/geo_nodes/nodeHolderBundleInputs.py:10
+msgid "Dataset BBox Min"
+msgstr "数据集包围盒最小值"
+
+#: blender_objects/holder.py:22
+#: min_nodes/geo_nodes/nodeHolderBundleInputs.py:13
+msgid "Dataset Input Scale"
+msgstr "数据集输入缩放"
+
+#: ui/channel_list.py:73
+msgid "Default Colormaps"
+msgstr "默认颜色映射"
+
+#: ui/preferences.py:110
+msgid "Default channel settings to set for new files."
+msgstr "为新文件设置的默认通道设置。"
+
+#: ui/preferences.py:30
+msgid "Defined default channels"
+msgstr "已定义的默认通道"
+
+#: handle_blender_structs/props.py:27
+msgid "Defines the coordinate translation after import"
+msgstr "定义导入后的坐标平移"
+
+#: handle_blender_structs/units.py:110
+msgid "Defines the scale transform from physical dataset units to Blender meters."
+msgstr "定义从物理数据集单位到 Blender 米的缩放变换。"
+
+#: min_nodes/shader_nodes/ops.py:18
+#: min_nodes/shader_nodes/ops.py:42
+msgid "Description"
+msgstr "描述"
+
+#: ui/channel_list.py:70
+msgid "Do not use on regular images.\nLoads separate values in the mask as separate mesh objects"
+msgstr "请勿用于普通图像。\n将掩码中的不同值加载为独立网格对象"
+
+#: ui/panel.py:174
+msgid "Don't forget to save your blend file :)"
+msgstr "别忘了保存你的 blend 文件 :)"
+
+#: ui/preferences.py:37
+msgid "Extra channel slots"
+msgstr "额外通道槽"
+
+#: ui/preferences.py:89
+msgid "Fine"
+msgstr "精细"
+
+#: handle_blender_structs/props.py:39
+msgid "First timeframe to be loaded"
+msgstr "要加载的第一个时间帧"
+
+#: handle_blender_structs/props.py:20
+msgid "Force remaking vdb files"
+msgstr "强制重新生成 vdb 文件"
+
+#: blender_objects/holder.py:18
+#: min_nodes/geo_nodes/nodeHolderBundleInputs.py:9
+msgid "Frame"
+msgstr "帧"
+
+#: ui/preferences.py:47
+msgid "Geometry"
+msgstr "几何体"
+
+#: ui/channel_list.py:12
+msgid "IceFire"
+msgstr "IceFire"
+
+#: handle_blender_structs/props.py:27
+msgid "Import location"
+msgstr "导入位置"
+
+#: ui/preferences.py:96
+msgid "Invert Color"
+msgstr "反转颜色"
+
+#: ui/preferences.py:96
+msgid "Invert color lookup tables on load"
+msgstr "加载时反转颜色查找表"
+
+#: min_nodes/geo_nodes/__init__.py:35
+#: min_nodes/shader_nodes/__init__.py:41
+msgid "LUTs"
+msgstr "LUT"
+
+#: handle_blender_structs/props.py:47
+msgid "Last timeframe to be loaded."
+msgstr "要加载的最后一个时间帧。"
+
+#: ui/channel_list.py:67
+msgid "Load data as volume"
+msgstr "将数据加载为体积"
+
+#: ui/channel_list.py:69
+msgid "Load isosurface object.\nAlso useful for binary masks"
+msgstr "加载等值面对象。\n也适用于二值掩码"
+
+#: min_nodes/geo_nodes/__init__.py:25
+#: min_nodes/geo_nodes/masking/__init__.py:26
+msgid "Masking"
+msgstr "掩码"
+
+#: min_nodes/geo_nodes/__init__.py:40
+#: min_nodes/geo_nodes/measure/__init__.py:17
+msgid "Measure / Project"
+msgstr "测量 / 投影"
+
+#: ui/preferences.py:90
+msgid "Medium"
+msgstr "中等"
+
+#: ui/preferences.py:90
+msgid "Medium density mesh"
+msgstr "中等密度网格"
+
+#: ui/preferences.py:85
+msgid "Meshing density of surfaces and masks"
+msgstr "表面和掩码的网格化密度"
+
+#: handle_blender_structs/props.py:85
+msgid "Meter"
+msgstr "米"
+
+#: handle_blender_structs/props.py:20
+msgid "MiN_remake"
+msgstr "MiN_remake"
+
+#: handle_blender_structs/props.py:83
+msgid "Micrometer"
+msgstr "微米"
+
+#: min_nodes/geo_nodes/__init__.py:16
+#: min_nodes/geo_nodes/__init__.py:64
+msgid "Microscopy Nodes"
+msgstr "Microscopy Nodes"
+
+#: handle_blender_structs/units.py:110
+msgid "Microscopy scale -> Blender scale"
+msgstr "显微镜比例 -> Blender 比例"
+
+#: handle_blender_structs/props.py:84
+msgid "Millimeter"
+msgstr "毫米"
+
+#: handle_blender_structs/props.py:82
+msgid "Nanometer"
+msgstr "纳米"
+
+#: min_nodes/geo_nodes/ops.py:37
+msgid "Node"
+msgstr "节点"
+
+#: ui/panel.py:123
+msgid "On load"
+msgstr "加载时"
+
+#: ui/preferences.py:44
+msgid "On load slice cube mode"
+msgstr "加载时切片立方体模式"
+
+#: handle_blender_structs/props.py:55
+msgid "On load: overwrite background color"
+msgstr "加载时：覆盖背景颜色"
+
+#: handle_blender_structs/props.py:61
+msgid "On load: overwrite render settings"
+msgstr "加载时：覆盖渲染设置"
+
+#: ui/preferences.py:66
+msgid "Only used if cache option is PATH"
+msgstr "仅在缓存选项为 PATH 时使用"
+
+#: handle_blender_structs/props.py:32
+msgid "Origin"
+msgstr "原点"
+
+#: ui/preferences.py:120
+msgid "Overwrite files (debug, does not persist between sessions)"
+msgstr "覆盖文件（调试，不会在会话之间保留）"
+
+#: ui/preferences.py:76
+msgid "Path"
+msgstr "路径"
+
+#: ui/channel_list.py:10
+msgid "Plasma"
+msgstr "Plasma"
+
+#: min_nodes/geo_nodes/__init__.py:45
+#: min_nodes/geo_nodes/process/__init__.py:21
+msgid "Process"
+msgstr "处理"
+
+#: handle_blender_structs/dependent_props.py:96
+msgid "Reload data of Microscopy Nodes object.\nCan be used to replace deleted (temp) files, change resolution, or channel settings.\nUsage: Point to previously loaded microscopy data."
+msgstr "重新加载 Microscopy Nodes 对象的数据。\n可用于替换已删除的（临时）文件、更改分辨率或通道设置。\n用法：指向之前加载的显微镜数据。"
+
+#: handle_blender_structs/props.py:129
+msgid "Reload only volume voxels remaining after spatial masking, such as the slice cube. Useful for loading a selected region of datasets larger than RAM. Shader visibility is ignored; label masks and surfaces are not yet supported"
+msgstr "仅重新加载空间掩码（如切片立方体）后剩余的体素。适用于加载大于 RAM 的数据集中的选定区域。忽略着色器可见性；尚不支持标签掩码和表面"
+
+#: handle_blender_structs/props.py:117
+msgid "Reload the data from local files if they exist, or make new local files"
+msgstr "如果本地文件存在，则从中重新加载数据；否则创建新的本地文件"
+
+#: min_nodes/shader_nodes/__init__.py:25
+#: min_nodes/shader_nodes/__init__.py:57
+msgid "Replace LUT"
+msgstr "替换 LUT"
+
+#: handle_blender_structs/units.py:26
+msgid "Scales to 1 m/blender-centimeter"
+msgstr "缩放为 1 m/Blender 厘米"
+
+#: handle_blender_structs/units.py:25
+msgid "Scales to 1 m/blender-decimeter"
+msgstr "缩放为 1 m/Blender 分米"
+
+#: handle_blender_structs/units.py:24
+msgid "Scales to 1 m/blender-meter"
+msgstr "缩放为 1 m/Blender 米"
+
+#: handle_blender_structs/units.py:23
+msgid "Scales to 1 mm/blender-centimeter"
+msgstr "缩放至 1 mm/Blender 厘米"
+
+#: handle_blender_structs/units.py:22
+msgid "Scales to 1 mm/blender-decimeter"
+msgstr "缩放至 1 mm/Blender 分米"
+
+#: handle_blender_structs/units.py:21
+msgid "Scales to 1 mm/blender-meter"
+msgstr "缩放至 1 mm/Blender 米"
+
+#: handle_blender_structs/units.py:17
+msgid "Scales to 1 nm/blender-centimeter"
+msgstr "缩放至 1 nm/Blender 厘米"
+
+#: handle_blender_structs/units.py:16
+msgid "Scales to 1 nm/blender-decimeter"
+msgstr "缩放至 1 nm/Blender 分米"
+
+#: handle_blender_structs/units.py:15
+msgid "Scales to 1 nm/blender-meter"
+msgstr "缩放至 1 nm/Blender 米"
+
+#: handle_blender_structs/units.py:20
+msgid "Scales to 1 µm/blender-centimeter"
+msgstr "缩放至 1 µm/Blender 厘米"
+
+#: handle_blender_structs/units.py:19
+msgid "Scales to 1 µm/blender-decimeter"
+msgstr "缩放至 1 µm/Blender 分米"
+
+#: handle_blender_structs/units.py:18
+msgid "Scales to 1 µm/blender-meter"
+msgstr "缩放至 1 µm/Blender 米"
+
+#: ui/panel.py:127
+msgid "Scene"
+msgstr "场景"
+
+#: blender_objects/holder.py:25
+#: min_nodes/geo_nodes/nodeHolderBundleInputs.py:16
+msgid "Scene Import Offset"
+msgstr "场景导入偏移"
+
+#: blender_objects/holder.py:26
+#: min_nodes/geo_nodes/nodeHolderBundleInputs.py:17
+msgid "Scene Import Transform"
+msgstr "场景导入变换"
+
+#: blender_objects/holder.py:24
+#: min_nodes/geo_nodes/nodeHolderBundleInputs.py:15
+msgid "Scene Output Scale"
+msgstr "场景输出缩放"
+
+#: blender_objects/holder.py:23
+#: min_nodes/geo_nodes/nodeHolderBundleInputs.py:14
+msgid "Scene World Scale Base"
+msgstr "场景世界缩放基准"
+
+#: ui/preferences.py:75
+msgid "See the current temp path in Addon Preferences"
+msgstr "在插件偏好设置中查看当前临时路径"
+
+#: min_nodes/shader_nodes/channel_handling/add_empty_channel.py:71
+msgid "Select a volume, surface, or labelmask object"
+msgstr "选择体积、表面或标签遮罩物体"
+
+#: handle_blender_structs/dependent_props.py:85
+msgid "Select the imported array or transform"
+msgstr "选择导入的数组或变换"
+
+#: handle_blender_structs/props.py:55
+msgid "Sets background to white if any non-emissive channels are loaded - sets to black if only emissive channels are loaded"
+msgstr "若加载了任何非自发光通道，背景设为白色；若仅加载自发光通道，则设为黑色"
+
+#: handle_blender_structs/props.py:61
+msgid "Sets render settings to Microscopy Nodes defaults, to ensure relatively responsive large volume rendering."
+msgstr "将渲染设置设为 Microscopy Nodes 默认值，以确保大体积渲染相对流畅。"
+
+#: ui/channel_list.py:8
+msgid "Settable single color, will generate map from black to color"
+msgstr "可设置的单一颜色，将生成从黑色到该颜色的映射"
+
+#: ui/preferences.py:54
+msgid "Shader"
+msgstr "着色器"
+
+#: handle_blender_structs/dependent_props.py:103
+msgid "Show rescaled pixel size."
+msgstr "显示重新缩放后的像素大小。"
+
+#: ui/channel_list.py:8
+msgid "Single Color"
+msgstr "单一颜色"
+
+#: ui/preferences.py:47
+msgid "Slice cube masks data in Geometry Nodes. This is more flexible and allows for easy reloading of visible data. May cause jagged edges in dense renders."
+msgstr "在几何节点中切片立方体遮罩数据。此方式更灵活，并可轻松重新加载可见数据。在密集渲染中可能导致锯齿边缘。"
+
+#: ui/panel.py:146
+msgid "Slicing"
+msgstr "切片"
+
+#: ui/channel_list.py:13
+msgid "Tab10"
+msgstr "Tab10"
+
+#: ui/preferences.py:88
+msgid "Takes the actual grid size, most accurate, but heavy on RAM."
+msgstr "采用实际网格大小，最准确，但占用大量内存。"
+
+#: ui/preferences.py:75
+msgid "Temporary"
+msgstr "临时"
+
+#: handle_blender_structs/props.py:78
+msgid "Unit of pixel sizes"
+msgstr "像素大小单位"
+
+#: handle_blender_structs/props.py:123
+msgid "Update microscopy nodes channel settings, reapplies import transforms, so will move your data."
+msgstr "更新 Microscopy Nodes 通道设置，重新应用导入变换，因此会移动数据。"
+
+#: min_nodes/geo_nodes/__init__.py:50
+#: min_nodes/geo_nodes/utilities/__init__.py:28
+msgid "Utilities"
+msgstr "实用工具"
+
+#: ui/channel_list.py:9
+msgid "Viridis"
+msgstr "Viridis"
+
+#: ui/channel_list.py:68
+msgid "Volume data emits light on load\n(off is recommended for EM)"
+msgstr "体积数据加载时发光\n（EM 建议关闭）"
+
+#: handle_blender_structs/props.py:32
+msgid "Volume origin at world origin"
+msgstr "体积原点位于世界原点"
+
+#: ui/preferences.py:77
+msgid "With Project"
+msgstr "随项目"
+
+#: handle_blender_structs/props.py:30
+msgid "XY Center"
+msgstr "XY 中心"
+
+#: handle_blender_structs/props.py:31
+msgid "XYZ Center"
+msgstr "XYZ 中心"
+
+#: ui/ops.py:217
+msgid "Zarr datasets"
+msgstr "Zarr 数据集"
+
+#: handle_blender_structs/dependent_props.py:78
+msgid "axes order (out of tzcyx)"
+msgstr "轴顺序（取自 tzcyx）"
+
+#: handle_blender_structs/props.py:136
+msgid "current process in load"
+msgstr "当前加载进程"
+
+#: handle_blender_structs/dependent_props.py:70
+msgid "image path, either to tif file, zarr root folder or zarr URL"
+msgstr "图像路径，可为 tif 文件、Zarr 根文件夹或 Zarr URL"
+
+#: handle_blender_structs/units.py:26
+msgid "m -> cm"
+msgstr "m -> cm"
+
+#: handle_blender_structs/units.py:25
+msgid "m -> dm"
+msgstr "m -> dm"
+
+#: handle_blender_structs/units.py:24
+msgid "m -> m"
+msgstr "m -> m"
+
+#: handle_blender_structs/units.py:23
+msgid "mm -> cm"
+msgstr "mm -> cm"
+
+#: handle_blender_structs/units.py:22
+msgid "mm -> dm"
+msgstr "mm -> dm"
+
+#: handle_blender_structs/units.py:21
+msgid "mm -> m"
+msgstr "mm -> m"
+
+#: handle_blender_structs/units.py:17
+msgid "nm -> cm (Molecular Nodes)"
+msgstr "nm -> cm（Molecular Nodes）"
+
+#: handle_blender_structs/units.py:16
+msgid "nm -> dm"
+msgstr "nm -> dm"
+
+#: handle_blender_structs/units.py:15
+msgid "nm -> m"
+msgstr "nm -> m"
+
+#: handle_blender_structs/props.py:68
+msgid "xy physical pixel size in micrometer (only 2 digits may show up, but it is accurate to 6 digits)"
+msgstr "xy 物理像素大小，单位微米（可能只显示 2 位，但精确到 6 位）"
+
+#: ui/panel.py:52
+msgid "xy pixel size:"
+msgstr "xy 像素大小："
+
+#: handle_blender_structs/props.py:73
+msgid "z physical pixel size in micrometer (only 2 digits may show up, but it is accurate to 6 digits)"
+msgstr "z 物理像素大小，单位微米（可能只显示 2 位，但精确到 6 位）"
+
+#: ui/panel.py:53
+msgid "z pixel size:"
+msgstr "z 像素大小："
+
+#: handle_blender_structs/props.py:83
+msgid "µm"
+msgstr "µm"
+
+#: handle_blender_structs/units.py:20
+msgid "µm -> cm"
+msgstr "µm -> cm"
+
+#: handle_blender_structs/units.py:19
+msgid "µm -> dm"
+msgstr "µm -> dm"
+
+#: handle_blender_structs/units.py:18
+msgid "µm -> m"
+msgstr "µm -> m"
+
+#: handle_blender_structs/props.py:81
+msgid "Å"
+msgstr "Å"
+
+#: handle_blender_structs/props.py:81
+msgid "Ångström, 0.1 nanometer"
+msgstr "埃，0.1 纳米"
+
+#: min_nodes/shader_nodes/ops.py:36
+msgctxt "Operator"
+msgid "Add Color Ramp with LUT Node"
+msgstr "添加带 LUT 的颜色渐变节点"
+
+#: min_nodes/shader_nodes/__init__.py:36
+#: min_nodes/shader_nodes/channel_handling/add_empty_channel.py:62
+msgctxt "Operator"
+msgid "Add Empty Channel"
+msgstr "添加空通道"
+
+#: min_nodes/geo_nodes/ops.py:34
+msgctxt "Operator"
+msgid "Add Microscopy Nodes Geometry Node"
+msgstr "添加 Microscopy Nodes 几何节点"
+
+#: min_nodes/shader_nodes/ops.py:65
+msgctxt "Operator"
+msgid "Add Pixel Intensities LUT"
+msgstr "添加像素强度 LUT"
+
+#: min_nodes/geo_nodes/measure/__init__.py:26
+msgctxt "Operator"
+msgid "Attribute Statistic"
+msgstr "属性统计"
+
+#: min_nodes/geo_nodes/process/__init__.py:24
+msgctxt "Operator"
+msgid "Box Blur"
+msgstr "方框模糊"
+
+#: ui/ops.py:161
+#: ui/panel.py:110
+msgctxt "Operator"
+msgid "Cancel"
+msgstr "取消"
+
+#: ui/ops.py:47
+#: ui/ops.py:175
+msgctxt "Operator"
+msgid "Load"
+msgstr "加载"
+
+#: ui/ops.py:209
+msgctxt "Operator"
+msgid "Load array option"
+msgstr "加载数组选项"
+
+#: min_nodes/shader_nodes/cmap_menus.py:98
+msgctxt "Operator"
+msgid "Pixel Intensities"
+msgstr "像素强度"
+
+#: ui/panel.py:114
+msgctxt "Operator"
+msgid "Reload"
+msgstr "重新加载"
+
+#: min_nodes/shader_nodes/ops.py:12
+msgctxt "Operator"
+msgid "Replace Lookup Table of Color Ramp node"
+msgstr "替换颜色渐变节点的查找表"
+
+#: min_nodes/shader_nodes/__init__.py:58
+msgctxt "Operator"
+msgid "Reverse LUT"
+msgstr "反转 LUT"
+
+#: min_nodes/shader_nodes/ops.py:82
+msgctxt "Operator"
+msgid "Reverse order of color ramp positions"
+msgstr "反转颜色渐变位置顺序"
+
+#: ui/ops.py:229
+msgctxt "Operator"
+msgid "Select path"
+msgstr "选择路径"

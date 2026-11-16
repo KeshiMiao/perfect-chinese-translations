@@ -1,0 +1,743 @@
+# perfect-chinese: 1
+# id: img2mat_pro
+# kind: addon
+# module: bl_ext.blender_org.img2mat_pro
+# name: img2mat_pro
+# name_zh: 图像转材质专业版
+# translator: KeshiMiao
+# category: Material
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:2715
+msgid "ACB Folder"
+msgstr "ACB 文件夹"
+
+#: __init__.py:1636
+msgid "ACB Source Folder"
+msgstr "ACB 源文件夹"
+
+#: __init__.py:1858
+msgid "Accuracy"
+msgstr "精度"
+
+#: __init__.py:1875
+msgid "Active Lock"
+msgstr "活动锁定"
+
+#: __init__.py:1747
+msgid "Active Pantone Match"
+msgstr "活动 Pantone 匹配"
+
+#: __init__.py:1749
+msgid "Active Single Color Match"
+msgstr "活动单色匹配"
+
+#: __init__.py:1916
+msgid "Add text labels beneath swatches (auto-sized to fit)"
+msgstr "在色块下方添加文本标签（自动调整大小以适配）"
+
+#: __init__.py:672
+msgid "All Enabled Libraries"
+msgstr "所有已启用库"
+
+#: __init__.py:1820
+msgid "All Pixels (stride)"
+msgstr "所有像素（步长）"
+
+#: __init__.py:1810
+msgid "As-Is (sRGB)"
+msgstr "原样（sRGB）"
+
+#: __init__.py:1928
+msgid "Asset Tag"
+msgstr "资产标签"
+
+#: __init__.py:2798
+msgid "Assets & Palette"
+msgstr "资产与调色板"
+
+#: __init__.py:1783
+msgid "Balance broad image colors with visually distinct accent colors"
+msgstr "平衡图像主色与视觉上突出的强调色"
+
+#: __init__.py:1895
+msgid "CSS"
+msgstr "CSS"
+
+#: __init__.py:1896
+msgid "CSS + Hue Guard"
+msgstr "CSS + 色相保护"
+
+#: __init__.py:1785
+msgid "Choose most frequent exact sRGB colors"
+msgstr "选择最频繁的精确 sRGB 颜色"
+
+#: __init__.py:1784
+msgid "Cluster RGB pixels (Comfy-like)"
+msgstr "聚类 RGB 像素（类似 Comfy）"
+
+#: __init__.py:1508
+msgid "Color"
+msgstr "颜色"
+
+#: __init__.py:1779
+#: __init__.py:2747
+msgid "Color Sampling Method"
+msgstr "颜色采样方法"
+
+#: __init__.py:1806
+#: __init__.py:2759
+msgid "Color Space"
+msgstr "色彩空间"
+
+#: __init__.py:1736
+msgid "Color to match to the nearest Pantone. Use Blender's color picker eyedropper to sample from the image."
+msgstr "要匹配到最近 Pantone 的颜色。使用 Blender 颜色选择器的吸管从图像中取样。"
+
+#: __init__.py:2777
+msgid "Comfy K-Means (RGB)"
+msgstr "Comfy K-Means（RGB）"
+
+#: __init__.py:1
+msgid "Comfy-style RGB K-Means + Top-N, uniform grid sampling, lock colors with exact snapping, Asset materials, Image-Editor sync, Blender Palette creation, ACB library conversion, and Pantone matching."
+msgstr "类似 Comfy 的 RGB K-Means + Top-N、均匀网格采样、通过精确吸附锁定颜色、资产材质、图像编辑器同步、Blender 调色板创建、ACB 库转换和 Pantone 匹配。"
+
+#: __init__.py:1811
+msgid "Convert from linear to sRGB"
+msgstr "从线性转换为 sRGB"
+
+#: __init__.py:1676
+msgid "Converted libraries are stored as JSON and can be reused across projects."
+msgstr "转换后的库以 JSON 存储，可跨项目重复使用。"
+
+#: __init__.py:1934
+#: __init__.py:2684
+msgid "Create Blender Palette"
+msgstr "创建 Blender 调色板"
+
+#: __init__.py:1751
+msgid "Create Pantone Swatches"
+msgstr "创建 Pantone 色块"
+
+#: __init__.py:1757
+msgid "Create Text List"
+msgstr "创建文本列表"
+
+#: __init__.py:1934
+msgid "Create a Blender Palette resource with these colors"
+msgstr "使用这些颜色创建 Blender 调色板资源"
+
+#: __init__.py:1757
+msgid "Create a Blender text block with the current Pantone list"
+msgstr "使用当前 Pantone 列表创建 Blender 文本块"
+
+#: __init__.py:1910
+msgid "Create a grid of colored planes for quick viewing"
+msgstr "创建彩色平面网格以便快速查看"
+
+#: __init__.py:1751
+msgid "Create a matched Pantone swatch collection in the scene"
+msgstr "在场景中创建匹配的 Pantone 色块集合"
+
+#: __init__.py:1897
+msgid "Descriptive names from hue + tone"
+msgstr "根据色相 + 色调生成描述性名称"
+
+#: __init__.py:1525
+msgid "Distance"
+msgstr "距离"
+
+#: __init__.py:1726
+msgid "Distance method used when finding the nearest Pantone color"
+msgstr "查找最近 Pantone 颜色时使用的距离方法"
+
+#: __init__.py:1636
+msgid "Folder containing Adobe Color Book (.acb) files to import"
+msgstr "包含要导入的 Adobe Color Book (.acb) 文件的文件夹"
+
+#: __init__.py:1629
+msgid "Folder where converted ACB JSON libraries will be stored. If blank, Blender's user config img2mat_libraries folder is used."
+msgstr "存储转换后 ACB JSON 库的文件夹。如果留空，则使用 Blender 用户配置中的 img2mat_libraries 文件夹。"
+
+#: __init__.py:1916
+#: __init__.py:2682
+msgid "Generate Labels"
+msgstr "生成标签"
+
+#: __init__.py:1910
+#: __init__.py:2681
+msgid "Generate Swatches"
+msgstr "生成色块"
+
+#: __init__.py:1834
+msgid "Grid Size"
+msgstr "网格大小"
+
+#: __init__.py:1858
+msgid "Higher = more K-Means iterations (more accurate but slower)"
+msgstr "数值越高 = K-Means 迭代次数越多（更准确但更慢）"
+
+#: __init__.py:1779
+msgid "How colors are extracted from the image"
+msgstr "从图像中提取颜色的方式"
+
+#: __init__.py:1891
+msgid "How to name generated materials"
+msgstr "如何命名生成的材质"
+
+#: __init__.py:1897
+msgid "Hue Descriptive"
+msgstr "色相描述"
+
+#: __init__.py:1677
+msgid "If Library Folder is blank, Blender's user config img2mat_libraries folder is used."
+msgstr "如果库文件夹留空，则使用 Blender 用户配置中的 img2mat_libraries 文件夹。"
+
+#: __init__.py:1877
+msgid "If a palette color exactly matches a lock color, use the lock's name"
+msgstr "如果调色板颜色与锁定颜色完全匹配，则使用该锁定的名称"
+
+#: __init__.py:1842
+msgid "Ignore pixels with alpha below this value"
+msgstr "忽略 Alpha 低于此值的像素"
+
+#: __init__.py:1798
+#: __init__.py:2608
+msgid "Image"
+msgstr "图像"
+
+#: __init__.py:2595
+msgid "Image to Material"
+msgstr "图像转材质"
+
+#: __init__.py:1
+msgid "Image to Material (Locks + Assets + Smart Names + Palettes + Pantone)"
+msgstr "图像转材质（锁定 + 资产 + 智能名称 + 调色板 + Pantone）"
+
+#: __init__.py:2599
+msgid "Img2Mat"
+msgstr "Img2Mat"
+
+#: __init__.py:1652
+msgid "Img2Mat Library Management"
+msgstr "Img2Mat 库管理"
+
+#: __init__.py:1681
+#: __init__.py:2719
+msgid "Installed Libraries"
+msgstr "已安装库"
+
+#: __init__.py:1806
+msgid "Interpretation of the image pixel values when sampling"
+msgstr "采样时对图像像素值的解释"
+
+#: __init__.py:1784
+msgid "K-Means (RGB, Comfy)"
+msgstr "K-Means（RGB，Comfy）"
+
+#: __init__.py:1522
+#: __init__.py:1701
+msgid "Library"
+msgstr "库"
+
+#: __init__.py:1629
+msgid "Library Folder"
+msgstr "库文件夹"
+
+#: __init__.py:1811
+msgid "Linear to sRGB"
+msgstr "线性到 sRGB"
+
+#: __init__.py:2620
+msgid "Lock Colors"
+msgstr "锁定颜色"
+
+#: __init__.py:1883
+msgid "Lock Snap Tolerance (8-bit L1)"
+msgstr "锁定吸附容差（8 位 L1）"
+
+#: __init__.py:2786
+msgid "Lock Snapping"
+msgstr "锁定吸附"
+
+#: __init__.py:1922
+#: __init__.py:2683
+msgid "Mark Materials as Assets"
+msgstr "将材质标记为资产"
+
+#: __init__.py:1922
+msgid "Mark materials as Assets and tag them"
+msgstr "将材质标记为资产并添加标签"
+
+#: __init__.py:1523
+msgid "Match"
+msgstr "匹配"
+
+#: __init__.py:1719
+msgid "Match Library"
+msgstr "匹配库"
+
+#: __init__.py:1726
+#: __init__.py:2753
+msgid "Match Method"
+msgstr "匹配方法"
+
+#: __init__.py:1
+msgid "Material"
+msgstr "材质"
+
+#: __init__.py:1524
+msgid "Metric"
+msgstr "度量"
+
+#: __init__.py:1850
+msgid "Min % (Poster)"
+msgstr "最小 %（Poster）"
+
+#: __init__.py:1842
+msgid "Min Alpha"
+msgstr "最小 Alpha"
+
+#: __init__.py:1850
+msgid "Minimum frequency threshold for Poster Unique method"
+msgstr "Poster Unique 方法的最低频率阈值"
+
+#: __init__.py:1507
+msgid "Name"
+msgstr "名称"
+
+#: __init__.py:1940
+msgid "Name of the Blender Palette asset to create"
+msgstr "要创建的 Blender 调色板资产名称"
+
+#: __init__.py:1763
+msgid "Name of the Blender text block used for Pantone results"
+msgstr "用于 Pantone 结果的 Blender 文本块名称"
+
+#: __init__.py:1891
+#: __init__.py:2790
+msgid "Naming"
+msgstr "命名"
+
+#: __init__.py:1895
+msgid "Nearest CSS/HTML color"
+msgstr "最近的 CSS/HTML 颜色"
+
+#: __init__.py:2292
+msgid "No .acb files found in the selected folder."
+msgstr "在所选文件夹中未找到 .acb 文件。"
+
+#: __init__.py:1615
+msgid "No Image Editor image found."
+msgstr "未找到图像编辑器图像。"
+
+#: __init__.py:2670
+msgid "No PMS colors yet."
+msgstr "尚无 PMS 颜色。"
+
+#: __init__.py:2437
+msgid "No Pantone match was produced."
+msgstr "未生成 Pantone 匹配。"
+
+#: __init__.py:2412
+msgid "No Pantone matches were produced."
+msgstr "未生成任何 Pantone 匹配。"
+
+#: __init__.py:2493
+msgid "No Pantone results to call out. Run Get PMS Colors first."
+msgstr "没有可标注的 Pantone 结果。请先运行“获取 PMS 颜色”。"
+
+#: __init__.py:2467
+msgid "No Pantone results to copy."
+msgstr "没有可复制的 Pantone 结果。"
+
+#: __init__.py:2389
+#: __init__.py:2430
+msgid "No enabled Pantone library is available for the current selection."
+msgstr "当前选择没有可用的已启用 Pantone 库。"
+
+#: __init__.py:2144
+#: __init__.py:2384
+msgid "No image selected (and none visible in Image Editor)."
+msgstr "未选择图像（图像编辑器中也没有可见图像）。"
+
+#: __init__.py:2734
+msgid "No imported libraries yet."
+msgstr "尚未导入库。"
+
+#: __init__.py:1783
+#: __init__.py:2773
+msgid "Notable Colors"
+msgstr "显著颜色"
+
+#: __init__.py:1834
+msgid "Number of cells per dimension when using Uniform Grid sampling"
+msgstr "使用均匀网格采样时每维的单元格数量"
+
+#: __init__.py:1790
+msgid "Number of colors to extract for the palette"
+msgstr "为调色板提取的颜色数量"
+
+#: __init__.py:1695
+#: __init__.py:2743
+msgid "Options"
+msgstr "选项"
+
+#: __init__.py:1707
+#: __init__.py:2678
+msgid "Output"
+msgstr "输出"
+
+#: __init__.py:2653
+msgid "PMS Color Results"
+msgstr "PMS 颜色结果"
+
+#: __init__.py:1940
+msgid "Palette Name"
+msgstr "调色板名称"
+
+#: __init__.py:1790
+msgid "Palette Size"
+msgstr "调色板大小"
+
+#: __init__.py:1521
+#: __init__.py:1713
+msgid "Pantone"
+msgstr "Pantone"
+
+#: __init__.py:1536
+msgid "Pantone Color"
+msgstr "Pantone 颜色"
+
+#: __init__.py:2632
+msgid "Pantone Match"
+msgstr "Pantone 匹配"
+
+#: __init__.py:1769
+msgid "Pantone Summary"
+msgstr "Pantone 摘要"
+
+#: __init__.py:1719
+msgid "Pantone/color library to search when matching colors"
+msgstr "匹配颜色时要搜索的 Pantone/颜色库"
+
+#: __init__.py:1730
+msgid "Perceptual Lab"
+msgstr "感知 Lab"
+
+#: __init__.py:1826
+msgid "Pixel Stride"
+msgstr "像素步长"
+
+#: __init__.py:2280
+msgid "Please choose a folder containing .acb files."
+msgstr "请选择包含 .acb 文件的文件夹。"
+
+#: __init__.py:2236
+msgid "Please choose a valid .acb file."
+msgstr "请选择有效的 .acb 文件。"
+
+#: __init__.py:2782
+msgid "Poster Unique"
+msgstr "海报唯一色"
+
+#: __init__.py:1785
+msgid "Poster Unique (Top-N)"
+msgstr "海报唯一色（前 N）"
+
+#: __init__.py:1731
+msgid "RGB"
+msgstr "RGB"
+
+#: __init__.py:1866
+msgid "Random seed for K-Means initialization and Notable Colors variation"
+msgstr "K-Means 初始化和显著颜色变化的随机种子"
+
+#: __init__.py:1736
+msgid "Sample Color"
+msgstr "采样颜色"
+
+#: __init__.py:1526
+msgid "Sample U"
+msgstr "采样 U"
+
+#: __init__.py:1527
+msgid "Sample V"
+msgstr "采样 V"
+
+#: __init__.py:1821
+msgid "Sample one pixel per cell to de-bias large regions"
+msgstr "每个单元格采样一个像素，以减少大面积区域的偏差"
+
+#: __init__.py:1816
+#: __init__.py:2763
+msgid "Sampling"
+msgstr "采样"
+
+#: __init__.py:672
+msgid "Search every enabled imported color library"
+msgstr "搜索每个已启用的导入颜色库"
+
+#: __init__.py:1866
+msgid "Seed"
+msgstr "种子"
+
+#: __init__.py:1902
+msgid "Set Subsurface/SSS on generated Principled BSDF materials"
+msgstr "在生成的原理化 BSDF 材质上设置次表面/SSS"
+
+#: __init__.py:1643
+msgid "Show Help"
+msgstr "显示帮助"
+
+#: __init__.py:1713
+msgid "Show Pantone matching controls and results"
+msgstr "显示 Pantone 匹配控件和结果"
+
+#: __init__.py:1695
+msgid "Show advanced options for color extraction, naming, and output"
+msgstr "显示颜色提取、命名和输出的高级选项"
+
+#: __init__.py:1701
+msgid "Show imported ACB library controls"
+msgstr "显示导入的 ACB 库控件"
+
+#: __init__.py:1707
+msgid "Show material, swatch, palette, and Pantone output options"
+msgstr "显示材质、色板、调色板和 Pantone 输出选项"
+
+#: __init__.py:2638
+msgid "Single Color Result"
+msgstr "单色结果"
+
+#: __init__.py:1774
+msgid "Single Color Summary"
+msgstr "单色摘要"
+
+#: __init__.py:1883
+msgid "Snap extracted colors to nearby lock colors within this 8-bit L1 distance"
+msgstr "在此 8 位 L1 距离内将提取的颜色吸附到附近的锁定颜色"
+
+#: __init__.py:666
+msgid "Solid Coated"
+msgstr "Solid Coated"
+
+#: __init__.py:1519
+msgid "Source"
+msgstr "来源"
+
+#: __init__.py:1528
+msgid "Source Color"
+msgstr "源颜色"
+
+#: __init__.py:1520
+msgid "Source Label"
+msgstr "源标签"
+
+#: __init__.py:1798
+msgid "Source image"
+msgstr "源图像"
+
+#: __init__.py:2713
+msgid "Storage"
+msgstr "存储"
+
+#: __init__.py:1816
+msgid "Strategy for picking which pixels to analyze"
+msgstr "选择要分析的像素的策略"
+
+#: __init__.py:1902
+#: __init__.py:2794
+msgid "Subsurface"
+msgstr "次表面"
+
+#: __init__.py:1800
+msgid "Sync with Image Viewer"
+msgstr "与图像查看器同步"
+
+#: __init__.py:1928
+msgid "Tag name to add to generated Assets"
+msgstr "添加到生成的资产上的标签名称"
+
+#: __init__.py:1763
+msgid "Text Block"
+msgstr "文本块"
+
+#: __init__.py:1674
+msgid "This addon does not ship with proprietary color libraries."
+msgstr "此插件不附带专有颜色库。"
+
+#: __init__.py:1810
+msgid "Treat image.pixels as sRGB (best for PNG/JPEG)"
+msgstr "将 image.pixels 视为 sRGB（最适合 PNG/JPEG）"
+
+#: __init__.py:1821
+msgid "Uniform Grid"
+msgstr "均匀网格"
+
+#: __init__.py:2731
+msgid "Unknown"
+msgstr "未知"
+
+#: __init__.py:2730
+msgid "Untitled"
+msgstr "未命名"
+
+#: __init__.py:1896
+msgid "Use CSS unless it clashes with hue/tone or is far"
+msgstr "使用 CSS，除非与色相/色调冲突或相差太远"
+
+#: __init__.py:2735
+msgid "Use Import ACB to convert your own Adobe Color Book files."
+msgstr "使用“导入 ACB”转换你自己的 Adobe Color Book 文件。"
+
+#: __init__.py:1675
+msgid "Use Import ACB to convert your own licensed Adobe Color Book files."
+msgstr "使用“导入 ACB”转换你自己的已授权 Adobe Color Book 文件。"
+
+#: __init__.py:1877
+msgid "Use Lock Names"
+msgstr "使用锁定名称"
+
+#: __init__.py:1820
+msgid "Use every Nth pixel across the whole image"
+msgstr "在整个图像中每隔 N 个像素采样"
+
+#: __init__.py:1826
+msgid "Use every Nth pixel when 'All Pixels (stride)' is selected"
+msgstr "选择“所有像素（步长）”时每隔 N 个像素采样"
+
+#: __init__.py:1730
+msgid "Use perceptual Lab distance for nearest visible match"
+msgstr "使用感知 Lab 距离进行最近的可见匹配"
+
+#: __init__.py:1731
+msgid "Use raw sRGB distance"
+msgstr "使用原始 sRGB 距离"
+
+#: __init__.py:666
+msgid "Use the installed PANTONE+ Solid Coated library, preferring the V3 book when present"
+msgstr "使用已安装的 PANTONE+ Solid Coated 库，若有 V3 色卡则优先使用"
+
+#: __init__.py:1800
+msgid "When enabled, Generate Materials will always use the image shown in any open Image Editor"
+msgstr "启用后，“生成材质”将始终使用任何打开的图像编辑器中显示的图像"
+
+#: __init__.py:1570
+#: __init__.py:2624
+msgctxt "Operator"
+msgid "Add Lock Color"
+msgstr "添加锁定颜色"
+
+#: __init__.py:2568
+msgctxt "Operator"
+msgid "Clear Swatches"
+msgstr "清除色板"
+
+#: __init__.py:2228
+msgctxt "Operator"
+msgid "Convert a user-supplied Adobe Color Book (.acb) into a JSON library"
+msgstr "将用户提供的 Adobe Color Book（.acb）转换为 JSON 库"
+
+#: __init__.py:2264
+msgctxt "Operator"
+msgid "Convert every Adobe Color Book (.acb) in a folder into reusable JSON libraries"
+msgstr "将文件夹中的每个 Adobe Color Book（.acb）转换为可复用的 JSON 库"
+
+#: __init__.py:2460
+msgctxt "Operator"
+msgid "Copy Pantone List"
+msgstr "复制 Pantone 列表"
+
+#: __init__.py:2461
+msgctxt "Operator"
+msgid "Copy the current Pantone result list to the clipboard"
+msgstr "将当前 Pantone 结果列表复制到剪贴板"
+
+#: __init__.py:2480
+msgctxt "Operator"
+msgid "Create Callouts"
+msgstr "创建标注"
+
+#: __init__.py:2569
+msgctxt "Operator"
+msgid "Delete generated Hue Swatches and Pantone Matches, and clear Pantone result lists"
+msgstr "删除生成的色相色板和 Pantone 匹配，并清空 Pantone 结果列表"
+
+#: __init__.py:2376
+msgctxt "Operator"
+msgid "Extract the image palette and match each color to the nearest enabled Pantone library color"
+msgstr "提取图像调色板，并将每种颜色匹配到最近的已启用 Pantone 库颜色"
+
+#: __init__.py:2136
+#: __init__.py:2806
+msgctxt "Operator"
+msgid "Generate Materials"
+msgstr "生成材质"
+
+#: __init__.py:2375
+#: __init__.py:2807
+msgctxt "Operator"
+msgid "Get PMS Colors"
+msgstr "获取 PMS 颜色"
+
+#: __init__.py:2263
+msgctxt "Operator"
+msgid "Import ACB Folder"
+msgstr "导入 ACB 文件夹"
+
+#: __init__.py:2227
+msgctxt "Operator"
+msgid "Import ACB Library"
+msgstr "导入 ACB 库"
+
+#: __init__.py:2635
+msgctxt "Operator"
+msgid "Match"
+msgstr "匹配"
+
+#: __init__.py:2422
+msgctxt "Operator"
+msgid "Match Sample Color"
+msgstr "匹配取样颜色"
+
+#: __init__.py:2423
+msgctxt "Operator"
+msgid "Match the sample color to the nearest enabled Pantone library color"
+msgstr "将取样颜色匹配到最近的已启用 Pantone 库颜色"
+
+#: __init__.py:2481
+msgctxt "Operator"
+msgid "Place the active image in the scene and draw swatch callout lines to approximate sampled locations"
+msgstr "将当前图像放入场景，并绘制色块标注线以大致标出取样位置"
+
+#: __init__.py:2334
+msgctxt "Operator"
+msgid "Rebuild Library Index"
+msgstr "重建库索引"
+
+#: __init__.py:1582
+#: __init__.py:2625
+msgctxt "Operator"
+msgid "Remove Lock Color"
+msgstr "移除锁定颜色"
+
+#: __init__.py:2335
+msgctxt "Operator"
+msgid "Scan the library folder and rebuild the JSON library manifest"
+msgstr "扫描库文件夹并重建 JSON 库清单"
+
+#: __init__.py:2345
+msgctxt "Operator"
+msgid "Toggle Library Enabled"
+msgstr "切换库启用状态"
+
+#: __init__.py:1609
+msgctxt "Operator"
+msgid "Use Active Image (Image Editor)"
+msgstr "使用当前图像（图像编辑器）"

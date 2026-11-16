@@ -1,0 +1,616 @@
+# perfect-chinese: 1
+# id: fractal_family
+# kind: addon
+# module: bl_ext.blender_org.fractal_family
+# name: Fractal Family
+# name_zh: 分形家族
+# translator: KeshiMiao
+# category: Add Curve
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: props.py:222
+msgid "A"
+msgstr "A"
+
+#: props.py:404
+msgid "A straight line from the origin to the total vector (default)"
+msgstr "从原点到总向量的直线（默认）"
+
+#: ui.py:482
+msgid "About {minutes} min · generating anyway is not offered"
+msgstr "约 {minutes} 分钟 · 不提供强制生成"
+
+#: ui.py:487
+msgid "About {seconds} · level {level} fits the budget"
+msgstr "约 {seconds} · 层级 {level} 在预算内"
+
+#: props.py:275
+msgid "Active Segment"
+msgstr "活动段"
+
+#: props.py:232
+msgid "B"
+msgstr "B"
+
+#: ui.py:481
+msgid "Build would take too long"
+msgstr "构建耗时过长"
+
+#: props.py:391
+msgid "Bézier"
+msgstr "贝塞尔"
+
+#: props.py:391
+msgid "Bézier auto handles, smooth between the points"
+msgstr "贝塞尔自动手柄，在点之间平滑"
+
+#: budget.py:622
+msgid "Calibrated Speed Factor"
+msgstr "校准速度系数"
+
+#: budget.py:628
+msgid "Calibration Key"
+msgstr "校准键"
+
+#: ui.py:623
+msgid "Changed"
+msgstr "已更改"
+
+#: props.py:408
+msgid "Closed regular hexagon"
+msgstr "闭合正六边形"
+
+#: props.py:409
+msgid "Closed regular octagon"
+msgstr "闭合正八边形"
+
+#: props.py:407
+msgid "Closed regular pentagon"
+msgstr "闭合正五边形"
+
+#: props.py:405
+msgid "Closed regular triangle: Koch snowflake"
+msgstr "闭合正三角形：科赫雪花"
+
+#: props.py:406
+msgid "Closed square"
+msgstr "闭合正方形"
+
+#: props.py:300
+#: ui.py:607
+msgid "Colour Ramp"
+msgstr "颜色渐变"
+
+#: __init__.py:26
+msgid "Create fractal curves with ease using complex integer lattices."
+msgstr "使用复整数格轻松创建分形曲线。"
+
+#: props.py:284
+msgid "Current gene as a string (read-only display)"
+msgstr "当前基因的字符串表示（只读显示）"
+
+#: ui.py:325
+msgid "Curve"
+msgstr "曲线"
+
+#: props.py:415
+msgid "Custom Initiator Curve"
+msgstr "自定义起始曲线"
+
+#: props.py:426
+msgid "Custom initiator polyline (first spline only, object transform ignored). Only used when Custom Initiator Curve is enabled"
+msgstr "自定义起始折线（仅第一个样条，忽略物体变换）。仅在启用自定义起始曲线时使用"
+
+#: props.py:261
+msgid "Domain"
+msgstr "定义域"
+
+#: ops.py:756
+msgid "Down"
+msgstr "向下"
+
+#: props.py:292
+msgid "Draw the current level directly in the 3D viewport, so you can see the gene change while you edit it"
+msgstr "直接在 3D 视图中绘制当前层级，便于在编辑时观察基因变化"
+
+#: ui.py:389
+msgid "ESC cancels"
+msgstr "ESC 取消"
+
+#: props.py:306
+msgid "Each level has its own fixed colour; the HUD hint uses the same one"
+msgstr "每个层级都有固定颜色；HUD 提示使用相同颜色"
+
+#: ops.py:793
+#: props.py:267
+msgid "Eisenstein E"
+msgstr "Eisenstein E"
+
+#: props.py:508
+msgid "Error"
+msgstr "错误"
+
+#: props.py:222
+msgid "First component of the complex integer (real part in G, coefficient of omega in E)"
+msgstr "复整数的第一个分量（G 中为实部，E 中为 omega 的系数）"
+
+#: props.py:356
+msgid "First level written to the object. Equal to Range To writes that one level; a wider range writes every level, one object per level unless Join Levels is on. Output only — the HUD and preview keep using Level"
+msgstr "写入物体的第一个层级。与范围终点相同则只写入该层级；范围更宽则写入每个层级，除非开启合并层级，否则每层一个物体。仅影响输出——HUD 和预览仍使用层级"
+
+#: __init__.py:26
+#: ui.py:668
+msgid "Fractal Family"
+msgstr "分形家族"
+
+#: ops.py:793
+#: props.py:266
+msgid "Gaussian G"
+msgstr "Gaussian G"
+
+#: props.py:284
+msgid "Gene"
+msgstr "基因"
+
+#: props.py:457
+msgid "Generated From"
+msgstr "生成来源"
+
+#: props.py:459
+msgid "Generated Level"
+msgstr "生成层级"
+
+#: ui.py:479
+msgid "Generating it anyway is not offered"
+msgstr "不提供强制生成"
+
+#: ui.py:382
+msgid "Generating level {level} / {high} · {percent}%"
+msgstr "正在生成层级 {level} / {high} · {percent}%"
+
+#: __init__.py:26
+msgid "Generic"
+msgstr "通用"
+
+#: props.py:408
+msgid "Hexagon"
+msgstr "六边形"
+
+#: props.py:300
+msgid "How the preview line is coloured: the level's own fixed colour (so the colour tells you which level you are looking at, levels above 6 share the last one), or one colour you pick yourself"
+msgstr "预览线的着色方式：使用层级自身的固定颜色（颜色可指示当前查看的层级，6 级以上共用最后一种颜色），或使用自选颜色"
+
+#: props.py:397
+msgid "Initiator"
+msgstr "起始"
+
+#: props.py:426
+msgid "Initiator Curve"
+msgstr "起始曲线"
+
+#: props.py:397
+msgid "Initiator polyline (level 0): a straight line or a regular polygon. Polygons are computed on the fly with the side length equal to the total vector, so closed fractals such as the Koch snowflake work with one click. To use your own curve, enable Custom Initiator Curve below"
+msgstr "起始折线（层级 0）：直线或正多边形。多边形实时计算，边长等于总向量，因此科赫雪花等闭合分形一键即可完成。要使用自己的曲线，请启用下方的自定义起始曲线"
+
+#: ui.py:291
+msgid "Invalid gene: at least two segments and a non-zero total vector"
+msgstr "无效基因：至少需要两段且总向量非零"
+
+#: props.py:348
+#: ui.py:522
+msgid "Join Levels"
+msgstr "合并层级"
+
+#: props.py:367
+msgid "Last level written to the object (output only). Substitution count: level 0 is the initiator, level 1 the gene itself, every level above replaces each segment with the whole previous level"
+msgstr "写入物体的最后一个层级（仅输出）。替换次数：层级 0 为起始，层级 1 为基因本身，其上每一层都将每段替换为整个上一层"
+
+#: ui.py:629
+msgid "Last: L{levels} · {points:,} points · {ms:.0f} ms"
+msgstr "最后：L{levels} · {points:,} 个点 · {ms:.0f} ms"
+
+#: props.py:261
+msgid "Lattice: G = Gaussian integers (square), E = Eisenstein integers (triangular)"
+msgstr "格：G = 高斯整数（方形），E = 艾森斯坦整数（三角形）"
+
+#: props.py:328
+msgid "Level"
+msgstr "层级"
+
+#: props.py:306
+msgid "Level Colour"
+msgstr "层级颜色"
+
+#: props.py:328
+msgid "Level being edited and previewed — the HUD wheel changes this one. Substitution count: level 0 is the initiator, level 1 the gene itself, every level above replaces each segment with the whole previous level"
+msgstr "正在编辑和预览的层级——HUD 滚轮更改此层级。替换次数：层级 0 为起始，层级 1 为基因本身，其上每一层都将每段替换为整个上一层"
+
+#: ui.py:476
+msgid "Level {level} needs {size}, {avail} free"
+msgstr "层级 {level} 需要 {size}，可用 {avail}"
+
+#: ui.py:535
+msgid "Level {level} · {cost}"
+msgstr "层级 {level} · {cost}"
+
+#: ui.py:485
+msgid "Level {level} · {size}"
+msgstr "层级 {level} · {size}"
+
+#: props.py:404
+#: ui.py:311
+msgid "Line"
+msgstr "直线"
+
+#: props.py:315
+msgid "Line colour in Single Colour mode (sRGB)"
+msgstr "单色模式下的线条颜色（sRGB）"
+
+#: budget.py:628
+msgid "Machine/Blender the factor was measured on; a mismatch re-measures"
+msgstr "测量该系数所用的机器/Blender；不匹配时将重新测量"
+
+#: budget.py:622
+msgid "Measured cost per point relative to the reference machine (1.0 = same)"
+msgstr "相对于参考机器测得的每点开销（1.0 = 相同）"
+
+#: props.py:248
+msgid "Mirror"
+msgstr "镜像"
+
+#: props.py:248
+msgid "Mirror the previous level for this segment (M)"
+msgstr "对此段镜像上一层（M）"
+
+#: ui.py:327
+msgid "No curve selected: currently a straight line"
+msgstr "未选择曲线：当前为直线"
+
+#: ui.py:475
+msgid "Not enough memory"
+msgstr "内存不足"
+
+#: ui.py:419
+msgid "Not enough memory for this level"
+msgstr "此层级内存不足"
+
+#: props.py:409
+msgid "Octagon"
+msgstr "八边形"
+
+#: props.py:340
+#: ui.py:519
+msgid "Output Range"
+msgstr "输出范围"
+
+#: ui.py:580
+msgid "Over budget"
+msgstr "超出预算"
+
+#: props.py:453
+msgid "Pending"
+msgstr "等待中"
+
+#: props.py:407
+msgid "Pentagon"
+msgstr "五边形"
+
+#: props.py:277
+msgid "Pick a classic gene (applied immediately, then still editable)"
+msgstr "选择一个经典基因（立即应用，之后仍可编辑）"
+
+#: props.py:455
+msgid "Points"
+msgstr "点"
+
+#: ui.py:397
+msgid "Points done · preparing the viewport"
+msgstr "点已完成 · 正在准备视图"
+
+#: props.py:390
+msgid "Poly"
+msgstr "多边形"
+
+#: props.py:277
+#: ui.py:265
+msgid "Preset"
+msgstr "预设"
+
+#: ui.py:258
+msgid "Preview"
+msgstr "预览"
+
+#: props.py:315
+msgid "Preview Colour"
+msgstr "预览颜色"
+
+#: ui.py:643
+msgid "Preview draw failed: {error}"
+msgstr "预览绘制失败：{error}"
+
+#: ui.py:305
+msgid "Preview stops at level {limit}"
+msgstr "预览止于层级 {limit}"
+
+#: props.py:348
+msgid "Put every level of the range into one object, one spline per level. Off: one object per level"
+msgstr "将范围内的每个层级放入一个物体，每层一个样条。关闭：每层一个物体"
+
+#: props.py:356
+msgid "Range From"
+msgstr "范围起点"
+
+#: props.py:367
+msgid "Range To"
+msgstr "范围终点"
+
+#: props.py:434
+msgid "Read the initiator points in reverse order (grows inwards instead of outwards)"
+msgstr "按相反顺序读取初始点（向内生长而非向外）"
+
+#: props.py:496
+msgid "Requested Level"
+msgstr "请求层级"
+
+#: props.py:241
+#: props.py:434
+msgid "Reverse"
+msgstr "反转"
+
+#: ui.py:320
+msgid "Reverse Initiator Direction"
+msgstr "反转初始方向"
+
+#: props.py:232
+msgid "Second component of the complex integer"
+msgstr "复整数的第二个分量"
+
+#: ui.py:491
+msgid "Settings locked · Cancel to edit"
+msgstr "设置已锁定 · 取消以编辑"
+
+#: ui.py:595
+msgid "Shape Key Time"
+msgstr "形态键时间"
+
+#: ui.py:542
+msgid "Shape keys ≤ level {limit}"
+msgstr "形态键 ≤ 层级 {limit}"
+
+#: props.py:308
+msgid "Single Colour"
+msgstr "单一颜色"
+
+#: budget.py:655
+msgid "Speed calibration runs on the first Generate"
+msgstr "速度校准在首次生成时运行"
+
+#: props.py:380
+#: ui.py:510
+msgid "Spline"
+msgstr "样条"
+
+#: props.py:380
+msgid "Spline type of the generated curves: polyline (straight segments) or smooth (Bézier with automatic handles)"
+msgstr "生成曲线的样条类型：折线（直线段）或平滑（带自动手柄的贝塞尔）"
+
+#: props.py:406
+msgid "Square"
+msgstr "方形"
+
+#: props.py:266
+msgid "Square lattice: a + bi"
+msgstr "方形晶格：a + bi"
+
+#: props.py:390
+msgid "Straight segments between the points"
+msgstr "点之间为直线段"
+
+#: ui.py:427
+msgid "This level cannot be generated"
+msgstr "无法生成此层级"
+
+#: props.py:461
+msgid "Time"
+msgstr "时间"
+
+#: props.py:405
+msgid "Triangle"
+msgstr "三角形"
+
+#: props.py:267
+msgid "Triangular lattice: a + b*omega"
+msgstr "三角形晶格：a + b*omega"
+
+#: ops.py:756
+msgid "Up"
+msgstr "上"
+
+#: ui.py:625
+msgid "Up to date"
+msgstr "已是最新"
+
+#: props.py:415
+msgid "Use the curve object below as the initiator polyline (the shape choice above is kept and comes back when unchecked)"
+msgstr "将下方曲线物体用作初始折线（上方的形状选择会保留，取消勾选后恢复）"
+
+#: props.py:308
+msgid "Use the preview colour for every level"
+msgstr "所有层级都使用预览颜色"
+
+#: props.py:241
+msgid "Use the previous level backwards for this segment (R)"
+msgstr "此段反向使用上一层级（R）"
+
+#: props.py:292
+msgid "Viewport Preview"
+msgstr "视图预览"
+
+#: ui.py:164
+msgid "What Is a Gene?"
+msgstr "什么是基因？"
+
+#: ui.py:174
+msgid "What Is the Initiator?"
+msgstr "什么是初始器？"
+
+#: ui.py:587
+msgid "Would write level {limit}, not {level}"
+msgstr "将写入层级 {limit}，而非 {level}"
+
+#: props.py:340
+msgid "Write several levels instead of only the current one. Each level becomes its own object unless Join Levels is enabled"
+msgstr "写入多个层级而非仅当前层级。除非启用「合并层级」，否则每个层级都会成为独立物体"
+
+#: ui.py:422
+msgid "Wrote level {actual} over the budget"
+msgstr "已超出预算写入层级 {actual}"
+
+#: ui.py:431
+msgid "Wrote level {actual}, not {requested}"
+msgstr "已写入层级 {actual}，而非 {requested}"
+
+#: ui.py:398
+msgid "{count:,} points"
+msgstr "{count:,} 个点"
+
+#: ui.py:314
+msgid "{sides}-gon"
+msgstr "{sides} 边形"
+
+#: ui.py:656
+msgid "{size} free · up to {limit:,} points"
+msgstr "空闲 {size} · 最多 {limit:,} 个点"
+
+#: ops.py:719
+msgctxt "Operator"
+msgid "Add Segment"
+msgstr "添加段"
+
+#: ops.py:720
+msgctxt "Operator"
+msgid "Add a segment at the end, starting in the direction of the last one"
+msgstr "在末尾添加一段，起始方向沿用最后一段"
+
+#: ops.py:139
+msgctxt "Operator"
+msgid "Build the curve for the current gene. A level too heavy for this machine is written at the highest level that fits, and the panel says which one was used"
+msgstr "为当前基因构建曲线。超出本机负荷的层级会以可承受的最高层级写入，面板会显示实际使用的层级"
+
+#: ops.py:625
+#: ui.py:494
+msgctxt "Operator"
+msgid "Cancel"
+msgstr "取消"
+
+#: ops.py:626
+msgctxt "Operator"
+msgid "Cancel this build without generating anything"
+msgstr "取消此次构建，不生成任何内容"
+
+#: ops.py:585
+msgctxt "Operator"
+msgid "Check the requested level before writing anything. A level over this machine's budget asks whether to write the level that fits or to insist on the requested one"
+msgstr "写入前先检查请求的层级。超出本机预算时会询问是写入可承受的层级还是坚持请求的层级"
+
+#: ops.py:565
+msgctxt "Operator"
+msgid "Dismiss"
+msgstr "忽略"
+
+#: ops.py:665
+msgctxt "Operator"
+msgid "Frame the selected curve with an orthographic top-view camera, a 2048×2048 render and the Standard view transform"
+msgstr "用正交顶视图摄像机、2048×2048 渲染和 Standard 视图变换框取所选曲线"
+
+#: ui.py:559
+msgctxt "Operator"
+msgid "Generate Curve"
+msgstr "生成曲线"
+
+#: ops.py:138
+#: ops.py:584
+msgctxt "Operator"
+msgid "Generate Fractal Curves"
+msgstr "生成分形曲线"
+
+#: ui.py:564
+msgctxt "Operator"
+msgid "Generate Shape Keys"
+msgstr "生成形态键"
+
+#: ui.py:453
+msgctxt "Operator"
+msgid "Generate level {level}"
+msgstr "生成层级 {level}"
+
+#: ui.py:252
+msgctxt "Operator"
+msgid "HUD"
+msgstr "HUD"
+
+#: ops.py:845
+msgctxt "Operator"
+msgid "HUD Gene Editor"
+msgstr "HUD 基因编辑器"
+
+#: ops.py:566
+msgctxt "Operator"
+msgid "Hide this notice"
+msgstr "隐藏此提示"
+
+#: ui.py:438
+msgctxt "Operator"
+msgid "Keep"
+msgstr "保留"
+
+#: ui.py:461
+msgctxt "Operator"
+msgid "Level {level} anyway"
+msgstr "仍使用层级 {level}"
+
+#: ops.py:753
+msgctxt "Operator"
+msgid "Move Segment"
+msgstr "移动段"
+
+#: ops.py:754
+msgctxt "Operator"
+msgid "Move the selected segment one place up or down"
+msgstr "将所选段上移或下移一位"
+
+#: ops.py:846
+msgctxt "Operator"
+msgid "Open the in-viewport gene editor: drag nodes, click R/M to toggle flags, wheel to change the level. Esc or × closes it, and the rest of the viewport keeps working as usual"
+msgstr "打开视图内基因编辑器：拖动节点，点击 R/M 切换标记，滚轮改变层级。Esc 或 × 关闭，视图其余部分照常工作"
+
+#: ops.py:735
+msgctxt "Operator"
+msgid "Remove Segment"
+msgstr "移除段"
+
+#: ops.py:736
+msgctxt "Operator"
+msgid "Remove the selected segment. A gene needs at least two"
+msgstr "移除所选段。基因至少需要两段"
+
+#: ops.py:664
+#: ui.py:647
+msgctxt "Operator"
+msgid "Scene Setup"
+msgstr "场景设置"
+
+#: ops.py:788
+msgctxt "Operator"
+msgid "Switch Lattice Domain"
+msgstr "切换晶格域"
+
+#: ops.py:789
+msgctxt "Operator"
+msgid "Switch between the Gaussian (square) and Eisenstein (triangular) lattice: the same two integers point in different directions"
+msgstr "在高斯（方形）与艾森斯坦（三角形）晶格之间切换：同样的两个整数指向不同方向"

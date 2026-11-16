@@ -1,0 +1,258 @@
+# perfect-chinese: 1
+# id: datablock_utils
+# kind: addon
+# module: bl_ext.blender_org.datablock_utils
+# name: Data-Block Utilities
+# name_zh: 数据块工具
+# translator: KeshiMiao
+# category: Scene
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: properties.py:116
+msgid "Collections above this similarity threshold, when displayed in the results, are grouped together if they share items. One to disable"
+msgstr "相似度高于此阈值的集合在结果中若共享条目，则归为一组。设为 1 即禁用"
+
+#: ui.py:110
+msgid "Data-Block Users"
+msgstr "数据块用户"
+
+#: operators/go_to_datablock.py:92
+msgid "Data-block not found"
+msgstr "未找到数据块"
+
+#: properties.py:98
+#: properties.py:215
+msgid "Data-block type"
+msgstr "数据块类型"
+
+#: properties.py:134
+msgid "Exclude frame and reroute nodes"
+msgstr "排除帧和转接点节点"
+
+#: properties.py:127
+msgid "Exclude nodes that are muted or not used by any group outputs"
+msgstr "排除已静音或未被任何组输出使用的节点"
+
+#: ui.py:303
+msgid "Filter Users"
+msgstr "过滤用户"
+
+#: ui.py:279
+msgid "Filter users by type"
+msgstr "按类型过滤用户"
+
+#: properties.py:134
+msgid "Frames and Reroutes"
+msgstr "帧和转接点"
+
+#: properties.py:116
+msgid "Grouping Threshold"
+msgstr "分组阈值"
+
+#: properties.py:211
+#: ui.py:202
+msgid "Hide"
+msgstr "隐藏"
+
+#: properties.py:211
+msgid "Hide the list"
+msgstr "隐藏列表"
+
+#: properties.py:197
+msgid "Lights"
+msgstr "灯光"
+
+#: properties.py:162
+msgid "Materials"
+msgstr "材质"
+
+#: properties.py:190
+msgid "Meshes"
+msgstr "网格"
+
+#: ui.py:272
+msgid "No Users Matching Filter"
+msgstr "没有符合过滤条件的用户"
+
+#: operators/go_to_datablock.py:120
+msgid "No object users"
+msgstr "没有物体用户"
+
+#: operators/go_to_datablock.py:206
+msgid "No unpinned node editor"
+msgstr "没有未固定的节点编辑器"
+
+#: properties.py:169
+msgid "Node Groups"
+msgstr "节点组"
+
+#: operators/go_to_datablock.py:195
+msgid "Node editor not open"
+msgstr "节点编辑器未打开"
+
+#: properties.py:183
+msgid "Object Contents"
+msgstr "物体内容"
+
+#: properties.py:141
+msgid "Object users will be selected when clicking on a data-block (in addition to revealing it in the shader editor)"
+msgstr "点击数据块时选中其物体用户（同时在着色器编辑器中显示）"
+
+#: properties.py:176
+msgid "Objects"
+msgstr "物体"
+
+#: properties.py:204
+msgid "Others"
+msgstr "其他"
+
+#: properties.py:155
+msgid "Scenes"
+msgstr "场景"
+
+#: properties.py:222
+msgid "Search"
+msgstr "搜索"
+
+#: properties.py:222
+msgid "Search for data-blocks and add them to the list"
+msgstr "搜索数据块并将其添加到列表"
+
+#: properties.py:141
+#: properties.py:227
+msgid "Select Object Users"
+msgstr "选择物体用户"
+
+#: properties.py:204
+msgid "Show curves, metaballs, textures, ..."
+msgstr "显示曲线、融球、纹理等"
+
+#: properties.py:197
+msgid "Show light objects"
+msgstr "显示灯光物体"
+
+#: properties.py:162
+msgid "Show materials"
+msgstr "显示材质"
+
+#: properties.py:190
+msgid "Show mesh objects"
+msgstr "显示网格物体"
+
+#: properties.py:169
+msgid "Show node groups"
+msgstr "显示节点组"
+
+#: properties.py:176
+msgid "Show objects"
+msgstr "显示物体"
+
+#: properties.py:155
+msgid "Show scenes"
+msgstr "显示场景"
+
+#: properties.py:183
+msgid "Show the contents of object elements"
+msgstr "显示物体元素的内容"
+
+#: ui.py:21
+msgid "Similar & Duplicates"
+msgstr "相似与重复项"
+
+#: properties.py:106
+msgid "Similarity Threshold"
+msgstr "相似度阈值"
+
+#: properties.py:106
+msgid "Threshold at which two items are considered similar"
+msgstr "判定两项相似的阈值"
+
+#: properties.py:98
+#: properties.py:215
+msgid "Type"
+msgstr "类型"
+
+#: properties.py:127
+msgid "Unused Nodes"
+msgstr "未使用节点"
+
+#: properties.py:227
+msgid "When clicking on a data-block, select its object users (in addition to revealing it in the node editor)"
+msgstr "点击数据块时选中其物体用户（同时在节点编辑器中显示）"
+
+#: operators/user_map.py:141
+msgctxt "Operator"
+msgid "Add All"
+msgstr "全部添加"
+
+#: operators/user_map.py:142
+msgctxt "Operator"
+msgid "Add all data-blocks of this type"
+msgstr "添加此类型的所有数据块"
+
+#: ui.py:240
+msgctxt "Operator"
+msgid "All"
+msgstr "全部"
+
+#: ui.py:203
+#: operators/find_similar.py:505
+msgctxt "Operator"
+msgid "Clear"
+msgstr "清除"
+
+#: operators/user_map.py:186
+msgctxt "Operator"
+msgid "Clear the list"
+msgstr "清除列表"
+
+#: operators/find_similar.py:506
+#: operators/user_map.py:127
+msgctxt "Operator"
+msgid "Clear the results"
+msgstr "清除结果"
+
+#: operators/go_to_datablock.py:74
+msgctxt "Operator"
+msgid "Go To Data-Block"
+msgstr "转到数据块"
+
+#: operators/user_map.py:22
+msgctxt "Operator"
+msgid "List the users of the specified data-blocks"
+msgstr "列出指定数据块的用户"
+
+#: operators/find_similar.py:533
+msgctxt "Operator"
+msgid "Merge Duplicates"
+msgstr "合并重复项"
+
+#: operators/go_to_datablock.py:274
+msgctxt "Operator"
+msgid "Rehide object users that were previously hidden"
+msgstr "重新隐藏先前隐藏的物体用户"
+
+#: operators/user_map.py:167
+msgctxt "Operator"
+msgid "Remove"
+msgstr "移除"
+
+#: operators/user_map.py:168
+msgctxt "Operator"
+msgid "Remove item"
+msgstr "移除条目"
+
+#: operators/go_to_datablock.py:75
+msgctxt "Operator"
+msgid "See where this data-block is used"
+msgstr "查看此数据块的使用位置"
+
+#: operators/user_map.py:21
+msgctxt "Operator"
+msgid "Show Data-Block Users"
+msgstr "显示数据块用户"
