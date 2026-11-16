@@ -1,0 +1,425 @@
+# perfect-chinese: 1
+# id: anim_reviewer
+# kind: addon
+# module: bl_ext.blender_org.anim_reviewer
+# name: Anim Reviewer
+# name_zh: 动画审阅
+# translator: KeshiMiao
+# category: 3D View
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: properties.py:159
+msgid ".avi"
+msgstr ".avi"
+
+#: properties.py:160
+msgid ".mkv"
+msgstr ".mkv"
+
+#: properties.py:158
+msgid ".mov"
+msgstr ".mov"
+
+#: properties.py:157
+msgid ".mp4"
+msgstr ".mp4"
+
+#: properties.py:21
+msgid "AV1"
+msgstr "AV1"
+
+#: properties.py:21
+msgid "AV1 codec"
+msgstr "AV1 编解码器"
+
+#: properties.py:159
+msgid "AVI format"
+msgstr "AVI 格式"
+
+#: panels.py:24
+msgid "Anim Reviewer"
+msgstr "Anim Reviewer"
+
+#: panels.py:8
+msgid "Anim Reviewer Presets"
+msgstr "Anim Reviewer 预设"
+
+#: properties.py:134
+msgid "Base name for playblast file"
+msgstr "播放预览文件的基础名称"
+
+#: properties.py:258
+msgid "Bottom Center"
+msgstr "底部居中"
+
+#: properties.py:252
+msgid "Bottom Left"
+msgstr "左下"
+
+#: properties.py:264
+msgid "Bottom Right"
+msgstr "右下"
+
+#: panels.py:123
+msgid "Burn-In Data"
+msgstr "烧录数据"
+
+#: panels.py:172
+msgid "Burn-In Data Help"
+msgstr "烧录数据帮助"
+
+#: properties.py:224
+msgid "Color"
+msgstr "颜色"
+
+#: properties.py:224
+msgid "Color of the burn-in text"
+msgstr "烧录文字的颜色"
+
+#: properties.py:122
+msgid "Directory"
+msgstr "目录"
+
+#: properties.py:122
+msgid "Directory to save the playblast file. \nDefaults to the current blend file's directory (`//`). \nIf the blend file is not saved, a temporary directory will be used instead."
+msgstr "保存播放预览文件的目录。\n默认为当前 blend 文件所在目录（`//`）。\n如果 blend 文件未保存，将改用临时目录。"
+
+#: properties.py:190
+msgid "Enable Burn-In Data"
+msgstr "启用烧录数据"
+
+#: properties.py:190
+msgid "Enable burn-in text overlay on the playblast."
+msgstr "在播放预览上启用烧录文字叠加。"
+
+#: panels.py:74
+msgid "End"
+msgstr "结束"
+
+#: properties.py:53
+msgid "End Frame"
+msgstr "结束帧"
+
+#: properties.py:53
+msgid "End frame for the playblast"
+msgstr "播放预览的结束帧"
+
+#: properties.py:153
+msgid "Extension"
+msgstr "扩展名"
+
+#: operators.py:189
+msgid "FFmpeg is not installed or not found in PATH."
+msgstr "FFmpeg 未安装或未在 PATH 中找到。"
+
+#: operators.py:508
+msgid "FFmpeg processing failed, please open console for details."
+msgstr "FFmpeg 处理失败，请打开控制台查看详情。"
+
+#: operators.py:423
+msgid "Failed to render audio (sound.mixdown timed out)."
+msgstr "渲染音频失败（sound.mixdown 超时）。"
+
+#: operators.py:415
+msgid "Failed to render audio."
+msgstr "渲染音频失败。"
+
+#: panels.py:88
+msgid "File"
+msgstr "文件"
+
+#: properties.py:134
+msgid "File Name"
+msgstr "文件名"
+
+#: properties.py:153
+msgid "File extension for playblast"
+msgstr "播放预览的文件扩展名"
+
+#: properties.py:205
+msgid "Font Family"
+msgstr "字体族"
+
+#: properties.py:212
+msgid "Font Size"
+msgstr "字体大小"
+
+#: properties.py:205
+msgid "Font family for the burn-in text"
+msgstr "烧录文字的字体族"
+
+#: properties.py:174
+msgid "Full Path"
+msgstr "完整路径"
+
+#: properties.py:18
+msgid "H.264"
+msgstr "H.264"
+
+#: properties.py:18
+msgid "H.264 codec"
+msgstr "H.264 编解码器"
+
+#: properties.py:19
+msgid "H.265"
+msgstr "H.265"
+
+#: properties.py:19
+msgid "H.265/HEVC codec"
+msgstr "H.265/HEVC 编解码器"
+
+#: properties.py:8
+msgid "Include Audio"
+msgstr "包含音频"
+
+#: properties.py:8
+msgid "Include audio in the playblast video"
+msgstr "在播放预览视频中包含音频"
+
+#: operators.py:157
+msgid "Launch Player"
+msgstr "启动播放器"
+
+#: properties.py:160
+msgid "MKV format"
+msgstr "MKV 格式"
+
+#: properties.py:158
+msgid "MOV format"
+msgstr "MOV 格式"
+
+#: properties.py:157
+msgid "MP4 format"
+msgstr "MP4 格式"
+
+#: properties.py:20
+msgid "MPEG-4"
+msgstr "MPEG-4"
+
+#: properties.py:20
+msgid "MPEG-4 codec"
+msgstr "MPEG-4 编解码器"
+
+#: properties.py:218
+msgid "Margin"
+msgstr "边距"
+
+#: panels.py:51
+msgid "Override"
+msgstr "覆盖"
+
+#: properties.py:197
+msgid "Preview in Viewport"
+msgstr "在视图中预览"
+
+#: properties.py:197
+msgid "Preview the burn-in text in the 3D viewport\nYou need to be in Camera view to see it"
+msgstr "在 3D 视图中预览烧录文字\n需要处于相机视图才能看到"
+
+#: properties.py:165
+msgid "Read-only properties.\nGet version string from the version number.If version is 1, return v001.Else return empty string."
+msgstr "只读属性。\n根据版本号获取版本字符串。如果版本为 1，返回 v001。否则返回空字符串。"
+
+#: properties.py:174
+msgid "Read-only properties.\nJoin all parts to get the full path of the playblast file."
+msgstr "只读属性。\n拼接所有部分以获得播放预览文件的完整路径。"
+
+#: properties.py:28
+msgid "Resolution Scale"
+msgstr "分辨率缩放"
+
+#: properties.py:28
+msgid "Scale factor for the playblast resolution"
+msgstr "播放预览分辨率的缩放系数"
+
+#: panels.py:202
+msgid "Settings"
+msgstr "设置"
+
+#: properties.py:60
+msgid "Show Overlays"
+msgstr "显示叠加层"
+
+#: properties.py:60
+msgid "Show overlays like gizmos and outlines in the playblast"
+msgstr "在播放预览中显示叠加层，如控件和轮廓线"
+
+#: properties.py:212
+msgid "Size of the burn-in text font"
+msgstr "烧录文字的字体大小"
+
+#: panels.py:73
+msgid "Start"
+msgstr "开始"
+
+#: properties.py:46
+msgid "Start Frame"
+msgstr "起始帧"
+
+#: properties.py:46
+msgid "Start frame for the playblast"
+msgstr "播放预览的起始帧"
+
+#: properties.py:218
+msgid "Text margin from the edges of the viewport"
+msgstr "文字距视图边缘的边距"
+
+#: properties.py:258
+msgid "Text to display in the bottom center"
+msgstr "显示在底部居中的文字"
+
+#: properties.py:252
+msgid "Text to display in the bottom left corner"
+msgstr "显示在左下角的文字"
+
+#: properties.py:264
+msgid "Text to display in the bottom right corner"
+msgstr "显示在右下角的文字"
+
+#: properties.py:240
+msgid "Text to display in the top center"
+msgstr "显示在顶部居中的文字"
+
+#: properties.py:234
+msgid "Text to display in the top left corner"
+msgstr "显示在左上角的文字"
+
+#: properties.py:246
+msgid "Text to display in the top right corner"
+msgstr "显示在右上角的文字"
+
+#: panels.py:185
+msgid "The following variables are currently available:"
+msgstr "当前可用以下变量："
+
+#: panels.py:195
+msgid "Tip: right-click any property, choose \"Copy Full Data Path\", then paste inside curly braces."
+msgstr "提示：右键单击任意属性，选择「复制完整数据路径」，然后粘贴到大括号内。"
+
+#: panels.py:27
+#: panels.py:54
+msgid "Tool"
+msgstr "工具"
+
+#: properties.py:240
+msgid "Top Center"
+msgstr "顶部居中"
+
+#: properties.py:234
+msgid "Top Left"
+msgstr "左上"
+
+#: properties.py:246
+msgid "Top Right"
+msgstr "右上"
+
+#: properties.py:37
+msgid "Use Frame Range"
+msgstr "使用帧范围"
+
+#: properties.py:140
+msgid "Use Version"
+msgstr "使用版本"
+
+#: properties.py:66
+msgid "Use Viewport Shading"
+msgstr "使用视图着色"
+
+#: panels.py:182
+msgid "Use curly braces {} to denote variables in text, for example {datetime} for the current time."
+msgstr "使用大括号 {} 表示文本中的变量，例如 {datetime} 表示当前时间。"
+
+#: properties.py:37
+msgid "Use specific frame range for the playblast instead of the entire scene frame range\nIf disabled, the playblast will use the scene's start and end frames"
+msgstr "为播放预览使用指定的帧范围，而非整个场景的帧范围\n若禁用，播放预览将使用场景的起始帧和结束帧"
+
+#: properties.py:66
+msgid "Use specific viewport shading mode for the playblast\nIf disabled, the playblast will use the scene's viewport shading mode"
+msgstr "为播放预览使用指定的视图着色模式\n若禁用，播放预览将使用场景的视图着色模式"
+
+#: properties.py:146
+msgid "Version"
+msgstr "版本"
+
+#: properties.py:165
+msgid "Version String"
+msgstr "版本字符串"
+
+#: properties.py:146
+msgid "Version number for the playblast file"
+msgstr "播放预览文件的版本号"
+
+#: properties.py:14
+msgid "Video Codec"
+msgstr "视频编解码器"
+
+#: properties.py:14
+msgid "Video codec for playblast"
+msgstr "播放预览的视频编解码器"
+
+#: properties.py:75
+msgid "Viewport Shading"
+msgstr "视图着色"
+
+#: properties.py:75
+msgid "Viewport shading mode for the playblast"
+msgstr "播放预览的视图着色模式"
+
+#: operators.py:157
+msgid "Whether to open the video player after playblast. For batch scripts set to False to prevent popping up the player."
+msgstr "播放预览后是否打开视频播放器。在批处理脚本中设为 False 可防止弹出播放器。"
+
+#: panels.py:192
+msgid "You can also use the text like \"{bpy.data.objects[\"Cube\"].location[0]}\" to access any Blender RNA data."
+msgstr "你也可以使用诸如 \"{bpy.data.objects[\"Cube\"].location[0]}\" 的文本访问任意 Blender RNA 数据。"
+
+#: operators.py:575
+msgctxt "Operator"
+msgid "Add Anim Reviewer Preset"
+msgstr "添加 Anim Reviewer 预设"
+
+#: operators.py:152
+msgctxt "Operator"
+msgid "Create a playblast video of the current scene.\nPlease ensure you have an active camera and ffmpeg is installed in your system."
+msgstr "为当前场景创建播放预览视频。\n请确保已有活动相机，且系统中已安装 ffmpeg。"
+
+#: panels.py:216
+msgctxt "Operator"
+msgid "Export"
+msgstr "导出"
+
+#: operators.py:544
+msgctxt "Operator"
+msgid "Export Settings"
+msgstr "导出设置"
+
+#: operators.py:545
+msgctxt "Operator"
+msgid "Export current Anim Reviewer settings to a file"
+msgstr "将当前 Anim Reviewer 设置导出到文件"
+
+#: panels.py:215
+msgctxt "Operator"
+msgid "Import"
+msgstr "导入"
+
+#: operators.py:518
+msgctxt "Operator"
+msgid "Import Anim Reviewer settings from a file"
+msgstr "从文件导入 Anim Reviewer 设置"
+
+#: operators.py:517
+msgctxt "Operator"
+msgid "Import Settings"
+msgstr "导入设置"
+
+#: operators.py:151
+#: panels.py:39
+msgctxt "Operator"
+msgid "Run Anim Review"
+msgstr "运行动画审阅"

@@ -1,0 +1,505 @@
+# perfect-chinese: 1
+# id: toothpaste
+# kind: addon
+# module: bl_ext.blender_org.toothpaste
+# name: ToothPaste (Paste SVGs)
+# name_zh: SVG粘贴
+# translator: KeshiMiao
+# category: Grease Pencil
+# supported_versions: >=5.0.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: gp_tools.py:108
+msgid "Action"
+msgstr "动作"
+
+#: font_resolver.py:54
+msgid "Apple Chancery"
+msgstr "Apple Chancery"
+
+#: ui_panels.py:122
+msgid "Available in Edit Mode"
+msgstr "在编辑模式下可用"
+
+#: properties.py:60
+msgid "Axis used to offset the curve stack"
+msgstr "用于偏移曲线堆叠的轴"
+
+#: gp_tools.py:223
+msgid "Both"
+msgstr "两者"
+
+#: font_resolver.py:54
+msgid "Comic Sans MS"
+msgstr "Comic Sans MS"
+
+#: properties.py:121
+msgid "Convert text to shapes (Grease Pencil strokes or curves, matching the output type) so it looks the same on any machine"
+msgstr "将文本转换为形状（蜡笔笔触或曲线，与输出类型一致），以便在任何机器上显示效果一致"
+
+#: font_resolver.py:54
+msgid "Courier New"
+msgstr "Courier New"
+
+#: properties.py:44
+#: ui_panels.py:70
+msgid "Create GP Groups"
+msgstr "创建 GP 组"
+
+#: properties.py:44
+msgid "Create Grease Pencil layer groups from SVG groups when supported by Blender"
+msgstr "在 Blender 支持时，根据 SVG 组创建蜡笔图层组"
+
+#: properties.py:92
+msgid "Create images as reference empties or mesh planes"
+msgstr "将图像创建为参考空物体或网格平面"
+
+#: properties.py:109
+msgid "Cursor"
+msgstr "游标"
+
+#: properties.py:138
+#: properties.py:151
+msgid "Curves"
+msgstr "曲线"
+
+#: properties.py:73
+#: ui_panels.py:64
+msgid "Depth"
+msgstr "深度"
+
+#: gp_tools.py:112
+msgid "Deselect"
+msgstr "取消选择"
+
+#: gp_tools.py:112
+msgid "Deselect all strokes on the active layer"
+msgstr "取消选择当前图层上的所有笔触"
+
+#: properties.py:73
+msgid "Distance between imported curve objects in the stack"
+msgstr "堆叠中导入的曲线物体之间的距离"
+
+#: properties.py:120
+#: ui_panels.py:77
+msgid "Editable Text"
+msgstr "可编辑文本"
+
+#: ops_paste.py:128
+msgid "Failed to create image object."
+msgstr "无法创建图像物体。"
+
+#: ops_gp.py:29
+msgid "Failed to split layers."
+msgstr "无法拆分图层。"
+
+#: ops_import.py:60
+msgid "File Path"
+msgstr "文件路径"
+
+#: gp_tools.py:222
+msgid "Fill"
+msgstr "填充"
+
+#: properties.py:137
+#: properties.py:150
+msgid "Grease Pencil"
+msgstr "蜡笔"
+
+#: ui_panels.py:105
+msgid "Grease Pencil Edit"
+msgstr "蜡笔编辑"
+
+#: font_resolver.py:54
+msgid "Helvetica"
+msgstr "Helvetica"
+
+#: font_resolver.py:54
+msgid "Helvetica Neue"
+msgstr "Helvetica Neue"
+
+#: properties.py:116
+msgid "How SVG text is brought in"
+msgstr "SVG 文本的导入方式"
+
+#: properties.py:139
+msgid "Image"
+msgstr "图像"
+
+#: properties.py:92
+msgid "Image Paste Mode"
+msgstr "图像粘贴模式"
+
+#: ui_panels.py:45
+msgid "Image as:"
+msgstr "图像作为："
+
+#: font_resolver.py:54
+msgid "Impact"
+msgstr "Impact"
+
+#: properties.py:146
+msgid "Import As"
+msgstr "导入为"
+
+#: ui_panels.py:35
+msgid "Import as:"
+msgstr "导入为："
+
+#: properties.py:151
+msgid "Import the SVG as Curve objects"
+msgstr "将 SVG 导入为曲线物体"
+
+#: properties.py:150
+msgid "Import the SVG as a Grease Pencil object"
+msgstr "将 SVG 导入为蜡笔物体"
+
+#: __init__.py:20
+msgid "Import-Export"
+msgstr "导入-导出"
+
+#: properties.py:84
+#: ui_panels.py:65
+msgid "Keep Same SVG Group Level"
+msgstr "保持相同 SVG 组层级"
+
+#: properties.py:120
+msgid "Keep text editable as Blender text objects, using the installed font the SVG names"
+msgstr "保持文本为可编辑的 Blender 文本物体，使用 SVG 指定的已安装字体"
+
+#: properties.py:205
+msgid "Line thickness applied to the selected points while in Grease Pencil edit mode"
+msgstr "在蜡笔编辑模式下应用于所选点的线条粗细"
+
+#: font_resolver.py:54
+msgid "Menlo"
+msgstr "Menlo"
+
+#: properties.py:96
+msgid "Mesh Plane"
+msgstr "网格平面"
+
+#: ops_import.py:118
+msgid "No SVG file selected."
+msgstr "未选择 SVG 文件。"
+
+#: gp_tools.py:126
+msgid "No active Grease Pencil layer."
+msgstr "没有活动的蜡笔图层。"
+
+#: ops_paste.py:110
+msgid "No image was created from clipboard."
+msgstr "未从剪贴板创建图像。"
+
+#: properties.py:146
+msgid "Object type created from the SVG"
+msgstr "由 SVG 创建的物体类型"
+
+#: properties.py:84
+msgid "Objects from the same SVG group share one stack level"
+msgstr "同一 SVG 组中的物体共享一个堆叠层级"
+
+#: properties.py:52
+msgid "Offset imported curve objects into a viewport stack"
+msgstr "将导入的曲线物体偏移为视图堆叠"
+
+#: properties.py:121
+msgid "Outlines"
+msgstr "轮廓"
+
+#: font_resolver.py:54
+msgid "Papyrus"
+msgstr "Papyrus"
+
+#: properties.py:133
+msgid "Paste As"
+msgstr "粘贴为"
+
+#: properties.py:104
+msgid "Paste Location"
+msgstr "粘贴位置"
+
+#: properties.py:139
+msgid "Paste a bitmap image from the clipboard"
+msgstr "从剪贴板粘贴位图图像"
+
+#: ui_panels.py:35
+msgid "Paste as:"
+msgstr "粘贴为："
+
+#: ui_panels.py:48
+#: ui_panels.py:85
+msgid "Paste at:"
+msgstr "粘贴到："
+
+#: properties.py:97
+msgid "Paste images as reference empties"
+msgstr "将图像粘贴为参考空物体"
+
+#: properties.py:96
+msgid "Paste images as textured mesh planes"
+msgstr "将图像粘贴为带纹理的网格平面"
+
+#: __init__.py:20
+msgid "Paste or import SVG as Grease Pencil or Curves, with layer split, masks, editable text in the right font, and image support."
+msgstr "将 SVG 粘贴或导入为蜡笔或曲线，支持图层拆分、遮罩、使用正确字体的可编辑文本以及图像。"
+
+#: properties.py:138
+msgid "Paste the SVG as Curve objects"
+msgstr "将 SVG 粘贴为曲线物体"
+
+#: properties.py:137
+msgid "Paste the SVG as a Grease Pencil object"
+msgstr "将 SVG 粘贴为蜡笔物体"
+
+#: ui_panels.py:85
+msgid "Place at:"
+msgstr "放置到："
+
+#: properties.py:109
+msgid "Place pasted objects centered at 3D cursor"
+msgstr "将粘贴的物体以 3D 游标为中心放置"
+
+#: properties.py:108
+msgid "Place pasted objects centered at world origin"
+msgstr "将粘贴的物体以世界原点为中心放置"
+
+#: properties.py:104
+msgid "Placement target for pasted objects"
+msgstr "粘贴物体的放置目标"
+
+#: properties.py:97
+msgid "Reference"
+msgstr "参考"
+
+#: ops_import.py:157
+msgid "SVG (ToothPaste)"
+msgstr "SVG（ToothPaste）"
+
+#: ui_panels.py:81
+msgid "SVG images as:"
+msgstr "SVG 图像作为："
+
+#: font_resolver.py:54
+msgid "Segoe UI"
+msgstr "Segoe UI"
+
+#: gp_tools.py:111
+msgid "Select"
+msgstr "选择"
+
+#: gp_tools.py:111
+msgid "Select all strokes on the active layer"
+msgstr "选择当前图层上的所有笔触"
+
+#: ops_gp.py:24
+msgid "Selected Grease Pencil object contains fewer than 2 layers."
+msgstr "所选蜡笔物体包含的图层少于 2 个。"
+
+#: gp_tools.py:223
+msgid "Selected strokes show stroke and fill"
+msgstr "所选笔触显示笔触和填充"
+
+#: gp_tools.py:222
+msgid "Selected strokes show their fill only"
+msgstr "所选笔触仅显示填充"
+
+#: gp_tools.py:221
+msgid "Selected strokes show their stroke only"
+msgstr "所选笔触仅显示笔触"
+
+#: ui_panels.py:127
+msgid "Show"
+msgstr "显示"
+
+#: properties.py:36
+msgid "Split imported SVG geometry into separate GP layers"
+msgstr "将导入的 SVG 几何体拆分为独立的 GP 图层"
+
+#: properties.py:36
+#: ui_panels.py:68
+msgid "Split into GP Layers"
+msgstr "拆分为 GP 图层"
+
+#: properties.py:60
+msgid "Stack Axis"
+msgstr "堆叠轴"
+
+#: properties.py:52
+#: ui_panels.py:61
+msgid "Stack Curve Objects"
+msgstr "堆叠曲线物体"
+
+#: properties.py:64
+msgid "Stack imported curves on the X axis"
+msgstr "在 X 轴上堆叠导入的曲线"
+
+#: properties.py:65
+msgid "Stack imported curves on the Y axis"
+msgstr "在 Y 轴上堆叠导入的曲线"
+
+#: properties.py:66
+msgid "Stack imported curves on the Z axis"
+msgstr "在 Z 轴上堆叠导入的曲线"
+
+#: gp_tools.py:221
+msgid "Stroke"
+msgstr "笔画"
+
+#: properties.py:116
+#: ui_panels.py:75
+msgid "Text"
+msgstr "文本"
+
+#: properties.py:205
+#: ui_panels.py:132
+msgid "Thickness"
+msgstr "厚度"
+
+#: gp_tools.py:235
+msgid "This Blender build has no Set Stroke Type operator."
+msgstr "此 Blender 版本没有「设置笔画类型」操作符。"
+
+#: gp_tools.py:260
+msgid "This Blender build has no Switch Direction operator."
+msgstr "此 Blender 版本没有「切换方向」操作符。"
+
+#: font_resolver.py:54
+msgid "Times"
+msgstr "次数"
+
+#: font_resolver.py:54
+msgid "Times New Roman"
+msgstr "Times New Roman"
+
+#: ui_panels.py:92
+#: ui_panels.py:96
+msgid "ToothPaste"
+msgstr "ToothPaste"
+
+#: __init__.py:20
+msgid "ToothPaste for Blender"
+msgstr "ToothPaste for Blender"
+
+#: gp_tools.py:218
+msgid "Type"
+msgstr "类型"
+
+#: properties.py:133
+msgid "What to create from the clipboard"
+msgstr "从剪贴板创建的内容"
+
+#: properties.py:108
+msgid "World Origin"
+msgstr "世界原点"
+
+#: properties.py:64
+msgid "X"
+msgstr "X"
+
+#: properties.py:65
+msgid "Y"
+msgstr "Y"
+
+#: properties.py:66
+msgid "Z"
+msgstr "Z"
+
+#: ui_panels.py:164
+msgctxt "Operator"
+msgid "Deselect"
+msgstr "取消选择"
+
+#: ops_import.py:52
+msgctxt "Operator"
+msgid "Import SVG (ToothPaste)"
+msgstr "导入 SVG (ToothPaste)"
+
+#: ops_import.py:53
+msgctxt "Operator"
+msgid "Import an SVG file as Grease Pencil or Curves using ToothPaste"
+msgstr "使用 ToothPaste 将 SVG 文件导入为蜡笔或曲线"
+
+#: gp_tools.py:215
+msgctxt "Operator"
+msgid "Make the selected strokes show their stroke, their fill, or both (same as Stroke > Set Stroke Type)"
+msgstr "使选中笔画显示笔画、填充或两者（同 笔画 > 设置笔画类型）"
+
+#: ops_paste.py:102
+msgctxt "Operator"
+msgid "Paste Image (Clipboard)"
+msgstr "粘贴图像（剪贴板）"
+
+#: ops_paste.py:65
+msgctxt "Operator"
+msgid "Paste SVG code from clipboard as Curve objects"
+msgstr "将剪贴板中的 SVG 代码粘贴为曲线物体"
+
+#: ops_paste.py:27
+msgctxt "Operator"
+msgid "Paste SVG code from clipboard as Grease Pencil (v3)"
+msgstr "将剪贴板中的 SVG 代码粘贴为蜡笔 (v3)"
+
+#: ops_paste.py:64
+msgctxt "Operator"
+msgid "Paste as Curves"
+msgstr "粘贴为曲线"
+
+#: ops_paste.py:26
+msgctxt "Operator"
+msgid "Paste as Grease Pencil"
+msgstr "粘贴为蜡笔"
+
+#: ops_paste.py:103
+msgctxt "Operator"
+msgid "Paste image from clipboard using Blender built-in functionality"
+msgstr "使用 Blender 内置功能从剪贴板粘贴图像"
+
+#: gp_tools.py:249
+msgctxt "Operator"
+msgid "Reverse Direction"
+msgstr "反转方向"
+
+#: gp_tools.py:250
+msgctxt "Operator"
+msgid "Reverse the direction of the selected strokes (same as Stroke > Switch Direction)"
+msgstr "反转选中笔画的方向（同 笔画 > 切换方向）"
+
+#: ops_import.py:170
+msgctxt "Operator"
+msgid "SVG (ToothPaste)"
+msgstr "SVG (ToothPaste)"
+
+#: gp_tools.py:104
+msgctxt "Operator"
+msgid "Select Layer Strokes"
+msgstr "选择图层笔画"
+
+#: ui_panels.py:159
+msgctxt "Operator"
+msgid "Select Strokes"
+msgstr "选择笔画"
+
+#: gp_tools.py:105
+msgctxt "Operator"
+msgid "Select or deselect all strokes on the active Grease Pencil layer"
+msgstr "选择或取消选择活动蜡笔图层上的所有笔画"
+
+#: gp_tools.py:214
+msgctxt "Operator"
+msgid "Set Stroke Type"
+msgstr "设置笔画类型"
+
+#: ops_gp.py:14
+msgctxt "Operator"
+msgid "Split layers into objects"
+msgstr "将图层拆分为物体"
+
+#: ops_gp.py:15
+msgctxt "Operator"
+msgid "Split selected Grease Pencil layers into separate objects"
+msgstr "将选中的蜡笔图层拆分为独立物体"

@@ -1,0 +1,1335 @@
+# perfect-chinese: 1
+# id: k_tools_texture_map_loader
+# kind: addon
+# module: bl_ext.blender_org.k_tools_texture_map_loader
+# name: K-Tools: Texture Map Loader
+# name_zh: K-Tools 纹理加载
+# translator: KeshiMiao
+# category: Material
+# supported_versions: >=5.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: k_tools_texture_map_loader/properties/properties_orm.py:101
+msgid "AO Map"
+msgstr "AO 贴图"
+
+#: k_tools_texture_map_loader/preferences.py:610
+msgid "ASSET_MANAGER"
+msgstr "ASSET_MANAGER"
+
+#: k_tools_texture_map_loader/preferences.py:359
+msgid "Accurate"
+msgstr "精确"
+
+#: k_tools_texture_map_loader/preferences.py:193
+msgid "Active Keyword Index"
+msgstr "活动关键词索引"
+
+#: k_tools_texture_map_loader/operators/op_node_insertion.py:127
+msgid "Add Advanced Noise"
+msgstr "添加高级噪波"
+
+#: k_tools_texture_map_loader/operators/op_node_insertion.py:120
+msgid "Add Advanced Transparency"
+msgstr "添加高级透明"
+
+#: k_tools_texture_map_loader/operators/op_node_insertion.py:113
+msgid "Add BSDF Node"
+msgstr "添加 BSDF 节点"
+
+#: k_tools_texture_map_loader/operators/op_node_insertion.py:106
+msgid "Add Map Loader Node"
+msgstr "添加贴图加载器节点"
+
+#: k_tools_texture_map_loader/operators/op_node_insertion.py:99
+msgid "Add Mapping Node"
+msgstr "添加映射节点"
+
+#: k_tools_texture_map_loader/tool_properties.py:70
+msgid "Add POM"
+msgstr "添加 POM"
+
+#: k_tools_texture_map_loader/operators/op_node_insertion.py:134
+msgid "Add Parallax Node"
+msgstr "添加视差节点"
+
+#: k_tools_texture_map_loader/operators/op_system_integration.py:43
+msgid "Addon keyconfig not found. Shortcut might not work in this Blender version."
+msgstr "未找到插件键位配置。快捷键在当前 Blender 版本中可能无效。"
+
+#: k_tools_texture_map_loader/ui/ui_panel.py:206
+msgid "Advanced Settings"
+msgstr "高级设置"
+
+#: k_tools_texture_map_loader/operators/op_node_connections.py:362
+msgid "All unconnected inputs are already at default values"
+msgstr "所有未连接输入均已为默认值"
+
+#: k_tools_texture_map_loader/preferences.py:364
+msgid "Apply corrections to solve shadow terminator artifacts caused by bump mapping."
+msgstr "应用校正以解决凹凸贴图导致的阴影终止线伪影。"
+
+#: k_tools_texture_map_loader/preferences.py:349
+msgid "Approximate the object as an infinite slab of thickness defined by the node tree."
+msgstr "将物体近似为厚度由节点树定义的无限平板。"
+
+#: k_tools_texture_map_loader/preferences.py:348
+msgid "Aproximate the object as a sphere whose diameter is equal to the thickness defined by the node tree"
+msgstr "将物体近似为直径等于节点树定义厚度的球体"
+
+#: k_tools_texture_map_loader/preferences.py:344
+#: k_tools_texture_map_loader/preferences.py:354
+msgid "Aproximation used to model the light interactions inside the object:"
+msgstr "用于模拟物体内部光交互的近似方式："
+
+#: k_tools_texture_map_loader/preferences.py:466
+msgid "Asset Browser Integration"
+msgstr "资产浏览器集成"
+
+#: k_tools_texture_map_loader/preferences.py:433
+msgid "Asset Browser integration"
+msgstr "资产浏览器集成"
+
+#: k_tools_texture_map_loader/preferences.py:433
+#: k_tools_texture_map_loader/preferences.py:610
+msgid "Assets"
+msgstr "资产"
+
+#: k_tools_texture_map_loader/preferences.py:395
+msgid "Auto"
+msgstr "自动"
+
+#: k_tools_texture_map_loader/preferences.py:567
+msgid "Auto Color Space Settings"
+msgstr "自动色彩空间设置"
+
+#: k_tools_texture_map_loader/preferences.py:428
+#: k_tools_texture_map_loader/preferences.py:603
+msgid "Auto Connect"
+msgstr "自动连接"
+
+#: k_tools_texture_map_loader/preferences.py:526
+msgid "Auto Connection Behavior"
+msgstr "自动连接行为"
+
+#: k_tools_texture_map_loader/preferences.py:212
+msgid "Auto Rename Materials"
+msgstr "自动重命名材质"
+
+#: k_tools_texture_map_loader/preferences.py:430
+msgid "Auto color space defaults"
+msgstr "自动色彩空间默认值"
+
+#: k_tools_texture_map_loader/preferences.py:410
+msgid "Auto connect the Group's Displacement output to the Material Output"
+msgstr "自动将组的置换输出连接到材质输出"
+
+#: k_tools_texture_map_loader/preferences.py:416
+msgid "Auto connect the Group's Thickness output to the Material Output"
+msgstr "自动将组的厚度输出连接到材质输出"
+
+#: k_tools_texture_map_loader/preferences.py:404
+msgid "Auto connect the Group's Volume output to the Material Output"
+msgstr "自动将组的体积输出连接到材质输出"
+
+#: k_tools_texture_map_loader/preferences.py:428
+msgid "Auto connection behavior"
+msgstr "自动连接行为"
+
+#: k_tools_texture_map_loader/preferences.py:273
+msgid "Auto-Apply Settings on Setup"
+msgstr "设置时自动应用设置"
+
+#: k_tools_texture_map_loader/preferences.py:516
+msgid "Auto-Pack Generation"
+msgstr "自动打包生成"
+
+#: k_tools_texture_map_loader/preferences.py:273
+msgid "Automatically apply these material settings during One-Click Setup"
+msgstr "一键设置期间自动应用这些材质设置"
+
+#: k_tools_texture_map_loader/preferences.py:395
+msgid "Automatically determine if the surface should be treated as a light for sampling, based on estimated emission intensity."
+msgstr "根据估计的发光强度自动判断是否应将表面视为灯光进行采样。"
+
+#: k_tools_texture_map_loader/preferences.py:252
+msgid "Automatically fuse AO, Roughness, and Metallic into an ORM map during texture load"
+msgstr "加载贴图时自动将 AO、粗糙度和金属度合并为 ORM 贴图"
+
+#: k_tools_texture_map_loader/preferences.py:212
+msgid "Automatically rename materials and Loader groups based on loaded texture files"
+msgstr "根据加载的贴图文件自动重命名材质和加载器组"
+
+#: k_tools_texture_map_loader/preferences.py:397
+msgid "Back"
+msgstr "返回"
+
+#: k_tools_texture_map_loader/preferences.py:320
+msgid "Backface Culling Camera"
+msgstr "相机背面剔除"
+
+#: k_tools_texture_map_loader/preferences.py:326
+msgid "Backface Culling Shadow"
+msgstr "阴影背面剔除"
+
+#: k_tools_texture_map_loader/tool_properties.py:127
+#: k_tools_texture_map_loader/ui/ui_panel.py:233
+msgid "Blend"
+msgstr "混合"
+
+#: k_tools_texture_map_loader/tool_properties.py:127
+msgid "Blend factor for Box projection"
+msgstr "盒式投影的混合系数"
+
+#: k_tools_texture_map_loader/tool_properties.py:108
+msgid "Box"
+msgstr "盒式"
+
+#: k_tools_texture_map_loader/tool_properties.py:108
+msgid "Box projection"
+msgstr "盒式投影"
+
+#: k_tools_texture_map_loader/preferences.py:364
+msgid "Bump Map Correction"
+msgstr "凹凸贴图校正"
+
+#: k_tools_texture_map_loader/preferences.py:293
+msgid "Bump Only"
+msgstr "仅凹凸"
+
+#: k_tools_texture_map_loader/preferences.py:603
+msgid "CENTER_ONLY"
+msgstr "CENTER_ONLY"
+
+#: k_tools_texture_map_loader/preferences.py:605
+msgid "COLOR"
+msgstr "COLOR"
+
+#: k_tools_texture_map_loader/preferences.py:422
+msgid "Category"
+msgstr "类别"
+
+#: k_tools_texture_map_loader/operators/op_texture_loading.py:80
+msgid "Clear Existing Nodes"
+msgstr "清除现有节点"
+
+#: k_tools_texture_map_loader/tool_properties.py:121
+msgid "Clip"
+msgstr "裁剪"
+
+#: k_tools_texture_map_loader/tool_properties.py:121
+msgid "Clip the image"
+msgstr "裁剪图像"
+
+#: k_tools_texture_map_loader/tool_properties.py:96
+msgid "Closest"
+msgstr "最近"
+
+#: k_tools_texture_map_loader/tool_properties.py:96
+msgid "Closest interpolation"
+msgstr "最近插值"
+
+#: k_tools_texture_map_loader/preferences.py:106
+msgid "Color"
+msgstr "颜色"
+
+#: k_tools_texture_map_loader/preferences.py:199
+msgid "Color Data Default"
+msgstr "颜色数据默认值"
+
+#: k_tools_texture_map_loader/preferences.py:430
+#: k_tools_texture_map_loader/preferences.py:605
+msgid "Color Space"
+msgstr "色彩空间"
+
+#: k_tools_texture_map_loader/ui/ui_panel.py:360
+msgid "Color Space: (No Image)"
+msgstr "色彩空间：（无图像）"
+
+#: k_tools_texture_map_loader/preferences.py:376
+msgid "Combine distance and equi-angular sampling for volumes where neither method is ideal."
+msgstr "对两种方法均不理想的体积结合距离采样和等角采样。"
+
+#: k_tools_texture_map_loader/preferences.py:96
+msgid "Comma-separated list of keywords to identify this map type"
+msgstr "用于识别此贴图类型的逗号分隔关键词列表"
+
+#: k_tools_texture_map_loader/preferences.py:410
+msgid "Connect Displacement"
+msgstr "连接置换"
+
+#: k_tools_texture_map_loader/preferences.py:416
+msgid "Connect Thickness"
+msgstr "连接厚度"
+
+#: k_tools_texture_map_loader/preferences.py:404
+msgid "Connect Volume"
+msgstr "连接体积"
+
+#: k_tools_texture_map_loader/preferences.py:332
+msgid "Consider material single sided for light probe volume capture. Additionally helps rejecting probes inside the object to avoid light leaks."
+msgstr "在光照探针体积捕获时将材质视为单面。此外有助于排除物体内部的探针以避免漏光。"
+
+#: k_tools_texture_map_loader/preferences.py:252
+msgid "Convert to Packed Map when Loading"
+msgstr "加载时转换为打包贴图"
+
+#: k_tools_texture_map_loader/operators/op_material_conversions.py:157
+msgid "Converted K-Tools BSDF to Principled BSDF."
+msgstr "已将 K-Tools BSDF 转换为 Principled BSDF。"
+
+#: k_tools_texture_map_loader/operators/op_material_conversions.py:69
+msgid "Converted Principled BSDF to K-Tools BSDF."
+msgstr "已将 Principled BSDF 转换为 K-Tools BSDF。"
+
+#: k_tools_texture_map_loader/preferences.py:386
+#: k_tools_texture_map_loader/tool_properties.py:97
+msgid "Cubic"
+msgstr "三次"
+
+#: k_tools_texture_map_loader/tool_properties.py:97
+msgid "Cubic interpolation"
+msgstr "三次插值"
+
+#: k_tools_texture_map_loader/properties/properties_orm.py:124
+msgid "Custom folder to save the ORM map"
+msgstr "保存 ORM 贴图的自定义文件夹"
+
+#: k_tools_texture_map_loader/preferences.py:284
+msgid "Cycles"
+msgstr "Cycles"
+
+#: k_tools_texture_map_loader/preferences.py:284
+msgid "Cycles Only Settings"
+msgstr "仅 Cycles 设置"
+
+#: k_tools_texture_map_loader/preferences.py:102
+msgid "Data Type"
+msgstr "数据类型"
+
+#: k_tools_texture_map_loader/preferences.py:488
+msgid "Data Type:"
+msgstr "数据类型："
+
+#: k_tools_texture_map_loader/preferences.py:535
+msgid "Default Material Settings"
+msgstr "默认材质设置"
+
+#: k_tools_texture_map_loader/preferences.py:279
+#: k_tools_texture_map_loader/preferences.py:289
+msgid "Default displacement method for Cycles"
+msgstr "Cycles 的默认置换方法"
+
+#: k_tools_texture_map_loader/preferences.py:429
+msgid "Default material and render engine settings"
+msgstr "默认材质与渲染引擎设置"
+
+#: k_tools_texture_map_loader/preferences.py:308
+msgid "Default transparency method for EEVEE"
+msgstr "EEVEE 的默认透明方法"
+
+#: k_tools_texture_map_loader/tool_properties.py:82
+msgid "Define where the addon looks for image nodes"
+msgstr "定义插件查找图像节点的位置"
+
+#: k_tools_texture_map_loader/operators/op_texture_loading.py:80
+msgid "Delete all nodes in the material before setting up (except Material Output)"
+msgstr "设置前删除材质中的所有节点（材质输出除外）"
+
+#: k_tools_texture_map_loader/tool_properties.py:149
+#: k_tools_texture_map_loader/ui/ui_panel.py:89
+msgid "Depth"
+msgstr "深度"
+
+#: k_tools_texture_map_loader/preferences.py:279
+#: k_tools_texture_map_loader/preferences.py:289
+msgid "Displacement"
+msgstr "置换"
+
+#: k_tools_texture_map_loader/preferences.py:300
+msgid "Displacement Max Distance"
+msgstr "置换最大距离"
+
+#: k_tools_texture_map_loader/preferences.py:547
+msgid "Displacement Max Distance:"
+msgstr "置换最大距离："
+
+#: k_tools_texture_map_loader/preferences.py:294
+msgid "Displacement Only"
+msgstr "仅置换"
+
+#: k_tools_texture_map_loader/preferences.py:295
+msgid "Displacement and Bump"
+msgstr "置换与凹凸"
+
+#: k_tools_texture_map_loader/preferences.py:374
+msgid "Distance"
+msgstr "距离"
+
+#: k_tools_texture_map_loader/preferences.py:394
+msgid "Do not use this surface as a light for sampling."
+msgstr "不要将此表面用作采样光源。"
+
+#: k_tools_texture_map_loader/preferences.py:434
+msgid "Documentation and bug reporting"
+msgstr "文档与错误报告"
+
+#: k_tools_texture_map_loader/preferences.py:283
+msgid "EEVEE"
+msgstr "EEVEE"
+
+#: k_tools_texture_map_loader/preferences.py:283
+msgid "EEVEE Only settings"
+msgstr "仅 EEVEE 设置"
+
+#: k_tools_texture_map_loader/preferences.py:358
+msgid "Each face is considered as a medium interface. Gives correct results for manifold geometry that contains no inner parts."
+msgstr "每个面都被视为介质界面。对不含内部部件的流形几何体可给出正确结果。"
+
+#: k_tools_texture_map_loader/preferences.py:265
+msgid "Embed the generated map inside the .blend file (Fake User)"
+msgstr "将生成的贴图嵌入 .blend 文件（伪用户）"
+
+#: k_tools_texture_map_loader/preferences.py:390
+msgid "Emission Sampling"
+msgstr "自发光采样"
+
+#: k_tools_texture_map_loader/tool_properties.py:70
+msgid "Enable adding the Parallax Occlusion Mapping node during One-Click Setup"
+msgstr "在一键设置期间启用添加视差遮蔽映射节点"
+
+#: k_tools_texture_map_loader/preferences.py:314
+msgid "Enable transparent shadows in EEVEE"
+msgstr "在 EEVEE 中启用透明阴影"
+
+#: k_tools_texture_map_loader/preferences.py:375
+msgid "Equiangular"
+msgstr "等角"
+
+#: k_tools_texture_map_loader/tool_properties.py:137
+msgid "Expand Global Settings"
+msgstr "展开全局设置"
+
+#: k_tools_texture_map_loader/tool_properties.py:170
+msgid "Expand Image Node List"
+msgstr "展开图像节点列表"
+
+#: k_tools_texture_map_loader/tool_properties.py:164
+msgid "Expand Node Groups"
+msgstr "展开节点组"
+
+#: k_tools_texture_map_loader/tool_properties.py:158
+msgid "Expand Search Mode"
+msgstr "展开搜索模式"
+
+#: k_tools_texture_map_loader/tool_properties.py:176
+msgid "Expand Utility Panel"
+msgstr "展开实用工具面板"
+
+#: k_tools_texture_map_loader/tool_properties.py:120
+msgid "Extend"
+msgstr "扩展"
+
+#: k_tools_texture_map_loader/tool_properties.py:120
+msgid "Extend the image"
+msgstr "扩展图像"
+
+#: k_tools_texture_map_loader/tool_properties.py:116
+#: k_tools_texture_map_loader/ui/ui_panel.py:234
+msgid "Extension"
+msgstr "扩展"
+
+#: k_tools_texture_map_loader/preferences.py:602
+msgid "FILE_IMAGE"
+msgstr "FILE_IMAGE"
+
+#: k_tools_texture_map_loader/preferences.py:359
+msgid "Faces are considered as medium interface only when they have different consecutive facing. Gives correct results as long as the max ray depth is not exceeded. Have significant memory overhead compared to the fast method."
+msgstr "仅当相邻面朝向不同时，面才被视为介质界面。只要未超过最大光线深度即可给出正确结果。与快速方法相比，内存开销显著。"
+
+#: k_tools_texture_map_loader/operators/op_system_integration.py:132
+msgid "Failed to generate packed map."
+msgstr "生成打包贴图失败。"
+
+#: k_tools_texture_map_loader/operators/op_node_connections.py:493
+msgid "Failed to load the new node group from assets."
+msgstr "无法从资产加载新节点组。"
+
+#: k_tools_texture_map_loader/preferences.py:358
+msgid "Fast"
+msgstr "快速"
+
+#: k_tools_texture_map_loader/tool_properties.py:107
+msgid "Flat"
+msgstr "平面"
+
+#: k_tools_texture_map_loader/tool_properties.py:107
+msgid "Flat projection"
+msgstr "平面投影"
+
+#: k_tools_texture_map_loader/preferences.py:217
+msgid "Format Name (CamelCase / Clean)"
+msgstr "格式名称（驼峰式 / 简洁）"
+
+#: k_tools_texture_map_loader/preferences.py:396
+msgid "Front"
+msgstr "正面"
+
+#: k_tools_texture_map_loader/preferences.py:398
+msgid "Front and Bac"
+msgstr "正面和背面"
+
+#: k_tools_texture_map_loader/tool_properties.py:87
+msgid "General"
+msgstr "常规"
+
+#: k_tools_texture_map_loader/tool_properties.py:137
+msgid "Global Settings"
+msgstr "全局设置"
+
+#: k_tools_texture_map_loader/preferences.py:385
+msgid "Good smoothness and speed."
+msgstr "平滑度与速度良好。"
+
+#: k_tools_texture_map_loader/tool_properties.py:187
+msgid "Groups"
+msgstr "组"
+
+#: k_tools_texture_map_loader/preferences.py:611
+msgid "HELP"
+msgstr "帮助"
+
+#: k_tools_texture_map_loader/operators/op_texture_loading.py:293
+msgid "Handled by Packed (ORM/ARM) map"
+msgstr "由打包（ORM/ARM）贴图处理"
+
+#: k_tools_texture_map_loader/tool_properties.py:149
+msgid "How many levels of nested groups to search into (1 = no recursion)"
+msgstr "搜索嵌套组的层数（1 = 不递归）"
+
+#: k_tools_texture_map_loader/preferences.py:601
+msgid "IMAGE_RGB"
+msgstr "IMAGE_RGB"
+
+#: k_tools_texture_map_loader/preferences.py:240
+msgid "If a packed map is selected, automatically ignore individual AO, Roughness, and Metallic files"
+msgstr "如果选择了打包贴图，则自动忽略单独的 AO、粗糙度和金属度文件"
+
+#: k_tools_texture_map_loader/preferences.py:233
+msgid "Ignore file names and use the texture set's parent folder name"
+msgstr "忽略文件名并使用纹理集的父文件夹名称"
+
+#: k_tools_texture_map_loader/ui/ui_panel.py:255
+msgid "Image Nodes"
+msgstr "图像节点"
+
+#: k_tools_texture_map_loader/operators/op_texture_loading.py:287
+msgid "Image Status Legend:"
+msgstr "图像状态图例："
+
+#: k_tools_texture_map_loader/operators/op_texture_loading.py:291
+msgid "Image successfully loaded"
+msgstr "图像加载成功"
+
+#: k_tools_texture_map_loader/operators/op_orm_packing.py:76
+msgid "Input Maps:"
+msgstr "输入贴图："
+
+#: k_tools_texture_map_loader/properties_general.py:19
+msgid "Internal property to track image changes"
+msgstr "用于跟踪图像变化的内部属性"
+
+#: k_tools_texture_map_loader/tool_properties.py:92
+#: k_tools_texture_map_loader/ui/ui_panel.py:230
+msgid "Interpolation"
+msgstr "插值"
+
+#: k_tools_texture_map_loader/ui/ui_panel.py:11
+msgid "K-Tools"
+msgstr "K-Tools"
+
+#: k_tools_texture_map_loader/operators/op_material_conversions.py:25
+msgid "K-Tools: BSDF group not found."
+msgstr "K-Tools：未找到 BSDF 组。"
+
+#: k_tools_texture_map_loader/preferences.py:609
+msgid "KEYINGSET"
+msgstr "KEYINGSET"
+
+#: k_tools_texture_map_loader/preferences.py:441
+msgid "Keyboard Shortcuts"
+msgstr "键盘快捷键"
+
+#: k_tools_texture_map_loader/preferences.py:432
+msgid "Keyboard shortcuts configuration"
+msgstr "键盘快捷键配置"
+
+#: k_tools_texture_map_loader/preferences.py:96
+msgid "Keywords"
+msgstr "关键词"
+
+#: k_tools_texture_map_loader/preferences.py:487
+msgid "Keywords:"
+msgstr "关键词："
+
+#: k_tools_texture_map_loader/preferences.py:332
+msgid "Light Probe Volume"
+msgstr "光照探针体积"
+
+#: k_tools_texture_map_loader/preferences.py:385
+#: k_tools_texture_map_loader/tool_properties.py:95
+msgid "Linear"
+msgstr "线性"
+
+#: k_tools_texture_map_loader/tool_properties.py:95
+msgid "Linear interpolation"
+msgstr "线性插值"
+
+#: k_tools_texture_map_loader/preferences.py:187
+msgid "List of map types and their associated keywords"
+msgstr "贴图类型及其关联关键词列表"
+
+#: k_tools_texture_map_loader/preferences.py:427
+#: k_tools_texture_map_loader/preferences.py:602
+msgid "Loading"
+msgstr "加载"
+
+#: k_tools_texture_map_loader/preferences.py:509
+msgid "Loading Behavior"
+msgstr "加载行为"
+
+#: k_tools_texture_map_loader/preferences.py:427
+msgid "Loading and packing behavior"
+msgstr "加载与打包行为"
+
+#: k_tools_texture_map_loader/preferences.py:604
+msgid "MATERIAL"
+msgstr "MATERIAL"
+
+#: k_tools_texture_map_loader/preferences.py:481
+msgid "Map List Type & Keywords"
+msgstr "贴图列表类型与关键词"
+
+#: k_tools_texture_map_loader/ui/ui_panel.py:194
+msgid "Map Loader"
+msgstr "贴图加载器"
+
+#: k_tools_texture_map_loader/operators/op_node_connections.py:459
+msgid "Map Loader updated successfully."
+msgstr "贴图加载器更新成功。"
+
+#: k_tools_texture_map_loader/preferences.py:90
+msgid "Map Type"
+msgstr "贴图类型"
+
+#: k_tools_texture_map_loader/preferences.py:485
+msgid "Map Type:"
+msgstr "贴图类型："
+
+#: k_tools_texture_map_loader/preferences.py:426
+#: k_tools_texture_map_loader/preferences.py:601
+msgid "Map Types"
+msgstr "贴图类型"
+
+#: k_tools_texture_map_loader/preferences.py:426
+msgid "Map type keywords and data types"
+msgstr "贴图类型关键词与数据类型"
+
+#: k_tools_texture_map_loader/preferences.py:429
+#: k_tools_texture_map_loader/preferences.py:604
+msgid "Material"
+msgstr "材质"
+
+#: k_tools_texture_map_loader/preferences.py:431
+msgid "Material renaming conventions"
+msgstr "材质重命名约定"
+
+#: k_tools_texture_map_loader/operators/op_batch_settings.py:188
+msgid "Material settings applied successfully."
+msgstr "材质设置应用成功。"
+
+#: k_tools_texture_map_loader/properties/properties_orm.py:113
+msgid "Metallic Map"
+msgstr "金属度贴图"
+
+#: k_tools_texture_map_loader/tool_properties.py:122
+msgid "Mirror"
+msgstr "镜像"
+
+#: k_tools_texture_map_loader/tool_properties.py:122
+msgid "Mirror the image"
+msgstr "镜像图像"
+
+#: k_tools_texture_map_loader/preferences.py:376
+msgid "Multiple Importance"
+msgstr "多重重要性"
+
+#: k_tools_texture_map_loader/preferences.py:431
+#: k_tools_texture_map_loader/preferences.py:608
+msgid "Naming"
+msgstr "命名"
+
+#: k_tools_texture_map_loader/preferences.py:187
+#: k_tools_texture_map_loader/preferences.py:576
+msgid "Naming Conventions"
+msgstr "命名规则"
+
+#: k_tools_texture_map_loader/operators/op_system_integration.py:114
+msgid "No AO, Roughness, or Metallic images found in this Loader."
+msgstr "此加载器中未找到 AO、粗糙度或金属度图像。"
+
+#: k_tools_texture_map_loader/operators/op_batch_settings.py:25
+#: k_tools_texture_map_loader/operators/op_batch_settings.py:91
+msgid "No Image Nodes found in target tree."
+msgstr "目标树中未找到图像节点。"
+
+#: k_tools_texture_map_loader/operators/op_node_insertion.py:51
+msgid "No active material selected."
+msgstr "未选择活动材质。"
+
+#: k_tools_texture_map_loader/ui/ui_panel.py:174
+msgid "No active material with nodes found."
+msgstr "未找到带节点的活动材质。"
+
+#: k_tools_texture_map_loader/operators/op_texture_loading.py:292
+msgid "No image assigned"
+msgstr "未指定图像"
+
+#: k_tools_texture_map_loader/ui/ui_panel.py:242
+msgid "No image nodes found."
+msgstr "未找到图像节点。"
+
+#: k_tools_texture_map_loader/operators/op_material_conversions.py:184
+msgid "No images found to convert."
+msgstr "未找到要转换的图像。"
+
+#: k_tools_texture_map_loader/operators/op_batch_settings.py:82
+msgid "No target node tree found."
+msgstr "未找到目标节点树。"
+
+#: k_tools_texture_map_loader/operators/op_texture_loading.py:247
+msgid "No target tree found (check mode)."
+msgstr "未找到目标树（检查模式）。"
+
+#: k_tools_texture_map_loader/operators/op_orm_packing.py:111
+msgid "No valid images found to convert."
+msgstr "未找到可转换的有效图像。"
+
+#: k_tools_texture_map_loader/ui/ui_panel.py:146
+msgid "Node Groups"
+msgstr "节点组"
+
+#: k_tools_texture_map_loader/operators/op_material_conversions.py:244
+msgid "Nodes converted, but auto-connect failed."
+msgstr "节点已转换，但自动连接失败。"
+
+#: k_tools_texture_map_loader/preferences.py:394
+msgid "None"
+msgstr "无"
+
+#: k_tools_texture_map_loader/preferences.py:608
+msgid "OUTLINER_OB_FONT"
+msgstr "OUTLINER_OB_FONT"
+
+#: k_tools_texture_map_loader/preferences.py:457
+msgid "One-Click Setup:"
+msgstr "一键设置："
+
+#: k_tools_texture_map_loader/tool_properties.py:87
+msgid "Operate on all nodes in the material"
+msgstr "对材质中的所有节点进行操作"
+
+#: k_tools_texture_map_loader/tool_properties.py:86
+msgid "Operate on the selected/active Node Group"
+msgstr "对选中/活动节点组进行操作"
+
+#: k_tools_texture_map_loader/properties/properties_orm.py:124
+msgid "Output Folder"
+msgstr "输出文件夹"
+
+#: k_tools_texture_map_loader/properties/properties_orm.py:129
+msgid "Output Name"
+msgstr "输出名称"
+
+#: k_tools_texture_map_loader/operators/op_orm_packing.py:89
+msgid "Output Settings:"
+msgstr "输出设置："
+
+#: k_tools_texture_map_loader/preferences.py:265
+msgid "Pack to Blend File"
+msgstr "打包到 Blend 文件"
+
+#: k_tools_texture_map_loader/tool_properties.py:182
+msgid "Panel Menu"
+msgstr "面板菜单"
+
+#: k_tools_texture_map_loader/operators/op_system_integration.py:95
+msgid "Please select a K-Tools Map Loader node."
+msgstr "请选择一个 K-Tools 贴图加载器节点。"
+
+#: k_tools_texture_map_loader/preferences.py:240
+msgid "Prefer Packed Map (ORM/ARM)"
+msgstr "优先使用打包贴图（ORM/ARM）"
+
+#: k_tools_texture_map_loader/preferences.py:222
+#: k_tools_texture_map_loader/preferences.py:583
+msgid "Prefix"
+msgstr "前缀"
+
+#: k_tools_texture_map_loader/properties_general.py:19
+msgid "Previous Image Name"
+msgstr "上一个图像名称"
+
+#: k_tools_texture_map_loader/tool_properties.py:76
+msgid "Principled BSDF"
+msgstr "原理化 BSDF"
+
+#: k_tools_texture_map_loader/tool_properties.py:104
+#: k_tools_texture_map_loader/ui/ui_panel.py:231
+msgid "Projection"
+msgstr "投影"
+
+#: k_tools_texture_map_loader/preferences.py:338
+msgid "Raytraced Transmission"
+msgstr "光线追踪透射"
+
+#: k_tools_texture_map_loader/tool_properties.py:143
+#: k_tools_texture_map_loader/ui/ui_panel.py:82
+msgid "Recursive Search"
+msgstr "递归搜索"
+
+#: k_tools_texture_map_loader/preferences.py:217
+msgid "Remove underscores/hyphens and capitalize words"
+msgstr "移除下划线/连字符并将单词首字母大写"
+
+#: k_tools_texture_map_loader/preferences.py:308
+msgid "Render Method"
+msgstr "渲染方式"
+
+#: k_tools_texture_map_loader/tool_properties.py:119
+msgid "Repeat"
+msgstr "重复"
+
+#: k_tools_texture_map_loader/tool_properties.py:119
+msgid "Repeat the image"
+msgstr "重复图像"
+
+#: k_tools_texture_map_loader/properties/properties_orm.py:107
+msgid "Roughness Map"
+msgstr "粗糙度贴图"
+
+#: k_tools_texture_map_loader/preferences.py:259
+msgid "Save Packed to Disk"
+msgstr "将打包图像保存到磁盘"
+
+#: k_tools_texture_map_loader/properties/properties_orm.py:120
+msgid "Save in Custom Location"
+msgstr "保存到自定义位置"
+
+#: k_tools_texture_map_loader/preferences.py:259
+msgid "Save the generated map to the same folder as the source textures"
+msgstr "将生成的贴图保存到源纹理所在的同一文件夹"
+
+#: k_tools_texture_map_loader/tool_properties.py:186
+msgid "Search"
+msgstr "搜索"
+
+#: k_tools_texture_map_loader/tool_properties.py:82
+#: k_tools_texture_map_loader/ui/ui_panel.py:72
+msgid "Search Mode"
+msgstr "搜索模式"
+
+#: k_tools_texture_map_loader/tool_properties.py:143
+msgid "Search for Image Texture nodes inside nested Node Groups"
+msgstr "在嵌套节点组内搜索图像纹理节点"
+
+#: k_tools_texture_map_loader/ui/ui_panel.py:172
+msgid "Select a Shader Node Group."
+msgstr "请选择一个着色器节点组。"
+
+#: k_tools_texture_map_loader/operators/op_node_connections.py:100
+msgid "Select at least two connectable nodes."
+msgstr "请至少选择两个可连接的节点。"
+
+#: k_tools_texture_map_loader/preferences.py:422
+msgid "Select preferences category"
+msgstr "选择偏好设置类别"
+
+#: k_tools_texture_map_loader/properties/properties_orm.py:101
+msgid "Select the Ambient Occlusion map"
+msgstr "选择环境光遮蔽贴图"
+
+#: k_tools_texture_map_loader/properties/properties_orm.py:113
+msgid "Select the Metallic map"
+msgstr "选择金属度贴图"
+
+#: k_tools_texture_map_loader/properties/properties_orm.py:107
+msgid "Select the Roughness map"
+msgstr "选择粗糙度贴图"
+
+#: k_tools_texture_map_loader/tool_properties.py:86
+msgid "Selected Group"
+msgstr "选中的组"
+
+#: k_tools_texture_map_loader/ui/ui_panel.py:102
+msgid "Setup POM"
+msgstr "设置 POM"
+
+#: k_tools_texture_map_loader/operators/op_system_integration.py:58
+msgid "Shortcut 'Alt + T' registered."
+msgstr "快捷键“Alt + T”已注册。"
+
+#: k_tools_texture_map_loader/preferences.py:461
+msgid "Shortcut not found!"
+msgstr "未找到快捷键！"
+
+#: k_tools_texture_map_loader/operators/op_system_integration.py:56
+msgid "Shortcut restored to default (Alt + T)."
+msgstr "快捷键已恢复为默认值（Alt + T）。"
+
+#: k_tools_texture_map_loader/preferences.py:432
+#: k_tools_texture_map_loader/preferences.py:609
+msgid "Shortcuts"
+msgstr "快捷键"
+
+#: k_tools_texture_map_loader/preferences.py:349
+msgid "Slab"
+msgstr "平板"
+
+#: k_tools_texture_map_loader/tool_properties.py:98
+msgid "Smart"
+msgstr "智能"
+
+#: k_tools_texture_map_loader/tool_properties.py:98
+msgid "Smart interpolation"
+msgstr "智能插值"
+
+#: k_tools_texture_map_loader/preferences.py:386
+msgid "Smoothed high quality interpolation, but slower."
+msgstr "平滑的高质量插值，但速度较慢。"
+
+#: k_tools_texture_map_loader/preferences.py:348
+#: k_tools_texture_map_loader/tool_properties.py:109
+msgid "Sphere"
+msgstr "球体"
+
+#: k_tools_texture_map_loader/tool_properties.py:109
+msgid "Sphere projection"
+msgstr "球体投影"
+
+#: k_tools_texture_map_loader/preferences.py:476
+msgid "Status: Not Registered"
+msgstr "状态：未注册"
+
+#: k_tools_texture_map_loader/preferences.py:473
+msgid "Status: Registered"
+msgstr "状态：已注册"
+
+#: k_tools_texture_map_loader/preferences.py:227
+#: k_tools_texture_map_loader/preferences.py:584
+msgid "Suffix"
+msgstr "后缀"
+
+#: k_tools_texture_map_loader/preferences.py:434
+#: k_tools_texture_map_loader/preferences.py:611
+msgid "Support"
+msgstr "支持"
+
+#: k_tools_texture_map_loader/preferences.py:588
+msgid "Support and Documentation"
+msgstr "支持与文档"
+
+#: k_tools_texture_map_loader/properties_general.py:38
+msgid "TML Node Properties"
+msgstr "TML 节点属性"
+
+#: k_tools_texture_map_loader/tool_properties.py:204
+msgid "TML Tool Properties"
+msgstr "TML 工具属性"
+
+#: k_tools_texture_map_loader/properties_general.py:12
+msgid "TML UI Expanded"
+msgstr "TML 界面已展开"
+
+#: k_tools_texture_map_loader/preferences.py:227
+msgid "Text to add after the material name"
+msgstr "在材质名称后添加的文本"
+
+#: k_tools_texture_map_loader/preferences.py:222
+msgid "Text to add before the material name"
+msgstr "在材质名称前添加的文本"
+
+#: k_tools_texture_map_loader/ui/ui_panel.py:7
+msgid "Texture Map Loader"
+msgstr "纹理贴图加载器"
+
+#: k_tools_texture_map_loader/ui/ui_panel.py:127
+msgid "Texture Optimization:"
+msgstr "纹理优化："
+
+#: k_tools_texture_map_loader/preferences.py:199
+msgid "The default color space to set for 'Color' data types (e.g., Diffuse, Emission)"
+msgstr "为“颜色”数据类型（如漫射、自发光）设置的默认色彩空间"
+
+#: k_tools_texture_map_loader/preferences.py:205
+msgid "The default color space to set for 'Utility' data types (e.g., Normal, Roughness)"
+msgstr "为“实用”数据类型（如法线、粗糙度）设置的默认色彩空间"
+
+#: k_tools_texture_map_loader/preferences.py:300
+msgid "The max distance a vertex can be displaced. Displacements over this threshold may cause visibility issues."
+msgstr "顶点可位移的最大距离。超过此阈值的位移可能导致可见性问题。"
+
+#: k_tools_texture_map_loader/preferences.py:102
+msgid "The type of data this map contains (affects color space)"
+msgstr "此贴图包含的数据类型（影响色彩空间）"
+
+#: k_tools_texture_map_loader/preferences.py:90
+msgid "The type of texture map (e.g., Diffuse, Normal)"
+msgstr "纹理贴图类型（如漫射、法线）"
+
+#: k_tools_texture_map_loader/preferences.py:344
+msgid "Thickness"
+msgstr "厚度"
+
+#: k_tools_texture_map_loader/operators/op_batch_settings.py:36
+msgid "Tool props definition error."
+msgstr "工具属性定义错误。"
+
+#: k_tools_texture_map_loader/properties_general.py:12
+msgid "Tracks the expanded/collapsed state in the TML panel"
+msgstr "跟踪 TML 面板中的展开/折叠状态"
+
+#: k_tools_texture_map_loader/preferences.py:314
+msgid "Transparent Shadows"
+msgstr "透明阴影"
+
+#: k_tools_texture_map_loader/preferences.py:397
+msgid "Treat only back side of the surface as a light for sampling."
+msgstr "仅将表面背面作为采样光源。"
+
+#: k_tools_texture_map_loader/preferences.py:396
+msgid "Treat only front side of the surface as a light, usually for closed meshes whose interior is not visible."
+msgstr "仅将表面正面作为光源，通常用于内部不可见的封闭网格。"
+
+#: k_tools_texture_map_loader/preferences.py:398
+msgid "Treat surface as a light for sampling, emitting from both the front and back side."
+msgstr "将表面作为采样光源，从正面和背面发射。"
+
+#: k_tools_texture_map_loader/tool_properties.py:110
+msgid "Tube"
+msgstr "管状"
+
+#: k_tools_texture_map_loader/tool_properties.py:110
+msgid "Tube projection"
+msgstr "管状投影"
+
+#: k_tools_texture_map_loader/preferences.py:233
+msgid "Use Folder Name"
+msgstr "使用文件夹名称"
+
+#: k_tools_texture_map_loader/preferences.py:107
+msgid "Use Non-Color data space (e.g., Normal, Roughness)"
+msgstr "使用非彩色数据空间（例如法线、粗糙度）"
+
+#: k_tools_texture_map_loader/ui/ui_panel.py:103
+msgid "Use Principled"
+msgstr "使用原理化"
+
+#: k_tools_texture_map_loader/preferences.py:326
+msgid "Use back face culling when casting shadows."
+msgstr "投射阴影时使用背面剔除。"
+
+#: k_tools_texture_map_loader/preferences.py:293
+msgid "Use bump mapping only"
+msgstr "仅使用凹凸贴图"
+
+#: k_tools_texture_map_loader/preferences.py:374
+msgid "Use distance sampling, best for dense volumes with lights far away."
+msgstr "使用距离采样，最适合光源较远的密集体积。"
+
+#: k_tools_texture_map_loader/preferences.py:375
+msgid "Use equiangular sampling, best for volumes with low density with light inside or near the volume."
+msgstr "使用等角采样，最适合光源在体积内部或附近、密度较低的体积。"
+
+#: k_tools_texture_map_loader/preferences.py:338
+msgid "Use raytracing to determine transmitted color instead of using only light probes. This prevents the surface from contributing to the lighting of surfaces not using this setting."
+msgstr "使用光线追踪确定透射颜色，而不是仅使用光照探针。这可防止该表面参与未使用此设置的表面的光照。"
+
+#: k_tools_texture_map_loader/preferences.py:106
+msgid "Use sRGB color space (e.g., Albedo, Emission)"
+msgstr "使用 sRGB 色彩空间（例如反照率、自发光）"
+
+#: k_tools_texture_map_loader/tool_properties.py:76
+msgid "Use standard Blender Principled BSDF instead of K-Tools BSDF group during One-Click Setup"
+msgstr "一键设置期间使用标准 Blender 原理化 BSDF 而非 K-Tools BSDF 组"
+
+#: k_tools_texture_map_loader/preferences.py:295
+msgid "Use true displacement and bump mapping"
+msgstr "使用真实置换和凹凸贴图"
+
+#: k_tools_texture_map_loader/preferences.py:294
+msgid "Use true displacement only"
+msgstr "仅使用真实置换"
+
+#: k_tools_texture_map_loader/preferences.py:107
+#: k_tools_texture_map_loader/tool_properties.py:188
+msgid "Utility"
+msgstr "实用工具"
+
+#: k_tools_texture_map_loader/preferences.py:205
+msgid "Utility Data Default"
+msgstr "实用工具数据默认"
+
+#: k_tools_texture_map_loader/preferences.py:381
+msgid "Volume Interpolation"
+msgstr "体积插值"
+
+#: k_tools_texture_map_loader/preferences.py:354
+msgid "Volume Intersection"
+msgstr "体积交集"
+
+#: k_tools_texture_map_loader/preferences.py:370
+msgid "Volume Sampling"
+msgstr "体积采样"
+
+#: k_tools_texture_map_loader/preferences.py:390
+msgid "pproximation used to model the light interactions inside the object:"
+msgstr "用于模拟物体内部光交互的近似方法："
+
+#: k_tools_texture_map_loader/preferences.py:320
+msgid "use back face culling to hide the back side of faces."
+msgstr "使用背面剔除隐藏面的背面。"
+
+#: k_tools_texture_map_loader/preferences.py:502
+msgctxt "Operator"
+msgid "Add"
+msgstr "添加"
+
+#: k_tools_texture_map_loader/operators/op_node_insertion.py:34
+msgctxt "Operator"
+msgid "Add Asset Group Base"
+msgstr "添加资产组基础"
+
+#: k_tools_texture_map_loader/preferences.py:131
+msgctxt "Operator"
+msgid "Add Keyword Entry"
+msgstr "添加关键字条目"
+
+#: k_tools_texture_map_loader/preferences.py:477
+msgctxt "Operator"
+msgid "Add to Asset Browser"
+msgstr "添加到资产浏览器"
+
+#: k_tools_texture_map_loader/ui/ui_panel.py:163
+msgctxt "Operator"
+msgid "Adv. Noise"
+msgstr "高级噪波"
+
+#: k_tools_texture_map_loader/ui/ui_panel.py:162
+msgctxt "Operator"
+msgid "Adv. Transparency"
+msgstr "高级透明度"
+
+#: k_tools_texture_map_loader/ui/ui_panel.py:226
+msgctxt "Operator"
+msgid "Apply"
+msgstr "应用"
+
+#: k_tools_texture_map_loader/operators/op_batch_settings.py:69
+msgctxt "Operator"
+msgid "Apply Batch Settings"
+msgstr "应用批量设置"
+
+#: k_tools_texture_map_loader/operators/op_batch_settings.py:113
+msgctxt "Operator"
+msgid "Apply Material Settings"
+msgstr "应用材质设置"
+
+#: k_tools_texture_map_loader/ui/ui_panel.py:159
+msgctxt "Operator"
+msgid "BSDF"
+msgstr "BSDF"
+
+#: k_tools_texture_map_loader/operators/op_texture_loading.py:233
+msgctxt "Operator"
+msgid "Clean All Image Nodes"
+msgstr "清理所有图像节点"
+
+#: k_tools_texture_map_loader/operators/op_orm_packing.py:77
+msgctxt "Operator"
+msgid "Clear All"
+msgstr "全部清除"
+
+#: k_tools_texture_map_loader/operators/op_orm_packing.py:152
+msgctxt "Operator"
+msgid "Clear Paths"
+msgstr "清除路径"
+
+#: k_tools_texture_map_loader/operators/op_node_connections.py:43
+#: k_tools_texture_map_loader/ui/ui_panel.py:121
+msgctxt "Operator"
+msgid "Connect Selected Nodes"
+msgstr "连接选定节点"
+
+#: k_tools_texture_map_loader/ui/ui_panel.py:135
+msgctxt "Operator"
+msgid "Convert BSDF To Node Group"
+msgstr "将 BSDF 转换为节点组"
+
+#: k_tools_texture_map_loader/ui/ui_panel.py:137
+msgctxt "Operator"
+msgid "Convert Images to Image Loader"
+msgstr "将图像转换为图像加载器"
+
+#: k_tools_texture_map_loader/operators/op_material_conversions.py:163
+msgctxt "Operator"
+msgid "Convert Images to Loader"
+msgstr "将图像转换为加载器"
+
+#: k_tools_texture_map_loader/ui/ui_panel.py:136
+msgctxt "Operator"
+msgid "Convert Node Group To Principled"
+msgstr "将节点组转换为原理化"
+
+#: k_tools_texture_map_loader/operators/op_material_conversions.py:9
+msgctxt "Operator"
+msgid "Convert to K-Tools BSDF"
+msgstr "转换为 K-Tools BSDF"
+
+#: k_tools_texture_map_loader/operators/op_material_conversions.py:76
+msgctxt "Operator"
+msgid "Convert to Principled BSDF"
+msgstr "转换为原理化 BSDF"
+
+#: k_tools_texture_map_loader/operators/op_orm_packing.py:63
+#: k_tools_texture_map_loader/ui/ui_panel.py:131
+msgctxt "Operator"
+msgid "Disk ORM Converter"
+msgstr "磁盘 ORM 转换器"
+
+#: k_tools_texture_map_loader/operators/op_batch_settings.py:8
+msgctxt "Operator"
+msgid "Get Batch Settings"
+msgstr "获取批量设置"
+
+#: k_tools_texture_map_loader/ui/ui_panel.py:222
+msgctxt "Operator"
+msgid "Get Settings"
+msgstr "获取设置"
+
+#: k_tools_texture_map_loader/operators/op_texture_loading.py:279
+msgctxt "Operator"
+msgid "Icon Legend"
+msgstr "图标图例"
+
+#: k_tools_texture_map_loader/operators/op_texture_loading.py:8
+#: k_tools_texture_map_loader/ui/ui_panel.py:199
+msgctxt "Operator"
+msgid "Load Texture Set"
+msgstr "加载纹理集"
+
+#: k_tools_texture_map_loader/ui/ui_panel.py:158
+msgctxt "Operator"
+msgid "Loader"
+msgstr "加载器"
+
+#: k_tools_texture_map_loader/ui/ui_panel.py:157
+msgctxt "Operator"
+msgid "Mapping"
+msgstr "映射"
+
+#: k_tools_texture_map_loader/operators/op_texture_loading.py:74
+#: k_tools_texture_map_loader/ui/ui_panel.py:96
+msgctxt "Operator"
+msgid "One-Click Setup"
+msgstr "一键设置"
+
+#: k_tools_texture_map_loader/preferences.py:591
+msgctxt "Operator"
+msgid "Online Documentation"
+msgstr "在线文档"
+
+#: k_tools_texture_map_loader/ui/ui_panel.py:128
+msgctxt "Operator"
+msgid "Pack Selected to ORM"
+msgstr "将所选打包到 ORM"
+
+#: k_tools_texture_map_loader/operators/op_system_integration.py:73
+msgctxt "Operator"
+msgid "Pack Textures to ORM"
+msgstr "将纹理打包到 ORM"
+
+#: k_tools_texture_map_loader/preferences.py:503
+msgctxt "Operator"
+msgid "Remove"
+msgstr "移除"
+
+#: k_tools_texture_map_loader/preferences.py:147
+msgctxt "Operator"
+msgid "Remove Keyword Entry"
+msgstr "移除关键字条目"
+
+#: k_tools_texture_map_loader/preferences.py:474
+msgctxt "Operator"
+msgid "Remove from Asset Browser"
+msgstr "从资产浏览器移除"
+
+#: k_tools_texture_map_loader/operators/op_texture_loading.py:234
+msgctxt "Operator"
+msgid "Remove images from all Image Texture nodes in the target (Group/Material)"
+msgstr "从目标（组/材质）中的所有图像纹理节点移除图像"
+
+#: k_tools_texture_map_loader/preferences.py:594
+msgctxt "Operator"
+msgid "Report a Bug"
+msgstr "报告错误"
+
+#: k_tools_texture_map_loader/ui/ui_panel.py:123
+msgctxt "Operator"
+msgid "Reset Group Inputs"
+msgstr "重置组输入"
+
+#: k_tools_texture_map_loader/operators/op_node_connections.py:290
+msgctxt "Operator"
+msgid "Reset Node Group Inputs"
+msgstr "重置节点组输入"
+
+#: k_tools_texture_map_loader/preferences.py:462
+msgctxt "Operator"
+msgid "Restore Default (Alt + T)"
+msgstr "恢复默认 (Alt + T)"
+
+#: k_tools_texture_map_loader/preferences.py:173
+msgctxt "Operator"
+msgid "Restore Default Keywords"
+msgstr "恢复默认关键字"
+
+#: k_tools_texture_map_loader/operators/op_system_integration.py:36
+msgctxt "Operator"
+msgid "Restore Default Shortcut"
+msgstr "恢复默认快捷键"
+
+#: k_tools_texture_map_loader/preferences.py:505
+msgctxt "Operator"
+msgid "Restore Defaults"
+msgstr "恢复默认"
+
+#: k_tools_texture_map_loader/operators/op_orm_packing.py:10
+msgctxt "Operator"
+msgid "Select Base Map to Auto-Fill"
+msgstr "选择基础贴图以自动填充"
+
+#: k_tools_texture_map_loader/operators/op_system_integration.py:9
+msgctxt "Operator"
+msgid "Toggle Asset Library"
+msgstr "切换资产库"
+
+#: k_tools_texture_map_loader/operators/op_node_connections.py:370
+#: k_tools_texture_map_loader/ui/ui_panel.py:124
+msgctxt "Operator"
+msgid "Update Node Group"
+msgstr "更新节点组"

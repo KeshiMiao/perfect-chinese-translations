@@ -1,0 +1,495 @@
+# perfect-chinese: 1
+# id: blendtopo
+# kind: addon
+# module: bl_ext.blender_org.blendtopo
+# name: Blendtopo - Topology Optimization
+# name_zh: 拓扑优化
+# translator: KeshiMiao
+# category: Mesh
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: properties.py:88
+msgid "A region that must always stay solid (e.g. a mounting boss or a feature you don't want the optimizer to thin out). Voxels inside this mesh are forced into the design domain and always shown at full density, merged smoothly with the rest of the shape - the optimizer is still free to make the rest of the part lighter to compensate. Use a simple closed mesh that overlaps the build space"
+msgstr "必须始终保持实心的区域（例如安装凸台，或你不希望优化器削薄的某个特征）。该网格内部的体素会被强制纳入设计域，并始终以满密度显示，与其余形状平滑融合——优化器仍可自由地让零件其余部分变轻来补偿。请使用与构建空间重叠的简单封闭网格"
+
+#: properties.py:76
+msgid "A region that must stay empty (e.g. a bolt hole or clearance zone). Any voxel inside this mesh is removed from the design. Use a simple closed mesh that overlaps the build space"
+msgstr "必须保持为空的区域（例如螺栓孔或避空区域）。该网格内部的任何体素都会从设计中被移除。请使用与构建空间重叠的简单封闭网格"
+
+#: operators.py:78
+msgid "Active object is not a mesh"
+msgstr "活动物体不是网格"
+
+#: operators.py:119
+msgid "Add Bearing"
+msgstr "添加支承"
+
+#: operators.py:107
+msgid "Add Exclusion"
+msgstr "添加排除区"
+
+#: operators.py:113
+msgid "Add Inclusion"
+msgstr "添加包含区"
+
+#: operators.py:125
+msgid "Add Load"
+msgstr "添加载荷"
+
+#: properties.py:298
+msgid "Also build a second object (Blendtopo_StressCloud): one real, colored cube per active element, near-zero-stress elements dropped so you aren't just looking at a blue shell. Comes with a Geometry Nodes clip driven by the Blendtopo_ClipPlane Empty, auto-enabled once a run finishes. Heavier than the surface heatmap alone at high resolution - independent toggle so you can leave it off"
+msgstr "同时构建第二个物体（Blendtopo_StressCloud）：每个活动单元对应一个真实着色立方体，接近零应力的单元会被剔除，这样你看到的就不只是一个蓝色外壳。附带由 Blendtopo_ClipPlane 空物体驱动的几何节点裁剪，运行结束后自动启用。高分辨率下比仅表面热力图更耗资源——独立开关，可保持关闭"
+
+#: properties.py:28
+msgid "Always numpy on one process, using the BLAS thread pool (see CPU Threads below). No GPU, no extra processes"
+msgstr "始终在单进程中使用 numpy，使用 BLAS 线程池（见下方 CPU 线程）。不使用 GPU，不额外启动进程"
+
+#: properties.py:23
+msgid "Auto (recommended)"
+msgstr "自动（推荐）"
+
+#: properties.py:186
+msgid "Auto-advance to the next stage once the shape stops changing. It is the largest per-step density change allowed before moving on. Lower = run longer/more refined; higher = finish sooner"
+msgstr "形状不再变化后自动进入下一阶段。这是进入下一阶段前允许的单步最大密度变化量。值越低 = 运行更久、更精细；值越高 = 更快完成"
+
+#: properties.py:215
+msgid "BLAS/worker-process thread count. 0 = automatic (all logical cores minus one, so the UI thread is never starved). Only raise this if you specifically want fewer cores used (e.g. to keep the machine responsive for other work while optimizing)"
+msgstr "BLAS/工作进程线程数。0 = 自动（所有逻辑核心减一，确保 UI 线程不会挨饿）。仅当你确实想使用更少核心时才调高（例如优化时保持机器响应其他工作）"
+
+#: ui.py:79
+msgid "Bearings & Loads"
+msgstr "支承与载荷"
+
+#: ui.py:86
+msgid "Bearings (supports)"
+msgstr "支承（支撑）"
+
+#: ui.py:29
+#: ui.py:34
+msgid "Blendtopo"
+msgstr "Blendtopo"
+
+#: properties.py:275
+msgid "Blocky"
+msgstr "块状"
+
+#: ui.py:50
+msgid "Build"
+msgstr "构建"
+
+#: properties.py:142
+msgid "Build Space"
+msgstr "构建空间"
+
+#: ui.py:43
+msgid "Buildspaces"
+msgstr "构建空间"
+
+#: properties.py:28
+msgid "CPU (single process)"
+msgstr "CPU（单进程）"
+
+#: properties.py:215
+msgid "CPU Threads"
+msgstr "CPU 线程"
+
+#: properties.py:286
+msgid "Color each result's surface by von Mises stress (blue = low, red = high), recomputed every iteration from the same FEA solve. The color scale ignores the top ~2% of elements (the singular stress spikes that always sit right at point loads/supports on a voxel grid) and is smoothed across iterations so it doesn't flicker as the shape changes. Switches open viewports to Material Preview so the heatmap is actually visible"
+msgstr "按 von Mises 应力为每个结果的表面着色（蓝色 = 低，红色 = 高），每次迭代从同一次 FEA 求解重新计算。色标忽略约前 2% 的单元（体素网格上点载荷/支承处总会出现奇异应力尖峰），并在迭代之间平滑，避免形状变化时闪烁。切换后会打开视口到材质预览，以便实际看到热力图"
+
+#: properties.py:152
+msgid "Color-code helper objects"
+msgstr "为辅助物体着色编码"
+
+#: properties.py:206
+msgid "Compute"
+msgstr "计算"
+
+#: properties.py:186
+msgid "Convergence"
+msgstr "收敛"
+
+#: properties.py:265
+msgid "Density threshold that defines the visible surface. Lower = keep more material (thicker, captures faint struts); higher = only the densest core remains"
+msgstr "定义可见表面的密度阈值。越低 = 保留更多材料（更厚，可捕捉微弱支撑）；越高 = 只保留最密实的核心"
+
+#: properties.py:167
+msgid "Detail level: voxels along the longest edge at the finest stage. Higher = finer features but much slower (cost grows roughly with the cube). Start ~32-48 and raise if needed"
+msgstr "细节级别：最精细阶段沿最长边的体素数。越高 = 特征越精细但慢得多（耗时大致按立方增长）。建议从 32-48 开始，必要时再提高"
+
+#: properties.py:152
+msgid "Draw build-space helpers in the viewport colored by role - keep-out red, keep-in green, bearings black, loads blue - so you can tell them apart at a glance. Turn off to leave objects in Blender's normal wire color instead"
+msgstr "在视口中绘制构建空间辅助物体并按角色着色——排除为红色、保留为绿色、支承为黑色、载荷为蓝色——方便一眼区分。关闭后则保留 Blender 的普通线框颜色"
+
+#: properties.py:254
+msgid "E"
+msgstr "E"
+
+#: properties.py:309
+msgid "Extra smoothing passes applied to the final result. Higher = smoother but can shrink thin features. Set 0 to keep the raw surface"
+msgstr "对最终结果额外施加的平滑次数。越高越平滑，但可能使细小特征收缩。设为 0 保持原始表面"
+
+#: properties.py:245
+msgid "Filter Radius"
+msgstr "滤波半径"
+
+#: properties.py:167
+msgid "Final Resolution"
+msgstr "最终分辨率"
+
+#: properties.py:132
+msgid "Force"
+msgstr "力"
+
+#: properties.py:132
+msgid "Force direction and magnitude (X, Y, Z). Only the relative sizes between loads matter for the resulting shape. Example: (0, 0, -1) pushes straight down"
+msgstr "力的方向和大小（X, Y, Z）。只有载荷之间的相对大小会影响最终形状。例如：(0, 0, -1) 表示正向下推"
+
+#: properties.py:271
+msgid "How each result mesh is built. Smooth follows the density field organically; Blocky shows the raw voxels"
+msgstr "每个结果网格的构建方式。平滑会自然跟随密度场；块状显示原始体素"
+
+#: properties.py:173
+msgid "How many coarse-to-fine stages to run. Each stage doubles the grid and warm-starts from the previous result, so it reaches detail fast. 3 is a good default; raise for very high final resolution"
+msgstr "运行的由粗到细阶段数。每个阶段网格加倍，并从上一阶段结果热启动，因此能快速达到细节。3 是不错的默认值；最终分辨率很高时可调高"
+
+#: properties.py:233
+msgid "How much of the build space to keep as material (0.3 = 30%). Lower = lighter, more skeletal; higher = bulkier and stiffer. This is the main weight/stiffness trade-off"
+msgstr "构建空间中保留为材料的比例（0.3 = 30%）。越低 = 更轻、更骨架化；越高 = 更粗壮、更刚性。这是主要的重量/刚度权衡"
+
+#: properties.py:265
+msgid "Iso Level"
+msgstr "等值面层级"
+
+#: properties.py:180
+msgid "Iterations / Level"
+msgstr "迭代次数 / 层级"
+
+#: properties.py:280
+msgid "Keep Each Step"
+msgstr "保留每一步"
+
+#: ui.py:64
+msgid "Keep-in (Inclusions)"
+msgstr "保留区（包含）"
+
+#: properties.py:88
+msgid "Keep-in mesh"
+msgstr "保留区网格"
+
+#: ui.py:54
+msgid "Keep-out (Exclusions)"
+msgstr "排除区（排除）"
+
+#: properties.py:76
+msgid "Keep-out mesh"
+msgstr "排除区网格"
+
+#: properties.py:125
+msgid "Load mesh"
+msgstr "载荷网格"
+
+#: ui.py:101
+msgid "Loads (forces)"
+msgstr "载荷（力）"
+
+#: properties.py:254
+msgid "Material stiffness (Young's modulus). Only relative values matter for the shape, so the default of 1.0 is fine unless mixing materials"
+msgstr "材料刚度（杨氏模量）。只有相对值会影响形状，因此默认 1.0 即可，除非混合多种材料"
+
+#: properties.py:180
+msgid "Maximum optimization steps per stage (it stops earlier if it converges - see Convergence). More = more refined but slower. 10-20 is usually plenty"
+msgstr "每个阶段的最大优化步数（若已收敛会提前停止——见收敛）。越多 = 越精细但越慢。通常 10-20 足够"
+
+#: properties.py:245
+msgid "Minimum feature size, in voxels. Controls how thin struts can get and prevents checkerboard artefacts. DECREASE for finer/thinner features; INCREASE for chunkier, smoother members"
+msgstr "最小特征尺寸，以体素为单位。控制支撑杆最细能达到多少，并防止棋盘格伪影。要更细/更薄的特征请减小；要更粗壮、更平滑的构件请增大"
+
+#: properties.py:193
+msgid "Multigrid solver"
+msgstr "多重网格求解器"
+
+#: operators.py:215
+msgid "Need at least one bearing and one load"
+msgstr "至少需要一个支承和一个载荷"
+
+#: preferences.py:36
+msgid "Nothing to configure here - this just stores the occasional review-reminder state."
+msgstr "这里没有可配置项 - 仅存储偶尔的审阅提醒状态。"
+
+#: operators.py:249
+msgid "Nothing to resume - run an optimization first"
+msgstr "没有可恢复的内容 - 请先运行一次优化"
+
+#: properties.py:322
+msgid "Opt Decimate"
+msgstr "优化抽稀"
+
+#: properties.py:317
+msgid "Opt Smooth"
+msgstr "优化平滑"
+
+#: properties.py:239
+msgid "Penalty (p)"
+msgstr "惩罚因子 (p)"
+
+#: properties.py:23
+msgid "Pick CPU or GPU automatically from the problem size each level: small grids stay on the CPU (a GPU would be slower once you count transfer overhead), larger grids move to the GPU (GPU edition only)"
+msgstr "根据每一级的问题规模自动选择 CPU 或 GPU：小网格留在 CPU（算上传输开销 GPU 反而更慢），较大网格移到 GPU（仅 GPU 版本）"
+
+#: properties.py:259
+msgid "Poisson"
+msgstr "泊松比"
+
+#: properties.py:259
+msgid "Poisson's ratio of the material (how much it bulges sideways when compressed). 0.3 suits most metals/plastics"
+msgstr "材料的泊松比（受压时横向膨胀的程度）。0.3 适合大多数金属/塑料"
+
+#: ui.py:205
+msgid "Post-process:"
+msgstr "后处理："
+
+#: properties.py:111
+msgid "Prevent movement along X at this support. Turn off to allow the part to slide along X here (e.g. a roller)"
+msgstr "在此支承处阻止沿 X 方向移动。关闭后允许零件在此沿 X 滑动（例如滚轮）"
+
+#: properties.py:115
+msgid "Prevent movement along Y at this support"
+msgstr "在此支承处阻止沿 Y 方向移动"
+
+#: properties.py:118
+msgid "Prevent movement along Z at this support"
+msgstr "在此支承处阻止沿 Z 方向移动"
+
+#: properties.py:271
+msgid "Preview"
+msgstr "预览"
+
+#: properties.py:223
+msgid "Print the chosen compute backend (CPU/GPU/multi-GPU/multi-CPU), device/worker counts and BLAS thread count to the console (Window > Toggle System Console) at the start of each level. Useful to confirm what your machine actually used and to compare timings"
+msgstr "在每个级别开始时，将所选计算后端（CPU/GPU/多 GPU/多 CPU）、设备/工作进程数和 BLAS 线程数打印到控制台（窗口 > 切换系统控制台）。可用于确认机器实际使用的配置并比较耗时"
+
+#: properties.py:239
+msgid "Pushes the result toward clean solid-or-empty material instead of grey in-between. 3 is standard. Raise slightly for crisper structures; too high can trap a bad shape"
+msgstr "将结果推向干净的实心或空心材料，而不是灰色中间状态。3 为标准值。略微调高可获得更清晰的结构；过高可能困住不良形状"
+
+#: properties.py:275
+msgid "Raw voxel cubes - faster to build, useful for a quick rough glance"
+msgstr "原始体素立方体 - 构建更快，适合快速粗略查看"
+
+#: properties.py:173
+msgid "Refine Levels"
+msgstr "细化层级"
+
+#: preferences.py:40
+msgid "Review reminder: dismissed."
+msgstr "审阅提醒：已忽略。"
+
+#: ui.py:173
+msgid "Run"
+msgstr "运行"
+
+#: ui.py:192
+msgid "Running - press ESC to stop & keep"
+msgstr "运行中 - 按 ESC 停止并保留"
+
+#: properties.py:280
+msgid "Save a separate object for every iteration in the 'Blendtopo Results' collection (you can scrub/compare them). Turn off to keep only one continuously-updated result object"
+msgstr "在「Blendtopo Results」集合中为每次迭代保存一个独立物体（可拖动比较）。关闭则只保留一个持续更新的结果物体"
+
+#: operators.py:861
+msgid "Select a result mesh first"
+msgstr "请先选择结果网格"
+
+#: operators.py:212
+msgid "Set a build space first"
+msgstr "请先设置构建空间"
+
+#: ui.py:116
+msgid "Settings"
+msgstr "设置"
+
+#: properties.py:199
+msgid "Show compute backend detail (thread count, device status). Auto-opens when you pick a non-Auto Compute mode and auto-folds back in when you return to Auto -- click the arrow any time to override"
+msgstr "显示计算后端详情（线程数、设备状态）。选择非自动计算模式时自动展开，回到自动时自动折叠——随时点击箭头可覆盖"
+
+#: properties.py:273
+#: properties.py:309
+msgid "Smooth"
+msgstr "平滑"
+
+#: properties.py:273
+msgid "Smooth iso-surface (surface nets) - the organic look, best for the final shape"
+msgstr "平滑等值面（surface nets）- 自然有机的外观，最适合最终形状"
+
+#: properties.py:317
+msgid "Smoothing passes used by 'Optimize Mesh'. 1 is gentle; raise for a softer surface (can shrink thin features)"
+msgstr "「优化网格」使用的平滑次数。1 较温和；调高可使表面更柔和（可能使细小特征收缩）"
+
+#: properties.py:104
+msgid "Support mesh"
+msgstr "支承网格"
+
+#: properties.py:322
+msgid "Target fraction of faces kept by 'Optimize Mesh'. 0.1 = keep 10%. Lower = lighter mesh; 1.0 = no reduction"
+msgstr "“优化网格”保留面的目标比例。0.1 = 保留 10%。越低网格越轻；1.0 = 不缩减"
+
+#: properties.py:142
+msgid "The volume the optimizer is allowed to fill with material. Pick a closed mesh; the result is generated inside it. Shown as wireframe so you can see the result form inside"
+msgstr "优化器允许填充材料的体积。选择一个封闭网格；结果将在其内部生成。以线框显示，便于查看内部生成的结果"
+
+#: properties.py:193
+msgid "Use a geometric-multigrid preconditioner for the FEA solve. Much faster on fine grids; falls back to the plain solver automatically if it cannot be built"
+msgstr "使用几何多重网格预条件器进行有限元求解。在精细网格上快得多；若无法构建则自动回退到普通求解器"
+
+#: properties.py:223
+msgid "Verbose solver log"
+msgstr "详细求解器日志"
+
+#: properties.py:233
+msgid "Volume Fraction"
+msgstr "体积分数"
+
+#: properties.py:298
+msgid "Von Mises Cross-Section (3D)"
+msgstr "冯·米塞斯截面（3D）"
+
+#: properties.py:286
+msgid "Von Mises Heatmap (surface)"
+msgstr "冯·米塞斯热力图（表面）"
+
+#: properties.py:125
+msgid "Where an external force is applied. The force is spread over the grid nodes inside this mesh. Place a small closed mesh overlapping the build space where the load acts"
+msgstr "施加外力的位置。力会分布到该网格内部的网格节点上。在载荷作用处放置一个与构建空间重叠的小型封闭网格"
+
+#: properties.py:104
+msgid "Where the part is held / anchored. Grid nodes inside this mesh are clamped, so material tends to grow toward it. Place a small closed mesh overlapping the build space"
+msgstr "零件被固定/锚定的位置。该网格内部的网格节点会被固定，因此材料倾向于向其生长。放置一个与构建空间重叠的小型封闭网格"
+
+#: properties.py:206
+msgid "Which compute backend the solver uses. Auto is right for almost everyone; the other options force a specific backend for testing/benchmarking on your own machine"
+msgstr "求解器使用的计算后端。自动几乎适合所有人；其他选项会在你自己的机器上强制使用特定后端进行测试/基准测试"
+
+#: properties.py:111
+msgid "X"
+msgstr "X"
+
+#: properties.py:115
+msgid "Y"
+msgstr "Y"
+
+#: properties.py:118
+msgid "Z"
+msgstr "Z"
+
+#: operators.py:159
+msgctxt "Operator"
+msgid "Ask again in about a month"
+msgstr "大约一个月后再提醒"
+
+#: ui.py:187
+msgctxt "Operator"
+msgid "Continue (more iterations)"
+msgstr "继续（更多迭代）"
+
+#: operators.py:168
+msgctxt "Operator"
+msgid "Don't Ask Again"
+msgstr "不再询问"
+
+#: operators.py:146
+msgctxt "Operator"
+msgid "Leave a Review"
+msgstr "留下评价"
+
+#: ui.py:218
+msgctxt "Operator"
+msgid "Leave a review"
+msgstr "留下评价"
+
+#: operators.py:855
+msgctxt "Operator"
+msgid "Make a clean low-poly copy of the active result: smooth (x5), subdivide (x2), decimate to 10%"
+msgstr "为当前结果制作干净的低多边形副本：平滑（x5）、细分（x2）、减面至 10%"
+
+#: operators.py:169
+msgctxt "Operator"
+msgid "Never show this reminder again"
+msgstr "不再显示此提醒"
+
+#: operators.py:158
+msgctxt "Operator"
+msgid "Not Now"
+msgstr "暂时不要"
+
+#: ui.py:220
+msgctxt "Operator"
+msgid "Not now"
+msgstr "暂时不要"
+
+#: operators.py:147
+msgctxt "Operator"
+msgid "Open the add-on page on extensions.blender.org in your web browser"
+msgstr "在浏览器中打开 extensions.blender.org 上的插件页面"
+
+#: operators.py:854
+msgctxt "Operator"
+msgid "Optimize Mesh"
+msgstr "优化网格"
+
+#: ui.py:208
+msgctxt "Operator"
+msgid "Optimize Mesh (clean low-poly)"
+msgstr "优化网格（干净低多边形）"
+
+#: preferences.py:41
+msgctxt "Operator"
+msgid "Re-enable"
+msgstr "重新启用"
+
+#: operators.py:178
+msgctxt "Operator"
+msgid "Re-enable Review Reminder"
+msgstr "重新启用评价提醒"
+
+#: operators.py:131
+msgctxt "Operator"
+msgid "Remove"
+msgstr "移除"
+
+#: ui.py:200
+#: ui.py:226
+msgctxt "Operator"
+msgid "Report a Bug"
+msgstr "报告 Bug"
+
+#: operators.py:192
+#: ui.py:182
+msgctxt "Operator"
+msgid "Run Optimization"
+msgstr "运行优化"
+
+#: operators.py:72
+msgctxt "Operator"
+msgid "Set Build Space from Active"
+msgstr "从活动对象设置构建空间"
+
+#: operators.py:179
+msgctxt "Operator"
+msgid "Undo 'Don't ask again' for the review reminder"
+msgstr "撤销评价提醒的“不再询问”"
+
+#: operators.py:73
+msgctxt "Operator"
+msgid "Use the active object as the build space (shown as wireframe)"
+msgstr "将活动对象用作构建空间（以线框显示）"
+
+#: operators.py:193
+msgctxt "Operator"
+msgid "Voxelize, then optimize in the background. ESC keeps the latest result"
+msgstr "体素化，然后在后台优化。按 ESC 保留最新结果"

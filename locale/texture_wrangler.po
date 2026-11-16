@@ -1,0 +1,202 @@
+# perfect-chinese: 1
+# id: texture_wrangler
+# kind: addon
+# module: bl_ext.blender_org.texture_wrangler
+# name: Texture Wrangler
+# name_zh: 纹理整理
+# translator: KeshiMiao
+# category: Material
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: texture_wrangler/props.py:195
+msgid "1K Materials"
+msgstr "1K 材质"
+
+#: texture_wrangler/props.py:197
+msgid "4K Materials"
+msgstr "4K 材质"
+
+#: texture_wrangler/preferences.py:52
+msgid "Add a line to texture_wrangler_history.txt in the 1K/4K output folder each time a material is copied"
+msgstr "每次复制材质时，在 1K/4K 输出文件夹的 texture_wrangler_history.txt 中添加一行"
+
+#: texture_wrangler/operators.py:119
+msgid "Association"
+msgstr "关联"
+
+#: texture_wrangler/operators.py:236
+msgid "Choose a folder first."
+msgstr "请先选择一个文件夹。"
+
+#: texture_wrangler/props.py:188
+msgid "Copy this file"
+msgstr "复制此文件"
+
+#: texture_wrangler/operators.py:119
+msgid "File name suffix, saved lower case, e.g. normalgl"
+msgstr "文件名后缀，保存为小写，例如 normalgl"
+
+#: texture_wrangler/props.py:203
+msgid "Folder"
+msgstr "文件夹"
+
+#: texture_wrangler/props.py:203
+msgid "Folder with multiple material files"
+msgstr "包含多个材质文件的文件夹"
+
+#: texture_wrangler/props.py:193
+msgid "Folder with the material's texture files"
+msgstr "包含该材质纹理文件的文件夹"
+
+#: texture_wrangler/props.py:201
+msgid "Image Size"
+msgstr "图像尺寸"
+
+#: texture_wrangler/operators.py:220
+msgid "Image Size: Unknown"
+msgstr "图像尺寸：未知"
+
+#: texture_wrangler/operators.py:211
+#: texture_wrangler/operators.py:215
+msgid "Image not found"
+msgstr "未找到图像"
+
+#: texture_wrangler/props.py:188
+msgid "Include"
+msgstr "包含"
+
+#: texture_wrangler/preferences.py:52
+msgid "Keep Copy History"
+msgstr "保留复制历史"
+
+#: texture_wrangler/props.py:199
+msgid "Material"
+msgstr "材质"
+
+#: texture_wrangler/props.py:199
+msgid "Material name used for the copied files"
+msgstr "用于复制文件的材质名称"
+
+#: texture_wrangler/props.py:186
+msgid "Material type of this file"
+msgstr "此文件的材质类型"
+
+#: texture_wrangler/ui.py:82
+msgid "Name Associations"
+msgstr "名称关联"
+
+#: texture_wrangler/operators.py:73
+msgid "No files were copied."
+msgstr "未复制任何文件。"
+
+#: texture_wrangler/ui.py:72
+msgid "Output Folders"
+msgstr "输出文件夹"
+
+#: texture_wrangler/props.py:195
+msgid "Output folder for 1K materials"
+msgstr "1K 材质的输出文件夹"
+
+#: texture_wrangler/props.py:197
+msgid "Output folder for 4K materials"
+msgstr "4K 材质的输出文件夹"
+
+#: texture_wrangler/operators.py:239
+msgid "Save the .blend file before using a relative (//) path."
+msgstr "使用相对路径（//）前请先保存 .blend 文件。"
+
+#: texture_wrangler/preferences.py:37
+msgid "Saved File Names"
+msgstr "已保存的文件名"
+
+#: texture_wrangler/ui.py:48
+msgid "Settings file was unreadable; defaults restored"
+msgstr "设置文件无法读取；已恢复默认值"
+
+#: texture_wrangler/props.py:201
+msgid "Size of the material's texture files"
+msgstr "该材质纹理文件的尺寸"
+
+#: texture_wrangler/props.py:193
+msgid "Source"
+msgstr "源"
+
+#: texture_wrangler/ui.py:113
+msgid "Texture Utilities"
+msgstr "纹理工具"
+
+#: texture_wrangler/ui.py:36
+msgid "Texture Wrangler"
+msgstr "Texture Wrangler"
+
+#: texture_wrangler/ui.py:39
+#: texture_wrangler/ui.py:85
+msgid "TextureWrangler"
+msgstr "TextureWrangler"
+
+#: texture_wrangler/operators.py:132
+#: texture_wrangler/props.py:186
+msgid "Type"
+msgstr "类型"
+
+#: texture_wrangler/operators.py:82
+#: texture_wrangler/operators.py:115
+msgctxt "Operator"
+msgid "Add Association"
+msgstr "添加关联"
+
+#: texture_wrangler/operators.py:336
+msgctxt "Operator"
+msgid "Cancel"
+msgstr "取消"
+
+#: texture_wrangler/operators.py:34
+msgctxt "Operator"
+msgid "Copy Files"
+msgstr "复制文件"
+
+#: texture_wrangler/ui.py:76
+msgctxt "Operator"
+msgid "Copy to 1K"
+msgstr "复制到 1K"
+
+#: texture_wrangler/ui.py:77
+msgctxt "Operator"
+msgid "Copy to 4K"
+msgstr "复制到 4K"
+
+#: texture_wrangler/operators.py:195
+msgctxt "Operator"
+msgid "Image Preview"
+msgstr "图像预览"
+
+#: texture_wrangler/operators.py:226
+#: texture_wrangler/ui.py:126
+msgctxt "Operator"
+msgid "Organize Materials"
+msgstr "整理材质"
+
+#: texture_wrangler/operators.py:22
+msgctxt "Operator"
+msgid "Reload Source Files"
+msgstr "重新加载源文件"
+
+#: texture_wrangler/operators.py:151
+msgctxt "Operator"
+msgid "Remove Association"
+msgstr "移除关联"
+
+#: texture_wrangler/preferences.py:46
+msgctxt "Operator"
+msgid "Restore All Defaults"
+msgstr "恢复所有默认值"
+
+#: texture_wrangler/operators.py:174
+msgctxt "Operator"
+msgid "Restore Saved Name"
+msgstr "恢复已保存的名称"

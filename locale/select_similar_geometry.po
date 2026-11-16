@@ -1,0 +1,75 @@
+# perfect-chinese: 1
+# id: select_similar_geometry
+# kind: addon
+# module: bl_ext.blender_org.select_similar_geometry
+# name: Select Similar Geometry
+# name_zh: 相似几何选择
+# translator: KeshiMiao
+# category: Modeling
+# supported_versions: >=5.0.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: select_similar_geometry/__init__.py:113
+msgid "Active object has no vertices"
+msgstr "活动物体没有顶点"
+
+#: select_similar_geometry/__init__.py:107
+msgid "Active object is not a mesh"
+msgstr "活动物体不是网格"
+
+#: select_similar_geometry/__init__.py:82
+msgid "Allowed deviation in vertex count relative to the active object. For example, 0.2 means only objects with vertex counts within +/-20% of the active object's vertex count will be considered."
+msgstr "相对于活动物体的顶点数允许偏差。例如，0.2 表示只考虑顶点数在活动物体顶点数 +/-20% 范围内的物体。"
+
+#: select_similar_geometry/__init__.py:95
+msgid "Compare vertices in world space (more strict when objects have different transforms)"
+msgstr "在世界空间中比较顶点（物体变换不同时更严格）"
+
+#: select_similar_geometry/__init__.py:65
+msgid "Distance threshold to consider two vertices as matching (in Blender units)"
+msgstr "将两个顶点视为匹配的距离阈值（以 Blender 单位计）"
+
+#: select_similar_geometry/__init__.py:73
+msgid "Minimum Percentage"
+msgstr "最小百分比"
+
+#: select_similar_geometry/__init__.py:73
+msgid "Minimum percentage of vertices from the active object that must be found in the other object"
+msgstr "必须在其他物体中找到的活动物体顶点的最小百分比"
+
+#: select_similar_geometry/__init__.py:104
+msgid "No active object selected"
+msgstr "未选择活动物体"
+
+#: select_similar_geometry/__init__.py:1
+msgid "Object"
+msgstr "物体"
+
+#: select_similar_geometry/__init__.py:1
+msgid "Select Similar Geometry (by Percentage)"
+msgstr "选择相似几何（按百分比）"
+
+#: select_similar_geometry/__init__.py:1
+msgid "Selects objects whose geometry matches the active one above a given percentage"
+msgstr "选择几何与活动物体匹配度超过给定百分比的物体"
+
+#: select_similar_geometry/__init__.py:65
+msgid "Tolerance"
+msgstr "容差"
+
+#: select_similar_geometry/__init__.py:95
+msgid "Use World Space"
+msgstr "使用世界空间"
+
+#: select_similar_geometry/__init__.py:82
+msgid "Vertex Count Tolerance"
+msgstr "顶点数容差"
+
+#: select_similar_geometry/__init__.py:62
+msgctxt "Operator"
+msgid "Select Similar Geometry"
+msgstr "选择相似几何"

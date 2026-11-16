@@ -1,0 +1,674 @@
+# perfect-chinese: 1
+# id: yl_meshcheckhud
+# kind: addon
+# module: bl_ext.blender_org.yl_meshcheckhud
+# name: MeshCheck HUD
+# name_zh: 网格检查 HUD
+# translator: KeshiMiao
+# category: Mesh
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: ui/meshcheck_panel.py:22
+msgid "%"
+msgstr "%"
+
+#: meshcheck/properties.py:519
+msgid "All"
+msgstr "全部"
+
+#: meshcheck/properties.py:554
+msgid "All Checks"
+msgstr "全部检查"
+
+#: meshcheck/properties.py:519
+msgid "Analyze all mesh objects in the current view layer"
+msgstr "分析当前视图层中的所有网格物体"
+
+#: meshcheck/properties.py:518
+msgid "Analyze selected mesh objects only"
+msgstr "仅分析选中的网格物体"
+
+#: meshcheck/properties.py:517
+msgid "Analyze visible mesh objects only"
+msgstr "仅分析可见的网格物体"
+
+#: overlay/prefs.py:353
+msgid "Approximate triangle threshold for edit-mode HUD simplification and realtime check refresh"
+msgstr "用于编辑模式 HUD 简化和实时检查刷新的近似三角形阈值"
+
+#: overlay/prefs.py:318
+#: overlay/prefs.py:452
+msgid "Auto Unit (m/cm)"
+msgstr "自动单位（米/厘米）"
+
+#: overlay/prefs.py:318
+msgid "Automatically switch between meters and centimeters based on object size"
+msgstr "根据物体大小自动在米和厘米之间切换"
+
+#: overlay/prefs.py:477
+msgid "Background"
+msgstr "背景"
+
+#: overlay/prefs.py:378
+#: overlay/prefs.py:481
+msgid "Background Opacity"
+msgstr "背景不透明度"
+
+#: overlay/prefs.py:330
+msgid "Centimeters"
+msgstr "厘米"
+
+#: meshcheck/properties.py:507
+#: overlay/prefs.py:432
+msgid "Check"
+msgstr "检查"
+
+#: ui/meshcheck_panel.py:511
+msgid "Check Results"
+msgstr "检查结果"
+
+#: ui/meshcheck_panel.py:376
+msgid "Check Settings"
+msgstr "检查设置"
+
+#: meshcheck/properties.py:634
+msgid "Check Sort"
+msgstr "检查排序"
+
+#: meshcheck/properties.py:538
+msgid "Check all objects in the current scope and show the object list"
+msgstr "检查当前范围内的所有物体并显示物体列表"
+
+#: overlay/prefs.py:325
+msgid "Choose the unit system used for displayed dimensions"
+msgstr "选择显示尺寸所用的单位系统"
+
+#: overlay/prefs.py:388
+msgid "Choose where the overlay is drawn in the viewport"
+msgstr "选择叠加层在视图中的绘制位置"
+
+#: overlay/prefs.py:511
+msgid "Color"
+msgstr "颜色"
+
+#: meshcheck/properties.py:633
+#: meshcheck/properties.py:651
+msgid "Descending"
+msgstr "降序"
+
+#: overlay/prefs.py:418
+#: overlay/prefs.py:519
+msgid "Display"
+msgstr "显示"
+
+#: overlay/prefs.py:330
+msgid "Display dimensions in centimeters"
+msgstr "以厘米显示尺寸"
+
+#: overlay/prefs.py:329
+msgid "Display dimensions in meters"
+msgstr "以米显示尺寸"
+
+#: overlay/prefs.py:331
+msgid "Display dimensions in millimeters"
+msgstr "以毫米显示尺寸"
+
+#: overlay/prefs.py:304
+msgid "Display each dimension using its axis color"
+msgstr "使用各轴颜色显示每个尺寸"
+
+#: meshcheck/properties.py:571
+msgid "Distance threshold used to group vertices as doubles"
+msgstr "用于将顶点归并为重复顶点的距离阈值"
+
+#: meshcheck/properties.py:546
+#: meshcheck/properties.py:563
+msgid "Doubles"
+msgstr "重复顶点"
+
+#: overlay/prefs.py:131
+msgid "Doubles Color"
+msgstr "重复顶点颜色"
+
+#: meshcheck/properties.py:571
+msgid "Doubles Distance"
+msgstr "重复顶点距离"
+
+#: overlay/prefs.py:141
+msgid "Doubles Offset"
+msgstr "重复顶点偏移"
+
+#: overlay/prefs.py:371
+msgid "Draw a background behind the overlay text"
+msgstr "在叠加文字后方绘制背景"
+
+#: meshcheck/properties.py:531
+msgid "Draw check overlay in front of mesh surfaces"
+msgstr "在网格表面之前绘制检查叠加层"
+
+#: overlay/prefs.py:393
+msgid "Draw the overlay in the lower-left corner"
+msgstr "在左下角绘制叠加层"
+
+#: overlay/prefs.py:392
+msgid "Draw the overlay in the lower-right corner"
+msgstr "在右下角绘制叠加层"
+
+#: overlay/prefs.py:353
+#: overlay/prefs.py:485
+msgid "Edit Mode Triangle Threshold"
+msgstr "编辑模式三角形阈值"
+
+#: overlay/prefs.py:371
+#: overlay/prefs.py:478
+msgid "Enable Background"
+msgstr "启用背景"
+
+#: overlay/prefs.py:297
+msgid "Enable Check Mode"
+msgstr "启用检查模式"
+
+#: ui/check_detail.py:98
+#: ui/meshcheck_panel.py:495
+msgid "Enable HUD to generate results."
+msgstr "启用 HUD 以生成结果。"
+
+#: overlay/prefs.py:290
+msgid "Enable Heatmap Mode"
+msgstr "启用热力图模式"
+
+#: overlay/prefs.py:283
+msgid "Enable Text HUD"
+msgstr "启用文字 HUD"
+
+#: overlay/prefs.py:290
+msgid "Enable the heatmap preview mode"
+msgstr "启用热力图预览模式"
+
+#: overlay/prefs.py:297
+msgid "Enable the mesh check mode"
+msgstr "启用网格检查模式"
+
+#: overlay/prefs.py:283
+msgid "Enable the text HUD"
+msgstr "启用文字 HUD"
+
+#: meshcheck/properties.py:606
+msgid "Face angle threshold for sharp edges"
+msgstr "锐边的面夹角阈值"
+
+#: meshcheck/properties.py:589
+msgid "Faces at or below this area are classified as dust faces"
+msgstr "面积小于或等于此值的面归类为碎面"
+
+#: overlay/prefs.py:428
+msgid "Features"
+msgstr "特性"
+
+#: meshcheck/properties.py:556
+msgid "Focused Check"
+msgstr "聚焦检查"
+
+#: overlay/prefs.py:337
+#: overlay/prefs.py:436
+msgid "Font Size"
+msgstr "字体大小"
+
+#: overlay/prefs.py:418
+msgid "HUD display settings"
+msgstr "HUD 显示设置"
+
+#: meshcheck/properties.py:508
+#: overlay/prefs.py:431
+msgid "Heatmap"
+msgstr "热力图"
+
+#: ui/meshcheck_panel.py:482
+msgid "Heatmap Results"
+msgstr "热力图结果"
+
+#: overlay/prefs.py:399
+msgid "Horizontal offset from the selected corner"
+msgstr "距所选角点的水平偏移"
+
+#: meshcheck/properties.py:615
+msgid "Ignore edges already marked sharp"
+msgstr "忽略已标记为锐边的边"
+
+#: meshcheck/properties.py:547
+#: meshcheck/properties.py:564
+msgid "Isolated"
+msgstr "孤立"
+
+#: overlay/prefs.py:169
+msgid "Isolated Color"
+msgstr "孤立颜色"
+
+#: overlay/prefs.py:179
+msgid "Isolated Offset"
+msgstr "孤立偏移"
+
+#: overlay/prefs.py:393
+#: overlay/prefs.py:468
+msgid "Left Bottom"
+msgstr "左下"
+
+#: overlay/prefs.py:363
+msgid "Legacy Edit Mode Face Threshold"
+msgstr "旧版编辑模式面阈值"
+
+#: meshcheck/properties.py:580
+msgid "Long Triangle Ratio"
+msgstr "长三角形比例"
+
+#: meshcheck/properties.py:580
+msgid "Longest edge divided by shortest altitude for needle triangles"
+msgstr "针状三角形的最长边除以最短高"
+
+#: analysis_hud/core.py:81
+#: meshcheck/properties.py:626
+msgid "Mats/Slots"
+msgstr "材质/槽位"
+
+#: overlay/prefs.py:420
+#: overlay/prefs.py:521
+msgid "Mesh Check"
+msgstr "网格检查"
+
+#: overlay/prefs.py:420
+msgid "Mesh check style settings"
+msgstr "网格检查样式设置"
+
+#: overlay/prefs.py:553
+#: ui/meshcheck_panel.py:393
+msgid "MeshCheck HUD"
+msgstr "MeshCheck HUD"
+
+#: overlay/prefs.py:329
+msgid "Meters"
+msgstr "米"
+
+#: overlay/prefs.py:331
+msgid "Millimeters"
+msgstr "毫米"
+
+#: meshcheck/properties.py:504
+msgid "Mode"
+msgstr "模式"
+
+#: meshcheck/properties.py:548
+#: meshcheck/properties.py:565
+msgid "Needle Tris"
+msgstr "针状三角形"
+
+#: overlay/prefs.py:188
+msgid "Needle Tris Color"
+msgstr "针状三角形颜色"
+
+#: overlay/prefs.py:198
+msgid "Needle Tris Offset"
+msgstr "针状三角形偏移"
+
+#: meshcheck/properties.py:545
+#: meshcheck/properties.py:562
+msgid "Ngons"
+msgstr "多边面"
+
+#: overlay/prefs.py:112
+msgid "Ngons Color"
+msgstr "多边面颜色"
+
+#: overlay/prefs.py:122
+msgid "Ngons Offset"
+msgstr "多边面偏移"
+
+#: analysis_hud/core.py:109
+msgid "No Findings"
+msgstr "未发现问题"
+
+#: meshcheck/properties.py:552
+#: meshcheck/properties.py:569
+msgid "Non-manifold"
+msgstr "非流形"
+
+#: overlay/prefs.py:245
+msgid "Non-manifold Color"
+msgstr "非流形颜色"
+
+#: overlay/prefs.py:255
+msgid "Non-manifold Offset"
+msgstr "非流形偏移"
+
+#: meshcheck/properties.py:628
+#: meshcheck/properties.py:646
+msgid "Object"
+msgstr "物体"
+
+#: meshcheck/properties.py:538
+msgid "Object List"
+msgstr "物体列表"
+
+#: overlay/prefs.py:514
+msgid "Offset"
+msgstr "偏移"
+
+#: overlay/prefs.py:419
+#: overlay/prefs.py:520
+msgid "Performance"
+msgstr "性能"
+
+#: overlay/prefs.py:419
+msgid "Performance settings"
+msgstr "性能设置"
+
+#: meshcheck/properties.py:598
+msgid "Pole Threshold"
+msgstr "极点阈值"
+
+#: analysis_hud/core.py:24
+#: meshcheck/properties.py:551
+msgid "Poles"
+msgstr "极点"
+
+#: overlay/prefs.py:150
+msgid "Poles Color"
+msgstr "极点颜色"
+
+#: overlay/prefs.py:160
+msgid "Poles Offset"
+msgstr "极点偏移"
+
+#: overlay/prefs.py:460
+msgid "Position Settings"
+msgstr "位置设置"
+
+#: meshcheck/properties.py:621
+msgid "Preview Sort"
+msgstr "预览排序"
+
+#: meshcheck/properties.py:625
+msgid "Ratio"
+msgstr "比率"
+
+#: overlay/prefs.py:392
+#: overlay/prefs.py:469
+msgid "Right Bottom"
+msgstr "右下"
+
+#: meshcheck/properties.py:514
+msgid "Scope"
+msgstr "范围"
+
+#: overlay/prefs.py:415
+msgid "Section"
+msgstr "部分"
+
+#: meshcheck/properties.py:518
+msgid "Selected"
+msgstr "已选中"
+
+#: overlay/prefs.py:378
+msgid "Set background opacity"
+msgstr "设置背景不透明度"
+
+#: overlay/prefs.py:337
+msgid "Set the overlay font size"
+msgstr "设置叠加层字体大小"
+
+#: meshcheck/properties.py:553
+#: meshcheck/properties.py:570
+msgid "Sharp"
+msgstr "锐边"
+
+#: meshcheck/properties.py:606
+msgid "Sharp Angle"
+msgstr "锐边角度"
+
+#: overlay/prefs.py:264
+msgid "Sharp Color"
+msgstr "锐边颜色"
+
+#: overlay/prefs.py:274
+msgid "Sharp Offset"
+msgstr "锐边偏移"
+
+#: meshcheck/properties.py:525
+msgid "Show Overlay"
+msgstr "显示叠加层"
+
+#: overlay/prefs.py:346
+#: overlay/prefs.py:443
+msgid "Show Unapplied Scale Warning"
+msgstr "显示未应用缩放警告"
+
+#: overlay/prefs.py:311
+#: overlay/prefs.py:449
+msgid "Show Units"
+msgstr "显示单位"
+
+#: overlay/prefs.py:557
+msgid "Show live triangle count and overall dimensions for the current mesh selection."
+msgstr "显示当前网格选择的实时三角面数和整体尺寸。"
+
+#: meshcheck/properties.py:507
+msgid "Show mesh issue diagnostics"
+msgstr "显示网格问题诊断"
+
+#: overlay/prefs.py:346
+msgid "Show the unapplied scale warning in the status line"
+msgstr "在状态栏中显示未应用缩放警告"
+
+#: meshcheck/properties.py:508
+msgid "Show triangle density ranking"
+msgstr "显示三角面密度排名"
+
+#: overlay/prefs.py:311
+msgid "Show units next to dimension values"
+msgstr "在尺寸值旁显示单位"
+
+#: meshcheck/properties.py:615
+msgid "Skip Marked Sharp"
+msgstr "跳过已标记锐边"
+
+#: meshcheck/properties.py:627
+msgid "Sort by UV map count"
+msgstr "按 UV 贴图数量排序"
+
+#: meshcheck/properties.py:638
+msgid "Sort by doubles count"
+msgstr "按重复顶点数排序"
+
+#: meshcheck/properties.py:639
+msgid "Sort by isolated vertex count"
+msgstr "按孤立顶点数排序"
+
+#: meshcheck/properties.py:626
+msgid "Sort by material and slot count"
+msgstr "按材质和槽位数量排序"
+
+#: meshcheck/properties.py:640
+msgid "Sort by needle triangle count"
+msgstr "按针状三角面数排序"
+
+#: meshcheck/properties.py:637
+msgid "Sort by ngon count"
+msgstr "按多边面数量排序"
+
+#: meshcheck/properties.py:644
+msgid "Sort by non-manifold edge count"
+msgstr "按非流形边数量排序"
+
+#: meshcheck/properties.py:628
+#: meshcheck/properties.py:646
+msgid "Sort by object name"
+msgstr "按物体名称排序"
+
+#: meshcheck/properties.py:643
+msgid "Sort by pole count"
+msgstr "按极点数量排序"
+
+#: meshcheck/properties.py:645
+msgid "Sort by sharp edge count"
+msgstr "按锐边数量排序"
+
+#: meshcheck/properties.py:641
+msgid "Sort by tiny face count"
+msgstr "按微小面数量排序"
+
+#: meshcheck/properties.py:624
+msgid "Sort by triangle count"
+msgstr "按三角面数量排序"
+
+#: meshcheck/properties.py:642
+msgid "Sort by triangle face count"
+msgstr "按三角形面数排序"
+
+#: meshcheck/properties.py:625
+msgid "Sort by triangle ratio"
+msgstr "按三角面比率排序"
+
+#: overlay/prefs.py:430
+msgid "Text HUD"
+msgstr "文本 HUD"
+
+#: meshcheck/properties.py:589
+msgid "Tiny Face Area"
+msgstr "微小面面积"
+
+#: meshcheck/properties.py:549
+#: meshcheck/properties.py:566
+msgid "Tiny Faces"
+msgstr "微小面"
+
+#: overlay/prefs.py:207
+msgid "Tiny Faces Color"
+msgstr "微小面颜色"
+
+#: overlay/prefs.py:217
+msgid "Tiny Faces Offset"
+msgstr "微小面偏移"
+
+#: meshcheck/properties.py:550
+#: meshcheck/properties.py:567
+msgid "Triangles"
+msgstr "三角面"
+
+#: overlay/prefs.py:226
+msgid "Triangles Color"
+msgstr "三角面颜色"
+
+#: overlay/prefs.py:236
+msgid "Triangles Offset"
+msgstr "三角面偏移"
+
+#: analysis_hud/core.py:77
+#: meshcheck/properties.py:624
+msgid "Tris"
+msgstr "三角面"
+
+#: overlay/prefs.py:388
+msgid "UI Position"
+msgstr "UI 位置"
+
+#: analysis_hud/core.py:83
+#: meshcheck/properties.py:627
+msgid "UVs"
+msgstr "UV"
+
+#: overlay/prefs.py:325
+msgid "Unit System"
+msgstr "单位系统"
+
+#: overlay/prefs.py:447
+msgid "Units"
+msgstr "单位"
+
+#: overlay/prefs.py:304
+#: overlay/prefs.py:442
+msgid "Use Axis Colors"
+msgstr "使用轴颜色"
+
+#: overlay/prefs.py:407
+msgid "Vertical offset from the selected corner"
+msgstr "距所选角的垂直偏移"
+
+#: meshcheck/properties.py:598
+msgid "Vertices with more connected edges than this threshold are classified as poles"
+msgstr "连接边数超过此阈值的顶点会被归类为极点"
+
+#: meshcheck/properties.py:517
+msgid "Visible"
+msgstr "可见"
+
+#: overlay/prefs.py:399
+#: overlay/prefs.py:472
+msgid "X Offset"
+msgstr "X 偏移"
+
+#: meshcheck/properties.py:531
+msgid "X-Ray Check Overlay"
+msgstr "X 光检查叠加层"
+
+#: overlay/prefs.py:407
+#: overlay/prefs.py:473
+msgid "Y Offset"
+msgstr "Y 偏移"
+
+#: ui/check_detail.py:130
+msgid "—"
+msgstr "—"
+
+#: meshcheck/operators.py:627
+msgctxt "Operator"
+msgid "Enable or disable all check overlays"
+msgstr "启用或禁用所有检查叠加层"
+
+#: meshcheck/operators.py:284
+msgctxt "Operator"
+msgid "Enable or disable the current analysis HUD"
+msgstr "启用或禁用当前分析 HUD"
+
+#: meshcheck/operators.py:444
+msgctxt "Operator"
+msgid "Rebuild the current preview or check results"
+msgstr "重建当前预览或检查结果"
+
+#: meshcheck/operators.py:443
+msgctxt "Operator"
+msgid "Refresh Analysis Results"
+msgstr "刷新分析结果"
+
+#: meshcheck/operators.py:471
+msgctxt "Operator"
+msgid "Select Check Findings"
+msgstr "选择检查发现项"
+
+#: meshcheck/operators.py:472
+msgctxt "Operator"
+msgid "Select all mesh elements found by this check"
+msgstr "选择此检查发现的所有网格元素"
+
+#: meshcheck/operators.py:393
+msgctxt "Operator"
+msgid "Sort Mesh Check Results"
+msgstr "排序网格检查结果"
+
+#: meshcheck/operators.py:394
+msgctxt "Operator"
+msgid "Sort the current mode results by the selected column"
+msgstr "按所选列排序当前模式的结果"
+
+#: meshcheck/operators.py:626
+msgctxt "Operator"
+msgid "Toggle All Check Visibility"
+msgstr "切换所有检查可见性"
+
+#: meshcheck/operators.py:283
+msgctxt "Operator"
+msgid "Toggle Analysis HUD"
+msgstr "切换分析 HUD"

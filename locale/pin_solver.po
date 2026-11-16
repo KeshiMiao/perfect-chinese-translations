@@ -1,0 +1,1825 @@
+# perfect-chinese: 1
+# id: pin_solver
+# kind: addon
+# module: bl_ext.blender_org.pin_solver
+# name: PinSolver
+# name_zh: 相机对齐
+# translator: KeshiMiao
+# category: Tracking
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:7088
+msgid "* Blender does not support animated distortion."
+msgstr "* Blender 不支持动画畸变。"
+
+#: __init__.py:719
+msgid "1-Pin Solve: Keep the camera's absolute Z height unchanged"
+msgstr "单点求解：保持相机的绝对 Z 高度不变"
+
+#: __init__.py:725
+#: __init__.py:6865
+msgid "2D"
+msgstr "2D"
+
+#: __init__.py:725
+msgid "2D Viewport/Camera Coordinate (U,V) of the pin"
+msgstr "图钉的 2D 视图/相机坐标 (U,V)"
+
+#: __init__.py:3473
+msgid "2D cursor projection requires a manual pin in Camera View"
+msgstr "2D 游标投影需要在相机视图中手动放置图钉"
+
+#: __init__.py:6837
+msgid "2D(●):"
+msgstr "2D(●)："
+
+#: __init__.py:723
+#: __init__.py:6866
+msgid "3D"
+msgstr "3D"
+
+#: __init__.py:3478
+msgid "3D Cursor is behind the camera"
+msgstr "3D 游标位于相机后方"
+
+#: __init__.py:723
+msgid "3D World Coordinate of the pin"
+msgstr "图钉的 3D 世界坐标"
+
+#: __init__.py:6846
+#: __init__.py:6854
+msgid "3D(■):"
+msgstr "3D(■)："
+
+#: __init__.py:1142
+msgid "Accurate"
+msgstr "精确"
+
+#: __init__.py:1116
+msgid "Active ICP Alignment Pin"
+msgstr "活动 ICP 对齐图钉"
+
+#: __init__.py:971
+msgid "Active Layout Pin - Select a pin to view or edit its coordinates"
+msgstr "活动布局图钉 - 选择图钉以查看或编辑其坐标"
+
+#: __init__.py:973
+msgid "Active Matchmove Track - Select a tracked pin to view or edit its coordinates"
+msgstr "活动匹配移动轨迹 - 选择已跟踪的图钉以查看或编辑其坐标"
+
+#: __init__.py:1221
+msgid "Active Pin Radius"
+msgstr "活动图钉半径"
+
+#: __init__.py:3141
+msgid "Add Pin"
+msgstr "添加图钉"
+
+#: __init__.py:708
+msgid "Add Pin Offset"
+msgstr "添加图钉偏移"
+
+#: __init__.py:695
+msgid "Add Pins at 3D Cursor"
+msgstr "在 3D 游标处添加图钉"
+
+#: __init__.py:3115
+msgid "Add Target"
+msgstr "添加目标"
+
+#: __init__.py:3116
+msgid "Add a new Object target slot to align"
+msgstr "添加新的要对齐的物体目标槽"
+
+#: __init__.py:3142
+msgid "Add a new pin to the list"
+msgstr "向列表添加新图钉"
+
+#: __init__.py:5819
+msgid "Add an Alignment Pin first"
+msgstr "请先添加对齐图钉"
+
+#: __init__.py:6778
+msgid "Add/Select an Object to align"
+msgstr "添加/选择要对齐的物体"
+
+#: __init__.py:1020
+msgid "Adjust how strongly Guided Location follows the existing camera location curve"
+msgstr "调整引导位置跟随现有相机位置曲线的强度"
+
+#: __init__.py:1044
+msgid "Adjust the strength of the selected roll smoothing mode"
+msgstr "调整所选横滚平滑模式的强度"
+
+#: __init__.py:1135
+#: __init__.py:7254
+msgid "Advanced"
+msgstr "高级"
+
+#: __init__.py:1060
+msgid "Align a selected target Object to the Camera"
+msgstr "将选中的目标物体对齐到相机"
+
+#: __init__.py:1058
+msgid "Align the Camera itself"
+msgstr "对齐相机本身"
+
+#: __init__.py:1059
+msgid "Align the Parent object of the Camera"
+msgstr "对齐相机的父级物体"
+
+#: __init__.py:7193
+msgid "Alignment Pins"
+msgstr "对齐图钉"
+
+#: __init__.py:1129
+msgid "Allow ICP refinement to estimate uniform scale in addition to rotation and translation"
+msgstr "允许 ICP 细化在旋转和平移之外估计统一缩放"
+
+#: __init__.py:1081
+msgid "Allow the solver to estimate K1 (Radial Distortion)"
+msgstr "允许求解器估计 K1（径向畸变）"
+
+#: __init__.py:1082
+msgid "Allow the solver to estimate K2 (Radial Distortion)"
+msgstr "允许求解器估计 K2（径向畸变）"
+
+#: __init__.py:1083
+msgid "Allow the solver to estimate K3 (Radial Distortion)"
+msgstr "允许求解器估计 K3（径向畸变）"
+
+#: __init__.py:1079
+msgid "Allow the solver to estimate and modify the Focal Length"
+msgstr "允许求解器估计并修改焦距"
+
+#: __init__.py:1080
+msgid "Allow the solver to estimate and modify the Optical Center (Camera Shift)"
+msgstr "允许求解器估计并修改光学中心（相机偏移）"
+
+#: __init__.py:693
+msgid "Always Snap to Vertex"
+msgstr "始终吸附到顶点"
+
+#: __init__.py:966
+msgid "Animate target based on tracker data"
+msgstr "根据跟踪器数据为目标设置动画"
+
+#: __init__.py:7024
+msgid "Animation Settings:"
+msgstr "动画设置："
+
+#: __init__.py:1240
+msgid "Applied"
+msgstr "已应用"
+
+#: __init__.py:1040
+msgid "Apply stronger camera roll smoothing for one-sided tracker layouts"
+msgstr "对单侧跟踪器布局应用更强的相机横滚平滑"
+
+#: __init__.py:1139
+#: __init__.py:1177
+msgid "Auto"
+msgstr "自动"
+
+#: __init__.py:1030
+msgid "Auto Raycast New Tracks"
+msgstr "自动射线投射新轨迹"
+
+#: __init__.py:1094
+msgid "Average All Frames"
+msgstr "平均所有帧"
+
+#: __init__.py:985
+msgid "Bake Range"
+msgstr "烘焙范围"
+
+#: __init__.py:988
+msgid "Bake only on frames that contain timeline markers"
+msgstr "仅在包含时间轴标记的帧上烘焙"
+
+#: __init__.py:987
+msgid "Bake using the scene's start and end frames"
+msgstr "使用场景的起始帧和结束帧进行烘焙"
+
+#: __init__.py:1141
+msgid "Balanced"
+msgstr "均衡"
+
+#: __init__.py:1092
+msgid "Base Params"
+msgstr "基础参数"
+
+#: __init__.py:729
+msgid "Binding strength. 0.0 = Normal, 1.0 = Max Constraint"
+msgstr "绑定强度。0.0 = 正常，1.0 = 最大约束"
+
+#: __init__.py:3236
+msgid "Calculate and apply the camera/object pose based on active pins"
+msgstr "根据活动图钉计算并应用相机/物体姿态"
+
+#: __init__.py:1094
+msgid "Calculate average intrinsics across bake range"
+msgstr "计算烘焙范围内的平均内参"
+
+#: __init__.py:1095
+msgid "Calculate median intrinsics across bake range"
+msgstr "计算烘焙范围内内参中位数"
+
+#: __init__.py:1088
+msgid "Calculate single optimal lens for all frames without keyframing"
+msgstr "为所有帧计算单一最优镜头，不设置关键帧"
+
+#: __init__.py:1058
+msgid "Camera"
+msgstr "相机"
+
+#: __init__.py:5839
+#: __init__.py:6229
+msgid "Cancel or wait for ICP to finish first"
+msgstr "请先取消或等待 ICP 完成"
+
+#: __init__.py:1242
+msgid "Cancelled"
+msgstr "已取消"
+
+#: __init__.py:3084
+msgid "Change the target object to be aligned by the solver"
+msgstr "更改由求解器对齐的目标物体"
+
+#: __init__.py:1139
+msgid "Choose samples and correspondence distance from the selected meshes"
+msgstr "从选中的网格中选取采样点并设置对应距离"
+
+#: __init__.py:3216
+msgid "Clear All Pins"
+msgstr "清除所有图钉"
+
+#: __init__.py:7038
+msgid "Clip"
+msgstr "裁剪"
+
+#: __init__.py:1213
+msgid "Coarse Levels"
+msgstr "粗略层级"
+
+#: __init__.py:726
+#: __init__.py:1106
+msgid "Color"
+msgstr "颜色"
+
+#: __init__.py:726
+msgid "Color code of the pin"
+msgstr "图钉的颜色代码"
+
+#: __init__.py:1106
+msgid "Color for this ICP alignment pin pair"
+msgstr "此 ICP 对齐图钉对的颜色"
+
+#: __init__.py:717
+msgid "Color of the text outline"
+msgstr "文本描边颜色"
+
+#: __init__.py:1255
+msgid "Confidence"
+msgstr "置信度"
+
+#: __init__.py:1258
+msgid "Coverage"
+msgstr "覆盖率"
+
+#: __init__.py:1193
+msgid "Coverage Balance"
+msgstr "覆盖率平衡"
+
+#: __init__.py:730
+msgid "Current reprojection error distance in pixels"
+msgstr "当前重投影误差距离（像素）"
+
+#: __init__.py:1144
+msgid "Custom"
+msgstr "自定义"
+
+#: __init__.py:979
+msgid "Custom Range"
+msgstr "自定义范围"
+
+#: __init__.py:714
+msgid "Custom Text Color"
+msgstr "自定义文本颜色"
+
+#: __init__.py:715
+msgid "Custom color for the pin labels"
+msgstr "图钉标签的自定义颜色"
+
+#: __init__.py:722
+msgid "Custom name for this pin"
+msgstr "此图钉的自定义名称"
+
+#: __init__.py:1141
+msgid "Default quality and speed"
+msgstr "默认质量和速度"
+
+#: __init__.py:7292
+msgid "Display"
+msgstr "显示"
+
+#: __init__.py:710
+msgid "Display pin names during interactive tweak mode"
+msgstr "在交互式微调模式下显示图钉名称"
+
+#: __init__.py:709
+msgid "Display pin names in normal solve mode"
+msgstr "在普通求解模式下显示图钉名称"
+
+#: __init__.py:980
+msgid "Display the Custom Range on the timeline"
+msgstr "在时间轴上显示自定义范围"
+
+#: __init__.py:711
+msgid "Display the reprojection error value next to the 3D pin"
+msgstr "在 3D 图钉旁显示重投影误差值"
+
+#: __init__.py:712
+msgid "Display the weight value next to the 3D pin"
+msgstr "在 3D 图钉旁显示权重值"
+
+#: __init__.py:708
+msgid "Distance in meters from the camera when a new pin is manually added"
+msgstr "手动添加新图钉时距相机的距离（米）"
+
+#: __init__.py:7121
+#: __init__.py:7122
+msgid "Distortion K1"
+msgstr "畸变 K1"
+
+#: __init__.py:7127
+#: __init__.py:7128
+msgid "Distortion K2"
+msgstr "畸变 K2"
+
+#: __init__.py:7133
+#: __init__.py:7134
+msgid "Distortion K3"
+msgstr "畸变 K3"
+
+#: __init__.py:7069
+msgid "Distortion Model: Polynomial"
+msgstr "畸变模型：多项式"
+
+#: __init__.py:7069
+msgid "Distortion: (Locked)"
+msgstr "畸变：（已锁定）"
+
+#: __init__.py:716
+msgid "Draw an outline around text labels for better visibility"
+msgstr "在文本标签周围绘制轮廓以提高可见性"
+
+#: __init__.py:1030
+msgid "During sequence bake, raycast newly active trackers after their first solved frame so they can join later frames"
+msgstr "在序列烘焙期间，对首次解算帧之后新激活的跟踪器执行光线投射，使其能加入后续帧"
+
+#: __init__.py:6729
+msgid "Ensure 'opencv-python' wheel is installed"
+msgstr "确保已安装 'opencv-python' wheel"
+
+#: __init__.py:730
+#: __init__.py:1243
+msgid "Error"
+msgstr "错误"
+
+#: __init__.py:1124
+msgid "Estimate uniform scale from Alignment Pins before ICP refinement"
+msgstr "在 ICP 细化前从对齐图钉估计均匀缩放"
+
+#: __init__.py:1150
+msgid "Evaluated Source"
+msgstr "已求值源"
+
+#: __init__.py:1151
+msgid "Evaluated Target"
+msgstr "已求值目标"
+
+#: __init__.py:995
+msgid "Existing Location"
+msgstr "现有位置"
+
+#: __init__.py:4194
+msgid "Existing Location requires 2+ valid pins for rotation solve"
+msgstr "现有位置需要至少 2 个有效图钉才能解算旋转"
+
+#: __init__.py:6948
+msgid "Existing curve guides solve and final location"
+msgstr "现有曲线引导解算与最终位置"
+
+#: __init__.py:1069
+msgid "Expand Lens Calibration settings"
+msgstr "展开镜头校准设置"
+
+#: __init__.py:1068
+msgid "Expand sequence solver options"
+msgstr "展开序列解算器选项"
+
+#: __init__.py:1070
+msgid "Expand to change appearance and behaviors"
+msgstr "展开以更改外观和行为"
+
+#: __init__.py:1067
+msgid "Expand to manually edit 2D and 3D coordinates"
+msgstr "展开以手动编辑 2D 和 3D 坐标"
+
+#: __init__.py:1140
+msgid "Fast"
+msgstr "快速"
+
+#: __init__.py:6961
+msgid "Filter also eases into fixed marker frames"
+msgstr "过滤器也会缓动至固定标记帧"
+
+#: __init__.py:1143
+msgid "Fine"
+msgstr "精细"
+
+#: __init__.py:5659
+msgid "Finish or cancel the current pick first"
+msgstr "请先完成或取消当前拾取"
+
+#: __init__.py:1079
+msgid "Focal Length"
+msgstr "焦距"
+
+#: __init__.py:7102
+msgid "Focal Length (mm)"
+msgstr "焦距（mm）"
+
+#: __init__.py:7049
+msgid "Focal Length:"
+msgstr "焦距："
+
+#: __init__.py:704
+msgid "Font size for the pin name labels"
+msgstr "图钉名称标签的字体大小"
+
+#: __init__.py:6752
+#: __init__.py:6761
+msgid "Frame Err: ---"
+msgstr "帧误差：---"
+
+#: __init__.py:7258
+msgid "Geometry"
+msgstr "几何"
+
+#: __init__.py:1020
+msgid "Guide Strength"
+msgstr "引导强度"
+
+#: __init__.py:996
+msgid "Guided Location"
+msgstr "引导位置"
+
+#: __init__.py:1142
+msgid "Higher sample counts and iterations"
+msgstr "更高的采样数和迭代次数"
+
+#: __init__.py:1006
+#: __init__.py:1040
+msgid "Hyper Smooth"
+msgstr "超级平滑"
+
+#: __init__.py:1129
+msgid "ICP Scale"
+msgstr "ICP 缩放"
+
+#: __init__.py:7273
+msgid "ICP Settings"
+msgstr "ICP 设置"
+
+#: __init__.py:5907
+msgid "ICP is already running"
+msgstr "ICP 已在运行"
+
+#: __init__.py:5849
+#: __init__.py:5916
+msgid "ICP is running in another scene"
+msgstr "ICP 正在另一场景中运行"
+
+#: __init__.py:983
+#: __init__.py:4086
+msgid "In"
+msgstr "入"
+
+#: __init__.py:728
+msgid "Include this pin in the Interactive Tweak calculation"
+msgstr "在交互微调计算中包含此图钉"
+
+#: __init__.py:1010
+msgid "Increase curve repair and final location smoothing after refinement"
+msgstr "细化后增加曲线修复和最终位置平滑"
+
+#: __init__.py:724
+msgid "Indicates if this pin has been properly raycasted or placed in 3D space"
+msgstr "指示此图钉是否已正确光线投射或放置在 3D 空间中"
+
+#: __init__.py:3545
+msgid "Interactive Pin Editor"
+msgstr "交互式图钉编辑器"
+
+#: __init__.py:3546
+msgid "Interactively adjust pin positions (drag to move, A to add, X to delete) without solving"
+msgstr "不解算即可交互调整图钉位置（拖动移动，A 添加，X 删除）"
+
+#: __init__.py:3685
+msgid "Interactively tweak alignment by dragging 3D pins, recalculating pose in real-time"
+msgstr "通过拖动 3D 图钉交互微调对齐，实时重新计算姿态"
+
+#: __init__.py:3977
+#: __init__.py:4125
+msgid "Invalid Track Layer"
+msgstr "无效跟踪层"
+
+#: __init__.py:1169
+msgid "Iterations"
+msgstr "迭代次数"
+
+#: __init__.py:1081
+#: __init__.py:7078
+msgid "K1"
+msgstr "K1"
+
+#: __init__.py:1082
+#: __init__.py:7079
+msgid "K2"
+msgstr "K2"
+
+#: __init__.py:1083
+#: __init__.py:7080
+msgid "K3"
+msgstr "K3"
+
+#: __init__.py:1203
+msgid "Keep only the closest correspondence fraction each ICP iteration to reduce pull from non-overlapping areas"
+msgstr "每次 ICP 迭代仅保留最近对应点比例，以减少非重叠区域的牵引"
+
+#: __init__.py:1038
+msgid "Keep solved roll as-is"
+msgstr "保持解算出的滚转为原样"
+
+#: __init__.py:995
+msgid "Keep the existing animated location and run a rotation-only solve from pins"
+msgstr "保留现有动画位置，并仅根据图钉解算旋转"
+
+#: __init__.py:977
+msgid "Keep the stored reference instead of using the current timeline frame"
+msgstr "保留存储的参考，而不使用当前时间线帧"
+
+#: __init__.py:1072
+#: __init__.py:1073
+msgid "Keep this setting visible even when the panel is collapsed"
+msgstr "即使面板折叠也保持此设置可见"
+
+#: __init__.py:6963
+msgid "Keeps existing location; solves rotation from pins"
+msgstr "保留现有位置；根据图钉解算旋转"
+
+#: __init__.py:1098
+msgid "Keyframe this to toggle between Static lens and Dynamic Zoom per frame"
+msgstr "为此设置关键帧，以逐帧在静态镜头和动态变焦之间切换"
+
+#: __init__.py:965
+msgid "Layout"
+msgstr "布局"
+
+#: __init__.py:947
+msgid "Layout Error"
+msgstr "布局错误"
+
+#: __init__.py:1086
+msgid "Lens Animation"
+msgstr "镜头动画"
+
+#: __init__.py:1069
+#: __init__.py:7002
+msgid "Lens Calibration"
+msgstr "镜头校准"
+
+#: __init__.py:706
+#: __init__.py:1223
+msgid "Line Opacity"
+msgstr "线条不透明度"
+
+#: __init__.py:705
+#: __init__.py:1222
+msgid "Line Width"
+msgstr "线条宽度"
+
+#: __init__.py:6943
+msgid "Location"
+msgstr "位置"
+
+#: __init__.py:1001
+#: __init__.py:6955
+msgid "Location Filter"
+msgstr "位置过滤器"
+
+#: __init__.py:991
+msgid "Location Source"
+msgstr "位置来源"
+
+#: __init__.py:1010
+msgid "Location Strength"
+msgstr "位置强度"
+
+#: __init__.py:1089
+msgid "Lock Base Params and calculate dynamic Focal Length per frame"
+msgstr "锁定基础参数并逐帧计算动态焦距"
+
+#: __init__.py:719
+msgid "Lock Camera Z (1-Pin)"
+msgstr "锁定相机 Z（单图钉）"
+
+#: __init__.py:977
+msgid "Lock Reference Frame"
+msgstr "锁定参考帧"
+
+#: __init__.py:1140
+msgid "Lower sample counts for quick previews"
+msgstr "降低采样数以快速预览"
+
+#: __init__.py:1067
+#: __init__.py:6861
+msgid "Manual Coordinates"
+msgstr "手动坐标"
+
+#: __init__.py:3264
+msgid "Manually push Blender camera lens parameters into the target Movie Clip tracking camera"
+msgstr "手动将 Blender 相机镜头参数推送到目标影片剪辑跟踪相机"
+
+#: __init__.py:6951
+msgid "Marker frames stay fixed; neighbors are blended"
+msgstr "标记帧保持固定；相邻帧进行混合"
+
+#: __init__.py:966
+msgid "Matchmove"
+msgstr "匹配移动"
+
+#: __init__.py:1172
+#: __init__.py:7290
+msgid "Max Distance"
+msgstr "最大距离"
+
+#: __init__.py:1095
+msgid "Median All Frames"
+msgstr "所有帧中值"
+
+#: __init__.py:1113
+msgid "Mesh object to align"
+msgstr "要对齐的网格物体"
+
+#: __init__.py:1114
+msgid "Mesh object to align the source to"
+msgstr "将源对齐到的网格物体"
+
+#: __init__.py:1248
+msgid "Message"
+msgstr "消息"
+
+#: __init__.py:6821
+msgid "Missing 3D Position (Raycast Needed)"
+msgstr "缺少 3D 位置（需要射线投射）"
+
+#: __init__.py:722
+#: __init__.py:1101
+msgid "Name"
+msgstr "名称"
+
+#: __init__.py:6213
+msgid "No ICP preview is running"
+msgstr "没有正在运行的 ICP 预览"
+
+#: __init__.py:4138
+msgid "No Timeline Markers found"
+msgstr "未找到时间线标记"
+
+#: __init__.py:4146
+msgid "No frames in the selected bake range"
+msgstr "所选烘焙范围内没有帧"
+
+#: __init__.py:3981
+msgid "No tracks found in the active layer"
+msgstr "活动层中未找到轨迹"
+
+#: __init__.py:4129
+msgid "No tracks found in the active tracking layer"
+msgstr "活动追踪层中未找到轨迹"
+
+#: __init__.py:3446
+msgid "No visible depth or mesh surface at the pick position"
+msgstr "拾取位置没有可见的深度或网格表面"
+
+#: __init__.py:1118
+#: __init__.py:1236
+msgid "None"
+msgstr "无"
+
+#: __init__.py:738
+#: __init__.py:1060
+msgid "Object"
+msgstr "物体"
+
+#: __init__.py:1004
+#: __init__.py:1038
+msgid "Off"
+msgstr "关闭"
+
+#: __init__.py:1223
+msgid "Opacity of ICP alignment pin connection lines"
+msgstr "ICP 对齐图钉连接线的不透明度"
+
+#: __init__.py:706
+msgid "Opacity of the line connecting 2D and 3D pins"
+msgstr "连接 2D 与 3D 图钉的线条不透明度"
+
+#: __init__.py:6728
+msgid "OpenCV Required!"
+msgstr "需要 OpenCV！"
+
+#: __init__.py:1080
+msgid "Optical Center"
+msgstr "光学中心"
+
+#: __init__.py:7059
+msgid "Optical Center (Shift):"
+msgstr "光学中心（Shift）："
+
+#: __init__.py:7059
+msgid "Optical Center: (Locked)"
+msgstr "光学中心：（已锁定）"
+
+#: __init__.py:1068
+#: __init__.py:6940
+msgid "Options"
+msgstr "选项"
+
+#: __init__.py:984
+#: __init__.py:4086
+msgid "Out"
+msgstr "外"
+
+#: __init__.py:1173
+msgid "Outlier Rejection"
+msgstr "异常值剔除"
+
+#: __init__.py:717
+msgid "Outline Color"
+msgstr "轮廓颜色"
+
+#: __init__.py:707
+msgid "Overall opacity of the on-screen overlays (pins, lines, texts)"
+msgstr "屏幕叠加层（图钉、线条、文本）的整体不透明度"
+
+#: __init__.py:1203
+#: __init__.py:1256
+msgid "Overlap"
+msgstr "重叠"
+
+#: __init__.py:707
+msgid "Overlay Opacity"
+msgstr "叠加层不透明度"
+
+#: __init__.py:1257
+msgid "P95 Residual"
+msgstr "P95 残差"
+
+#: __init__.py:1059
+msgid "Parent"
+msgstr "父级"
+
+#: __init__.py:3298
+msgid "Pick 2D"
+msgstr "拾取 2D"
+
+#: __init__.py:3360
+msgid "Pick 3D"
+msgstr "拾取 3D"
+
+#: __init__.py:697
+msgid "Pick Circle"
+msgstr "拾取圆"
+
+#: __init__.py:3299
+msgid "Pick a new 2D (U,V) position for the selected pin by clicking in the Camera View"
+msgstr "在摄像机视图中点击，为所选图钉拾取新的 2D (U,V) 位置"
+
+#: __init__.py:3361
+msgid "Pick visible geometry; Alt snaps to mesh vertices or visible point-cloud depth samples"
+msgstr "拾取可见几何体；按住 Alt 吸附到网格顶点或可见点云深度采样"
+
+#: __init__.py:7206
+msgid "Picking Source / Target"
+msgstr "拾取源 / 目标"
+
+#: __init__.py:7172
+msgid "Pin Align"
+msgstr "图钉对齐"
+
+#: __init__.py:1134
+#: __init__.py:7211
+msgid "Pin Coordinates"
+msgstr "图钉坐标"
+
+#: __init__.py:1074
+msgid "Pin Distortion"
+msgstr "图钉畸变"
+
+#: __init__.py:1072
+msgid "Pin Focal Length"
+msgstr "图钉焦距"
+
+#: __init__.py:1073
+msgid "Pin Optical Center"
+msgstr "图钉光学中心"
+
+#: __init__.py:703
+#: __init__.py:1220
+msgid "Pin Radius"
+msgstr "图钉半径"
+
+#: __init__.py:1124
+msgid "Pin Scale"
+msgstr "图钉缩放"
+
+#: __init__.py:6717
+#: __init__.py:7171
+msgid "PinSolver"
+msgstr "PinSolver"
+
+#: __init__.py:1070
+#: __init__.py:7136
+msgid "PinSolver Settings"
+msgstr "PinSolver 设置"
+
+#: __init__.py:695
+msgid "Place new Layout pins added with the plus button at the 3D Cursor"
+msgstr "将使用加号按钮添加的新布局图钉放置在 3D 游标处"
+
+#: __init__.py:961
+msgid "Planar Mode"
+msgstr "平面模式"
+
+#: __init__.py:6894
+#: __init__.py:6993
+msgid "Planar Mode (Flat Surface)"
+msgstr "平面模式（平坦表面）"
+
+#: __init__.py:6899
+#: __init__.py:6998
+msgid "Planar Mode requires 4+ active pins!"
+msgstr "平面模式需要至少 4 个活动图钉！"
+
+#: __init__.py:6734
+msgid "Please set an active Camera"
+msgstr "请设置活动摄像机"
+
+#: __init__.py:699
+msgid "Point cloud search radius as a percentage of the image's shorter side"
+msgstr "点云搜索半径，占图像较短边的百分比"
+
+#: __init__.py:1179
+msgid "Point-to-Plane"
+msgstr "点到平面"
+
+#: __init__.py:1178
+msgid "Point-to-Point"
+msgstr "点到点"
+
+#: __init__.py:1193
+msgid "Prefer correspondences spread across the common target area instead of letting one local patch dominate"
+msgstr "优先使对应关系分布在整个公共目标区域，而不是让单个局部区域占主导"
+
+#: __init__.py:1238
+msgid "Preview"
+msgstr "预览"
+
+#: __init__.py:980
+msgid "Preview Range"
+msgstr "预览范围"
+
+#: __init__.py:1136
+msgid "Quality"
+msgstr "质量"
+
+#: __init__.py:1220
+msgid "Radius of ICP alignment pins"
+msgstr "ICP 对齐图钉的半径"
+
+#: __init__.py:1221
+msgid "Radius of the active ICP alignment pin"
+msgstr "活动 ICP 对齐图钉的半径"
+
+#: __init__.py:703
+msgid "Radius of the drawn pins (2D and 3D) in pixels"
+msgstr "绘制的图钉（2D 和 3D）半径（像素）"
+
+#: __init__.py:6928
+msgid "Range: Timeline Markers"
+msgstr "范围：时间线标记"
+
+#: __init__.py:5763
+msgid "Raycast missed Source and Target objects"
+msgstr "射线投射未命中源物体和目标物体"
+
+#: __init__.py:3540
+msgid "Raycast missed geometry"
+msgstr "射线投射未命中几何体"
+
+#: __init__.py:6791
+msgid "Raycasts new active trackers during bake"
+msgstr "烘焙期间对新活动追踪点进行射线投射"
+
+#: __init__.py:976
+msgid "Reference Frame"
+msgstr "参考帧"
+
+#: __init__.py:4149
+msgid "Reference Frame must be inside the bake range"
+msgstr "参考帧必须位于烘焙范围内"
+
+#: __init__.py:1174
+msgid "Refinement"
+msgstr "细化"
+
+#: __init__.py:3199
+msgid "Remove Pin"
+msgstr "移除图钉"
+
+#: __init__.py:3127
+msgid "Remove Target"
+msgstr "移除目标"
+
+#: __init__.py:3217
+msgid "Remove all pins from the list (WARNING: Cannot be undone easily)"
+msgstr "从列表中移除所有图钉（警告：不易撤销）"
+
+#: __init__.py:3128
+msgid "Remove the selected Object target slot"
+msgstr "移除选中的物体目标槽"
+
+#: __init__.py:3200
+msgid "Remove the selected pin from the list"
+msgstr "从列表中移除选中的图钉"
+
+#: __init__.py:3511
+#: __init__.py:4036
+msgid "Requires an active Camera View viewport"
+msgstr "需要一个活动的摄像机视图"
+
+#: __init__.py:1249
+msgid "Residual"
+msgstr "残差"
+
+#: __init__.py:1241
+msgid "Reverted"
+msgstr "已还原"
+
+#: __init__.py:1005
+msgid "Robust PnP, location smoothing, and 7-frame camera/zoom refinement"
+msgstr "稳健 PnP、位置平滑和 7 帧摄像机/缩放细化"
+
+#: __init__.py:1035
+#: __init__.py:6964
+msgid "Roll Smoothing"
+msgstr "滚转平滑"
+
+#: __init__.py:1044
+msgid "Roll Strength"
+msgstr "滚转强度"
+
+#: __init__.py:1251
+msgid "Rotation"
+msgstr "旋转"
+
+#: __init__.py:1213
+msgid "Run ICP from coarse samples to finer samples for faster convergence on large meshes"
+msgstr "从粗采样到细采样运行 ICP，以在大型网格上更快收敛"
+
+#: __init__.py:1237
+msgid "Running"
+msgstr "运行中"
+
+#: __init__.py:987
+msgid "Scene Range"
+msgstr "场景范围"
+
+#: __init__.py:697
+msgid "Screen radius in pixels; change with wheel or plus/minus while picking"
+msgstr "屏幕半径（像素）；拾取时可用滚轮或加减号调整"
+
+#: __init__.py:1167
+msgid "Seed"
+msgstr "种子"
+
+#: __init__.py:4116
+msgid "Select a Movie Clip for sequence solving"
+msgstr "选择用于序列解算的影片剪辑"
+
+#: __init__.py:1076
+msgid "Select a Movie Clip to sync with trackers and lens parameters"
+msgstr "选择要与跟踪器和镜头参数同步的影片剪辑"
+
+#: __init__.py:6332
+msgid "Select exactly two meshes or point clouds"
+msgstr "请选择恰好两个网格或点云"
+
+#: __init__.py:738
+msgid "Select the object to be aligned"
+msgstr "选择要对齐的物体"
+
+#: __init__.py:1077
+msgid "Select the tracking object layer from the Movie Clip"
+msgstr "从影片剪辑中选择跟踪物体层"
+
+#: __init__.py:1055
+msgid "Select which object will be transformed by the solver"
+msgstr "选择将由求解器变换的物体"
+
+#: __init__.py:1156
+msgid "Selected Faces"
+msgstr "选中的面"
+
+#: __init__.py:1157
+msgid "Selected Vertices"
+msgstr "选中的顶点"
+
+#: __init__.py:7236
+msgid "Selection mask uses base Source mesh"
+msgstr "选择遮罩使用基础源网格"
+
+#: __init__.py:7042
+msgid "Sensor Size (mm)"
+msgstr "传感器尺寸（mm）"
+
+#: __init__.py:6758
+#: __init__.py:6763
+msgid "Seq Avg Err: ---"
+msgstr "序列平均误差：---"
+
+#: __init__.py:948
+msgid "Sequence Error"
+msgstr "序列误差"
+
+#: __init__.py:4196
+msgid "Sequence PnP requires 4+ valid pins"
+msgstr "序列 PnP 需要至少 4 个有效固定点"
+
+#: __init__.py:6910
+msgid "Sequence Solver"
+msgstr "序列求解器"
+
+#: __init__.py:4086
+msgid "Set In"
+msgstr "设置入点"
+
+#: __init__.py:4086
+msgid "Set Out"
+msgstr "设置出点"
+
+#: __init__.py:3454
+msgid "Set Pin from 3D Cursor"
+msgstr "从 3D 光标设置固定点"
+
+#: __init__.py:3083
+msgid "Set Solve Target"
+msgstr "设置解算目标"
+
+#: __init__.py:5656
+msgid "Set Source and Target before adding pin pairs"
+msgstr "添加固定点对前请先设置源和目标"
+
+#: __init__.py:3455
+msgid "Set the active pin's 3D position to the 3D Cursor"
+msgstr "将活动固定点的 3D 位置设为 3D 光标位置"
+
+#: __init__.py:7108
+msgid "Shift X"
+msgstr "X 偏移"
+
+#: __init__.py:7108
+msgid "Shift Y"
+msgstr "Y 偏移"
+
+#: __init__.py:1225
+msgid "Show Alignment Pins; enabling this disables the main PinSolver overlay"
+msgstr "显示对齐固定点；启用后将禁用主 PinSolver 叠加层"
+
+#: __init__.py:711
+msgid "Show Error on 3D Pin"
+msgstr "在 3D 固定点上显示误差"
+
+#: __init__.py:1225
+msgid "Show ICP Preview"
+msgstr "显示 ICP 预览"
+
+#: __init__.py:709
+msgid "Show Pin Names (Solve)"
+msgstr "显示固定点名称（解算）"
+
+#: __init__.py:710
+msgid "Show Pin Names (Tweak)"
+msgstr "显示固定点名称（微调）"
+
+#: __init__.py:950
+msgid "Show Pins"
+msgstr "显示固定点"
+
+#: __init__.py:701
+msgid "Show Track Circles"
+msgstr "显示跟踪圆"
+
+#: __init__.py:712
+msgid "Show Weight on 3D Pin"
+msgstr "在 3D 固定点上显示权重"
+
+#: __init__.py:1135
+msgid "Show detailed ICP geometry and solver settings"
+msgstr "显示详细的 ICP 几何和解算器设置"
+
+#: __init__.py:1134
+msgid "Show numeric ICP alignment pin coordinates"
+msgstr "显示 ICP 对齐固定点的数值坐标"
+
+#: __init__.py:965
+msgid "Single frame static alignment"
+msgstr "单帧静态对齐"
+
+#: __init__.py:1005
+#: __init__.py:1039
+msgid "Smooth"
+msgstr "平滑"
+
+#: __init__.py:1039
+msgid "Smooth camera roll while keeping the solved viewing direction"
+msgstr "在保持解算观察方向的同时平滑相机滚转"
+
+#: __init__.py:693
+msgid "Snap to mesh vertices or the approximate center of displayed cloud points. Hold Alt for temporary snapping"
+msgstr "吸附到网格顶点或显示点云点的近似中心。按住 Alt 可临时吸附"
+
+#: __init__.py:727
+msgid "Solve"
+msgstr "解算"
+
+#: __init__.py:3235
+msgid "Solve Alignment"
+msgstr "解算对齐"
+
+#: __init__.py:994
+msgid "Solve Location"
+msgstr "解算位置"
+
+#: __init__.py:1055
+msgid "Solve Target"
+msgstr "解算目标"
+
+#: __init__.py:6766
+msgid "Solve Target:"
+msgstr "解算目标："
+
+#: __init__.py:6953
+msgid "Solves location from active pins"
+msgstr "根据活动固定点解算位置"
+
+#: __init__.py:1102
+#: __init__.py:1113
+msgid "Source"
+msgstr "源"
+
+#: __init__.py:7261
+msgid "Source Eval"
+msgstr "源求值"
+
+#: __init__.py:7232
+#: __init__.py:7234
+msgid "Source Group"
+msgstr "源组"
+
+#: __init__.py:1104
+msgid "Source Local"
+msgstr "源局部"
+
+#: __init__.py:1152
+#: __init__.py:7228
+msgid "Source Mask"
+msgstr "源遮罩"
+
+#: __init__.py:1252
+msgid "Source Points"
+msgstr "源点"
+
+#: __init__.py:1165
+msgid "Source Samples"
+msgstr "源采样"
+
+#: __init__.py:1107
+msgid "Source Set"
+msgstr "源集合"
+
+#: __init__.py:1162
+msgid "Source Vertex Group"
+msgstr "源顶点组"
+
+#: __init__.py:1102
+msgid "Source object correspondence point in world space"
+msgstr "源物体在世界空间中的对应点"
+
+#: __init__.py:3684
+msgid "Start Tweak"
+msgstr "开始微调"
+
+#: __init__.py:1088
+msgid "Static Lens"
+msgstr "静态镜头"
+
+#: __init__.py:1233
+msgid "Status"
+msgstr "状态"
+
+#: __init__.py:1183
+msgid "Strength of tangential surface matching during point-to-plane refinement"
+msgstr "点到平面细化期间切向表面匹配的强度"
+
+#: __init__.py:1006
+msgid "Stronger location smoothing and 15-frame camera/zoom refinement for difficult tracks"
+msgstr "针对困难跟踪使用更强的位置平滑和 15 帧相机/缩放细化"
+
+#: __init__.py:1183
+msgid "Surface Lock"
+msgstr "表面锁定"
+
+#: __init__.py:3263
+msgid "Sync Lens"
+msgstr "同步镜头"
+
+#: __init__.py:691
+msgid "Sync Track Selection"
+msgstr "同步跟踪选择"
+
+#: __init__.py:691
+msgid "Synchronize active Matchmove pins and Clip tracks while Show Pins is enabled; list clicks select one Clip track, Clip multi-selection is preserved when reading from Clip"
+msgstr "启用“显示固定点”时，同步活动的 Matchmove 固定点与影片剪辑跟踪；单击列表选择一个影片剪辑跟踪，从影片剪辑读取时保留多选"
+
+#: __init__.py:1103
+#: __init__.py:1114
+msgid "Target"
+msgstr "目标"
+
+#: __init__.py:1076
+msgid "Target Clip"
+msgstr "目标影片剪辑"
+
+#: __init__.py:3969
+msgid "Target Clip is not set"
+msgstr "目标影片剪辑未设置"
+
+#: __init__.py:7262
+msgid "Target Eval"
+msgstr "目标求值"
+
+#: __init__.py:1105
+msgid "Target Local"
+msgstr "目标局部"
+
+#: __init__.py:1253
+msgid "Target Points"
+msgstr "目标点"
+
+#: __init__.py:1166
+msgid "Target Samples"
+msgstr "目标采样"
+
+#: __init__.py:7264
+msgid "Target Selected"
+msgstr "目标选中"
+
+#: __init__.py:1163
+msgid "Target Selected Faces"
+msgstr "目标选中面"
+
+#: __init__.py:1108
+msgid "Target Set"
+msgstr "目标集合"
+
+#: __init__.py:1103
+msgid "Target object correspondence point in world space"
+msgstr "目标物体在世界空间中的对应点"
+
+#: __init__.py:7266
+msgid "Target selection uses base mesh"
+msgstr "目标选择使用基础网格"
+
+#: __init__.py:715
+msgid "Text Color"
+msgstr "文本颜色"
+
+#: __init__.py:716
+msgid "Text Outline"
+msgstr "文本轮廓"
+
+#: __init__.py:704
+msgid "Text Size"
+msgstr "文本大小"
+
+#: __init__.py:976
+msgid "The frame where 3D Pins are perfectly aligned to the scene"
+msgstr "3D 固定点与场景完全对齐的帧"
+
+#: __init__.py:705
+msgid "Thickness of the line connecting 2D and 3D pins"
+msgstr "连接 2D 与 3D 固定点的线条粗细"
+
+#: __init__.py:1143
+msgid "Tighter final alignment for identical or very similar meshes"
+msgstr "对相同或非常相似的网格进行更严格的最终对齐"
+
+#: __init__.py:1254
+msgid "Time"
+msgstr "时间"
+
+#: __init__.py:988
+#: __init__.py:997
+msgid "Timeline Markers"
+msgstr "时间线标记"
+
+#: __init__.py:4154
+#: __init__.py:6945
+msgid "Timeline Markers source requires Scene Range"
+msgstr "时间线标记来源需要场景范围"
+
+#: __init__.py:4167
+msgid "Timeline Markers source requires markers inside the scene range"
+msgstr "时间线标记来源需要标记位于场景范围内"
+
+#: __init__.py:3095
+msgid "Toggle Pin Property"
+msgstr "切换钉属性"
+
+#: __init__.py:3072
+msgid "Toggle Show Pins"
+msgstr "切换显示钉"
+
+#: __init__.py:727
+msgid "Toggle pin participation and visibility"
+msgstr "切换钉的参与和可见性"
+
+#: __init__.py:3096
+msgid "Toggle the participation of this pin in calculations"
+msgstr "切换此钉是否参与计算"
+
+#: __init__.py:950
+msgid "Toggle the visibility of all pins and lines in the 3D Viewport"
+msgstr "切换 3D 视图中所有钉和线条的可见性"
+
+#: __init__.py:3073
+msgid "Toggle visibility of all pins and overlays in the 3D viewport"
+msgstr "切换 3D 视图中所有钉和叠加层的可见性"
+
+#: __init__.py:1170
+msgid "Tolerance"
+msgstr "容差"
+
+#: __init__.py:1077
+#: __init__.py:6786
+msgid "Track Layer"
+msgstr "跟踪层"
+
+#: __init__.py:731
+msgid "Track Name"
+msgstr "跟踪名称"
+
+#: __init__.py:699
+msgid "Track Radius (%)"
+msgstr "跟踪半径 (%)"
+
+#: __init__.py:6784
+msgid "Tracker Clip"
+msgstr "跟踪片段"
+
+#: __init__.py:1250
+msgid "Translation"
+msgstr "平移"
+
+#: __init__.py:728
+msgid "Tweak"
+msgstr "微调"
+
+#: __init__.py:957
+msgid "Un-distorts 2D pins in the viewport to match the linear 3D pins perfectly"
+msgstr "在视图中对 2D 钉进行去畸变，使其与线性 3D 钉完全匹配"
+
+#: __init__.py:957
+msgid "Undistort 2D Pins"
+msgstr "去畸变 2D 钉"
+
+#: __init__.py:961
+msgid "Use IPPE algorithm for perfectly flat surfaces (requires 4+ pins)"
+msgstr "对完全平坦的表面使用 IPPE 算法（需要 4 个以上钉）"
+
+#: __init__.py:1171
+msgid "Use Max Distance"
+msgstr "使用最大距离"
+
+#: __init__.py:994
+msgid "Use PnP-derived camera location; optional filtering can repair and smooth the location path"
+msgstr "使用由 PnP 推导的摄像机位置；可选过滤可修复并平滑位置路径"
+
+#: __init__.py:714
+msgid "Use a uniform color for all text labels instead of matching the pin color"
+msgstr "所有文本标签使用统一颜色，而非匹配钉颜色"
+
+#: __init__.py:1004
+msgid "Use direct PnP location and rotation without curve repair"
+msgstr "直接使用 PnP 位置和旋转，不进行曲线修复"
+
+#: __init__.py:1179
+msgid "Use hybrid point-to-plane refinement on the final ICP stage"
+msgstr "在最终 ICP 阶段使用混合点到面细化"
+
+#: __init__.py:1158
+msgid "Use only Source faces whose vertices are all in the selected Vertex Group"
+msgstr "仅使用顶点全部位于所选顶点组中的源面"
+
+#: __init__.py:1157
+msgid "Use only Source faces whose vertices are all selected"
+msgstr "仅使用顶点全部被选中的源面"
+
+#: __init__.py:1156
+msgid "Use only selected Source faces"
+msgstr "仅使用选中的源面"
+
+#: __init__.py:1163
+msgid "Use only selected target faces"
+msgstr "仅使用选中的目标面"
+
+#: __init__.py:1177
+msgid "Use point-to-point ICP first, then hybrid surface refinement when target normals are available"
+msgstr "先使用点到点 ICP，在有目标法线时再进行混合表面细化"
+
+#: __init__.py:1178
+msgid "Use point-to-point ICP only"
+msgstr "仅使用点到点 ICP"
+
+#: __init__.py:1150
+msgid "Use source mesh after modifiers"
+msgstr "使用应用修改器后的源网格"
+
+#: __init__.py:1151
+msgid "Use target mesh after modifiers"
+msgstr "使用应用修改器后的目标网格"
+
+#: __init__.py:1144
+msgid "Use the Advanced settings directly"
+msgstr "直接使用高级设置"
+
+#: __init__.py:996
+msgid "Use the existing animated camera location as a guide while still solving location from pins"
+msgstr "将现有动画摄像机位置作为引导，同时仍从钉求解位置"
+
+#: __init__.py:1155
+msgid "Use the whole Source mesh"
+msgstr "使用整个源网格"
+
+#: __init__.py:997
+msgid "Use timeline marker camera poses as fixed references while solving the scene range"
+msgstr "在求解场景范围时，将时间线标记摄像机姿态作为固定参考"
+
+#: __init__.py:1158
+msgid "Vertex Group"
+msgstr "顶点组"
+
+#: __init__.py:1162
+msgid "Vertex Group used as the Source ICP mask"
+msgstr "用作源 ICP 遮罩的顶点组"
+
+#: __init__.py:1239
+msgid "Warning"
+msgstr "警告"
+
+#: __init__.py:729
+msgid "Weight"
+msgstr "权重"
+
+#: __init__.py:1222
+msgid "Width of ICP alignment pin connection lines"
+msgstr "ICP 对齐钉连接线的宽度"
+
+#: __init__.py:963
+msgid "Workflow Mode"
+msgstr "工作流模式"
+
+#: __init__.py:7064
+msgid "X"
+msgstr "X"
+
+#: __init__.py:7064
+msgid "Y"
+msgstr "Y"
+
+#: __init__.py:1098
+msgid "Zooming"
+msgstr "缩放"
+
+#: __init__.py:1089
+msgid "Zooming Lens"
+msgstr "缩放镜头"
+
+#: __init__.py:6897
+#: __init__.py:6996
+msgid "⚠️ All 3D pins must be on a perfectly flat plane."
+msgstr "⚠️ 所有 3D 钉必须位于完全平坦的平面上。"
+
+#: __init__.py:6906
+msgctxt "Operator"
+msgid "3D Pin Editor"
+msgstr "3D 钉编辑器"
+
+#: __init__.py:5611
+msgctxt "Operator"
+msgid "Add Alignment Pin"
+msgstr "添加对齐钉"
+
+#: __init__.py:5612
+msgctxt "Operator"
+msgid "Add a Source/Target correspondence pin for initial model alignment"
+msgstr "添加源/目标对应钉以进行初始模型对齐"
+
+#: __init__.py:7248
+msgctxt "Operator"
+msgid "Apply"
+msgstr "应用"
+
+#: __init__.py:6222
+msgctxt "Operator"
+msgid "Apply ICP"
+msgstr "应用 ICP"
+
+#: __init__.py:6223
+msgctxt "Operator"
+msgid "Apply the current ICP preview"
+msgstr "应用当前 ICP 预览"
+
+#: __init__.py:3501
+msgctxt "Operator"
+msgid "Automatically shoot a laser from the camera through this 2D Pin to find its 3D position"
+msgstr "自动从摄像机射出激光穿过此 2D 钉以查找其 3D 位置"
+
+#: __init__.py:6205
+#: __init__.py:7242
+msgctxt "Operator"
+msgid "Cancel ICP"
+msgstr "取消 ICP"
+
+#: __init__.py:6206
+msgctxt "Operator"
+msgid "Cancel the running ICP preview"
+msgstr "取消正在运行的 ICP 预览"
+
+#: __init__.py:5683
+msgctxt "Operator"
+msgid "Clear Alignment Pins"
+msgstr "清除对齐钉"
+
+#: __init__.py:3923
+msgctxt "Operator"
+msgid "Clear current Layout pins and send visible trackers to Layout mode for manual tweaking"
+msgstr "清除当前布局钉，并将可见跟踪器发送到布局模式以手动微调"
+
+#: __init__.py:5646
+msgctxt "Operator"
+msgid "Continuous Pin Pairs"
+msgstr "连续钉对"
+
+#: __init__.py:5647
+msgctxt "Operator"
+msgid "Continuously pick Source/Target pairs; right-click or Esc to stop"
+msgstr "连续拾取源/目标对；右键单击或按 Esc 停止"
+
+#: __init__.py:6904
+msgctxt "Operator"
+msgid "Finish Edit"
+msgstr "完成编辑"
+
+#: __init__.py:6876
+msgctxt "Operator"
+msgid "Finish Editing (ESC/Shortcut)"
+msgstr "完成编辑（ESC/快捷键）"
+
+#: __init__.py:3963
+msgctxt "Operator"
+msgid "Import or update 2D Pins from the selected Tracking Layer in the Movie Clip Editor"
+msgstr "从影片剪辑编辑器中选定的跟踪层导入或更新 2D 钉"
+
+#: __init__.py:6878
+msgctxt "Operator"
+msgid "Interactive Pin Editor"
+msgstr "交互式钉编辑器"
+
+#: __init__.py:6891
+msgctxt "Operator"
+msgid "Interactive Tweak (Solve)"
+msgstr "交互式微调（求解）"
+
+#: __init__.py:4072
+msgctxt "Operator"
+msgid "Lock the current frame as the 'Ground Truth' for 3D Pin coordinates during matchmove"
+msgstr "在匹配移动时将当前帧锁定为 3D 钉坐标的“基准真值”"
+
+#: __init__.py:6986
+msgctxt "Operator"
+msgid "Need 2+ Valid Pins for Existing Location"
+msgstr "现有位置需要 2 个以上有效钉"
+
+#: __init__.py:6988
+msgctxt "Operator"
+msgid "Need 4+ Valid Pins for Sequence"
+msgstr "序列需要 4 个以上有效钉"
+
+#: __init__.py:6839
+msgctxt "Operator"
+msgid "Pick 2D"
+msgstr "拾取 2D"
+
+#: __init__.py:6848
+msgctxt "Operator"
+msgid "Pick 3D"
+msgstr "拾取 3D"
+
+#: __init__.py:5698
+msgctxt "Operator"
+msgid "Pick Alignment Pin Point"
+msgstr "拾取对齐钉点"
+
+#: __init__.py:5699
+msgctxt "Operator"
+msgid "Pick a Source or Target position (hold Alt to snap to a vertex or point center)"
+msgstr "拾取源或目标位置（按住 Alt 吸附到顶点或点中心）"
+
+#: __init__.py:5900
+#: __init__.py:7245
+msgctxt "Operator"
+msgid "Preview ICP"
+msgstr "预览 ICP"
+
+#: __init__.py:5832
+#: __init__.py:7244
+msgctxt "Operator"
+msgid "Preview Pins"
+msgstr "预览钉"
+
+#: __init__.py:5833
+msgctxt "Operator"
+msgid "Preview alignment from Alignment Pins only, without ICP refinement"
+msgstr "仅从对齐钉预览对齐，不进行 ICP 细化"
+
+#: __init__.py:5901
+msgctxt "Operator"
+msgid "Preview rigid mesh alignment from Source to Target"
+msgstr "预览从源到目标的刚性网格对齐"
+
+#: __init__.py:6858
+msgctxt "Operator"
+msgid "Raycast"
+msgstr "射线投射"
+
+#: __init__.py:3500
+msgctxt "Operator"
+msgid "Raycast 3D"
+msgstr "射线投射 3D"
+
+#: __init__.py:4026
+msgctxt "Operator"
+msgid "Raycast Current Tracks"
+msgstr "射线投射当前轨迹"
+
+#: __init__.py:4027
+msgctxt "Operator"
+msgid "Raycast currently visible linked trackers from the current camera pose to place their 3D pins"
+msgstr "从当前相机姿态射线投射当前可见的已链接跟踪器，以放置其 3D 图钉"
+
+#: __init__.py:5665
+msgctxt "Operator"
+msgid "Remove Alignment Pin"
+msgstr "移除对齐图钉"
+
+#: __init__.py:5684
+msgctxt "Operator"
+msgid "Remove all ICP alignment pins"
+msgstr "移除所有 ICP 对齐图钉"
+
+#: __init__.py:5666
+msgctxt "Operator"
+msgid "Remove the active ICP alignment pin"
+msgstr "移除活动的 ICP 对齐图钉"
+
+#: __init__.py:7249
+msgctxt "Operator"
+msgid "Revert"
+msgstr "还原"
+
+#: __init__.py:6269
+msgctxt "Operator"
+msgid "Revert ICP"
+msgstr "还原 ICP"
+
+#: __init__.py:6270
+msgctxt "Operator"
+msgid "Revert the current ICP preview"
+msgstr "还原当前 ICP 预览"
+
+#: __init__.py:3922
+#: __init__.py:6907
+msgctxt "Operator"
+msgid "Send to Layout"
+msgstr "发送到布局"
+
+#: __init__.py:4099
+msgctxt "Operator"
+msgid "Sequence Solver"
+msgstr "序列求解器"
+
+#: __init__.py:6320
+msgctxt "Operator"
+msgid "Set ICP Objects from Selection"
+msgstr "从选择设置 ICP 物体"
+
+#: __init__.py:4083
+msgctxt "Operator"
+msgid "Set Range Boundary"
+msgstr "设置范围边界"
+
+#: __init__.py:4071
+msgctxt "Operator"
+msgid "Set Reference Frame"
+msgstr "设置参考帧"
+
+#: __init__.py:6321
+msgctxt "Operator"
+msgid "Set Source from the selected mesh and Target from the active mesh"
+msgstr "将选中网格设为源，活动网格设为目标"
+
+#: __init__.py:4084
+msgctxt "Operator"
+msgid "Set the selected Custom Range boundary to the current frame"
+msgstr "将选中的自定义范围边界设为当前帧"
+
+#: __init__.py:6743
+msgctxt "Operator"
+msgid "Show Pins"
+msgstr "显示图钉"
+
+#: __init__.py:6977
+msgctxt "Operator"
+msgid "Single Solve (Current Frame)"
+msgstr "单次求解（当前帧）"
+
+#: __init__.py:6885
+msgctxt "Operator"
+msgid "Solve Alignment"
+msgstr "求解对齐"
+
+#: __init__.py:4100
+msgctxt "Operator"
+msgid "Solve PnP for each targeted frame and bake keyframes"
+msgstr "对每个目标帧求解 PnP 并烘焙关键帧"
+
+#: __init__.py:6888
+msgctxt "Operator"
+msgid "Stop Tweak Mode (ESC/Shortcut)"
+msgstr "停止微调模式（ESC/快捷键）"
+
+#: __init__.py:6287
+msgctxt "Operator"
+msgid "Swap ICP Objects"
+msgstr "交换 ICP 物体"
+
+#: __init__.py:6288
+msgctxt "Operator"
+msgid "Swap Source and Target objects"
+msgstr "交换源物体和目标物体"
+
+#: __init__.py:3962
+msgctxt "Operator"
+msgid "Sync 2D Trackers"
+msgstr "同步 2D 跟踪器"
+
+#: __init__.py:7091
+msgctxt "Operator"
+msgid "Sync Lens to Clip"
+msgstr "将镜头同步到剪辑"
+
+#: __init__.py:6983
+msgctxt "Operator"
+msgid "Timeline Markers Requires Scene Range"
+msgstr "时间线标记需要场景范围"

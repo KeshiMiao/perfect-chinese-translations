@@ -1,0 +1,152 @@
+# perfect-chinese: 1
+# id: tracker2nuke
+# kind: addon
+# module: bl_ext.blender_org.Tracker2Nuke
+# name: Tracker to Nuke
+# name_zh: 跟踪数据转Nuke
+# translator: KeshiMiao
+# category: Tracking
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:302
+msgid "Cannot find an active tracking object."
+msgstr "找不到活动的跟踪物体。"
+
+#: __init__.py:404
+msgid "Clipboard does not contain a valid Nuke LensDistortion node (missing K1/K2)."
+msgstr "剪贴板中不包含有效的 Nuke LensDistortion 节点（缺少 K1/K2）。"
+
+#: __init__.py:361
+msgid "Copied ANAMORPHIC lens distortion to clipboard."
+msgstr "已将变形镜头畸变复制到剪贴板。"
+
+#: __init__.py:369
+msgid "Copied SPHERICAL lens distortion to clipboard."
+msgstr "已将球面镜头畸变复制到剪贴板。"
+
+#: __init__.py:341
+msgid "Distortion model must be 'NUKE'. Change it in Camera Properties > Lens."
+msgstr "畸变模型必须为“NUKE”。请在摄像机属性 > 镜头中更改。"
+
+#: __init__.py:459
+msgid "Lens Distortion"
+msgstr "镜头畸变"
+
+#: __init__.py:307
+msgid "No valid plane track selected or it has no markers."
+msgstr "未选择有效的平面跟踪，或该平面跟踪没有标记。"
+
+#: __init__.py:258
+msgid "Please select exactly one track."
+msgstr "请只选择一个跟踪。"
+
+#: __init__.py:439
+msgid "Track"
+msgstr "跟踪"
+
+#: __init__.py:449
+msgid "Tracker Export"
+msgstr "跟踪器导出"
+
+#: __init__.py:435
+msgid "Tracker to Nuke"
+msgstr "跟踪器到 Nuke"
+
+#: __init__.py:467
+msgid "Tracker to Nuke Export"
+msgstr "跟踪器到 Nuke 导出"
+
+#: __init__.py:451
+msgctxt "Operator"
+msgid "All"
+msgstr "全部"
+
+#: __init__.py:471
+msgctxt "Operator"
+msgid "All Tracks"
+msgstr "所有跟踪"
+
+#: __init__.py:379
+msgctxt "Operator"
+msgid "Applies Nuke LensDistortion node information from the clipboard to the Blender camera"
+msgstr "将剪贴板中的 Nuke LensDistortion 节点信息应用到 Blender 摄像机"
+
+#: __init__.py:330
+msgctxt "Operator"
+msgid "Copies Blender's camera distortion parameters to the clipboard as a Nuke LensDistortion node"
+msgstr "将 Blender 摄像机的畸变参数以 Nuke LensDistortion 节点的形式复制到剪贴板"
+
+#: __init__.py:208
+msgctxt "Operator"
+msgid "Copies all tracks of the active object to the clipboard as a Nuke Tracker node"
+msgstr "将活动物体的所有跟踪以 Nuke Tracker 节点的形式复制到剪贴板"
+
+#: __init__.py:223
+msgctxt "Operator"
+msgid "Copies only the selected tracks of the active object to the clipboard as a Nuke Tracker node"
+msgstr "仅将活动物体的选中跟踪以 Nuke Tracker 节点的形式复制到剪贴板"
+
+#: __init__.py:461
+msgctxt "Operator"
+msgid "Copy"
+msgstr "复制"
+
+#: __init__.py:329
+msgctxt "Operator"
+msgid "Copy Distortion"
+msgstr "复制畸变"
+
+#: __init__.py:207
+msgctxt "Operator"
+msgid "Export All Tracks"
+msgstr "导出所有跟踪"
+
+#: __init__.py:240
+msgctxt "Operator"
+msgid "Export Pattern Corners"
+msgstr "导出图案角点"
+
+#: __init__.py:286
+msgctxt "Operator"
+msgid "Export Plane Track"
+msgstr "导出平面跟踪"
+
+#: __init__.py:222
+msgctxt "Operator"
+msgid "Export Selected Tracks"
+msgstr "导出选中跟踪"
+
+#: __init__.py:287
+msgctxt "Operator"
+msgid "Exports the four corners of the active plane track as four separate tracks"
+msgstr "将活动平面跟踪的四个角点导出为四个独立的跟踪"
+
+#: __init__.py:241
+msgctxt "Operator"
+msgid "Exports the four corners of the selected track's pattern boundary as four separate tracks"
+msgstr "将选中跟踪的图案边界四个角点导出为四个独立的跟踪"
+
+#: __init__.py:462
+msgctxt "Operator"
+msgid "Paste"
+msgstr "粘贴"
+
+#: __init__.py:378
+msgctxt "Operator"
+msgid "Paste Distortion"
+msgstr "粘贴畸变"
+
+#: __init__.py:452
+msgctxt "Operator"
+msgid "Selected"
+msgstr "选中"
+
+#: __init__.py:472
+msgctxt "Operator"
+msgid "Selected Tracks"
+msgstr "选中跟踪"

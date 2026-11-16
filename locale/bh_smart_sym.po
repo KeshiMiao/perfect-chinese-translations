@@ -1,0 +1,275 @@
+# perfect-chinese: 1
+# id: bh_smart_sym
+# kind: addon
+# module: bl_ext.blender_org.bh_smart_sym
+# name: BH Smart Sym
+# name_zh: BH智能对称
+# translator: KeshiMiao
+# category: Modeling
+# supported_versions: >=4.4.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: bh_smart_sym/__init__.py:984
+msgid "+X"
+msgstr "+X"
+
+#: bh_smart_sym/__init__.py:985
+msgid "+Y"
+msgstr "+Y"
+
+#: bh_smart_sym/__init__.py:986
+msgid "+Z"
+msgstr "+Z"
+
+#: bh_smart_sym/__init__.py:984
+msgid "-X"
+msgstr "-X"
+
+#: bh_smart_sym/__init__.py:985
+msgid "-Y"
+msgstr "-Y"
+
+#: bh_smart_sym/__init__.py:986
+msgid "-Z"
+msgstr "-Z"
+
+#: bh_smart_sym/__init__.py:999
+msgid "3D Cursor"
+msgstr "3D 游标"
+
+#: bh_smart_sym/__init__.py:90
+msgid "Arrow Settings:"
+msgstr "箭头设置："
+
+#: bh_smart_sym/__init__.py:33
+msgid "Arrow Size (px)"
+msgstr "箭头大小（px）"
+
+#: bh_smart_sym/__init__.py:44
+msgid "Arrow head width (relative to arrow length) / Ширина наконечника (відносно довжини стрілки)"
+msgstr "箭头头部宽度（相对箭头长度）"
+
+#: bh_smart_sym/__init__.py:1004
+msgid "Cap Hole"
+msgstr "封盖孔洞"
+
+#: bh_smart_sym/__init__.py:933
+msgid "Center"
+msgstr "中心"
+
+#: bh_smart_sym/__init__.py:109
+msgid "Center (E cycles): Clean = tidy up the center line, Keep = leave it as it is"
+msgstr "中心（E 循环切换）：清理 = 整理中心线，保留 = 保持原样"
+
+#: bh_smart_sym/__init__.py:130
+msgid "Center Seam Cleanup:"
+msgstr "中心接缝清理："
+
+#: bh_smart_sym/__init__.py:938
+msgid "Clean"
+msgstr "清理"
+
+#: bh_smart_sym/__init__.py:973
+msgid "Cut along the plane and delete the half the arrow points to"
+msgstr "沿平面切割并删除箭头指向的一半"
+
+#: bh_smart_sym/__init__.py:1639
+#: bh_smart_sym/__init__.py:1728
+msgid "Edit Mode mesh required"
+msgstr "需要编辑模式网格"
+
+#: bh_smart_sym/__init__.py:33
+msgid "Fixed on-screen size of arrows"
+msgstr "箭头在屏幕上的固定大小"
+
+#: bh_smart_sym/__init__.py:72
+msgid "Flatness Tolerance"
+msgstr "平整度容差"
+
+#: bh_smart_sym/__init__.py:44
+msgid "Head Radius"
+msgstr "头部半径"
+
+#: bh_smart_sym/__init__.py:97
+msgid "Hotkey Settings:"
+msgstr "快捷键设置："
+
+#: bh_smart_sym/__init__.py:209
+msgid "Hotkey reset to Alt+X"
+msgstr "快捷键已重置为 Alt+X"
+
+#: bh_smart_sym/__init__.py:72
+msgid "How close to perfectly flat (0°) the two faces next to a candidate seam edge must be for it to be considered redundant and removed. Lower = stricter, more likely to keep real shape edges (tips, creases) intact. Only matters when Center is set to Clean on the tool itself (toggle with E while mirroring, or in the redo panel after)"
+msgstr "候选接缝边两侧的两个面必须多接近完全平整（0°），才会被视为冗余并移除。值越低 = 越严格，更可能保留真实形状边（尖端、折痕）。仅在工具本身将中心设为清理时有效（镜像时按 E 切换，或之后在重做面板中设置）"
+
+#: bh_smart_sym/__init__.py:63
+msgid "How solid the dark frame behind the option list and the hover label is (0 = invisible, 1 = fully solid)"
+msgstr "选项列表和悬停标签后面的深色边框的不透明度（0 = 不可见，1 = 完全不透明）"
+
+#: bh_smart_sym/__init__.py:955
+msgid "If the mesh has custom split normals, correctly mirror them onto the new (mirrored) half instead of leaving Blender's auto-computed values there. When Center is set to Clean, sharp marks on whatever center seam remains are cleared too, since the seam now carries a properly reflected custom normal instead of needing a hard break. Has no effect on meshes without custom normals"
+msgstr "如果网格有自定义拆分法向，则将其正确镜像到新的（镜像）一半上，而不是保留 Blender 自动计算的值。当中心设为清理时，剩余中心接缝上的锐边标记也会清除，因为该接缝现在带有正确反射的自定义法向，而不再需要硬边断开。对没有自定义法向的网格无影响"
+
+#: bh_smart_sym/__init__.py:127
+msgid "In Remove Half mode V cuts through the Selection center for real (in Mirror mode it stays visual only)"
+msgstr "在移除一半模式下，V 会真正穿过选中项中心进行切割（在镜像模式下仅视觉显示）"
+
+#: bh_smart_sym/__init__.py:105
+msgid "In-Modal Axis Hotkeys: X / Y / Z = mirror +, Shift+X / Shift+Y / Shift+Z = mirror -"
+msgstr "模态内轴快捷键：X / Y / Z = 镜像 +，Shift+X / Shift+Y / Shift+Z = 镜像 -"
+
+#: bh_smart_sym/__init__.py:946
+msgid "Keep"
+msgstr "保留"
+
+#: bh_smart_sym/__init__.py:942
+msgid "Keep the center edges, mark them as UV seams and move the mirrored half's UVs one tile over (+1 U), so it's a separate UV island in Blender and in external tools like RizomUV"
+msgstr "保留中心边，将其标记为 UV 接缝，并将镜像一半的 UV 移动一个瓦片（+1 U），使其在 Blender 和 RizomUV 等外部工具中成为独立的 UV 孤岛"
+
+#: bh_smart_sym/__init__.py:946
+msgid "Leave the center edges exactly as they are"
+msgstr "保持中心边完全不变"
+
+#: bh_smart_sym/__init__.py:972
+msgid "Mirror"
+msgstr "镜像"
+
+#: bh_smart_sym/__init__.py:955
+msgid "Mirror Normals"
+msgstr "镜像法向"
+
+#: bh_smart_sym/__init__.py:116
+msgid "Mirror Normals: toggle with N while mirroring, or from the redo panel. Correctly mirrors custom split normals onto the new half (meshes without custom normals are unaffected)"
+msgstr "镜像法向：镜像时按 N 切换，或从重做面板中设置。将自定义拆分法向正确镜像到新的一半上（没有自定义法向的网格不受影响）"
+
+#: bh_smart_sym/__init__.py:967
+msgid "Mirror one half onto the other, or just delete the chosen half (toggle with R while the tool is open)"
+msgstr "将一半镜像到另一半上，或仅删除所选的一半（工具开启时按 R 切换）"
+
+#: bh_smart_sym/__init__.py:979
+msgid "Mirror: the side that is kept and copied. Remove Half: the side that is deleted"
+msgstr "镜像：保留并复制的一侧。移除一半：被删除的一侧"
+
+#: bh_smart_sym/__init__.py:967
+msgid "Mode"
+msgstr "模式"
+
+#: bh_smart_sym/__init__.py:1722
+msgid "Nothing to remove on that side"
+msgstr "该侧没有可移除的内容"
+
+#: bh_smart_sym/__init__.py:997
+msgid "Origin"
+msgstr "原点"
+
+#: bh_smart_sym/__init__.py:113
+msgid "Partial selections are always mirrored safely: only the selected part changes, adjacent faces are never eaten"
+msgstr "部分选择始终会安全镜像：只有选中的部分会改变，相邻面绝不会被吞掉"
+
+#: bh_smart_sym/__init__.py:991
+msgid "Pivot"
+msgstr "轴心"
+
+#: bh_smart_sym/__init__.py:103
+msgid "Press new hotkey combination..."
+msgstr "按下新的快捷键组合..."
+
+#: bh_smart_sym/__init__.py:973
+msgid "Remove Half"
+msgstr "移除一半"
+
+#: bh_smart_sym/__init__.py:1004
+msgid "Remove Half only: cap the opening left along the cut with faces. Off keeps it open (ready for a Mirror modifier). Toggle with F while the tool is open"
+msgstr "仅移除一半：用面封盖切割后留下的开口。关闭则保持开口（准备好使用镜像修改器）。工具开启时按 F 切换"
+
+#: bh_smart_sym/__init__.py:121
+msgid "Remove Half: press R while the tool is open to switch from Mirror to Remove Half, then pick the side to delete (click arrow, or X/Y/Z, Shift = -)"
+msgstr "移除一半：工具开启时按 R 从镜像切换到移除一半，然后选择要删除的一侧（点击箭头，或按 X/Y/Z，Shift = -）"
+
+#: bh_smart_sym/__init__.py:938
+msgid "Remove flat, mirror-created edges along the center (edges that weren't there before and are coplanar) and clear center seams/sharps. Real shape - creases, tips - is kept"
+msgstr "移除沿中心由镜像产生的平坦边（之前不存在且共面的边），并清除中心接缝/锐边。真实形状——折痕、尖端——会保留"
+
+#: bh_smart_sym/__init__.py:998
+msgid "Selection"
+msgstr "选中项"
+
+#: bh_smart_sym/__init__.py:38
+msgid "Shaft Radius"
+msgstr "箭杆半径"
+
+#: bh_smart_sym/__init__.py:38
+msgid "Shaft thickness (relative to arrow length) / Товщина ніжки (відносно довжини стрілки)"
+msgstr "箭杆粗细（相对于箭头长度）"
+
+#: bh_smart_sym/__init__.py:56
+msgid "Show Info Text"
+msgstr "显示信息文本"
+
+#: bh_smart_sym/__init__.py:56
+msgid "Show the option list (Remove Half, Pivot, Center...) above the arrows while the tool is open"
+msgstr "工具开启时在箭头上方显示选项列表（移除一半、轴心、中心...）"
+
+#: bh_smart_sym/__init__.py:979
+msgid "Side"
+msgstr "侧"
+
+#: bh_smart_sym/__init__.py:942
+msgid "Split Overlap"
+msgstr "拆分重叠"
+
+#: bh_smart_sym/__init__.py:111
+msgid "Split Overlap = UV seam on the center edge + the mirrored half's UVs moved +1 U (its own overlap island)"
+msgstr "拆分重叠 = 中心边上的 UV 接缝 + 镜像一半的 UV 移动 +1 U（其自身的重叠孤岛）"
+
+#: bh_smart_sym/__init__.py:972
+msgid "Symmetrize: copy one half onto the other"
+msgstr "对称化：将一半复制到另一半"
+
+#: bh_smart_sym/__init__.py:63
+msgid "Text Background Opacity"
+msgstr "文本背景不透明度"
+
+#: bh_smart_sym/__init__.py:124
+msgid "The arrow points at the half that gets deleted. The mesh is cut along the plane even if no center edge exists yet. F: Cap Hole (close the opening)"
+msgstr "箭头指向会被删除的一半。即使尚无中心边，网格也会沿平面切割。F：封盖孔洞（封闭开口）"
+
+#: bh_smart_sym/__init__.py:107
+msgid "V: move gizmo to Selection (visual only, mirror still uses real Origin), C: 3D Cursor"
+msgstr "V：将 Gizmo 移动到选中项（仅视觉显示，镜像仍使用真实原点），C：3D 游标"
+
+#: bh_smart_sym/__init__.py:1747
+msgid "View3D area required"
+msgstr "需要 3D 视图区域"
+
+#: bh_smart_sym/__init__.py:933
+msgid "What happens to the edges on the mirror plane after mirroring (E cycles through them while the tool is open)"
+msgstr "镜像后镜像平面上的边会如何处理（工具开启时按 E 循环切换）"
+
+#: bh_smart_sym/__init__.py:991
+msgid "Where the plane goes through. Selection only moves the plane in Remove Half mode (in Mirror mode it is visual only and the real Origin is used)"
+msgstr "平面穿过的位置。选中项仅在移除一半模式下移动平面（在镜像模式下仅视觉显示，并使用真实原点）"
+
+#: bh_smart_sym/__init__.py:169
+msgctxt "Operator"
+msgid "Change Hotkey"
+msgstr "更改快捷键"
+
+#: bh_smart_sym/__init__.py:199
+msgctxt "Operator"
+msgid "Reset Hotkey"
+msgstr "重置快捷键"
+
+#: bh_smart_sym/__init__.py:101
+msgctxt "Operator"
+msgid "Reset to Default (Alt+X)"
+msgstr "重置为默认值（Alt+X）"
+
+#: bh_smart_sym/__init__.py:930
+msgctxt "Operator"
+msgid "Smart Symmetrize"
+msgstr "智能对称化"

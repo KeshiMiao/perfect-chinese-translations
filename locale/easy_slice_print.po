@@ -1,0 +1,938 @@
+# perfect-chinese: 1
+# id: easy_slice_print
+# kind: addon
+# module: bl_ext.blender_org.easy_slice_print
+# name: EasySlice Print
+# name_zh: 简易切片打印
+# translator: KeshiMiao
+# category: Mesh
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: ui.py:240
+msgid "(2 contacts)"
+msgstr "（2 个接触面）"
+
+#: prefs.py:36
+msgid "1 unit = 1 mm"
+msgstr "1 单位 = 1 毫米"
+
+#: props.py:342
+msgid "Adaptivity"
+msgstr "自适应"
+
+#: props.py:106
+msgid "Add Connector"
+msgstr "添加连接件"
+
+#: props.py:177
+msgid "Asymmetric Tip"
+msgstr "不对称尖端"
+
+#: prefs.py:11
+msgid "Auto"
+msgstr "自动"
+
+#: props.py:73
+msgid "Autodesk FBX, one file per part"
+msgstr "Autodesk FBX，每个零件一个文件"
+
+#: props.py:71
+msgid "Binary STL, one file per part"
+msgstr "二进制 STL，每个零件一个文件"
+
+#: prefs.py:27
+msgid "Boolean Solver"
+msgstr "布尔求解器"
+
+#: core/connectors.py:27
+msgid "Box"
+msgstr "盒体"
+
+#: ops_plan.py:558
+msgid "Build cancelled - the parts made so far were kept"
+msgstr "构建已取消 - 已生成的部件已保留"
+
+#: props.py:308
+msgid "Chain Cuts"
+msgstr "链式切割"
+
+#: ops_misc.py:106
+msgid "Choose an export folder"
+msgstr "选择导出文件夹"
+
+#: core/connectors.py:25
+msgid "Cone-like pin, easier to insert"
+msgstr "锥形销，更易插入"
+
+#: ui.py:120
+msgid "Connector"
+msgstr "连接件"
+
+#: ops_plan.py:124
+msgid "Connector selected: G move, R rotate, S scale. Reset Pin puts it back."
+msgstr "已选中连接件：G 移动，R 旋转，S 缩放。重置销可将其还原。"
+
+#: props.py:112
+msgid "Connector shape (built-in or from the connector library)"
+msgstr "连接件形状（内置或来自连接件库）"
+
+#: props.py:118
+msgid "Connector size relative to the cut cross-section"
+msgstr "连接件尺寸相对于切割截面"
+
+#: props.py:125
+msgid "Connector width / diameter in millimetres"
+msgstr "连接件宽度/直径（毫米）"
+
+#: props.py:276
+msgid "Control Points"
+msgstr "控制点"
+
+#: prefs.py:31
+msgid "Convert millimetres using the scene unit scale (recommended: a millimetre scene)"
+msgstr "使用场景单位比例换算毫米（推荐：毫米场景）"
+
+#: props.py:106
+msgid "Create a matching pin and socket on this cut"
+msgstr "在此切割上创建匹配的销与插槽"
+
+#: props.py:32
+msgid "Curve Cut"
+msgstr "曲线切割"
+
+#: core/connectors.py:35
+#: core/connectors.py:46
+msgid "Custom"
+msgstr "自定义"
+
+#: props.py:143
+msgid "Cut Gap"
+msgstr "切割间隙"
+
+#: props.py:49
+msgid "Cut Surface"
+msgstr "切割面"
+
+#: props.py:227
+msgid "Cut Tool"
+msgstr "切割工具"
+
+#: ui.py:79
+msgid "Cut Tools"
+msgstr "切割工具"
+
+#: ops_tools.py:241
+#: ops_tools.py:368
+msgid "Cut cancelled"
+msgstr "切割已取消"
+
+#: ops_plan.py:184
+msgid "Cut surface selected: G move, R rotate, S scale. The connector follows."
+msgstr "已选中切割面：G 移动，R 旋转，S 缩放。连接件随之移动。"
+
+#: ops_plan.py:309
+msgid "Cut surface updated"
+msgstr "切割面已更新"
+
+#: core/connectors.py:24
+msgid "Cylinder"
+msgstr "圆柱"
+
+#: props.py:344
+msgid "Distance"
+msgstr "距离"
+
+#: props.py:31
+msgid "Drag a line in the viewport: a flat cut through the model"
+msgstr "在视图中拖出一条线：对模型进行平面切割"
+
+#: ui.py:252
+msgid "Drag points; G slides the whole cut"
+msgstr "拖动控制点；G 平移整个切割"
+
+#: props.py:39
+msgid "Draw a closed loop around the model surface: the loop is filled and used as the cut"
+msgstr "围绕模型表面绘制闭合环：环内被填充并用作切割"
+
+#: props.py:32
+msgid "Draw a curved line over the model: the cut follows it through the model"
+msgstr "在模型上绘制曲线：切割沿曲线贯穿模型"
+
+#: props.py:20
+msgid "Draw a cut and get the separated parts immediately (no plan history)"
+msgstr "绘制切割并立即得到分离的部件（不保留方案历史）"
+
+#: ops_tools.py:685
+msgid "Draw at least a few points before closing the loop"
+msgstr "闭合环前请至少绘制几个点"
+
+#: ui.py:106
+msgid "Draw contact 1, then contact 2 with any tool"
+msgstr "用任意工具先绘制接触面 1，再绘制接触面 2"
+
+#: props.py:300
+msgid "Draw two contacts with any cut tool; both are cut together as one operation (e.g. two feet on a base). Each contact gets its own connector"
+msgstr "用任意切割工具绘制两个接触面；两者作为一次操作一起切割（例如底座的两个支撑脚）。每个接触面都有自己的连接件"
+
+#: core/connectors.py:44
+msgid "Easy"
+msgstr "轻松"
+
+#: ui.py:38
+msgid "EasySlice Print"
+msgstr "EasySlice Print"
+
+#: prefs.py:68
+msgid "EasySlice Print is free software (GNU GPL v3.0 or later)."
+msgstr "EasySlice Print 是自由软件（GNU GPL v3.0 或更高版本）。"
+
+#: props.py:276
+msgid "Editable points a Curve cut is resampled to. A Freehand loop ignores it and keeps every point you drew, so a traced detail survives into the cut"
+msgstr "曲线切割重采样后的可编辑点数。手绘环会忽略此项并保留你绘制的每一个点，因此描出的细节能保留到切割中"
+
+#: ui.py:297
+msgid "Exploded View"
+msgstr "爆炸视图"
+
+#: ui.py:312
+msgid "Export"
+msgstr "导出"
+
+#: props.py:182
+msgid "Extra socket depth at the tip (mm)"
+msgstr "尖端处额外的插槽深度（毫米）"
+
+#: props.py:73
+msgid "FBX"
+msgstr "FBX"
+
+#: core/connectors.py:43
+msgid "Firm by hand - the usual choice"
+msgstr "手动用力压入 - 常用选择"
+
+#: props.py:152
+msgid "Fit"
+msgstr "配合"
+
+#: ui.py:149
+msgid "Fit & Clearance"
+msgstr "配合与间隙"
+
+#: props.py:353
+msgid "Folder"
+msgstr "文件夹"
+
+#: props.py:354
+msgid "Format"
+msgstr "格式"
+
+#: core/connectors.py:45
+msgid "Free fit, leaves room for glue"
+msgstr "自由配合，为胶水留出空间"
+
+#: props.py:39
+msgid "Freehand Cut"
+msgstr "手绘切割"
+
+#: ui.py:250
+msgid "G move, R rotate, S scale the plane"
+msgstr "G 移动，R 旋转，S 缩放平面"
+
+#: props.py:162
+msgid "Gap left between the pin and the wall of its socket, on each side (mm) - so the socket comes out twice this much wider than the pin. It is what makes a printed connector go home firmly instead of rattling or refusing to enter. Set by the Fit preset unless that is Custom"
+msgstr "销与其插槽壁之间在每侧留出的间隙（毫米）——因此插槽会比销宽出两倍该值。它决定了打印出的连接件能否牢固到位，而不是晃动或插不进去。由配合预设设置，除非预设为自定义"
+
+#: props.py:162
+msgid "Gap per Side"
+msgstr "每侧间隙"
+
+#: ui.py:73
+msgid "Green: the cut goes through"
+msgstr "绿色：切割贯穿"
+
+#: props.py:134
+msgid "Height"
+msgstr "高度"
+
+#: core/connectors.py:26
+msgid "Hexagon"
+msgstr "六边形"
+
+#: props.py:344
+msgid "How far the parts move away from each other (mm)"
+msgstr "部件彼此分开的距离（毫米）"
+
+#: props.py:134
+msgid "How far the pin protrudes into the socket (mm)"
+msgstr "销伸入插槽的深度（毫米）"
+
+#: prefs.py:41
+msgid "How much room your printer needs between a pin and its socket for the printed parts to fit together, measured on each side of the pin. This is the number that decides whether a connector goes home firmly, rattles, or will not go in at all - it belongs to the printer and the filament, not to the model, which is why it lives here and is set once. 0.1 mm suits most FDM printers; raise it if your parts come out too tight. Each cut then picks how tight that joint should be with its Fit setting"
+msgstr "打印机在销与其插槽之间需要留出的空间，以使打印件能够装配在一起，按销的每侧计算。该数值决定了连接件是牢固到位、晃动，还是根本无法插入——它取决于打印机和耗材，而非模型，因此放在这里一次性设置。0.1 毫米适合大多数 FDM 打印机；如果打印件太紧可调大。每个切割再用其配合设置决定该接头的松紧"
+
+#: ui.py:157
+msgid "How the printed parts go together"
+msgstr "打印部件的装配方式"
+
+#: props.py:152
+msgid "How tight this joint should end up once printed. It scales the Printer Clearance from the add-on preferences, so set the printer once and choose the feel per cut"
+msgstr "打印后该接头应有的紧固程度。它会缩放插件偏好设置中的打印机间隙，因此只需设置一次打印机，再为每个切割选择手感"
+
+#: ui.py:54
+msgid "Immediate final cut"
+msgstr "立即执行最终切割"
+
+#: props.py:198
+msgid "Include this cut in the build"
+msgstr "在构建中包含此切割"
+
+#: props.py:311
+msgid "Keep Original"
+msgstr "保留原始"
+
+#: props.py:311
+msgid "Keep the source model (hidden in the ESP_Backup collection) instead of deleting it"
+msgstr "保留源模型（隐藏于 ESP_Backup 集合中）而不删除它"
+
+#: core/connectors.py:34
+msgid "Large"
+msgstr "大"
+
+#: props.py:239
+msgid "Loop Smoothing"
+msgstr "环平滑"
+
+#: ops_tools.py:735
+msgid "Loop too small"
+msgstr "环太小"
+
+#: core/connectors.py:45
+msgid "Loose"
+msgstr "松"
+
+#: props.py:177
+msgid "Make the socket deeper than the pin so the pin never bottoms out (adds Tip Extra at the tip)"
+msgstr "使插槽比销更深，让销不会触底（在尖端增加尖端额外深度）"
+
+#: prefs.py:11
+msgid "Manifold solver when available (fast), Exact as fallback"
+msgstr "可用时使用流形求解器（快速），否则回退到精确求解器"
+
+#: ui.py:271
+msgid "Manual Connector Adjust"
+msgstr "手动调整连接件"
+
+#: core/connectors.py:33
+msgid "Medium"
+msgstr "中"
+
+#: props.py:226
+#: ui.py:51
+msgid "Mode"
+msgstr "模式"
+
+#: props.py:196
+msgid "Name"
+msgstr "名称"
+
+#: ops_misc.py:66
+msgid "Need at least two parts"
+msgstr "至少需要两个部件"
+
+#: ui.py:286
+msgid "No connector preview"
+msgstr "无连接件预览"
+
+#: ops_misc.py:102
+msgid "No parts to export. Select the parts or build first."
+msgstr "没有可导出的部件。请先选择部件或构建。"
+
+#: ui.py:56
+msgid "Non-destructive plan history"
+msgstr "非破坏性方案历史"
+
+#: props.py:21
+msgid "Non-destructive: plan several cuts, edit, disable or remove them, build when ready"
+msgstr "非破坏性：规划多个切割，可编辑、禁用或删除，准备好后再构建"
+
+#: props.py:72
+msgid "OBJ"
+msgstr "OBJ"
+
+#: props.py:202
+msgid "Object the cut was drawn on"
+msgstr "绘制切割所在的物体"
+
+#: ui.py:177
+msgid "Options"
+msgstr "选项"
+
+#: ui.py:91
+msgid "Orbit (MMB) between strokes to reach the far side"
+msgstr "笔画之间用轨道旋转（中键）以到达背面"
+
+#: ui.py:95
+msgid "Origin"
+msgstr "原点"
+
+#: props.py:49
+msgid "Origin at the centre of the cut surface itself, so R / S pivot on the surface"
+msgstr "原点位于切割面自身中心，R / S 以该面为轴心"
+
+#: props.py:56
+msgid "Origin at the origin of the object being cut, so every cut surface shares one pivot"
+msgstr "原点位于被切割物体的原点，所有切割面共用一个轴心"
+
+#: props.py:191
+msgid "Pin Side"
+msgstr "销钉侧"
+
+#: props.py:21
+msgid "Plan Mode"
+msgstr "规划模式"
+
+#: ops_plan.py:599
+msgid "Plan restored: cuts are editable again"
+msgstr "方案已恢复：切割重新可编辑"
+
+#: props.py:31
+msgid "Plane Cut"
+msgstr "平面切割"
+
+#: ui.py:209
+msgid "Planned Cuts"
+msgstr "已规划切割"
+
+#: core/connectors.py:42
+msgid "Press"
+msgstr "按压"
+
+#: ops_plan.py:176
+msgid "Preview surface not found"
+msgstr "未找到预览面"
+
+#: prefs.py:63
+msgid "Print a test joint once, then leave it alone."
+msgstr "先打印一次测试接头，之后不要再调整。"
+
+#: prefs.py:41
+msgid "Printer Clearance"
+msgstr "打印机间隙"
+
+#: prefs.py:61
+msgid "Printer profile"
+msgstr "打印机配置"
+
+#: props.py:20
+msgid "Quick Cut"
+msgstr "快速切割"
+
+#: props.py:198
+msgid "Ready"
+msgstr "就绪"
+
+#: ui.py:75
+msgid "Red: none of the surface cuts the model"
+msgstr "红色：该面未切到模型"
+
+#: ui.py:72
+msgid "Red: the halves stay joined here"
+msgstr "红色：两半在此处仍相连"
+
+#: ui.py:192
+msgid "Remesh (Plan Mode only)"
+msgstr "重网格（仅规划模式）"
+
+#: props.py:329
+msgid "Remesh Parts"
+msgstr "重网格部件"
+
+#: props.py:334
+msgid "Remesh voxel size in millimetres"
+msgstr "重网格体素大小（毫米）"
+
+#: ui.py:292
+msgid "Rotation"
+msgstr "旋转"
+
+#: props.py:239
+msgid "Round off a Freehand loop before the membrane is built. Off by default: a freehand loop is the tool for tracing a detail, so the rim runs through the points you drew and nothing rounds them away. Raise it a little only to take the shake out of a long stroke - every step of it moves the cut off the line you traced"
+msgstr "在构建膜面前对徒手环进行圆滑。默认关闭：徒手环用于描摹细节，因此边缘穿过你绘制的点，不会被圆滑掉。仅在需要消除长笔画抖动时略微提高——每提高一步都会让切割偏离你描摹的线"
+
+#: core/connectors.py:24
+msgid "Round pin"
+msgstr "圆形销钉"
+
+#: ops_tools.py:163
+msgid "Run the cut tools from the 3D Viewport"
+msgstr "从 3D 视图运行切割工具"
+
+#: ops_plan.py:187
+msgid "Run this from the 3D Viewport"
+msgstr "请从 3D 视图运行此操作"
+
+#: props.py:71
+msgid "STL"
+msgstr "STL"
+
+#: props.py:286
+msgid "Samples built between two control points. A Curve cut splines its stroke at this resolution and a Freehand loop only subdivides its drawn points, so the rim stays straight between them and passes through every one; the inside of the surface is then relaxed flat, so both print as smooth as a Plane cut instead of showing the facets of the control polyline. Set it to 1 for the raw polyline. A dense freehand loop already carries more points than the budget, and uses as much of this as fits"
+msgstr "在两个控制点之间生成的采样数。曲线切割按此分辨率对笔画进行样条化，徒手环只细分其绘制的点，因此边缘在点之间保持笔直并穿过每个点；随后表面内部被松弛平整，使两者打印效果与平面切割一样平滑，而不显示控制折线的棱面。设为 1 则使用原始折线。密集的徒手环点数已超过此预算，将尽可能多地使用"
+
+#: prefs.py:31
+msgid "Scene units"
+msgstr "场景单位"
+
+#: ui.py:59
+msgid "Select a mesh object to cut"
+msgstr "选择要切割的网格物体"
+
+#: ui.py:129
+msgid "Settings for the next cut"
+msgstr "下一次切割的设置"
+
+#: props.py:112
+#: ui.py:134
+msgid "Shape"
+msgstr "形状"
+
+#: props.py:199
+msgid "Show"
+msgstr "显示"
+
+#: props.py:321
+msgid "Show Why a Cut Failed"
+msgstr "显示切割失败原因"
+
+#: props.py:199
+msgid "Show the cut preview in the viewport"
+msgstr "在视图中显示切割预览"
+
+#: props.py:66
+msgid "Side A"
+msgstr "A 侧"
+
+#: props.py:67
+msgid "Side B"
+msgstr "B 侧"
+
+#: core/connectors.py:26
+msgid "Six sided pin, locks rotation"
+msgstr "六边形销钉，锁定旋转"
+
+#: props.py:118
+msgid "Size"
+msgstr "大小"
+
+#: props.py:316
+msgid "Skip Failed Cuts"
+msgstr "跳过失败的切割"
+
+#: core/connectors.py:44
+msgid "Slides together without force"
+msgstr "无需用力即可滑入"
+
+#: core/connectors.py:32
+msgid "Small"
+msgstr "小"
+
+#: props.py:343
+msgid "Smooth Shading"
+msgstr "平滑着色"
+
+#: props.py:228
+msgid "Smooth the drawn stroke before the cut surface is built. Takes the shake and the faceting of the model's own triangles out of a Curve cut"
+msgstr "在构建切割面前平滑绘制的笔画。可消除曲线切割中的抖动以及模型自身三角形的棱面"
+
+#: props.py:228
+msgid "Smoothing"
+msgstr "平滑"
+
+#: core/connectors.py:43
+msgid "Snug"
+msgstr "紧密"
+
+#: core/connectors.py:27
+msgid "Square pin, locks rotation"
+msgstr "方形销钉，锁定旋转"
+
+#: props.py:308
+msgid "Start the same cut tool again right after a cut is finished"
+msgstr "切割完成后立即再次启动同一切割工具"
+
+#: props.py:286
+msgid "Surface Detail"
+msgstr "表面细节"
+
+#: props.py:259
+msgid "Surface Margin"
+msgstr "表面边距"
+
+#: props.py:253
+msgid "Surface Origin"
+msgstr "表面原点"
+
+#: ui.py:258
+msgid "Tab into the connector to reshape it; Build follows it"
+msgstr "按 Tab 进入连接件进行重塑；构建会跟随它"
+
+#: core/connectors.py:25
+msgid "Tapered"
+msgstr "锥形"
+
+#: props.py:202
+msgid "Target"
+msgstr "目标"
+
+#: props.py:56
+msgid "Target Object"
+msgstr "目标物体"
+
+#: props.py:66
+msgid "The part on the + side of the cut surface carries the pin"
+msgstr "切割面 + 侧的部件带有销钉"
+
+#: props.py:67
+msgid "The part on the - side of the cut surface carries the pin"
+msgstr "切割面 - 侧的部件带有销钉"
+
+#: ops_plan.py:117
+msgid "This cut has no connector preview"
+msgstr "此切割没有连接件预览"
+
+#: core/connectors.py:42
+msgid "Tight: tap it home, holds on its own"
+msgstr "紧配合：轻敲到位，自行固定"
+
+#: props.py:182
+msgid "Tip Extra"
+msgstr "尖端余量"
+
+#: props.py:143
+msgid "Total kerf: material removed along the cut (mm)"
+msgstr "总切缝：沿切割去除的材料（毫米）"
+
+#: prefs.py:36
+msgid "Treat one Blender unit as one millimetre regardless of the scene settings"
+msgstr "无论场景设置如何，将一个 Blender 单位视为一毫米"
+
+#: props.py:300
+msgid "Two Contacts / Base Split"
+msgstr "两接触点 / 底座分离"
+
+#: props.py:197
+msgid "Type"
+msgstr "类型"
+
+#: core/connectors.py:46
+msgid "Type the gap yourself"
+msgstr "自行输入间隙"
+
+#: core/connectors.py:35
+msgid "Type width and height"
+msgstr "输入宽度和高度"
+
+#: prefs.py:28
+msgid "Units"
+msgstr "单位"
+
+#: prefs.py:69
+msgid "Use it, study it, modify it and share it - contributions welcome."
+msgstr "使用、研究、修改并分享它——欢迎贡献。"
+
+#: ops_tools.py:527
+msgid "View orbited mid-stroke - draw the curve from a single view"
+msgstr "笔画中途视图被旋转——请从单一视图绘制曲线"
+
+#: ops_tools.py:437
+msgid "View orbited mid-stroke - draw the plane cut from a single view"
+msgstr "笔画中途视图被旋转——请从单一视图绘制平面切割"
+
+#: props.py:334
+msgid "Voxel Size"
+msgstr "体素大小"
+
+#: props.py:329
+msgid "Voxel remesh the built parts (cleans boolean artefacts, loses fine detail)"
+msgstr "对已构建的部件进行体素重网格（清理布尔运算残留，但会损失精细细节）"
+
+#: prefs.py:40
+msgid "Warn about non-manifold meshes before cutting"
+msgstr "切割前对非流形网格发出警告"
+
+#: props.py:72
+msgid "Wavefront OBJ, one file per part"
+msgstr "Wavefront OBJ，每个部件一个文件"
+
+#: props.py:321
+msgid "When a cut does not split the part, paint the cut surface red where the two halves stay joined and green where the cut is working (takes a moment on a dense mesh)"
+msgstr "当切割未能分离部件时，将两半仍相连处的切面涂成红色，将切割生效处涂成绿色（网格密集时需稍等片刻）"
+
+#: props.py:316
+msgid "When a planned cut fails, skip it and keep building the others"
+msgstr "当计划的切割失败时，跳过它并继续构建其他切割"
+
+#: props.py:253
+msgid "Where the origin of a generated cut surface is placed"
+msgstr "生成的切面原点的放置位置"
+
+#: ops_plan.py:165
+msgid "Which contact of a two-contact cut to edit"
+msgstr "编辑双接触切割中的哪个接触面"
+
+#: props.py:125
+msgid "Width"
+msgstr "宽度"
+
+#: props.py:216
+msgid "World point on the model used to pick the part this cut applies to"
+msgstr "用于选取此切割所应用部件的模型上的世界坐标点"
+
+#: core/connectors.py:32
+msgid "~30% of the cut width"
+msgstr "约为切割宽度的 30%"
+
+#: core/connectors.py:33
+msgid "~45% of the cut width"
+msgstr "约为切割宽度的 45%"
+
+#: core/connectors.py:34
+msgid "~60% of the cut width"
+msgstr "约为切割宽度的 60%"
+
+#: ops_plan.py:424
+msgctxt "Operator"
+msgid "Apply every ready cut to the model and create the final parts (the plan stays editable)"
+msgstr "将每个就绪的切割应用到模型并创建最终部件（方案保持可编辑）"
+
+#: ops_plan.py:605
+msgctxt "Operator"
+msgid "Approve"
+msgstr "批准"
+
+#: ops_plan.py:581
+msgctxt "Operator"
+msgid "Back to Plan"
+msgstr "返回方案"
+
+#: ops_plan.py:423
+msgctxt "Operator"
+msgid "Build Plan"
+msgstr "构建方案"
+
+#: ops_misc.py:183
+msgctxt "Operator"
+msgid "Check Mesh"
+msgstr "检查网格"
+
+#: ops_plan.py:653
+msgctxt "Operator"
+msgid "Clear Plan"
+msgstr "清除方案"
+
+#: ops_misc.py:76
+msgctxt "Operator"
+msgid "Collapse"
+msgstr "折叠"
+
+#: ops_misc.py:165
+msgctxt "Operator"
+msgid "Connector Library"
+msgstr "连接件库"
+
+#: ops_misc.py:166
+msgctxt "Operator"
+msgid "Create the ESP_Connectors collection with editable template shapes. Any mesh you add there (fitting x/y in -0.5..0.5 and z in -1..1, +z = the pin tip) becomes a custom connector"
+msgstr "创建包含可编辑模板形状的 ESP_Connectors 集合。你在其中添加的任何网格（x/y 在 -0.5..0.5 范围内，z 在 -1..1 范围内，+z 为插针尖端）都会成为自定义连接件"
+
+#: ui.py:88
+msgctxt "Operator"
+msgid "Curve"
+msgstr "曲线"
+
+#: ops_tools.py:493
+msgctxt "Operator"
+msgid "Curve Cut"
+msgstr "曲线切割"
+
+#: ops_plan.py:45
+msgctxt "Operator"
+msgid "Delete Cut"
+msgstr "删除切割"
+
+#: ops_plan.py:654
+msgctxt "Operator"
+msgid "Delete every planned cut and preview (built parts are kept)"
+msgstr "删除所有计划的切割及预览（保留已构建的部件）"
+
+#: ops_tools.py:408
+msgctxt "Operator"
+msgid "Drag a line across the model: a flat cut perpendicular to the view goes through it"
+msgstr "在模型上拖出一条线：垂直于视图的平面切割会贯穿模型"
+
+#: ops_tools.py:602
+msgctxt "Operator"
+msgid "Draw a closed loop on the model surface. Release the button, orbit with MMB to reach the far side, then keep drawing: the loop is filled and used as the cut surface"
+msgstr "在模型表面绘制闭合环。松开按钮，使用中键旋转视图到背面，然后继续绘制：该环会被填充并用作切面"
+
+#: ops_tools.py:494
+msgctxt "Operator"
+msgid "Draw a curved line over the model; the cut follows the line straight through the model"
+msgstr "在模型上绘制曲线；切割沿该线直接贯穿模型"
+
+#: ops_plan.py:157
+msgctxt "Operator"
+msgid "Edit Cut Surface"
+msgstr "编辑切面"
+
+#: ops_misc.py:58
+msgctxt "Operator"
+msgid "Explode"
+msgstr "爆炸视图"
+
+#: ops_misc.py:94
+msgctxt "Operator"
+msgid "Export Parts"
+msgstr "导出部件"
+
+#: ui.py:89
+msgctxt "Operator"
+msgid "Freehand"
+msgstr "手绘"
+
+#: ops_tools.py:601
+msgctxt "Operator"
+msgid "Freehand Cut"
+msgstr "手绘切割"
+
+#: ops_misc.py:206
+msgctxt "Operator"
+msgid "Help"
+msgstr "帮助"
+
+#: ops_plan.py:681
+msgctxt "Operator"
+msgid "Hide Diagnosis"
+msgstr "隐藏诊断"
+
+#: ops_plan.py:606
+msgctxt "Operator"
+msgid "Keep the built parts as final and drop the cuts they came from; cuts that were not built stay in the plan, on the part they sit on (the source stays in ESP_Backup when Keep Original is on)"
+msgstr "将已构建的部件保留为最终结果并丢弃产生它们的切割；未构建的切割仍保留在方案中，位于其所在的部件上（启用保留原物体时，源保留在 ESP_Backup 中）"
+
+#: ops_misc.py:59
+msgctxt "Operator"
+msgid "Move the parts apart so you can inspect the connectors"
+msgstr "分开部件以便检查连接件"
+
+#: ops_plan.py:65
+msgctxt "Operator"
+msgid "Move the pin to the other part (the socket goes to this one)"
+msgstr "将插针移到另一部件（插孔移到这一部件）"
+
+#: ops_plan.py:26
+#: ui.py:228
+msgctxt "Operator"
+msgid "New Cut"
+msgstr "新建切割"
+
+#: ops_misc.py:207
+msgctxt "Operator"
+msgid "Open the EasySlice Print documentation"
+msgstr "打开 EasySlice Print 文档"
+
+#: ui.py:87
+msgctxt "Operator"
+msgid "Plane"
+msgstr "平面"
+
+#: ops_tools.py:407
+msgctxt "Operator"
+msgid "Plane Cut"
+msgstr "平面切割"
+
+#: ops_plan.py:158
+msgctxt "Operator"
+msgid "Plane cut: selects the cut plane (G/R/S). Curve/Freehand: drag the control points; Ctrl+LMB add, X delete, G slide all, R reset, Ctrl+Z undo, Enter/Esc finish. A two-contact cut edits one contact at a time"
+msgstr "平面切割：选择切割平面（G/R/S）。曲线/手绘：拖动控制点；Ctrl+左键添加，X 删除，G 整体滑动，R 重置，Ctrl+Z 撤销，Enter/Esc 完成。双接触切割每次编辑一个接触面"
+
+#: ops_plan.py:81
+msgctxt "Operator"
+msgid "Put the connector back to its stock shape at the automatic position, orientation and size, discarding any edit mode reshaping"
+msgstr "将连接件恢复为自动位置、朝向和尺寸下的原始形状，丢弃编辑模式中的任何变形"
+
+#: ops_misc.py:77
+msgctxt "Operator"
+msgid "Put the exploded parts back in place"
+msgstr "将爆炸视图中的部件放回原位"
+
+#: ops_plan.py:131
+msgctxt "Operator"
+msgid "Re-estimate connector position and size from the current cut surfaces"
+msgstr "根据当前切面重新估算连接件的位置和尺寸"
+
+#: ops_plan.py:130
+msgctxt "Operator"
+msgid "Refresh Connectors"
+msgstr "刷新连接件"
+
+#: ops_plan.py:582
+msgctxt "Operator"
+msgid "Remove the built parts, restore the source model and show the planned cuts again"
+msgstr "移除已构建的部件，恢复源模型并再次显示计划的切割"
+
+#: ops_plan.py:682
+msgctxt "Operator"
+msgid "Remove the red/green map of the failed cut from the viewport"
+msgstr "从视图移除失败切割的红/绿标记图"
+
+#: ops_plan.py:46
+msgctxt "Operator"
+msgid "Remove this planned cut and its preview"
+msgstr "移除此计划的切割及其预览"
+
+#: ops_misc.py:184
+msgctxt "Operator"
+msgid "Report boundary and non-manifold edges of the active object"
+msgstr "报告活动物体的边界边和非流形边"
+
+#: ui.py:257
+msgctxt "Operator"
+msgid "Reset"
+msgstr "重置"
+
+#: ops_plan.py:80
+msgctxt "Operator"
+msgid "Reset Connector"
+msgstr "重置连接件"
+
+#: ops_plan.py:100
+#: ui.py:254
+msgctxt "Operator"
+msgid "Select Connector"
+msgstr "选择连接件"
+
+#: ops_plan.py:101
+msgctxt "Operator"
+msgid "Select the connector preview so you can move (G), rotate (R) or scale (S) it in the viewport, or Tab into edit mode and reshape it - the build uses the shape you leave behind"
+msgstr "选择连接件预览，以便在视图中移动（G）、旋转（R）或缩放（S），或按 Tab 进入编辑模式重塑形状——构建会使用你留下的形状"
+
+#: ops_plan.py:27
+msgctxt "Operator"
+msgid "Start the last used cut tool"
+msgstr "启动上次使用的切割工具"
+
+#: ops_plan.py:64
+msgctxt "Operator"
+msgid "Swap Pin Side"
+msgstr "交换插针侧"
+
+#: ops_misc.py:95
+msgctxt "Operator"
+msgid "Write one file per part (selected parts, or every part of the last build) to the folder"
+msgstr "将每个部件（选中的部件，或上次构建的所有部件）写为一个文件到该文件夹"

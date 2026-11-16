@@ -1,0 +1,210 @@
+# perfect-chinese: 1
+# id: metahumantomanny
+# kind: addon
+# module: bl_ext.blender_org.MetahumanToManny
+# name: MetahumanToManny
+# name_zh: MetaHuman 转 Manny
+# translator: KeshiMiao
+# category: 
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: ui/panel.py:5
+msgid "Auto Find LODs"
+msgstr "自动查找 LOD"
+
+#: ui/panel.py:5
+msgid "Automatically find and process all LOD meshes (LOD0, LOD1, LOD2, etc.)"
+msgstr "自动查找并处理所有 LOD 网格（LOD0、LOD1、LOD2 等）"
+
+#: __init__.py:4
+msgid "Collection of tools for cleaning up armature vertex groups and fixing issues to make it compatible with Manny."
+msgstr "用于清理骨架顶点组并修复问题以兼容 Manny 的工具集合。"
+
+#: ui/panel.py:53
+msgid "Face Cleanup"
+msgstr "面部清理"
+
+#: ui/panel.py:73
+msgid "Hierarchy"
+msgstr "层级"
+
+#: ui/panel.py:40
+msgid "Manual Steps (optional)"
+msgstr "手动步骤（可选）"
+
+#: ui/panel.py:68
+msgid "Mesh Cleanup"
+msgstr "网格清理"
+
+#: __init__.py:4
+#: ui/panel.py:14
+msgid "MetahumanToManny"
+msgstr "MetahumanToManny"
+
+#: __init__.py:4
+msgid "Object"
+msgstr "物体"
+
+#: operators/cleanup_all_vertex_groups.py:15
+#: operators/fix_finger_bulges.py:45
+msgid "Please select a mesh object."
+msgstr "请选择一个网格物体。"
+
+#: operators/generate_ik_bones.py:46
+msgid "Please select an armature (the Manny skeleton)."
+msgstr "请选择一个骨架（Manny 骨骼）。"
+
+#: operators/bind_to_manny.py:17
+msgid "Please select both a mesh and an armature (Manny skeleton)."
+msgstr "请同时选择网格和骨架（Manny 骨骼）。"
+
+#: operators/cleanup_bone_weights.py:22
+#: operators/in_place_conversion.py:35
+msgid "Please select both a mesh and an armature."
+msgstr "请同时选择网格和骨架。"
+
+#: operators/cleanup_unused_vertex_groups.py:19
+msgid "Please select both an armature and a mesh."
+msgstr "请同时选择骨架和网格。"
+
+#: ui/panel.py:26
+msgid "Quick Convert"
+msgstr "快速转换"
+
+#: ui/panel.py:34
+msgid "Settings"
+msgstr "设置"
+
+#: ui/panel.py:58
+msgid "Vertex Groups"
+msgstr "顶点组"
+
+#: operators/cleanup_all_vertex_groups.py:35
+msgid "Vertex group cleanups done."
+msgstr "顶点组清理完成。"
+
+#: operators/bind_to_manny.py:8
+#: ui/panel.py:75
+msgctxt "Operator"
+msgid "Bind to Manny"
+msgstr "绑定到 Manny"
+
+#: operators/bind_to_manny.py:9
+msgctxt "Operator"
+msgid "Binds selected mesh (and its LODs) to Manny skeleton with empty groups and scales to 0.01"
+msgstr "将所选网格（及其 LOD）以空组绑定到 Manny 骨架，并缩放至 0.01"
+
+#: operators/cleanup_bone_weights.py:13
+#: ui/panel.py:54
+msgctxt "Operator"
+msgid "Clean Up Face Bone Weights"
+msgstr "清理面部骨骼权重"
+
+#: operators/cleanup_all_vertex_groups.py:8
+#: ui/panel.py:59
+msgctxt "Operator"
+msgid "Cleanup All"
+msgstr "清理全部"
+
+#: operators/cleanup_unused_vertex_groups.py:8
+#: ui/panel.py:64
+msgctxt "Operator"
+msgid "Cleanup Unused Groups"
+msgstr "清理未使用的组"
+
+#: operators/in_place_conversion.py:27
+#: ui/panel.py:29
+msgctxt "Operator"
+msgid "Convert Skeleton To Manny"
+msgstr "将骨架转换为 Manny"
+
+#: operators/cleanup_unused_vertex_groups.py:9
+msgctxt "Operator"
+msgid "Deletes mesh vertex groups with no matching bone in the armature"
+msgstr "删除骨架中没有对应骨骼的网格顶点组"
+
+#: operators/fix_finger_bulges.py:35
+#: ui/panel.py:62
+msgctxt "Operator"
+msgid "Fix Finger Helpers"
+msgstr "修复手指辅助组"
+
+#: operators/fix_seams.py:8
+#: ui/panel.py:69
+msgctxt "Operator"
+msgid "Fix Seams"
+msgstr "修复接缝"
+
+#: operators/fix_toes.py:13
+#: ui/panel.py:63
+msgctxt "Operator"
+msgid "Fix Toes"
+msgstr "修复脚趾"
+
+#: operators/fix_twist_bone_names.py:13
+#: ui/panel.py:61
+msgctxt "Operator"
+msgid "Fix Twist Bone Names"
+msgstr "修复扭转骨骼名称"
+
+#: operators/fix_seams.py:9
+msgctxt "Operator"
+msgid "Fix seams by selecting non-manifold geometry and merging by distance"
+msgstr "通过选择非流形几何体并按距离合并来修复接缝"
+
+#: operators/generate_ik_bones.py:30
+#: ui/panel.py:30
+msgctxt "Operator"
+msgid "Generate IK Bones"
+msgstr "生成 IK 骨骼"
+
+#: operators/generate_ik_bones.py:31
+msgctxt "Operator"
+msgid "Generates the UE5 Manny IK/auxiliary bones (ik_foot_root, ik_foot_l/r, ik_hand_root, ik_hand_gun, ik_hand_l/r, interaction, center_of_mass) on the selected armature, rebuilding any that already exist"
+msgstr "在所选骨架上生成 UE5 Manny 的 IK/辅助骨骼（ik_foot_root、ik_foot_l/r、ik_hand_root、ik_hand_gun、ik_hand_l/r、interaction、center_of_mass），并重建已存在的骨骼"
+
+#: operators/fix_finger_bulges.py:36
+msgctxt "Operator"
+msgid "Merges MetaHuman finger helper groups (bulge, half, mcp, pip, dip, palm, side, slide) into their Manny finger bone and deletes them"
+msgstr "将 MetaHuman 手指辅助组（bulge、half、mcp、pip、dip、palm、side、slide）合并到对应的 Manny 手指骨骼并删除它们"
+
+#: operators/cleanup_bone_weights.py:14
+msgctxt "Operator"
+msgid "Merges child-bone weights into head, neck_02 and neck_01"
+msgstr "将子骨骼权重合并到 head、neck_02 和 neck_01"
+
+#: operators/fix_toes.py:14
+msgctxt "Operator"
+msgid "Merges toe vertex groups into ball_l and ball_r and deletes the originals"
+msgstr "将脚趾顶点组合并到 ball_l 和 ball_r 并删除原组"
+
+#: operators/in_place_conversion.py:28
+msgctxt "Operator"
+msgid "One-click conversion: runs all cleanup operations and removes unused bones from armature"
+msgstr "一键转换：运行所有清理操作并从骨架中移除未使用的骨骼"
+
+#: operators/setup_lod_hierarchy.py:10
+msgctxt "Operator"
+msgid "Parents all LOD meshes to their LodGroup object and sets up Unreal Engine LOD recognition"
+msgstr "将所有 LOD 网格设为其 LodGroup 物体的子级，并设置虚幻引擎 LOD 识别"
+
+#: operators/fix_twist_bone_names.py:14
+msgctxt "Operator"
+msgid "Renames 'twistCor' vertex groups to 'twist', merging the weights into any existing 'twist' group"
+msgstr "将 'twistCor' 顶点组重命名为 'twist'，并把权重合并到已有的 'twist' 组中"
+
+#: operators/cleanup_all_vertex_groups.py:9
+msgctxt "Operator"
+msgid "Runs all vertex group cleanup operations: Fix Twist Bones, Fix Finger Helpers, Fix Toes"
+msgstr "运行所有顶点组清理操作：修复扭转骨骼、修复手指辅助组、修复脚趾"
+
+#: operators/setup_lod_hierarchy.py:9
+#: ui/panel.py:74
+msgctxt "Operator"
+msgid "Setup LOD Hierarchy"
+msgstr "设置 LOD 层级"
