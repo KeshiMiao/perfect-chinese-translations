@@ -1,0 +1,171 @@
+# perfect-chinese: 1
+# id: simplify_curves_plus
+# kind: addon
+# module: bl_ext.blender_org.simplify_curves_plus
+# name: Simplify Curves+
+# name_zh: 曲线简化
+# translator: KeshiMiao
+# category: Add Curve
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:478
+msgid "BEZIER"
+msgstr "BEZIER"
+
+#: __init__.py:478
+msgid "Bezier"
+msgstr "贝塞尔"
+
+#: __init__.py:375
+#: __init__.py:470
+msgid "Choose algorithm to use"
+msgstr "选择要使用的算法"
+
+#: __init__.py:374
+#: __init__.py:468
+msgid "Curvature"
+msgstr "曲率"
+
+#: __init__.py:374
+#: __init__.py:468
+msgid "Curvature-based simplification (RDP)"
+msgstr "基于曲率的简化（RDP）"
+
+#: __init__.py:400
+#: __init__.py:506
+msgid "Degree"
+msgstr "阶数"
+
+#: __init__.py:386
+#: __init__.py:492
+msgid "Degree of curve to get averaged curvatures"
+msgstr "用于获取平均曲率的曲线阶数"
+
+#: __init__.py:400
+#: __init__.py:506
+msgid "Degree of new curve"
+msgstr "新曲线阶数"
+
+#: __init__.py:373
+#: __init__.py:467
+msgid "Distance"
+msgstr "距离"
+
+#: __init__.py:419
+#: __init__.py:529
+msgid "Distance Error:"
+msgstr "距离误差："
+
+#: __init__.py:407
+#: __init__.py:513
+msgid "Distance error"
+msgstr "距离误差"
+
+#: __init__.py:373
+#: __init__.py:467
+msgid "Distance-based simplification (Poly)"
+msgstr "基于距离的简化（多边形）"
+
+#: __init__.py:393
+#: __init__.py:499
+msgid "Error"
+msgstr "误差"
+
+#: __init__.py:476
+msgid "Input"
+msgstr "输入"
+
+#: __init__.py:519
+msgid "Keep short splines"
+msgstr "保留短样条"
+
+#: __init__.py:519
+msgid "Keep short splines (less than 3 points)"
+msgstr "保留短样条（少于 3 个点）"
+
+#: __init__.py:393
+msgid "Maximum allowed distance error"
+msgstr "允许的最大距离误差"
+
+#: __init__.py:407
+#: __init__.py:499
+msgid "Maximum allowed distance error in Blender Units"
+msgstr "允许的最大距离误差（Blender 单位）"
+
+#: __init__.py:375
+#: __init__.py:470
+msgid "Mode"
+msgstr "模式"
+
+#: __init__.py:477
+msgid "NURBS"
+msgstr "NURBS"
+
+#: __init__.py:477
+msgid "Nurbs"
+msgstr "NURBS"
+
+#: __init__.py:531
+msgid "Output"
+msgstr "输出"
+
+#: __init__.py:481
+msgid "Output splines"
+msgstr "输出样条"
+
+#: __init__.py:479
+msgid "POLY"
+msgstr "POLY"
+
+#: __init__.py:479
+msgid "Poly"
+msgstr "多边形"
+
+#: __init__.py:476
+msgid "Same type as input spline"
+msgstr "与输入样条类型相同"
+
+#: __init__.py:380
+#: __init__.py:486
+msgid "Threshold"
+msgstr "阈值"
+
+#: __init__.py:481
+msgid "Type of splines to output"
+msgstr "要输出的样条类型"
+
+#: __init__.py:358
+msgctxt "Operator"
+msgid "Curve Simplify"
+msgstr "曲线简化"
+
+#: __init__.py:658
+#: __init__.py:674
+msgctxt "Operator"
+msgid "Merge By Distance"
+msgstr "按距离合并"
+
+#: __init__.py:459
+msgctxt "Operator"
+msgid "Simplify Curves"
+msgstr "简化曲线"
+
+#: __init__.py:366
+msgctxt "Operator"
+msgid "Simplify F-Curves"
+msgstr "简化 F 曲线"
+
+#: __init__.py:367
+msgctxt "Operator"
+msgid "Simplify selected Curves\nDoes not operate on short Splines (less than 3 points)"
+msgstr "简化选中的曲线\n不处理短样条（少于 3 个点）"
+
+#: __init__.py:460
+msgctxt "Operator"
+msgid "Simplify the existing Curve based upon the chosen settings\nNotes: Needs an existing Curve object,\nOutputs a new Curve with the Simple prefix in the name"
+msgstr "根据所选设置简化现有曲线\n注意：需要一个现有曲线物体，\n输出一个名称带 Simple 前缀的新曲线"

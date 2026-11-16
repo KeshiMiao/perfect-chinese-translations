@@ -1,0 +1,4413 @@
+# perfect-chinese: 1
+# id: tissue
+# kind: addon
+# module: bl_ext.blender_org.tissue
+# name: Tissue
+# name_zh: 计算设计工具
+# translator: KeshiMiao
+# category: 
+# supported_versions: >=4.5.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: weight_reaction_diffusion.py:1125
+msgid "\" found!"
+msgstr "\" 已找到！"
+
+#: weight_reaction_diffusion.py:1127
+msgid "\" not found."
+msgstr "\" 未找到。"
+
+#: tessellate_numpy.py:1727
+#: tessellate_numpy.py:2768
+msgid "'"
+msgstr "'"
+
+#: tessellate_numpy.py:1727
+msgid "' doesn't have UV Maps or corner attributes"
+msgstr "' 没有 UV 贴图或面角属性"
+
+#: weight_reaction_diffusion.py:363
+msgid "'RD_vector_field' attribute (Vertex > Vector)"
+msgstr "'RD_vector_field' 属性（顶点 > 矢量）"
+
+#: weight_reaction_diffusion.py:1062
+msgid "'Use Modifiers' is disabled."
+msgstr "“使用修改器”已禁用。"
+
+#: tessellate_numpy.py:1522
+#: tissue_properties.py:736
+msgid "0 means no anisotropy, -1 represent the U direction, while 1 represent the V direction"
+msgstr "0 表示无各向异性，-1 表示 U 方向，1 表示 V 方向"
+
+#: weight_tools.py:388
+#: weight_tools.py:685
+msgid ": from"
+msgstr ": 从"
+
+#: texture_reaction_diffusion.py:109
+msgid "A"
+msgstr "A"
+
+#: weight_tools.py:1845
+msgid "Absolute"
+msgstr "绝对"
+
+#: weight_tools.py:794
+msgid "Absolute Bending"
+msgstr "绝对弯曲"
+
+#: weight_tools.py:1845
+msgid "Absolute values"
+msgstr "绝对值"
+
+#: tessellate_numpy.py:1271
+#: tissue_properties.py:468
+msgid "According to a target object"
+msgstr "根据目标物体"
+
+#: tessellate_numpy.py:1270
+#: tissue_properties.py:467
+msgid "According to base object's shape keys"
+msgstr "根据基础物体的形态键"
+
+#: contour_curves.py:169
+#: contour_curves.py:386
+msgid "Active Object"
+msgstr "活动物体"
+
+#: tessellate_numpy.py:1079
+#: tissue_properties.py:242
+msgid "Active UV"
+msgstr "活动 UV"
+
+#: weight_tools.py:2033
+msgid "Active object doesn't have vertex groups"
+msgstr "活动物体没有顶点组"
+
+#: tessellate_numpy.py:2000
+msgid "Active object must be Tessellated before Update"
+msgstr "活动物体必须在更新前先细分"
+
+#: weight_tools.py:2009
+msgid "Add"
+msgstr "添加"
+
+#: dual_mesh.py:38
+msgid "Add Component Object to the Scene"
+msgstr "将组件物体添加到场景"
+
+#: weight_tools.py:930
+msgid "Add Displace"
+msgstr "添加置换"
+
+#: weight_tools.py:930
+msgid "Add Displace Modifier"
+msgstr "添加置换修改器"
+
+#: weight_tools.py:1205
+#: weight_tools.py:1438
+msgid "Add Solidify Modifier"
+msgstr "添加实体化修改器"
+
+#: weight_tools.py:2009
+msgid "Add to the Weight"
+msgstr "添加到权重"
+
+#: tessellate_numpy.py:1541
+#: tissue_properties.py:803
+msgid "Additional material offset based on the number of boundary vertices"
+msgstr "基于边界顶点数量的额外材质偏移"
+
+#: polyhedra.py:116
+#: polyhedra.py:242
+msgid "Adjust threshold based on thickness"
+msgstr "根据厚度调整阈值"
+
+#: tessellate_numpy.py:1261
+#: tissue_properties.py:457
+msgid "Advanced Settings"
+msgstr "高级设置"
+
+#: tessellate_numpy.py:1393
+#: tissue_properties.py:625
+msgid "Align to Origins"
+msgstr "对齐到原点"
+
+#: curves_tools.py:85
+#: curves_tools.py:116
+msgid "All"
+msgstr "全部"
+
+#: tessellate_numpy.py:3864
+msgid "All frames will be rendered in the background."
+msgstr "所有帧将在后台渲染。"
+
+#: weight_tools.py:937
+msgid "Alternate"
+msgstr "交替"
+
+#: weight_tools.py:937
+msgid "Alternate 0 and 1"
+msgstr "交替 0 和 1"
+
+#: weight_tools.py:2001
+msgid "Amplitude"
+msgstr "振幅"
+
+#: weight_tools.py:1837
+msgid "Angle"
+msgstr "角度"
+
+#: tissue_properties.py:168
+msgid "Animatable"
+msgstr "可动画"
+
+#: curves_tools.py:72
+msgid "Animatable Curve"
+msgstr "可动画曲线"
+
+#: weight_reaction_diffusion.py:962
+msgid "Anisotropic"
+msgstr "各向异性"
+
+#: texture_reaction_diffusion.py:101
+#: weight_reaction_diffusion.py:370
+msgid "Anisotropy"
+msgstr "各向异性"
+
+#: dual_mesh.py:21
+#: dual_mesh.py:148
+msgid "Apply Modifiers"
+msgstr "应用修改器"
+
+#: tessellate_numpy.py:1119
+#: tissue_properties.py:287
+msgid "Apply Modifiers and Shape Keys to the base object"
+msgstr "将修改器和形态键应用到基础物体"
+
+#: tessellate_numpy.py:1124
+#: tissue_properties.py:293
+msgid "Apply Modifiers and Shape Keys to the component object"
+msgstr "将修改器和形态键应用到组件物体"
+
+#: contour_curves.py:49
+#: contour_curves.py:283
+msgid "Apply all the modifiers"
+msgstr "应用所有修改器"
+
+#: dual_mesh.py:21
+#: dual_mesh.py:148
+msgid "Apply object's modifiers"
+msgstr "应用物体的修改器"
+
+#: tessellate_numpy.py:1231
+#: tissue_properties.py:422
+msgid "Apply the component only on the selected Material"
+msgstr "仅在选定材质上应用组件"
+
+#: polyhedra.py:107
+#: polyhedra.py:233
+msgid "Apply wireframe to every cell"
+msgstr "为每个单元应用线框"
+
+#: polyhedra.py:109
+#: polyhedra.py:235
+msgid "Area"
+msgstr "面积"
+
+#: dual_mesh.py:135
+msgid "Arrange the new triangles evenly"
+msgstr "均匀排列新三角形"
+
+#: contour_curves.py:210
+#: contour_curves.py:435
+msgid "Attribute"
+msgstr "属性"
+
+#: weight_reaction_diffusion.py:1125
+#: weight_reaction_diffusion.py:1127
+msgid "Attribute \""
+msgstr "属性 \""
+
+#: weight_reaction_diffusion.py:411
+#: weight_reaction_diffusion.py:420
+msgid "Attributes (faster)"
+msgstr "属性（更快）"
+
+#: weight_tools.py:353
+#: weight_tools.py:650
+msgid "Automatic Bounds"
+msgstr "自动边界"
+
+#: tessellate_numpy.py:1545
+#: tissue_properties.py:808
+msgid "Automatic Rotation"
+msgstr "自动旋转"
+
+#: curves_tools.py:77
+#: curves_tools.py:226
+msgid "Automatically apply Modifiers and Shape Keys"
+msgstr "自动应用修改器和形态键"
+
+#: tessellate_numpy.py:1295
+#: tissue_properties.py:511
+msgid "Automatically bridge loop pairs"
+msgstr "自动桥接循环对"
+
+#: tessellate_numpy.py:1294
+#: tissue_properties.py:510
+msgid "Automatically cap open loops"
+msgstr "自动封盖开放循环"
+
+#: material_tools.py:59
+#: material_tools.py:138
+msgid "Automatically generates new materials"
+msgstr "自动生成新材质"
+
+#: lattice.py:179
+msgid "Automatically hide the Lattice object"
+msgstr "自动隐藏晶格物体"
+
+#: curves_tools.py:72
+msgid "Automatically recompute the conversion when the frame is changed."
+msgstr "帧更改时自动重新计算转换。"
+
+#: tissue_properties.py:168
+msgid "Automatically recompute the geometry when the frame is changed. Tessellations may not work using the default Render Animation"
+msgstr "帧更改时自动重新计算几何体。使用默认的渲染动画时，细分可能无法正常工作"
+
+#: weight_tools.py:2052
+msgid "Automatically remap the distance values from 0 to 1"
+msgstr "自动将距离值从 0 重映射到 1"
+
+#: tessellate_numpy.py:1545
+#: tissue_properties.py:808
+msgid "Automatically rotate the boundary faces"
+msgstr "自动旋转边界面"
+
+#: tessellate_numpy.py:1332
+#: tissue_properties.py:555
+msgid "Automatically set crease for bridge edges"
+msgstr "自动为桥接边设置折痕"
+
+#: tessellate_numpy.py:1325
+#: tissue_properties.py:547
+msgid "Automatically set crease for open edges"
+msgstr "自动为开放边设置折痕"
+
+#: lattice.py:138
+msgid "Automatically set the Lattice as parent"
+msgstr "自动将晶格设为父级"
+
+#: curves_tools.py:66
+msgid "Automatically updates source object as well, when possible"
+msgstr "尽可能同时更新源物体"
+
+#: tissue_properties.py:163
+msgid "Automatically updates source objects, when possible"
+msgstr "尽可能更新源物体"
+
+#: weight_tools.py:655
+msgid "Average Deformation"
+msgstr "平均变形"
+
+#: contour_curves.py:575
+#: contour_curves.py:1088
+msgid "Axis"
+msgstr "轴"
+
+#: contour_curves.py:193
+#: contour_curves.py:414
+msgid "Axis of the Spiral (in local coordinates)"
+msgstr "螺旋的轴（局部坐标）"
+
+#: texture_reaction_diffusion.py:113
+msgid "B"
+msgstr "B"
+
+#: tessellate_numpy.py:1454
+#: tessellate_numpy.py:1470
+msgid "Base"
+msgstr "基础"
+
+#: tessellate_numpy.py:1642
+msgid "Base :"
+msgstr "基础："
+
+#: tessellate_numpy.py:1199
+#: tissue_properties.py:319
+msgid "Base object for the tessellation"
+msgstr "用于镶嵌的基础物体"
+
+#: tessellate_numpy.py:2481
+msgid "Base object:"
+msgstr "基础物体："
+
+#: tessellate_numpy.py:1073
+#: tissue_properties.py:235
+msgid "Based on Global coordinates, from 0 to 1"
+msgstr "基于全局坐标，从 0 到 1"
+
+#: tessellate_numpy.py:1072
+#: tissue_properties.py:234
+msgid "Based on Local coordinates, from 0 to 1"
+msgstr "基于局部坐标，从 0 到 1"
+
+#: tessellate_numpy.py:1269
+#: tissue_properties.py:465
+msgid "Based on individual faces normal"
+msgstr "基于各面法线"
+
+#: dual_mesh.py:119
+#: dual_mesh.py:135
+msgid "Beauty"
+msgstr "美观"
+
+#: contour_curves.py:163
+#: contour_curves.py:381
+msgid "Bevel"
+msgstr "倒角"
+
+#: contour_curves.py:133
+#: contour_curves.py:356
+msgid "Bevel Depth"
+msgstr "倒角深度"
+
+#: curves_tools.py:137
+#: curves_tools.py:260
+msgid "Bezier"
+msgstr "贝塞尔"
+
+#: weight_tools.py:1651
+msgid "Blue Channel"
+msgstr "蓝色通道"
+
+#: weight_tools.py:1833
+msgid "Blur Iterations"
+msgstr "模糊迭代"
+
+#: weight_tools.py:1829
+msgid "Blur Strength"
+msgstr "模糊强度"
+
+#: weight_tools.py:1829
+msgid "Blur strength per iteration"
+msgstr "每次迭代的模糊强度"
+
+#: config.py:24
+msgid "Boost the Tessellation using Numba module. It will be slower during the first execution"
+msgstr "使用 Numba 模块加速镶嵌。首次执行时会较慢"
+
+#: curves_tools.py:117
+#: curves_tools.py:269
+msgid "Boundaries"
+msgstr "边界"
+
+#: tessellate_numpy.py:1703
+#: tessellate_numpy.py:2555
+msgid "Boundary"
+msgstr "边界"
+
+#: contour_curves.py:239
+#: contour_curves.py:460
+msgid "Boundary Edges"
+msgstr "边界边"
+
+#: tessellate_numpy.py:2655
+msgid "Boundary Faces:"
+msgstr "边界面："
+
+#: curves_tools.py:114
+#: curves_tools.py:266
+msgid "Boundary Selection"
+msgstr "边界选择"
+
+#: tessellate_numpy.py:1541
+#: tissue_properties.py:803
+msgid "Boundary Variable Offset"
+msgstr "边界可变偏移"
+
+#: tessellate_numpy.py:1071
+#: tissue_properties.py:233
+msgid "Bounds"
+msgstr "范围"
+
+#: tessellate_numpy.py:1275
+#: tessellate_numpy.py:2692
+msgid "Bounds X"
+msgstr "范围 X"
+
+#: tessellate_numpy.py:1283
+#: tissue_properties.py:498
+msgid "Bounds Y"
+msgstr "范围 Y"
+
+#: tessellate_numpy.py:1368
+#: tissue_properties.py:596
+msgid "Bridge Cuts"
+msgstr "桥接切割数"
+
+#: tessellate_numpy.py:1332
+#: tissue_properties.py:555
+msgid "Bridge Edges Crease"
+msgstr "桥接边折痕"
+
+#: tessellate_numpy.py:1295
+#: tissue_properties.py:511
+msgid "Bridge Open Loops"
+msgstr "桥接开放循环"
+
+#: tessellate_numpy.py:1339
+#: tissue_properties.py:563
+msgid "Bridge Smoothness"
+msgstr "桥接平滑度"
+
+#: tissue_properties.py:703
+msgid "Bridge Vertex Group"
+msgstr "桥接顶点组"
+
+#: tessellate_numpy.py:1296
+#: tissue_properties.py:512
+msgid "Bridge loop pairs and cap holes according to vertex groups"
+msgstr "根据顶点组桥接循环对并封盖孔洞"
+
+#: texture_reaction_diffusion.py:137
+#: weight_reaction_diffusion.py:236
+msgid "Brush"
+msgstr "笔刷"
+
+#: texture_reaction_diffusion.py:630
+#: weight_reaction_diffusion.py:1047
+msgid "Brush:"
+msgstr "笔刷："
+
+#: weight_reaction_diffusion.py:1070
+msgid "Cache"
+msgstr "缓存"
+
+#: weight_reaction_diffusion.py:426
+msgid "Cache Mesh"
+msgstr "缓存网格"
+
+#: texture_reaction_diffusion.py:215
+#: weight_reaction_diffusion.py:336
+msgid "Cache directory"
+msgstr "缓存目录"
+
+#: weight_reaction_diffusion.py:1082
+msgid "Cache:"
+msgstr "缓存："
+
+#: curves_tools.py:86
+#: curves_tools.py:234
+msgid "Cage"
+msgstr "框架"
+
+#: tessellate_numpy.py:1869
+msgid "Can't Tessellate :-("
+msgstr "无法镶嵌 :-("
+
+#: tessellate_numpy.py:1885
+msgid "Can't compute Contour Curves :-("
+msgstr "无法计算轮廓曲线 :-("
+
+#: tessellate_numpy.py:1880
+msgid "Can't compute Curve :-("
+msgstr "无法计算曲线 :-("
+
+#: tessellate_numpy.py:1874
+msgid "Can't compute Polyhedra :-("
+msgstr "无法计算多面体 :-("
+
+#: tessellate_numpy.py:1615
+msgid "Can't find any object according to the materials name."
+msgstr "无法根据材质名称找到任何物体。"
+
+#: tessellate_numpy.py:2643
+msgid "Can't find components from the materials."
+msgstr "无法从材质中找到组件。"
+
+#: tessellate_numpy.py:2609
+msgid "Can't find components in the Collection."
+msgstr "无法在集合中找到组件。"
+
+#: weight_reaction_diffusion.py:1098
+msgid "Cannot use cache"
+msgstr "无法使用缓存"
+
+#: tessellate_numpy.py:1294
+#: tessellate_numpy.py:1300
+msgid "Cap Holes"
+msgstr "封盖孔洞"
+
+#: tessellate_numpy.py:1459
+#: tissue_properties.py:684
+msgid "Cap Vertex Group"
+msgstr "封盖顶点组"
+
+#: tessellate_numpy.py:1300
+#: tissue_properties.py:517
+msgid "Cap open edges loops"
+msgstr "封盖开放边循环"
+
+#: tessellate_numpy.py:1364
+#: tissue_properties.py:591
+msgid "Center"
+msgstr "中心"
+
+#: weight_tools.py:159
+msgid "Chess"
+msgstr "棋盘"
+
+#: weight_tools.py:935
+#: weight_tools.py:1650
+msgid "Choose how to convert vertex group"
+msgstr "选择顶点组的转换方式"
+
+#: contour_curves.py:581
+#: contour_curves.py:1095
+msgid "Clean Curves:"
+msgstr "清理曲线："
+
+#: contour_curves.py:181
+#: contour_curves.py:404
+msgid "Clean Distance"
+msgstr "清理距离"
+
+#: curves_tools.py:424
+msgid "Clean curves:"
+msgstr "清理曲线："
+
+#: dual_mesh.py:136
+#: tessellate_numpy.py:1278
+msgid "Clip"
+msgstr "裁剪"
+
+#: tessellate_numpy.py:1291
+#: tissue_properties.py:507
+msgid "Close Mesh"
+msgstr "闭合网格"
+
+#: curves_tools.py:128
+#: curves_tools.py:279
+msgid "Closed"
+msgstr "闭合"
+
+#: tessellate_numpy.py:1063
+#: tissue_properties.py:205
+msgid "Collection"
+msgstr "集合"
+
+#: tessellate_numpy.py:1646
+msgid "Collection :"
+msgstr "集合："
+
+#: material_tools.py:38
+msgid "Color A"
+msgstr "颜色 A"
+
+#: material_tools.py:44
+msgid "Color B"
+msgstr "颜色 B"
+
+#: material_tools.py:62
+msgid "Colors are automatically generated"
+msgstr "颜色自动生成"
+
+#: material_tools.py:83
+#: material_tools.py:169
+msgid "Colors:"
+msgstr "颜色："
+
+#: tessellate_numpy.py:3110
+msgid "Combine Iterations:"
+msgstr "合并迭代："
+
+#: tessellate_numpy.py:1111
+#: tissue_properties.py:278
+msgid "Combine Mode"
+msgstr "合并模式"
+
+#: tessellate_numpy.py:1114
+#: tissue_properties.py:281
+msgid "Combine each iteration with the unused faces of the previous iteration. Used for branching systems"
+msgstr "将每次迭代与上一次迭代未使用的面合并。用于分支系统"
+
+#: tessellate_numpy.py:1256
+#: tissue_properties.py:451
+msgid "Combine the generated geometry with unused faces"
+msgstr "将生成的几何体与未使用的面合并"
+
+#: tessellate_numpy.py:1115
+#: tissue_properties.py:282
+msgid "Combine the result of all iterations"
+msgstr "合并所有迭代的结果"
+
+#: tessellate_numpy.py:1256
+#: tissue_properties.py:451
+msgid "Combine unused"
+msgstr "合并未使用面"
+
+#: tessellate_numpy.py:3112
+msgid "Combine:"
+msgstr "合并："
+
+#: tessellate_numpy.py:1455
+#: tessellate_numpy.py:1471
+msgid "Component"
+msgstr "组件"
+
+#: tessellate_numpy.py:1644
+msgid "Component :"
+msgstr "组件："
+
+#: tessellate_numpy.py:1060
+#: tessellate_numpy.py:1069
+msgid "Component Mode"
+msgstr "组件模式"
+
+#: tessellate_numpy.py:2587
+msgid "Component Mode:"
+msgstr "组件模式："
+
+#: tessellate_numpy.py:1124
+#: tissue_properties.py:293
+msgid "Component Modifiers"
+msgstr "组件修改器"
+
+#: tessellate_numpy.py:1077
+#: tissue_properties.py:240
+msgid "Component Rotation"
+msgstr "组件旋转"
+
+#: tessellate_numpy.py:1087
+#: tissue_properties.py:251
+msgid "Component main direction aligned with diagonal"
+msgstr "组件主方向与对角线对齐"
+
+#: tessellate_numpy.py:1086
+#: tissue_properties.py:250
+msgid "Component main directions in XY"
+msgstr "组件主方向在 XY 平面内"
+
+#: tessellate_numpy.py:1204
+#: tissue_properties.py:325
+msgid "Component object for the tessellation"
+msgstr "用于镶嵌的组件物体"
+
+#: tessellate_numpy.py:1586
+msgid "Component object, then select the Base object."
+msgstr "组件物体，然后选择基础物体。"
+
+#: tessellate_numpy.py:3015
+msgid "Component's Shape Keys cannot be used together with Component's Modifiers"
+msgstr "组件的形态键不能与组件的修改器一起使用"
+
+#: tessellate_numpy.py:2570
+msgid "Components"
+msgstr "组件"
+
+#: tessellate_numpy.py:2667
+msgid "Components Coordinates"
+msgstr "组件坐标"
+
+#: tessellate_numpy.py:1209
+msgid "Components collection for the tessellation"
+msgstr "用于镶嵌的组件集合"
+
+#: tessellate_numpy.py:1601
+msgid "Components from Active Collection"
+msgstr "来自活动集合的组件"
+
+#: tessellate_numpy.py:1614
+msgid "Components from Materials"
+msgstr "来自材质的组件"
+
+#: weight_tools.py:648
+msgid "Compressed Only"
+msgstr "仅压缩"
+
+#: texture_reaction_diffusion.py:416
+#: weight_reaction_diffusion.py:69
+msgid "Compute a new iteration on frame changes"
+msgstr "帧更改时计算新迭代"
+
+#: texture_reaction_diffusion.py:62
+#: weight_reaction_diffusion.py:173
+msgid "Compute a new iteration on frame changes. Currently is not working during  Render Animation"
+msgstr "帧更改时计算新迭代。当前在渲染动画时不起作用"
+
+#: contour_curves.py:239
+#: contour_curves.py:460
+msgid "Compute the distance starting from the boundary edges"
+msgstr "从边界边开始计算距离"
+
+#: contour_curves.py:241
+#: contour_curves.py:462
+msgid "Compute the distance starting from the selected vertex group"
+msgstr "从选定顶点组开始计算距离"
+
+#: contour_curves.py:240
+#: contour_curves.py:461
+msgid "Compute the distance starting from the sharp edges"
+msgstr "从锐边开始计算距离"
+
+#: tessellate_numpy.py:1537
+#: tissue_properties.py:773
+msgid "Consistent Wedges"
+msgstr "一致楔形"
+
+#: tessellate_numpy.py:1268
+#: tissue_properties.py:464
+msgid "Consistent direction based on vertices normal"
+msgstr "基于顶点法线的一致方向"
+
+#: tessellate_numpy.py:1046
+#: tessellate_numpy.py:1362
+msgid "Constant"
+msgstr "常量"
+
+#: contour_curves.py:219
+#: contour_curves.py:443
+msgid "Constant Vector"
+msgstr "常量向量"
+
+#: weight_tools.py:2365
+msgid "Continue the streamlines when the weight is the same"
+msgstr "权重相同时继续流线"
+
+#: contour_curves.py:175
+#: contour_curves.py:399
+msgid "Contour"
+msgstr "轮廓"
+
+#: contour_curves.py:264
+#: contour_curves.py:391
+msgid "Contour Attribute"
+msgstr "轮廓属性"
+
+#: tissue_properties.py:180
+msgid "Contour Curves"
+msgstr "轮廓曲线"
+
+#: contour_curves.py:504
+#: contour_curves.py:1018
+msgid "Contour Curves:"
+msgstr "轮廓曲线："
+
+#: contour_curves.py:209
+#: contour_curves.py:434
+msgid "Contour based on a Vertex Group"
+msgstr "基于顶点组的轮廓"
+
+#: contour_curves.py:210
+#: contour_curves.py:435
+msgid "Contour based on an Attribute (Vertex > Float)"
+msgstr "基于属性（顶点 > 浮点）的轮廓"
+
+#: contour_curves.py:211
+#: contour_curves.py:436
+msgid "Contour based on the geodesic distance from the chosen vertices"
+msgstr "基于所选顶点测地距离的轮廓"
+
+#: contour_curves.py:212
+#: contour_curves.py:437
+msgid "Contour based on the topology distance from the chosen vertices"
+msgstr "基于所选顶点拓扑距离的轮廓"
+
+#: contour_curves.py:231
+#: contour_curves.py:453
+msgid "Contour offset along the Vector"
+msgstr "沿向量的轮廓偏移"
+
+#: curves_tools.py:144
+#: curves_tools.py:284
+msgid "Conversion Mode"
+msgstr "转换模式"
+
+#: curves_tools.py:365
+#: curves_tools.py:713
+msgid "Conversion Mode:"
+msgstr "转换模式："
+
+#: curves_tools.py:171
+#: curves_tools.py:307
+msgid "Convert only Sharp edges"
+msgstr "仅转换锐边"
+
+#: weight_tools.py:1650
+msgid "Convert to"
+msgstr "转换为"
+
+#: weight_tools.py:1651
+msgid "Convert to Blue Channel"
+msgstr "转换为蓝色通道"
+
+#: weight_tools.py:1655
+msgid "Convert to False Colors"
+msgstr "转换为伪彩色"
+
+#: weight_tools.py:1654
+msgid "Convert to Grayscale"
+msgstr "转换为灰度"
+
+#: weight_tools.py:1652
+msgid "Convert to Green Channel"
+msgstr "转换为绿色通道"
+
+#: weight_tools.py:1653
+msgid "Convert to Red Channel"
+msgstr "转换为红色通道"
+
+#: polyhedra.py:116
+#: polyhedra.py:242
+msgid "Correction"
+msgstr "校正"
+
+#: material_tools.py:56
+#: material_tools.py:135
+msgid "Count"
+msgstr "数量"
+
+#: material_tools.py:56
+#: material_tools.py:135
+msgid "Count of random materials"
+msgstr "随机材质数量"
+
+#: polyhedra.py:83
+#: polyhedra.py:197
+msgid "Crease"
+msgstr "折痕"
+
+#: polyhedra.py:83
+#: polyhedra.py:197
+msgid "Crease Inner Loops"
+msgstr "折痕内侧循环边"
+
+#: tessellate_numpy.py:1177
+#: tissue_properties.py:396
+msgid "Create Tessellation only on selected faces"
+msgstr "仅在选中面上创建细分"
+
+#: contour_curves.py:187
+#: contour_curves.py:409
+msgid "Create a Spiral Contour. Works better with dense meshes."
+msgstr "创建螺旋轮廓。在密集网格上效果更好。"
+
+#: tessellate_numpy.py:1603
+msgid "Curve, Surface, Meta or Text object."
+msgstr "曲线、曲面、元球或文本物体。"
+
+#: contour_curves.py:73
+#: contour_curves.py:303
+msgid "Curves"
+msgstr "曲线"
+
+#: contour_curves.py:552
+#: contour_curves.py:1065
+msgid "Curves Bevel:"
+msgstr "曲线倒角："
+
+#: tessellate_numpy.py:1296
+#: tissue_properties.py:466
+msgid "Custom"
+msgstr "自定义"
+
+#: tissue_properties.py:466
+msgid "Custom split normals"
+msgstr "自定义拆分法向"
+
+#: tessellate_numpy.py:1368
+#: tissue_properties.py:596
+msgid "Cuts"
+msgstr "切割"
+
+#: tessellate_numpy.py:1279
+#: tessellate_numpy.py:1287
+msgid "Cyclic"
+msgstr "循环"
+
+#: tessellate_numpy.py:1279
+#: tissue_properties.py:493
+msgid "Cyclic components in X direction"
+msgstr "X 方向循环组件"
+
+#: tessellate_numpy.py:1287
+#: tissue_properties.py:502
+msgid "Cyclic components in Y direction"
+msgstr "Y 方向循环组件"
+
+#: tessellate_numpy.py:1081
+#: tissue_properties.py:244
+msgid "Default"
+msgstr "默认"
+
+#: tessellate_numpy.py:1277
+#: tissue_properties.py:491
+msgid "Default X coordinates"
+msgstr "默认 X 坐标"
+
+#: tessellate_numpy.py:1285
+#: tissue_properties.py:500
+msgid "Default Y coordinates"
+msgstr "默认 Y 坐标"
+
+#: tessellate_numpy.py:1081
+#: tissue_properties.py:244
+msgid "Default rotation"
+msgstr "默认旋转"
+
+#: tessellate_numpy.py:1732
+#: tessellate_numpy.py:2773
+msgid "Default rotation will be used instead"
+msgstr "将改为使用默认旋转"
+
+#: tessellate_numpy.py:1393
+#: tissue_properties.py:625
+msgid "Define offset according to components origin and local Z coordinate"
+msgstr "根据组件原点和局部 Z 坐标定义偏移"
+
+#: weight_tools.py:2190
+msgid "Deformation Analysis:"
+msgstr "变形分析："
+
+#: weight_tools.py:658
+#: weight_tools.py:798
+msgid "Deformations with 0 weight"
+msgstr "权重为 0 的变形"
+
+#: weight_tools.py:662
+#: weight_tools.py:802
+msgid "Deformations with 1 weight"
+msgstr "权重为 1 的变形"
+
+#: curves_tools.py:177
+#: curves_tools.py:312
+msgid "Depth"
+msgstr "深度"
+
+#: curves_tools.py:163
+#: curves_tools.py:300
+msgid "Depth bevel factor to use for zero vertex group influence"
+msgstr "顶点组影响为 0 时使用的深度倒角系数"
+
+#: tessellate_numpy.py:1087
+#: tissue_properties.py:251
+msgid "Diagonal"
+msgstr "对角线"
+
+#: texture_reaction_diffusion.py:81
+#: texture_reaction_diffusion.py:117
+msgid "Diff A"
+msgstr "扩散 A"
+
+#: texture_reaction_diffusion.py:631
+#: weight_reaction_diffusion.py:1048
+msgid "Diff A:"
+msgstr "扩散 A："
+
+#: texture_reaction_diffusion.py:85
+#: texture_reaction_diffusion.py:121
+msgid "Diff B"
+msgstr "扩散 B"
+
+#: texture_reaction_diffusion.py:632
+#: weight_reaction_diffusion.py:1049
+msgid "Diff B:"
+msgstr "扩散 B："
+
+#: texture_reaction_diffusion.py:81
+#: texture_reaction_diffusion.py:427
+msgid "Diffusion A"
+msgstr "扩散 A"
+
+#: texture_reaction_diffusion.py:85
+#: texture_reaction_diffusion.py:431
+msgid "Diffusion B"
+msgstr "扩散 B"
+
+#: tessellate_numpy.py:1085
+#: tessellate_numpy.py:1266
+msgid "Direction"
+msgstr "方向"
+
+#: texture_reaction_diffusion.py:215
+#: weight_reaction_diffusion.py:336
+msgid "Directory that contains Reaction-Diffusion cache files"
+msgstr "包含反应-扩散缓存文件的目录"
+
+#: contour_curves.py:157
+#: contour_curves.py:376
+msgid "Displace"
+msgstr "置换"
+
+#: contour_curves.py:79
+#: contour_curves.py:311
+msgid "Displace A"
+msgstr "置换 A"
+
+#: contour_curves.py:85
+#: contour_curves.py:316
+msgid "Displace B"
+msgstr "置换 B"
+
+#: contour_curves.py:563
+#: contour_curves.py:1076
+msgid "Displace Pattern:"
+msgstr "置换图案："
+
+#: contour_curves.py:103
+#: contour_curves.py:331
+msgid "Displace along X axis"
+msgstr "沿 X 轴置换"
+
+#: contour_curves.py:109
+#: contour_curves.py:336
+msgid "Displace along Y axis"
+msgstr "沿 Y 轴置换"
+
+#: contour_curves.py:115
+#: contour_curves.py:341
+msgid "Displace along Z axis"
+msgstr "沿 Z 轴置换"
+
+#: curves_tools.py:427
+#: curves_tools.py:777
+msgid "Displacement Pattern:"
+msgstr "置换图案："
+
+#: curves_tools.py:177
+#: curves_tools.py:312
+msgid "Displacement pattern depth"
+msgstr "置换图案深度"
+
+#: curves_tools.py:185
+#: curves_tools.py:319
+msgid "Displacement pattern offset"
+msgstr "置换图案偏移"
+
+#: polyhedra.py:66
+#: polyhedra.py:221
+msgid "Dissolve"
+msgstr "融并"
+
+#: tessellate_numpy.py:1236
+#: tissue_properties.py:435
+msgid "Dissolve Seams"
+msgstr "融并缝合线"
+
+#: tessellate_numpy.py:1236
+#: tissue_properties.py:435
+msgid "Dissolve all seam edges"
+msgstr "融并所有缝合边"
+
+#: polyhedra.py:69
+#: polyhedra.py:224
+msgid "Dissolve inner loops"
+msgstr "融并内侧循环边"
+
+#: polyhedra.py:70
+#: polyhedra.py:225
+msgid "Dissolve outer loops"
+msgstr "融并外侧循环边"
+
+#: tessellate_numpy.py:1139
+#: tissue_properties.py:311
+msgid "Distance"
+msgstr "距离"
+
+#: weight_tools.py:2046
+msgid "Distance Method"
+msgstr "距离方法"
+
+#: tessellate_numpy.py:1436
+#: tissue_properties.py:755
+msgid "Distribution weight"
+msgstr "分布权重"
+
+#: weight_tools.py:164
+msgid "Double vertical gradient"
+msgstr "双垂直渐变"
+
+#: curves_tools.py:147
+#: curves_tools.py:287
+msgid "Edges"
+msgstr "边"
+
+#: dual_mesh.py:38
+msgid "Editable Component"
+msgstr "可编辑组件"
+
+#: texture_reaction_diffusion.py:211
+#: weight_reaction_diffusion.py:331
+msgid "End"
+msgstr "结束"
+
+#: curves_tools.py:93
+#: curves_tools.py:240
+msgid "Endpoint U"
+msgstr "U 端点"
+
+#: polyhedra.py:179
+#: tissue_properties.py:473
+msgid "Error Message"
+msgstr "错误信息"
+
+#: weight_tools.py:2048
+msgid "Euclidean Distance"
+msgstr "欧几里得距离"
+
+#: weight_tools.py:356
+#: weight_tools.py:380
+msgid "Evaluation Mode"
+msgstr "评估模式"
+
+#: tessellate_numpy.py:1219
+#: tissue_properties.py:346
+msgid "Even Thickness"
+msgstr "均匀厚度"
+
+#: tessellate_numpy.py:1224
+#: tissue_properties.py:352
+msgid "Even Thickness Iterations"
+msgstr "均匀厚度迭代"
+
+#: tessellate_numpy.py:1362
+#: tissue_properties.py:589
+msgid "Even thickness"
+msgstr "均匀厚度"
+
+#: weight_tools.py:170
+#: weight_tools.py:205
+msgid "Examples"
+msgstr "示例"
+
+#: tessellate_numpy.py:1277
+#: tessellate_numpy.py:1285
+msgid "Extend"
+msgstr "扩展"
+
+#: weight_tools.py:649
+msgid "Extended Only"
+msgstr "仅扩展"
+
+#: tessellate_numpy.py:1430
+#: tissue_properties.py:669
+msgid "Face Weight"
+msgstr "面权重"
+
+#: tessellate_numpy.py:1079
+msgid "Face rotation is based on UV coordinates"
+msgstr "面旋转基于 UV 坐标"
+
+#: tessellate_numpy.py:1269
+#: tissue_properties.py:465
+msgid "Faces"
+msgstr "面"
+
+#: weight_tools.py:1891
+msgid "Faces with 0 weight"
+msgstr "权重为 0 的面"
+
+#: weight_tools.py:1895
+msgid "Faces with 1 weight"
+msgstr "权重为 1 的面"
+
+#: curves_tools.py:163
+#: curves_tools.py:300
+msgid "Factor"
+msgstr "系数"
+
+#: weight_tools.py:1655
+msgid "False Colors"
+msgstr "伪彩色"
+
+#: tessellate_numpy.py:1102
+#: tissue_properties.py:268
+msgid "Fan"
+msgstr "扇形"
+
+#: texture_reaction_diffusion.py:89
+#: texture_reaction_diffusion.py:435
+msgid "Feed Rate"
+msgstr "进给速率"
+
+#: tessellate_numpy.py:1310
+#: tissue_properties.py:529
+msgid "Fill Frame"
+msgstr "填充边框"
+
+#: tessellate_numpy.py:1098
+#: tissue_properties.py:264
+msgid "Fill Mode"
+msgstr "填充模式"
+
+#: tessellate_numpy.py:1665
+#: tessellate_numpy.py:2490
+msgid "Fill Mode:"
+msgstr "填充模式："
+
+#: tessellate_numpy.py:1310
+#: tissue_properties.py:529
+msgid "Fill inner faces with Fan tessellation"
+msgstr "用扇形细分填充内部面"
+
+#: curves_tools.py:388
+#: curves_tools.py:737
+msgid "Filter Edges:"
+msgstr "过滤边："
+
+#: curves_tools.py:397
+#: curves_tools.py:746
+msgid "Filter Loops:"
+msgstr "过滤循环："
+
+#: dual_mesh.py:121
+msgid "Fixed"
+msgstr "固定"
+
+#: dual_mesh.py:123
+msgid "Fixed Alternate"
+msgstr "固定交替"
+
+#: weight_tools.py:932
+msgid "Flip"
+msgstr "翻转"
+
+#: lattice.py:143
+msgid "Flip Normals"
+msgstr "翻转法向"
+
+#: weight_tools.py:932
+msgid "Flip Output Weight"
+msgstr "翻转输出权重"
+
+#: lattice.py:153
+msgid "Flip U"
+msgstr "翻转 U"
+
+#: lattice.py:158
+msgid "Flip V"
+msgstr "翻转 V"
+
+#: lattice.py:163
+msgid "Flip W"
+msgstr "翻转 W"
+
+#: lattice.py:153
+msgid "Flip grid's U"
+msgstr "翻转网格的 U"
+
+#: lattice.py:148
+msgid "Flip grid's U and V"
+msgstr "翻转网格的 U 和 V"
+
+#: lattice.py:158
+msgid "Flip grid's V"
+msgstr "翻转网格的 V"
+
+#: lattice.py:163
+msgid "Flip grid's W"
+msgstr "翻转网格的 W"
+
+#: lattice.py:143
+msgid "Flip normals direction"
+msgstr "翻转法向方向"
+
+#: lattice.py:266
+msgid "Flip:"
+msgstr "翻转："
+
+#: weight_tools.py:2421
+msgid "Flow"
+msgstr "流动"
+
+#: weight_tools.py:2342
+msgid "Follow Edges"
+msgstr "跟随边"
+
+#: weight_tools.py:2341
+msgid "Follow vertices"
+msgstr "跟随顶点"
+
+#: weight_reaction_diffusion.py:351
+msgid "Force to update geometry data on the next iteration"
+msgstr "强制在下一次迭代时更新几何数据"
+
+#: weight_tools.py:175
+#: weight_tools.py:207
+msgid "Formula"
+msgstr "公式"
+
+#: weight_tools.py:175
+msgid "Formula to Evaluate"
+msgstr "要求值的公式"
+
+#: tessellate_numpy.py:1107
+#: tissue_properties.py:273
+msgid "Frame"
+msgstr "边框"
+
+#: tessellate_numpy.py:1305
+#: tissue_properties.py:523
+msgid "Frame Boundary"
+msgstr "边框边界"
+
+#: tessellate_numpy.py:1353
+#: tissue_properties.py:579
+msgid "Frame Boundary Thickness"
+msgstr "边框边界厚度"
+
+#: tessellate_numpy.py:1353
+msgid "Frame Boundary Thickness (if zero, it uses the Frame Thickness instead)"
+msgstr "边框边界厚度（如果为零，则改用边框厚度）"
+
+#: tissue_properties.py:579
+msgid "Frame Boundary Thickness (when zero it uses the Frame Thickness instead)"
+msgstr "边框边界厚度（为零时改用边框厚度）"
+
+#: tessellate_numpy.py:2508
+msgid "Frame Settings"
+msgstr "边框设置"
+
+#: tessellate_numpy.py:1679
+msgid "Frame Settings:"
+msgstr "边框设置："
+
+#: tessellate_numpy.py:1346
+#: tissue_properties.py:571
+msgid "Frame Thickness"
+msgstr "边框厚度"
+
+#: tissue_properties.py:651
+msgid "Frame Thickness weight"
+msgstr "边框厚度权重"
+
+#: tessellate_numpy.py:1363
+#: tissue_properties.py:590
+msgid "Frame offset depends on face areas"
+msgstr "边框偏移取决于面面积"
+
+#: texture_reaction_diffusion.py:211
+#: weight_reaction_diffusion.py:331
+msgid "Frame on which the simulation ends"
+msgstr "模拟结束的帧"
+
+#: texture_reaction_diffusion.py:207
+#: weight_reaction_diffusion.py:326
+msgid "Frame on which the simulation starts"
+msgstr "模拟开始的帧"
+
+#: tissue_properties.py:661
+msgid "Frame thickness factor to use for zero vertex group influence"
+msgstr "顶点组影响为零时使用的框架厚度系数"
+
+#: tessellate_numpy.py:1415
+msgid "Frame thickness weight"
+msgstr "框架厚度权重"
+
+#: weight_tools.py:1997
+msgid "Frequency"
+msgstr "频率"
+
+#: material_tools.py:59
+#: material_tools.py:138
+msgid "Generate Materials"
+msgstr "生成材质"
+
+#: contour_curves.py:257
+#: contour_curves.py:476
+msgid "Generate NURBS curves"
+msgstr "生成 NURBS 曲线"
+
+#: weight_tools.py:2351
+msgid "Generate Nurbs curves"
+msgstr "生成 NURBS 曲线"
+
+#: contour_curves.py:256
+#: contour_curves.py:475
+msgid "Generate Poly curves"
+msgstr "生成多段线曲线"
+
+#: weight_tools.py:2350
+msgid "Generate Polylines"
+msgstr "生成多段线"
+
+#: tessellate_numpy.py:2378
+msgid "Generate:"
+msgstr "生成："
+
+#: tessellate_numpy.py:1119
+#: tissue_properties.py:287
+msgid "Generator Modifiers"
+msgstr "生成器修改器"
+
+#: contour_curves.py:211
+#: contour_curves.py:436
+msgid "Geodesic Distance"
+msgstr "测地距离"
+
+#: tessellate_numpy.py:1073
+#: tissue_properties.py:235
+msgid "Global"
+msgstr "全局"
+
+#: weight_reaction_diffusion.py:361
+#: weight_reaction_diffusion.py:392
+msgid "Gradient"
+msgstr "渐变"
+
+#: weight_reaction_diffusion.py:361
+msgid "Gradient vertex group"
+msgstr "渐变顶点组"
+
+#: weight_tools.py:1652
+msgid "Green Channel"
+msgstr "绿色通道"
+
+#: contour_curves.py:517
+#: contour_curves.py:531
+msgid "Group"
+msgstr "组"
+
+#: lattice.py:179
+msgid "Hide Lattice"
+msgstr "隐藏晶格"
+
+#: weight_tools.py:2385
+msgid "High Steps"
+msgstr "高步数"
+
+#: lattice.py:173
+msgid "High quality"
+msgstr "高质量"
+
+#: contour_curves.py:424
+#: polyhedra.py:300
+msgid "Hold"
+msgstr "保持"
+
+#: material_tools.py:50
+#: material_tools.py:132
+msgid "Hue"
+msgstr "色相"
+
+#: material_tools.py:51
+#: material_tools.py:133
+msgid "Hue Variation"
+msgstr "色相变化"
+
+#: weight_tools.py:160
+msgid "Hyperbolic"
+msgstr "双曲"
+
+#: texture_reaction_diffusion.py:613
+msgid "Image Maps"
+msgstr "图像贴图"
+
+#: texture_reaction_diffusion.py:117
+msgid "Image used for A diffusion"
+msgstr "用于 A 扩散的图像"
+
+#: texture_reaction_diffusion.py:121
+msgid "Image used for B diffusion"
+msgstr "用于 B 扩散的图像"
+
+#: texture_reaction_diffusion.py:129
+msgid "Image used for Feed value (f)"
+msgstr "用于 Feed 值 (f) 的图像"
+
+#: texture_reaction_diffusion.py:133
+msgid "Image used for Kill value (k)"
+msgstr "用于 Kill 值 (k) 的图像"
+
+#: texture_reaction_diffusion.py:125
+msgid "Image used for Scale value"
+msgstr "用于缩放值的图像"
+
+#: texture_reaction_diffusion.py:137
+msgid "Image used for adding/removing B"
+msgstr "用于添加/移除 B 的图像"
+
+#: texture_reaction_diffusion.py:105
+msgid "Image used for the Vector Field. RGB to XY"
+msgstr "用于向量场的图像。RGB 转 XY"
+
+#: texture_reaction_diffusion.py:109
+msgid "Image used for the chemical A"
+msgstr "用于化学物质 A 的图像"
+
+#: texture_reaction_diffusion.py:113
+msgid "Image used for the chemical B"
+msgstr "用于化学物质 B 的图像"
+
+#: uv_to_mesh.py:115
+msgid "Impossible to generate mesh from UV"
+msgstr "无法从 UV 生成网格"
+
+#: lattice.py:173
+msgid "Increase the the subdivisions in normal direction for a more correct result"
+msgstr "增加法线方向的细分以获得更正确的结果"
+
+#: tissue_properties.py:428
+msgid "Index"
+msgstr "索引"
+
+#: texture_reaction_diffusion.py:101
+#: weight_reaction_diffusion.py:370
+msgid "Influence of the Vector Field"
+msgstr "向量场的影响"
+
+#: weight_reaction_diffusion.py:400
+msgid "Information about geometry and input values are loaded once in the first frame and then stored as attributes. This includes also the effects of modifiers on vertex groups or attributes. Geometry data and Vector Field data are stored instead in a newly mesh."
+msgstr "几何体和输入值的信息在第一帧加载一次，然后存储为属性。这还包括修改器对顶点组或属性的影响。几何体数据和向量场数据则存储在新的网格中。"
+
+#: weight_reaction_diffusion.py:401
+msgid "Information about geometry and input values are updated dynamically. This includes also the effects of modifiers on vertex groups or attributes."
+msgstr "几何体和输入值的信息会动态更新。这还包括修改器对顶点组或属性的影响。"
+
+#: curves_tools.py:87
+#: curves_tools.py:118
+msgid "Inner"
+msgstr "内部"
+
+#: weight_reaction_diffusion.py:408
+msgid "Input Data"
+msgstr "输入数据"
+
+#: weight_reaction_diffusion.py:398
+msgid "Input Mode"
+msgstr "输入模式"
+
+#: config.py:48
+msgid "Installing Numba will make Tissue faster"
+msgstr "安装 Numba 可加快 Tissue 的速度"
+
+#: weight_reaction_diffusion.py:401
+msgid "Interactive (slower)"
+msgstr "交互式（较慢）"
+
+#: config.py:51
+msgid "Internet connection required. It may take few minutes"
+msgstr "需要互联网连接。可能需要几分钟"
+
+#: weight_tools.py:2348
+msgid "Interpolation mode"
+msgstr "插值模式"
+
+#: polyhedra.py:140
+#: polyhedra.py:159
+msgid "Invert"
+msgstr "反转"
+
+#: weight_tools.py:1750
+msgid "Invert U"
+msgstr "反转 U"
+
+#: weight_tools.py:1752
+msgid "Invert V"
+msgstr "反转 V"
+
+#: weight_tools.py:1841
+msgid "Invert the curvature map"
+msgstr "反转曲率贴图"
+
+#: texture_reaction_diffusion.py:141
+msgid "Invert the value of the Vertex Group Diff A"
+msgstr "反转顶点组 Diff A 的值"
+
+#: texture_reaction_diffusion.py:144
+msgid "Invert the value of the Vertex Group Diff B"
+msgstr "反转顶点组 Diff B 的值"
+
+#: texture_reaction_diffusion.py:147
+msgid "Invert the value of the Vertex Group Scale"
+msgstr "反转顶点组 Scale 的值"
+
+#: texture_reaction_diffusion.py:150
+msgid "Invert the value of the Vertex Group f"
+msgstr "反转顶点组 f 的值"
+
+#: texture_reaction_diffusion.py:153
+msgid "Invert the value of the Vertex Group k"
+msgstr "反转顶点组 k 的值"
+
+#: polyhedra.py:140
+#: polyhedra.py:159
+msgid "Invert the vertex group influence"
+msgstr "反转顶点组影响"
+
+#: curves_tools.py:159
+#: curves_tools.py:297
+msgid "Inverte the value of the Vertex Group"
+msgstr "反转顶点组的值"
+
+#: weight_reaction_diffusion.py:241
+msgid "Inverte the value of the Vertex Group Diff A"
+msgstr "反转顶点组 Diff A 的值"
+
+#: weight_reaction_diffusion.py:245
+msgid "Inverte the value of the Vertex Group Diff B"
+msgstr "反转顶点组 Diff B 的值"
+
+#: weight_reaction_diffusion.py:249
+msgid "Inverte the value of the Vertex Group Scale"
+msgstr "反转顶点组缩放的值"
+
+#: weight_reaction_diffusion.py:253
+msgid "Inverte the value of the Vertex Group f"
+msgstr "反转顶点组 f 的值"
+
+#: weight_reaction_diffusion.py:257
+msgid "Inverte the value of the Vertex Group k"
+msgstr "反转顶点组 k 的值"
+
+#: weight_tools.py:1202
+#: weight_tools.py:1435
+msgid "Iso Value"
+msgstr "等值"
+
+#: weight_reaction_diffusion.py:358
+msgid "Isotropic Reaction-Diffusion"
+msgstr "各向同性反应扩散"
+
+#: tessellate_numpy.py:1247
+#: tessellate_numpy.py:1516
+msgid "Iterations"
+msgstr "迭代次数"
+
+#: tessellate_numpy.py:1219
+#: tissue_properties.py:346
+msgid "Iterative sampling method for determine the correct length of the vectors (Experimental)"
+msgstr "用于确定向量正确长度的迭代采样方法（实验性）"
+
+#: uv_to_mesh.py:29
+msgid "Keep Materials"
+msgstr "保留材质"
+
+#: uv_to_mesh.py:24
+msgid "Keep Vertex Groups"
+msgstr "保留顶点组"
+
+#: weight_tools.py:938
+msgid "Keep original Vertex Group"
+msgstr "保留原顶点组"
+
+#: tessellate_numpy.py:1293
+#: tissue_properties.py:509
+msgid "Keep the mesh open"
+msgstr "保持网格开放"
+
+#: polyhedra.py:68
+#: polyhedra.py:223
+msgid "Keeps original topology"
+msgstr "保留原始拓扑"
+
+#: tessellate_numpy.py:1270
+#: tissue_properties.py:467
+msgid "Keys"
+msgstr "键"
+
+#: texture_reaction_diffusion.py:93
+#: texture_reaction_diffusion.py:439
+msgid "Kill Rate"
+msgstr "消除速率"
+
+#: weight_tools.py:361
+msgid "Laplacian value with 0 weight"
+msgstr "权重为 0 的拉普拉斯值"
+
+#: weight_tools.py:365
+msgid "Laplacian value with 1 weight"
+msgstr "权重为 1 的拉普拉斯值"
+
+#: tessellate_numpy.py:1113
+#: tissue_properties.py:280
+msgid "Last"
+msgstr "最后"
+
+#: lattice.py:274
+msgid "Lattice Options:"
+msgstr "晶格选项："
+
+#: lattice.py:211
+msgid "Lattice displace"
+msgstr "晶格置换"
+
+#: lattice.py:204
+msgid "Lattice thickness"
+msgstr "晶格厚度"
+
+#: weight_tools.py:357
+msgid "Length Weight"
+msgstr "长度权重"
+
+#: tessellate_numpy.py:1139
+#: tissue_properties.py:311
+msgid "Limit below which to merge vertices"
+msgstr "合并顶点的阈值下限"
+
+#: config.py:57
+msgid "Links:"
+msgstr "链接："
+
+#: tessellate_numpy.py:1072
+#: tissue_properties.py:234
+msgid "Local"
+msgstr "局部"
+
+#: curves_tools.py:60
+#: tissue_properties.py:158
+msgid "Lock"
+msgstr "锁定"
+
+#: curves_tools.py:146
+#: curves_tools.py:286
+msgid "Loops"
+msgstr "循环"
+
+#: polyhedra.py:1105
+msgid "Loops:"
+msgstr "循环："
+
+#: weight_tools.py:2388
+msgid "Low Steps"
+msgstr "低步数"
+
+#: curves_tools.py:93
+#: curves_tools.py:240
+msgid "Make all open nurbs curve meet the endpoints"
+msgstr "使所有开放的 NURBS 曲线连接端点"
+
+#: weight_tools.py:350
+#: weight_tools.py:647
+msgid "Manual Bounds"
+msgstr "手动边界"
+
+#: tissue_properties.py:390
+msgid "Map Vertex Group"
+msgstr "映射顶点组"
+
+#: tessellate_numpy.py:1172
+msgid "Map Vertex Groups"
+msgstr "映射顶点组"
+
+#: tessellate_numpy.py:1241
+msgid "Material ID"
+msgstr "材质 ID"
+
+#: tessellate_numpy.py:3063
+msgid "Material Index"
+msgstr "材质索引"
+
+#: tessellate_numpy.py:1315
+#: tessellate_numpy.py:1320
+msgid "Material Offset"
+msgstr "材质偏移"
+
+#: tessellate_numpy.py:1315
+msgid "Material Offset for boundaries (with Multi Components or Material ID)"
+msgstr "边界的材质偏移（使用多组件或材质 ID）"
+
+#: tissue_properties.py:535
+msgid "Material Offset for boundaries (with components based on Materials)"
+msgstr "边界的材质偏移（组件基于材质）"
+
+#: tessellate_numpy.py:1320
+msgid "Material Offset for inner faces (with Multi Components or Material ID)"
+msgstr "内部面的材质偏移（使用多组件或材质 ID）"
+
+#: tissue_properties.py:541
+msgid "Material Offset for inner faces (with components based on Materials)"
+msgstr "内部面的材质偏移（组件基于材质）"
+
+#: tessellate_numpy.py:1381
+#: tissue_properties.py:611
+msgid "Material index offset for the bridge faces"
+msgstr "桥接面的材质索引偏移"
+
+#: tessellate_numpy.py:1375
+#: tissue_properties.py:604
+msgid "Material index offset for the cap faces"
+msgstr "封盖面的材质索引偏移"
+
+#: tessellate_numpy.py:1064
+#: tissue_properties.py:206
+msgid "Materials"
+msgstr "材质"
+
+#: tessellate_numpy.py:2427
+#: weight_tools.py:2208
+msgid "Materials:"
+msgstr "材质："
+
+#: material_tools.py:144
+#: texture_reaction_diffusion.py:661
+msgid "Max"
+msgstr "最大值"
+
+#: contour_curves.py:145
+#: contour_curves.py:366
+msgid "Max Bevel Depth"
+msgstr "最大倒角深度"
+
+#: contour_curves.py:538
+#: contour_curves.py:544
+msgid "Max Curves"
+msgstr "最大曲线数"
+
+#: weight_tools.py:654
+msgid "Max Deformation"
+msgstr "最大形变"
+
+#: texture_reaction_diffusion.py:163
+#: weight_reaction_diffusion.py:266
+msgid "Max Diff A"
+msgstr "最大扩散 A"
+
+#: texture_reaction_diffusion.py:171
+#: weight_reaction_diffusion.py:276
+msgid "Max Diff B"
+msgstr "最大扩散 B"
+
+#: weight_tools.py:2060
+msgid "Max Distance"
+msgstr "最大距离"
+
+#: texture_reaction_diffusion.py:187
+#: weight_reaction_diffusion.py:296
+msgid "Max Feed Rate"
+msgstr "最大进给速率"
+
+#: weight_tools.py:924
+msgid "Max Iso Value"
+msgstr "最大等值"
+
+#: texture_reaction_diffusion.py:195
+#: weight_reaction_diffusion.py:306
+msgid "Max Kill Rate"
+msgstr "最大消除速率"
+
+#: texture_reaction_diffusion.py:179
+#: weight_reaction_diffusion.py:286
+msgid "Max Scale value"
+msgstr "最大缩放值"
+
+#: weight_tools.py:2372
+msgid "Max Value"
+msgstr "最大值"
+
+#: texture_reaction_diffusion.py:187
+#: weight_reaction_diffusion.py:296
+msgid "Max f"
+msgstr "最大 f"
+
+#: texture_reaction_diffusion.py:195
+#: weight_reaction_diffusion.py:306
+msgid "Max k"
+msgstr "最大 k"
+
+#: weight_tools.py:1960
+msgid "Maximum Value"
+msgstr "最大值"
+
+#: contour_curves.py:67
+#: contour_curves.py:298
+msgid "Maximum range of contouring values"
+msgstr "等值线值的最大范围"
+
+#: lattice.py:324
+#: lattice.py:431
+msgid "Maximum resolution allowed for Lattice is 64"
+msgstr "晶格允许的最大分辨率为 64"
+
+#: weight_tools.py:2372
+msgid "Maximum weight value"
+msgstr "最大权重值"
+
+#: material_tools.py:145
+msgid "Mean"
+msgstr "平均值"
+
+#: tessellate_numpy.py:1129
+#: tissue_properties.py:299
+msgid "Merge"
+msgstr "合并"
+
+#: curves_tools.py:99
+#: curves_tools.py:253
+msgid "Merge Distance"
+msgstr "合并距离"
+
+#: contour_curves.py:127
+#: contour_curves.py:351
+msgid "Merge Threshold"
+msgstr "合并阈值"
+
+#: contour_curves.py:121
+#: contour_curves.py:346
+msgid "Merge Vertices"
+msgstr "合并顶点"
+
+#: tessellate_numpy.py:1134
+#: tissue_properties.py:305
+msgid "Merge only open edges"
+msgstr "仅合并开放边"
+
+#: contour_curves.py:121
+#: contour_curves.py:346
+msgid "Merge points"
+msgstr "合并点"
+
+#: tessellate_numpy.py:1129
+#: tissue_properties.py:299
+msgid "Merge vertices in adjacent duplicates"
+msgstr "合并相邻重复顶点"
+
+#: weight_reaction_diffusion.py:426
+msgid "Mesh used to store data for 'Static' mode."
+msgstr "用于存储「静态」模式数据的网格。"
+
+#: dual_mesh.py:133
+msgid "Method for splitting the N-gons into triangles"
+msgstr "将 N 边形拆分为三角形的方法"
+
+#: dual_mesh.py:118
+msgid "Method for splitting the quads into triangles"
+msgstr "将四边形拆分为三角形的方法"
+
+#: weight_tools.py:2005
+msgid "Midlevel"
+msgstr "中间级"
+
+#: material_tools.py:143
+#: texture_reaction_diffusion.py:659
+msgid "Min"
+msgstr "最小值"
+
+#: contour_curves.py:139
+#: contour_curves.py:361
+msgid "Min Bevel Depth"
+msgstr "最小倒角深度"
+
+#: texture_reaction_diffusion.py:159
+#: weight_reaction_diffusion.py:261
+msgid "Min Diff A"
+msgstr "最小差异 A"
+
+#: texture_reaction_diffusion.py:167
+#: weight_reaction_diffusion.py:271
+msgid "Min Diff B"
+msgstr "最小差异 B"
+
+#: texture_reaction_diffusion.py:183
+#: weight_reaction_diffusion.py:291
+msgid "Min Feed Rate"
+msgstr "最小供给速率"
+
+#: weight_tools.py:921
+msgid "Min Iso Value"
+msgstr "最小等值"
+
+#: texture_reaction_diffusion.py:191
+#: weight_reaction_diffusion.py:301
+msgid "Min Kill Rate"
+msgstr "最小消亡速率"
+
+#: texture_reaction_diffusion.py:175
+#: weight_reaction_diffusion.py:281
+msgid "Min Scale Value"
+msgstr "最小缩放值"
+
+#: weight_tools.py:2369
+msgid "Min Value"
+msgstr "最小值"
+
+#: texture_reaction_diffusion.py:183
+#: weight_reaction_diffusion.py:291
+msgid "Min f"
+msgstr "最小 f"
+
+#: texture_reaction_diffusion.py:191
+#: weight_reaction_diffusion.py:301
+msgid "Min k"
+msgstr "最小 k"
+
+#: contour_curves.py:127
+#: contour_curves.py:351
+msgid "Minimum Curve Radius"
+msgstr "最小曲线半径"
+
+#: weight_tools.py:2056
+msgid "Minimum Distance"
+msgstr "最小距离"
+
+#: weight_tools.py:1956
+msgid "Minimum Value"
+msgstr "最小值"
+
+#: weight_tools.py:2369
+msgid "Minimum weight value"
+msgstr "最小权重值"
+
+#: uv_to_mesh.py:91
+msgid "Missing UV Map or corner attribute"
+msgstr "缺少 UV 贴图或面角属性"
+
+#: contour_curves.py:511
+#: contour_curves.py:1024
+msgid "Mode"
+msgstr "模式"
+
+#: contour_curves.py:205
+#: contour_curves.py:430
+msgid "Mode used for the Contour Curves"
+msgstr "轮廓曲线使用的模式"
+
+#: tessellate_numpy.py:1224
+#: tissue_properties.py:352
+msgid "More iterations produces more accurate results but make the tessellation slower"
+msgstr "迭代次数越多，结果越精确，但镶嵌速度越慢"
+
+#: tessellate_numpy.py:1755
+msgid "More settings in the Object Data Properties panel..."
+msgstr "更多设置位于物体数据属性面板中…"
+
+#: texture_reaction_diffusion.py:199
+#: weight_reaction_diffusion.py:311
+msgid "Mult"
+msgstr "乘数"
+
+#: tessellate_numpy.py:1648
+msgid "Multiple Components"
+msgstr "多个组件"
+
+#: texture_reaction_diffusion.py:199
+#: weight_reaction_diffusion.py:311
+msgid "Multiplier for brush value"
+msgstr "画笔值的乘数"
+
+#: texture_reaction_diffusion.py:97
+#: weight_reaction_diffusion.py:206
+msgid "Multiplier for the diffusion of both substances"
+msgstr "两种物质扩散的乘数"
+
+#: weight_tools.py:2013
+msgid "Multiply"
+msgstr "相乘"
+
+#: weight_tools.py:2013
+msgid "Multiply for he Weight"
+msgstr "权重的乘数"
+
+#: dual_mesh.py:133
+msgid "N-gon Method"
+msgstr "N 边形方法"
+
+#: contour_curves.py:257
+#: contour_curves.py:476
+msgid "NURBS"
+msgstr "NURBS"
+
+#: tessellate_numpy.py:1033
+msgid "Name of the generated object"
+msgstr "生成物体的名称"
+
+#: material_tools.py:35
+#: material_tools.py:129
+msgid "Name prefix"
+msgstr "名称前缀"
+
+#: weight_tools.py:352
+#: weight_tools.py:793
+msgid "Negative Only"
+msgstr "仅负值"
+
+#: contour_curves.py:799
+msgid "No seed vertices found"
+msgstr "未找到种子顶点"
+
+#: polyhedra.py:68
+#: polyhedra.py:107
+msgid "None"
+msgstr "无"
+
+#: weight_tools.py:162
+msgid "Normal Stripes"
+msgstr "法向条纹"
+
+#: weight_tools.py:2052
+msgid "Normalize"
+msgstr "归一化"
+
+#: weight_tools.py:1213
+#: weight_tools.py:1440
+msgid "Normalize Weight"
+msgstr "归一化权重"
+
+#: texture_reaction_diffusion.py:220
+msgid "Normalize values"
+msgstr "归一化数值"
+
+#: texture_reaction_diffusion.py:220
+msgid "Normalize values from 0 to 1"
+msgstr "将数值归一化到 0 至 1"
+
+#: weight_tools.py:1213
+#: weight_tools.py:1440
+msgid "Normalize weight of remaining vertices"
+msgstr "归一化其余顶点的权重"
+
+#: weight_tools.py:1747
+msgid "Normalize weight values"
+msgstr "归一化权重值"
+
+#: tessellate_numpy.py:1268
+#: tissue_properties.py:464
+msgid "Normals"
+msgstr "法向"
+
+#: config.py:24
+msgid "Numba Tessellate"
+msgstr "Numba 镶嵌"
+
+#: config.py:42
+msgid "Numba module installed correctly!"
+msgstr "Numba 模块安装成功！"
+
+#: config.py:47
+msgid "Numba module not installed!"
+msgstr "未安装 Numba 模块！"
+
+#: config.py:108
+msgid "Numba successfully installed! Please restart Blender."
+msgstr "Numba 安装成功！请重启 Blender。"
+
+#: contour_curves.py:73
+#: contour_curves.py:303
+msgid "Number of Contour Curves"
+msgstr "轮廓曲线数量"
+
+#: weight_tools.py:2379
+msgid "Number of Curves"
+msgstr "曲线数量"
+
+#: texture_reaction_diffusion.py:73
+#: texture_reaction_diffusion.py:419
+msgid "Number of Steps"
+msgstr "步数"
+
+#: weight_tools.py:927
+msgid "Number of cuts in the selected range of values"
+msgstr "所选值范围内的切割数"
+
+#: contour_curves.py:91
+#: contour_curves.py:321
+msgid "Number of layers to move inwards"
+msgstr "向内移动的层数"
+
+#: contour_curves.py:97
+#: contour_curves.py:326
+msgid "Number of layers to move outwards"
+msgstr "向外移动的层数"
+
+#: weight_tools.py:2385
+msgid "Number of steps in the direction of high weight"
+msgstr "沿高权重方向的步数"
+
+#: weight_tools.py:2388
+msgid "Number of steps in the direction of low weight"
+msgstr "沿低权重方向的步数"
+
+#: weight_tools.py:1833
+msgid "Number of times to blur the values"
+msgstr "模糊值的次数"
+
+#: curves_tools.py:760
+msgid "Nurbs Splines:"
+msgstr "NURBS 样条："
+
+#: curves_tools.py:104
+#: curves_tools.py:245
+msgid "Nurbs order"
+msgstr "NURBS 阶数"
+
+#: curves_tools.py:410
+msgid "Nurbs splines:"
+msgstr "NURBS 样条："
+
+#: contour_curves.py:42
+#: contour_curves.py:208
+msgid "Object"
+msgstr "物体"
+
+#: lattice.py:184
+#: lattice.py:191
+msgid "Object scale"
+msgstr "物体缩放"
+
+#: contour_curves.py:231
+#: contour_curves.py:453
+msgid "Offset"
+msgstr "偏移"
+
+#: contour_curves.py:61
+#: contour_curves.py:293
+msgid "Offset Value"
+msgstr "偏移值"
+
+#: contour_curves.py:61
+#: contour_curves.py:293
+msgid "Offset contouring values"
+msgstr "偏移等值线值"
+
+#: tessellate_numpy.py:1177
+#: tessellate_numpy.py:3058
+msgid "On selected Faces"
+msgstr "在选定的面上"
+
+#: config.py:74
+#: config.py:125
+msgid "Online access is disabled. Please enable it in Preferences > Extensions"
+msgstr "在线访问已禁用。请在偏好设置 > 扩展 中启用"
+
+#: curves_tools.py:171
+#: curves_tools.py:307
+msgid "Only Sharp Edges"
+msgstr "仅锐边"
+
+#: tissue_properties.py:428
+msgid "Only the faces with the chosen Material Index will be used"
+msgstr "仅使用具有所选材质索引的面"
+
+#: curves_tools.py:127
+#: curves_tools.py:278
+msgid "Open"
+msgstr "打开"
+
+#: tessellate_numpy.py:1325
+#: tissue_properties.py:547
+msgid "Open Edges Crease"
+msgstr "开放边折痕"
+
+#: tessellate_numpy.py:1134
+#: tissue_properties.py:305
+msgid "Open edges only"
+msgstr "仅开放边"
+
+#: curves_tools.py:104
+#: curves_tools.py:245
+msgid "Order"
+msgstr "顺序"
+
+#: contour_curves.py:207
+#: contour_curves.py:432
+msgid "Orient the Contour to a given vector starting from the origin of the object"
+msgstr "将轮廓定向到从物体原点出发的给定向量"
+
+#: contour_curves.py:208
+#: contour_curves.py:433
+msgid "Orient the Contour to a target object's Z"
+msgstr "将轮廓定向到目标物体的 Z 轴"
+
+#: weight_reaction_diffusion.py:360
+msgid "Orient the field with a target object's Z"
+msgstr "用目标物体的 Z 轴定向场"
+
+#: weight_tools.py:938
+msgid "Original"
+msgstr "原始"
+
+#: tessellate_numpy.py:1086
+#: tissue_properties.py:250
+msgid "Orthogonal"
+msgstr "正交"
+
+#: tessellate_numpy.py:2412
+msgid "Other:"
+msgstr "其他："
+
+#: polyhedra.py:70
+#: polyhedra.py:225
+msgid "Outer"
+msgstr "外侧"
+
+#: weight_reaction_diffusion.py:417
+msgid "Output Data"
+msgstr "输出数据"
+
+#: curves_tools.py:54
+#: curves_tools.py:221
+msgid "Output faces with smooth shading rather than flat shaded"
+msgstr "输出平滑着色而非平直着色的面"
+
+#: curves_tools.py:109
+#: curves_tools.py:249
+msgid "Particle system index"
+msgstr "粒子系统索引"
+
+#: curves_tools.py:148
+#: curves_tools.py:288
+msgid "Particles"
+msgstr "粒子"
+
+#: tessellate_numpy.py:1103
+#: tissue_properties.py:269
+msgid "Patch"
+msgstr "面片"
+
+#: tessellate_numpy.py:1387
+#: tissue_properties.py:618
+msgid "Patch Subdivisions"
+msgstr "面片细分"
+
+#: contour_curves.py:79
+#: contour_curves.py:85
+msgid "Pattern displace strength"
+msgstr "图案置换强度"
+
+#: curves_tools.py:193
+#: curves_tools.py:326
+msgid "Pattern step 0"
+msgstr "图案步长 0"
+
+#: curves_tools.py:201
+#: curves_tools.py:333
+msgid "Pattern step 1"
+msgstr "图案步长 1"
+
+#: weight_reaction_diffusion.py:1005
+msgid "Performance"
+msgstr "性能"
+
+#: curves_tools.py:124
+#: curves_tools.py:275
+msgid "Periodic Selection"
+msgstr "周期性选择"
+
+#: weight_reaction_diffusion.py:997
+msgid "Perpendicular"
+msgstr "垂直"
+
+#: contour_curves.py:763
+msgid "Please select a (Vertex > Float) Attribute for contouring"
+msgstr "请选择用于等值线的（顶点 > 浮点）属性"
+
+#: contour_curves.py:527
+#: contour_curves.py:1040
+msgid "Please select a (Vertex > Float) Attribute for contouring."
+msgstr "请选择用于等值线的（顶点 > 浮点）属性。"
+
+#: contour_curves.py:790
+msgid "Please select a Vertex Group as seed"
+msgstr "请选择作为种子的顶点组"
+
+#: contour_curves.py:753
+msgid "Please select a Vertex Group for contouring"
+msgstr "请选择用于等值线的顶点组"
+
+#: weight_tools.py:2520
+msgid "Please select a Vertex Group for streamlines"
+msgstr "请选择用于流线的顶点组"
+
+#: weight_tools.py:394
+#: weight_tools.py:488
+msgid "Please select an Object"
+msgstr "请选择一个物体"
+
+#: contour_curves.py:718
+msgid "Please select an target Object"
+msgstr "请选择一个目标物体"
+
+#: tessellate_numpy.py:2616
+msgid "Please, chose one Collection."
+msgstr "请选择一个集合。"
+
+#: tessellate_numpy.py:1591
+msgid "Please, select Mesh, Curve, Surface, Meta or Text"
+msgstr "请选择网格、曲线、曲面、元球或文本"
+
+#: tessellate_numpy.py:1585
+msgid "Please, select two different objects. Select first the"
+msgstr "请选择两个不同的物体。请先选择"
+
+#: lattice.py:282
+msgid "Please, select two objects"
+msgstr "请选择两个物体"
+
+#: contour_curves.py:256
+#: contour_curves.py:475
+msgid "Poly"
+msgstr "多边形"
+
+#: polyhedra.py:51
+#: polyhedra.py:214
+msgid "Polyhedra"
+msgstr "多面体"
+
+#: polyhedra.py:49
+#: polyhedra.py:212
+msgid "Polyhedra Mode"
+msgstr "多面体模式"
+
+#: polyhedra.py:51
+#: polyhedra.py:214
+msgid "Polyhedral Complex Decomposition, the result are disconnected polyhedra geometries"
+msgstr "多面体复形分解，结果为互不相连的多面体几何体"
+
+#: polyhedra.py:1059
+msgid "Polyhedral Mode:"
+msgstr "多面体模式："
+
+#: polyhedra.py:52
+#: polyhedra.py:215
+msgid "Polyhedral Wireframe through edges tickening"
+msgstr "通过加厚边生成多面体线框"
+
+#: weight_tools.py:351
+#: weight_tools.py:792
+msgid "Positive Only"
+msgstr "仅正值"
+
+#: material_tools.py:35
+#: material_tools.py:129
+msgid "Prefix"
+msgstr "前缀"
+
+#: dual_mesh.py:143
+msgid "Preserve Borders"
+msgstr "保留边界"
+
+#: tessellate_numpy.py:1549
+#: tissue_properties.py:813
+msgid "Preserve Quads"
+msgstr "保留四边面"
+
+#: tessellate_numpy.py:1194
+#: tissue_properties.py:416
+msgid "Preserve component's materials"
+msgstr "保留组件材质"
+
+#: tessellate_numpy.py:1047
+#: tissue_properties.py:215
+msgid "Preserve component's proportions"
+msgstr "保留组件比例"
+
+#: dual_mesh.py:143
+msgid "Preserve original borders"
+msgstr "保留原始边界"
+
+#: tessellate_numpy.py:3865
+msgid "Press ESC to abort."
+msgstr "按 ESC 中止。"
+
+#: curves_tools.py:60
+#: tissue_properties.py:158
+msgid "Prevent automatic update on settings changes or if other objects have it in the hierarchy."
+msgstr "设置更改时，或其他物体在层级中包含它时，阻止自动更新。"
+
+#: config.py:16
+msgid "Print Stats"
+msgstr "打印统计信息"
+
+#: config.py:16
+msgid "Print in the console all details about the computing time."
+msgstr "在控制台打印计算时间的全部详细信息。"
+
+#: polyhedra.py:1103
+msgid "Proportional"
+msgstr "按比例"
+
+#: polyhedra.py:98
+#: polyhedra.py:207
+msgid "Proportional Segments"
+msgstr "比例分段"
+
+#: tessellate_numpy.py:1101
+#: tissue_properties.py:267
+msgid "Quad"
+msgstr "四边面"
+
+#: dual_mesh.py:29
+msgid "Quad Faces"
+msgstr "四边面"
+
+#: dual_mesh.py:118
+msgid "Quad Method"
+msgstr "四边面方法"
+
+#: tessellate_numpy.py:1549
+#: tissue_properties.py:813
+msgid "Quad faces are tessellated using QUAD mode"
+msgstr "四边面使用 QUAD 模式细分"
+
+#: tessellate_numpy.py:1102
+#: tissue_properties.py:268
+msgid "Radial tessellation for polygonal faces"
+msgstr "多边形面的径向细分"
+
+#: curves_tools.py:154
+#: curves_tools.py:293
+msgid "Radius"
+msgstr "半径"
+
+#: tessellate_numpy.py:1078
+#: tissue_properties.py:241
+msgid "Random"
+msgstr "随机"
+
+#: material_tools.py:62
+msgid "Random Colors"
+msgstr "随机颜色"
+
+#: weight_tools.py:2376
+msgid "Random Seed"
+msgstr "随机种子"
+
+#: tessellate_numpy.py:1078
+#: tissue_properties.py:241
+msgid "Random faces rotation"
+msgstr "随机面旋转"
+
+#: material_tools.py:53
+#: tessellate_numpy.py:1151
+msgid "Random seed"
+msgstr "随机种子"
+
+#: tessellate_numpy.py:1165
+#: tissue_properties.py:382
+msgid "Random step"
+msgstr "随机步长"
+
+#: tessellate_numpy.py:1146
+#: tissue_properties.py:360
+msgid "Randomize"
+msgstr "随机化"
+
+#: tessellate_numpy.py:1146
+#: tissue_properties.py:360
+msgid "Randomize component rotation"
+msgstr "随机化组件旋转"
+
+#: weight_tools.py:2402
+msgid "Randomize streamlines directions (Slower)"
+msgstr "随机化流线方向（较慢）"
+
+#: tessellate_numpy.py:1444
+#: tissue_properties.py:765
+msgid "Randomness factor to use for zero vertex group influence"
+msgstr "顶点组影响为零时使用的随机系数"
+
+#: contour_curves.py:67
+#: contour_curves.py:298
+msgid "Range Values"
+msgstr "范围值"
+
+#: weight_reaction_diffusion.py:1025
+msgid "Read from"
+msgstr "读取自"
+
+#: texture_reaction_diffusion.py:203
+#: weight_reaction_diffusion.py:321
+msgid "Read modifiers affect the vertex groups"
+msgstr "读取修改器影响顶点组"
+
+#: weight_reaction_diffusion.py:316
+msgid "Read modifiers affect the vertex groups or attributes"
+msgstr "读取修改器影响顶点组或属性"
+
+#: weight_tools.py:1653
+msgid "Red Channel"
+msgstr "红色通道"
+
+#: tessellate_numpy.py:1101
+#: tissue_properties.py:267
+msgid "Regular quad tessellation. Uses only 3 or 4 vertices"
+msgstr "常规四边面细分。仅使用 3 或 4 个顶点"
+
+#: tessellate_numpy.py:1047
+#: tessellate_numpy.py:1363
+msgid "Relative"
+msgstr "相对"
+
+#: weight_reaction_diffusion.py:341
+msgid "Reload at Start"
+msgstr "启动时重新加载"
+
+#: weight_tools.py:936
+msgid "Remap values"
+msgstr "重映射值"
+
+#: weight_tools.py:936
+msgid "Remapped"
+msgstr "已重映射"
+
+#: contour_curves.py:151
+#: contour_curves.py:371
+msgid "Remove Open Curves"
+msgstr "移除开放曲线"
+
+#: contour_curves.py:181
+#: contour_curves.py:404
+msgid "Remove short segments"
+msgstr "移除短线段"
+
+#: tessellate_numpy.py:3102
+msgid "Repeat"
+msgstr "重复"
+
+#: uv_to_mesh.py:34
+msgid "Resize"
+msgstr "调整大小"
+
+#: texture_reaction_diffusion.py:65
+msgid "Resolution X"
+msgstr "分辨率 X"
+
+#: texture_reaction_diffusion.py:69
+msgid "Resolution Y"
+msgstr "分辨率 Y"
+
+#: texture_reaction_diffusion.py:65
+#: texture_reaction_diffusion.py:69
+msgid "Resolution of the simulation"
+msgstr "模拟分辨率"
+
+#: tessellate_numpy.py:2405
+msgid "Rotate Faces:"
+msgstr "旋转面："
+
+#: tissue_properties.py:242
+msgid "Rotate according to UV coordinates"
+msgstr "根据 UV 坐标旋转"
+
+#: tessellate_numpy.py:1080
+#: tissue_properties.py:243
+msgid "Rotate according to Vertex Group gradient"
+msgstr "根据顶点组渐变旋转"
+
+#: tessellate_numpy.py:2710
+#: tessellate_numpy.py:2729
+msgid "Rotation"
+msgstr "旋转"
+
+#: tessellate_numpy.py:1484
+#: tissue_properties.py:714
+msgid "Rotation weight"
+msgstr "旋转权重"
+
+#: texture_reaction_diffusion.py:416
+#: texture_reaction_diffusion.py:553
+msgid "Run Reaction-Diffusion"
+msgstr "运行反应-扩散"
+
+#: weight_tools.py:2365
+msgid "Same Weight"
+msgstr "相同权重"
+
+#: tessellate_numpy.py:1037
+#: tessellate_numpy.py:1743
+msgid "Scale"
+msgstr "缩放"
+
+#: tessellate_numpy.py:1739
+msgid "Scale Mode"
+msgstr "缩放模式"
+
+#: lattice.py:184
+msgid "Scale X"
+msgstr "缩放 X"
+
+#: tessellate_numpy.py:1492
+#: tissue_properties.py:778
+msgid "Scale X component of the normals"
+msgstr "缩放法线的 X 分量"
+
+#: lattice.py:191
+msgid "Scale Y"
+msgstr "缩放 Y"
+
+#: tessellate_numpy.py:1496
+#: tissue_properties.py:783
+msgid "Scale Y component of the normals"
+msgstr "缩放法线的 Y 分量"
+
+#: lattice.py:197
+msgid "Scale Z"
+msgstr "缩放 Z"
+
+#: tessellate_numpy.py:1500
+#: tissue_properties.py:788
+msgid "Scale Z component of the normals"
+msgstr "缩放法线的 Z 分量"
+
+#: tessellate_numpy.py:1037
+#: tissue_properties.py:197
+msgid "Scale factor for the component thickness"
+msgstr "组件厚度的缩放系数"
+
+#: tessellate_numpy.py:1504
+#: tissue_properties.py:793
+msgid "Scale normals weight"
+msgstr "缩放法线权重"
+
+#: uv_to_mesh.py:34
+msgid "Scale the new object in order to preserve the average surface area"
+msgstr "缩放新物体以保持平均表面积"
+
+#: lattice.py:254
+#: texture_reaction_diffusion.py:633
+msgid "Scale:"
+msgstr "缩放："
+
+#: material_tools.py:53
+#: tessellate_numpy.py:1151
+msgid "Seed"
+msgstr "种子"
+
+#: contour_curves.py:248
+#: contour_curves.py:468
+msgid "Seeds"
+msgstr "种子"
+
+#: contour_curves.py:237
+#: contour_curves.py:458
+msgid "Seeds used for computing the distance"
+msgstr "用于计算距离的种子"
+
+#: polyhedra.py:89
+#: polyhedra.py:202
+msgid "Segments"
+msgstr "分段"
+
+#: polyhedra.py:89
+#: polyhedra.py:202
+msgid "Segments for every edge"
+msgstr "每条边的分段数"
+
+#: polyhedra.py:104
+#: polyhedra.py:231
+msgid "Selective"
+msgstr "选择性"
+
+#: polyhedra.py:1082
+msgid "Selective Wireframe:"
+msgstr "选择性线框："
+
+#: polyhedra.py:164
+#: polyhedra.py:286
+msgid "Selective wireframe threshold"
+msgstr "选择性线框阈值"
+
+#: lattice.py:138
+msgid "Set Parent"
+msgstr "设置父级"
+
+#: contour_curves.py:240
+#: contour_curves.py:461
+msgid "Sharp Edges"
+msgstr "锐边"
+
+#: tessellate_numpy.py:1091
+#: tissue_properties.py:256
+msgid "Shift"
+msgstr "偏移"
+
+#: tessellate_numpy.py:1091
+#: tissue_properties.py:256
+msgid "Shift components rotation"
+msgstr "偏移组件旋转"
+
+#: dual_mesh.py:125
+msgid "Shortest Diagonal"
+msgstr "最短对角线"
+
+#: tessellate_numpy.py:1261
+#: tissue_properties.py:457
+msgid "Show more settings"
+msgstr "显示更多设置"
+
+#: tessellate_numpy.py:1113
+#: tissue_properties.py:280
+msgid "Show only the last iteration"
+msgstr "仅显示最后一次迭代"
+
+#: weight_tools.py:795
+msgid "Signed Bending"
+msgstr "有符号弯曲"
+
+#: weight_tools.py:358
+msgid "Simple"
+msgstr "简单"
+
+#: weight_tools.py:2203
+msgid "Simulations:"
+msgstr "模拟："
+
+#: tessellate_numpy.py:1584
+#: tessellate_numpy.py:1590
+msgid "Single Object Component"
+msgstr "单物体组件"
+
+#: weight_tools.py:178
+msgid "Slider Float 1"
+msgstr "浮点滑块 1"
+
+#: weight_tools.py:180
+msgid "Slider Float 2"
+msgstr "浮点滑块 2"
+
+#: weight_tools.py:182
+msgid "Slider Float 3"
+msgstr "浮点滑块 3"
+
+#: weight_tools.py:184
+msgid "Slider Float 4"
+msgstr "浮点滑块 4"
+
+#: weight_tools.py:186
+msgid "Slider Float 5"
+msgstr "浮点滑块 5"
+
+#: weight_tools.py:188
+msgid "Slider Integer 1"
+msgstr "整数滑块 1"
+
+#: weight_tools.py:190
+msgid "Slider Integer 2"
+msgstr "整数滑块 2"
+
+#: weight_tools.py:192
+msgid "Slider Integer 3"
+msgstr "整数滑块 3"
+
+#: weight_tools.py:194
+msgid "Slider Integer 4"
+msgstr "整数滑块 4"
+
+#: weight_tools.py:196
+msgid "Slider Integer 5"
+msgstr "整数滑块 5"
+
+#: tessellate_numpy.py:1512
+#: tissue_properties.py:724
+msgid "Smooth Normals"
+msgstr "平滑法线"
+
+#: tessellate_numpy.py:1529
+msgid "Smooth Normals weight"
+msgstr "平滑法线权重"
+
+#: curves_tools.py:54
+#: curves_tools.py:221
+msgid "Smooth Shading"
+msgstr "平滑着色"
+
+#: tessellate_numpy.py:1516
+#: tissue_properties.py:729
+msgid "Smooth iterations"
+msgstr "平滑迭代次数"
+
+#: tessellate_numpy.py:1512
+#: tissue_properties.py:724
+msgid "Smooth normals of the surface in order to reduce intersections"
+msgstr "平滑表面法线以减少相交"
+
+#: tissue_properties.py:744
+msgid "Smooth normals weight"
+msgstr "平滑法线权重"
+
+#: tessellate_numpy.py:1339
+#: tissue_properties.py:563
+msgid "Smoothness"
+msgstr "平滑度"
+
+#: weight_tools.py:1205
+#: weight_tools.py:1438
+msgid "Solidify"
+msgstr "实体化"
+
+#: tessellate_numpy.py:1452
+#: tessellate_numpy.py:1468
+msgid "Source"
+msgstr "源"
+
+#: dual_mesh.py:27
+msgid "Source Faces"
+msgstr "源面"
+
+#: contour_curves.py:42
+#: contour_curves.py:277
+msgid "Source object"
+msgstr "源物体"
+
+#: polyhedra.py:1062
+msgid "Source object:"
+msgstr "源物体："
+
+#: contour_curves.py:193
+#: contour_curves.py:414
+msgid "Spiral Axis"
+msgstr "螺旋轴"
+
+#: contour_curves.py:199
+#: contour_curves.py:419
+msgid "Spiral Rotation"
+msgstr "螺旋旋转"
+
+#: contour_curves.py:187
+#: contour_curves.py:409
+msgid "Spiralized"
+msgstr "螺旋化"
+
+#: curves_tools.py:134
+#: curves_tools.py:257
+msgid "Spline Type"
+msgstr "样条类型"
+
+#: curves_tools.py:402
+#: curves_tools.py:752
+msgid "Spline Type:"
+msgstr "样条类型："
+
+#: contour_curves.py:254
+#: contour_curves.py:473
+msgid "Spline type"
+msgstr "样条类型"
+
+#: dual_mesh.py:136
+msgid "Split the N-gon with an ear clipping algorithm"
+msgstr "使用耳切法分割 N 边形"
+
+#: dual_mesh.py:125
+msgid "Split the quads based on the distance between the vertices"
+msgstr "根据顶点间距离分割四边形"
+
+#: dual_mesh.py:119
+msgid "Split the quads in nice triangles, slower method"
+msgstr "将四边形分割为较好的三角形，较慢的方法"
+
+#: dual_mesh.py:121
+msgid "Split the quads on the 1st and 3rd vertices"
+msgstr "沿第 1 和第 3 个顶点分割四边形"
+
+#: dual_mesh.py:123
+msgid "Split the quads on the 2nd and 4th vertices"
+msgstr "沿第 2 和第 4 个顶点分割四边形"
+
+#: texture_reaction_diffusion.py:207
+#: weight_reaction_diffusion.py:326
+msgid "Start"
+msgstr "起始"
+
+#: weight_reaction_diffusion.py:400
+msgid "Static input (faster)"
+msgstr "静态输入（更快）"
+
+#: tessellate_numpy.py:1165
+msgid "Step"
+msgstr "步长"
+
+#: curves_tools.py:193
+#: curves_tools.py:326
+msgid "Step 0"
+msgstr "步长 0"
+
+#: curves_tools.py:201
+#: curves_tools.py:333
+msgid "Step 1"
+msgstr "步骤 1"
+
+#: texture_reaction_diffusion.py:73
+#: texture_reaction_diffusion.py:419
+msgid "Steps"
+msgstr "步数"
+
+#: contour_curves.py:91
+#: contour_curves.py:321
+msgid "Steps A"
+msgstr "步数 A"
+
+#: contour_curves.py:97
+#: contour_curves.py:326
+msgid "Steps B"
+msgstr "步数 B"
+
+#: weight_tools.py:385
+#: weight_tools.py:682
+msgid "Strain Rate ε:"
+msgstr "应变率 ε："
+
+#: weight_tools.py:2446
+msgid "Streamlines Curves:"
+msgstr "流线曲线："
+
+#: weight_tools.py:2339
+msgid "Streamlines path mode"
+msgstr "流线路径模式"
+
+#: polyhedra.py:1100
+msgid "Subdivide edges:"
+msgstr "细分边："
+
+#: curves_tools.py:83
+#: curves_tools.py:231
+msgid "Subdivided Edges"
+msgstr "细分边"
+
+#: tessellate_numpy.py:1387
+#: tissue_properties.py:618
+msgid "Subdivisions levels for Patch tessellation after the first iteration"
+msgstr "第一次迭代后补片镶嵌的细分级别"
+
+#: tessellate_numpy.py:1305
+#: tissue_properties.py:523
+msgid "Support face boundaries"
+msgstr "支持面边界"
+
+#: tessellate_numpy.py:1052
+#: tissue_properties.py:221
+msgid "Surface Offset"
+msgstr "表面偏移"
+
+#: tessellate_numpy.py:1052
+#: tissue_properties.py:221
+msgid "Surface offset"
+msgstr "表面偏移"
+
+#: lattice.py:148
+msgid "Swap UV"
+msgstr "交换 UV"
+
+#: curves_tools.py:109
+#: curves_tools.py:249
+msgid "System"
+msgstr "系统"
+
+#: tessellate_numpy.py:2852
+msgid "Target"
+msgstr "目标"
+
+#: contour_curves.py:224
+#: weight_reaction_diffusion.py:385
+msgid "Target Object"
+msgstr "目标物体"
+
+#: contour_curves.py:447
+msgid "Target object"
+msgstr "目标物体"
+
+#: tessellate_numpy.py:1214
+#: tissue_properties.py:339
+msgid "Target object for custom direction"
+msgstr "用于自定义方向的目标物体"
+
+#: tissue_properties.py:177
+msgid "Tessellate"
+msgstr "镶嵌"
+
+#: tessellate_numpy.py:1107
+#: tissue_properties.py:273
+msgid "Tessellation along the edges of each face"
+msgstr "沿每个面的边进行镶嵌"
+
+#: tessellate_numpy.py:1231
+#: tissue_properties.py:422
+msgid "Tessellation on Material ID"
+msgstr "按材质 ID 镶嵌"
+
+#: tessellate_numpy.py:1602
+msgid "The Active Collection does not containt any Mesh,"
+msgstr "活动集合中不包含任何网格，"
+
+#: tessellate_numpy.py:1071
+#: tissue_properties.py:233
+msgid "The component fits automatically the size of the target face"
+msgstr "组件自动适应目标面的尺寸"
+
+#: weight_tools.py:1940
+msgid "The faces have the same areas"
+msgstr "这些面面积相同"
+
+#: weight_reaction_diffusion.py:411
+msgid "The fields A and B are loaded from the attributes 'RD_A' and 'RD_B'. If 'Input Mode' is 'Static', then this is the automatic mode for every frame except the first one."
+msgstr "场 A 和 B 从属性 'RD_A' 和 'RD_B' 加载。如果“输入模式”为“静态”，则除第一帧外，每一帧都自动使用此模式。"
+
+#: weight_reaction_diffusion.py:410
+msgid "The fields A and B are loaded from vertex groups. If 'Input Mode' is 'Static', then the Vertex Groups are loaded only for the first frame."
+msgstr "场 A 和 B 从顶点组加载。如果“输入模式”为“静态”，则顶点组仅在第一帧加载。"
+
+#: weight_reaction_diffusion.py:419
+msgid "The fields A and B are saved as Vertex Group at evry frame."
+msgstr "场 A 和 B 在每一帧保存为顶点组。"
+
+#: weight_reaction_diffusion.py:420
+msgid "The fields A and B are saved as attributes 'RD_A' and 'RD_B' at every frame. If 'Input Mode' is 'Static', then this happens automatically."
+msgstr "场 A 和 B 在每一帧保存为属性 'RD_A' 和 'RD_B'。如果“输入模式”为“静态”，则会自动进行。"
+
+#: lattice.py:434
+msgid "The grid mesh is not correct"
+msgstr "栅格网格不正确"
+
+#: weight_tools.py:327
+msgid "The name of the active Vertex Group\nis not a valid Formula"
+msgstr "活动顶点组的名称\n不是有效的公式"
+
+#: polyhedra.py:98
+#: polyhedra.py:207
+msgid "The number of segments is proportional to the length of the edges"
+msgstr "分段数与边的长度成正比"
+
+#: weight_tools.py:954
+#: weight_tools.py:1229
+msgid "The object doesn't have Vertex Groups"
+msgstr "物体没有顶点组"
+
+#: lattice.py:300
+msgid "The object to deform is not valid. Only Mesh, Curve, Surface and Font objects are allowed."
+msgstr "要变形的物体无效。仅允许网格、曲线、曲面和字体物体。"
+
+#: material_tools.py:179
+msgid "The selected object doesn't have any Vertex Group"
+msgstr "所选物体没有任何顶点组"
+
+#: polyhedra.py:1039
+msgid "The selected object is not a Polyhedral object"
+msgstr "所选物体不是多面体物体"
+
+#: tessellate_numpy.py:2456
+msgid "The selected object is not a Tessellated object"
+msgstr "所选物体不是已镶嵌的物体"
+
+#: lattice.py:286
+msgid "The surface object is not valid. Only Mesh,Curve and Surface objects are allowed."
+msgstr "曲面物体无效。仅允许网格、曲线和曲面物体。"
+
+#: polyhedra.py:128
+#: polyhedra.py:252
+msgid "Thicken all"
+msgstr "全部加厚"
+
+#: polyhedra.py:128
+#: polyhedra.py:252
+msgid "Thicken original faces as well"
+msgstr "同时加厚原始面"
+
+#: lattice.py:204
+#: lattice.py:238
+msgid "Thickness"
+msgstr "厚度"
+
+#: tessellate_numpy.py:2827
+msgid "Thickness Direction"
+msgstr "厚度方向"
+
+#: polyhedra.py:77
+msgid "Thickness along the edges"
+msgstr "沿边的厚度"
+
+#: lattice.py:218
+#: polyhedra.py:145
+msgid "Thickness factor to use for zero vertex group influence"
+msgstr "顶点组影响为零时使用的厚度系数"
+
+#: polyhedra.py:135
+#: polyhedra.py:154
+msgid "Thickness weight"
+msgstr "厚度权重"
+
+#: lattice.py:237
+#: tessellate_numpy.py:1737
+msgid "Thickness:"
+msgstr "厚度："
+
+#: tessellate_numpy.py:3130
+msgid "This is a destructive operation! Are you sure?"
+msgstr "这是破坏性操作！你确定吗？"
+
+#: polyhedra.py:122
+#: polyhedra.py:164
+msgid "Threshold"
+msgstr "阈值"
+
+#: weight_tools.py:921
+#: weight_tools.py:924
+msgid "Threshold value"
+msgstr "阈值"
+
+#: texture_reaction_diffusion.py:77
+#: texture_reaction_diffusion.py:423
+msgid "Time Step"
+msgstr "时间步长"
+
+#: tessellate_numpy.py:2365
+#: weight_tools.py:2143
+msgid "Tissue"
+msgstr "Tissue"
+
+#: contour_curves.py:978
+msgid "Tissue Contour Curves"
+msgstr "Tissue 轮廓曲线"
+
+#: curves_tools.py:674
+msgid "Tissue Convert to Curve"
+msgstr "Tissue 转换为曲线"
+
+#: polyhedra.py:1021
+msgid "Tissue Polyhedra"
+msgstr "Tissue 多面体"
+
+#: weight_reaction_diffusion.py:907
+msgid "Tissue Reaction-Diffusion"
+msgstr "Tissue 反应扩散"
+
+#: tessellate_numpy.py:2439
+msgid "Tissue Tessellate"
+msgstr "Tissue 镶嵌"
+
+#: texture_reaction_diffusion.py:523
+msgid "Tissue Texture Reaction-Diffusion"
+msgstr "Tissue 纹理反应扩散"
+
+#: tessellate_numpy.py:2364
+#: weight_tools.py:2142
+msgid "Tissue Tools"
+msgstr "Tissue 工具"
+
+#: tissue_properties.py:178
+msgid "To Curve"
+msgstr "转换为曲线"
+
+#: contour_curves.py:212
+#: contour_curves.py:437
+msgid "Topology Distance"
+msgstr "拓扑距离"
+
+#: tessellate_numpy.py:1364
+#: tissue_properties.py:591
+msgid "Toward the center of the face (uses Incenter for Triangles)"
+msgstr "朝向面的中心（三角形使用内心）"
+
+#: tessellate_numpy.py:1182
+#: tissue_properties.py:402
+msgid "Transfer Component's Shape Keys. If the name of Vertex Groups and Shape Keys are the same, they will be automatically combined"
+msgstr "传递组件的形态键。如果顶点组与形态键名称相同，将自动合并"
+
+#: tessellate_numpy.py:1194
+#: tissue_properties.py:416
+msgid "Transfer Materials"
+msgstr "传递材质"
+
+#: tessellate_numpy.py:1172
+#: tissue_properties.py:390
+msgid "Transfer all Vertex Groups from Base object"
+msgstr "从基础物体传递所有顶点组"
+
+#: uv_to_mesh.py:29
+msgid "Transfer all the Materials"
+msgstr "传递所有材质"
+
+#: uv_to_mesh.py:24
+msgid "Transfer all the Vertex Groups"
+msgstr "传递所有顶点组"
+
+#: tessellate_numpy.py:1100
+#: tissue_properties.py:266
+msgid "Tri"
+msgstr "三角"
+
+#: dual_mesh.py:30
+msgid "Triangles"
+msgstr "三角形"
+
+#: dual_mesh.py:27
+msgid "Triangles works with any geometry.Quad option is faster when the object has only Quads"
+msgstr "三角形可用于任何几何体。当物体仅包含四边形时，四边形选项更快"
+
+#: tessellate_numpy.py:1100
+#: tissue_properties.py:266
+msgid "Triangulate the base mesh"
+msgstr "三角化基础网格"
+
+#: tessellate_numpy.py:1278
+#: tissue_properties.py:492
+msgid "Trim out of bounds in X direction"
+msgstr "在 X 方向裁剪越界部分"
+
+#: tessellate_numpy.py:1286
+#: tissue_properties.py:501
+msgid "Trim out of bounds in Y direction"
+msgstr "在 Y 方向裁剪越界部分"
+
+#: lattice.py:255
+#: lattice.py:268
+msgid "U"
+msgstr "U"
+
+#: tessellate_numpy.py:1522
+#: tissue_properties.py:736
+msgid "UV Anisotropy"
+msgstr "UV 各向异性"
+
+#: tessellate_numpy.py:1716
+#: tessellate_numpy.py:2758
+msgid "UV rotation supported only for Mesh objects"
+msgstr "UV 旋转仅支持网格物体"
+
+#: tessellate_numpy.py:1046
+msgid "Uniform thickness"
+msgstr "均匀厚度"
+
+#: tissue_properties.py:214
+msgid "Uniform thinkness"
+msgstr "均匀厚度"
+
+#: weight_reaction_diffusion.py:359
+msgid "Uniform vector"
+msgstr "均匀向量"
+
+#: tessellate_numpy.py:1430
+#: tissue_properties.py:669
+msgid "Uniform weight for individual faces"
+msgstr "各面的均匀权重"
+
+#: tessellate_numpy.py:1114
+#: tissue_properties.py:281
+msgid "Unused"
+msgstr "未使用"
+
+#: weight_reaction_diffusion.py:351
+msgid "Update Baked Geometry"
+msgstr "更新烘焙几何"
+
+#: curves_tools.py:66
+#: tissue_properties.py:163
+msgid "Update Dependencies"
+msgstr "更新依赖项"
+
+#: weight_reaction_diffusion.py:346
+msgid "Update Geometry Data"
+msgstr "更新几何数据"
+
+#: weight_reaction_diffusion.py:346
+msgid "Update geometry data and vector field data at the next frame"
+msgstr "在下一帧更新几何数据和向量场数据"
+
+#: texture_reaction_diffusion.py:203
+#: weight_reaction_diffusion.py:321
+msgid "Use Cache"
+msgstr "使用缓存"
+
+#: contour_curves.py:49
+#: contour_curves.py:283
+msgid "Use Modifiers"
+msgstr "使用修改器"
+
+#: weight_tools.py:2361
+msgid "Use Selected Vertices"
+msgstr "使用选中顶点"
+
+#: tessellate_numpy.py:1182
+#: tessellate_numpy.py:3010
+msgid "Use Shape Keys"
+msgstr "使用形态键"
+
+#: contour_curves.py:103
+#: contour_curves.py:331
+msgid "Use X"
+msgstr "使用 X"
+
+#: contour_curves.py:109
+#: contour_curves.py:336
+msgid "Use Y"
+msgstr "使用 Y"
+
+#: contour_curves.py:115
+#: contour_curves.py:341
+msgid "Use Z"
+msgstr "使用 Z"
+
+#: lattice.py:168
+msgid "Use active Vertex Group for lattice's thickness"
+msgstr "使用活动顶点组控制晶格厚度"
+
+#: tessellate_numpy.py:1454
+#: tessellate_numpy.py:1470
+msgid "Use base vertex group"
+msgstr "使用基础顶点组"
+
+#: tessellate_numpy.py:1455
+#: tessellate_numpy.py:1471
+msgid "Use component vertex group"
+msgstr "使用组件顶点组"
+
+#: tessellate_numpy.py:1064
+#: tissue_properties.py:206
+msgid "Use multiple components by materials name"
+msgstr "按材质名称使用多个组件"
+
+#: tessellate_numpy.py:1063
+#: tissue_properties.py:205
+msgid "Use multiple components from Collection"
+msgstr "从集合使用多个组件"
+
+#: tissue_properties.py:332
+msgid "Use objects inside the collection"
+msgstr "使用集合内的物体"
+
+#: polyhedra.py:122
+#: polyhedra.py:247
+msgid "Use only faces with an area greater than the threshold"
+msgstr "仅使用面积大于阈值的面"
+
+#: tessellate_numpy.py:1537
+#: tissue_properties.py:773
+msgid "Use same component for the wedges generated by the Fan tessellation"
+msgstr "为扇形细分生成的楔形使用同一组件"
+
+#: weight_tools.py:2361
+msgid "Use selected vertices as Seed"
+msgstr "使用选中顶点作为种子"
+
+#: material_tools.py:144
+msgid "Use the max weight value"
+msgstr "使用最大权重值"
+
+#: material_tools.py:145
+msgid "Use the mean weight value"
+msgstr "使用平均权重值"
+
+#: material_tools.py:143
+msgid "Use the min weight value"
+msgstr "使用最小权重值"
+
+#: texture_reaction_diffusion.py:156
+#: weight_reaction_diffusion.py:380
+msgid "Use the perpendicular direction"
+msgstr "使用垂直方向"
+
+#: tessellate_numpy.py:1062
+#: tissue_properties.py:204
+msgid "Use the same component object for all the faces"
+msgstr "所有面使用同一组件物体"
+
+#: weight_reaction_diffusion.py:1054
+msgid "Using Attributes (Vertex > Float) if existing:"
+msgstr "使用属性（顶点 > 浮点，若存在）："
+
+#: tessellate_numpy.py:2432
+msgid "Utils:"
+msgstr "工具："
+
+#: lattice.py:260
+#: lattice.py:269
+msgid "V"
+msgstr "V"
+
+#: weight_tools.py:1654
+msgid "Value Channel"
+msgstr "值通道"
+
+#: weight_reaction_diffusion.py:341
+msgid "Values from A and B are loaded from Vertex Groups or Modifiers after the first frame"
+msgstr "A 和 B 的值在首帧后从顶点组或修改器加载"
+
+#: contour_curves.py:55
+#: contour_curves.py:288
+msgid "Variable Bevel"
+msgstr "可变倒角"
+
+#: contour_curves.py:163
+#: contour_curves.py:381
+msgid "Variable Bevel depth"
+msgstr "可变倒角深度"
+
+#: tessellate_numpy.py:2658
+msgid "Variable Offset"
+msgstr "可变偏移"
+
+#: weight_reaction_diffusion.py:1034
+msgid "Variable Parameters"
+msgstr "可变参数"
+
+#: curves_tools.py:418
+#: curves_tools.py:768
+msgid "Variable Radius:"
+msgstr "可变半径："
+
+#: weight_tools.py:233
+msgid "Variables (for each vertex):"
+msgstr "变量（每个顶点）："
+
+#: contour_curves.py:207
+#: contour_curves.py:219
+msgid "Vector"
+msgstr "向量"
+
+#: weight_reaction_diffusion.py:990
+msgid "Vector Attribute 'RD_vector_field' is missing"
+msgstr "缺少向量属性 'RD_vector_field'"
+
+#: texture_reaction_diffusion.py:105
+#: weight_reaction_diffusion.py:363
+msgid "Vector Field"
+msgstr "向量场"
+
+#: weight_reaction_diffusion.py:356
+msgid "Vector Field controlling the direction of the Reaction-Diffusion"
+msgstr "控制反应扩散方向的向量场"
+
+#: texture_reaction_diffusion.py:636
+msgid "Vector Field:"
+msgstr "矢量场："
+
+#: weight_reaction_diffusion.py:362
+msgid "Vector field defined by vertex groups 'x', 'y' and 'z'"
+msgstr "由顶点组 'x'、'y' 和 'z' 定义的矢量场"
+
+#: contour_curves.py:264
+#: contour_curves.py:391
+msgid "Vertex > Float attribute used for contouring"
+msgstr "用于等值线提取的顶点 > 浮点属性"
+
+#: lattice.py:168
+#: tessellate_numpy.py:2739
+msgid "Vertex Group"
+msgstr "顶点组"
+
+#: weight_reaction_diffusion.py:982
+msgid "Vertex Group 'x' is missing"
+msgstr "缺少顶点组 'x'"
+
+#: weight_reaction_diffusion.py:984
+msgid "Vertex Group 'y' is missing"
+msgstr "缺少顶点组 'y'"
+
+#: weight_reaction_diffusion.py:986
+msgid "Vertex Group 'z' is missing"
+msgstr "缺少顶点组 'z'"
+
+#: weight_reaction_diffusion.py:392
+msgid "Vertex Group for the gradient vector field"
+msgstr "用于渐变矢量场的顶点组"
+
+#: weight_tools.py:163
+msgid "Vertex Group square"
+msgstr "顶点组 square"
+
+#: weight_reaction_diffusion.py:211
+msgid "Vertex Group used for A diffusion"
+msgstr "用于 A 扩散的顶点组"
+
+#: weight_reaction_diffusion.py:216
+msgid "Vertex Group used for B diffusion"
+msgstr "用于 B 扩散的顶点组"
+
+#: weight_reaction_diffusion.py:226
+msgid "Vertex Group used for Feed value (f)"
+msgstr "用于 Feed 值 (f) 的顶点组"
+
+#: weight_reaction_diffusion.py:231
+msgid "Vertex Group used for Kill value (k)"
+msgstr "用于 Kill 值 (k) 的顶点组"
+
+#: weight_reaction_diffusion.py:221
+msgid "Vertex Group used for Scale value"
+msgstr "用于缩放值的顶点组"
+
+#: weight_reaction_diffusion.py:236
+msgid "Vertex Group used for adding/removing B"
+msgstr "用于添加/移除 B 的顶点组"
+
+#: tessellate_numpy.py:1475
+#: tissue_properties.py:703
+msgid "Vertex Group used for bridge open edges"
+msgstr "用于桥接开放边的顶点组"
+
+#: tessellate_numpy.py:1459
+#: tissue_properties.py:684
+msgid "Vertex Group used for cap open edges"
+msgstr "用于封盖开放边的顶点组"
+
+#: contour_curves.py:248
+#: contour_curves.py:468
+msgid "Vertex Group used for computing the distance"
+msgstr "用于计算距离的顶点组"
+
+#: contour_curves.py:175
+#: contour_curves.py:399
+msgid "Vertex Group used for contouring"
+msgstr "用于等值线提取的顶点组"
+
+#: tessellate_numpy.py:1504
+#: tissue_properties.py:793
+msgid "Vertex Group used for editing the normals directions"
+msgstr "用于编辑法线方向的顶点组"
+
+#: tessellate_numpy.py:1415
+#: tissue_properties.py:651
+msgid "Vertex Group used for frame thickness"
+msgstr "用于边框厚度的顶点组"
+
+#: tessellate_numpy.py:1436
+#: tissue_properties.py:755
+msgid "Vertex Group used for gradient distribution"
+msgstr "用于渐变分布的顶点组"
+
+#: contour_curves.py:157
+#: contour_curves.py:376
+msgid "Vertex Group used for pattern displace"
+msgstr "用于图案置换的顶点组"
+
+#: tessellate_numpy.py:1484
+#: tissue_properties.py:714
+msgid "Vertex Group used for rotation"
+msgstr "用于旋转的顶点组"
+
+#: polyhedra.py:154
+msgid "Vertex Group used for selective wireframe"
+msgstr "用于选择性线框的顶点组"
+
+#: tissue_properties.py:744
+msgid "Vertex Group used for smooth normals"
+msgstr "用于平滑法线的顶点组"
+
+#: tessellate_numpy.py:1529
+msgid "Vertex Group used for smoothing normals"
+msgstr "用于平滑法线的顶点组"
+
+#: weight_tools.py:2421
+msgid "Vertex Group used for streamlines"
+msgstr "用于流线的顶点组"
+
+#: weight_tools.py:1741
+msgid "Vertex Group used for the U coordinate"
+msgstr "用于 U 坐标的顶点组"
+
+#: weight_tools.py:1744
+msgid "Vertex Group used for the V coordinate"
+msgstr "用于 V 坐标的顶点组"
+
+#: polyhedra.py:135
+#: polyhedra.py:258
+msgid "Vertex Group used for thickness"
+msgstr "用于厚度的顶点组"
+
+#: curves_tools.py:154
+#: curves_tools.py:293
+msgid "Vertex Group used for variable radius"
+msgstr "用于可变半径的顶点组"
+
+#: weight_reaction_diffusion.py:410
+#: weight_reaction_diffusion.py:419
+msgid "Vertex Groups (default)"
+msgstr "顶点组（默认）"
+
+#: weight_tools.py:165
+msgid "Vertical Gradient"
+msgstr "垂直渐变"
+
+#: weight_tools.py:2341
+msgid "Verts"
+msgstr "顶点"
+
+#: lattice.py:270
+msgid "W"
+msgstr "W"
+
+#: contour_curves.py:424
+#: polyhedra.py:300
+msgid "Wait..."
+msgstr "请稍候…"
+
+#: tissue_properties.py:477
+msgid "Warning Message"
+msgstr "警告信息"
+
+#: tissue_properties.py:485
+msgid "Warning Message Merge"
+msgstr "警告信息 合并"
+
+#: tissue_properties.py:481
+msgid "Warning Message Thickness"
+msgstr "警告信息 厚度"
+
+#: weight_tools.py:2001
+msgid "Wave amplitude"
+msgstr "波纹振幅"
+
+#: weight_tools.py:1997
+msgid "Wave frequency"
+msgstr "波纹频率"
+
+#: contour_curves.py:209
+#: contour_curves.py:241
+msgid "Weight"
+msgstr "权重"
+
+#: weight_tools.py:2212
+msgid "Weight Convert:"
+msgstr "权重转换："
+
+#: weight_tools.py:2194
+msgid "Weight Curves:"
+msgstr "权重曲线："
+
+#: weight_tools.py:2186
+msgid "Weight Edit:"
+msgstr "权重编辑："
+
+#: weight_tools.py:2170
+msgid "Weight Generate:"
+msgstr "权重生成："
+
+#: tessellate_numpy.py:1080
+#: tissue_properties.py:243
+msgid "Weight Gradient"
+msgstr "权重渐变"
+
+#: tessellate_numpy.py:2970
+msgid "Weight and Morphing"
+msgstr "权重与变形"
+
+#: tessellate_numpy.py:2422
+msgid "Weight:"
+msgstr "权重："
+
+#: polyhedra.py:52
+#: polyhedra.py:215
+msgid "Wireframe"
+msgstr "线框"
+
+#: polyhedra.py:109
+#: polyhedra.py:235
+msgid "Wireframe based on cells dimensions"
+msgstr "基于单元尺寸的线框"
+
+#: polyhedra.py:110
+#: polyhedra.py:236
+msgid "Wireframe based on vertex groups"
+msgstr "基于顶点组的线框"
+
+#: polyhedra.py:108
+#: polyhedra.py:234
+msgid "Wireframe only on bigger cells compared to the thickness"
+msgstr "仅为大于厚度的单元生成线框"
+
+#: polyhedra.py:192
+msgid "Wireframe thickness"
+msgstr "线框厚度"
+
+#: weight_reaction_diffusion.py:1026
+msgid "Write to"
+msgstr "写入到"
+
+#: contour_curves.py:576
+#: contour_curves.py:1089
+msgid "X"
+msgstr "X"
+
+#: tessellate_numpy.py:2691
+msgid "X:"
+msgstr "X："
+
+#: contour_curves.py:577
+#: contour_curves.py:1090
+msgid "Y"
+msgstr "Y"
+
+#: tessellate_numpy.py:2698
+msgid "Y:"
+msgstr "Y："
+
+#: contour_curves.py:578
+#: contour_curves.py:1091
+msgid "Z"
+msgstr "Z"
+
+#: tessellate_numpy.py:1044
+#: tissue_properties.py:212
+msgid "Z-Scale according to faces size"
+msgstr "根据面大小进行 Z 缩放"
+
+#: weight_tools.py:1541
+msgid "blue channel"
+msgstr "蓝色通道"
+
+#: weight_tools.py:1541
+msgid "convert blue channel"
+msgstr "转换蓝色通道"
+
+#: weight_tools.py:1538
+msgid "convert green channel"
+msgstr "转换绿色通道"
+
+#: weight_tools.py:1536
+msgid "convert red channel"
+msgstr "转换红色通道"
+
+#: weight_tools.py:1543
+msgid "convert value channel"
+msgstr "转换明度通道"
+
+#: tessellate_numpy.py:2768
+msgid "doesn't have UV Maps or corner attributes"
+msgstr "没有 UV 贴图或面角属性"
+
+#: weight_tools.py:240
+msgid "f1, f2, f3, f4, f5: Float Sliders"
+msgstr "f1、f2、f3、f4、f5：浮点滑块"
+
+#: weight_tools.py:1538
+msgid "green channel"
+msgstr "绿色通道"
+
+#: weight_tools.py:235
+msgid "gx, gy, gz: Global Coordinates"
+msgstr "gx、gy、gz：全局坐标"
+
+#: weight_tools.py:241
+msgid "i1, i2, i3, i4, i5: Integer Sliders"
+msgstr "i1、i2、i3、i4、i5：整数滑块"
+
+#: weight_tools.py:1545
+msgid "invert all color channels"
+msgstr "反转所有颜色通道"
+
+#: weight_tools.py:1659
+msgid "invert color channel"
+msgstr "反转颜色通道"
+
+#: weight_tools.py:1884
+msgid "invert values"
+msgstr "反转数值"
+
+#: weight_tools.py:234
+msgid "lx, ly, lz: Local Coordinates"
+msgstr "lx、ly、lz：局部坐标"
+
+#: weight_tools.py:237
+msgid "nx, ny, nz: Normal Coordinates"
+msgstr "nx、ny、nz：法线坐标"
+
+#: weight_reaction_diffusion.py:1099
+msgid "please save the Blender or set a Cache directory"
+msgstr "请保存 Blender 文件或设置缓存目录"
+
+#: weight_tools.py:1536
+msgid "red channel"
+msgstr "红色通道"
+
+#: weight_tools.py:236
+msgid "rx, ry, rz: Local Coordinates (0 to 1)"
+msgstr "rx、ry、rz：局部坐标（0 到 1）"
+
+#: weight_tools.py:1543
+msgid "value channel"
+msgstr "明度通道"
+
+#: weight_tools.py:238
+msgid "w[0], w[1], w[2], ... : Vertex Groups"
+msgstr "w[0]、w[1]、w[2]、...：顶点组"
+
+#: weight_reaction_diffusion.py:362
+msgid "x, y, z"
+msgstr "x、y、z"
+
+#: weight_tools.py:388
+#: weight_tools.py:685
+msgid "ε"
+msgstr "ε"
+
+#: weight_tools.py:1879
+msgctxt "Operator"
+msgid "Area"
+msgstr "面积"
+
+#: material_tools.py:126
+msgctxt "Operator"
+msgid "Assign materials to the faces of the mesh according to the active Vertex Group"
+msgstr "根据活动顶点组为网格面指定材质"
+
+#: material_tools.py:32
+msgctxt "Operator"
+msgid "Assign random materials to the faces of the mesh"
+msgstr "为网格面指定随机材质"
+
+#: lattice.py:132
+msgctxt "Operator"
+msgid "Automatically add a Lattice modifier to the selected object, adapting it to the active one.\nThe active object must be a rectangular grid compatible with the Lattice's topology"
+msgstr "自动为选中物体添加晶格修改器，使其适配活动物体。\n活动物体必须是符合晶格拓扑的矩形网格"
+
+#: weight_reaction_diffusion.py:433
+msgctxt "Operator"
+msgid "Bake Data"
+msgstr "烘焙数据"
+
+#: weight_reaction_diffusion.py:434
+msgctxt "Operator"
+msgid "Bake the Reaction-Diffusion to the cache directory"
+msgstr "将反应扩散烘焙到缓存目录"
+
+#: weight_tools.py:1739
+msgctxt "Operator"
+msgid "Combine two Vertex Groups as UV Map Layer."
+msgstr "将两个顶点组合并为 UV 贴图图层。"
+
+#: weight_tools.py:346
+#: weight_tools.py:473
+msgctxt "Operator"
+msgid "Compute the Vertex Group Laplacian"
+msgstr "计算顶点组拉普拉斯"
+
+#: contour_curves.py:273
+#: tessellate_numpy.py:2397
+msgctxt "Operator"
+msgid "Contour Curves"
+msgstr "轮廓曲线"
+
+#: weight_tools.py:914
+msgctxt "Operator"
+msgid "Contour Displace"
+msgstr "轮廓置换"
+
+#: weight_tools.py:1195
+#: weight_tools.py:1428
+msgctxt "Operator"
+msgid "Contour Mask"
+msgstr "轮廓遮罩"
+
+#: dual_mesh.py:115
+msgctxt "Operator"
+msgid "Convert a generic mesh into a polygonal mesh. (Destructive)"
+msgstr "将通用网格转换为多边形网格。（破坏性）"
+
+#: curves_tools.py:213
+msgctxt "Operator"
+msgid "Convert selected mesh to Curve object"
+msgstr "将选中的网格转换为曲线物体"
+
+#: weight_tools.py:1534
+msgctxt "Operator"
+msgid "Convert the active Vertex Color into a Vertex Group."
+msgstr "将活动顶点颜色转换为顶点组。"
+
+#: weight_tools.py:1648
+msgctxt "Operator"
+msgid "Convert the active Vertex Group into a Vertex Color."
+msgstr "将活动顶点组转换为顶点颜色。"
+
+#: weight_tools.py:2213
+msgctxt "Operator"
+msgid "Convert to Colors"
+msgstr "转换为颜色"
+
+#: tessellate_numpy.py:2396
+msgctxt "Operator"
+msgid "Convert to Curve"
+msgstr "转换为曲线"
+
+#: dual_mesh.py:114
+msgctxt "Operator"
+msgid "Convert to Dual Mesh"
+msgstr "转换为对偶网格"
+
+#: weight_tools.py:2215
+msgctxt "Operator"
+msgid "Convert to UV"
+msgstr "转换为 UV"
+
+#: weight_tools.py:2152
+msgctxt "Operator"
+msgid "Convert to Weight"
+msgstr "转换为权重"
+
+#: tessellate_numpy.py:1023
+msgctxt "Operator"
+msgid "Create a copy of selected object on the active object's faces, adapting the shape to the different faces"
+msgstr "在活动物体的面上创建选中物体的副本，使形状适配不同的面"
+
+#: uv_to_mesh.py:16
+msgctxt "Operator"
+msgid "Create a new Mesh based on active UV"
+msgstr "基于活动 UV 创建新网格"
+
+#: weight_tools.py:2043
+msgctxt "Operator"
+msgid "Create a weight map according to the distance from the selected vertices along the mesh surface"
+msgstr "根据沿网格表面到选中顶点的距离创建权重图"
+
+#: weight_tools.py:1995
+msgctxt "Operator"
+msgid "Create an harmonic variation of the active Vertex Group"
+msgstr "创建活动顶点组的调和变化"
+
+#: weight_tools.py:1824
+msgctxt "Operator"
+msgid "Curvature"
+msgstr "曲率"
+
+#: dual_mesh.py:17
+#: tessellate_numpy.py:2386
+msgctxt "Operator"
+msgid "Dual Mesh"
+msgstr "对偶网格"
+
+#: weight_tools.py:785
+msgctxt "Operator"
+msgid "Edges Bending"
+msgstr "边弯曲"
+
+#: weight_tools.py:641
+msgctxt "Operator"
+msgid "Edges Deformation"
+msgstr "边变形"
+
+#: tessellate_numpy.py:1833
+msgctxt "Operator"
+msgid "Fast update the tessellated mesh according to base and component changes."
+msgstr "根据基础对象和组件更改快速更新镶嵌网格。"
+
+#: tessellate_numpy.py:1897
+msgctxt "Operator"
+msgid "Fast update the tessellated mesh according to base and component changes. Does not update dependencies"
+msgstr "根据基础对象和组件更改快速更新镶嵌网格。不更新依赖项。"
+
+#: tessellate_numpy.py:2408
+msgctxt "Operator"
+msgid "Flip"
+msgstr "翻转"
+
+#: weight_reaction_diffusion.py:458
+msgctxt "Operator"
+msgid "Free Data"
+msgstr "释放数据"
+
+#: weight_reaction_diffusion.py:459
+msgctxt "Operator"
+msgid "Free Reaction-Diffusion data"
+msgstr "释放反应扩散数据"
+
+#: tessellate_numpy.py:3195
+msgctxt "Operator"
+msgid "Fully rotate selected faces and update tessellated meshes"
+msgstr "完全旋转选中的面并更新镶嵌网格"
+
+#: weight_tools.py:149
+msgctxt "Operator"
+msgid "Generate a Vertex Group according to a mathematical formula"
+msgstr "根据数学公式生成顶点组"
+
+#: weight_tools.py:1881
+msgctxt "Operator"
+msgid "Generate a Vertex Group based on the area of individualfaces."
+msgstr "根据各个面的面积生成顶点组。"
+
+#: weight_tools.py:1826
+msgctxt "Operator"
+msgid "Generate a Vertex Group based on the curvature of themesh. Is based on Dirty Vertex Color."
+msgstr "基于网格的曲率生成顶点组。基于脏顶点颜色。"
+
+#: dual_mesh.py:18
+msgctxt "Operator"
+msgid "Generate a polygonal mesh using Tessellate. (Non-destructive)"
+msgstr "使用 Tessellate 生成多边形网格。（非破坏性）"
+
+#: weight_tools.py:1954
+msgctxt "Operator"
+msgid "Generate a random Vertex Group"
+msgstr "生成随机顶点组"
+
+#: polyhedra.py:187
+msgctxt "Operator"
+msgid "Generate wireframes around the faces.                      \nDoesn't works with boundary edges.                      \n(Experimental)"
+msgstr "围绕面生成线框。\n不支持边界边。\n（实验性）"
+
+#: weight_tools.py:1993
+msgctxt "Operator"
+msgid "Harmonic"
+msgstr "调和"
+
+#: config.py:67
+msgctxt "Operator"
+msgid "Install Numba"
+msgstr "安装 Numba"
+
+#: config.py:68
+msgctxt "Operator"
+msgid "Install Numba python module"
+msgstr "安装 Numba Python 模块"
+
+#: lattice.py:131
+msgctxt "Operator"
+msgid "Lattice along Surface"
+msgstr "沿曲面的晶格"
+
+#: tessellate_numpy.py:2407
+msgctxt "Operator"
+msgid "Left"
+msgstr "左"
+
+#: weight_tools.py:134
+msgctxt "Operator"
+msgid "Online Documentation"
+msgstr "在线文档"
+
+#: config.py:118
+msgctxt "Operator"
+msgid "Open Documentation"
+msgstr "打开文档"
+
+#: config.py:161
+msgctxt "Operator"
+msgid "Open GitHub issues page to report bugs or request features"
+msgstr "打开 GitHub 问题页面以报告错误或请求功能"
+
+#: config.py:119
+msgctxt "Operator"
+msgid "Open Tissue documentation in web browser"
+msgstr "在浏览器中打开 Tissue 文档"
+
+#: tessellate_numpy.py:2389
+msgctxt "Operator"
+msgid "Polyhedral Decomposition"
+msgstr "多面体分解"
+
+#: tessellate_numpy.py:2391
+msgctxt "Operator"
+msgid "Polyhedral Wireframe"
+msgstr "多面体线框"
+
+#: weight_tools.py:1952
+msgctxt "Operator"
+msgid "Random"
+msgstr "随机"
+
+#: material_tools.py:31
+msgctxt "Operator"
+msgid "Random Materials"
+msgstr "随机材质"
+
+#: weight_reaction_diffusion.py:923
+#: weight_tools.py:2204
+msgctxt "Operator"
+msgid "Reaction-Diffusion"
+msgstr "反应扩散"
+
+#: contour_curves.py:1001
+#: curves_tools.py:696
+msgctxt "Operator"
+msgid "Refresh"
+msgstr "刷新"
+
+#: tessellate_numpy.py:3120
+msgctxt "Operator"
+msgid "Remove Tissue properties"
+msgstr "移除 Tissue 属性"
+
+#: config.py:160
+msgctxt "Operator"
+msgid "Report Issue"
+msgstr "报告问题"
+
+#: weight_reaction_diffusion.py:137
+msgctxt "Operator"
+msgid "Reset Reaction Diffusion Weight"
+msgstr "重置反应扩散权重"
+
+#: weight_reaction_diffusion.py:927
+msgctxt "Operator"
+msgid "Reset Reaction-Diffusion"
+msgstr "重置反应扩散"
+
+#: texture_reaction_diffusion.py:412
+msgctxt "Operator"
+msgid "Reset Texture Reaction Diffusion"
+msgstr "重置纹理反应扩散"
+
+#: tessellate_numpy.py:2409
+msgctxt "Operator"
+msgid "Right"
+msgstr "右"
+
+#: tessellate_numpy.py:3140
+msgctxt "Operator"
+msgid "Rotate clockwise selected faces and update tessellated meshes"
+msgstr "顺时针旋转选中面并更新细分网格"
+
+#: tessellate_numpy.py:3251
+msgctxt "Operator"
+msgid "Rotate counterclockwise selected faces and update tessellated meshes"
+msgstr "逆时针旋转选中面并更新细分网格"
+
+#: weight_reaction_diffusion.py:66
+msgctxt "Operator"
+msgid "Run a Reaction-Diffusion based on existing Vertex Groups: A and B"
+msgstr "基于现有顶点组 A 和 B 运行反应扩散"
+
+#: texture_reaction_diffusion.py:413
+#: texture_reaction_diffusion.py:469
+msgctxt "Operator"
+msgid "Run a Reaction-Diffusion based on images: A and B"
+msgstr "基于图像 A 和 B 运行反应扩散"
+
+#: weight_reaction_diffusion.py:138
+msgctxt "Operator"
+msgid "Set A and B weight to default values"
+msgstr "将 A 和 B 权重设为默认值"
+
+#: weight_reaction_diffusion.py:65
+msgctxt "Operator"
+msgid "Start Reaction Diffusion"
+msgstr "开始反应扩散"
+
+#: texture_reaction_diffusion.py:468
+msgctxt "Operator"
+msgid "Start Texture Reaction Diffusion"
+msgstr "开始纹理反应扩散"
+
+#: weight_tools.py:2335
+msgctxt "Operator"
+msgid "Streamlines Curves"
+msgstr "流线曲线"
+
+#: tessellate_numpy.py:2380
+msgctxt "Operator"
+msgid "Tessellate"
+msgstr "Tessellate"
+
+#: curves_tools.py:212
+msgctxt "Operator"
+msgid "Tissue Convert to Curve"
+msgstr "Tissue 转换为曲线"
+
+#: polyhedra.py:186
+msgctxt "Operator"
+msgid "Tissue Polyhedral Wireframe"
+msgstr "Tissue 多面体线框"
+
+#: tessellate_numpy.py:1832
+msgctxt "Operator"
+msgid "Tissue Refresh"
+msgstr "Tissue 刷新"
+
+#: tessellate_numpy.py:1896
+msgctxt "Operator"
+msgid "Tissue Refresh Simple"
+msgstr "Tissue 简单刷新"
+
+#: tessellate_numpy.py:3119
+msgctxt "Operator"
+msgid "Tissue Remove"
+msgstr "Tissue 移除"
+
+#: tessellate_numpy.py:3849
+msgctxt "Operator"
+msgid "Tissue Render Animation"
+msgstr "Tissue 渲染动画"
+
+#: tessellate_numpy.py:3194
+msgctxt "Operator"
+msgid "Tissue Rotate Faces Flip"
+msgstr "Tissue 翻转面旋转"
+
+#: tessellate_numpy.py:3250
+msgctxt "Operator"
+msgid "Tissue Rotate Faces Left"
+msgstr "Tissue 向左旋转面"
+
+#: tessellate_numpy.py:3139
+msgctxt "Operator"
+msgid "Tissue Rotate Faces Right"
+msgstr "Tissue 向右旋转面"
+
+#: tessellate_numpy.py:1022
+msgctxt "Operator"
+msgid "Tissue Tessellate"
+msgstr "Tissue Tessellate"
+
+#: curves_tools.py:481
+msgctxt "Operator"
+msgid "Tissue Update Curve"
+msgstr "Tissue 更新曲线"
+
+#: polyhedra.py:388
+msgctxt "Operator"
+msgid "Tissue Update Polyhedral Wireframe"
+msgstr "Tissue 更新多面体线框"
+
+#: tessellate_numpy.py:3850
+msgctxt "Operator"
+msgid "Turnaround for issues related to animatable tessellation"
+msgstr "针对可动画细分相关问题的变通方案"
+
+#: uv_to_mesh.py:15
+msgctxt "Operator"
+msgid "UV to Mesh"
+msgstr "UV 转网格"
+
+#: contour_curves.py:688
+msgctxt "Operator"
+msgid "Update Contour Curves"
+msgstr "更新轮廓曲线"
+
+#: curves_tools.py:482
+msgctxt "Operator"
+msgid "Update Curve object"
+msgstr "更新曲线物体"
+
+#: weight_tools.py:311
+msgctxt "Operator"
+msgid "Update Weight Formula"
+msgstr "更新权重公式"
+
+#: contour_curves.py:689
+msgctxt "Operator"
+msgid "Update a previously generated Contour Curves object"
+msgstr "更新之前生成的轮廓曲线物体"
+
+#: polyhedra.py:389
+msgctxt "Operator"
+msgid "Update a previously generated polyhedral object"
+msgstr "更新之前生成的多面体物体"
+
+#: weight_tools.py:312
+msgctxt "Operator"
+msgid "Update an existing Vertex Group. Make sure that the name\nof the active Vertex Group is a valid formula"
+msgstr "更新现有顶点组。请确保活动顶点组的名称是有效的公式"
+
+#: weight_tools.py:1532
+msgctxt "Operator"
+msgid "Vertex Color"
+msgstr "顶点颜色"
+
+#: weight_tools.py:1646
+#: weight_tools.py:1737
+msgctxt "Operator"
+msgid "Vertex Group"
+msgstr "顶点组"
+
+#: weight_tools.py:2041
+msgctxt "Operator"
+msgid "Weight Distance"
+msgstr "权重距离"
+
+#: weight_tools.py:148
+msgctxt "Operator"
+msgid "Weight Formula"
+msgstr "权重公式"
+
+#: weight_tools.py:345
+#: weight_tools.py:472
+msgctxt "Operator"
+msgid "Weight Laplacian"
+msgstr "权重拉普拉斯"
+
+#: material_tools.py:125
+msgctxt "Operator"
+msgid "Weight to Materials"
+msgstr "权重转材质"

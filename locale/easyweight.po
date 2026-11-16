@@ -1,0 +1,526 @@
+# perfect-chinese: 1
+# id: easyweight
+# kind: addon
+# module: bl_ext.blender_org.easyweight
+# name: EasyWeight
+# name_zh: 权重绘制助手
+# translator: KeshiMiao
+# category: Rigging
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: prefs.py:22
+msgid "A lack of weights will always be indicated with black color to differentiate it from a weight of 0.0 being assigned"
+msgstr "缺少权重时始终以黑色表示，以区别于已指定权重 0.0"
+
+#: prefs.py:109
+msgid "Accumulate"
+msgstr "累积"
+
+#: operators/symmetrize_weights.py:27
+msgid "Active"
+msgstr "活动"
+
+#: prefs.py:125
+msgid "Additive Paint"
+msgstr "相加绘制"
+
+#: operators/symmetrize_weights.py:29
+msgid "All"
+msgstr "全部"
+
+#: prefs.py:104
+msgid "All weight brushes are able to paint on geometry that is facing away from the viewport"
+msgstr "所有权重笔刷都能在背向视图的几何体上绘制"
+
+#: prefs.py:119
+msgid "All weight paint brushes share the same Strength value, instead of each brush having its own"
+msgstr "所有权重绘制笔刷共用同一个强度值，而非每个笔刷各自拥有"
+
+#: prefs.py:114
+msgid "All weight paint brushes switch between a 3D spherical or a 2D projected circular falloff shape"
+msgstr "所有权重绘制笔刷在 3D 球形或 2D 投影圆形衰减形状之间切换"
+
+#: prefs.py:109
+msgid "All weight paint brushes will accumulate their effect within a single stroke as you move the mouse"
+msgstr "所有权重绘制笔刷在移动鼠标的单次笔画中累积效果"
+
+#: prefs.py:52
+msgid "Always Apply Brush Settings"
+msgstr "始终应用笔刷设置"
+
+#: prefs.py:66
+msgid "Always Auto Clean"
+msgstr "始终自动清理"
+
+#: prefs.py:28
+msgid "Always Auto Normalize"
+msgstr "始终自动归一化"
+
+#: prefs.py:34
+msgid "Always Multi-Paint"
+msgstr "始终多绘制"
+
+#: prefs.py:46
+msgid "Always Reveal Armature"
+msgstr "始终显示骨架"
+
+#: prefs.py:22
+msgid "Always Show Zero Weights"
+msgstr "始终显示零权重"
+
+#: prefs.py:40
+msgid "Always X-Ray"
+msgstr "始终 X 射线"
+
+#: prefs.py:40
+msgid "Always enable bone x-ray when entering weight paint mode"
+msgstr "进入权重绘制模式时始终启用骨骼 X 射线"
+
+#: force_apply_mirror.py:114
+msgid "Applied X-Mirror modifier with shape keys."
+msgstr "已应用带形态键的 X 镜像修改器。"
+
+#: prefs.py:52
+msgid "Apply global brush settings when entering Weight Paint mode"
+msgstr "进入权重绘制模式时应用全局笔刷设置"
+
+#: weight_pie.py:171
+msgid "Armature Display Type"
+msgstr "骨架显示类型"
+
+#: weight_pie.py:149
+msgid "Armature X-Ray"
+msgstr "骨架 X 射线"
+
+#: operators/symmetrize_weights.py:37
+msgid "Automatic"
+msgstr "自动"
+
+#: prefs.py:46
+msgid "Automatically make the deforming armature visible (unhide it, take it out of local view, or link it to the scene if needed) when entering Weight Paint mode, and restore its previous visibility when leaving"
+msgstr "进入权重绘制模式时自动使变形骨架可见（取消隐藏、移出局部视图，或按需将其链接到场景），并在退出时恢复其之前的可见性"
+
+#: vertex_group_menu.py:11
+msgid "Batch Delete"
+msgstr "批量删除"
+
+#: vertex_group_menu.py:103
+msgid "Batch Lock"
+msgstr "批量锁定"
+
+#: weight_pie.py:180
+msgid "Bones"
+msgstr "骨骼"
+
+#: vertex_group_menu.py:82
+msgid "Copy"
+msgstr "复制"
+
+#: operators/symmetrize_weights.py:37
+msgid "Determine symmetrizing direction by the names of source vertex groups"
+msgstr "根据源顶点组的名称确定对称方向"
+
+#: operators/symmetrize_weights.py:33
+msgid "Direction"
+msgstr "方向"
+
+#: __init__.py:22
+#: weight_pie.py:11
+msgid "Easy Weight"
+msgstr "Easy Weight"
+
+#: weight_pie.py:66
+msgid "Easy Weight Operators"
+msgstr "Easy Weight 操作"
+
+#: rogue_weights.py:38
+msgid "EasyWeight"
+msgstr "EasyWeight"
+
+#: rogue_weights.py:313
+msgid "Enter Weight Paint"
+msgstr "进入权重绘制"
+
+#: rogue_weights.py:313
+msgid "Enter Weight Paint Mode using the Toggle Weight Paint operator"
+msgstr "使用切换权重绘制操作进入权重绘制模式"
+
+#: rogue_weights.py:447
+msgid "Expected Islands"
+msgstr "预期孤岛"
+
+#: prefs.py:114
+msgid "Falloff Shape"
+msgstr "衰减形状"
+
+#: prefs.py:164
+msgid "Falloff Shape:"
+msgstr "衰减形状："
+
+#: weight_pie.py:50
+msgid "Falloff:"
+msgstr "衰减："
+
+#: rogue_weights.py:323
+msgid "Focus View"
+msgstr "聚焦视图"
+
+#: rogue_weights.py:401
+msgid "Focused on the smallest island of weights."
+msgstr "已聚焦到最小的权重孤岛。"
+
+#: prefs.py:104
+msgid "Front Faces Only"
+msgstr "仅正面"
+
+#: operators/symmetrize_weights.py:23
+msgid "Groups"
+msgstr "组"
+
+#: prefs.py:178
+msgid "Hotkeys"
+msgstr "快捷键"
+
+#: force_apply_mirror.py:21
+msgid "If shape keys end in either .L or .R, duplicate them, flip their mask vertex group name, and their driver"
+msgstr "若形态键以 .L 或 .R 结尾，则复制它们，并翻转其遮罩顶点组名称和驱动器"
+
+#: rogue_weights.py:86
+msgid "Islands"
+msgstr "孤岛"
+
+#: operators/symmetrize_weights.py:42
+msgid "Left to Right"
+msgstr "从左到右"
+
+#: prefs.py:34
+msgid "Multi-paint will always be turned on, allowing you to select more than one deforming bone while weight painting"
+msgstr "多绘制将始终开启，允许在权重绘制时选择多个变形骨骼"
+
+#: rogue_weights.py:442
+msgid "Name"
+msgstr "名称"
+
+#: rogue_weights.py:442
+msgid "Name of the vertex group this set of islands is associated with"
+msgstr "此组孤岛关联的顶点组名称"
+
+#: rogue_weights.py:264
+msgid "Name of the vertex group whose intended island count will be set"
+msgstr "要设置预期孤岛数量的顶点组名称"
+
+#: rogue_weights.py:318
+msgid "Name of the vertex group whose smallest island should be focused"
+msgstr "应聚焦其最小孤岛的顶点组名称"
+
+#: rogue_weights.py:447
+msgid "Number of weight islands that have been marked as the expected amount by the user. If the real amount differs from this value, a warning appears"
+msgstr "用户标记为预期数量的权重孤岛数。若实际数量与此值不同，则会出现警告"
+
+#: force_apply_mirror.py:49
+msgid "Only X axis mirroring is supported for now."
+msgstr "目前仅支持 X 轴镜像。"
+
+#: __init__.py:22
+msgid "Operators to make weight painting easier."
+msgstr "让权重绘制更轻松的操作。"
+
+#: weight_pie.py:24
+msgid "Paint Through Mesh"
+msgstr "穿透网格绘制"
+
+#: __init__.py:22
+msgid "Rigging"
+msgstr "绑定"
+
+#: operators/symmetrize_weights.py:43
+msgid "Right to Left"
+msgstr "从右到左"
+
+#: operators/symmetrize_weights.py:28
+msgid "Selected Bones"
+msgstr "选中骨骼"
+
+#: prefs.py:125
+msgid "Set the Blend Mode of the `Paint` brush to `Add`"
+msgstr "将「绘制」笔刷的混合模式设为「相加」"
+
+#: vertex_group_menu.py:65
+msgid "Sort"
+msgstr "排序"
+
+#: force_apply_mirror.py:21
+msgid "Split Shape Keys"
+msgstr "拆分形态键"
+
+#: operators/symmetrize_weights.py:23
+msgid "Subset of vertex groups that should be symmetrized"
+msgstr "需要对称化的顶点组子集"
+
+#: vertex_group_menu.py:40
+msgid "Symmetry"
+msgstr "对称"
+
+#: operators/symmetrize_weights.py:88
+msgid "There is no active vertex group."
+msgstr "没有活动的顶点组。"
+
+#: operators/focus_deforming_bones.py:35
+msgid "Un-hid and selected all deforming bones."
+msgstr "已取消隐藏并选中所有变形骨骼。"
+
+#: prefs.py:150
+msgid "Unified Brush Settings"
+msgstr "统一笔刷设置"
+
+#: prefs.py:119
+msgid "Unified Strength"
+msgstr "统一强度"
+
+#: rogue_weights.py:82
+#: rogue_weights.py:264
+msgid "Vertex Group"
+msgstr "顶点组"
+
+#: rogue_weights.py:290
+msgid "Vertex group is now a single island, changing expected island count no longer necessary."
+msgstr "顶点组现在只有一个孤岛，无需再更改预期孤岛数。"
+
+#: weight_pie.py:160
+msgid "Weight Contours"
+msgstr "权重等值线"
+
+#: rogue_weights.py:39
+msgid "Weight Islands"
+msgstr "权重孤岛"
+
+#: weight_pie.py:133
+msgid "Weight Painting Overlay"
+msgstr "权重绘制叠加层"
+
+#: prefs.py:28
+msgid "Weight auto-normalization will always be turned on, so the sum of all deforming weights on a vertex always add up to 1"
+msgstr "权重自动归一化将始终开启，因此顶点上所有变形权重之和始终为 1"
+
+#: force_apply_mirror.py:20
+msgid "Weighted Normals"
+msgstr "加权法线"
+
+#: vertex_group_menu.py:123
+msgid "Weights"
+msgstr "权重"
+
+#: rogue_weights.py:323
+msgid "Whether to focus the 3D Viewport on the selected vertices"
+msgstr "是否将 3D 视图聚焦到选中的顶点"
+
+#: operators/symmetrize_weights.py:33
+msgid "Whether to symmetrize from left to right or from right to left"
+msgstr "是从左到右还是从右到左进行对称化"
+
+#: prefs.py:66
+msgid "While this is enabled, zero-weights will be removed automatically after every brush stroke"
+msgstr "启用后，每次笔刷描边后会自动移除零权重"
+
+#: weight_pie.py:195
+msgid "Wireframe"
+msgstr "线框"
+
+#: weight_pie.py:40
+msgid "X Symmetry"
+msgstr "X 对称"
+
+#: weight_pie.py:157
+msgid "X-Ray Overlay"
+msgstr "X 光叠加层"
+
+#: weight_pie.py:184
+msgid "Zero Weights Display"
+msgstr "零权重显示"
+
+#: rogue_weights.py:84
+#: rogue_weights.py:158
+msgid "|"
+msgstr "|"
+
+#: vertex_group_menu.py:15
+msgctxt "Operator"
+msgid "All Groups"
+msgstr "所有组"
+
+#: vertex_group_menu.py:18
+msgctxt "Operator"
+msgid "All Unlocked Groups"
+msgstr "所有未锁定的组"
+
+#: vertex_group_menu.py:149
+#: weight_pie.py:118
+msgctxt "Operator"
+msgid "Assign Automatic from Bones"
+msgstr "从骨骼自动分配"
+
+#: vertex_group_menu.py:74
+msgctxt "Operator"
+msgid "By Bone Hierarchy"
+msgstr "按骨骼层级"
+
+#: vertex_group_menu.py:69
+msgctxt "Operator"
+msgid "By Name"
+msgstr "按名称"
+
+#: rogue_weights.py:181
+msgctxt "Operator"
+msgid "Calculate Weight Islands"
+msgstr "计算权重孤岛"
+
+#: vertex_group_menu.py:133
+msgctxt "Operator"
+msgid "Clean 0 Weights from All Groups"
+msgstr "清除所有组中的 0 权重"
+
+#: weight_pie.py:77
+#: operators/delete_empty_deform_groups.py:19
+msgctxt "Operator"
+msgid "Delete Empty Deform Groups"
+msgstr "删除空变形组"
+
+#: operators/delete_unselected_deform_groups.py:14
+msgctxt "Operator"
+msgid "Delete Unselected Deform Groups"
+msgstr "删除未选中的变形组"
+
+#: weight_pie.py:125
+msgctxt "Operator"
+msgid "Delete Unused Groups"
+msgstr "删除未使用的组"
+
+#: operators/delete_unused_groups.py:19
+msgctxt "Operator"
+msgid "Delete Unused Vertex Groups"
+msgstr "删除未使用的顶点组"
+
+#: vertex_group_menu.py:22
+msgctxt "Operator"
+msgid "Empty Deform Groups"
+msgstr "空变形组"
+
+#: operators/focus_deforming_bones.py:14
+msgctxt "Operator"
+msgid "Focus Deforming Bones"
+msgstr "聚焦变形骨骼"
+
+#: rogue_weights.py:310
+msgctxt "Operator"
+msgid "Focus Smallest Island"
+msgstr "聚焦最小孤岛"
+
+#: force_apply_mirror.py:17
+msgctxt "Operator"
+msgid "Force Apply Mirror Modifier"
+msgstr "强制应用镜像修改器"
+
+#: vertex_group_menu.py:116
+msgctxt "Operator"
+msgid "Invert All Locks"
+msgstr "反转所有锁定"
+
+#: vertex_group_menu.py:108
+msgctxt "Operator"
+msgid "Lock All"
+msgstr "全部锁定"
+
+#: vertex_group_menu.py:44
+msgctxt "Operator"
+msgid "Mirror Active Group (Proximity)"
+msgstr "镜像活动组（邻近）"
+
+#: vertex_group_menu.py:49
+msgctxt "Operator"
+msgid "Mirror Active Group (Topology)"
+msgstr "镜像活动组（拓扑）"
+
+#: vertex_group_menu.py:154
+msgctxt "Operator"
+msgid "Normalize Deform"
+msgstr "归一化变形"
+
+#: weight_pie.py:97
+msgctxt "Operator"
+msgid "Normalize Deform Groups"
+msgstr "归一化变形组"
+
+#: weight_pie.py:20
+msgctxt "Operator"
+msgid "Operators"
+msgstr "操作"
+
+#: weight_pie.py:33
+msgctxt "Operator"
+msgid "Overlays"
+msgstr "叠加层"
+
+#: vertex_group_menu.py:141
+msgctxt "Operator"
+msgid "Remove All Verts from Selected Group"
+msgstr "从选中组移除所有顶点"
+
+#: rogue_weights.py:409
+msgctxt "Operator"
+msgid "Remove Island Data"
+msgstr "移除孤岛数据"
+
+#: vertex_group_menu.py:128
+msgctxt "Operator"
+msgid "Remove Selected Verts from All Groups"
+msgstr "从所有组中移除选中顶点"
+
+#: rogue_weights.py:261
+msgctxt "Operator"
+msgid "Set Intended Island Count"
+msgstr "设置预期孤岛数"
+
+#: vertex_group_menu.py:57
+msgctxt "Operator"
+msgid "Symmetrize Groups"
+msgstr "对称化组"
+
+#: weight_pie.py:84
+msgctxt "Operator"
+msgid "Symmetrize Vertex Groups"
+msgstr "对称化顶点组"
+
+#: operators/symmetrize_weights.py:20
+msgctxt "Operator"
+msgid "Symmetrize Vertex Weights"
+msgstr "对称化顶点权重"
+
+#: vertex_group_menu.py:95
+msgctxt "Operator"
+msgid "Synchronize Groups on Selected"
+msgstr "同步选中项上的组"
+
+#: weight_pie.py:107
+msgctxt "Operator"
+msgid "Transfer All Groups to Selected Objects"
+msgstr "将所有组传递到选中物体"
+
+#: vertex_group_menu.py:112
+msgctxt "Operator"
+msgid "Unlock All"
+msgstr "全部解锁"
+
+#: vertex_group_menu.py:32
+msgctxt "Operator"
+msgid "Unselected Deform Groups"
+msgstr "未选中的变形组"
+
+#: vertex_group_menu.py:27
+msgctxt "Operator"
+msgid "Unused Non-Deform Groups"
+msgstr "未使用的非变形组"

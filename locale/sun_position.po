@@ -1,0 +1,443 @@
+# perfect-chinese: 1
+# id: sun_position
+# kind: addon
+# module: bl_ext.blender_org.sun_position
+# name: Sun Position
+# name_zh: 太阳定位
+# translator: KeshiMiao
+# category: Lighting
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: properties.py:327
+msgid "Analemma"
+msgstr "日行迹"
+
+#: ui_sun.py:140
+msgid "Analemmas"
+msgstr "日行迹"
+
+#: properties.py:124
+msgid "Animate the Sun using time and location on Earth"
+msgstr "使用地球上的时间和位置为太阳设置动画"
+
+#: ui_sun.py:186
+msgid "Azimuth"
+msgstr "方位角"
+
+#: properties.py:417
+msgid "Azimuth and Elevation Info"
+msgstr "方位角与高度角信息"
+
+#: properties.py:390
+msgid "Bind Texture to Sun"
+msgstr "将纹理绑定到太阳"
+
+#: properties.py:317
+msgid "Collection"
+msgstr "集合"
+
+#: properties.py:317
+msgid "Collection of objects used to visualize the motion of the Sun"
+msgstr "用于可视化太阳运动的物体集合"
+
+#: properties.py:176
+msgid "Coordinates"
+msgstr "坐标"
+
+#: environment.py:259
+msgid "Could not find 3D View"
+msgstr "找不到 3D 视图"
+
+#: properties.py:248
+msgid "Day"
+msgstr "日"
+
+#: properties.py:270
+msgid "Day of Year"
+msgstr "一年中的第几天"
+
+#: properties.py:130
+msgid "Daylight Savings"
+msgstr "夏令时"
+
+#: properties.py:130
+msgid "Daylight savings time adds 1 hour to the standard time. It is usually used between the spring and fall months"
+msgstr "夏令时在标准时间上增加 1 小时，通常用于春季至秋季月份"
+
+#: operators.py:22
+msgid "Discard the part of the analemmas that is below ground"
+msgstr "丢弃日行迹位于地面以下的部分"
+
+#: operators.py:55
+msgid "Discard the part of the surface that is below ground"
+msgstr "丢弃表面位于地面以下的部分"
+
+#: properties.py:323
+msgid "Display Type"
+msgstr "显示类型"
+
+#: properties.py:406
+msgid "Display overlays in the viewport: the direction of the north, analemmas and the Sun surface"
+msgstr "在视图中显示叠加层：北方方向、日行迹和太阳表面"
+
+#: properties.py:300
+#: properties.py:380
+msgid "Distance"
+msgstr "距离"
+
+#: properties.py:300
+#: properties.py:380
+msgid "Distance to the sun object from the origin"
+msgstr "太阳物体到原点的距离"
+
+#: properties.py:332
+msgid "Diurnal"
+msgstr "日运动"
+
+#: properties.py:167
+msgid "Draw Sun analemmas. These help visualize the motion of the Sun in the sky during the year, for each hour of the day"
+msgstr "绘制太阳日行迹。这些曲线有助于可视化一年中每天各小时太阳在天空中的运动"
+
+#: properties.py:145
+msgid "Draw a line pointing to the north"
+msgstr "绘制一条指向北方的线"
+
+#: properties.py:161
+msgid "Draw the surface that the Sun occupies in the sky"
+msgstr "绘制太阳在天空中占据的表面"
+
+#: properties.py:371
+#: ui_sun.py:185
+msgid "Elevation"
+msgstr "高度角"
+
+#: properties.py:221
+#: properties.py:371
+msgid "Elevation angle of the Sun"
+msgstr "太阳高度角"
+
+#: properties.py:125
+msgid "Environment"
+msgstr "环境"
+
+#: properties.py:353
+msgid "Environment Texture"
+msgstr "环境纹理"
+
+#: environment.py:72
+msgid "Exposure"
+msgstr "曝光"
+
+#: properties.py:390
+msgid "If enabled, the environment texture moves with the Sun"
+msgstr "如果启用，环境纹理会随太阳移动"
+
+#: properties.py:185
+msgid "Latitude"
+msgstr "纬度"
+
+#: properties.py:176
+msgid "Latitude and longitude on Earth. Coordinates can be directly entered from an online map"
+msgstr "地球上的纬度和经度。可直接从在线地图输入坐标"
+
+#: properties.py:185
+msgid "Latitude: (+) Northern (-) Southern"
+msgstr "纬度：(+) 北纬 (-) 南纬"
+
+#: ui_sun.py:158
+msgid "Location"
+msgstr "位置"
+
+#: properties.py:195
+msgid "Longitude"
+msgstr "经度"
+
+#: properties.py:195
+msgid "Longitude: (-) West of Greenwich (+) East of Greenwich"
+msgstr "经度：(-) 格林尼治以西 (+) 格林尼治以东"
+
+#: properties.py:241
+msgid "Month"
+msgstr "月"
+
+#: properties.py:353
+msgid "Name of the environment texture to use. World nodes must be enabled and the color set to an environment texture"
+msgstr "要使用的环境纹理名称。必须启用世界节点，并将颜色设置为环境纹理"
+
+#: properties.py:347
+msgid "Name of the sky texture to use"
+msgstr "要使用的天空纹理名称"
+
+#: ui_sun.py:137
+msgid "North"
+msgstr "北方"
+
+#: properties.py:151
+msgid "North Offset"
+msgstr "北方偏移"
+
+#: operators.py:27
+msgid "Number of points for each analemma"
+msgstr "每条日行迹的点数"
+
+#: environment.py:74
+msgid "Offset"
+msgstr "偏移"
+
+#: operators.py:22
+#: operators.py:55
+msgid "Only Above Ground"
+msgstr "仅地面以上"
+
+#: properties.py:120
+msgid "Operate in Normal mode or Environment Texture mode"
+msgstr "在普通模式或环境纹理模式下操作"
+
+#: ui_sun.py:92
+#: ui_sun.py:131
+msgid "Please activate Use Nodes in the World panel."
+msgstr "请在世界面板中启用“使用节点”。"
+
+#: ui_sun.py:94
+#: ui_sun.py:133
+msgid "Please select World in the World panel."
+msgstr "请在世界面板中选择“世界”。"
+
+#: environment.py:265
+msgid "Please select an Environment Texture node"
+msgstr "请选择一个环境纹理节点"
+
+#: operators.py:27
+msgid "Points"
+msgstr "点数"
+
+#: properties.py:412
+#: ui_sun.py:151
+msgid "Refraction"
+msgstr "折射"
+
+#: properties.py:151
+msgid "Rotate the scene to choose the north direction"
+msgstr "旋转场景以选择北方方向"
+
+#: properties.py:362
+msgid "Rotation"
+msgstr "旋转"
+
+#: properties.py:362
+msgid "Rotation angle of the Sun and environment texture"
+msgstr "太阳和环境纹理的旋转角度"
+
+#: properties.py:231
+msgid "Rotation angle of the Sun from the direction of the north"
+msgstr "太阳相对北方方向的旋转角度"
+
+#: environment.py:73
+msgid "Scale"
+msgstr "缩放"
+
+#: properties.py:167
+msgid "Show Analemmas"
+msgstr "显示日行迹"
+
+#: properties.py:145
+msgid "Show North"
+msgstr "显示北方"
+
+#: properties.py:406
+msgid "Show Overlays"
+msgstr "显示叠加层"
+
+#: properties.py:412
+msgid "Show Sun Refraction choice"
+msgstr "显示太阳折射选项"
+
+#: properties.py:161
+msgid "Show Surface"
+msgstr "显示表面"
+
+#: properties.py:417
+msgid "Show azimuth and solar elevation info"
+msgstr "显示方位角和太阳高度角信息"
+
+#: properties.py:433
+msgid "Show options and info"
+msgstr "显示选项和信息"
+
+#: properties.py:422
+msgid "Show sunrise and sunset labels"
+msgstr "显示日出和日落标签"
+
+#: properties.py:139
+msgid "Show the apparent Sun position due to atmospheric refraction"
+msgstr "显示因大气折射产生的太阳视位置"
+
+#: properties.py:347
+msgid "Sky Texture"
+msgstr "天空纹理"
+
+#: properties.py:231
+msgid "Sun Azimuth"
+msgstr "太阳方位角"
+
+#: properties.py:221
+msgid "Sun Elevation"
+msgstr "太阳高度角"
+
+#: properties.py:124
+#: properties.py:310
+msgid "Sun Object"
+msgstr "太阳物体"
+
+#: __init__.py:95
+#: ui_sun.py:62
+msgid "Sun Position"
+msgstr "太阳位置"
+
+#: ui_sun.py:20
+msgid "Sun Position Presets"
+msgstr "太阳位置预设"
+
+#: __init__.py:95
+msgid "Sun Position Settings"
+msgstr "太阳位置设置"
+
+#: properties.py:310
+msgid "Sun object to use in the scene"
+msgstr "场景中使用的太阳物体"
+
+#: properties.py:205
+msgid "Sunrise Time"
+msgstr "日出时间"
+
+#: properties.py:422
+msgid "Sunrise and Sunset Info"
+msgstr "日出日落信息"
+
+#: ui_sun.py:256
+msgid "Sunrise:"
+msgstr "日出："
+
+#: properties.py:213
+msgid "Sunset Time"
+msgstr "日落时间"
+
+#: ui_sun.py:257
+msgid "Sunset:"
+msgstr "日落："
+
+#: ui_sun.py:145
+msgid "Surface"
+msgstr "表面"
+
+#: properties.py:125
+msgid "Synchronize an environment texture and a sun light"
+msgstr "同步环境纹理和太阳光"
+
+#: properties.py:289
+#: ui_sun.py:198
+msgid "Time"
+msgstr "时间"
+
+#: ui_sun.py:238
+msgid "Time Local:"
+msgstr "本地时间："
+
+#: properties.py:337
+msgid "Time Spread"
+msgstr "时间跨度"
+
+#: properties.py:205
+msgid "Time at which the Sun rises"
+msgstr "太阳升起的时间"
+
+#: properties.py:213
+msgid "Time at which the Sun sets"
+msgstr "太阳落下的时间"
+
+#: properties.py:279
+msgid "Time difference between Coordinated Universal Time and local time"
+msgstr "协调世界时与本地时间的时差"
+
+#: properties.py:289
+msgid "Time of the day"
+msgstr "一天中的时间"
+
+#: properties.py:337
+msgid "Time period around which to spread object collection"
+msgstr "物体集合分布的时间范围"
+
+#: properties.py:332
+msgid "Trajectory of the Sun in the sky during a single day"
+msgstr "一天内太阳在天空中的轨迹"
+
+#: properties.py:327
+msgid "Trajectory of the Sun in the sky during the year, for a given time of the day"
+msgstr "给定一天中的时间，全年太阳在天空中的轨迹"
+
+#: properties.py:323
+msgid "Type of Sun motion to visualize"
+msgstr "要可视化的太阳运动类型"
+
+#: properties.py:279
+msgid "UTC Zone"
+msgstr "UTC 时区"
+
+#: ui_sun.py:239
+msgid "UTC:"
+msgstr "UTC："
+
+#: environment.py:177
+msgid "Unknown projection"
+msgstr "未知投影"
+
+#: properties.py:120
+msgid "Usage Mode"
+msgstr "使用模式"
+
+#: properties.py:264
+msgid "Use Day of Year"
+msgstr "使用一年中的第几天"
+
+#: properties.py:139
+msgid "Use Refraction"
+msgstr "使用折射"
+
+#: properties.py:264
+msgid "Use a single value for the day of year"
+msgstr "使用单个值作为一年中的第几天"
+
+#: properties.py:257
+msgid "Year"
+msgstr "年份"
+
+#: ui_sun.py:29
+msgctxt "Operator"
+msgid "Add Sun Position preset"
+msgstr "添加太阳位置预设"
+
+#: ui_sun.py:142
+#: ui_sun.py:147
+msgctxt "Operator"
+msgid "Create Object"
+msgstr "创建物体"
+
+#: operators.py:19
+msgctxt "Operator"
+msgid "Create Sun Analemmas Object"
+msgstr "创建太阳日行迹物体"
+
+#: operators.py:52
+msgctxt "Operator"
+msgid "Create Sun Surface Object"
+msgstr "创建太阳表面物体"
+
+#: environment.py:70
+msgctxt "Operator"
+msgid "Pick Sun in Viewport"
+msgstr "在视图中拾取太阳"

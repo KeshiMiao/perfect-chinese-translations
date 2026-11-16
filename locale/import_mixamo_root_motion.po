@@ -1,0 +1,264 @@
+# perfect-chinese: 1
+# id: import_mixamo_root_motion
+# kind: addon
+# module: bl_ext.blender_org.import_mixamo_root_motion
+# name: Import Mixamo - Root Motion
+# name_zh: Mixamo根运动导入
+# translator: KeshiMiao
+# category: Import-Export
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: import_mixamo_root_motion.py:468
+msgid "Add Copy Rotation constraint to root bone and disable inherit rotation on hips"
+msgstr "为根骨骼添加复制旋转约束并禁用臀部的继承旋转"
+
+#: import_mixamo_root_motion.py:421
+msgid "Add root bone"
+msgstr "添加根骨骼"
+
+#: import_mixamo_root_motion.py:421
+msgid "Add root bone and set as parent; Root Motion will bake keyframes using this bone. See 'Root' in 'Name Settings' for details"
+msgstr "添加根骨骼并设为父级；根运动将使用该骨骼烘焙关键帧。详见「名称设置」中的「根」"
+
+#: import_mixamo_root_motion.py:415
+msgid "Apply the object's transform properties and fix animation intensity"
+msgstr "应用物体的变换属性并修正动画强度"
+
+#: import_mixamo_root_motion.py:415
+msgid "Apply transform"
+msgstr "应用变换"
+
+#: import_mixamo_root_motion.py:493
+msgid "Armature"
+msgstr "骨架"
+
+#: import_mixamo_root_motion.py:493
+msgid "Armature name"
+msgstr "骨架名称"
+
+#: import_mixamo_root_motion.py:474
+msgid "Bake <Location X> property to root bone"
+msgstr "将 <Location X> 属性烘焙到根骨骼"
+
+#: import_mixamo_root_motion.py:480
+msgid "Bake <Location Y> property to root bone"
+msgstr "将 <Location Y> 属性烘焙到根骨骼"
+
+#: import_mixamo_root_motion.py:486
+msgid "Bake <Location Z> property to root bone"
+msgstr "将 <Location Z> 属性烘焙到根骨骼"
+
+#: __init__.py:1
+msgid "Batch import fbx (Mixamo) and create root motion"
+msgstr "批量导入 fbx（Mixamo）并创建根运动"
+
+#: import_mixamo_root_motion.py:456
+msgid "Bone"
+msgstr "骨骼"
+
+#: import_mixamo_root_motion.py:457
+msgid "Bound box"
+msgstr "边界框"
+
+#: import_mixamo_root_motion.py:451
+msgid "Calculation method for the height axis when baking keyframes; planar motion uses copy method"
+msgstr "烘焙关键帧时高度轴的计算方法；平面运动使用复制方法"
+
+#: import_mixamo_root_motion.py:455
+msgid "Copy"
+msgstr "复制"
+
+#: import_mixamo_root_motion.py:455
+msgid "Copy position keyframes of the main bone in world coordinates. See 'Main bone' in 'Name Settings' for details"
+msgstr "以世界坐标复制主骨骼的位置关键帧。详见「名称设置」中的「主骨骼」"
+
+#: import_mixamo_root_motion.py:457
+msgid "Get the height of the bottom of the bounding box"
+msgstr "获取边界框底部的高度"
+
+#: import_mixamo_root_motion.py:456
+msgid "Get the height of the lowest bone from six key bones as height axis data. See 'Name Settings' for details"
+msgstr "从六个关键骨骼中获取最低骨骼的高度作为高度轴数据。详见「名称设置」"
+
+#: import_mixamo_root_motion.py:517
+msgid "Head top"
+msgstr "头顶"
+
+#: import_mixamo_root_motion.py:517
+msgid "Head top bone name"
+msgstr "头顶骨骼名称"
+
+#: import_mixamo_root_motion.py:591
+msgid "Import Settings"
+msgstr "导入设置"
+
+#: __init__.py:1
+msgid "Import-Export"
+msgstr "导入导出"
+
+#: import_mixamo_root_motion.py:535
+msgid "Left foot"
+msgstr "左脚"
+
+#: import_mixamo_root_motion.py:535
+msgid "Left foot bone name"
+msgstr "左脚骨骼名称"
+
+#: import_mixamo_root_motion.py:523
+msgid "Left hand"
+msgstr "左手"
+
+#: import_mixamo_root_motion.py:523
+msgid "Left hand bone name"
+msgstr "左手骨骼名称"
+
+#: import_mixamo_root_motion.py:547
+msgid "Left toe"
+msgstr "左脚趾"
+
+#: import_mixamo_root_motion.py:547
+msgid "Left toe bone name"
+msgstr "左脚趾骨骼名称"
+
+#: import_mixamo_root_motion.py:511
+msgid "Main bone"
+msgstr "主骨骼"
+
+#: import_mixamo_root_motion.py:451
+msgid "Method"
+msgstr "方法"
+
+#: __init__.py:1
+msgid "Mixamo Fbx · Root Motion"
+msgstr "Mixamo Fbx · 根运动"
+
+#: import_mixamo_root_motion.py:643
+msgid "Name Settings"
+msgstr "名称设置"
+
+#: import_mixamo_root_motion.py:511
+msgid "Original root bone name, which contains animation data"
+msgstr "原始根骨骼名称，包含动画数据"
+
+#: import_mixamo_root_motion.py:505
+msgid "Prefix"
+msgstr "前缀"
+
+#: import_mixamo_root_motion.py:505
+msgid "Prefix name"
+msgstr "前缀名称"
+
+#: import_mixamo_root_motion.py:445
+msgid "Remove armature"
+msgstr "移除骨架"
+
+#: import_mixamo_root_motion.py:433
+msgid "Remove prefix"
+msgstr "移除前缀"
+
+#: import_mixamo_root_motion.py:445
+msgid "Remove redundant armature objects (usually named <Armature.00*>). See 'Armature' in 'Name Settings' for details"
+msgstr "移除多余的骨架物体（通常命名为 <Armature.00*>）。详见「名称设置」中的「骨架」"
+
+#: import_mixamo_root_motion.py:427
+msgid "Rename action"
+msgstr "重命名动作"
+
+#: import_mixamo_root_motion.py:427
+msgid "Rename actions using the file name"
+msgstr "使用文件名重命名动作"
+
+#: import_mixamo_root_motion.py:433
+msgid "Rename bones by removing the <mixamorig:> prefix from all bones. See 'Prefix' in 'Name Settings' for details"
+msgstr "移除所有骨骼的 <mixamorig:> 前缀来重命名骨骼。详见「名称设置」中的「前缀」"
+
+#: import_mixamo_root_motion.py:439
+msgid "Rename bones by replacing 'Left/Right' in bone names with '.L/.R' suffixes and converting other letters to lowercase"
+msgstr "将骨骼名称中的「Left/Right」替换为 .L/.R 后缀，并将其他字母转换为小写来重命名骨骼"
+
+#: import_mixamo_root_motion.py:541
+msgid "Right foot"
+msgstr "右脚"
+
+#: import_mixamo_root_motion.py:541
+msgid "Right foot bone name"
+msgstr "右脚骨骼名称"
+
+#: import_mixamo_root_motion.py:529
+msgid "Right hand"
+msgstr "右手"
+
+#: import_mixamo_root_motion.py:529
+msgid "Right hand bone name"
+msgstr "右手骨骼名称"
+
+#: import_mixamo_root_motion.py:553
+msgid "Right toe"
+msgstr "右脚趾"
+
+#: import_mixamo_root_motion.py:553
+msgid "Right toe bone name"
+msgstr "右脚趾骨骼名称"
+
+#: import_mixamo_root_motion.py:499
+msgid "Root"
+msgstr "根"
+
+#: import_mixamo_root_motion.py:615
+msgid "Root Motion"
+msgstr "根运动"
+
+#: import_mixamo_root_motion.py:462
+msgid "Root bone initially positioned at the feet; used for cases where the armature is not at world center in initial state"
+msgstr "根骨骼初始位于脚部；用于骨架初始状态不在世界中心的情况"
+
+#: import_mixamo_root_motion.py:499
+msgid "Root name"
+msgstr "根名称"
+
+#: import_mixamo_root_motion.py:462
+msgid "Root starts from feet"
+msgstr "根从脚部开始"
+
+#: import_mixamo_root_motion.py:468
+msgid "Rotation"
+msgstr "旋转"
+
+#: import_mixamo_root_motion.py:559
+msgid "Spine"
+msgstr "脊柱"
+
+#: import_mixamo_root_motion.py:559
+msgid "Spine bone name"
+msgstr "脊柱骨骼名称"
+
+#: import_mixamo_root_motion.py:439
+msgid "Suffix format"
+msgstr "后缀格式"
+
+#: import_mixamo_root_motion.py:474
+msgid "X"
+msgstr "X"
+
+#: import_mixamo_root_motion.py:480
+msgid "Y"
+msgstr "Y"
+
+#: import_mixamo_root_motion.py:486
+msgid "Z"
+msgstr "Z"
+
+#: import_mixamo_root_motion.py:393
+msgctxt "Operator"
+msgid "Import Mixamo *.Fbx"
+msgstr "导入 Mixamo *.Fbx"
+
+#: import_mixamo_root_motion.py:674
+msgctxt "Operator"
+msgid "Mixamo fbx(folder/*.fbx)"
+msgstr "Mixamo fbx(文件夹/*.fbx)"

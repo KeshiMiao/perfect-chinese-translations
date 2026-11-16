@@ -1,0 +1,531 @@
+# perfect-chinese: 1
+# id: print3d_toolbox
+# kind: addon
+# module: bl_ext.blender_org.print3d_toolbox
+# name: 3D Print Toolbox
+# name_zh: 三维打印工具箱
+# translator: KeshiMiao
+# category: Mesh
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: ui.py:50
+msgid "3D Print"
+msgstr "3D 打印"
+
+#: ui.py:26
+msgid "3D Print Toolbox"
+msgstr "3D 打印工具箱"
+
+#: preferences.py:99
+msgid "ASCII"
+msgstr "ASCII"
+
+#: ui.py:68
+msgid "Analyze"
+msgstr "分析"
+
+#: preferences.py:51
+#: preferences.py:59
+msgid "Angle"
+msgstr "角度"
+
+#: operators/analyze.py:80
+#: operators/analyze.py:118
+msgid "At least one mesh object must be selected"
+msgstr "必须至少选择一个网格物体"
+
+#: preferences.py:93
+msgid "Centimeters"
+msgstr "厘米"
+
+#: ui.py:107
+msgid "Checks"
+msgstr "检查"
+
+#: ui.py:136
+msgid "Clean Up"
+msgstr "清理"
+
+#: preferences.py:112
+#: ui.py:199
+msgid "Colors"
+msgstr "颜色"
+
+#: preferences.py:103
+msgid "Copy Textures"
+msgstr "复制纹理"
+
+#: preferences.py:103
+msgid "Copy textures on export to the output path"
+msgstr "导出时将纹理复制到输出路径"
+
+#: operators/edit.py:181
+msgid "Create hollowed out copy of the object"
+msgstr "创建物体的空心副本"
+
+#: operators/edit.py:47
+#: operators/edit.py:55
+msgid "Cutting plane position"
+msgstr "切割平面位置"
+
+#: ui.py:145
+msgid "Edit"
+msgstr "编辑"
+
+#: ui.py:167
+msgid "Export"
+msgstr "导出"
+
+#: preferences.py:71
+msgid "Export Directory"
+msgstr "导出目录"
+
+#: preferences.py:88
+msgid "Export at specified unit scale (most slicers assume millimeters)"
+msgstr "以指定单位缩放导出（多数切片软件假定为毫米）"
+
+#: operators/export.py:78
+msgid "Export failed"
+msgstr "导出失败"
+
+#: preferences.py:99
+msgid "Export file in ASCII format"
+msgstr "以 ASCII 格式导出文件"
+
+#: preferences.py:108
+msgid "Export specific vertex normals if available, export calculated normals otherwise"
+msgstr "若存在则导出特定顶点法线，否则导出计算的法线"
+
+#: preferences.py:112
+msgid "Export vertex color attributes"
+msgstr "导出顶点颜色属性"
+
+#: operators/edit.py:47
+#: operators/edit.py:55
+msgid "Factor"
+msgstr "系数"
+
+#: preferences.py:78
+msgid "File format"
+msgstr "文件格式"
+
+#: operators/edit.py:34
+#: operators/edit.py:38
+msgid "Flip"
+msgstr "翻转"
+
+#: operators/edit.py:34
+#: operators/edit.py:38
+msgid "Flips the direction of the slice"
+msgstr "翻转切片方向"
+
+#: preferences.py:78
+msgid "Format"
+msgstr "格式"
+
+#: operators/edit.py:181
+msgid "Hollow Duplicate"
+msgstr "空心副本"
+
+#: operators/edit.py:160
+msgid "Inside"
+msgstr "内部"
+
+#: operators/edit.py:471
+msgid "Length"
+msgstr "长度"
+
+#: preferences.py:25
+#: preferences.py:34
+msgid "Limit"
+msgstr "限制"
+
+#: operators/edit.py:239
+#: operators/edit.py:277
+msgid "Make sure target mesh has closed surface and offset value is less than half of target thickness"
+msgstr "确保目标网格为封闭表面，且偏移值小于目标厚度的一半"
+
+#: operators/cleanup.py:17
+msgid "Merge Distance"
+msgstr "合并距离"
+
+#: preferences.py:95
+msgid "Micrometers"
+msgstr "微米"
+
+#: preferences.py:94
+msgid "Millimeters"
+msgstr "毫米"
+
+#: preferences.py:42
+msgid "Minimum Thickness"
+msgstr "最小厚度"
+
+#: operators/cleanup.py:17
+msgid "Minimum distance between elements to merge"
+msgstr "要合并的元素之间的最小距离"
+
+#: operators/analyze.py:142
+msgid "Multiple selected objects. Only the active one will be evaluated"
+msgstr "选中了多个物体。仅会评估活动物体"
+
+#: preferences.py:92
+msgid "None"
+msgstr "无"
+
+#: preferences.py:108
+#: ui.py:198
+msgid "Normals"
+msgstr "法线"
+
+#: operators/cleanup.py:25
+msgid "Number of sides in hole required to fill (zero fills all holes)"
+msgstr "填充孔洞所需的边数（为零则填充所有孔洞）"
+
+#: preferences.py:82
+msgid "OBJ"
+msgstr "OBJ"
+
+#: operators/edit.py:509
+msgid "Object has zero bounds"
+msgstr "物体的边界为零"
+
+#: operators/edit.py:450
+msgid "Object has zero volume"
+msgstr "物体的体积为零"
+
+#: operators/edit.py:165
+msgid "Offset"
+msgstr "偏移"
+
+#: operators/edit.py:156
+msgid "Offset Direction"
+msgstr "偏移方向"
+
+#: operators/edit.py:185
+msgid "Offset Surface Only"
+msgstr "仅偏移表面"
+
+#: operators/edit.py:156
+msgid "Offset direction relative to the object surface"
+msgstr "相对于物体表面的偏移方向"
+
+#: ui.py:185
+msgid "Options"
+msgstr "选项"
+
+#: operators/edit.py:161
+msgid "Outside"
+msgstr "外部"
+
+#: preferences.py:83
+msgid "PLY"
+msgstr "PLY"
+
+#: operators/edit.py:185
+msgid "Remove original and keep offset surface"
+msgstr "移除原始物体并保留偏移表面"
+
+#: operators/analyze.py:444
+msgid "Report is out of date, re-run check"
+msgstr "报告已过期，请重新运行检查"
+
+#: ui.py:78
+msgid "Result"
+msgstr "结果"
+
+#: preferences.py:84
+msgid "STL"
+msgstr "STL"
+
+#: ui.py:160
+msgid "Scale To"
+msgstr "缩放至"
+
+#: operators/cleanup.py:25
+msgid "Sides"
+msgstr "边数"
+
+#: operators/edit.py:173
+msgid "Size of the voxel used for volume evaluation. Lower values preserve finer details"
+msgstr "用于体积评估的体素大小。数值越小保留越精细的细节"
+
+#: operators/edit.py:375
+msgid "Skipping some objects. No faces selected. See terminal"
+msgstr "跳过部分物体。未选中面。请查看终端"
+
+#: operators/edit.py:21
+#: operators/edit.py:25
+msgid "Slice on axis"
+msgstr "沿轴切片"
+
+#: ui.py:101
+msgid "Statistics"
+msgstr "统计信息"
+
+#: operators/edit.py:165
+msgid "Surface offset in relation to original mesh"
+msgstr "相对于原始网格的表面偏移"
+
+#: operators/edit.py:315
+msgid "Take face area into account when calculating rotation"
+msgstr "计算旋转时考虑面面积"
+
+#: preferences.py:107
+msgid "UVs"
+msgstr "UV"
+
+#: preferences.py:88
+msgid "Units"
+msgstr "单位"
+
+#: operators/edit.py:410
+msgid "Volume"
+msgstr "体积"
+
+#: operators/edit.py:173
+msgid "Voxel Size"
+msgstr "体素大小"
+
+#: operators/edit.py:315
+msgid "Weight by Face Area"
+msgstr "按面面积加权"
+
+#: operators/edit.py:21
+msgid "X"
+msgstr "X"
+
+#: operators/edit.py:25
+msgid "Y"
+msgstr "Y"
+
+#: operators/edit.py:29
+msgid "Z"
+msgstr "Z"
+
+#: operators/edit.py:311
+msgctxt "Operator"
+msgid "Align XY"
+msgstr "对齐 XY"
+
+#: ui.py:31
+msgctxt "Operator"
+msgid "Analyze"
+msgstr "分析"
+
+#: ui.py:105
+msgctxt "Operator"
+msgid "Area"
+msgstr "面积"
+
+#: operators/edit.py:17
+msgctxt "Operator"
+msgid "Bisect"
+msgstr "切分"
+
+#: ui.py:163
+msgctxt "Operator"
+msgid "Bounds"
+msgstr "边界"
+
+#: operators/analyze.py:88
+msgctxt "Operator"
+msgid "Calculate Area"
+msgstr "计算面积"
+
+#: operators/analyze.py:50
+msgctxt "Operator"
+msgid "Calculate Volume"
+msgstr "计算体积"
+
+#: operators/analyze.py:389
+msgctxt "Operator"
+msgid "Check All"
+msgstr "检查全部"
+
+#: operators/analyze.py:328
+msgctxt "Operator"
+msgid "Check for edges sharper than a specified angle"
+msgstr "检查比指定角度更尖锐的边"
+
+#: operators/analyze.py:354
+msgctxt "Operator"
+msgid "Check for faces that overhang past a specified angle"
+msgstr "检查悬垂超过指定角度的面"
+
+#: operators/analyze.py:148
+msgctxt "Operator"
+msgid "Check for geometry is solid (has valid inside/outside) and correct normals"
+msgstr "检查几何体是否为实体（内外有效）且法线正确"
+
+#: operators/analyze.py:285
+msgctxt "Operator"
+msgid "Check for non-flat faces"
+msgstr "检查非平面面"
+
+#: operators/analyze.py:173
+msgctxt "Operator"
+msgid "Check for self intersections"
+msgstr "检查自相交"
+
+#: operators/analyze.py:310
+msgctxt "Operator"
+msgid "Check for wall thickness below specified value"
+msgstr "检查低于指定值的壁厚"
+
+#: operators/analyze.py:259
+msgctxt "Operator"
+msgid "Check for zero area faces and zero length edges"
+msgstr "检查零面积面和零长度边"
+
+#: operators/cleanup.py:14
+msgctxt "Operator"
+msgid "Cleanup loose geometry, interior faces, non-manifold vertices and inverted normals"
+msgstr "清理松散几何体、内部面、非流形顶点和反转法线"
+
+#: operators/analyze.py:451
+msgctxt "Operator"
+msgid "Clear Report"
+msgstr "清除报告"
+
+#: operators/analyze.py:452
+msgctxt "Operator"
+msgid "Clear report"
+msgstr "清除报告"
+
+#: operators/analyze.py:189
+msgctxt "Operator"
+msgid "Count mesh islands"
+msgstr "计算网格孤岛数量"
+
+#: operators/edit.py:153
+msgctxt "Operator"
+msgid "Create offset surface"
+msgstr "创建偏移表面"
+
+#: operators/edit.py:18
+msgctxt "Operator"
+msgid "Cut geometry along a plane"
+msgstr "沿平面切割几何体"
+
+#: operators/analyze.py:258
+msgctxt "Operator"
+msgid "Degenerate"
+msgstr "退化"
+
+#: ui.py:42
+#: operators/export.py:16
+msgctxt "Operator"
+msgid "Export"
+msgstr "导出"
+
+#: operators/export.py:17
+msgctxt "Operator"
+msgid "Export selected objects using settings below"
+msgstr "使用下方设置导出所选物体"
+
+#: operators/edit.py:152
+msgctxt "Operator"
+msgid "Hollow"
+msgstr "抽壳"
+
+#: operators/analyze.py:172
+msgctxt "Operator"
+msgid "Intersections"
+msgstr "相交"
+
+#: operators/cleanup.py:13
+msgctxt "Operator"
+msgid "Make Manifold"
+msgstr "生成流形"
+
+#: operators/analyze.py:284
+msgctxt "Operator"
+msgid "Non-Planar"
+msgstr "非平面"
+
+#: operators/analyze.py:353
+msgctxt "Operator"
+msgid "Overhang"
+msgstr "悬垂"
+
+#: operators/analyze.py:89
+msgctxt "Operator"
+msgid "Report the surface area of selected objects"
+msgstr "报告所选物体的表面积"
+
+#: operators/analyze.py:51
+msgctxt "Operator"
+msgid "Report the volume of selected objects"
+msgstr "报告所选物体的体积"
+
+#: operators/edit.py:312
+msgctxt "Operator"
+msgid "Rotate object so the selected faces lie, on average, parallel to the XY plane"
+msgstr "旋转物体，使所选面平均平行于 XY 平面"
+
+#: operators/analyze.py:390
+msgctxt "Operator"
+msgid "Run all checks"
+msgstr "运行所有检查"
+
+#: operators/edit.py:404
+msgctxt "Operator"
+msgid "Scale edit-mesh or selected-objects to a set volume"
+msgstr "将编辑网格或所选物体缩放到指定体积"
+
+#: operators/edit.py:462
+msgctxt "Operator"
+msgid "Scale edit-mesh or selected-objects to fit within a maximum length"
+msgstr "将编辑网格或所选物体缩放到最大长度范围内"
+
+#: operators/edit.py:461
+msgctxt "Operator"
+msgid "Scale to Bounds"
+msgstr "缩放到边界"
+
+#: operators/edit.py:403
+msgctxt "Operator"
+msgid "Scale to Volume"
+msgstr "缩放到体积"
+
+#: operators/analyze.py:420
+msgctxt "Operator"
+msgid "Select"
+msgstr "选择"
+
+#: operators/analyze.py:421
+msgctxt "Operator"
+msgid "Select the data associated with this report"
+msgstr "选择与此报告关联的数据"
+
+#: operators/analyze.py:327
+msgctxt "Operator"
+msgid "Sharp"
+msgstr "尖锐"
+
+#: operators/analyze.py:188
+msgctxt "Operator"
+msgid "Shells"
+msgstr "壳体"
+
+#: operators/analyze.py:147
+msgctxt "Operator"
+msgid "Solid"
+msgstr "实体"
+
+#: operators/analyze.py:309
+msgctxt "Operator"
+msgid "Thickness"
+msgstr "厚度"
+
+#: ui.py:104
+#: ui.py:162
+msgctxt "Operator"
+msgid "Volume"
+msgstr "体积"

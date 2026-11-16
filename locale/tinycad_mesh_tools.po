@@ -1,0 +1,93 @@
+# perfect-chinese: 1
+# id: tinycad_mesh_tools
+# kind: addon
+# module: bl_ext.blender_org.tinycad_mesh_tools
+# name: tinyCAD Mesh tools
+# name_zh: 微型网格工具
+# translator: KeshiMiao
+# category: Mesh
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: CFG.py:42
+msgid "BIX |  Bisector of 2 planar edges"
+msgstr "BIX | 两条共面边的角平分线"
+
+#: CFG.py:43
+msgid "CCEN | Resurrect circle center"
+msgstr "CCEN | 恢复圆心"
+
+#: CFG.py:44
+msgid "E2F | Extend Edge to Face"
+msgstr "E2F | 延伸边到面"
+
+#: E2F.py:23
+msgid "No intersection found, see the info panel for details"
+msgstr "未找到交点，详情请查看信息面板"
+
+#: CFG.py:25
+msgid "TinyCAD"
+msgstr "TinyCAD"
+
+#: __init__.py:47
+msgid "TinyCAD props"
+msgstr "TinyCAD 属性"
+
+#: CFG.py:40
+msgid "V2X | Vertex at intersection"
+msgstr "V2X | 在交点处创建顶点"
+
+#: CFG.py:39
+msgid "VTX | AUTO"
+msgstr "VTX | 自动"
+
+#: CFG.py:41
+msgid "XALL | Intersect selected edges"
+msgstr "XALL | 相交选中边"
+
+#: CCEN.py:131
+msgid "num verts"
+msgstr "顶点数"
+
+#: E2F.py:12
+msgid "select 1 face and 1 detached edge"
+msgstr "选择 1 个面和 1 条分离的边"
+
+#: BIX.py:68
+msgctxt "Operator"
+msgid "BIX line to bisector"
+msgstr "BIX 线到角平分线"
+
+#: CCEN.py:123
+msgctxt "Operator"
+msgid "CCEN circle center from selected"
+msgstr "CCEN 由选中项恢复圆心"
+
+#: CCEN.py:111
+msgctxt "Operator"
+msgid "CCEN circle reset"
+msgstr "CCEN 重置圆"
+
+#: E2F.py:76
+msgctxt "Operator"
+msgid "E2F edge to face"
+msgstr "E2F 边到面"
+
+#: V2X.py:36
+msgctxt "Operator"
+msgid "V2X vertex to intersection"
+msgstr "V2X 顶点到交点"
+
+#: VTX.py:117
+msgctxt "Operator"
+msgid "VTX autoVTX"
+msgstr "VTX 自动 VTX"
+
+#: XALL.py:132
+msgctxt "Operator"
+msgid "XALL intersect all edges"
+msgstr "XALL 相交全部边"

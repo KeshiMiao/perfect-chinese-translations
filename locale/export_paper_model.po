@@ -1,0 +1,981 @@
+# perfect-chinese: 1
+# id: export_paper_model
+# kind: addon
+# module: bl_ext.blender_org.export_paper_model
+# name: Export Paper Model
+# name_zh: 纸模导出
+# translator: KeshiMiao
+# category: Import-Export
+# supported_versions: >=5.0.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: unfold_operator.py:650
+msgid "1 island:"
+msgstr "1 个孤岛："
+
+#: __init__.py:51
+msgid "3D View Panel Category:"
+msgstr "3D 视图面板类别："
+
+#: unfold_operator.py:18
+msgid "A3"
+msgstr "A3"
+
+#: unfold_operator.py:17
+msgid "A4"
+msgstr "A4"
+
+#: unfold_operator.py:726
+msgid "Abbreviation"
+msgstr "缩写"
+
+#: unfold_operator.py:541
+msgid "Add"
+msgstr "添加"
+
+#: unfold_operator.py:179
+#: unfold_operator.py:216
+msgid "Add another line below every line to improve contrast"
+msgstr "在每行下方再添加一条线以增强对比度"
+
+#: unfold_operator.py:541
+msgid "Add to current selection"
+msgstr "添加到当前选择"
+
+#: unfold_operator.py:308
+msgid "Adobe Portable Document Format 1.4"
+msgstr "Adobe 便携式文档格式 1.4"
+
+#: unfold_operator.py:273
+msgid "All layers exported on top of each other"
+msgstr "所有图层叠放在一起导出"
+
+#: unfold_operator.py:266
+msgid "Ambient Occlusion"
+msgstr "环境光遮蔽"
+
+#: unfold_operator.py:416
+msgid "An island is roughly {:.1f}x bigger than page"
+msgstr "孤岛比页面大约 {:.1f} 倍"
+
+#: unfold_operator.py:732
+msgid "Auto Abbreviation"
+msgstr "自动缩写"
+
+#: unfold_operator.py:729
+msgid "Auto Label"
+msgstr "自动标签"
+
+#: unfold_operator.py:753
+msgid "Automatic Scale"
+msgstr "自动缩放"
+
+#: unfold_operator.py:317
+msgid "Bake images separately for each island and embed them into the SVG"
+msgstr "为每个孤岛单独烘焙图像并嵌入 SVG"
+
+#: unfold_operator.py:316
+msgid "Bake images separately for each island and save them in a directory"
+msgstr "为每个孤岛单独烘焙图像并保存到目录"
+
+#: unfold_operator.py:315
+msgid "Bake one image per page of output and save it separately"
+msgstr "为输出的每一页烘焙一张图像并单独保存"
+
+#: unfold_operator.py:173
+msgid "Base Lines Thickness"
+msgstr "基础线宽"
+
+#: unfold_operator.py:173
+msgid "Base thickness of net lines, each actual value is a multiple of this length"
+msgstr "折线的基础粗细，每个实际值都是该长度的倍数"
+
+#: unfold_operator.py:322
+msgid "Bounding Box"
+msgstr "边界框"
+
+#: unfold_operator.py:322
+msgid "Built-in Blender method with bounding boxes"
+msgstr "使用边界框的内置 Blender 方法"
+
+#: __init__.py:44
+msgid "Category in 3D View Toolbox where the Export panel is displayed"
+msgstr "3D 视图工具箱中显示导出面板的类别"
+
+#: __init__.py:41
+msgid "Category in 3D View Toolbox where the Unfold panel is displayed"
+msgstr "3D 视图工具箱中显示展开面板的类别"
+
+#: unfold_operator.py:229
+msgid "Color of all text used in the document"
+msgstr "文档中所有文字的颜色"
+
+#: unfold_operator.py:207
+msgid "Color of lines marked as Freestyle Edge"
+msgstr "标记为 Freestyle 边线的颜色"
+
+#: unfold_operator.py:198
+msgid "Color of lines to be folded to a concave angle"
+msgstr "折叠成凹角的线条颜色"
+
+#: unfold_operator.py:189
+msgid "Color of lines to be folded to a convex angle"
+msgstr "折叠成凸角的线条颜色"
+
+#: unfold_operator.py:167
+msgid "Color of net outline"
+msgstr "折线轮廓颜色"
+
+#: unfold_operator.py:219
+msgid "Color of the highlight for inner lines"
+msgstr "内线高亮颜色"
+
+#: unfold_operator.py:182
+msgid "Color of the highlight for outer lines"
+msgstr "外线高亮颜色"
+
+#: unfold_operator.py:472
+msgid "Colors and Style"
+msgstr "颜色与样式"
+
+#: unfold_operator.py:293
+msgid "Compensate for thick material before gluing tabs"
+msgstr "在粘贴粘合翼片前补偿厚材料"
+
+#: unfold_operator.py:65
+msgid "Concave"
+msgstr "凹"
+
+#: unfold_operator.py:201
+msgid "Concave Lines Drawing Style"
+msgstr "凹线绘制样式"
+
+#: unfold_operator.py:204
+msgid "Concave Lines Thickness"
+msgstr "凹线粗细"
+
+#: unfold_operator.py:64
+msgid "Convex"
+msgstr "凸"
+
+#: unfold_operator.py:192
+msgid "Convex Lines Drawing Style"
+msgstr "凸线绘制样式"
+
+#: unfold_operator.py:195
+msgid "Convex Lines Thickness"
+msgstr "凸线粗细"
+
+#: unfold_operator.py:48
+#: unfold_operator.py:328
+msgid "Create UVMap"
+msgstr "创建 UV 贴图"
+
+#: unfold_operator.py:48
+#: unfold_operator.py:328
+msgid "Create a new UV Map showing the islands and page layout"
+msgstr "创建新的 UV 贴图以显示孤岛和页面布局"
+
+#: unfold_operator.py:281
+msgid "Create angled tabs (useful for paper)"
+msgstr "创建带角度的翼片（适合纸张）"
+
+#: unfold_operator.py:277
+msgid "Create gluing tabs around the net"
+msgstr "在折线周围创建粘合翼片"
+
+#: unfold_operator.py:323
+msgid "Cross-correlation of rasterized shapes"
+msgstr "光栅化形状的互相关"
+
+#: unfold_operator.py:458
+msgid "Cycles will be used for texture baking."
+msgstr "将使用 Cycles 进行纹理烘焙。"
+
+#: unfold_operator.py:165
+msgid "Dash-dotted (-- .)"
+msgstr "点划线（-- .）"
+
+#: unfold_operator.py:475
+msgid "Default line width"
+msgstr "默认线宽"
+
+#: unfold_operator.py:517
+msgid "Development"
+msgstr "开发"
+
+#: unfold_operator.py:247
+msgid "Directory"
+msgstr "目录"
+
+#: unfold_operator.py:247
+msgid "Directory of the file"
+msgstr "文件所在目录"
+
+#: unfold_operator.py:258
+msgid "Distance from page borders to the printable area"
+msgstr "页面边框到可打印区域的距离"
+
+#: unfold_operator.py:325
+#: unfold_operator.py:756
+msgid "Divisor of all dimensions when exporting"
+msgstr "导出时所有尺寸的除数"
+
+#: unfold_operator.py:741
+msgid "Do not create islands larger than given dimensions"
+msgstr "不创建大于给定尺寸的孤岛"
+
+#: unfold_operator.py:280
+msgid "Do not create tabs"
+msgstr "不创建翼片"
+
+#: unfold_operator.py:286
+msgid "Do not enumerate edges"
+msgstr "不编号边"
+
+#: unfold_operator.py:305
+msgid "Document Format"
+msgstr "文档格式"
+
+#: unfold_operator.py:431
+msgid "Document Settings"
+msgstr "文档设置"
+
+#: unfold_operator.py:162
+msgid "Dots (. . .)"
+msgstr "点线（. . .）"
+
+#: unfold_operator.py:162
+msgid "Dotted line"
+msgstr "点线"
+
+#: unfold_operator.py:288
+msgid "Draw enumeration outside of the net"
+msgstr "在折线外侧绘制编号"
+
+#: unfold_operator.py:287
+msgid "Draw enumeration within the net"
+msgstr "在展开图中绘制编号"
+
+#: unfold_operator.py:210
+msgid "Drawing style of Freestyle Edges"
+msgstr "Freestyle 边的绘制样式"
+
+#: unfold_operator.py:201
+msgid "Drawing style of lines to be folded to a concave angle"
+msgstr "折叠为凹角的线条的绘制样式"
+
+#: unfold_operator.py:192
+msgid "Drawing style of lines to be folded to a convex angle"
+msgstr "折叠为凸角的线条的绘制样式"
+
+#: unfold_operator.py:170
+msgid "Drawing style of net outline"
+msgstr "展开图轮廓的绘制样式"
+
+#: unfold_operator.py:61
+msgid "Edge Cutting Factors:"
+msgstr "边缘切割系数："
+
+#: unfold_operator.py:66
+msgid "Edge Length"
+msgstr "边长"
+
+#: unfold_operator.py:317
+msgid "Embedded"
+msgstr "嵌入式"
+
+#: unfold_operator.py:283
+msgid "Enumerate edges to make it clear which edges should be sticked together"
+msgstr "为边编号，以明确哪些边应粘合在一起"
+
+#: unfold_operator.py:610
+msgid "Export"
+msgstr "导出"
+
+#: __init__.py:44
+msgid "Export Panel Category"
+msgstr "导出面板类别"
+
+#: __init__.py:53
+msgid "Export Panel:"
+msgstr "导出面板："
+
+#: __init__.py:4
+msgid "Export Paper Model"
+msgstr "导出纸模型"
+
+#: __init__.py:4
+msgid "Export printable net of the active mesh"
+msgstr "导出活动网格的可打印展开图"
+
+#: unfold_operator.py:264
+msgid "Export the net only"
+msgstr "仅导出展开图"
+
+#: unfold_operator.py:63
+msgid "Face Angle:"
+msgstr "面角度："
+
+#: unfold_operator.py:717
+msgid "Face ID"
+msgstr "面 ID"
+
+#: unfold_operator.py:721
+msgid "Faces"
+msgstr "面"
+
+#: unfold_operator.py:721
+msgid "Faces belonging to this island"
+msgstr "属于此孤岛的面"
+
+#: unfold_operator.py:245
+msgid "File Name"
+msgstr "文件名"
+
+#: unfold_operator.py:243
+msgid "File Path"
+msgstr "文件路径"
+
+#: unfold_operator.py:305
+msgid "File format of the exported net"
+msgstr "导出展开图的文件格式"
+
+#: unfold_operator.py:226
+msgid "Fill color of sticking tabs"
+msgstr "粘贴翼片的填充颜色"
+
+#: unfold_operator.py:296
+msgid "Folds with angle below this limit will not be drawn"
+msgstr "角度低于此限制的折痕将不会被绘制"
+
+#: unfold_operator.py:434
+#: unfold_operator.py:520
+msgid "Format"
+msgstr "格式"
+
+#: unfold_operator.py:207
+msgid "Freestyle Edges"
+msgstr "Freestyle 边"
+
+#: unfold_operator.py:210
+msgid "Freestyle Edges Drawing Style"
+msgstr "Freestyle 边绘制样式"
+
+#: unfold_operator.py:213
+msgid "Freestyle Edges Thickness"
+msgstr "Freestyle 边粗细"
+
+#: unfold_operator.py:265
+msgid "From Materials"
+msgstr "来自材质"
+
+#: unfold_operator.py:267
+msgid "Full Render"
+msgstr "完整渲染"
+
+#: unfold_operator.py:732
+msgid "Generate the abbreviation automatically"
+msgstr "自动生成缩写"
+
+#: unfold_operator.py:729
+msgid "Generate the label automatically"
+msgstr "自动生成标签"
+
+#: unfold_operator.py:750
+msgid "Height"
+msgstr "高度"
+
+#: unfold_operator.py:255
+msgid "Height of the exported document"
+msgstr "导出文档的高度"
+
+#: unfold_operator.py:296
+msgid "Hidden Edge Angle"
+msgstr "隐藏边角度"
+
+#: unfold_operator.py:216
+msgid "Highlight Inner Lines"
+msgstr "高亮内部线条"
+
+#: unfold_operator.py:179
+msgid "Highlight Outer Lines"
+msgstr "高亮外部线条"
+
+#: unfold_operator.py:319
+msgid "How to pack islands onto a page"
+msgstr "如何将孤岛排列到页面上"
+
+#: unfold_operator.py:312
+msgid "Image Packing Method"
+msgstr "图像排列方法"
+
+#: unfold_operator.py:465
+msgid "Images"
+msgstr "图像"
+
+#: __init__.py:4
+msgid "Import-Export"
+msgstr "导入-导出"
+
+#: unfold_operator.py:198
+msgid "Inner Concave Lines"
+msgstr "内部凹线"
+
+#: unfold_operator.py:189
+msgid "Inner Convex Lines"
+msgstr "内部凸线"
+
+#: unfold_operator.py:219
+msgid "Inner Highlight"
+msgstr "内部高亮"
+
+#: unfold_operator.py:222
+msgid "Inner Highlight Thickness"
+msgstr "内部高亮粗细"
+
+#: unfold_operator.py:501
+msgid "Inner Lines Highlight:"
+msgstr "内部线条高亮："
+
+#: unfold_operator.py:287
+msgid "Inside"
+msgstr "内部"
+
+#: unfold_operator.py:17
+#: unfold_operator.py:18
+msgid "International standard paper size"
+msgstr "国际标准纸张尺寸"
+
+#: __init__.py:77
+msgid "Island List"
+msgstr "孤岛列表"
+
+#: __init__.py:79
+msgid "Island List Index"
+msgstr "孤岛列表索引"
+
+#: unfold_operator.py:310
+msgid "JSON"
+msgstr "JSON"
+
+#: unfold_operator.py:310
+msgid "JavaScript Object Notation"
+msgstr "JavaScript 对象表示法"
+
+#: unfold_operator.py:738
+msgid "Keep faces of the active island selected"
+msgstr "保持选中活动孤岛的面"
+
+#: unfold_operator.py:723
+msgid "Label"
+msgstr "标签"
+
+#: unfold_operator.py:723
+msgid "Label on this island"
+msgstr "此孤岛上的标签"
+
+#: unfold_operator.py:420
+msgid "Largest island is roughly 1/{:.1f} of page"
+msgstr "最大孤岛约为页面的 1/{:.1f}"
+
+#: unfold_operator.py:270
+msgid "Layers"
+msgstr "层"
+
+#: unfold_operator.py:20
+msgid "Legal"
+msgstr "法律用纸"
+
+#: unfold_operator.py:19
+msgid "Letter"
+msgstr "信纸"
+
+#: unfold_operator.py:741
+msgid "Limit Island Size"
+msgstr "限制孤岛尺寸"
+
+#: unfold_operator.py:316
+msgid "Linked"
+msgstr "链接"
+
+#: unfold_operator.py:164
+msgid "Long Dashes (-- --)"
+msgstr "长虚线 (-- --)"
+
+#: unfold_operator.py:750
+msgid "Maximal height of an island"
+msgstr "孤岛最大高度"
+
+#: unfold_operator.py:744
+msgid "Maximal size of an island"
+msgstr "孤岛最大尺寸"
+
+#: unfold_operator.py:747
+msgid "Maximal width of an island"
+msgstr "孤岛最大宽度"
+
+#: unfold_operator.py:312
+msgid "Method of attaching baked image(s) to the SVG"
+msgstr "将烘焙图像附加到 SVG 的方法"
+
+#: unfold_operator.py:623
+msgid "Model Scale:  1/"
+msgstr "模型比例： 1/"
+
+#: unfold_operator.py:245
+msgid "Name of the file"
+msgstr "文件名"
+
+#: unfold_operator.py:319
+msgid "Nesting Method"
+msgstr "嵌套方法"
+
+#: unfold_operator.py:264
+msgid "No Texture"
+msgstr "无纹理"
+
+#: unfold_operator.py:456
+msgid "No UV slots left, No Texture is the only option."
+msgstr "没有剩余 UV 槽，只能选择“无纹理”。"
+
+#: unfold_operator.py:280
+#: unfold_operator.py:286
+msgid "None"
+msgstr "无"
+
+#: unfold_operator.py:19
+#: unfold_operator.py:20
+msgid "North American paper size"
+msgstr "北美纸张尺寸"
+
+#: unfold_operator.py:670
+msgid "Not unfolded"
+msgstr "未展开"
+
+#: unfold_operator.py:302
+msgid "Number of samples to render for each pixel"
+msgstr "每个像素的渲染采样数"
+
+#: unfold_operator.py:283
+msgid "Numbers"
+msgstr "数字"
+
+#: unfold_operator.py:538
+msgid "Operation"
+msgstr "操作"
+
+#: unfold_operator.py:538
+msgid "Operation with the current selection"
+msgstr "对当前选择执行操作"
+
+#: unfold_operator.py:182
+msgid "Outer Highlight"
+msgstr "外轮廓高亮"
+
+#: unfold_operator.py:185
+msgid "Outer Highlight Thickness"
+msgstr "外轮廓高亮厚度"
+
+#: unfold_operator.py:167
+msgid "Outer Lines"
+msgstr "外轮廓线"
+
+#: unfold_operator.py:170
+msgid "Outer Lines Drawing Style"
+msgstr "外轮廓线绘制样式"
+
+#: unfold_operator.py:482
+msgid "Outer Lines Highlight:"
+msgstr "外轮廓线高亮："
+
+#: unfold_operator.py:176
+msgid "Outer Lines Thickness"
+msgstr "外轮廓线粗细"
+
+#: unfold_operator.py:288
+msgid "Outside"
+msgstr "外侧"
+
+#: unfold_operator.py:308
+msgid "PDF"
+msgstr "PDF"
+
+#: unfold_operator.py:255
+msgid "Page Height"
+msgstr "页面高度"
+
+#: unfold_operator.py:258
+msgid "Page Margin"
+msgstr "页边距"
+
+#: unfold_operator.py:249
+#: unfold_operator.py:744
+msgid "Page Size"
+msgstr "页面尺寸"
+
+#: unfold_operator.py:252
+msgid "Page Width"
+msgstr "页面宽度"
+
+#: unfold_operator.py:587
+#: unfold_operator.py:609
+msgid "Paper"
+msgstr "纸张"
+
+#: __init__.py:74
+msgid "Paper Model"
+msgstr "纸模型"
+
+#: unfold_operator.py:639
+msgid "Paper Model Islands"
+msgstr "纸模型孤岛"
+
+#: unfold_operator.py:293
+msgid "Paper Thickness"
+msgstr "纸张厚度"
+
+#: unfold_operator.py:42
+msgid "Priority Concave"
+msgstr "凹角优先"
+
+#: unfold_operator.py:39
+msgid "Priority Convex"
+msgstr "凸角优先"
+
+#: unfold_operator.py:45
+msgid "Priority Length"
+msgstr "长度优先"
+
+#: unfold_operator.py:42
+msgid "Priority effect for edges in concave angles"
+msgstr "凹角边的优先影响"
+
+#: unfold_operator.py:39
+msgid "Priority effect for edges in convex angles"
+msgstr "凸角边的优先影响"
+
+#: unfold_operator.py:45
+msgid "Priority effect of edge length"
+msgstr "边长的优先影响"
+
+#: unfold_operator.py:323
+msgid "Raster"
+msgstr "位图"
+
+#: unfold_operator.py:213
+msgid "Relative thickness of Freestyle edges"
+msgstr "Freestyle 边的相对粗细"
+
+#: unfold_operator.py:195
+#: unfold_operator.py:204
+msgid "Relative thickness of concave lines"
+msgstr "凹线的相对粗细"
+
+#: unfold_operator.py:176
+msgid "Relative thickness of net outline"
+msgstr "展开图轮廓的相对粗细"
+
+#: unfold_operator.py:185
+#: unfold_operator.py:222
+msgid "Relative thickness of the highlighting lines"
+msgstr "高亮线的相对粗细"
+
+#: unfold_operator.py:478
+#: unfold_operator.py:486
+msgid "Relative width"
+msgstr "相对宽度"
+
+#: unfold_operator.py:542
+msgid "Remove"
+msgstr "移除"
+
+#: unfold_operator.py:542
+msgid "Remove from selection"
+msgstr "从选择中移除"
+
+#: unfold_operator.py:268
+msgid "Render all selected surrounding objects as a texture"
+msgstr "将选中的所有周围物体渲染为纹理"
+
+#: unfold_operator.py:266
+msgid "Render the Ambient Occlusion pass"
+msgstr "渲染环境光遮蔽通道"
+
+#: unfold_operator.py:265
+msgid "Render the diffuse color and all painted textures"
+msgstr "渲染漫反射颜色和所有绘制的纹理"
+
+#: unfold_operator.py:267
+msgid "Render the material in actual scene illumination"
+msgstr "在实际场景光照下渲染材质"
+
+#: unfold_operator.py:543
+msgid "Replace"
+msgstr "替换"
+
+#: unfold_operator.py:299
+msgid "Resolution (DPI)"
+msgstr "分辨率 (DPI)"
+
+#: unfold_operator.py:299
+msgid "Resolution of images in pixels per inch"
+msgstr "图像分辨率（像素/英寸）"
+
+#: unfold_operator.py:309
+msgid "SVG"
+msgstr "SVG"
+
+#: unfold_operator.py:302
+msgid "Samples"
+msgstr "采样数"
+
+#: unfold_operator.py:325
+#: unfold_operator.py:756
+msgid "Scale"
+msgstr "缩放"
+
+#: unfold_operator.py:753
+msgid "Scale the net automatically to fit on paper"
+msgstr "自动缩放展开图以适合纸张"
+
+#: unfold_operator.py:413
+msgid "Scale: 1/"
+msgstr "缩放： 1/"
+
+#: unfold_operator.py:543
+msgid "Select only the"
+msgstr "仅选择"
+
+#: unfold_operator.py:268
+msgid "Selected to Active"
+msgstr "选中项到活动项"
+
+#: unfold_operator.py:275
+msgid "Separate"
+msgstr "分离"
+
+#: unfold_operator.py:270
+msgid "Separation of drawings by meaning"
+msgstr "按含义分离绘图"
+
+#: __init__.py:74
+msgid "Settings of the Export Paper Model script"
+msgstr "导出纸模型脚本的设置"
+
+#: unfold_operator.py:163
+msgid "Short Dashes (- - -)"
+msgstr "短虚线 (- - -)"
+
+#: unfold_operator.py:340
+msgid "Show Development Settings Expanded"
+msgstr "展开显示开发设置"
+
+#: unfold_operator.py:332
+msgid "Show Document Settings Expanded"
+msgstr "展开显示文档设置"
+
+#: unfold_operator.py:336
+msgid "Show Style Settings Expanded"
+msgstr "展开显示样式设置"
+
+#: unfold_operator.py:336
+#: unfold_operator.py:340
+msgid "Shows the box 'Colors and Style' expanded in user interface"
+msgstr "在用户界面中展开显示“颜色和样式”框"
+
+#: unfold_operator.py:332
+msgid "Shows the box 'Document Settings' expanded in user interface"
+msgstr "在用户界面中展开显示“文档设置”框"
+
+#: unfold_operator.py:315
+msgid "Single Linked"
+msgstr "单链接"
+
+#: unfold_operator.py:273
+msgid "Single Sided"
+msgstr "单面"
+
+#: unfold_operator.py:249
+msgid "Size of the exported document"
+msgstr "导出文档尺寸"
+
+#: unfold_operator.py:161
+msgid "Solid (----)"
+msgstr "实线 (----)"
+
+#: unfold_operator.py:161
+#: unfold_operator.py:163
+msgid "Solid line"
+msgstr "实线"
+
+#: unfold_operator.py:261
+msgid "Source of a texture for the model"
+msgstr "模型纹理的来源"
+
+#: unfold_operator.py:281
+msgid "Stickers"
+msgstr "贴纸"
+
+#: unfold_operator.py:479
+#: unfold_operator.py:490
+msgid "Style"
+msgstr "样式"
+
+#: unfold_operator.py:738
+msgid "Sync"
+msgstr "同步"
+
+#: unfold_operator.py:277
+msgid "Tabs"
+msgstr "粘合翼"
+
+#: unfold_operator.py:226
+msgid "Tabs Fill"
+msgstr "粘合翼填充"
+
+#: unfold_operator.py:290
+msgid "Tabs and Text Size"
+msgstr "粘合翼和文本大小"
+
+#: unfold_operator.py:243
+msgid "Target file to save the SVG"
+msgstr "保存 SVG 的目标文件"
+
+#: unfold_operator.py:229
+msgid "Text Color"
+msgstr "文本颜色"
+
+#: unfold_operator.py:275
+msgid "Texture and drawing exported as two separate documents"
+msgstr "纹理和绘图导出为两个独立文档"
+
+#: unfold_operator.py:274
+msgid "Texture exported to odd pages, drawing to even pages"
+msgstr "纹理导出到奇数页，绘图导出到偶数页"
+
+#: unfold_operator.py:261
+msgid "Textures"
+msgstr "纹理"
+
+#: unfold_operator.py:726
+msgid "Three-letter label to use when there is not enough space"
+msgstr "空间不足时使用的三字母标签"
+
+#: unfold_operator.py:274
+msgid "Two Sided"
+msgstr "双面"
+
+#: unfold_operator.py:588
+msgid "Unfold"
+msgstr "展开"
+
+#: __init__.py:41
+msgid "Unfold Panel Category"
+msgstr "展开面板类别"
+
+#: __init__.py:52
+msgid "Unfold Panel:"
+msgstr "展开面板："
+
+#: unfold_operator.py:423
+msgid "Unit scale {:.1f} makes page size etc. not display correctly"
+msgstr "单位比例 {:.1f} 导致页面尺寸等无法正确显示"
+
+#: unfold_operator.py:16
+msgid "User defined"
+msgstr "用户定义"
+
+#: unfold_operator.py:16
+msgid "User defined paper size"
+msgstr "用户定义纸张尺寸"
+
+#: unfold_operator.py:309
+msgid "W3C Scalable Vector Graphics"
+msgstr "W3C 可缩放矢量图形"
+
+#: unfold_operator.py:747
+msgid "Width"
+msgstr "宽度"
+
+#: unfold_operator.py:290
+msgid "Width of gluing tabs and numbers"
+msgstr "粘合翼和编号的宽度"
+
+#: unfold_operator.py:252
+msgid "Width of the exported document"
+msgstr "导出文档宽度"
+
+#: unfold_operator.py:650
+msgid "{} islands:"
+msgstr "{} 个孤岛："
+
+#: unfold_operator.py:123
+msgctxt "Operator"
+msgid "Clear All Seams"
+msgstr "清除所有接缝"
+
+#: unfold_operator.py:601
+msgctxt "Operator"
+msgid "Clear Seam"
+msgstr "清除接缝"
+
+#: unfold_operator.py:124
+msgctxt "Operator"
+msgid "Clear all the seams and unfolded islands of the active object"
+msgstr "清除活动物体的所有接缝和展开孤岛"
+
+#: unfold_operator.py:658
+msgctxt "Operator"
+msgid "Deselect"
+msgstr "取消选择"
+
+#: unfold_operator.py:239
+msgctxt "Operator"
+msgid "Export Paper Model"
+msgstr "导出纸模型"
+
+#: unfold_operator.py:240
+msgctxt "Operator"
+msgid "Export the selected object's net and optionally bake its texture"
+msgstr "导出选中物体的展开图，并可选择烘焙其纹理"
+
+#: unfold_operator.py:600
+msgctxt "Operator"
+msgid "Mark Seam"
+msgstr "标记接缝"
+
+#: unfold_operator.py:36
+msgctxt "Operator"
+msgid "Mark seams so that the mesh can be exported as a paper model"
+msgstr "标记接缝，以便将网格导出为纸模型"
+
+#: unfold_operator.py:524
+msgctxt "Operator"
+msgid "Paper Model (.pdf/.svg/.json)"
+msgstr "纸模型 (.pdf/.svg/.json)"
+
+#: unfold_operator.py:657
+msgctxt "Operator"
+msgid "Select"
+msgstr "选择"
+
+#: unfold_operator.py:535
+msgctxt "Operator"
+msgid "Select Island"
+msgstr "选择孤岛"
+
+#: unfold_operator.py:536
+msgctxt "Operator"
+msgid "Select an island of the paper model net"
+msgstr "选择纸模型展开图的一个孤岛"
+
+#: unfold_operator.py:35
+#: unfold_operator.py:528
+msgctxt "Operator"
+msgid "Unfold"
+msgstr "展开"

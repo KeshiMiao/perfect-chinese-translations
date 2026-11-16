@@ -1,0 +1,3101 @@
+# perfect-chinese: 1
+# id: mpfb
+# kind: addon
+# module: bl_ext.blender_org.mpfb
+# name: MPFB
+# name_zh: 人体角色生成器
+# translator: KeshiMiao
+# category: Add Mesh
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: ui/start_here/startherepanel.py:54
+msgid "\"New human\" below."
+msgstr "下方为“新建人物”。"
+
+#: services/targetservice.py:63
+msgid "$af"
+msgstr "$af"
+
+#: services/targetservice.py:62
+msgid "$as"
+msgstr "$as"
+
+#: services/targetservice.py:64
+msgid "$av"
+msgstr "$av"
+
+#: services/targetservice.py:61
+msgid "$ca"
+msgstr "$ca"
+
+#: services/targetservice.py:73
+msgid "$ch"
+msgstr "$ch"
+
+#: services/targetservice.py:59
+msgid "$fe"
+msgstr "$fe"
+
+#: services/targetservice.py:69
+msgid "$fi"
+msgstr "$fi"
+
+#: services/targetservice.py:66
+msgid "$hg"
+msgstr "$hg"
+
+#: services/targetservice.py:70
+msgid "$id"
+msgstr "$id"
+
+#: services/targetservice.py:60
+msgid "$ma"
+msgstr "$ma"
+
+#: services/targetservice.py:58
+msgid "$md"
+msgstr "$md"
+
+#: services/targetservice.py:67
+msgid "$mu"
+msgstr "$mu"
+
+#: services/targetservice.py:68
+msgid "$pr"
+msgstr "$pr"
+
+#: services/targetservice.py:71
+msgid "$un"
+msgstr "$un"
+
+#: services/targetservice.py:65
+msgid "$wg"
+msgstr "$wg"
+
+#: services/targetservice.py:72
+msgid "$yn"
+msgstr "$yn"
+
+#: services/logservice.py:353
+msgid "(no filter)"
+msgstr "（无筛选）"
+
+#: ui/create_assets/makeclothes/makeclothespanel.py:214
+msgid ":"
+msgstr ":"
+
+#: ui/create_assets/makeup/operators/createink.py:55
+msgid "A focus name must be chosen."
+msgstr "必须选择一个焦点名称。"
+
+#: ui/create_assets/makeskin/operators/importmaterial.py:35
+msgid "A material for this object already exists, change 'replace' option in common settings to overwrite material"
+msgstr "该物体已有材质，请更改通用设置中的“替换”选项以覆盖材质"
+
+#: ui/create_assets/makeclothes/operators/genuuid.py:42
+msgid "A new UUID was set in the text box"
+msgstr "已在文本框中设置新的 UUID"
+
+#: ui/new_human/randomize/operators/savenewpreset.py:41
+msgid "A preset with that name already exists"
+msgstr "该名称的预设已存在"
+
+#: ui/rigging/rigifyrig/operators/addrigifyrig.py:42
+#: ui/rigging/standardrig/operators/addstandardrig.py:35
+msgid "A rig was added"
+msgstr "已添加绑定"
+
+#: ui/rigging/rigifyrig/operators/addrigifyrig.py:62
+msgid "A rig was added and generated"
+msgstr "已添加并生成绑定"
+
+#: ui/rigging/rigifyrig/operators/generaterigifyrig.py:55
+msgid "A rig was generated"
+msgstr "已生成绑定"
+
+#: ui/new_human/randomize/operators/createrandombatch.py:117
+#: ui/new_human/randomize/operators/createrandomhuman.py:36
+msgid "A rigify rig was selected, but the Rigify addon is not enabled."
+msgstr "已选择 Rigify 绑定，但未启用 Rigify 插件。"
+
+#: ui/new_human/importerpresets/operators/savenewpresets.py:31
+#: ui/new_human/randomize/operators/savenewpreset.py:33
+msgid "A valid name must be given"
+msgstr "必须提供有效名称"
+
+#: ui/create_assets/makeweight/operators/truncateweights.py:32
+msgid "A vertex group must be chosen"
+msgstr "必须选择一个顶点组"
+
+#: ui/create_assets/makeclothes/operators/gendelete.py:74
+msgid "A very rough delete group has been created on the basemesh. You should check and edit this manually before using it."
+msgstr "已在基础网格上创建一个非常粗略的删除组。使用前应手动检查并编辑。"
+
+#: ui/abstractpanel.py:14
+msgid "Abstract panel"
+msgstr "抽象面板"
+
+#: ui/apply_assets/assetlibrary/operators/loadlibrarypose.py:35
+msgid "Active object is not an armature"
+msgstr "活动物体不是骨架"
+
+#: ui/apply_assets/assetlibrary/operators/loadlibrarypose.py:39
+msgid "Active object is not identified as a skeleton"
+msgstr "活动物体未被识别为骨架"
+
+#: ui/create_assets/makerig/operators/savetolibrary.py:32
+msgid "Active object must be an armature"
+msgstr "活动物体必须是骨架"
+
+#: ui/operations/basemeshops/operators/addcorrectivesmooth.py:12
+msgid "Add Corrective Smooth"
+msgstr "添加校正平滑"
+
+#: ui/operations/ai/operators/addvisiblebones.py:123
+msgid "Add OpenPose visible bones"
+msgstr "添加 OpenPose 可见骨骼"
+
+#: ui/rigging/customrig/operators/addcustomrig.py:18
+msgid "Add custom rig"
+msgstr "添加自定义绑定"
+
+#: ui/rigging/standardrig/operators/addhelpers.py:19
+msgid "Add helpers"
+msgstr "添加辅助对象"
+
+#: ui/rigging/rigifyrig/operators/addrigifyrig.py:20
+msgid "Add rigify rig"
+msgstr "添加 Rigify 绑定"
+
+#: ui/rigging/standardrig/operators/addstandardrig.py:18
+msgid "Add standard rig"
+msgstr "添加标准绑定"
+
+#: ui/system/webresources/operators/webresource.py:17
+msgid "Address to open"
+msgstr "要打开的地址"
+
+#: ui/apply_assets/assetlibrary/assetsettingspanel.py:61
+msgid "Advanced"
+msgstr "高级"
+
+#: ui/create_assets/makeexpression/operators/reset.py:52
+msgid "All face unit sliders reset to 0.0"
+msgstr "所有面部单元滑块已重置为 0.0"
+
+#: ui/developer/operators/create_groups.py:33
+msgid "All groups should now exist"
+msgstr "所有组现在都应已存在"
+
+#: ui/developer/operators/resetloglevels.py:22
+msgid "All log level overrides were removed and default level was set to INFO"
+msgstr "已移除所有日志级别覆盖，默认级别已设为 INFO"
+
+#: ui/apply_assets/assetlibrary/alternativematerialpanel.py:28
+msgid "Alternative materials"
+msgstr "替代材质"
+
+#: ui/apply_assets/assetlibrary/assetsettingspanel.py:109
+msgid "An error occurred while"
+msgstr "发生错误，正在"
+
+#: ui/create_assets/makeup/operators/writeink.py:40
+msgid "An ink layer name must be provided."
+msgstr "必须提供墨水层名称。"
+
+#: ui/operations/animops/animopspanel.py:19
+msgid "Animation"
+msgstr "动画"
+
+#: ui/operations/poseops/operators/apply_pose.py:20
+msgid "Apply as rest pose"
+msgstr "应用为静止姿势"
+
+#: ui/apply_assets/assetspanel.py:38
+msgid "Apply assets"
+msgstr "应用资产"
+
+#: ui/presets/enhancedsettings/operators/applysettings.py:18
+#: ui/presets/eyesettings/operators/applysettings.py:19
+msgid "Apply selected presets"
+msgstr "应用所选预设"
+
+#: ui/new_human/randomize/operators/applydetailtoall.py:17
+msgid "Apply to all sections"
+msgstr "应用到所有部分"
+
+#: ui/haireditorpanel/operators/apply_material_operator.py:29
+msgid "Applying hair material..."
+msgstr "正在应用头发材质..."
+
+#: ui/create_assets/makerig/weightspanel.py:29
+#: ui/create_assets/makerig/operators/autotransferweights.py:33
+msgid "Armature must be active object"
+msgstr "骨架必须是活动物体"
+
+#: ui/create_assets/makerig/weightspanel.py:36
+#: ui/create_assets/makerig/operators/autotransferweights.py:40
+msgid "Armature must have basemesh child"
+msgstr "骨架必须具有基础网格子级"
+
+#: ui/apply_assets/assetlibrary/assetsettingspanel.py:76
+msgid "Asset pack contains MACOS"
+msgstr "资产包包含 MACOS"
+
+#: ui/apply_assets/assetlibrary/assetsettingspanel.py:66
+msgid "Asset roots"
+msgstr "资产根目录"
+
+#: ui/apply_assets/assetlibrary/operators/unloadlibraryclothes.py:20
+#: ui/apply_assets/assetlibrary/operators/unloadlibraryproxy.py:20
+msgid "Asset source fragment"
+msgstr "资产来源片段"
+
+#: ui/apply_assets/assetlibrary/operators/loadpack.py:61
+msgid "Assets fixed and installed. If not visible, restart Blender."
+msgstr "资产已修复并安装。如果不可见，请重新启动 Blender。"
+
+#: ui/model/operators/refithuman.py:28
+msgid "Assets have been refitted"
+msgstr "资产已重新适配"
+
+#: ui/apply_assets/assetlibrary/operators/loadpack.py:69
+msgid "Assets should now be available. If they are not visible, then restart Blender."
+msgstr "资产现在应该可用了。如果仍不可见，请重启 Blender。"
+
+#: ui/operations/faceops/operators/configurelipsync.py:17
+msgid "Assign Lip Sync shape keys"
+msgstr "指定唇形同步形态键"
+
+#: ui/create_assets/makerig/operators/savetolibrary.py:48
+msgid "At least one identifying bone name is required"
+msgstr "至少需要一个用于识别的骨骼名称"
+
+#: ui/create_assets/makerig/operators/autotransferweights.py:17
+msgid "Auto transfer weights"
+msgstr "自动转移权重"
+
+#: _preferences.py:54
+msgid "Autodiscover path to MakeHuman user data"
+msgstr "自动发现 MakeHuman 用户数据路径"
+
+#: ui/apply_assets/assetlibrary/operators/loadlibrarypose.py:45
+msgid "BVH-style poses only work with default rig"
+msgstr "BVH 风格姿势仅适用于默认绑定"
+
+#: ui/apply_assets/assetlibrary/operators/loadpack.py:50
+msgid "Bad zip file, see text"
+msgstr "Zip 文件损坏，请查看文本"
+
+#: ui/operations/basemeshops/operators/bakeshapekeys.py:39
+msgid "Bake finished"
+msgstr "烘焙完成"
+
+#: ui/operations/basemeshops/operators/bakeshapekeys.py:20
+msgid "Bake shapekeys"
+msgstr "烘焙形态键"
+
+#: ui/operations/basemeshops/basemeshopspanel.py:17
+msgid "Basemesh"
+msgstr "基础网格"
+
+#: ui/presets/makeuppresets/operators/genericpresets.py:80
+msgid "Basemesh material must be MakeSkin or Layered Skin"
+msgstr "基础网格材质必须是 MakeSkin 或 Layered Skin"
+
+#: ui/presets/makeuppresets/operators/genericpresets.py:75
+msgid "Basemesh must have a material"
+msgstr "基础网格必须有材质"
+
+#: ui/operations/animops/operators/reduceddoll.py:42
+msgid "Basemesh must have rig as parent"
+msgstr "基础网格必须以绑定为父级"
+
+#: ui/new_human/randomize/batchpanel.py:15
+msgid "Batch"
+msgstr "批处理"
+
+#: ui/new_human/randomize/operators/createrandombatch.py:60
+msgid "Batch cancelled; the characters generated so far were kept"
+msgstr "批处理已取消；目前已生成的物体已保留"
+
+#: ui/versionpanel.py:24
+#: ui/system/systempanel.py:19
+msgid "Blender Version: %s"
+msgstr "Blender 版本：%s"
+
+#: ui/rigging/rigifyrig/rigifyrigpanel.py:31
+msgid "Blender preferences > Add-ons"
+msgstr "Blender 偏好设置 > 插件"
+
+#: ui/presets/enhancedsettings/operators/_savematerial.py:23
+#: ui/presets/enhancedsettings/operators/applysettings.py:59
+msgid "Body does not have a material"
+msgstr "身体没有材质"
+
+#: ui/new_human/randomize/bodypartspanel.py:15
+msgid "Body parts"
+msgstr "身体部件"
+
+#: ui/new_human/randomize/breastpanel.py:15
+msgid "Breast shape"
+msgstr "胸部形状"
+
+#: ui/apply_assets/assetlibrary/assetsettingspanel.py:98
+msgid "Broken zip file was not"
+msgstr "损坏的 Zip 文件未"
+
+#: ui/versionpanel.py:23
+#: ui/system/systempanel.py:18
+msgid "Build info: %s"
+msgstr "构建信息：%s"
+
+#: ui/new_human/newhuman/frompresetspanel.py:40
+#: ui/new_human/randomize/randomizeproperties.py:365
+msgid "CMU MB"
+msgstr "CMU MB"
+
+#: ui/operations/basemeshops/operators/addcorrectivesmooth.py:46
+msgid "Can only add Corrective Smooth to MakeHuman meshes"
+msgstr "只能向 MakeHuman 网格添加校正平滑"
+
+#: ui/operations/basemeshops/operators/bakeshapekeys.py:34
+msgid "Can only bake shapekeys on basemesh"
+msgstr "只能在基础网格上烘焙形态键"
+
+#: ui/operations/basemeshops/operators/deletehelpers.py:62
+msgid "Can only delete helpers on basemesh"
+msgstr "只能在基础网格上删除辅助对象"
+
+#: ui/operations/ai/operators/addvisiblebones.py:185
+#: ui/operations/ai/operators/saveopenpose.py:132
+msgid "Can only have armature(s) as selected object"
+msgstr "选中的物体只能是骨架"
+
+#: ui/operations/poseops/operators/copy_pose.py:39
+msgid "Can only have armatures as selected/active"
+msgstr "选中/活动物体只能是骨架"
+
+#: ui/operations/sculpt/operators/setupsculpt.py:182
+msgid "Can only prepare makehuman type meshes"
+msgstr "只能准备 MakeHuman 类型的网格"
+
+#: ui/apply_assets/assetlibrary/assetlibrarypanel.py:159
+msgid "Cannot equip on baked mesh"
+msgstr "无法在已烘焙的网格上装备"
+
+#: ui/operations/boneops/operators/set_bone_end_offset.py:48
+msgid "Cannot evaluate current strategy."
+msgstr "无法评估当前策略。"
+
+#: ui/model/modelpanel.py:66
+msgid "Cannot model baked mesh"
+msgstr "无法对已烘焙的网格建模"
+
+#: ui/create_assets/makeskin/operators/creatematerial.py:36
+msgid "Cannot set specular and roughness maps at the same time."
+msgstr "无法同时设置高光贴图和粗糙度贴图。"
+
+#: ui/operations/ai/operators/scenesettings.py:13
+msgid "Change scene settings"
+msgstr "更改场景设置"
+
+#: ui/operations/boneops/bonestratpanel.py:165
+msgid "Change to:"
+msgstr "更改为："
+
+#: ui/create_assets/makeclothes/operators/markclothes.py:17
+msgid "Change type"
+msgstr "更改类型"
+
+#: ui/create_assets/makeclothes/operators/checkclothes.py:25
+msgid "Check"
+msgstr "检查"
+
+#: ui/new_human/randomize/clothespanel.py:15
+msgid "Clothes"
+msgstr "服装"
+
+#: ui/create_assets/makeclothes/operators/checkclothes.py:59
+msgid "Clothes check performed, see panel"
+msgstr "已完成服装检查，请查看面板"
+
+#: ui/create_assets/makeclothes/operators/extractclothes.py:29
+msgid "Clothes mesh was created"
+msgstr "已创建服装网格"
+
+#: ui/create_assets/makeclothes/makeclothespanel.py:203
+msgid "Clothes need uuid"
+msgstr "服装需要 uuid"
+
+#: ui/apply_assets/assetlibrary/operators/loadlibraryclothes.py:80
+#: ui/apply_assets/loadclothes/operators/loadclothes.py:149
+msgid "Clothes were loaded"
+msgstr "服装已加载"
+
+#: ui/apply_assets/assetlibrary/operators/unloadlibraryclothes.py:71
+msgid "Clothes were unloaded"
+msgstr "服装已卸载"
+
+#: ui/apply_assets/assetlibrary/assetsettingspanel.py:34
+msgid "Clothes, Bodyparts & Proxies"
+msgstr "服装、身体部件与代理"
+
+#: ui/haireditorpanel/hairproperties.py:17
+#: ui/haireditorpanel/hairproperties.py:47
+msgid "Clump Hair Curves"
+msgstr "簇状毛发曲线"
+
+#: ui/haireditorpanel/hairproperties.py:39
+#: ui/haireditorpanel/hairproperties.py:71
+msgid "Color 1"
+msgstr "颜色 1"
+
+#: ui/haireditorpanel/hairproperties.py:39
+#: ui/haireditorpanel/hairproperties.py:71
+msgid "Color 2"
+msgstr "颜色 2"
+
+#: ui/operations/rigops/operators/converttorigify.py:54
+msgid "Converted to rigify"
+msgstr "已转换为 Rigify"
+
+#: ui/create_assets/maketarget/operators/symmetrizeright.py:15
+msgid "Copy +x to -x"
+msgstr "+X 复制到 -X"
+
+#: ui/create_assets/maketarget/operators/symmetrizeleft.py:15
+msgid "Copy -x to +x"
+msgstr "-X 复制到 +X"
+
+#: ui/operations/boneops/operators/copy_connected_strategy.py:14
+msgid "Copy Connected Strategies"
+msgstr "复制连接的策略"
+
+#: ui/create_assets/makeweight/operators/symmetrizeright.py:15
+msgid "Copy left to right"
+msgstr "从左复制到右"
+
+#: ui/operations/poseops/operators/copy_pose.py:20
+msgid "Copy pose"
+msgstr "复制姿势"
+
+#: ui/create_assets/makeweight/operators/symmetrizeleft.py:15
+msgid "Copy right to left"
+msgstr "从右复制到左"
+
+#: ui/operations/basemeshops/operators/addcorrectivesmooth.py:95
+msgid "Corrective smooth added"
+msgstr "已添加校正平滑"
+
+#: ui/operations/basemeshops/operators/addcorrectivesmooth.py:55
+msgid "Corrective smooth modifier already exists"
+msgstr "校正平滑修改器已存在"
+
+#: ui/apply_assets/assetlibrary/assetsettingspanel.py:104
+msgid "Could not automatically fix"
+msgstr "无法自动修复"
+
+#: ui/operations/boneops/operators/reapply_strategy.py:34
+msgid "Could not compute a new position."
+msgstr "无法计算新位置。"
+
+#: ui/new_human/importer/operators/importhuman.py:456
+msgid "Could not connect to MakeHuman. Is MH running, and is the socket server started?"
+msgstr "无法连接到 MakeHuman。MH 是否在运行，套接字服务器是否已启动？"
+
+#: ui/operations/exportops/operators/createexportcopy.py:35
+msgid "Could not deduce basemesh"
+msgstr "无法推断基础网格"
+
+#: ui/developer/operators/writecomposite.py:133
+msgid "Could not deduce class name"
+msgstr "无法推断类名"
+
+#: ui/developer/operators/destroygroups.py:38
+#: ui/developer/operators/replacewithskin.py:39
+msgid "Could not deduce current node tree"
+msgstr "无法推断当前节点树"
+
+#: ui/operations/matops/operators/createv2skin.py:88
+msgid "Could not deduce node tree from new empty material"
+msgstr "无法从新的空材质推断节点树"
+
+#: ui/operations/ai/operators/saveopenpose.py:191
+msgid "Could not find a Basemesh object for one armature"
+msgstr "无法为一个骨架找到基础网格物体"
+
+#: ui/create_assets/makeexpression/operators/load.py:45
+#: ui/create_assets/makeexpression/operators/reset.py:39
+msgid "Could not find a basemesh"
+msgstr "找不到基础网格"
+
+#: ui/operations/ai/operators/saveopenpose.py:142
+msgid "Could not find a basemesh for one of the armatures"
+msgstr "无法为其中一个骨架找到基础网格"
+
+#: ui/operations/ai/operators/saveopenpose.py:157
+msgid "Could not find a camera in the scene"
+msgstr "场景中找不到摄像机"
+
+#: ui/create_assets/makeweight/operators/symmetrizeleft.py:38
+#: ui/create_assets/makeweight/operators/symmetrizeright.py:38
+msgid "Could not find a rig amongst nearest relatives"
+msgstr "无法在最近的相关对象中找到绑定"
+
+#: services/objectservice.py:753
+msgid "Could not find a unique deformed clothing mesh. It should be a child of the armature."
+msgstr "找不到唯一的变形服装网格。它应是骨架的子物体。"
+
+#: ui/apply_assets/assetlibrary/operators/unloadlibraryclothes.py:57
+#: ui/apply_assets/assetlibrary/operators/unloadlibraryproxy.py:57
+msgid "Could not find asset?"
+msgstr "找不到资产？"
+
+#: ui/create_assets/makerig/operators/loadweights.py:50
+msgid "Could not find basemesh"
+msgstr "找不到基础网格"
+
+#: ui/haireditorpanel/operators/apply_fur_operator.py:40
+#: ui/haireditorpanel/operators/apply_hair_operator.py:40
+msgid "Could not find basemesh amongst relatives of selected object"
+msgstr "无法在所选物体的相关对象中找到基础网格"
+
+#: ui/presets/enhancedsettings/operators/_savematerial.py:19
+#: ui/presets/enhancedsettings/operators/applysettings.py:55
+msgid "Could not find basemesh or body proxy amongst nearest relatives"
+msgstr "无法在最近的相关对象中找到基础网格或身体代理"
+
+#: ui/presets/eyesettings/operators/_savematerial.py:17
+#: ui/presets/eyesettings/operators/applysettings.py:54
+msgid "Could not find eyes amongst nearest relatives"
+msgstr "无法在最近的相关对象中找到眼睛"
+
+#: services/objectservice.py:734
+msgid "Could not find related base mesh. It should have been a sibling or child of the armature."
+msgstr "找不到相关基础网格。它应是骨架的兄弟或子物体。"
+
+#: ui/create_assets/makerig/operators/saveweights.py:71
+#: ui/create_assets/makeweight/operators/saveweights.py:47
+msgid "Could not find related basemesh. It should have been parent or child of armature object."
+msgstr "找不到相关基础网格。它应是骨架物体的父级或子级。"
+
+#: ui/create_assets/makerig/operators/savetolibrary.py:88
+msgid "Could not find related basemesh; weights not saved"
+msgstr "找不到相关基础网格；权重未保存"
+
+#: services/objectservice.py:715
+msgid "Could not find related main skeleton. It should have been a parent of the armature."
+msgstr "找不到相关主骨架。它应是骨架的父级。"
+
+#: ui/create_assets/makerig/operators/loadweights.py:54
+msgid "Could not find skeleton"
+msgstr "找不到骨架"
+
+#: services/objectservice.py:701
+msgid "Could not find the armature object."
+msgstr "找不到骨架物体。"
+
+#: ui/create_assets/makerig/operators/loadrig.py:77
+msgid "Could not find the base mesh among children of the main skeleton."
+msgstr "无法在主骨架的子物体中找到基础网格。"
+
+#: ui/apply_assets/assetlibrary/operators/loadlibrarymaterial.py:81
+msgid "Could not find the default material for this asset"
+msgstr "找不到此资产的默认材质"
+
+#: ui/create_assets/makerig/operators/loadrig.py:70
+msgid "Could not find the main skeleton among the parents."
+msgstr "无法在父级中找到主骨架。"
+
+#: ui/create_assets/makerig/operators/saveweights.py:58
+msgid "Could not find the related armature. The active mesh must have an Armature modifier that references it."
+msgstr "找不到相关骨架。活动网格必须有引用它的骨架修改器。"
+
+#: ui/create_assets/makerig/operators/saveweights.py:93
+msgid "Could not find the related sub-rig. The active mesh must have an Armature modifier with the 'mhmask-subrig' vertex group that references it."
+msgstr "找不到相关子绑定。活动网格必须有带 'mhmask-subrig' 顶点组并引用它的骨架修改器。"
+
+#: ui/create_assets/makeweight/operators/truncateweights.py:41
+msgid "Could not find the selected group"
+msgstr "找不到所选组"
+
+#: services/humanservice.py:1639
+msgid "Could not find the weights file"
+msgstr "找不到权重文件"
+
+#: ui/operations/boneops/operators/abstract.py:162
+msgid "Could not select the armature."
+msgstr "无法选择骨架。"
+
+#: ui/operations/boneops/operators/abstract.py:141
+msgid "Could not select the mesh object."
+msgstr "无法选择网格物体。"
+
+#: ui/operations/boneops/operators/abstract.py:134
+msgid "Could not switch armature to object mode."
+msgstr "无法将骨架切换到物体模式。"
+
+#: ui/operations/boneops/operators/abstract.py:148
+msgid "Could not switch mesh to edit mode."
+msgstr "无法将网格切换到编辑模式。"
+
+#: ui/operations/boneops/operators/abstract.py:168
+msgid "Could not switch the armature to edit mode."
+msgstr "无法将骨架切换到编辑模式。"
+
+#: ui/create_assets/makeup/operators/createuvmap.py:19
+msgid "Create UV map"
+msgstr "创建 UV 贴图"
+
+#: ui/create_assets/createpanel.py:9
+msgid "Create assets"
+msgstr "创建资产"
+
+#: ui/operations/exportops/operators/createexportcopy.py:21
+msgid "Create export copy"
+msgstr "创建导出副本"
+
+#: ui/developer/operators/create_groups.py:15
+msgid "Create groups"
+msgstr "创建组"
+
+#: ui/new_human/newhuman/operators/createhuman.py:18
+#: ui/new_human/newhuman/operators/humanfrompresets.py:20
+msgid "Create human"
+msgstr "创建人物"
+
+#: ui/create_assets/makeup/operators/createink.py:24
+msgid "Create ink"
+msgstr "创建墨水"
+
+#: ui/create_assets/makeskin/operators/creatematerial.py:18
+msgid "Create material"
+msgstr "创建材质"
+
+#: ui/new_human/randomize/operators/createrandomhuman.py:19
+msgid "Create random human"
+msgstr "创建随机人物"
+
+#: ui/new_human/randomize/operators/createrandombatch.py:29
+msgid "Create random humans"
+msgstr "创建随机人物"
+
+#: ui/create_assets/maketarget/operators/createtarget.py:17
+msgid "Create target"
+msgstr "创建目标"
+
+#: ui/operations/matops/operators/createv2skin.py:22
+msgid "Create v2 skin"
+msgstr "创建 v2 皮肤"
+
+#: ui/create_assets/makeclothes/operators/bmxref.py:20
+msgid "Create xref cache"
+msgstr "创建外部引用缓存"
+
+#: ui/new_human/randomize/creationpanel.py:15
+msgid "Creation settings"
+msgstr "创建设置"
+
+#: ui/haireditorpanel/hairproperties.py:17
+#: ui/haireditorpanel/hairproperties.py:47
+msgid "Curl Hair Curves"
+msgstr "卷曲头发曲线"
+
+#: ui/operations/boneops/operators/set_bone_end_offset.py:33
+msgid "Current strategy is not set."
+msgstr "当前策略未设置。"
+
+#: ui/create_assets/makeclothes/makeclothespanel.py:81
+msgid "Current type:"
+msgstr "当前类型："
+
+#: ui/haireditorpanel/operators/apply_fur_operator.py:96
+#: ui/haireditorpanel/operators/apply_hair_operator.py:96
+msgid "Curve object has no surface property"
+msgstr "曲线物体没有表面属性"
+
+#: ui/rigging/customrig/customrigpanel.py:42
+msgid "Custom rig"
+msgstr "自定义绑定"
+
+#: ui/rigging/customrig/operators/addcustomrig.py:30
+msgid "Custom rigs can only be added to the base mesh"
+msgstr "自定义绑定只能添加到基础网格"
+
+#: ui/new_human/randomize/randomizeproperties.py:755
+msgid "Cutoffs"
+msgstr "截止值"
+
+#: ui/create_assets/makerig/weightspanel.py:46
+msgid "DST rig:"
+msgstr "DST 绑定："
+
+#: ui/haireditorpanel/hairproperties.py:39
+#: ui/haireditorpanel/hairproperties.py:71
+msgid "Darken root"
+msgstr "加深根部"
+
+#: services/uiservice.py:157
+#: services/uiservice.py:221
+msgid "Default"
+msgstr "默认"
+
+#: ui/new_human/newhuman/frompresetspanel.py:37
+#: ui/new_human/randomize/randomizeproperties.py:362
+msgid "Default (no toes)"
+msgstr "默认（无脚趾）"
+
+#: ui/apply_assets/assetlibrary/alternativematerialpanel.py:72
+msgid "Default material"
+msgstr "默认材质"
+
+#: ui/apply_assets/assetlibrary/operators/loadlibrarymaterial.py:85
+msgid "Default material was restored"
+msgstr "默认材质已恢复"
+
+#: ui/operations/basemeshops/operators/deletehelpers.py:20
+msgid "Delete helpers"
+msgstr "删除辅助对象"
+
+#: ui/haireditorpanel/operators/delete_hair_operator.py:28
+msgid "Deleting hair asset..."
+msgstr "正在删除头发资产..."
+
+#: ui/operations/animops/animopspanel.py:50
+msgid "Dest: %s"
+msgstr "目标: %s"
+
+#: ui/developer/operators/destroygroups.py:17
+msgid "Destroy Groups"
+msgstr "销毁组"
+
+#: ui/new_human/randomize/detailspanel.py:15
+msgid "Details"
+msgstr "详情"
+
+#: ui/developer/developerpanel.py:54
+msgid "Developer"
+msgstr "开发者"
+
+#: ui/system/dirresources/dirresourcespanel.py:13
+msgid "Directories"
+msgstr "目录"
+
+#: ui/haireditorpanel/operators/generate_hair_cards_operator.py:311
+msgid "Directory to save baked texture"
+msgstr "保存烘焙纹理的目录"
+
+#: ui/new_human/randomize/randomizeproperties.py:360
+msgid "Do not add a rig"
+msgstr "不添加骨架"
+
+#: ui/new_human/newhuman/frompresetspanel.py:35
+msgid "Do not add a rig, no matter what is said in the preset"
+msgstr "无论预设中如何设置，都不添加骨架"
+
+#: services/logservice.py:353
+msgid "Do not filter: show all loggers"
+msgstr "不筛选：显示所有记录器"
+
+#: services/uiservice.py:222
+msgid "Do not modify"
+msgstr "不修改"
+
+#: ui/create_assets/makeup/makeuppanel.py:48
+msgid "Do not use a specific UV map, instead use the default full body one"
+msgstr "不使用特定 UV 贴图，改用默认全身 UV 贴图"
+
+#: ui/start_here/operators/dismissstarthere.py:14
+msgid "Don't show this again"
+msgstr "不再显示"
+
+#: ui/create_assets/makepose/operators/loadanimation.py:49
+#: ui/create_assets/makepose/operators/saveanimation.py:49
+msgid "Done"
+msgstr "完成"
+
+#: _preferences.py:60
+msgid "Dynamically perform code checks on startup"
+msgstr "启动时动态执行代码检查"
+
+#: ui/create_assets/makerig/bonespanel.py:44
+#: ui/create_assets/makerig/operators/movetocube.py:70
+msgid "Edit mode only"
+msgstr "仅编辑模式"
+
+#: ui/rigging/rigifyrig/rigifyrigpanel.py:30
+msgid "Enable the Rigify addon in"
+msgstr "在以下位置启用 Rigify 插件"
+
+#: ui/developer/operators/loadtarget.py:28
+msgid "Encode Names"
+msgstr "编码名称"
+
+#: ui/developer/operators/loadtarget.py:28
+msgid "Encode mpfb macro detail names according to the standard rules"
+msgstr "按照标准规则编码 mpfb 宏细节名称"
+
+#: ui/presets/enhancedsettings/operators/savenewsettings.py:44
+msgid "Enhanced material settings names should not contain spaces"
+msgstr "增强材质设置名称不应包含空格"
+
+#: ui/create_assets/makeclothes/operators/clothescommon.py:70
+msgid "Error creating MHCLO. Do a clothes check and/or check the log for details."
+msgstr "创建 MHCLO 时出错。请执行服装检查，和/或查看日志了解详情。"
+
+#: ui/operations/exportops/exportopspanel.py:23
+msgid "Export copy"
+msgstr "导出副本"
+
+#: ui/operations/exportops/operators/createexportcopy.py:105
+msgid "Export copy created"
+msgstr "已创建导出副本"
+
+#: ui/developer/operators/exportlog.py:15
+msgid "Export log"
+msgstr "导出日志"
+
+#: ui/create_assets/makeexpression/operators/save.py:65
+msgid "Expression has no non-zero face units"
+msgstr "表情没有非零的面部单元"
+
+#: ui/apply_assets/useexpression/useexpressionpanel.py:33
+msgid "Expressions cannot be applied until it is installed."
+msgstr "安装前无法应用表情。"
+
+#: ui/apply_assets/useexpression/useexpressionpanel.py:17
+msgid "Expressions library"
+msgstr "表情库"
+
+#: ui/create_assets/makeclothes/operators/extractclothes.py:17
+msgid "Extract clothes"
+msgstr "提取服装"
+
+#: ui/presets/eyesettings/eyesettingspanel.py:38
+msgid "Eye material save files"
+msgstr "眼睛材质保存文件"
+
+#: ui/presets/eyesettings/operators/savenewsettings.py:41
+msgid "Eye material settings names should not contain spaces"
+msgstr "眼睛材质设置名称不应包含空格"
+
+#: ui/new_human/randomize/randomizeproperties.py:777
+msgid "Eyes"
+msgstr "眼睛"
+
+#: ui/presets/eyesettings/operators/_savematerial.py:21
+#: ui/presets/eyesettings/operators/applysettings.py:58
+msgid "Eyes do not have a material"
+msgstr "眼睛没有材质"
+
+#: ui/presets/eyesettings/operators/_savematerial.py:35
+#: ui/presets/eyesettings/operators/_savematerial.py:38
+msgid "Eyes do not seem to have procedural eyes material"
+msgstr "眼睛似乎没有程序化眼睛材质"
+
+#: ui/apply_assets/assetlibrary/assetsettingspanel.py:74
+msgid "FOUND ERROR:"
+msgstr "发现错误："
+
+#: ui/operations/faceops/faceopspanel.py:21
+msgid "Face operations"
+msgstr "面部操作"
+
+#: ui/create_assets/makeexpression/makeexpressionpanel.py:70
+msgid "Faceunits01 asset pack is not installed."
+msgstr "未安装 Faceunits01 资产包。"
+
+#: ui/apply_assets/assetlibrary/operators/loadpack.py:58
+msgid "Failed to fix zip, see text"
+msgstr "修复 zip 失败，请查看文本"
+
+#: ui/create_assets/makeclothes/operators/writeclothes.py:24
+#: ui/create_assets/makeskin/operators/writematerial.py:23
+msgid "File Path"
+msgstr "文件路径"
+
+#: ui/apply_assets/assetlibrary/operators/installtarget.py:32
+#: ui/apply_assets/assetlibrary/operators/loadpack.py:39
+msgid "File does not exist?"
+msgstr "文件不存在？"
+
+#: ui/create_assets/makeclothes/operators/writeclothes.py:24
+#: ui/create_assets/makeskin/operators/writematerial.py:23
+msgid "Filepath used for exporting the file"
+msgstr "用于导出文件的文件路径"
+
+#: ui/apply_assets/assetspanel.py:59
+msgid "Filter"
+msgstr "筛选"
+
+#: ui/apply_assets/assetlibrary/operators/loadlibraryclothes.py:53
+#: ui/apply_assets/assetlibrary/operators/loadlibraryproxy.py:57
+msgid "Fit to body is enabled, but active object is not a base mesh"
+msgstr "已启用贴合身体，但活动物体不是基础网格"
+
+#: ui/start_here/startherepanel.py:53
+msgid "For all options, see the panel"
+msgstr "所有选项请参见面板"
+
+#: ui/rigging/customrig/customrigpanel.py:50
+msgid "For rigs you built yourself"
+msgstr "用于你自己构建的骨架"
+
+#: ui/haireditorpanel/hairproperties.py:17
+#: ui/haireditorpanel/hairproperties.py:47
+msgid "Frizz Hair Curves"
+msgstr "卷曲头发曲线"
+
+#: ui/new_human/importer/importerpanel.py:68
+msgid "From MakeHuman"
+msgstr "来自 MakeHuman"
+
+#: ui/operations/ai/operators/boundingbox.py:17
+msgid "From active"
+msgstr "来自活动项"
+
+#: ui/new_human/newhuman/frompresetspanel.py:34
+msgid "From preset"
+msgstr "来自预设"
+
+#: ui/new_human/newhuman/frompresetspanel.py:63
+msgid "From save file"
+msgstr "来自保存文件"
+
+#: ui/new_human/newhuman/newhumanpanel.py:18
+msgid "From scratch"
+msgstr "从头创建"
+
+#: ui/apply_assets/assetlibrary/operators/loadlibraryclothes.py:20
+#: ui/apply_assets/assetlibrary/operators/loadlibraryink.py:19
+msgid "Full path to asset"
+msgstr "资产的完整路径"
+
+#: ui/apply_assets/assetlibrary/operators/loadlibrarymaterial.py:64
+msgid "Full path to material"
+msgstr "材质的完整路径"
+
+#: ui/haireditorpanel/haireditorpanel.py:129
+msgid "Fur assets:"
+msgstr "毛发资产："
+
+#: ui/new_human/newhuman/frompresetspanel.py:38
+#: ui/new_human/randomize/randomizeproperties.py:363
+msgid "Game engine"
+msgstr "游戏引擎"
+
+#: ui/new_human/newhuman/frompresetspanel.py:39
+#: ui/new_human/randomize/randomizeproperties.py:364
+msgid "Game engine (with breast)"
+msgstr "游戏引擎（含胸部）"
+
+#: ui/new_human/randomize/generalpanel.py:15
+msgid "General settings"
+msgstr "常规设置"
+
+#: ui/rigging/rigifyrig/operators/generaterigifyrig.py:17
+msgid "Generate"
+msgstr "生成"
+
+#: ui/create_assets/makeclothes/operators/genuuid.py:21
+msgid "Generate UUID"
+msgstr "生成 UUID"
+
+#: ui/new_human/randomize/randomizeproperties.py:879
+msgid "Grid"
+msgstr "网格"
+
+#: ui/new_human/randomize/randomizeproperties.py:785
+msgid "Hair"
+msgstr "头发"
+
+#: ui/haireditorpanel/hairproperties.py:17
+#: ui/haireditorpanel/hairproperties.py:47
+msgid "Hair Curves Noise"
+msgstr "头发曲线噪波"
+
+#: ui/haireditorpanel/haireditorpanel.py:23
+msgid "Hair Editor"
+msgstr "头发编辑器"
+
+#: ui/haireditorpanel/operators/delete_hair_operator.py:134
+msgid "Hair asset deleted successfully."
+msgstr "头发资产已成功删除。"
+
+#: ui/haireditorpanel/haireditorpanel.py:38
+msgid "Hair assets:"
+msgstr "头发资产："
+
+#: ui/haireditorpanel/haireditorpanel.py:221
+msgid "Hair editor assets are not"
+msgstr "头发编辑器资产未"
+
+#: ui/haireditorpanel/operators/generate_hair_cards_operator.py:228
+msgid "HairCards"
+msgstr "HairCards"
+
+#: ui/operations/basemeshops/operators/deletehelpers.py:75
+msgid "Helper geometry deleted"
+msgstr "辅助几何体已删除"
+
+#: ui/rigging/standardrig/operators/addhelpers.py:88
+msgid "Helpers were added"
+msgstr "已添加辅助对象"
+
+#: ui/rigging/standardrig/operators/removehelpers.py:71
+msgid "Helpers were removed"
+msgstr "已移除辅助对象"
+
+#: ui/operations/animops/operators/mapmixamo.py:82
+msgid "Hips bone not found in destination. Is this a mixamo rig?"
+msgstr "目标中未找到髋骨。这是 mixamo 骨架吗？"
+
+#: ui/operations/animops/operators/mapmixamo.py:86
+msgid "Hips bone not found in source. Is this a mixamo rig?"
+msgstr "源中未找到髋骨。这是 mixamo 骨架吗？"
+
+#: ui/new_human/newhuman/operators/humanfrompresets.py:114
+msgid "Human created"
+msgstr "人体已创建"
+
+#: ui/new_human/newhuman/operators/createhuman.py:144
+msgid "Human created."
+msgstr "人体已创建。"
+
+#: ui/new_human/newhuman/operators/createhuman.py:136
+msgid "Human created. You can adjust the phenotype values on the modeling panel."
+msgstr "人体已创建。你可以在建模面板上调整表型值。"
+
+#: ui/new_human/newhuman/operators/humanfrommhm.py:86
+msgid "Human created. You should check the model, as the MHM might not map exactly to what is available in MPFB2."
+msgstr "人体已创建。建议检查模型，因为 MHM 可能无法完全对应 MPFB2 中可用的内容。"
+
+#: ui/haireditorpanel/operators/delete_hair_operator.py:132
+msgid "Human object not found in bpy.data.objects"
+msgstr "在 bpy.data.objects 中未找到人体物体"
+
+#: ui/presets/humanpresets/operators/savenewpresets.py:43
+msgid "Human presets names should not contain spaces"
+msgstr "人体预设名称不应包含空格"
+
+#: ui/presets/humanpresets/humanpresetspanel.py:32
+msgid "Human save files"
+msgstr "人体保存文件"
+
+#: services/uiservice.py:220
+#: services/uiservice.py:286
+msgid "If available, use material settings with the same name as the imported character. Otherwise fall back to default settings."
+msgstr "如果可用，使用与导入角色同名的材质设置。否则回退到默认设置。"
+
+#: _preferences.py:54
+msgid "If the path to the MakeHuman user data directory is not specified, then try to figure it out automatically. If the path is explicitly set, this setting will have no effect"
+msgstr "如果未指定 MakeHuman 用户数据目录的路径，则尝试自动确定。如果已明确设置路径，此设置将不起作用"
+
+#: _preferences.py:40
+msgid "If you want to discover assets from an additional directory, enter the path here. This should be equivalent of a \"data\" directory, ie it should contain subdirs \"clothes\", \"hair\" and so on. Note that only mesh and material assets will be found here"
+msgstr "如果你想从其他目录发现资产，请在此输入路径。这应相当于 \"data\" 目录，即应包含 \"clothes\"、\"hair\" 等子目录。注意此处只会找到网格和材质资产"
+
+#: _preferences.py:34
+msgid "If you want to store MPFB user data somewhere other than in the default location, you can enter the path to an existing directory here"
+msgstr "如果你想将 MPFB 用户数据存储在默认位置之外，可以在此输入现有目录的路径"
+
+#: _preferences.py:66
+msgid "If you want to use a different name for the MPFB shelf tab, you can enter any non-empty string here"
+msgstr "如果你想为 MPFB 侧栏标签使用其他名称，可以在此输入任意非空字符串"
+
+#: _preferences.py:47
+msgid "If you want to use assets and models created from or downloaded with MakeHuman, you can specify the path to the data directory here. It is usually ~/Documents/makehuman/v1py3/data or something looking like that"
+msgstr "如果你想使用由 MakeHuman 创建或下载的资产和模型，可以在此指定 data 目录的路径。它通常是 ~/Documents/makehuman/v1py3/data 或类似路径"
+
+#: ui/rigging/applypose/operators/loadmhbvh.py:17
+msgid "Import MH BVH Pose"
+msgstr "导入 MH BVH 姿态"
+
+#: ui/new_human/newhuman/operators/humanfrommhm.py:19
+msgid "Import MHM"
+msgstr "导入 MHM"
+
+#: ui/create_assets/makeup/operators/importuvmap.py:23
+msgid "Import UV map"
+msgstr "导入 UV 贴图"
+
+#: ui/new_human/importer/operators/importhuman.py:24
+msgid "Import human"
+msgstr "导入人体"
+
+#: ui/create_assets/makeclothes/operators/legacyimport.py:28
+msgid "Import legacy props"
+msgstr "导入旧版道具"
+
+#: ui/create_assets/makeskin/operators/importmaterial.py:20
+msgid "Import material"
+msgstr "导入材质"
+
+#: ui/create_assets/maketarget/operators/importptarget.py:20
+msgid "Import proxy-specific target"
+msgstr "导入代理专用目标"
+
+#: ui/create_assets/maketarget/operators/importtarget.py:20
+msgid "Import target"
+msgstr "导入目标"
+
+#: ui/create_assets/makeweight/operators/importweights.py:17
+msgid "Import weights"
+msgstr "导入权重"
+
+#: ui/new_human/importerpresets/importerpresetspanel.py:33
+msgid "Importer Presets"
+msgstr "导入器预设"
+
+#: ui/developer/operators/savetarget.py:29
+msgid "Include Header"
+msgstr "包含文件头"
+
+#: ui/developer/operators/savetarget.py:29
+msgid "Include the boilerplate MakeTarget header"
+msgstr "包含 MakeTarget 样板文件头"
+
+#: ui/operations/boneops/operators/save_strategy_vertices.py:116
+msgid "Incorrect vertex selection"
+msgstr "顶点选择不正确"
+
+#: ui/operations/boneops/operators/save_strategy_vertices.py:29
+#: ui/operations/boneops/operators/show_strategy_vertices.py:28
+msgid "Index"
+msgstr "索引"
+
+#: ui/developer/operators/loadtarget.py:26
+msgid "Initial weight to be assigned for the new shape keys"
+msgstr "为新形态键指定的初始权重"
+
+#: ui/operations/faceops/faceopspanel.py:51
+msgid "Initialise Lip Sync on this object first (use the Lip Sync panel)"
+msgstr "请先在此物体上初始化唇形同步(使用唇形同步面板)"
+
+#: ui/haireditorpanel/operators/setup_hair_operator.py:59
+msgid "Initialized hair for this basemesh"
+msgstr "已为此基础网格初始化头发"
+
+#: ui/haireditorpanel/hairproperties.py:17
+#: ui/haireditorpanel/hairproperties.py:47
+msgid "Input_10"
+msgstr "Input_10"
+
+#: ui/haireditorpanel/hairproperties.py:17
+#: ui/haireditorpanel/hairproperties.py:47
+msgid "Input_11"
+msgstr "Input_11"
+
+#: ui/haireditorpanel/hairproperties.py:17
+#: ui/haireditorpanel/hairproperties.py:47
+msgid "Input_14"
+msgstr "Input_14"
+
+#: ui/haireditorpanel/hairproperties.py:17
+#: ui/haireditorpanel/hairproperties.py:47
+msgid "Input_2"
+msgstr "Input_2"
+
+#: ui/haireditorpanel/hairproperties.py:17
+#: ui/haireditorpanel/hairproperties.py:47
+msgid "Input_3"
+msgstr "Input_3"
+
+#: ui/haireditorpanel/hairproperties.py:17
+#: ui/haireditorpanel/hairproperties.py:47
+msgid "Input_4"
+msgstr "Input_4"
+
+#: ui/haireditorpanel/hairproperties.py:17
+#: ui/haireditorpanel/hairproperties.py:47
+msgid "Input_6"
+msgstr "Input_6"
+
+#: ui/haireditorpanel/hairproperties.py:17
+#: ui/haireditorpanel/hairproperties.py:47
+msgid "Input_7"
+msgstr "Input_7"
+
+#: ui/haireditorpanel/hairproperties.py:17
+#: ui/haireditorpanel/hairproperties.py:47
+msgid "Input_9"
+msgstr "Input_9"
+
+#: ui/apply_assets/assetlibrary/assetsettingspanel.py:71
+msgid "Install assets"
+msgstr "安装资产"
+
+#: ui/apply_assets/assetlibrary/operators/installtarget.py:17
+msgid "Install custom target"
+msgstr "安装自定义目标"
+
+#: ui/create_assets/makeclothes/operators/gendelete.py:23
+msgid "Interpolate"
+msgstr "插值"
+
+#: ui/create_assets/makeclothes/operators/gendelete.py:50
+msgid "Interpolating does not work when clothes have modifiers"
+msgstr "衣物带有修改器时插值不可用"
+
+#: ui/start_here/startherepanel.py:82
+msgid "It seems the system"
+msgstr "系统似乎"
+
+#: ui/developer/operators/loadnodes.py:53
+msgid "JSON data read"
+msgstr "已读取 JSON 数据"
+
+#: ui/operations/boneops/bonestratpanel.py:56
+msgid "Joint"
+msgstr "关节"
+
+#: ui/model/_modelsubpanels.py:87
+msgid "Left:"
+msgstr "左侧："
+
+#: ui/operations/rigops/rigopspanel.py:39
+msgid "Legacy work flow."
+msgstr "旧版工作流程。"
+
+#: ui/developer/operators/listloglevels.py:34
+msgid "Levels were printed to the console"
+msgstr "级别已打印到控制台"
+
+#: ui/apply_assets/assetlibrary/assetsettingspanel.py:27
+msgid "Library Settings"
+msgstr "库设置"
+
+#: ui/create_assets/makerig/operators/savetolibrary.py:42
+msgid "Library rig name must be non-empty and contain only letters, digits, and underscores"
+msgstr "库骨架名称不能为空，且只能包含字母、数字和下划线"
+
+#: ui/operations/faceops/faceopspanel.py:39
+msgid "Lip Sync addon is not enabled"
+msgstr "未启用 Lip Sync 插件"
+
+#: ui/operations/faceops/operators/configurelipsync.py:44
+msgid "Lip Sync configured successfully with all visemes02 shape keys"
+msgstr "已使用所有 visemes02 形态键成功配置 Lip Sync"
+
+#: ui/operations/faceops/operators/configurelipsync.py:32
+msgid "Lip sync addon is not enabled"
+msgstr "未启用 Lip Sync 插件"
+
+#: ui/developer/operators/listloglevels.py:13
+msgid "List log levels"
+msgstr "列出日志级别"
+
+#: ui/apply_assets/assetlibrary/operators/loadlibraryclothes.py:17
+#: ui/apply_assets/assetlibrary/operators/loadlibraryink.py:16
+msgid "Load"
+msgstr "加载"
+
+#: ui/apply_assets/loadclothes/loadclothespanel.py:18
+msgid "Load MHCLO"
+msgstr "加载 MHCLO"
+
+#: ui/apply_assets/assetlibrary/operators/loadlibrarypose.py:17
+msgid "Load Pose"
+msgstr "加载姿势"
+
+#: ui/create_assets/makepose/operators/loadanimation.py:21
+msgid "Load animation"
+msgstr "加载动画"
+
+#: ui/create_assets/makeexpression/operators/load.py:20
+msgid "Load expression"
+msgstr "加载表情"
+
+#: ui/operations/faceops/operators/loadfaceshapekeys.py:16
+msgid "Load face shape keys"
+msgstr "加载面部形态键"
+
+#: ui/developer/operators/loadnodes.py:16
+msgid "Load nodes"
+msgstr "加载节点"
+
+#: ui/apply_assets/assetlibrary/operators/loadpack.py:21
+msgid "Load pack from zip file"
+msgstr "从 ZIP 文件加载包"
+
+#: ui/rigging/applypose/operators/loadpartial.py:16
+msgid "Load partial pose"
+msgstr "加载局部姿势"
+
+#: ui/rigging/applypose/applyposepanel.py:110
+#: ui/rigging/applypose/operators/loadpose.py:16
+msgid "Load pose"
+msgstr "加载姿势"
+
+#: ui/presets/makeuppresets/operators/loadpresets.py:15
+msgid "Load presets"
+msgstr "加载预设"
+
+#: ui/create_assets/makerig/operators/loadrig.py:17
+msgid "Load rig"
+msgstr "加载骨架"
+
+#: ui/new_human/randomize/operators/loadpreset.py:17
+msgid "Load selected preset"
+msgstr "加载所选预设"
+
+#: ui/new_human/importerpresets/operators/loadpresets.py:15
+msgid "Load selected presets"
+msgstr "加载所选预设"
+
+#: ui/developer/operators/loadtarget.py:19
+msgid "Load targets"
+msgstr "加载目标"
+
+#: ui/operations/faceops/faceopspanel.py:47
+msgid "Load visemes02 to enable Lip Sync configuration"
+msgstr "加载 visemes02 以启用 Lip Sync 配置"
+
+#: ui/create_assets/makerig/operators/loadweights.py:18
+msgid "Load weights"
+msgstr "加载权重"
+
+#: ui/create_assets/makerig/rigiopanel.py:14
+msgid "Load/Save rig"
+msgstr "加载/保存骨架"
+
+#: ui/operations/boneops/bonestratpanel.py:19
+msgid "MPFB Bone Strategies"
+msgstr "MPFB 骨骼策略"
+
+#: ui/start_here/startherepanel.py:38
+msgid "MPFB is a human character"
+msgstr "MPFB 是一个人物角色"
+
+#: ui/new_human/randomize/macrodetailspanel.py:15
+msgid "Macrodetails"
+msgstr "宏观细节"
+
+#: ui/operations/animops/operators/makecyclic.py:21
+msgid "Make cyclic"
+msgstr "设为循环"
+
+#: ui/create_assets/makeclothes/makeclothespanel.py:57
+msgid "MakeClothes"
+msgstr "MakeClothes"
+
+#: ui/create_assets/makeexpression/makeexpressionpanel.py:29
+msgid "MakeExpression"
+msgstr "MakeExpression"
+
+#: ui/create_assets/makepose/makeposepanel.py:16
+msgid "MakePose"
+msgstr "MakePose"
+
+#: ui/create_assets/makerig/makerigpanel.py:15
+msgid "MakeRig"
+msgstr "MakeRig"
+
+#: ui/create_assets/makeskin/makeskinpanel.py:21
+msgid "MakeSkin"
+msgstr "MakeSkin"
+
+#: ui/create_assets/maketarget/maketargetpanel.py:17
+msgid "MakeTarget"
+msgstr "MakeTarget"
+
+#: ui/create_assets/makeup/makeuppanel.py:99
+msgid "MakeUp"
+msgstr "MakeUp"
+
+#: ui/create_assets/makeweight/makeweightpanel.py:63
+msgid "MakeWeight"
+msgstr "MakeWeight"
+
+#: ui/presets/makeuppresets/operators/loadpresets.py:51
+msgid "Makeup preset was loaded successfully"
+msgstr "已成功加载化妆预设"
+
+#: ui/presets/makeuppresets/makeuppresetspanel.py:46
+msgid "Makeup save files"
+msgstr "化妆保存文件"
+
+#: ui/operations/matops/operators/removemakeup.py:40
+msgid "Makeup was removed"
+msgstr "化妆已移除"
+
+#: ui/create_assets/makerig/bonespanel.py:15
+msgid "Manage bones"
+msgstr "管理骨骼"
+
+#: ui/presets/presetspanel.py:9
+msgid "Manage save files"
+msgstr "管理保存文件"
+
+#: ui/create_assets/makerig/weightspanel.py:15
+msgid "Manage weights"
+msgstr "管理权重"
+
+#: services/uiservice.py:220
+#: services/uiservice.py:286
+msgid "Match character name"
+msgstr "匹配角色名称"
+
+#: ui/operations/matops/matopspanel.py:18
+msgid "Material"
+msgstr "材质"
+
+#: ui/create_assets/makeskin/operators/importmaterial.py:47
+msgid "Material imported"
+msgstr "材质已导入"
+
+#: ui/create_assets/makeskin/operators/creatematerial.py:41
+msgid "Material was created"
+msgstr "材质已创建"
+
+#: ui/apply_assets/assetlibrary/assetsettingspanel.py:51
+msgid "Materials"
+msgstr "材质"
+
+#: ui/apply_assets/assetlibrary/assetlibrarypanel.py:86
+msgid "Maybe change filter?"
+msgstr "也许要更改筛选器？"
+
+#: ui/operations/boneops/bonestratpanel.py:63
+msgid "Mean"
+msgstr "平均值"
+
+#: ui/new_human/importer/operators/importhuman.py:492
+msgid "Mesh imported"
+msgstr "网格已导入"
+
+#: ui/rigging/rigifyrig/operators/addrigifyrig.py:59
+msgid "Meta rig was added but Rigify considers it invalid; the full rig was not generated."
+msgstr "已添加元骨架，但 Rigify 认为其无效；未生成完整骨架。"
+
+#: ui/new_human/newhuman/frompresetspanel.py:41
+#: ui/new_human/randomize/randomizeproperties.py:366
+msgid "Mixamo"
+msgstr "Mixamo"
+
+#: ui/new_human/newhuman/frompresetspanel.py:42
+#: ui/new_human/randomize/randomizeproperties.py:367
+msgid "Mixamo (unity extensions)"
+msgstr "Mixamo（Unity 扩展）"
+
+#: ui/operations/animops/operators/reduceddoll.py:18
+msgid "Mixamo reduced doll"
+msgstr "Mixamo 简化人偶"
+
+#: ui/model/modelpanel.py:19
+msgid "Model"
+msgstr "模型"
+
+#: ui/haireditorpanel/operators/generate_hair_cards_operator.py:255
+msgid "Modifier inputs not found to set default values."
+msgstr "未找到修改器输入，无法设置默认值。"
+
+#: ui/developer/operators/writecomposite.py:116
+msgid "More than one node selected"
+msgstr "选中了多个节点"
+
+#: ui/create_assets/makerig/operators/movetocube.py:17
+msgid "Move to cubes"
+msgstr "移动到立方体"
+
+#: ui/create_assets/maketarget/operators/writelibtarget.py:52
+#: ui/create_assets/maketarget/operators/writeptarget.py:56
+msgid "Must be in object mode to save target file"
+msgstr "必须处于物体模式才能保存目标文件"
+
+#: ui/create_assets/maketarget/operators/writelibtarget.py:60
+#: ui/create_assets/maketarget/operators/writetarget.py:71
+msgid "Must first create a MakeTarget primary target"
+msgstr "必须先创建 MakeTarget 主目标"
+
+#: ui/create_assets/makeexpression/operators/save.py:47
+#: ui/create_assets/makepose/operators/savepose.py:41
+msgid "Must give a valid name"
+msgstr "必须提供有效的名称"
+
+#: ui/create_assets/makerig/operators/loadrig.py:63
+msgid "Must have a mesh asset as active object"
+msgstr "活动物体必须是网格资产"
+
+#: ui/operations/ai/operators/boundingbox.py:27
+msgid "Must have a mesh object as active object"
+msgstr "活动物体必须是网格物体"
+
+#: ui/presets/enhancedsettings/operators/applysettings.py:28
+#: ui/presets/enhancedsettings/operators/overwritesettings.py:33
+msgid "Must have a selected object"
+msgstr "必须有一个选中的物体"
+
+#: ui/haireditorpanel/operators/apply_fur_operator.py:34
+#: ui/haireditorpanel/operators/apply_hair_operator.py:34
+msgid "Must have an active object"
+msgstr "必须有活动物体"
+
+#: ui/create_assets/makepose/operators/loadanimation.py:31
+#: ui/create_assets/makepose/operators/saveanimation.py:31
+msgid "Must have armature as active object"
+msgstr "活动物体必须是骨架"
+
+#: ui/rigging/rigifyrig/operators/generaterigifyrig.py:38
+msgid "Must have armature object selected"
+msgstr "必须选中骨架物体"
+
+#: ui/create_assets/makerig/operators/saveweights.py:64
+msgid "Must have armature or basemesh as active object"
+msgstr "活动物体必须是骨架或基础网格"
+
+#: ui/operations/poseops/operators/copy_pose.py:46
+msgid "Must have at least one active and one selected object"
+msgstr "至少需要一个活动物体和一个选中物体"
+
+#: ui/create_assets/makerig/operators/loadrig.py:82
+msgid "Must have basemesh as active object"
+msgstr "活动物体必须是基础网格"
+
+#: ui/create_assets/makerig/operators/loadweights.py:38
+msgid "Must have basemesh or rig as active object"
+msgstr "活动物体必须是基础网格或绑定"
+
+#: ui/presets/makeuppresets/operators/genericpresets.py:70
+msgid "Must have basemesh selected"
+msgstr "必须选中基础网格"
+
+#: ui/developer/operators/writematerial.py:51
+msgid "Must provide valid name"
+msgstr "必须提供有效的名称"
+
+#: ui/apply_assets/assetlibrary/operators/installtarget.py:28
+#: ui/apply_assets/assetlibrary/operators/loadpack.py:35
+msgid "Must select a file"
+msgstr "必须选择一个文件"
+
+#: ui/rigging/applypose/operators/loadpartial.py:37
+#: ui/rigging/applypose/operators/loadpose.py:37
+msgid "Must select a valid pose name"
+msgstr "必须选择有效的姿态名称"
+
+#: ui/presets/enhancedsettings/operators/applysettings.py:35
+#: ui/presets/eyesettings/operators/applysettings.py:36
+msgid "Must select settings to load"
+msgstr "必须选择要加载的设置"
+
+#: ui/operations/animops/operators/repeatanim.py:41
+msgid "Must specify a positive number of iterations"
+msgstr "必须指定正数的迭代次数"
+
+#: ui/create_assets/maketarget/operators/createtarget.py:51
+#: ui/create_assets/maketarget/operators/writelibtarget.py:56
+msgid "Must specify the name of the target"
+msgstr "必须指定目标名称"
+
+#: ui/apply_assets/assetspanel.py:47
+msgid "NOTE ABOUT SYSTEM ASSETS"
+msgstr "关于系统资产的说明"
+
+#: ui/create_assets/makeexpression/operators/save.py:53
+#: ui/create_assets/makepose/operators/savepose.py:49
+msgid "Name is invalid, must include alphanumeric characters"
+msgstr "名称无效，必须包含字母数字字符"
+
+#: ui/create_assets/makeexpression/operators/save.py:50
+#: ui/create_assets/makepose/operators/savepose.py:45
+msgid "Name must be given without path"
+msgstr "名称不能包含路径"
+
+#: ui/create_assets/makerig/bonespanel.py:27
+#: ui/create_assets/makerig/operators/movetocube.py:53
+msgid "Need armature as active"
+msgstr "需要骨架为活动物体"
+
+#: ui/create_assets/makeclothes/makeclothespanel.py:167
+msgid "Need xref cache"
+msgstr "需要外部引用缓存"
+
+#: ui/new_human/newpanel.py:9
+msgid "New human"
+msgstr "新建人物"
+
+#: ui/create_assets/makeclothes/operators/checkclothes.py:54
+msgid "No UUID found for the selected clothes"
+msgstr "所选服装未找到 UUID"
+
+#: ui/create_assets/makeup/operators/writeuvmap.py:52
+msgid "No UV map found."
+msgstr "未找到 UV 贴图。"
+
+#: ui/create_assets/makeclothes/operators/writeclotheslibrary.py:51
+msgid "No asset name specified"
+msgstr "未指定资产名称"
+
+#: ui/create_assets/makeclothes/operators/bmxref.py:34
+msgid "No base mesh selected."
+msgstr "未选择基础网格。"
+
+#: ui/apply_assets/assetlibrary/operators/loadlibraryink.py:32
+#: ui/operations/animops/operators/reduceddoll.py:32
+msgid "No basemesh found"
+msgstr "未找到基础网格"
+
+#: ui/create_assets/makeclothes/operators/checkclothes.py:45
+#: ui/create_assets/makeclothes/operators/clothescommon.py:32
+msgid "No basemesh selected"
+msgstr "未选择基础网格"
+
+#: ui/haireditorpanel/haireditorpanel.py:217
+msgid "No basemesh selected."
+msgstr "未选择基础网格。"
+
+#: ui/create_assets/makeclothes/operators/clothescommon.py:49
+msgid "No basemesh xref cache available"
+msgstr "没有可用的基础网格外部引用缓存"
+
+#: ui/create_assets/makeclothes/makeclothespanel.py:207
+msgid "No check performed yet"
+msgstr "尚未执行检查"
+
+#: ui/create_assets/makeclothes/operators/checkclothes.py:49
+#: ui/create_assets/makeclothes/operators/clothescommon.py:36
+msgid "No clothes selected"
+msgstr "未选择服装"
+
+#: ui/rigging/customrig/operators/addcustomrig.py:34
+msgid "No custom rig selected"
+msgstr "未选择自定义绑定"
+
+#: ui/rigging/customrig/customrigpanel.py:53
+msgid "No custom rigs found in user data"
+msgstr "用户数据中未找到自定义绑定"
+
+#: ui/create_assets/makeexpression/operators/load.py:50
+msgid "No expression selected"
+msgstr "未选择表情"
+
+#: ui/developer/operators/loadtarget.py:44
+msgid "No file is selected for import"
+msgstr "未选择要导入的文件"
+
+#: ui/create_assets/makeclothes/operators/writeclothes.py:36
+msgid "No file path specified"
+msgstr "未指定文件路径"
+
+#: ui/developer/operators/writecomposite.py:126
+msgid "No group node selected"
+msgstr "未选择组节点"
+
+#: ui/presets/makeuppresets/operators/genericpresets.py:86
+msgid "No ink layers found in the material"
+msgstr "材质中未找到墨水图层"
+
+#: ui/operations/boneops/bonestratpanel.py:68
+msgid "No match"
+msgstr "无匹配"
+
+#: ui/apply_assets/assetlibrary/assetlibrarypanel.py:85
+msgid "No matching assets."
+msgstr "没有匹配的资产。"
+
+#: ui/new_human/randomize/characterbuilder.py:394
+msgid "No matching full body clothes were found; dressing with separates instead"
+msgstr "未找到匹配的全身服装；改用分件服装"
+
+#: ui/new_human/randomize/characterbuilder.py:203
+msgid "No matching skin was found; the human was created with the default material"
+msgstr "未找到匹配的皮肤；人物已使用默认材质创建"
+
+#: ui/apply_assets/assetlibrary/operators/loadlibraryink.py:38
+msgid "No material found"
+msgstr "未找到材质"
+
+#: ui/create_assets/makeclothes/operators/writeclotheslibrary.py:56
+msgid "No object type set for this asset"
+msgstr "此资产未设置物体类型"
+
+#: ui/new_human/randomize/operators/loadpreset.py:29
+#: ui/new_human/randomize/operators/overwritepreset.py:29
+msgid "No preset is selected"
+msgstr "未选择预设"
+
+#: ui/new_human/newhuman/frompresetspanel.py:35
+#: ui/new_human/randomize/randomizeproperties.py:360
+msgid "No rig"
+msgstr "无绑定"
+
+#: ui/operations/faceops/operators/loadfaceshapekeys.py:34
+msgid "No shape key packs selected"
+msgstr "未选择形态键包"
+
+#: ui/operations/animops/operators/reduceddoll.py:36
+msgid "No skeleton found"
+msgstr "未找到骨骼"
+
+#: ui/operations/boneops/operators/copy_connected_strategy.py:54
+msgid "No suitable matches found."
+msgstr "未找到合适的匹配。"
+
+#: ui/operations/boneops/bonestratpanel.py:148
+msgid "No vertices"
+msgstr "无顶点"
+
+#: ui/operations/boneops/operators/show_strategy_vertices.py:74
+msgid "No vertices to select."
+msgstr "没有可选的顶点。"
+
+#: ui/developer/nodedeveloperpanel.py:18
+msgid "Node developer"
+msgstr "节点开发者"
+
+#: ui/haireditorpanel/hairproperties.py:39
+#: ui/haireditorpanel/hairproperties.py:71
+msgid "Noise Scale"
+msgstr "噪波缩放"
+
+#: ui/operations/matops/operators/setnormalmap.py:39
+msgid "Normalmap added"
+msgstr "已添加法线贴图"
+
+#: ui/rigging/customrig/customrigpanel.py:70
+#: ui/rigging/rigifyrig/rigifyrigpanel.py:80
+msgid "Not applicable for the current state."
+msgstr "不适用于当前状态。"
+
+#: services/rigservice.py:978
+msgid "ORG-toe2-1.L"
+msgstr "ORG-toe2-1.L"
+
+#: ui/haireditorpanel/operators/delete_hair_operator.py:33
+msgid "Object 'Human' must be active"
+msgstr "物体「Human」必须为活动物体"
+
+#: ui/haireditorpanel/operators/apply_material_operator.py:34
+#: ui/haireditorpanel/operators/bake_hair_operator.py:38
+msgid "Object Human must be active"
+msgstr "Human 物体必须是活动物体"
+
+#: ui/create_assets/makeskin/operators/writealternate.py:40
+#: ui/create_assets/makeskin/operators/writelibrary.py:52
+msgid "Object does not have a material"
+msgstr "物体没有材质"
+
+#: ui/create_assets/makeskin/operators/writealternate.py:62
+msgid "Object does not have an asset path"
+msgstr "物体没有资产路径"
+
+#: ui/create_assets/makeskin/operators/writealternate.py:57
+msgid "Object does not have an asset source"
+msgstr "物体没有资产来源"
+
+#: ui/create_assets/makeclothes/makeclothespanel.py:89
+msgid "Object has no material"
+msgstr "物体没有材质"
+
+#: ui/create_assets/makeskin/operators/writealternate.py:52
+msgid "Object is not a makehuman mesh"
+msgstr "物体不是 MakeHuman 网格"
+
+#: ui/operations/boneops/bonestratpanel.py:183
+msgid "Offset:"
+msgstr "偏移："
+
+#: ui/apply_assets/assetlibrary/alternativematerialpanel.py:45
+msgid "Only MH objects supported"
+msgstr "仅支持 MH 物体"
+
+#: ui/apply_assets/assetlibrary/operators/loadlibraryink.py:43
+msgid "Only MakeSkin and Layered Skin materials are supported"
+msgstr "仅支持 MakeSkin 和 Layered Skin 材质"
+
+#: ui/create_assets/makeclothes/makeclothespanel.py:96
+msgid "Only MakeSkin materials"
+msgstr "仅支持 MakeSkin 材质"
+
+#: ui/create_assets/makeup/operators/createink.py:47
+#: ui/create_assets/makeup/operators/writeink.py:55
+msgid "Only MakeSkin materials are supported."
+msgstr "仅支持 MakeSkin 材质。"
+
+#: ui/operations/ai/operators/addvisiblebones.py:190
+msgid "Only OpenPose rig is supported"
+msgstr "仅支持 OpenPose 骨架"
+
+#: ui/apply_assets/assetlibrary/alternativematerialpanel.py:53
+msgid "Only clothes and bodyparts"
+msgstr "仅支持服装和身体部位"
+
+#: ui/operations/ai/operators/saveopenpose.py:137
+msgid "Only default rig is supported"
+msgstr "仅支持默认骨架"
+
+#: ui/operations/animops/animopspanel.py:31
+msgid "Only mixamo armatures supported"
+msgstr "仅支持 Mixamo 骨架"
+
+#: ui/rigging/standardrig/operators/addhelpers.py:58
+msgid "Only the \"Default\" and \"Default no toes\" skeletons are supported so far"
+msgstr "目前仅支持“Default”和“Default no toes”骨架"
+
+#: ui/operations/rigops/operators/converttorigify.py:43
+msgid "Only the \"Game engine\" skeleton is supported so far"
+msgstr "目前仅支持“Game engine”骨架"
+
+#: ui/system/dirresources/operators/dirresource.py:15
+#: ui/system/webresources/operators/webresource.py:14
+msgid "Open"
+msgstr "打开"
+
+#: ui/new_human/newhuman/frompresetspanel.py:45
+#: ui/new_human/randomize/randomizeproperties.py:370
+msgid "OpenPose"
+msgstr "OpenPose"
+
+#: ui/operations/operationspanel.py:9
+msgid "Operations"
+msgstr "操作"
+
+#: ui/presets/humanpresets/operators/overwritepresets.py:19
+#: ui/presets/makeuppresets/operators/overwritepresets.py:12
+msgid "Overwrite presets"
+msgstr "覆盖预设"
+
+#: ui/new_human/randomize/operators/overwritepreset.py:17
+msgid "Overwrite selected preset"
+msgstr "覆盖所选预设"
+
+#: ui/new_human/importerpresets/operators/overwritepresets.py:15
+msgid "Overwrite selected presets"
+msgstr "覆盖所选预设"
+
+#: ui/presets/enhancedsettings/operators/overwritesettings.py:23
+#: ui/presets/eyesettings/operators/overwritesettings.py:20
+msgid "Overwrite settings"
+msgstr "覆盖设置"
+
+#: _preferences.py:34
+msgid "Path to MPFB user data"
+msgstr "MPFB 用户数据路径"
+
+#: _preferences.py:47
+msgid "Path to MakeHuman user data"
+msgstr "MakeHuman 用户数据路径"
+
+#: ui/system/dirresources/operators/dirresource.py:18
+msgid "Path to open"
+msgstr "要打开的路径"
+
+#: ui/operations/poseops/operators/apply_pose.py:33
+msgid "Pose applies"
+msgstr "姿态已应用"
+
+#: ui/operations/poseops/operators/copy_pose.py:64
+msgid "Pose copied"
+msgstr "姿态已复制"
+
+#: ui/apply_assets/assetlibrary/operators/loadlibrarypose.py:50
+msgid "Pose loaded successfully"
+msgstr "姿态加载成功"
+
+#: ui/operations/poseops/poseopspanel.py:18
+msgid "Poses"
+msgstr "姿态"
+
+#: ui/create_assets/makepose/operators/savepose.py:96
+msgid "Posing ungenerated rigify rigs is probably a very bad idea. Better to generate first and pose later."
+msgstr "对未生成的 Rigify 骨架调整姿态可能非常不妥。最好先生成，再调整姿态。"
+
+#: ui/start_here/startherepanel.py:72
+msgid "Preferences -> Add-ons -> MPFB."
+msgstr "偏好设置 -> 插件 -> MPFB。"
+
+#: ui/new_human/randomize/operators/savenewpreset.py:36
+msgid "Preset names should not contain spaces"
+msgstr "预设名称不应包含空格"
+
+#: ui/new_human/randomize/presetspanel.py:15
+msgid "Presets"
+msgstr "预设"
+
+#: ui/presets/humanpresets/operators/overwritepresets.py:37
+#: ui/presets/makeuppresets/operators/loadpresets.py:36
+msgid "Presets must be chosen from the list"
+msgstr "必须从列表中选择预设"
+
+#: ui/new_human/newhuman/operators/humanfrompresets.py:34
+msgid "Presets must be selected"
+msgstr "必须选择预设"
+
+#: ui/presets/makeuppresets/operators/savenewpresets.py:34
+msgid "Presets name must be given"
+msgstr "必须输入预设名称"
+
+#: ui/new_human/importerpresets/operators/savenewpresets.py:34
+msgid "Presets names should not contain spaces"
+msgstr "预设名称不应包含空格"
+
+#: ui/new_human/importerpresets/operators/savenewpresets.py:40
+#: ui/presets/humanpresets/operators/savenewpresets.py:49
+msgid "Presets with that name already exist"
+msgstr "该名称的预设已存在"
+
+#: ui/create_assets/maketarget/operators/createtarget.py:60
+msgid "Primary target created"
+msgstr "主目标已创建"
+
+#: ui/create_assets/maketarget/operators/printtarget.py:15
+msgid "Print target"
+msgstr "打印目标"
+
+#: ui/create_assets/makeclothes/operators/legacyimport.py:59
+msgid "Properties were imported"
+msgstr "属性已导入"
+
+#: ui/apply_assets/assetlibrary/operators/loadlibraryproxy.py:147
+msgid "Proxy was loaded"
+msgstr "代理已加载"
+
+#: ui/apply_assets/assetlibrary/operators/unloadlibraryproxy.py:78
+msgid "Proxy was unloaded"
+msgstr "代理已卸载"
+
+#: ui/model/operators/prunehuman.py:17
+msgid "Prune shapekeys"
+msgstr "清理形态键"
+
+#: ui/versionpanel.py:26
+#: ui/system/systempanel.py:21
+msgid "Python Version: %s"
+msgstr "Python 版本：%s"
+
+#: ui/versionpanel.py:21
+msgid "REQUIRED BLENDER VERSION: %s"
+msgstr "所需的 Blender 版本：%s"
+
+#: ui/new_human/randomize/randomizeproperties.py:742
+msgid "Race settings"
+msgstr "种族设置"
+
+#: ui/new_human/randomize/randomizeproperties.py:870
+msgid "Random area"
+msgstr "随机区域"
+
+#: ui/new_human/randomize/randomizepanel.py:23
+msgid "Random human"
+msgstr "随机人物"
+
+#: ui/operations/boneops/operators/reapply_strategy.py:14
+msgid "Reapply Strategy"
+msgstr "重新应用策略"
+
+#: ui/model/operators/refithuman.py:17
+msgid "Refit assets to basemesh"
+msgstr "将资产重新适配到基础网格"
+
+#: ui/create_assets/makeclothes/operators/clothescommon.py:105
+msgid "Refusing to overwrite existing file without mhclo extension"
+msgstr "拒绝覆盖扩展名不是 mhclo 的现有文件"
+
+#: _preferences.py:77
+msgid "Remember to save preferences before restarting."
+msgstr "记得在重启前保存偏好设置。"
+
+#: ui/rigging/standardrig/operators/removehelpers.py:16
+msgid "Remove helpers"
+msgstr "移除辅助对象"
+
+#: ui/operations/matops/operators/removemakeup.py:19
+msgid "Remove makeup"
+msgstr "移除妆容"
+
+#: ui/operations/animops/operators/repeatanim.py:21
+msgid "Repeat animation"
+msgstr "重复动画"
+
+#: ui/create_assets/makeexpression/operators/reset.py:18
+msgid "Reset all"
+msgstr "全部重置"
+
+#: ui/developer/operators/resetloglevels.py:13
+msgid "Reset log levels"
+msgstr "重置日志级别"
+
+#: ui/apply_assets/assetlibrary/operators/loadlibrarymaterial.py:65
+msgid "Restore the material defined by the asset"
+msgstr "恢复资产定义的材质"
+
+#: ui/developer/operators/rewritenodetypes.py:31
+msgid "Rewrite node types"
+msgstr "重写节点类型"
+
+#: ui/new_human/randomize/creationpanel.py:30
+msgid "Rig"
+msgstr "骨架"
+
+#: ui/operations/rigops/rigopspanel.py:26
+msgid "Rig operations"
+msgstr "骨架操作"
+
+#: ui/new_human/newhuman/operators/humanfrommhm.py:47
+#: ui/new_human/newhuman/operators/humanfrompresets.py:46
+msgid "Rig override set to rigify, but rigify is not enabled."
+msgstr "骨架覆盖设置为 Rigify，但未启用 Rigify。"
+
+#: ui/rigging/rigifyrig/operators/addrigifyrig.py:49
+msgid "Rig was added but the meta rig could not be located for auto-generation."
+msgstr "已添加骨架，但找不到元骨架用于自动生成。"
+
+#: ui/rigging/rigpanel.py:10
+msgid "Rigging"
+msgstr "绑定"
+
+#: ui/model/_modelsubpanels.py:88
+msgid "Right:"
+msgstr "右："
+
+#: ui/operations/rigops/operators/converttorigify.py:22
+msgid "Rigify"
+msgstr "Rigify"
+
+#: ui/new_human/newhuman/operators/humanfrompresets.py:108
+msgid "Rigify considers the loaded meta rig invalid; the full rig was not generated."
+msgstr "Rigify 认为加载的元骨架无效；未生成完整骨架。"
+
+#: ui/rigging/rigifyrig/operators/generaterigifyrig.py:52
+msgid "Rigify considers the meta rig invalid. Check that the rigify configuration on the bones is intact."
+msgstr "Rigify 认为元骨架无效。请检查骨骼上的 Rigify 配置是否完好。"
+
+#: ui/new_human/randomize/characterbuilder.py:275
+msgid "Rigify considers the meta rig invalid; the full rig was not generated."
+msgstr "Rigify 认为加载的元骨架无效；未生成完整骨架。"
+
+#: ui/new_human/newhuman/frompresetspanel.py:43
+#: ui/new_human/randomize/randomizeproperties.py:368
+msgid "Rigify default metarig"
+msgstr "Rigify 默认元骨架"
+
+#: ui/operations/rigops/rigopspanel.py:37
+msgid "Rigify is not enabled"
+msgstr "未启用 Rigify"
+
+#: ui/new_human/newhuman/frompresetspanel.py:44
+#: ui/new_human/randomize/randomizeproperties.py:369
+msgid "Rigify metarig without toes"
+msgstr "Rigify 不含脚趾的元骨架"
+
+#: ui/rigging/rigifyrig/rigifyrigpanel.py:23
+msgid "Rigify rig"
+msgstr "Rigify 骨架"
+
+#: ui/rigging/rigifyrig/operators/addrigifyrig.py:36
+#: ui/rigging/standardrig/operators/addstandardrig.py:30
+msgid "Rigs can only be added to the base mesh"
+msgstr "只能向基础网格添加骨架"
+
+#: ui/haireditorpanel/hairproperties.py:17
+#: ui/haireditorpanel/hairproperties.py:47
+msgid "Roll Hair Curves"
+msgstr "滚动头发曲线"
+
+#: ui/haireditorpanel/hairproperties.py:39
+#: ui/haireditorpanel/hairproperties.py:71
+msgid "Root color length"
+msgstr "根部颜色长度"
+
+#: ui/developer/operators/unittests.py:14
+msgid "Run unit tests"
+msgstr "运行单元测试"
+
+#: ui/apply_assets/assetlibrary/assetlibrarypanel.py:26
+#: ui/model/_modelsubpanels.py:49
+msgid "SHOULD BE OVERRIDDEN"
+msgstr "应被覆盖"
+
+#: ui/create_assets/makerig/weightspanel.py:45
+msgid "SRC rig:"
+msgstr "源骨架："
+
+#: ui/operations/boneops/operators/save_strategy_vertices.py:27
+msgid "Save"
+msgstr "保存"
+
+#: ui/operations/boneops/operators/save_strategy_vertices.py:16
+msgid "Save Vertices"
+msgstr "保存顶点"
+
+#: ui/create_assets/makepose/operators/saveanimation.py:21
+msgid "Save animation"
+msgstr "保存动画"
+
+#: ui/create_assets/makeskin/operators/writematerial.py:17
+msgid "Save as MHMAT"
+msgstr "保存为 MHMAT"
+
+#: ui/create_assets/makeclothes/operators/writeclothes.py:18
+msgid "Save as files"
+msgstr "保存为文件"
+
+#: ui/create_assets/makeexpression/operators/save.py:21
+msgid "Save expression to library"
+msgstr "保存表情到库"
+
+#: ui/new_human/importerpresets/operators/savenewpresets.py:16
+msgid "Save new importer presets"
+msgstr "保存新的导入器预设"
+
+#: ui/new_human/randomize/operators/savenewpreset.py:18
+msgid "Save new preset"
+msgstr "保存新预设"
+
+#: ui/presets/humanpresets/operators/savenewpresets.py:22
+#: ui/presets/makeuppresets/operators/savenewpresets.py:13
+msgid "Save new presets"
+msgstr "保存新预设"
+
+#: ui/presets/enhancedsettings/operators/savenewsettings.py:23
+#: ui/presets/eyesettings/operators/savenewsettings.py:20
+msgid "Save new settings"
+msgstr "保存新设置"
+
+#: ui/developer/operators/savenodes.py:16
+msgid "Save nodes"
+msgstr "保存节点"
+
+#: ui/operations/ai/operators/saveopenpose.py:21
+msgid "Save openpose"
+msgstr "保存 OpenPose"
+
+#: ui/create_assets/makepose/operators/savepose.py:20
+msgid "Save pose"
+msgstr "保存姿态"
+
+#: ui/create_assets/maketarget/operators/writeptarget.py:18
+msgid "Save proxy-specific target"
+msgstr "保存代理专用目标"
+
+#: ui/create_assets/makerig/operators/saverig.py:20
+msgid "Save rig"
+msgstr "保存骨架"
+
+#: ui/create_assets/makerig/operators/savetolibrary.py:22
+msgid "Save rig to library"
+msgstr "保存骨架到库"
+
+#: ui/create_assets/maketarget/operators/writelibtarget.py:20
+#: ui/create_assets/maketarget/operators/writetarget.py:19
+msgid "Save target"
+msgstr "保存目标"
+
+#: ui/create_assets/makerig/operators/saveweights.py:18
+#: ui/create_assets/makeweight/operators/saveweights.py:16
+msgid "Save weights"
+msgstr "保存权重"
+
+#: _preferences.py:40
+msgid "Secondary asset root"
+msgstr "次级资产根目录"
+
+#: ui/create_assets/makeclothes/makeclothespanel.py:90
+msgid "See MakeSkin panel"
+msgstr "参见 MakeSkin 面板"
+
+#: ui/developer/developerpanel.py:93
+msgid "See README in test dir"
+msgstr "参见测试目录中的 README"
+
+#: ui/apply_assets/assetlibrary/assetlibrarypanel.py:160
+#: ui/model/modelpanel.py:67
+msgid "See docs for alternatives"
+msgstr "参见文档了解替代方案"
+
+#: ui/operations/boneops/operators/show_strategy_vertices.py:26
+msgid "Select"
+msgstr "选择"
+
+#: ui/create_assets/makerig/weightspanel.py:25
+#: ui/create_assets/makerig/operators/autotransferweights.py:29
+msgid "Select 2 armatures"
+msgstr "选择 2 个骨架"
+
+#: ui/create_assets/makeclothes/makeclothespanel.py:122
+#: ui/create_assets/makeclothes/makeclothespanel.py:158
+msgid "Select a base mesh"
+msgstr "选择基础网格"
+
+#: ui/create_assets/makeclothes/makeclothespanel.py:126
+#: ui/create_assets/makeclothes/makeclothespanel.py:162
+msgid "Select a clothes type mesh"
+msgstr "选择服装类型网格"
+
+#: ui/apply_assets/assetlibrary/alternativematerialpanel.py:39
+#: ui/apply_assets/assetlibrary/alternativematerialpanel.py:49
+msgid "Select a mesh object"
+msgstr "选择网格物体"
+
+#: ui/create_assets/makerig/bonespanel.py:40
+#: ui/create_assets/makerig/operators/movetocube.py:66
+msgid "Select basemesh too"
+msgstr "也选择基础网格"
+
+#: ui/create_assets/makerig/bonespanel.py:48
+#: ui/create_assets/makerig/operators/movetocube.py:74
+msgid "Select exactly one bone"
+msgstr "选择恰好一个骨骼"
+
+#: ui/operations/animops/operators/mapmixamo.py:54
+msgid "Select exactly two armatures"
+msgstr "选择恰好两个骨架"
+
+#: ui/create_assets/makeclothes/makeclothespanel.py:108
+#: ui/create_assets/makeclothes/makeclothespanel.py:154
+msgid "Select exactly two objects"
+msgstr "选择恰好两个物体"
+
+#: ui/operations/animops/animopspanel.py:28
+msgid "Select two mixamo armatures"
+msgstr "选择两个 Mixamo 骨架"
+
+#: ui/presets/humanpresets/operators/overwritepresets.py:57
+#: ui/presets/humanpresets/operators/savenewpresets.py:66
+msgid "Serializing a generated rig might cause issues. The preset was saved, but you should load it and see if it is correct."
+msgstr "序列化生成的骨架可能引发问题。预设已保存，但你应加载它并检查是否正确。"
+
+#: ui/operations/boneops/operators/set_bone_end_offset.py:17
+msgid "Set Bone End Offset"
+msgstr "设置骨骼末端偏移"
+
+#: ui/operations/boneops/operators/set_bone_end_strategy.py:16
+msgid "Set Bone End Strategy"
+msgstr "设置骨骼末端策略"
+
+#: ui/haireditorpanel/hairproperties.py:17
+#: ui/haireditorpanel/hairproperties.py:47
+msgid "Set Hair Curve Profile"
+msgstr "设置头发曲线轮廓"
+
+#: ui/operations/boneops/operators/set_roll_strategy.py:17
+msgid "Set Roll Strategy"
+msgstr "设置滚转策略"
+
+#: ui/developer/operators/setloglevel.py:14
+msgid "Set log level"
+msgstr "设置日志级别"
+
+#: ui/operations/matops/operators/setnormalmap.py:19
+msgid "Set normalmap"
+msgstr "设置法线贴图"
+
+#: ui/model/_modelsubpanels.py:401
+#: ui/model/_modelsubpanels.py:404
+msgid "Set target value"
+msgstr "设置目标值"
+
+#: ui/apply_assets/assetlibrary/operators/loadlibraryclothes.py:57
+#: ui/apply_assets/assetlibrary/operators/loadlibraryproxy.py:61
+msgid "Set up delete group is enabled, but active object is not a base mesh"
+msgstr "删除组设置已启用，但活动物体不是基础网格"
+
+#: ui/operations/sculpt/sculptpanel.py:18
+msgid "Set up for sculpt"
+msgstr "设置用于雕刻"
+
+#: ui/operations/sculpt/operators/setupsculpt.py:20
+msgid "Set up mesh for sculpt"
+msgstr "设置网格用于雕刻"
+
+#: ui/presets/enhancedsettings/operators/applysettings.py:42
+#: ui/presets/eyesettings/operators/applysettings.py:43
+msgid "Settings did not exist!?"
+msgstr "设置不存在！？"
+
+#: ui/presets/enhancedsettings/operators/overwritesettings.py:41
+#: ui/presets/eyesettings/operators/overwritesettings.py:38
+msgid "Settings must be chosen from the list"
+msgstr "必须从列表中选择设置"
+
+#: ui/presets/enhancedsettings/operators/savenewsettings.py:50
+#: ui/presets/eyesettings/operators/savenewsettings.py:47
+msgid "Settings with that name already exist"
+msgstr "该名称的设置已存在"
+
+#: ui/operations/sculpt/operators/setupsculpt.py:303
+msgid "Setup finished"
+msgstr "设置完成"
+
+#: ui/operations/sculpt/operators/setupsculpt.py:301
+msgid "Setup has finished, but note that the sculpt object still has materials. This may cause artifacts when baking a normal map."
+msgstr "设置已完成，但请注意雕刻物体仍有材质。烘焙法线贴图时可能导致伪影。"
+
+#: ui/haireditorpanel/haireditorpanel.py:31
+msgid "Setup mesh for hair editing"
+msgstr "设置网格用于头发编辑"
+
+#: ui/model/operators/prunehuman.py:29
+msgid "Shape keys have tidied up"
+msgstr "形态键已整理"
+
+#: _preferences.py:66
+msgid "Shelf label"
+msgstr "架标签"
+
+#: ui/operations/boneops/operators/show_strategy_vertices.py:16
+msgid "Show Strategy Vertices"
+msgstr "显示策略顶点"
+
+#: _preferences.py:28
+msgid "Show the \"Start here\" panel"
+msgstr "显示“从这里开始”面板"
+
+#: _preferences.py:28
+msgid "Show the introductory \"Start here\" panel at the top of the MPFB tab. Uncheck it to hide the panel, or check it to bring it back"
+msgstr "在 MPFB 选项卡顶部显示介绍性的“从这里开始”面板。取消勾选以隐藏面板，勾选以重新显示"
+
+#: ui/operations/animops/operators/reduceddoll.py:73
+msgid "Skeleton is not a mixamo rig. This is probably not suitable for upload to Mixamo."
+msgstr "骨架不是 Mixamo 绑定。这可能不适合上传到 Mixamo。"
+
+#: ui/developer/operators/replacewithskin.py:18
+#: ui/new_human/randomize/skinpanel.py:15
+msgid "Skin"
+msgstr "皮肤"
+
+#: ui/presets/enhancedsettings/enhancedsettingspanel.py:35
+msgid "Skin material save files"
+msgstr "皮肤材质保存文件"
+
+#: ui/apply_assets/assetlibrary/operators/loadlibraryskin.py:54
+msgid "Skin was loaded"
+msgstr "皮肤已加载"
+
+#: ui/operations/animops/operators/mapmixamo.py:40
+msgid "Snap to mixamo"
+msgstr "吸附到 Mixamo"
+
+#: ui/haireditorpanel/hairproperties.py:17
+#: ui/haireditorpanel/hairproperties.py:47
+msgid "Socket_0"
+msgstr "Socket_0"
+
+#: ui/haireditorpanel/hairproperties.py:17
+#: ui/haireditorpanel/hairproperties.py:47
+msgid "Socket_1"
+msgstr "Socket_1"
+
+#: ui/haireditorpanel/hairproperties.py:47
+#: ui/haireditorpanel/operators/generate_hair_cards_operator.py:228
+msgid "Socket_2"
+msgstr "Socket_2"
+
+#: ui/haireditorpanel/hairproperties.py:47
+#: ui/haireditorpanel/operators/generate_hair_cards_operator.py:228
+msgid "Socket_3"
+msgstr "Socket_3"
+
+#: ui/haireditorpanel/operators/generate_hair_cards_operator.py:228
+msgid "Socket_4"
+msgstr "Socket_4"
+
+#: ui/apply_assets/assetlibrary/assetsettingspanel.py:85
+msgid "Something looking like a"
+msgstr "看起来像是一个"
+
+#: ui/apply_assets/assetlibrary/assetsettingspanel.py:101
+msgid "Something unforeseen was"
+msgstr "发生了未预料的情况"
+
+#: ui/operations/animops/animopspanel.py:49
+msgid "Source: %s"
+msgstr "来源：%s"
+
+#: ui/rigging/standardrig/standardrigpanel.py:26
+msgid "Standard rig"
+msgstr "标准骨架"
+
+#: ui/start_here/startherepanel.py:16
+msgid "Start here"
+msgstr "从这里开始"
+
+#: ui/create_assets/makeskin/operators/writealternate.py:22
+msgid "Store as alternate"
+msgstr "存储为替代项"
+
+#: ui/create_assets/makeskin/operators/writelibrary.py:22
+msgid "Store as skin"
+msgstr "存储为皮肤"
+
+#: ui/create_assets/makeclothes/operators/writeclotheslibrary.py:23
+msgid "Store in library"
+msgstr "存储到库"
+
+#: ui/operations/boneops/operators/set_bone_end_strategy.py:20
+#: ui/operations/boneops/operators/set_roll_strategy.py:20
+msgid "Strategy"
+msgstr "策略"
+
+#: ui/operations/boneops/bonestratpanel.py:43
+msgid "Strategy:"
+msgstr "策略："
+
+#: ui/new_human/randomize/creationpanel.py:44
+msgid "Subdivision"
+msgstr "细分"
+
+#: ui/operations/boneops/operators/save_strategy_vertices.py:26
+msgid "Switch"
+msgstr "切换"
+
+#: ui/apply_assets/assetlibrary/assetsettingspanel.py:80
+msgid "Switch off auto-unpacking"
+msgstr "关闭自动解包"
+
+#: ui/system/systempanel.py:12
+msgid "System and resources"
+msgstr "系统与资源"
+
+#: ui/operations/boneops/operators/reapply_strategy.py:17
+#: ui/operations/boneops/operators/save_strategy_vertices.py:28
+msgid "Tail"
+msgstr "尾部"
+
+#: ui/create_assets/maketarget/operators/printtarget.py:47
+msgid "Target printed to console"
+msgstr "目标已输出到控制台"
+
+#: ui/create_assets/maketarget/operators/symmetrizeleft.py:44
+#: ui/create_assets/maketarget/operators/symmetrizeright.py:44
+msgid "Target symmetrized"
+msgstr "目标已对称化"
+
+#: ui/create_assets/maketarget/operators/importptarget.py:64
+#: ui/create_assets/maketarget/operators/importtarget.py:64
+msgid "Target was imported as shape key"
+msgstr "目标已作为形态键导入"
+
+#: ui/create_assets/maketarget/operators/writelibtarget.py:75
+msgid "Target was saved as custom target, but you need to restart Blender for it to be visible"
+msgstr "目标已保存为自定义目标，但需要重启 Blender 才能显示"
+
+#: ui/developer/operators/loadtarget.py:60
+msgid "Targets were imported as shape keys"
+msgstr "目标已作为形态键导入"
+
+#: ui/haireditorpanel/hairproperties.py:71
+msgid "Texture File Path"
+msgstr "纹理文件路径"
+
+#: ui/apply_assets/assetlibrary/assetlibrarypanel.py:46
+#: ui/rigging/applypose/applyposepanel.py:141
+msgid "The BVH addon is not enabled"
+msgstr "BVH 插件未启用"
+
+#: ui/rigging/applypose/operators/loadmhbvh.py:33
+msgid "The BVH importer addon is not enabled. Go to Edit > Preferences > Add-ons and enable 'BVH format'."
+msgstr "BVH 导入器插件未启用。转到“编辑 > 偏好设置 > 插件”，启用“BVH 格式”。"
+
+#: ui/new_human/newhuman/frompresetspanel.py:42
+#: ui/new_human/randomize/randomizeproperties.py:367
+msgid "The Mixamo rig with extra bones for unity"
+msgstr "用于 Unity 的带额外骨骼的 Mixamo 骨架"
+
+#: ui/create_assets/makeup/operators/createink.py:37
+#: ui/create_assets/makeup/operators/writeink.py:45
+msgid "The active object is not a basemesh."
+msgstr "活动物体不是基础网格。"
+
+#: services/objectservice.py:762
+msgid "The armature is neither a sub-rig nor main skeleton."
+msgstr "骨架既不是子骨架也不是主骨架。"
+
+#: ui/operations/ai/operators/saveopenpose.py:147
+msgid "The base mesh has a mask modifier hiding the body. Maybe unequip a proxy?"
+msgstr "基础网格有隐藏身体的遮罩修改器。也许需要卸下某个代理？"
+
+#: ui/start_here/startherepanel.py:43
+msgid "The buttons below will open"
+msgstr "下面的按钮将打开"
+
+#: ui/new_human/randomize/characterbuilder.py:268
+msgid "The created character has a rigify meta rig, but the Rigify addon is not enabled."
+msgstr "创建的角色具有 Rigify 元骨架，但未启用 Rigify 插件。"
+
+#: ui/create_assets/makerig/operators/saveweights.py:78
+msgid "The evaluated mesh has a different vertex count"
+msgstr "求值后的网格顶点数不同"
+
+#: ui/apply_assets/useexpression/useexpressionpanel.py:32
+msgid "The faceunits01 asset pack is not installed."
+msgstr "faceunits01 资产包未安装。"
+
+#: ui/apply_assets/assetlibrary/operators/loadlibraryink.py:50
+msgid "The ink layer was loaded, but it will not be visible on a proxy/topology mesh."
+msgstr "墨水层已加载，但在代理/拓扑网格上不可见。"
+
+#: ui/create_assets/makeup/operators/writeink.py:72
+msgid "The ink layer's focus could not be found in the library."
+msgstr "无法在库中找到墨水层的焦点。"
+
+#: ui/new_human/newhuman/operators/humanfrompresets.py:110
+msgid "The loaded character has a rigify meta rig, but the Rigify addon is not enabled. Enable it under Edit > Preferences > Add-ons and click Generate manually to obtain the full rig."
+msgstr "加载的角色具有 Rigify 元骨架，但未启用 Rigify 插件。请在“编辑 > 偏好设置 > 插件”中启用它，并手动点击“生成”以获得完整骨架。"
+
+#: ui/create_assets/makeskin/operators/writealternate.py:44
+#: ui/create_assets/makeskin/operators/writelibrary.py:34
+msgid "The material must have a name"
+msgstr "材质必须有名称"
+
+#: ui/create_assets/makeup/operators/writeuvmap.py:44
+msgid "The mesh object does not have a vertex group called 'uvmap'."
+msgstr "网格物体没有名为“uvmap”的顶点组。"
+
+#: ui/create_assets/makeup/operators/createink.py:42
+#: ui/create_assets/makeup/operators/writeink.py:50
+msgid "The mesh object does not have any materials."
+msgstr "网格物体没有任何材质。"
+
+#: ui/new_human/randomize/operators/createrandombatch.py:124
+msgid "The number of characters must be at least 1."
+msgstr "角色数量必须至少为 1。"
+
+#: ui/operations/rigops/operators/converttorigify.py:33
+#: ui/rigging/rigifyrig/operators/addrigifyrig.py:28
+msgid "The rigify addon isn't enabled. You need to enable it under preferences."
+msgstr "Rigify 插件未启用。您需要在偏好设置中启用它。"
+
+#: ui/new_human/randomize/characterbuilder.py:325
+msgid "The selected eyes are not installed; no eyes were added"
+msgstr "所选眼睛未安装；未添加眼睛"
+
+#: ui/create_assets/makeclothes/operators/clothescommon.py:44
+msgid "The selected object is not valid as clothes. Perform clothes check?"
+msgstr "所选物体不能作为服装使用。是否执行服装检查？"
+
+#: ui/operations/matops/operators/removemakeup.py:33
+#: ui/operations/matops/operators/setnormalmap.py:32
+msgid "The selected object needs to have a material"
+msgstr "所选物体必须有材质"
+
+#: ui/operations/animops/operators/mapmixamo.py:123
+msgid "The source and destination rigs do not have exactly the same set of bones. This might cause issues when animating."
+msgstr "源骨架和目标骨架的骨骼集合不完全相同。这可能会在制作动画时导致问题。"
+
+#: ui/start_here/operators/dismissstarthere.py:22
+msgid "The start here panel is now hidden. You can bring it back under Preferences -> Add-ons -> MPFB."
+msgstr "“从这里开始”面板现已隐藏。您可以在 偏好设置 -> 插件 -> MPFB 下重新显示它。"
+
+#: ui/apply_assets/assetlibrary/operators/installtarget.py:50
+msgid "The target has been installed, but Blender needs to be restarted for it to be visible."
+msgstr "目标已安装，但需要重启 Blender 才能使其可见。"
+
+#: ui/create_assets/makeclothes/operators/bmxref.py:50
+msgid "The xref cache was created."
+msgstr "xref 缓存已创建。"
+
+#: ui/apply_assets/assetlibrary/assetsettingspanel.py:92
+msgid "There is no packs dir"
+msgstr "没有 packs 目录"
+
+#: ui/new_human/importer/importerpanel.py:79
+msgid "This feature requires"
+msgstr "此功能需要"
+
+#: _preferences.py:60
+msgid "This is mainly geared towards developers. Enable this to output warnings to the log for when an operator or a panel does not use code robustness wrappers"
+msgstr "这主要面向开发者。启用后，当操作符或面板未使用代码健壮性包装器时，会向日志输出警告。"
+
+#: ui/apply_assets/assetlibrary/assetsettingspanel.py:94
+msgid "This makes it unlikely"
+msgstr "这使其不太可能"
+
+#: ui/developer/operators/loadnodes.py:36
+msgid "This object already has a material"
+msgstr "此物体已有材质"
+
+#: ui/developer/operators/savenodes.py:36
+msgid "This object does not have any material"
+msgstr "此物体没有任何材质"
+
+#: ui/developer/operators/savenodes.py:39
+msgid "This object has more than one material"
+msgstr "此物体有多个材质"
+
+#: ui/operations/boneops/operators/abstract.py:190
+msgid "This strategy does not produce a valid position"
+msgstr "此策略不会产生有效位置"
+
+#: ui/start_here/startherepanel.py:71
+msgid "To get it back, see Blender"
+msgstr "要恢复它，请参阅 Blender"
+
+#: ui/versionpanel.py:13
+msgid "Too old blender"
+msgstr "Blender 版本太旧"
+
+#: ui/create_assets/makeweight/operators/truncateweights.py:21
+msgid "Truncate"
+msgstr "截断"
+
+#: ui/apply_assets/assetlibrary/operators/unloadlibraryclothes.py:17
+#: ui/apply_assets/assetlibrary/operators/unloadlibraryproxy.py:17
+msgid "Unequip"
+msgstr "卸下"
+
+#: ui/developer/operators/unittests.py:28
+msgid "Unit tests have finished without error. See console output for results."
+msgstr "单元测试已无错误完成。请查看控制台输出以获取结果。"
+
+#: ui/operations/boneops/bonestratpanel.py:70
+msgid "Unknown"
+msgstr "未知"
+
+#: ui/rigging/customrig/customrigpanel.py:54
+msgid "Use MakeRig to create and save a rig to library"
+msgstr "使用 MakeRig 创建骨架并将其保存到库中"
+
+#: ui/haireditorpanel/hairproperties.py:71
+msgid "Use Texture Instead of Colors"
+msgstr "使用纹理代替颜色"
+
+#: ui/developer/developerpanel.py:76
+msgid "Use default for combined log"
+msgstr "组合日志使用默认值"
+
+#: ui/new_human/newhuman/frompresetspanel.py:45
+#: ui/new_human/randomize/randomizeproperties.py:370
+msgid "Use the OpenPose BODY_25 rig (without hands)"
+msgstr "使用 OpenPose BODY_25 骨架（不含手部）"
+
+#: ui/new_human/newhuman/frompresetspanel.py:40
+#: ui/new_human/randomize/randomizeproperties.py:365
+msgid "Use the cmu_mb rig"
+msgstr "使用 cmu_mb 骨架"
+
+#: ui/new_human/newhuman/frompresetspanel.py:36
+#: ui/new_human/randomize/randomizeproperties.py:361
+msgid "Use the default rig"
+msgstr "使用默认骨架"
+
+#: ui/new_human/newhuman/frompresetspanel.py:43
+#: ui/new_human/randomize/randomizeproperties.py:368
+msgid "Use the default rigify metarig"
+msgstr "使用默认 Rigify 元骨架"
+
+#: ui/new_human/newhuman/frompresetspanel.py:44
+#: ui/new_human/randomize/randomizeproperties.py:369
+msgid "Use the default rigify metarig without toes"
+msgstr "使用不含脚趾的默认 Rigify 元骨架"
+
+#: ui/new_human/newhuman/frompresetspanel.py:37
+#: ui/new_human/randomize/randomizeproperties.py:362
+msgid "Use the default_no_toes rig"
+msgstr "使用 default_no_toes 骨架"
+
+#: ui/new_human/newhuman/frompresetspanel.py:38
+#: ui/new_human/randomize/randomizeproperties.py:363
+msgid "Use the game_engine rig"
+msgstr "使用 game_engine 骨架"
+
+#: ui/new_human/newhuman/frompresetspanel.py:39
+#: ui/new_human/randomize/randomizeproperties.py:364
+msgid "Use the game_engine_with_breast rig"
+msgstr "使用 game_engine_with_breast 骨架"
+
+#: ui/new_human/newhuman/frompresetspanel.py:41
+#: ui/new_human/randomize/randomizeproperties.py:366
+msgid "Use the mixamo rig"
+msgstr "使用 mixamo 骨架"
+
+#: ui/new_human/newhuman/frompresetspanel.py:34
+msgid "Use the rig specified in the preset"
+msgstr "使用预设中指定的骨架"
+
+#: services/uiservice.py:156
+msgid "Use ui settings"
+msgstr "使用 UI 设置"
+
+#: ui/apply_assets/useexpression/useexpressionpanel.py:65
+#: ui/model/_modelsubpanels.py:90
+msgid "Value:"
+msgstr "值："
+
+#: ui/operations/boneops/bonestratpanel.py:60
+msgid "Vertex"
+msgstr "顶点"
+
+#: ui/create_assets/makeclothes/makeclothespanel.py:217
+msgid "WARNINGS:"
+msgstr "警告："
+
+#: ui/apply_assets/assetlibrary/assetsettingspanel.py:88
+msgid "Was it re-packaged with"
+msgstr "是否使用以下内容重新打包"
+
+#: ui/system/webresources/webresourcespanel.py:13
+msgid "Web resources"
+msgstr "网络资源"
+
+#: ui/developer/operators/loadtarget.py:26
+msgid "Weight"
+msgstr "权重"
+
+#: ui/create_assets/makeweight/operators/importweights.py:51
+msgid "Weight file was imported"
+msgstr "权重文件已导入"
+
+#: ui/create_assets/makeweight/operators/symmetrizeleft.py:43
+#: ui/create_assets/makeweight/operators/symmetrizeright.py:43
+msgid "Weight symmetrized"
+msgstr "权重已对称化"
+
+#: ui/create_assets/makerig/operators/loadweights.py:71
+msgid "Weights applied"
+msgstr "权重已应用"
+
+#: ui/create_assets/makeweight/operators/truncateweights.py:57
+msgid "Weights were removed"
+msgstr "权重已移除"
+
+#: ui/create_assets/makeup/operators/writeuvmap.py:23
+msgid "Write UV map"
+msgstr "写入 UV 贴图"
+
+#: ui/developer/operators/writecomposite.py:83
+msgid "Write composite"
+msgstr "写入合成"
+
+#: ui/create_assets/makeup/operators/writeink.py:22
+msgid "Write ink layer"
+msgstr "写入墨水层"
+
+#: ui/developer/operators/writematerial.py:22
+msgid "Write material"
+msgstr "写入材质"
+
+#: ui/operations/boneops/bonestratpanel.py:66
+msgid "XYZ"
+msgstr "XYZ"
+
+#: _preferences.py:76
+msgid "You need to restart blender before some of these changes come into effect."
+msgstr "您需要重启 Blender，部分更改才会生效。"
+
+#: ui/start_here/startherepanel.py:44
+msgid "a web browser at a specific"
+msgstr "在特定"
+
+#: ui/start_here/startherepanel.py:45
+msgid "address. If the browser does"
+msgstr "地址。如果浏览器也"
+
+#: ui/start_here/startherepanel.py:41
+msgid "also commercially"
+msgstr "用于商业用途"
+
+#: ui/start_here/startherepanel.py:86
+msgid "and install this before"
+msgstr "并在此之前安装此内容"
+
+#: ui/apply_assets/assetlibrary/assetsettingspanel.py:81
+msgid "and/or auto-opening zips"
+msgstr "和/或自动打开的 zip 文件"
+
+#: ui/create_assets/makeclothes/makeclothespanel.py:97
+msgid "are supported"
+msgstr "受支持"
+
+#: ui/start_here/startherepanel.py:83
+msgid "asset pack is not"
+msgstr "资源包未"
+
+#: ui/apply_assets/assetlibrary/assetsettingspanel.py:96
+msgid "asset pack."
+msgstr "资源包。"
+
+#: ui/haireditorpanel/haireditorpanel.py:223
+msgid "asset packs page."
+msgstr "资源包页面。"
+
+#: ui/start_here/startherepanel.py:40
+msgid "assets are free to use,"
+msgstr "资源可免费使用，"
+
+#: ui/apply_assets/assetlibrary/assetsettingspanel.py:93
+msgid "at root level in this zip."
+msgstr "在此 zip 的根层级。"
+
+#: services/faceservice.py:117
+msgid "browDownLeft"
+msgstr "左眉下压"
+
+#: services/faceservice.py:117
+msgid "browInnerUp"
+msgstr "眉内侧上抬"
+
+#: services/faceservice.py:117
+msgid "cheekPuff"
+msgstr "鼓腮"
+
+#: services/faceservice.py:117
+msgid "cheekSquintLeft"
+msgstr "左颊上提"
+
+#: ui/apply_assets/assetlibrary/assetsettingspanel.py:79
+msgid "corrupted by Safari."
+msgstr "被 Safari 损坏。"
+
+#: ui/apply_assets/assetlibrary/assetsettingspanel.py:106
+msgid "directory was found at any"
+msgstr "目录在任意"
+
+#: ui/apply_assets/assetlibrary/assetsettingspanel.py:107
+msgid "expected location."
+msgstr "预期位置找到。"
+
+#: services/faceservice.py:117
+msgid "eyeBlinkLeft"
+msgstr "左眼眨眼"
+
+#: services/faceservice.py:117
+msgid "eyeBlinkRight"
+msgstr "右眼眨眼"
+
+#: ui/apply_assets/loadclothes/operators/loadclothes.py:146
+msgid "failed to import the clothes mesh"
+msgstr "导入服装网格失败"
+
+#: ui/apply_assets/assetlibrary/operators/loadlibraryproxy.py:83
+msgid "failed to import the proxy"
+msgstr "导入代理失败"
+
+#: ui/create_assets/makeup/makeuppanel.py:48
+msgid "full body focus"
+msgstr "全身聚焦"
+
+#: ui/apply_assets/assetlibrary/assetsettingspanel.py:82
+msgid "in Safari and download"
+msgstr "在 Safari 中下载"
+
+#: ui/apply_assets/assetlibrary/assetsettingspanel.py:78
+msgid "indication it has been"
+msgstr "表明它已被"
+
+#: ui/start_here/startherepanel.py:84
+msgid "installed. Chances are"
+msgstr "安装。很可能"
+
+#: ui/haireditorpanel/haireditorpanel.py:222
+msgid "installed. Download from"
+msgstr "安装。从以下位置下载"
+
+#: ui/apply_assets/assetlibrary/operators/loadlibraryclothes.py:61
+#: ui/apply_assets/assetlibrary/operators/loadlibraryproxy.py:65
+msgid "interpolate weights is enabled, but active object is not a base mesh"
+msgstr "已启用插值权重，但活动物体不是基础网格"
+
+#: services/faceservice.py:117
+msgid "jawForward"
+msgstr "下颌前伸"
+
+#: services/faceservice.py:117
+msgid "jawOpen"
+msgstr "下颌张开"
+
+#: ui/apply_assets/assetlibrary/assetsettingspanel.py:77
+msgid "metadata, which is a strong"
+msgstr "元数据，这是有力的"
+
+#: services/rigservice.py:973
+msgid "mixamorig:LeftBreast"
+msgstr "mixamorig:LeftBreast"
+
+#: ui/start_here/startherepanel.py:39
+msgid "modeler. Characters and"
+msgstr "建模师。角色和"
+
+#: services/faceservice.py:117
+msgid "mouthClose"
+msgstr "闭嘴"
+
+#: services/faceservice.py:117
+msgid "mouthFunnel"
+msgstr "嘴部漏斗"
+
+#: services/faceservice.py:117
+msgid "noseSneerLeft"
+msgstr "左鼻翼皱起"
+
+#: services/faceservice.py:117
+msgid "noseSneerRight"
+msgstr "右鼻翼皱起"
+
+#: ui/start_here/startherepanel.py:46
+msgid "not show, make sure it is not."
+msgstr "不显示，确保它不是。"
+
+#: ui/apply_assets/assetlibrary/assetsettingspanel.py:89
+msgid "one directory level"
+msgstr "一级目录"
+
+#: ui/rigging/customrig/customrigpanel.py:51
+msgid "or imported from elsewhere."
+msgstr "或从其他地方导入。"
+
+#: ui/apply_assets/assetlibrary/assetsettingspanel.py:86
+msgid "pack name was found at"
+msgstr "找到资源包名称位于"
+
+#: ui/apply_assets/assetlibrary/assetsettingspanel.py:99
+msgid "possible to open."
+msgstr "可以打开。"
+
+#: ui/new_human/importer/importerpanel.py:81
+msgid "preference is enabled."
+msgstr "偏好设置已启用。"
+
+#: ui/apply_assets/assetlibrary/assetsettingspanel.py:87
+msgid "root level in this zip."
+msgstr "此 zip 的根层级。"
+
+#: ui/apply_assets/assetlibrary/operators/loadlibraryclothes.py:65
+#: ui/apply_assets/assetlibrary/operators/loadlibraryproxy.py:69
+msgid "set up rigging is enabled, but could not find a rig to attach to"
+msgstr "已启用设置绑定，但找不到可附加的骨架"
+
+#: ui/apply_assets/assetlibrary/assetsettingspanel.py:95
+msgid "that it is a valid"
+msgstr "它是有效的"
+
+#: ui/new_human/importer/importerpanel.py:80
+msgid "that the 'allow online access'"
+msgstr "“允许在线访问”"
+
+#: ui/apply_assets/assetlibrary/assetsettingspanel.py:83
+msgid "the asset pack zip again."
+msgstr "再次下载资源包 zip。"
+
+#: services/logservice.py:333
+msgid "the default log level"
+msgstr "默认日志级别"
+
+#: services/uiservice.py:130
+#: services/uiservice.py:157
+msgid "the default presets"
+msgstr "默认预设"
+
+#: services/uiservice.py:221
+#: services/uiservice.py:287
+msgid "the default presets. This will make fingernails smoother than the skin."
+msgstr "默认预设。这会使指甲比皮肤更平滑。"
+
+#: services/uiservice.py:194
+#: services/uiservice.py:260
+msgid "the default settings"
+msgstr "默认设置"
+
+#: ui/apply_assets/assetlibrary/assetsettingspanel.py:105
+msgid "the zip structure. No packs"
+msgstr "zip 结构。没有资源包"
+
+#: ui/rigging/rigifyrig/rigifyrigpanel.py:32
+msgid "to use this workflow."
+msgstr "使用此工作流。"
+
+#: services/rigservice.py:967
+#: services/rigservice.py:975
+msgid "toe2-1.L"
+msgstr "toe2-1.L"
+
+#: ui/apply_assets/assetlibrary/assetsettingspanel.py:90
+msgid "too many?"
+msgstr "太多了？"
+
+#: ui/apply_assets/assetlibrary/assetsettingspanel.py:110
+msgid "trying to fix the zip."
+msgstr "尝试修复 zip。"
+
+#: ui/apply_assets/assetlibrary/operators/loadlibraryclothes.py:22
+#: ui/apply_assets/assetlibrary/operators/loadlibraryink.py:21
+msgid "type of material"
+msgstr "材质类型"
+
+#: ui/apply_assets/assetlibrary/operators/loadlibraryclothes.py:21
+#: ui/apply_assets/assetlibrary/operators/loadlibraryink.py:20
+msgid "type of the object"
+msgstr "物体类型"
+
+#: services/uiservice.py:156
+msgid "use the settings currently set in the UI"
+msgstr "使用 UI 中当前设置"
+
+#: services/uiservice.py:222
+msgid "use the settings currently set in the UI. This will for example leave skin pores on fingernails."
+msgstr "使用 UI 中当前设置。例如，这会在指甲上保留皮肤毛孔。"
+
+#: ui/apply_assets/assetlibrary/assetsettingspanel.py:102
+msgid "wrong with the zip file."
+msgstr "zip 文件有问题。"
+
+#: ui/start_here/startherepanel.py:85
+msgid "you want to download"
+msgstr "要下载的"
+
+#: ui/haireditorpanel/operators/apply_fur_operator.py:26
+msgctxt "Operator"
+msgid "Apply fur"
+msgstr "应用毛发"
+
+#: ui/haireditorpanel/operators/apply_hair_operator.py:26
+msgctxt "Operator"
+msgid "Apply hair"
+msgstr "应用头发"
+
+#: ui/haireditorpanel/operators/apply_material_operator.py:20
+msgctxt "Operator"
+msgid "Apply material"
+msgstr "应用材质"
+
+#: ui/haireditorpanel/operators/bake_hair_operator.py:25
+msgctxt "Operator"
+msgid "Bake hair cards"
+msgstr "烘焙头发卡片"
+
+#: ui/start_here/startherepanel.py:52
+msgctxt "Operator"
+msgid "Create default human"
+msgstr "创建默认人体"
+
+#: ui/start_here/startherepanel.py:51
+msgctxt "Operator"
+msgid "Create random human"
+msgstr "创建随机人体"
+
+#: ui/haireditorpanel/operators/delete_hair_operator.py:20
+msgctxt "Operator"
+msgid "Delete hair"
+msgstr "删除头发"
+
+#: ui/haireditorpanel/operators/generate_hair_cards_operator.py:26
+msgctxt "Operator"
+msgid "Generate hair cards"
+msgstr "生成头发卡片"
+
+#: ui/start_here/startherepanel.py:90
+msgctxt "Operator"
+msgid "Install pack from zip"
+msgstr "从 ZIP 安装包"
+
+#: ui/apply_assets/loadclothes/operators/loadclothes.py:21
+msgctxt "Operator"
+msgid "Load clothes from file"
+msgstr "从文件加载服装"
+
+#: ui/developer/operators/loadtarget.py:35
+msgctxt "Operator"
+msgid "Select/Deselect All"
+msgstr "全选/取消全选"
+
+#: ui/haireditorpanel/operators/setup_hair_operator.py:22
+msgctxt "Operator"
+msgid "Setup hair"
+msgstr "设置头发"

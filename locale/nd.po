@@ -1,0 +1,1655 @@
+# perfect-chinese: 1
+# id: nd
+# kind: addon
+# module: bl_ext.blender_org.nd
+# name: ND
+# name_zh: 非破坏建模工具
+# translator: KeshiMiao
+# category: 3D View
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: ND/lib/overlay_keys.py:45
+msgid ","
+msgstr ","
+
+#: ND/lib/overlay_keys.py:48
+msgid "/"
+msgstr "/"
+
+#: ND/__init__.py:353
+msgid "30°"
+msgstr "30°"
+
+#: ND/__init__.py:28
+msgid "3D View"
+msgstr "3D 视图"
+
+#: ND/__init__.py:354
+msgid "45°"
+msgstr "45°"
+
+#: ND/__init__.py:355
+msgid "60°"
+msgstr "60°"
+
+#: ND/lib/overlay_keys.py:44
+msgid ";"
+msgstr ";"
+
+#: ND/interface/ops.py:108
+msgid "ALIASED"
+msgstr "ALIASED"
+
+#: ND/interface/ops.py:109
+msgid "ANTIALIASED"
+msgstr "ANTIALIASED"
+
+#: ND/interface/ops.py:88
+msgid "AUTOMERGE_ON"
+msgstr "AUTOMERGE_ON"
+
+#: ND/sketch/edge_length.py:45
+msgid "Accurately define or offset the length of any selected disconnected edges"
+msgstr "精确设定或偏移任意选中不相连边的长度"
+
+#: ND/bevels/bevel.py:50
+msgid "Adds a bevel modifier to the selected object\nCTRL — Remove existing modifiers\nSHIFT — Create a stacked bevel modifier"
+msgstr "为选中物体添加倒角修改器\nCTRL — 移除现有修改器\nSHIFT — 创建堆叠的倒角修改器"
+
+#: ND/deform/lattice.py:49
+msgid "Adds a lattice modifier to the selected object\nCTRL — Remove existing modifiers"
+msgstr "为选中物体添加晶格修改器\nCTRL — 移除现有修改器"
+
+#: ND/scene/flare.py:43
+msgid "Adds a new lighting rig targeting selected objects position"
+msgstr "添加新的灯光装置，以选中物体的位置为目标"
+
+#: ND/extrusion/screw.py:52
+msgid "Adds a screw modifier tuned for converting a sketch into a cylindrical object\nCTRL — Remove existing modifiers"
+msgstr "添加经过调校的螺旋修改器，用于将草图转换为圆柱形物体\nCTRL — 移除现有修改器"
+
+#: ND/extrusion/solidify.py:50
+msgid "Adds a solidify modifier, and enables smoothing\nCTRL — Remove existing modifiers"
+msgstr "添加实体化修改器并启用平滑\nCTRL — 移除现有修改器"
+
+#: ND/sketch/circularize.py:49
+msgid "Adds a vertex bevel operator to the selected plane to convert it into a circular shape\nCTRL — Remove existing modifiers"
+msgstr "为选中平面添加顶点倒角操作，使其转换为圆形\nCTRL — 移除现有修改器"
+
+#: ND/bevels/vertex_bevel.py:50
+msgid "Adds a vertex group bevel and weld modifier\nSHIFT — Place modifiers at the bottom of the stack\nALT — Create a vertex group edge bevel\nCTRL — Remove existing modifiers"
+msgstr "添加顶点组倒角和焊接修改器\nSHIFT — 将修改器置于堆栈底部\nALT — 创建顶点组边倒角\nCTRL — 移除现有修改器"
+
+#: ND/bevels/edge_bevel.py:49
+msgid "Adds a weighted edge bevel modifier to the selected object\nSHIFT — Place modifiers at the top of the stack\nCTRL — Remove existing modifiers"
+msgstr "为选中物体添加加权边倒角修改器\nSHIFT — 将修改器置于堆栈顶部\nCTRL — 移除现有修改器"
+
+#: ND/bevels/bevel_resolution.py:41
+msgid "Adjust all bevel resolutions for the selected objects"
+msgstr "调整选中物体的所有倒角分辨率"
+
+#: ND/utils/snap_align.py:44
+msgid "Align and snap one object to another"
+msgstr "将一个物体对齐并吸附到另一个物体"
+
+#: ND/viewport/silhouette.py:39
+msgid "Apply flat black shading all objects in the viewport to help assess thier silhouette"
+msgstr "为视图中的所有物体应用纯黑平直着色，以帮助评估轮廓"
+
+#: ND/replicate/circular_array.py:53
+msgid "Array an object around another in a circular fashion\nALT — Use faux origin (for origin-reliant procedural geometry)\nCTRL — Remove existing modifiers"
+msgstr "让一个物体以环形方式围绕另一个物体阵列\nALT — 使用伪原点（适用于依赖原点的程序化几何体）\nCTRL — 移除现有修改器"
+
+#: ND/replicate/array_cubed.py:55
+msgid "Array an object in up to three dimensions\nCTRL — Remove existing modifiers"
+msgstr "在最多三个维度上阵列物体\nCTRL — 移除现有修改器"
+
+#: ND/replicate/array_cubed.py:54
+msgid "Array³"
+msgstr "阵列³"
+
+#: ND/utils/sync_modifiers.py:161
+msgid "At least two objects need to be selected in order to sync modifiers."
+msgstr "至少需要选中两个物体才能同步修改器。"
+
+#: ND/__init__.py:194
+msgid "Axis Active Thickness"
+msgstr "活动轴厚度"
+
+#: ND/__init__.py:186
+msgid "Axis Base Thickness"
+msgstr "基础轴厚度"
+
+#: ND/__init__.py:202
+msgid "Axis Inactive Opacity"
+msgstr "非活动轴不透明度"
+
+#: ND/__init__.py:313
+msgid "Axis X Color"
+msgstr "X 轴颜色"
+
+#: ND/__init__.py:320
+msgid "Axis Y Color"
+msgstr "Y 轴颜色"
+
+#: ND/__init__.py:327
+msgid "Axis Z Color"
+msgstr "Z 轴颜色"
+
+#: ND/lib/overlay_keys.py:29
+msgid "B"
+msgstr "B"
+
+#: ND/bevels/bevel_resolution.py:40
+msgid "Bevel Resolution"
+msgstr "倒角分辨率"
+
+#: ND/interface/main_menu.py:53
+msgid "Bevels"
+msgstr "倒角"
+
+#: ND/interface/main_menu.py:52
+msgid "Booleans"
+msgstr "布尔"
+
+#: ND/interface/ops.py:139
+msgid "CLIPUV_DEHLT"
+msgstr "CLIPUV_DEHLT"
+
+#: ND/interface/ops.py:56
+#: ND/interface/ops.py:137
+msgid "CON_OBJECTSOLVER"
+msgstr "CON_OBJECTSOLVER"
+
+#: ND/interface/ops.py:57
+msgid "CON_SIZELIKE"
+msgstr "CON_SIZELIKE"
+
+#: ND/replicate/circular_array.py:52
+msgid "Circular Array"
+msgstr "环形阵列"
+
+#: ND/sketch/circularize.py:48
+msgid "Circularize"
+msgstr "圆形化"
+
+#: ND/sketch/panel.py:46
+msgid "Combination operator which allows you to select faces, inset, and then solidify them\nSHIFT — Do not clean duplicate mesh before extraction"
+msgstr "组合操作，允许选择面、内插，然后将其实体化\nSHIFT — 提取前不清理重复网格"
+
+#: ND/booleans/hydrate.py:41
+msgid "Convert a boolean reference object into solidified geometry"
+msgstr "将布尔参考物体转换为实体化几何体"
+
+#: ND/__init__.py:123
+msgid "Create Custom Transform Orientations with View Align"
+msgstr "使用视图对齐创建自定义变换取向"
+
+#: ND/__init__.py:551
+msgid "Custom Overlay Options"
+msgstr "自定义叠加层选项"
+
+#: ND/standalone/cycle.py:41
+msgid "Cycle"
+msgstr "循环"
+
+#: ND/lib/overlay_keys.py:30
+msgid "D"
+msgstr "D"
+
+#: ND/interface/ops.py:35
+msgid "DOT"
+msgstr "DOT"
+
+#: ND/interface/ops.py:77
+msgid "DRIVER_ROTATIONAL_DIFFERENCE"
+msgstr "DRIVER_ROTATIONAL_DIFFERENCE"
+
+#: ND/interface/ops.py:126
+msgid "DUPLICATE"
+msgstr "DUPLICATE"
+
+#: ND/interface/main_menu.py:61
+msgid "Data"
+msgstr "数据"
+
+#: ND/utils/smart_duplicate.py:54
+msgid "Deep Duplicate"
+msgstr "深度复制"
+
+#: ND/__init__.py:350
+msgid "Default Smooting Angle"
+msgstr "默认平滑角度"
+
+#: ND/interface/main_menu.py:56
+msgid "Deform"
+msgstr "形变"
+
+#: ND/booleans/vanilla.py:48
+#: ND/interface/ops.py:48
+msgid "Difference"
+msgstr "差集"
+
+#: ND/__init__.py:136
+msgid "Disable in Viewports"
+msgstr "在视口中禁用"
+
+#: ND/utils/smart_duplicate.py:50
+msgid "Duplicate"
+msgstr "复制"
+
+#: ND/viewport/toggle_utils.py:43
+msgid "Dynamic"
+msgstr "动态"
+
+#: ND/interface/ops.py:63
+msgid "EDGESEL"
+msgstr "EDGESEL"
+
+#: ND/interface/ops.py:72
+msgid "EMPTY_SINGLE_ARROW"
+msgstr "EMPTY_SINGLE_ARROW"
+
+#: ND/bevels/edge_bevel_attr.py:51
+msgid "Edge Bevel (Attribute)"
+msgstr "边倒角（属性）"
+
+#: ND/bevels/edge_bevel.py:48
+msgid "Edge Bevel (Weighted)"
+msgstr "边倒角（权重）"
+
+#: ND/sketch/edge_length.py:44
+msgid "Edge length"
+msgstr "边长"
+
+#: ND/data/vertex_group_editor.py:46
+msgid "Edit vertex groups and member vertex weights interactively"
+msgstr "交互式编辑顶点组及其成员顶点权重"
+
+#: ND/__init__.py:345
+msgid "Enable Auto Smoothing"
+msgstr "启用自动平滑"
+
+#: ND/__init__.py:142
+msgid "Enable Axis Visualization"
+msgstr "启用轴可视化"
+
+#: ND/__init__.py:171
+msgid "Enable Experimental Features"
+msgstr "启用实验性功能"
+
+#: ND/__init__.py:108
+msgid "Enable Mouse Values (move mouse to change values)"
+msgstr "启用鼠标数值（移动鼠标以更改数值）"
+
+#: ND/__init__.py:98
+msgid "Enable Quick Favourites"
+msgstr "启用快速收藏"
+
+#: ND/__init__.py:103
+msgid "Enable Right Click Select"
+msgstr "启用右键选择"
+
+#: ND/__init__.py:128
+msgid "Enable the sidebar / N-panel (requires Blender restart)"
+msgstr "启用侧边栏 / N 面板（需要重启 Blender）"
+
+#: ND/lib/overlay_keys.py:81
+msgid "End"
+msgstr "End"
+
+#: ND/sketch/geo_lift.py:152
+msgid "Ensure at least a single peice of geometry is selected."
+msgstr "确保至少选中一个几何元素。"
+
+#: ND/replicate/mirror.py:307
+#: ND/sketch/view_align.py:231
+msgid "Ensure only a single edge or face is selected."
+msgstr "确保仅选中一条边或一个面。"
+
+#: ND/replicate/mirror.py:305
+#: ND/sketch/view_align.py:229
+msgid "Ensure only a single vertex, or exactly 3 vertices are selected."
+msgstr "确保仅选中一个顶点，或恰好选中 3 个顶点。"
+
+#: ND/__init__.py:113
+msgid "Extend Mouse Values (scroll wheel override)"
+msgstr "扩展鼠标数值（滚轮覆盖）"
+
+#: ND/extrusion/profile_extrude.py:52
+msgid "Extrudes a profile along a specified axis\nCTRL — Remove existing modifiers"
+msgstr "沿指定轴挤出轮廓\nCTRL — 移除现有修改器"
+
+#: ND/interface/main_menu.py:54
+msgid "Extrusion"
+msgstr "挤出"
+
+#: ND/lib/overlay_keys.py:52
+msgid "F1"
+msgstr "F1"
+
+#: ND/lib/overlay_keys.py:61
+msgid "F10"
+msgstr "F10"
+
+#: ND/lib/overlay_keys.py:62
+msgid "F11"
+msgstr "F11"
+
+#: ND/lib/overlay_keys.py:63
+msgid "F12"
+msgstr "F12"
+
+#: ND/lib/overlay_keys.py:64
+msgid "F13"
+msgstr "F13"
+
+#: ND/lib/overlay_keys.py:65
+msgid "F14"
+msgstr "F14"
+
+#: ND/lib/overlay_keys.py:66
+msgid "F15"
+msgstr "F15"
+
+#: ND/lib/overlay_keys.py:67
+msgid "F16"
+msgstr "F16"
+
+#: ND/lib/overlay_keys.py:68
+msgid "F17"
+msgstr "F17"
+
+#: ND/lib/overlay_keys.py:69
+msgid "F18"
+msgstr "F18"
+
+#: ND/lib/overlay_keys.py:70
+msgid "F19"
+msgstr "F19"
+
+#: ND/lib/overlay_keys.py:53
+msgid "F2"
+msgstr "F2"
+
+#: ND/lib/overlay_keys.py:71
+msgid "F20"
+msgstr "F20"
+
+#: ND/lib/overlay_keys.py:72
+msgid "F21"
+msgstr "F21"
+
+#: ND/lib/overlay_keys.py:73
+msgid "F22"
+msgstr "F22"
+
+#: ND/lib/overlay_keys.py:74
+msgid "F23"
+msgstr "F23"
+
+#: ND/lib/overlay_keys.py:75
+msgid "F24"
+msgstr "F24"
+
+#: ND/lib/overlay_keys.py:54
+msgid "F3"
+msgstr "F3"
+
+#: ND/lib/overlay_keys.py:55
+msgid "F4"
+msgstr "F4"
+
+#: ND/lib/overlay_keys.py:56
+msgid "F5"
+msgstr "F5"
+
+#: ND/lib/overlay_keys.py:57
+msgid "F6"
+msgstr "F6"
+
+#: ND/lib/overlay_keys.py:58
+msgid "F7"
+msgstr "F7"
+
+#: ND/lib/overlay_keys.py:59
+msgid "F8"
+msgstr "F8"
+
+#: ND/lib/overlay_keys.py:60
+msgid "F9"
+msgstr "F9"
+
+#: ND/interface/ops.py:41
+msgid "FACESEL"
+msgstr "FACESEL"
+
+#: ND/interface/ops.py:52
+msgid "FCURVE"
+msgstr "FCURVE"
+
+#: ND/interface/ops.py:121
+msgid "FILE_HIDDEN"
+msgstr "FILE_HIDDEN"
+
+#: ND/interface/ops.py:107
+msgid "FILE_REFRESH"
+msgstr "FILE_REFRESH"
+
+#: ND/interface/ops.py:37
+msgid "FIXED_SIZE"
+msgstr "FIXED_SIZE"
+
+#: ND/lib/overlay_keys.py:84
+msgid "First"
+msgstr "第一个"
+
+#: ND/scene/flare.py:42
+msgid "Flare"
+msgstr "光晕"
+
+#: ND/interface/ops.py:116
+msgid "Flare (Lighting)"
+msgstr "光晕（光照）"
+
+#: ND/lib/overlay_keys.py:31
+msgid "G"
+msgstr "G"
+
+#: ND/interface/ops.py:99
+msgid "GROUP_VERTEX"
+msgstr "GROUP_VERTEX"
+
+#: ND/__init__.py:337
+msgid "General"
+msgstr "常规"
+
+#: ND/sketch/geo_lift.py:41
+msgid "Geo Lift"
+msgstr "几何抬升"
+
+#: ND/__init__.py:93
+msgid "Hide Asset Library Install Prompt"
+msgstr "隐藏资产库安装提示"
+
+#: ND/__init__.py:137
+msgid "Hide in Viewport"
+msgstr "在视图中隐藏"
+
+#: ND/packaging/set_lod_suffix.py:41
+msgid "High"
+msgstr "高"
+
+#: ND/interface/ops.py:109
+msgid "High LOD"
+msgstr "高 LOD"
+
+#: ND/lib/overlay_keys.py:78
+msgid "Home"
+msgstr "Home"
+
+#: ND/utils/smart_duplicate.py:43
+msgid "Hotkeyed"
+msgstr "已设快捷键"
+
+#: ND/interface/main_ui_panel.py:183
+msgid "HugeMenace"
+msgstr "HugeMenace"
+
+#: ND/__init__.py:28
+msgid "HugeMenace — ND"
+msgstr "HugeMenace — ND"
+
+#: ND/booleans/hydrate.py:40
+msgid "Hydrate"
+msgstr "填充"
+
+#: ND/lib/overlay_keys.py:32
+msgid "I"
+msgstr "I"
+
+#: ND/utils/smart_duplicate.py:54
+msgid "Include children of selected objects in the duplication"
+msgstr "复制时包含所选物体的子级"
+
+#: ND/utils/smart_duplicate.py:43
+msgid "Indicates if this operator was invoked via a hotkey"
+msgstr "指示该操作符是否通过快捷键调用"
+
+#: ND/lib/overlay_keys.py:77
+msgid "Insert"
+msgstr "插入"
+
+#: ND/booleans/boolean_inset.py:45
+msgid "Inset/Outset"
+msgstr "内插/外扩"
+
+#: ND/interface/main_ui_panel.py:193
+msgid "Install the ND Asset Library?"
+msgstr "安装 ND 资产库吗？"
+
+#: ND/packaging/seams.py:44
+msgid "Interactively set UV seams & sharp edges\nSHIFT — Skip interactive mode and immediately apply the default settings"
+msgstr "交互式设置 UV 接缝和锐边\nSHIFT — 跳过交互模式并立即应用默认设置"
+
+#: ND/booleans/vanilla.py:50
+#: ND/interface/ops.py:50
+msgid "Intersect"
+msgstr "相交"
+
+#: ND/lib/overlay_keys.py:33
+msgid "J"
+msgstr "J"
+
+#: ND/lib/overlay_keys.py:34
+msgid "K"
+msgstr "K"
+
+#: ND/__init__.py:339
+msgid "Keymap"
+msgstr "键位映射"
+
+#: ND/lib/overlay_keys.py:35
+msgid "L"
+msgstr "L"
+
+#: ND/interface/ops.py:116
+msgid "LIGHT_AREA"
+msgstr "LIGHT_AREA"
+
+#: ND/interface/ops.py:127
+msgid "LINKED"
+msgstr "LINKED"
+
+#: ND/interface/ops.py:31
+msgid "LONGDISPLAY"
+msgstr "LONGDISPLAY"
+
+#: ND/lib/overlay_keys.py:85
+msgid "Last"
+msgstr "最后"
+
+#: ND/deform/lattice.py:48
+msgid "Lattice"
+msgstr "晶格"
+
+#: ND/sketch/geo_lift.py:42
+msgid "Lift geometry out of a non-destructive object\nSHIFT — Do not clean duplicate mesh before extraction"
+msgstr "从非破坏性物体中提取几何体\nSHIFT — 提取前不清理重复网格"
+
+#: ND/utils/smart_duplicate.py:51
+msgid "Linked"
+msgstr "链接"
+
+#: ND/interface/ops.py:127
+msgid "Linked Duplicate"
+msgstr "链接复制"
+
+#: ND/__init__.py:88
+msgid "Local user preferences version"
+msgstr "本地用户偏好设置版本"
+
+#: ND/__init__.py:161
+msgid "Lock Overlay Parameters on Recall"
+msgstr "调用时锁定叠加参数"
+
+#: ND/__init__.py:147
+msgid "Lock Overlay Pinning"
+msgstr "锁定叠加固定"
+
+#: ND/packaging/set_lod_suffix.py:42
+msgid "Low"
+msgstr "低"
+
+#: ND/interface/ops.py:108
+msgid "Low LOD"
+msgstr "低 LOD"
+
+#: ND/interface/ops.py:44
+msgid "MESH_CIRCLE"
+msgstr "MESH_CIRCLE"
+
+#: ND/interface/ops.py:61
+msgid "MOD_BEVEL"
+msgstr "MOD_BEVEL"
+
+#: ND/interface/ops.py:53
+msgid "MOD_BOOLEAN"
+msgstr "MOD_BOOLEAN"
+
+#: ND/interface/ops.py:66
+#: ND/interface/ops.py:87
+msgid "MOD_DECIM"
+msgstr "MOD_DECIM"
+
+#: ND/interface/ops.py:100
+msgid "MOD_EDGESPLIT"
+msgstr "MOD_EDGESPLIT"
+
+#: ND/interface/ops.py:42
+msgid "MOD_EXPLODE"
+msgstr "MOD_EXPLODE"
+
+#: ND/interface/ops.py:117
+msgid "MOD_FLUIDSIM"
+msgstr "MOD_FLUIDSIM"
+
+#: ND/interface/ops.py:82
+msgid "MOD_LATTICE"
+msgstr "MOD_LATTICE"
+
+#: ND/interface/ops.py:78
+msgid "MOD_MIRROR"
+msgstr "MOD_MIRROR"
+
+#: ND/interface/ops.py:93
+msgid "MOD_NORMALEDIT"
+msgstr "MOD_NORMALEDIT"
+
+#: ND/interface/ops.py:71
+msgid "MOD_SCREW"
+msgstr "MOD_SCREW"
+
+#: ND/interface/ops.py:83
+msgid "MOD_SIMPLEDEFORM"
+msgstr "MOD_SIMPLEDEFORM"
+
+#: ND/interface/ops.py:92
+msgid "MOD_SMOOTH"
+msgstr "MOD_SMOOTH"
+
+#: ND/interface/ops.py:70
+msgid "MOD_SOLIDIFY"
+msgstr "MOD_SOLIDIFY"
+
+#: ND/interface/ops.py:140
+msgid "MOD_SUBSURF"
+msgstr "MOD_SUBSURF"
+
+#: ND/interface/ops.py:112
+msgid "MOD_TRIANGULATE"
+msgstr "MOD_TRIANGULATE"
+
+#: ND/interface/ops.py:97
+msgid "MOD_VERTEX_WEIGHT"
+msgstr "MOD_VERTEX_WEIGHT"
+
+#: ND/interface/ops.py:134
+msgid "MOD_WIREFRAME"
+msgstr "MOD_WIREFRAME"
+
+#: ND/packaging/create_id_material.py:86
+msgid "Material Name"
+msgstr "材质名称"
+
+#: ND/interface/packaging_menu.py:46
+msgid "Materials"
+msgstr "材质"
+
+#: ND/replicate/mirror.py:45
+msgid "Mirror"
+msgstr "镜像"
+
+#: ND/replicate/mirror.py:46
+msgid "Mirror an object in isolation, or across another object\nALT — Mirror across selected object's geometry\nSHIFT — Place modifiers at the top of the stack\nCTRL — Remove existing modifiers"
+msgstr "单独镜像物体，或跨另一物体镜像\nALT — 沿所选物体的几何体镜像\nSHIFT — 将修改器置于堆栈顶部\nCTRL — 移除现有修改器"
+
+#: ND/booleans/vanilla.py:47
+#: ND/utils/smart_duplicate.py:49
+msgid "Mode"
+msgstr "模式"
+
+#: ND/__init__.py:210
+msgid "Mouse Value Scalar"
+msgstr "鼠标值缩放"
+
+#: ND/__init__.py:228
+msgid "Mouse Value Steps"
+msgstr "鼠标值步进"
+
+#: ND/bevels/edge_bevel_attr.py:253
+msgid "Multiple edge attributes are active, unable to continue operation."
+msgstr "多个边属性处于活动状态，无法继续操作。"
+
+#: ND/bevels/vertex_bevel.py:222
+msgid "Multiple vertex groups selected, unable to continue operation."
+msgstr "已选择多个顶点组，无法继续操作。"
+
+#: ND/lib/overlay_keys.py:36
+msgid "N"
+msgstr "N"
+
+#: ND/interface/main_ui_panel.py:143
+msgid "ND Asset Library can only be installed in Blender 4.5 or later."
+msgstr "ND 资产库只能在 Blender 4.5 或更高版本中安装。"
+
+#: ND/interface/main_ui_panel.py:161
+msgid "ND Asset Library installation failed."
+msgstr "ND 资产库安装失败。"
+
+#: ND/interface/main_ui_panel.py:174
+msgid "ND Asset Library installation prompt hidden."
+msgstr "ND 资产库安装提示已隐藏。"
+
+#: ND/interface/main_ui_panel.py:157
+msgid "ND Asset Library installed successfully."
+msgstr "ND 资产库安装成功。"
+
+#: ND/__init__.py:597
+msgid "ND Theme Colors"
+msgstr "ND 主题颜色"
+
+#: ND/interface/ops.py:104
+msgid "NODE_COMPOSITING"
+msgstr "NODE_COMPOSITING"
+
+#: ND/interface/ops.py:105
+msgid "NODE_MATERIAL"
+msgstr "NODE_MATERIAL"
+
+#: ND/interface/fast_menu.py:82
+msgid "No active target object selected"
+msgstr "未选择活动目标物体"
+
+#: ND/bevels/bevel.py:192
+#: ND/bevels/edge_bevel.py:190
+msgid "No active target object selected."
+msgstr "未选择活动目标物体。"
+
+#: ND/bevels/edge_bevel.py:194
+#: ND/bevels/edge_bevel_attr.py:184
+msgid "No edges selected."
+msgstr "未选择边。"
+
+#: ND/interface/fast_menu.py:77
+msgid "No predictions available"
+msgstr "无可用预测"
+
+#: ND/data/vertex_group_editor.py:135
+msgid "No vertex groups found, please create one."
+msgstr "未找到顶点组，请创建一个。"
+
+#: ND/bevels/vertex_bevel.py:174
+#: ND/data/clear_vertex_groups.py:57
+msgid "No vertices selected."
+msgstr "未选择顶点。"
+
+#: ND/__init__.py:28
+msgid "Non-destructive operations, tools, and generators."
+msgstr "非破坏性操作、工具和生成器。"
+
+#: ND/interface/ops.py:135
+msgid "ORIENTATION_NORMAL"
+msgstr "ORIENTATION_NORMAL"
+
+#: ND/interface/ops.py:39
+msgid "ORIENTATION_VIEW"
+msgstr "ORIENTATION_VIEW"
+
+#: ND/interface/ops.py:130
+msgid "ORPHAN_DATA"
+msgstr "ORPHAN_DATA"
+
+#: ND/interface/ops.py:136
+msgid "OUTLINER_COLLECTION"
+msgstr "OUTLINER_COLLECTION"
+
+#: ND/interface/ops.py:36
+msgid "OUTLINER_DATA_SURFACE"
+msgstr "OUTLINER_DATA_SURFACE"
+
+#: ND/interface/ops.py:142
+#: ND/interface/ops.py:143
+msgid "OVERLAY"
+msgstr "OVERLAY"
+
+#: ND/bevels/bevel.py:49
+msgid "Object Bevel"
+msgstr "物体倒角"
+
+#: ND/sketch/view_align.py:43
+msgid "Orientate the view to the selected geometry\nSHIFT — Do not clean duplicate mesh before extraction"
+msgstr "将视图定向到所选几何体\nSHIFT — 提取前不清理重复网格"
+
+#: ND/__init__.py:264
+msgid "Overlay Base Color"
+msgstr "叠加层基础色"
+
+#: ND/__init__.py:235
+msgid "Overlay DPI"
+msgstr "叠加层 DPI"
+
+#: ND/__init__.py:257
+msgid "Overlay Header Paused Color"
+msgstr "叠加层标题栏暂停颜色"
+
+#: ND/__init__.py:250
+msgid "Overlay Header Recalled Color"
+msgstr "叠加层标题栏已调回颜色"
+
+#: ND/__init__.py:243
+msgid "Overlay Header Standard Color"
+msgstr "叠加层标题栏标准颜色"
+
+#: ND/__init__.py:567
+msgid "Overlay Keybinds"
+msgstr "叠加层快捷键"
+
+#: ND/__init__.py:271
+msgid "Overlay Option Active Color"
+msgstr "叠加层选项激活颜色"
+
+#: ND/__init__.py:278
+msgid "Overlay Option Manual Override Color"
+msgstr "叠加层选项手动覆盖颜色"
+
+#: ND/__init__.py:176
+msgid "Overlay Pin X Coordinate"
+msgstr "叠加层固定 X 坐标"
+
+#: ND/__init__.py:181
+msgid "Overlay Pin Y Coordinate"
+msgstr "叠加层固定 Y 坐标"
+
+#: ND/__init__.py:166
+msgid "Overlay Pinned"
+msgstr "叠加层已固定"
+
+#: ND/__init__.py:152
+msgid "Overlay Reset Key Behaviour"
+msgstr "叠加层重置按键行为"
+
+#: ND/lib/overlay_keys.py:37
+msgid "P"
+msgstr "P"
+
+#: ND/interface/ops.py:76
+msgid "PARTICLES"
+msgstr "PARTICLES"
+
+#: ND/interface/main_menu.py:63
+msgid "Packaging"
+msgstr "打包"
+
+#: ND/lib/overlay_keys.py:80
+msgid "Page Down"
+msgstr "Page Down"
+
+#: ND/lib/overlay_keys.py:79
+msgid "Page Up"
+msgstr "Page Up"
+
+#: ND/sketch/panel.py:45
+msgid "Panel"
+msgstr "面板"
+
+#: ND/lib/overlay_keys.py:76
+msgid "Pause"
+msgstr "暂停"
+
+#: ND/__init__.py:360
+msgid "Pause Key"
+msgstr "暂停键"
+
+#: ND/booleans/boolean_inset.py:46
+msgid "Perform a boolean operation on the selected objects"
+msgstr "对所选物体执行布尔运算"
+
+#: ND/booleans/vanilla.py:48
+msgid "Perform a difference operation"
+msgstr "执行差集运算"
+
+#: ND/utils/smart_duplicate.py:50
+msgid "Perform a duplicate operation"
+msgstr "执行复制操作"
+
+#: ND/utils/smart_duplicate.py:51
+msgid "Perform a linked duplicate operation"
+msgstr "执行关联复制操作"
+
+#: ND/booleans/vanilla.py:49
+msgid "Perform a union operation"
+msgstr "执行并集运算"
+
+#: ND/booleans/vanilla.py:50
+msgid "Perform an intersect operation"
+msgstr "执行交集运算"
+
+#: ND/__init__.py:366
+msgid "Pin Key"
+msgstr "固定键"
+
+#: ND/lib/overlay_keys.py:82
+msgid "Play/Pause"
+msgstr "播放/暂停"
+
+#: ND/scene/flare.py:187
+msgid "Please select a valid Flare Lighting Rig"
+msgstr "请选择一个有效的 Flare Lighting Rig"
+
+#: ND/__init__.py:306
+msgid "Points Guide Line Color"
+msgstr "点辅助线颜色"
+
+#: ND/__init__.py:285
+msgid "Points Primary Color"
+msgstr "点主色"
+
+#: ND/__init__.py:292
+msgid "Points Secondary Color"
+msgstr "点次色"
+
+#: ND/__init__.py:299
+msgid "Points Tertiary Color"
+msgstr "点第三色"
+
+#: ND/extrusion/profile_extrude.py:51
+msgid "Profile Extrude"
+msgstr "轮廓挤出"
+
+#: ND/lib/overlay_keys.py:38
+msgid "Q"
+msgstr "Q"
+
+#: ND/interface/main_menu.py:55
+msgid "Replicate"
+msgstr "复制"
+
+#: ND/__init__.py:155
+msgid "Reset"
+msgstr "重置"
+
+#: ND/__init__.py:372
+msgid "Reset Option Key"
+msgstr "重置选项键"
+
+#: ND/viewport/toggle_utils.py:44
+msgid "Restricted"
+msgstr "受限"
+
+#: ND/viewport/toggle_utils.py:44
+msgid "Run the operator with alt modes disabled"
+msgstr "禁用替代模式运行操作符"
+
+#: ND/viewport/toggle_utils.py:43
+msgid "Run the operator with alt modes enabled"
+msgstr "启用替代模式运行操作符"
+
+#: ND/interface/ops.py:49
+msgid "SELECT_EXTEND"
+msgstr "SELECT_EXTEND"
+
+#: ND/interface/ops.py:50
+msgid "SELECT_INTERSECT"
+msgstr "SELECT_INTERSECT"
+
+#: ND/interface/ops.py:48
+msgid "SELECT_SUBTRACT"
+msgstr "SELECT_SUBTRACT"
+
+#: ND/interface/ops.py:55
+msgid "SHADING_RENDERED"
+msgstr "SHADING_RENDERED"
+
+#: ND/interface/ops.py:124
+msgid "SNAP_ON"
+msgstr "SNAP_ON"
+
+#: ND/interface/ops.py:129
+msgid "SYSTEM"
+msgstr "系统"
+
+#: ND/interface/main_menu.py:60
+msgid "Scene"
+msgstr "场景"
+
+#: ND/extrusion/screw.py:51
+msgid "Screw"
+msgstr "螺旋"
+
+#: ND/standalone/cycle.py:42
+msgid "Scroll through the active object's utilties, or modifier stack\nSHIFT — Cycle through the modifier stack"
+msgstr "在活动物体的工具或修改器堆栈中滚动\nSHIFT — 循环切换修改器堆栈"
+
+#: ND/sketch/edge_length.py:124
+msgid "Selected edges must be disconnected."
+msgstr "所选边必须不相连。"
+
+#: ND/shading/smooth.py:43
+msgid "Set and configure object smoothing properties"
+msgstr "设置并配置物体的平滑属性"
+
+#: ND/interface/main_menu.py:59
+msgid "Shading"
+msgstr "着色"
+
+#: ND/__init__.py:378
+msgid "Show Annotations"
+msgstr "显示标注"
+
+#: ND/__init__.py:398
+msgid "Show Bones"
+msgstr "显示骨骼"
+
+#: ND/__init__.py:403
+msgid "Show Cursor"
+msgstr "显示游标"
+
+#: ND/__init__.py:408
+msgid "Show Extras"
+msgstr "显示额外项"
+
+#: ND/__init__.py:413
+msgid "Show Floor"
+msgstr "显示地面"
+
+#: ND/__init__.py:418
+msgid "Show Motion Paths"
+msgstr "显示运动路径"
+
+#: ND/__init__.py:423
+msgid "Show Object Origins"
+msgstr "显示物体原点"
+
+#: ND/__init__.py:428
+msgid "Show Object Origins (All)"
+msgstr "显示物体原点（全部）"
+
+#: ND/__init__.py:433
+msgid "Show Ortho Grid"
+msgstr "显示正交网格"
+
+#: ND/__init__.py:438
+msgid "Show Outline Selected"
+msgstr "显示所选轮廓"
+
+#: ND/__init__.py:443
+msgid "Show Relationship Lines"
+msgstr "显示关系线"
+
+#: ND/__init__.py:448
+msgid "Show Stats"
+msgstr "显示统计信息"
+
+#: ND/__init__.py:453
+msgid "Show Text"
+msgstr "显示文本"
+
+#: ND/__init__.py:383
+msgid "Show X Axis"
+msgstr "显示 X 轴"
+
+#: ND/__init__.py:388
+msgid "Show Y Axis"
+msgstr "显示 Y 轴"
+
+#: ND/__init__.py:393
+msgid "Show Z Axis"
+msgstr "显示 Z 轴"
+
+#: ND/viewport/silhouette.py:38
+msgid "Silhouette"
+msgstr "剪影"
+
+#: ND/deform/simple_deform.py:49
+msgid "Simple Deform"
+msgstr "简易形变"
+
+#: ND/interface/main_menu.py:57
+msgid "Simplify"
+msgstr "简化"
+
+#: ND/interface/main_menu.py:50
+msgid "Sketch"
+msgstr "草图"
+
+#: ND/interface/ops.py:126
+msgid "Smart Duplicate"
+msgstr "智能复制"
+
+#: ND/shading/smooth.py:42
+msgid "Smooth Shading"
+msgstr "平滑着色"
+
+#: ND/utils/snap_align.py:43
+msgid "Snap Align"
+msgstr "吸附对齐"
+
+#: ND/extrusion/solidify.py:49
+msgid "Solidify"
+msgstr "实体化"
+
+#: ND/lib/overlay_keys.py:83
+msgid "Stop"
+msgstr "停止"
+
+#: ND/packaging/set_lod_suffix.py:40
+msgid "Suffix"
+msgstr "后缀"
+
+#: ND/booleans/swap_solver.py:38
+msgid "Swap Solver"
+msgstr "切换解算器"
+
+#: ND/booleans/swap_solver.py:39
+msgid "Swap the solver mode of the boolean modifiers referencing the selected utility objects"
+msgstr "切换引用所选工具物体的布尔修改器的解算器模式"
+
+#: ND/lib/overlay_keys.py:39
+msgid "T"
+msgstr "T"
+
+#: ND/interface/ops.py:123
+msgid "TRANSFORM_ORIGINS"
+msgstr "TRANSFORM_ORIGINS"
+
+#: ND/__init__.py:334
+msgid "Tabs"
+msgstr "标签页"
+
+#: ND/replicate/mirror.py:117
+msgid "The mirror across selected geometry feature cannot be used in edit mode"
+msgstr "无法在编辑模式下使用沿所选几何体镜像功能"
+
+#: ND/replicate/mirror.py:113
+msgid "The mirror across selected geometry feature cannot be used on curves"
+msgstr "无法在曲线上使用沿所选几何体镜像功能"
+
+#: ND/__init__.py:340
+msgid "Theme"
+msgstr "主题"
+
+#: ND/deform/simple_deform.py:50
+msgid "Twist, bend, taper, or stretch the selected object\nCTRL — Remove existing modifiers"
+msgstr "扭转、弯曲、锥化或拉伸所选物体\nCTRL — 移除现有修改器"
+
+#: ND/__init__.py:338
+msgid "UI"
+msgstr "界面"
+
+#: ND/packaging/seams.py:43
+msgid "UV Seams"
+msgstr "UV 缝合线"
+
+#: ND/interface/ops.py:111
+msgid "UV_DATA"
+msgstr "UV_DATA"
+
+#: ND/interface/ops.py:64
+msgid "UV_EDGESEL"
+msgstr "UV_EDGESEL"
+
+#: ND/booleans/vanilla.py:49
+#: ND/interface/ops.py:49
+msgid "Union"
+msgstr "并集"
+
+#: ND/__init__.py:219
+msgid "Unit Increment Size"
+msgstr "单位增量大小"
+
+#: ND/__init__.py:156
+msgid "Unlock"
+msgstr "解锁"
+
+#: ND/packaging/set_lod_suffix.py:41
+msgid "Updates the selected object names with a _high suffix"
+msgstr "为所选物体名称添加 _high 后缀"
+
+#: ND/packaging/set_lod_suffix.py:42
+msgid "Updates the selected object names with a _low suffix"
+msgstr "为所选物体名称添加 _low 后缀"
+
+#: ND/__init__.py:118
+msgid "Use Fast Booleans"
+msgstr "使用快速布尔"
+
+#: ND/interface/main_menu.py:64
+msgid "Utils"
+msgstr "工具"
+
+#: ND/__init__.py:133
+msgid "Utils toggle behaviour"
+msgstr "工具切换行为"
+
+#: ND/lib/overlay_keys.py:40
+msgid "V"
+msgstr "V"
+
+#: ND/interface/ops.py:62
+msgid "VERTEXSEL"
+msgstr "VERTEXSEL"
+
+#: ND/bevels/vertex_bevel.py:49
+msgid "Vertex Bevel"
+msgstr "顶点倒角"
+
+#: ND/data/vertex_group_editor.py:45
+msgid "Vertex Group Editor"
+msgstr "顶点组编辑器"
+
+#: ND/sketch/view_align.py:42
+msgid "View Align"
+msgstr "视图对齐"
+
+#: ND/interface/main_menu.py:65
+msgid "Viewport"
+msgstr "视图"
+
+#: ND/lib/overlay_keys.py:41
+msgid "X"
+msgstr "X"
+
+#: ND/lib/overlay_keys.py:42
+msgid "Y"
+msgstr "Y"
+
+#: ND/lib/overlay_keys.py:43
+msgid "Z"
+msgstr "Z"
+
+#: ND/lib/overlay_keys.py:50
+msgid "["
+msgstr "["
+
+#: ND/lib/overlay_keys.py:49
+msgid "\\"
+msgstr "\\"
+
+#: ND/lib/overlay_keys.py:51
+msgid "]"
+msgstr "]"
+
+#: ND/lib/overlay_keys.py:47
+msgid "`"
+msgstr "`"
+
+#: ND/lib/overlay_keys.py:46
+msgid "“"
+msgstr "“"
+
+#: ND/simplify/decimate.py:37
+msgctxt "Operator"
+msgid "Add a decimate modifier to the selected objects\nCTRL — Remove existing modifiers"
+msgstr "为选中物体添加精简修改器\nCTRL — 移除现有修改器"
+
+#: ND/packaging/triangulate.py:36
+msgctxt "Operator"
+msgid "Add a triangulate modifier to the selected objects\nCTRL — Remove existing modifiers\nALT — Do not preserve custom normals\nSHIFT — Only triangulate ngons (5+ vertices)"
+msgstr "为选中物体添加三角化修改器\nCTRL — 移除现有修改器\nALT — 不保留自定义法向\nSHIFT — 仅三角化多边形（5 个及以上顶点）"
+
+#: ND/shading/wn.py:36
+msgctxt "Operator"
+msgid "Add a weighted normal modifier to the selected objects\nSHIFT — Don't keep sharp edges\nCTRL — Remove existing modifiers"
+msgstr "为选中物体添加加权法向修改器\nSHIFT — 不保留锐边\nCTRL — 移除现有修改器"
+
+#: ND/simplify/weld.py:36
+msgctxt "Operator"
+msgid "Add a weld modifier to the selected objects\nCTRL — Remove existing modifiers"
+msgstr "为选中物体添加焊接修改器\nCTRL — 移除现有修改器"
+
+#: ND/utils/apply_modifiers.py:36
+msgctxt "Operator"
+msgid "Apply Modifiers"
+msgstr "应用修改器"
+
+#: ND/utils/apply_modifiers.py:37
+msgctxt "Operator"
+msgid "Apply all modifiers except for Object Bevel, SBA, WN, and Triangulate.\nCTRL — Soft apply (only apply viewport visible modifiers)\nSHIFT — Hard apply (apply ALL modifiers, no exceptions)\nALT — Duplicate the mesh before applying modifiers"
+msgstr "应用所有修改器，但物体倒角、SBA、WN 和三角化除外。\nCTRL — 软应用（仅应用视图中可见的修改器）\nSHIFT — 硬应用（应用所有修改器，无例外）\nALT — 应用修改器前复制网格"
+
+#: ND/packaging/bulk_create_id_materials.py:37
+msgctxt "Operator"
+msgid "Assign a random ID material to each of the selected objects"
+msgstr "为每个选中物体分配随机 ID 材质"
+
+#: ND/sketch/make_manifold.py:35
+msgctxt "Operator"
+msgid "Attempts to turn the current sketch into a manifold polygon"
+msgstr "尝试将当前草图转换为流形多边形"
+
+#: ND/booleans/vanilla.py:40
+msgctxt "Operator"
+msgid "Boolean"
+msgstr "布尔"
+
+#: ND/packaging/bulk_create_id_materials.py:36
+msgctxt "Operator"
+msgid "Bulk Assign Materials"
+msgstr "批量分配材质"
+
+#: ND/viewport/capture_utils.py:34
+msgctxt "Operator"
+msgid "Capture Utils"
+msgstr "捕获工具"
+
+#: ND/viewport/toggle_cavity.py:33
+msgctxt "Operator"
+msgid "Cavity"
+msgstr "空腔"
+
+#: ND/scene/clean_utils.py:35
+msgctxt "Operator"
+msgid "Clean Utils"
+msgstr "清理工具"
+
+#: ND/packaging/clear_materials.py:34
+msgctxt "Operator"
+msgid "Clear All Materials"
+msgstr "清除所有材质"
+
+#: ND/data/clear_edge_marks.py:36
+msgctxt "Operator"
+msgid "Clear Edge Marks"
+msgstr "清除边标记"
+
+#: ND/data/clear_vertex_groups.py:36
+msgctxt "Operator"
+msgid "Clear Vertex Groups"
+msgstr "清除顶点组"
+
+#: ND/packaging/create_id_material.py:81
+msgctxt "Operator"
+msgid "Create ID Material"
+msgstr "创建 ID 材质"
+
+#: ND/packaging/create_id_material.py:82
+msgctxt "Operator"
+msgid "Create and assign a new ID material to the selected object or geometry"
+msgstr "创建新的 ID 材质并分配给选中物体或几何体"
+
+#: ND/sketch/single_vertex.py:36
+msgctxt "Operator"
+msgid "Creates a single vertex object at the 3D cursor"
+msgstr "在 3D 游标处创建单个顶点物体"
+
+#: ND/simplify/decimate.py:36
+msgctxt "Operator"
+msgid "Decimate"
+msgstr "精简"
+
+#: ND/interface/fast_menu.py:126
+msgctxt "Operator"
+msgid "Difference"
+msgstr "差集"
+
+#: ND/viewport/capture_utils.py:35
+msgctxt "Operator"
+msgid "Display and select all utils in the scene.\nSHIFT — Only display and select utils for the selected objects"
+msgstr "显示并选择场景中的所有工具。\nSHIFT — 仅显示并选择选中物体的工具"
+
+#: ND/booleans/duplicate_utility.py:37
+msgctxt "Operator"
+msgid "Duplicate Utility"
+msgstr "复制工具"
+
+#: ND/utils/smart_duplicate.py:39
+msgctxt "Operator"
+msgid "Duplicate the selected objects with their utils\nSHIFT — Deep duplicate (includes all children)"
+msgstr "复制选中物体及其工具\nSHIFT — 深度复制（包括所有子级）"
+
+#: ND/booleans/duplicate_utility.py:38
+msgctxt "Operator"
+msgid "Duplicate the selected utility object and the associated modifier(s)\nSHIFT — Do not duplicate intersect target objects\nALT — Create a linked duplicate"
+msgstr "复制选中的工具物体及关联的修改器\nSHIFT — 不复制相交目标物体\nALT — 创建关联复制"
+
+#: ND/viewport/toggle_face_orientation.py:33
+msgctxt "Operator"
+msgid "Face Orientation"
+msgstr "面朝向"
+
+#: ND/interface/main_ui_panel.py:169
+msgctxt "Operator"
+msgid "Hide the asset library installation prompt. Can be re-enabled in preferences under UI."
+msgstr "隐藏资产库安装提示。可在偏好设置的界面中重新启用。"
+
+#: ND/interface/fast_menu.py:317
+msgctxt "Operator"
+msgid "High LOD"
+msgstr "高 LOD"
+
+#: ND/interface/main_ui_panel.py:197
+msgctxt "Operator"
+msgid "Ignore"
+msgstr "忽略"
+
+#: ND/interface/main_ui_panel.py:168
+msgctxt "Operator"
+msgid "Ignore Asset Library Prompt"
+msgstr "忽略资产库提示"
+
+#: ND/interface/main_ui_panel.py:196
+msgctxt "Operator"
+msgid "Install"
+msgstr "安装"
+
+#: ND/interface/main_ui_panel.py:132
+msgctxt "Operator"
+msgid "Install Asset Library"
+msgstr "安装资产库"
+
+#: ND/interface/main_ui_panel.py:133
+msgctxt "Operator"
+msgid "Install the asset library"
+msgstr "安装资产库"
+
+#: ND/interface/fast_menu.py:128
+msgctxt "Operator"
+msgid "Intersect"
+msgstr "相交"
+
+#: ND/interface/fast_menu.py:316
+msgctxt "Operator"
+msgid "Low LOD"
+msgstr "低 LOD"
+
+#: ND/sketch/make_manifold.py:34
+msgctxt "Operator"
+msgid "Make Manifold"
+msgstr "生成流形"
+
+#: ND/utils/mark_as_util.py:35
+msgctxt "Operator"
+msgid "Mark as Utility"
+msgstr "标记为工具"
+
+#: ND/utils/mark_as_util.py:36
+msgctxt "Operator"
+msgid "Mark the selected objects as utilities\nCTRL — Unmark the selected objects as utilities\nALT — Do not use the last object as a parent\nSHIFT — Recursively mark all children of the selected objects as utilities"
+msgstr "将选中物体标记为工具\nCTRL — 取消将选中物体标记为工具\nALT — 不使用最后一个物体作为父级\nSHIFT — 递归将选中物体的所有子级标记为工具"
+
+#: ND/packaging/name_sync.py:34
+msgctxt "Operator"
+msgid "Name & Data Sync"
+msgstr "名称与数据同步"
+
+#: ND/viewport/toggle_clear_view.py:33
+msgctxt "Operator"
+msgid "Overlays (All)"
+msgstr "叠加层（全部）"
+
+#: ND/viewport/toggle_custom_view.py:34
+msgctxt "Operator"
+msgid "Overlays (Custom)"
+msgstr "叠加层（自定义）"
+
+#: ND/booleans/boolean_slice.py:41
+msgctxt "Operator"
+msgid "Perform a boolean operation on the selected objects\nALT — Do not clean the reference object's mesh"
+msgstr "对选中物体执行布尔运算\nALT — 不清理参照物体的网格"
+
+#: ND/booleans/vanilla.py:41
+msgctxt "Operator"
+msgid "Perform a boolean operation on the selected objects\nSHIFT — Protect the reference object (do not convert into utility)\nALT — Do not clean the reference object's mesh"
+msgstr "对选中物体执行布尔运算\nSHIFT — 保护参照物体（不转换为工具）\nALT — 不清理参照物体的网格"
+
+#: ND/data/clear_edge_marks.py:37
+msgctxt "Operator"
+msgid "Remove edge marks from the selected edges"
+msgstr "从选中边移除边标记"
+
+#: ND/data/clear_vertex_groups.py:37
+msgctxt "Operator"
+msgid "Remove the active vertices from all vertex groups on the selected object\nSHIFT — Do not remove empty vertex groups"
+msgstr "从选中物体的所有顶点组中移除活动顶点\nSHIFT — 不移除空顶点组"
+
+#: ND/packaging/clear_materials.py:35
+msgctxt "Operator"
+msgid "Remove the material slots from all selected objects"
+msgstr "移除所有选中物体的材质槽"
+
+#: ND/scene/clean_utils.py:36
+msgctxt "Operator"
+msgid "Removes unused boolean modifiers and utility objects"
+msgstr "移除未使用的布尔修改器和工具物体"
+
+#: ND/interface/reset_theme.py:34
+msgctxt "Operator"
+msgid "Reset ND Theme"
+msgstr "重置 ND 主题"
+
+#: ND/interface/reset_theme.py:35
+msgctxt "Operator"
+msgid "Reset the ND theme colors back to their original values"
+msgstr "将 ND 主题颜色重置为原始值"
+
+#: ND/interface/sketch_menu.py:52
+msgctxt "Operator"
+msgid "S » Clear Scale"
+msgstr "S » 清除缩放"
+
+#: ND/interface/sketch_menu.py:58
+msgctxt "Operator"
+msgid "S » Shrink/Fatten"
+msgstr "S » 收缩/膨胀"
+
+#: ND/packaging/set_lod_suffix.py:35
+msgctxt "Operator"
+msgid "Set LOD Suffix"
+msgstr "设置 LOD 后缀"
+
+#: ND/utils/set_origin.py:37
+msgctxt "Operator"
+msgid "Set Origin"
+msgstr "设置原点"
+
+#: ND/utils/set_origin.py:38
+msgctxt "Operator"
+msgid "Set the origin of the active object to that of another\nALT — Use faux origin translation (for origin-reliant geometry)\nSHIFT — Undo faux origin translation"
+msgstr "将活动物体的原点设置为另一物体的原点\nALT — 使用模拟原点平移（适用于依赖原点的几何体）\nSHIFT — 撤销模拟原点平移"
+
+#: ND/sketch/single_vertex.py:35
+msgctxt "Operator"
+msgid "Single Vertex"
+msgstr "单个顶点"
+
+#: ND/booleans/boolean_slice.py:40
+msgctxt "Operator"
+msgid "Slice"
+msgstr "切片"
+
+#: ND/utils/smart_duplicate.py:38
+msgctxt "Operator"
+msgid "Smart Duplicate"
+msgstr "智能复制"
+
+#: ND/packaging/set_lod_suffix.py:36
+msgctxt "Operator"
+msgid "Suffixes all selected objects with the specified LOD"
+msgstr "为所有选定物体添加指定 LOD 后缀"
+
+#: ND/interface/fast_menu.py:122
+#: ND/interface/fast_menu.py:261
+msgctxt "Operator"
+msgid "Swap Solver (Booleans)"
+msgstr "交换解算器（布尔）"
+
+#: ND/utils/sync_modifiers.py:120
+msgctxt "Operator"
+msgid "Sync Modifiers"
+msgstr "同步修改器"
+
+#: ND/utils/sync_modifiers.py:121
+msgctxt "Operator"
+msgid "Sync modifier settings from the active object to the selected objects\nSHIFT — Clone the active object's modifiers\nCTRL — Remove all drivers (retaining values)\nALT — Override util references on all sync'd objects"
+msgstr "将活动物体的修改器设置同步到选定物体上\nSHIFT — 克隆活动物体的修改器\nCTRL — 移除所有驱动器（保留数值）\nALT — 覆盖所有已同步物体上的工具引用"
+
+#: ND/interface/main_ui_panel.py:79
+msgctxt "Operator"
+msgid "Toggle Sections"
+msgstr "切换分区显示"
+
+#: ND/viewport/toggle_cavity.py:34
+msgctxt "Operator"
+msgid "Toggle cavity visibility"
+msgstr "切换腔体可见性"
+
+#: ND/viewport/toggle_face_orientation.py:34
+msgctxt "Operator"
+msgid "Toggle face orientation"
+msgstr "切换面朝向"
+
+#: ND/viewport/toggle_clear_view.py:34
+msgctxt "Operator"
+msgid "Toggle the visibility of all overlays"
+msgstr "切换所有叠加层的可见性"
+
+#: ND/viewport/toggle_custom_view.py:35
+msgctxt "Operator"
+msgid "Toggle the visibility of all overlays defined in the addon preferences"
+msgstr "切换插件偏好设置中定义的所有叠加层的可见性"
+
+#: ND/interface/main_ui_panel.py:80
+msgctxt "Operator"
+msgid "Toggle the visibility of all sections below"
+msgstr "切换下方所有分区的可见性"
+
+#: ND/viewport/toggle_utils.py:38
+msgctxt "Operator"
+msgid "Toggle the visibility of all util objects in the scene.\nSHIFT — Display all utils for the selected objects"
+msgstr "切换场景中所有工具物体的可见性。\nSHIFT — 显示选定物体的所有工具"
+
+#: ND/viewport/toggle_wireframes.py:34
+msgctxt "Operator"
+msgid "Toggle wireframe visibility"
+msgstr "切换线框可见性"
+
+#: ND/packaging/triangulate.py:35
+msgctxt "Operator"
+msgid "Triangulate"
+msgstr "三角化"
+
+#: ND/interface/fast_menu.py:127
+msgctxt "Operator"
+msgid "Union"
+msgstr "并集"
+
+#: ND/packaging/name_sync.py:35
+msgctxt "Operator"
+msgid "Updates all data names to match their corresponding object names"
+msgstr "更新所有数据名称，使其与对应物体名称一致"
+
+#: ND/viewport/toggle_utils.py:37
+msgctxt "Operator"
+msgid "Utils Visibility"
+msgstr "工具可见性"
+
+#: ND/shading/wn.py:35
+msgctxt "Operator"
+msgid "Weighted Normals"
+msgstr "加权法线"
+
+#: ND/simplify/weld.py:35
+msgctxt "Operator"
+msgid "Weld"
+msgstr "焊接"
+
+#: ND/viewport/toggle_wireframes.py:33
+msgctxt "Operator"
+msgid "Wireframes"
+msgstr "线框"

@@ -1,0 +1,292 @@
+# perfect-chinese: 1
+# id: node_arrange
+# kind: addon
+# module: bl_ext.blender_org.node_arrange
+# name: Node Arrange
+# name_zh: 节点排列
+# translator: KeshiMiao
+# category: Node
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: properties.py:130
+msgid "Active Node"
+msgstr "活动节点"
+
+#: properties.py:127
+msgid "Active Output"
+msgstr "活动输出"
+
+#: ui.py:49
+msgid "Add"
+msgstr "添加"
+
+#: properties.py:81
+msgid "Add Reroutes"
+msgstr "添加转接点"
+
+#: properties.py:72
+msgid "Align sockets or node tops depending on the heights of the nodes"
+msgstr "根据节点高度对齐插槽或节点顶部"
+
+#: ui.py:33
+msgid "Alignment"
+msgstr "对齐"
+
+#: properties.py:20
+msgid "All node trees in the current .blend file"
+msgstr "当前 .blend 文件中的所有节点树"
+
+#: properties.py:88
+msgid "Always attatch reroutes to the lowest common frame of the nodes they connect"
+msgstr "始终将转接点附加到它们所连接节点的最低公共框架上"
+
+#: properties.py:73
+msgid "Always try to align sockets with other sockets"
+msgstr "始终尝试将插槽与其他插槽对齐"
+
+#: ui.py:12
+#: ui.py:20
+msgid "Arrange"
+msgstr "排列"
+
+#: properties.py:61
+msgid "Balanced"
+msgstr "均衡"
+
+#: properties.py:56
+msgid "Bottom Left"
+msgstr "左下"
+
+#: properties.py:57
+msgid "Bottom Right"
+msgstr "右下"
+
+#: properties.py:124
+msgid "Center"
+msgstr "居中"
+
+#: ui.py:55
+msgid "Collapsed Nodes"
+msgstr "折叠节点"
+
+#: properties.py:61
+msgid "Combine four extreme layouts, evening out their directional tendencies"
+msgstr "组合四种极端布局，平衡其方向倾向"
+
+#: ui.py:40
+msgid "Crossed Links"
+msgstr "交叉连接"
+
+#: properties.py:54
+msgid "Direction of layout"
+msgstr "布局方向"
+
+#: properties.py:102
+msgid "Factor for vertical spacing between stacked nodes"
+msgstr "堆叠节点之间垂直间距的系数"
+
+#: properties.py:73
+msgid "Full"
+msgstr "完整"
+
+#: properties.py:81
+msgid "Insert reroutes into links"
+msgstr "在连接中插入转接点"
+
+#: properties.py:43
+msgid "Iterations"
+msgstr "迭代次数"
+
+#: properties.py:111
+msgid "Make the widths of collapsed nodes fit their display name exactly"
+msgstr "使折叠节点的宽度精确适应其显示名称"
+
+#: properties.py:69
+msgid "Method to align sockets with other sockets"
+msgstr "将插槽与其他插槽对齐的方法"
+
+#: properties.py:72
+msgid "Moderate"
+msgstr "适中"
+
+#: properties.py:130
+msgid "Move selected nodes by the difference of the active node's location from (0, 0)"
+msgstr "按活动节点位置与 (0, 0) 的差值移动选中节点"
+
+#: properties.py:127
+msgid "Move selected nodes by the difference of the active output(s) location from (0, 0)"
+msgstr "按活动输出位置与 (0, 0) 的差值移动选中节点"
+
+#: properties.py:124
+msgid "Move selected nodes by the difference of their average location from (0, 0)"
+msgstr "按选中节点的平均位置与 (0, 0) 的差值移动选中节点"
+
+#: operators.py:171
+msgid "No active output"
+msgstr "没有活动输出"
+
+#: operators.py:43
+#: operators.py:150
+msgid "No nodes selected"
+msgstr "未选择节点"
+
+#: operators.py:164
+msgid "No valid active node"
+msgstr "没有有效的活动节点"
+
+#: operators.py:156
+msgid "No valid nodes selected"
+msgstr "未选择有效节点"
+
+#: properties.py:54
+msgid "Node Alignment"
+msgstr "节点对齐"
+
+#: properties.py:19
+#: ui.py:36
+msgid "Nodes"
+msgstr "节点"
+
+#: properties.py:71
+msgid "None"
+msgstr "无"
+
+#: properties.py:43
+msgid "Number of times to reduce crossings between links (higher values give less crossings, but are slower). To resolve all unnecessary crossings, this option may need to be set very high (since it is probabilistic)"
+msgstr "减少连接之间交叉的次数（值越高交叉越少，但速度越慢）。要解决所有不必要的交叉，此选项可能需要设置得很高（因为它是概率性的）"
+
+#: properties.py:71
+msgid "Only try to align the tops of nodes"
+msgstr "仅尝试对齐节点顶部"
+
+#: properties.py:111
+msgid "Optimize Sizes"
+msgstr "优化尺寸"
+
+#: properties.py:122
+msgid "Origin"
+msgstr "原点"
+
+#: ui.py:52
+msgid "Place Outside Frames"
+msgstr "放置在框架外"
+
+#: properties.py:88
+msgid "Place Reroutes Outside Frames"
+msgstr "将转接点放置在框架外"
+
+#: ui.py:74
+msgid "Recenter"
+msgstr "重新居中"
+
+#: ui.py:46
+msgid "Reroutes"
+msgstr "转接点"
+
+#: properties.py:19
+msgid "Selected nodes in the current node tree"
+msgstr "当前节点树中的选中节点"
+
+#: properties.py:69
+msgid "Socket Alignment"
+msgstr "插槽对齐"
+
+#: ui.py:37
+msgid "Sockets"
+msgstr "插槽"
+
+#: properties.py:32
+msgid "Space between nodes"
+msgstr "节点间距"
+
+#: properties.py:32
+#: ui.py:28
+msgid "Spacing"
+msgstr "间距"
+
+#: properties.py:102
+msgid "Spacing Y Factor"
+msgstr "间距 Y 系数"
+
+#: properties.py:96
+msgid "Stack Collapsed Nodes"
+msgstr "堆叠折叠节点"
+
+#: properties.py:96
+msgid "Stack collapsed math and vector math nodes on top of one another"
+msgstr "将折叠的数学节点和矢量运算节点相互堆叠"
+
+#: properties.py:58
+msgid "Top Left"
+msgstr "左上"
+
+#: properties.py:59
+msgid "Top Right"
+msgstr "右上"
+
+#: properties.py:20
+msgid "Trees"
+msgstr "节点树"
+
+#: properties.py:28
+msgid "What to arrange"
+msgstr "要排列的内容"
+
+#: properties.py:119
+msgid "What to recenter"
+msgstr "要重新居中的内容"
+
+#: operators.py:130
+msgctxt "Operator"
+msgid "Arrange All Node Trees"
+msgstr "排列所有节点树"
+
+#: operators.py:35
+msgctxt "Operator"
+msgid "Arrange Selected"
+msgstr "排列选中项"
+
+#: ui.py:68
+msgctxt "Operator"
+msgid "Arrange Selected Nodes"
+msgstr "排列选中节点"
+
+#: operators.py:131
+msgctxt "Operator"
+msgid "Arrange all node trees in the current .blend file with the above settings.\nWarning: May be slow if there are expensive node trees, due to re-evaluation"
+msgstr "使用上述设置排列当前 .blend 文件中的所有节点树。\n警告：如果存在计算开销大的节点树，由于需要重新求值，可能会很慢"
+
+#: operators.py:36
+msgctxt "Operator"
+msgid "Arrange selected nodes"
+msgstr "排列选中节点"
+
+#: operators.py:143
+msgctxt "Operator"
+msgid "Clear the locations of selected nodes"
+msgstr "清除选中节点的位置"
+
+#: operators.py:188
+msgctxt "Operator"
+msgid "Recenter All Node Trees"
+msgstr "重新居中所有节点树"
+
+#: operators.py:142
+msgctxt "Operator"
+msgid "Recenter Selected"
+msgstr "重新居中选中项"
+
+#: ui.py:85
+msgctxt "Operator"
+msgid "Recenter Selected Nodes"
+msgstr "重新居中选中节点"
+
+#: operators.py:189
+msgctxt "Operator"
+msgid "Recenter all node trees in the current .blend file with the above settings"
+msgstr "使用上述设置重新居中当前 .blend 文件中的所有节点树"

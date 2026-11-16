@@ -1,0 +1,1030 @@
+# perfect-chinese: 1
+# id: sapling_tree_gen
+# kind: addon
+# module: bl_ext.blender_org.sapling_tree_gen
+# name: Sapling Tree Gen
+# name_zh: 参数化树木生成
+# translator: KeshiMiao
+# category: Add Curve
+# supported_versions: >=5.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: ui/properties.py:148
+msgid "Adjust branch spacing to put more branches at the top or bottom of the tree"
+msgstr "调整枝条间距，使更多枝条位于树的顶部或底部"
+
+#: ui/properties.py:494
+msgid "After Leaf Face Up, each leaf tilted by a random angle up to this either way, about a random horizontal axis (degrees)"
+msgstr "在叶片朝上之后，每片叶子绕随机水平轴随机倾斜至多该角度（度）"
+
+#: ui/properties.py:260
+msgid "Angle of branch splitting (nSplitAngle)"
+msgstr "枝条分叉角度（nSplitAngle）"
+
+#: ui/properties.py:544
+msgid "Animation Speed"
+msgstr "动画速度"
+
+#: ui/properties.py:506
+msgid "Armature Rig"
+msgstr "骨架绑定"
+
+#: ui/pages.py:221
+msgid "Armature Simplification:"
+msgstr "骨架简化："
+
+#: ui/properties.py:189
+msgid "Auto Taper"
+msgstr "自动锥化"
+
+#: ui/properties.py:334
+msgid "Back Curvature"
+msgstr "回弯曲率"
+
+#: ui/properties.py:512
+msgid "Bake the branches into a plain mesh, weighted to the rig's bones, for export. The Bevel inputs are then fixed, Fast Preview shows the bounds, and playback is heavier (every vertex is deformed)"
+msgstr "将枝条烘焙为普通网格，并按骨架骨骼赋予权重，以便导出。此时倒角输入固定，快速预览仅显示边界，播放更卡顿（每个顶点都会被形变）"
+
+#: ui/properties.py:217
+msgid "Base Splits"
+msgstr "基部分叉"
+
+#: ui/properties.py:338
+msgid "Bend Variation"
+msgstr "弯曲变化"
+
+#: ui/properties.py:120
+msgid "Bevel"
+msgstr "倒角"
+
+#: ui/properties.py:121
+msgid "Bevel Resolution"
+msgstr "倒角分辨率"
+
+#: ui/properties.py:450
+msgid "Blossom Rate"
+msgstr "开花率"
+
+#: ui/properties.py:459
+msgid "Blossom Scale"
+msgstr "花朵缩放"
+
+#: ui/properties.py:455
+msgid "Blossom Shape"
+msgstr "花朵形状"
+
+#: ui/pages.py:200
+msgid "Blossom Shape:"
+msgstr "花朵形状："
+
+#: ui/properties.py:225
+msgid "Branch Base"
+msgstr "枝条基部"
+
+#: ui/properties.py:148
+msgid "Branch Distribution"
+msgstr "枝条分布"
+
+#: ui/properties.py:175
+msgid "Branch Radius Ratio"
+msgstr "枝条半径比例"
+
+#: ui/properties.py:153
+msgid "Branch Rings"
+msgstr "枝条环数"
+
+#: ui/properties.py:144
+msgid "Branch length of the custom shape at (Base, Middle, Middle Position, Top)"
+msgstr "自定义形状在（基部、中部、中部位置、顶部）的枝条长度"
+
+#: ui/properties.py:278
+msgid "Branch outward attraction"
+msgstr "枝条向外吸引力"
+
+#: ui/properties.py:350
+msgid "Branch upward attraction"
+msgstr "枝条向上吸引力"
+
+#: ui/properties.py:252
+msgid "Branches"
+msgstr "枝条"
+
+#: ui/properties.py:290
+msgid "Branches turned downwind, like Outward Attraction toward one direction (levels 2 to 4)"
+msgstr "枝条顺风偏转，类似朝向单一方向的向外吸引力（层级 2 到 4）"
+
+#: ui/properties.py:294
+msgid "Branching Mode"
+msgstr "分枝模式"
+
+#: ui/pages.py:120
+msgid "Branching Mode:"
+msgstr "分枝模式："
+
+#: ui/properties.py:294
+msgid "Branching and rotation mode"
+msgstr "分枝与旋转模式"
+
+#: ui/properties.py:189
+msgid "Calculate the taper from the branch lengths"
+msgstr "根据枝条长度计算锥化"
+
+#: ui/properties.py:114
+msgid "Choose the settings to modify"
+msgstr "选择要修改的设置"
+
+#: ui/properties.py:183
+msgid "Close Tip"
+msgstr "封闭末端"
+
+#: ui/properties.py:246
+msgid "Count Above Base"
+msgstr "基部以上的数量"
+
+#: ui/properties.py:326
+msgid "Curvature"
+msgstr "曲率"
+
+#: ui/properties.py:330
+msgid "Curvature Variation"
+msgstr "曲率变化"
+
+#: ui/properties.py:334
+msgid "Curvature for the second half of a branch (nCurveBack)"
+msgstr "枝条后半段的曲率（nCurveBack）"
+
+#: ui/properties.py:144
+msgid "Custom Shape"
+msgstr "自定义形状"
+
+#: ui/properties.py:320
+msgid "Decrease of the Down Angle toward the end of the parent branch (negative values add random variation)"
+msgstr "靠近父枝条末端时下倾角的减小量（负值会增加随机变化）"
+
+#: ui/properties.py:418
+msgid "Decrease of the Leaf Down Angle toward the end of the parent branch (negative values add random variation)"
+msgstr "靠近父枝条末端时叶片下倾角的减小量（负值会增加随机变化）"
+
+#: ui/properties.py:113
+msgid "Do Update"
+msgstr "执行更新"
+
+#: ui/properties.py:316
+msgid "Down Angle"
+msgstr "下倾角"
+
+#: ui/properties.py:320
+msgid "Down Angle Variation"
+msgstr "下倾角变化"
+
+#: ui/properties.py:354
+msgid "Down Angle Variation as in older versions: negative values scale the angle along the parent"
+msgstr "旧版的下倾角变化：负值沿父枝条缩放角度"
+
+#: ui/properties.py:230
+msgid "Factor to decrease base size for each level"
+msgstr "每一层级减小基部大小的系数"
+
+#: ui/properties.py:478
+msgid "Fan Angles"
+msgstr "扇形角度"
+
+#: ui/properties.py:538
+msgid "Fast Preview"
+msgstr "快速预览"
+
+#: ui/properties.py:538
+msgid "Fast playback. The branches are drawn as their curves, or with the rig the tree as its bounds and the bones as wire"
+msgstr "快速播放。枝条以其曲线绘制，或在使用骨架时将整棵树绘制为边界、骨骼绘制为线框"
+
+#: ui/properties.py:571
+msgid "Flutter Randomness"
+msgstr "飘动随机性"
+
+#: ui/properties.py:567
+msgid "Flutter Speed"
+msgstr "飘动速度"
+
+#: ui/properties.py:563
+msgid "Flutter Strength"
+msgstr "飘动强度"
+
+#: ui/properties.py:378
+msgid "Fraction of envelope height where the maximum width occurs (PruneWidthPeak)"
+msgstr "最大宽度出现的包络高度比例（PruneWidthPeak）"
+
+#: ui/properties.py:221
+msgid "Fraction of tree height with no branches (Base Size)"
+msgstr "没有枝条的树高比例（基部大小）"
+
+#: ui/properties.py:234
+msgid "Fraction of tree height with no splits"
+msgstr "没有分叉的树高比例"
+
+#: ui/properties.py:506
+msgid "Generate an armature whose bones move the branches, one bone per Joint Length stem segments within the Joint Levels. With Wind, the wind animates the bones"
+msgstr "生成骨架，其骨骼驱动枝条：在关节层级内，每段关节长度生成一根骨骼。启用风时，由风驱动骨骼动画"
+
+#: ui/properties.py:472
+msgid "Give mesh leaves the Sapling Leaf material and blossoms the Sapling Blossom material. Their Thin Wall shading lets light through, as through real leaves and petals"
+msgstr "为网格叶片赋予 Sapling Leaf 材质、为花朵赋予 Sapling Blossom 材质。其薄壁着色可透光，如同真实的叶片和花瓣"
+
+#: ui/properties.py:120
+msgid "Give the branches thickness"
+msgstr "为枝条添加厚度"
+
+#: ui/properties.py:153
+msgid "Grow branches in rings"
+msgstr "以环状生长枝条"
+
+#: ui/properties.py:344
+msgid "Grow the stems of a level as helixes. Curvature Variation sets the helix angle. It must be less than 90 degrees. Helix stems do not split, curve or bend"
+msgstr "将某一层级的茎按螺旋生长。曲率变化设定螺旋角度，必须小于 90 度。螺旋茎不会分叉、弯曲或弯折"
+
+#: ui/properties.py:559
+msgid "Gust Frequency"
+msgstr "阵风频率"
+
+#: ui/properties.py:555
+msgid "Gust Strength"
+msgstr "阵风强度"
+
+#: ui/properties.py:132
+msgid "Handle Type"
+msgstr "控制柄类型"
+
+#: ui/pages.py:58
+msgid "Handle Type:"
+msgstr "控制柄类型："
+
+#: ui/properties.py:344
+msgid "Helix"
+msgstr "螺旋"
+
+#: ui/properties.py:498
+msgid "Horizontal Leaves"
+msgstr "水平叶片"
+
+#: ui/properties.py:286
+msgid "How far the wind shears the pruning envelope: cut back on the windward side, reaching further downwind (needs Prune)"
+msgstr "风对修剪包络的剪切程度：迎风侧收缩，背风侧延伸（需要修剪）"
+
+#: ui/properties.py:462
+msgid "How much the leaf bends (Bend)"
+msgstr "叶片弯曲程度（弯曲）"
+
+#: ui/properties.py:410
+msgid "How the leaves are spread along the branches"
+msgstr "叶片沿树枝的分布方式"
+
+#: ui/properties.py:523
+msgid "Joint Length"
+msgstr "关节长度"
+
+#: ui/properties.py:518
+msgid "Joint Levels"
+msgstr "关节层级"
+
+#: ui/properties.py:484
+msgid "Keep the leaves off the bare base of their stems (Trunk Height times Trunk Height Scale, as for branches). Off: leaves grow along the whole stem"
+msgstr "让叶片避开的茎干裸露基部（树干高度乘以树干高度缩放，与树枝相同）。关闭：叶片沿整根茎干生长"
+
+#: ui/properties.py:466
+msgid "Leaf Angle"
+msgstr "叶片角度"
+
+#: ui/properties.py:462
+msgid "Leaf Bend"
+msgstr "叶片弯曲"
+
+#: ui/properties.py:410
+msgid "Leaf Distribution"
+msgstr "叶片分布"
+
+#: ui/pages.py:180
+msgid "Leaf Distribution:"
+msgstr "叶片分布："
+
+#: ui/properties.py:414
+msgid "Leaf Down Angle"
+msgstr "叶片下垂角度"
+
+#: ui/properties.py:418
+msgid "Leaf Down Angle Variation"
+msgstr "叶片下垂角度变化"
+
+#: ui/properties.py:490
+msgid "Leaf Face Up"
+msgstr "叶片朝上"
+
+#: ui/properties.py:494
+msgid "Leaf Face Up Variation"
+msgstr "叶片朝上变化"
+
+#: ui/properties.py:534
+msgid "Leaf Flutter"
+msgstr "叶片飘动"
+
+#: ui/properties.py:472
+msgid "Leaf Material"
+msgstr "叶片材质"
+
+#: ui/properties.py:400
+msgid "Leaf Object"
+msgstr "叶片物体"
+
+#: ui/properties.py:424
+msgid "Leaf Rotate Angle"
+msgstr "叶片旋转角度"
+
+#: ui/properties.py:430
+msgid "Leaf Rotate Angle Variation"
+msgstr "叶片旋转角度变化"
+
+#: ui/properties.py:434
+msgid "Leaf Scale"
+msgstr "叶片缩放"
+
+#: ui/properties.py:442
+msgid "Leaf Scale Taper"
+msgstr "叶片缩放锥化"
+
+#: ui/properties.py:446
+msgid "Leaf Scale Variation"
+msgstr "叶片缩放变化"
+
+#: ui/properties.py:438
+msgid "Leaf Scale X"
+msgstr "叶片 X 缩放"
+
+#: ui/properties.py:396
+msgid "Leaf Shape"
+msgstr "叶片形状"
+
+#: ui/pages.py:175
+msgid "Leaf Shape:"
+msgstr "叶片形状："
+
+#: ui/pages.py:239
+msgid "Leaf Wind Settings:"
+msgstr "叶片风设置："
+
+#: ui/properties.py:404
+msgid "Leaves"
+msgstr "叶片"
+
+#: ui/properties.py:484
+msgid "Leaves Above Base"
+msgstr "基部以上叶片"
+
+#: ui/properties.py:534
+msgid "Leaves flutter in the wind (with Wind), in Geometry Nodes"
+msgstr "叶片随风飘动（配合风，在几何节点中）"
+
+#: ui/properties.py:308
+msgid "Length"
+msgstr "长度"
+
+#: ui/properties.py:312
+msgid "Length Variation"
+msgstr "长度变化"
+
+#: ui/properties.py:203
+msgid "Levels"
+msgstr "层级"
+
+#: ui/operators.py:56
+msgid "Load Stored Settings"
+msgstr "加载已存设置"
+
+#: ui/operators.py:49
+msgid "Load the settings of a preset"
+msgstr "加载预设的设置"
+
+#: ui/properties.py:548
+msgid "Loop Frames"
+msgstr "循环帧数"
+
+#: ui/properties.py:512
+msgid "Make Mesh"
+msgstr "生成网格"
+
+#: ui/properties.py:404
+msgid "Maximum number of leaves per branch. Negative values grow a palmate fan of leaves from the branch tip"
+msgstr "每根树枝的最大叶片数。负值会从枝尖长出掌状扇形叶片"
+
+#: ui/properties.py:338
+msgid "Maximum random sideways turn of a branch, in degrees. Each segment turns by a part of it. A segment that splits does not turn"
+msgstr "树枝随机侧向转弯的最大角度（度）。每段按其中一部分转弯。分叉的段不转弯"
+
+#: ui/properties.py:180
+msgid "Minimum Radius"
+msgstr "最小半径"
+
+#: ui/properties.py:180
+msgid "Minimum branch radius"
+msgstr "最小树枝半径"
+
+#: ui/properties.py:563
+msgid "Multiplier for the leaves' noise amplitude"
+msgstr "叶片噪波振幅的倍数"
+
+#: ui/properties.py:567
+msgid "Multiplier for the leaves' noise frequency (above 0)"
+msgstr "叶片噪波频率的倍数（大于 0）"
+
+#: ui/properties.py:197
+msgid "Multiply the radius by this factor"
+msgstr "半径乘以该系数"
+
+#: ui/preset_save.py:24
+msgid "Name"
+msgstr "名称"
+
+#: ui/operators.py:53
+msgid "Name of the Sapling tree root to re-generate"
+msgstr "要重新生成的 Sapling 树根名称"
+
+#: ui/properties.py:203
+msgid "Number of branch levels (Levels)"
+msgstr "树枝层级数（层级）"
+
+#: ui/properties.py:518
+msgid "Number of branch levels that get bones (joints) of their own. Deeper levels follow the nearest bone below them. 1 rigs the trunk, 2 adds its branches (0 is all levels)"
+msgstr "拥有自身骨骼（关节）的树枝层级数。更深的层级跟随其下方最近的骨骼。1 为绑定树干，2 再绑定其树枝（0 为所有层级）"
+
+#: ui/properties.py:548
+msgid "Number of frames after which the animation repeats (0: no loop)"
+msgstr "动画重复前的帧数（0：不循环）"
+
+#: ui/properties.py:256
+msgid "Number of splits per segment (nSegSplits)"
+msgstr "每段的分叉数（nSegSplits）"
+
+#: ui/properties.py:523
+msgid "Number of stem segments per bone (joint), per level"
+msgstr "每个层级中每根骨骼（关节）的茎干段数"
+
+#: ui/properties.py:217
+msgid "Number of trunk splits at its base (nBaseSplits)"
+msgstr "树干基部的分叉数（nBaseSplits）"
+
+#: ui/properties.py:207
+msgid "Number of trunks growing from one root, as a clump (bamboo)"
+msgstr "从一个根部长出的树干数，成丛生长（竹子）"
+
+#: ui/properties.py:400
+msgid "Object instanced as the leaf (Instance Faces and Instance Points)"
+msgstr "作为叶片实例化的物体（实例面与实例点）"
+
+#: ui/properties.py:278
+msgid "Outward Attraction"
+msgstr "向外吸引力"
+
+#: ui/preset_save.py:25
+#: ui/properties.py:580
+msgid "Overwrite"
+msgstr "覆盖"
+
+#: ui/properties.py:580
+msgid "Overwrite an existing preset file with the same name"
+msgstr "覆盖同名的现有预设文件"
+
+#: ui/properties.py:478
+msgid "Palmate fans use Leaf Down Angle, which tilts their leaves into a shallow cup, and Leaf Rotate Variation, which turns each leaf at random. Off: flat, even fans"
+msgstr "掌状扇形使用叶下垂角度，将叶片倾斜成浅杯状，并使用叶旋转变化随机旋转每片叶子。关闭：平坦均匀的扇形"
+
+#: ui/properties.py:175
+msgid "Power that gives the radius of a branch from the radius of the branch it grew from (RatioPower)"
+msgstr "根据父分支的半径计算分支半径的幂（RatioPower）"
+
+#: ui/properties.py:388
+msgid "Power that shapes the lower part of the envelope (PrunePowerLow)"
+msgstr "塑造包络下部的幂（PrunePowerLow）"
+
+#: ui/properties.py:383
+msgid "Power that shapes the upper part of the envelope (PrunePowerHigh)"
+msgstr "塑造包络上部的幂（PrunePowerHigh）"
+
+#: ui/operators.py:49
+msgid "Preset"
+msgstr "预设"
+
+#: ui/properties.py:576
+msgid "Preset Name"
+msgstr "预设名称"
+
+#: ui/operators.py:52
+msgid "Preset Pending"
+msgstr "预设待定"
+
+#: ui/pages.py:73
+msgid "Presets:"
+msgstr "预设："
+
+#: ui/properties.py:366
+msgid "Proportion of pruned length (PruneRatio)"
+msgstr "修剪长度的比例（PruneRatio）"
+
+#: ui/properties.py:365
+msgid "Prune"
+msgstr "修剪"
+
+#: ui/properties.py:374
+msgid "Prune Base Height"
+msgstr "修剪底部高度"
+
+#: ui/properties.py:383
+msgid "Prune Power High"
+msgstr "修剪幂（上）"
+
+#: ui/properties.py:388
+msgid "Prune Power Low"
+msgstr "修剪幂（下）"
+
+#: ui/properties.py:366
+msgid "Prune Ratio"
+msgstr "修剪比例"
+
+#: ui/properties.py:370
+msgid "Prune Width"
+msgstr "修剪宽度"
+
+#: ui/properties.py:378
+msgid "Prune Width Peak"
+msgstr "修剪宽度峰值"
+
+#: ui/properties.py:365
+msgid "Prune the tree to the envelope"
+msgstr "将树修剪到包络内"
+
+#: ui/properties.py:238
+msgid "Put more splits at the top or bottom of the tree"
+msgstr "在树的顶部或底部增加更多分叉"
+
+#: ui/properties.py:167
+msgid "Radius Scale"
+msgstr "半径缩放"
+
+#: ui/properties.py:171
+msgid "Radius Scale Variation"
+msgstr "半径缩放变化"
+
+#: ui/properties.py:154
+msgid "Random Seed"
+msgstr "随机种子"
+
+#: ui/properties.py:571
+msgid "Random offset in the leaves' noise"
+msgstr "叶片噪波的随机偏移"
+
+#: ui/properties.py:446
+msgid "Random variation of the leaf scale"
+msgstr "叶片缩放的随机变化"
+
+#: ui/properties.py:164
+msgid "Ratio"
+msgstr "比例"
+
+#: ui/operators.py:53
+msgid "Replace"
+msgstr "替换"
+
+#: ui/properties.py:125
+msgid "Resolution U"
+msgstr "分辨率 U"
+
+#: ui/properties.py:186
+msgid "Root Flare"
+msgstr "根部外扩"
+
+#: ui/properties.py:186
+msgid "Root radius factor"
+msgstr "根部半径系数"
+
+#: ui/properties.py:268
+msgid "Rotate Angle"
+msgstr "旋转角度"
+
+#: ui/properties.py:274
+msgid "Rotate Angle Variation"
+msgstr "旋转角度变化"
+
+#: ui/properties.py:359
+msgid "Rotate the first-level branches to match the parent branch"
+msgstr "旋转一级分支以匹配父分支"
+
+#: ui/panels.py:34
+msgid "Sapling"
+msgstr "树苗"
+
+#: ui/panels.py:31
+msgid "Sapling Tree"
+msgstr "树苗"
+
+#: ui/properties.py:157
+msgid "Scale"
+msgstr "缩放"
+
+#: ui/properties.py:158
+msgid "Scale Variation"
+msgstr "缩放变化"
+
+#: ui/properties.py:442
+msgid "Scale leaves toward the tip or base of the parent branch"
+msgstr "使叶片朝父分支尖端或基部缩放"
+
+#: ui/properties.py:230
+msgid "Secondary Base Size"
+msgstr "次级基部尺寸"
+
+#: ui/properties.py:140
+msgid "Secondary Branches Shape"
+msgstr "次级分支形状"
+
+#: ui/pages.py:64
+msgid "Secondary Branches Shape:"
+msgstr "次级分支形状："
+
+#: ui/properties.py:256
+msgid "Segment Splits"
+msgstr "分段分叉"
+
+#: ui/properties.py:298
+msgid "Segments"
+msgstr "分段"
+
+#: ui/properties.py:183
+msgid "Set radius at branch tips to zero"
+msgstr "将分支尖端半径设为零"
+
+#: ui/pages.py:229
+msgid "Set the tree first, then the wind."
+msgstr "先设置树木，再设置风。"
+
+#: ui/preset_save.py:26
+#: ui/properties.py:114
+msgid "Settings"
+msgstr "设置"
+
+#: ui/properties.py:136
+msgid "Shape"
+msgstr "形状"
+
+#: ui/pages.py:60
+msgid "Shape:"
+msgstr "形状："
+
+#: ui/properties.py:304
+msgid "Shorten trunk splits toward the outside of the tree"
+msgstr "缩短朝向树外侧的树干分叉"
+
+#: ui/properties.py:395
+msgid "Show Leaves"
+msgstr "显示叶片"
+
+#: ui/properties.py:395
+msgid "Show the leaves"
+msgstr "显示叶片"
+
+#: ui/properties.py:260
+msgid "Split Angle"
+msgstr "分叉角度"
+
+#: ui/properties.py:264
+msgid "Split Angle Variation"
+msgstr "分叉角度变化"
+
+#: ui/properties.py:238
+msgid "Split Bias"
+msgstr "分叉偏移"
+
+#: ui/properties.py:234
+msgid "Split Height"
+msgstr "分叉高度"
+
+#: ui/properties.py:242
+msgid "Split Relative to Length"
+msgstr "按长度分叉"
+
+#: ui/properties.py:242
+msgid "Split in proportion to the branch length"
+msgstr "按分支长度比例分叉"
+
+#: ui/operators.py:56
+msgid "Start from the settings stored on the tree being replaced (cleared after the first run, so redo keeps your changes)"
+msgstr "从被替换树木保存的设置开始（首次运行后清除，因此重做会保留你的更改）"
+
+#: ui/properties.py:193
+msgid "Taper"
+msgstr "锥化"
+
+#: ui/properties.py:304
+msgid "Taper Crown"
+msgstr "树冠锥化"
+
+#: ui/properties.py:555
+msgid "The amount of directional movement (from the positive Y direction)"
+msgstr "方向移动量（从 Y 轴正方向起）"
+
+#: ui/properties.py:316
+msgid "The angle between a new branch and the one it grew from (nDownAngle)"
+msgstr "新分支与其父分支之间的角度（nDownAngle）"
+
+#: ui/properties.py:414
+msgid "The angle between a new leaf and the branch it grew from"
+msgstr "新叶与其生长出的枝条之间的角度"
+
+#: ui/properties.py:268
+msgid "The angle of a new branch around the one it grew from (negative values rotate opposite from the previous)"
+msgstr "新枝围绕其生长出的枝条的角度（负值与前一个反向旋转）"
+
+#: ui/properties.py:424
+msgid "The angle of a new leaf around the one it grew from (negative values rotate opposite from previous)"
+msgstr "新叶围绕其生长出的枝条的角度（负值与前一个反向旋转）"
+
+#: ui/properties.py:326
+msgid "The angle of the end of the branch (nCurve)"
+msgstr "枝条末端的角度（nCurve）"
+
+#: ui/properties.py:225
+msgid "The bare share of each level's stems, where nothing sprouts (0: the parent level's base times Secondary Base Size); on the last level it keeps the leaves to the outer part"
+msgstr "每一级茎干裸露、不发芽部分的比例（0：上一级基部乘以次级基部尺寸）；在最后一级，它让叶片保留在外侧部分"
+
+#: ui/properties.py:164
+msgid "The base radius (Ratio)"
+msgstr "基础半径（Ratio）"
+
+#: ui/properties.py:121
+msgid "The bevel resolution of the curves"
+msgstr "曲线的倒角分辨率"
+
+#: ui/properties.py:246
+msgid "The branch count is for the part of a stem above its bare base (Trunk Height), as in tree-gen. Off: for the whole stem"
+msgstr "枝条数量针对茎干裸露基部之上的部分（树干高度），与 tree-gen 一致。关闭：针对整个茎干"
+
+#: ui/properties.py:529
+msgid "The branches sway in the wind, in Geometry Nodes or, with Armature Rig, on its bones"
+msgstr "枝条在风中摆动，使用几何节点，或配合骨架绑定在其骨骼上"
+
+#: ui/properties.py:459
+msgid "The diameter of a blossom"
+msgstr "花朵的直径"
+
+#: ui/properties.py:282
+msgid "The direction the shaping wind blows toward, round the trunk (0: toward -Y, 90: toward +X)"
+msgstr "塑形风吹向的方向，绕树干（0：朝 -Y，90：朝 +X）"
+
+#: ui/properties.py:450
+msgid "The fraction of the leaves that are blossoms. 0 gives no blossoms. 1 gives only blossoms"
+msgstr "叶片中花朵的比例。0 表示无花朵，1 表示只有花朵"
+
+#: ui/properties.py:559
+msgid "The frequency of directional movement"
+msgstr "方向运动的频率"
+
+#: ui/properties.py:374
+msgid "The height of the base of the envelope, limited by the Trunk Height"
+msgstr "包裹体基部的高度，由树干高度限制"
+
+#: ui/properties.py:552
+msgid "The intensity of the wind"
+msgstr "风的强度"
+
+#: ui/properties.py:576
+msgid "The name of the preset to save"
+msgstr "要保存的预设名称"
+
+#: ui/properties.py:252
+msgid "The number of branches grown at each level (nBranches)"
+msgstr "每一级长出的枝条数量（nBranches）"
+
+#: ui/properties.py:298
+msgid "The number of segments of each branch, per level (nCurveRes)"
+msgstr "每个枝条的段数，按级别（nCurveRes）"
+
+#: ui/properties.py:136
+msgid "The overall shape of the tree (Shape)"
+msgstr "树的整体形状（Shape）"
+
+#: ui/properties.py:312
+msgid "The relative length variations of each level (nLengthV)"
+msgstr "每一级的相对长度变化（nLengthV）"
+
+#: ui/properties.py:308
+msgid "The relative lengths of each branch level (nLength)"
+msgstr "各枝条级别的相对长度（nLength）"
+
+#: ui/properties.py:438
+msgid "The scale of the leaf in its X direction (LeafScaleX)"
+msgstr "叶片在其 X 方向的缩放（LeafScaleX）"
+
+#: ui/properties.py:167
+msgid "The scale of the trunk radius (0Scale)"
+msgstr "树干半径的缩放（0Scale）"
+
+#: ui/properties.py:434
+msgid "The scale of the whole leaf (LeafScale)"
+msgstr "整片叶子的缩放（LeafScale）"
+
+#: ui/properties.py:154
+msgid "The seed of the random number generator"
+msgstr "随机数生成器的种子"
+
+#: ui/properties.py:140
+msgid "The shape of secondary splits"
+msgstr "二次分叉的形状"
+
+#: ui/properties.py:455
+msgid "The shape of the blossoms"
+msgstr "花朵的形状"
+
+#: ui/properties.py:396
+msgid "The shape of the leaves"
+msgstr "叶片的形状"
+
+#: ui/properties.py:125
+msgid "The smoothness of the branches along their length (the curves' Resolution U)"
+msgstr "枝条沿其长度的平滑度（曲线的 U 向分辨率）"
+
+#: ui/properties.py:544
+msgid "The speed of the animation, relative to the scene frame rate"
+msgstr "动画速度，相对于场景帧率"
+
+#: ui/properties.py:193
+msgid "The taper of the branches at each level (nTaper)"
+msgstr "每一级枝条的锥化（nTaper）"
+
+#: ui/properties.py:157
+msgid "The tree scale (Scale)"
+msgstr "树的缩放（Scale）"
+
+#: ui/properties.py:132
+msgid "The type of handles used in the spline"
+msgstr "样条所用控制柄的类型"
+
+#: ui/properties.py:158
+msgid "The variation in the tree scale (ScaleV)"
+msgstr "树缩放的变化（ScaleV）"
+
+#: ui/properties.py:370
+msgid "The width of the envelope (PruneWidth)"
+msgstr "包裹体的宽度（PruneWidth）"
+
+#: ui/pages.py:69
+msgid "Tree Scale:"
+msgstr "树缩放："
+
+#: ui/properties.py:221
+msgid "Trunk Height"
+msgstr "树干高度"
+
+#: ui/properties.py:207
+msgid "Trunks"
+msgstr "树干数"
+
+#: ui/properties.py:211
+msgid "Trunks Face Out"
+msgstr "树干朝外"
+
+#: ui/properties.py:211
+msgid "Turn each further trunk of a clump so that its Curvature bends it away from the centre, as tree-gen's bamboo grows. Off: each trunk curves in a random direction"
+msgstr "转动一丛中每根后续树干，使其曲率向外弯曲，如同 tree-gen 的竹子生长。关闭：每根树干沿随机方向弯曲"
+
+#: ui/properties.py:466
+msgid "Turn each leaf blade about its width axis, in degrees"
+msgstr "让每片叶片绕其宽度轴旋转，单位为度"
+
+#: ui/properties.py:490
+msgid "Turn each leaf's face toward the sky by this share, after every other turn (1: every leaf lies flat, as a foliage pad)"
+msgstr "在其他所有旋转之后，按此比例将每片叶子的朝向转向天空（1：每片叶子平躺，如同叶垫）"
+
+#: ui/properties.py:498
+msgid "Turn the leaves of a stem to one side of the stem. Off: the leaves face all around the stem"
+msgstr "将茎干的叶片转向茎干的一侧。关闭：叶片朝向茎干四周"
+
+#: ui/properties.py:197
+msgid "Tweak Radius"
+msgstr "微调半径"
+
+#: ui/properties.py:354
+msgid "Use Old Down Angle Variation"
+msgstr "使用旧的下垂角度变化"
+
+#: ui/properties.py:359
+msgid "Use Parent Angle"
+msgstr "使用父级角度"
+
+#: ui/properties.py:171
+msgid "Variation in the radius scale (0ScaleV)"
+msgstr "半径缩放的变化（0ScaleV）"
+
+#: ui/properties.py:430
+msgid "Variation in the rotate angle"
+msgstr "旋转角度的变化"
+
+#: ui/properties.py:274
+msgid "Variation in the rotate angle (nRotateV)"
+msgstr "旋转角度的变化（nRotateV）"
+
+#: ui/properties.py:264
+msgid "Variation in the split angle (nSplitAngleV)"
+msgstr "分叉角度的变化（nSplitAngleV）"
+
+#: ui/properties.py:330
+msgid "Variation of the curvature (nCurveV)"
+msgstr "曲率的变化（nCurveV）"
+
+#: ui/properties.py:350
+msgid "Vertical Attraction"
+msgstr "垂直吸引力"
+
+#: ui/properties.py:529
+msgid "Wind"
+msgstr "风"
+
+#: ui/properties.py:290
+msgid "Wind Bend"
+msgstr "风弯曲"
+
+#: ui/properties.py:282
+msgid "Wind Direction"
+msgstr "风向"
+
+#: ui/pages.py:235
+msgid "Wind Settings:"
+msgstr "风设置："
+
+#: ui/pages.py:157
+msgid "Wind Shape:"
+msgstr "风形状："
+
+#: ui/properties.py:286
+msgid "Wind Shear"
+msgstr "风切变"
+
+#: ui/properties.py:552
+msgid "Wind Strength"
+msgstr "风强度"
+
+#: ui/properties.py:606
+msgid "armAnim"
+msgstr "armAnim"
+
+#: ui/properties.py:608
+msgid "armLevels"
+msgstr "骨架层级"
+
+#: ui/properties.py:609
+msgid "boneStep"
+msgstr "骨骼步长"
+
+#: ui/properties.py:614
+msgid "frameRate"
+msgstr "帧率"
+
+#: ui/properties.py:613
+msgid "gustF"
+msgstr "阵风频率"
+
+#: ui/properties.py:610
+msgid "leafAnim"
+msgstr "叶片动画"
+
+#: ui/properties.py:607
+msgid "previewArm"
+msgstr "预览骨架"
+
+#: ui/properties.py:605
+msgid "useArm"
+msgstr "使用骨架"
+
+#: ui/duplicate.py:22
+#: ui/panels.py:24
+msgctxt "Operator"
+msgid "Duplicate Sapling Tree"
+msgstr "复制 Sapling 树"
+
+#: ui/panels.py:22
+msgctxt "Operator"
+msgid "Edit Sapling Tree"
+msgstr "编辑 Sapling 树"
+
+#: ui/panels.py:63
+msgctxt "Operator"
+msgid "Sapling Tree Gen"
+msgstr "Sapling 树木生成器"
+
+#: ui/operators.py:38
+msgctxt "Operator"
+msgid "Sapling: Add Tree"
+msgstr "Sapling：添加树木"
+
+#: ui/preset_save.py:21
+msgctxt "Operator"
+msgid "Save Preset"
+msgstr "保存预设"

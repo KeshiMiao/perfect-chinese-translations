@@ -1,0 +1,3681 @@
+# perfect-chinese: 1
+# id: simple_deform_helper
+# kind: addon
+# module: bl_ext.blender_org.simple_deform_helper
+# name: Simple Deform Helper
+# name_zh: 简单形变助手
+# translator: KeshiMiao
+# category: 3D View
+# supported_versions: >=5.0.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: cage_deform/merge.py:115
+msgid "(Missing source)"
+msgstr "(缺少源)"
+
+#: cage_deform/chain.py:3859
+#: cage_deform/core.py:11053
+msgid "+X"
+msgstr "+X"
+
+#: cage_deform/chain.py:3861
+#: cage_deform/core.py:11055
+msgid "+Y"
+msgstr "+Y"
+
+#: cage_deform/chain.py:3863
+#: cage_deform/core.py:11057
+msgid "+Z"
+msgstr "+Z"
+
+#: cage_deform/chain.py:3860
+#: cage_deform/core.py:11054
+msgid "-X"
+msgstr "-X"
+
+#: cage_deform/chain.py:3862
+#: cage_deform/core.py:11056
+msgid "-Y"
+msgstr "-Y"
+
+#: cage_deform/chain.py:3864
+#: cage_deform/core.py:11058
+msgid "-Z"
+msgstr "-Z"
+
+#: cage_deform/ui.py:360
+msgid "Absolute Guide"
+msgstr "绝对引导"
+
+#: cage_deform/core.py:10721
+msgid "Active Cross Section"
+msgstr "活动横截面"
+
+#: cage_deform/core.py:10322
+msgid "Active Deformation Layer"
+msgstr "活动变形层"
+
+#: cage_deform/core.py:10639
+msgid "Active FFD point index used by the compact control panel"
+msgstr "精简控制面板使用的活动 FFD 点索引"
+
+#: cage_deform/core.py:10695
+#: cage_deform/ui.py:434
+msgid "Active Guide Point"
+msgstr "活动引导点"
+
+#: cage_deform/animation_io.py:567
+#: cage_deform/animation_io.py:612
+msgid "Active Layer Only"
+msgstr "仅活动层"
+
+#: cage_deform/merge.py:1971
+msgid "Active Merged Source"
+msgstr "活动合并源"
+
+#: cage_deform/merge.py:1971
+msgid "Active source row in the multi-object deformation list"
+msgstr "多物体变形列表中的活动源行"
+
+#: cage_deform/chain.py:5570
+#: cage_deform/core.py:11120
+msgid "Active to End"
+msgstr "活动项到末尾"
+
+#: cage_deform/ui.py:1270
+msgid "Add Deformation"
+msgstr "添加变形"
+
+#: preferences.py:131
+msgid "Add New Cages to End"
+msgstr "将新变形笼添加到末尾"
+
+#: cage_deform/chain.py:5601
+msgid "Add Values"
+msgstr "添加值"
+
+#: cage_deform/core.py:15003
+msgid "Add straight loop cuts without smoothing"
+msgstr "添加无平滑的直线循环切割"
+
+#: cage_deform/chain.py:5601
+msgid "Add to existing values"
+msgstr "添加到现有值"
+
+#: cage_deform/core.py:10477
+msgid "Adjust FFD point counts and interpolation together; disable to edit U, V, and W independently"
+msgstr "同时调整 FFD 点数与插值；禁用后可独立编辑 U、V、W"
+
+#: cage_deform/curve.py:824
+msgid "Adjust cross-section radii with Blender proportional falloff"
+msgstr "使用 Blender 比例衰减调整横截面半径"
+
+#: cage_deform/curve.py:835
+msgid "Adjust cross-section twist with Blender proportional falloff"
+msgstr "使用 Blender 比例衰减调整横截面扭曲"
+
+#: cage_deform/curve.py:749
+msgid "Adjust selected guide-point bevel with Blender proportional falloff"
+msgstr "使用 Blender 比例衰减调整所选引导点的倒角"
+
+#: cage_deform/curve.py:705
+msgid "Adjust selected guide-point radii with Blender proportional falloff"
+msgstr "使用 Blender 比例衰减调整所选引导点的半径"
+
+#: cage_deform/curve.py:717
+msgid "Adjust selected guide-point roll with Blender proportional falloff"
+msgstr "使用 Blender 比例衰减调整所选引导点的滚转"
+
+#: cage_deform/curve.py:762
+msgid "Adjust selected guide-point tension with Blender proportional falloff"
+msgstr "使用 Blender 比例衰减调整所选引导点的张力"
+
+#: cage_deform/animation_io.py:672
+msgid "Alembic File"
+msgstr "Alembic 文件"
+
+#: cage_deform/animation_io.py:705
+msgid "Alembic Path"
+msgstr "Alembic 路径"
+
+#: cage_deform/core.py:8028
+msgid "Alias for the FFD point influence"
+msgstr "FFD 点影响的别名"
+
+#: cage_deform/chain.py:3859
+#: cage_deform/core.py:11053
+msgid "Align cage Y to target +X"
+msgstr "将变形笼 Y 对齐到目标 +X"
+
+#: cage_deform/chain.py:3861
+#: cage_deform/core.py:11055
+msgid "Align cage Y to target +Y"
+msgstr "将变形笼 Y 对齐到目标 +Y"
+
+#: cage_deform/chain.py:3863
+#: cage_deform/core.py:11057
+msgid "Align cage Y to target +Z"
+msgstr "将变形笼 Y 对齐到目标 +Z"
+
+#: cage_deform/chain.py:3860
+#: cage_deform/core.py:11054
+msgid "Align cage Y to target -X"
+msgstr "将变形笼 Y 对齐到目标 -X"
+
+#: cage_deform/chain.py:3862
+#: cage_deform/core.py:11056
+msgid "Align cage Y to target -Y"
+msgstr "将变形笼 Y 对齐到目标 -Y"
+
+#: cage_deform/chain.py:3864
+#: cage_deform/core.py:11058
+msgid "Align cage Y to target -Z"
+msgstr "将变形笼 Y 对齐到目标 -Z"
+
+#: cage_deform/core.py:15316
+msgid "All"
+msgstr "全部"
+
+#: preferences.py:153
+msgid "All Visible Points"
+msgstr "所有可见点"
+
+#: cage_deform/core.py:10292
+msgid "Allow ordered Bend, Twist, Taper, Stretch, and Shear layers"
+msgstr "允许有序的弯曲、扭曲、锥化、拉伸和剪切层"
+
+#: cage_deform/core.py:10586
+msgid "Allow unrestricted FFD edits and the selected interpolation"
+msgstr "允许不受限制的 FFD 编辑及所选插值"
+
+#: cage_deform/gizmos.py:4246
+msgid "Alt: Screen X | Shift: Screen Y | Alt+Shift: Free | Ctrl: Snap"
+msgstr "Alt：屏幕 X | Shift：屏幕 Y | Alt+Shift：自由 | Ctrl：吸附"
+
+#: cage_deform/core.py:10993
+msgid "Amount used by Taper and Stretch"
+msgstr "锥化和拉伸使用的量"
+
+#: cage_deform/core.py:10776
+msgid "Amplitude"
+msgstr "振幅"
+
+#: cage_deform/chain.py:5652
+#: cage_deform/core.py:10984
+msgid "Angle"
+msgstr "角度"
+
+#: gizmo/angle_and_factor.py:107
+msgid "AngleGizmoGroup"
+msgstr "AngleGizmoGroup"
+
+#: ui/panel.py:156
+msgid "Animated"
+msgstr "已动画"
+
+#: cage_deform/chain.py:5597
+msgid "Apply As"
+msgstr "应用为"
+
+#: cage_deform/core.py:11131
+msgid "Apply or bypass cage stages"
+msgstr "应用或绕过变形笼阶段"
+
+#: cage_deform/chain.py:5582
+msgid "Apply or bypass every cage in scope"
+msgstr "应用或绕过范围内的每个变形笼"
+
+#: cage_deform/core.py:10702
+msgid "Apply point roll, radius, bevel, and tension through the current proportional falloff across the complete guide"
+msgstr "通过当前比例衰减在整个引导线上应用点滚转、半径、倒角和张力"
+
+#: cage_deform/chain.py:5667
+#: cage_deform/core.py:11212
+msgid "Apply the affected cage stages"
+msgstr "应用受影响的变形笼阶段"
+
+#: cage_deform/core.py:10756
+msgid "Apply the editable Curve as a change from its captured rest guide so binding does not deform the object"
+msgstr "将可编辑曲线作为相对捕获的静止引导线的变化应用，使绑定不会使物体变形"
+
+#: cage_deform/chain.py:5832
+msgid "Attempt contiguous stages even when a stack issue is detected"
+msgstr "即使检测到堆栈问题也尝试连续阶段"
+
+#: cage_deform/chain.py:3858
+#: cage_deform/core.py:11052
+msgid "Auto"
+msgstr "自动"
+
+#: cage_deform/chain.py:3830
+#: cage_deform/chain.py:3911
+msgid "Auto Reconnect"
+msgstr "自动重新连接"
+
+#: cage_deform/core.py:11069
+msgid "Auto Reconnect Chain"
+msgstr "自动重新连接链"
+
+#: cage_deform/core.py:11078
+#: cage_deform/ui.py:1350
+msgid "Auto Sync"
+msgstr "自动同步"
+
+#: preferences.py:137
+msgid "Automatically fit newly-created non-chain cages when an earlier cage changes"
+msgstr "当较早的变形笼变化时自动适配新建的非链式变形笼"
+
+#: cage_deform/core.py:11069
+msgid "Automatically refresh downstream cage frames after a chain parameter or controller transform changes"
+msgstr "当链参数或控制器变换变化后自动刷新下游变形笼框架"
+
+#: cage_deform/core.py:15412
+msgid "Axis"
+msgstr "轴"
+
+#: cage_deform/core.py:10537
+#: cage_deform/core.py:10549
+msgid "B-Spline"
+msgstr "B样条"
+
+#: cage_deform/core.py:10537
+#: cage_deform/core.py:10549
+msgid "B-Spline interpolation"
+msgstr "B样条插值"
+
+#: cage_deform/core.py:4831
+#: cage_deform/core.py:4847
+msgid "BOTTOM"
+msgstr "底部"
+
+#: cage_deform/animation_io.py:663
+msgid "Bake absolute shape keys onto a new independent mesh object"
+msgstr "将绝对形态键烘焙到新的独立网格物体上"
+
+#: cage_deform/animation_io.py:667
+msgid "Bake to a new mesh, remove the managed deformation stack and the source object, and take over the source name"
+msgstr "烘焙到新网格，移除受管理的变形堆栈和源物体，并沿用源名称"
+
+#: cage_deform/core.py:11109
+#: cage_deform/ui.py:1161
+msgid "Batch Edit"
+msgstr "批量编辑"
+
+#: cage_deform/chain.py:5643
+msgid "Batch-edit Bend angle"
+msgstr "批量编辑弯曲角度"
+
+#: cage_deform/chain.py:5644
+msgid "Batch-edit Bend direction"
+msgstr "批量编辑弯曲方向"
+
+#: cage_deform/chain.py:5647
+msgid "Batch-edit Stretch factor"
+msgstr "批量编辑拉伸系数"
+
+#: cage_deform/chain.py:5646
+msgid "Batch-edit Taper factor"
+msgstr "批量编辑锥化系数"
+
+#: cage_deform/chain.py:5645
+msgid "Batch-edit Twist angle"
+msgstr "批量编辑扭曲角度"
+
+#: cage_deform/chain.py:5581
+msgid "Batch-edit one deformation parameter"
+msgstr "批量编辑一个变形参数"
+
+#: cage_deform/chain.py:5579
+msgid "Batch-edit top and bottom cross-section offset"
+msgstr "批量编辑顶部和底部横截面偏移"
+
+#: cage_deform/chain.py:5578
+msgid "Batch-edit top and bottom cross-section scale"
+msgstr "批量编辑顶部和底部横截面缩放"
+
+#: cage_deform/chain.py:3783
+#: cage_deform/core.py:10334
+msgid "Bend"
+msgstr "弯曲"
+
+#: cage_deform/chain.py:5643
+#: cage_deform/core.py:10408
+msgid "Bend Angle"
+msgstr "弯曲角度"
+
+#: cage_deform/chain.py:5644
+#: cage_deform/core.py:10417
+msgid "Bend Direction"
+msgstr "弯曲方向"
+
+#: cage_deform/chain.py:4174
+msgid "Bend and Twist angles are distributed across segments."
+msgstr "弯曲和扭曲角度分布在各个分段上。"
+
+#: cage_deform/curve.py:730
+#: cage_deform/curve.py:749
+msgid "Bevel"
+msgstr "倒角"
+
+#: cage_deform/core.py:10976
+msgid "Bezier Handle"
+msgstr "贝塞尔控制柄"
+
+#: cage_deform/core.py:10928
+msgid "Bezier evaluation resolution used by the Curve cage"
+msgstr "曲线笼使用的贝塞尔求值分辨率"
+
+#: cage_deform/core.py:11327
+msgid "Blend between the original and deformed positions for this stage; combine with a vertex group for painted falloff"
+msgstr "在此阶段混合原始位置与变形后位置；结合顶点组使用绘制衰减"
+
+#: cage_deform/curve.py:730
+msgid "Blend this guide point from a sharp corner to a shared smooth tangent"
+msgstr "将此引导点从尖角混合为共享的平滑切线"
+
+#: cage_deform/chain.py:5592
+#: cage_deform/core.py:11140
+msgid "Both"
+msgstr "两者"
+
+#: cage_deform/chain.py:5591
+#: cage_deform/core.py:11040
+msgid "Bottom"
+msgstr "底部"
+
+#: cage_deform/chain.py:3848
+msgid "Bottom (Recommended)"
+msgstr "底部（推荐）"
+
+#: cage_deform/gizmos.py:108
+msgid "Bottom Boundary"
+msgstr "底部边界"
+
+#: cage_deform/gizmos.py:95
+msgid "Bottom End Shape"
+msgstr "底部末端形状"
+
+#: cage_deform/core.py:11287
+msgid "Bottom Offset"
+msgstr "底部偏移"
+
+#: cage_deform/core.py:11269
+msgid "Bottom Scale"
+msgstr "底部缩放"
+
+#: preferences.py:70
+msgid "Bound Box"
+msgstr "边界框"
+
+#: props.py:69
+msgid "Bound Middle"
+msgstr "中间边界"
+
+#: cage_deform/core.py:10870
+msgid "Boundary Mode"
+msgstr "边界模式"
+
+#: preferences.py:263
+msgid "Boundary drag - Ctrl: move both ends, Alt: opposite ends"
+msgstr "边界拖动 - Ctrl：移动两端，Alt：对向端"
+
+#: preferences.py:267
+msgid "Box select points; drag any selected point moves the group"
+msgstr "框选点；拖动任意选中点可移动该组"
+
+#: cage_deform/ui.py:1128
+msgid "CHAINED"
+msgstr "链式"
+
+#: cage_deform/ui.py:1128
+msgid "CONNECTED"
+msgstr "连接"
+
+#: view_state.py:196
+#: cage_deform/ui.py:1244
+msgid "Cage"
+msgstr "控制笼"
+
+#: cage_deform/chain.py:3855
+msgid "Cage Axis"
+msgstr "控制笼轴"
+
+#: cage_deform/gizmos.py:4276
+msgid "Cage Boundary"
+msgstr "控制笼边界"
+
+#: cage_deform/core.py:11250
+#: cage_deform/ui.py:1306
+msgid "Cage Controls"
+msgstr "控制笼控制项"
+
+#: cage_deform/chain.py:3763
+#: cage_deform/chain.py:4108
+msgid "Cage Count"
+msgstr "控制笼数量"
+
+#: cage_deform/gizmos.py:4874
+msgid "Cage Deform Strength Handle"
+msgstr "控制笼变形强度控制柄"
+
+#: cage_deform/gizmos.py:4028
+msgid "Cage End Shape"
+msgstr "控制笼末端形状"
+
+#: cage_deform/core.py:10841
+msgid "Cage Mode"
+msgstr "控制笼模式"
+
+#: cage_deform/core.py:10883
+msgid "Cage Only"
+msgstr "仅控制笼"
+
+#: cage_deform/chain.py:3770
+#: cage_deform/core.py:10285
+msgid "Cage Type"
+msgstr "控制笼类型"
+
+#: cage_deform/ui.py:1006
+msgid "Cage deformation is not supported for lattice objects"
+msgstr "晶格物体不支持控制笼变形"
+
+#: preferences.py:261
+msgid "Cage handles (drag):"
+msgstr "控制笼控制柄（拖动）："
+
+#: cage_deform/core.py:10451
+msgid "Cage-local X and Z shear per unit of axial distance"
+msgstr "每单位轴向距离的控制笼局部 X 和 Z 剪切"
+
+#: cage_deform/chain.py:5750
+msgid "Cages without this deformation layer are skipped."
+msgstr "跳过没有此变形层的控制笼。"
+
+#: cage_deform/core.py:10535
+#: cage_deform/core.py:10547
+msgid "Cardinal"
+msgstr "基数"
+
+#: cage_deform/core.py:10535
+#: cage_deform/core.py:10547
+msgid "Cardinal spline interpolation"
+msgstr "基数样条插值"
+
+#: cage_deform/core.py:15007
+msgid "Catmull-Clark"
+msgstr "Catmull-Clark"
+
+#: cage_deform/core.py:10536
+#: cage_deform/core.py:10548
+msgid "Catmull-Rom"
+msgstr "Catmull-Rom"
+
+#: cage_deform/core.py:10536
+#: cage_deform/core.py:10548
+msgid "Catmull-Rom spline interpolation"
+msgstr "Catmull-Rom 样条插值"
+
+#: cage_deform/chain.py:3850
+#: cage_deform/core.py:11041
+msgid "Center"
+msgstr "中心"
+
+#: cage_deform/gizmos.py:2571
+msgid "Center Free • Arm X/Z • Alt X • Shift Z • Ctrl Snap"
+msgstr "中心自由 • Arm X/Z • Alt X • Shift Z • Ctrl 吸附"
+
+#: cage_deform/chain.py:5831
+msgid "Chain UUID"
+msgstr "链 UUID"
+
+#: cage_deform/chain.py:3796
+#: cage_deform/chain.py:3810
+msgid "Chained"
+msgstr "链式"
+
+#: cage_deform/ui.py:1128
+msgid "Chained Cages"
+msgstr "链式笼"
+
+#: cage_deform/ui.py:1134
+msgid "Chained cage segments keep their internal order"
+msgstr "链式笼段保持其内部顺序"
+
+#: cage_deform/gizmos.py:3836
+msgid "Choose Bend Trend"
+msgstr "选择弯曲趋势"
+
+#: cage_deform/core.py:10285
+msgid "Choose a standard layered cage or a dedicated single-operation cage"
+msgstr "选择标准分层笼或专用单操作笼"
+
+#: cage_deform/core.py:10620
+msgid "Choose one or more FFD lattice center planes for mirrored editing"
+msgstr "选择一个或多个 FFD 晶格中心平面进行镜像编辑"
+
+#: preferences.py:146
+msgid "Choose whether FFD I/Alt-I keys affect every visible point or only the selected points"
+msgstr "选择 FFD 的 I/Alt-I 关键帧影响所有可见点还是仅影响选中点"
+
+#: cage_deform/core.py:10646
+msgid "Choose whether picking an FFD control selects one point, one adjacent U/V/W control-line segment, or one UV/UW/VW grid face"
+msgstr "选择拾取 FFD 控件时是选中一个点、一个相邻的 U/V/W 控制线段，还是一个 UV/UW/VW 网格面"
+
+#: cage_deform/core.py:10829
+msgid "Choose whether the complete source maps to the guide or the guide endpoints stay inside the cage"
+msgstr "选择完整源映射到引导线，还是引导线端点保持在笼内"
+
+#: cage_deform/core.py:10878
+msgid "Clamp"
+msgstr "钳制"
+
+#: cage_deform/core.py:15317
+msgid "Clear the FFD point selection"
+msgstr "清除 FFD 点选择"
+
+#: cage_deform/core.py:10916
+msgid "Closed Curve"
+msgstr "闭合曲线"
+
+#: cage_deform/merge.py:1957
+msgid "Collection whose supported objects and child collections will be merged for deformation"
+msgstr "将其受支持物体和子集合合并以进行变形的集合"
+
+#: cage_deform/ui.py:1087
+msgid "Combine ordered deformation layers in one cage."
+msgstr "在一个笼中合并有序变形层"
+
+#: cage_deform/chain.py:4136
+msgid "Compatibility option retained for saved operator settings; mixed Bend stacks now use the analytic chain evaluator"
+msgstr "为已保存的操作符设置保留的兼容选项；混合弯曲堆栈现在使用解析链求值器"
+
+#: cage_deform/core.py:10922
+msgid "Compensate cross-section scale when stretching to the guide"
+msgstr "拉伸到引导线时补偿横截面缩放"
+
+#: cage_deform/core.py:11321
+msgid "Compensate cross-section size while stretching"
+msgstr "拉伸时补偿横截面大小"
+
+#: cage_deform/chain.py:3817
+msgid "Connect Ends"
+msgstr "连接端点"
+
+#: cage_deform/chain.py:3792
+msgid "Connection Mode"
+msgstr "连接模式"
+
+#: preferences.py:179
+msgid "Consistent viewport width for every FFD line controller"
+msgstr "每个 FFD 线控件的视图宽度保持一致"
+
+#: cage_deform/core.py:10874
+msgid "Continue beyond each guide end along its endpoint tangent"
+msgstr "沿各引导线端点的切线继续延伸"
+
+#: cage_deform/core.py:11025
+msgid "Continue deformation beyond the cage"
+msgstr "在笼外继续变形"
+
+#: cage_deform/core.py:10829
+msgid "Control Mode"
+msgstr "控制模式"
+
+#: cage_deform/ui.py:1022
+msgid "Create Cage"
+msgstr "创建笼"
+
+#: cage_deform/chain.py:5900
+msgid "Create Cage Chain"
+msgstr "创建笼链"
+
+#: cage_deform/core.py:14779
+msgid "Create a Bezier-guided curve cage"
+msgstr "创建贝塞尔引导的曲线笼"
+
+#: cage_deform/chain.py:3775
+msgid "Create a Shear-only chain"
+msgstr "创建仅剪切链"
+
+#: cage_deform/chain.py:3770
+msgid "Create a chain whose stages all use this cage type"
+msgstr "创建所有阶段均使用此笼类型的链"
+
+#: cage_deform/core.py:14778
+msgid "Create a dedicated free-form cage"
+msgstr "创建专用自由形态笼"
+
+#: cage_deform/core.py:14777
+msgid "Create a dedicated shear cage"
+msgstr "创建专用剪切笼"
+
+#: cage_deform/core.py:10771
+#: cage_deform/curve_presets.py:15
+msgid "Create a helical guide around the cage axis"
+msgstr "围绕笼轴创建螺旋引导线"
+
+#: cage_deform/chain.py:3774
+msgid "Create a layered Standard chain"
+msgstr "创建分层标准链"
+
+#: cage_deform/core.py:14776
+msgid "Create a layered deformation cage"
+msgstr "创建分层变形笼"
+
+#: props.py:63
+msgid "Create a managed Origin and keep it at the lower limit while dragging"
+msgstr "创建受管理的原点，并在拖动时保持其位于下限"
+
+#: props.py:60
+msgid "Create a managed Origin and keep it at the upper limit while dragging"
+msgstr "创建受管理的原点，并在拖动时保持其位于上限"
+
+#: props.py:69
+msgid "Create a managed Origin at the deformation bounds center"
+msgstr "在变形边界中心创建受管理的原点"
+
+#: props.py:66
+msgid "Create a managed Origin between the upper and lower limits"
+msgstr "在上限和下限之间创建受管理的原点"
+
+#: cage_deform/core.py:10770
+#: cage_deform/curve_presets.py:14
+msgid "Create a planar sine-wave guide"
+msgstr "创建平面正弦波引导线"
+
+#: cage_deform/core.py:10768
+#: cage_deform/curve_presets.py:12
+msgid "Create a straight guide along the cage axis"
+msgstr "沿笼轴创建直线引导线"
+
+#: cage_deform/core.py:10769
+#: cage_deform/curve_presets.py:13
+msgid "Create a two-plane flowing wave guide"
+msgstr "创建双平面流动波引导线"
+
+#: cage_deform/chain.py:3776
+msgid "Create an FFD-only chain"
+msgstr "创建仅 FFD 链"
+
+#: cage_deform/chain.py:3783
+msgid "Create every Standard chain stage with a Bend layer"
+msgstr "创建每个带弯曲层的标准链阶段"
+
+#: cage_deform/chain.py:3787
+msgid "Create every Standard chain stage with a Shear layer"
+msgstr "创建每个带剪切层的标准链阶段"
+
+#: cage_deform/chain.py:3786
+msgid "Create every Standard chain stage with a Stretch layer"
+msgstr "创建每个带拉伸层的标准链阶段"
+
+#: cage_deform/chain.py:3785
+msgid "Create every Standard chain stage with a Taper layer"
+msgstr "创建每个带锥化层的标准链阶段"
+
+#: cage_deform/chain.py:3784
+msgid "Create every Standard chain stage with a Twist layer"
+msgstr "创建每个带扭曲层的标准链阶段"
+
+#: cage_deform/core.py:14787
+msgid "Create the Standard cage with a Bend layer"
+msgstr "创建带弯曲层的标准笼"
+
+#: cage_deform/core.py:14791
+msgid "Create the Standard cage with a Shear layer"
+msgstr "创建带剪切层的标准笼"
+
+#: cage_deform/core.py:14790
+msgid "Create the Standard cage with a Stretch layer"
+msgstr "创建带拉伸层的标准笼"
+
+#: cage_deform/core.py:14789
+msgid "Create the Standard cage with a Taper layer"
+msgstr "创建带锥化层的标准笼"
+
+#: cage_deform/core.py:14788
+msgid "Create the Standard cage with a Twist layer"
+msgstr "创建带扭曲层的标准笼"
+
+#: cage_deform/core.py:10716
+#: cage_deform/core.py:10954
+msgid "Cross Sections"
+msgstr "横截面"
+
+#: cage_deform/curve.py:795
+msgid "Cross-section center offset along the guide U and W axes"
+msgstr "横截面中心沿引导线 U 轴和 W 轴的偏移"
+
+#: cage_deform/curve.py:804
+msgid "Cross-section radius multiplier interpolated along the guide"
+msgstr "沿引导线插值的横截面半径倍数"
+
+#: cage_deform/curve.py:813
+msgid "Cross-section rotation around the guide tangent, interpolated between stations"
+msgstr "横截面围绕引导线切线旋转，并在站点之间插值"
+
+#: cage_deform/core.py:10435
+msgid "Cross-section scale change through the cage length"
+msgstr "横截面缩放沿笼长度变化"
+
+#: cage_deform/ui.py:1096
+msgid "Current cage Geometry Nodes modifier is not selected"
+msgstr "当前笼的几何节点修改器未选中"
+
+#: cage_deform/core.py:10340
+#: cage_deform/core.py:10371
+msgid "Curve"
+msgstr "曲线"
+
+#: cage_deform/core.py:10304
+#: cage_deform/core.py:14779
+msgid "Curve Cage"
+msgstr "曲线笼"
+
+#: cage_deform/core.py:10939
+#: cage_deform/curve.py:2866
+msgid "Curve Cage Controls"
+msgstr "曲线笼控件"
+
+#: cage_deform/core.py:10949
+#: cage_deform/core.py:15698
+msgid "Curve Edit"
+msgstr "曲线编辑"
+
+#: cage_deform/core.py:10835
+msgid "Curve Mode"
+msgstr "曲线模式"
+
+#: cage_deform/core.py:10964
+msgid "Curve Object Edit Mode"
+msgstr "曲线物体编辑模式"
+
+#: cage_deform/core.py:10970
+msgid "Curve Point"
+msgstr "曲线点"
+
+#: cage_deform/curve.py:2690
+msgid "Curve Point or Bezier Handle"
+msgstr "曲线点或贝塞尔手柄"
+
+#: cage_deform/core.py:10764
+msgid "Curve Preset"
+msgstr "曲线预设"
+
+#: cage_deform/core.py:10904
+msgid "Curve Range End"
+msgstr "曲线范围终点"
+
+#: cage_deform/core.py:10892
+msgid "Curve Range Start"
+msgstr "曲线范围起点"
+
+#: cage_deform/core.py:10365
+#: cage_deform/core.py:10397
+msgid "Curve geometry along the cage axis"
+msgstr "沿笼轴的曲线几何体"
+
+#: cage_deform/core.py:10784
+msgid "Cycles"
+msgstr "Cycles"
+
+#: cage_deform/core.py:10300
+msgid "Dedicated single-operation free-form cage that can form an FFD chain"
+msgstr "专用单操作自由形态笼，可组成 FFD 链"
+
+#: cage_deform/core.py:10296
+msgid "Dedicated single-operation shear cage that can form a Shear chain"
+msgstr "专用单操作剪切笼，可组成剪切链"
+
+#: preferences.py:137
+msgid "Default Cage Auto Sync"
+msgstr "默认笼自动同步"
+
+#: cage_deform/core.py:11048
+#: cage_deform/core.py:11255
+msgid "Deform Axis"
+msgstr "变形轴"
+
+#: cage_deform/merge.py:1957
+msgid "Deform Merge Collection"
+msgstr "变形合并集合"
+
+#: preferences.py:63
+msgid "Deform Wireframe"
+msgstr "变形线框"
+
+#: cage_deform/core.py:10371
+#: cage_deform/core.py:10403
+msgid "Deform geometry along an editable Bezier guide"
+msgstr "沿可编辑贝塞尔引导线变形几何体"
+
+#: cage_deform/core.py:11023
+msgid "Deform inside; continue outside from the cage ends"
+msgstr "内部变形；外部从笼端继续"
+
+#: ui/header.py:56
+msgid "Deform {stage_index}/{stage_count}"
+msgstr "变形 {stage_index}/{stage_count}"
+
+#: cage_deform/chain.py:5581
+#: cage_deform/core.py:11130
+msgid "Deformation"
+msgstr "变形"
+
+#: cage_deform/ui.py:1215
+msgid "Deformation Layers"
+msgstr "变形层"
+
+#: cage_deform/core.py:10312
+msgid "Deformation Order"
+msgstr "变形顺序"
+
+#: cage_deform/ui.py:699
+msgid "Deformation Stack"
+msgstr "变形堆栈"
+
+#: cage_deform/core.py:10393
+#: cage_deform/core.py:15068
+msgid "Deformation Type"
+msgstr "变形类型"
+
+#: cage_deform/core.py:10330
+msgid "Deformation layers whose parameter rows are expanded"
+msgstr "参数行已展开的变形层"
+
+#: cage_deform/chain.py:3843
+msgid "Deformation reference used by every cage in the chain"
+msgstr "链中每个笼使用的变形参考"
+
+#: cage_deform/core.py:10361
+msgid "Deformations"
+msgstr "变形"
+
+#: cage_deform/animation_io.py:612
+msgid "Delete keys only for the active deformation layer's parameters"
+msgstr "仅删除活动变形层参数的关键帧"
+
+#: cage_deform/core.py:11010
+msgid "Dimensions of the independent deformation cage"
+msgstr "独立变形笼的尺寸"
+
+#: cage_deform/core.py:11001
+msgid "Direction"
+msgstr "方向"
+
+#: cage_deform/core.py:10417
+#: cage_deform/core.py:11001
+msgid "Direction of Bend around the cage axis"
+msgstr "绕笼轴的弯曲方向"
+
+#: view_state.py:193
+msgid "Display"
+msgstr "显示"
+
+#: cage_deform/core.py:11218
+msgid "Display inactive cages and make their viewport controls directly editable"
+msgstr "显示非活动笼，并使其视图控制可直接编辑"
+
+#: preferences.py:207
+msgid "Display the selected source after the merged object's full modifier stack"
+msgstr "在合并物体的完整修改器堆栈之后显示所选源"
+
+#: cage_deform/chain.py:3822
+msgid "Distance between neighboring cage frames in target units"
+msgstr "相邻笼框之间的距离（目标单位）"
+
+#: cage_deform/core.py:15220
+msgid "Down"
+msgstr "向下"
+
+#: cage_deform/gizmos.py:4608
+msgid "Drag Along Cage • Shift Precise • Ctrl Move Both • Alt Opposite"
+msgstr "沿笼拖动 • Shift 精确 • Ctrl 同时移动 • Alt 反向"
+
+#: cage_deform/gizmos.py:3582
+msgid "Drag Around Ring • Shift Precise • Ctrl Snap"
+msgstr "绕环拖动 • Shift 精确 • Ctrl 吸附"
+
+#: cage_deform/gizmos.py:3189
+msgid "Drag in View • Alt Cage Axis • Shift Precise • Ctrl Snap"
+msgstr "在视图中拖动 • Alt 笼轴 • Shift 精确 • Ctrl 吸附"
+
+#: cage_deform/gizmos.py:147
+msgid "Drag the center freely or an arm along cage X/Z; Alt locks X, Shift locks Z, Ctrl snaps"
+msgstr "自由拖动中心，或沿笼 X/Z 拖动臂；Alt 锁定 X，Shift 锁定 Z，Ctrl 吸附"
+
+#: cage_deform/gizmos.py:139
+msgid "Drag this face to move every FFD point in the selected UV, UW, or VW grid face"
+msgstr "拖动此面以移动所选 UV、UW 或 VW 网格面中的所有 FFD 点"
+
+#: cage_deform/gizmos.py:126
+msgid "Drag this point to enter FFD Edit Mode; Shift toggles its selection; Alt moves along the cage axis"
+msgstr "拖动此点进入 FFD 编辑模式；Shift 切换其选择；Alt 沿笼轴移动"
+
+#: cage_deform/gizmos.py:134
+msgid "Drag this segment to move its two adjacent FFD control points"
+msgstr "拖动此线段以移动其相邻的两个 FFD 控制点"
+
+#: cage_deform/gizmos.py:87
+#: cage_deform/gizmos.py:95
+msgid "Drag to scale; Alt moves screen X; Shift moves screen Y; Alt+Shift moves freely"
+msgstr "拖动以缩放；Alt 沿屏幕 X 移动；Shift 沿屏幕 Y 移动；Alt+Shift 自由移动"
+
+#: preferences.py:70
+msgid "Draw Bound Box Color"
+msgstr "绘制边界框颜色"
+
+#: preferences.py:63
+msgid "Draw Deform Wireframe Color"
+msgstr "绘制变形线框颜色"
+
+#: preferences.py:78
+msgid "Draw Upper and lower limit Bound Box Color"
+msgstr "绘制上下限边界框颜色"
+
+#: preferences.py:216
+msgid "Draw faint input bounds for other Simple Deform modifiers"
+msgstr "为其他简易变形修改器绘制淡色输入边界"
+
+#: cage_deform/core.py:11064
+msgid "Draw the cyan cage and orange deformation guide"
+msgstr "绘制青色笼和橙色变形引导线"
+
+#: cage_deform/core.py:18041
+msgid "Earlier"
+msgstr "更早"
+
+#: cage_deform/core.py:11180
+msgid "Edit Bend angle"
+msgstr "编辑弯曲角度"
+
+#: cage_deform/core.py:11181
+msgid "Edit Bend direction"
+msgstr "编辑弯曲方向"
+
+#: cage_deform/core.py:11184
+msgid "Edit Stretch factor"
+msgstr "编辑拉伸系数"
+
+#: cage_deform/core.py:11183
+msgid "Edit Taper factor"
+msgstr "编辑锥化系数"
+
+#: cage_deform/core.py:11182
+msgid "Edit Twist angle"
+msgstr "编辑扭曲角度"
+
+#: cage_deform/core.py:10370
+#: cage_deform/core.py:10402
+msgid "Edit a multi-point free-form cage"
+msgstr "编辑多点自由形态笼"
+
+#: cage_deform/chain.py:5592
+#: cage_deform/core.py:11140
+msgid "Edit both ends"
+msgstr "编辑两端"
+
+#: cage_deform/chain.py:5591
+#: cage_deform/core.py:11139
+msgid "Edit bottom ends"
+msgstr "编辑底端"
+
+#: cage_deform/core.py:11128
+msgid "Edit cage-end cross-section offsets"
+msgstr "编辑笼端横截面偏移"
+
+#: cage_deform/core.py:11127
+msgid "Edit cage-end cross-section scales"
+msgstr "编辑笼端横截面缩放"
+
+#: cage_deform/chain.py:5568
+#: cage_deform/core.py:11118
+msgid "Edit every cage in this chain"
+msgstr "编辑此链中的每个控制笼"
+
+#: cage_deform/core.py:11130
+msgid "Edit one deformation parameter"
+msgstr "编辑一个变形参数"
+
+#: cage_deform/core.py:11129
+msgid "Edit spacing before downstream cages"
+msgstr "编辑下游控制笼前的间距"
+
+#: cage_deform/chain.py:5570
+msgid "Edit the active cage through the chain tip"
+msgstr "通过链末端编辑活动控制笼"
+
+#: cage_deform/core.py:11120
+msgid "Edit the active cage through the tip"
+msgstr "通过末端编辑活动控制笼"
+
+#: cage_deform/chain.py:5569
+msgid "Edit the chain root through the active cage"
+msgstr "通过活动控制笼编辑链根部"
+
+#: cage_deform/core.py:11119
+msgid "Edit the root through the active cage"
+msgstr "通过活动控制笼编辑根部"
+
+#: cage_deform/chain.py:5590
+#: cage_deform/core.py:11138
+msgid "Edit top ends"
+msgstr "编辑顶端"
+
+#: cage_deform/core.py:10716
+msgid "Editable U/W scale and offset stations along the Curve cage"
+msgstr "沿曲线控制笼的可编辑 U/W 缩放与偏移站点"
+
+#: cage_deform/ui.py:602
+msgid "Editing Source"
+msgstr "编辑源"
+
+#: cage_deform/core.py:10352
+msgid "Enable Stage"
+msgstr "启用阶段"
+
+#: cage_deform/chain.py:5667
+#: cage_deform/core.py:11212
+msgid "Enable Stages"
+msgstr "启用阶段"
+
+#: cage_deform/animation_io.py:685
+msgid "End Frame"
+msgstr "结束帧"
+
+#: cage_deform/chain.py:5579
+#: cage_deform/core.py:11128
+msgid "End Offset"
+msgstr "结束偏移"
+
+#: cage_deform/chain.py:5578
+#: cage_deform/core.py:11127
+msgid "End Scale"
+msgstr "结束缩放"
+
+#: cage_deform/chain.py:5587
+#: cage_deform/core.py:11135
+msgid "Ends"
+msgstr "端点"
+
+#: cage_deform/core.py:10728
+msgid "Even Cross Sections"
+msgstr "均匀横截面"
+
+#: cage_deform/core.py:15219
+msgid "Execute this layer earlier"
+msgstr "提前执行此层"
+
+#: cage_deform/core.py:15220
+msgid "Execute this layer later"
+msgstr "延后执行此层"
+
+#: cage_deform/core.py:10347
+msgid "Expand All"
+msgstr "全部展开"
+
+#: cage_deform/core.py:10347
+msgid "Expand every deformation layer in the cage UI"
+msgstr "展开控制笼界面中的每个变形层"
+
+#: cage_deform/core.py:10330
+msgid "Expanded Deformation Layers"
+msgstr "已展开的变形层"
+
+#: cage_deform/animation_io.py:672
+msgid "Export the evaluated animation to an Alembic (.abc) cache without creating shape keys"
+msgstr "将求值后的动画导出为 Alembic (.abc) 缓存，不创建形态键"
+
+#: cage_deform/core.py:10874
+msgid "Extend Tangents"
+msgstr "延伸切线"
+
+#: cage_deform/core.py:10862
+msgid "Extend open endpoints or repeat around a closed guide"
+msgstr "延伸开放端点，或围绕闭合引导线重复"
+
+#: cage_deform/core.py:10339
+#: cage_deform/core.py:10370
+msgid "FFD"
+msgstr "FFD"
+
+#: cage_deform/chain.py:3776
+#: cage_deform/core.py:10300
+msgid "FFD Cage"
+msgstr "FFD 控制笼"
+
+#: cage_deform/gizmos.py:139
+msgid "FFD Control Face"
+msgstr "FFD 控制面"
+
+#: cage_deform/gizmos.py:134
+msgid "FFD Control Line"
+msgstr "FFD 控制线"
+
+#: cage_deform/gizmos.py:126
+msgid "FFD Control Point"
+msgstr "FFD 控制点"
+
+#: cage_deform/core.py:10469
+msgid "FFD Control Points"
+msgstr "FFD 控制点"
+
+#: preferences.py:247
+msgid "FFD Controller Display"
+msgstr "FFD 控制器显示"
+
+#: cage_deform/gizmos.py:3234
+msgid "FFD Controls"
+msgstr "FFD 控制器"
+
+#: cage_deform/gizmos.py:2684
+msgid "FFD Corner"
+msgstr "FFD 角点"
+
+#: cage_deform/core.py:10460
+msgid "FFD Corner Offsets"
+msgstr "FFD 角点偏移"
+
+#: cage_deform/core.py:15655
+msgid "FFD Edit"
+msgstr "FFD 编辑"
+
+#: cage_deform/core.py:10678
+msgid "FFD Edit Mode"
+msgstr "FFD 编辑模式"
+
+#: cage_deform/gizmos.py:3220
+msgid "FFD Edit Mode: drag blank area to box select | G Move; G again Tangent Slide | R Rotate | S Scale | Shift Add | Ctrl Subtract | A Select All | Alt+A Clear | Double-click blank / Esc / Right Mouse exits"
+msgstr "FFD 编辑模式：拖动空白区域框选 | G 移动；再次按 G 切线滑动 | R 旋转 | S 缩放 | Shift 添加 | Ctrl 减去 | A 全选 | Alt+A 清除 | 双击空白处 / Esc / 鼠标右键退出"
+
+#: preferences.py:188
+msgid "FFD Face Size"
+msgstr "FFD 面大小"
+
+#: preferences.py:146
+msgid "FFD Keyframe Scope"
+msgstr "FFD 关键帧范围"
+
+#: preferences.py:167
+msgid "FFD Line Length"
+msgstr "FFD 线长度"
+
+#: preferences.py:179
+msgid "FFD Line Width"
+msgstr "FFD 线宽"
+
+#: cage_deform/core.py:10639
+msgid "FFD Point"
+msgstr "FFD 点"
+
+#: cage_deform/core.py:10488
+#: cage_deform/ui.py:284
+msgid "FFD Points"
+msgstr "FFD 点"
+
+#: cage_deform/core.py:10579
+msgid "FFD Safety"
+msgstr "FFD 安全"
+
+#: cage_deform/core.py:10646
+msgid "FFD Selection Mode"
+msgstr "FFD 选择模式"
+
+#: cage_deform/core.py:10661
+msgid "FFD Selection Modes"
+msgstr "FFD 选择模式"
+
+#: cage_deform/core.py:10673
+msgid "FFD Selection Modes Initialized"
+msgstr "FFD 选择模式已初始化"
+
+#: cage_deform/core.py:10598
+msgid "FFD Symmetry"
+msgstr "FFD 对称"
+
+#: cage_deform/core.py:10620
+msgid "FFD Symmetry Axes"
+msgstr "FFD 对称轴"
+
+#: cage_deform/core.py:10634
+msgid "FFD Symmetry Axes Initialized"
+msgstr "FFD 对称轴已初始化"
+
+#: cage_deform/core.py:10607
+msgid "FFD Symmetry Axis"
+msgstr "FFD 对称轴"
+
+#: cage_deform/core.py:10497
+msgid "FFD U Points"
+msgstr "FFD U 点数"
+
+#: cage_deform/core.py:10505
+msgid "FFD V Points"
+msgstr "FFD V 点数"
+
+#: cage_deform/core.py:10513
+msgid "FFD W Points"
+msgstr "FFD W 点数"
+
+#: preferences.py:266
+msgid "FFD edit:"
+msgstr "FFD 编辑："
+
+#: cage_deform/core.py:10607
+msgid "FFD lattice axis whose center plane is used for mirrored editing"
+msgstr "中心平面用于镜像编辑的 FFD 晶格轴"
+
+#: cage_deform/core.py:10655
+#: cage_deform/core.py:10667
+msgid "Face"
+msgstr "面"
+
+#: cage_deform/chain.py:5660
+#: cage_deform/core.py:10993
+msgid "Factor"
+msgstr "系数"
+
+#: cage_deform/animation_io.py:680
+msgid "First scene frame to sample"
+msgstr "要采样的第一个场景帧"
+
+#: cage_deform/core.py:10821
+msgid "Fit Guide to Cage"
+msgstr "导向适配笼"
+
+#: props.py:63
+msgid "Follow Lower Limit(Green)"
+msgstr "跟随下限（绿色）"
+
+#: props.py:60
+msgid "Follow Upper Limit(Red)"
+msgstr "跟随上限（红色）"
+
+#: cage_deform/ui.py:886
+#: ui/panel.py:130
+msgid "Follow-limit Origin modes are disabled."
+msgstr "跟随限制原点模式已禁用。"
+
+#: cage_deform/core.py:10853
+#: cage_deform/core.py:10878
+msgid "Freeze the boundary frame and continue excluded geometry rigidly along its tangent"
+msgstr "冻结边界框，并沿切线刚性延续被排除的几何体"
+
+#: cage_deform/core.py:10702
+msgid "Full Curve Falloff"
+msgstr "完整曲线衰减"
+
+#: cage_deform/chain.py:3822
+#: cage_deform/chain.py:4115
+msgid "Gap"
+msgstr "间隙"
+
+#: cage_deform/ui.py:1153
+msgid "Gap Before"
+msgstr "前方间隙"
+
+#: cage_deform/core.py:11096
+msgid "Gap from Previous Cage"
+msgstr "与前一笼的间隙"
+
+#: preferences.py:113
+msgid "Gizmo Property Show Location"
+msgstr "控件属性显示位置"
+
+#: view_state.py:197
+msgid "Gizmos"
+msgstr "控件"
+
+#: cage_deform/core.py:10736
+msgid "Global Radius"
+msgstr "全局半径"
+
+#: cage_deform/core.py:10746
+msgid "Global Twist"
+msgstr "全局扭曲"
+
+#: cage_deform/core.py:10690
+msgid "Guide Points"
+msgstr "导向点"
+
+#: cage_deform/core.py:10944
+msgid "Guide Preset"
+msgstr "导向预设"
+
+#: cage_deform/core.py:10928
+msgid "Guide Resolution"
+msgstr "导向分辨率"
+
+#: view_state.py:198
+msgid "Guides"
+msgstr "导向"
+
+#: cage_deform/core.py:10771
+#: cage_deform/curve_presets.py:15
+msgid "Helix"
+msgstr "螺旋"
+
+#: cage_deform/animation_io.py:711
+msgid "Hide Source"
+msgstr "隐藏源"
+
+#: cage_deform/animation_io.py:711
+msgid "Hide the source object in the viewport and renders after a successful bake"
+msgstr "烘焙成功后，在视图和渲染中隐藏源物体"
+
+#: cage_deform/core.py:10521
+#: cage_deform/ui.py:332
+msgid "Hollow FFD"
+msgstr "空心 FFD"
+
+#: cage_deform/core.py:10809
+msgid "How cage-axis distance is mapped to the guide"
+msgstr "笼轴距离如何映射到导向"
+
+#: cage_deform/core.py:11019
+msgid "How geometry outside the cage is handled"
+msgstr "笼外几何体的处理方式"
+
+#: cage_deform/chain.py:3792
+msgid "How neighboring cage segments handle their boundaries"
+msgstr "相邻笼段如何处理其边界"
+
+#: cage_deform/core.py:10870
+msgid "How points beyond the Curve cage ends are handled"
+msgstr "曲线笼端点之外的点如何处理"
+
+#: cage_deform/core.py:8006
+msgid "How strongly this control point contributes to the FFD field"
+msgstr "该控制点对 FFD 场的影响强度"
+
+#: cage_deform/core.py:10849
+msgid "How the Curve cage affects geometry beyond its authored range"
+msgstr "曲线笼如何影响其设定范围之外的几何体"
+
+#: preferences.py:268
+msgid "I / Alt+I: insert or delete point keys (scope preference above)"
+msgstr "I / Alt+I：插入或删除点关键帧（作用域见上方偏好设置）"
+
+#: preferences.py:106
+msgid "In Front"
+msgstr "在前面"
+
+#: cage_deform/core.py:8001
+msgid "Include this control point in the next viewport edit"
+msgstr "在下次视图编辑中包含此控制点"
+
+#: cage_deform/chain.py:3801
+#: cage_deform/chain.py:3812
+msgid "Independent"
+msgstr "独立"
+
+#: cage_deform/core.py:10304
+msgid "Independent Bezier-guided cage with editable cross sections"
+msgstr "独立贝塞尔导向笼，横截面可编辑"
+
+#: cage_deform/ui.py:1128
+msgid "Independent Cage Chain"
+msgstr "独立笼链"
+
+#: cage_deform/core.py:11316
+#: cage_deform/ui.py:1457
+msgid "Independent Ends"
+msgstr "独立端点"
+
+#: cage_deform/ui.py:1086
+msgid "Independent cage deformation"
+msgstr "独立笼变形"
+
+#: cage_deform/curve.py:786
+msgid "Independent cross-section scale along the guide U and W axes"
+msgstr "沿导向 U 轴和 W 轴的独立横截面缩放"
+
+#: cage_deform/core.py:10322
+msgid "Index of the deformation layer selected in the cage UI"
+msgstr "在笼界面中所选变形层的索引"
+
+#: cage_deform/core.py:8006
+msgid "Influence"
+msgstr "影响"
+
+#: cage_deform/core.py:11339
+msgid "Influence Vertex Group"
+msgstr "影响顶点组"
+
+#: cage_deform/core.py:11327
+msgid "Influence Weight"
+msgstr "影响权重"
+
+#: cage_deform/chain.py:3780
+#: cage_deform/core.py:14784
+msgid "Initial Deformation"
+msgstr "初始变形"
+
+#: cage_deform/core.py:10566
+#: cage_deform/ui.py:286
+msgid "Interpolation"
+msgstr "插值"
+
+#: cage_deform/core.py:10530
+msgid "Interpolation basis across the FFD cage U direction"
+msgstr "沿 FFD 笼 U 方向的插值基"
+
+#: cage_deform/core.py:10554
+msgid "Interpolation basis across the FFD cage W direction"
+msgstr "沿 FFD 笼 W 方向的插值基"
+
+#: cage_deform/core.py:10542
+msgid "Interpolation basis along the FFD cage deformation axis"
+msgstr "沿 FFD 笼变形轴的插值基"
+
+#: cage_deform/core.py:10566
+msgid "Interpolation basis on all linked FFD axes"
+msgstr "所有链接 FFD 轴上的插值基"
+
+#: cage_deform/core.py:15318
+msgid "Invert"
+msgstr "反转"
+
+#: cage_deform/core.py:15318
+msgid "Invert the FFD point selection"
+msgstr "反转 FFD 点选择"
+
+#: cage_deform/core.py:10916
+msgid "Join the first and last guide points into a continuous loop"
+msgstr "将首尾导向点连接为连续循环"
+
+#: cage_deform/core.py:10728
+msgid "Keep all cross sections evenly distributed when sections are added, removed, or adjusted"
+msgstr "添加、移除或调整横截面时保持所有横截面均匀分布"
+
+#: cage_deform/curve.py:697
+msgid "Keep both Bezier handles mirrored until Alt makes one side independent"
+msgstr "保持两个贝塞尔手柄镜像，直到按 Alt 使一侧独立"
+
+#: cage_deform/chain.py:4131
+msgid "Keep each newly-created shared cross-section continuous"
+msgstr "保持每个新建共享横截面连续"
+
+#: cage_deform/core.py:10841
+msgid "Keep the guide endpoints constrained inside the cage"
+msgstr "使导向端点保持在笼内"
+
+#: cage_deform/core.py:11078
+msgid "Keep this cage's frame synchronized with the preceding cage's live deformation"
+msgstr "使此笼的框与前一笼的实时变形保持同步"
+
+#: preferences.py:153
+msgid "Key every visible FFD point; hidden hollow points are excluded"
+msgstr "为每个可见 FFD 点插入关键帧；隐藏的空心点除外"
+
+#: cage_deform/animation_io.py:567
+msgid "Key only the active deformation layer's parameters"
+msgstr "仅为活动变形层的参数插入关键帧"
+
+#: preferences.py:158
+msgid "Key only the selected FFD points"
+msgstr "仅为选中的 FFD 点插入关键帧"
+
+#: cage_deform/animation_io.py:685
+msgid "Last scene frame to sample"
+msgstr "采样的最后一个场景帧"
+
+#: cage_deform/core.py:18042
+msgid "Later"
+msgstr "稍后"
+
+#: cage_deform/core.py:10858
+msgid "Leave geometry outside the authored cage range unchanged"
+msgstr "保持设定笼范围外的几何体不变"
+
+#: cage_deform/core.py:10883
+msgid "Leave points outside the authored cage range unchanged"
+msgstr "保持创作笼范围之外的点不变"
+
+#: cage_deform/chain.py:4136
+msgid "Legacy Mixed Bend Option"
+msgstr "旧版混合弯曲选项"
+
+#: cage_deform/core.py:10460
+msgid "Legacy standard-cage XYZ offsets for the eight FFD corners"
+msgstr "八个 FFD 角点的旧版标准笼 XYZ 偏移"
+
+#: cage_deform/core.py:10809
+msgid "Length Mode"
+msgstr "长度模式"
+
+#: cage_deform/core.py:10443
+msgid "Length scale change through the cage"
+msgstr "通过控制笼改变长度缩放"
+
+#: cage_deform/chain.py:3801
+msgid "Limit each segment to its own box"
+msgstr "将每段限制在其自身的盒内"
+
+#: cage_deform/core.py:11339
+msgid "Limit this stage to a vertex group; weights scale the Influence Weight per point"
+msgstr "将此阶段限制到顶点组；权重按点缩放影响权重"
+
+#: cage_deform/core.py:11308
+msgid "Limit to Object Bounds"
+msgstr "限制到物体边界"
+
+#: cage_deform/core.py:10853
+#: cage_deform/core.py:11023
+msgid "Limited"
+msgstr "受限"
+
+#: cage_deform/core.py:10654
+#: cage_deform/core.py:10666
+msgid "Line"
+msgstr "线"
+
+#: cage_deform/core.py:10534
+#: cage_deform/core.py:10546
+msgid "Linear"
+msgstr "线性"
+
+#: cage_deform/core.py:10534
+#: cage_deform/core.py:10546
+msgid "Linear interpolation"
+msgstr "线性插值"
+
+#: cage_deform/core.py:10477
+msgid "Link U/V/W"
+msgstr "链接 U/V/W"
+
+#: cage_deform/curve.py:697
+msgid "Linked Handles"
+msgstr "链接控制柄"
+
+#: cage_deform/core.py:10976
+msgid "Linked handles move symmetrically; Alt makes this handle independent"
+msgstr "链接控制柄对称移动；按 Alt 使此控制柄独立"
+
+#: cage_deform/chain.py:5735
+msgid "Linked shared boundaries are changed only once."
+msgstr "链接的共享边界仅更改一次。"
+
+#: cage_deform/core.py:7992
+msgid "Local displacement of this FFD control point"
+msgstr "此 FFD 控制点的局部位移"
+
+#: cage_deform/ui.py:542
+#: ui/panel.py:111
+msgid "Low topology on {axis}: {sample_count} levels"
+msgstr "{axis} 上的低拓扑：{sample_count} 级"
+
+#: cage_deform/ui.py:872
+msgid "Lower Limit"
+msgstr "下限"
+
+#: cage_deform/core.py:10892
+msgid "Lower effect boundary inside the stable Curve cage mapping domain"
+msgstr "稳定曲线笼映射域内的效果下边界"
+
+#: props.py:52
+msgid "Lower limit(Green)"
+msgstr "下限（绿色）"
+
+#: cage_deform/core.py:10813
+msgid "Map physical cage distance to guide arc length"
+msgstr "将物理笼距离映射到导向弧长"
+
+#: cage_deform/core.py:10835
+msgid "Map the complete source cage and controlled object to the complete guide; editing the guide changes deformation shape without changing source boundaries, cage length, or position"
+msgstr "将完整源笼和受控物体映射到完整导向；编辑导向会改变变形形状，但不改变源边界、笼长度或位置"
+
+#: preferences.py:230
+msgid "Maximum refresh rate for the optional deformed wireframe preview"
+msgstr "可选变形线框预览的最大刷新率"
+
+#: cage_deform/merge.py:100
+#: cage_deform/ui.py:602
+msgid "Merged Sources"
+msgstr "合并源"
+
+#: props.py:66
+msgid "Middle"
+msgstr "中间"
+
+#: preferences.py:86
+msgid "Minimum value between upper and lower limits"
+msgstr "上下限之间的最小值"
+
+#: cage_deform/stage_mirror.py:197
+msgid "Mirror Axis"
+msgstr "镜像轴"
+
+#: cage_deform/core.py:10613
+#: cage_deform/core.py:10626
+msgid "Mirror across the cage-local U center plane"
+msgstr "沿笼局部 U 中心平面镜像"
+
+#: cage_deform/core.py:10614
+#: cage_deform/core.py:10627
+msgid "Mirror across the cage-local V center plane"
+msgstr "沿笼局部 V 中心平面镜像"
+
+#: cage_deform/core.py:10615
+#: cage_deform/core.py:10628
+msgid "Mirror across the cage-local W center plane"
+msgstr "沿笼局部 W 中心平面镜像"
+
+#: cage_deform/stage_mirror.py:201
+msgid "Mirror across the target-local X axis"
+msgstr "沿目标局部 X 轴镜像"
+
+#: cage_deform/stage_mirror.py:202
+msgid "Mirror across the target-local Y axis"
+msgstr "沿目标局部 Y 轴镜像"
+
+#: cage_deform/stage_mirror.py:203
+msgid "Mirror across the target-local Z axis"
+msgstr "沿目标局部 Z 轴镜像"
+
+#: cage_deform/core.py:10598
+msgid "Mirror selected FFD points, lines, and faces across the chosen U, V, or W center plane"
+msgstr "沿所选 U、V 或 W 中心平面镜像选中的 FFD 点、线和面"
+
+#: cage_deform/core.py:11042
+msgid "Mirror the deformation profile across the center"
+msgstr "沿中心镜像变形轮廓"
+
+#: cage_deform/chain.py:3851
+msgid "Mirror the profile around each cage center"
+msgstr "围绕每个笼中心镜像轮廓"
+
+#: cage_deform/chain.py:3807
+#: cage_deform/core.py:11019
+msgid "Mode"
+msgstr "模式"
+
+#: cage_deform/chain.py:3738
+msgid "More than 3 cage stages may reduce viewport performance"
+msgstr "超过 3 个笼阶段可能降低视图性能"
+
+#: cage_deform/core.py:17790
+msgid "Move"
+msgstr "移动"
+
+#: cage_deform/core.py:18042
+msgid "Move after the next deformation stage"
+msgstr "在下一变形阶段之后移动"
+
+#: cage_deform/core.py:18041
+msgid "Move before the previous deformation stage"
+msgstr "在上一变形阶段之前移动"
+
+#: cage_deform/core.py:11287
+msgid "Move the bottom cage cross-section without changing the top"
+msgstr "移动底部笼截面而不改变顶部"
+
+#: cage_deform/core.py:17790
+msgid "Move the deformation cage"
+msgstr "移动变形笼"
+
+#: cage_deform/core.py:11278
+msgid "Move the top cage cross-section without changing the bottom"
+msgstr "移动顶部笼截面而不改变底部"
+
+#: cage_deform/ui.py:570
+msgid "Multi-Object Deform"
+msgstr "多物体变形"
+
+#: cage_deform/core.py:10469
+msgid "Multi-point control data used by a dedicated FFD cage; values are edited in the viewport and can be keyed"
+msgstr "专用 FFD 笼使用的多点控制数据；值可在视图中编辑并设置关键帧"
+
+#: cage_deform/chain.py:5602
+msgid "Multiply Values"
+msgstr "乘以值"
+
+#: cage_deform/chain.py:5602
+msgid "Multiply existing values"
+msgstr "乘以现有值"
+
+#: cage_deform/core.py:10377
+msgid "Muted Deformations"
+msgstr "静音的变形"
+
+#: cage_deform/animation_io.py:700
+msgid "Name of the new independent mesh object"
+msgstr "新独立网格物体的名称"
+
+#: cage_deform/core.py:10959
+msgid "Native Curve Edit Mode"
+msgstr "原生曲线编辑模式"
+
+#: cage_deform/core.py:10684
+msgid "Native FFD Edit Mode"
+msgstr "原生 FFD 编辑模式"
+
+#: cage_deform/ffd_native_edit.py:552
+msgid "Native Lattice Edit is unavailable for Unlimited FFD"
+msgstr "无限 FFD 无法使用原生晶格编辑"
+
+#: cage_deform/animation_io.py:663
+msgid "New Object"
+msgstr "新物体"
+
+#: ops/stage.py:20
+msgid "Next"
+msgstr "下一个"
+
+#: props.py:72
+msgid "No origin operation"
+msgstr "无原点操作"
+
+#: cage_deform/core.py:11096
+msgid "Non-negative distance from the previous cage; changing it keeps the overall chain span when possible"
+msgstr "与上一笼的非负距离；更改时会尽可能保持整体链跨度"
+
+#: cage_deform/core.py:15317
+msgid "None"
+msgstr "无"
+
+#: cage_deform/curve.py:777
+msgid "Normalized position of this cross-section along the guide"
+msgstr "此截面沿导向的归一化位置"
+
+#: cage_deform/chain.py:4108
+msgid "Number of chained segments inside the current cage range"
+msgstr "当前控制笼范围内的链段数"
+
+#: cage_deform/core.py:10497
+msgid "Number of control points across the cage X direction"
+msgstr "控制笼 X 方向的控制点数"
+
+#: cage_deform/core.py:10513
+msgid "Number of control points across the cage Z direction"
+msgstr "控制笼 Z 方向的控制点数"
+
+#: cage_deform/core.py:10505
+msgid "Number of control points along the cage deformation axis"
+msgstr "沿控制笼变形轴的控制点数"
+
+#: cage_deform/core.py:10488
+msgid "Number of control points on all linked FFD axes"
+msgstr "所有链接的 FFD 轴上的控制点数"
+
+#: cage_deform/core.py:10801
+msgid "Number of editable Bezier points generated by the preset"
+msgstr "预设生成的可编辑贝塞尔点数"
+
+#: cage_deform/core.py:10709
+msgid "Number of evenly-spaced guide points after resampling"
+msgstr "重采样后均匀分布的引导点数"
+
+#: cage_deform/chain.py:3763
+msgid "Number of segments to create"
+msgstr "要创建的段数"
+
+#: cage_deform/core.py:10784
+msgid "Number of wave cycles or helix turns along the guide"
+msgstr "沿引导线的波周期数或螺旋圈数"
+
+#: cage_deform/core.py:11245
+#: cage_deform/ui.py:1488
+msgid "Numeric Controls"
+msgstr "数值控制"
+
+#: cage_deform/core.py:10690
+msgid "Object-mode controls for the managed Bezier guide"
+msgstr "受管贝塞尔引导线的物体模式控制"
+
+#: cage_deform/core.py:10586
+msgid "Off"
+msgstr "关闭"
+
+#: cage_deform/chain.py:5616
+#: cage_deform/core.py:7992
+msgid "Offset"
+msgstr "偏移"
+
+#: cage_deform/core.py:11024
+msgid "Only points inside the cage are affected"
+msgstr "仅控制笼内的点受影响"
+
+#: cage_deform/chain.py:5575
+#: cage_deform/core.py:11124
+msgid "Operation"
+msgstr "操作"
+
+#: cage_deform/chain.py:3843
+#: cage_deform/core.py:11035
+msgid "Origin"
+msgstr "原点"
+
+#: props.py:204
+msgid "Origin Object Rotate Angle"
+msgstr "原点物体旋转角度"
+
+#: props.py:212
+msgid "Origin Object Rotate Axis"
+msgstr "原点物体旋转轴"
+
+#: props.py:129
+msgid "Origin control mode"
+msgstr "原点控制模式"
+
+#: props.py:136
+msgid "Original Origin"
+msgstr "原始原点"
+
+#: cage_deform/ui.py:921
+#: cage_deform/ui.py:938
+msgid "Other Deformation"
+msgstr "其他变形"
+
+#: cage_deform/animation_io.py:659
+msgid "Output"
+msgstr "输出"
+
+#: cage_deform/animation_io.py:705
+msgid "Output .abc file path"
+msgstr "输出 .abc 文件路径"
+
+#: cage_deform/chain.py:5640
+#: cage_deform/core.py:11177
+msgid "Parameter"
+msgstr "参数"
+
+#: cage_deform/core.py:10764
+msgid "Parametric guide shape previewed immediately on the cage"
+msgstr "在控制笼上即时预览参数化引导形状"
+
+#: cage_deform/core.py:10312
+msgid "Persistent execution order for the enabled deformation layers"
+msgstr "已启用变形层的持久执行顺序"
+
+#: cage_deform/core.py:10792
+msgid "Phase"
+msgstr "相位"
+
+#: preferences.py:131
+msgid "Place newly-created cage stages at the end of the modifier stack"
+msgstr "将新建控制笼阶段放到修改器堆栈末尾"
+
+#: cage_deform/core.py:10653
+#: cage_deform/core.py:10665
+msgid "Point"
+msgstr "点"
+
+#: cage_deform/core.py:10709
+msgid "Point Count"
+msgstr "点数"
+
+#: cage_deform/curve.py:705
+#: cage_deform/ui.py:452
+msgid "Point Radius"
+msgstr "点半径"
+
+#: cage_deform/curve.py:717
+#: cage_deform/ui.py:450
+msgid "Point Roll"
+msgstr "点滚转"
+
+#: cage_deform/curve.py:777
+msgid "Position"
+msgstr "位置"
+
+#: cage_deform/core.py:10377
+msgid "Present deformation layers temporarily bypassed by this cage"
+msgstr "此控制笼临时绕过的现有变形层"
+
+#: cage_deform/core.py:10813
+msgid "Preserve Length"
+msgstr "保持长度"
+
+#: cage_deform/chain.py:5634
+#: cage_deform/core.py:11171
+msgid "Preserve Total Range"
+msgstr "保持总范围"
+
+#: cage_deform/core.py:10922
+#: cage_deform/core.py:11321
+msgid "Preserve Volume"
+msgstr "保持体积"
+
+#: cage_deform/curve_presets.py:195
+#: cage_deform/stack_presets.py:497
+msgid "Preset"
+msgstr "预设"
+
+#: cage_deform/stack_presets.py:448
+msgid "Preset Name"
+msgstr "预设名称"
+
+#: cage_deform/core.py:10801
+msgid "Preset Points"
+msgstr "预设点"
+
+#: cage_deform/ui.py:397
+msgid "Presets are locked while guide points are animated"
+msgstr "引导点已动画时预设被锁定"
+
+#: cage_deform/core.py:10579
+msgid "Prevent FFD cell foldover by using linear interpolation and clamping control-point edits to the last safe position"
+msgstr "通过线性插值并将控制点编辑限制到最后一个安全位置来防止 FFD 单元折叠"
+
+#: cage_deform/core.py:10590
+msgid "Prevent Foldover"
+msgstr "防止折叠"
+
+#: cage_deform/core.py:11308
+msgid "Prevent the top and bottom cage or Curve effect boundaries from moving beyond the input object's bounds"
+msgstr "防止顶部和底部控制笼或曲线效果边界超出输入物体的边界"
+
+#: ops/stage.py:19
+msgid "Previous"
+msgstr "上一个"
+
+#: preferences.py:123
+msgid "Professional Mode"
+msgstr "专业模式"
+
+#: ui/panel.py:43
+msgid "Property"
+msgstr "属性"
+
+#: cage_deform/core.py:10776
+msgid "Radial size of the generated Curve preset"
+msgstr "生成的曲线预设的径向大小"
+
+#: cage_deform/curve.py:804
+#: cage_deform/curve.py:824
+msgid "Radius"
+msgstr "半径"
+
+#: cage_deform/core.py:10849
+msgid "Range Mode"
+msgstr "范围模式"
+
+#: cage_deform/chain.py:5832
+msgid "Reconnect Broken Chain"
+msgstr "重新连接断开的链"
+
+#: cage_deform/chain.py:3850
+msgid "Reference the center of each cage"
+msgstr "以每个控制笼的中心为参考"
+
+#: cage_deform/chain.py:3848
+msgid "Reference the lower end of each cage"
+msgstr "以每个控制笼的下端为参考"
+
+#: cage_deform/chain.py:3849
+msgid "Reference the upper end of each cage"
+msgstr "以每个控制笼的上端为参考"
+
+#: cage_deform/chain.py:3830
+#: cage_deform/chain.py:4126
+msgid "Refresh downstream cage frames after upstream edits"
+msgstr "上游编辑后刷新下游控制笼框架"
+
+#: cage_deform/animation_io.py:667
+msgid "Replace Source"
+msgstr "替换源"
+
+#: cage_deform/chain.py:5600
+msgid "Replace existing values"
+msgstr "替换现有值"
+
+#: cage_deform/core.py:17792
+msgid "Resize the deformation cage"
+msgstr "调整变形控制笼大小"
+
+#: cage_deform/core.py:10756
+#: cage_deform/ui.py:353
+msgid "Rest Binding"
+msgstr "静止绑定"
+
+#: cage_deform/animation_io.py:700
+msgid "Result Name"
+msgstr "结果名称"
+
+#: cage_deform/core.py:17791
+msgid "Rotate"
+msgstr "旋转"
+
+#: cage_deform/core.py:17791
+msgid "Rotate and aim the deformation cage"
+msgstr "旋转并调整变形笼方向"
+
+#: cage_deform/core.py:10366
+#: cage_deform/core.py:10398
+msgid "Rotate cross-sections around the cage axis"
+msgstr "围绕笼轴旋转横截面"
+
+#: cage_deform/ui.py:1498
+msgid "Rotation"
+msgstr "旋转"
+
+#: cage_deform/ui.py:1493
+msgid "Rotation Mode"
+msgstr "旋转模式"
+
+#: cage_deform/animation_io.py:690
+msgid "Sample Step"
+msgstr "采样步长"
+
+#: cage_deform/chain.py:5607
+#: cage_deform/core.py:11144
+msgid "Scale"
+msgstr "缩放"
+
+#: cage_deform/core.py:11087
+msgid "Scale both sides of each shared cage seam together while keeping each outer end independent"
+msgstr "一起缩放每个共享笼接缝的两侧，同时保持各外端独立"
+
+#: cage_deform/chain.py:3835
+msgid "Scale both sides of each shared cage seam together while keeping outer ends independent"
+msgstr "一起缩放每个共享笼接缝的两侧，同时保持外端独立"
+
+#: cage_deform/core.py:10367
+#: cage_deform/core.py:10399
+msgid "Scale cross-sections along the cage axis"
+msgstr "沿笼轴缩放横截面"
+
+#: cage_deform/core.py:10368
+#: cage_deform/core.py:10400
+msgid "Scale geometry along the cage axis"
+msgstr "沿笼轴缩放几何体"
+
+#: cage_deform/curve.py:741
+msgid "Scale the Bezier handles around this guide point"
+msgstr "围绕此导向点缩放贝塞尔控制柄"
+
+#: cage_deform/core.py:11269
+msgid "Scale the bottom cage cross-section without changing the top"
+msgstr "缩放底部笼横截面而不改变顶部"
+
+#: cage_deform/core.py:10821
+msgid "Scale the complete guide shape to the authored cage length"
+msgstr "将完整导向形状缩放至设定的笼长度"
+
+#: cage_deform/core.py:11260
+msgid "Scale the top cage cross-section without changing the bottom"
+msgstr "缩放顶部笼横截面而不改变底部"
+
+#: cage_deform/animation_io.py:690
+msgid "Scene frames between baked samples; values below 1.0 add subframe samples"
+msgstr "烘焙采样之间的场景帧数；小于 1.0 的值会增加子帧采样"
+
+#: cage_deform/chain.py:5565
+#: cage_deform/core.py:11115
+msgid "Scope"
+msgstr "范围"
+
+#: cage_deform/gizmos.py:1701
+#: cage_deform/gizmos.py:5235
+msgid "Select Cage Stage"
+msgstr "选择笼阶段"
+
+#: cage_deform/ui.py:1103
+msgid "Select a stage above to edit its cage controls."
+msgstr "在上方选择一个阶段以编辑其笼控制项。"
+
+#: cage_deform/ui.py:1074
+msgid "Select a supported target object first"
+msgstr "请先选择受支持的目标物体"
+
+#: cage_deform/core.py:10970
+msgid "Select and move this Curve cage guide point"
+msgstr "选择并移动此曲线笼导向点"
+
+#: cage_deform/core.py:15699
+msgid "Select and transform Curve guide points and handles"
+msgstr "选择并变换曲线导向点和控制柄"
+
+#: cage_deform/core.py:15656
+msgid "Select and transform FFD points, lines, and faces"
+msgstr "选择并变换 FFD 点、线和面"
+
+#: cage_deform/core.py:10654
+msgid "Select any U, V, or W FFD control-line segment"
+msgstr "选择任意 U、V 或 W FFD 控制线段"
+
+#: cage_deform/core.py:10655
+msgid "Select any UV, UW, or VW FFD grid face"
+msgstr "选择任意 UV、UW 或 VW FFD 网格面"
+
+#: cage_deform/core.py:16016
+msgid "Select at least one FFD control point"
+msgstr "至少选择一个 FFD 控制点"
+
+#: cage_deform/core.py:15316
+msgid "Select every FFD control point"
+msgstr "选择所有 FFD 控制点"
+
+#: cage_deform/core.py:10653
+msgid "Select one FFD control point"
+msgstr "选择一个 FFD 控制点"
+
+#: cage_deform/core.py:10661
+msgid "Select one or more FFD point, line, and face controller types"
+msgstr "选择一种或多种 FFD 点、线和面控制器类型"
+
+#: ops/stage.py:20
+msgid "Select the next Simple Deform modifier"
+msgstr "选择下一个简易形变修改器"
+
+#: ops/stage.py:19
+msgid "Select the previous Simple Deform modifier"
+msgstr "选择上一个简易形变修改器"
+
+#: cage_deform/core.py:8001
+#: cage_deform/curve.py:692
+msgid "Selected"
+msgstr "已选"
+
+#: preferences.py:158
+msgid "Selected Points"
+msgstr "已选点"
+
+#: cage_deform/core.py:15313
+msgid "Selection"
+msgstr "选择"
+
+#: cage_deform/chain.py:5600
+msgid "Set Values"
+msgstr "设置值"
+
+#: cage_deform/chain.py:5580
+msgid "Set spacing before every cage in scope"
+msgstr "为范围内每个笼设置间距"
+
+#: cage_deform/core.py:8074
+msgid "Set the active and selected FFD point influences together"
+msgstr "同时设置活动 FFD 点和已选 FFD 点的影响"
+
+#: gizmo/set_deform_axis.py:9
+msgid "SetDeformGizmoGroup"
+msgstr "SetDeformGizmoGroup"
+
+#: cage_deform/core.py:10393
+msgid "Shape operation performed inside the cage"
+msgstr "在笼内执行的形状操作"
+
+#: cage_deform/core.py:10361
+msgid "Shape operations combined by this cage"
+msgstr "此笼组合的形状操作"
+
+#: cage_deform/gizmos.py:113
+msgid "Shared Boundary"
+msgstr "共享边界"
+
+#: cage_deform/chain.py:3787
+#: cage_deform/core.py:10338
+msgid "Shear"
+msgstr "切变"
+
+#: cage_deform/chain.py:3775
+#: cage_deform/core.py:10296
+msgid "Shear Cage"
+msgstr "切变笼"
+
+#: cage_deform/gizmos.py:147
+#: cage_deform/gizmos.py:2401
+msgid "Shear End-Face Handle"
+msgstr "切变端面控制柄"
+
+#: preferences.py:264
+msgid "Shear handle - Alt: X only, Shift: Z only, Ctrl: snap"
+msgstr "切变控制柄 - Alt：仅 X，Shift：仅 Z，Ctrl：吸附"
+
+#: preferences.py:262
+msgid "Shift: precise   Ctrl: snap angle/value"
+msgstr "Shift：精确   Ctrl：吸附角度/数值"
+
+#: preferences.py:259
+msgid "Shortcut Cheat Sheet"
+msgstr "快捷键速查表"
+
+#: cage_deform/chain.py:5634
+#: cage_deform/core.py:11171
+msgid "Shorten each cage as its incoming gap grows"
+msgstr "随着输入间隙增大缩短每个笼"
+
+#: cage_deform/core.py:11227
+msgid "Show Axis Switch"
+msgstr "显示轴切换"
+
+#: cage_deform/core.py:11064
+msgid "Show Cage"
+msgstr "显示笼"
+
+#: cage_deform/core.py:10939
+msgid "Show Curve control, binding, range, and profile settings"
+msgstr "显示曲线控制、绑定、范围和轮廓设置"
+
+#: preferences.py:98
+msgid "Show Deform Wireframe"
+msgstr "显示形变线框"
+
+#: preferences.py:221
+msgid "Show Drag Shortcuts in Header"
+msgstr "在标题栏中显示拖动快捷键"
+
+#: preferences.py:200
+#: cage_deform/core.py:11240
+msgid "Show FFD Handles"
+msgstr "显示 FFD 控制柄"
+
+#: preferences.py:207
+msgid "Show Final Merged State While Editing Sources"
+msgstr "编辑源时显示最终合并状态"
+
+#: preferences.py:121
+msgid "Show Gizmo"
+msgstr "显示小工具"
+
+#: cage_deform/core.py:11301
+msgid "Show Length Handles"
+msgstr "显示长度控制柄"
+
+#: cage_deform/core.py:11218
+msgid "Show Other Cages"
+msgstr "显示其他笼"
+
+#: preferences.py:216
+msgid "Show Other Simple Deform Stages"
+msgstr "显示其他简易形变阶段"
+
+#: preferences.py:108
+msgid "Show Set Axis Button"
+msgstr "显示设置轴按钮"
+
+#: cage_deform/core.py:11296
+msgid "Show Shape Handles"
+msgstr "显示形状手柄"
+
+#: ui/panel.py:173
+msgid "Show Simple Deform Gizmo"
+msgstr "显示简易形变辅助控件"
+
+#: preferences.py:93
+msgid "Show Toggle Bend Axis Gizmo"
+msgstr "显示切换弯曲轴辅助控件"
+
+#: cage_deform/core.py:11235
+#: cage_deform/ui.py:1372
+msgid "Show Twist"
+msgstr "显示扭曲"
+
+#: preferences.py:108
+msgid "Show X, Y, and Z buttons beside the deformation bounds"
+msgstr "在形变边界旁显示 X、Y、Z 按钮"
+
+#: preferences.py:123
+msgid "Show advanced Deform Axis, Independent Ends, and Numeric Controls"
+msgstr "显示高级形变轴、独立端点和数值控制"
+
+#: cage_deform/core.py:15365
+msgid "Show and select FFD face controllers"
+msgstr "显示并选择 FFD 面控制器"
+
+#: cage_deform/core.py:15364
+msgid "Show and select FFD line-segment controllers"
+msgstr "显示并选择 FFD 线段控制器"
+
+#: cage_deform/core.py:10665
+#: cage_deform/core.py:15363
+msgid "Show and select FFD point controllers"
+msgstr "显示并选择 FFD 点控制器"
+
+#: cage_deform/core.py:10666
+msgid "Show and select U/V/W FFD line-segment controllers"
+msgstr "显示并选择 U/V/W FFD 线段控制器"
+
+#: cage_deform/core.py:10667
+msgid "Show and select UV/UW/VW FFD face controllers"
+msgstr "显示并选择 UV/UW/VW FFD 面控制器"
+
+#: cage_deform/core.py:11255
+msgid "Show axis alignment controls for the active cage"
+msgstr "显示活动框架的轴对齐控制"
+
+#: cage_deform/core.py:11227
+msgid "Show axis choices around the cage; the choices hide after selection unless Ctrl is held"
+msgstr "在框架周围显示轴向选项；选择后选项会隐藏，除非按住 Ctrl"
+
+#: cage_deform/core.py:10954
+msgid "Show editable Curve cross-section stations"
+msgstr "显示可编辑的曲线横截面站点"
+
+#: cage_deform/core.py:11240
+msgid "Show editable FFD control-point handles"
+msgstr "显示可编辑的 FFD 控制点手柄"
+
+#: preferences.py:200
+msgid "Show editable FFD control-point, line, and face handles"
+msgstr "显示可编辑的 FFD 控制点、线和面手柄"
+
+#: cage_deform/core.py:11245
+msgid "Show exact cage size, location, and rotation values"
+msgstr "显示精确的框架尺寸、位置和旋转值"
+
+#: cage_deform/core.py:10949
+msgid "Show guide editing and active-point controls"
+msgstr "显示引导线编辑和活动点控制"
+
+#: cage_deform/core.py:11301
+msgid "Show handles that independently move a cage end or a Curve effect boundary"
+msgstr "显示可独立移动框架端点或曲线效果边界的手柄"
+
+#: cage_deform/core.py:11109
+msgid "Show inline controls that edit several cages immediately"
+msgstr "显示可同时编辑多个框架的内联控件"
+
+#: cage_deform/core.py:10944
+msgid "Show parametric Curve guide preset controls"
+msgstr "显示参数化曲线引导线预设控件"
+
+#: cage_deform/core.py:11316
+msgid "Show separate top and bottom cross-section controls"
+msgstr "显示分开的顶部和底部横截面控制"
+
+#: cage_deform/core.py:11296
+msgid "Show separate top and bottom cross-section shaping handles"
+msgstr "显示分开的顶部和底部横截面形状手柄"
+
+#: cage_deform/core.py:11235
+msgid "Show the ring used to adjust the Bend direction"
+msgstr "显示用于调整弯曲方向的圆环"
+
+#: cage_deform/core.py:11250
+msgid "Show transform, fit, and cage-selection controls"
+msgstr "显示变换、适配和框架选择控制"
+
+#: cage_deform/core.py:15003
+msgid "Simple"
+msgstr "简单"
+
+#: view_state.py:240
+#: view_state.py:258
+msgid "Simple Deform Helper"
+msgstr "简易形变助手"
+
+#: ui/panel.py:86
+msgid "Simple Deform Stack"
+msgstr "简易形变堆栈"
+
+#: cage_deform/ui.py:547
+#: ui/panel.py:117
+msgid "Simple Deform needs more segments to bend smoothly."
+msgstr "简易形变需要更多分段才能平滑弯曲。"
+
+#: cage_deform/ui.py:955
+#: cage_deform/ui.py:958
+msgid "Simple Deformer V2"
+msgstr "简易形变器 V2"
+
+#: gizmo/bend_axis.py:37
+msgid "SimpleDeformGizmoGroup_display_bend_axis_switch_gizmo"
+msgstr "SimpleDeformGizmoGroup_display_bend_axis_switch_gizmo"
+
+#: props.py:196
+msgid "SimpleDeformGizmo_PropertyGroup"
+msgstr "SimpleDeformGizmo_PropertyGroup"
+
+#: cage_deform/core.py:10770
+#: cage_deform/curve_presets.py:14
+msgid "Sine"
+msgstr "正弦"
+
+#: cage_deform/core.py:11010
+msgid "Size"
+msgstr "尺寸"
+
+#: cage_deform/core.py:10369
+#: cage_deform/core.py:10401
+msgid "Slide cross-sections sideways along the cage axis"
+msgstr "沿框架轴横向滑动横截面"
+
+#: cage_deform/core.py:15007
+msgid "Smooth while subdividing"
+msgstr "细分时平滑"
+
+#: cage_deform/chain.py:5625
+msgid "Spacing before each affected downstream cage"
+msgstr "各受影响下游框架前的间距"
+
+#: cage_deform/core.py:11162
+msgid "Spacing before every affected downstream cage"
+msgstr "每个受影响下游框架前的间距"
+
+#: ops/stage.py:24
+msgid "Stage Index"
+msgstr "阶段索引"
+
+#: cage_deform/chain.py:5582
+#: cage_deform/core.py:11131
+msgid "Stage Visibility"
+msgstr "阶段可见性"
+
+#: ui/panel.py:71
+msgid "Stage {stage_index} of {stage_count}: {modifier}"
+msgstr "第 {stage_index} 阶段，共 {stage_count} 阶段：{modifier}"
+
+#: cage_deform/chain.py:3774
+#: cage_deform/core.py:10292
+msgid "Standard Type"
+msgstr "标准类型"
+
+#: cage_deform/animation_io.py:680
+msgid "Start Frame"
+msgstr "起始帧"
+
+#: cage_deform/core.py:11040
+msgid "Start at the lower cage boundary"
+msgstr "从框架下边界开始"
+
+#: cage_deform/core.py:11043
+msgid "Start at the upper cage boundary"
+msgstr "从框架上边界开始"
+
+#: cage_deform/chain.py:5569
+#: cage_deform/core.py:11119
+msgid "Start to Active"
+msgstr "起点到活动点"
+
+#: cage_deform/core.py:11035
+msgid "Starting pattern of the deformation"
+msgstr "形变的起始模式"
+
+#: cage_deform/core.py:10792
+msgid "Starting phase of the generated Curve preset"
+msgstr "生成的曲线预设的起始相位"
+
+#: cage_deform/core.py:10768
+#: cage_deform/curve_presets.py:12
+msgid "Straight"
+msgstr "直线"
+
+#: cage_deform/chain.py:3786
+#: cage_deform/core.py:10337
+msgid "Stretch"
+msgstr "拉伸"
+
+#: cage_deform/chain.py:5647
+#: cage_deform/core.py:10443
+msgid "Stretch Factor"
+msgstr "拉伸系数"
+
+#: cage_deform/core.py:10817
+msgid "Stretch to Path"
+msgstr "拉伸到路径"
+
+#: cage_deform/gizmos.py:3948
+msgid "Switch Cage Axis"
+msgstr "切换框架轴"
+
+#: cage_deform/chain.py:3851
+#: cage_deform/core.py:11042
+msgid "Symmetric"
+msgstr "对称"
+
+#: cage_deform/ui.py:255
+msgid "Symmetry"
+msgstr "对称"
+
+#: cage_deform/chain.py:3835
+#: cage_deform/chain.py:4131
+msgid "Sync Shared End Scale"
+msgstr "同步共享端点缩放"
+
+#: preferences.py:269
+msgid "Tab: leave Native Lattice Edit and sync back"
+msgstr "Tab：退出原生栅格编辑并同步回来"
+
+#: cage_deform/chain.py:3785
+#: cage_deform/core.py:10336
+msgid "Taper"
+msgstr "锥化"
+
+#: cage_deform/chain.py:5646
+#: cage_deform/core.py:10435
+msgid "Taper Factor"
+msgstr "锥化系数"
+
+#: cage_deform/core.py:11048
+msgid "Target axis used when aligning and fitting the cage"
+msgstr "对齐和适配框架时使用的目标轴"
+
+#: cage_deform/stage_mirror.py:197
+msgid "Target-local axis to mirror across"
+msgstr "镜像所用的目标局部轴"
+
+#: cage_deform/core.py:10352
+msgid "Temporarily apply or bypass this cage while preserving chained-stage flow"
+msgstr "临时应用或绕过此笼，同时保持链式阶段流程"
+
+#: cage_deform/core.py:10381
+msgid "Temporarily bypass Bend"
+msgstr "临时绕过弯曲"
+
+#: cage_deform/core.py:10387
+msgid "Temporarily bypass Curve"
+msgstr "临时绕过曲线"
+
+#: cage_deform/core.py:10386
+msgid "Temporarily bypass FFD"
+msgstr "临时绕过 FFD"
+
+#: cage_deform/core.py:10385
+msgid "Temporarily bypass Shear"
+msgstr "临时绕过切变"
+
+#: cage_deform/core.py:10384
+msgid "Temporarily bypass Stretch"
+msgstr "临时绕过拉伸"
+
+#: cage_deform/core.py:10383
+msgid "Temporarily bypass Taper"
+msgstr "临时绕过锥化"
+
+#: cage_deform/core.py:10382
+msgid "Temporarily bypass Twist"
+msgstr "临时绕过扭转"
+
+#: cage_deform/curve.py:741
+#: cage_deform/curve.py:762
+msgid "Tension"
+msgstr "张力"
+
+#: cage_deform/chain.py:3796
+#: cage_deform/core.py:11026
+msgid "The chain root extends continuously beyond both boundaries; later cages preserve the upstream prefix and continue from the cage end"
+msgstr "链根连续延伸至两个边界之外；后续笼保留上游前缀并从笼末端继续"
+
+#: cage_deform/chain.py:4173
+msgid "The original cage boundaries stay fixed."
+msgstr "原始笼边界保持固定。"
+
+#: view_state.py:197
+msgid "Toggle SDH Gizmos in this view"
+msgstr "在此视图中切换 SDH 控件"
+
+#: view_state.py:196
+msgid "Toggle cage preview in this view"
+msgstr "在此视图中切换笼预览"
+
+#: view_state.py:198
+msgid "Toggle guide geometry in this view"
+msgstr "在此视图中切换辅助几何体"
+
+#: ui/header.py:18
+#: ui/panel.py:15
+msgid "Tool"
+msgstr "工具"
+
+#: preferences.py:116
+msgid "Tool Options"
+msgstr "工具选项"
+
+#: preferences.py:115
+msgid "Tool Settings"
+msgstr "工具设置"
+
+#: cage_deform/chain.py:3849
+#: cage_deform/chain.py:5590
+msgid "Top"
+msgstr "顶部"
+
+#: cage_deform/gizmos.py:103
+msgid "Top Boundary"
+msgstr "顶部边界"
+
+#: cage_deform/gizmos.py:87
+msgid "Top End Shape"
+msgstr "顶端形状"
+
+#: cage_deform/core.py:11278
+msgid "Top Offset"
+msgstr "顶部偏移"
+
+#: cage_deform/core.py:11260
+msgid "Top Scale"
+msgstr "顶部缩放"
+
+#: cage_deform/core.py:10408
+msgid "Total Bend angle through the cage length"
+msgstr "沿笼长度的总弯曲角度"
+
+#: cage_deform/core.py:10984
+msgid "Total Bend or Twist angle through the cage length"
+msgstr "沿笼长度的总弯曲或扭转角度"
+
+#: cage_deform/core.py:10426
+msgid "Total Twist angle through the cage length"
+msgstr "沿笼长度的总扭转角度"
+
+#: cage_deform/ui.py:853
+msgid "Traditional Simple Deform"
+msgstr "传统简单形变"
+
+#: preferences.py:271
+msgid "Traditional Simple Deform (drag):"
+msgstr "传统简单形变（拖拽）："
+
+#: cage_deform/chain.py:3784
+#: cage_deform/core.py:10335
+msgid "Twist"
+msgstr "扭转"
+
+#: cage_deform/chain.py:5645
+#: cage_deform/core.py:10426
+msgid "Twist Angle"
+msgstr "扭转角度"
+
+#: cage_deform/core.py:15000
+msgid "Type"
+msgstr "类型"
+
+#: cage_deform/core.py:10613
+#: cage_deform/core.py:10626
+msgid "U"
+msgstr "U"
+
+#: cage_deform/curve.py:795
+msgid "U / W Offset"
+msgstr "U / W 偏移"
+
+#: cage_deform/curve.py:786
+msgid "U / W Scale"
+msgstr "U / W 缩放"
+
+#: cage_deform/core.py:10530
+msgid "U Interpolation"
+msgstr "U 插值"
+
+#: props.py:41
+msgid "UP Limits(Red)"
+msgstr "上限限制（红色）"
+
+#: cage_deform/core.py:10736
+msgid "Uniform radius multiplier composed with native guide-point and cross-section radius"
+msgstr "统一半径乘数，与原生引导点和横截面半径相乘"
+
+#: cage_deform/core.py:10746
+msgid "Uniform rotation added to every cross-section around the guide"
+msgstr "围绕引导线为每个横截面统一添加的旋转"
+
+#: cage_deform/chain.py:4115
+msgid "Uniform spacing between segments; segment lengths shrink so the original total range is preserved"
+msgstr "段间统一间距；段长缩短以保持原始总范围"
+
+#: cage_deform/core.py:10862
+#: cage_deform/core.py:11025
+msgid "Unlimited"
+msgstr "无限制"
+
+#: cage_deform/core.py:15219
+msgid "Up"
+msgstr "向上"
+
+#: gizmo/up_down_limits_point.py:234
+msgid "UpDownLimitsGizmo"
+msgstr "UpDownLimitsGizmo"
+
+#: gizmo/up_down_limits_point.py:300
+msgid "UpDownLimitsGizmoGroup"
+msgstr "UpDownLimitsGizmoGroup"
+
+#: cage_deform/ui.py:873
+msgid "Upper Limit"
+msgstr "上限"
+
+#: preferences.py:78
+msgid "Upper and lower limit Bound Box Color"
+msgstr "上下限边界框颜色"
+
+#: preferences.py:86
+msgid "Upper and lower limit tolerance"
+msgstr "上下限容差"
+
+#: cage_deform/core.py:10904
+msgid "Upper effect boundary inside the stable Curve cage mapping domain"
+msgstr "稳定曲线笼映射域内的上限效果边界"
+
+#: cage_deform/chain.py:3812
+msgid "Use isolated boxes"
+msgstr "使用独立盒"
+
+#: cage_deform/core.py:10590
+msgid "Use linear interpolation and stop edits before FFD cells invert"
+msgstr "使用线性插值，并在 FFD 单元反转前停止编辑"
+
+#: cage_deform/chain.py:3810
+#: cage_deform/chain.py:3811
+msgid "Use one-sided continuation"
+msgstr "使用单侧延续"
+
+#: cage_deform/core.py:10521
+msgid "Use only the outside FFD control points; interior points are hidden and excluded from deformation"
+msgstr "仅使用外部 FFD 控制点；内部点被隐藏且不参与变形"
+
+#: cage_deform/core.py:11041
+msgid "Use signed distance from the cage center"
+msgstr "使用到笼中心的有符号距离"
+
+#: ops/deform_axis.py:16
+msgid "Use the X axis"
+msgstr "使用 X 轴"
+
+#: ops/deform_axis.py:17
+msgid "Use the Y axis"
+msgstr "使用 Y 轴"
+
+#: ops/deform_axis.py:18
+msgid "Use the Z axis"
+msgstr "使用 Z 轴"
+
+#: cage_deform/core.py:10817
+msgid "Use the complete guide and stretch the source along it"
+msgstr "使用完整引导线并沿其拉伸源"
+
+#: cage_deform/chain.py:3858
+msgid "Use the longest input dimension"
+msgstr "使用最长的输入尺寸"
+
+#: cage_deform/core.py:11052
+msgid "Use the longest local dimension"
+msgstr "使用最长的局部尺寸"
+
+#: cage_deform/ui.py:885
+#: ui/panel.py:129
+msgid "User Origin is protected"
+msgstr "用户原点受保护"
+
+#: cage_deform/core.py:10614
+#: cage_deform/core.py:10627
+msgid "V"
+msgstr "V"
+
+#: cage_deform/core.py:10542
+msgid "V Interpolation"
+msgstr "V 插值"
+
+#: cage_deform/ui.py:1332
+msgid "Vertex Group"
+msgstr "顶点组"
+
+#: cage_deform/ui.py:890
+msgid "Viewport Display"
+msgstr "视图显示"
+
+#: preferences.py:188
+msgid "Visible FFD face-controller size as a percentage of its grid face"
+msgstr "可见 FFD 面控制器大小占其网格面的百分比"
+
+#: preferences.py:167
+msgid "Visible FFD line-controller length as a percentage of its control line"
+msgstr "可见 FFD 线控制器长度占其控制线的百分比"
+
+#: cage_deform/core.py:10615
+#: cage_deform/core.py:10628
+msgid "W"
+msgstr "W"
+
+#: cage_deform/core.py:10554
+msgid "W Interpolation"
+msgstr "W 插值"
+
+#: preferences.py:273
+msgid "W: toggle deform wireframe   A: bend axis chooser"
+msgstr "W：切换形变线框   A：弯曲轴选择器"
+
+#: gizmo/__init__.py:27
+msgid "WINDOW"
+msgstr "窗口"
+
+#: preferences.py:225
+msgid "Warn About Low Topology"
+msgstr "低拓扑警告"
+
+#: preferences.py:225
+msgid "Warn when the active deformation axis has too few geometry points"
+msgstr "活动变形轴的几何点过少时警告"
+
+#: cage_deform/core.py:10769
+#: cage_deform/curve_presets.py:13
+msgid "Wave"
+msgstr "波浪"
+
+#: cage_deform/core.py:8028
+#: cage_deform/core.py:8074
+msgid "Weight"
+msgstr "权重"
+
+#: preferences.py:272
+msgid "Wheel: switch Origin mode    X/Y/Z: deform axis"
+msgstr "滚轮：切换原点模式    X/Y/Z：变形轴"
+
+#: cage_deform/animation_io.py:659
+msgid "Where the baked animation is written"
+msgstr "烘焙动画的写入位置"
+
+#: cage_deform/core.py:10678
+msgid "Whether persistent FFD point editing is active in the viewport"
+msgstr "视口中是否启用持久 FFD 点编辑"
+
+#: cage_deform/core.py:10964
+msgid "Whether persistent object-mode guide editing is active"
+msgstr "是否启用持久物体模式引导线编辑"
+
+#: cage_deform/core.py:10684
+msgid "Whether the companion Blender Lattice is being edited"
+msgstr "是否正在编辑配套的 Blender 晶格"
+
+#: cage_deform/chain.py:5568
+#: cage_deform/core.py:11118
+msgid "Whole Chain"
+msgstr "整条链"
+
+#: preferences.py:230
+msgid "Wireframe Preview FPS"
+msgstr "线框预览 FPS"
+
+#: cage_deform/core.py:10858
+#: cage_deform/core.py:11024
+msgid "Within Box"
+msgstr "框内"
+
+#: cage_deform/stage_mirror.py:201
+#: cage_deform/ui.py:1467
+msgid "X"
+msgstr "X"
+
+#: cage_deform/ui.py:239
+msgid "X / Z"
+msgstr "X / Z"
+
+#: cage_deform/chain.py:5616
+msgid "X and Z cross-section offset values"
+msgstr "X 和 Z 横截面偏移值"
+
+#: cage_deform/chain.py:5607
+msgid "X and Z cross-section values"
+msgstr "X 和 Z 横截面值"
+
+#: cage_deform/core.py:11153
+msgid "X and Z offset applied to every affected cage end"
+msgstr "应用于每个受影响控制笼端的 X 和 Z 偏移"
+
+#: cage_deform/core.py:11144
+msgid "X and Z scale applied to every affected cage end"
+msgstr "应用于每个受影响控制笼端的 X 和 Z 缩放"
+
+#: cage_deform/stage_mirror.py:202
+#: cage_deform/ui.py:542
+msgid "Y"
+msgstr "Y"
+
+#: cage_deform/stage_mirror.py:203
+#: cage_deform/ui.py:1468
+msgid "Z"
+msgstr "Z"
+
+#: preferences.py:299
+#: gizmo/z_rotate.py:71
+msgid "Z Rotate"
+msgstr "Z 旋转"
+
+#: cage_deform/chain.py:3759
+msgctxt "Operator"
+msgid "Add Cage Chain"
+msgstr "添加控制笼链"
+
+#: cage_deform/merge.py:1775
+#: cage_deform/ui.py:618
+msgctxt "Operator"
+msgid "Add Cage to Final Source"
+msgstr "将控制笼添加到最终源"
+
+#: cage_deform/curve.py:4180
+msgctxt "Operator"
+msgid "Add Cross Section"
+msgstr "添加横截面"
+
+#: cage_deform/core.py:15064
+msgctxt "Operator"
+msgid "Add Deformation Layer"
+msgstr "添加变形层"
+
+#: cage_deform/core.py:14928
+msgctxt "Operator"
+msgid "Add Simple Deform (Legacy)"
+msgstr "添加简单形变（旧版）"
+
+#: cage_deform/core.py:14769
+msgctxt "Operator"
+msgid "Add Standard Cage"
+msgstr "添加标准控制笼"
+
+#: cage_deform/core.py:14993
+msgctxt "Operator"
+msgid "Add Subdivision Before Deform"
+msgstr "在变形前添加细分"
+
+#: cage_deform/core.py:14994
+msgctxt "Operator"
+msgid "Add a Subdivision Surface modifier before the active deformation stage so bending has enough segments"
+msgstr "在活动变形阶段前添加表面细分修改器，使弯曲有足够分段"
+
+#: cage_deform/merge.py:1776
+msgctxt "Operator"
+msgid "Add a cage that affects only the selected source after the merged object's current modifier stack"
+msgstr "在合并后物体的当前修改器堆栈之后添加一个仅影响所选源的控制笼"
+
+#: cage_deform/core.py:14929
+msgctxt "Operator"
+msgid "Add a traditional Simple Deform modifier"
+msgstr "添加传统的简单形变修改器"
+
+#: cage_deform/core.py:14770
+msgctxt "Operator"
+msgid "Add an independent Standard layered cage"
+msgstr "添加独立的标准分层控制笼"
+
+#: cage_deform/core.py:15065
+msgctxt "Operator"
+msgid "Add one deformation operation to this cage"
+msgstr "为此控制笼添加一个变形操作"
+
+#: cage_deform/ui.py:1344
+msgctxt "Operator"
+msgid "Align & Fit"
+msgstr "对齐并适配"
+
+#: cage_deform/ui.py:1344
+msgctxt "Operator"
+msgid "Align & Fit Chain"
+msgstr "对齐并适配链"
+
+#: cage_deform/stack_presets.py:492
+msgctxt "Operator"
+msgid "Append a saved cage stack preset to the active object"
+msgstr "将保存的控制笼堆栈预设追加到活动物体"
+
+#: cage_deform/stage_apply.py:289
+msgctxt "Operator"
+msgid "Apply All Stages"
+msgstr "应用所有阶段"
+
+#: cage_deform/curve_presets.py:190
+msgctxt "Operator"
+msgid "Apply Curve Preset"
+msgstr "应用曲线预设"
+
+#: cage_deform/stage_apply.py:237
+#: cage_deform/ui.py:907
+msgctxt "Operator"
+msgid "Apply Stage"
+msgstr "应用阶段"
+
+#: cage_deform/stage_apply.py:290
+msgctxt "Operator"
+msgid "Apply every managed cage and traditional Simple Deform stage to the mesh, in stack order, and remove their controls"
+msgstr "按堆栈顺序将每个受管理的控制笼和传统简单形变阶段应用到网格，并移除其控制项"
+
+#: cage_deform/stage_apply.py:238
+msgctxt "Operator"
+msgid "Apply this deformation stage to the mesh and remove its cage controls"
+msgstr "将此变形阶段应用到网格并移除其控制笼控件"
+
+#: cage_deform/ui.py:1432
+msgctxt "Operator"
+msgid "Auto"
+msgstr "自动"
+
+#: cage_deform/animation_io.py:652
+#: cage_deform/ui.py:911
+msgctxt "Operator"
+msgid "Bake Mesh Animation"
+msgstr "烘焙网格动画"
+
+#: cage_deform/animation_io.py:653
+msgctxt "Operator"
+msgid "Bake the evaluated cage animation to shape keys, replace the source in place, or export an Alembic file"
+msgstr "将求值后的控制笼动画烘焙为形态键，原地替换源，或导出 Alembic 文件"
+
+#: cage_deform/chain.py:5560
+msgctxt "Operator"
+msgid "Batch Edit Chain"
+msgstr "批量编辑链"
+
+#: cage_deform/ui.py:361
+msgctxt "Operator"
+msgid "Bind Current Guide"
+msgstr "绑定当前引导线"
+
+#: cage_deform/curve.py:4287
+msgctxt "Operator"
+msgid "Capture the current guide as the zero-deformation reference for relative Curve binding"
+msgstr "将当前引导线捕获为零变形参考，用于相对曲线绑定"
+
+#: cage_deform/ui.py:558
+msgctxt "Operator"
+msgid "Catmull-Clark"
+msgstr "Catmull-Clark"
+
+#: cage_deform/core.py:17878
+msgctxt "Operator"
+msgid "Choose a signed cage axis and one of its two perpendicular bend trends; hold Ctrl to keep all choices visible"
+msgstr "选择带符号的控制笼轴及其两个垂直弯曲趋势之一；按住 Ctrl 保持所有选项可见"
+
+#: cage_deform/core.py:15354
+msgctxt "Operator"
+msgid "Choose one FFD controller type; hold Shift to enable or disable multiple controller types"
+msgstr "选择一个 FFD 控制器类型；按住 Shift 可启用或禁用多个控制器类型"
+
+#: cage_deform/core.py:15406
+msgctxt "Operator"
+msgid "Choose one FFD symmetry axis; hold Shift to enable or disable multiple axes"
+msgstr "选择一个 FFD 对称轴；按住 Shift 可启用或禁用多个轴"
+
+#: cage_deform/merge.py:1699
+msgctxt "Operator"
+msgid "Click a merged part to switch source; double-click blank to return"
+msgstr "点击合并部分以切换源；双击空白处返回"
+
+#: cage_deform/merge.py:1561
+msgctxt "Operator"
+msgid "Create one live deformation mesh from every supported object in the selected collection and its child collections"
+msgstr "从所选集合及其子集合中的每个受支持物体创建一个实时变形网格"
+
+#: cage_deform/merge.py:1530
+msgctxt "Operator"
+msgid "Create one live mesh from selected objects; non-mesh sources are converted to meshes"
+msgstr "从所选物体创建一个实时网格；非网格源会转换为网格"
+
+#: cage_deform/chain.py:3760
+msgctxt "Operator"
+msgid "Create several related deformation cages in one operation"
+msgstr "在一次操作中创建多个相关变形笼"
+
+#: cage_deform/ui.py:1069
+msgctxt "Operator"
+msgid "Curve"
+msgstr "曲线"
+
+#: cage_deform/animation_io.py:605
+msgctxt "Operator"
+msgid "Delete Deformation Keyframes"
+msgstr "删除变形关键帧"
+
+#: cage_deform/ui.py:903
+#: cage_deform/ui.py:1407
+msgctxt "Operator"
+msgid "Delete Keys"
+msgstr "删除关键帧"
+
+#: cage_deform/ui.py:683
+msgctxt "Operator"
+msgid "Delete Layer Keys"
+msgstr "删除层关键帧"
+
+#: cage_deform/stack_presets.py:545
+msgctxt "Operator"
+msgid "Delete Stack Preset"
+msgstr "删除堆栈预设"
+
+#: cage_deform/animation_io.py:606
+msgctxt "Operator"
+msgid "Delete current-frame keys for the active cage or traditional Simple Deform stage"
+msgstr "删除活动变形笼或传统简易形变阶段的当前帧关键帧"
+
+#: cage_deform/stack_presets.py:546
+msgctxt "Operator"
+msgid "Delete one saved cage stack preset"
+msgstr "删除一个已保存的变形笼堆栈预设"
+
+#: cage_deform/curve.py:4266
+msgctxt "Operator"
+msgid "Distribute every cross section evenly along the guide"
+msgstr "沿引导线均匀分布每个横截面"
+
+#: cage_deform/ui.py:1380
+#: cage_deform/ui.py:1501
+msgctxt "Operator"
+msgid "Duplicate"
+msgstr "复制"
+
+#: cage_deform/core.py:17962
+msgctxt "Operator"
+msgid "Duplicate Cage Stage"
+msgstr "复制变形笼阶段"
+
+#: cage_deform/stage_mirror.py:192
+msgctxt "Operator"
+msgid "Duplicate this cage stage mirrored across a target-local axis"
+msgstr "沿目标局部轴镜像复制此变形笼阶段"
+
+#: cage_deform/core.py:17784
+msgctxt "Operator"
+msgid "Edit Cage"
+msgstr "编辑变形笼"
+
+#: cage_deform/curve.py:4118
+msgctxt "Operator"
+msgid "Edit Curve Cage"
+msgstr "编辑曲线变形笼"
+
+#: cage_deform/curve.py:2948
+msgctxt "Operator"
+msgid "Edit Curve Points"
+msgstr "编辑曲线点"
+
+#: cage_deform/curve.py:2949
+msgctxt "Operator"
+msgid "Edit Curve cage points and Bezier handles persistently in Object Mode"
+msgstr "在物体模式下持续编辑曲线变形笼点和贝塞尔控制柄"
+
+#: cage_deform/core.py:15739
+msgctxt "Operator"
+msgid "Edit FFD Points"
+msgstr "编辑 FFD 点"
+
+#: cage_deform/merge.py:1698
+#: cage_deform/merge.py:1731
+msgctxt "Operator"
+msgid "Edit Merged Source"
+msgstr "编辑合并源"
+
+#: cage_deform/chain.py:5561
+msgctxt "Operator"
+msgid "Edit several cages in the active chain as one operation"
+msgstr "将活动链中的多个变形笼作为一次操作编辑"
+
+#: cage_deform/ffd_native_edit.py:524
+msgctxt "Operator"
+msgid "Edit this FFD through Blender's native Lattice Edit Mode"
+msgstr "通过 Blender 原生晶格编辑模式编辑此 FFD"
+
+#: cage_deform/curve.py:4119
+msgctxt "Operator"
+msgid "Enter the managed guide's Curve Edit Mode; use Blender selection, G/R/S, handles, subdivide, extrude, and delete tools"
+msgstr "进入托管引导线的曲线编辑模式；使用 Blender 的选择、G/R/S、控制柄、细分、挤出和删除工具"
+
+#: cage_deform/ui.py:424
+msgctxt "Operator"
+msgid "Equalize"
+msgstr "均衡"
+
+#: cage_deform/curve.py:4265
+msgctxt "Operator"
+msgid "Equalize Cross Sections"
+msgstr "均衡横截面"
+
+#: cage_deform/curve.py:4337
+msgctxt "Operator"
+msgid "Equalize Curve Points"
+msgstr "均衡曲线点"
+
+#: cage_deform/curve_presets.py:148
+msgctxt "Operator"
+msgid "Even Stations by Arc Length"
+msgstr "按弧长均匀分布站位"
+
+#: cage_deform/core.py:15132
+msgctxt "Operator"
+msgid "Expand All"
+msgstr "全部展开"
+
+#: cage_deform/core.py:15133
+msgctxt "Operator"
+msgid "Expand every deformation layer"
+msgstr "展开所有变形层"
+
+#: cage_deform/core.py:15243
+msgctxt "Operator"
+msgid "Fit the active cage, or its entire connected chain, to the geometry entering the deformation"
+msgstr "将活动变形笼（或其整个连接链）适配到进入变形的几何体"
+
+#: cage_deform/core.py:15242
+msgctxt "Operator"
+msgid "Fit to Object"
+msgstr "适配到物体"
+
+#: cage_deform/merge.py:1761
+msgctxt "Operator"
+msgid "Hide the editable source and select its deformation merge"
+msgstr "隐藏可编辑源并选择其变形合并"
+
+#: cage_deform/animation_io.py:560
+msgctxt "Operator"
+msgid "Insert Deformation Keyframes"
+msgstr "插入变形关键帧"
+
+#: ops/key_frame.py:70
+msgctxt "Operator"
+msgid "Insert Keyframe"
+msgstr "插入关键帧"
+
+#: cage_deform/ui.py:901
+#: cage_deform/ui.py:1402
+msgctxt "Operator"
+msgid "Insert Keys"
+msgstr "插入关键帧"
+
+#: cage_deform/curve.py:4181
+msgctxt "Operator"
+msgid "Insert an interpolated cross-section station"
+msgstr "插入插值横截面站位"
+
+#: cage_deform/core.py:15740
+msgctxt "Operator"
+msgid "Keep FFD point editing active; drag blank viewport space to box select and use Esc, right-click, or double-click blank space to exit"
+msgstr "保持 FFD 点编辑活动；拖动视口空白区域进行框选，按 Esc、右键或双击空白处退出"
+
+#: cage_deform/ui.py:677
+msgctxt "Operator"
+msgid "Key Active Layer"
+msgstr "为活动层设关键帧"
+
+#: cage_deform/animation_io.py:561
+msgctxt "Operator"
+msgid "Key the active cage or traditional Simple Deform stage on the current frame"
+msgstr "在当前帧为活动变形笼或传统简易形变阶段设关键帧"
+
+#: ops/key_frame.py:71
+msgctxt "Operator"
+msgid "Key the active strength, limits, and managed Origin controls"
+msgstr "为活动强度、限制和托管的原点控制设关键帧"
+
+#: cage_deform/ui.py:740
+msgctxt "Operator"
+msgid "Load Preset"
+msgstr "加载预设"
+
+#: cage_deform/stack_presets.py:491
+msgctxt "Operator"
+msgid "Load Stack Preset"
+msgstr "加载堆栈预设"
+
+#: ops/stage.py:14
+msgctxt "Operator"
+msgid "Make the previous or next Simple Deform modifier active"
+msgstr "将上一个或下一个简易形变修改器设为活动"
+
+#: cage_deform/core.py:17672
+msgctxt "Operator"
+msgid "Make this cage or traditional Simple Deform stage active"
+msgstr "将此变形笼或传统简易形变阶段设为活动"
+
+#: cage_deform/ui.py:592
+msgctxt "Operator"
+msgid "Merge Collection"
+msgstr "合并集合"
+
+#: cage_deform/merge.py:1560
+msgctxt "Operator"
+msgid "Merge Collection for Deform"
+msgstr "为变形合并集合"
+
+#: cage_deform/merge.py:1529
+#: cage_deform/ui.py:576
+msgctxt "Operator"
+msgid "Merge Selected for Deform"
+msgstr "为变形合并所选"
+
+#: cage_deform/ui.py:1385
+#: cage_deform/ui.py:1506
+msgctxt "Operator"
+msgid "Mirror"
+msgstr "镜像"
+
+#: cage_deform/stage_mirror.py:191
+msgctxt "Operator"
+msgid "Mirror Cage Stage"
+msgstr "镜像变形笼阶段"
+
+#: cage_deform/core.py:15212
+msgctxt "Operator"
+msgid "Move Deformation Layer"
+msgstr "移动变形层"
+
+#: cage_deform/core.py:18032
+msgctxt "Operator"
+msgid "Move Deformation Stage"
+msgstr "移动变形阶段"
+
+#: cage_deform/core.py:18033
+msgctxt "Operator"
+msgid "Move this deformation earlier or later in the modifier stack"
+msgstr "在修改器堆栈中提前或延后此变形"
+
+#: cage_deform/core.py:15213
+msgctxt "Operator"
+msgid "Move this deformation operation earlier or later"
+msgstr "提前或延后此变形操作"
+
+#: cage_deform/ui.py:325
+#: cage_deform/ui.py:414
+msgctxt "Operator"
+msgid "Native Edit"
+msgstr "原生编辑"
+
+#: cage_deform/ffd_native_edit.py:523
+msgctxt "Operator"
+msgid "Native Lattice Edit"
+msgstr "原生晶格编辑"
+
+#: cage_deform/ui.py:318
+#: cage_deform/ui.py:407
+msgctxt "Operator"
+msgid "Object Edit"
+msgstr "物体编辑"
+
+#: cage_deform/chain.py:5828
+msgctxt "Operator"
+msgid "Propagate each preceding cage output frame to the next cage"
+msgstr "将每个前序变形笼的输出帧传播到下一个变形笼"
+
+#: cage_deform/curve.py:4286
+#: cage_deform/ui.py:354
+msgctxt "Operator"
+msgid "Rebind Curve"
+msgstr "重新绑定曲线"
+
+#: cage_deform/chain.py:5827
+msgctxt "Operator"
+msgid "Reconnect Cage Chain"
+msgstr "重新连接变形笼链"
+
+#: cage_deform/ui.py:1155
+msgctxt "Operator"
+msgid "Reconnect Chain"
+msgstr "重新连接链"
+
+#: cage_deform/curve.py:4338
+msgctxt "Operator"
+msgid "Redistribute guide points uniformly by curve arc length"
+msgstr "按曲线弧长均匀重新分布导向点"
+
+#: cage_deform/curve_presets.py:149
+msgctxt "Operator"
+msgid "Redistribute the existing cross-section stations evenly along the guide's arc length"
+msgstr "沿导向弧长均匀重新分布现有横截面站点"
+
+#: cage_deform/curve.py:4236
+msgctxt "Operator"
+msgid "Remove Cross Section"
+msgstr "移除横截面"
+
+#: cage_deform/core.py:15154
+msgctxt "Operator"
+msgid "Remove Deformation Layer"
+msgstr "移除形变层"
+
+#: cage_deform/core.py:18287
+msgctxt "Operator"
+msgid "Remove Deformation Stack"
+msgstr "移除形变堆栈"
+
+#: cage_deform/core.py:18168
+msgctxt "Operator"
+msgid "Remove Deformation Stage"
+msgstr "移除形变阶段"
+
+#: ops/key_frame.py:90
+msgctxt "Operator"
+msgid "Remove Keyframe"
+msgstr "移除关键帧"
+
+#: cage_deform/ui.py:1396
+#: cage_deform/ui.py:1517
+msgctxt "Operator"
+msgid "Remove Stage"
+msgstr "移除阶段"
+
+#: cage_deform/core.py:18288
+msgctxt "Operator"
+msgid "Remove every managed cage and traditional Simple Deform stage"
+msgstr "移除所有托管控制笼和传统简单形变阶段"
+
+#: cage_deform/curve.py:4237
+msgctxt "Operator"
+msgid "Remove the active interior cross-section station"
+msgstr "移除活动的内部横截面站点"
+
+#: ops/key_frame.py:91
+msgctxt "Operator"
+msgid "Remove the current-frame keys created for the active Simple Deform"
+msgstr "移除为活动简单形变创建的当前帧关键帧"
+
+#: cage_deform/core.py:15155
+msgctxt "Operator"
+msgid "Remove this deformation operation from the cage"
+msgstr "从控制笼中移除此形变操作"
+
+#: cage_deform/core.py:18169
+msgctxt "Operator"
+msgid "Remove this deformation stage and any owned controls"
+msgstr "移除此形变阶段及其所属控制项"
+
+#: cage_deform/curve_presets.py:191
+msgctxt "Operator"
+msgid "Replace the managed guide with the selected editable Curve preset"
+msgstr "用选定的可编辑曲线预设替换托管导向"
+
+#: preferences.py:239
+msgctxt "Operator"
+msgid "Report a Bug"
+msgstr "报告错误"
+
+#: cage_deform/curve.py:4315
+msgctxt "Operator"
+msgid "Reset Curve Guide"
+msgstr "重置曲线导向"
+
+#: cage_deform/core.py:17622
+msgctxt "Operator"
+msgid "Reset FFD"
+msgstr "重置 FFD"
+
+#: cage_deform/core.py:15289
+#: cage_deform/ui.py:1473
+msgctxt "Operator"
+msgid "Reset Independent Ends"
+msgstr "重置独立端点"
+
+#: view_state.py:245
+#: view_state.py:260
+msgctxt "Operator"
+msgid "Reset SDH View"
+msgstr "重置 SDH 视图"
+
+#: view_state.py:215
+msgctxt "Operator"
+msgid "Reset Simple Deform View Display"
+msgstr "重置简单形变视图显示"
+
+#: cage_deform/curve.py:4316
+msgctxt "Operator"
+msgid "Reset the guide to a straight path fitted to the cage"
+msgstr "将导向重置为贴合控制笼的直线路径"
+
+#: cage_deform/core.py:15290
+msgctxt "Operator"
+msgid "Restore both cage ends to the fitted cross-section"
+msgstr "将控制笼两端恢复为拟合的横截面"
+
+#: cage_deform/merge.py:1856
+msgctxt "Operator"
+msgid "Restore source visibility and remove the generated merged object"
+msgstr "恢复源可见性并移除生成的合并物体"
+
+#: cage_deform/ui.py:623
+msgctxt "Operator"
+msgid "Return"
+msgstr "返回"
+
+#: cage_deform/core.py:17623
+msgctxt "Operator"
+msgid "Return every FFD corner to the undeformed cage"
+msgstr "将每个 FFD 角点恢复到未形变控制笼"
+
+#: cage_deform/merge.py:1760
+msgctxt "Operator"
+msgid "Return to Merged Object"
+msgstr "返回合并物体"
+
+#: cage_deform/core.py:17767
+#: cage_deform/ui.py:1358
+msgctxt "Operator"
+msgid "Return to Object"
+msgstr "返回物体"
+
+#: cage_deform/ui.py:738
+msgctxt "Operator"
+msgid "Save Preset"
+msgstr "保存预设"
+
+#: cage_deform/stack_presets.py:443
+msgctxt "Operator"
+msgid "Save Stack Preset"
+msgstr "保存堆栈预设"
+
+#: cage_deform/stack_presets.py:444
+msgctxt "Operator"
+msgid "Save every managed cage stage on this object as a reusable preset"
+msgstr "将此物体上的每个托管控制笼阶段保存为可复用预设"
+
+#: cage_deform/ui.py:1364
+msgctxt "Operator"
+msgid "Select Cage"
+msgstr "选择控制笼"
+
+#: cage_deform/core.py:17750
+msgctxt "Operator"
+msgid "Select Cage Controller"
+msgstr "选择控制笼控制器"
+
+#: cage_deform/core.py:15099
+msgctxt "Operator"
+msgid "Select Deformation Layer"
+msgstr "选择形变层"
+
+#: cage_deform/core.py:17671
+msgctxt "Operator"
+msgid "Select Deformation Stage"
+msgstr "选择形变阶段"
+
+#: cage_deform/core.py:15309
+msgctxt "Operator"
+msgid "Select FFD Points"
+msgstr "选择 FFD 点"
+
+#: cage_deform/core.py:15310
+msgctxt "Operator"
+msgid "Select all, none, or invert the dedicated FFD control points"
+msgstr "全选、全不选或反转专用 FFD 控制点"
+
+#: cage_deform/core.py:17785
+msgctxt "Operator"
+msgid "Select the cage controller and activate a transform tool"
+msgstr "选择控制笼控制器并激活变换工具"
+
+#: cage_deform/core.py:17768
+msgctxt "Operator"
+msgid "Select the object controlled by this deformation cage"
+msgstr "选择由此形变控制笼控制的物体"
+
+#: cage_deform/core.py:15100
+msgctxt "Operator"
+msgid "Select this deformation layer without changing its evaluation"
+msgstr "选择此形变层而不更改其求值"
+
+#: cage_deform/merge.py:1732
+msgctxt "Operator"
+msgid "Select this source while keeping the merged result visible"
+msgstr "选择此源并保持合并结果可见"
+
+#: cage_deform/core.py:17877
+msgctxt "Operator"
+msgid "Set Bend Trend"
+msgstr "设置弯曲趋势"
+
+#: cage_deform/core.py:17821
+#: ops/deform_axis.py:10
+msgctxt "Operator"
+msgid "Set Deform Axis"
+msgstr "设置形变轴"
+
+#: cage_deform/core.py:15353
+msgctxt "Operator"
+msgid "Set FFD Selection Mode"
+msgstr "设置 FFD 选择模式"
+
+#: cage_deform/core.py:15405
+msgctxt "Operator"
+msgid "Set FFD Symmetry Axes"
+msgstr "设置 FFD 对称轴"
+
+#: ops/deform_axis.py:11
+msgctxt "Operator"
+msgid "Set the axis used by the traditional Simple Deform modifier"
+msgstr "设置传统简单形变修改器使用的轴"
+
+#: cage_deform/ui.py:1000
+#: cage_deform/ui.py:1077
+msgctxt "Operator"
+msgid "Simple Deform (Legacy)"
+msgstr "简单形变（旧版）"
+
+#: cage_deform/ui.py:552
+msgctxt "Operator"
+msgid "Simple Subdivision"
+msgstr "简单细分"
+
+#: cage_deform/chain.py:4102
+msgctxt "Operator"
+msgid "Split the active cage inside its current range and distribute its deformation across a chained cage stack"
+msgstr "在当前范围内拆分活动控制笼，并将其形变分布到链式控制笼堆栈"
+
+#: cage_deform/chain.py:4101
+#: cage_deform/ui.py:1196
+msgctxt "Operator"
+msgid "Subdivide to Chained Cages"
+msgstr "细分为链式控制笼"
+
+#: ops/stage.py:13
+msgctxt "Operator"
+msgid "Switch Simple Deform Stage"
+msgstr "切换简单形变阶段"
+
+#: cage_deform/core.py:17822
+msgctxt "Operator"
+msgid "Target axis used when aligning and fitting the cage"
+msgstr "对齐和拟合控制笼时使用的目标轴"
+
+#: cage_deform/core.py:15179
+msgctxt "Operator"
+msgid "Temporarily bypass or restore this deformation without losing its settings"
+msgstr "临时绕过或恢复此形变而不丢失其设置"
+
+#: cage_deform/core.py:15178
+msgctxt "Operator"
+msgid "Toggle Deformation Layer"
+msgstr "切换形变层"
+
+#: view_state.py:190
+msgctxt "Operator"
+msgid "Toggle Simple Deform View Display"
+msgstr "切换简单形变视图显示"
+
+#: cage_deform/merge.py:1855
+msgctxt "Operator"
+msgid "Unmerge and Restore Sources"
+msgstr "取消合并并恢复源"
+
+#: ops/deform_axis.py:44
+msgctxt "Operator"
+msgid "deform_axis operator"
+msgstr "deform_axis 操作符"
