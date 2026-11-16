@@ -1,0 +1,588 @@
+# perfect-chinese: 1
+# id: matbatchtools
+# kind: addon
+# module: bl_ext.blender_org.matbatchtools
+# name: Material Batch Tools
+# name_zh: 材质批量工具
+# translator: KeshiMiao
+# category: Material
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:53
+msgid "32-bit floating point color per channel - recommended for baked HDR light"
+msgstr "每通道 32 位浮点颜色 - 推荐用于烘焙的 HDR 光照"
+
+#: __init__.py:53
+msgid "8-bit integer color per channel - the most common format for game engines"
+msgstr "每通道 8 位整数颜色 - 游戏引擎中最常见的格式"
+
+#: __init__.py:75
+msgid "Additive + Color"
+msgstr "叠加 + 颜色"
+
+#: __init__.py:74
+msgid "Additive + Color + Texture"
+msgstr "叠加 + 颜色 + 纹理"
+
+#: __init__.py:89
+msgid "Affects whether backface culling is enabled for light probe volume capture. Only supported in Blender 4.2 or higher"
+msgstr "影响光照探针体积捕捉是否启用背面剔除。仅支持 Blender 4.2 或更高版本"
+
+#: __init__.py:87
+msgid "Affects whether backface culling is enabled for shadows. Only supported in Blender 4.2 or higher"
+msgstr "影响阴影是否启用背面剔除。仅支持 Blender 4.2 或更高版本"
+
+#: __init__.py:85
+msgid "Affects whether backface culling is enabled for the active camera. In Blender 4.1 or lower, this setting controls the legacy 'Backface Culling' setting"
+msgstr "影响活动相机是否启用背面剔除。在 Blender 4.1 或更低版本中，此设置控制旧版「背面剔除」设置"
+
+#: __init__.py:55
+msgid "Alpha Blend"
+msgstr "Alpha 混合"
+
+#: __init__.py:55
+msgid "Alpha Clip"
+msgstr "Alpha 裁剪"
+
+#: __init__.py:73
+msgid "Alpha Clip + Color + Texture"
+msgstr "Alpha 裁剪 + 颜色 + 纹理"
+
+#: __init__.py:96
+msgid "Animated"
+msgstr "已动画"
+
+#: __init__.py:83
+msgid "Any texture containing this string in its filename will NOT be assigned in any image texture when applying a material template (optional - leave blank if unneeded)"
+msgstr "应用材质模板时，文件名包含此字符串的任何纹理都不会被赋给任何图像纹理节点（可选 - 不需要可留空）"
+
+#: __init__.py:2786
+msgid "Backface Culling"
+msgstr "背面剔除"
+
+#: __init__.py:2715
+msgid "Bake Target Node"
+msgstr "烘焙目标节点"
+
+#: __init__.py:6
+msgid "Batch tools for quickly modifying, copying, and pasting nodes on all materials in selected objects"
+msgstr "用于快速修改、复制和粘贴所选物体中所有材质节点的批量工具"
+
+#: __init__.py:54
+msgid "Blend Mode"
+msgstr "混合模式"
+
+#: __init__.py:71
+msgid "Blends vertex color onto texture, if one exists"
+msgstr "将顶点色混合到纹理上（如果存在）"
+
+#: __init__.py:53
+msgid "Byte Color"
+msgstr "字节颜色"
+
+#: __init__.py:85
+msgid "Camera"
+msgstr "相机"
+
+#: __init__.py:58
+msgid "Clip Threshold"
+msgstr "裁剪阈值"
+
+#: __init__.py:38
+#: __init__.py:53
+msgid "Color"
+msgstr "颜色"
+
+#: __init__.py:38
+msgid "Color to use for the Bake Target Node. This is purely cosmetic - it just makes the node easier to find"
+msgstr "烘焙目标节点使用的颜色。纯属外观 - 只是让节点更容易找到"
+
+#: __init__.py:74
+#: __init__.py:75
+msgid "Combines transparency and emission for an additive effect"
+msgstr "结合透明与自发光以实现叠加效果"
+
+#: __init__.py:60
+msgid "Copied Node"
+msgstr "已复制的节点"
+
+#: __init__.py:62
+msgid "Copied Node Type"
+msgstr "已复制节点类型"
+
+#: __init__.py:68
+msgid "Copied Texture Name"
+msgstr "已复制纹理名称"
+
+#: __init__.py:52
+msgid "Data Type"
+msgstr "数据类型"
+
+#: __init__.py:50
+msgid "Domain"
+msgstr "域"
+
+#: __init__.py:67
+msgid "Emission"
+msgstr "自发光"
+
+#: __init__.py:95
+msgid "Emissive"
+msgstr "自发光"
+
+#: __init__.py:72
+msgid "Emissive + Color"
+msgstr "自发光 + 颜色"
+
+#: __init__.py:71
+msgid "Emissive + Color + Texture"
+msgstr "自发光 + 颜色 + 纹理"
+
+#: __init__.py:78
+msgid "Emissive but with an HDR lightmap applied for baked lighting. Your HDR's UV map must be named 'lightmap', and your HDR's filename must contain either 'light_', '.hdr' or '.exr' to be detected automatically"
+msgstr "自发光，但应用 HDR 光照贴图用于烘焙光照。HDR 的 UV 贴图必须命名为 'lightmap'，且 HDR 的文件名必须包含 'light_'、'.hdr' 或 '.exr' 才能被自动检测"
+
+#: __init__.py:36
+msgid "Enable"
+msgstr "启用"
+
+#: __init__.py:36
+msgid "Enable or disable the optional color decoration for the Bake Target Node"
+msgstr "启用或禁用烘焙目标节点的可选颜色标记"
+
+#: __init__.py:51
+msgid "Face Corner"
+msgstr "面角"
+
+#: __init__.py:42
+#: __init__.py:56
+msgid "Filter"
+msgstr "过滤"
+
+#: __init__.py:67
+msgid "Fullbright / shadeless shader - not affected by scene lighting"
+msgstr "全亮/无光照着色器 - 不受场景光照影响"
+
+#: __init__.py:78
+msgid "HDR Lightmap"
+msgstr "HDR 光照贴图"
+
+#: __init__.py:79
+msgid "HDR Lightmap with Alpha"
+msgstr "带 Alpha 的 HDR 光照贴图"
+
+#: __init__.py:91
+msgid "If enabled, any isolated meshes are moved to a separate collection for easier finding"
+msgstr "如果启用，任何被隔离的网格会被移至单独的集合以便查找"
+
+#: __init__.py:64
+msgid "If specified, the Unify button will only affect any nodes that have this custom label. Case sensitive! Leave blank if you want to alter ALL nodes of the same type as the template node"
+msgstr "如果指定，统一按钮只会影响具有此自定义标签的节点。区分大小写！如果希望更改与模板节点类型相同的所有节点，请留空"
+
+#: __init__.py:72
+msgid "Ignores image textures completely"
+msgstr "完全忽略图像纹理"
+
+#: __init__.py:2871
+msgid "Isolate"
+msgstr "隔离"
+
+#: __init__.py:91
+msgid "Isolate to Collection"
+msgstr "隔离到集合"
+
+#: __init__.py:64
+msgid "Label Filter"
+msgstr "标签过滤"
+
+#: __init__.py:89
+msgid "Light Probe Volume"
+msgstr "光照探针体积"
+
+#: __init__.py:6
+msgid "Material"
+msgstr "材质"
+
+#: __init__.py:6
+#: __init__.py:2658
+msgid "Material Batch Tools"
+msgstr "材质批量工具"
+
+#: __init__.py:2733
+msgid "Material Templates"
+msgstr "材质模板"
+
+#: __init__.py:95
+msgid "Material uses Emission shader or Principled BSDF's Emission slot"
+msgstr "材质使用自发光着色器或原理化 BSDF 的自发光插槽"
+
+#: __init__.py:94
+msgid "Material uses alpha transparency, via Transparent BSDF or Principled BSDF's alpha slot."
+msgstr "材质通过透明 BSDF 或原理化 BSDF 的 Alpha 插槽使用 Alpha 透明。"
+
+#: __init__.py:96
+msgid "Material uses an Image Sequence node, or contains animation data from keyframes and/or drivers"
+msgstr "材质使用图像序列节点，或包含来自关键帧和/或驱动器的动画数据"
+
+#: __init__.py:80
+msgid "Mirror UV"
+msgstr "镜像 UV"
+
+#: __init__.py:80
+msgid "Mirroring / ping pong effect applied to any UV Maps, on both X and Y axis"
+msgstr "对任何 UV 贴图在 X 和 Y 轴上应用镜像/乒乓效果"
+
+#: __init__.py:46
+msgid "Name"
+msgstr "名称"
+
+#: __init__.py:40
+msgid "Name of the UV map to set in the UV Map node"
+msgstr "要在 UV 贴图节点中设置的 UV 贴图名称"
+
+#: __init__.py:46
+msgid "Name to set in the selected Vertex Color slot"
+msgstr "要在所选顶点色插槽中设置的名称"
+
+#: __init__.py:57
+msgid "No filter. All materials will be modified"
+msgstr "不过滤。所有材质都将被修改"
+
+#: __init__.py:55
+msgid "No transparency. Any Principled BSDF 'Alpha' input connection will be removed (value reset to 1.0), and any Mix Shader + Transparent BSDF setup will be collapsed into a direct shader connection"
+msgstr "无透明。将移除任何原理化 BSDF「Alpha」输入的连接（值重置为 1.0），并且任何混合着色器 + 透明 BSDF 设置都将折叠为直接的着色器连接"
+
+#: __init__.py:2696
+msgid "Node Unify"
+msgstr "节点统一"
+
+#: __init__.py:2677
+msgid "Nodes"
+msgstr "节点"
+
+#: __init__.py:57
+msgid "None"
+msgstr "无"
+
+#: __init__.py:51
+msgid "One color per face corner, allowing hard color splits between faces"
+msgstr "每个面角一种颜色，允许面之间出现硬颜色分割"
+
+#: __init__.py:51
+msgid "One color per vertex"
+msgstr "每个顶点一种颜色"
+
+#: __init__.py:56
+msgid "Only materials that satisfy this filter will be modified"
+msgstr "只有满足此过滤条件的材质才会被修改"
+
+#: __init__.py:42
+msgid "Only the Image Texture nodes that are set to this file format will be modified"
+msgstr "只有设置为该文件格式的图像纹理节点才会被修改"
+
+#: __init__.py:55
+msgid "Opaque"
+msgstr "不透明"
+
+#: __init__.py:55
+msgid "Pixels will be anywhere between 0 to 100 percent transparent"
+msgstr "像素将处于 0% 到 100% 透明之间的任意值"
+
+#: __init__.py:55
+msgid "Pixels will be either 100 percent transparent or 100 percent opaque"
+msgstr "像素要么 100% 透明，要么 100% 不透明"
+
+#: __init__.py:77
+msgid "Principled + Color"
+msgstr "原理化 + 颜色"
+
+#: __init__.py:76
+msgid "Principled + Texture"
+msgstr "原理化 + 纹理"
+
+#: __init__.py:67
+msgid "Principled BSDF"
+msgstr "原理化 BSDF"
+
+#: __init__.py:57
+msgid "Principled BSDF Alpha"
+msgstr "原理化 BSDF Alpha"
+
+#: __init__.py:76
+msgid "Principled shading, with texture"
+msgstr "原理化着色，使用纹理"
+
+#: __init__.py:77
+msgid "Principled shading, with vertex color"
+msgstr "原理化着色，使用顶点色"
+
+#: __init__.py:81
+msgid "Removes the mirror / ping pong effect from any UV Maps, on both X and Y axis"
+msgstr "移除任何 UV 贴图在 X 和 Y 轴上的镜像/乒乓效果"
+
+#: __init__.py:79
+msgid "Same as the HDR Lightmap template, but with transparency, using the diffuse/albedo texture's alpha channel"
+msgstr "与 HDR 光照贴图模板相同，但使用漫射/反照率纹理的 Alpha 通道实现透明"
+
+#: __init__.py:2698
+msgid "Saved Node:"
+msgstr "已保存节点："
+
+#: __init__.py:66
+msgid "Shader"
+msgstr "着色器"
+
+#: __init__.py:87
+msgid "Shadow"
+msgstr "阴影"
+
+#: __init__.py:83
+msgid "Skip Texture"
+msgstr "跳过纹理"
+
+#: __init__.py:48
+msgid "Slot"
+msgstr "槽位"
+
+#: __init__.py:67
+msgid "Standard shader in Blender, affected by scene lighting"
+msgstr "Blender 中的标准着色器，受场景光照影响"
+
+#: __init__.py:70
+msgid "Template"
+msgstr "模板"
+
+#: __init__.py:54
+msgid "The Blend Mode and Shadow Mode to set in the material(s). If set to Alpha Blend, Shadow Mode will be set to Alpha Clip"
+msgstr "要在材质中设置的混合模式和阴影模式。如果设为 Alpha 混合，阴影模式将设为 Alpha 裁剪"
+
+#: __init__.py:44
+msgid "The UV Slot that will be modified by the buttons below"
+msgstr "将由下方按钮修改的 UV 槽位"
+
+#: __init__.py:48
+msgid "The Vertex Color slot (color attribute layer) that will be modified by the buttons below. Slot 1 is the first layer in the mesh"
+msgstr "将由下方按钮修改的顶点颜色槽位（颜色属性层）。槽位 1 是网格中的第一层"
+
+#: __init__.py:52
+msgid "The data type that the 'Convert Vertex Color Slot' button will convert the selected slot to"
+msgstr "“转换顶点颜色槽位”按钮将所选槽位转换成的数据类型"
+
+#: __init__.py:50
+msgid "The domain that the 'Convert Vertex Color Slot' button will convert the selected slot to"
+msgstr "“转换顶点颜色槽位”按钮将所选槽位转换到的域"
+
+#: __init__.py:45
+msgid "The first UV slot in the object mesh(es)"
+msgstr "物体网格中的第一个 UV 槽位"
+
+#: __init__.py:68
+msgid "The name of the active image texture copied from a selected face"
+msgstr "从所选面复制的活动图像纹理名称"
+
+#: __init__.py:60
+msgid "The name of the node from which settings were copied"
+msgstr "从中复制设置的节点名称"
+
+#: __init__.py:70
+msgid "The node graph template to apply to all materials in all selected objects"
+msgstr "要应用到所有选中物体中所有材质的节点图模板"
+
+#: __init__.py:45
+msgid "The second UV slot in the object mesh(es)"
+msgstr "物体网格中的第二个 UV 槽位"
+
+#: __init__.py:66
+msgid "The shader to switch in all materials in all selected objects to. For example, if you select Principled, any Emission nodes will be switched to Principled"
+msgstr "要将所有选中物体中所有材质切换到的着色器。例如，选择 Principled 后，任何自发光节点都将切换为 Principled"
+
+#: __init__.py:93
+msgid "The trait to look for in materials, in order to isolate their assigned faces into a separate object"
+msgstr "要在材质中查找的特征，以便将分配给它们的面隔离到单独物体中"
+
+#: __init__.py:62
+msgid "The type of the node from which settings were copied"
+msgstr "从中复制设置的节点类型"
+
+#: __init__.py:57
+msgid "There must be a Principled node in the material, and its \"Alpha\" input is either connected to another node or is less than 1.000"
+msgstr "材质中必须有一个 Principled 节点，并且其“Alpha”输入要么连接到另一个节点，要么小于 1.000"
+
+#: __init__.py:57
+msgid "There must be at least one Transparent BSDF in the material"
+msgstr "材质中必须至少有一个透明 BSDF"
+
+#: __init__.py:58
+msgid "This setting is used only by Alpha Clip"
+msgstr "此设置仅由 Alpha 裁剪使用"
+
+#: __init__.py:93
+msgid "Trait"
+msgstr "特征"
+
+#: __init__.py:2769
+msgid "Transparency"
+msgstr "透明度"
+
+#: __init__.py:2750
+msgid "Transparency & Backface Culling"
+msgstr "透明度与背面剔除"
+
+#: __init__.py:73
+msgid "Transparency via alpha clip, and emission"
+msgstr "通过 Alpha 裁剪实现透明，以及自发光"
+
+#: __init__.py:94
+msgid "Transparent"
+msgstr "透明"
+
+#: __init__.py:57
+msgid "Transparent BSDF"
+msgstr "透明 BSDF"
+
+#: __init__.py:2803
+msgid "UV & Vertex Colors"
+msgstr "UV 与顶点颜色"
+
+#: __init__.py:40
+msgid "UV Map"
+msgstr "UV 贴图"
+
+#: __init__.py:44
+msgid "UV Slot"
+msgstr "UV 槽位"
+
+#: __init__.py:45
+msgid "UV Slot 1"
+msgstr "UV 槽位 1"
+
+#: __init__.py:45
+msgid "UV Slot 2"
+msgstr "UV 槽位 2"
+
+#: __init__.py:81
+msgid "Unmirror UV"
+msgstr "取消镜像 UV"
+
+#: __init__.py:51
+msgid "Vertex"
+msgstr "顶点"
+
+#: __init__.py:2846
+msgid "Vertex Colors"
+msgstr "顶点颜色"
+
+#: __init__.py:1230
+msgctxt "Operator"
+msgid "Apply Material Template"
+msgstr "应用材质模板"
+
+#: __init__.py:640
+msgctxt "Operator"
+msgid "Assign Name to Color Nodes"
+msgstr "为颜色节点指定名称"
+
+#: __init__.py:470
+msgctxt "Operator"
+msgid "Assign UV Map Node"
+msgstr "指定 UV 贴图节点"
+
+#: __init__.py:773
+msgctxt "Operator"
+msgid "Convert Vertex Color Slot"
+msgstr "转换顶点颜色槽位"
+
+#: __init__.py:293
+msgctxt "Operator"
+msgid "Copy"
+msgstr "复制"
+
+#: __init__.py:2170
+msgctxt "Operator"
+msgid "Copy Active Face Texture"
+msgstr "复制活动面纹理"
+
+#: __init__.py:2282
+msgctxt "Operator"
+msgid "Copy Diffuse Texture to Material Name"
+msgstr "将漫射纹理名称复制到材质名称"
+
+#: __init__.py:717
+msgctxt "Operator"
+msgid "Create Vertex Color Layer(s)"
+msgstr "创建顶点颜色层"
+
+#: __init__.py:432
+msgctxt "Operator"
+msgid "Delete"
+msgstr "删除"
+
+#: __init__.py:2110
+msgctxt "Operator"
+msgid "Find Active Face Texture"
+msgstr "查找活动面纹理"
+
+#: __init__.py:2376
+msgctxt "Operator"
+msgid "Isolate by Material Trait"
+msgstr "按材质特征隔离"
+
+#: __init__.py:553
+msgctxt "Operator"
+msgid "Overwrite UV Slot Name"
+msgstr "覆盖 UV 槽位名称"
+
+#: __init__.py:337
+msgctxt "Operator"
+msgid "Paste"
+msgstr "粘贴"
+
+#: __init__.py:2224
+msgctxt "Operator"
+msgid "Paste Active Face Texture"
+msgstr "粘贴活动面纹理"
+
+#: __init__.py:2570
+msgctxt "Operator"
+msgid "Rename All Textures by Hash"
+msgstr "按哈希重命名所有纹理"
+
+#: __init__.py:673
+msgctxt "Operator"
+msgid "Rename Vertex Color Slot"
+msgstr "重命名顶点颜色槽位"
+
+#: __init__.py:835
+msgctxt "Operator"
+msgid "Set Blend Mode"
+msgstr "设置混合模式"
+
+#: __init__.py:607
+msgctxt "Operator"
+msgid "Set UV Slot as Active"
+msgstr "将 UV 槽位设为活动"
+
+#: __init__.py:928
+msgctxt "Operator"
+msgid "Set as Template Node"
+msgstr "设为模板节点"
+
+#: __init__.py:1146
+msgctxt "Operator"
+msgid "Switch Shader"
+msgstr "切换着色器"
+
+#: __init__.py:969
+msgctxt "Operator"
+msgid "Unify Node Settings"
+msgstr "统一节点设置"
+
+#: __init__.py:2533
+msgctxt "Operator"
+msgid "Update Backface Culling"
+msgstr "更新背面剔除"

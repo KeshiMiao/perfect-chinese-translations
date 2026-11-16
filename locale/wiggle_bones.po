@@ -1,0 +1,538 @@
+# perfect-chinese: 1
+# id: wiggle_bones
+# kind: addon
+# module: bl_ext.blender_org.wiggle_bones
+# name: Wiggle Bones
+# name_zh: 摆动骨骼
+# translator: KeshiMiao
+# category: Physics
+# supported_versions: >=4.5.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: operators.py:222
+msgid "All objects in current scene. Also cleans up scene properties."
+msgstr "清理当前场景中的所有物体，同时清理场景属性。"
+
+#: wiggle_ui.py:5
+msgid "Animation"
+msgstr "动画"
+
+#: wiggle_ui.py:37
+msgid "Armature muted."
+msgstr "骨架已静音。"
+
+#: properties.py:151
+msgid "Auto Sync Bones"
+msgstr "自动同步骨骼"
+
+#: properties.py:23
+#: properties.py:98
+msgid "Backwards"
+msgstr "向后"
+
+#: wiggle_ui.py:288
+msgid "Bake Wiggle"
+msgstr "烘焙摇摆"
+
+#: properties.py:136
+msgid "Bake wiggle into current action, instead of creating a new one"
+msgstr "将摇摆烘焙到当前动作，而不是创建新动作"
+
+#: properties.py:189
+msgid "Bone Head"
+msgstr "骨骼头部"
+
+#: properties.py:209
+msgid "Bone Head Mute"
+msgstr "骨骼头部静音"
+
+#: properties.py:199
+msgid "Bone Tail"
+msgstr "骨骼尾部"
+
+#: properties.py:217
+msgid "Bone Tail Mute"
+msgstr "骨骼尾部静音"
+
+#: properties.py:288
+#: properties.py:359
+msgid "Bone affects its parent creating a physics chain"
+msgstr "骨骼影响其父级，形成物理链"
+
+#: wiggle_ui.py:47
+msgid "Bone muted."
+msgstr "骨骼已静音。"
+
+#: properties.py:244
+#: properties.py:315
+msgid "Bone stretchiness factor, 0 to 1 range"
+msgstr "骨骼伸缩系数，范围 0 到 1"
+
+#: properties.py:411
+#: properties.py:475
+msgid "Bounce"
+msgstr "弹跳"
+
+#: properties.py:411
+#: properties.py:475
+msgid "Bounciness when colliding"
+msgstr "碰撞时的弹跳度"
+
+#: properties.py:288
+#: properties.py:359
+msgid "Chain"
+msgstr "链"
+
+#: operators.py:228
+msgid "Clean"
+msgstr "清理"
+
+#: operators.py:228
+msgid "Cleans up leftover properties set by the legacy Wiggle 2."
+msgstr "清理旧版 Wiggle 2 遗留的属性。"
+
+#: properties.py:370
+#: properties.py:434
+msgid "Collection"
+msgstr "集合"
+
+#: properties.py:384
+#: properties.py:448
+msgid "Collection to collide with"
+msgstr "用于碰撞的集合"
+
+#: properties.py:370
+#: properties.py:434
+msgid "Collide with a selected mesh"
+msgstr "与选中的网格碰撞"
+
+#: properties.py:370
+#: properties.py:434
+msgid "Collide with all meshes in selected collection"
+msgstr "与所选集合中的所有网格碰撞"
+
+#: properties.py:384
+#: properties.py:448
+msgid "Collider Collection"
+msgstr "碰撞体集合"
+
+#: properties.py:375
+#: properties.py:439
+msgid "Collider Object"
+msgstr "碰撞体物体"
+
+#: properties.py:368
+#: properties.py:432
+msgid "Collider Type"
+msgstr "碰撞体类型"
+
+#: properties.py:117
+msgid "Collision Threshold"
+msgstr "碰撞阈值"
+
+#: properties.py:392
+#: properties.py:456
+msgid "Collision radius"
+msgstr "碰撞半径"
+
+#: wiggle_ui.py:105
+#: wiggle_ui.py:194
+msgid "Collisions"
+msgstr "碰撞"
+
+#: properties.py:131
+msgid "Constraint solver interations for chain physics"
+msgstr "链物理的约束求解器迭代次数"
+
+#: operators.py:234
+msgid "Copies the legacy properties to the new Wiggle addon structure before deleting them."
+msgstr "删除前将旧版属性复制到新的 Wiggle 插件结构中。"
+
+#: properties.py:137
+msgid "Current Action to NLA"
+msgstr "当前动作到 NLA"
+
+#: properties.py:143
+msgid "Currently syncing bones"
+msgstr "正在同步骨骼"
+
+#: properties.py:254
+#: properties.py:325
+msgid "Damp"
+msgstr "阻尼"
+
+#: properties.py:254
+#: properties.py:325
+msgid "Dampening coefficient, can be greater than 1"
+msgstr "阻尼系数，可以大于 1"
+
+#: properties.py:122
+msgid "Dot Threshold"
+msgstr "点积阈值"
+
+#: properties.py:25
+#: properties.py:100
+msgid "Dual"
+msgstr "双重"
+
+#: properties.py:25
+#: properties.py:100
+msgid "Dual solver for more accurate simulations. May be slower"
+msgstr "双重求解器可进行更精确的模拟。可能较慢"
+
+#: properties.py:62
+msgid "Enable Armature"
+msgstr "启用骨架"
+
+#: properties.py:172
+msgid "Enable Bone"
+msgstr "启用骨骼"
+
+#: properties.py:107
+msgid "Enable Full Bone Collision"
+msgstr "启用完整骨骼碰撞"
+
+#: wiggle_ui.py:247
+msgid "Enable Pin on Armature"
+msgstr "启用骨架上的固定"
+
+#: properties.py:86
+msgid "Enable Pinning"
+msgstr "启用固定"
+
+#: properties.py:159
+msgid "Enable Scene"
+msgstr "启用场景"
+
+#: properties.py:107
+msgid "Enable collision detection for the entire wiggle bone in this scene"
+msgstr "为此场景中的整个摇摆骨骼启用碰撞检测"
+
+#: properties.py:62
+msgid "Enable wiggle on this armature"
+msgstr "在此骨架上启用摇摆"
+
+#: properties.py:172
+msgid "Enable wiggle on this bone"
+msgstr "在此骨骼上启用摇摆"
+
+#: properties.py:189
+msgid "Enable wiggle on this bone's head. Excluded from Auto Sync"
+msgstr "在此骨骼头部启用摇摆。不参与自动同步"
+
+#: properties.py:199
+msgid "Enable wiggle on this bone's tail. Excluded from Auto Sync"
+msgstr "在此骨骼尾部启用摇摆。不参与自动同步"
+
+#: properties.py:159
+msgid "Enable wiggle on this scene"
+msgstr "在此场景中启用摇摆"
+
+#: properties.py:22
+msgid "Forward"
+msgstr "向前"
+
+#: properties.py:134
+msgid "Frames to run simulation before bake"
+msgstr "烘焙前运行模拟的帧数"
+
+#: properties.py:79
+msgid "Freeze Wiggle"
+msgstr "冻结摇摆"
+
+#: properties.py:401
+#: properties.py:465
+msgid "Friction"
+msgstr "摩擦"
+
+#: properties.py:401
+#: properties.py:465
+msgid "Friction when colliding"
+msgstr "碰撞时的摩擦"
+
+#: wiggle_ui.py:308
+msgid "Full Bone Collision Settings"
+msgstr "完整骨骼碰撞设置"
+
+#: wiggle_ui.py:261
+msgid "Global Wiggle Utilities"
+msgstr "全局摇摆工具"
+
+#: properties.py:263
+#: properties.py:334
+msgid "Gravity"
+msgstr "重力"
+
+#: properties.py:98
+msgid "Inverted solver for more stable pinning"
+msgstr "用于更稳定固定的反向求解器"
+
+#: properties.py:23
+msgid "Inverted solver for pinning"
+msgstr "用于固定的反向求解器"
+
+#: properties.py:132
+msgid "Loop Physics"
+msgstr "循环物理"
+
+#: properties.py:421
+#: properties.py:485
+msgid "Margin beyond radius to keep item stuck to surface"
+msgstr "超出半径的边距，用于使物体保持贴合表面"
+
+#: properties.py:226
+#: properties.py:297
+msgid "Mass"
+msgstr "质量"
+
+#: properties.py:226
+#: properties.py:297
+msgid "Mass of bone"
+msgstr "骨骼质量"
+
+#: properties.py:32
+msgid "Matrix"
+msgstr "矩阵"
+
+#: properties.py:375
+#: properties.py:439
+msgid "Mesh object to collide with"
+msgstr "用于碰撞的网格物体"
+
+#: properties.py:117
+msgid "Minimum movement distance to consider a collision"
+msgstr "判定碰撞的最小移动距离"
+
+#: properties.py:24
+#: properties.py:99
+msgid "Mixed"
+msgstr "混合"
+
+#: properties.py:24
+#: properties.py:99
+msgid "Mixed solver for a balance between stability and accuracy"
+msgstr "兼顾稳定性与准确性的混合求解器"
+
+#: properties.py:137
+msgid "Move existing animation on the armature into an NLA strip"
+msgstr "将骨架上的现有动画移入 NLA 片段"
+
+#: properties.py:263
+#: properties.py:334
+msgid "Multiplier for scene gravity"
+msgstr "场景重力乘数"
+
+#: properties.py:280
+#: properties.py:351
+msgid "Multiplier for wind forces"
+msgstr "风力乘数"
+
+#: properties.py:70
+msgid "Mute Armature"
+msgstr "静音骨架"
+
+#: properties.py:180
+msgid "Mute Bone"
+msgstr "静音骨骼"
+
+#: properties.py:180
+msgid "Mute wiggle for this bone. Excluded from Auto Sync"
+msgstr "静音此骨骼的摇摆。不参与自动同步"
+
+#: properties.py:70
+msgid "Mute wiggle on this armature."
+msgstr "静音此骨架上的摇摆。"
+
+#: properties.py:209
+msgid "Mute wiggle on this bone's head. Excluded from Auto Sync"
+msgstr "静音此骨骼头部的摇摆。不参与自动同步"
+
+#: properties.py:217
+msgid "Mute wiggle on this bone's tail. Excluded from Auto Sync"
+msgstr "静音此骨骼尾部的摇摆。不参与自动同步"
+
+#: properties.py:112
+msgid "Number of interpolation steps for collision detection along the bone"
+msgstr "沿骨骼进行碰撞检测的插值步数"
+
+#: properties.py:370
+#: properties.py:434
+msgid "Object"
+msgstr "物体"
+
+#: properties.py:495
+msgid "Object to pin the bone to. Excluded from Auto Sync"
+msgstr "用于固定骨骼的物体。不参与自动同步"
+
+#: operators.py:223
+msgid "Only selected objects (all bones in selected armatures)."
+msgstr "仅选中的物体（选中骨架中的所有骨骼）。"
+
+#: properties.py:136
+msgid "Overwrite Current Action"
+msgstr "覆盖当前动作"
+
+#: properties.py:132
+msgid "Physics continues as timeline loops"
+msgstr "时间线循环时物理继续运算"
+
+#: properties.py:495
+#: wiggle_ui.py:232
+msgid "Pin Target"
+msgstr "固定目标"
+
+#: properties.py:134
+msgid "Preroll"
+msgstr "预滚"
+
+#: properties.py:131
+msgid "Quality"
+msgstr "质量"
+
+#: properties.py:392
+#: properties.py:456
+msgid "Radius"
+msgstr "半径"
+
+#: operators.py:222
+msgid "Scene"
+msgstr "场景"
+
+#: wiggle_ui.py:22
+msgid "Scene muted."
+msgstr "场景已静音。"
+
+#: operators.py:219
+msgid "Scope"
+msgstr "范围"
+
+#: wiggle_ui.py:26
+msgid "Select armature."
+msgstr "选择骨架。"
+
+#: wiggle_ui.py:41
+msgid "Select pose bone."
+msgstr "选择姿态骨骼。"
+
+#: operators.py:223
+msgid "Selected"
+msgstr "已选中"
+
+#: properties.py:122
+msgid "Sensitivity threshold for the dot product check during collisions"
+msgstr "碰撞时点积检查的灵敏度阈值"
+
+#: properties.py:18
+#: properties.py:94
+msgid "Solver Type"
+msgstr "求解器类型"
+
+#: properties.py:18
+#: properties.py:94
+msgid "Solver type for the physics simulation"
+msgstr "物理模拟的求解器类型"
+
+#: properties.py:235
+#: properties.py:306
+msgid "Spring stiffness coefficient, can be large numbers"
+msgstr "弹簧刚度系数，可为较大数值"
+
+#: properties.py:22
+msgid "Standard solver"
+msgstr "标准求解器"
+
+#: properties.py:112
+msgid "Steps"
+msgstr "步数"
+
+#: properties.py:421
+#: properties.py:485
+msgid "Sticky"
+msgstr "粘滞"
+
+#: properties.py:235
+#: properties.py:306
+msgid "Stiff"
+msgstr "刚度"
+
+#: properties.py:244
+#: properties.py:315
+msgid "Stretch"
+msgstr "拉伸"
+
+#: properties.py:143
+msgid "Syncing"
+msgstr "同步中"
+
+#: operators.py:234
+msgid "Transfer to new Wiggle"
+msgstr "转移到新的 Wiggle"
+
+#: properties.py:151
+msgid "When changing bone settings, apply changes to all selected bones."
+msgstr "更改骨骼设置时，将更改应用到所有选中的骨骼。"
+
+#: wiggle_ui.py:14
+msgid "Wiggle Bones"
+msgstr "Wiggle Bones"
+
+#: properties.py:79
+msgid "Wiggle Calculation frozen after baking"
+msgstr "烘焙后 Wiggle 计算已冻结"
+
+#: wiggle_ui.py:31
+msgid "Wiggle Frozen after Bake."
+msgstr "烘焙后 Wiggle 已冻结。"
+
+#: properties.py:271
+#: properties.py:342
+msgid "Wind"
+msgstr "风"
+
+#: properties.py:280
+msgid "Wind Multiplier"
+msgstr "风力倍数"
+
+#: properties.py:271
+#: properties.py:342
+msgid "Wind force field object"
+msgstr "风力场物体"
+
+#: operators.py:134
+msgctxt "Operator"
+msgid "Bake Wiggle"
+msgstr "烘焙 Wiggle"
+
+#: operators.py:11
+msgctxt "Operator"
+msgid "Copy Settings to Selected"
+msgstr "复制设置到选中项"
+
+#: operators.py:202
+msgctxt "Operator"
+msgid "Force a rebuild of the scene's internal wiggle bones list. Helps unstuck physics."
+msgstr "强制重建场景内部的 Wiggle 骨骼列表。有助于解除物理卡住状态。"
+
+#: operators.py:216
+msgctxt "Operator"
+msgid "Legacy Wiggle Clenup"
+msgstr "旧版 Wiggle 清理"
+
+#: operators.py:201
+msgctxt "Operator"
+msgid "Rebuild Wiggle Scene."
+msgstr "重建 Wiggle 场景。"
+
+#: operators.py:69
+msgctxt "Operator"
+msgid "Reset Physics"
+msgstr "重置物理"
+
+#: operators.py:98
+msgctxt "Operator"
+msgid "Select Enabled"
+msgstr "选择已启用的"

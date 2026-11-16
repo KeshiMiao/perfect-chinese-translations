@@ -1,0 +1,530 @@
+# perfect-chinese: 1
+# id: bioxelnodes
+# kind: addon
+# module: bl_ext.blender_org.bioxelnodes
+# name: Bioxel Nodes
+# name_zh: 体数据节点
+# translator: KeshiMiao
+# category: Geometry Nodes
+# supported_versions: >=5.0.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: panels.py:25
+msgid "Bioxel Import"
+msgstr "Bioxel 导入"
+
+#: __init__.py:26
+msgid "Bioxel Layer Gallery"
+msgstr "Bioxel 图层画廊"
+
+#: menus.py:47
+#: menus.py:61
+msgid "Bioxel Nodes"
+msgstr "Bioxel Nodes"
+
+#: operators/io.py:552
+msgid "Bioxel Size (Larger size means small resolution)"
+msgstr "Bioxel 尺寸（尺寸越大，分辨率越小）"
+
+#: operators/io.py:636
+msgid "Canncelled by user."
+msgstr "用户已取消。"
+
+#: operators/structure.py:29
+msgid "Cannot find any bioxel container."
+msgstr "找不到任何 Bioxel 容器。"
+
+#: operators/io.py:294
+#: operators/io.py:549
+msgid "Color"
+msgstr "颜色"
+
+#: preferences.py:16
+msgid "Configuration"
+msgstr "配置"
+
+#: operators/node.py:40
+msgid "Current addon verison is not compatible to this file. If you insist on editing this file please keep the same addon version."
+msgstr "当前插件版本与此文件不兼容。如果坚持编辑此文件，请保持相同的插件版本。"
+
+#: menus.py:38
+msgid "Danger Zone"
+msgstr "危险区域"
+
+#: operators/io.py:732
+msgid "Dimension Order: [Frame, X-axis, Y-axis, Z-axis, Channel]"
+msgstr "维度顺序：[帧, X 轴, Y 轴, Z 轴, 通道]"
+
+#: operators/layer.py:116
+msgid "Fail to add layer node"
+msgstr "添加图层节点失败"
+
+#: operators/misc.py:35
+msgid "Fail to clean temp, you may do it manually."
+msgstr "清理临时文件失败，你可以手动清理。"
+
+#: operators/io.py:237
+msgid "File handler for dicom import"
+msgstr "用于 DICOM 导入的文件处理器"
+
+#: operators/io.py:504
+msgid "First Frame (1 frame)"
+msgstr "第一帧（1 帧）"
+
+#: operators/io.py:578
+msgid "Frame From"
+msgstr "起始帧"
+
+#: operators/io.py:335
+msgid "Get no label."
+msgstr "未获取到标签。"
+
+#: operators/io.py:484
+msgid "Get no vaild series."
+msgstr "未获取到有效序列。"
+
+#: menus.py:15
+msgid "Import Volumetric Data (Init)"
+msgstr "导入体积数据（初始化）"
+
+#: operators/io.py:331
+msgid "Invaild label data."
+msgstr "无效的标签数据。"
+
+#: operators/io.py:293
+#: operators/io.py:548
+msgid "Label"
+msgstr "标签"
+
+#: operators/layer.py:164
+msgid "Layer Folder"
+msgstr "图层文件夹"
+
+#: panels.py:135
+msgid "Layer Library"
+msgstr "图层库"
+
+#: operators/io.py:535
+msgid "Layer Name"
+msgstr "图层名称"
+
+#: panels.py:115
+msgid "Layer Nodes"
+msgstr "图层节点"
+
+#: operators/layer.py:109
+#: operators/layer.py:185
+msgid "Layer not found"
+msgstr "未找到图层"
+
+#: operators/layer.py:80
+msgid "Layer removed"
+msgstr "图层已移除"
+
+#: operators/layer.py:43
+msgid "Layer renamed"
+msgstr "图层已重命名"
+
+#: operators/node.py:57
+msgid "Local node library version does not match the current addon version, which may cause problems, please save the node library again."
+msgstr "本地节点库版本与当前插件版本不匹配，可能会导致问题，请重新保存节点库。"
+
+#: operators/layer.py:64
+#: operators/layer.py:176
+msgid "Missing cache id"
+msgstr "缺少缓存 ID"
+
+#: operators/layer.py:31
+msgid "Name cannot be empty"
+msgstr "名称不能为空"
+
+#: operators/layer.py:20
+msgid "New name"
+msgstr "新名称"
+
+#: props.py:36
+msgid "No Layers"
+msgstr "无图层"
+
+#: operators/io.py:404
+msgid "No file selected."
+msgstr "未选择文件。"
+
+#: panels.py:212
+msgid "No layer selected"
+msgstr "未选择图层"
+
+#: props.py:36
+msgid "No layers found"
+msgstr "未找到图层"
+
+#: operators/layer.py:308
+msgid "No node group found."
+msgstr "未找到节点组。"
+
+#: operators/misc.py:171
+msgid "No object selected"
+msgstr "未选择物体"
+
+#: operators/node.py:36
+msgid "Not editable."
+msgstr "不可编辑。"
+
+#: operators/node.py:32
+msgid "Not in node editor."
+msgstr "不在节点编辑器中。"
+
+#: operators/io.py:182
+#: operators/io.py:410
+msgid "Not supported format."
+msgstr "不支持的格式。"
+
+#: operators/io.py:563
+msgid "Original Shape"
+msgstr "原始形状"
+
+#: operators/io.py:560
+msgid "Original Spacing"
+msgstr "原始间距"
+
+#: operators/layer.py:179
+msgid "Please select a folder"
+msgstr "请选择一个文件夹"
+
+#: operators/layer.py:244
+msgid "Please select a target folder"
+msgstr "请选择目标文件夹"
+
+#: operators/misc.py:60
+msgid "Preset"
+msgstr "预设"
+
+#: operators/io.py:274
+msgid "Progress"
+msgstr "进度"
+
+#: operators/io.py:288
+#: operators/io.py:543
+msgid "Read as"
+msgstr "读取为"
+
+#: operators/layer.py:158
+#: operators/layer.py:219
+msgid "Relative Path"
+msgstr "相对路径"
+
+#: operators/io.py:574
+msgid "Remap to 0~1"
+msgstr "重映射到 0~1"
+
+#: panels.py:109
+msgid "Render Preset"
+msgstr "渲染预设"
+
+#: menus.py:27
+#: panels.py:39
+msgid "Render Setting Presets"
+msgstr "渲染设置预设"
+
+#: operators/io.py:292
+#: operators/io.py:547
+msgid "Scalar"
+msgstr "标量"
+
+#: operators/io.py:566
+msgid "Scene Scale (Bioxel Unit pre Blender Unit)"
+msgstr "场景缩放（Bioxel 单位 / Blender 单位）"
+
+#: operators/io.py:298
+msgid "Select Series"
+msgstr "选择序列"
+
+#: operators/layer.py:225
+msgid "Select a folder to cache the layer files"
+msgstr "选择用于缓存图层文件的文件夹"
+
+#: operators/layer.py:164
+msgid "Select the correct folder for this layer"
+msgstr "为此图层选择正确的文件夹"
+
+#: operators/structure.py:39
+msgid "Selected node has no 'Structure' output."
+msgstr "所选节点没有 'Structure' 输出。"
+
+#: preferences.py:8
+msgid "Set Cache Directory"
+msgstr "设置缓存目录"
+
+#: operators/io.py:280
+msgid "Skip Read As"
+msgstr "跳过读取为"
+
+#: operators/io.py:284
+msgid "Skip Sries Select"
+msgstr "跳过序列选择"
+
+#: operators/io.py:540
+msgid "Smooth Size (Larger takes longer time)"
+msgstr "平滑尺寸（值越大，耗时越长）"
+
+#: __init__.py:32
+msgid "Snapshot Z"
+msgstr "Z 快照"
+
+#: operators/io.py:651
+msgid "Some thing went wrong."
+msgstr "出了点问题。"
+
+#: operators/layer.py:258
+msgid "Source folder not found"
+msgstr "未找到源文件夹"
+
+#: operators/io.py:575
+msgid "Split Channels"
+msgstr "拆分通道"
+
+#: operators/layer.py:158
+#: operators/layer.py:219
+msgid "Store the path relative to the current Blender file"
+msgstr "存储相对于当前 Blender 文件的路径"
+
+#: operators/io.py:664
+msgid "Successfully Imported"
+msgstr "导入成功"
+
+#: operators/io.py:393
+msgid "Successfully Readed."
+msgstr "读取成功。"
+
+#: operators/io.py:161
+msgid "Supported formats:"
+msgstr "支持的格式："
+
+#: operators/layer.py:225
+msgid "Target Folder"
+msgstr "目标文件夹"
+
+#: operators/io.py:167
+msgid "Tips:"
+msgstr "提示："
+
+#: operators/io.py:496
+msgid "What kind is the data read as?"
+msgstr "数据以何种类型读取？"
+
+#: operators/io.py:499
+msgid "Which series to import?"
+msgstr "要导入哪个序列？"
+
+#: panels.py:167
+msgid "Z Slice"
+msgstr "Z 切片"
+
+#: panels.py:172
+msgctxt "Operator"
+msgid "Add"
+msgstr "添加"
+
+#: operators/node.py:10
+msgctxt "Operator"
+msgid "Add Node"
+msgstr "添加节点"
+
+#: panels.py:97
+#: operators/misc.py:131
+msgctxt "Operator"
+msgid "Add Nodes Library"
+msgstr "添加节点库"
+
+#: operators/misc.py:132
+msgctxt "Operator"
+msgid "Add the bundled O Bioxel asset library"
+msgstr "添加随附的 O Bioxel 资产库"
+
+#: operators/misc.py:25
+msgctxt "Operator"
+msgid "Clean Temp"
+msgstr "清理临时文件"
+
+#: operators/misc.py:26
+msgctxt "Operator"
+msgid "Clean all cache in temp (include other project cache)"
+msgstr "清理临时目录中的所有缓存（包括其他项目缓存）"
+
+#: operators/layer.py:54
+msgctxt "Operator"
+msgid "Delete Layer"
+msgstr "删除图层"
+
+#: operators/io.py:737
+#: operators/io.py:738
+msgctxt "Operator"
+msgid "Export Layer as VDB"
+msgstr "将图层导出为 VDB"
+
+#: operators/structure.py:8
+#: operators/structure.py:9
+msgctxt "Operator"
+msgid "Extract Mesh"
+msgstr "提取网格"
+
+#: panels.py:105
+msgctxt "Operator"
+msgid "Help"
+msgstr "帮助"
+
+#: panels.py:34
+msgctxt "Operator"
+msgid "Import As Color"
+msgstr "导入为颜色"
+
+#: panels.py:32
+msgctxt "Operator"
+msgid "Import As Label"
+msgstr "导入为标签"
+
+#: panels.py:30
+msgctxt "Operator"
+msgid "Import As Scalar"
+msgstr "导入为标量"
+
+#: operators/io.py:206
+msgctxt "Operator"
+msgid "Import Data"
+msgstr "导入数据"
+
+#: operators/io.py:520
+msgctxt "Operator"
+msgid "Import Volumetric Data"
+msgstr "导入体积数据"
+
+#: operators/io.py:259
+msgctxt "Operator"
+msgid "Import Volumetric Data (BioxelNodes)"
+msgstr "导入体积数据（BioxelNodes）"
+
+#: operators/io.py:260
+#: operators/io.py:521
+msgctxt "Operator"
+msgid "Import Volumetric Data as Layer"
+msgstr "将体积数据导入为图层"
+
+#: operators/io.py:230
+msgctxt "Operator"
+msgid "Import Volumetric Data to Container as Color"
+msgstr "将体积数据作为颜色导入容器"
+
+#: operators/io.py:222
+msgctxt "Operator"
+msgid "Import Volumetric Data to Container as Label"
+msgstr "将体积数据作为标签导入容器"
+
+#: operators/io.py:214
+msgctxt "Operator"
+msgid "Import Volumetric Data to Container as Scalar"
+msgstr "将体积数据作为标量导入容器"
+
+#: operators/io.py:207
+msgctxt "Operator"
+msgid "Import Volumetric Data to Layer"
+msgstr "将体积数据导入图层"
+
+#: operators/io.py:229
+msgctxt "Operator"
+msgid "Import as Color"
+msgstr "导入为颜色"
+
+#: operators/io.py:221
+msgctxt "Operator"
+msgid "Import as Label"
+msgstr "导入为标签"
+
+#: operators/io.py:213
+msgctxt "Operator"
+msgid "Import as Scalar"
+msgstr "导入为标量"
+
+#: panels.py:178
+msgctxt "Operator"
+msgid "Name"
+msgstr "名称"
+
+#: operators/misc.py:119
+msgctxt "Operator"
+msgid "Need Help?"
+msgstr "需要帮助？"
+
+#: operators/misc.py:120
+msgctxt "Operator"
+msgid "Online Manual for Beginner"
+msgstr "初学者在线手册"
+
+#: panels.py:185
+#: operators/layer.py:153
+msgctxt "Operator"
+msgid "Relocate"
+msgstr "重新定位"
+
+#: operators/layer.py:16
+msgctxt "Operator"
+msgid "Rename Layer"
+msgstr "重命名图层"
+
+#: operators/misc.py:50
+msgctxt "Operator"
+msgid "Render Setting Presets"
+msgstr "渲染设置预设"
+
+#: operators/misc.py:51
+msgctxt "Operator"
+msgid "Render setting presets for bioxel"
+msgstr "Bioxel 渲染设置预设"
+
+#: panels.py:175
+msgctxt "Operator"
+msgid "Save"
+msgstr "保存"
+
+#: operators/layer.py:214
+msgctxt "Operator"
+msgid "Save Layer"
+msgstr "保存图层"
+
+#: operators/layer.py:302
+msgctxt "Operator"
+msgid "Select and Focus Node"
+msgstr "选择并聚焦节点"
+
+#: operators/misc.py:164
+msgctxt "Operator"
+msgid "Toggle Phantom"
+msgstr "切换幻影"
+
+#: panels.py:89
+msgctxt "Operator"
+msgid "Update Nodes Library"
+msgstr "更新节点库"
+
+#: menus.py:22
+msgctxt "Operator"
+msgid "as Color"
+msgstr "作为颜色"
+
+#: menus.py:21
+msgctxt "Operator"
+msgid "as Label"
+msgstr "作为标签"
+
+#: menus.py:20
+msgctxt "Operator"
+msgid "as Scalar"
+msgstr "作为标量"
+
+#: operators/layer.py:89
+msgctxt "Operator"
+msgid "添加图层节点"
+msgstr "添加图层节点"

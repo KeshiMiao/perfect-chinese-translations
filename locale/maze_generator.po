@@ -1,0 +1,290 @@
+# perfect-chinese: 1
+# id: maze_generator
+# kind: addon
+# module: bl_ext.blender_org.maze_generator
+# name: Maze Generator
+# name_zh: 迷宫生成器
+# translator: KeshiMiao
+# category: Add Mesh
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:207
+msgid "Add Boundary Walls"
+msgstr "添加边界墙"
+
+#: __init__.py:201
+msgid "Add Ceiling"
+msgstr "添加天花板"
+
+#: __init__.py:195
+msgid "Add Floor"
+msgstr "添加地板"
+
+#: __init__.py:201
+msgid "Add a ceiling plane at the top of the maze (separate object)"
+msgstr "在迷宫顶部添加一个天花板平面（独立物体）"
+
+#: __init__.py:195
+msgid "Add a floor plane at the base of the maze (separate object)"
+msgstr "在迷宫底部添加一个地板平面（独立物体）"
+
+#: __init__.py:207
+msgid "Add an outer wall frame enclosing the maze (separate object)"
+msgstr "添加包围迷宫的外墙框架（独立物体）"
+
+#: __init__.py:184
+msgid "Apply Bevel"
+msgstr "应用倒角"
+
+#: __init__.py:170
+msgid "Apply Solidify"
+msgstr "应用实体化"
+
+#: __init__.py:213
+msgid "Boundary Offset"
+msgstr "边界偏移"
+
+#: __init__.py:139
+msgid "Cell Size"
+msgstr "单元尺寸"
+
+#: __init__.py:132
+msgid "Columns"
+msgstr "列数"
+
+#: __init__.py:1385
+msgid "Create"
+msgstr "创建"
+
+#: __init__.py:220
+msgid "Cut Entrance/Exit"
+msgstr "切出入口/出口"
+
+#: __init__.py:220
+msgid "Cut entrance and exit gaps in the boundary, at opposite corners"
+msgstr "在边界对角处切出入口和出口缺口"
+
+#: __init__.py:157
+msgid "Delete Islands"
+msgstr "删除孤岛"
+
+#: __init__.py:163
+msgid "Determines the quantity of walls that will be removed"
+msgstr "决定将移除的墙的数量"
+
+#: __init__.py:226
+msgid "Door Width"
+msgstr "门宽度"
+
+#: __init__.py:65
+msgid "East"
+msgstr "东"
+
+#: __init__.py:65
+msgid "East wall (+X)"
+msgstr "东墙（+X）"
+
+#: __init__.py:1332
+msgid "Enable Add Boundary Walls and Cut Entrance/Exit first."
+msgstr "请先启用“添加边界墙”和“切出入口/出口”。"
+
+#: __init__.py:1308
+msgid "Entrance"
+msgstr "入口"
+
+#: __init__.py:240
+msgid "Entrance Position"
+msgstr "入口位置"
+
+#: __init__.py:233
+msgid "Entrance Side"
+msgstr "入口边"
+
+#: __init__.py:1309
+msgid "Exit"
+msgstr "出口"
+
+#: __init__.py:256
+msgid "Exit Position"
+msgstr "出口位置"
+
+#: __init__.py:249
+msgid "Exit Side"
+msgstr "出口边"
+
+#: __init__.py:1328
+#: __init__.py:1357
+msgid "Generate a maze first, then randomise."
+msgstr "请先生成迷宫，然后再随机化。"
+
+#: __init__.py:1386
+msgid "Generate a maze with customizable parameters"
+msgstr "使用可自定义参数生成迷宫"
+
+#: __init__.py:25
+msgid "Generates a random maze mesh"
+msgstr "生成随机迷宫网格"
+
+#: __init__.py:143
+msgid "Height of the maze walls"
+msgstr "迷宫墙的高度"
+
+#: __init__.py:213
+msgid "How far to push the boundary walls out from the maze, in cells"
+msgstr "边界墙向外扩展的距离（以单元为单位）"
+
+#: __init__.py:163
+msgid "Island Wall Count"
+msgstr "孤岛墙数量"
+
+#: __init__.py:150
+msgid "Iterations"
+msgstr "迭代次数"
+
+#: __init__.py:25
+#: __init__.py:1381
+msgid "Maze Generator"
+msgstr "迷宫生成器"
+
+#: __init__.py:63
+msgid "North"
+msgstr "北"
+
+#: __init__.py:63
+msgid "North wall (+Y)"
+msgstr "北墙（+Y）"
+
+#: __init__.py:132
+msgid "Number of columns in the maze grid"
+msgstr "迷宫网格的列数"
+
+#: __init__.py:150
+msgid "Number of iterations for maze generation algorithm"
+msgstr "迷宫生成算法的迭代次数"
+
+#: __init__.py:128
+msgid "Number of rows in the maze grid"
+msgstr "迷宫网格的行数"
+
+#: __init__.py:25
+msgid "Object"
+msgstr "物体"
+
+#: __init__.py:240
+msgid "Position of the entrance along its wall (0 = corner, 0.5 = centre, 1 = opposite corner)"
+msgstr "入口沿其所在边的位置（0 = 角落，0.5 = 中央，1 = 对角）"
+
+#: __init__.py:256
+msgid "Position of the exit along its wall (0 = corner, 0.5 = centre, 1 = opposite corner)"
+msgstr "出口沿其所在边的位置（0 = 角落，0.5 = 中央，1 = 对角）"
+
+#: __init__.py:122
+msgid "Random Seed"
+msgstr "随机种子"
+
+#: __init__.py:1308
+msgid "Randomise the entrance"
+msgstr "随机化入口"
+
+#: __init__.py:1309
+msgid "Randomise the exit"
+msgstr "随机化出口"
+
+#: __init__.py:128
+msgid "Rows"
+msgstr "行数"
+
+#: __init__.py:122
+msgid "Seed value for random maze generation"
+msgstr "随机迷宫生成的种子值"
+
+#: __init__.py:139
+msgid "Size of each maze cell (XY)"
+msgstr "每个迷宫单元的尺寸（XY）"
+
+#: __init__.py:64
+msgid "South"
+msgstr "南"
+
+#: __init__.py:64
+msgid "South wall (-Y)"
+msgstr "南墙（-Y）"
+
+#: __init__.py:1305
+msgid "Target"
+msgstr "目标"
+
+#: __init__.py:176
+msgid "Thickness of the maze walls"
+msgstr "迷宫墙的厚度"
+
+#: __init__.py:143
+msgid "Wall Height"
+msgstr "墙高"
+
+#: __init__.py:176
+msgid "Wall Thickness"
+msgstr "墙厚"
+
+#: __init__.py:66
+msgid "West"
+msgstr "西"
+
+#: __init__.py:66
+msgid "West wall (-X)"
+msgstr "西墙（-X）"
+
+#: __init__.py:184
+msgid "Whether to apply the bevel modifier to the maze walls"
+msgstr "是否对迷宫墙应用倒角修改器"
+
+#: __init__.py:170
+msgid "Whether to apply the solidify modifier to the maze walls"
+msgstr "是否对迷宫墙应用实体化修改器"
+
+#: __init__.py:157
+msgid "Whether to delete isolated areas of the maze"
+msgstr "是否删除迷宫中的孤立区域"
+
+#: __init__.py:233
+msgid "Which boundary wall the entrance opening is cut into"
+msgstr "入口开口切入哪个边界墙"
+
+#: __init__.py:249
+msgid "Which boundary wall the exit opening is cut into"
+msgstr "出口开口切入哪个边界墙"
+
+#: __init__.py:226
+msgid "Width of the entrance/exit gaps, in cells"
+msgstr "入口/出口缺口的宽度（以单元为单位）"
+
+#: __init__.py:110
+#: __init__.py:1414
+msgctxt "Operator"
+msgid "Generate Maze"
+msgstr "生成迷宫"
+
+#: __init__.py:112
+msgctxt "Operator"
+msgid "Generate a maze with customizable parameters"
+msgstr "使用可自定义参数生成迷宫"
+
+#: __init__.py:1302
+msgctxt "Operator"
+msgid "Randomise Door"
+msgstr "随机化门"
+
+#: __init__.py:1455
+msgctxt "Operator"
+msgid "Randomise Entrance"
+msgstr "随机化入口"
+
+#: __init__.py:1458
+msgctxt "Operator"
+msgid "Randomise Exit"
+msgstr "随机化出口"

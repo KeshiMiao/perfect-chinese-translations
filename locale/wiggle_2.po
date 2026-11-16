@@ -1,0 +1,873 @@
+# perfect-chinese: 1
+# id: wiggle_2
+# kind: addon
+# module: bl_ext.blender_org.wiggle_2
+# name: Wiggle 2: RTX Edition
+# name_zh: 骨骼物理
+# translator: KeshiMiao
+# category: Animation
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: wiggle_layers.py:780
+msgid "Action Data"
+msgstr "动作数据"
+
+#: ui_panel.py:526
+msgid "Active Bone is Lattice Collider"
+msgstr "活动骨骼为晶格碰撞体"
+
+#: ui_panel.py:489
+msgid "Adaptive Safety"
+msgstr "自适应安全"
+
+#: wiggle_layers.py:832
+msgid "Add"
+msgstr "添加"
+
+#: ui_panel.py:179
+msgid "Add a layer to start"
+msgstr "添加层以开始"
+
+#: wiggle_2.py:2467
+#: wiggle_2.py:2502
+msgid "Analytic box - no mesh needed, half-extent 1 scaled by object scale"
+msgstr "解析盒体 - 无需网格，半长 1 按物体缩放"
+
+#: wiggle_2.py:2469
+#: wiggle_2.py:2504
+msgid "Analytic capsule along local Z - no mesh needed, radius/half-height 1 scaled by object scale"
+msgstr "沿局部 Z 的解析胶囊 - 无需网格，半径/半高 1 按物体缩放"
+
+#: wiggle_2.py:2468
+#: wiggle_2.py:2503
+msgid "Analytic cylinder along local Z - no mesh needed, radius/half-height 1 scaled by object scale"
+msgstr "沿局部 Z 的解析圆柱 - 无需网格，半径/半高 1 按物体缩放"
+
+#: wiggle_2.py:2466
+#: wiggle_2.py:2501
+msgid "Analytic sphere - no mesh needed, radius 1 scaled by object scale"
+msgstr "解析球体 - 无需网格，半径 1 按物体缩放"
+
+#: ui_panel.py:587
+msgid "Angle Limit"
+msgstr "角度限制"
+
+#: ui_panel.py:338
+#: wiggle_2.py:2572
+msgid "Auto Cache"
+msgstr "自动缓存"
+
+#: ui_panel.py:450
+msgid "Auto Cache is on (Global Utilities)"
+msgstr "自动缓存已开启（全局工具）"
+
+#: wiggle_2.py:2564
+msgid "Auto Clean Reset on Rewind"
+msgstr "回退时自动清除重置"
+
+#: ui_panel.py:336
+msgid "Auto Reset on Rewind"
+msgstr "回退时自动重置"
+
+#: ui_panel.py:495
+msgid "Auto-damps explosive motion (position AND fast spins)."
+msgstr "自动抑制剧烈运动（位置和高速旋转）。"
+
+#: ui_panel.py:558
+msgid "Automatic Bone Pop Prevention"
+msgstr "自动防止骨骼跳变"
+
+#: ui_panel.py:394
+#: ui_panel.py:411
+msgid "Bake"
+msgstr "烘焙"
+
+#: wiggle_layers.py:1414
+msgid "Bake Progress"
+msgstr "烘焙进度"
+
+#: wiggle_layers.py:1417
+msgid "Bake Status"
+msgstr "烘焙状态"
+
+#: wiggle_2.py:2301
+msgid "Bake wiggle into current action, instead of creating a new one"
+msgstr "将摆动烘焙到当前动作，而不是创建新动作"
+
+#: wiggle_layers.py:782
+msgid "Base (Anim)"
+msgstr "基础（动画）"
+
+#: wiggle_2.py:2355
+msgid "Bone Head"
+msgstr "骨骼头"
+
+#: wiggle_2.py:2369
+msgid "Bone Head Mute"
+msgstr "骨骼头静音"
+
+#: wiggle_2.py:2362
+msgid "Bone Tail"
+msgstr "骨骼尾"
+
+#: wiggle_2.py:2375
+msgid "Bone Tail Mute"
+msgstr "骨骼尾静音"
+
+#: wiggle_2.py:2489
+#: wiggle_2.py:2524
+msgid "Bounce"
+msgstr "弹跳"
+
+#: ui_panel.py:577
+#: wiggle_2.py:2467
+msgid "Box"
+msgstr "盒体"
+
+#: wiggle_2.py:2582
+msgid "Cache Directory"
+msgstr "缓存目录"
+
+#: wiggle_2.py:2572
+msgid "Cache every frame as you play from the start (like Blender's cloth cache). Cached frames play back instantly; jumping into an uncached part of the timeline pauses physics until you rewind. Changing bone settings clears the cache"
+msgstr "从头播放时缓存每一帧（类似 Blender 的布料缓存）。已缓存的帧可即时回放；跳转到时间轴未缓存的部分会暂停物理，直到回退。更改骨骼设置会清除缓存"
+
+#: wiggle_layers.py:866
+msgid "Can't remove the Base layer."
+msgstr "无法移除基础层。"
+
+#: ui_panel.py:577
+#: wiggle_2.py:2469
+msgid "Capsule"
+msgstr "胶囊"
+
+#: ui_panel.py:505
+msgid "Capsule-capsule between wiggle_tail bones (radius = Radius)."
+msgstr "wiggle_tail 骨骼之间的胶囊-胶囊碰撞（半径 = 半径）。"
+
+#: wiggle_2.py:2420
+#: wiggle_2.py:2458
+msgid "Chain"
+msgstr "链"
+
+#: ui_panel.py:597
+msgid "Clamp how far the floating head may drift from its animated rest position (0 = unlimited)"
+msgstr "限制浮动头偏离其动画静止位置的距离（0 = 不限）"
+
+#: wiggle_2.py:2465
+#: wiggle_2.py:2500
+msgid "Collection"
+msgstr "集合"
+
+#: wiggle_2.py:2464
+#: wiggle_2.py:2499
+msgid "Collide against any mesh (uses actual surface)"
+msgstr "与任意网格碰撞（使用实际表面）"
+
+#: wiggle_2.py:2465
+#: wiggle_2.py:2500
+msgid "Collide against every mesh in a collection"
+msgstr "与集合中的每个网格碰撞"
+
+#: wiggle_2.py:2477
+#: wiggle_2.py:2512
+msgid "Collider Collection"
+msgstr "碰撞体集合"
+
+#: wiggle_2.py:2473
+#: wiggle_2.py:2508
+msgid "Collider Object"
+msgstr "碰撞体物体"
+
+#: wiggle_2.py:2462
+#: wiggle_2.py:2497
+msgid "Collider Type"
+msgstr "碰撞体类型"
+
+#: ui_panel.py:276
+#: ui_panel.py:309
+msgid "Collisions"
+msgstr "碰撞"
+
+#: __init__.py:56
+msgid "Connects adjacent bones horizontally"
+msgstr "水平连接相邻骨骼"
+
+#: wiggle_2.py:2296
+msgid "Constraint solver interations for chain physics"
+msgstr "链物理的约束求解器迭代次数"
+
+#: wiggle_2.py:2302
+msgid "Current Action to NLA"
+msgstr "当前动作到 NLA"
+
+#: ui_panel.py:577
+#: wiggle_2.py:2468
+msgid "Cylinder"
+msgstr "圆柱"
+
+#: ui_panel.py:266
+#: wiggle_2.py:2393
+msgid "Damp"
+msgstr "阻尼"
+
+#: __init__.py:44
+msgid "Damp Root"
+msgstr "根阻尼"
+
+#: __init__.py:49
+msgid "Damp Tip"
+msgstr "尖端阻尼"
+
+#: ui_panel.py:562
+msgid "Defense Trigger Sensitivity"
+msgstr "防御触发灵敏度"
+
+#: ui_panel.py:444
+msgid "Directory"
+msgstr "目录"
+
+#: ui_panel.py:443
+msgid "Disk Point Cache (for scrubbing)"
+msgstr "磁盘点缓存（用于拖动时间轴）"
+
+#: wiggle_layers.py:832
+msgid "Down"
+msgstr "向下"
+
+#: __init__.py:63
+msgid "Draws real-time debug lines between chains"
+msgstr "在链之间绘制实时调试线"
+
+#: wiggle_2.py:2319
+msgid "Enable Armature"
+msgstr "启用骨架"
+
+#: wiggle_2.py:2343
+msgid "Enable Bone"
+msgstr "启用骨骼"
+
+#: __init__.py:56
+msgid "Enable Horizontal Lattice"
+msgstr "启用水平晶格"
+
+#: wiggle_2.py:2313
+msgid "Enable Scene"
+msgstr "启用场景"
+
+#: ui_panel.py:485
+msgid "Error: Properties not registered."
+msgstr "错误：属性未注册。"
+
+#: wiggle_2.py:2411
+msgid "Every Wind/Turbulence/Vortex/Force field in this collection affects the bone"
+msgstr "此集合中的每个风/湍流/涡流/力场都会影响骨骼"
+
+#: wiggle_2.py:2449
+msgid "Every Wind/Turbulence/Vortex/Force field in this collection affects the head"
+msgstr "此集合中的每个风/湍流/涡流/力场都会影响头部"
+
+#: wiggle_layers.py:811
+msgid "Exited NLA Tweak Mode - Layer Weight is active again."
+msgstr "已退出 NLA 调整模式 - 层权重再次生效。"
+
+#: wiggle_2.py:2406
+#: wiggle_2.py:2444
+msgid "Field"
+msgstr "场"
+
+#: ui_panel.py:272
+#: ui_panel.py:306
+msgid "Field Collection"
+msgstr "场集合"
+
+#: wiggle_2.py:2416
+msgid "Field Multiplier"
+msgstr "场倍增"
+
+#: ui_panel.py:467
+msgid "File not saved: using temp folder"
+msgstr "文件未保存：使用临时文件夹"
+
+#: wiggle_2.py:2299
+msgid "Frames to run simulation before bake"
+msgstr "烘焙前运行模拟的帧数"
+
+#: wiggle_2.py:2331
+msgid "Freeze Wiggle"
+msgstr "冻结摆动"
+
+#: wiggle_2.py:2485
+#: wiggle_2.py:2520
+msgid "Friction"
+msgstr "摩擦"
+
+#: ui_panel.py:45
+msgid "Frozen (Baked)"
+msgstr "已冻结（已烘焙）"
+
+#: ui_panel.py:326
+msgid "Global Utilities"
+msgstr "全局工具"
+
+#: wiggle_2.py:2402
+#: wiggle_2.py:2440
+msgid "Gravity"
+msgstr "重力"
+
+#: ui_panel.py:296
+msgid "Head Settings"
+msgstr "头部设置"
+
+#: ui_panel.py:513
+msgid "Horizontal Lattice Stabilizer"
+msgstr "水平晶格稳定器"
+
+#: __init__.py:70
+msgid "Horizontal stabilizer strength"
+msgstr "水平稳定器强度"
+
+#: wiggle_lattice_visual.py:465
+msgid "How much a lattice pair can deviate before being pulled back"
+msgstr "晶格对在被拉回前可偏离的程度"
+
+#: wiggle_layers.py:1400
+msgid "Idx"
+msgstr "索引"
+
+#: ui_panel.py:69
+msgid "Individual Limits property not initialized."
+msgstr "单独限制属性未初始化。"
+
+#: wiggle_lattice_visual.py:451
+msgid "Lattice Collider"
+msgstr "晶格碰撞体"
+
+#: wiggle_lattice_visual.py:457
+msgid "Lattice Collider Radius"
+msgstr "晶格碰撞体半径"
+
+#: __init__.py:70
+#: ui_panel.py:517
+msgid "Lattice Stiffness"
+msgstr "晶格硬度"
+
+#: wiggle_lattice_visual.py:465
+msgid "Lattice Stretch Tolerance"
+msgstr "晶格拉伸容差"
+
+#: wiggle_layers.py:779
+msgid "Layer Name"
+msgstr "层名称"
+
+#: wiggle_layers.py:785
+msgid "Layer Weight"
+msgstr "层权重"
+
+#: ui_panel.py:149
+msgid "Layer Weight (%)"
+msgstr "层权重 (%)"
+
+#: wiggle_2.py:2558
+msgid "Load cached frames instead of re-simulating when available"
+msgstr "有缓存时加载缓存帧，而不是重新模拟"
+
+#: ui_panel.py:407
+#: ui_panel.py:571
+msgid "Loop Physics"
+msgstr "循环物理"
+
+#: ui_panel.py:504
+msgid "Margin"
+msgstr "边距"
+
+#: wiggle_2.py:2381
+#: wiggle_2.py:2424
+msgid "Mass"
+msgstr "质量"
+
+#: wiggle_2.py:2270
+msgid "Matrix"
+msgstr "矩阵"
+
+#: ui_panel.py:323
+#: ui_panel.py:597
+msgid "Max Offset"
+msgstr "最大偏移"
+
+#: wiggle_2.py:2464
+#: wiggle_2.py:2499
+msgid "Mesh Object"
+msgstr "网格物体"
+
+#: wiggle_2.py:2302
+msgid "Move existing animation on the armature into an NLA strip"
+msgstr "将骨架上的现有动画移入 NLA 片段"
+
+#: wiggle_layers.py:787
+msgid "Mute"
+msgstr "静音"
+
+#: wiggle_2.py:2325
+msgid "Mute Armature"
+msgstr "静音骨架"
+
+#: wiggle_2.py:2349
+msgid "Mute Bone"
+msgstr "静音骨骼"
+
+#: ui_panel.py:126
+msgid "NLA Tweak Mode is active - Layer Weight is frozen"
+msgstr "NLA 微调模式已启用 - 层权重已冻结"
+
+#: wiggle_lattice_visual.py:451
+msgid "Nearby lattice pairs push away from this bone's head"
+msgstr "邻近的晶格对会推离此骨骼头部"
+
+#: ui_panel.py:205
+msgid "No Sim Mix layers on this object."
+msgstr "此物体上没有模拟混合层。"
+
+#: ui_panel.py:113
+msgid "No active object selected"
+msgstr "未选择活动物体"
+
+#: wiggle_2.py:1883
+#: wiggle_layers.py:1103
+msgid "No bones to bake."
+msgstr "没有可烘焙的骨骼。"
+
+#: ui_panel.py:465
+msgid "No frames cached yet"
+msgstr "尚未缓存帧"
+
+#: wiggle_2.py:2198
+msgid "No pose bone selected"
+msgstr "未选择姿态骨骼"
+
+#: ui_panel.py:566
+msgid "Object rotation speed (degrees/second) that triggers extra damping - catches fast spins/whips that pure position tracking misses"
+msgstr "触发额外阻尼的物体旋转速度（度/秒）- 可捕捉纯位置跟踪遗漏的快速旋转/甩动"
+
+#: wiggle_2.py:2303
+msgid "Only key the active physics bones (Tail/Head enabled, not muted). Every other bone keeps playing its original animation from the Base layer, untouched. Keep the Base layer enabled when using this"
+msgstr "仅为活动物理骨骼插入关键帧（已启用尾部/头部且未静音）。其他骨骼继续播放基础层中的原始动画，不受影响。使用此功能时请保持基础层启用"
+
+#: ui_panel.py:421
+msgid "Only physics bones get keyed; keep Base on"
+msgstr "仅为物理骨骼插入关键帧；保持基础层开启"
+
+#: wiggle_2.py:2301
+msgid "Overwrite Current Action"
+msgstr "覆盖当前动作"
+
+#: ui_panel.py:521
+msgid "Pairs same-depth wiggle bones (skirts, hair bunches)."
+msgstr "配对同深度的摆动骨骼（裙子、发束）。"
+
+#: wiggle_layers.py:1406
+msgid "Physics blend ratio (0=Animation only, 1=Full physics)"
+msgstr "物理混合比例（0=仅动画，1=完全物理）"
+
+#: wiggle_2.py:2297
+msgid "Physics continues as timeline loops"
+msgstr "时间轴循环时物理继续"
+
+#: ui_panel.py:348
+msgid "Physics paused here: rewind to start"
+msgstr "物理在此暂停：倒回起点"
+
+#: ui_panel.py:345
+msgid "Play from the start to cache"
+msgstr "从起点播放以缓存"
+
+#: wiggle_2.py:2299
+msgid "Preroll"
+msgstr "预滚"
+
+#: ui_panel.py:587
+msgid "Press Alt + Enter to apply change to the entire skeleton"
+msgstr "按 Alt + Enter 将更改应用到整个骨架"
+
+#: ui_panel.py:438
+msgid "Press Esc to cancel"
+msgstr "按 Esc 取消"
+
+#: ui_panel.py:384
+#: wiggle_2.py:2296
+msgid "Quality"
+msgstr "质量"
+
+#: ui_panel.py:352
+msgid "Quick Presets:"
+msgstr "快速预设："
+
+#: ui_panel.py:528
+#: wiggle_2.py:2481
+msgid "Radius"
+msgstr "半径"
+
+#: wiggle_layers.py:832
+msgid "Remove"
+msgstr "移除"
+
+#: ui_panel.py:249
+#: ui_panel.py:263
+msgid "Root"
+msgstr "根"
+
+#: __init__.py:26
+msgid "Root-Tip distribution for damping"
+msgstr "阻尼的根-尖分布"
+
+#: __init__.py:20
+msgid "Root-Tip distribution for stiffness"
+msgstr "刚度的根-尖分布"
+
+#: ui_panel.py:566
+msgid "Rotation Threshold"
+msgstr "旋转阈值"
+
+#: ui_panel.py:494
+msgid "Rotation Threshold (deg/s)"
+msgstr "旋转阈值 (度/秒)"
+
+#: ui_panel.py:558
+msgid "Safety Guard"
+msgstr "安全防护"
+
+#: ui_panel.py:31
+msgid "Scene Muted."
+msgstr "场景已静音。"
+
+#: wiggle_lattice_visual.py:399
+msgid "Select an Armature Object first!"
+msgstr "请先选择一个骨架物体！"
+
+#: wiggle_2.py:2336
+msgid "Self Collision"
+msgstr "自碰撞"
+
+#: ui_panel.py:501
+msgid "Self Collision (this object)"
+msgstr "自碰撞（此物体）"
+
+#: wiggle_2.py:2340
+msgid "Self Collision Margin"
+msgstr "自碰撞边距"
+
+#: ui_panel.py:492
+#: ui_panel.py:562
+msgid "Sensitivity"
+msgstr "灵敏度"
+
+#: ui_panel.py:583
+msgid "Set X/Z limits separately. (Alt + Click to sync.)"
+msgstr "分别设置 X/Z 限制。（Alt + 单击以同步。）"
+
+#: ui_panel.py:575
+msgid "Shape"
+msgstr "形状"
+
+#: __init__.py:63
+#: ui_panel.py:520
+msgid "Show Lattice Guide"
+msgstr "显示晶格辅助线"
+
+#: wiggle_layers.py:786
+msgid "Sim Mix"
+msgstr "模拟混合"
+
+#: ui_panel.py:153
+msgid "Sim Mix (Physics)"
+msgstr "模拟混合（物理）"
+
+#: ui_panel.py:99
+msgid "Sim Mix Layers"
+msgstr "模拟混合层"
+
+#: wiggle_layers.py:782
+msgid "Simulation"
+msgstr "模拟"
+
+#: ui_panel.py:283
+#: ui_panel.py:316
+msgid "Size = the object's own scale (no mesh needed)"
+msgstr "大小 = 物体自身的缩放（无需网格）"
+
+#: wiggle_2.py:2303
+msgid "Smart Bake"
+msgstr "智能烘焙"
+
+#: wiggle_layers.py:1098
+msgid "Smart Bake: no active wiggle bones to bake."
+msgstr "智能烘焙：没有可烘焙的活动摆动骨骼。"
+
+#: wiggle_2.py:2466
+#: wiggle_2.py:2501
+msgid "Sphere"
+msgstr "球体"
+
+#: wiggle_2.py:2493
+#: wiggle_2.py:2528
+msgid "Sticky"
+msgstr "粘性"
+
+#: ui_panel.py:252
+#: wiggle_2.py:2385
+msgid "Stiff"
+msgstr "刚度"
+
+#: __init__.py:34
+msgid "Stiff Root"
+msgstr "根部刚度"
+
+#: __init__.py:39
+msgid "Stiff Tip"
+msgstr "尖端刚度"
+
+#: wiggle_2.py:2389
+#: wiggle_2.py:2432
+msgid "Stretch"
+msgstr "拉伸"
+
+#: ui_panel.py:519
+msgid "Stretch Tolerance"
+msgstr "拉伸容差"
+
+#: ui_panel.py:231
+msgid "Tail Settings"
+msgstr "尾部设置"
+
+#: ui_panel.py:250
+#: ui_panel.py:264
+msgid "Tip"
+msgstr "尖端"
+
+#: ui_panel.py:93
+msgid "Total Limit"
+msgstr "总限制"
+
+#: ui_panel.py:95
+msgid "Total Limit property not loaded yet - try Reload Scripts."
+msgstr "总限制属性尚未加载 - 请尝试重新加载脚本。"
+
+#: ui_panel.py:571
+msgid "Transfer physics from the last frame to the first to create a loop"
+msgstr "将物理从最后一帧传递到第一帧以创建循环"
+
+#: wiggle_layers.py:781
+msgid "Type"
+msgstr "类型"
+
+#: wiggle_layers.py:832
+msgid "Up"
+msgstr "向上"
+
+#: ui_panel.py:448
+msgid "Use Cache During Playback"
+msgstr "播放时使用缓存"
+
+#: __init__.py:26
+msgid "Use Damp Dist."
+msgstr "使用阻尼距离"
+
+#: wiggle_2.py:2558
+msgid "Use Disk Cache"
+msgstr "使用磁盘缓存"
+
+#: ui_panel.py:67
+#: ui_panel.py:583
+msgid "Use Individual Limits"
+msgstr "使用单独限制"
+
+#: __init__.py:20
+msgid "Use Stiff Dist."
+msgstr "使用刚度距离"
+
+#: wiggle_2.py:2564
+msgid "When jumping back to the start frame (or scrubbing backward to an uncached frame), run the same clean reset as Hard Reset so no physics from the previous frame carries over"
+msgstr "跳回起始帧（或向后拖动到未缓存的帧）时，执行与强制重置相同的彻底重置，以免上一帧的物理效果残留"
+
+#: ui_panel.py:13
+#: ui_panel.py:103
+msgid "Wiggle 2"
+msgstr "Wiggle 2"
+
+#: ui_panel.py:20
+msgid "Wiggle 2 Physics"
+msgstr "Wiggle 2 物理"
+
+#: wiggle_layers.py:1406
+msgid "Wiggle Influence"
+msgstr "Wiggle 影响"
+
+#: ui_panel.py:473
+msgid "Wiggle Safety Guard"
+msgstr "Wiggle 安全保护"
+
+#: wiggle_layers.py:1029
+msgid "Wiggle bake cancelled"
+msgstr "Wiggle 烘焙已取消"
+
+#: wiggle_2.py:2336
+msgid "Wiggle tail/head points push apart from each other (point-based, not full capsule) - off by default"
+msgstr "Wiggle 尾/头点相互推开（基于点，非完整胶囊体）- 默认关闭"
+
+#: wiggle_2.py:2454
+msgid "Wind"
+msgstr "风"
+
+#: wiggle_2.py:2444
+msgid "Wind, Turbulence, Vortex or Force field affecting the head"
+msgstr "影响头部风、湍流、涡流或力场"
+
+#: wiggle_2.py:2406
+msgid "Wind, Turbulence, Vortex or Force field affecting the tail"
+msgstr "影响尾部风、湍流、涡流或力场"
+
+#: ui_panel.py:76
+msgid "X (up and down)"
+msgstr "X（上下）"
+
+#: ui_panel.py:591
+msgid "X Limit"
+msgstr "X 限制"
+
+#: ui_panel.py:78
+msgid "Z (right and left)"
+msgstr "Z（左右）"
+
+#: ui_panel.py:594
+msgid "Z Limit"
+msgstr "Z 限制"
+
+#: wiggle_2.py:2109
+msgctxt "Operator"
+msgid "Add/Remove Visual Guide"
+msgstr "添加/移除视觉辅助"
+
+#: ui_panel.py:359
+msgctxt "Operator"
+msgid "Antenna"
+msgstr "天线"
+
+#: wiggle_layers.py:1068
+msgctxt "Operator"
+msgid "Bake Combined"
+msgstr "烘焙合并"
+
+#: ui_panel.py:424
+msgctxt "Operator"
+msgid "Bake Result C"
+msgstr "烘焙结果 C"
+
+#: wiggle_2.py:1856
+msgctxt "Operator"
+msgid "Bake Wiggle"
+msgstr "烘焙 Wiggle"
+
+#: wiggle_2.py:2042
+msgctxt "Operator"
+msgid "Bake to Disk Cache"
+msgstr "烘焙到磁盘缓存"
+
+#: wiggle_2.py:2096
+msgctxt "Operator"
+msgid "Clear Disk Cache"
+msgstr "清除磁盘缓存"
+
+#: ui_panel.py:357
+msgctxt "Operator"
+msgid "Cloth"
+msgstr "布料"
+
+#: wiggle_2.py:1684
+msgctxt "Operator"
+msgid "Copy Settings to Selected"
+msgstr "复制设置到所选"
+
+#: ui_panel.py:332
+msgctxt "Operator"
+msgid "Copy to Selected"
+msgstr "复制到所选"
+
+#: wiggle_layers.py:798
+msgctxt "Operator"
+msgid "Exit NLA Tweak Mode"
+msgstr "退出 NLA 调整模式"
+
+#: ui_panel.py:334
+msgctxt "Operator"
+msgid "HARD RESET (Cache & Action)"
+msgstr "强制重置（缓存与动作）"
+
+#: ui_panel.py:355
+msgctxt "Operator"
+msgid "Hair"
+msgstr "毛发"
+
+#: ui_panel.py:356
+msgctxt "Operator"
+msgid "Heavy"
+msgstr "沉重"
+
+#: ui_panel.py:354
+msgctxt "Operator"
+msgid "Jelly"
+msgstr "果冻"
+
+#: wiggle_layers.py:829
+msgctxt "Operator"
+msgid "Layer Action"
+msgstr "分层动作"
+
+#: wiggle_2.py:2189
+msgctxt "Operator"
+msgid "Physics Preset"
+msgstr "物理预设"
+
+#: ui_panel.py:195
+msgctxt "Operator"
+msgid "Refresh Physics Mix"
+msgstr "刷新物理混合"
+
+#: wiggle_2.py:1745
+msgctxt "Operator"
+msgid "Reset Physics"
+msgstr "重置物理"
+
+#: ui_panel.py:333
+msgctxt "Operator"
+msgid "Select Active"
+msgstr "选择活动"
+
+#: wiggle_2.py:1804
+msgctxt "Operator"
+msgid "Select Enabled"
+msgstr "选择已启用"
+
+#: wiggle_2.py:2111
+msgctxt "Operator"
+msgid "Select a mesh to use as a visual guide"
+msgstr "选择要用作视觉辅助的网格"
+
+#: ui_panel.py:358
+msgctxt "Operator"
+msgid "Spring"
+msgstr "弹簧"
+
+#: ui_panel.py:376
+msgctxt "Operator"
+msgid "Visual Guide"
+msgstr "视觉辅助"
+
+#: wiggle_lattice_visual.py:353
+msgctxt "Operator"
+msgid "Wiggle RTX Horizontal Visual Solver"
+msgstr "Wiggle RTX 水平视觉解算器"

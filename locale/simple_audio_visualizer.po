@@ -1,0 +1,166 @@
+# perfect-chinese: 1
+# id: simple_audio_visualizer
+# kind: addon
+# module: bl_ext.blender_org.simple_audio_visualizer
+# name: Simple Audio Visualizer
+# name_zh: 音频可视化
+# translator: KeshiMiao
+# category: Animation
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: simple_audio_visualizer/__init__.py:337
+msgid "Add animation from the previous frame to the next, instead of replacing it. Recommended for use with the Rotation channel."
+msgstr "将上一帧的动画累加到下一帧，而不是替换。建议与旋转通道配合使用。"
+
+#: simple_audio_visualizer/__init__.py:337
+msgid "Additive"
+msgstr "累加"
+
+#: simple_audio_visualizer/__init__.py:307
+msgid "Animate Location"
+msgstr "为位置添加动画"
+
+#: simple_audio_visualizer/__init__.py:312
+msgid "Animate Rotation"
+msgstr "为旋转添加动画"
+
+#: simple_audio_visualizer/__init__.py:317
+msgid "Animate Scale"
+msgstr "为缩放添加动画"
+
+#: simple_audio_visualizer/__init__.py:566
+msgid "Animate Selected Objects"
+msgstr "为选中物体添加动画"
+
+#: simple_audio_visualizer/__init__.py:322
+msgid "Animate X Axis"
+msgstr "为 X 轴添加动画"
+
+#: simple_audio_visualizer/__init__.py:327
+msgid "Animate Y Axis"
+msgstr "为 Y 轴添加动画"
+
+#: simple_audio_visualizer/__init__.py:332
+msgid "Animate Z Axis"
+msgstr "为 Z 轴添加动画"
+
+#: simple_audio_visualizer/__init__.py:19
+msgid "Animation"
+msgstr "动画"
+
+#: simple_audio_visualizer/__init__.py:355
+msgid "Apply animation data to selected objects in your scene by specifying which transform channels and axes will receive the data. The frequency bands are distributed between the number of selected objects and sorted in alphabetical order."
+msgstr "通过指定接收数据的变换通道和轴，将动画数据应用到场景中的选中物体。频段会在选中物体数量之间分配，并按字母顺序排序。"
+
+#: simple_audio_visualizer/__init__.py:290
+msgid "Audio File"
+msgstr "音频文件"
+
+#: simple_audio_visualizer/__init__.py:300
+msgid "Audio Visualizer Multiplier"
+msgstr "音频可视化乘数"
+
+#: simple_audio_visualizer/__init__.py:19
+msgid "Creates a simple audio visualizer"
+msgstr "创建简单的音频可视化效果"
+
+#: simple_audio_visualizer/__init__.py:557
+msgid "Generate New Objects"
+msgstr "生成新物体"
+
+#: simple_audio_visualizer/__init__.py:347
+msgid "Generate audio visualizer objects in your scene that will be animated based on the selected Audio File. Uses a logarithmic frequency distribution."
+msgstr "在场景中生成音频可视化物体，这些物体会根据所选音频文件播放动画。使用对数频率分布。"
+
+#: simple_audio_visualizer/__init__.py:307
+msgid "Location"
+msgstr "位置"
+
+#: simple_audio_visualizer/__init__.py:295
+msgid "Mirror Mode"
+msgstr "镜像模式"
+
+#: simple_audio_visualizer/__init__.py:300
+msgid "Multiplier for the animation's strength"
+msgstr "动画强度的乘数"
+
+#: simple_audio_visualizer/__init__.py:284
+msgid "Number of created objects. Higher values will increase calculation time."
+msgstr "创建的物体数量。数值越高，计算时间越长。"
+
+#: simple_audio_visualizer/__init__.py:284
+msgid "Number of cubes"
+msgstr "立方体数量"
+
+#: simple_audio_visualizer/__init__.py:295
+msgid "Offsets the origins of the cubes to create a mirror effect."
+msgstr "偏移立方体的原点以产生镜像效果。"
+
+#: simple_audio_visualizer/__init__.py:487
+msgid "Please select at least one transform (Loc/Rot/Scale) and one axis (X/Y/Z)."
+msgstr "请至少选择一个变换（位置/旋转/缩放）和一个轴（X/Y/Z）。"
+
+#: simple_audio_visualizer/__init__.py:376
+#: simple_audio_visualizer/__init__.py:475
+msgid "Please specify an audio file path first."
+msgstr "请先指定音频文件路径。"
+
+#: simple_audio_visualizer/__init__.py:312
+msgid "Rotation"
+msgstr "旋转"
+
+#: simple_audio_visualizer/__init__.py:317
+msgid "Scale"
+msgstr "缩放"
+
+#: simple_audio_visualizer/__init__.py:290
+msgid "Set the path to the audio file."
+msgstr "设置音频文件的路径。"
+
+#: simple_audio_visualizer/__init__.py:19
+#: simple_audio_visualizer/__init__.py:541
+msgid "Simple Audio Visualizer"
+msgstr "Simple Audio Visualizer"
+
+#: simple_audio_visualizer/__init__.py:322
+msgid "X"
+msgstr "X"
+
+#: simple_audio_visualizer/__init__.py:327
+msgid "Y"
+msgstr "Y"
+
+#: simple_audio_visualizer/__init__.py:332
+msgid "Z"
+msgstr "Z"
+
+#: simple_audio_visualizer/__init__.py:463
+msgctxt "Operator"
+msgid "Animate the selected objects based on the audio."
+msgstr "根据音频为选中物体添加动画。"
+
+#: simple_audio_visualizer/__init__.py:368
+msgctxt "Operator"
+msgid "Create Objects"
+msgstr "创建物体"
+
+#: simple_audio_visualizer/__init__.py:562
+msgctxt "Operator"
+msgid "Create Visualizer"
+msgstr "创建可视化器"
+
+#: simple_audio_visualizer/__init__.py:369
+msgctxt "Operator"
+msgid "Creates new cube objects and animates them to the audio"
+msgstr "创建新的立方体物体并根据音频为其添加动画"
+
+#: simple_audio_visualizer/__init__.py:462
+#: simple_audio_visualizer/__init__.py:587
+msgctxt "Operator"
+msgid "Visualize Selected Objects"
+msgstr "可视化选中物体"

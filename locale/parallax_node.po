@@ -1,0 +1,105 @@
+# perfect-chinese: 1
+# id: parallax_node
+# kind: addon
+# module: bl_ext.blender_org.parallax_node
+# name: Parallax Node
+# name_zh: 视差节点
+# translator: KeshiMiao
+# category: Material
+# supported_versions: >=5.0.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: nodes/shader/Parallax_Closure.py:28
+#: nodes/shader/Parallax_Image.py:34
+msgid "All cameras except for panoramic cameras"
+msgstr "除全景相机外的所有相机"
+
+#: nodes/shader/Parallax_Closure.py:29
+#: nodes/shader/Parallax_Image.py:35
+msgid "All panoramic cameras except for Mirror Ball"
+msgstr "除镜面球外的所有全景相机"
+
+#: nodes/shader/Parallax_Closure.py:22
+#: nodes/shader/Parallax_Image.py:28
+msgid "Camera Type"
+msgstr "相机类型"
+
+#: nodes/shader/Parallax_Closure.py:28
+#: nodes/shader/Parallax_Image.py:34
+msgid "Default - no fix"
+msgstr "默认 - 不修正"
+
+#: nodes/shader/Parallax_Image.py:13
+msgid "Elevation Image"
+msgstr "高度图图像"
+
+#: nodes/shader/Parallax_Image.py:13
+msgid "Image texture to use for elevation mapping"
+msgstr "用于高度贴图的图像纹理"
+
+#: nodes/shader/Parallax_Closure.py:30
+#: nodes/shader/Parallax_Image.py:36
+msgid "Mirror Ball"
+msgstr "镜面球"
+
+#: __init__.py:53
+msgid "No nodes available"
+msgstr "无可用节点"
+
+#: __init__.py:26
+msgid "Node"
+msgstr "节点"
+
+#: __init__.py:41
+msgid "Nodes for parallax mapping"
+msgstr "用于视差贴图的节点"
+
+#: nodes/shader/Parallax_Closure.py:29
+#: nodes/shader/Parallax_Image.py:35
+msgid "Panoramic"
+msgstr "全景"
+
+#: nodes/shader/Parallax_Closure.py:22
+#: nodes/shader/Parallax_Image.py:28
+msgid "Panoramic cameras a known to have wrong vector transform. \nIf you have panoramic camera, select the appropriate fix mode. \nMiror Ball for Miror Ball Panoramic mode, Panoramic for others"
+msgstr "已知全景相机的向量变换有误。\n若使用全景相机，请选择合适的修正模式。\n镜面球全景模式选“镜面球”，其他选“全景”"
+
+#: nodes/shader/Parallax_Closure.py:30
+#: nodes/shader/Parallax_Image.py:36
+msgid "Panoramic cameras with Mirror Ball mode"
+msgstr "使用镜面球模式的全景相机"
+
+#: nodes/shader/Parallax.py:6
+msgid "Parallax"
+msgstr "视差"
+
+#: __init__.py:26
+#: __init__.py:40
+msgid "Parallax Nodes"
+msgstr "视差节点"
+
+#: __init__.py:26
+msgid "Parallax nodes for blender"
+msgstr "Blender 视差节点"
+
+#: nodes/shader/Parallax_Closure.py:6
+msgid "Parallax: Closure"
+msgstr "视差：闭包"
+
+#: nodes/shader/Parallax_Image.py:6
+msgid "Parallax: Image Texture"
+msgstr "视差：图像纹理"
+
+#: nodes/shader/Parallax_Closure.py:15
+#: nodes/shader/Parallax_Closure.py:54
+msgid "UV Map"
+msgstr "UV 贴图"
+
+#: nodes/shader/Parallax_Closure.py:15
+#: nodes/shader/Parallax_Image.py:21
+msgid "UV layer to use for parallax mapping"
+msgstr "用于视差贴图的 UV 层"

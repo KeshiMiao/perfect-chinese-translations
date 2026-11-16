@@ -1,0 +1,961 @@
+# perfect-chinese: 1
+# id: lighthepler
+# kind: addon
+# module: bl_ext.blender_org.LightHepler
+# name: Light Helper
+# name_zh: 灯光助手
+# translator: KeshiMiao
+# category: Lighting
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: ui/panel.py:577
+msgid "0 keeps direct rays and blocks indirect rays of that type"
+msgstr "0 保留直接光线并阻挡该类型的间接光线"
+
+#: property.py:221
+msgid "Advanced HDRI mapping offset copied from the World"
+msgstr "从世界环境复制的 HDRI 映射偏移"
+
+#: property.py:229
+msgid "Advanced HDRI mapping scale copied from the World"
+msgstr "从世界环境复制的 HDRI 映射缩放"
+
+#: preferences.py:37
+#: preferences.py:69
+msgid "All"
+msgstr "全部"
+
+#: property.py:290
+msgid "Allow the environment dome to appear in glossy rays"
+msgstr "允许环境穹顶出现在光泽光线中"
+
+#: property.py:296
+msgid "Allow the environment dome to appear through transmission rays"
+msgstr "允许环境穹顶透过透射光线可见"
+
+#: property.py:284
+msgid "Allow the environment dome to contribute to diffuse rays"
+msgstr "允许环境穹顶对漫射光线产生贡献"
+
+#: property.py:302
+msgid "Allow the environment dome to contribute to volume scattering rays"
+msgstr "允许环境穹顶对体积散射光线产生贡献"
+
+#: preferences.py:84
+msgid "Animated switching without fixed zoom"
+msgstr "无固定缩放的动画切换"
+
+#: preferences.py:84
+msgid "Animation"
+msgstr "动画"
+
+#: preferences.py:91
+msgid "Auto Fix Shared Linking"
+msgstr "自动修复共享链接"
+
+#: property.py:160
+msgid "Base color of a solid-color world environment dome"
+msgstr "纯色世界环境穹顶的基础色"
+
+#: property.py:188
+msgid "Blend amount for the environment tint multiplier"
+msgstr "环境色调倍增的混合量"
+
+#: property.py:278
+msgid "Camera"
+msgstr "摄像机"
+
+#: property.py:178
+msgid "Color multiplier applied to the environment source"
+msgstr "应用于环境源的颜色倍增"
+
+#: ui/tool.py:462
+msgid "Ctrl+LClick: Switch Subject Mode (Light/Object)"
+msgstr "Ctrl+左键：切换主体模式（灯光/物体）"
+
+#: ui/panel.py:337
+msgid "Current type:"
+msgstr "当前类型："
+
+#: property.py:254
+#: property.py:284
+msgid "Diffuse"
+msgstr "漫射"
+
+#: preferences.py:37
+msgid "Display lights and objects that can emit light"
+msgstr "显示灯光和可发光的物体"
+
+#: property.py:476
+msgid "Do not draw link overlays"
+msgstr "不绘制链接叠加层"
+
+#: ui/panel.py:605
+msgid "Dome"
+msgstr "穹顶"
+
+#: ui/panel.py:605
+msgid "Dome and Mapping"
+msgstr "穹顶与映射"
+
+#: property.py:617
+#: property.py:622
+msgid "Drag and Drop to Add"
+msgstr "拖放以添加"
+
+#: ops/light_adjust.py:23
+msgid "EV"
+msgstr "EV"
+
+#: property.py:450
+msgid "Edit links affecting the selected object"
+msgstr "编辑影响所选物体的链接"
+
+#: property.py:449
+msgid "Edit links from the selected light"
+msgstr "编辑来自所选灯光的链接"
+
+#: preferences.py:39
+msgid "Emission Material"
+msgstr "发光材质"
+
+#: preferences.py:23
+msgid "Emission Node Search Depth"
+msgstr "发光节点搜索深度"
+
+#: property.py:170
+msgid "Emission strength of the world environment dome"
+msgstr "世界环境穹顶的发光强度"
+
+#: ui/panel.py:590
+msgid "Environment"
+msgstr "环境"
+
+#: property.py:160
+msgid "Environment Color"
+msgstr "环境颜色"
+
+#: property.py:32
+msgid "Exclude"
+msgstr "排除"
+
+#: property.py:197
+msgid "Gamma"
+msgstr "伽马"
+
+#: property.py:197
+msgid "Gamma correction applied to the environment source"
+msgstr "应用于环境源的伽马校正"
+
+#: preferences.py:70
+msgid "General"
+msgstr "常规"
+
+#: property.py:262
+#: property.py:290
+msgid "Glossy"
+msgstr "光泽"
+
+#: property.py:213
+msgid "HDRI mapping rotation"
+msgstr "HDRI 映射旋转"
+
+#: ui/panel.py:565
+msgid "HDRI: %s"
+msgstr "HDRI：%s"
+
+#: preferences.py:104
+#: property.py:512
+msgid "HUD X"
+msgstr "HUD X"
+
+#: preferences.py:111
+#: property.py:522
+msgid "HUD Y"
+msgstr "HUD Y"
+
+#: ui/ui_list.py:103
+#: ui/ui_list.py:250
+msgid "Hide Items Not in Scene"
+msgstr "隐藏不在场景中的项目"
+
+#: ui/ui_list.py:103
+msgid "Hide lights and emissive objects that are not shown in the current scene"
+msgstr "隐藏当前场景中未显示的灯光和发光物体"
+
+#: ui/ui_list.py:250
+msgid "Hide objects that are not shown in the current scene"
+msgstr "隐藏当前场景中未显示的物体"
+
+#: preferences.py:104
+#: property.py:512
+msgid "Horizontal position of the linking tool HUD"
+msgstr "链接工具 HUD 的水平位置"
+
+#: property.py:471
+msgid "How link lines and object outlines are drawn in the viewport"
+msgstr "视图中链接线和物体轮廓的绘制方式"
+
+#: property.py:31
+msgid "Include"
+msgstr "包含"
+
+#: property.py:26
+msgid "Include: only listed objects receive this light. Exclude: listed objects are excluded from this light"
+msgstr "包含：仅列出的物体接收此灯光。排除：列出的物体被排除在此灯光之外"
+
+#: ui/panel.py:742
+msgid "Influence"
+msgstr "影响"
+
+#: ui/panel.py:326
+msgid "Init light linking collections. In Exclude mode, listed objects are excluded from this light."
+msgstr "初始化灯光链接集合。在排除模式下，列出的物体被排除在此灯光之外。"
+
+#: ui/tool.py:421
+msgid "Interactive light linking tool. LClick: select/toggle link or switch object subject. Ctrl+LClick: switch subject mode. Esc: exit tool"
+msgstr "交互式灯光链接工具。左键：选择/切换链接或切换物体主体。Ctrl+左键：切换主体模式。Esc：退出工具"
+
+#: ui/panel.py:235
+#: ui/panel.py:404
+msgid "LH"
+msgstr "LH"
+
+#: preferences.py:38
+#: property.py:449
+msgid "Light"
+msgstr "灯光"
+
+#: ui/panel.py:249
+#: ui/tool.py:420
+msgid "Light Linking"
+msgstr "灯光链接"
+
+#: ui/panel.py:625
+msgid "Light Properties"
+msgstr "灯光属性"
+
+#: ui/ui_list.py:286
+msgid "Lights: %d"
+msgstr "灯光：%d"
+
+#: ui/ui_list.py:93
+#: ui/ui_list.py:102
+msgid "Link Count"
+msgstr "链接数量"
+
+#: preferences.py:64
+msgid "Link Filter Type"
+msgstr "链接过滤类型"
+
+#: ui/panel.py:440
+msgid "Linked Objects"
+msgstr "已链接物体"
+
+#: ui/tool.py:482
+#: ui/tool.py:548
+msgid "Linked items: %d"
+msgstr "已链接项目：%d"
+
+#: ui/tool.py:472
+#: ui/tool.py:538
+msgid "Linked lights: %d"
+msgstr "已链接灯光：%d"
+
+#: preferences.py:71
+msgid "Linking"
+msgstr "链接"
+
+#: property.py:26
+msgid "Linking Mode"
+msgstr "链接模式"
+
+#: property.py:416
+msgid "Linking Tool Active"
+msgstr "链接工具已激活"
+
+#: property.py:421
+msgid "Linking Tool Light"
+msgstr "链接工具灯光"
+
+#: preferences.py:97
+msgid "Linking Tool Max Outlines"
+msgstr "链接工具最大轮廓数"
+
+#: property.py:456
+msgid "Linking Tool Object"
+msgstr "链接工具物体"
+
+#: ui/ui_list.py:188
+msgid "Links: %d"
+msgstr "链接：%d"
+
+#: preferences.py:31
+msgid "List Filter Type"
+msgstr "列表过滤类型"
+
+#: property.py:32
+msgid "Listed objects are excluded from illumination and shadow linking"
+msgstr "列出的物体被排除在照明和阴影链接之外"
+
+#: property.py:314
+msgid "Lock Selection"
+msgstr "锁定选择"
+
+#: preferences.py:83
+msgid "Maintaining Zoom"
+msgstr "保持缩放"
+
+#: property.py:153
+msgid "Managed Fallback World"
+msgstr "托管的后备世界"
+
+#: property.py:221
+msgid "Mapping Location"
+msgstr "映射位置"
+
+#: property.py:229
+msgid "Mapping Scale"
+msgstr "映射缩放"
+
+#: property.py:254
+msgid "Maximum diffuse indirect ray depth allowed to see the environment dome"
+msgstr "允许看到环境穹顶的最大漫射间接光线深度"
+
+#: property.py:262
+msgid "Maximum glossy indirect ray depth allowed to see the environment dome"
+msgstr "允许看到环境穹顶的最大光泽间接光线深度"
+
+#: preferences.py:97
+msgid "Maximum number of linked targets to draw outlines for. Lines are always drawn"
+msgstr "绘制轮廓的已链接目标最大数量。线条始终绘制"
+
+#: preferences.py:23
+msgid "Maximum recursion depth when walking material node trees to detect emissive objects shown in the light list. Higher values may cause stuttering with complex materials"
+msgstr "遍历材质节点树以检测灯光列表中发光物体时的最大递归深度。复杂材质下较高的值可能导致卡顿"
+
+#: property.py:246
+msgid "Maximum total indirect ray depth allowed to see the environment dome; 0 keeps direct rays only"
+msgstr "允许看到环境穹顶的最大总间接光线深度；0 仅保留直接光线"
+
+#: property.py:270
+msgid "Maximum transmission indirect ray depth allowed to see the environment dome"
+msgstr "允许看到环境穹顶的最大透射间接光线深度"
+
+#: ui/ui_list.py:94
+#: ui/ui_list.py:245
+msgid "Name"
+msgstr "名称"
+
+#: ui/panel.py:304
+#: ui/tool.py:486
+msgid "No light selected"
+msgstr "未选择灯光"
+
+#: ui/panel.py:442
+msgid "No linked objects"
+msgstr "无链接物体"
+
+#: ui/panel.py:471
+msgid "No linking lights are affecting this object"
+msgstr "没有影响此物体的灯光链接"
+
+#: ui/tool.py:474
+#: ui/tool.py:540
+msgid "No object selected"
+msgstr "未选择物体"
+
+#: preferences.py:82
+msgid "None"
+msgstr "无"
+
+#: property.py:450
+msgid "Object"
+msgstr "物体"
+
+#: ui/panel.py:415
+msgid "Object Linking"
+msgstr "物体链接"
+
+#: property.py:476
+msgid "Off"
+msgstr "关闭"
+
+#: preferences.py:71
+msgid "Only light links are displayed"
+msgstr "仅显示灯光链接"
+
+#: property.py:31
+msgid "Only listed objects receive illumination and shadow linking"
+msgstr "仅列出的物体接收照明和阴影链接"
+
+#: preferences.py:39
+msgid "Only luminous materials are displayed"
+msgstr "仅显示发光材质"
+
+#: preferences.py:70
+msgid "Only non-light links are displayed"
+msgstr "仅显示非灯光链接"
+
+#: preferences.py:82
+msgid "Only select; do not move the view"
+msgstr "仅选择，不移动视图"
+
+#: preferences.py:38
+msgid "Only show lights"
+msgstr "仅显示灯光"
+
+#: property.py:477
+msgid "Only show links for the current subject"
+msgstr "仅显示当前主体的链接"
+
+#: preferences.py:91
+msgid "Opt in to splitting shared light-linking collections for explicitly detected duplicates; never runs while opening a file"
+msgstr "选择启用拆分共享灯光链接集合，仅针对明确检测到的重复项；打开文件时从不运行"
+
+#: property.py:149
+msgid "Original World"
+msgstr "原始世界"
+
+#: property.py:471
+msgid "Overlay Mode"
+msgstr "叠加模式"
+
+#: preferences.py:22
+msgid "Panel Name"
+msgstr "面板名称"
+
+#: property.py:137
+#: property.py:138
+msgid "Pin"
+msgstr "固定"
+
+#: ui/panel.py:299
+msgid "Pinned light source is unavailable in the current renderer"
+msgstr "固定的光源在当前渲染器中不可用"
+
+#: ui/panel.py:336
+msgid "Please select a light or an object that can be illuminated"
+msgstr "请选择灯光或可被照明的物体"
+
+#: property.py:314
+msgid "Prevent accidental selection of the large environment dome"
+msgstr "防止误选大型环境穹顶"
+
+#: property.py:237
+msgid "Radius"
+msgstr "半径"
+
+#: property.py:237
+msgid "Radius of the generated inward-facing environment sphere"
+msgstr "生成的朝内环境球体半径"
+
+#: ui/panel.py:570
+msgid "Ray Depth Limits (Cycles)"
+msgstr "光线深度限制（Cycles）"
+
+#: ui/panel.py:580
+msgid "Ray Visibility"
+msgstr "光线可见性"
+
+#: ui/ui_list.py:101
+msgid "Render"
+msgstr "渲染"
+
+#: preferences.py:168
+msgid "Restore clears light linking collections and resets default lighting behavior."
+msgstr "恢复将清除灯光链接集合并重置默认照明行为。"
+
+#: property.py:213
+msgid "Rotation"
+msgstr "旋转"
+
+#: property.py:205
+msgid "Saturation"
+msgstr "饱和度"
+
+#: property.py:205
+msgid "Saturation applied to the environment source"
+msgstr "应用到环境源的饱和度"
+
+#: preferences.py:123
+msgid "Scale of the linking tool shortcut tip HUD in the viewport"
+msgstr "视图中链接工具快捷键提示 HUD 的缩放"
+
+#: property.py:477
+msgid "Selected"
+msgstr "已选择"
+
+#: ui/panel.py:670
+msgid "Settings"
+msgstr "设置"
+
+#: ui/panel.py:714
+msgid "Shadow"
+msgstr "阴影"
+
+#: preferences.py:123
+msgid "Shortcut Tip Scale"
+msgstr "快捷键提示缩放"
+
+#: ui/tool.py:451
+msgid "Shortcuts"
+msgstr "快捷键"
+
+#: property.py:50
+msgid "Show"
+msgstr "显示"
+
+#: property.py:139
+msgid "Show Linked Objects List"
+msgstr "显示链接物体列表"
+
+#: property.py:488
+msgid "Show Shortcuts"
+msgstr "显示快捷键"
+
+#: preferences.py:69
+msgid "Show all"
+msgstr "显示全部"
+
+#: property.py:478
+msgid "Show all links; inactive links at reduced opacity"
+msgstr "显示所有链接；非活动链接降低不透明度"
+
+#: property.py:81
+msgid "Show in Render"
+msgstr "在渲染中显示"
+
+#: property.py:69
+#: property.py:308
+msgid "Show in Viewport"
+msgstr "在视图中显示"
+
+#: property.py:488
+msgid "Show shortcut tips in the viewport"
+msgstr "在视图中显示快捷键提示"
+
+#: property.py:278
+msgid "Show the environment dome to camera rays"
+msgstr "对摄像机光线显示环境穹顶"
+
+#: property.py:308
+msgid "Show the generated environment dome in the viewport"
+msgstr "在视图中显示生成的环境穹顶"
+
+#: property.py:139
+msgid "Show the linked objects UI list in the Object Linking panel"
+msgstr "在物体链接面板中显示链接物体 UI 列表"
+
+#: property.py:406
+msgid "Solo Light"
+msgstr "单独灯光"
+
+#: ui/ui_list.py:263
+msgid "Sort Type"
+msgstr "排序类型"
+
+#: ui/panel.py:542
+msgid "Source World: %s"
+msgstr "源世界：%s"
+
+#: ui/panel.py:567
+msgid "Source: Solid Color"
+msgstr "源：纯色"
+
+#: property.py:170
+msgid "Strength"
+msgstr "强度"
+
+#: property.py:444
+msgid "Subject Mode"
+msgstr "主体模式"
+
+#: ui/panel.py:616
+msgid "Sun exclusions are internal and do not replace user-authored links"
+msgstr "太阳排除项为内部使用，不会替换用户创建的链接"
+
+#: ui/panel.py:615
+msgid "Sun exclusions are synchronized automatically"
+msgstr "太阳排除项会自动同步"
+
+#: ops/tool_linking.py:59
+msgid "Switch Subject Mode"
+msgstr "切换主体模式"
+
+#: preferences.py:83
+msgid "Switch view position directly, with no animation"
+msgstr "直接切换视图位置，无动画"
+
+#: ui/panel.py:543
+msgid "The HDRI or solid-color source is detected when conversion starts"
+msgstr "转换开始时检测 HDRI 或纯色源"
+
+#: ui/panel.py:539
+msgid "The current scene has no World"
+msgstr "当前场景没有世界"
+
+#: ui/panel.py:277
+#: ui/tool.py:495
+msgid "This rendering engine does not support light linking"
+msgstr "此渲染引擎不支持灯光链接"
+
+#: property.py:178
+msgid "Tint"
+msgstr "着色"
+
+#: property.py:188
+msgid "Tint Factor"
+msgstr "着色系数"
+
+#: property.py:246
+msgid "Total"
+msgstr "总计"
+
+#: property.py:270
+#: property.py:296
+msgid "Transmission"
+msgstr "透射"
+
+#: ui/ui_list.py:92
+#: ui/ui_list.py:99
+msgid "Type"
+msgstr "类型"
+
+#: preferences.py:164
+msgid "Use Exclude mode to omit listed objects from a light, or Include mode to affect only listed objects."
+msgstr "使用排除模式可从灯光中忽略列出的物体，或使用包含模式仅影响列出的物体。"
+
+#: ui/ui_list.py:87
+#: ui/ui_list.py:238
+msgid "Use Sort"
+msgstr "使用排序"
+
+#: preferences.py:143
+msgid "Version lower than 4.3.0, only the Cycles renderer can set light exclusion"
+msgstr "版本低于 4.3.0，仅 Cycles 渲染器可设置灯光排除"
+
+#: preferences.py:111
+#: property.py:522
+msgid "Vertical position of the linking tool HUD"
+msgstr "链接工具 HUD 的垂直位置"
+
+#: ui/ui_list.py:100
+msgid "View"
+msgstr "视图"
+
+#: preferences.py:77
+msgid "View Movement Type"
+msgstr "视图移动类型"
+
+#: property.py:302
+msgid "Volume Scatter"
+msgstr "体积散射"
+
+#: property.py:444
+msgid "Whether the tool edits links from a light or from an object"
+msgstr "工具是从灯光还是从物体编辑链接"
+
+#: property.py:145
+msgid "World Environment Dome"
+msgstr "世界环境穹顶"
+
+#: ui/panel.py:502
+msgid "World Environment Linking"
+msgstr "世界环境链接"
+
+#: ops/panel_linking.py:115
+msgctxt "Operator"
+msgid "Add"
+msgstr "添加"
+
+#: ops/panel_linking.py:224
+msgctxt "Operator"
+msgid "Add Selected Objects"
+msgstr "添加所选物体"
+
+#: ops/panel_linking.py:225
+msgctxt "Operator"
+msgid "Add the currently selected objects to the light linking collections"
+msgstr "将当前选中的物体添加到灯光链接集合"
+
+#: ops/light_adjust.py:19
+msgctxt "Operator"
+msgid "Adjust Light EV"
+msgstr "调整灯光 EV"
+
+#: ops/maintenance.py:9
+msgctxt "Operator"
+msgid "Clean Up Legacy Data"
+msgstr "清理旧版数据"
+
+#: ops/panel_linking.py:80
+msgctxt "Operator"
+msgid "Clear"
+msgstr "清除"
+
+#: ops/panel_linking.py:251
+msgctxt "Operator"
+msgid "Clear Selected Links"
+msgstr "清除选中的链接"
+
+#: ops/panel_linking.py:81
+msgctxt "Operator"
+msgid "Clear light linking collections and restore default lighting behavior"
+msgstr "清除灯光链接集合并恢复默认照明行为"
+
+#: ops/panel_linking.py:252
+msgctxt "Operator"
+msgid "Clear light linking for all selected lights"
+msgstr "清除所有选中灯光的灯光链接"
+
+#: ops/world_environment.py:9
+msgctxt "Operator"
+msgid "Convert World Environment"
+msgstr "转换世界环境"
+
+#: ops/world_environment.py:10
+msgctxt "Operator"
+msgid "Convert the connected World HDRI or solid Background color into one code-generated, linkable inward-facing environment sphere"
+msgstr "将连接的世界 HDRI 或纯色背景颜色转换为一个由代码生成、可链接且朝内的环境球"
+
+#: ops/tool_linking.py:346
+msgctxt "Operator"
+msgid "Cycle Overlay"
+msgstr "循环叠加层"
+
+#: ops/tool_linking.py:380
+msgctxt "Operator"
+msgid "Cycle Subject"
+msgstr "循环主体"
+
+#: ops/tool_linking.py:347
+msgctxt "Operator"
+msgid "Cycle overlay mode: Off, Selected, All"
+msgstr "循环叠加模式：关闭、选中、全部"
+
+#: ops/tool_linking.py:230
+msgctxt "Operator"
+msgid "Drag to reposition the linking tool HUD"
+msgstr "拖动以重新定位链接工具 HUD"
+
+#: ops/world_environment.py:111
+msgctxt "Operator"
+msgid "Ensure every Sun in the current scene excludes the managed environment dome without changing user links"
+msgstr "确保当前场景中的每个太阳光都排除受管理的环境穹顶，且不更改用户链接"
+
+#: ops/tool_linking.py:367
+msgctxt "Operator"
+msgid "Exit Tool"
+msgstr "退出工具"
+
+#: ops/tool_linking.py:368
+msgctxt "Operator"
+msgid "Exit to the previous tool, or the first tool if none was active"
+msgstr "退出到上一个工具；如果没有活动工具，则退出到第一个工具"
+
+#: ui/panel.py:331
+#: ui/ui_list.py:197
+msgctxt "Operator"
+msgid "Init"
+msgstr "初始化"
+
+#: ops/maintenance.py:75
+msgctxt "Operator"
+msgid "Init All Lights"
+msgstr "初始化所有灯光"
+
+#: ops/maintenance.py:76
+msgctxt "Operator"
+msgid "Initialize light linking collections for all lights in the scene"
+msgstr "为场景中的所有灯光初始化灯光链接集合"
+
+#: ops/panel_linking.py:116
+msgctxt "Operator"
+msgid "Initialize light linking collections for this light"
+msgstr "为此灯光初始化灯光链接集合"
+
+#: ops/maintenance.py:39
+msgctxt "Operator"
+msgid "Instance Data"
+msgstr "实例数据"
+
+#: ops/filter_ops.py:37
+msgctxt "Operator"
+msgid "Invert"
+msgstr "反转"
+
+#: ops/filter_ops.py:38
+msgctxt "Operator"
+msgid "Invert viewport visibility for each filtered light in the list"
+msgstr "反转列表中每个筛选灯光的视图可见性"
+
+#: ops/tool_linking.py:55
+msgctxt "Operator"
+msgid "Light Linking Pick"
+msgstr "灯光链接拾取"
+
+#: ops/maintenance.py:96
+msgctxt "Operator"
+msgid "Make All Single-User"
+msgstr "全部设为单用户"
+
+#: ops/maintenance.py:97
+msgctxt "Operator"
+msgid "Make shared light linking collections single-user for all lights in the scene"
+msgstr "为场景中的所有灯光将共享的灯光链接集合设为单用户"
+
+#: ops/maintenance.py:40
+msgctxt "Operator"
+msgid "Make shared light linking collections single-user for this light"
+msgstr "为此灯光将共享的灯光链接集合设为单用户"
+
+#: ops/tool_linking.py:229
+msgctxt "Operator"
+msgid "Move Linking HUD"
+msgstr "移动链接 HUD"
+
+#: ops/light_adjust.py:20
+msgctxt "Operator"
+msgid "Multiply selected light energy by 2^EV"
+msgstr "将选中灯光的能量乘以 2^EV"
+
+#: ops/panel_linking.py:19
+msgctxt "Operator"
+msgid "Remove"
+msgstr "移除"
+
+#: ops/maintenance.py:10
+msgctxt "Operator"
+msgid "Remove leftover data from older Light Helper versions and update light linking settings"
+msgstr "移除旧版 Light Helper 的遗留数据并更新灯光链接设置"
+
+#: ops/panel_linking.py:20
+msgctxt "Operator"
+msgid "Remove the object or collection from light linking lists"
+msgstr "从灯光链接列表中移除物体或集合"
+
+#: ops/light_adjust.py:49
+msgctxt "Operator"
+msgid "Reset HUD Position"
+msgstr "重置 HUD 位置"
+
+#: ops/light_adjust.py:50
+msgctxt "Operator"
+msgid "Reset the linking tool HUD to the default corner position"
+msgstr "将链接工具 HUD 重置到默认角落位置"
+
+#: ui/ui_list.py:193
+msgctxt "Operator"
+msgid "Restore"
+msgstr "恢复"
+
+#: ops/world_environment.py:73
+msgctxt "Operator"
+msgid "Restore Original World"
+msgstr "恢复原始世界"
+
+#: ops/world_environment.py:74
+msgctxt "Operator"
+msgid "Restore the original World and remove only the environment-dome data managed by Light Helper"
+msgstr "恢复原始世界，并仅移除 Light Helper 管理的环境穹顶数据"
+
+#: ops/selection.py:15
+msgctxt "Operator"
+msgid "Select"
+msgstr "选择"
+
+#: ops/world_environment.py:137
+msgctxt "Operator"
+msgid "Select Environment Dome"
+msgstr "选择环境穹顶"
+
+#: ops/tool_linking.py:56
+msgctxt "Operator"
+msgid "Select subject or toggle light linking"
+msgstr "选择主体或切换灯光链接"
+
+#: ops/world_environment.py:138
+msgctxt "Operator"
+msgid "Select the managed environment dome in the current view layer"
+msgstr "在当前视图层中选择受管理的环境穹顶"
+
+#: ops/selection.py:16
+msgctxt "Operator"
+msgid "Select the object in the viewport or the collection in the outliner"
+msgstr "在视图中选择物体，或在大纲视图中选择集合"
+
+#: ops/light_adjust.py:75
+msgctxt "Operator"
+msgid "Show only this light; press again to restore"
+msgstr "仅显示此灯光；再次按下以恢复"
+
+#: ops/light_adjust.py:74
+msgctxt "Operator"
+msgid "Solo Light"
+msgstr "单独显示灯光"
+
+#: ops/filter_ops.py:9
+msgctxt "Operator"
+msgid "Switch Filter Show"
+msgstr "切换过滤器显示"
+
+#: ops/tool_linking.py:308
+msgctxt "Operator"
+msgid "Switch between Exclude and Include mode"
+msgstr "在排除和包含模式之间切换"
+
+#: ops/tool_linking.py:381
+msgctxt "Operator"
+msgid "Switch to previous or next filtered light or object"
+msgstr "切换到上一个或下一个筛选出的灯光或物体"
+
+#: ops/world_environment.py:110
+msgctxt "Operator"
+msgid "Sync Sun Exclusions"
+msgstr "同步太阳光排除项"
+
+#: ops/panel_linking.py:173
+msgctxt "Operator"
+msgid "Toggle"
+msgstr "切换"
+
+#: ops/tool_linking.py:277
+msgctxt "Operator"
+msgid "Toggle Light Channel"
+msgstr "切换灯光通道"
+
+#: ops/tool_linking.py:307
+msgctxt "Operator"
+msgid "Toggle Linking Mode"
+msgstr "切换链接模式"
+
+#: ops/tool_linking.py:292
+msgctxt "Operator"
+msgid "Toggle Shadow Channel"
+msgstr "切换阴影通道"
+
+#: ops/panel_linking.py:174
+msgctxt "Operator"
+msgid "Toggle illumination or shadow channel for this object"
+msgstr "切换此物体的照明或阴影通道"
+
+#: ops/tool_linking.py:278
+msgctxt "Operator"
+msgid "Toggle the light channel for the object under the cursor"
+msgstr "切换光标下物体的灯光通道"
+
+#: ops/tool_linking.py:293
+msgctxt "Operator"
+msgid "Toggle the shadow channel for the object under the cursor"
+msgstr "切换光标下物体的阴影通道"
+
+#: ops/filter_ops.py:10
+msgctxt "Operator"
+msgid "Toggle viewport visibility for all filtered lights in the list"
+msgstr "切换列表中所有筛选灯光的视图可见性"

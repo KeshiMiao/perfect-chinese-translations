@@ -1,0 +1,307 @@
+# perfect-chinese: 1
+# id: bbrush
+# kind: addon
+# module: bl_ext.blender_org.Bbrush
+# name: Bbrush
+# name_zh: 笔刷雕刻
+# translator: KeshiMiao
+# category: Sculpt
+# supported_versions: >=4.4.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: Bbrush/__init__.py:3
+msgid "AIGODLIKE"
+msgstr "AIGODLIKE"
+
+#: Bbrush/utils/__init__.py:13
+msgid "Always display"
+msgstr "始终显示"
+
+#: Bbrush/preferences/__init__.py:28
+msgid "Always use Bbrush sculpting mode"
+msgstr "始终使用 Bbrush 雕刻模式"
+
+#: Bbrush/__init__.py:3
+msgid "Bbrush"
+msgstr "Bbrush"
+
+#: Bbrush/sculpt/brush/shape.py:494
+msgid "Brush not found for shape gesture"
+msgstr "未找到用于形状手势的笔刷"
+
+#: Bbrush/preferences/__init__.py:37
+msgid "Check if the mouse is placed over the model, mouse cursor range size"
+msgstr "检查鼠标是否位于模型上方，以及鼠标光标范围大小"
+
+#: Bbrush/preferences/__init__.py:53
+msgid "Compensate for mouse position movement during drawing"
+msgstr "绘制时补偿鼠标位置移动"
+
+#: Bbrush/preferences/__init__.py:61
+msgid "Debug"
+msgstr "调试"
+
+#: Bbrush/preferences/view_navigation_property.py:50
+msgid "Depth"
+msgstr "深度"
+
+#: Bbrush/preferences/__init__.py:37
+msgid "Depth ray check size(px)"
+msgstr "深度射线检查大小（像素）"
+
+#: Bbrush/preferences/view_navigation_gizmo.py:7
+msgid "Display Mode"
+msgstr "显示模式"
+
+#: Bbrush/preferences/shortcut_key.py:10
+msgid "Display shortcut keys"
+msgstr "显示快捷键"
+
+#: Bbrush/utils/__init__.py:16
+msgid "Display silhouette images only in Bbrush mode"
+msgstr "仅在 Bbrush 模式下显示剪影图像"
+
+#: Bbrush/utils/__init__.py:15
+msgid "Display silhouette images only in sculpting mode"
+msgstr "仅在雕刻模式下显示剪影图像"
+
+#: Bbrush/preferences/topbar.py:5
+msgid "Display top text"
+msgstr "显示顶部文字"
+
+#: Bbrush/preferences/__init__.py:53
+msgid "Drag offset compensation"
+msgstr "拖拽偏移补偿"
+
+#: Bbrush/preferences/__init__.py:52
+msgid "Enabled drag offset compensation"
+msgstr "启用拖拽偏移补偿"
+
+#: Bbrush/preferences/__init__.py:28
+msgid "If entering sculpting mode, Bbrush mode will automatically activate; if exiting sculpting mode, Bbrush mode will deactivate"
+msgstr "进入雕刻模式时自动激活 Bbrush 模式；退出雕刻模式时停用 Bbrush 模式"
+
+#: Bbrush/utils/__init__.py:13
+msgid "Keep the silhouette displayed all the time, even when not in sculpting mode"
+msgstr "始终显示剪影图像，即使不在雕刻模式下"
+
+#: Bbrush/preferences/__init__.py:44
+msgid "Minimum cursor travel (screen pixels) from press position to count as a move; 0 = any non-zero movement"
+msgstr "光标从按下位置移动的最小距离（屏幕像素）才计为移动；0 = 任意非零移动"
+
+#: Bbrush/preferences/__init__.py:44
+msgid "Mouse move threshold (px)"
+msgstr "鼠标移动阈值（像素）"
+
+#: Bbrush/utils/__init__.py:17
+msgid "Never display silhouette images at any time"
+msgstr "任何时候都不显示剪影图像"
+
+#: Bbrush/utils/__init__.py:17
+msgid "Not Display"
+msgstr "不显示"
+
+#: Bbrush/utils/__init__.py:16
+msgid "Only Bbrush"
+msgstr "仅 Bbrush"
+
+#: Bbrush/utils/__init__.py:15
+msgid "Only Sculpt"
+msgstr "仅雕刻"
+
+#: Bbrush/preferences/view_navigation_property.py:49
+msgid "Perspective"
+msgstr "透视"
+
+#: Bbrush/preferences/__init__.py:72
+msgid "Sculpt"
+msgstr "雕刻"
+
+#: Bbrush/__init__.py:3
+msgid "Sculpting using only a pen and keyboard"
+msgstr "仅用笔和键盘进行雕刻"
+
+#: Bbrush/preferences/shortcut_key.py:29
+msgid "Shortcut"
+msgstr "快捷键"
+
+#: Bbrush/preferences/shortcut_key.py:15
+msgid "Shortcut Key Portability"
+msgstr "快捷键可移植性"
+
+#: Bbrush/preferences/shortcut_key.py:17
+msgid "Shortcut key display size"
+msgstr "快捷键显示大小"
+
+#: Bbrush/preferences/shortcut_key.py:19
+msgid "Shortcut key offset"
+msgstr "快捷键偏移"
+
+#: Bbrush/preferences/view_navigation_gizmo.py:21
+msgid "Show tips"
+msgstr "显示提示"
+
+#: Bbrush/preferences/depth_map.py:45
+msgid "Silhouette"
+msgstr "剪影"
+
+#: Bbrush/preferences/depth_map.py:22
+msgid "Silhouette Display Mode"
+msgstr "剪影显示模式"
+
+#: Bbrush/preferences/depth_map.py:35
+msgid "Silhouette image offset"
+msgstr "剪影图像偏移"
+
+#: Bbrush/preferences/depth_map.py:29
+msgid "Silhouette image scaling"
+msgstr "剪影图像缩放"
+
+#: Bbrush/preferences/__init__.py:84
+msgid "Tips:Automatically enter Bbrush mode when entering carving mode"
+msgstr "提示：进入雕刻模式时自动进入 Bbrush 模式"
+
+#: Bbrush/preferences/topbar.py:9
+msgid "Top bar"
+msgstr "顶栏"
+
+#: Bbrush/preferences/view_navigation_property.py:15
+msgid "Use view pref"
+msgstr "使用视图偏好"
+
+#: Bbrush/gizmo/view_navigation_gizmo.py:18
+msgid "VIEW3D_GT_view_navigation"
+msgstr "VIEW3D_GT_view_navigation"
+
+#: Bbrush/preferences/view_navigation_property.py:37
+msgid "View"
+msgstr "视图"
+
+#: Bbrush/gizmo/view_navigation_gizmo.py:199
+msgid "View Gizmo"
+msgstr "视图小部件"
+
+#: Bbrush/preferences/view_navigation_gizmo.py:25
+msgid "View Navigation"
+msgstr "视图导航"
+
+#: Bbrush/preferences/view_navigation_gizmo.py:14
+msgid "View navigation offset"
+msgstr "视图导航偏移"
+
+#: Bbrush/preferences/view_navigation_gizmo.py:12
+msgid "View navigation scale"
+msgstr "视图导航缩放"
+
+#: Bbrush/preferences/view_navigation_property.py:56
+msgid "View preferences used when entering Bbrush mode"
+msgstr "进入 Bbrush 模式时使用的视图偏好"
+
+#: Bbrush/sculpt/__init__.py:164
+msgctxt "Operator"
+msgid "BBrush fix"
+msgstr "BBrush 修复"
+
+#: Bbrush/sculpt/brush/click.py:9
+msgctxt "Operator"
+msgid "Bbrush Click"
+msgstr "Bbrush 单击"
+
+#: Bbrush/sculpt/__init__.py:112
+msgctxt "Operator"
+msgid "Bbrush Exit"
+msgstr "Bbrush 退出"
+
+#: Bbrush/sculpt/left_mouse.py:14
+msgctxt "Operator"
+msgid "Bbrush Left Mouse"
+msgstr "Bbrush 左键"
+
+#: Bbrush/sculpt/right_mouse.py:10
+msgctxt "Operator"
+msgid "Bbrush Right Mouse"
+msgstr "Bbrush 右键"
+
+#: Bbrush/sculpt/brush/shape.py:471
+msgctxt "Operator"
+msgid "Bbrush Shape Gesture"
+msgstr "Bbrush 形状手势"
+
+#: Bbrush/sculpt/__init__.py:60
+msgctxt "Operator"
+msgid "Bbrush Start"
+msgstr "Bbrush 启动"
+
+#: Bbrush/sculpt/update_brush_shelf.py:119
+msgctxt "Operator"
+msgid "Bbrush Update Brush Shelf"
+msgstr "Bbrush 更新笔刷架"
+
+#: Bbrush/sculpt/brush/depth.py:10
+msgctxt "Operator"
+msgid "Depth Scale"
+msgstr "深度缩放"
+
+#: Bbrush/sculpt/brush/shape.py:472
+msgctxt "Operator"
+msgid "Draw mask or hide shape gestures for supported sculpt tools"
+msgstr "为支持的雕刻工具绘制遮罩或隐藏形状手势"
+
+#: Bbrush/preferences/__init__.py:88
+msgctxt "Operator"
+msgid "Encountering a problem?"
+msgstr "遇到问题？"
+
+#: Bbrush/sculpt/__init__.py:61
+msgctxt "Operator"
+msgid "Enter Bbrush sculpting mode with pen-friendly shortcuts"
+msgstr "使用适合笔的快捷键进入 Bbrush 雕刻模式"
+
+#: Bbrush/sculpt/brush/click.py:10
+msgctxt "Operator"
+msgid "Handle click actions for mask and hide brush shelf modes"
+msgstr "处理遮罩和隐藏笔刷架模式下的单击操作"
+
+#: Bbrush/sculpt/__init__.py:113
+msgctxt "Operator"
+msgid "Leave Bbrush sculpting mode and restore tool shelf settings"
+msgstr "退出 Bbrush 雕刻模式并恢复工具架设置"
+
+#: Bbrush/sculpt/left_mouse.py:15
+msgctxt "Operator"
+msgid "Left mouse sculpting and view navigation in Bbrush mode"
+msgstr "Bbrush 模式下的左键雕刻与视图导航"
+
+#: Bbrush/sculpt/__init__.py:165
+msgctxt "Operator"
+msgid "Reset Bbrush runtime state (tool shelf, shortcuts, navigation prefs). Available in sculpt mode only; Bbrush does not need to be active"
+msgstr "重置 Bbrush 运行时状态（工具架、快捷键、导航偏好）。仅在雕刻模式下可用；无需激活 Bbrush"
+
+#: Bbrush/sculpt/right_mouse.py:11
+msgctxt "Operator"
+msgid "Right mouse view navigation and sculpt context menu in Bbrush mode"
+msgstr "Bbrush 模式下的右键视图导航与雕刻上下文菜单"
+
+#: Bbrush/sculpt/brush/depth.py:24
+msgctxt "Operator"
+msgid "Rotate View/Depth Move"
+msgstr "旋转视图/深度移动"
+
+#: Bbrush/sculpt/brush/shortcut_key.py:38
+msgctxt "Operator"
+msgid "Shortcut Key Move"
+msgstr "快捷键移动"
+
+#: Bbrush/sculpt/brush/shortcut_key.py:10
+msgctxt "Operator"
+msgid "Shortcut Key Scale"
+msgstr "快捷键缩放"
+
+#: Bbrush/sculpt/update_brush_shelf.py:120
+msgctxt "Operator"
+msgid "Switch sculpt tool shelf layout based on Ctrl, Alt, and Shift modifier keys"
+msgstr "根据 Ctrl、Alt 和 Shift 修饰键切换雕刻工具架布局"

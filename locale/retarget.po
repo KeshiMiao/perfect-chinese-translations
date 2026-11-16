@@ -1,0 +1,4901 @@
+# perfect-chinese: 1
+# id: retarget
+# kind: addon
+# module: bl_ext.blender_org.retarget
+# name: Retarget
+# name_zh: 重定向
+# translator: KeshiMiao
+# category: Animation
+# supported_versions: >=5.0.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: retarget/operators.py:11849
+msgid "'Root' is the recommended name, it will make it compatible with other features (it will automatically add the prefix if it's not specified)"
+msgstr "“Root”是推荐名称，它将兼容其他功能（未指定时会自动添加前缀）"
+
+#: retarget/operators.py:10212
+msgid "(Only remove constraints created with 'Bind to Active Armature')"
+msgstr "（仅移除通过“绑定到活动骨架”创建的约束）"
+
+#: retarget/operators.py:10518
+msgid "(Only remove constraints with mark below)"
+msgstr "（仅移除下方标记的约束）"
+
+#: retarget/operators.py:7499
+msgid "(This Aligns Only The Arm) [Experimental]"
+msgstr "（仅对齐手臂）[实验性]"
+
+#: retarget/operators.py:10501
+msgid "(When it is false, it only includes contrained bones created with 'Bind to Active Armature')"
+msgstr "（当为 false 时，仅包含通过“绑定到活动骨架”创建的受约束骨骼）"
+
+#: retarget/operators.py:7512
+#: retarget/operators.py:7552
+msgid "- None -"
+msgstr "- 无 -"
+
+#: retarget/operators.py:31
+msgid "--"
+msgstr "--"
+
+#: retarget/anim_aide/curve_tools/ui.py:90
+msgid "-1"
+msgstr "-1"
+
+#: retarget/properties.py:63
+msgid "A"
+msgstr "A"
+
+#: retarget/ui.py:981
+msgid "A object is hidden"
+msgstr "一个物体已隐藏"
+
+#: retarget/anim_aide/anim_offset/ui.py:132
+msgid "ANIM"
+msgstr "动画"
+
+#: retarget/operators.py:2335
+msgid "APPLY"
+msgstr "应用"
+
+#: retarget/operators.py:7513
+msgid "Account for difference between control and deform rest pose (Requires similar proportions and Y bone-axis)"
+msgstr "考虑控制与变形静置姿态的差异（需要相似比例和骨骼 Y 轴）"
+
+#: retarget/anim_aide/key_manager/ops.py:168
+#: retarget/anim_aide/key_manager/ops.py:265
+msgid "Act on"
+msgstr "作用于"
+
+#: retarget/anim_aide/key_manager/props.py:115
+msgid "Act-on"
+msgstr "作用对象"
+
+#: retarget/operators.py:2450
+#: retarget/operators.py:3668
+msgid "Action"
+msgstr "动作"
+
+#: retarget/operators.py:12098
+msgid "Action End"
+msgstr "动作结束"
+
+#: retarget/action/property.py:129
+msgid "Action In Asset Browser"
+msgstr "资产浏览器中的动作"
+
+#: retarget/preferences.py:280
+#: retarget/action/ui.py:172
+msgid "Action Manager"
+msgstr "动作管理器"
+
+#: retarget/preferences.py:280
+#: retarget/ui.py:30
+msgid "Action Manager Tab"
+msgstr "动作管理器标签页"
+
+#: retarget/action/ops.py:1881
+#: retarget/action/ops.py:2546
+msgid "Action Name"
+msgstr "动作名称"
+
+#: retarget/ui.py:410
+msgid "Action Name Candidates"
+msgstr "动作名称候选项"
+
+#: retarget/operators.py:212
+#: retarget/operators.py:2399
+msgid "Action Range to Scene"
+msgstr "动作范围到场景"
+
+#: retarget/operators.py:12097
+msgid "Action Start"
+msgstr "动作开始"
+
+#: retarget/action/ops.py:2629
+msgid "Action prefix"
+msgstr "动作前缀"
+
+#: retarget/action/ops.py:2630
+msgid "Action suffix"
+msgstr "动作后缀"
+
+#: retarget/operators.py:7597
+msgid "Action to take with existing constraints"
+msgstr "对现有约束采取的操作"
+
+#: retarget/operators.py:2461
+#: retarget/operators.py:3679
+msgid "Actions List"
+msgstr "动作列表"
+
+#: retarget/operators.py:7105
+msgid "Activate 'deform' for eye bones"
+msgstr "为眼睛骨骼启用“变形”"
+
+#: retarget/preferences.py:367
+msgid "Activate on mouse release"
+msgstr "鼠标释放时激活"
+
+#: retarget/anim_aide/curve_tools/ops.py:1069
+#: retarget/anim_aide/key_manager/ops.py:317
+msgid "Activates on release"
+msgstr "释放时激活"
+
+#: retarget/operators.py:6857
+msgid "Active Strip"
+msgstr "活动片段"
+
+#: retarget/operators.py:6856
+msgid "Active Track"
+msgstr "活动轨道"
+
+#: retarget/operators.py:67
+msgid "Add"
+msgstr "添加"
+
+#: retarget/support.py:57
+msgid "Add Bone That are not Mapped"
+msgstr "添加未映射的骨骼"
+
+#: retarget/action/ops.py:1894
+#: retarget/action/ops.py:2553
+msgid "Add In Object(s) List"
+msgstr "添加到物体列表"
+
+#: retarget/properties.py:128
+msgid "Add Location Constraint to this Bone"
+msgstr "为此骨骼添加位置约束"
+
+#: retarget/operators.py:5254
+#: retarget/operators.py:5374
+msgid "Add Other Bone"
+msgstr "添加其他骨骼"
+
+#: retarget/operators.py:40
+msgid "Add Prefix"
+msgstr "添加前缀"
+
+#: retarget/operators.py:40
+msgid "Add Prefix to Constraint names"
+msgstr "为约束名称添加前缀"
+
+#: retarget/action/ops.py:1650
+msgid "Add Prefix/Suffix"
+msgstr "添加前缀/后缀"
+
+#: retarget/action/ops.py:1650
+msgid "Add Prefix/Suffix in Action Name"
+msgstr "在动作名称中添加前缀/后缀"
+
+#: retarget/operators.py:11853
+msgid "Add Root"
+msgstr "添加根骨骼"
+
+#: retarget/operators.py:41
+msgid "Add Suffix"
+msgstr "添加后缀"
+
+#: retarget/operators.py:41
+msgid "Add Suffix to Constraint names"
+msgstr "为约束名称添加后缀"
+
+#: retarget/operators.py:10433
+msgid "Add To Object(s) List"
+msgstr "添加到物体列表"
+
+#: retarget/support.py:1643
+msgid "Add a New Bone"
+msgstr "添加新骨骼"
+
+#: retarget/action/ops.py:2289
+msgid "Add a New Catalog for Each Tag"
+msgstr "为每个标签添加新目录"
+
+#: retarget/operators.py:67
+msgid "Add euler component values together"
+msgstr "将欧拉分量值相加"
+
+#: retarget/operators.py:1388
+#: retarget/operators.py:7327
+msgid "Add prefix to name"
+msgstr "为名称添加前缀"
+
+#: retarget/operators.py:1388
+#: retarget/operators.py:7327
+msgid "Add prefix to source bone name"
+msgstr "为源骨骼名称添加前缀"
+
+#: retarget/operators.py:1397
+#: retarget/operators.py:7336
+msgid "Add suffix to name"
+msgstr "为名称添加后缀"
+
+#: retarget/operators.py:1397
+#: retarget/operators.py:7336
+msgid "Add suffix to source bone name"
+msgstr "为源骨骼名称添加后缀"
+
+#: retarget/anim_aide/curve_tools/props.py:11
+#: retarget/anim_aide/curve_tools/props.py:35
+msgid "Adds or adjust keys to conform to the adjacent slope"
+msgstr "添加或调整关键帧以贴合相邻斜率"
+
+#: retarget/operators.py:2262
+msgid "Adjust Animation"
+msgstr "调整动画"
+
+#: retarget/operators.py:7567
+msgid "Adjust location to new scale"
+msgstr "根据新缩放调整位置"
+
+#: retarget/operators.py:7422
+msgid "Advanced IK/FK Settings"
+msgstr "高级 IK/FK 设置"
+
+#: retarget/operators.py:7616
+msgid "Advanced Location Constraint Setting"
+msgstr "高级位置约束设置"
+
+#: retarget/ui.py:456
+msgid "Advanced Options"
+msgstr "高级选项"
+
+#: retarget/operators.py:8004
+#: retarget/operators.py:10707
+msgid "Affect Bones"
+msgstr "影响骨骼"
+
+#: retarget/anim_aide/curve_tools/props.py:141
+msgid "Affect unselected keys when cursor is over them"
+msgstr "光标悬停在未选中的关键帧上时影响它们"
+
+#: retarget/operators.py:69
+msgid "After Original"
+msgstr "在原始之后"
+
+#: retarget/operators.py:1504
+msgid "Align Bones"
+msgstr "对齐骨骼"
+
+#: retarget/operators.py:7473
+msgid "Align By Limb"
+msgstr "按肢体对齐"
+
+#: retarget/operators.py:7507
+msgid "Align Leg [Experimental]"
+msgstr "对齐腿部 [实验性]"
+
+#: retarget/action/property.py:186
+msgid "Align View"
+msgstr "对齐视图"
+
+#: retarget/rigging/surface.py:562
+msgid "Align X axis of the bone to the surface normal instead of Z"
+msgstr "将骨骼 X 轴对齐到表面法线，而不是 Z 轴"
+
+#: retarget/rigging/surface.py:562
+msgid "Align X to Normal"
+msgstr "将 X 对齐到法线"
+
+#: retarget/operators.py:1411
+msgid "Align only selected bones (From Source Armature)"
+msgstr "仅对齐选中的骨骼（来自源骨架）"
+
+#: retarget/operators.py:1479
+msgid "Align only the Rotation"
+msgstr "仅对齐旋转"
+
+#: retarget/operators.py:7499
+msgid "Align rest pose"
+msgstr "对齐静置姿态"
+
+#: retarget/operators.py:5308
+#: retarget/operators.py:5399
+msgid "Align spine frontally"
+msgstr "正面对齐脊柱"
+
+#: retarget/operators.py:2269
+msgid "Align unparented bones"
+msgstr "对齐无父级骨骼"
+
+#: retarget/operators.py:10552
+#: retarget/anim_aide/key_manager/props.py:10
+msgid "Aligned"
+msgstr "已对齐"
+
+#: retarget/operators.py:762
+msgid "All"
+msgstr "全部"
+
+#: retarget/support.py:972
+msgid "All Bone"
+msgstr "所有骨骼"
+
+#: retarget/operators.py:10501
+msgid "All Contrained bones"
+msgstr "所有受约束骨骼"
+
+#: retarget/operators.py:2393
+msgid "All Slots"
+msgstr "所有槽位"
+
+#: retarget/action/ops.py:2030
+msgid "All Transform"
+msgstr "所有变换"
+
+#: retarget/operators.py:184
+msgid "All Type"
+msgstr "所有类型"
+
+#: retarget/anim_aide/curve_tools/props.py:178
+msgid "Allows for higher values"
+msgstr "允许更高的值"
+
+#: retarget/operators.py:1547
+#: retarget/operators.py:8014
+msgid "Also by Name"
+msgstr "也按名称"
+
+#: retarget/operators.py:7608
+msgid "Always bind unparented bones Location and Rotation"
+msgstr "始终绑定无父级骨骼的位置和旋转"
+
+#: retarget/preferences.py:360
+msgid "Anim Aide Parameter:"
+msgstr "Anim Aide 参数："
+
+#: retarget/anim_aide/anim_offset/ui.py:9
+#: retarget/anim_aide/anim_offset/ui.py:99
+msgid "Anim Offset"
+msgstr "动画偏移"
+
+#: retarget/anim_aide/anim_offset/ui.py:114
+msgid "Anim Offset Mask"
+msgstr "动画偏移遮罩"
+
+#: retarget/anim_aide/anim_offset/ui.py:202
+msgid "Anim Offset Settings"
+msgstr "动画偏移设置"
+
+#: retarget/anim_aide/anim_ui.py:64
+#: retarget/anim_aide/anim_offset/ui.py:11
+msgid "Anim_RT"
+msgstr "Anim_RT"
+
+#: retarget/operators.py:761
+msgid "Animated"
+msgstr "已动画"
+
+#: retarget/ui.py:136
+#: retarget/action/ops.py:1614
+msgid "Animation"
+msgstr "动画"
+
+#: retarget/operators.py:33
+#: retarget/operators.py:2417
+msgid "Apply"
+msgstr "应用"
+
+#: retarget/operators.py:33
+msgid "Apply All Constraints"
+msgstr "应用所有约束"
+
+#: retarget/operators.py:4144
+msgid "Apply All Shape Keys"
+msgstr "应用所有形态键"
+
+#: retarget/operators.py:4670
+msgid "Apply Offset to character constraints"
+msgstr "将偏移应用到角色约束"
+
+#: retarget/operators.py:4433
+msgid "Apply Rotation"
+msgstr "应用旋转"
+
+#: retarget/operators.py:4669
+msgid "Apply Scale"
+msgstr "应用缩放"
+
+#: retarget/operators.py:7527
+msgid "Apply The rotation (Only when it's necessary)"
+msgstr "应用旋转（仅在必要时）"
+
+#: retarget/operators.py:1473
+#: retarget/operators.py:5311
+msgid "Apply Transform"
+msgstr "应用变换"
+
+#: retarget/operators.py:1473
+msgid "Apply Transform (Recommended)"
+msgstr "应用变换（推荐）"
+
+#: retarget/operators.py:69
+msgid "Apply copied rotation after original, as if the constraint target is a child"
+msgstr "在原旋转之后应用复制的旋转，如同约束目标是子级"
+
+#: retarget/operators.py:68
+msgid "Apply copied rotation before original, as if the constraint target is a parent"
+msgstr "在原旋转之前应用复制的旋转，如同约束目标是父级"
+
+#: retarget/operators.py:5311
+#: retarget/operators.py:6138
+msgid "Apply current transforms before extraction"
+msgstr "提取前应用当前变换"
+
+#: retarget/operators.py:2417
+#: retarget/operators.py:4308
+msgid "Apply in Actions (can take some time)"
+msgstr "在动作中应用（可能需要一些时间）"
+
+#: retarget/action/ops.py:1639
+msgid "Apply rotation of Armature"
+msgstr "应用骨架的旋转"
+
+#: retarget/operators.py:7675
+msgid "Apply the Constrain and Delete Retarget Collection To save the Pose"
+msgstr "应用约束并删除重定向集合以保存姿态"
+
+#: retarget/operators.py:4141
+msgid "Apply the pose as a rest pose only on selected bone"
+msgstr "仅在所选骨骼上将姿态应用为静置姿态"
+
+#: retarget/operators.py:2393
+msgid "Apply these effects in all slots"
+msgstr "在所有槽中应用这些效果"
+
+#: retarget/action/ops.py:831
+msgid "Are You Sure (It will Take some Time) ?"
+msgstr "你确定吗？（这会花费一些时间）"
+
+#: retarget/action/ops.py:2735
+msgid "Are You Sure (This will remove them completely) ?"
+msgstr "你确定吗？（这会完全移除它们）"
+
+#: retarget/operators.py:7398
+msgid "Arm"
+msgstr "手臂"
+
+#: retarget/operators.py:7447
+msgid "Arm IK-FK"
+msgstr "手臂 IK-FK"
+
+#: retarget/operators.py:7447
+msgid "Arm IK/FK option from the source armture (Rigify) (0 for IK and 1 for FK)"
+msgstr "源骨架（Rigify）的手臂 IK/FK 选项（0 为 IK，1 为 FK）"
+
+#: retarget/properties.py:126
+msgid "Arm Ik or Pole Target"
+msgstr "手臂 IK 或极向目标"
+
+#: retarget/operators.py:7461
+msgid "Arm pole"
+msgstr "手臂极向"
+
+#: retarget/operators.py:7426
+msgid "Arm: FK to IK"
+msgstr "手臂：FK 转 IK"
+
+#: retarget/operators.py:7434
+msgid "Arm: IK to FK"
+msgstr "手臂：IK 转 FK"
+
+#: retarget/action/property.py:121
+msgid "Armature Mode"
+msgstr "骨架模式"
+
+#: retarget/action/property.py:121
+msgid "Armature Mode (Try to Find An Armature When we Select A Object)"
+msgstr "骨架模式（选择物体时尝试查找骨架）"
+
+#: retarget/operators.py:2331
+#: retarget/operators.py:7469
+msgid "Armature collection to use for connection bones (Usefull to ADD modification to the Animation)"
+msgstr "用于连接骨骼的骨架集合（有助于为动画添加修改）"
+
+#: retarget/operators.py:7514
+msgid "Armature was posed manually to match rest pose of target"
+msgstr "骨架已手动调整姿态以匹配目标的静置姿态"
+
+#: retarget/ui.py:1257
+msgid "Arms"
+msgstr "手臂"
+
+#: retarget/ui.py:1236
+msgid "Arms IK"
+msgstr "手臂 IK"
+
+#: retarget/ui.py:1184
+msgid "As Rigify Super Copy"
+msgstr "作为 Rigify 超级复制"
+
+#: retarget/action/property.py:275
+msgid "Asset library"
+msgstr "资产库"
+
+#: retarget/operators.py:5395
+msgid "Assign Metarig"
+msgstr "指定元骨架"
+
+#: retarget/operators.py:5304
+msgid "Assign metarig"
+msgstr "指定元骨架"
+
+#: retarget/operators.py:10554
+#: retarget/anim_aide/key_manager/ops.py:257
+msgid "Auto"
+msgstr "自动"
+
+#: retarget/operators.py:10555
+#: retarget/anim_aide/key_manager/props.py:13
+msgid "Auto Clamped"
+msgstr "自动钳制"
+
+#: retarget/anim_aide/anim_offset/ops.py:481
+#: retarget/anim_aide/anim_offset/ui.py:227
+msgid "Auto Key outside margins"
+msgstr "在边距外自动关键帧"
+
+#: retarget/action/property.py:153
+msgid "Auto Link"
+msgstr "自动链接"
+
+#: retarget/action/property.py:165
+msgid "Auto Refresh"
+msgstr "自动刷新"
+
+#: retarget/action/property.py:169
+msgid "Auto Unlink"
+msgstr "自动取消链接"
+
+#: retarget/action/ops.py:1633
+msgid "Automatic bone orientation"
+msgstr "自动骨骼朝向"
+
+#: retarget/operators.py:7443
+msgid "Automatically Hide The IK/FK Collection"
+msgstr "自动隐藏 IK/FK 集合"
+
+#: retarget/operators.py:10555
+#: retarget/anim_aide/key_manager/props.py:13
+msgid "Automatically adjust both handles to conform the curve but flattens it as it gets to picks and valleys"
+msgstr "自动调整两个控制柄以贴合曲线，但在接近峰谷时将其压平"
+
+#: retarget/operators.py:10554
+#: retarget/anim_aide/key_manager/props.py:12
+msgid "Automatically adjust both handles to conform the the curve"
+msgstr "自动调整两个控制柄以贴合曲线"
+
+#: retarget/operators.py:7443
+msgid "Automatically hide the fk or ik collection (Rigify)"
+msgstr "自动隐藏 FK 或 IK 集合（Rigify）"
+
+#: retarget/properties.py:64
+msgid "B"
+msgstr "B"
+
+#: retarget/operators.py:10563
+msgid "BAKE"
+msgstr "烘焙"
+
+#: retarget/anim_aide/key_manager/ops.py:248
+#: retarget/anim_aide/key_manager/props.py:34
+msgid "Back"
+msgstr "返回"
+
+#: retarget/operators.py:7095
+msgid "Backup"
+msgstr "备份"
+
+#: retarget/operators.py:10563
+msgid "Bake driven motion"
+msgstr "烘焙驱动运动"
+
+#: retarget/anim_aide/curve_tools/props.py:114
+msgid "Before"
+msgstr "之前"
+
+#: retarget/operators.py:68
+msgid "Before Original"
+msgstr "在原始之前"
+
+#: retarget/operators.py:10544
+#: retarget/anim_aide/key_manager/props.py:21
+msgid "Bezier"
+msgstr "贝塞尔"
+
+#: retarget/operators.py:2269
+#: retarget/operators.py:7608
+msgid "Bind Floating"
+msgstr "绑定浮动"
+
+#: retarget/operators.py:1541
+#: retarget/operators.py:7313
+msgid "Bind To"
+msgstr "绑定到"
+
+#: retarget/operators.py:1382
+#: retarget/operators.py:7324
+msgid "Bind bones by name"
+msgstr "按名称绑定骨骼"
+
+#: retarget/operators.py:7318
+msgid "Bind only on Animated Bone (From Target Bones)"
+msgstr "仅绑定到已动画骨骼（来自目标骨骼）"
+
+#: retarget/operators.py:7322
+msgid "Bind only selected bones (From Source Armature)"
+msgstr "仅绑定所选骨骼（来自源骨架）"
+
+#: retarget/ui.py:72
+msgid "Binding"
+msgstr "绑定"
+
+#: retarget/anim_aide/curve_tools/props.py:13
+#: retarget/anim_aide/curve_tools/props.py:37
+msgid "Blend Default"
+msgstr "混合默认"
+
+#: retarget/anim_aide/curve_tools/props.py:9
+msgid "Blend Ease"
+msgstr "混合缓动"
+
+#: retarget/action/property.py:287
+msgid "Blend File"
+msgstr "Blend 文件"
+
+#: retarget/anim_aide/curve_tools/props.py:10
+#: retarget/anim_aide/curve_tools/props.py:34
+msgid "Blend Frame"
+msgstr "混合帧"
+
+#: retarget/anim_aide/curve_tools/props.py:11
+#: retarget/anim_aide/curve_tools/props.py:35
+msgid "Blend Infinite"
+msgstr "混合无限"
+
+#: retarget/anim_aide/curve_tools/props.py:12
+#: retarget/anim_aide/curve_tools/props.py:36
+msgid "Blend Neighbor"
+msgstr "混合相邻"
+
+#: retarget/anim_aide/curve_tools/props.py:14
+msgid "Blend Offset"
+msgstr "混合偏移"
+
+#: retarget/operators.py:5291
+#: retarget/operators.py:6130
+msgid "Blue"
+msgstr "蓝色"
+
+#: retarget/ui.py:1062
+msgid "Body"
+msgstr "身体"
+
+#: retarget/operators.py:5258
+#: retarget/operators.py:6096
+msgid "Bone"
+msgstr "骨骼"
+
+#: retarget/operators.py:872
+msgid "Bone Collection"
+msgstr "骨骼集合"
+
+#: retarget/properties.py:119
+#: retarget/support.py:584
+msgid "Bone ID"
+msgstr "骨骼 ID"
+
+#: retarget/operators.py:815
+#: retarget/properties.py:120
+msgid "Bone Name"
+msgstr "骨骼名称"
+
+#: retarget/ui.py:543
+msgid "Bone Name Don't Start With This Value (separate with a comma)"
+msgstr "骨骼名称不以此值开头（用逗号分隔）"
+
+#: retarget/ui.py:546
+msgid "Bone Name Don't contain This Value  (separate with a comma)"
+msgstr "骨骼名称不包含此值（用逗号分隔）"
+
+#: retarget/ui.py:540
+msgid "Bone Name Start With This Value"
+msgstr "骨骼名称以此值开头"
+
+#: retarget/operators.py:5276
+#: retarget/operators.py:5383
+msgid "Bone Shape"
+msgstr "骨骼形状"
+
+#: retarget/operators.py:5281
+#: retarget/operators.py:5387
+msgid "Bone Shape For Eye"
+msgstr "眼睛骨骼形状"
+
+#: retarget/operators.py:12036
+msgid "Bone/Channel"
+msgstr "骨骼/通道"
+
+#: retarget/operators.py:129
+#: retarget/operators.py:840
+msgid "Bones"
+msgstr "骨骼"
+
+#: retarget/operators.py:140
+#: retarget/operators.py:851
+msgid "Bones List"
+msgstr "骨骼列表"
+
+#: retarget/operators.py:7513
+msgid "Bones Offset"
+msgstr "骨骼偏移"
+
+#: retarget/operators.py:3619
+msgid "Bones already named after Target Preset will get \".1\" suffix"
+msgstr "已按目标预设命名的骨骼将获得“.1”后缀"
+
+#: retarget/operators.py:112
+#: retarget/operators.py:779
+msgid "Bones that deform the mesh"
+msgstr "使网格变形的骨骼"
+
+#: retarget/operators.py:116
+#: retarget/operators.py:782
+msgid "Bones that have a custom display"
+msgstr "具有自定义显示的骨骼"
+
+#: retarget/operators.py:7401
+#: retarget/operators.py:7409
+msgid "Both"
+msgstr "两者"
+
+#: retarget/anim_aide/key_manager/ops.py:249
+#: retarget/anim_aide/key_manager/props.py:35
+msgid "Bounce"
+msgstr "弹跳"
+
+#: retarget/anim_aide/key_manager/props.py:46
+msgid "Breakdown"
+msgstr "分解"
+
+#: retarget/operators.py:6932
+msgid "Bring parent's tail to match child head when possible"
+msgstr "尽可能使父级尾部匹配子级头部"
+
+#: retarget/properties.py:65
+msgid "C"
+msgstr "C"
+
+#: retarget/anim_aide/curve_tools/props.py:16
+msgid "C shape transition"
+msgstr "C 形过渡"
+
+#: retarget/operators.py:10626
+msgid "CAN'T BAKE (NO BONES ASSIGNED)"
+msgstr "无法烘焙（未分配骨骼）"
+
+#: retarget/action/ops.py:2289
+msgid "Catalog by Tag"
+msgstr "按标签分类"
+
+#: retarget/anim_aide/curve_tools/props.py:168
+msgid "Change noise scale"
+msgstr "更改噪波缩放"
+
+#: retarget/anim_aide/curve_tools/props.py:163
+msgid "Change noise shape"
+msgstr "更改噪波形状"
+
+#: retarget/preferences.py:271
+#: retarget/anim_aide/curve_tools/props.py:150
+msgid "Changes how the tools modal work"
+msgstr "更改工具模态操作方式"
+
+#: retarget/operators.py:12038
+#: retarget/operators.py:12041
+msgid "Channel"
+msgstr "通道"
+
+#: retarget/ui.py:1300
+msgid "Chest"
+msgstr "胸部"
+
+#: retarget/anim_aide/curve_tools/ui.py:234
+#: retarget/anim_aide/curve_tools/ui.py:238
+msgid "Cicle Options"
+msgstr "圆形选项"
+
+#: retarget/operators.py:5259
+#: retarget/operators.py:6097
+msgid "Circle"
+msgstr "圆"
+
+#: retarget/anim_aide/key_manager/ops.py:247
+#: retarget/anim_aide/key_manager/props.py:33
+msgid "Circular"
+msgstr "圆形"
+
+#: retarget/action/ops.py:2287
+msgid "Clear Previou(s) tag"
+msgstr "清除先前标签"
+
+#: retarget/operators.py:10427
+msgid "Clear original Action Users"
+msgstr "清除原动作用户"
+
+#: retarget/operators.py:12144
+msgid "Clic here to transfer"
+msgstr "点击此处以传输"
+
+#: retarget/operators.py:883
+msgid "Collections"
+msgstr "集合"
+
+#: retarget/operators.py:5286
+#: retarget/operators.py:5391
+msgid "Color"
+msgstr "颜色"
+
+#: retarget/operators.py:5286
+#: retarget/operators.py:6125
+msgid "Color of Other Bone"
+msgstr "其他骨骼颜色"
+
+#: retarget/operators.py:70
+msgid "Combine rotations like the original Offset checkbox. Does not work well for multiple axis rotations"
+msgstr "像原始偏移复选框那样合并旋转。对多轴旋转效果不佳"
+
+#: retarget/action/property.py:117
+msgid "Compatible Actions"
+msgstr "兼容动作"
+
+#: retarget/operators.py:7571
+msgid "Constrain Root"
+msgstr "约束根骨骼"
+
+#: retarget/operators.py:7574
+msgid "Constrain root to bone Manually"
+msgstr "手动将根骨骼约束到骨骼"
+
+#: retarget/operators.py:7575
+msgid "Constrain root to object"
+msgstr "将根骨骼约束到物体"
+
+#: retarget/operators.py:760
+msgid "Constrained"
+msgstr "已约束"
+
+#: retarget/operators.py:791
+msgid "Constraint Name"
+msgstr "约束名称"
+
+#: retarget/operators.py:184
+#: retarget/operators.py:195
+msgid "Constraint Type"
+msgstr "约束类型"
+
+#: retarget/operators.py:7904
+msgid "Constraints"
+msgstr "约束"
+
+#: retarget/operators.py:174
+#: retarget/operators.py:806
+msgid "Contain"
+msgstr "包含"
+
+#: retarget/operators.py:2440
+#: retarget/operators.py:3658
+msgid "Contain (comma is the separator)"
+msgstr "包含（逗号分隔）"
+
+#: retarget/operators.py:346
+#: retarget/operators.py:958
+msgid "Contain:"
+msgstr "包含："
+
+#: retarget/operators.py:11249
+msgid "Containing"
+msgstr "包含"
+
+#: retarget/action/property.py:196
+msgid "Containt"
+msgstr "包含"
+
+#: retarget/operators.py:2341
+msgid "Continues"
+msgstr "继续"
+
+#: retarget/operators.py:7830
+#: retarget/ui.py:107
+msgid "Conversion"
+msgstr "转换"
+
+#: retarget/operators.py:7581
+msgid "Copy Location"
+msgstr "复制位置"
+
+#: retarget/support.py:143
+msgid "Copy Only Other Bone"
+msgstr "仅复制其他骨骼"
+
+#: retarget/operators.py:2293
+#: retarget/operators.py:7631
+msgid "Copy Root X Location"
+msgstr "复制根骨骼 X 位置"
+
+#: retarget/operators.py:2313
+#: retarget/operators.py:2322
+msgid "Copy Root X Rotation"
+msgstr "复制根骨骼 X 旋转"
+
+#: retarget/operators.py:2317
+#: retarget/operators.py:2326
+msgid "Copy Root X Scale"
+msgstr "复制根骨骼 X 缩放"
+
+#: retarget/operators.py:2294
+#: retarget/operators.py:7632
+msgid "Copy Root Y Location"
+msgstr "复制根骨骼 Y 位置"
+
+#: retarget/operators.py:2314
+#: retarget/operators.py:2323
+msgid "Copy Root Y Rotation"
+msgstr "复制根骨骼 Y 旋转"
+
+#: retarget/operators.py:2318
+#: retarget/operators.py:2327
+msgid "Copy Root Y Scale"
+msgstr "复制根骨骼 Y 缩放"
+
+#: retarget/operators.py:2295
+#: retarget/operators.py:7633
+msgid "Copy Root Z Location"
+msgstr "复制根骨骼 Z 位置"
+
+#: retarget/operators.py:2315
+#: retarget/operators.py:2324
+msgid "Copy Root Z Rotation"
+msgstr "复制根骨骼 Z 旋转"
+
+#: retarget/operators.py:2319
+#: retarget/operators.py:2328
+msgid "Copy Root Z Scale"
+msgstr "复制根骨骼 Z 缩放"
+
+#: retarget/operators.py:7585
+msgid "Copy Rotation"
+msgstr "复制旋转"
+
+#: retarget/operators.py:7593
+msgid "Copy Scale"
+msgstr "复制缩放"
+
+#: retarget/operators.py:7530
+msgid "Correct chain direction based on mid limb (Useful for IK)"
+msgstr "根据肢体中部校正链方向（对 IK 有用）"
+
+#: retarget/operators.py:2262
+msgid "Create a Armature that will be used for the Adjustment, ( you'll need to bake to save the change)(select a armature)"
+msgstr "创建一个用于调整的骨架（需要烘焙以保存更改）（选择一个骨架）"
+
+#: retarget/operators.py:5260
+#: retarget/operators.py:6098
+msgid "Cube"
+msgstr "立方体"
+
+#: retarget/operators.py:5261
+#: retarget/operators.py:6099
+msgid "Cube Truncated"
+msgstr "截断立方体"
+
+#: retarget/anim_aide/key_manager/ops.py:243
+#: retarget/anim_aide/key_manager/props.py:29
+msgid "Cubic"
+msgstr "立方"
+
+#: retarget/operators.py:5262
+#: retarget/operators.py:6100
+msgid "Cuboctahedron"
+msgstr "立方八面体"
+
+#: retarget/operators.py:7514
+msgid "Current Pose is target Rest Pose"
+msgstr "当前姿态作为目标静止姿态"
+
+#: retarget/anim_aide/curve_tools/ui.py:159
+#: retarget/anim_aide/curve_tools/ui.py:313
+msgid "Curve Tools"
+msgstr "曲线工具"
+
+#: retarget/operators.py:77
+#: retarget/operators.py:88
+msgid "Custom Space"
+msgstr "自定义空间"
+
+#: retarget/operators.py:2345
+#: retarget/operators.py:10512
+msgid "Custom Start and End"
+msgstr "自定义开始和结束"
+
+#: retarget/operators.py:7573
+msgid "Default"
+msgstr "默认"
+
+#: retarget/action/ops.py:2276
+msgid "Default Tag"
+msgstr "默认标签"
+
+#: retarget/properties.py:175
+msgid "Deformation Bones"
+msgstr "变形骨骼"
+
+#: retarget/action/ops.py:1626
+msgid "Delete Action That didn't not affect a bone"
+msgstr "删除不影响骨骼的动作"
+
+#: retarget/operators.py:148
+#: retarget/operators.py:200
+msgid "Delete All"
+msgstr "删除全部"
+
+#: retarget/action/ops.py:1618
+msgid "Delete All Objects and leave the actions"
+msgstr "删除所有物体并保留动作"
+
+#: retarget/action/ops.py:1622
+msgid "Delete All Objects and only leave one Armature"
+msgstr "删除所有物体，仅保留一个骨架"
+
+#: retarget/operators.py:10212
+#: retarget/operators.py:10518
+msgid "Delete Constraint"
+msgstr "删除约束"
+
+#: retarget/action/ops.py:1630
+msgid "Delete Empty"
+msgstr "删除空物体"
+
+#: retarget/operators.py:2354
+msgid "Delete Empty Fcurve"
+msgstr "删除空 F 曲线"
+
+#: retarget/operators.py:7601
+msgid "Delete Existing Constraints"
+msgstr "删除现有约束"
+
+#: retarget/operators.py:12051
+msgid "Delete KeyFrame"
+msgstr "删除关键帧"
+
+#: retarget/action/ops.py:1626
+msgid "Delete Not Armature Action"
+msgstr "删除非骨架动作"
+
+#: retarget/operators.py:10216
+#: retarget/operators.py:10522
+msgid "Delete Retarget Collection"
+msgstr "删除重定向集合"
+
+#: retarget/operators.py:10216
+#: retarget/operators.py:10522
+msgid "Delete Retarget Collection (AND ALL THE BONES INSIDE)"
+msgstr "删除重定向集合（以及其中的所有骨骼）"
+
+#: retarget/operators.py:10220
+msgid "Delete Retarget Collection On The Active Object"
+msgstr "删除活动物体上的重定向集合"
+
+#: retarget/operators.py:7601
+msgid "Delete existing binding constraints"
+msgstr "删除现有绑定约束"
+
+#: retarget/operators.py:2364
+#: retarget/operators.py:12053
+msgid "Delete the Position X"
+msgstr "删除位置 X"
+
+#: retarget/operators.py:2368
+#: retarget/operators.py:12057
+msgid "Delete the Position Y"
+msgstr "删除位置 Y"
+
+#: retarget/operators.py:2372
+#: retarget/operators.py:12061
+msgid "Delete the Position Z"
+msgstr "删除位置 Z"
+
+#: retarget/operators.py:2376
+#: retarget/operators.py:12065
+msgid "Delete the Rotation X"
+msgstr "删除旋转 X"
+
+#: retarget/operators.py:2380
+#: retarget/operators.py:12069
+msgid "Delete the Rotation Y"
+msgstr "删除旋转 Y"
+
+#: retarget/operators.py:2384
+#: retarget/operators.py:12073
+msgid "Delete the Rotation Z"
+msgstr "删除旋转 Z"
+
+#: retarget/operators.py:2388
+#: retarget/operators.py:2767
+msgid "Delete the Scale"
+msgstr "删除缩放"
+
+#: retarget/operators.py:152
+#: retarget/operators.py:204
+msgid "Delete the last one"
+msgstr "删除最后一个"
+
+#: retarget/operators.py:2388
+#: retarget/operators.py:12077
+msgid "Delete the scale"
+msgstr "删除缩放"
+
+#: retarget/support.py:795
+msgid "Deselect"
+msgstr "取消选择"
+
+#: retarget/support.py:795
+msgid "Deselect other Bone on the List"
+msgstr "取消选择列表中的其他骨骼"
+
+#: retarget/operators.py:5263
+#: retarget/operators.py:6101
+msgid "Diamond"
+msgstr "菱形"
+
+#: retarget/anim_aide/key_manager/ops.py:20
+msgid "Direction"
+msgstr "方向"
+
+#: retarget/operators.py:34
+msgid "Disable"
+msgstr "禁用"
+
+#: retarget/operators.py:34
+msgid "Disable All Constraints"
+msgstr "禁用所有约束"
+
+#: retarget/operators.py:7115
+msgid "Disable B-Bones"
+msgstr "禁用 B 骨骼"
+
+#: retarget/operators.py:7115
+msgid "Disable Bendy-Bones"
+msgstr "禁用弯曲骨骼"
+
+#: retarget/operators.py:7600
+msgid "Disable Existing Constraints"
+msgstr "禁用现有约束"
+
+#: retarget/operators.py:7600
+msgid "Disable existing binding constraints and add new ones"
+msgstr "禁用现有绑定约束并添加新约束"
+
+#: retarget/ui.py:1272
+#: retarget/ui.py:1342
+msgid "Display Twist Bones"
+msgstr "显示扭转骨骼"
+
+#: retarget/operators.py:7125
+msgid "Dispossess Twist Bones"
+msgstr "移除扭转骨骼"
+
+#: retarget/operators.py:6938
+msgid "Distance"
+msgstr "距离"
+
+#: retarget/operators.py:31
+#: retarget/operators.py:7598
+msgid "Do Nothing"
+msgstr "什么都不做"
+
+#: retarget/operators.py:6081
+#: retarget/operators.py:6212
+msgid "Don't Align The Eye"
+msgstr "不对齐眼睛"
+
+#: retarget/ui.py:543
+msgid "Don't Start With"
+msgstr "不以...开头"
+
+#: retarget/operators.py:7660
+msgid "Don't add Location Constraint on FK bones except the hips"
+msgstr "除髋部外，不在 FK 骨骼上添加位置约束"
+
+#: retarget/operators.py:7572
+msgid "Don't constrain root bone"
+msgstr "不约束根骨骼"
+
+#: retarget/ui.py:546
+msgid "Don't contain"
+msgstr "不包含"
+
+#: retarget/operators.py:7512
+msgid "Don't match any transform"
+msgstr "不匹配任何变换"
+
+#: retarget/action/ops.py:1890
+msgid "Each Selected Objects will have his own Action"
+msgstr "每个选中物体都将拥有自己的动作"
+
+#: retarget/operators.py:10551
+#: retarget/anim_aide/key_manager/props.py:9
+msgid "Each handle can be manipulated independently"
+msgstr "每个控制柄均可独立操作"
+
+#: retarget/operators.py:10553
+#: retarget/anim_aide/key_manager/props.py:11
+msgid "Each handle points to the adjacent key"
+msgstr "每个控制柄指向相邻关键帧"
+
+#: retarget/anim_aide/curve_tools/props.py:16
+#: retarget/anim_aide/key_manager/props.py:23
+msgid "Ease"
+msgstr "缓动"
+
+#: retarget/anim_aide/key_manager/ops.py:255
+#: retarget/anim_aide/key_manager/props.py:136
+msgid "Ease Mode"
+msgstr "缓动模式"
+
+#: retarget/anim_aide/key_manager/ops.py:239
+#: retarget/anim_aide/key_manager/props.py:129
+msgid "Ease Strength"
+msgstr "缓动强度"
+
+#: retarget/anim_aide/curve_tools/props.py:17
+msgid "Ease To Ease"
+msgstr "缓动到缓动"
+
+#: retarget/anim_aide/curve_tools/props.py:192
+#: retarget/anim_aide/curve_tools/props.py:199
+msgid "Ease Tool Selector"
+msgstr "缓动工具选择器"
+
+#: retarget/anim_aide/anim_offset/props.py:54
+#: retarget/anim_aide/key_manager/ops.py:258
+msgid "Ease in"
+msgstr "缓入"
+
+#: retarget/anim_aide/anim_offset/props.py:55
+#: retarget/anim_aide/key_manager/ops.py:260
+msgid "Ease in-out"
+msgstr "缓入缓出"
+
+#: retarget/anim_aide/key_manager/ops.py:331
+msgid "Ease slope"
+msgstr "缓动斜率"
+
+#: retarget/anim_aide/anim_offset/props.py:56
+#: retarget/anim_aide/key_manager/ops.py:259
+msgid "Ease-out"
+msgstr "缓出"
+
+#: retarget/anim_aide/key_manager/ops.py:250
+#: retarget/anim_aide/key_manager/props.py:36
+msgid "Elastic"
+msgstr "弹性"
+
+#: retarget/operators.py:32
+msgid "Enable"
+msgstr "启用"
+
+#: retarget/operators.py:32
+msgid "Enable All Constraints"
+msgstr "启用所有约束"
+
+#: retarget/operators.py:2351
+#: retarget/operators.py:10516
+msgid "End"
+msgstr "结束"
+
+#: retarget/properties.py:216
+msgid "Enter the Bone Name (comma is the separator)"
+msgstr "输入骨骼名称（以逗号分隔）"
+
+#: retarget/action/property.py:141
+msgid "Enter the File Name"
+msgstr "输入文件名"
+
+#: retarget/action/property.py:138
+msgid "Enter the Folder Name"
+msgstr "输入文件夹名称"
+
+#: retarget/properties.py:220
+msgid "Enter the Limb Name"
+msgstr "输入肢体名称"
+
+#: retarget/properties.py:221
+#: retarget/support.py:1491
+msgid "Enter the Limb Name (comma is the separator)"
+msgstr "输入肢体名称（以逗号分隔）"
+
+#: retarget/support.py:592
+#: retarget/support.py:597
+msgid "Enter the Name (comma is the separator)"
+msgstr "输入名称（以逗号分隔）"
+
+#: retarget/action/ops.py:1120
+#: retarget/action/ops.py:1123
+msgid "Enter the tag Name (comma is the separator)"
+msgstr "输入标签名称（以逗号分隔）"
+
+#: retarget/support.py:602
+#: retarget/action/ops.py:1263
+msgid "Equal"
+msgstr "相等"
+
+#: retarget/anim_aide/key_manager/ops.py:173
+#: retarget/anim_aide/key_manager/ops.py:270
+msgid "Every key"
+msgstr "每个关键帧"
+
+#: retarget/operators.py:7920
+#: retarget/operators.py:7926
+msgid "Except FK bones"
+msgstr "除 FK 骨骼外"
+
+#: retarget/operators.py:135
+#: retarget/operators.py:165
+msgid "Exclude"
+msgstr "排除"
+
+#: retarget/operators.py:2431
+#: retarget/operators.py:3649
+msgid "Exclude Action with this Prefix/Suffix"
+msgstr "排除具有此前缀/后缀的动作"
+
+#: retarget/operators.py:2456
+#: retarget/operators.py:3674
+msgid "Exclude Actions"
+msgstr "排除动作"
+
+#: retarget/operators.py:135
+#: retarget/operators.py:190
+msgid "Exclude Bones"
+msgstr "排除骨骼"
+
+#: retarget/operators.py:821
+msgid "Exclude Bones with this Prefix/Suffix"
+msgstr "排除具有此前缀/后缀的骨骼"
+
+#: retarget/operators.py:878
+msgid "Exclude Collection"
+msgstr "排除集合"
+
+#: retarget/operators.py:165
+#: retarget/operators.py:797
+msgid "Exclude Constraints with this Prefix/Suffix"
+msgstr "排除具有此前缀/后缀的约束"
+
+#: retarget/operators.py:10499
+msgid "Exclude deform bones"
+msgstr "排除变形骨骼"
+
+#: retarget/anim_aide/curve_tools/ops.py:27
+msgid "Execute as slider"
+msgstr "以滑块方式执行"
+
+#: retarget/anim_aide/curve_tools/ops.py:28
+msgid "Execute as steps"
+msgstr "以步进方式执行"
+
+#: retarget/operators.py:767
+#: retarget/anim_aide/curve_tools/props.py:153
+msgid "Expand"
+msgstr "展开"
+
+#: retarget/operators.py:767
+msgid "Expand the Selection"
+msgstr "扩展选择"
+
+#: retarget/anim_aide/key_manager/ops.py:246
+#: retarget/anim_aide/key_manager/props.py:32
+msgid "Exponential"
+msgstr "指数"
+
+#: retarget/anim_aide/key_manager/props.py:48
+msgid "Extreme"
+msgstr "极端"
+
+#: retarget/ui.py:1163
+msgid "Eye"
+msgstr "眼睛"
+
+#: retarget/operators.py:7400
+#: retarget/operators.py:7408
+msgid "FK"
+msgstr "FK"
+
+#: retarget/ui.py:1122
+msgid "Face"
+msgstr "面部"
+
+#: retarget/preferences.py:370
+msgid "Fast calculation"
+msgstr "快速计算"
+
+#: retarget/operators.py:7538
+msgid "Feet IK Roll"
+msgstr "脚部 IK 滚转"
+
+#: retarget/operators.py:11244
+#: retarget/action/ops.py:1609
+msgid "File Path"
+msgstr "文件路径"
+
+#: retarget/ui.py:1564
+#: retarget/action/ui.py:397
+msgid "Filter"
+msgstr "过滤"
+
+#: retarget/properties.py:215
+msgid "Filter By Bone Name"
+msgstr "按骨骼名称过滤"
+
+#: retarget/action/property.py:140
+msgid "Filter By File"
+msgstr "按文件过滤"
+
+#: retarget/action/property.py:137
+msgid "Filter By Folder"
+msgstr "按文件夹过滤"
+
+#: retarget/properties.py:218
+msgid "Filter By Limb"
+msgstr "按肢体过滤"
+
+#: retarget/action/property.py:194
+msgid "Filter By Tag"
+msgstr "按标签过滤"
+
+#: retarget/ui.py:1188
+msgid "Fingers"
+msgstr "手指"
+
+#: retarget/anim_aide/key_manager/ops.py:172
+#: retarget/anim_aide/key_manager/ops.py:269
+msgid "First and last keys"
+msgstr "首尾关键帧"
+
+#: retarget/anim_aide/key_manager/ops.py:170
+#: retarget/anim_aide/key_manager/ops.py:267
+msgid "First key"
+msgstr "首个关键帧"
+
+#: retarget/operators.py:5351
+#: retarget/operators.py:6168
+msgid "Fit Head"
+msgstr "适配头部"
+
+#: retarget/operators.py:5236
+#: retarget/operators.py:6070
+msgid "Fit height"
+msgstr "适配高度"
+
+#: retarget/operators.py:7551
+#: retarget/operators.py:7563
+msgid "Fit height of the target Armature at selected bone"
+msgstr "按所选骨骼适配目标骨架的高度"
+
+#: retarget/operators.py:4670
+msgid "Fix Constraints"
+msgstr "修复约束"
+
+#: retarget/operators.py:7612
+msgid "Fix Foot"
+msgstr "修复脚部"
+
+#: retarget/operators.py:7612
+msgid "Fix Foot Sliding"
+msgstr "修复脚部滑动"
+
+#: retarget/operators.py:7530
+msgid "Fix direction"
+msgstr "修复方向"
+
+#: retarget/action/property.py:287
+#: retarget/action/property.py:288
+msgid "Folder"
+msgstr "文件夹"
+
+#: retarget/operators.py:11239
+#: retarget/action/ops.py:1604
+msgid "Folder Path"
+msgstr "文件夹路径"
+
+#: retarget/operators.py:7515
+msgid "Follow target Pose in world space"
+msgstr "在世界空间跟随目标姿态"
+
+#: retarget/operators.py:58
+#: retarget/operators.py:243
+msgid "Frame"
+msgstr "帧"
+
+#: retarget/anim_aide/curve_tools/ui.py:271
+msgid "Frame Bookmarks"
+msgstr "帧书签"
+
+#: retarget/operators.py:10551
+#: retarget/anim_aide/key_manager/props.py:9
+msgid "Free"
+msgstr "自由"
+
+#: retarget/operators.py:12288
+msgid "From"
+msgstr "起始"
+
+#: retarget/anim_aide/curve_tools/props.py:9
+msgid "From current to C shape"
+msgstr "从当前到 C 形"
+
+#: retarget/anim_aide/curve_tools/props.py:12
+#: retarget/anim_aide/curve_tools/props.py:36
+msgid "From current to neighbors"
+msgstr "从当前到相邻"
+
+#: retarget/anim_aide/curve_tools/props.py:10
+#: retarget/anim_aide/curve_tools/props.py:34
+msgid "From current to set frames"
+msgstr "从当前到设定帧"
+
+#: retarget/anim_aide/curve_tools/props.py:13
+#: retarget/anim_aide/curve_tools/props.py:37
+msgid "From default value"
+msgstr "从默认值"
+
+#: retarget/operators.py:5264
+#: retarget/operators.py:6102
+msgid "Gear"
+msgstr "齿轮"
+
+#: retarget/operators.py:10543
+#: retarget/anim_aide/key_manager/props.py:20
+msgid "Gradual linear transition between keys"
+msgstr "关键帧之间逐渐线性过渡"
+
+#: retarget/action/ops.py:1259
+msgid "Greater Than"
+msgstr "大于"
+
+#: retarget/operators.py:5292
+#: retarget/operators.py:6131
+msgid "Green"
+msgstr "绿色"
+
+#: retarget/anim_aide/key_manager/ops.py:162
+#: retarget/anim_aide/key_manager/ops.py:200
+msgid "Handle Type"
+msgstr "控制柄类型"
+
+#: retarget/anim_aide/key_manager/ui.py:257
+msgid "Handle selection:"
+msgstr "控制柄选择："
+
+#: retarget/operators.py:10550
+msgid "Handle type"
+msgstr "控制柄类型"
+
+#: retarget/anim_aide/key_manager/props.py:108
+msgid "Handle_type"
+msgstr "控制柄类型"
+
+#: retarget/operators.py:10552
+#: retarget/anim_aide/key_manager/props.py:10
+msgid "Handles remain aligned as you modify them"
+msgstr "修改时控制柄保持对齐"
+
+#: retarget/operators.py:7534
+msgid "Hands IK Roll"
+msgstr "手部 IK 滚转"
+
+#: retarget/operators.py:1489
+#: retarget/operators.py:1676
+msgid "Head Bone"
+msgstr "头部骨骼"
+
+#: retarget/properties.py:134
+#: retarget/support.py:758
+msgid "Hidden Mark"
+msgstr "隐藏标记"
+
+#: retarget/action/property.py:214
+msgid "Hide Action No Selected"
+msgstr "隐藏未选中的动作"
+
+#: retarget/action/property.py:212
+msgid "Hide Action Not Present in Library"
+msgstr "隐藏库中不存在的动作"
+
+#: retarget/action/property.py:215
+msgid "Hide Action Selected"
+msgstr "隐藏选中的动作"
+
+#: retarget/action/property.py:211
+msgid "Hide Action With Fake User"
+msgstr "隐藏带伪用户的动作"
+
+#: retarget/action/property.py:190
+msgid "Hide Action With No Tag"
+msgstr "隐藏无标签的动作"
+
+#: retarget/action/property.py:210
+msgid "Hide Action With Not Fake User"
+msgstr "隐藏无伪用户的动作"
+
+#: retarget/action/property.py:191
+msgid "Hide Action With Tag"
+msgstr "隐藏带标签的动作"
+
+#: retarget/action/property.py:213
+msgid "Hide Action in Library"
+msgstr "隐藏库中的动作"
+
+#: retarget/action/property.py:207
+msgid "Hide Action with Hidden Mark OFF"
+msgstr "隐藏隐藏标记关闭的动作"
+
+#: retarget/action/property.py:206
+msgid "Hide Action with Hidden Mark ON"
+msgstr "隐藏隐藏标记开启的动作"
+
+#: retarget/action/property.py:209
+msgid "Hide Armature Action"
+msgstr "隐藏骨架动作"
+
+#: retarget/properties.py:227
+msgid "Hide IK Bone"
+msgstr "隐藏 IK 骨骼"
+
+#: retarget/properties.py:230
+msgid "Hide LOC Bone"
+msgstr "隐藏 LOC 骨骼"
+
+#: retarget/action/property.py:208
+msgid "Hide No Armature Action"
+msgstr "隐藏非骨架动作"
+
+#: retarget/properties.py:226
+msgid "Hide No IK Bone"
+msgstr "隐藏非 IK 骨骼"
+
+#: retarget/properties.py:229
+msgid "Hide No LOC Bone"
+msgstr "隐藏非 LOC 骨骼"
+
+#: retarget/properties.py:238
+msgid "Hide bone No Selected"
+msgstr "隐藏未选中的骨骼"
+
+#: retarget/properties.py:239
+msgid "Hide bone Selected"
+msgstr "隐藏选中的骨骼"
+
+#: retarget/properties.py:224
+msgid "Hide bone With Limb"
+msgstr "隐藏带肢体的骨骼"
+
+#: retarget/properties.py:223
+msgid "Hide bone With No Limb"
+msgstr "隐藏无肢体的骨骼"
+
+#: retarget/properties.py:236
+msgid "Hide bone with Hidden Mark OFF"
+msgstr "隐藏隐藏标记关闭的骨骼"
+
+#: retarget/properties.py:235
+msgid "Hide bone with Hidden Mark ON"
+msgstr "隐藏隐藏标记开启的骨骼"
+
+#: retarget/properties.py:233
+msgid "Hide item with Bone Name"
+msgstr "隐藏带骨骼名称的项目"
+
+#: retarget/properties.py:232
+msgid "Hide item with No Bone Name"
+msgstr "隐藏无骨骼名称的项目"
+
+#: retarget/operators.py:11895
+msgid "Hips Bone"
+msgstr "臀部骨骼"
+
+#: retarget/operators.py:11845
+msgid "Hips_Bone"
+msgstr "Hips_Bone"
+
+#: retarget/support.py:584
+msgid "ID"
+msgstr "ID"
+
+#: retarget/ui.py:877
+msgid "ID name of the menu this was called from"
+msgstr "调用此菜单的 ID 名称"
+
+#: retarget/operators.py:7399
+#: retarget/operators.py:7407
+msgid "IK"
+msgstr "IK"
+
+#: retarget/operators.py:8108
+msgid "IK / FK"
+msgstr "IK / FK"
+
+#: retarget/anim_aide/curve_tools/props.py:182
+msgid "If On key points will be modified independently\nfrom its handles if the interpolation is \"Free\"\nor \"Aligned\""
+msgstr "开启后，若插值为“自由”或“对齐”，关键帧点将独立于其控制柄进行修改"
+
+#: retarget/action/ops.py:1636
+msgid "Ignore Leaf Bones"
+msgstr "忽略末端骨骼"
+
+#: retarget/action/ops.py:1614
+msgid "Import Animation"
+msgstr "导入动画"
+
+#: retarget/operators.py:2358
+msgid "In Place"
+msgstr "原地"
+
+#: retarget/operators.py:134
+#: retarget/operators.py:164
+msgid "Include"
+msgstr "包含"
+
+#: retarget/operators.py:2430
+#: retarget/operators.py:3648
+msgid "Include Action with this Prefix/Suffix"
+msgstr "包含带有此前缀/后缀的动作"
+
+#: retarget/operators.py:2455
+#: retarget/operators.py:3673
+msgid "Include Actions"
+msgstr "包含动作"
+
+#: retarget/operators.py:144
+#: retarget/operators.py:855
+msgid "Include All The Children"
+msgstr "包含所有子级"
+
+#: retarget/operators.py:134
+#: retarget/operators.py:189
+msgid "Include Bones"
+msgstr "包含骨骼"
+
+#: retarget/operators.py:820
+msgid "Include Bones with this Prefix/Suffix"
+msgstr "包含带有此前缀/后缀的骨骼"
+
+#: retarget/operators.py:877
+msgid "Include Collection"
+msgstr "包含集合"
+
+#: retarget/operators.py:164
+#: retarget/operators.py:796
+msgid "Include Constraints with this Prefix/Suffix"
+msgstr "包含带有此前缀/后缀的约束"
+
+#: retarget/operators.py:2413
+#: retarget/operators.py:4304
+msgid "Include Others Actions"
+msgstr "包含其他动作"
+
+#: retarget/operators.py:3635
+#: retarget/operators.py:4682
+msgid "Include Similar Action"
+msgstr "包含相似动作"
+
+#: retarget/operators.py:5254
+#: retarget/operators.py:6087
+msgid "Include additional bones (such as clothing bone)"
+msgstr "包含附加骨骼（例如服装骨骼）"
+
+#: retarget/properties.py:180
+#: retarget/action/property.py:113
+msgid "Index"
+msgstr "索引"
+
+#: retarget/operators.py:36
+#: retarget/operators.py:60
+msgid "Influence"
+msgstr "影响"
+
+#: retarget/operators.py:36
+#: retarget/operators.py:60
+msgid "Influence of All Constraints"
+msgstr "所有约束的影响"
+
+#: retarget/operators.py:10541
+#: retarget/anim_aide/key_manager/ops.py:156
+msgid "Interpolation"
+msgstr "插值"
+
+#: retarget/operators.py:10531
+msgid "Inverse Animation"
+msgstr "反向动画"
+
+#: retarget/support.py:596
+#: retarget/action/ops.py:1037
+msgid "Invert"
+msgstr "反转"
+
+#: retarget/operators.py:7120
+msgid "Invert Tail"
+msgstr "反转尾端"
+
+#: retarget/action/property.py:201
+msgid "Invert The Filter"
+msgstr "反转过滤器"
+
+#: retarget/operators.py:5265
+#: retarget/operators.py:6103
+msgid "Jaw"
+msgstr "下颌"
+
+#: retarget/anim_aide/key_manager/props.py:47
+msgid "Jitter"
+msgstr "抖动"
+
+#: retarget/operators.py:7515
+msgid "Just copy target world positions (Same bone orient, different rest pose)"
+msgstr "仅复制目标世界位置（骨骼朝向相同，静止姿态不同）"
+
+#: retarget/operators.py:2290
+#: retarget/operators.py:7628
+msgid "Keep Offset"
+msgstr "保持偏移"
+
+#: retarget/operators.py:2291
+#: retarget/operators.py:7629
+msgid "Keep Offset value"
+msgstr "保持偏移值"
+
+#: retarget/operators.py:7095
+msgid "Keep copy of datablock"
+msgstr "保留数据块副本"
+
+#: retarget/operators.py:7105
+msgid "Keep eye bones"
+msgstr "保留眼部骨骼"
+
+#: retarget/anim_aide/key_manager/ui.py:43
+msgid "Key Manager"
+msgstr "关键帧管理器"
+
+#: retarget/anim_aide/key_manager/ops.py:71
+#: retarget/anim_aide/key_manager/ops.py:102
+msgid "Key Type"
+msgstr "关键帧类型"
+
+#: retarget/anim_aide/key_manager/props.py:45
+msgid "Keyframe"
+msgstr "关键帧"
+
+#: retarget/anim_aide/curve_tools/ui.py:55
+msgid "L:"
+msgstr "左："
+
+#: retarget/properties.py:128
+#: retarget/properties.py:200
+msgid "LOC"
+msgstr "位置"
+
+#: retarget/anim_aide/key_manager/ops.py:171
+#: retarget/anim_aide/key_manager/ops.py:268
+msgid "Last key"
+msgstr "最后关键帧"
+
+#: retarget/operators.py:2331
+#: retarget/operators.py:7469
+msgid "Layer"
+msgstr "层"
+
+#: retarget/ui.py:1167
+msgid "Left"
+msgstr "左"
+
+#: retarget/operators.py:7406
+msgid "Leg"
+msgstr "腿"
+
+#: retarget/operators.py:7452
+msgid "Leg IK-FK"
+msgstr "腿部 IK-FK"
+
+#: retarget/operators.py:7452
+msgid "Leg IK/FK option from the source armture (Rigify) (0 for IK and 1 for FK)"
+msgstr "源骨架（Rigify）的腿部 IK/FK 选项（0 为 IK，1 为 FK）"
+
+#: retarget/operators.py:7465
+msgid "Leg pole"
+msgstr "腿部极向"
+
+#: retarget/operators.py:7430
+msgid "Leg: FK to IK"
+msgstr "腿：FK 转 IK"
+
+#: retarget/operators.py:7438
+msgid "Leg: IK to FK"
+msgstr "腿：IK 转 FK"
+
+#: retarget/ui.py:1328
+msgid "Legs"
+msgstr "腿部"
+
+#: retarget/ui.py:1308
+msgid "Legs IK"
+msgstr "腿部 IK"
+
+#: retarget/action/ops.py:742
+msgid "Library"
+msgstr "库"
+
+#: retarget/action/property.py:129
+msgid "Library Mode"
+msgstr "库模式"
+
+#: retarget/operators.py:1446
+#: retarget/operators.py:5266
+msgid "Limb"
+msgstr "肢体"
+
+#: retarget/operators.py:7110
+msgid "Limit Spine Scale"
+msgstr "限制脊柱缩放"
+
+#: retarget/operators.py:7110
+msgid "Limit scale on the spine deform bones"
+msgstr "限制脊柱变形骨骼的缩放"
+
+#: retarget/operators.py:5267
+#: retarget/operators.py:6105
+msgid "Line"
+msgstr "线"
+
+#: retarget/operators.py:10543
+#: retarget/anim_aide/key_manager/props.py:20
+msgid "Linear"
+msgstr "线性"
+
+#: retarget/action/property.py:153
+msgid "Link Action Selected To Active Object"
+msgstr "将选中的动作链接到活动物体"
+
+#: retarget/action/property.py:276
+msgid "Local"
+msgstr "局部"
+
+#: retarget/action/property.py:276
+msgid "Local Action"
+msgstr "本地动作"
+
+#: retarget/operators.py:80
+#: retarget/operators.py:91
+msgid "Local Space"
+msgstr "局部空间"
+
+#: retarget/operators.py:81
+msgid "Local Space (Owner Orientation)"
+msgstr "局部空间（拥有者朝向）"
+
+#: retarget/operators.py:79
+#: retarget/operators.py:90
+msgid "Local With Parent"
+msgstr "局部（含父级）"
+
+#: retarget/operators.py:2608
+#: retarget/operators.py:2754
+msgid "Location"
+msgstr "位置"
+
+#: retarget/operators.py:1382
+#: retarget/operators.py:7324
+msgid "Look for bones present in both"
+msgstr "查找两者中都存在的骨骼"
+
+#: retarget/action/ops.py:2361
+msgid "Make sure that the current is in the active library"
+msgstr "确保当前项位于活动库中"
+
+#: retarget/operators.py:10534
+msgid "Mark"
+msgstr "标记"
+
+#: retarget/anim_aide/anim_offset/props.py:53
+msgid "Mask Blend Easing"
+msgstr "遮罩混合缓动"
+
+#: retarget/anim_aide/anim_offset/props.py:42
+msgid "Mask Blend Interpolation"
+msgstr "遮罩混合插值"
+
+#: retarget/anim_aide/anim_offset/ops.py:483
+msgid "Mask blend interpolation"
+msgstr "遮罩混合插值"
+
+#: retarget/anim_aide/anim_offset/ui.py:229
+msgid "Mask blend interpolation:"
+msgstr "遮罩混合插值："
+
+#: retarget/operators.py:12357
+msgid "Match"
+msgstr "匹配"
+
+#: retarget/anim_aide/curve_tools/ui.py:360
+msgid "Match Left"
+msgstr "匹配左侧"
+
+#: retarget/operators.py:7520
+msgid "Match Object Transform"
+msgstr "匹配物体变换"
+
+#: retarget/anim_aide/curve_tools/ui.py:361
+msgid "Match Right"
+msgstr "匹配右侧"
+
+#: retarget/operators.py:7511
+msgid "Match Transform"
+msgstr "匹配变换"
+
+#: retarget/operators.py:6932
+msgid "Match at child head"
+msgstr "在子骨骼头部匹配"
+
+#: retarget/operators.py:6938
+msgid "Max Distance for merging"
+msgstr "合并的最大距离"
+
+#: retarget/operators.py:2636
+#: retarget/operators.py:8223
+msgid "Max X"
+msgstr "最大 X"
+
+#: retarget/operators.py:2652
+#: retarget/operators.py:8239
+msgid "Max Y"
+msgstr "最大 Y"
+
+#: retarget/operators.py:2668
+#: retarget/operators.py:8255
+msgid "Max Z"
+msgstr "最大 Z"
+
+#: retarget/operators.py:2309
+#: retarget/operators.py:7647
+msgid "Maximum Root X Location"
+msgstr "根 X 位置最大值"
+
+#: retarget/operators.py:2310
+#: retarget/operators.py:7648
+msgid "Maximum Root Y Location"
+msgstr "根 Y 位置最大值"
+
+#: retarget/operators.py:2311
+#: retarget/operators.py:7649
+msgid "Maximum Root Z Location"
+msgstr "根 Z 位置最大值"
+
+#: retarget/ui.py:877
+msgid "Menu ID Name"
+msgstr "菜单 ID 名称"
+
+#: retarget/operators.py:6062
+msgid "Metarig"
+msgstr "元骨架"
+
+#: retarget/operators.py:6062
+msgid "Metarig Armature (Active Armature)"
+msgstr "元骨架（活动骨架）"
+
+#: retarget/operators.py:2629
+#: retarget/operators.py:8216
+msgid "Min X"
+msgstr "最小 X"
+
+#: retarget/operators.py:2645
+#: retarget/operators.py:8232
+msgid "Min Y"
+msgstr "最小 Y"
+
+#: retarget/operators.py:2661
+#: retarget/operators.py:8248
+msgid "Min Z"
+msgstr "最小 Z"
+
+#: retarget/operators.py:2301
+#: retarget/operators.py:7639
+msgid "Minimum Root X Location"
+msgstr "根 X 位置最小值"
+
+#: retarget/operators.py:2302
+#: retarget/operators.py:7640
+msgid "Minimum Root Y Location"
+msgstr "根 Y 位置最小值"
+
+#: retarget/operators.py:2303
+#: retarget/operators.py:7641
+msgid "Minimum Root Z Location"
+msgstr "根 Z 位置最小值"
+
+#: retarget/support.py:972
+msgid "Mirror of All Bone"
+msgstr "所有骨骼镜像"
+
+#: retarget/anim_aide/curve_tools/props.py:112
+msgid "Mirrored"
+msgstr "已镜像"
+
+#: retarget/operators.py:37
+#: retarget/operators.py:65
+msgid "Mix Mode"
+msgstr "混合模式"
+
+#: retarget/anim_aide/curve_tools/ops.py:26
+msgid "Mode"
+msgstr "模式"
+
+#: retarget/action/ui.py:281
+msgid "Mode:"
+msgstr "模式："
+
+#: retarget/operators.py:12047
+msgid "Motion"
+msgstr "运动"
+
+#: retarget/operators.py:7289
+msgid "Motion Bones List (Detect these bones to add or remove the location constraint)"
+msgstr "运动骨骼列表（检测这些骨骼以添加或移除位置约束）"
+
+#: retarget/operators.py:2273
+msgid "Motion Bones List (detect these bones to add the location constraint)"
+msgstr "运动骨骼列表（检测这些骨骼以添加位置约束）"
+
+#: retarget/anim_aide/key_manager/ui.py:112
+msgid "Move-Insert"
+msgstr "移动插入"
+
+#: retarget/ui.py:206
+msgid "NLA Option"
+msgstr "NLA 选项"
+
+#: retarget/operators.py:4667
+#: retarget/operators.py:4826
+msgid "Name"
+msgstr "名称"
+
+#: retarget/operators.py:11231
+msgid "Name Candidate"
+msgstr "候选名称"
+
+#: retarget/operators.py:10224
+#: retarget/operators.py:10526
+msgid "Name of the Collection"
+msgstr "集合名称"
+
+#: retarget/operators.py:4667
+msgid "Name of the transform container"
+msgstr "变换容器名称"
+
+#: retarget/action/ops.py:1890
+msgid "New Action By Objects"
+msgstr "按物体新建动作"
+
+#: retarget/anim_aide/key_manager/ui.py:164
+msgid "New keys will be:"
+msgstr "新关键帧将为："
+
+#: retarget/operators.py:5365
+msgid "No Breast Bones"
+msgstr "无胸部骨骼"
+
+#: retarget/operators.py:5360
+msgid "No Eye Bones"
+msgstr "无眼部骨骼"
+
+#: retarget/operators.py:5244
+msgid "No Eye bones"
+msgstr "无眼部骨骼"
+
+#: retarget/operators.py:7660
+msgid "No FK Location"
+msgstr "无 FK 位置"
+
+#: retarget/operators.py:5355
+#: retarget/operators.py:6182
+msgid "No Face Bones"
+msgstr "无面部骨骼"
+
+#: retarget/support.py:57
+msgid "No Mapped"
+msgstr "未映射"
+
+#: retarget/operators.py:7572
+msgid "No Root"
+msgstr "无根骨骼"
+
+#: retarget/operators.py:10249
+msgid "No binding detected"
+msgstr "未检测到绑定"
+
+#: retarget/operators.py:5248
+msgid "No breast bones"
+msgstr "无胸部骨骼"
+
+#: retarget/operators.py:5241
+#: retarget/operators.py:6078
+msgid "No face bones"
+msgstr "无面部骨骼"
+
+#: retarget/operators.py:12888
+msgid "No transforms stored"
+msgstr "未存储变换"
+
+#: retarget/operators.py:7552
+#: retarget/anim_aide/curve_tools/props.py:109
+msgid "None"
+msgstr "无"
+
+#: retarget/anim_aide/key_manager/props.py:45
+msgid "Normal keys in Blender"
+msgstr "Blender 中的普通关键帧"
+
+#: retarget/action/property.py:203
+msgid "Number By Line"
+msgstr "每行数量"
+
+#: retarget/action/property.py:279
+msgid "Number Of Frame Of Action"
+msgstr "动作帧数"
+
+#: retarget/action/ops.py:1132
+msgid "Number by line"
+msgstr "每行数量"
+
+#: retarget/action/ops.py:1883
+msgid "Number of frame"
+msgstr "帧数"
+
+#: retarget/operators.py:7575
+#: retarget/operators.py:12091
+msgid "Object"
+msgstr "物体"
+
+#: retarget/operators.py:108
+msgid "Object Constraint"
+msgstr "物体约束"
+
+#: retarget/action/property.py:125
+msgid "Object List (Only Show Action Added To the Active Object)"
+msgstr "物体列表（仅显示已添加到活动物体的动作）"
+
+#: retarget/operators.py:12090
+msgid "Object/Bone"
+msgstr "物体/骨骼"
+
+#: retarget/operators.py:12096
+msgid "Offset"
+msgstr "偏移"
+
+#: retarget/operators.py:70
+msgid "Offset (Legacy)"
+msgstr "偏移（旧版）"
+
+#: retarget/operators.py:6075
+#: retarget/operators.py:6178
+msgid "Offset Bone"
+msgstr "偏移骨骼"
+
+#: retarget/operators.py:5231
+#: retarget/operators.py:5343
+msgid "Offset Elbow"
+msgstr "肘部偏移"
+
+#: retarget/operators.py:5234
+#: retarget/operators.py:5347
+msgid "Offset Fingers"
+msgstr "手指偏移"
+
+#: retarget/operators.py:5228
+#: retarget/operators.py:5339
+msgid "Offset Knee"
+msgstr "膝部偏移"
+
+#: retarget/anim_aide/curve_tools/props.py:14
+msgid "Offset key values to neighbors"
+msgstr "将关键帧值偏移到相邻关键帧"
+
+#: retarget/operators.py:12098
+msgid "Offset to Match End Pose"
+msgstr "偏移以匹配结束姿势"
+
+#: retarget/operators.py:12099
+msgid "Offset to Match Rest Pose"
+msgstr "偏移以匹配静止姿势"
+
+#: retarget/operators.py:12097
+msgid "Offset to Start Pose"
+msgstr "偏移以匹配起始姿势"
+
+#: retarget/action/property.py:125
+msgid "Oject Mode"
+msgstr "物体模式"
+
+#: retarget/anim_aide/anim_ui.py:78
+msgid "On Frame Curve Tools"
+msgstr "当前帧曲线工具"
+
+#: retarget/action/ops.py:1618
+msgid "Only Action"
+msgstr "仅动作"
+
+#: retarget/ui.py:1677
+msgid "Only Active Strip"
+msgstr "仅活动片段"
+
+#: retarget/ui.py:1674
+msgid "Only Active Track"
+msgstr "仅活动轨道"
+
+#: retarget/operators.py:2266
+#: retarget/operators.py:7318
+msgid "Only Animated Bone"
+msgstr "仅动画骨骼"
+
+#: retarget/operators.py:159
+msgid "Only By Name"
+msgstr "仅按名称"
+
+#: retarget/operators.py:116
+#: retarget/operators.py:782
+msgid "Only Control Shapes"
+msgstr "仅控制形状"
+
+#: retarget/operators.py:5300
+#: retarget/operators.py:5379
+msgid "Only Deform Bones"
+msgstr "仅变形骨骼"
+
+#: retarget/operators.py:2425
+#: retarget/operators.py:3643
+msgid "Only Look for Action with this Prefix/Suffix"
+msgstr "仅查找具有此前缀/后缀的动作"
+
+#: retarget/operators.py:791
+msgid "Only Look for Bone with this Constraints Prefix/Suffix"
+msgstr "仅查找具有此约束前缀/后缀的骨骼"
+
+#: retarget/operators.py:815
+msgid "Only Look for Bones with this Prefix/Suffix"
+msgstr "仅查找具有此前缀/后缀的骨骼"
+
+#: retarget/operators.py:159
+msgid "Only Look for Constraints with this Prefix/Suffix"
+msgstr "仅查找具有此前缀/后缀的约束"
+
+#: retarget/action/ops.py:1622
+msgid "Only One Armature"
+msgstr "仅一个骨架"
+
+#: retarget/operators.py:1479
+msgid "Only Rotation"
+msgstr "仅旋转"
+
+#: retarget/operators.py:124
+#: retarget/operators.py:1411
+msgid "Only Selected"
+msgstr "仅选中"
+
+#: retarget/operators.py:2421
+#: retarget/operators.py:3639
+msgid "Only Selected Action(s)"
+msgstr "仅选中的动作"
+
+#: retarget/operators.py:4141
+msgid "Only Selected Bone"
+msgstr "仅选中骨骼"
+
+#: retarget/operators.py:2474
+#: retarget/operators.py:4365
+msgid "Only Similar Actions"
+msgstr "仅相似动作"
+
+#: retarget/action/property.py:117
+msgid "Only display compatible action with the active object"
+msgstr "仅显示与活动物体兼容的动作"
+
+#: retarget/anim_aide/key_manager/ops.py:316
+msgid "Only keys under cursor"
+msgstr "仅光标下的关键帧"
+
+#: retarget/operators.py:124
+#: retarget/operators.py:11348
+msgid "Only on Selected Bones"
+msgstr "仅在选中骨骼上"
+
+#: retarget/operators.py:2421
+#: retarget/operators.py:3639
+msgid "Only selected Action(s) in Action Manager"
+msgstr "仅动作管理器中的选中动作"
+
+#: retarget/operators.py:120
+#: retarget/operators.py:786
+msgid "Only visible bone"
+msgstr "仅可见骨骼"
+
+#: retarget/support.py:1780
+#: retarget/action/ui_menu.py:55
+msgid "Operations"
+msgstr "操作"
+
+#: retarget/anim_aide/key_manager/ops.py:241
+#: retarget/anim_aide/key_manager/ops.py:242
+msgid "Options of ease mode to apply to keys"
+msgstr "应用于关键帧的缓动模式选项"
+
+#: retarget/operators.py:5293
+#: retarget/operators.py:6132
+msgid "Orange"
+msgstr "橙色"
+
+#: retarget/ui.py:1460
+msgid "Other Bone"
+msgstr "其他骨骼"
+
+#: retarget/anim_aide/curve_tools/props.py:178
+msgid "Overshoot"
+msgstr "过冲"
+
+#: retarget/anim_aide/curve_tools/props.py:23
+#: retarget/anim_aide/curve_tools/props.py:24
+msgid "Overshoots key values"
+msgstr "关键值过冲"
+
+#: retarget/operators.py:10528
+msgid "Overwrite Current Action"
+msgstr "覆盖当前动作"
+
+#: retarget/support.py:240
+msgid "Overwrite Other Bone Setting"
+msgstr "覆盖其他骨骼设置"
+
+#: retarget/operators.py:39
+#: retarget/operators.py:86
+msgid "Owner Space"
+msgstr "所有者空间"
+
+#: retarget/operators.py:210
+#: retarget/operators.py:2397
+msgid "PLAY"
+msgstr "播放"
+
+#: retarget/operators.py:5268
+#: retarget/operators.py:6106
+msgid "Palm"
+msgstr "手掌"
+
+#: retarget/operators.py:5269
+#: retarget/operators.py:6107
+msgid "Palm_z"
+msgstr "Palm_z"
+
+#: retarget/operators.py:4742
+msgid "Parent to the a Offset"
+msgstr "父级到偏移"
+
+#: retarget/operators.py:4742
+msgid "Parent to the new offset to preserve final transform"
+msgstr "父级到新偏移以保持最终变换"
+
+#: retarget/properties.py:185
+msgid "Pin the armature"
+msgstr "固定骨架"
+
+#: retarget/operators.py:5270
+#: retarget/operators.py:6108
+msgid "Pivot"
+msgstr "枢轴"
+
+#: retarget/operators.py:5271
+#: retarget/operators.py:6109
+msgid "Pivot_cross"
+msgstr "Pivot_cross"
+
+#: retarget/action/property.py:157
+msgid "Play selected Action"
+msgstr "播放所选动作"
+
+#: retarget/action/ops.py:711
+msgid "Please open an Asset Browser editor first And Select Actions"
+msgstr "请先打开资产浏览器编辑器并选择动作"
+
+#: retarget/action/ops.py:2351
+msgid "Please select a valid catalog"
+msgstr "请选择有效的目录"
+
+#: retarget/operators.py:7457
+msgid "Pole bone"
+msgstr "极向骨骼"
+
+#: retarget/operators.py:7457
+msgid "Pole bone settings (the Rigify naming convention must be complied)"
+msgstr "极向骨骼设置（必须遵守 Rigify 命名约定）"
+
+#: retarget/operators.py:7597
+msgid "Policy"
+msgstr "策略"
+
+#: retarget/operators.py:78
+#: retarget/operators.py:89
+msgid "Pose Space"
+msgstr "姿态空间"
+
+#: retarget/operators.py:10542
+#: retarget/anim_aide/key_manager/props.py:19
+msgid "Poses hold until the next key"
+msgstr "姿态保持到下一个关键帧"
+
+#: retarget/action/ops.py:2026
+msgid "Position"
+msgstr "位置"
+
+#: retarget/operators.py:96
+#: retarget/operators.py:170
+msgid "Prefix"
+msgstr "前缀"
+
+#: retarget/operators.py:2436
+#: retarget/operators.py:3654
+msgid "Prefix (comma is the separator)"
+msgstr "前缀（逗号分隔）"
+
+#: retarget/operators.py:3613
+msgid "Prefix of the bone name , i.e: MyCharacter:head"
+msgstr "骨骼名称前缀，例如：MyCharacter:head"
+
+#: retarget/operators.py:1500
+msgid "Preserve Connection"
+msgstr "保持连接"
+
+#: retarget/operators.py:1496
+msgid "Preserve Depth"
+msgstr "保持深度"
+
+#: retarget/operators.py:1486
+msgid "Preserve Height"
+msgstr "保持高度"
+
+#: retarget/operators.py:1500
+msgid "Preserve The Connection Of The Bone"
+msgstr "保持骨骼的连接"
+
+#: retarget/operators.py:1496
+msgid "Preserve The Depth Of The Armature"
+msgstr "保持骨架的深度"
+
+#: retarget/operators.py:1486
+msgid "Preserve The Height Of The Armature"
+msgstr "保持骨架的高度"
+
+#: retarget/operators.py:1492
+msgid "Preserve The Width Of The Armature"
+msgstr "保持骨架的宽度"
+
+#: retarget/operators.py:1492
+msgid "Preserve Width"
+msgstr "保持宽度"
+
+#: retarget/operators.py:775
+#: retarget/preferences.py:286
+msgid "Preset"
+msgstr "预设"
+
+#: retarget/preferences.py:286
+#: retarget/ui.py:29
+msgid "Preset Tab"
+msgstr "预设选项卡"
+
+#: retarget/anim_aide/key_manager/props.py:58
+#: retarget/anim_aide/key_manager/props.py:59
+msgid "Preset amounts to choose from"
+msgstr "可供选择的预设数量"
+
+#: retarget/anim_aide/key_manager/props.py:23
+msgid "Preset of ease in and out curves with different level of strength and shapes"
+msgstr "不同强度和形状的缓入缓出曲线预设"
+
+#: retarget/anim_aide/key_manager/props.py:52
+#: retarget/anim_aide/key_manager/props.py:53
+msgid "Preset of key groups"
+msgstr "关键帧组预设"
+
+#: retarget/anim_aide/key_manager/props.py:143
+msgid "Presets"
+msgstr "预设"
+
+#: retarget/support.py:1530
+msgid "Property prefix"
+msgstr "属性前缀"
+
+#: retarget/support.py:1531
+msgid "Property suffix"
+msgstr "属性后缀"
+
+#: retarget/operators.py:5288
+#: retarget/operators.py:6127
+msgid "Purple"
+msgstr "紫色"
+
+#: retarget/action/property.py:277
+msgid "Push Down To NLA"
+msgstr "下推到 NLA"
+
+#: retarget/anim_aide/curve_tools/props.py:26
+#: retarget/anim_aide/curve_tools/props.py:42
+msgid "Push Pull"
+msgstr "推拉"
+
+#: retarget/anim_aide/key_manager/ops.py:242
+#: retarget/anim_aide/key_manager/props.py:28
+msgid "Quadratic"
+msgstr "二次"
+
+#: retarget/anim_aide/key_manager/ops.py:244
+#: retarget/anim_aide/key_manager/props.py:30
+msgid "Quartic"
+msgstr "四次"
+
+#: retarget/anim_aide/key_manager/ops.py:245
+#: retarget/anim_aide/key_manager/props.py:31
+msgid "Quintic"
+msgstr "五次"
+
+#: retarget/anim_aide/curve_tools/ui.py:64
+msgid "R:"
+msgstr "R："
+
+#: retarget/ui.py:235
+msgid "RETARGET"
+msgstr "重定向"
+
+#: retarget/operators.py:7125
+msgid "Rearrange Twist Hierarchy in limbs for in game IK"
+msgstr "重新排列四肢中的扭转层级以用于游戏内 IK"
+
+#: retarget/operators.py:5289
+#: retarget/operators.py:6128
+msgid "Red"
+msgstr "红色"
+
+#: retarget/action/property.py:165
+msgid "Refresh The Action List When We Select A New Object"
+msgstr "选择新物体时刷新动作列表"
+
+#: retarget/operators.py:35
+msgid "Remove"
+msgstr "移除"
+
+#: retarget/operators.py:11352
+msgid "Remove .L and .R to bone name"
+msgstr "从骨骼名称中移除 .L 和 .R"
+
+#: retarget/operators.py:35
+msgid "Remove All Constraints"
+msgstr "移除所有约束"
+
+#: retarget/operators.py:11352
+msgid "Remove Support"
+msgstr "移除支持"
+
+#: retarget/operators.py:5244
+msgid "Remove the eye bones from the face skeleton (this prevents the error in face skeleton)."
+msgstr "从面部骨架中移除眼部骨骼（这可以防止面部骨架出错）"
+
+#: retarget/operators.py:7285
+msgid "Remove the location constraint"
+msgstr "移除位置约束"
+
+#: retarget/operators.py:7100
+msgid "Rename"
+msgstr "重命名"
+
+#: retarget/action/ops.py:1646
+msgid "Rename Action"
+msgstr "重命名动作"
+
+#: retarget/action/ops.py:1646
+msgid "Rename Actions from fbx name"
+msgstr "根据 fbx 名称重命名动作"
+
+#: retarget/action/ops.py:1642
+msgid "Rename Armature"
+msgstr "重命名骨架"
+
+#: retarget/action/ops.py:1642
+msgid "Rename Armature from fbx name"
+msgstr "根据 fbx 名称重命名骨架"
+
+#: retarget/operators.py:7100
+msgid "Rename rig to 'Armature'"
+msgstr "将绑定重命名为“Armature”"
+
+#: retarget/ui.py:370
+msgid "Renamed to"
+msgstr "重命名为"
+
+#: retarget/operators.py:2340
+#: retarget/anim_aide/curve_tools/props.py:110
+msgid "Repeat"
+msgstr "重复"
+
+#: retarget/anim_aide/curve_tools/props.py:111
+msgid "Repeat with Offset"
+msgstr "带偏移重复"
+
+#: retarget/operators.py:66
+msgid "Replace"
+msgstr "替换"
+
+#: retarget/operators.py:1391
+#: retarget/operators.py:7330
+msgid "Replace in name"
+msgstr "在名称中替换"
+
+#: retarget/operators.py:1394
+#: retarget/operators.py:7333
+msgid "Replace in name with"
+msgstr "在名称中替换为"
+
+#: retarget/operators.py:1391
+#: retarget/operators.py:7330
+msgid "Replace in source bone name"
+msgstr "在源骨骼名称中替换"
+
+#: retarget/operators.py:66
+msgid "Replace the original rotation with copied"
+msgstr "用复制的旋转替换原始旋转"
+
+#: retarget/operators.py:1394
+#: retarget/operators.py:7333
+msgid "Replace with"
+msgstr "替换为"
+
+#: retarget/operators.py:1555
+#: retarget/operators.py:8022
+msgid "Replace:"
+msgstr "替换："
+
+#: retarget/operators.py:7524
+msgid "Reset The Position"
+msgstr "重置位置"
+
+#: retarget/operators.py:1476
+msgid "Reset The Position an rotation"
+msgstr "重置位置和旋转"
+
+#: retarget/operators.py:7520
+msgid "Reset The Position for best results."
+msgstr "重置位置以获得最佳效果。"
+
+#: retarget/operators.py:12099
+msgid "Rest Pose"
+msgstr "静止姿态"
+
+#: retarget/__init__.py:19
+#: retarget/ui.py:19
+msgid "Retarget"
+msgstr "重定向"
+
+#: retarget/ui.py:944
+msgid "Retarget Presets"
+msgstr "重定向预设"
+
+#: retarget/operators.py:7120
+msgid "Reverse the tail direction so that it spawns from hip"
+msgstr "反转尾端方向，使其从髋部生成"
+
+#: retarget/operators.py:5223
+#: retarget/operators.py:5333
+msgid "Rig Type"
+msgstr "绑定类型"
+
+#: retarget/operators.py:11887
+#: retarget/operators.py:12285
+msgid "Rig Type:"
+msgstr "绑定类型："
+
+#: retarget/__init__.py:19
+#: retarget/ui.py:165
+msgid "Rigging"
+msgstr "绑定"
+
+#: retarget/ui.py:1145
+msgid "Right"
+msgstr "右"
+
+#: retarget/operators.py:5654
+msgid "Rigify Add-On not enabled"
+msgstr "Rigify 插件未启用"
+
+#: retarget/operators.py:8146
+msgid "Rigify Rig Setting"
+msgstr "Rigify 绑定设置"
+
+#: retarget/operators.py:5304
+msgid "Rigify will generate to the active object"
+msgstr "Rigify 将生成到活动物体"
+
+#: retarget/operators.py:2288
+#: retarget/ui.py:1354
+msgid "Root"
+msgstr "根"
+
+#: retarget/operators.py:8172
+msgid "Root Animation"
+msgstr "根动画"
+
+#: retarget/operators.py:2293
+#: retarget/operators.py:7631
+msgid "Root Copy Loc X"
+msgstr "根复制位置 X"
+
+#: retarget/operators.py:2295
+#: retarget/operators.py:7633
+msgid "Root Copy Loc Z"
+msgstr "根复制位置 Z"
+
+#: retarget/operators.py:2294
+#: retarget/operators.py:7632
+msgid "Root Copy Loc y"
+msgstr "根复制位置 Y"
+
+#: retarget/operators.py:2313
+#: retarget/operators.py:2322
+msgid "Root Copy Rot X"
+msgstr "根复制旋转 X"
+
+#: retarget/operators.py:2315
+#: retarget/operators.py:2324
+msgid "Root Copy Rot Z"
+msgstr "根复制旋转 Z"
+
+#: retarget/operators.py:2314
+#: retarget/operators.py:2323
+msgid "Root Copy Rot y"
+msgstr "根复制旋转 Y"
+
+#: retarget/operators.py:2317
+#: retarget/operators.py:2326
+msgid "Root Copy Scal X"
+msgstr "根复制缩放 X"
+
+#: retarget/operators.py:2319
+#: retarget/operators.py:2328
+msgid "Root Copy Scal Z"
+msgstr "根复制缩放 Z"
+
+#: retarget/operators.py:2318
+#: retarget/operators.py:2327
+msgid "Root Copy Scal y"
+msgstr "根复制缩放 Y"
+
+#: retarget/operators.py:2309
+#: retarget/operators.py:7647
+msgid "Root Max X"
+msgstr "根最大值 X"
+
+#: retarget/operators.py:2310
+#: retarget/operators.py:7648
+msgid "Root Max Y"
+msgstr "根最大值 Y"
+
+#: retarget/operators.py:2311
+#: retarget/operators.py:7649
+msgid "Root Max Z"
+msgstr "根最大值 Z"
+
+#: retarget/operators.py:2301
+#: retarget/operators.py:7639
+msgid "Root Min X"
+msgstr "根最小值 X"
+
+#: retarget/operators.py:2302
+#: retarget/operators.py:7640
+msgid "Root Min Y"
+msgstr "根最小值 Y"
+
+#: retarget/operators.py:2303
+#: retarget/operators.py:7641
+msgid "Root Min Z"
+msgstr "根最小值 Z"
+
+#: retarget/operators.py:2362
+#: retarget/operators.py:2748
+msgid "Root Motion"
+msgstr "根运动"
+
+#: retarget/operators.py:7624
+msgid "Root Motion Source"
+msgstr "根运动源"
+
+#: retarget/operators.py:7620
+msgid "Root Motion Target"
+msgstr "根运动目标"
+
+#: retarget/operators.py:7620
+msgid "Root Motion of the  Target Armature"
+msgstr "目标骨架的根运动"
+
+#: retarget/operators.py:7624
+msgid "Root Motion of the Source Armature"
+msgstr "源骨架的根运动"
+
+#: retarget/operators.py:11849
+msgid "Root Name"
+msgstr "根名称"
+
+#: retarget/operators.py:2677
+#: retarget/operators.py:2760
+msgid "Rotation"
+msgstr "旋转"
+
+#: retarget/operators.py:12367
+msgid "Rotation Plane"
+msgstr "旋转平面"
+
+#: retarget/anim_aide/curve_tools/props.py:17
+msgid "S shape transition"
+msgstr "S 形过渡"
+
+#: retarget/operators.py:2409
+#: retarget/operators.py:3631
+msgid "SHow All Action"
+msgstr "显示所有动作"
+
+#: retarget/operators.py:1378
+#: retarget/operators.py:7281
+msgid "Same Bone Names"
+msgstr "相同骨骼名称"
+
+#: retarget/operators.py:10430
+msgid "Save New Action User"
+msgstr "保存新动作用户"
+
+#: retarget/operators.py:7675
+msgid "Save The Pose"
+msgstr "保存姿势"
+
+#: retarget/operators.py:2683
+#: retarget/operators.py:2766
+msgid "Scale"
+msgstr "缩放"
+
+#: retarget/anim_aide/curve_tools/props.py:19
+msgid "Scale Average"
+msgstr "缩放平均值"
+
+#: retarget/anim_aide/curve_tools/props.py:20
+#: retarget/anim_aide/curve_tools/props.py:39
+msgid "Scale Left"
+msgstr "缩放左侧"
+
+#: retarget/anim_aide/curve_tools/props.py:21
+#: retarget/anim_aide/curve_tools/props.py:40
+msgid "Scale Right"
+msgstr "缩放右侧"
+
+#: retarget/anim_aide/curve_tools/props.py:20
+#: retarget/anim_aide/curve_tools/props.py:39
+msgid "Scale anchor to left neighbor"
+msgstr "缩放锚定到左侧相邻项"
+
+#: retarget/anim_aide/curve_tools/props.py:21
+#: retarget/anim_aide/curve_tools/props.py:40
+msgid "Scale anchor to right neighbor"
+msgstr "缩放锚定到右侧相邻项"
+
+#: retarget/operators.py:4668
+msgid "Scale of the transform container"
+msgstr "变换容器的缩放"
+
+#: retarget/anim_aide/curve_tools/props.py:19
+msgid "Scale to average value"
+msgstr "缩放到平均值"
+
+#: retarget/ui.py:1677
+msgid "Scene range only to the active strip"
+msgstr "场景范围仅到活动片段"
+
+#: retarget/ui.py:1674
+msgid "Scene range only to the active track"
+msgstr "场景范围仅到活动轨道"
+
+#: retarget/operators.py:1483
+#: retarget/operators.py:6067
+msgid "Search"
+msgstr "搜索"
+
+#: retarget/support.py:1750
+#: retarget/action/ui_menu.py:8
+msgid "Select"
+msgstr "选择"
+
+#: retarget/action/property.py:281
+#: retarget/action/property.py:291
+msgid "Select Action"
+msgstr "选择动作"
+
+#: retarget/operators.py:762
+msgid "Select All controls"
+msgstr "选择所有控件"
+
+#: retarget/properties.py:136
+msgid "Select Bone"
+msgstr "选择骨骼"
+
+#: retarget/action/ops.py:753
+msgid "Select The Library"
+msgstr "选择库"
+
+#: retarget/operators.py:6282
+msgid "Select a Metarig"
+msgstr "选择元骨架"
+
+#: retarget/operators.py:761
+msgid "Select animated controls"
+msgstr "选择已动画控件"
+
+#: retarget/operators.py:2450
+#: retarget/operators.py:3668
+msgid "Select between Actions"
+msgstr "在动作间选择"
+
+#: retarget/operators.py:872
+msgid "Select between Bone Collection"
+msgstr "在骨骼集合之间选择"
+
+#: retarget/operators.py:771
+msgid "Select bones by preset"
+msgstr "按预设选择骨骼"
+
+#: retarget/operators.py:771
+msgid "Select by preset"
+msgstr "按预设选择"
+
+#: retarget/operators.py:760
+msgid "Select constrained controls"
+msgstr "选择受约束控件"
+
+#: retarget/operators.py:759
+msgid "Select if"
+msgstr "选择条件"
+
+#: retarget/operators.py:58
+msgid "Select the Frame To Apply"
+msgstr "选择要应用的帧"
+
+#: retarget/operators.py:7679
+msgid "Select the Frame for {Save The Pose}"
+msgstr "选择用于 {Save The Pose} 的帧"
+
+#: retarget/anim_aide/key_manager/ops.py:169
+#: retarget/anim_aide/key_manager/ops.py:266
+msgid "Selection"
+msgstr "选择"
+
+#: retarget/operators.py:212
+#: retarget/operators.py:2399
+msgid "Set Playback range to current action Start/End"
+msgstr "将播放范围设为当前动作的起点/终点"
+
+#: retarget/operators.py:1483
+#: retarget/operators.py:6067
+msgid "Set The Head Bone Manually"
+msgstr "手动设置头部骨骼"
+
+#: retarget/properties.py:122
+msgid "Set the IK property to this bone"
+msgstr "将 IK 属性设置到此骨骼"
+
+#: retarget/properties.py:121
+msgid "Set the active bone name"
+msgstr "设置活动骨骼名称"
+
+#: retarget/anim_aide/anim_offset/props.py:54
+#: retarget/anim_aide/anim_offset/props.py:55
+msgid "Sets Mask transition type"
+msgstr "设置遮罩过渡类型"
+
+#: retarget/anim_aide/curve_tools/props.py:28
+#: retarget/anim_aide/curve_tools/props.py:45
+msgid "Sets key value using neighbors as reference"
+msgstr "使用相邻项作为参考设置键值"
+
+#: retarget/anim_aide/anim_offset/ops.py:474
+#: retarget/anim_aide/curve_tools/ops.py:1065
+msgid "Settings"
+msgstr "设置"
+
+#: retarget/operators.py:5276
+#: retarget/operators.py:6115
+msgid "Shape of Other Bone"
+msgstr "其他骨骼形状"
+
+#: retarget/operators.py:5281
+#: retarget/operators.py:6120
+msgid "Shape of The Eye"
+msgstr "眼睛形状"
+
+#: retarget/anim_aide/curve_tools/props.py:23
+msgid "Shear Left"
+msgstr "向左剪切"
+
+#: retarget/anim_aide/curve_tools/props.py:24
+msgid "Shear Right"
+msgstr "向右剪切"
+
+#: retarget/operators.py:5272
+#: retarget/operators.py:6110
+msgid "Shoulder"
+msgstr "肩部"
+
+#: retarget/operators.py:4678
+msgid "Show All Action"
+msgstr "显示所有动作"
+
+#: retarget/action/ops.py:1131
+#: retarget/action/property.py:202
+msgid "Show All Tag"
+msgstr "显示所有标签"
+
+#: retarget/properties.py:192
+msgid "Show Bone Name"
+msgstr "显示骨骼名称"
+
+#: retarget/properties.py:194
+msgid "Show Eye Dropper"
+msgstr "显示吸管"
+
+#: retarget/properties.py:196
+msgid "Show IK Setting"
+msgstr "显示 IK 设置"
+
+#: retarget/properties.py:204
+msgid "Show Limb"
+msgstr "显示肢体"
+
+#: retarget/properties.py:200
+msgid "Show Location Setting"
+msgstr "显示位置设置"
+
+#: retarget/action/property.py:184
+msgid "Show Push To NLA"
+msgstr "显示推入 NLA"
+
+#: retarget/action/property.py:134
+msgid "Show The Blend File"
+msgstr "显示 .blend 文件"
+
+#: retarget/action/property.py:178
+msgid "Show The Fake User"
+msgstr "显示伪用户"
+
+#: retarget/action/property.py:135
+msgid "Show The Folder"
+msgstr "显示文件夹"
+
+#: retarget/properties.py:206
+#: retarget/action/property.py:177
+msgid "Show The Hidden Mark"
+msgstr "显示隐藏标记"
+
+#: retarget/action/property.py:179
+msgid "Show The Library"
+msgstr "显示库"
+
+#: retarget/action/property.py:180
+msgid "Show The Local Statut"
+msgstr "显示本地状态"
+
+#: retarget/action/property.py:182
+msgid "Show The Number of Frame"
+msgstr "显示帧数"
+
+#: retarget/action/property.py:181
+msgid "Show The Number of Users"
+msgstr "显示用户数"
+
+#: retarget/action/property.py:183
+msgid "Show The Tag"
+msgstr "显示标签"
+
+#: retarget/operators.py:2405
+#: retarget/operators.py:3627
+msgid "Show Those Action"
+msgstr "显示这些动作"
+
+#: retarget/properties.py:208
+#: retarget/action/property.py:187
+msgid "Side View"
+msgstr "侧视图"
+
+#: retarget/anim_aide/key_manager/ops.py:241
+#: retarget/anim_aide/key_manager/props.py:27
+msgid "Sinusoidal"
+msgstr "正弦"
+
+#: retarget/operators.py:7599
+msgid "Skip Bones that are constrained already"
+msgstr "跳过已有约束的骨骼"
+
+#: retarget/operators.py:112
+#: retarget/operators.py:779
+msgid "Skip Deform Bones"
+msgstr "跳过变形骨骼"
+
+#: retarget/operators.py:7599
+msgid "Skip Existing Constraints"
+msgstr "跳过现有约束"
+
+#: retarget/anim_aide/curve_tools/props.py:27
+#: retarget/anim_aide/curve_tools/props.py:44
+msgid "Slide fcurve in time without afecting keys frame value"
+msgstr "在时间上滑动 F 曲线，而不影响关键帧的值"
+
+#: retarget/anim_aide/curve_tools/ops.py:27
+msgid "Slider"
+msgstr "滑块"
+
+#: retarget/action/ops.py:1882
+msgid "Slot Name"
+msgstr "槽名称"
+
+#: retarget/action/ops.py:1261
+msgid "Smaller Than"
+msgstr "小于"
+
+#: retarget/anim_aide/curve_tools/props.py:30
+msgid "Smooth"
+msgstr "平滑"
+
+#: retarget/anim_aide/curve_tools/props.py:30
+msgid "Smooths out fcurve keys"
+msgstr "平滑 F 曲线关键帧"
+
+#: retarget/ui.py:1555
+#: retarget/action/ui.py:378
+msgid "Sort By"
+msgstr "排序方式"
+
+#: retarget/properties.py:211
+msgid "Sort By Bone Name"
+msgstr "按骨骼名称排序"
+
+#: retarget/action/property.py:144
+msgid "Sort By File"
+msgstr "按文件排序"
+
+#: retarget/action/property.py:143
+msgid "Sort By Folder"
+msgstr "按文件夹排序"
+
+#: retarget/action/property.py:147
+msgid "Sort By Frame"
+msgstr "按帧排序"
+
+#: retarget/properties.py:212
+msgid "Sort By Limb"
+msgstr "按肢体排序"
+
+#: retarget/action/property.py:148
+msgid "Sort By Tag"
+msgstr "按标签排序"
+
+#: retarget/operators.py:3603
+msgid "Source"
+msgstr "源"
+
+#: retarget/operators.py:1401
+#: retarget/operators.py:6057
+msgid "Source Armature"
+msgstr "源骨架"
+
+#: retarget/operators.py:1401
+#: retarget/operators.py:3603
+msgid "Source Preset"
+msgstr "源预设"
+
+#: retarget/operators.py:2337
+msgid "Speed"
+msgstr "速度"
+
+#: retarget/operators.py:5273
+#: retarget/operators.py:6111
+msgid "Sphere"
+msgstr "球体"
+
+#: retarget/ui.py:1284
+msgid "Spine"
+msgstr "脊椎"
+
+#: retarget/operators.py:5308
+msgid "Spine Z will face the Y axis"
+msgstr "脊椎 Z 将朝向 Y 轴"
+
+#: retarget/operators.py:2349
+#: retarget/operators.py:10514
+msgid "Start"
+msgstr "起始"
+
+#: retarget/ui.py:540
+msgid "Start With"
+msgstr "起始于"
+
+#: retarget/operators.py:2345
+msgid "Start/End of the Repetition"
+msgstr "重复的起点/终点"
+
+#: retarget/operators.py:11250
+msgid "Starting with"
+msgstr "以…开始"
+
+#: retarget/operators.py:55
+#: retarget/operators.py:239
+msgid "Status"
+msgstr "状态"
+
+#: retarget/operators.py:10539
+#: retarget/operators.py:10542
+msgid "Step"
+msgstr "步长"
+
+#: retarget/anim_aide/curve_tools/ops.py:28
+msgid "Steps"
+msgstr "步数"
+
+#: retarget/anim_aide/curve_tools/props.py:182
+msgid "Sticky Handles"
+msgstr "粘滞手柄"
+
+#: retarget/anim_aide/curve_tools/ui.py:232
+msgid "Sticky handles"
+msgstr "粘滞手柄"
+
+#: retarget/operators.py:100
+#: retarget/operators.py:178
+msgid "Suffix"
+msgstr "后缀"
+
+#: retarget/operators.py:2444
+#: retarget/operators.py:3662
+msgid "Suffix (comma is the separator)"
+msgstr "后缀（以逗号分隔）"
+
+#: retarget/operators.py:12086
+msgid "Suffix of the duplicate animation, leave empty to overwrite"
+msgstr "复制动画的后缀，留空则覆盖"
+
+#: retarget/operators.py:350
+#: retarget/operators.py:962
+msgid "Suffix:"
+msgstr "后缀："
+
+#: retarget/properties.py:219
+#: retarget/support.py:591
+msgid "Suggestion"
+msgstr "建议"
+
+#: retarget/properties.py:233
+msgid "TRACK"
+msgstr "轨道"
+
+#: retarget/ui.py:28
+msgid "Tab"
+msgstr "选项卡"
+
+#: retarget/preferences.py:318
+msgid "Tab Parameter:"
+msgstr "选项卡参数："
+
+#: retarget/action/ops.py:1120
+#: retarget/action/ops.py:1123
+msgid "Tag"
+msgstr "标签"
+
+#: retarget/action/property.py:278
+#: retarget/action/property.py:289
+msgid "Tag Action"
+msgstr "标记动作"
+
+#: retarget/operators.py:3619
+msgid "Take Over Existing Names"
+msgstr "接管现有名称"
+
+#: retarget/operators.py:3608
+#: retarget/properties.py:126
+msgid "Target"
+msgstr "目标"
+
+#: retarget/operators.py:1406
+#: retarget/operators.py:7313
+msgid "Target Armature (Active Armature)"
+msgstr "目标骨架（活动骨架）"
+
+#: retarget/operators.py:105
+#: retarget/operators.py:10208
+msgid "Target List"
+msgstr "目标列表"
+
+#: retarget/operators.py:1406
+#: retarget/operators.py:3608
+msgid "Target Preset"
+msgstr "目标预设"
+
+#: retarget/operators.py:38
+#: retarget/operators.py:75
+msgid "Target Space"
+msgstr "目标空间"
+
+#: retarget/preferences.py:167
+msgid "Text to Copy"
+msgstr "要复制的文本"
+
+#: retarget/operators.py:10534
+msgid "The constraint name must contain this value, 'Delete Constraint' also use it"
+msgstr "约束名称必须包含此值，「删除约束」也会使用它"
+
+#: retarget/operators.py:10208
+msgid "The list of targets is displayed when you link your source armature to multiple armatures"
+msgstr "当把源骨架链接到多个骨架时，会显示目标列表"
+
+#: retarget/operators.py:105
+msgid "The list of targets of Constraint"
+msgstr "约束的目标列表"
+
+#: retarget/operators.py:4144
+msgid "The shape keys will prevent this operation"
+msgstr "形态键会阻止此操作"
+
+#: retarget/ui.py:1670
+msgid "This armature will drive another one."
+msgstr "此骨架将驱动另一个骨架。"
+
+#: retarget/anim_aide/curve_tools/support.py:155
+msgid "This tool only works on frames with keys"
+msgstr "此工具仅在有键的帧上可用"
+
+#: retarget/anim_aide/curve_tools/props.py:27
+#: retarget/anim_aide/curve_tools/props.py:44
+msgid "Time Offset"
+msgstr "时间偏移"
+
+#: retarget/operators.py:12337
+msgid "To"
+msgstr "到"
+
+#: retarget/operators.py:1537
+#: retarget/operators.py:6057
+msgid "To Bind"
+msgstr "待绑定"
+
+#: retarget/operators.py:12134
+msgid "To test the animation"
+msgstr "用于测试动画"
+
+#: retarget/anim_aide/curve_tools/props.py:153
+#: retarget/anim_aide/curve_tools/props.py:157
+msgid "Toggle between compact and expanded modes for the Tools"
+msgstr "在工具的紧凑与展开模式之间切换"
+
+#: retarget/operators.py:7461
+msgid "Toggle pole on the arm (Rigify)"
+msgstr "切换手臂上的极向（Rigify）"
+
+#: retarget/operators.py:7465
+msgid "Toggle pole on the leg (Rigify)"
+msgstr "切换腿部极向（Rigify）"
+
+#: retarget/__init__.py:19
+msgid "Tools for Character Rig Conversion"
+msgstr "角色绑定转换工具"
+
+#: retarget/operators.py:12144
+msgid "Transfer Root Motion"
+msgstr "传递根运动"
+
+#: retarget/operators.py:12092
+msgid "Transfer Root Motion To Bone"
+msgstr "将根运动传递到骨骼"
+
+#: retarget/operators.py:12091
+msgid "Transfer Root Motion To Object (Apply the Scale of the Armature)"
+msgstr "将根运动传递到物体（应用骨架的缩放）"
+
+#: retarget/operators.py:10544
+#: retarget/anim_aide/key_manager/props.py:21
+msgid "Transition between keys is affected by a curve tangents that can be manipulated"
+msgstr "关键帧之间的过渡受可操控的曲线切线影响"
+
+#: retarget/operators.py:5300
+#: retarget/operators.py:6091
+msgid "Try not to include unnecessary bones."
+msgstr "尽量不要包含不必要的骨骼。"
+
+#: retarget/anim_aide/curve_tools/ui.py:349
+msgid "Tweak"
+msgstr "微调"
+
+#: retarget/anim_aide/curve_tools/ui.py:358
+msgid "Tweak Left"
+msgstr "微调左"
+
+#: retarget/anim_aide/curve_tools/ui.py:359
+msgid "Tweak Right"
+msgstr "微调右"
+
+#: retarget/anim_aide/curve_tools/props.py:28
+#: retarget/anim_aide/curve_tools/props.py:45
+msgid "Tween"
+msgstr "补间"
+
+#: retarget/anim_aide/key_manager/ui.py:147
+msgid "Type"
+msgstr "类型"
+
+#: retarget/operators.py:7534
+#: retarget/operators.py:7538
+msgid "USe IK target roll from source armature (Useful for IK) (Not recommended)"
+msgstr "使用源骨架的 IK 目标滚转（对 IK 有用）（不推荐）"
+
+#: retarget/operators.py:10226
+#: retarget/operators.py:10732
+msgid "Unbind"
+msgstr "取消绑定"
+
+#: retarget/action/property.py:169
+msgid "Unlink Action On Previous Object(s) When We Select A New One (Warning: Can break orther thing so disable it when its not needed)"
+msgstr "选择新物体时取消链接之前物体上的动作（警告：可能破坏其他内容，不需要时请禁用）"
+
+#: retarget/ui.py:1164
+msgid "Up Lid"
+msgstr "上眼睑"
+
+#: retarget/operators.py:12037
+msgid "Use Bone"
+msgstr "使用骨骼"
+
+#: retarget/operators.py:12038
+msgid "Use Channel"
+msgstr "使用通道"
+
+#: retarget/operators.py:10528
+msgid "Use Current Action"
+msgstr "使用当前动作"
+
+#: retarget/action/ops.py:1884
+#: retarget/action/ops.py:2547
+msgid "Use Fake User"
+msgstr "使用伪用户"
+
+#: retarget/operators.py:7581
+msgid "Use Location Constraint when binding"
+msgstr "绑定时使用位置约束"
+
+#: retarget/operators.py:2305
+#: retarget/operators.py:7643
+msgid "Use Maximum Root X Location"
+msgstr "使用根骨骼 X 位置最大值"
+
+#: retarget/operators.py:2306
+#: retarget/operators.py:7644
+msgid "Use Maximum Root Y Location"
+msgstr "使用根骨骼 Y 位置最大值"
+
+#: retarget/operators.py:2307
+#: retarget/operators.py:7645
+msgid "Use Maximum Root Z Location"
+msgstr "使用根骨骼 Z 位置最大值"
+
+#: retarget/operators.py:2297
+#: retarget/operators.py:7635
+msgid "Use Minimum Root X Location"
+msgstr "使用根骨骼 X 位置最小值"
+
+#: retarget/operators.py:2298
+#: retarget/operators.py:7636
+msgid "Use Minimum Root Y Location"
+msgstr "使用根骨骼 Y 位置最小值"
+
+#: retarget/operators.py:2299
+#: retarget/operators.py:7637
+msgid "Use Minimum Root Z Location"
+msgstr "使用根骨骼 Z 位置最小值"
+
+#: retarget/ui.py:722
+msgid "Use Name"
+msgstr "使用名称"
+
+#: retarget/operators.py:5369
+#: retarget/operators.py:6186
+msgid "Use Rigify Names"
+msgstr "使用 Rigify 名称"
+
+#: retarget/operators.py:2305
+#: retarget/operators.py:7643
+msgid "Use Root Max X"
+msgstr "使用根骨骼 X 最大值"
+
+#: retarget/operators.py:2306
+#: retarget/operators.py:7644
+msgid "Use Root Max Y"
+msgstr "使用根骨骼 Y 最大值"
+
+#: retarget/operators.py:2307
+#: retarget/operators.py:7645
+msgid "Use Root Max Z"
+msgstr "使用根骨骼 Z 最大值"
+
+#: retarget/operators.py:2297
+#: retarget/operators.py:7635
+msgid "Use Root Min X"
+msgstr "使用根骨骼 X 最小值"
+
+#: retarget/operators.py:2298
+#: retarget/operators.py:7636
+msgid "Use Root Min Y"
+msgstr "使用根骨骼 Y 最小值"
+
+#: retarget/operators.py:2299
+#: retarget/operators.py:7637
+msgid "Use Root Min Z"
+msgstr "使用根骨骼 Z 最小值"
+
+#: retarget/operators.py:7585
+msgid "Use Rotation Constraint when binding"
+msgstr "绑定时使用旋转约束"
+
+#: retarget/operators.py:7593
+msgid "Use Scale Constraint when binding (_to be used only when they have the same scale )"
+msgstr "绑定时使用缩放约束（仅在两者缩放相同时使用）"
+
+#: retarget/ui.py:726
+msgid "Use Tolerance"
+msgstr "使用容差"
+
+#: retarget/preferences.py:368
+#: retarget/anim_aide/curve_tools/ops.py:1076
+msgid "Use markers"
+msgstr "使用标记"
+
+#: retarget/operators.py:5251
+#: retarget/operators.py:6084
+msgid "Use rigify names"
+msgstr "使用 Rigify 名称"
+
+#: retarget/ui.py:722
+msgid "Use the Name of the bone to quickly find other bone"
+msgstr "使用骨骼名称快速查找其他骨骼"
+
+#: retarget/anim_aide/key_manager/props.py:46
+msgid "Usually used for in-between poses"
+msgstr "通常用于中间姿势"
+
+#: retarget/anim_aide/key_manager/props.py:47
+msgid "Usually used for keys that happens in rapid succession"
+msgstr "通常用于快速连续出现的关键帧"
+
+#: retarget/anim_aide/key_manager/props.py:48
+msgid "Usually used for those key poses with the most vital information for the animation"
+msgstr "通常用于包含动画最关键信息的关键姿势"
+
+#: retarget/action/ops.py:1260
+#: retarget/action/ops.py:1262
+msgid "Value"
+msgstr "值"
+
+#: retarget/operators.py:10553
+#: retarget/anim_aide/key_manager/props.py:11
+msgid "Vector"
+msgstr "矢量"
+
+#: retarget/properties.py:190
+#: retarget/action/property.py:176
+msgid "View Setting"
+msgstr "视图设置"
+
+#: retarget/rigging/surface.py:457
+msgid "View3D not found, cannot run operator"
+msgstr "未找到 3D 视图，无法运行操作"
+
+#: retarget/operators.py:120
+#: retarget/operators.py:786
+msgid "Visible"
+msgstr "可见"
+
+#: retarget/anim_aide/curve_tools/props.py:31
+msgid "Wave-Noise"
+msgstr "波形噪波"
+
+#: retarget/operators.py:7281
+msgid "When two armatures have the same bones names"
+msgstr "当两个骨架的骨骼名称相同时"
+
+#: retarget/operators.py:1378
+msgid "When two armatures have the same bones names (set these Armature to the same position)"
+msgstr "当两个骨架的骨骼名称相同时（将这些骨架设为相同位置）"
+
+#: retarget/operators.py:5287
+#: retarget/operators.py:6126
+msgid "White"
+msgstr "白色"
+
+#: retarget/operators.py:1559
+#: retarget/operators.py:8026
+msgid "With:"
+msgstr "与："
+
+#: retarget/operators.py:76
+#: retarget/operators.py:87
+msgid "World Space"
+msgstr "世界空间"
+
+#: retarget/operators.py:2364
+#: retarget/operators.py:2376
+msgid "X"
+msgstr "X"
+
+#: retarget/operators.py:2368
+#: retarget/operators.py:2380
+msgid "Y"
+msgstr "Y"
+
+#: retarget/operators.py:5290
+#: retarget/operators.py:6129
+msgid "Yellow"
+msgstr "黄色"
+
+#: retarget/operators.py:2372
+#: retarget/operators.py:2384
+msgid "Z"
+msgstr "Z"
+
+#: retarget/anim_aide/curve_tools/props.py:31
+msgid "add wave or random values to keys"
+msgstr "为关键帧添加波形或随机值"
+
+#: retarget/action/ops.py:2026
+msgid "also reset the position of the object"
+msgstr "同时重置物体的位置"
+
+#: retarget/action/ops.py:2030
+msgid "also reset the position, rotation and the scale of the object"
+msgstr "同时重置物体的位置、旋转和缩放"
+
+#: retarget/operators.py:7426
+msgid "bind FK bones to IK bones for the Arm"
+msgstr "将手臂的 FK 骨骼绑定到 IK 骨骼"
+
+#: retarget/operators.py:7430
+msgid "bind FK bones to IK bones for the Leg (This also corrects foot sliding)"
+msgstr "将腿部的 FK 骨骼绑定到 IK 骨骼（这也会修正脚部滑动）"
+
+#: retarget/operators.py:7434
+msgid "bind IK bones to FK bones for the Arm"
+msgstr "将手臂的 IK 骨骼绑定到 FK 骨骼"
+
+#: retarget/operators.py:7438
+msgid "bind Ik bones to FK bones for the Leg"
+msgstr "将腿部的 IK 骨骼绑定到 FK 骨骼"
+
+#: retarget/operators.py:5993
+#: retarget/operators.py:6739
+msgid "bones not found in target, perhaps wrong preset?"
+msgstr "目标中未找到骨骼，预设可能有误？"
+
+#: retarget/operators.py:335
+#: retarget/operators.py:2425
+msgid "by Name"
+msgstr "按名称"
+
+#: retarget/operators.py:7573
+msgid "constrain root bone"
+msgstr "约束根骨骼"
+
+#: retarget/operators.py:2413
+#: retarget/operators.py:3635
+msgid "convert other action"
+msgstr "转换其他动作"
+
+#: retarget/operators.py:7417
+msgid "default setting  (From Source Armature)"
+msgstr "默认设置（来自源骨架）"
+
+#: retarget/operators.py:7401
+#: retarget/operators.py:7409
+msgid "default setting (From Source Armature)"
+msgstr "默认设置（来自源骨架）"
+
+#: retarget/operators.py:7589
+msgid "fix rotation"
+msgstr "修正旋转"
+
+#: retarget/operators.py:10438
+msgid "i.e: if you have 5 Mixamo animations(actions) and you bind your armature to one of them, this feature will bake these 5 actions in one go"
+msgstr "例如：如果你有 5 个 Mixamo 动画（动作），并将骨架绑定到其中一个，此功能将一次性烘焙这 5 个动作"
+
+#: retarget/operators.py:108
+msgid "include Object Constraint"
+msgstr "包含物体约束"
+
+#: retarget/properties.py:90
+msgid "left_upLid"
+msgstr "left_upLid"
+
+#: retarget/operators.py:7416
+msgid "only FK bone ( Bone that the name contain 'fk' )  (From Source Armature)"
+msgstr "仅 FK 骨骼（名称包含 'fk' 的骨骼）（来自源骨架）"
+
+#: retarget/operators.py:7408
+msgid "only FK bone of the leg (From Source Armature)"
+msgstr "仅腿部的 FK 骨骼（来自源骨架）"
+
+#: retarget/operators.py:7400
+msgid "only FK bones of the arm  (From Source Armature)"
+msgstr "仅手臂的 FK 骨骼（来自源骨架）"
+
+#: retarget/operators.py:7415
+msgid "only IK bones ( Bone that the name contain 'ik' )  (From Source Armature)"
+msgstr "仅 IK 骨骼（名称包含 'ik' 的骨骼）（来自源骨架）"
+
+#: retarget/operators.py:7399
+msgid "only IK bones of the arm (From Source Armature)"
+msgstr "仅手臂的 IK 骨骼（来自源骨架）"
+
+#: retarget/operators.py:7407
+msgid "only IK bones of the leg (From Source Armature)"
+msgstr "仅腿部的 IK 骨骼（来自源骨架）"
+
+#: retarget/operators.py:10509
+msgid "only selected bones"
+msgstr "仅选中的骨骼"
+
+#: retarget/properties.py:91
+msgid "right_upLid"
+msgstr "right_upLid"
+
+#: retarget/operators.py:2341
+msgid "root bone"
+msgstr "根骨骼"
+
+#: retarget/operators.py:7567
+msgid "scale location animation to avoid offset (will cause foot sliding)"
+msgstr "缩放位置动画以避免偏移（会导致脚部滑动）"
+
+#: retarget/operators.py:12041
+msgid "select Channel"
+msgstr "选择通道"
+
+#: retarget/operators.py:129
+#: retarget/operators.py:840
+msgid "select between Bones"
+msgstr "在骨骼之间选择"
+
+#: retarget/operators.py:1446
+#: retarget/operators.py:7372
+msgid "select between Limb Bones"
+msgstr "在肢体骨骼之间选择"
+
+#: retarget/operators.py:12047
+msgid "select motion bone ( most of the time it's the hips bone )"
+msgstr "选择运动骨骼（通常是臀部骨骼）"
+
+#: retarget/operators.py:12082
+msgid "select the new motion bone ( root bone )"
+msgstr "选择新的运动骨骼（根骨骼）"
+
+#: retarget/operators.py:2358
+msgid "the animation don't move"
+msgstr "动画不会移动"
+
+#: retarget/operators.py:12030
+msgid "the rig preset it needed"
+msgstr "需要骨架预设"
+
+#: retarget/preferences.py:274
+#: retarget/anim_aide/curve_tools/props.py:134
+msgid "use markers for the reference frames"
+msgstr "使用标记作为参考帧"
+
+#: retarget/operators.py:6054
+msgctxt "Operator"
+msgid "(select at least 2 armatures) (Rigify addon must be activated)"
+msgstr "（至少选择 2 个骨架）（必须启用 Rigify 插件）"
+
+#: retarget/ui.py:1036
+msgctxt "Operator"
+msgid "+"
+msgstr "+"
+
+#: retarget/ui.py:1037
+msgctxt "Operator"
+msgid "-"
+msgstr "-"
+
+#: retarget/ui.py:1100
+#: retarget/ui.py:1211
+msgctxt "Operator"
+msgid "-->"
+msgstr "-->"
+
+#: retarget/ui.py:1112
+#: retarget/ui.py:1139
+msgctxt "Operator"
+msgid "<-"
+msgstr "<-"
+
+#: retarget/ui.py:1097
+#: retarget/ui.py:1211
+msgctxt "Operator"
+msgid "<--"
+msgstr "<--"
+
+#: retarget/operators.py:6792
+#: retarget/action/ops.py:2771
+msgctxt "Operator"
+msgid "Action Range to Scene"
+msgstr "动作范围到场景"
+
+#: retarget/anim_aide/anim_offset/ui.py:28
+msgctxt "Operator"
+msgid "Activate"
+msgstr "激活"
+
+#: retarget/operators.py:11345
+msgctxt "Operator"
+msgid "Add .L and .R to bone name"
+msgstr "为骨骼名添加 .L 和 .R"
+
+#: retarget/anim_aide/anim_offset/ui.py:174
+msgctxt "Operator"
+msgid "Add AnimOffset Mask"
+msgstr "添加 AnimOffset 遮罩"
+
+#: retarget/anim_aide/curve_tools/ops.py:1096
+msgctxt "Operator"
+msgid "Add Bookmark"
+msgstr "添加书签"
+
+#: retarget/support.py:54
+msgctxt "Operator"
+msgid "Add Other Bone"
+msgstr "添加其他骨骼"
+
+#: retarget/support.py:931
+msgctxt "Operator"
+msgid "Add Prefix or Suffix On ID"
+msgstr "为 ID 添加前缀或后缀"
+
+#: retarget/support.py:1448
+msgctxt "Operator"
+msgid "Add Prefix or Suffix On Limb"
+msgstr "为肢体添加前缀或后缀"
+
+#: retarget/action/ops.py:2094
+msgctxt "Operator"
+msgid "Add Prefix or Suffix On Tag"
+msgstr "为标签添加前缀或后缀"
+
+#: retarget/action/ops.py:2055
+msgctxt "Operator"
+msgid "Add Prefix or Suffix to Action Name"
+msgstr "为动作名称添加前缀或后缀"
+
+#: retarget/operators.py:11837
+msgctxt "Operator"
+msgid "Add Root Bone"
+msgstr "添加根骨骼"
+
+#: retarget/operators.py:11838
+msgctxt "Operator"
+msgid "Add Root Bone, (Apply the Rotation)"
+msgstr "添加根骨骼（应用旋转）"
+
+#: retarget/action/ops.py:675
+msgctxt "Operator"
+msgid "Add Selected Action"
+msgstr "添加选中的动作"
+
+#: retarget/action/ops.py:855
+msgctxt "Operator"
+msgid "Add Selected Action(s) To Object(s) List"
+msgstr "将选中的动作添加到物体列表"
+
+#: retarget/action/ops.py:2273
+msgctxt "Operator"
+msgid "Add To the Library"
+msgstr "添加到库"
+
+#: retarget/action/ops.py:1878
+msgctxt "Operator"
+msgid "Add a New Action"
+msgstr "添加新动作"
+
+#: retarget/support.py:14
+msgctxt "Operator"
+msgid "Add a New Bone"
+msgstr "添加新骨骼"
+
+#: retarget/anim_aide/anim_offset/ui.py:124
+msgctxt "Operator"
+msgid "Add/Modify"
+msgstr "添加/修改"
+
+#: retarget/operators.py:2258
+msgctxt "Operator"
+msgid "Adjust Animation"
+msgstr "调整动画"
+
+#: retarget/operators.py:1374
+msgctxt "Operator"
+msgid "Align Bones"
+msgstr "对齐骨骼"
+
+#: retarget/operators.py:1375
+msgctxt "Operator"
+msgid "Align the rest positions, it does not affect the mesh (select at least 2 armatures) (apply the scale in case of problem) (extremity bones will cause some issue) IT WILL BREACK THE ACTIONS OF THIS ARMATURE"
+msgstr "对齐静止位置，不影响网格（至少选择 2 个骨架）（如有问题请应用缩放）（末端骨骼可能引发问题）这会破坏此骨架的动作"
+
+#: retarget/action/ops.py:661
+msgctxt "Operator"
+msgid "All Actions"
+msgstr "所有动作"
+
+#: retarget/anim_aide/anim_offset/ops.py:452
+msgctxt "Operator"
+msgid "Anim Offset Settings"
+msgstr "动画偏移设置"
+
+#: retarget/anim_aide/anim_offset/ops.py:63
+msgctxt "Operator"
+msgid "AnimOffset"
+msgstr "AnimOffset"
+
+#: retarget/anim_aide/anim_offset/ops.py:144
+msgctxt "Operator"
+msgid "AnimOffset Mask"
+msgstr "AnimOffset 遮罩"
+
+#: retarget/anim_aide/anim_offset/ops.py:423
+msgctxt "Operator"
+msgid "AnimOffset Mask off"
+msgstr "关闭 AnimOffset 遮罩"
+
+#: retarget/anim_aide/anim_offset/ui.py:173
+msgctxt "Operator"
+msgid "AnimOffset Without Mask"
+msgstr "无遮罩 AnimOffset"
+
+#: retarget/anim_aide/anim_offset/ops.py:108
+msgctxt "Operator"
+msgid "AnimOffset off"
+msgstr "关闭 AnimOffset"
+
+#: retarget/action/ops.py:1562
+msgctxt "Operator"
+msgid "Append Action(s)"
+msgstr "附加动作"
+
+#: retarget/operators.py:4138
+msgctxt "Operator"
+msgid "Apply As Rest Pose"
+msgstr "应用为静止姿态"
+
+#: retarget/ui.py:870
+msgctxt "Operator"
+msgid "Apply Bone Retarget Preset"
+msgstr "应用骨骼重定向预设"
+
+#: retarget/operators.py:4291
+msgctxt "Operator"
+msgid "Apply Rotation"
+msgstr "应用旋转"
+
+#: retarget/operators.py:4664
+msgctxt "Operator"
+msgid "Apply Scale / Create Scale Offset"
+msgstr "应用缩放/创建缩放偏移"
+
+#: retarget/operators.py:51
+msgctxt "Operator"
+msgid "Apply/Disable/Remove Constraints"
+msgstr "应用/禁用/移除约束"
+
+#: retarget/operators.py:10416
+msgctxt "Operator"
+msgid "Bake Actions constrained from another Armature. No need to select two armatures"
+msgstr "烘焙受另一个骨架约束的动作。无需选择两个骨架"
+
+#: retarget/operators.py:10415
+msgctxt "Operator"
+msgid "Bake Constrained Actions"
+msgstr "烘焙受约束的动作"
+
+#: retarget/support.py:1124
+msgctxt "Operator"
+msgid "Batch Mapping"
+msgstr "批量映射"
+
+#: retarget/ui.py:955
+msgctxt "Operator"
+msgid "Bind Armatures"
+msgstr "绑定骨架"
+
+#: retarget/operators.py:7277
+msgctxt "Operator"
+msgid "Bind to Active Armature"
+msgstr "绑定到活动骨架"
+
+#: retarget/operators.py:6053
+msgctxt "Operator"
+msgid "Bind to Active Metarig"
+msgstr "绑定到活动元骨架"
+
+#: retarget/anim_aide/curve_tools/ops.py:396
+msgctxt "Operator"
+msgid "Blend Default"
+msgstr "混合默认"
+
+#: retarget/anim_aide/curve_tools/ops.py:299
+msgctxt "Operator"
+msgid "Blend Ease"
+msgstr "混合缓动"
+
+#: retarget/anim_aide/curve_tools/ops.py:547
+msgctxt "Operator"
+msgid "Blend Frame"
+msgstr "混合帧"
+
+#: retarget/anim_aide/curve_tools/ops.py:485
+msgctxt "Operator"
+msgid "Blend Infinite"
+msgstr "混合无限"
+
+#: retarget/anim_aide/curve_tools/ops.py:357
+msgctxt "Operator"
+msgid "Blend Neighbor"
+msgstr "混合相邻"
+
+#: retarget/anim_aide/curve_tools/ops.py:588
+msgctxt "Operator"
+msgid "Blend Offset"
+msgstr "混合偏移"
+
+#: retarget/operators.py:12027
+msgctxt "Operator"
+msgid "Bring Motion to Root Bone, ( apply the scale if there's problem )"
+msgstr "将运动移到根骨骼（如有问题请应用缩放）"
+
+#: retarget/action/ops.py:884
+msgctxt "Operator"
+msgid "Clean Selected Action(s)"
+msgstr "清理选中的动作"
+
+#: retarget/support.py:1599
+msgctxt "Operator"
+msgid "Clean Selected Bone(S)"
+msgstr "清理选中的骨骼"
+
+#: retarget/support.py:1625
+#: retarget/action/ops.py:920
+msgctxt "Operator"
+msgid "Clean The Whole List"
+msgstr "清理整个列表"
+
+#: retarget/ui.py:1382
+msgctxt "Operator"
+msgid "Clear All"
+msgstr "清除全部"
+
+#: retarget/action/ops.py:2524
+msgctxt "Operator"
+msgid "Clear All NLA Track"
+msgstr "清除所有 NLA 轨道"
+
+#: retarget/support.py:396
+msgctxt "Operator"
+msgid "Clear All Setting"
+msgstr "清除所有设置"
+
+#: retarget/action/ops.py:2488
+msgctxt "Operator"
+msgid "Clear Empty NLA Track"
+msgstr "清除空的 NLA 轨道"
+
+#: retarget/ui.py:602
+msgctxt "Operator"
+msgid "Clear Retarget Settings"
+msgstr "清除重定向设置"
+
+#: retarget/action/ops.py:2209
+msgctxt "Operator"
+msgid "Clear Users"
+msgstr "清除用户"
+
+#: retarget/anim_aide/key_manager/ops.py:396
+msgctxt "Operator"
+msgid "Clone Fcurve"
+msgstr "克隆 F 曲线"
+
+#: retarget/operators.py:6929
+msgctxt "Operator"
+msgid "Connect (small bone) head/tails when closer than given max distance"
+msgstr "当距离小于给定最大距离时连接（小骨骼）头/尾"
+
+#: retarget/operators.py:7278
+msgctxt "Operator"
+msgid "Constrain bones of selected armatures to active armature (select at least 2 armatures)"
+msgstr "将选中骨架的骨骼约束到活动骨架（至少选择 2 个骨架）"
+
+#: retarget/support.py:140
+msgctxt "Operator"
+msgid "Copy The Setting"
+msgstr "复制设置"
+
+#: retarget/operators.py:5220
+msgctxt "Operator"
+msgid "Create Metarig from current Armature (Rigify addon must be activated)"
+msgstr "从当前骨架创建 Metarig（必须启用 Rigify 插件）"
+
+#: retarget/anim_aide/anim_offset/ui.py:26
+msgctxt "Operator"
+msgid "Deactivate"
+msgstr "停用"
+
+#: retarget/anim_aide/anim_offset/ui.py:176
+msgctxt "Operator"
+msgid "Deactivate AnimOffset"
+msgstr "停用 AnimOffset"
+
+#: retarget/anim_aide/anim_offset/ui.py:35
+msgctxt "Operator"
+msgid "Deactivate Mask"
+msgstr "停用遮罩"
+
+#: retarget/action/ops.py:2722
+#: retarget/anim_aide/anim_offset/ui.py:125
+msgctxt "Operator"
+msgid "Delete"
+msgstr "删除"
+
+#: retarget/anim_aide/anim_offset/ui.py:175
+msgctxt "Operator"
+msgid "Delete AnimOffset Mask"
+msgstr "删除 AnimOffset 遮罩"
+
+#: retarget/anim_aide/curve_tools/ops.py:1127
+msgctxt "Operator"
+msgid "Delete Bookmark"
+msgstr "删除书签"
+
+#: retarget/anim_aide/key_manager/ops.py:99
+msgctxt "Operator"
+msgid "Delete Key Type"
+msgstr "删除关键帧类型"
+
+#: retarget/action/ops.py:1490
+msgctxt "Operator"
+msgid "Deselect All Actions"
+msgstr "取消选择所有动作"
+
+#: retarget/support.py:878
+msgctxt "Operator"
+msgid "Deselect All Bones"
+msgstr "取消选择所有骨骼"
+
+#: retarget/anim_aide/anim_offset/ui.py:186
+msgctxt "Operator"
+msgid "Dope Sheet Editor"
+msgstr "摄影表编辑器"
+
+#: retarget/action/ops.py:2543
+#: retarget/action/ops.py:2626
+msgctxt "Operator"
+msgid "Duplicate"
+msgstr "复制"
+
+#: retarget/support.py:1527
+msgctxt "Operator"
+msgid "Duplicate Selected Bone Item"
+msgstr "复制选中的骨骼项"
+
+#: retarget/anim_aide/curve_tools/ops.py:247
+msgctxt "Operator"
+msgid "Ease"
+msgstr "缓动"
+
+#: retarget/anim_aide/curve_tools/ops.py:200
+msgctxt "Operator"
+msgid "Ease To Ease"
+msgstr "缓动到缓动"
+
+#: retarget/operators.py:5219
+msgctxt "Operator"
+msgid "Extract Metarig"
+msgstr "提取 Metarig"
+
+#: retarget/support.py:1688
+#: retarget/action/ui_menu.py:196
+msgctxt "Operator"
+msgid "Filter"
+msgstr "过滤"
+
+#: retarget/anim_aide/curve_tools/ops.py:1184
+msgctxt "Operator"
+msgid "Get Reference Frames"
+msgstr "获取参考帧"
+
+#: retarget/anim_aide/anim_offset/ui.py:190
+msgctxt "Operator"
+msgid "Graph Editor"
+msgstr "曲线编辑器"
+
+#: retarget/ui.py:525
+#: retarget/ui.py:1379
+msgctxt "Operator"
+msgid "Guess Settings"
+msgstr "猜测设置"
+
+#: retarget/action/ops.py:2192
+msgctxt "Operator"
+msgid "Hidden OFF"
+msgstr "隐藏：关"
+
+#: retarget/action/ops.py:2175
+msgctxt "Operator"
+msgid "Hidden ON"
+msgstr "隐藏：开"
+
+#: retarget/action/ops.py:1600
+#: retarget/action/ops.py:1601
+msgctxt "Operator"
+msgid "Import Fbx"
+msgstr "导入 FBX"
+
+#: retarget/support.py:863
+#: retarget/action/ops.py:1475
+msgctxt "Operator"
+msgid "Inverse Selection"
+msgstr "反选"
+
+#: retarget/anim_aide/key_manager/ops.py:294
+msgctxt "Operator"
+msgid "Key Manager Settings"
+msgstr "关键帧管理器设置"
+
+#: retarget/anim_aide/key_manager/ops.py:123
+msgctxt "Operator"
+msgid "Key selection Type"
+msgstr "关键帧选择类型"
+
+#: retarget/rigging/surface.py:296
+msgctxt "Operator"
+msgid "Launch a modal operator to draw a bones on planar surfaces\nPlace on surface contact and GREASE PENCIL)"
+msgstr "启动模态操作器以在平面上绘制骨骼\n放置在表面接触点和蜡笔上）"
+
+#: retarget/action/ops.py:1525
+msgctxt "Operator"
+msgid "Link Action(s)"
+msgstr "链接动作"
+
+#: retarget/action/ops.py:2433
+msgctxt "Operator"
+msgid "Make Local"
+msgstr "设为本地"
+
+#: retarget/operators.py:7092
+msgctxt "Operator"
+msgid "Make the rigify deformation bones a one root rig (Select a Rigify Armature)"
+msgstr "将 Rigify 变形骨骼设为单根骨骼绑定（选择一个 Rigify 骨架）"
+
+#: retarget/anim_aide/anim_offset/ui.py:42
+msgctxt "Operator"
+msgid "Mask"
+msgstr "遮罩"
+
+#: retarget/operators.py:6851
+msgctxt "Operator"
+msgid "Match scene range with NLA range"
+msgstr "使场景范围与 NLA 范围匹配"
+
+#: retarget/operators.py:6793
+#: retarget/action/ops.py:2772
+msgctxt "Operator"
+msgid "Match scene range with current action range"
+msgstr "使场景范围与当前动作范围匹配"
+
+#: retarget/operators.py:6928
+msgctxt "Operator"
+msgid "Merge Head/Tails"
+msgstr "合并头/尾"
+
+#: retarget/support.py:969
+msgctxt "Operator"
+msgid "Mirror Setting"
+msgstr "镜像设置"
+
+#: retarget/ui.py:716
+msgctxt "Operator"
+msgid "Mirror Skeleton Mapping"
+msgstr "镜像骨架映射"
+
+#: retarget/operators.py:11344
+msgctxt "Operator"
+msgid "Mirror Support"
+msgstr "镜像支持"
+
+#: retarget/anim_aide/key_manager/ops.py:344
+msgctxt "Operator"
+msgid "Modifier"
+msgstr "修改器"
+
+#: retarget/anim_aide/key_manager/ops.py:16
+msgctxt "Operator"
+msgid "Move Key"
+msgstr "移动关键帧"
+
+#: retarget/anim_aide/anim_offset/ui.py:194
+msgctxt "Operator"
+msgid "NLA Editor"
+msgstr "NLA 编辑器"
+
+#: retarget/operators.py:6850
+msgctxt "Operator"
+msgid "NLA Range to Scene"
+msgstr "NLA 范围到场景"
+
+#: retarget/ui.py:224
+msgctxt "Operator"
+msgid "NLA To Scene Range"
+msgstr "NLA 到场景范围"
+
+#: retarget/ui.py:434
+msgctxt "Operator"
+msgid "Next of {} actions to rename"
+msgstr "接下来要重命名的 {} 个动作"
+
+#: retarget/anim_aide/anim_offset/ui.py:109
+msgctxt "Operator"
+msgid "Off"
+msgstr "关"
+
+#: retarget/anim_aide/anim_offset/ui.py:108
+msgctxt "Operator"
+msgid "On"
+msgstr "开"
+
+#: retarget/preferences.py:165
+msgctxt "Operator"
+msgid "Open Path"
+msgstr "打开路径"
+
+#: retarget/ui.py:25
+msgctxt "Operator"
+msgid "Open Retarget Tab"
+msgstr "打开重定向标签页"
+
+#: retarget/preferences.py:314
+msgctxt "Operator"
+msgid "Open the Path of stored rig presets"
+msgstr "打开已存储绑定预设的路径"
+
+#: retarget/support.py:237
+msgctxt "Operator"
+msgid "Paste The Setting"
+msgstr "粘贴设置"
+
+#: retarget/anim_aide/key_manager/ops.py:377
+msgctxt "Operator"
+msgid "Path"
+msgstr "路径"
+
+#: retarget/anim_aide/anim_ui.py:83
+#: retarget/anim_aide/anim_ui.py:88
+msgctxt "Operator"
+msgid "Pie Anim Aide"
+msgstr "Anim Aide 饼菜单"
+
+#: retarget/ui.py:182
+msgctxt "Operator"
+msgid "Pie Retarget"
+msgstr "重定向饼菜单"
+
+#: retarget/anim_aide/curve_tools/ops.py:1148
+msgctxt "Operator"
+msgid "Push Bookmark"
+msgstr "添加书签"
+
+#: retarget/anim_aide/curve_tools/ops.py:671
+msgctxt "Operator"
+msgid "Push Pull"
+msgstr "推拉"
+
+#: retarget/action/ops.py:2455
+msgctxt "Operator"
+msgid "Push To NLA"
+msgstr "下推到 NLA"
+
+#: retarget/support.py:1578
+msgctxt "Operator"
+msgid "Remove Bone Name"
+msgstr "移除骨骼名称"
+
+#: retarget/anim_aide/key_manager/ops.py:424
+msgctxt "Operator"
+msgid "Remove Clone"
+msgstr "移除克隆"
+
+#: retarget/action/ops.py:2252
+msgctxt "Operator"
+msgid "Remove Fake User"
+msgstr "移除伪用户"
+
+#: retarget/action/ops.py:2414
+msgctxt "Operator"
+msgid "Remove From the Library"
+msgstr "从库中移除"
+
+#: retarget/ui.py:473
+msgctxt "Operator"
+msgid "Remove Rename Data"
+msgstr "移除重命名数据"
+
+#: retarget/operators.py:11236
+msgctxt "Operator"
+msgid "Rename Actions from candidate fbx files"
+msgstr "从候选 FBX 文件重命名动作"
+
+#: retarget/operators.py:11235
+msgctxt "Operator"
+msgid "Rename Actions from fbx data..."
+msgstr "从 FBX 数据重命名动作..."
+
+#: retarget/operators.py:3600
+msgctxt "Operator"
+msgid "Rename Bones"
+msgstr "重命名骨骼"
+
+#: retarget/action/ops.py:2023
+msgctxt "Operator"
+msgid "Reset Transform"
+msgstr "重置变换"
+
+#: retarget/ui.py:367
+msgctxt "Operator"
+msgid "Retarget Action Rename"
+msgstr "重定向动作重命名"
+
+#: retarget/ui.py:480
+msgctxt "Operator"
+msgid "Retarget Preset (select a armature)"
+msgstr "重定向预设（选择一个骨架）"
+
+#: retarget/ui.py:329
+msgctxt "Operator"
+msgid "Retarget apply action"
+msgstr "重定向应用动作"
+
+#: retarget/ui.py:311
+msgctxt "Operator"
+msgid "Retarget remove rename data"
+msgstr "重定向移除重命名数据"
+
+#: retarget/operators.py:7091
+msgctxt "Operator"
+msgid "Rigify Game Friendly"
+msgstr "Rigify 游戏友好型"
+
+#: retarget/anim_aide/curve_tools/ops.py:1009
+msgctxt "Operator"
+msgid "Scale Average"
+msgstr "缩放平均值"
+
+#: retarget/anim_aide/curve_tools/ops.py:937
+msgctxt "Operator"
+msgid "Scale Left"
+msgstr "缩放左侧"
+
+#: retarget/anim_aide/curve_tools/ops.py:973
+msgctxt "Operator"
+msgid "Scale Right"
+msgstr "缩放右侧"
+
+#: retarget/action/ops.py:824
+msgctxt "Operator"
+msgid "Scan The Whole Library"
+msgstr "扫描整个库"
+
+#: retarget/action/ops.py:739
+msgctxt "Operator"
+msgid "Scan by Library"
+msgstr "按库扫描"
+
+#: retarget/action/ops.py:1428
+msgctxt "Operator"
+msgid "Select Action(s) in Object(s) List"
+msgstr "在物体列表中选择动作"
+
+#: retarget/action/ops.py:1338
+msgctxt "Operator"
+msgid "Select Action(s) with Fake User"
+msgstr "选择带伪用户的动作"
+
+#: retarget/action/ops.py:1356
+msgctxt "Operator"
+msgid "Select Action(s) with Fake User Off"
+msgstr "选择未启用伪用户的动作"
+
+#: retarget/action/ops.py:1321
+msgctxt "Operator"
+msgid "Select Action(s) with Hidden Off"
+msgstr "选择未隐藏的动作"
+
+#: retarget/action/ops.py:1304
+msgctxt "Operator"
+msgid "Select Action(s) with Hidden On"
+msgstr "选择已隐藏的动作"
+
+#: retarget/action/ops.py:1237
+msgctxt "Operator"
+msgid "Select Action(s) with No Tag"
+msgstr "选择无标签的动作"
+
+#: retarget/action/ops.py:1505
+msgctxt "Operator"
+msgid "Select All Actions"
+msgstr "选择所有动作"
+
+#: retarget/support.py:893
+msgctxt "Operator"
+msgid "Select All Bones"
+msgstr "选择所有骨骼"
+
+#: retarget/action/ops.py:1372
+msgctxt "Operator"
+msgid "Select Armature Action(s)"
+msgstr "选择骨架动作"
+
+#: retarget/support.py:1317
+msgctxt "Operator"
+msgid "Select Bone"
+msgstr "选择骨骼"
+
+#: retarget/action/ops.py:1255
+msgctxt "Operator"
+msgid "Select By Frame"
+msgstr "按帧选择"
+
+#: retarget/support.py:709
+msgctxt "Operator"
+msgid "Select By IK"
+msgstr "按 IK 选择"
+
+#: retarget/support.py:732
+msgctxt "Operator"
+msgid "Select By LOC"
+msgstr "按位置选择"
+
+#: retarget/support.py:580
+#: retarget/action/ops.py:1034
+msgctxt "Operator"
+msgid "Select By Name"
+msgstr "按名称选择"
+
+#: retarget/action/ops.py:1114
+msgctxt "Operator"
+msgid "Select By Tag"
+msgstr "按标签选择"
+
+#: retarget/support.py:755
+msgctxt "Operator"
+msgid "Select By The Hidden Mark"
+msgstr "按隐藏标记选择"
+
+#: retarget/action/ops.py:1408
+msgctxt "Operator"
+msgid "Select Compatible Action(s)"
+msgstr "选择兼容动作"
+
+#: retarget/action/ops.py:987
+msgctxt "Operator"
+msgid "Select Down"
+msgstr "选择下方"
+
+#: retarget/anim_aide/key_manager/ops.py:194
+msgctxt "Operator"
+msgid "Select Key Part"
+msgstr "选择关键部分"
+
+#: retarget/action/ops.py:1390
+msgctxt "Operator"
+msgid "Select No Armature Action(s)"
+msgstr "选择无骨架动作"
+
+#: retarget/support.py:792
+msgctxt "Operator"
+msgid "Select Selected Bone(s)"
+msgstr "选择已选骨骼"
+
+#: retarget/action/ops.py:945
+msgctxt "Operator"
+msgid "Select Up"
+msgstr "选择上方"
+
+#: retarget/operators.py:756
+msgctxt "Operator"
+msgid "Select bone controls with constraints or animations"
+msgstr "选择带约束或动画的骨骼控制器"
+
+#: retarget/operators.py:755
+msgctxt "Operator"
+msgid "Select constrained controls"
+msgstr "选择受约束的控制器"
+
+#: retarget/support.py:1486
+msgctxt "Operator"
+msgid "Set A Limb"
+msgstr "设置肢体"
+
+#: retarget/action/ops.py:2132
+msgctxt "Operator"
+msgid "Set A Tag"
+msgstr "设置标签"
+
+#: retarget/action/ops.py:2231
+msgctxt "Operator"
+msgid "Set Fake User"
+msgstr "设置伪用户"
+
+#: retarget/anim_aide/key_manager/ops.py:226
+msgctxt "Operator"
+msgid "Set Handles Interpolation"
+msgstr "设置控制柄插值"
+
+#: retarget/anim_aide/key_manager/ops.py:149
+msgctxt "Operator"
+msgid "Set Handles Type"
+msgstr "设置控制柄类型"
+
+#: retarget/anim_aide/key_manager/ops.py:68
+msgctxt "Operator"
+msgid "Set Key Type"
+msgstr "设置关键帧类型"
+
+#: retarget/ui.py:661
+msgctxt "Operator"
+msgid "Set Retarget value to active bone"
+msgstr "将重定向值设为活动骨骼"
+
+#: retarget/support.py:1411
+msgctxt "Operator"
+msgid "Set The Hidden Mark"
+msgstr "设置隐藏标记"
+
+#: retarget/support.py:1359
+msgctxt "Operator"
+msgid "Set The IK"
+msgstr "设置 IK"
+
+#: retarget/support.py:1385
+msgctxt "Operator"
+msgid "Set The LOC"
+msgstr "设置位置"
+
+#: retarget/anim_aide/curve_tools/ops.py:832
+msgctxt "Operator"
+msgid "Shear Left"
+msgstr "向左剪切"
+
+#: retarget/anim_aide/curve_tools/ops.py:797
+msgctxt "Operator"
+msgid "Shear Right"
+msgstr "向右剪切"
+
+#: retarget/anim_aide/curve_tools/ops.py:713
+msgctxt "Operator"
+msgid "Smooth"
+msgstr "平滑"
+
+#: retarget/anim_aide/key_manager/ops.py:43
+msgctxt "Operator"
+msgid "Space between Keys"
+msgstr "关键帧间距"
+
+#: retarget/rigging/surface.py:295
+msgctxt "Operator"
+msgid "Surface Rig"
+msgstr "表面绑定"
+
+#: retarget/anim_aide/anim_offset/ops.py:15
+msgctxt "Operator"
+msgid "Test"
+msgstr "测试"
+
+#: retarget/anim_aide/curve_tools/ops.py:753
+msgctxt "Operator"
+msgid "Time Offset"
+msgstr "时间偏移"
+
+#: retarget/ui.py:202
+msgctxt "Operator"
+msgid "To Scene Range"
+msgstr "到场景范围"
+
+#: retarget/anim_aide/curve_tools/ops.py:1046
+msgctxt "Operator"
+msgid "Tools Settings"
+msgstr "工具设置"
+
+#: retarget/operators.py:12026
+msgctxt "Operator"
+msgid "Transfer Root Motion"
+msgstr "传递根运动"
+
+#: retarget/anim_aide/curve_tools/ops.py:634
+msgctxt "Operator"
+msgid "Tween"
+msgstr "补间"
+
+#: retarget/operators.py:10204
+msgctxt "Operator"
+msgid "Unbind Armature"
+msgstr "解除骨架绑定"
+
+#: retarget/operators.py:10205
+msgctxt "Operator"
+msgid "Unbind Selected Armature"
+msgstr "解除所选骨架绑定"
+
+#: retarget/action/ops.py:2010
+msgctxt "Operator"
+msgid "Unlink Action"
+msgstr "取消链接动作"
+
+#: retarget/support.py:1656
+#: retarget/support.py:1729
+msgctxt "Operator"
+msgid "View Setting"
+msgstr "视图设置"
+
+#: retarget/anim_aide/curve_tools/ops.py:868
+msgctxt "Operator"
+msgid "Wave-Noise"
+msgstr "波浪噪波"

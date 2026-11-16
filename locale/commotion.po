@@ -1,0 +1,475 @@
+# perfect-chinese: 1
+# id: commotion
+# kind: addon
+# module: bl_ext.blender_org.commotion
+# name: Commotion
+# name_zh: 动画偏移
+# translator: KeshiMiao
+# category: Animation
+# supported_versions: >=4.4.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: preferences.py:143
+msgid "Absolute Shape Keys"
+msgstr "绝对形态键"
+
+#: preferences.py:120
+#: op_offset/__init__.py:17
+msgid "Affect material animation data"
+msgstr "影响材质动画数据"
+
+#: preferences.py:105
+#: op_offset/__init__.py:14
+msgid "Affect object animation data"
+msgstr "影响物体动画数据"
+
+#: preferences.py:110
+#: op_offset/__init__.py:15
+msgid "Affect object data animation data"
+msgstr "影响物体数据动画数据"
+
+#: preferences.py:125
+#: op_offset/__init__.py:18
+msgid "Affect only selected keyframes or strips"
+msgstr "仅影响选中的关键帧或片段"
+
+#: preferences.py:59
+msgid "Affect referenced shape key"
+msgstr "影响引用的形态键"
+
+#: preferences.py:115
+#: op_offset/__init__.py:16
+msgid "Affect shape keys animation data"
+msgstr "影响形态键动画数据"
+
+#: preferences.py:129
+#: preferences.py:205
+msgid "Animated"
+msgstr "已动画"
+
+#: op_offset/__init__.py:101
+#: op_offset/__init__.py:130
+msgid "Animated or Effectors collections are not specified"
+msgstr "未指定动画或效应器集合"
+
+#: ops_anim.py:195
+msgid "Animation Data"
+msgstr "动画数据"
+
+#: ui.py:92
+#: ui.py:98
+msgid "Animation Offset"
+msgstr "动画偏移"
+
+#: ui.py:138
+msgid "Animation Utils"
+msgstr "动画工具"
+
+#: ops_anim.py:195
+msgid "Animation data type"
+msgstr "动画数据类型"
+
+#: op_offset/__init__.py:184
+msgid "At least two animated objects must be selected"
+msgstr "必须至少选择两个已动画物体"
+
+#: ops_shapekey.py:46
+msgid "BSpline"
+msgstr "B样条"
+
+#: ui.py:271
+msgid "Bake"
+msgstr "烘焙"
+
+#: ops_shapekey.py:44
+msgid "Cardinal"
+msgstr "Cardinal"
+
+#: ops_shapekey.py:45
+msgid "Catmull-Rom"
+msgstr "Catmull-Rom"
+
+#: preferences.py:129
+#: preferences.py:205
+msgid "Collection for animated objects"
+msgstr "已动画物体集合"
+
+#: preferences.py:134
+#: preferences.py:210
+msgid "Collection for effector objects (to affect objects from animated collection)"
+msgstr "效应器物体集合（用于影响动画集合中的物体）"
+
+#: ui.py:18
+#: ui.py:39
+msgid "Commotion"
+msgstr "Commotion"
+
+#: preferences.py:72
+#: op_offset/__init__.py:48
+msgid "Cursor"
+msgstr "光标"
+
+#: preferences.py:188
+msgid "Effector radius falloff"
+msgstr "效应器半径衰减"
+
+#: preferences.py:134
+#: preferences.py:210
+msgid "Effectors"
+msgstr "效应器"
+
+#: preferences.py:101
+#: op_offset/__init__.py:20
+msgid "Enable offset by proximity from effector (effector range controlled by object size)"
+msgstr "启用效应器邻近偏移（效应器范围由物体尺寸控制）"
+
+#: preferences.py:219
+msgid "Enable proxymity effector (effector range controlled by object size)\nWARNING: works only on animation playback"
+msgstr "启用邻近效应器（效应器范围由物体尺寸控制）\n警告：仅在动画播放时生效"
+
+#: preferences.py:178
+#: preferences.py:183
+msgid "Evaluation Time"
+msgstr "评估时间"
+
+#: ops_anim.py:199
+msgid "F-Curves"
+msgstr "F 曲线"
+
+#: preferences.py:195
+msgid "Fade"
+msgstr "淡化"
+
+#: preferences.py:195
+msgid "Fade trail over time"
+msgstr "随时间淡化拖尾"
+
+#: preferences.py:188
+msgid "Falloff"
+msgstr "衰减"
+
+#: preferences.py:183
+msgid "Final evaluation time"
+msgstr "最终评估时间"
+
+#: preferences.py:153
+msgid "Final location"
+msgstr "最终位置"
+
+#: preferences.py:163
+msgid "Final rotation"
+msgstr "最终旋转"
+
+#: preferences.py:173
+msgid "Final scale"
+msgstr "最终缩放"
+
+#: op_offset/__init__.py:24
+msgid "Frame Offset"
+msgstr "帧偏移"
+
+#: preferences.py:89
+#: op_offset/__init__.py:24
+msgid "Frame step for animation offset"
+msgstr "动画偏移的帧步长"
+
+#: ops_shapekey.py:39
+msgid "Interpolation"
+msgstr "插值"
+
+#: ops_shapekey.py:39
+msgid "Interpolation type for absolute shape keys"
+msgstr "绝对形态键的插值类型"
+
+#: preferences.py:144
+msgid "Leave permanent trail after effector left the effective range"
+msgstr "效应器离开有效范围后保留永久拖尾"
+
+#: ops_shapekey.py:43
+msgid "Linear"
+msgstr "线性"
+
+#: preferences.py:140
+#: ui.py:191
+msgid "Location"
+msgstr "位置"
+
+#: preferences.py:120
+#: op_offset/__init__.py:17
+msgid "Material"
+msgstr "材质"
+
+#: preferences.py:73
+#: op_offset/__init__.py:49
+msgid "Multi-Offset"
+msgstr "多重偏移"
+
+#: preferences.py:71
+#: op_offset/__init__.py:47
+msgid "Name"
+msgstr "名称"
+
+#: preferences.py:78
+#: op_offset/__init__.py:32
+msgid "Number of objects to animate per frame step"
+msgstr "每帧步长要动画的物体数量"
+
+#: preferences.py:105
+#: op_offset/__init__.py:14
+msgid "Object"
+msgstr "物体"
+
+#: preferences.py:110
+#: op_offset/__init__.py:15
+msgid "Object Data"
+msgstr "物体数据"
+
+#: ops_shapekey.py:27
+msgid "Object has no Shape Keys"
+msgstr "物体没有形态键"
+
+#: preferences.py:89
+msgid "Offset"
+msgstr "偏移"
+
+#: preferences.py:219
+#: ui.py:151
+msgid "Proximity Effector"
+msgstr "邻近效应器"
+
+#: preferences.py:101
+#: op_offset/__init__.py:20
+msgid "Proxymity"
+msgstr "邻近"
+
+#: preferences.py:74
+#: op_offset/__init__.py:50
+msgid "Random"
+msgstr "随机"
+
+#: preferences.py:97
+#: op_offset/__init__.py:19
+msgid "Reverse"
+msgstr "反向"
+
+#: op_offset/__init__.py:19
+msgid "Reverse animation offset"
+msgstr "反向动画偏移"
+
+#: preferences.py:97
+msgid "Reverse sort order"
+msgstr "反向排序顺序"
+
+#: preferences.py:141
+#: ui.py:211
+msgid "Rotation"
+msgstr "旋转"
+
+#: preferences.py:142
+#: ui.py:231
+msgid "Scale"
+msgstr "缩放"
+
+#: preferences.py:84
+#: op_offset/__init__.py:38
+msgid "Seed"
+msgstr "种子"
+
+#: preferences.py:84
+#: op_offset/__init__.py:38
+msgid "Seed value for randomizer to get different offset patterns"
+msgstr "随机化器的种子值，用于获得不同的偏移模式"
+
+#: preferences.py:125
+#: op_offset/__init__.py:18
+msgid "Selected Only"
+msgstr "仅选中"
+
+#: preferences.py:115
+#: ui.py:46
+msgid "Shape Keys"
+msgstr "形态键"
+
+#: preferences.py:67
+#: op_offset/__init__.py:43
+msgid "Sort By"
+msgstr "排序依据"
+
+#: preferences.py:67
+#: op_offset/__init__.py:43
+msgid "Sort objects method"
+msgstr "物体排序方法"
+
+#: preferences.py:178
+msgid "Start evaluation time"
+msgstr "起始评估时间"
+
+#: preferences.py:148
+msgid "Start location"
+msgstr "起始位置"
+
+#: preferences.py:158
+msgid "Start rotation"
+msgstr "起始旋转"
+
+#: preferences.py:168
+msgid "Start scale"
+msgstr "起始缩放"
+
+#: ops_anim.py:200
+msgid "Strips"
+msgstr "片段"
+
+#: preferences.py:78
+#: op_offset/__init__.py:32
+msgid "Threshold"
+msgstr "阈值"
+
+#: ui.py:86
+msgid "Time"
+msgstr "时间"
+
+#: preferences.py:144
+msgid "Trail"
+msgstr "拖尾"
+
+#: ui.py:23
+msgctxt "Operator"
+msgid "Animation Offset"
+msgstr "动画偏移"
+
+#: op_offset/__init__.py:137
+msgctxt "Operator"
+msgid "Animation Offset Eyedropper"
+msgstr "动画偏移吸管"
+
+#: ui.py:279
+msgctxt "Operator"
+msgid "Bake"
+msgstr "烘焙"
+
+#: ops_proxy.py:9
+msgctxt "Operator"
+msgid "Bake Animation"
+msgstr "烘焙动画"
+
+#: ops_proxy.py:10
+msgctxt "Operator"
+msgid "Bake procedural animation into keyframes"
+msgstr "将程序化动画烘焙为关键帧"
+
+#: ops_anim.py:191
+msgctxt "Operator"
+msgid "Convert action to another type for selected objects"
+msgstr "为选中物体将动作转换为另一种类型"
+
+#: ops_anim.py:190
+msgctxt "Operator"
+msgid "Convert to"
+msgstr "转换为"
+
+#: ui.py:25
+#: ui.py:145
+msgctxt "Operator"
+msgid "Copy"
+msgstr "复制"
+
+#: ops_anim.py:172
+msgctxt "Operator"
+msgid "Copy Animation"
+msgstr "复制动画"
+
+#: ops_anim.py:173
+msgctxt "Operator"
+msgid "Copy animation from active to selected objects (can also use this to unlink animation)"
+msgstr "从活动物体复制动画到选中物体（也可用于取消动画链接）"
+
+#: ops_shapekey.py:69
+msgctxt "Operator"
+msgid "Create keyframes for absolute shape keys on selected objects, based on the current frame and shape keys timings"
+msgstr "根据当前帧和形态键时间，为选中物体的绝对形态键创建关键帧"
+
+#: ops_proxy.py:82
+msgctxt "Operator"
+msgid "Free Bake"
+msgstr "自由烘焙"
+
+#: ui.py:88
+msgctxt "Operator"
+msgid "Generate Keyframes"
+msgstr "生成关键帧"
+
+#: ui.py:26
+#: ui.py:146
+msgctxt "Operator"
+msgid "Link"
+msgstr "链接"
+
+#: ops_anim.py:181
+msgctxt "Operator"
+msgid "Link Animation"
+msgstr "链接动画"
+
+#: ops_anim.py:182
+msgctxt "Operator"
+msgid "Link animation from active to selected objects"
+msgstr "将活动物体的动画链接到选中物体"
+
+#: op_offset/__init__.py:9
+msgctxt "Operator"
+msgid "Offset Animation"
+msgstr "偏移动画"
+
+#: op_offset/__init__.py:10
+msgctxt "Operator"
+msgid "Offset animation"
+msgstr "偏移动画"
+
+#: ui.py:31
+msgctxt "Operator"
+msgid "Proximity Effector"
+msgstr "邻近效应器"
+
+#: ops_shapekey.py:9
+msgctxt "Operator"
+msgid "Refresh"
+msgstr "刷新"
+
+#: ops_shapekey.py:10
+msgctxt "Operator"
+msgid "Refresh shape key list for active object"
+msgstr "刷新活动物体的形态键列表"
+
+#: ops_proxy.py:83
+msgctxt "Operator"
+msgid "Remove baked keyframes"
+msgstr "移除烘焙的关键帧"
+
+#: ops_shapekey.py:34
+msgctxt "Operator"
+msgid "Set Interpolation"
+msgstr "设置插值"
+
+#: ops_shapekey.py:35
+msgctxt "Operator"
+msgid "Set interpolation type for selected shape keys"
+msgstr "为选中形态键设置插值类型"
+
+#: op_offset/__init__.py:138
+msgctxt "Operator"
+msgid "Set offset and threshold properties from selected animated objects"
+msgstr "从选中的已动画物体设置偏移和阈值属性"
+
+#: ops_shapekey.py:68
+msgctxt "Operator"
+msgid "Shape Key Generate Keyframes"
+msgstr "形态键生成关键帧"
+
+#: ui.py:29
+msgctxt "Operator"
+msgid "Shape Keys"
+msgstr "形态键"

@@ -1,0 +1,447 @@
+# perfect-chinese: 1
+# id: sourceenginecollisiontools
+# kind: addon
+# module: bl_ext.blender_org.sourceenginecollisiontools
+# name: Source Engine Collision Tools
+# name_zh: Source引擎碰撞工具
+# translator: KeshiMiao
+# category: Mesh
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:176
+msgid "A blend of the above two options, resulting in cuts along all axes"
+msgstr "上述两个选项的混合，沿所有轴向进行切割"
+
+#: __init__.py:67
+msgid "A value higher than zero will cause close-together vertices to merge, resulting in a more performant (but potentially less accurate) collision mesh"
+msgstr "大于零的值会使靠得很近的顶点合并，从而得到性能更好（但可能不太精确）的碰撞网格"
+
+#: __init__.py:207
+msgid "Any hulls smaller than this size will be omitted from the final resulting collision. This can be used to skip small body parts like finger and toes, for example. If you don't want ANY hulls to be skipped, set this to zero"
+msgstr "小于此尺寸的凸块将从最终碰撞中省略。例如可用于跳过手指、脚趾等小的身体部位。如果不希望跳过任何凸块，请将其设为 0"
+
+#: __init__.py:36
+msgid "At 1.0, decimation is disabled. Lower value = stronger decimation, resulting in less accurate but more performant collision mesh. Note: Decimation reduces effectiveness of Merge Adjacent Similars"
+msgstr "值为 1.0 时禁用减面。值越低减面越强，碰撞网格精度越低但性能越好。注意：减面会降低「合并相邻相似项」的效果"
+
+#: __init__.py:3937
+msgid "Bisection"
+msgstr "对分"
+
+#: __init__.py:164
+msgid "Bisections"
+msgstr "对分次数"
+
+#: __init__.py:143
+msgid "Brush Texture"
+msgstr "画刷纹理"
+
+#: __init__.py:31
+msgid "Can dramatically reduce the hull count for smaller or individual props. Leave this disabled if you're generating collision for entire rooms, levels, or any objects with interior cavities"
+msgstr "可大幅减少较小或单个道具的凸块数量。如果要为整个房间、关卡或任何有内部空腔的物体生成碰撞，请保持禁用"
+
+#: __init__.py:3958
+msgid "Cleanup"
+msgstr "清理"
+
+#: __init__.py:4021
+msgid "Compile"
+msgstr "编译"
+
+#: __init__.py:174
+msgid "Cuts along the X/Y axes, resulting in horizontally flat hulls"
+msgstr "沿 X/Y 轴切割，得到水平扁平的凸块"
+
+#: __init__.py:175
+msgid "Cuts along the Z axis, resulting in vertical hulls"
+msgstr "沿 Z 轴切割，得到垂直的凸块"
+
+#: __init__.py:36
+msgid "Decimate Ratio"
+msgstr "减面比例"
+
+#: __init__.py:27
+msgid "Dissolve"
+msgstr "融并"
+
+#: __init__.py:137
+msgid "Export to"
+msgstr "导出至"
+
+#: __init__.py:60
+msgid "Extrude Factor"
+msgstr "挤出系数"
+
+#: __init__.py:92
+#: __init__.py:192
+msgid "Find"
+msgstr "查找"
+
+#: __init__.py:192
+msgid "Finds hulls that are mostly or entirely inside another hull. The hulls are highlighted in Edit Mode, without any modification"
+msgstr "查找大部分或完全位于另一个凸块内部的凸块。在编辑模式下高亮显示这些凸块，不进行任何修改"
+
+#: __init__.py:92
+msgid "Finds thin hulls, based on the Thin Threshold setting. The hulls are highlighted in Edit Mode, without any modification"
+msgstr "根据「薄度阈值」设置查找薄的凸块。在编辑模式下高亮显示这些凸块，不进行任何修改"
+
+#: __init__.py:137
+msgid "Folder where exported hulls will be saved as Hammer brush .VMF files"
+msgstr "导出的凸块将保存为 Hammer 画刷 .VMF 文件的文件夹"
+
+#: __init__.py:3927
+msgid "Fracture"
+msgstr "断裂"
+
+#: __init__.py:44
+msgid "Fracture Target"
+msgstr "断裂目标"
+
+#: __init__.py:100
+msgid "Full path of the folder in which to save the generated QCs"
+msgstr "用于保存生成的 QC 文件的文件夹完整路径"
+
+#: __init__.py:52
+#: __init__.py:156
+msgid "Gap Width"
+msgstr "间隙宽度"
+
+#: __init__.py:3894
+msgid "Generate"
+msgstr "生成"
+
+#: __init__.py:4070
+msgid "Hammer Brushes"
+msgstr "Hammer 画刷"
+
+#: __init__.py:156
+msgid "How big the gap should be between bisected sections. Used only by the Bisection generator"
+msgstr "对分各段之间的间隙大小。仅由「对分」生成器使用"
+
+#: __init__.py:52
+msgid "How large or small the gap between hulls should be. Used only by the Fracture generation method"
+msgstr "凸块之间间隙的大小。仅由「断裂」生成方法使用"
+
+#: __init__.py:164
+msgid "How many times should the model be bisected along the middle by the Bisection generator"
+msgstr "「对分」生成器沿中间对模型进行对分的次数"
+
+#: __init__.py:199
+msgid "How strong a weight must be in order to be included for collision. A higher value will result in fewer hulls, while a lower value will result in more"
+msgstr "权重需要多高才会被纳入碰撞。值越高凸块越少，值越低凸块越多"
+
+#: __init__.py:176
+msgid "Hybrid"
+msgstr "混合"
+
+#: __init__.py:132
+msgid "If enabled, the 'Update VMF' button will REMOVE partitioned ('_phys_part_') collision models from the VMF along with their corresponding entity (ie. prop_static). Can't be undone. Keep a backup VMF just in case"
+msgstr "启用后，「更新 VMF」按钮会从 VMF 中移除分区（'_phys_part_'）碰撞模型及其对应的实体（如 prop_static）。无法撤销。请保留一份 VMF 备份以防万一"
+
+#: __init__.py:27
+msgid "If enabled, the resulting collision mesh is much more optimized, but also potentially less accurate. If you prefer accuracy over optimization, disable this"
+msgstr "启用后，生成的碰撞网格会优化得多，但也可能不够精确。如果更看重精确度而非优化，请禁用此项"
+
+#: __init__.py:4002
+msgid "Inside Hulls"
+msgstr "内部凸块"
+
+#: __init__.py:113
+msgid "Materials Path"
+msgstr "材质路径"
+
+#: __init__.py:93
+msgid "Merge"
+msgstr "合并"
+
+#: __init__.py:67
+msgid "Merge Distance"
+msgstr "合并距离"
+
+#: __init__.py:93
+msgid "Merges thin hulls with adjacent hulls (if any), based on the Thin Threshold setting"
+msgstr "根据「薄度阈值」设置，将薄的凸块与相邻凸块（如果有）合并"
+
+#: __init__.py:12
+msgid "Mesh"
+msgstr "网格"
+
+#: __init__.py:90
+#: __init__.py:172
+msgid "Mode"
+msgstr "模式"
+
+#: __init__.py:107
+msgid "Models Path"
+msgstr "模型路径"
+
+#: __init__.py:3814
+msgid "No collision meshes found"
+msgstr "未找到碰撞网格"
+
+#: __init__.py:4007
+msgid "Other"
+msgstr "其他"
+
+#: __init__.py:125
+msgid "Path of the VMF map file, created in Hammer or some other mapping tool'"
+msgstr "VMF 地图文件的路径，由 Hammer 或其他地图工具创建"
+
+#: __init__.py:113
+msgid "Path of the folder where your VMT and VTF files are stored in the Source Engine game directory. This is the $cdmaterials path from your QC files.  Must end with a trailing slash '/'"
+msgstr "VMT 和 VTF 文件在 Source Engine 游戏目录中存放的文件夹路径。即 QC 文件中的 $cdmaterials 路径。必须以斜杠 '/' 结尾"
+
+#: __init__.py:107
+msgid "Path of the folder where your compiled models are stored in the Source Engine game directory. This is the $modelname path from your QC files, but without the model filename/extension at the end. Must end with a trailing slash '/'"
+msgstr "编译后的模型在 Source Engine 游戏目录中存放的文件夹路径。即 QC 文件中的 $modelname 路径，但不包含末尾的模型文件名/扩展名。必须以斜杠 '/' 结尾"
+
+#: __init__.py:74
+msgid "Percentage of similarity between hulls that is required in order for them to be merged together. At the default setting, hulls must be 90 percent similar in order to be merged"
+msgstr "凸块之间需要达到的相似度百分比才能合并在一起。在默认设置下，凸块相似度必须达到 90% 才能合并"
+
+#: __init__.py:31
+msgid "Post-Merge"
+msgstr "合并后"
+
+#: __init__.py:100
+msgid "QC Folder"
+msgstr "QC 文件夹"
+
+#: __init__.py:12
+msgid "Quickly generate and optimize collision models for use in Source Engine"
+msgstr "快速生成并优化用于 Source Engine 的碰撞模型"
+
+#: __init__.py:94
+#: __init__.py:193
+msgid "Remove"
+msgstr "移除"
+
+#: __init__.py:132
+msgid "Remove Mode"
+msgstr "移除模式"
+
+#: __init__.py:193
+msgid "Removes hulls that are mostly or entirely inside another hull."
+msgstr "移除大部分或完全位于另一个凸块内部的凸块。"
+
+#: __init__.py:94
+msgid "Removes thin hulls, based on the Thin Threshold setting"
+msgstr "根据「薄度阈值」设置移除薄的凸块"
+
+#: __init__.py:3948
+msgid "Rigged"
+msgstr "已绑定"
+
+#: __init__.py:174
+msgid "Sides"
+msgstr "边数"
+
+#: __init__.py:74
+msgid "Similar Factor"
+msgstr "相似系数"
+
+#: __init__.py:3990
+msgid "Similarity"
+msgstr "相似度"
+
+#: __init__.py:207
+msgid "Skip Size"
+msgstr "跳过尺寸"
+
+#: __init__.py:182
+msgid "Some versions of Source Engine have a higher or lower limit than the default of 32 hulls per collision mesh. If you're not sure, just use the default setting"
+msgstr "某些版本的 Source Engine 每个碰撞网格的凸块上限高于或低于默认的 32 个。如果不确定，使用默认设置即可"
+
+#: __init__.py:12
+#: __init__.py:3875
+msgid "Source Engine Collision Tools"
+msgstr "Source Engine Collision Tools"
+
+#: __init__.py:182
+msgid "Split Increment"
+msgstr "拆分增量"
+
+#: __init__.py:4013
+msgid "Splitting"
+msgstr "拆分"
+
+#: __init__.py:199
+msgid "Strength Threshold"
+msgstr "强度阈值"
+
+#: __init__.py:119
+msgid "Surface Property"
+msgstr "表面属性"
+
+#: __init__.py:119
+msgid "The $surfaceprop setting to assign in the generated QC files. Can be left to default if you don't care about the type of footstep sounds that play when players walk on this collision"
+msgstr "在生成的 QC 文件中要指定的 $surfaceprop 设置。如果不关心玩家踩在该碰撞上时播放的脚步声类型，可以保留默认值"
+
+#: __init__.py:190
+msgid "The method of action to use when processing inside hulls in the selected object(s)"
+msgstr "处理所选物体内部凸块时使用的操作方式"
+
+#: __init__.py:90
+msgid "The method of action to use when processing thin hulls in the selected object(s)"
+msgstr "处理所选物体薄凸块时使用的操作方式"
+
+#: __init__.py:172
+msgid "The method used when bisecting the model to generate the hulls"
+msgstr "对模型进行对分以生成凸块时使用的方法"
+
+#: __init__.py:60
+msgid "The setting affects the extrusion of each hull. Default will work in most cases"
+msgstr "此设置影响每个凸块的挤出。大多数情况下默认值即可"
+
+#: __init__.py:143
+msgid "The texture to apply to brushes exported as VMF"
+msgstr "导出为 VMF 的画刷所使用的纹理"
+
+#: __init__.py:82
+msgid "The thinness threshold to use when removing thin hulls. If set to default, the operator will only remove faces with an area that is lower than 1 percent of the average area of all faces"
+msgstr "移除薄凸块时使用的薄度阈值。设为默认值时，操作符只会移除面积低于所有面平均面积 1% 的面"
+
+#: __init__.py:82
+msgid "Thin Threshold"
+msgstr "薄度阈值"
+
+#: __init__.py:3995
+msgid "Thinness"
+msgstr "薄度"
+
+#: __init__.py:44
+msgid "This setting is used to limit how many hulls are generated via Fracture"
+msgstr "此设置用于限制通过「断裂」生成的凸块数量"
+
+#: __init__.py:175
+msgid "Top/Bottom"
+msgstr "顶部/底部"
+
+#: __init__.py:125
+msgid "VMF File"
+msgstr "VMF 文件"
+
+#: __init__.py:3548
+msgctxt "Operator"
+msgid "Clean Duplicate Collision"
+msgstr "清理重复碰撞"
+
+#: __init__.py:3778
+msgctxt "Operator"
+msgid "Cleanup Collection"
+msgstr "清理集合"
+
+#: __init__.py:3309
+msgctxt "Operator"
+msgid "Clear QC Overrides"
+msgstr "清除 QC 覆盖"
+
+#: __init__.py:3272
+msgctxt "Operator"
+msgid "Copy QC Overrides"
+msgstr "复制 QC 覆盖"
+
+#: __init__.py:2725
+msgctxt "Operator"
+msgid "Count Hulls"
+msgstr "统计外壳数量"
+
+#: __init__.py:3618
+msgctxt "Operator"
+msgid "Export VMF"
+msgstr "导出 VMF"
+
+#: __init__.py:2896
+msgctxt "Operator"
+msgid "Find Multiweighted Hulls"
+msgstr "查找多重权重外壳"
+
+#: __init__.py:2695
+msgctxt "Operator"
+msgid "Force Convex"
+msgstr "强制凸包"
+
+#: __init__.py:825
+msgctxt "Operator"
+msgid "Generate Collision from Faces"
+msgstr "从面生成碰撞"
+
+#: __init__.py:1984
+msgctxt "Operator"
+msgid "Generate Collision from Weights"
+msgstr "从权重生成碰撞"
+
+#: __init__.py:1447
+msgctxt "Operator"
+msgid "Generate Collision via Bisection"
+msgstr "通过二分生成碰撞"
+
+#: __init__.py:1233
+msgctxt "Operator"
+msgid "Generate Collision via Fracture"
+msgstr "通过断裂生成碰撞"
+
+#: __init__.py:1053
+msgctxt "Operator"
+msgid "Generate Collision via UV Map"
+msgstr "通过 UV 贴图生成碰撞"
+
+#: __init__.py:3178
+msgctxt "Operator"
+msgid "Generate Ragdoll QCI"
+msgstr "生成布娃娃 QCI"
+
+#: __init__.py:3095
+msgctxt "Operator"
+msgid "Generate Source Engine QC"
+msgstr "生成 Source 引擎 QC"
+
+#: __init__.py:2386
+msgctxt "Operator"
+msgid "Merge Adjacent Similars"
+msgstr "合并相邻相似项"
+
+#: __init__.py:2752
+msgctxt "Operator"
+msgid "Process Inside Hulls"
+msgstr "处理内部外壳"
+
+#: __init__.py:2619
+msgctxt "Operator"
+msgid "Process Thin Hulls"
+msgstr "处理薄外壳"
+
+#: __init__.py:3339
+msgctxt "Operator"
+msgid "Recommended Settings"
+msgstr "推荐设置"
+
+#: __init__.py:3805
+msgctxt "Operator"
+msgid "Rename Collision for Unreal"
+msgstr "为 Unreal 重命名碰撞"
+
+#: __init__.py:3806
+msgctxt "Operator"
+msgid "Renames _phys objects to UCX_ prefix for Unreal Engine compatibility"
+msgstr "将 _phys 物体重命名为 UCX_ 前缀，以兼容虚幻引擎"
+
+#: __init__.py:3024
+msgctxt "Operator"
+msgid "Shrinkwrap to Visuals"
+msgstr "收缩包裹到视觉模型"
+
+#: __init__.py:2214
+msgctxt "Operator"
+msgid "Split Up Collision Mesh"
+msgstr "拆分碰撞网格"
+
+#: __init__.py:3386
+msgctxt "Operator"
+msgid "Update VMF"
+msgstr "更新 VMF"

@@ -1,0 +1,512 @@
+# perfect-chinese: 1
+# id: image_packer
+# kind: addon
+# module: bl_ext.blender_org.image_packer
+# name: Image Packer
+# name_zh: 图像打包
+# translator: KeshiMiao
+# category: Paint
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: properties.py:119
+msgid "Add padding to each image in the packing list"
+msgstr "为打包列表中的每个图像添加填充"
+
+#: preferences.py:33
+msgid "Adds all existing images to the exclude list. This prevents the option 'Remove All Images' from deleting existing images"
+msgstr "将所有现有图像添加到排除列表。这可防止“移除所有图像”选项删除现有图像"
+
+#: preferences.py:27
+msgid "Allow Duplicates"
+msgstr "允许重复"
+
+#: preferences.py:27
+msgid "Allow adding duplicate images to the packing list"
+msgstr "允许将重复图像添加到打包列表"
+
+#: preferences.py:33
+msgid "Always Add Existing Images to Exclude List"
+msgstr "始终将现有图像添加到排除列表"
+
+#: properties.py:202
+msgid "Amount"
+msgstr "数量"
+
+#: properties.py:90
+msgid "Aspect Ratio"
+msgstr "宽高比"
+
+#: properties.py:62
+msgid "Average"
+msgstr "平均值"
+
+#: properties.py:110
+msgid "Background Colour"
+msgstr "背景颜色"
+
+#: properties.py:51
+msgid "Change the algorithm for packing the images"
+msgstr "更改图像打包算法"
+
+#: operators.py:195
+msgid "Cleared Packing List"
+msgstr "已清空打包列表"
+
+#: properties.py:45
+msgid "Column Packing"
+msgstr "列打包"
+
+#: __init__.py:1
+msgid "Combine multiple images into a single image using different packing algorithms"
+msgstr "使用不同打包算法将多张图像合并为单张图像"
+
+#: properties.py:64
+#: properties.py:94
+msgid "Custom"
+msgstr "自定义"
+
+#: properties.py:94
+msgid "Custom aspect ratio"
+msgstr "自定义宽高比"
+
+#: operators.py:209
+msgid "Down"
+msgstr "向下"
+
+#: properties.py:164
+msgid "End Colour"
+msgstr "结束颜色"
+
+#: ui.py:157
+#: ui.py:173
+msgid "Extra Options"
+msgstr "额外选项"
+
+#: properties.py:73
+#: properties.py:104
+msgid "Height"
+msgstr "高度"
+
+#: properties.py:104
+msgid "Height component of the aspect ratio"
+msgstr "宽高比的高度分量"
+
+#: properties.py:16
+msgid "Image"
+msgstr "图像"
+
+#: __init__.py:1
+#: ui.py:41
+msgid "Image Packer"
+msgstr "Image Packer"
+
+#: properties.py:126
+msgid "Image Size"
+msgstr "图像尺寸"
+
+#: properties.py:33
+msgid "Index for packing_list"
+msgstr "packing_list 的索引"
+
+#: properties.py:78
+msgid "Keep Aspect Ratio"
+msgstr "保持宽高比"
+
+#: properties.py:78
+msgid "Keep the aspect ratio of the images"
+msgstr "保持图像的宽高比"
+
+#: properties.py:47
+msgid "Keeps the size and order of the images, but may result in gaps between the rows"
+msgstr "保持图像的大小和顺序，但可能在行之间留下间隙"
+
+#: properties.py:27
+msgid "List of all images to pack"
+msgstr "要打包的所有图像列表"
+
+#: properties.py:196
+msgid "Max Height"
+msgstr "最大高度"
+
+#: properties.py:184
+msgid "Max Width"
+msgstr "最大宽度"
+
+#: properties.py:61
+msgid "Maximal"
+msgstr "最大值"
+
+#: properties.py:63
+#: properties.py:93
+msgid "Median"
+msgstr "中位数"
+
+#: properties.py:93
+msgid "Median aspect ratio of all the images"
+msgstr "所有图像宽高比的中位数"
+
+#: properties.py:190
+msgid "Min Height"
+msgstr "最小高度"
+
+#: properties.py:178
+msgid "Min Width"
+msgstr "最小宽度"
+
+#: properties.py:60
+msgid "Minimal"
+msgstr "最小值"
+
+#: properties.py:51
+#: properties.py:57
+msgid "Mode"
+msgstr "模式"
+
+#: properties.py:84
+msgid "Name"
+msgstr "名称"
+
+#: properties.py:47
+msgid "Next Fit Packing"
+msgstr "下次适应打包"
+
+#: operators.py:105
+msgid "Open an image in the Image Editor to add to the Packing List"
+msgstr "在图像编辑器中打开图像以添加到打包列表"
+
+#: properties.py:27
+#: ui.py:52
+msgid "Packing List"
+msgstr "打包列表"
+
+#: preferences.py:49
+msgid "Packing List Settings"
+msgstr "打包列表设置"
+
+#: ui.py:121
+msgid "Packing Operators"
+msgstr "打包操作"
+
+#: ui.py:93
+msgid "Packing Options"
+msgstr "打包选项"
+
+#: properties.py:119
+msgid "Padding"
+msgstr "填充"
+
+#: __init__.py:1
+msgid "Paint"
+msgstr "绘制"
+
+#: preferences.py:44
+msgid "Preview Settings"
+msgstr "预览设置"
+
+#: preferences.py:21
+msgid "Preview on Pack"
+msgstr "打包时预览"
+
+#: preferences.py:15
+msgid "Preview the packed image in a seperate window"
+msgstr "在独立窗口中预览打包后的图像"
+
+#: preferences.py:21
+msgid "Preview the packed image once all images are packed"
+msgstr "所有图像打包完成后预览打包后的图像"
+
+#: properties.py:143
+msgid "Random Order"
+msgstr "随机顺序"
+
+#: properties.py:148
+#: ui.py:186
+msgid "Random Seed"
+msgstr "随机种子"
+
+#: properties.py:43
+msgid "Row Packing"
+msgstr "行打包"
+
+#: properties.py:64
+msgid "Scale images based on a custom width or height"
+msgstr "根据自定义宽度或高度缩放图像"
+
+#: properties.py:62
+msgid "Scale images based on the average size (width or height) of all the images"
+msgstr "根据所有图像的平均尺寸（宽度或高度）缩放图像"
+
+#: properties.py:73
+msgid "Scale images based on the height"
+msgstr "根据高度缩放图像"
+
+#: properties.py:61
+msgid "Scale images based on the maximal size (width or height) of all the images"
+msgstr "根据所有图像的最大尺寸（宽度或高度）缩放图像"
+
+#: properties.py:63
+msgid "Scale images based on the median size (width or height) of all the images"
+msgstr "根据所有图像的中位尺寸（宽度或高度）缩放图像"
+
+#: properties.py:60
+msgid "Scale images based on the minimal size (width or height) of all the images"
+msgstr "根据所有图像的最小尺寸（宽度或高度）缩放图像"
+
+#: properties.py:72
+msgid "Scale images based on the width"
+msgstr "根据宽度缩放图像"
+
+#: properties.py:41
+msgid "Scales all images to the same size and makes a 1:1 packed image, keeps the images in order"
+msgstr "将所有图像缩放到相同尺寸并生成 1:1 的打包图像，同时保持图像顺序"
+
+#: properties.py:57
+msgid "Scales images based on the mode to the correct aspect ratio"
+msgstr "根据模式将图像缩放到正确的宽高比"
+
+#: properties.py:43
+msgid "Scales images to have the same height, keeps the images in order"
+msgstr "将图像缩放到相同高度，并保持图像顺序"
+
+#: properties.py:45
+msgid "Scales images to have the same width, keeps the images in order"
+msgstr "将图像缩放到相同宽度，并保持图像顺序"
+
+#: properties.py:148
+msgid "Seed for random order"
+msgstr "随机顺序的种子"
+
+#: properties.py:172
+msgid "Seed for random shape sizes"
+msgstr "随机形状尺寸的种子"
+
+#: preferences.py:15
+msgid "Seperate Preview Window"
+msgstr "独立预览窗口"
+
+#: properties.py:90
+msgid "Sets the preferred aspect ratio of the packed image, may result in not the exact aspect ratio"
+msgstr "设置打包后图像的首选宽高比，可能无法得到精确的宽高比"
+
+#: ui.py:184
+msgid "Shape Amount"
+msgstr "形状数量"
+
+#: properties.py:172
+msgid "Shapes Seed"
+msgstr "形状种子"
+
+#: properties.py:143
+msgid "Should the images be placed in order or be randomized"
+msgstr "图像应按顺序放置还是随机放置"
+
+#: properties.py:69
+msgid "Side"
+msgstr "边"
+
+#: properties.py:134
+#: ui.py:19
+msgid "Side Length"
+msgstr "边长"
+
+#: properties.py:41
+msgid "Square Packing"
+msgstr "正方形打包"
+
+#: properties.py:156
+msgid "Start Colour"
+msgstr "起始颜色"
+
+#: properties.py:69
+msgid "Switch between width and height"
+msgstr "在宽度和高度之间切换"
+
+#: ui.py:172
+msgid "Test Shapes"
+msgstr "测试形状"
+
+#: properties.py:134
+msgid "The length of the width/height for each image"
+msgstr "每张图像宽度/高度的长度"
+
+#: properties.py:84
+msgid "The name of the packed image"
+msgstr "打包后图像的名称"
+
+#: properties.py:126
+msgid "The width and height of each image"
+msgstr "每张图像的宽度和高度"
+
+#: operators.py:208
+msgid "Up"
+msgstr "上"
+
+#: properties.py:72
+#: properties.py:99
+msgid "Width"
+msgstr "宽度"
+
+#: properties.py:99
+msgid "Width component of the aspect ratio"
+msgstr "宽高比的宽度分量"
+
+#: ui.py:79
+msgctxt "Operator"
+msgid "Add"
+msgstr "添加"
+
+#: ui.py:167
+msgctxt "Operator"
+msgid "Add All Images"
+msgstr "添加所有图像"
+
+#: operators.py:253
+msgctxt "Operator"
+msgid "Add all images in the blend file to the packing list, excluding the packed image"
+msgstr "将 blend 文件中所有图像添加到打包列表，不包括已打包的图像"
+
+#: operators.py:119
+msgctxt "Operator"
+msgid "Add from files"
+msgstr "从文件添加"
+
+#: operators.py:91
+msgctxt "Operator"
+msgid "Add to packing list"
+msgstr "添加到打包列表"
+
+#: operators.py:251
+msgctxt "Operator"
+msgid "Adds all images to packing list"
+msgstr "将所有图像添加到打包列表"
+
+#: operators.py:121
+msgctxt "Operator"
+msgid "Adds images from files to the packing list"
+msgstr "将文件中的图像添加到打包列表"
+
+#: operators.py:93
+msgctxt "Operator"
+msgid "Adds the current active image to the packing list"
+msgstr "将当前活动图像添加到打包列表"
+
+#: preferences.py:57
+msgctxt "Operator"
+msgid "Apply Preferences"
+msgstr "应用偏好设置"
+
+#: operators.py:205
+msgctxt "Operator"
+msgid "Changes the order of the selected image in the packing list"
+msgstr "更改所选图像在打包列表中的顺序"
+
+#: ui.py:83
+msgctxt "Operator"
+msgid "Clear"
+msgstr "清除"
+
+#: operators.py:180
+msgctxt "Operator"
+msgid "Clear packing list"
+msgstr "清除打包列表"
+
+#: ui.py:165
+msgctxt "Operator"
+msgid "Delete Unused Images"
+msgstr "删除未使用图像"
+
+#: operators.py:18
+msgctxt "Operator"
+msgid "Generate Packed Image"
+msgstr "生成打包图像"
+
+#: operators.py:278
+msgctxt "Operator"
+msgid "Generates test shapes"
+msgstr "生成测试形状"
+
+#: ui.py:214
+msgctxt "Operator"
+msgid "Make Shapes"
+msgstr "创建形状"
+
+#: operators.py:280
+msgctxt "Operator"
+msgid "Makes test shapes and add them to the packing list"
+msgstr "生成测试形状并将其添加到打包列表"
+
+#: operators.py:203
+msgctxt "Operator"
+msgid "Move an item in the packing list"
+msgstr "移动打包列表中的项目"
+
+#: operators.py:58
+msgctxt "Operator"
+msgid "Opens the generated image in the active or new window"
+msgstr "在活动窗口或新窗口中打开生成的图像"
+
+#: ui.py:149
+msgctxt "Operator"
+msgid "Pack Images"
+msgstr "打包图像"
+
+#: operators.py:20
+msgctxt "Operator"
+msgid "Packs all the images from the packing list and generates a new image based on the packing settings"
+msgstr "打包打包列表中的所有图像，并根据打包设置生成新图像"
+
+#: ui.py:152
+msgctxt "Operator"
+msgid "Preview"
+msgstr "预览"
+
+#: operators.py:56
+msgctxt "Operator"
+msgid "Preview Packed Image"
+msgstr "预览打包图像"
+
+#: ui.py:82
+#: ui.py:153
+msgctxt "Operator"
+msgid "Remove"
+msgstr "移除"
+
+#: operators.py:75
+msgctxt "Operator"
+msgid "Remove Packed Image"
+msgstr "移除打包图像"
+
+#: operators.py:161
+msgctxt "Operator"
+msgid "Remove from packing list"
+msgstr "从打包列表移除"
+
+#: operators.py:239
+msgctxt "Operator"
+msgid "Remove unused images in blend file"
+msgstr "移除 blend 文件中未使用的图像"
+
+#: operators.py:182
+msgctxt "Operator"
+msgid "Removes all images from the packing list"
+msgstr "从打包列表移除所有图像"
+
+#: operators.py:241
+msgctxt "Operator"
+msgid "Removes all unused images in the blend file, excluding the packed image"
+msgstr "移除 blend 文件中所有未使用的图像，不包括已打包的图像"
+
+#: operators.py:163
+msgctxt "Operator"
+msgid "Removes the current active image from the packing list"
+msgstr "从打包列表移除当前活动图像"
+
+#: operators.py:77
+msgctxt "Operator"
+msgid "Removes the packed image based on the name"
+msgstr "根据名称移除打包图像"
