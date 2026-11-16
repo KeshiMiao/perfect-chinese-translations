@@ -1,0 +1,358 @@
+# perfect-chinese: 1
+# id: render_gif_animation
+# kind: addon
+# module: bl_ext.blender_org.render_gif_animation
+# name: Render Animated .GIF
+# name_zh: 渲染GIF动画
+# translator: KeshiMiao
+# category: Render
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:88
+msgid "Advanced"
+msgstr "高级"
+
+#: __init__.py:126
+msgid "Atkinson"
+msgstr "Atkinson"
+
+#: __init__.py:99
+msgid "Balanced quality and file size"
+msgstr "质量与文件大小均衡"
+
+#: __init__.py:87
+msgid "Basic"
+msgstr "基础"
+
+#: __init__.py:119
+msgid "Bayer"
+msgstr "Bayer"
+
+#: __init__.py:132
+msgid "Bayer Scale"
+msgstr "Bayer 缩放"
+
+#: __init__.py:101
+msgid "Best quality, largest file size"
+msgstr "最佳质量，文件最大"
+
+#: __init__.py:125
+msgid "Burkes"
+msgstr "Burkes"
+
+#: __init__.py:83
+msgid "Choose between Basic quality presets or Advanced manual control"
+msgstr "选择基础质量预设或高级手动控制"
+
+#: __init__.py:47
+msgid "Choose which frame range to render"
+msgstr "选择要渲染的帧范围"
+
+#: __init__.py:143
+msgid "Choose which mode to set the GIF's frame rate or speed"
+msgstr "选择设置 GIF 帧率或速度的模式"
+
+#: __init__.py:121
+msgid "Classic error diffusion.\nGood general-purpose quality."
+msgstr "经典误差扩散。\n通用质量良好。"
+
+#: __init__.py:250
+msgid "Count"
+msgstr "次数"
+
+#: __init__.py:53
+msgid "Custom"
+msgstr "自定义"
+
+#: __init__.py:114
+msgid "Dithering"
+msgstr "抖动"
+
+#: __init__.py:114
+msgid "Dithering algorithm used when mapping colors to the palette"
+msgstr "将颜色映射到调色板时使用的抖动算法"
+
+#: __init__.py:76
+#: __init__.py:206
+msgid "End"
+msgstr "结束"
+
+#: __init__.py:64
+msgid "End Marker"
+msgstr "结束标记"
+
+#: __init__.py:264
+msgid "End frame must be greater than or equal to Start frame."
+msgstr "结束帧必须大于或等于起始帧。"
+
+#: __init__.py:279
+msgid "End marker is not specified."
+msgstr "未指定结束标记。"
+
+#: __init__.py:301
+msgid "End marker must be on the same frame as or after Start marker."
+msgstr "结束标记必须与起始标记位于同一帧或之后。"
+
+#: __init__.py:51
+msgid "Entire Timeline"
+msgstr "整个时间线"
+
+#: __init__.py:477
+msgid "FFmpeg reported success but GIF was not created."
+msgstr "FFmpeg 报告成功，但未创建 GIF。"
+
+#: __init__.py:44
+msgid "File Path"
+msgstr "文件路径"
+
+#: __init__.py:76
+msgid "Final frame of the rendering range"
+msgstr "渲染范围的最后一帧"
+
+#: __init__.py:70
+msgid "First frame of the rendering range"
+msgstr "渲染范围的第一帧"
+
+#: __init__.py:121
+msgid "Floyd-Steinberg"
+msgstr "Floyd-Steinberg"
+
+#: __init__.py:193
+msgid "Frame Options:"
+msgstr "帧选项："
+
+#: __init__.py:147
+#: __init__.py:153
+msgid "GIF FPS"
+msgstr "GIF 帧率"
+
+#: __init__.py:213
+msgid "GIF Options:"
+msgstr "GIF 选项："
+
+#: __init__.py:94
+msgid "GIF quality preset"
+msgstr "GIF 质量预设"
+
+#: __init__.py:120
+msgid "Heckbert"
+msgstr "Heckbert"
+
+#: __init__.py:100
+msgid "High"
+msgstr "高"
+
+#: __init__.py:100
+msgid "High quality, larger file size"
+msgstr "高质量，文件较大"
+
+#: __init__.py:126
+msgid "High-contrast error diffusion.\nCan create a stylized retro look."
+msgstr "高对比度误差扩散。\n可营造风格化复古效果。"
+
+#: __init__.py:165
+msgid "Loop"
+msgstr "循环"
+
+#: __init__.py:166
+msgid "Loop Count"
+msgstr "循环次数"
+
+#: __init__.py:98
+msgid "Low"
+msgstr "低"
+
+#: __init__.py:88
+msgid "Manually set colors and dithering"
+msgstr "手动设置颜色和抖动"
+
+#: __init__.py:53
+msgid "Manually specify start/end frames"
+msgstr "手动指定起始/结束帧"
+
+#: __init__.py:52
+msgid "Markers"
+msgstr "标记"
+
+#: __init__.py:107
+msgid "Maximum number of colors in the GIF palette.\n1 is reserved for transparency"
+msgstr "GIF 调色板中的最大颜色数。\n1 保留用于透明度"
+
+#: __init__.py:99
+msgid "Medium"
+msgstr "中"
+
+#: __init__.py:83
+#: __init__.py:143
+msgid "Mode"
+msgstr "模式"
+
+#: __init__.py:118
+msgid "No dithering. Best for pixel art, flat colors.\nCan produce visible banding on gradients."
+msgstr "无抖动。最适合像素画和纯色。\n可能在渐变上产生可见色带。"
+
+#: __init__.py:118
+msgid "None"
+msgstr "无"
+
+#: __init__.py:166
+msgid "Number of times the GIF plays back (0 = infinite)"
+msgstr "GIF 播放次数（0 = 无限）"
+
+#: __init__.py:119
+msgid "Ordered dithering."
+msgstr "有序抖动。"
+
+#: __init__.py:107
+msgid "Palette Size"
+msgstr "调色板大小"
+
+#: __init__.py:44
+msgid "Path to save the GIF file"
+msgstr "保存 GIF 文件的路径"
+
+#: __init__.py:235
+msgid "Playback Options:"
+msgstr "播放选项："
+
+#: __init__.py:94
+msgid "Quality Preset"
+msgstr "质量预设"
+
+#: __init__.py:47
+msgid "Range"
+msgstr "范围"
+
+#: __init__.py:138
+msgid "Renders the .GIF by a percentage of the current scene's resolution.\n(You can manually type a value bigger than 100%)"
+msgstr "按当前场景分辨率的百分比渲染 .GIF。\n（可手动输入大于 100% 的值）"
+
+#: __init__.py:138
+msgid "Resolution %"
+msgstr "分辨率 %"
+
+#: __init__.py:230
+msgid "Scale"
+msgstr "缩放"
+
+#: __init__.py:132
+msgid "Scale of Bayer dithering pattern.\n0 = more visible pattern, 5 = less visible pattern"
+msgstr "Bayer 抖动图案的缩放。\n0 = 图案更明显，5 = 图案更不明显"
+
+#: __init__.py:147
+msgid "Sets the GIF's frame rate independently of the scene's frame rate\n(lower values = slower, higher values = faster)"
+msgstr "独立于场景帧率设置 GIF 的帧率\n（值越低越慢，值越高越快）"
+
+#: __init__.py:153
+msgid "Sets the GIF's playback frame rate independently of the scene's frame rate\n(lower values = slower, higher values = faster)"
+msgstr "独立于场景帧率设置 GIF 的播放帧率\n（值越低越慢，值越高越快）"
+
+#: __init__.py:148
+#: __init__.py:159
+msgid "Sets the GIF's playback speed as a percentage of the scene's frame rate"
+msgstr "按场景帧率的百分比设置 GIF 的播放速度"
+
+#: __init__.py:122
+msgid "Sierra2"
+msgstr "Sierra2"
+
+#: __init__.py:123
+msgid "Sierra2 'Lite' variant.\nExcellent balance of speed and quality for general use."
+msgstr "Sierra2“Lite”变体。\n速度与质量的出色平衡，适合通用场景。"
+
+#: __init__.py:123
+msgid "Sierra2-4A"
+msgstr "Sierra2-4A"
+
+#: __init__.py:124
+msgid "Sierra3"
+msgstr "Sierra3"
+
+#: __init__.py:120
+msgid "Simple error diffusion (legacy)."
+msgstr "简单误差扩散（旧版）。"
+
+#: __init__.py:125
+msgid "Simplified error diffusion, faster than Sierra.\nDecent quality but faster speed."
+msgstr "简化误差扩散，比 Sierra 更快。\n质量尚可，速度更快。"
+
+#: __init__.py:98
+msgid "Small file size, reduced quality"
+msgstr "文件较小，质量降低"
+
+#: __init__.py:97
+msgid "Smallest file size, greatly reduced quality"
+msgstr "文件最小，质量大幅降低"
+
+#: __init__.py:148
+#: __init__.py:159
+msgid "Speed %"
+msgstr "速度 %"
+
+#: __init__.py:70
+#: __init__.py:202
+msgid "Start"
+msgstr "开始"
+
+#: __init__.py:58
+msgid "Start Marker"
+msgstr "起始标记"
+
+#: __init__.py:275
+msgid "Start marker is not specified."
+msgstr "未指定起始标记。"
+
+#: __init__.py:124
+msgid "Three-row error diffusion.\nSlowest to encode, but highest quality."
+msgstr "三行误差扩散。\n编码最慢，但质量最高。"
+
+#: __init__.py:58
+msgid "Timeline marker that defines the first frame"
+msgstr "定义第一帧的时间线标记"
+
+#: __init__.py:64
+msgid "Timeline marker that defines the last frame"
+msgstr "定义最后一帧的时间线标记"
+
+#: __init__.py:122
+msgid "Two-row error diffusion.\nGood quality for most content."
+msgstr "两行误差扩散。\n对大多数内容质量良好。"
+
+#: __init__.py:87
+msgid "Use quality presets"
+msgstr "使用质量预设"
+
+#: __init__.py:51
+msgid "Use the scene timeline"
+msgstr "使用场景时间线"
+
+#: __init__.py:52
+msgid "Use timeline markers to define the range"
+msgstr "使用时间线标记定义范围"
+
+#: __init__.py:101
+msgid "Very High"
+msgstr "极高"
+
+#: __init__.py:97
+msgid "Very Low"
+msgstr "非常低"
+
+#: __init__.py:165
+msgid "When enabled, the GIF will loop"
+msgstr "启用后，GIF 将循环播放"
+
+#: __init__.py:37
+msgctxt "Operator"
+msgid "Render Animated .GIF"
+msgstr "渲染动画 .GIF"
+
+#: __init__.py:38
+msgctxt "Operator"
+msgid "Renders an animated .GIF image."
+msgstr "渲染动画 .GIF 图像。"

@@ -1,0 +1,515 @@
+# perfect-chinese: 1
+# id: true_roboanimator
+# kind: addon
+# module: bl_ext.blender_org.true_roboanimator
+# name: True RoboAnimator
+# name_zh: 机器人动画工具
+# translator: KeshiMiao
+# category: 
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: true_roboanimator/__init__.py:1023
+msgid "- Linear (rotate → move straight → rotate)"
+msgstr "- 线性（旋转 → 直线移动 → 旋转）"
+
+#: true_roboanimator/__init__.py:1022
+msgid "- S-Curve (smooth Bézier path, curvature clamped)"
+msgstr "- S 曲线（平滑贝塞尔路径，曲率受限）"
+
+#: true_roboanimator/__init__.py:1017
+msgid "1) Animate chassis with keyframes (location + rotation)."
+msgstr "1) 使用关键帧为底盘制作动画（位置 + 旋转）。"
+
+#: true_roboanimator/__init__.py:1019
+msgid "2) Run Validate Motion to check feasibility in physical world (no sideways slip)."
+msgstr "2) 运行验证运动以检查在物理世界中是否可行（无侧向滑动）。"
+
+#: true_roboanimator/__init__.py:1021
+msgid "3) If desired, Autocorrect:"
+msgstr "3) 如有需要，自动校正："
+
+#: true_roboanimator/__init__.py:1025
+msgid "4) Pick Speed Profile (Constant, Ease Whole Timeline, or Ease Per Segment)."
+msgstr "4) 选择速度曲线（恒定、整条时间线缓动或逐段缓动）。"
+
+#: true_roboanimator/__init__.py:1030
+msgid "5) Build Cache → Attach Drivers (or Bake Wheels) to drive wheel spin."
+msgstr "5) 构建缓存 → 附加驱动器（或烘焙车轮）以驱动车轮旋转。"
+
+#: true_roboanimator/__init__.py:1035
+msgid "6) Export results:"
+msgstr "6) 导出结果："
+
+#: true_roboanimator/__init__.py:1033
+msgid "Also visually check if correct wheel was calculated for turns, if wheels are swapped, please use swap wheel checkbox."
+msgstr "另请目视检查转向时计算的车轮是否正确；如果车轮互换，请使用交换车轮复选框。"
+
+#: true_roboanimator/__init__.py:698
+msgid "Angle Unit"
+msgstr "角度单位"
+
+#: true_roboanimator/__init__.py:714
+msgid "Angle Unit (Anim)"
+msgstr "角度单位（动画）"
+
+#: true_roboanimator/__init__.py:699
+msgid "Angular Rate"
+msgstr "角速率"
+
+#: true_roboanimator/__init__.py:712
+msgid "Anim Data File"
+msgstr "动画数据文件"
+
+#: true_roboanimator/__init__.py:1
+msgid "Animation"
+msgstr "动画"
+
+#: true_roboanimator/__init__.py:764
+#: true_roboanimator/__init__.py:954
+msgid "Assign the Chassis."
+msgstr "指定底盘。"
+
+#: true_roboanimator/__init__.py:626
+msgid "Auto-detect Wheel Radius"
+msgstr "自动检测车轮半径"
+
+#: true_roboanimator/__init__.py:650
+msgid "Autocorrect Mode (Path Geometry)"
+msgstr "自动校正模式（路径几何）"
+
+#: true_roboanimator/__init__.py:643
+msgid "Body Forward Axis"
+msgstr "车体前向轴"
+
+#: true_roboanimator/__init__.py:774
+#: true_roboanimator/__init__.py:817
+msgid "Build Cache first (and pass validation)."
+msgstr "请先构建缓存（并通过验证）。"
+
+#: true_roboanimator/__init__.py:713
+msgid "CSV"
+msgstr "CSV"
+
+#: true_roboanimator/__init__.py:695
+msgid "CSV File"
+msgstr "CSV 文件"
+
+#: true_roboanimator/__init__.py:618
+msgid "Chassis (animated)"
+msgstr "底盘（动画）"
+
+#: true_roboanimator/__init__.py:674
+msgid "Constant (Uniform)"
+msgstr "恒定（均匀）"
+
+#: true_roboanimator/__init__.py:674
+msgid "Constant speed across the entire timeline"
+msgstr "整条时间线保持恒定速度"
+
+#: true_roboanimator/__init__.py:625
+msgid "Distance Between Tires (m)"
+msgstr "轮胎间距（米）"
+
+#: true_roboanimator/__init__.py:803
+msgid "Drivers attached to wheel objects."
+msgstr "驱动器已附加到车轮物体。"
+
+#: true_roboanimator/__init__.py:676
+msgid "Each keyframe-to-keyframe segment eases in/out"
+msgstr "每个关键帧到关键帧段均缓入/缓出"
+
+#: true_roboanimator/__init__.py:680
+msgid "Ease Frames (Timeline)"
+msgstr "缓动帧（时间线）"
+
+#: true_roboanimator/__init__.py:685
+msgid "Ease In Frames (Per Segment)"
+msgstr "缓入帧（逐段）"
+
+#: true_roboanimator/__init__.py:689
+msgid "Ease Out Frames (Per Segment)"
+msgstr "缓出帧（逐段）"
+
+#: true_roboanimator/__init__.py:676
+msgid "Ease — Per Keyframe Segment"
+msgstr "缓动 — 逐关键帧段"
+
+#: true_roboanimator/__init__.py:675
+msgid "Ease — Whole Timeline"
+msgstr "缓动 — 整条时间线"
+
+#: true_roboanimator/__init__.py:1
+msgid "Engineering-accurate animation toolkit for differential-drive robots."
+msgstr "面向差速驱动机器人的工程级精确动画工具包。"
+
+#: true_roboanimator/__init__.py:629
+msgid "Euler"
+msgstr "欧拉"
+
+#: true_roboanimator/__init__.py:696
+msgid "Every Frame (scene FPS)"
+msgstr "每帧（场景 FPS）"
+
+#: true_roboanimator/__init__.py:696
+msgid "Fixed Rate (Hz)"
+msgstr "固定速率（Hz）"
+
+#: true_roboanimator/__init__.py:636
+msgid "Flip wheel rolling direction relative to body forward (use if the model's front faces the opposite axis)"
+msgstr "翻转车轮相对于车体前向的滚动方向（若模型正面朝向相反轴则使用）"
+
+#: true_roboanimator/__init__.py:713
+msgid "Format"
+msgstr "格式"
+
+#: true_roboanimator/__init__.py:630
+#: true_roboanimator/__init__.py:631
+msgid "Forward (+1)"
+msgstr "正向（+1）"
+
+#: true_roboanimator/__init__.py:680
+msgid "Frames to ramp at the start and end of the whole timeline (GLOBAL_EASE only)"
+msgstr "整条时间线开头和结尾用于缓动的帧数（仅 GLOBAL_EASE）"
+
+#: true_roboanimator/__init__.py:1056
+msgid "Geometry (meters)"
+msgstr "几何（米）"
+
+#: true_roboanimator/__init__.py:659
+msgid "Handle length as fraction of pose distance (larger = rounder arcs). Curvature is clamped by track_width/2."
+msgstr "控制柄长度占位姿距离的比例（越大弧线越圆）。曲率受 track_width/2 限制。"
+
+#: true_roboanimator/__init__.py:1032
+msgid "If wheels roll backwards, try Wheel Forward Invert toggle."
+msgstr "如果车轮向后滚动，请尝试车轮前向反转开关。"
+
+#: true_roboanimator/__init__.py:633
+#: true_roboanimator/__init__.py:636
+msgid "Invert Wheel Forward"
+msgstr "反转车轮前向"
+
+#: true_roboanimator/__init__.py:630
+#: true_roboanimator/__init__.py:631
+msgid "Inverted (-1)"
+msgstr "反向（-1）"
+
+#: true_roboanimator/__init__.py:713
+msgid "JSON"
+msgstr "JSON"
+
+#: true_roboanimator/__init__.py:631
+msgid "Left Wheel Direction"
+msgstr "左轮方向"
+
+#: true_roboanimator/__init__.py:620
+msgid "Left Wheels (Collection)"
+msgstr "左轮（集合）"
+
+#: true_roboanimator/__init__.py:700
+msgid "Length Unit"
+msgstr "长度单位"
+
+#: true_roboanimator/__init__.py:655
+msgid "Linear (Rotate–Move–Rotate)"
+msgstr "线性（旋转–移动–旋转）"
+
+#: true_roboanimator/__init__.py:645
+msgid "Local +X"
+msgstr "局部 +X"
+
+#: true_roboanimator/__init__.py:645
+msgid "Local +Y"
+msgstr "局部 +Y"
+
+#: true_roboanimator/__init__.py:645
+msgid "Local -X"
+msgstr "局部 -X"
+
+#: true_roboanimator/__init__.py:645
+msgid "Local -Y"
+msgstr "局部 -Y"
+
+#: true_roboanimator/__init__.py:727
+msgid "Motion is feasible (no slip violations)."
+msgstr "运动可行（无滑动违规）。"
+
+#: true_roboanimator/__init__.py:766
+msgid "No backup found to restore."
+msgstr "未找到可恢复的备份。"
+
+#: true_roboanimator/__init__.py:960
+msgid "No keyed frames fall inside the cache/frame range."
+msgstr "缓存/帧范围内没有关键帧。"
+
+#: true_roboanimator/__init__.py:1040
+msgid "Note:"
+msgstr "注意："
+
+#: true_roboanimator/__init__.py:653
+msgid "Off"
+msgstr "关闭"
+
+#: true_roboanimator/__init__.py:767
+msgid "Original chassis keyframes restored."
+msgstr "已恢复原始底盘关键帧。"
+
+#: true_roboanimator/__init__.py:664
+msgid "Per segment, fraction of frames used for the initial and final rotations (each)."
+msgstr "每段中，初始旋转和最终旋转各自使用的帧比例。"
+
+#: true_roboanimator/__init__.py:629
+msgid "Quaternion"
+msgstr "四元数"
+
+#: true_roboanimator/__init__.py:697
+msgid "Rate (Hz)"
+msgstr "速率（Hz）"
+
+#: true_roboanimator/__init__.py:630
+msgid "Right Wheel Direction"
+msgstr "右轮方向"
+
+#: true_roboanimator/__init__.py:619
+msgid "Right Wheels (Collection)"
+msgstr "右轮（集合）"
+
+#: true_roboanimator/__init__.py:655
+msgid "Rotate to face, move straight, rotate to final"
+msgstr "旋转朝向，直线移动，旋转至最终朝向"
+
+#: true_roboanimator/__init__.py:664
+msgid "Rotation Fraction (Linear)"
+msgstr "旋转比例（线性）"
+
+#: true_roboanimator/__init__.py:629
+msgid "Rotation Mode"
+msgstr "旋转模式"
+
+#: true_roboanimator/__init__.py:696
+msgid "Sampling"
+msgstr "采样"
+
+#: true_roboanimator/__init__.py:755
+msgid "Set Autocorrect Mode to 'Linear (Rotate–Move–Rotate)'."
+msgstr "将自动校正模式设为“线性（旋转–移动–旋转）”。"
+
+#: true_roboanimator/__init__.py:746
+msgid "Set Autocorrect Mode to 'Smooth Curve (S-Ease)'."
+msgstr "将自动校正模式设为“平滑曲线（S 缓动）”。"
+
+#: true_roboanimator/__init__.py:737
+msgid "Set Autocorrect Mode to S-Ease or Linear."
+msgstr "将自动校正模式设为 S 缓动或线性。"
+
+#: true_roboanimator/__init__.py:708
+msgid "Show Animation Data Export"
+msgstr "显示动画数据导出"
+
+#: true_roboanimator/__init__.py:709
+msgid "Show CSV Engineering Export"
+msgstr "显示 CSV 工程导出"
+
+#: true_roboanimator/__init__.py:705
+msgid "Show Calibration"
+msgstr "显示校准"
+
+#: true_roboanimator/__init__.py:706
+msgid "Show Feasibility"
+msgstr "显示可行性"
+
+#: true_roboanimator/__init__.py:703
+msgid "Show Instructions"
+msgstr "显示说明"
+
+#: true_roboanimator/__init__.py:704
+msgid "Show Object Selection"
+msgstr "显示物体选择"
+
+#: true_roboanimator/__init__.py:707
+msgid "Show RPM Calculation"
+msgstr "显示 RPM 计算"
+
+#: true_roboanimator/__init__.py:648
+msgid "Sideways Tolerance (m/s)"
+msgstr "侧向容差（m/s）"
+
+#: true_roboanimator/__init__.py:675
+msgid "Slow-in/fast/slow-out across the entire timeline"
+msgstr "整个时间线缓入/快/缓出"
+
+#: true_roboanimator/__init__.py:654
+msgid "Smooth Bezier segments with curvature clamp"
+msgstr "带曲率限制的平滑贝塞尔分段"
+
+#: true_roboanimator/__init__.py:654
+msgid "Smooth Curve (S-Ease)"
+msgstr "平滑曲线（S 缓动）"
+
+#: true_roboanimator/__init__.py:671
+msgid "Speed Profile (Timing)"
+msgstr "速度配置（时序）"
+
+#: true_roboanimator/__init__.py:621
+msgid "Swap L/R Sides"
+msgstr "交换左/右侧"
+
+#: true_roboanimator/__init__.py:1043
+msgid "Swap L/R Sides fixes if left/right wheel collections were assigned swapped."
+msgstr "若左右车轮集合分配反了，交换左/右侧可修复。"
+
+#: true_roboanimator/__init__.py:659
+msgid "Tangent Scale (S-Ease)"
+msgstr "切线缩放（S 缓动）"
+
+#: true_roboanimator/__init__.py:1031
+msgid "Tip:"
+msgstr "提示："
+
+#: true_roboanimator/__init__.py:624
+msgid "Track Width (m)"
+msgstr "轮距（米）"
+
+#: true_roboanimator/__init__.py:1041
+msgid "Track width = center-to-center distance of left/right wheels."
+msgstr "轮距 = 左右车轮中心到中心的距离。"
+
+#: true_roboanimator/__init__.py:1
+#: true_roboanimator/__init__.py:996
+msgid "True RoboAnimator"
+msgstr "True RoboAnimator"
+
+#: true_roboanimator/__init__.py:1015
+msgid "Usage Pipeline:"
+msgstr "使用流程："
+
+#: true_roboanimator/__init__.py:1042
+msgid "Wheel Forward Invert flips wheel spin only (not path)."
+msgstr "车轮前进反向仅翻转车轮旋转（不翻转路径）。"
+
+#: true_roboanimator/__init__.py:627
+msgid "Wheel Radius (m)"
+msgstr "车轮半径（米）"
+
+#: true_roboanimator/__init__.py:1061
+msgid "Wheel Rotation"
+msgstr "车轮旋转"
+
+#: true_roboanimator/__init__.py:628
+msgid "Wheel Rotation Axis"
+msgstr "车轮旋转轴"
+
+#: true_roboanimator/__init__.py:628
+msgid "X"
+msgstr "X"
+
+#: true_roboanimator/__init__.py:628
+msgid "Y"
+msgstr "Y"
+
+#: true_roboanimator/__init__.py:628
+msgid "Z"
+msgstr "Z"
+
+#: true_roboanimator/__init__.py:699
+msgid "deg/s"
+msgstr "度/秒"
+
+#: true_roboanimator/__init__.py:1036
+msgid "• Animation data export for developement in other softwares i.e. Reality Composer Pro."
+msgstr "• 导出动画数据，供其他软件（如 Reality Composer Pro）开发使用。"
+
+#: true_roboanimator/__init__.py:1026
+msgid "• Constant = uniform speed everywhere."
+msgstr "• 恒定 = 全程匀速。"
+
+#: true_roboanimator/__init__.py:1037
+msgid "• Data as CSV or JSON for engineering use."
+msgstr "• 以 CSV 或 JSON 提供数据，供工程使用。"
+
+#: true_roboanimator/__init__.py:1028
+msgid "• Ease Per Segment = each keyframe-to-keyframe segment eases in/out."
+msgstr "• 每段缓动 = 每个关键帧到关键帧的分段缓入/缓出。"
+
+#: true_roboanimator/__init__.py:1027
+msgid "• Ease Whole Timeline = slow-in/slow-out over the entire animation."
+msgstr "• 整条时间线缓动 = 整个动画缓入/缓出。"
+
+#: true_roboanimator/__init__.py:770
+msgctxt "Operator"
+msgid "Attach Drivers"
+msgstr "附加驱动器"
+
+#: true_roboanimator/__init__.py:730
+msgctxt "Operator"
+msgid "Autocorrect & Bake"
+msgstr "自动校正并烘焙"
+
+#: true_roboanimator/__init__.py:752
+msgctxt "Operator"
+msgid "Autocorrect & Bake (Linear: Rotate–Move–Rotate)"
+msgstr "自动校正并烘焙（线性：旋转–移动–旋转）"
+
+#: true_roboanimator/__init__.py:743
+msgctxt "Operator"
+msgid "Autocorrect & Bake (Smooth S-Ease)"
+msgstr "自动校正并烘焙（平滑 S 缓动）"
+
+#: true_roboanimator/__init__.py:814
+msgctxt "Operator"
+msgid "Bake Wheels"
+msgstr "烘焙车轮"
+
+#: true_roboanimator/__init__.py:731
+msgctxt "Operator"
+msgid "Bake using the selected Autocorrect Mode (S-Ease or Linear) with the chosen Speed Profile"
+msgstr "使用选定的自动校正模式（S 缓动或线性）和所选速度配置进行烘焙"
+
+#: true_roboanimator/__init__.py:806
+msgctxt "Operator"
+msgid "Build Cache"
+msgstr "构建缓存"
+
+#: true_roboanimator/__init__.py:719
+msgctxt "Operator"
+msgid "Check current chassis animation for nonholonomic feasibility (mid-step heading)"
+msgstr "检查当前底盘动画的非完整约束可行性（步中朝向）"
+
+#: true_roboanimator/__init__.py:852
+msgctxt "Operator"
+msgid "Clear Drivers/Keyframes"
+msgstr "清除驱动器/关键帧"
+
+#: true_roboanimator/__init__.py:886
+msgctxt "Operator"
+msgid "Export CSV"
+msgstr "导出 CSV"
+
+#: true_roboanimator/__init__.py:951
+msgctxt "Operator"
+msgid "Export Keyframes"
+msgstr "导出关键帧"
+
+#: true_roboanimator/__init__.py:887
+msgctxt "Operator"
+msgid "Export t, x, y, yaw, thetaR/L, rateR/L using chosen sampling and units"
+msgstr "使用所选采样和单位导出 t、x、y、yaw、thetaR/L、rateR/L"
+
+#: true_roboanimator/__init__.py:853
+msgctxt "Operator"
+msgid "Remove wheel rotation drivers AND their rotation keyframes (Euler & Quaternion) on all wheel objects."
+msgstr "移除所有车轮物体上的车轮旋转驱动器及其旋转关键帧（欧拉和四元数）。"
+
+#: true_roboanimator/__init__.py:761
+msgctxt "Operator"
+msgid "Revert Autocorrect"
+msgstr "还原自动校正"
+
+#: true_roboanimator/__init__.py:718
+msgctxt "Operator"
+msgid "Validate Motion"
+msgstr "验证运动"

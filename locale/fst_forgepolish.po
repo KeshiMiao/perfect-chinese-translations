@@ -1,0 +1,258 @@
+# perfect-chinese: 1
+# id: fst_forgepolish
+# kind: addon
+# module: bl_ext.blender_org.fst_forgepolish
+# name: FST ForgePolish
+# name_zh: 硬表面抛光
+# translator: KeshiMiao
+# category: Mesh
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: operators/polish.py:956
+#: ui/panel.py:163
+msgid "Angle"
+msgstr "角度"
+
+#: operators/polish.py:956
+#: ui/panel.py:163
+msgid "Angle threshold for selecting Face Set separator edges"
+msgstr "选择面集分隔边的角度阈值"
+
+#: operators/polish.py:46
+msgid "By Angle"
+msgstr "按角度"
+
+#: operators/polish.py:49
+msgid "By Bevel Weight"
+msgstr "按倒角权重"
+
+#: operators/polish.py:50
+msgid "By Material Boundary"
+msgstr "按材质边界"
+
+#: operators/polish.py:48
+msgid "By Seams"
+msgstr "按缝合线"
+
+#: operators/polish.py:47
+msgid "By Sharp Edges"
+msgstr "按锐边"
+
+#: operators/polish.py:950
+msgid "Clear Previous Selection"
+msgstr "清除之前的选择"
+
+#: ui/panel.py:178
+msgid "Edit"
+msgstr "编辑"
+
+#: ui/panel.py:263
+msgid "Enter Edit Mode, select edges, then create Face Sets"
+msgstr "进入编辑模式，选择边，然后创建面集"
+
+#: ui/panel.py:302
+msgid "F Size  Shift+F Hardness"
+msgstr "F 大小  Shift+F 硬度"
+
+#: ui/panel.py:174
+msgid "FST ForgePolish"
+msgstr "FST ForgePolish"
+
+#: ui/panel.py:155
+msgid "Hardness"
+msgstr "硬度"
+
+#: ui/panel.py:106
+msgid "Keep Corners"
+msgstr "保留角点"
+
+#: ui/panel.py:83
+msgid "Keeps the shape more stable while polishing"
+msgstr "抛光时保持形状更稳定"
+
+#: ui/panel.py:106
+msgid "Lock sharp boundary corners; 0 disables corner protection"
+msgstr "锁定锐利边界角点；0 禁用角点保护"
+
+#: operators/polish.py:944
+msgid "Method"
+msgstr "方法"
+
+#: ui/panel.py:80
+msgid "Mode"
+msgstr "模式"
+
+#: ui/panel.py:98
+msgid "Polish Steps"
+msgstr "抛光步数"
+
+#: ui/panel.py:155
+msgid "Polish brush inner falloff hardness"
+msgstr "抛光笔刷内部衰减硬度"
+
+#: ui/panel.py:147
+msgid "Polish brush radius in screen pixels"
+msgstr "抛光笔刷半径（屏幕像素）"
+
+#: ui/panel.py:270
+msgid "Polish selected elements only"
+msgstr "仅抛光选中元素"
+
+#: ui/panel.py:98
+msgid "Polish strength shared by face, edge, and brush smoothing"
+msgstr "面、边和笔刷平滑共用的抛光强度"
+
+#: ui/panel.py:88
+msgid "Polishes more aggressively, with more risk of shrinkage"
+msgstr "抛光更激进，收缩风险更高"
+
+#: ui/panel.py:123
+#: ui/panel.py:139
+msgid "Preserve"
+msgstr "保留"
+
+#: ui/panel.py:184
+msgid "Properties are not registered. Reload the add-on."
+msgstr "属性未注册。请重新加载插件。"
+
+#: ui/panel.py:193
+msgid "Select a mesh object"
+msgstr "选择网格物体"
+
+#: operators/polish.py:50
+msgid "Select edges between different material slots"
+msgstr "选择不同材质槽之间的边"
+
+#: operators/polish.py:48
+msgid "Select edges marked as UV seams"
+msgstr "选择标记为 UV 缝合线的边"
+
+#: operators/polish.py:47
+msgid "Select edges marked as sharp"
+msgstr "选择标记为锐边的边"
+
+#: operators/polish.py:46
+msgid "Select edges whose adjacent faces exceed the angle threshold"
+msgstr "选择相邻面超过角度阈值的边"
+
+#: operators/polish.py:49
+msgid "Select edges with bevel weight"
+msgstr "选择具有倒角权重的边"
+
+#: operators/polish.py:1006
+msgid "Select separator edges by face angle."
+msgstr "按面角度选择分隔边。"
+
+#: ui/panel.py:139
+msgid "Shape preservation strength for boundary regions"
+msgstr "边界区域的形状保留强度"
+
+#: ui/panel.py:123
+msgid "Shape preservation strength for inner regions"
+msgstr "内部区域的形状保留强度"
+
+#: ui/panel.py:115
+msgid "Single-step smoothing strength inside each face set"
+msgstr "每个面集内部的单步平滑强度"
+
+#: ui/panel.py:131
+msgid "Single-step smoothing strength on boundaries"
+msgstr "边界上的单步平滑强度"
+
+#: ui/panel.py:147
+msgid "Size"
+msgstr "大小"
+
+#: ui/panel.py:115
+#: ui/panel.py:131
+msgid "Smooth"
+msgstr "平滑"
+
+#: ui/panel.py:83
+msgid "Standard HC (Preserve Shape)"
+msgstr "标准 HC（保留形状）"
+
+#: ui/panel.py:88
+msgid "Tension First (Prioritize Polish)"
+msgstr "张力优先（优先抛光）"
+
+#: operators/polish.py:1216
+msgctxt "Operator"
+msgid "Apply FST ForgePolish to the active mesh using the current settings"
+msgstr "使用当前设置将 FST ForgePolish 应用到活动网格"
+
+#: features/brush/ops_smooth_brush.py:132
+msgctxt "Operator"
+msgid "Brush local polishing onto the active mesh"
+msgstr "在活动网格上进行笔刷局部抛光"
+
+#: operators/polish.py:1057
+msgctxt "Operator"
+msgid "Create Face Sets from Edges"
+msgstr "从边创建面集"
+
+#: ui/panel.py:246
+msgctxt "Operator"
+msgid "Create FaceSets from Edges"
+msgstr "从边创建面集"
+
+#: operators/polish.py:1215
+msgctxt "Operator"
+msgid "Execute Polish"
+msgstr "执行抛光"
+
+#: ui/panel.py:280
+msgctxt "Operator"
+msgid "Polish"
+msgstr "抛光"
+
+#: features/brush/ops_smooth_brush.py:131
+msgctxt "Operator"
+msgid "Polish Brush"
+msgstr "抛光笔刷"
+
+#: operators/polish.py:940
+msgctxt "Operator"
+msgid "Select Edges for Face Sets"
+msgstr "为面集选择边"
+
+#: operators/polish.py:1146
+msgctxt "Operator"
+msgid "Select Face Set Boundaries"
+msgstr "选择面集边界"
+
+#: ui/panel.py:238
+msgctxt "Operator"
+msgid "Select FaceSet Boundaries"
+msgstr "选择面集边界"
+
+#: operators/polish.py:941
+msgctxt "Operator"
+msgid "Select separator edges before creating Face Sets"
+msgstr "创建面集前选择分隔边"
+
+#: operators/polish.py:1147
+msgctxt "Operator"
+msgid "Select the edges that separate neighboring face sets"
+msgstr "选择分隔相邻面集的边"
+
+#: features/faceset_sculpt_preview/ops.py:23
+#: ui/panel.py:225
+msgctxt "Operator"
+msgid "Show Face Sets"
+msgstr "显示面集"
+
+#: features/faceset_sculpt_preview/ops.py:24
+msgctxt "Operator"
+msgid "Temporarily switch to Sculpt Mode to show the active mesh Face Sets"
+msgstr "临时切换到雕刻模式以显示活动网格的面集"
+
+#: operators/polish.py:1058
+msgctxt "Operator"
+msgid "Use selected edges as separators and create face sets by flood fill"
+msgstr "使用选中边作为分隔，通过填充创建面集"

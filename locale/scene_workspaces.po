@@ -1,0 +1,272 @@
+# perfect-chinese: 1
+# id: scene_workspaces
+# kind: addon
+# module: bl_ext.blender_org.scene_workspaces
+# name: Scene Workspaces
+# name_zh: 场景工作区管理
+# translator: KeshiMiao
+# category: Scene
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: sw/panel.py:49
+msgid "All workspaces are currently linked."
+msgstr "当前已链接所有工作区。"
+
+#: sw/prefs.py:10
+msgid "Auto initialize Scene Workspaces"
+msgstr "自动初始化场景工作区"
+
+#: sw/prefs.py:10
+msgid "Automatically add all avaliable workspaces to the current scene, if empty (with ordering only for common cases)"
+msgstr "如果为空，自动将所有可用工作区添加到当前场景（仅常见情况会排序）"
+
+#: sw/funcs.py:104
+msgid "Compact Mode"
+msgstr "紧凑模式"
+
+#: sw/menu.py:6
+msgid "Copy and link workspaces from other scenes"
+msgstr "从其他场景复制并链接工作区"
+
+#: sw/menu.py:10
+msgid "Copy workspaces from scene"
+msgstr "从场景复制工作区"
+
+#: sw/ops.py:130
+msgid "Current Name"
+msgstr "当前名称"
+
+#: sw/prefs.py:13
+msgid "If disabled, adds spacing around the active workspace and a quick unlink button"
+msgstr "禁用时，在活动工作区周围添加间距和一个快速取消链接按钮"
+
+#: sw/panel.py:35
+msgid "Link other workspaces"
+msgstr "链接其他工作区"
+
+#: sw/menu.py:17
+msgid "Link other workspaces to this scene"
+msgstr "将其他工作区链接到此场景"
+
+#: sw/funcs.py:8
+msgid "Modeling"
+msgstr "建模"
+
+#: sw/ops.py:131
+msgid "Name"
+msgstr "名称"
+
+#: sw/prefs.py:20
+msgid "Note: Scene Workspaces cannot retrive the global workspaces order."
+msgstr "注意：场景工作区无法获取全局工作区顺序。"
+
+#: sw/prefs.py:21
+msgid "Only workspaces from one of the 5 default templates will be automatically ordered."
+msgstr "仅来自 5 个默认模板之一的工作区会自动排序。"
+
+#: __init__.py:25
+msgid "Scene"
+msgstr "场景"
+
+#: __init__.py:25
+#: sw/panel.py:7
+msgid "Scene Workspaces"
+msgstr "场景工作区"
+
+#: sw/funcs.py:8
+msgid "Sculpting"
+msgstr "雕刻"
+
+#: sw/funcs.py:10
+msgid "Shading"
+msgstr "着色"
+
+#: sw/prefs.py:12
+msgid "Show Checkbox"
+msgstr "显示复选框"
+
+#: sw/prefs.py:9
+msgid "Show only with multiple scenes"
+msgstr "仅在多个场景时显示"
+
+#: sw/prefs.py:9
+msgid "Show the topbar (and eventually the checkbox) only when the project has multiple scenes"
+msgstr "仅当项目有多个场景时显示顶栏（以及复选框）"
+
+#: sw/prefs.py:12
+msgid "Show/Hide the checkbox button next to the workspaces topbar. Useful for quickly lookup the original workspaces topbar"
+msgstr "显示/隐藏工作区顶栏旁的复选框按钮。便于快速查看原始工作区顶栏"
+
+#: sw/prefs.py:11
+msgid "Switch the workspace topbar between Scene Workspaces and the default one"
+msgstr "在工作区顶栏中于场景工作区和默认顶栏之间切换"
+
+#: __init__.py:25
+msgid "System"
+msgstr "系统"
+
+#: sw/ops.py:131
+msgid "The new name for this workspace"
+msgstr "此工作区的新名称"
+
+#: sw/panel.py:21
+msgid "There are no workspaces linked right now..."
+msgstr "当前没有链接的工作区……"
+
+#: sw/prefs.py:24
+msgid "UI Options"
+msgstr "界面选项"
+
+#: sw/prefs.py:13
+msgid "Use Compact Mode"
+msgstr "使用紧凑模式"
+
+#: sw/prefs.py:11
+msgid "Use Scene Workspaces topbar"
+msgstr "使用场景工作区顶栏"
+
+#: sw/panel.py:16
+msgid "Workspaces linked to this Scene"
+msgstr "链接到此场景的工作区"
+
+#: sw/ops.py:95
+msgctxt "Operator"
+msgid "Activate Next/Previous Workspace"
+msgstr "激活下一个/上一个工作区"
+
+#: sw/topbar.py:124
+msgctxt "Operator"
+msgid "Back to Previous"
+msgstr "返回上一个"
+
+#: sw/ops.py:172
+msgctxt "Operator"
+msgid "Copy from another Scene"
+msgstr "从其他场景复制"
+
+#: sw/ops.py:173
+msgctxt "Operator"
+msgid "Copy linked workspaces from this scene"
+msgstr "从此场景复制已链接的工作区"
+
+#: sw/ops.py:185
+msgctxt "Operator"
+msgid "Link Workspace"
+msgstr "链接工作区"
+
+#: sw/menu.py:23
+#: sw/topbar.py:59
+msgctxt "Operator"
+msgid "Link all workspaces"
+msgstr "链接所有工作区"
+
+#: sw/ops.py:49
+msgctxt "Operator"
+msgid "Link all workspaces avaliable to this scene"
+msgstr "将所有可用工作区链接到此场景"
+
+#: sw/ops.py:48
+msgctxt "Operator"
+msgid "Link all workspaces to this Scene"
+msgstr "将所有工作区链接到此场景"
+
+#: sw/ops.py:22
+msgctxt "Operator"
+msgid "Make this workspace active (or remove it from the scene, if missing)"
+msgstr "将此工作区设为活动（如果缺失，则从场景中移除）"
+
+#: sw/funcs.py:121
+msgctxt "Operator"
+msgid "Move Left (scene only)"
+msgstr "左移（仅场景）"
+
+#: sw/funcs.py:125
+msgctxt "Operator"
+msgid "Move Right (scene only)"
+msgstr "右移（仅场景）"
+
+#: sw/funcs.py:137
+msgctxt "Operator"
+msgid "Next Workspace (scene)"
+msgstr "下一个工作区（场景）"
+
+#: sw/funcs.py:136
+msgctxt "Operator"
+msgid "Previous Workspace (scene)"
+msgstr "上一个工作区（场景）"
+
+#: sw/funcs.py:112
+msgctxt "Operator"
+msgid "Rename"
+msgstr "重命名"
+
+#: sw/ops.py:128
+msgctxt "Operator"
+msgid "Rename the current workspace (this rename both the global workspace as the scene workspace)"
+msgstr "重命名当前工作区（这会同时重命名全局工作区和场景工作区）"
+
+#: sw/ops.py:127
+msgctxt "Operator"
+msgid "Rename workspace"
+msgstr "重命名工作区"
+
+#: sw/ops.py:58
+msgctxt "Operator"
+msgid "Reorder Workspace"
+msgstr "重新排序工作区"
+
+#: sw/ops.py:59
+msgctxt "Operator"
+msgid "Reorder this workspace in the desired location (only for this Scene)"
+msgstr "将此工作区重新排序到所需位置（仅限此场景）"
+
+#: sw/funcs.py:129
+msgctxt "Operator"
+msgid "Reorder to Back (scene only)"
+msgstr "重新排序到末尾（仅场景）"
+
+#: sw/funcs.py:117
+msgctxt "Operator"
+msgid "Reorder to Front (scene only)"
+msgstr "重新排序到最前（仅场景）"
+
+#: sw/ops.py:38
+msgctxt "Operator"
+msgid "Select this workspace to reorder, rename or unlink"
+msgstr "选择此工作区以重新排序、重命名或取消链接"
+
+#: sw/ops.py:10
+msgctxt "Operator"
+msgid "Show/Hide Scene Workspaces"
+msgstr "显示/隐藏场景工作区"
+
+#: sw/ops.py:11
+msgctxt "Operator"
+msgid "Switch workspaces topbar between Scene Workspaces and default"
+msgstr "在工作区顶栏中切换场景工作区和默认顶栏"
+
+#: sw/ops.py:157
+msgctxt "Operator"
+msgid "Unlink Workspace"
+msgstr "取消链接工作区"
+
+#: sw/ops.py:158
+msgctxt "Operator"
+msgid "Unlink this workspace from this scene (this will not delete the workspace)"
+msgstr "从此场景取消链接此工作区（不会删除该工作区）"
+
+#: sw/funcs.py:107
+msgctxt "Operator"
+msgid "Unlink workspace from scene"
+msgstr "从场景取消链接工作区"
+
+#: sw/ops.py:21
+#: sw/ops.py:37
+msgctxt "Operator"
+msgid "Workspace"
+msgstr "工作区"

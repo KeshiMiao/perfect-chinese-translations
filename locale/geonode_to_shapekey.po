@@ -1,0 +1,99 @@
+# perfect-chinese: 1
+# id: geonode_to_shapekey
+# kind: addon
+# module: bl_ext.blender_org.geonode_to_shapekey
+# name: Geonode To Shapekey
+# name_zh: 几何节点转形态键
+# translator: KeshiMiao
+# category: Geometry Nodes
+# supported_versions: >=5.1.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:52
+msgid "GN to Shape Keys"
+msgstr "GN 转形态键"
+
+#: __init__.py:56
+msgid "GeoNodes"
+msgstr "几何节点"
+
+#: __init__.py:279
+msgid "How many samples to take from the animation (taken every 10 frames)"
+msgstr "从动画中采样多少次（每 10 帧采样一次）"
+
+#: __init__.py:145
+msgid "Need at least copy1 and copy2 present."
+msgstr "至少需要存在 copy1 和 copy2。"
+
+#: __init__.py:86
+msgid "No object selected."
+msgstr "未选择物体。"
+
+#: __init__.py:256
+msgid "No objects named 'copy1', 'copy2', etc. found."
+msgstr "未找到名为 'copy1'、'copy2' 等的物体。"
+
+#: __init__.py:285
+msgid "Object"
+msgstr "物体"
+
+#: __init__.py:290
+msgid "Relative"
+msgstr "相对"
+
+#: __init__.py:285
+msgid "Select the GeoNodes-enabled object"
+msgstr "选择启用了几何节点的物体"
+
+#: __init__.py:91
+msgid "Selected object has no Geometry Nodes modifier."
+msgstr "所选物体没有几何节点修改器。"
+
+#: __init__.py:279
+msgid "Time Samples"
+msgstr "时间采样"
+
+#: __init__.py:290
+msgid "Use relative shape keys instead of absolute"
+msgstr "使用相对形态键而非绝对形态键"
+
+#: __init__.py:76
+msgctxt "Operator"
+msgid "Duplicate object at key frames, apply GeoNodes, and offset in Y"
+msgstr "在关键帧处复制物体，应用几何节点，并在 Y 方向偏移"
+
+#: __init__.py:67
+#: __init__.py:126
+msgctxt "Operator"
+msgid "Merge to Shape Keys"
+msgstr "合并为形态键"
+
+#: __init__.py:127
+msgctxt "Operator"
+msgid "On copy1: add Basis, join copy2…copyN as shape keys, disable relative mode, and keyframe eval_time"
+msgstr "在 copy1 上：添加 Basis，将 copy2…copyN 合并为形态键，禁用相对模式，并为 eval_time 设置关键帧"
+
+#: __init__.py:65
+msgctxt "Operator"
+msgid "Prep Copies"
+msgstr "准备副本"
+
+#: __init__.py:75
+msgctxt "Operator"
+msgid "Prepare GeoNodes Copies"
+msgstr "准备几何节点副本"
+
+#: __init__.py:247
+msgctxt "Operator"
+msgid "Rename 'copy1' to 'shapekey_object' and delete all other copies"
+msgstr "将 'copy1' 重命名为 'shapekey_object' 并删除所有其他副本"
+
+#: __init__.py:70
+#: __init__.py:246
+msgctxt "Operator"
+msgid "Rename and Delete"
+msgstr "重命名并删除"

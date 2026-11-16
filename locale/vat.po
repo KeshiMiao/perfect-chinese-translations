@@ -1,0 +1,307 @@
+# perfect-chinese: 1
+# id: vat
+# kind: addon
+# module: bl_ext.blender_org.VAT
+# name: Vertex Animation Toolkit (VAT + VAB)
+# name_zh: 顶点动画工具
+# translator: KeshiMiao
+# category: 
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: VAT/__init__.py:914
+msgid "1 · Range"
+msgstr "1 · 范围"
+
+#: VAT/__init__.py:927
+msgid "2 · Format — Track A: Texture"
+msgstr "2 · 格式 — 轨道 A：纹理"
+
+#: VAT/__init__.py:925
+msgid "2 · Format — Track B: Storage"
+msgstr "2 · 格式 — 轨道 B：存储"
+
+#: VAT/__init__.py:964
+msgid "3 · Bake & export"
+msgstr "3 · 烘焙与导出"
+
+#: VAT/__init__.py:22
+msgid "A tool for storing per frame vertex data for use in a vertex shader."
+msgstr "用于存储逐帧顶点数据以供顶点着色器使用的工具。"
+
+#: VAT/__init__.py:989
+msgid "Absolutes"
+msgstr "绝对位置"
+
+#: VAT/__init__.py:930
+msgid "Backend"
+msgstr "后端"
+
+#: VAT/__init__.py:1017
+msgid "Bake positions/normals images (current behavior)"
+msgstr "烘焙位置/法线图像（当前行为）"
+
+#: VAT/__init__.py:802
+msgid "Bake produced no export_mesh"
+msgstr "烘焙未生成 export_mesh"
+
+#: VAT/__init__.py:833
+msgid "Bake produced no positions/normals"
+msgstr "烘焙未生成位置/法线"
+
+#: VAT/__init__.py:910
+msgid "Cache > Bake All Dynamics first"
+msgstr "缓存 > 请先烘焙所有动力学"
+
+#: VAT/__init__.py:1039
+msgid "Direction packed (oct) or raw on disk, expanded at load (weight vs fidelity)"
+msgstr "方向以八面体压缩或原始形式存盘，加载时展开（体积与精度权衡）"
+
+#: VAT/__init__.py:1026
+msgid "Do not wrap texture"
+msgstr "不环绕纹理"
+
+#: VAT/__init__.py:917
+msgid "End (excluded)"
+msgstr "结束（不含）"
+
+#: VAT/__init__.py:1046
+msgid "Export Folder"
+msgstr "导出文件夹"
+
+#: VAT/__init__.py:1013
+msgid "Export Mode"
+msgstr "导出模式"
+
+#: VAT/__init__.py:1052
+msgid "Export Name"
+msgstr "导出名称"
+
+#: VAT/__init__.py:1018
+msgid "Export flat .bin + .json for WebGPU buffer<storage>"
+msgstr "导出扁平 .bin + .json，用于 WebGPU buffer<storage>"
+
+#: VAT/__init__.py:947
+#: VAT/__init__.py:993
+msgid "Flip Y"
+msgstr "翻转 Y"
+
+#: VAT/__init__.py:970
+msgid "Folder"
+msgstr "文件夹"
+
+#: VAT/__init__.py:1008
+msgid "Max Offset"
+msgstr "最大偏移"
+
+#: VAT/__init__.py:1008
+msgid "Max offset value"
+msgstr "最大偏移值"
+
+#: VAT/__init__.py:1003
+msgid "Min Offset"
+msgstr "最小偏移"
+
+#: VAT/__init__.py:1003
+msgid "Min offset value"
+msgstr "最小偏移值"
+
+#: VAT/__init__.py:902
+msgid "Modifiers change the count: bake uses evaluated"
+msgstr "修改器会改变顶点数量：烘焙使用求值后的结果"
+
+#: VAT/__init__.py:1032
+msgid "Motion packed as ints on disk, expanded to float32 at load (weight vs fidelity)"
+msgstr "运动以整数存盘，加载时展开为 float32（体积与精度权衡）"
+
+#: VAT/__init__.py:988
+msgid "Motion relative to the bind pose"
+msgstr "相对于绑定姿势的运动"
+
+#: VAT/__init__.py:971
+msgid "Name"
+msgstr "名称"
+
+#: VAT/__init__.py:1026
+msgid "None"
+msgstr "无"
+
+#: VAT/__init__.py:1039
+msgid "Normal Precision"
+msgstr "法线精度"
+
+#: VAT/__init__.py:998
+msgid "Normalize"
+msgstr "归一化"
+
+#: VAT/__init__.py:948
+msgid "Normalize (for PNG)"
+msgstr "归一化（用于 PNG）"
+
+#: VAT/__init__.py:998
+msgid "Normalize vertex normals"
+msgstr "归一化顶点法线"
+
+#: VAT/__init__.py:933
+msgid "Normals"
+msgstr "法线"
+
+#: VAT/__init__.py:984
+msgid "OFFSETS = motion relative to bind pose (smaller files); ABSOLUTES = world positions"
+msgstr "偏移 = 相对于绑定姿势的运动（文件更小）；绝对 = 世界坐标"
+
+#: VAT/__init__.py:1032
+msgid "Offset Precision"
+msgstr "偏移精度"
+
+#: VAT/__init__.py:932
+#: VAT/__init__.py:988
+msgid "Offsets"
+msgstr "偏移"
+
+#: VAT/__init__.py:934
+msgid "Packed on disk, expanded to f32 at load."
+msgstr "存盘时压缩，加载时展开为 f32。"
+
+#: VAT/__init__.py:967
+msgid "Particle EXPLODE only:"
+msgstr "仅粒子 EXPLODE："
+
+#: VAT/__init__.py:984
+msgid "Position Mode"
+msgstr "位置模式"
+
+#: VAT/__init__.py:929
+msgid "Positions"
+msgstr "位置"
+
+#: VAT/__init__.py:1052
+msgid "Quick Export base file name"
+msgstr "快速导出的基础文件名"
+
+#: VAT/__init__.py:1046
+msgid "Quick Export output folder (.glb + textures)"
+msgstr "快速导出输出文件夹（.glb + 纹理）"
+
+#: VAT/__init__.py:889
+msgid "Select a mesh in Object mode"
+msgstr "在物体模式下选择网格"
+
+#: VAT/__init__.py:979
+msgid "Set a folder to enable export"
+msgstr "设置文件夹以启用导出"
+
+#: VAT/__init__.py:916
+msgid "Start"
+msgstr "起始"
+
+#: VAT/__init__.py:918
+msgid "Step"
+msgstr "步长"
+
+#: VAT/__init__.py:1018
+msgid "Storage Buffer"
+msgstr "存储缓冲区"
+
+#: VAT/__init__.py:807
+msgid "Storage bake produced no data"
+msgstr "存储烘焙未生成数据"
+
+#: VAT/__init__.py:22
+msgid "VAT"
+msgstr "VAT"
+
+#: VAT/__init__.py:1017
+msgid "VAT Texture"
+msgstr "VAT 纹理"
+
+#: VAT/__init__.py:1013
+msgid "VAT Texture bakes images; Storage Buffer exports a flat .bin for WebGPU storage buffers"
+msgstr "VAT 纹理烘焙图像；存储缓冲区导出扁平 .bin 供 WebGPU 存储缓冲区使用"
+
+#: VAT/__init__.py:877
+msgid "VAT Toolkit"
+msgstr "VAT 工具包"
+
+#: VAT/__init__.py:873
+msgid "Vertex Animation"
+msgstr "顶点动画"
+
+#: VAT/__init__.py:22
+msgid "Vertex Animation Toolkit"
+msgstr "顶点动画工具包"
+
+#: VAT/__init__.py:989
+msgid "World-space positions"
+msgstr "世界空间位置"
+
+#: VAT/__init__.py:951
+#: VAT/__init__.py:1027
+msgid "Wrap"
+msgstr "环绕"
+
+#: VAT/__init__.py:1022
+msgid "Wrap Mode"
+msgstr "环绕模式"
+
+#: VAT/__init__.py:1028
+msgid "Wrap and Crop"
+msgstr "环绕并裁剪"
+
+#: VAT/__init__.py:1028
+msgid "Wrap texture and crop to optimal size"
+msgstr "环绕纹理并裁剪至最佳尺寸"
+
+#: VAT/__init__.py:1022
+msgid "Wrap texture mode"
+msgstr "环绕纹理模式"
+
+#: VAT/__init__.py:1027
+msgid "Wrap texture to get closer to a square"
+msgstr "环绕纹理以更接近正方形"
+
+#: VAT/__init__.py:977
+msgid "Writes: .glb + _positions.exr + _normals.png"
+msgstr "写入：.glb + _positions.exr + _normals.png"
+
+#: VAT/__init__.py:975
+msgid "Writes: .glb + _positions.png + _normals.png"
+msgstr "写入：.glb + _positions.png + _normals.png"
+
+#: VAT/__init__.py:973
+msgid "Writes: .glb + _vat.bin + _vat.json"
+msgstr "写入：.glb + _vat.bin + _vat.json"
+
+#: VAT/__init__.py:965
+msgctxt "Operator"
+msgid "Bake (dry run, no files)"
+msgstr "烘焙（试运行，不写文件）"
+
+#: VAT/__init__.py:968
+msgctxt "Operator"
+msgid "Pre-split faces"
+msgstr "预分割面"
+
+#: VAT/__init__.py:756
+msgctxt "Operator"
+msgid "Prepare Explode Mesh"
+msgstr "准备爆炸网格"
+
+#: VAT/__init__.py:656
+msgctxt "Operator"
+msgid "Process Anim Meshes"
+msgstr "处理动画网格"
+
+#: VAT/__init__.py:779
+msgctxt "Operator"
+msgid "Quick Export"
+msgstr "快速导出"
+
+#: VAT/__init__.py:980
+msgctxt "Operator"
+msgid "Quick Export (bake + files)"
+msgstr "快速导出（烘焙 + 文件）"

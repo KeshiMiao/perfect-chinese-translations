@@ -1,0 +1,301 @@
+# perfect-chinese: 1
+# id: individual_camera_properties
+# kind: addon
+# module: bl_ext.blender_org.Individual_Camera_Properties
+# name: Individual Camera Properties
+# name_zh: 独立相机属性
+# translator: KeshiMiao
+# category: Camera
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: preferences.py:154
+msgid "Add buttons to context menu"
+msgstr "在上下文菜单中添加按钮"
+
+#: preferences.py:154
+msgid "Add function buttons right in property context menu. (Need to restart Blender)"
+msgstr "在属性上下文菜单中直接添加功能按钮。（需要重启 Blender）"
+
+#: preferences.py:138
+msgid "Apply a Preset created in Individual Camera Properties Panel's Presets Menu from Scene Tab"
+msgstr "应用在场景选项卡的独立摄像机属性面板预设菜单中创建的预设"
+
+#: preferences.py:138
+msgid "Apply preset on new scene"
+msgstr "在新场景中应用预设"
+
+#: preferences.py:165
+msgid "Apply preset when entering a scene:"
+msgstr "进入场景时应用预设："
+
+#: presets/Individual_Camera_Properties/Convert old addon properties.py:52
+#: presets/Individual_Camera_Properties/Convert old addon properties.py:53
+msgid "BOOL"
+msgstr "布尔"
+
+#: preferences.py:100
+msgid "Camera Change"
+msgstr "摄像机更改"
+
+#: panels.py:347
+msgid "Camera Value:"
+msgstr "摄像机值："
+
+#: panels.py:192
+msgid "Camera handlers are inactive: need to Refresh"
+msgstr "摄像机处理程序未激活：需要刷新"
+
+#: preferences.py:58
+msgid "Console print level. Restart the addon to apply the changes"
+msgstr "控制台打印级别。重启插件以应用更改"
+
+#: preferences.py:58
+msgid "Console print state"
+msgstr "控制台打印状态"
+
+#: panels.py:246
+msgid "Data Path"
+msgstr "数据路径"
+
+#: preferences.py:62
+msgid "Debug"
+msgstr "调试"
+
+#: presets/Individual_Camera_Properties/Convert old addon properties.py:50
+#: presets/Individual_Camera_Properties/Convert old addon properties.py:51
+msgid "FLOAT"
+msgstr "浮点"
+
+#: core/pg.py:57
+msgid "ID-Block that will be used to determine path"
+msgstr "用于确定路径的 ID 块"
+
+#: panels.py:147
+msgid "ID-Block:"
+msgstr "ID 块："
+
+#: presets/Individual_Camera_Properties/Convert old addon properties.py:47
+#: presets/Individual_Camera_Properties/Convert old addon properties.py:48
+msgid "INT"
+msgstr "整数"
+
+#: panels.py:178
+#: panels.py:316
+msgid "Individual Camera Properties"
+msgstr "独立摄像机属性"
+
+#: preferences.py:61
+msgid "Info"
+msgstr "信息"
+
+#: preferences.py:83
+msgid "Initialize on Startup"
+msgstr "启动时初始化"
+
+#: preferences.py:177
+msgid "Optimization:"
+msgstr "优化："
+
+#: core/pg.py:76
+msgid "Path to property settings"
+msgstr "属性设置路径"
+
+#: panels.py:196
+msgid "Paths to update by Camera Change Handler"
+msgstr "由摄像机更改处理程序更新的路径"
+
+#: preferences.py:146
+msgid "Preset Name"
+msgstr "预设名称"
+
+#: preferences.py:146
+msgid "Preset to be excuted when loading new scene. Press backspace with cursor on the field to clear it"
+msgstr "加载新场景时要执行的预设。将光标置于字段中并按退格键可清除"
+
+#: presets.py:21
+msgid "Presets"
+msgstr "预设"
+
+#: preferences.py:113
+msgid "Property tweak"
+msgstr "属性微调"
+
+#: presets/Individual_Camera_Properties/Convert old addon properties.py:39
+#: presets/Individual_Camera_Properties/Convert old addon properties.py:40
+msgid "STR"
+msgstr "字符串"
+
+#: panels.py:270
+msgid "Saved ID-Block"
+msgstr "已保存的 ID 块"
+
+#: panels.py:329
+msgid "Saved Properties:"
+msgstr "已保存属性："
+
+#: panels.py:279
+msgid "Saved Value"
+msgstr "已保存值"
+
+#: panels.py:268
+msgid "Scene Camera Value:"
+msgstr "场景摄像机值："
+
+#: panels.py:238
+#: panels.py:349
+msgid "Target ID-Block"
+msgstr "目标 ID 块"
+
+#: core/pg.py:61
+msgid "Type of ID-block that can be used"
+msgstr "可使用的 ID 块类型"
+
+#: preferences.py:180
+msgid "Use delay on:"
+msgstr "在以下项使用延迟："
+
+#: preferences.py:188
+msgid "User interface:"
+msgstr "用户界面："
+
+#: panels.py:348
+msgid "Value"
+msgstr "值"
+
+#: preferences.py:76
+msgid "Verify msgbuses on camera change"
+msgstr "摄像机更改时验证消息总线"
+
+#: presets/Individual_Camera_Properties/Convert old addon properties.py:135
+msgid "WORLD"
+msgstr "世界"
+
+#: preferences.py:60
+msgid "Warnings and Errors"
+msgstr "警告和错误"
+
+#: preferences.py:60
+msgid "errors, warnings"
+msgstr "错误、警告"
+
+#: preferences.py:61
+msgid "errors, warnings, info"
+msgstr "错误、警告、信息"
+
+#: preferences.py:62
+msgid "errors, warnings, info, debug"
+msgstr "错误、警告、信息、调试"
+
+#: core/pg.py:79
+msgid "eval by bl_rna.<property_struct>.type for simple values, bl_rna.<property_struct>.identifier for ID-Block"
+msgstr "简单值通过 bl_rna.<property_struct>.type 求值，ID 块通过 bl_rna.<property_struct>.identifier 求值"
+
+#: core/pg.py:111
+msgid "list of saved props values"
+msgstr "已保存属性值列表"
+
+#: panels.py:266
+msgid "msgbus unsupported, save property manually here:"
+msgstr "不支持消息总线，在此手动保存属性："
+
+#: core/pg.py:85
+msgid "used in ui panels for pg_scene"
+msgstr "用于 pg_scene 的 UI 面板"
+
+#: context_menu.py:152
+msgctxt "Operator"
+msgid "Add"
+msgstr "添加"
+
+#: context_menu.py:51
+#: context_menu.py:52
+msgctxt "Operator"
+msgid "Add Property to Individual Camera Properties"
+msgstr "将属性添加到独立摄像机属性"
+
+#: presets.py:34
+msgctxt "Operator"
+msgid "Add a preset"
+msgstr "添加预设"
+
+#: context_menu.py:124
+msgctxt "Operator"
+msgid "Copy property value to selected cameras"
+msgstr "将属性值复制到选中的摄像机"
+
+#: context_menu.py:170
+msgctxt "Operator"
+msgid "Copy to Selected"
+msgstr "复制到选中项"
+
+#: context_menu.py:125
+msgctxt "Operator"
+msgid "Copy value to Selected Camera Objects"
+msgstr "将值复制到选中的摄像机物体"
+
+#: panels.py:289
+msgctxt "Operator"
+msgid "Manually remove saved value"
+msgstr "手动移除已保存值"
+
+#: context_menu.py:107
+msgctxt "Operator"
+msgid "Manually save the property value to Active Scene Camera if autosaving is not avaliable for that property"
+msgstr "如果该属性不支持自动保存，则手动将属性值保存到活动场景摄像机"
+
+#: panels.py:41
+msgctxt "Operator"
+msgid "Manualy remove Individual Camera Property item and unsubscribing it"
+msgstr "手动移除独立摄像机属性项并取消订阅"
+
+#: panels.py:71
+msgctxt "Operator"
+msgid "Manualy unsubscribe msgbus fo active item"
+msgstr "手动取消订阅活动项的消息总线"
+
+#: context_menu.py:158
+msgctxt "Operator"
+msgid "Remove"
+msgstr "移除"
+
+#: panels.py:40
+#: panels.py:288
+msgctxt "Operator"
+msgid "Remove active item"
+msgstr "移除活动项"
+
+#: context_menu.py:78
+#: context_menu.py:79
+msgctxt "Operator"
+msgid "Remove property from Individual Camera Properties"
+msgstr "从独立摄像机属性中移除属性"
+
+#: context_menu.py:106
+msgctxt "Operator"
+msgid "Save Manually"
+msgstr "手动保存"
+
+#: context_menu.py:164
+msgctxt "Operator"
+msgid "Save manually"
+msgstr "手动保存"
+
+#: panels.py:70
+msgctxt "Operator"
+msgid "Unsubscribe msgbus to edit"
+msgstr "取消订阅消息总线以编辑"
+
+#: panels.py:92
+msgctxt "Operator"
+msgid "Update all MSGBUSES by Subscribed Properties"
+msgstr "更新已订阅属性的所有消息总线"
+
+#: panels.py:93
+msgctxt "Operator"
+msgid "msgbus of property saves it's values instantly to camera\tdata when subscribed property was changed.\n\t[click]: register unregistered only\n\t[click + Shift]: ReRegister ALL by force"
+msgstr "当订阅的属性更改时，属性的消息总线会立即将其值保存到摄像机\t数据。\n\t[单击]：仅注册未注册项\n\t[单击 + Shift]：强制重新注册全部"

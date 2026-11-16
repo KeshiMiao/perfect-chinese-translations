@@ -1,0 +1,126 @@
+# perfect-chinese: 1
+# id: nurbs2mesh
+# kind: addon
+# module: bl_ext.blender_org.nurbs2mesh
+# name: NURBS2Mesh
+# name_zh: NURBS转网格
+# translator: KeshiMiao
+# category: Modeling
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:71
+msgid "Apply Modifiers from Source"
+msgstr "从源应用修改器"
+
+#: __init__.py:76
+msgid "Ask Blender to preserve UVs, vertex groups, etc, when possible"
+msgstr "尽可能让 Blender 保留 UV、顶点组等"
+
+#: __init__.py:61
+msgid "Auto Update"
+msgstr "自动更新"
+
+#: __init__.py:66
+msgid "Debounce (s)"
+msgstr "防抖（秒）"
+
+#: __init__.py:39
+msgid "Default Debounce (s)"
+msgstr "默认防抖（秒）"
+
+#: __init__.py:39
+msgid "Delay after last edit before auto-update runs"
+msgstr "最后一次编辑后延迟自动更新"
+
+#: __init__.py:71
+msgid "Include evaluated modifiers when generating mesh"
+msgstr "生成网格时包含已求值的修改器"
+
+#: __init__.py:44
+msgid "Keep transforms in sync by parenting mesh copy to source"
+msgstr "将网格副本父级设为源以保持变换同步"
+
+#: __init__.py:218
+msgid "Linked Meshes:"
+msgstr "已链接网格："
+
+#: __init__.py:56
+msgid "Linked NURBS/Curve/Surface source object"
+msgstr "已链接的 NURBS/曲线/曲面源物体"
+
+#: __init__.py:163
+msgid "Linked source is missing"
+msgstr "已链接源缺失"
+
+#: __init__.py:192
+msgid "NURBS2Mesh"
+msgstr "NURBS2Mesh"
+
+#: __init__.py:225
+msgid "No linked meshes"
+msgstr "无已链接网格"
+
+#: __init__.py:81
+msgid "Note"
+msgstr "备注"
+
+#: __init__.py:81
+msgid "Optional note"
+msgstr "可选备注"
+
+#: __init__.py:44
+msgid "Parent new mesh to source"
+msgstr "将新网格父级设为源"
+
+#: __init__.py:76
+msgid "Preserve All Data Layers"
+msgstr "保留所有数据层"
+
+#: __init__.py:61
+msgid "Regenerate mesh when source geometry changes"
+msgstr "源几何体变化时重新生成网格"
+
+#: __init__.py:98
+msgid "Select a NURBS/Curve/Surface object"
+msgstr "选择 NURBS/曲线/曲面物体"
+
+#: __init__.py:169
+msgid "Select a linked mesh or its NURBS/Curve/Surface source"
+msgstr "选择已链接网格或其 NURBS/曲线/曲面源"
+
+#: __init__.py:180
+msgid "Select a linked mesh to unlink"
+msgstr "选择要取消链接的已链接网格"
+
+#: __init__.py:56
+msgid "Source"
+msgstr "源"
+
+#: __init__.py:186
+msgid "Unlinked mesh from source"
+msgstr "已从源取消链接网格"
+
+#: __init__.py:66
+msgid "Wait time after last change before updating"
+msgstr "最后一次更改后更新前的等待时间"
+
+#: __init__.py:90
+#: __init__.py:213
+msgctxt "Operator"
+msgid "Duplicate As Linked Mesh"
+msgstr "复制为链接网格"
+
+#: __init__.py:174
+msgctxt "Operator"
+msgid "Unlink"
+msgstr "取消链接"
+
+#: __init__.py:152
+msgctxt "Operator"
+msgid "Update Now"
+msgstr "立即更新"

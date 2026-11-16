@@ -1,0 +1,347 @@
+# perfect-chinese: 1
+# id: lostselection
+# kind: addon
+# module: bl_ext.blender_org.LostSelection
+# name: Lost Selection
+# name_zh: 选择扩展
+# translator: KeshiMiao
+# category: Object
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: lost_selection/__init__.py:11
+msgid "3D View"
+msgstr "3D 视图"
+
+#: lost_selection/ops/similar_material.py:43
+msgid "Active object has no materials"
+msgstr "活动物体没有材质"
+
+#: lost_selection/ops/similar_color.py:53
+msgid "Active object has no materials with viewport colors"
+msgstr "活动物体没有带视图颜色的材质"
+
+#: lost_selection/ops/similar_modifiers.py:63
+msgid "Active object has no modifiers"
+msgstr "活动物体没有修改器"
+
+#: lost_selection/ops/similar_color.py:18
+msgid "Color tolerance for matching (0 = exact match, 1 = any color)"
+msgstr "用于匹配的颜色容差（0 = 完全匹配，1 = 任意颜色）"
+
+#: lost_selection/ops/connected_bevel.py:14
+#: lost_selection/ops/connected_crease.py:14
+msgid "Comparison"
+msgstr "比较"
+
+#: lost_selection/ops/similar_modifiers.py:12
+msgid "Enabled"
+msgstr "启用"
+
+#: lost_selection/ops/connected_bevel.py:18
+#: lost_selection/ops/connected_crease.py:18
+msgid "Equal"
+msgstr "等于"
+
+#: lost_selection/ops/similar_color.py:12
+#: lost_selection/ops/similar_display_type.py:12
+msgid "Extend"
+msgstr "扩展"
+
+#: lost_selection/ops/similar_color.py:12
+#: lost_selection/ops/similar_display_type.py:12
+msgid "Extend selection instead of replacing"
+msgstr "扩展选择而非替换"
+
+#: lost_selection/ops/connected_bevel.py:19
+#: lost_selection/ops/connected_crease.py:19
+msgid "Greater"
+msgstr "大于"
+
+#: lost_selection/ops/connected_bevel.py:14
+msgid "How to compare bevel weight values"
+msgstr "如何比较倒角权重值"
+
+#: lost_selection/ops/connected_crease.py:14
+msgid "How to compare crease values"
+msgstr "如何比较折痕值"
+
+#: lost_selection/ops/connected_seam.py:14
+msgid "How to compare seam values"
+msgstr "如何比较缝合线值"
+
+#: lost_selection/ops/connected_sharp.py:14
+msgid "How to compare sharp values"
+msgstr "如何比较锐边值"
+
+#: lost_selection/ops/similar_modifiers.py:12
+msgid "Include this modifier type in selection"
+msgstr "在选择中包含此修改器类型"
+
+#: lost_selection/ops/connected_bevel.py:20
+#: lost_selection/ops/connected_crease.py:20
+msgid "Less"
+msgstr "小于"
+
+#: lost_selection/ops/similar_modifiers.py:31
+msgid "List of modifier types to match"
+msgstr "要匹配的修改器类型列表"
+
+#: lost_selection/__init__.py:11
+msgid "Lost Selection"
+msgstr "Lost Selection"
+
+#: lost_selection/ops/similar_material.py:18
+msgid "Match All"
+msgstr "全部匹配"
+
+#: lost_selection/ops/similar_color.py:27
+msgid "Match Any"
+msgstr "匹配任意"
+
+#: lost_selection/ops/similar_material.py:18
+msgid "Match all materials (instead of any material)"
+msgstr "匹配所有材质（而不是任意材质）"
+
+#: lost_selection/ops/similar_color.py:27
+msgid "Match if any material has similar color (instead of all)"
+msgstr "任一材质颜色相似即匹配（而不是全部）"
+
+#: lost_selection/ops/connected_length.py:21
+msgid "Max Length"
+msgstr "最大长度"
+
+#: lost_selection/ops/connected_length.py:21
+msgid "Maximum edge length to select (0 = use selected edge length)"
+msgstr "要选择的最大边长度（0 = 使用选中边长度）"
+
+#: lost_selection/ops/connected_length.py:13
+msgid "Min Length"
+msgstr "最小长度"
+
+#: lost_selection/ops/connected_length.py:13
+msgid "Minimum edge length to select (0 = use selected edge length)"
+msgstr "要选择的最小边长度（0 = 使用选中边长度）"
+
+#: lost_selection/ops/similar_modifiers.py:8
+msgid "Modifier Type"
+msgstr "修改器类型"
+
+#: lost_selection/ops/similar_modifiers.py:31
+msgid "Modifier Types"
+msgstr "修改器类型"
+
+#: lost_selection/ops/similar_color.py:41
+#: lost_selection/ops/similar_display_type.py:32
+msgid "No active object"
+msgstr "无活动物体"
+
+#: lost_selection/ops/connected_bevel.py:37
+msgid "No bevel weight data found on mesh"
+msgstr "网格上未找到倒角权重数据"
+
+#: lost_selection/ops/connected_crease.py:37
+msgid "No crease values found"
+msgstr "未找到折痕值"
+
+#: lost_selection/ops/connected_length.py:41
+msgid "No edges selected"
+msgstr "未选择边"
+
+#: lost_selection/ops/connected_bevel.py:47
+#: lost_selection/ops/connected_crease.py:47
+msgid "No faces selected"
+msgstr "未选择面"
+
+#: lost_selection/ops/similar_modifiers.py:96
+msgid "No modifier types selected"
+msgstr "未选择修改器类型"
+
+#: lost_selection/ops/connected_seam.py:20
+msgid "Not Seam"
+msgstr "非缝合线"
+
+#: lost_selection/ops/connected_sharp.py:20
+msgid "Not Sharp"
+msgstr "非锐边"
+
+#: lost_selection/ops/connected_bevel.py:107
+#: lost_selection/ops/connected_crease.py:94
+msgid "Nothing selected"
+msgstr "未选择任何内容"
+
+#: lost_selection/ops/similar_display_type.py:18
+msgid "Only select objects of the same type"
+msgstr "仅选择相同类型的物体"
+
+#: lost_selection/ops/similar_display_type.py:18
+msgid "Same Type"
+msgstr "相同类型"
+
+#: lost_selection/ops/connected_seam.py:19
+msgid "Seam"
+msgstr "缝合线"
+
+#: lost_selection/ui/__init__.py:23
+msgid "Select Connected"
+msgstr "选择相连"
+
+#: lost_selection/ui/__init__.py:7
+msgid "Select Similar"
+msgstr "选择相似"
+
+#: lost_selection/ops/connected_bevel.py:18
+msgid "Select edges with equal bevel weight"
+msgstr "选择倒角权重相等的边"
+
+#: lost_selection/ops/connected_crease.py:18
+msgid "Select edges with equal crease value"
+msgstr "选择折痕值相等的边"
+
+#: lost_selection/ops/connected_bevel.py:19
+msgid "Select edges with greater bevel weight"
+msgstr "选择倒角权重更大的边"
+
+#: lost_selection/ops/connected_crease.py:19
+msgid "Select edges with greater crease value"
+msgstr "选择折痕值更大的边"
+
+#: lost_selection/ops/connected_bevel.py:20
+msgid "Select edges with less bevel weight"
+msgstr "选择倒角权重更小的边"
+
+#: lost_selection/ops/connected_crease.py:20
+msgid "Select edges with less crease value"
+msgstr "选择折痕值更小的边"
+
+#: lost_selection/ops/connected_seam.py:18
+msgid "Select edges with same seam state"
+msgstr "选择缝合线状态相同的边"
+
+#: lost_selection/ops/connected_sharp.py:18
+msgid "Select edges with same sharp state"
+msgstr "选择锐边状态相同的边"
+
+#: lost_selection/ops/similar_modifiers.py:72
+msgid "Select objects with these modifiers:"
+msgstr "选择具有这些修改器的物体："
+
+#: lost_selection/ops/connected_seam.py:20
+msgid "Select only non-seam edges"
+msgstr "仅选择非缝合线边"
+
+#: lost_selection/ops/connected_sharp.py:20
+msgid "Select only non-sharp edges"
+msgstr "仅选择非锐边"
+
+#: lost_selection/ops/connected_seam.py:19
+msgid "Select only seam edges"
+msgstr "仅选择缝合线边"
+
+#: lost_selection/ops/connected_sharp.py:19
+msgid "Select only sharp edges"
+msgstr "仅选择锐边"
+
+#: lost_selection/ops/connected_bevel.py:63
+msgid "Selected edges don't have bevel weight values"
+msgstr "选中的边没有倒角权重值"
+
+#: lost_selection/__init__.py:11
+msgid "Set of usefull extra selection operators"
+msgstr "一组有用的额外选择操作符"
+
+#: lost_selection/ops/connected_sharp.py:19
+msgid "Sharp"
+msgstr "锐边"
+
+#: lost_selection/ops/similar_color.py:18
+msgid "Tolerance"
+msgstr "容差"
+
+#: lost_selection/ops/similar_modifiers.py:8
+msgid "Type of modifier to match"
+msgstr "要匹配的修改器类型"
+
+#: lost_selection/ui/__init__.py:30
+msgctxt "Operator"
+msgid "Bevel Weight"
+msgstr "倒角权重"
+
+#: lost_selection/ops/similar_color.py:9
+#: lost_selection/ui/__init__.py:14
+msgctxt "Operator"
+msgid "Color"
+msgstr "颜色"
+
+#: lost_selection/ui/__init__.py:28
+msgctxt "Operator"
+msgid "Crease"
+msgstr "折痕"
+
+#: lost_selection/ops/similar_display_type.py:9
+#: lost_selection/ui/__init__.py:12
+msgctxt "Operator"
+msgid "Display Type"
+msgstr "显示类型"
+
+#: lost_selection/ui/__init__.py:35
+msgctxt "Operator"
+msgid "Length"
+msgstr "长度"
+
+#: lost_selection/ops/similar_material.py:9
+#: lost_selection/ui/__init__.py:13
+msgctxt "Operator"
+msgid "Material"
+msgstr "材质"
+
+#: lost_selection/ops/similar_modifiers.py:22
+#: lost_selection/ui/__init__.py:18
+msgctxt "Operator"
+msgid "Modifiers"
+msgstr "修改器"
+
+#: lost_selection/ops/similar_rotation.py:9
+#: lost_selection/ui/__init__.py:15
+msgctxt "Operator"
+msgid "Rotation"
+msgstr "旋转"
+
+#: lost_selection/ui/__init__.py:31
+msgctxt "Operator"
+msgid "Seam"
+msgstr "缝合线"
+
+#: lost_selection/ops/connected_bevel.py:11
+msgctxt "Operator"
+msgid "Select Connected by Bevel Weight"
+msgstr "按倒角权重选择相连"
+
+#: lost_selection/ops/connected_crease.py:11
+msgctxt "Operator"
+msgid "Select Connected by Crease"
+msgstr "按折痕选择相连"
+
+#: lost_selection/ops/connected_length.py:10
+msgctxt "Operator"
+msgid "Select Connected by Length"
+msgstr "按长度选择相连"
+
+#: lost_selection/ops/connected_seam.py:11
+msgctxt "Operator"
+msgid "Select Connected by Seam"
+msgstr "按缝合线选择相连"
+
+#: lost_selection/ops/connected_sharp.py:11
+msgctxt "Operator"
+msgid "Select Connected by Sharp"
+msgstr "按锐边选择相连"
+
+#: lost_selection/ui/__init__.py:29
+msgctxt "Operator"
+msgid "Sharp"
+msgstr "锐边"

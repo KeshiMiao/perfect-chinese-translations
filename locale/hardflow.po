@@ -1,0 +1,3362 @@
+# perfect-chinese: 1
+# id: hardflow
+# kind: addon
+# module: bl_ext.blender_org.hardflow
+# name: Hardflow
+# name_zh: 硬表面布尔工具
+# translator: KeshiMiao
+# category: Modeling
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: ui/panel.py:523
+msgid "(Cut with non-destructive 'N')"
+msgstr "（使用非破坏性“N”切割）"
+
+#: ui/panel.py:135
+msgid "1.  Select a mesh (Object Mode)"
+msgstr "1.  选择一个网格（物体模式）"
+
+#: ui/panel.py:136
+msgid "2.  Ctrl+Shift+D — draw a shape to cut it"
+msgstr "2.  Ctrl+Shift+D — 绘制形状以切割它"
+
+#: ui/panel.py:137
+msgid "3.  Tab cycles Cut / Slice / Make mid-draw"
+msgstr "3.  绘制中按 Tab 循环切换 切割 / 切片 / 创建"
+
+#: operators/construction.py:91
+msgid "A UV sphere"
+msgstr "UV 球体"
+
+#: operators/construction.py:89
+msgid "A capped cylinder"
+msgstr "带盖圆柱体"
+
+#: operators/construction.py:90
+msgid "A cone"
+msgstr "圆锥体"
+
+#: operators/construction.py:88
+msgid "A flat square face"
+msgstr "扁平的正方形面"
+
+#: operators/construction.py:92
+msgid "A hollow tube (cylinder with a bore)"
+msgstr "空心管（带内孔的圆柱体）"
+
+#: operators/construction.py:87
+msgid "A solid cube"
+msgstr "实心立方体"
+
+#: ui/panel.py:448
+msgid "A/D  array (D: X/Y/Z/Radial)   B/C  bevel"
+msgstr "A/D  阵列（D：X/Y/Z/径向）   B/C  倒角"
+
+#: ui/panel.py:31
+msgid "ALIGN_JUSTIFY"
+msgstr "两端对齐"
+
+#: operators/draw_cut.py:55
+msgid "Accurate, handles overlaps, slower"
+msgstr "精确，可处理重叠，速度较慢"
+
+#: preferences.py:113
+msgid "Active Object"
+msgstr "活动物体"
+
+#: operators/decals.py:696
+msgid "Active plane has no UV map -- unwrap it first"
+msgstr "活动平面没有 UV 贴图——请先展开它"
+
+#: preferences.py:290
+msgid "Add a Data Transfer modifier so a placed decal borrows the target's surface normals and shades as part of the curved surface, instead of catching its own flat lighting"
+msgstr "添加数据传递修改器，让已放置的贴花借用目标表面的法线，并作为曲面的一部分进行着色，而不是接受自身的平面光照"
+
+#: operators/hardops.py:262
+msgid "Add a Weighted Normal modifier at the bottom of the stack so the beveled shading stays crisp"
+msgstr "在修改器堆栈底部添加加权法线修改器，使倒角着色保持锐利"
+
+#: operators/hardops.py:464
+msgid "Add a face-area Weighted Normal modifier (the workhorse boolean-shading fix)"
+msgstr "添加按面面积的加权法线修改器（修复布尔着色的主力方案）"
+
+#: operators/hardops.py:243
+msgid "Add a second, smaller angle-limited bevel below the main one so boolean-cut corners get a tight chamfer while the form edges keep the big weighted round -- a bevel hierarchy"
+msgstr "在主倒角下方添加第二个更小的角度限制倒角，使布尔切割角获得紧密的倒角，同时形体边缘保留较大的加权圆角——形成倒角层级"
+
+#: operators/draw_cut.py:44
+#: ui/panel.py:17
+msgid "Add geometry (UNION)"
+msgstr "添加几何体（并集）"
+
+#: operators/draw_cut.py:45
+#: ui/panel.py:19
+msgid "Add the drawn shape as a separate solid (no boolean)"
+msgstr "将绘制的形状作为单独实体添加（不进行布尔）"
+
+#: preferences.py:395
+msgid "After a boolean CUT, auto-route a pipe/panel-line along the drawn cut boundary (draped onto the surface) so the cut is instantly detailed -- the Hard-Surface -> Decal bridge"
+msgstr "布尔切割后，沿绘制的切割边界自动生成管道/面板线（贴合到表面），使切口立即获得细节——硬表面 → 贴花 的桥梁"
+
+#: preferences.py:388
+msgid "After a destructive boolean cut, triangulate + rejoin the n-gons the cut left so the surface stays quad-friendly (core.geometry.dissolve_boolean_ngons)"
+msgstr "破坏性布尔切割后，对切割留下的 n 边形进行三角化并重新合并，使表面保持四边面友好（core.geometry.dissolve_boolean_ngons）"
+
+#: preferences.py:428
+msgid "After a non-destructive cut, reorder the target's modifiers into hard-surface order (Booleans on top, Bevel below, Weighted Normal at the bottom)"
+msgstr "非破坏性切割后，将目标的修改器重排为硬表面顺序（布尔在上，倒角在下，加权法线在底部）"
+
+#: operators/cutters.py:29
+msgid "After applying, delete cutters not used anywhere else"
+msgstr "应用后，删除未在其他地方使用的切割器"
+
+#: preferences.py:101
+msgid "Aligned to the face under the first click"
+msgstr "与首次点击处的面对齐"
+
+#: preferences.py:102
+msgid "Aligned to the selected edit-mesh edge(s)"
+msgstr "与选中的编辑网格边对齐"
+
+#: operators/hardops.py:423
+msgid "All Selected"
+msgstr "全部选中"
+
+#: operators/pipe.py:685
+msgid "Along Axis"
+msgstr "沿轴"
+
+#: operators/hardops.py:267
+msgid "Also Crease"
+msgstr "同时设置折痕"
+
+#: operators/hardops.py:267
+msgid "Also crease the hard edges (for a creased Subdivision)"
+msgstr "同时为硬边设置折痕（用于带折痕的细分）"
+
+#: operators/offset.py:37
+msgid "Also push/pull the inset face (recess / raised panel)"
+msgstr "同时推/拉内插面（凹陷/凸起面板）"
+
+#: gizmos/__init__.py:26
+#: ui/panel.py:348
+msgid "Always-On Gizmos"
+msgstr "始终启用的小工具"
+
+#: preferences.py:126
+msgid "Angle Step (deg)"
+msgstr "角度步长（度）"
+
+#: preferences.py:126
+msgid "Angle step the drawing direction locks to while Shift is held"
+msgstr "按住 Shift 时绘制方向锁定所用的角度步长"
+
+#: preferences.py:255
+msgid "Apparent recess depth of the parallax effect, in UV units. Larger looks deeper but exaggerates the swim at extreme grazing angles"
+msgstr "视差效果的视觉凹陷深度，单位为 UV。数值越大看起来越深，但在极端掠射角下会加剧漂移"
+
+#: preferences.py:376
+msgid "Apply CUT/MAKE to all selected mesh objects (single cutter, multiple targets)"
+msgstr "对全部选中的网格物体应用切割/创建（单个切割器，多个目标）"
+
+#: ui/menu.py:37
+msgid "Apply Cutters"
+msgstr "应用切割器"
+
+#: operators/draw_cut.py:36
+#: ui/panel.py:30
+msgid "Arc"
+msgstr "圆弧"
+
+#: ui/menu.py:34
+msgid "Arc Cut"
+msgstr "圆弧切割"
+
+#: preferences.py:491
+msgid "Array Axis"
+msgstr "阵列轴"
+
+#: operators/assets.py:49
+msgid "Asset .blend"
+msgstr "资产 .blend"
+
+#: operators/assets.py:81
+msgid "Asset .blend has no objects"
+msgstr "资产 .blend 中没有物体"
+
+#: preferences.py:327
+msgid "Asset Boolean"
+msgstr "资产布尔"
+
+#: preferences.py:315
+#: ui/asset_panel.py:48
+msgid "Asset Library"
+msgstr "资产库"
+
+#: preferences.py:321
+msgid "Asset as Cutter"
+msgstr "将资产用作切割器"
+
+#: ui/asset_panel.py:12
+#: ui/menu.py:189
+msgid "Assets"
+msgstr "资产"
+
+#: preferences.py:309
+msgid "Atlas Max Width"
+msgstr "图集最大宽度"
+
+#: preferences.py:334
+msgid "Auto Scale"
+msgstr "自动缩放"
+
+#: operators/hardops.py:231
+msgid "Auto Width"
+msgstr "自动宽度"
+
+#: preferences.py:428
+msgid "Auto-Sort Modifier Stack"
+msgstr "自动排序修改器堆栈"
+
+#: preferences.py:340
+msgid "Auto-scale target: the INSERT's largest side becomes this fraction of the target's smallest dimension"
+msgstr "自动缩放目标：插入物最大边将变为目标最小尺寸的这个比例"
+
+#: operators/construction.py:146
+msgid "Axis"
+msgstr "轴"
+
+#: operators/trim_editor.py:555
+msgid "Background colour to remove (click the swatch, then use the eyedropper to sample it off the image)"
+msgstr "要移除的背景颜色（点击色板，然后用吸管从图像中取样）"
+
+#: operators/decals.py:378
+msgid "Bake"
+msgstr "烘焙"
+
+#: preferences.py:297
+msgid "Bake Resolution"
+msgstr "烘焙分辨率"
+
+#: operators/decals.py:381
+msgid "Bake the decal's full shaded color"
+msgstr "烘焙贴花的完整着色颜色"
+
+#: operators/decals.py:380
+msgid "Bake the decal's surface normal detail"
+msgstr "烘焙贴花的表面法线细节"
+
+#: operators/hardops.py:553
+msgid "Bead"
+msgstr "珠状"
+
+#: preferences.py:457
+msgid "Bevel On Cut"
+msgstr "切割时倒角"
+
+#: operators/hardops.py:102
+msgid "Bevel Weight"
+msgstr "倒角权重"
+
+#: gizmos/__init__.py:33
+#: operators/hardops.py:236
+msgid "Bevel Width"
+msgstr "倒角宽度"
+
+#: ui/panel.py:355
+msgid "Bevel Width (Object Mode)"
+msgstr "倒角宽度（物体模式）"
+
+#: operators/hardops.py:236
+msgid "Bevel width at full edge weight (used when Auto Width is off)"
+msgstr "完整边权重下的倒角宽度（在自动宽度关闭时使用）"
+
+#: preferences.py:463
+msgid "Bevelled Cutter"
+msgstr "带倒角切割器"
+
+#: ui/menu.py:126
+#: ui/panel.py:393
+msgid "Boolean"
+msgstr "布尔"
+
+#: ui/panel.py:74
+msgid "Boolean & Edit need an active mesh"
+msgstr "布尔与编辑需要活动的网格"
+
+#: ui/menu.py:36
+msgid "Boolean (Selected)"
+msgstr "布尔（选中）"
+
+#: operators/draw_cut.py:42
+msgid "Boolean DIFFERENCE"
+msgstr "布尔差集"
+
+#: ui/panel.py:15
+msgid "Boolean DIFFERENCE -- carve the drawn shape out"
+msgstr "布尔差集——将绘制的形状挖出"
+
+#: ui/panel.py:82
+msgid "Boolean Draw"
+msgstr "布尔绘制"
+
+#: operators/draw_cut.py:46
+msgid "Boolean INTERSECT (keep only what's inside the drawn volume)"
+msgstr "布尔交集（仅保留绘制体积内部的部分）"
+
+#: preferences.py:506
+msgid "Boolean Solver"
+msgstr "布尔求解器"
+
+#: ui/panel.py:553
+msgid "Boolean operation the Draw tool performs; pick it once here, then click any shape to draw with it"
+msgstr "绘制工具执行的布尔操作；在此选择一次，然后点击任意形状即可用它绘制"
+
+#: preferences.py:327
+msgid "Boolean used when an asset is placed as a cutter"
+msgstr "将资产作为切割器放置时使用的布尔"
+
+#: operators/hardops.py:416
+msgid "Booleans First"
+msgstr "布尔优先"
+
+#: operators/draw_cut.py:30
+#: ui/panel.py:25
+msgid "Box"
+msgstr "盒体"
+
+#: ui/menu.py:133
+#: ui/panel.py:146
+msgid "Build"
+msgstr "构建"
+
+#: ui/menu.py:37
+msgid "CHECKMARK"
+msgstr "对勾"
+
+#: ui/menu.py:90
+msgid "COLOR"
+msgstr "颜色"
+
+#: ui/menu.py:46
+msgid "CONE"
+msgstr "圆锥"
+
+#: ui/panel.py:557
+msgid "CUSTOM cross-section for Pipe/Sweep: a flat mesh outline (its boundary is swept as a solid) or a curve (native non-destructive bevel profile). P cycles onto CUSTOM while drawing once this is set"
+msgstr "管道/扫掠的自定义横截面：平面网格轮廓（其边界被扫掠为实体）或曲线（原生非破坏性倒角轮廓）。设置后绘制时按 P 可循环切换到自定义"
+
+#: ui/menu.py:99
+msgid "Cable / Rope"
+msgstr "线缆 / 绳索"
+
+#: preferences.py:192
+msgid "Cable Gravity Settle"
+msgstr "线缆重力沉降"
+
+#: preferences.py:176
+msgid "Cable Radius (m)"
+msgstr "线缆半径 (m)"
+
+#: preferences.py:181
+msgid "Cable Sag (m)"
+msgstr "线缆垂度 (m)"
+
+#: preferences.py:207
+msgid "Cable Scene Collision"
+msgstr "线缆场景碰撞"
+
+#: preferences.py:187
+msgid "Cable Segments"
+msgstr "线缆分段数"
+
+#: preferences.py:200
+msgid "Cable Slack"
+msgstr "线缆松弛度"
+
+#: operators/construction.py:49
+msgid "Cap Ends"
+msgstr "封闭端盖"
+
+#: operators/decals.py:602
+msgid "Cell"
+msgstr "单元"
+
+#: operators/draw_cut.py:31
+#: ui/menu.py:53
+msgid "Circle"
+msgstr "圆"
+
+#: ui/menu.py:30
+msgid "Circle Cut"
+msgstr "圆形切割"
+
+#: preferences.py:382
+msgid "Clean After Cut"
+msgstr "切割后清理"
+
+#: preferences.py:382
+msgid "Clean up the mesh after a destructive cut (remove doubles + merge coplanar faces)"
+msgstr "破坏性切割后清理网格（移除重复顶点 + 合并共面面）"
+
+#: operators/decals.py:542
+#: operators/decals.py:600
+msgid "Columns"
+msgstr "列"
+
+#: operators/decals.py:381
+msgid "Combined"
+msgstr "组合"
+
+#: operators/construction.py:90
+#: ui/menu.py:46
+msgid "Cone"
+msgstr "圆锥"
+
+#: preferences.py:357
+msgid "Conform Asset"
+msgstr "贴合资产"
+
+#: ui/menu.py:56
+msgid "Construction Grid"
+msgstr "构造网格"
+
+#: preferences.py:220
+msgid "Construction Grid Extent (m)"
+msgstr "构造网格范围 (m)"
+
+#: operators/push_pull.py:35
+msgid "Copy"
+msgstr "复制"
+
+#: ui/menu.py:91
+msgid "Copy Material"
+msgstr "复制材质"
+
+#: operators/construction.py:212
+msgid "Could not build grid"
+msgstr "无法构建网格"
+
+#: operators/construction.py:160
+msgid "Could not build guide"
+msgstr "无法构建辅助线"
+
+#: operators/construction.py:125
+msgid "Could not build primitive"
+msgstr "无法构建图元"
+
+#: operators/construction.py:67
+msgid "Could not loft these profiles"
+msgstr "无法放样这些轮廓"
+
+#: operators/trim_editor.py:621
+msgid "Could not read the image pixels"
+msgstr "无法读取图像像素"
+
+#: operators/hardops.py:103
+msgid "Crease"
+msgstr "折痕"
+
+#: operators/draw_cut.py:47
+msgid "Create a new face (create face, not boolean)"
+msgstr "新建面（创建面，非布尔）"
+
+#: preferences.py:152
+msgid "Cross-section of the pipe tool; SQUARE/RECT sweep a mesh tube, ROUND uses a curve bevel. Cycle live with P"
+msgstr "管道工具的横截面；SQUARE/RECT 扫掠网格管，ROUND 使用曲线倒角。绘制时用 P 实时切换"
+
+#: preferences.py:408
+msgid "Cross-section radius of the auto-placed cut-boundary pipe / panel line"
+msgstr "自动放置的切割边界管道 / 面板线的横截面半径"
+
+#: operators/construction.py:87
+#: ui/menu.py:42
+msgid "Cube"
+msgstr "立方体"
+
+#: ui/menu.py:147
+#: ui/panel.py:233
+msgid "Curves"
+msgstr "曲线"
+
+#: preferences.py:330
+#: operators/draw_cut.py:42
+msgid "Cut"
+msgstr "切割"
+
+#: operators/hardops.py:551
+msgid "Cut a recessed seam into the surface (DIFFERENCE)"
+msgstr "在表面切出凹陷接缝（差集）"
+
+#: ui/panel.py:122
+msgid "Cut may fail:"
+msgstr "切割可能失败："
+
+#: operators/boolean_ops.py:14
+msgid "Cut the cutter out of the targets (CUT)"
+msgstr "从目标中切出切割器（切割）"
+
+#: preferences.py:395
+msgid "Cut-to-Trim"
+msgstr "切割转修剪"
+
+#: preferences.py:592
+#: ui/panel.py:457
+msgid "Cut-to-Trim (Decal bridge)"
+msgstr "切割转修剪（贴花桥接）"
+
+#: preferences.py:485
+msgid "Cutter Array"
+msgstr "切割器阵列"
+
+#: preferences.py:451
+msgid "Cutter Inset (m)"
+msgstr "切割器内缩 (m)"
+
+#: ui/panel.py:424
+msgid "Cutter Options"
+msgstr "切割器选项"
+
+#: ui/menu.py:88
+msgid "Cutter Scroll"
+msgstr "切割器滚动"
+
+#: preferences.py:577
+msgid "Cutter defaults (seed the next draw)"
+msgstr "切割器默认值（为下次绘制预设）"
+
+#: operators/cutters.py:114
+msgid "Cutter not found"
+msgstr "未找到切割器"
+
+#: operators/hardops.py:135
+#: ui/menu.py:86
+msgid "Cutters"
+msgstr "切割器"
+
+#: operators/construction.py:89
+#: ui/menu.py:44
+msgid "Cylinder"
+msgstr "圆柱体"
+
+#: preferences.py:330
+msgid "DIFFERENCE -- carve the part out of the surface"
+msgstr "差集 -- 从表面中挖出该部件"
+
+#: preferences.py:303
+#: ui/decal_library.py:41
+msgid "Decal Library"
+msgstr "贴花库"
+
+#: operators/decals.py:684
+msgid "Decal Name"
+msgstr "贴花名称"
+
+#: preferences.py:290
+msgid "Decal Normal Transfer"
+msgstr "贴花法线传递"
+
+#: preferences.py:232
+msgid "Decal Offset (m)"
+msgstr "贴花偏移 (m)"
+
+#: preferences.py:239
+msgid "Decal Resolution"
+msgstr "贴花分辨率"
+
+#: preferences.py:227
+msgid "Decal Size (m)"
+msgstr "贴花大小 (m)"
+
+#: operators/decals.py:611
+#: operators/trim_editor.py:743
+msgid "Decal has no UV map"
+msgstr "贴花没有 UV 贴图"
+
+#: operators/decals.py:637
+msgid "Decal has no mesh target"
+msgstr "贴花没有网格目标"
+
+#: operators/decals.py:398
+msgid "Decal has no mesh target to bake into"
+msgstr "贴花没有可烘焙的网格目标"
+
+#: operators/decals.py:582
+msgid "Decal has no target to match"
+msgstr "贴花没有可匹配的目标"
+
+#: operators/decals.py:343
+msgid "Decal not found"
+msgstr "未找到贴花"
+
+#: ui/decal_panel.py:11
+#: ui/menu.py:161
+msgid "Decals"
+msgstr "贴花"
+
+#: operators/draw_cut.py:54
+msgid "Default"
+msgstr "默认"
+
+#: preferences.py:95
+msgid "Default Plane"
+msgstr "默认平面"
+
+#: preferences.py:451
+msgid "Default amount the drawn loop is offset in (-) / out (+) before the cut; adjust live with - and = while drawing"
+msgstr "绘制循环在切割前向内 (-) / 向外 (+) 偏移的默认量；绘制时用 - 和 = 实时调整"
+
+#: preferences.py:485
+msgid "Default number of array copies stamped into one cutter; cycle live with A (axis with D)"
+msgstr "单个切割器中阵列副本的默认数量；绘制时用 A 实时循环（用 D 切换轴）"
+
+#: preferences.py:214
+msgid "Default side count for the N-gon draw shape; adjust live with [ and ] while drawing"
+msgstr "N 边形绘制形状的默认边数；绘制时用 [ 和 ] 实时调整"
+
+#: preferences.py:227
+msgid "Default size of a placed decal; adjust live with the wheel"
+msgstr "放置贴花的默认大小；用滚轮实时调整"
+
+#: preferences.py:457
+msgid "Default: add a small angle-limited bevel to the target's cut edge so it reads chamfered; toggle live with B"
+msgstr "默认：给目标切割边添加小的角度限制倒角，使其呈现斜切效果；用 B 实时切换"
+
+#: preferences.py:463
+msgid "Default: chamfer the cutter walls so the recess has bevelled sides; toggle live with C"
+msgstr "默认：对切割器壁做斜切，使凹陷具有斜面侧壁；用 C 实时切换"
+
+#: ui/panel.py:436
+msgid "Defaults for the next boolean draw"
+msgstr "下次布尔绘制的默认值"
+
+#: operators/cutters.py:29
+msgid "Delete Cutters"
+msgstr "删除切割器"
+
+#: operators/offset.py:32
+#: ui/decal_panel.py:38
+msgid "Depth"
+msgstr "深度"
+
+#: ui/decal_panel.py:33
+msgid "Depth (Image Decals)"
+msgstr "深度（图像贴花）"
+
+#: preferences.py:627
+msgid "Depth (image decals)"
+msgstr "深度（图像贴花）"
+
+#: ui/panel.py:251
+msgid "Detail"
+msgstr "细节"
+
+#: ui/menu.py:101
+msgid "Detail Along Path"
+msgstr "沿路径细节"
+
+#: ui/panel.py:564
+msgid "Detail Object"
+msgstr "细节物体"
+
+#: ui/panel.py:256
+msgid "Detail needs an active curve"
+msgstr "细节需要活动曲线"
+
+#: operators/pipe.py:685
+msgid "Detail-object local axis laid along the curve (the array repeats and the curve deforms along it)"
+msgstr "沿曲线放置的细节物体局部轴（阵列重复，曲线沿其变形）"
+
+#: operators/boolean_ops.py:14
+msgid "Difference"
+msgstr "差集"
+
+#: ui/panel.py:323
+msgid "Direct modeling"
+msgstr "直接建模"
+
+#: ui/menu.py:154
+#: ui/panel.py:260
+msgid "Display & Mesh"
+msgstr "显示与网格"
+
+#: operators/push_pull.py:32
+msgid "Distance"
+msgstr "距离"
+
+#: operators/construction.py:188
+msgid "Distance between grid lines"
+msgstr "网格线间距"
+
+#: gizmos/tools.py:72
+msgid "Drag the gizmo to extrude the selected faces along their normal"
+msgstr "拖动控件沿法线挤出选中面"
+
+#: gizmos/tools.py:49
+msgid "Drag the gizmo to set the HF_Bevel width (adds it if absent)"
+msgstr "拖动控件设置 HF_Bevel 宽度（若不存在则添加）"
+
+#: preferences.py:144
+msgid "Drape the pipe over the model: each span is re-sampled and snapped onto the nearest surface so the tube hugs contours and wraps edges instead of cutting straight through. Toggle live with F (pipe only; the cable always hangs free)"
+msgstr "将管道披覆到模型上：每段都会重新采样并吸附到最近表面，使管道贴合轮廓并绕过边缘，而不是直接穿过。按 F 实时切换（仅管道；线缆始终自由垂挂）"
+
+#: ui/panel.py:553
+msgid "Draw Mode"
+msgstr "绘制模式"
+
+#: gizmos/__init__.py:26
+msgid "Draw the Hardflow gizmos on the active object without switching to a tool"
+msgstr "在活动物体上绘制 Hardflow 控件，无需切换到工具"
+
+#: ui/menu.py:63
+msgid "EMPTY_SINGLE_ARROW"
+msgstr "EMPTY_SINGLE_ARROW"
+
+#: ui/menu.py:109
+msgid "EXPORT"
+msgstr "导出"
+
+#: ui/menu.py:66
+msgid "Edge Bevel"
+msgstr "边倒角"
+
+#: operators/trim_editor.py:566
+msgid "Edge Softness"
+msgstr "边柔和度"
+
+#: ui/menu.py:92
+msgid "Edge Weight (Edit)"
+msgstr "边权重（编辑）"
+
+#: preferences.py:102
+msgid "Edges"
+msgstr "边"
+
+#: operators/hardops.py:256
+msgid "Edges sharper than this get the micro bevel (boolean cuts are ~90 deg, so a 40-60 deg threshold catches them)"
+msgstr "比此角度更锐利的边会应用微倒角（布尔切割约为 90 度，因此 40-60 度阈值可捕获它们）"
+
+#: operators/hardops.py:225
+msgid "Edges whose dihedral face angle reaches this become hard (marked sharp + bevel-weighted)"
+msgstr "二面角达到此值的边会变硬（标记为锐边 + 倒角权重）"
+
+#: ui/menu.py:140
+#: ui/panel.py:197
+msgid "Edit"
+msgstr "编辑"
+
+#: gizmos/__init__.py:36
+msgid "Edit Mode: drag the selected faces along their normal"
+msgstr "编辑模式：沿法线拖动选中面"
+
+#: preferences.py:509
+#: operators/draw_cut.py:55
+msgid "Exact"
+msgstr "精确"
+
+#: ui/menu.py:109
+msgid "Export INSERT..."
+msgstr "导出 INSERT..."
+
+#: preferences.py:136
+msgid "Extra gap between the tube's OUTER surface and the model surface. The tube is always lifted by its own radius first (so it rests on the surface, never sinks in); this adds a further clearance on top. Live-adjust with Ctrl+Wheel"
+msgstr "管道外表面与模型表面之间的额外间隙。管道始终先按自身半径抬升（因此贴附表面而不会陷入）；此项在此基础上增加额外间距。按住 Ctrl+滚轮实时调整"
+
+#: preferences.py:200
+msgid "Extra rope length for the gravity settle, as a multiple of the straight span (1.0 = taut, 1.15 = 15% extra). Live-adjust with Shift+Wheel while gravity is on"
+msgstr "重力垂坠的额外绳索长度，为直线跨度的倍数（1.0 = 绷紧，1.15 = 额外 15%）。开启重力时按住 Shift+滚轮实时调整"
+
+#: ui/menu.py:69
+msgid "Extract Cutter (Edit)"
+msgstr "提取切割器（编辑）"
+
+#: operators/offset.py:37
+msgid "Extrude Inner"
+msgstr "向内挤出"
+
+#: preferences.py:476
+msgid "Extrude Manifold"
+msgstr "流形挤出"
+
+#: operators/push_pull.py:32
+msgid "Extrude distance along the face normal"
+msgstr "沿面法线的挤出距离"
+
+#: ui/menu.py:99
+msgid "FORCE_CURVE"
+msgstr "FORCE_CURVE"
+
+#: operators/draw_cut.py:47
+msgid "Face"
+msgstr "面"
+
+#: operators/offset.py:41
+#: operators/push_pull.py:46
+msgid "Face Index"
+msgstr "面索引"
+
+#: preferences.py:510
+#: operators/draw_cut.py:56
+msgid "Fast"
+msgstr "快速"
+
+#: operators/draw_cut.py:56
+msgid "Fast, no overlap support"
+msgstr "快速，不支持重叠"
+
+#: preferences.py:510
+msgid "Faster, more fragile"
+msgstr "更快，但更不稳定"
+
+#: preferences.py:511
+#: operators/draw_cut.py:57
+msgid "Fastest; manifold meshes only (Blender 4.5+)"
+msgstr "最快；仅限流形网格（Blender 4.5+）"
+
+#: operators/decals.py:780
+#: operators/decals.py:807
+msgid "File not found"
+msgstr "未找到文件"
+
+#: preferences.py:519
+msgid "Fill Color"
+msgstr "填充颜色"
+
+#: operators/draw_cut.py:36
+msgid "Filled circular sector / pie wedge (sweep from [ ])"
+msgstr "填充的圆形扇区 / 饼形楔块（从 [ ] 扫掠）"
+
+#: preferences.py:340
+msgid "Fit Fraction"
+msgstr "适配比例"
+
+#: ui/menu.py:72
+msgid "Fix Boolean Shading"
+msgstr "修复布尔着色"
+
+#: preferences.py:420
+msgid "Fix Shading After Cut"
+msgstr "切割后修复着色"
+
+#: operators/draw_cut.py:67
+msgid "Fixed"
+msgstr "固定"
+
+#: preferences.py:276
+msgid "Flip the height convention: by default a BRIGHT texel is the flush outer surface and a DARK texel is the deepest recess; enable for height maps authored the other way (bright = deep)"
+msgstr "翻转高度约定：默认亮色纹素为齐平外表面，暗色纹素为最深处凹陷；若高度图按相反方式制作（亮 = 深）则启用"
+
+#: preferences.py:315
+msgid "Folder scanned for .blend kit parts (INSERTs); shown as a grid in the N-panel 'Asset Library' section"
+msgstr "扫描 .blend 套件部件（INSERT）的文件夹；在 N 面板的“资产库”部分以网格显示"
+
+#: preferences.py:303
+msgid "Folder scanned for decal images (PNG/JPG/TGA...); shown as an icon grid in the N-panel 'Decal Library' section"
+msgstr "扫描贴花图像（PNG/JPG/TGA...）的文件夹；在 N 面板的“贴花库”部分以图标网格显示"
+
+#: operators/draw_cut.py:32
+msgid "Freeform polygon"
+msgstr "自由多边形"
+
+#: operators/construction.py:19
+msgid "Front plane, normal -Y"
+msgstr "前平面，法线 -Y"
+
+#: preferences.py:246
+msgid "Give image decals true, view-dependent depth: a Parallax Occlusion Mapping shader shifts the sampled UV along the camera vector using the image's luminance as a height map, so panel lines recess and rivets self-occlude at grazing angles instead of reading as a flat sticker"
+msgstr "为图像贴花提供真实的、随视角变化的深度：视差遮蔽映射着色器使用图像亮度作为高度图，沿相机向量偏移采样的 UV，因此面板线在掠射角下会凹陷、铆钉会自遮挡，而不是看起来像平面贴纸"
+
+#: preferences.py:363
+msgid "Give placed parts the surface object's active material and smooth-shading state"
+msgstr "为放置的部件赋予表面物体的活动材质和平滑着色状态"
+
+#: ui/panel.py:334
+msgid "Gizmos"
+msgstr "控件"
+
+#: ui/panel.py:346
+msgid "Gizmos unavailable"
+msgstr "控件不可用"
+
+#: ui/panel.py:305
+msgid "Global"
+msgstr "全局"
+
+#: operators/pipe.py:534
+#: ui/panel.py:378
+msgid "Grid"
+msgstr "网格"
+
+#: preferences.py:523
+msgid "Grid Color"
+msgstr "网格颜色"
+
+#: preferences.py:76
+msgid "Grid Size (m)"
+msgstr "网格大小（米）"
+
+#: preferences.py:71
+msgid "Grid Size (px)"
+msgstr "网格大小（像素）"
+
+#: preferences.py:66
+msgid "Grid Snap"
+msgstr "网格吸附"
+
+#: preferences.py:239
+msgid "Grid cells per axis of a placed decal. 1 is a flat quad; higher lets the shrinkwrap bend the decal to curved / multi-face surfaces instead of clipping through them"
+msgstr "放置贴花每轴的网格单元数。1 为平面四边形；更高值可让缩裹修改器将贴花弯曲贴合到曲面/多面表面，而不是穿透它们"
+
+#: operators/construction.py:207
+msgid "Grid is empty or too dense; raise spacing / lower extent"
+msgstr "网格为空或过密；请增大间距 / 减小范围"
+
+#: operators/hardops.py:551
+msgid "Groove"
+msgstr "凹槽"
+
+#: operators/construction.py:18
+msgid "Ground plane, normal +Z"
+msgstr "地平面，法线 +Z"
+
+#: ui/menu.py:57
+msgid "Guide Line"
+msgstr "参考线"
+
+#: keymaps.py:17
+msgid "HARDFLOW_MT_pie"
+msgstr "HARDFLOW_MT_pie"
+
+#: operators/construction.py:183
+msgid "Half Extent (m)"
+msgstr "半范围（米）"
+
+#: preferences.py:220
+msgid "Half-size of the construction grid object added by the Build tools; the grid spans +/- this on both axes (spacing follows Grid Size)"
+msgstr "构建工具添加的构造网格物体的半尺寸；网格在两个轴上延伸 +/- 此值（间距跟随网格大小）"
+
+#: preferences.py:192
+msgid "Hang the cable by relaxing a pinned particle chain under gravity (position-based physics) instead of the analytic sag -- the rope drapes over obstacles and rests on scene geometry. Toggle live with G while drawing"
+msgstr "通过重力下松弛固定粒子链（基于位置的物理）来悬挂线缆，而不是使用解析下垂——绳索会披覆在障碍物上并停靠在场景几何体上。绘制时按 G 实时切换"
+
+#: ui/menu.py:78
+msgid "HardFlow Mode: Cut"
+msgstr "HardFlow 模式：切割"
+
+#: ui/menu.py:76
+msgid "HardFlow Mode: Extrude"
+msgstr "HardFlow 模式：挤出"
+
+#: ui/menu.py:75
+msgid "HardFlow Mode: Knife"
+msgstr "HardFlow 模式：刀切"
+
+#: ui/asset_panel.py:16
+#: ui/asset_panel.py:52
+msgid "Hardflow"
+msgstr "Hardflow"
+
+#: gizmos/groups.py:271
+#: gizmos/tools.py:48
+msgid "Hardflow Bevel"
+msgstr "Hardflow 倒角"
+
+#: operators/decals.py:311
+msgid "Hardflow Decal: could not place"
+msgstr "Hardflow 贴花：无法放置"
+
+#: gizmos/groups.py:176
+msgid "Hardflow Gizmos"
+msgstr "Hardflow 控件"
+
+#: gizmos/groups.py:223
+#: gizmos/tools.py:18
+msgid "Hardflow Move"
+msgstr "Hardflow 移动"
+
+#: gizmos/groups.py:286
+#: gizmos/tools.py:58
+msgid "Hardflow Push/Pull"
+msgstr "Hardflow 推/拉"
+
+#: gizmos/groups.py:239
+#: gizmos/tools.py:28
+msgid "Hardflow Rotate"
+msgstr "Hardflow 旋转"
+
+#: gizmos/groups.py:255
+#: gizmos/tools.py:38
+msgid "Hardflow Scale"
+msgstr "Hardflow 缩放"
+
+#: operators/draw_cut.py:1447
+msgid "Hardflow: draw settings saved as default"
+msgstr "Hardflow：绘制设置已保存为默认"
+
+#: ui/decal_panel.py:41
+msgid "Height"
+msgstr "高度"
+
+#: operators/construction.py:99
+msgid "Height (m)"
+msgstr "高度（米）"
+
+#: preferences.py:268
+msgid "Height Map"
+msgstr "高度图"
+
+#: ui/panel.py:285
+msgid "Help & Shortcuts"
+msgstr "帮助与快捷键"
+
+#: ui/asset_panel.py:43
+#: ui/decal_panel.py:54
+msgid "Hide collection"
+msgstr "隐藏集合"
+
+#: gizmos/tools.py:59
+msgid "Hover a face and drag along its normal (Push/Pull)"
+msgstr "悬停在面上并沿其法线拖动（推/拉）"
+
+#: operators/trim_editor.py:561
+msgid "How close a pixel's colour must be to the key colour to be fully cut out (RGB distance)"
+msgstr "像素颜色与键控颜色的接近程度达到多少时才完全抠除（RGB 距离）"
+
+#: preferences.py:181
+msgid "How far the cable droops at mid-span under gravity; 0 is a straight line. Live-adjust with Shift+Wheel"
+msgstr "缆线在重力下于跨中下垂的距离；0 为直线。按住 Shift+滚轮实时调整"
+
+#: preferences.py:232
+msgid "How far the decal hovers above the surface (avoids z-fighting); shrinkwrap ABOVE_SURFACE distance. 0 = auto (scaled to the target's size)"
+msgstr "贴花悬浮在表面上方的高度（避免 Z-fighting）；收缩包裹的 ABOVE_SURFACE 距离。0 = 自动（按目标大小缩放）"
+
+#: ui/menu.py:105
+msgid "IMPORT"
+msgstr "导入"
+
+#: operators/assets.py:382
+msgid "INSERT Name"
+msgstr "插入名称"
+
+#: ui/menu.py:27
+#: ui/menu.py:28
+msgid "IPO_LINEAR"
+msgstr "IPO_LINEAR"
+
+#: operators/trim_editor.py:571
+msgid "Ignore the key colour above and take it from the average of the sheet's four corners (a flat background)"
+msgstr "忽略上方的键控颜色，改用图集四角的平均值（纯色背景）"
+
+#: operators/decals.py:52
+msgid "Image"
+msgstr "图像"
+
+#: operators/trim_editor.py:602
+msgid "Image has no editable pixel data"
+msgstr "图像没有可编辑的像素数据"
+
+#: operators/decals.py:70
+msgid "Index into the image's custom trim regions (hardflow_trim); -1 = not using a stored region"
+msgstr "图像自定义裁剪区域的索引（hardflow_trim）；-1 = 不使用已存储区域"
+
+#: core/decal.py:19
+msgid "Info"
+msgstr "信息"
+
+#: operators/construction.py:97
+msgid "Inner Radius (m)"
+msgstr "内半径（m）"
+
+#: preferences.py:346
+msgid "Insert Grid Snap"
+msgstr "插入网格吸附"
+
+#: preferences.py:352
+msgid "Insert Grid Spacing (m)"
+msgstr "插入网格间距（m）"
+
+#: operators/offset.py:29
+msgid "Inset distance of the face border"
+msgstr "面边界的内插距离"
+
+#: preferences.py:167
+msgid "Interpolate the pipe/sweep path through the placed anchors with a smooth spline (centripetal Catmull-Rom) instead of straight segments; with a ROUND profile and Follow off the result is an editable auto-handle Bezier curve. Toggle live with C while drawing"
+msgstr "使用平滑样条（向心 Catmull-Rom）在已放置锚点间插值管道/扫掠路径，而非直线段；轮廓为 ROUND 且关闭“跟随”时，结果为可编辑的自动手柄贝塞尔曲线。绘制时按 C 实时切换"
+
+#: operators/boolean_ops.py:16
+#: operators/draw_cut.py:46
+msgid "Intersect"
+msgstr "相交"
+
+#: operators/draw_cut.py:1464
+#: operators/draw_cut.py:1628
+msgid "Invalid face"
+msgstr "无效面"
+
+#: operators/draw_cut.py:1327
+#: operators/draw_cut.py:1481
+msgid "Invalid shape"
+msgstr "无效形状"
+
+#: preferences.py:276
+msgid "Invert Height"
+msgstr "反转高度"
+
+#: ui/panel.py:449
+msgid "J  preview     H  origin (radial pivot)"
+msgstr "J  预览     H  原点（径向轴心）"
+
+#: operators/draw_cut.py:45
+#: ui/panel.py:19
+msgid "Join"
+msgstr "合并"
+
+#: ui/menu.py:23
+msgid "Join (Add Solid)"
+msgstr "合并（添加实体）"
+
+#: operators/hardops.py:416
+msgid "Keep booleans at the very top and place a Mirror just below them; turn off to mirror the raw form first (Mirror above the booleans)"
+msgstr "将布尔保持在最顶部，并在其下方放置镜像；关闭此项以先镜像原始形体（镜像位于布尔上方）"
+
+#: operators/boolean_ops.py:16
+msgid "Keep only the overlap"
+msgstr "仅保留重叠部分"
+
+#: ui/panel.py:18
+msgid "Keep only what's inside the drawn volume"
+msgstr "仅保留绘制体积内部的部分"
+
+#: operators/push_pull.py:35
+msgid "Keep the starting face and stack a new volume"
+msgstr "保留起始面并堆叠新体积"
+
+#: operators/hardops.py:567
+msgid "Keep the swept line as a live boolean modifier (the cutter is stashed like any other Hardflow cutter)"
+msgstr "将扫掠线保留为实时布尔修改器（切割器会像其他 Hardflow 切割器一样暂存）"
+
+#: operators/trim_editor.py:555
+msgid "Key Colour"
+msgstr "键控颜色"
+
+#: operators/trim_editor.py:576
+msgid "Key a '<name>_cutout' copy and make it the active sheet, leaving the original untouched (safe / redo-clean). Off = edit the sheet in place"
+msgstr "创建 '<name>_cutout' 副本并为其键控，将其设为活动图集，原图保持不变（安全/可干净重做）。关闭 = 就地编辑图集"
+
+#: operators/draw_cut.py:48
+#: ui/panel.py:20
+msgid "Knife"
+msgstr "切割"
+
+#: ui/menu.py:25
+msgid "Knife (Score)"
+msgstr "切割（刻线）"
+
+#: operators/draw_cut.py:1506
+#: operators/draw_cut.py:1637
+msgid "Knife cut scored nothing"
+msgstr "切割未划出任何内容"
+
+#: ui/menu.py:88
+msgid "LOOP_FORWARDS"
+msgstr "LOOP_FORWARDS"
+
+#: ui/decal_panel.py:39
+msgid "Layers"
+msgstr "图层"
+
+#: preferences.py:369
+msgid "Leave a live modifier instead of applying the boolean; stash cutters in a separate 'Hardflow Cutters' collection (non-destructive)"
+msgstr "保留实时修改器而不应用布尔；将切割器暂存到单独的 'Hardflow Cutters' 集合中（非破坏性）"
+
+#: operators/construction.py:151
+msgid "Length (m)"
+msgstr "长度（m）"
+
+#: preferences.py:207
+msgid "Let the gravity-settled cable collide with (rest on) the visible scene meshes; turn off in heavy scenes if the live preview gets slow"
+msgstr "让受重力下垂的缆线与可见场景网格碰撞（放置其上）；如果实时预览变慢，可在复杂场景中关闭"
+
+#: operators/assets.py:49
+msgid "Library file whose objects are appended as the INSERT"
+msgstr "其对象作为 INSERT 追加的库文件"
+
+#: preferences.py:414
+msgid "Lift the auto trim above the surface (0 = rest on it; negative recesses it into a panel groove)"
+msgstr "将自动裁剪抬离表面（0 = 贴在其上；负值会使其凹入面板凹槽）"
+
+#: preferences.py:515
+msgid "Line Color"
+msgstr "线条颜色"
+
+#: preferences.py:527
+msgid "Line Width (px)"
+msgstr "线宽（px）"
+
+#: preferences.py:435
+msgid "Live Boolean Preview"
+msgstr "实时布尔预览"
+
+#: preferences.py:443
+msgid "Live Preview Vertex Cap"
+msgstr "实时预览顶点上限"
+
+#: ui/panel.py:446
+msgid "Live keys while drawing"
+msgstr "绘制时实时快捷键"
+
+#: preferences.py:573
+msgid "Live preview"
+msgstr "实时预览"
+
+#: preferences.py:655
+msgid "Live-preview colors"
+msgstr "实时预览颜色"
+
+#: preferences.py:66
+msgid "Lock drawing points to the grid"
+msgstr "将绘制点锁定到网格"
+
+#: preferences.py:82
+msgid "Lock the drawing point to an existing geometry's vertex/edge/midpoint (overrides the grid)"
+msgstr "将绘制点锁定到现有几何体的顶点/边/中点（覆盖网格吸附）"
+
+#: ui/menu.py:58
+msgid "Loft / Bridge"
+msgstr "放样 / 桥接"
+
+#: core/decal.py:19
+msgid "Logo / text / warning mark (emissive accent)"
+msgstr "徽标 / 文字 / 警告标记（自发光强调）"
+
+#: ui/menu.py:67
+msgid "Loop Cut"
+msgstr "环切"
+
+#: ui/menu.py:91
+#: ui/menu.py:106
+msgid "MATERIAL"
+msgstr "MATERIAL"
+
+#: ui/menu.py:32
+#: ui/panel.py:28
+msgid "MESH_CAPSULE"
+msgstr "MESH_CAPSULE"
+
+#: ui/menu.py:30
+#: ui/menu.py:53
+msgid "MESH_CIRCLE"
+msgstr "MESH_CIRCLE"
+
+#: ui/menu.py:23
+#: ui/menu.py:42
+msgid "MESH_CUBE"
+msgstr "MESH_CUBE"
+
+#: ui/menu.py:31
+#: ui/menu.py:44
+msgid "MESH_CYLINDER"
+msgstr "MESH_CYLINDER"
+
+#: ui/menu.py:52
+msgid "MESH_DATA"
+msgstr "MESH_DATA"
+
+#: ui/menu.py:56
+msgid "MESH_GRID"
+msgstr "MESH_GRID"
+
+#: ui/menu.py:22
+#: ui/menu.py:43
+msgid "MESH_PLANE"
+msgstr "MESH_PLANE"
+
+#: ui/menu.py:47
+msgid "MESH_UVSPHERE"
+msgstr "MESH_UVSPHERE"
+
+#: ui/menu.py:101
+msgid "MOD_ARRAY"
+msgstr "MOD_ARRAY"
+
+#: ui/menu.py:66
+#: ui/menu.py:71
+msgid "MOD_BEVEL"
+msgstr "MOD_BEVEL"
+
+#: ui/menu.py:20
+#: ui/menu.py:24
+msgid "MOD_BOOLEAN"
+msgstr "MOD_BOOLEAN"
+
+#: ui/menu.py:21
+msgid "MOD_EDGESPLIT"
+msgstr "MOD_EDGESPLIT"
+
+#: ui/menu.py:25
+#: ui/menu.py:75
+msgid "MOD_LINEART"
+msgstr "MOD_LINEART"
+
+#: ui/menu.py:67
+msgid "MOD_MULTIRES"
+msgstr "MOD_MULTIRES"
+
+#: ui/menu.py:68
+#: ui/menu.py:98
+msgid "MOD_SCREW"
+msgstr "MOD_SCREW"
+
+#: ui/menu.py:34
+#: ui/menu.py:58
+msgid "MOD_SIMPLEDEFORM"
+msgstr "MOD_SIMPLEDEFORM"
+
+#: ui/menu.py:64
+msgid "MOD_SOLIDIFY"
+msgstr "MOD_SOLIDIFY"
+
+#: preferences.py:331
+#: operators/draw_cut.py:44
+msgid "Make"
+msgstr "生成"
+
+#: ui/menu.py:22
+msgid "Make (Union)"
+msgstr "生成（并集）"
+
+#: preferences.py:511
+#: operators/draw_cut.py:57
+msgid "Manifold"
+msgstr "流形"
+
+#: operators/push_pull.py:38
+msgid "Manifold push: an INWARD push cuts the volume the face sweeps out of the mesh (boolean) instead of extruding into it, so it leaves a clean pocket -- or a hole when it goes all the way through -- with no buried side walls. Outward pulls stay a plain extrude"
+msgstr "流形推拉：向内推会以布尔方式切掉面扫掠出的体积，而不是向网格内挤出，因此会留下干净的凹槽——若完全贯穿则形成孔洞——且不会埋住侧壁。向外拉仍为普通挤出"
+
+#: operators/assets.py:383
+#: ui/menu.py:108
+msgid "Mark as Asset"
+msgstr "标记为资产"
+
+#: core/decal.py:21
+msgid "Masked sub-material patch"
+msgstr "带遮罩的子材质补丁"
+
+#: ui/menu.py:106
+msgid "Material INSERT..."
+msgstr "插入材质..."
+
+#: operators/decals.py:627
+msgid "Max Gap (m)"
+msgstr "最大间隙 (m)"
+
+#: preferences.py:309
+msgid "Maximum width (px) when packing image decals into a single atlas texture; the atlas height grows to fit"
+msgstr "将图像贴花打包为单张图集纹理时的最大宽度 (px)；图集高度会自动增长以适应"
+
+#: operators/pipe.py:694
+msgid "Merge Segments"
+msgstr "合并分段"
+
+#: operators/boolean_ops.py:15
+msgid "Merge the cutter into the targets (MAKE)"
+msgstr "将切割体合并到目标物体 (MAKE)"
+
+#: ui/panel.py:564
+msgid "Mesh repeated along the active curve by Detail Along Path (Array Fit-Curve + Curve deform, non-destructive)"
+msgstr "沿活动曲线由「沿路径细节」重复的网格（阵列适配曲线 + 曲线变形，非破坏性）"
+
+#: operators/hardops.py:256
+msgid "Micro Angle"
+msgstr "微角度"
+
+#: operators/hardops.py:243
+msgid "Micro Bevel (2-tier)"
+msgstr "微倒角（双层）"
+
+#: operators/hardops.py:255
+msgid "Micro Segments"
+msgstr "微分段"
+
+#: operators/hardops.py:249
+msgid "Micro Width"
+msgstr "微宽度"
+
+#: operators/draw_cut.py:81
+#: ui/panel.py:84
+msgid "Mode"
+msgstr "模式"
+
+#: ui/panel.py:465
+msgid "Modifier Stack"
+msgstr "修改器堆栈"
+
+#: operators/hardops.py:445
+msgid "Modifier stack already in order"
+msgstr "修改器堆栈已是正确顺序"
+
+#: preferences.py:509
+msgid "More accurate, slower"
+msgstr "更精确，较慢"
+
+#: gizmos/__init__.py:30
+msgid "Move"
+msgstr "移动"
+
+#: gizmos/tools.py:19
+msgid "Move the active object with the Hardflow gizmo"
+msgstr "用 Hardflow 变换控件移动活动物体"
+
+#: operators/cutters.py:157
+msgid "Move the new object into the Hardflow Cutters collection and show it as wire"
+msgstr "将新物体移入 Hardflow Cutters 集合并以线框显示"
+
+#: preferences.py:376
+msgid "Multi Object"
+msgstr "多物体"
+
+#: operators/draw_cut.py:33
+#: ui/menu.py:54
+msgid "N-gon"
+msgstr "N 边形"
+
+#: ui/menu.py:31
+msgid "N-gon Cut"
+msgstr "N 边形切割"
+
+#: preferences.py:214
+msgid "N-gon Sides"
+msgstr "N 边形边数"
+
+#: operators/draw_cut.py:35
+msgid "N-pointed star (point count from [ ])"
+msgstr "N 角星（角数取自 [ ]）"
+
+#: ui/menu.py:72
+msgid "NODE_MATERIAL"
+msgstr "NODE_MATERIAL"
+
+#: ui/menu.py:94
+msgid "NORMALS_FACE"
+msgstr "NORMALS_FACE"
+
+#: preferences.py:268
+msgid "Name of a loaded grayscale image to drive image-decal depth (Parallax + Relief) independently of the color image -- the dedicated height-map channel. Blank = use the color image's own luminance as the height field"
+msgstr "已加载的灰度图像名称，用于独立于颜色图像驱动图像贴花深度（视差 + 浮雕）——专用高度图通道。留空 = 使用颜色图像自身亮度作为高度场"
+
+#: operators/decals.py:52
+msgid "Name of an already-loaded image; when set, the decal carries this image (color+alpha) sized to its aspect ratio"
+msgstr "已加载的图像名称；设置后贴花将携带该图像（颜色+alpha），尺寸按其宽高比调整"
+
+#: operators/trim_editor.py:605
+msgid "Needs an RGBA image (4 channels)"
+msgstr "需要 RGBA 图像（4 通道）"
+
+#: operators/decals.py:771
+msgid "New Name"
+msgstr "新名称"
+
+#: operators/trim_editor.py:640
+#: operators/trim_editor.py:687
+msgid "No active trim sheet"
+msgstr "没有活动的装饰板"
+
+#: operators/assets.py:66
+msgid "No asset .blend chosen"
+msgstr "未选择资产 .blend"
+
+#: preferences.py:401
+msgid "No automatic trim after a cut"
+msgstr "切割后不自动修剪"
+
+#: operators/hardops.py:156
+msgid "No cutter collection"
+msgstr "没有切割体集合"
+
+#: operators/cutters.py:236
+msgid "No cutters on the active object"
+msgstr "活动物体上没有切割体"
+
+#: ui/decal_panel.py:48
+msgid "No decals placed"
+msgstr "未放置贴花"
+
+#: operators/decals.py:845
+msgid "No image decals to atlas"
+msgstr "没有可合入图集的图像贴花"
+
+#: operators/assets.py:354
+msgid "No materials in that .blend"
+msgstr "该 .blend 中没有材质"
+
+#: ui/panel.py:477
+msgid "No modifiers on the active object"
+msgstr "活动物体上没有修改器"
+
+#: operators/draw_cut.py:1418
+msgid "No previous shape to stamp"
+msgstr "没有可盖印的先前形状"
+
+#: operators/decals.py:866
+msgid "No readable image decals to atlas"
+msgstr "没有可读取的图像贴花可合入图集"
+
+#: ui/trim_panel.py:44
+msgid "No regions yet — Open Editor to cut"
+msgstr "尚无区域 — 打开编辑器进行切割"
+
+#: ui/panel.py:522
+msgid "No stashed cutters"
+msgstr "没有暂存的切割体"
+
+#: operators/assets.py:130
+#: operators/assets.py:228
+msgid "No surface under the cursor"
+msgstr "光标下没有表面"
+
+#: operators/trim_editor.py:732
+msgid "No trim regions"
+msgstr "没有修剪区域"
+
+#: operators/trim_editor.py:712
+msgid "No trim regions to place"
+msgstr "没有可放置的修剪区域"
+
+#: operators/trim_editor.py:598
+msgid "No trim-sheet image"
+msgstr "没有装饰板图像"
+
+#: preferences.py:369
+#: operators/hardops.py:567
+msgid "Non-Destructive"
+msgstr "非破坏性"
+
+#: operators/decals.py:380
+msgid "Normal"
+msgstr "法线"
+
+#: preferences.py:283
+msgid "Normal-relief strength driven by the height map: adds real shaded depth to image decals (works with or combined with Parallax Occlusion). 0 = off (flat shading)"
+msgstr "由高度图驱动的法线浮雕强度：为图像贴花添加真实的着色深度（可单独使用或与视差遮蔽组合）。0 = 关闭（平面着色）"
+
+#: operators/hardops.py:536
+msgid "Normals recalculated; mesh looks boolean-ready"
+msgstr "法线已重新计算；网格看起来已适合布尔运算"
+
+#: operators/cutters.py:185
+msgid "Nothing extracted"
+msgstr "未提取任何内容"
+
+#: operators/assets.py:420
+msgid "Nothing selected"
+msgstr "未选择任何内容"
+
+#: operators/decals.py:586
+msgid "Nothing to match (no material on target)"
+msgstr "无可匹配内容（目标上没有材质）"
+
+#: operators/hardops.py:117
+msgid "Nothing to set"
+msgstr "无可设置内容"
+
+#: ui/menu.py:108
+msgid "OBJECT_DATA"
+msgstr "OBJECT_DATA"
+
+#: gizmos/__init__.py:33
+msgid "Object Mode: drag to set the HF_Bevel modifier width"
+msgstr "物体模式：拖动以设置 HF_Bevel 修改器宽度"
+
+#: preferences.py:469
+msgid "Object-Mode Edge Bevel starts in Smart mode: add support / holding loops and clean n-gons so the bevel survives Subdivision (toggle live with S). EXPERIMENTAL"
+msgstr "物体模式的边倒角以智能模式启动：添加支撑/保持线并清理 N 边形，使倒角在细分后仍能保留（按 S 实时切换）。实验性"
+
+#: preferences.py:401
+msgid "Off"
+msgstr "关闭"
+
+#: ui/menu.py:64
+msgid "Offset"
+msgstr "偏移"
+
+#: preferences.py:71
+msgid "Old screen-space grid spacing (legacy, unused)"
+msgstr "旧版屏幕空间网格间距（旧版，未使用）"
+
+#: operators/trim_editor.py:438
+msgid "Open a 3D viewport to edit the trim sheet"
+msgstr "打开 3D 视图以编辑装饰板"
+
+#: operators/assets.py:33
+msgid "Open a 3D viewport to place the asset"
+msgstr "打开 3D 视图以放置资产"
+
+#: operators/decals.py:32
+msgid "Open a 3D viewport to place the decal"
+msgstr "打开 3D 视图以放置贴花"
+
+#: operators/boolean_ops.py:28
+msgid "Operation"
+msgstr "操作"
+
+#: ui/panel.py:357
+msgid "Or pick a Hardflow tool in the toolbar (T)"
+msgstr "或在工具栏 (T) 中选择 Hardflow 工具"
+
+#: operators/draw_cut.py:83
+msgid "Orientation"
+msgstr "方向"
+
+#: operators/assets.py:408
+msgid "Overwrites %s"
+msgstr "覆盖 %s"
+
+#: core/decal.py:20
+msgid "Panel"
+msgstr "面板"
+
+#: preferences.py:403
+msgid "Panel Line"
+msgstr "面板线"
+
+#: ui/menu.py:68
+msgid "Panel Line (Edit)"
+msgstr "面板线（编辑）"
+
+#: core/decal.py:20
+msgid "Panel line / seam (dark recessed look)"
+msgstr "面板线 / 接缝（深色凹陷外观）"
+
+#: preferences.py:255
+msgid "Parallax Depth"
+msgstr "视差深度"
+
+#: preferences.py:262
+msgid "Parallax Layers"
+msgstr "视差层数"
+
+#: preferences.py:246
+#: ui/decal_panel.py:35
+msgid "Parallax Occlusion"
+msgstr "视差遮蔽"
+
+#: preferences.py:100
+msgid "Perpendicular to the view (screen-aligned)"
+msgstr "垂直于视图（屏幕对齐）"
+
+#: operators/pipe.py:711
+msgid "Pick a mesh Detail object in the Curves panel first"
+msgstr "请先在曲线面板中选择一个网格细节物体"
+
+#: ui/trim_panel.py:31
+msgid "Pick or load a trim-sheet image"
+msgstr "选择或加载装饰板图像"
+
+#: operators/trim_editor.py:96
+#: operators/trim_editor.py:590
+msgid "Pick or load a trim-sheet image first"
+msgstr "请先选择或加载装饰板图像"
+
+#: preferences.py:402
+#: ui/menu.py:98
+msgid "Pipe"
+msgstr "管道"
+
+#: preferences.py:161
+msgid "Pipe Follow Segments"
+msgstr "管道跟随分段"
+
+#: preferences.py:144
+msgid "Pipe Follows Surface"
+msgstr "管道贴合表面"
+
+#: preferences.py:152
+msgid "Pipe Profile"
+msgstr "管道轮廓"
+
+#: preferences.py:131
+msgid "Pipe Radius (m)"
+msgstr "管道半径 (m)"
+
+#: preferences.py:136
+msgid "Pipe/Cable Clearance (m)"
+msgstr "管道/线缆间隙 (m)"
+
+#: ui/asset_panel.py:25
+msgid "Place INSERT"
+msgstr "放置插入件"
+
+#: ui/menu.py:105
+msgid "Place INSERT..."
+msgstr "放置插入件…"
+
+#: ui/decal_panel.py:23
+msgid "Place on Surface"
+msgstr "放置在表面"
+
+#: preferences.py:321
+msgid "Placed kit parts become boolean cutters on the surface object instead of plain decorations (boolean cutter INSERTs)"
+msgstr "放置的套件部件会成为表面物体上的布尔切割器，而不是普通装饰（布尔切割器插入件）"
+
+#: operators/construction.py:88
+#: operators/construction.py:182
+msgid "Plane"
+msgstr "平面"
+
+#: operators/draw_cut.py:1293
+msgid "Plane edge-on; shape could not be projected"
+msgstr "平面侧对；无法投影形状"
+
+#: operators/hardops.py:562
+msgid "Points around the swept cross-section"
+msgstr "扫掠横截面的点数"
+
+#: operators/draw_cut.py:32
+#: ui/menu.py:52
+msgid "Polygon"
+msgstr "多边形"
+
+#: operators/draw_cut.py:1287
+msgid "Polygon self-intersects; cut cancelled"
+msgstr "多边形自相交；已取消切割"
+
+#: ui/menu.py:28
+msgid "Polyline Add"
+msgstr "折线添加"
+
+#: ui/menu.py:27
+msgid "Polyline Trim"
+msgstr "折线修剪"
+
+#: ui/panel.py:416
+msgid "Preview Colors"
+msgstr "预览颜色"
+
+#: operators/hardops.py:242
+#: ui/panel.py:250
+msgid "Profile"
+msgstr "轮廓"
+
+#: ui/panel.py:557
+msgid "Profile Object"
+msgstr "轮廓物体"
+
+#: operators/hardops.py:562
+msgid "Profile Segments"
+msgstr "轮廓分段"
+
+#: operators/draw_cut.py:68
+msgid "Project"
+msgstr "投影"
+
+#: preferences.py:95
+msgid "Projection/construction plane the Draw tool starts on; save the live plane as the default with S while drawing"
+msgstr "绘制工具起始的投影/构造平面；绘制时按 S 将当前平面保存为默认"
+
+#: gizmos/__init__.py:36
+#: ui/menu.py:63
+msgid "Push/Pull"
+msgstr "推/拉"
+
+#: ui/panel.py:356
+msgid "Push/Pull (Edit Mode faces)"
+msgstr "推/拉（编辑模式面）"
+
+#: preferences.py:476
+msgid "Push/Pull and the Offset recess start in Manifold mode: the orthogonal edges around the face are dissolved, so pushing INTO adjoining geometry cuts cleanly instead of leaving interior faces and stray edges (SketchUp-style push). Toggle live with D"
+msgstr "推/拉与偏移凹陷以流形模式开始：面周围的正交边会被溶解，因此推入相邻几何体时可干净切割，而不会留下内部面和游离边（SketchUp 式推拉）。按 D 实时切换"
+
+#: ui/panel.py:132
+msgid "Quick Start"
+msgstr "快速开始"
+
+#: preferences.py:497
+msgid "Radial"
+msgstr "径向"
+
+#: operators/hardops.py:557
+#: operators/pipe.py:531
+msgid "Radius"
+msgstr "半径"
+
+#: operators/construction.py:96
+msgid "Radius (m)"
+msgstr "半径 (m)"
+
+#: operators/hardops.py:553
+msgid "Raise a weld bead proud of the surface (UNION)"
+msgstr "在表面上凸起焊道（并集）"
+
+#: ui/menu.py:90
+msgid "Random Colors"
+msgstr "随机颜色"
+
+#: preferences.py:262
+msgid "Ray-march steps of the parallax shader. More layers are smoother at grazing angles but build a heavier node graph"
+msgstr "视差着色器的光线步进步数。层数越多，掠射角下越平滑，但节点图越重"
+
+#: preferences.py:388
+msgid "Re-quad Cut N-gons"
+msgstr "将切割 N 边形重新四边化"
+
+#: ui/panel.py:330
+msgid "Rebind keys in Preferences ▸ Shortcuts"
+msgstr "在偏好设置 ▸ 快捷键中重新绑定按键"
+
+#: ui/menu.py:94
+msgid "Recalculate Normals"
+msgstr "重新计算法线"
+
+#: operators/offset.py:32
+msgid "Recess (-) / raise (+) depth of the inner face when Extrude is on"
+msgstr "启用挤出时内面的凹陷 (-) / 凸起 (+) 深度"
+
+#: operators/draw_cut.py:30
+#: ui/menu.py:51
+msgid "Rectangle"
+msgstr "矩形"
+
+#: preferences.py:158
+msgid "Rectangular"
+msgstr "矩形"
+
+#: operators/draw_cut.py:33
+msgid "Regular polygon (side count from preferences / [ ])"
+msgstr "正多边形（边数来自偏好设置 / [ ]）"
+
+#: preferences.py:283
+msgid "Relief (Bump)"
+msgstr "浮雕（凹凸）"
+
+#: operators/pipe.py:689
+msgid "Repeat/deform along local +X (the usual)"
+msgstr "沿局部 +X 重复/变形（常用）"
+
+#: operators/pipe.py:690
+msgid "Repeat/deform along local +Y"
+msgstr "沿局部 +Y 重复/变形"
+
+#: operators/pipe.py:691
+msgid "Repeat/deform along local +Z"
+msgstr "沿局部 +Z 重复/变形"
+
+#: operators/trim_editor.py:679
+msgid "Replace Existing"
+msgstr "替换现有"
+
+#: operators/decals.py:384
+#: operators/decals.py:685
+msgid "Resolution"
+msgstr "分辨率"
+
+#: preferences.py:297
+msgid "Resolution (px) of the image when baking a decal into the target's texture map"
+msgstr "将贴花烘焙到目标纹理贴图时的图像分辨率 (px)"
+
+#: operators/assets.py:55
+#: operators/decals.py:51
+msgid "Roll (rad)"
+msgstr "滚转 (rad)"
+
+#: gizmos/__init__.py:31
+msgid "Rotate"
+msgstr "旋转"
+
+#: gizmos/tools.py:29
+msgid "Rotate the active object with the Hardflow gizmo"
+msgstr "使用 Hardflow 控件旋转活动物体"
+
+#: preferences.py:156
+msgid "Round"
+msgstr "圆形"
+
+#: preferences.py:176
+msgid "Round cross-section radius of the cable/rope tool"
+msgstr "线缆/绳索工具的圆形横截面半径"
+
+#: preferences.py:131
+msgid "Round cross-section radius of the pipe tool"
+msgstr "管道工具的圆形横截面半径"
+
+#: preferences.py:156
+msgid "Round curve bevel (classic pipe)"
+msgstr "圆形曲线倒角（经典管道）"
+
+#: preferences.py:402
+msgid "Round pipe/cable along the cut boundary"
+msgstr "沿切割边界倒圆管道/线缆"
+
+#: operators/draw_cut.py:34
+msgid "Rounded-rectangle / stadium (cap segments from [ ])"
+msgstr "圆角矩形/体育场形（端盖分段来自 [ ]）"
+
+#: operators/decals.py:543
+#: operators/decals.py:601
+msgid "Rows"
+msgstr "行数"
+
+#: operators/assets.py:63
+#: operators/decals.py:82
+msgid "Run inside View3D"
+msgstr "在 View3D 内运行"
+
+#: operators/hardflow_mode.py:71
+msgid "Run inside the 3D Viewport"
+msgstr "在 3D 视图中运行"
+
+#: ui/menu.py:82
+msgid "SHADING_WIRE"
+msgstr "SHADING_WIRE"
+
+#: ui/menu.py:84
+msgid "SNAP_EDGE"
+msgstr "SNAP_EDGE"
+
+#: ui/menu.py:33
+#: ui/panel.py:29
+msgid "SOLO_ON"
+msgstr "SOLO_ON"
+
+#: ui/menu.py:73
+msgid "SORTSIZE"
+msgstr "SORTSIZE"
+
+#: operators/trim_editor.py:571
+msgid "Sample From Corner"
+msgstr "从角采样"
+
+#: operators/hardops.py:169
+msgid "Saturation"
+msgstr "饱和度"
+
+#: gizmos/__init__.py:32
+#: operators/assets.py:54
+msgid "Scale"
+msgstr "缩放"
+
+#: preferences.py:334
+msgid "Scale the INSERT to a fraction of the target's local feature size on the first surface hit (smart scale)"
+msgstr "在首次命中曲面时，将插入件缩放到目标局部特征尺寸的一定比例（智能缩放）"
+
+#: gizmos/tools.py:39
+msgid "Scale the active object with the Hardflow gizmo"
+msgstr "使用 Hardflow 控件缩放活动物体"
+
+#: operators/hardops.py:231
+msgid "Scale the bevel width to the object's smallest dimension instead of using a fixed width"
+msgstr "按物体最小尺寸缩放倒角宽度，而不是使用固定宽度"
+
+#: ui/panel.py:20
+msgid "Score the surface only (zero-depth cut)"
+msgstr "仅在表面刻线（零深度切割）"
+
+#: operators/draw_cut.py:48
+msgid "Score the surface only (zero-depth cut, no boolean)"
+msgstr "仅在表面刻线（零深度切割，不进行布尔）"
+
+#: preferences.py:121
+msgid "Screen-space capture radius for geometry snap"
+msgstr "几何吸附的屏幕空间捕捉半径"
+
+#: operators/construction.py:100
+#: operators/hardops.py:241
+msgid "Segments"
+msgstr "分段"
+
+#: operators/decals.py:578
+#: operators/decals.py:607
+msgid "Select a Hardflow decal"
+msgstr "选择一个 Hardflow 贴花"
+
+#: operators/trim_editor.py:736
+msgid "Select a Hardflow decal first"
+msgstr "请先选择一个 Hardflow 贴花"
+
+#: operators/decals.py:394
+msgid "Select a Hardflow decal to bake"
+msgstr "选择要烘焙的 Hardflow 贴花"
+
+#: operators/assets.py:369
+msgid "Select a mesh to receive the material"
+msgstr "选择要接收材质的网格"
+
+#: operators/decals.py:666
+msgid "Select decal(s) plus an active target mesh"
+msgstr "选择贴花以及一个活动目标网格"
+
+#: operators/decals.py:692
+msgid "Select high-poly source(s) + an active plane"
+msgstr "选择高多边形源 + 一个活动平面"
+
+#: operators/boolean_ops.py:47
+msgid "Select target meshes plus an active cutter"
+msgstr "选择目标网格以及一个活动切割器"
+
+#: operators/hardops.py:586
+msgid "Select the edges to route along first"
+msgstr "请先选择要沿其布线的边"
+
+#: operators/cutters.py:176
+msgid "Select the faces to extract first"
+msgstr "请先选择要提取的面"
+
+#: operators/hardops.py:610
+msgid "Selected edges gave no sweepable path"
+msgstr "所选边未形成可扫掠路径"
+
+#: operators/hardops.py:104
+msgid "Set Bevel Weight"
+msgstr "设置倒角权重"
+
+#: operators/hardops.py:105
+msgid "Set Crease"
+msgstr "设置折痕"
+
+#: ui/asset_panel.py:65
+msgid "Set a folder with .blend kit parts"
+msgstr "设置包含 .blend 套件零件的文件夹"
+
+#: ui/decal_library.py:62
+msgid "Set a library folder with images"
+msgstr "设置包含图像的库文件夹"
+
+#: operators/assets.py:416
+msgid "Set a valid Asset Library folder first"
+msgstr "请先设置有效的资产库文件夹"
+
+#: operators/draw_cut.py:80
+#: ui/panel.py:93
+msgid "Shape"
+msgstr "形状"
+
+#: operators/hardops.py:225
+msgid "Sharp Angle"
+msgstr "锐角"
+
+#: operators/hardops.py:134
+#: ui/menu.py:84
+msgid "Sharp Edges"
+msgstr "锐边"
+
+#: operators/hardops.py:150
+msgid "Sharp-edge overlay not available here"
+msgstr "此处无法使用锐边叠加"
+
+#: keymaps.py:78
+msgid "Shortcuts could not load (no keyconfig)"
+msgstr "无法加载快捷键（无键位配置）"
+
+#: preferences.py:60
+msgid "Show Quick Start"
+msgstr "显示快速入门"
+
+#: operators/hardops.py:134
+msgid "Show sharp edges in the viewport overlay"
+msgstr "在视图叠加层中显示锐边"
+
+#: preferences.py:60
+msgid "Show the Quick Start card at the top of the Hardflow N-panel"
+msgstr "在 Hardflow N 面板顶部显示快速入门卡片"
+
+#: operators/hardops.py:133
+msgid "Show the active object as wireframe overlay"
+msgstr "将活动物体显示为线框叠加"
+
+#: operators/hardops.py:135
+msgid "Show/hide the Hardflow Cutters collection"
+msgstr "显示/隐藏 Hardflow 切割器集合"
+
+#: operators/construction.py:20
+msgid "Side plane, normal +X"
+msgstr "侧面平面，法线 +X"
+
+#: operators/construction.py:95
+#: operators/decals.py:50
+msgid "Size (m)"
+msgstr "尺寸（米）"
+
+#: ui/panel.py:171
+msgid "Sketch face"
+msgstr "草绘面"
+
+#: preferences.py:443
+msgid "Skip the live boolean RESULT (show only the wire cutter cage) on targets heavier than this vertex count, so a high-poly mesh stays responsive while drawing. Targets the cutter's bounding box doesn't even reach are skipped regardless"
+msgstr "对顶点数超过此值的目标跳过实时布尔结果（仅显示线框切割器笼体），以便绘制时保持高面数网格的响应速度。切割器包围盒未触及的目标无论顶点数多少都会被跳过"
+
+#: operators/boolean_ops.py:17
+#: operators/draw_cut.py:43
+msgid "Slice"
+msgstr "切片"
+
+#: operators/draw_cut.py:43
+msgid "Slice the object in two"
+msgstr "将物体切成两半"
+
+#: ui/panel.py:16
+msgid "Slice the object in two along the drawn shape"
+msgstr "沿绘制的形状将物体切成两半"
+
+#: operators/draw_cut.py:34
+#: ui/panel.py:28
+msgid "Slot"
+msgstr "槽"
+
+#: ui/menu.py:32
+msgid "Slot Cut"
+msgstr "槽切割"
+
+#: preferences.py:469
+msgid "Smart Edge Bevel"
+msgstr "智能边倒角"
+
+#: ui/menu.py:71
+msgid "Smart Sharpen"
+msgstr "智能锐化"
+
+#: operators/hardops.py:380
+msgid "Smart Sharpen: no mesh processed"
+msgstr "智能锐化：未处理任何网格"
+
+#: operators/hardops.py:460
+msgid "Smooth Angle"
+msgstr "平滑角度"
+
+#: preferences.py:167
+msgid "Smooth Path"
+msgstr "平滑路径"
+
+#: ui/panel.py:376
+msgid "Snap (all draw tools)"
+msgstr "吸附（所有绘制工具）"
+
+#: preferences.py:121
+msgid "Snap Distance (px)"
+msgstr "吸附距离（像素）"
+
+#: preferences.py:346
+msgid "Snap INSERT placement to a world grid or to existing insert anchors, for clean repeated arrays (grid / anchor snapping)"
+msgstr "将 INSERT 放置吸附到世界网格或现有插入锚点，便于整齐的重复阵列（网格/锚点吸附）"
+
+#: preferences.py:109
+msgid "Snap Target"
+msgstr "吸附目标"
+
+#: preferences.py:115
+msgid "Snap to any visible mesh under the cursor (vertex count is capped for performance)"
+msgstr "吸附到光标下方的任意可见网格（为性能限制顶点数）"
+
+#: preferences.py:113
+msgid "Snap to the active object's geometry only (faster, predictable)"
+msgstr "仅吸附到活动物体的几何体（更快、更可预测）"
+
+#: ui/panel.py:362
+msgid "Snapping & Settings"
+msgstr "吸附与设置"
+
+#: preferences.py:420
+msgid "Snapshot the target's clean normals before a destructive cut and bind a Data Transfer modifier afterwards, so the n-gon faces the boolean leaves shade flat instead of smearing (the boolean-shading fix)"
+msgstr "在破坏性切割前快照目标的干净法线，之后绑定数据传递修改器，使布尔留下的 n 边形面平直着色而非涂抹（布尔着色修复）"
+
+#: operators/cutters.py:151
+msgid "Solidify the extracted patch into a closed volume by this much (0 = leave a flat face patch)"
+msgstr "将提取的补片按此厚度实体化为封闭体积（0 = 保留平面补片）"
+
+#: operators/draw_cut.py:82
+#: ui/panel.py:398
+msgid "Solver"
+msgstr "求解器"
+
+#: ui/menu.py:73
+msgid "Sort Modifier Stack"
+msgstr "排序修改器堆栈"
+
+#: operators/hardops.py:423
+msgid "Sort every selected mesh, not just the active one"
+msgstr "排序所有选中的网格，而不仅是活动网格"
+
+#: operators/construction.py:188
+msgid "Spacing (m)"
+msgstr "间距（米）"
+
+#: operators/construction.py:91
+#: ui/menu.py:47
+msgid "Sphere"
+msgstr "球体"
+
+#: preferences.py:497
+msgid "Spin the copies about the grid origin"
+msgstr "使副本绕网格原点旋转"
+
+#: operators/boolean_ops.py:17
+msgid "Split each target in two along the cutter"
+msgstr "沿切割器将每个目标一分为二"
+
+#: preferences.py:157
+msgid "Square"
+msgstr "方形"
+
+#: preferences.py:157
+msgid "Square swept cross-section"
+msgstr "方形扫掠截面"
+
+#: operators/draw_cut.py:35
+#: ui/panel.py:29
+msgid "Star"
+msgstr "星形"
+
+#: ui/menu.py:33
+msgid "Star Cut"
+msgstr "星形切割"
+
+#: operators/cutters.py:157
+msgid "Stash As Cutter"
+msgstr "存储为切割器"
+
+#: preferences.py:88
+msgid "Stick drawing/anchor points to the face under the cursor; the ADD tool can also align its whole cut plane to that face (Surface plane mode)"
+msgstr "将绘制/锚点粘附到光标下方的面；ADD 工具还可将整个切割平面与该面对齐（表面平面模式）"
+
+#: operators/draw_cut.py:67
+msgid "Straight extrude along the drawing plane normal"
+msgstr "沿绘制平面法线直线挤出"
+
+#: operators/hardops.py:549
+msgid "Style"
+msgstr "样式"
+
+#: preferences.py:187
+msgid "Sub-divisions per cable span; more = smoother sag"
+msgstr "每段缆线的细分次数；越多垂弧越平滑"
+
+#: preferences.py:161
+msgid "Sub-divisions per span when draping the pipe over a surface; more = tighter contour following, slightly slower"
+msgstr "将管贴合到表面时每段的细分次数；越多轮廓越贴合，速度略慢"
+
+#: operators/decals.py:626
+msgid "Subdivisions"
+msgstr "细分"
+
+#: core/decal.py:21
+msgid "Subset"
+msgstr "子集"
+
+#: preferences.py:101
+#: ui/panel.py:382
+msgid "Surface"
+msgstr "表面"
+
+#: preferences.py:88
+msgid "Surface/Face Snap"
+msgstr "表面/面吸附"
+
+#: ui/menu.py:100
+msgid "Sweep (Follow Me)"
+msgstr "扫掠（跟随）"
+
+#: operators/hardops.py:557
+msgid "Sweep radius: the groove's bite depth / the bead's height"
+msgstr "扫掠半径：凹槽的切入深度 / 凸条的高度"
+
+#: operators/draw_cut.py:68
+msgid "Taper the cut along the camera rays (perspective)"
+msgstr "沿相机射线渐缩切割（透视）"
+
+#: operators/decals.py:404
+msgid "Target has no UV map -- unwrap it first"
+msgstr "目标没有 UV 贴图 -- 请先展开"
+
+#: operators/construction.py:183
+msgid "The grid spans +/- this distance on both axes"
+msgstr "网格在两个轴向上均跨 +/- 此距离"
+
+#: operators/cutters.py:151
+#: operators/offset.py:29
+msgid "Thickness"
+msgstr "厚度"
+
+#: preferences.py:527
+msgid "Thickness of the drawn shape outline (scaled by the UI scale)"
+msgstr "绘制形状轮廓的厚度（随界面缩放缩放）"
+
+#: preferences.py:403
+msgid "Thin recessed panel-line along the cut boundary (small round bead)"
+msgstr "沿切割边界的细凹陷分模线（小圆凸条）"
+
+#: operators/hardops.py:130
+msgid "Toggle"
+msgstr "切换"
+
+#: operators/trim_editor.py:561
+msgid "Tolerance"
+msgstr "容差"
+
+#: ui/panel.py:451
+msgid "Topology & Shading"
+msgstr "拓扑与着色"
+
+#: preferences.py:586
+msgid "Topology & shading"
+msgstr "拓扑与着色"
+
+#: preferences.py:363
+msgid "Transfer Shading"
+msgstr "传递着色"
+
+#: operators/decals.py:65
+msgid "Trim Cell"
+msgstr "修剪单元格"
+
+#: operators/decals.py:57
+msgid "Trim Columns"
+msgstr "修剪列"
+
+#: preferences.py:414
+msgid "Trim Lift (m)"
+msgstr "修剪抬升（米）"
+
+#: preferences.py:408
+msgid "Trim Radius (m)"
+msgstr "修剪半径（米）"
+
+#: operators/decals.py:70
+msgid "Trim Region"
+msgstr "修剪区域"
+
+#: operators/decals.py:61
+msgid "Trim Rows"
+msgstr "修剪行"
+
+#: ui/trim_panel.py:12
+msgid "Trim Sheet Editor"
+msgstr "修剪表编辑器"
+
+#: operators/decals.py:57
+msgid "Trim-sheet column count; 0 = use the whole image"
+msgstr "修剪表列数；0 = 使用整张图像"
+
+#: operators/decals.py:61
+msgid "Trim-sheet row count; 0 = use the whole image"
+msgstr "修剪表行数；0 = 使用整张图像"
+
+#: operators/construction.py:92
+#: ui/menu.py:49
+msgid "Tube"
+msgstr "管"
+
+#: operators/construction.py:85
+#: operators/decals.py:49
+msgid "Type"
+msgstr "类型"
+
+#: preferences.py:331
+msgid "UNION -- merge the part into the surface"
+msgstr "并集 —— 将部件合并到表面"
+
+#: operators/boolean_ops.py:15
+msgid "Union"
+msgstr "并集"
+
+#: operators/draw_cut.py:54
+msgid "Use the Boolean Solver set in the preferences"
+msgstr "使用偏好设置中设置的布尔求解器"
+
+#: preferences.py:500
+msgid "VENT shape: fraction of each pitch that is open slot (the rest stays solid rib; border ribs match)"
+msgstr "通风口形状：每个间距中开槽所占比例（其余保持为实体肋条；边界肋条匹配）"
+
+#: operators/hardops.py:170
+msgid "Value"
+msgstr "值"
+
+#: operators/draw_cut.py:37
+#: ui/panel.py:31
+msgid "Vent"
+msgstr "通风口"
+
+#: operators/draw_cut.py:37
+msgid "Vent / grill: parallel louvre slots filling the drawn rectangle (slat count from [ ], slot ratio from preferences)"
+msgstr "通风口 / 格栅：填充所绘制矩形的平行百叶槽（叶片数量来自 [ ]，开槽比例来自偏好设置）"
+
+#: preferences.py:500
+msgid "Vent Slot Ratio"
+msgstr "通风口开槽比例"
+
+#: operators/pipe.py:532
+#: ui/panel.py:380
+msgid "Vertex"
+msgstr "顶点"
+
+#: operators/draw_cut.py:719
+msgid "Vertex snap: mesh too dense, disabled"
+msgstr "顶点吸附：网格过于密集，已禁用"
+
+#: preferences.py:82
+msgid "Vertex/Edge Snap"
+msgstr "顶点/边吸附"
+
+#: preferences.py:100
+msgid "View"
+msgstr "视图"
+
+#: preferences.py:115
+msgid "Visible Meshes"
+msgstr "可见网格"
+
+#: operators/hardops.py:262
+#: operators/hardops.py:464
+msgid "Weighted Normal"
+msgstr "加权法向"
+
+#: operators/pipe.py:694
+msgid "Weld coincident vertices between repeats (one continuous hose instead of separate links)"
+msgstr "焊接重复之间的重合顶点（一根连续的软管而非分离的链节）"
+
+#: preferences.py:109
+msgid "Which geometry vertex/edge/surface snapping considers"
+msgstr "顶点/边/表面吸附所考虑的几何体"
+
+#: operators/decals.py:65
+msgid "Which grid cell of the trim sheet to place (cycle with Up/Down arrows)"
+msgstr "要放置的装饰板网格单元（用上/下箭头切换）"
+
+#: ui/panel.py:312
+msgid "While drawing"
+msgstr "绘制时"
+
+#: preferences.py:435
+msgid "While drawing a Cut/Make/Intersect, show the actual boolean RESULT live on the target (a temporary modifier, removed on commit/cancel) instead of only the wire cutter cage. Toggle with J while drawing; skipped on heavy targets for speed"
+msgstr "绘制切割/创建/相交时，在目标上实时显示实际的布尔结果（临时修改器，确认/取消时移除），而不仅显示线框切割笼。绘制时按 J 切换；在复杂目标上为提速会跳过"
+
+#: preferences.py:158
+msgid "Wide rectangular swept cross-section"
+msgstr "宽矩形扫掠横截面"
+
+#: operators/trim_editor.py:566
+msgid "Width of the feather band just past the tolerance where alpha fades out, for a soft anti-aliased edge"
+msgstr "超出容差后 alpha 淡出的羽化带宽度，用于柔和的抗锯齿边缘"
+
+#: operators/hardops.py:249
+msgid "Width of the micro bevel; use 'Auto Width' to scale it to the object, else this fixed value"
+msgstr "微倒角宽度；使用“自动宽度”按物体缩放，否则使用此固定值"
+
+#: operators/hardops.py:133
+#: ui/menu.py:82
+msgid "Wireframe"
+msgstr "线框"
+
+#: operators/trim_editor.py:576
+msgid "Work on a Copy"
+msgstr "在副本上操作"
+
+#: preferences.py:103
+msgid "World X-axis aligned grid"
+msgstr "对齐世界 X 轴的网格"
+
+#: preferences.py:104
+msgid "World Y-axis aligned grid"
+msgstr "对齐世界 Y 轴的网格"
+
+#: preferences.py:105
+msgid "World Z-axis aligned grid"
+msgstr "对齐世界 Z 轴的网格"
+
+#: preferences.py:491
+msgid "World axis the cutter array repeats along; Radial spins the copies about the construction-plane / grid origin (set it live with H) for bolt circles"
+msgstr "切割器阵列重复所沿的世界轴；径向会围绕构造平面/网格原点旋转副本（按 H 实时设置），用于螺栓圆周"
+
+#: preferences.py:352
+msgid "World grid spacing for insert factory snapping"
+msgstr "插入工厂吸附所用的世界网格间距"
+
+#: preferences.py:76
+msgid "World-scale grid spacing (meters); consistent on the projection plane, camera-independent snap"
+msgstr "世界比例网格间距（米）；在投影平面上保持一致，与相机无关的吸附"
+
+#: preferences.py:357
+msgid "Wrap placed parts onto the surface with a shrinkwrap (wrap / conform)"
+msgstr "用缩裹将放置的部件包裹到表面（包裹/贴合）"
+
+#: preferences.py:103
+#: preferences.py:496
+msgid "X"
+msgstr "X"
+
+#: operators/construction.py:18
+msgid "XY (Top)"
+msgstr "XY（顶）"
+
+#: operators/construction.py:19
+msgid "XZ (Front)"
+msgstr "XZ（前）"
+
+#: preferences.py:104
+#: preferences.py:496
+msgid "Y"
+msgstr "Y"
+
+#: operators/construction.py:20
+msgid "YZ (Side)"
+msgstr "YZ（侧）"
+
+#: preferences.py:105
+#: preferences.py:496
+msgid "Z"
+msgstr "Z"
+
+#: ui/panel.py:447
+msgid "−/=  inset       ,/.  rotate"
+msgstr "−/=  内插       ,/.  旋转"
+
+#: operators/construction.py:177
+msgctxt "Operator"
+msgid "Add Construction Grid"
+msgstr "添加构造网格"
+
+#: operators/construction.py:141
+msgctxt "Operator"
+msgid "Add Guide Line"
+msgstr "添加辅助线"
+
+#: operators/construction.py:80
+msgctxt "Operator"
+msgid "Add Primitive"
+msgstr "添加基本体"
+
+#: operators/trim_editor.py:633
+#: ui/trim_panel.py:56
+msgctxt "Operator"
+msgid "Add Region"
+msgstr "添加区域"
+
+#: operators/construction.py:142
+msgctxt "Operator"
+msgid "Add a construction guide line at the 3D cursor to snap against (construction guides)"
+msgstr "在 3D 游标处添加一条用于吸附的构造辅助线（构造辅助）"
+
+#: operators/trim_editor.py:634
+msgctxt "Operator"
+msgid "Add a new UV region to the active trim sheet"
+msgstr "向活动装饰板添加新的 UV 区域"
+
+#: operators/construction.py:178
+msgctxt "Operator"
+msgid "Add a wire reference grid at the 3D cursor to model against (a construction plane)"
+msgstr "在 3D 游标处添加线框参考网格以建模（构造平面）"
+
+#: operators/assets.py:341
+msgctxt "Operator"
+msgid "Append the first material from a .blend and apply it to the selected meshes (material insert)"
+msgstr "从 .blend 追加第一个材质并应用到所选网格（材质插入）"
+
+#: operators/cutters.py:24
+#: ui/panel.py:102
+msgctxt "Operator"
+msgid "Apply Cutters"
+msgstr "应用切割器"
+
+#: ui/panel.py:515
+msgctxt "Operator"
+msgid "Apply Cutters (Bake)"
+msgstr "应用切割器（烘焙）"
+
+#: operators/trim_editor.py:721
+msgctxt "Operator"
+msgid "Apply Region to Decal"
+msgstr "将区域应用到贴花"
+
+#: operators/cutters.py:25
+msgctxt "Operator"
+msgid "Apply all live Hardflow booleans on the active object (bake); delete cutters no longer used"
+msgstr "应用活动物体上所有活动的 Hardflow 布尔（烘焙）；删除不再使用的切割器"
+
+#: operators/assets.py:314
+msgctxt "Operator"
+msgid "Asset from .blend"
+msgstr "来自 .blend 的资产"
+
+#: operators/hardops.py:165
+msgctxt "Operator"
+msgid "Assign a random viewport color to each selected object for fast block-out readability (sets shading to Object color)"
+msgstr "为每个所选物体分配随机视图颜色，便于快速查看粗模（将着色设为物体颜色）"
+
+#: ui/menu.py:184
+msgctxt "Operator"
+msgid "Atlas Decals"
+msgstr "图集贴花"
+
+#: operators/decals.py:837
+msgctxt "Operator"
+msgid "Atlas Image Decals"
+msgstr "图集图像贴花"
+
+#: operators/decals.py:620
+msgctxt "Operator"
+msgid "Auto-cut Decal to Surface"
+msgstr "自动将贴花切割到表面"
+
+#: ui/menu.py:180
+msgctxt "Operator"
+msgid "Auto-cut to Surface"
+msgstr "自动切割到表面"
+
+#: operators/decals.py:372
+msgctxt "Operator"
+msgid "Bake Decal to Map"
+msgstr "将贴花烘焙到贴图"
+
+#: operators/decals.py:373
+msgctxt "Operator"
+msgid "Bake the decal's detail into an image on the target mesh (Cycles, selected-to-active). Target needs a UV map"
+msgstr "将贴花细节烘焙到目标网格的图像中（Cycles，所选到活动）。目标需要 UV 贴图"
+
+#: operators/decals.py:679
+msgctxt "Operator"
+msgid "Bake the selected high-poly source's normal onto the active plane and save it into the decal library (create decal). Active plane needs a UV map"
+msgstr "将所选高模源的法线烘焙到活动平面并保存到贴花库（创建贴花）。活动平面需要 UV 贴图"
+
+#: operators/edge_tool.py:78
+msgctxt "Operator"
+msgid "Bevel an edge by dragging, without entering Edit Mode"
+msgstr "通过拖拽倒角边，无需进入编辑模式"
+
+#: operators/boolean_ops.py:23
+#: ui/panel.py:100
+msgctxt "Operator"
+msgid "Boolean (Selected)"
+msgstr "布尔（所选）"
+
+#: operators/boolean_ops.py:24
+msgctxt "Operator"
+msgid "Boolean the selected meshes using the active object as the cutter (Difference / Union / Intersect / Slice)"
+msgstr "使用活动物体作为切割器对所选网格执行布尔（差集/并集/交集/切片）"
+
+#: operators/construction.py:44
+msgctxt "Operator"
+msgid "Bridge two selected profile objects into a solid (loft / bridge); the two loops need an equal vertex count"
+msgstr "将两个所选轮廓物体桥接为实体（放样/桥接）；两个环需要相同的顶点数"
+
+#: ui/panel.py:245
+msgctxt "Operator"
+msgid "Cable"
+msgstr "线缆"
+
+#: operators/trim_editor.py:83
+msgctxt "Operator"
+msgid "Carve a trim sheet into custom UV rectangles: LMB drag = new region, drag handles = resize, C = split, X = delete"
+msgstr "将装饰板雕刻为自定义 UV 矩形：左键拖拽 = 新区域，拖拽手柄 = 调整大小，C = 拆分，X = 删除"
+
+#: operators/decals.py:595
+msgctxt "Operator"
+msgid "Change which trim-sheet cell a placed decal uses by rewriting its UVs (interactive trim-UV editor)"
+msgstr "通过重写 UV 更改已放置贴花使用的装饰板单元（交互式装饰板 UV 编辑器）"
+
+#: ui/panel.py:182
+msgctxt "Operator"
+msgid "Circle"
+msgstr "圆"
+
+#: ui/panel.py:163
+msgctxt "Operator"
+msgid "Cone"
+msgstr "圆锥"
+
+#: ui/panel.py:280
+msgctxt "Operator"
+msgid "Copy Mat"
+msgstr "复制材质"
+
+#: operators/hardops.py:189
+msgctxt "Operator"
+msgid "Copy the active object's active material to all selected meshes"
+msgstr "将活动物体的活动材质复制到所有所选网格"
+
+#: operators/cutters.py:145
+msgctxt "Operator"
+msgid "Copy the selected faces into a new standalone cutter object (optionally solidified into a closed volume), at the same world transform -- reuse the exact form to cut somewhere else. Edit Mode, face selection"
+msgstr "将所选面复制为新的独立切割器物体（可选实体化为封闭体积），保持相同世界变换——以在别处复用相同形状进行切割。编辑模式，面选择"
+
+#: operators/decals.py:678
+msgctxt "Operator"
+msgid "Create Decal (Bake)"
+msgstr "创建贴花（烘焙）"
+
+#: operators/construction.py:81
+msgctxt "Operator"
+msgid "Create a starter primitive at the 3D cursor to model on with the direct-modeling tools (Push/Pull, Offset, draw)"
+msgstr "在 3D 游标处创建起始基本体，以使用直接建模工具（推/拉、偏移、绘制）在其上建模"
+
+#: ui/decal_panel.py:51
+#: ui/menu.py:176
+msgctxt "Operator"
+msgid "Create from High-poly"
+msgstr "从高模创建"
+
+#: ui/panel.py:156
+msgctxt "Operator"
+msgid "Cube"
+msgstr "立方体"
+
+#: ui/panel.py:139
+msgctxt "Operator"
+msgid "Cut Now"
+msgstr "立即切割"
+
+#: operators/cutters.py:220
+#: ui/panel.py:517
+msgctxt "Operator"
+msgid "Cutter Scroll"
+msgstr "切割器滚动"
+
+#: ui/panel.py:275
+msgctxt "Operator"
+msgid "Cutters"
+msgstr "切割器"
+
+#: ui/panel.py:161
+msgctxt "Operator"
+msgid "Cylinder"
+msgstr "圆柱体"
+
+#: operators/decals.py:469
+msgctxt "Operator"
+msgid "Decal from Image"
+msgstr "从图像创建贴花"
+
+#: operators/cutters.py:127
+msgctxt "Operator"
+msgid "Delete Cutter"
+msgstr "删除切割体"
+
+#: operators/decals.py:356
+msgctxt "Operator"
+msgid "Delete Decal"
+msgstr "删除贴花"
+
+#: operators/decals.py:796
+msgctxt "Operator"
+msgid "Delete Library Decal"
+msgstr "删除库贴花"
+
+#: operators/decals.py:797
+msgctxt "Operator"
+msgid "Delete a decal image file from the library folder"
+msgstr "从库文件夹中删除贴花图像文件"
+
+#: operators/cutters.py:128
+msgctxt "Operator"
+msgid "Delete the cutter from the scene; boolean modifiers using it become ineffective (reversible with undo)"
+msgstr "从场景中删除切割体；使用它的布尔修改器将失效（可撤销）"
+
+#: operators/decals.py:357
+msgctxt "Operator"
+msgid "Delete the decal from the scene (reversible with undo)"
+msgstr "从场景中删除贴花（可撤销）"
+
+#: ui/panel.py:252
+msgctxt "Operator"
+msgid "Detail Along Path"
+msgstr "沿路径生成细节"
+
+#: ui/panel.py:88
+msgctxt "Operator"
+msgid "Draw  (%s)"
+msgstr "绘制（%s）"
+
+#: operators/pipe.py:600
+msgctxt "Operator"
+msgid "Draw a line on the surface, convert it to a round pipe"
+msgstr "在表面绘制线条，并将其转换为圆管"
+
+#: operators/pipe.py:654
+msgctxt "Operator"
+msgid "Draw a path and sweep a structural profile along it (Follow-Me / sweep): L / U / T / I / box cross-sections, P cycles"
+msgstr "绘制路径并沿其扫掠结构轮廓（跟随 / 扫掠）：L / U / T / I / 方形截面，P 循环切换"
+
+#: operators/hardflow_mode.py:575
+msgctxt "Operator"
+msgid "Draw a snapped footprint and boolean-cut it from the active mesh (Tab -> Add / Slice / Intersect)"
+msgstr "绘制吸附轮廓，并对活动网格进行布尔切割（Tab -> 添加 / 切片 / 交集）"
+
+#: operators/hardflow_mode.py:560
+msgctxt "Operator"
+msgid "Draw a snapped footprint on the Ghost Grid and extrude it into a solid (Tab -> Knife)"
+msgstr "在幽灵网格上绘制吸附轮廓，并将其挤出为实体（Tab -> 切割）"
+
+#: operators/pipe.py:612
+msgctxt "Operator"
+msgid "Draw anchor points on the surface, connect them with a sagging cable / rope"
+msgstr "在表面绘制锚点，用下垂的线缆 / 绳索连接它们"
+
+#: ui/panel.py:212
+msgctxt "Operator"
+msgid "Edge Bevel"
+msgstr "边倒角"
+
+#: operators/assets.py:377
+msgctxt "Operator"
+msgid "Export INSERT"
+msgstr "导出 INSERT"
+
+#: operators/cutters.py:144
+#: ui/panel.py:228
+msgctxt "Operator"
+msgid "Extract Cutter"
+msgstr "提取切割体"
+
+#: operators/push_pull.py:25
+msgctxt "Operator"
+msgid "Extrude a face along its normal by dragging (Push/Pull)"
+msgstr "拖拽沿法线挤出面（推 / 拉）"
+
+#: operators/trim_editor.py:673
+msgctxt "Operator"
+msgid "Fill the active trim sheet with an equal cols × rows grid of regions (a starting point to then tweak by hand)"
+msgstr "用等分的列 × 行网格区域填充活动修剪表（作为随后手动调整的起点）"
+
+#: operators/hardops.py:451
+msgctxt "Operator"
+msgid "Fix Boolean Shading"
+msgstr "修复布尔着色"
+
+#: ui/panel.py:220
+msgctxt "Operator"
+msgid "Fix Shading"
+msgstr "修复着色"
+
+#: ui/trim_panel.py:38
+msgctxt "Operator"
+msgid "From Grid"
+msgstr "从栅格"
+
+#: ui/panel.py:191
+msgctxt "Operator"
+msgid "Grid"
+msgstr "栅格"
+
+#: ui/panel.py:192
+msgctxt "Operator"
+msgid "Guide"
+msgstr "引导线"
+
+#: operators/hardflow_mode.py:574
+msgctxt "Operator"
+msgid "HardFlow Mode Cut"
+msgstr "HardFlow 模式切割"
+
+#: operators/hardflow_mode.py:559
+msgctxt "Operator"
+msgid "HardFlow Mode Extrude"
+msgstr "HardFlow 模式挤出"
+
+#: operators/hardflow_mode.py:538
+msgctxt "Operator"
+msgid "HardFlow Mode Knife"
+msgstr "HardFlow 模式刀具"
+
+#: operators/pipe.py:611
+msgctxt "Operator"
+msgid "Hardflow Cable"
+msgstr "Hardflow 线缆"
+
+#: operators/hardops.py:188
+msgctxt "Operator"
+msgid "Hardflow Copy Material"
+msgstr "Hardflow 复制材质"
+
+#: operators/pipe.py:677
+msgctxt "Operator"
+msgid "Hardflow Detail Along Path"
+msgstr "Hardflow 沿路径生成细节"
+
+#: operators/hardops.py:126
+msgctxt "Operator"
+msgid "Hardflow Display Toggle"
+msgstr "Hardflow 显示切换"
+
+#: operators/draw_cut.py:77
+msgctxt "Operator"
+msgid "Hardflow Draw"
+msgstr "Hardflow 绘制"
+
+#: operators/edge_tool.py:77
+msgctxt "Operator"
+msgid "Hardflow Edge Bevel"
+msgstr "Hardflow 边倒角"
+
+#: operators/hardops.py:96
+msgctxt "Operator"
+msgid "Hardflow Edge Weight"
+msgstr "Hardflow 边权重"
+
+#: operators/construction.py:43
+msgctxt "Operator"
+msgid "Hardflow Loft"
+msgstr "Hardflow 放样"
+
+#: operators/edge_tool.py:232
+msgctxt "Operator"
+msgid "Hardflow Loop Cut"
+msgstr "Hardflow 环切"
+
+#: operators/offset.py:22
+msgctxt "Operator"
+msgid "Hardflow Offset"
+msgstr "Hardflow 偏移"
+
+#: operators/pipe.py:599
+msgctxt "Operator"
+msgid "Hardflow Pipe"
+msgstr "Hardflow 管道"
+
+#: operators/push_pull.py:24
+msgctxt "Operator"
+msgid "Hardflow Push/Pull"
+msgstr "Hardflow 推 / 拉"
+
+#: operators/hardops.py:164
+msgctxt "Operator"
+msgid "Hardflow Random Colors"
+msgstr "Hardflow 随机颜色"
+
+#: operators/pipe.py:653
+msgctxt "Operator"
+msgid "Hardflow Sweep"
+msgstr "Hardflow 扫掠"
+
+#: operators/edge_tool.py:233
+msgctxt "Operator"
+msgid "Insert an edge loop by picking an edge, without Edit Mode"
+msgstr "通过拾取一条边插入循环边，无需进入编辑模式"
+
+#: operators/offset.py:23
+msgctxt "Operator"
+msgid "Inset a face's border inward by a measured distance (Offset)"
+msgstr "按测量距离将面的边界向内收缩（偏移）"
+
+#: operators/hardops.py:452
+msgctxt "Operator"
+msgid "Kill the smeared shading a boolean leaves on n-gon faces: angle-based smooth shading + a face-area Weighted Normal so flat faces around the cut read crisp. Re-runs update in place; the stack is left in hard-surface order"
+msgstr "消除布尔在 n 边形面上留下的涂抹着色：基于角度的平滑着色 + 面面积加权法线，使切口周围的平面显得锐利。重新运行会就地更新；修改器堆栈保持硬表面顺序"
+
+#: operators/decals.py:490
+msgctxt "Operator"
+msgid "Load Height Map"
+msgstr "加载高度贴图"
+
+#: ui/trim_panel.py:26
+msgctxt "Operator"
+msgid "Load Sheet…"
+msgstr "加载图集…"
+
+#: operators/trim_editor.py:402
+msgctxt "Operator"
+msgid "Load Trim Sheet"
+msgstr "加载修剪表"
+
+#: ui/menu.py:171
+msgctxt "Operator"
+msgid "Load Trim Sheet..."
+msgstr "加载修剪表..."
+
+#: operators/decals.py:491
+msgctxt "Operator"
+msgid "Load a grayscale image as the decal height map -- drives Parallax + Relief depth independently of the color image. Clears the field if the browser is cancelled elsewhere"
+msgstr "加载灰度图像作为贴花高度贴图——独立于颜色图像驱动视差 + 浮雕深度。若在别处取消浏览器则清空该字段"
+
+#: operators/trim_editor.py:403
+msgctxt "Operator"
+msgid "Load an image and make it the active trim sheet to edit into custom UV regions"
+msgstr "加载图像并将其设为活动修剪表，以编辑为自定义 UV 区域"
+
+#: operators/decals.py:515
+msgctxt "Operator"
+msgid "Load this library image and place it as a decal on the surface"
+msgstr "加载此库图像并将其作为贴花放置在表面上"
+
+#: ui/panel.py:193
+msgctxt "Operator"
+msgid "Loft"
+msgstr "放样"
+
+#: ui/panel.py:214
+msgctxt "Operator"
+msgid "Loop Cut"
+msgstr "环切"
+
+#: operators/trim_editor.py:548
+msgctxt "Operator"
+msgid "Make a chosen colour transparent on the trim sheet -- knock out a green-screen / flat background so the graphics on it separate cleanly. Sample the colour with the picker's eyedropper, or auto-sample the sheet corner"
+msgstr "在修剪表上将选定颜色设为透明——抠掉绿幕 / 纯色背景，使其上的图形干净分离。使用拾色器的吸管取样颜色，或自动取样图集角落"
+
+#: operators/hardops.py:518
+msgctxt "Operator"
+msgid "Make the active mesh's normals point consistently outward (the common fix for booleans that won't cut)"
+msgstr "使活动网格的法线一致朝外（布尔无法切割时的常见修复）"
+
+#: operators/cutters.py:106
+msgctxt "Operator"
+msgid "Make the cutter visible, select and activate it (to edit)"
+msgstr "使切割体可见、选中并激活（以便编辑）"
+
+#: operators/decals.py:335
+msgctxt "Operator"
+msgid "Make the decal visible, select and activate it (to edit)"
+msgstr "使贴花可见、选中并激活（以便编辑）"
+
+#: operators/assets.py:444
+msgctxt "Operator"
+msgid "Mark as Asset"
+msgstr "标记为资产"
+
+#: operators/assets.py:445
+msgctxt "Operator"
+msgid "Mark the selected objects as Blender assets (Asset Browser) and generate previews, so kit parts can be dragged in"
+msgstr "将选中物体标记为 Blender 资产（资产浏览器）并生成预览，以便拖入套件部件"
+
+#: operators/decals.py:567
+msgctxt "Operator"
+msgid "Match Decal to Surface"
+msgstr "贴花匹配表面"
+
+#: operators/decals.py:568
+msgctxt "Operator"
+msgid "Match the decal's blend (metallic / roughness / tint) to its target's active material so it reads as the same surface (material match)"
+msgstr "将贴花的混合（金属度 / 粗糙度 / 色调）匹配到目标的活动材质，使其看起来像同一表面（材质匹配）"
+
+#: ui/menu.py:178
+msgctxt "Operator"
+msgid "Match to Surface"
+msgstr "匹配到表面"
+
+#: operators/assets.py:340
+msgctxt "Operator"
+msgid "Material INSERT"
+msgstr "材质 INSERT"
+
+#: operators/decals.py:648
+msgctxt "Operator"
+msgid "Move the selected decal(s) onto the active mesh: re-point their shrinkwrap and re-parent, keeping the world pose (decal transfer)"
+msgstr "将所选贴花移动到活动网格上：重定向其缩裹并重新设置父级，保持世界姿态（贴花转移）"
+
+#: ui/panel.py:186
+msgctxt "Operator"
+msgid "N-gon"
+msgstr "N 边形"
+
+#: ui/panel.py:209
+msgctxt "Operator"
+msgid "Offset"
+msgstr "偏移"
+
+#: operators/hardops.py:213
+msgctxt "Operator"
+msgid "One-shot hard-surface init on the selected mesh(es): mark the hard edges sharp + weighted by dihedral angle, add an angle-driven non-destructive Bevel, and cap the stack with a Weighted Normal so the shading reads clean. Re-runs / F9 update the same modifiers in place (never stacks copies)"
+msgstr "对选中网格执行一次性硬表面初始化：按二面角将硬边标记为锐边并加权，添加角度驱动的非破坏性倒角，并在堆栈末端加上加权法线，使着色干净。重新运行 / F9 会就地更新相同修改器（绝不叠加副本）"
+
+#: ui/trim_panel.py:36
+msgctxt "Operator"
+msgid "Open Editor"
+msgstr "打开编辑器"
+
+#: operators/decals.py:838
+msgctxt "Operator"
+msgid "Pack all image decals' textures into one atlas image and retarget their UVs + material to it (fewer materials)"
+msgstr "将所有图像贴花的纹理打包进一张图集图像，并将其 UV + 材质重定向到该图像（减少材质数量）"
+
+#: operators/hardops.py:542
+#: ui/panel.py:226
+msgctxt "Operator"
+msgid "Panel Line"
+msgstr "面板线"
+
+#: operators/assets.py:315
+msgctxt "Operator"
+msgid "Pick a .blend file and place its objects as an INSERT"
+msgstr "选择一个 .blend 文件并将其物体作为 INSERT 放置"
+
+#: operators/decals.py:534
+msgctxt "Operator"
+msgid "Pick a trim-sheet image and place one of its grid cells as a decal (cycle cells with Up/Down while placing)"
+msgstr "选择修剪表图像并将其一个网格单元作为贴花放置（放置时用 上 / 下 循环切换单元）"
+
+#: operators/decals.py:470
+msgctxt "Operator"
+msgid "Pick an image file and place it as a decal on the surface (color + alpha, sized to the image's aspect ratio)"
+msgstr "选择图像文件并将其作为贴花放置在表面上（颜色 + Alpha，尺寸按图像宽高比）"
+
+#: ui/panel.py:141
+msgctxt "Operator"
+msgid "Pie (Alt+Q)"
+msgstr "饼形菜单 (Alt+Q)"
+
+#: ui/menu.py:210
+msgctxt "Operator"
+msgid "Pie Menu"
+msgstr "饼形菜单"
+
+#: ui/panel.py:244
+msgctxt "Operator"
+msgid "Pipe"
+msgstr "管道"
+
+#: operators/assets.py:44
+msgctxt "Operator"
+msgid "Place Asset"
+msgstr "放置资产"
+
+#: operators/decals.py:44
+msgctxt "Operator"
+msgid "Place Decal"
+msgstr "放置贴花"
+
+#: ui/menu.py:169
+msgctxt "Operator"
+msgid "Place Image..."
+msgstr "放置图像..."
+
+#: operators/assets.py:326
+msgctxt "Operator"
+msgid "Place Library Asset"
+msgstr "放置库资产"
+
+#: operators/decals.py:514
+msgctxt "Operator"
+msgid "Place Library Decal"
+msgstr "放置库贴花"
+
+#: operators/trim_editor.py:702
+msgctxt "Operator"
+msgid "Place Region"
+msgstr "放置区域"
+
+#: operators/assets.py:45
+msgctxt "Operator"
+msgid "Place a kit part (INSERT) onto the surface under the cursor (wheel = scale, [ / ] = roll, click = place)"
+msgstr "将套件部件（INSERT）放置到光标下方的表面（滚轮 = 缩放，[ / ] = 旋转，单击 = 放置）"
+
+#: operators/assets.py:327
+msgctxt "Operator"
+msgid "Place this library .blend as an INSERT on the surface"
+msgstr "将此库 .blend 作为 INSERT 放置到表面"
+
+#: operators/trim_editor.py:703
+msgctxt "Operator"
+msgid "Place this trim-sheet region as a decal on the surface under the cursor (cycle regions with Up/Down)"
+msgstr "将此修剪表区域作为贴花放置到光标下方的表面（用上/下切换区域）"
+
+#: ui/panel.py:158
+msgctxt "Operator"
+msgid "Plane"
+msgstr "平面"
+
+#: ui/panel.py:177
+msgctxt "Operator"
+msgid "Polygon"
+msgstr "多边形"
+
+#: ui/panel.py:207
+msgctxt "Operator"
+msgid "Push/Pull"
+msgstr "推/拉"
+
+#: operators/hardops.py:127
+msgctxt "Operator"
+msgid "Quick viewport toggles: wireframe / sharp edges / cutters"
+msgstr "快速视图切换：线框 / 锐边 / 切割器"
+
+#: ui/panel.py:278
+msgctxt "Operator"
+msgid "Random Colors"
+msgstr "随机颜色"
+
+#: operators/decals.py:594
+msgctxt "Operator"
+msgid "Re-trim Decal"
+msgstr "重新裁剪贴花"
+
+#: operators/hardops.py:517
+#: ui/panel.py:123
+msgctxt "Operator"
+msgid "Recalculate Normals"
+msgstr "重新计算法线"
+
+#: ui/panel.py:173
+msgctxt "Operator"
+msgid "Rectangle"
+msgstr "矩形"
+
+#: operators/trim_editor.py:672
+msgctxt "Operator"
+msgid "Regions from Grid"
+msgstr "从网格生成区域"
+
+#: operators/trim_editor.py:547
+msgctxt "Operator"
+msgid "Remove Background (Chroma Key)"
+msgstr "移除背景（色键）"
+
+#: ui/trim_panel.py:40
+msgctxt "Operator"
+msgid "Remove Background…"
+msgstr "移除背景…"
+
+#: operators/trim_editor.py:652
+msgctxt "Operator"
+msgid "Remove Region"
+msgstr "移除区域"
+
+#: operators/trim_editor.py:653
+msgctxt "Operator"
+msgid "Remove this UV region from the active trim sheet"
+msgstr "从活动修剪表中移除此 UV 区域"
+
+#: operators/decals.py:766
+msgctxt "Operator"
+msgid "Rename Library Decal"
+msgstr "重命名库贴花"
+
+#: operators/decals.py:767
+msgctxt "Operator"
+msgid "Rename a decal image file in the library folder"
+msgstr "重命名库文件夹中的贴花图像文件"
+
+#: operators/hardops.py:410
+msgctxt "Operator"
+msgid "Reorder the active object's modifiers into hard-surface order: Booleans on top, Bevel below them, Weighted Normal / Triangulate at the bottom. Mirror sits below the booleans (or above, with 'Mirror First')"
+msgstr "将活动物体的修改器重排为硬表面顺序：布尔在最上，倒角在其下，加权法线 / 三角化在最下。镜像位于布尔之下（或使用「镜像优先」时位于其上）"
+
+#: operators/pipe.py:678
+msgctxt "Operator"
+msgid "Repeat a detail mesh along the active curve (chain links, cable clips, corrugated hose...): an instanced copy with Array (Fit Curve) + Curve deform modifiers, fully non-destructive. Pick the mesh as Detail in the Curves panel, select a path curve, run"
+msgstr "沿活动曲线重复细节网格（链条、线缆夹、波纹管…）：以阵列（适配曲线）+ 曲线变形修改器生成实例副本，完全非破坏性。在「曲线」面板中选择网格作为细节，选中路径曲线，运行"
+
+#: operators/trim_editor.py:722
+msgctxt "Operator"
+msgid "Rewrite the selected decal's UVs to this trim-sheet region (re-trim without re-placing)"
+msgstr "将所选贴花的 UV 重写为此修剪表区域（重新裁剪而无需重新放置）"
+
+#: operators/hardops.py:543
+msgctxt "Operator"
+msgid "Route a recessed groove or a raised weld bead along the selected edges -- the mesh's own edge flow becomes real panel-line geometry (closed loops sweep as one solid ring; T / X junctions split into clean strips)"
+msgstr "沿所选边生成凹陷凹槽或凸起焊缝——网格自身的边流将成为真实的分件线几何（闭合环扫掠为一个实心环；T / X 交叉拆分为干净的条带）"
+
+#: operators/cutters.py:105
+msgctxt "Operator"
+msgid "Select Cutter"
+msgstr "选择切割器"
+
+#: operators/decals.py:334
+msgctxt "Operator"
+msgid "Select Decal"
+msgstr "选择贴花"
+
+#: operators/hardops.py:97
+msgctxt "Operator"
+msgid "Set bevel weight / crease on the selected edges so a weight-limited Bevel or creased Subdivision can act on them (Edit Mode)"
+msgstr "在所选边上设置倒角权重 / 折痕，使受权重限制的倒角或带折痕的细分可作用于它们（编辑模式）"
+
+#: ui/panel.py:273
+msgctxt "Operator"
+msgid "Sharp"
+msgstr "锐边"
+
+#: ui/panel.py:217
+msgctxt "Operator"
+msgid "Smart Sharpen"
+msgstr "智能锐化"
+
+#: operators/hardops.py:212
+msgctxt "Operator"
+msgid "Smart Sharpen / Init HardSurface"
+msgstr "智能锐化 / 初始化硬表面"
+
+#: operators/hardflow_mode.py:539
+msgctxt "Operator"
+msgid "Snapped polyline knife driven by the HardFlow core snapping + command modules (Tab -> Extrude)"
+msgstr "由 HardFlow 核心吸附 + 命令模块驱动的吸附折线切割（Tab -> 挤出）"
+
+#: ui/panel.py:481
+msgctxt "Operator"
+msgid "Sort (Hard-Surface Order)"
+msgstr "排序（硬表面顺序）"
+
+#: operators/hardops.py:409
+msgctxt "Operator"
+msgid "Sort Modifier Stack"
+msgstr "排序修改器堆栈"
+
+#: ui/panel.py:222
+msgctxt "Operator"
+msgid "Sort Stack"
+msgstr "排序堆栈"
+
+#: ui/panel.py:166
+msgctxt "Operator"
+msgid "Sphere"
+msgstr "球体"
+
+#: operators/cutters.py:221
+msgctxt "Operator"
+msgid "Step through the cutters that carved the active object: reveal one cutter, select it (to move / edit / delete), and hide the rest. Wheel / arrows scroll, Enter keeps the shown cutter selected, Esc restores visibility"
+msgstr "逐个浏览切割活动物体的切割器：显示一个切割器，选中它（以移动 / 编辑 / 删除），并隐藏其余。滚轮 / 方向键滚动，回车保留当前显示的切割器选中状态，Esc 恢复可见性"
+
+#: operators/decals.py:45
+msgctxt "Operator"
+msgid "Stick a decal onto the surface under the cursor (wheel = scale, [ / ] = roll, click = place)"
+msgstr "将贴花粘贴到光标下方的表面（滚轮 = 缩放，[ / ] = 旋转，单击 = 放置）"
+
+#: operators/decals.py:621
+msgctxt "Operator"
+msgid "Subdivide the decal and trim faces that float over a boolean cut / edge so it follows the surface boundary"
+msgstr "细分贴花并裁剪浮在布尔切割 / 边之上的面，使其贴合表面边界"
+
+#: ui/panel.py:246
+msgctxt "Operator"
+msgid "Sweep"
+msgstr "扫掠"
+
+#: operators/decals.py:647
+msgctxt "Operator"
+msgid "Transfer Decal to Surface"
+msgstr "将贴花传递到表面"
+
+#: ui/menu.py:182
+msgctxt "Operator"
+msgid "Transfer to Surface"
+msgstr "传递到表面"
+
+#: operators/trim_editor.py:82
+msgctxt "Operator"
+msgid "Trim Sheet Editor"
+msgstr "修剪表编辑器"
+
+#: ui/menu.py:173
+msgctxt "Operator"
+msgid "Trim Sheet Editor..."
+msgstr "修剪表编辑器…"
+
+#: operators/decals.py:533
+msgctxt "Operator"
+msgid "Trim Sheet from Image"
+msgstr "从图像创建修剪表"
+
+#: ui/panel.py:168
+msgctxt "Operator"
+msgid "Tube"
+msgstr "管"
+
+#: ui/panel.py:271
+msgctxt "Operator"
+msgid "Wire"
+msgstr "线"
+
+#: operators/assets.py:378
+msgctxt "Operator"
+msgid "Write the selected objects to a .blend in the asset library and mark them as assets (asset-pack INSERT export)"
+msgstr "将所选物体写入资产库中的 .blend 并标记为资产（资产包 INSERT 导出）"

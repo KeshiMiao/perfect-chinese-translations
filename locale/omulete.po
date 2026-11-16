@@ -1,0 +1,161 @@
+# perfect-chinese: 1
+# id: omulete
+# kind: addon
+# module: bl_ext.blender_org.omUlete
+# name: omUlete
+# name_zh: 蛋格式导出器
+# translator: KeshiMiao
+# category: Import-Export
+# supported_versions: >=5.0.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: omUlette main/quickprops.py:29
+msgid "Add Property:"
+msgstr "添加属性："
+
+#: omUlette main/quickprops.py:35
+msgid "Additional collision props"
+msgstr "附加碰撞属性"
+
+#: omUlette main/omuExport.py:83
+msgid "Armatures and Animations"
+msgstr "骨架与动画"
+
+#: omUlette main/omuExport.py:201
+msgid "Cannot export only selected objects and armatures if no mesh is selected!"
+msgstr "未选择网格时，无法仅导出选中物体和骨架！"
+
+#: omUlette main/omuExport.py:97
+msgid "Collapse Character Nodes"
+msgstr "折叠角色节点"
+
+#: omUlette main/__init__.py:2
+msgid "Export"
+msgstr "导出"
+
+#: omUlette main/omuExport.py:149
+msgid "Export Options"
+msgstr "导出选项"
+
+#: omUlette main/omuExport.py:89
+msgid "Export rest pose as animation"
+msgstr "将静止姿态导出为动画"
+
+#: omUlette main/omuExport.py:97
+msgid "If this is set to true, node structure of aniamted characters will be flattened."
+msgstr "如果设为 true，动画角色的节点结构将被展平。"
+
+#: omUlette main/omuExport.py:83
+msgid "If this is set to true, then the armature will be exported. (animation export is not yet implemented.)\nthis will be ignored if no armatures are detected in the selected objects."
+msgstr "如果设为 true，将导出骨架。（动画导出尚未实现。）\n如果在选中物体中未检测到骨架，则此项将被忽略。"
+
+#: omUlette main/omuExport.py:77
+msgid "If this is set to true, then the model will be exported using only default normals. \nThis can reduce the vertex count on the exported model."
+msgstr "如果设为 true，模型将仅使用默认法线导出。\n这可减少导出模型的顶点数。"
+
+#: omUlette main/omuExport.py:71
+msgid "If this is set to true, then uvs will not be exported unless the relevant mesh has a texture applied. \nIn egg files, a vert cannot use two uv coords at once, so we generate multiple vertecies corisponding to each uv coordinate."
+msgstr "如果设为 true，则仅当相关网格应用了纹理时才导出 UV。\n在 egg 文件中，一个顶点不能同时使用两个 UV 坐标，因此我们会为每个 UV 坐标生成多个顶点。"
+
+#: omUlette main/omuExport.py:77
+msgid "Ignore custom normals"
+msgstr "忽略自定义法线"
+
+#: omUlette main/quickprops.py:19
+msgid "OmUlete quick properties"
+msgstr "OmUlete 快速属性"
+
+#: omUlette main/omuExport.py:204
+msgid "Please select (a) collection(s) to export from."
+msgstr "请选择要导出的集合。"
+
+#: omUlette main/omuExport.py:89
+msgid "Shortcut for exporting all armatures rest poses as a one-frame animation. Will always be in the same file.\n        This may be used for advanced animation blending.\n        The end result will be named <ARMATURE_NAME>_rest_pose"
+msgstr "用于将所有骨架的静止姿态导出为单帧动画的快捷方式。将始终保存在同一文件中。\n        可用于高级动画混合。\n        最终结果将命名为 <ARMATURE_NAME>_rest_pose"
+
+#: omUlette main/omuExport.py:71
+msgid "Skip UVs for meshes with no texture"
+msgstr "跳过无纹理网格的 UV"
+
+#: omUlette main/omuExport.py:59
+msgid "The path to this model's textures relative\nto the config file's model path"
+msgstr "此模型纹理的路径，相对于配置文件的模型路径"
+
+#: omUlette main/omuExport.py:65
+msgid "choose collections you'd like to export from."
+msgstr "选择要导出的集合。"
+
+#: omUlette main/omuExport.py:27
+msgid "choose whether this animation is saved in a file seprate from the rest of the export or included at the bottom"
+msgstr "选择将此动画保存到与其余导出内容分开的文件中，还是包含在末尾。"
+
+#: omUlette main/omuExport.py:65
+msgid "export all objects"
+msgstr "导出所有物体"
+
+#: omUlette main/omuExport.py:65
+msgid "export all objects in the scene"
+msgstr "导出场景中的所有物体"
+
+#: omUlette main/omuExport.py:64
+msgid "export from"
+msgstr "导出范围"
+
+#: omUlette main/omuExport.py:65
+msgid "export from specific collection(s)"
+msgstr "从指定集合导出"
+
+#: omUlette main/omuExport.py:65
+msgid "export only selected objects"
+msgstr "仅导出选中物体"
+
+#: omUlette main/omuExport.py:35
+msgid "export the objects from this collection.."
+msgstr "导出此集合中的物体。"
+
+#: omUlette main/omuExport.py:23
+msgid "export this action."
+msgstr "导出此动作。"
+
+#: omUlette main/omuExport.py:29
+msgid "include this animation in it's own file"
+msgstr "将此动画包含在单独文件中"
+
+#: omUlette main/omuExport.py:29
+msgid "include this animation in the \"main\" file"
+msgstr "将此动画包含在“主”文件中"
+
+#: omUlette main/omuExport.py:29
+msgid "new file"
+msgstr "新文件"
+
+#: omUlette main/__init__.py:2
+msgid "omUlete"
+msgstr "omUlete"
+
+#: omUlette main/omuExport.py:29
+msgid "same file"
+msgstr "同一文件"
+
+#: omUlette main/omuExport.py:64
+msgid "select an option to choose what objects get exported."
+msgstr "选择一个选项以确定要导出的物体。"
+
+#: omUlette main/omuExport.py:217
+msgctxt "Operator"
+msgid "Egg (Panda3D)"
+msgstr "Egg (Panda3D)"
+
+#: omUlette main/omuExport.py:46
+msgctxt "Operator"
+msgid "Export Egg File"
+msgstr "导出 Egg 文件"
+
+#: omUlette main/quickprops.py:8
+msgctxt "Operator"
+msgid "omUleteQuickProperty"
+msgstr "omUleteQuickProperty"

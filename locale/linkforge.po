@@ -1,0 +1,2833 @@
+# perfect-chinese: 1
+# id: linkforge
+# kind: addon
+# module: bl_ext.blender_org.linkforge
+# name: LinkForge
+# name_zh: 机器人仿真台
+# translator: KeshiMiao
+# category: Import-Export
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: panels/link_panel.py:277
+msgid "(N/A for frames)"
+msgstr "（不适用于坐标系）"
+
+#: properties/robot_props.py:247
+msgid "3D file format for visual meshes (collision meshes always use STL)"
+msgstr "视觉网格的 3D 文件格式（碰撞网格始终使用 STL）"
+
+#: properties/robot_props.py:224
+msgid "ACM Samples"
+msgstr "ACM 采样"
+
+#: properties/robot_props.py:338
+msgid "Abort Import"
+msgstr "中止导入"
+
+#: properties/link_props.py:350
+msgid "Active Collision Index"
+msgstr "活动碰撞索引"
+
+#: properties/robot_props.py:216
+msgid "Active Preview State"
+msgstr "活动预览状态"
+
+#: properties/link_props.py:344
+msgid "Active Visual Index"
+msgstr "活动视觉索引"
+
+#: panels/control_panel.py:278
+msgid "Add Joint"
+msgstr "添加关节"
+
+#: panels/planning_panel.py:213
+msgid "Add Joint to Group"
+msgstr "添加关节到组"
+
+#: panels/planning_panel.py:257
+msgid "Add Subgroup to Group"
+msgstr "添加子组到组"
+
+#: properties/joint_props.py:351
+msgid "Add a safety controller to the joint (standard robot model feature)"
+msgstr "为关节添加安全控制器（标准机器人模型功能）"
+
+#: properties/joint_props.py:382
+msgid "Add calibration settings to the joint"
+msgstr "为关节添加校准设置"
+
+#: properties/joint_props.py:302
+msgid "Add friction and damping for realistic motion (optional)"
+msgstr "添加摩擦和阻尼以实现真实运动（可选）"
+
+#: panels/planning_panel.py:374
+msgid "Add joints to this group using '+'"
+msgstr "使用 '+' 向此组添加关节"
+
+#: properties/sensor_props.py:383
+msgid "Add realistic noise to sensor measurements"
+msgstr "为传感器测量添加真实噪声"
+
+#: panels/sensor_panel.py:24
+msgid "Add sensors for perception (cameras, LiDAR, IMU, GPS)"
+msgstr "添加用于感知的传感器（相机、LiDAR、IMU、GPS）"
+
+#: panels/planning_panel.py:392
+msgid "Add subgroups to this group using '+'"
+msgstr "使用 '+' 向此组添加子组"
+
+#: operators/planning_ops.py:1034
+msgid "Added disabled collision pair"
+msgstr "已添加禁用的碰撞对"
+
+#: preferences.py:268
+msgid "Additional ROS Package Paths"
+msgstr "附加 ROS 软件包路径"
+
+#: properties/planning_props.py:779
+msgid "Additional base:tip pairs preserved from SRDF import"
+msgstr "从 SRDF 导入时保留的额外 base:tip 对"
+
+#: operators/planning_ops.py:1236
+msgid "Adjacent Only"
+msgstr "仅相邻"
+
+#: panels/link_panel.py:354
+#: properties/link_props.py:284
+msgid "Advanced Simulation"
+msgstr "高级仿真"
+
+#: properties/validation_props.py:41
+msgid "Affected Objects"
+msgstr "受影响的物体"
+
+#: preferences.py:158
+msgid "All Joints"
+msgstr "所有关节"
+
+#: preferences.py:247
+msgid "All Links"
+msgstr "所有连杆"
+
+#: properties/sensor_props.py:209
+msgid "Always On"
+msgstr "始终开启"
+
+#: preferences.py:173
+msgid "Always On Top (X-Ray)"
+msgstr "始终置顶（X 光）"
+
+#: properties/sensor_props.py:191
+msgid "Attached Link"
+msgstr "附加连杆"
+
+#: panels/sensor_panel.py:92
+msgid "Attachment"
+msgstr "附着"
+
+#: properties/geom_props.py:47
+msgid "Auto (By Name)"
+msgstr "自动（按名称）"
+
+#: panels/link_panel.py:274
+#: properties/link_props.py:198
+msgid "Auto-Calculate Inertia"
+msgstr "自动计算惯性"
+
+#: operators/import_ops.py:57
+msgid "Automatically detect and load companion .srdf planning configuration if found"
+msgstr "自动检测并加载伴随的 .srdf 规划配置（如存在）"
+
+#: properties/joint_props.py:224
+msgid "Axis"
+msgstr "轴"
+
+#: preferences.py:300
+msgid "Axis Length"
+msgstr "轴长度"
+
+#: properties/joint_props.py:238
+msgid "Axis X"
+msgstr "X 轴"
+
+#: properties/joint_props.py:246
+msgid "Axis Y"
+msgstr "Y 轴"
+
+#: properties/joint_props.py:254
+msgid "Axis Z"
+msgstr "Z 轴"
+
+#: panels/joint_panel.py:109
+msgid "Axis:"
+msgstr "轴："
+
+#: properties/planning_props.py:732
+msgid "Base Link"
+msgstr "基座连杆"
+
+#: properties/planning_props.py:740
+msgid "Base Link Name"
+msgstr "基座连杆名称"
+
+#: panels/planning_panel.py:340
+msgid "Base Link and Tip Link must be different"
+msgstr "基座连杆和末端连杆必须不同"
+
+#: panels/sensor_panel.py:155
+msgid "Camera Settings"
+msgstr "相机设置"
+
+#: properties/sensor_props.py:264
+msgid "Camera far clipping plane distance (meters)"
+msgstr "相机远裁剪面距离（米）"
+
+#: properties/sensor_props.py:229
+msgid "Camera horizontal field of view (displayed in degrees, stored as radians). Standard cameras support up to 180°"
+msgstr "相机水平视场角（以度显示，以弧度存储）。标准相机最高支持 180°"
+
+#: properties/sensor_props.py:247
+msgid "Camera image height in pixels"
+msgstr "相机图像高度（像素）"
+
+#: properties/sensor_props.py:273
+msgid "Camera image pixel format"
+msgstr "相机图像像素格式"
+
+#: properties/sensor_props.py:239
+msgid "Camera image width in pixels"
+msgstr "相机图像宽度（像素）"
+
+#: properties/sensor_props.py:255
+msgid "Camera near clipping plane distance (meters)"
+msgstr "相机近裁剪面距离（米）"
+
+#: operators/planning_ops.py:404
+msgid "Cannot add a planning group as a subgroup of itself"
+msgstr "无法将规划组添加为其自身的子组"
+
+#: panels/link_panel.py:299
+msgid "Center of Mass"
+msgstr "质心"
+
+#: properties/robot_props.py:277
+msgid "Check for errors before exporting (recommended)"
+msgstr "导出前检查错误（推荐）"
+
+#: properties/joint_props.py:215
+#: properties/robot_props.py:194
+msgid "Child Link"
+msgstr "子连杆"
+
+#: properties/robot_props.py:202
+msgid "Child Link Name"
+msgstr "子连杆名称"
+
+#: operators/planning_ops.py:1230
+msgid "Clear Existing"
+msgstr "清除现有"
+
+#: operators/planning_ops.py:1230
+msgid "Clear existing auto-generated disabled collision pairs before populating"
+msgstr "在填充前清除现有的自动生成禁用碰撞对"
+
+#: properties/validation_props.py:47
+msgid "Code"
+msgstr "代码"
+
+#: operators/link_ops.py:963
+#: properties/geom_props.py:49
+msgid "Collision"
+msgstr "碰撞"
+
+#: properties/sensor_props.py:372
+msgid "Collision Name"
+msgstr "碰撞名称"
+
+#: properties/planning_props.py:883
+msgid "Collision Pair"
+msgstr "碰撞对"
+
+#: properties/geom_props.py:67
+msgid "Collision Quality"
+msgstr "碰撞质量"
+
+#: operators/link_ops.py:453
+msgid "Collision Type"
+msgstr "碰撞类型"
+
+#: panels/forge_panel.py:87
+#: panels/link_panel.py:220
+msgid "Collisions"
+msgstr "碰撞"
+
+#: panels/link_panel.py:336
+msgid "Color:"
+msgstr "颜色："
+
+#: preferences.py:268
+msgid "Comma (or OS path separator) separated fallback paths for package:// meshes (useful for Snap/Flatpak)"
+msgstr "用于 package:// 网格的回退路径，以逗号（或操作系统路径分隔符）分隔（适用于 Snap/Flatpak）"
+
+#: properties/planning_props.py:767
+msgid "Comma-separated explicit link names preserved from SRDF import"
+msgstr "从 SRDF 导入时保留的显式连杆名称，以逗号分隔"
+
+#: properties/validation_props.py:41
+msgid "Comma-separated list of affected object names"
+msgstr "受影响物体名称列表，以逗号分隔"
+
+#: properties/planning_props.py:773
+msgid "Comma-separated subgroup names preserved from SRDF import"
+msgstr "从 SRDF 导入时保留的子组名称，以逗号分隔"
+
+#: panels/control_panel.py:122
+#: panels/control_panel.py:128
+msgid "Command Interfaces:"
+msgstr "命令接口："
+
+#: panels/planning_panel.py:300
+msgid "Configure MoveIt 2 SRDF planning groups, end effectors, poses, and collision matrix"
+msgstr "配置 MoveIt 2 SRDF 规划组、末端执行器、姿态和碰撞矩阵"
+
+#: panels/control_panel.py:86
+msgid "Configure centralized ros2_control system and interfaces"
+msgstr "配置集中式 ros2_control 系统和接口"
+
+#: panels/link_panel.py:138
+msgid "Connected Joints"
+msgstr "相连关节"
+
+#: panels/joint_panel.py:87
+msgid "Connection:"
+msgstr "连接："
+
+#: panels/sensor_panel.py:214
+msgid "Contact Settings"
+msgstr "接触设置"
+
+#: properties/link_props.py:330
+msgid "Contact damping (N s/m)"
+msgstr "接触阻尼（N s/m）"
+
+#: properties/link_props.py:337
+msgid "Contact damping (e.g. 1.0e+00)"
+msgstr "接触阻尼（例如 1.0e+00）"
+
+#: properties/link_props.py:316
+msgid "Contact stiffness (N/m)"
+msgstr "接触刚度（N/m）"
+
+#: properties/link_props.py:323
+msgid "Contact stiffness (e.g. 1.0e+12)"
+msgstr "接触刚度（例如 1.0e+12）"
+
+#: panels/link_panel.py:367
+msgid "Contact:"
+msgstr "接触："
+
+#: panels/control_panel.py:85
+msgid "Control"
+msgstr "控制"
+
+#: preferences.py:154
+msgid "Control which joints display RViz-style RGB axes"
+msgstr "控制哪些关节显示 RViz 风格的 RGB 轴"
+
+#: preferences.py:238
+msgid "Control which links display Center of Mass and inertia frames"
+msgstr "控制哪些连杆显示质心和惯性坐标系"
+
+#: properties/robot_props.py:142
+msgid "Controllers YAML"
+msgstr "控制器 YAML"
+
+#: properties/robot_props.py:299
+msgid "Convert materials to XACRO properties"
+msgstr "将材质转换为 XACRO 属性"
+
+#: panels/export_panel.py:54
+#: panels/planning_panel.py:548
+msgid "Create links in Forge panel to start"
+msgstr "在 Forge 面板中创建连杆以开始"
+
+#: panels/forge_panel.py:24
+msgid "Create robot structure with links and joints"
+msgstr "使用连杆和关节创建机器人结构"
+
+#: panels/forge_panel.py:122
+msgid "Create robot structure:"
+msgstr "创建机器人结构："
+
+#: operators/link_ops.py:1269
+msgid "Created new material slot with default material"
+msgstr "已使用默认材质创建新材质槽"
+
+#: properties/robot_props.py:344
+msgid "Current status message from the background importer"
+msgstr "后台导入器的当前状态消息"
+
+#: panels/sensor_panel.py:127
+msgid "Custom Plugin (Advanced)"
+msgstr "自定义插件（高级）"
+
+#: properties/joint_props.py:238
+msgid "Custom axis X component (will be normalized to unit vector)"
+msgstr "自定义轴 X 分量（将归一化为单位向量）"
+
+#: properties/joint_props.py:246
+msgid "Custom axis Y component (will be normalized to unit vector)"
+msgstr "自定义轴 Y 分量（将归一化为单位向量）"
+
+#: properties/joint_props.py:254
+msgid "Custom axis Z component (will be normalized to unit vector)"
+msgstr "自定义轴 Z 分量（将归一化为单位向量）"
+
+#: properties/validation_props.py:166
+msgid "DOF Count"
+msgstr "自由度数量"
+
+#: panels/export_panel.py:88
+msgid "DOF:"
+msgstr "自由度："
+
+#: properties/joint_props.py:308
+msgid "Damping"
+msgstr "阻尼"
+
+#: properties/link_props.py:330
+#: properties/link_props.py:337
+msgid "Damping kd"
+msgstr "阻尼 kd"
+
+#: properties/validation_props.py:166
+msgid "Degrees of freedom"
+msgstr "自由度"
+
+#: panels/sensor_panel.py:153
+msgid "Depth Camera Settings"
+msgstr "深度相机设置"
+
+#: preferences.py:297
+msgid "Depth Occlusion"
+msgstr "深度遮挡"
+
+#: preferences.py:178
+msgid "Depth test axes so geometry naturally occludes them"
+msgstr "对轴进行深度测试，使几何体自然遮挡它们"
+
+#: preferences.py:169
+msgid "Depth testing mode for joint axes in 3D viewport"
+msgstr "3D 视图中关节轴的深度测试模式"
+
+#: properties/joint_props.py:413
+msgid "Designate this joint as unactuated (passive). Excludes it from active planning group DOF and ros2_control command interfaces, and exports <passive_joint> in SRDF"
+msgstr "将此关节指定为未驱动（被动）。将其从活动规划组自由度与 ros2_control 命令接口中排除，并在 SRDF 中导出 <passive_joint>"
+
+#: properties/validation_props.py:29
+msgid "Detailed message"
+msgstr "详细消息"
+
+#: operators/import_ops.py:166
+msgid "Detected XACRO content in robot model file. Switching to XACRO parser..."
+msgstr "在机器人模型文件中检测到 XACRO 内容。正在切换到 XACRO 解析器..."
+
+#: properties/geom_props.py:47
+msgid "Determine from name suffix (_visual/_collision)"
+msgstr "根据名称后缀确定（_visual/_collision）"
+
+#: panels/control_panel.py:129
+msgid "Disabled for Sensor system."
+msgstr "对传感器系统禁用。"
+
+#: preferences.py:173
+msgid "Draw joint axes over geometry for maximum visibility"
+msgstr "在几何体上绘制关节轴以获得最大可见性"
+
+#: properties/link_props.py:309
+msgid "Dynamic friction coefficient"
+msgstr "动摩擦系数"
+
+#: properties/control_props.py:77
+#: properties/control_props.py:82
+msgid "Effort"
+msgstr "作用力"
+
+#: panels/joint_panel.py:134
+msgid "Effort & Velocity Limits:"
+msgstr "作用力与速度限制："
+
+#: properties/sensor_props.py:415
+msgid "Enable Gazebo plugin for this sensor"
+msgstr "为此传感器启用 Gazebo 插件"
+
+#: panels/control_panel.py:180
+msgid "Enable ROS 2 Control to configure settings."
+msgstr "启用 ROS 2 Control 以配置设置。"
+
+#: panels/planning_panel.py:583
+msgid "Enable checkbox to attach robot root to world."
+msgstr "启用复选框，将机器人根连杆连接到世界。"
+
+#: properties/sensor_props.py:215
+msgid "Enable visualization in the simulator"
+msgstr "在模拟器中启用可视化"
+
+#: properties/planning_props.py:746
+msgid "End link of the kinematic chain (e.g., wrist_link or tool0)"
+msgstr "运动链末端连杆（例如 wrist_link 或 tool0）"
+
+#: preferences.py:333
+msgid "Environment & Paths"
+msgstr "环境与路径"
+
+#: properties/validation_props.py:142
+msgid "Error Count"
+msgstr "错误数"
+
+#: properties/validation_props.py:172
+msgid "Errors"
+msgstr "错误"
+
+#: properties/validation_props.py:184
+msgid "Expand errors section"
+msgstr "展开错误部分"
+
+#: properties/validation_props.py:190
+msgid "Expand warnings section"
+msgstr "展开警告部分"
+
+#: properties/planning_props.py:767
+msgid "Explicit Links"
+msgstr "显式连杆"
+
+#: panels/export_panel.py:159
+msgid "Export Configuration"
+msgstr "导出配置"
+
+#: panels/link_panel.py:317
+#: properties/link_props.py:357
+msgid "Export Material"
+msgstr "导出材质"
+
+#: properties/robot_props.py:241
+msgid "Export Meshes"
+msgstr "导出网格"
+
+#: properties/geom_props.py:49
+msgid "Export as Collision geometry"
+msgstr "导出为碰撞几何体"
+
+#: properties/geom_props.py:48
+msgid "Export as Visual geometry"
+msgstr "导出为可视几何体"
+
+#: properties/link_props.py:357
+msgid "Export color/appearance to robot model (enabled by default for auto-created materials)"
+msgstr "将颜色/外观导出到机器人模型（自动创建的材质默认启用）"
+
+#: properties/robot_props.py:188
+msgid "External world frame name (e.g., world, map, odom)"
+msgstr "外部世界坐标系名称（例如 world、map、odom）"
+
+#: properties/planning_props.py:779
+msgid "Extra Chains"
+msgstr "额外链"
+
+#: properties/robot_props.py:305
+msgid "Extract Dimensions"
+msgstr "提取尺寸"
+
+#: properties/robot_props.py:299
+msgid "Extract Materials"
+msgstr "提取材质"
+
+#: properties/robot_props.py:283
+msgid "Fail immediately on first error instead of collecting all errors. Useful for debugging and automated pipelines"
+msgstr "遇到首个错误时立即失败，而不是收集所有错误。适用于调试和自动化流水线"
+
+#: operators/link_ops.py:743
+msgid "Failed to calculate inertia (check geometry/mass)"
+msgstr "无法计算惯性（请检查几何体/质量）"
+
+#: operators/link_ops.py:545
+msgid "Failed to generate collision geometry"
+msgstr "无法生成碰撞几何体"
+
+#: preferences.py:338
+msgid "Fallback ROS workspace paths for package:// resolution (comma or OS-path separated)"
+msgstr "用于解析 package:// 的回退 ROS 工作区路径（以逗号或操作系统路径分隔）"
+
+#: properties/planning_props.py:740
+msgid "Fallback base link name when object pointer is unresolved"
+msgstr "对象指针无法解析时回退的基座连杆名称"
+
+#: properties/robot_props.py:202
+msgid "Fallback child link name when object pointer is unresolved"
+msgstr "对象指针无法解析时回退的子连杆名称"
+
+#: properties/planning_props.py:896
+msgid "Fallback first link name when object pointer is unresolved"
+msgstr "对象指针无法解析时回退的第一个连杆名称"
+
+#: properties/planning_props.py:809
+msgid "Fallback parent link name when object pointer is unresolved"
+msgstr "对象指针无法解析时回退的父连杆名称"
+
+#: properties/planning_props.py:910
+msgid "Fallback second link name when object pointer is unresolved"
+msgstr "对象指针无法解析时回退的第二个连杆名称"
+
+#: properties/planning_props.py:754
+msgid "Fallback tip link name when object pointer is unresolved"
+msgstr "对象指针无法解析时回退的末端连杆名称"
+
+#: panels/joint_panel.py:184
+msgid "Falling"
+msgstr "下降"
+
+#: properties/joint_props.py:400
+msgid "Falling Edge"
+msgstr "下降沿"
+
+#: properties/sensor_props.py:264
+msgid "Far Clip"
+msgstr "远裁剪"
+
+#: properties/robot_props.py:97
+msgid "File format for export"
+msgstr "导出的文件格式"
+
+#: properties/planning_props.py:888
+msgid "First link in the disabled collision pair"
+msgstr "禁用碰撞对中的第一个连杆"
+
+#: properties/robot_props.py:270
+msgid "Folder name where mesh files will be saved"
+msgstr "保存网格文件的文件夹名称"
+
+#: panels/forge_panel.py:23
+msgid "Forge"
+msgstr "Forge"
+
+#: properties/robot_props.py:97
+msgid "Format"
+msgstr "格式"
+
+#: preferences.py:328
+msgid "Frame Size"
+msgstr "帧大小"
+
+#: properties/joint_props.py:316
+msgid "Friction"
+msgstr "摩擦"
+
+#: properties/link_props.py:302
+msgid "Friction mu"
+msgstr "摩擦 mu"
+
+#: properties/link_props.py:309
+msgid "Friction mu2"
+msgstr "摩擦 mu2"
+
+#: panels/link_panel.py:362
+msgid "Friction:"
+msgstr "摩擦："
+
+#: panels/control_panel.py:269
+msgid "Gazebo Integration"
+msgstr "Gazebo 集成"
+
+#: properties/robot_props.py:136
+#: properties/sensor_props.py:415
+msgid "Gazebo Plugin"
+msgstr "Gazebo 插件"
+
+#: properties/sensor_props.py:421
+msgid "Gazebo plugin library filename (e.g., libgazebo_ros_camera.so)"
+msgstr "Gazebo 插件库文件名（例如 libgazebo_ros_camera.so）"
+
+#: properties/robot_props.py:136
+msgid "Gazebo ros2_control plugin name"
+msgstr "Gazebo ros2_control 插件名称"
+
+#: panels/sensor_panel.py:97
+msgid "General Settings"
+msgstr "常规设置"
+
+#: properties/robot_props.py:311
+msgid "Generate Macros"
+msgstr "生成宏"
+
+#: properties/robot_props.py:107
+msgid "Generate ROS2 Control"
+msgstr "生成 ROS2 Control"
+
+#: properties/robot_props.py:107
+msgid "Generate ros2_control tags from centralized system configuration"
+msgstr "从集中式系统配置生成 ros2_control 标签"
+
+#: properties/geom_props.py:43
+msgid "Geometry Role"
+msgstr "几何体角色"
+
+#: operators/link_ops.py:960
+#: properties/geom_props.py:54
+msgid "Geometry Type"
+msgstr "几何体类型"
+
+#: properties/link_props.py:296
+msgid "Gravity"
+msgstr "重力"
+
+#: panels/planning_panel.py:421
+#: panels/planning_panel.py:466
+msgid "Group"
+msgstr "组"
+
+#: panels/control_panel.py:195
+msgid "Hardware Parameters"
+msgstr "硬件参数"
+
+#: properties/robot_props.py:130
+msgid "Hardware Plugin"
+msgstr "硬件插件"
+
+#: panels/control_panel.py:185
+msgid "Hardware System"
+msgstr "硬件系统"
+
+#: properties/validation_props.py:130
+msgid "Has Results"
+msgstr "有结果"
+
+#: preferences.py:288
+msgid "High-visibility RViz-style axes with directional arrow cones (Red=X, Green=Y, Blue=Z)"
+msgstr "高可见度 RViz 风格坐标轴，带方向箭头圆锥（红=X，绿=Y，蓝=Z）"
+
+#: properties/sensor_props.py:229
+msgid "Horizontal FOV"
+msgstr "水平视场角"
+
+#: properties/sensor_props.py:306
+msgid "Horizontal Max Angle"
+msgstr "水平最大角度"
+
+#: properties/sensor_props.py:296
+msgid "Horizontal Min Angle"
+msgstr "水平最小角度"
+
+#: properties/sensor_props.py:288
+msgid "Horizontal Samples"
+msgstr "水平采样数"
+
+#: panels/sensor_panel.py:184
+msgid "Horizontal Scan:"
+msgstr "水平扫描："
+
+#: properties/planning_props.py:708
+msgid "How the planning group members are defined"
+msgstr "规划组成员如何定义"
+
+#: properties/validation_props.py:35
+msgid "How to fix this issue"
+msgstr "如何修复此问题"
+
+#: properties/robot_props.py:305
+msgid "Identify repeated dimensions (radius, length, size) and extract as properties"
+msgstr "识别重复尺寸（半径、长度、大小）并提取为属性"
+
+#: properties/robot_props.py:311
+msgid "Identify similar links and group them into macros"
+msgstr "识别相似连杆并将其分组为宏"
+
+#: properties/sensor_props.py:273
+msgid "Image Format"
+msgstr "图像格式"
+
+#: properties/sensor_props.py:247
+msgid "Image Height"
+msgstr "图像高度"
+
+#: properties/sensor_props.py:239
+msgid "Image Width"
+msgstr "图像宽度"
+
+#: operators/import_ops.py:57
+msgid "Import Companion SRDF"
+msgstr "导入配套 SRDF"
+
+#: properties/robot_props.py:344
+msgid "Import Status"
+msgstr "导入状态"
+
+#: panels/export_panel.py:195
+#: properties/robot_props.py:158
+msgid "Include SRDF"
+msgstr "包含 SRDF"
+
+#: properties/robot_props.py:164
+msgid "Include a virtual joint connecting the robot's root link to an external world frame"
+msgstr "包含一个虚拟关节，将机器人根连杆连接到外部世界坐标系"
+
+#: properties/link_props.py:284
+msgid "Include advanced physics settings (Gazebo/GZ) in the exported model"
+msgstr "在导出模型中包含高级物理设置（Gazebo/GZ）"
+
+#: operators/link_ops.py:967
+msgid "Index"
+msgstr "索引"
+
+#: panels/forge_panel.py:102
+msgid "Inertia"
+msgstr "惯性"
+
+#: preferences.py:238
+msgid "Inertia Display Mode"
+msgstr "惯性显示模式"
+
+#: preferences.py:253
+msgid "Inertia Frame Size"
+msgstr "惯性坐标系大小"
+
+#: properties/link_props.py:263
+msgid "Inertia Position"
+msgstr "惯性位置"
+
+#: properties/link_props.py:273
+msgid "Inertia Rotation"
+msgstr "惯性旋转"
+
+#: panels/link_panel.py:283
+msgid "Inertia Tensor (kg⋅m²)"
+msgstr "惯性张量（kg⋅m²）"
+
+#: preferences.py:319
+msgid "Inertia Visualization"
+msgstr "惯性可视化"
+
+#: properties/control_props.py:43
+msgid "Interface"
+msgstr "接口"
+
+#: properties/control_props.py:43
+msgid "Interface type"
+msgstr "接口类型"
+
+#: properties/planning_props.py:702
+msgid "Internal tracker used to propagate group renames to dependent SRDF items"
+msgstr "用于将组重命名传播到依赖的 SRDF 项的内部跟踪器"
+
+#: properties/robot_props.py:332
+msgid "Is Importing"
+msgstr "正在导入"
+
+#: properties/joint_props.py:167
+msgid "Is Robot Joint"
+msgstr "是否为机器人关节"
+
+#: properties/link_props.py:174
+msgid "Is Robot Link"
+msgstr "是否为机器人连杆"
+
+#: properties/sensor_props.py:150
+msgid "Is Robot Sensor"
+msgstr "是否为机器人传感器"
+
+#: properties/validation_props.py:136
+msgid "Is Valid"
+msgstr "是否有效"
+
+#: panels/link_panel.py:287
+#: properties/link_props.py:218
+msgid "Ixx"
+msgstr "Ixx"
+
+#: panels/link_panel.py:293
+#: properties/link_props.py:226
+msgid "Ixy"
+msgstr "Ixy"
+
+#: panels/link_panel.py:294
+#: properties/link_props.py:233
+msgid "Ixz"
+msgstr "Ixz"
+
+#: panels/link_panel.py:288
+#: properties/link_props.py:240
+msgid "Iyy"
+msgstr "Iyy"
+
+#: panels/link_panel.py:295
+#: properties/link_props.py:248
+msgid "Iyz"
+msgstr "Iyz"
+
+#: panels/link_panel.py:289
+#: properties/link_props.py:255
+msgid "Izz"
+msgstr "Izz"
+
+#: preferences.py:154
+msgid "Joint Axes Mode"
+msgstr "关节轴模式"
+
+#: properties/validation_props.py:160
+msgid "Joint Count"
+msgstr "关节数量"
+
+#: preferences.py:169
+msgid "Joint Depth Mode"
+msgstr "关节深度模式"
+
+#: preferences.py:188
+msgid "Joint Display Size"
+msgstr "关节显示大小"
+
+#: panels/control_panel.py:224
+msgid "Joint Interfaces"
+msgstr "关节接口"
+
+#: operators/control_ops.py:26
+#: operators/planning_ops.py:219
+msgid "Joint Name"
+msgstr "关节名称"
+
+#: properties/control_props.py:67
+#: properties/planning_props.py:674
+msgid "Joint Object"
+msgstr "关节物体"
+
+#: panels/control_panel.py:142
+msgid "Joint Parameters"
+msgstr "关节参数"
+
+#: properties/joint_props.py:191
+msgid "Joint Type"
+msgstr "关节类型"
+
+#: preferences.py:280
+msgid "Joint Visualization"
+msgstr "关节可视化"
+
+#: panels/forge_panel.py:95
+#: panels/joint_panel.py:23
+msgid "Joints"
+msgstr "关节"
+
+#: properties/joint_props.py:369
+msgid "K Position"
+msgstr "K 位置"
+
+#: properties/joint_props.py:375
+msgid "K Velocity"
+msgstr "K 速度"
+
+#: properties/control_props.py:28
+msgid "Key"
+msgstr "键"
+
+#: panels/sensor_panel.py:181
+msgid "LIDAR Settings"
+msgstr "LIDAR 设置"
+
+#: properties/link_props.py:198
+msgid "Let LinkForge calculate physics properties from the 3D shape (recommended)"
+msgstr "让 LinkForge 根据 3D 形状计算物理属性（推荐）"
+
+#: panels/joint_panel.py:123
+msgid "Limits (Required):"
+msgstr "限制（必填）："
+
+#: panels/sensor_panel.py:93
+msgid "Link"
+msgstr "连杆"
+
+#: properties/planning_props.py:888
+msgid "Link 1"
+msgstr "连杆 1"
+
+#: properties/planning_props.py:896
+msgid "Link 1 Name"
+msgstr "连杆 1 名称"
+
+#: properties/planning_props.py:902
+msgid "Link 2"
+msgstr "连杆 2"
+
+#: properties/planning_props.py:910
+msgid "Link 2 Name"
+msgstr "连杆 2 名称"
+
+#: properties/validation_props.py:154
+msgid "Link Count"
+msgstr "连杆数量"
+
+#: panels/link_panel.py:45
+#: panels/link_panel.py:99
+msgid "Link Creation"
+msgstr "连杆创建"
+
+#: preferences.py:216
+#: preferences.py:314
+msgid "Link Empty Size"
+msgstr "连杆空物体大小"
+
+#: properties/link_props.py:188
+msgid "Link Name"
+msgstr "连杆名称"
+
+#: preferences.py:312
+msgid "Link Visualization"
+msgstr "连杆可视化"
+
+#: properties/joint_props.py:207
+msgid "Link this joint connects from (base side)"
+msgstr "此关节连接的起始连杆（基座侧）"
+
+#: properties/joint_props.py:215
+msgid "Link this joint connects to (moving side)"
+msgstr "此关节连接的目标连杆（运动侧）"
+
+#: panels/control_panel.py:90
+#: panels/export_panel.py:31
+msgid "LinkForge"
+msgstr "LinkForge"
+
+#: panels/link_panel.py:25
+msgid "Links"
+msgstr "连杆"
+
+#: properties/validation_props.py:172
+msgid "List of validation errors"
+msgstr "验证错误列表"
+
+#: properties/validation_props.py:178
+msgid "List of validation warnings"
+msgstr "验证警告列表"
+
+#: properties/joint_props.py:269
+msgid "Lower Limit"
+msgstr "下限"
+
+#: properties/joint_props.py:357
+msgid "Lower bound of the joint safety controller"
+msgstr "关节安全控制器的下限"
+
+#: properties/validation_props.py:47
+msgid "Machine-readable error code"
+msgstr "机器可读的错误代码"
+
+#: properties/joint_props.py:325
+msgid "Make this joint copy another joint's movement (like coupled fingers)"
+msgstr "让此关节模仿另一关节的运动（如联动的手指）"
+
+#: properties/joint_props.py:167
+msgid "Mark this Empty as a robot joint"
+msgstr "将此空物体标记为机器人关节"
+
+#: properties/link_props.py:174
+msgid "Mark this object as a robot link"
+msgstr "将此物体标记为机器人连杆"
+
+#: properties/sensor_props.py:150
+msgid "Mark this object as a robot sensor"
+msgstr "将此物体标记为机器人传感器"
+
+#: properties/link_props.py:205
+msgid "Mass"
+msgstr "质量"
+
+#: panels/link_panel.py:313
+msgid "Material"
+msgstr "材质"
+
+#: properties/joint_props.py:285
+msgid "Max Effort"
+msgstr "最大作用力"
+
+#: properties/joint_props.py:293
+msgid "Max Velocity"
+msgstr "最大速度"
+
+#: properties/sensor_props.py:353
+msgid "Maximum detection range in meters"
+msgstr "最大探测范围（米）"
+
+#: properties/joint_props.py:285
+msgid "Maximum force/torque the joint motor can apply"
+msgstr "关节电机可施加的最大力/力矩"
+
+#: properties/sensor_props.py:306
+msgid "Maximum horizontal scan angle (displayed in degrees, stored as radians)"
+msgstr "最大水平扫描角度（以度显示，以弧度存储）"
+
+#: properties/joint_props.py:277
+msgid "Maximum position (radians for revolute/continuous joints, meters for prismatic joints)"
+msgstr "最大位置（旋转/连续关节为弧度，移动关节为米）"
+
+#: properties/joint_props.py:293
+msgid "Maximum speed the joint can move"
+msgstr "关节可移动的最大速度"
+
+#: properties/sensor_props.py:334
+msgid "Maximum vertical scan angle (displayed in degrees, stored as radians)"
+msgstr "最大垂直扫描角度（以度显示，以弧度存储）"
+
+#: properties/sensor_props.py:399
+msgid "Mean of the noise distribution"
+msgstr "噪声分布的均值"
+
+#: properties/robot_props.py:270
+msgid "Mesh Directory"
+msgstr "网格目录"
+
+#: properties/robot_props.py:247
+msgid "Mesh Format"
+msgstr "网格格式"
+
+#: properties/geom_props.py:67
+msgid "Mesh detail preserved (100% = full detail, lower = faster physics)"
+msgstr "网格细节保留（100% = 完整细节，更低 = 物理更快）"
+
+#: properties/validation_props.py:29
+msgid "Message"
+msgstr "消息"
+
+#: properties/joint_props.py:325
+msgid "Mimic Another Joint"
+msgstr "模仿另一关节"
+
+#: properties/joint_props.py:331
+msgid "Mimic Joint"
+msgstr "模仿关节"
+
+#: properties/sensor_props.py:344
+msgid "Minimum detection range in meters"
+msgstr "最小探测范围（米）"
+
+#: properties/sensor_props.py:296
+msgid "Minimum horizontal scan angle (displayed in degrees, stored as radians)"
+msgstr "最小水平扫描角度（以度显示，以弧度存储）"
+
+#: properties/joint_props.py:269
+msgid "Minimum position (radians for revolute/continuous joints, meters for prismatic joints)"
+msgstr "最小位置（旋转/连续关节为弧度，移动关节为米）"
+
+#: properties/sensor_props.py:324
+msgid "Minimum vertical scan angle (displayed in degrees, stored as radians)"
+msgstr "最小垂直扫描角度（以度显示，以弧度存储）"
+
+#: properties/planning_props.py:708
+msgid "Mode"
+msgstr "模式"
+
+#: properties/link_props.py:218
+msgid "Moment of inertia around X-axis - resistance to rotation (kg⋅m²)"
+msgstr "绕 X 轴的惯性矩 - 对旋转的阻力（kg⋅m²）"
+
+#: properties/link_props.py:240
+msgid "Moment of inertia around Y-axis - resistance to rotation (kg⋅m²)"
+msgstr "绕 Y 轴的惯性矩 - 对旋转的阻力（kg⋅m²）"
+
+#: properties/link_props.py:255
+msgid "Moment of inertia around Z-axis - resistance to rotation (kg⋅m²)"
+msgstr "绕 Z 轴的惯性矩 - 对旋转的阻力（kg⋅m²）"
+
+#: panels/planning_panel.py:359
+msgid "MoveIt requires actuated joints (revolute/prismatic/continuous)"
+msgstr "MoveIt 需要驱动关节（旋转/移动/连续）"
+
+#: properties/joint_props.py:338
+msgid "Movement scale (2.0 = moves twice as much, 0.5 = half as much)"
+msgstr "运动比例（2.0 = 运动两倍，0.5 = 运动一半）"
+
+#: properties/joint_props.py:338
+msgid "Multiplier"
+msgstr "倍数"
+
+#: properties/planning_props.py:695
+#: properties/planning_props.py:789
+msgid "Name"
+msgstr "名称"
+
+#: properties/robot_props.py:216
+msgid "Name of the Group State currently previewed in the 3D viewport"
+msgstr "当前在 3D 视图中预览的组状态名称"
+
+#: properties/sensor_props.py:372
+msgid "Name of the collision element to monitor (defaults to linkname_collision if empty)"
+msgstr "要监视的碰撞元素名称（留空时默认为 linkname_collision）"
+
+#: properties/joint_props.py:181
+msgid "Name of the joint in robot model (must be unique)"
+msgstr "机器人模型中关节的名称（必须唯一）"
+
+#: properties/control_props.py:61
+#: properties/planning_props.py:668
+msgid "Name of the joint in the kinematic tree"
+msgstr "运动学树中关节的名称"
+
+#: properties/planning_props.py:830
+msgid "Name of the joint in the planning group"
+msgstr "规划组中关节的名称"
+
+#: properties/link_props.py:188
+msgid "Name of the link in robot model (must be unique)"
+msgstr "机器人模型中连杆的名称（必须唯一）"
+
+#: operators/selection_ops.py:23
+msgid "Name of the object to select"
+msgstr "要选择的物体名称"
+
+#: properties/planning_props.py:685
+msgid "Name of the referenced planning group"
+msgstr "引用的规划组名称"
+
+#: properties/robot_props.py:113
+msgid "Name of the ros2_control system"
+msgstr "ros2_control 系统的名称"
+
+#: properties/sensor_props.py:164
+msgid "Name of the sensor in URDF (must be unique)"
+msgstr "URDF 中传感器的名称（必须唯一）"
+
+#: properties/robot_props.py:171
+msgid "Name of the virtual joint (e.g., world_joint)"
+msgstr "虚拟关节的名称（例如 world_joint）"
+
+#: properties/robot_props.py:89
+msgid "Name of your robot (used in robot model file)"
+msgstr "机器人名称（用于机器人模型文件）"
+
+#: properties/sensor_props.py:255
+msgid "Near Clip"
+msgstr "近裁剪"
+
+#: panels/planning_panel.py:231
+#: panels/planning_panel.py:275
+msgid "No active planning group"
+msgstr "没有活动的规划组"
+
+#: operators/display_ops.py:30
+msgid "No active scene found"
+msgstr "未找到活动场景"
+
+#: panels/link_panel.py:229
+msgid "No collision geometry"
+msgstr "没有碰撞几何体"
+
+#: panels/planning_panel.py:364
+msgid "No kinematic path connects Base Link to Tip Link"
+msgstr "没有运动学路径连接基部连杆与末端连杆"
+
+#: operators/link_ops.py:794
+msgid "No links found needing inertia calculation"
+msgstr "未找到需要计算惯性的连杆"
+
+#: panels/link_panel.py:343
+msgid "No material slot found"
+msgstr "未找到材质槽"
+
+#: operators/control_ops.py:395
+msgid "No missing joints found"
+msgstr "未找到缺失的关节"
+
+#: panels/control_panel.py:302
+#: panels/planning_panel.py:246
+msgid "No more joints available"
+msgstr "没有更多可用的关节"
+
+#: panels/planning_panel.py:288
+msgid "No other groups available"
+msgstr "没有其他可用的组"
+
+#: operators/display_ops.py:35
+msgid "No robot components detected to fit display sizes to"
+msgstr "未检测到可适配显示尺寸的机器人组件"
+
+#: panels/export_panel.py:53
+#: panels/planning_panel.py:547
+msgid "No robot in scene"
+msgstr "场景中没有机器人"
+
+#: operators/planning_ops.py:1276
+msgid "No robot link pairs found to compute collision matrix."
+msgstr "未找到可计算碰撞矩阵的机器人连杆对。"
+
+#: operators/link_ops.py:510
+msgid "No robot links found"
+msgstr "未找到机器人连杆"
+
+#: operators/joint_ops.py:233
+msgid "No robot links found in scene"
+msgstr "场景中未找到机器人连杆"
+
+#: operators/display_ops.py:59
+msgid "No robot scene properties found"
+msgstr "未找到机器人场景属性"
+
+#: operators/selection_ops.py:97
+msgid "No root link found for the robot."
+msgstr "未找到机器人的根连杆。"
+
+#: operators/joint_ops.py:67
+msgid "No valid robot link found"
+msgstr "未找到有效的机器人连杆"
+
+#: panels/link_panel.py:188
+#: panels/link_panel.py:348
+msgid "No visual geometry"
+msgstr "没有可视几何体"
+
+#: operators/link_ops.py:1245
+msgid "No visual mesh found for this link"
+msgstr "此连杆未找到可视网格"
+
+#: operators/link_ops.py:543
+msgid "No visual meshes found. Cannot generate collision."
+msgstr "未找到可视网格。无法生成碰撞。"
+
+#: panels/sensor_panel.py:117
+msgid "Noise"
+msgstr "噪声"
+
+#: properties/sensor_props.py:399
+msgid "Noise Mean"
+msgstr "噪声均值"
+
+#: properties/sensor_props.py:406
+msgid "Noise Std Dev"
+msgstr "噪声标准差"
+
+#: properties/sensor_props.py:389
+msgid "Noise Type"
+msgstr "噪声类型"
+
+#: panels/export_panel.py:105
+msgid "Not run yet"
+msgstr "尚未运行"
+
+#: properties/validation_props.py:142
+msgid "Number of errors"
+msgstr "错误数量"
+
+#: properties/sensor_props.py:288
+msgid "Number of horizontal scan samples"
+msgstr "水平扫描采样数"
+
+#: properties/validation_props.py:160
+msgid "Number of joints in robot"
+msgstr "机器人中的关节数量"
+
+#: properties/robot_props.py:224
+msgid "Number of kinematic configurations to sample for Allowed Collision Matrix (ACM) (default: 500, recommended: 100-1000)"
+msgstr "用于允许碰撞矩阵（ACM）的采样运动学配置数量（默认：500，推荐：100-1000）"
+
+#: properties/validation_props.py:154
+msgid "Number of links in robot"
+msgstr "机器人中的连杆数量"
+
+#: operators/planning_ops.py:1222
+msgid "Number of random joint configurations to sample"
+msgstr "要采样的随机关节配置数量"
+
+#: properties/sensor_props.py:316
+msgid "Number of vertical scan samples (1 for 2D LIDAR)"
+msgstr "垂直扫描采样数（2D 激光雷达为 1）"
+
+#: properties/validation_props.py:148
+msgid "Number of warnings"
+msgstr "警告数量"
+
+#: operators/selection_ops.py:23
+msgid "Object Name"
+msgstr "物体名称"
+
+#: operators/selection_ops.py:26
+msgid "Object Type"
+msgstr "物体类型"
+
+#: preferences.py:178
+msgid "Occluded by Geometry"
+msgstr "被几何体遮挡"
+
+#: properties/joint_props.py:344
+msgid "Offset"
+msgstr "偏移"
+
+#: operators/planning_ops.py:1236
+msgid "Only detect adjacent and fixed link pairs (skip kinematic sampling)"
+msgstr "仅检测相邻和固定连杆对（跳过运动学采样）"
+
+#: preferences.py:159
+msgid "Only show RGB axes for the active or selected joint"
+msgstr "仅显示活动或选中关节的 RGB 轴"
+
+#: preferences.py:242
+msgid "Only show inertia gizmo for the currently selected link"
+msgstr "仅显示当前选中连杆的惯性小工具"
+
+#: properties/planning_props.py:815
+msgid "Optional planning group that carries the end effector (e.g., arm)"
+msgstr "承载末端执行器的可选规划组（例如手臂）"
+
+#: properties/control_props.py:28
+msgid "Parameter name"
+msgstr "参数名称"
+
+#: properties/control_props.py:33
+msgid "Parameter value"
+msgstr "参数值"
+
+#: properties/robot_props.py:188
+msgid "Parent Frame"
+msgstr "父坐标系"
+
+#: panels/planning_panel.py:430
+#: properties/planning_props.py:815
+msgid "Parent Group"
+msgstr "父组"
+
+#: panels/link_panel.py:142
+msgid "Parent Joint:"
+msgstr "父关节："
+
+#: properties/joint_props.py:207
+#: properties/planning_props.py:801
+msgid "Parent Link"
+msgstr "父连杆"
+
+#: properties/planning_props.py:809
+msgid "Parent Link Name"
+msgstr "父连杆名称"
+
+#: operators/import_ops.py:186
+msgid "Parsing URDF..."
+msgstr "正在解析 URDF..."
+
+#: panels/joint_panel.py:189
+#: properties/joint_props.py:413
+msgid "Passive Joint"
+msgstr "被动关节"
+
+#: properties/robot_props.py:142
+msgid "Path to controllers.yaml configuration file"
+msgstr "controllers.yaml 配置文件路径"
+
+#: panels/sensor_panel.py:23
+msgid "Perceive"
+msgstr "感知"
+
+#: properties/sensor_props.py:158
+msgid "Persistent robot model name. Prevents mapping breakage if Blender renames the object"
+msgstr "持久化机器人模型名称。防止 Blender 重命名物体时映射失效"
+
+#: properties/joint_props.py:175
+#: properties/link_props.py:182
+msgid "Persistent source name. Prevents mapping breakage if Blender renames the object"
+msgstr "持久化源名称。防止 Blender 重命名物体时映射失效"
+
+#: panels/link_panel.py:267
+msgid "Physics"
+msgstr "物理"
+
+#: panels/planning_panel.py:299
+msgid "Planning"
+msgstr "规划"
+
+#: operators/import_ops.py:69
+msgid "Planning Semantics"
+msgstr "规划语义"
+
+#: properties/planning_props.py:795
+msgid "Planning group that forms the end effector (e.g., hand)"
+msgstr "构成末端执行器的规划组（例如手部）"
+
+#: properties/planning_props.py:863
+msgid "Planning group this pose belongs to"
+msgstr "此姿态所属的规划组"
+
+#: properties/sensor_props.py:421
+msgid "Plugin Filename"
+msgstr "插件文件名"
+
+#: properties/sensor_props.py:428
+msgid "Plugin Raw XML"
+msgstr "插件原始 XML"
+
+#: properties/control_props.py:75
+#: properties/control_props.py:80
+msgid "Position"
+msgstr "位置"
+
+#: properties/joint_props.py:369
+msgid "Position gain for safety controller"
+msgstr "安全控制器的位置增益"
+
+#: properties/link_props.py:263
+msgid "Position of the center of mass relative to the link frame (meters)"
+msgstr "质心相对于连杆坐标系的位置（米）"
+
+#: properties/joint_props.py:400
+msgid "Position of the falling edge (optional)"
+msgstr "下降沿位置（可选）"
+
+#: properties/joint_props.py:388
+msgid "Position of the rising edge (optional)"
+msgstr "上升沿位置（可选）"
+
+#: properties/joint_props.py:344
+msgid "Position offset added to mimic joint movement (applied after multiplier)"
+msgstr "为模仿关节运动添加的位置偏移（在乘数之后应用）"
+
+#: panels/link_panel.py:303
+msgid "Position:"
+msgstr "位置："
+
+#: panels/planning_panel.py:456
+msgid "Preview"
+msgstr "预览"
+
+#: panels/planning_panel.py:456
+msgid "Preview Active"
+msgstr "预览激活"
+
+#: properties/planning_props.py:872
+msgid "Preview Pose"
+msgstr "预览姿态"
+
+#: properties/planning_props.py:872
+msgid "Preview this pose live in the 3D viewport (non-destructive)"
+msgstr "在 3D 视口中实时预览此姿态（非破坏性）"
+
+#: panels/planning_panel.py:478
+msgid "Previewing live in 3D Viewport"
+msgstr "正在 3D 视口中实时预览"
+
+#: properties/planning_props.py:702
+msgid "Previous Name"
+msgstr "上一个名称"
+
+#: properties/link_props.py:226
+msgid "Product of inertia XY component - coupling between X and Y rotations (kg⋅m²)"
+msgstr "惯性积 XY 分量 - X 和 Y 旋转之间的耦合（kg⋅m²）"
+
+#: properties/link_props.py:233
+msgid "Product of inertia XZ component - coupling between X and Z rotations (kg⋅m²)"
+msgstr "惯性积 XZ 分量 - X 和 Z 旋转之间的耦合（kg⋅m²）"
+
+#: properties/link_props.py:248
+msgid "Product of inertia YZ component - coupling between Y and Z rotations (kg⋅m²)"
+msgstr "惯性积 YZ 分量 - Y 和 Z 旋转之间的耦合（kg⋅m²）"
+
+#: panels/export_panel.py:67
+msgid "Properties"
+msgstr "属性"
+
+#: operators/control_ops.py:347
+msgid "Purged all ROS 2 control data"
+msgstr "已清除所有 ROS 2 控制数据"
+
+#: operators/planning_ops.py:1403
+msgid "Purged all SRDF planning data"
+msgstr "已清除所有 SRDF 规划数据"
+
+#: properties/robot_props.py:130
+msgid "ROS 2 Hardware Interface plugin name"
+msgstr "ROS 2 硬件接口插件名称"
+
+#: properties/sensor_props.py:221
+msgid "ROS topic name for sensor data"
+msgstr "传感器数据的 ROS 话题名称"
+
+#: properties/sensor_props.py:353
+msgid "Range Max"
+msgstr "最大范围"
+
+#: properties/sensor_props.py:344
+msgid "Range Min"
+msgstr "最小范围"
+
+#: properties/sensor_props.py:362
+msgid "Range Resolution"
+msgstr "范围分辨率"
+
+#: panels/sensor_panel.py:201
+msgid "Range:"
+msgstr "范围："
+
+#: properties/sensor_props.py:428
+msgid "Raw XML content of plugin (for round-trip fidelity)"
+msgstr "插件的原始 XML 内容（用于往返保真）"
+
+#: properties/planning_props.py:916
+msgid "Reason"
+msgstr "原因"
+
+#: properties/planning_props.py:916
+msgid "Reason why collision checking is disabled between these links"
+msgstr "禁用这些连杆之间碰撞检查的原因"
+
+#: properties/control_props.py:67
+#: properties/planning_props.py:674
+msgid "Reference to the physical joint object"
+msgstr "对物理关节物体的引用"
+
+#: operators/link_ops.py:1080
+msgid "Removed collision geometry"
+msgstr "已移除碰撞几何体"
+
+#: operators/planning_ops.py:1080
+msgid "Removed disabled collision pair"
+msgstr "已移除禁用的碰撞对"
+
+#: properties/robot_props.py:338
+msgid "Request cancellation of the current background import"
+msgstr "请求取消当前后台导入"
+
+#: properties/joint_props.py:308
+msgid "Resistance to motion (slows down movement)"
+msgstr "运动阻力（减慢运动）"
+
+#: properties/sensor_props.py:362
+msgid "Resolution of the range sensor in meters"
+msgstr "测距传感器的分辨率（米）"
+
+#: operators/planning_ops.py:991
+msgid "Restored robot to rest pose"
+msgstr "已将机器人恢复到静止姿态"
+
+#: properties/joint_props.py:263
+msgid "Restrict how far the joint can move (safety limits)"
+msgstr "限制关节可移动范围（安全限制）"
+
+#: panels/joint_panel.py:177
+msgid "Rising"
+msgstr "上升"
+
+#: properties/joint_props.py:388
+msgid "Rising Edge"
+msgstr "上升沿"
+
+#: properties/robot_props.py:89
+msgid "Robot Name"
+msgstr "机器人名称"
+
+#: panels/export_panel.py:94
+msgid "Robot Validation"
+msgstr "机器人验证"
+
+#: properties/planning_props.py:801
+msgid "Robot link the end effector attaches to (e.g., wrist_link)"
+msgstr "末端执行器连接的机器人连杆（例如 wrist_link）"
+
+#: panels/link_panel.py:155
+msgid "Root Link (Robot Base)"
+msgstr "根连杆（机器人基座）"
+
+#: panels/export_panel.py:79
+msgid "Root Link:"
+msgstr "根连杆："
+
+#: properties/robot_props.py:194
+msgid "Root link of the robot connected to the world frame (e.g., base_link)"
+msgstr "连接到世界坐标系的机器人根连杆（例如 base_link）"
+
+#: properties/link_props.py:273
+msgid "Rotation of the principal axes of inertia relative to the link frame (radians, XYZ order)"
+msgstr "惯性主轴相对于连杆坐标系的旋转（弧度，XYZ 顺序）"
+
+#: panels/link_panel.py:308
+msgid "Rotation:"
+msgstr "旋转："
+
+#: operators/planning_ops.py:1222
+msgid "Sample Count"
+msgstr "采样数量"
+
+#: panels/planning_panel.py:724
+msgid "Samples"
+msgstr "采样数"
+
+#: properties/robot_props.py:241
+msgid "Save 3D mesh files alongside URDF (needed for visualization and simulation)"
+msgstr "随 URDF 保存 3D 网格文件（可视化和仿真需要）"
+
+#: properties/planning_props.py:902
+msgid "Second link in the disabled collision pair"
+msgstr "禁用碰撞对中的第二个连杆"
+
+#: panels/planning_panel.py:483
+msgid "Select a group or click Sync to load active joints."
+msgstr "选择组，或点击同步以加载活动关节。"
+
+#: operators/link_ops.py:863
+#: operators/link_ops.py:920
+msgid "Select at least one loose mesh to assign"
+msgstr "请至少选择一个松散网格进行分配"
+
+#: properties/sensor_props.py:191
+msgid "Select the link this sensor is attached to"
+msgstr "选择此传感器所连接的连杆"
+
+#: preferences.py:159
+msgid "Selected Joint Only"
+msgstr "仅所选关节"
+
+#: preferences.py:242
+msgid "Selected Link Only"
+msgstr "仅所选连杆"
+
+#: properties/link_props.py:290
+msgid "Self Collide"
+msgstr "自碰撞"
+
+#: preferences.py:202
+#: preferences.py:307
+msgid "Sensor Empty Size"
+msgstr "传感器空物体大小"
+
+#: properties/sensor_props.py:164
+msgid "Sensor Name"
+msgstr "传感器名称"
+
+#: properties/sensor_props.py:174
+msgid "Sensor Type"
+msgstr "传感器类型"
+
+#: preferences.py:305
+msgid "Sensor Visualization"
+msgstr "传感器可视化"
+
+#: properties/sensor_props.py:200
+msgid "Sensor update rate in Hz"
+msgstr "传感器更新率（Hz）"
+
+#: properties/geom_props.py:54
+msgid "Sets how this geometry is exported in URDF. The 3D mesh is kept as a visual proxy."
+msgstr "设置此几何体在 URDF 中的导出方式。3D 网格将保留为视觉代理。"
+
+#: properties/validation_props.py:23
+msgid "Short title of the issue"
+msgstr "问题的简短标题"
+
+#: properties/robot_props.py:293
+msgid "Show Advanced XACRO Settings"
+msgstr "显示高级 XACRO 设置"
+
+#: properties/robot_props.py:324
+msgid "Show Collisions"
+msgstr "显示碰撞"
+
+#: properties/robot_props.py:239
+msgid "Show Disabled Collisions"
+msgstr "显示已禁用碰撞"
+
+#: properties/robot_props.py:237
+msgid "Show End Effectors"
+msgstr "显示末端执行器"
+
+#: properties/validation_props.py:184
+msgid "Show Errors"
+msgstr "显示错误"
+
+#: properties/robot_props.py:238
+msgid "Show Group States"
+msgstr "显示组状态"
+
+#: preferences.py:231
+#: preferences.py:321
+msgid "Show Inertia Frames"
+msgstr "显示惯性坐标系"
+
+#: preferences.py:147
+#: preferences.py:283
+msgid "Show Joint Axes"
+msgstr "显示关节轴"
+
+#: properties/control_props.py:85
+#: properties/robot_props.py:155
+msgid "Show Parameters"
+msgstr "显示参数"
+
+#: properties/robot_props.py:236
+msgid "Show Planning Groups"
+msgstr "显示规划组"
+
+#: preferences.py:158
+msgid "Show RGB axes for all joints in the scene"
+msgstr "显示场景中所有关节的 RGB 轴"
+
+#: properties/robot_props.py:235
+msgid "Show Virtual Joint"
+msgstr "显示虚拟关节"
+
+#: properties/validation_props.py:190
+msgid "Show Warnings"
+msgstr "显示警告"
+
+#: properties/robot_props.py:293
+msgid "Show detailed options for XACRO generation"
+msgstr "显示 XACRO 生成的详细选项"
+
+#: preferences.py:247
+msgid "Show inertia gizmos for all links with manual inertia"
+msgstr "为所有使用手动惯性的连杆显示惯性辅助线"
+
+#: preferences.py:231
+msgid "Show or hide Center of Mass indicators and principal inertia frames in the 3D viewport"
+msgstr "在 3D 视图中显示或隐藏质心指示器和主惯性坐标系"
+
+#: preferences.py:147
+msgid "Show or hide all robot joint axes and coordinate frames in the 3D viewport"
+msgstr "在 3D 视图中显示或隐藏所有机器人关节轴和坐标系"
+
+#: properties/robot_props.py:324
+msgid "Show/Hide all collision meshes in the viewport"
+msgstr "在视图中显示/隐藏所有碰撞网格"
+
+#: panels/link_panel.py:352
+msgid "Simulation"
+msgstr "仿真"
+
+#: panels/forge_panel.py:119
+msgid "Size"
+msgstr "大小"
+
+#: preferences.py:188
+msgid "Size of the joint markers and GPU axes in viewport"
+msgstr "视图中关节标记和 GPU 轴的大小"
+
+#: preferences.py:216
+msgid "Size of the link markers in viewport (bigger = easier to select, smaller = cleaner view)"
+msgstr "视图中连杆标记的大小（越大越易选择，越小视图越简洁）"
+
+#: preferences.py:202
+msgid "Size of the sensor markers in viewport (bigger = easier to select, smaller = cleaner view)"
+msgstr "视图中传感器标记的大小（越大越易选择，越小视图越简洁）"
+
+#: properties/joint_props.py:357
+msgid "Soft Lower Limit"
+msgstr "软下限"
+
+#: properties/joint_props.py:363
+msgid "Soft Upper Limit"
+msgstr "软上限"
+
+#: properties/joint_props.py:175
+#: properties/link_props.py:182
+msgid "Source Name"
+msgstr "源名称"
+
+#: properties/joint_props.py:406
+msgid "Specify Falling Edge"
+msgstr "指定下降沿"
+
+#: properties/joint_props.py:394
+msgid "Specify Rising Edge"
+msgstr "指定上升沿"
+
+#: properties/robot_props.py:317
+msgid "Split Files"
+msgstr "拆分文件"
+
+#: properties/robot_props.py:317
+msgid "Split output into _robot.xacro, _properties.xacro, and _macros.xacro"
+msgstr "将输出拆分为 _robot.xacro、_properties.xacro 和 _macros.xacro"
+
+#: panels/link_panel.py:159
+msgid "Standalone Link (No joints connected)"
+msgstr "独立连杆（未连接关节）"
+
+#: properties/sensor_props.py:406
+msgid "Standard deviation of the noise"
+msgstr "噪声的标准差"
+
+#: preferences.py:253
+msgid "Standard display size for CoM spheres and principal axes"
+msgstr "质心球体与主轴的标准显示大小"
+
+#: properties/planning_props.py:732
+msgid "Start link of the kinematic chain (e.g., base_link or shoulder_link)"
+msgstr "运动链的起始连杆（例如 base_link 或 shoulder_link）"
+
+#: panels/control_panel.py:133
+msgid "State Interfaces:"
+msgstr "状态接口："
+
+#: properties/joint_props.py:316
+msgid "Static friction (resistance to starting motion)"
+msgstr "静摩擦（启动运动的阻力）"
+
+#: properties/link_props.py:302
+msgid "Static friction coefficient (Coulomb)"
+msgstr "静摩擦系数（库仑）"
+
+#: panels/link_panel.py:128
+msgid "Status: Virtual Frame (No Geometry)"
+msgstr "状态：虚拟坐标系（无几何体）"
+
+#: properties/link_props.py:316
+#: properties/link_props.py:323
+msgid "Stiffness kp"
+msgstr "刚度 kp"
+
+#: panels/forge_panel.py:59
+msgid "Stop Import"
+msgstr "停止导入"
+
+#: properties/robot_props.py:283
+msgid "Strict Mode"
+msgstr "严格模式"
+
+#: operators/planning_ops.py:365
+#: properties/planning_props.py:685
+msgid "Subgroup Name"
+msgstr "子组名称"
+
+#: properties/planning_props.py:773
+msgid "Subgroups"
+msgstr "子组"
+
+#: properties/validation_props.py:35
+msgid "Suggestion"
+msgstr "建议"
+
+#: properties/robot_props.py:113
+msgid "System Name"
+msgstr "系统名称"
+
+#: properties/robot_props.py:119
+msgid "System Type"
+msgstr "系统类型"
+
+#: properties/planning_props.py:843
+msgid "Target joint position for this named pose (clamped to joint limits)"
+msgstr "此命名姿态的目标关节位置（限制在关节范围内）"
+
+#: properties/planning_props.py:746
+msgid "Tip Link"
+msgstr "末端连杆"
+
+#: properties/planning_props.py:754
+msgid "Tip Link Name"
+msgstr "末端连杆名称"
+
+#: preferences.py:347
+msgid "Tip: Larger empties are easier to click in viewport"
+msgstr "提示：较大的空物体在视图中更易点击"
+
+#: properties/validation_props.py:23
+msgid "Title"
+msgstr "标题"
+
+#: properties/sensor_props.py:221
+msgid "Topic Name"
+msgstr "话题名称"
+
+#: panels/export_panel.py:84
+msgid "Total Mass:"
+msgstr "总质量："
+
+#: properties/robot_props.py:332
+msgid "True if a background import is currently active"
+msgstr "当前有后台导入活动时为真"
+
+#: properties/robot_props.py:177
+msgid "Type"
+msgstr "类型"
+
+#: operators/link_ops.py:453
+msgid "Type of collision geometry to generate"
+msgstr "要生成的碰撞几何体类型"
+
+#: properties/joint_props.py:191
+msgid "Type of joint connection"
+msgstr "关节连接类型"
+
+#: properties/sensor_props.py:389
+msgid "Type of noise model"
+msgstr "噪声模型类型"
+
+#: operators/selection_ops.py:26
+msgid "Type of object (link, joint, sensor)"
+msgstr "对象类型（连杆、关节、传感器）"
+
+#: properties/sensor_props.py:174
+msgid "Type of sensor"
+msgstr "传感器类型"
+
+#: properties/robot_props.py:119
+msgid "Type of the hardware system"
+msgstr "硬件系统类型"
+
+#: properties/robot_props.py:177
+msgid "Type of virtual joint connection to the world frame"
+msgstr "连接到世界坐标系的虚拟关节类型"
+
+#: properties/planning_props.py:789
+msgid "Unique name for the end effector (e.g., gripper)"
+msgstr "末端执行器的唯一名称（例如 gripper）"
+
+#: properties/planning_props.py:695
+msgid "Unique name for the planning group (e.g., arm, hand)"
+msgstr "规划组的唯一名称（例如 arm、hand）"
+
+#: properties/planning_props.py:857
+msgid "Unique pose name (e.g., home, ready, folded)"
+msgstr "唯一姿态名称（如 home、ready、folded）"
+
+#: panels/planning_panel.py:59
+#: panels/planning_panel.py:112
+msgid "Unnamed"
+msgstr "未命名"
+
+#: properties/sensor_props.py:200
+msgid "Update Rate"
+msgstr "更新频率"
+
+#: properties/joint_props.py:277
+msgid "Upper Limit"
+msgstr "上限"
+
+#: properties/joint_props.py:363
+msgid "Upper bound of the joint safety controller"
+msgstr "关节安全控制器的上限"
+
+#: properties/joint_props.py:382
+msgid "Use Calibration"
+msgstr "使用校准"
+
+#: properties/joint_props.py:302
+msgid "Use Dynamics"
+msgstr "使用动力学"
+
+#: properties/joint_props.py:263
+msgid "Use Limits"
+msgstr "使用限制"
+
+#: panels/joint_panel.py:131
+msgid "Use Limits (Optional)"
+msgstr "使用限制（可选）"
+
+#: properties/sensor_props.py:383
+msgid "Use Noise"
+msgstr "使用噪声"
+
+#: preferences.py:348
+msgid "Use Outliner to select components if empties are too small"
+msgstr "若空物体太小，请在大纲视图中选择组件"
+
+#: panels/control_panel.py:177
+msgid "Use ROS2 Control"
+msgstr "使用 ROS2 Control"
+
+#: properties/joint_props.py:351
+msgid "Use Safety Controller"
+msgstr "使用安全控制器"
+
+#: panels/export_panel.py:26
+msgid "Validate & Export"
+msgstr "验证并导出"
+
+#: properties/robot_props.py:277
+msgid "Validate Before Export"
+msgstr "导出前验证"
+
+#: panels/export_panel.py:27
+msgid "Validate robot structure and export to robot model file"
+msgstr "验证机器人结构并导出为机器人模型文件"
+
+#: operators/export_ops.py:221
+msgid "Validation system not initialized"
+msgstr "验证系统未初始化"
+
+#: properties/control_props.py:33
+msgid "Value"
+msgstr "值"
+
+#: properties/control_props.py:76
+#: properties/control_props.py:81
+msgid "Velocity"
+msgstr "速度"
+
+#: properties/joint_props.py:375
+msgid "Velocity gain for safety controller"
+msgstr "安全控制器的速度增益"
+
+#: properties/sensor_props.py:334
+msgid "Vertical Max Angle"
+msgstr "垂直最大角度"
+
+#: properties/sensor_props.py:324
+msgid "Vertical Min Angle"
+msgstr "垂直最小角度"
+
+#: properties/sensor_props.py:316
+msgid "Vertical Samples"
+msgstr "垂直采样数"
+
+#: panels/sensor_panel.py:192
+msgid "Vertical Scan:"
+msgstr "垂直扫描："
+
+#: panels/forge_panel.py:82
+msgid "Viewport Overlays"
+msgstr "视图叠加层"
+
+#: panels/planning_panel.py:564
+#: properties/robot_props.py:164
+msgid "Virtual Joint"
+msgstr "虚拟关节"
+
+#: operators/link_ops.py:962
+#: properties/geom_props.py:48
+msgid "Visual"
+msgstr "可视"
+
+#: properties/sensor_props.py:215
+msgid "Visualize"
+msgstr "可视化"
+
+#: panels/link_panel.py:179
+msgid "Visuals"
+msgstr "可视几何体"
+
+#: properties/validation_props.py:148
+msgid "Warning Count"
+msgstr "警告数"
+
+#: properties/validation_props.py:178
+msgid "Warnings"
+msgstr "警告"
+
+#: properties/link_props.py:205
+msgid "Weight of this link in kilograms (for physics simulation)"
+msgstr "此连杆的重量（千克，用于物理仿真）"
+
+#: properties/validation_props.py:136
+msgid "Whether robot passed validation (no errors)"
+msgstr "机器人是否通过验证（无错误）"
+
+#: properties/sensor_props.py:209
+msgid "Whether the sensor is always active"
+msgstr "传感器是否始终激活"
+
+#: properties/geom_props.py:43
+msgid "Whether this is visual or collision geometry. Set automatically at assignment."
+msgstr "这是可视还是碰撞几何体。分配时自动设置。"
+
+#: properties/link_props.py:290
+msgid "Whether this link can collide with other links in the same robot"
+msgstr "此连杆能否与同一机器人中的其他连杆碰撞"
+
+#: properties/link_props.py:296
+msgid "Whether this link is affected by gravity"
+msgstr "此连杆是否受重力影响"
+
+#: properties/joint_props.py:406
+msgid "Whether to include the falling edge in calibration"
+msgstr "是否在校准中包含下降沿"
+
+#: properties/joint_props.py:394
+msgid "Whether to include the rising edge in calibration"
+msgstr "是否在校准中包含上升沿"
+
+#: properties/validation_props.py:130
+msgid "Whether validation has been run"
+msgstr "是否已运行验证"
+
+#: properties/joint_props.py:224
+msgid "Which direction the joint moves (rotation or sliding axis)"
+msgstr "关节运动方向（旋转或滑动轴）"
+
+#: properties/joint_props.py:331
+msgid "Which joint to copy movement from"
+msgstr "从哪个关节复制运动"
+
+#: properties/robot_props.py:158
+msgid "Write a companion .srdf (Semantic Robot Description Format) file alongside the exported robot model"
+msgstr "在导出的机器人模型旁写入配套的 .srdf（语义机器人描述格式）文件"
+
+#: panels/joint_panel.py:114
+msgid "X"
+msgstr "X"
+
+#: panels/joint_panel.py:115
+msgid "Y"
+msgstr "Y"
+
+#: panels/joint_panel.py:116
+msgid "Z"
+msgstr "Z"
+
+#: panels/planning_panel.py:67
+msgid "[Chain: Unconfigured]"
+msgstr "[链：未配置]"
+
+#: panels/planning_panel.py:122
+msgid "[Unconfigured]"
+msgstr "[未配置]"
+
+#: panels/link_panel.py:369
+msgid "kd (Damping)"
+msgstr "kd（阻尼）"
+
+#: panels/link_panel.py:368
+msgid "kp (Stiffness)"
+msgstr "kp（刚度）"
+
+#: panels/link_panel.py:363
+msgid "mu (Static)"
+msgstr "mu（静摩擦）"
+
+#: panels/link_panel.py:364
+msgid "mu2 (Dynamic)"
+msgstr "mu2（动摩擦）"
+
+#: properties/sensor_props.py:158
+msgid "robot model Name"
+msgstr "机器人模型名称"
+
+#: operators/planning_ops.py:999
+msgctxt "Operator"
+msgid "Add Disabled Collision"
+msgstr "添加禁用的碰撞"
+
+#: operators/link_ops.py:228
+msgctxt "Operator"
+msgid "Add Empty Link"
+msgstr "添加空连杆"
+
+#: panels/link_panel.py:47
+#: panels/link_panel.py:104
+msgctxt "Operator"
+msgid "Add Empty Link Frame"
+msgstr "添加空连杆坐标系"
+
+#: operators/planning_ops.py:500
+msgctxt "Operator"
+msgid "Add End Effector"
+msgstr "添加末端执行器"
+
+#: operators/planning_ops.py:643
+msgctxt "Operator"
+msgid "Add Group State"
+msgstr "添加组状态"
+
+#: operators/control_ops.py:22
+msgctxt "Operator"
+msgid "Add Joint"
+msgstr "添加关节"
+
+#: operators/planning_ops.py:215
+msgctxt "Operator"
+msgid "Add Joint to Group"
+msgstr "将关节添加到组"
+
+#: operators/link_ops.py:1204
+#: panels/link_panel.py:344
+msgctxt "Operator"
+msgid "Add Material Slot"
+msgstr "添加材质槽"
+
+#: operators/control_ops.py:216
+msgctxt "Operator"
+msgid "Add Parameter"
+msgstr "添加参数"
+
+#: operators/planning_ops.py:68
+msgctxt "Operator"
+msgid "Add Planning Group"
+msgstr "添加规划组"
+
+#: operators/planning_ops.py:361
+msgctxt "Operator"
+msgid "Add Subgroup to Group"
+msgstr "将子组添加到组"
+
+#: operators/planning_ops.py:216
+msgctxt "Operator"
+msgid "Add a joint from the robot's kinematic tree to the active planning group"
+msgstr "从机器人运动学树向活动规划组添加关节"
+
+#: operators/control_ops.py:23
+msgctxt "Operator"
+msgid "Add a joint from the robot's kinematic tree to the control system"
+msgstr "从机器人运动学树向控制系统添加关节"
+
+#: operators/control_ops.py:217
+msgctxt "Operator"
+msgid "Add a key-value parameter to the control system"
+msgstr "向控制系统添加键值参数"
+
+#: operators/planning_ops.py:1000
+msgctxt "Operator"
+msgid "Add a link pair that MoveIt should ignore during collision checking"
+msgstr "添加 MoveIt 在碰撞检查时应忽略的连杆对"
+
+#: operators/link_ops.py:1205
+msgctxt "Operator"
+msgid "Add a material slot to the visual mesh so a material can be assigned"
+msgstr "为可视网格添加材质槽以便分配材质"
+
+#: operators/planning_ops.py:644
+msgctxt "Operator"
+msgid "Add a named joint configuration (e.g., home, ready) for a planning group"
+msgstr "为规划组添加命名关节配置（例如 home、ready）"
+
+#: operators/planning_ops.py:501
+msgctxt "Operator"
+msgid "Add a new end effector definition"
+msgstr "添加新的末端执行器定义"
+
+#: operators/planning_ops.py:69
+msgctxt "Operator"
+msgid "Add a new kinematic planning group (chain or joint collection)"
+msgstr "添加新的运动学规划组（链或关节集合）"
+
+#: operators/planning_ops.py:362
+msgctxt "Operator"
+msgid "Add another planning group as a subgroup"
+msgstr "将另一个规划组添加为子组"
+
+#: operators/link_ops.py:894
+msgctxt "Operator"
+msgid "Assign Selected as Collision"
+msgstr "将所选分配为碰撞"
+
+#: operators/link_ops.py:837
+msgctxt "Operator"
+msgid "Assign Selected as Visual"
+msgstr "将所选分配为可视"
+
+#: operators/joint_ops.py:200
+msgctxt "Operator"
+msgid "Auto-Detect Links"
+msgstr "自动检测连杆"
+
+#: operators/planning_ops.py:1141
+msgctxt "Operator"
+msgid "Auto-Disable Adjacent Links"
+msgstr "自动禁用相邻连杆"
+
+#: panels/link_panel.py:263
+msgctxt "Operator"
+msgid "Auto-Generate"
+msgstr "自动生成"
+
+#: operators/link_ops.py:757
+msgctxt "Operator"
+msgid "Auto-calculate inertia tensor for all robot links in the scene"
+msgstr "自动计算场景中所有机器人连杆的惯性张量"
+
+#: operators/link_ops.py:692
+msgctxt "Operator"
+msgid "Auto-calculate inertia tensor from object geometry and mass"
+msgstr "从物体几何体和质量自动计算惯性张量"
+
+#: operators/display_ops.py:20
+msgctxt "Operator"
+msgid "Auto-scale joint, link, sensor, and inertia display markers to match robot size"
+msgstr "自动缩放关节、连杆、传感器和惯性显示标记以匹配机器人尺寸"
+
+#: operators/joint_ops.py:201
+msgctxt "Operator"
+msgid "Automatically detect parent and child links from object hierarchy"
+msgstr "从物体层级自动检测父连杆和子连杆"
+
+#: operators/link_ops.py:756
+msgctxt "Operator"
+msgid "Calculate All Inertias"
+msgstr "计算所有惯量"
+
+#: operators/link_ops.py:691
+msgctxt "Operator"
+msgid "Calculate Inertia"
+msgstr "计算惯量"
+
+#: panels/planning_panel.py:490
+msgctxt "Operator"
+msgid "Capture"
+msgstr "捕获"
+
+#: operators/planning_ops.py:935
+msgctxt "Operator"
+msgid "Capture Scene Pose"
+msgstr "捕获场景姿态"
+
+#: operators/control_ops.py:328
+msgctxt "Operator"
+msgid "Clear all joints and parameters from the control system"
+msgstr "清除控制系统中的所有关节和参数"
+
+#: operators/planning_ops.py:1358
+msgctxt "Operator"
+msgid "Clear all planning groups, end effectors, poses, and collision rules"
+msgstr "清除所有规划组、末端执行器、姿态和碰撞规则"
+
+#: operators/link_ops.py:301
+msgctxt "Operator"
+msgid "Convert selected mesh to a robot link (auto-creates Empty parent and proper naming)"
+msgstr "将所选网格转换为机器人连杆（自动创建空物体父级并正确命名）"
+
+#: operators/joint_ops.py:31
+#: panels/joint_panel.py:63
+msgctxt "Operator"
+msgid "Create Joint"
+msgstr "创建关节"
+
+#: operators/link_ops.py:300
+#: panels/link_panel.py:51
+msgctxt "Operator"
+msgid "Create Link from Mesh"
+msgstr "从网格创建连杆"
+
+#: operators/sensor_ops.py:35
+#: panels/sensor_panel.py:69
+msgctxt "Operator"
+msgid "Create Sensor"
+msgstr "创建传感器"
+
+#: operators/link_ops.py:229
+msgctxt "Operator"
+msgid "Create a new empty link frame at the 3D cursor position"
+msgstr "在 3D 光标位置创建新的空连杆坐标系"
+
+#: operators/joint_ops.py:32
+msgctxt "Operator"
+msgid "Create a new robot joint at the selected link's location and orientation"
+msgstr "在所选连杆的位置和方向创建新的机器人关节"
+
+#: operators/sensor_ops.py:36
+msgctxt "Operator"
+msgid "Create a new robot sensor at the selected link's location and orientation"
+msgstr "在所选连杆的位置和方向创建新的机器人传感器"
+
+#: panels/joint_panel.py:88
+msgctxt "Operator"
+msgid "Detect"
+msgstr "检测"
+
+#: panels/planning_panel.py:479
+msgctxt "Operator"
+msgid "Exit Preview"
+msgstr "退出预览"
+
+#: operators/export_ops.py:65
+#: panels/export_panel.py:203
+msgctxt "Operator"
+msgid "Export Robot Model"
+msgstr "导出机器人模型"
+
+#: operators/export_ops.py:66
+msgctxt "Operator"
+msgid "Export robot to supported description formats"
+msgstr "将机器人导出为支持的描述格式"
+
+#: operators/display_ops.py:19
+#: panels/forge_panel.py:113
+msgctxt "Operator"
+msgid "Fit Gizmos to Robot"
+msgstr "使 Gizmo 适配机器人"
+
+#: operators/link_ops.py:575
+msgctxt "Operator"
+msgid "Generate All Collisions"
+msgstr "生成所有碰撞"
+
+#: operators/link_ops.py:446
+msgctxt "Operator"
+msgid "Generate Collision"
+msgstr "生成碰撞"
+
+#: operators/planning_ops.py:1215
+msgctxt "Operator"
+msgid "Generate Collision Matrix (ACM)"
+msgstr "生成碰撞矩阵（ACM）"
+
+#: panels/planning_panel.py:719
+msgctxt "Operator"
+msgid "Generate Matrix (ACM)"
+msgstr "生成矩阵（ACM）"
+
+#: operators/planning_ops.py:1216
+msgctxt "Operator"
+msgid "Generate MoveIt Allowed Collision Matrix using Monte Carlo kinematic sampling (detects Adjacent, Fixed Chains, Default, Never, and Always colliding pairs)"
+msgstr "使用蒙特卡洛运动学采样生成 MoveIt 允许碰撞矩阵（检测相邻、固定链、默认、从不和始终碰撞的配对）"
+
+#: operators/link_ops.py:576
+msgctxt "Operator"
+msgid "Generate collision geometry for all robot links in the scene"
+msgstr "为场景中所有机器人连杆生成碰撞几何体"
+
+#: operators/import_ops.py:47
+#: panels/forge_panel.py:74
+msgctxt "Operator"
+msgid "Import Robot Model"
+msgstr "导入机器人模型"
+
+#: operators/planning_ops.py:1411
+msgctxt "Operator"
+msgid "Import SRDF"
+msgstr "导入 SRDF"
+
+#: panels/planning_panel.py:554
+#: panels/planning_panel.py:557
+msgctxt "Operator"
+msgid "Import SRDF..."
+msgstr "导入 SRDF..."
+
+#: operators/planning_ops.py:1412
+msgctxt "Operator"
+msgid "Import a MoveIt 2 SRDF file to configure planning groups, poses, and collisions"
+msgstr "导入 MoveIt 2 SRDF 文件以配置规划组、姿态和碰撞"
+
+#: operators/import_ops.py:48
+msgctxt "Operator"
+msgid "Import robot from supported formats (URDF, XACRO, etc.)"
+msgstr "从支持的格式导入机器人（URDF、XACRO 等）"
+
+#: operators/planning_ops.py:1090
+msgctxt "Operator"
+msgid "Move Disabled Collision"
+msgstr "移动禁用碰撞"
+
+#: operators/planning_ops.py:592
+msgctxt "Operator"
+msgid "Move End Effector"
+msgstr "移动末端执行器"
+
+#: operators/planning_ops.py:742
+msgctxt "Operator"
+msgid "Move Group State"
+msgstr "移动组状态"
+
+#: operators/control_ops.py:160
+msgctxt "Operator"
+msgid "Move Joint"
+msgstr "移动关节"
+
+#: operators/planning_ops.py:164
+msgctxt "Operator"
+msgid "Move Planning Group"
+msgstr "移动规划组"
+
+#: operators/planning_ops.py:1091
+msgctxt "Operator"
+msgid "Move disabled collision pair up or down in the list"
+msgstr "在列表中上移或下移禁用的碰撞配对"
+
+#: operators/planning_ops.py:593
+msgctxt "Operator"
+msgid "Move end effector up or down in the list"
+msgstr "在列表中上移或下移末端执行器"
+
+#: operators/planning_ops.py:743
+msgctxt "Operator"
+msgid "Move group state up or down in the list"
+msgstr "在列表中上移或下移组状态"
+
+#: operators/control_ops.py:161
+msgctxt "Operator"
+msgid "Move joint up or down in the list (cosmetic only)"
+msgstr "在列表中上移或下移关节（仅外观）"
+
+#: operators/planning_ops.py:165
+msgctxt "Operator"
+msgid "Move planning group up or down in the list"
+msgstr "在列表中上移或下移规划组"
+
+#: operators/link_ops.py:895
+msgctxt "Operator"
+msgid "Parent selected mesh(es) to the active link as collision geometry"
+msgstr "将所选网格设为活动连杆的子级作为碰撞几何体"
+
+#: operators/link_ops.py:838
+msgctxt "Operator"
+msgid "Parent selected mesh(es) to the active link as visual geometry"
+msgstr "将所选网格设为活动连杆的子级作为可视几何体"
+
+#: operators/control_ops.py:355
+msgctxt "Operator"
+msgid "Prune Missing Joints"
+msgstr "清理缺失的关节"
+
+#: operators/control_ops.py:327
+msgctxt "Operator"
+msgid "Purge Control Data"
+msgstr "清除控制数据"
+
+#: operators/planning_ops.py:1357
+msgctxt "Operator"
+msgid "Purge Planning Data"
+msgstr "清除规划数据"
+
+#: operators/planning_ops.py:936
+msgctxt "Operator"
+msgid "Read current joint rotations and displacements from the 3D viewport into this pose"
+msgstr "从 3D 视图读取当前关节旋转和位移到此姿态"
+
+#: operators/planning_ops.py:794
+msgctxt "Operator"
+msgid "Refresh the active pose's joint list from its selected planning group"
+msgstr "从所选规划组刷新活动姿态的关节列表"
+
+#: operators/link_ops.py:1048
+msgctxt "Operator"
+msgid "Remove Collision"
+msgstr "移除碰撞"
+
+#: operators/planning_ops.py:1042
+msgctxt "Operator"
+msgid "Remove Disabled Collision"
+msgstr "移除禁用碰撞"
+
+#: operators/planning_ops.py:543
+msgctxt "Operator"
+msgid "Remove End Effector"
+msgstr "移除末端执行器"
+
+#: operators/planning_ops.py:693
+msgctxt "Operator"
+msgid "Remove Group State"
+msgstr "移除组状态"
+
+#: operators/control_ops.py:106
+#: operators/joint_ops.py:145
+msgctxt "Operator"
+msgid "Remove Joint"
+msgstr "移除关节"
+
+#: operators/planning_ops.py:297
+msgctxt "Operator"
+msgid "Remove Joint from Group"
+msgstr "从组中移除关节"
+
+#: operators/link_ops.py:1090
+#: panels/link_panel.py:376
+msgctxt "Operator"
+msgid "Remove Link"
+msgstr "移除连杆"
+
+#: operators/control_ops.py:272
+msgctxt "Operator"
+msgid "Remove Parameter"
+msgstr "移除参数"
+
+#: operators/planning_ops.py:115
+msgctxt "Operator"
+msgid "Remove Planning Group"
+msgstr "移除规划组"
+
+#: operators/sensor_ops.py:141
+#: panels/sensor_panel.py:139
+msgctxt "Operator"
+msgid "Remove Sensor"
+msgstr "移除传感器"
+
+#: operators/planning_ops.py:433
+msgctxt "Operator"
+msgid "Remove Subgroup from Group"
+msgstr "从组中移除子组"
+
+#: operators/link_ops.py:997
+msgctxt "Operator"
+msgid "Remove Visual"
+msgstr "移除可视几何体"
+
+#: operators/control_ops.py:273
+msgctxt "Operator"
+msgid "Remove a hardware or joint parameter"
+msgstr "移除硬件或关节参数"
+
+#: operators/control_ops.py:356
+msgctxt "Operator"
+msgid "Remove joints from the control system that no longer exist in the scene"
+msgstr "从控制系统中移除场景中已不存在的关节"
+
+#: operators/link_ops.py:1049
+msgctxt "Operator"
+msgid "Remove the active collision mesh from the link"
+msgstr "从连杆中移除活动碰撞网格"
+
+#: operators/link_ops.py:998
+msgctxt "Operator"
+msgid "Remove the active visual mesh from the link"
+msgstr "从连杆中移除活动可视网格"
+
+#: operators/planning_ops.py:1043
+msgctxt "Operator"
+msgid "Remove the selected disabled collision pair"
+msgstr "移除所选禁用碰撞配对"
+
+#: operators/planning_ops.py:544
+msgctxt "Operator"
+msgid "Remove the selected end effector"
+msgstr "移除所选末端执行器"
+
+#: operators/planning_ops.py:694
+msgctxt "Operator"
+msgid "Remove the selected group state"
+msgstr "移除所选组状态"
+
+#: operators/planning_ops.py:298
+msgctxt "Operator"
+msgid "Remove the selected joint from the active planning group"
+msgstr "从活动规划组中移除所选关节"
+
+#: operators/control_ops.py:107
+msgctxt "Operator"
+msgid "Remove the selected joint from the control system"
+msgstr "从控制系统中移除所选关节"
+
+#: operators/joint_ops.py:146
+msgctxt "Operator"
+msgid "Remove the selected joint from the robot structure"
+msgstr "从机器人结构中移除所选关节"
+
+#: operators/planning_ops.py:116
+msgctxt "Operator"
+msgid "Remove the selected planning group"
+msgstr "移除所选规划组"
+
+#: operators/sensor_ops.py:142
+msgctxt "Operator"
+msgid "Remove the selected sensor from the robot"
+msgstr "从机器人中移除所选传感器"
+
+#: operators/planning_ops.py:434
+msgctxt "Operator"
+msgid "Remove the selected subgroup from the active planning group"
+msgstr "从活动规划组中移除所选子组"
+
+#: panels/planning_panel.py:489
+msgctxt "Operator"
+msgid "Reset"
+msgstr "重置"
+
+#: operators/planning_ops.py:840
+msgctxt "Operator"
+msgid "Reset Joint Values"
+msgstr "重置关节值"
+
+#: operators/planning_ops.py:841
+msgctxt "Operator"
+msgid "Reset all joint positions in this pose to 0.0 (or nearest valid limit)"
+msgstr "将此姿态中的所有关节位置重置为 0.0（或最接近的有效限制）"
+
+#: operators/planning_ops.py:974
+msgctxt "Operator"
+msgid "Reset robot joints back to their pristine zero/rest configuration"
+msgstr "将机器人关节重置回原始零位/静止配置"
+
+#: operators/planning_ops.py:973
+msgctxt "Operator"
+msgid "Restore Rest Pose"
+msgstr "恢复静止姿态"
+
+#: operators/link_ops.py:1091
+msgctxt "Operator"
+msgid "Revert this link back to a standard mesh (deletes collision geometry)"
+msgstr "将此连杆恢复为标准网格（删除碰撞几何体）"
+
+#: panels/export_panel.py:97
+msgctxt "Operator"
+msgid "Run Validation"
+msgstr "运行验证"
+
+#: panels/export_panel.py:241
+msgctxt "Operator"
+msgid "Select"
+msgstr "选择"
+
+#: operators/selection_ops.py:19
+msgctxt "Operator"
+msgid "Select Object"
+msgstr "选择物体"
+
+#: operators/selection_ops.py:64
+msgctxt "Operator"
+msgid "Select Root Link"
+msgstr "选择根链接"
+
+#: operators/selection_ops.py:65
+msgctxt "Operator"
+msgid "Select the root link of the robot in the 3D viewport"
+msgstr "在 3D 视图中选择机器人的根链接"
+
+#: operators/selection_ops.py:20
+msgctxt "Operator"
+msgid "Select this object in the 3D viewport"
+msgstr "在 3D 视图中选择该物体"
+
+#: operators/link_ops.py:956
+msgctxt "Operator"
+msgid "Set Active Geometry"
+msgstr "设置活动几何体"
+
+#: operators/link_ops.py:957
+msgctxt "Operator"
+msgid "Set this geometry as active and select it in the viewport"
+msgstr "将此几何体设为活动并在视图中选中它"
+
+#: operators/display_ops.py:51
+msgctxt "Operator"
+msgid "Show or hide all collision meshes in the 3D viewport"
+msgstr "在 3D 视图中显示或隐藏所有碰撞网格"
+
+#: operators/link_ops.py:621
+msgctxt "Operator"
+msgid "Show/hide collision geometry in the viewport"
+msgstr "在视图中显示/隐藏碰撞几何体"
+
+#: panels/planning_panel.py:488
+msgctxt "Operator"
+msgid "Sync"
+msgstr "同步"
+
+#: operators/planning_ops.py:793
+msgctxt "Operator"
+msgid "Sync Joints from Group"
+msgstr "从组同步关节"
+
+#: operators/link_ops.py:620
+msgctxt "Operator"
+msgid "Toggle Collision Visibility"
+msgstr "切换碰撞可见性"
+
+#: operators/display_ops.py:50
+msgctxt "Operator"
+msgid "Toggle Collisions"
+msgstr "切换碰撞"
+
+#: operators/planning_ops.py:892
+msgctxt "Operator"
+msgid "Toggle Pose Preview"
+msgstr "切换姿态预览"
+
+#: operators/planning_ops.py:893
+msgctxt "Operator"
+msgid "Toggle live non-destructive preview of this pose in the 3D viewport"
+msgstr "在 3D 视图中切换该姿态的实时非破坏性预览"
+
+#: operators/export_ops.py:214
+msgctxt "Operator"
+msgid "Validate Robot"
+msgstr "验证机器人"
+
+#: operators/export_ops.py:215
+msgctxt "Operator"
+msgid "Validate the robot structure for errors"
+msgstr "验证机器人结构是否存在错误"
+
+#: operators/planning_ops.py:1142
+msgctxt "Operator"
+msgid "Walk the kinematic tree and generate a disabled collision pair for every parent-child joint connection with reason 'Adjacent'"
+msgstr "遍历运动学树，为每对父子关节连接生成一个禁用的碰撞对，原因为「相邻」"

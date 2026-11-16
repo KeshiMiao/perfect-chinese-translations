@@ -1,0 +1,149 @@
+# perfect-chinese: 1
+# id: industrial_light_aov_splitter
+# kind: addon
+# module: bl_ext.blender_org.Industrial_Light_AOV_Splitter
+# name: Industrial Light AOV Splitter
+# name_zh: 光照分层分离
+# translator: KeshiMiao
+# category: Compositing
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: Industrial-Light-AOV-Splitter/__init__.py:1
+msgid "Auto create better light aovs (diffuse_key, specular_key...)"
+msgstr "自动创建更好的光照 AOV（diffuse_key、specular_key...）"
+
+#: Industrial-Light-AOV-Splitter/__init__.py:85
+#: Industrial-Light-AOV-Splitter/__init__.py:101
+msgid "Created For Current Viewlayer"
+msgstr "已为当前视图层创建"
+
+#: Industrial-Light-AOV-Splitter/__init__.py:162
+msgid "Entered Test Mode"
+msgstr "已进入测试模式"
+
+#: Industrial-Light-AOV-Splitter/__init__.py:35
+msgid "If enabled, show UI in N panel in addition to the property panel"
+msgstr "启用后，除属性面板外，还在 N 面板中显示 UI"
+
+#: Industrial-Light-AOV-Splitter/__init__.py:205
+#: Industrial-Light-AOV-Splitter/__init__.py:223
+msgid "Industrial"
+msgstr "工业"
+
+#: Industrial-Light-AOV-Splitter/__init__.py:1
+#: Industrial-Light-AOV-Splitter/__init__.py:193
+msgid "Industrial Light AOV Splitter"
+msgstr "工业光照 AOV 分离器"
+
+#: Industrial-Light-AOV-Splitter/__init__.py:46
+msgid "Large Scale Mode"
+msgstr "大尺度模式"
+
+#: Industrial-Light-AOV-Splitter/__init__.py:63
+msgid "Light Group Name"
+msgstr "光照组名称"
+
+#: Industrial-Light-AOV-Splitter/__init__.py:68
+msgid "Object Name"
+msgstr "物体名称"
+
+#: Industrial-Light-AOV-Splitter/__init__.py:1
+msgid "Render"
+msgstr "渲染"
+
+#: Industrial-Light-AOV-Splitter/__init__.py:143
+msgid "Restored Original Lights"
+msgstr "已恢复原始灯光"
+
+#: Industrial-Light-AOV-Splitter/__init__.py:164
+msgid "Restored from Test Mode"
+msgstr "已从测试模式恢复"
+
+#: Industrial-Light-AOV-Splitter/__init__.py:35
+msgid "Show UI In N Panel"
+msgstr "在 N 面板中显示 UI"
+
+#: Industrial-Light-AOV-Splitter/__init__.py:158
+msgid "Test toggle unavailable: ensure addon is enabled or reload the addon (registration missing)."
+msgstr "测试切换不可用：请确保插件已启用或重新加载插件（缺少注册）。"
+
+#: Industrial-Light-AOV-Splitter/__init__.py:181
+msgid "Tools:"
+msgstr "工具："
+
+#: Industrial-Light-AOV-Splitter/__init__.py:46
+msgid "When turned on, fix missing light due to extreme large scene scale"
+msgstr "启用后，修复因场景尺度极大而丢失灯光的问题"
+
+#: Industrial-Light-AOV-Splitter/__init__.py:53
+msgid "When turned on, the light aov creation will be scene-wise instead of per-viewlayer, only works on Blender 4.4 and higher"
+msgstr "启用后，光照 AOV 将按场景创建而非按视图层创建，仅适用于 Blender 4.4 及更高版本"
+
+#: Industrial-Light-AOV-Splitter/__init__.py:53
+msgid "Whole Scene Mode"
+msgstr "全场景模式"
+
+#: Industrial-Light-AOV-Splitter/__init__.py:112
+msgctxt "Operator"
+msgid "Auto Assign Emission Objects"
+msgstr "自动分配自发光物体"
+
+#: Industrial-Light-AOV-Splitter/__init__.py:113
+msgctxt "Operator"
+msgid "Find all emissive objects in the scene as well as the world, assign light groups to them."
+msgstr "查找场景中所有自发光物体以及世界环境，并为它们分配光照组。"
+
+#: Industrial-Light-AOV-Splitter/__init__.py:93
+msgctxt "Operator"
+msgid "Make Advanced Light AOVs"
+msgstr "创建高级光照 AOV"
+
+#: Industrial-Light-AOV-Splitter/__init__.py:78
+msgctxt "Operator"
+msgid "Make Simple Light AOVs"
+msgstr "创建简单光照 AOV"
+
+#: Industrial-Light-AOV-Splitter/__init__.py:137
+msgctxt "Operator"
+msgid "Removes all split lights and restores master lights to renderable state."
+msgstr "移除所有分离灯光，并将主灯光恢复为可渲染状态。"
+
+#: Industrial-Light-AOV-Splitter/__init__.py:136
+msgctxt "Operator"
+msgid "Restore / Clean AOVs"
+msgstr "恢复 / 清理 AOV"
+
+#: Industrial-Light-AOV-Splitter/__init__.py:186
+msgctxt "Operator"
+msgid "Restore Test"
+msgstr "恢复测试"
+
+#: Industrial-Light-AOV-Splitter/__init__.py:188
+msgctxt "Operator"
+msgid "Test New Lights"
+msgstr "测试新灯光"
+
+#: Industrial-Light-AOV-Splitter/__init__.py:151
+msgctxt "Operator"
+msgid "Test Split Lights"
+msgstr "测试分离灯光"
+
+#: Industrial-Light-AOV-Splitter/__init__.py:79
+msgctxt "Operator"
+msgid "This will look for all enabled collections which name starts with \"lgt_\" and create simple light aovs for all lights in it"
+msgstr "将查找所有名称以“lgt_”开头的已启用集合，并为其所有灯光创建简单光照 AOV"
+
+#: Industrial-Light-AOV-Splitter/__init__.py:94
+msgctxt "Operator"
+msgid "This will look for all enabled collections which name starts with \"lgt_\" and create splitted light aovs for all lights in it"
+msgstr "将查找所有名称以“lgt_”开头的已启用集合，并为其所有灯光创建分离光照 AOV"
+
+#: Industrial-Light-AOV-Splitter/__init__.py:152
+msgctxt "Operator"
+msgid "Toggle \"test\" mode: hide master lights and show split children, then restore"
+msgstr "切换“测试”模式：隐藏主灯光并显示分离出的子灯光，然后恢复"
