@@ -1,0 +1,238 @@
+# perfect-chinese: 1
+# id: e_topology_smooth
+# kind: addon
+# module: bl_ext.blender_org.e_topology_smooth
+# name: E Topology Smooth
+# name_zh: 拓扑平滑
+# translator: KeshiMiao
+# category: Mesh
+# supported_versions: >=5.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:1907
+msgid "Advanced Settings"
+msgstr "高级设置"
+
+#: __init__.py:1922
+msgid "Advanced settings will be added here"
+msgstr "高级设置将在此处添加"
+
+#: __init__.py:9
+msgid "Advanced topology smoothing with G0-G4 continuity analysis and multi-algorithm curve fitting"
+msgstr "高级拓扑平滑，支持 G0-G4 连续性分析与多算法曲线拟合"
+
+#: __init__.py:515
+msgid "Angle"
+msgstr "角度"
+
+#: __init__.py:515
+msgid "Angle threshold for corner detection"
+msgstr "角点检测的角度阈值"
+
+#: __init__.py:484
+msgid "Auto Detect"
+msgstr "自动检测"
+
+#: __init__.py:484
+msgid "Automatically detect best method"
+msgstr "自动检测最佳方法"
+
+#: __init__.py:487
+msgid "B-Spline"
+msgstr "B 样条"
+
+#: __init__.py:485
+msgid "Circle"
+msgstr "圆"
+
+#: __init__.py:523
+msgid "Curvature"
+msgstr "曲率"
+
+#: __init__.py:523
+msgid "Curvature threshold for corner detection"
+msgstr "角点检测的曲率阈值"
+
+#: __init__.py:480
+msgid "Curve fitting method"
+msgstr "曲线拟合方法"
+
+#: __init__.py:9
+#: __init__.py:1852
+msgid "E Topology Smooth"
+msgstr "E Topology Smooth"
+
+#: __init__.py:1856
+#: __init__.py:1911
+msgid "ETS"
+msgstr "ETS"
+
+#: __init__.py:486
+msgid "Ellipse"
+msgstr "椭圆"
+
+#: __init__.py:487
+msgid "Fit to B-spline"
+msgstr "拟合为 B 样条"
+
+#: __init__.py:485
+msgid "Fit to circle"
+msgstr "拟合为圆"
+
+#: __init__.py:486
+msgid "Fit to ellipse"
+msgstr "拟合为椭圆"
+
+#: __init__.py:489
+msgid "Fit to polynomial"
+msgstr "拟合为多项式"
+
+#: __init__.py:488
+msgid "Fit to power function"
+msgstr "拟合为幂函数"
+
+#: __init__.py:500
+msgid "Flatten"
+msgstr "展平"
+
+#: __init__.py:500
+msgid "Flatten to plane"
+msgstr "展平到平面"
+
+#: __init__.py:471
+msgid "Iterations"
+msgstr "迭代次数"
+
+#: __init__.py:9
+msgid "Mesh"
+msgstr "网格"
+
+#: __init__.py:480
+msgid "Method"
+msgstr "方法"
+
+#: __init__.py:2085
+msgid "No valid edge loops detected"
+msgstr "未检测到有效边循环"
+
+#: __init__.py:471
+msgid "Number of iterations"
+msgstr "迭代次数"
+
+#: __init__.py:507
+msgid "Outlier"
+msgstr "离群值"
+
+#: __init__.py:507
+msgid "Outlier detection threshold"
+msgstr "离群值检测阈值"
+
+#: __init__.py:1935
+#: __init__.py:1988
+msgid "Please select a mesh object"
+msgstr "请选择一个网格物体"
+
+#: __init__.py:2069
+msgid "Please select edge loop"
+msgstr "请选择循环边"
+
+#: __init__.py:2035
+msgid "Please select faces"
+msgstr "请选择面"
+
+#: __init__.py:1942
+#: __init__.py:1995
+msgid "Please select vertices"
+msgstr "请选择顶点"
+
+#: __init__.py:489
+msgid "Polynomial"
+msgstr "多项式"
+
+#: __init__.py:488
+msgid "Power"
+msgstr "幂"
+
+#: __init__.py:463
+msgid "Smooth strength"
+msgstr "平滑强度"
+
+#: __init__.py:463
+msgid "Strength"
+msgstr "强度"
+
+#: __init__.py:494
+msgid "Uniform Spacing"
+msgstr "均匀间距"
+
+#: __init__.py:494
+msgid "Use uniform spacing"
+msgstr "使用均匀间距"
+
+#: __init__.py:547
+msgid "优化了插件的启动性能"
+msgstr "优化了插件的启动性能"
+
+#: __init__.py:537
+msgid "修复了Blender 5.2+ (Python 3.14) 环境下的Python版本兼容性问题"
+msgstr "修复了Blender 5.2+ (Python 3.14) 环境下的Python版本兼容性问题"
+
+#: __init__.py:547
+msgid "修复了文件开头的BOM字符问题"
+msgstr "修复了文件开头的BOM字符问题"
+
+#: __init__.py:556
+msgid "初始版本发布"
+msgstr "初始版本发布"
+
+#: __init__.py:556
+msgid "实现了G0-G4连续性分析"
+msgstr "实现了G0-G4连续性分析"
+
+#: __init__.py:537
+msgid "改进了scipy导入的容错处理，确保在缺少scipy时插件仍可正常加载"
+msgstr "改进了scipy导入的容错处理，确保在缺少scipy时插件仍可正常加载"
+
+#: __init__.py:1928
+msgctxt "Operator"
+msgid "Analyze Continuity"
+msgstr "分析连续性"
+
+#: __init__.py:1929
+msgctxt "Operator"
+msgid "Analyze G0-G4 continuity of selected vertices"
+msgstr "分析选中顶点的 G0-G4 连续性"
+
+#: __init__.py:2055
+msgctxt "Operator"
+msgid "Fit Curve"
+msgstr "拟合曲线"
+
+#: __init__.py:2056
+msgctxt "Operator"
+msgid "Fit curve to selected edge loop"
+msgstr "对选中循环边拟合曲线"
+
+#: __init__.py:2021
+msgctxt "Operator"
+msgid "Optimize Region"
+msgstr "优化区域"
+
+#: __init__.py:1981
+msgctxt "Operator"
+msgid "Optimize Vertices"
+msgstr "优化顶点"
+
+#: __init__.py:2022
+msgctxt "Operator"
+msgid "Optimize selected face region"
+msgstr "优化选中面区域"
+
+#: __init__.py:1982
+msgctxt "Operator"
+msgid "Optimize selected vertices for better topology"
+msgstr "优化选中顶点以改善拓扑"
