@@ -1,0 +1,327 @@
+# perfect-chinese: 1
+# id: struct_topo_opt
+# kind: addon
+# module: bl_ext.blender_org.struct_topo_opt
+# name: Structural Topology Optimization
+# name_zh: 结构拓扑优化
+# translator: KeshiMiao
+# category: Mesh
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: ui.py:690
+msgid "(select a mesh)"
+msgstr "（选择网格）"
+
+#: properties.py:166
+msgid "1.0 = keep solid, 0.0 = keep empty, in between = fraction of material to keep inside this region"
+msgstr "1.0 = 保持实体，0.0 = 保持空，介于两者之间 = 该区域内保留材料的比例"
+
+#: properties.py:201
+msgid "Cancel the solver if a single iteration takes longer than this many seconds"
+msgstr "若单次迭代耗时超过此秒数，则取消求解器"
+
+#: properties.py:240
+msgid "Close Holes"
+msgstr "封闭孔洞"
+
+#: ui.py:783
+msgid "Converged"
+msgstr "已收敛"
+
+#: properties.py:196
+msgid "Convergence Tol"
+msgstr "收敛容差"
+
+#: properties.py:155
+msgid "Direction"
+msgstr "方向"
+
+#: properties.py:155
+msgid "Direction of the load (will be normalized)"
+msgstr "载荷方向（将被归一化）"
+
+#: properties.py:175
+msgid "Edge length of each voxel in scene units"
+msgstr "每个体素的边长，以场景单位计"
+
+#: properties.py:240
+msgid "Fill open boundary edges for a watertight mesh"
+msgstr "填充开放的边界边以生成水密网格"
+
+#: properties.py:186
+msgid "Filter Radius (voxels)"
+msgstr "过滤半径（体素）"
+
+#: properties.py:235
+msgid "Force load voxels solid in the extracted mesh"
+msgstr "在提取的网格中强制将载荷体素设为实体"
+
+#: properties.py:230
+msgid "Force support voxels solid in the extracted mesh"
+msgstr "在提取的网格中强制将支撑体素设为实体"
+
+#: properties.py:139
+msgid "Fraction of the domain to keep as material (volume fraction)"
+msgstr "保留为材料的区域比例（体积分数）"
+
+#: properties.py:212
+msgid "Grid Info"
+msgstr "体素网格信息"
+
+#: properties.py:221
+msgid "Hide voxels below this density in the result view"
+msgstr "在结果视图中隐藏低于此密度的体素"
+
+#: properties.py:235
+msgid "Include Loads"
+msgstr "包含载荷"
+
+#: properties.py:230
+msgid "Include Supports"
+msgstr "包含支撑"
+
+#: ui.py:725
+msgid "Increase voxel size to reduce DOF count"
+msgstr "增大体素尺寸以减少自由度数量"
+
+#: properties.py:201
+msgid "Iter Timeout (s)"
+msgstr "迭代超时（秒）"
+
+#: properties.py:245
+msgid "Laplacian smoothing strength per pass (0 = off)"
+msgstr "每次平滑的拉普拉斯平滑强度（0 = 关闭）"
+
+#: properties.py:149
+msgid "Lateral contraction ratio. Steel ~0.3, rubber ~0.49"
+msgstr "横向收缩比。钢约 0.3，橡胶约 0.49"
+
+#: properties.py:144
+msgid "Material stiffness. Steel ~200, aluminum ~70, plastic ~2"
+msgstr "材料刚度。钢约 200，铝约 70，塑料约 2"
+
+#: properties.py:191
+msgid "Max Iterations"
+msgstr "最大迭代次数"
+
+#: properties.py:206
+msgid "Maximum density change per OC step. Lower = more stable, higher = faster"
+msgstr "每个 OC 步的最大密度变化。越低越稳定，越高越快"
+
+#: properties.py:191
+msgid "Maximum optimization iterations before stopping"
+msgstr "停止前的最大优化迭代次数"
+
+#: ui.py:716
+msgid "Model Actions"
+msgstr "模型操作"
+
+#: ui.py:249
+msgid "No mesh objects selected."
+msgstr "未选择网格物体。"
+
+#: ui.py:500
+msgid "No preview mesh — run 'Voxelize & Preview' first."
+msgstr "无预览网格 — 请先运行「体素化并预览」。"
+
+#: ui.py:599
+msgid "No solve result — run Solve first."
+msgstr "无求解结果 — 请先运行求解。"
+
+#: ui.py:319
+msgid "No tagged meshes found."
+msgstr "未找到已标记的网格。"
+
+#: ui.py:613
+msgid "No voxels above threshold — lower the threshold."
+msgstr "没有高于阈值的体素 — 请降低阈值。"
+
+#: properties.py:250
+msgid "Number of smoothing passes"
+msgstr "平滑次数"
+
+#: properties.py:206
+msgid "OC Move Limit"
+msgstr "OC 移动限制"
+
+#: properties.py:250
+#: ui.py:798
+msgid "Passes"
+msgstr "次数"
+
+#: properties.py:181
+msgid "Penalization exponent. Higher = more 0/1 result, less smooth"
+msgstr "惩罚指数。越高结果越接近 0/1，越不平滑"
+
+#: __init__.py:12
+msgid "Physics"
+msgstr "物理"
+
+#: properties.py:149
+msgid "Poisson's Ratio"
+msgstr "泊松比"
+
+#: ui.py:790
+msgid "Result"
+msgstr "结果"
+
+#: properties.py:131
+#: ui.py:694
+msgid "Role"
+msgstr "角色"
+
+#: properties.py:181
+msgid "SIMP Penalty"
+msgstr "SIMP 惩罚"
+
+#: __init__.py:12
+msgid "SIMP+OC structural topology optimisation with voxelized meshes"
+msgstr "基于体素化网格的 SIMP+OC 结构拓扑优化"
+
+#: ui.py:688
+msgid "Selected Object"
+msgstr "选定物体"
+
+#: properties.py:186
+msgid "Sensitivity filter radius in voxel units. Prevents checkerboards"
+msgstr "以体素为单位的灵敏度过滤半径。可防止棋盘格现象"
+
+#: ui.py:261
+msgid "Show Domain Voxels"
+msgstr "显示域体素"
+
+#: ui.py:261
+msgid "Show plain (no role) domain voxels as grey cubes"
+msgstr "将无角色的普通域体素显示为灰色立方体"
+
+#: properties.py:245
+#: ui.py:799
+msgid "Smooth"
+msgstr "平滑"
+
+#: ui.py:393
+msgid "Solve cancelled."
+msgstr "求解已取消。"
+
+#: ui.py:735
+msgid "Solver"
+msgstr "求解器"
+
+#: properties.py:196
+msgid "Stop when max density change falls below this"
+msgstr "当最大密度变化低于此值时停止"
+
+#: ui.py:680
+msgid "Struct Topo"
+msgstr "结构拓扑"
+
+#: __init__.py:12
+#: ui.py:676
+msgid "Structural Topology Optimization"
+msgstr "结构拓扑优化"
+
+#: ui.py:671
+msgid "Summary printed to console. (Window → Toggle System Console on Windows)"
+msgstr "摘要已打印到控制台。（Windows 上：窗口 → 切换系统控制台）"
+
+#: properties.py:139
+#: properties.py:166
+msgid "Target Density"
+msgstr "目标密度"
+
+#: ui.py:497
+msgid "The previous solve is still stopping — try again in a moment."
+msgstr "上一次求解仍在停止中 — 请稍后再试。"
+
+#: properties.py:221
+msgid "Threshold"
+msgstr "阈值"
+
+#: properties.py:160
+msgid "Total Force (kN)"
+msgstr "总力（kN）"
+
+#: properties.py:160
+msgid "Total force applied to the load region, distributed equally across all load voxels"
+msgstr "施加到载荷区域的总力，平均分配到所有载荷体素"
+
+#: ui.py:710
+msgid "Voxel Grid"
+msgstr "体素网格"
+
+#: properties.py:175
+msgid "Voxel Size"
+msgstr "体素尺寸"
+
+#: ui.py:770
+msgid "Voxelize first"
+msgstr "请先体素化"
+
+#: properties.py:131
+msgid "What this mesh represents in the topology optimization problem"
+msgstr "此网格在拓扑优化问题中所代表的角色"
+
+#: properties.py:144
+msgid "Young's Modulus (GPa)"
+msgstr "杨氏模量（GPa）"
+
+#: ui.py:631
+#: ui.py:763
+msgctxt "Operator"
+msgid "Cancel"
+msgstr "取消"
+
+#: ui.py:642
+msgctxt "Operator"
+msgid "Cancel Solver  [ESC]"
+msgstr "取消求解器  [ESC]"
+
+#: ui.py:592
+msgctxt "Operator"
+msgid "Generate Mesh"
+msgstr "生成网格"
+
+#: ui.py:658
+msgctxt "Operator"
+msgid "Print Problem Summary"
+msgstr "打印问题摘要"
+
+#: ui.py:237
+msgctxt "Operator"
+msgid "Set Role"
+msgstr "设置角色"
+
+#: ui.py:312
+msgctxt "Operator"
+msgid "Show/Hide Source Meshes"
+msgstr "显示/隐藏源网格"
+
+#: ui.py:731
+msgctxt "Operator"
+msgid "Show/Hide Sources"
+msgstr "显示/隐藏源"
+
+#: ui.py:375
+msgctxt "Operator"
+msgid "Solve"
+msgstr "求解"
+
+#: ui.py:732
+msgctxt "Operator"
+msgid "Summary"
+msgstr "摘要"
+
+#: ui.py:258
+msgctxt "Operator"
+msgid "Voxelize & Preview"
+msgstr "体素化并预览"
+
+#: ui.py:761
+msgctxt "Operator"
+msgid "Yes, Solve"
+msgstr "是，求解"

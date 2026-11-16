@@ -1,0 +1,272 @@
+# perfect-chinese: 1
+# id: render_from_terminal
+# kind: addon
+# module: bl_ext.blender_org.Render_from_Terminal
+# name: Render from Terminal
+# name_zh: 终端渲染
+# translator: KeshiMiao
+# category: Render
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:153
+msgid "%"
+msgstr "%"
+
+#: __init__.py:147
+msgid "'Max samples' for Cycles and 'Samples' for Eevee - 0=default from blend project"
+msgstr "Cycles 的“最大采样数”和 EEVEE 的“采样数” - 0=使用 blend 项目默认值"
+
+#: __init__.py:1077
+msgid "Additional commands"
+msgstr "附加命令"
+
+#: __init__.py:141
+msgid "BLENDER_EEVEE_NEXT"
+msgstr "BLENDER_EEVEE_NEXT"
+
+#: __init__.py:143
+msgid "BLENDER_WORKBENCH"
+msgstr "BLENDER_WORKBENCH"
+
+#: __init__.py:142
+msgid "CYCLES"
+msgstr "CYCLES"
+
+#: __init__.py:64
+msgid "Call blender for each frame, or frames sequence, to render"
+msgstr "为每个帧或帧序列调用 Blender 进行渲染"
+
+#: __init__.py:54
+msgid "Change camera FoV or position only for active camera or for all cameras in active scene"
+msgstr "仅更改活动相机或活动场景中所有相机的视场角或位置"
+
+#: __init__.py:100
+msgid "Command after all renders, i.e. 'shutdown -P 5'"
+msgstr "所有渲染完成后的命令，例如 'shutdown -P 5'"
+
+#: __init__.py:95
+msgid "Command after finish each render/Blender call, i.e. sleep 10s"
+msgstr "每次渲染/Blender 调用完成后的命令，例如 sleep 10s"
+
+#: __init__.py:85
+msgid "Command before launch each Blender execution"
+msgstr "每次启动 Blender 前运行的命令"
+
+#: __init__.py:80
+msgid "Command before start all renders"
+msgstr "开始所有渲染前的命令"
+
+#: __init__.py:131
+msgid "Create empty placeholder files while rendering frames (similar to Unix 'touch')"
+msgstr "渲染帧时创建空占位文件（类似 Unix 的 'touch'）"
+
+#: __init__.py:140
+msgid "Default"
+msgstr "默认"
+
+#: __init__.py:111
+msgid "Directory/name to save animations, # characters define the position and padding of frame numbers"
+msgstr "保存动画的目录/名称，# 字符定义帧号的位置和补零位数"
+
+#: __init__.py:106
+msgid "Enable Override values"
+msgstr "启用覆盖值"
+
+#: __init__.py:165
+msgid "Enable multi instances render"
+msgstr "启用多实例渲染"
+
+#: __init__.py:100
+msgid "End"
+msgstr "结束"
+
+#: __init__.py:136
+msgid "Engine to use for rendering"
+msgstr "用于渲染的引擎"
+
+#: __init__.py:269
+msgid "Error in Output path, set a valid path"
+msgstr "输出路径错误，请设置有效路径"
+
+#: __init__.py:54
+msgid "Fix framing only for active camera"
+msgstr "仅修正活动相机的取景"
+
+#: __init__.py:1058
+msgid "Frames to render"
+msgstr "要渲染的帧"
+
+#: __init__.py:39
+msgid "Frames to render: x,y,z= render the frame x, y and z; x-z= render the frame from number x to z; empty=current frame"
+msgstr "要渲染的帧：x,y,z= 渲染第 x、y 和 z 帧；x-z= 渲染编号 x 到 z 的帧；空=当前帧"
+
+#: __init__.py:49
+msgid "Launch render animation as saved in project (blender -a)"
+msgstr "按项目保存的设置启动动画渲染（blender -a）"
+
+#: __init__.py:1145
+msgid "Multi instances render"
+msgstr "多实例渲染"
+
+#: __init__.py:111
+msgid "Output path"
+msgstr "输出路径"
+
+#: __init__.py:116
+msgid "Override overwrite"
+msgstr "覆盖覆写"
+
+#: __init__.py:116
+msgid "Override overwrite option"
+msgstr "覆盖覆写选项"
+
+#: __init__.py:126
+msgid "Override placeholder"
+msgstr "覆盖占位符"
+
+#: __init__.py:126
+msgid "Override placeholder option"
+msgstr "覆盖占位符选项"
+
+#: __init__.py:1091
+msgid "Override values"
+msgstr "覆盖值"
+
+#: __init__.py:121
+msgid "Overwrite"
+msgstr "覆写"
+
+#: __init__.py:121
+msgid "Overwrite existing files while rendering"
+msgstr "渲染时覆写现有文件"
+
+#: __init__.py:153
+msgid "Percentage scale for render resolution - 0=use value from blend project"
+msgstr "渲染分辨率的百分比缩放 - 0=使用 blend 项目中的值"
+
+#: __init__.py:95
+msgid "Post"
+msgstr "后"
+
+#: __init__.py:85
+msgid "Pre"
+msgstr "前"
+
+#: __init__.py:90
+msgid "Python"
+msgstr "Python"
+
+#: __init__.py:90
+msgid "Python file to run launching Blender (blender -P file.py)"
+msgstr "启动 Blender 时要运行的 Python 文件（blender -P file.py）"
+
+#: __init__.py:136
+msgid "Render Engine"
+msgstr "渲染引擎"
+
+#: __init__.py:59
+msgid "Render animation (s-e, start-to end frame) as a series of single renders"
+msgstr "将动画（s-e，起始帧到结束帧）渲染为一系列单帧渲染"
+
+#: __init__.py:1045
+msgid "Render from terminal"
+msgstr "从终端渲染"
+
+#: __init__.py:44
+msgid "Render only current frame"
+msgstr "仅渲染当前帧"
+
+#: __init__.py:170
+msgid "Render session"
+msgstr "渲染会话"
+
+#: __init__.py:147
+msgid "Samples"
+msgstr "采样"
+
+#: __init__.py:252
+msgid "Save project!"
+msgstr "保存项目！"
+
+#: __init__.py:159
+msgid "Scene"
+msgstr "场景"
+
+#: __init__.py:159
+msgid "Scene to render - ''=use scene as saved in blend project"
+msgstr "要渲染的场景 - ''=使用 blend 项目中保存的场景"
+
+#: __init__.py:80
+msgid "Start"
+msgstr "开始"
+
+#: __init__.py:141
+msgid "Use BLENDER_EEVEE_NEXT when render from script"
+msgstr "从脚本渲染时使用 BLENDER_EEVEE_NEXT"
+
+#: __init__.py:143
+msgid "Use BLENDER_WORKBENCH when render from script"
+msgstr "从脚本渲染时使用 BLENDER_WORKBENCH"
+
+#: __init__.py:142
+msgid "Use CYCLES when render from script"
+msgstr "从脚本渲染时使用 CYCLES"
+
+#: __init__.py:140
+msgid "Use engine from blend project when render from script"
+msgstr "从脚本渲染时使用 blend 项目中的引擎"
+
+#: __init__.py:74
+msgid "Write batch script"
+msgstr "写入批处理脚本"
+
+#: __init__.py:74
+msgid "Write batch script, '<blend file name>_render.bat' - Warning: poorly tested"
+msgstr "写入批处理脚本，'<blend file name>_render.bat' - 警告：测试不足"
+
+#: __init__.py:1178
+msgid "Write script"
+msgstr "写入脚本"
+
+#: __init__.py:69
+msgid "Write shell script"
+msgstr "写入 shell 脚本"
+
+#: __init__.py:69
+msgid "Write shell script, '<blend file name>_render.sh'"
+msgstr "写入 shell 脚本，'<blend file name>_render.sh'"
+
+#: __init__.py:59
+msgid "animation as singles"
+msgstr "动画按单帧渲染"
+
+#: __init__.py:39
+msgid "frames to render"
+msgstr "要渲染的帧"
+
+#: __init__.py:170
+msgid "how many render commands to launch"
+msgstr "要启动的渲染命令数量"
+
+#: __init__.py:49
+msgid "launch animation as in project"
+msgstr "按项目设置启动动画"
+
+#: __init__.py:64
+msgid "new call each render"
+msgstr "每次渲染新建调用"
+
+#: __init__.py:235
+msgctxt "Operator"
+msgid "Write script"
+msgstr "写入脚本"
+
+#: __init__.py:236
+msgctxt "Operator"
+msgid "Writes the script file to the same folder as the open project"
+msgstr "将脚本文件写入打开项目所在文件夹"

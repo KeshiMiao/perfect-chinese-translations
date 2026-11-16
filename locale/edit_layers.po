@@ -1,0 +1,283 @@
+# perfect-chinese: 1
+# id: edit_layers
+# kind: addon
+# module: bl_ext.blender_org.edit_layers
+# name: Edit Layers
+# name_zh: 编辑图层
+# translator: KeshiMiao
+# category: Modeling
+# supported_versions: >=5.0.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: ui.py:346
+msgid "... and {count} more"
+msgstr "…以及另外 {count} 项"
+
+#: ui.py:231
+msgid "Apply/remove the keys, or:"
+msgstr "应用/移除形态键，或："
+
+#: ui.py:222
+msgid "Blocked adding a shape key"
+msgstr "已阻止添加形态键"
+
+#: ui.py:286
+msgid "Branches ({count})"
+msgstr "分支 ({count})"
+
+#: props.py:68
+msgid "Color"
+msgstr "颜色"
+
+#: ui.py:223
+msgid "Create shape keys after baking/discarding the stack"
+msgstr "烘焙/丢弃堆栈后创建形态键"
+
+#: operators.py:480
+msgid "Down"
+msgstr "下移"
+
+#: ui.py:202
+#: ui.py:205
+msgid "Edit Layers"
+msgstr "编辑图层"
+
+#: operators.py:122
+msgid "Edit Mode"
+msgstr "编辑模式"
+
+#: props.py:54
+msgid "Enabled"
+msgstr "启用"
+
+#: ui.py:251
+msgid "Entered Edit Mode without recording"
+msgstr "进入编辑模式但未记录"
+
+#: ui.py:253
+msgid "Entered Sculpt Mode without recording"
+msgstr "进入雕刻模式但未记录"
+
+#: props.py:92
+msgid "Highlight vertices affected by the selected layer (orange: moved, green: created)"
+msgstr "高亮显示受所选图层影响的顶点（橙色：移动，绿色：创建）"
+
+#: ui.py:101
+msgid "Layer Operations"
+msgstr "图层操作"
+
+#: ui.py:312
+msgid "Layers — {name}"
+msgstr "图层 — {name}"
+
+#: operators.py:119
+msgid "Mode"
+msgstr "模式"
+
+#: props.py:53
+#: props.py:64
+msgid "Name"
+msgstr "名称"
+
+#: ui.py:240
+msgid "Re-editing: {name}"
+msgstr "重新编辑：{name}"
+
+#: ui.py:230
+msgid "Rebuilds are paused to protect the keys"
+msgstr "为保护形态键，重建已暂停"
+
+#: ui.py:242
+msgid "Recording a new layer"
+msgstr "正在记录新图层"
+
+#: operators.py:123
+msgid "Sculpt Mode"
+msgstr "雕刻模式"
+
+#: ui.py:229
+msgid "Shape keys detected"
+msgstr "检测到形态键"
+
+#: props.py:92
+msgid "Show Influence"
+msgstr "显示影响"
+
+#: operators.py:122
+msgid "Start recording in Edit Mode"
+msgstr "在编辑模式下开始记录"
+
+#: operators.py:123
+msgid "Start recording in Sculpt Mode"
+msgstr "在雕刻模式下开始记录"
+
+#: ui.py:254
+msgid "These edits will not be kept in a layer"
+msgstr "这些编辑不会保存在图层中"
+
+#: ui.py:337
+msgid "Unrecorded edits are detected and can be adopted"
+msgstr "检测到未记录的编辑，可将其采纳"
+
+#: ui.py:271
+msgid "Unrecorded edits detected"
+msgstr "检测到未记录的编辑"
+
+#: operators.py:480
+msgid "Up"
+msgstr "上移"
+
+#: ui.py:196
+msgid "shared {shared} + own {own}"
+msgstr "共享 {shared} + 自身 {own}"
+
+#: ui.py:198
+msgid "{count} layers"
+msgstr "{count} 个图层"
+
+#: ui.py:342
+msgid "{count} warnings:"
+msgstr "{count} 个警告："
+
+#: ui.py:147
+msgid "← {count} branches"
+msgstr "← {count} 个分支"
+
+#: ui.py:255
+msgctxt "Operator"
+msgid "Adopt Edits as a Layer"
+msgstr "将编辑采纳为图层"
+
+#: operators.py:348
+msgctxt "Operator"
+msgid "Adopt Unrecorded Edits"
+msgstr "采纳未记录的编辑"
+
+#: ui.py:272
+msgctxt "Operator"
+msgid "Adopt as a Layer"
+msgstr "采纳为图层"
+
+#: ui.py:335
+msgctxt "Operator"
+msgid "Bake"
+msgstr "烘焙"
+
+#: operators.py:627
+msgctxt "Operator"
+msgid "Bake Up To Here"
+msgstr "烘焙至此处"
+
+#: operators.py:933
+msgctxt "Operator"
+msgid "Bake and Remove Stack"
+msgstr "烘焙并移除堆栈"
+
+#: operators.py:689
+msgctxt "Operator"
+msgid "Branch From Here"
+msgstr "从此处分支"
+
+#: ui.py:303
+msgctxt "Operator"
+msgid "Clear"
+msgstr "清除"
+
+#: operators.py:836
+msgctxt "Operator"
+msgid "Clear Comparison"
+msgstr "清除对比"
+
+#: operators.py:224
+msgctxt "Operator"
+msgid "Commit"
+msgstr "提交"
+
+#: ui.py:300
+msgctxt "Operator"
+msgid "Compare"
+msgstr "对比"
+
+#: operators.py:778
+msgctxt "Operator"
+msgid "Compare Branches Side by Side"
+msgstr "并排对比分支"
+
+#: ui.py:245
+msgctxt "Operator"
+msgid "Discard"
+msgstr "丢弃"
+
+#: operators.py:313
+msgctxt "Operator"
+msgid "Discard Recording"
+msgstr "丢弃记录"
+
+#: operators.py:893
+msgctxt "Operator"
+msgid "Discard Stack (Keep Current Mesh)"
+msgstr "丢弃堆栈（保留当前网格）"
+
+#: ui.py:277
+msgctxt "Operator"
+msgid "Discard and Rebuild"
+msgstr "丢弃并重建"
+
+#: operators.py:50
+msgctxt "Operator"
+msgid "Initialize Stack"
+msgstr "初始化堆栈"
+
+#: operators.py:540
+msgctxt "Operator"
+msgid "Merge Into Previous"
+msgstr "合并到上一个"
+
+#: operators.py:476
+msgctxt "Operator"
+msgid "Move Layer"
+msgstr "移动图层"
+
+#: operators.py:856
+msgctxt "Operator"
+msgid "OK"
+msgstr "确定"
+
+#: operators.py:162
+msgctxt "Operator"
+msgid "Re-edit Selected Layer"
+msgstr "重新编辑所选图层"
+
+#: operators.py:871
+msgctxt "Operator"
+msgid "Rebuild"
+msgstr "重建"
+
+#: ui.py:260
+msgctxt "Operator"
+msgid "Record (Edit)"
+msgstr "记录（编辑）"
+
+#: ui.py:264
+msgctxt "Operator"
+msgid "Record (Sculpt)"
+msgstr "记录（雕刻）"
+
+#: operators.py:116
+msgctxt "Operator"
+msgid "Record New Layer"
+msgstr "记录新图层"
+
+#: operators.py:729
+msgctxt "Operator"
+msgid "Remove Branch"
+msgstr "移除分支"
+
+#: operators.py:435
+msgctxt "Operator"
+msgid "Remove Layer"
+msgstr "移除图层"

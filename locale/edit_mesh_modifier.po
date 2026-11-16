@@ -1,0 +1,206 @@
+# perfect-chinese: 1
+# id: edit_mesh_modifier
+# kind: addon
+# module: bl_ext.blender_org.edit_mesh_modifier
+# name: Edit Poly Modifier [编辑多边形修改器]
+# name_zh: 编辑多边形修改器
+# translator: KeshiMiao
+# category: Object
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:875
+msgid "Adjust parameters such as the Bevel radius"
+msgstr "调整倒角半径等参数"
+
+#: __init__.py:873
+msgid "Adjust parameters such as the Shrinkwrap offset"
+msgstr "调整收缩包裹偏移等参数"
+
+#: __init__.py:874
+msgid "Adjust parameters such as the Solidify thickness"
+msgstr "调整实体化厚度等参数"
+
+#: __init__.py:877
+msgid "All of these changes are picked up by downstream modifiers"
+msgstr "所有这些更改都会被下游修改器接收"
+
+#: __init__.py:946
+msgid "Auto Position Fix"
+msgstr "自动位置修正"
+
+#: __init__.py:955
+msgid "Auto Rehash on Duplicate"
+msgstr "复制时自动重新哈希"
+
+#: __init__.py:961
+msgid "Auto Sync Upstream"
+msgstr "自动同步上游"
+
+#: __init__.py:955
+msgid "Automatically generate a new hash and cache when an object is duplicated (Shift+D)"
+msgstr "复制物体（Shift+D）时自动生成新的哈希和缓存"
+
+#: __init__.py:961
+msgid "Automatically sync upstream modifier changes into the cache before entering Edit Polygons"
+msgstr "进入编辑多边形前，自动将上游修改器的更改同步到缓存"
+
+#: __init__.py:972
+msgid "Automation & Performance"
+msgstr "自动化与性能"
+
+#: __init__.py:860
+msgid "Bevel Modifier"
+msgstr "倒角修改器"
+
+#: __init__.py:983
+msgid "Click Add Modifier > Edit to find the Edit Poly Modifier at the bottom of the panel"
+msgstr "点击添加修改器 > 生成，在面板底部找到编辑多边形修改器"
+
+#: __init__.py:984
+msgid "Click Add Modifier > Generate to find the Edit Poly Modifier at the bottom of the panel"
+msgstr "点击添加修改器 > 生成，在面板底部找到编辑多边形修改器"
+
+#: __init__.py:931
+#: __init__.py:978
+msgid "Directly edit the mesh on top of upstream modifiers"
+msgstr "直接在上游修改器之上编辑网格"
+
+#: __init__.py:863
+#: __init__.py:876
+msgid "Edit Poly Modifier"
+msgstr "编辑多边形修改器"
+
+#: __init__.py:3
+msgid "Edit Poly Modifier [编辑多边形修改器]"
+msgstr "编辑多边形修改器"
+
+#: __init__.py:3
+msgid "Edit the mesh via a cache object, applied in real time"
+msgstr "通过缓存物体编辑网格，并实时应用"
+
+#: __init__.py:869
+msgid "Even after editing with Edit Polygons, you can still:"
+msgstr "即使使用编辑多边形进行编辑后，你仍然可以："
+
+#: __init__.py:484
+msgid "Fork"
+msgstr "分叉"
+
+#: __init__.py:982
+msgid "Go to the Properties Editor > Modifiers tab"
+msgstr "转到属性编辑器 > 修改器选项卡"
+
+#: __init__.py:981
+msgid "How to Access"
+msgstr "访问方法"
+
+#: __init__.py:929
+#: __init__.py:976
+msgid "Instructions"
+msgstr "说明"
+
+#: __init__.py:480
+msgid "Mode"
+msgstr "模式"
+
+#: __init__.py:948
+msgid "Note: buttons are only visible when an Edit Poly modifier is selected"
+msgstr "注意：仅当选中编辑多边形修改器时按钮才可见"
+
+#: __init__.py:3
+msgid "Object"
+msgstr "物体"
+
+#: __init__.py:923
+msgid "Please select an Edit Poly modifier to edit"
+msgstr "请选择一个编辑多边形修改器进行编辑"
+
+#: __init__.py:483
+msgid "Rebuild"
+msgstr "重建"
+
+#: __init__.py:483
+msgid "Rebuild the cache of the currently selected modifier"
+msgstr "重建当前所选修改器的缓存"
+
+#: __init__.py:484
+msgid "Recalculate the hash and its cache"
+msgstr "重新计算哈希及其缓存"
+
+#: __init__.py:933
+msgid "Select an Edit Poly modifier, then click Edit Polygons in the header"
+msgstr "选择编辑多边形修改器，然后在标题栏中点击编辑多边形"
+
+#: __init__.py:854
+msgid "Shrinkwrap Modifier"
+msgstr "收缩包裹修改器"
+
+#: __init__.py:857
+msgid "Solidify Modifier"
+msgstr "实体化修改器"
+
+#: __init__.py:866
+msgid "Subdivision Modifier"
+msgstr "细分修改器"
+
+#: __init__.py:485
+msgid "Sync Upstream"
+msgstr "同步上游"
+
+#: __init__.py:485
+msgid "Sync upstream vertex position changes to cache while keeping edits"
+msgstr "将上游顶点位置更改同步到缓存，同时保留编辑"
+
+#: __init__.py:848
+msgid "When Auto Position Fix is enabled and upstream modifiers keep the vertex count,"
+msgstr "启用自动位置修正且上游修改器保持顶点数量时，"
+
+#: __init__.py:930
+#: __init__.py:977
+msgid "You can edit the mesh without applying modifiers"
+msgstr "无需应用修改器即可编辑网格"
+
+#: __init__.py:849
+msgid "upstream edits are still applied perfectly after Edit Polygons, for example:"
+msgstr "编辑多边形后上游编辑仍能完美应用，例如："
+
+#: __init__.py:427
+msgctxt "Operator"
+msgid "Add Edit Poly Modifier"
+msgstr "添加编辑多边形修改器"
+
+#: __init__.py:938
+msgctxt "Operator"
+msgid "Build Cache"
+msgstr "构建缓存"
+
+#: __init__.py:476
+msgctxt "Operator"
+msgid "Build Edit Poly Modifier"
+msgstr "构建编辑多边形修改器"
+
+#: __init__.py:651
+msgctxt "Operator"
+msgid "Directly edit mesh data while keeping upstream modifiers intact"
+msgstr "直接编辑网格数据，同时保持上游修改器不变"
+
+#: __init__.py:650
+msgctxt "Operator"
+msgid "Edit"
+msgstr "编辑"
+
+#: __init__.py:829
+msgctxt "Operator"
+msgid "Edit Poly Modifier"
+msgstr "编辑多边形修改器"
+
+#: __init__.py:915
+#: __init__.py:944
+msgctxt "Operator"
+msgid "Edit Polygons"
+msgstr "编辑多边形"

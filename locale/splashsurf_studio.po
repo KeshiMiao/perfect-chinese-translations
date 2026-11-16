@@ -1,0 +1,495 @@
+# perfect-chinese: 1
+# id: splashsurf_studio
+# kind: addon
+# module: bl_ext.blender_org.splashsurf_studio
+# name: Splashsurf Studio
+# name_zh: Splashsurf工作室
+# translator: KeshiMiao
+# category: Add Mesh
+# supported_versions: >=4.5.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: properties.py:266
+msgid "# Cubes Per Dim"
+msgstr "# 每维立方体数"
+
+#: properties.py:123
+msgid "Add constraints to match the transform of each reconstructed surface mesh to the transform of its input data object"
+msgstr "添加约束，使每个重建曲面网格的变换与其输入数据物体的变换匹配"
+
+#: properties.py:238
+msgid "Add smoothing weights attribute to mesh"
+msgstr "为网格添加平滑权重属性"
+
+#: properties.py:20
+msgid "Attribute Name"
+msgstr "属性名称"
+
+#: panels.py:97
+#: panels.py:144
+msgid "Attributes to Interpolate"
+msgstr "要插值的属性"
+
+#: properties.py:259
+msgid "Auto Disable"
+msgstr "自动禁用"
+
+#: operators.py:183
+#: operators.py:203
+msgid "CLI Args"
+msgstr "命令行参数"
+
+#: properties.py:107
+msgid "Cache Settings"
+msgstr "缓存设置"
+
+#: panels.py:168
+msgid "Cached Frames"
+msgstr "已缓存帧"
+
+#: properties.py:311
+msgid "Clamp Mesh Vertices"
+msgstr "钳制网格顶点"
+
+#: properties.py:311
+msgid "Clamp mesh vertices to boundary of axis-aligned bounding box"
+msgstr "将网格顶点钳制到轴对齐边界框的边界内"
+
+#: properties.py:200
+msgid "Compute Normals"
+msgstr "计算法向"
+
+#: properties.py:200
+msgid "Compute normals for the reconstructed mesh"
+msgstr "为重建网格计算法向"
+
+#: properties.py:168
+msgid "Cube Size"
+msgstr "立方体尺寸"
+
+#: properties.py:38
+msgid "Data Object Pointer"
+msgstr "数据物体指针"
+
+#: properties.py:13
+msgid "Encountered Error"
+msgstr "遇到的错误"
+
+#: properties.py:13
+msgid "Error"
+msgstr "错误"
+
+#: panels.py:34
+msgid "Error Log"
+msgstr "错误日志"
+
+#: properties.py:281
+msgid "Filter particles by axis-aligned bounding box"
+msgstr "按轴对齐边界框过滤粒子"
+
+#: properties.py:304
+msgid "Filter reconstructed mesh by axis-aligned bounding box"
+msgstr "按轴对齐边界框过滤重建网格"
+
+#: operators.py:249
+#: properties.py:51
+msgid "Frame"
+msgstr "帧"
+
+#: properties.py:51
+msgid "Frame number"
+msgstr "帧编号"
+
+#: operators.py:272
+msgid "Frames"
+msgstr "帧"
+
+#: properties.py:32
+msgid "Generate Surface"
+msgstr "生成曲面"
+
+#: properties.py:32
+msgid "Generate surface for this data object"
+msgstr "为此数据物体生成曲面"
+
+#: properties.py:26
+msgid "Interpolate"
+msgstr "插值"
+
+#: properties.py:184
+msgid "Iso Surface Threshold"
+msgstr "等值面阈值"
+
+#: properties.py:222
+msgid "Limit Snapping Distance"
+msgstr "限制吸附距离"
+
+#: properties.py:222
+msgid "Limit vertex snapping"
+msgstr "限制顶点吸附"
+
+#: properties.py:123
+msgid "Match Transforms"
+msgstr "匹配变换"
+
+#: properties.py:296
+msgid "Maximum coordinates of the axis-aligned bounding box for the particles"
+msgstr "粒子轴对齐边界框的最大坐标"
+
+#: properties.py:326
+msgid "Maximum coordinates of the axis-aligned bounding box for the reconstructed mesh"
+msgstr "重建网格轴对齐边界框的最大坐标"
+
+#: properties.py:229
+msgid "Maximum distance relative to MC edge length for vertex snapping during mesh cleanup"
+msgstr "网格清理时顶点吸附相对 MC 边长的最大距离"
+
+#: properties.py:326
+msgid "Mesh AABB Max"
+msgstr "网格 AABB 最大值"
+
+#: properties.py:318
+msgid "Mesh AABB Min"
+msgstr "网格 AABB 最小值"
+
+#: properties.py:215
+msgid "Mesh Cleanup"
+msgstr "网格清理"
+
+#: properties.py:192
+msgid "Mesh Smoothing Iterations"
+msgstr "网格平滑迭代次数"
+
+#: properties.py:288
+msgid "Minimum coordinates of the axis-aligned bounding box for the particles"
+msgstr "粒子轴对齐边界框的最小坐标"
+
+#: properties.py:318
+msgid "Minimum coordinates of the axis-aligned bounding box for the reconstructed mesh"
+msgstr "重建网格轴对齐边界框的最小坐标"
+
+#: properties.py:20
+msgid "Name of the vertex attribute"
+msgstr "顶点属性的名称"
+
+#: operators.py:254
+msgid "No valid frames found in input."
+msgstr "输入中未找到有效帧。"
+
+#: properties.py:245
+msgid "Normalization factor for smoothing weights"
+msgstr "平滑权重的归一化系数"
+
+#: properties.py:207
+msgid "Normals Smoothing Iterations"
+msgstr "法向平滑迭代次数"
+
+#: properties.py:266
+msgid "Number of cubes per dimension in the subdomain grid"
+msgstr "子域网格每维的立方体数量"
+
+#: properties.py:192
+msgid "Number of iterations for mesh smoothing"
+msgstr "网格平滑的迭代次数"
+
+#: properties.py:207
+msgid "Number of iterations for normals smoothing"
+msgstr "法向平滑的迭代次数"
+
+#: properties.py:7
+msgid "Object"
+msgstr "物体"
+
+#: properties.py:7
+msgid "Object for which the error was encountered"
+msgstr "遇到错误的物体"
+
+#: operators.py:29
+msgid "Object is already registered."
+msgstr "物体已注册。"
+
+#: operators.py:32
+msgid "Object is reconstructed mesh from a registered object."
+msgstr "物体是来自已注册物体的重建网格。"
+
+#: properties.py:274
+msgid "Output SPH normals"
+msgstr "输出 SPH 法向"
+
+#: properties.py:238
+msgid "Output Smoothing Weights"
+msgstr "输出平滑权重"
+
+#: panels.py:109
+#: panels.py:156
+msgid "Parameters"
+msgstr "参数"
+
+#: properties.py:296
+msgid "Particle AABB Max"
+msgstr "粒子 AABB 最大值"
+
+#: properties.py:288
+msgid "Particle AABB Min"
+msgstr "粒子 AABB 最小值"
+
+#: properties.py:150
+msgid "Particle Radius"
+msgstr "粒子半径"
+
+#: properties.py:44
+msgid "Pointer to the generated surface object"
+msgstr "指向生成的曲面物体的指针"
+
+#: properties.py:38
+msgid "Pointer to the particle data object"
+msgstr "指向粒子数据物体的指针"
+
+#: properties.py:150
+msgid "Radius of the particles used in the reconstruction"
+msgstr "重建所用粒子的半径"
+
+#: properties.py:112
+#: properties.py:136
+msgid "Render"
+msgstr "渲染"
+
+#: panels.py:121
+msgid "Render Settings"
+msgstr "渲染设置"
+
+#: properties.py:160
+msgid "Rest Density"
+msgstr "静止密度"
+
+#: properties.py:160
+msgid "Rest density of the fluid"
+msgstr "流体的静止密度"
+
+#: properties.py:274
+msgid "SPH Normals"
+msgstr "SPH 法向"
+
+#: panels.py:51
+msgid "Select Input"
+msgstr "选择输入"
+
+#: properties.py:145
+msgid "Selected Attribute Index"
+msgstr "选中的属性索引"
+
+#: properties.py:102
+msgid "Selected Cached Frame Index"
+msgstr "选中的已缓存帧索引"
+
+#: properties.py:62
+msgid "Selected Data Object Index"
+msgstr "选中的数据物体索引"
+
+#: properties.py:86
+msgid "Selected Error Index"
+msgstr "选中的错误索引"
+
+#: properties.py:334
+msgid "Set Split Normals"
+msgstr "设置拆分法向"
+
+#: properties.py:334
+msgid "Set reconstructed mesh normals as blender split normals"
+msgstr "将重建网格的法向设置为 Blender 拆分法向"
+
+#: properties.py:168
+msgid "Size of a grid cell for the reconstruction"
+msgstr "重建所用网格单元的尺寸"
+
+#: properties.py:176
+msgid "Smoothing Length"
+msgstr "平滑长度"
+
+#: properties.py:245
+msgid "Smoothing Weights Normalization Factor"
+msgstr "平滑权重归一化系数"
+
+#: properties.py:176
+msgid "Smoothing length for the reconstruction"
+msgstr "重建所用的平滑长度"
+
+#: properties.py:229
+msgid "Snapping Distance"
+msgstr "吸附距离"
+
+#: panels.py:9
+msgid "Splashsurf Studio"
+msgstr "Splashsurf Studio"
+
+#: properties.py:252
+msgid "Subdomain Grid"
+msgstr "子域网格"
+
+#: properties.py:44
+msgid "Surface Object Pointer"
+msgstr "曲面物体指针"
+
+#: properties.py:184
+msgid "Threshold for the iso surface extraction"
+msgstr "等值面提取的阈值"
+
+#: properties.py:215
+msgid "Toggle for marching cubes mesh cleanup"
+msgstr "切换 Marching Cubes 网格清理"
+
+#: properties.py:132
+msgid "Type"
+msgstr "类型"
+
+#: properties.py:75
+msgid "Update Mesh on Change"
+msgstr "更改时更新网格"
+
+#: properties.py:75
+msgid "Update the reconstructed mesh when properties are changed"
+msgstr "属性更改时更新重建网格"
+
+#: properties.py:117
+msgid "Use Cache During Render"
+msgstr "渲染期间使用缓存"
+
+#: properties.py:304
+msgid "Use Mesh AABB"
+msgstr "使用网格 AABB"
+
+#: properties.py:281
+msgid "Use Particle AABB"
+msgstr "使用粒子 AABB"
+
+#: properties.py:91
+msgid "Use Render Settings for Viewport"
+msgstr "视图使用渲染设置"
+
+#: properties.py:117
+msgid "Use cached frames during rendering"
+msgstr "渲染期间使用缓存帧"
+
+#: properties.py:112
+#: properties.py:136
+msgid "Use render reconstruction settings for caching"
+msgstr "缓存使用渲染重建设置"
+
+#: properties.py:252
+msgid "Use subdomain grid for reconstruction"
+msgstr "重建使用子域网格"
+
+#: properties.py:91
+msgid "Use the render reconstruction settings for the viewport reconstruction"
+msgstr "视图重建使用渲染重建设置"
+
+#: properties.py:111
+#: properties.py:135
+msgid "Use viewport reconstruction settings for caching"
+msgstr "缓存使用视图重建设置"
+
+#: properties.py:111
+#: properties.py:135
+msgid "Viewport"
+msgstr "视图"
+
+#: panels.py:71
+msgid "Viewport Settings"
+msgstr "视图设置"
+
+#: properties.py:259
+msgid "Whether to automatically disable the spatial decomposition if the domain is too small"
+msgstr "域过小时是否自动禁用空间分解"
+
+#: properties.py:107
+msgid "Whether to use viewport or render settings for caching"
+msgstr "缓存使用视图设置还是渲染设置"
+
+#: operators.py:71
+msgctxt "Operator"
+msgid "Activate"
+msgstr "激活"
+
+#: operators.py:246
+msgctxt "Operator"
+msgid "Add Frames"
+msgstr "添加帧"
+
+#: operators.py:300
+msgctxt "Operator"
+msgid "Clear Cache"
+msgstr "清除缓存"
+
+#: operators.py:226
+msgctxt "Operator"
+msgid "Clear Errors"
+msgstr "清除错误"
+
+#: operators.py:104
+msgctxt "Operator"
+msgid "Copy to Render"
+msgstr "复制到渲染"
+
+#: operators.py:122
+msgctxt "Operator"
+msgid "Copy to Viewport"
+msgstr "复制到视图"
+
+#: operators.py:90
+msgctxt "Operator"
+msgid "Deactivate"
+msgstr "取消激活"
+
+#: panels.py:47
+msgctxt "Operator"
+msgid "Expand Error"
+msgstr "展开错误"
+
+#: operators.py:208
+msgctxt "Operator"
+msgid "Get CLI String"
+msgstr "获取 CLI 字符串"
+
+#: operators.py:333
+msgctxt "Operator"
+msgid "Jump to Frame"
+msgstr "跳转到帧"
+
+#: operators.py:180
+msgctxt "Operator"
+msgid "Parse CLI String"
+msgstr "解析 CLI 字符串"
+
+#: operators.py:311
+msgctxt "Operator"
+msgid "Regenerate Cache"
+msgstr "重新生成缓存"
+
+#: operators.py:12
+msgctxt "Operator"
+msgid "Register Object"
+msgstr "注册物体"
+
+#: operators.py:277
+msgctxt "Operator"
+msgid "Remove Frame"
+msgstr "移除帧"
+
+#: operators.py:236
+msgctxt "Operator"
+msgid "Show Error"
+msgstr "显示错误"
+
+#: operators.py:138
+msgctxt "Operator"
+msgid "Test Render Params"
+msgstr "测试渲染参数"
+
+#: operators.py:57
+msgctxt "Operator"
+msgid "Unregister Object"
+msgstr "取消注册物体"

@@ -1,0 +1,423 @@
+# perfect-chinese: 1
+# id: point_cloud_io
+# kind: addon
+# module: bl_ext.blender_org.point_cloud_io
+# name: Point Cloud I/O
+# name_zh: 点云导入导出
+# translator: KeshiMiao
+# category: Import-Export
+# supported_versions: >=5.1.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: operators/export_pcd.py:48
+#: operators/export_ply.py:46
+msgid "ASCII"
+msgstr "ASCII"
+
+#: operators/export_e57.py:32
+#: operators/export_las.py:41
+msgid "Apply Modifiers"
+msgstr "应用修改器"
+
+#: operators/export_e57.py:37
+#: operators/export_las.py:46
+msgid "Apply Transforms"
+msgstr "应用变换"
+
+#: ui/panel.py:110
+msgid "Attributes:"
+msgstr "属性："
+
+#: operators/import_e57.py:40
+#: operators/import_las.py:55
+msgid "Auto Point Radius"
+msgstr "自动点半径"
+
+#: operators/export_e57.py:37
+#: operators/export_las.py:46
+msgid "Bake object Location/Rotation/Scale into the exported coordinates"
+msgstr "将物体的位置/旋转/缩放烘焙到导出坐标中"
+
+#: operators/export_pcd.py:44
+msgid "Binary"
+msgstr "二进制"
+
+#: operators/export_pcd.py:45
+msgid "Binary Compressed (LZF)"
+msgstr "二进制压缩 (LZF)"
+
+#: operators/import_las.py:39
+msgid "Center on Origin"
+msgstr "以原点为中心"
+
+#: operators/import_las.py:29
+msgid "Classification"
+msgstr "分类"
+
+#: operators/export_e57.py:42
+#: operators/import_e57.py:19
+msgid "Colors"
+msgstr "颜色"
+
+#: operators/import_e57.py:55
+msgid "Combine all scans from the file into a single object"
+msgstr "将文件中的所有扫描合并为单个物体"
+
+#: operators/export_las.py:31
+msgid "Compress (LAZ)"
+msgstr "压缩 (LAZ)"
+
+#: operators/export_pcd.py:40
+msgid "Data Mode"
+msgstr "数据模式"
+
+#: operators/export_e57.py:32
+#: operators/export_las.py:41
+msgid "Evaluate modifiers (e.g. Geometry Nodes) before export"
+msgstr "导出前评估修改器（如几何节点）"
+
+#: operators/export_e57.py:42
+msgid "Export RGB if a color attribute is present"
+msgstr "若存在颜色属性则导出 RGB"
+
+#: operators/export_e57.py:47
+msgid "Export intensity if the attribute is present"
+msgstr "若存在该属性则导出强度"
+
+#: operators/export_e57.py:27
+#: operators/export_las.py:36
+msgid "Export only selected PointCloud objects"
+msgstr "仅导出选中的点云物体"
+
+#: ui/panel.py:54
+msgid "Factor"
+msgstr "系数"
+
+#: operators/import_e57.py:34
+#: operators/import_las.py:49
+msgid "Global scale multiplier for imported coordinates"
+msgstr "导入坐标的全局缩放倍数"
+
+#: operators/export_pcd.py:40
+msgid "How the per-point data block is written"
+msgstr "每个点数据块的写入方式"
+
+#: operators/export_pcd.py:48
+msgid "Human-readable text (larger files, useful for debugging)"
+msgstr "人类可读文本（文件更大，便于调试）"
+
+#: operators/import_ply.py:19
+msgid "Import RGB / alpha data if present"
+msgstr "若存在则导入 RGB / alpha 数据"
+
+#: operators/import_e57.py:19
+msgid "Import RGB color data if present"
+msgstr "若存在则导入 RGB 颜色数据"
+
+#: operators/import_las.py:19
+msgid "Import RGB color data if present (Point Data Record Formats 2, 3, 5, 7, 8)"
+msgstr "若存在则导入 RGB 颜色数据（点数据记录格式 2、3、5、7、8）"
+
+#: operators/import_e57.py:24
+#: operators/import_ply.py:24
+msgid "Import normal vectors if present"
+msgstr "若存在则导入法向向量"
+
+#: operators/import_pcd.py:24
+msgid "Import normal_x / normal_y / normal_z if present"
+msgstr "若存在则导入 normal_x / normal_y / normal_z"
+
+#: operators/import_las.py:34
+msgid "Import return number and number-of-returns fields (multi-return LiDAR)"
+msgstr "导入回波序号和回波总数字段（多回波 LiDAR）"
+
+#: operators/import_e57.py:29
+msgid "Import scalar intensity (laser return strength) if present"
+msgstr "若存在则导入标量强度（激光回波强度）"
+
+#: operators/import_las.py:29
+msgid "Import the classification code (ground, building, vegetation, etc.) as an INT point attribute"
+msgstr "将分类代码（地面、建筑、植被等）作为 INT 点属性导入"
+
+#: operators/import_las.py:24
+msgid "Import the intensity field (laser return strength), normalised to 0..1"
+msgstr "导入强度字段（激光回波强度），归一化到 0..1"
+
+#: operators/import_pcd.py:19
+msgid "Import the packed RGB / RGBA field if present"
+msgstr "若存在则导入打包的 RGB / RGBA 字段"
+
+#: operators/export_pts.py:44
+#: operators/export_xyz.py:40
+msgid "Include RGB columns (r g b as uint8) when a color attribute is present"
+msgstr "存在颜色属性时包含 RGB 列（r g b 为 uint8）"
+
+#: operators/export_pts.py:39
+msgid "Include an intensity column (scaled to 0..2047, the Leica convention)"
+msgstr "包含强度列（缩放至 0..2047，Leica 约定）"
+
+#: operators/export_xyz.py:50
+msgid "Include an intensity column when the attribute is present"
+msgstr "存在该属性时包含强度列"
+
+#: operators/export_xyz.py:45
+msgid "Include nx ny nz columns when a normal attribute is present"
+msgstr "存在法向属性时包含 nx ny nz 列"
+
+#: operators/export_e57.py:47
+#: operators/import_e57.py:29
+msgid "Intensity"
+msgstr "强度"
+
+#: operators/import_pts.py:19
+#: operators/import_xyz.py:23
+msgid "Interpret columns 4-6 (or 5-7) as RGB when present"
+msgstr "存在时将第 4-6 列（或 5-7 列）解释为 RGB"
+
+#: operators/import_xyz.py:28
+msgid "Interpret columns 7-9 as nx ny nz when 9 columns are present"
+msgstr "存在 9 列时将第 7-9 列解释为 nx ny nz"
+
+#: operators/export_pcd.py:45
+msgid "LZF-compressed Structure-of-Arrays payload — same as PCL writes by default. Smaller files, slightly slower write"
+msgstr "LZF 压缩的数组结构载荷 — 与 PCL 的默认写入相同。文件更小，写入稍慢"
+
+#: ui/panel.py:149
+msgid "Logarithmic slider for the point radius — drag for smooth scaling across orders of magnitude"
+msgstr "点半径的对数滑块 — 拖动可在多个数量级间平滑缩放"
+
+#: operators/import_e57.py:55
+msgid "Merge Scans"
+msgstr "合并扫描"
+
+#: operators/export_e57.py:89
+#: operators/export_las.py:80
+msgid "No PointCloud objects to export."
+msgstr "没有可导出的点云物体。"
+
+#: operators/import_e57.py:24
+#: operators/import_pcd.py:24
+msgid "Normals"
+msgstr "法向"
+
+#: operators/export_e57.py:81
+msgid "Normals are not written (pye57 limitation)."
+msgstr "不写入法向（pye57 限制）。"
+
+#: operators/import_e57.py:40
+#: operators/import_las.py:55
+msgid "Pick a sensible point radius from the cloud's bounding box and density. Disable to use the value below verbatim"
+msgstr "根据点云的边界框和密度自动选取合适的点半径。禁用则直接使用下方的值"
+
+#: ui/panel.py:89
+msgid "Point Cloud"
+msgstr "点云"
+
+#: ui/panel.py:86
+msgid "Point Cloud I/O"
+msgstr "点云 I/O"
+
+#: operators/import_e57.py:48
+#: operators/import_las.py:63
+msgid "Point Radius"
+msgstr "点半径"
+
+#: ui/panel.py:149
+msgid "Radius (log)"
+msgstr "半径（对数）"
+
+#: operators/export_pcd.py:44
+msgid "Raw little-endian binary (default; widely compatible, fast)"
+msgstr "原始小端二进制（默认；兼容性广、速度快）"
+
+#: operators/import_las.py:34
+msgid "Return Info"
+msgstr "回波信息"
+
+#: operators/import_e57.py:34
+#: operators/import_las.py:49
+msgid "Scale"
+msgstr "缩放"
+
+#: operators/export_e57.py:27
+#: operators/export_las.py:36
+msgid "Selection Only"
+msgstr "仅选中"
+
+#: operators/_base.py:193
+msgid "Source Attributes"
+msgstr "源属性"
+
+#: operators/import_las.py:39
+msgid "Subtract the data minimum from positions so the cloud is near the world origin. Required for georeferenced LAS (UTM, State Plane, etc.) — without it the cloud lands millions of metres from origin and float32 precision drops below 1 metre"
+msgstr "从坐标中减去数据最小值，使点云靠近世界原点。地理配准的 LAS（UTM、State Plane 等）必须使用 — 否则点云会落在距原点数百万米处，float32 精度将低于 1 米"
+
+#: operators/import_e57.py:48
+#: operators/import_las.py:63
+msgid "Visible radius of each point (ignored when Auto Point Radius is on)"
+msgstr "每个点的可见半径（开启自动点半径时忽略）"
+
+#: ui/panel.py:138
+msgid "Visible radius of every point in this cloud"
+msgstr "此点云中每个点的可见半径"
+
+#: operators/export_pts.py:44
+#: operators/export_xyz.py:40
+msgid "Write Colors"
+msgstr "写入颜色"
+
+#: operators/export_pts.py:39
+#: operators/export_xyz.py:50
+msgid "Write Intensity"
+msgstr "写入强度"
+
+#: operators/export_xyz.py:45
+msgid "Write Normals"
+msgstr "写入法向"
+
+#: operators/export_las.py:31
+msgid "Write as LAZ (compressed) instead of LAS. Switches the file extension to .laz"
+msgstr "以 LAZ（压缩）而非 LAS 写入。文件扩展名切换为 .laz"
+
+#: operators/export_ply.py:46
+msgid "Write the PLY in human-readable ASCII (larger files, useful for debugging)"
+msgstr "以人类可读的 ASCII 写入 PLY（文件更大，便于调试）"
+
+#: ui/panel.py:125
+msgctxt "Operator"
+msgid "Auto"
+msgstr "自动"
+
+#: ui/panel.py:71
+msgctxt "Operator"
+msgid "Auto Fit Point Radius"
+msgstr "自动适配点半径"
+
+#: operators/export_e57.py:115
+#: operators/import_e57.py:108
+msgctxt "Operator"
+msgid "E57 Point Cloud (.e57)"
+msgstr "E57 点云 (.e57)"
+
+#: operators/export_e57.py:13
+msgctxt "Operator"
+msgid "Export E57"
+msgstr "导出 E57"
+
+#: operators/export_las.py:15
+msgctxt "Operator"
+msgid "Export LAS/LAZ"
+msgstr "导出 LAS/LAZ"
+
+#: operators/export_pcd.py:13
+msgctxt "Operator"
+msgid "Export PCD"
+msgstr "导出 PCD"
+
+#: operators/export_ply.py:13
+msgctxt "Operator"
+msgid "Export PLY"
+msgstr "导出 PLY"
+
+#: operators/export_pts.py:13
+msgctxt "Operator"
+msgid "Export PTS"
+msgstr "导出 PTS"
+
+#: operators/export_xyz.py:13
+msgctxt "Operator"
+msgid "Export XYZ"
+msgstr "导出 XYZ"
+
+#: operators/import_e57.py:13
+msgctxt "Operator"
+msgid "Import E57"
+msgstr "导入 E57"
+
+#: operators/import_las.py:13
+msgctxt "Operator"
+msgid "Import LAS/LAZ"
+msgstr "导入 LAS/LAZ"
+
+#: operators/import_pcd.py:13
+msgctxt "Operator"
+msgid "Import PCD"
+msgstr "导入 PCD"
+
+#: operators/import_ply.py:13
+msgctxt "Operator"
+msgid "Import PLY"
+msgstr "导入 PLY"
+
+#: operators/import_pts.py:13
+msgctxt "Operator"
+msgid "Import PTS"
+msgstr "导入 PTS"
+
+#: operators/import_xyz.py:13
+msgctxt "Operator"
+msgid "Import XYZ"
+msgstr "导入 XYZ"
+
+#: operators/export_las.py:102
+#: operators/import_las.py:117
+msgctxt "Operator"
+msgid "LAS/LAZ Point Cloud (.las, .laz)"
+msgstr "LAS/LAZ 点云 (.las, .laz)"
+
+#: operators/export_pcd.py:97
+#: operators/import_pcd.py:91
+msgctxt "Operator"
+msgid "PCD Point Cloud (.pcd)"
+msgstr "PCD 点云 (.pcd)"
+
+#: operators/export_ply.py:96
+#: operators/import_ply.py:91
+msgctxt "Operator"
+msgid "PLY Point Cloud (.ply)"
+msgstr "PLY 点云 (.ply)"
+
+#: operators/export_pts.py:104
+#: operators/import_pts.py:84
+msgctxt "Operator"
+msgid "PTS Point Cloud (.pts)"
+msgstr "PTS 点云 (.pts)"
+
+#: ui/panel.py:51
+msgctxt "Operator"
+msgid "Scale Point Radius"
+msgstr "缩放点半径"
+
+#: operators/export_xyz.py:113
+msgctxt "Operator"
+msgid "XYZ Point Cloud (.xyz)"
+msgstr "XYZ 点云 (.xyz)"
+
+#: operators/import_xyz.py:95
+msgctxt "Operator"
+msgid "XYZ Point Cloud (.xyz, .txt, .csv)"
+msgstr "XYZ 点云 (.xyz, .txt, .csv)"
+
+#: ui/panel.py:127
+msgctxt "Operator"
+msgid "×10"
+msgstr "×10"
+
+#: ui/panel.py:126
+msgctxt "Operator"
+msgid "×2"
+msgstr "×2"
+
+#: ui/panel.py:123
+msgctxt "Operator"
+msgid "÷10"
+msgstr "÷10"
+
+#: ui/panel.py:124
+msgctxt "Operator"
+msgid "÷2"
+msgstr "÷2"

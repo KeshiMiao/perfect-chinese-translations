@@ -1,0 +1,309 @@
+# perfect-chinese: 1
+# id: snapline
+# kind: addon
+# module: bl_ext.blender_org.snapline
+# name: Snapline
+# name_zh: 快速吸附对齐
+# translator: KeshiMiao
+# category: Mesh
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: snapline/operators.py:270
+msgid "Active object must be a mesh"
+msgstr "活动物体必须是网格"
+
+#: snapline/panels.py:107
+msgid "Align"
+msgstr "对齐"
+
+#: snapline/props.py:34
+msgid "All"
+msgstr "全部"
+
+#: snapline/operators.py:465
+msgid "Average cleared — hover normally to snap"
+msgstr "平均值已清除 — 正常悬停即可吸附"
+
+#: snapline/operators.py:118
+msgid "Average points cleared"
+msgstr "平均点已清除"
+
+#: snapline/operators.py:496
+msgid "Cancelled — position restored"
+msgstr "已取消 — 位置已恢复"
+
+#: snapline/operators.py:532
+msgid "Cannot edit while aligning"
+msgstr "对齐时无法编辑"
+
+#: snapline/panels.py:58
+msgid "Constraint Pins"
+msgstr "约束固定点"
+
+#: snapline/panels.py:38
+msgid "Dot Size"
+msgstr "圆点大小"
+
+#: snapline/panels.py:96
+msgid "EDGE — spins around edge axis"
+msgstr "边 — 绕边轴旋转"
+
+#: snapline/props.py:36
+msgid "Edge Mids"
+msgstr "边中点"
+
+#: snapline/props.py:36
+msgid "Edge midpoints only"
+msgstr "仅边中点"
+
+#: snapline/operators.py:176
+#: snapline/operators.py:273
+msgid "Enter Edit Mode and select geometry first"
+msgstr "请先进入编辑模式并选择几何体"
+
+#: snapline/panels.py:171
+msgid "Enter Edit Mode on source"
+msgstr "在源上进入编辑模式"
+
+#: snapline/panels.py:99
+msgid "FACE + Midpoint — full rotation, pivots at centre"
+msgstr "面 + 中点 — 完整旋转，以中心为轴心"
+
+#: snapline/panels.py:101
+msgid "FACE — in-plane spin only"
+msgstr "面 — 仅平面内旋转"
+
+#: snapline/props.py:37
+msgid "Face Centers"
+msgstr "面中心"
+
+#: snapline/props.py:37
+msgid "Face centers only"
+msgstr "仅面中心"
+
+#: snapline/props.py:49
+msgid "Front Only"
+msgstr "仅正面"
+
+#: snapline/panels.py:92
+msgid "HINGE — swings around vert-to-vert axis"
+msgstr "铰链 — 绕顶点到顶点轴摆动"
+
+#: snapline/panels.py:48
+msgid "Hover a point, then:"
+msgstr "悬停到点上，然后："
+
+#: snapline/operators.py:306
+msgid "Hover → LMB confirm  |  Shift+LMB lock avg  |  Scroll adjust offset  |  ESC cancel"
+msgstr "悬停 → 左键确认  |  Shift+左键锁定平均  |  滚动调整偏移  |  ESC 取消"
+
+#: snapline/panels.py:119
+msgid "LIVE — hover snap points"
+msgstr "实时 — 悬停吸附点"
+
+#: snapline/panels.py:49
+msgid "LMB  — select edge / face"
+msgstr "左键 — 选择边 / 面"
+
+#: snapline/panels.py:161
+msgid "LMB — confirm    ESC — cancel"
+msgstr "左键 — 确认    ESC — 取消"
+
+#: snapline/panels.py:143
+msgid "Lock 2+ to snap to their average"
+msgstr "锁定 2 个以上可吸附到它们的平均值"
+
+#: snapline/props.py:17
+msgid "Midpoint Only"
+msgstr "仅中点"
+
+#: snapline/panels.py:37
+msgid "Mode"
+msgstr "模式"
+
+#: snapline/panels.py:133
+msgid "Multi-Point Snap"
+msgstr "多点吸附"
+
+#: snapline/panels.py:71
+msgid "No pins"
+msgstr "无固定点"
+
+#: snapline/operators.py:154
+msgid "No target set"
+msgstr "未设置目标"
+
+#: snapline/props.py:17
+msgid "OFF (default): pure in-plane spin around the face normal — the object cannot tilt out of the plane.\nON: full rotation is allowed, but the object is anchored to the face-pin midpoint so it pivots from that centre."
+msgstr "关闭（默认）：仅绕面法线在平面内旋转 — 物体无法倾斜出平面。\n开启：允许完整旋转，但物体会锚定到面固定点的中点，以该中心为轴心。"
+
+#: snapline/operators.py:212
+msgid "Pin added — 2 VERTs active: HINGE mode"
+msgstr "已添加固定点 — 2 个顶点激活：铰链模式"
+
+#: snapline/props.py:41
+msgid "Point Size"
+msgstr "点大小"
+
+#: snapline/props.py:53
+msgid "Push the snapped object away from the target surface by this distance"
+msgstr "将吸附物体沿目标表面推开该距离"
+
+#: snapline/panels.py:51
+msgid "RMB / ESC — exit"
+msgstr "右键 / ESC — 退出"
+
+#: snapline/panels.py:50
+msgid "Scroll ↑↓ — add / remove pts"
+msgstr "滚动 ↑↓ — 添加 / 移除点"
+
+#: snapline/operators.py:129
+msgid "Select a Mesh object first"
+msgstr "请先选择网格物体"
+
+#: snapline/operators.py:173
+msgid "Select a mesh object in Edit Mode"
+msgstr "在编辑模式下选择网格物体"
+
+#: snapline/operators.py:181
+#: snapline/operators.py:281
+msgid "Select a vert / edge / face first"
+msgstr "请先选择顶点 / 边 / 面"
+
+#: snapline/panels.py:167
+msgid "Select the source mesh"
+msgstr "选择源网格"
+
+#: snapline/operators.py:265
+#: snapline/operators.py:529
+msgid "Set a target first"
+msgstr "请先设置目标"
+
+#: snapline/panels.py:142
+msgid "Shift+LMB  →  lock a point"
+msgstr "Shift+左键  →  锁定一个点"
+
+#: snapline/panels.py:150
+msgid "Shift+LMB same point → remove it"
+msgstr "Shift+左键同一位置 → 移除该点"
+
+#: snapline/props.py:49
+msgid "Show only snap points on the camera-facing side"
+msgstr "仅显示朝向摄像机一侧的吸附点"
+
+#: snapline/props.py:53
+msgid "Snap Offset"
+msgstr "吸附偏移"
+
+#: snapline/props.py:31
+msgid "Snap Points"
+msgstr "吸附点"
+
+#: snapline/panels.py:10
+#: snapline/panels.py:14
+msgid "Snapline"
+msgstr "Snapline"
+
+#: snapline/operators.py:53
+msgid "Snapline — Quick Reference"
+msgstr "Snapline — 快速参考"
+
+#: snapline/operators.py:276
+msgid "Source and Target cannot be the same object"
+msgstr "源和目标不能是同一物体"
+
+#: snapline/panels.py:169
+msgid "Source ≠ Target"
+msgstr "源 ≠ 目标"
+
+#: snapline/panels.py:31
+msgid "Target"
+msgstr "目标"
+
+#: snapline/props.py:30
+msgid "Target Object"
+msgstr "目标物体"
+
+#: snapline/panels.py:94
+msgid "VERT — free 3-axis swing"
+msgstr "顶点 — 自由三轴摆动"
+
+#: snapline/props.py:35
+msgid "Vertices"
+msgstr "顶点"
+
+#: snapline/props.py:35
+msgid "Vertices only"
+msgstr "仅顶点"
+
+#: snapline/props.py:34
+msgid "Verts + Edge Midpoints + Face Centers"
+msgstr "顶点 + 边中点 + 面中心"
+
+#: snapline/operators.py:247
+msgctxt "Operator"
+msgid "Clear All Pins"
+msgstr "清除所有固定点"
+
+#: snapline/operators.py:111
+msgctxt "Operator"
+msgid "Clear Average Points"
+msgstr "清除平均点"
+
+#: snapline/operators.py:523
+msgctxt "Operator"
+msgid "Edit Point Density"
+msgstr "编辑点密度"
+
+#: snapline/operators.py:167
+#: snapline/panels.py:68
+msgctxt "Operator"
+msgid "Pin Selection"
+msgstr "固定选中项"
+
+#: snapline/panels.py:40
+msgctxt "Operator"
+msgid "Refresh"
+msgstr "刷新"
+
+#: snapline/operators.py:148
+msgctxt "Operator"
+msgid "Refresh Snap Points"
+msgstr "刷新吸附点"
+
+#: snapline/operators.py:233
+msgctxt "Operator"
+msgid "Remove Pin"
+msgstr "移除固定点"
+
+#: snapline/operators.py:501
+#: snapline/panels.py:179
+msgctxt "Operator"
+msgid "Reset All"
+msgstr "全部重置"
+
+#: snapline/operators.py:123
+msgctxt "Operator"
+msgid "Set Active as Target"
+msgstr "将活动物体设为目标"
+
+#: snapline/operators.py:42
+msgctxt "Operator"
+msgid "Snapline Help"
+msgstr "Snapline 帮助"
+
+#: snapline/operators.py:258
+#: snapline/panels.py:176
+msgctxt "Operator"
+msgid "Start Aligning"
+msgstr "开始对齐"
+
+#: snapline/operators.py:220
+msgctxt "Operator"
+msgid "Toggle Pin"
+msgstr "切换固定点"

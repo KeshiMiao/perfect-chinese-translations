@@ -1,0 +1,289 @@
+# perfect-chinese: 1
+# id: pterrain
+# kind: addon
+# module: bl_ext.blender_org.pterrain
+# name: PTerrain
+# name_zh: 渐进地形
+# translator: KeshiMiao
+# category: Add Mesh
+# supported_versions: >=4.2.21
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:260
+msgid "Adjust clipping"
+msgstr "调整裁剪"
+
+#: __init__.py:260
+msgid "Adjust the view clipping planes after generation."
+msgstr "生成后调整视图裁剪平面。"
+
+#: __init__.py:393
+msgid "Advanced settings"
+msgstr "高级设置"
+
+#: __init__.py:119
+msgid "An error occurred during generation."
+msgstr "生成过程中发生错误。"
+
+#: __init__.py:278
+msgid "Apply thresholded median filter to DEM data to remove spikes."
+msgstr "对 DEM 数据应用阈值中值滤波以去除尖峰。"
+
+#: __init__.py:382
+msgid "Basic settings"
+msgstr "基本设置"
+
+#: __init__.py:214
+msgid "Center position for terrain generation."
+msgstr "地形生成的中心位置。"
+
+#: __init__.py:272
+msgid "Clamp elevation to sea level"
+msgstr "将高程钳制到海平面"
+
+#: __init__.py:272
+msgid "Clamp the elevation to the sea level (i.e., set all elevations below zero to 0)."
+msgstr "将高程钳制到海平面（即将所有低于零的高程设为 0）。"
+
+#: __init__.py:411
+msgid "DEM URL"
+msgstr "DEM URL"
+
+#: __init__.py:284
+msgid "DEM max res"
+msgstr "DEM 最大分辨率"
+
+#: __init__.py:396
+msgid "DEM max resolution"
+msgstr "DEM 最大分辨率"
+
+#: __init__.py:220
+#: __init__.py:372
+msgid "DEM preset"
+msgstr "DEM 预设"
+
+#: __init__.py:220
+msgid "DEM resolution for generated terrain."
+msgstr "生成地形的 DEM 分辨率。"
+
+#: __init__.py:284
+msgid "Finest DEM resolution to generate."
+msgstr "要生成的最精细 DEM 分辨率。"
+
+#: __init__.py:300
+msgid "Finest MAP resolution to generate."
+msgstr "要生成的最精细 MAP 分辨率。"
+
+#: __init__.py:247
+msgid "Geocentric"
+msgstr "地心"
+
+#: __init__.py:247
+msgid "Geocentric projection"
+msgstr "地心投影"
+
+#: __init__.py:226
+#: __init__.py:238
+msgid "High"
+msgstr "高"
+
+#: __init__.py:226
+msgid "High DEM resolution"
+msgstr "高 DEM 分辨率"
+
+#: __init__.py:238
+msgid "High MAP resolution"
+msgstr "高 MAP 分辨率"
+
+#: __init__.py:214
+#: __init__.py:369
+msgid "Lat, lon"
+msgstr "纬度, 经度"
+
+#: __init__.py:224
+#: __init__.py:236
+msgid "Low"
+msgstr "低"
+
+#: __init__.py:224
+msgid "Low DEM resolution"
+msgstr "低 DEM 分辨率"
+
+#: __init__.py:236
+msgid "Low MAP resolution"
+msgstr "低 MAP 分辨率"
+
+#: __init__.py:417
+msgid "MAP URL"
+msgstr "MAP URL"
+
+#: __init__.py:300
+msgid "MAP max res"
+msgstr "MAP 最大分辨率"
+
+#: __init__.py:399
+msgid "MAP max resolution"
+msgstr "MAP 最大分辨率"
+
+#: __init__.py:232
+#: __init__.py:375
+msgid "MAP preset"
+msgstr "MAP 预设"
+
+#: __init__.py:232
+msgid "MAP resolution for generated terrain."
+msgstr "生成地形的 MAP 分辨率。"
+
+#: __init__.py:225
+#: __init__.py:237
+msgid "Medium"
+msgstr "中"
+
+#: __init__.py:225
+msgid "Medium DEM resolution"
+msgstr "中 DEM 分辨率"
+
+#: __init__.py:237
+msgid "Medium MAP resolution"
+msgstr "中 MAP 分辨率"
+
+#: __init__.py:248
+msgid "Orthographic"
+msgstr "正交"
+
+#: __init__.py:248
+msgid "Orthographic projection"
+msgstr "正交投影"
+
+#: __init__.py:350
+#: __init__.py:354
+msgid "PTerrain"
+msgstr "PTerrain"
+
+#: __init__.py:243
+#: __init__.py:378
+msgid "Projection"
+msgstr "投影"
+
+#: __init__.py:243
+msgid "Projection method for terrain generation."
+msgstr "地形生成的投影方式。"
+
+#: __init__.py:254
+msgid "Re-center"
+msgstr "重新居中"
+
+#: __init__.py:254
+msgid "Re-center generated terrain projection."
+msgstr "重新居中生成地形的投影。"
+
+#: __init__.py:266
+msgid "Snap center elevation to z=0"
+msgstr "将中心高程吸附到 z=0"
+
+#: __init__.py:266
+msgid "Snap the center of the terrain to the z=0 plane."
+msgstr "将地形中心吸附到 z=0 平面。"
+
+#: __init__.py:278
+msgid "Suppress DEM spikes"
+msgstr "抑制 DEM 尖峰"
+
+#: __init__.py:411
+msgid "URL for the DEM tile data."
+msgstr "DEM 瓦片数据的 URL。"
+
+#: __init__.py:417
+msgid "URL for the MAP tile data."
+msgstr "MAP 瓦片数据的 URL。"
+
+#: __init__.py:227
+msgid "Ultra"
+msgstr "超高"
+
+#: __init__.py:227
+msgid "Ultra DEM resolution"
+msgstr "超高 DEM 分辨率"
+
+#: __init__.py:249
+msgid "Web Mercator"
+msgstr "Web 墨卡托"
+
+#: __init__.py:249
+msgid "Web Mercator projection"
+msgstr "Web 墨卡托投影"
+
+#: __init__.py:293
+#: __init__.py:314
+msgid "Zoom level 10"
+msgstr "缩放级别 10"
+
+#: __init__.py:292
+#: __init__.py:313
+msgid "Zoom level 11"
+msgstr "缩放级别 11"
+
+#: __init__.py:291
+#: __init__.py:312
+msgid "Zoom level 12"
+msgstr "缩放级别 12"
+
+#: __init__.py:290
+#: __init__.py:311
+msgid "Zoom level 13"
+msgstr "缩放级别 13"
+
+#: __init__.py:289
+#: __init__.py:310
+msgid "Zoom level 14"
+msgstr "缩放级别 14"
+
+#: __init__.py:288
+#: __init__.py:309
+msgid "Zoom level 15"
+msgstr "缩放级别 15"
+
+#: __init__.py:308
+msgid "Zoom level 16"
+msgstr "缩放级别 16"
+
+#: __init__.py:307
+msgid "Zoom level 17"
+msgstr "缩放级别 17"
+
+#: __init__.py:306
+msgid "Zoom level 18"
+msgstr "缩放级别 18"
+
+#: __init__.py:305
+msgid "Zoom level 19"
+msgstr "缩放级别 19"
+
+#: __init__.py:304
+msgid "Zoom level 20"
+msgstr "缩放级别 20"
+
+#: __init__.py:295
+#: __init__.py:316
+msgid "Zoom level 8"
+msgstr "缩放级别 8"
+
+#: __init__.py:294
+#: __init__.py:315
+msgid "Zoom level 9"
+msgstr "缩放级别 9"
+
+#: __init__.py:327
+#: __init__.py:402
+msgctxt "Operator"
+msgid "Generate"
+msgstr "生成"
+
+#: __init__.py:328
+msgctxt "Operator"
+msgid "Generate terrain with PTerrain"
+msgstr "使用 PTerrain 生成地形"

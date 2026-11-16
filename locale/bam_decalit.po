@@ -1,0 +1,712 @@
+# perfect-chinese: 1
+# id: bam_decalit
+# kind: addon
+# module: bl_ext.blender_org.BAM_Decalit
+# name: [BAM] Decalit
+# name_zh: BAM贴花工具
+# translator: KeshiMiao
+# category: Material
+# supported_versions: >=5.0.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: BAM_Decalit/core/BAM_properties.py:527
+msgid "Active BAM Decalit Preview"
+msgstr "活动的 BAM Decalit 预览"
+
+#: BAM_Decalit/projection/BAM_projection_nodes.py:18
+msgid "Add"
+msgstr "添加"
+
+#: BAM_Decalit/projection/BAM_projection_nodes.py:18
+msgid "Add transferred custom normals to existing normals"
+msgstr "将传递的自定义法线添加到现有法线"
+
+#: BAM_Decalit/modules/BAM_placement_modal.py:1938
+msgid "All modifiers will be applied."
+msgstr "将应用所有修改器。"
+
+#: BAM_Decalit/core/BAM_properties.py:619
+#: BAM_Decalit/core/BAM_properties.py:695
+msgid "Allow projection onto back-facing target polygons"
+msgstr "允许投影到背面的目标多边形上"
+
+#: BAM_Decalit/ui/BAM_ui.py:197
+msgid "BAM Decalit Actions"
+msgstr "BAM Decalit 操作"
+
+#: BAM_Decalit/core/BAM_properties.py:619
+#: BAM_Decalit/core/BAM_properties.py:695
+msgid "BackFace"
+msgstr "背面"
+
+#: BAM_Decalit/modules/BAM_placement_modal.py:1936
+msgid "Bake the selected decal into a plain mesh?"
+msgstr "将所选贴花烘焙为普通网格？"
+
+#: BAM_Decalit/modules/BAM_placement_modal.py:224
+msgid "Choose a mesh decal source first"
+msgstr "请先选择网格贴花源"
+
+#: BAM_Decalit/modules/BAM_placement_modal.py:362
+#: BAM_Decalit/modules/BAM_placement_modal.py:378
+msgid "Click a mesh surface before confirming"
+msgstr "确认前请先点击网格表面"
+
+#: BAM_Decalit/library/BAM_decal_library.py:3749
+#: BAM_Decalit/library/BAM_decal_library.py:3774
+msgid "Collection Name"
+msgstr "集合名称"
+
+#: BAM_Decalit/core/BAM_properties.py:214
+msgid "Collection Names"
+msgstr "集合名称"
+
+#: BAM_Decalit/core/BAM_properties.py:176
+msgid "Collection name used for placed BAM Decalit objects"
+msgstr "用于放置 BAM Decalit 物体的集合名称"
+
+#: BAM_Decalit/core/BAM_properties.py:527
+msgid "Current modal preview decal being edited before Enter"
+msgstr "按 Enter 前正在编辑的当前模态预览贴花"
+
+#: BAM_Decalit/core/BAM_properties.py:50
+msgid "Cycles"
+msgstr "Cycles"
+
+#: BAM_Decalit/core/BAM_properties.py:181
+msgid "Data Collection"
+msgstr "数据集合"
+
+#: BAM_Decalit/core/BAM_properties.py:633
+msgid "Data Transfer mix mode used when transferring target normals to the decal"
+msgstr "将目标法线传递到贴花时使用的数据传输混合模式"
+
+#: BAM_Decalit/core/BAM_properties.py:709
+msgid "Data Transfer mix mode used when transferring target normals to this decal"
+msgstr "将目标法线传递到此贴花时使用的数据传输混合模式"
+
+#: BAM_Decalit/library/BAM_decal_library.py:3875
+msgid "Decal"
+msgstr "贴花"
+
+#: BAM_Decalit/core/BAM_properties.py:176
+msgid "Decal Collection"
+msgstr "贴花集合"
+
+#: BAM_Decalit/library/BAM_decal_library.py:528
+msgid "Decal ID"
+msgstr "贴花 ID"
+
+#: BAM_Decalit/modules/BAM_placement_modal.py:154
+msgid "Decal IT"
+msgstr "Decal IT"
+
+#: BAM_Decalit/core/BAM_properties.py:576
+#: BAM_Decalit/ui/BAM_ui.py:234
+msgid "Decal IT Mode"
+msgstr "Decal IT 模式"
+
+#: BAM_Decalit/modules/BAM_placement_modal.py:1965
+msgid "Decal IT decal baked to a plain mesh"
+msgstr "Decal IT 贴花已烘焙为普通网格"
+
+#: BAM_Decalit/ui/BAM_ui.py:269
+msgid "Decal Library"
+msgstr "贴花库"
+
+#: BAM_Decalit/core/BAM_properties.py:521
+msgid "Decal Mesh"
+msgstr "贴花网格"
+
+#: BAM_Decalit/core/BAM_properties.py:541
+msgid "Decal height in local Y"
+msgstr "贴花在局部 Y 轴的高度"
+
+#: BAM_Decalit/library/BAM_decal_library.py:3596
+msgid "Decal name cannot be empty"
+msgstr "贴花名称不能为空"
+
+#: BAM_Decalit/core/BAM_properties.py:532
+msgid "Decal width in local X"
+msgstr "贴花在局部 X 轴的宽度"
+
+#: BAM_Decalit/core/BAM_properties.py:123
+#: BAM_Decalit/core/BAM_properties.py:612
+msgid "Decals Trim"
+msgstr "贴花修剪"
+
+#: BAM_Decalit/core/BAM_properties.py:123
+msgid "Default Decals Trim checkbox value for new BAM Decalit scenes"
+msgstr "新建 BAM Decalit 场景时“贴花修剪”复选框的默认值"
+
+#: BAM_Decalit/core/BAM_properties.py:118
+msgid "Default Guides checkbox value for new BAM Decalit scenes"
+msgstr "新建 BAM Decalit 场景时“参考线”复选框的默认值"
+
+#: BAM_Decalit/core/BAM_properties.py:133
+msgid "Default Interactive Fast Preview checkbox value for new BAM Decalit scenes"
+msgstr "新建 BAM Decalit 场景时“交互式快速预览”复选框的默认值"
+
+#: BAM_Decalit/core/BAM_properties.py:196
+msgid "Default Overlay Toggles"
+msgstr "默认叠加层开关"
+
+#: BAM_Decalit/core/BAM_properties.py:206
+msgid "Default Projection Values"
+msgstr "默认投影值"
+
+#: BAM_Decalit/core/BAM_properties.py:128
+msgid "Default Triangulation checkbox value for new BAM Decalit scenes"
+msgstr "新建 BAM Decalit 场景时“三角化”复选框的默认值"
+
+#: BAM_Decalit/core/BAM_properties.py:146
+msgid "Default projected surface offset"
+msgstr "默认投影表面偏移"
+
+#: BAM_Decalit/core/BAM_properties.py:138
+msgid "Default projection depth distance"
+msgstr "默认投影深度距离"
+
+#: BAM_Decalit/core/BAM_properties.py:161
+msgid "Default simple projection subdivision level"
+msgstr "默认简单投影细分级别"
+
+#: BAM_Decalit/core/BAM_properties.py:154
+msgid "Default target-topology subdivision level"
+msgstr "默认目标拓扑细分级别"
+
+#: BAM_Decalit/core/BAM_properties.py:138
+#: BAM_Decalit/core/BAM_properties.py:586
+msgid "Depth"
+msgstr "深度"
+
+#: BAM_Decalit/core/BAM_properties.py:586
+#: BAM_Decalit/core/BAM_properties.py:659
+msgid "Distance from the surface used as the projection depth"
+msgstr "用作投影深度的距表面距离"
+
+#: BAM_Decalit/modules/BAM_placement_modal.py:1034
+msgid "Draw at least 3 carve points"
+msgstr "至少绘制 3 个雕刻点"
+
+#: BAM_Decalit/core/BAM_properties.py:49
+msgid "Eevee"
+msgstr "EEVEE"
+
+#: BAM_Decalit/modules/BAM_placement_modal.py:2091
+msgid "Fast Interactive Preview fallback enabled"
+msgstr "已启用快速交互式预览回退"
+
+#: BAM_Decalit/core/BAM_properties.py:133
+#: BAM_Decalit/ui/BAM_ui.py:358
+msgid "Fast Preview"
+msgstr "快速预览"
+
+#: BAM_Decalit/__init__.py:1
+msgid "Fast mesh decal placement with normal snapping and Geometry Nodes projection."
+msgstr "通过法线吸附和几何节点投影快速放置网格贴花。"
+
+#: BAM_Decalit/core/BAM_properties.py:521
+msgid "Flat mesh object used as the decal source"
+msgstr "用作贴花源的平面网格物体"
+
+#: BAM_Decalit/modules/BAM_placement_modal.py:1772
+msgid "Geometry Nodes projection strategy for the placed decal"
+msgstr "用于已放置贴花的几何节点投影策略"
+
+#: BAM_Decalit/core/BAM_properties.py:118
+#: BAM_Decalit/core/BAM_properties.py:606
+msgid "Guides"
+msgstr "参考线"
+
+#: BAM_Decalit/core/BAM_properties.py:541
+#: BAM_Decalit/ui/BAM_ui.py:341
+msgid "Height"
+msgstr "高度"
+
+#: BAM_Decalit/core/BAM_properties.py:181
+msgid "Hidden collection name used for BAM Decalit helper objects"
+msgstr "用于 BAM Decalit 辅助物体的隐藏集合名称"
+
+#: BAM_Decalit/modules/BAM_placement_modal.py:2089
+msgid "High-poly fallback target is no longer available"
+msgstr "高模回退目标已不可用"
+
+#: BAM_Decalit/library/BAM_decal_library.py:3775
+msgid "Include Current Decals"
+msgstr "包含当前贴花"
+
+#: BAM_Decalit/core/BAM_properties.py:640
+msgid "Interactive Fast Preview"
+msgstr "交互式快速预览"
+
+#: BAM_Decalit/modules/BAM_placement_modal.py:1937
+msgid "It cannot be edited with Decal IT Edit Mode afterwards."
+msgstr "之后将无法使用 Decal IT 编辑模式进行编辑。"
+
+#: BAM_Decalit/library/BAM_decal_library.py:3886
+msgid "Loaded Decal Preset"
+msgstr "已加载的贴花预设"
+
+#: BAM_Decalit/__init__.py:1
+msgid "Material"
+msgstr "材质"
+
+#: BAM_Decalit/projection/BAM_projection_nodes.py:17
+msgid "Mix"
+msgstr "混合"
+
+#: BAM_Decalit/projection/BAM_projection_nodes.py:17
+msgid "Mix transferred custom normals with existing normals"
+msgstr "将传递的自定义法线与现有法线混合"
+
+#: BAM_Decalit/modules/BAM_placement_modal.py:1978
+msgid "Mode"
+msgstr "模式"
+
+#: BAM_Decalit/projection/BAM_projection_nodes.py:20
+msgid "Multiply"
+msgstr "相乘"
+
+#: BAM_Decalit/projection/BAM_projection_nodes.py:20
+msgid "Multiply transferred custom normals with existing normals"
+msgstr "将传递的自定义法线与现有法线相乘"
+
+#: BAM_Decalit/library/BAM_decal_library.py:529
+#: BAM_Decalit/library/BAM_decal_library.py:3566
+msgid "Name"
+msgstr "名称"
+
+#: BAM_Decalit/library/BAM_decal_library.py:3698
+msgid "No decal selected"
+msgstr "未选择贴花"
+
+#: BAM_Decalit/library/BAM_decal_library.py:3581
+#: BAM_Decalit/library/BAM_decal_library.py:3592
+msgid "No decal selected to rename"
+msgstr "未选择要重命名的贴花"
+
+#: BAM_Decalit/library/BAM_decal_library.py:3660
+msgid "No decal to remove"
+msgstr "没有要移除的贴花"
+
+#: BAM_Decalit/library/BAM_decal_library.py:3723
+msgid "No decals to refresh"
+msgstr "没有要刷新的贴花"
+
+#: BAM_Decalit/library/BAM_decal_library.py:3759
+msgid "No decals to save"
+msgstr "没有要保存的贴花"
+
+#: BAM_Decalit/library/BAM_decal_library.py:3632
+msgid "No replacement decal selected"
+msgstr "未选择替换贴花"
+
+#: BAM_Decalit/library/BAM_decal_library.py:3816
+msgid "No saved decal preset selected"
+msgstr "未选择已保存的贴花预设"
+
+#: BAM_Decalit/library/BAM_decal_library.py:3732
+msgid "No selected decal to update"
+msgstr "没有要更新的所选贴花"
+
+#: BAM_Decalit/core/BAM_properties.py:633
+#: BAM_Decalit/core/BAM_properties.py:709
+msgid "Normal Transfer"
+msgstr "法线传递"
+
+#: BAM_Decalit/library/BAM_decal_library.py:530
+msgid "Object"
+msgstr "物体"
+
+#: BAM_Decalit/core/BAM_properties.py:146
+#: BAM_Decalit/core/BAM_properties.py:596
+msgid "Offset"
+msgstr "偏移"
+
+#: BAM_Decalit/core/BAM_properties.py:168
+msgid "Overlay Distance"
+msgstr "叠加层距离"
+
+#: BAM_Decalit/library/BAM_decal_library.py:3890
+msgid "Preset"
+msgstr "预设"
+
+#: BAM_Decalit/core/BAM_properties.py:650
+#: BAM_Decalit/ui/BAM_ui.py:304
+msgid "Preview"
+msgstr "预览"
+
+#: BAM_Decalit/library/BAM_decal_library.py:535
+msgid "Preview Error"
+msgstr "预览错误"
+
+#: BAM_Decalit/library/BAM_decal_library.py:532
+msgid "Preview Image"
+msgstr "预览图像"
+
+#: BAM_Decalit/library/BAM_decal_library.py:531
+msgid "Preview Path"
+msgstr "预览路径"
+
+#: BAM_Decalit/core/BAM_properties.py:186
+msgid "Preview Render Engine"
+msgstr "预览渲染引擎"
+
+#: BAM_Decalit/core/BAM_properties.py:219
+msgid "Preview Rendering"
+msgstr "预览渲染"
+
+#: BAM_Decalit/library/BAM_decal_library.py:533
+msgid "Preview Size"
+msgstr "预览尺寸"
+
+#: BAM_Decalit/library/BAM_decal_library.py:534
+msgid "Preview Status"
+msgstr "预览状态"
+
+#: BAM_Decalit/library/BAM_decal_library.py:536
+msgid "Preview Version"
+msgstr "预览版本"
+
+#: BAM_Decalit/library/BAM_decal_library.py:3737
+msgid "Preview update could not be queued"
+msgstr "无法排队预览更新"
+
+#: BAM_Decalit/modules/BAM_placement_modal.py:1772
+msgid "Projection Mode"
+msgstr "投射模式"
+
+#: BAM_Decalit/core/BAM_properties.py:576
+msgid "Projection strategy used by the main Decal IT button"
+msgstr "主 Decal IT 按钮使用的投射策略"
+
+#: BAM_Decalit/library/BAM_decal_library.py:3662
+msgid "Removed decal from list"
+msgstr "已从列表中移除贴花"
+
+#: BAM_Decalit/core/BAM_properties.py:50
+msgid "Render decal previews with Cycles and retry with Eevee on failure"
+msgstr "使用 Cycles 渲染贴花预览，失败时改用 Eevee 重试"
+
+#: BAM_Decalit/core/BAM_properties.py:49
+msgid "Render decal previews with Eevee"
+msgstr "使用 Eevee 渲染贴花预览"
+
+#: BAM_Decalit/core/BAM_properties.py:186
+msgid "Render engine used first when generating decal library previews"
+msgstr "生成贴花库预览时首先使用的渲染引擎"
+
+#: BAM_Decalit/core/BAM_properties.py:650
+msgid "Rendered decal preview resolution in pixels"
+msgstr "渲染的贴花预览分辨率（像素）"
+
+#: BAM_Decalit/projection/BAM_projection_nodes.py:16
+msgid "Replace"
+msgstr "替换"
+
+#: BAM_Decalit/projection/BAM_projection_nodes.py:16
+msgid "Replace transferred custom normals"
+msgstr "替换传递的自定义法向"
+
+#: BAM_Decalit/library/BAM_decal_library.py:3636
+msgid "Replacement decal source could not be loaded"
+msgstr "无法加载替换用的贴花源"
+
+#: BAM_Decalit/library/BAM_decal_library.py:537
+msgid "Saved Collection"
+msgstr "已保存的集合"
+
+#: BAM_Decalit/library/BAM_decal_library.py:539
+msgid "Saved Object"
+msgstr "已保存的物体"
+
+#: BAM_Decalit/library/BAM_decal_library.py:538
+msgid "Saved Path"
+msgstr "已保存的路径"
+
+#: BAM_Decalit/library/BAM_decal_library.py:3890
+msgid "Saved decal preset collection"
+msgstr "已保存的贴花预设集合"
+
+#: BAM_Decalit/library/BAM_decal_library.py:3881
+msgid "Scene Decal"
+msgstr "场景贴花"
+
+#: BAM_Decalit/modules/BAM_placement_modal.py:1799
+#: BAM_Decalit/modules/BAM_placement_modal.py:1942
+msgid "Select a BAM Decalit mesh object first"
+msgstr "请先选择一个 BAM Decalit 网格物体"
+
+#: BAM_Decalit/core/BAM_properties.py:606
+msgid "Show BAM Decalit viewport guide hints while moving a decal"
+msgstr "移动贴花时显示 BAM Decalit 视图辅助提示"
+
+#: BAM_Decalit/core/BAM_properties.py:550
+#: BAM_Decalit/core/BAM_properties.py:679
+msgid "Simple subdivision level before ray projection"
+msgstr "射线投射前的简单细分级别"
+
+#: BAM_Decalit/core/BAM_properties.py:596
+msgid "Small offset along the hit normal to prevent z-fighting"
+msgstr "沿命中法向的小偏移，用于防止 Z 冲突"
+
+#: BAM_Decalit/core/BAM_properties.py:669
+msgid "Small projected surface offset to prevent z-fighting"
+msgstr "投射表面的小偏移，用于防止 Z 冲突"
+
+#: BAM_Decalit/core/BAM_properties.py:154
+#: BAM_Decalit/core/BAM_properties.py:550
+msgid "Subdivide"
+msgstr "细分"
+
+#: BAM_Decalit/ui/BAM_ui.py:343
+msgid "Subdivide (Simple)"
+msgstr "细分（简单）"
+
+#: BAM_Decalit/core/BAM_properties.py:161
+msgid "Subdivide Simple"
+msgstr "简单细分"
+
+#: BAM_Decalit/core/BAM_properties.py:567
+msgid "Subdivision level for Decal It Simple mode"
+msgstr "Decal It Simple 模式的细分级别"
+
+#: BAM_Decalit/core/BAM_properties.py:558
+msgid "Subdivision level for target-topology Decal IT mode"
+msgstr "目标拓扑 Decal IT 模式的细分级别"
+
+#: BAM_Decalit/projection/BAM_projection_nodes.py:19
+msgid "Subtract"
+msgstr "相减"
+
+#: BAM_Decalit/projection/BAM_projection_nodes.py:19
+msgid "Subtract transferred custom normals from existing normals"
+msgstr "从现有法向中减去传递的自定义法向"
+
+#: BAM_Decalit/core/BAM_properties.py:626
+#: BAM_Decalit/core/BAM_properties.py:702
+msgid "Triangulate target-topology decal geometry in Geometry Nodes"
+msgstr "在几何节点中对目标拓扑贴花几何体进行三角化"
+
+#: BAM_Decalit/core/BAM_properties.py:128
+#: BAM_Decalit/core/BAM_properties.py:626
+msgid "Triangulation"
+msgstr "三角化"
+
+#: BAM_Decalit/core/BAM_properties.py:612
+#: BAM_Decalit/core/BAM_properties.py:688
+msgid "Trim decal geometry where projection raycast misses the target"
+msgstr "修剪投射射线未命中目标的贴花几何体"
+
+#: BAM_Decalit/core/BAM_properties.py:640
+msgid "Use fast projection while dragging Target Topology decals, then rebuild target topology on release/apply"
+msgstr "拖动目标拓扑贴花时使用快速投射，松开/应用时重建目标拓扑"
+
+#: BAM_Decalit/core/BAM_properties.py:168
+msgid "Visual distance between projected decal geometry and bbox/gizmo overlay"
+msgstr "投射的贴花几何体与包围盒/控件叠加之间的视觉距离"
+
+#: BAM_Decalit/core/BAM_properties.py:532
+#: BAM_Decalit/ui/BAM_ui.py:340
+msgid "Width"
+msgstr "宽度"
+
+#: BAM_Decalit/__init__.py:1
+#: BAM_Decalit/ui/BAM_ui.py:247
+msgid "[BAM] Decalit"
+msgstr "[BAM] Decalit"
+
+#: BAM_Decalit/library/BAM_decal_library.py:3520
+#: BAM_Decalit/ui/BAM_ui.py:308
+msgctxt "Operator"
+msgid "Add Decal To List"
+msgstr "添加贴花到列表"
+
+#: BAM_Decalit/library/BAM_decal_library.py:3521
+msgctxt "Operator"
+msgid "Add selected mesh objects to the BAM Decalit list"
+msgstr "将选中的网格物体添加到 BAM Decalit 列表"
+
+#: BAM_Decalit/modules/BAM_placement_modal.py:1923
+msgctxt "Operator"
+msgid "Bake the selected decal into a plain mesh; it cannot be edited with Decal IT Edit Mode afterwards and all modifiers will be applied"
+msgstr "将选中的贴花烘焙为普通网格；之后无法使用 Decal IT 编辑模式编辑，并将应用所有修改器"
+
+#: BAM_Decalit/modules/BAM_placement_modal.py:2102
+msgctxt "Operator"
+msgid "Cancel Decal IT"
+msgstr "取消 Decal IT"
+
+#: BAM_Decalit/modules/BAM_placement_modal.py:1972
+msgctxt "Operator"
+msgid "Choose Decal It Simple to create the decal from the decal mesh geometry with subdivision, Decal IT Volume (BETA) to preserve raised source geometry, or Decal It to use the target mesh topology"
+msgstr "选择 Decal It Simple 通过细分的贴花网格几何体创建贴花，选择 Decal IT Volume（BETA）保留凸起的源几何体，或选择 Decal It 使用目标网格拓扑"
+
+#: BAM_Decalit/modules/BAM_placement_modal.py:2051
+msgctxt "Operator"
+msgid "Confirm Fast Interactive Preview fallback for very dense target meshes"
+msgstr "确认对非常密集的目标网格使用快速交互预览回退"
+
+#: BAM_Decalit/library/BAM_decal_library.py:3770
+msgctxt "Operator"
+msgid "Create Decal Preset"
+msgstr "创建贴花预设"
+
+#: BAM_Decalit/library/BAM_decal_library.py:3771
+msgctxt "Operator"
+msgid "Create an empty decal preset. Hold Shift while clicking to create it from the current decal list"
+msgstr "创建空贴花预设。按住 Shift 单击可从当前贴花列表创建"
+
+#: BAM_Decalit/ui/BAM_ui.py:219
+msgctxt "Operator"
+msgid "Decal"
+msgstr "贴花"
+
+#: BAM_Decalit/modules/BAM_placement_modal.py:1922
+msgctxt "Operator"
+msgid "Decal IT Bake"
+msgstr "Decal IT 烘焙"
+
+#: BAM_Decalit/modules/BAM_placement_modal.py:1787
+#: BAM_Decalit/ui/BAM_ui.py:335
+msgctxt "Operator"
+msgid "Decal IT EditMode"
+msgstr "Decal IT 编辑模式"
+
+#: BAM_Decalit/ui/BAM_ui.py:242
+msgctxt "Operator"
+msgid "Decal IT Volume (BETA)"
+msgstr "Decal IT 体积（BETA）"
+
+#: BAM_Decalit/ui/BAM_ui.py:240
+msgctxt "Operator"
+msgid "Decal It"
+msgstr "Decal It"
+
+#: BAM_Decalit/ui/BAM_ui.py:238
+msgctxt "Operator"
+msgid "Decal It Simple"
+msgstr "Decal It Simple"
+
+#: BAM_Decalit/library/BAM_decal_library.py:3799
+msgctxt "Operator"
+msgid "Delete Decal Preset"
+msgstr "删除贴花预设"
+
+#: BAM_Decalit/library/BAM_decal_library.py:3800
+msgctxt "Operator"
+msgid "Delete the selected saved decal preset collection"
+msgstr "删除选中的已保存贴花预设集合"
+
+#: BAM_Decalit/ui/BAM_ui.py:143
+msgctxt "Operator"
+msgid "Fast Interactive Preview"
+msgstr "快速交互预览"
+
+#: BAM_Decalit/library/BAM_decal_library.py:3707
+msgctxt "Operator"
+msgid "Force update the selected decal preview. Hold Shift while clicking to rerender every decal in the active preset"
+msgstr "强制更新选中的贴花预览。按住 Shift 单击可重新渲染当前预设中的所有贴花"
+
+#: BAM_Decalit/library/BAM_decal_library.py:3826
+msgctxt "Operator"
+msgid "Go To Preset Folder"
+msgstr "转到预设文件夹"
+
+#: BAM_Decalit/library/BAM_decal_library.py:3668
+msgctxt "Operator"
+msgid "Next Decal"
+msgstr "下一个贴花"
+
+#: BAM_Decalit/library/BAM_decal_library.py:3827
+msgctxt "Operator"
+msgid "Open the active decal preset folder in the file browser"
+msgstr "在文件浏览器中打开当前贴花预设文件夹"
+
+#: BAM_Decalit/library/BAM_decal_library.py:3678
+msgctxt "Operator"
+msgid "Previous Decal"
+msgstr "上一个贴花"
+
+#: BAM_Decalit/library/BAM_decal_library.py:3652
+msgctxt "Operator"
+msgid "Remove Decal"
+msgstr "移除贴花"
+
+#: BAM_Decalit/library/BAM_decal_library.py:3653
+msgctxt "Operator"
+msgid "Remove this decal from the BAM Decalit list without deleting the mesh object"
+msgstr "从 BAM Decalit 列表中移除此贴花，但不删除网格物体"
+
+#: BAM_Decalit/library/BAM_decal_library.py:3561
+#: BAM_Decalit/ui/BAM_ui.py:200
+msgctxt "Operator"
+msgid "Rename Decal"
+msgstr "重命名贴花"
+
+#: BAM_Decalit/library/BAM_decal_library.py:3562
+msgctxt "Operator"
+msgid "Rename this decal item in the BAM Decalit library"
+msgstr "在 BAM Decalit 库中重命名此贴花项"
+
+#: BAM_Decalit/library/BAM_decal_library.py:3688
+msgctxt "Operator"
+msgid "Render Decal Preview"
+msgstr "渲染贴花预览"
+
+#: BAM_Decalit/modules/BAM_placement_modal.py:1788
+msgctxt "Operator"
+msgid "Reopen the selected BAM Decalit object for viewport editing"
+msgstr "重新打开选中的 BAM Decalit 物体以在视图中编辑"
+
+#: BAM_Decalit/library/BAM_decal_library.py:3614
+#: BAM_Decalit/ui/BAM_ui.py:198
+msgctxt "Operator"
+msgid "Replace Decal"
+msgstr "替换贴花"
+
+#: BAM_Decalit/library/BAM_decal_library.py:3615
+msgctxt "Operator"
+msgid "Replace the current editable BAM Decalit decal with this library decal"
+msgstr "用此库贴花替换当前可编辑的 BAM Decalit 贴花"
+
+#: BAM_Decalit/library/BAM_decal_library.py:3745
+msgctxt "Operator"
+msgid "Save Decals"
+msgstr "保存贴花"
+
+#: BAM_Decalit/library/BAM_decal_library.py:3746
+msgctxt "Operator"
+msgid "Save Decals data to file"
+msgstr "将贴花数据保存到文件"
+
+#: BAM_Decalit/library/BAM_decal_library.py:3536
+msgctxt "Operator"
+msgid "Select Decal"
+msgstr "选择贴花"
+
+#: BAM_Decalit/library/BAM_decal_library.py:3537
+msgctxt "Operator"
+msgid "Select this decal from the BAM Decalit library. Right-click to open item actions. Available options: Replace Decal, Rename Decal"
+msgstr "从 BAM Decalit 库中选择此贴花。右键单击可打开项操作。可用选项：替换贴花、重命名贴花"
+
+#: BAM_Decalit/modules/BAM_placement_modal.py:1971
+msgctxt "Operator"
+msgid "Set Decal IT Mode"
+msgstr "设置 Decal IT 模式"
+
+#: BAM_Decalit/library/BAM_decal_library.py:3706
+#: BAM_Decalit/ui/BAM_ui.py:305
+msgctxt "Operator"
+msgid "Update Preview"
+msgstr "更新预览"
+
+#: BAM_Decalit/modules/BAM_placement_modal.py:2050
+msgctxt "Operator"
+msgid "Use Fast Fallback?"
+msgstr "使用快速回退？"

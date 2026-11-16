@@ -1,0 +1,452 @@
+# perfect-chinese: 1
+# id: shapekey_axis_control
+# kind: addon
+# module: bl_ext.blender_org.shapekey_axis_control
+# name: ShapeKey Axis Control
+# name_zh: 形态键轴控制
+# translator: KeshiMiao
+# category: Animation
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: ui/panel.py:166
+msgid "<- (Click 'Add' to create a Group first)"
+msgstr "<-（先点击「添加」创建组）"
+
+#: __init__.py:1
+msgid "Animation"
+msgstr "动画"
+
+#: ui/properties.py:26
+msgid "Auto"
+msgstr "自动"
+
+#: ui/panel.py:161
+msgid "Blend"
+msgstr "混合"
+
+#: ui/properties.py:23
+msgid "Blend Mode"
+msgstr "混合模式"
+
+#: ui/properties.py:27
+msgid "Box Falloff"
+msgstr "盒状衰减"
+
+#: __init__.py:1
+msgid "Control shape keys across multiple objects using a 2D Axis Controller"
+msgstr "使用 2D 轴控制器跨多个物体控制形态键"
+
+#: operators/main.py:420
+#: operators/main.py:492
+msgid "Down"
+msgstr "下"
+
+#: __init__.py:63
+msgid "Enable Drag Point"
+msgstr "启用拖拽点"
+
+#: operators/main.py:95
+msgid "End Frame"
+msgstr "结束帧"
+
+#: ui/panel.py:169
+msgid "Global Animation Presets:"
+msgstr "全局动画预设："
+
+#: ui/panel.py:117
+msgid "Group Name"
+msgstr "组名称"
+
+#: ui/panel.py:99
+msgid "Groups:"
+msgstr "组："
+
+#: operators/main.py:196
+msgid "Invalid JSON format"
+msgstr "JSON 格式无效"
+
+#: operators/main.py:84
+msgid "Keyframes inserted for Handle"
+msgstr "已为控制柄插入关键帧"
+
+#: ui/panel.py:133
+#: ui/panel.py:165
+msgid "Mappings:"
+msgstr "映射："
+
+#: operators/main.py:118
+msgid "No valid Shape Keys mapped in this group"
+msgstr "此组中未映射有效的形态键"
+
+#: ui/panel.py:11
+msgid "None"
+msgstr "无"
+
+#: operators/main.py:113
+msgid "Object has no Shape Keys"
+msgstr "物体没有形态键"
+
+#: ui/panel.py:182
+msgid "Preset Name"
+msgstr "预设名称"
+
+#: ui/properties.py:28
+msgid "Radial Falloff"
+msgstr "径向衰减"
+
+#: ui/panel.py:160
+msgid "Radius"
+msgstr "半径"
+
+#: ui/panel.py:81
+msgid "Select a Mesh object"
+msgstr "请选择一个网格物体"
+
+#: ui/panel.py:151
+#: ui/panel.py:153
+msgid "Shape"
+msgstr "形状"
+
+#: ui/panel.py:73
+msgid "Shape Axis"
+msgstr "形状轴"
+
+#: __init__.py:1
+#: ui/panel.py:69
+msgid "ShapeKey Axis Control"
+msgstr "形态键轴控制"
+
+#: operators/main.py:94
+msgid "Start Frame"
+msgstr "起始帧"
+
+#: operators/main.py:96
+msgid "Step"
+msgstr "步长"
+
+#: ui/panel.py:193
+msgid "UI Error:"
+msgstr "界面错误："
+
+#: operators/main.py:420
+#: operators/main.py:492
+msgid "Up"
+msgstr "上"
+
+#: ui/panel.py:156
+msgid "X"
+msgstr "X"
+
+#: ui/panel.py:125
+msgid "X (Driveable)"
+msgstr "X（可驱动）"
+
+#: operators/main.py:16
+msgid "X Value"
+msgstr "X 值"
+
+#: ui/properties.py:29
+msgid "X-Axis"
+msgstr "X 轴"
+
+#: ui/panel.py:157
+msgid "Y"
+msgstr "Y"
+
+#: ui/panel.py:126
+msgid "Y (Driveable)"
+msgstr "Y（可驱动）"
+
+#: operators/main.py:17
+msgid "Y Value"
+msgstr "Y 值"
+
+#: ui/properties.py:30
+msgid "Y-Axis"
+msgstr "Y 轴"
+
+#: operators/main.py:522
+msgctxt "Operator"
+msgid "Add Global Preset"
+msgstr "添加全局预设"
+
+#: ui/panel.py:20
+msgctxt "Operator"
+msgid "Add Group"
+msgstr "添加组"
+
+#: ui/panel.py:44
+msgctxt "Operator"
+msgid "Add Mapping"
+msgstr "添加映射"
+
+#: ui/panel.py:45
+msgctxt "Operator"
+msgid "Add a new ShapeKey mapping to the current group"
+msgstr "为当前组添加新的形态键映射"
+
+#: operators/main.py:571
+msgctxt "Operator"
+msgid "Apply the saved joystick coordinates from this preset to ALL groups across ALL objects"
+msgstr "将此预设保存的摇杆坐标应用到所有物体的所有组"
+
+#: operators/main.py:436
+msgctxt "Operator"
+msgid "Automatically generate symmetrical ShapeKey mappings for .L / .R suffixes"
+msgstr "自动为 .L / .R 后缀生成对称的形态键映射"
+
+#: operators/main.py:90
+msgctxt "Operator"
+msgid "Bake Animation to Shape Keys"
+msgstr "将动画烘焙到形态键"
+
+#: operators/main.py:91
+msgctxt "Operator"
+msgid "Bake the animated joystick logic into raw Shape Key keyframes for exporting (e.g. FBX/GLTF)"
+msgstr "将摇杆动画逻辑烘焙为原始形态键关键帧以便导出（如 FBX/GLTF）"
+
+#: ui/panel.py:187
+msgctxt "Operator"
+msgid "Call"
+msgstr "调用"
+
+#: operators/main.py:570
+msgctxt "Operator"
+msgid "Call Global Preset"
+msgstr "调用全局预设"
+
+#: operators/main.py:597
+msgctxt "Operator"
+msgid "Call this preset and immediately insert keyframes for all affected shapekeys"
+msgstr "调用此预设并立即为所有受影响的形态键插入关键帧"
+
+#: ui/panel.py:85
+msgctxt "Operator"
+msgid "Clear Axis UI"
+msgstr "清除轴界面"
+
+#: ui/panel.py:103
+msgctxt "Operator"
+msgid "Create First Group To Setup!"
+msgstr "请先创建第一个组以进行设置！"
+
+#: operators/main.py:523
+msgctxt "Operator"
+msgid "Create a new Global Animation Preset"
+msgstr "创建新的全局动画预设"
+
+#: ui/panel.py:21
+msgctxt "Operator"
+msgid "Create a new ShapeKey Control Group for the active object"
+msgstr "为活动物体创建新的形态键控制组"
+
+#: operators/main.py:535
+msgctxt "Operator"
+msgid "Delete the currently selected Global Animation Preset"
+msgstr "删除当前选中的全局动画预设"
+
+#: ui/panel.py:33
+msgctxt "Operator"
+msgid "Delete the currently selected ShapeKey Control Group"
+msgstr "删除当前选中的形态键控制组"
+
+#: operators/main.py:12
+msgctxt "Operator"
+msgid "Edit X and Y Values"
+msgstr "编辑 X 和 Y 值"
+
+#: operators/main.py:142
+msgctxt "Operator"
+msgid "Export Group Settings"
+msgstr "导出组设置"
+
+#: ui/panel.py:130
+msgctxt "Operator"
+msgid "Export JSON"
+msgstr "导出 JSON"
+
+#: operators/main.py:143
+msgctxt "Operator"
+msgid "Export the current ShapeKey Group's mappings to a JSON file"
+msgstr "将当前形态键组的映射导出到 JSON 文件"
+
+#: operators/main.py:177
+msgctxt "Operator"
+msgid "Import Group Settings"
+msgstr "导入组设置"
+
+#: ui/panel.py:129
+msgctxt "Operator"
+msgid "Import JSON"
+msgstr "导入 JSON"
+
+#: operators/main.py:178
+msgctxt "Operator"
+msgid "Import ShapeKey Group mappings from a JSON file"
+msgstr "从 JSON 文件导入形态键组映射"
+
+#: operators/main.py:596
+msgctxt "Operator"
+msgid "Insert Keyframe for Global Preset"
+msgstr "为全局预设插入关键帧"
+
+#: operators/main.py:76
+msgctxt "Operator"
+msgid "Insert keyframes for the current group's joystick handle at the current frame"
+msgstr "在当前帧为当前组的摇杆控制柄插入关键帧"
+
+#: ui/panel.py:188
+msgctxt "Operator"
+msgid "Key"
+msgstr "插入关键帧"
+
+#: ui/panel.py:120
+msgctxt "Operator"
+msgid "Key Handle  [I]"
+msgstr "为控制柄插入关键帧  [I]"
+
+#: operators/main.py:75
+msgctxt "Operator"
+msgid "Keyframe Handle"
+msgstr "为控制柄插入关键帧"
+
+#: operators/main.py:13
+msgctxt "Operator"
+msgid "Manually input exact X and Y coordinates for the current group's joystick"
+msgstr "手动输入当前组摇杆的精确 X 和 Y 坐标"
+
+#: operators/main.py:435
+msgctxt "Operator"
+msgid "Mirror Mappings"
+msgstr "镜像映射"
+
+#: operators/main.py:489
+msgctxt "Operator"
+msgid "Move Group"
+msgstr "移动组"
+
+#: operators/main.py:417
+msgctxt "Operator"
+msgid "Move Mapping"
+msgstr "移动映射"
+
+#: operators/main.py:506
+msgctxt "Operator"
+msgid "Move Preset"
+msgstr "移动预设"
+
+#: operators/main.py:507
+msgctxt "Operator"
+msgid "Move the selected Global Animation Preset up or down in the list"
+msgstr "在列表中上移或下移选中的全局动画预设"
+
+#: operators/main.py:490
+msgctxt "Operator"
+msgid "Move the selected ShapeKey Group up or down in the list"
+msgstr "在列表中上移或下移选中的形态键组"
+
+#: operators/main.py:418
+msgctxt "Operator"
+msgid "Move the selected ShapeKey mapping up or down in the list"
+msgstr "在列表中上移或下移选中的形态键映射"
+
+#: operators/main.py:534
+msgctxt "Operator"
+msgid "Remove Global Preset"
+msgstr "移除全局预设"
+
+#: ui/panel.py:32
+msgctxt "Operator"
+msgid "Remove Group"
+msgstr "移除组"
+
+#: ui/panel.py:57
+msgctxt "Operator"
+msgid "Remove Mapping"
+msgstr "移除映射"
+
+#: ui/panel.py:58
+msgctxt "Operator"
+msgid "Remove the currently selected ShapeKey mapping from the group"
+msgstr "从组中移除当前选中的形态键映射"
+
+#: ui/panel.py:90
+msgctxt "Operator"
+msgid "Reset"
+msgstr "重置"
+
+#: operators/main.py:58
+msgctxt "Operator"
+msgid "Reset ALL joystick handles across EVERY group and EVERY object back to center (0.0, 0.0)"
+msgstr "将所有组和所有物体的全部摇杆手柄重置回中心 (0.0, 0.0)"
+
+#: ui/panel.py:91
+msgctxt "Operator"
+msgid "Reset All"
+msgstr "全部重置"
+
+#: operators/main.py:57
+msgctxt "Operator"
+msgid "Reset All Handles"
+msgstr "重置所有手柄"
+
+#: ui/panel.py:92
+msgctxt "Operator"
+msgid "Reset HUD"
+msgstr "重置 HUD"
+
+#: operators/main.py:42
+#: ui/panel.py:119
+msgctxt "Operator"
+msgid "Reset Handle"
+msgstr "重置手柄"
+
+#: operators/main.py:219
+msgctxt "Operator"
+msgid "Reset Modal HUD"
+msgstr "重置模态 HUD"
+
+#: operators/main.py:220
+msgctxt "Operator"
+msgid "Reset the Axis UI position to default if it goes out of screen"
+msgstr "当轴 UI 位置超出屏幕时，将其重置为默认位置"
+
+#: operators/main.py:43
+msgctxt "Operator"
+msgid "Reset the joystick handle of the active group to center (0.0, 0.0)"
+msgstr "将活动组的摇杆手柄重置回中心 (0.0, 0.0)"
+
+#: ui/panel.py:186
+msgctxt "Operator"
+msgid "Set"
+msgstr "设置"
+
+#: operators/main.py:548
+msgctxt "Operator"
+msgid "Set Global Preset"
+msgstr "设置全局预设"
+
+#: operators/main.py:549
+msgctxt "Operator"
+msgid "Snapshot current joystick coordinates of ALL groups across ALL objects into this preset"
+msgstr "将所有物体的所有组的当前摇杆坐标快照到此预设"
+
+#: ui/panel.py:87
+msgctxt "Operator"
+msgid "Start Axis UI"
+msgstr "启动轴 UI"
+
+#: operators/main.py:234
+msgctxt "Operator"
+msgid "Start or Stop the interactive 2D HUD Axis Controller in the 3D Viewport"
+msgstr "在 3D 视口中启动或停止交互式 2D HUD 轴控制器"
+
+#: operators/main.py:233
+msgctxt "Operator"
+msgid "Toggle Axis UI"
+msgstr "切换轴 UI"

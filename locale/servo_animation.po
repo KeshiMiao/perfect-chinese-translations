@@ -1,0 +1,340 @@
+# perfect-chinese: 1
+# id: servo_animation
+# kind: addon
+# module: bl_ext.blender_org.servo_animation
+# name: Servo Animation
+# name_zh: 舵机动画
+# translator: KeshiMiao
+# category: Animation
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: ops/json_export.py:26
+msgid "1 Space"
+msgstr "1 个空格"
+
+#: ops/json_export.py:27
+msgid "2 Spaces"
+msgstr "2 个空格"
+
+#: ops/json_export.py:28
+msgid "3 Spaces"
+msgstr "3 个空格"
+
+#: ops/json_export.py:29
+msgid "4 Spaces"
+msgstr "4 个空格"
+
+#: ops/arduino_export.py:22
+msgid "Add scene namespace"
+msgstr "添加场景命名空间"
+
+#: ui/bone_panel.py:87
+msgid "Angle:"
+msgstr "角度："
+
+#: props/wm_property_group.py:30
+msgid "Baud Rate"
+msgstr "波特率"
+
+#: ops/calibrate_servo.py:100
+msgid "Changes move servo immediately"
+msgstr "更改后立即移动舵机"
+
+#: props/bone_property_group.py:98
+msgid "Euler Rotation Axis"
+msgstr "欧拉旋转轴"
+
+#: ui/menu_panel.py:27
+msgid "Export"
+msgstr "导出"
+
+#: ui/bone_panel.py:85
+msgid "Frame:"
+msgstr "帧："
+
+#: props/wm_property_group.py:39
+msgid "Host"
+msgstr "主机"
+
+#: ops/json_export.py:22
+msgid "Indent"
+msgstr "缩进"
+
+#: ui/menu_panel.py:22
+msgid "Live Mode"
+msgstr "实时模式"
+
+#: props/bone_property_group.py:42
+msgid "Max Position"
+msgstr "最大位置"
+
+#: ops/calibrate_servo.py:36
+msgid "Max position"
+msgstr "最大位置"
+
+#: props/wm_property_group.py:22
+msgid "Method"
+msgstr "方法"
+
+#: props/bone_property_group.py:34
+msgid "Min Position"
+msgstr "最小位置"
+
+#: ops/calibrate_servo.py:35
+msgid "Min position"
+msgstr "最小位置"
+
+#: props/bone_property_group.py:79
+msgid "Multiplier"
+msgstr "乘数"
+
+#: props/bone_property_group.py:79
+msgid "Multiplier to increase or decrease the rotation to adjust the intensity within a specific build"
+msgstr "增大或减小旋转以调整特定构建内强度的乘数"
+
+#: props/bone_property_group.py:60
+msgid "Neutral Angle"
+msgstr "中位角度"
+
+#: ops/json_export.py:25
+msgid "No indent"
+msgstr "不缩进"
+
+#: props/wm_property_group.py:49
+msgid "Path"
+msgstr "路径"
+
+#: ops/stop_live_mode.py:17
+msgid "Please check your setup and start the live mode again."
+msgstr "请检查您的设置并重新启动实时模式。"
+
+#: props/wm_property_group.py:26
+#: props/wm_property_group.py:43
+msgid "Port"
+msgstr "端口"
+
+#: props/wm_property_group.py:53
+msgid "Position Jump Handling"
+msgstr "位置跳变处理"
+
+#: ui/bone_panel.py:80
+msgid "Position is out of range"
+msgstr "位置超出范围"
+
+#: ops/calibrate_servo.py:32
+msgid "Position type"
+msgstr "位置类型"
+
+#: ops/calibrate_servo.py:42
+#: ops/calibrate_servo.py:49
+msgid "Position value"
+msgstr "位置值"
+
+#: ui/bone_panel.py:86
+msgid "Position value:"
+msgstr "位置值："
+
+#: props/bone_property_group.py:23
+msgid "Provide Servo Settings"
+msgstr "提供舵机设置"
+
+#: props/bone_property_group.py:23
+msgid "Provide servo settings for this bone"
+msgstr "为此骨骼提供舵机设置"
+
+#: props/bone_property_group.py:71
+msgid "Reverse Direction"
+msgstr "反转方向"
+
+#: props/bone_property_group.py:91
+msgid "Rotation Range"
+msgstr "旋转范围"
+
+#: ui/menu_panel.py:11
+msgid "Servo Animation"
+msgstr "舵机动画"
+
+#: props/bone_property_group.py:27
+msgid "Servo ID"
+msgstr "舵机 ID"
+
+#: ui/bone_panel.py:68
+msgid "Servo ID is not unique"
+msgstr "舵机 ID 不唯一"
+
+#: ui/bone_panel.py:9
+msgid "Servo Settings"
+msgstr "舵机设置"
+
+#: ops/base_export.py:14
+msgid "Skip positions which haven't changed since the last frame"
+msgstr "跳过自上一帧以来未变化的位置"
+
+#: ops/base_export.py:14
+msgid "Skip unchanged positions"
+msgstr "跳过未变化的位置"
+
+#: props/wm_property_group.py:53
+msgid "Slowly move the servos to their new position when the position difference exceeds the threshold"
+msgstr "当位置差超过阈值时，缓慢将舵机移动到新位置"
+
+#: props/bone_property_group.py:91
+msgid "The manufactured rotation range of the servo in degrees (typically 180)"
+msgstr "舵机的出厂旋转范围，单位为度（通常为 180）"
+
+#: ops/calibrate_servo.py:49
+#: props/bone_property_group.py:42
+msgid "The maximum position value before the servo physically stops moving"
+msgstr "舵机物理停止移动前的最大位置值"
+
+#: props/bone_property_group.py:50
+msgid "The maximum value change between frames which is also used for frame jump handling in live mode"
+msgstr "帧间最大变化值，也用于实时模式中的帧跳变处理"
+
+#: ops/calibrate_servo.py:42
+#: props/bone_property_group.py:34
+msgid "The minimum position value before the servo physically stops moving"
+msgstr "舵机物理停止移动前的最小位置值"
+
+#: props/bone_property_group.py:60
+msgid "The neutral angle of the servo in degrees (typically half the rotation range) which resembles the bone's position in the first frame"
+msgstr "舵机的中位角度，单位为度（通常为旋转范围的一半），对应骨骼在第一帧中的位置"
+
+#: props/bone_property_group.py:27
+msgid "The unique servo ID which is also used for sending live commands"
+msgstr "唯一的舵机 ID，也用于发送实时命令"
+
+#: props/bone_property_group.py:50
+msgid "Threshold"
+msgstr "阈值"
+
+#: ops/start_live_mode.py:63
+#: ops/stop_live_mode.py:39
+msgid "Unknown live mode method"
+msgstr "未知的实时模式方法"
+
+#: ops/arduino_export.py:22
+msgid "Use the current scene name to wrap the position arrays and variables in a namespace"
+msgstr "使用当前场景名称将位置数组和变量包装到命名空间中"
+
+#: props/bone_property_group.py:71
+msgid "Whether the applied rotation should be reversed when converting to position value which might be necessary to reflect the servo's positioning within a specific build"
+msgstr "转换为位置值时是否反转所应用的旋转，这在特定构建中可能需要用来反映舵机的位置"
+
+#: props/bone_property_group.py:102
+msgid "X"
+msgstr "X"
+
+#: props/bone_property_group.py:102
+msgid "X Euler rotation axis"
+msgstr "X 欧拉旋转轴"
+
+#: props/bone_property_group.py:103
+msgid "Y"
+msgstr "Y"
+
+#: props/bone_property_group.py:103
+msgid "Y Euler rotation axis"
+msgstr "Y 欧拉旋转轴"
+
+#: props/bone_property_group.py:104
+msgid "Z"
+msgstr "Z"
+
+#: props/bone_property_group.py:104
+msgid "Z Euler rotation axis"
+msgstr "Z 欧拉旋转轴"
+
+#: ui/bone_panel.py:91
+msgid "°"
+msgstr "°"
+
+#: ui/menu_panel.py:28
+msgctxt "Operator"
+msgid "Arduino (.h)"
+msgstr "Arduino (.h)"
+
+#: ui/menu_panel.py:30
+msgctxt "Operator"
+msgid "Binary (.bin)"
+msgstr "二进制 (.bin)"
+
+#: ops/calibrate_servo.py:28
+msgctxt "Operator"
+msgid "Calibrate servo"
+msgstr "校准舵机"
+
+#: ops/calibrate_servo.py:29
+msgctxt "Operator"
+msgid "Calibrate servo during live mode by setting the min and max position values"
+msgstr "在实时模式下通过设置最小和最大位置值来校准舵机"
+
+#: ui/menu_panel.py:41
+msgctxt "Operator"
+msgid "Connect"
+msgstr "连接"
+
+#: ui/menu_panel.py:38
+msgctxt "Operator"
+msgid "Disconnect"
+msgstr "断开连接"
+
+#: ui/menu_panel.py:29
+msgctxt "Operator"
+msgid "JSON (.json)"
+msgstr "JSON (.json)"
+
+#: ops/start_live_mode.py:11
+msgctxt "Operator"
+msgid "Live Mode"
+msgstr "实时模式"
+
+#: ops/json_export.py:12
+msgctxt "Operator"
+msgid "Save a JSON file with servo position values of the active scene"
+msgstr "保存包含活动场景舵机位置值的 JSON 文件"
+
+#: ops/binary_export.py:11
+msgctxt "Operator"
+msgid "Save a binary file with servo position values of the active scene"
+msgstr "保存包含活动场景舵机位置值的二进制文件"
+
+#: ops/arduino_export.py:11
+msgctxt "Operator"
+msgid "Save an Arduino header file with servo position values of the active scene"
+msgstr "保存包含活动场景舵机位置值的 Arduino 头文件"
+
+#: ops/binary_export.py:10
+msgctxt "Operator"
+msgid "Servo Animation (.bin)"
+msgstr "舵机动画 (.bin)"
+
+#: ops/arduino_export.py:10
+msgctxt "Operator"
+msgid "Servo Animation (.h)"
+msgstr "舵机动画 (.h)"
+
+#: ops/json_export.py:11
+msgctxt "Operator"
+msgid "Servo Animation (.json)"
+msgstr "舵机动画 (.json)"
+
+#: ops/start_live_mode.py:12
+msgctxt "Operator"
+msgid "Start sending live position values via a live mode connection"
+msgstr "通过实时模式连接开始发送实时位置值"
+
+#: ops/stop_live_mode.py:9
+msgctxt "Operator"
+msgid "Stop Live Mode"
+msgstr "停止实时模式"
+
+#: ops/stop_live_mode.py:10
+msgctxt "Operator"
+msgid "Stop sending live position values via the current live mode connection"
+msgstr "通过当前实时模式连接停止发送实时位置值"

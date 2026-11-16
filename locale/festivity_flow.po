@@ -1,0 +1,495 @@
+# perfect-chinese: 1
+# id: festivity_flow
+# kind: addon
+# module: bl_ext.blender_org.festivity_flow
+# name: Flow
+# name_zh: 波浪骨骼动画
+# translator: KeshiMiao
+# category: Animation
+# supported_versions: >=4.4.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: operators.py:429
+#: operators.py:492
+msgid "Add"
+msgstr "添加"
+
+#: operators.py:429
+msgid "Add value to current offset"
+msgstr "将数值加到当前偏移"
+
+#: operators.py:492
+msgid "Add value to current roll"
+msgstr "将数值加到当前滚转"
+
+#: properties.py:241
+msgid "Adjust (frames)"
+msgstr "调整（帧）"
+
+#: ui.py:74
+#: ui.py:102
+msgid "Amplitude"
+msgstr "振幅"
+
+#: properties.py:355
+msgid "Amplitude factor at the chain root (0 = no motion at root, 1 = full motion everywhere)"
+msgstr "链根部的振幅系数（0 = 根部无运动，1 = 处处完全运动）"
+
+#: properties.py:211
+msgid "Any settings change for the active chain will apply to all selected bone chains"
+msgstr "对活动链的任何设置更改都会应用到所有选中的骨骼链"
+
+#: operators.py:370
+msgid "Apply offset to main axis wave"
+msgstr "将偏移应用到主轴波"
+
+#: operators.py:371
+msgid "Apply offset to sub axis wave"
+msgstr "将偏移应用到副轴波"
+
+#: operators.py:439
+msgid "Apply to main axis offset"
+msgstr "应用到主轴偏移"
+
+#: operators.py:440
+msgid "Apply to sub axis offset"
+msgstr "应用到副轴偏移"
+
+#: properties.py:211
+msgid "Auto Update All Selected Chains"
+msgstr "自动更新所有选中的链"
+
+#: operators.py:93
+msgid "Bake the physics to keyframes in a new action instead of overwriting the existing action"
+msgstr "将物理烘焙为新动作中的关键帧，而不是覆盖现有动作"
+
+#: operators.py:93
+msgid "Bake to New Action"
+msgstr "烘焙到新动作"
+
+#: ui.py:164
+msgid "Batch Offset"
+msgstr "批量偏移"
+
+#: properties.py:455
+msgid "Constant angular offset in the main sway direction (positive = toward arrow, negative = against arrow)"
+msgstr "主摆动方向上的恒定角度偏移（正值 = 朝向箭头，负值 = 反向箭头）"
+
+#: properties.py:465
+msgid "Constant angular offset in the sub sway direction (positive = toward arrow, negative = against arrow)"
+msgstr "副摆动方向上的恒定角度偏移（正值 = 朝向箭头，负值 = 反向箭头）"
+
+#: operators.py:110
+msgid "Could not find any sway bone chains to bake"
+msgstr "找不到可烘焙的摆动骨骼链"
+
+#: properties.py:249
+msgid "Degrees to add, subtract, or set the y-axis roll of selected sway chains"
+msgstr "用于对选中摆动链的 Y 轴滚转进行增加、减去或设置的度数"
+
+#: ui.py:80
+#: ui.py:108
+msgid "Delay"
+msgstr "延迟"
+
+#: ui.py:24
+#: ui.py:28
+msgid "Flow"
+msgstr "Flow"
+
+#: properties.py:435
+msgid "Frame offset for the Z-axis wave starting position"
+msgstr "Z 轴波起始位置的帧偏移"
+
+#: properties.py:345
+msgid "Frame offset for the chain's starting position in the wave cycle"
+msgstr "链在波周期中起始位置的帧偏移"
+
+#: ui.py:77
+#: ui.py:105
+msgid "Frequency (Hz)"
+msgstr "频率（Hz）"
+
+#: properties.py:365
+msgid "Global speed multiplier for the sway animation"
+msgstr "摆动动画的全局速度倍数"
+
+#: properties.py:233
+msgid "Increment (frames)"
+msgstr "增量（帧）"
+
+#: properties.py:233
+msgid "Incremental offset value applied to each selected chain when using batch offset"
+msgstr "使用批量偏移时，对每个选中链应用的递增偏移值"
+
+#: properties.py:217
+msgid "Keep Existing Settings"
+msgstr "保留现有设置"
+
+#: properties.py:325
+msgid "Lag between the ends of the chain as a percentage of one wave cycle, creating the cascading sway effect. Independent of frequency, speed, fps and chain length (100% = the trailing bone is a full cycle behind the leading one)"
+msgstr "链两端之间以一个波周期的百分比表示的滞后，产生级联摆动效果。与频率、速度、fps 和链长无关（100% = 末端骨骼比前端骨骼滞后一个完整周期）"
+
+#: properties.py:415
+msgid "Lag between the ends of the chain for the Z-axis wave cascade, as a percentage of one sub wave cycle. Independent of frequency, speed, fps and chain length"
+msgstr "Z 轴波级联中链两端之间的滞后，以一个副波周期的百分比表示。与频率、速度、fps 和链长无关"
+
+#: ui.py:96
+#: ui.py:124
+msgid "Limit +"
+msgstr "上限 +"
+
+#: ui.py:95
+#: ui.py:123
+msgid "Limit -"
+msgstr "下限 -"
+
+#: operators.py:370
+#: operators.py:439
+msgid "Main Axis"
+msgstr "主轴"
+
+#: properties.py:475
+msgid "Maximum positive rotation (in rest space) on the main sway axis. Acts like a soft collision wall."
+msgstr "主摆动轴上最大正向旋转（在静置空间中）。作用类似于柔性碰撞墙。"
+
+#: properties.py:489
+msgid "Maximum positive rotation (in rest space) on the sub sway axis."
+msgstr "副摆动轴上最大正向旋转（在静置空间中）。"
+
+#: properties.py:305
+msgid "Maximum rotation angle in degrees for the main axis sway wave"
+msgstr "主轴摆动波的最大旋转角度（度）"
+
+#: properties.py:395
+msgid "Maximum rotation angle in degrees for the sub axis sway wave"
+msgstr "副轴摆动波的最大旋转角度（度）"
+
+#: properties.py:482
+msgid "Minimum (most negative) rotation (in rest space) on the main sway axis."
+msgstr "主摆动轴上的最小（最负）旋转（在静置空间中）。"
+
+#: properties.py:496
+msgid "Minimum (most negative) rotation (in rest space) on the sub sway axis."
+msgstr "副摆动轴上的最小（最负）旋转（在静置空间中）。"
+
+#: operators.py:367
+#: operators.py:426
+msgid "Mode"
+msgstr "模式"
+
+#: operators.py:280
+msgid "Name"
+msgstr "名称"
+
+#: operators.py:280
+msgid "Name of the preset"
+msgstr "预设的名称"
+
+#: operators.py:317
+msgid "No active sway bone"
+msgstr "没有活动摆动骨骼"
+
+#: operators.py:390
+#: operators.py:454
+msgid "No sway chains selected"
+msgstr "未选择摆动链"
+
+#: operators.py:305
+#: operators.py:307
+msgid "No user presets found"
+msgstr "未找到用户预设"
+
+#: operators.py:24
+msgid "None of the bones you selected can be used. The bones need a parent to work"
+msgstr "你选中的骨骼均不可用。骨骼需要父级才能工作"
+
+#: properties.py:405
+msgid "Number of complete Z-axis wave cycles per second"
+msgstr "每秒 Z 轴完整波周期数"
+
+#: properties.py:315
+msgid "Number of complete wave cycles per second"
+msgstr "每秒完整波周期数"
+
+#: ui.py:86
+#: ui.py:114
+msgid "Offset (frames)"
+msgstr "偏移（帧）"
+
+#: properties.py:385
+msgid "Per-bone phase offset in degrees to curve the sway direction along the chain"
+msgstr "以度为单位的逐骨骼相位偏移，用于沿链弯曲摆动方向"
+
+#: ui.py:158
+msgid "Random Seed"
+msgstr "随机种子"
+
+#: properties.py:375
+msgid "Random time offset for this chain to prevent all chains from syncing"
+msgstr "此链的随机时间偏移，防止所有链同步"
+
+#: ui.py:83
+#: ui.py:111
+msgid "Reverse Delay Direction"
+msgstr "反转延迟方向"
+
+#: properties.py:427
+msgid "Reverse the sub-axis wave cascade direction so the root leads and the tip trails"
+msgstr "反转副轴波级联方向，使根部领先、末端跟随"
+
+#: properties.py:337
+msgid "Reverse the wave cascade direction so the root leads and the tip trails"
+msgstr "反转波级联方向，使根部领先、末端跟随"
+
+#: properties.py:249
+msgid "Roll Adjust"
+msgstr "滚转调整"
+
+#: ui.py:89
+#: ui.py:117
+msgid "Root Falloff"
+msgstr "根部衰减"
+
+#: operators.py:298
+msgid "Select a preset to remove:"
+msgstr "选择要移除的预设："
+
+#: operators.py:431
+#: operators.py:493
+msgid "Set"
+msgstr "设置"
+
+#: operators.py:431
+msgid "Set offset to the given value"
+msgstr "将偏移设为给定值"
+
+#: operators.py:493
+msgid "Set roll to the given value"
+msgstr "将滚转设为给定值"
+
+#: properties.py:257
+msgid "Show Sway Direction"
+msgstr "显示摆动方向"
+
+#: properties.py:257
+msgid "Show arrows in the 3D viewport indicating the sway direction for each bone"
+msgstr "在 3D 视口中显示箭头，指示每根骨骼的摆动方向"
+
+#: ui.py:161
+msgid "Speed Multiplier"
+msgstr "速度倍数"
+
+#: operators.py:371
+#: operators.py:440
+msgid "Sub Axis"
+msgstr "副轴"
+
+#: operators.py:430
+msgid "Subtract"
+msgstr "减去"
+
+#: operators.py:430
+msgid "Subtract value from current offset"
+msgstr "从当前偏移中减去数值"
+
+#: operators.py:266
+#: ui.py:66
+msgid "Sway Presets"
+msgstr "摆动预设"
+
+#: operators.py:436
+msgid "Target"
+msgstr "目标"
+
+#: operators.py:484
+msgid "Value"
+msgstr "值"
+
+#: properties.py:241
+msgid "Value to add, subtract, or set the offset of selected sway chains"
+msgstr "用于对选中摆动链的偏移进行增加、减去或设置的数值"
+
+#: properties.py:217
+msgid "When readding a physics type to bones it will keep the previously set settings. Otherwise it will load in the active preset"
+msgstr "重新为骨骼添加物理类型时将保留之前设置的设置。否则将加载活动预设"
+
+#: ui.py:92
+#: ui.py:120
+msgid "Wind Bias"
+msgstr "风向偏置"
+
+#: ui.py:133
+msgid "Y-Axis Roll"
+msgstr "Y 轴滚转"
+
+#: properties.py:445
+msgid "Z-axis wave amplitude factor at the chain root"
+msgstr "链根部的 Z 轴波振幅系数"
+
+#: ui.py:174
+msgctxt "Operator"
+msgid "+ Main"
+msgstr "+ 主轴"
+
+#: ui.py:140
+msgctxt "Operator"
+msgid "+ Roll"
+msgstr "+ 滚转"
+
+#: ui.py:185
+msgctxt "Operator"
+msgid "+ Sub"
+msgstr "+ 副轴"
+
+#: ui.py:152
+msgctxt "Operator"
+msgid "+{:.0f}°"
+msgstr "+{:.0f}°"
+
+#: ui.py:152
+msgctxt "Operator"
+msgid "+{:.1f}°"
+msgstr "+{:.1f}°"
+
+#: ui.py:177
+msgctxt "Operator"
+msgid "- Main"
+msgstr "- 主"
+
+#: ui.py:143
+msgctxt "Operator"
+msgid "- Roll"
+msgstr "- 滚转"
+
+#: ui.py:188
+msgctxt "Operator"
+msgid "- Sub"
+msgstr "- 副"
+
+#: ui.py:154
+msgctxt "Operator"
+msgid "-{:.0f}°"
+msgstr "-{:.0f}°"
+
+#: ui.py:154
+msgctxt "Operator"
+msgid "-{:.1f}°"
+msgstr "-{:.1f}°"
+
+#: ui.py:180
+msgctxt "Operator"
+msgid "= Main"
+msgstr "= 主"
+
+#: ui.py:146
+msgctxt "Operator"
+msgid "= Roll"
+msgstr "= 滚转"
+
+#: ui.py:191
+msgctxt "Operator"
+msgid "= Sub"
+msgstr "= 副"
+
+#: operators.py:15
+#: ui.py:47
+msgctxt "Operator"
+msgid "Add Sway Chain"
+msgstr "添加摇摆链"
+
+#: operators.py:276
+msgctxt "Operator"
+msgid "Add Sway Preset"
+msgstr "添加摇摆预设"
+
+#: operators.py:482
+msgctxt "Operator"
+msgid "Add or set the y-axis sway roll of selected sway chains"
+msgstr "添加或设置所选摇摆链的 Y 轴摇摆滚转"
+
+#: operators.py:424
+msgctxt "Operator"
+msgid "Add, subtract, or set the offset of selected sway chains"
+msgstr "添加、减去或设置所选摇摆链的偏移"
+
+#: operators.py:17
+msgctxt "Operator"
+msgid "Adds procedural sine-wave sway animation to selected bone chains using drivers"
+msgstr "使用驱动器为所选骨骼链添加程序化正弦波摇摆动画"
+
+#: operators.py:422
+msgctxt "Operator"
+msgid "Adjust Offset"
+msgstr "调整偏移"
+
+#: operators.py:480
+msgctxt "Operator"
+msgid "Adjust Roll"
+msgstr "调整滚转"
+
+#: operators.py:365
+msgctxt "Operator"
+msgid "Apply an incremental offset to all selected sway chains"
+msgstr "对所有所选摇摆链应用增量偏移"
+
+#: operators.py:91
+msgctxt "Operator"
+msgid "Bake sway driver animation to keyframes on rotation channels"
+msgstr "将摇摆驱动器动画烘焙到旋转通道的关键帧"
+
+#: operators.py:89
+#: ui.py:60
+msgctxt "Operator"
+msgid "Bake to Keyframes"
+msgstr "烘焙为关键帧"
+
+#: operators.py:363
+msgctxt "Operator"
+msgid "Batch Offset"
+msgstr "批量偏移"
+
+#: ui.py:137
+msgctxt "Operator"
+msgid "Flip 180°"
+msgstr "翻转 180°"
+
+#: operators.py:524
+msgctxt "Operator"
+msgid "Flip Roll"
+msgstr "翻转滚转"
+
+#: operators.py:526
+msgctxt "Operator"
+msgid "Flip the y-axis sway roll by 180 degrees (subtract if positive, add if negative)"
+msgstr "将 Y 轴摇摆滚转翻转 180 度（正值时减去，负值时加上）"
+
+#: ui.py:165
+msgctxt "Operator"
+msgid "Main"
+msgstr "主"
+
+#: operators.py:347
+msgctxt "Operator"
+msgid "Remove Preset"
+msgstr "移除预设"
+
+#: operators.py:66
+#: ui.py:56
+msgctxt "Operator"
+msgid "Remove Sway Chain"
+msgstr "移除摇摆链"
+
+#: operators.py:68
+msgctxt "Operator"
+msgid "Removes sway chain drivers and properties from selected bones"
+msgstr "从所选骨骼移除摇摆链驱动器和属性"
+
+#: ui.py:167
+msgctxt "Operator"
+msgid "Sub"
+msgstr "副"

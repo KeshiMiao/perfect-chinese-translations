@@ -1,0 +1,96 @@
+# perfect-chinese: 1
+# id: cut_sym
+# kind: addon
+# module: bl_ext.blender_org.cut_sym
+# name: Cut Sym
+# name_zh: 对称切割
+# translator: KeshiMiao
+# category: Mesh
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: cut_sym/operators/edit.py:13
+msgid "Axis"
+msgstr "轴"
+
+#: cut_sym/preferences.py:8
+#: cut_sym/operators/edit.py:13
+msgid "Axis along which to cut the model"
+msgstr "切割模型所沿的轴"
+
+#: cut_sym/preferences.py:8
+msgid "Cut Axis"
+msgstr "切割轴"
+
+#: cut_sym/ui.py:16
+#: cut_sym/ui.py:33
+msgid "Cut Sym"
+msgstr "对称切割"
+
+#: cut_sym/preferences.py:12
+#: cut_sym/operators/edit.py:17
+msgid "Cut along the X axis (left / right)"
+msgstr "沿 X 轴切割（左 / 右）"
+
+#: cut_sym/preferences.py:13
+#: cut_sym/operators/edit.py:18
+msgid "Cut along the Y axis (front / back)"
+msgstr "沿 Y 轴切割（前 / 后）"
+
+#: cut_sym/preferences.py:14
+#: cut_sym/operators/edit.py:19
+msgid "Cut along the Z axis (top / bottom)"
+msgstr "沿 Z 轴切割（上 / 下）"
+
+#: cut_sym/operators/edit.py:23
+msgid "Cut at Origin"
+msgstr "在原点切割"
+
+#: cut_sym/operators/edit.py:23
+msgid "Cut at the world origin (0,0,0) instead of the bounding-box centre. Use this for models that are already centred at the origin"
+msgstr "在世界原点 (0,0,0) 处切割，而不是包围盒中心。适用于已居中于原点的模型"
+
+#: cut_sym/preferences.py:18
+msgid "Fill Cut"
+msgstr "填充切割面"
+
+#: cut_sym/preferences.py:18
+msgid "Fill the open face on each half after splitting"
+msgstr "分割后填充每一半上的开口面"
+
+#: cut_sym/operators/edit.py:49
+msgid "Multiple selected objects. Only the active one will be split"
+msgstr "选中了多个物体。仅活动物体会被分割"
+
+#: cut_sym/operators/edit.py:45
+msgid "Select one mesh object to split"
+msgstr "请选择一个要分割的网格物体"
+
+#: cut_sym/preferences.py:12
+#: cut_sym/operators/edit.py:17
+msgid "X"
+msgstr "X"
+
+#: cut_sym/preferences.py:13
+#: cut_sym/operators/edit.py:18
+msgid "Y"
+msgstr "Y"
+
+#: cut_sym/preferences.py:14
+#: cut_sym/operators/edit.py:19
+msgid "Z"
+msgstr "Z"
+
+#: cut_sym/operators/edit.py:9
+msgctxt "Operator"
+msgid "Split Model"
+msgstr "分割模型"
+
+#: cut_sym/operators/edit.py:10
+msgctxt "Operator"
+msgid "Split the active mesh symmetrically in the middle into two separate objects"
+msgstr "将活动网格从中间对称分割为两个独立物体"

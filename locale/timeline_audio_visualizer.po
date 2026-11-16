@@ -1,0 +1,619 @@
+# perfect-chinese: 1
+# id: timeline_audio_visualizer
+# kind: addon
+# module: bl_ext.blender_org.timeline_audio_visualizer
+# name: Timeline Audio Visualizer
+# name_zh: 时间轴音频可视化
+# translator: KeshiMiao
+# category: Animation
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:1324
+msgid "%d audio source(s) ready"
+msgstr "%d 个音频源已就绪"
+
+#: __init__.py:1326
+msgid "Add a sound strip or Speaker, then refresh"
+msgstr "添加声音片段或扬声器，然后刷新"
+
+#: __init__.py:1012
+msgid "Advanced"
+msgstr "高级"
+
+#: __init__.py:41
+msgid "All"
+msgstr "全部"
+
+#: __init__.py:1058
+msgid "Anchor"
+msgstr "锚点"
+
+#: __init__.py:1011
+#: __init__.py:1377
+msgid "Appearance"
+msgstr "外观"
+
+#: __init__.py:82
+msgid "Assign a stable palette to each strip or speaker name"
+msgstr "为每个片段或扬声器名称分配固定色板"
+
+#: __init__.py:47
+msgid "Audible Strips"
+msgstr "可听片段"
+
+#: __init__.py:1355
+msgid "Audio Source"
+msgstr "音频源"
+
+#: __init__.py:1489
+msgid "Audio source used to draw waveform overlays."
+msgstr "用于绘制波形叠加层的音频源。"
+
+#: __init__.py:1016
+msgid "Auto Update"
+msgstr "自动更新"
+
+#: __init__.py:28
+msgid "Balanced detail"
+msgstr "均衡细节"
+
+#: __init__.py:25
+msgid "Blocky"
+msgstr "块状"
+
+#: __init__.py:63
+msgid "Bottom"
+msgstr "底部"
+
+#: __init__.py:62
+msgid "Center"
+msgstr "居中"
+
+#: __init__.py:80
+msgid "Choose a ready-made pair of colors"
+msgstr "选择预设的配色对"
+
+#: __init__.py:1015
+msgid "Choose which editor's height and position to edit in this popover"
+msgstr "选择在此弹出面板中编辑哪个编辑器的高度和位置"
+
+#: __init__.py:1503
+msgid "Clamp sequencer waveforms to the scene start/end range."
+msgstr "将序列编辑器波形限制在场景起始/结束范围内。"
+
+#: __init__.py:1391
+msgid "Color"
+msgstr "颜色"
+
+#: __init__.py:995
+msgid "Colors"
+msgstr "颜色"
+
+#: __init__.py:53
+msgid "Current vertical peak bars"
+msgstr "当前垂直峰值条"
+
+#: __init__.py:81
+msgid "Custom"
+msgstr "自定义"
+
+#: __init__.py:1298
+msgid "Decoder order: Blender AUD, WAV fallback."
+msgstr "解码器顺序：Blender AUD，WAV 回退。"
+
+#: __init__.py:1270
+msgid "Default overlay color. All colors, including black, are respected."
+msgstr "默认叠加颜色。所有颜色（包括黑色）都会被采用。"
+
+#: __init__.py:1412
+msgid "Detail"
+msgstr "细节"
+
+#: __init__.py:103
+#: __init__.py:1008
+msgid "Dope Sheet / Timeline"
+msgstr "摄影表 / 时间线"
+
+#: __init__.py:1015
+#: __init__.py:1102
+msgid "Editor"
+msgstr "编辑器"
+
+#: __init__.py:1460
+msgid "Enable waveform overlay in animation editors."
+msgstr "在动画编辑器中启用波形叠加层。"
+
+#: __init__.py:1005
+msgid "Enlarge quiet files to their highest peak. Leave off to preserve original headroom. Does not change playback"
+msgstr "将音量较小的文件放大至其最高峰值。关闭则保留原始余量。不影响播放"
+
+#: __init__.py:25
+msgid "Fastest, coarse waveform"
+msgstr "最快，粗糙波形"
+
+#: __init__.py:998
+msgid "Fill / RMS"
+msgstr "填充 / RMS"
+
+#: __init__.py:1000
+msgid "Fill Opacity"
+msgstr "填充不透明度"
+
+#: __init__.py:54
+msgid "Filled mirrored waveform, close to DAW clip waveforms"
+msgstr "填充的镜像波形，接近 DAW 片段波形"
+
+#: __init__.py:104
+#: __init__.py:1009
+msgid "Graph Editor"
+msgstr "曲线编辑器"
+
+#: __init__.py:1013
+msgid "Graph Editor Waveform"
+msgstr "曲线编辑器波形"
+
+#: __init__.py:1055
+msgid "Height"
+msgstr "高度"
+
+#: __init__.py:29
+msgid "High"
+msgstr "高"
+
+#: __init__.py:29
+msgid "Highest detail, slower refresh"
+msgstr "最高细节，刷新较慢"
+
+#: __init__.py:1496
+msgid "How sequencer sound strips are selected."
+msgstr "序列编辑器声音片段的选取方式。"
+
+#: __init__.py:1345
+msgid "Layout For"
+msgstr "布局对象"
+
+#: __init__.py:1362
+msgid "Limit to Scene Range"
+msgstr "限制在场景范围"
+
+#: __init__.py:1001
+msgid "Line / Bar Width"
+msgstr "线条 / 条宽"
+
+#: __init__.py:1395
+msgid "Line Width"
+msgstr "线宽"
+
+#: __init__.py:27
+msgid "Low"
+msgstr "低"
+
+#: __init__.py:27
+msgid "Low detail"
+msgstr "低细节"
+
+#: __init__.py:28
+msgid "Medium"
+msgstr "中"
+
+#: __init__.py:105
+#: __init__.py:1010
+msgid "NLA Editor"
+msgstr "NLA 编辑器"
+
+#: __init__.py:1014
+msgid "NLA Editor Waveform"
+msgstr "NLA 编辑器波形"
+
+#: __init__.py:1005
+msgid "Normalize per File"
+msgstr "按文件归一化"
+
+#: __init__.py:1322
+msgid "Off - enable here or with the header checkbox"
+msgstr "关闭 - 可在此处或使用标题栏复选框启用"
+
+#: __init__.py:1061
+msgid "Offset (px)"
+msgstr "偏移（像素）"
+
+#: __init__.py:58
+msgid "One-sided filled waveform for compact timing reads"
+msgstr "单侧填充波形，便于紧凑读取时序"
+
+#: __init__.py:999
+msgid "Opacity"
+msgstr "不透明度"
+
+#: __init__.py:1112
+msgid "Open the chosen editor to fit its waveform"
+msgstr "打开所选编辑器以适配其波形"
+
+#: __init__.py:55
+msgid "Outline"
+msgstr "轮廓"
+
+#: __init__.py:1007
+msgid "Outline on Fill"
+msgstr "填充上的轮廓"
+
+#: __init__.py:80
+#: __init__.py:996
+msgid "Palette"
+msgstr "色板"
+
+#: __init__.py:57
+msgid "Peak + RMS"
+msgstr "峰值 + RMS"
+
+#: __init__.py:57
+msgid "Peak bars with a smoothed loudness envelope"
+msgstr "峰值条加平滑响度包络"
+
+#: __init__.py:53
+msgid "Peaks / Bars"
+msgstr "峰值 / 条"
+
+#: __init__.py:997
+msgid "Peaks / Outline"
+msgstr "峰值 / 轮廓"
+
+#: __init__.py:82
+msgid "Per Source"
+msgstr "按源"
+
+#: __init__.py:62
+msgid "Place the waveform in the vertical center of the editor"
+msgstr "将波形置于编辑器的垂直居中位置"
+
+#: __init__.py:63
+msgid "Place the waveform near the bottom of the editor"
+msgstr "将波形置于编辑器底部附近"
+
+#: __init__.py:64
+msgid "Place the waveform near the top of the editor"
+msgstr "将波形置于编辑器顶部附近"
+
+#: __init__.py:58
+msgid "Positive Fill"
+msgstr "正向填充"
+
+#: __init__.py:79
+msgid "Preferences"
+msgstr "偏好设置"
+
+#: __init__.py:1287
+msgid "Print status and decoder messages to the console."
+msgstr "将状态和解码器消息输出到控制台。"
+
+#: __init__.py:1406
+msgid "Quiet files are enlarged for display"
+msgstr "音量较小的文件已放大显示"
+
+#: __init__.py:56
+msgid "RMS Envelope"
+msgstr "RMS 包络"
+
+#: __init__.py:1004
+msgid "RMS Smoothing"
+msgstr "RMS 平滑"
+
+#: __init__.py:1002
+msgid "RMS Width"
+msgstr "RMS 宽度"
+
+#: __init__.py:1466
+msgid "Scale waveform height without changing audio volume. Type a value above the slider range for more height; peaks outside the editor are cropped."
+msgstr "缩放波形高度而不改变音频音量。输入超过滑块范围的值可获得更大高度；超出编辑器的峰值会被裁剪。"
+
+#: __init__.py:1503
+msgid "Scene Range"
+msgstr "场景范围"
+
+#: __init__.py:48
+msgid "Selected Strips"
+msgstr "选中片段"
+
+#: __init__.py:42
+msgid "Sequencer Only"
+msgstr "仅序列编辑器"
+
+#: __init__.py:81
+msgid "Set independent peak and fill / RMS colors"
+msgstr "分别设置峰值与填充 / RMS 颜色"
+
+#: __init__.py:1006
+msgid "Show Baseline"
+msgstr "显示基线"
+
+#: __init__.py:1372
+msgid "Show In"
+msgstr "显示于"
+
+#: __init__.py:1315
+#: __init__.py:1460
+msgid "Show Waveforms"
+msgstr "显示波形"
+
+#: __init__.py:49
+msgid "Show only sound strips listed in this panel, including muted strips"
+msgstr "仅显示此面板中列出的声音片段，包括已静音的片段"
+
+#: __init__.py:1013
+msgid "Show or hide TAV in Graph Editors only. Enabling also starts TAV and loads audio"
+msgstr "仅在曲线编辑器中显示或隐藏 TAV。启用时同时启动 TAV 并加载音频"
+
+#: __init__.py:1014
+msgid "Show or hide TAV in NLA Editors only. Enabling also starts TAV and loads audio"
+msgstr "仅在 NLA 编辑器中显示或隐藏 TAV。启用时同时启动 TAV 并加载音频"
+
+#: __init__.py:48
+msgid "Show selected sound strips, including muted strips"
+msgstr "显示选中的声音片段，包括已静音的片段"
+
+#: __init__.py:47
+msgid "Show unmuted audible sound strips"
+msgstr "显示未静音的可听声音片段"
+
+#: __init__.py:1004
+msgid "Smooth the sample-level RMS envelope over nearby displayed points"
+msgstr "在附近显示的采样点上平滑采样级 RMS 包络"
+
+#: __init__.py:56
+msgid "Smoothed loudness envelope"
+msgstr "平滑后的响度包络"
+
+#: __init__.py:54
+msgid "Solid Mirror"
+msgstr "实心镜像"
+
+#: __init__.py:1302
+msgid "Sound"
+msgstr "声音"
+
+#: __init__.py:49
+msgid "Sound In List"
+msgstr "列表中的声音"
+
+#: __init__.py:1489
+msgid "Source"
+msgstr "来源"
+
+#: __init__.py:43
+msgid "Speaker Only"
+msgstr "仅扬声器"
+
+#: __init__.py:1152
+msgid "Strip"
+msgstr "片段"
+
+#: __init__.py:1496
+msgid "Strip Filter"
+msgstr "片段过滤"
+
+#: __init__.py:1361
+msgid "Strips"
+msgstr "片段"
+
+#: __init__.py:1342
+msgid "Style"
+msgstr "样式"
+
+#: __init__.py:882
+msgid "TAV"
+msgstr "TAV"
+
+#: __init__.py:55
+msgid "Thin mirrored waveform outline"
+msgstr "细线镜像波形轮廓"
+
+#: __init__.py:1303
+msgid "Timeline Audio Visualizer"
+msgstr "时间轴音频可视化器"
+
+#: __init__.py:64
+msgid "Top"
+msgstr "顶部"
+
+#: __init__.py:1016
+msgid "Update strip positions, trims, selection, mute and volume automatically. Cached audio is reused"
+msgstr "自动更新片段位置、修剪、选择、静音和音量。复用已缓存的音频"
+
+#: __init__.py:1358
+msgid "Use"
+msgstr "使用"
+
+#: __init__.py:41
+msgid "Use sequencer strips and speakers"
+msgstr "使用序列编辑器片段和扬声器"
+
+#: __init__.py:42
+msgid "Use sound strips from the video sequencer"
+msgstr "使用视频序列编辑器中的声音片段"
+
+#: __init__.py:43
+msgid "Use speaker objects in the scene"
+msgstr "使用场景中的扬声器物体"
+
+#: __init__.py:79
+msgid "Use the existing extension preference color"
+msgstr "使用现有扩展偏好设置中的颜色"
+
+#: __init__.py:1287
+msgid "Verbose"
+msgstr "详细输出"
+
+#: __init__.py:1482
+msgid "Vertical Anchor"
+msgstr "垂直锚点"
+
+#: __init__.py:1003
+msgid "Vertical Shift (px)"
+msgstr "垂直偏移（像素）"
+
+#: __init__.py:1058
+msgid "Vertical anchor for this editor type only"
+msgstr "仅用于此编辑器类型的垂直锚点"
+
+#: __init__.py:1061
+msgid "Vertical offset in pixels for this editor type only"
+msgstr "仅用于此编辑器类型的垂直偏移（像素）"
+
+#: __init__.py:1482
+msgid "Vertical placement of the waveform overlay."
+msgstr "波形叠加层的垂直位置。"
+
+#: __init__.py:26
+msgid "Very Low"
+msgstr "极低"
+
+#: __init__.py:26
+msgid "Very low detail"
+msgstr "极低细节"
+
+#: __init__.py:1055
+msgid "Visual scale for this editor type only. Type larger values for unlimited height; playback volume is unchanged"
+msgstr "仅用于此编辑器类型的视觉缩放。输入更大的值可获得无限高度；播放音量不变"
+
+#: __init__.py:1475
+msgid "Visual style used for the waveform overlay."
+msgstr "用于波形叠加层的视觉样式。"
+
+#: __init__.py:1339
+msgid "Waveform"
+msgstr "波形"
+
+#: __init__.py:1270
+msgid "Waveform Color"
+msgstr "波形颜色"
+
+#: __init__.py:1280
+msgid "Waveform Detail"
+msgstr "波形细节"
+
+#: __init__.py:1466
+msgid "Waveform Height"
+msgstr "波形高度"
+
+#: __init__.py:1475
+msgid "Waveform View"
+msgstr "波形视图"
+
+#: __init__.py:103
+msgid "Waveform layout in Dope Sheets and Timelines"
+msgstr "摄影表和时间轴中的波形布局"
+
+#: __init__.py:104
+msgid "Waveform layout in Graph Editors"
+msgstr "曲线编辑器中的波形布局"
+
+#: __init__.py:105
+msgid "Waveform layout in NLA Editors"
+msgstr "NLA 编辑器中的波形布局"
+
+#: __init__.py:1280
+msgid "Waveform resolution. Higher values take more time and memory."
+msgstr "波形分辨率。数值越高，耗时和内存占用越大。"
+
+#: __init__.py:1219
+#: __init__.py:1367
+msgctxt "Operator"
+msgid "Add Selected"
+msgstr "添加选中项"
+
+#: __init__.py:1220
+msgctxt "Operator"
+msgid "Add selected sound strips to the Sound In List filter"
+msgstr "将选中的声音片段添加到「列表中的声音」过滤器"
+
+#: __init__.py:1256
+msgctxt "Operator"
+msgid "Clear"
+msgstr "清除"
+
+#: __init__.py:1205
+msgctxt "Operator"
+msgid "Clear Cache"
+msgstr "清除缓存"
+
+#: __init__.py:1206
+msgctxt "Operator"
+msgid "Clear generated waveform data. Auto Update rebuilds visible sources on the next check"
+msgstr "清除生成的波形数据。自动更新会在下次检查时重建可见来源"
+
+#: __init__.py:1257
+msgctxt "Operator"
+msgid "Clear the Sound In List filter"
+msgstr "清除「列表中的声音」过滤器"
+
+#: __init__.py:1177
+msgctxt "Operator"
+msgid "Disable the waveform overlay"
+msgstr "禁用波形叠加层"
+
+#: __init__.py:1163
+msgctxt "Operator"
+msgid "Enable the waveform overlay and refresh audio waveforms"
+msgstr "启用波形叠加层并刷新音频波形"
+
+#: __init__.py:1098
+#: __init__.py:1350
+msgctxt "Operator"
+msgid "Fit Height"
+msgstr "适配高度"
+
+#: __init__.py:1099
+msgctxt "Operator"
+msgid "Fit the visible audio into the chosen editor, keeping headroom and resetting that editor's vertical offset"
+msgstr "将可见音频适配到所选编辑器，保留余量并重置该编辑器的垂直偏移"
+
+#: __init__.py:1176
+msgctxt "Operator"
+msgid "Off"
+msgstr "关闭"
+
+#: __init__.py:1162
+msgctxt "Operator"
+msgid "On / Refresh"
+msgstr "开启 / 刷新"
+
+#: __init__.py:1187
+msgctxt "Operator"
+msgid "Refresh"
+msgstr "刷新"
+
+#: __init__.py:1316
+msgctxt "Operator"
+msgid "Refresh Audio"
+msgstr "刷新音频"
+
+#: __init__.py:1188
+msgctxt "Operator"
+msgid "Regenerate waveform data from current audio sources"
+msgstr "从当前音频源重新生成波形数据"
+
+#: __init__.py:1240
+msgctxt "Operator"
+msgid "Remove"
+msgstr "移除"
+
+#: __init__.py:1241
+msgctxt "Operator"
+msgid "Remove selected strip from the Sound In List filter"
+msgstr "从「列表中的声音」过滤器中移除选中片段"
+
+#: __init__.py:1132
+#: __init__.py:1418
+msgctxt "Operator"
+msgid "Reset Appearance"
+msgstr "重置外观"
+
+#: __init__.py:1133
+msgctxt "Operator"
+msgid "Reset visual settings in this scene; keep audio sources and strip list"
+msgstr "重置此场景中的视觉设置；保留音频源和片段列表"

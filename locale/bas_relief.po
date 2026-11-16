@@ -1,0 +1,237 @@
+# perfect-chinese: 1
+# id: bas_relief
+# kind: addon
+# module: bl_ext.blender_org.bas_relief
+# name: Bas Relief
+# name_zh: 浅浮雕
+# translator: KeshiMiao
+# category: Compositing
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: bas_relief/bas_relief_tools.py:503
+msgid "Adjust Displace"
+msgstr "调整置换"
+
+#: bas_relief/bas_relief_tools.py:808
+msgid "Asset loaded. Open Compositing editor and add 'Depth_Map_Comp_GN'."
+msgstr "资产已加载。打开合成编辑器并添加“Depth_Map_Comp_GN”。"
+
+#: bas_relief/bas_relief_tools.py:160
+#: bas_relief/bas_relief_tools.py:164
+msgid "Bas Relief"
+msgstr "浅浮雕"
+
+#: bas_relief/bas_relief_tools.py:366
+msgid "Bas Relief created successfully"
+msgstr "浅浮雕创建成功"
+
+#: bas_relief/bas_relief_tools.py:526
+msgid "Cannot display modifier properties"
+msgstr "无法显示修改器属性"
+
+#: bas_relief/bas_relief_tools.py:912
+msgid "Depth Map pipeline ready — Compositor opened"
+msgstr "深度图流程已就绪 — 合成器已打开"
+
+#: bas_relief/bas_relief_tools.py:771
+msgid "Depth compositor node group not found in asset file"
+msgstr "资产文件中未找到深度合成节点组"
+
+#: bas_relief/bas_relief_tools.py:244
+msgid "Displace Mid Level"
+msgstr "置换中间值"
+
+#: bas_relief/bas_relief_tools.py:239
+msgid "Displace Strength"
+msgstr "置换强度"
+
+#: bas_relief/bas_relief_tools.py:189
+msgid "Display"
+msgstr "显示"
+
+#: bas_relief/bas_relief_tools.py:780
+msgid "Failed to access loaded depth node group"
+msgstr "无法访问已加载的深度节点组"
+
+#: bas_relief/bas_relief_tools.py:533
+msgid "Height Map Render"
+msgstr "高度图渲染"
+
+#: bas_relief/bas_relief_tools.py:523
+msgid "Height Map Strength"
+msgstr "高度图强度"
+
+#: bas_relief/bas_relief_tools.py:942
+msgid "Image Path"
+msgstr "图像路径"
+
+#: bas_relief/bas_relief_tools.py:420
+msgid "Invalid file path"
+msgstr "文件路径无效"
+
+#: bas_relief/bas_relief_tools.py:524
+msgid "Mid Level"
+msgstr "中间值"
+
+#: bas_relief/bas_relief_tools.py:244
+msgid "Mid level of the Displace modifier"
+msgstr "置换修改器的中间值"
+
+#: bas_relief/bas_relief_tools.py:468
+msgid "Midlevel"
+msgstr "中间值"
+
+#: bas_relief/bas_relief_tools.py:567
+msgid "No HeightMap available"
+msgstr "无可用高度图"
+
+#: bas_relief/bas_relief_tools.py:585
+#: bas_relief/bas_relief_tools.py:599
+msgid "No Render Result available to save."
+msgstr "无可用渲染结果可保存。"
+
+#: bas_relief/bas_relief_tools.py:603
+msgid "No filepath chosen."
+msgstr "未选择文件路径。"
+
+#: bas_relief/bas_relief_tools.py:268
+msgid "No valid image selected. Use Import Image first."
+msgstr "未选择有效图像。请先使用“导入图像”。"
+
+#: bas_relief/bas_relief_tools.py:670
+msgid "Nothing to delete"
+msgstr "没有可删除的内容"
+
+#: bas_relief/bas_relief_tools.py:224
+msgid "Number of cuts applied to the base plane. Higher = more detail but slower"
+msgstr "应用于基础平面的切割次数。数值越高，细节越多，但速度越慢"
+
+#: bas_relief/bas_relief_tools.py:942
+msgid "Shared image path used by Bas Relief and Height Map Generator"
+msgstr "浅浮雕和高度图生成器共用的图像路径"
+
+#: bas_relief/bas_relief_tools.py:467
+msgid "Strength"
+msgstr "强度"
+
+#: bas_relief/bas_relief_tools.py:239
+msgid "Strength of the Displace modifier"
+msgstr "置换修改器的强度"
+
+#: bas_relief/bas_relief_tools.py:224
+msgid "Subdivision Cuts"
+msgstr "细分切割"
+
+#: bas_relief/bas_relief_tools.py:234
+msgid "Subdivision Surface modifier render level"
+msgstr "细分曲面修改器的渲染层级"
+
+#: bas_relief/bas_relief_tools.py:229
+msgid "Subdivision Surface modifier viewport level"
+msgstr "细分曲面修改器的视图层级"
+
+#: bas_relief/bas_relief_tools.py:229
+msgid "Subsurf Levels"
+msgstr "细分层级"
+
+#: bas_relief/bas_relief_tools.py:234
+msgid "Subsurf Render Levels"
+msgstr "细分渲染层级"
+
+#: bas_relief/bas_relief_tools.py:190
+msgid "View"
+msgstr "视图"
+
+#: bas_relief/bas_relief_tools.py:461
+msgctxt "Operator"
+msgid "Adjust Displace"
+msgstr "调整置换"
+
+#: bas_relief/bas_relief_tools.py:181
+#: bas_relief/bas_relief_tools.py:680
+msgctxt "Operator"
+msgid "Create Depth Map"
+msgstr "创建深度图"
+
+#: bas_relief/bas_relief_tools.py:177
+#: bas_relief/bas_relief_tools.py:375
+msgctxt "Operator"
+msgid "Create Texture"
+msgstr "创建纹理"
+
+#: bas_relief/bas_relief_tools.py:218
+msgctxt "Operator"
+msgid "Create a displaced plane from the imported image. Adjust subdivision cuts and subdivision levels before running to control mesh density vs. performance"
+msgstr "从导入的图像创建置换平面。运行前调整细分切割和细分层级，以控制网格密度与性能的平衡"
+
+#: bas_relief/bas_relief_tools.py:376
+msgctxt "Operator"
+msgid "Create a new PBR material with an Image Texture node and assign it to the active object"
+msgstr "创建带有图像纹理节点的新 PBR 材质，并将其指定给活动物体"
+
+#: bas_relief/bas_relief_tools.py:629
+msgctxt "Operator"
+msgid "Delete Depth Map"
+msgstr "删除深度图"
+
+#: bas_relief/bas_relief_tools.py:462
+msgctxt "Operator"
+msgid "Fine-tune the Displace modifier strength and mid level"
+msgstr "微调置换修改器的强度和中间值"
+
+#: bas_relief/bas_relief_tools.py:173
+#: bas_relief/bas_relief_tools.py:200
+msgctxt "Operator"
+msgid "Import Image"
+msgstr "导入图像"
+
+#: bas_relief/bas_relief_tools.py:412
+msgctxt "Operator"
+msgid "Load an image file and assign it to the active material's Image Texture node"
+msgstr "加载图像文件并将其指定给活动材质的图像纹理节点"
+
+#: bas_relief/bas_relief_tools.py:411
+msgctxt "Operator"
+msgid "Open Texture Image"
+msgstr "打开纹理图像"
+
+#: bas_relief/bas_relief_tools.py:630
+msgctxt "Operator"
+msgid "Remove everything created by Create Depth Map: the Suzanne_Auto preview mesh, the Camera_Auto, and the compositor node tree of the current scene"
+msgstr "移除由“创建深度图”生成的所有内容：Suzanne_Auto 预览网格、Camera_Auto 以及当前场景的合成器节点树"
+
+#: bas_relief/bas_relief_tools.py:183
+msgctxt "Operator"
+msgid "Render"
+msgstr "渲染"
+
+#: bas_relief/bas_relief_tools.py:174
+#: bas_relief/bas_relief_tools.py:217
+msgctxt "Operator"
+msgid "Run Bas Relief"
+msgstr "运行浅浮雕"
+
+#: bas_relief/bas_relief_tools.py:575
+msgctxt "Operator"
+msgid "Save Render Image"
+msgstr "保存渲染图像"
+
+#: bas_relief/bas_relief_tools.py:576
+msgctxt "Operator"
+msgid "Save the current Render Result to a file"
+msgstr "将当前渲染结果保存到文件"
+
+#: bas_relief/bas_relief_tools.py:201
+msgctxt "Operator"
+msgid "Select the image to use for Bas Relief displacement"
+msgstr "选择用于浅浮雕置换的图像"
+
+#: bas_relief/bas_relief_tools.py:681
+msgctxt "Operator"
+msgid "Set up the compositor Depth Map pipeline. Creates a Suzanne preview mesh and orthographic camera if absent, loads the compositor node group, and wires the Z-pass into the depth group"
+msgstr "设置合成器深度图流程。若不存在，则创建 Suzanne 预览网格和正交相机，加载合成器节点组，并将 Z 通道接入深度组"
