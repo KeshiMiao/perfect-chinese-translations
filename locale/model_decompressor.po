@@ -1,0 +1,63 @@
+# perfect-chinese: 1
+# id: model_decompressor
+# kind: addon
+# module: bl_ext.blender_org.model_decompressor
+# name: Compressed GLB Importer
+# name_zh: 压缩模型导入
+# translator: KeshiMiao
+# category: Import-Export
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: decompress_meshotp/operators/import_model.py:102
+msgid "Decoding Meshopt geometry..."
+msgstr "正在解码 Meshopt 几何体..."
+
+#: decompress_meshotp/operators/import_model.py:34
+msgid "Dequantize/dedup: standalone Python"
+msgstr "反量化/去重：独立 Python"
+
+#: decompress_meshotp/operators/import_model.py:52
+#: decompress_meshotp/operators/import_model.py:104
+msgid "Dequantizing and de-duplicating geometry..."
+msgstr "正在反量化和去重几何体..."
+
+#: decompress_meshotp/operators/import_model.py:78
+msgid "Draco-compressed files are not supported by this addon."
+msgstr "此插件不支持 Draco 压缩的文件。"
+
+#: decompress_meshotp/operators/import_model.py:35
+msgid "Draco: unsupported"
+msgstr "Draco：不支持"
+
+#: decompress_meshotp/preferences.py:7
+#: decompress_meshotp/operators/import_model.py:24
+msgid "Keep Temporary GLB"
+msgstr "保留临时 GLB"
+
+#: decompress_meshotp/preferences.py:7
+msgid "Keep the normalized GLB generated during import"
+msgstr "保留导入时生成的规范化 GLB"
+
+#: decompress_meshotp/operators/import_model.py:33
+msgid "Meshopt decode: standalone Python"
+msgstr "Meshopt 解码：独立 Python"
+
+#: decompress_meshotp/operators/import_model.py:24
+msgid "Preserve the generated normalized GLB in the system temp directory"
+msgstr "将生成的规范化 GLB 保留在系统临时目录中"
+
+#: decompress_meshotp/operators/import_model.py:16
+msgctxt "Operator"
+msgid "Extend Blender's glTF import with Meshopt and quantized geometry support"
+msgstr "为 Blender 的 glTF 导入扩展 Meshopt 和量化几何体支持"
+
+#: decompress_meshotp/ui.py:2
+#: decompress_meshotp/operators/import_model.py:15
+msgctxt "Operator"
+msgid "glTF 2.0 (.glb/.gltf) With Meshopt"
+msgstr "glTF 2.0 (.glb/.gltf)（支持 Meshopt）"

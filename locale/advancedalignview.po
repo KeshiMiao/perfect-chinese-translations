@@ -1,0 +1,722 @@
+# perfect-chinese: 1
+# id: advancedalignview
+# kind: addon
+# module: bl_ext.blender_org.AdvancedAlignView
+# name: Advanced Align View
+# name_zh: 高级视图对齐
+# translator: KeshiMiao
+# category: Modeling
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: Advanced Align View/preferences.py:267
+msgid "About Advanced Edge Align"
+msgstr "关于 Advanced Edge Align"
+
+#: Advanced Align View/ops.py:1105
+msgid "Addon preferences not found"
+msgstr "未找到插件偏好设置"
+
+#: Advanced Align View/ui.py:351
+msgid "Advanced Align View"
+msgstr "Advanced Align View"
+
+#: Advanced Align View/ui.py:196
+msgid "Advanced Edge Align directly and skip this dialog)."
+msgstr "直接使用 Advanced Edge Align 并跳过此对话框）。"
+
+#: Advanced Align View/ops.py:1218
+msgid "AdvancedAlignView: previous object_align (internal)"
+msgstr "AdvancedAlignView：先前的 object_align（内部）"
+
+#: Advanced Align View/ui.py:334
+#: Advanced Align View/ui.py:543
+msgid "Align Mode"
+msgstr "对齐模式"
+
+#: Advanced Align View/ui.py:467
+msgid "Align View base class"
+msgstr "对齐视图基类"
+
+#: Advanced Align View/ui.py:503
+msgid "Align View to Cursor"
+msgstr "将视图对齐到游标"
+
+#: Advanced Align View/ui.py:496
+msgid "Align View to Custom"
+msgstr "将视图对齐到自定义"
+
+#: Advanced Align View/ui.py:511
+msgid "Align View to Selection"
+msgstr "将视图对齐到选中项"
+
+#: Advanced Align View/ops.py:947
+msgid "Align mode"
+msgstr "对齐模式"
+
+#: Advanced Align View/ops.py:79
+msgid "Align to 3D cursor orientation"
+msgstr "对齐到 3D 游标方向"
+
+#: Advanced Align View/ops.py:943
+msgid "Align to cursor orientation"
+msgstr "对齐到游标方向"
+
+#: Advanced Align View/ops.py:942
+msgid "Align to custom orientation"
+msgstr "对齐到自定义方向"
+
+#: Advanced Align View/ops.py:78
+msgid "Align to custom transform orientation"
+msgstr "对齐到自定义变换方向"
+
+#: Advanced Align View/ops.py:80
+#: Advanced Align View/ops.py:944
+msgid "Align to selection orientation"
+msgstr "对齐到选中项方向"
+
+#: Advanced Align View/preferences.py:220
+msgid "Aligned View"
+msgstr "已对齐视图"
+
+#: Advanced Align View/preferences.py:124
+msgid "Aligned View Pie Menu"
+msgstr "已对齐视图饼菜单"
+
+#: Advanced Align View/preferences.py:285
+msgid "Aligned View Pie Menu:"
+msgstr "已对齐视图饼菜单："
+
+#: Advanced Align View/preferences.py:92
+msgid "Also apply 'Set orientation to View' when using Align to Custom. Warning: This will make subsequent Align to Custom operations not work until you reselect a custom orientation"
+msgstr "使用“对齐到自定义”时也应用“将方向设为视图”。警告：这会导致后续“对齐到自定义”操作失效，直到重新选择自定义方向"
+
+#: Advanced Align View/preferences.py:297
+msgid "Alt + LMB \"Exit\" = Confirm current angle and exit aligned view"
+msgstr "Alt + LMB“退出” = 确认当前角度并退出对齐视图"
+
+#: Advanced Align View/preferences.py:295
+msgid "Alt + LMB \"Roll +90°\" = Edge Roll (Edit Mesh, 1 edge)"
+msgstr "Alt + LMB“旋转 +90°” = 边旋转（编辑网格，1 条边）"
+
+#: Advanced Align View/preferences.py:296
+msgid "Alt + LMB \"Roll -90°\" = Snap to nearest canonical viewpoint"
+msgstr "Alt + LMB“旋转 -90°” = 吸附到最近的标准视角"
+
+#: Advanced Align View/preferences.py:294
+msgid "Alt + LMB any axis / Smart Align = Advanced Edge Align (Selection mode, Edit Mesh, 1 edge)"
+msgstr "Alt + LMB 任意轴 / 智能对齐 = Advanced Edge Align（选中项模式，编辑网格，1 条边）"
+
+#: Advanced Align View/preferences.py:131
+msgid "Always show the standard alignment pie menu, even when already in Aligned View"
+msgstr "始终显示标准对齐饼菜单，即使已处于对齐视图"
+
+#: Advanced Align View/ops.py:833
+msgid "Angle"
+msgstr "角度"
+
+#: Advanced Align View/preferences.py:62
+msgid "Animate view transitions"
+msgstr "视图过渡动画"
+
+#: Advanced Align View/preferences.py:78
+msgid "Automatically sets the transform orientation to 'View' after aligning the viewport"
+msgstr "对齐视图后自动将变换方向设为“视图”"
+
+#: Advanced Align View/ui.py:476
+msgid "BACK"
+msgstr "后视图"
+
+#: Advanced Align View/ui.py:474
+msgid "BOTTOM"
+msgstr "底视图"
+
+#: Advanced Align View/ops.py:53
+msgid "Back view"
+msgstr "后视图"
+
+#: Advanced Align View/ops.py:610
+msgid "Bottom"
+msgstr "底视图"
+
+#: Advanced Align View/ops.py:51
+msgid "Bottom view"
+msgstr "底视图"
+
+#: Advanced Align View/preferences.py:270
+#: Advanced Align View/ui.py:187
+msgid "Built for precise edge alignment in hard-surface workflows like"
+msgstr "专为硬表面工作流中的精确边对齐而打造，例如"
+
+#: Advanced Align View/ops.py:983
+msgid "Cannot create orientation from current selection"
+msgstr "无法从当前选中项创建方向"
+
+#: Advanced Align View/preferences.py:193
+msgid "Category"
+msgstr "类别"
+
+#: Advanced Align View/preferences.py:164
+msgid "Color and opacity of the Aligned View overlay label"
+msgstr "已对齐视图叠加标签的颜色和不透明度"
+
+#: Advanced Align View/ops.py:79
+msgid "Cursor"
+msgstr "游标"
+
+#: Advanced Align View/ops.py:78
+msgid "Custom"
+msgstr "自定义"
+
+#: Advanced Align View/preferences.py:49
+#: Advanced Align View/preferences.py:321
+msgid "Debug"
+msgstr "调试"
+
+#: Advanced Align View/preferences.py:131
+msgid "Default"
+msgstr "默认"
+
+#: Advanced Align View/preferences.py:100
+msgid "Default mode for Primary pie menu"
+msgstr "主饼菜单的默认模式"
+
+#: Advanced Align View/preferences.py:282
+msgid "Default mode:"
+msgstr "默认模式："
+
+#: Advanced Align View/ops.py:607
+msgid "Direction"
+msgstr "方向"
+
+#: Advanced Align View/preferences.py:148
+msgid "Display a persistent text label in the 3D viewport while in Aligned View. Shows e.g. Aligned View (Selection | Advanced Edge Align)"
+msgstr "在已对齐视图中于 3D 视图显示常驻文本标签。例如显示：已对齐视图（选中项 | Advanced Edge Align）"
+
+#: Advanced Align View/ui.py:168
+msgid "Don't show this message again"
+msgstr "不再显示此消息"
+
+#: Advanced Align View/preferences.py:298
+msgid "Double Alt = Axis Snap (default keymap can be changed)"
+msgstr "连按两次 Alt = 轴吸附（可更改默认键位）"
+
+#: Advanced Align View/preferences.py:299
+msgid "Double Ctrl = Edge Roll (default keymap can be changed)"
+msgstr "连按两次 Ctrl = 边旋转（可更改默认键位）"
+
+#: Advanced Align View/ui.py:270
+msgid "Edge Roll requires Edit Mesh mode"
+msgstr "边旋转需要编辑网格模式"
+
+#: Advanced Align View/ops.py:892
+#: Advanced Align View/ui.py:282
+msgid "Edge Roll works in Orthographic View only"
+msgstr "边旋转仅适用于正交视图"
+
+#: Advanced Align View/ops.py:916
+#: Advanced Align View/ops.py:1156
+msgid "Edge is parallel to the view direction; cannot align"
+msgstr "边与视图方向平行，无法对齐"
+
+#: Advanced Align View/preferences.py:110
+msgid "Exit Align View"
+msgstr "退出对齐视图"
+
+#: Advanced Align View/preferences.py:252
+msgid "Exit Align View:"
+msgstr "退出对齐视图："
+
+#: Advanced Align View/ui.py:475
+msgid "FRONT"
+msgstr "前视图"
+
+#: Advanced Align View/preferences.py:155
+msgid "Font size of the Aligned View overlay label (includes the active align mode, e.g. Aligned View (Selection | Advanced Edge Align))"
+msgstr "已对齐视图叠加标签的字体大小（包含当前对齐模式，例如：已对齐视图（选中项 | Advanced Edge Align））"
+
+#: Advanced Align View/ops.py:617
+#: Advanced Align View/ops.py:839
+msgid "From canonical aligned angle"
+msgstr "从标准对齐角度开始"
+
+#: Advanced Align View/ops.py:52
+msgid "Front view"
+msgstr "前视图"
+
+#: Advanced Align View/preferences.py:46
+msgid "General"
+msgstr "常规"
+
+#: Advanced Align View/preferences.py:46
+msgid "General and Aligned View settings"
+msgstr "常规与已对齐视图设置"
+
+#: Advanced Align View/preferences.py:183
+msgid "Horizontal Position"
+msgstr "水平位置"
+
+#: Advanced Align View/preferences.py:183
+msgid "Horizontal position of the label (percentage from left of viewport)"
+msgstr "标签的水平位置（从视图左侧算起的百分比）"
+
+#: Advanced Align View/preferences.py:58
+msgid "How the viewport rotates when aligning or leaving aligned view"
+msgstr "对齐或退出对齐视图时视图的旋转方式"
+
+#: Advanced Align View/preferences.py:137
+msgid "How viewpoint buttons are labeled in the primary pie menu"
+msgstr "主饼菜单中视角按钮的标签方式"
+
+#: Advanced Align View/preferences.py:68
+msgid "How viewport roll is handled when aligning to specific viewpoints"
+msgstr "对齐到特定视角时如何处理视图旋转"
+
+#: Advanced Align View/preferences.py:73
+msgid "Ignore"
+msgstr "忽略"
+
+#: Advanced Align View/preferences.py:227
+msgid "In Aligned View"
+msgstr "在已对齐视图中"
+
+#: Advanced Align View/preferences.py:63
+msgid "Instant"
+msgstr "即时"
+
+#: Advanced Align View/ui.py:552
+msgid "Internal flag: when True, skip the Advanced Edge Align suggestion dialog for the rest of this Blender session"
+msgstr "内部标志：为 True 时，在本次 Blender 会话剩余时间内跳过 Advanced Edge Align 建议对话框"
+
+#: Advanced Align View/preferences.py:48
+msgid "Keyboard shortcut settings"
+msgstr "键盘快捷键设置"
+
+#: Advanced Align View/preferences.py:48
+msgid "Keymaps"
+msgstr "键位映射"
+
+#: Advanced Align View/ui.py:478
+msgid "LEFT"
+msgstr "左视图"
+
+#: Advanced Align View/preferences.py:142
+msgid "Label viewpoints as Top, Bottom, Front, Back, etc."
+msgstr "将视角标签显示为顶视图、底视图、前视图、后视图等"
+
+#: Advanced Align View/preferences.py:141
+msgid "Label viewpoints as X, Y, Z axis names"
+msgstr "将视角标签显示为 X、Y、Z 轴名称"
+
+#: Advanced Align View/preferences.py:137
+msgid "Labels"
+msgstr "标签"
+
+#: Advanced Align View/preferences.py:288
+msgid "Labels:"
+msgstr "标签："
+
+#: Advanced Align View/preferences.py:117
+msgid "Leave aligned view as soon as you orbit the viewport"
+msgstr "旋转视图时立即退出对齐视图"
+
+#: Advanced Align View/ops.py:611
+msgid "Left"
+msgstr "左视图"
+
+#: Advanced Align View/ops.py:55
+msgid "Left view"
+msgstr "左视图"
+
+#: Advanced Align View/preferences.py:114
+msgid "Manually (recommended)"
+msgstr "手动（推荐）"
+
+#: Advanced Align View/ops.py:56
+msgid "Nearest view"
+msgstr "最近视角"
+
+#: Advanced Align View/preferences.py:260
+msgid "Orthographic view will be forced until you manually exit Aligned View."
+msgstr "在手动退出对齐视图之前，将强制使用正交视图。"
+
+#: Advanced Align View/preferences.py:305
+msgid "Overlays"
+msgstr "叠加层"
+
+#: Advanced Align View/ui.py:548
+msgid "Pending Edge Viewpoint"
+msgstr "待定边视点"
+
+#: Advanced Align View/preferences.py:213
+msgid "Performances"
+msgstr "性能"
+
+#: Advanced Align View/preferences.py:280
+msgid "Pie Menu"
+msgstr "饼菜单"
+
+#: Advanced Align View/ops.py:610
+msgid "Pivot view 90° toward bottom"
+msgstr "将视图向下旋转 90°"
+
+#: Advanced Align View/ops.py:611
+msgid "Pivot view 90° toward left"
+msgstr "将视图向左旋转 90°"
+
+#: Advanced Align View/ops.py:612
+msgid "Pivot view 90° toward right"
+msgstr "将视图向右旋转 90°"
+
+#: Advanced Align View/ops.py:609
+msgid "Pivot view 90° toward top"
+msgstr "将视图向上旋转 90°"
+
+#: Advanced Align View/ops.py:950
+#: Advanced Align View/ops.py:1086
+msgid "Point of view"
+msgstr "视点"
+
+#: Advanced Align View/preferences.py:72
+msgid "Preserve up (recommended)"
+msgstr "保持向上（推荐）"
+
+#: Advanced Align View/preferences.py:72
+msgid "Preserve viewport up/down when aligning"
+msgstr "对齐时保持视图上下方向"
+
+#: Advanced Align View/preferences.py:275
+msgid "Press ALT+LMB any axis in the pie menu."
+msgstr "在饼菜单中按 ALT+左键单击任意轴。"
+
+#: Advanced Align View/ui.py:477
+msgid "RIGHT"
+msgstr "右"
+
+#: Advanced Align View/preferences.py:49
+msgid "Recovery operators (also available from the pie mode selector)"
+msgstr "恢复操作（也可从饼菜单模式选择器中使用）"
+
+#: Advanced Align View/ops.py:1218
+msgid "Recovery slot used by AdvancedAlignView to restore the 'New Objects Align' preference if Blender is closed while in Aligned View. Do not edit."
+msgstr "AdvancedAlignView 使用的恢复槽，用于在处于对齐视图时关闭 Blender 后恢复“新物体对齐”偏好设置。请勿编辑。"
+
+#: Advanced Align View/ops.py:612
+msgid "Right"
+msgstr "右"
+
+#: Advanced Align View/ops.py:54
+msgid "Right view"
+msgstr "右视图"
+
+#: Advanced Align View/ops.py:833
+msgid "Roll angle in radians"
+msgstr "滚动角度（弧度）"
+
+#: Advanced Align View/preferences.py:58
+msgid "Rotation"
+msgstr "旋转"
+
+#: Advanced Align View/preferences.py:215
+msgid "Rotation:"
+msgstr "旋转："
+
+#: Advanced Align View/ui.py:161
+msgid "Run Advanced Edge Align on the selected edge instead of the selection's orientation. Tip: Alt+LMB any axis in Selection mode to skip this dialog and trigger Advanced Edge Align directly"
+msgstr "对选中边运行高级边对齐，而不是使用所选内容的方向。提示：在选择模式下按 Alt+左键单击任意轴可跳过此对话框并直接触发高级边对齐"
+
+#: Advanced Align View/ops.py:80
+msgid "Selection"
+msgstr "选择"
+
+#: Advanced Align View/preferences.py:84
+msgid "Set 'New Objects > Align to' to View (Edit preferences) so newly added primitives are aligned to the View'. Restored when you leave aligned viewand does not change the Transform Orientation dropdown"
+msgstr "将“新建物体 > 对齐到”设置为视图（编辑偏好设置），使新增的基本体对齐到视图。离开对齐视图时恢复，并且不会更改“变换方向”下拉菜单"
+
+#: Advanced Align View/preferences.py:225
+msgid "Set Orientation to 'View':"
+msgstr "将方向设置为“视图”："
+
+#: Advanced Align View/preferences.py:92
+msgid "Set Transformation orientation to 'View' for 'Align to Custom' too"
+msgstr "为“对齐到自定义”也将变换方向设置为“视图”"
+
+#: Advanced Align View/preferences.py:148
+msgid "Show 'Aligned View' label in viewport"
+msgstr "在视图中显示“对齐视图”标签"
+
+#: Advanced Align View/preferences.py:141
+msgid "Show Axis"
+msgstr "显示轴"
+
+#: Advanced Align View/preferences.py:142
+msgid "Show Directions"
+msgstr "显示方向"
+
+#: Advanced Align View/preferences.py:128
+msgid "Show pivot/roll options (rotate view 90° up/down/left/right/roll angles) instead of the original pie menu when in Aligned View"
+msgstr "在对齐视图中显示旋转/滚动选项（将视图上/下/左/右旋转 90°/滚动角度），而不是原始饼菜单"
+
+#: Advanced Align View/ui.py:168
+msgid "Skip this dialog for the rest of the current Blender session and align in Selection mode automatically. Use Alt+LMB on any axis to trigger Advanced Edge Align when you need it"
+msgstr "在当前 Blender 会话剩余时间内跳过此对话框，并自动在选择模式下对齐。需要时按 Alt+左键单击任意轴以触发高级边对齐"
+
+#: Advanced Align View/preferences.py:62
+msgid "Smooth"
+msgstr "平滑"
+
+#: Advanced Align View/preferences.py:63
+msgid "Snap view instantly"
+msgstr "立即吸附视图"
+
+#: Advanced Align View/preferences.py:128
+msgid "Specific (recommended)"
+msgstr "特定（推荐）"
+
+#: Advanced Align View/preferences.py:114
+msgid "Stay in aligned view while orbiting; exit via Leave, toggle, or pie menu"
+msgstr "旋转视图时保持在对齐视图；通过离开、切换或饼菜单退出"
+
+#: Advanced Align View/ui.py:552
+msgid "Suppress Advanced Edge Align Dialog (session)"
+msgstr "抑制高级边对齐对话框（会话）"
+
+#: Advanced Align View/ui.py:473
+msgid "TOP"
+msgstr "上"
+
+#: Advanced Align View/preferences.py:164
+msgid "Text Color"
+msgstr "文本颜色"
+
+#: Advanced Align View/preferences.py:155
+msgid "Text Size"
+msgstr "文本大小"
+
+#: Advanced Align View/preferences.py:366
+msgid "These are shortcuts to Blender's built-in 'View Roll' operators"
+msgstr "这些是 Blender 内置“视图滚动”操作的快捷方式"
+
+#: Advanced Align View/ui.py:195
+msgid "Tip: Alt+LMB any axis in Selection mode to trigger"
+msgstr "提示：在选择模式下按 Alt+左键单击任意轴以触发"
+
+#: Advanced Align View/preferences.py:291
+msgid "Tips"
+msgstr "提示"
+
+#: Advanced Align View/preferences.py:232
+msgid "To new Objects"
+msgstr "到新物体"
+
+#: Advanced Align View/ops.py:609
+msgid "Top"
+msgstr "上"
+
+#: Advanced Align View/ops.py:50
+msgid "Top view"
+msgstr "顶视图"
+
+#: Advanced Align View/preferences.py:47
+msgid "UI"
+msgstr "界面"
+
+#: Advanced Align View/ui.py:161
+msgid "Use Advanced Edge Align"
+msgstr "使用高级边对齐"
+
+#: Advanced Align View/ui.py:183
+msgid "Use Advanced Edge Align instead?"
+msgstr "改为使用高级边对齐？"
+
+#: Advanced Align View/preferences.py:73
+msgid "Use raw alignment without roll minimization"
+msgstr "使用原始对齐而不进行滚动最小化"
+
+#: Advanced Align View/ops.py:617
+#: Advanced Align View/ops.py:839
+msgid "Use the stored aligned angle as base instead of current view (e.g. when view has drifted)"
+msgstr "使用存储的对齐角度作为基准，而不是当前视图（例如视图发生漂移时）"
+
+#: Advanced Align View/preferences.py:47
+msgid "User interface, pie menus, and overlay settings"
+msgstr "用户界面、饼菜单和叠加层设置"
+
+#: Advanced Align View/preferences.py:174
+msgid "Vertical Position"
+msgstr "垂直位置"
+
+#: Advanced Align View/preferences.py:174
+msgid "Vertical position of the label (percentage from bottom of viewport)"
+msgstr "标签的垂直位置（从视图底部的百分比）"
+
+#: Advanced Align View/preferences.py:68
+msgid "Viewport Roll"
+msgstr "视图滚动"
+
+#: Advanced Align View/preferences.py:222
+msgid "Viewport Roll:"
+msgstr "视图滚动："
+
+#: Advanced Align View/preferences.py:248
+msgid "Warning: This will select the 'View' orientation,"
+msgstr "警告：这将选择“视图”方向，"
+
+#: Advanced Align View/preferences.py:84
+msgid "When adding new Objects too"
+msgstr "添加新物体时也如此"
+
+#: Advanced Align View/preferences.py:110
+msgid "When aligned view ends and returns to normal navigation"
+msgstr "当对齐视图结束并返回正常导航时"
+
+#: Advanced Align View/preferences.py:78
+msgid "When in Aligned Mode"
+msgstr "处于对齐模式时"
+
+#: Advanced Align View/preferences.py:117
+msgid "When rotating the view"
+msgstr "旋转视图时"
+
+#: Advanced Align View/preferences.py:100
+msgid "Which alignment mode is pre-selected when opening the pie menu"
+msgstr "打开饼菜单时预选哪个对齐模式"
+
+#: Advanced Align View/preferences.py:124
+msgid "Which pie menu to show when the view is already aligned"
+msgstr "视图已对齐时显示哪个饼菜单"
+
+#: Advanced Align View/preferences.py:271
+#: Advanced Align View/ui.py:188
+msgid "automotive and industrial design, where surface curvature can"
+msgstr "汽车和工业设计，其中表面曲率可能"
+
+#: Advanced Align View/preferences.py:272
+#: Advanced Align View/ui.py:189
+msgid "make normal-based orientations unreliable. Snaps the view to"
+msgstr "使基于法线的方向不可靠。将视图吸附到"
+
+#: Advanced Align View/preferences.py:249
+msgid "making Align to Custom not work until you"
+msgstr "导致“对齐到自定义”无法工作，直到你"
+
+#: Advanced Align View/preferences.py:274
+#: Advanced Align View/ui.py:191
+msgid "perfectly horizontal or vertical (depending on what's the closest) on screen."
+msgstr "在屏幕上完全水平或垂直（取决于最接近的方向）。"
+
+#: Advanced Align View/preferences.py:250
+msgid "reselect a Custom Orientation."
+msgstr "重新选择自定义方向。"
+
+#: Advanced Align View/preferences.py:273
+#: Advanced Align View/ui.py:190
+msgid "your object's local axes, then rolls so the selected edge is"
+msgstr "物体局部轴，然后滚动，使选中边"
+
+#: Advanced Align View/ops.py:1083
+msgctxt "Operator"
+msgid "Advanced Edge Align"
+msgstr "高级边对齐"
+
+#: Advanced Align View/ui.py:110
+msgctxt "Operator"
+msgid "Align View (Pie)"
+msgstr "对齐视图（饼菜单）"
+
+#: Advanced Align View/ops.py:938
+msgctxt "Operator"
+msgid "Align View to orientation"
+msgstr "将视图对齐到方向"
+
+#: Advanced Align View/ui.py:137
+msgctxt "Operator"
+msgid "Align to Nearest View"
+msgstr "对齐到最近视图"
+
+#: Advanced Align View/ops.py:659
+msgctxt "Operator"
+msgid "Axis Snap (Aligned View)"
+msgstr "轴吸附（对齐视图）"
+
+#: Advanced Align View/ops.py:742
+msgctxt "Operator"
+msgid "Confirm and Exit Aligned View"
+msgstr "确认并退出对齐视图"
+
+#: Advanced Align View/ops.py:877
+msgctxt "Operator"
+msgid "Edge Roll"
+msgstr "边滚动"
+
+#: Advanced Align View/ui.py:225
+#: Advanced Align View/ui.py:422
+msgctxt "Operator"
+msgid "Exit"
+msgstr "退出"
+
+#: Advanced Align View/ui.py:158
+msgctxt "Operator"
+msgid "One Edge Selected"
+msgstr "已选择一条边"
+
+#: Advanced Align View/ops.py:604
+msgctxt "Operator"
+msgid "Pivot View 90°"
+msgstr "旋转视图 90°"
+
+#: Advanced Align View/ui.py:446
+msgctxt "Operator"
+msgid "RIGHT"
+msgstr "右"
+
+#: Advanced Align View/ops.py:763
+msgctxt "Operator"
+msgid "Reset Auto Perspective and Align Methods"
+msgstr "重置自动透视和对齐方法"
+
+#: Advanced Align View/ui.py:424
+msgctxt "Operator"
+msgid "Roll +180°"
+msgstr "旋转 +180°"
+
+#: Advanced Align View/ui.py:259
+#: Advanced Align View/ui.py:419
+msgctxt "Operator"
+msgid "Roll +90°"
+msgstr "旋转 +90°"
+
+#: Advanced Align View/ui.py:241
+#: Advanced Align View/ui.py:416
+msgctxt "Operator"
+msgid "Roll -90°"
+msgstr "旋转 -90°"
+
+#: Advanced Align View/ops.py:830
+msgctxt "Operator"
+msgid "Roll View (Aligned)"
+msgstr "旋转视图（已对齐）"
+
+#: Advanced Align View/ui.py:331
+msgctxt "Operator"
+msgid "Set Align Mode"
+msgstr "设置对齐模式"
+
+#: Advanced Align View/ui.py:435
+msgctxt "Operator"
+msgid "Smart Align"
+msgstr "智能对齐"
+
+#: Advanced Align View/ops.py:807
+msgctxt "Operator"
+msgid "Smart Align Toggle"
+msgstr "切换智能对齐"
+
+#: Advanced Align View/ops.py:704
+msgctxt "Operator"
+msgid "View Axis (Aligned View)"
+msgstr "视图轴（已对齐视图）"

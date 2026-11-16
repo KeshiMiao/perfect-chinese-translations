@@ -1,0 +1,397 @@
+# perfect-chinese: 1
+# id: chunk_render
+# kind: addon
+# module: bl_ext.blender_org.chunk_render
+# name: Chunk Render
+# name_zh: 分块渲染
+# translator: KeshiMiao
+# category: Render
+# supported_versions: >=5.0.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: chunk_render/ui.py:96
+msgid "100% lossless restoration of all channel data is still difficult"
+msgstr "仍难以 100% 无损还原所有通道数据"
+
+#: chunk_render/properties.py:195
+msgid "Active Tile Index"
+msgstr "活动瓦片索引"
+
+#: chunk_render/ui.py:72
+msgid "Advanced Options"
+msgstr "高级选项"
+
+#: chunk_render/properties.py:167
+msgid "All"
+msgstr "全部"
+
+#: chunk_render/ui.py:60
+msgid "Auto Merge Final Image"
+msgstr "自动合并最终图像"
+
+#: chunk_render/properties.py:174
+msgid "Auto Merge Tiles"
+msgstr "自动合并瓦片"
+
+#: chunk_render/properties.py:174
+msgid "Automatically merge finished tiles into the final image"
+msgstr "自动将完成的瓦片合并为最终图像"
+
+#: chunk_render/properties.py:161
+#: chunk_render/ui.py:51
+msgid "Bleed Pixels"
+msgstr "扩边像素"
+
+#: chunk_render/properties.py:125
+msgid "Choose how the image is split into tiles"
+msgstr "选择图像如何拆分为瓦片"
+
+#: chunk_render/properties.py:163
+msgid "Choose whether to render all tiles or only specific indices"
+msgstr "选择渲染全部瓦片还是仅渲染指定索引"
+
+#: chunk_render/properties.py:123
+msgid "Column Pixel Mismatch"
+msgstr "列像素不匹配"
+
+#: chunk_render/properties.py:137
+#: chunk_render/ui.py:33
+msgid "Columns"
+msgstr "列数"
+
+#: chunk_render/ui.py:33
+msgid "Columns (pixel mismatch)"
+msgstr "列（像素不匹配）"
+
+#: chunk_render/properties.py:194
+msgid "Completed Tiles"
+msgstr "已完成瓦片"
+
+#: chunk_render/ui.py:28
+msgid "Current Grid: {cols} x {rows}"
+msgstr "当前网格：{cols} x {rows}"
+
+#: chunk_render/properties.py:168
+msgid "Custom"
+msgstr "自定义"
+
+#: chunk_render/properties.py:173
+msgid "Custom Indices"
+msgstr "自定义索引"
+
+#: chunk_render/properties.py:175
+#: chunk_render/ui.py:63
+msgid "Delete Tiles After Merge"
+msgstr "合并后删除瓦片"
+
+#: chunk_render/properties.py:175
+msgid "Delete tile files after a successful merge"
+msgstr "成功合并后删除瓦片文件"
+
+#: chunk_render/__init__.py:16
+msgid "Enable Debug Logging"
+msgstr "启用调试日志"
+
+#: chunk_render/properties.py:173
+msgid "Enter tile indices such as 0, 2, 5"
+msgstr "输入瓦片索引，例如 0, 2, 5"
+
+#: chunk_render/ui.py:89
+msgid "Example: 0, 2, 5"
+msgstr "示例：0, 2, 5"
+
+#: chunk_render/properties.py:161
+msgid "Extend each tile by extra pixels to reduce edge issues"
+msgstr "为每个瓦片额外扩展像素以减少边缘问题"
+
+#: chunk_render/ui.py:88
+msgid "Index List"
+msgstr "索引列表"
+
+#: chunk_render/properties.py:135
+#: chunk_render/ui.py:26
+msgid "Level"
+msgstr "级别"
+
+#: chunk_render/properties.py:129
+msgid "Levels"
+msgstr "级别数"
+
+#: chunk_render/properties.py:130
+msgid "Manual"
+msgstr "手动"
+
+#: chunk_render/ui.py:85
+msgid "Manual Tile Selection:"
+msgstr "手动选择瓦片："
+
+#: chunk_render/ui.py:23
+msgid "Mode"
+msgstr "模式"
+
+#: chunk_render/properties.py:16
+msgid "Name"
+msgstr "名称"
+
+#: chunk_render/properties.py:135
+msgid "Pick a preset grid density"
+msgstr "选择预设网格密度"
+
+#: chunk_render/properties.py:184
+msgid "Previous Border Enabled"
+msgstr "之前边框已启用"
+
+#: chunk_render/properties.py:187
+msgid "Previous Border Max X"
+msgstr "之前边框最大 X"
+
+#: chunk_render/properties.py:189
+msgid "Previous Border Max Y"
+msgstr "之前边框最大 Y"
+
+#: chunk_render/properties.py:186
+msgid "Previous Border Min X"
+msgstr "之前边框最小 X"
+
+#: chunk_render/properties.py:188
+msgid "Previous Border Min Y"
+msgstr "之前边框最小 Y"
+
+#: chunk_render/properties.py:190
+msgid "Previous Compositor Device"
+msgstr "之前的合成设备"
+
+#: chunk_render/properties.py:185
+msgid "Previous Crop Enabled"
+msgstr "之前裁剪已启用"
+
+#: chunk_render/properties.py:182
+msgid "Previous Output Path"
+msgstr "之前的输出路径"
+
+#: chunk_render/properties.py:183
+msgid "Previous Resolution Percentage"
+msgstr "之前的分辨率百分比"
+
+#: chunk_render/__init__.py:16
+msgid "Print detailed logs for chunk rendering and multilayer EXR merging"
+msgstr "打印分块渲染和多层 EXR 合并的详细日志"
+
+#: chunk_render/ui.py:92
+msgid "Re-Merge Existing Tiles:"
+msgstr "重新合并现有瓦片："
+
+#: chunk_render/ui.py:95
+msgid "Re-merge tries to preserve EXR channels, but"
+msgstr "重新合并会尽量保留 EXR 通道，但"
+
+#: chunk_render/properties.py:192
+msgid "Render Counter"
+msgstr "渲染计数器"
+
+#: chunk_render/properties.py:191
+msgid "Render In Progress"
+msgstr "正在渲染"
+
+#: chunk_render/ui.py:9
+msgid "Render Region"
+msgstr "渲染区域"
+
+#: chunk_render/properties.py:193
+msgid "Render Total"
+msgstr "渲染总数"
+
+#: chunk_render/properties.py:124
+msgid "Row Pixel Mismatch"
+msgstr "行像素不匹配"
+
+#: chunk_render/properties.py:136
+#: chunk_render/ui.py:36
+msgid "Rows"
+msgstr "行数"
+
+#: chunk_render/ui.py:36
+msgid "Rows (pixel mismatch)"
+msgstr "行（像素不匹配）"
+
+#: chunk_render/properties.py:180
+msgid "Saved Borders"
+msgstr "已保存的边框"
+
+#: chunk_render/ui.py:75
+msgid "Saved Borders:"
+msgstr "已保存的边框："
+
+#: chunk_render/properties.py:176
+msgid "Select the folder that contains existing tile files"
+msgstr "选择包含现有瓦片文件的文件夹"
+
+#: chunk_render/properties.py:181
+msgid "Selected Border"
+msgstr "选中的边框"
+
+#: chunk_render/properties.py:163
+#: chunk_render/ui.py:86
+msgid "Selection Mode"
+msgstr "选择模式"
+
+#: chunk_render/properties.py:137
+msgid "Set how many tile columns to render"
+msgstr "设置要渲染的瓦片列数"
+
+#: chunk_render/properties.py:136
+msgid "Set how many tile rows to render"
+msgstr "设置要渲染的瓦片行数"
+
+#: chunk_render/properties.py:179
+msgid "Show Advanced Settings"
+msgstr "显示高级设置"
+
+#: chunk_render/properties.py:160
+msgid "Show Overlay Grid"
+msgstr "显示叠加网格"
+
+#: chunk_render/ui.py:49
+msgid "Show Overlay Grid (Camera View Only)"
+msgstr "显示叠加网格（仅相机视图）"
+
+#: chunk_render/__init__.py:11
+msgid "Show Render Progress in 3D View"
+msgstr "在 3D 视图中显示渲染进度"
+
+#: chunk_render/properties.py:179
+msgid "Show saved borders and re-merge tools"
+msgstr "显示已保存的边框和重新合并工具"
+
+#: chunk_render/properties.py:160
+msgid "Show the tile grid overlay in camera view"
+msgstr "在相机视图中显示瓦片网格叠加"
+
+#: chunk_render/properties.py:125
+msgid "Split Mode"
+msgstr "拆分模式"
+
+#: chunk_render/properties.py:148
+msgid "Split only the current render border area into tiles"
+msgstr "仅将当前渲染边框区域拆分为瓦片"
+
+#: chunk_render/properties.py:178
+msgid "Status Message"
+msgstr "状态消息"
+
+#: chunk_render/ui.py:21
+msgid "Step 1: Set Tile Grid"
+msgstr "第 1 步：设置瓦片网格"
+
+#: chunk_render/ui.py:55
+msgid "Step 2: Run Chunk Render"
+msgstr "第 2 步：运行分块渲染"
+
+#: chunk_render/properties.py:176
+#: chunk_render/ui.py:93
+msgid "Tiles Folder"
+msgstr "瓦片文件夹"
+
+#: chunk_render/properties.py:148
+#: chunk_render/ui.py:40
+msgid "Use Render Border"
+msgstr "使用渲染边框"
+
+#: chunk_render/ui.py:46
+msgid "Use Render Border (select a render border first)"
+msgstr "使用渲染边框（请先选择一个渲染边框）"
+
+#: chunk_render/__init__.py:11
+msgid "When chunk rendering starts, try to show the Render Result in a 3D View and restore the area afterward"
+msgstr "分块渲染开始时，尝试在 3D 视图中显示渲染结果，并在之后恢复该区域"
+
+#: chunk_render/ui.py:43
+msgctxt "Operator"
+msgid "Align Border (integer pixels)"
+msgstr "对齐边框（整数像素）"
+
+#: chunk_render/operators.py:1878
+msgctxt "Operator"
+msgid "Align Render Border"
+msgstr "对齐渲染边框"
+
+#: chunk_render/operators.py:1949
+msgctxt "Operator"
+msgid "Apply the selected saved render border to the current scene"
+msgstr "将选中的已保存渲染边框应用到当前场景"
+
+#: chunk_render/operators.py:1926
+msgctxt "Operator"
+msgid "Delete the selected saved render border"
+msgstr "删除选中的已保存渲染边框"
+
+#: chunk_render/operators.py:1651
+msgctxt "Operator"
+msgid "Merge existing tile files in the selected folder into final images"
+msgstr "将所选文件夹中的现有瓦片文件合并为最终图像"
+
+#: chunk_render/operators.py:1650
+#: chunk_render/ui.py:94
+msgctxt "Operator"
+msgid "Re-Merge Tiles"
+msgstr "重新合并瓦片"
+
+#: chunk_render/operators.py:1925
+msgctxt "Operator"
+msgid "Remove Render Border"
+msgstr "移除渲染边框"
+
+#: chunk_render/operators.py:901
+msgctxt "Operator"
+msgid "Render Regions"
+msgstr "渲染区域"
+
+#: chunk_render/operators.py:1948
+msgctxt "Operator"
+msgid "Restore Render Border"
+msgstr "恢复渲染边框"
+
+#: chunk_render/ui.py:82
+msgctxt "Operator"
+msgid "Restore Selected Border"
+msgstr "恢复选定边框"
+
+#: chunk_render/operators.py:1912
+msgctxt "Operator"
+msgid "Save Render Border"
+msgstr "保存渲染边框"
+
+#: chunk_render/operators.py:1913
+msgctxt "Operator"
+msgid "Save the current render border to the history list"
+msgstr "将当前渲染边框保存到历史列表"
+
+#: chunk_render/operators.py:1879
+msgctxt "Operator"
+msgid "Snap the render border to exact tile-sized pixel boundaries"
+msgstr "将渲染边框对齐到精确的瓦片像素边界"
+
+#: chunk_render/ui.py:57
+msgctxt "Operator"
+msgid "Start Render"
+msgstr "开始渲染"
+
+#: chunk_render/operators.py:902
+msgctxt "Operator"
+msgid "Start rendering the image tile by tile"
+msgstr "按瓦片逐块渲染图像"
+
+#: chunk_render/operators.py:862
+#: chunk_render/ui.py:65
+msgctxt "Operator"
+msgid "Stop Render"
+msgstr "停止渲染"
+
+#: chunk_render/operators.py:863
+msgctxt "Operator"
+msgid "Stop the current tile render task"
+msgstr "停止当前瓦片渲染任务"

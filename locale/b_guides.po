@@ -1,0 +1,790 @@
+# perfect-chinese: 1
+# id: b_guides
+# kind: addon
+# module: bl_ext.blender_org.b_guides
+# name: B Guides
+# name_zh: 构图参考线
+# translator: KeshiMiao
+# category: 3D View
+# supported_versions: >=5.0.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: b_guides/__init__.py:6
+msgid "3D View, Camera, Sequencer"
+msgstr "3D 视图、摄像机、序列编辑器"
+
+#: b_guides/properties.py:610
+#: b_guides/properties.py:1163
+msgid "Active Guide"
+msgstr "活动参考线"
+
+#: b_guides/properties.py:630
+#: b_guides/properties.py:1183
+msgid "Active Preset"
+msgstr "活动预设"
+
+#: b_guides/properties.py:610
+#: b_guides/properties.py:1163
+msgid "Active custom guide index"
+msgstr "活动自定义参考线索引"
+
+#: b_guides/__init__.py:6
+msgid "Adds composition guides and rulers to VSE Preview and 3D Viewport Camera"
+msgstr "为 VSE 预览和 3D 视图摄像机添加构图参考线和标尺"
+
+#: b_guides/operators.py:92
+msgid "All guide lines cleared"
+msgstr "已清除所有参考线"
+
+#: b_guides/properties.py:498
+#: b_guides/properties.py:1054
+msgid "Angle"
+msgstr "角度"
+
+#: b_guides/properties.py:498
+#: b_guides/properties.py:1054
+msgid "Angle of diagonal lines"
+msgstr "对角线角度"
+
+#: b_guides/__init__.py:6
+msgid "B Guides"
+msgstr "B Guides"
+
+#: b_guides/properties.py:558
+#: b_guides/properties.py:1111
+msgid "BG Color"
+msgstr "背景色"
+
+#: b_guides/ui.py:59
+msgid "Camera:"
+msgstr "摄像机："
+
+#: b_guides/properties.py:196
+#: b_guides/properties.py:753
+msgid "Center Color"
+msgstr "中心颜色"
+
+#: b_guides/properties.py:187
+#: b_guides/properties.py:746
+msgid "Center Guides"
+msgstr "中心参考线"
+
+#: b_guides/properties.py:414
+#: b_guides/properties.py:970
+msgid "Circle Count"
+msgstr "圆数量"
+
+#: b_guides/ui.py:207
+#: b_guides/ui.py:449
+msgid "Circles"
+msgstr "圆"
+
+#: b_guides/properties.py:407
+#: b_guides/properties.py:963
+msgid "Circular"
+msgstr "圆形"
+
+#: b_guides/properties.py:430
+#: b_guides/properties.py:986
+msgid "Circular Color"
+msgstr "圆形颜色"
+
+#: b_guides/properties.py:139
+#: b_guides/properties.py:698
+msgid "Color"
+msgstr "颜色"
+
+#: b_guides/ui.py:46
+#: b_guides/ui.py:290
+msgid "Composition Guides"
+msgstr "构图参考线"
+
+#: b_guides/properties.py:630
+#: b_guides/properties.py:1183
+msgid "Currently selected preset"
+msgstr "当前选中的预设"
+
+#: b_guides/properties.py:642
+#: b_guides/properties.py:1195
+msgid "Custom Guides Data"
+msgstr "自定义参考线数据"
+
+#: b_guides/properties.py:481
+#: b_guides/properties.py:1037
+msgid "Diagonal Method"
+msgstr "对角线法"
+
+#: b_guides/properties.py:488
+#: b_guides/properties.py:1044
+msgid "Diagonal Method Color"
+msgstr "对角线法颜色"
+
+#: b_guides/properties.py:440
+#: b_guides/properties.py:996
+msgid "Diagonal Reciprocals"
+msgstr "对角线倒数"
+
+#: b_guides/properties.py:447
+#: b_guides/properties.py:1003
+msgid "Diagonal Reciprocals Color"
+msgstr "对角线倒数颜色"
+
+#: b_guides/properties.py:206
+#: b_guides/properties.py:763
+msgid "Diagonals"
+msgstr "对角线"
+
+#: b_guides/properties.py:213
+#: b_guides/properties.py:770
+msgid "Diagonals Color"
+msgstr "对角线颜色"
+
+#: b_guides/ui.py:70
+msgid "Enter Camera View"
+msgstr "进入摄像机视图"
+
+#: b_guides/properties.py:260
+#: b_guides/properties.py:423
+msgid "Fit to Frame"
+msgstr "适配画幅"
+
+#: b_guides/properties.py:474
+#: b_guides/properties.py:1030
+msgid "Flip"
+msgstr "翻转"
+
+#: b_guides/ui.py:182
+#: b_guides/ui.py:424
+msgid "Flip H"
+msgstr "水平翻转"
+
+#: b_guides/properties.py:230
+#: b_guides/properties.py:787
+msgid "Flip Horizontal"
+msgstr "水平翻转"
+
+#: b_guides/ui.py:183
+#: b_guides/ui.py:425
+msgid "Flip V"
+msgstr "垂直翻转"
+
+#: b_guides/properties.py:237
+#: b_guides/properties.py:794
+msgid "Flip Vertical"
+msgstr "垂直翻转"
+
+#: b_guides/properties.py:230
+#: b_guides/properties.py:787
+msgid "Flip golden spiral horizontally"
+msgstr "水平翻转黄金螺旋"
+
+#: b_guides/properties.py:237
+#: b_guides/properties.py:794
+msgid "Flip golden spiral vertically"
+msgstr "垂直翻转黄金螺旋"
+
+#: b_guides/properties.py:474
+#: b_guides/properties.py:1030
+msgid "Flip harmony triangles"
+msgstr "翻转和谐三角形"
+
+#: b_guides/properties.py:585
+#: b_guides/properties.py:1138
+msgid "Force square grid cells (equal width and height)"
+msgstr "强制方形网格单元（宽高相等）"
+
+#: b_guides/properties.py:177
+#: b_guides/properties.py:736
+msgid "Golden Color"
+msgstr "黄金色"
+
+#: b_guides/properties.py:170
+#: b_guides/properties.py:729
+msgid "Golden Ratio"
+msgstr "黄金比例"
+
+#: b_guides/properties.py:223
+#: b_guides/properties.py:780
+msgid "Golden Spiral"
+msgstr "黄金螺旋"
+
+#: b_guides/properties.py:457
+#: b_guides/properties.py:1013
+msgid "Golden Triangle"
+msgstr "黄金三角形"
+
+#: b_guides/properties.py:464
+#: b_guides/properties.py:1020
+msgid "Golden Triangle Color"
+msgstr "黄金三角形颜色"
+
+#: b_guides/properties.py:569
+#: b_guides/properties.py:1122
+msgid "Grid"
+msgstr "网格"
+
+#: b_guides/properties.py:592
+#: b_guides/properties.py:1145
+msgid "Grid Color"
+msgstr "网格颜色"
+
+#: b_guides/properties.py:398
+#: b_guides/properties.py:954
+msgid "Grid Count"
+msgstr "网格数量"
+
+#: b_guides/properties.py:576
+#: b_guides/properties.py:1129
+msgid "Grid Divisions"
+msgstr "网格细分"
+
+#: b_guides/properties.py:603
+#: b_guides/properties.py:1156
+msgid "Guide Lines"
+msgstr "参考线"
+
+#: b_guides/presets.py:33
+msgid "Guide Presets"
+msgstr "参考线预设"
+
+#: b_guides/properties.py:102
+#: b_guides/properties.py:661
+msgid "Guide X position (normalized: -1=Left, 0=Center, 1=Right)"
+msgstr "参考线 X 位置（归一化：-1=左，0=中心，1=右）"
+
+#: b_guides/properties.py:112
+#: b_guides/properties.py:671
+msgid "Guide Y position (normalized: -1=Bottom, 0=Center, 1=Top)"
+msgstr "参考线 Y 位置（归一化：-1=下，0=中心，1=上）"
+
+#: b_guides/operators.py:65
+msgid "Guide line removed"
+msgstr "已移除参考线"
+
+#: b_guides/properties.py:96
+#: b_guides/properties.py:655
+msgid "Guide name"
+msgstr "参考线名称"
+
+#: b_guides/properties.py:122
+#: b_guides/properties.py:681
+msgid "Guide rotation in degrees"
+msgstr "参考线旋转角度（度）"
+
+#: b_guides/operators.py:168
+msgid "Guide settings reset to defaults"
+msgstr "参考线设置已重置为默认值"
+
+#: b_guides/ui.py:50
+#: b_guides/ui.py:155
+msgid "Guides"
+msgstr "参考线"
+
+#: b_guides/operators.py:217
+msgid "Guides disabled"
+msgstr "参考线已禁用"
+
+#: b_guides/operators.py:239
+msgid "Guides enabled"
+msgstr "参考线已启用"
+
+#: b_guides/properties.py:549
+#: b_guides/properties.py:1102
+msgid "Height/width of ruler bars"
+msgstr "标尺栏的高度/宽度"
+
+#: b_guides/properties.py:617
+#: b_guides/properties.py:1170
+msgid "Hide Guides Outside Frame"
+msgstr "隐藏画幅外参考线"
+
+#: b_guides/properties.py:617
+#: b_guides/properties.py:1170
+msgid "Hide guide lines that extend outside the frame boundaries"
+msgstr "隐藏超出画幅边界的参考线"
+
+#: b_guides/operators.py:28
+#: b_guides/properties.py:133
+msgid "Horizontal"
+msgstr "水平"
+
+#: b_guides/properties.py:133
+#: b_guides/properties.py:692
+msgid "Horizontal guide"
+msgstr "水平参考线"
+
+#: b_guides/properties.py:338
+#: b_guides/properties.py:382
+msgid "Line Count"
+msgstr "线条数量"
+
+#: b_guides/properties.py:540
+#: b_guides/properties.py:1093
+msgid "Line Width"
+msgstr "线条宽度"
+
+#: b_guides/ui.py:213
+#: b_guides/ui.py:455
+msgid "Lines"
+msgstr "线条"
+
+#: b_guides/properties.py:96
+#: b_guides/properties.py:655
+msgid "Name"
+msgstr "名称"
+
+#: b_guides/properties.py:636
+#: b_guides/properties.py:1189
+msgid "Name for saving a new preset"
+msgstr "用于保存新预设的名称"
+
+#: b_guides/presets.py:84
+msgid "Name of the preset to execute"
+msgstr "要执行的预设名称"
+
+#: b_guides/properties.py:636
+#: b_guides/properties.py:1189
+msgid "New Preset Name"
+msgstr "新预设名称"
+
+#: b_guides/ui.py:66
+msgid "No Camera in Scene"
+msgstr "场景中没有摄像机"
+
+#: b_guides/presets.py:75
+msgid "No Presets"
+msgstr "无预设"
+
+#: b_guides/operators.py:80
+msgid "No guide lines to clear"
+msgstr "没有可清除的参考线"
+
+#: b_guides/properties.py:414
+#: b_guides/properties.py:970
+msgid "Number of concentric circles"
+msgstr "同心圆数量"
+
+#: b_guides/properties.py:576
+#: b_guides/properties.py:1129
+msgid "Number of grid divisions"
+msgstr "网格分割数量"
+
+#: b_guides/properties.py:301
+#: b_guides/properties.py:858
+msgid "Number of nested triangles"
+msgstr "嵌套三角形数量"
+
+#: b_guides/properties.py:398
+#: b_guides/properties.py:954
+msgid "Number of perspective grid lines"
+msgstr "透视网格线数量"
+
+#: b_guides/properties.py:338
+#: b_guides/properties.py:894
+msgid "Number of radial symmetry lines"
+msgstr "放射对称线数量"
+
+#: b_guides/properties.py:244
+#: b_guides/properties.py:801
+msgid "Number of spiral iterations"
+msgstr "螺旋迭代次数"
+
+#: b_guides/properties.py:130
+#: b_guides/properties.py:689
+msgid "Orientation"
+msgstr "方向"
+
+#: b_guides/properties.py:521
+#: b_guides/properties.py:1077
+msgid "Percentage"
+msgstr "百分比"
+
+#: b_guides/properties.py:520
+#: b_guides/properties.py:1076
+msgid "Pixels"
+msgstr "像素"
+
+#: b_guides/presets.py:84
+msgid "Preset Name"
+msgstr "预设名称"
+
+#: b_guides/properties.py:328
+#: b_guides/properties.py:884
+msgid "Radial Color"
+msgstr "径向颜色"
+
+#: b_guides/properties.py:321
+#: b_guides/properties.py:877
+msgid "Radial Symmetry"
+msgstr "径向对称"
+
+#: b_guides/properties.py:519
+#: b_guides/properties.py:1075
+msgid "Resolution"
+msgstr "分辨率"
+
+#: b_guides/properties.py:122
+#: b_guides/properties.py:284
+msgid "Rotation"
+msgstr "旋转"
+
+#: b_guides/properties.py:284
+#: b_guides/properties.py:841
+msgid "Rotation in degrees"
+msgstr "旋转角度（度）"
+
+#: b_guides/properties.py:153
+#: b_guides/properties.py:712
+msgid "Rule of Thirds"
+msgstr "三分法"
+
+#: b_guides/ui.py:255
+#: b_guides/ui.py:500
+msgid "Ruler"
+msgstr "标尺"
+
+#: b_guides/properties.py:530
+#: b_guides/properties.py:1083
+msgid "Ruler Color"
+msgstr "标尺颜色"
+
+#: b_guides/properties.py:549
+#: b_guides/properties.py:1102
+msgid "Ruler Size"
+msgstr "标尺大小"
+
+#: b_guides/properties.py:515
+#: b_guides/properties.py:1071
+msgid "Ruler measurement units"
+msgstr "标尺测量单位"
+
+#: b_guides/properties.py:292
+#: b_guides/properties.py:849
+msgid "Scale"
+msgstr "缩放"
+
+#: b_guides/properties.py:292
+#: b_guides/properties.py:849
+msgid "Scale of the triangle (0.1 to 2.0)"
+msgstr "三角形缩放（0.1 到 2.0）"
+
+#: b_guides/ui.py:78
+msgid "Select a Camera"
+msgstr "选择摄像机"
+
+#: b_guides/properties.py:642
+#: b_guides/properties.py:1195
+msgid "Serialized custom guides data for presets"
+msgstr "用于预设的序列化自定义参考线数据"
+
+#: b_guides/properties.py:481
+#: b_guides/properties.py:1037
+msgid "Show 45-degree diagonal lines from corners"
+msgstr "显示从角点出发的 45 度对角线"
+
+#: b_guides/properties.py:223
+#: b_guides/properties.py:780
+msgid "Show Fibonacci/golden spiral"
+msgstr "显示斐波那契/黄金螺旋"
+
+#: b_guides/properties.py:391
+#: b_guides/properties.py:947
+msgid "Show Grid"
+msgstr "显示网格"
+
+#: b_guides/properties.py:508
+#: b_guides/properties.py:1064
+msgid "Show Rulers"
+msgstr "显示标尺"
+
+#: b_guides/properties.py:253
+#: b_guides/properties.py:810
+msgid "Show Segments"
+msgstr "显示分段"
+
+#: b_guides/properties.py:187
+#: b_guides/properties.py:746
+msgid "Show center cross or full crosshair"
+msgstr "显示中心十字或完整十字准星"
+
+#: b_guides/properties.py:407
+#: b_guides/properties.py:963
+msgid "Show circular/concentric rule of thirds"
+msgstr "显示圆形/同心三分法"
+
+#: b_guides/properties.py:206
+#: b_guides/properties.py:763
+msgid "Show diagonal guides"
+msgstr "显示对角线参考线"
+
+#: b_guides/properties.py:440
+#: b_guides/properties.py:996
+msgid "Show diagonal reciprocal composition guides"
+msgstr "显示对角倒数构图参考线"
+
+#: b_guides/properties.py:170
+#: b_guides/properties.py:729
+msgid "Show golden ratio guide"
+msgstr "显示黄金比例参考线"
+
+#: b_guides/properties.py:277
+#: b_guides/properties.py:834
+msgid "Show golden triangle composition"
+msgstr "显示黄金三角形构图"
+
+#: b_guides/properties.py:569
+#: b_guides/properties.py:1122
+msgid "Show grid overlay"
+msgstr "显示网格叠加"
+
+#: b_guides/properties.py:603
+#: b_guides/properties.py:1156
+msgid "Show guide lines"
+msgstr "显示参考线"
+
+#: b_guides/properties.py:457
+#: b_guides/properties.py:1013
+msgid "Show harmony triangle composition guides"
+msgstr "显示和谐三角形构图参考线"
+
+#: b_guides/properties.py:521
+#: b_guides/properties.py:1077
+msgid "Show measurements as percentage"
+msgstr "以百分比显示测量值"
+
+#: b_guides/properties.py:520
+#: b_guides/properties.py:1076
+msgid "Show measurements in display pixels"
+msgstr "以显示像素显示测量值"
+
+#: b_guides/properties.py:519
+#: b_guides/properties.py:1075
+msgid "Show measurements in resolution pixels"
+msgstr "以分辨率像素显示测量值"
+
+#: b_guides/properties.py:391
+#: b_guides/properties.py:947
+msgid "Show perspective grid lines"
+msgstr "显示透视网格线"
+
+#: b_guides/properties.py:347
+#: b_guides/properties.py:903
+msgid "Show perspective vanishing point grid"
+msgstr "显示透视消失点网格"
+
+#: b_guides/properties.py:321
+#: b_guides/properties.py:877
+msgid "Show radial symmetry lines"
+msgstr "显示径向对称线"
+
+#: b_guides/properties.py:153
+#: b_guides/properties.py:712
+msgid "Show rule of thirds guide"
+msgstr "显示三分法参考线"
+
+#: b_guides/properties.py:508
+#: b_guides/properties.py:1064
+msgid "Show rulers with measurements"
+msgstr "显示带测量值的标尺"
+
+#: b_guides/properties.py:253
+#: b_guides/properties.py:810
+msgid "Show subdivision squares"
+msgstr "显示细分方格"
+
+#: b_guides/properties.py:267
+#: b_guides/properties.py:824
+msgid "Spiral Color"
+msgstr "螺旋颜色"
+
+#: b_guides/properties.py:244
+#: b_guides/properties.py:801
+msgid "Spiral Length"
+msgstr "螺旋长度"
+
+#: b_guides/properties.py:585
+#: b_guides/properties.py:1138
+msgid "Square Grid"
+msgstr "方形网格"
+
+#: b_guides/properties.py:423
+#: b_guides/properties.py:979
+msgid "Stretch circles to fit frame boundary (creates ellipses)"
+msgstr "拉伸圆形以适应画面边界（生成椭圆）"
+
+#: b_guides/properties.py:260
+#: b_guides/properties.py:817
+msgid "Stretch spiral to fit frame boundary"
+msgstr "拉伸螺旋以适应画面边界"
+
+#: b_guides/properties.py:382
+#: b_guides/properties.py:938
+msgid "Subdivisions per edge (1=corners only, 2=+midpoints, etc.)"
+msgstr "每条边的细分（1=仅角点，2=+中点，等等）"
+
+#: b_guides/properties.py:160
+#: b_guides/properties.py:719
+msgid "Thirds Color"
+msgstr "三分线颜色"
+
+#: b_guides/ui.py:144
+#: b_guides/ui.py:378
+msgid "Transform"
+msgstr "变换"
+
+#: b_guides/properties.py:277
+#: b_guides/properties.py:834
+msgid "Triangle"
+msgstr "三角形"
+
+#: b_guides/properties.py:310
+#: b_guides/properties.py:867
+msgid "Triangle Color"
+msgstr "三角形颜色"
+
+#: b_guides/properties.py:301
+#: b_guides/properties.py:858
+msgid "Triangle Count"
+msgstr "三角形数量"
+
+#: b_guides/properties.py:515
+#: b_guides/properties.py:1071
+msgid "Units"
+msgstr "单位"
+
+#: b_guides/properties.py:354
+#: b_guides/properties.py:910
+msgid "VP Color"
+msgstr "消失点颜色"
+
+#: b_guides/ui.py:222
+#: b_guides/ui.py:464
+msgid "VP X"
+msgstr "消失点 X"
+
+#: b_guides/properties.py:364
+#: b_guides/properties.py:920
+msgid "VP X Position"
+msgstr "消失点 X 位置"
+
+#: b_guides/ui.py:223
+#: b_guides/ui.py:465
+msgid "VP Y"
+msgstr "消失点 Y"
+
+#: b_guides/properties.py:373
+#: b_guides/properties.py:929
+msgid "VP Y Position"
+msgstr "消失点 Y 位置"
+
+#: b_guides/properties.py:347
+#: b_guides/properties.py:903
+msgid "Vanishing Point Grid"
+msgstr "消失点网格"
+
+#: b_guides/properties.py:364
+#: b_guides/properties.py:920
+msgid "Vanishing point X position (0-1)"
+msgstr "消失点 X 位置（0-1）"
+
+#: b_guides/properties.py:373
+#: b_guides/properties.py:929
+msgid "Vanishing point Y position (0-1)"
+msgstr "消失点 Y 位置（0-1）"
+
+#: b_guides/operators.py:28
+#: b_guides/properties.py:134
+msgid "Vertical"
+msgstr "垂直"
+
+#: b_guides/properties.py:134
+#: b_guides/properties.py:693
+msgid "Vertical guide"
+msgstr "垂直参考线"
+
+#: b_guides/properties.py:540
+#: b_guides/properties.py:1093
+msgid "Width of guide lines"
+msgstr "参考线宽度"
+
+#: b_guides/properties.py:102
+#: b_guides/properties.py:661
+msgid "X"
+msgstr "X"
+
+#: b_guides/properties.py:112
+#: b_guides/properties.py:671
+msgid "Y"
+msgstr "Y"
+
+#: b_guides/operators.py:24
+msgctxt "Operator"
+msgid "Add Guide Line"
+msgstr "添加参考线"
+
+#: b_guides/presets.py:131
+msgctxt "Operator"
+msgid "Add Guide Preset"
+msgstr "添加参考线预设"
+
+#: b_guides/ui.py:117
+#: b_guides/ui.py:340
+msgctxt "Operator"
+msgid "Add Line"
+msgstr "添加线"
+
+#: b_guides/ui.py:85
+#: b_guides/ui.py:309
+msgctxt "Operator"
+msgid "All Guides OFF"
+msgstr "关闭所有参考线"
+
+#: b_guides/ui.py:85
+#: b_guides/ui.py:309
+msgctxt "Operator"
+msgid "All Guides ON"
+msgstr "开启所有参考线"
+
+#: b_guides/operators.py:72
+msgctxt "Operator"
+msgid "Clear All Guide Lines"
+msgstr "清除所有参考线"
+
+#: b_guides/ui.py:562
+msgctxt "Operator"
+msgid "Composition Guides"
+msgstr "构图参考线"
+
+#: b_guides/presets.py:82
+msgctxt "Operator"
+msgid "Execute Preset"
+msgstr "执行预设"
+
+#: b_guides/operators.py:117
+msgctxt "Operator"
+msgid "Move Guide Line Down"
+msgstr "下移参考线"
+
+#: b_guides/operators.py:99
+msgctxt "Operator"
+msgid "Move Guide Line Up"
+msgstr "上移参考线"
+
+#: b_guides/operators.py:54
+msgctxt "Operator"
+msgid "Remove Guide Line"
+msgstr "移除参考线"
+
+#: b_guides/operators.py:135
+msgctxt "Operator"
+msgid "Reset Guides"
+msgstr "重置参考线"
+
+#: b_guides/operators.py:175
+msgctxt "Operator"
+msgid "Toggle All Guides"
+msgstr "切换所有参考线"

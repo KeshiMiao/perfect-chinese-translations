@@ -1,0 +1,757 @@
+# perfect-chinese: 1
+# id: clip_tools
+# kind: addon
+# module: bl_ext.blender_org.Clip_Tools
+# name: Clip Tools
+# name_zh: 剪辑工具
+# translator: KeshiMiao
+# category: Tracking
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:907
+msgid "+X Wall"
+msgstr "+X 墙面"
+
+#: __init__.py:909
+msgid "+Y Wall"
+msgstr "+Y 墙面"
+
+#: __init__.py:905
+msgid "+Z Floor"
+msgstr "+Z 地面"
+
+#: __init__.py:908
+msgid "-X Wall"
+msgstr "-X 墙面"
+
+#: __init__.py:910
+msgid "-Y Wall"
+msgstr "-Y 墙面"
+
+#: __init__.py:906
+msgid "-Z Floor"
+msgstr "-Z 地面"
+
+#: __init__.py:1034
+msgid "2 selected tracks have too little depth; rotation correction was limited."
+msgstr "2 条所选轨迹深度不足；旋转校正已受限。"
+
+#: __init__.py:938
+msgid "3D Cursor"
+msgstr "3D 光标"
+
+#: __init__.py:965
+msgid "3D cursor location copied to the manual coordinate."
+msgstr "3D 光标位置已复制到手动坐标。"
+
+#: track_tools.py:379
+msgid "Akima"
+msgstr "Akima"
+
+#: __init__.py:948
+msgid "Average"
+msgstr "平均值"
+
+#: track_tools.py:1280
+msgid "Before Start Frame are removed"
+msgstr "开始帧之前的部分将被移除"
+
+#: track_tools.py:1326
+msgid "Clear Track Range"
+msgstr "清除轨迹范围"
+
+#: mask_tools.py:220
+msgid "Cleared all shape keys from the selected mask layers"
+msgstr "已从所选遮罩层清除所有形态键"
+
+#: __init__.py:933
+msgid "Coordinate"
+msgstr "坐标"
+
+#: __init__.py:933
+msgid "Coordinate source used by the position mode"
+msgstr "位置模式使用的坐标来源"
+
+#: track_tools.py:377
+msgid "Curved interpolation that follows motion trend from reference keys"
+msgstr "从参考关键帧跟随运动趋势的曲线插值"
+
+#: __init__.py:733
+msgid "Depth"
+msgstr "深度"
+
+#: __init__.py:733
+msgid "Distance from the camera"
+msgstr "距相机的距离"
+
+#: track_tools.py:376
+msgid "Ease Linear"
+msgstr "线性缓动"
+
+#: track_tools.py:386
+msgid "Enabled keys before/after the baked range used to preserve tangent direction"
+msgstr "烘焙范围前后启用的关键帧，用于保持切线方向"
+
+#: track_tools.py:401
+msgid "End"
+msgstr "结束"
+
+#: track_tools.py:400
+msgid "First frame to clear"
+msgstr "要清除的第一帧"
+
+#: __init__.py:901
+msgid "Floor or wall direction used for the contact plane"
+msgstr "用于接触平面的地面或墙面方向"
+
+#: track_tools.py:1413
+msgid "Frame Offset"
+msgstr "帧偏移"
+
+#: __init__.py:944
+msgid "How selected reconstructed points are reduced to one representative point"
+msgstr "所选重建点如何缩减为一个代表点"
+
+#: track_tools.py:393
+msgid "How strongly the estimated in/out motion bends the curve"
+msgstr "估计的进入/退出运动使曲线弯曲的程度"
+
+#: __init__.py:915
+msgid "How the target plane position is determined"
+msgstr "目标平面位置的确定方式"
+
+#: track_tools.py:1338
+msgid "In"
+msgstr "进入"
+
+#: plane_track_tools.py:419
+msgid "Insert a plane track keyframe before updating its motion"
+msgstr "更新运动前插入平面轨迹关键帧"
+
+#: track_tools.py:1303
+msgid "Join"
+msgstr "合并"
+
+#: track_tools.py:384
+msgid "Join Islands"
+msgstr "合并孤岛"
+
+#: track_tools.py:1244
+msgid "Jump:"
+msgstr "跳转："
+
+#: __init__.py:920
+msgid "Keep Camera XY"
+msgstr "保持相机 XY"
+
+#: __init__.py:920
+msgid "Keep the camera X/Y position and use only the chosen coordinate Z"
+msgstr "保持相机 X/Y 位置，仅使用所选坐标 Z"
+
+#: mask_tools.py:228
+#: plane_track_tools.py:538
+msgid "Keyframe:"
+msgstr "关键帧："
+
+#: track_tools.py:401
+msgid "Last frame to clear"
+msgstr "要清除的最后一帧"
+
+#: track_tools.py:375
+msgid "Linear"
+msgstr "线性"
+
+#: __init__.py:939
+msgid "Manual"
+msgstr "手动"
+
+#: __init__.py:925
+msgid "Manual Coordinate"
+msgstr "手动坐标"
+
+#: __init__.py:925
+msgid "Manual coordinate used as a point on the target plane"
+msgstr "用作目标平面上一点的手动坐标"
+
+#: track_tools.py:385
+msgid "Max"
+msgstr "最大值"
+
+#: __init__.py:949
+msgid "Median"
+msgstr "中位数"
+
+#: track_tools.py:372
+msgid "Method"
+msgstr "方法"
+
+#: __init__.py:919
+msgid "Move Plane To"
+msgstr "移动平面到"
+
+#: __init__.py:919
+msgid "Move the selected track plane center to the chosen coordinate"
+msgstr "将所选轨迹平面中心移动到所选坐标"
+
+#: track_tools.py:378
+msgid "Natural Cubic"
+msgstr "自然三次"
+
+#: __init__.py:719
+msgid "No active Movie Clip to delete."
+msgstr "没有可删除的活动影片剪辑。"
+
+#: __init__.py:699
+msgid "No active Movie Clip to duplicate."
+msgstr "没有可复制的活动影片剪辑。"
+
+#: __init__.py:848
+msgid "No active camera in the scene."
+msgstr "场景中没有活动相机。"
+
+#: __init__.py:559
+msgid "No active scene camera found. Operation cancelled."
+msgstr "未找到活动场景相机。操作已取消。"
+
+#: __init__.py:599
+#: __init__.py:989
+msgid "No active tracking object found."
+msgstr "未找到活动跟踪物体。"
+
+#: __init__.py:994
+msgid "No camera using the active movie clip was found."
+msgstr "未找到使用活动影片剪辑的相机。"
+
+#: plane_track_tools.py:122
+msgid "No enabled plane track range boundary found in that direction"
+msgstr "该方向上未找到启用的平面轨迹范围边界"
+
+#: mask_tools.py:132
+msgid "No mask shape keyframe found in that direction"
+msgstr "该方向上未找到遮罩形状关键帧"
+
+#: __init__.py:999
+msgid "No object to apply orientation on."
+msgstr "没有可应用朝向的物体。"
+
+#: plane_track_tools.py:363
+#: plane_track_tools.py:482
+msgid "No plane marker shape is available at the current frame"
+msgstr "当前帧没有可用的平面标记形状"
+
+#: plane_track_tools.py:322
+msgid "No plane track keyframe at the current frame"
+msgstr "当前帧没有平面轨迹关键帧"
+
+#: plane_track_tools.py:100
+msgid "No plane track keyframe found in that direction"
+msgstr "该方向上未找到平面轨迹关键帧"
+
+#: __init__.py:636
+msgid "No selected tracks with 3D data found."
+msgstr "未找到带 3D 数据的所选轨迹。"
+
+#: __init__.py:1070
+msgid "No solved camera reconstruction was found after applying the transform."
+msgstr "应用变换后未找到已解算的相机重建。"
+
+#: __init__.py:1006
+msgid "No solved camera reconstruction was found for the current frame."
+msgstr "当前帧未找到已解算的相机重建。"
+
+#: __init__.py:937
+msgid "None (Origin)"
+msgstr "无（原点）"
+
+#: track_tools.py:1095
+#: track_tools.py:1143
+msgid "Open a clip in the Movie Clip Editor."
+msgstr "在影片剪辑编辑器中打开一个剪辑。"
+
+#: __init__.py:1115
+msgid "Orientation Plus"
+msgstr "朝向增强"
+
+#: track_tools.py:1339
+msgid "Out"
+msgstr "退出"
+
+#: track_tools.py:367
+msgid "Overlay the interpolated path without changing any markers"
+msgstr "叠加插值路径而不更改任何标记"
+
+#: __init__.py:915
+msgid "Position Mode"
+msgstr "位置模式"
+
+#: track_tools.py:1413
+msgid "Positive = later, Negative = earlier"
+msgstr "正值 = 较晚，负值 = 较早"
+
+#: track_tools.py:367
+msgid "Preview"
+msgstr "预览"
+
+#: track_tools.py:386
+msgid "Refs"
+msgstr "参考"
+
+#: __init__.py:749
+msgid "SCENE"
+msgstr "场景"
+
+#: __init__.py:1093
+msgid "Scene Setup"
+msgstr "场景设置"
+
+#: __init__.py:656
+msgid "Scene frames updated from the movie clip."
+msgstr "场景帧已从影片剪辑更新。"
+
+#: track_tools.py:1271
+msgid "Scope: All Tracking Objects"
+msgstr "范围：所有跟踪物体"
+
+#: track_tools.py:1053
+msgid "Select a point or plane track in the active tracking object."
+msgstr "在活动跟踪物体中选择一个点轨迹或平面轨迹。"
+
+#: track_tools.py:975
+msgid "Select a track in the active tracking object."
+msgstr "在活动跟踪物体中选择一条轨迹。"
+
+#: __init__.py:1009
+msgid "Select at least 1 reconstructed track with 3D bundle data."
+msgstr "请选择至少 1 条带 3D 束数据的重建轨迹。"
+
+#: track_tools.py:1104
+msgid "Select at least one track in the active tracking object to interpolate."
+msgstr "请选择活动跟踪物体中的至少一条轨迹进行插值。"
+
+#: track_tools.py:1152
+msgid "Select at least one track in the active tracking object."
+msgstr "请选择活动跟踪物体中的至少一条轨迹。"
+
+#: track_tools.py:1419
+msgid "Selected Only"
+msgstr "仅选中"
+
+#: __init__.py:1038
+msgid "Selected reconstructed tracks are collinear; a plane cannot be fitted."
+msgstr "选中的重建轨道共线，无法拟合平面。"
+
+#: __init__.py:1060
+msgid "Selected tracker plane is already aligned to the target plane."
+msgstr "选中的跟踪平面已与目标平面对齐。"
+
+#: track_tools.py:379
+msgid "Smooth curved interpolation with reduced overshoot on uneven marker motion"
+msgstr "平滑曲线插值，在不均匀标记运动时减少过冲"
+
+#: track_tools.py:378
+msgid "Smooth spline interpolation through the reference keys"
+msgstr "经过参考关键帧的平滑样条插值"
+
+#: __init__.py:1094
+#: __init__.py:1116
+msgid "Solve"
+msgstr "解算"
+
+#: track_tools.py:400
+msgid "Start"
+msgstr "起始"
+
+#: track_tools.py:1420
+msgid "Status"
+msgstr "状态"
+
+#: track_tools.py:376
+msgid "Straight interpolation with eased timing near the surrounding keys"
+msgstr "直线插值，在周围关键帧附近使用缓动时间"
+
+#: track_tools.py:375
+msgid "Straight linear interpolation between the surrounding enabled keys"
+msgstr "在相邻启用关键帧之间进行直线线性插值"
+
+#: track_tools.py:393
+msgid "Tangent"
+msgstr "切线"
+
+#: __init__.py:901
+msgid "Target Surface"
+msgstr "目标表面"
+
+#: plane_track_tools.py:478
+msgid "The active plane track has no keyframes"
+msgstr "活动平面轨道没有关键帧"
+
+#: mask_tools.py:181
+msgid "The mask is not editable"
+msgstr "遮罩不可编辑"
+
+#: plane_track_tools.py:316
+#: plane_track_tools.py:354
+msgid "The movie clip is not editable"
+msgstr "影片剪辑不可编辑"
+
+#: __init__.py:1030
+msgid "The selected 2 tracks cannot define a stable constrained rotation."
+msgstr "选中的 2 条轨道无法定义稳定的约束旋转。"
+
+#: mask_tools.py:190
+msgid "The selected mask layers have no shape keyframes"
+msgstr "选中的遮罩层没有形状关键帧"
+
+#: track_tools.py:1256
+#: track_tools.py:1289
+msgid "Tool"
+msgstr "工具"
+
+#: track_tools.py:1290
+msgid "Track Bridge"
+msgstr "轨道桥接"
+
+#: __init__.py:944
+msgid "Track Center"
+msgstr "轨道中心"
+
+#: track_tools.py:1253
+msgid "Track Time Offset"
+msgstr "轨道时间偏移"
+
+#: track_tools.py:377
+msgid "Trend Hermite"
+msgstr "趋势 Hermite"
+
+#: plane_track_tools.py:447
+msgid "Updated plane track motion"
+msgstr "已更新平面轨道运动"
+
+#: __init__.py:906
+msgid "Use a floor plane with negative Z normal"
+msgstr "使用负 Z 法线的地板平面"
+
+#: __init__.py:905
+msgid "Use a floor plane with positive Z normal"
+msgstr "使用正 Z 法线的地板平面"
+
+#: __init__.py:908
+msgid "Use a wall plane with negative X normal"
+msgstr "使用负 X 法线的墙壁平面"
+
+#: __init__.py:910
+msgid "Use a wall plane with negative Y normal"
+msgstr "使用负 Y 法线的墙壁平面"
+
+#: __init__.py:907
+msgid "Use a wall plane with positive X normal"
+msgstr "使用正 X 法线的墙壁平面"
+
+#: __init__.py:909
+msgid "Use a wall plane with positive Y normal"
+msgstr "使用正 Y 法线的墙壁平面"
+
+#: __init__.py:948
+msgid "Use the average value of the selected points"
+msgstr "使用选中点的平均值"
+
+#: __init__.py:938
+msgid "Use the current scene 3D cursor location directly"
+msgstr "直接使用当前场景 3D 游标位置"
+
+#: __init__.py:939
+msgid "Use the manual coordinate below"
+msgstr "使用下方的手动坐标"
+
+#: __init__.py:949
+msgid "Use the median value of the selected points"
+msgstr "使用选中点的中位数"
+
+#: __init__.py:937
+msgid "Use the world origin"
+msgstr "使用世界原点"
+
+#: __init__.py:586
+msgctxt "Operator"
+msgid "3D Markers to Empty"
+msgstr "3D 标记到空物体"
+
+#: __init__.py:511
+msgctxt "Operator"
+msgid "Adds a Camera Solver constraint to the active camera"
+msgstr "为活动摄像机添加摄像机解算约束"
+
+#: __init__.py:971
+#: __init__.py:1144
+msgctxt "Operator"
+msgid "Align Contact Plane"
+msgstr "对齐接触平面"
+
+#: track_tools.py:1319
+msgctxt "Operator"
+msgid "Bridge Gap"
+msgstr "桥接间隙"
+
+#: track_tools.py:943
+msgctxt "Operator"
+msgid "Capture marker positions as the offset source"
+msgstr "捕获标记位置作为偏移源"
+
+#: mask_tools.py:167
+msgctxt "Operator"
+msgid "Clear All Mask Keys"
+msgstr "清除所有遮罩关键帧"
+
+#: plane_track_tools.py:455
+msgctxt "Operator"
+msgid "Clear All Plane Track Keys"
+msgstr "清除所有平面轨道关键帧"
+
+#: track_tools.py:1138
+#: track_tools.py:1341
+msgctxt "Operator"
+msgid "Clear Track Range"
+msgstr "清除轨道范围"
+
+#: plane_track_tools.py:456
+msgctxt "Operator"
+msgid "Clear all plane keys while keeping the current shape as the motion reference"
+msgstr "清除所有平面关键帧，同时保留当前形状作为运动参考"
+
+#: __init__.py:958
+msgctxt "Operator"
+msgid "Copies the scene 3D cursor location to the contact origin"
+msgstr "将场景 3D 游标位置复制到接触原点"
+
+#: __init__.py:730
+#: __init__.py:1156
+msgctxt "Operator"
+msgid "Create Image Plane"
+msgstr "创建图像平面"
+
+#: plane_track_tools.py:188
+msgctxt "Operator"
+msgid "Create Plane Track"
+msgstr "创建平面轨道"
+
+#: plane_track_tools.py:189
+msgctxt "Operator"
+msgid "Create a plane on the four selected point markers with Auto Keyframe enabled"
+msgstr "在四个选中点标记上创建平面并启用自动关键帧"
+
+#: __init__.py:587
+msgctxt "Operator"
+msgid "Creates Empties from selected tracks with 3D reconstruction data"
+msgstr "从具有 3D 重建数据的选中轨道创建空物体"
+
+#: __init__.py:690
+msgctxt "Operator"
+msgid "Creates a copy of the currently active Movie Clip data-block"
+msgstr "创建当前活动影片剪辑数据块的副本"
+
+#: __init__.py:536
+msgctxt "Operator"
+msgid "Creates a new Empty with an Object Solver constraint"
+msgstr "创建带物体解算约束的新空物体"
+
+#: __init__.py:709
+msgctxt "Operator"
+msgid "Delete Active Clip"
+msgstr "删除活动影片剪辑"
+
+#: plane_track_tools.py:304
+msgctxt "Operator"
+msgid "Delete Plane Track Key"
+msgstr "删除平面轨道关键帧"
+
+#: plane_track_tools.py:305
+msgctxt "Operator"
+msgid "Delete the current keyframe from only the active plane track and retrack its motion"
+msgstr "仅从活动平面轨道删除当前关键帧并重新跟踪其运动"
+
+#: __init__.py:710
+msgctxt "Operator"
+msgid "Deletes the active Movie Clip. This action can be undone, but the data-block might be lost if not used elsewhere and the file is saved."
+msgstr "删除活动影片剪辑。此操作可撤销，但若未在其他地方使用且文件已保存，数据块可能会丢失。"
+
+#: __init__.py:689
+msgctxt "Operator"
+msgid "Duplicate Active Clip"
+msgstr "复制活动影片剪辑"
+
+#: __init__.py:972
+msgctxt "Operator"
+msgid "Fits selected reconstructed points onto the target floor or wall plane"
+msgstr "将选中的重建点拟合到目标地板或墙壁平面"
+
+#: track_tools.py:942
+#: track_tools.py:1275
+msgctxt "Operator"
+msgid "Get Trackers"
+msgstr "获取跟踪器"
+
+#: plane_track_tools.py:342
+msgctxt "Operator"
+msgid "Insert Plane Track Key"
+msgstr "插入平面轨道关键帧"
+
+#: track_tools.py:1077
+msgctxt "Operator"
+msgid "Jump to the next enabled range boundary on the selected point or plane track"
+msgstr "跳转到选中点轨道或平面轨道上的下一个启用范围边界"
+
+#: plane_track_tools.py:291
+msgctxt "Operator"
+msgid "Jump to the next keyframe of the active plane track"
+msgstr "跳转到活动平面轨道的下一个关键帧"
+
+#: track_tools.py:1035
+msgctxt "Operator"
+msgid "Jump to the next keyframe on selected point/plane tracks or mask layers"
+msgstr "跳转到选中点/平面轨道或遮罩层的下一个关键帧"
+
+#: mask_tools.py:155
+msgctxt "Operator"
+msgid "Jump to the next shape key on mask layers containing selected points"
+msgstr "跳转到包含选中点的遮罩层上的下一个形状关键帧"
+
+#: track_tools.py:1063
+msgctxt "Operator"
+msgid "Jump to the previous enabled range boundary on the selected point or plane track"
+msgstr "跳转到选中点轨道或平面轨道上的上一个启用范围边界"
+
+#: plane_track_tools.py:277
+msgctxt "Operator"
+msgid "Jump to the previous keyframe of the active plane track"
+msgstr "跳转到活动平面轨道的上一个关键帧"
+
+#: track_tools.py:1021
+msgctxt "Operator"
+msgid "Jump to the previous keyframe on selected point/plane tracks or mask layers"
+msgstr "跳转到选中点/平面轨道或遮罩层的上一个关键帧"
+
+#: mask_tools.py:142
+msgctxt "Operator"
+msgid "Jump to the previous shape key on mask layers containing selected points"
+msgstr "跳转到包含选中点的遮罩层上的上一个形状关键帧"
+
+#: mask_tools.py:154
+msgctxt "Operator"
+msgid "Next Mask Key"
+msgstr "下一个遮罩关键帧"
+
+#: plane_track_tools.py:290
+msgctxt "Operator"
+msgid "Next Plane Track Key"
+msgstr "下一个平面轨道关键帧"
+
+#: track_tools.py:1034
+msgctxt "Operator"
+msgid "Next Track Key"
+msgstr "下一个轨道关键帧"
+
+#: track_tools.py:1076
+msgctxt "Operator"
+msgid "Next Track Range"
+msgstr "下一个轨道范围"
+
+#: __init__.py:957
+msgctxt "Operator"
+msgid "Origin From 3D Cursor"
+msgstr "从 3D 游标获取原点"
+
+#: mask_tools.py:141
+msgctxt "Operator"
+msgid "Previous Mask Key"
+msgstr "上一个遮罩关键帧"
+
+#: plane_track_tools.py:276
+msgctxt "Operator"
+msgid "Previous Plane Track Key"
+msgstr "上一个平面轨道关键帧"
+
+#: track_tools.py:1020
+msgctxt "Operator"
+msgid "Previous Track Key"
+msgstr "上一个轨道关键帧"
+
+#: track_tools.py:1062
+msgctxt "Operator"
+msgid "Previous Track Range"
+msgstr "上一个轨道范围"
+
+#: plane_track_tools.py:397
+msgctxt "Operator"
+msgid "Recalculate motion from linked point tracks while preserving plane keyframes"
+msgstr "从链接的点轨道重新计算运动，同时保留平面关键帧"
+
+#: plane_track_tools.py:343
+msgctxt "Operator"
+msgid "Record the current plane shape and enable Auto Keyframe to protect it during later edits"
+msgstr "记录当前平面形状并启用自动关键帧，以便在后续编辑中保护它"
+
+#: mask_tools.py:168
+msgctxt "Operator"
+msgid "Remove all shape keys from mask layers containing selected points"
+msgstr "从包含选中点的遮罩层中移除所有形状关键帧"
+
+#: __init__.py:671
+msgctxt "Operator"
+msgid "Reset Start Frame"
+msgstr "重置起始帧"
+
+#: __init__.py:672
+msgctxt "Operator"
+msgid "Reset clip start frame to 1 and run Set Scene Frames"
+msgstr "将剪辑起始帧重置为 1 并运行设置场景帧"
+
+#: __init__.py:862
+#: __init__.py:1158
+msgctxt "Operator"
+msgid "Set Cam Projection"
+msgstr "设置摄像机投影"
+
+#: track_tools.py:1189
+msgctxt "Operator"
+msgid "Set Clear Track Range In"
+msgstr "设置清除跟踪范围入点"
+
+#: track_tools.py:1199
+msgctxt "Operator"
+msgid "Set Clear Track Range Out"
+msgstr "设置清除跟踪范围出点"
+
+#: __init__.py:644
+msgctxt "Operator"
+msgid "Set Start Seq No."
+msgstr "设置起始序号"
+
+#: __init__.py:645
+msgctxt "Operator"
+msgid "Set sequence start from its source filename, or run Set Scene Frames for movies"
+msgstr "从源文件名设置序列起始帧，或对影片运行设置场景帧"
+
+#: __init__.py:510
+msgctxt "Operator"
+msgid "Setup Camera Solver"
+msgstr "设置摄像机解算"
+
+#: __init__.py:535
+msgctxt "Operator"
+msgid "Setup Object Solver"
+msgstr "设置物体解算"
+
+#: track_tools.py:1090
+msgctxt "Operator"
+msgid "Track Bridge"
+msgstr "跟踪桥接"
+
+#: plane_track_tools.py:396
+msgctxt "Operator"
+msgid "Update Plane Track"
+msgstr "更新平面跟踪"

@@ -1,0 +1,623 @@
+# perfect-chinese: 1
+# id: holey_tools
+# kind: addon
+# module: bl_ext.blender_org.holey_tools
+# name: Holey Tools
+# name_zh: 孔洞工具
+# translator: KeshiMiao
+# category: Mesh
+# supported_versions: >=5.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: extract_axis.py:198
+#: operator.py:769
+msgid "/"
+msgstr "/"
+
+#: fair_hole.py:110
+msgid "1. Dissolve Two-Edge Verts"
+msgstr "1. 融并双边顶点"
+
+#: fair_hole.py:111
+msgid "2. Repair Pentagon Corners"
+msgstr "2. 修复五边形拐角"
+
+#: fair_hole.py:112
+msgid "3. Slide and Refine T Points"
+msgstr "3. 滑动并细化 T 点"
+
+#: fair_hole.py:113
+msgid "4. Refined Edge"
+msgstr "4. 细化边"
+
+#: fair_hole.py:114
+msgid "5. Fill Quad Rows"
+msgstr "5. 填充四边形行"
+
+#: fair_hole.py:112
+msgid "Align border vertices, then run three T-only refinement passes before triangle completion"
+msgstr "对齐边界顶点，然后进行三次仅 T 点的细化，再完成三角形"
+
+#: fair_hole.py:111
+msgid "Also intersect and merge exposed pentagon corners"
+msgstr "同时相交并合并外露的五边形拐角"
+
+#: fair_hole.py:618
+msgid "Another Holey Tools operation is already active"
+msgstr "另一个 Holey Tools 操作已处于活动状态"
+
+#: constants.py:41
+msgid "Auto"
+msgstr "自动"
+
+#: fair_hole.py:70
+#: operator.py:354
+msgid "Auto Fit"
+msgstr "自动拟合"
+
+#: fair_hole.py:95
+#: operator.py:366
+msgid "Auto Topology"
+msgstr "自动拓扑"
+
+#: constants.py:52
+msgid "Average"
+msgstr "平均"
+
+#: operator.py:302
+msgid "Axial distance from the exterior rim plane to the actual truncated end of the selected conic region"
+msgstr "从外缘平面到所选圆锥区域实际截断端的轴向距离"
+
+#: constants.py:43
+msgid "Boolean"
+msgstr "布尔"
+
+#: operator.py:397
+msgid "Boolean Segments"
+msgstr "布尔分段"
+
+#: fair_hole.py:237
+msgid "Boundary preparation — hole stays open"
+msgstr "边界准备 — 孔保持开放"
+
+#: operator.py:1736
+msgid "Choose a cylindrical or conical wall first"
+msgstr "请先选择圆柱壁或圆锥壁"
+
+#: extract_axis.py:352
+#: extract_axis.py:374
+msgid "Choose a face region first"
+msgstr "请先选择面区域"
+
+#: ui.py:80
+msgid "Choose an accepted surface fit"
+msgstr "选择已接受的曲面拟合"
+
+#: operator.py:327
+msgid "Choose direct scaling, Exact Boolean reconstruction, or automatic selection"
+msgstr "选择直接缩放、精确布尔重建或自动选择"
+
+#: fair_hole.py:447
+msgid "Choose one simple closed non-manifold loop"
+msgstr "选择一个简单的闭合非流形循环"
+
+#: constants.py:41
+msgid "Choose scaling or Exact Boolean from the fitted support surface"
+msgstr "从拟合支撑曲面中选择缩放或精确布尔"
+
+#: fair_hole.py:70
+msgid "Choose the lowest-complexity accepted fit"
+msgstr "选择复杂度最低的已接受拟合"
+
+#: fair_hole.py:95
+#: operator.py:366
+msgid "Choose topology from the selected fit"
+msgstr "从所选拟合中选择拓扑"
+
+#: fair_hole.py:101
+#: operator.py:368
+msgid "Circle"
+msgstr "圆"
+
+#: ui.py:76
+msgid "Circle Fill"
+msgstr "圆填充"
+
+#: fair_hole.py:163
+#: operator.py:372
+msgid "Circle Loops"
+msgstr "圆环数"
+
+#: ui.py:62
+msgid "Click boundary: fit and fair"
+msgstr "点击边界：拟合与光顺"
+
+#: ui.py:51
+msgid "Click wall: apply and adjust"
+msgstr "点击壁：应用并调整"
+
+#: fair_hole.py:113
+msgid "Complete triangle corners and one fixed post-mirror pass"
+msgstr "完成三角形拐角，并执行一次固定的镜像后处理"
+
+#: operator.py:372
+msgid "Concentric reconstruction loops before the center fan"
+msgstr "中心扇形填充前的同心重建环"
+
+#: operator.py:314
+msgid "Conic Angle"
+msgstr "圆锥角"
+
+#: extract_axis.py:461
+#: fair_hole.py:643
+msgid "Could not find the active 3D viewport"
+msgstr "找不到活动的 3D 视图"
+
+#: ui.py:52
+msgid "Ctrl/Cmd-click Resize: use selection"
+msgstr "Ctrl/Cmd 单击调整大小：使用选择"
+
+#: fair_hole.py:106
+msgid "Cumulative grid preparation or row-fill stage to inspect"
+msgstr "要检查的累积网格准备或行填充阶段"
+
+#: fair_hole.py:72
+#: operator.py:356
+msgid "Cylinder"
+msgstr "圆柱"
+
+#: operator.py:290
+msgid "Depth"
+msgstr "深度"
+
+#: operator.py:282
+msgid "Diameter"
+msgstr "直径"
+
+#: operator.py:342
+#: ui.py:94
+msgid "Diameter Estimate"
+msgstr "直径估计"
+
+#: ui.py:25
+msgid "Diameter Estimate:"
+msgstr "直径估计："
+
+#: operator.py:379
+msgid "Estimate a curvature-matching ideal surface for the Manhattan grid patch"
+msgstr "为曼哈顿网格补丁估计匹配曲率的理想曲面"
+
+#: fair_hole.py:133
+msgid "Estimate rim slopes and curvature from exterior faces; matching is approximate, with 3D bending fallback for folded height charts"
+msgstr "从外侧面估计边缘坡度和曲率；匹配为近似，折叠高度图会回退到 3D 弯曲"
+
+#: fair_hole.py:188
+#: operator.py:411
+msgid "Estimated Edge Size"
+msgstr "估计边尺寸"
+
+#: fair_hole.py:171
+msgid "Expand the completed patch selection and run Limited Dissolve"
+msgstr "扩展已完成的补丁选择并运行有限融并"
+
+#: operator.py:389
+msgid "Expand the directly scaled wall selection and run Limited Dissolve after committing a smaller hole"
+msgstr "扩展直接缩放的壁选择，并在提交较小孔后运行有限融并"
+
+#: extract_axis.py:364
+msgid "Extract Axis needs an active mesh"
+msgstr "提取轴需要活动网格"
+
+#: extract_axis.py:99
+msgid "Face Group"
+msgstr "面组"
+
+#: extract_axis.py:99
+msgid "Face-domain named attribute read by the generated node group"
+msgstr "生成的节点组读取的面域命名属性"
+
+#: ui.py:78
+msgid "Fair Fit"
+msgstr "光顺拟合"
+
+#: fair_hole.py:458
+msgid "Fair Hole needs an active mesh in Edit Mode"
+msgstr "光顺孔需要编辑模式下的活动网格"
+
+#: ui.py:72
+msgid "Fair Topology"
+msgstr "光顺拓扑"
+
+#: fair_hole.py:114
+msgid "Fill the refined edge row by row with local count transitions and surface projection"
+msgstr "逐行填充细化边，采用局部数量过渡和曲面投影"
+
+#: fair_hole.py:171
+#: operator.py:384
+msgid "Final Simplify"
+msgstr "最终简化"
+
+#: fair_hole.py:66
+msgid "Fit"
+msgstr "拟合"
+
+#: fair_hole.py:192
+msgid "Fit Residual"
+msgstr "拟合残差"
+
+#: operator.py:367
+msgid "Fit a source-aligned quad patch to the opening"
+msgstr "将源对齐的四边形补丁拟合到开口"
+
+#: operator.py:355
+msgid "Fit one to three adjacent planes"
+msgstr "拟合一到三个相邻平面"
+
+#: ui.py:78
+msgid "Fit used by the next Fair Hole invocation"
+msgstr "供下一次光顺孔调用使用的拟合"
+
+#: extract_axis.py:91
+#: operator.py:334
+msgid "Flood Angle"
+msgstr "泛洪角度"
+
+#: operator.py:290
+msgid "For cones, distance from the exterior rim plane to the theoretical tip; otherwise the distance between the hole ends"
+msgstr "对于圆锥，为外缘平面到理论尖端的距离；否则为孔两端之间的距离"
+
+#: ui.py:82
+msgid "Force a cylinder"
+msgstr "强制使用圆柱"
+
+#: fair_hole.py:72
+msgid "Force a cylindrical fit even when its residual is not lowest"
+msgstr "即使残差不是最低也强制使用圆柱拟合"
+
+#: ui.py:83
+msgid "Force a sphere"
+msgstr "强制使用球体"
+
+#: operator.py:357
+msgid "Force a spherical fit"
+msgstr "强制使用球面拟合"
+
+#: fair_hole.py:77
+msgid "Force a spherical fit even when its residual is not lowest"
+msgstr "即使残差不是最低也强制使用球面拟合"
+
+#: operator.py:356
+msgid "Force a zero-slope circular-cylinder fit"
+msgstr "强制使用零斜率圆柱拟合"
+
+#: constants.py:42
+msgid "Force direct deformation of the fitted wall"
+msgstr "强制直接变形拟合壁"
+
+#: constants.py:43
+msgid "Force reconstruction followed by an Exact Boolean cutter"
+msgstr "强制重建后使用精确布尔切割器"
+
+#: fair_hole.py:129
+msgid "Fraction of each neighbor-average move, with backtracking to prevent folds"
+msgstr "每次邻点平均移动的比例，并带防止折叠的回退"
+
+#: operator.py:314
+msgid "Full included angle at the theoretical cone tip; edits pivot around the bottom truncation circle. Zero removes the taper while preserving the connected bore"
+msgstr "理论圆锥尖端处的完整夹角；编辑围绕底部截断圆枢转。零会移除锥度并保留连通的孔道"
+
+#: fair_hole.py:100
+#: operator.py:367
+msgid "Grid"
+msgstr "网格"
+
+#: ui.py:75
+msgid "Grid Fill"
+msgstr "网格填充"
+
+#: fair_hole.py:185
+msgid "Grid Layout"
+msgstr "网格布局"
+
+#: __init__.py:15
+#: ui.py:14
+msgid "Holey Tools"
+msgstr "Holey Tools"
+
+#: operator.py:342
+#: ui.py:94
+msgid "How to estimate diameter when the selected wall has multiple radii"
+msgstr "所选壁有多个半径时如何估计直径"
+
+#: fair_hole.py:100
+msgid "Inspect boundary preparation and fill refined quad rows"
+msgstr "检查边界准备并填充细化四边形行"
+
+#: fair_hole.py:124
+msgid "Interior Relaxation"
+msgstr "内部松弛"
+
+#: operator.py:274
+msgid "Internal radius scale relative to the fitted wall"
+msgstr "相对于拟合壁的内部半径缩放"
+
+#: fair_hole.py:270
+msgid "Layout: Manhattan Grid"
+msgstr "布局：曼哈顿网格"
+
+#: fair_hole.py:133
+#: operator.py:379
+msgid "Match Curvature (C2)"
+msgstr "匹配曲率 (C2)"
+
+#: constants.py:57
+msgid "Maximum"
+msgstr "最大值"
+
+#: extract_axis.py:91
+#: operator.py:334
+msgid "Maximum angle between neighboring faces in the hover flood fill"
+msgstr "悬停泛洪填充中相邻面之间的最大角度"
+
+#: __init__.py:15
+msgid "Mesh"
+msgstr "网格"
+
+#: fair_hole.py:179
+msgid "Method"
+msgstr "方法"
+
+#: constants.py:47
+msgid "Minimum"
+msgstr "最小值"
+
+#: ui.py:66
+msgid "Mode used by the next Resize Hole invocation"
+msgstr "下次调用调整孔洞大小时使用的模式"
+
+#: ui.py:34
+msgid "Mode:"
+msgstr "模式："
+
+#: fair_hole.py:71
+#: operator.py:355
+msgid "N-Plane"
+msgstr "N 平面"
+
+#: fair_hole.py:163
+msgid "Number of concentric quad loops before the center fan"
+msgstr "中心扇形之前的同心四边面环数量"
+
+#: operator.py:397
+msgid "Number of radial segments in the final Boolean cutter"
+msgstr "最终布尔切割器的径向分段数"
+
+#: fair_hole.py:82
+#: operator.py:358
+msgid "Organic"
+msgstr "有机"
+
+#: __init__.py:15
+msgid "Precision tools for editing holes in mesh objects"
+msgstr "用于编辑网格物体中孔洞的精确工具"
+
+#: fair_hole.py:237
+msgid "ROWS"
+msgstr "行数"
+
+#: operator.py:350
+msgid "Reconstruction Fit"
+msgstr "重建拟合"
+
+#: operator.py:362
+msgid "Reconstruction Topology"
+msgstr "重建拓扑"
+
+#: operator.py:585
+msgid "Reconstruction: Exact Boolean"
+msgstr "重建：精确布尔"
+
+#: operator.py:585
+msgid "Reconstruction: Fair Hole"
+msgstr "重建：光顺孔洞"
+
+#: fair_hole.py:124
+msgid "Relax interior and unpinned refined-rim vertices on the frozen fitted surface; zero disables smoothing"
+msgstr "在冻结的拟合曲面上松弛内部及未固定的细化边缘顶点；为 0 时禁用平滑"
+
+#: fair_hole.py:129
+msgid "Relaxation Strength"
+msgstr "松弛强度"
+
+#: fair_hole.py:110
+msgid "Remove boundary vertices with only two connected edges"
+msgstr "移除仅连接两条边的边界顶点"
+
+#: ui.py:75
+msgid "Require the Manhattan grid patch"
+msgstr "需要曼哈顿网格区块"
+
+#: operator.py:327
+msgid "Resize Method"
+msgstr "调整大小方法"
+
+#: ui.py:66
+msgid "Resize Mode"
+msgstr "调整大小模式"
+
+#: operator.py:613
+msgid "Resize: Scaling"
+msgstr "调整大小：缩放"
+
+#: fair_hole.py:237
+msgid "Row fill"
+msgstr "行填充"
+
+#: fair_hole.py:119
+msgid "Rows to Fill"
+msgstr "填充行数"
+
+#: operator.py:274
+msgid "Scale"
+msgstr "缩放"
+
+#: constants.py:42
+msgid "Scaling"
+msgstr "缩放"
+
+#: operator.py:1945
+msgid "Select cylindrical or conical wall faces before Ctrl/Cmd-clicking Resize Hole"
+msgstr "在按住 Ctrl/Cmd 单击调整孔洞大小前，选择圆柱或圆锥壁面"
+
+#: operator.py:384
+msgid "Simplify the resized Boolean result after reconstruction"
+msgstr "重建后简化调整大小后的布尔结果"
+
+#: fair_hole.py:77
+#: operator.py:357
+msgid "Sphere"
+msgstr "球体"
+
+#: fair_hole.py:106
+msgid "Stop After"
+msgstr "停止于"
+
+#: fair_hole.py:119
+msgid "Stop after this many rows for inspection; zero fills the complete patch"
+msgstr "填充到此行数后停止以便检查；为 0 时填满整个区块"
+
+#: extract_axis.py:371
+msgid "Stored face selection is invalid"
+msgstr "存储的面选择无效"
+
+#: fair_hole.py:66
+msgid "Surface fit used to fair the selected opening"
+msgstr "用于光顺所选开口的曲面拟合"
+
+#: operator.py:350
+msgid "Surface fit used to reconstruct the mesh before Boolean cutting"
+msgstr "布尔切割前用于重建网格的曲面拟合"
+
+#: fair_hole.py:281
+msgid "Surface: 3D bending continuation (folded chart)"
+msgstr "曲面：3D 弯曲延续（折叠展开图）"
+
+#: fair_hole.py:91
+msgid "Topology"
+msgstr "拓扑"
+
+#: fair_hole.py:182
+msgid "Topology Result"
+msgstr "拓扑结果"
+
+#: ui.py:72
+msgid "Topology used by the next Fair Hole invocation"
+msgstr "下次调用光顺孔洞时使用的拓扑"
+
+#: fair_hole.py:91
+msgid "Topology used inside the selected opening"
+msgstr "所选开口内部使用的拓扑"
+
+#: operator.py:362
+msgid "Topology used to reconstruct the old opening"
+msgstr "用于重建原有开口的拓扑"
+
+#: operator.py:302
+msgid "Truncated Depth"
+msgstr "截断深度"
+
+#: extract_axis.py:435
+msgid "Use Extract Axis in Mesh Edit Mode"
+msgstr "在网格编辑模式下使用提取轴"
+
+#: fair_hole.py:615
+msgid "Use Fair Hole in Mesh Edit Mode"
+msgstr "在网格编辑模式下使用光顺孔洞"
+
+#: operator.py:1718
+#: operator.py:1934
+msgid "Use Resize Hole in Mesh Edit Mode"
+msgstr "在网格编辑模式下使用调整孔洞大小"
+
+#: ui.py:81
+msgid "Use adjacent planes"
+msgstr "使用相邻平面"
+
+#: ui.py:76
+msgid "Use concentric rings"
+msgstr "使用同心环"
+
+#: fair_hole.py:101
+#: operator.py:368
+msgid "Use concentric rings and a center fan"
+msgstr "使用同心环和中心扇形"
+
+#: ui.py:84
+msgid "Use smooth surface continuation"
+msgstr "使用平滑曲面延续"
+
+#: operator.py:354
+msgid "Use the accepted automatic fit"
+msgstr "使用已接受的自动拟合"
+
+#: fair_hole.py:71
+msgid "Use the adjacent planar regions"
+msgstr "使用相邻平面区域"
+
+#: constants.py:52
+msgid "Use the average fitted radius across the selected wall"
+msgstr "使用所选壁面的平均拟合半径"
+
+#: constants.py:57
+msgid "Use the largest fitted radius across the selected wall"
+msgstr "使用所选壁面的最大拟合半径"
+
+#: constants.py:47
+msgid "Use the smallest fitted radius, useful when the selection includes a chamfer"
+msgstr "使用最小拟合半径，当选择包含倒角时有用"
+
+#: fair_hole.py:82
+msgid "Use the thin-plate surface continuation"
+msgstr "使用薄板曲面延续"
+
+#: operator.py:358
+msgid "Use thin-plate surface continuation"
+msgstr "使用薄板曲面延续"
+
+#: operator.py:282
+msgid "World-space diameter; for a cylindrical hole, the circle fitting inside its polygonal wall"
+msgstr "世界空间直径；对于圆柱孔，即内接于其多边形壁的圆"
+
+#: extract_axis.py:84
+msgctxt "Operator"
+msgid "Extract Axis"
+msgstr "提取轴"
+
+#: fair_hole.py:56
+msgctxt "Operator"
+msgid "Fair Hole"
+msgstr "光顺孔洞"
+
+#: extract_axis.py:86
+msgctxt "Operator"
+msgid "Flood-fill a region, store it as a named face group, and add a Geometry Nodes fitted-axis modifier"
+msgstr "泛洪填充一个区域，将其存储为命名面组，并添加几何节点拟合轴修改器"
+
+#: operator.py:269
+msgctxt "Operator"
+msgid "Hover to flood-fill a circular wall, click to fit its cone or cylinder, then click again to apply. Ctrl/Cmd-click to use selected wall faces instead"
+msgstr "悬停以泛洪填充圆形壁面，单击以拟合其圆锥或圆柱，再次单击以应用。按住 Ctrl/Cmd 单击则改用选中的壁面"
+
+#: operator.py:267
+msgctxt "Operator"
+msgid "Resize Hole"
+msgstr "调整孔洞大小"
+
+#: fair_hole.py:58
+msgctxt "Operator"
+msgid "Select an open boundary for inspectable grid preparation and row fill, or choose Auto/Circle for surface fairing"
+msgstr "选择开放边界以进行可检查的网格准备和行填充，或选择自动/圆形以进行曲面光顺"

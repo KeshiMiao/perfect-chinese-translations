@@ -1,0 +1,148 @@
+# perfect-chinese: 1
+# id: acreplay_importer
+# kind: addon
+# module: bl_ext.blender_org.acreplay_importer
+# name: AC Replay Importer
+# name_zh: 赛车回放导入
+# translator: KeshiMiao
+# category: Animation
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: acrp_import.py:248
+msgid ".csv file does not contain chassis position data!"
+msgstr ".csv 文件不包含底盘位置数据！"
+
+#: acrp_import.py:251
+msgid ".csv file does not contain chassis rotation data!"
+msgstr ".csv 文件不包含底盘旋转数据！"
+
+#: acrp_import.py:342
+msgid ".csv file does not contain complete wheel position/rotation data!"
+msgstr ".csv 文件不包含完整的车轮位置/旋转数据！"
+
+#: panel.py:8
+msgid "AC Replay Importer 0.3.0"
+msgstr "AC Replay Importer 0.3.0"
+
+#: panel.py:11
+msgid "Animation"
+msgstr "动画"
+
+#: __init__.py:15
+msgid "Chassis"
+msgstr "底盘"
+
+#: operators.py:112
+msgid "Column count mismatch! Make sure the .csv file was created with AC Replay Parser 0.3.0"
+msgstr "列数不匹配！请确保该 .csv 文件是由 AC Replay Parser 0.3.0 创建的"
+
+#: __init__.py:20
+msgid "FL Static"
+msgstr "左前静态"
+
+#: __init__.py:16
+msgid "FL Wheel"
+msgstr "左前轮"
+
+#: __init__.py:21
+msgid "FR Static"
+msgstr "右前静态"
+
+#: __init__.py:17
+msgid "FR Wheel"
+msgstr "右前轮"
+
+#: panel.py:41
+msgid "For objects that move with the wheel but don't rotate (e.g., brake calipers, suspension objects):"
+msgstr "用于随车轮移动但不旋转的物体（例如制动卡钳、悬挂物体）："
+
+#: __init__.py:16
+msgid "Front-left wheel"
+msgstr "左前轮"
+
+#: __init__.py:20
+msgid "Front-left wheel static objects"
+msgstr "左前轮静态物体"
+
+#: __init__.py:17
+msgid "Front-right wheel"
+msgstr "右前轮"
+
+#: __init__.py:21
+msgid "Front-right wheel static objects"
+msgstr "右前轮静态物体"
+
+#: operators.py:43
+msgid "Invalid .csv file!"
+msgstr "无效的 .csv 文件！"
+
+#: operators.py:37
+msgid "Missing headers! Make sure the .csv file was created with AC Replay Parser 0.3.0"
+msgstr "缺少表头！请确保该 .csv 文件是由 AC Replay Parser 0.3.0 创建的"
+
+#: __init__.py:22
+msgid "RL Static"
+msgstr "左后静态"
+
+#: __init__.py:18
+msgid "RL Wheel"
+msgstr "左后轮"
+
+#: __init__.py:23
+msgid "RR Static"
+msgstr "右后静态"
+
+#: __init__.py:19
+msgid "RR Wheel"
+msgstr "右后轮"
+
+#: __init__.py:18
+msgid "Rear-left wheel"
+msgstr "左后轮"
+
+#: __init__.py:22
+msgid "Rear-left wheel static objects"
+msgstr "左后轮静态物体"
+
+#: __init__.py:19
+msgid "Rear-right wheel"
+msgstr "右后轮"
+
+#: __init__.py:23
+msgid "Rear-right wheel static objects"
+msgstr "右后轮静态物体"
+
+#: __init__.py:14
+msgid "Start Frame"
+msgstr "起始帧"
+
+#: __init__.py:13
+msgid "Target Frame Rate"
+msgstr "目标帧率"
+
+#: operators.py:52
+#: panel.py:54
+msgctxt "Operator"
+msgid "Animate"
+msgstr "生成动画"
+
+#: operators.py:53
+msgctxt "Operator"
+msgid "Apply animation data to selected objects"
+msgstr "将动画数据应用到所选物体"
+
+#: operators.py:14
+#: panel.py:22
+msgctxt "Operator"
+msgid "Import .csv"
+msgstr "导入 .csv"
+
+#: operators.py:15
+msgctxt "Operator"
+msgid "Import AC Replay animation data (*.csv) that was outputted by AC Replay Parser"
+msgstr "导入由 AC Replay Parser 输出的 AC Replay 动画数据 (*.csv)"

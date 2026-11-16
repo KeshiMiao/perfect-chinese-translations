@@ -1,0 +1,201 @@
+# perfect-chinese: 1
+# id: shapefitter
+# kind: addon
+# module: bl_ext.blender_org.shapeFitter
+# name: Shape Fitter
+# name_zh: 图元拟合
+# translator: KeshiMiao
+# category: Modeling
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: add-on-shapefitter-v1.3.1/ui.py:15
+msgid "2 condyle cylinder"
+msgstr "双髁圆柱"
+
+#: add-on-shapefitter-v1.3.1/ui.py:30
+msgid "Average"
+msgstr "平均值"
+
+#: add-on-shapefitter-v1.3.1/__init__.py:1
+msgid "Blender Shape Fitter"
+msgstr "Blender 形状拟合器"
+
+#: add-on-shapefitter-v1.3.1/operations.py:107
+msgid "Both condyle vertex sets must be added."
+msgstr "必须添加两组髁顶点。"
+
+#: add-on-shapefitter-v1.3.1/ui.py:26
+#: add-on-shapefitter-v1.3.1/ui.py:52
+msgid "Centering Method"
+msgstr "居中方式"
+
+#: add-on-shapefitter-v1.3.1/ui.py:57
+msgid "Condyle 1 Vertices:"
+msgstr "髁 1 顶点："
+
+#: add-on-shapefitter-v1.3.1/ui.py:62
+msgid "Condyle 2 Vertices:"
+msgstr "髁 2 顶点："
+
+#: add-on-shapefitter-v1.3.1/fitCondyleCylinder.py:54
+msgid "Condyle centers are coincident."
+msgstr "两髁中心重合。"
+
+#: add-on-shapefitter-v1.3.1/ui.py:14
+msgid "Cylinder"
+msgstr "圆柱"
+
+#: add-on-shapefitter-v1.3.1/ui.py:14
+msgid "Fit a cylinder"
+msgstr "拟合圆柱"
+
+#: add-on-shapefitter-v1.3.1/ui.py:15
+msgid "Fit a cylinder using two condyle vertex sets"
+msgstr "使用两组髁顶点拟合圆柱"
+
+#: add-on-shapefitter-v1.3.1/ui.py:13
+msgid "Fit a plane"
+msgstr "拟合平面"
+
+#: add-on-shapefitter-v1.3.1/ui.py:12
+msgid "Fit a sphere"
+msgstr "拟合球体"
+
+#: add-on-shapefitter-v1.3.1/__init__.py:1
+msgid "Fit primitives (sphere, plane, cylinder, box) to selected vertices."
+msgstr "将基本体（球体、平面、圆柱、立方体）拟合到选中顶点。"
+
+#: add-on-shapefitter-v1.3.1/__init__.py:1
+msgid "Mesh"
+msgstr "网格"
+
+#: add-on-shapefitter-v1.3.1/ui.py:26
+msgid "Method to center the shape"
+msgstr "形状居中的方式"
+
+#: add-on-shapefitter-v1.3.1/ui.py:31
+msgid "Midpoint"
+msgstr "中点"
+
+#: add-on-shapefitter-v1.3.1/fitCondyleCylinder.py:17
+msgid "Need at least 3 vertices per condyle."
+msgstr "每个髁至少需要 3 个顶点。"
+
+#: add-on-shapefitter-v1.3.1/fitPlane.py:13
+msgid "Need at least 3 vertices to fit a plane."
+msgstr "拟合平面至少需要 3 个顶点。"
+
+#: add-on-shapefitter-v1.3.1/fitSphere.py:12
+msgid "Need at least 4 vertices to fit a sphere."
+msgstr "拟合球体至少需要 4 个顶点。"
+
+#: add-on-shapefitter-v1.3.1/fitCylinder.py:12
+msgid "Need at least 6 vertices to fit a cylinder."
+msgstr "拟合圆柱至少需要 6 个顶点。"
+
+#: add-on-shapefitter-v1.3.1/operations.py:11
+#: add-on-shapefitter-v1.3.1/operations.py:41
+msgid "No mesh object selected."
+msgstr "未选择网格物体。"
+
+#: add-on-shapefitter-v1.3.1/operations.py:84
+#: add-on-shapefitter-v1.3.1/operations.py:91
+msgid "No vertices selected."
+msgstr "未选择顶点。"
+
+#: add-on-shapefitter-v1.3.1/operations.py:14
+#: add-on-shapefitter-v1.3.1/operations.py:44
+msgid "Object must be in Edit Mode."
+msgstr "物体必须处于编辑模式。"
+
+#: add-on-shapefitter-v1.3.1/ui.py:13
+msgid "Plane"
+msgstr "平面"
+
+#: add-on-shapefitter-v1.3.1/ui.py:8
+msgid "Primitive to fit"
+msgstr "要拟合的基本体"
+
+#: add-on-shapefitter-v1.3.1/ui.py:19
+msgid "Randomly subsample up to 10,000 vertices for plane fitting (faster for large selections)"
+msgstr "随机抽样最多 10,000 个顶点用于平面拟合（选区较大时更快）"
+
+#: add-on-shapefitter-v1.3.1/ui.py:8
+#: add-on-shapefitter-v1.3.1/ui.py:49
+msgid "Shape"
+msgstr "形状"
+
+#: add-on-shapefitter-v1.3.1/ui.py:37
+msgid "Shape Fitter"
+msgstr "形状拟合器"
+
+#: add-on-shapefitter-v1.3.1/ui.py:41
+msgid "ShapeFitter"
+msgstr "ShapeFitter"
+
+#: add-on-shapefitter-v1.3.1/ui.py:12
+msgid "Sphere"
+msgstr "球体"
+
+#: add-on-shapefitter-v1.3.1/ui.py:19
+msgid "Subsample for plane fitting"
+msgstr "平面拟合抽样"
+
+#: add-on-shapefitter-v1.3.1/ui.py:54
+msgid "Subsample for plane fitting (max 10,000)"
+msgstr "平面拟合抽样（最多 10,000）"
+
+#: add-on-shapefitter-v1.3.1/ui.py:30
+msgid "Use average/centroid for location"
+msgstr "使用平均值/质心作为位置"
+
+#: add-on-shapefitter-v1.3.1/ui.py:31
+msgid "Use midpoint of bounding box/height span for location"
+msgstr "使用边界框/高度范围的中点作为位置"
+
+#: add-on-shapefitter-v1.3.1/ui.py:60
+#: add-on-shapefitter-v1.3.1/ui.py:65
+msgctxt "Operator"
+msgid "Add"
+msgstr "添加"
+
+#: add-on-shapefitter-v1.3.1/operations.py:6
+msgctxt "Operator"
+msgid "Add Condyle 1"
+msgstr "添加髁 1"
+
+#: add-on-shapefitter-v1.3.1/operations.py:36
+msgctxt "Operator"
+msgid "Add Condyle 2"
+msgstr "添加髁 2"
+
+#: add-on-shapefitter-v1.3.1/ui.py:67
+msgctxt "Operator"
+msgid "Calculate"
+msgstr "计算"
+
+#: add-on-shapefitter-v1.3.1/ui.py:61
+#: add-on-shapefitter-v1.3.1/ui.py:66
+msgctxt "Operator"
+msgid "Clear"
+msgstr "清除"
+
+#: add-on-shapefitter-v1.3.1/operations.py:28
+msgctxt "Operator"
+msgid "Clear Condyle 1"
+msgstr "清除髁 1"
+
+#: add-on-shapefitter-v1.3.1/operations.py:58
+msgctxt "Operator"
+msgid "Clear Condyle 2"
+msgstr "清除髁 2"
+
+#: add-on-shapefitter-v1.3.1/operations.py:66
+msgctxt "Operator"
+msgid "Fit Shape to Vertices"
+msgstr "将形状拟合到顶点"

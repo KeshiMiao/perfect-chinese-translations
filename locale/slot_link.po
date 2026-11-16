@@ -1,0 +1,449 @@
+# perfect-chinese: 1
+# id: slot_link
+# kind: addon
+# module: bl_ext.blender_org.slot_link
+# name: Slot Link
+# name_zh: 插槽链接
+# translator: KeshiMiao
+# category: Animation
+# supported_versions: >=4.5.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: slot_link/slot_link_ops.py:252
+msgid "ARMATURE_DATA"
+msgstr "ARMATURE_DATA"
+
+#: slot_link/slot_link_ops.py:251
+#: slot_link/slot_link_ops.py:354
+msgid "Action"
+msgstr "动作"
+
+#: slot_link/slot_link_ui_parts.py:60
+msgid "Actions stashed on NLA, consider clearing them!"
+msgstr "NLA 上存放的动作，考虑清除它们！"
+
+#: slot_link/slot_link.py:91
+msgid "Active Slot Link"
+msgstr "活动槽链接"
+
+#: slot_link/slot_link_ops.py:252
+msgid "Armature"
+msgstr "骨架"
+
+#: slot_link/slot_link_ops.py:252
+msgid "CAMERA_DATA"
+msgstr "CAMERA_DATA"
+
+#: slot_link/slot_link_ops.py:252
+msgid "CURVE_DATA"
+msgstr "CURVE_DATA"
+
+#: slot_link/slot_link_ops.py:252
+msgid "Camera"
+msgstr "摄像机"
+
+#: slot_link/slot_link_ops.py:252
+msgid "Curve"
+msgstr "曲线"
+
+#: slot_link/slot_link.py:59
+#: slot_link/slot_link.py:71
+msgid "Datablock Index"
+msgstr "数据块索引"
+
+#: slot_link/slot_link_ui_parts.py:237
+msgid "Duplicate Target!"
+msgstr "目标重复！"
+
+#: slot_link/slot_link_ui.py:50
+msgid "Export"
+msgstr "导出"
+
+#: slot_link/slot_link_ui_parts.py:342
+msgid "Filter"
+msgstr "过滤"
+
+#: slot_link/slot_link_ui_parts.py:326
+msgid "First select a Slot on the left."
+msgstr "请先在左侧选择一个槽。"
+
+#: slot_link/slot_link_ops.py:329
+#: slot_link/slot_link_ops.py:385
+msgid "Full Reset (also Clear NLA data)"
+msgstr "完全重置（同时清除 NLA 数据）"
+
+#: slot_link/slot_link_ops.py:329
+msgid "Fully recreate all animation-data. This will remove all NLA data!"
+msgstr "完全重建所有动画数据。这将移除所有 NLA 数据！"
+
+#: slot_link/slot_link_ops.py:385
+msgid "Fully recreate the animation-data. This will remove all NLA data!"
+msgstr "完全重建动画数据。这将移除所有 NLA 数据！"
+
+#: slot_link/preferences.py:15
+msgid "Hide documentation link"
+msgstr "隐藏文档链接"
+
+#: slot_link/preferences.py:14
+msgid "Hide dopesheet header GUI"
+msgstr "隐藏摄影表表头界面"
+
+#: slot_link/preferences.py:13
+msgid "Hide the list of Slot Links (Use the Slot Panel instead)"
+msgstr "隐藏槽链接列表（请改用槽面板）"
+
+#: slot_link/slot_link_ops.py:384
+msgid "If a Reset Animation is selected, it will be used to bring the Scene into a consistent state"
+msgstr "如果选择了重置动画，将用它使场景进入一致状态"
+
+#: slot_link/slot_link_ui_parts.py:216
+#: slot_link/slot_link_ui_parts.py:233
+msgid "Invalid Material Index"
+msgstr "无效的材质索引"
+
+#: slot_link/slot_link_ui_parts.py:229
+msgid "Invalid Target"
+msgstr "无效目标"
+
+#: slot_link/slot_link.py:95
+msgid "Is Reset-Animation"
+msgstr "是重置动画"
+
+#: slot_link/slot_link_ops.py:252
+msgid "Key"
+msgstr "形态键"
+
+#: slot_link/slot_link.py:70
+#: slot_link/slot_link.py:71
+msgid "Legacy, please migrate!"
+msgstr "旧版，请迁移！"
+
+#: slot_link/slot_link_ops.py:252
+msgid "Light"
+msgstr "灯光"
+
+#: slot_link/slot_link_ops.py:252
+msgid "MATERIAL"
+msgstr "MATERIAL"
+
+#: slot_link/slot_link_ops.py:252
+msgid "Material"
+msgstr "材质"
+
+#: slot_link/slot_link_ops.py:254
+msgid "Material Index"
+msgstr "材质索引"
+
+#: slot_link/preferences.py:12
+msgid "Move Slot Link editor to separate Panel"
+msgstr "将槽链接编辑器移到独立面板"
+
+#: slot_link/slot_link_ui_parts.py:28
+#: slot_link/slot_link_ui_parts.py:34
+msgid "NONE"
+msgstr "无"
+
+#: slot_link/slot_link_ops.py:252
+msgid "Nodetree"
+msgstr "节点树"
+
+#: slot_link/slot_link_ui_parts.py:71
+msgid "Not Linked!"
+msgstr "未链接！"
+
+#: slot_link/slot_link_ui_parts.py:105
+msgid "Not all Slots have Targets!"
+msgstr "并非所有槽都有目标！"
+
+#: slot_link/slot_link_ops.py:252
+msgid "OBJECT"
+msgstr "OBJECT"
+
+#: slot_link/slot_link_ops.py:252
+msgid "OUTLINER_LIGHT_DATA"
+msgstr "OUTLINER_LIGHT_DATA"
+
+#: slot_link/slot_link_ops.py:252
+msgid "Object"
+msgstr "物体"
+
+#: slot_link/slot_link.py:96
+msgid "On 'Link Slots', the reset-animation will be used to reset the state of the entire scene"
+msgstr "在“链接槽”时，将使用重置动画来重置整个场景的状态"
+
+#: slot_link/slot_link.py:93
+msgid "Only link Objects within this Collection. Animation data from other collections will not be touched or reset. If no Collection is specified, the entire scene will be reset and linked."
+msgstr "仅链接此集合内的物体。其他集合的动画数据不会被改动或重置。若未指定集合，将重置并链接整个场景。"
+
+#: slot_link/slot_link_ui_parts.py:80
+msgid "Please add a new Slot! (animate anything)"
+msgstr "请添加新槽！（为任意对象制作动画）"
+
+#: slot_link/slot_link_ui_parts.py:269
+msgid "Please delete them:"
+msgstr "请删除它们："
+
+#: slot_link/slot_link_ui_parts.py:110
+msgid "Please migrate to newer data-model!"
+msgstr "请迁移到更新的数据模型！"
+
+#: slot_link/slot_link_ui_parts.py:76
+msgid "Prepare the Action!"
+msgstr "准备动作！"
+
+#: slot_link/slot_link.py:96
+msgid "Reset Animation"
+msgstr "重置动画"
+
+#: slot_link/slot_link_ops.py:252
+msgid "SHAPEKEY_DATA"
+msgstr "SHAPEKEY_DATA"
+
+#: slot_link/slot_link_ui_parts.py:355
+msgid "Select Animation"
+msgstr "选择动画"
+
+#: slot_link/slot_link_ui_parts.py:272
+msgid "Slot"
+msgstr "槽"
+
+#: slot_link/slot_link.py:66
+msgid "Slot Handle"
+msgstr "槽句柄"
+
+#: slot_link/slot_link.py:178
+#: slot_link/slot_link_ui.py:60
+msgid "Slot Link"
+msgstr "槽链接"
+
+#: slot_link/preferences.py:23
+#: slot_link/slot_link_ui_parts.py:284
+msgid "Slot Link Documentation"
+msgstr "槽链接文档"
+
+#: slot_link/slot_link_ui.py:31
+msgid "Slot Link Editor"
+msgstr "槽链接编辑器"
+
+#: slot_link/slot_link_ui.py:25
+msgid "Slot Link Target(s):"
+msgstr "槽链接目标："
+
+#: slot_link/slot_link.py:90
+msgid "Slot Links"
+msgstr "槽链接"
+
+#: slot_link/slot_link_ui_parts.py:90
+msgid "Some Slots are not set up!"
+msgstr "部分槽尚未设置！"
+
+#: slot_link/slot_link_ui_parts.py:85
+msgid "Some Slots have duplicate Targets!"
+msgstr "部分槽的目标重复！"
+
+#: slot_link/slot_link_ui_parts.py:100
+msgid "Some Slots have invalid Material indices!"
+msgstr "部分槽的材质索引无效！"
+
+#: slot_link/slot_link_ui_parts.py:95
+msgid "Some Targets are outside Collection!"
+msgstr "部分目标在集合之外！"
+
+#: slot_link/slot_link.py:58
+#: slot_link/slot_link.py:70
+msgid "Target"
+msgstr "目标"
+
+#: slot_link/slot_link.py:93
+msgid "Target Collection"
+msgstr "目标集合"
+
+#: slot_link/slot_link_ops.py:252
+msgid "Target Type"
+msgstr "目标类型"
+
+#: slot_link/slot_link.py:67
+msgid "Targets"
+msgstr "目标"
+
+#: slot_link/slot_link.py:58
+msgid "The Object this Slot should animate"
+msgstr "此槽应制作动画的物体"
+
+#: slot_link/slot_link.py:67
+msgid "The Objects this Slot should animate"
+msgstr "此槽应制作动画的物体"
+
+#: slot_link/slot_link_ui_parts.py:299
+msgid "The Reset Animation has no Targets!"
+msgstr "重置动画没有目标！"
+
+#: slot_link/slot_link_ops.py:383
+#: slot_link/slot_link_ops.py:425
+msgid "The action to link"
+msgstr "要链接的动作"
+
+#: slot_link/slot_link_ops.py:251
+#: slot_link/slot_link_ops.py:354
+msgid "The action to prepare"
+msgstr "要准备的动作"
+
+#: slot_link/slot_link.py:59
+msgid "The index of the Material/Nodetree/etc.."
+msgstr "材质/节点树等的索引"
+
+#: slot_link/slot_link_ui_parts.py:327
+msgid "Then select a Target in the Slot panel"
+msgstr "然后在槽面板中选择目标"
+
+#: slot_link/slot_link_ui_parts.py:268
+msgid "These Links don't belong to any Slot!"
+msgstr "这些链接不属于任何槽！"
+
+#: slot_link/slot_link_ui_parts.py:115
+msgid "Unknown Error"
+msgstr "未知错误"
+
+#: slot_link/slot_link_ops.py:384
+msgid "Use Reset Animation"
+msgstr "使用重置动画"
+
+#: slot_link/slot_link_ui_parts.py:341
+msgid "Use Reset Animation (if set)"
+msgstr "使用重置动画（若已设置）"
+
+#: slot_link/slot_link.py:95
+msgid "Use this Action to reset every property to a desired default state"
+msgstr "使用此动作将每个属性重置为所需的默认状态"
+
+#: slot_link/slot_link_ui_parts.py:164
+msgctxt "Operator"
+msgid "..without Reset"
+msgstr "..不重置"
+
+#: slot_link/slot_link_ops.py:246
+msgctxt "Operator"
+msgid "Add Slot"
+msgstr "添加槽"
+
+#: slot_link/slot_link_ops.py:166
+msgctxt "Operator"
+msgid "Add Target"
+msgstr "添加目标"
+
+#: slot_link/slot_link_ops.py:128
+msgctxt "Operator"
+msgid "Autosetup"
+msgstr "自动设置"
+
+#: slot_link/slot_link_ops.py:325
+msgctxt "Operator"
+msgid "Clear Scene"
+msgstr "清除场景"
+
+#: slot_link/slot_link_ops.py:408
+msgctxt "Operator"
+msgid "Create New"
+msgstr "新建"
+
+#: slot_link/slot_link_ops.py:421
+msgctxt "Operator"
+msgid "Duplicate"
+msgstr "复制"
+
+#: slot_link/nla_hackery.py:73
+msgctxt "Operator"
+msgid "Export FBX"
+msgstr "导出 FBX"
+
+#: slot_link/slot_link_ops.py:379
+msgctxt "Operator"
+msgid "Link"
+msgstr "链接"
+
+#: slot_link/slot_link_ui.py:70
+#: slot_link/slot_link_ui_parts.py:158
+msgctxt "Operator"
+msgid "Link Slots"
+msgstr "链接槽位"
+
+#: slot_link/slot_link_ui.py:94
+#: slot_link/slot_link_ui.py:110
+msgctxt "Operator"
+msgid "New Animation"
+msgstr "新建动画"
+
+#: slot_link/slot_link_ops.py:18
+msgctxt "Operator"
+msgid "Please Migrate Slot Link Data"
+msgstr "请迁移 Slot Link 数据"
+
+#: slot_link/slot_link_ops.py:350
+msgctxt "Operator"
+msgid "Prepare"
+msgstr "准备"
+
+#: slot_link/slot_link_ops.py:222
+msgctxt "Operator"
+msgid "Remove Orphaned Link"
+msgstr "移除孤立链接"
+
+#: slot_link/slot_link_ops.py:189
+msgctxt "Operator"
+msgid "Remove Target"
+msgstr "移除目标"
+
+#: slot_link/slot_link_ui.py:108
+msgctxt "Operator"
+msgid "Select"
+msgstr "选择"
+
+#: slot_link/slot_link_ui_parts.py:335
+msgctxt "Operator"
+msgid "Select Animation"
+msgstr "选择动画"
+
+#: slot_link/nla_hackery.py:54
+msgctxt "Operator"
+msgid "Setup NLA for Export"
+msgstr "为导出设置 NLA"
+
+#: slot_link/slot_link_ops.py:101
+msgctxt "Operator"
+msgid "Setup Slot Link"
+msgstr "设置槽位链接"
+
+#: slot_link/slot_link_ops.py:148
+msgctxt "Operator"
+msgid "Setup all Actions"
+msgstr "设置所有动作"
+
+#: slot_link/nla_hackery.py:199
+msgctxt "Operator"
+msgid "Setup from NLA"
+msgstr "从 NLA 设置"
+
+#: slot_link/preferences.py:21
+#: slot_link/slot_link_ui_parts.py:282
+msgctxt "Operator"
+msgid "Slot Link Documentation"
+msgstr "Slot Link 文档"
+
+#: slot_link/slot_link_ui.py:90
+msgctxt "Operator"
+msgid "↳  ..including NLA"
+msgstr "↳  ..包括 NLA"
+
+#: slot_link/slot_link_ui.py:75
+msgctxt "Operator"
+msgid "↳  ..without Reset"
+msgstr "↳  ..不重置"
+
+#: slot_link/slot_link_ui.py:113
+msgctxt "Operator"
+msgid "⮟"
+msgstr "⮟"

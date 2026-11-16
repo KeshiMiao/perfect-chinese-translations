@@ -1,0 +1,72 @@
+# perfect-chinese: 1
+# id: theme_updater
+# kind: addon
+# module: bl_ext.blender_org.theme_updater
+# name: Theme Updater
+# name_zh: 主题更新器
+# translator: KeshiMiao
+# category: System
+# supported_versions: >=5.0.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: preferences.py:12
+msgid "Active Theme"
+msgstr "活动主题"
+
+#: preferences.py:40
+msgid "After running the operator confirm that everything looks correct, and then save changes from Theme tab"
+msgstr "运行操作符后，请确认一切显示正常，然后在主题标签页中保存更改"
+
+#: preferences.py:13
+msgid "Custom File"
+msgstr "自定义文件"
+
+#: preferences.py:39
+msgid "If you already saved over, manually pick .XML file from 4.5 LTS config directory"
+msgstr "如果已覆盖保存，请手动从 4.5 LTS 配置目录中选取 .XML 文件"
+
+#: preferences.py:38
+msgid "It is important that theme .XML file isn't overwritten (saved over) in 5.0 before running this script"
+msgstr "重要：运行此脚本前，主题 .XML 文件不能在 5.0 中被覆盖（另存覆盖）"
+
+#: preferences.py:16
+msgid "Path to the theme .XML file"
+msgstr "主题 .XML 文件的路径"
+
+#: preferences.py:16
+msgid "Theme .XML Filepath"
+msgstr "主题 .XML 文件路径"
+
+#: operator.py:26
+msgid "Theme .XML file cannot be found."
+msgstr "找不到主题 .XML 文件。"
+
+#: preferences.py:9
+msgid "Theme File Source"
+msgstr "主题文件来源"
+
+#: preferences.py:13
+msgid "Update a theme from a specified .XML file"
+msgstr "从指定的 .XML 文件更新主题"
+
+#: preferences.py:12
+msgid "Update the .XML file of the currently active theme"
+msgstr "更新当前活动主题的 .XML 文件"
+
+#: preferences.py:9
+msgid "Where to get the theme XML file from"
+msgstr "主题 XML 文件的获取来源"
+
+#: operator.py:16
+msgctxt "Operator"
+msgid "Update 4.5 LTS theme to 5.0"
+msgstr "将 4.5 LTS 主题更新到 5.0"
+
+#: operator.py:15
+msgctxt "Operator"
+msgid "Update Theme to 5.0"
+msgstr "将主题更新到 5.0"

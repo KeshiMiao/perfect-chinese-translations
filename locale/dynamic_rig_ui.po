@@ -1,0 +1,228 @@
+# perfect-chinese: 1
+# id: dynamic_rig_ui
+# kind: addon
+# module: bl_ext.blender_org.dynamic_rig_ui
+# name: Dynamic Rig UI
+# name_zh: 动态绑定界面
+# translator: KeshiMiao
+# category: 
+# supported_versions: >=5.0.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: panels/settings_panel.py:44
+msgid "Apply IK/FK chains from JSON Text Block"
+msgstr "从 JSON 文本块应用 IK/FK 链"
+
+#: panels/tools_panel.py:15
+msgid "DRIGUI - TOOLS"
+msgstr "DRIGUI - 工具"
+
+#: panels/settings_panel.py:17
+msgid "DRigUI"
+msgstr "DRigUI"
+
+#: __init__.py:8
+msgid "Dynamic Rig UI"
+msgstr "Dynamic Rig UI"
+
+#: __init__.py:8
+msgid "Dynamic rig UI driven by bone collections, custom properties and JSON config"
+msgstr "由骨骼集合、自定义属性和 JSON 配置驱动的 Dynamic Rig UI"
+
+#: panels/rigui_panel.py:20
+msgid "HIDE_OFF"
+msgstr "HIDE_OFF"
+
+#: panels/masks_panel.py:15
+#: panels/props_panel.py:22
+msgid "Item"
+msgstr "项"
+
+#: panels/props_panel.py:67
+#: panels/rigui_panel.py:141
+msgid "Prop bone"
+msgstr "属性骨骼"
+
+#: panels/props_panel.py:66
+#: panels/rigui_panel.py:140
+msgid "Property bone not found"
+msgstr "未找到属性骨骼"
+
+#: panels/settings_panel.py:16
+msgid "Rig UI Settings"
+msgstr "Rig UI 设置"
+
+#: __init__.py:44
+#: operators/rig_ops.py:22
+msgid "Rig name"
+msgstr "Rig 名称"
+
+#: __init__.py:8
+msgid "Rigging"
+msgstr "绑定"
+
+#: panels/settings_panel.py:118
+msgid "SETUP TOOLS"
+msgstr "设置工具"
+
+#: panels/rigui_panel.py:20
+msgid "SOLO_ON"
+msgstr "SOLO_ON"
+
+#: panels/settings_panel.py:153
+msgid "Select 2 bones for override transform"
+msgstr "选择 2 根骨骼以覆盖变换"
+
+#: operators/snap_ops.py:254
+msgid "Text Block"
+msgstr "文本块"
+
+#: operators/toggle_ops.py:53
+msgid "Vertex group name (or 'all')"
+msgstr "顶点组名称（或 'all'）"
+
+#: panels/props_panel.py:101
+msgid "_"
+msgstr "_"
+
+#: operators/toggle_ops.py:87
+msgctxt "Operator"
+msgid "Action on Part"
+msgstr "对部件执行操作"
+
+#: operators/rig_ops.py:18
+msgctxt "Operator"
+msgid "Add Dynamic RigUI"
+msgstr "添加 Dynamic RigUI"
+
+#: operators/snap_ops.py:248
+msgctxt "Operator"
+msgid "Apply IK Chains JSON"
+msgstr "应用 IK 链 JSON"
+
+#: panels/rigui_panel.py:82
+msgctxt "Operator"
+msgid "CONTROLLERS"
+msgstr "控制器"
+
+#: operators/rigging_ops.py:122
+#: panels/settings_panel.py:146
+msgctxt "Operator"
+msgid "Create Custom Shape"
+msgstr "创建自定义形状"
+
+#: operators/rigging_ops.py:16
+#: panels/settings_panel.py:124
+msgctxt "Operator"
+msgid "Create Mask Modifiers"
+msgstr "创建遮罩修改器"
+
+#: operators/rigging_ops.py:123
+msgctxt "Operator"
+msgid "Create a new object aligned with the active bone and assign it as custom shape.\n(Select two bones to use the second as override transform)"
+msgstr "创建一个与活动骨骼对齐的新物体，并将其指定为自定义形状。\n（选择两根骨骼时，将第二根用作覆盖变换）"
+
+#: operators/rigging_ops.py:78
+msgctxt "Operator"
+msgid "Find bone collections with .L/.R suffix and create the missing mirror"
+msgstr "查找带 .L/.R 后缀的骨骼集合并创建缺失的镜像"
+
+#: operators/rigging_ops.py:17
+msgctxt "Operator"
+msgid "From vertex groups starting with 'MASK_', create or update mask modifiers"
+msgstr "从以 'MASK_' 开头的顶点组创建或更新遮罩修改器"
+
+#: operators/ui_ops.py:14
+msgctxt "Operator"
+msgid "Information"
+msgstr "信息"
+
+#: operators/rig_ops.py:19
+msgctxt "Operator"
+msgid "Initialize Dynamic RigUI on the active armature"
+msgstr "在活动骨架上初始化 Dynamic RigUI"
+
+#: panels/rigui_panel.py:265
+msgctxt "Operator"
+msgid "MASK"
+msgstr "遮罩"
+
+#: panels/masks_panel.py:37
+msgctxt "Operator"
+msgid "MASKS"
+msgstr "遮罩"
+
+#: panels/settings_panel.py:84
+msgctxt "Operator"
+msgid "New"
+msgstr "新建"
+
+#: panels/props_panel.py:47
+msgctxt "Operator"
+msgid "PROPERTIES"
+msgstr "属性"
+
+#: operators/snap_ops.py:249
+msgctxt "Operator"
+msgid "Read a JSON text block and store it in the armature's IK chains property"
+msgstr "读取 JSON 文本块并将其存储到骨架的 IK 链属性中"
+
+#: operators/rig_ops.py:48
+msgctxt "Operator"
+msgid "Remove Dynamic RigUI"
+msgstr "移除 Dynamic RigUI"
+
+#: operators/rig_ops.py:49
+msgctxt "Operator"
+msgid "Remove Dynamic RigUI data from the active armature"
+msgstr "从活动骨架移除 Dynamic RigUI 数据"
+
+#: panels/settings_panel.py:62
+msgctxt "Operator"
+msgid "Remove this Dynamic RigUI"
+msgstr "移除此 Dynamic RigUI"
+
+#: panels/tools_panel.py:39
+msgctxt "Operator"
+msgid "SNAP IK / FK"
+msgstr "吸附 IK / FK"
+
+#: operators/snap_ops.py:77
+msgctxt "Operator"
+msgid "Snap Kinematic"
+msgstr "吸附运动学"
+
+#: operators/snap_ops.py:78
+msgctxt "Operator"
+msgid "Snap limb to opposite kinematic (select any controller of destination chain)"
+msgstr "将肢体吸附到相反的运动学状态（选择目标链的任意控制器）"
+
+#: operators/rigging_ops.py:77
+#: panels/settings_panel.py:135
+msgctxt "Operator"
+msgid "Symmetrize Collections"
+msgstr "对称化集合"
+
+#: operators/toggle_ops.py:20
+msgctxt "Operator"
+msgid "Toggle All Boxes"
+msgstr "切换所有框"
+
+#: operators/toggle_ops.py:49
+msgctxt "Operator"
+msgid "Toggle Masks"
+msgstr "切换遮罩"
+
+#: operators/toggle_ops.py:21
+msgctxt "Operator"
+msgid "Toggle all boxes expanded/collapsed state"
+msgstr "切换所有框的展开/折叠状态"
+
+#: operators/toggle_ops.py:50
+msgctxt "Operator"
+msgid "Toggle visibility of mask modifiers"
+msgstr "切换遮罩修改器的可见性"
