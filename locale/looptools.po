@@ -1,0 +1,1545 @@
+# perfect-chinese: 1
+# id: looptools
+# kind: addon
+# module: bl_ext.blender_org.looptools
+# name: LoopTools
+# name_zh: 循环工具
+# translator: KeshiMiao
+# category: Mesh
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+# : __init__.py:3933
+# : __init__.py:4991
+# : __init__.py:3278
+# : __init__.py:4787
+# : __init__.py:3630
+# : __init__.py:4192
+# : __init__.py:4299
+# : __init__.py:4897
+# : __init__.py:5090
+# : __init__.py:5130
+# : __init__.py:4186
+# : __init__.py:4293
+# : __init__.py:5084
+# : __init__.py:5124
+# : __init__.py:3481
+# : __init__.py:4873
+# : __init__.py:5072
+# : __init__.py:3280
+# : __init__.py:4789
+# : __init__.py:3253
+# : __init__.py:4763
+# : __init__.py:3441
+# : __init__.py:3785
+# : __init__.py:4827
+# : __init__.py:4958
+# : __init__.py:3616
+# : __init__.py:4882
+# : __init__.py:3794
+# : __init__.py:4969
+# : __init__.py:4414
+# : __init__.py:4444
+# : __init__.py:4711
+# : __init__.py:3785
+# : __init__.py:4958
+# : __init__.py:5188
+# : __init__.py:4716
+# : __init__.py:3264
+# : __init__.py:4773
+# : __init__.py:3918
+# : __init__.py:4976
+# : __init__.py:3927
+# : __init__.py:4985
+# : __init__.py:3252
+# : __init__.py:3632
+# : __init__.py:4194
+# : __init__.py:4301
+# : __init__.py:4762
+# : __init__.py:4899
+# : __init__.py:5092
+# : __init__.py:5132
+# : __init__.py:4721
+# : __init__.py:3474
+# : __init__.py:4861
+# : __init__.py:4617
+# : __init__.py:4619
+# : __init__.py:4056
+# : __init__.py:4054
+# : __init__.py:3969
+# : __init__.py:5027
+# : __init__.py:3786
+# : __init__.py:4959
+# : __init__.py:4711
+# : __init__.py:4716
+# : __init__.py:4721
+# : __init__.py:4726
+# : __init__.py:4731
+# : __init__.py:4736
+# : __init__.py:4741
+# : __init__.py:4746
+# : __init__.py:3920
+# : __init__.py:3933
+# : __init__.py:4978
+# : __init__.py:4991
+# : __init__.py:4003
+# : __init__.py:5061
+# : __init__.py:3489
+# : __init__.py:4868
+# : __init__.py:3652
+# : __init__.py:4919
+# : __init__.py:4209
+# : __init__.py:5106
+# : __init__.py:4005
+# : __init__.py:5063
+# : __init__.py:4428
+# : __init__.py:3924
+# : __init__.py:4982
+# : __init__.py:3660
+# : __init__.py:4927
+# : __init__.py:3280
+# : __init__.py:4789
+# : __init__.py:3442
+# : __init__.py:4828
+# : __init__.py:4203
+# : __init__.py:5100
+# : __init__.py:3446
+# : __init__.py:4832
+# : __init__.py:3787
+# : __init__.py:4961
+# : __init__.py:4726
+# : __init__.py:3446
+# : __init__.py:4832
+# : __init__.py:3434
+# : __init__.py:4820
+# : __init__.py:3451
+# : __init__.py:3621
+# : __init__.py:3760
+# : __init__.py:3975
+# : __init__.py:4282
+# : __init__.py:4837
+# : __init__.py:4888
+# : __init__.py:4934
+# : __init__.py:5033
+# : __init__.py:5113
+# : __init__.py:5073
+# : __init__.py:5076
+# : __init__.py:3252
+# : __init__.py:4762
+# : __init__.py:4731
+# : __init__.py:3243
+# : __init__.py:4753
+# : __init__.py:3918
+# : __init__.py:4976
+# : __init__.py:3661
+# : __init__.py:4928
+# : __init__.py:3451
+# : __init__.py:3621
+# : __init__.py:3760
+# : __init__.py:3975
+# : __init__.py:4282
+# : __init__.py:4837
+# : __init__.py:4888
+# : __init__.py:4934
+# : __init__.py:5033
+# : __init__.py:5113
+# : __init__.py:4184
+# : __init__.py:4291
+# : __init__.py:5083
+# : __init__.py:5122
+# : __init__.py:3630
+# : __init__.py:4192
+# : __init__.py:4299
+# : __init__.py:4897
+# : __init__.py:5090
+# : __init__.py:5130
+# : __init__.py:3250
+# : __init__.py:4760
+# : __init__.py:3250
+# : __init__.py:4760
+# : __init__.py:4199
+# : __init__.py:5097
+# : __init__.py:3616
+# : __init__.py:4882
+# : __init__.py:3922
+# : __init__.py:4980
+# : __init__.py:3253
+# : __init__.py:3633
+# : __init__.py:4195
+# : __init__.py:4302
+# : __init__.py:4763
+# : __init__.py:4900
+# : __init__.py:5093
+# : __init__.py:5133
+# : __init__.py:3460
+# : __init__.py:3637
+# : __init__.py:3769
+# : __init__.py:3984
+# : __init__.py:4306
+# : __init__.py:4846
+# : __init__.py:4904
+# : __init__.py:4943
+# : __init__.py:5042
+# : __init__.py:5137
+# : __init__.py:3465
+# : __init__.py:3642
+# : __init__.py:3774
+# : __init__.py:3989
+# : __init__.py:4311
+# : __init__.py:4851
+# : __init__.py:4909
+# : __init__.py:4947
+# : __init__.py:5047
+# : __init__.py:5142
+# : __init__.py:3470
+# : __init__.py:3647
+# : __init__.py:3779
+# : __init__.py:3994
+# : __init__.py:4316
+# : __init__.py:4856
+# : __init__.py:4914
+# : __init__.py:4951
+# : __init__.py:5052
+# : __init__.py:5147
+# : __init__.py:3460
+# : __init__.py:3637
+# : __init__.py:3769
+# : __init__.py:3984
+# : __init__.py:4306
+# : __init__.py:4846
+# : __init__.py:4904
+# : __init__.py:4943
+# : __init__.py:5042
+# : __init__.py:5137
+# : __init__.py:3465
+# : __init__.py:3642
+# : __init__.py:3774
+# : __init__.py:3989
+# : __init__.py:4311
+# : __init__.py:4851
+# : __init__.py:4909
+# : __init__.py:4947
+# : __init__.py:5047
+# : __init__.py:5142
+# : __init__.py:3470
+# : __init__.py:3647
+# : __init__.py:3779
+# : __init__.py:3994
+# : __init__.py:4316
+# : __init__.py:4856
+# : __init__.py:4914
+# : __init__.py:4951
+# : __init__.py:5052
+# : __init__.py:5147
+# : __init__.py:3258
+# : __init__.py:4419
+# : __init__.py:4627
+# : __init__.py:4767
+# : __init__.py:3258
+# : __init__.py:4767
+# : __init__.py:4736
+# : __init__.py:3264
+# : __init__.py:4773
+# : __init__.py:8
+# : __init__.py:4409
+# : __init__.py:4430
+# : __init__.py:4184
+# : __init__.py:5083
+# : __init__.py:4291
+# : __init__.py:5122
+# : __init__.py:3290
+# : __init__.py:4800
+# : __init__.py:4032
+# : __init__.py:4596
+# : __init__.py:3942
+# : __init__.py:5000
+# : __init__.py:3942
+# : __init__.py:5000
+# : __init__.py:8
+# : __init__.py:8
+# : __init__.py:3439
+# : __init__.py:3999
+# : __init__.py:4825
+# : __init__.py:5057
+# : __init__.py:5057
+# : __init__.py:3999
+# : __init__.py:3439
+# : __init__.py:4825
+# : __init__.py:4031
+# : __init__.py:4595
+# : __init__.py:3951
+# : __init__.py:5009
+# : __init__.py:3951
+# : __init__.py:5009
+# : __init__.py:3269
+# : __init__.py:4778
+# : __init__.py:3278
+# : __init__.py:4787
+# : __init__.py:3632
+# : __init__.py:4194
+# : __init__.py:4301
+# : __init__.py:4899
+# : __init__.py:5092
+# : __init__.py:5132
+# : __init__.py:3887
+# : __init__.py:3906
+# : __init__.py:3659
+# : __init__.py:3793
+# : __init__.py:4926
+# : __init__.py:4968
+# : __init__.py:3927
+# : __init__.py:4985
+# : __init__.py:3441
+# : __init__.py:4827
+# : __init__.py:3659
+# : __init__.py:3793
+# : __init__.py:4926
+# : __init__.py:4968
+# : __init__.py:5071
+# : __init__.py:3786
+# : __init__.py:4959
+# : __init__.py:3296
+# : __init__.py:4806
+# : __init__.py:4199
+# : __init__.py:5097
+# : __init__.py:3960
+# : __init__.py:5018
+# : __init__.py:4201
+# : __init__.py:5098
+# : __init__.py:3660
+# : __init__.py:4927
+# : __init__.py:3661
+# : __init__.py:4928
+# : __init__.py:3442
+# : __init__.py:4828
+# : __init__.py:4188
+# : __init__.py:4295
+# : __init__.py:5086
+# : __init__.py:5126
+# : __init__.py:4186
+# : __init__.py:4293
+# : __init__.py:5084
+# : __init__.py:5124
+# : __init__.py:3783
+# : __init__.py:4956
+# : __init__.py:3783
+# : __init__.py:4956
+# : __init__.py:4001
+# : __init__.py:5059
+# : __init__.py:4001
+# : __init__.py:5059
+# : __init__.py:3434
+# : __init__.py:3474
+# : __init__.py:4820
+# : __init__.py:4861
+# : __init__.py:3489
+# : __init__.py:3652
+# : __init__.py:4209
+# : __init__.py:4868
+# : __init__.py:4919
+# : __init__.py:5106
+# : __init__.py:4741
+# : __init__.py:5027
+# : __init__.py:3285
+# : __init__.py:4795
+# : __init__.py:3285
+# : __init__.py:4795
+# : __init__.py:3969
+# : __init__.py:3657
+# : __init__.py:3791
+# : __init__.py:4924
+# : __init__.py:4966
+# : __init__.py:3657
+# : __init__.py:3791
+# : __init__.py:4924
+# : __init__.py:4966
+# : __init__.py:3290
+# : __init__.py:4800
+# : __init__.py:3481
+# : __init__.py:4873
+# : __init__.py:3296
+# : __init__.py:4806
+# : __init__.py:3269
+# : __init__.py:4778
+# : __init__.py:4188
+# : __init__.py:4295
+# : __init__.py:5086
+# : __init__.py:5126
+# : __init__.py:5076
+# : __init__.py:3920
+# : __init__.py:4978
+# : __init__.py:3924
+# : __init__.py:4982
+# : __init__.py:4980
+# : __init__.py:3922
+# : __init__.py:3281
+# : __init__.py:4790
+# : __init__.py:3633
+# : __init__.py:4195
+# : __init__.py:4900
+# : __init__.py:5093
+# : __init__.py:3281
+# : __init__.py:4790
+# : __init__.py:4746
+# : __init__.py:4003
+# : __init__.py:5061
+# : __init__.py:4005
+# : __init__.py:5063
+# : __init__.py:3243
+# : __init__.py:4753
+# : __init__.py:5188
+# : __init__.py:5200
+# : __init__.py:4204
+# : __init__.py:5101
+# : __init__.py:4202
+# : __init__.py:5099
+# : __init__.py:4205
+# : __init__.py:5102
+# : __init__.py:3303
+# : __init__.py:4813
+# : __init__.py:3303
+# : __init__.py:4813
+# : __init__.py:5069
+# : __init__.py:3960
+# : __init__.py:5018
+# : __init__.py:4302
+# : __init__.py:5133
+# : __init__.py:3794
+# : __init__.py:4969
+# : __init__.py:3787
+# : __init__.py:4961
+# : __init__.py:3520
+# : __init__.py:3522
+# : __init__.py:3684
+# : __init__.py:3686
+# : __init__.py:3816
+# : __init__.py:3818
+# : __init__.py:4040
+# : __init__.py:4042
+# : __init__.py:4338
+# : __init__.py:4340
+# : __init__.py:4499
+# : __init__.py:4501
+# : __init__.py:4531
+# : __init__.py:4533
+# : __init__.py:4561
+# : __init__.py:4563
+# : __init__.py:4604
+# : __init__.py:4606
+# : __init__.py:4690
+# : __init__.py:4692
+# : __init__.py:3524
+# : __init__.py:3526
+# : __init__.py:3688
+# : __init__.py:3690
+# : __init__.py:3820
+# : __init__.py:3822
+# : __init__.py:4044
+# : __init__.py:4046
+# : __init__.py:4342
+# : __init__.py:4344
+# : __init__.py:4503
+# : __init__.py:4505
+# : __init__.py:4535
+# : __init__.py:4537
+# : __init__.py:4565
+# : __init__.py:4567
+# : __init__.py:4608
+# : __init__.py:4610
+# : __init__.py:4694
+# : __init__.py:4696
+# : __init__.py:3528
+# : __init__.py:3530
+# : __init__.py:3692
+# : __init__.py:3694
+# : __init__.py:3824
+# : __init__.py:3826
+# : __init__.py:4048
+# : __init__.py:4050
+# : __init__.py:4346
+# : __init__.py:4348
+# : __init__.py:4507
+# : __init__.py:4509
+# : __init__.py:4539
+# : __init__.py:4541
+# : __init__.py:4569
+# : __init__.py:4571
+# : __init__.py:4612
+# : __init__.py:4614
+# : __init__.py:4698
+# : __init__.py:4700
+# : __init__.py:58
+# : __init__.py:65
+# : __init__.py:3239
+# : __init__.py:3240
+# : __init__.py:3430
+# : __init__.py:3612
+# : __init__.py:3756
+# : __init__.py:3757
+# : __init__.py:3914
+# : __init__.py:3431
+# : __init__.py:4180
+# : __init__.py:4181
+# : __init__.py:3878
+# : __init__.py:3895
+# : __init__.py:3879
+# : __init__.py:3896
+# : __init__.py:4278
+# : __init__.py:4279
+# : __init__.py:3915
+# : __init__.py:3613
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:3933
+msgid "Absolute distance between vertices along the converted  stroke"
+msgstr "转换后笔画上顶点之间的绝对距离"
+
+#: __init__.py:4991
+msgid "Absolute distance between vertices along the converted stroke"
+msgstr "转换后笔画上顶点之间的绝对距离"
+
+#: __init__.py:3278
+#: __init__.py:4787
+msgid "Algorithm used for bridging"
+msgstr "桥接所用的算法"
+
+#: __init__.py:3630
+#: __init__.py:4192
+#: __init__.py:4299
+#: __init__.py:4897
+#: __init__.py:5090
+#: __init__.py:5130
+msgid "Algorithm used for interpolation"
+msgstr "插值所用的算法"
+
+#: __init__.py:4186
+#: __init__.py:4293
+#: __init__.py:5084
+#: __init__.py:5124
+msgid "Also use non-selected parallel loops as input"
+msgstr "同时将未选中的平行循环边用作输入"
+
+#: __init__.py:3481
+#: __init__.py:4873
+msgid "Angle"
+msgstr "角度"
+
+#: __init__.py:5072
+msgid "Annotation"
+msgstr "标注"
+
+#: __init__.py:3280
+#: __init__.py:4789
+msgid "Basic"
+msgstr "基础"
+
+#: __init__.py:3253
+#: __init__.py:4763
+msgid "Basic, fast, straight interpolation"
+msgstr "基础、快速、直线的插值"
+
+#: __init__.py:3441
+#: __init__.py:3785
+#: __init__.py:4827
+#: __init__.py:4958
+msgid "Best fit"
+msgstr "最佳拟合"
+
+#: __init__.py:3616
+#: __init__.py:4882
+msgid "Boundaries"
+msgstr "边界"
+
+#: __init__.py:3794
+#: __init__.py:4969
+msgid "Bounding box"
+msgstr "边界框"
+
+#: __init__.py:4711
+msgid "Bridge settings"
+msgstr "桥接设置"
+
+#: __init__.py:3785
+#: __init__.py:4958
+msgid "Calculate a best fitting plane"
+msgstr "计算最佳拟合平面"
+
+#: __init__.py:5188
+msgid "Choose a name for the category of the panel"
+msgstr "为面板分类指定名称"
+
+#: __init__.py:4716
+msgid "Circle settings"
+msgstr "圆形设置"
+
+#: __init__.py:3264
+#: __init__.py:4773
+msgid "Connect the first and the last loop with each other"
+msgstr "将第一条与最后一条循环边相连"
+
+#: __init__.py:3918
+#: __init__.py:4976
+msgid "Conversion"
+msgstr "转换"
+
+#: __init__.py:3927
+#: __init__.py:4985
+msgid "Convert each point to a vertex"
+msgstr "将每个点转换为顶点"
+
+#: __init__.py:3252
+#: __init__.py:3632
+#: __init__.py:4194
+#: __init__.py:4301
+#: __init__.py:4762
+#: __init__.py:4899
+#: __init__.py:5092
+#: __init__.py:5132
+msgid "Cubic"
+msgstr "三次"
+
+#: __init__.py:4721
+msgid "Curve settings"
+msgstr "曲线设置"
+
+#: __init__.py:3474
+#: __init__.py:4861
+msgid "Custom radius for circle"
+msgstr "圆形的自定义半径"
+
+#: __init__.py:3969
+#: __init__.py:5027
+msgid "Delete strokes"
+msgstr "删除笔画"
+
+#: __init__.py:3786
+#: __init__.py:4959
+msgid "Derive plane from averaging vertex normals"
+msgstr "通过平均顶点法线推导平面"
+
+#: __init__.py:4711
+msgid "Display settings of the Bridge tool"
+msgstr "桥接工具的显示设置"
+
+#: __init__.py:4716
+msgid "Display settings of the Circle tool"
+msgstr "圆形工具的显示设置"
+
+#: __init__.py:4721
+msgid "Display settings of the Curve tool"
+msgstr "曲线工具的显示设置"
+
+#: __init__.py:4726
+msgid "Display settings of the Flatten tool"
+msgstr "平化工具的显示设置"
+
+#: __init__.py:4731
+msgid "Display settings of the Gstretch tool"
+msgstr "Gstretch 工具的显示设置"
+
+#: __init__.py:4736
+msgid "Display settings of the Loft tool"
+msgstr "放样工具的显示设置"
+
+#: __init__.py:4741
+msgid "Display settings of the Relax tool"
+msgstr "松弛工具的显示设置"
+
+#: __init__.py:4746
+msgid "Display settings of the Space tool"
+msgstr "均分工具的显示设置"
+
+#: __init__.py:3920
+#: __init__.py:3933
+#: __init__.py:4978
+#: __init__.py:4991
+msgid "Distance"
+msgstr "距离"
+
+#: __init__.py:4003
+#: __init__.py:5061
+msgid "Distribute vertices along the full stroke, retaining relative distances between the vertices"
+msgstr "沿整条笔画分布顶点，并保持顶点之间的相对距离"
+
+#: __init__.py:3489
+#: __init__.py:4868
+msgid "Distribute vertices at constant distances along the circle"
+msgstr "沿圆形以恒定间距分布顶点"
+
+#: __init__.py:3652
+#: __init__.py:4919
+msgid "Distribute vertices at constant distances along the curve"
+msgstr "沿曲线以恒定间距分布顶点"
+
+#: __init__.py:4209
+#: __init__.py:5106
+msgid "Distribute vertices at constant distances along the loop"
+msgstr "沿循环边以恒定间距分布顶点"
+
+#: __init__.py:4005
+#: __init__.py:5063
+msgid "Distribute vertices at regular distances along the full stroke"
+msgstr "沿整条笔画以等间距分布顶点"
+
+#: __init__.py:4428
+msgid "Edit"
+msgstr "编辑"
+
+#: __init__.py:3924
+#: __init__.py:4982
+msgid "Exact vertices"
+msgstr "精确顶点数"
+
+#: __init__.py:3660
+#: __init__.py:4927
+msgid "Extrude only"
+msgstr "仅挤出"
+
+#: __init__.py:3280
+#: __init__.py:4789
+msgid "Fast algorithm"
+msgstr "快速算法"
+
+#: __init__.py:3442
+#: __init__.py:4828
+msgid "Fit inside"
+msgstr "内切"
+
+#: __init__.py:4203
+#: __init__.py:5100
+msgid "Five"
+msgstr "五"
+
+#: __init__.py:3446
+#: __init__.py:4832
+msgid "Flatten"
+msgstr "平化"
+
+#: __init__.py:3787
+#: __init__.py:4961
+msgid "Flatten on a plane perpendicular to the viewing angle"
+msgstr "在垂直于视角的平面上平化"
+
+#: __init__.py:4726
+msgid "Flatten settings"
+msgstr "平化设置"
+
+#: __init__.py:3446
+#: __init__.py:4832
+msgid "Flatten the circle, instead of projecting it on the mesh"
+msgstr "平化圆形，而不是将其投影到网格上"
+
+#: __init__.py:3434
+#: __init__.py:4820
+msgid "Force a custom radius"
+msgstr "强制使用自定义半径"
+
+#: __init__.py:3451
+#: __init__.py:3621
+#: __init__.py:3760
+#: __init__.py:3975
+#: __init__.py:4282
+#: __init__.py:4837
+#: __init__.py:4888
+#: __init__.py:4934
+#: __init__.py:5033
+#: __init__.py:5113
+msgid "Force of the tool"
+msgstr "工具作用强度"
+
+#: __init__.py:5073
+msgid "GPencil"
+msgstr "蜡笔"
+
+#: __init__.py:5076
+msgid "GPencil object"
+msgstr "蜡笔物体"
+
+#: __init__.py:3252
+#: __init__.py:4762
+msgid "Gives curved results"
+msgstr "产生弯曲的结果"
+
+#: __init__.py:4731
+msgid "Gstretch settings"
+msgstr "Gstretch 设置"
+
+#: __init__.py:3243
+#: __init__.py:4753
+msgid "Higher strength results in more fluid curves"
+msgstr "强度越高，曲线越流畅"
+
+#: __init__.py:3918
+#: __init__.py:4976
+msgid "If strokes are converted to geometry, use this simplification method"
+msgstr "将笔画转换为几何体时使用此简化方法"
+
+#: __init__.py:3661
+#: __init__.py:4928
+msgid "Indent only"
+msgstr "仅内凹"
+
+#: __init__.py:3451
+#: __init__.py:3621
+#: __init__.py:3760
+#: __init__.py:3975
+#: __init__.py:4282
+#: __init__.py:4837
+#: __init__.py:4888
+#: __init__.py:4934
+#: __init__.py:5033
+#: __init__.py:5113
+msgid "Influence"
+msgstr "影响"
+
+#: __init__.py:4184
+#: __init__.py:4291
+#: __init__.py:5083
+#: __init__.py:5122
+msgid "Input"
+msgstr "输入"
+
+#: __init__.py:3630
+#: __init__.py:4192
+#: __init__.py:4299
+#: __init__.py:4897
+#: __init__.py:5090
+#: __init__.py:5130
+msgid "Interpolation"
+msgstr "插值"
+
+#: __init__.py:3250
+#: __init__.py:4760
+msgid "Interpolation mode"
+msgstr "插值模式"
+
+#: __init__.py:3250
+#: __init__.py:4760
+msgid "Interpolation mode: algorithm used when creating segments"
+msgstr "插值模式：创建分段时使用的算法"
+
+#: __init__.py:4199
+#: __init__.py:5097
+msgid "Iterations"
+msgstr "迭代次数"
+
+#: __init__.py:3616
+#: __init__.py:4882
+msgid "Limit the tool to work within the boundaries of the selected vertices"
+msgstr "将工具限制在选中顶点的边界内工作"
+
+#: __init__.py:3922
+#: __init__.py:4980
+msgid "Limit vertices"
+msgstr "限制顶点数"
+
+#: __init__.py:3253
+#: __init__.py:3633
+#: __init__.py:4195
+#: __init__.py:4302
+#: __init__.py:4763
+#: __init__.py:4900
+#: __init__.py:5093
+#: __init__.py:5133
+msgid "Linear"
+msgstr "线性"
+
+#: __init__.py:3460
+#: __init__.py:3637
+#: __init__.py:3769
+#: __init__.py:3984
+#: __init__.py:4306
+#: __init__.py:4846
+#: __init__.py:4904
+#: __init__.py:4943
+#: __init__.py:5042
+#: __init__.py:5137
+msgid "Lock X"
+msgstr "锁定 X"
+
+#: __init__.py:3465
+#: __init__.py:3642
+#: __init__.py:3774
+#: __init__.py:3989
+#: __init__.py:4311
+#: __init__.py:4851
+#: __init__.py:4909
+#: __init__.py:4947
+#: __init__.py:5047
+#: __init__.py:5142
+msgid "Lock Y"
+msgstr "锁定 Y"
+
+#: __init__.py:3470
+#: __init__.py:3647
+#: __init__.py:3779
+#: __init__.py:3994
+#: __init__.py:4316
+#: __init__.py:4856
+#: __init__.py:4914
+#: __init__.py:4951
+#: __init__.py:5052
+#: __init__.py:5147
+msgid "Lock Z"
+msgstr "锁定 Z"
+
+#: __init__.py:3460
+#: __init__.py:3637
+#: __init__.py:3769
+#: __init__.py:3984
+#: __init__.py:4306
+#: __init__.py:4846
+#: __init__.py:4904
+#: __init__.py:4943
+#: __init__.py:5042
+#: __init__.py:5137
+msgid "Lock editing of the x-coordinate"
+msgstr "锁定 X 坐标的编辑"
+
+#: __init__.py:3465
+#: __init__.py:3642
+#: __init__.py:3774
+#: __init__.py:3989
+#: __init__.py:4311
+#: __init__.py:4851
+#: __init__.py:4909
+#: __init__.py:4947
+#: __init__.py:5047
+#: __init__.py:5142
+msgid "Lock editing of the y-coordinate"
+msgstr "锁定 Y 坐标的编辑"
+
+#: __init__.py:3470
+#: __init__.py:3647
+#: __init__.py:3779
+#: __init__.py:3994
+#: __init__.py:4316
+#: __init__.py:4856
+#: __init__.py:4914
+#: __init__.py:4951
+#: __init__.py:5052
+#: __init__.py:5147
+msgid "Lock editing of the z-coordinate"
+msgstr "锁定 Z 坐标的编辑"
+
+#: __init__.py:3258
+#: __init__.py:4767
+msgid "Loft"
+msgstr "放样"
+
+#: __init__.py:3258
+#: __init__.py:4767
+msgid "Loft multiple loops, instead of considering them as a multi-input for bridging"
+msgstr "放样多条循环边，而不是把它们视为桥接的多重输入"
+
+#: __init__.py:4736
+msgid "Loft settings"
+msgstr "放样设置"
+
+#: __init__.py:3264
+#: __init__.py:4773
+msgid "Loop"
+msgstr "循环边"
+
+#: __init__.py:8
+#: __init__.py:4409
+#: __init__.py:4430
+msgid "LoopTools"
+msgstr "循环工具"
+
+#: __init__.py:4184
+#: __init__.py:5083
+msgid "Loops that are relaxed"
+msgstr "已松弛的循环边"
+
+#: __init__.py:4291
+#: __init__.py:5122
+msgid "Loops that are spaced"
+msgstr "已均分的循环边"
+
+#: __init__.py:3290
+#: __init__.py:4800
+msgid "Manually override the direction in which the loops are bridged. Only use if the tool gives the wrong result"
+msgstr "手动指定循环边的桥接方向。仅在工具结果错误时使用"
+
+#: __init__.py:4032
+#: __init__.py:4596
+msgid "Max"
+msgstr "最大"
+
+#: __init__.py:3942
+#: __init__.py:5000
+msgid "Max Vertices"
+msgstr "最大顶点数"
+
+#: __init__.py:3942
+#: __init__.py:5000
+msgid "Maximum number of vertices strokes will have, when they are converted to geometry"
+msgstr "笔画转换为几何体后的最大顶点数"
+
+#: __init__.py:8
+msgid "Mesh"
+msgstr "网格"
+
+#: __init__.py:8
+msgid "Mesh modelling toolkit. Several tools to aid modelling"
+msgstr "网格建模工具包，包含多个辅助建模的工具"
+
+#: __init__.py:3439
+#: __init__.py:3999
+#: __init__.py:4825
+#: __init__.py:5057
+msgid "Method"
+msgstr "方法"
+
+#: __init__.py:5057
+msgid "Method of distributing the vertices over the Grease Pencil stroke"
+msgstr "在蜡笔笔画上分布顶点的方法"
+
+#: __init__.py:3999
+msgid "Method of distributing the vertices over the stroke"
+msgstr "在笔画上分布顶点的方法"
+
+#: __init__.py:3439
+#: __init__.py:4825
+msgid "Method used for fitting a circle to the vertices"
+msgstr "将圆形拟合到顶点所用的方法"
+
+#: __init__.py:4031
+#: __init__.py:4595
+msgid "Min"
+msgstr "最小"
+
+#: __init__.py:3951
+#: __init__.py:5009
+msgid "Min Vertices"
+msgstr "最小顶点数"
+
+#: __init__.py:3951
+#: __init__.py:5009
+msgid "Minimum number of vertices strokes will have, when they are converted to geometry"
+msgstr "笔画转换为几何体后的最小顶点数"
+
+#: __init__.py:3269
+#: __init__.py:4778
+msgid "Minimum width"
+msgstr "最小宽度"
+
+#: __init__.py:3278
+#: __init__.py:4787
+msgid "Mode"
+msgstr "模式"
+
+#: __init__.py:3632
+#: __init__.py:4194
+#: __init__.py:4301
+#: __init__.py:4899
+#: __init__.py:5092
+#: __init__.py:5132
+msgid "Natural cubic spline, smooth results"
+msgstr "自然三次样条，结果平滑"
+
+#: __init__.py:3887
+msgid "No Annotation data to Unlink"
+msgstr "没有可删除的标注数据"
+
+#: __init__.py:3906
+msgid "No GPencil data to Unlink"
+msgstr "没有可删除的蜡笔数据"
+
+#: __init__.py:3659
+#: __init__.py:3793
+#: __init__.py:4926
+#: __init__.py:4968
+msgid "No restrictions on vertex movement"
+msgstr "不限制顶点移动"
+
+#: __init__.py:3927
+#: __init__.py:4985
+msgid "No simplification"
+msgstr "不简化"
+
+#: __init__.py:3441
+#: __init__.py:4827
+msgid "Non-linear least squares"
+msgstr "非线性最小二乘"
+
+#: __init__.py:3659
+#: __init__.py:3793
+#: __init__.py:4926
+#: __init__.py:4968
+#: __init__.py:5071
+msgid "None"
+msgstr "无"
+
+#: __init__.py:3786
+#: __init__.py:4959
+msgid "Normal"
+msgstr "法线"
+
+#: __init__.py:3296
+#: __init__.py:4806
+msgid "Number of segments used to bridge the gap (0=automatic)"
+msgstr "用于桥接间隙的分段数（0=自动）"
+
+#: __init__.py:4199
+#: __init__.py:5097
+msgid "Number of times the loop is relaxed"
+msgstr "循环边的松弛次数"
+
+#: __init__.py:3960
+#: __init__.py:5018
+msgid "Number of vertices strokes will have, when they are converted to geometry. If strokes have less points than required, the 'Spread evenly' method is used"
+msgstr "笔画转换为几何体后的顶点数。若笔画的点数少于所需数量，则使用“均匀铺开”方法"
+
+#: __init__.py:4201
+#: __init__.py:5098
+msgid "One"
+msgstr "一"
+
+#: __init__.py:3660
+#: __init__.py:4927
+msgid "Only allow extrusions (no indentations)"
+msgstr "仅允许挤出（不允许内凹）"
+
+#: __init__.py:3661
+#: __init__.py:4928
+msgid "Only allow indentation (no extrusions)"
+msgstr "仅允许内凹（不允许挤出）"
+
+#: __init__.py:3442
+#: __init__.py:4828
+msgid "Only move vertices towards the center"
+msgstr "仅将顶点向中心移动"
+
+#: __init__.py:4188
+#: __init__.py:4295
+#: __init__.py:5086
+#: __init__.py:5126
+msgid "Only use selected vertices as input"
+msgstr "仅将选中的顶点用作输入"
+
+#: __init__.py:4186
+#: __init__.py:4293
+#: __init__.py:5084
+#: __init__.py:5124
+msgid "Parallel (all)"
+msgstr "平行（全部）"
+
+#: __init__.py:3783
+#: __init__.py:4956
+msgid "Plane"
+msgstr "平面"
+
+#: __init__.py:3783
+#: __init__.py:4956
+msgid "Plane on which vertices are flattened"
+msgstr "顶点平化所在的平面"
+
+#: __init__.py:4001
+#: __init__.py:5059
+msgid "Project"
+msgstr "投影"
+
+#: __init__.py:4001
+#: __init__.py:5059
+msgid "Project vertices onto the stroke, using vertex normals and connected edges"
+msgstr "利用顶点法线与相连的边，将顶点投影到笔画上"
+
+#: __init__.py:3434
+#: __init__.py:3474
+#: __init__.py:4820
+#: __init__.py:4861
+msgid "Radius"
+msgstr "半径"
+
+#: __init__.py:3489
+#: __init__.py:3652
+#: __init__.py:4209
+#: __init__.py:4868
+#: __init__.py:4919
+#: __init__.py:5106
+msgid "Regular"
+msgstr "规则"
+
+#: __init__.py:4741
+msgid "Relax settings"
+msgstr "松弛设置"
+
+#: __init__.py:5027
+msgid "Remove Grease Pencil strokes if they have been used for Gstretch. WARNING: DOES NOT SUPPORT UNDO"
+msgstr "删除已用于 Gstretch 的蜡笔笔画。警告：不支持撤销"
+
+#: __init__.py:3285
+#: __init__.py:4795
+msgid "Remove faces"
+msgstr "移除面"
+
+#: __init__.py:3285
+#: __init__.py:4795
+msgid "Remove faces that are internal after bridging"
+msgstr "移除桥接后位于内部的面"
+
+#: __init__.py:3969
+msgid "Remove strokes if they have been used.WARNING: DOES NOT SUPPORT UNDO"
+msgstr "删除已使用过的笔画。警告：不支持撤销"
+
+#: __init__.py:3657
+#: __init__.py:3791
+#: __init__.py:4924
+#: __init__.py:4966
+msgid "Restriction"
+msgstr "限制"
+
+#: __init__.py:3657
+#: __init__.py:3791
+#: __init__.py:4924
+#: __init__.py:4966
+msgid "Restrictions on how the vertices can be moved"
+msgstr "对顶点移动方式的限制"
+
+#: __init__.py:3290
+#: __init__.py:4800
+msgid "Reverse"
+msgstr "反向"
+
+#: __init__.py:3481
+#: __init__.py:4873
+msgid "Rotate a circle by an angle"
+msgstr "按角度旋转圆形"
+
+#: __init__.py:3296
+#: __init__.py:4806
+msgid "Segments"
+msgstr "分段"
+
+#: __init__.py:3269
+#: __init__.py:4778
+msgid "Segments with an edge smaller than this are merged (compared to base edge)"
+msgstr "边长短于此值（相对于基准边）的分段会被合并"
+
+#: __init__.py:4188
+#: __init__.py:4295
+#: __init__.py:5086
+#: __init__.py:5126
+msgid "Selection"
+msgstr "选中项"
+
+#: __init__.py:5076
+msgid "Set GPencil object"
+msgstr "设置蜡笔物体"
+
+#: __init__.py:3920
+msgid "Set the distance between vertices of the converted  stroke"
+msgstr "设置转换后笔画上顶点之间的距离"
+
+#: __init__.py:4978
+msgid "Set the distance between vertices of the converted stroke"
+msgstr "设置转换后笔画上顶点之间的距离"
+
+#: __init__.py:3924
+#: __init__.py:4982
+msgid "Set the exact number of vertices that converted strokes will have. Short strokes with few points may contain less vertices than this number."
+msgstr "设置转换后笔画的确切顶点数。点数较少的短笔画可能少于该数量。"
+
+#: __init__.py:4980
+msgid "Set the minimum and maximum number of vertices that converted GP strokes will have"
+msgstr "设置转换后的蜡笔笔画的最小与最大顶点数"
+
+#: __init__.py:3922
+msgid "Set the minimum and maximum number of vertices that converted strokes will have"
+msgstr "设置转换后笔画的最小与最大顶点数"
+
+#: __init__.py:3281
+#: __init__.py:4790
+msgid "Shortest edge"
+msgstr "最短边"
+
+#: __init__.py:3633
+#: __init__.py:4195
+#: __init__.py:4900
+#: __init__.py:5093
+msgid "Simple and fast linear algorithm"
+msgstr "简单快速的线性算法"
+
+#: __init__.py:3281
+#: __init__.py:4790
+msgid "Slower algorithm with better vertex matching"
+msgstr "较慢但顶点匹配更好的算法"
+
+#: __init__.py:4746
+msgid "Space settings"
+msgstr "均分设置"
+
+#: __init__.py:4003
+#: __init__.py:5061
+msgid "Spread"
+msgstr "铺开"
+
+#: __init__.py:4005
+#: __init__.py:5063
+msgid "Spread evenly"
+msgstr "均匀铺开"
+
+#: __init__.py:3243
+#: __init__.py:4753
+msgid "Strength"
+msgstr "强度"
+
+#: __init__.py:5188
+msgid "Tab Category"
+msgstr "标签页分类"
+
+#: __init__.py:5200
+msgid "Tab Category:"
+msgstr "标签页分类："
+
+#: __init__.py:4204
+#: __init__.py:5101
+msgid "Ten"
+msgstr "十"
+
+#: __init__.py:4202
+#: __init__.py:5099
+msgid "Three"
+msgstr "三"
+
+#: __init__.py:4205
+#: __init__.py:5102
+msgid "Twenty-five"
+msgstr "二十五"
+
+#: __init__.py:3303
+#: __init__.py:4813
+msgid "Twist"
+msgstr "扭曲"
+
+#: __init__.py:3303
+#: __init__.py:4813
+msgid "Twist what vertices are connected to each other"
+msgstr "扭转顶点之间的连接关系"
+
+#: __init__.py:5069
+msgid "Use guides"
+msgstr "使用引导线"
+
+#: __init__.py:3960
+#: __init__.py:5018
+msgid "Vertices"
+msgstr "顶点"
+
+#: __init__.py:4302
+#: __init__.py:5133
+msgid "Vertices are projected on existing edges"
+msgstr "顶点会被投影到现有的边上"
+
+#: __init__.py:3794
+#: __init__.py:4969
+msgid "Vertices are restricted to movement inside the bounding box of the selection"
+msgstr "顶点只能在选中项的边界框内移动"
+
+#: __init__.py:3787
+#: __init__.py:4961
+msgid "View"
+msgstr "视图"
+
+#: __init__.py:3520
+#: __init__.py:3522
+#: __init__.py:3684
+#: __init__.py:3686
+#: __init__.py:3816
+#: __init__.py:3818
+#: __init__.py:4040
+#: __init__.py:4042
+#: __init__.py:4338
+#: __init__.py:4340
+#: __init__.py:4499
+#: __init__.py:4501
+#: __init__.py:4531
+#: __init__.py:4533
+#: __init__.py:4561
+#: __init__.py:4563
+#: __init__.py:4604
+#: __init__.py:4606
+#: __init__.py:4690
+#: __init__.py:4692
+msgid "X"
+msgstr "X"
+
+#: __init__.py:3524
+#: __init__.py:3526
+#: __init__.py:3688
+#: __init__.py:3690
+#: __init__.py:3820
+#: __init__.py:3822
+#: __init__.py:4044
+#: __init__.py:4046
+#: __init__.py:4342
+#: __init__.py:4344
+#: __init__.py:4503
+#: __init__.py:4505
+#: __init__.py:4535
+#: __init__.py:4537
+#: __init__.py:4565
+#: __init__.py:4567
+#: __init__.py:4608
+#: __init__.py:4610
+#: __init__.py:4694
+#: __init__.py:4696
+msgid "Y"
+msgstr "Y"
+
+#: __init__.py:3528
+#: __init__.py:3530
+#: __init__.py:3692
+#: __init__.py:3694
+#: __init__.py:3824
+#: __init__.py:3826
+#: __init__.py:4048
+#: __init__.py:4050
+#: __init__.py:4346
+#: __init__.py:4348
+#: __init__.py:4507
+#: __init__.py:4509
+#: __init__.py:4539
+#: __init__.py:4541
+#: __init__.py:4569
+#: __init__.py:4571
+#: __init__.py:4612
+#: __init__.py:4614
+#: __init__.py:4698
+#: __init__.py:4700
+msgid "Z"
+msgstr "Z"
+
+#: __init__.py:58
+msgid "active Annotation strokes not found"
+msgstr "未找到活动的标注笔画"
+
+#: __init__.py:65
+msgid "active GPencil strokes not found"
+msgstr "未找到活动的蜡笔笔画"
+
+#: __init__.py:4414
+#: __init__.py:4444
+msgctxt "Operator"
+msgid "Bridge"
+msgstr "桥接"
+
+#: __init__.py:3239
+msgctxt "Operator"
+msgid "Bridge / Loft"
+msgstr "桥接 / 放样"
+
+#: __init__.py:3240
+msgctxt "Operator"
+msgid "Bridge two, or loft several, loops of vertices"
+msgstr "桥接两条循环边，或放样多条顶点循环边"
+
+#: __init__.py:3430
+msgctxt "Operator"
+msgid "Circle"
+msgstr "圆形"
+
+#: __init__.py:3612
+msgctxt "Operator"
+msgid "Curve"
+msgstr "曲线"
+
+#: __init__.py:4617
+msgctxt "Operator"
+msgid "Delete Annotation Strokes"
+msgstr "删除标注笔画"
+
+#: __init__.py:4619
+msgctxt "Operator"
+msgid "Delete GPencil Strokes"
+msgstr "删除蜡笔笔画"
+
+#: __init__.py:4056
+msgctxt "Operator"
+msgid "Delete GPencil strokes"
+msgstr "删除蜡笔笔画"
+
+#: __init__.py:4054
+msgctxt "Operator"
+msgid "Delete annotation strokes"
+msgstr "删除标注笔画"
+
+#: __init__.py:3756
+msgctxt "Operator"
+msgid "Flatten"
+msgstr "平化"
+
+#: __init__.py:3757
+msgctxt "Operator"
+msgid "Flatten vertices on a best-fitting plane"
+msgstr "在最佳拟合平面上平化顶点"
+
+#: __init__.py:3914
+msgctxt "Operator"
+msgid "Gstretch"
+msgstr "Gstretch"
+
+#: __init__.py:4419
+#: __init__.py:4627
+msgctxt "Operator"
+msgid "Loft"
+msgstr "放样"
+
+#: __init__.py:3431
+msgctxt "Operator"
+msgid "Move selected vertices into a circle shape"
+msgstr "将选中顶点移动成圆形"
+
+#: __init__.py:4180
+msgctxt "Operator"
+msgid "Relax"
+msgstr "松弛"
+
+#: __init__.py:4181
+msgctxt "Operator"
+msgid "Relax the loop, so it is smoother"
+msgstr "松弛循环边，使其更平滑"
+
+#: __init__.py:3878
+msgctxt "Operator"
+msgid "Remove Annotation"
+msgstr "移除标注"
+
+#: __init__.py:3895
+msgctxt "Operator"
+msgid "Remove GPencil"
+msgstr "移除蜡笔"
+
+#: __init__.py:3879
+msgctxt "Operator"
+msgid "Remove all Annotation Strokes"
+msgstr "移除所有标注笔画"
+
+#: __init__.py:3896
+msgctxt "Operator"
+msgid "Remove all GPencil Strokes"
+msgstr "移除所有蜡笔笔画"
+
+#: __init__.py:4278
+msgctxt "Operator"
+msgid "Space"
+msgstr "均分"
+
+#: __init__.py:4279
+msgctxt "Operator"
+msgid "Space the vertices in a regular distribution on the loop"
+msgstr "在循环边上按规则间距分布顶点"
+
+#: __init__.py:3915
+msgctxt "Operator"
+msgid "Stretch selected vertices to active stroke"
+msgstr "将选中顶点拉伸到活动笔画"
+
+#: __init__.py:3613
+msgctxt "Operator"
+msgid "Turn a loop into a smooth curve"
+msgstr "将循环边转换为平滑曲线"
