@@ -1,0 +1,264 @@
+# perfect-chinese: 1
+# id: io_bugsnax
+# kind: addon
+# module: bl_ext.blender_org.io_bugsnax
+# name: Bugsnax Cache Importer/Exporter
+# name_zh: Bugsnax缓存导入导出
+# translator: KeshiMiao
+# category: Import-Export
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: io_bugsnax/__init__.py:288
+msgid "Animation FPS"
+msgstr "动画 FPS"
+
+#: io_bugsnax/__init__.py:395
+msgid "Animation Range"
+msgstr "动画范围"
+
+#: io_bugsnax/__init__.py:359
+msgid "Apply Modifiers"
+msgstr "应用修改器"
+
+#: io_bugsnax/__init__.py:282
+msgid "Bind Pose"
+msgstr "绑定姿势"
+
+#: io_bugsnax/__init__.py:15
+msgid "Bugsnax Cache (.objcache, .daecache, .xcache)"
+msgstr "Bugsnax 缓存 (.objcache, .daecache, .xcache)"
+
+#: io_bugsnax/__init__.py:256
+msgid "Connect the diffuse texture's alpha channel to material alpha"
+msgstr "将漫反射纹理的 Alpha 通道连接到材质 Alpha"
+
+#: io_bugsnax/__init__.py:56
+msgid "Connect the diffuse texture's alpha channel to material alpha (alpha-clip cutout) when the texture genuinely contains transparency. Foliage and other cutout textures use this; fully opaque textures are left solid"
+msgstr "当纹理确实包含透明度时，将漫反射纹理的 Alpha 通道连接到材质 Alpha（Alpha 裁剪镂空）。植被和其他镂空纹理会使用此项；完全不透明的纹理保持实心"
+
+#: io_bugsnax/__init__.py:84
+#: io_bugsnax/__init__.py:117
+msgid "Data"
+msgstr "数据"
+
+#: io_bugsnax/__init__.py:373
+msgid "Export Animation"
+msgstr "导出动画"
+
+#: io_bugsnax/__init__.py:371
+msgid "Export Armature"
+msgstr "导出骨架"
+
+#: io_bugsnax/__init__.py:372
+msgid "Export Weights"
+msgstr "导出权重"
+
+#: io_bugsnax/__init__.py:422
+msgid "Export failed — see the system console for the full traceback (Window > Toggle System Console on Windows; launch Blender from a terminal on Linux/macOS)."
+msgstr "导出失败 — 请查看系统控制台以获取完整回溯信息（Windows 上为：窗口 > 切换系统控制台；Linux/macOS 请从终端启动 Blender）。"
+
+#: io_bugsnax/__init__.py:135
+msgid "Export only the selected mesh; otherwise the first mesh in the scene"
+msgstr "仅导出选中的网格；否则导出场景中的第一个网格"
+
+#: io_bugsnax/__init__.py:242
+#: io_bugsnax/__init__.py:361
+msgid "Forward Axis"
+msgstr "前向轴"
+
+#: io_bugsnax/__init__.py:375
+msgid "Frame End"
+msgstr "结束帧"
+
+#: io_bugsnax/__init__.py:283
+msgid "Frame Hierarchy"
+msgstr "帧层级"
+
+#: io_bugsnax/__init__.py:374
+msgid "Frame Start"
+msgstr "起始帧"
+
+#: io_bugsnax/__init__.py:299
+msgid "Geometry"
+msgstr "几何"
+
+#: io_bugsnax/__init__.py:268
+msgid "Import Animation"
+msgstr "导入动画"
+
+#: io_bugsnax/__init__.py:266
+msgid "Import Armature"
+msgstr "导入骨架"
+
+#: io_bugsnax/__init__.py:254
+msgid "Import Materials"
+msgstr "导入材质"
+
+#: io_bugsnax/__init__.py:252
+msgid "Import Normals"
+msgstr "导入法线"
+
+#: io_bugsnax/__init__.py:48
+#: io_bugsnax/__init__.py:255
+msgid "Import Textures"
+msgstr "导入纹理"
+
+#: io_bugsnax/__init__.py:253
+msgid "Import UVs"
+msgstr "导入 UV"
+
+#: io_bugsnax/__init__.py:267
+msgid "Import Weights"
+msgstr "导入权重"
+
+#: io_bugsnax/__init__.py:15
+msgid "Import and export Bugsnax .objcache, .daecache, and .xcache files"
+msgstr "导入和导出 Bugsnax .objcache、.daecache 和 .xcache 文件"
+
+#: io_bugsnax/__init__.py:15
+msgid "Import-Export"
+msgstr "导入-导出"
+
+#: io_bugsnax/__init__.py:162
+#: io_bugsnax/__init__.py:195
+msgid "Include"
+msgstr "包含"
+
+#: io_bugsnax/__init__.py:287
+msgid "Infer Sharp Edges"
+msgstr "推断锐利边"
+
+#: io_bugsnax/__init__.py:48
+msgid "Load image files referenced by the cache. Missing files get a placeholder so the path still round-trips on export"
+msgstr "加载缓存引用的图像文件。缺失的文件会获得占位符，以便路径在导出时仍可往返"
+
+#: io_bugsnax/__init__.py:305
+msgid "Materials"
+msgstr "材质"
+
+#: io_bugsnax/__init__.py:274
+msgid "Rest Pose Source"
+msgstr "静止姿势来源"
+
+#: io_bugsnax/__init__.py:310
+msgid "Rig"
+msgstr "绑定"
+
+#: io_bugsnax/__init__.py:41
+#: io_bugsnax/__init__.py:140
+msgid "Scale"
+msgstr "缩放"
+
+#: io_bugsnax/__init__.py:135
+#: io_bugsnax/__init__.py:358
+msgid "Selected Only"
+msgstr "仅选中项"
+
+#: io_bugsnax/__init__.py:289
+msgid "Set Scene Frame Range"
+msgstr "设置场景帧范围"
+
+#: io_bugsnax/__init__.py:261
+msgid "Split Sub-Meshes"
+msgstr "拆分子网格"
+
+#: io_bugsnax/__init__.py:261
+msgid "Split an xcache's internal multi-mesh structure into separate Blender objects"
+msgstr "将 xcache 内部的多网格结构拆分为独立的 Blender 物体"
+
+#: io_bugsnax/__init__.py:81
+#: io_bugsnax/__init__.py:114
+msgid "Transform"
+msgstr "变换"
+
+#: io_bugsnax/__init__.py:140
+msgid "Uniform scale applied to exported geometry"
+msgstr "应用于导出几何体的统一缩放"
+
+#: io_bugsnax/__init__.py:41
+#: io_bugsnax/__init__.py:235
+msgid "Uniform scale applied to imported geometry"
+msgstr "应用于导入几何体的统一缩放"
+
+#: io_bugsnax/__init__.py:247
+#: io_bugsnax/__init__.py:366
+msgid "Up Axis"
+msgstr "上轴"
+
+#: io_bugsnax/__init__.py:56
+#: io_bugsnax/__init__.py:256
+msgid "Use Diffuse Alpha"
+msgstr "使用漫反射 Alpha"
+
+#: io_bugsnax/__init__.py:283
+msgid "Use FrameTransformMatrix chain"
+msgstr "使用 FrameTransformMatrix 链"
+
+#: io_bugsnax/__init__.py:282
+msgid "Use SkinWeights matrixOffset (correct for xcache)"
+msgstr "使用 SkinWeights 的 matrixOffset（对 xcache 正确）"
+
+#: io_bugsnax/__init__.py:269
+msgid "Weld Duplicate Vertices"
+msgstr "焊接重复顶点"
+
+#: io_bugsnax/__init__.py:269
+msgid "Weld duplicate-position verts so bone-deformation boundaries don't separate when animated"
+msgstr "焊接位置重复的顶点，避免动画时骨骼形变边界分离"
+
+#: io_bugsnax/__init__.py:274
+msgid "Where to read bone rest poses from. Bind Pose (default) uses the SkinWeights matrixOffset inverse-bind matrices — the correct interpretation for Bugsnax xcache files."
+msgstr "读取骨骼静止姿势的来源。绑定姿势（默认）使用 SkinWeights 的 matrixOffset 逆绑定矩阵 — 这是 Bugsnax xcache 文件的正确解读方式。"
+
+#: io_bugsnax/__init__.py:445
+#: io_bugsnax/__init__.py:457
+msgctxt "Operator"
+msgid "Bugsnax Cache (.daecache)"
+msgstr "Bugsnax 缓存 (.daecache)"
+
+#: io_bugsnax/__init__.py:441
+#: io_bugsnax/__init__.py:453
+msgctxt "Operator"
+msgid "Bugsnax Cache (.objcache)"
+msgstr "Bugsnax 缓存 (.objcache)"
+
+#: io_bugsnax/__init__.py:449
+#: io_bugsnax/__init__.py:461
+msgctxt "Operator"
+msgid "Bugsnax Cache (.xcache)"
+msgstr "Bugsnax 缓存 (.xcache)"
+
+#: io_bugsnax/__init__.py:186
+msgctxt "Operator"
+msgid "Export Bugsnax .daecache"
+msgstr "导出 Bugsnax .daecache"
+
+#: io_bugsnax/__init__.py:153
+msgctxt "Operator"
+msgid "Export Bugsnax .objcache"
+msgstr "导出 Bugsnax .objcache"
+
+#: io_bugsnax/__init__.py:352
+msgctxt "Operator"
+msgid "Export Bugsnax .xcache"
+msgstr "导出 Bugsnax .xcache"
+
+#: io_bugsnax/__init__.py:105
+msgctxt "Operator"
+msgid "Import Bugsnax .daecache"
+msgstr "导入 Bugsnax .daecache"
+
+#: io_bugsnax/__init__.py:72
+msgctxt "Operator"
+msgid "Import Bugsnax .objcache"
+msgstr "导入 Bugsnax .objcache"
+
+#: io_bugsnax/__init__.py:224
+msgctxt "Operator"
+msgid "Import Bugsnax .xcache"
+msgstr "导入 Bugsnax .xcache"

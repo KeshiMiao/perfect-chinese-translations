@@ -1,0 +1,351 @@
+# perfect-chinese: 1
+# id: step_forge
+# kind: addon
+# module: bl_ext.blender_org.step_forge
+# name: StepForge
+# name_zh: StepForge导入导出
+# translator: KeshiMiao
+# category: Import-Export
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: _blender.py:635
+msgid "Accuracy"
+msgstr "精度"
+
+#: _blender.py:933
+msgid "Adjacent straight boundary edges are merged into one when they differ in direction by less than this many degrees. Higher = fewer, longer edges (smaller file, faster reimport); too high rounds off a sharp corner"
+msgstr "相邻直线边界边方向差小于此角度时合并为一条。数值越大，边越少越长（文件更小、重新导入更快）；过大则会使尖角变圆"
+
+#: _blender.py:904
+msgid "Adjacent triangles belong to the same curved patch only if their face-normal angle is below this; keeps sharp edges and corners from fusing into one surface. Rarely needs changing"
+msgstr "仅当相邻三角形的面法线夹角小于此值时，它们才属于同一曲面片；可避免锐边和角点融合成一个曲面。通常无需更改"
+
+#: _blender.py:657
+msgid "Also split flat faces into triangles no longer than Max Flat Edge (denser, evenly sized mesh, e.g. for deformation). Off: a flat face uses only its outline, which is exact and much lighter"
+msgstr "同时将平面细分为边长不超过「最大平面边」的三角形（网格更密、尺寸均匀，例如用于形变）。关闭：平面仅使用其轮廓，精确且轻量得多"
+
+#: _blender.py:672
+msgid "Auto"
+msgstr "自动"
+
+#: _blender.py:641
+msgid "Balanced (default)"
+msgstr "平衡（默认）"
+
+#: _blender.py:854
+msgid "Before writing, merge near-coplanar triangles into larger flat faces and re-triangulate, which removes zig-zag diagonals on flat panels for a cleaner, lighter file. Tessellated mode only; Curved mode merges flat regions itself"
+msgstr "写入前将近共面三角形合并为更大的平面并重新三角化，可去除平面板上的锯齿对角线，使文件更整洁轻量。仅限三角网格模式；曲面模式会自行合并平面区域"
+
+#: _blender.py:649
+msgid "Chord Tolerance (mm)"
+msgstr "弦公差（毫米）"
+
+#: _blender.py:663
+msgid "Chord tolerance as a percentage of the part's own longest bounding-box dimension (Max Flat Edge scales with it, at the ratio Medium quality uses). Lower = finer and slower, higher = coarser and faster"
+msgstr "弦公差占零件自身最长包围盒尺寸的百分比（「最大平面边」随之按中等质量的比例缩放）。越低越精细但越慢，越高越粗糙但越快"
+
+#: _blender.py:861
+msgid "Coplanar Angle"
+msgstr "共面角度"
+
+#: _blender.py:695
+msgid "Create materials from the colours stored in the STEP file (per part and per face)"
+msgstr "根据 STEP 文件中存储的颜色创建材质（按零件和按面）"
+
+#: _blender.py:898
+msgid "Curve Fit Tolerance"
+msgstr "曲线拟合公差"
+
+#: _blender.py:891
+msgid "Curve Fit Tolerance (mm)"
+msgstr "曲线拟合公差（毫米）"
+
+#: _blender.py:898
+msgid "Curve fit tolerance as a percentage of the exported part's bounding-box longest edge, computed at export time, so it scales with part size"
+msgstr "曲线拟合公差占导出零件包围盒最长边的百分比，在导出时计算，因此随零件尺寸缩放"
+
+#: _blender.py:868
+msgid "Curved (analytic, experimental)"
+msgstr "曲面（解析，实验性）"
+
+#: _blender.py:644
+msgid "Custom"
+msgstr "自定义"
+
+#: _blender.py:649
+msgid "Custom max deviation of a facet from the true surface"
+msgstr "自定义面片与真实曲面的最大偏差"
+
+#: _blender.py:652
+msgid "Custom target triangle edge length along straight edges next to curved faces, and on flat faces when Subdivide Flat Faces is on"
+msgstr "自定义目标三角形边长，适用于曲面旁的直线边，以及开启「细分平面」时的平面"
+
+#: _blender.py:699
+msgid "Debug Prints (Console)"
+msgstr "调试输出（控制台）"
+
+#: _blender.py:663
+msgid "Detail"
+msgstr "细节"
+
+#: _blender.py:686
+msgid "Every face smooth-shaded, including flat panels"
+msgstr "所有面均平滑着色，包括平面板"
+
+#: _blender.py:685
+msgid "Every triangle facet visible: the classic hard-edge CAD look"
+msgstr "显示每个三角面片：经典的硬边 CAD 外观"
+
+#: _blender.py:919
+msgid "Faces imported by StepForge whose polygons still lie on their original STEP surface are written back with that exact surface (one face each, as in the source file) instead of being re-fitted. Edited faces are re-fitted as usual"
+msgstr "StepForge 导入的面若其多边形仍位于原始 STEP 曲面上，则连同该精确曲面一起写回（与原文件一样每个面一个），而不是重新拟合。已编辑的面照常重新拟合"
+
+#: _blender.py:689
+msgid "Faces meeting at less than this angle (degrees) are shaded smooth across their shared edge; only used when Shading = Smooth by Angle"
+msgstr "夹角小于此值（度）的面在共享边处平滑着色；仅在着色 = 按角度平滑时使用"
+
+#: _blender.py:640
+msgid "Fastest, coarse facets"
+msgstr "最快，面片粗糙"
+
+#: _blender.py:670
+msgid "File Units"
+msgstr "文件单位"
+
+#: _blender.py:642
+msgid "Fine"
+msgstr "精细"
+
+#: _blender.py:685
+msgid "Flat"
+msgstr "平直"
+
+#: _blender.py:926
+msgid "Freeform Surfaces (B-spline)"
+msgstr "自由曲面（B 样条）"
+
+#: _blender.py:910
+msgid "Freeform Tolerance"
+msgstr "自由曲面公差"
+
+#: _blender.py:643
+msgid "Highest fidelity, slowest"
+msgstr "保真度最高，最慢"
+
+#: _blender.py:679
+msgid "How faces are shaded"
+msgstr "面的着色方式"
+
+#: _blender.py:635
+msgid "How finely curved surfaces are approximated (rough = fast and light, fine = dense and slower)"
+msgstr "曲面近似的精细程度（粗糙 = 快速轻量，精细 = 密集较慢）"
+
+#: _blender.py:695
+msgid "Import Colours"
+msgstr "导入颜色"
+
+#: _blender.py:694
+msgid "Join Into Single Object"
+msgstr "合并为单个物体"
+
+#: _blender.py:919
+msgid "Keep Original Surfaces"
+msgstr "保留原始曲面"
+
+#: _blender.py:933
+msgid "Line Merge Angle"
+msgstr "直线合并角度"
+
+#: _blender.py:704
+#: _blender.py:939
+msgid "Manual Settings"
+msgstr "手动设置"
+
+#: _blender.py:891
+msgid "Manual mode only. How far a mesh region may deviate from a plane, cylinder, cone or sphere and still be written as that surface. Smaller = stricter (more flat triangles), larger = more curved surfaces recovered at looser accuracy"
+msgstr "仅手动模式。网格区域偏离平面、圆柱、圆锥或球面在此范围内时，仍写为该曲面。越小越严格（更多平面三角形），越大能还原更多曲面但精度更松"
+
+#: _blender.py:652
+msgid "Max Flat Edge (mm)"
+msgstr "最大平面边（毫米）"
+
+#: _blender.py:641
+msgid "Medium"
+msgstr "中等"
+
+#: _blender.py:676
+msgid "Merge verts closer than this after import"
+msgstr "导入后合并距离小于此值的顶点"
+
+#: _blender.py:674
+msgid "Metres"
+msgstr "米"
+
+#: _blender.py:673
+msgid "Millimetres"
+msgstr "毫米"
+
+#: _blender.py:975
+msgid "No mesh objects to export"
+msgstr "没有可导出的网格物体"
+
+#: _blender.py:854
+msgid "Optimize Mesh (merge coplanar facets)"
+msgstr "优化网格（合并共面面片）"
+
+#: _blender.py:904
+msgid "Patch Break Angle"
+msgstr "面片断开角度"
+
+#: _blender.py:699
+msgid "Print per-face tessellation diagnostics to the system console while importing; useful when reporting a bad STEP file"
+msgstr "导入时将逐面细分诊断信息打印到系统控制台；报告有问题的 STEP 文件时很有用"
+
+#: _blender.py:672
+msgid "Read the unit from the file header"
+msgstr "从文件头读取单位"
+
+#: _blender.py:868
+msgid "Reconstruct real cylinders, cones, spheres, tori and planes from the mesh wherever they fit within the tolerance, so radii and fillets round-trip as curves, not facets. Smooth regions that are none of those become B-spline surfaces; whatever still does not fit becomes exact per-triangle planar faces. Newer and less battle-tested than Tessellated"
+msgstr "将网格中符合公差的区域重建为真实的圆柱、圆锥、球体、圆环和平面，使半径和圆角以曲线而非面片形式往返。不属于这些的平滑区域会变为 B 样条曲面；仍无法拟合的则变为精确的逐三角形平面。比「三角网格」更新、经验更少"
+
+#: _blender.py:926
+msgid "Reconstruct smoothly curved regions that are not a plane, cylinder, cone or sphere as B-spline surface faces instead of thousands of flat per-triangle ones. Turn off only if a downstream tool cannot read B-spline surfaces"
+msgstr "将非平面、圆柱、圆锥或球面的平滑曲面区域重建为 B 样条曲面，而不是成千上万个平面三角形。仅当下游工具无法读取 B 样条曲面时才关闭"
+
+#: _blender.py:645
+msgid "Relative to Part Size"
+msgstr "相对于零件尺寸"
+
+#: _blender.py:640
+msgid "Rough"
+msgstr "粗糙"
+
+#: _blender.py:853
+msgid "Scale (to mm)"
+msgstr "缩放（至毫米）"
+
+#: _blender.py:852
+msgid "Selection Only"
+msgstr "仅选中项"
+
+#: _blender.py:679
+msgid "Shading"
+msgstr "着色"
+
+#: _blender.py:683
+msgid "Sharp corners stay crisp, curved surfaces shade smooth"
+msgstr "尖角保持锐利，曲面平滑着色"
+
+#: _blender.py:704
+msgid "Show every import quality option (fixed presets, units, weld distance, shading, debug) instead of just the Detail slider"
+msgstr "显示所有导入质量选项（固定预设、单位、焊接距离、着色、调试），而不仅是「细节」滑块"
+
+#: _blender.py:939
+msgid "Show every raw tuning option (fixed-mm curve tolerance, patch break angle, line merge angle, mesh optimize options) instead of the automatic percentage-based defaults"
+msgstr "显示所有原始调节选项（固定毫米曲线公差、面片断开角度、直线合并角度、网格优化选项），而不是基于百分比的自动默认值"
+
+#: _blender.py:686
+msgid "Smooth"
+msgstr "平滑"
+
+#: _blender.py:689
+msgid "Smooth Angle"
+msgstr "平滑角度"
+
+#: _blender.py:683
+msgid "Smooth by Angle (recommended)"
+msgstr "按角度平滑（推荐）"
+
+#: _blender.py:642
+msgid "Smooth curves, denser mesh"
+msgstr "曲线平滑，网格更密"
+
+#: _blender.py:830
+msgid "StepForge STEP"
+msgstr "StepForge STEP"
+
+#: _blender.py:231
+msgid "StepForge is already running an import or export"
+msgstr "StepForge 正在进行导入或导出"
+
+#: _blender.py:264
+msgid "StepForge: cancelled"
+msgstr "StepForge：已取消"
+
+#: _blender.py:657
+msgid "Subdivide Flat Faces"
+msgstr "细分平面"
+
+#: _blender.py:865
+msgid "Surface Type"
+msgstr "曲面类型"
+
+#: _blender.py:875
+msgid "Tessellated (triangle mesh)"
+msgstr "三角网格"
+
+#: _blender.py:865
+msgid "Tessellated is the safe default: it round-trips through any STEP reader, StepForge's own included, identical to the mesh in Blender however often you export and re-import. Curved mode re-fits primitives from the mesh on every export, so repeated export-reimport-export cycles can lose fitted cylinders and cones and grow the triangle count: fine for a one-off hand-off to a CAD tool, not for round-tripping"
+msgstr "三角网格是安全的默认选项：任何 STEP 读取器（包括 StepForge 自身）读取后都与 Blender 中的网格完全一致，无论导出再导入多少次。曲面模式每次导出都会从网格重新拟合基本体，因此反复导出-重新导入-导出可能丢失已拟合的圆柱和圆锥并增加三角形数量：适合一次性交付给 CAD 工具，不适合往返"
+
+#: _blender.py:645
+msgid "Tolerance as a percentage of the part's own bounding box"
+msgstr "公差占零件自身包围盒的百分比"
+
+#: _blender.py:910
+msgid "Tolerance for freeform (B-spline) surfaces, as a percentage of the part's bounding-box longest edge. It sets how large the patches are: smaller = many small patches, larger = few large ones. Raise it for a coarse or noisy mesh (scan, sculpt, topology-optimised part) to turn hundreds of facets into a handful of clean surfaces"
+msgstr "自由曲面（B 样条）公差，占零件包围盒最长边的百分比。它决定面片大小：越小面片越多越小，越大面片越少越大。网格粗糙或有噪点（扫描、雕刻、拓扑优化零件）时调高它，可将数百个面片变为少量干净曲面"
+
+#: _blender.py:674
+msgid "Treat file as metres"
+msgstr "将文件视为米"
+
+#: _blender.py:673
+msgid "Treat file as mm"
+msgstr "将文件视为毫米"
+
+#: _blender.py:861
+msgid "Triangles whose face normals differ by less than this (degrees) are merged when Optimize Mesh is on"
+msgstr "开启「优化网格」时，面法线夹角小于此值（度）的三角形会合并"
+
+#: _blender.py:644
+msgid "Use the exact values below"
+msgstr "使用下面的精确数值"
+
+#: _blender.py:643
+msgid "Very Fine"
+msgstr "极精细"
+
+#: _blender.py:676
+msgid "Weld Distance (m)"
+msgstr "焊接距离（米）"
+
+#: _blender.py:875
+msgid "Write the mesh as-is, as an AP242 tessellated solid (the layout Open CASCADE and FreeCAD read). Matches Blender exactly, but curved surfaces come back as facets on the next STEP import"
+msgstr "按原样写入网格，作为 AP242 三角网格实体（Open CASCADE 和 FreeCAD 读取的布局）。与 Blender 完全一致，但下次导入 STEP 时曲面会以面片形式返回"
+
+#: _blender.py:846
+msgctxt "Operator"
+msgid "Export STEP (StepForge)"
+msgstr "导出 STEP（StepForge）"
+
+#: _blender.py:625
+msgctxt "Operator"
+msgid "Import STEP (StepForge)"
+msgstr "导入 STEP (StepForge)"
+
+#: _blender.py:1156
+msgctxt "Operator"
+msgid "STEP - StepForge (.step)"
+msgstr "STEP - StepForge (.step)"
+
+#: _blender.py:1151
+msgctxt "Operator"
+msgid "STEP - StepForge (.step/.stp)"
+msgstr "STEP - StepForge (.step/.stp)"

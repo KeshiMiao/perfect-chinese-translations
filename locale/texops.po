@@ -1,0 +1,1798 @@
+# perfect-chinese: 1
+# id: texops
+# kind: addon
+# module: bl_ext.blender_org.texops
+# name: TexOps
+# name_zh: 纹理操作
+# translator: KeshiMiao
+# category: Paint
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: texops/image_tools.py:819
+msgid "%"
+msgstr "%"
+
+#: texops/csm.py:262
+msgid "1 (R)"
+msgstr "1 (R)"
+
+#: texops/resolution_packer.py:213
+msgid "16 bits per channel"
+msgstr "每通道 16 位"
+
+#: texops/csm.py:263
+msgid "2 (RG)"
+msgstr "2 (RG)"
+
+#: texops/csm.py:263
+msgid "2 directional cones (180° each)"
+msgstr "2 个方向锥（各 180°）"
+
+#: texops/csm.py:264
+msgid "3 (RGB)"
+msgstr "3 (RGB)"
+
+#: texops/csm.py:264
+msgid "3 directional cones (120° each)"
+msgstr "3 个方向锥（各 120°）"
+
+#: texops/resolution_packer.py:214
+msgid "32 bits per channel (EXR)"
+msgstr "每通道 32 位（EXR）"
+
+#: texops/csm.py:265
+msgid "4 (RGBA)"
+msgstr "4 (RGBA)"
+
+#: texops/csm.py:265
+msgid "4 directional cones (90° each)"
+msgstr "4 个方向锥（各 90°）"
+
+#: texops/resolution_packer.py:212
+msgid "8 bits per channel"
+msgstr "每通道 8 位"
+
+#: texops/core.py:23
+#: texops/pbr_validator.py:232
+msgid "A"
+msgstr "A"
+
+#: texops/bit_packer.py:416
+msgid "A Bit Layout"
+msgstr "A 位布局"
+
+#: texops/unpacker.py:301
+msgid "A Count"
+msgstr "A 数量"
+
+#: texops/unpacker.py:306
+msgid "A Layout"
+msgstr "A 布局"
+
+#: texops/unpacker.py:311
+msgid "A Suffix"
+msgstr "A 后缀"
+
+#: texops/bit_packer.py:411
+msgid "A Texture Count"
+msgstr "A 纹理数量"
+
+#: texops/rasterizer.py:423
+msgid "AA"
+msgstr "AA"
+
+#: texops/map_converter.py:1016
+msgid "AO"
+msgstr "AO"
+
+#: texops/map_converter.py:630
+msgid "AO Map"
+msgstr "AO 贴图"
+
+#: texops/map_converter.py:853
+msgid "AO map not found"
+msgstr "未找到 AO 贴图"
+
+#: texops/map_converter.py:849
+msgid "AO map required"
+msgstr "需要 AO 贴图"
+
+#: texops/pbr_validator.py:237
+#: texops/pbr_validator.py:245
+msgid "Albedo"
+msgstr "反照率"
+
+#: texops/pbr_validator.py:252
+msgid "Allow Metallic Transitions"
+msgstr "允许金属过渡"
+
+#: texops/pbr_validator.py:252
+msgid "Allow gray metallic values in gradient areas (coatings, dust, weathering)"
+msgstr "允许在渐变区域使用灰色金属值（涂层、灰尘、风化）"
+
+#: texops/pbr_validator.py:232
+msgid "Alpha"
+msgstr "Alpha"
+
+#: texops/dilation.py:141
+msgid "Alpha Mode"
+msgstr "Alpha 模式"
+
+#: texops/dilation.py:133
+msgid "Alpha Threshold"
+msgstr "Alpha 阈值"
+
+#: texops/core.py:23
+msgid "Alpha channel"
+msgstr "Alpha 通道"
+
+#: texops/csm.py:259
+msgid "Anisotropic"
+msgstr "各向异性"
+
+#: texops/csm.py:522
+msgid "Anisotropic:"
+msgstr "各向异性："
+
+#: texops/csm.py:295
+msgid "Apply robust correction to prevent bilinear interpolation artifacts"
+msgstr "应用稳健校正以防止双线性插值伪影"
+
+#: texops/map_converter.py:25
+msgid "Approximate ambient occlusion from normal map"
+msgstr "从法线贴图近似环境光遮蔽"
+
+#: texops/core.py:22
+#: texops/image_tools.py:800
+msgid "B"
+msgstr "B"
+
+#: texops/bit_packer.py:406
+msgid "B Bit Layout"
+msgstr "B 位布局"
+
+#: texops/unpacker.py:300
+msgid "B Count"
+msgstr "B 数量"
+
+#: texops/unpacker.py:305
+msgid "B Layout"
+msgstr "B 布局"
+
+#: texops/unpacker.py:310
+msgid "B Suffix"
+msgstr "B 后缀"
+
+#: texops/bit_packer.py:401
+msgid "B Texture Count"
+msgstr "B 纹理数量"
+
+#: texops/rasterizer.py:679
+msgid "BG:"
+msgstr "背景："
+
+#: texops/rasterizer.py:427
+msgid "BW"
+msgstr "黑白"
+
+#: texops/rasterizer.py:437
+msgid "Background"
+msgstr "背景"
+
+#: texops/rasterizer.py:437
+msgid "Background color (alpha 0 = transparent)"
+msgstr "背景色（Alpha 0 = 透明）"
+
+#: texops/bit_packer.py:342
+#: texops/channel_packer.py:129
+msgid "Batch"
+msgstr "批量"
+
+#: texops/bit_packer.py:740
+msgid "Batch Input:"
+msgstr "批量输入："
+
+#: texops/bit_packer.py:356
+#: texops/resolution_packer.py:241
+msgid "Bayer matrix (deterministic, tileable)"
+msgstr "Bayer 矩阵（确定性、可平铺）"
+
+#: texops/map_converter.py:894
+msgid "Bent Normal mode requires manual AO input, use Single mode"
+msgstr "弯曲法线模式需要手动 AO 输入，请使用单张模式"
+
+#: texops/sdf.py:555
+msgid "Bevel"
+msgstr "倒角"
+
+#: texops/msdf.py:786
+msgid "Bezier subdivision quality (higher = more segments)"
+msgstr "贝塞尔细分质量（越高分段越多）"
+
+#: texops/image_tools.py:190
+msgid "Bicubic"
+msgstr "双三次"
+
+#: texops/image_tools.py:190
+msgid "Bilinear"
+msgstr "双线性"
+
+#: texops/bit_packer.py:330
+#: texops/resolution_packer.py:209
+msgid "Bit Mode"
+msgstr "位模式"
+
+#: texops/bit_packer.py:633
+msgid "Bit Packer"
+msgstr "位打包器"
+
+#: texops/unpacker.py:19
+msgid "Bit Unpack"
+msgstr "位解包"
+
+#: texops/sdf.py:559
+msgid "Blend Mode"
+msgstr "混合模式"
+
+#: texops/seamless.py:193
+msgid "Blend Zone"
+msgstr "混合区域"
+
+#: texops/pbr_validator.py:232
+msgid "Blue"
+msgstr "蓝"
+
+#: texops/bit_packer.py:358
+#: texops/resolution_packer.py:243
+msgid "Blue Noise"
+msgstr "蓝噪声"
+
+#: texops/core.py:22
+msgid "Blue channel"
+msgstr "蓝色通道"
+
+#: texops/bit_packer.py:358
+#: texops/resolution_packer.py:243
+msgid "Blue noise (best quality)"
+msgstr "蓝噪声（最佳质量）"
+
+#: texops/pbr_validator.py:311
+msgid "Both albedo and packed images required"
+msgstr "需要反照率和打包图像"
+
+#: texops/image_tools.py:198
+msgid "Bottom"
+msgstr "底部"
+
+#: texops/csm.py:483
+msgid "CSM Generator"
+msgstr "CSM 生成器"
+
+#: texops/bit_packer.py:325
+#: texops/channel_packer.py:122
+msgid "Channel"
+msgstr "通道"
+
+#: texops/channel_packer.py:311
+msgid "Channel Packer"
+msgstr "通道打包器"
+
+#: texops/unpacker.py:18
+msgid "Channel Split"
+msgstr "通道拆分"
+
+#: texops/unpacker.py:704
+msgid "Channel Suffixes:"
+msgstr "通道后缀："
+
+#: texops/unpacker.py:616
+msgid "Channels:"
+msgstr "通道："
+
+#: texops/image_tools.py:392
+msgid "Clear Channel"
+msgstr "清除通道"
+
+#: texops/image_tools.py:746
+msgid "Clear:"
+msgstr "清除："
+
+#: texops/msdf.py:758
+#: texops/rasterizer.py:398
+msgid "Collection"
+msgstr "集合"
+
+#: texops/msdf.py:871
+#: texops/rasterizer.py:508
+msgid "Collection has no curves"
+msgstr "集合中没有曲线"
+
+#: texops/msdf.py:758
+msgid "Collection of curves"
+msgstr "曲线集合"
+
+#: texops/rasterizer.py:398
+msgid "Collection of curves (e.g. imported SVG)"
+msgstr "曲线集合（例如导入的 SVG）"
+
+#: texops/map_converter.py:29
+msgid "Combine normal and AO into bent normal"
+msgstr "将法线和 AO 合并为弯曲法线"
+
+#: texops/map_converter.py:634
+msgid "Conversion intensity/strength (negative inverts direction)"
+msgstr "转换强度/力度（负值反转方向）"
+
+#: texops/map_converter.py:30
+msgid "Convert DirectX normal to OpenGL (flip Y)"
+msgstr "将 DirectX 法线转换为 OpenGL（翻转 Y）"
+
+#: texops/map_converter.py:31
+msgid "Convert OpenGL normal to DirectX (flip Y)"
+msgstr "将 OpenGL 法线转换为 DirectX（翻转 Y）"
+
+#: texops/map_converter.py:611
+msgid "Convert all images from folder"
+msgstr "转换文件夹中的所有图像"
+
+#: texops/map_converter.py:610
+msgid "Convert single image"
+msgstr "转换单张图像"
+
+#: texops/msdf.py:770
+msgid "Corner Angle"
+msgstr "拐角角度"
+
+#: texops/pbr_validator.py:426
+msgid "Corrected textures saved"
+msgstr "校正后的纹理已保存"
+
+#: texops/sdf.py:657
+msgid "Could not extract geometry from curve"
+msgstr "无法从曲线提取几何体"
+
+#: texops/rasterizer.py:515
+msgid "Could not extract geometry from curve(s)"
+msgstr "无法从曲线提取几何体"
+
+#: texops/sdf.py:684
+msgid "Could not extract geometry from curves"
+msgstr "无法从曲线提取几何体"
+
+#: texops/msdf.py:854
+msgid "Could not extract shape from curve"
+msgstr "无法从曲线提取形状"
+
+#: texops/msdf.py:877
+msgid "Could not extract shape from curves"
+msgstr "无法从曲线提取形状"
+
+#: texops/image_tools.py:588
+msgid "Crop"
+msgstr "裁剪"
+
+#: texops/image_tools.py:794
+msgid "Crop:"
+msgstr "裁剪："
+
+#: texops/image_tools.py:177
+msgid "Current"
+msgstr "当前"
+
+#: texops/msdf.py:757
+#: texops/rasterizer.py:397
+msgid "Curve"
+msgstr "曲线"
+
+#: texops/sdf.py:893
+msgid "Curve Settings:"
+msgstr "曲线设置："
+
+#: texops/channel_packer.py:151
+#: texops/csm.py:327
+msgid "Depth"
+msgstr "深度"
+
+#: texops/map_converter.py:32
+msgid "Derive Z channel from XY normal map"
+msgstr "从 XY 法线贴图推导 Z 通道"
+
+#: texops/dilation.py:138
+msgid "Diamond"
+msgstr "菱形"
+
+#: texops/dilation.py:268
+msgid "Dilation"
+msgstr "膨胀"
+
+#: texops/dilation.py:289
+msgid "Dilation Settings:"
+msgstr "膨胀设置："
+
+#: texops/map_converter.py:649
+msgid "DirectX"
+msgstr "DirectX"
+
+#: texops/rgba_toggles.py:23
+msgid "Display alpha as transparency (checkerboard) or opaque"
+msgstr "将 Alpha 显示为透明（棋盘格）或不透明"
+
+#: texops/sdf.py:900
+msgid "Distance Range (px):"
+msgstr "距离范围（像素）："
+
+#: texops/msdf.py:774
+msgid "Distance range in pixels (controls gradient width)"
+msgstr "以像素为单位的距离范围（控制渐变宽度）"
+
+#: texops/bit_packer.py:352
+#: texops/resolution_packer.py:237
+msgid "Dithering"
+msgstr "抖动"
+
+#: texops/sdf.py:914
+msgid "Edge Behavior:"
+msgstr "边缘行为："
+
+#: texops/sdf.py:549
+msgid "Edge Mode"
+msgstr "边缘模式"
+
+#: texops/dilation.py:134
+msgid "Edge Offset"
+msgstr "边缘偏移"
+
+#: texops/image_tools.py:177
+msgid "Edit current image"
+msgstr "编辑当前图像"
+
+#: texops/map_converter.py:27
+msgid "Extract cavity from normal map"
+msgstr "从法线贴图提取空腔"
+
+#: texops/map_converter.py:26
+msgid "Extract curvature from normal map"
+msgstr "从法线贴图提取曲率"
+
+#: texops/map_converter.py:23
+msgid "Extract fine detail cavity from height map"
+msgstr "从高度贴图提取精细细节空腔"
+
+#: texops/bit_packer.py:592
+msgid "Failed to load any images"
+msgstr "未能加载任何图像"
+
+#: texops/sdf.py:556
+msgid "Falloff"
+msgstr "衰减"
+
+#: texops/rasterizer.py:419
+msgid "Fill"
+msgstr "填充"
+
+#: texops/dilation.py:143
+msgid "Fill Alpha"
+msgstr "填充 Alpha"
+
+#: texops/rasterizer.py:419
+msgid "Fill the interior of closed curves"
+msgstr "填充闭合曲线的内部"
+
+#: texops/csm.py:281
+msgid "First"
+msgstr "第一个"
+
+#: texops/image_tools.py:756
+msgid "Flip / Mirror:"
+msgstr "翻转 / 镜像："
+
+#: texops/image_tools.py:434
+msgid "Flip Horizontal"
+msgstr "水平翻转"
+
+#: texops/image_tools.py:445
+msgid "Flip Vertical"
+msgstr "垂直翻转"
+
+#: texops/csm.py:247
+msgid "Folder"
+msgstr "文件夹"
+
+#: texops/rasterizer.py:427
+msgid "Force all curves to white (useful for SDF input)"
+msgstr "强制所有曲线为白色（适用于 SDF 输入）"
+
+#: texops/bit_packer.py:363
+#: texops/channel_packer.py:149
+msgid "Format"
+msgstr "格式"
+
+#: texops/core.py:21
+#: texops/pbr_validator.py:232
+msgid "G"
+msgstr "G"
+
+#: texops/bit_packer.py:396
+msgid "G Bit Layout"
+msgstr "G 位布局"
+
+#: texops/unpacker.py:299
+msgid "G Count"
+msgstr "G 数量"
+
+#: texops/unpacker.py:304
+msgid "G Layout"
+msgstr "G 布局"
+
+#: texops/unpacker.py:309
+msgid "G Suffix"
+msgstr "G 后缀"
+
+#: texops/bit_packer.py:391
+msgid "G Texture Count"
+msgstr "G 纹理数量"
+
+#: texops/map_converter.py:22
+msgid "Generate ambient occlusion from height map"
+msgstr "从高度贴图生成环境光遮蔽"
+
+#: texops/map_converter.py:21
+msgid "Generate normal map from height map"
+msgstr "从高度贴图生成法线贴图"
+
+#: texops/map_converter.py:24
+msgid "Generate slope mask (white=steep, black=flat)"
+msgstr "生成坡度遮罩（白=陡峭，黑=平坦）"
+
+#: texops/pbr_validator.py:506
+msgid "Gradient"
+msgstr "渐变"
+
+#: texops/pbr_validator.py:256
+msgid "Gradient Validation"
+msgstr "渐变验证"
+
+#: texops/core.py:24
+msgid "Gray"
+msgstr "灰色"
+
+#: texops/core.py:24
+msgid "Grayscale (luminance)"
+msgstr "灰度（亮度）"
+
+#: texops/pbr_validator.py:232
+msgid "Green"
+msgstr "绿色"
+
+#: texops/core.py:21
+msgid "Green channel"
+msgstr "绿色通道"
+
+#: texops/bit_packer.py:374
+#: texops/bit_packer.py:672
+msgid "Height"
+msgstr "高度"
+
+#: texops/csm.py:278
+msgid "Height Channel"
+msgstr "高度通道"
+
+#: texops/map_converter.py:625
+msgid "Height Map"
+msgstr "高度贴图"
+
+#: texops/map_converter.py:831
+msgid "Height map not found"
+msgstr "未找到高度贴图"
+
+#: texops/map_converter.py:827
+msgid "Height map required"
+msgstr "需要高度贴图"
+
+#: texops/map_converter.py:22
+msgid "Height → AO"
+msgstr "高度 → AO"
+
+#: texops/map_converter.py:23
+msgid "Height → Cavity"
+msgstr "高度 → 空腔"
+
+#: texops/map_converter.py:21
+msgid "Height → Normal"
+msgstr "高度 → 法线"
+
+#: texops/map_converter.py:24
+msgid "Height → Slope"
+msgstr "高度 → 坡度"
+
+#: texops/bit_packer.py:324
+#: texops/channel_packer.py:121
+msgid "Image"
+msgstr "图像"
+
+#: texops/sdf.py:551
+msgid "Image Edge"
+msgstr "图像边缘"
+
+#: texops/sdf.py:882
+msgid "Image Settings:"
+msgstr "图像设置："
+
+#: texops/image_tools.py:690
+msgid "Image Tools"
+msgstr "图像工具"
+
+#: texops/image_tools.py:381
+#: texops/image_tools.py:409
+msgid "Image has no alpha channel"
+msgstr "图像没有 Alpha 通道"
+
+#: texops/pbr_validator.py:318
+msgid "Images not found"
+msgstr "未找到图像"
+
+#: texops/sdf.py:902
+msgid "Inner"
+msgstr "内部"
+
+#: texops/sdf.py:546
+msgid "Inner Distance"
+msgstr "内部距离"
+
+#: texops/msdf.py:765
+#: texops/rasterizer.py:405
+msgid "Input Collection"
+msgstr "输入集合"
+
+#: texops/msdf.py:761
+#: texops/rasterizer.py:401
+msgid "Input Curve"
+msgstr "输入曲线"
+
+#: texops/bit_packer.py:344
+#: texops/channel_packer.py:132
+msgid "Input Folder"
+msgstr "输入文件夹"
+
+#: texops/image_tools.py:710
+msgid "Input Folder:"
+msgstr "输入文件夹："
+
+#: texops/dilation.py:130
+#: texops/resolution_packer.py:233
+msgid "Input Image"
+msgstr "输入图像"
+
+#: texops/seamless.py:183
+msgid "Input Mode"
+msgstr "输入模式"
+
+#: texops/seamless.py:350
+msgid "Input image not found"
+msgstr "未找到输入图像"
+
+#: texops/channel_packer.py:323
+#: texops/csm.py:495
+msgid "Input:"
+msgstr "输入："
+
+#: texops/map_converter.py:28
+msgid "Integrate normal map to height"
+msgstr "将法线贴图积分到高度"
+
+#: texops/seamless.py:203
+#: texops/seamless.py:485
+msgid "Intensity"
+msgstr "强度"
+
+#: texops/image_tools.py:258
+msgid "Invalid input folder"
+msgstr "输入文件夹无效"
+
+#: texops/msdf.py:782
+#: texops/sdf.py:543
+msgid "Invert"
+msgstr "反转"
+
+#: texops/image_tools.py:364
+msgid "Invert Channel"
+msgstr "反转通道"
+
+#: texops/sdf.py:557
+msgid "Invert Edge"
+msgstr "反转边缘"
+
+#: texops/image_tools.py:340
+msgid "Invert RGB"
+msgstr "反转 RGB"
+
+#: texops/image_tools.py:353
+msgid "Invert RGBA"
+msgstr "反转 RGBA"
+
+#: texops/sdf.py:557
+msgid "Invert the edge falloff"
+msgstr "反转边缘衰减"
+
+#: texops/sdf.py:543
+msgid "Invert the input before generating SDF"
+msgstr "生成 SDF 前反转输入"
+
+#: texops/image_tools.py:734
+msgid "Invert:"
+msgstr "反转："
+
+#: texops/rgba_toggles.py:28
+msgid "Isolated"
+msgstr "孤立"
+
+#: texops/csm.py:262
+msgid "Isotropic - 1 cone for all directions"
+msgstr "各向同性 - 所有方向使用 1 个锥体"
+
+#: texops/map_converter.py:642
+msgid "Iterations"
+msgstr "迭代次数"
+
+#: texops/dilation.py:143
+msgid "Keep Alpha"
+msgstr "保留 Alpha"
+
+#: texops/image_tools.py:796
+msgid "L"
+msgstr "L"
+
+#: texops/csm.py:282
+msgid "Last"
+msgstr "最后"
+
+#: texops/bit_packer.py:698
+#: texops/unpacker.py:649
+msgid "Layout"
+msgstr "布局"
+
+#: texops/image_tools.py:195
+msgid "Left"
+msgstr "左"
+
+#: texops/rasterizer.py:411
+msgid "Line Width"
+msgstr "线宽"
+
+#: texops/map_converter.py:705
+msgid "Load AO Map"
+msgstr "加载 AO 贴图"
+
+#: texops/pbr_validator.py:276
+msgid "Load Albedo"
+msgstr "加载反照率"
+
+#: texops/map_converter.py:687
+msgid "Load Height Map"
+msgstr "加载高度贴图"
+
+#: texops/bit_packer.py:443
+#: texops/channel_packer.py:160
+msgid "Load Image"
+msgstr "加载图像"
+
+#: texops/map_converter.py:696
+msgid "Load Normal Map"
+msgstr "加载法线贴图"
+
+#: texops/pbr_validator.py:284
+msgid "Load Packed"
+msgstr "加载打包"
+
+#: texops/bit_packer.py:376
+#: texops/channel_packer.py:147
+msgid "Lock Aspect"
+msgstr "锁定纵横比"
+
+#: texops/seamless.py:242
+msgid "Lock Aspect Ratio"
+msgstr "锁定纵横比"
+
+#: texops/msdf.py:991
+msgid "MSDF Generator"
+msgstr "MSDF 生成器"
+
+#: texops/msdf.py:1031
+msgid "MSDF Settings:"
+msgstr "MSDF 设置："
+
+#: texops/image_tools.py:416
+msgid "Make Grayscale"
+msgstr "转为灰度"
+
+#: texops/map_converter.py:966
+msgid "Map Converter"
+msgstr "贴图转换器"
+
+#: texops/msdf.py:778
+#: texops/rasterizer.py:415
+msgid "Margin"
+msgstr "边距"
+
+#: texops/sdf.py:567
+msgid "Margin around curve"
+msgstr "曲线周边边距"
+
+#: texops/rasterizer.py:415
+msgid "Margin around the shape in pixels"
+msgstr "形状周围边距（像素）"
+
+#: texops/dilation.py:135
+msgid "Max Distance"
+msgstr "最大距离"
+
+#: texops/pbr_validator.py:242
+#: texops/pbr_validator.py:246
+msgid "Metallic"
+msgstr "金属度"
+
+#: texops/image_tools.py:188
+msgid "Method"
+msgstr "方法"
+
+#: texops/msdf.py:770
+msgid "Minimum angle in degrees to be considered a corner"
+msgstr "被视为角点的最小角度（度）"
+
+#: texops/image_tools.py:456
+msgid "Mirror"
+msgstr "镜像"
+
+#: texops/bit_packer.py:341
+#: texops/channel_packer.py:126
+msgid "Mode"
+msgstr "模式"
+
+#: texops/sdf.py:561
+msgid "Multiply"
+msgstr "相乘"
+
+#: texops/image_tools.py:190
+msgid "Nearest"
+msgstr "最近邻"
+
+#: texops/msdf.py:1022
+#: texops/rasterizer.py:663
+msgid "No SVG files found"
+msgstr "未找到 SVG 文件"
+
+#: texops/msdf.py:893
+#: texops/rasterizer.py:531
+msgid "No SVG files found in folder"
+msgstr "文件夹中未找到 SVG 文件"
+
+#: texops/image_tools.py:225
+msgid "No active image"
+msgstr "无活动图像"
+
+#: texops/unpacker.py:499
+msgid "No channels selected"
+msgstr "未选择通道"
+
+#: texops/msdf.py:866
+#: texops/rasterizer.py:503
+msgid "No collection selected"
+msgstr "未选择集合"
+
+#: texops/sdf.py:647
+msgid "No curve selected"
+msgstr "未选择曲线"
+
+#: texops/bit_packer.py:355
+#: texops/resolution_packer.py:240
+msgid "No dithering"
+msgstr "无抖动"
+
+#: texops/sdf.py:878
+msgid "No files found"
+msgstr "未找到文件"
+
+#: texops/seamless.py:290
+msgid "No image in editor"
+msgstr "编辑器中无图像"
+
+#: texops/csm.py:512
+#: texops/map_converter.py:1027
+msgid "No images found"
+msgstr "未找到图像"
+
+#: texops/bit_packer.py:567
+#: texops/channel_packer.py:270
+msgid "No images found in folder"
+msgstr "文件夹中未找到图像"
+
+#: texops/sdf.py:704
+msgid "No images or SVG files found in folder"
+msgstr "文件夹中未找到图像或 SVG 文件"
+
+#: texops/msdf.py:843
+#: texops/rasterizer.py:493
+msgid "No input curve selected"
+msgstr "未选择输入曲线"
+
+#: texops/core.py:508
+#: texops/seamless.py:345
+msgid "No input image selected"
+msgstr "未选择输入图像"
+
+#: texops/bit_packer.py:535
+msgid "No input images selected"
+msgstr "未选择输入图像"
+
+#: texops/image_tools.py:639
+msgid "No offset specified"
+msgstr "未指定偏移"
+
+#: texops/channel_packer.py:352
+msgid "No texture sets found"
+msgstr "未找到纹理集"
+
+#: texops/unpacker.py:504
+msgid "No textures configured"
+msgstr "未配置纹理"
+
+#: texops/unpacker.py:462
+msgid "No textures configured for unpacking"
+msgstr "未配置要解包的纹理"
+
+#: texops/channel_packer.py:243
+msgid "No valid source images selected"
+msgstr "未选择有效的源图像"
+
+#: texops/bit_packer.py:357
+#: texops/resolution_packer.py:242
+msgid "Noise"
+msgstr "噪波"
+
+#: texops/bit_packer.py:355
+#: texops/resolution_packer.py:240
+msgid "None"
+msgstr "无"
+
+#: texops/map_converter.py:1008
+msgid "Normal"
+msgstr "法线"
+
+#: texops/map_converter.py:29
+msgid "Normal + AO → Bent Normal"
+msgstr "法线 + AO → 弯曲法线"
+
+#: texops/map_converter.py:30
+msgid "Normal DX → GL"
+msgstr "法线 DX → GL"
+
+#: texops/map_converter.py:646
+msgid "Normal Format"
+msgstr "法线格式"
+
+#: texops/map_converter.py:31
+msgid "Normal GL → DX"
+msgstr "法线 GL → DX"
+
+#: texops/map_converter.py:628
+msgid "Normal Map"
+msgstr "法线贴图"
+
+#: texops/map_converter.py:32
+msgid "Normal XY → XYZ"
+msgstr "法线 XY → XYZ"
+
+#: texops/map_converter.py:842
+msgid "Normal map not found"
+msgstr "未找到法线贴图"
+
+#: texops/map_converter.py:838
+msgid "Normal map required"
+msgstr "需要法线贴图"
+
+#: texops/map_converter.py:25
+msgid "Normal → AO"
+msgstr "法线 → AO"
+
+#: texops/map_converter.py:27
+msgid "Normal → Cavity"
+msgstr "法线 → 空腔"
+
+#: texops/map_converter.py:26
+msgid "Normal → Curvature"
+msgstr "法线 → 曲率"
+
+#: texops/map_converter.py:28
+msgid "Normal → Height"
+msgstr "法线 → 高度"
+
+#: texops/image_tools.py:330
+msgid "Nothing to redo"
+msgstr "没有可重做的操作"
+
+#: texops/image_tools.py:312
+msgid "Nothing to undo"
+msgstr "没有可撤销的操作"
+
+#: texops/csm.py:259
+msgid "Number of directional cone sectors"
+msgstr "方向锥扇区数"
+
+#: texops/image_tools.py:629
+msgid "Offset"
+msgstr "偏移"
+
+#: texops/image_tools.py:807
+msgid "Offset (wrap):"
+msgstr "偏移（环绕）："
+
+#: texops/map_converter.py:648
+msgid "OpenGL"
+msgstr "OpenGL"
+
+#: texops/bit_packer.py:356
+#: texops/resolution_packer.py:241
+msgid "Ordered"
+msgstr "有序"
+
+#: texops/sdf.py:903
+msgid "Outer"
+msgstr "外部"
+
+#: texops/sdf.py:547
+msgid "Outer Distance"
+msgstr "外部距离"
+
+#: texops/map_converter.py:1052
+msgid "Output"
+msgstr "输出"
+
+#: texops/bit_packer.py:371
+#: texops/channel_packer.py:142
+msgid "Output Folder"
+msgstr "输出文件夹"
+
+#: texops/image_tools.py:826
+msgid "Output Folder:"
+msgstr "输出文件夹："
+
+#: texops/bit_packer.py:369
+#: texops/channel_packer.py:139
+msgid "Output Name"
+msgstr "输出名称"
+
+#: texops/resolution_packer.py:257
+msgid "Output height (0 = auto)"
+msgstr "输出高度（0 = 自动）"
+
+#: texops/csm.py:312
+#: texops/map_converter.py:665
+msgid "Output height (0 = same as input)"
+msgstr "输出高度（0 = 与输入相同）"
+
+#: texops/map_converter.py:646
+msgid "Output normal map format"
+msgstr "输出法线贴图格式"
+
+#: texops/resolution_packer.py:252
+msgid "Output width (0 = auto)"
+msgstr "输出宽度（0 = 自动）"
+
+#: texops/csm.py:307
+#: texops/map_converter.py:660
+msgid "Output width (0 = same as input)"
+msgstr "输出宽度（0 = 与输入相同）"
+
+#: texops/bit_packer.py:665
+#: texops/channel_packer.py:359
+msgid "Output:"
+msgstr "输出："
+
+#: texops/pbr_validator.py:435
+msgid "PBR Validator"
+msgstr "PBR 验证器"
+
+#: texops/csm.py:272
+msgid "Pack Height"
+msgstr "打包高度"
+
+#: texops/resolution_packer.py:229
+msgid "Pack all images from folder"
+msgstr "打包文件夹中的所有图像"
+
+#: texops/channel_packer.py:129
+msgid "Pack from folder (looks for _R/_G/_B/_A suffixes)"
+msgstr "从文件夹打包（查找 _R/_G/_B/_A 后缀）"
+
+#: texops/csm.py:281
+msgid "Pack height in first channel (R)"
+msgstr "将高度打包到第一个通道（R）"
+
+#: texops/csm.py:282
+msgid "Pack height in last available channel"
+msgstr "将高度打包到最后一个可用通道"
+
+#: texops/csm.py:272
+msgid "Pack height map into available channel (disabled for 4 sectors)"
+msgstr "将高度贴图打包到可用通道（4 个扇区时禁用）"
+
+#: texops/bit_packer.py:334
+msgid "Pack into 16 bits per channel"
+msgstr "打包为每通道 16 位"
+
+#: texops/bit_packer.py:335
+msgid "Pack into 32 bits per channel"
+msgstr "打包为每通道 32 位"
+
+#: texops/bit_packer.py:333
+msgid "Pack into 8 bits per channel"
+msgstr "打包为每通道 8 位"
+
+#: texops/resolution_packer.py:228
+msgid "Pack single image"
+msgstr "打包单张图像"
+
+#: texops/channel_packer.py:128
+msgid "Pack single set of channels"
+msgstr "打包单组通道"
+
+#: texops/pbr_validator.py:238
+#: texops/pbr_validator.py:465
+msgid "Packed"
+msgstr "已打包"
+
+#: texops/map_converter.py:1046
+#: texops/seamless.py:478
+msgid "Parameters:"
+msgstr "参数："
+
+#: texops/msdf.py:778
+msgid "Pixel margin around shape"
+msgstr "形状周围的像素边距"
+
+#: texops/seamless.py:483
+msgid "Pre-Averaging:"
+msgstr "预平均："
+
+#: texops/seamless.py:273
+msgid "Preview"
+msgstr "预览"
+
+#: texops/csm.py:346
+msgid "Preview Input"
+msgstr "预览输入"
+
+#: texops/msdf.py:752
+#: texops/rasterizer.py:392
+msgid "Process SVG folder"
+msgstr "处理 SVG 文件夹"
+
+#: texops/seamless.py:186
+msgid "Process all images from folder"
+msgstr "处理文件夹中的所有图像"
+
+#: texops/csm.py:240
+#: texops/image_tools.py:178
+msgid "Process folder of images"
+msgstr "处理图像文件夹"
+
+#: texops/msdf.py:751
+msgid "Process single curve/collection"
+msgstr "处理单个曲线/集合"
+
+#: texops/rasterizer.py:391
+msgid "Process single curve/group/SVG"
+msgstr "处理单个曲线/组/SVG"
+
+#: texops/csm.py:239
+#: texops/seamless.py:185
+msgid "Process single image"
+msgstr "处理单张图像"
+
+#: texops/msdf.py:786
+#: texops/rasterizer.py:431
+msgid "Quality"
+msgstr "质量"
+
+#: texops/core.py:20
+#: texops/image_tools.py:797
+msgid "R"
+msgstr "R"
+
+#: texops/bit_packer.py:386
+msgid "R Bit Layout"
+msgstr "R 位布局"
+
+#: texops/unpacker.py:298
+msgid "R Count"
+msgstr "R 数量"
+
+#: texops/unpacker.py:303
+msgid "R Layout"
+msgstr "R 布局"
+
+#: texops/unpacker.py:308
+msgid "R Suffix"
+msgstr "R 后缀"
+
+#: texops/bit_packer.py:381
+msgid "R Texture Count"
+msgstr "R 纹理数量"
+
+#: texops/map_converter.py:638
+#: texops/seamless.py:211
+msgid "Radius"
+msgstr "半径"
+
+#: texops/bit_packer.py:357
+#: texops/resolution_packer.py:242
+msgid "Random noise"
+msgstr "随机噪波"
+
+#: texops/msdf.py:774
+msgid "Range"
+msgstr "范围"
+
+#: texops/rasterizer.py:670
+msgid "Rasterization:"
+msgstr "栅格化："
+
+#: texops/rasterizer.py:631
+msgid "Rasterizer"
+msgstr "栅格化器"
+
+#: texops/unpacker.py:20
+msgid "Reconstruct image from resolution-packed RGBA"
+msgstr "从分辨率打包的 RGBA 重建图像"
+
+#: texops/pbr_validator.py:232
+msgid "Red"
+msgstr "红"
+
+#: texops/core.py:20
+msgid "Red channel"
+msgstr "红色通道"
+
+#: texops/resolution_packer.py:220
+#: texops/unpacker.py:285
+msgid "Reduction"
+msgstr "缩减"
+
+#: texops/csm.py:289
+msgid "Relaxed"
+msgstr "松弛"
+
+#: texops/dilation.py:143
+msgid "Remove Alpha"
+msgstr "移除 Alpha"
+
+#: texops/image_tools.py:560
+msgid "Resize"
+msgstr "调整大小"
+
+#: texops/image_tools.py:777
+msgid "Resize:"
+msgstr "调整大小："
+
+#: texops/resolution_packer.py:385
+msgid "Resolution Packer"
+msgstr "分辨率打包器"
+
+#: texops/unpacker.py:20
+msgid "Resolution Unpack"
+msgstr "分辨率解包"
+
+#: texops/image_tools.py:196
+msgid "Right"
+msgstr "右"
+
+#: texops/csm.py:295
+msgid "Robust"
+msgstr "稳健"
+
+#: texops/image_tools.py:495
+msgid "Rotate"
+msgstr "旋转"
+
+#: texops/image_tools.py:768
+msgid "Rotate:"
+msgstr "旋转："
+
+#: texops/pbr_validator.py:241
+#: texops/pbr_validator.py:247
+msgid "Roughness"
+msgstr "粗糙度"
+
+#: texops/sdf.py:815
+msgid "SDF Generator"
+msgstr "SDF 生成器"
+
+#: texops/map_converter.py:638
+msgid "Sample radius for AO/Cavity calculations"
+msgstr "用于 AO/腔体计算的采样半径"
+
+#: texops/image_tools.py:652
+msgid "Scale"
+msgstr "缩放"
+
+#: texops/image_tools.py:203
+msgid "Scale %"
+msgstr "缩放 %"
+
+#: texops/image_tools.py:817
+msgid "Scale (tile):"
+msgstr "缩放（平铺）："
+
+#: texops/image_tools.py:674
+msgid "Scale is 100%"
+msgstr "缩放为 100%"
+
+#: texops/seamless.py:442
+msgid "Seamless Generator"
+msgstr "无缝生成器"
+
+#: texops/csm.py:249
+msgid "Search Radius"
+msgstr "搜索半径"
+
+#: texops/msdf.py:848
+#: texops/rasterizer.py:496
+msgid "Selected object is not a curve"
+msgstr "所选物体不是曲线"
+
+#: texops/image_tools.py:717
+msgid "Set a valid folder path"
+msgstr "设置有效的文件夹路径"
+
+#: texops/csm.py:518
+msgid "Settings:"
+msgstr "设置："
+
+#: texops/sdf.py:604
+msgid "Show"
+msgstr "显示"
+
+#: texops/rgba_toggles.py:22
+msgid "Show Alpha channel"
+msgstr "显示 Alpha 通道"
+
+#: texops/rgba_toggles.py:21
+msgid "Show Blue channel"
+msgstr "显示蓝色通道"
+
+#: texops/rgba_toggles.py:20
+msgid "Show Green channel"
+msgstr "显示绿色通道"
+
+#: texops/unpacker.py:372
+msgid "Show Image"
+msgstr "显示图像"
+
+#: texops/dilation.py:175
+msgid "Show Input"
+msgstr "显示输入"
+
+#: texops/rgba_toggles.py:19
+msgid "Show Red channel"
+msgstr "显示红色通道"
+
+#: texops/rgba_toggles.py:23
+msgid "Show Transparency"
+msgstr "显示透明度"
+
+#: texops/pbr_validator.py:256
+msgid "Show how far off values are instead of binary mask"
+msgstr "显示数值偏差程度而非二值遮罩"
+
+#: texops/bit_packer.py:342
+#: texops/channel_packer.py:128
+msgid "Single"
+msgstr "单个"
+
+#: texops/msdf.py:757
+#: texops/rasterizer.py:397
+msgid "Single curve object"
+msgstr "单个曲线物体"
+
+#: texops/seamless.py:193
+msgid "Size of edge blend zone as fraction of image (higher = smoother but more center content affected)"
+msgstr "边缘混合区域大小占图像的比例（越高越平滑，但会影响更多中心内容）"
+
+#: texops/seamless.py:211
+msgid "Size of local averaging window"
+msgstr "局部平均窗口大小"
+
+#: texops/sdf.py:561
+msgid "Smooth Max"
+msgstr "平滑最大值"
+
+#: texops/sdf.py:561
+msgid "Smooth Min"
+msgstr "平滑最小值"
+
+#: texops/rasterizer.py:423
+msgid "Smooth edges with antialiasing"
+msgstr "使用抗锯齿平滑边缘"
+
+#: texops/sdf.py:564
+msgid "Smoothness"
+msgstr "平滑度"
+
+#: texops/map_converter.py:642
+msgid "Solver iterations for Normal→Height"
+msgstr "法线→高度的求解迭代次数"
+
+#: texops/rgba_toggles.py:30
+msgid "Source Hash"
+msgstr "源哈希"
+
+#: texops/rgba_toggles.py:29
+msgid "Source Image"
+msgstr "源图像"
+
+#: texops/unpacker.py:18
+msgid "Split RGBA into separate grayscale images"
+msgstr "将 RGBA 拆分为单独的灰度图像"
+
+#: texops/dilation.py:138
+msgid "Square"
+msgstr "正方形"
+
+#: texops/map_converter.py:634
+msgid "Strength"
+msgstr "强度"
+
+#: texops/seamless.py:203
+msgid "Strength of brightness normalization (0 = disabled)"
+msgstr "亮度归一化强度（0 = 禁用）"
+
+#: texops/pbr_validator.py:501
+msgid "Strict"
+msgstr "严格"
+
+#: texops/pbr_validator.py:248
+msgid "Strict Albedo Range"
+msgstr "严格反照率范围"
+
+#: texops/dilation.py:136
+msgid "Style"
+msgstr "样式"
+
+#: texops/rasterizer.py:431
+#: texops/sdf.py:571
+msgid "Subdivision quality for curved segments"
+msgstr "曲线段的细分质量"
+
+#: texops/bit_packer.py:370
+#: texops/channel_packer.py:140
+msgid "Suffix"
+msgstr "后缀"
+
+#: texops/pbr_validator.py:262
+msgid "Suffix added to corrected output filenames"
+msgstr "添加到校正后输出文件名的后缀"
+
+#: texops/channel_packer.py:140
+#: texops/csm.py:302
+msgid "Suffix added to output filename"
+msgstr "添加到输出文件名的后缀"
+
+#: texops/msdf.py:782
+msgid "Swap inside/outside"
+msgstr "交换内部/外部"
+
+#: texops/image_tools.py:799
+msgid "T"
+msgstr "T"
+
+#: texops/bit_packer.py:637
+#: texops/channel_packer.py:315
+msgid "TexOps"
+msgstr "TexOps"
+
+#: texops/bit_packer.py:692
+#: texops/unpacker.py:643
+msgid "Textures"
+msgstr "纹理"
+
+#: texops/bit_packer.py:346
+msgid "Textures Per Channel"
+msgstr "每通道纹理数"
+
+#: texops/bit_packer.py:746
+msgid "Textures Per Channel:"
+msgstr "每通道纹理数："
+
+#: texops/core.py:724
+msgid "This cannot be undone."
+msgstr "此操作无法撤销。"
+
+#: texops/core.py:723
+msgid "This will overwrite original files!"
+msgstr "这将覆盖原始文件！"
+
+#: texops/sdf.py:542
+msgid "Threshold"
+msgstr "阈值"
+
+#: texops/image_tools.py:197
+msgid "Top"
+msgstr "顶部"
+
+#: texops/pbr_validator.py:504
+msgid "Transitions"
+msgstr "过渡"
+
+#: texops/msdf.py:755
+#: texops/rasterizer.py:395
+msgid "Type"
+msgstr "类型"
+
+#: texops/unpacker.py:19
+msgid "Unpack bit-packed textures from RGBA channels"
+msgstr "从 RGBA 通道解包位打包纹理"
+
+#: texops/unpacker.py:589
+msgid "Unpacker"
+msgstr "解包器"
+
+#: texops/sdf.py:528
+msgid "Use collection of curves as input"
+msgstr "使用曲线集合作为输入"
+
+#: texops/sdf.py:526
+msgid "Use image as input"
+msgstr "使用图像作为输入"
+
+#: texops/csm.py:289
+msgid "Use relaxed cone stepping (wider cones, requires refinement)"
+msgstr "使用宽松锥形步进（更宽的锥体，需要细化）"
+
+#: texops/sdf.py:527
+msgid "Use single curve as input"
+msgstr "使用单条曲线作为输入"
+
+#: texops/pbr_validator.py:248
+msgid "Use strict range (50-240 sRGB) vs tolerant (30-240 sRGB)"
+msgstr "使用严格范围（50-240 sRGB）还是宽容范围（30-240 sRGB）"
+
+#: texops/pbr_validator.py:366
+msgid "Validation map: Red=Albedo, Green=Metallic, Blue=Roughness"
+msgstr "验证图：红=反照率，绿=金属度，蓝=粗糙度"
+
+#: texops/pbr_validator.py:488
+msgid "Validation:"
+msgstr "验证："
+
+#: texops/csm.py:278
+msgid "Which channel to pack the height map into"
+msgstr "将高度图打包到哪个通道"
+
+#: texops/bit_packer.py:372
+#: texops/bit_packer.py:671
+msgid "Width"
+msgstr "宽度"
+
+#: texops/rasterizer.py:411
+msgid "Width of the rendered line in pixels"
+msgstr "渲染线条的宽度（像素）"
+
+#: texops/image_tools.py:201
+msgid "X"
+msgstr "X"
+
+#: texops/image_tools.py:202
+msgid "Y"
+msgstr "Y"
+
+#: texops/map_converter.py:649
+msgid "Y+ down (DirectX, Unreal)"
+msgstr "Y+ 向下（DirectX、Unreal）"
+
+#: texops/map_converter.py:648
+msgid "Y+ up (OpenGL, Blender, Unity)"
+msgstr "Y+ 向上（OpenGL、Blender、Unity）"
+
+#: texops/image_tools.py:801
+msgctxt "Operator"
+msgid "Apply Crop"
+msgstr "应用裁剪"
+
+#: texops/image_tools.py:811
+msgctxt "Operator"
+msgid "Apply Offset"
+msgstr "应用偏移"
+
+#: texops/map_converter.py:733
+msgctxt "Operator"
+msgid "Convert"
+msgstr "转换"
+
+#: texops/pbr_validator.py:373
+msgctxt "Operator"
+msgid "Correct"
+msgstr "校正"
+
+#: texops/dilation.py:183
+msgctxt "Operator"
+msgid "Dilate"
+msgstr "膨胀"
+
+#: texops/image_tools.py:758
+msgctxt "Operator"
+msgid "Flip H"
+msgstr "水平翻转"
+
+#: texops/image_tools.py:759
+msgctxt "Operator"
+msgid "Flip V"
+msgstr "垂直翻转"
+
+#: texops/seamless.py:317
+msgctxt "Operator"
+msgid "Generate"
+msgstr "生成"
+
+#: texops/csm.py:355
+msgctxt "Operator"
+msgid "Generate CSM"
+msgstr "生成 CSM"
+
+#: texops/msdf.py:825
+msgctxt "Operator"
+msgid "Generate MSDF"
+msgstr "生成 MSDF"
+
+#: texops/sdf.py:612
+msgctxt "Operator"
+msgid "Generate SDF"
+msgstr "生成 SDF"
+
+#: texops/image_tools.py:571
+#: texops/image_tools.py:787
+msgctxt "Operator"
+msgid "Get Size"
+msgstr "获取尺寸"
+
+#: texops/image_tools.py:750
+msgctxt "Operator"
+msgid "Grayscale"
+msgstr "灰度"
+
+#: texops/sdf.py:908
+msgctxt "Operator"
+msgid "Inner"
+msgstr "内部"
+
+#: texops/sdf.py:909
+msgctxt "Operator"
+msgid "Outer"
+msgstr "外部"
+
+#: texops/resolution_packer.py:304
+msgctxt "Operator"
+msgid "Pack"
+msgstr "打包"
+
+#: texops/bit_packer.py:489
+msgctxt "Operator"
+msgid "Pack Textures"
+msgstr "打包纹理"
+
+#: texops/channel_packer.py:205
+msgctxt "Operator"
+msgid "Pack to Texture"
+msgstr "打包到纹理"
+
+#: texops/sdf.py:799
+msgctxt "Operator"
+msgid "Preset"
+msgstr "预设"
+
+#: texops/map_converter.py:715
+#: texops/sdf.py:755
+msgctxt "Operator"
+msgid "Preview"
+msgstr "预览"
+
+#: texops/pbr_validator.py:293
+msgctxt "Operator"
+msgid "Preview Image"
+msgstr "预览图像"
+
+#: texops/bit_packer.py:468
+#: texops/channel_packer.py:185
+msgctxt "Operator"
+msgid "Preview Input"
+msgstr "预览输入"
+
+#: texops/dilation.py:247
+msgctxt "Operator"
+msgid "Preview Mask"
+msgstr "预览遮罩"
+
+#: texops/seamless.py:283
+#: texops/seamless.py:517
+msgctxt "Operator"
+msgid "Preview Tiling"
+msgstr "预览平铺"
+
+#: texops/image_tools.py:736
+msgctxt "Operator"
+msgid "RGB"
+msgstr "RGB"
+
+#: texops/image_tools.py:737
+msgctxt "Operator"
+msgid "RGBA"
+msgstr "RGBA"
+
+#: texops/rasterizer.py:474
+msgctxt "Operator"
+msgid "Rasterize Curve"
+msgstr "栅格化曲线"
+
+#: texops/image_tools.py:318
+msgctxt "Operator"
+msgid "Redo"
+msgstr "重做"
+
+#: texops/rgba_toggles.py:236
+msgctxt "Operator"
+msgid "Refresh Preview"
+msgstr "刷新预览"
+
+#: texops/rgba_toggles.py:212
+msgctxt "Operator"
+msgid "Reset Channels"
+msgstr "重置通道"
+
+#: texops/image_tools.py:788
+msgctxt "Operator"
+msgid "Resize"
+msgstr "调整大小"
+
+#: texops/image_tools.py:820
+msgctxt "Operator"
+msgid "Scale"
+msgstr "缩放"
+
+#: texops/sdf.py:905
+msgctxt "Operator"
+msgid "Signed"
+msgstr "有符号"
+
+#: texops/rgba_toggles.py:161
+msgctxt "Operator"
+msgid "Toggle Channel"
+msgstr "切换通道"
+
+#: texops/rgba_toggles.py:194
+msgctxt "Operator"
+msgid "Toggle Transparency Display"
+msgstr "切换透明显示"
+
+#: texops/image_tools.py:300
+msgctxt "Operator"
+msgid "Undo"
+msgstr "撤销"
+
+#: texops/unpacker.py:380
+msgctxt "Operator"
+msgid "Unpack"
+msgstr "解包"
+
+#: texops/sdf.py:906
+msgctxt "Operator"
+msgid "Unsigned"
+msgstr "无符号"
+
+#: texops/pbr_validator.py:343
+msgctxt "Operator"
+msgid "Validate"
+msgstr "验证"

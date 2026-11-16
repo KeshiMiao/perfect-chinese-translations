@@ -1,0 +1,163 @@
+# perfect-chinese: 1
+# id: section_analysis_tool
+# kind: addon
+# module: bl_ext.blender_org.section_analysis_tool
+# name: Section Analysis Tool
+# name_zh: 剖面分析工具
+# translator: KeshiMiao
+# category: 3D View
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: section_analysis_tool/__init__.py:7
+msgid "3D View"
+msgstr "3D 视图"
+
+#: section_analysis_tool/__init__.py:51
+msgid "Auto (Selection)"
+msgstr "自动（选择）"
+
+#: section_analysis_tool/__init__.py:24
+msgid "Axis"
+msgstr "轴"
+
+#: section_analysis_tool/__init__.py:71
+msgid "Center on Selection"
+msgstr "以选择为中心"
+
+#: section_analysis_tool/__init__.py:24
+msgid "Cut plane axis"
+msgstr "切割平面轴"
+
+#: section_analysis_tool/__init__.py:41
+msgid "Display cutting plane as wireframe"
+msgstr "以线框显示切割平面"
+
+#: section_analysis_tool/__init__.py:18
+msgid "Distance"
+msgstr "距离"
+
+#: section_analysis_tool/__init__.py:18
+msgid "Distance from origin"
+msgstr "距原点距离"
+
+#: section_analysis_tool/__init__.py:7
+msgid "Fusion 360-style section analysis tool"
+msgstr "Fusion 360 风格的剖面分析工具"
+
+#: section_analysis_tool/__init__.py:47
+msgid "How the cutting plane size is determined"
+msgstr "切割平面尺寸的确定方式"
+
+#: section_analysis_tool/__init__.py:50
+msgid "Manual"
+msgstr "手动"
+
+#: section_analysis_tool/__init__.py:64
+msgid "Margin"
+msgstr "边距"
+
+#: section_analysis_tool/__init__.py:64
+msgid "Multiplier applied to the selection's bounding box so the plane extends past the geometry, used when Size Mode is Auto"
+msgstr "应用于所选物体边界框的倍数，使平面延伸超出几何体范围；在尺寸模式为自动时使用"
+
+#: section_analysis_tool/__init__.py:118
+msgid "No mesh objects selected"
+msgstr "未选择网格物体"
+
+#: section_analysis_tool/__init__.py:111
+msgid "No objects selected"
+msgstr "未选择物体"
+
+#: section_analysis_tool/__init__.py:57
+msgid "Plane Size"
+msgstr "平面尺寸"
+
+#: section_analysis_tool/__init__.py:71
+msgid "Position the cutting plane at the center of the selected objects' bounding box, instead of world origin, before offsetting by Distance"
+msgstr "按距离偏移前，将切割平面置于所选物体边界框的中心而非世界原点"
+
+#: section_analysis_tool/__init__.py:247
+#: section_analysis_tool/__init__.py:251
+msgid "Section Analysis"
+msgstr "剖面分析"
+
+#: section_analysis_tool/__init__.py:7
+msgid "Section Analysis Tool"
+msgstr "剖面分析工具"
+
+#: section_analysis_tool/__init__.py:243
+msgid "Section analysis cleared"
+msgstr "剖面分析已清除"
+
+#: section_analysis_tool/__init__.py:41
+msgid "Show Wireframe"
+msgstr "显示线框"
+
+#: section_analysis_tool/__init__.py:47
+msgid "Size Mode"
+msgstr "尺寸模式"
+
+#: section_analysis_tool/__init__.py:57
+msgid "Size of the cutting plane, used when Size Mode is Manual"
+msgstr "切割平面的尺寸，在尺寸模式为手动时使用"
+
+#: section_analysis_tool/__init__.py:51
+msgid "Size the plane to fit the selected objects' combined bounding box"
+msgstr "使平面尺寸适配所选物体的合并边界框"
+
+#: section_analysis_tool/__init__.py:35
+msgid "Tilt"
+msgstr "倾斜"
+
+#: section_analysis_tool/__init__.py:35
+msgid "Tilts the cutting plane's face toward or away from the object, in degrees"
+msgstr "使切割平面朝向或背离物体倾斜，单位为度"
+
+#: section_analysis_tool/__init__.py:50
+msgid "Use a fixed cutting plane size"
+msgstr "使用固定的切割平面尺寸"
+
+#: section_analysis_tool/__init__.py:27
+msgid "X Axis"
+msgstr "X 轴"
+
+#: section_analysis_tool/__init__.py:27
+msgid "X-Axis"
+msgstr "X 轴"
+
+#: section_analysis_tool/__init__.py:28
+msgid "Y Axis"
+msgstr "Y 轴"
+
+#: section_analysis_tool/__init__.py:28
+msgid "Y-Axis"
+msgstr "Y 轴"
+
+#: section_analysis_tool/__init__.py:29
+msgid "Z Axis"
+msgstr "Z 轴"
+
+#: section_analysis_tool/__init__.py:29
+msgid "Z-Axis"
+msgstr "Z 轴"
+
+#: section_analysis_tool/__init__.py:287
+msgctxt "Operator"
+msgid "Apply Section Analysis"
+msgstr "应用剖面分析"
+
+#: section_analysis_tool/__init__.py:223
+#: section_analysis_tool/__init__.py:290
+msgctxt "Operator"
+msgid "Clear Section Analysis"
+msgstr "清除剖面分析"
+
+#: section_analysis_tool/__init__.py:105
+msgctxt "Operator"
+msgid "Section Analysis"
+msgstr "剖面分析"

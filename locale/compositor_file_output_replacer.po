@@ -1,0 +1,175 @@
+# perfect-chinese: 1
+# id: compositor_file_output_replacer
+# kind: addon
+# module: bl_ext.blender_org.compositor_file_output_replacer
+# name: Compositor File Output Replacer
+# name_zh: 合成文件输出替换
+# translator: KeshiMiao
+# category: Compositing
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:265
+msgid ".   →  any one character"
+msgstr ".   →  任意一个字符"
+
+#: __init__.py:262
+msgid "A way to find text of a certain shape all at once, using symbols."
+msgstr "一种使用符号一次性查找特定形式文本的方法。"
+
+#: __init__.py:76
+msgid "Base Path"
+msgstr "基础路径"
+
+#: __init__.py:230
+msgid "Category (N-Panel)"
+msgstr "分类（N 面板）"
+
+#: __init__.py:1
+msgid "Compositing"
+msgstr "合成"
+
+#: __init__.py:1
+msgid "Compositor File Output Replacer"
+msgstr "Compositor File Output Replacer"
+
+#: __init__.py:87
+msgid "Directory"
+msgstr "目录"
+
+#: __init__.py:270
+msgid "Example: replace v\\d+ with v005 → v001 and v12 both become v005"
+msgstr "示例：将 v\\d+ 替换为 v005 → v001 和 v12 都会变成 v005"
+
+#: __init__.py:92
+msgid "File Name"
+msgstr "文件名"
+
+#: __init__.py:155
+msgid "File Output Replacer"
+msgstr "文件输出替换器"
+
+#: __init__.py:81
+msgid "File Subpath"
+msgstr "文件子路径"
+
+#: __init__.py:1
+msgid "Find and replace text in File Output node paths. Supports regex, selection filtering, and target toggles."
+msgstr "查找并替换文件输出节点路径中的文本。支持正则表达式、选择过滤和目标开关。"
+
+#: __init__.py:272
+msgid "For more, use the Regular Expression Guide button."
+msgstr "更多内容，请使用正则表达式指南按钮。"
+
+#: __init__.py:252
+msgid "General"
+msgstr "常规"
+
+#: __init__.py:76
+msgid "Include base path in target"
+msgstr "将基础路径纳入目标"
+
+#: __init__.py:87
+msgid "Include directory in target"
+msgstr "将目录纳入目标"
+
+#: __init__.py:92
+msgid "Include file name in target"
+msgstr "将文件名纳入目标"
+
+#: __init__.py:81
+msgid "Include file subpath (slot name) in target"
+msgstr "将文件子路径（槽位名称）纳入目标"
+
+#: __init__.py:97
+msgid "Include input names in target (not used for Multi-Layer EXR)"
+msgstr "将输入名称纳入目标（多图层 EXR 不使用）"
+
+#: __init__.py:242
+msgid "Initial state of Only Selected Nodes in scenes that have not changed it"
+msgstr "在尚未更改该设置的场景中「仅选中节点」的初始状态"
+
+#: __init__.py:236
+msgid "Initial state of Use Regular Expression in scenes that have not changed it"
+msgstr "在尚未更改该设置的场景中「使用正则表达式」的初始状态"
+
+#: __init__.py:97
+msgid "Input Names"
+msgstr "输入名称"
+
+#: __init__.py:38
+msgid "Interpret as regular expression"
+msgstr "作为正则表达式解释"
+
+#: __init__.py:46
+#: __init__.py:242
+msgid "Only Selected Nodes"
+msgstr "仅选中节点"
+
+#: __init__.py:65
+msgid "Replace With"
+msgstr "替换为"
+
+#: __init__.py:65
+msgid "Replacement string"
+msgstr "替换字符串"
+
+#: __init__.py:60
+msgid "Search Pattern"
+msgstr "搜索模式"
+
+#: __init__.py:60
+msgid "Search with string or regular expression"
+msgstr "使用字符串或正则表达式搜索"
+
+#: __init__.py:230
+msgid "Tab category in the N-panel sidebar (bl_category)"
+msgstr "N 面板侧栏中的标签分类（bl_category）"
+
+#: __init__.py:46
+msgid "Target only selected file output nodes"
+msgstr "仅针对选中的文件输出节点"
+
+#: __init__.py:38
+#: __init__.py:236
+msgid "Use Regular Expression"
+msgstr "使用正则表达式"
+
+#: __init__.py:259
+msgid "What is a Regular Expression?"
+msgstr "什么是正则表达式？"
+
+#: __init__.py:263
+msgid "When it is on, these symbols have special meanings."
+msgstr "开启后，这些符号具有特殊含义。"
+
+#: __init__.py:268
+msgid "\\   →  turns the next symbol into a normal character (write \\\\ for \\ itself)"
+msgstr "\\   →  将下一个符号变为普通字符（要表示 \\ 本身请写 \\\\）"
+
+#: __init__.py:266
+msgid "\\d  →  one digit (\\d+ for a run of digits)"
+msgstr "\\d  →  一个数字（\\d+ 表示一串数字）"
+
+#: __init__.py:267
+msgid "^   →  the very start   /   $  →  the very end"
+msgstr "^   →  开头   /   $  →  结尾"
+
+#: __init__.py:107
+msgctxt "Operator"
+msgid "Execute search and replace on file output nodes"
+msgstr "对文件输出节点执行搜索和替换"
+
+#: __init__.py:273
+msgctxt "Operator"
+msgid "Regular Expression Guide"
+msgstr "正则表达式指南"
+
+#: __init__.py:106
+msgctxt "Operator"
+msgid "Replace in File Output Nodes"
+msgstr "在文件输出节点中替换"

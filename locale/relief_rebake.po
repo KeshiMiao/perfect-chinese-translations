@@ -1,0 +1,131 @@
+# perfect-chinese: 1
+# id: relief_rebake
+# kind: addon
+# module: bl_ext.blender_org.relief_rebake
+# name: Relief Rebake
+# name_zh: 浮雕重烘焙
+# translator: KeshiMiao
+# category: Mesh
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: relief_rebake/__init__.py:353
+msgid "0 keeps the original depth. Set a value to rescale it"
+msgstr "0 保留原始深度。设置数值可重新缩放"
+
+#: relief_rebake/__init__.py:496
+msgid "Adjust settings after running (F9)"
+msgstr "运行后可调整设置（F9）"
+
+#: relief_rebake/__init__.py:358
+msgid "Base Thickness"
+msgstr "基础厚度"
+
+#: relief_rebake/__init__.py:369
+msgid "Create UVs"
+msgstr "创建 UV"
+
+#: relief_rebake/__init__.py:331
+msgid "Despeckle"
+msgstr "去斑"
+
+#: relief_rebake/__init__.py:342
+msgid "Detail Boost"
+msgstr "细节增强"
+
+#: relief_rebake/__init__.py:375
+msgid "Fast Build"
+msgstr "快速构建"
+
+#: relief_rebake/__init__.py:347
+msgid "Flatten Floor"
+msgstr "平整底面"
+
+#: relief_rebake/__init__.py:336
+msgid "Gaussian blur on the height field. Any value above 0 softens detail"
+msgstr "对高度场进行高斯模糊。大于 0 的值会柔化细节"
+
+#: relief_rebake/__init__.py:347
+msgid "Heights below this fraction snap to the base plane. Clears ray-cast noise in the background"
+msgstr "低于此比例的高度将吸附到基准平面。清除背景中的光线投射噪点"
+
+#: relief_rebake/__init__.py:381
+msgid "Hide Source Object"
+msgstr "隐藏源物体"
+
+#: relief_rebake/__init__.py:363
+msgid "Object Name"
+msgstr "物体名称"
+
+#: relief_rebake/__init__.py:369
+msgid "Off by default. At high resolution the UV layer alone can cost hundreds of megabytes"
+msgstr "默认关闭。在高分辨率下，仅 UV 层就可能占用数百 MB"
+
+#: relief_rebake/__init__.py:342
+msgid "Only used when Smooth is above 0. Re-adds fine detail"
+msgstr "仅在平滑值大于 0 时使用。重新添加精细细节"
+
+#: relief_rebake/__init__.py:325
+msgid "Output grid width. Cost is quadratic: doubling this quadruples time and memory. Start at 1575"
+msgstr "输出网格宽度。开销呈平方增长：翻倍会使时间和内存增至四倍。建议从 1575 开始"
+
+#: relief_rebake/__init__.py:353
+msgid "Relief Depth"
+msgstr "浮雕深度"
+
+#: relief_rebake/__init__.py:483
+msgid "Relief Rebake"
+msgstr "浮雕重烘焙"
+
+#: relief_rebake/__init__.py:331
+msgid "Remove single-pixel spikes left by the ray cast"
+msgstr "移除光线投射遗留的单像素尖刺"
+
+#: relief_rebake/__init__.py:325
+msgid "Resolution"
+msgstr "分辨率"
+
+#: relief_rebake/__init__.py:366
+msgid "Shade Smooth"
+msgstr "平滑着色"
+
+#: relief_rebake/__init__.py:336
+msgid "Smooth"
+msgstr "平滑"
+
+#: relief_rebake/__init__.py:358
+msgid "Solid base under the relief"
+msgstr "浮雕下方的实心基底"
+
+#: relief_rebake/__init__.py:503
+msgid "Source: %s (%d verts)"
+msgstr "源：%s（%d 个顶点）"
+
+#: relief_rebake/__init__.py:495
+msgid "The relief must face +Z"
+msgstr "浮雕必须朝向 +Z"
+
+#: relief_rebake/__init__.py:487
+msgid "Tool"
+msgstr "工具"
+
+#: relief_rebake/__init__.py:367
+msgid "Triangulate"
+msgstr "三角化"
+
+#: relief_rebake/__init__.py:375
+msgid "Write geometry straight from numpy arrays. Falls back to from_pydata automatically if it fails"
+msgstr "直接从 numpy 数组写入几何数据。失败时自动回退到 from_pydata"
+
+#: relief_rebake/__init__.py:393
+msgid "roughly %.1fM quads"
+msgstr "约 %.1fM 个四边面"
+
+#: relief_rebake/__init__.py:322
+msgctxt "Operator"
+msgid "Relief Rebake"
+msgstr "浮雕重烘焙"

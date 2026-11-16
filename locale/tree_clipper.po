@@ -1,0 +1,181 @@
+# perfect-chinese: 1
+# id: tree_clipper
+# kind: addon
+# module: bl_ext.blender_org.tree_clipper
+# name: Tree Clipper
+# name_zh: 节点树剪辑器
+# translator: KeshiMiao
+# category: Import-Export
+# supported_versions: >=5.0.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: operators_export.py:254
+msgid "->"
+msgstr "->"
+
+#: operators_export.py:32
+msgid "Add Paths"
+msgstr "添加路径"
+
+#: preferences.py:31
+msgid "Asset Directory"
+msgstr "资产目录"
+
+#: post_import.py:54
+msgid "Could not attached the root to current editor:"
+msgstr "无法将根节点附加到当前编辑器："
+
+#: operators_export.py:31
+#: operators_import.py:123
+msgid "Debug on Console"
+msgstr "在控制台调试"
+
+#: operators_export.py:30
+msgid "Export Sub Trees"
+msgstr "导出子树"
+
+#: operators_export.py:143
+msgid "Hide in Import"
+msgstr "导入时隐藏"
+
+#: preferences.py:24
+msgid "Import as Asset"
+msgstr "作为资产导入"
+
+#: operators_import.py:40
+msgid "Input File"
+msgstr "输入文件"
+
+#: preferences.py:24
+msgid "Instead of having the imported trees in the current .blend file,\nstore the imports in a local asset library.\") # type: ignore"
+msgstr "不在当前 .blend 文件中保存导入的树，\n而是将导入内容存储到本地资产库。\") # type: ignore"
+
+#: operators_export.py:249
+msgid "Item Details"
+msgstr "项目详情"
+
+#: operators_export.py:165
+msgid "JSON Indent"
+msgstr "JSON 缩进"
+
+#: operators_export.py:63
+msgid "Material"
+msgstr "材质"
+
+#: operators_export.py:28
+msgid "Material/NodeTree"
+msgstr "材质/节点树"
+
+#: preferences.py:7
+msgid "Max. Clipboard Size (MB)"
+msgstr "最大剪贴板大小 (MB)"
+
+#: preferences.py:7
+msgid "Maximum clipboard size in kilobytes (UTF-8 encoded).\n\nThe export fails (safely) if the limit is exceeded.\nIf this setting is beyond your system's capabilities,\nBlender might crash on export.\n\nThe default value is somewhat conservative, but not guaranteed to be safe."
+msgstr "剪贴板大小上限，单位为千字节（UTF-8 编码）。\n\n超过限制时导出会（安全地）失败。\n如果该设置超出系统能力，\nBlender 可能在导出时崩溃。\n\n默认值较为保守，但不保证安全。"
+
+#: operators_export.py:63
+msgid "Node Tree"
+msgstr "节点树"
+
+#: operators_export.py:158
+msgid "Output File"
+msgstr "输出文件"
+
+#: post_import.py:57
+msgid "Please check the INFO window for the imported trees."
+msgstr "请在信息窗口中查看导入的树。"
+
+#: operators_export.py:252
+msgid "Referenced at:"
+msgstr "引用位置："
+
+#: operators_export.py:235
+#: operators_import.py:198
+msgid "References to External:"
+msgstr "外部引用："
+
+#: preferences.py:19
+msgid "Show Advanced Options"
+msgstr "显示高级选项"
+
+#: post_import.py:53
+msgid "The import succeeded! 🎉"
+msgstr "导入成功！🎉"
+
+#: operators_export.py:27
+msgid "Top level Material"
+msgstr "顶层材质"
+
+#: panel.py:11
+#: panel.py:14
+msgid "Tree Clipper"
+msgstr "Tree Clipper"
+
+#: preferences.py:31
+msgid "When importing as asset, store the asset files in this directory."
+msgstr "作为资产导入时，将资产文件存储到该目录。"
+
+#: operators_export.py:23
+msgctxt "Operator"
+msgid "Export"
+msgstr "导出"
+
+#: operators_export.py:154
+msgctxt "Operator"
+msgid "Export Cache"
+msgstr "导出缓存"
+
+#: operators_export.py:73
+msgctxt "Operator"
+msgid "Export Modal"
+msgstr "导出模态"
+
+#: export_active.py:5
+msgctxt "Operator"
+msgid "Export Tree Clipper"
+msgstr "导出 Tree Clipper"
+
+#: operators_export.py:24
+msgctxt "Operator"
+msgid "Export the node tree as a Tree Clipper string."
+msgstr "将节点树导出为 Tree Clipper 字符串。"
+
+#: export_active.py:7
+msgctxt "Operator"
+msgid "Export the selected and active node group as a Tree Clipper string."
+msgstr "将选中且激活的节点组导出为 Tree Clipper 字符串。"
+
+#: operators_import.py:120
+msgctxt "Operator"
+msgid "Import Cache"
+msgstr "导入缓存"
+
+#: operators_import.py:64
+msgctxt "Operator"
+msgid "Import Clipboard"
+msgstr "从剪贴板导入"
+
+#: operators_import.py:36
+msgctxt "Operator"
+msgid "Import File"
+msgstr "从文件导入"
+
+#: operators_import.py:211
+msgctxt "Operator"
+msgid "Import Modal"
+msgstr "导入模态"
+
+#: operators_import.py:37
+msgctxt "Operator"
+msgid "Import a Tree Clipper string from a file."
+msgstr "从文件导入 Tree Clipper 字符串。"
+
+#: operators_import.py:65
+msgctxt "Operator"
+msgid "Import a Tree Clipper string from the clipboard."
+msgstr "从剪贴板导入 Tree Clipper 字符串。"

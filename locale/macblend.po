@@ -1,0 +1,731 @@
+# perfect-chinese: 1
+# id: macblend
+# kind: addon
+# module: bl_ext.blender_org.macblend
+# name: MacBlend
+# name_zh: MacBlend 色彩校准
+# translator: KeshiMiao
+# category: Compositing
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: sampling.py:1794
+msgid "360° Lat-Long"
+msgstr "360° 经纬"
+
+#: core.py:130
+msgid "ACES"
+msgstr "ACES"
+
+#: core.py:135
+msgid "ACEScg"
+msgstr "ACEScg"
+
+#: calibration.py:1111
+msgid "Action"
+msgstr "操作"
+
+#: sampling.py:1847
+msgid "Active Sampled Image"
+msgstr "活动采样图像"
+
+#: sampling.py:1793
+msgid "Align directly on a regular image"
+msgstr "直接在普通图像上对齐"
+
+#: sampling.py:1794
+msgid "Align in an undistorted panorama chart view"
+msgstr "在未畸变的全景色卡视图中对齐"
+
+#: sampling.py:1767
+msgid "Approximate colored-patch width and height in image pixels"
+msgstr "彩色色块的近似宽度和高度（图像像素）"
+
+#: core.py:155
+msgid "Arri WideGamut 3"
+msgstr "Arri WideGamut 3"
+
+#: core.py:160
+msgid "Arri WideGamut 4"
+msgstr "Arri WideGamut 4"
+
+#: calibration.py:1265
+msgid "Auto-detected"
+msgstr "自动检测"
+
+#: __init__.py:257
+msgid "Auto-detected Target"
+msgstr "自动检测目标"
+
+#: __init__.py:280
+msgid "Base name for the generated forward and inverse matrix nodes"
+msgstr "生成的正面和反面矩阵节点的基础名称"
+
+#: core.py:185
+msgid "Blackmagic Wide Gamut"
+msgstr "Blackmagic Wide Gamut"
+
+#: calibration.py:1230
+msgid "Both Forward and Inverse LUTs will be exported."
+msgstr "将同时导出正面和反面 LUT。"
+
+#: sampling.py:1789
+#: sampling.py:2080
+msgid "Bottom Left"
+msgstr "左下"
+
+#: sampling.py:1788
+#: sampling.py:2079
+msgid "Bottom Right"
+msgstr "右下"
+
+#: __init__.py:263
+msgid "Calculated Matrix (Raw)"
+msgstr "计算矩阵（原始）"
+
+#: calibration.py:969
+msgid "Calculated matrix is singular and cannot be inverted."
+msgstr "计算出的矩阵为奇异矩阵，无法求逆。"
+
+#: __init__.py:270
+msgid "Calculation Done Flag"
+msgstr "计算完成标志"
+
+#: __init__.py:193
+msgid "Calibration"
+msgstr "校准"
+
+#: sampling.py:2045
+msgid "Chart Alignment"
+msgstr "色卡对齐"
+
+#: __init__.py:117
+#: sampling.py:1757
+msgid "Chart Type"
+msgstr "色卡类型"
+
+#: sampling.py:1566
+msgid "Chart alignment needs attention"
+msgstr "色卡对齐需要注意"
+
+#: calibration.py:1158
+msgid "Choose an action:"
+msgstr "选择操作："
+
+#: calibration.py:1180
+msgid "Clamp LUT output values for broad application compatibility"
+msgstr "钳制 LUT 输出值以提高应用兼容性"
+
+#: __init__.py:166
+msgid "Clamp exported LUT values to the 0-1 range by default"
+msgstr "默认将导出的 LUT 值钳制到 0-1 范围"
+
+#: calibration.py:1180
+msgid "Clamp to 0-1"
+msgstr "钳制到 0-1"
+
+#: sampling.py:2032
+msgid "Color Space"
+msgstr "色彩空间"
+
+#: __init__.py:121
+#: sampling.py:1761
+msgid "ColorChecker Classic (after 2014)"
+msgstr "ColorChecker Classic（2014 年后）"
+
+#: sampling.py:1784
+#: sampling.py:2073
+msgid "Corner Positions"
+msgstr "角点位置"
+
+#: sampling.py:1492
+msgid "Could not determine the Image Editor viewer bounds."
+msgstr "无法确定图像编辑器查看器边界。"
+
+#: calibration.py:1271
+msgid "Couldn't detect target gamut from scene"
+msgstr "无法从场景检测目标色域"
+
+#: __init__.py:239
+#: calibration.py:1278
+msgid "Create Exposure Node"
+msgstr "创建曝光节点"
+
+#: __init__.py:155
+msgid "Create a separate exposure node by default"
+msgstr "默认创建独立的曝光节点"
+
+#: calibration.py:1115
+msgid "Create new"
+msgstr "新建"
+
+#: core.py:195
+msgid "DaVinci Wide Gamut"
+msgstr "DaVinci Wide Gamut"
+
+#: __init__.py:122
+#: sampling.py:1762
+msgid "Datacolor SpyderCheckr 24"
+msgstr "Datacolor SpyderCheckr 24"
+
+#: __init__.py:172
+msgid "Debug Logging"
+msgstr "调试日志"
+
+#: __init__.py:126
+msgid "Default Macbeth patch sample size in image pixels"
+msgstr "默认 Macbeth 色块采样大小（图像像素）"
+
+#: __init__.py:160
+msgid "Default exported 3D LUT size"
+msgstr "默认导出的 3D LUT 大小"
+
+#: __init__.py:133
+msgid "Default opacity of the Macbeth chart overlay"
+msgstr "Macbeth 色卡叠加层的默认不透明度"
+
+#: __init__.py:117
+msgid "Default target color chart for newly initialized overlays"
+msgstr "新初始化叠加层的默认目标色卡"
+
+#: sampling.py:1804
+msgid "Elevation"
+msgstr "仰角"
+
+#: __init__.py:150
+msgid "Enable calibration normalization by default"
+msgstr "默认启用校准归一化"
+
+#: calibration.py:1174
+msgid "Export Directory"
+msgstr "导出目录"
+
+#: __init__.py:155
+msgid "Exposure Node Creation"
+msgstr "曝光节点创建"
+
+#: sampling.py:1818
+msgid "Field of View"
+msgstr "视野"
+
+#: core.py:190
+msgid "Filmlight E-Gamut"
+msgstr "Filmlight E-Gamut"
+
+#: sampling.py:1793
+msgid "Flat Image"
+msgstr "平面图像"
+
+#: __init__.py:275
+msgid "Formatted Matrix"
+msgstr "格式化矩阵"
+
+#: calibration.py:1106
+msgid "Forward"
+msgstr "正向"
+
+#: __init__.py:141
+msgid "Gizmo Scale"
+msgstr "Gizmo 缩放"
+
+#: sampling.py:1798
+msgid "Heading"
+msgstr "方位角"
+
+#: calibration.py:1256
+msgid "Image"
+msgstr "图像"
+
+#: __init__.py:270
+msgid "Indicates if a matrix has been successfully calculated"
+msgstr "指示矩阵是否已成功计算"
+
+#: __init__.py:239
+msgid "Insert a matching exposure/scale node after the calculated matrix. This is optional and independent from the normalization solve itself."
+msgstr "在计算出的矩阵后插入匹配的曝光/缩放节点。此项可选，且独立于归一化求解本身。"
+
+#: __init__.py:263
+msgid "Internal storage of the calculated 3x3 matrix (row-major)"
+msgstr "计算出的 3x3 矩阵的内部存储（行优先）"
+
+#: calibration.py:1106
+msgid "Inverse"
+msgstr "逆向"
+
+#: __init__.py:166
+msgid "LUT Clamping"
+msgstr "LUT 钳制"
+
+#: __init__.py:199
+msgid "LUT Export"
+msgstr "LUT 导出"
+
+#: __init__.py:160
+#: calibration.py:1175
+msgid "LUT Size"
+msgstr "LUT 大小"
+
+#: __init__.py:202
+msgid "LUT Size:"
+msgstr "LUT 大小："
+
+#: core.py:150
+msgid "Linear Rec. 709"
+msgstr "线性 Rec. 709"
+
+#: sampling.py:1729
+msgid "Logical Macbeth patch slot this sample belongs to"
+msgstr "此样本所属的逻辑 Macbeth 色块槽位"
+
+#: calibration.py:1246
+#: calibration.py:1247
+msgid "MacBlend"
+msgstr "MacBlend"
+
+#: sampling.py:1169
+msgid "Macbeth Chart Overlay"
+msgstr "Macbeth 色卡叠加层"
+
+#: __init__.py:220
+msgid "Macbeth chart calibration data to use as the target values"
+msgstr "用作目标值的 Macbeth 色卡校准数据"
+
+#: __init__.py:213
+msgid "Macbeth chart calibration data to use when creating the transform"
+msgstr "创建变换时使用的 Macbeth 色卡校准数据"
+
+#: calibration.py:1286
+msgid "Matrix:"
+msgstr "矩阵："
+
+#: calibration.py:491
+msgid "Neutral patch index is out of bounds for normalization."
+msgstr "中性色块索引超出归一化范围。"
+
+#: sampling.py:1907
+msgid "No image selected in the Image Editor."
+msgstr "图像编辑器中未选择图像。"
+
+#: sampling.py:1430
+#: sampling.py:1456
+msgid "No image with Macbeth overlay data available."
+msgstr "没有可用的带 Macbeth 叠加层数据的图像。"
+
+#: sampling.py:1655
+msgid "No panorama image is selected."
+msgstr "未选择全景图像。"
+
+#: calibration.py:449
+msgid "No saved target image selected."
+msgstr "未选择已保存的目标图像。"
+
+#: calibration.py:414
+msgid "No valid saved source image selected."
+msgstr "未选择有效的已保存源图像。"
+
+#: __init__.py:280
+#: calibration.py:1279
+msgid "Node Name"
+msgstr "节点名称"
+
+#: __init__.py:150
+msgid "Normalization"
+msgstr "归一化"
+
+#: __init__.py:245
+msgid "Normalization Factor"
+msgstr "归一化系数"
+
+#: calibration.py:512
+msgid "Normalization factor must be finite and greater than zero."
+msgstr "归一化系数必须是有限且大于零的值。"
+
+#: __init__.py:233
+#: calibration.py:1277
+msgid "Normalize"
+msgstr "归一化"
+
+#: calibration.py:1114
+msgid "Only update the ColorMatrix input vectors"
+msgstr "仅更新 ColorMatrix 输入向量"
+
+#: __init__.py:133
+#: sampling.py:1775
+msgid "Overlay Opacity"
+msgstr "叠加层不透明度"
+
+#: core.py:140
+msgid "P3D65"
+msgstr "P3D65"
+
+#: core.py:180
+msgid "Panasonic V-Gamut"
+msgstr "Panasonic V-Gamut"
+
+#: sampling.py:1729
+msgid "Patch Index"
+msgstr "色块索引"
+
+#: sampling.py:1749
+msgid "Patch Name"
+msgstr "色块名称"
+
+#: __init__.py:126
+#: sampling.py:1767
+msgid "Patch Size"
+msgstr "色块大小"
+
+#: __init__.py:233
+msgid "Pre-scaling source samples to the mid-grey patch before solving the calibration matrix."
+msgstr "在求解校准矩阵前，将源采样预缩放至中灰色块。"
+
+#: calibration.py:1115
+msgid "Preserve the existing nodes and add a .001-style suffix to avoid name conflicts"
+msgstr "保留现有节点并添加 .001 式后缀以避免名称冲突"
+
+#: __init__.py:172
+msgid "Print sampling and calibration diagnostics to the console"
+msgstr "将采样与校准诊断信息输出到控制台"
+
+#: sampling.py:1790
+msgid "Projection"
+msgstr "投影"
+
+#: sampling.py:1785
+#: sampling.py:2057
+msgid "Projection Settings"
+msgstr "投影设置"
+
+#: sampling.py:1736
+msgid "RGB"
+msgstr "RGB"
+
+#: core.py:145
+msgid "Rec.2020"
+msgstr "Rec.2020"
+
+#: core.py:165
+msgid "Red WideGamut RGB"
+msgstr "Red WideGamut RGB"
+
+#: sampling.py:1812
+msgid "Roll"
+msgstr "滚转"
+
+#: sampling.py:2087
+msgid "Sampled Images"
+msgstr "已采样图像"
+
+#: sampling.py:1736
+msgid "Sampled Macbeth patch value"
+msgstr "采样的 Macbeth 色块值"
+
+#: sampling.py:2107
+msgid "Sampled Values"
+msgstr "采样值"
+
+#: __init__.py:186
+msgid "Sampling"
+msgstr "采样"
+
+#: __init__.py:141
+msgid "Scale corner crosses and flip controls in the Image Editor"
+msgstr "在图像编辑器中缩放角部十字和翻转控件"
+
+#: calibration.py:683
+msgid "Select an existing export directory."
+msgstr "选择现有的导出目录。"
+
+#: sampling.py:2026
+msgid "Select an image"
+msgstr "选择图像"
+
+#: __init__.py:251
+msgid "Select the target working gamut"
+msgstr "选择目标工作色域"
+
+#: sampling.py:1487
+#: sampling.py:1526
+msgid "Selected image has no valid pixel resolution."
+msgstr "所选图像没有有效的像素分辨率。"
+
+#: sampling.py:1783
+msgid "Show Overlay"
+msgstr "显示叠加层"
+
+#: sampling.py:1748
+msgid "Slot"
+msgstr "槽位"
+
+#: core.py:170
+msgid "Sony SGamut3"
+msgstr "Sony SGamut3"
+
+#: core.py:175
+msgid "Sony SGamut3.Cine"
+msgstr "Sony SGamut3.Cine"
+
+#: __init__.py:213
+msgid "Source Image"
+msgstr "源图像"
+
+#: __init__.py:122
+#: sampling.py:1762
+msgid "SpyderCheckr 24"
+msgstr "SpyderCheckr 24"
+
+#: __init__.py:245
+msgid "Stored luminance compensation factor from the last matrix calculation"
+msgstr "上次矩阵计算中存储的亮度补偿系数"
+
+#: calibration.py:1262
+#: calibration.py:1273
+msgid "Target"
+msgstr "目标"
+
+#: __init__.py:251
+msgid "Target Gamut"
+msgstr "目标色域"
+
+#: __init__.py:220
+msgid "Target Image"
+msgstr "目标图像"
+
+#: sampling.py:1757
+msgid "Target color chart model and reference specification"
+msgstr "目标色卡模型与参考规格"
+
+#: calibration.py:1267
+msgid "Target overridden"
+msgstr "目标已覆盖"
+
+#: calibration.py:1227
+msgid "The following LUT files already exist:"
+msgstr "以下 LUT 文件已存在："
+
+#: calibration.py:422
+msgid "This operator only works in Shader or Compositor Node Editor."
+msgstr "此操作符仅在着色器或合成器节点编辑器中可用。"
+
+#: calibration.py:427
+msgid "This panel only works in the Shader or Compositor editor."
+msgstr "此面板仅在着色器或合成器编辑器中可用。"
+
+#: sampling.py:1584
+msgid "Tip"
+msgstr "提示"
+
+#: sampling.py:1786
+#: sampling.py:2077
+msgid "Top Left"
+msgstr "左上"
+
+#: sampling.py:1787
+#: sampling.py:2078
+msgid "Top Right"
+msgstr "右上"
+
+#: calibration.py:1104
+msgid "Transform"
+msgstr "变换"
+
+#: sampling.py:1605
+msgid "Unknown chart alignment action."
+msgstr "未知的色卡对齐操作。"
+
+#: calibration.py:1114
+msgid "Update existing"
+msgstr "更新现有"
+
+#: __init__.py:227
+msgid "Use reference values as target"
+msgstr "使用参考值作为目标"
+
+#: __init__.py:227
+msgid "Use the selected colorspace reference values instead of sampled target image values"
+msgstr "使用所选色彩空间的参考值，而不使用采样的目标图像值"
+
+#: __init__.py:275
+msgid "User-friendly display of the calculated matrix"
+msgstr "便于查看的已计算矩阵显示"
+
+#: __init__.py:257
+msgid "Working-space gamut detected when the calibration source image was selected"
+msgstr "选择校准源图像时检测到的工作空间色域"
+
+#: sampling.py:1750
+msgid "X"
+msgstr "X"
+
+#: __init__.py:121
+#: sampling.py:1761
+msgid "X-Rite / Calibrite ColorChecker Classic (post-2014 reference)"
+msgstr "X-Rite / Calibrite ColorChecker Classic（2014 年后参考）"
+
+#: sampling.py:1751
+msgid "Y"
+msgstr "Y"
+
+#: manual.py:13
+#: manual.py:14
+msgid "calibration/index.html"
+msgstr "calibration/index.html"
+
+#: manual.py:15
+msgid "export/index.html"
+msgstr "export/index.html"
+
+#: manual.py:6
+#: manual.py:7
+msgid "sampling/index.html"
+msgstr "sampling/index.html"
+
+#: sampling.py:1296
+msgctxt "Operator"
+msgid "Adjust Overlay Corner"
+msgstr "调整叠加层角点"
+
+#: sampling.py:1475
+#: sampling.py:2048
+msgctxt "Operator"
+msgid "Center Overlay"
+msgstr "居中叠加层"
+
+#: sampling.py:1476
+msgctxt "Operator"
+msgid "Center a Macbeth chart in the visible Image Editor view and fit Patch Size to its cells"
+msgstr "将 Macbeth 色卡居中到图像编辑器可见视图，并使色块大小适应其单元格"
+
+#: sampling.py:1544
+msgctxt "Operator"
+msgid "Check Chart Alignment"
+msgstr "检查色卡对齐"
+
+#: calibration.py:1039
+msgctxt "Operator"
+msgid "Create a transform from the sampled source colors to the selected target colors"
+msgstr "创建从采样源颜色到所选目标颜色的变换"
+
+#: calibration.py:1071
+msgctxt "Operator"
+msgid "Create a transform from the selected target colors back to the sampled source colors"
+msgstr "创建从所选目标颜色回到采样源颜色的变换"
+
+#: sampling.py:1985
+msgctxt "Operator"
+msgid "Delete Sample Values"
+msgstr "删除采样值"
+
+#: sampling.py:1986
+msgctxt "Operator"
+msgid "Delete the sampled Macbeth values from the highlighted image"
+msgstr "从高亮图像中删除采样的 Macbeth 值"
+
+#: sampling.py:2038
+msgctxt "Operator"
+msgid "Disable Lat/Long Projection"
+msgstr "禁用经纬投影"
+
+#: sampling.py:1612
+msgctxt "Operator"
+msgid "Enter or exit the undistorted lat-long chart view"
+msgstr "进入或退出无畸变经纬色卡视图"
+
+#: calibration.py:1168
+msgctxt "Operator"
+msgid "Export Forward and Inverse LUTs named WorkingSpace_InputImage_Target[_normalized]_Mode.cube"
+msgstr "导出名为 WorkingSpace_InputImage_Target[_normalized]_Mode.cube 的正向和反向 LUT"
+
+#: calibration.py:1167
+#: calibration.py:1283
+msgctxt "Operator"
+msgid "Export LUTs"
+msgstr "导出 LUT"
+
+#: sampling.py:2051
+msgctxt "Operator"
+msgid "Flip Horizontal"
+msgstr "水平翻转"
+
+#: sampling.py:1423
+msgctxt "Operator"
+msgid "Flip Overlay Horizontal"
+msgstr "水平翻转叠加层"
+
+#: sampling.py:1449
+msgctxt "Operator"
+msgid "Flip Overlay Vertical"
+msgstr "垂直翻转叠加层"
+
+#: sampling.py:2052
+msgctxt "Operator"
+msgid "Flip Vertical"
+msgstr "垂直翻转"
+
+#: calibration.py:1038
+#: calibration.py:1281
+msgctxt "Operator"
+msgid "Forward"
+msgstr "正向"
+
+#: calibration.py:1070
+#: calibration.py:1282
+msgctxt "Operator"
+msgid "Inverse"
+msgstr "反向"
+
+#: sampling.py:2038
+msgctxt "Operator"
+msgid "Lat/Long Projection"
+msgstr "经纬投影"
+
+#: sampling.py:1424
+msgctxt "Operator"
+msgid "Mirror the Macbeth patch orientation horizontally inside the aligned corners"
+msgstr "在对齐的角点内水平镜像 Macbeth 色块方向"
+
+#: sampling.py:1450
+msgctxt "Operator"
+msgid "Mirror the Macbeth patch orientation vertically inside the aligned corners"
+msgstr "在对齐的角点内垂直镜像 Macbeth 色块方向"
+
+#: calibration.py:1211
+msgctxt "Operator"
+msgid "Replace Existing LUT Files?"
+msgstr "替换现有 LUT 文件？"
+
+#: sampling.py:1514
+#: sampling.py:2049
+msgctxt "Operator"
+msgid "Reset Chart"
+msgstr "重置色卡"
+
+#: sampling.py:1515
+msgctxt "Operator"
+msgid "Reset chart position and Patch Size to the initial overlay layout"
+msgstr "将色卡位置和色块大小重置为初始叠加布局"
+
+#: sampling.py:1882
+#: sampling.py:2084
+msgctxt "Operator"
+msgid "Sample Chart"
+msgstr "采样色卡"
+
+#: sampling.py:1883
+msgctxt "Operator"
+msgid "Sample the 24 Macbeth patch values from the active image"
+msgstr "从当前图像采样 24 个麦克白色块值"
+
+#: sampling.py:1611
+msgctxt "Operator"
+msgid "Toggle Lat-Long Chart View"
+msgstr "切换经纬色卡视图"
+
+#: calibration.py:1102
+msgctxt "Operator"
+msgid "Transform Already Exists"
+msgstr "变换已存在"

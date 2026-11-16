@@ -1,0 +1,204 @@
+# perfect-chinese: 1
+# id: transform_tools_core_yiws
+# kind: addon
+# module: bl_ext.blender_org.transform_tools_core_yiws
+# name: Transform Tools Core
+# name_zh: 变换工具核心
+# translator: KeshiMiao
+# category: Object
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: transform_tools_core/core/properties.py:34
+msgid "3D Cursor Orientation"
+msgstr "3D 游标方向"
+
+#: transform_tools_core/__init__.py:1
+msgid "3D View"
+msgstr "3D 视图"
+
+#: transform_tools_core/core/properties.py:24
+msgid "Auto-Update Previous Gizmo"
+msgstr "自动更新上一个 Gizmo"
+
+#: transform_tools_core/ui_modules/operators.py:190
+msgid "Complex Dup"
+msgstr "复杂复制"
+
+#: transform_tools_core/utils/shared_data.py:1
+msgid "Create linked instances instead of unique object duplicates"
+msgstr "创建关联副本而非独立物体副本"
+
+#: transform_tools_core/__init__.py:1
+msgid "Define and apply precise transformations using custom gizmos."
+msgstr "使用自定义 Gizmo 定义并应用精确变换。"
+
+#: transform_tools_core/utils/shared_data.py:1
+msgid "Duplicate the selected before applying the transformation"
+msgstr "在应用变换前复制所选内容"
+
+#: transform_tools_core/core/preferences.py:10
+msgid "Enabling GPU subdivision may cause a brief freeze the first time snapping is used in a complex scene."
+msgstr "启用 GPU 细分后，在复杂场景中首次使用吸附时可能会短暂卡顿。"
+
+#: transform_tools_core/utils/shared_data.py:1
+msgid "Extrude the selected during the transformation, works in Edit Mode only"
+msgstr "在变换过程中挤出所选内容，仅适用于编辑模式"
+
+#: transform_tools_core/core/properties.py:19
+msgid "Fixed Visual Size"
+msgstr "固定视觉大小"
+
+#: transform_tools_core/utils/shared_data.py:1
+msgid "Flip the Previous gizmo Z direction, by rotating it 180 degrees at its Y-axis"
+msgstr "将上一个 Gizmo 绕其 Y 轴旋转 180 度，以翻转其 Z 方向"
+
+#: transform_tools_core/ui_modules/operators.py:190
+msgid "Handles complex object relationships (e.g., Booleans targeting other duplicated objects) more accurately. This mode may be slower. Enable if standard duplication causes issues with linked modifiers"
+msgstr "更准确地处理复杂的物体关系（例如布尔指向其他被复制的物体）。此模式可能较慢。如果常规复制在关联修改器上出现问题，请启用。"
+
+#: transform_tools_core/core/properties.py:45
+msgid "Hide All"
+msgstr "全部隐藏"
+
+#: transform_tools_core/core/properties.py:45
+msgid "Hide all gizmos"
+msgstr "隐藏所有 Gizmo"
+
+#: transform_tools_core/core/properties.py:19
+msgid "Keep the gizmo size fixed relative to screen space. Note: This only affects the visual size of the gizmos"
+msgstr "使 Gizmo 大小相对屏幕空间保持固定。注意：此选项仅影响 Gizmo 的视觉大小"
+
+#: transform_tools_core/ui_modules/panels.py:23
+msgid "Operations"
+msgstr "操作"
+
+#: transform_tools_core/ui_modules/panels.py:60
+msgid "Options"
+msgstr "选项"
+
+#: transform_tools_core/ui_modules/operators.py:195
+msgid "Reverse"
+msgstr "反向"
+
+#: transform_tools_core/core/properties.py:43
+msgid "Show All"
+msgstr "全部显示"
+
+#: transform_tools_core/core/properties.py:44
+msgid "Show active Only"
+msgstr "仅显示活动项"
+
+#: transform_tools_core/core/properties.py:43
+msgid "Show all gizmos"
+msgstr "显示所有 Gizmo"
+
+#: transform_tools_core/core/properties.py:44
+msgid "Show only the active gizmo"
+msgstr "仅显示活动的 Gizmo"
+
+#: transform_tools_core/core/properties.py:29
+msgid "Snap"
+msgstr "吸附"
+
+#: transform_tools_core/ui_modules/panels.py:9
+msgid "TTools C"
+msgstr "TTools C"
+
+#: transform_tools_core/core/preferences.py:11
+msgid "To prevent this, you can disable it in Preferences > Viewport > Subdivision."
+msgstr "为了避免出现这种情况，你可以在 偏好设置 > 视图 > 细分 中将其禁用。"
+
+#: transform_tools_core/__init__.py:1
+#: transform_tools_core/ui_modules/panels.py:6
+msgid "Transform Tools Core"
+msgstr "Transform Tools Core"
+
+#: transform_tools_core/core/properties.py:29
+msgid "Use addon snapping settings instead of the default ones"
+msgstr "使用插件的吸附设置，而不是默认设置"
+
+#: transform_tools_core/core/properties.py:34
+msgid "Use the 3D cursor's orientation when automatically creating the gizmo, and automatically align the cursor to the gizmo whenever the gizmo updates"
+msgstr "自动创建 Gizmo 时使用 3D 游标的方向，并在 Gizmo 更新时自动将游标对齐到 Gizmo"
+
+#: transform_tools_core/utils/shared_data.py:1
+msgid "Use the scale of the Gizmos during the transformation. If disabled, Gizmos scale will be ignored"
+msgstr "在变换过程中使用 Gizmo 的缩放。禁用后将忽略 Gizmo 缩放"
+
+#: transform_tools_core/core/properties.py:24
+msgid "Whenever the Active Gizmo is created/updated, the Previous Gizmo automatically takes the state of the former Active Gizmo"
+msgstr "每当活动 Gizmo 被创建或更新时，上一个 Gizmo 会自动继承原活动 Gizmo 的状态"
+
+#: transform_tools_core/ui_modules/operators.py:195
+msgid "inverts the transformation's direction. It makes the selection transform from the Active gizmo to the Previous gizmo, instead of the default direction of Previous to Active"
+msgstr "反转变换方向。使所选内容从活动 Gizmo 变换到上一个 Gizmo，而非默认的从上个到活动的方向"
+
+#: transform_tools_core/ui_modules/operators.py:154
+msgctxt "Operator"
+msgid "Auto Add Circle"
+msgstr "自动添加圆环"
+
+#: transform_tools_core/ui_modules/operators.py:113
+msgctxt "Operator"
+msgid "Circle Updater"
+msgstr "圆环更新器"
+
+#: transform_tools_core/ui_modules/panels.py:29
+msgctxt "Operator"
+msgid "Create"
+msgstr "创建"
+
+#: transform_tools_core/ui_modules/operators.py:14
+msgctxt "Operator"
+msgid "Creates a 3D gizmo with X, Y, and Z axes"
+msgstr "创建一个带 X、Y、Z 轴的 3D Gizmo"
+
+#: transform_tools_core/ui_modules/panels.py:44
+msgctxt "Operator"
+msgid "Cursor Pivot"
+msgstr "游标轴心点"
+
+#: transform_tools_core/ui_modules/operators.py:13
+msgctxt "Operator"
+msgid "Cursor transform"
+msgstr "游标变换"
+
+#: transform_tools_core/ui_modules/operators.py:78
+msgctxt "Operator"
+msgid "Modal Snapping Reporter"
+msgstr "模态吸附报告器"
+
+#: transform_tools_core/ui_modules/operators.py:53
+msgctxt "Operator"
+msgid "Move and Snap Cursor"
+msgstr "移动并吸附游标"
+
+#: transform_tools_core/ui_modules/operators.py:364
+msgctxt "Operator"
+msgid "Toggle Transform Orientation"
+msgstr "切换变换方向"
+
+#: transform_tools_core/ui_modules/operators.py:365
+msgctxt "Operator"
+msgid "Toggle between the 3D cursor and the last used transform orientation and pivot point"
+msgstr "在 3D 游标与上次使用的变换方向和轴心点之间切换"
+
+#: transform_tools_core/ui_modules/panels.py:54
+msgctxt "Operator"
+msgid "Transform"
+msgstr "变换"
+
+#: transform_tools_core/ui_modules/operators.py:187
+msgctxt "Operator"
+msgid "Transform the selection from the Previous (Faded) Gizmo to the active (Bright) Gizmo"
+msgstr "将所选内容从上个（淡显）Gizmo 变换到活动（高亮）Gizmo"
+
+#: transform_tools_core/ui_modules/operators.py:186
+msgctxt "Operator"
+msgid "Transformation ops"
+msgstr "变换操作"

@@ -1,0 +1,168 @@
+# perfect-chinese: 1
+# id: exact_radius
+# kind: addon
+# module: bl_ext.blender_org.exact_radius
+# name: Exact Radius
+# name_zh: 精确半径
+# translator: KeshiMiao
+# category: Mesh
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:1091
+msgid "(a full circle, a hole, or part of one — an arc)"
+msgstr "（完整圆、孔洞，或其中一部分——圆弧）"
+
+#: __init__.py:1090
+msgid "1.   In Edit Mode, select a ring of vertices"
+msgstr "1.   在编辑模式下，选择一圈顶点"
+
+#: __init__.py:1092
+msgid "2.   Press the shortcut   (or  Vertex menu > Exact Radius)"
+msgstr "2.   按快捷键   （或 顶点菜单 > 精确半径）"
+
+#: __init__.py:1093
+msgid "3.   Type the radius, press Enter — done"
+msgstr "3.   输入半径，按回车——完成"
+
+#: __init__.py:827
+msgid "3D Cursor"
+msgstr "3D 游标"
+
+#: __init__.py:1002
+msgid "Alt + R"
+msgstr "Alt + R"
+
+#: __init__.py:1004
+msgid "Alt + Shift + R"
+msgstr "Alt + Shift + R"
+
+#: __init__.py:1003
+#: __init__.py:1004
+msgid "Alternative shortcut"
+msgstr "备用快捷键"
+
+#: __init__.py:825
+msgid "Auto"
+msgstr "自动"
+
+#: __init__.py:822
+msgid "Center"
+msgstr "中心"
+
+#: __init__.py:1003
+msgid "Ctrl + Alt + R"
+msgstr "Ctrl + Alt + R"
+
+#: __init__.py:1002
+msgid "Default shortcut"
+msgstr "默认快捷键"
+
+#: __init__.py:1005
+msgid "Disabled"
+msgstr "已禁用"
+
+#: __init__.py:3
+msgid "Exact Radius"
+msgstr "精确半径"
+
+#: __init__.py:825
+msgid "Fit the circle center automatically (full circles and arcs)"
+msgstr "自动拟合圆心（完整圆和圆弧）"
+
+#: __init__.py:1095
+msgid "Good to know:"
+msgstr "实用提示："
+
+#: __init__.py:1062
+msgid "How to use"
+msgstr "使用方法"
+
+#: __init__.py:1079
+msgid "How to use Exact Radius"
+msgstr "如何使用精确半径"
+
+#: __init__.py:1055
+msgid "Keyboard shortcut for Exact Radius (Edit Mode)"
+msgstr "精确半径的快捷键（编辑模式）"
+
+#: __init__.py:1085
+msgid "Make a selected ring of vertices a perfect circle of an"
+msgstr "将选中一圈顶点变成指定半径的完美圆形"
+
+#: __init__.py:3
+msgid "Make selected rings of vertices perfect circles of an exact radius — at any orientation, for full circles, holes and partial arcs. Sets many circles at once and reports how many were set."
+msgstr "将选中的多圈顶点变为指定半径的完美圆形——任意朝向，适用于完整圆、孔洞和部分圆弧。可一次设置多个圆，并报告设置数量。"
+
+#: __init__.py:3
+msgid "Mesh"
+msgstr "网格"
+
+#: __init__.py:1005
+msgid "No shortcut — use the Vertex menu instead"
+msgstr "无快捷键——请改用顶点菜单"
+
+#: __init__.py:813
+msgid "Radius"
+msgstr "半径"
+
+#: __init__.py:938
+msgid "Radius must be greater than 0"
+msgstr "半径必须大于 0"
+
+#: __init__.py:961
+msgid "Selection is not a circle — select a ring of vertices"
+msgstr "所选内容不是圆形——请选择一圈顶点"
+
+#: __init__.py:1055
+msgid "Shortcut"
+msgstr "快捷键"
+
+#: __init__.py:1073
+msgid "Shortcut (Edit Mode)"
+msgstr "快捷键（编辑模式）"
+
+#: __init__.py:1062
+msgid "Show a short how-to for Exact Radius"
+msgstr "显示精确半径的简短使用说明"
+
+#: __init__.py:813
+msgid "Target radius in object/local units"
+msgstr "目标半径，以物体/局部单位计"
+
+#: __init__.py:827
+msgid "Use the 3D cursor as the center (in local coordinates)"
+msgstr "使用 3D 游标作为中心（局部坐标）"
+
+#: __init__.py:1087
+msgid "exact radius, at any orientation — no pop-up, it happens right on the shortcut."
+msgstr "精确半径，任意朝向——无弹窗，按快捷键即刻生效。"
+
+#: __init__.py:1098
+msgid "•  20/2  math works  (turn a diameter into a radius)"
+msgstr "•  支持 20/2 算式（把直径换算成半径）"
+
+#: __init__.py:1100
+msgid "•  Esc cancels  ·  F9 afterwards to set the center"
+msgstr "•  Esc 取消  ·  之后按 F9 可设置中心"
+
+#: __init__.py:1101
+msgid "•  a non-circle (whole face / mesh) shows an error"
+msgstr "•  非圆形（整个面/网格）会显示错误"
+
+#: __init__.py:1096
+msgid "•  select many rings at once — each gets the radius, with a count (e.g. 12 circles set)"
+msgstr "•  可一次选择多圈——每圈都获得该半径，并显示数量（例如已设置 12 个圆）"
+
+#: __init__.py:1099
+msgid "•  tilted / rotated circles and partial arcs just work"
+msgstr "•  倾斜/旋转的圆和部分圆弧均可直接处理"
+
+#: __init__.py:810
+msgctxt "Operator"
+msgid "Exact Radius"
+msgstr "精确半径"
