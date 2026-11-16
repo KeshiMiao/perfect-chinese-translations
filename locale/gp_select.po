@@ -1,0 +1,1670 @@
+# perfect-chinese: 1
+# id: gp_select
+# kind: addon
+# module: bl_ext.blender_org.gp_select
+# name: Gp Select
+# name_zh: GP选择工具
+# translator: KeshiMiao
+# category: Grease Pencil
+# supported_versions: >=4.5.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: layer_tools.py:1646
+msgid "3D Cursor"
+msgstr "3D 游标"
+
+#: layer_tools.py:829
+#: layer_tools.py:897
+msgid "Active layer is hidden or LockedGPS"
+msgstr "活动图层已隐藏或被 LockedGPS 锁定"
+
+#: Control_Gen.py:428
+#: Control_Gen.py:581
+msgid "Active layer is hidden or inside LockedGPS group"
+msgstr "活动图层已隐藏或位于 LockedGPS 组内"
+
+#: layer_tools.py:81
+#: layer_tools.py:137
+msgid "Active layer's group is hidden or LockedGPS"
+msgstr "活动图层的组已隐藏或被 LockedGPS 锁定"
+
+#: layer_tools.py:1661
+msgid "Add locked gps to selected stroke layers instead of a group"
+msgstr "将锁定 GPS 添加到所选笔画图层而非组"
+
+#: layer_tools.py:1799
+msgid "Added Locked Gps (and locked all nested layers)"
+msgstr "已添加锁定 GPS（并锁定所有嵌套图层）"
+
+#: Rig_gen.py:433
+msgid "Adds weight to selected grease pencil strokes expanding outward from the middle of each bone"
+msgstr "从每根骨骼中部向外扩展，为所选蜡笔笔画添加权重"
+
+#: Rig_gen.py:1198
+msgid "Adds weight to selected grease pencil strokes expanding outward from the middle of generated deform bones"
+msgstr "从生成的形变骨骼中部向外扩展，为所选蜡笔笔画添加权重"
+
+#: Rig_gen.py:34
+#: Rig_gen.py:1685
+msgid "Adds weight to selected grease pencil strokes expanding outward from the middle of stretch bones"
+msgstr "从拉伸骨骼中部向外扩展，为所选蜡笔笔画添加权重"
+
+#: Rig_gen.py:848
+msgid "Adds weight to selected grease pencil strokes expanding outward from the middle of the chain bones"
+msgstr "从链骨骼中部向外扩展，为所选蜡笔笔画添加权重"
+
+#: ui_panels.py:315
+msgid "Affixes"
+msgstr "词缀"
+
+#: layer_tools.py:1360
+msgid "All Strokes share one material"
+msgstr "所有笔画共用一个材质"
+
+#: layer_tools.py:1555
+msgid "All objects made selectable"
+msgstr "所有物体已设为可选"
+
+#: Properties.py:293
+msgid "Anchored Squash"
+msgstr "锚定挤压"
+
+#: Properties.py:309
+msgid "Anchored Squash Bottom"
+msgstr "锚定挤压底部"
+
+#: Properties.py:299
+msgid "Anchored Squash Left"
+msgstr "锚定挤压左侧"
+
+#: Properties.py:304
+msgid "Anchored Squash Right"
+msgstr "锚定挤压右侧"
+
+#: Control_Gen.py:378
+msgid "Applies all selected stroke layers as masks onto the single active layer instead"
+msgstr "改为将所有所选笔画图层作为蒙版应用到单个活动图层"
+
+#: Control_Gen.py:372
+msgid "Applies the active layer as a mask onto all selected stroke layers"
+msgstr "将活动图层作为蒙版应用到所有所选笔画图层"
+
+#: Main_Operators.py:784
+#: Rig_gen.py:67
+msgid "Apply weight to selected strokes inside other sibling grease pencil objects"
+msgstr "为其他同级蜡笔物体内的所选笔画应用权重"
+
+#: Rig_gen.py:405
+msgid "Arm/Leg Rig Generated"
+msgstr "手臂/腿部绑定已生成"
+
+#: Main_Operators.py:490
+msgid "Auto add weight"
+msgstr "自动添加权重"
+
+#: Main_Operators.py:490
+msgid "Automatically add Weight to the selected strokes"
+msgstr "自动为所选笔画添加权重"
+
+#: ui_panels.py:12
+msgid "Aways cycle Toggles"
+msgstr "始终循环切换"
+
+#: Rig_gen.py:26
+#: Rig_gen.py:417
+msgid "B-Bone Display Size"
+msgstr "B 骨骼显示大小"
+
+#: Properties.py:236
+msgid "BBone X"
+msgstr "BBone X"
+
+#: ui_panels.py:489
+msgid "Bone Size / BBone Width"
+msgstr "骨骼大小 / B 骨骼宽度"
+
+#: Main_Operators.py:517
+msgid "Bone exists! Rename?"
+msgstr "骨骼已存在！是否重命名？"
+
+#: ui_panels.py:495
+msgid "Both"
+msgstr "两者"
+
+#: Lat_Gen.py:221
+#: Lat_Gen.py:673
+msgid "Bottom"
+msgstr "底部"
+
+#: Rig_gen.py:1622
+msgid "Can't find Spline or Pointer IK"
+msgstr "找不到样条或指针 IK"
+
+#: Properties.py:315
+#: ui_panels.py:559
+msgid "Center"
+msgstr "中心"
+
+#: Lat_Gen.py:71
+#: Lat_Gen.py:105
+msgid "Center Influence"
+msgstr "中心影响"
+
+#: layer_tools.py:631
+msgid "Cleared weights from selected strokes"
+msgstr "已清除所选笔画的权重"
+
+#: ui_panels.py:558
+msgid "Con influence:"
+msgstr "控制影响："
+
+#: Main_Operators.py:485
+msgid "Connect To Bone"
+msgstr "连接到骨骼"
+
+#: Main_Operators.py:485
+msgid "Connect new bone to the last selected bone"
+msgstr "将新骨骼连接到上次选择的骨骼"
+
+#: Lat_Gen.py:64
+#: Lat_Gen.py:102
+msgid "Const Inverted"
+msgstr "控制反向"
+
+#: ui_panels.py:352
+msgid "Constraints"
+msgstr "约束"
+
+#: Properties.py:192
+msgid "Control Opacity of all selected stroke's layers.(set value then click apply)"
+msgstr "控制所有所选笔画图层的不透明度。（设置数值后点击应用）"
+
+#: ui_panels.py:404
+msgid "Controllers"
+msgstr "控制器"
+
+#: Rig_gen.py:46
+#: Rig_gen.py:445
+msgid "Controls how much the max weight value takes up space across the points"
+msgstr "控制最大权重值在各点间占据的空间"
+
+#: Rig_gen.py:39
+#: Rig_gen.py:438
+msgid "Controls the Length of the Weight for each individual bone"
+msgstr "控制每根骨骼权重的长度"
+
+#: Main_Operators.py:770
+#: Rig_gen.py:53
+msgid "Controls the Width of the Weight for each individual bone"
+msgstr "控制每根骨骼权重的宽度"
+
+#: Rig_gen.py:1549
+msgid "Custom spline Generated"
+msgstr "自定义样条已生成"
+
+#: Mode_Buttons.py:162
+msgid "Draw Brush"
+msgstr "绘制笔刷"
+
+#: ui_panels.py:380
+msgid "Driver Sensitivity:"
+msgstr "驱动器灵敏度："
+
+#: Lat_Gen.py:226
+#: Lat_Gen.py:678
+msgid "Falloff Sliders:"
+msgstr "衰减滑块："
+
+#: Properties.py:189
+#: ui_panels.py:332
+msgid "Find"
+msgstr "查找"
+
+#: Rig_gen.py:428
+msgid "Flip limit"
+msgstr "翻转限制"
+
+#: Rig_gen.py:428
+msgid "Flips the Limit distance constraint between head and hip controllers"
+msgstr "翻转头部与髋部控制器之间的限制距离约束"
+
+#: Control_Gen.py:538
+msgid "Generated Mask Switch Rig Setup!"
+msgstr "已生成蒙版切换绑定设置！"
+
+#: Control_Gen.py:667
+msgid "Generated Visibility Rig Setup!"
+msgstr "已生成可见性绑定设置！"
+
+#: layer_tools.py:1365
+msgid "Give Strokes that share the same material The same duplicate"
+msgstr "让共用同一材质的笔画使用相同的副本"
+
+#: ui_panels.py:19
+#: ui_panels.py:23
+msgid "Gp Select"
+msgstr "Gp Select"
+
+#: Main_Operators.py:884
+msgid "Grease Pencil has no parent Armature"
+msgstr "蜡笔没有父级骨架"
+
+#: layer_tools.py:1096
+msgid "Group Name"
+msgstr "组名"
+
+#: layer_tools.py:1365
+msgid "Group Shared Materials"
+msgstr "组共享材质"
+
+#: Properties.py:252
+msgid "Height (Z)"
+msgstr "高度 (Z)"
+
+#: Main_Operators.py:756
+msgid "How far the gradient stretches past the bone head and tail"
+msgstr "渐变超出骨骼头部和尾部的距离"
+
+#: Main_Operators.py:777
+#: Rig_gen.py:60
+msgid "How many times to smooth the weight groups"
+msgstr "权重组的平滑次数"
+
+#: Main_Operators.py:763
+msgid "How much the max value takes up space across the points"
+msgstr "最大值在各点间占据的空间"
+
+#: Properties.py:293
+msgid "Include anchored squash controllers. Only use with both Res set to 2"
+msgstr "包含锚定挤压控制器。仅当两个分辨率均设为 2 时使用"
+
+#: Properties.py:309
+msgid "Include bottom anchored squash controllers. Only use with both Res set to 2"
+msgstr "包含底部锚定挤压控制器。仅当两个分辨率均设为 2 时使用"
+
+#: Properties.py:299
+msgid "Include left anchored squash controllers. Only use with both Res set to 2"
+msgstr "包含左侧锚定挤压控制器。仅当两个分辨率均设为 2 时使用"
+
+#: Properties.py:304
+msgid "Include right anchored squash controllers. Only use with both Res set to 2"
+msgstr "包含右侧锚定挤压控制器。仅当两个分辨率均设为 2 时使用"
+
+#: Properties.py:288
+msgid "Include squash controllers. Only use with both Res set to 2"
+msgstr "包含挤压控制器。仅当两个分辨率均设为 2 时使用"
+
+#: ui_panels.py:283
+msgid "Initializing..."
+msgstr "正在初始化…"
+
+#: Lat_Gen.py:1300
+msgid "Inverted"
+msgstr "反向"
+
+#: layer_tools.py:1045
+msgid "Inverted masks"
+msgstr "反向蒙版"
+
+#: Lat_Gen.py:64
+#: Lat_Gen.py:102
+msgid "Inverts the bone constraints"
+msgstr "反转骨骼约束"
+
+#: Lat_Gen.py:612
+#: Properties.py:283
+msgid "Inverts the constraints"
+msgstr "反转约束"
+
+#: layer_tools.py:1342
+msgid "Isolation Cleared"
+msgstr "已清除隔离"
+
+#: Control_Gen.py:396
+msgid "Just hit OK 4 con alone"
+msgstr "只需点击确定，4 个约束单独处理"
+
+#: ui_panels.py:496
+msgid "L"
+msgstr "左"
+
+#: Lat_Gen.py:28
+msgid "L Pass"
+msgstr "L 通道"
+
+#: Mode_Buttons.py:154
+msgid "Lasso Edit"
+msgstr "套索编辑"
+
+#: ui_panels.py:520
+msgid "Lattice Gen"
+msgstr "晶格生成"
+
+#: Lat_Gen.py:209
+#: Lat_Gen.py:660
+msgid "Lattice Resolution Settings:"
+msgstr "晶格分辨率设置："
+
+#: ui_panels.py:534
+msgid "Lattice Rigs"
+msgstr "晶格绑定"
+
+#: Lat_Gen.py:205
+msgid "Lay"
+msgstr "层"
+
+#: Control_Gen.py:400
+msgid "Lay <-Str"
+msgstr "层 <- 笔画"
+
+#: Lat_Gen.py:27
+msgid "Layer"
+msgstr "图层"
+
+#: Lat_Gen.py:41
+#: Lat_Gen.py:196
+msgid "Layer Pass Index"
+msgstr "图层通道索引"
+
+#: ui_panels.py:222
+msgid "Layer Tools"
+msgstr "图层工具"
+
+#: layer_tools.py:398
+msgid "Layer sent to Bottom."
+msgstr "图层已移到底部。"
+
+#: layer_tools.py:355
+msgid "Layer sent to Top."
+msgstr "图层已移到顶部。"
+
+#: Lat_Gen.py:219
+#: Lat_Gen.py:671
+msgid "Left"
+msgstr "左"
+
+#: Properties.py:243
+msgid "Length"
+msgstr "长度"
+
+#: layer_tools.py:1981
+msgid "Locked GPS not found"
+msgstr "未找到锁定的 GPS"
+
+#: Lat_Gen.py:30
+msgid "M Pass"
+msgstr "M 通道"
+
+#: layer_tools.py:1643
+msgid "M Point"
+msgstr "M 点"
+
+#: Control_Gen.py:378
+msgid "Mask Active to Selected"
+msgstr "将活动遮罩应用到选中项"
+
+#: Control_Gen.py:372
+msgid "Mask Selected to Active"
+msgstr "将选中遮罩应用到活动项"
+
+#: ui_panels.py:241
+msgid "Mask:"
+msgstr "遮罩："
+
+#: Lat_Gen.py:29
+#: Lat_Gen.py:202
+msgid "Mat"
+msgstr "材质"
+
+#: Lat_Gen.py:53
+msgid "Material Name"
+msgstr "材质名称"
+
+#: Lat_Gen.py:47
+#: Lat_Gen.py:199
+msgid "Material Pass Index"
+msgstr "材质通道索引"
+
+#: Main_Operators.py:763
+#: Rig_gen.py:46
+msgid "Max Spread"
+msgstr "最大扩散"
+
+#: Main_Operators.py:749
+msgid "Max Weight"
+msgstr "最大权重"
+
+#: Properties.py:320
+#: ui_panels.py:560
+msgid "Mid"
+msgstr "中间"
+
+#: Lat_Gen.py:79
+#: Lat_Gen.py:106
+msgid "Mid Influence"
+msgstr "中间影响"
+
+#: Properties.py:288
+msgid "Mid Squash"
+msgstr "中间挤压"
+
+#: ui_panels.py:36
+msgid "Modes"
+msgstr "模式"
+
+#: Control_Gen.py:248
+#: Lat_Gen.py:36
+msgid "Modifier Name"
+msgstr "修改器名称"
+
+#: Rig_gen.py:2047
+msgid "Must be in Pose or Edit mode"
+msgstr "必须处于姿态或编辑模式"
+
+#: Lat_Gen.py:193
+#: Lat_Gen.py:654
+msgid "Name"
+msgstr "名称"
+
+#: Properties.py:183
+#: layer_tools.py:1371
+msgid "New Name"
+msgstr "新名称"
+
+#: Control_Gen.py:118
+msgid "No 'GREASE_PENCIL_TIME' modifiers found."
+msgstr "未找到 'GREASE_PENCIL_TIME' 修改器。"
+
+#: layer_tools.py:222
+#: layer_tools.py:277
+msgid "No Active Group Found"
+msgstr "未找到活动组"
+
+#: Main_Operators.py:480
+msgid "No Connect/Weight"
+msgstr "无连接/权重"
+
+#: Rig_gen.py:423
+msgid "No Extra cons"
+msgstr "无额外约束"
+
+#: Main_Operators.py:647
+msgid "No GP parented to this Armature"
+msgstr "没有父级为此骨架的 GP"
+
+#: Main_Operators.py:563
+msgid "No Grease Pencil child found to toggle to"
+msgstr "未找到可切换到的蜡笔子级"
+
+#: Lat_Gen.py:1371
+msgid "No Lattice modifiers found."
+msgstr "未找到晶格修改器。"
+
+#: Control_Gen.py:568
+msgid "No Selected Strokes found"
+msgstr "未找到选中的笔画"
+
+#: Main_Operators.py:352
+msgid "No V-Groups Found"
+msgstr "未找到顶点组"
+
+#: Main_Operators.py:1150
+msgid "No active Vertex Group selected"
+msgstr "未选择活动顶点组"
+
+#: Control_Gen.py:415
+msgid "No active grease pencil layer found"
+msgstr "未找到活动的蜡笔图层"
+
+#: layer_tools.py:1760
+msgid "No active group found"
+msgstr "未找到活动组"
+
+#: Select_By.py:710
+#: layer_tools.py:2039
+msgid "No active layer found."
+msgstr "未找到活动图层。"
+
+#: layer_tools.py:1816
+msgid "No active strokes on unlocked layers"
+msgstr "解锁的图层上没有活动笔画"
+
+#: Rig_gen.py:2011
+#: Rig_gen.py:2051
+msgid "No bones selected"
+msgstr "未选择骨骼"
+
+#: Control_Gen.py:94
+msgid "No connected Time Offset drivers found for selection."
+msgstr "未找到选中项已连接的时间偏移驱动器。"
+
+#: Select_By.py:717
+#: layer_tools.py:2046
+msgid "No drawing found on this frame."
+msgstr "此帧未找到绘图。"
+
+#: layer_tools.py:1628
+msgid "No empty layers found"
+msgstr "未找到空图层"
+
+#: layer_tools.py:1068
+msgid "No layers have masks"
+msgstr "没有图层带有遮罩"
+
+#: Lat_Gen.py:264
+#: Lat_Gen.py:736
+msgid "No selected Strokes found"
+msgstr "未找到选中的笔画"
+
+#: Control_Gen.py:167
+#: Main_Operators.py:287
+msgid "No selected strokes found"
+msgstr "未找到选中的笔画"
+
+#: Control_Gen.py:450
+#: Control_Gen.py:604
+msgid "No selected strokes found across unlocked layers"
+msgstr "解锁图层中未找到选中的笔画"
+
+#: Control_Gen.py:289
+#: layer_tools.py:1313
+msgid "No selected strokes found."
+msgstr "未找到选中的笔画。"
+
+#: Main_Operators.py:196
+msgid "No selected strokes | Unlock"
+msgstr "没有选中的笔画 | 解锁"
+
+#: layer_tools.py:1721
+msgid "No selection found on unlocked layers"
+msgstr "解锁图层上未找到选中项"
+
+#: layer_tools.py:1727
+msgid "No unlocked layers with selected strokes found"
+msgstr "未找到包含选中笔画的解锁图层"
+
+#: layer_tools.py:1849
+msgid "No unlocked stroke selections found."
+msgstr "未找到解锁的笔画选中项。"
+
+#: Rig_gen.py:2112
+msgid "None of the selected bones had widgets"
+msgstr "所选骨骼均无控件"
+
+#: layer_tools.py:624
+msgid "Not in Gp Edit mode"
+msgstr "不在 GP 编辑模式"
+
+#: layer_tools.py:1580
+msgid "ONLY FOR CLEAN UP. This deletes layers with nothing found on them."
+msgstr "仅用于清理。这会删除其中没有任何内容的图层。"
+
+#: Control_Gen.py:163
+msgid "Only works on one layer"
+msgstr "仅适用于一个图层"
+
+#: Properties.py:192
+msgid "Opacity"
+msgstr "不透明度"
+
+#: Properties.py:325
+#: ui_panels.py:561
+msgid "Outer"
+msgstr "外部"
+
+#: Lat_Gen.py:87
+#: Lat_Gen.py:107
+msgid "Outer Influence"
+msgstr "外部影响"
+
+#: ui_panels.py:435
+msgid "Parts"
+msgstr "部件"
+
+#: ui_panels.py:422
+msgid "Parts Gen"
+msgstr "部件生成"
+
+#: ui_panels.py:294
+msgid "Pass"
+msgstr "通道"
+
+#: Control_Gen.py:247
+#: Properties.py:201
+msgid "Pass Index"
+msgstr "通道索引"
+
+#: Main_Operators.py:916
+msgid "Phase 2: Select bones and run operator again"
+msgstr "阶段 2：选择骨骼并再次运行操作"
+
+#: Rig_gen.py:1185
+msgid "Pointer Rig Generated"
+msgstr "已生成指针绑定"
+
+#: Main_Operators.py:604
+msgid "Press again to toggle GP Edit"
+msgstr "再次按下以切换 GP 编辑"
+
+#: Main_Operators.py:555
+msgid "Press again to toggle pose mode"
+msgstr "再次按下以切换姿态模式"
+
+#: layer_tools.py:1586
+msgid "Proceed with cleanup?"
+msgstr "继续清理？"
+
+#: Mode_Buttons.py:189
+msgid "Pull"
+msgstr "拉"
+
+#: layer_tools.py:1935
+msgid "Remove Locked Gps from all?"
+msgstr "从全部中移除锁定的 GPS？"
+
+#: Lat_Gen.py:1057
+msgid "Remove selected lattice setup?"
+msgstr "移除选中的晶格设置？"
+
+#: Lat_Gen.py:1221
+msgid "Removed Lat Setup."
+msgstr "已移除晶格设置。"
+
+#: layer_tools.py:1779
+msgid "Removed Locked Gps (and unlocked all nested layers)"
+msgstr "已移除锁定的 GPS（并解锁所有嵌套图层）"
+
+#: Control_Gen.py:753
+msgid "Removed Mask Driver"
+msgstr "已移除遮罩驱动器"
+
+#: Control_Gen.py:762
+msgid "Removed Opacity Driver"
+msgstr "已移除不透明度驱动器"
+
+#: ui_panels.py:323
+msgid "Rename"
+msgstr "重命名"
+
+#: ui_panels.py:271
+msgid "Rename | Pass"
+msgstr "重命名 | 通道"
+
+#: Properties.py:190
+#: ui_panels.py:337
+msgid "Replace"
+msgstr "替换"
+
+#: Properties.py:183
+msgid "Replace the entire name of selected layers"
+msgstr "替换所选图层的完整名称"
+
+#: Lat_Gen.py:702
+msgid "Res Set to 2"
+msgstr "分辨率设为 2"
+
+#: Lat_Gen.py:210
+#: Lat_Gen.py:661
+msgid "Res: U"
+msgstr "分辨率：U"
+
+#: Lat_Gen.py:211
+#: Lat_Gen.py:662
+msgid "Res: W"
+msgstr "分辨率：W"
+
+#: Lat_Gen.py:1300
+msgid "Reset weights using inverted defaults"
+msgstr "使用反向默认值重置权重"
+
+#: Properties.py:279
+msgid "Resolution U"
+msgstr "分辨率 U"
+
+#: Properties.py:280
+msgid "Resolution V"
+msgstr "分辨率 V"
+
+#: Properties.py:281
+msgid "Resolution W"
+msgstr "分辨率 W"
+
+#: Lat_Gen.py:24
+msgid "Rig Mode"
+msgstr "绑定模式"
+
+#: ui_panels.py:79
+msgid "Rigging"
+msgstr "绑定"
+
+#: Lat_Gen.py:220
+#: Lat_Gen.py:672
+msgid "Right"
+msgstr "右"
+
+#: Properties.py:261
+msgid "Scale Both"
+msgstr "同时缩放两者"
+
+#: Properties.py:261
+msgid "Scales Width and Height together"
+msgstr "同时缩放宽度和高度"
+
+#: Mode_Buttons.py:204
+msgid "Sculpt Inflate Brush"
+msgstr "雕刻膨胀笔刷"
+
+#: Mode_Buttons.py:196
+msgid "Sculpt Pinch Brush"
+msgstr "雕刻捏挤笔刷"
+
+#: ui_panels.py:169
+msgid "Select By:"
+msgstr "选择方式："
+
+#: Select_By.py:705
+#: layer_tools.py:2034
+msgid "Select a Grease Pencil object."
+msgstr "请选择一个蜡笔物体。"
+
+#: Lat_Gen.py:1240
+#: Lat_Gen.py:1247
+msgid "Select a Lat Con"
+msgstr "请选择一个晶格控制器"
+
+#: Main_Operators.py:896
+msgid "Select a Stroke first."
+msgstr "请先选择一个笔画。"
+
+#: Main_Operators.py:955
+msgid "Select a Stroke on one of the parented objects."
+msgstr "请在某个父级物体上选择笔画。"
+
+#: Main_Operators.py:907
+msgid "Select at least 1 Bone first."
+msgstr "请先至少选择 1 根骨骼。"
+
+#: Main_Operators.py:961
+msgid "Select at least 1 Bone."
+msgstr "请至少选择 1 根骨骼。"
+
+#: Lat_Gen.py:192
+msgid "Selected Target always ok"
+msgstr "已选目标始终正常"
+
+#: ui_panels.py:104
+msgid "Selection & Reordering"
+msgstr "选择与重新排序"
+
+#: Properties.py:209
+msgid "Sensitivity"
+msgstr "灵敏度"
+
+#: layer_tools.py:1411
+msgid "Shared Material Name"
+msgstr "共享材质名称"
+
+#: Rig_gen.py:1955
+msgid "Simple Stretch Rig Generated"
+msgstr "已生成简单拉伸绑定"
+
+#: Properties.py:216
+#: ui_panels.py:467
+msgid "Size"
+msgstr "大小"
+
+#: Rig_gen.py:423
+msgid "Skips adding copy location and limit distance constraints"
+msgstr "跳过添加复制位置和限制距离约束"
+
+#: Main_Operators.py:777
+#: Rig_gen.py:60
+msgid "Smooth Weights"
+msgstr "平滑权重"
+
+#: layer_tools.py:853
+#: layer_tools.py:919
+msgid "Some layers Already Masked"
+msgstr "部分图层已被遮罩"
+
+#: Rig_gen.py:832
+msgid "Spline Rig Generated."
+msgstr "已生成样条绑定。"
+
+#: Mode_Buttons.py:181
+msgid "Spray Brush"
+msgstr "喷枪笔刷"
+
+#: Lat_Gen.py:216
+msgid "Squash Dirrection (only 1)"
+msgstr "挤压方向（仅 1 个）"
+
+#: Lat_Gen.py:668
+msgid "Squash Dirrection (only 1):"
+msgstr "挤压方向（仅 1 个）："
+
+#: Main_Operators.py:480
+msgid "Start a Chain with out connecting to bones or adding weight"
+msgstr "开始一条链，不连接骨骼也不添加权重"
+
+#: Control_Gen.py:399
+msgid "Str->Lay"
+msgstr "笔画→图层"
+
+#: Mode_Buttons.py:214
+msgid "Strength"
+msgstr "强度"
+
+#: layer_tools.py:1661
+msgid "Stroke Layers"
+msgstr "笔画图层"
+
+#: Properties.py:177
+msgid "Text"
+msgstr "文本"
+
+#: Properties.py:177
+msgid "Text to add as a prefix or suffix"
+msgstr "作为前缀或后缀添加的文本"
+
+#: Main_Operators.py:749
+msgid "The Max Starting Weight before gradient"
+msgstr "渐变前的最大起始权重"
+
+#: Mode_Buttons.py:222
+msgid "Thickness"
+msgstr "厚度"
+
+#: Rig_gen.py:26
+#: Rig_gen.py:417
+msgid "Thickness of the Bendy Bones"
+msgstr "弯曲骨骼的厚度"
+
+#: ui_panels.py:365
+msgid "Time Offset Rigs"
+msgstr "时间偏移绑定"
+
+#: Mode_Buttons.py:231
+msgid "Toggle Pull | Inflate"
+msgstr "切换 拉动 | 膨胀"
+
+#: Mode_Buttons.py:257
+msgid "Toggle Thickness | Strength"
+msgstr "切换 厚度 | 强度"
+
+#: ui_panels.py:70
+msgid "Toggles:"
+msgstr "开关："
+
+#: Lat_Gen.py:218
+#: Lat_Gen.py:670
+msgid "Top"
+msgstr "顶部"
+
+#: Lat_Gen.py:185
+msgid "Types:"
+msgstr "类型："
+
+#: layer_tools.py:1360
+msgid "Use Single Material for All"
+msgstr "全部使用单一材质"
+
+#: ui_panels.py:201
+msgid "Value"
+msgstr "值"
+
+#: Properties.py:209
+msgid "Value for the Time Offset Driver Generator (x^1)"
+msgstr "时间偏移驱动器生成器的值（x^1）"
+
+#: Properties.py:201
+msgid "Value to apply to selected stroke layers"
+msgstr "应用到所选笔画图层的值"
+
+#: Properties.py:252
+msgid "Vertical thickness of the B-Bone"
+msgstr "弯曲骨骼的垂直厚度"
+
+#: ui_panels.py:191
+msgid "Visibility & Opacity"
+msgstr "可见性与不透明度"
+
+#: ui_panels.py:464
+msgid "WDT Size/Position"
+msgstr "WDT 大小/位置"
+
+#: Main_Operators.py:429
+msgid "Weight Assigned. Entered Pose Mode."
+msgstr "已分配权重。已进入姿态模式。"
+
+#: Main_Operators.py:431
+msgid "Weight Assigned. No parent rig found."
+msgstr "已分配权重。未找到父级绑定。"
+
+#: Main_Operators.py:756
+#: Rig_gen.py:39
+msgid "Weight Length"
+msgstr "权重长度"
+
+#: Main_Operators.py:866
+#: Rig_gen.py:97
+msgid "Weight Proximity Settings:"
+msgstr "权重邻近设置："
+
+#: Main_Operators.py:770
+#: Rig_gen.py:53
+msgid "Weight Width"
+msgstr "权重宽度"
+
+#: Rig_gen.py:34
+#: Rig_gen.py:433
+msgid "Weight by Distance"
+msgstr "按距离权重"
+
+#: Properties.py:325
+msgid "Weight of boundary lattice points"
+msgstr "边界晶格点的权重"
+
+#: Properties.py:315
+msgid "Weight of center lattice points"
+msgstr "中心晶格点的权重"
+
+#: Properties.py:320
+msgid "Weight of intermediate lattice ring"
+msgstr "中间晶格环的权重"
+
+#: Main_Operators.py:784
+#: Rig_gen.py:67
+msgid "Weight outside object"
+msgstr "物体外部的权重"
+
+#: Main_Operators.py:1109
+msgid "Weights assigned."
+msgstr "已分配权重。"
+
+#: Rig_gen.py:2025
+msgid "Widgets Reset"
+msgstr "控件已重置"
+
+#: ui_panels.py:469
+#: ui_panels.py:492
+msgid "X"
+msgstr "X"
+
+#: Properties.py:221
+msgid "X Offset"
+msgstr "X 偏移"
+
+#: ui_panels.py:470
+msgid "Y"
+msgstr "Y"
+
+#: Properties.py:226
+msgid "Y Offset"
+msgstr "Y 偏移"
+
+#: ui_panels.py:471
+#: ui_panels.py:493
+msgid "Z"
+msgstr "Z"
+
+#: Properties.py:231
+msgid "Z Offset"
+msgstr "Z 偏移"
+
+#: layer_tools.py:1583
+msgid "• Only layers that are NOT hidden or locked will be checked."
+msgstr "• 仅会检查未隐藏且未锁定的图层。"
+
+#: layer_tools.py:1584
+msgid "• This includes checking nested groups."
+msgstr "• 这包括检查嵌套组。"
+
+#: ui_panels.py:163
+msgctxt "Operator"
+msgid "A"
+msgstr "A"
+
+#: renaming.py:16
+msgctxt "Operator"
+msgid "Add Prefix to Selected"
+msgstr "为所选添加前缀"
+
+#: renaming.py:123
+msgctxt "Operator"
+msgid "Add Suffix"
+msgstr "添加后缀"
+
+#: ui_panels.py:394
+msgctxt "Operator"
+msgid "Apply"
+msgstr "应用"
+
+#: Select_By.py:483
+msgctxt "Operator"
+msgid "Apply Layer Pass Index?"
+msgstr "应用图层通道索引？"
+
+#: layer_tools.py:638
+msgctxt "Operator"
+msgid "Apply Opacity"
+msgstr "应用不透明度"
+
+#: Control_Gen.py:17
+msgctxt "Operator"
+msgid "Apply Sensitivity"
+msgstr "应用灵敏度"
+
+#: Lat_Gen.py:1229
+msgctxt "Operator"
+msgid "Apply Sliders Influence"
+msgstr "应用滑块影响"
+
+#: ui_panels.py:442
+msgctxt "Operator"
+msgid "Arm/Leg IK"
+msgstr "手臂/腿部 IK"
+
+#: Rig_gen.py:23
+msgctxt "Operator"
+msgid "Arm/Leg Rig"
+msgstr "手臂/腿部绑定"
+
+#: Main_Operators.py:1117
+msgctxt "Operator"
+msgid "Assign Weight To Selected"
+msgstr "为选中项指定权重"
+
+#: Main_Operators.py:743
+msgctxt "Operator"
+msgid "Assign Weight by Distance"
+msgstr "按距离指定权重"
+
+#: Main_Operators.py:310
+msgctxt "Operator"
+msgid "Assign Weight by Name"
+msgstr "按名称指定权重"
+
+#: ui_panels.py:165
+msgctxt "Operator"
+msgid "B"
+msgstr "B"
+
+#: renaming.py:180
+msgctxt "Operator"
+msgid "Clean Digits/Punctuation"
+msgstr "清除数字/标点"
+
+#: renaming.py:301
+msgctxt "Operator"
+msgid "Clear"
+msgstr "清除"
+
+#: layer_tools.py:577
+msgctxt "Operator"
+msgid "Clear Selected Stroke Weights"
+msgstr "清除选中笔画权重"
+
+#: Main_Operators.py:474
+msgctxt "Operator"
+msgid "Create Bone from layer"
+msgstr "从图层创建骨骼"
+
+#: Control_Gen.py:244
+msgctxt "Operator"
+msgid "Create Indexed Time Offset Rig"
+msgstr "创建索引时间偏移绑定"
+
+#: Control_Gen.py:368
+msgctxt "Operator"
+msgid "Create Mask Switch Rig"
+msgstr "创建遮罩切换绑定"
+
+#: Control_Gen.py:135
+msgctxt "Operator"
+msgid "Create Time Offset Rig"
+msgstr "创建时间偏移绑定"
+
+#: Control_Gen.py:547
+msgctxt "Operator"
+msgid "Create Visibility Controller"
+msgstr "创建可见性控制器"
+
+#: ui_panels.py:450
+msgctxt "Operator"
+msgid "Custom Spline"
+msgstr "自定义样条"
+
+#: layer_tools.py:1562
+msgctxt "Operator"
+msgid "Delete Empty Layers: Are you sure!?"
+msgstr "删除空图层：确定吗！？"
+
+#: layer_tools.py:510
+msgctxt "Operator"
+msgid "Delete Layers?"
+msgstr "删除图层？"
+
+#: ui_panels.py:226
+msgctxt "Operator"
+msgid "Delete Selected Layers"
+msgstr "删除选中图层"
+
+#: ui_panels.py:40
+msgctxt "Operator"
+msgid "Draw"
+msgstr "绘制"
+
+#: ui_panels.py:224
+msgctxt "Operator"
+msgid "Dup & Hide Original"
+msgstr "复制并隐藏原始"
+
+#: layer_tools.py:1357
+msgctxt "Operator"
+msgid "Duplicate & Assign Material"
+msgstr "复制并指定材质"
+
+#: Main_Operators.py:249
+msgctxt "Operator"
+msgid "Duplicate & Hide Original"
+msgstr "复制并隐藏原始"
+
+#: Rig_gen.py:1194
+msgctxt "Operator"
+msgid "GP Custom Spline Rig"
+msgstr "GP 自定义样条绑定"
+
+#: Rig_gen.py:842
+msgctxt "Operator"
+msgid "Generate Pointer Rig"
+msgstr "生成指针绑定"
+
+#: Rig_gen.py:414
+msgctxt "Operator"
+msgid "Generate Spline Rig"
+msgstr "生成样条绑定"
+
+#: layer_tools.py:1087
+msgctxt "Operator"
+msgid "Group Selected Stroke Layers"
+msgstr "编组选中笔画图层"
+
+#: ui_panels.py:228
+msgctxt "Operator"
+msgid "Group selected"
+msgstr "编组选中项"
+
+#: ui_panels.py:217
+msgctxt "Operator"
+msgid "Hide Selected"
+msgstr "隐藏选中项"
+
+#: layer_tools.py:406
+msgctxt "Operator"
+msgid "Hide Selected Layers"
+msgstr "隐藏选中图层"
+
+#: ui_panels.py:376
+msgctxt "Operator"
+msgid "Index Pass"
+msgstr "索引通道"
+
+#: ui_panels.py:174
+msgctxt "Operator"
+msgid "Infix"
+msgstr "中缀"
+
+#: ui_panels.py:53
+msgctxt "Operator"
+msgid "Inflate"
+msgstr "膨胀"
+
+#: layer_tools.py:999
+msgctxt "Operator"
+msgid "Invert Masks"
+msgstr "反转遮罩"
+
+#: layer_tools.py:461
+msgctxt "Operator"
+msgid "Isolate Selected"
+msgstr "隔离选中项"
+
+#: ui_panels.py:138
+msgctxt "Operator"
+msgid "Isolate Stroke"
+msgstr "隔离笔画"
+
+#: ui_panels.py:144
+msgctxt "Operator"
+msgid "L ->Selected"
+msgstr "L ->选中"
+
+#: ui_panels.py:145
+msgctxt "Operator"
+msgid "L <-Unselected"
+msgstr "L <-未选中"
+
+#: ui_panels.py:125
+msgctxt "Operator"
+msgid "L-GPS"
+msgstr "L-GPS"
+
+#: ui_panels.py:46
+msgctxt "Operator"
+msgid "Lasso"
+msgstr "套索"
+
+#: Lat_Gen.py:594
+msgctxt "Operator"
+msgid "Lattice by Vertex Group"
+msgstr "按顶点组生成晶格"
+
+#: ui_panels.py:541
+msgctxt "Operator"
+msgid "Lay Pass"
+msgstr "排列通道"
+
+#: ui_panels.py:178
+msgctxt "Operator"
+msgid "Lay Pass Index"
+msgstr "排列通道索引"
+
+#: ui_panels.py:539
+msgctxt "Operator"
+msgid "Layer"
+msgstr "图层"
+
+#: ui_panels.py:250
+msgctxt "Operator"
+msgid "Layer <-to Stroke"
+msgstr "图层 <-到笔画"
+
+#: ui_panels.py:371
+msgctxt "Operator"
+msgid "Layer Con"
+msgstr "图层控制器"
+
+#: Lat_Gen.py:543
+msgctxt "Operator"
+msgid "Layer Pass Lattice Setup"
+msgstr "图层通道晶格设置"
+
+#: layer_tools.py:1178
+msgctxt "Operator"
+msgid "Lock Selected layers"
+msgstr "锁定选中图层"
+
+#: layer_tools.py:1263
+msgctxt "Operator"
+msgid "Lock Unselected Layers"
+msgstr "锁定未选中图层"
+
+#: Main_Operators.py:442
+msgctxt "Operator"
+msgid "Make layers From Groups"
+msgstr "从组创建图层"
+
+#: layer_tools.py:1654
+msgctxt "Operator"
+msgid "Mark As Locked GPS"
+msgstr "标记为已锁定 GPS"
+
+#: layer_tools.py:871
+msgctxt "Operator"
+msgid "Mask Active to Selected"
+msgstr "遮罩活动到选中项"
+
+#: ui_panels.py:407
+msgctxt "Operator"
+msgid "Mask Con"
+msgstr "遮罩控制器"
+
+#: layer_tools.py:805
+msgctxt "Operator"
+msgid "Mask to Active"
+msgstr "遮罩到活动"
+
+#: ui_panels.py:545
+msgctxt "Operator"
+msgid "Mat Pass"
+msgstr "材质通道"
+
+#: ui_panels.py:180
+msgctxt "Operator"
+msgid "Mat Pass Index"
+msgstr "材质通道索引"
+
+#: ui_panels.py:543
+msgctxt "Operator"
+msgid "Material"
+msgstr "材质"
+
+#: Lat_Gen.py:578
+msgctxt "Operator"
+msgid "Material Name Lattice Setup"
+msgstr "材质名称晶格设置"
+
+#: Lat_Gen.py:561
+msgctxt "Operator"
+msgid "Material Pass Lattice Setup"
+msgstr "材质通道晶格设置"
+
+#: ui_panels.py:157
+msgctxt "Operator"
+msgid "Move Above"
+msgstr "移到上方"
+
+#: ui_panels.py:159
+msgctxt "Operator"
+msgid "Move Below"
+msgstr "移到下方"
+
+#: layer_tools.py:208
+msgctxt "Operator"
+msgid "Move Group Above Selection"
+msgstr "将组移到选中项上方"
+
+#: layer_tools.py:263
+msgctxt "Operator"
+msgid "Move Group Below Selection"
+msgstr "将组移到选中项下方"
+
+#: layer_tools.py:363
+msgctxt "Operator"
+msgid "Move Layers to Bottom"
+msgstr "将图层移到最底部"
+
+#: layer_tools.py:319
+msgctxt "Operator"
+msgid "Move Layers to Top"
+msgstr "将图层移到最顶部"
+
+#: layer_tools.py:66
+msgctxt "Operator"
+msgid "Move Selected Above"
+msgstr "将选中项移到上方"
+
+#: layer_tools.py:122
+msgctxt "Operator"
+msgid "Move Selected Below"
+msgstr "将选中项移到下方"
+
+#: layer_tools.py:2073
+msgctxt "Operator"
+msgid "Move to separate Layers"
+msgstr "移到单独图层"
+
+#: ui_panels.py:409
+msgctxt "Operator"
+msgid "Opacity Con"
+msgstr "不透明度控制器"
+
+#: ui_panels.py:52
+msgctxt "Operator"
+msgid "Pinch"
+msgstr "收缩"
+
+#: ui_panels.py:448
+msgctxt "Operator"
+msgid "Pointer Rig"
+msgstr "指针绑定"
+
+#: ui_panels.py:172
+#: ui_panels.py:318
+msgctxt "Operator"
+msgid "Prefix"
+msgstr "前缀"
+
+#: ui_panels.py:48
+msgctxt "Operator"
+msgid "Pull"
+msgstr "拉动"
+
+#: layer_tools.py:1868
+msgctxt "Operator"
+msgid "Remove All Locked GPS"
+msgstr "移除所有已锁定 GPS"
+
+#: Lat_Gen.py:1043
+msgctxt "Operator"
+msgid "Remove Rig Setup"
+msgstr "移除绑定设置"
+
+#: ui_panels.py:411
+msgctxt "Operator"
+msgid "Remove Setup"
+msgstr "移除设置"
+
+#: Control_Gen.py:675
+msgctxt "Operator"
+msgid "Remove Setup From Selected Bone"
+msgstr "从选中骨骼移除设置"
+
+#: Rig_gen.py:1558
+msgctxt "Operator"
+msgid "Remove Spline Rig"
+msgstr "移除样条绑定"
+
+#: ui_panels.py:325
+msgctxt "Operator"
+msgid "Rename"
+msgstr "重命名"
+
+#: renaming.py:70
+msgctxt "Operator"
+msgid "Rename Full Name"
+msgstr "重命名全名"
+
+#: ui_panels.py:340
+msgctxt "Operator"
+msgid "Replace"
+msgstr "替换"
+
+#: renaming.py:240
+msgctxt "Operator"
+msgid "Replace Text"
+msgstr "替换文本"
+
+#: Rig_gen.py:2033
+msgctxt "Operator"
+msgid "Reset Bone Size"
+msgstr "重置骨骼大小"
+
+#: Select_By.py:637
+msgctxt "Operator"
+msgid "Reset Indexes?"
+msgstr "重置索引？"
+
+#: Lat_Gen.py:1297
+msgctxt "Operator"
+msgid "Reset Weights"
+msgstr "重置权重"
+
+#: Rig_gen.py:2002
+msgctxt "Operator"
+msgid "Reset Widget"
+msgstr "重置控件"
+
+#: layer_tools.py:716
+msgctxt "Operator"
+msgid "Restore All Opacity"
+msgstr "恢复全部不透明度"
+
+#: Lat_Gen.py:20
+msgctxt "Operator"
+msgid "Rig Lattice"
+msgstr "绑定晶格"
+
+#: Select_By.py:698
+#: layer_tools.py:2027
+msgctxt "Operator"
+msgid "Select Active Layer Strokes"
+msgstr "选择活动图层描边"
+
+#: Select_By.py:244
+msgctxt "Operator"
+msgid "Select Similar Infix"
+msgstr "选择相似中缀"
+
+#: Select_By.py:16
+msgctxt "Operator"
+msgid "Select Similar Prefix"
+msgstr "选择相似前缀"
+
+#: Select_By.py:134
+msgctxt "Operator"
+msgid "Select Similar Suffix"
+msgstr "选择相似后缀"
+
+#: ui_panels.py:182
+msgctxt "Operator"
+msgid "Select all on Layer"
+msgstr "选择图层上的全部"
+
+#: Select_By.py:423
+msgctxt "Operator"
+msgid "Select by Layer Pass Index"
+msgstr "按图层通道索引选择"
+
+#: Select_By.py:352
+msgctxt "Operator"
+msgid "Select by Pass Index"
+msgstr "按通道索引选择"
+
+#: ui_panels.py:150
+msgctxt "Operator"
+msgid "Send to Bottom"
+msgstr "移至底部"
+
+#: ui_panels.py:148
+msgctxt "Operator"
+msgid "Send to Top"
+msgstr "移至顶部"
+
+#: Select_By.py:558
+msgctxt "Operator"
+msgid "Set Material Pass Index?"
+msgstr "设置材质通道索引？"
+
+#: ui_panels.py:446
+msgctxt "Operator"
+msgid "Simple Stretch"
+msgstr "简单拉伸"
+
+#: Rig_gen.py:1676
+msgctxt "Operator"
+msgid "Simple Stretch Rig"
+msgstr "简单拉伸绑定"
+
+#: Lat_Gen.py:525
+msgctxt "Operator"
+msgid "Single Layer Lattice Setup"
+msgstr "单图层晶格设置"
+
+#: ui_panels.py:44
+msgctxt "Operator"
+msgid "Soft"
+msgstr "柔和"
+
+#: ui_panels.py:444
+msgctxt "Operator"
+msgid "Spline Rig"
+msgstr "样条绑定"
+
+#: ui_panels.py:56
+msgctxt "Operator"
+msgid "Strength"
+msgstr "强度"
+
+#: ui_panels.py:343
+msgctxt "Operator"
+msgid "Strip"
+msgstr "条带"
+
+#: ui_panels.py:247
+msgctxt "Operator"
+msgid "Stroke-> Layer"
+msgstr "描边 -> 图层"
+
+#: ui_panels.py:176
+#: ui_panels.py:319
+msgctxt "Operator"
+msgid "Suffix"
+msgstr "后缀"
+
+#: layer_tools.py:15
+msgctxt "Operator"
+msgid "Switch to Layer"
+msgstr "切换到图层"
+
+#: ui_panels.py:58
+msgctxt "Operator"
+msgid "Thickness"
+msgstr "厚度"
+
+#: layer_tools.py:1052
+msgctxt "Operator"
+msgid "Toggle All Masks"
+msgstr "切换全部遮罩"
+
+#: Rig_gen.py:1963
+msgctxt "Operator"
+msgid "Toggle Armature View"
+msgstr "切换骨架视图"
+
+#: layer_tools.py:1941
+msgctxt "Operator"
+msgid "Toggle Gps"
+msgstr "切换 Gps"
+
+#: Lat_Gen.py:1335
+msgctxt "Operator"
+msgid "Toggle Lattice Visibility"
+msgstr "切换晶格可见性"
+
+#: layer_tools.py:752
+msgctxt "Operator"
+msgid "Toggle Opacity"
+msgstr "切换不透明度"
+
+#: layer_tools.py:1635
+msgctxt "Operator"
+msgid "Toggle Pivot Point"
+msgstr "切换轴心点"
+
+#: Control_Gen.py:102
+msgctxt "Operator"
+msgid "Toggle Time Visibility"
+msgstr "切换时间可见性"
+
+#: Rig_gen.py:2085
+msgctxt "Operator"
+msgid "Unassign Widget"
+msgstr "取消指定控件"
+
+#: layer_tools.py:1524
+#: ui_panels.py:184
+msgctxt "Operator"
+msgid "Unlock All"
+msgstr "全部解锁"
+
+#: layer_tools.py:932
+msgctxt "Operator"
+msgid "Unmask Selected"
+msgstr "取消遮罩选中项"
+
+#: ui_panels.py:547
+msgctxt "Operator"
+msgid "Vertex Group"
+msgstr "顶点组"
+
+#: Main_Operators.py:95
+#: ui_panels.py:83
+msgctxt "Operator"
+msgid "Weight Selected"
+msgstr "为选中项赋权重"

@@ -1,0 +1,30 @@
+# perfect-chinese: 1
+# id: bl_faststart
+# kind: addon
+# module: bl_ext.blender_org.BL_FastStart
+# name: BL Fast Start (MP4/MOV)
+# name_zh: BL快速启动
+# translator: KeshiMiao
+# category: Render
+# supported_versions: >=4.4.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: extension_logic.py:85
+msgid "Enable Fast Start for MP4/MOV output (moves moov atom, creates new suffixed file)"
+msgstr "为 MP4/MOV 输出启用快速启动（移动 moov 原子，创建带后缀的新文件）"
+
+#: extension_logic.py:72
+msgid "Fast Start Suffix"
+msgstr "快速启动后缀"
+
+#: extension_logic.py:72
+msgid "Suffix for the fast start file (e.g., '-faststart', '_optimized'). Applied globally. Invalid characters will be replaced. If blank, defaults to '-faststart'."
+msgstr "快速启动文件的后缀（例如 '-faststart'、'_optimized'）。全局应用。无效字符将被替换。留空则默认为 '-faststart'。"
+
+#: extension_logic.py:85
+msgid "Use Fast Start"
+msgstr "使用快速启动"

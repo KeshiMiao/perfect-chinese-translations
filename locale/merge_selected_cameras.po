@@ -1,0 +1,112 @@
+# perfect-chinese: 1
+# id: merge_selected_cameras
+# kind: addon
+# module: bl_ext.blender_org.Merge_selected_cameras
+# name: Merge Selected Cameras
+# name_zh: 合并选中相机
+# translator: KeshiMiao
+# category: Camera
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:293
+msgid "1. Merge Sequential Cameras"
+msgstr "1. 合并连续摄像机"
+
+#: __init__.py:315
+msgid "2. Background Image Setup"
+msgstr "2. 背景图像设置"
+
+#: __init__.py:109
+msgid "Active camera name does not match expected pattern for auto-detection (e.g., 'cam1')."
+msgstr "活动摄像机名称与自动检测的预期模式不匹配（例如 'cam1'）。"
+
+#: __init__.py:301
+msgid "Camera Naming:"
+msgstr "摄像机命名："
+
+#: __init__.py:74
+msgid "Could not derive a base name. Using default 'MergedCamera'."
+msgstr "无法推导基本名称。使用默认值 'MergedCamera'。"
+
+#: __init__.py:23
+msgid "Custom Camera Name"
+msgstr "自定义摄像机名称"
+
+#: __init__.py:23
+msgid "Custom name for the merged camera if not using input sequence name"
+msgstr "不使用输入序列名称时，合并摄像机的自定义名称"
+
+#: __init__.py:79
+msgid "Custom name is blank. Using default 'MergedCamera'."
+msgstr "自定义名称为空。使用默认值 'MergedCamera'。"
+
+#: __init__.py:13
+msgid "Delete Original Cameras"
+msgstr "删除原始摄像机"
+
+#: __init__.py:18
+msgid "If checked, process only manually selected cameras. If unchecked, auto-detect cameras by name from the active camera"
+msgstr "勾选后，仅处理手动选择的摄像机。未勾选时，从活动摄像机按名称自动检测摄像机"
+
+#: __init__.py:28
+msgid "If checked, the merged camera name will be derived from the input camera sequence's base name. Otherwise, the custom name below is used."
+msgstr "勾选后，合并摄像机的名称将根据输入摄像机序列的基本名称推导。否则使用下方的自定义名称。"
+
+#: __init__.py:28
+msgid "Input sequence name"
+msgstr "输入序列名称"
+
+#: __init__.py:280
+msgid "Merge Selected Cameras"
+msgstr "合并选中的摄像机"
+
+#: __init__.py:305
+msgid "Name"
+msgstr "名称"
+
+#: __init__.py:105
+msgid "No active camera found for auto-detection."
+msgstr "未找到用于自动检测的活动摄像机。"
+
+#: __init__.py:244
+msgid "No camera found in the scene to set background for."
+msgstr "场景中未找到可设置背景的摄像机。"
+
+#: __init__.py:119
+msgid "No cameras found to merge based on current settings."
+msgstr "根据当前设置未找到可合并的摄像机。"
+
+#: __init__.py:296
+msgid "Options:"
+msgstr "选项："
+
+#: __init__.py:13
+msgid "Remove original cameras after merging"
+msgstr "合并后移除原始摄像机"
+
+#: __init__.py:33
+msgid "Select a Movie Clip to use as the camera background"
+msgstr "选择要作为摄像机背景的影片剪辑"
+
+#: __init__.py:18
+msgid "Selected cameras only"
+msgstr "仅选中的摄像机"
+
+#: __init__.py:284
+msgid "Tracking"
+msgstr "跟踪"
+
+#: __init__.py:46
+msgctxt "Operator"
+msgid "Merge Cameras"
+msgstr "合并摄像机"
+
+#: __init__.py:209
+msgctxt "Operator"
+msgid "Set as Background"
+msgstr "设为背景"

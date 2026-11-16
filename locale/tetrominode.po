@@ -1,0 +1,952 @@
+# perfect-chinese: 1
+# id: tetrominode
+# kind: addon
+# module: bl_ext.blender_org.tetrominode
+# name: Tetrominode
+# name_zh: 俄罗斯方块节点
+# translator: KeshiMiao
+# category: 3D View
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: tetrominode/ui/panels.py:140
+#: tetrominode/ui/panels.py:149
+msgid "-"
+msgstr "-"
+
+#: tetrominode/data/properties.py:321
+msgid "2-ply Next Weight"
+msgstr "2-ply 前瞻权重"
+
+#: tetrominode/__init__.py:7
+msgid "3D View"
+msgstr "3D 视图"
+
+#: tetrominode/ui/panels.py:206
+msgid "AI"
+msgstr "AI"
+
+#: tetrominode/data/properties.py:357
+msgid "AI Action Interval"
+msgstr "AI 操作间隔"
+
+#: tetrominode/data/properties.py:299
+msgid "AI Depth"
+msgstr "AI 搜索深度"
+
+#: tetrominode/data/properties.py:375
+msgid "AI Drop Interval"
+msgstr "AI 下落间隔"
+
+#: tetrominode/data/properties.py:365
+msgid "AI Drop Mode"
+msgstr "AI 下落模式"
+
+#: tetrominode/data/properties.py:388
+msgid "AI Show Path"
+msgstr "AI 显示路径"
+
+#: tetrominode/data/properties.py:309
+msgid "AI Strategy"
+msgstr "AI 策略"
+
+#: tetrominode/data/properties.py:383
+msgid "AI Visualize"
+msgstr "AI 可视化"
+
+#: tetrominode/data/properties.py:365
+msgid "AI 的下落方式：瞬间落地或逐步下落"
+msgstr "AI 的下落方式：瞬间落地或逐步下落"
+
+#: tetrominode/data/properties.py:309
+msgid "AI 策略预设（Custom 时使用自定义权重）"
+msgstr "AI 策略预设（Custom 时使用自定义权重）"
+
+#: tetrominode/ui/panels.py:124
+msgid "AI:"
+msgstr "AI："
+
+#: tetrominode/data/properties.py:100
+msgid "ARR Interval"
+msgstr "ARR 间隔"
+
+#: tetrominode/data/properties.py:281
+msgid "Add"
+msgstr "加法"
+
+#: tetrominode/data/properties.py:281
+msgid "Add +50*combo*level (legacy)"
+msgstr "加法 +50*连击*等级（旧版）"
+
+#: tetrominode/data/properties.py:393
+#: tetrominode/ui/panels.py:193
+msgid "Advanced Settings"
+msgstr "高级设置"
+
+#: tetrominode/data/properties.py:166
+msgid "Alternate keybind for rotate clockwise"
+msgstr "顺时针旋转的备用快捷键"
+
+#: tetrominode/data/properties.py:401
+msgid "Audio Enabled"
+msgstr "启用音频"
+
+#: tetrominode/ui/panels.py:357
+msgid "Audio Files"
+msgstr "音频文件"
+
+#: tetrominode/ui/panels.py:174
+msgid "Audio Settings"
+msgstr "音频设置"
+
+#: tetrominode/data/properties.py:294
+#: tetrominode/ui/panels.py:170
+msgid "Auto Play"
+msgstr "自动游玩"
+
+#: tetrominode/ui/panels.py:389
+msgid "BGM Advanced"
+msgstr "BGM 高级"
+
+#: tetrominode/data/properties.py:411
+msgid "BGM Enabled"
+msgstr "启用 BGM"
+
+#: tetrominode/data/properties.py:432
+msgid "BGM Fade In"
+msgstr "BGM 淡入"
+
+#: tetrominode/data/properties.py:441
+msgid "BGM Fade Out"
+msgstr "BGM 淡出"
+
+#: tetrominode/data/properties.py:470
+msgid "BGM File"
+msgstr "BGM 文件"
+
+#: tetrominode/data/properties.py:450
+msgid "BGM Pause Duck"
+msgstr "BGM 暂停压低"
+
+#: tetrominode/data/properties.py:424
+msgid "BGM Volume"
+msgstr "BGM 音量"
+
+#: tetrominode/data/properties.py:441
+msgid "BGM 停止时的淡出时间"
+msgstr "BGM 停止时的淡出时间"
+
+#: tetrominode/data/properties.py:432
+msgid "BGM 开始/恢复时的淡入时间"
+msgstr "BGM 开始/恢复时的淡入时间"
+
+#: tetrominode/ui/panels.py:381
+msgid "Background Music"
+msgstr "背景音乐"
+
+#: tetrominode/data/properties.py:525
+msgid "Bake Frame Step"
+msgstr "烘焙帧步长"
+
+#: tetrominode/data/properties.py:519
+msgid "Bake Start Frame"
+msgstr "烘焙起始帧"
+
+#: tetrominode/data/properties.py:545
+msgid "Block Scale"
+msgstr "方块缩放"
+
+#: tetrominode/data/properties.py:57
+msgid "Board Height"
+msgstr "场地高度"
+
+#: tetrominode/data/properties.py:50
+msgid "Board Width"
+msgstr "场地宽度"
+
+#: tetrominode/ui/panels.py:442
+msgid "Border"
+msgstr "边框"
+
+#: tetrominode/data/properties.py:596
+msgid "Border Bevel Segments"
+msgstr "边框倒角分段"
+
+#: tetrominode/data/properties.py:588
+msgid "Border Bevel Width"
+msgstr "边框倒角宽度"
+
+#: tetrominode/data/properties.py:574
+msgid "Border Color"
+msgstr "边框颜色"
+
+#: tetrominode/data/properties.py:583
+msgid "Border Material"
+msgstr "边框材质"
+
+#: tetrominode/data/properties.py:64
+#: tetrominode/operators/game_ops.py:343
+msgid "Cell Size"
+msgstr "格子尺寸"
+
+#: tetrominode/ui/panels.py:265
+msgid "Click Set, then press a key (RMB to cancel)"
+msgstr "点击「设置」，然后按一个键（右键取消）"
+
+#: tetrominode/data/properties.py:276
+msgid "Combo Mode"
+msgstr "连击模式"
+
+#: tetrominode/data/properties.py:286
+msgid "Combo Step"
+msgstr "连击增量"
+
+#: tetrominode/data/properties.py:316
+msgid "Custom"
+msgstr "自定义"
+
+#: tetrominode/data/properties.py:92
+msgid "DAS Delay"
+msgstr "DAS 延迟"
+
+#: tetrominode/data/properties.py:70
+msgid "Drop Interval"
+msgstr "下落间隔"
+
+#: tetrominode/data/properties.py:261
+msgid "DropInterval = base * (0.8-(level-1)*0.007)^(level-1)"
+msgstr "DropInterval = base * (0.8-(level-1)*0.007)^(level-1)"
+
+#: tetrominode/data/properties.py:260
+msgid "DropInterval = base * multiplier^(level-1)"
+msgstr "DropInterval = base * multiplier^(level-1)"
+
+#: tetrominode/data/properties.py:271
+msgid "Exponential"
+msgstr "指数"
+
+#: tetrominode/ui/panels.py:256
+msgid "Feel / Input"
+msgstr "手感 / 输入"
+
+#: tetrominode/operators/game_ops.py:499
+#: tetrominode/operators/game_ops.py:558
+msgid "File Path"
+msgstr "文件路径"
+
+#: tetrominode/data/properties.py:704
+msgid "Game Over"
+msgstr "游戏结束"
+
+#: tetrominode/ui/panels.py:245
+msgid "Game Settings"
+msgstr "游戏设置"
+
+#: tetrominode/data/properties.py:261
+#: tetrominode/data/properties.py:270
+msgid "Guideline"
+msgstr "准则"
+
+#: tetrominode/data/properties.py:270
+msgid "Guideline-ish scoring (supports B2B, combo, T-Spin)"
+msgstr "类准则计分（支持 B2B、连击、T-Spin）"
+
+#: tetrominode/data/properties.py:196
+msgid "Hard Drop"
+msgstr "硬降"
+
+#: tetrominode/data/properties.py:203
+msgid "Hard Drop Alt"
+msgstr "硬降 Alt"
+
+#: tetrominode/data/properties.py:202
+msgid "Hard Drop Ctrl"
+msgstr "硬降 Ctrl"
+
+#: tetrominode/data/properties.py:204
+msgid "Hard Drop OSKey"
+msgstr "硬降 OSKey"
+
+#: tetrominode/data/properties.py:201
+msgid "Hard Drop Shift"
+msgstr "硬降 Shift"
+
+#: tetrominode/data/properties.py:369
+msgid "Hard drop (instant lock)"
+msgstr "硬降（立即锁定）"
+
+#: tetrominode/data/properties.py:314
+msgid "High Score"
+msgstr "最高分"
+
+#: tetrominode/data/properties.py:186
+msgid "Hold"
+msgstr "暂存"
+
+#: tetrominode/data/properties.py:193
+msgid "Hold Alt"
+msgstr "暂存 Alt"
+
+#: tetrominode/data/properties.py:192
+msgid "Hold Ctrl"
+msgstr "暂存 Ctrl"
+
+#: tetrominode/data/properties.py:194
+msgid "Hold OSKey"
+msgstr "暂存 OSKey"
+
+#: tetrominode/data/properties.py:191
+msgid "Hold Shift"
+msgstr "暂存 Shift"
+
+#: tetrominode/ui/panels.py:138
+msgid "Hold:"
+msgstr "暂存："
+
+#: tetrominode/operators/game_ops.py:636
+msgid "Imported replay meta differs from current settings"
+msgstr "导入的回放元数据与当前设置不一致"
+
+#: tetrominode/data/properties.py:369
+msgid "Instant"
+msgstr "瞬间"
+
+#: tetrominode/operators/game_ops.py:519
+#: tetrominode/operators/game_ops.py:578
+msgid "Invalid filepath"
+msgstr "文件路径无效"
+
+#: tetrominode/data/properties.py:196
+msgid "Keybind for hard drop"
+msgstr "硬降快捷键"
+
+#: tetrominode/data/properties.py:186
+msgid "Keybind for hold"
+msgstr "暂存快捷键"
+
+#: tetrominode/data/properties.py:126
+msgid "Keybind for moving left (press/hold for DAS/ARR)"
+msgstr "左移快捷键（按下/按住触发 DAS/ARR）"
+
+#: tetrominode/data/properties.py:136
+msgid "Keybind for moving right (press/hold for DAS/ARR)"
+msgstr "右移快捷键（按下/按住触发 DAS/ARR）"
+
+#: tetrominode/data/properties.py:206
+msgid "Keybind for pause (exit modal and keep state)"
+msgstr "暂停快捷键（退出模态并保留状态）"
+
+#: tetrominode/data/properties.py:156
+msgid "Keybind for rotate clockwise"
+msgstr "顺时针旋转快捷键"
+
+#: tetrominode/data/properties.py:176
+msgid "Keybind for rotate counter-clockwise"
+msgstr "逆时针旋转快捷键"
+
+#: tetrominode/data/properties.py:146
+msgid "Keybind for soft drop (press/hold)"
+msgstr "软降快捷键（按下/按住）"
+
+#: tetrominode/ui/panels.py:264
+msgid "Keybinds"
+msgstr "快捷键"
+
+#: tetrominode/ui/panels.py:109
+msgid "Level:"
+msgstr "等级："
+
+#: tetrominode/data/properties.py:271
+msgid "Line clear base scores use an exponential curve"
+msgstr "消行基础分数使用指数曲线"
+
+#: tetrominode/data/properties.py:228
+msgid "Lines Per Level"
+msgstr "每级行数"
+
+#: tetrominode/ui/panels.py:113
+msgid "Lines:"
+msgstr "行数："
+
+#: tetrominode/data/properties.py:116
+msgid "Lock Delay"
+msgstr "锁定延迟"
+
+#: tetrominode/ui/panels.py:436
+msgid "Looks"
+msgstr "外观"
+
+#: tetrominode/data/properties.py:248
+msgid "Min Drop Interval"
+msgstr "最小下落间隔"
+
+#: tetrominode/data/properties.py:126
+msgid "Move Left"
+msgstr "左移"
+
+#: tetrominode/data/properties.py:133
+msgid "Move Left Alt"
+msgstr "左移 Alt"
+
+#: tetrominode/data/properties.py:132
+msgid "Move Left Ctrl"
+msgstr "左移 Ctrl"
+
+#: tetrominode/data/properties.py:134
+msgid "Move Left OSKey"
+msgstr "左移 OSKey"
+
+#: tetrominode/data/properties.py:131
+msgid "Move Left Shift"
+msgstr "左移 Shift"
+
+#: tetrominode/data/properties.py:136
+msgid "Move Right"
+msgstr "右移"
+
+#: tetrominode/data/properties.py:143
+msgid "Move Right Alt"
+msgstr "右移 Alt"
+
+#: tetrominode/data/properties.py:142
+msgid "Move Right Ctrl"
+msgstr "右移 Ctrl"
+
+#: tetrominode/data/properties.py:144
+msgid "Move Right OSKey"
+msgstr "右移 OSKey"
+
+#: tetrominode/data/properties.py:141
+msgid "Move Right Shift"
+msgstr "右移 Shift"
+
+#: tetrominode/data/properties.py:260
+msgid "Multiplier"
+msgstr "倍率"
+
+#: tetrominode/data/properties.py:280
+msgid "Multiply"
+msgstr "乘"
+
+#: tetrominode/data/properties.py:280
+msgid "Multiply points by (1 + combo * step)"
+msgstr "分数乘以 (1 + 连击 * 步长)"
+
+#: tetrominode/data/properties.py:83
+msgid "Next Count"
+msgstr "预览数量"
+
+#: tetrominode/ui/panels.py:143
+msgid "Next:"
+msgstr "下一个："
+
+#: tetrominode/operators/game_ops.py:513
+#: tetrominode/operators/game_ops.py:669
+msgid "No recorded states"
+msgstr "没有已记录状态"
+
+#: tetrominode/ui/panels.py:409
+msgid "OFF"
+msgstr "关"
+
+#: tetrominode/ui/panels.py:409
+msgid "ON"
+msgstr "开"
+
+#: tetrominode/data/properties.py:206
+msgid "Pause"
+msgstr "暂停"
+
+#: tetrominode/data/properties.py:213
+msgid "Pause Alt"
+msgstr "暂停 Alt"
+
+#: tetrominode/data/properties.py:212
+msgid "Pause Ctrl"
+msgstr "暂停 Ctrl"
+
+#: tetrominode/data/properties.py:214
+msgid "Pause OSKey"
+msgstr "暂停 OSKey"
+
+#: tetrominode/data/properties.py:211
+msgid "Pause Shift"
+msgstr "暂停 Shift"
+
+#: tetrominode/operators/game_ops.py:1569
+msgid "Pause before cleanup"
+msgstr "清理前暂停"
+
+#: tetrominode/data/properties.py:487
+msgid "Per-Event SFX"
+msgstr "逐事件音效"
+
+#: tetrominode/ui/panels.py:376
+msgid "Per-Event SFX (optional)"
+msgstr "逐事件音效（可选）"
+
+#: tetrominode/ui/panels.py:130
+msgid "Piece:"
+msgstr "方块："
+
+#: tetrominode/ui/panels.py:457
+msgid "Pieces"
+msgstr "方块"
+
+#: tetrominode/ui/panels.py:450
+msgid "Pieces (Shared)"
+msgstr "方块（共享）"
+
+#: tetrominode/data/properties.py:567
+msgid "Pieces Bevel Segments"
+msgstr "方块倒角段数"
+
+#: tetrominode/data/properties.py:559
+msgid "Pieces Bevel Width"
+msgstr "方块倒角宽度"
+
+#: tetrominode/data/properties.py:554
+msgid "Pieces Material"
+msgstr "方块材质"
+
+#: tetrominode/__init__.py:7
+msgid "Play Tetris in Blender using a modal operator and Geometry Nodes instancing."
+msgstr "在 Blender 中使用模态操作符和几何节点实例化玩俄罗斯方块。"
+
+#: tetrominode/operators/game_ops.py:790
+#: tetrominode/operators/game_ops.py:848
+msgid "Prefix"
+msgstr "前缀"
+
+#: tetrominode/ui/panels.py:397
+msgid "Recording / Replay"
+msgstr "录制 / 回放"
+
+#: tetrominode/ui/panels.py:408
+msgid "Recording:"
+msgstr "录制："
+
+#: tetrominode/operators/game_ops.py:569
+msgid "Replace Existing Recording"
+msgstr "替换现有录制"
+
+#: tetrominode/data/properties.py:532
+msgid "Replace Existing Replay"
+msgstr "替换现有回放"
+
+#: tetrominode/operators/game_ops.py:588
+msgid "Replay contains no steps"
+msgstr "回放不包含任何步骤"
+
+#: tetrominode/data/properties.py:176
+msgid "Rotate CCW"
+msgstr "逆时针旋转"
+
+#: tetrominode/data/properties.py:183
+msgid "Rotate CCW Alt"
+msgstr "逆时针旋转 Alt"
+
+#: tetrominode/data/properties.py:182
+msgid "Rotate CCW Ctrl"
+msgstr "逆时针旋转 Ctrl"
+
+#: tetrominode/data/properties.py:184
+msgid "Rotate CCW OSKey"
+msgstr "逆时针旋转 OSKey"
+
+#: tetrominode/data/properties.py:181
+msgid "Rotate CCW Shift"
+msgstr "逆时针旋转 Shift"
+
+#: tetrominode/data/properties.py:156
+msgid "Rotate CW"
+msgstr "顺时针旋转"
+
+#: tetrominode/data/properties.py:166
+msgid "Rotate CW (Alt)"
+msgstr "顺时针旋转（Alt）"
+
+#: tetrominode/data/properties.py:173
+msgid "Rotate CW (Alt) Alt"
+msgstr "顺时针旋转（Alt）Alt"
+
+#: tetrominode/data/properties.py:172
+msgid "Rotate CW (Alt) Ctrl"
+msgstr "顺时针旋转（Alt）Ctrl"
+
+#: tetrominode/data/properties.py:174
+msgid "Rotate CW (Alt) OSKey"
+msgstr "顺时针旋转（Alt）OSKey"
+
+#: tetrominode/data/properties.py:171
+msgid "Rotate CW (Alt) Shift"
+msgstr "顺时针旋转（Alt）Shift"
+
+#: tetrominode/data/properties.py:163
+msgid "Rotate CW Alt"
+msgstr "顺时针旋转 Alt"
+
+#: tetrominode/data/properties.py:162
+msgid "Rotate CW Ctrl"
+msgstr "顺时针旋转 Ctrl"
+
+#: tetrominode/data/properties.py:164
+msgid "Rotate CW OSKey"
+msgstr "顺时针旋转 OSKey"
+
+#: tetrominode/data/properties.py:161
+msgid "Rotate CW Shift"
+msgstr "顺时针旋转 Shift"
+
+#: tetrominode/data/properties.py:216
+msgid "Rotation System"
+msgstr "旋转系统"
+
+#: tetrominode/data/properties.py:698
+msgid "Running"
+msgstr "运行中"
+
+#: tetrominode/data/properties.py:406
+msgid "SFX Enabled"
+msgstr "启用音效"
+
+#: tetrominode/data/properties.py:481
+msgid "SFX File"
+msgstr "音效文件"
+
+#: tetrominode/data/properties.py:493
+msgid "SFX Priority Window"
+msgstr "音效优先窗口"
+
+#: tetrominode/data/properties.py:502
+msgid "SFX Throttle"
+msgstr "音效节流"
+
+#: tetrominode/data/properties.py:508
+msgid "SFX Throttle Scale"
+msgstr "音效节流缩放"
+
+#: tetrominode/data/properties.py:416
+msgid "SFX Volume"
+msgstr "音效音量"
+
+#: tetrominode/data/properties.py:220
+msgid "SRS (Guideline)"
+msgstr "SRS（准则）"
+
+#: tetrominode/ui/panels.py:105
+msgid "Score:"
+msgstr "分数："
+
+#: tetrominode/ui/panels.py:328
+msgid "Scoring / Speed"
+msgstr "计分 / 速度"
+
+#: tetrominode/data/properties.py:266
+msgid "Scoring Mode"
+msgstr "计分模式"
+
+#: tetrominode/data/properties.py:78
+msgid "Seed"
+msgstr "种子"
+
+#: tetrominode/ui/panels.py:485
+msgid "Setup / Debug"
+msgstr "设置 / 调试"
+
+#: tetrominode/data/properties.py:315
+msgid "Show"
+msgstr "显示"
+
+#: tetrominode/data/properties.py:539
+msgid "Show Ghost"
+msgstr "显示幽灵块"
+
+#: tetrominode/data/properties.py:221
+msgid "Simple (Classic)"
+msgstr "简单（经典）"
+
+#: tetrominode/data/properties.py:146
+msgid "Soft Drop"
+msgstr "软降"
+
+#: tetrominode/data/properties.py:153
+msgid "Soft Drop Alt"
+msgstr "软降 Alt"
+
+#: tetrominode/data/properties.py:152
+msgid "Soft Drop Ctrl"
+msgstr "软降 Ctrl"
+
+#: tetrominode/data/properties.py:108
+msgid "Soft Drop Interval"
+msgstr "软降间隔"
+
+#: tetrominode/data/properties.py:154
+msgid "Soft Drop OSKey"
+msgstr "软降 OSKey"
+
+#: tetrominode/data/properties.py:151
+msgid "Soft Drop Shift"
+msgstr "软降 Shift"
+
+#: tetrominode/data/properties.py:370
+msgid "Soft-drop step-by-step then lock"
+msgstr "软降逐步下落后锁定"
+
+#: tetrominode/ui/panels.py:360
+msgid "Sound Effects"
+msgstr "音效"
+
+#: tetrominode/data/properties.py:256
+msgid "Speed Curve"
+msgstr "速度曲线"
+
+#: tetrominode/data/properties.py:240
+msgid "Speed Multiplier"
+msgstr "速度倍率"
+
+#: tetrominode/ui/panels.py:117
+msgid "Speed:"
+msgstr "速度："
+
+#: tetrominode/data/properties.py:313
+msgid "Stable"
+msgstr "稳定"
+
+#: tetrominode/ui/panels.py:84
+msgid "Status:"
+msgstr "状态："
+
+#: tetrominode/data/properties.py:370
+msgid "Step"
+msgstr "单步"
+
+#: tetrominode/operators/game_ops.py:722
+msgid "Steps"
+msgstr "步数"
+
+#: tetrominode/ui/panels.py:410
+msgid "Steps:"
+msgstr "步数："
+
+#: tetrominode/data/properties.py:459
+msgid "Sync Tempo To Level"
+msgstr "节拍随等级同步"
+
+#: tetrominode/operators/game_ops.py:960
+msgid "Tetris is already running"
+msgstr "俄罗斯方块已在运行"
+
+#: tetrominode/__init__.py:7
+#: tetrominode/ui/panels.py:69
+msgid "Tetrominode"
+msgstr "Tetrominode"
+
+#: tetrominode/data/properties.py:465
+msgid "Use Custom BGM"
+msgstr "使用自定义 BGM"
+
+#: tetrominode/data/properties.py:476
+msgid "Use Custom SFX"
+msgstr "使用自定义音效"
+
+#: tetrominode/data/properties.py:235
+msgid "Use Level Speed"
+msgstr "使用等级速度"
+
+#: tetrominode/data/properties.py:350
+msgid "W: Bumpiness"
+msgstr "权重：凹凸度"
+
+#: tetrominode/data/properties.py:329
+msgid "W: Height"
+msgstr "权重：高度"
+
+#: tetrominode/data/properties.py:343
+msgid "W: Holes"
+msgstr "权重：空洞"
+
+#: tetrominode/data/properties.py:336
+msgid "W: Lines"
+msgstr "权重：消行"
+
+#: tetrominode/ui/panels.py:221
+msgid "Weights (Custom)"
+msgstr "权重（自定义）"
+
+#: tetrominode/data/properties.py:487
+msgid "为每个事件单独指定音效文件（未指定则回退到全局 SFX/程序化音效）"
+msgstr "为每个事件单独指定音效文件（未指定则回退到全局 SFX/程序化音效）"
+
+#: tetrominode/data/properties.py:316
+msgid "使用自定义权重"
+msgstr "使用自定义权重"
+
+#: tetrominode/data/properties.py:303
+msgid "只评估当前块（更快）"
+msgstr "只评估当前块（更快）"
+
+#: tetrominode/data/properties.py:493
+msgid "在该时间窗内，低优先级音效可能被跳过，以避免同一帧内过多叠加"
+msgstr "在该时间窗内，低优先级音效可能被跳过，以避免同一帧内过多叠加"
+
+#: tetrominode/data/properties.py:539
+msgid "显示当前方块的落点阴影"
+msgstr "显示当前方块的落点阴影"
+
+#: tetrominode/data/properties.py:450
+msgid "暂停时的 BGM 音量倍率（0=静音）"
+msgstr "暂停时的 BGM 音量倍率（0=静音）"
+
+#: tetrominode/data/properties.py:313
+msgid "更稳：强烈避免 holes"
+msgstr "更稳：强烈避免 holes"
+
+#: tetrominode/data/properties.py:315
+msgid "更观赏：更偏好平整"
+msgstr "更观赏：更偏好平整"
+
+#: tetrominode/data/properties.py:314
+msgid "更高分：更偏好消行"
+msgstr "更高分：更偏好消行"
+
+#: tetrominode/data/properties.py:220
+msgid "标准 Guideline SRS 旋转系统"
+msgstr "标准 Guideline SRS 旋转系统"
+
+#: tetrominode/data/properties.py:459
+msgid "程序化 BGM 的节奏随等级变化"
+msgstr "程序化 BGM 的节奏随等级变化"
+
+#: tetrominode/data/properties.py:221
+msgid "经典简化旋转（旋转+归一化+简单踢墙）"
+msgstr "经典简化旋转（旋转+归一化+简单踢墙）"
+
+#: tetrominode/data/properties.py:304
+msgid "考虑下一块（更强）"
+msgstr "考虑下一块（更强）"
+
+#: tetrominode/data/properties.py:508
+msgid "节流强度倍率（0=关闭节流，>1 更严格）"
+msgstr "节流强度倍率（0=关闭节流，>1 更严格）"
+
+#: tetrominode/data/properties.py:266
+msgid "计分模式（影响消行/连击/B2B 等）"
+msgstr "计分模式（影响消行/连击/B2B 等）"
+
+#: tetrominode/data/properties.py:276
+msgid "连击加成模式"
+msgstr "连击加成模式"
+
+#: tetrominode/data/properties.py:299
+msgid "选择 AI 搜索深度（1-ply 更快，2-ply 更强）"
+msgstr "选择 AI 搜索深度（1-ply 更快，2-ply 更强）"
+
+#: tetrominode/data/properties.py:216
+msgid "选择旋转算法与踢墙规则"
+msgstr "选择旋转算法与踢墙规则"
+
+#: tetrominode/data/properties.py:256
+msgid "速度曲线（在启用 Use Level Speed 时生效）"
+msgstr "速度曲线（在启用 Use Level Speed 时生效）"
+
+#: tetrominode/data/properties.py:502
+msgid "限制高频音效的触发频率，避免叠加过密"
+msgstr "限制高频音效的触发频率，避免叠加过密"
+
+#: tetrominode/operators/game_ops.py:400
+msgctxt "Operator"
+msgid "Apply Looks"
+msgstr "应用外观"
+
+#: tetrominode/operators/game_ops.py:655
+msgctxt "Operator"
+msgid "Bake Replay"
+msgstr "烘焙回放"
+
+#: tetrominode/operators/game_ops.py:788
+msgctxt "Operator"
+msgid "Capture Keybind"
+msgstr "捕获快捷键"
+
+#: tetrominode/operators/game_ops.py:1555
+msgctxt "Operator"
+msgid "Cleanup Runtime"
+msgstr "清理运行时"
+
+#: tetrominode/operators/game_ops.py:473
+#: tetrominode/ui/panels.py:59
+msgctxt "Operator"
+msgid "Clear"
+msgstr "清除"
+
+#: tetrominode/operators/game_ops.py:846
+msgctxt "Operator"
+msgid "Clear Keybind"
+msgstr "清除快捷键"
+
+#: tetrominode/operators/game_ops.py:497
+msgctxt "Operator"
+msgid "Export JSON"
+msgstr "导出 JSON"
+
+#: tetrominode/operators/game_ops.py:556
+msgctxt "Operator"
+msgid "Import JSON"
+msgstr "导入 JSON"
+
+#: tetrominode/operators/game_ops.py:764
+msgctxt "Operator"
+msgid "Pause"
+msgstr "暂停"
+
+#: tetrominode/operators/game_ops.py:427
+msgctxt "Operator"
+msgid "Record"
+msgstr "录制"
+
+#: tetrominode/operators/game_ops.py:874
+#: tetrominode/ui/panels.py:322
+msgctxt "Operator"
+msgid "Reset Keybinds"
+msgstr "重置快捷键"
+
+#: tetrominode/operators/game_ops.py:683
+msgctxt "Operator"
+msgid "Restart"
+msgstr "重新开始"
+
+#: tetrominode/ui/panels.py:56
+msgctxt "Operator"
+msgid "Set"
+msgstr "设置"
+
+#: tetrominode/operators/game_ops.py:340
+msgctxt "Operator"
+msgid "Setup Assets"
+msgstr "设置资产"
+
+#: tetrominode/operators/game_ops.py:370
+msgctxt "Operator"
+msgid "Setup Geometry Nodes"
+msgstr "设置几何节点"
+
+#: tetrominode/operators/game_ops.py:940
+msgctxt "Operator"
+msgid "Start / Resume"
+msgstr "开始 / 继续"
+
+#: tetrominode/operators/game_ops.py:720
+msgctxt "Operator"
+msgid "Step"
+msgstr "单步"
+
+#: tetrominode/operators/game_ops.py:449
+msgctxt "Operator"
+msgid "Stop"
+msgstr "停止"

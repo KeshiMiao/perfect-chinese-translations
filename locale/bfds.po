@@ -1,0 +1,1034 @@
+# perfect-chinese: 1
+# id: bfds
+# kind: addon
+# module: bl_ext.blender_org.bfds
+# name: BFDS fire simulations
+# name_zh: BFDS火灾模拟
+# translator: KeshiMiao
+# category: Import-Export
+# supported_versions: >=5.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: bl/panels.py:352
+msgid "3D Cursor"
+msgstr "3D 光标"
+
+#: bl/operators/gis.py:52
+msgid "Accuracy of horizontal geoposition ~1 m"
+msgstr "水平地理定位精度约 1 米"
+
+#: types/bf_param.py:421
+#: ui/replace/space_view3d.py:532
+msgid "Add"
+msgstr "添加"
+
+#: types/bf_param.py:422
+msgid "Add slot"
+msgstr "添加槽"
+
+#: bl/operators/run_external.py:30
+msgid "All"
+msgstr "全部"
+
+#: bl/operators/mesh_tools.py:80
+msgid "Ambient temperature"
+msgstr "环境温度"
+
+#: bl/preferences.py:38
+msgid "Auto set the appearance of BFDS entities"
+msgstr "自动设置 BFDS 实体的外观"
+
+#: bl/preferences.py:38
+msgid "Automatically set the appearance of BFDS entities"
+msgstr "自动设置 BFDS 实体的外观"
+
+#: ui/replace/space_topbar.py:19
+msgid "Blender"
+msgstr "Blender"
+
+#: bl/operators/choose_namelist_id.py:132
+msgid "CTRL_ID"
+msgstr "CTRL_ID"
+
+#: bl/operators/choose_namelist_id.py:148
+msgid "CTRL_ID not set"
+msgstr "未设置 CTRL_ID"
+
+#: bl/operators/choose_namelist_id.py:132
+msgid "CTRL_ID parameter"
+msgstr "CTRL_ID 参数"
+
+#: bl/operators/choose_namelist_id.py:145
+msgid "CTRL_ID set"
+msgstr "已设置 CTRL_ID"
+
+#: bl/operators/run_external.py:197
+msgid "Calc just started, try again later"
+msgstr "计算刚开始，请稍后再试"
+
+#: bl/operators/run_external.py:222
+msgid "Calculation already completed"
+msgstr "计算已完成"
+
+#: bl/operators/mesh_tools.py:47
+msgid "Cell Number"
+msgstr "单元数"
+
+#: bl/panels.py:303
+msgid "Clean Up"
+msgstr "清理"
+
+#: ui/replace/space_view3d.py:649
+msgid "Collection Instance"
+msgstr "集合实例"
+
+#: lang/ON_MULT/ON_MULT.py:406
+msgid "DX, DY, DZ"
+msgstr "DX、DY、DZ"
+
+#: lang/ON_MULT/ON_MULT.py:412
+msgid "DX0, DY0, DZ0"
+msgstr "DX0、DY0、DZ0"
+
+#: lang/ON_MULT/ON_MULT.py:418
+msgid "DXB"
+msgstr "DXB"
+
+#: bl/operators/run_external.py:59
+msgid "Default restored"
+msgstr "已恢复默认设置"
+
+#: bl/operators/load_bf_settings.py:45
+msgid "Default settings loaded"
+msgstr "已加载默认设置"
+
+#: bl/operators/mesh_tools.py:64
+msgid "Density"
+msgstr "密度"
+
+#: bl/operators/mesh_tools.py:64
+msgid "Density (ρ) [kg/m³]"
+msgstr "密度 (ρ) [kg/m³]"
+
+#: bl/operators/show_fds_code.py:36
+msgid "Description"
+msgstr "描述"
+
+#: bl/operators/mesh_tools.py:167
+msgid "Desired Cell Sizes [m]"
+msgstr "期望单元尺寸 [m]"
+
+#: bl/operators/mesh_tools.py:167
+msgid "Desired MESH cell sizes"
+msgstr "期望 MESH 单元尺寸"
+
+#: bl/operators/mesh_tools.py:47
+msgid "Desired number of cells spanning the characteristic fire diameter D*.The NUREG 1824, US NRC (2007) used a D*/dx ratio between 4 and 16 toaccurately resolve fires in various scenarios."
+msgstr "期望跨特征火焰直径 D* 的单元数。NUREG 1824，美国 NRC（2007）采用 4 至 16 的 D*/dx 比值，以准确解析各种场景中的火灾。"
+
+#: bl/operators/copy_params.py:41
+#: bl/operators/copy_params.py:144
+msgid "Destination"
+msgstr "目标"
+
+#: bl/operators/copy_params.py:164
+msgid "Destination same as source Material"
+msgstr "目标与源材质相同"
+
+#: bl/operators/copy_params.py:60
+msgid "Destination same as source Scene"
+msgstr "目标与源场景相同"
+
+#: bl/operators/show_fds_code.py:36
+msgid "Dialog description"
+msgstr "对话框描述"
+
+#: bl/operators/show_fds_code.py:32
+msgid "Dialog message"
+msgstr "对话框消息"
+
+#: bl/operators/show_fds_code.py:25
+msgid "Dialog type"
+msgstr "对话框类型"
+
+#: types/bf_param.py:480
+msgid "Down"
+msgstr "向下"
+
+#: bl/operators/show_fds_code.py:27
+msgid "Error"
+msgstr "错误"
+
+#: bl/ui_lists.py:24
+msgid "Export"
+msgstr "导出"
+
+#: bl/preferences.py:93
+msgid "External Commands"
+msgstr "外部命令"
+
+#: bl/panels.py:211
+#: bl/panels.py:242
+msgid "FDS"
+msgstr "FDS"
+
+#: bl/panels.py:186
+msgid "FDS Boundary Condition"
+msgstr "FDS 边界条件"
+
+#: bl/panels.py:51
+msgid "FDS Case Config"
+msgstr "FDS 算例配置"
+
+#: bl/panels.py:212
+msgid "FDS Case Utils"
+msgstr "FDS 算例工具"
+
+#: bl/panels.py:107
+msgid "FDS Collection Config"
+msgstr "FDS 集合配置"
+
+#: bl/panels.py:99
+msgid "FDS DUMP"
+msgstr "FDS DUMP"
+
+#: bl/panels.py:25
+msgid "FDS Generic Scene Panel"
+msgstr "FDS 通用场景面板"
+
+#: bl/panels.py:131
+msgid "FDS Geometric Namelist"
+msgstr "FDS 几何 Namelist"
+
+#: bl/panels.py:63
+msgid "FDS HEAD"
+msgstr "FDS HEAD"
+
+#: bl/panels.py:74
+msgid "FDS MISC"
+msgstr "FDS MISC"
+
+#: bl/panels.py:154
+msgid "FDS MULT"
+msgstr "FDS MULT"
+
+#: bl/panels.py:93
+msgid "FDS PRES"
+msgstr "FDS PRES"
+
+#: bl/panels.py:86
+msgid "FDS RADI"
+msgstr "FDS RADI"
+
+#: bl/panels.py:80
+msgid "FDS REAC"
+msgstr "FDS REAC"
+
+#: bl/panels.py:68
+msgid "FDS TIME"
+msgstr "FDS TIME"
+
+#: bl/operators/scene_export.py:75
+msgid "FDS case exported"
+msgstr "FDS 算例已导出"
+
+#: bl/operators/scene_import.py:59
+msgid "FDS case imported"
+msgstr "FDS 算例已导入"
+
+#: bl/operators/show_fds_code.py:74
+msgid "FDS code shown"
+msgstr "已显示 FDS 代码"
+
+#: bl/operators/show_fds_geometry.py:52
+msgid "FDS geometry shown"
+msgstr "已显示 FDS 几何"
+
+#: bl/operators/scene_export.py:29
+msgid "File Path"
+msgstr "文件路径"
+
+#: bl/operators/scene_export.py:29
+msgid "Filepath used for exporting the file"
+msgstr "用于导出文件的文件路径"
+
+#: bl/panels.py:332
+msgid "Geolocation"
+msgstr "地理位置"
+
+#: bl/operators/gis.py:83
+msgid "Geolocation set"
+msgstr "已设置地理位置"
+
+#: bl/operators/gis.py:107
+msgid "Geolocation shown"
+msgstr "已显示地理位置"
+
+#: bl/operators/check_geom.py:79
+msgid "Geometry sanity ok"
+msgstr "几何完整性检查通过"
+
+#: bl/operators/mesh_tools.py:88
+msgid "Gravity (g) [m/s²]"
+msgstr "重力 (g) [m/s²]"
+
+#: bl/operators/mesh_tools.py:88
+msgid "Gravity acceleration"
+msgstr "重力加速度"
+
+#: ui/replace/space_view3d.py:312
+msgid "Guides"
+msgstr "辅助线"
+
+#: lang/ON_MULT/ON_MULT.py:428
+msgid "I"
+msgstr "I"
+
+#: lang/bf_material.py:104
+msgid "ID"
+msgstr "ID"
+
+#: lang/ON_MESH/ON_MESH.py:73
+msgid "IJK, Splits"
+msgstr "IJK、拆分"
+
+#: types/bf_param.py:518
+msgid "Index"
+msgstr "索引"
+
+#: bl/operators/show_fds_code.py:27
+msgid "Information"
+msgstr "信息"
+
+#: lang/ON_MULT/ON_MULT.py:429
+msgid "J"
+msgstr "J"
+
+#: lang/ON_MULT/ON_MULT.py:430
+msgid "K"
+msgstr "K"
+
+#: lang/ON_MULT/ON_MULT.py:435
+msgid "LOWER"
+msgstr "LOWER"
+
+#: lang/ON_MULT/ON_MULT.py:443
+msgid "LOWER_SKIP"
+msgstr "LOWER_SKIP"
+
+#: bl/operators/gis.py:36
+#: bl/operators/gis.py:51
+msgid "Latitude"
+msgstr "纬度"
+
+#: bl/operators/gis.py:36
+msgid "Latitude (WGS84, EPSG:4326) in decimal degrees"
+msgstr "纬度（WGS84，EPSG:4326），单位为十进制度"
+
+#: bl/operators/gis.py:28
+#: bl/operators/gis.py:50
+msgid "Longitude"
+msgstr "经度"
+
+#: bl/operators/gis.py:28
+msgid "Longitude (WGS84, EPSG:4326) in decimal degrees"
+msgstr "经度（WGS84，EPSG:4326），单位为十进制度"
+
+#: bl/operators/choose_namelist_id.py:58
+msgid "MATL_ID"
+msgstr "MATL_ID"
+
+#: bl/operators/choose_namelist_id.py:74
+msgid "MATL_ID not set"
+msgstr "MATL_ID 未设置"
+
+#: bl/operators/choose_namelist_id.py:58
+msgid "MATL_ID parameter"
+msgstr "MATL_ID 参数"
+
+#: bl/operators/choose_namelist_id.py:71
+msgid "MATL_ID set"
+msgstr "MATL_ID 已设置"
+
+#: bl/operators/mesh_tools.py:153
+#: bl/operators/mesh_tools.py:206
+msgid "MESH IJK set"
+msgstr "MESH IJK 已设置"
+
+#: bl/operators/clean_ma_slots.py:39
+msgid "Material slots cleaned"
+msgstr "材质槽已清理"
+
+#: bl/operators/mesh_tools.py:39
+msgid "Max HRR [kW]"
+msgstr "最大热释放速率 [kW]"
+
+#: bl/operators/mesh_tools.py:39
+msgid "Maximum heat release rate during the simulation"
+msgstr "模拟过程中的最大热释放速率"
+
+#: bl/operators/show_fds_code.py:32
+msgid "Message"
+msgstr "消息"
+
+#: bl/panels.py:287
+msgid "Mode"
+msgstr "模式"
+
+#: types/bf_param.py:473
+msgid "Move"
+msgstr "移动"
+
+#: types/bf_param.py:474
+msgid "Move slot"
+msgstr "移动槽"
+
+#: lang/ON_MULT/ON_MULT.py:432
+msgid "N"
+msgstr "N"
+
+#: bl/ui_lists.py:25
+msgid "Name"
+msgstr "名称"
+
+#: lang/ON_MESH/ON_MESH.py:62
+msgid "No MESH info while in Edit Mode."
+msgstr "编辑模式下无 MESH 信息。"
+
+#: bl/operators/copy_params.py:167
+msgid "No destination Material"
+msgstr "无目标材质"
+
+#: bl/operators/copy_params.py:63
+msgid "No destination Scene"
+msgstr "无目标场景"
+
+#: bl/operators/copy_params.py:105
+#: bl/operators/copy_params.py:119
+msgid "No destination, select other Objects"
+msgstr "无目标，请选择其他物体"
+
+#: bl/operators/check_geom.py:45
+msgid "No intersection detected"
+msgstr "未检测到相交"
+
+#: bl/operators/mesh_tools.py:277
+msgid "No reference MESH selected"
+msgstr "未选择参考 MESH"
+
+#: bl/operators/copy_params.py:170
+msgid "No source Material"
+msgstr "无源材质"
+
+#: bl/operators/copy_params.py:122
+msgid "No source Object"
+msgstr "无源物体"
+
+#: bl/operators/copy_params.py:66
+msgid "No source Scene"
+msgstr "无源场景"
+
+#: types/bf_namelist.py:117
+msgid "None available"
+msgstr "无可用项"
+
+#: bl/panels.py:342
+#: ui/replace/space_view3d.py:791
+msgid "Object"
+msgstr "物体"
+
+#: bl/operators/gis.py:110
+msgid "Offline mode, cannot show geolocation"
+msgstr "离线模式，无法显示地理位置"
+
+#: bl/preferences.py:58
+msgid "Open Smokeview"
+msgstr "打开 Smokeview"
+
+#: bl/operators/choose_namelist_id.py:95
+msgid "PROP_ID"
+msgstr "PROP_ID"
+
+#: bl/operators/choose_namelist_id.py:111
+msgid "PROP_ID not set"
+msgstr "PROP_ID 未设置"
+
+#: bl/operators/choose_namelist_id.py:95
+msgid "PROP_ID parameter"
+msgstr "PROP_ID 参数"
+
+#: bl/operators/choose_namelist_id.py:108
+msgid "PROP_ID set"
+msgstr "PROP_ID 已设置"
+
+#: bl/operators/mesh_tools.py:58
+#: bl/operators/mesh_tools.py:175
+msgid "Poisson Restriction"
+msgstr "泊松限制"
+
+#: lang/ON_GEOM/ON_GEOM.py:243
+msgid "Protect Original"
+msgstr "保护原始"
+
+#: bl/operators/mesh_tools.py:244
+msgid "Protect Ref Cell Size"
+msgstr "保护参考单元格尺寸"
+
+#: bl/operators/mesh_tools.py:238
+msgid "Protect Ref XB"
+msgstr "保护参考 XB"
+
+#: bl/operators/mesh_tools.py:238
+msgid "Protect reference MESH size."
+msgstr "保护参考 MESH 尺寸。"
+
+#: bl/operators/mesh_tools.py:244
+msgid "Protect reference cell size."
+msgstr "保护参考单元格尺寸。"
+
+#: bl/operators/choose_namelist_id.py:173
+msgid "QUANTITY"
+msgstr "QUANTITY"
+
+#: bl/operators/choose_namelist_id.py:189
+msgid "QUANTITY not set"
+msgstr "QUANTITY 未设置"
+
+#: bl/operators/choose_namelist_id.py:173
+msgid "QUANTITY parameter for DEVC namelist"
+msgstr "DEVC 名称列表的 QUANTITY 参数"
+
+#: bl/operators/choose_namelist_id.py:186
+msgid "QUANTITY set"
+msgstr "QUANTITY 已设置"
+
+#: types/bf_namelist.py:350
+msgid "RGB"
+msgstr "RGB"
+
+#: bl/operators/mesh_tools.py:232
+msgid "Reference MESH"
+msgstr "参考 MESH"
+
+#: bl/operators/mesh_tools.py:274
+msgid "Reference MESH same as currently selected MESH"
+msgstr "参考 MESH 与当前选中的 MESH 相同"
+
+#: bl/panels.py:270
+msgid "Remesh"
+msgstr "重网格"
+
+#: types/bf_param.py:445
+msgid "Remove"
+msgstr "移除"
+
+#: types/bf_param.py:446
+msgid "Remove slot"
+msgstr "移除槽"
+
+#: bl/operators/mesh_tools.py:58
+#: bl/operators/mesh_tools.py:175
+msgid "Respect FDS Poisson solver restriction on the IJK value."
+msgstr "遵循 FDS 泊松求解器对 IJK 值的限制。"
+
+#: bl/operators/run_external.py:26
+msgid "Restore Command"
+msgstr "恢复命令"
+
+#: bl/operators/run_external.py:30
+msgid "Restore all default commands for your platform"
+msgstr "恢复当前平台的所有默认命令"
+
+#: bl/operators/run_external.py:31
+msgid "Restore default FDS command for your platform"
+msgstr "恢复当前平台的默认 FDS 命令"
+
+#: bl/operators/run_external.py:32
+msgid "Restore default Smokeview command for your platform"
+msgstr "恢复当前平台的默认 Smokeview 命令"
+
+#: bl/operators/run_external.py:37
+msgid "Restore default terminal command for your platform"
+msgstr "恢复当前平台的默认终端命令"
+
+#: bl/operators/mesh_tools.py:109
+msgid "Result saved to Free Text and MESH IJK"
+msgstr "结果已保存到自由文本和 MESH IJK"
+
+#: bl/operators/mesh_tools.py:190
+msgid "Result saved to MESH IJK"
+msgstr "结果已保存到 MESH IJK"
+
+#: bl/preferences.py:44
+msgid "Run FDS"
+msgstr "运行 FDS"
+
+#: bl/operators/run_external.py:293
+msgid "Run FDS, before opening Smokeview!"
+msgstr "运行 FDS，然后再打开 Smokeview！"
+
+#: lang/ON_GEOM/ON_GEOM.py:52
+msgid "SURF_ID"
+msgstr "SURF_ID"
+
+#: bl/operators/scene_export.py:44
+msgid "Save the Blender file first!"
+msgstr "请先保存 Blender 文件！"
+
+#: bl/operators/run_external.py:140
+#: bl/operators/run_external.py:310
+msgid "See the terminal window"
+msgstr "查看终端窗口"
+
+#: bl/operators/run_external.py:26
+msgid "Select command to restore"
+msgstr "选择要恢复的命令"
+
+#: bl/operators/run_external.py:91
+msgid "Set FDS command in Edit > Preferences > Add-ons > BFDS"
+msgstr "在 编辑 > 偏好设置 > 插件 > BFDS 中设置 FDS 命令"
+
+#: bl/operators/gis.py:21
+msgid "Set Geolocation"
+msgstr "设置地理位置"
+
+#: ui/replace/space_view3d.py:799
+msgid "Set Origin"
+msgstr "设置原点"
+
+#: bl/operators/run_external.py:270
+msgid "Set Smokeview command in Edit > Preferences > Add-ons > BFDS"
+msgstr "在 编辑 > 偏好设置 > 插件 > BFDS 中设置 Smokeview 命令"
+
+#: bl/operators/gis.py:23
+msgid "Set geographic location (WGS84)"
+msgstr "设置地理位置（WGS84）"
+
+#: bl/operators/run_external.py:218
+msgid "Set the TIME T_END parameter first"
+msgstr "请先设置 TIME T_END 参数"
+
+#: bl/operators/gis.py:26
+msgid "Show Geolocation"
+msgstr "显示地理位置"
+
+#: bl/preferences.py:32
+msgid "Simplify Blender user interface for BFDS"
+msgstr "简化 BFDS 的 Blender 用户界面"
+
+#: bl/preferences.py:102
+#: bl/operators/run_external.py:32
+msgid "Smokeview"
+msgstr "Smokeview"
+
+#: bl/operators/mesh_tools.py:72
+msgid "Specific Heat (Cp) [KJ/(kg·K)]"
+msgstr "比热容 (Cp) [KJ/(kg·K)]"
+
+#: bl/operators/mesh_tools.py:72
+msgid "Specific heat at constant pressure"
+msgstr "定压比热容"
+
+#: lang/ON_MESH/ON_MESH.py:91
+msgid "Split"
+msgstr "拆分"
+
+#: bl/operators/mesh_tools.py:80
+msgid "Temperature (T∞) [°C]"
+msgstr "温度 (T∞) [°C]"
+
+#: bl/operators/show_fds_geometry.py:82
+msgid "Temporary geometry hidden"
+msgstr "临时几何体已隐藏"
+
+#: bl/operators/run_external.py:37
+msgid "Terminal"
+msgstr "终端"
+
+#: bl/panels.py:365
+msgid "Transform Coordinates"
+msgstr "变换坐标"
+
+#: bl/operators/show_fds_code.py:25
+msgid "Type"
+msgstr "类型"
+
+#: lang/ON_MULT/ON_MULT.py:459
+msgid "UPPER"
+msgstr "UPPER"
+
+#: lang/ON_MULT/ON_MULT.py:451
+msgid "UPPER_SKIP"
+msgstr "UPPER_SKIP"
+
+#: bl/operators/gis.py:90
+msgid "Undefined location, set origin geolocation in MISC"
+msgstr "位置未定义，请在 MISC 中设置原点地理位置"
+
+#: types/bf_param.py:480
+msgid "Up"
+msgstr "上"
+
+#: lang/ON_MULT/ON_MULT.py:401
+msgid "X"
+msgstr "X"
+
+#: lang/ON_MULT/ON_MULT.py:402
+msgid "Y"
+msgstr "Y"
+
+#: lang/ON_MULT/ON_MULT.py:403
+msgid "Z"
+msgstr "Z"
+
+#: bl/operators/mesh_tools.py:227
+msgctxt "Operator"
+msgid "Align To"
+msgstr "对齐到"
+
+#: bl/operators/mesh_tools.py:229
+msgctxt "Operator"
+msgid "Align current to a reference MESH"
+msgstr "将当前物体对齐到参考网格"
+
+#: bl/operators/show_fds_code.py:21
+msgctxt "Operator"
+msgid "BFDS"
+msgstr "BFDS"
+
+#: bl/operators/show_fds_code.py:23
+msgctxt "Operator"
+msgid "BFDS Dialog"
+msgstr "BFDS 对话框"
+
+#: bl/operators/check_geom.py:20
+msgctxt "Operator"
+msgid "Check Intersections"
+msgstr "检查相交"
+
+#: bl/operators/check_geom.py:56
+msgctxt "Operator"
+msgid "Check Sanity"
+msgstr "检查合理性"
+
+#: bl/operators/check_geom.py:58
+msgctxt "Operator"
+msgid "Check if the active object is a closed orientable 2-manifold, with no degenerate geometry"
+msgstr "检查活动物体是否为封闭、可定向的二维流形，且无退化几何体"
+
+#: bl/operators/check_geom.py:22
+msgctxt "Operator"
+msgid "Check self-intersections or intersections with other selected objects"
+msgstr "检查自相交或与其他选中物体的相交"
+
+#: bl/operators/choose_namelist_id.py:127
+msgctxt "Operator"
+msgid "Choose CTRL_ID"
+msgstr "选择 CTRL_ID"
+
+#: bl/operators/choose_namelist_id.py:129
+msgctxt "Operator"
+msgid "Choose CTRL_ID from CTRL namelists available in Free Text"
+msgstr "从自由文本中可用的 CTRL 名称列表选择 CTRL_ID"
+
+#: bl/operators/choose_namelist_id.py:53
+msgctxt "Operator"
+msgid "Choose MATL_ID"
+msgstr "选择 MATL_ID"
+
+#: bl/operators/choose_namelist_id.py:55
+msgctxt "Operator"
+msgid "Choose MATL_ID from MATLs available in Free Text"
+msgstr "从自由文本中可用的 MATL 列表选择 MATL_ID"
+
+#: bl/operators/choose_namelist_id.py:90
+msgctxt "Operator"
+msgid "Choose PROP_ID"
+msgstr "选择 PROP_ID"
+
+#: bl/operators/choose_namelist_id.py:92
+msgctxt "Operator"
+msgid "Choose PROP_ID from PROP namelists available in Free Text"
+msgstr "从自由文本中可用的 PROP 名称列表选择 PROP_ID"
+
+#: bl/operators/choose_namelist_id.py:168
+msgctxt "Operator"
+msgid "Choose QUANTITY for DEVC"
+msgstr "为 DEVC 选择 QUANTITY"
+
+#: bl/operators/choose_namelist_id.py:170
+msgctxt "Operator"
+msgid "Choose QUANTITY parameter for DEVC namelist"
+msgstr "为 DEVC 名称列表选择 QUANTITY 参数"
+
+#: bl/operators/clean_ma_slots.py:19
+msgctxt "Operator"
+msgid "Clean Material Slots"
+msgstr "清理材质槽"
+
+#: bl/operators/clean_ma_slots.py:21
+msgctxt "Operator"
+msgid "Clean Material slots from unused or empty instances"
+msgstr "清理材质槽中未使用或为空的实例"
+
+#: ui/replace/space_view3d.py:639
+msgctxt "Operator"
+msgid "Collection Instance..."
+msgstr "集合实例..."
+
+#: bl/operators/copy_params.py:38
+msgctxt "Operator"
+msgid "Copy FDS case parameters to another Scene"
+msgstr "将 FDS 案例参数复制到另一个场景"
+
+#: bl/operators/copy_params.py:93
+msgctxt "Operator"
+msgid "Copy FDS parameters from this active Object and apply them to other selected Objects."
+msgstr "复制此活动物体的 FDS 参数并应用到其他选中物体。"
+
+#: bl/operators/copy_params.py:141
+msgctxt "Operator"
+msgid "Copy FDS parameters to another Material"
+msgstr "将 FDS 参数复制到另一个材质"
+
+#: ui/replace/space_view3d.py:815
+msgctxt "Operator"
+msgid "Copy Objects"
+msgstr "复制物体"
+
+#: bl/operators/copy_params.py:36
+#: bl/operators/copy_params.py:91
+msgctxt "Operator"
+msgid "Copy To"
+msgstr "复制到"
+
+#: ui/replace/space_view3d.py:862
+msgctxt "Operator"
+msgid "Delete"
+msgstr "删除"
+
+#: ui/replace/space_view3d.py:863
+msgctxt "Operator"
+msgid "Delete Global"
+msgstr "删除全局"
+
+#: ui/replace/space_view3d.py:597
+msgctxt "Operator"
+msgid "Empty"
+msgstr "空"
+
+#: bl/operators/run_external.py:159
+msgctxt "Operator"
+msgid "Estimate completion wall time"
+msgstr "估计完成实际时间"
+
+#: bl/operators/run_external.py:161
+msgctxt "Operator"
+msgid "Estimate ongoing FDS calculation completion wall time,\nAs it is based on the most recent time step,\nwait until the simulated velocity field stabilises (eg. due\nto fire growth, ventilation) to obtain a dependable estimate"
+msgstr "估计正在进行的 FDS 计算完成所需的实际时间，\n由于其基于最近的时间步长，\n请等待模拟速度场稳定（例如由于\n火势增长、通风）以获得可靠的估计"
+
+#: bl/operators/scene_export.py:21
+msgctxt "Operator"
+msgid "Export current Blender Scene to an FDS case file"
+msgstr "将当前 Blender 场景导出为 FDS 案例文件"
+
+#: bl/operators/run_external.py:70
+msgctxt "Operator"
+msgid "Export current case and run FDS on it"
+msgstr "导出当前案例并对其运行 FDS"
+
+#: bl/operators/scene_export.py:20
+msgctxt "Operator"
+msgid "Export to FDS"
+msgstr "导出到 FDS"
+
+#: bl/operators/show_fds_geometry.py:63
+msgctxt "Operator"
+msgid "Hide Geometry"
+msgstr "隐藏几何体"
+
+#: bl/operators/show_fds_geometry.py:65
+msgctxt "Operator"
+msgid "Hide all generated temporary geometry"
+msgstr "隐藏所有生成的临时几何体"
+
+#: ui/replace/space_view3d.py:600
+msgctxt "Operator"
+msgid "Image"
+msgstr "图像"
+
+#: bl/operators/scene_import.py:70
+msgctxt "Operator"
+msgid "Import FDS code snippet to current Blender Scene"
+msgstr "将 FDS 代码片段导入当前 Blender 场景"
+
+#: bl/operators/scene_import.py:69
+msgctxt "Operator"
+msgid "Import Snippet"
+msgstr "导入片段"
+
+#: bl/operators/scene_import.py:34
+msgctxt "Operator"
+msgid "Import an FDS case file to a new Blender Scene"
+msgstr "将 FDS 案例文件导入到新的 Blender 场景"
+
+#: bl/operators/scene_import.py:33
+msgctxt "Operator"
+msgid "Import from FDS"
+msgstr "从 FDS 导入"
+
+#: bl/operators/load_bf_settings.py:20
+msgctxt "Operator"
+msgid "Load Default BFDS Settings"
+msgstr "加载默认 BFDS 设置"
+
+#: bl/operators/load_bf_settings.py:22
+msgctxt "Operator"
+msgid "Load default BFDS settings, deleting current data!"
+msgstr "加载默认 BFDS 设置，将删除当前数据！"
+
+#: bl/menus.py:11
+#: bl/menus.py:15
+msgctxt "Operator"
+msgid "NIST FDS Case (.fds)"
+msgstr "NIST FDS 案例 (.fds)"
+
+#: ui/replace/space_view3d.py:639
+msgctxt "Operator"
+msgid "No Collections to Instance"
+msgstr "没有可实例化的集合"
+
+#: bl/operators/run_external.py:252
+msgctxt "Operator"
+msgid "Open Smokeview"
+msgstr "打开 Smokeview"
+
+#: bl/operators/run_external.py:254
+msgctxt "Operator"
+msgid "Open Smokeview on the current FDS case"
+msgstr "在当前 FDS 案例上打开 Smokeview"
+
+#: ui/replace/space_view3d.py:816
+msgctxt "Operator"
+msgid "Paste Objects"
+msgstr "粘贴物体"
+
+#: bl/panels.py:296
+msgctxt "Operator"
+msgid "QuadriFlow Remesh"
+msgstr "QuadriFlow 重网格"
+
+#: bl/preferences.py:84
+msgctxt "Operator"
+msgid "Restart Blender"
+msgstr "重启 Blender"
+
+#: bl/operators/run_external.py:22
+msgctxt "Operator"
+msgid "Restore Default Command"
+msgstr "恢复默认命令"
+
+#: bl/operators/run_external.py:24
+msgctxt "Operator"
+msgid "Restore default commands for your platform"
+msgstr "恢复当前平台的默认命令"
+
+#: bl/operators/run_external.py:68
+msgctxt "Operator"
+msgid "Run FDS"
+msgstr "运行 FDS"
+
+#: ui/replace/space_view3d.py:541
+msgctxt "Operator"
+msgid "Search..."
+msgstr "搜索..."
+
+#: bl/operators/mesh_tools.py:162
+msgctxt "Operator"
+msgid "Set Cell Size"
+msgstr "设置单元尺寸"
+
+#: bl/operators/mesh_tools.py:29
+msgctxt "Operator"
+msgid "Set Suggested Cell Size"
+msgstr "设置建议单元尺寸"
+
+#: bl/operators/mesh_tools.py:164
+msgctxt "Operator"
+msgid "Set current MESH cell size"
+msgstr "设置当前网格的单元尺寸"
+
+#: bl/operators/mesh_tools.py:31
+msgctxt "Operator"
+msgid "Set suggested MESH cell size according to\n'Verification and Validation of Selected Fire Models\nfor Nuclear power Plant Applications.\nNUREG 1824, US NRC, 2007'"
+msgstr "根据《Verification and Validation of Selected Fire Models\nfor Nuclear power Plant Applications.\nNUREG 1824, US NRC, 2007》设置建议的网格单元尺寸"
+
+#: bl/operators/show_fds_code.py:103
+#: bl/operators/show_fds_code.py:120
+msgctxt "Operator"
+msgid "Show Code"
+msgstr "显示代码"
+
+#: bl/operators/show_fds_code.py:156
+msgctxt "Operator"
+msgid "Show FDS code exported from Scene"
+msgstr "显示从场景导出的 FDS 代码"
+
+#: bl/operators/show_fds_code.py:122
+msgctxt "Operator"
+msgid "Show FDS code exported from current Collection"
+msgstr "显示从当前集合导出的 FDS 代码"
+
+#: bl/operators/show_fds_code.py:139
+msgctxt "Operator"
+msgid "Show FDS code exported from current Material"
+msgstr "显示从当前材质导出的 FDS 代码"
+
+#: bl/operators/show_fds_code.py:105
+msgctxt "Operator"
+msgid "Show FDS code exported from current Object"
+msgstr "显示从当前物体导出的 FDS 代码"
+
+#: bl/operators/show_ui.py:32
+msgctxt "Operator"
+msgid "Show Free Text"
+msgstr "显示自由文本"
+
+#: bl/operators/show_fds_geometry.py:22
+msgctxt "Operator"
+msgid "Show Geometry"
+msgstr "显示几何体"
+
+#: bl/operators/show_ui.py:34
+msgctxt "Operator"
+msgid "Show free text in the editor"
+msgstr "在编辑器中显示自由文本"
+
+#: bl/operators/show_ui.py:17
+msgctxt "Operator"
+msgid "Show the Material Panel"
+msgstr "显示材质面板"
+
+#: bl/operators/show_ui.py:19
+msgctxt "Operator"
+msgid "Show the Material Panel of the property editor"
+msgstr "显示属性编辑器的材质面板"
+
+#: bl/operators/show_fds_geometry.py:24
+msgctxt "Operator"
+msgid "Show/Hide generated temporary geometry as exported to FDS"
+msgstr "显示/隐藏导出到 FDS 的临时生成几何体"
+
+#: bl/panels.py:363
+msgctxt "Operator"
+msgid "Transform Coordinates"
+msgstr "变换坐标"
+
+#: bl/panels.py:294
+msgctxt "Operator"
+msgid "Voxel Remesh"
+msgstr "体素重网格"

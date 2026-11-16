@@ -1,0 +1,234 @@
+# perfect-chinese: 1
+# id: arkit_blendshape_tools
+# kind: addon
+# module: bl_ext.blender_org.arkit_blendshape_tools
+# name: ARKit Blendshape Helper
+# name_zh: ARKit混合形状助手
+# translator: KeshiMiao
+# category: Rigging
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:432
+msgid "ARKit Blendshape Helper"
+msgstr "ARKit 混合变形助手"
+
+#: __init__.py:436
+msgid "ARKit H"
+msgstr "ARKit H"
+
+#: __init__.py:396
+msgid "Assign Driver/Driven meshes first."
+msgstr "请先指定驱动/受驱动网格。"
+
+#: __init__.py:469
+msgid "Assign a Driver Mesh with shapes to see folders."
+msgstr "指定带形态的驱动网格以查看文件夹。"
+
+#: __init__.py:123
+msgid "Assign main Driver mesh first."
+msgstr "请先指定主驱动网格。"
+
+#: __init__.py:475
+msgid "Blendshape Folders"
+msgstr "混合变形文件夹"
+
+#: __init__.py:448
+#: __init__.py:549
+msgid "Driver"
+msgstr "驱动"
+
+#: __init__.py:91
+msgid "Expanded"
+msgstr "已展开"
+
+#: __init__.py:90
+msgid "Group Name"
+msgstr "组名"
+
+#: __init__.py:445
+msgid "Mesh Setup"
+msgstr "网格设置"
+
+#: __init__.py:92
+msgid "Shapes"
+msgstr "形态"
+
+#: __init__.py:456
+msgctxt "Operator"
+msgid "Add ARKit"
+msgstr "添加 ARKit"
+
+#: __init__.py:114
+msgctxt "Operator"
+msgid "Add ARKit Shapes (Batch)"
+msgstr "添加 ARKit 形态（批量）"
+
+#: __init__.py:325
+msgctxt "Operator"
+msgid "Add Selected"
+msgstr "添加所选"
+
+#: __init__.py:385
+msgctxt "Operator"
+msgid "Add Shapekey"
+msgstr "添加形态键"
+
+#: __init__.py:115
+msgctxt "Operator"
+msgid "Add the 52 default ARKit blendshapes and pre-mirrored base versions."
+msgstr "添加 52 个默认 ARKit 混合变形及预镜像的基础版本。"
+
+#: __init__.py:326
+msgctxt "Operator"
+msgid "Adds the selected mesh or meshes to the list as secondary meshes."
+msgstr "将所选网格添加到列表中作为次级网格。"
+
+#: __init__.py:386
+msgctxt "Operator"
+msgid "Adds the selected shapekey to all the secondary meshes, if they dont have it yet."
+msgstr "将所选形态键添加到所有次级网格（若尚未包含）。"
+
+#: __init__.py:140
+msgctxt "Operator"
+msgid "Autosort Shapes"
+msgstr "自动排序形态"
+
+#: __init__.py:465
+msgctxt "Operator"
+msgid "Basis"
+msgstr "基础"
+
+#: __init__.py:252
+msgctxt "Operator"
+msgid "Create drivers on the secondary meshes controlled by the shared blendshapes with the main mesh."
+msgstr "在次级网格上创建由与主网格共享的混合变形控制的驱动器。"
+
+#: __init__.py:310
+msgctxt "Operator"
+msgid "Delete All Shapes"
+msgstr "删除所有形态"
+
+#: __init__.py:352
+msgctxt "Operator"
+msgid "Delete Blendshape?"
+msgstr "删除混合变形？"
+
+#: __init__.py:353
+msgctxt "Operator"
+msgid "Delete this blendshape."
+msgstr "删除此混合变形。"
+
+#: __init__.py:311
+msgctxt "Operator"
+msgid "Deletes ALL blendshapes and folders on all the meshes, even your custom ones. Be careful."
+msgstr "删除所有网格上的全部混合变形和文件夹，包括自定义项。请谨慎操作。"
+
+#: __init__.py:461
+msgctxt "Operator"
+msgid "Driver Link"
+msgstr "驱动链接"
+
+#: __init__.py:462
+msgctxt "Operator"
+msgid "Driver Unlink"
+msgstr "解除驱动链接"
+
+#: __init__.py:251
+msgctxt "Operator"
+msgid "Link Meshes"
+msgstr "链接网格"
+
+#: __init__.py:336
+msgctxt "Operator"
+msgid "Remove"
+msgstr "移除"
+
+#: __init__.py:277
+msgctxt "Operator"
+msgid "Remove the driver setup on the secondary meshes' blendshapes."
+msgstr "移除次级网格混合变形上的驱动设置。"
+
+#: __init__.py:337
+msgctxt "Operator"
+msgid "Removes the selected mesh or meshes to the list from secondary meshes."
+msgstr "从次级网格列表中移除所选网格。"
+
+#: __init__.py:464
+msgctxt "Operator"
+msgid "Select"
+msgstr "选择"
+
+#: __init__.py:232
+msgctxt "Operator"
+msgid "Select All Rig Meshes"
+msgstr "选择所有绑定网格"
+
+#: __init__.py:286
+msgctxt "Operator"
+msgid "Select Basis"
+msgstr "选择基础"
+
+#: __init__.py:103
+msgctxt "Operator"
+msgid "Select Blendshape"
+msgstr "选择混合变形"
+
+#: __init__.py:233
+msgctxt "Operator"
+msgid "Selects the Driver and all Target meshes in the Viewport."
+msgstr "在视图中选择驱动网格及所有目标网格。"
+
+#: __init__.py:104
+msgctxt "Operator"
+msgid "Selects this blendshape on the driver and all driven meshes"
+msgstr "在驱动网格及所有受驱动网格上选择此混合变形。"
+
+#: __init__.py:287
+msgctxt "Operator"
+msgid "Set all the \"Basis\" blendshapes as active."
+msgstr "将所有「基础」形态设为激活。"
+
+#: __init__.py:298
+msgctxt "Operator"
+msgid "Set all the blendshapes' values to 0."
+msgstr "将所有混合变形的值设为 0。"
+
+#: __init__.py:141
+msgctxt "Operator"
+msgid "Sorts shapes into ARKit folders by template order, then moves extras to 'Other'."
+msgstr "按模板顺序将形态归类到 ARKit 文件夹，其余移至「其他」。"
+
+#: __init__.py:151
+msgctxt "Operator"
+msgid "Split Left/Right"
+msgstr "拆分左/右"
+
+#: __init__.py:152
+msgctxt "Operator"
+msgid "Splits the shape based on X axis across Driver and Driven meshes."
+msgstr "沿 X 轴在驱动网格和受驱动网格上拆分形态。"
+
+#: __init__.py:344
+msgctxt "Operator"
+msgid "Toggle All"
+msgstr "全部切换"
+
+#: __init__.py:276
+msgctxt "Operator"
+msgid "Unlink Meshes"
+msgstr "取消链接网格"
+
+#: __init__.py:466
+msgctxt "Operator"
+msgid "Zero All"
+msgstr "全部归零"
+
+#: __init__.py:297
+msgctxt "Operator"
+msgid "Zero Everything"
+msgstr "全部清零"

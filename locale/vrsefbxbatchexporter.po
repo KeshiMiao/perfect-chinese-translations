@@ -1,0 +1,613 @@
+# perfect-chinese: 1
+# id: vrsefbxbatchexporter
+# kind: addon
+# module: bl_ext.blender_org.vrsefbxbatchexporter
+# name: VRse FBX Batch Exporter
+# name_zh: VRse FBX批量导出
+# translator: KeshiMiao
+# category: Import-Export
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:880
+msgid "-X Forward"
+msgstr "-X 向前"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:892
+msgid "-X Up"
+msgstr "-X 向上"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:881
+msgid "-Y Forward"
+msgstr "-Y 向前"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:893
+msgid "-Y Up"
+msgstr "-Y 向上"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:882
+msgid "-Z Forward"
+msgstr "-Z 向前"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:894
+msgid "-Z Up"
+msgstr "-Z 向上"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:904
+msgid "All"
+msgstr "全部"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:1318
+msgid "All settings reset to defaults"
+msgstr "所有设置已重置为默认值"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:2412
+msgid "Apply"
+msgstr "应用"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:908
+msgid "Apply Modifiers"
+msgstr "应用修改器"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:898
+msgid "Apply Scalings"
+msgstr "应用缩放"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:823
+msgid "Apply Transform"
+msgstr "应用变换"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:813
+msgid "Apply Unit"
+msgstr "应用单位"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:904
+msgid "Apply all scalings"
+msgstr "应用所有缩放"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:903
+msgid "Apply custom scalings"
+msgstr "应用自定义缩放"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:818
+msgid "Apply global space transform to exported meshes"
+msgstr "将全局空间变换应用到导出的网格"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:908
+msgid "Apply modifiers (e.g. Mirror) before export"
+msgstr "导出前应用修改器（例如镜像）"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:813
+msgid "Apply unit scale to exported meshes"
+msgstr "将单位缩放应用到导出的网格"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:902
+msgid "Apply unit scalings"
+msgstr "应用单位缩放"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:971
+msgid "Armature"
+msgstr "骨架"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:2545
+msgid "Armatures auto-included"
+msgstr "自动包含骨架"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:1063
+msgid "Ask for confirmation before exporting meshes that carry more than two\nUV maps. The dialog lists the objects so they can be fixed (Cancel),\nleft out of the FBX (Skip), or exported as-is"
+msgstr "在导出带有两个以上\nUV 贴图的网格前请求确认。对话框会列出这些物体，以便修复（取消）、\n从 FBX 中排除（跳过）或按原样导出"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:1040
+msgid "Automatically create empty Materials folders for Unity workflow"
+msgstr "为 Unity 工作流自动创建空的 Materials 文件夹"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:843
+msgid "Bake object LOCATION into the mesh before export, so Unity reads\nposition 0,0,0.\n\nThis moves every asset to the world origin, which is usually only\nwanted for single-prop exports. Off by default"
+msgstr "导出前将物体位置烘焙到网格中，使 Unity 读取到\n位置 0,0,0。\n\n这会将每个资产移动到世界原点，通常只适用于\n单个道具导出。默认关闭"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:854
+msgid "Bake object ROTATION into the mesh before export, so Unity reads\nrotation 0,0,0. Equivalent to Blender's Ctrl+A > Rotation.\n\nApplied to temporary copies - your scene objects are not modified"
+msgstr "导出前将物体旋转烘焙到网格中，使 Unity 读取到\n旋转 0,0,0。等同于 Blender 的 Ctrl+A > 旋转。\n\n应用于临时副本 - 不会修改场景中的物体"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:864
+msgid "Bake object SCALE into the mesh before export, so Unity reads\nscale 1,1,1. Equivalent to Blender's Ctrl+A > Scale.\n\nApplied to temporary copies - your scene objects are not modified"
+msgstr "导出前将物体缩放烘焙到网格中，使 Unity 读取到\n缩放 1,1,1。等同于 Blender 的 Ctrl+A > 缩放。\n\n应用于临时副本 - 不会修改场景中的物体"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:1048
+msgid "Before export, validate the second UV layer on the evaluated mesh that will be written to FBX"
+msgstr "导出前，在将写入 FBX 的求值网格上验证第二 UV 层"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:980
+msgid "Blender cameras, written as FBX camera nodes.\nUnity imports them as GameObjects but does NOT create a Unity Camera\ncomponent. Usually left off for game assets"
+msgstr "Blender 摄像机，写入为 FBX 摄像机节点。\nUnity 会将其导入为 GameObject，但不会创建 Unity Camera\n组件。游戏资产通常保持关闭"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:989
+msgid "Blender lights, written as FBX light nodes.\nUnity ignores FBX lights for baking; scene lighting is set up in Unity.\nUsually left off for game assets"
+msgstr "Blender 灯光，写入为 FBX 灯光节点。\nUnity 在烘焙时会忽略 FBX 灯光；场景光照在 Unity 中设置。\n游戏资产通常保持关闭"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:2472
+msgid "Breaks armatures"
+msgstr "会破坏骨架"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:980
+msgid "Camera"
+msgstr "摄像机"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:1056
+msgid "Cancel an FBX file when an exported mesh is missing UV2 or contains invalid UV coordinates"
+msgstr "当导出的网格缺少 UV2 或包含无效 UV 坐标时，取消导出该 FBX 文件"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:1442
+msgid "Cancel to fix the UV maps first."
+msgstr "取消以先修复 UV 贴图。"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:1331
+msgid "Choose a directory to export to"
+msgstr "选择导出目录"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:1106
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:1131
+msgid "Choose an export path before saving it"
+msgstr "保存前请选择导出路径"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:798
+msgid "Collections"
+msgstr "集合"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:945
+msgid "Combine Nested Collections"
+msgstr "合并嵌套集合"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:2432
+msgid "Combine into One FBX"
+msgstr "合并为一个 FBX"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:1433
+msgid "Continue with:"
+msgstr "继续使用："
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:930
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:2424
+msgid "Create Collection Folders"
+msgstr "创建集合文件夹"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:1040
+msgid "Create Materials Folders"
+msgstr "创建 Materials 文件夹"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:930
+msgid "Create a separate folder for each collection, with its Materials folder inside.\nIf unchecked, FBX files are written straight into the export directory with no folders and no Materials folders"
+msgstr "为每个集合创建单独的文件夹，并在其中包含其 Materials 文件夹。\n如果未勾选，FBX 文件将直接写入导出目录，不创建文件夹，也不创建 Materials 文件夹"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:903
+msgid "Custom"
+msgstr "自定义"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:882
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:890
+msgid "Default"
+msgstr "默认"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:901
+msgid "Don't apply scalings"
+msgstr "不应用缩放"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:1023
+msgid "Edge"
+msgstr "边"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:1009
+msgid "Embed Textures"
+msgstr "嵌入纹理"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:1009
+msgid "Embed textures into the FBX (path_mode='COPY')"
+msgstr "将纹理嵌入 FBX（path_mode='COPY'）"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:962
+msgid "Empties: pivots, sockets, spawn points and group parents.\nUnity imports each as an empty GameObject, preserving hierarchy.\nKeep on if your prefabs attach anything to named sockets"
+msgstr "空物体：轴心、插槽、生成点和组父级。\nUnity 会将每个导入为空 GameObject，并保留层级。\n如果预制体需要将任何内容附加到命名插槽，请保持开启"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:962
+msgid "Empty"
+msgstr "空物体"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:1441
+msgid "Every UV map is exported as-is."
+msgstr "每个 UV 贴图都按原样导出。"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:1014
+msgid "Export Animations"
+msgstr "导出动画"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:1345
+msgid "Export Anyway"
+msgstr "仍然导出"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:1331
+msgid "Export Directory"
+msgstr "导出目录"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:794
+msgid "Export Mode"
+msgstr "导出模式"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:804
+msgid "Export Path"
+msgstr "导出路径"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:945
+msgid "Export all objects from nested collections as a single FBX in the parent folder"
+msgstr "将嵌套集合中的所有物体作为单个 FBX 导出到父文件夹"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:794
+msgid "Export by collections or selected objects"
+msgstr "按集合或所选物体导出"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:940
+msgid "Export child collections into separate subfolders"
+msgstr "将子集合导出到单独的子文件夹"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:799
+msgid "Export objects from selection"
+msgstr "导出所选物体"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:798
+msgid "Export objects grouped by their collections"
+msgstr "按物体所属集合分组导出"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:1019
+msgid "Export smoothing mode"
+msgstr "导出平滑模式"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:1341
+msgid "Extra UV Maps"
+msgstr "额外 UV 贴图"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:1351
+msgid "Extra UV Maps Answered"
+msgstr "额外 UV 贴图已确认"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:1646
+msgid "FBX export cancelled because UV2 validation failed"
+msgstr "由于 UV2 验证失败，FBX 导出已取消"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:1024
+msgid "Face"
+msgstr "面"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:1121
+msgid "Folder"
+msgstr "文件夹"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:2431
+msgid "Folder per Child Collection"
+msgstr "每个子集合一个文件夹"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:874
+msgid "Forward"
+msgstr "向前"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:953
+msgid "Geometry: meshes, curves and surfaces converted to polygons.\nThis is the actual model. Unity imports it as a Mesh Renderer.\nTurning this off produces FBX files with no geometry"
+msgstr "几何数据：网格、曲线和曲面转换为多边形。\n这是实际模型。Unity 会将其导入为网格渲染器。\n关闭此项会生成不含几何数据的 FBX 文件"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:923
+msgid "If enabled, each object/collection goes in its own subfolder"
+msgstr "启用后，每个物体/集合放入各自的子文件夹"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:1014
+msgid "Include armature & animations if available"
+msgstr "包含骨架和动画（如果有）"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:1351
+msgid "Internal: the extra-UV confirmation has already been answered"
+msgstr "内部：额外 UV 确认已回答"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:1095
+msgid "Label shown in the saved paths menu"
+msgstr "在已保存路径菜单中显示的标签"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:1346
+msgid "Leave the listed objects out of the FBX entirely"
+msgstr "将列出的物体完全排除在 FBX 之外"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:989
+msgid "Light"
+msgstr "灯光"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:843
+msgid "Loc"
+msgstr "位置"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:923
+msgid "Make Separate Folders"
+msgstr "创建单独文件夹"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:940
+msgid "Make folders for Child Collections"
+msgstr "为子集合创建文件夹"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:953
+msgid "Mesh"
+msgstr "网格"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:786
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:1095
+msgid "Name"
+msgstr "名称"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:2427
+msgid "Nested Collections:"
+msgstr "嵌套集合："
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:2093
+msgid "No collections contain valid objects. Aborting export process."
+msgstr "没有集合包含有效物体。正在中止导出过程。"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:2564
+msgid "No mesh: FBX will be empty"
+msgstr "无网格：FBX 将为空"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:1217
+msgid "No saved paths yet"
+msgstr "尚无已保存的路径"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:2370
+msgid "No second UV set"
+msgstr "无第二 UV 组"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:2154
+msgid "No valid selected objects found for export. Aborting export process."
+msgstr "未找到可导出的有效选中物体。正在中止导出过程。"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:901
+msgid "None"
+msgstr "无"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:1025
+msgid "Normals Only"
+msgstr "仅法线"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:1025
+msgid "Normals only"
+msgstr "仅法线"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:2087
+msgid "Nothing left to export: every object was skipped for having extra UV maps."
+msgstr "无可导出内容：所有物体因带有额外 UV 贴图而被跳过。"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:2148
+msgid "Nothing left to export: every selected object was skipped for having extra UV maps."
+msgstr "无可导出内容：所有选中物体因带有额外 UV 贴图而被跳过。"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:2552
+msgid "Object type to export:"
+msgstr "要导出的物体类型："
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:998
+msgid "Other"
+msgstr "其他"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:2522
+msgid "Other Options"
+msgstr "其他选项"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:787
+msgid "Path"
+msgstr "路径"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:804
+msgid "Path for exporting FBX files"
+msgstr "导出 FBX 文件的路径"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:998
+msgid "Remaining exportable types such as text objects and metaballs.\nThese are converted to meshes on export.\nLeave off unless you know your scene contains them"
+msgstr "其余可导出的类型，如文本物体和融球。\n这些在导出时会转换为网格。\n除非你确认场景中包含它们，否则请保持关闭"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:854
+msgid "Rot"
+msgstr "旋转"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:1212
+msgid "Saved Export Paths"
+msgstr "已保存的导出路径"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:1206
+msgid "Saved export path was not found"
+msgstr "未找到已保存的导出路径"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:864
+msgid "Scale"
+msgstr "缩放"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:799
+msgid "Selected Objects"
+msgstr "选中物体"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:2435
+msgid "Separate Folders"
+msgstr "独立文件夹"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:2017
+msgid "Set an export path before exporting"
+msgstr "导出前请先设置导出路径"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:2434
+msgid "Single FBX"
+msgstr "单个 FBX"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:915
+msgid "Single FBX (Keep Child Meshes)"
+msgstr "单个 FBX（保留子网格）"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:971
+msgid "Skeletons for skinned/rigged models.\nUnity needs this to build an Avatar and play animation clips.\nEnabling Export Animations turns this on automatically"
+msgstr "用于蒙皮/绑定模型的骨架。\nUnity 需要它来构建 Avatar 并播放动画片段。\n启用「导出动画」会自动开启此项"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:1346
+msgid "Skip Those Objects"
+msgstr "跳过这些物体"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:1019
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:2548
+msgid "Smoothing"
+msgstr "平滑"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:2459
+msgid "Space Transform"
+msgstr "空间变换"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:1056
+msgid "Stop on Invalid UV2"
+msgstr "遇到无效 UV2 时停止"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:2297
+msgid "Successfully Exported Files:"
+msgstr "成功导出的文件："
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:2440
+msgid "Transform"
+msgstr "变换"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:902
+msgid "Units"
+msgstr "单位"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:2485
+msgid "Unity UV"
+msgstr "Unity UV"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:1416
+msgid "Unity imports UV1 as uv2 (lightmaps). Extra sets land in"
+msgstr "Unity 将 UV1 导入为 uv2（光照贴图）。额外的 UV 组会落在"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:2474
+msgid "Unity reads rotation -90"
+msgstr "Unity 读取的旋转为 -90"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:886
+msgid "Up"
+msgstr "向上"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:1218
+msgid "Use 'Save Path' to add one"
+msgstr "使用「保存路径」添加一个"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:818
+msgid "Use Space Transform"
+msgstr "使用空间变换"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:2327
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:2444
+msgid "VRse"
+msgstr "VRse"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:2323
+msgid "VRse FBX Smart Exporter"
+msgstr "VRse FBX 智能导出器"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:1048
+msgid "Validate Evaluated UV2"
+msgstr "校验评估后的 UV2"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:1063
+msgid "Warn Over 2 UV Maps"
+msgstr "超过 2 个 UV 贴图时警告"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:1341
+msgid "What to do with meshes that carry more than two UV maps"
+msgstr "对带有超过两个 UV 贴图的网格执行何种操作"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:1023
+msgid "Write edge smoothing"
+msgstr "写入边平滑"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:1345
+msgid "Write every UV map into the FBX as-is"
+msgstr "将所有 UV 贴图按原样写入 FBX"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:1024
+msgid "Write face smoothing"
+msgstr "写入面平滑"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:915
+msgid "Write selected objects into one FBX while preserving separate child meshes; this does not join geometry or globally repack UV2"
+msgstr "将选中物体写入一个 FBX，同时保留独立的子网格；这不会合并几何体，也不会全局重新打包 UV2"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:877
+msgid "X Forward"
+msgstr "X 向前"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:889
+msgid "X Up"
+msgstr "X 向上"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:878
+msgid "Y Forward"
+msgstr "Y 向前"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:890
+msgid "Y Up"
+msgstr "Y 向上"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:879
+msgid "Z Forward"
+msgstr "Z 向前"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:891
+msgid "Z Up"
+msgstr "Z 向上"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:1418
+msgid "by an earlier unwrap."
+msgstr "由先前的展开操作留下。"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:1417
+msgid "uv3/uv4, inflate the mesh, and are usually left behind"
+msgstr "uv3/uv4，使网格膨胀，通常会被遗留"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:1328
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:2397
+msgctxt "Operator"
+msgid "Export as FBX"
+msgstr "导出为 FBX"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:2288
+msgctxt "Operator"
+msgid "Exported FBX Files"
+msgstr "已导出的 FBX 文件"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:2312
+msgctxt "Operator"
+msgid "Open Export Folder"
+msgstr "打开导出文件夹"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:1182
+msgctxt "Operator"
+msgid "Remove Saved Path"
+msgstr "移除已保存路径"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:2568
+msgctxt "Operator"
+msgid "Reset All Settings"
+msgstr "重置所有设置"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:1267
+msgctxt "Operator"
+msgid "Reset Settings"
+msgstr "重置设置"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:1093
+msgctxt "Operator"
+msgid "Save Export Path"
+msgstr "保存导出路径"
+
+#: vrse_fbx_exporter-v1.3.2/VRseFbx_BatchExporter.py:1160
+msgctxt "Operator"
+msgid "Use Saved Path"
+msgstr "使用已保存路径"

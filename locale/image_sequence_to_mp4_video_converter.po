@@ -1,0 +1,647 @@
+# perfect-chinese: 1
+# id: image_sequence_to_mp4_video_converter
+# kind: addon
+# module: bl_ext.blender_org.image_sequence_to_mp4_video_converter
+# name: Image Sequence to MP4 Video Converter
+# name_zh: 图像序列转MP4
+# translator: KeshiMiao
+# category: Render
+# supported_versions: >=5.0.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: props.py:23
+msgid "2K"
+msgstr "2K"
+
+#: props.py:22
+msgid "4K UHD  ·  3840 × 2160"
+msgstr "4K UHD  ·  3840 × 2160"
+
+#: props.py:40
+msgid "AV1"
+msgstr "AV1"
+
+#: props.py:39
+msgid "About 30-40% smaller files at the same quality; needs a modern player"
+msgstr "同等画质下文件约小 30-40%；需要较新的播放器"
+
+#: props.py:50
+msgid "Aim for a fixed data rate in Mbit/s (for upload limits)"
+msgstr "以 Mbit/s 为单位的固定数据速率（用于上传限制）"
+
+#: props.py:59
+msgid "Always use Blender's built-in encoder. Needs no extra software"
+msgstr "始终使用 Blender 内置编码器。无需额外软件"
+
+#: props.py:60
+msgid "Always use the FFmpeg program installed on this computer"
+msgstr "始终使用此电脑上安装的 FFmpeg 程序"
+
+#: props.py:64
+msgid "Apply the view transform, look and exposure from Render ▸ Color Management. Use for linear EXR frames"
+msgstr "应用「渲染 ▸ 色彩管理」中的视图变换、外观和曝光。适用于线性 EXR 帧"
+
+#: props.py:58
+msgid "Automatic"
+msgstr "自动"
+
+#: props.py:54
+msgid "Balanced"
+msgstr "均衡"
+
+#: props.py:46
+msgid "Balanced quality and size, good for review and sharing"
+msgstr "画质与体积均衡，适合审阅和分享"
+
+#: props.py:43
+msgid "Bit-exact before color conversion. Very large files"
+msgstr "色彩转换前逐位精确。文件非常大"
+
+#: props.py:206
+msgid "Bitrate"
+msgstr "比特率"
+
+#: ui.py:256
+msgid "Bitrate (Mbit/s)"
+msgstr "比特率 (Mbit/s)"
+
+#: props.py:59
+msgid "Blender"
+msgstr "Blender"
+
+#: props.py:204
+msgid "Codec"
+msgstr "编解码器"
+
+#: props.py:211
+#: ui.py:354
+msgid "Color"
+msgstr "颜色"
+
+#: props.py:19
+#: props.py:70
+msgid "Custom"
+msgstr "自定义"
+
+#: props.py:168
+msgid "Encode only part of the sequence"
+msgstr "仅编码序列的一部分"
+
+#: props.py:203
+#: ui.py:355
+msgid "Encoder"
+msgstr "编码器"
+
+#: props.py:174
+msgid "End"
+msgstr "结束"
+
+#: props.py:70
+msgid "Enter a frame rate"
+msgstr "输入帧率"
+
+#: props.py:19
+msgid "Enter width and height"
+msgstr "输入宽度和高度"
+
+#: props.py:175
+msgid "Every Nth Frame"
+msgstr "每第 N 帧"
+
+#: props.py:45
+msgid "Excellent quality, a good default for finished work"
+msgstr "极佳画质，成品默认之选"
+
+#: ui.py:162
+msgid "Export cancelled"
+msgstr "导出已取消"
+
+#: ui.py:165
+msgid "Export failed"
+msgstr "导出失败"
+
+#: props.py:60
+#: props.py:222
+msgid "FFmpeg"
+msgstr "FFmpeg"
+
+#: props.py:242
+msgid "FFmpeg not found. Blender's built-in encoder will be used."
+msgstr "未找到 FFmpeg。将使用 Blender 内置编码器。"
+
+#: props.py:185
+#: ui.py:218
+msgid "FPS"
+msgstr "FPS"
+
+#: props.py:53
+msgid "Fast"
+msgstr "快速"
+
+#: props.py:138
+msgid "File Name"
+msgstr "文件名"
+
+#: props.py:34
+msgid "Fill"
+msgstr "填充"
+
+#: props.py:34
+msgid "Fill the frame completely and crop whatever overflows"
+msgstr "完全填满画面并裁掉溢出部分"
+
+#: props.py:173
+msgid "First frame number (as in the file names)"
+msgstr "起始帧编号（与文件名一致）"
+
+#: props.py:33
+#: props.py:200
+msgid "Fit"
+msgstr "适应"
+
+#: ui.py:115
+msgid "Folder"
+msgstr "文件夹"
+
+#: props.py:128
+msgid "Folder with the rendered frames. Leave empty to use the last folder or the scene's render output folder"
+msgstr "包含渲染帧的文件夹。留空则使用上次的文件夹或场景的渲染输出文件夹"
+
+#: ui.py:227
+msgid "Frame Range"
+msgstr "帧范围"
+
+#: props.py:184
+#: ui.py:215
+msgid "Frame Rate"
+msgstr "帧率"
+
+#: props.py:185
+msgid "Frames per second"
+msgstr "每秒帧数"
+
+#: props.py:24
+msgid "Full HD  ·  1920 × 1080"
+msgstr "全高清  ·  1920 × 1080"
+
+#: ui.py:180
+msgid "Full log is in the system console"
+msgstr "完整日志见系统控制台"
+
+#: props.py:54
+msgid "Good speed and compression"
+msgstr "速度与压缩比俱佳"
+
+#: props.py:38
+msgid "H.264"
+msgstr "H.264"
+
+#: props.py:39
+msgid "H.265 / HEVC"
+msgstr "H.265 / HEVC"
+
+#: props.py:25
+msgid "HD  ·  1280 × 720"
+msgstr "高清  ·  1280 × 720"
+
+#: props.py:48
+msgid "Heavy compression, tiny files"
+msgstr "高压缩，文件极小"
+
+#: props.py:191
+msgid "Height"
+msgstr "高度"
+
+#: props.py:45
+msgid "High"
+msgstr "高"
+
+#: ui.py:346
+msgid "IMAGE_EDITOR"
+msgstr "IMAGE_EDITOR"
+
+#: props.py:128
+msgid "Image Folder"
+msgstr "图像文件夹"
+
+#: ui.py:68
+msgid "Image folder"
+msgstr "图像文件夹"
+
+#: props.py:30
+msgid "Instagram portrait"
+msgstr "Instagram 竖版"
+
+#: props.py:29
+msgid "Instagram square"
+msgstr "Instagram 方形"
+
+#: props.py:63
+msgid "Keep PNG/JPG colors exactly as they are. Right for already-rendered frames"
+msgstr "保持 PNG/JPG 颜色原样。适合已渲染的帧"
+
+#: props.py:17
+msgid "Keep the resolution of the images"
+msgstr "保持图像分辨率"
+
+#: props.py:174
+msgid "Last frame number (as in the file names)"
+msgstr "结束帧编号（与文件名一致）"
+
+#: props.py:168
+msgid "Limit Frame Range"
+msgstr "限制帧范围"
+
+#: props.py:244
+msgid "Looking for FFmpeg…"
+msgstr "正在查找 FFmpeg…"
+
+#: props.py:43
+msgid "Lossless"
+msgstr "无损"
+
+#: props.py:47
+msgid "Low"
+msgstr "低"
+
+#: props.py:49
+msgid "Lowest"
+msgstr "最低"
+
+#: props.py:64
+msgid "Match Scene"
+msgstr "匹配场景"
+
+#: props.py:46
+msgid "Medium"
+msgstr "中"
+
+#: ui.py:279
+msgid "Mode"
+msgstr "模式"
+
+#: ui.py:112
+msgid "Name"
+msgstr "名称"
+
+#: props.py:138
+msgid "Name of the video, without extension"
+msgstr "视频名称，不含扩展名"
+
+#: props.py:66
+msgid "No color transform at all"
+msgstr "完全不进行色彩变换"
+
+#: ui.py:316
+msgid "One-click settings for common deliveries"
+msgstr "常用交付的一键设置"
+
+#: props.py:161
+msgid "Open the output folder in your file browser after a successful export"
+msgstr "导出成功后用文件浏览器打开输出文件夹"
+
+#: props.py:222
+msgid "Optional: path to the ffmpeg program (or its folder). Leave empty to find it automatically"
+msgstr "可选：ffmpeg 程序的路径（或其文件夹）。留空则自动查找"
+
+#: ui.py:351
+msgid "Output"
+msgstr "输出"
+
+#: props.py:149
+msgid "Output Folder"
+msgstr "输出文件夹"
+
+#: props.py:155
+msgid "Overwrite Existing"
+msgstr "覆盖现有文件"
+
+#: ui.py:348
+msgid "PROPERTIES"
+msgstr "PROPERTIES"
+
+#: props.py:44
+msgid "Perceptually Lossless"
+msgstr "视觉无损"
+
+#: props.py:18
+msgid "Pick a common video size"
+msgstr "选择常用视频尺寸"
+
+#: props.py:38
+msgid "Plays everywhere. Best choice for sharing"
+msgstr "随处可播放。分享首选"
+
+#: props.py:30
+msgid "Portrait 4:5  ·  1080 × 1350"
+msgstr "竖版 4:5  ·  1080 × 1350"
+
+#: props.py:18
+#: props.py:189
+msgid "Preset"
+msgstr "预设"
+
+#: ui.py:64
+#: ui.py:315
+msgid "Presets"
+msgstr "预设"
+
+#: props.py:23
+msgid "QHD  ·  2560 × 1440"
+msgstr "QHD  ·  2560 × 1440"
+
+#: props.py:205
+#: ui.py:353
+msgid "Quality"
+msgstr "质量"
+
+#: props.py:53
+msgid "Quickest export, files a little larger"
+msgstr "导出最快，文件稍大"
+
+#: ui.py:220
+msgid "Rate"
+msgstr "帧率"
+
+#: props.py:66
+msgid "Raw"
+msgstr "原始"
+
+#: ui.py:75
+msgid "Reading folder…"
+msgstr "正在读取文件夹…"
+
+#: props.py:27
+msgid "Reels, Shorts, TikTok"
+msgstr "Reels、Shorts、TikTok"
+
+#: props.py:155
+msgid "Replace a video with the same name. When off, a number is added (final_render_001.mp4) so earlier exports are never lost"
+msgstr "替换同名视频。关闭时会添加编号（final_render_001.mp4），以免丢失之前的导出"
+
+#: props.py:188
+#: ui.py:197
+msgid "Resolution"
+msgstr "分辨率"
+
+#: props.py:26
+msgid "SD  ·  854 × 480"
+msgstr "SD  ·  854 × 480"
+
+#: ui.py:347
+msgid "SEQUENCE_EDITOR"
+msgstr "序列编辑器"
+
+#: props.py:144
+msgid "Save Next to Images"
+msgstr "保存到图像旁"
+
+#: props.py:192
+msgid "Scale"
+msgstr "缩放"
+
+#: props.py:192
+msgid "Scale the resolution (200% on a 1080p preset gives 4K)"
+msgstr "缩放分辨率（1080p 预设的 200% 即 4K）"
+
+#: props.py:69
+msgid "Scene"
+msgstr "场景"
+
+#: ui.py:325
+msgid "Sequences"
+msgstr "序列"
+
+#: props.py:161
+msgid "Show Folder When Done"
+msgstr "完成后显示文件夹"
+
+#: props.py:33
+msgid "Show the whole image and add black bars where the shape differs"
+msgstr "显示完整图像，形状不符时添加黑边"
+
+#: ui.py:200
+msgid "Size"
+msgstr "大小"
+
+#: props.py:55
+msgid "Slowest export, best compression"
+msgstr "导出最慢，压缩最佳"
+
+#: props.py:55
+msgid "Smaller file"
+msgstr "较小文件"
+
+#: props.py:40
+msgid "Smallest files; slow to encode and not supported by older devices"
+msgstr "文件最小；编码慢，旧设备不支持"
+
+#: props.py:49
+msgid "Smallest possible file, poor quality"
+msgstr "文件尽可能小，质量差"
+
+#: props.py:17
+msgid "Source"
+msgstr "源"
+
+#: props.py:210
+msgid "Speed"
+msgstr "速度"
+
+#: props.py:29
+msgid "Square 1:1  ·  1080 × 1080"
+msgstr "方形 1:1  ·  1080 × 1080"
+
+#: props.py:63
+msgid "Standard"
+msgstr "标准"
+
+#: props.py:173
+msgid "Start"
+msgstr "起始"
+
+#: props.py:35
+msgid "Stretch"
+msgstr "拉伸"
+
+#: props.py:35
+msgid "Stretch to the frame (changes the aspect ratio)"
+msgstr "拉伸到画面（改变宽高比）"
+
+#: props.py:50
+msgid "Target Bitrate"
+msgstr "目标比特率"
+
+#: props.py:206
+msgid "Target video bitrate in megabit per second"
+msgstr "目标视频比特率，单位为兆比特每秒"
+
+#: ui.py:326
+msgid "This folder contains several image sequences. Choose one"
+msgstr "此文件夹包含多个图像序列，请选择一个"
+
+#: ui.py:346
+#: ui.py:347
+msgid "UI"
+msgstr "界面"
+
+#: props.py:22
+msgid "Ultra HD"
+msgstr "超高清"
+
+#: props.py:58
+msgid "Use FFmpeg when it is installed (much faster), otherwise Blender's encoder"
+msgstr "安装了 FFmpeg 时使用它（快得多），否则使用 Blender 的编码器"
+
+#: props.py:175
+msgid "Use every Nth image (2 = half the frames, a faster preview)"
+msgstr "每隔 N 张图像使用一张（2 = 一半帧数，预览更快）"
+
+#: props.py:69
+msgid "Use the frame rate of the current scene"
+msgstr "使用当前场景的帧率"
+
+#: props.py:28
+msgid "Vertical 720p"
+msgstr "竖屏 720p"
+
+#: props.py:27
+msgid "Vertical 9:16  ·  1080 × 1920"
+msgstr "竖屏 9:16  ·  1080 × 1920"
+
+#: props.py:28
+msgid "Vertical HD  ·  720 × 1280"
+msgstr "竖屏高清  ·  720 × 1280"
+
+#: props.py:48
+msgid "Very Low"
+msgstr "极低"
+
+#: ui.py:352
+msgid "Video"
+msgstr "视频"
+
+#: props.py:47
+msgid "Visible compression, small files"
+msgstr "可见压缩痕迹，文件小"
+
+#: props.py:44
+msgid "Visually identical to the source. Large files"
+msgstr "视觉上与源一致。文件较大"
+
+#: ui.py:348
+msgid "WINDOW"
+msgstr "窗口"
+
+#: props.py:149
+msgid "Where the video is saved"
+msgstr "视频保存位置"
+
+#: props.py:190
+msgid "Width"
+msgstr "宽度"
+
+#: props.py:144
+msgid "Write the video into the image folder instead of a separate folder"
+msgstr "将视频写入图像文件夹，而非单独的文件夹"
+
+#: ops.py:111
+msgctxt "Operator"
+msgid "Apply Preset"
+msgstr "应用预设"
+
+#: ops.py:39
+#: ui.py:150
+msgctxt "Operator"
+msgid "Cancel"
+msgstr "取消"
+
+#: ops.py:11
+#: ui.py:140
+msgctxt "Operator"
+msgid "Create MP4"
+msgstr "创建 MP4"
+
+#: ops.py:131
+msgctxt "Operator"
+msgid "Detect FFmpeg"
+msgstr "检测 FFmpeg"
+
+#: ops.py:83
+msgctxt "Operator"
+msgid "Dismiss"
+msgstr "关闭"
+
+#: ops.py:12
+msgctxt "Operator"
+msgid "Encode the image sequence into an MP4 video in the background. Blender stays usable"
+msgstr "在后台将图像序列编码为 MP4 视频，Blender 仍可正常使用"
+
+#: ops.py:71
+msgctxt "Operator"
+msgid "Encode this image sequence"
+msgstr "编码此图像序列"
+
+#: ui.py:305
+msgctxt "Operator"
+msgid "FFmpeg Location…"
+msgstr "FFmpeg 位置…"
+
+#: ui.py:176
+msgctxt "Operator"
+msgid "Folder"
+msgstr "文件夹"
+
+#: ops.py:84
+msgctxt "Operator"
+msgid "Hide the result of the last export"
+msgstr "隐藏上次导出的结果"
+
+#: ops.py:132
+msgctxt "Operator"
+msgid "Look for FFmpeg again"
+msgstr "再次查找 FFmpeg"
+
+#: ops.py:57
+msgctxt "Operator"
+msgid "Look for new or changed images in the folder"
+msgstr "查找文件夹中新增或更改的图像"
+
+#: ops.py:94
+msgctxt "Operator"
+msgid "Open"
+msgstr "打开"
+
+#: ops.py:95
+msgctxt "Operator"
+msgid "Open with the system default application"
+msgstr "使用系统默认程序打开"
+
+#: ui.py:174
+msgctxt "Operator"
+msgid "Play"
+msgstr "播放"
+
+#: ops.py:56
+msgctxt "Operator"
+msgid "Rescan Folder"
+msgstr "重新扫描文件夹"
+
+#: ops.py:112
+msgctxt "Operator"
+msgid "Set resolution, codec and quality in one click"
+msgstr "一键设置分辨率、编码器和质量"
+
+#: ops.py:40
+msgctxt "Operator"
+msgid "Stop the running export and discard the partial file"
+msgstr "停止正在进行的导出并丢弃部分文件"
+
+#: ops.py:70
+msgctxt "Operator"
+msgid "Use This Sequence"
+msgstr "使用此序列"

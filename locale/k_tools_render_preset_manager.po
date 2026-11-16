@@ -1,0 +1,1057 @@
+# perfect-chinese: 1
+# id: k_tools_render_preset_manager
+# kind: addon
+# module: bl_ext.blender_org.k_tools_render_preset_manager
+# name: K-Tools: Render Preset Manager
+# name_zh: 渲染预设管理器
+# translator: KeshiMiao
+# category: Render
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: k_tools_render_preset_manager/operators/op_load.py:240
+msgid "All Available"
+msgstr "全部可用"
+
+#: k_tools_render_preset_manager/properties/properties.py:27
+msgid "Allow this property to be saved or loaded by the addon"
+msgstr "允许插件保存或加载此属性"
+
+#: k_tools_render_preset_manager/utils.py:749
+msgid "Apply"
+msgstr "应用"
+
+#: k_tools_render_preset_manager/utils.py:749
+msgid "Apply this specific setting change"
+msgstr "应用此特定设置更改"
+
+#: k_tools_render_preset_manager/operators/op_delete.py:44
+msgid "Are you sure you want to remove this preset?"
+msgstr "确定要移除此预设吗？"
+
+#: k_tools_render_preset_manager/preferences.py:281
+msgid "Avoid 'context.active_object' or 'space_data' as they depend on selection or mouse position."
+msgstr "避免使用 'context.active_object' 或 'space_data'，因为它们取决于选择或鼠标位置。"
+
+#: k_tools_render_preset_manager/preferences.py:133
+msgid "Bottom of Render Properties"
+msgstr "渲染属性底部"
+
+#: k_tools_render_preset_manager/operators/op_dev.py:298
+msgid "Check the System Console and Text Editor for the full report."
+msgstr "请查看系统控制台和文本编辑器以获取完整报告。"
+
+#: k_tools_render_preset_manager/preferences.py:179
+msgid "Choose how to display the presets in the main panel"
+msgstr "选择在主面板中显示预设的方式"
+
+#: k_tools_render_preset_manager/preferences.py:128
+msgid "Choose where the main addon panel appears in the UI"
+msgstr "选择插件主面板在界面中的显示位置"
+
+#: k_tools_render_preset_manager/properties/properties.py:183
+msgid "Choose which mode the user will be able to load"
+msgstr "选择用户可加载的模式"
+
+#: k_tools_render_preset_manager/operators/op_load.py:273
+msgid "Choose which render engine settings to preview and load"
+msgstr "选择要预览和加载的渲染引擎设置"
+
+#: k_tools_render_preset_manager/properties/function_list.py:16
+msgid "Color Management: Display Device"
+msgstr "色彩管理：显示设备"
+
+#: k_tools_render_preset_manager/properties/function_list.py:31
+msgid "Color Management: Display Emulation"
+msgstr "色彩管理：显示模拟"
+
+#: k_tools_render_preset_manager/properties/function_list.py:19
+msgid "Color Management: Exposure"
+msgstr "色彩管理：曝光"
+
+#: k_tools_render_preset_manager/properties/function_list.py:20
+msgid "Color Management: Gamma"
+msgstr "色彩管理：伽马"
+
+#: k_tools_render_preset_manager/properties/function_list.py:18
+msgid "Color Management: Look"
+msgstr "色彩管理：外观"
+
+#: k_tools_render_preset_manager/properties/function_list.py:29
+msgid "Color Management: Sequencer Colorspace"
+msgstr "色彩管理：序列编辑器色彩空间"
+
+#: k_tools_render_preset_manager/properties/function_list.py:22
+msgid "Color Management: Use Curve Mapping"
+msgstr "色彩管理：使用曲线映射"
+
+#: k_tools_render_preset_manager/properties/function_list.py:24
+msgid "Color Management: Use White Balance"
+msgstr "色彩管理：使用白平衡"
+
+#: k_tools_render_preset_manager/properties/function_list.py:17
+msgid "Color Management: View Transform"
+msgstr "色彩管理：视图变换"
+
+#: k_tools_render_preset_manager/properties/function_list.py:25
+msgid "Color Management: White Temperature"
+msgstr "色彩管理：白平衡温度"
+
+#: k_tools_render_preset_manager/properties/function_list.py:26
+msgid "Color Management: White Tint"
+msgstr "色彩管理：白平衡色调"
+
+#: k_tools_render_preset_manager/properties/function_list.py:28
+msgid "Color Management: Working Color Space"
+msgstr "色彩管理：工作色彩空间"
+
+#: k_tools_render_preset_manager/preferences.py:183
+msgid "Compact view (Classic)"
+msgstr "紧凑视图（经典）"
+
+#: k_tools_render_preset_manager/operators/op_dev.py:111
+msgid "Could not access addon preferences."
+msgstr "无法访问插件偏好设置。"
+
+#: k_tools_render_preset_manager/ui_custom_props.py:114
+msgid "Custom properties reloaded from JSON."
+msgstr "已从 JSON 重新加载自定义属性。"
+
+#: k_tools_render_preset_manager/ui/panels.py:266
+msgid "Custom:"
+msgstr "自定义："
+
+#: k_tools_render_preset_manager/operators/op_load.py:284
+#: k_tools_render_preset_manager/operators/op_load.py:303
+msgid "Cycles"
+msgstr "Cycles"
+
+#: k_tools_render_preset_manager/properties/properties.py:189
+msgid "Default"
+msgstr "默认"
+
+#: k_tools_render_preset_manager/properties/properties.py:171
+#: k_tools_render_preset_manager/ui/panels.py:172
+msgid "Default Presets"
+msgstr "默认预设"
+
+#: k_tools_render_preset_manager/operators/op_user_presets.py:152
+msgid "Default presets list refreshed."
+msgstr "默认预设列表已刷新。"
+
+#: k_tools_render_preset_manager/preferences.py:326
+#: k_tools_render_preset_manager/ui/panels.py:416
+msgid "Depth:"
+msgstr "深度："
+
+#: k_tools_render_preset_manager/properties/properties.py:80
+msgid "Description"
+msgstr "描述"
+
+#: k_tools_render_preset_manager/ui/panels.py:216
+msgid "Description:"
+msgstr "描述："
+
+#: k_tools_render_preset_manager/preferences.py:301
+#: k_tools_render_preset_manager/ui/panels.py:382
+msgid "Developer Tools"
+msgstr "开发者工具"
+
+#: k_tools_render_preset_manager/preferences.py:98
+msgid "Directory where your personal render presets are stored"
+msgstr "存储个人渲染预设的目录"
+
+#: k_tools_render_preset_manager/preferences.py:105
+msgid "Display Filename in List"
+msgstr "在列表中显示文件名"
+
+#: k_tools_render_preset_manager/ui_custom_props.py:46
+msgid "Display Name (e.g. LuxCore Light)"
+msgstr "显示名称（例如 LuxCore Light）"
+
+#: k_tools_render_preset_manager/operators/op_save.py:196
+msgid "Do you want to overwrite it?"
+msgstr "要覆盖它吗？"
+
+#: k_tools_render_preset_manager/preferences.py:183
+msgid "Dropdown Menu"
+msgstr "下拉菜单"
+
+#: k_tools_render_preset_manager/ui/panels.py:234
+msgid "EEVEE"
+msgstr "EEVEE"
+
+#: k_tools_render_preset_manager/operators/op_load.py:285
+#: k_tools_render_preset_manager/operators/op_load.py:304
+msgid "Eevee"
+msgstr "EEVEE"
+
+#: k_tools_render_preset_manager/preferences.py:139
+msgid "Enable Developer Extras"
+msgstr "启用开发者选项"
+
+#: k_tools_render_preset_manager/properties/properties.py:33
+msgid "Engine Tab"
+msgstr "引擎选项卡"
+
+#: k_tools_render_preset_manager/operators/op_load.py:865
+msgid "Error loading report data."
+msgstr "加载报告数据时出错。"
+
+#: k_tools_render_preset_manager/properties/properties.py:200
+msgid "Expand Main Panel"
+msgstr "展开主面板"
+
+#: k_tools_render_preset_manager/preferences.py:184
+msgid "Expanded list view (Better for many presets)"
+msgstr "展开列表视图（更适合大量预设）"
+
+#: k_tools_render_preset_manager/properties/properties.py:220
+msgid "File Path"
+msgstr "文件路径"
+
+#: k_tools_render_preset_manager/operators/op_delete.py:57
+msgid "File to be Deleted:"
+msgstr "要删除的文件："
+
+#: k_tools_render_preset_manager/preferences.py:152
+msgid "Filter Path"
+msgstr "筛选路径"
+
+#: k_tools_render_preset_manager/preferences.py:322
+#: k_tools_render_preset_manager/ui/panels.py:413
+msgid "Filter Path:"
+msgstr "筛选路径："
+
+#: k_tools_render_preset_manager/preferences.py:172
+msgid "Filter properties by name"
+msgstr "按名称筛选属性"
+
+#: k_tools_render_preset_manager/properties/properties.py:188
+msgid "From File"
+msgstr "从文件"
+
+#: k_tools_render_preset_manager/preferences.py:340
+msgid "Fuzz Test:"
+msgstr "模糊测试："
+
+#: k_tools_render_preset_manager/preferences.py:199
+msgid "General Settings"
+msgstr "常规设置"
+
+#: k_tools_render_preset_manager/ui/panels.py:404
+msgid "Generate New List:"
+msgstr "生成新列表："
+
+#: k_tools_render_preset_manager/preferences.py:287
+msgid "Help & Support"
+msgstr "帮助与支持"
+
+#: k_tools_render_preset_manager/ui/panels.py:250
+msgid "Imager"
+msgstr "成像器"
+
+#: k_tools_render_preset_manager/properties/properties.py:85
+msgid "Include Cycles render settings in the preset"
+msgstr "在预设中包含 Cycles 渲染设置"
+
+#: k_tools_render_preset_manager/properties/properties.py:91
+msgid "Include Eevee render settings in the preset"
+msgstr "在预设中包含 EEVEE 渲染设置"
+
+#: k_tools_render_preset_manager/properties/properties.py:103
+msgid "Include Output render settings in the preset"
+msgstr "在预设中包含渲染输出设置"
+
+#: k_tools_render_preset_manager/properties/properties.py:115
+msgid "Include Scene settings in the preset"
+msgstr "在预设中包含场景设置"
+
+#: k_tools_render_preset_manager/properties/properties.py:109
+msgid "Include View Layer settings in the preset"
+msgstr "在预设中包含视图层设置"
+
+#: k_tools_render_preset_manager/properties/properties.py:97
+msgid "Include Workbench render settings in the preset"
+msgstr "在预设中包含 Workbench 渲染设置"
+
+#: k_tools_render_preset_manager/properties/properties.py:121
+msgid "Include the current Render Engine in the Scene"
+msgstr "在场景中包含当前渲染引擎"
+
+#: k_tools_render_preset_manager/preferences.py:133
+msgid "Injects the panel at the bottom of the Render tab"
+msgstr "将面板注入到渲染选项卡底部"
+
+#: k_tools_render_preset_manager/preferences.py:132
+msgid "Injects the panel at the top of the Render tab"
+msgstr "将面板注入到渲染选项卡顶部"
+
+#: k_tools_render_preset_manager/properties/properties.py:206
+msgid "Internal flag to check if a preset with the current name already exists"
+msgstr "用于检查当前名称的预设是否已存在的内部标志"
+
+#: k_tools_render_preset_manager/properties/properties.py:194
+msgid "Internal property to store the path of the last loaded preset for the update function"
+msgstr "用于为更新函数存储上次加载预设路径的内部属性"
+
+#: k_tools_render_preset_manager/operators/op_user_presets.py:223
+msgid "Invalid Directory in Preferences"
+msgstr "偏好设置中的目录无效"
+
+#: k_tools_render_preset_manager/operators/op_load.py:200
+msgid "Invalid preset file format."
+msgstr "预设文件格式无效。"
+
+#: k_tools_render_preset_manager/preferences.py:254
+msgid "Items marked as True will be loaded by default"
+msgstr "标记为 True 的项将默认加载"
+
+#: k_tools_render_preset_manager/properties/properties.py:194
+msgid "Last Loaded Preset Path"
+msgstr "上次加载的预设路径"
+
+#: k_tools_render_preset_manager/properties/properties.py:189
+msgid "Load Blender's default settings."
+msgstr "加载 Blender 的默认设置。"
+
+#: k_tools_render_preset_manager/properties/properties.py:183
+msgid "Load Mode"
+msgstr "加载模式"
+
+#: k_tools_render_preset_manager/ui/panels.py:161
+msgid "Load Preset"
+msgstr "加载预设"
+
+#: k_tools_render_preset_manager/ui/panels.py:152
+msgid "Load Selected"
+msgstr "加载所选"
+
+#: k_tools_render_preset_manager/properties/properties.py:188
+msgid "Load a new file from a custom directory."
+msgstr "从自定义目录加载新文件。"
+
+#: k_tools_render_preset_manager/operators/op_load.py:240
+msgid "Load all properties from the selected preset"
+msgstr "从所选预设加载所有属性"
+
+#: k_tools_render_preset_manager/properties/properties.py:187
+msgid "Load from a pre determined directory set in the Add-on's Preferences."
+msgstr "从插件偏好设置中设置的预定目录加载。"
+
+#: k_tools_render_preset_manager/ui/panels.py:91
+#: k_tools_render_preset_manager/ui/panels.py:104
+msgid "Loaded:"
+msgstr "已加载："
+
+#: k_tools_render_preset_manager/preferences.py:158
+msgid "Max Depth"
+msgstr "最大深度"
+
+#: k_tools_render_preset_manager/operators/op_load.py:387
+msgid "Modules to Load:"
+msgstr "要加载的模块："
+
+#: k_tools_render_preset_manager/properties/properties.py:73
+msgid "Name for the render preset"
+msgstr "渲染预设名称"
+
+#: k_tools_render_preset_manager/properties/properties.py:162
+msgid "Name of the currently loaded preset"
+msgstr "当前加载的预设名称"
+
+#: k_tools_render_preset_manager/ui/panels.py:201
+msgid "Name:"
+msgstr "名称："
+
+#: k_tools_render_preset_manager/properties/properties.py:36
+msgid "Native Blender settings"
+msgstr "Blender 原生设置"
+
+#: k_tools_render_preset_manager/properties/properties.py:36
+msgid "Native Engines"
+msgstr "原生引擎"
+
+#: k_tools_render_preset_manager/ui/panels.py:105
+msgid "No Preset Loaded yet."
+msgstr "尚未加载预设。"
+
+#: k_tools_render_preset_manager/operators/op_user_presets.py:88
+#: k_tools_render_preset_manager/operators/op_user_presets.py:113
+msgid "No Presets Found"
+msgstr "未找到预设"
+
+#: k_tools_render_preset_manager/operators/op_user_presets.py:249
+msgid "No Presets Found in User Directory"
+msgstr "用户目录中未找到预设"
+
+#: k_tools_render_preset_manager/operators/op_load.py:420
+msgid "No changes to apply for the selected category (or all items are blacklisted)."
+msgstr "所选类别没有可应用的更改（或所有项目均已加入黑名单）。"
+
+#: k_tools_render_preset_manager/operators/op_user_presets.py:168
+msgid "No default preset selected."
+msgstr "未选择默认预设。"
+
+#: k_tools_render_preset_manager/operators/op_load.py:790
+#: k_tools_render_preset_manager/operators/op_user_presets.py:346
+msgid "No preset selected."
+msgstr "未选择预设。"
+
+#: k_tools_render_preset_manager/operators/op_load.py:309
+#: k_tools_render_preset_manager/properties/properties.py:37
+msgid "Octane"
+msgstr "Octane"
+
+#: k_tools_render_preset_manager/properties/properties.py:139
+msgid "Octane Imager"
+msgstr "Octane 成像器"
+
+#: k_tools_render_preset_manager/properties/function_list.py:43
+msgid "Octane Output: Bit Depth"
+msgstr "Octane 输出：位深度"
+
+#: k_tools_render_preset_manager/properties/function_list.py:44
+msgid "Octane Output: Color Space"
+msgstr "Octane 输出：色彩空间"
+
+#: k_tools_render_preset_manager/properties/function_list.py:36
+msgid "Octane Output: Enable Octane Output"
+msgstr "Octane 输出：启用 Octane 输出"
+
+#: k_tools_render_preset_manager/properties/function_list.py:41
+msgid "Octane Output: Export Mode"
+msgstr "Octane 输出：导出模式"
+
+#: k_tools_render_preset_manager/properties/function_list.py:42
+msgid "Octane Output: File Type"
+msgstr "Octane 输出：文件类型"
+
+#: k_tools_render_preset_manager/properties/function_list.py:40
+msgid "Octane Output: Postfix Tag"
+msgstr "Octane 输出：后缀标签"
+
+#: k_tools_render_preset_manager/properties/function_list.py:39
+msgid "Octane Output: Prefix Tag"
+msgstr "Octane 输出：前缀标签"
+
+#: k_tools_render_preset_manager/properties/function_list.py:37
+msgid "Octane Output: Reuse Blender's Output Path"
+msgstr "Octane 输出：复用 Blender 输出路径"
+
+#: k_tools_render_preset_manager/properties/function_list.py:38
+msgid "Octane Output: Specific Output Path"
+msgstr "Octane 输出：指定输出路径"
+
+#: k_tools_render_preset_manager/properties/properties.py:145
+msgid "Octane Postprocess"
+msgstr "Octane 后期处理"
+
+#: k_tools_render_preset_manager/properties/properties.py:127
+msgid "Octane Render Properties"
+msgstr "Octane 渲染属性"
+
+#: k_tools_render_preset_manager/properties/properties.py:37
+msgid "Octane Render settings"
+msgstr "Octane 渲染设置"
+
+#: k_tools_render_preset_manager/ui/panels.py:242
+msgid "Octane Render:"
+msgstr "Octane 渲染："
+
+#: k_tools_render_preset_manager/properties/properties.py:133
+msgid "Octane View Layer"
+msgstr "Octane 视图层"
+
+#: k_tools_render_preset_manager/operators/op_load.py:293
+msgid "Octane: Imager"
+msgstr "Octane：成像器"
+
+#: k_tools_render_preset_manager/operators/op_load.py:294
+msgid "Octane: Postprocessing"
+msgstr "Octane：后期处理"
+
+#: k_tools_render_preset_manager/operators/op_load.py:291
+msgid "Octane: Render Properties"
+msgstr "Octane：渲染属性"
+
+#: k_tools_render_preset_manager/operators/op_load.py:292
+msgid "Octane: View Layer"
+msgstr "Octane：视图层"
+
+#: k_tools_render_preset_manager/operators/op_dev.py:320
+msgid "Only use this in a test scene!"
+msgstr "仅在测试场景中使用！"
+
+#: k_tools_render_preset_manager/properties/properties.py:80
+msgid "Optional description for the preset"
+msgstr "预设的可选描述"
+
+#: k_tools_render_preset_manager/operators/op_load.py:287
+#: k_tools_render_preset_manager/operators/op_load.py:306
+msgid "Output"
+msgstr "输出"
+
+#: k_tools_render_preset_manager/preferences.py:134
+msgid "Panel"
+msgstr "面板"
+
+#: k_tools_render_preset_manager/preferences.py:128
+msgid "Panel Location"
+msgstr "面板位置"
+
+#: k_tools_render_preset_manager/properties/properties.py:164
+msgid "Path to the preset file used for automated previews"
+msgstr "用于自动预览的预设文件路径"
+
+#: k_tools_render_preset_manager/ui/panels.py:251
+msgid "Postprocess"
+msgstr "后期处理"
+
+#: k_tools_render_preset_manager/preferences.py:179
+msgid "Preset Display Style"
+msgstr "预设显示样式"
+
+#: k_tools_render_preset_manager/properties/properties.py:73
+#: k_tools_render_preset_manager/properties/properties.py:219
+msgid "Preset Name"
+msgstr "预设名称"
+
+#: k_tools_render_preset_manager/properties/properties.py:206
+msgid "Preset Name Exists"
+msgstr "预设名称已存在"
+
+#: k_tools_render_preset_manager/operators/op_save.py:150
+msgid "Preset Name cannot be empty."
+msgstr "预设名称不能为空。"
+
+#: k_tools_render_preset_manager/operators/op_delete.py:52
+msgid "Preset Name:"
+msgstr "预设名称："
+
+#: k_tools_render_preset_manager/operators/op_load.py:928
+msgid "Preset applied. Press OK or Cancel to close this summary."
+msgstr "预设已应用。按“确定”或“取消”关闭此摘要。"
+
+#: k_tools_render_preset_manager/operators/op_delete.py:72
+msgid "Preset file not found or invalid."
+msgstr "预设文件未找到或无效。"
+
+#: k_tools_render_preset_manager/properties/properties.py:164
+msgid "Preview Preset Path"
+msgstr "预览预设路径"
+
+#: k_tools_render_preset_manager/operators/op_load.py:738
+msgid "Preview preset path is not set."
+msgstr "未设置预览预设路径。"
+
+#: k_tools_render_preset_manager/preferences.py:310
+msgid "Property Auditor"
+msgstr "属性审查器"
+
+#: k_tools_render_preset_manager/properties/properties.py:22
+msgid "Property Name"
+msgstr "属性名称"
+
+#: k_tools_render_preset_manager/preferences.py:266
+msgid "Property Name:"
+msgstr "属性名称："
+
+#: k_tools_render_preset_manager/preferences.py:267
+msgid "Property Path:"
+msgstr "属性路径："
+
+#: k_tools_render_preset_manager/ui_custom_props.py:41
+msgid "RNA Data Path (e.g. scene.luxcore.light)"
+msgstr "RNA 数据路径（例如 scene.luxcore.light）"
+
+#: k_tools_render_preset_manager/preferences.py:158
+msgid "Recursive depth for scraping"
+msgstr "抓取递归深度"
+
+#: k_tools_render_preset_manager/operators/op_load.py:283
+#: k_tools_render_preset_manager/operators/op_load.py:302
+msgid "Render Engine"
+msgstr "渲染引擎"
+
+#: k_tools_render_preset_manager/operators/op_drag_n_drop.py:70
+msgid "Render Preset File Handler"
+msgstr "渲染预设文件处理器"
+
+#: k_tools_render_preset_manager/ui/panels.py:287
+#: k_tools_render_preset_manager/ui/panels.py:317
+msgid "Render Preset Manager"
+msgstr "渲染预设管理器"
+
+#: k_tools_render_preset_manager/ui/panels.py:244
+msgid "Render Properties"
+msgstr "渲染属性"
+
+#: k_tools_render_preset_manager/ui/panels.py:227
+msgid "Save Active Render Engine"
+msgstr "保存活动渲染引擎"
+
+#: k_tools_render_preset_manager/properties/properties.py:85
+msgid "Save Cycles Settings"
+msgstr "保存 Cycles 设置"
+
+#: k_tools_render_preset_manager/properties/properties.py:91
+msgid "Save Eevee Settings"
+msgstr "保存 Eevee 设置"
+
+#: k_tools_render_preset_manager/properties/properties.py:139
+msgid "Save Octane Imager settings"
+msgstr "保存 Octane 成像器设置"
+
+#: k_tools_render_preset_manager/properties/properties.py:145
+msgid "Save Octane Postprocess settings"
+msgstr "保存 Octane 后期处理设置"
+
+#: k_tools_render_preset_manager/properties/properties.py:127
+#: k_tools_render_preset_manager/properties/properties.py:133
+msgid "Save Octane Render settings"
+msgstr "保存 Octane 渲染设置"
+
+#: k_tools_render_preset_manager/properties/properties.py:103
+msgid "Save Output Settings"
+msgstr "保存输出设置"
+
+#: k_tools_render_preset_manager/properties/properties.py:190
+#: k_tools_render_preset_manager/ui/panels.py:195
+msgid "Save Preset"
+msgstr "保存预设"
+
+#: k_tools_render_preset_manager/properties/properties.py:190
+msgid "Save Preset from Scene."
+msgstr "从场景保存预设。"
+
+#: k_tools_render_preset_manager/properties/properties.py:121
+msgid "Save Render Engine"
+msgstr "保存渲染引擎"
+
+#: k_tools_render_preset_manager/properties/properties.py:115
+msgid "Save Scene Settings"
+msgstr "保存场景设置"
+
+#: k_tools_render_preset_manager/properties/properties.py:109
+msgid "Save View Layer Settings"
+msgstr "保存视图层设置"
+
+#: k_tools_render_preset_manager/properties/properties.py:97
+msgid "Save Workbench Settings"
+msgstr "保存工作台设置"
+
+#: k_tools_render_preset_manager/properties/properties.py:151
+msgid "Save the user-defined custom properties"
+msgstr "保存用户定义的自定义属性"
+
+#: k_tools_render_preset_manager/operators/op_load.py:289
+#: k_tools_render_preset_manager/operators/op_load.py:308
+msgid "Scene"
+msgstr "场景"
+
+#: k_tools_render_preset_manager/ui/panels.py:257
+msgid "Scene:"
+msgstr "场景："
+
+#: k_tools_render_preset_manager/preferences.py:172
+msgid "Search"
+msgstr "搜索"
+
+#: k_tools_render_preset_manager/properties/properties.py:177
+msgid "Selecionar um preset do seu diretório customizado"
+msgstr "从自定义目录中选择预设"
+
+#: k_tools_render_preset_manager/properties/properties.py:171
+msgid "Select a built-in default preset to load"
+msgstr "选择要加载的内置默认预设"
+
+#: k_tools_render_preset_manager/preferences.py:145
+msgid "Select the data source to scrape"
+msgstr "选择要抓取的数据源"
+
+#: k_tools_render_preset_manager/operators/op_user_presets.py:218
+msgid "Set a directory in Addon Preferences"
+msgstr "在插件偏好设置中设置目录"
+
+#: k_tools_render_preset_manager/operators/op_load.py:273
+msgid "Settings"
+msgstr "设置"
+
+#: k_tools_render_preset_manager/preferences.py:122
+msgid "Show User's Custom Property List"
+msgstr "显示用户自定义属性列表"
+
+#: k_tools_render_preset_manager/preferences.py:122
+msgid "Show User's List"
+msgstr "显示用户的列表"
+
+#: k_tools_render_preset_manager/preferences.py:116
+msgid "Show Whitelist"
+msgstr "显示白名单"
+
+#: k_tools_render_preset_manager/preferences.py:139
+msgid "Show extra tools for addon maintenance and debugging"
+msgstr "显示用于插件维护和调试的额外工具"
+
+#: k_tools_render_preset_manager/preferences.py:110
+msgid "Show new Props"
+msgstr "显示新属性"
+
+#: k_tools_render_preset_manager/properties/properties.py:200
+msgid "Show or collapse the main Render Preset Manager panel in the Render Properties tab"
+msgstr "在渲染属性标签中显示或折叠主渲染预设管理器面板"
+
+#: k_tools_render_preset_manager/preferences.py:105
+msgid "Show the actual .json filename next to the preset name in the User Presets list"
+msgstr "在用户预设列表中于预设名称旁显示实际的 .json 文件名"
+
+#: k_tools_render_preset_manager/preferences.py:134
+msgid "Shows the addon as its own separate panel"
+msgstr "将插件显示为独立面板"
+
+#: k_tools_render_preset_manager/preferences.py:145
+msgid "Source"
+msgstr "来源"
+
+#: k_tools_render_preset_manager/preferences.py:318
+#: k_tools_render_preset_manager/ui/panels.py:410
+msgid "Source:"
+msgstr "来源："
+
+#: k_tools_render_preset_manager/properties/properties.py:161
+msgid "Stores the previous settings state for undo"
+msgstr "存储之前的设置状态以便撤销"
+
+#: k_tools_render_preset_manager/preferences.py:152
+msgid "Sub-path to scrape (e.g., 'cycles', 'eevee', 'render.image_settings')"
+msgstr "要抓取的子路径（例如 'cycles'、'eevee'、'render.image_settings'）"
+
+#: k_tools_render_preset_manager/operators/op_user_presets.py:113
+msgid "The 'presets' folder is empty."
+msgstr "“presets”文件夹为空。"
+
+#: k_tools_render_preset_manager/operators/op_user_presets.py:88
+msgid "The 'presets' folder is missing."
+msgstr "“presets”文件夹缺失。"
+
+#: k_tools_render_preset_manager/operators/op_drag_n_drop.py:45
+msgid "The dropped file is not a valid preset file."
+msgstr "拖放的文件不是有效的预设文件。"
+
+#: k_tools_render_preset_manager/operators/op_save.py:198
+msgid "This action cannot be undone."
+msgstr "此操作无法撤销。"
+
+#: k_tools_render_preset_manager/operators/op_delete.py:66
+msgid "This action is permanent and cannot be undone."
+msgstr "此操作是永久性的，无法撤销。"
+
+#: k_tools_render_preset_manager/operators/op_dev.py:318
+msgid "This will randomly scramble ALL properties"
+msgstr "这将随机打乱所有属性"
+
+#: k_tools_render_preset_manager/preferences.py:280
+msgid "Tip: For global settings, use 'bpy.data...' or 'bpy.context.preferences...'."
+msgstr "提示：对于全局设置，请使用 'bpy.data...' 或 'bpy.context.preferences...'。"
+
+#: k_tools_render_preset_manager/preferences.py:132
+msgid "Top of Render Properties"
+msgstr "渲染属性顶部"
+
+#: k_tools_render_preset_manager/preferences.py:184
+msgid "UI List"
+msgstr "UI 列表"
+
+#: k_tools_render_preset_manager/operators/op_load.py:310
+msgid "User Custom"
+msgstr "用户自定义"
+
+#: k_tools_render_preset_manager/operators/op_load.py:296
+#: k_tools_render_preset_manager/properties/properties.py:151
+msgid "User Custom Properties"
+msgstr "用户自定义属性"
+
+#: k_tools_render_preset_manager/properties/properties.py:177
+#: k_tools_render_preset_manager/properties/properties.py:187
+msgid "User Presets"
+msgstr "用户预设"
+
+#: k_tools_render_preset_manager/preferences.py:98
+msgid "User Presets Directory"
+msgstr "用户预设目录"
+
+#: k_tools_render_preset_manager/preferences.py:204
+msgid "User Presets Path:"
+msgstr "用户预设路径："
+
+#: k_tools_render_preset_manager/operators/op_user_presets.py:330
+msgid "User preset list updated."
+msgstr "用户预设列表已更新。"
+
+#: k_tools_render_preset_manager/operators/op_user_presets.py:308
+msgid "User presets path not defined in preferences."
+msgstr "未在偏好设置中定义用户预设路径。"
+
+#: k_tools_render_preset_manager/preferences.py:262
+msgid "User's Custom List"
+msgstr "用户的自定义列表"
+
+#: k_tools_render_preset_manager/ui/panels.py:268
+msgid "User's Custom Properties"
+msgstr "用户的自定义属性"
+
+#: k_tools_render_preset_manager/ui/panels.py:399
+msgid "Validate Manual List:"
+msgstr "验证手动列表："
+
+#: k_tools_render_preset_manager/operators/op_dev.py:297
+msgid "Validation complete!"
+msgstr "验证完成！"
+
+#: k_tools_render_preset_manager/operators/op_load.py:288
+#: k_tools_render_preset_manager/operators/op_load.py:307
+msgid "View Layer"
+msgstr "视图层"
+
+#: k_tools_render_preset_manager/operators/op_dev.py:315
+msgid "WARNING: DESTRUCTIVE ACTION!"
+msgstr "警告：破坏性操作！"
+
+#: k_tools_render_preset_manager/ui/panels.py:209
+msgid "Warning: Preset with this name already exists. Saving will overwrite."
+msgstr "警告：已存在同名预设。保存将覆盖。"
+
+#: k_tools_render_preset_manager/preferences.py:219
+msgid "Whitelist"
+msgstr "白名单"
+
+#: k_tools_render_preset_manager/operators/op_load.py:286
+#: k_tools_render_preset_manager/operators/op_load.py:305
+msgid "Workbench"
+msgstr "工作台"
+
+#: k_tools_render_preset_manager/operators/op_load.py:903
+msgid "click arrow to collapse"
+msgstr "点击箭头以折叠"
+
+#: k_tools_render_preset_manager/operators/op_dev.py:319
+msgid "mapped in your function_list.py."
+msgstr "已在你的 function_list.py 中映射。"
+
+#: k_tools_render_preset_manager/ui_custom_props.py:68
+msgctxt "Operator"
+msgid "Add Custom Property"
+msgstr "添加自定义属性"
+
+#: k_tools_render_preset_manager/operators/op_load.py:653
+msgctxt "Operator"
+msgid "Confirm Load"
+msgstr "确认加载"
+
+#: k_tools_render_preset_manager/operators/op_save.py:184
+msgctxt "Operator"
+msgid "Confirm Overwrite"
+msgstr "确认覆盖"
+
+#: k_tools_render_preset_manager/operators/op_delete.py:11
+msgctxt "Operator"
+msgid "Confirm Preset Deletion"
+msgstr "确认删除预设"
+
+#: k_tools_render_preset_manager/preferences.py:290
+msgctxt "Operator"
+msgid "Documentation"
+msgstr "文档"
+
+#: k_tools_render_preset_manager/operators/op_dev.py:105
+msgctxt "Operator"
+msgid "Finds new and obsolete properties and writes a report to the Text Editor"
+msgstr "查找新增和过时的属性，并将报告写入文本编辑器"
+
+#: k_tools_render_preset_manager/operators/op_dev.py:305
+msgctxt "Operator"
+msgid "Fuzz Test Scene (Monkey Test)"
+msgstr "模糊测试场景（猴子测试）"
+
+#: k_tools_render_preset_manager/preferences.py:331
+msgctxt "Operator"
+msgid "Generate List"
+msgstr "生成列表"
+
+#: k_tools_render_preset_manager/operators/op_dev.py:183
+msgctxt "Operator"
+msgid "Generate New List from Scraper"
+msgstr "从抓取器生成新列表"
+
+#: k_tools_render_preset_manager/operators/op_load.py:731
+msgctxt "Operator"
+msgid "Load Preset From Path (Direct)"
+msgstr "从路径加载预设（直接）"
+
+#: k_tools_render_preset_manager/ui/panels.py:162
+msgctxt "Operator"
+msgid "Load Preset from File"
+msgstr "从文件加载预设"
+
+#: k_tools_render_preset_manager/operators/op_drag_n_drop.py:39
+msgctxt "Operator"
+msgid "Load Preset from Filepath"
+msgstr "从文件路径加载预设"
+
+#: k_tools_render_preset_manager/operators/op_load.py:183
+#: k_tools_render_preset_manager/operators/op_load.py:235
+msgctxt "Operator"
+msgid "Load Render Preset"
+msgstr "加载渲染预设"
+
+#: k_tools_render_preset_manager/operators/op_user_presets.py:160
+#: k_tools_render_preset_manager/ui/panels.py:180
+msgctxt "Operator"
+msgid "Load Selected Default"
+msgstr "加载所选默认预设"
+
+#: k_tools_render_preset_manager/operators/op_load.py:771
+msgctxt "Operator"
+msgid "Load Selected Preset"
+msgstr "加载所选预设"
+
+#: k_tools_render_preset_manager/ui/panels.py:133
+msgctxt "Operator"
+msgid "Load Selected User Preset"
+msgstr "加载所选用户预设"
+
+#: k_tools_render_preset_manager/operators/op_user_presets.py:338
+msgctxt "Operator"
+msgid "Load User Preset"
+msgstr "加载用户预设"
+
+#: k_tools_render_preset_manager/operators/op_load.py:184
+msgctxt "Operator"
+msgid "Load render settings from a preset file"
+msgstr "从预设文件加载渲染设置"
+
+#: k_tools_render_preset_manager/operators/op_load.py:772
+msgctxt "Operator"
+msgid "Load the preset selected in the list"
+msgstr "加载列表中选中的预设"
+
+#: k_tools_render_preset_manager/operators/op_user_presets.py:339
+msgctxt "Operator"
+msgid "Load the selected preset from the user's preset directory."
+msgstr "从用户预设目录加载选中的预设。"
+
+#: k_tools_render_preset_manager/operators/op_delete.py:12
+msgctxt "Operator"
+msgid "Permanently deletes the selected preset file from your user library"
+msgstr "从用户库中永久删除选中的预设文件"
+
+#: k_tools_render_preset_manager/operators/op_user_presets.py:297
+msgctxt "Operator"
+msgid "Re-scans the user presets folder"
+msgstr "重新扫描用户预设文件夹"
+
+#: k_tools_render_preset_manager/operators/op_user_presets.py:146
+msgctxt "Operator"
+msgid "Refresh Default Presets"
+msgstr "刷新默认预设"
+
+#: k_tools_render_preset_manager/ui_custom_props.py:101
+msgctxt "Operator"
+msgid "Refresh from File"
+msgstr "从文件刷新"
+
+#: k_tools_render_preset_manager/ui_custom_props.py:102
+msgctxt "Operator"
+msgid "Reload custom properties from the JSON file"
+msgstr "从 JSON 文件重新加载自定义属性"
+
+#: k_tools_render_preset_manager/ui_custom_props.py:82
+msgctxt "Operator"
+msgid "Remove Custom Property"
+msgstr "移除自定义属性"
+
+#: k_tools_render_preset_manager/operators/op_load.py:812
+msgctxt "Operator"
+msgid "Render Preset Load Summary"
+msgstr "渲染预设加载摘要"
+
+#: k_tools_render_preset_manager/preferences.py:293
+msgctxt "Operator"
+msgid "Report a Bug"
+msgstr "报告错误"
+
+#: k_tools_render_preset_manager/operators/op_undo.py:15
+msgctxt "Operator"
+msgid "Revert to the previous settings. This action cannot be undone"
+msgstr "恢复到之前的设置。此操作无法撤销"
+
+#: k_tools_render_preset_manager/operators/op_dev.py:104
+msgctxt "Operator"
+msgid "Run Full Property Audit"
+msgstr "运行完整属性审计"
+
+#: k_tools_render_preset_manager/operators/op_save.py:102
+#: k_tools_render_preset_manager/ui/panels.py:274
+msgctxt "Operator"
+msgid "Save Preset to File..."
+msgstr "保存预设到文件..."
+
+#: k_tools_render_preset_manager/operators/op_save.py:103
+msgctxt "Operator"
+msgid "Save current render settings as a preset file"
+msgstr "将当前渲染设置保存为预设文件"
+
+#: k_tools_render_preset_manager/operators/op_save.py:134
+msgctxt "Operator"
+msgid "Save to User Repository"
+msgstr "保存到用户库"
+
+#: k_tools_render_preset_manager/operators/op_save.py:135
+msgctxt "Operator"
+msgid "Saves the current preset directly to the folder defined in the addon preferences"
+msgstr "将当前预设直接保存到插件偏好设置中定义的文件夹"
+
+#: k_tools_render_preset_manager/operators/op_dev.py:184
+msgctxt "Operator"
+msgid "Scrapes Blender properties and generates a new list in the Text Editor"
+msgstr "抓取 Blender 属性并在文本编辑器中生成新列表"
+
+#: k_tools_render_preset_manager/operators/op_black_list.py:12
+msgctxt "Operator"
+msgid "Sync Property List"
+msgstr "同步属性列表"
+
+#: k_tools_render_preset_manager/ui/panels.py:93
+msgctxt "Operator"
+msgid "Undo"
+msgstr "撤销"
+
+#: k_tools_render_preset_manager/operators/op_undo.py:14
+msgctxt "Operator"
+msgid "Undo Preset Load"
+msgstr "撤销预设加载"
+
+#: k_tools_render_preset_manager/operators/op_user_presets.py:378
+msgctxt "Operator"
+msgid "Update Preset API List"
+msgstr "更新预设 API 列表"
+
+#: k_tools_render_preset_manager/operators/op_user_presets.py:296
+msgctxt "Operator"
+msgid "Update User Presets"
+msgstr "更新用户预设"
+
+#: k_tools_render_preset_manager/preferences.py:334
+msgctxt "Operator"
+msgid "Validate"
+msgstr "验证"
+
+#: k_tools_render_preset_manager/operators/op_dev.py:289
+msgctxt "Operator"
+msgid "Validation Report"
+msgstr "验证报告"

@@ -1,0 +1,76 @@
+# perfect-chinese: 1
+# id: batch_render_actions
+# kind: addon
+# module: bl_ext.blender_org.batch_render_actions
+# name: Batch Render Actions
+# name_zh: 动作批量渲染
+# translator: KeshiMiao
+# category: Animation
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:78
+msgid "Action"
+msgstr "动作"
+
+#: __init__.py:72
+msgid "Base directory for rendered animations"
+msgstr "渲染动画的基础目录"
+
+#: __init__.py:67
+msgid "Filename Template"
+msgstr "文件名模板"
+
+#: __init__.py:138
+msgid "No actions found to render."
+msgstr "未找到可渲染的动作。"
+
+#: __init__.py:130
+#: __init__.py:157
+msgid "No object with animation data selected."
+msgstr "未选择带有动画数据的物体。"
+
+#: __init__.py:72
+msgid "Output Directory"
+msgstr "输出目录"
+
+#: __init__.py:85
+#: __init__.py:89
+msgid "Render Actions"
+msgstr "渲染动作"
+
+#: __init__.py:78
+msgid "Select an action to render"
+msgstr "选择要渲染的动作"
+
+#: __init__.py:163
+msgid "Selected action not found."
+msgstr "未找到所选动作。"
+
+#: __init__.py:67
+msgid "Template for frame filenames (use #### for frame numbers)"
+msgstr "帧文件名模板（使用 #### 表示帧号）"
+
+#: __init__.py:121
+msgctxt "Operator"
+msgid "Render All Actions"
+msgstr "渲染所有动作"
+
+#: __init__.py:149
+msgctxt "Operator"
+msgid "Render Selected Action"
+msgstr "渲染所选动作"
+
+#: __init__.py:122
+msgctxt "Operator"
+msgid "Render each action as a full animation using INVOKE_DEFAULT"
+msgstr "使用 INVOKE_DEFAULT 将每个动作渲染为完整动画"
+
+#: __init__.py:150
+msgctxt "Operator"
+msgid "Render only the selected action as an animation"
+msgstr "仅将所选动作渲染为动画"

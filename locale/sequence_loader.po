@@ -1,0 +1,456 @@
+# perfect-chinese: 1
+# id: sequence_loader
+# kind: addon
+# module: bl_ext.blender_org.sequence_loader
+# name: Sequence Loader
+# name_zh: 序列加载器
+# translator: KeshiMiao
+# category: Import-Export
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: bseq/panels.py:41
+#: bseq/panels.py:45
+msgid "-"
+msgstr "-"
+
+#: bseq/properties.py:120
+msgid "Activate/Deactivate"
+msgstr "激活/取消激活"
+
+#: bseq/panels.py:97
+msgid "Advanced Settings"
+msgstr "高级设置"
+
+#: bseq/panels.py:202
+msgid "Attributes"
+msgstr "属性"
+
+#: bseq/panels.py:91
+msgid "Auto Refresh Active"
+msgstr "自动刷新激活项"
+
+#: bseq/properties.py:73
+msgid "Auto Refresh Active Sequences"
+msgstr "自动刷新激活的序列"
+
+#: bseq/panels.py:93
+msgid "Auto Refresh All"
+msgstr "自动刷新全部"
+
+#: bseq/properties.py:78
+msgid "Auto Refresh All Sequences"
+msgstr "自动刷新所有序列"
+
+#: bseq/properties.py:73
+msgid "Auto refresh all active sequences every frame"
+msgstr "每帧自动刷新所有激活的序列"
+
+#: bseq/properties.py:78
+msgid "Auto refresh all sequences every frame"
+msgstr "每帧自动刷新所有序列"
+
+#: bseq/properties.py:108
+msgid "Blender .obj import"
+msgstr "Blender .obj 导入"
+
+#: bseq/panels.py:191
+msgid "Current File"
+msgstr "当前文件"
+
+#: bseq/properties.py:88
+msgid "Custom Location"
+msgstr "自定义位置"
+
+#: bseq/panels.py:284
+#: bseq/properties.py:37
+msgid "Custom Pattern"
+msgstr "自定义模式"
+
+#: bseq/properties.py:94
+msgid "Custom Rotation"
+msgstr "自定义旋转"
+
+#: bseq/properties.py:101
+msgid "Custom Scale"
+msgstr "自定义缩放"
+
+#: bseq/panels.py:248
+#: bseq/properties.py:83
+msgid "Custom Transform"
+msgstr "自定义变换"
+
+#: bseq/properties.py:42
+msgid "Custom pattern. Use @ for frame number. Example: file_@.obj"
+msgstr "自定义模式。使用 @ 表示帧号。示例：file_@.obj"
+
+#: bseq/panels.py:281
+#: bseq/properties.py:6
+msgid "Directory"
+msgstr "目录"
+
+#: bseq/properties.py:31
+msgid "File Sequences"
+msgstr "文件序列"
+
+#: bseq/properties.py:126
+msgid "File of sequence that is currently loaded"
+msgstr "当前加载序列的文件"
+
+#: bseq/properties.py:113
+msgid "Filter String"
+msgstr "过滤字符串"
+
+#: bseq/properties.py:113
+msgid "Filter string for file sequences"
+msgstr "文件序列的过滤字符串"
+
+#: bseq/properties.py:46
+msgid "Flag that determines whether to deselect all items or not"
+msgstr "决定是否取消选择所有项的标志"
+
+#: bseq/properties.py:127
+msgid "Frame"
+msgstr "帧"
+
+#: bseq/panels.py:116
+msgid "Geometry Nodes (select sequence first)"
+msgstr "几何节点（请先选择序列）"
+
+#: bseq/panels.py:75
+msgid "Global Settings"
+msgstr "全局设置"
+
+#: bseq/properties.py:120
+msgid "If deactivated, sequence won't be updated each frame"
+msgstr "取消激活后，序列将不会每帧更新"
+
+#: bseq/panels.py:213
+msgid "Import"
+msgstr "导入"
+
+#: bseq/panels.py:245
+#: bseq/properties.py:18
+msgid "Import Normals"
+msgstr "导入法向"
+
+#: bseq/panels.py:268
+msgid "Import from folder"
+msgstr "从文件夹导入"
+
+#: bseq/properties.py:133
+msgid "Last loading time"
+msgstr "上次加载时间"
+
+#: bseq/panels.py:196
+msgid "Last loading time (ms)"
+msgstr "上次加载时间（毫秒）"
+
+#: bseq/panels.py:257
+msgid "Location:"
+msgstr "位置："
+
+#: bseq/panels.py:183
+#: bseq/properties.py:129
+msgid "Match Blender frame numbers"
+msgstr "匹配 Blender 帧号"
+
+#: bseq/panels.py:124
+#: bseq/properties.py:57
+msgid "Material"
+msgstr "材质"
+
+#: bseq/panels.py:186
+msgid "Path"
+msgstr "路径"
+
+#: bseq/properties.py:124
+msgid "Path of sequence"
+msgstr "序列路径"
+
+#: bseq/panels.py:188
+#: bseq/properties.py:42
+msgid "Pattern"
+msgstr "模式"
+
+#: bseq/properties.py:125
+msgid "Pattern of sequence"
+msgstr "序列模式"
+
+#: bseq/panels.py:119
+msgid "Point Cloud and Instances Material"
+msgstr "点云与实例材质"
+
+#: bseq/panels.py:89
+#: bseq/properties.py:68
+msgid "Print Sequence Information"
+msgstr "打印序列信息"
+
+#: bseq/properties.py:68
+msgid "Print useful information during rendering to file in same folder as render output"
+msgstr "渲染时将有用信息打印到与渲染输出相同文件夹的文件"
+
+#: bseq/panels.py:237
+#: bseq/properties.py:13
+msgid "Relative Paths"
+msgstr "相对路径"
+
+#: bseq/panels.py:241
+msgid "Relative Root"
+msgstr "相对根目录"
+
+#: bseq/panels.py:126
+msgid "Reset Geometry Nodes to"
+msgstr "将几何节点重置为"
+
+#: bseq/panels.py:87
+#: bseq/properties.py:23
+msgid "Root Directory"
+msgstr "根目录"
+
+#: bseq/panels.py:260
+msgid "Rotation:"
+msgstr "旋转："
+
+#: bseq/panels.py:263
+msgid "Scale:"
+msgstr "缩放："
+
+#: bseq/properties.py:55
+msgid "Select Vertex Attribute"
+msgstr "选择顶点属性"
+
+#: bseq/properties.py:31
+msgid "Select a file sequence"
+msgstr "选择一个文件序列"
+
+#: bseq/properties.py:23
+msgid "Select root folder for all relative paths. If empty, root is folder of the Blender file"
+msgstr "为所有相对路径选择根文件夹。若为空，根目录为 Blender 文件所在文件夹"
+
+#: bseq/panels.py:71
+#: bseq/panels.py:330
+msgid "Sequence Loader"
+msgstr "序列加载器"
+
+#: bseq/panels.py:286
+msgid "Sequence Pattern"
+msgstr "序列模式"
+
+#: bseq/panels.py:163
+msgid "Sequence Properties"
+msgstr "序列属性"
+
+#: bseq/panels.py:141
+msgid "Sequences"
+msgstr "序列"
+
+#: bseq/properties.py:50
+msgid "Sequences List"
+msgstr "序列列表"
+
+#: bseq/properties.py:94
+msgid "Set custom Euler angles"
+msgstr "设置自定义欧拉角"
+
+#: bseq/properties.py:88
+msgid "Set custom location vector"
+msgstr "设置自定义位置向量"
+
+#: bseq/properties.py:101
+msgid "Set custom scaling vector"
+msgstr "设置自定义缩放向量"
+
+#: bseq/operators.py:416
+msgid "Settings Panel"
+msgstr "设置面板"
+
+#: bseq/properties.py:129
+msgid "Show only frames that match the current frame number"
+msgstr "仅显示与当前帧号匹配的帧"
+
+#: bseq/properties.py:128
+msgid "Start and end frames"
+msgstr "起始和结束帧"
+
+#: bseq/panels.py:314
+msgid "Test"
+msgstr "测试"
+
+#: bseq/properties.py:13
+msgid "Toggle relative paths on/off"
+msgstr "切换相对路径开/关"
+
+#: bseq/properties.py:108
+msgid "Use Blender's built-in .obj import function (or meshio's .obj import function)"
+msgstr "使用 Blender 内置的 .obj 导入功能（或 meshio 的 .obj 导入功能）"
+
+#: bseq/properties.py:83
+msgid "Use a custom transformation matrix when importing"
+msgstr "导入时使用自定义变换矩阵"
+
+#: bseq/panels.py:62
+msgid "Use as split norm."
+msgstr "用作拆分法向。"
+
+#: bseq/properties.py:37
+msgid "Use manually typed pattern. Useful if the sequence can't be deteced"
+msgstr "使用手动输入的模式。当无法检测序列时很有用"
+
+#: bseq/properties.py:18
+msgid "Use normals from imported mesh (see README for details)"
+msgstr "使用导入网格的法向（详见 README）"
+
+#: bseq/properties.py:6
+msgid "You need to go to the folder with the sequence, then click \"Accept\""
+msgstr "你需要进入序列所在文件夹，然后点击“接受”"
+
+#: bseq/panels.py:151
+msgctxt "Operator"
+msgid "Activate"
+msgstr "激活"
+
+#: bseq/panels.py:155
+msgctxt "Operator"
+msgid "Activate All"
+msgstr "全部激活"
+
+#: bseq/operators.py:308
+msgctxt "Operator"
+msgid "Activate all sequences"
+msgstr "激活所有序列"
+
+#: bseq/operators.py:271
+msgctxt "Operator"
+msgid "Activate sequence"
+msgstr "激活序列"
+
+#: bseq/panels.py:207
+msgctxt "Operator"
+msgid "Clear normal"
+msgstr "清除法向"
+
+#: bseq/panels.py:152
+msgctxt "Operator"
+msgid "Deactivate"
+msgstr "取消激活"
+
+#: bseq/panels.py:156
+msgctxt "Operator"
+msgid "Deactivate All"
+msgstr "全部取消激活"
+
+#: bseq/operators.py:296
+msgctxt "Operator"
+msgid "Deactivate all sequences"
+msgstr "取消激活所有序列"
+
+#: bseq/operators.py:258
+msgctxt "Operator"
+msgid "Deactivate sequence"
+msgstr "取消激活序列"
+
+#: bseq/operators.py:65
+msgctxt "Operator"
+msgid "Edit the path of the sequence"
+msgstr "编辑序列路径"
+
+#: bseq/operators.py:623
+msgctxt "Operator"
+msgid "Import Multiple Meshio Objects"
+msgstr "导入多个 Meshio 物体"
+
+#: bseq/operators.py:354
+msgctxt "Operator"
+msgid "Import Sequences"
+msgstr "导入序列"
+
+#: bseq/panels.py:134
+msgctxt "Operator"
+msgid "Instances"
+msgstr "实例"
+
+#: bseq/operators.py:528
+msgctxt "Operator"
+msgid "Load All"
+msgstr "全部加载"
+
+#: bseq/operators.py:550
+msgctxt "Operator"
+msgid "Load All Recursive"
+msgstr "递归全部加载"
+
+#: bseq/operators.py:29
+msgctxt "Operator"
+msgid "Load Sequence"
+msgstr "加载序列"
+
+#: bseq/panels.py:133
+msgctxt "Operator"
+msgid "Mesh"
+msgstr "网格"
+
+#: bseq/operators.py:637
+msgctxt "Operator"
+msgid "MeshIO Object"
+msgstr "MeshIO 物体"
+
+#: bseq/panels.py:132
+msgctxt "Operator"
+msgid "Point Cloud"
+msgstr "点云"
+
+#: bseq/panels.py:153
+msgctxt "Operator"
+msgid "Refresh"
+msgstr "刷新"
+
+#: bseq/operators.py:284
+msgctxt "Operator"
+msgid "Refresh sequence"
+msgstr "刷新序列"
+
+#: bseq/operators.py:320
+msgctxt "Operator"
+msgid "Reloads everything in selected folder"
+msgstr "重新加载所选文件夹中的全部内容"
+
+#: bseq/operators.py:242
+msgctxt "Operator"
+msgid "Remove split normal per vertex"
+msgstr "移除每顶点拆分法向"
+
+#: bseq/operators.py:175
+msgctxt "Operator"
+msgid "Reset Geometry Nodes as Instances"
+msgstr "重置几何节点为实例"
+
+#: bseq/operators.py:150
+msgctxt "Operator"
+msgid "Reset Geometry Nodes as Mesh"
+msgstr "重置几何节点为网格"
+
+#: bseq/operators.py:115
+msgctxt "Operator"
+msgid "Reset Geometry Nodes as Point Cloud"
+msgstr "重置几何节点为点云"
+
+#: bseq/operators.py:223
+msgctxt "Operator"
+msgid "Set as split normal per vertex"
+msgstr "设为每顶点拆分法向"
+
+#: bseq/panels.py:206
+msgctxt "Operator"
+msgid "Set selected as normal"
+msgstr "将选中项设为法向"
+
+#: bseq/operators.py:333
+#: bseq/panels.py:157
+msgctxt "Operator"
+msgid "Set timeline"
+msgstr "设置时间轴"
