@@ -1,0 +1,472 @@
+# perfect-chinese: 1
+# id: jiggle_physics
+# kind: addon
+# module: bl_ext.blender_org.jiggle_physics
+# name: Jiggle Physics
+# name_zh: 抖动物理
+# translator: KeshiMiao
+# category: Animation
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:1859
+msgid "A bone without jiggled children or parents"
+msgstr "没有抖动子级或父级的骨骼"
+
+#: __init__.py:1858
+msgid "A root jiggle bone"
+msgstr "根抖动骨骼"
+
+#: __init__.py:1862
+msgid "A tip jiggle bone, needing a forward projected particle, contains no jiggle bone children"
+msgstr "尖端抖动骨骼，需要向前投射的粒子，不包含抖动子骨骼"
+
+#: __init__.py:2034
+msgid "Air Drag"
+msgstr "空气阻力"
+
+#: __init__.py:1982
+msgid "Angle Elasticity"
+msgstr "角度弹性"
+
+#: __init__.py:1440
+msgid "Animation"
+msgstr "动画"
+
+#: __init__.py:1482
+msgid "Armature muted."
+msgstr "骨架已静音。"
+
+#: __init__.py:1772
+msgid "Bake Jiggle"
+msgstr "烘焙抖动"
+
+#: __init__.py:1892
+msgid "Bake jiggle into current action, instead of creating a new one"
+msgstr "将抖动烘焙到当前动作，而非新建动作"
+
+#: __init__.py:1932
+msgid "Base speed/strength of the wind"
+msgstr "风的基础速度/强度"
+
+#: __init__.py:2025
+msgid "Blend"
+msgstr "混合"
+
+#: __init__.py:1571
+msgid "Bone Constraints Detected"
+msgstr "检测到骨骼约束"
+
+#: __init__.py:1868
+msgid "Collection"
+msgstr "集合"
+
+#: __init__.py:1880
+msgid "Collection to collide with"
+msgstr "用于碰撞的集合"
+
+#: __init__.py:1868
+msgid "Collide with a selected mesh"
+msgstr "与选中的网格碰撞"
+
+#: __init__.py:1868
+msgid "Collide with all meshes in selected collection"
+msgstr "与选中集合中的所有网格碰撞"
+
+#: __init__.py:1880
+msgid "Collider Collection"
+msgstr "碰撞体集合"
+
+#: __init__.py:1872
+msgid "Collider Object"
+msgstr "碰撞体物体"
+
+#: __init__.py:1866
+msgid "Collider Type"
+msgstr "碰撞体类型"
+
+#: __init__.py:2052
+msgid "Collision Radius"
+msgstr "碰撞半径"
+
+#: __init__.py:2052
+msgid "Collision radius for use in collision detection and depenetration."
+msgstr "用于碰撞检测与去穿透的碰撞半径。"
+
+#: __init__.py:1700
+msgid "Collisions"
+msgstr "碰撞"
+
+#: __init__.py:1592
+msgid "Connected Bones Detected"
+msgstr "检测到相连骨骼"
+
+#: __init__.py:1893
+msgid "Current Action to NLA"
+msgstr "当前动作转为 NLA"
+
+#: __init__.py:1925
+msgid "Direction of the wind in world space"
+msgstr "世界空间中风的方向"
+
+#: __init__.py:2009
+msgid "Elasticity Soften"
+msgstr "弹性软化"
+
+#: __init__.py:2000
+msgid "Elasticity of the root bone, higher means more rigid to tension"
+msgstr "根骨骼的弹性，越高对拉伸越刚性"
+
+#: __init__.py:1958
+msgid "Enable Armature"
+msgstr "启用骨架"
+
+#: __init__.py:1894
+msgid "Enable Bake Debugging"
+msgstr "启用烘焙调试"
+
+#: __init__.py:1848
+msgid "Enable Bone Jiggle"
+msgstr "启用骨骼抖动"
+
+#: __init__.py:1899
+msgid "Enable Scene"
+msgstr "启用场景"
+
+#: __init__.py:1919
+msgid "Enable Wind"
+msgstr "启用风"
+
+#: __init__.py:1905
+msgid "Enable debug"
+msgstr "启用调试"
+
+#: __init__.py:1894
+msgid "Enable detailed logging during bake process. Creates a text block with performance analysis"
+msgstr "在烘焙过程中启用详细日志。会创建一个包含性能分析的文本块"
+
+#: __init__.py:1958
+msgid "Enable jiggle on this armature"
+msgstr "为此骨架启用抖动"
+
+#: __init__.py:1848
+msgid "Enable jiggle on this bone"
+msgstr "为此骨骼启用抖动"
+
+#: __init__.py:1899
+msgid "Enable jiggle on this scene"
+msgstr "为此场景启用抖动"
+
+#: __init__.py:1905
+msgid "Enable profiling and debug features"
+msgstr "启用性能分析与调试功能"
+
+#: __init__.py:1919
+msgid "Enable wind force affecting jiggle physics"
+msgstr "启用影响抖动物理的风力"
+
+#: __init__.py:1948
+msgid "Evolution Speed"
+msgstr "演化速度"
+
+#: __init__.py:1631
+msgid "Frame Dropping Detected"
+msgstr "检测到丢帧"
+
+#: __init__.py:1891
+msgid "Frames to run simulation before bake"
+msgstr "烘焙前运行模拟的帧数"
+
+#: __init__.py:1971
+msgid "Freeze Jiggle"
+msgstr "冻结抖动"
+
+#: __init__.py:2043
+msgid "Friction"
+msgstr "摩擦"
+
+#: __init__.py:1723
+msgid "Global Jiggle Utilities"
+msgstr "全局抖动工具"
+
+#: __init__.py:2018
+msgid "Gravity"
+msgstr "重力"
+
+#: __init__.py:2034
+msgid "How much the bone is slowed down by air, higher means more drag"
+msgstr "骨骼受空气减速的程度，越高阻力越大"
+
+#: __init__.py:1860
+msgid "Ignore this bone, but within its children is a jiggle bone"
+msgstr "忽略此骨骼，但其子级中包含抖动骨骼"
+
+#: __init__.py:2043
+msgid "Internal friction, higher means return to rest quicker"
+msgstr "内部摩擦，越高越快回到静止"
+
+#: __init__.py:1794
+#: __init__.py:1800
+msgid "Jiggle Bone Presets"
+msgstr "抖动骨骼预设"
+
+#: __init__.py:1971
+msgid "Jiggle Calculation frozen after baking"
+msgstr "烘焙后抖动计算已冻结"
+
+#: __init__.py:1477
+msgid "Jiggle Frozen after Bake."
+msgstr "烘焙后抖动已冻结。"
+
+#: __init__.py:1855
+msgid "Jiggle Mode"
+msgstr "抖动模式"
+
+#: __init__.py:1451
+#: __init__.py:1459
+msgid "Jiggle Physics"
+msgstr "抖动物理"
+
+#: __init__.py:1991
+msgid "Length Elasticity"
+msgstr "长度弹性"
+
+#: __init__.py:1890
+msgid "Loop Physics"
+msgstr "循环物理"
+
+#: __init__.py:1860
+msgid "Merge"
+msgstr "合并"
+
+#: __init__.py:1661
+msgid "Mesh Collision Detected"
+msgstr "检测到网格碰撞"
+
+#: __init__.py:1872
+msgid "Mesh object to collide with"
+msgstr "用于碰撞的网格物体"
+
+#: __init__.py:1893
+msgid "Move existing animation on the armature into an NLA strip"
+msgstr "将骨架上的现有动画移入 NLA 片段"
+
+#: __init__.py:2018
+msgid "Multiplier for scene gravity"
+msgstr "场景重力乘数"
+
+#: __init__.py:1965
+msgid "Mute Armature"
+msgstr "静音骨架"
+
+#: __init__.py:1965
+msgid "Mute jiggle on this armature"
+msgstr "静音此骨架上的抖动"
+
+#: __init__.py:1553
+#: __init__.py:1613
+msgid "No Keyframes Detected"
+msgstr "未检测到关键帧"
+
+#: __init__.py:1857
+msgid "None"
+msgstr "无"
+
+#: __init__.py:1861
+msgid "Normal"
+msgstr "正常"
+
+#: __init__.py:1857
+msgid "Not jiggled, and contains no jiggle bone children"
+msgstr "未抖动，且不包含抖动骨骼子级"
+
+#: __init__.py:1868
+msgid "Object"
+msgstr "物体"
+
+#: __init__.py:1892
+msgid "Overwrite Current Action"
+msgstr "覆盖当前动作"
+
+#: __init__.py:1890
+msgid "Physics continues as timeline loops"
+msgstr "时间轴循环时物理继续"
+
+#: __init__.py:1891
+msgid "Preroll"
+msgstr "预滚"
+
+#: __init__.py:1858
+msgid "Root"
+msgstr "根"
+
+#: __init__.py:2000
+msgid "Root Elasticity"
+msgstr "根弹性"
+
+#: __init__.py:1940
+msgid "Scale of the wind turbulence noise field (larger = smoother, more gradual changes)"
+msgstr "风湍流噪波场的缩放（越大越平滑、变化越渐变）"
+
+#: __init__.py:1470
+msgid "Scene muted."
+msgstr "场景已静音。"
+
+#: __init__.py:1473
+msgid "Select armature."
+msgstr "请选择骨架。"
+
+#: __init__.py:1485
+msgid "Select pose bone."
+msgstr "请选择姿态骨骼。"
+
+#: __init__.py:1911
+msgid "Simulate During Scrub"
+msgstr "拖动时间轴时模拟"
+
+#: __init__.py:1911
+msgid "Simulate jiggle physics while scrubbing the timeline"
+msgstr "拖动时间轴时模拟抖动物理"
+
+#: __init__.py:1859
+msgid "Solo"
+msgstr "独奏"
+
+#: __init__.py:1948
+msgid "Speed at which the wind pattern evolves over time (4D noise)"
+msgstr "风图案随时间演变的速度（4D 噪波）"
+
+#: __init__.py:1982
+msgid "Spring angle stiffness, higher means more rigid. Also has a small effect on the bone length"
+msgstr "弹簧角度刚度，越高越坚硬。对骨骼长度也有轻微影响"
+
+#: __init__.py:1991
+msgid "Spring length stiffness, higher means more rigid to tension"
+msgstr "弹簧长度刚度，越高越抗拉伸"
+
+#: __init__.py:1862
+msgid "Tip"
+msgstr "尖端"
+
+#: __init__.py:1940
+msgid "Turbulence Scale"
+msgstr "湍流缩放"
+
+#: __init__.py:1861
+msgid "User-driven jiggle"
+msgstr "用户驱动的抖动"
+
+#: __init__.py:2009
+msgid "Weakens the elasticity of the bone when its closer to the target pose. Higher means more like a free-rolling-ball-socket"
+msgstr "骨骼越接近目标姿态时弹性越弱。数值越高越像自由滚球关节"
+
+#: __init__.py:1925
+msgid "Wind Direction"
+msgstr "风向"
+
+#: __init__.py:1745
+msgid "Wind Force"
+msgstr "风力"
+
+#: __init__.py:1932
+msgid "Wind Speed"
+msgstr "风速"
+
+#: __init__.py:2025
+msgid "jiggle blend, 0 means no jiggle, 1 means full jiggle"
+msgstr "抖动混合，0 表示无抖动，1 表示完全抖动"
+
+#: __init__.py:1808
+msgctxt "Operator"
+msgid "Add/Remove Jiggle Bone preset"
+msgstr "添加/移除抖动骨骼预设"
+
+#: __init__.py:1253
+msgctxt "Operator"
+msgid "Bake Jiggle"
+msgstr "烘焙抖动"
+
+#: __init__.py:1182
+msgctxt "Operator"
+msgid "Clear Parameter Keyframes"
+msgstr "清除参数关键帧"
+
+#: __init__.py:1492
+msgctxt "Operator"
+msgid "Connected bones ignore length elasticity, preventing them from stretching. Click this button to automatically fix"
+msgstr "已连接的骨骼会忽略长度弹性，从而防止其拉伸。点击此按钮自动修复"
+
+#: __init__.py:1522
+msgctxt "Operator"
+msgid "Constraints are applied after jiggle, which can cause strange behavior. Click this button to automatically disable constraints on selected bones"
+msgstr "约束在抖动之后应用，可能导致异常行为。点击此按钮自动禁用所选骨骼上的约束"
+
+#: __init__.py:1074
+msgctxt "Operator"
+msgid "Copy Settings to Selected"
+msgstr "复制设置到所选"
+
+#: __init__.py:1521
+msgctxt "Operator"
+msgid "Disable Constraints"
+msgstr "禁用约束"
+
+#: __init__.py:1579
+msgctxt "Operator"
+msgid "Disable Constraints on Selected Bones"
+msgstr "禁用所选骨骼的约束"
+
+#: __init__.py:1491
+#: __init__.py:1599
+msgctxt "Operator"
+msgid "Disconnect Selected Bones"
+msgstr "断开所选骨骼"
+
+#: __init__.py:1213
+msgctxt "Operator"
+msgid "Print Profiling Information to Console"
+msgstr "将性能分析信息打印到控制台"
+
+#: __init__.py:1183
+msgctxt "Operator"
+msgid "Remove keyframes from jiggle parameters on selected bones. This will not remove the jiggle settings themselves, just the keyframes that control them."
+msgstr "移除所选骨骼抖动参数上的关键帧。这不会移除抖动设置本身，只会移除控制它们的关键帧。"
+
+#: __init__.py:1161
+msgctxt "Operator"
+msgid "Reset Physics"
+msgstr "重置物理"
+
+#: __init__.py:1238
+msgctxt "Operator"
+msgid "Select Enabled"
+msgstr "选择已启用项"
+
+#: __init__.py:1454
+msgctxt "Operator"
+msgid "Show Rest Pose"
+msgstr "显示静止姿态"
+
+#: __init__.py:1456
+msgctxt "Operator"
+msgid "Show Simulation"
+msgstr "显示模拟"
+
+#: __init__.py:1113
+msgctxt "Operator"
+msgid "Toggle Jiggle Profiler"
+msgstr "切换抖动性能分析器"
+
+#: __init__.py:1127
+msgctxt "Operator"
+msgid "Toggle Jiggle Rest Pose Overlay"
+msgstr "切换抖动静止姿态叠加层"
+
+#: __init__.py:1144
+msgctxt "Operator"
+msgid "Toggle Jiggle Simulation Overlay"
+msgstr "切换抖动模拟叠加层"

@@ -1,0 +1,825 @@
+# perfect-chinese: 1
+# id: grease_pencil_tools
+# kind: addon
+# module: bl_ext.blender_org.grease_pencil_tools
+# name: Grease Pencil Tools
+# name_zh: 蜡笔工具
+# translator: KeshiMiao
+# category: Grease Pencil
+# supported_versions: >=4.3.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: grease_pencil_tools/prefs.py:193
+msgid "(Auto rebind when changing shortcut)"
+msgstr "（更改快捷键时自动重新绑定）"
+
+#: grease_pencil_tools/prefs.py:278
+msgid "- A cancel warning will be displayed the first time you hit Tab"
+msgstr "- 首次按 Tab 时会显示取消警告"
+
+#: grease_pencil_tools/prefs.py:271
+msgid "- GPencil Edit mode : Deform Selected points"
+msgstr "- 蜡笔编辑模式：变形选中点"
+
+#: grease_pencil_tools/prefs.py:272
+msgid "- Gpencil Paint : Deform last Strokes"
+msgstr "- 蜡笔绘制：变形最后笔画"
+
+#: grease_pencil_tools/prefs.py:277
+msgid "- If you return in box deform after applying (with a ctrl+Z), you need to hit 'Ctrl+T' again to revive the modal."
+msgstr "- 应用后（通过 Ctrl+Z）返回盒式变形时，需要再次按“Ctrl+T”来恢复模态操作。"
+
+#: grease_pencil_tools/prefs.py:270
+msgid "- Object mode : The whole GP object is deformed (including all frames)"
+msgstr "- 物体模式：整个蜡笔物体都会被变形（包括所有帧）"
+
+#: grease_pencil_tools/box_deform.py:584
+msgid "/!\\ Box Deform : Cannot find object to target"
+msgstr "/!\\ 盒式变形：找不到目标物体"
+
+#: grease_pencil_tools/box_deform.py:587
+msgid "/!\\ No 'tmp_lattice' modifiers on GP object"
+msgstr "/!\\ 蜡笔物体上没有 'tmp_lattice' 修改器"
+
+#: grease_pencil_tools/prefs.py:265
+msgid "1-9 top row number : Subdivide the box"
+msgstr "1-9 上排数字键：细分盒子"
+
+#: grease_pencil_tools/timeline_scrub.py:646
+msgid "Active Layer Keys"
+msgstr "活动图层关键帧"
+
+#: grease_pencil_tools/prefs.py:136
+msgid "Add OS key (Win on Windows, Super on Linux, Cmd on Mac)"
+msgstr "添加系统键（Windows 上为 Win，Linux 上为 Super，Mac 上为 Cmd）"
+
+#: grease_pencil_tools/timeline_scrub.py:624
+msgid "Add alt"
+msgstr "添加 Alt"
+
+#: grease_pencil_tools/timeline_scrub.py:630
+msgid "Add ctrl"
+msgstr "添加 Ctrl"
+
+#: grease_pencil_tools/timeline_scrub.py:618
+msgid "Add shift"
+msgstr "添加 Shift"
+
+#: grease_pencil_tools/timeline_scrub.py:816
+msgid "Add shortcut to scrub in timeline editors"
+msgstr "添加在时间线编辑器中拖动的快捷键"
+
+#: grease_pencil_tools/timeline_scrub.py:607
+msgid "Add the same shortcut to scrub in timeline editor windows"
+msgstr "将相同快捷键添加到时间线编辑器窗口的拖动操作"
+
+#: grease_pencil_tools/timeline_scrub.py:648
+msgid "All Layers Keys"
+msgstr "所有图层关键帧"
+
+#: grease_pencil_tools/timeline_scrub.py:613
+msgid "Allow using the scrub shortcut in node editor the same way it's used in viewport"
+msgstr "允许在节点编辑器中像在视图中一样使用拖动快捷键"
+
+#: grease_pencil_tools/timeline_scrub.py:636
+msgid "Also snap on greasepencil object keyframe (else only active layer frames)"
+msgstr "也吸附到蜡笔物体关键帧（否则仅活动图层帧）"
+
+#: grease_pencil_tools/prefs.py:197
+#: grease_pencil_tools/timeline_scrub.py:771
+msgid "Alt"
+msgstr "Alt"
+
+#: grease_pencil_tools/timeline_scrub.py:596
+msgid "Alternative Gap-less timeline. No time information to quickly roll/flip over keys\nOverride normal and 'always snap' mode"
+msgstr "替代的无间隙时间线。无时间信息，可快速滚动/翻转关键帧\n覆盖普通模式和“始终吸附”模式"
+
+#: grease_pencil_tools/timeline_scrub.py:591
+msgid "Always Snap"
+msgstr "始终吸附"
+
+#: grease_pencil_tools/timeline_scrub.py:591
+msgid "Always snap to keys if any, modifier is used deactivate the snapping\nDisabled if no keyframe found"
+msgstr "始终吸附到关键帧（若有）；使用修饰键会停用吸附\n未找到关键帧时禁用"
+
+#: grease_pencil_tools/prefs.py:142
+#: grease_pencil_tools/prefs.py:223
+msgid "Angle Steps"
+msgstr "角度步数"
+
+#: grease_pencil_tools/prefs.py:81
+msgid "Auto swap interpolation mode"
+msgstr "自动切换插值模式"
+
+#: grease_pencil_tools/prefs.py:81
+msgid "Automatically set interpolation to 'spline' when subdividing lattice\n Back to 'linear' when"
+msgstr "细分晶格时自动将插值设为“样条”\n返回时设为“线性”"
+
+#: grease_pencil_tools/prefs.py:187
+msgid "Bind Shortcuts"
+msgstr "绑定快捷键"
+
+#: grease_pencil_tools/prefs.py:60
+msgid "Box Deform"
+msgstr "盒式变形"
+
+#: grease_pencil_tools/prefs.py:245
+msgid "Box Deform Infos Sheet"
+msgstr "盒式变形信息表"
+
+#: grease_pencil_tools/prefs.py:253
+msgid "Box Deform Tool"
+msgstr "盒式变形工具"
+
+#: grease_pencil_tools/prefs.py:60
+msgid "Box Deform tool prefs"
+msgstr "盒式变形工具偏好设置"
+
+#: grease_pencil_tools/prefs.py:172
+msgid "Box Deform:"
+msgstr "盒式变形："
+
+#: grease_pencil_tools/rotate_canvas.py:230
+msgid "Camera rotation is locked"
+msgstr "摄像机旋转已锁定"
+
+#: grease_pencil_tools/prefs.py:59
+msgid "Canvas Rotate tool shortcut and prefs"
+msgstr "画布旋转工具快捷键和偏好设置"
+
+#: grease_pencil_tools/prefs.py:48
+msgid "Category"
+msgstr "类别"
+
+#: grease_pencil_tools/prefs.py:68
+msgid "Change the active tool to 'tweak' during modal, Allow to direct clic-drag points of the box"
+msgstr "在模态操作期间将活动工具改为“调整”，允许直接单击拖动盒子的点"
+
+#: grease_pencil_tools/prefs.py:48
+msgid "Choose a name for the category of the panel"
+msgstr "为面板类别选择名称"
+
+#: grease_pencil_tools/prefs.py:210
+msgid "Choose at least one modifier to combine with click (default: Ctrl+Alt)"
+msgstr "选择至少一个修饰键与单击组合（默认：Ctrl+Alt）"
+
+#: grease_pencil_tools/prefs.py:73
+msgid "Choose default interpolation when entering mode"
+msgstr "进入模式时选择默认插值"
+
+#: grease_pencil_tools/prefs.py:55
+msgid "Choose tool preferences to display"
+msgstr "选择要显示的工具偏好设置"
+
+#: grease_pencil_tools/prefs.py:106
+msgid "Click on chosen mouse button in combination with a modifier to trigger alignment"
+msgstr "使用所选鼠标键配合修饰键单击以触发对齐"
+
+#: grease_pencil_tools/layer_navigator.py:918
+#: grease_pencil_tools/layer_navigator.py:923
+msgid "Cmd"
+msgstr "Cmd"
+
+#: grease_pencil_tools/timeline_scrub.py:701
+msgid "Color of the temporary line cursor and text"
+msgstr "临时线光标和文本的颜色"
+
+#: grease_pencil_tools/timeline_scrub.py:693
+msgid "Color of the temporary timeline"
+msgstr "临时时间线的颜色"
+
+#: grease_pencil_tools/prefs.py:124
+#: grease_pencil_tools/timeline_scrub.py:624
+msgid "Combine With Alt"
+msgstr "与 Alt 组合"
+
+#: grease_pencil_tools/prefs.py:130
+#: grease_pencil_tools/timeline_scrub.py:630
+msgid "Combine With Ctrl"
+msgstr "与 Ctrl 组合"
+
+#: grease_pencil_tools/prefs.py:136
+msgid "Combine With OS Key"
+msgstr "与系统键组合"
+
+#: grease_pencil_tools/prefs.py:118
+#: grease_pencil_tools/timeline_scrub.py:618
+msgid "Combine With Shift"
+msgstr "与 Shift 组合"
+
+#: grease_pencil_tools/timeline_scrub.py:648
+msgid "Consider keys of all layers"
+msgstr "考虑所有图层的关键帧"
+
+#: grease_pencil_tools/timeline_scrub.py:646
+msgid "Consider only keys of the active layer\n(if group item is active, consider keys of all layers in group)"
+msgstr "仅考虑活动图层的关键帧\n（如果组项目处于活动状态，则考虑组内所有图层的关键帧）"
+
+#: grease_pencil_tools/prefs.py:196
+#: grease_pencil_tools/timeline_scrub.py:770
+msgid "Ctrl"
+msgstr "Ctrl"
+
+#: grease_pencil_tools/prefs.py:266
+msgid "Ctrl + arrows-keys : Subdivide the box incrementally in individual X/Y axis"
+msgstr "Ctrl + 方向键：沿单独的 X/Y 轴逐步细分盒子"
+
+#: grease_pencil_tools/timeline_scrub.py:828
+msgid "Cursor And Text Color"
+msgstr "光标和文本颜色"
+
+#: grease_pencil_tools/timeline_scrub.py:701
+msgid "Cursor Color"
+msgstr "光标颜色"
+
+#: grease_pencil_tools/timeline_scrub.py:732
+msgid "Customize aspect of the keyframes"
+msgstr "自定义关键帧外观"
+
+#: grease_pencil_tools/timeline_scrub.py:875
+msgid "DOPESHEET_EDITOR"
+msgstr "DOPESHEET_EDITOR"
+
+#: grease_pencil_tools/prefs.py:177
+msgid "Deformer type can be changed during modal with 'M' key, this is for default behavior"
+msgstr "变形器类型可在模态操作期间用“M”键更改，此处用于默认行为"
+
+#: grease_pencil_tools/prefs.py:263
+msgid "Delete / Backspace / Tab(twice) / Ctrl+T : Cancel"
+msgstr "Delete / Backspace / Tab（两次）/ Ctrl+T：取消"
+
+#: grease_pencil_tools/timeline_scrub.py:741
+msgid "Diamond"
+msgstr "菱形"
+
+#: grease_pencil_tools/timeline_scrub.py:663
+msgid "Display Timeline Overlay"
+msgstr "显示时间线叠加层"
+
+#: grease_pencil_tools/timeline_scrub.py:668
+msgid "Display a static marks overlay to represent timeline when scrubbing"
+msgstr "擦洗时间线时显示静态标记叠加层以表示时间线"
+
+#: grease_pencil_tools/prefs.py:89
+msgid "Display angle lines and angle value as text on viewport"
+msgstr "在视图上显示角度线和角度值文本"
+
+#: grease_pencil_tools/timeline_scrub.py:688
+msgid "Display frame offset from initial position as text above mouse cursor"
+msgstr "在鼠标光标上方以文本显示相对初始位置的帧偏移"
+
+#: grease_pencil_tools/timeline_scrub.py:663
+msgid "Display overlays with timeline information when scrubbing time in viewport"
+msgstr "在视图中擦洗时间时显示带时间线信息的叠加层"
+
+#: grease_pencil_tools/timeline_scrub.py:673
+msgid "Display shapes overlay to show keyframe position when scrubbing"
+msgstr "擦洗时显示形状叠加层以显示关键帧位置"
+
+#: grease_pencil_tools/timeline_scrub.py:683
+msgid "Display the current frame as text above mouse cursor"
+msgstr "在鼠标光标上方以文本显示当前帧"
+
+#: grease_pencil_tools/timeline_scrub.py:678
+msgid "Display the playhead as a vertical line to show position in time"
+msgstr "将播放头显示为垂直线以表示时间位置"
+
+#: grease_pencil_tools/timeline_scrub.py:601
+msgid "Enable"
+msgstr "启用"
+
+#: grease_pencil_tools/timeline_scrub.py:601
+msgid "Enable/Disable timeline scrub"
+msgstr "启用/禁用时间线擦洗"
+
+#: grease_pencil_tools/timeline_scrub.py:652
+msgid "Frame Interval On Screen"
+msgstr "屏幕上的帧间隔"
+
+#: grease_pencil_tools/timeline_scrub.py:721
+msgid "Frame Lines Size"
+msgstr "帧线大小"
+
+#: grease_pencil_tools/timeline_scrub.py:721
+msgid "Frame lines height in pixels"
+msgstr "帧线高度（像素）"
+
+#: grease_pencil_tools/ui_panels.py:11
+msgid "Grease Pencil"
+msgstr "蜡笔"
+
+#: grease_pencil_tools/ui_panels.py:8
+msgid "Grease Pencil Tools"
+msgstr "蜡笔工具"
+
+#: grease_pencil_tools/timeline_scrub.py:641
+msgid "Grease pencil layers keys to consider when scrubbing"
+msgstr "擦洗时要考虑的蜡笔图层关键帧"
+
+#: grease_pencil_tools/timeline_scrub.py:745
+msgid "Hide Overlays"
+msgstr "隐藏叠加层"
+
+#: grease_pencil_tools/timeline_scrub.py:745
+msgid "Hide overlays and gizmos while scrubbing is active"
+msgstr "擦洗激活时隐藏叠加层和控件"
+
+#: grease_pencil_tools/layer_navigator.py:786
+msgid "Individual layer box height.            \na big size take more screen space but allow better targeting"
+msgstr "单个图层框高度。\n尺寸越大占用屏幕空间越多，但更便于定位"
+
+#: grease_pencil_tools/layer_navigator.py:798
+msgid "Individual layer box width.            \na big size take more screen space but allow better targeting"
+msgstr "单个图层框宽度。\n尺寸越大占用屏幕空间越多，但更便于定位"
+
+#: grease_pencil_tools/timeline_scrub.py:732
+msgid "Keyframe Display"
+msgstr "关键帧显示"
+
+#: grease_pencil_tools/timeline_scrub.py:741
+msgid "Keyframe displayed as diamonds"
+msgstr "关键帧显示为菱形"
+
+#: grease_pencil_tools/timeline_scrub.py:739
+msgid "Keyframe displayed as squares"
+msgstr "关键帧显示为方形"
+
+#: grease_pencil_tools/timeline_scrub.py:737
+msgid "Keyframe displayed as thick lines"
+msgstr "关键帧显示为粗线"
+
+#: grease_pencil_tools/timeline_scrub.py:673
+msgid "Keyframes"
+msgstr "关键帧"
+
+#: grease_pencil_tools/layer_navigator.py:945
+#: grease_pencil_tools/timeline_scrub.py:764
+msgid "Keymap:"
+msgstr "键位映射："
+
+#: grease_pencil_tools/layer_navigator.py:810
+msgid "Label Size"
+msgstr "标签大小"
+
+#: grease_pencil_tools/layer_navigator.py:786
+msgid "Layer Box Height"
+msgstr "图层框高度"
+
+#: grease_pencil_tools/layer_navigator.py:798
+msgid "Layer Box Width"
+msgstr "图层框宽度"
+
+#: grease_pencil_tools/prefs.py:62
+msgid "Layer Navigation tool shortcut and prefs"
+msgstr "图层导航工具快捷键和偏好设置"
+
+#: grease_pencil_tools/prefs.py:62
+msgid "Layer Navigator"
+msgstr "图层导航器"
+
+#: grease_pencil_tools/layer_navigator.py:929
+msgid "Layer Navigator:"
+msgstr "图层导航器："
+
+#: grease_pencil_tools/timeline_scrub.py:641
+msgid "Layer Target"
+msgstr "图层目标"
+
+#: grease_pencil_tools/layer_navigator.py:810
+msgid "Layer name label size"
+msgstr "图层名称标签大小"
+
+#: grease_pencil_tools/layer_navigator.py:821
+msgid "Left Handed"
+msgstr "左手模式"
+
+#: grease_pencil_tools/prefs.py:111
+msgid "Left click"
+msgstr "左键单击"
+
+#: grease_pencil_tools/timeline_scrub.py:737
+msgid "Line"
+msgstr "线条"
+
+#: grease_pencil_tools/prefs.py:74
+msgid "Linear (perspective mode)"
+msgstr "线性（透视模式）"
+
+#: grease_pencil_tools/prefs.py:74
+msgid "Linear interpolation, like corner deform / perspective tools of classic 2D"
+msgstr "线性插值，类似经典 2D 的角部变形/透视工具"
+
+#: grease_pencil_tools/prefs.py:264
+msgid "M : Toggle between Linear and Spline mode at any moment"
+msgstr "M：随时在线性和样条模式之间切换"
+
+#: grease_pencil_tools/prefs.py:112
+msgid "Mid click"
+msgstr "中键单击"
+
+#: grease_pencil_tools/prefs.py:269
+msgid "Modes and deformation target:"
+msgstr "模式和变形目标："
+
+#: grease_pencil_tools/prefs.py:113
+msgid "Mouse Button 4"
+msgstr "鼠标键 4"
+
+#: grease_pencil_tools/prefs.py:114
+msgid "Mouse Button 5"
+msgstr "鼠标键 5"
+
+#: grease_pencil_tools/prefs.py:106
+msgid "Mouse button"
+msgstr "鼠标键"
+
+#: grease_pencil_tools/line_reshape.py:120
+msgid "No Grease pencil frame found"
+msgstr "未找到蜡笔帧"
+
+#: grease_pencil_tools/timeline_scrub.py:218
+msgid "No Keys to flip on"
+msgstr "没有可翻转的关键帧"
+
+#: grease_pencil_tools/box_deform.py:561
+msgid "No active objects found"
+msgstr "未找到活动物体"
+
+#: grease_pencil_tools/prefs.py:226
+msgid "No hotkey has been set automatically. Following operators needs to be set manually:"
+msgstr "未自动设置任何快捷键。以下操作符需要手动设置："
+
+#: grease_pencil_tools/timeline_scrub.py:226
+msgid "No keys to flip on within frame range"
+msgstr "帧范围内没有可翻转的关键帧"
+
+#: grease_pencil_tools/layer_navigator.py:504
+msgid "No layer to display"
+msgstr "没有可显示的图层"
+
+#: grease_pencil_tools/line_reshape.py:148
+msgid "No selected stroke found."
+msgstr "未找到选中的笔画。"
+
+#: grease_pencil_tools/line_reshape.py:124
+msgid "No strokes found."
+msgstr "未找到笔画。"
+
+#: grease_pencil_tools/prefs.py:276
+msgid "Notes:"
+msgstr "注意："
+
+#: grease_pencil_tools/prefs.py:180
+msgid "Once 'M' is hit, auto swap is deactivated to stay in your chosen mode"
+msgstr "按下「M」后，自动切换将停用，以保持在你选择的模式"
+
+#: grease_pencil_tools/prefs.py:161
+msgid "Panel Category:"
+msgstr "面板类别："
+
+#: grease_pencil_tools/timeline_scrub.py:652
+msgid "Pixel steps on screen that represent a frame intervals"
+msgstr "屏幕上代表帧间隔的像素步长"
+
+#: grease_pencil_tools/timeline_scrub.py:678
+msgid "Playhead"
+msgstr "播放头"
+
+#: grease_pencil_tools/timeline_scrub.py:710
+msgid "Playhead Size"
+msgstr "播放头大小"
+
+#: grease_pencil_tools/timeline_scrub.py:710
+msgid "Playhead height in pixels"
+msgstr "播放头高度（像素）"
+
+#: grease_pencil_tools/layer_navigator.py:821
+msgid "Pop-up appear offseted at the right of the mouse pointer            \nto avoif hand occluding layer label"
+msgstr "弹出窗口出现在鼠标指针右侧偏移处，以免手遮挡图层标签"
+
+#: grease_pencil_tools/prefs.py:55
+msgid "Preference Tool Tab"
+msgstr "偏好设置工具选项卡"
+
+#: grease_pencil_tools/box_deform.py:496
+msgid "Pressing TAB again will Cancel"
+msgstr "再次按 TAB 将取消"
+
+#: grease_pencil_tools/timeline_scrub.py:808
+msgid "Recommended to choose at least one modifier to combine with clicks (default: Ctrl+Alt)"
+msgstr "建议至少选择一个修饰键与点击组合（默认：Ctrl+Alt）"
+
+#: grease_pencil_tools/prefs.py:110
+msgid "Right click"
+msgstr "右键单击"
+
+#: grease_pencil_tools/timeline_scrub.py:596
+msgid "Rolling Mode"
+msgstr "滚动模式"
+
+#: grease_pencil_tools/prefs.py:59
+msgid "Rotate Canvas"
+msgstr "旋转画布"
+
+#: grease_pencil_tools/prefs.py:185
+msgid "Rotate Canvas:"
+msgstr "旋转画布："
+
+#: grease_pencil_tools/prefs.py:94
+msgid "Rotate From View Center In Camera"
+msgstr "在相机中从视图中心旋转"
+
+#: grease_pencil_tools/prefs.py:94
+msgid "Rotate from view center in camera view, Else rotate from camera center"
+msgstr "在相机视图中从视图中心旋转，否则从相机中心旋转"
+
+#: grease_pencil_tools/timeline_scrub.py:878
+msgid "SEQUENCE_EDITOR"
+msgstr "SEQUENCE_EDITOR"
+
+#: grease_pencil_tools/prefs.py:198
+#: grease_pencil_tools/timeline_scrub.py:772
+msgid "Shift"
+msgstr "Shift"
+
+#: grease_pencil_tools/prefs.py:262
+msgid "Shift + Spacebar / Enter : Confirm and let the lattice in place"
+msgstr "Shift + 空格键 / 回车：确认并保留晶格在原位"
+
+#: grease_pencil_tools/timeline_scrub.py:586
+msgid "Shortcut"
+msgstr "快捷键"
+
+#: grease_pencil_tools/timeline_scrub.py:607
+msgid "Shortcut in timeline editors"
+msgstr "时间线编辑器中的快捷键"
+
+#: grease_pencil_tools/timeline_scrub.py:586
+msgid "Shortcut to trigger the scrub in viewport during press"
+msgstr "按下时在视图中触发拖动预览的快捷键"
+
+#: grease_pencil_tools/prefs.py:260
+msgid "Shortcuts:"
+msgstr "快捷键："
+
+#: grease_pencil_tools/timeline_scrub.py:829
+msgid "Show:"
+msgstr "显示："
+
+#: grease_pencil_tools/prefs.py:261
+msgid "Spacebar / Enter : Confirm"
+msgstr "空格键 / 回车：确认"
+
+#: grease_pencil_tools/prefs.py:75
+msgid "Spline (smooth deform)"
+msgstr "样条（平滑变形）"
+
+#: grease_pencil_tools/prefs.py:75
+msgid "Spline interpolation transformation\nBest when lattice is subdivided"
+msgstr "样条插值变换\n晶格细分时效果最佳"
+
+#: grease_pencil_tools/timeline_scrub.py:739
+msgid "Square"
+msgstr "方形"
+
+#: grease_pencil_tools/prefs.py:73
+msgid "Starting Interpolation"
+msgstr "起始插值"
+
+#: grease_pencil_tools/prefs.py:142
+msgid "Step the rotation using this angle when using rotate canvas step modifier"
+msgstr "使用旋转画布步进修饰键时，按此角度步进旋转"
+
+#: grease_pencil_tools/line_reshape.py:109
+msgid "Straight force"
+msgstr "直线力度"
+
+#: grease_pencil_tools/line_reshape.py:109
+msgid "Straight interpolation percentage"
+msgstr "直线插值百分比"
+
+#: grease_pencil_tools/timeline_scrub.py:683
+msgid "Text Frame Current"
+msgstr "当前文本帧"
+
+#: grease_pencil_tools/timeline_scrub.py:688
+msgid "Text Frame Offset"
+msgstr "文本帧偏移"
+
+#: grease_pencil_tools/prefs.py:256
+msgid "The lattice box is generated facing your view (be sure to face canvas if you want to stay on it)"
+msgstr "晶格框会朝向您的视图生成（若想保持在画布上，请确保面向画布）"
+
+#: grease_pencil_tools/timeline_scrub.py:668
+msgid "Timeline"
+msgstr "时间线"
+
+#: grease_pencil_tools/timeline_scrub.py:693
+msgid "Timeline Color"
+msgstr "时间线颜色"
+
+#: grease_pencil_tools/prefs.py:61
+msgid "Timeline Scrub"
+msgstr "时间线拖动预览"
+
+#: grease_pencil_tools/prefs.py:61
+msgid "Timeline Scrub tool shortcut and prefs"
+msgstr "时间线拖动预览工具的快捷键和偏好设置"
+
+#: grease_pencil_tools/timeline_scrub.py:753
+msgid "Timeline Scrub:"
+msgstr "时间线拖动预览："
+
+#: grease_pencil_tools/prefs.py:254
+msgid "Usage:"
+msgstr "用法："
+
+#: grease_pencil_tools/prefs.py:100
+msgid "Use Default Shortcut"
+msgstr "使用默认快捷键"
+
+#: grease_pencil_tools/timeline_scrub.py:636
+msgid "Use Gpencil Object Keyframes"
+msgstr "使用蜡笔物体关键帧"
+
+#: grease_pencil_tools/prefs.py:89
+msgid "Use Hud"
+msgstr "使用 HUD"
+
+#: grease_pencil_tools/prefs.py:111
+msgid "Use Left mouse button"
+msgstr "使用鼠标左键"
+
+#: grease_pencil_tools/prefs.py:112
+msgid "Use Mid mouse button"
+msgstr "使用鼠标中键"
+
+#: grease_pencil_tools/prefs.py:110
+msgid "Use Right mouse button"
+msgstr "使用鼠标右键"
+
+#: grease_pencil_tools/prefs.py:68
+msgid "Use click drag directly on points"
+msgstr "直接在点上单击拖动"
+
+#: grease_pencil_tools/prefs.py:100
+msgid "Use default shortcut: mouse double-click + modifier"
+msgstr "使用默认快捷键：鼠标双击 + 修饰键"
+
+#: grease_pencil_tools/timeline_scrub.py:613
+msgid "Use in Node editor"
+msgstr "在节点编辑器中使用"
+
+#: grease_pencil_tools/prefs.py:113
+msgid "Use mouse button 4 (previous)"
+msgstr "使用鼠标按键 4（上一个）"
+
+#: grease_pencil_tools/prefs.py:114
+msgid "Use mouse button 5 (next)"
+msgstr "使用鼠标按键 5（下一个）"
+
+#: grease_pencil_tools/timeline_scrub.py:819
+msgid "Use scrub in node editor"
+msgstr "在节点编辑器中使用拖动预览"
+
+#: grease_pencil_tools/prefs.py:257
+msgid "Use shortcuts below to deform (a help will be displayed in the topbar)"
+msgstr "使用下方快捷键进行变形（顶部栏会显示帮助）"
+
+#: grease_pencil_tools/prefs.py:255
+msgid "Use the shortcut 'Ctrl+T' in available modes (listed below)"
+msgstr "在可用模式中使用快捷键 'Ctrl+T'（见下方列表）"
+
+#: grease_pencil_tools/box_deform.py:557
+msgid "View3D not found, cannot run operator"
+msgstr "未找到 3D 视图，无法运行操作"
+
+#: grease_pencil_tools/timeline_scrub.py:788
+msgid "[ NOW TYPE KEY OR CLICK TO USE, WITH MODIFIER ]"
+msgstr "[ 现在按键或点击以使用，配合修饰键 ]"
+
+#: grease_pencil_tools/prefs.py:124
+msgid "add alt"
+msgstr "添加 Alt"
+
+#: grease_pencil_tools/prefs.py:130
+msgid "add ctrl"
+msgstr "添加 Ctrl"
+
+#: grease_pencil_tools/prefs.py:118
+msgid "add shift"
+msgstr "添加 Shift"
+
+#: grease_pencil_tools/box_deform.py:347
+#: grease_pencil_tools/ui_panels.py:50
+msgctxt "Operator"
+msgid "Box Deform"
+msgstr "框变形"
+
+#: grease_pencil_tools/draw_tools.py:9
+msgctxt "Operator"
+msgid "Camera Flip X"
+msgstr "相机 X 翻转"
+
+#: grease_pencil_tools/ui_panels.py:38
+#: grease_pencil_tools/ui_panels.py:41
+msgctxt "Operator"
+msgid "Camera Mirror Flip"
+msgstr "相机镜像翻转"
+
+#: grease_pencil_tools/layer_navigator.py:324
+msgctxt "Operator"
+msgid "Change active GP layer with a viewport interactive OSD"
+msgstr "通过视图交互式 OSD 切换活动蜡笔图层"
+
+#: grease_pencil_tools/timeline_scrub.py:536
+msgctxt "Operator"
+msgid "Change keymap"
+msgstr "更改键位映射"
+
+#: grease_pencil_tools/timeline_scrub.py:765
+msgctxt "Operator"
+msgid "Click here to change shortcut"
+msgstr "点击此处更改快捷键"
+
+#: grease_pencil_tools/layer_navigator.py:323
+msgctxt "Operator"
+msgid "GP Layer Navigator Pop up"
+msgstr "蜡笔图层导航弹出菜单"
+
+#: grease_pencil_tools/draw_tools.py:10
+msgctxt "Operator"
+msgid "Invert active camera scale.x to flip view horizontally"
+msgstr "反转活动相机的 X 轴缩放以水平翻转视图"
+
+#: grease_pencil_tools/line_reshape.py:99
+msgctxt "Operator"
+msgid "Make stroke a straight line between first and last point,        \nTweak influence in the redo panel        \nShift+click to reset infuence to 100%"
+msgstr "使笔画在首尾点之间成为直线，\n在重做面板中调整影响\nShift+点击将影响重置为 100%"
+
+#: grease_pencil_tools/timeline_scrub.py:90
+#: grease_pencil_tools/timeline_scrub.py:537
+msgctxt "Operator"
+msgid "Quick time scrubbing with a shortcut"
+msgstr "使用快捷键快速拖动时间"
+
+#: grease_pencil_tools/ui_panels.py:32
+msgctxt "Operator"
+msgid "Reset Rotation"
+msgstr "重置旋转"
+
+#: grease_pencil_tools/rotate_canvas.py:310
+msgctxt "Operator"
+msgid "Restore Rotation"
+msgstr "恢复旋转"
+
+#: grease_pencil_tools/rotate_canvas.py:311
+msgctxt "Operator"
+msgid "Restore active camera rotation from previously saved state"
+msgstr "从先前保存的状态恢复活动相机旋转"
+
+#: grease_pencil_tools/rotate_canvas.py:70
+msgctxt "Operator"
+msgid "Rotate Canvas"
+msgstr "旋转画布"
+
+#: grease_pencil_tools/rotate_canvas.py:286
+#: grease_pencil_tools/ui_panels.py:33
+msgctxt "Operator"
+msgid "Save Rotation"
+msgstr "保存旋转"
+
+#: grease_pencil_tools/rotate_canvas.py:287
+msgctxt "Operator"
+msgid "Save active camera rotation (per camera property)"
+msgstr "保存活动相机旋转（按相机属性）"
+
+#: grease_pencil_tools/line_reshape.py:98
+#: grease_pencil_tools/ui_panels.py:56
+msgctxt "Operator"
+msgid "Straight Stroke"
+msgstr "直线笔画"
+
+#: grease_pencil_tools/timeline_scrub.py:89
+msgctxt "Operator"
+msgid "Time scrub"
+msgstr "时间拖动"
+
+#: grease_pencil_tools/box_deform.py:348
+msgctxt "Operator"
+msgid "Use lattice for free box transforms on grease pencil points        \n(Ctrl+T)"
+msgstr "使用晶格对蜡笔点进行自由框式变换\n(Ctrl+T)"
+
+#: grease_pencil_tools/ui_panels.py:27
+msgctxt "Operator"
+msgid "Zoom 1:1"
+msgstr "缩放 1:1"
+
+#: grease_pencil_tools/ui_panels.py:28
+msgctxt "Operator"
+msgid "Zoom Fit"
+msgstr "缩放至适配"

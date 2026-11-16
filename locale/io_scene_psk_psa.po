@@ -1,0 +1,1177 @@
+# perfect-chinese: 1
+# id: io_scene_psk_psa
+# kind: addon
+# module: bl_ext.blender_org.io_scene_psk_psa
+# name: Unreal PSK/PSA (.psk/.psa)
+# name_zh: PSK/PSA导入导出
+# translator: KeshiMiao
+# category: Game Engine
+# supported_versions: >=5.0.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: shared/types.py:95
+msgid "-X Forward"
+msgstr "-X 向前"
+
+#: shared/types.py:104
+msgid "-X Up"
+msgstr "-X 向上"
+
+#: shared/types.py:96
+msgid "-Y Forward"
+msgstr "-Y 向前"
+
+#: shared/types.py:105
+msgid "-Y Up"
+msgstr "-Y 向上"
+
+#: shared/types.py:97
+msgid "-Z Forward"
+msgstr "-Z 向前"
+
+#: shared/types.py:106
+msgid "-Z Up"
+msgstr "-Z 向上"
+
+#: psa/import_/properties.py:42
+#: shared/types.py:64
+msgid "Action"
+msgstr "动作"
+
+#: psa/export/properties.py:137
+#: psa/export/properties.py:142
+msgid "Action Metadata"
+msgstr "动作元数据"
+
+#: psa/export/properties.py:31
+msgid "Action Name"
+msgstr "动作名称"
+
+#: psa/export/properties.py:129
+#: psa/export/properties.py:152
+msgid "Actions"
+msgstr "动作"
+
+#: psa/export/properties.py:132
+msgid "Active Action"
+msgstr "活动动作"
+
+#: psa/import_/properties.py:66
+msgid "Additional data will be written to the custom properties of the Action (e.g., frame rate)"
+msgstr "附加数据将写入动作的自定义属性（例如帧率）"
+
+#: psa/import_/operators.py:390
+msgid "Advanced"
+msgstr "高级"
+
+#: shared/types.py:86
+msgid "All"
+msgstr "全部"
+
+#: shared/types.py:86
+msgid "All bones will be exported"
+msgstr "将导出所有骨骼"
+
+#: psk/import_/operators.py:60
+#: shared/types.py:149
+msgid "Armature"
+msgstr "骨架"
+
+#: psa/export/properties.py:32
+msgid "Armature Object Name"
+msgstr "骨架物体名称"
+
+#: psk/properties.py:70
+msgid "Armature Only"
+msgstr "仅骨架"
+
+#: psa/import_/properties.py:47
+msgid "Assign each imported action a fake user so that the data block is saved even it has no users"
+msgstr "为每个导入的动作分配假用户，以便即使没有用户也保存该数据块"
+
+#: psk/export/properties.py:18
+msgid "Automatic"
+msgstr "自动"
+
+#: psk/export/properties.py:18
+msgid "Automatically order the materials"
+msgstr "自动排序材质"
+
+#: psk/properties.py:140
+msgid "BDK Repository ID"
+msgstr "BDK 仓库 ID"
+
+#: shared/types.py:87
+msgid "Bone Collections"
+msgstr "骨骼集合"
+
+#: shared/types.py:174
+msgid "Bone Filter"
+msgstr "骨骼筛选"
+
+#: psk/properties.py:119
+msgid "Bone Length"
+msgstr "骨骼长度"
+
+#: psa/import_/operators.py:394
+msgid "Bone Mapping"
+msgstr "骨骼映射"
+
+#: psa/import_/properties.py:31
+msgid "Bone names must match exactly."
+msgstr "骨骼名称必须完全匹配。"
+
+#: psa/export/operators.py:333
+#: psa/export/operators.py:614
+msgid "Bones"
+msgstr "骨骼"
+
+#: psa/import_/properties.py:32
+msgid "Bones names must match, ignoring case (e.g., the bone PSA bone 'root' can be mapped to the armature bone 'Root')"
+msgstr "骨骼名称必须匹配，忽略大小写（例如，PSA 中的骨骼 'root' 可映射到骨架骨骼 'Root'）"
+
+#: psa/import_/properties.py:32
+msgid "Case Insensitive"
+msgstr "不区分大小写"
+
+#: psa/import_/properties.py:83
+msgid "Case Sensitive"
+msgstr "区分大小写"
+
+#: psk/properties.py:99
+msgid "Components"
+msgstr "组件"
+
+#: psa/export/operators.py:458
+#: shared/types.py:53
+msgid "Compression Ratio"
+msgstr "压缩比"
+
+#: psa/export/properties.py:193
+#: psa/import_/properties.py:102
+msgid "Compression Ratio Source"
+msgstr "压缩比来源"
+
+#: psa/import_/properties.py:77
+msgid "Convert keyframes to read-only samples. Recommended if you do not plan on editing the actions directly"
+msgstr "将关键帧转换为只读采样。如果不打算直接编辑动作，推荐使用"
+
+#: psa/import_/properties.py:77
+msgid "Convert to Samples"
+msgstr "转换为采样"
+
+#: psa/export/properties.py:138
+#: psa/export/properties.py:143
+msgid "Custom"
+msgstr "自定义"
+
+#: psa/import_/properties.py:103
+msgid "Custom Compression Ratio"
+msgstr "自定义压缩比"
+
+#: psa/import_/properties.py:92
+msgid "Custom FPS"
+msgstr "自定义 FPS"
+
+#: psa/import_/operators.py:373
+#: psk/export/operators.py:291
+msgid "Data"
+msgstr "数据"
+
+#: psa/export/operators.py:773
+#: psa/export/operators.py:786
+msgid "Deselect All"
+msgstr "取消全选"
+
+#: psa/export/operators.py:774
+#: psa/export/operators.py:787
+msgid "Deselect all visible sequences"
+msgstr "取消选择所有可见序列"
+
+#: psa/import_/operators.py:44
+msgid "Each sequence name should be on a new line."
+msgstr "每个序列名称应单独一行。"
+
+#: psa/export/properties.py:29
+msgid "End Frame"
+msgstr "结束帧"
+
+#: psk/properties.py:18
+msgid "Environment"
+msgstr "环境"
+
+#: psk/properties.py:18
+msgid "Environment mapped"
+msgstr "环境映射"
+
+#: psk/export/properties.py:13
+msgid "Evaluated"
+msgstr "已求值"
+
+#: psa/import_/properties.py:31
+msgid "Exact"
+msgstr "精确"
+
+#: shared/types.py:155
+msgid "Export Space"
+msgstr "导出空间"
+
+#: psk/export/properties.py:42
+msgid "Export VTXNORMS section."
+msgstr "导出 VTXNORMS 段。"
+
+#: psk/export/properties.py:42
+msgid "Export Vertex Normals"
+msgstr "导出顶点法线"
+
+#: shared/types.py:150
+msgid "Export in the space of the root bone"
+msgstr "在根骨骼空间中导出"
+
+#: shared/types.py:148
+msgid "Export in world space"
+msgstr "在世界空间中导出"
+
+#: shared/types.py:149
+msgid "Export the local space of the armature object"
+msgstr "导出骨架物体的局部空间"
+
+#: psk/export/operators.py:470
+msgid "Extended Format"
+msgstr "扩展格式"
+
+#: psk/import_/operators.py:49
+msgid "Extra UVs"
+msgstr "额外 UV"
+
+#: psa/export/operators.py:452
+#: shared/types.py:55
+msgid "FPS"
+msgstr "FPS"
+
+#: psa/export/properties.py:186
+#: psa/import_/properties.py:91
+msgid "FPS Source"
+msgstr "FPS 来源"
+
+#: psa/import_/properties.py:47
+msgid "Fake User"
+msgstr "假用户"
+
+#: psa/export/operators.py:280
+#: psa/export/operators.py:583
+msgid "File Path"
+msgstr "文件路径"
+
+#: psa/export/operators.py:280
+#: psa/export/operators.py:583
+msgid "File path used for exporting the PSA file"
+msgstr "用于导出 PSA 文件的文件路径"
+
+#: psk/export/operators.py:234
+#: psk/export/operators.py:368
+msgid "File path used for exporting the PSK file"
+msgstr "用于导出 PSK 文件的文件路径"
+
+#: psa/import_/operators.py:233
+#: psa/import_/operators.py:295
+msgid "File path used for importing the PSA file"
+msgstr "用于导入 PSA 文件的文件路径"
+
+#: psa/export/properties.py:212
+msgid "Filter by Name"
+msgstr "按名称过滤"
+
+#: psa/import_/properties.py:74
+#: psa/import_/properties.py:131
+msgid "Filter using regular expressions"
+msgstr "使用正则表达式过滤"
+
+#: psk/ui.py:24
+msgid "Flags"
+msgstr "标志"
+
+#: psk/properties.py:17
+msgid "Flat"
+msgstr "平直"
+
+#: psk/properties.py:17
+msgid "Flat surface, don't do bMeshCurvy thing"
+msgstr "平直表面，不进行 bMeshCurvy 处理"
+
+#: shared/types.py:123
+msgid "Forward"
+msgstr "前向"
+
+#: psk/properties.py:16
+msgid "Full brightness, no lighting"
+msgstr "全亮度，无光照"
+
+#: psa/export/operators.py:430
+#: psa/export/properties.py:30
+msgid "Group"
+msgstr "组"
+
+#: psa/export/properties.py:245
+msgid "Group Source"
+msgstr "组来源"
+
+#: psa/import_/properties.py:62
+msgid "If an action with a matching name already exists, the existing action will have it's data overwritten instead of a new action being created"
+msgstr "如果已存在同名动作，将覆盖现有动作的数据，而不是新建动作"
+
+#: psa/import_/properties.py:87
+msgid "Ignore Trailing Whitespace"
+msgstr "忽略尾部空白"
+
+#: psk/properties.py:93
+msgid "Import Extra UVs"
+msgstr "导入额外 UV"
+
+#: psk/properties.py:110
+msgid "Import Materials"
+msgstr "导入材质"
+
+#: psk/properties.py:106
+msgid "Import Mesh"
+msgstr "导入网格"
+
+#: psk/properties.py:129
+msgid "Import Shape Keys"
+msgstr "导入形态键"
+
+#: psk/properties.py:115
+msgid "Import Skeleton"
+msgstr "导入骨架"
+
+#: psk/properties.py:74
+msgid "Import Vertex Colors"
+msgstr "导入顶点颜色"
+
+#: psk/properties.py:87
+msgid "Import Vertex Normals"
+msgstr "导入顶点法向"
+
+#: psk/properties.py:70
+msgid "Import armature only"
+msgstr "仅导入骨架"
+
+#: psk/properties.py:93
+msgid "Import extra UV maps, if available"
+msgstr "导入额外 UV 贴图（如果可用）"
+
+#: psk/properties.py:68
+msgid "Import mesh and armature"
+msgstr "导入网格和骨架"
+
+#: psk/properties.py:69
+msgid "Import mesh only"
+msgstr "仅导入网格"
+
+#: psk/properties.py:129
+msgid "Import shape keys, if available.\n\nThis is only supported for PSKX files"
+msgstr "导入形态键（如果可用）。\n\n仅 PSKX 文件支持此功能"
+
+#: psk/properties.py:74
+msgid "Import vertex colors, if available"
+msgstr "导入顶点颜色（如果可用）"
+
+#: psk/properties.py:87
+msgid "Import vertex normals, if available.\n\nThis is only supported for PSKX files"
+msgstr "导入顶点法向（如果可用）。\n\n仅 PSKX 文件支持此功能"
+
+#: psa/export/properties.py:147
+msgid "Interpolated"
+msgstr "插值"
+
+#: psa/export/properties.py:217
+msgid "Invert"
+msgstr "反转"
+
+#: psa/export/properties.py:217
+msgid "Invert filtering (show hidden items, and vice versa)"
+msgstr "反转过滤（显示隐藏项，反之亦然）"
+
+#: psa/export/properties.py:34
+msgid "Is Pose Marker"
+msgstr "是姿态标记"
+
+#: shared/types.py:54
+msgid "Key Quota"
+msgstr "关键帧配额"
+
+#: psa/import_/properties.py:65
+msgid "Keyframes"
+msgstr "关键帧"
+
+#: psk/properties.py:119
+msgid "Length of the bones"
+msgstr "骨骼长度"
+
+#: psk/properties.py:63
+msgid "Linear"
+msgstr "线性"
+
+#: psk/export/properties.py:19
+msgid "Manual"
+msgstr "手动"
+
+#: psk/export/properties.py:19
+msgid "Manually arrange the materials"
+msgstr "手动排列材质"
+
+#: psa/export/properties.py:33
+msgid "Marker Index"
+msgstr "标记索引"
+
+#: psk/properties.py:10
+msgid "Masked"
+msgstr "遮罩"
+
+#: psk/properties.py:10
+msgid "Masked two-sided"
+msgstr "遮罩双面"
+
+#: psk/export/operators.py:71
+msgid "Material Name"
+msgstr "材质名称"
+
+#: psk/export/operators.py:319
+#: psk/export/operators.py:431
+msgid "Material Order"
+msgstr "材质顺序"
+
+#: psk/export/operators.py:313
+#: psk/export/operators.py:426
+msgid "Materials"
+msgstr "材质"
+
+#: psk/export/operators.py:286
+#: psk/export/operators.py:407
+msgid "Mesh"
+msgstr "网格"
+
+#: psk/properties.py:68
+msgid "Mesh & Armature"
+msgstr "网格和骨架"
+
+#: psk/properties.py:69
+msgid "Mesh Only"
+msgstr "仅网格"
+
+#: psa/import_/properties.py:66
+msgid "Metadata"
+msgstr "元数据"
+
+#: psk/properties.py:11
+msgid "Modulate"
+msgstr "调制"
+
+#: psk/properties.py:11
+msgid "Modulation blended two-sided"
+msgstr "调制混合双面"
+
+#: psa/export/properties.py:178
+msgid "NLA Track"
+msgstr "NLA 轨道"
+
+#: psa/export/properties.py:185
+msgid "NLA Track Index"
+msgstr "NLA 轨道索引"
+
+#: psa/export/properties.py:131
+msgid "NLA Track Strips"
+msgstr "NLA 轨道片段"
+
+#: psa/export/operators.py:411
+#: psa/export/properties.py:26
+msgid "Name"
+msgstr "名称"
+
+#: psa/export/operators.py:416
+msgid "Name Prefix"
+msgstr "名称前缀"
+
+#: psk/properties.py:19
+msgid "No Smooth"
+msgstr "不平滑"
+
+#: shared/operators.py:23
+msgid "No active collection"
+msgstr "无活动集合"
+
+#: shared/operators.py:31
+msgid "No armature modifiers found on mesh objects"
+msgstr "网格物体上未找到骨架修改器"
+
+#: psk/properties.py:19
+msgid "No bilinear filtering on this poly's texture"
+msgstr "此多边形的纹理不启用双线性过滤"
+
+#: psa/export/operators.py:290
+msgid "No collection found for export"
+msgstr "未找到用于导出的集合"
+
+#: psa/export/operators.py:847
+msgid "No collection found in context"
+msgstr "上下文中未找到集合"
+
+#: psa/import_/operators.py:311
+msgid "No sequences selected"
+msgstr "未选择序列"
+
+#: psa/export/operators.py:302
+#: psa/export/operators.py:693
+msgid "No sequences were selected for export"
+msgstr "未选择要导出的序列"
+
+#: psa/import_/operators.py:50
+msgid "No text block selected"
+msgstr "未选择文本块"
+
+#: psk/export/operators.py:45
+#: psk/export/operators.py:80
+msgid "No valid export operator found in context"
+msgstr "上下文中未找到有效的导出操作符"
+
+#: psk/properties.py:7
+msgid "Normal"
+msgstr "普通"
+
+#: psk/properties.py:8
+msgid "Normal Two-Sided"
+msgstr "普通双面"
+
+#: psk/properties.py:8
+msgid "Normal but two-sided"
+msgstr "普通但双面"
+
+#: psk/properties.py:7
+msgid "Normal one-sided"
+msgstr "普通单面"
+
+#: psk/export/ui.py:40
+msgid "Not Found"
+msgstr "未找到"
+
+#: psk/export/properties.py:29
+msgid "Object Evaluation State"
+msgstr "物体求值状态"
+
+#: psa/import_/properties.py:71
+#: psa/import_/properties.py:128
+msgid "Only Show Selected"
+msgstr "仅显示选中项"
+
+#: shared/types.py:87
+msgid "Only bones belonging to the selected bone collections and their ancestors will be exported"
+msgstr "仅导出属于所选骨骼集合及其祖先的骨骼"
+
+#: psa/export/properties.py:212
+msgid "Only show items matching this name (use '*' as wildcard)"
+msgstr "仅显示名称匹配的项（使用“*”作为通配符）"
+
+#: psa/import_/properties.py:71
+#: psa/import_/properties.py:128
+msgid "Only show selected sequences"
+msgstr "仅显示选中的序列"
+
+#: psk/export/properties.py:14
+msgid "Original"
+msgstr "原始"
+
+#: psa/import_/properties.py:62
+msgid "Overwrite"
+msgstr "覆盖"
+
+#: shared/types.py:60
+msgid "PSA Export"
+msgstr "PSA 导出"
+
+#: shared/ui.py:24
+msgid "PSK Export"
+msgstr "PSK 导出"
+
+#: psk/ui.py:5
+msgid "PSK Material"
+msgstr "PSK 材质"
+
+#: shared/ui.py:28
+msgid "PSK/PSA"
+msgstr "PSK/PSA"
+
+#: psk/properties.py:12
+msgid "Placeholder"
+msgstr "占位符"
+
+#: psk/properties.py:12
+msgid "Placeholder triangle for positioning weapon. Invisible"
+msgstr "用于定位武器的占位三角形。不可见"
+
+#: psa/export/properties.py:210
+#: psa/import_/properties.py:61
+msgid "Prefix"
+msgstr "前缀"
+
+#: psa/import_/properties.py:60
+msgid "Prefix Action Name"
+msgstr "为动作名称添加前缀"
+
+#: psa/import_/properties.py:74
+#: psa/import_/properties.py:131
+msgid "Regular Expression"
+msgstr "正则表达式"
+
+#: shared/types.py:150
+msgid "Root"
+msgstr "根"
+
+#: psa/export/operators.py:441
+msgid "Sampling"
+msgstr "采样"
+
+#: psa/export/operators.py:448
+#: psa/export/properties.py:238
+msgid "Sampling Mode"
+msgstr "采样模式"
+
+#: psa/export/properties.py:148
+msgid "Sampling is performed by evaluating the bone poses at the subframe time.\n\nNot recommended unless you are also animating with subframes enabled."
+msgstr "通过在子帧时间对骨骼姿势求值来执行采样。\n\n除非你也启用了子帧进行动画，否则不推荐。"
+
+#: psa/export/properties.py:147
+msgid "Sampling is performed by interpolating the evaluated bone poses from the adjacent whole frames."
+msgstr "通过对相邻整帧求值后的骨骼姿势进行插值来执行采样。"
+
+#: psk/properties.py:135
+#: shared/types.py:138
+msgid "Scale"
+msgstr "缩放"
+
+#: psa/import_/properties.py:69
+msgid "Scale Keys"
+msgstr "缩放关键帧"
+
+#: psa/import_/properties.py:113
+msgid "Scale factor for bone translation values. Use this when the scale of the armature does not match the PSA file"
+msgstr "骨骼平移值的缩放系数。当骨架的缩放与 PSA 文件不匹配时使用。"
+
+#: shared/types.py:138
+msgid "Scale factor to apply to all location data"
+msgstr "应用于所有位置数据的缩放系数"
+
+#: psa/export/properties.py:136
+#: psa/import_/properties.py:37
+msgid "Scene"
+msgstr "场景"
+
+#: psa/export/operators.py:402
+#: psa/export/operators.py:622
+msgid "Select"
+msgstr "选择"
+
+#: psa/export/operators.py:740
+#: psa/export/operators.py:751
+msgid "Select All"
+msgstr "全选"
+
+#: psa/import_/operators.py:344
+msgid "Select a PSA file"
+msgstr "选择 PSA 文件"
+
+#: psa/export/operators.py:741
+#: psa/export/operators.py:752
+msgid "Select all visible sequences"
+msgstr "选择所有可见序列"
+
+#: psa/export/properties.py:27
+msgid "Selected"
+msgstr "已选中"
+
+#: psa/import_/properties.py:36
+msgid "Sequence"
+msgstr "序列"
+
+#: psa/export/operators.py:384
+#: psa/import_/operators.py:339
+msgid "Sequences"
+msgstr "序列"
+
+#: psa/export/properties.py:130
+msgid "Sequences are delineated by scene timeline markers"
+msgstr "序列由场景时间线标记划分"
+
+#: psa/export/properties.py:131
+msgid "Sequences are delineated by the start & end times of strips on the selected NLA track"
+msgstr "序列由所选 NLA 轨道上片段的开始和结束时间划分"
+
+#: psa/export/properties.py:129
+msgid "Sequences will be exported using actions"
+msgstr "序列将使用动作导出"
+
+#: psk/import_/operators.py:56
+msgid "Shape Keys"
+msgstr "形态键"
+
+#: psa/export/properties.py:232
+msgid "Show Reversed"
+msgstr "显示反向"
+
+#: psa/export/properties.py:222
+msgid "Show actions that belong to an asset library"
+msgstr "显示属于资产库的动作"
+
+#: psa/export/properties.py:222
+msgid "Show assets"
+msgstr "显示资产"
+
+#: psa/export/properties.py:227
+msgid "Show pose markers"
+msgstr "显示姿势标记"
+
+#: psa/export/properties.py:232
+msgid "Show reversed sequences"
+msgstr "显示反向序列"
+
+#: psa/export/operators.py:392
+#: psa/export/properties.py:171
+msgid "Source"
+msgstr "源"
+
+#: psa/export/properties.py:28
+msgid "Start Frame"
+msgstr "起始帧"
+
+#: psa/import_/properties.py:57
+msgid "Stash"
+msgstr "暂存"
+
+#: psa/import_/properties.py:57
+msgid "Stash each imported action as a strip on a new non-contributing NLA track"
+msgstr "将每个导入的动作作为片段暂存到新的不参与 NLA 轨道"
+
+#: psa/export/properties.py:148
+msgid "Subframe"
+msgstr "子帧"
+
+#: psa/export/properties.py:211
+msgid "Suffix"
+msgstr "后缀"
+
+#: psk/properties.py:140
+msgid "The ID of the BDK repository to use for loading materials"
+msgstr "用于加载材质的 BDK 仓库 ID"
+
+#: psa/export/properties.py:132
+msgid "The active action will be exported for each selected armature"
+msgstr "将为每个所选骨架导出活动动作"
+
+#: psa/import_/operators.py:169
+msgid "The active object must be an armature"
+msgstr "活动物体必须是骨架"
+
+#: psa/import_/properties.py:43
+msgid "The compression ratio is set to a custom value"
+msgstr "压缩比设置为自定义值"
+
+#: psa/import_/properties.py:42
+msgid "The compression ratio is sourced from the action metadata"
+msgstr "压缩比来自动作元数据"
+
+#: psa/import_/properties.py:103
+msgid "The compression ratio to apply to the imported sequences"
+msgstr "应用于导入序列的压缩比"
+
+#: psa/export/properties.py:142
+msgid "The compression ratio will be determined by action's Compression Ratio property found in the PSA Export panel.\n\nIf the Sequence Source is Timeline Markers, the lowest value of all contributing actions will be used"
+msgstr "压缩比将由 PSA 导出面板中动作的压缩比属性决定。\n\n如果序列来源为时间线标记，则将使用所有参与动作中的最低值"
+
+#: shared/types.py:55
+msgid "The frame rate of the exported sequence"
+msgstr "导出序列的帧率"
+
+#: psa/import_/properties.py:92
+msgid "The frame rate to which the imported sequences will be resampled to"
+msgstr "导入序列将重采样到的帧率"
+
+#: psa/export/properties.py:137
+msgid "The frame rate will be determined by action's FPS property found in the PSA Export panel.\n\nIf the Sequence Source is Timeline Markers, the lowest value of all contributing actions will be used"
+msgstr "帧率将由 PSA 导出面板中动作的 FPS 属性决定。\n\n如果序列来源为时间线标记，则将使用所有参与动作中的最低值"
+
+#: shared/types.py:52
+msgid "The group of the sequence"
+msgstr "序列的组"
+
+#: psa/export/properties.py:252
+msgid "The group to apply to all exported sequences. Only applicable when Group Source is Custom."
+msgstr "应用于所有导出序列的组。仅在组来源为自定义时适用。"
+
+#: psa/export/properties.py:199
+#: shared/types.py:53
+msgid "The key sampling ratio of the exported sequence.\n\nA compression ratio of 1.0 will export all frames, while a compression ratio of 0.5 will export half of the frames"
+msgstr "导出序列的关键帧采样比例。\n\n压缩比为 1.0 将导出所有帧，而压缩比为 0.5 将导出一半的帧"
+
+#: psa/export/properties.py:238
+msgid "The method by which frames are sampled"
+msgstr "帧的采样方式"
+
+#: shared/types.py:54
+msgid "The minimum number of frames to be exported"
+msgstr "要导出的最小帧数"
+
+#: psk/export/properties.py:34
+msgid "The order in which to export the materials"
+msgstr "导出材质的顺序"
+
+#: psa/import_/properties.py:36
+msgid "The sequence frame rate matches the original frame rate"
+msgstr "序列帧率匹配原始帧率"
+
+#: psa/import_/properties.py:38
+msgid "The sequence is resampled to a custom frame rate"
+msgstr "序列重采样为自定义帧率"
+
+#: psa/import_/properties.py:37
+msgid "The sequence is resampled to the frame rate of the scene"
+msgstr "序列重采样为场景帧率"
+
+#: psa/export/properties.py:245
+msgid "The source of the exported sequence's group property"
+msgstr "导出序列组属性的来源"
+
+#: psk/properties.py:80
+msgid "The source vertex color space"
+msgstr "源顶点颜色空间"
+
+#: psa/export/properties.py:130
+msgid "Timeline Markers"
+msgstr "时间线标记"
+
+#: psa/export/operators.py:351
+#: psa/export/operators.py:633
+msgid "Transform"
+msgstr "变换"
+
+#: shared/types.py:167
+msgid "Transform Source"
+msgstr "变换来源"
+
+#: psa/import_/operators.py:405
+#: psa/import_/properties.py:113
+msgid "Translation Scale"
+msgstr "平移缩放"
+
+#: psk/properties.py:9
+msgid "Translucent"
+msgstr "半透明"
+
+#: psk/properties.py:9
+msgid "Translucent two-sided"
+msgstr "半透明双面"
+
+#: psk/properties.py:27
+msgid "Triangle Bit Flags"
+msgstr "三角形位标志"
+
+#: psk/properties.py:23
+msgid "Triangle Type"
+msgstr "三角形类型"
+
+#: psk/properties.py:16
+msgid "Unlit"
+msgstr "无光照"
+
+#: psa/file_handlers.py:9
+msgid "Unreal PSA"
+msgstr "Unreal PSA"
+
+#: psk/import_/operators.py:168
+msgid "Unreal PSK"
+msgstr "Unreal PSK"
+
+#: shared/types.py:129
+msgid "Up"
+msgstr "上"
+
+#: psa/import_/properties.py:51
+msgid "Use Config File"
+msgstr "使用配置文件"
+
+#: shared/types.py:163
+msgid "Use custom transform settings"
+msgstr "使用自定义变换设置"
+
+#: psk/export/properties.py:13
+msgid "Use data from fully evaluated object"
+msgstr "使用完全求值后的物体数据"
+
+#: psk/export/properties.py:14
+msgid "Use data from original object with no modifiers applied"
+msgstr "使用未应用修改器的原始物体数据"
+
+#: psa/import_/properties.py:51
+msgid "Use the .config file that is sometimes generated when the PSA file is exported from UEViewer. This file contains options that can be used to filter out certain bones tracks from the imported actions"
+msgstr "使用从 UEViewer 导出 PSA 文件时有时会生成的 .config 文件。此文件包含可用于从导入动作中过滤掉某些骨骼轨道的选项"
+
+#: shared/types.py:162
+msgid "Use the scene transform settings"
+msgstr "使用场景变换设置"
+
+#: psk/properties.py:80
+msgid "Vertex Color Space"
+msgstr "顶点颜色空间"
+
+#: psk/import_/operators.py:51
+msgid "Vertex Colors"
+msgstr "顶点颜色"
+
+#: psk/export/operators.py:475
+#: psk/import_/operators.py:55
+msgid "Vertex Normals"
+msgstr "顶点法线"
+
+#: psk/properties.py:99
+msgid "Which components to import"
+msgstr "要导入的组件"
+
+#: shared/types.py:148
+msgid "World"
+msgstr "世界"
+
+#: shared/types.py:92
+msgid "X Forward"
+msgstr "X 向前"
+
+#: shared/types.py:101
+msgid "X Up"
+msgstr "X 向上"
+
+#: shared/types.py:93
+msgid "Y Forward"
+msgstr "Y 向前"
+
+#: shared/types.py:102
+msgid "Y Up"
+msgstr "Y 向上"
+
+#: shared/types.py:94
+msgid "Z Forward"
+msgstr "Z 向前"
+
+#: shared/types.py:103
+msgid "Z Up"
+msgstr "Z 向上"
+
+#: psk/properties.py:64
+msgid "sRGBA"
+msgstr "sRGBA"
+
+#: psk/export/operators.py:67
+msgctxt "Operator"
+msgid "Add Material"
+msgstr "添加材质"
+
+#: psk/export/operators.py:68
+msgctxt "Operator"
+msgid "Add a material to the material name list (useful if you want to add a material slot that is not actually used in the mesh)"
+msgstr "将材质添加到材质名称列表（适用于添加网格中实际未使用的材质槽）"
+
+#: psa/export/operators.py:403
+#: psa/export/operators.py:623
+msgctxt "Operator"
+msgid "All"
+msgstr "全部"
+
+#: psa/export/operators.py:817
+msgctxt "Operator"
+msgid "Deselect All"
+msgstr "全部取消选择"
+
+#: psa/export/operators.py:818
+msgctxt "Operator"
+msgid "Deselect all bone collections"
+msgstr "取消选择所有骨骼集合"
+
+#: psa/import_/operators.py:87
+msgctxt "Operator"
+msgid "Deselect all visible sequences"
+msgstr "取消选择所有可见序列"
+
+#: psa/export/operators.py:275
+#: psa/export/operators.py:578
+msgctxt "Operator"
+msgid "Export"
+msgstr "导出"
+
+#: psa/export/operators.py:277
+#: psa/export/operators.py:580
+msgctxt "Operator"
+msgid "Export actions to PSA"
+msgstr "导出动作到 PSA"
+
+#: psk/export/operators.py:365
+msgctxt "Operator"
+msgid "Export selected meshes to PSK"
+msgstr "导出选中的网格到 PSK"
+
+#: psa/import_/operators.py:289
+#: psk/import_/operators.py:81
+msgctxt "Operator"
+msgid "Import"
+msgstr "导入"
+
+#: psa/import_/operators.py:130
+#: psa/import_/operators.py:229
+msgctxt "Operator"
+msgid "Import PSA"
+msgstr "导入 PSA"
+
+#: psk/import_/operators.py:119
+msgctxt "Operator"
+msgid "Import PSK"
+msgstr "导入 PSK"
+
+#: psk/import_/operators.py:121
+msgctxt "Operator"
+msgid "Import PSK files by dragging and dropping them onto the 3D view"
+msgstr "将 PSK 文件拖放到 3D 视图中以导入"
+
+#: psk/import_/operators.py:83
+msgctxt "Operator"
+msgid "Import a PSK file"
+msgstr "导入 PSK 文件"
+
+#: psa/import_/operators.py:230
+msgctxt "Operator"
+msgid "Import all sequences from the selected PSA file"
+msgstr "导入所选 PSA 文件中的所有序列"
+
+#: psa/import_/operators.py:131
+msgctxt "Operator"
+msgid "Import multiple PSA files"
+msgstr "导入多个 PSA 文件"
+
+#: psa/import_/operators.py:290
+msgctxt "Operator"
+msgid "Import the selected animations into the scene as actions"
+msgstr "将所选动画作为动作导入场景"
+
+#: psk/export/operators.py:110
+#: psk/export/operators.py:153
+msgctxt "Operator"
+msgid "Move Down"
+msgstr "下移"
+
+#: psk/export/operators.py:92
+#: psk/export/operators.py:128
+msgctxt "Operator"
+msgid "Move Up"
+msgstr "上移"
+
+#: psk/export/operators.py:112
+msgctxt "Operator"
+msgid "Move the selected material down one slot"
+msgstr "将所选材质下移一个槽位"
+
+#: psk/export/operators.py:155
+msgctxt "Operator"
+msgid "Move the selected material name down one slot"
+msgstr "将所选材质名称下移一个槽位"
+
+#: psk/export/operators.py:130
+msgctxt "Operator"
+msgid "Move the selected material name up one slot"
+msgstr "将所选材质名称上移一个槽位"
+
+#: psk/export/operators.py:94
+msgctxt "Operator"
+msgid "Move the selected material up one slot"
+msgstr "将所选材质上移一个槽位"
+
+#: psa/export/operators.py:404
+#: psa/export/operators.py:624
+msgctxt "Operator"
+msgid "None"
+msgstr "无"
+
+#: shared/operators.py:13
+msgctxt "Operator"
+msgid "Populate Bone Collection List"
+msgstr "填充骨骼集合列表"
+
+#: psk/export/operators.py:38
+msgctxt "Operator"
+msgid "Populate Material Name List"
+msgstr "填充材质名称列表"
+
+#: psa/export/operators.py:837
+msgctxt "Operator"
+msgid "Populate Sequences"
+msgstr "填充序列"
+
+#: shared/operators.py:14
+msgctxt "Operator"
+msgid "Populate the bone collection list from the armature that will be used in this collection export"
+msgstr "从此集合导出所用的骨架填充骨骼集合列表"
+
+#: psk/export/operators.py:39
+msgctxt "Operator"
+msgid "Populate the material name list from the objects that will be used in this export"
+msgstr "从此次导出所用的物体填充材质名称列表"
+
+#: psa/export/operators.py:838
+msgctxt "Operator"
+msgid "Populate the sequences list based on the armatures in the collection"
+msgstr "根据集合中的骨架填充序列列表"
+
+#: psa/export/operators.py:387
+msgctxt "Operator"
+msgid "Refresh"
+msgstr "刷新"
+
+#: psa/export/operators.py:797
+#: shared/operators.py:50
+msgctxt "Operator"
+msgid "Select All"
+msgstr "全选"
+
+#: psa/import_/operators.py:27
+msgctxt "Operator"
+msgid "Select By Text List"
+msgstr "按文本列表选择"
+
+#: psa/export/operators.py:798
+#: shared/operators.py:51
+msgctxt "Operator"
+msgid "Select all bone collections"
+msgstr "选择所有骨骼集合"
+
+#: psa/import_/operators.py:66
+msgctxt "Operator"
+msgid "Select all sequences"
+msgstr "选择所有序列"
+
+#: psa/import_/operators.py:28
+msgctxt "Operator"
+msgid "Select sequences by name from text list"
+msgstr "按文本列表中的名称选择序列"
+
+#: __init__.py:83
+#: __init__.py:87
+msgctxt "Operator"
+msgid "Unreal PSA (.psa)"
+msgstr "Unreal PSA (.psa)"
+
+#: __init__.py:75
+msgctxt "Operator"
+msgid "Unreal PSK (.psk)"
+msgstr "Unreal PSK (.psk)"
+
+#: __init__.py:79
+msgctxt "Operator"
+msgid "Unreal PSK (.psk/.pskx)"
+msgstr "Unreal PSK (.psk/.pskx)"

@@ -1,0 +1,463 @@
+# perfect-chinese: 1
+# id: dynamic_sky
+# kind: addon
+# module: bl_ext.blender_org.dynamic_sky
+# name: Dynamic Sky
+# name_zh: 动态天空
+# translator: KeshiMiao
+# category: Lighting
+# supported_versions: >=5.0.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: sky.py:625
+#: sky.py:709
+msgid "A sky render is already running"
+msgstr "天空渲染已在进行中"
+
+#: ui.py:325
+msgid "Atmosphere"
+msgstr "大气"
+
+#: __init__.py:67
+msgid "Azimuth"
+msgstr "方位角"
+
+#: __init__.py:78
+#: ui.py:283
+msgid "Background"
+msgstr "背景"
+
+#: sky.py:604
+msgid "Baked image width (height is half)"
+msgstr "烘焙图像宽度（高度为其一半）"
+
+#: sky.py:667
+msgid "Baking sky in the background..."
+msgstr "正在后台烘焙天空……"
+
+#: __init__.py:83
+msgid "Blend of procedural sky and image"
+msgstr "程序化天空与图像的混合"
+
+#: ui.py:147
+msgid "Bundled preset — duplicate to edit"
+msgstr "内置预设 — 复制后可编辑"
+
+#: presets.py:456
+msgid "Bundled presets can't be deleted"
+msgstr "无法删除内置预设"
+
+#: presets.py:427
+msgid "Bundled presets can't be overwritten; add a new preset instead"
+msgstr "无法覆盖内置预设，请改为添加新预设"
+
+#: ui.py:337
+msgid "Clouds & Weather"
+msgstr "云与天气"
+
+#: __init__.py:67
+msgid "Compass direction of the selected sun (0 = north)"
+msgstr "所选太阳的罗盘方向（0 = 北）"
+
+#: __init__.py:92
+msgid "Composite the procedural clouds over the HDRI"
+msgstr "将程序化云合成到 HDRI 上"
+
+#: sky.py:665
+msgid "Could not start the bake render"
+msgstr "无法启动烘焙渲染"
+
+#: sky.py:726
+msgid "Could not start the export render"
+msgstr "无法启动导出渲染"
+
+#: __init__.py:53
+msgid "Drive the sky sun along a simple arc (rise 6:00, noon 12:00, set 18:00); keyframeable"
+msgstr "沿简单弧线驱动天空太阳（升起 6:00，正午 12:00，落下 18:00）；可设置关键帧"
+
+#: ui.py:168
+#: ui.py:173
+msgid "Dynamic Sky"
+msgstr "动态天空"
+
+#: sun.py:281
+msgid "Dynamic Sky Sun"
+msgstr "动态天空太阳"
+
+#: __init__.py:61
+msgid "Elevation"
+msgstr "仰角"
+
+#: sky.py:728
+msgid "Exporting sky in the background..."
+msgstr "正在后台导出天空……"
+
+#: presets.py:506
+#: presets.py:587
+msgid "Failed to create presets path"
+msgstr "创建预设路径失败"
+
+#: ui.py:231
+msgid "H12"
+msgstr "H12"
+
+#: ui.py:231
+msgid "H24"
+msgstr "H24"
+
+#: __init__.py:82
+msgid "HDRI"
+msgstr "HDRI"
+
+#: __init__.py:61
+msgid "Height of the selected sun above the horizon"
+msgstr "所选太阳高于地平线的高度"
+
+#: __init__.py:83
+msgid "Hybrid"
+msgstr "混合"
+
+#: __init__.py:87
+msgid "Hybrid Blend"
+msgstr "混合比例"
+
+#: sky.py:679
+msgid "Image width (height is half)"
+msgstr "图像宽度（高度为其一半）"
+
+#: __init__.py:87
+msgid "Last used Hybrid blend, restored on re-entering Hybrid"
+msgstr "上次使用的混合比例，重新进入混合模式时恢复"
+
+#: ui.py:313
+msgid "Missing node: Environment_Texture"
+msgstr "缺少节点：Environment_Texture"
+
+#: ui.py:106
+msgid "Missing node: {}"
+msgstr "缺少节点：{}"
+
+#: presets.py:483
+msgid "Name"
+msgstr "名称"
+
+#: ui.py:349
+msgid "Night Sky"
+msgstr "夜空"
+
+#: ui.py:179
+msgid "No Dynamic Sky world in this file"
+msgstr "此文件中没有动态天空世界"
+
+#: ui.py:184
+msgid "No Dynamic Sky world is active"
+msgstr "没有激活的动态天空世界"
+
+#: ui.py:311
+msgid "No HDRI image loaded"
+msgstr "未加载 HDRI 图像"
+
+#: presets.py:424
+msgid "No active preset to save"
+msgstr "没有可保存的活动预设"
+
+#: presets.py:500
+msgid "No preset name given"
+msgstr "未提供预设名称"
+
+#: presets.py:561
+msgid "Not a Dynamic Sky preset file"
+msgstr "不是动态天空预设文件"
+
+#: ui.py:212
+msgid "Presets"
+msgstr "预设"
+
+#: __init__.py:81
+msgid "Procedural"
+msgstr "程序化"
+
+#: __init__.py:92
+#: ui.py:319
+msgid "Procedural clouds over"
+msgstr "程序化云叠加于"
+
+#: sky.py:606
+#: sky.py:681
+msgid "Samples"
+msgstr "采样"
+
+#: __init__.py:73
+msgid "Show elevation/azimuth dials in the 3D view"
+msgstr "在 3D 视图中显示仰角/方位角拨盘"
+
+#: presets.py:303
+msgid "Sky Presets"
+msgstr "天空预设"
+
+#: ui.py:257
+msgid "Strength"
+msgstr "强度"
+
+#: ui.py:237
+msgid "Sun"
+msgstr "太阳"
+
+#: __init__.py:73
+msgid "Sun gizmo in viewport"
+msgstr "视图中的太阳控件"
+
+#: ui.py:265
+msgid "Temperature"
+msgstr "色温"
+
+#: __init__.py:82
+msgid "The environment image only"
+msgstr "仅环境图像"
+
+#: __init__.py:81
+msgid "The procedural sky only"
+msgstr "仅程序化天空"
+
+#: sky.py:622
+msgid "This sky is missing its HDRI nodes; run Update Sky"
+msgstr "此天空缺少 HDRI 节点；请运行更新天空"
+
+#: __init__.py:53
+#: ui.py:230
+msgid "Time of Day"
+msgstr "时间"
+
+#: __init__.py:78
+msgid "What fills the sky background"
+msgstr "天空背景的填充内容"
+
+#: sky.py:604
+#: sky.py:679
+msgid "Width"
+msgstr "宽度"
+
+#: ui.py:231
+msgid "{:s} · {:s}"
+msgstr "{:s} · {:s}"
+
+#: sun.py:226
+msgctxt "Operator"
+msgid "Add Sun Light"
+msgstr "添加太阳光"
+
+#: presets.py:321
+msgctxt "Operator"
+msgid "Add a new preset starting from the default sky values"
+msgstr "以默认天空值创建新预设"
+
+#: sun.py:227
+msgctxt "Operator"
+msgid "Add a real sun lamp to the sky's sun list"
+msgstr "向天空的太阳列表添加真实太阳灯"
+
+#: presets.py:372
+msgctxt "Operator"
+msgid "Apply Sky Preset"
+msgstr "应用天空预设"
+
+#: presets.py:373
+msgctxt "Operator"
+msgid "Apply this sky preset"
+msgstr "应用此天空预设"
+
+#: sky.py:599
+#: ui.py:376
+msgctxt "Operator"
+msgid "Bake to World"
+msgstr "烘焙到世界"
+
+#: ui.py:180
+msgctxt "Operator"
+msgid "Create Dynamic Sky"
+msgstr "创建动态天空"
+
+#: ui.py:187
+msgctxt "Operator"
+msgid "Create New"
+msgstr "新建"
+
+#: presets.py:480
+msgctxt "Operator"
+msgid "Create an editable copy of the active preset\nfrom the current settings"
+msgstr "从当前设置创建活动预设的可编辑副本"
+
+#: ui.py:152
+msgctxt "Operator"
+msgid "Delete Dynamic Sky"
+msgstr "删除动态天空"
+
+#: presets.py:439
+msgctxt "Operator"
+msgid "Delete Dynamic Sky Preset"
+msgstr "删除动态天空预设"
+
+#: presets.py:440
+msgctxt "Operator"
+msgid "Delete the current preset"
+msgstr "删除当前预设"
+
+#: ui.py:153
+msgctxt "Operator"
+msgid "Delete this Dynamic Sky world"
+msgstr "删除此动态天空世界"
+
+#: ui.py:372
+msgctxt "Operator"
+msgid "Duplicate"
+msgstr "复制"
+
+#: presets.py:479
+msgctxt "Operator"
+msgid "Duplicate Dynamic Sky Preset"
+msgstr "复制动态天空预设"
+
+#: sun.py:268
+msgctxt "Operator"
+msgid "Edit this sun's settings"
+msgstr "编辑此太阳的设置"
+
+#: presets.py:315
+msgctxt "Operator"
+msgid "Export Current to JSON..."
+msgstr "将当前设置导出为 JSON..."
+
+#: sky.py:673
+#: ui.py:377
+msgctxt "Operator"
+msgid "Export HDRI"
+msgstr "导出 HDRI"
+
+#: presets.py:521
+msgctxt "Operator"
+msgid "Export Sky Preset"
+msgstr "导出天空预设"
+
+#: presets.py:522
+msgctxt "Operator"
+msgid "Export the current sky settings to a JSON file for sharing"
+msgstr "将当前天空设置导出为 JSON 文件以便分享"
+
+#: presets.py:545
+msgctxt "Operator"
+msgid "Import Sky Preset"
+msgstr "导入天空预设"
+
+#: presets.py:314
+msgctxt "Operator"
+msgid "Import from JSON..."
+msgstr "从 JSON 导入..."
+
+#: presets.py:546
+msgctxt "Operator"
+msgid "Import sky settings from a JSON file,\nadd them as a preset and apply them"
+msgstr "从 JSON 文件导入天空设置，\n将其添加为预设并应用"
+
+#: sky.py:735
+msgctxt "Operator"
+msgid "Make a Procedural Sky with parameters in the 3D View"
+msgstr "在 3D 视图中创建带参数的程序化天空"
+
+#: sky.py:734
+msgctxt "Operator"
+msgid "Make a Procedural sky"
+msgstr "创建程序化天空"
+
+#: sky.py:392
+msgctxt "Operator"
+msgid "Make this Dynamic Sky world the active world of the scene"
+msgstr "将此动态天空世界设为场景的活动世界"
+
+#: ui.py:139
+msgctxt "Operator"
+msgid "New"
+msgstr "新建"
+
+#: presets.py:320
+msgctxt "Operator"
+msgid "New Dynamic Sky Preset"
+msgstr "新建动态天空预设"
+
+#: presets.py:396
+msgctxt "Operator"
+msgid "Overwrite the active preset with the current settings"
+msgstr "用当前设置覆盖活动预设"
+
+#: sun.py:243
+msgctxt "Operator"
+msgid "Remove Sun Light"
+msgstr "移除日光"
+
+#: sun.py:244
+msgctxt "Operator"
+msgid "Remove the selected sun lamp (the sky sun can't be removed)"
+msgstr "移除选中的日光（天空太阳无法移除）"
+
+#: sky.py:600
+msgctxt "Operator"
+msgid "Render the procedural sky to an equirectangular HDR\nimage and switch the background over to it"
+msgstr "将程序化天空渲染为等距柱状 HDR 图像，\n并将背景切换为该图像"
+
+#: sky.py:674
+msgctxt "Operator"
+msgid "Render the sky as seen to an equirectangular .exr\nfile, for game engines and other applications"
+msgstr "将所见天空渲染为等距柱状 .exr 文件，\n供游戏引擎及其他应用使用"
+
+#: ui.py:367
+msgctxt "Operator"
+msgid "Reset"
+msgstr "重置"
+
+#: presets.py:288
+msgctxt "Operator"
+msgid "Reset Sky Settings"
+msgstr "重置天空设置"
+
+#: ui.py:375
+msgctxt "Operator"
+msgid "Save"
+msgstr "保存"
+
+#: presets.py:395
+msgctxt "Operator"
+msgid "Save Dynamic Sky Preset"
+msgstr "保存动态天空预设"
+
+#: sun.py:267
+msgctxt "Operator"
+msgid "Select Sun"
+msgstr "选择太阳"
+
+#: presets.py:289
+msgctxt "Operator"
+msgid "Set all sky settings back to their default values"
+msgstr "将所有天空设置恢复为默认值"
+
+#: sky.py:407
+msgctxt "Operator"
+msgid "Update Sky"
+msgstr "更新天空"
+
+#: sky.py:408
+msgctxt "Operator"
+msgid "Upgrade this Dynamic Sky world's node tree to the current\nversion, adding any controls it is missing"
+msgstr "将此动态天空世界的节点树升级到当前版本，\n并补全缺失的控件"
+
+#: ui.py:185
+msgctxt "Operator"
+msgid "Use \"{:s}\""
+msgstr "使用“{:s}”"
+
+#: sky.py:391
+msgctxt "Operator"
+msgid "Use Dynamic Sky World"
+msgstr "使用动态天空世界"

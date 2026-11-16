@@ -1,0 +1,2219 @@
+# perfect-chinese: 1
+# id: threemf_io
+# kind: addon
+# module: bl_ext.blender_org.ThreeMF_io
+# name: 3MF Import/Export
+# name_zh: 3MF导入导出
+# translator: KeshiMiao
+# category: Import-Export
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: panels/metadata.py:419
+#: panels/metadata.py:466
+msgid "(empty)"
+msgstr "(空)"
+
+#: paint/bake.py:377
+msgid "+ Mixed Filaments (included):"
+msgstr "+ 混合耗材（已包含）："
+
+#: paint/properties.py:178
+msgid "0-based extruder index"
+msgstr "从 0 开始的挤出机索引"
+
+#: paint/properties.py:96
+msgid "1-based physical filament index for component A"
+msgstr "组件 A 的从 1 开始的物理耗材索引"
+
+#: paint/properties.py:103
+msgid "1-based physical filament index for component B"
+msgstr "组件 B 的从 1 开始的物理耗材索引"
+
+#: paint/bake.py:308
+msgid "1024Ã—1024 (fast bake, lower detail)"
+msgstr "1024×1024（快速烘焙，细节较低）"
+
+#: __init__.py:283
+#: import_3mf/operator.py:219
+msgid "1024×1024 (fast, lower detail)"
+msgstr "1024×1024（快速，细节较低）"
+
+#: __init__.py:287
+#: import_3mf/operator.py:223
+msgid "16384×16384 (very high detail, slow)"
+msgstr "16384×16384（极高细节，较慢）"
+
+#: paint/bake.py:309
+msgid "2048Ã—2048 (good for simple models)"
+msgstr "2048×2048（适合简单模型）"
+
+#: __init__.py:284
+#: import_3mf/operator.py:220
+msgid "2048×2048 (good for simple models)"
+msgstr "2048×2048（适合简单模型）"
+
+#: __init__.py:204
+#: import_3mf/operator.py:154
+msgid "3D Cursor"
+msgstr "3D 游标"
+
+#: paint/bake.py:1292
+#: paint/mmu_panel.py:103
+msgid "3MF"
+msgstr "3MF"
+
+#: export_3mf/operator.py:198
+msgid "3MF Export Presets"
+msgstr "3MF 导出预设"
+
+#: __init__.py:87
+msgid "3MF File Handler"
+msgstr "3MF 文件处理器"
+
+#: panels/triangle_sets.py:213
+msgid "3MF Triangle Sets."
+msgstr "3MF 三角形集合。"
+
+#: panels/metadata.py:632
+msgid "3MF Version:"
+msgstr "3MF 版本："
+
+#: paint/bake.py:310
+msgid "4096Ã—4096 (recommended for most models)"
+msgstr "4096×4096（推荐用于大多数模型）"
+
+#: __init__.py:285
+#: import_3mf/operator.py:221
+msgid "4096×4096 (recommended for most models)"
+msgstr "4096×4096（推荐用于大多数模型）"
+
+#: paint/bake.py:311
+msgid "8192Ã—8192 (high detail, slower bake)"
+msgstr "8192×8192（高细节，烘焙较慢）"
+
+#: __init__.py:286
+#: import_3mf/operator.py:222
+msgid "8192×8192 (high detail, uses more memory)"
+msgstr "8192×8192（高细节，占用更多内存）"
+
+#: __init__.py:522
+msgid "A quick rating on the Blender Extensions marketplace helps"
+msgstr "在 Blender 扩展市场快速评分会有所帮助"
+
+#: export_3mf/operator.py:74
+msgid "A quick rating on the Blender Extensions marketplace would"
+msgstr "在 Blender 扩展市场快速评分将会有所帮助"
+
+#: panels/metadata.py:576
+msgid "Active"
+msgstr "活动"
+
+#: paint/properties.py:212
+msgid "Active Filament"
+msgstr "活动耗材"
+
+#: paint/properties.py:220
+msgid "Active Init Filament"
+msgstr "活动初始耗材"
+
+#: paint/properties.py:362
+msgid "Active Mixed Filament"
+msgstr "活动混合耗材"
+
+#: paint/bake.py:1252
+#: paint/mmu_panel.py:467
+msgid "Add Color"
+msgstr "添加颜色"
+
+#: paint/operators.py:1337
+msgid "Add Mix"
+msgstr "添加混合"
+
+#: import_3mf/operator.py:124
+msgid "Additional scale factor applied on top of automatic unit conversion. 1.0 imports at the correct physical size for the chosen scene unit"
+msgstr "在自动单位转换基础上应用的额外缩放系数。1.0 会按所选场景单位的正确物理尺寸导入"
+
+#: __init__.py:115
+msgid "Advanced"
+msgstr "高级"
+
+#: import_3mf/operator.py:192
+msgid "Advanced Settings"
+msgstr "高级设置"
+
+#: __init__.py:115
+msgid "Advanced settings and slicer profiles"
+msgstr "高级设置和切片器配置"
+
+#: paint/operators.py:863
+msgid "After switching, open the sidebar (N key) and"
+msgstr "切换后，打开侧边栏（N 键）并"
+
+#: export_3mf/operator.py:373
+msgid "Always export spec-compliant 3MF with basematerials, textures, and proper component instancing. Use this when you want clean geometry without slicer-specific encoding"
+msgstr "始终导出符合规范的 3MF，包含基础材质、纹理和正确的组件实例化。当你需要干净几何体且不包含切片器专用编码时使用"
+
+#: __init__.py:309
+msgid "Always export spec-compliant 3MF with proper component instancing"
+msgstr "始终导出符合规范的 3MF，并正确进行组件实例化"
+
+#: __init__.py:241
+#: import_3mf/operator.py:181
+msgid "Angle"
+msgstr "角度"
+
+#: panels/metadata.py:623
+msgid "Application:"
+msgstr "应用程序："
+
+#: __init__.py:155
+#: export_3mf/operator.py:340
+msgid "Apply Modifiers"
+msgstr "应用修改器"
+
+#: import_3mf/operator.py:176
+msgid "Apply Smooth by Angle modifier to imported objects"
+msgstr "对导入的物体应用按角度平滑修改器"
+
+#: __init__.py:235
+msgid "Apply Smooth by Angle modifier to imported objects by default"
+msgstr "默认对导入的物体应用按角度平滑修改器"
+
+#: export_3mf/operator.py:340
+msgid "Apply the modifiers before saving."
+msgstr "保存前应用修改器。"
+
+#: paint/bake.py:912
+msgid "Applying UV spatial smoothing (experimental)..."
+msgstr "正在应用 UV 空间平滑（实验性）..."
+
+#: export_3mf/operator.py:567
+msgid "Archive"
+msgstr "归档"
+
+#: __init__.py:206
+msgid "Arrange files in a grid (for multi-file import)"
+msgstr "将文件按网格排列（用于多文件导入）"
+
+#: import_3mf/operator.py:156
+msgid "Arrange multiple files in a grid pattern"
+msgstr "将多个文件按网格图案排列"
+
+#: __init__.py:506
+msgid "Ask again later"
+msgstr "稍后再问"
+
+#: export_3mf/operator.py:542
+msgid "Assign materials to faces in Edit Mode."
+msgstr "在编辑模式下为面指定材质。"
+
+#: paint/bake.py:459
+msgid "Assigning filament colours per face..."
+msgstr "正在为每个面指定耗材颜色..."
+
+#: paint/bake.py:419
+#: paint/operators.py:81
+msgid "At least 2 filaments required"
+msgstr "至少需要 2 种耗材"
+
+#: __init__.py:282
+#: __init__.py:303
+msgid "Auto"
+msgstr "自动"
+
+#: __init__.py:350
+#: export_3mf/operator.py:450
+msgid "Automatic"
+msgstr "自动"
+
+#: __init__.py:282
+#: import_3mf/operator.py:218
+msgid "Automatic based on triangle count (2K / 4K / 8K)"
+msgstr "根据三角形数量自动（2K / 4K / 8K）"
+
+#: paint/bake.py:307
+msgid "Automatic based on triangle count (2K/4K/8K)"
+msgstr "根据三角形数量自动（2K/4K/8K）"
+
+#: __init__.py:303
+msgid "Automatically detect materials and MMU paint data, choosing the best exporter"
+msgstr "自动检测材质和 MMU 绘制数据，并选择最佳导出器"
+
+#: export_3mf/operator.py:366
+msgid "Automatically detect materials and MMU paint data. Uses slicer-compatible export when colors are present, standard spec-compliant export otherwise"
+msgstr "自动检测材质和 MMU 绘制数据。存在颜色时使用兼容切片器的导出，否则使用符合规范的标准导出"
+
+#: paint/bake.py:390
+msgid "Bake Settings"
+msgstr "烘焙设置"
+
+#: paint/mmu_panel.py:191
+msgid "Bake a procedural material to"
+msgstr "将程序化材质烘焙到"
+
+#: paint/bake.py:523
+#: paint/bake.py:546
+msgid "Bake cancelled"
+msgstr "烘焙已取消"
+
+#: __init__.py:155
+msgid "Bake modifiers into mesh before export. Disable to export base mesh only"
+msgstr "导出前将修改器烘焙到网格。禁用则仅导出基础网格"
+
+#: paint/bake.py:1293
+msgid "Bake to MMU"
+msgstr "烘焙到 MMU"
+
+#: paint/mmu_panel.py:188
+msgid "Bake to filament colors,"
+msgstr "烘焙为耗材颜色，"
+
+#: paint/bake.py:1278
+msgid "Bakes material output to a texture,"
+msgstr "将材质输出烘焙为纹理，"
+
+#: paint/bake.py:1275
+msgid "Bakes material to filament colors,"
+msgstr "将材质烘焙为耗材颜色，"
+
+#: paint/bake.py:820
+msgid "Baking texture..."
+msgstr "正在烘焙纹理…"
+
+#: paint/properties.py:47
+msgid "Blend component A and B by a factor"
+msgstr "按系数混合分量 A 和 B"
+
+#: paint/operators.py:1091
+msgid "Block"
+msgstr "阻挡"
+
+#: paint/mmu_panel.py:299
+msgid "Block: painted areas are prevented"
+msgstr "阻挡：阻止已绘制区域"
+
+#: __init__.py:226
+#: import_3mf/operator.py:171
+msgid "Bottom Center"
+msgstr "底部居中"
+
+#: paint/operators.py:659
+msgid "Brush falloff set to Constant"
+msgstr "笔刷衰减设为恒定"
+
+#: __init__.py:110
+msgid "Category"
+msgstr "类别"
+
+#: __init__.py:225
+#: import_3mf/operator.py:170
+msgid "Center of Geometry"
+msgstr "几何中心"
+
+#: __init__.py:258
+#: import_3mf/operator.py:115
+msgid "Centimeters"
+msgstr "厘米"
+
+#: panels/metadata.py:68
+msgid "Changes print settings in intersection volume"
+msgstr "更改相交体积内的打印设置"
+
+#: export_3mf/operator.py:478
+msgid "Choose an image from the current .blend file to use as the thumbnail"
+msgstr "从当前 .blend 文件中选择图像作为缩略图"
+
+#: paint/mmu_panel.py:323
+msgid "Cleanup"
+msgstr "清理"
+
+#: panels/triangle_sets.py:146
+msgid "Cleared triangle set names"
+msgstr "已清除三角形集合名称"
+
+#: paint/operators.py:1001
+#: paint/properties.py:118
+msgid "Color"
+msgstr "颜色"
+
+#: paint/properties.py:281
+msgid "Color similarity threshold for region segmentation. Lower = more regions (finer detail). Higher = fewer regions (more merging). Default 0.20 works well for most textures"
+msgstr "区域分割的颜色相似度阈值。越低 = 区域越多（细节更精细）。越高 = 区域越少（合并更多）。默认 0.20 适用于大多数纹理"
+
+#: paint/helpers.py:478
+#: paint/helpers.py:482
+msgid "Component A"
+msgstr "分量 A"
+
+#: paint/helpers.py:479
+#: paint/helpers.py:483
+msgid "Component B"
+msgstr "分量 B"
+
+#: export_3mf/operator.py:352
+msgid "Compression"
+msgstr "压缩"
+
+#: __init__.py:334
+msgid "Compression Level"
+msgstr "压缩级别"
+
+#: paint/properties.py:118
+msgid "Computed blended display color (sRGB)"
+msgstr "计算出的混合显示颜色（sRGB）"
+
+#: paint/bake.py:453
+msgid "Converting vertex colors (fast path)..."
+msgstr "正在转换顶点颜色（快速路径）…"
+
+#: __init__.py:136
+msgid "Coordinate Precision"
+msgstr "坐标精度"
+
+#: paint/bake.py:470
+msgid "Creating UV map..."
+msgstr "正在创建 UV 贴图…"
+
+#: __init__.py:351
+#: export_3mf/operator.py:455
+msgid "Custom Image"
+msgstr "自定义图像"
+
+#: paint/properties.py:306
+msgid "DEPRECATED: Use Region-Based quantization instead. This UV-space filter can cause artifacts at island boundaries"
+msgstr "已弃用：请改用基于区域的量化。此 UV 空间滤镜可能在孤岛边界产生伪影"
+
+#: panels/metadata.py:582
+msgid "Default Extruder:"
+msgstr "默认挤出机："
+
+#: __init__.py:334
+msgid "Default ZIP compression level for exported 3MF archives. 0 = no compression (fastest), 9 = maximum compression (smallest). 3 is a good balance between speed and file size"
+msgstr "导出 3MF 归档的默认 ZIP 压缩级别。0 = 不压缩（最快），9 = 最大压缩（最小）。3 在速度和文件大小之间取得良好平衡"
+
+#: __init__.py:113
+msgid "Default export settings"
+msgstr "默认导出设置"
+
+#: __init__.py:114
+msgid "Default import settings"
+msgstr "默认导入设置"
+
+#: __init__.py:199
+msgid "Default location for imported objects"
+msgstr "导入物体的默认位置"
+
+#: __init__.py:241
+msgid "Default maximum angle between face normals that will be considered smooth"
+msgstr "被视为平滑的面法线之间的默认最大角度"
+
+#: __init__.py:323
+msgid "Default subdivision depth for paint segmentation export. Higher values capture finer color boundaries but increase export time (4-10)"
+msgstr "绘制分割导出的默认细分深度。数值越高，捕获的颜色边界越精细，但会增加导出时间（4-10）"
+
+#: __init__.py:346
+msgid "Default thumbnail mode for 3MF export"
+msgstr "3MF 导出的默认缩略图模式"
+
+#: __init__.py:357
+msgid "Default thumbnail size in pixels (square)"
+msgstr "默认缩略图尺寸（像素，正方形）"
+
+#: paint/properties.py:154
+msgid "Deleted"
+msgstr "已删除"
+
+#: panels/metadata.py:511
+msgid "Dimensions:"
+msgstr "尺寸："
+
+#: paint/properties.py:392
+msgid "Directly set a gradient blend between two filaments"
+msgstr "直接设置两种耗材之间的渐变混合"
+
+#: paint/properties.py:393
+msgid "Directly set a repeating layer pattern"
+msgstr "直接设置重复的层图案"
+
+#: slicer_profiles/operators.py:39
+msgid "Display name for this slicer profile. Leave blank to derive from the filename"
+msgstr "此切片器配置的显示名称。留空则从文件名推导"
+
+#: paint/properties.py:127
+msgid "Distribution Mode (internal)"
+msgstr "分布模式（内部）"
+
+#: __init__.py:352
+msgid "Do not include a thumbnail"
+msgstr "不包含缩略图"
+
+#: export_3mf/operator.py:460
+msgid "Do not include a thumbnail in the 3MF file"
+msgstr "不在 3MF 文件中包含缩略图"
+
+#: __init__.py:507
+msgid "Don't ask again"
+msgstr "不再询问"
+
+#: export_3mf/operator.py:543
+msgid "Each color becomes a filament slot in the slicer."
+msgstr "每种颜色都会成为切片器中的一个耗材槽。"
+
+#: paint/mmu_panel.py:476
+msgid "Edit Color"
+msgstr "编辑颜色"
+
+#: paint/properties.py:150
+msgid "Enabled"
+msgstr "启用"
+
+#: paint/operators.py:1090
+msgid "Enforce"
+msgstr "强制"
+
+#: paint/mmu_panel.py:298
+msgid "Enforce: painted areas are forced"
+msgstr "强制：强制应用已绘制区域"
+
+#: paint/bake.py:578
+msgid "Ensuring UV map..."
+msgstr "正在确保 UV 贴图…"
+
+#: paint/properties.py:240
+msgid "Every face gets its own UV rectangle. Best for procedural/baked textures"
+msgstr "每个面都有独立的 UV 矩形。最适合程序化/烘焙纹理"
+
+#: __init__.py:273
+#: import_3mf/operator.py:209
+msgid "Every face gets unique UV space (higher fidelity, may show edge gaps)"
+msgstr "每个面都获得唯一的 UV 空间（保真度更高，可能出现边缘缝隙）"
+
+#: __init__.py:113
+msgid "Export"
+msgstr "导出"
+
+#: __init__.py:367
+msgid "Export Count"
+msgstr "导出数量"
+
+#: __init__.py:314
+msgid "Export UV-painted regions as hash segmentation (experimental, may be slow)"
+msgstr "将 UV 绘制区域导出为哈希分割（实验性，可能较慢）"
+
+#: export_3mf/operator.py:380
+msgid "Export UV-painted regions as hash segmentation for multi-material printing (experimental, may be slow)"
+msgstr "将 UV 绘制区域导出为哈希分割以用于多材质打印（实验性，可能较慢）"
+
+#: export_3mf/operator.py:390
+msgid "Export linked duplicates as component instances for smaller file sizes. When objects share the same mesh data (Alt+D duplicates), the mesh is exported once and referenced multiple times. Dramatically reduces file size for assemblies with repeated parts."
+msgstr "将关联副本导出为组件实例以减小文件大小。当多个物体共享同一网格数据时（Alt+D 副本），网格仅导出一次并被多次引用。可显著减小含重复部件的装配体文件大小。"
+
+#: export_3mf/operator.py:324
+msgid "Export objects hidden in the viewport (eye icon, collection visibility)"
+msgstr "导出在视图中隐藏的物体（眼睛图标、集合可见性）"
+
+#: export_3mf/operator.py:319
+msgid "Export selected objects only."
+msgstr "仅导出选中的物体。"
+
+#: export_3mf/operator.py:504
+msgid "Exporting, please wait..."
+msgstr "正在导出，请稍候…"
+
+#: paint/properties.py:178
+msgid "Extruder Index"
+msgstr "挤出机索引"
+
+#: panels/triangle_sets.py:107
+msgid "Face-set ID to name"
+msgstr "面集 ID 到名称"
+
+#: panels/metadata.py:505
+msgid "Faces:"
+msgstr "面："
+
+#: paint/bake.py:1054
+msgid "Failed to parse filament colors"
+msgstr "解析耗材颜色失败"
+
+#: paint/bake.py:538
+msgid "Failed to rasterize face colours"
+msgstr "栅格化面颜色失败"
+
+#: paint/bake.py:464
+msgid "Failed to read vertex color data"
+msgstr "读取顶点颜色数据失败"
+
+#: slicer_profiles/operators.py:143
+msgid "Failed to rename profile"
+msgstr "重命名配置失败"
+
+#: paint/bake.py:1173
+msgid "Fast path — no Cycles bake needed."
+msgstr "快速路径 — 无需 Cycles 烘焙。"
+
+#: paint/bake.py:350
+msgid "Fast path — per-face colour assignment,"
+msgstr "快速路径 — 逐面颜色分配，"
+
+#: __init__.py:261
+#: import_3mf/operator.py:118
+msgid "Feet"
+msgstr "英尺"
+
+#: paint/bake.py:1179
+msgid "Filament Colors"
+msgstr "耗材颜色"
+
+#: paint/bake.py:359
+#: paint/mmu_panel.py:249
+msgid "Filament Palette"
+msgstr "耗材调色板"
+
+#: paint/properties.py:193
+msgid "Filament color for initialization (sRGB)"
+msgstr "用于初始化的耗材颜色 (sRGB)"
+
+#: paint/properties.py:169
+msgid "Filament swatch color (read-only display, sRGB)"
+msgstr "耗材色块颜色（只读显示，sRGB）"
+
+#: panels/metadata.py:589
+msgid "Filaments:"
+msgstr "耗材："
+
+#: import_3mf/operator.py:105
+msgid "File Path"
+msgstr "文件路径"
+
+#: slicer_profiles/operators.py:60
+msgid "File not found"
+msgstr "未找到文件"
+
+#: paint/bake.py:531
+msgid "Filling texture..."
+msgstr "正在填充纹理…"
+
+#: paint/properties.py:391
+msgid "Find the best blend matching a chosen target color"
+msgstr "查找与选定目标颜色最匹配的混合"
+
+#: paint/properties.py:397
+msgid "First physical filament (1-based)"
+msgstr "第一个物理耗材（从 1 开始）"
+
+#: export_3mf/operator.py:399
+msgid "Flatten Hierarchy"
+msgstr "展平层级"
+
+#: panels/metadata.py:69
+msgid "Forces support generation in volume"
+msgstr "强制在体积内生成支撑"
+
+#: paint/mmu_panel.py:172
+msgid "From Existing Material"
+msgstr "从现有材质"
+
+#: __init__.py:256
+#: import_3mf/operator.py:113
+msgid "From File"
+msgstr "从文件"
+
+#: import_3mf/operator.py:160
+msgid "Gap between objects when using Grid Layout (in scene units)"
+msgstr "使用网格布局时物体之间的间距（场景单位）"
+
+#: export_3mf/operator.py:552
+msgid "Geometry"
+msgstr "几何体"
+
+#: __init__.py:187
+#: import_3mf/operator.py:139
+msgid "Geometry Only"
+msgstr "仅几何体"
+
+#: __init__.py:162
+msgid "Global Scale"
+msgstr "全局缩放"
+
+#: paint/properties.py:47
+#: paint/properties.py:392
+msgid "Gradient"
+msgstr "渐变"
+
+#: __init__.py:206
+#: import_3mf/operator.py:156
+msgid "Grid Layout"
+msgstr "网格布局"
+
+#: __init__.py:211
+#: import_3mf/operator.py:160
+msgid "Grid Spacing"
+msgstr "网格间距"
+
+#: paint/properties.py:259
+msgid "Grid divisions for Lightmap Pack (higher = more UV precision, slower)"
+msgstr "光照图打包的网格细分数（越高 UV 精度越高，速度越慢）"
+
+#: paint/properties.py:237
+msgid "Groups adjacent coplanar faces into shared islands. Best for hand-painting (shared edges reduce bleed)"
+msgstr "将相邻共面合并为共享 UV 孤岛。最适合手绘（共享边缘可减少渗色）"
+
+#: __init__.py:272
+#: import_3mf/operator.py:207
+msgid "Groups coplanar faces into islands (best for most models)"
+msgstr "将共面合并为 UV 孤岛（最适合大多数模型）"
+
+#: paint/properties.py:356
+msgid "Has Mixed Filaments"
+msgstr "包含混合耗材"
+
+#: paint/operators.py:342
+msgid "How many dominant colors to extract from the texture"
+msgstr "从纹理中提取多少种主色"
+
+#: paint/operators.py:404
+msgid "How many dominant colors to extract?"
+msgstr "要提取多少种主色？"
+
+#: paint/properties.py:132
+msgid "How this virtual filament blends its components"
+msgstr "此虚拟耗材如何混合其组成部分"
+
+#: paint/properties.py:387
+msgid "How to define the new mixed filament"
+msgstr "如何定义新的混合耗材"
+
+#: export_3mf/operator.py:362
+msgid "How to export material and color data"
+msgstr "如何导出材质和颜色数据"
+
+#: __init__.py:299
+msgid "How to export material and color data to 3MF"
+msgstr "如何将材质和颜色数据导出到 3MF"
+
+#: export_3mf/operator.py:446
+msgid "How to generate the preview thumbnail embedded in the 3MF file"
+msgstr "如何生成嵌入 3MF 文件的预览缩略图"
+
+#: __init__.py:173
+msgid "How to handle materials and multi-material paint data"
+msgstr "如何处理材质和多材质绘制数据"
+
+#: import_3mf/operator.py:130
+msgid "How to import material and color data"
+msgstr "如何导入材质和颜色数据"
+
+#: paint/properties.py:268
+msgid "How to map baked colors to filament palette"
+msgstr "如何将烘焙颜色映射到耗材调色板"
+
+#: __init__.py:220
+#: import_3mf/operator.py:165
+msgid "How to set the object origin after import"
+msgstr "导入后如何设置物体原点"
+
+#: panels/triangle_sets.py:112
+msgid "Human-readable name for this face set"
+msgstr "此面集的可读名称"
+
+#: export_3mf/operator.py:478
+msgid "Image"
+msgstr "图像"
+
+#: paint/operators.py:401
+msgid "Image texture detected on this object."
+msgstr "在此物体上检测到图像纹理。"
+
+#: __init__.py:114
+msgid "Import"
+msgstr "导入"
+
+#: __init__.py:199
+msgid "Import Location"
+msgstr "导入位置"
+
+#: __init__.py:182
+#: import_3mf/operator.py:136
+msgid "Import MMU Paint Data"
+msgstr "导入 MMU 绘制数据"
+
+#: __init__.py:177
+#: import_3mf/operator.py:134
+msgid "Import Materials"
+msgstr "导入材质"
+
+#: import_3mf/operator.py:253
+msgid "Import Options:"
+msgstr "导入选项："
+
+#: __init__.py:177
+#: import_3mf/operator.py:134
+msgid "Import material colors and properties (standard 3MF)"
+msgstr "导入材质颜色和属性（标准 3MF）"
+
+#: import_3mf/operator.py:315
+msgid "Importing, please wait..."
+msgstr "正在导入，请稍候…"
+
+#: __init__.py:260
+#: import_3mf/operator.py:117
+msgid "Inches"
+msgstr "英寸"
+
+#: export_3mf/operator.py:329
+msgid "Include Disabled"
+msgstr "包含已禁用项"
+
+#: export_3mf/operator.py:324
+msgid "Include Hidden"
+msgstr "包含隐藏"
+
+#: __init__.py:149
+msgid "Include Hidden Objects"
+msgstr "包含隐藏物体"
+
+#: export_3mf/operator.py:329
+msgid "Include objects disabled for rendering (camera icon) and objects in excluded collections"
+msgstr "包含禁用渲染的物体（相机图标）以及排除集合中的物体"
+
+#: __init__.py:149
+msgid "Include viewport-hidden objects in exports. When off, hidden objects are skipped"
+msgstr "导出时包含视图中隐藏的物体。关闭时跳过隐藏物体"
+
+#: paint/properties.py:159
+msgid "Index of this mix entry in settings.filaments (-1 if not active)"
+msgstr "此混合条目在 settings.filaments 中的索引（未激活时为 -1）"
+
+#: paint/operators.py:1569
+msgid "Invalid pattern — use digits 1–9, e.g. '12' or '112'"
+msgstr "无效模式 — 请使用数字 1–9，例如 '12' 或 '112'"
+
+#: paint/properties.py:183
+msgid "Is Virtual"
+msgstr "是虚拟的"
+
+#: __init__.py:255
+#: import_3mf/operator.py:112
+msgid "Keep Current"
+msgstr "保持当前"
+
+#: __init__.py:205
+#: __init__.py:224
+msgid "Keep Original"
+msgstr "保留原始"
+
+#: import_3mf/operator.py:155
+msgid "Keep object positions from 3MF file"
+msgstr "保留 3MF 文件中的物体位置"
+
+#: __init__.py:224
+#: import_3mf/operator.py:169
+msgid "Keep origin from 3MF file (typically corner)"
+msgstr "保留 3MF 文件中的原点（通常为角点）"
+
+#: __init__.py:205
+msgid "Keep positions from file"
+msgstr "保留文件中的位置"
+
+#: paint/properties.py:314
+msgid "Kernel Size"
+msgstr "核大小"
+
+#: panels/metadata.py:187
+#: panels/metadata.py:244
+msgid "Key"
+msgstr "键"
+
+#: panels/metadata.py:270
+msgid "Key cannot be empty"
+msgstr "键不能为空"
+
+#: __init__.py:263
+#: import_3mf/operator.py:120
+msgid "Kilometers"
+msgstr "千米"
+
+#: paint/operators.py:879
+#: paint/operators.py:998
+msgid "Layer"
+msgstr "层"
+
+#: __init__.py:255
+#: import_3mf/operator.py:112
+msgid "Leave the Blender scene unit unchanged"
+msgstr "保持 Blender 场景单位不变"
+
+#: paint/properties.py:314
+msgid "Legacy smoothing kernel size"
+msgstr "旧版平滑核大小"
+
+#: paint/properties.py:321
+msgid "Legacy smoothing passes"
+msgstr "旧版平滑迭代次数"
+
+#: paint/properties.py:259
+msgid "Lightmap Divisions"
+msgstr "光照贴图划分"
+
+#: __init__.py:273
+#: import_3mf/operator.py:209
+msgid "Lightmap Pack"
+msgstr "光照贴图打包"
+
+#: import_3mf/operator.py:149
+msgid "Location"
+msgstr "位置"
+
+#: paint/mmu_panel.py:104
+#: panels/metadata.py:567
+msgid "MMU Paint"
+msgstr "MMU 涂色"
+
+#: paint/bake.py:1139
+msgid "MMU Paint Active"
+msgstr "MMU 涂色激活"
+
+#: __init__.py:436
+msgid "MMU Paint:"
+msgstr "MMU 涂色："
+
+#: paint/operators.py:1001
+msgid "MMU color paint"
+msgstr "MMU 颜色涂色"
+
+#: paint/properties.py:334
+msgid "MMU filament color painting"
+msgstr "MMU 耗材颜色涂色"
+
+#: export_3mf/operator.py:535
+msgid "MMU paint data detected."
+msgstr "检测到 MMU 涂色数据。"
+
+#: paint/properties.py:140
+msgid "Manual layer pattern string (digits 1-9, commas for groups)"
+msgstr "手动层模式字符串（数字 1-9，逗号分隔组）"
+
+#: __init__.py:192
+msgid "Match and reuse existing Blender materials by name and color instead of always creating new ones. Prevents material duplication when re-importing edited files"
+msgstr "按名称和颜色匹配并复用现有 Blender 材质，而不是始终创建新材质。重新导入已编辑文件时防止材质重复"
+
+#: import_3mf/operator.py:143
+msgid "Match and reuse existing Blender materials by name and color. Prevents material duplication when re-importing edited files"
+msgstr "按名称和颜色匹配并复用现有 Blender 材质。重新导入已编辑文件时防止材质重复"
+
+#: paint/properties.py:275
+msgid "Matches each pixel independently to the nearest filament color. May incorrectly assign shadows to wrong colors"
+msgstr "将每个像素独立匹配到最近的耗材颜色。可能错误地将阴影分配为错误的颜色"
+
+#: __init__.py:299
+#: export_3mf/operator.py:362
+msgid "Material Export Mode"
+msgstr "材质导出模式"
+
+#: __init__.py:398
+msgid "Material Export Mode:"
+msgstr "材质导出模式："
+
+#: __init__.py:173
+msgid "Material Import Mode"
+msgstr "材质导入模式"
+
+#: import_3mf/operator.py:130
+msgid "Material Mode"
+msgstr "材质模式"
+
+#: export_3mf/operator.py:548
+msgid "Materials exported as basematerials/textures."
+msgstr "材质导出为基础材质/纹理。"
+
+#: paint/operators.py:260
+#: paint/operators.py:514
+msgid "Maximum 16 filaments supported"
+msgstr "最多支持 16 种耗材"
+
+#: import_3mf/operator.py:181
+msgid "Maximum angle between face normals that will be considered smooth"
+msgstr "被视为平滑的面法线之间的最大角度"
+
+#: export_3mf/operator.py:434
+msgid "Maximum recursive subdivision depth for paint segmentation export. Higher values capture finer color boundaries but increase export time. Each level quadruples the potential leaf nodes per triangle"
+msgstr "涂色分割导出的最大递归细分深度。值越高可捕捉更精细的颜色边界，但会增加导出时间。每级将每个三角形的潜在叶节点数增加四倍"
+
+#: panels/metadata.py:356
+msgid "Metadata"
+msgstr "元数据"
+
+#: panels/metadata.py:244
+msgid "Metadata key name"
+msgstr "元数据键名"
+
+#: panels/metadata.py:187
+msgid "Metadata key to edit"
+msgstr "要编辑的元数据键"
+
+#: panels/metadata.py:294
+msgid "Metadata key to remove"
+msgstr "要移除的元数据键"
+
+#: panels/metadata.py:249
+msgid "Metadata value"
+msgstr "元数据值"
+
+#: __init__.py:259
+#: import_3mf/operator.py:116
+msgid "Meters"
+msgstr "米"
+
+#: __init__.py:262
+#: import_3mf/operator.py:119
+msgid "Micrometers"
+msgstr "微米"
+
+#: __init__.py:257
+#: import_3mf/operator.py:114
+msgid "Millimeters"
+msgstr "毫米"
+
+#: paint/properties.py:293
+msgid "Min Region Size"
+msgstr "最小区域大小"
+
+#: paint/operators.py:287
+#: paint/operators.py:577
+msgid "Minimum 2 filaments required"
+msgstr "至少需要 2 种耗材"
+
+#: paint/helpers.py:480
+#: paint/properties.py:110
+msgid "Mix B %"
+msgstr "混合 B %"
+
+#: paint/mmu_panel.py:405
+msgid "Mix Colors"
+msgstr "混合颜色"
+
+#: paint/bake.py:1214
+msgid "Mixed Filaments"
+msgstr "混合耗材"
+
+#: paint/operators.py:1087
+#: paint/properties.py:387
+msgid "Mode"
+msgstr "模式"
+
+#: panels/metadata.py:68
+msgid "Modifier"
+msgstr "修改器"
+
+#: __init__.py:226
+#: import_3mf/operator.py:171
+msgid "Move origin to bottom center (useful for placing on surfaces)"
+msgstr "将原点移至底部中心（便于放置在表面上）"
+
+#: __init__.py:225
+#: import_3mf/operator.py:170
+msgid "Move origin to center of bounding box"
+msgstr "将原点移至包围盒中心"
+
+#: export_3mf/operator.py:521
+msgid "Multi-Color Printing"
+msgstr "多色打印"
+
+#: paint/properties.py:48
+msgid "Multi-filament manual pattern string"
+msgstr "多耗材手动模式字符串"
+
+#: paint/properties.py:202
+#: panels/triangle_sets.py:112
+msgid "Name"
+msgstr "名称"
+
+#: slicer_profiles/operators.py:136
+msgid "Name cannot be empty"
+msgstr "名称不能为空"
+
+#: paint/properties.py:249
+msgid "Name of the existing UV layer to use as the paint map.\nLeave empty to reuse the MMU_Paint layer if present, otherwise falls back to Smart UV Project"
+msgstr "用作绘制贴图的现有 UV 层名称。\n留空则复用存在的 MMU_Paint 层，否则回退到智能 UV 投影"
+
+#: panels/metadata.py:495
+msgid "Name:"
+msgstr "名称："
+
+#: panels/triangle_sets.py:212
+msgid "Named face sets export as"
+msgstr "命名面集导出为"
+
+#: paint/bake.py:1058
+msgid "Need at least 2 filament colors"
+msgstr "至少需要 2 种耗材颜色"
+
+#: panels/metadata.py:71
+msgid "Negative Part"
+msgstr "负零件"
+
+#: paint/operators.py:726
+#: paint/operators.py:768
+msgid "New Color"
+msgstr "新颜色"
+
+#: slicer_profiles/operators.py:127
+msgid "New Name"
+msgstr "新名称"
+
+#: paint/operators.py:726
+msgid "New color to replace the current filament color"
+msgstr "用于替换当前耗材颜色的新颜色"
+
+#: panels/metadata.py:191
+msgid "New value for the metadata field"
+msgstr "元数据字段的新值"
+
+#: panels/triangle_sets.py:180
+msgid "No face sets assigned"
+msgstr "未分配面集"
+
+#: paint/bake.py:1049
+msgid "No filament colors stored on mesh"
+msgstr "网格上未存储耗材颜色"
+
+#: paint/operators.py:1436
+#: paint/operators.py:1546
+msgid "No filaments in palette — add filaments first"
+msgstr "调色板中没有耗材 — 请先添加耗材"
+
+#: paint/operators.py:417
+msgid "No image texture found"
+msgstr "未找到图像纹理"
+
+#: paint/bake.py:1162
+msgid "No material assigned"
+msgstr "未分配材质"
+
+#: paint/bake.py:600
+msgid "No material found to bake"
+msgstr "未找到可烘焙的材质"
+
+#: paint/bake.py:1241
+#: paint/mmu_panel.py:454
+msgid "No mixed filaments defined."
+msgstr "未定义混合耗材。"
+
+#: paint/bake.py:1039
+#: paint/operators.py:781
+msgid "No paint texture found"
+msgstr "未找到绘制纹理"
+
+#: paint/operators.py:806
+msgid "No pixels found with the current color"
+msgstr "未找到使用当前颜色的像素"
+
+#: __init__.py:479
+msgid "No profiles saved"
+msgstr "无已保存的配置文件"
+
+#: slicer_profiles/operators.py:73
+msgid "No slicer config files found in this 3MF"
+msgstr "此 3MF 中未找到切片器配置文件"
+
+#: __init__.py:352
+#: export_3mf/operator.py:460
+msgid "None"
+msgstr "无"
+
+#: panels/metadata.py:67
+msgid "Normal Part"
+msgstr "普通零件"
+
+#: __init__.py:430
+#: import_3mf/operator.py:267
+msgid "Normals:"
+msgstr "法向："
+
+#: slicer_profiles/operators.py:66
+msgid "Not a valid 3MF archive"
+msgstr "不是有效的 3MF 归档"
+
+#: paint/operators.py:342
+msgid "Number of Colors"
+msgstr "颜色数量"
+
+#: __init__.py:136
+msgid "Number of decimal digits for vertex coordinates. 9 = lossless 32-bit float precision (recommended for 3D printing). Lower values reduce file size but may cause manifold issues"
+msgstr "顶点坐标的小数位数。9 = 无损 32 位浮点精度（推荐用于 3D 打印）。较低的值可减小文件大小，但可能导致流形问题"
+
+#: paint/properties.py:367
+msgid "Number of physical (non-virtual) filaments in the palette"
+msgstr "调色板中物理（非虚拟）耗材的数量"
+
+#: __init__.py:367
+msgid "Number of successful exports since the addon was installed"
+msgstr "自安装插件以来的成功导出次数"
+
+#: panels/metadata.py:487
+msgid "Object Info"
+msgstr "物体信息"
+
+#: panels/metadata.py:534
+msgid "Object Metadata"
+msgstr "物体元数据"
+
+#: __init__.py:505
+msgid "Open the Blender Extensions page to leave a rating"
+msgstr "打开 Blender 扩展页面留下评分"
+
+#: paint/bake.py:1257
+msgid "Options"
+msgstr "选项"
+
+#: export_3mf/operator.py:411
+msgid "Orca Slicer / BambuStudio"
+msgstr "Orca Slicer / BambuStudio"
+
+#: __init__.py:220
+#: import_3mf/operator.py:165
+msgid "Origin Placement"
+msgstr "原点放置"
+
+#: import_3mf/operator.py:227
+msgid "Pack all solid-color parts into one shared UV texture using multi-object UV projection. Saves memory and lets you paint across all parts at once. Disable to give each part its own texture"
+msgstr "使用多物体 UV 投影将所有纯色零件打包到一个共享 UV 纹理中。可节省内存，并允许一次性在所有零件上绘制。禁用后每个零件将使用各自的纹理"
+
+#: __init__.py:292
+msgid "Pack all solid-color parts into one shared UV texture. Saves memory and lets you paint across all parts at once"
+msgstr "将所有纯色零件打包到一个共享 UV 纹理中。可节省内存，并允许一次性在所有零件上绘制"
+
+#: paint/mmu_panel.py:203
+#: paint/properties.py:330
+msgid "Paint Layer"
+msgstr "绘制层"
+
+#: __init__.py:314
+#: export_3mf/operator.py:380
+msgid "Paint Segmentation"
+msgstr "绘制分割"
+
+#: paint/operators.py:1091
+msgid "Paint block regions"
+msgstr "绘制阻隔区域"
+
+#: paint/operators.py:1090
+msgid "Paint enforce regions"
+msgstr "绘制强制区域"
+
+#: paint/properties.py:159
+msgid "Palette Index"
+msgstr "调色板索引"
+
+#: panels/metadata.py:544
+msgid "Part Number:"
+msgstr "零件编号："
+
+#: panels/metadata.py:314
+msgid "Part Type"
+msgstr "零件类型"
+
+#: panels/metadata.py:518
+msgid "Part Type:"
+msgstr "零件类型："
+
+#: paint/properties.py:321
+msgid "Passes"
+msgstr "通道"
+
+#: export_3mf/operator.py:484
+msgid "Path"
+msgstr "路径"
+
+#: export_3mf/operator.py:484
+msgid "Path to a custom image file to use as the thumbnail"
+msgstr "用作缩略图的自定义图像文件路径"
+
+#: paint/helpers.py:484
+#: paint/properties.py:48
+msgid "Pattern"
+msgstr "图案"
+
+#: paint/properties.py:275
+msgid "Per-Pixel"
+msgstr "逐像素"
+
+#: paint/properties.py:411
+msgid "Percentage of component B in the blend (0 = all A, 100 = all B)"
+msgstr "混合中组分 B 的百分比（0 = 全部为 A，100 = 全部为 B）"
+
+#: paint/properties.py:110
+msgid "Percentage of component B in the blend (0-100)"
+msgstr "混合中组分 B 的百分比（0-100）"
+
+#: paint/properties.py:145
+msgid "Persistent round-trip identity (do not edit manually)"
+msgstr "持久往返标识（请勿手动编辑）"
+
+#: paint/properties.py:367
+msgid "Physical Filament Count"
+msgstr "物理耗材数量"
+
+#: __init__.py:204
+msgid "Place at 3D cursor"
+msgstr "放置在 3D 游标"
+
+#: __init__.py:203
+msgid "Place at world origin"
+msgstr "放置在世界原点"
+
+#: import_3mf/operator.py:154
+msgid "Place objects at 3D cursor position"
+msgstr "将物体放置在 3D 游标位置"
+
+#: import_3mf/operator.py:153
+msgid "Place objects at world origin (0,0,0)"
+msgstr "将物体放置在世界原点 (0,0,0)"
+
+#: __init__.py:424
+#: import_3mf/operator.py:259
+msgid "Placement:"
+msgstr "放置："
+
+#: export_3mf/operator.py:345
+msgid "Precision"
+msgstr "精度"
+
+#: panels/metadata.py:70
+msgid "Prevents support generation in volume"
+msgstr "阻止在该体积内生成支撑"
+
+#: export_3mf/operator.py:527
+#: export_3mf/operator.py:537
+msgid "Profile"
+msgstr "配置文件"
+
+#: slicer_profiles/operators.py:39
+msgid "Profile Name"
+msgstr "配置文件名称"
+
+#: export_3mf/operator.py:416
+msgid "PrusaSlicer / SuperSlicer"
+msgstr "PrusaSlicer / SuperSlicer"
+
+#: paint/bake.py:405
+#: paint/bake.py:1142
+msgid "Quantization"
+msgstr "量化"
+
+#: paint/properties.py:268
+msgid "Quantization Method"
+msgstr "量化方法"
+
+#: paint/bake.py:870
+msgid "Quantizing to filament colors..."
+msgstr "正在量化为耗材颜色…"
+
+#: __init__.py:505
+msgid "Rate it ★  (opens browser)"
+msgstr "评价 ★（打开浏览器）"
+
+#: __init__.py:374
+msgid "Rating Prompt After"
+msgstr "评分提示时机"
+
+#: paint/properties.py:127
+msgid "Raw mode token for round-trip serialization (do not edit manually)"
+msgstr "用于往返序列化的原始模式令牌（请勿手动编辑）"
+
+#: paint/properties.py:281
+msgid "Region Similarity"
+msgstr "区域相似度"
+
+#: paint/properties.py:272
+msgid "Region-Based (Recommended)"
+msgstr "基于区域（推荐）"
+
+#: paint/properties.py:293
+msgid "Regions smaller than this many pixels get merged into their largest neighbor. Eliminates banding artifacts from gradient transitions. Higher = more aggressive cleanup"
+msgstr "小于此像素数的区域会合并到其最大相邻区域。消除渐变过渡产生的色带伪影。值越高，清理越激进"
+
+#: __init__.py:506
+msgid "Remind me after 5 more exports"
+msgstr "再导出 5 次后提醒我"
+
+#: __init__.py:350
+msgid "Render a clean preview from an elevated 3/4 angle"
+msgstr "从抬高 3/4 角度渲染干净预览"
+
+#: export_3mf/operator.py:450
+msgid "Render a clean preview from an elevated 3/4 angle with grid and gizmos hidden"
+msgstr "从抬高 3/4 角度渲染干净预览，隐藏网格和控件"
+
+#: import_3mf/operator.py:136
+msgid "Render multi-material segmentation to UV texture for painting (experimental, may be slow for large models)"
+msgstr "将多材质分割渲染到 UV 纹理以便绘制（实验性，大型模型可能较慢）"
+
+#: __init__.py:182
+msgid "Render multi-material segmentation to UV texture for painting (experimental, may be slow)"
+msgstr "将多材质分割渲染到 UV 纹理以便绘制（实验性，可能较慢）"
+
+#: paint/properties.py:419
+msgid "Repeating layer pattern digits (1=A, 2=B, 3–9=direct slot). E.g. '12', '112'"
+msgstr "重复层图案数字（1=A，2=B，3–9=直接槽位）。例如 '12'、'112'"
+
+#: export_3mf/operator.py:469
+msgid "Resolution"
+msgstr "分辨率"
+
+#: __init__.py:278
+#: import_3mf/operator.py:214
+msgid "Resolution of the MMU paint texture"
+msgstr "MMU 绘制纹理的分辨率"
+
+#: paint/bake.py:303
+msgid "Resolution of the baked texture"
+msgstr "烘焙纹理的分辨率"
+
+#: __init__.py:192
+#: import_3mf/operator.py:143
+msgid "Reuse Existing Materials"
+msgstr "复用现有材质"
+
+#: paint/mmu_panel.py:493
+#: paint/mmu_panel.py:498
+msgid "Round-trip only — not editable in OrcaSlicer"
+msgstr "仅用于往返 — 无法在 OrcaSlicer 中编辑"
+
+#: export_3mf/operator.py:425
+msgid "Saved slicer settings to embed in the exported 3MF. Profiles provide printer and filament configuration for the target slicer"
+msgstr "要嵌入导出 3MF 的已保存切片设置。配置文件为目标切片软件提供打印机和耗材配置"
+
+#: export_3mf/operator.py:337
+msgid "Scale"
+msgstr "缩放"
+
+#: import_3mf/operator.py:124
+msgid "Scale Multiplier"
+msgstr "缩放倍数"
+
+#: __init__.py:162
+msgid "Scale factor applied during import and export. Use 0.001 to convert mm to m"
+msgstr "导入和导出时应用的缩放系数。使用 0.001 可将毫米转换为米"
+
+#: panels/metadata.py:406
+msgid "Scene Metadata"
+msgstr "场景元数据"
+
+#: __init__.py:250
+#: import_3mf/operator.py:107
+msgid "Scene Unit"
+msgstr "场景单位"
+
+#: __init__.py:418
+msgid "Scene Unit:"
+msgstr "场景单位："
+
+#: paint/operators.py:882
+#: paint/operators.py:1002
+msgid "Seam"
+msgstr "接缝"
+
+#: paint/properties.py:335
+msgid "Seam enforce/block painting"
+msgstr "接缝强制/阻止绘制"
+
+#: paint/operators.py:882
+#: paint/operators.py:1002
+msgid "Seam enforcement paint"
+msgstr "接缝强制绘制"
+
+#: paint/properties.py:404
+msgid "Second physical filament (1-based)"
+msgstr "第二个物理耗材（从 1 开始）"
+
+#: paint/bake.py:890
+msgid "Segmenting into color regions..."
+msgstr "正在分割为颜色区域…"
+
+#: paint/properties.py:272
+msgid "Segments texture into connected regions, then assigns each region to a single filament. Handles shadows/highlights correctly"
+msgstr "将纹理分割为连通区域，然后将每个区域分配给单一耗材。可正确处理阴影/高光"
+
+#: paint/bake.py:1129
+msgid "Select a mesh object"
+msgstr "选择一个网格物体"
+
+#: paint/operators.py:676
+msgid "Select a mesh object first"
+msgstr "请先选择一个网格物体"
+
+#: paint/operators.py:582
+msgid "Select a physical filament to remove"
+msgstr "选择要移除的物理耗材"
+
+#: export_3mf/operator.py:319
+msgid "Selection Only"
+msgstr "仅选中项"
+
+#: panels/triangle_sets.py:107
+msgid "Set ID"
+msgstr "设置 ID"
+
+#: __init__.py:258
+#: import_3mf/operator.py:115
+msgid "Set scene to centimeters"
+msgstr "将场景设为厘米"
+
+#: __init__.py:261
+#: import_3mf/operator.py:118
+msgid "Set scene to feet"
+msgstr "将场景设为英尺"
+
+#: __init__.py:260
+#: import_3mf/operator.py:117
+msgid "Set scene to inches"
+msgstr "将场景设为英寸"
+
+#: __init__.py:263
+#: import_3mf/operator.py:120
+msgid "Set scene to kilometers"
+msgstr "将场景设为千米"
+
+#: __init__.py:259
+#: import_3mf/operator.py:116
+msgid "Set scene to meters"
+msgstr "将场景设为米"
+
+#: __init__.py:262
+#: import_3mf/operator.py:119
+msgid "Set scene to micrometers"
+msgstr "将场景设为微米"
+
+#: __init__.py:257
+#: import_3mf/operator.py:114
+msgid "Set scene to millimeters"
+msgstr "将场景设为毫米"
+
+#: __init__.py:256
+#: import_3mf/operator.py:113
+msgid "Set scene units to match the unit declared in the 3MF file"
+msgstr "将场景单位设为与 3MF 文件中声明的单位一致"
+
+#: __init__.py:250
+#: import_3mf/operator.py:107
+msgid "Set the Blender scene unit after import. Geometry is always scaled correctly regardless of which unit is chosen"
+msgstr "导入后设置 Blender 场景单位。无论选择哪种单位，几何体都会正确缩放"
+
+#: paint/mmu_panel.py:123
+msgid "Setup MMU Painting"
+msgstr "设置 MMU 绘制"
+
+#: __init__.py:292
+#: import_3mf/operator.py:227
+msgid "Shared UV Texture"
+msgstr "共享 UV 纹理"
+
+#: paint/properties.py:382
+msgid "Show Add Mix"
+msgstr "显示添加混合"
+
+#: __init__.py:125
+msgid "Show Mixed Filaments"
+msgstr "显示混合耗材"
+
+#: import_3mf/operator.py:192
+msgid "Show advanced MMU paint import settings"
+msgstr "显示高级 MMU 绘制导入设置"
+
+#: __init__.py:125
+msgid "Show the Mix Colors sub-panel in the MMU Paint suite. Enables creating virtual mixed-color filaments (OrcaSlicer-FullSpectrum). Auto-enabled when importing a file with mixed filament definitions"
+msgstr "在 MMU 绘制套件中显示混合颜色子面板。可创建虚拟混色耗材（OrcaSlicer-FullSpectrum）。导入包含混合耗材定义的文件时自动启用"
+
+#: paint/properties.py:382
+msgid "Show the inline form for adding a new mixed filament"
+msgstr "显示用于添加新混合耗材的内联表单"
+
+#: __init__.py:374
+msgid "Show the rating prompt when export_count reaches this value. -1 = never show again"
+msgstr "当 export_count 达到此值时显示评分提示。-1 = 不再显示"
+
+#: paint/properties.py:342
+msgid "Skip Dissolve"
+msgstr "跳过融并"
+
+#: __init__.py:187
+#: import_3mf/operator.py:139
+msgid "Skip all material and color data"
+msgstr "跳过所有材质和颜色数据"
+
+#: paint/properties.py:342
+msgid "Skip the Limited Dissolve step that merges coplanar faces. Preserves original mesh detail at the cost of potentially smaller UV islands per face"
+msgstr "跳过合并共面面的有限融并步骤。保留原始网格细节，但每个面的 UV 孤岛可能更小"
+
+#: export_3mf/operator.py:526
+#: export_3mf/operator.py:536
+msgid "Slicer"
+msgstr "切片软件"
+
+#: export_3mf/operator.py:407
+msgid "Slicer Format"
+msgstr "切片软件格式"
+
+#: panels/metadata.py:607
+msgid "Slicer Info"
+msgstr "切片软件信息"
+
+#: export_3mf/operator.py:425
+msgid "Slicer Profile"
+msgstr "切片软件配置"
+
+#: __init__.py:120
+msgid "Slicer Profiles"
+msgstr "切片软件配置"
+
+#: __init__.py:272
+#: import_3mf/operator.py:207
+msgid "Smart UV Project"
+msgstr "智能 UV 投影"
+
+#: __init__.py:235
+#: import_3mf/operator.py:176
+msgid "Smooth by Angle"
+msgstr "按角度平滑"
+
+#: paint/mmu_panel.py:333
+msgid "Snap all pixels to the nearest"
+msgstr "将所有像素吸附到最近颜色"
+
+#: paint/bake.py:552
+msgid "Snapping pixels to filament colours..."
+msgstr "正在将像素吸附到耗材颜色..."
+
+#: paint/mmu_panel.py:316
+msgid "Soft edges will cause banding"
+msgstr "软边缘会导致色带"
+
+#: paint/properties.py:154
+msgid "Soft-deleted (hidden but preserved for round-trip)"
+msgstr "软删除（隐藏但保留以便往返）"
+
+#: panels/metadata.py:616
+msgid "Source:"
+msgstr "源："
+
+#: paint/bake.py:347
+#: paint/bake.py:1170
+msgid "Source: Vertex Colors"
+msgstr "源：顶点颜色"
+
+#: __init__.py:211
+msgid "Spacing between objects when using Grid Layout placement (in scene units). Objects are arranged in a grid pattern with this gap between them"
+msgstr "使用网格布局放置时物体之间的间距（场景单位）。物体按网格排列，间隔为此值"
+
+#: export_3mf/operator.py:547
+msgid "Spec-compliant export with proper components."
+msgstr "符合规范的导出，包含正确的组件。"
+
+#: paint/properties.py:145
+msgid "Stable ID"
+msgstr "稳定 ID"
+
+#: __init__.py:309
+#: export_3mf/operator.py:373
+msgid "Standard 3MF"
+msgstr "标准 3MF"
+
+#: panels/metadata.py:67
+msgid "Standard geometry"
+msgstr "标准几何"
+
+#: panels/metadata.py:641
+msgid "Stashed Configs:"
+msgstr "已暂存配置："
+
+#: panels/metadata.py:575
+msgid "Status:"
+msgstr "状态："
+
+#: __init__.py:507
+msgid "Stop showing this prompt"
+msgstr "不再显示此提示"
+
+#: __init__.py:323
+#: export_3mf/operator.py:434
+msgid "Subdivision Depth"
+msgstr "细分深度"
+
+#: panels/metadata.py:71
+msgid "Subtracts volume from the parent object"
+msgstr "从父物体中减去体积"
+
+#: paint/operators.py:883
+#: paint/operators.py:1003
+msgid "Support"
+msgstr "支撑"
+
+#: panels/metadata.py:70
+msgid "Support Blocker"
+msgstr "支撑阻挡器"
+
+#: panels/metadata.py:69
+msgid "Support Enforcer"
+msgstr "支撑强制器"
+
+#: paint/properties.py:336
+msgid "Support enforce/block painting"
+msgstr "支撑强制/阻挡绘制"
+
+#: paint/operators.py:883
+#: paint/operators.py:1003
+msgid "Support enforcement paint"
+msgstr "支撑强制绘制"
+
+#: paint/properties.py:372
+#: paint/properties.py:391
+msgid "Target Color"
+msgstr "目标颜色"
+
+#: paint/properties.py:372
+msgid "Target color used by 'Add: Color' to find the best filament blend"
+msgstr "“添加：颜色”用于查找最佳耗材混合的目标颜色"
+
+#: export_3mf/operator.py:407
+msgid "Target slicer format for multi-material export"
+msgstr "多材料导出所用的目标切片软件格式"
+
+#: paint/helpers.py:475
+msgid "Target:"
+msgstr "目标："
+
+#: __init__.py:278
+#: import_3mf/operator.py:214
+msgid "Texture Size"
+msgstr "纹理大小"
+
+#: export_3mf/operator.py:345
+msgid "The number of decimal digits to use in coordinates in the file."
+msgstr "文件中坐标使用的小数位数。"
+
+#: paint/operators.py:858
+msgid "This 3MF file contains multi-material paint data."
+msgstr "此 3MF 文件包含多材料绘制数据。"
+
+#: paint/operators.py:763
+msgid "This will replace all pixels of the current color"
+msgstr "这将替换当前颜色的所有像素"
+
+#: __init__.py:346
+#: export_3mf/operator.py:446
+msgid "Thumbnail"
+msgstr "缩略图"
+
+#: __init__.py:357
+msgid "Thumbnail Resolution"
+msgstr "缩略图分辨率"
+
+#: export_3mf/operator.py:469
+msgid "Thumbnail width and height in pixels (square)"
+msgstr "缩略图宽度和高度（像素，正方形）"
+
+#: __init__.py:411
+msgid "Thumbnail:"
+msgstr "缩略图："
+
+#: paint/bake.py:1155
+msgid "Tip: Use Quantize after painting to clean up"
+msgstr "提示：绘制后使用“量化”进行清理"
+
+#: panels/triangle_sets.py:161
+msgid "Triangle Sets"
+msgstr "三角形集"
+
+#: paint/properties.py:183
+msgid "True for mixed-filament virtual slots (not shown in main palette)"
+msgstr "混合耗材虚拟槽为 True（不在主调色板中显示）"
+
+#: paint/properties.py:356
+msgid "True when mixed filament definitions are present (import or user-created)"
+msgstr "存在混合耗材定义时为 True（导入或用户创建）"
+
+#: paint/mmu_panel.py:479
+#: paint/properties.py:132
+msgid "Type"
+msgstr "类型"
+
+#: paint/properties.py:249
+msgid "UV Layer"
+msgstr "UV 层"
+
+#: __init__.py:268
+#: import_3mf/operator.py:197
+msgid "UV Method"
+msgstr "UV 方法"
+
+#: paint/properties.py:306
+msgid "UV Spatial Smoothing (Deprecated)"
+msgstr "UV 空间平滑（已弃用）"
+
+#: __init__.py:268
+msgid "UV unwrap method for MMU paint texture rendering"
+msgstr "用于 MMU 绘制纹理渲染的 UV 展开方法"
+
+#: import_3mf/operator.py:197
+msgid "UV unwrap method for MMU paint texture rendering.\nSmart UV Project groups adjacent faces into contiguous islands — best for seamless pixel coverage with the built-in rasterizer.\nLightmap Pack gives every face its own rectangle — higher fidelity but may show gaps at triangle edges"
+msgstr "用于 MMU 绘制纹理渲染的 UV 展开方法。\n智能 UV 投影将相邻面分组为连续 UV 孤岛——最适合内置光栅化器的无缝像素覆盖。\n光照贴图打包为每个面提供独立矩形——保真度更高，但可能在三角形边缘出现缝隙"
+
+#: paint/properties.py:226
+msgid "UV unwrap strategy for MMU paint textures.\nSmart UV Project shares edges between faces for seamless painting.\nLightmap Pack gives every face its own rectangle — best for procedural bakes but may show edge bleed when hand-painting.\nUse Existing UV Map skips the unwrap entirely and uses a hand-crafted UV layer you already have on the mesh"
+msgstr "用于 MMU 绘制纹理的 UV 展开策略。\n智能 UV 投影在面之间共享边，以实现无缝绘制。\n光照贴图打包为每个面提供独立矩形——最适合程序化烘焙，但手动绘制时可能显示边缘渗色。\n使用现有 UV 贴图会完全跳过展开，并使用网格上已有的手工制作 UV 层"
+
+#: export_3mf/operator.py:390
+msgid "Use Components"
+msgstr "使用组件"
+
+#: paint/properties.py:243
+msgid "Use Existing UV Map"
+msgstr "使用现有 UV 贴图"
+
+#: export_3mf/operator.py:411
+msgid "Use Production Extension with paint_color attributes (Orca Slicer, BambuStudio, Handy)"
+msgstr "使用带 paint_color 属性的生产扩展（Orca Slicer、BambuStudio、Handy）"
+
+#: __init__.py:351
+#: export_3mf/operator.py:455
+msgid "Use a custom image file as the thumbnail"
+msgstr "使用自定义图像文件作为缩略图"
+
+#: paint/properties.py:243
+msgid "Use a hand-crafted UV layer already on the mesh — skips dissolve and UV projection entirely"
+msgstr "使用网格上已有的手工制作 UV 层——完全跳过融并和 UV 投影"
+
+#: export_3mf/operator.py:416
+msgid "Use mmu_segmentation attributes (PrusaSlicer, SuperSlicer)"
+msgstr "使用 mmu_segmentation 属性（PrusaSlicer、SuperSlicer）"
+
+#: panels/metadata.py:191
+#: panels/metadata.py:249
+msgid "Value"
+msgstr "数值"
+
+#: paint/operators.py:403
+msgid "Vertex color data detected on this object."
+msgstr "在该物体上检测到顶点颜色数据。"
+
+#: panels/metadata.py:500
+msgid "Vertices:"
+msgstr "顶点："
+
+#: import_3mf/operator.py:149
+msgid "Where to place imported objects in the scene"
+msgstr "导入的物体在场景中的放置位置"
+
+#: paint/properties.py:330
+msgid "Which paint data layer is currently active"
+msgstr "当前激活的绘制数据层"
+
+#: __init__.py:203
+#: import_3mf/operator.py:153
+msgid "World Origin"
+msgstr "世界原点"
+
+#: paint/operators.py:859
+msgid "Would you like to switch to Texture Paint mode"
+msgstr "是否切换到纹理绘制模式"
+
+#: export_3mf/operator.py:399
+msgid "Write child meshes directly as top-level build items instead of using component containers. Some printing services reject files that use 3MF component references. Enable this to maximize compatibility"
+msgstr "将子网格直接写为顶层构建项，而不使用组件容器。部分打印服务会拒绝使用 3MF 组件引用的文件。启用此项可最大化兼容性"
+
+#: export_3mf/operator.py:72
+msgid "You've exported several files now, glad it's been useful!"
+msgstr "你已经导出了多个文件，很高兴它对你有用！"
+
+#: __init__.py:520
+msgid "You've exported several files — glad it's been useful!"
+msgstr "你已经导出了多个文件——很高兴它对你有用！"
+
+#: export_3mf/operator.py:352
+msgid "ZIP deflate compression level. 0 = no compression (fastest, largest file), 9 = maximum compression (slowest, smallest file). Default 3 balances speed and size"
+msgstr "ZIP deflate 压缩级别。0 = 不压缩（最快、文件最大），9 = 最大压缩（最慢、文件最小）。默认值 3 兼顾速度与大小"
+
+#: paint/bake.py:1156
+msgid "anti-aliased edges or off-color pixels."
+msgstr "抗锯齿边缘或偏色像素。"
+
+#: export_3mf/operator.py:75
+msgid "be really appreciated, and helps support continued development."
+msgstr "将不胜感激，并有助于支持后续开发。"
+
+#: paint/operators.py:864
+msgid "click the '3MF' tab to access the paint tools."
+msgstr "点击「3MF」标签页以使用绘制工具。"
+
+#: paint/mmu_panel.py:192
+msgid "discrete filament colors for export"
+msgstr "用于导出的离散耗材颜色"
+
+#: paint/bake.py:1280
+msgid "filament color for clean 3MF export."
+msgstr "用于干净 3MF 导出的耗材颜色。"
+
+#: paint/mmu_panel.py:334
+msgid "filament color to clean up edges"
+msgstr "用于清理边缘的耗材颜色"
+
+#: paint/mmu_panel.py:317
+msgid "issues on export"
+msgstr "导出时的问题"
+
+#: paint/bake.py:351
+msgid "no Cycles bake needed."
+msgstr "无需 Cycles 烘焙。"
+
+#: __init__.py:523
+msgid "others discover this add-on. It only takes a few seconds."
+msgstr "让更多人发现这个插件。只需几秒钟。"
+
+#: paint/mmu_panel.py:189
+msgid "preserving mesh topology"
+msgstr "保留网格拓扑"
+
+#: paint/bake.py:1276
+msgid "preserving original mesh topology."
+msgstr "保留原始网格拓扑。"
+
+#: paint/bake.py:1279
+msgid "then snaps pixels to the nearest"
+msgstr "然后将像素吸附到最近的"
+
+#: paint/operators.py:860
+msgid "to view and edit the paint regions?"
+msgstr "以查看和编辑绘制区域？"
+
+#: paint/operators.py:766
+msgid "with the new color you choose."
+msgstr "使用你选择的新颜色。"
+
+#: panels/metadata.py:429
+msgid "—"
+msgstr "—"
+
+#: __init__.py:547
+#: __init__.py:554
+msgctxt "Operator"
+msgid "3D Manufacturing Format (.3mf)"
+msgstr "3D 制造格式 (.3mf)"
+
+#: paint/operators.py:1526
+msgctxt "Operator"
+msgid "Add"
+msgstr "添加"
+
+#: export_3mf/operator.py:208
+msgctxt "Operator"
+msgid "Add 3MF Export Preset"
+msgstr "添加 3MF 导出预设"
+
+#: paint/operators.py:253
+#: paint/operators.py:489
+msgctxt "Operator"
+msgid "Add Filament"
+msgstr "添加耗材"
+
+#: panels/metadata.py:241
+msgctxt "Operator"
+msgid "Add Metadata Field"
+msgstr "添加元数据字段"
+
+#: paint/operators.py:1194
+msgctxt "Operator"
+msgid "Add Mix"
+msgstr "添加混合"
+
+#: paint/operators.py:1351
+msgctxt "Operator"
+msgid "Add a new gradient virtual mixed filament (blend ratio between two filaments)"
+msgstr "添加新的渐变虚拟混合耗材（两种耗材之间的混合比例）"
+
+#: paint/operators.py:1384
+msgctxt "Operator"
+msgid "Add a new pattern virtual mixed filament (repeating layer sequence)"
+msgstr "添加新的图案虚拟混合耗材（重复的层序列）"
+
+#: paint/operators.py:1195
+msgctxt "Operator"
+msgid "Add a new virtual mixed filament (OrcaSlicer-FullSpectrum)"
+msgstr "添加新的虚拟混合耗材（OrcaSlicer-FullSpectrum）"
+
+#: paint/operators.py:1341
+#: paint/operators.py:1417
+msgctxt "Operator"
+msgid "Add: Color"
+msgstr "添加：颜色"
+
+#: paint/operators.py:1342
+#: paint/operators.py:1350
+msgctxt "Operator"
+msgid "Add: Gradient"
+msgstr "添加：渐变"
+
+#: paint/operators.py:1343
+#: paint/operators.py:1383
+msgctxt "Operator"
+msgid "Add: Pattern"
+msgstr "添加：图案"
+
+#: paint/bake.py:296
+msgctxt "Operator"
+msgid "Bake the current material output to a texture, then quantize all pixels to the nearest filament color. The result is a discrete-color paint texture ready for multi-material 3MF export"
+msgstr "将当前材质输出烘焙为纹理，然后将所有像素量化为最接近的耗材颜色。结果是可用于多材质 3MF 导出的离散颜色绘制纹理"
+
+#: paint/bake.py:295
+msgctxt "Operator"
+msgid "Bake to MMU Paint"
+msgstr "烘焙为 MMU 绘制"
+
+#: paint/mmu_panel.py:289
+msgctxt "Operator"
+msgid "Block"
+msgstr "阻挡"
+
+#: paint/operators.py:1594
+msgctxt "Operator"
+msgid "Cancel"
+msgstr "取消"
+
+#: panels/triangle_sets.py:139
+msgctxt "Operator"
+msgid "Clear All Names"
+msgstr "清除所有名称"
+
+#: paint/mmu_panel.py:207
+msgctxt "Operator"
+msgid "Color"
+msgstr "颜色"
+
+#: paint/bake.py:1181
+#: paint/mmu_panel.py:127
+msgctxt "Operator"
+msgid "Create Default Palette"
+msgstr "创建默认调色板"
+
+#: paint/operators.py:1527
+msgctxt "Operator"
+msgid "Create a new mixed filament using the settings shown above"
+msgstr "使用上方显示的设置创建新的混合耗材"
+
+#: slicer_profiles/operators.py:100
+msgctxt "Operator"
+msgid "Delete Profile"
+msgstr "删除配置"
+
+#: paint/operators.py:332
+msgctxt "Operator"
+msgid "Detect from Materials"
+msgstr "从材质检测"
+
+#: export_3mf/operator.py:79
+msgctxt "Operator"
+msgid "Don't ask again"
+msgstr "不再询问"
+
+#: panels/metadata.py:184
+msgctxt "Operator"
+msgid "Edit 3MF Metadata"
+msgstr "编辑 3MF 元数据"
+
+#: paint/mmu_panel.py:282
+msgctxt "Operator"
+msgid "Enforce"
+msgstr "强制"
+
+#: __init__.py:499
+msgctxt "Operator"
+msgid "Enjoying 3MF Format?"
+msgstr "喜欢 3MF 格式吗？"
+
+#: export_3mf/operator.py:313
+msgctxt "Operator"
+msgid "Export 3MF"
+msgstr "导出 3MF"
+
+#: paint/operators.py:648
+msgctxt "Operator"
+msgid "Fix Brush Falloff"
+msgstr "修正笔刷衰减"
+
+#: import_3mf/operator.py:97
+msgctxt "Operator"
+msgid "Import 3MF"
+msgstr "导入 3MF"
+
+#: paint/mmu_panel.py:224
+msgctxt "Operator"
+msgid "Init Seam"
+msgstr "初始化接缝"
+
+#: paint/mmu_panel.py:240
+msgctxt "Operator"
+msgid "Init Support"
+msgstr "初始化支撑"
+
+#: paint/mmu_panel.py:163
+msgctxt "Operator"
+msgid "Initialize"
+msgstr "初始化"
+
+#: paint/operators.py:57
+msgctxt "Operator"
+msgid "Initialize MMU Painting"
+msgstr "初始化 MMU 绘制"
+
+#: paint/operators.py:876
+msgctxt "Operator"
+msgid "Initialize Paint Layer"
+msgstr "初始化绘制层"
+
+#: slicer_profiles/operators.py:33
+msgctxt "Operator"
+msgid "Load Profile from 3MF"
+msgstr "从 3MF 加载配置文件"
+
+#: import_3mf/operator.py:98
+msgctxt "Operator"
+msgid "Load a 3MF scene"
+msgstr "加载 3MF 场景"
+
+#: paint/operators.py:831
+msgctxt "Operator"
+msgid "MMU Paint Data Detected"
+msgstr "检测到 MMU 涂绘数据"
+
+#: panels/triangle_sets.py:104
+msgctxt "Operator"
+msgid "Name Face Set"
+msgstr "命名面集"
+
+#: paint/operators.py:669
+msgctxt "Operator"
+msgid "Open MMU Paint Mode"
+msgstr "打开 MMU 涂绘模式"
+
+#: paint/bake.py:1015
+msgctxt "Operator"
+msgid "Quantize to Filaments"
+msgstr "量化到耗材"
+
+#: export_3mf/operator.py:77
+msgctxt "Operator"
+msgid "Rate it ★  (opens browser)"
+msgstr "评价 ★（打开浏览器）"
+
+#: paint/operators.py:723
+msgctxt "Operator"
+msgid "Reassign Filament Color"
+msgstr "重新指定耗材颜色"
+
+#: paint/operators.py:1260
+msgctxt "Operator"
+msgid "Recompute the blended swatch color from current component settings"
+msgstr "根据当前组件设置重新计算混合色块颜色"
+
+#: export_3mf/operator.py:78
+msgctxt "Operator"
+msgid "Remind me after 5 more exports"
+msgstr "再导出 5 次后提醒我"
+
+#: paint/operators.py:280
+#: paint/operators.py:548
+msgctxt "Operator"
+msgid "Remove Filament"
+msgstr "移除耗材"
+
+#: panels/metadata.py:291
+msgctxt "Operator"
+msgid "Remove Metadata"
+msgstr "移除元数据"
+
+#: paint/operators.py:1228
+msgctxt "Operator"
+msgid "Remove Mix"
+msgstr "移除混合"
+
+#: paint/operators.py:1229
+msgctxt "Operator"
+msgid "Remove the selected virtual mixed filament"
+msgstr "移除选中的虚拟混合耗材"
+
+#: slicer_profiles/operators.py:123
+msgctxt "Operator"
+msgid "Rename Profile"
+msgstr "重命名配置文件"
+
+#: paint/operators.py:311
+msgctxt "Operator"
+msgid "Reset to Defaults"
+msgstr "重置为默认值"
+
+#: export_3mf/operator.py:314
+msgctxt "Operator"
+msgid "Save the current scene to 3MF"
+msgstr "将当前场景保存为 3MF"
+
+#: paint/operators.py:333
+msgctxt "Operator"
+msgid "Scan the active object's shader node trees for colors.\nReads Color Ramp stops, Principled BSDF Base Color, RGB nodes,\nand viewport display colors, then populates the filament list.\nIf an image texture or vertex colors are detected, prompts for\nthe number of dominant colors to extract"
+msgstr "扫描活动物体的着色器节点树以查找颜色。\n读取颜色渐变停靠点、原理化 BSDF 的基础色、RGB 节点\n和视图显示颜色，然后填充耗材列表。\n如果检测到图像纹理或顶点颜色，将提示\n输入要提取的主色数量"
+
+#: paint/mmu_panel.py:217
+msgctxt "Operator"
+msgid "Seam"
+msgstr "接缝"
+
+#: paint/operators.py:1418
+msgctxt "Operator"
+msgid "Search all filament pairs and three-way patterns to find the best pigment blend matching the Target Color shown in the panel"
+msgstr "搜索所有耗材两两组合与三色组合，找出与面板中显示的目标颜色最匹配的颜料混合"
+
+#: paint/operators.py:472
+msgctxt "Operator"
+msgid "Select Filament"
+msgstr "选择耗材"
+
+#: panels/metadata.py:311
+msgctxt "Operator"
+msgid "Set Part Type"
+msgstr "设置零件类型"
+
+#: paint/bake.py:1016
+msgctxt "Operator"
+msgid "Snap every pixel in the current MMU paint texture to the nearest filament color. Useful for cleaning up anti-aliased edges or slightly off-color painted regions"
+msgstr "将当前 MMU 涂绘纹理中的每个像素吸附到最近的耗材颜色。适用于清理抗锯齿边缘或颜色略有偏差的涂绘区域"
+
+#: paint/mmu_panel.py:233
+msgctxt "Operator"
+msgid "Support"
+msgstr "支撑"
+
+#: paint/operators.py:1075
+msgctxt "Operator"
+msgid "Switch Brush Mode"
+msgstr "切换笔刷模式"
+
+#: paint/operators.py:995
+msgctxt "Operator"
+msgid "Switch Paint Layer"
+msgstr "切换涂绘层"
+
+#: paint/operators.py:670
+msgctxt "Operator"
+msgid "Switch to Texture Paint mode to paint multi-material regions"
+msgstr "切换到纹理绘制模式以涂绘多材质区域"
+
+#: paint/mmu_panel.py:499
+#: paint/operators.py:1259
+msgctxt "Operator"
+msgid "Update Color"
+msgstr "更新颜色"

@@ -1,0 +1,366 @@
+# perfect-chinese: 1
+# id: booltron
+# kind: addon
+# module: bl_ext.blender_org.booltron
+# name: Booltron
+# name_zh: 超级布尔
+# translator: KeshiMiao
+# category: Modeling
+# supported_versions: >=4.5.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: preferences.py:29
+msgid "Allow self-intersection in operands"
+msgstr "允许操作对象自相交"
+
+#: operators/nondestructive/bake.py:55
+msgid "As Instance"
+msgstr "作为实例"
+
+#: operators/destructive/__init__.py:117
+#: operators/nondestructive/__init__.py:159
+msgid "At least two objects must be selected"
+msgstr "至少需要选择两个物体"
+
+#: ui.py:127
+msgid "Attributes"
+msgstr "属性"
+
+#: preferences.py:100
+#: ui.py:99
+msgid "Bake"
+msgstr "烘焙"
+
+#: preferences.py:100
+msgid "Bake modifier result"
+msgstr "烘焙修改器结果"
+
+#: preferences.py:33
+msgid "Better results when there are holes (slower)"
+msgstr "有孔洞时效果更好（较慢）"
+
+#: operators/destructive/__init__.py:101
+#: operators/destructive/__init__.py:234
+msgid "Boolean operation result is non-manifold"
+msgstr "布尔运算结果为非流形"
+
+#: ui.py:20
+#: ui.py:55
+msgid "Booltron"
+msgstr "Booltron"
+
+#: preferences.py:65
+msgid "Bounds"
+msgstr "边界"
+
+#: preferences.py:130
+msgid "Default attribute name"
+msgstr "默认属性名称"
+
+#: preferences.py:86
+#: operators/destructive/__init__.py:68
+msgid "Degenerate Dissolve"
+msgstr "退化消融"
+
+#: ui.py:65
+msgid "Destructive"
+msgstr "破坏性"
+
+#: preferences.py:161
+msgid "Disable boolean modifiers on all objects"
+msgstr "禁用所有物体上的布尔修改器"
+
+#: operators/destructive/__init__.py:175
+msgid "Displace secondary object to create overlap between slices"
+msgstr "偏移次要物体以在切片之间产生重叠"
+
+#: preferences.py:61
+#: ui.py:138
+msgid "Display As"
+msgstr "显示为"
+
+#: preferences.py:86
+msgid "Dissolve zero area faces and zero length edges"
+msgstr "融并零面积面和零长度边"
+
+#: operators/destructive/__init__.py:21
+msgid "Do not remove selected objects after boolean operation (Shortcut: hold Alt when using the tool)"
+msgstr "布尔运算后不移除所选物体（快捷键：使用工具时按住 Alt）"
+
+#: preferences.py:26
+msgid "Exact"
+msgstr "精确"
+
+#: operators/nondestructive/utils.py:48
+msgid "Extend"
+msgstr "扩展"
+
+#: operators/nondestructive/utils.py:48
+msgid "Extend selection"
+msgstr "扩展选择"
+
+#: preferences.py:24
+msgid "Fastest, works only on manifold meshes"
+msgstr "最快，仅适用于流形网格"
+
+#: operators/nondestructive/__init__.py:105
+#: operators/nondestructive/bake.py:27
+msgid "File not saved"
+msgstr "文件未保存"
+
+#: preferences.py:25
+msgid "Float"
+msgstr "浮点"
+
+#: preferences.py:57
+msgid "Get different offset values"
+msgstr "获取不同的偏移值"
+
+#: preferences.py:25
+msgid "Good performance, doesn't work on coplanar geometry"
+msgstr "性能良好，不适用于共面几何体"
+
+#: preferences.py:33
+msgid "Hole Tolerant"
+msgstr "容忍孔洞"
+
+#: preferences.py:61
+msgid "How to display object in viewport"
+msgstr "如何在视图中显示物体"
+
+#: preferences.py:130
+msgid "Intersecting Edges"
+msgstr "相交边"
+
+#: operators/destructive/__init__.py:21
+msgid "Keep Objects"
+msgstr "保留物体"
+
+#: preferences.py:48
+msgid "Location Offset"
+msgstr "位置偏移"
+
+#: preferences.py:48
+msgid "Location offset is randomly generated for each object in range [-x, +x] input value"
+msgstr "为每个物体在输入值范围 [-x, +x] 内随机生成位置偏移"
+
+#: preferences.py:24
+msgid "Manifold"
+msgstr "流形"
+
+#: preferences.py:76
+msgid "Merge Distance"
+msgstr "合并距离"
+
+#: preferences.py:20
+msgid "Method for calculating booleans"
+msgstr "计算布尔运算的方法"
+
+#: preferences.py:76
+msgid "Minimum distance between elements to merge"
+msgstr "要合并元素之间的最小距离"
+
+#: ui.py:150
+#: operators/nondestructive/__init__.py:49
+msgid "Modifier"
+msgstr "修改器"
+
+#: preferences.py:161
+#: ui.py:79
+msgid "Non-destructive"
+msgstr "非破坏性"
+
+#: operators/destructive/__init__.py:84
+#: operators/destructive/__init__.py:207
+msgid "Non-manifold input, choose different solver"
+msgstr "输入为非流形，请选择其他求解器"
+
+#: operators/nondestructive/utils.py:87
+msgid "Object does not have Booltron modifiers"
+msgstr "物体没有 Booltron 修改器"
+
+#: operators/destructive/__init__.py:60
+#: operators/nondestructive/__init__.py:84
+msgid "Offset"
+msgstr "偏移"
+
+#: operators/destructive/__init__.py:175
+msgid "Overlap"
+msgstr "重叠"
+
+#: ui.py:143
+#: operators/destructive/__init__.py:65
+msgid "Pre-processing"
+msgstr "预处理"
+
+#: ui.py:119
+#: operators/destructive/__init__.py:36
+msgid "Primary Object"
+msgstr "主物体"
+
+#: preferences.py:41
+#: ui.py:139
+msgid "Randomize Location"
+msgstr "随机化位置"
+
+#: ui.py:133
+#: operators/destructive/__init__.py:46
+msgid "Secondary Object"
+msgstr "次要物体"
+
+#: preferences.py:57
+msgid "Seed"
+msgstr "种子"
+
+#: preferences.py:29
+msgid "Self Intersection"
+msgstr "自相交"
+
+#: preferences.py:41
+msgid "Shift objects location for a very small amount to avoid coplanar geometry errors during boolean operation"
+msgstr "将物体位置偏移极小距离，以避免布尔运算时出现共面几何体错误"
+
+#: operators/nondestructive/bake.py:55
+msgid "Shortcut: hold Alt when using the tool"
+msgstr "快捷键：使用工具时按住 Alt"
+
+#: operators/destructive/__init__.py:190
+msgid "Slice"
+msgstr "切片"
+
+#: preferences.py:26
+msgid "Slowest, handles self intersection"
+msgstr "最慢，可处理自相交"
+
+#: preferences.py:67
+msgid "Solid"
+msgstr "实体"
+
+#: preferences.py:20
+msgid "Solver"
+msgstr "求解器"
+
+#: preferences.py:68
+msgid "Textured"
+msgstr "纹理"
+
+#: preferences.py:66
+msgid "Wire"
+msgstr "线框"
+
+#: operators/nondestructive/bake.py:34
+msgctxt "Operator"
+msgid "Bake Modifier"
+msgstr "烘焙修改器"
+
+#: operators/nondestructive/bake.py:35
+msgctxt "Operator"
+msgid "Bake modifier result for selected objects"
+msgstr "为所选物体烘焙修改器结果"
+
+#: operators/nondestructive/__init__.py:188
+msgctxt "Operator"
+msgid "Combine active (primary) and selected (secondary) objects"
+msgstr "组合活动（主）物体与所选（次要）物体"
+
+#: operators/destructive/__init__.py:151
+msgctxt "Operator"
+msgid "Combine selected objects"
+msgstr "组合所选物体"
+
+#: operators/nondestructive/bake.py:51
+msgctxt "Operator"
+msgid "Create instance mesh copy of selected objects"
+msgstr "为所选物体创建实例网格副本"
+
+#: operators/nondestructive/bake.py:42
+msgctxt "Operator"
+msgid "Delete Bake"
+msgstr "删除烘焙"
+
+#: operators/nondestructive/bake.py:43
+msgctxt "Operator"
+msgid "Delete modifier bake for selected objects"
+msgstr "删除所选物体的修改器烘焙"
+
+#: operators/destructive/__init__.py:141
+#: operators/nondestructive/__init__.py:178
+msgctxt "Operator"
+msgid "Difference"
+msgstr "差集"
+
+#: operators/nondestructive/utils.py:9
+msgctxt "Operator"
+msgid "Dismiss"
+msgstr "排除"
+
+#: operators/nondestructive/utils.py:10
+msgctxt "Operator"
+msgid "Dismiss selected secondary objects from boolean operation"
+msgstr "将所选次级物体从布尔运算中排除"
+
+#: operators/nondestructive/bake.py:50
+msgctxt "Operator"
+msgid "Instance Copy"
+msgstr "实例副本"
+
+#: operators/destructive/__init__.py:159
+#: operators/nondestructive/__init__.py:196
+msgctxt "Operator"
+msgid "Intersect"
+msgstr "交集"
+
+#: operators/nondestructive/__init__.py:197
+msgctxt "Operator"
+msgid "Keep the common part between active (primary) and selected (secondary) objects"
+msgstr "保留活动（主）物体与所选（次）物体之间的公共部分"
+
+#: operators/destructive/__init__.py:160
+msgctxt "Operator"
+msgid "Keep the common part between active and selected objects"
+msgstr "保留活动物体与所选物体的公共部分"
+
+#: ui.py:96
+msgctxt "Operator"
+msgid "Select"
+msgstr "选择"
+
+#: operators/nondestructive/utils.py:40
+msgctxt "Operator"
+msgid "Select Secondary"
+msgstr "选择次级物体"
+
+#: operators/nondestructive/utils.py:41
+msgctxt "Operator"
+msgid "Select secondary objects used by given modifier"
+msgstr "选择指定修改器使用的次级物体"
+
+#: operators/destructive/__init__.py:168
+msgctxt "Operator"
+msgid "Slice"
+msgstr "切片"
+
+#: operators/destructive/__init__.py:169
+msgctxt "Operator"
+msgid "Slice active object along the volume of selected objects"
+msgstr "用所选物体的体积切片活动物体"
+
+#: operators/nondestructive/__init__.py:179
+msgctxt "Operator"
+msgid "Subtract selected (secondary) objects from active (primary) object"
+msgstr "从活动（主）物体中减去所选（次）物体"
+
+#: operators/destructive/__init__.py:142
+msgctxt "Operator"
+msgid "Subtract selected objects from active object"
+msgstr "从活动物体中减去所选物体"
+
+#: operators/destructive/__init__.py:150
+#: operators/nondestructive/__init__.py:187
+msgctxt "Operator"
+msgid "Union"
+msgstr "并集"

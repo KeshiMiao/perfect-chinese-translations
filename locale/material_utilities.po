@@ -1,0 +1,585 @@
+# perfect-chinese: 1
+# id: material_utilities
+# kind: addon
+# module: bl_ext.blender_org.material_utilities
+# name: Material Utilities
+# name_zh: 材质工具集
+# translator: KeshiMiao
+# category: Material
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: functions.py:403
+msgid "A poly with an invalid material was found, this should not happen! Canceling!"
+msgstr "发现一个使用了无效材质的多边形，这不应发生！正在取消！"
+
+#: enum_values.py:19
+#: enum_values.py:24
+msgid "Active object"
+msgstr "活动物体"
+
+#: operators.py:38
+#: operators.py:102
+msgid "Add a new material, enter the name in the box"
+msgstr "添加新材质，在框中输入名称"
+
+#: enum_values.py:15
+msgid "Add the material in a new slot, and assign it to the whole object"
+msgstr "将材质添加到新材质槽，并指定给整个物体"
+
+#: operators.py:364
+#: operators.py:410
+msgid "Affect"
+msgstr "影响"
+
+#: enum_values.py:26
+msgid "Affect all objects in the current scene"
+msgstr "影响当前场景中的所有物体"
+
+#: enum_values.py:25
+msgid "Affect all selected objects"
+msgstr "影响所有选中物体"
+
+#: enum_values.py:24
+msgid "Affect the active object only"
+msgstr "仅影响活动物体"
+
+#: enum_values.py:22
+#: enum_values.py:27
+msgid "All"
+msgstr "全部"
+
+#: operators.py:322
+msgid "All Objects"
+msgstr "所有物体"
+
+#: enum_values.py:22
+#: enum_values.py:37
+msgid "All materials in this blend file"
+msgstr "此 .blend 文件中的所有材质"
+
+#: enum_values.py:35
+msgid "All materials used by objects"
+msgstr "物体使用的所有材质"
+
+#: enum_values.py:27
+msgid "All objects in this blend file"
+msgstr "此 .blend 文件中的所有物体"
+
+#: operators.py:723
+msgid "Angle"
+msgstr "角度"
+
+#: enum_values.py:15
+msgid "Append Material"
+msgstr "追加材质"
+
+#: menus.py:19
+#: preferences.py:80
+msgid "Assign Material"
+msgstr "指定材质"
+
+#: enum_values.py:11
+msgid "Assign material to currently selected slot"
+msgstr "将材质指定到当前选中的材质槽"
+
+#: enum_values.py:13
+msgid "Assign material to each slot"
+msgstr "将材质指定到每个材质槽"
+
+#: operators.py:97
+#: preferences.py:33
+msgid "Assignment method"
+msgstr "指定方式"
+
+#: operators.py:660
+#: operators.py:682
+msgid "Auto Join"
+msgstr "自动合并物体"
+
+#: operators.py:451
+msgid "Auto Merge"
+msgstr "自动合并"
+
+#: operators.py:559
+msgid "Auto Rename/Replace"
+msgstr "自动重命名/替换"
+
+#: enum_values.py:48
+msgid "Bottom"
+msgstr "底部"
+
+#: preferences.py:50
+msgid "Change Material Link To"
+msgstr "更改材质链接至"
+
+#: menus.py:73
+msgid "Clean Slots"
+msgstr "清理材质槽"
+
+#: enum_values.py:36
+msgid "Currently unused materials"
+msgstr "当前未使用的材质"
+
+#: enum_values.py:39
+msgid "Data"
+msgstr "数据"
+
+#: preferences.py:50
+msgid "Default option for the Change Material Link operator"
+msgstr "更改材质链接操作符的默认选项"
+
+#: preferences.py:38
+msgid "Default option for the Set Fake User (Turn fake user on or off)"
+msgstr "设置伪用户（开启或关闭伪用户）的默认选项"
+
+#: preferences.py:77
+msgid "Defaults"
+msgstr "默认值"
+
+#: enum_values.py:30
+msgid "Disable fake user"
+msgstr "禁用伪用户"
+
+#: enum_values.py:29
+msgid "Enable fake user"
+msgstr "启用伪用户"
+
+#: operators.py:159
+msgid "Extend Selection"
+msgstr "扩展选择"
+
+#: operators.py:357
+msgid "Fake User"
+msgstr "伪用户"
+
+#: operators.py:451
+msgid "Find all available duplicate materials and Merge them"
+msgstr "查找所有可用的重复材质并合并它们"
+
+#: preferences.py:62
+msgid "How many materials should there be before the 'Search' option is shown in the Assign Material and Select By Material menus\nSet it to 0 to always show 'Search'"
+msgstr "在“指定材质”和“按材质选择”菜单中显示“搜索”选项前应有多少个材质\n设为 0 以始终显示“搜索”"
+
+#: operators.py:605
+msgid "How to move the material slot"
+msgstr "如何移动材质槽"
+
+#: operators.py:660
+msgid "Join objects for all materials"
+msgstr "为所有材质合并物体"
+
+#: enum_values.py:13
+msgid "Keep the material slots, but assign the selected material in each slot"
+msgstr "保留材质槽，但在每个材质槽中指定所选材质"
+
+#: operators.py:159
+msgid "Keeps the current selection and adds faces with the material to the selection"
+msgstr "保留当前选择，并将具有该材质的面添加到选择中"
+
+#: operators.py:403
+msgid "Link"
+msgstr "链接"
+
+#: enum_values.py:39
+msgid "Link the materials to the data"
+msgstr "将材质链接到数据"
+
+#: enum_values.py:40
+msgid "Link the materials to the object"
+msgstr "将材质链接到物体"
+
+#: operators.py:655
+msgid "Material"
+msgstr "材质"
+
+#: operators.py:445
+msgid "Material Base Name"
+msgstr "材质基础名称"
+
+#: operators.py:32
+#: operators.py:91
+msgid "Material Name"
+msgstr "材质名称"
+
+#: menus.py:182
+msgid "Material Utilities"
+msgstr "材质工具"
+
+#: operators.py:318
+msgid "Material that will be used instead of the Original material"
+msgstr "将用来替代原始材质的材质"
+
+#: operators.py:313
+msgid "Material to find and replace"
+msgstr "要查找并替换的材质"
+
+#: operators.py:655
+msgid "Material to use to join objects"
+msgstr "用于合并物体的材质"
+
+#: enum_values.py:19
+#: enum_values.py:32
+msgid "Materials of active object only"
+msgstr "仅活动物体的材质"
+
+#: enum_values.py:21
+#: enum_values.py:34
+msgid "Materials of objects in current scene"
+msgstr "当前场景中物体的材质"
+
+#: enum_values.py:20
+#: enum_values.py:33
+msgid "Materials of selected objects"
+msgstr "选中物体的材质"
+
+#: operators.py:723
+msgid "Maximum angle between face normals that will be considered as smooth"
+msgstr "被视为平滑的面法线之间的最大角度"
+
+#: functions.py:147
+msgid "Meta balls only support one material, all other materials overridden!"
+msgstr "融球仅支持一种材质，所有其他材质均被覆盖！"
+
+#: preferences.py:95
+msgid "Miscellaneous"
+msgstr "杂项"
+
+#: operators.py:605
+msgid "Move"
+msgstr "移动"
+
+#: enum_values.py:48
+msgid "Move slot to the bottom"
+msgstr "将材质槽移到底部"
+
+#: enum_values.py:47
+msgid "Move slot to the top"
+msgstr "将材质槽移到顶部"
+
+#: operators.py:32
+#: operators.py:91
+msgid "Name of Material to assign to current selection"
+msgstr "要指定给当前选择的材质名称"
+
+#: operators.py:163
+msgid "Name of Material to find and Select"
+msgstr "要查找并选择的材质名称"
+
+#: preferences.py:26
+msgid "New Material name"
+msgstr "新材质名称"
+
+#: operators.py:575
+msgid "No Material Base Name given!"
+msgstr "未提供材质基础名称！"
+
+#: operators.py:77
+#: operators.py:145
+msgid "No Material Name given!"
+msgstr "未提供材质名称！"
+
+#: functions.py:164
+msgid "No material slots found! A material slot was added!"
+msgstr "未找到材质槽！已添加一个材质槽！"
+
+#: functions.py:671
+msgid "No objects available to set Auto Smooth on"
+msgstr "没有可用于设置自动平滑的物体"
+
+#: enum_values.py:40
+msgid "Object"
+msgstr "物体"
+
+#: enum_values.py:30
+msgid "Off"
+msgstr "关闭"
+
+#: enum_values.py:29
+msgid "On"
+msgstr "开启"
+
+#: operators.py:224
+#: operators.py:253
+msgid "Only active object"
+msgstr "仅活动物体"
+
+#: enum_values.py:11
+msgid "Only assign the material to the material slot that's currently selected"
+msgstr "仅将材质分配给当前选中的材质槽"
+
+#: operators.py:313
+msgid "Original"
+msgstr "原始"
+
+#: operators.py:396
+msgid "Override Data material"
+msgstr "覆盖数据材质"
+
+#: enum_values.py:9
+msgid "Override all assigned slots"
+msgstr "覆盖所有已分配的材质槽"
+
+#: enum_values.py:9
+msgid "Remove any current material slots, and assign the current material"
+msgstr "移除所有当前材质槽，并分配当前材质"
+
+#: operators.py:322
+msgid "Replace for all objects in this blend file (otherwise only selected objects)"
+msgstr "替换此 .blend 文件中的所有物体（否则仅替换选中物体）"
+
+#: operators.py:318
+msgid "Replacement"
+msgstr "替换"
+
+#: enum_values.py:21
+#: enum_values.py:26
+msgid "Scene objects"
+msgstr "场景物体"
+
+#: operators.py:327
+msgid "Select affected objects and deselect unaffected"
+msgstr "选择受影响的物体并取消选择未受影响的物体"
+
+#: menus.py:96
+msgid "Select by Material"
+msgstr "按材质选择"
+
+#: enum_values.py:20
+#: enum_values.py:25
+msgid "Selected objects"
+msgstr "选中物体"
+
+#: preferences.py:38
+#: preferences.py:85
+msgid "Set Fake User"
+msgstr "设置伪用户"
+
+#: preferences.py:90
+msgid "Set Link To"
+msgstr "设置链接到"
+
+#: operators.py:731
+msgid "Set Smooth"
+msgstr "设置平滑"
+
+#: operators.py:731
+msgid "Set Smooth shading for the affected objects\nThis overrides the current smooth/flat shading that might be set to different parts of the object"
+msgstr "为受影响的物体设置平滑着色\n这会覆盖物体不同部分当前可能设置的平滑/平直着色"
+
+#: preferences.py:62
+msgid "Show 'Search' Limit"
+msgstr "显示“搜索”限制"
+
+#: operators.py:43
+#: operators.py:107
+msgid "Show Dialog"
+msgstr "显示对话框"
+
+#: menus.py:159
+msgid "Specials"
+msgstr "特殊操作"
+
+#: enum_values.py:31
+#: enum_values.py:41
+msgid "Toggle"
+msgstr "切换"
+
+#: enum_values.py:31
+msgid "Toggle fake user"
+msgstr "切换伪用户"
+
+#: enum_values.py:41
+msgid "Toggle what the materials are currently linked to"
+msgstr "切换材质当前链接目标"
+
+#: enum_values.py:47
+msgid "Top"
+msgstr "顶部"
+
+#: operators.py:357
+msgid "Turn fake user on or off"
+msgstr "开启或关闭伪用户"
+
+#: enum_values.py:36
+msgid "Unused"
+msgstr "未使用"
+
+#: operators.py:327
+msgid "Update Selection"
+msgstr "更新选择"
+
+#: enum_values.py:35
+msgid "Used"
+msgstr "已使用"
+
+#: preferences.py:26
+msgid "What Base name pattern to use for a new created Material\nIt is appended by an automatic numeric pattern depending\non the number of Scene's materials containing the Base"
+msgstr "新建材质使用的基础名称模式\n会根据场景中包含该基础名称的材质数量\n自动追加数字后缀"
+
+#: operators.py:403
+msgid "What should the material be linked to"
+msgstr "材质应链接到什么"
+
+#: operators.py:364
+#: operators.py:410
+msgid "Which materials of objects to affect"
+msgstr "要影响物体的哪些材质"
+
+#: preferences.py:56
+msgid "Which materials of objects to affect by default with Change Material Link"
+msgstr "使用“更改材质链接”时默认影响物体的哪些材质"
+
+#: operators.py:717
+msgid "Which objects of to affect"
+msgstr "要影响哪些物体"
+
+#: menus.py:46
+msgctxt "Operator"
+msgid "Add New Material"
+msgstr "添加新材质"
+
+#: operators.py:29
+#: operators.py:88
+msgctxt "Operator"
+msgid "Assign Material (Material Utilities)"
+msgstr "分配材质（Material Utilities）"
+
+#: menus.py:217
+#: menus.py:272
+msgctxt "Operator"
+msgid "Change Material Link"
+msgstr "更改材质链接"
+
+#: operators.py:393
+msgctxt "Operator"
+msgid "Change Material Linking (Material Utilities)"
+msgstr "更改材质链接（Material Utilities）"
+
+#: menus.py:79
+msgctxt "Operator"
+msgid "Clean Material Slots"
+msgstr "清理材质槽"
+
+#: operators.py:214
+msgctxt "Operator"
+msgid "Clean Material Slots (Material Utilities)"
+msgstr "清理材质槽（Material Utilities）"
+
+#: menus.py:197
+msgctxt "Operator"
+msgid "Copy Materials to Selected"
+msgstr "复制材质到选中物体"
+
+#: operators.py:199
+msgctxt "Operator"
+msgid "Copy material(s) to others (Material Utilities)"
+msgstr "复制材质到其他物体（Material Utilities）"
+
+#: menus.py:173
+msgctxt "Operator"
+msgid "Join by material"
+msgstr "按材质合并"
+
+#: operators.py:651
+msgctxt "Operator"
+msgid "Join by material (Material Utilities)"
+msgstr "按材质合并（Material Utilities）"
+
+#: operators.py:652
+msgctxt "Operator"
+msgid "Join objects that share the same material"
+msgstr "合并共享同一材质的物体"
+
+#: menus.py:169
+#: operators.py:442
+msgctxt "Operator"
+msgid "Merge Base Names"
+msgstr "合并基础名称"
+
+#: operators.py:443
+msgctxt "Operator"
+msgid "Merge materials that has the same base names but ends with .xxx (.001, .002 etc)"
+msgstr "合并基础名称相同但以 .xxx（.001、.002 等）结尾的材质"
+
+#: operators.py:601
+msgctxt "Operator"
+msgid "Move Slot"
+msgstr "移动材质槽"
+
+#: menus.py:241
+msgctxt "Operator"
+msgid "Move Slot to the Bottom"
+msgstr "将材质槽移至底部"
+
+#: menus.py:238
+msgctxt "Operator"
+msgid "Move Slot to the Top"
+msgstr "将材质槽移至顶部"
+
+#: operators.py:602
+msgctxt "Operator"
+msgid "Move the material slot"
+msgstr "移动材质槽"
+
+#: menus.py:83
+msgctxt "Operator"
+msgid "Remove Active Material Slot"
+msgstr "移除活动材质槽"
+
+#: operators.py:250
+msgctxt "Operator"
+msgid "Remove Active Material Slot (Material Utilities)"
+msgstr "移除活动材质槽（Material Utilities）"
+
+#: menus.py:86
+msgctxt "Operator"
+msgid "Remove All Material Slots"
+msgstr "移除所有材质槽"
+
+#: operators.py:276
+msgctxt "Operator"
+msgid "Remove All Material Slots (Material Utilities)"
+msgstr "移除所有材质槽（Material Utilities）"
+
+#: menus.py:207
+#: menus.py:264
+msgctxt "Operator"
+msgid "Replace Material"
+msgstr "替换材质"
+
+#: operators.py:310
+msgctxt "Operator"
+msgid "Replace Material (Material Utilities)"
+msgstr "替换材质（Material Utilities）"
+
+#: menus.py:37
+#: menus.py:111
+msgctxt "Operator"
+msgid "Search"
+msgstr "搜索"
+
+#: operators.py:156
+msgctxt "Operator"
+msgid "Select By Material Name (Material Utilities)"
+msgstr "按材质名称选择（Material Utilities）"
+
+#: operators.py:714
+msgctxt "Operator"
+msgid "Set Auto Smooth Angle (Material Utilities)"
+msgstr "设置自动平滑角度（Material Utilities）"
+
+#: menus.py:211
+#: menus.py:268
+msgctxt "Operator"
+msgid "Set Fake User"
+msgstr "设置伪用户"
+
+#: operators.py:354
+msgctxt "Operator"
+msgid "Set Fake User (Material Utilities)"
+msgstr "设置伪用户（Material Utilities）"

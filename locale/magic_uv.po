@@ -1,0 +1,2801 @@
+# perfect-chinese: 1
+# id: magic_uv
+# kind: addon
+# module: bl_ext.blender_org.magic_uv
+# name: Magic UV
+# name_zh: 魔法UV
+# translator: KeshiMiao
+# category: UV
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: preferences.py:388
+msgid "(Among faces in UV/Image Editor)"
+msgstr "（在 UV/图像编辑器中的面之间）"
+
+#: preferences.py:333
+msgid "/wiki/Tutorial"
+msgstr "/wiki/Tutorial"
+
+#: op/texture_wrap.py:194
+msgid "2 vertices must be shared among faces"
+msgstr "面之间必须共享 2 个顶点"
+
+#: ui/uvedit_editor_enhancement.py:130
+msgid "3D"
+msgstr "3D"
+
+#: preferences.py:343
+#: preferences.py:351
+msgid "3D View > Sidebar >"
+msgstr "3D 视图 > 侧边栏 >"
+
+#: op/pack_uv.py:153
+#: op/pack_uv.py:228
+msgid "Accurate Island Copy"
+msgstr "精确 UV 孤岛复制"
+
+#: op/texture_projection.py:221
+#: ui/view3d_uv_mapping.py:76
+msgid "Adjust Window"
+msgstr "调整窗口"
+
+#: op/uv_sculpt.py:125
+msgid "Algorithm used for relaxation"
+msgstr "用于松弛的算法"
+
+#: ui/IMAGE_MT_uvs.py:78
+msgid "Align"
+msgstr "对齐"
+
+#: op/align_uv_cursor.py:87
+msgid "Align Method"
+msgstr "对齐方式"
+
+#: preferences.py:133
+#: preferences.py:396
+msgid "Align UV"
+msgstr "对齐 UV"
+
+#: preferences.py:138
+#: preferences.py:407
+msgid "Align UV Cursor"
+msgstr "对齐 UV 游标"
+
+#: op/align_uv_cursor.py:70
+msgid "Align UV Cursor Enabled"
+msgstr "启用对齐 UV 游标"
+
+#: op/align_uv_cursor.py:70
+msgid "Align UV Cursor is enabled"
+msgstr "对齐 UV 游标已启用"
+
+#: op/align_uv.py:281
+msgid "Align UV Enabled"
+msgstr "启用对齐 UV"
+
+#: ui/IMAGE_MT_uvs.py:142
+msgid "Align UV cursor"
+msgstr "对齐 UV 游标"
+
+#: op/align_uv.py:281
+msgid "Align UV is enabled"
+msgstr "对齐 UV 已启用"
+
+#: op/align_uv_cursor.py:138
+msgid "Align base"
+msgstr "对齐基准"
+
+#: op/align_uv_cursor.py:140
+msgid "Align based on Texture"
+msgstr "基于纹理对齐"
+
+#: op/align_uv.py:302
+#: op/align_uv.py:544
+msgid "Align horizontal direction influenced by mesh vertex proportion"
+msgstr "水平方向对齐受网格顶点比例影响"
+
+#: op/align_uv.py:286
+#: op/align_uv.py:412
+msgid "Align linked UVs"
+msgstr "对齐链接 UV"
+
+#: op/align_uv.py:315
+#: op/align_uv.py:705
+msgid "Align location"
+msgstr "对齐位置"
+
+#: op/align_uv_cursor.py:122
+msgid "Align position"
+msgstr "对齐位置"
+
+#: op/align_uv_cursor.py:124
+msgid "Align to Center"
+msgstr "对齐到中心"
+
+#: op/align_uv_cursor.py:127
+msgid "Align to Left Bottom"
+msgstr "对齐到左下"
+
+#: op/align_uv_cursor.py:126
+msgid "Align to Left Middle"
+msgstr "对齐到左中"
+
+#: op/align_uv_cursor.py:125
+msgid "Align to Left Top"
+msgstr "对齐到左上"
+
+#: op/align_uv.py:319
+#: op/align_uv.py:709
+msgid "Align to Left or Top"
+msgstr "对齐到左侧或顶部"
+
+#: op/align_uv_cursor.py:129
+msgid "Align to Middle Bottom"
+msgstr "对齐到中下"
+
+#: op/align_uv_cursor.py:128
+msgid "Align to Middle Top"
+msgstr "对齐到中上"
+
+#: op/align_uv_cursor.py:132
+msgid "Align to Right Bottom"
+msgstr "对齐到右下"
+
+#: op/align_uv_cursor.py:131
+msgid "Align to Right Middle"
+msgstr "对齐到右中"
+
+#: op/align_uv_cursor.py:130
+msgid "Align to Right Top"
+msgstr "对齐到右上"
+
+#: op/align_uv.py:321
+#: op/align_uv.py:711
+msgid "Align to Right or Bottom"
+msgstr "对齐到右侧或底部"
+
+#: op/align_uv_cursor.py:94
+#: op/align_uv_cursor.py:142
+msgid "Align to Selected UV"
+msgstr "对齐到选中的 UV"
+
+#: op/align_uv_cursor.py:93
+#: op/align_uv_cursor.py:141
+msgid "Align to UV"
+msgstr "对齐到 UV"
+
+#: op/align_uv.py:320
+#: op/align_uv.py:710
+msgid "Align to middle"
+msgstr "对齐到中间"
+
+#: op/align_uv_cursor.py:92
+msgid "Align to texture"
+msgstr "对齐到纹理"
+
+#: op/align_uv.py:296
+#: op/align_uv.py:538
+msgid "Align vertical direction influenced by mesh vertex proportion"
+msgstr "垂直方向对齐受网格顶点比例影响"
+
+#: ui/uvedit_uv_manipulation.py:60
+msgid "Align:"
+msgstr "对齐："
+
+#: op/copy_paste_uv_uvedit.py:277
+#: op/copy_paste_uv_uvedit.py:346
+msgid "All UVs belonging to the island must be selected"
+msgstr "必须选中属于该孤岛的所有 UV"
+
+#: op/pack_uv.py:135
+#: op/pack_uv.py:210
+msgid "Allowable Center Deviation"
+msgstr "允许中心偏差"
+
+#: ui/uvedit_uv_manipulation.py:193
+msgid "Allowable Center Deviation:"
+msgstr "允许中心偏差："
+
+#: op/pack_uv.py:144
+#: op/pack_uv.py:219
+msgid "Allowable Size Deviation"
+msgstr "允许尺寸偏差"
+
+#: ui/uvedit_uv_manipulation.py:195
+msgid "Allowable Size Deviation:"
+msgstr "允许尺寸偏差："
+
+#: op/pack_uv.py:135
+#: op/pack_uv.py:210
+msgid "Allowable center deviation to judge same UV island"
+msgstr "判断相同 UV 孤岛时允许的中心偏差"
+
+#: op/pack_uv.py:144
+msgid "Allowable sizes deviation to judge same UV island"
+msgstr "判断相同 UV 孤岛时允许的尺寸偏差"
+
+#: op/pack_uv.py:219
+msgid "Allowable sizse deviation to judge same UV island"
+msgstr "判断相同 UV 孤岛时允许的尺寸偏差"
+
+#: op/unwrap_constraint.py:86
+msgid "Angle Based"
+msgstr "基于角度"
+
+#: op/pack_uv.py:167
+#: op/pack_uv.py:242
+msgid "Apply Pack UV"
+msgstr "应用打包 UV"
+
+#: op/pack_uv.py:167
+#: op/pack_uv.py:242
+msgid "Apply Pack UV operation intrinsic to Blender itself"
+msgstr "应用 Blender 自带的打包 UV 操作"
+
+#: op/texture_projection.py:226
+msgid "Apply Texture Aspect ratio to displayed texture"
+msgstr "将纹理宽高比应用到显示的纹理"
+
+#: op/world_scale_uv.py:256
+msgid "Apply density proportionaled by mesh size"
+msgstr "按网格大小比例应用密度"
+
+#: op/world_scale_uv.py:603
+msgid "Apply same density"
+msgstr "应用相同密度"
+
+#: op/world_scale_uv.py:260
+msgid "Apply same density of source"
+msgstr "应用与源相同的密度"
+
+#: op/world_scale_uv.py:258
+msgid "Apply scaled density from source"
+msgstr "应用源缩放后的密度"
+
+#: op/world_scale_uv.py:308
+#: op/world_scale_uv.py:468
+msgid "Apply to only selected faces"
+msgstr "仅应用到选中的面"
+
+#: op/world_scale_uv.py:293
+#: op/world_scale_uv.py:458
+msgid "Area Calculation Method"
+msgstr "面积计算方法"
+
+#: op/preserve_uv_aspect.py:58
+#: op/preserve_uv_aspect.py:96
+msgid "Aspect Origin"
+msgstr "宽高比原点"
+
+#: op/texture_projection.py:231
+#: op/uvw.py:243
+msgid "Assign UVMap"
+msgstr "指定 UV 贴图"
+
+#: op/texture_projection.py:231
+#: op/uvw.py:243
+msgid "Assign UVMap when no UVmaps are available"
+msgstr "无可用 UV 贴图时分配 UV 贴图"
+
+#: op/mirror_uv.py:95
+#: op/mirror_uv.py:134
+msgid "Axis"
+msgstr "轴"
+
+#: op/uvw.py:294
+msgid "Axis X"
+msgstr "X 轴"
+
+#: op/uvw.py:295
+msgid "Axis Y"
+msgstr "Y 轴"
+
+#: op/uvw.py:296
+msgid "Axis Z"
+msgstr "Z 轴"
+
+#: op/uvw.py:289
+msgid "Axis to force the mapping"
+msgstr "用于强制映射的轴"
+
+#: op/align_uv_cursor.py:138
+msgid "Base"
+msgstr "基准"
+
+#: op/uv_bounding_box.py:91
+#: ui/uvedit_editor_enhancement.py:111
+msgid "Boundary"
+msgstr "边界"
+
+#: op/uv_bounding_box.py:97
+msgid "Boundary is decided by Selected UV"
+msgstr "边界由选中的 UV 决定"
+
+#: op/uv_bounding_box.py:96
+msgid "Boundary is decided by UV"
+msgstr "边界由 UV 决定"
+
+#: preferences.py:429
+msgid "Brush Color:"
+msgstr "笔刷颜色："
+
+#: ui/view3d_uv_manipulation.py:281
+msgid "Brush:"
+msgstr "笔刷："
+
+#: preferences.py:184
+#: preferences.py:415
+msgid "Built-in Menu"
+msgstr "内置菜单"
+
+#: op/world_scale_uv.py:297
+#: op/world_scale_uv.py:462
+msgid "Calculate area by whole faces in mesh"
+msgstr "按网格中的完整面计算面积"
+
+#: op/world_scale_uv.py:299
+#: op/world_scale_uv.py:464
+msgid "Calculate area each face"
+msgstr "计算每个面的面积"
+
+#: preferences.py:252
+msgid "Canvas Padding"
+msgstr "画布边距"
+
+#: preferences.py:275
+msgid "Category"
+msgstr "类别"
+
+#: op/align_uv_cursor.py:124
+#: op/preserve_uv_aspect.py:62
+msgid "Center"
+msgstr "居中"
+
+#: op/preserve_uv_aspect.py:67
+#: op/preserve_uv_aspect.py:105
+msgid "Center Bottom"
+msgstr "底部居中"
+
+#: op/preserve_uv_aspect.py:66
+#: op/preserve_uv_aspect.py:104
+msgid "Center Top"
+msgstr "顶部居中"
+
+#: ui/uvedit_uv_manipulation.py:201
+msgid "Clip UV"
+msgstr "裁剪 UV"
+
+#: op/clip_uv.py:77
+msgid "Clip UV Enabled"
+msgstr "启用裁剪 UV"
+
+#: op/clip_uv.py:77
+msgid "Clip UV is enabled"
+msgstr "裁剪 UV 已启用"
+
+#: preferences.py:201
+#: preferences.py:212
+msgid "Color"
+msgstr "颜色"
+
+#: preferences.py:221
+#: preferences.py:241
+msgid "Color (View3D)"
+msgstr "颜色（3D 视图）"
+
+#: preferences.py:221
+#: preferences.py:241
+msgid "Color in View3D"
+msgstr "3D 视图中的颜色"
+
+#: preferences.py:280
+msgid "Configuration"
+msgstr "配置"
+
+#: preferences.py:280
+msgid "Configuration about this add-on"
+msgstr "关于此附加组件的配置"
+
+#: op/unwrap_constraint.py:87
+msgid "Conformal"
+msgstr "共形"
+
+#: ui/view3d_uv_manipulation.py:250
+msgid "Connect"
+msgstr "连接"
+
+#: op/texture_lock.py:223
+#: op/texture_lock.py:300
+msgid "Connect UV"
+msgstr "连接 UV"
+
+#: preferences.py:261
+msgid "Control Point Size"
+msgstr "控制点大小"
+
+#: preferences.py:488
+msgid "Control Point:"
+msgstr "控制点："
+
+#: ui/VIEW3D_MT_object.py:32
+#: ui/VIEW3D_MT_uv_map.py:59
+msgid "Copy"
+msgstr "复制"
+
+#: op/copy_paste_uv.py:269
+#: op/copy_paste_uv.py:419
+msgid "Copy Seams"
+msgstr "复制缝合边"
+
+#: op/copy_paste_uv_object.py:135
+msgid "Copy UV (Among Objects) (Menu)"
+msgstr "复制 UV（物体间）（菜单）"
+
+#: op/copy_paste_uv.py:356
+msgid "Copy UV (Menu)"
+msgstr "复制 UV（菜单）"
+
+#: op/copy_paste_uv.py:585
+msgid "Copy UV (Selection Sequence) (Menu)"
+msgstr "复制 UV（选择顺序）（菜单）"
+
+#: op/copy_paste_uv.py:50
+msgid "Copy UV coordinate"
+msgstr "复制 UV 坐标"
+
+#: op/copy_paste_uv.py:54
+msgid "Copy UV coordinate (UV map: ALL)"
+msgstr "复制 UV 坐标（UV 贴图：全部）"
+
+#: ui/VIEW3D_MT_uv_map.py:53
+msgid "Copy and Paste UV coordinate"
+msgstr "复制并粘贴 UV 坐标"
+
+#: ui/IMAGE_MT_uvs.py:45
+#: ui/VIEW3D_MT_object.py:27
+msgid "Copy and Paste UV coordinate among object"
+msgstr "在物体间复制并粘贴 UV 坐标"
+
+#: op/pack_uv.py:153
+#: op/pack_uv.py:228
+msgid "Copy islands topologically"
+msgstr "按拓扑复制 UV 孤岛"
+
+#: preferences.py:54
+#: preferences.py:56
+msgid "Copy/Paste UV"
+msgstr "复制/粘贴 UV"
+
+#: preferences.py:355
+msgid "Copy/Paste UV (Among faces in 3D View)"
+msgstr "复制/粘贴 UV（3D 视图中的面之间）"
+
+#: preferences.py:347
+msgid "Copy/Paste UV (Among objects)"
+msgstr "复制/粘贴 UV（物体间）"
+
+#: preferences.py:351
+msgid "Copy/Paste UV (Edit mode)"
+msgstr "复制/粘贴 UV（编辑模式）"
+
+#: preferences.py:343
+msgid "Copy/Paste UV (Object mode)"
+msgstr "复制/粘贴 UV（物体模式）"
+
+#: op/copy_paste_uv.py:264
+msgid "Copy/Paste UV Enabled"
+msgstr "启用复制/粘贴 UV"
+
+#: op/copy_paste_uv.py:274
+msgid "Copy/Paste UV Mode"
+msgstr "复制/粘贴 UV 模式"
+
+#: op/copy_paste_uv.py:264
+msgid "Copy/Paste UV is enabled"
+msgstr "复制/粘贴 UV 已启用"
+
+#: op/unwrap_constraint.py:94
+msgid "Correct Aspect"
+msgstr "校正宽高比"
+
+#: preferences.py:192
+#: preferences.py:416
+msgid "Debug Mode"
+msgstr "调试模式"
+
+#: op/copy_paste_uv.py:276
+#: ui/VIEW3D_MT_uv_map.py:58
+msgid "Default"
+msgstr "默认"
+
+#: op/copy_paste_uv.py:276
+msgid "Default Mode"
+msgstr "默认模式"
+
+#: op/world_scale_uv.py:227
+#: op/world_scale_uv.py:233
+msgid "Density"
+msgstr "密度"
+
+#: op/world_scale_uv.py:252
+msgid "Density calculation mode"
+msgstr "密度计算模式"
+
+#: ui/view3d_uv_manipulation.py:115
+msgid "Density:"
+msgstr "密度："
+
+#: preferences.py:284
+#: preferences.py:323
+msgid "Description"
+msgstr "描述"
+
+#: ui/view3d_uv_manipulation.py:274
+#: ui/view3d_uv_mapping.py:63
+msgid "Disable"
+msgstr "禁用"
+
+#: op/uv_inspection.py:141
+msgid "Display View3D"
+msgstr "显示 3D 视图"
+
+#: op/uv_inspection.py:141
+msgid "Display overlapped/flipped faces on View3D"
+msgstr "在 3D 视图中显示重叠/翻转面"
+
+#: op/align_uv.py:331
+#: op/align_uv.py:359
+msgid "Edge"
+msgstr "边"
+
+#: ui/view3d_copy_paste_uv_editmode.py:36
+#: ui/view3d_copy_paste_uv_objectmode.py:30
+msgid "Edit"
+msgstr "编辑"
+
+#: preferences.py:136
+#: preferences.py:403
+msgid "Editor Enhancement"
+msgstr "编辑器增强"
+
+#: ui/view3d_uv_manipulation.py:274
+#: ui/view3d_uv_mapping.py:63
+msgid "Enable"
+msgstr "启用"
+
+#: op/uv_bounding_box.py:86
+msgid "Enable Uniform Scaling"
+msgstr "启用统一缩放"
+
+#: preferences.py:184
+msgid "Enable built-in menu"
+msgstr "启用内置菜单"
+
+#: preferences.py:192
+msgid "Enable debugging mode"
+msgstr "启用调试模式"
+
+#: op/mirror_uv.py:144
+msgid "Error"
+msgstr "错误"
+
+#: op/mirror_uv.py:144
+msgid "Error threshold"
+msgstr "错误阈值"
+
+#: op/select_uv.py:61
+#: op/select_uv.py:103
+msgid "Extend"
+msgstr "扩展"
+
+#: op/align_uv.py:340
+#: op/align_uv.py:360
+msgid "Face"
+msgstr "面"
+
+#: op/transfer_uv.py:289
+msgid "Face have different amount of vertices"
+msgstr "面的顶点数量不同"
+
+#: ui/uvedit_copy_paste_uv.py:43
+msgid "Face:"
+msgstr "面："
+
+#: op/uv_inspection.py:526
+msgid "Failed to create color. Please try again"
+msgstr "创建颜色失败，请重试"
+
+#: op/smooth_uv.py:157
+#: op/smooth_uv.py:230
+msgid "Failed to get target UV"
+msgstr "获取目标 UV 失败"
+
+#: op/unwrap_constraint.py:90
+msgid "Fill Holes"
+msgstr "填充孔洞"
+
+#: op/copy_paste_uv.py:408
+#: op/copy_paste_uv.py:637
+msgid "Flip Copied UV"
+msgstr "翻转复制的 UV"
+
+#: op/copy_paste_uv.py:408
+#: op/copy_paste_uv.py:637
+msgid "Flip Copied UV..."
+msgstr "翻转复制的 UV..."
+
+#: op/flip_rotate_uv.py:152
+msgid "Flip UV"
+msgstr "翻转 UV"
+
+#: op/flip_rotate_uv.py:152
+msgid "Flip UV..."
+msgstr "翻转 UV..."
+
+#: preferences.py:364
+#: op/flip_rotate_uv.py:177
+msgid "Flip/Rotate UV"
+msgstr "翻转/旋转 UV"
+
+#: op/flip_rotate_uv.py:123
+msgid "Flip/Rotate UV Enabled"
+msgstr "翻转/旋转 UV 已启用"
+
+#: op/flip_rotate_uv.py:123
+msgid "Flip/Rotate UV is enabled"
+msgstr "翻转/旋转 UV 已启用"
+
+#: op/uv_inspection.py:136
+msgid "Flipped"
+msgstr "已翻转"
+
+#: preferences.py:458
+msgid "Flipped UV Color (View3D):"
+msgstr "翻转 UV 颜色（3D 视图）："
+
+#: preferences.py:446
+msgid "Flipped UV Color:"
+msgstr "翻转 UV 颜色："
+
+#: op/uvw.py:289
+msgid "Force Axis"
+msgstr "强制轴向"
+
+#: op/mirror_uv.py:108
+#: op/mirror_uv.py:156
+msgid "Global"
+msgstr "全局"
+
+#: op/uv_sculpt.py:109
+msgid "Grab"
+msgstr "抓取"
+
+#: op/uv_sculpt.py:109
+msgid "Grab UVs"
+msgstr "抓取 UV"
+
+#: ui/uvedit_uv_manipulation.py:109
+#: ui/uvedit_uv_manipulation.py:131
+msgid "Group"
+msgstr "组"
+
+#: op/align_uv.py:355
+msgid "Group that snap (edge) operation applies for"
+msgstr "吸附（边）操作适用的组"
+
+#: op/align_uv.py:335
+msgid "Group that snap (point) operation applies for"
+msgstr "吸附（点）操作适用的组"
+
+#: op/align_uv.py:1087
+#: op/align_uv.py:1297
+msgid "Group that snap operation applies for"
+msgstr "吸附操作适用的组"
+
+#: op/uv_sculpt.py:129
+msgid "HC"
+msgstr "HC"
+
+#: ui/uvedit_editor_enhancement.py:102
+#: ui/uvedit_editor_enhancement.py:117
+msgid "Hide"
+msgstr "隐藏"
+
+#: ui/uvedit_uv_manipulation.py:90
+msgid "Horizontal"
+msgstr "水平"
+
+#: op/uv_sculpt.py:98
+msgid "How powerful the effect of the brush when applied"
+msgstr "笔刷应用时的效果强度"
+
+#: op/world_scale_uv.py:293
+#: op/world_scale_uv.py:458
+msgid "How to calculate target area"
+msgstr "如何计算目标区域"
+
+#: op/select_uv.py:57
+#: op/select_uv.py:99
+msgid "How to select faces which have overlapped UVs"
+msgstr "如何选择 UV 重叠的面"
+
+#: op/preserve_uv_aspect.py:53
+#: op/texture_projection.py:209
+msgid "Image"
+msgstr "图像"
+
+#: op/align_uv.py:308
+#: op/align_uv.py:550
+msgid "Influence rate of mesh vertex"
+msgstr "网格顶点影响率"
+
+#: preferences.py:279
+msgid "Information"
+msgstr "信息"
+
+#: preferences.py:279
+msgid "Information about this add-on"
+msgstr "关于此插件的信息"
+
+#: ui/VIEW3D_MT_uv_map.py:116
+msgid "Interactive Mode"
+msgstr "交互模式"
+
+#: ui/view3d_uv_manipulation.py:253
+msgid "Interactive Mode:"
+msgstr "交互模式："
+
+#: op/texture_lock.py:351
+#: op/texture_lock.py:487
+msgid "Internal Error"
+msgstr "内部错误"
+
+#: op/uv_sculpt.py:120
+msgid "Invert"
+msgstr "反转"
+
+#: op/transfer_uv.py:321
+#: op/transfer_uv.py:395
+msgid "Invert Normals"
+msgstr "反转法线"
+
+#: ui/IMAGE_MT_uvs.py:56
+msgid "Island"
+msgstr "孤岛"
+
+#: op/copy_paste_uv_uvedit.py:395
+msgid "Island does not match"
+msgstr "孤岛不匹配"
+
+#: op/pack_uv.py:338
+msgid "Island does not match. Disable 'Accurate Island Copy' and try again"
+msgstr "孤岛不匹配。禁用“精确孤岛复制”后重试"
+
+#: ui/uvedit_copy_paste_uv.py:50
+msgid "Island:"
+msgstr "孤岛："
+
+#: op/unwrap_constraint.py:51
+#: op/unwrap_constraint.py:111
+msgid "Keep UV U-axis coordinate"
+msgstr "保留 UV U 轴坐标"
+
+#: op/unwrap_constraint.py:56
+#: op/unwrap_constraint.py:116
+msgid "Keep UV V-axis coordinate"
+msgstr "保留 UV V 轴坐标"
+
+#: op/uv_sculpt.py:130
+msgid "Laplacian"
+msgstr "拉普拉斯"
+
+#: op/align_uv_cursor.py:127
+#: op/preserve_uv_aspect.py:63
+msgid "Left Bottom"
+msgstr "左下"
+
+#: op/preserve_uv_aspect.py:64
+#: op/preserve_uv_aspect.py:102
+msgid "Left Center"
+msgstr "左中"
+
+#: op/align_uv_cursor.py:126
+msgid "Left Middle"
+msgstr "左中"
+
+#: op/align_uv_cursor.py:125
+#: op/preserve_uv_aspect.py:63
+msgid "Left Top"
+msgstr "左上"
+
+#: op/align_uv.py:319
+#: op/align_uv.py:709
+msgid "Left/Top"
+msgstr "左/上"
+
+#: op/mirror_uv.py:109
+#: op/mirror_uv.py:157
+msgid "Local"
+msgstr "局部"
+
+#: preferences.py:289
+#: preferences.py:336
+msgid "Location"
+msgstr "位置"
+
+#: ui/VIEW3D_MT_uv_map.py:117
+#: ui/view3d_uv_manipulation.py:254
+msgid "Lock"
+msgstr "锁定"
+
+#: ui/VIEW3D_MT_uv_map.py:98
+msgid "Lock texture when vertices of mesh (Preserve UV)"
+msgstr "编辑网格顶点时锁定纹理（保留 UV）"
+
+#: ui/uvedit_copy_paste_uv.py:32
+#: ui/uvedit_editor_enhancement.py:35
+msgid "Magic UV"
+msgstr "Magic UV"
+
+#: preferences.py:329
+msgid "Magic UV is composed of many UV editing"
+msgstr "Magic UV 由许多 UV 编辑功能组成"
+
+#: op/world_scale_uv.py:262
+msgid "Manual"
+msgstr "手册"
+
+#: op/unwrap_constraint.py:94
+msgid "Map UVs taking image aspect ratio into account"
+msgstr "映射 UV 时考虑图像宽高比"
+
+#: op/unwrap_constraint.py:98
+msgid "Map UVs taking vertex position after subsurf\n                       into account"
+msgstr "映射 UV 时考虑细分曲面后的顶点位置"
+
+#: op/pack_uv.py:203
+#: op/unwrap_constraint.py:103
+msgid "Margin"
+msgstr "边距"
+
+#: op/pack_uv.py:203
+msgid "Margin used by default pack UV function"
+msgstr "默认 UV 打包功能使用的边距"
+
+#: ui/uvedit_uv_manipulation.py:209
+msgid "Max"
+msgstr "最大值"
+
+#: op/clip_uv.py:83
+#: op/clip_uv.py:122
+msgid "Max UV coordinates of the range to be clipped"
+msgstr "要裁剪范围的 UV 最大坐标"
+
+#: op/world_scale_uv.py:303
+#: op/world_scale_uv.py:348
+msgid "Measure with only selected faces"
+msgstr "仅使用选中面测量"
+
+#: op/copy_paste_uv.py:357
+msgid "Menu of Copy UV coordinate"
+msgstr "复制 UV 坐标菜单"
+
+#: op/copy_paste_uv_object.py:136
+msgid "Menu of Copy UV coordinate (Among Objects)"
+msgstr "复制 UV 坐标菜单（跨物体）"
+
+#: op/copy_paste_uv.py:586
+msgid "Menu of Copy UV coordinate by selection sequence"
+msgstr "按选择顺序复制 UV 坐标菜单"
+
+#: op/copy_paste_uv.py:486
+msgid "Menu of Paste UV coordinate"
+msgstr "粘贴 UV 坐标菜单"
+
+#: op/copy_paste_uv_object.py:252
+msgid "Menu of Paste UV coordinate (Among Objects)"
+msgstr "粘贴 UV 坐标菜单（跨物体）"
+
+#: op/copy_paste_uv.py:716
+msgid "Menu of Paste UV coordinate by selection sequence"
+msgstr "按选择顺序粘贴 UV 坐标菜单"
+
+#: op/world_scale_uv.py:297
+#: op/world_scale_uv.py:462
+msgid "Mesh"
+msgstr "网格"
+
+#: op/world_scale_uv.py:214
+#: ui/view3d_uv_manipulation.py:197
+msgid "Mesh Area"
+msgstr "网格面积"
+
+#: op/align_uv.py:308
+#: op/align_uv.py:550
+msgid "Mesh Influence"
+msgstr "网格影响"
+
+#: op/transfer_uv.py:277
+msgid "Mesh has different amount of faces"
+msgstr "网格的面数量不同"
+
+#: op/unwrap_constraint.py:82
+#: op/uv_sculpt.py:125
+msgid "Method"
+msgstr "方法"
+
+#: op/align_uv.py:320
+#: op/align_uv.py:710
+msgid "Middle"
+msgstr "中间"
+
+#: op/align_uv_cursor.py:129
+msgid "Middle Bottom"
+msgstr "中下"
+
+#: op/align_uv_cursor.py:128
+msgid "Middle Top"
+msgstr "中上"
+
+#: ui/uvedit_uv_manipulation.py:211
+msgid "Min"
+msgstr "最小值"
+
+#: op/clip_uv.py:94
+#: op/clip_uv.py:131
+msgid "Min UV coordinates of the range to be clipped"
+msgstr "要裁剪范围的 UV 最小坐标"
+
+#: op/mirror_uv.py:97
+#: op/mirror_uv.py:136
+msgid "Mirror Along X axis"
+msgstr "沿 X 轴镜像"
+
+#: op/mirror_uv.py:98
+#: op/mirror_uv.py:137
+msgid "Mirror Along Y axis"
+msgstr "沿 Y 轴镜像"
+
+#: op/mirror_uv.py:99
+#: op/mirror_uv.py:138
+msgid "Mirror Along Z axis"
+msgstr "沿 Z 轴镜像"
+
+#: op/mirror_uv.py:95
+#: op/mirror_uv.py:134
+msgid "Mirror Axis"
+msgstr "镜像轴"
+
+#: preferences.py:365
+#: ui/view3d_uv_manipulation.py:76
+msgid "Mirror UV"
+msgstr "镜像 UV"
+
+#: op/mirror_uv.py:90
+msgid "Mirror UV Enabled"
+msgstr "启用镜像 UV"
+
+#: op/mirror_uv.py:90
+msgid "Mirror UV is enabled"
+msgstr "镜像 UV 已启用"
+
+#: op/uv_inspection.py:146
+#: op/world_scale_uv.py:252
+msgid "Mode"
+msgstr "模式"
+
+#: op/texture_wrap.py:209
+#: op/texture_wrap.py:238
+msgid "More than 1 vertex must be unshared"
+msgstr "必须有超过 1 个未共享顶点"
+
+#: op/transfer_uv.py:120
+msgid "More than 2 faces share edge"
+msgstr "共享边的面超过 2 个"
+
+#: op/select_uv.py:339
+#: op/uv_inspection.py:436
+msgid "More than one 'VIEW_3D' area must exist"
+msgstr "必须存在不止一个“VIEW_3D”区域"
+
+#: preferences.py:366
+#: ui/view3d_uv_manipulation.py:86
+msgid "Move UV"
+msgstr "移动 UV"
+
+#: op/move_uv.py:43
+msgid "Move UV Enabled"
+msgstr "启用移动 UV"
+
+#: op/move_uv.py:43
+msgid "Move UV is enabled"
+msgstr "移动 UV 已启用"
+
+#: op/texture_wrap.py:173
+msgid "Must select different face"
+msgstr "必须选择不同的面"
+
+#: op/align_uv.py:1451
+msgid "Must select more than 1 Edge."
+msgstr "必须选择多于 1 条边。"
+
+#: op/texture_wrap.py:161
+msgid "Must select more than one face"
+msgstr "必须选择多于一个面"
+
+#: op/texture_wrap.py:108
+#: op/texture_wrap.py:166
+msgid "Must select only one face"
+msgstr "必须仅选择一个面"
+
+#: op/copy_paste_uv.py:288
+#: op/copy_paste_uv.py:404
+msgid "N:M"
+msgstr "N:M"
+
+#: op/copy_paste_uv.py:287
+#: op/copy_paste_uv.py:403
+msgid "N:N"
+msgstr "N:N"
+
+#: op/copy_paste_uv.py:439
+#: op/copy_paste_uv.py:668
+msgid "Need copy UV at first"
+msgstr "需要先复制 UV"
+
+#: op/copy_paste_uv.py:114
+#: op/copy_paste_uv.py:134
+msgid "No faces are selected"
+msgstr "未选择任何面"
+
+#: op/texture_projection.py:387
+msgid "No textures are selected"
+msgstr "未选择任何纹理"
+
+#: op/uvw.py:293
+msgid "None"
+msgstr "无"
+
+#: ui/VIEW3D_MT_uv_map.py:104
+msgid "Normal Mode"
+msgstr "普通模式"
+
+#: ui/view3d_uv_manipulation.py:241
+msgid "Normal Mode:"
+msgstr "普通模式："
+
+#: op/copy_paste_uv.py:287
+#: op/copy_paste_uv.py:403
+msgid "Number of faces must be equal to source"
+msgstr "面数必须与源相同"
+
+#: op/copy_paste_uv.py:288
+#: op/copy_paste_uv.py:404
+msgid "Number of faces must not be equal to source"
+msgstr "面数不能与源相同"
+
+#: op/texture_lock.py:326
+msgid "Object list does not match between Lock and Unlock"
+msgstr "锁定与解锁的物体列表不匹配"
+
+#: op/texture_wrap.py:177
+msgid "Object must be same"
+msgstr "物体必须相同"
+
+#: op/copy_paste_uv.py:46
+#: op/copy_paste_uv.py:67
+msgid "Object must have more than one UV map"
+msgstr "物体必须拥有多个 UV 贴图"
+
+#: op/world_scale_uv.py:395
+msgid "Object must have more than one UV map and texture"
+msgstr "物体必须拥有多个 UV 贴图和纹理"
+
+#: op/uvw.py:273
+#: op/uvw.py:392
+msgid "Offset"
+msgstr "偏移"
+
+#: op/uvw.py:332
+msgid "Offset:"
+msgstr "偏移："
+
+#: op/world_scale_uv.py:303
+#: op/world_scale_uv.py:308
+msgid "Only Selected"
+msgstr "仅选中"
+
+#: op/mirror_uv.py:105
+#: op/mirror_uv.py:153
+msgid "Origin"
+msgstr "原点"
+
+#: op/mirror_uv.py:105
+#: op/mirror_uv.py:153
+msgid "Origin of the mirror operation"
+msgstr "镜像操作的原点"
+
+#: op/uv_inspection.py:131
+msgid "Overlapped"
+msgstr "重叠"
+
+#: preferences.py:453
+msgid "Overlapped UV Color (View3D):"
+msgstr "重叠 UV 颜色（3D 视图）："
+
+#: preferences.py:442
+msgid "Overlapped UV Color:"
+msgstr "重叠 UV 颜色："
+
+#: preferences.py:399
+#: ui/uvedit_uv_manipulation.py:180
+msgid "Pack UV (Extension)"
+msgstr "打包 UV（扩展）"
+
+#: op/pack_uv.py:130
+msgid "Pack UV Enabled"
+msgstr "启用打包 UV"
+
+#: op/pack_uv.py:130
+msgid "Pack UV is enabled"
+msgstr "打包 UV 已启用"
+
+#: op/uv_inspection.py:150
+msgid "Part"
+msgstr "部分"
+
+#: ui/VIEW3D_MT_object.py:33
+#: ui/VIEW3D_MT_uv_map.py:60
+msgid "Paste"
+msgstr "粘贴"
+
+#: op/copy_paste_uv.py:283
+#: op/copy_paste_uv.py:399
+msgid "Paste Strategy"
+msgstr "粘贴策略"
+
+#: op/copy_paste_uv_object.py:251
+msgid "Paste UV (Among Objects) (Menu)"
+msgstr "粘贴 UV（物体间）（菜单）"
+
+#: op/copy_paste_uv.py:485
+msgid "Paste UV (Menu)"
+msgstr "粘贴 UV（菜单）"
+
+#: op/copy_paste_uv.py:715
+msgid "Paste UV (Selection Sequence) (Menu)"
+msgstr "粘贴 UV（选择顺序）（菜单）"
+
+#: op/copy_paste_uv.py:71
+msgid "Paste UV coordinate"
+msgstr "粘贴 UV 坐标"
+
+#: op/copy_paste_uv.py:91
+msgid "Paste UV coordinate (UV map: ALL)"
+msgstr "粘贴 UV 坐标（UV 贴图：全部）"
+
+#: op/copy_paste_uv_uvedit.py:67
+#: op/copy_paste_uv_uvedit.py:305
+msgid "Paste to the target uniquely"
+msgstr "以唯一方式粘贴到目标"
+
+#: op/uv_sculpt.py:111
+msgid "Pinch"
+msgstr "捏合"
+
+#: op/uv_sculpt.py:120
+msgid "Pinch UV to invert direction"
+msgstr "捏合 UV 以反转方向"
+
+#: op/uv_sculpt.py:111
+msgid "Pinch UVs"
+msgstr "捏合 UV"
+
+#: op/align_uv.py:330
+msgid "Point"
+msgstr "点"
+
+#: op/align_uv_cursor.py:122
+msgid "Position"
+msgstr "位置"
+
+#: preferences.py:275
+msgid "Preferences Category"
+msgstr "偏好设置类别"
+
+#: preferences.py:73
+msgid "Preserve UV"
+msgstr "保留 UV"
+
+#: preferences.py:368
+#: ui/VIEW3D_MT_uv_map.py:209
+msgid "Preserve UV Aspect"
+msgstr "保持 UV 比例"
+
+#: op/preserve_uv_aspect.py:48
+msgid "Preserve UV Aspect Enabled"
+msgstr "启用保持 UV 比例"
+
+#: op/preserve_uv_aspect.py:48
+msgid "Preserve UV Aspect is enabled"
+msgstr "保持 UV 比例已启用"
+
+#: op/world_scale_uv.py:256
+msgid "Proportional to Mesh"
+msgstr "与网格成比例"
+
+#: op/uv_sculpt.py:91
+msgid "Radius"
+msgstr "半径"
+
+#: op/uv_sculpt.py:91
+msgid "Radius of the brush"
+msgstr "画笔半径"
+
+#: op/clip_uv.py:83
+#: op/clip_uv.py:122
+msgid "Range Max"
+msgstr "范围最大值"
+
+#: op/clip_uv.py:94
+#: op/clip_uv.py:131
+msgid "Range Min"
+msgstr "范围最小值"
+
+#: ui/uvedit_uv_manipulation.py:206
+msgid "Range:"
+msgstr "范围："
+
+#: op/copy_paste_uv.py:75
+#: op/copy_paste_uv.py:87
+msgid "Reached to the maximum number of UV map"
+msgstr "已达到 UV 贴图最大数量"
+
+#: preferences.py:267
+msgid "React Size"
+msgstr "矩形大小"
+
+#: op/texture_wrap.py:55
+msgid "Refer and set UV"
+msgstr "参考并设置 UV"
+
+#: op/uv_sculpt.py:110
+msgid "Relax"
+msgstr "松弛"
+
+#: op/uv_sculpt.py:110
+msgid "Relax UVs"
+msgstr "松弛 UV"
+
+#: op/select_uv.py:63
+#: op/select_uv.py:105
+msgid "Reset"
+msgstr "重置"
+
+#: op/align_uv_cursor.py:132
+#: op/preserve_uv_aspect.py:70
+msgid "Right Bottom"
+msgstr "右下"
+
+#: op/preserve_uv_aspect.py:69
+#: op/preserve_uv_aspect.py:107
+msgid "Right Center"
+msgstr "右侧居中"
+
+#: op/align_uv_cursor.py:131
+msgid "Right Middle"
+msgstr "右中"
+
+#: op/align_uv_cursor.py:130
+#: op/preserve_uv_aspect.py:68
+msgid "Right Top"
+msgstr "右上"
+
+#: op/align_uv.py:321
+#: op/align_uv.py:711
+msgid "Right/Bottom"
+msgstr "右/下"
+
+#: op/pack_uv.py:199
+msgid "Rotate"
+msgstr "旋转"
+
+#: op/copy_paste_uv.py:413
+#: op/copy_paste_uv.py:642
+msgid "Rotate Copied UV"
+msgstr "旋转复制的 UV"
+
+#: op/flip_rotate_uv.py:157
+msgid "Rotate UV"
+msgstr "旋转 UV"
+
+#: op/pack_uv.py:199
+msgid "Rotate option used by default pack UV function"
+msgstr "打包 UV 功能默认使用的旋转选项"
+
+#: op/texture_projection.py:192
+#: op/uvw.py:267
+msgid "Rotation"
+msgstr "旋转"
+
+#: op/uvw.py:306
+#: op/uvw.py:351
+msgid "Rotation (Force Axis)"
+msgstr "旋转（强制轴）"
+
+#: op/uvw.py:306
+msgid "Rotation for the faces mapped forcibly"
+msgstr "强制映射面的旋转"
+
+#: op/uvw.py:329
+#: ui/view3d_uv_mapping.py:88
+msgid "Rotation:"
+msgstr "旋转："
+
+#: op/world_scale_uv.py:260
+#: op/world_scale_uv.py:603
+msgid "Same Density"
+msgstr "相同密度"
+
+#: op/select_uv.py:49
+#: op/select_uv.py:91
+msgid "Same Polygon Threshold"
+msgstr "相同多边形阈值"
+
+#: ui/uvedit_uv_manipulation.py:170
+msgid "Same Polygon Threshold:"
+msgstr "相同多边形阈值："
+
+#: op/texture_projection.py:221
+msgid "Scale of rendered texture is fitted to window"
+msgstr "渲染纹理的缩放适应窗口"
+
+#: op/texture_projection.py:183
+#: ui/view3d_uv_mapping.py:81
+msgid "Scaling"
+msgstr "缩放"
+
+#: op/world_scale_uv.py:258
+msgid "Scaling Density"
+msgstr "缩放密度"
+
+#: op/world_scale_uv.py:239
+#: op/world_scale_uv.py:573
+msgid "Scaling Factor"
+msgstr "缩放系数"
+
+#: op/copy_paste_uv.py:269
+#: op/copy_paste_uv.py:419
+msgid "Seams"
+msgstr "缝合线"
+
+#: preferences.py:331
+msgid "See tutorial page if you are new to this"
+msgstr "初次使用请参阅教程页面"
+
+#: op/align_uv.py:291
+#: op/align_uv.py:417
+msgid "Select"
+msgstr "选择"
+
+#: op/uv_sculpt.py:105
+msgid "Select Tools for the UV sculpt brushes"
+msgstr "选择 UV 雕刻笔刷的工具"
+
+#: preferences.py:126
+#: preferences.py:398
+msgid "Select UV"
+msgstr "选择 UV"
+
+#: op/select_uv.py:44
+msgid "Select UV Enabled"
+msgstr "启用选择 UV"
+
+#: op/select_uv.py:44
+msgid "Select UV is enabled"
+msgstr "选择 UV 已启用"
+
+#: op/align_uv.py:291
+#: op/align_uv.py:417
+msgid "Select UVs which are aligned"
+msgstr "选择已对齐的 UV"
+
+#: op/smooth_uv.py:61
+#: op/smooth_uv.py:96
+msgid "Select UVs which are smoothed"
+msgstr "选择已平滑的 UV"
+
+#: op/select_uv.py:63
+#: op/select_uv.py:105
+msgid "Select faces and unselect selected faces"
+msgstr "选择面并取消选择已选面"
+
+#: op/select_uv.py:61
+#: op/select_uv.py:103
+msgid "Select faces without unselecting selected faces"
+msgstr "选择面但不清除已选面"
+
+#: op/select_uv.py:67
+#: op/select_uv.py:109
+msgid "Select the mesh's faces as well as UVs' faces"
+msgstr "同时选择网格的面和 UV 的面"
+
+#: op/select_uv.py:57
+#: op/select_uv.py:99
+msgid "Selection Method"
+msgstr "选择方式"
+
+#: op/copy_paste_uv.py:277
+#: op/texture_wrap.py:60
+msgid "Selection Sequence"
+msgstr "选择顺序"
+
+#: op/copy_paste_uv.py:277
+msgid "Selection Sequence Mode"
+msgstr "选择顺序模式"
+
+#: op/texture_wrap.py:60
+msgid "Set UV sequentially"
+msgstr "按顺序设置 UV"
+
+#: op/texture_wrap.py:55
+msgid "Set and Refer"
+msgstr "设置并参考"
+
+#: ui/uvedit_editor_enhancement.py:102
+#: ui/uvedit_editor_enhancement.py:117
+msgid "Show"
+msgstr "显示"
+
+#: op/uv_sculpt.py:115
+msgid "Show Brush"
+msgstr "显示笔刷"
+
+#: op/world_scale_uv.py:452
+#: op/world_scale_uv.py:609
+msgid "Show Diaglog Menu"
+msgstr "显示对话框菜单"
+
+#: ui/IMAGE_MT_uvs.py:205
+msgid "Show Overlapped/Flipped"
+msgstr "显示重叠/翻转"
+
+#: op/world_scale_uv.py:452
+#: op/world_scale_uv.py:609
+msgid "Show dialog menu if true"
+msgstr "若为真则显示对话框菜单"
+
+#: op/uv_inspection.py:136
+msgid "Show flipped UVs"
+msgstr "显示翻转的 UV"
+
+#: op/uv_inspection.py:146
+msgid "Show mode"
+msgstr "显示模式"
+
+#: op/uv_inspection.py:150
+msgid "Show only overlapped/flipped part"
+msgstr "仅显示重叠/翻转部分"
+
+#: op/uv_inspection.py:131
+msgid "Show overlapped UVs"
+msgstr "显示重叠的 UV"
+
+#: op/uv_inspection.py:151
+msgid "Show overlapped/flipped face"
+msgstr "显示重叠/翻转的面"
+
+#: preferences.py:261
+#: op/uvw.py:262
+msgid "Size"
+msgstr "大小"
+
+#: preferences.py:267
+msgid "Size event fired"
+msgstr "大小事件已触发"
+
+#: op/uvw.py:326
+msgid "Size:"
+msgstr "大小："
+
+#: preferences.py:397
+#: ui/uvedit_uv_manipulation.py:148
+msgid "Smooth UV"
+msgstr "平滑 UV"
+
+#: op/smooth_uv.py:44
+msgid "Smooth UV Enabled"
+msgstr "启用平滑 UV"
+
+#: op/smooth_uv.py:44
+msgid "Smooth UV is enabled"
+msgstr "平滑 UV 已启用"
+
+#: op/smooth_uv.py:49
+#: op/smooth_uv.py:84
+msgid "Smooth linked UVs"
+msgstr "平滑相连的 UV"
+
+#: ui/IMAGE_MT_uvs.py:98
+msgid "Snap"
+msgstr "吸附"
+
+#: op/align_uv.py:1087
+#: op/align_uv.py:1297
+msgid "Snap Group"
+msgstr "吸附组"
+
+#: op/align_uv.py:355
+msgid "Snap Group (Edge)"
+msgstr "吸附组（边）"
+
+#: op/align_uv.py:335
+msgid "Snap Group (Point)"
+msgstr "吸附组（点）"
+
+#: op/align_uv.py:326
+msgid "Snap Method"
+msgstr "吸附方式"
+
+#: op/align_uv.py:1097
+msgid "Snap Target"
+msgstr "吸附目标"
+
+#: op/align_uv.py:365
+#: op/align_uv.py:375
+msgid "Snap Target (Edge)"
+msgstr "吸附目标（边）"
+
+#: op/align_uv.py:345
+msgid "Snap Target (Point)"
+msgstr "吸附目标（点）"
+
+#: op/align_uv.py:1307
+msgid "Snap Target 1"
+msgstr "吸附目标 1"
+
+#: op/align_uv.py:1317
+msgid "Snap Target 2"
+msgstr "吸附目标 2"
+
+#: op/align_uv.py:326
+msgid "Snap method"
+msgstr "吸附方式"
+
+#: op/align_uv.py:331
+msgid "Snap to edge"
+msgstr "吸附到边"
+
+#: op/align_uv.py:330
+msgid "Snap to point"
+msgstr "吸附到点"
+
+#: ui/uvedit_uv_manipulation.py:96
+msgid "Snap:"
+msgstr "吸附："
+
+#: op/copy_paste_uv.py:219
+msgid "Some faces are different size"
+msgstr "部分面大小不同"
+
+#: op/world_scale_uv.py:794
+msgid "Source Density"
+msgstr "源密度"
+
+#: op/world_scale_uv.py:214
+#: op/world_scale_uv.py:808
+msgid "Source Mesh Area"
+msgstr "源网格面积"
+
+#: op/world_scale_uv.py:227
+#: op/world_scale_uv.py:596
+msgid "Source Texel Density"
+msgstr "源纹素密度"
+
+#: op/world_scale_uv.py:801
+msgid "Source UV Area"
+msgstr "源 UV 面积"
+
+#: op/world_scale_uv.py:220
+msgid "Source UV Area (Average if calculation method is UV Island or Face)"
+msgstr "源 UV 面积（计算方法为 UV 孤岛或面时取平均值）"
+
+#: op/world_scale_uv.py:724
+#: op/world_scale_uv.py:933
+msgid "Source:"
+msgstr "来源："
+
+#: op/unwrap_constraint.py:103
+msgid "Space between islands"
+msgstr "孤岛间距"
+
+#: op/world_scale_uv.py:262
+msgid "Specify density and size by manual"
+msgstr "手动指定密度和大小"
+
+#: op/copy_paste_uv.py:283
+#: op/copy_paste_uv.py:399
+msgid "Strategy"
+msgstr "策略"
+
+#: op/uv_sculpt.py:98
+msgid "Strength"
+msgstr "强度"
+
+#: op/pack_uv.py:158
+#: op/pack_uv.py:233
+msgid "Stride"
+msgstr "步长"
+
+#: op/pack_uv.py:158
+#: op/pack_uv.py:233
+msgid "Stride UV coordinates"
+msgstr "步长 UV 坐标"
+
+#: ui/uvedit_uv_manipulation.py:197
+msgid "Stride:"
+msgstr "步长："
+
+#: op/select_uv.py:67
+#: op/select_uv.py:109
+msgid "Sync Mesh Selection"
+msgstr "同步网格选择"
+
+#: ui/uvedit_uv_manipulation.py:133
+msgid "Target Edge:"
+msgstr "目标边："
+
+#: ui/uvedit_uv_manipulation.py:111
+msgid "Target Point:"
+msgstr "目标点："
+
+#: op/world_scale_uv.py:233
+#: op/world_scale_uv.py:422
+msgid "Target Texel Density"
+msgstr "目标纹素密度"
+
+#: op/align_uv.py:365
+#: op/align_uv.py:375
+msgid "Target edge where UV vertices snap to"
+msgstr "UV 顶点吸附到的目标边"
+
+#: op/align_uv.py:345
+msgid "Target point where UV vertices snap to"
+msgstr "UV 顶点吸附到的目标点"
+
+#: op/align_uv.py:1097
+msgid "Target where UV vertices snap to"
+msgstr "UV 顶点吸附到的目标"
+
+#: op/world_scale_uv.py:541
+#: op/world_scale_uv.py:731
+msgid "Target:"
+msgstr "目标："
+
+#: op/align_uv_cursor.py:92
+#: op/align_uv_cursor.py:140
+msgid "Texture"
+msgstr "纹理"
+
+#: op/uvw.py:279
+#: op/uvw.py:397
+msgid "Texture Aspect"
+msgstr "纹理纵横比"
+
+#: op/uvw.py:300
+#: op/uvw.py:348
+msgid "Texture Aspect Correction (Force Axis)"
+msgstr "纹理纵横比校正（强制轴向）"
+
+#: op/texture_projection.py:226
+#: ui/view3d_uv_mapping.py:91
+msgid "Texture Aspect Ratio"
+msgstr "纹理纵横比"
+
+#: op/uvw.py:300
+msgid "Texture Aspect correction for the faces mapped forcibly"
+msgstr "对强制映射面的纹理纵横比校正"
+
+#: op/uvw.py:337
+msgid "Texture Aspect:"
+msgstr "纹理纵横比："
+
+#: op/preserve_uv_aspect.py:53
+#: op/texture_projection.py:209
+msgid "Texture Image"
+msgstr "纹理图像"
+
+#: preferences.py:75
+#: preferences.py:369
+msgid "Texture Lock"
+msgstr "纹理锁定"
+
+#: op/texture_lock.py:210
+msgid "Texture Lock Enabled"
+msgstr "已启用纹理锁定"
+
+#: op/texture_lock.py:215
+msgid "Texture Lock Locked"
+msgstr "纹理锁定已锁定"
+
+#: op/texture_lock.py:210
+msgid "Texture Lock is enabled"
+msgstr "纹理锁定已启用"
+
+#: op/texture_lock.py:215
+msgid "Texture Lock is locked"
+msgstr "纹理锁定已锁定"
+
+#: preferences.py:89
+#: preferences.py:304
+msgid "Texture Projection"
+msgstr "纹理投影"
+
+#: op/texture_projection.py:170
+#: op/texture_projection.py:175
+msgid "Texture Projection Enabled"
+msgstr "已启用纹理投影"
+
+#: op/texture_projection.py:170
+#: op/texture_projection.py:175
+msgid "Texture Projection is enabled"
+msgstr "纹理投影已启用"
+
+#: op/texture_projection.py:192
+msgid "Texture Rotate"
+msgstr "纹理旋转"
+
+#: op/texture_projection.py:183
+msgid "Texture Scale"
+msgstr "纹理缩放"
+
+#: op/world_scale_uv.py:245
+#: op/world_scale_uv.py:428
+msgid "Texture Size"
+msgstr "纹理尺寸"
+
+#: op/texture_projection.py:200
+msgid "Texture Translate"
+msgstr "纹理平移"
+
+#: op/texture_projection.py:214
+msgid "Texture Transparency"
+msgstr "纹理透明度"
+
+#: preferences.py:77
+#: preferences.py:370
+msgid "Texture Wrap"
+msgstr "纹理环绕"
+
+#: op/texture_wrap.py:50
+msgid "Texture Wrap is enabled"
+msgstr "纹理环绕已启用"
+
+#: op/world_scale_uv.py:288
+#: op/world_scale_uv.py:343
+msgid "Texture to be applied"
+msgstr "要应用的纹理"
+
+#: op/world_scale_uv.py:283
+msgid "Texture to be measured"
+msgstr "要测量的纹理"
+
+#: op/select_uv.py:49
+#: op/select_uv.py:91
+msgid "Threshold to distinguish same polygons"
+msgstr "区分相同多边形的阈值"
+
+#: op/uv_sculpt.py:105
+msgid "Tools"
+msgstr "工具"
+
+#: preferences.py:58
+#: preferences.py:356
+msgid "Transfer UV"
+msgstr "传递 UV"
+
+#: op/transfer_uv.py:316
+msgid "Transfer UV Enabled"
+msgstr "已启用 UV 传递"
+
+#: ui/VIEW3D_MT_uv_map.py:77
+msgid "Transfer UV coordinate"
+msgstr "传递 UV 坐标"
+
+#: op/transfer_uv.py:316
+msgid "Transfer UV is enabled"
+msgstr "UV 传递已启用"
+
+#: op/texture_projection.py:200
+#: ui/view3d_uv_mapping.py:85
+msgid "Translation"
+msgstr "平移"
+
+#: op/align_uv.py:286
+#: op/align_uv.py:412
+msgid "Transmission"
+msgstr "透射"
+
+#: op/texture_projection.py:214
+#: ui/view3d_uv_mapping.py:72
+msgid "Transparency"
+msgstr "透明度"
+
+#: op/transfer_uv.py:230
+msgid "Two faces must be active"
+msgstr "必须有两个面处于活动状态"
+
+#: op/transfer_uv.py:227
+#: op/transfer_uv.py:257
+msgid "Two faces must be selected"
+msgstr "必须选择两个面"
+
+#: op/transfer_uv.py:107
+msgid "Two faces should share one edge"
+msgstr "两个面应共享一条边"
+
+#: op/unwrap_constraint.py:51
+#: op/unwrap_constraint.py:111
+msgid "U-Constraint"
+msgstr "U 约束"
+
+#: op/align_uv_cursor.py:93
+#: op/align_uv_cursor.py:141
+msgid "UV"
+msgstr "UV"
+
+#: op/align_uv_cursor.py:94
+#: op/align_uv_cursor.py:142
+msgid "UV (Selected)"
+msgstr "UV（已选择）"
+
+#: op/world_scale_uv.py:220
+#: ui/view3d_uv_manipulation.py:199
+msgid "UV Area"
+msgstr "UV 面积"
+
+#: preferences.py:140
+#: preferences.py:309
+msgid "UV Bounding Box"
+msgstr "UV 边界框"
+
+#: op/uv_bounding_box.py:73
+msgid "UV Bounding Box Enabled"
+msgstr "已启用 UV 边界框"
+
+#: op/uv_bounding_box.py:78
+msgid "UV Bounding Box Showed"
+msgstr "UV 边界框已显示"
+
+#: op/uv_bounding_box.py:73
+msgid "UV Bounding Box is enabled"
+msgstr "UV 边界框已启用"
+
+#: op/uv_bounding_box.py:78
+msgid "UV Bounding Box is showed"
+msgstr "UV 边界框已显示"
+
+#: preferences.py:408
+#: op/align_uv_cursor.py:76
+msgid "UV Cursor Location"
+msgstr "UV 游标位置"
+
+#: op/align_uv_cursor.py:98
+msgid "UV Cursor Location Enabled"
+msgstr "启用 UV 游标位置"
+
+#: op/align_uv_cursor.py:98
+msgid "UV Cursor Location is enabled"
+msgstr "UV 游标位置已启用"
+
+#: preferences.py:142
+#: preferences.py:299
+msgid "UV Inspection"
+msgstr "UV 检查"
+
+#: op/uv_inspection.py:118
+msgid "UV Inspection Enabled"
+msgstr "启用 UV 检查"
+
+#: op/uv_inspection.py:123
+msgid "UV Inspection Showed"
+msgstr "UV 检查已显示"
+
+#: op/uv_inspection.py:118
+msgid "UV Inspection is enabled"
+msgstr "UV 检查已启用"
+
+#: op/uv_inspection.py:123
+msgid "UV Inspection is showed"
+msgstr "UV 检查已显示"
+
+#: op/align_uv.py:341
+#: op/align_uv.py:361
+msgid "UV Island"
+msgstr "UV 孤岛"
+
+#: preferences.py:61
+#: preferences.py:113
+msgid "UV Manipulation"
+msgstr "UV 操作"
+
+#: preferences.py:360
+#: preferences.py:375
+msgid "UV Manipulation (Edit mode)"
+msgstr "UV 操作（编辑模式）"
+
+#: preferences.py:82
+#: ui/view3d_uv_mapping.py:34
+msgid "UV Mapping"
+msgstr "UV 映射"
+
+#: preferences.py:79
+#: preferences.py:294
+msgid "UV Sculpt"
+msgstr "UV 雕刻"
+
+#: op/uv_sculpt.py:83
+msgid "UV Sculpt Showed"
+msgstr "UV 雕刻已显示"
+
+#: op/uv_sculpt.py:78
+#: op/uv_sculpt.py:83
+msgid "UV Sculpt is enabled"
+msgstr "UV 雕刻已启用"
+
+#: preferences.py:403
+msgid "UV/Image Editor > Sidebar >"
+msgstr "UV/图像编辑器 > 侧栏 >"
+
+#: preferences.py:385
+msgid "UV/Image Editor > Sidebar > Copy/Paste UV"
+msgstr "UV/图像编辑器 > 侧栏 > 复制/粘贴 UV"
+
+#: preferences.py:393
+msgid "UV/Image Editor > Sidebar > UV Manipulation"
+msgstr "UV/图像编辑器 > 侧栏 > UV 操作"
+
+#: preferences.py:91
+#: preferences.py:381
+msgid "UVW"
+msgstr "UVW"
+
+#: op/uvw.py:238
+msgid "UVW Enabled"
+msgstr "启用 UVW"
+
+#: op/uvw.py:238
+msgid "UVW is enabled"
+msgstr "UVW 已启用"
+
+#: op/uv_bounding_box.py:86
+#: ui/uvedit_editor_enhancement.py:109
+msgid "Uniform Scaling"
+msgstr "等比缩放"
+
+#: op/copy_paste_uv_uvedit.py:67
+#: op/copy_paste_uv_uvedit.py:305
+msgid "Unique Target"
+msgstr "唯一目标"
+
+#: op/align_uv_cursor.py:244
+#: op/align_uv_cursor.py:275
+msgid "Unknown Operation"
+msgstr "未知操作"
+
+#: ui/view3d_uv_manipulation.py:254
+msgid "Unlock"
+msgstr "解锁"
+
+#: preferences.py:379
+#: ui/view3d_uv_mapping.py:48
+msgid "Unwrap Constraint"
+msgstr "展开约束"
+
+#: op/unwrap_constraint.py:46
+msgid "Unwrap Constraint Enabled"
+msgstr "启用展开约束"
+
+#: op/unwrap_constraint.py:46
+msgid "Unwrap Constraint is enabled"
+msgstr "展开约束已启用"
+
+#: op/unwrap_constraint.py:82
+msgid "Unwrapping method"
+msgstr "展开方法"
+
+#: op/uv_sculpt.py:129
+msgid "Use HC method for relaxation"
+msgstr "使用 HC 方法进行松弛"
+
+#: op/unwrap_constraint.py:98
+msgid "Use Subsurf Modifier"
+msgstr "使用表面细分修改器"
+
+#: op/uv_sculpt.py:130
+msgid "Use laplacian method for relaxation"
+msgstr "使用拉普拉斯方法进行松弛"
+
+#: op/unwrap_constraint.py:56
+#: op/unwrap_constraint.py:116
+msgid "V-Constraint"
+msgstr "V 约束"
+
+#: op/align_uv.py:302
+#: op/align_uv.py:544
+msgid "Vert-Infl (Horizontal)"
+msgstr "顶点膨胀（水平）"
+
+#: op/align_uv.py:296
+#: op/align_uv.py:538
+msgid "Vert-Infl (Vertical)"
+msgstr "顶点膨胀（垂直）"
+
+#: op/align_uv.py:339
+#: op/align_uv.py:1091
+msgid "Vertex"
+msgstr "顶点"
+
+#: op/align_uv.py:1307
+msgid "Vertex 1 of the target edge"
+msgstr "目标边的顶点 1"
+
+#: ui/uvedit_uv_manipulation.py:136
+msgid "Vertex 1:"
+msgstr "顶点 1："
+
+#: op/align_uv.py:1317
+msgid "Vertex 2 of the target edge"
+msgstr "目标边的顶点 2"
+
+#: ui/uvedit_uv_manipulation.py:140
+msgid "Vertex 2:"
+msgstr "顶点 2："
+
+#: ui/uvedit_uv_manipulation.py:89
+msgid "Vertical"
+msgstr "垂直"
+
+#: op/unwrap_constraint.py:90
+msgid "Virtual fill holes in meshes before unwrapping"
+msgstr "展开前虚拟填充网格中的孔洞"
+
+#: op/mirror_uv.py:107
+#: op/mirror_uv.py:155
+msgid "World"
+msgstr "世界"
+
+#: preferences.py:71
+#: preferences.py:367
+msgid "World Scale UV"
+msgstr "世界缩放 UV"
+
+#: op/world_scale_uv.py:209
+msgid "World Scale UV Enabled"
+msgstr "启用世界缩放 UV"
+
+#: op/world_scale_uv.py:209
+msgid "World Scale UV is enabled"
+msgstr "世界缩放 UV 已启用"
+
+#: op/mirror_uv.py:97
+#: op/mirror_uv.py:136
+msgid "X"
+msgstr "X"
+
+#: op/mirror_uv.py:98
+#: op/mirror_uv.py:137
+msgid "Y"
+msgstr "Y"
+
+#: op/mirror_uv.py:99
+#: op/mirror_uv.py:138
+msgid "Z"
+msgstr "Z"
+
+#: preferences.py:333
+msgid "https://github.com/nutti/Magic-UV"
+msgstr "https://github.com/nutti/Magic-UV"
+
+#: ui/view3d_uv_manipulation.py:135
+#: ui/view3d_uv_manipulation.py:167
+msgid "px2/cm2"
+msgstr "像素²/厘米²"
+
+#: op/align_uv.py:408
+msgctxt "Operator"
+msgid "Align UV (Circle)"
+msgstr "对齐 UV（圆形）"
+
+#: op/align_uv.py:1293
+msgctxt "Operator"
+msgid "Align UV (Snap to Edge)"
+msgstr "对齐 UV（吸附到边）"
+
+#: op/align_uv.py:1083
+msgctxt "Operator"
+msgid "Align UV (Snap to Point)"
+msgstr "对齐 UV（吸附到点）"
+
+#: op/align_uv.py:524
+msgctxt "Operator"
+msgid "Align UV (Straighten)"
+msgstr "对齐 UV（拉直）"
+
+#: op/align_uv.py:679
+msgctxt "Operator"
+msgid "Align UV (XY-Axis)"
+msgstr "对齐 UV（XY 轴）"
+
+#: op/align_uv_cursor.py:118
+msgctxt "Operator"
+msgid "Align UV Cursor"
+msgstr "对齐 UV 游标"
+
+#: op/align_uv.py:409
+msgctxt "Operator"
+msgid "Align UV coordinates to Circle"
+msgstr "将 UV 坐标对齐到圆形"
+
+#: op/align_uv.py:680
+msgctxt "Operator"
+msgid "Align UV to XY-axis"
+msgstr "将 UV 对齐到 XY 轴"
+
+#: op/align_uv.py:1294
+msgctxt "Operator"
+msgid "Align UV to the target edge"
+msgstr "将 UV 对齐到目标边"
+
+#: op/align_uv.py:1084
+msgctxt "Operator"
+msgid "Align UV to the target point"
+msgstr "将 UV 对齐到目标点"
+
+#: op/align_uv_cursor.py:119
+msgctxt "Operator"
+msgid "Align cursor to the center of UV island"
+msgstr "将游标对齐到 UV 孤岛中心"
+
+#: ui/view3d_uv_manipulation.py:104
+#: ui/view3d_uv_manipulation.py:141
+msgctxt "Operator"
+msgid "Apply"
+msgstr "应用"
+
+#: ui/VIEW3D_MT_uv_map.py:136
+msgctxt "Operator"
+msgid "Apply (Manual)"
+msgstr "应用（手动）"
+
+#: ui/VIEW3D_MT_uv_map.py:154
+msgctxt "Operator"
+msgid "Apply (Proportional to Mesh)"
+msgstr "应用（按网格比例）"
+
+#: ui/VIEW3D_MT_uv_map.py:140
+msgctxt "Operator"
+msgid "Apply (Same Desity)"
+msgstr "应用（相同密度）"
+
+#: ui/VIEW3D_MT_uv_map.py:147
+msgctxt "Operator"
+msgid "Apply (Scaling Desity)"
+msgstr "应用（缩放密度）"
+
+#: op/world_scale_uv.py:418
+msgctxt "Operator"
+msgid "Apply World Scale UV (Manual)"
+msgstr "应用世界缩放 UV（手动）"
+
+#: op/world_scale_uv.py:773
+msgctxt "Operator"
+msgid "Apply World Scale UV (Proportional to mesh)"
+msgstr "应用世界缩放 UV（按网格比例）"
+
+#: op/world_scale_uv.py:569
+msgctxt "Operator"
+msgid "Apply World Scale UV (Scaling Density)"
+msgstr "应用世界缩放 UV（缩放密度）"
+
+#: op/world_scale_uv.py:419
+msgctxt "Operator"
+msgid "Apply scaled UV based on user specification"
+msgstr "按用户设定应用缩放 UV"
+
+#: op/world_scale_uv.py:774
+msgctxt "Operator"
+msgid "Apply scaled UV proportionaled to mesh"
+msgstr "应用按网格比例缩放的 UV"
+
+#: op/world_scale_uv.py:570
+msgctxt "Operator"
+msgid "Apply scaled UV with scaling density"
+msgstr "应用带缩放密度的 UV 缩放"
+
+#: op/uvw.py:380
+msgctxt "Operator"
+msgid "Best Planer Map"
+msgstr "最佳平面映射"
+
+#: ui/VIEW3D_MT_uv_map.py:197
+#: ui/view3d_uv_mapping.py:105
+msgctxt "Operator"
+msgid "Best Planner"
+msgstr "最佳平面"
+
+#: ui/VIEW3D_MT_uv_map.py:194
+#: ui/view3d_uv_mapping.py:103
+msgctxt "Operator"
+msgid "Box"
+msgstr "立方体"
+
+#: op/uvw.py:259
+msgctxt "Operator"
+msgid "Box Map"
+msgstr "立方体映射"
+
+#: ui/IMAGE_MT_uvs.py:166
+#: ui/uvedit_editor_enhancement.py:71
+msgctxt "Operator"
+msgid "Center"
+msgstr "居中"
+
+#: ui/view3d_uv_manipulation.py:229
+msgctxt "Operator"
+msgid "Change Image"
+msgstr "更改图像"
+
+#: op/preserve_uv_aspect.py:92
+msgctxt "Operator"
+msgid "Choose Image"
+msgstr "选择图像"
+
+#: ui/IMAGE_MT_uvs.py:80
+#: ui/uvedit_uv_manipulation.py:64
+msgctxt "Operator"
+msgid "Circle"
+msgstr "圆形"
+
+#: preferences.py:115
+#: op/clip_uv.py:118
+msgctxt "Operator"
+msgid "Clip UV"
+msgstr "裁剪 UV"
+
+#: op/clip_uv.py:119
+msgctxt "Operator"
+msgid "Clip selected UV in the specified range"
+msgstr "将选中的 UV 裁剪到指定范围"
+
+#: ui/IMAGE_MT_uvs.py:52
+#: ui/IMAGE_MT_uvs.py:57
+msgctxt "Operator"
+msgid "Copy"
+msgstr "复制"
+
+#: op/copy_paste_uv.py:311
+msgctxt "Operator"
+msgid "Copy UV"
+msgstr "复制 UV"
+
+#: op/copy_paste_uv_object.py:88
+msgctxt "Operator"
+msgid "Copy UV (Among Objects)"
+msgstr "复制 UV（物体之间）"
+
+#: op/copy_paste_uv.py:540
+msgctxt "Operator"
+msgid "Copy UV (Selection Sequence)"
+msgstr "复制 UV（选择顺序）"
+
+#: op/copy_paste_uv_uvedit.py:86
+msgctxt "Operator"
+msgid "Copy UV (UV/Image Editor)"
+msgstr "复制 UV（UV/图像编辑器）"
+
+#: op/copy_paste_uv_uvedit.py:239
+msgctxt "Operator"
+msgid "Copy UV Island (UV/Image Editor)"
+msgstr "复制 UV 孤岛（UV/图像编辑器）"
+
+#: op/copy_paste_uv.py:312
+msgctxt "Operator"
+msgid "Copy UV coordinate"
+msgstr "复制 UV 坐标"
+
+#: op/copy_paste_uv_object.py:89
+msgctxt "Operator"
+msgid "Copy UV coordinate (Among Objects)"
+msgstr "复制 UV 坐标（物体之间）"
+
+#: op/copy_paste_uv_uvedit.py:87
+msgctxt "Operator"
+msgid "Copy UV coordinate (only selected in UV/Image Editor)"
+msgstr "复制 UV 坐标（仅限 UV/图像编辑器中的选中项）"
+
+#: op/copy_paste_uv.py:541
+msgctxt "Operator"
+msgid "Copy UV data by selection sequence"
+msgstr "按选择顺序复制 UV 数据"
+
+#: op/copy_paste_uv_uvedit.py:240
+msgctxt "Operator"
+msgid "Copy UV island (only selected in UV/Image Editor)"
+msgstr "复制 UV 孤岛（仅限 UV/图像编辑器中的选中项）"
+
+#: ui/view3d_uv_manipulation.py:70
+msgctxt "Operator"
+msgid "Flip/Rotate"
+msgstr "翻转/旋转"
+
+#: preferences.py:63
+#: op/flip_rotate_uv.py:148
+msgctxt "Operator"
+msgid "Flip/Rotate UV"
+msgstr "翻转/旋转 UV"
+
+#: op/flip_rotate_uv.py:149
+msgctxt "Operator"
+msgid "Flip/Rotate UV coordinate"
+msgstr "翻转/旋转 UV 坐标"
+
+#: op/select_uv.py:188
+#: ui/IMAGE_MT_uvs.py:129
+msgctxt "Operator"
+msgid "Flipped"
+msgstr "已翻转"
+
+#: op/texture_lock.py:392
+msgctxt "Operator"
+msgid "Internal operation for Texture Lock (Interactive mode)"
+msgstr "纹理锁定内部操作（交互模式）"
+
+#: op/uv_bounding_box.py:595
+msgctxt "Operator"
+msgid "Internal operation for UV Bounding Box"
+msgstr "UV 边界框内部操作"
+
+#: ui/IMAGE_MT_uvs.py:175
+#: ui/uvedit_editor_enhancement.py:80
+msgctxt "Operator"
+msgid "Left Bottom"
+msgstr "左下"
+
+#: ui/IMAGE_MT_uvs.py:161
+#: ui/uvedit_editor_enhancement.py:67
+msgctxt "Operator"
+msgid "Left Middle"
+msgstr "左中"
+
+#: ui/IMAGE_MT_uvs.py:148
+#: ui/uvedit_editor_enhancement.py:54
+msgctxt "Operator"
+msgid "Left Top"
+msgstr "左上"
+
+#: ui/VIEW3D_MT_uv_map.py:105
+#: ui/view3d_uv_manipulation.py:243
+msgctxt "Operator"
+msgid "Lock"
+msgstr "锁定"
+
+#: op/texture_lock.py:243
+#: op/texture_lock.py:244
+msgctxt "Operator"
+msgid "Lock Texture"
+msgstr "锁定纹理"
+
+#: ui/VIEW3D_MT_uv_map.py:134
+#: ui/view3d_uv_manipulation.py:123
+msgctxt "Operator"
+msgid "Measure"
+msgstr "测量"
+
+#: op/world_scale_uv.py:339
+msgctxt "Operator"
+msgid "Measure World Scale UV"
+msgstr "测量世界缩放 UV"
+
+#: op/world_scale_uv.py:340
+msgctxt "Operator"
+msgid "Measure face size for scale calculation"
+msgstr "测量面大小以计算缩放"
+
+#: ui/IMAGE_MT_uvs.py:180
+#: ui/uvedit_editor_enhancement.py:84
+msgctxt "Operator"
+msgid "Middle Bottom"
+msgstr "中下"
+
+#: ui/IMAGE_MT_uvs.py:152
+#: ui/uvedit_editor_enhancement.py:57
+msgctxt "Operator"
+msgid "Middle Top"
+msgstr "中上"
+
+#: ui/view3d_uv_manipulation.py:79
+msgctxt "Operator"
+msgid "Mirror"
+msgstr "镜像"
+
+#: preferences.py:66
+#: op/mirror_uv.py:131
+msgctxt "Operator"
+msgid "Mirror UV"
+msgstr "镜像 UV"
+
+#: preferences.py:69
+#: op/move_uv.py:61
+msgctxt "Operator"
+msgid "Move UV"
+msgstr "移动 UV"
+
+#: op/select_uv.py:87
+#: ui/IMAGE_MT_uvs.py:126
+msgctxt "Operator"
+msgid "Overlapped"
+msgstr "已重叠"
+
+#: op/uv_inspection.py:185
+msgctxt "Operator"
+msgid "Overlapped/Flipped UV renderer"
+msgstr "重叠/翻转 UV 渲染器"
+
+#: preferences.py:119
+#: op/pack_uv.py:195
+msgctxt "Operator"
+msgid "Pack UV"
+msgstr "打包 UV"
+
+#: op/pack_uv.py:196
+msgctxt "Operator"
+msgid "Pack UV (Same UV Islands are integrated)"
+msgstr "打包 UV（相同 UV 孤岛合并）"
+
+#: op/uv_inspection.py:374
+msgctxt "Operator"
+msgid "Paint UV Island"
+msgstr "绘制 UV 孤岛"
+
+#: op/uv_inspection.py:375
+msgctxt "Operator"
+msgid "Paint UV island with random color"
+msgstr "用随机颜色绘制 UV 孤岛"
+
+#: ui/IMAGE_MT_uvs.py:53
+#: ui/IMAGE_MT_uvs.py:59
+msgctxt "Operator"
+msgid "Paste"
+msgstr "粘贴"
+
+#: op/copy_paste_uv.py:394
+msgctxt "Operator"
+msgid "Paste UV"
+msgstr "粘贴 UV"
+
+#: op/copy_paste_uv_object.py:173
+msgctxt "Operator"
+msgid "Paste UV (Among Objects)"
+msgstr "粘贴 UV（物体之间）"
+
+#: op/copy_paste_uv.py:623
+msgctxt "Operator"
+msgid "Paste UV (Selection Sequence)"
+msgstr "粘贴 UV（选择顺序）"
+
+#: op/copy_paste_uv_uvedit.py:131
+msgctxt "Operator"
+msgid "Paste UV (UV/Image Editor)"
+msgstr "粘贴 UV（UV/图像编辑器）"
+
+#: op/copy_paste_uv_uvedit.py:301
+msgctxt "Operator"
+msgid "Paste UV Island (UV/Image Editor)"
+msgstr "粘贴 UV 孤岛（UV/图像编辑器）"
+
+#: op/copy_paste_uv.py:395
+msgctxt "Operator"
+msgid "Paste UV coordinate"
+msgstr "粘贴 UV 坐标"
+
+#: op/copy_paste_uv_object.py:174
+msgctxt "Operator"
+msgid "Paste UV coordinate (Among Objects)"
+msgstr "粘贴 UV 坐标（物体之间）"
+
+#: op/copy_paste_uv_uvedit.py:132
+msgctxt "Operator"
+msgid "Paste UV coordinate (only selected in UV/Image Editor)"
+msgstr "粘贴 UV 坐标（仅 UV/图像编辑器中选中）"
+
+#: op/copy_paste_uv.py:624
+msgctxt "Operator"
+msgid "Paste UV coordinate by selection sequence"
+msgstr "按选择顺序粘贴 UV 坐标"
+
+#: op/copy_paste_uv_uvedit.py:302
+msgctxt "Operator"
+msgid "Paste UV island (only selected in UV/Image Editor)"
+msgstr "粘贴 UV 孤岛（仅 UV/图像编辑器中选中）"
+
+#: op/preserve_uv_aspect.py:91
+msgctxt "Operator"
+msgid "Preserve UV Aspect"
+msgstr "保持 UV 纵横比"
+
+#: ui/VIEW3D_MT_uv_map.py:238
+#: ui/view3d_uv_mapping.py:95
+msgctxt "Operator"
+msgid "Project"
+msgstr "投影"
+
+#: op/texture_projection.py:370
+#: op/texture_projection.py:371
+msgctxt "Operator"
+msgid "Project Texture"
+msgstr "投影纹理"
+
+#: ui/VIEW3D_MT_uv_map.py:105
+#: ui/view3d_uv_manipulation.py:243
+msgctxt "Operator"
+msgid "ReLock"
+msgstr "重新锁定"
+
+#: op/texture_wrap.py:81
+#: ui/VIEW3D_MT_uv_map.py:176
+msgctxt "Operator"
+msgid "Refer"
+msgstr "参考"
+
+#: op/texture_wrap.py:82
+msgctxt "Operator"
+msgid "Refer UV"
+msgstr "参考 UV"
+
+#: op/uv_inspection.py:184
+msgctxt "Operator"
+msgid "Render overlapped/flipped UVs"
+msgstr "渲染重叠/翻转的 UV"
+
+#: op/texture_projection.py:258
+msgctxt "Operator"
+msgid "Render selected texture"
+msgstr "渲染选中的纹理"
+
+#: ui/IMAGE_MT_uvs.py:185
+#: ui/uvedit_editor_enhancement.py:88
+msgctxt "Operator"
+msgid "Right Bottom"
+msgstr "右下"
+
+#: ui/IMAGE_MT_uvs.py:170
+#: ui/uvedit_editor_enhancement.py:74
+msgctxt "Operator"
+msgid "Right Middle"
+msgstr "右中"
+
+#: ui/IMAGE_MT_uvs.py:157
+#: ui/uvedit_editor_enhancement.py:61
+msgctxt "Operator"
+msgid "Right Top"
+msgstr "右上"
+
+#: op/select_uv.py:189
+msgctxt "Operator"
+msgid "Select faces which have flipped UVs"
+msgstr "选择 UV 翻转的面"
+
+#: op/select_uv.py:88
+msgctxt "Operator"
+msgid "Select faces which have overlapped UVs"
+msgstr "选择 UV 重叠的面"
+
+#: op/texture_wrap.py:124
+#: ui/VIEW3D_MT_uv_map.py:177
+msgctxt "Operator"
+msgid "Set"
+msgstr "设置"
+
+#: op/align_uv.py:1462
+msgctxt "Operator"
+msgid "Set Edge Target to Edge Center"
+msgstr "将边目标设为边中心"
+
+#: op/align_uv.py:1234
+msgctxt "Operator"
+msgid "Set Point Target to Cursor"
+msgstr "将点目标设为游标"
+
+#: op/align_uv.py:1256
+msgctxt "Operator"
+msgid "Set Point Target to Vertex Group"
+msgstr "将点目标设为顶点组"
+
+#: op/texture_wrap.py:125
+msgctxt "Operator"
+msgid "Set UV"
+msgstr "设置 UV"
+
+#: op/align_uv.py:1463
+msgctxt "Operator"
+msgid "Set edge target to the center of edge for\n                        'Align UV (Snap to Edge)'"
+msgstr "将边目标设为边中心，用于“对齐 UV（吸附到边）”"
+
+#: op/align_uv.py:1257
+msgctxt "Operator"
+msgid "Set point target to the average of vertices for\n                        'Align UV (Snap to Point)'"
+msgstr "将点目标设为顶点平均值，用于“对齐 UV（吸附到点）”"
+
+#: op/align_uv.py:1235
+msgctxt "Operator"
+msgid "Set point target to the cursor for\n                        'Align UV (Snap to Point)'"
+msgstr "将点目标设为游标，用于“对齐 UV（吸附到点）”"
+
+#: preferences.py:128
+#: op/smooth_uv.py:80
+msgctxt "Operator"
+msgid "Smooth"
+msgstr "平滑"
+
+#: op/smooth_uv.py:81
+msgctxt "Operator"
+msgid "Smooth UV coordinates"
+msgstr "平滑 UV 坐标"
+
+#: ui/IMAGE_MT_uvs.py:105
+#: ui/uvedit_uv_manipulation.py:123
+msgctxt "Operator"
+msgid "Snap to Edge"
+msgstr "吸附到边"
+
+#: ui/IMAGE_MT_uvs.py:100
+#: ui/uvedit_uv_manipulation.py:102
+msgctxt "Operator"
+msgid "Snap to Point"
+msgstr "吸附到点"
+
+#: ui/view3d_uv_manipulation.py:90
+msgctxt "Operator"
+msgid "Start"
+msgstr "开始"
+
+#: ui/view3d_uv_manipulation.py:93
+msgctxt "Operator"
+msgid "Stop"
+msgstr "停止"
+
+#: ui/IMAGE_MT_uvs.py:84
+#: ui/uvedit_uv_manipulation.py:67
+msgctxt "Operator"
+msgid "Straighten"
+msgstr "拉直"
+
+#: op/align_uv.py:525
+msgctxt "Operator"
+msgid "Straighten UV coordinates"
+msgstr "拉直 UV 坐标"
+
+#: op/texture_lock.py:391
+msgctxt "Operator"
+msgid "Texture Lock (Interactive mode)"
+msgstr "纹理锁定（交互模式）"
+
+#: op/texture_projection.py:259
+msgctxt "Operator"
+msgid "Texture renderer"
+msgstr "纹理渲染器"
+
+#: op/transfer_uv.py:347
+msgctxt "Operator"
+msgid "Transfer UV Copy UV"
+msgstr "传递 UV 复制 UV"
+
+#: op/transfer_uv.py:348
+msgctxt "Operator"
+msgid "Transfer UV Copy UV (Topological based copy)"
+msgstr "传递 UV 复制 UV（基于拓扑复制）"
+
+#: op/transfer_uv.py:391
+msgctxt "Operator"
+msgid "Transfer UV Paste UV"
+msgstr "传递 UV 粘贴 UV"
+
+#: op/transfer_uv.py:392
+msgctxt "Operator"
+msgid "Transfer UV Paste UV (Topological based paste)"
+msgstr "传递 UV 粘贴 UV（基于拓扑粘贴）"
+
+#: op/uv_bounding_box.py:594
+msgctxt "Operator"
+msgid "UV Bounding Box"
+msgstr "UV 边界框"
+
+#: op/uv_sculpt.py:169
+msgctxt "Operator"
+msgid "UV Sculpt"
+msgstr "UV 雕刻"
+
+#: op/uv_sculpt.py:170
+msgctxt "Operator"
+msgid "UV Sculpt in View3D"
+msgstr "在 3D 视图中雕刻 UV"
+
+#: ui/VIEW3D_MT_uv_map.py:110
+#: ui/view3d_uv_manipulation.py:247
+msgctxt "Operator"
+msgid "Unlock"
+msgstr "解锁"
+
+#: op/texture_lock.py:296
+#: op/texture_lock.py:297
+msgctxt "Operator"
+msgid "Unlock Texture"
+msgstr "解锁纹理"
+
+#: ui/view3d_uv_mapping.py:50
+msgctxt "Operator"
+msgid "Unwrap"
+msgstr "展开"
+
+#: preferences.py:84
+#: op/unwrap_constraint.py:77
+msgctxt "Operator"
+msgid "Unwrap Constraint"
+msgstr "展开约束"
+
+#: op/unwrap_constraint.py:78
+msgctxt "Operator"
+msgid "Unwrap while keeping uv coordinate"
+msgstr "展开并保持 UV 坐标"
+
+#: ui/IMAGE_MT_uvs.py:207
+#: ui/uvedit_editor_enhancement.py:125
+msgctxt "Operator"
+msgid "Update"
+msgstr "更新"
+
+#: op/uv_inspection.py:345
+#: op/uv_inspection.py:346
+msgctxt "Operator"
+msgid "Update UV Inspection"
+msgstr "更新 UV 检查"
+
+#: ui/IMAGE_MT_uvs.py:91
+#: ui/uvedit_uv_manipulation.py:75
+msgctxt "Operator"
+msgid "XY-axis"
+msgstr "XY 轴"
+
+#: op/select_uv.py:278
+msgctxt "Operator"
+msgid "Zoom Selected UV"
+msgstr "缩放选中的 UV"
+
+#: op/select_uv.py:279
+msgctxt "Operator"
+msgid "Zoom selected UV in View3D space"
+msgstr "在 3D 视图空间中缩放选中的 UV"
+
+#: op/copy_paste_uv.py:377
+#: op/copy_paste_uv.py:519
+msgctxt "Operator"
+msgid "[All]"
+msgstr "[全部]"
+
+#: op/copy_paste_uv.py:373
+#: op/copy_paste_uv.py:507
+msgctxt "Operator"
+msgid "[Default]"
+msgstr "[默认]"
+
+#: op/copy_paste_uv.py:513
+#: op/copy_paste_uv.py:743
+msgctxt "Operator"
+msgid "[New]"
+msgstr "[新建]"

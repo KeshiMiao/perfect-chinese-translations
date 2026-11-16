@@ -1,0 +1,2349 @@
+# perfect-chinese: 1
+# id: modifier_list_fork
+# kind: addon
+# module: bl_ext.blender_org.Modifier_List_Fork
+# name: Modifier List
+# name_zh: 修改器列表
+# translator: KeshiMiao
+# category: Modeling
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: modules/operators/gizmo_object_add.py:23
+msgid "3D Cursor"
+msgstr "3D 光标"
+
+#: modules/modifier_categories.py:92
+#: modules/modifier_categories.py:141
+msgid "ARMATURE"
+msgstr "骨架"
+
+#: modules/modifier_categories.py:57
+#: modules/modifier_categories.py:77
+msgid "ARRAY"
+msgstr "阵列"
+
+#: modules/modifier_categories.py:68
+#: modules/modifier_categories.py:88
+msgid "AUTOMERGE_OFF"
+msgstr "自动合并关闭"
+
+#: modules/operators/object_apply_all_modifiers.py:43
+msgid "Active object's data is used by multiple objects. What would you like to do?"
+msgstr "活动物体的数据正被多个物体使用。您要如何处理？"
+
+#: modules/ui/properties_data_modifier.py:1247
+msgid "Adaptive"
+msgstr "自适应"
+
+#: modules/ui/properties_data_modifier.py:1245
+msgid "Adaptive Subdivision"
+msgstr "自适应细分"
+
+#: modules/ui/modifiers_ui.py:656
+msgid "Add Modifier"
+msgstr "添加修改器"
+
+#: modules/ui/modifiers_ui.py:1119
+#: modules/ui/modifiers_ui.py:1347
+msgid "Add New Modifier Shift + A"
+msgstr "添加新修改器 Shift + A"
+
+#: modules/preferences.py:510
+#: modules/preferences.py:511
+msgid "Add a favourite modifier"
+msgstr "添加收藏修改器"
+
+#: modules/ui/modifiers_ui.py:657
+msgid "Add a procedural operation/effect to the active object"
+msgstr "为活动物体添加程序化操作/效果"
+
+#: modules/operators/modifier_add.py:26
+msgid "After Active"
+msgstr "活动项之后"
+
+#: modules/ui/properties_data_modifier.py:870
+msgid "Alignment"
+msgstr "对齐"
+
+#: modules/preferences.py:629
+msgid "Always Delete Gizmo"
+msgstr "始终删除小工具"
+
+#: modules/preferences.py:542
+msgid "Always Show Use Pin To Last"
+msgstr "始终显示固定到末尾选项"
+
+#: modules/preferences.py:629
+msgid "Always delete the gizmo object when applying or removing a modifier. When off, the gizmo object is deleted only when holding shift"
+msgstr "应用或移除修改器时始终删除小工具物体。关闭时，仅在按住 Shift 时删除小工具物体"
+
+#: modules/preferences.py:542
+msgid "Always show the use pin to last option icons"
+msgstr "始终显示固定到末尾选项图标"
+
+#: modules/ui/properties_data_modifier.py:956
+msgid "Amount"
+msgstr "数量"
+
+#: modules/ui/ml_modifier_layouts.py:65
+msgid "Angle"
+msgstr "角度"
+
+#: modules/operators/modifier_apply.py:241
+msgid "Applied modifier only changed CV points, not tessellated/bevel vertices"
+msgstr "应用的修改器仅更改了控制点，未更改细分/倒角顶点"
+
+#: modules/operators/modifier_apply.py:152
+msgid "Applied modifier was not first, result may not be as expected"
+msgstr "应用的修改器不在首位，结果可能不符合预期"
+
+#: modules/preferences.py:585
+msgid "Apply"
+msgstr "应用"
+
+#: modules/operators/modifier_apply.py:63
+msgid "Apply Modifier"
+msgstr "应用修改器"
+
+#: modules/operators/modifier_apply.py:72
+#: modules/operators/object_apply_all_modifiers.py:78
+msgid "Apply To All"
+msgstr "应用到全部"
+
+#: modules/operators/modifier_apply.py:71
+#: modules/operators/object_apply_all_modifiers.py:77
+msgid "Apply To Single"
+msgstr "应用到单个"
+
+#: modules/operators/modifier_apply.py:64
+msgid "Apply modifier and remove from the stack.\n\nHold shift to also delete its gizmo object (if it has one)"
+msgstr "应用修改器并从堆栈中移除。\n\n按住 Shift 可同时删除其小工具物体（如果有）"
+
+#: modules/ui/properties_data_modifier.py:628
+msgid "Armature:"
+msgstr "骨架："
+
+#: modules/ui/modifiers_ui.py:1192
+msgid "As Instance"
+msgstr "作为实例"
+
+#: modules/ui/properties_data_modifier.py:1339
+msgid "Aspect X"
+msgstr "比例 X"
+
+#: modules/ui/properties_data_modifier.py:1340
+msgid "Aspect Y"
+msgstr "比例 Y"
+
+#: modules/properties.py:455
+#: modules/ui/sidebar.py:115
+msgid "Attributes"
+msgstr "属性"
+
+#: modules/preferences.py:617
+msgid "Auto Parent Gizmos To Active Object"
+msgstr "自动将小工具父级设为活动物体"
+
+#: modules/preferences.py:504
+msgid "Auto Sort Favourites When Choosing From Menu"
+msgstr "从菜单中选择时自动排序收藏项"
+
+#: modules/preferences.py:622
+msgid "Automatically match the size of the gizmo to the largest dimension of the active object (before modifiers).\nNOTE: This can be a bit slow on heavy meshes"
+msgstr "自动将小工具尺寸匹配到活动物体的最大尺寸（修改器之前）。\n注意：在复杂网格上可能稍慢"
+
+#: modules/preferences.py:617
+msgid "Automatically parent gizmos to the active object on addition"
+msgstr "添加时自动将小工具的父级设为活动物体"
+
+#: modules/preferences.py:504
+msgid "Automatically sort favourite modifiers when choosing from the menu. Also removes empty slots between favourites"
+msgstr "从菜单中选择时自动排序收藏的修改器。还会移除收藏项之间的空槽"
+
+#: modules/ui/properties_data_modifier.py:282
+msgid "Axis Mapping:"
+msgstr "轴映射："
+
+#: modules/ui/properties_data_modifier.py:1082
+msgid "Axis, Origin:"
+msgstr "轴、原点："
+
+#: modules/ui/properties_data_modifier.py:589
+#: modules/ui/properties_data_modifier.py:680
+msgid "Axis:"
+msgstr "轴："
+
+#: modules/ui/properties_data_modifier.py:991
+msgid "AxisOb"
+msgstr "轴物体"
+
+#: modules/modifier_categories.py:58
+#: modules/modifier_categories.py:78
+msgid "BEVEL"
+msgstr "倒角"
+
+#: modules/modifier_categories.py:59
+#: modules/modifier_categories.py:79
+msgid "BUILD"
+msgstr "构建"
+
+#: modules/ui/properties_data_modifier.py:2408
+msgid "Bake Directory"
+msgstr "烘焙目录"
+
+#: modules/ui/properties_data_modifier.py:2414
+msgid "Bake Path"
+msgstr "烘焙路径"
+
+#: modules/ui/properties_data_modifier.py:2411
+msgid "Bake Target"
+msgstr "烘焙目标"
+
+#: modules/operators/modifier_bake.py:14
+msgid "Bake_ID"
+msgstr "Bake_ID"
+
+#: modules/preferences.py:577
+msgid "Batch Operators In Main Layout With Stack Style"
+msgstr "在主布局中以堆栈样式批量显示操作符"
+
+#: modules/ui/properties_data_modifier.py:1169
+#: modules/ui/properties_data_modifier.py:1172
+msgid "Bevel:"
+msgstr "倒角："
+
+#: modules/ui/properties_data_modifier.py:58
+msgid "Bind To:"
+msgstr "绑定到："
+
+#: modules/ui/properties_data_modifier.py:685
+msgid "Bisect:"
+msgstr "二分："
+
+#: modules/preferences.py:549
+msgid "Black"
+msgstr "黑色"
+
+#: modules/ui/properties_data_modifier.py:1405
+#: modules/ui/properties_data_modifier.py:1533
+msgid "Bone"
+msgstr "骨骼"
+
+#: modules/ui/properties_data_modifier.py:60
+msgid "Bone Envelopes"
+msgstr "骨骼包络"
+
+#: modules/ui/properties_data_modifier.py:472
+#: modules/ui/properties_data_modifier.py:532
+msgid "Bone:"
+msgstr "骨骼："
+
+#: modules/ui/ml_modifier_layouts.py:74
+msgid "Boolean Collection:"
+msgstr "布尔集合："
+
+#: modules/ui/ml_modifier_layouts.py:30
+msgid "Boolean Object:"
+msgstr "布尔物体："
+
+#: modules/ui/properties_data_modifier.py:597
+msgid "Border"
+msgstr "边框"
+
+#: modules/ui/properties_data_modifier.py:1774
+msgid "Boundary"
+msgstr "边界"
+
+#: modules/ui/properties_data_modifier.py:779
+#: modules/ui/properties_data_modifier.py:1278
+msgid "Boundary Smooth:"
+msgstr "边界平滑："
+
+#: modules/ui/properties_data_modifier.py:821
+msgid "Built without OceanSim modifier"
+msgstr "构建时未使用 OceanSim 修改器"
+
+#: modules/ui/properties_data_modifier.py:1476
+msgid "Built without Remesh modifier"
+msgstr "构建时未包含重构网格修改器"
+
+#: modules/modifier_categories.py:93
+#: modules/modifier_categories.py:142
+msgid "CAST"
+msgstr "投射"
+
+#: modules/modifier_categories.py:94
+#: modules/modifier_categories.py:143
+msgid "CURVE"
+msgstr "曲线"
+
+#: modules/ui/properties_data_modifier.py:294
+msgid "Cache File Properties:"
+msgstr "缓存文件属性："
+
+#: modules/ui/properties_data_modifier.py:922
+msgid "Cache path:"
+msgstr "缓存路径："
+
+#: modules/operators/object_show_references_popup.py:124
+msgid "Children:"
+msgstr "子级："
+
+#: modules/preferences.py:463
+msgid "Classic Visibility Buttons Order"
+msgstr "经典可见性按钮顺序"
+
+#: modules/ui/properties_data_modifier.py:711
+msgid "Clipping"
+msgstr "裁剪"
+
+#: modules/ui/properties_data_modifier.py:209
+msgid "Collection:"
+msgstr "集合："
+
+#: modules/preferences.py:552
+msgid "Color of the addon's custom icons"
+msgstr "插件自定义图标的颜色"
+
+#: modules/preferences.py:570
+msgid "Confirmation Popups"
+msgstr "确认弹窗"
+
+#: modules/ui/properties_data_modifier.py:373
+msgid "Control Object:"
+msgstr "控制物体："
+
+#: modules/ui/properties_data_modifier.py:886
+msgid "Coverage"
+msgstr "覆盖率"
+
+#: modules/ui/properties_data_modifier.py:1764
+msgid "Crease Edges"
+msgstr "折痕边"
+
+#: modules/ui/properties_data_modifier.py:1767
+msgid "Crease Weight"
+msgstr "折痕权重"
+
+#: modules/ui/properties_data_modifier.py:1165
+msgid "Crease:"
+msgstr "折痕："
+
+#: modules/ui/properties_data_modifier.py:964
+msgid "Create Along Paths"
+msgstr "沿路径创建"
+
+#: modules/ui/properties_data_modifier.py:943
+msgid "Create From:"
+msgstr "创建自："
+
+#: modules/ui/properties_data_modifier.py:1062
+msgid "Cull Faces:"
+msgstr "剔除面："
+
+#: modules/modifier_categories.py:60
+#: modules/modifier_categories.py:80
+msgid "DECIMATE"
+msgstr "精简"
+
+#: modules/ui/properties_data_modifier.py:1433
+msgid "Damping"
+msgstr "阻尼"
+
+#: modules/ui/properties_data_modifier.py:1582
+msgid "Default Weight A:"
+msgstr "默认权重 A："
+
+#: modules/ui/properties_data_modifier.py:1593
+msgid "Default Weight B:"
+msgstr "默认权重 B："
+
+#: modules/ui/properties_data_modifier.py:1544
+msgid "Default Weight:"
+msgstr "默认权重："
+
+#: modules/preferences.py:604
+msgid "Default/min number of rows to display in the modifier list in the popup"
+msgstr "弹出菜单中修改器列表的默认/最小显示行数"
+
+#: modules/ui/modifiers_ui.py:541
+#: modules/ui/modifiers_ui.py:567
+msgid "Deform"
+msgstr "变形"
+
+#: modules/ui/properties_data_modifier.py:1099
+msgid "Deform:"
+msgstr "变形："
+
+#: modules/ui/properties_data_modifier.py:395
+msgid "Deformation Axis:"
+msgstr "变形轴："
+
+#: modules/utils.py:619
+msgid "Deleted a gizmo object"
+msgstr "已删除一个小工具物体"
+
+#: modules/ui/properties_data_modifier.py:433
+msgid "Delimit:"
+msgstr "限定："
+
+#: modules/ui/properties_data_modifier.py:873
+msgid "Direction"
+msgstr "方向"
+
+#: modules/ui/properties_data_modifier.py:453
+#: modules/ui/properties_data_modifier.py:1053
+msgid "Direction:"
+msgstr "方向："
+
+#: modules/preferences.py:536
+msgid "Disallow Applying Hidden Modifiers"
+msgstr "禁止应用隐藏的修改器"
+
+#: modules/preferences.py:536
+msgid "Disallow applying modifier's which are hidden in the viewport. \nHold Alt to override this. (When off, the behaviour is reversed)"
+msgstr "禁止应用在视图中隐藏的修改器。\n按住 Alt 可覆盖此设置。（关闭时，行为相反）"
+
+#: modules/ui/ml_modifier_layouts.py:46
+msgid "Display As:"
+msgstr "显示为："
+
+#: modules/ui/modifiers_ui.py:460
+msgid "Display Size"
+msgstr "显示大小"
+
+#: modules/preferences.py:445
+msgid "Display modifiers inside Properties Editor as"
+msgstr "在属性编辑器中显示修改器为"
+
+#: modules/preferences.py:476
+msgid "Display modifiers inside the popup as"
+msgstr "在弹出菜单中显示修改器为"
+
+#: modules/preferences.py:470
+msgid "Display modifiers inside the sidebar as"
+msgstr "在侧边栏中显示修改器为"
+
+#: modules/preferences.py:463
+msgid "Display show modifiers visibilty buttons in the classic order"
+msgstr "按经典顺序显示修改器可见性按钮"
+
+#: modules/ui/properties_data_modifier.py:100
+#: modules/ui/properties_data_modifier.py:1781
+msgid "Distance"
+msgstr "距离"
+
+#: modules/ui/properties_data_modifier.py:1620
+msgid "Distance:"
+msgstr "距离："
+
+#: modules/operators/modifier_apply.py:46
+#: modules/operators/object_apply_all_modifiers.py:40
+msgid "Done"
+msgstr "完成"
+
+#: modules/ui/properties_data_modifier.py:491
+msgid "Edge Angle"
+msgstr "边角度"
+
+#: modules/ui/modifiers_ui.py:529
+#: modules/ui/modifiers_ui.py:555
+msgid "Edit"
+msgstr "编辑"
+
+#: modules/ui/modifiers_ui.py:1232
+#: modules/ui/modifiers_ui.py:1235
+msgid "Edit Mesh Modifier"
+msgstr "编辑网格修改器"
+
+#: modules/preferences.py:434
+msgid "Enable/disable inside Properties Editor"
+msgstr "启用/禁用属性编辑器中的显示"
+
+#: modules/preferences.py:428
+msgid "Enable/disable the Sidebar tab"
+msgstr "启用/禁用侧边栏标签页"
+
+#: modules/ui/properties_data_modifier.py:919
+msgid "End"
+msgstr "结束"
+
+#: modules/ui/properties_data_modifier.py:253
+msgid "Evaluation:"
+msgstr "求值："
+
+#: modules/ui/properties_data_modifier.py:1772
+msgid "Even Thickness"
+msgstr "均匀厚度"
+
+#: modules/ui/properties_data_modifier.py:438
+msgid "Face Count: {:,}"
+msgstr "面数：{:,}"
+
+#: modules/ui/properties_data_modifier.py:182
+msgid "Face Strength Mode:"
+msgstr "面强度模式："
+
+#: modules/ui/properties_data_modifier.py:596
+#: modules/ui/properties_data_modifier.py:1158
+msgid "Factor"
+msgstr "系数"
+
+#: modules/ui/properties_data_modifier.py:1440
+msgid "Falloff"
+msgstr "衰减"
+
+#: modules/preferences.py:497
+#: modules/preferences.py:721
+msgid "Favourites Per Row"
+msgstr "每行收藏项数"
+
+#: modules/ui/properties_data_modifier.py:1268
+msgid "Final Dicing Rate:"
+msgstr "最终切割速率："
+
+#: modules/ui/properties_data_modifier.py:99
+msgid "First Last"
+msgstr "首/尾"
+
+#: modules/ui/properties_data_modifier.py:289
+msgid "Flip Axis:"
+msgstr "翻转轴："
+
+#: modules/ui/properties_data_modifier.py:729
+msgid "Flip U"
+msgstr "翻转 U"
+
+#: modules/ui/properties_data_modifier.py:732
+msgid "Flip UDIM"
+msgstr "翻转 UDIM"
+
+#: modules/ui/properties_data_modifier.py:730
+msgid "Flip V"
+msgstr "翻转 V"
+
+#: modules/ui/properties_data_modifier.py:692
+msgid "Flip:"
+msgstr "翻转："
+
+#: modules/ui/attributes_ui.py:117
+msgid "Float Color Value"
+msgstr "浮点颜色值"
+
+#: modules/ui/attributes_ui.py:43
+#: modules/ui/attributes_ui.py:116
+msgid "Float Value"
+msgstr "浮点值"
+
+#: modules/ui/properties_data_modifier.py:890
+msgid "Foam Data Layer Name:"
+msgstr "泡沫数据层名称："
+
+#: modules/ui/properties_data_modifier.py:285
+msgid "Forward/Up Axis:"
+msgstr "向前/向上轴："
+
+#: modules/ui/properties_data_modifier.py:1351
+#: modules/ui/properties_data_modifier.py:1702
+msgid "From:"
+msgstr "从："
+
+#: modules/ui/modifiers_ui.py:1230
+#: modules/ui/modifiers_ui.py:1233
+msgid "Frozen Modifier"
+msgstr "冻结修改器"
+
+#: modules/ui/modifiers_ui.py:535
+#: modules/ui/modifiers_ui.py:561
+msgid "Generate"
+msgstr "生成"
+
+#: modules/ui/properties_data_modifier.py:897
+msgid "Generate Spray"
+msgstr "生成喷洒"
+
+#: modules/ui/modifiers_ui.py:1043
+msgid "Gizmo Settings"
+msgstr "小工具设置"
+
+#: modules/ui/properties_data_modifier.py:1504
+msgid "Global Influence:"
+msgstr "全局影响："
+
+#: modules/modifier_categories.py:95
+#: modules/modifier_categories.py:144
+msgid "HOOK"
+msgstr "HOOK"
+
+#: modules/ui/ml_modifier_layouts.py:89
+msgid "Hide"
+msgstr "隐藏"
+
+#: modules/preferences.py:564
+msgid "Hide the region which shows modifier name and display settings. The same settings are also inside the modifier list"
+msgstr "隐藏显示修改器名称和显示设置的区域。相同设置也位于修改器列表中。"
+
+#: modules/preferences.py:552
+#: modules/preferences.py:740
+msgid "Icon Color"
+msgstr "图标颜色"
+
+#: modules/ui/modifiers_ui.py:693
+msgid "In Seconds"
+msgstr "以秒为单位"
+
+#: modules/operators/object_apply_all_modifiers.py:59
+msgid "In order to apply all modifiers of all objects, first make their data unique."
+msgstr "要应用所有物体的所有修改器，请先使其数据唯一。"
+
+#: modules/ui/properties_data_modifier.py:980
+msgid "Index Layer"
+msgstr "索引层"
+
+#: modules/ui/properties_data_modifier.py:1501
+msgid "Influence/Mask Options:"
+msgstr "影响/遮罩选项："
+
+#: modules/ui/properties_data_modifier.py:178
+#: modules/ui/properties_data_modifier.py:1166
+msgid "Inner"
+msgstr "内部"
+
+#: modules/preferences.py:529
+msgid "Insert New Modifier After Active"
+msgstr "在活动修改器后插入新修改器"
+
+#: modules/ui/modifiers_ui.py:1191
+msgid "Instanced, Modifiers may not work"
+msgstr "已实例化，修改器可能无法正常工作"
+
+#: modules/ui/properties_data_modifier.py:185
+msgid "Intersection Type:"
+msgstr "相交类型："
+
+#: modules/ui/properties_data_modifier.py:900
+msgid "Invert Spray"
+msgstr "反转喷洒"
+
+#: modules/preferences.py:482
+msgid "Keep Sidebar Panels Visible"
+msgstr "保持侧边栏面板可见"
+
+#: modules/preferences.py:482
+msgid "Keep the sidebar panels always visible"
+msgstr "保持侧边栏面板始终可见"
+
+#: modules/modifier_categories.py:96
+#: modules/modifier_categories.py:145
+msgid "LATTICE"
+msgstr "LATTICE"
+
+#: modules/ui/properties_data_modifier.py:595
+msgid "Lambda:"
+msgstr "Lambda："
+
+#: modules/ui/properties_data_modifier.py:1432
+msgid "Life"
+msgstr "寿命"
+
+#: modules/ui/properties_data_modifier.py:1043
+msgid "Limit"
+msgstr "限制"
+
+#: modules/ui/properties_data_modifier.py:145
+msgid "Limit Method:"
+msgstr "限制方法："
+
+#: modules/ui/modifiers_ui.py:1171
+msgid "Linked Modifier Instance of:"
+msgstr "链接的修改器实例属于："
+
+#: modules/preferences.py:441
+msgid "List"
+msgstr "列表"
+
+#: modules/ui/modifiers_ui.py:466
+msgid "Location:"
+msgstr "位置："
+
+#: modules/ui/properties_data_modifier.py:1089
+msgid "Lock:"
+msgstr "锁定："
+
+#: modules/modifier_categories.py:62
+#: modules/modifier_categories.py:82
+msgid "MIRROR"
+msgstr "MIRROR"
+
+#: modules/modifier_categories.py:92
+#: modules/modifier_categories.py:141
+msgid "MOD_ARMATURE"
+msgstr "MOD_ARMATURE"
+
+#: modules/modifier_categories.py:57
+#: modules/modifier_categories.py:77
+msgid "MOD_ARRAY"
+msgstr "MOD_ARRAY"
+
+#: modules/modifier_categories.py:58
+#: modules/modifier_categories.py:78
+msgid "MOD_BEVEL"
+msgstr "MOD_BEVEL"
+
+#: modules/modifier_categories.py:59
+#: modules/modifier_categories.py:79
+msgid "MOD_BUILD"
+msgstr "MOD_BUILD"
+
+#: modules/modifier_categories.py:93
+#: modules/modifier_categories.py:142
+msgid "MOD_CAST"
+msgstr "MOD_CAST"
+
+#: modules/modifier_categories.py:94
+#: modules/modifier_categories.py:143
+msgid "MOD_CURVE"
+msgstr "MOD_CURVE"
+
+#: modules/modifier_categories.py:60
+#: modules/modifier_categories.py:80
+msgid "MOD_DECIM"
+msgstr "MOD_DECIM"
+
+#: modules/modifier_categories.py:96
+#: modules/modifier_categories.py:145
+msgid "MOD_LATTICE"
+msgstr "MOD_LATTICE"
+
+#: modules/modifier_categories.py:62
+#: modules/modifier_categories.py:82
+msgid "MOD_MIRROR"
+msgstr "MOD_MIRROR"
+
+#: modules/modifier_categories.py:63
+#: modules/modifier_categories.py:83
+msgid "MOD_REMESH"
+msgstr "MOD_REMESH"
+
+#: modules/modifier_categories.py:64
+#: modules/modifier_categories.py:84
+msgid "MOD_SCREW"
+msgstr "MOD_SCREW"
+
+#: modules/modifier_categories.py:98
+#: modules/modifier_categories.py:147
+msgid "MOD_SHRINKWRAP"
+msgstr "MOD_SHRINKWRAP"
+
+#: modules/modifier_categories.py:100
+msgid "MOD_SMOOTH"
+msgstr "MOD_SMOOTH"
+
+#: modules/modifier_categories.py:65
+#: modules/modifier_categories.py:85
+msgid "MOD_SOLIDIFY"
+msgstr "MOD_SOLIDIFY"
+
+#: modules/modifier_categories.py:67
+#: modules/modifier_categories.py:87
+msgid "MOD_TRIANGULATE"
+msgstr "MOD_TRIANGULATE"
+
+#: modules/modifier_categories.py:101
+#: modules/modifier_categories.py:149
+msgid "MOD_WARP"
+msgstr "MOD_WARP"
+
+#: modules/modifier_categories.py:102
+#: modules/modifier_categories.py:150
+msgid "MOD_WAVE"
+msgstr "MOD_WAVE"
+
+#: modules/ui/properties_data_modifier.py:2444
+msgid "Manage"
+msgstr "管理"
+
+#: modules/preferences.py:622
+msgid "Match Gizmo Size To Active Object"
+msgstr "使小工具大小匹配活动物体"
+
+#: modules/ui/properties_data_modifier.py:1194
+msgid "Material Index Offset:"
+msgstr "材质索引偏移："
+
+#: modules/ui/properties_data_modifier.py:1777
+msgid "Material Offset"
+msgstr "材质偏移"
+
+#: modules/ui/properties_data_modifier.py:96
+#: modules/ui/properties_data_modifier.py:713
+msgid "Merge"
+msgstr "合并"
+
+#: modules/ui/properties_data_modifier.py:2024
+msgid "Mid Level"
+msgstr "中间级别"
+
+#: modules/ui/properties_data_modifier.py:1687
+msgid "Minimum Vertices:"
+msgstr "最小顶点数："
+
+#: modules/ui/properties_data_modifier.py:701
+msgid "Mirror Object:"
+msgstr "镜像物体："
+
+#: modules/ui/properties_data_modifier.py:176
+msgid "Miter Type:"
+msgstr "斜接类型："
+
+#: modules/ui/properties_data_modifier.py:1585
+#: modules/ui/properties_data_modifier.py:1927
+msgid "Mix Mode:"
+msgstr "混合模式："
+
+#: modules/ui/properties_data_modifier.py:1596
+msgid "Mix Set:"
+msgstr "混合集："
+
+#: modules/ui/properties_data_modifier.py:1031
+msgid "Mode:"
+msgstr "模式："
+
+#: modules/operators/object_sync_active_modifier_between_instances.py:86
+msgid "Modifer already in sync on all instances"
+msgstr "所有实例上的修改器已同步"
+
+#: modules/operators/object_sync_active_modifier_between_instances.py:92
+msgid "Modifer already in sync on all instances that have a synchronizable one"
+msgstr "所有拥有可同步修改器的实例上的修改器已同步"
+
+#: modules/ui/modifiers_ui.py:937
+msgid "Modifier Extras"
+msgstr "修改器额外选项"
+
+#: modules/ui/sidebar.py:15
+msgid "Modifier List"
+msgstr "修改器列表"
+
+#: modules/preferences.py:775
+msgid "Modifier List Default/Min Height"
+msgstr "修改器列表默认/最小高度"
+
+#: modules/preferences.py:564
+msgid "Modifier Options Bar"
+msgstr "修改器选项栏"
+
+#: modules/ui/popup.py:58
+msgid "Modifier Popup"
+msgstr "修改器弹出菜单"
+
+#: modules/ui/properties_data_modifier.py:300
+msgid "Modifier Properties:"
+msgstr "修改器属性："
+
+#: modules/operators/modifier_apply.py:175
+msgid "Modifier is hidden in viewport, skipped apply"
+msgstr "修改器在视图中隐藏，已跳过应用"
+
+#: modules/properties.py:433
+msgid "Modifier to show defaults for"
+msgstr "显示其默认值的修改器"
+
+#: modules/properties.py:453
+#: modules/ui/properties_editor.py:11
+msgid "Modifiers"
+msgstr "修改器"
+
+#: modules/operators/object_sync_all_modifiers_between_instances.py:62
+msgid "Modifiers already in sync"
+msgstr "修改器已同步"
+
+#: modules/operators/object_show_references_popup.py:82
+msgid "Modifiers:"
+msgstr "修改器："
+
+#: modules/ui/properties_data_modifier.py:1413
+msgid "Motion:"
+msgstr "运动："
+
+#: modules/operators/modifier_move_down.py:20
+msgid "Move to End"
+msgstr "移至末尾"
+
+#: modules/operators/modifier_move_up.py:20
+msgid "Move to Start"
+msgstr "移至开头"
+
+#: modules/ui/properties_data_modifier.py:2435
+msgid "Named Attributes WIP"
+msgstr "命名属性（开发中）"
+
+#: modules/ui/properties_data_modifier.py:1685
+msgid "Ngon Method:"
+msgstr "N 边形方法："
+
+#: modules/operators/modifier_copy.py:68
+msgid "No Modifier in Clipboard"
+msgstr "剪贴板中没有修改器"
+
+#: modules/ui/popup.py:42
+#: modules/ui/sidebar.py:85
+msgid "No active object"
+msgstr "没有活动物体"
+
+#: modules/operators/edit_mesh.py:608
+msgid "No active object found"
+msgstr "未找到活动物体"
+
+#: modules/operators/object_show_references_popup.py:73
+msgid "No active object found."
+msgstr "未找到活动物体。"
+
+#: modules/ui/modifiers_ui.py:453
+msgid "No gizmo"
+msgstr "无小工具"
+
+#: modules/operators/object_sync_active_modifier_between_instances.py:89
+msgid "No instance has a synchronizable modifier"
+msgstr "没有实例拥有可同步的修改器"
+
+#: modules/operators/object_apply_all_modifiers.py:218
+msgid "No local modifiers to apply"
+msgstr "没有可应用的局部修改器"
+
+#: modules/operators/object_remove_all_modifiers.py:65
+msgid "No local modifiers to remove"
+msgstr "没有可移除的局部修改器"
+
+#: modules/operators/edit_mesh.py:562
+msgid "No mesh data was found"
+msgstr "未找到网格数据"
+
+#: modules/operators/object_apply_all_modifiers.py:215
+msgid "No modifiers to apply"
+msgstr "没有可应用的修改器"
+
+#: modules/operators/object_remove_all_modifiers.py:67
+msgid "No modifiers to remove"
+msgstr "没有可移除的修改器"
+
+#: modules/operators/object_apply_all_modifiers.py:212
+msgid "No objects with local data"
+msgstr "没有带局部数据的物体"
+
+#: modules/operators/object_show_references_popup.py:84
+msgid "No references found."
+msgstr "未找到引用。"
+
+#: modules/preferences.py:809
+msgid "No supported settings"
+msgstr "无支持的设置"
+
+#: modules/operators/gizmo_object_add.py:22
+#: modules/operators/modifier_apply.py:70
+msgid "None"
+msgstr "无"
+
+#: modules/ui/properties_data_modifier.py:1402
+#: modules/ui/properties_data_modifier.py:1530
+msgid "Object"
+msgstr "物体"
+
+#: modules/properties.py:454
+msgid "Object Data"
+msgstr "物体数据"
+
+#: modules/operators/gizmo_object_add.py:25
+msgid "Object Origin"
+msgstr "物体原点"
+
+#: modules/operators/modifier_apply.py:49
+msgid "Object's data is used by multiple objects. What would you like to do?"
+msgstr "该物体的数据被多个物体使用。您要如何处理？"
+
+#: modules/ui/properties_data_modifier.py:53
+#: modules/ui/properties_data_modifier.py:206
+msgid "Object:"
+msgstr "物体："
+
+#: modules/ui/properties_data_modifier.py:957
+#: modules/ui/properties_data_modifier.py:1431
+msgid "Offset"
+msgstr "偏移"
+
+#: modules/ui/properties_data_modifier.py:173
+msgid "Offset Type:"
+msgstr "偏移类型："
+
+#: modules/ui/properties_data_modifier.py:1724
+msgid "Offset:"
+msgstr "偏移："
+
+#: modules/operators/object_toggle_all_modifiers.py:31
+msgid "Only Toggle Visible"
+msgstr "仅切换可见性"
+
+#: modules/ui/properties_data_modifier.py:201
+msgid "Operand Type:"
+msgstr "操作数类型："
+
+#: modules/preferences.py:457
+msgid "Operations Bar"
+msgstr "操作栏"
+
+#: modules/ui/properties_data_modifier.py:707
+msgid "Options:"
+msgstr "选项："
+
+#: modules/ui/properties_data_modifier.py:177
+#: modules/ui/properties_data_modifier.py:1167
+msgid "Outer"
+msgstr "外层"
+
+#: modules/ui/properties_data_modifier.py:2396
+msgid "Outputs"
+msgstr "输出"
+
+#: modules/ui/ml_modifier_layouts.py:162
+msgid "Outside Only"
+msgstr "仅外侧"
+
+#: modules/ui/modifiers_ui.py:1184
+msgid "Overridden Modifier Instance of:"
+msgstr "被覆盖的修改器实例属于："
+
+#: modules/ui/properties_data_modifier.py:340
+msgid "Override:"
+msgstr "覆盖："
+
+#: modules/ui/modifiers_ui.py:474
+msgid "Parent"
+msgstr "父级"
+
+#: modules/operators/object_show_references_popup.py:141
+msgid "Parented To:"
+msgstr "父级为："
+
+#: modules/ui/properties_data_modifier.py:937
+#: modules/ui/properties_data_modifier.py:939
+msgid "Particle System"
+msgstr "粒子系统"
+
+#: modules/ui/properties_data_modifier.py:509
+msgid "Particle UV"
+msgstr "粒子 UV"
+
+#: modules/ui/modifiers_ui.py:547
+#: modules/ui/modifiers_ui.py:573
+msgid "Physics"
+msgstr "物理"
+
+#: modules/preferences.py:476
+msgid "Popup Style"
+msgstr "弹出样式"
+
+#: modules/properties.py:457
+msgid "Popup Tabs"
+msgstr "弹出选项卡"
+
+#: modules/ui/properties_data_modifier.py:1436
+msgid "Position:"
+msgstr "位置："
+
+#: modules/preferences.py:647
+msgid "Preferences are Auto Saved in the Blender Config Folder"
+msgstr "偏好设置会自动保存在 Blender 配置文件夹中"
+
+#: modules/ui/properties_data_modifier.py:759
+msgid "Preview"
+msgstr "预览"
+
+#: modules/ui/properties_data_modifier.py:188
+msgid "Profile Type:"
+msgstr "轮廓类型："
+
+#: modules/ui/properties_data_modifier.py:1331
+msgid "Projectors"
+msgstr "投影器"
+
+#: modules/preferences.py:434
+msgid "Properties Editor"
+msgstr "属性编辑器"
+
+#: modules/preferences.py:445
+msgid "Properties Editor Style"
+msgstr "属性编辑器样式"
+
+#: modules/ui/properties_data_modifier.py:1679
+msgid "Quad Method:"
+msgstr "四边形方法："
+
+#: modules/modifier_categories.py:63
+#: modules/modifier_categories.py:83
+msgid "REMESH"
+msgstr "重网格"
+
+#: modules/ui/properties_data_modifier.py:972
+#: modules/ui/properties_data_modifier.py:975
+msgid "Random"
+msgstr "随机"
+
+#: modules/ui/properties_data_modifier.py:1773
+msgid "Relative Thickness"
+msgstr "相对厚度"
+
+#: modules/preferences.py:586
+msgid "Remove"
+msgstr "移除"
+
+#: modules/ui/properties_data_modifier.py:761
+#: modules/ui/properties_data_modifier.py:1238
+msgid "Render"
+msgstr "渲染"
+
+#: modules/ui/properties_data_modifier.py:332
+msgid "Render Procedural:"
+msgstr "程序化渲染："
+
+#: modules/ui/properties_data_modifier.py:1775
+msgid "Replace Original"
+msgstr "替换原始"
+
+#: modules/ui/properties_data_modifier.py:1996
+#: modules/ui/properties_data_modifier.py:2033
+msgid "Resolution Mode:"
+msgstr "分辨率模式："
+
+#: modules/preferences.py:559
+msgid "Reverse List"
+msgstr "反转列表"
+
+#: modules/preferences.py:559
+msgid "Reverse the order of the list persistently"
+msgstr "永久反转列表顺序"
+
+#: modules/ui/properties_data_modifier.py:1168
+#: modules/ui/properties_data_modifier.py:1201
+msgid "Rim"
+msgstr "边缘"
+
+#: modules/ui/properties_data_modifier.py:1210
+msgid "Rim Vertex Group:"
+msgstr "边缘顶点组："
+
+#: modules/ui/properties_data_modifier.py:1732
+msgid "Rotate:"
+msgstr "旋转："
+
+#: modules/ui/modifiers_ui.py:470
+msgid "Rotation:"
+msgstr "旋转："
+
+#: modules/modifier_categories.py:64
+#: modules/modifier_categories.py:84
+msgid "SCREW"
+msgstr "螺旋"
+
+#: modules/modifier_categories.py:98
+#: modules/modifier_categories.py:147
+msgid "SHRINKWRAP"
+msgstr "收缩包裹"
+
+#: modules/modifier_categories.py:100
+msgid "SMOOTH"
+msgstr "平滑"
+
+#: modules/modifier_categories.py:65
+#: modules/modifier_categories.py:85
+msgid "SOLIDIFY"
+msgstr "实体化"
+
+#: modules/ui/properties_data_modifier.py:2022
+msgid "Sample Radius"
+msgstr "采样半径"
+
+#: modules/ui/properties_data_modifier.py:865
+msgid "Scale"
+msgstr "缩放"
+
+#: modules/ui/properties_data_modifier.py:1343
+msgid "Scale X"
+msgstr "缩放 X"
+
+#: modules/ui/properties_data_modifier.py:1344
+msgid "Scale Y"
+msgstr "缩放 Y"
+
+#: modules/ui/properties_data_modifier.py:1728
+msgid "Scale:"
+msgstr "缩放："
+
+#: modules/ui/properties_data_modifier.py:760
+msgid "Sculpt"
+msgstr "雕刻"
+
+#: modules/preferences.py:451
+msgid "Search & Add Menu"
+msgstr "搜索并添加菜单"
+
+#: modules/properties.py:440
+msgid "Search for Modifier"
+msgstr "搜索修改器"
+
+#: modules/properties.py:440
+msgid "Search for a modifier and add it to the stack"
+msgstr "搜索修改器并将其添加到堆栈"
+
+#: modules/properties.py:433
+msgid "Search for a modifier to show its customizable default settings"
+msgstr "搜索修改器以显示其可自定义的默认设置"
+
+#: modules/preferences.py:805
+msgid "Select a modifier to show defaults for"
+msgstr "选择要显示默认值的修改器"
+
+#: modules/ui/properties_data_modifier.py:1660
+msgid "Selected Vertices:"
+msgstr "已选顶点："
+
+#: modules/ui/ml_modifier_layouts.py:93
+msgid "Set Objects To Display As:"
+msgstr "将物体显示为："
+
+#: modules/ui/properties_data_modifier.py:379
+#: modules/ui/properties_data_modifier.py:382
+msgid "Settings are inside the Physics tab"
+msgstr "设置位于“物理”选项卡中"
+
+#: modules/ui/properties_data_modifier.py:984
+msgid "Settings can be found inside the Particle context"
+msgstr "设置位于“粒子”上下文中"
+
+#: modules/ui/ml_modifier_layouts.py:52
+msgid "Shading:"
+msgstr "着色："
+
+#: modules/ui/properties_data_modifier.py:496
+msgid "Sharp Edges"
+msgstr "锐边"
+
+#: modules/ui/properties_data_modifier.py:1206
+msgid "Shell Vertex Group:"
+msgstr "外壳顶点组："
+
+#: modules/preferences.py:747
+msgid "Show"
+msgstr "显示"
+
+#: modules/preferences.py:523
+msgid "Show Icons In Favourites"
+msgstr "在收藏夹中显示图标"
+
+#: modules/preferences.py:589
+#: modules/preferences.py:752
+msgid "Show Info Messages For"
+msgstr "显示以下操作的信息消息"
+
+#: modules/ui/properties_data_modifier.py:950
+msgid "Show Particles When:"
+msgstr "显示粒子条件："
+
+#: modules/ui/modifiers_ui.py:692
+msgid "Show Timings"
+msgstr "显示计时"
+
+#: modules/ui/modifiers_ui.py:695
+msgid "Show Total Time"
+msgstr "显示总时间"
+
+#: modules/preferences.py:674
+msgid "Show UI Elements:"
+msgstr "显示 UI 元素："
+
+#: modules/operators/object_show_references_popup.py:106
+msgid "Show Viewport"
+msgstr "显示视图"
+
+#: modules/preferences.py:589
+msgid "Show batch operator info messages for"
+msgstr "为以下批量操作显示信息消息"
+
+#: modules/preferences.py:570
+msgid "Show confirmation popups for Apply All Modifiers and Remove All Modifiers operators"
+msgstr "为“应用所有修改器”和“移除所有修改器”操作显示确认弹窗"
+
+#: modules/preferences.py:660
+msgid "Show in:"
+msgstr "显示于："
+
+#: modules/preferences.py:457
+msgid "Show the apply, copy and pin bar in the Properties Editor"
+msgstr "在属性编辑器中显示应用、复制和固定栏"
+
+#: modules/preferences.py:451
+msgid "Show the search and menu bar in the Properties Editor"
+msgstr "在属性编辑器中显示搜索栏和菜单栏"
+
+#: modules/preferences.py:428
+msgid "Sidebar"
+msgstr "侧栏"
+
+#: modules/preferences.py:487
+#: modules/preferences.py:710
+msgid "Sidebar Category"
+msgstr "侧栏类别"
+
+#: modules/preferences.py:470
+msgid "Sidebar Style"
+msgstr "侧栏样式"
+
+#: modules/ui/ml_modifier_layouts.py:64
+msgid "Smooth by Angle:"
+msgstr "按角度平滑："
+
+#: modules/ui/properties_data_modifier.py:215
+msgid "Solver:"
+msgstr "求解器："
+
+#: modules/operators/object_apply_all_modifiers.py:228
+msgid "Some modifier(s) couldn't be applied. Check the system console for a list of the objects."
+msgstr "部分修改器无法应用。请检查系统控制台以获取物体列表。"
+
+#: modules/ui/properties_data_modifier.py:1252
+msgid "Space"
+msgstr "空间"
+
+#: modules/ui/properties_data_modifier.py:456
+msgid "Space:"
+msgstr "空间："
+
+#: modules/ui/properties_data_modifier.py:904
+msgid "Spray Data Layer Name:"
+msgstr "喷射数据层名称："
+
+#: modules/preferences.py:442
+msgid "Stack"
+msgstr "堆栈"
+
+#: modules/ui/properties_data_modifier.py:918
+msgid "Start"
+msgstr "起始"
+
+#: modules/ui/properties_data_modifier.py:1233
+msgid "Subdivisions:"
+msgstr "细分："
+
+#: modules/ui/properties_data_modifier.py:1670
+msgid "Symmetry Axes:"
+msgstr "对称轴："
+
+#: modules/operators/object_sync_active_modifier_between_instances.py:98
+msgid "Synchronized a modifier on all instances"
+msgstr "已在所有实例上同步修改器"
+
+#: modules/operators/object_sync_active_modifier_between_instances.py:100
+msgid "Synchronized a modifier on some instances"
+msgstr "已在部分实例上同步修改器"
+
+#: modules/operators/object_sync_all_modifiers_between_instances.py:65
+msgid "Synchronized modifiers"
+msgstr "已同步修改器"
+
+#: modules/ui/modifiers_ui.py:1014
+msgid "Syncronize Modifiers Between Instances:"
+msgstr "在实例之间同步修改器："
+
+#: modules/modifier_categories.py:67
+#: modules/modifier_categories.py:87
+msgid "TRIANGULATE"
+msgstr "三角形化"
+
+#: modules/ui/properties_data_modifier.py:1261
+msgid "Target Edge Length"
+msgstr "目标边长"
+
+#: modules/ui/properties_data_modifier.py:1614
+msgid "Target Object:"
+msgstr "目标物体："
+
+#: modules/ui/properties_data_modifier.py:1256
+msgid "Target Pixel Size"
+msgstr "目标像素大小"
+
+#: modules/ui/properties_data_modifier.py:1017
+#: modules/ui/properties_data_modifier.py:1294
+msgid "Target:"
+msgstr "目标："
+
+#: modules/ui/properties_data_modifier.py:1450
+msgid "Texture"
+msgstr "纹理"
+
+#: modules/ui/properties_data_modifier.py:465
+#: modules/ui/properties_data_modifier.py:1398
+msgid "Texture Coordinates:"
+msgstr "纹理坐标："
+
+#: modules/ui/properties_data_modifier.py:1516
+msgid "Texture Mask:"
+msgstr "纹理遮罩："
+
+#: modules/ui/properties_data_modifier.py:2011
+msgid "Texture mapping:"
+msgstr "纹理映射："
+
+#: modules/ui/properties_data_modifier.py:447
+#: modules/ui/properties_data_modifier.py:1394
+msgid "Texture:"
+msgstr "纹理："
+
+#: modules/ui/properties_data_modifier.py:727
+msgid "Textures:"
+msgstr "纹理："
+
+#: modules/preferences.py:497
+msgid "The number of favourites per row"
+msgstr "每行收藏项的数量"
+
+#: modules/ui/properties_data_modifier.py:1753
+msgid "Thickness"
+msgstr "厚度"
+
+#: modules/ui/properties_data_modifier.py:1977
+msgid "Threshold"
+msgstr "阈值"
+
+#: modules/ui/properties_data_modifier.py:264
+msgid "Time Mapping:"
+msgstr "时间映射："
+
+#: modules/ui/properties_data_modifier.py:328
+#: modules/ui/properties_data_modifier.py:1429
+msgid "Time:"
+msgstr "时间："
+
+#: modules/ui/properties_data_modifier.py:1355
+#: modules/ui/properties_data_modifier.py:1706
+msgid "To:"
+msgstr "到："
+
+#: modules/preferences.py:587
+msgid "Toggle visibility"
+msgstr "切换可见性"
+
+#: modules/properties.py:357
+#: modules/properties.py:364
+msgid "Type"
+msgstr "类型"
+
+#: modules/preferences.py:668
+msgid "UI Style:"
+msgstr "界面样式："
+
+#: modules/ui/properties_data_modifier.py:1696
+msgid "UV Axis:"
+msgstr "UV 轴："
+
+#: modules/ui/properties_data_modifier.py:475
+#: modules/ui/properties_data_modifier.py:1744
+msgid "UV Map:"
+msgstr "UV 贴图："
+
+#: modules/ui/properties_data_modifier.py:776
+#: modules/ui/properties_data_modifier.py:1276
+msgid "UV Smooth:"
+msgstr "UV 平滑："
+
+#: modules/ui/properties_data_modifier.py:118
+msgid "UVs:"
+msgstr "UV："
+
+#: modules/operators/gizmo_object_child_set.py:14
+#: modules/operators/gizmo_object_parent_set.py:14
+msgid "Unset"
+msgstr "未设置"
+
+#: modules/ui/modifiers_ui.py:1197
+msgid "Unsuported Constraint on Object! Switch to Stack to avoid bugs!"
+msgstr "物体上有不支持的约束！请切换到堆栈以避免错误！"
+
+#: modules/ui/properties_data_modifier.py:1526
+msgid "Use Channel:"
+msgstr "使用通道："
+
+#: modules/preferences.py:610
+msgid "Use Dialog Type Popup"
+msgstr "使用对话框类型弹出窗口"
+
+#: modules/operators/modifier_move_down.py:21
+#: modules/operators/modifier_move_up.py:21
+msgid "Use Selected Objects"
+msgstr "使用选中物体"
+
+#: modules/preferences.py:610
+msgid "Use a dialog type popup which doesn't close when you are not hovering over it"
+msgstr "使用在鼠标未悬停时不会关闭的对话框类型弹出窗口"
+
+#: modules/preferences.py:523
+msgid "Use icons in favourite modifier buttons"
+msgstr "在收藏修改器按钮中使用图标"
+
+#: modules/ui/properties_data_modifier.py:981
+msgid "Value Layer"
+msgstr "值层"
+
+#: modules/ui/properties_data_modifier.py:336
+msgid "Velocity:"
+msgstr "速度："
+
+#: modules/ui/properties_data_modifier.py:1578
+msgid "Vertex Group A:"
+msgstr "顶点组 A："
+
+#: modules/ui/properties_data_modifier.py:1589
+msgid "Vertex Group B:"
+msgstr "顶点组 B："
+
+#: modules/ui/properties_data_modifier.py:1509
+msgid "Vertex Group Mask:"
+msgstr "顶点组遮罩："
+
+#: modules/ui/properties_data_modifier.py:260
+#: modules/ui/properties_data_modifier.py:368
+msgid "Vertex Group:"
+msgstr "顶点组："
+
+#: modules/ui/properties_data_modifier.py:59
+#: modules/ui/properties_data_modifier.py:710
+msgid "Vertex Groups"
+msgstr "顶点组"
+
+#: modules/ui/properties_data_modifier.py:1235
+msgid "Viewport"
+msgstr "视图"
+
+#: modules/modifier_categories.py:101
+#: modules/modifier_categories.py:149
+msgid "WARP"
+msgstr "扭曲"
+
+#: modules/modifier_categories.py:102
+#: modules/modifier_categories.py:150
+msgid "WAVE"
+msgstr "波浪"
+
+#: modules/modifier_categories.py:68
+#: modules/modifier_categories.py:88
+msgid "WELD"
+msgstr "焊接"
+
+#: modules/ui/properties_data_modifier.py:859
+msgid "Waves:"
+msgstr "波浪："
+
+#: modules/ui/properties_data_modifier.py:1969
+#: modules/ui/vertex_groups_ui.py:44
+msgid "Weight"
+msgstr "权重"
+
+#: modules/ui/properties_data_modifier.py:1965
+msgid "Weighting Mode:"
+msgstr "权重模式："
+
+#: modules/preferences.py:529
+msgid "When adding a new modifier, insert it after the active one. \nHold Control to override this. (When off, the behaviour is reversed). \nNOTE: This is really slow on heavy meshes"
+msgstr "添加新修改器时，将其插入到活动修改器之后。\n按住 Control 可覆盖此行为。（关闭时行为相反）。\n注意：在高面数网格上会非常慢"
+
+#: modules/preferences.py:577
+msgid "When using the stack layout, show the batch operators in the main layout in their own row. Otherwise they are located in the Modifier Extras popover"
+msgstr "使用堆栈布局时，在主布局中用单独一行显示批量操作。否则它们位于“修改器附加项”弹出面板中"
+
+#: modules/preferences.py:550
+msgid "White"
+msgstr "白色"
+
+#: modules/preferences.py:598
+#: modules/preferences.py:771
+msgid "Width"
+msgstr "宽度"
+
+#: modules/preferences.py:598
+msgid "Width of the popup, excluding the navigation bar"
+msgstr "弹出面板的宽度，不包括导航栏"
+
+#: modules/operators/gizmo_object_add.py:24
+msgid "World Origin"
+msgstr "世界原点"
+
+#: modules/ui/popup.py:45
+#: modules/ui/sidebar.py:87
+msgid "Wrong object type"
+msgstr "物体类型错误"
+
+#: modules/ui/properties_data_modifier.py:1422
+#: modules/ui/properties_data_modifier.py:1438
+msgid "X"
+msgstr "X"
+
+#: modules/ui/properties_data_modifier.py:1423
+#: modules/ui/properties_data_modifier.py:1439
+msgid "Y"
+msgstr "Y"
+
+#: modules/ui/properties_data_modifier.py:1424
+msgid "Z"
+msgstr "Z"
+
+#: modules/ui/modifiers_ui.py:494
+msgctxt "Operator"
+msgid "Active Object To Gizmo"
+msgstr "活动物体到小控件"
+
+#: modules/ui/modifiers_ui.py:1016
+msgctxt "Operator"
+msgid "Active Only"
+msgstr "仅活动"
+
+#: modules/operators/gizmo_object_add.py:9
+msgctxt "Operator"
+msgid "Add Gizmo"
+msgstr "添加小控件"
+
+#: modules/operators/modifier_add.py:12
+#: modules/ui/modifiers_ui.py:80
+msgctxt "Operator"
+msgid "Add Modifier"
+msgstr "添加修改器"
+
+#: modules/operators/modifier_menu.py:10
+msgctxt "Operator"
+msgid "Add Modifier from Menu"
+msgstr "从菜单添加修改器"
+
+#: modules/operators/modifier_search.py:33
+msgctxt "Operator"
+msgid "Add Modifier from Search"
+msgstr "从搜索添加修改器"
+
+#: modules/operators/gizmo_object_add.py:10
+msgctxt "Operator"
+msgid "Add a gizmo object to the modifier.\n\nPlacement:\nShift: 3D Cursor.\nCtrl: world origin.\nIf in Edit Mode and there is a selection: the average location of the selected elements.\nElse: active object's origin"
+msgstr "向修改器添加小控件物体。\n\n放置位置：\nShift：3D 光标。\nCtrl：世界原点。\n如果在编辑模式且存在选择：所选元素的平均位置。\n否则：活动物体的原点"
+
+#: modules/operators/edit_mesh.py:584
+msgctxt "Operator"
+msgid "Adds a Edit Mesh Modifier\n\n    Ctrl - Add after active modifier\n    Alt - Add to all selected objects"
+msgstr "添加编辑网格修改器\n\n    Ctrl - 添加到活动修改器之后\n    Alt - 添加到所有选中物体"
+
+#: modules/ui/modifiers_ui.py:1017
+msgctxt "Operator"
+msgid "All"
+msgstr "全部"
+
+#: modules/operators/object_apply_all_modifiers.py:71
+msgctxt "Operator"
+msgid "Apply All Modifiers"
+msgstr "应用所有修改器"
+
+#: modules/operators/object_apply_all_modifiers.py:23
+msgctxt "Operator"
+msgid "Apply All Modifiers Dialog"
+msgstr "应用所有修改器对话框"
+
+#: modules/ui/properties_data_modifier.py:802
+msgctxt "Operator"
+msgid "Apply Base"
+msgstr "应用基础"
+
+#: modules/operators/modifier_apply.py:265
+msgctxt "Operator"
+msgid "Apply Modifier"
+msgstr "应用修改器"
+
+#: modules/operators/modifier_apply.py:275
+msgctxt "Operator"
+msgid "Apply Modifier As Shape Key"
+msgstr "应用修改器为形态键"
+
+#: modules/operators/modifier_apply.py:21
+msgctxt "Operator"
+msgid "Apply Modifier Dialog"
+msgstr "应用修改器对话框"
+
+#: modules/operators/modifier_apply.py:53
+#: modules/operators/object_apply_all_modifiers.py:48
+msgctxt "Operator"
+msgid "Apply To Active Object Only (Break Link)"
+msgstr "仅应用到活动物体（断开链接）"
+
+#: modules/operators/modifier_apply.py:56
+#: modules/operators/object_apply_all_modifiers.py:51
+msgctxt "Operator"
+msgid "Apply To All Objects"
+msgstr "应用到所有物体"
+
+#: modules/operators/object_apply_all_modifiers.py:72
+msgctxt "Operator"
+msgid "Apply all modifiers of the selected object(s)"
+msgstr "应用选中物体的所有修改器"
+
+#: modules/operators/modifier_apply.py:266
+msgctxt "Operator"
+msgid "Apply modifier and remove from the stack.\n\nHold shift to also delete its gizmo object (if it has one)"
+msgstr "应用修改器并从堆栈中移除。\n\n按住 Shift 同时删除其小控件物体（如果有）"
+
+#: modules/operators/modifier_apply.py:286
+msgctxt "Operator"
+msgid "Apply modifier as a new shape key and keep it in the stack"
+msgstr "将修改器应用为新的形态键并保留在堆栈中"
+
+#: modules/operators/modifier_apply.py:276
+msgctxt "Operator"
+msgid "Apply modifier as a shape key and remove from the stack.\n\nHold shift to also delete its gizmo object (if it has one)"
+msgstr "将修改器应用为形态键并从堆栈中移除。\n\n按住 Shift 同时删除其小控件物体（如果有）"
+
+#: modules/operators/modifier_list_mouse_hover_op.py:10
+msgctxt "Operator"
+msgid "Apply/Remove Modifier on Mouse Hover"
+msgstr "鼠标悬停时应用/移除修改器"
+
+#: modules/ui/attributes_ui.py:39
+#: modules/ui/attributes_ui.py:45
+msgctxt "Operator"
+msgid "Assign"
+msgstr "指定"
+
+#: modules/ui/attributes_ui.py:59
+msgctxt "Operator"
+msgid "Atributte Operations"
+msgstr "属性操作"
+
+#: modules/ui/attributes_ui.py:58
+msgctxt "Operator"
+msgid "Attribute Operations"
+msgstr "属性操作"
+
+#: modules/operators/geometry_nodes_attribute_search.py:28
+msgctxt "Operator"
+msgid "Attribute Search"
+msgstr "属性搜索"
+
+#: modules/ui/ml_modifier_layouts.py:57
+msgctxt "Operator"
+msgid "Auto Smooth"
+msgstr "自动平滑"
+
+#: modules/operators/modifier_bake.py:9
+msgctxt "Operator"
+msgid "Bake"
+msgstr "烘焙"
+
+#: modules/ui/properties_data_modifier.py:581
+#: modules/ui/properties_data_modifier.py:673
+msgctxt "Operator"
+msgid "Bind"
+msgstr "绑定"
+
+#: modules/ui/ml_modifier_layouts.py:109
+msgctxt "Operator"
+msgid "Bounds"
+msgstr "边界"
+
+#: modules/operators/preferences_favourite_modifiers_configuration_popup.py:9
+msgctxt "Operator"
+msgid "Choose and order your favourite modifiers"
+msgstr "选择并排序你常用的修改器"
+
+#: modules/ui/properties_data_modifier.py:2485
+msgctxt "Operator"
+msgid "Clear Edited Mesh Data"
+msgstr "清除已编辑网格数据"
+
+#: modules/ui/properties_data_modifier.py:1663
+msgctxt "Operator"
+msgid "Clear Loose"
+msgstr "清除松散"
+
+#: modules/operators/edit_mesh.py:507
+msgctxt "Operator"
+msgid "Clear edit mesh"
+msgstr "清除编辑网格"
+
+#: modules/operators/edit_mesh.py:508
+msgctxt "Operator"
+msgid "Clear edit mesh Modifier"
+msgstr "清除编辑网格修改器"
+
+#: modules/operators/preferences_favourite_modifiers_configuration_popup.py:8
+msgctxt "Operator"
+msgid "Configure Favourite Modifiers"
+msgstr "配置常用修改器"
+
+#: modules/ui/modifiers_ui.py:1245
+#: modules/ui/modifiers_ui.py:1247
+msgctxt "Operator"
+msgid "Convert"
+msgstr "转换"
+
+#: modules/operators/modifier_copy.py:13
+msgctxt "Operator"
+msgid "Copy Modifier"
+msgstr "复制修改器"
+
+#: modules/ui/properties_data_modifier.py:1648
+msgctxt "Operator"
+msgid "Create Armature"
+msgstr "创建骨架"
+
+#: modules/ui/properties_data_modifier.py:910
+msgctxt "Operator"
+msgid "Delete Bake"
+msgstr "删除烘焙"
+
+#: modules/operators/gizmo_object_delete.py:9
+msgctxt "Operator"
+msgid "Delete Gizmo"
+msgstr "删除小控件"
+
+#: modules/ui/properties_data_modifier.py:799
+msgctxt "Operator"
+msgid "Delete Higher"
+msgstr "删除更高层级"
+
+#: modules/operators/gizmo_object_delete.py:10
+msgctxt "Operator"
+msgid "Delete the gizmo object"
+msgstr "删除小控件物体"
+
+#: modules/ui/vertex_groups_ui.py:42
+msgctxt "Operator"
+msgid "Deselect"
+msgstr "取消选择"
+
+#: modules/operators/modifier_copy.py:14
+msgctxt "Operator"
+msgid "Duplicate modifier at the same position in the stack"
+msgstr "在堆栈中同一位置复制修改器"
+
+#: modules/ui/attributes_ui.py:51
+msgctxt "Operator"
+msgid "Edge Group"
+msgstr "边组"
+
+#: modules/ui/ml_modifier_layouts.py:141
+#: modules/ui/ml_modifier_layouts.py:144
+msgctxt "Operator"
+msgid "Edit Lattice"
+msgstr "编辑晶格"
+
+#: modules/operators/edit_mesh.py:583
+msgctxt "Operator"
+msgid "Edit Mesh"
+msgstr "编辑网格"
+
+#: modules/ui/properties_data_modifier.py:1667
+msgctxt "Operator"
+msgid "Equalize Radii"
+msgstr "均衡半径"
+
+#: modules/ui/attributes_ui.py:52
+msgctxt "Operator"
+msgid "Face Group"
+msgstr "面组"
+
+#: modules/ui/ml_modifier_layouts.py:68
+msgctxt "Operator"
+msgid "Flat"
+msgstr "平直"
+
+#: modules/ui/properties_data_modifier.py:1896
+msgctxt "Operator"
+msgid "Generate Data Layers"
+msgstr "生成数据层"
+
+#: modules/ui/modifiers_ui.py:486
+msgctxt "Operator"
+msgid "Gizmo To Active Object"
+msgstr "小工具移至活动物体"
+
+#: modules/operators/modifier_add.py:13
+msgctxt "Operator"
+msgid "Hold shift to add the modifier with a gizmo object (for certain modifiers).\n\nPlacement:\nCtrl: world origin.\nIf in Edit Mode and there is a selection: the average location of the selected elements.\nElse: active object's origin. \n\nAlt: add the modifier on all selected objects."
+msgstr "按住 Shift 添加带小工具物体的修改器（适用于某些修改器）。\n\n放置位置：\nCtrl：世界原点。\n若处于编辑模式且有选中项：所选元素的平均位置。\n否则：活动物体的原点。\n\nAlt：为所有选中物体添加该修改器。"
+
+#: modules/operators/preferences_import.py:14
+msgctxt "Operator"
+msgid "Import Modifier List preferences from another Blender version"
+msgstr "从另一个 Blender 版本导入修改器列表偏好设置"
+
+#: modules/operators/preferences_import.py:13
+msgctxt "Operator"
+msgid "Import Preferences"
+msgstr "导入偏好设置"
+
+#: modules/ui/properties_data_modifier.py:1662
+msgctxt "Operator"
+msgid "Mark Loose"
+msgstr "标记松散"
+
+#: modules/ui/properties_data_modifier.py:1666
+msgctxt "Operator"
+msgid "Mark Root"
+msgstr "标记根"
+
+#: modules/ui/popup.py:15
+msgctxt "Operator"
+msgid "Modifier Popup"
+msgstr "修改器弹出菜单"
+
+#: modules/operators/preferences_active_favourite_modifier_move.py:46
+msgctxt "Operator"
+msgid "Move Active Favourite Modifier Down"
+msgstr "下移活动收藏修改器"
+
+#: modules/operators/preferences_active_favourite_modifier_move.py:32
+msgctxt "Operator"
+msgid "Move Active Favourite Modifier Up"
+msgstr "上移活动收藏修改器"
+
+#: modules/operators/modifier_move_down.py:12
+#: modules/operators/modifier_move_up.py:12
+msgctxt "Operator"
+msgid "Move Modifier"
+msgstr "移动修改器"
+
+#: modules/operators/modifier_move_down.py:13
+#: modules/operators/modifier_move_up.py:13
+msgctxt "Operator"
+msgid "Move modifier up/down in the stack.\n\nHold Shift to move it to the top/bottom\nHold Alt to do it for all selected objects"
+msgstr "在堆栈中上移/下移修改器。\n\n按住 Shift 将其移到顶部/底部\n按住 Alt 对所有选中物体执行此操作"
+
+#: modules/operators/preferences_active_favourite_modifier_move.py:47
+msgctxt "Operator"
+msgid "Move the active favourite modifier down"
+msgstr "将活动收藏修改器下移"
+
+#: modules/operators/preferences_active_favourite_modifier_move.py:33
+msgctxt "Operator"
+msgid "Move the active favourite modifier up"
+msgstr "将活动收藏修改器上移"
+
+#: modules/operators/object_show_references_popup.py:59
+msgctxt "Operator"
+msgid "Object References"
+msgstr "物体引用"
+
+#: modules/operators/open_preferences_folder.py:8
+msgctxt "Operator"
+msgid "Open Config Folder"
+msgstr "打开配置文件夹"
+
+#: modules/operators/open_preferences_folder.py:9
+msgctxt "Operator"
+msgid "Open the folder where the modifier list preferences are stored"
+msgstr "打开存储修改器列表偏好设置的文件夹"
+
+#: modules/operators/modifier_menu.py:11
+msgctxt "Operator"
+msgid "Open the modifier menu to add a modifier to the active object"
+msgstr "打开修改器菜单以向活动物体添加修改器"
+
+#: modules/operators/object_toggle_all_modifier_panels.py:15
+msgctxt "Operator"
+msgid "Open/close all modifier panels"
+msgstr "打开/关闭所有修改器面板"
+
+#: modules/ui/properties_data_modifier.py:813
+msgctxt "Operator"
+msgid "Pack External"
+msgstr "打包外部"
+
+#: modules/operators/gizmo_object_child_set.py:10
+msgctxt "Operator"
+msgid "Parent Active Object To Gizmo"
+msgstr "将活动物体设为小工具的子级"
+
+#: modules/operators/gizmo_object_parent_set.py:10
+msgctxt "Operator"
+msgid "Parent Gizmo To Active Object"
+msgstr "将小工具设为活动物体的子级"
+
+#: modules/operators/gizmo_object_child_set.py:11
+msgctxt "Operator"
+msgid "Parent the active object to the gizmo object"
+msgstr "将活动物体设为小工具物体的子级"
+
+#: modules/operators/gizmo_object_parent_set.py:11
+msgctxt "Operator"
+msgid "Parent the gizmo object to the active object"
+msgstr "将小工具物体设为活动物体的子级"
+
+#: modules/operators/object_pin.py:8
+msgctxt "Operator"
+msgid "Pin Object"
+msgstr "固定物体"
+
+#: modules/operators/object_pin.py:9
+msgctxt "Operator"
+msgid "Pin/unpin the object"
+msgstr "固定/取消固定物体"
+
+#: modules/ui/sidebar.py:75
+msgctxt "Operator"
+msgid "Prefs"
+msgstr "偏好设置"
+
+#: modules/ui/properties_data_modifier.py:807
+msgctxt "Operator"
+msgid "Rebuild Subdivisions"
+msgstr "重建细分"
+
+#: modules/ui/properties_data_modifier.py:561
+msgctxt "Operator"
+msgid "Recenter"
+msgstr "重新居中"
+
+#: modules/ui/properties_data_modifier.py:519
+msgctxt "Operator"
+msgid "Refresh"
+msgstr "刷新"
+
+#: modules/ui/attributes_ui.py:40
+#: modules/ui/attributes_ui.py:46
+msgctxt "Operator"
+msgid "Remove"
+msgstr "移除"
+
+#: modules/operators/preferences_active_favourite_modifier_remove.py:9
+msgctxt "Operator"
+msgid "Remove Active Favourite Modifier"
+msgstr "移除活动收藏修改器"
+
+#: modules/operators/object_remove_all_modifiers.py:17
+msgctxt "Operator"
+msgid "Remove All Modifiers"
+msgstr "移除所有修改器"
+
+#: modules/operators/modifier_remove.py:20
+msgctxt "Operator"
+msgid "Remove Modifier"
+msgstr "移除修改器"
+
+#: modules/operators/object_remove_all_modifiers.py:18
+msgctxt "Operator"
+msgid "Remove all modifiers from the selected object(s)"
+msgstr "移除选中物体的所有修改器"
+
+#: modules/operators/modifier_remove.py:21
+msgctxt "Operator"
+msgid "Remove modifier from the active object.\n\nHold shift to also delete its gizmo object (if it has one)"
+msgstr "从活动物体移除修改器。\n\n按住 Shift 同时删除其小工具物体（如果有）"
+
+#: modules/operators/preferences_active_favourite_modifier_remove.py:10
+msgctxt "Operator"
+msgid "Remove the active favourite modifer"
+msgstr "移除活动收藏修改器"
+
+#: modules/ui/properties_data_modifier.py:560
+msgctxt "Operator"
+msgid "Reset"
+msgstr "重置"
+
+#: modules/operators/preferences_modifier_defaults_reset.py:7
+msgctxt "Operator"
+msgid "Reset Modifier Defaults"
+msgstr "重置修改器默认值"
+
+#: modules/ui/modifiers_ui.py:464
+msgctxt "Operator"
+msgid "Reset Transform"
+msgstr "重置变换"
+
+#: modules/operators/gizmo_object_reset_transform.py:9
+msgctxt "Operator"
+msgid "Reset Transform For Gizmo"
+msgstr "重置小工具的变换"
+
+#: modules/operators/preferences_modifier_defaults_reset.py:8
+msgctxt "Operator"
+msgid "Reset the currently shown modifier default settings to their default values"
+msgstr "将当前显示的修改器默认设置重置为默认值"
+
+#: modules/preferences.py:799
+msgctxt "Operator"
+msgid "Reset to Defaults"
+msgstr "重置为默认值"
+
+#: modules/operators/gizmo_object_reset_transform.py:10
+msgctxt "Operator"
+msgid "Reset transform for the gizmo object"
+msgstr "重置小工具物体的变换"
+
+#: modules/ui/properties_data_modifier.py:801
+msgctxt "Operator"
+msgid "Reshape"
+msgstr "重塑"
+
+#: modules/ui/properties_data_modifier.py:817
+msgctxt "Operator"
+msgid "Save External..."
+msgstr "保存外部..."
+
+#: modules/operators/modifier_apply.py:285
+msgctxt "Operator"
+msgid "Save Modifier As Shape Key"
+msgstr "将修改器保存为形态键"
+
+#: modules/operators/geometry_nodes_attribute_search.py:29
+msgctxt "Operator"
+msgid "Search attributes and vertex groups"
+msgstr "搜索属性和顶点组"
+
+#: modules/operators/modifier_search.py:34
+msgctxt "Operator"
+msgid "Search for a modifier and add it to the active object."
+msgstr "搜索修改器并将其添加到活动物体。"
+
+#: modules/operators/object_show_references_popup.py:97
+#: modules/operators/object_show_references_popup.py:134
+msgctxt "Operator"
+msgid "Select"
+msgstr "选择"
+
+#: modules/ui/modifiers_ui.py:499
+msgctxt "Operator"
+msgid "Select Gizmo"
+msgstr "选择小工具"
+
+#: modules/operators/object_select.py:8
+msgctxt "Operator"
+msgid "Select Object"
+msgstr "选择物体"
+
+#: modules/ui/ml_modifier_layouts.py:126
+msgctxt "Operator"
+msgid "Select Objects"
+msgstr "选择多个物体"
+
+#: modules/operators/collection_select_objects.py:8
+msgctxt "Operator"
+msgid "Select Objects In Collection"
+msgstr "选择集合中的物体"
+
+#: modules/operators/object_select.py:9
+msgctxt "Operator"
+msgid "Select object.\n\nHold shift to extend selection"
+msgstr "选择物体。\n\n按住 Shift 扩展选择"
+
+#: modules/operators/collection_select_objects.py:9
+msgctxt "Operator"
+msgid "Select the objects in a collection.\n\nHold shift to extend selection"
+msgstr "选择集合中的物体。\n\n按住 Shift 扩展选择"
+
+#: modules/operators/preferences_active_favourite_modifier_slot_set.py:8
+msgctxt "Operator"
+msgid "Set Active Favourite Modifier Slot"
+msgstr "设置活动收藏修改器槽位"
+
+#: modules/operators/collection_objects_display_type_set.py:8
+msgctxt "Operator"
+msgid "Set Display Type For Objects In Collection"
+msgstr "设置集合中物体的显示类型"
+
+#: modules/operators/object_smooth_shading_set.py:8
+msgctxt "Operator"
+msgid "Set Smooth Shading"
+msgstr "设置平滑着色"
+
+#: modules/operators/collection_objects_smooth_shading_set.py:8
+msgctxt "Operator"
+msgid "Set Smooth Shading For Objects In Collection"
+msgstr "设置集合中物体的平滑着色"
+
+#: modules/operators/collection_objects_display_type_set.py:9
+msgctxt "Operator"
+msgid "Set display type for the objects in a collection"
+msgstr "设置集合中物体的显示类型"
+
+#: modules/operators/object_smooth_shading_set.py:9
+msgctxt "Operator"
+msgid "Set smooth shading"
+msgstr "设置平滑着色"
+
+#: modules/operators/collection_objects_smooth_shading_set.py:9
+msgctxt "Operator"
+msgid "Set smooth shading for the objects in a collection"
+msgstr "设置集合中物体的平滑着色"
+
+#: modules/operators/preferences_active_favourite_modifier_slot_set.py:9
+msgctxt "Operator"
+msgid "Set the active favourite modifier slot"
+msgstr "设置活动收藏修改器槽位"
+
+#: modules/ui/ml_modifier_layouts.py:120
+msgctxt "Operator"
+msgid "Shade Objects Flat"
+msgstr "平直着色物体"
+
+#: modules/ui/ml_modifier_layouts.py:115
+msgctxt "Operator"
+msgid "Shade Objects Smooth"
+msgstr "平滑着色物体"
+
+#: modules/ui/modifiers_ui.py:925
+msgctxt "Operator"
+msgid "Show Node Group"
+msgstr "显示节点组"
+
+#: modules/operators/object_toggle_view_layer_visibility.py:9
+msgctxt "Operator"
+msgid "Show/hide the object on the active view layer"
+msgstr "在活动视图层中显示/隐藏物体"
+
+#: modules/ui/ml_modifier_layouts.py:53
+msgctxt "Operator"
+msgid "Smooth"
+msgstr "平滑着色"
+
+#: modules/ui/ml_modifier_layouts.py:101
+msgctxt "Operator"
+msgid "Solid"
+msgstr "实体"
+
+#: modules/operators/preferences_sort_favorite_modifiers.py:9
+msgctxt "Operator"
+msgid "Sort Favourite Modifiers"
+msgstr "排序收藏修改器"
+
+#: modules/operators/preferences_sort_favorite_modifiers.py:10
+msgctxt "Operator"
+msgid "Sort the favourite modifiers. Also removes empty slots between favourites"
+msgstr "排序收藏修改器。同时移除收藏修改器之间的空槽位"
+
+#: modules/ui/properties_data_modifier.py:790
+msgctxt "Operator"
+msgid "Subdivide"
+msgstr "细分"
+
+#: modules/ui/properties_data_modifier.py:796
+msgctxt "Operator"
+msgid "Subdivide Linear"
+msgstr "线性细分"
+
+#: modules/ui/properties_data_modifier.py:793
+msgctxt "Operator"
+msgid "Subdivide Simple"
+msgstr "简单细分"
+
+#: modules/operators/object_sync_active_modifier_between_instances.py:9
+msgctxt "Operator"
+msgid "Synchronize Active Modifier Between Instances"
+msgstr "在实例之间同步活动修改器"
+
+#: modules/operators/object_sync_all_modifiers_between_instances.py:9
+msgctxt "Operator"
+msgid "Synchronize All Modifiers Between Instances"
+msgstr "在实例之间同步所有修改器"
+
+#: modules/operators/object_sync_all_modifiers_between_instances.py:10
+msgctxt "Operator"
+msgid "Synchronize all modifiers between instances based on the active object"
+msgstr "基于活动物体在实例之间同步所有修改器"
+
+#: modules/operators/object_sync_active_modifier_between_instances.py:10
+msgctxt "Operator"
+msgid "Synchronize the active modifier between instances based on the active object and the modifier name and type"
+msgstr "基于活动物体及修改器名称和类型，在实例之间同步活动修改器"
+
+#: modules/ui/ml_modifier_layouts.py:97
+msgctxt "Operator"
+msgid "Textured"
+msgstr "纹理"
+
+#: modules/operators/object_toggle_all_modifier_panels.py:14
+msgctxt "Operator"
+msgid "Toggle All Modifier Panels"
+msgstr "切换所有修改器面板"
+
+#: modules/operators/preferences_favourite_modifier_toggle.py:12
+msgctxt "Operator"
+msgid "Toggle Favourite Modifier"
+msgstr "切换收藏修改器"
+
+#: modules/operators/gizmo_object_toggle_visibility.py:12
+msgctxt "Operator"
+msgid "Toggle Gizmo Object Visibility"
+msgstr "切换小工具物体可见性"
+
+#: modules/operators/lattice_toggle_editmode.py:69
+#: modules/operators/lattice_toggle_editmode_prop_editor.py:76
+msgctxt "Operator"
+msgid "Toggle Lattice Edit Mode"
+msgstr "切换晶格编辑模式"
+
+#: modules/operators/object_toggle_view_layer_visibility.py:8
+msgctxt "Operator"
+msgid "Toggle Visibility"
+msgstr "切换可见性"
+
+#: modules/operators/object_toggle_all_modifiers.py:23
+msgctxt "Operator"
+msgid "Toggle Visibility Of All Modifiers"
+msgstr "切换所有修改器的可见性"
+
+#: modules/operators/preferences_favourite_modifier_toggle.py:13
+msgctxt "Operator"
+msgid "Toggle a favourite modifier"
+msgstr "切换收藏修改器"
+
+#: modules/operators/gizmo_object_toggle_visibility.py:13
+msgctxt "Operator"
+msgid "Toggle gizmo object visibility"
+msgstr "切换小工具物体可见性"
+
+#: modules/operators/lattice_toggle_editmode.py:70
+#: modules/operators/lattice_toggle_editmode_prop_editor.py:77
+msgctxt "Operator"
+msgid "Toggle lattice edit mode"
+msgstr "切换晶格编辑模式"
+
+#: modules/operators/object_toggle_all_modifiers.py:24
+msgctxt "Operator"
+msgid "Toggle the visibility of all modifiers of the selected object(s). \nThe active object must have modifiers.\"\n\nHold Shift to toggle modifiers based on current viewport on state."
+msgstr "切换所选物体所有修改器的可见性。\n活动物体必须具有修改器。\n\n按住 Shift 可根据当前视图中的启用状态切换修改器。"
+
+#: modules/ui/properties_data_modifier.py:581
+#: modules/ui/properties_data_modifier.py:671
+msgctxt "Operator"
+msgid "Unbind"
+msgstr "解除绑定"
+
+#: modules/operators/object_show_references_popup.py:156
+msgctxt "Operator"
+msgid "Unparent Object"
+msgstr "取消物体父级"
+
+#: modules/ui/properties_data_modifier.py:800
+msgctxt "Operator"
+msgid "Unsubdivide"
+msgstr "取消细分"
+
+#: modules/ui/attributes_ui.py:50
+msgctxt "Operator"
+msgid "Vertex Group"
+msgstr "顶点组"
+
+#: modules/ui/ml_modifier_layouts.py:105
+msgctxt "Operator"
+msgid "Wire"
+msgstr "线框"
+
+#: modules/operators/modifier_bake.py:10
+msgctxt "Operator"
+msgid "bake modifiers"
+msgstr "烘焙修改器"
