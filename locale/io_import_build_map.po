@@ -1,0 +1,170 @@
+# perfect-chinese: 1
+# id: io_import_build_map
+# kind: addon
+# module: bl_ext.blender_org.io_import_build_map
+# name: BUILD Map Importer
+# name_zh: BUILD地图导入
+# translator: KeshiMiao
+# category: Import-Export
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:291
+msgid "Heuristic Wall Search"
+msgstr "启发式墙壁搜索"
+
+#: __init__.py:259
+msgid "If a Priority/Mod texture folder is specified in the Add-on preferences you can use this option to enable or disable the usage of Priority/Mod textures.\nThese textures will take priority over the normal Texture folder"
+msgstr "如果在插件偏好设置中指定了优先/Mod 纹理文件夹，你可以使用此选项启用或禁用优先/Mod 纹理。\n这些纹理会优先于普通纹理文件夹"
+
+#: __init__.py:282
+msgid "If enabled, additional shader nodes will be created in materials to add procedural details.\nThis works best with \"Pixel Shading\" disabled"
+msgstr "如果启用，将在材质中创建额外的着色器节点以添加程序化细节。\n在禁用“像素着色”时效果最佳"
+
+#: __init__.py:243
+msgid "If enabled, floors and ceilings with parallaxing enabled and associated walls will be split off into separate objects and sorted into the \"Sky\" collection"
+msgstr "如果启用，启用了视差效果的地板和天花板及关联墙壁将被拆分为独立物体，并归类到“天空”集合中"
+
+#: __init__.py:269
+msgid "If enabled, materials that already exist in the blend file, having the same name as this Add-on would create, will be reused instead of creating new ones.\nIf disabled, new materials will be created with a suffix"
+msgstr "如果启用，blend 文件中已存在且与此插件将创建的材质同名的材质将被复用，而不是创建新材质。\n如果禁用，将使用后缀创建新材质"
+
+#: __init__.py:278
+msgid "If enabled, textures will render with hard pixel edges instead of interpolation"
+msgstr "如果启用，纹理渲染时将使用硬像素边缘而非插值"
+
+#: __init__.py:264
+msgid "If enabled, the Add-on will first search for .png and .jpg files, prioritizing them over native game .art files.\nThis is not encouraged because native game .art files offer additional meta information used e.g. for correct sprite offsets"
+msgstr "如果启用，插件将首先搜索 .png 和 .jpg 文件，并优先于游戏原生 .art 文件。\n不推荐这样做，因为游戏原生 .art 文件提供额外的元信息，例如用于正确的精灵偏移"
+
+#: __init__.py:233
+msgid "If enabled, the floor and ceiling of every sector will be split off into separate objects.\nThis is necessary to import custom properties from BUILD-Map structures for sectors"
+msgstr "如果启用，每个扇区的天花板和地板将被拆分为独立物体。\n这是从 BUILD 地图结构中导入扇区自定义属性所必需的"
+
+#: __init__.py:287
+msgid "If enabled, use back-face culling in created materials to hide the back side of faces"
+msgstr "如果启用，在创建的材质中使用背面剔除以隐藏面的背面"
+
+#: __init__.py:238
+msgid "If enabled, walls will be split off into separate objects.\nThis is necessary to import custom properties from BUILD-Map structures for walls"
+msgstr "如果启用，墙壁将被拆分为独立物体。\n这是从 BUILD 地图结构中导入墙壁自定义属性所必需的"
+
+#: __init__.py:296
+msgid "If you encounter a corrupted map that gives you errors where for example the number of walls appears incorrect, you can try this option.\nThe importer will try to skip corrupted parts of the map.\nNo guarantee for success, though"
+msgstr "如果遇到损坏的地图并报错，例如墙壁数量看起来不正确，可以尝试此选项。\n导入器将尝试跳过地图中损坏的部分。\n但不保证成功"
+
+#: __init__.py:296
+msgid "Ignore Map Errors"
+msgstr "忽略地图错误"
+
+#: __init__.py:21
+msgid "Import BUILD Map format"
+msgstr "导入 BUILD 地图格式"
+
+#: __init__.py:21
+msgid "Import geometry and materials from a BUILD Map file."
+msgstr "从 BUILD 地图文件导入几何体和材质。"
+
+#: __init__.py:21
+msgid "Import-Export"
+msgstr "导入-导出"
+
+#: __init__.py:347
+msgid "No Texture Folder specified for this map type. Materials will be black. Specify in: Edit > Preferences > Add-ons > Import-Export: Import BUILD Map format"
+msgstr "未为此地图类型指定纹理文件夹。材质将显示为黑色。请在以下位置指定：编辑 > 偏好设置 > 插件 > 导入-导出：导入 BUILD 地图格式"
+
+#: __init__.py:229
+msgid "Object Prefix"
+msgstr "物体前缀"
+
+#: __init__.py:278
+msgid "Pixel Shading"
+msgstr "像素着色"
+
+#: __init__.py:264
+msgid "Prioritize .png/.jpg files"
+msgstr "优先使用 .png/.jpg 文件"
+
+#: __init__.py:282
+msgid "Procedural Material Effects"
+msgstr "程序化材质效果"
+
+#: __init__.py:269
+msgid "Reuse Materials"
+msgstr "复用材质"
+
+#: __init__.py:274
+msgid "Save Ceiling, Floor, Wall and Sprite Shade values as Vertex Color Attributes and use those in created Materials"
+msgstr "将天花板、地板、墙壁和精灵的明暗值保存为顶点颜色属性，并在创建的材质中使用它们"
+
+#: __init__.py:247
+msgid "Scale Sprites as in Game"
+msgstr "按游戏内比例缩放精灵"
+
+#: __init__.py:252
+msgid "Separate wall sprites from walls as specified by this offset.\nThis is useful to avoid Z-fighting.\nA small offset like 0.01 m is enough in many cases"
+msgstr "按此偏移将墙壁精灵与墙壁分离。\n这有助于避免深度冲突（Z-fighting）。\n许多情况下 0.01 米这样的小偏移就足够了"
+
+#: __init__.py:274
+msgid "Shade to Vertex Colors"
+msgstr "明暗转为顶点颜色"
+
+#: __init__.py:247
+msgid "Some special sprites (e.g. weapons and ammo) can have a different scale in game compared to map editors.\nIf this option is enabled, the importer will try to scale them as they appear in game"
+msgstr "某些特殊精灵（例如武器和弹药）在游戏中的比例可能与地图编辑器中不同。\n如果启用此选项，导入器将尝试按它们在游戏中的样子进行缩放"
+
+#: __init__.py:233
+msgid "Split Sectors"
+msgstr "拆分扇区"
+
+#: __init__.py:243
+msgid "Split Sky"
+msgstr "拆分天空"
+
+#: __init__.py:238
+msgid "Split Walls"
+msgstr "拆分墙壁"
+
+#: __init__.py:229
+msgid "This option specifies a prefix that will be used in the name of every imported object"
+msgstr "此选项指定一个前缀，将用于每个导入物体的名称"
+
+#: __init__.py:291
+msgid "Try to find neighboring walls between sectors based on their position.\nThis might fix errors in the map but can also introduce errors"
+msgstr "尝试根据位置查找扇区之间的相邻墙壁。\n这可能修复地图中的错误，但也可能引入错误"
+
+#: __init__.py:287
+msgid "Use Back Face Culling"
+msgstr "使用背面剔除"
+
+#: __init__.py:259
+msgid "Use Priority/Mod Folder"
+msgstr "使用优先/Mod 文件夹"
+
+#: __init__.py:252
+msgid "Wall Sprite Offset"
+msgstr "墙壁精灵偏移"
+
+#: __init__.py:389
+msgctxt "Operator"
+msgid "BUILD Map (.map)"
+msgstr "BUILD 地图 (.map)"
+
+#: __init__.py:210
+msgctxt "Operator"
+msgid "Get an example map and textures from the latest GitHub Release"
+msgstr "从最新的 GitHub 发行版获取示例地图和纹理"
+
+#: __init__.py:220
+msgctxt "Operator"
+msgid "Import BUILD Map"
+msgstr "导入 BUILD 地图"
+
+#: __init__.py:221
+msgctxt "Operator"
+msgid "Import a BUILD Map"
+msgstr "导入 BUILD 地图"

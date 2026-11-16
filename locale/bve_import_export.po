@@ -1,0 +1,256 @@
+# perfect-chinese: 1
+# id: bve_import_export
+# kind: addon
+# module: bl_ext.blender_org.bve_import_export
+# name: BVE Import/Export
+# name_zh: BVE导入导出
+# translator: KeshiMiao
+# category: Import-Export
+# supported_versions: >=4.3.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: types.py:37
+msgid "Additive"
+msgstr "叠加"
+
+#: direct_x.py:998
+msgid "Binary"
+msgstr "二进制"
+
+#: direct_x.py:999
+msgid "Binary + Compress"
+msgstr "二进制 + 压缩"
+
+#: direct_x.py:998
+msgid "Binary mode"
+msgstr "二进制模式"
+
+#: types.py:33
+msgid "Blend mode"
+msgstr "混合模式"
+
+#: direct_x.py:999
+msgid "Compressed binary mode"
+msgstr "压缩二进制模式"
+
+#: export_csv.py:41
+#: types.py:71
+msgid "Decal transparent color"
+msgstr "贴花透明色"
+
+#: types.py:52
+msgid "DivideExponent2"
+msgstr "除以指数2"
+
+#: types.py:57
+msgid "DivideExponent4"
+msgstr "除以指数4"
+
+#: types.py:23
+msgid "Enable cross-fading"
+msgstr "启用交叉淡化"
+
+#: direct_x.py:1004
+msgid "Export material name"
+msgstr "导出材质名称"
+
+#: direct_x.py:1014
+msgid "Export only necessary data"
+msgstr "仅导出必要数据"
+
+#: direct_x.py:1009
+#: export_csv.py:31
+msgid "Export only selected objects"
+msgstr "仅导出选中物体"
+
+#: direct_x.py:213
+#: direct_x.py:1019
+msgid "Gamma correction"
+msgstr "伽马校正"
+
+#: model_data_utility.py:282
+msgid "Gamma correction is not 2.2"
+msgstr "伽马校正不是 2.2"
+
+#: types.py:49
+msgid "Glow attenuation mode"
+msgstr "辉光衰减模式"
+
+#: types.py:42
+msgid "Glow half distance"
+msgstr "辉光半距"
+
+#: direct_x.py:1024
+#: export_csv_openbve.py:57
+msgid "Multiply emissive color by emissive power"
+msgstr "自发光颜色乘以自发光强度"
+
+#: types.py:78
+msgid "Nighttime texture"
+msgstr "夜间纹理"
+
+#: types.py:36
+msgid "Normal"
+msgstr "法线"
+
+#: types.py:14
+msgid "OpenBVE CSV Properties"
+msgstr "OpenBVE CSV 属性"
+
+#: direct_x.py:995
+msgid "Output mode"
+msgstr "输出模式"
+
+#: model_data_utility.py:154
+#: model_data_utility.py:245
+msgid "Principled BSDF node not found in material:"
+msgstr "在材质中未找到 Principled BSDF 节点："
+
+#: direct_x.py:206
+msgid "Remove All Objects and Materials"
+msgstr "移除所有物体和材质"
+
+#: direct_x.py:211
+#: direct_x.py:990
+msgid "Scale"
+msgstr "缩放"
+
+#: direct_x.py:997
+msgid "Text"
+msgstr "文本"
+
+#: direct_x.py:997
+msgid "Text mode"
+msgstr "文本模式"
+
+#: types.py:37
+msgid "The faces are rendered additively."
+msgstr "面以叠加方式渲染。"
+
+#: types.py:36
+msgid "The faces are rendered normally."
+msgstr "面以正常方式渲染。"
+
+#: types.py:52
+msgid "The glow intensity is determined via the function x2 / (x2 + GlowHalfDistance2), where x is the distance from the camera to the object in meters."
+msgstr "辉光强度由函数 x² / (x² + GlowHalfDistance²) 决定，其中 x 是相机到物体的距离（米）。"
+
+#: types.py:57
+msgid "The glow intensity is determined via the function x4 / (x4 + GlowHalfDistance4), where x is the distance from the camera to the object in meters."
+msgstr "辉光强度由函数 x⁴ / (x⁴ + GlowHalfDistance⁴) 决定，其中 x 是相机到物体的距离（米）。"
+
+#: direct_x.py:900
+msgid "This file is not X file!"
+msgstr "此文件不是 X 文件！"
+
+#: export_csv_openbve.py:45
+msgid "This is useful when you want to use a relative path"
+msgstr "当你希望使用相对路径时很有用"
+
+#: direct_x.py:930
+msgid "Unexpected compressed block magic!"
+msgstr "意外的压缩块标识！"
+
+#: direct_x.py:924
+msgid "Unexpected compressed block size!"
+msgstr "意外的压缩块大小！"
+
+#: export_csv_openbve.py:51
+#: types.py:18
+msgid "Use AddFace2"
+msgstr "使用 AddFace2"
+
+#: export_csv_openbve.py:51
+msgid "Use AddFace2 instead of AddFace"
+msgstr "使用 AddFace2 而非 AddFace"
+
+#: types.py:28
+msgid "Use blend mode"
+msgstr "使用混合模式"
+
+#: types.py:66
+msgid "Use decal transparent color"
+msgstr "使用贴花透明色"
+
+#: direct_x.py:1024
+#: export_csv_openbve.py:57
+msgid "Use emissive power"
+msgstr "使用自发光强度"
+
+#: export_csv_openbve.py:45
+msgid "Use texture name instead of texture path"
+msgstr "使用纹理名称而非纹理路径"
+
+#: direct_x.py:981
+#: export_csv.py:17
+msgid "export file"
+msgstr "导出文件"
+
+#: direct_x.py:197
+msgid "input file"
+msgstr "输入文件"
+
+#: __init__.py:80
+msgctxt "Operator"
+msgid "CSV (.csv) for BVE"
+msgstr "BVE CSV (.csv)"
+
+#: __init__.py:81
+msgctxt "Operator"
+msgid "CSV (.csv) for OpenBVE"
+msgstr "OpenBVE CSV (.csv)"
+
+#: __init__.py:71
+#: __init__.py:77
+msgctxt "Operator"
+msgid "DirectX XFile (.x) for BVE"
+msgstr "BVE DirectX XFile (.x)"
+
+#: export_csv.py:12
+msgctxt "Operator"
+msgid "Export BVE CSV File"
+msgstr "导出 BVE CSV 文件"
+
+#: direct_x.py:976
+msgctxt "Operator"
+msgid "Export DirectX X File"
+msgstr "导出 DirectX X 文件"
+
+#: export_csv_openbve.py:16
+msgctxt "Operator"
+msgid "Export OpenBVE CSV File"
+msgstr "导出 OpenBVE CSV 文件"
+
+#: export_csv.py:11
+msgctxt "Operator"
+msgid "Export to BVE CSV file (.csv)"
+msgstr "导出为 BVE CSV 文件 (.csv)"
+
+#: export_csv_openbve.py:15
+msgctxt "Operator"
+msgid "Export to OpenBVE CSV file (.csv)"
+msgstr "导出为 OpenBVE CSV 文件 (.csv)"
+
+#: direct_x.py:975
+msgctxt "Operator"
+msgid "Export to X file (.x)"
+msgstr "导出为 X 文件 (.x)"
+
+#: direct_x.py:192
+msgctxt "Operator"
+msgid "Import DirectX X File"
+msgstr "导入 DirectX X 文件"
+
+#: direct_x.py:191
+msgctxt "Operator"
+msgid "Import from X file (.x)"
+msgstr "从 X 文件导入 (.x)"
+
+#: __init__.py:86
+msgctxt "Operator"
+msgid "OpenBVE CSV Properties"
+msgstr "OpenBVE CSV 属性"

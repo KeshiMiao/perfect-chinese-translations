@@ -1,0 +1,378 @@
+# perfect-chinese: 1
+# id: easy_print
+# kind: addon
+# module: bl_ext.blender_org.easy_print
+# name: Easy-Print
+# name_zh: 易打印
+# translator: KeshiMiao
+# category: Modeling
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:68
+msgid "+X"
+msgstr "+X"
+
+#: __init__.py:70
+msgid "+Y"
+msgstr "+Y"
+
+#: __init__.py:72
+msgid "+Z"
+msgstr "+Z"
+
+#: __init__.py:69
+msgid "-X"
+msgstr "-X"
+
+#: __init__.py:71
+msgid "-Y"
+msgstr "-Y"
+
+#: __init__.py:73
+msgid "-Z"
+msgstr "-Z"
+
+#: panels/main_panel.py:37
+msgid "1 · Cut"
+msgstr "1 · 切割"
+
+#: panels/main_panel.py:47
+msgid "2 · Connectors"
+msgstr "2 · 连接件"
+
+#: __init__.py:1
+msgid "3D View"
+msgstr "3D 视图"
+
+#: __init__.py:80
+msgid "Actual Normal"
+msgstr "实际法向"
+
+#: __init__.py:80
+msgid "Actual cut-plane normal from last interactive cut"
+msgstr "上次交互切割的实际切割平面法向"
+
+#: operators/connector_op.py:297
+msgid "Cancelled."
+msgstr "已取消。"
+
+#: __init__.py:130
+msgid "Clearance (mm)"
+msgstr "间隙 (mm)"
+
+#: operators/connector_op.py:306
+msgid "Click a valid curved separator area before confirming."
+msgstr "确认前请点击有效的曲面分隔区域。"
+
+#: operators/connector_op.py:159
+msgid "Complete a cut first or select exactly 2 mesh objects."
+msgstr "请先完成切割，或精确选择 2 个网格物体。"
+
+#: __init__.py:99
+msgid "Connector geometry preset"
+msgstr "连接件几何预设"
+
+#: operators/connector_op.py:273
+msgid "Connector preview failed; inputs were preserved."
+msgstr "连接件预览失败；输入已保留。"
+
+#: operators/connector_op.py:326
+msgid "Connector preview is invalid; source objects retained."
+msgstr "连接件预览无效；源物体已保留。"
+
+#: operators/connector_op.py:317
+msgid "Connector preview is stale; regenerate successfully before confirming."
+msgstr "连接件预览已过期；请成功重新生成后再确认。"
+
+#: operators/connector_op.py:240
+msgid "Connector preview ready."
+msgstr "连接件预览已就绪。"
+
+#: __init__.py:112
+msgid "Connector width / diameter (mm; 0 = auto; explicit values must be at least 2 mm)"
+msgstr "连接件宽度/直径 (mm；0 = 自动；显式值至少为 2 mm)"
+
+#: __init__.py:141
+msgid "Count"
+msgstr "数量"
+
+#: panels/main_panel.py:40
+msgid "Ctrl while dragging = snap to 5°"
+msgstr "拖动时按住 Ctrl = 吸附到 5°"
+
+#: __init__.py:74
+msgid "Custom"
+msgstr "自定义"
+
+#: panels/main_panel.py:74
+msgid "Cut a model first"
+msgstr "请先切割模型"
+
+#: operators/cut_op.py:503
+msgid "Cut cancelled."
+msgstr "切割已取消。"
+
+#: __init__.py:1
+msgid "Cut models and generate interlocking connectors for 3D printing"
+msgstr "切割模型并生成用于 3D 打印的互锁连接件"
+
+#: __init__.py:68
+msgid "Cut perpendicular to +X axis"
+msgstr "垂直于 +X 轴切割"
+
+#: __init__.py:70
+msgid "Cut perpendicular to +Y axis"
+msgstr "垂直于 +Y 轴切割"
+
+#: __init__.py:72
+msgid "Cut perpendicular to +Z axis"
+msgstr "垂直于 +Z 轴切割"
+
+#: __init__.py:69
+msgid "Cut perpendicular to -X axis"
+msgstr "垂直于 -X 轴切割"
+
+#: __init__.py:71
+msgid "Cut perpendicular to -Y axis"
+msgstr "垂直于 -Y 轴切割"
+
+#: __init__.py:73
+msgid "Cut perpendicular to -Z axis"
+msgstr "垂直于 -Z 轴切割"
+
+#: operators/connector_op.py:320
+msgid "Cut session changed; preview must be regenerated."
+msgstr "切割会话已更改；必须重新生成预览。"
+
+#: __init__.py:103
+msgid "Cylindrical peg and matching hole"
+msgstr "圆柱销与匹配孔"
+
+#: __init__.py:64
+msgid "Default cut-plane normal direction"
+msgstr "默认切割平面法向方向"
+
+#: __init__.py:104
+msgid "Dovetail"
+msgstr "燕尾榫"
+
+#: operators/cut_op.py:260
+msgid "Drag line on object. Release → hover face → click."
+msgstr "在物体上拖动直线。释放 → 悬停面 → 单击。"
+
+#: panels/main_panel.py:39
+msgid "Drag line → hover section → click to extract"
+msgstr "拖动直线 → 悬停截面 → 单击提取"
+
+#: __init__.py:1
+#: panels/main_panel.py:9
+msgid "Easy-Print"
+msgstr "Easy-Print"
+
+#: __init__.py:238
+msgid "Easy-Print Settings"
+msgstr "Easy-Print 设置"
+
+#: operators/cut_op.py:447
+msgid "Extraction failed."
+msgstr "提取失败。"
+
+#: __init__.py:159
+msgid "Flip Male/Female"
+msgstr "翻转公/母"
+
+#: __init__.py:197
+msgid "Hand"
+msgstr "旋向"
+
+#: __init__.py:121
+msgid "Height (mm)"
+msgstr "高度 (mm)"
+
+#: __init__.py:212
+msgid "ISO 60°"
+msgstr "ISO 60°"
+
+#: __init__.py:211
+msgid "Industrial trapezoidal (Tr/ACME) thread"
+msgstr "工业梯形 (Tr/ACME) 螺纹"
+
+#: __init__.py:87
+msgid "Inset"
+msgstr "内缩"
+
+#: __init__.py:202
+msgid "Left"
+msgstr "左"
+
+#: __init__.py:202
+msgid "Left-hand thread"
+msgstr "左旋螺纹"
+
+#: __init__.py:56
+msgid "Location"
+msgstr "位置"
+
+#: __init__.py:181
+msgid "Major Dia (m)"
+msgstr "大径 (m)"
+
+#: __init__.py:150
+msgid "Margin (mm)"
+msgstr "边距 (mm)"
+
+#: __init__.py:212
+msgid "Metric-style V thread"
+msgstr "公制 V 形螺纹"
+
+#: __init__.py:150
+msgid "Minimum distance from cut surface edge (mm)"
+msgstr "距切割面边缘的最小距离 (mm)"
+
+#: operators/cut_op.py:294
+msgid "No closed cut faces. Try a different angle."
+msgstr "没有封闭的切割面。请尝试其他角度。"
+
+#: operators/cut_op.py:418
+msgid "No face selected."
+msgstr "未选择面。"
+
+#: __init__.py:64
+msgid "Normal"
+msgstr "法向"
+
+#: __init__.py:141
+msgid "Number of connectors (-1 = auto, based on surface area)"
+msgstr "连接件数量 (-1 = 自动，基于表面积)"
+
+#: panels/main_panel.py:72
+msgid "Pair ready"
+msgstr "配对已就绪"
+
+#: __init__.py:103
+msgid "Peg & Hole"
+msgstr "销与孔"
+
+#: __init__.py:207
+msgid "Profile"
+msgstr "轮廓"
+
+#: __init__.py:121
+msgid "Protrusion / recess depth (mm; 0 = auto; explicit values must be at least 2 mm)"
+msgstr "凸出/凹陷深度 (mm；0 = 自动；显式值至少为 2 mm)"
+
+#: __init__.py:105
+msgid "Rectangular tab and slot"
+msgstr "矩形凸舌与槽"
+
+#: __init__.py:201
+msgid "Right"
+msgstr "右"
+
+#: __init__.py:201
+msgid "Right-hand thread"
+msgstr "右旋螺纹"
+
+#: operators/connector_op.py:152
+msgid "SURFACE_LOOP session metadata is invalid or unavailable."
+msgstr "SURFACE_LOOP 会话元数据无效或不可用。"
+
+#: operators/cut_op.py:227
+msgid "Select a mesh object first."
+msgstr "请先选择网格物体。"
+
+#: __init__.py:130
+msgid "Single-sided physical clearance in millimeters"
+msgstr "单侧物理间隙，单位为毫米"
+
+#: __init__.py:112
+msgid "Size (mm)"
+msgstr "尺寸 (mm)"
+
+#: __init__.py:104
+msgid "Sliding dovetail joint"
+msgstr "滑动燕尾榫接"
+
+#: __init__.py:159
+msgid "Swap which half receives the male (protruding) connector"
+msgstr "交换哪一半接收公（凸出）连接件"
+
+#: __init__.py:105
+msgid "Tab & Slot"
+msgstr "凸舌与槽"
+
+#: __init__.py:165
+msgid "Taper Angle"
+msgstr "锥角"
+
+#: __init__.py:87
+msgid "Thickness of material removed along the cut plane (0 = no inset)"
+msgstr "沿切割平面去除的材料厚度 (0 = 无内缩)"
+
+#: __init__.py:189
+msgid "Thread Length (m)"
+msgstr "螺纹长度 (m)"
+
+#: __init__.py:173
+msgid "Thread Pitch (m)"
+msgstr "螺距 (m)"
+
+#: __init__.py:189
+msgid "Thread length (meters; 0 = auto from surface size)"
+msgstr "螺纹长度（米；0 = 根据表面尺寸自动）"
+
+#: __init__.py:181
+msgid "Thread major diameter (meters; 0 = auto from surface size)"
+msgstr "螺纹大径（米；0 = 根据表面尺寸自动）"
+
+#: __init__.py:173
+msgid "Thread pitch (meters; 0 = auto from surface size)"
+msgstr "螺距（米；0 = 根据表面尺寸自动）"
+
+#: __init__.py:211
+msgid "Trapezoidal"
+msgstr "梯形"
+
+#: __init__.py:99
+#: panels/main_panel.py:51
+msgid "Type"
+msgstr "类型"
+
+#: __init__.py:74
+msgid "Use custom normal (set via interactive cut)"
+msgstr "使用自定义法线（通过交互切割设置）"
+
+#: panels/main_panel.py:75
+msgid "Wheel=height · Shift+Wheel=size · F=flip"
+msgstr "滚轮=高度 · Shift+滚轮=大小 · F=翻转"
+
+#: __init__.py:56
+msgid "World-space origin of the cut plane (updated by interactive cut)"
+msgstr "切割平面的世界空间原点（由交互切割更新）"
+
+#: operators/cut_op.py:190
+#: panels/main_panel.py:38
+msgctxt "Operator"
+msgid "Cut Model"
+msgstr "切割模型"
+
+#: operators/cut_op.py:191
+msgctxt "Operator"
+msgid "Drag a line on the object to define a cutting plane. Hover over a closed cut face, then click to extract that region."
+msgstr "在物体上拖出一条线以定义切割平面。将光标悬停在封闭的切割面上，然后点击以提取该区域。"
+
+#: operators/connector_op.py:124
+#: panels/main_panel.py:66
+msgctxt "Operator"
+msgid "Generate Connectors"
+msgstr "生成连接件"
+
+#: operators/connector_op.py:125
+msgctxt "Operator"
+msgid "Generate connectors, then scroll to adjust depth/size."
+msgstr "生成连接件，然后滚动以调整深度/大小。"

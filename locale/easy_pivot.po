@@ -1,0 +1,201 @@
+# perfect-chinese: 1
+# id: easy_pivot
+# kind: addon
+# module: bl_ext.blender_org.easy_pivot
+# name: Easy Pivot
+# name_zh: 简易轴心
+# translator: KeshiMiao
+# category: Modeling
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:75
+msgid "' (Quote)"
+msgstr "'（引号）"
+
+#: __init__.py:77
+msgid ", (Comma)"
+msgstr "，（逗号）"
+
+#: __init__.py:78
+msgid ". (Period)"
+msgstr "。（句号）"
+
+#: __init__.py:76
+msgid "/ (Slash)"
+msgstr "/（斜杠）"
+
+#: __init__.py:74
+msgid "; (Semicolon)"
+msgstr "；（分号）"
+
+#: __init__.py:110
+msgid "Also set Transform Orientation to 'Cursor' on confirm"
+msgstr "确认时同时将变换方向设为「游标」"
+
+#: __init__.py:95
+msgid "Alt"
+msgstr "Alt"
+
+#: __init__.py:69
+msgid "B"
+msgstr "B"
+
+#: __init__.py:66
+msgid "Classic pivot-editing key"
+msgstr "经典枢轴编辑按键"
+
+#: __init__.py:93
+msgid "Ctrl"
+msgstr "Ctrl"
+
+#: __init__.py:1220
+msgid "Current state:"
+msgstr "当前状态："
+
+#: __init__.py:65
+msgid "D"
+msgstr "D"
+
+#: __init__.py:65
+msgid "Default (overrides Annotate)"
+msgstr "默认（覆盖「标注」）"
+
+#: __init__.py:1187
+msgid "Easy Pivot"
+msgstr "Easy Pivot"
+
+#: __init__.py:80
+msgid "End"
+msgstr "End"
+
+#: __init__.py:67
+msgid "F"
+msgstr "F"
+
+#: __init__.py:105
+msgid "Gizmo Size"
+msgstr "控件大小"
+
+#: __init__.py:114
+msgid "Hold Threshold (s)"
+msgstr "长按阈值（秒）"
+
+#: __init__.py:114
+msgid "Holding the hotkey longer than this and releasing confirms the mode"
+msgstr "按住快捷键超过此时间后松开即确认该模式"
+
+#: __init__.py:79
+msgid "Home"
+msgstr "Home"
+
+#: __init__.py:87
+#: __init__.py:136
+msgid "Hotkey"
+msgstr "快捷键"
+
+#: __init__.py:125
+msgid "In Edit Mode, read the live cage so snapping follows unsaved edits. Read-only access inside this addon's own blocking modal; disable if another addon's modal operator ever conflicts"
+msgstr "在编辑模式下读取实时框架网格，使吸附跟随未保存的编辑。仅在本插件自身的阻塞模态中只读访问；若其他插件的模态操作符发生冲突，请禁用"
+
+#: __init__.py:66
+msgid "Insert"
+msgstr "Insert"
+
+#: __init__.py:87
+msgid "Key that toggles Pivot Edit Mode (tap) / holds it (hold)"
+msgstr "切换枢轴编辑模式（轻按）/ 保持（长按）的按键"
+
+#: __init__.py:119
+msgid "OFF (default): snap to the original/cage vertices you actually see (correct for Subsurf workflows). ON: snap to the dense evaluated mesh"
+msgstr "关闭（默认）：吸附到实际可见的原始/框架顶点（适合细分曲面工作流）。开启：吸附到密集的求值网格"
+
+#: __init__.py:1222
+msgid "Orient"
+msgstr "方向"
+
+#: __init__.py:1190
+#: __init__.py:1221
+msgid "Pivot"
+msgstr "枢轴"
+
+#: __init__.py:125
+msgid "Read live edit-mode geometry"
+msgstr "读取实时编辑模式几何体"
+
+#: __init__.py:1150
+msgid "Reset 3D Cursor to world origin"
+msgstr "将 3D 游标重置到世界原点"
+
+#: __init__.py:100
+msgid "Screen-space radius used by Auto snap to prefer vertices/edges"
+msgstr "自动吸附用于优先选择顶点/边的屏幕空间半径"
+
+#: __init__.py:97
+msgid "Shift"
+msgstr "Shift"
+
+#: __init__.py:100
+msgid "Snap Radius (px)"
+msgstr "吸附半径（像素）"
+
+#: __init__.py:119
+msgid "Snap to modifier result (evaluated geometry)"
+msgstr "吸附到修改器结果（求值几何体）"
+
+#: __init__.py:70
+msgid "T"
+msgstr "T"
+
+#: __init__.py:150
+msgid "The hotkey applies inside the 3D Viewport, Object / Mesh Edit mode only (default D overrides Annotate)."
+msgstr "该快捷键仅在 3D 视图的物体/网格编辑模式下生效（默认 D 会覆盖「标注」）。"
+
+#: __init__.py:72
+msgid "U"
+msgstr "U"
+
+#: __init__.py:68
+msgid "V"
+msgstr "V"
+
+#: __init__.py:105
+msgid "World-space size of the pivot preview axes"
+msgstr "枢轴预览坐标轴的世界空间大小"
+
+#: __init__.py:71
+msgid "Y"
+msgstr "Y"
+
+#: __init__.py:73
+msgid "` (Backtick)"
+msgstr "`（反引号）"
+
+#: __init__.py:470
+msgctxt "Operator"
+msgid "Edit Pivot"
+msgstr "编辑枢轴"
+
+#: __init__.py:1101
+msgctxt "Operator"
+msgid "Origin to Pivot"
+msgstr "原点移至枢轴"
+
+#: __init__.py:1165
+msgctxt "Operator"
+msgid "Pivot to Active Object"
+msgstr "枢轴移至活动物体"
+
+#: __init__.py:1213
+msgctxt "Operator"
+msgid "Reset Origin"
+msgstr "重置原点"
+
+#: __init__.py:1147
+msgctxt "Operator"
+msgid "Reset Pivot"
+msgstr "重置枢轴"

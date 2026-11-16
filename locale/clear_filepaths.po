@@ -1,0 +1,28 @@
+# perfect-chinese: 1
+# id: clear_filepaths
+# kind: addon
+# module: bl_ext.blender_org.clear_filepaths
+# name: Clear Filepaths
+# name_zh: 清除文件路径
+# translator: KeshiMiao
+# category: System
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: clear-blender-filepaths/__init__.py:28
+msgid "Cannot run. You need to save the file first"
+msgstr "无法运行。你需要先保存文件"
+
+#: clear-blender-filepaths/__init__.py:13
+msgctxt "Operator"
+msgid "Clear Filepaths and Close Blender"
+msgstr "清除文件路径并关闭 Blender"
+
+#: clear-blender-filepaths/__init__.py:15
+msgctxt "Operator"
+msgid "Save an uncompressed copy of the current file with personal filepaths cleared like\n\"C:\\Users\\my username\\Embarassing folder name\\\", and\n\"D:\\Personal stuff\\Oh my gosh I can't believe this was saved to that blend file I put on Gumroad\\\"\nThe new file will be saved with the current filename + \"_cleaned\" at the end. Blender will close once the cleaned file is saved to prevent it from being overwritten. A text file with the cleared filepaths will also be saved"
+msgstr "保存当前文件的未压缩副本，并清除其中的个人文件路径，例如\n\"C:\\Users\\my username\\Embarassing folder name\\\" 和\n\"D:\\Personal stuff\\Oh my gosh I can't believe this was saved to that blend file I put on Gumroad\\\"\n新文件将以当前文件名加上 \"_cleaned\" 后缀保存。为避免被覆盖，清理后的文件保存完成后 Blender 将关闭。同时还会保存一个包含已清除文件路径的文本文件"

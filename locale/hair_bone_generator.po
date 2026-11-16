@@ -1,0 +1,258 @@
+# perfect-chinese: 1
+# id: hair_bone_generator
+# kind: addon
+# module: bl_ext.blender_org.hair_bone_generator
+# name: Hair Bone Generator
+# name_zh: 头发骨骼生成
+# translator: KeshiMiao
+# category: Rigging
+# supported_versions: >=4.5.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: panel.py:98
+msgid "Advanced"
+msgstr "高级"
+
+#: settings.py:79
+msgid "Advanced: set the generation range by hand"
+msgstr "高级：手动设置生成范围"
+
+#: operators.py:549
+msgid "Also build the exact mirror image of this Chain on the other side of the character, as Symmetrize would. Press it again to remove that other side"
+msgstr "在角色另一侧为本链构建精确的镜像副本，效果与对称化相同。再次点击可移除另一侧"
+
+#: settings.py:103
+msgid "Always follow the shape of the hair between the two ends"
+msgstr "始终沿两端之间头发的形状"
+
+#: panel.py:177
+#: settings.py:96
+msgid "Auto"
+msgstr "自动"
+
+#: operators.py:1162
+msgid "Blender could not create the requested Hair Chain names exactly."
+msgstr "Blender 无法准确创建所请求的发链名称。"
+
+#: operators.py:614
+msgid "Bone"
+msgstr "骨骼"
+
+#: operators.py:467
+msgid "Bone Count"
+msgstr "骨骼数量"
+
+#: operators.py:468
+msgid "Bone Coverage"
+msgstr "骨骼覆盖"
+
+#: operators.py:466
+#: operators.py:611
+msgid "Chain Name"
+msgstr "链名称"
+
+#: operators.py:527
+msgid "Chain Roll"
+msgstr "链滚转"
+
+#: operators.py:616
+msgid "Count"
+msgstr "数量"
+
+#: operators.py:617
+msgid "Coverage"
+msgstr "覆盖"
+
+#: operators.py:625
+msgid "Depth"
+msgstr "深度"
+
+#: panel.py:208
+msgid "FOLLOW"
+msgstr "跟随"
+
+#: panel.py:208
+msgid "Follow Strand"
+msgstr "跟随发丝"
+
+#: settings.py:103
+msgid "Follow the Hair"
+msgstr "跟随头发"
+
+#: settings.py:96
+msgid "Follow the hair when both ends sit on one connected piece of mesh, and stay as straight as the selected hair allows when they sit on separate pieces"
+msgstr "当两端位于同一块相连网格上时跟随头发；当两端位于不同网格块上时，在所选头发允许的范围内保持笔直"
+
+#: panel.py:79
+msgid "Generate Hair Chain"
+msgstr "生成发链"
+
+#: panel.py:195
+msgid "Generation Method"
+msgstr "生成方式"
+
+#: settings.py:89
+msgid "Guide Path"
+msgstr "引导路径"
+
+#: panel.py:13
+msgid "Hair Bone Generator"
+msgstr "头发骨骼生成器"
+
+#: panel.py:17
+msgid "Hair Rig"
+msgstr "头发绑定"
+
+#: operators.py:623
+#: panel.py:150
+msgid "Hair Root"
+msgstr "发根"
+
+#: operators.py:475
+msgid "Hair Root Depth"
+msgstr "发根深度"
+
+#: operators.py:488
+msgid "Hair Root Sideways"
+msgstr "发根侧向"
+
+#: panel.py:113
+msgid "Hair Tip"
+msgstr "发梢"
+
+#: operators.py:501
+msgid "Hair Tip Depth"
+msgstr "发梢深度"
+
+#: operators.py:514
+msgid "Hair Tip Sideways"
+msgstr "发梢侧向"
+
+#: settings.py:89
+msgid "How the Guide travels between the Hair Root and Hair Tip you recorded by hand"
+msgstr "引导线在手动记录的发根与发梢之间的行进方式"
+
+#: panel.py:237
+msgid "Mirror"
+msgstr "镜像"
+
+#: operators.py:549
+#: operators.py:631
+msgid "Mirror to Other Side"
+msgstr "镜像到另一侧"
+
+#: settings.py:75
+msgid "Name of this Hair Chain"
+msgstr "此发链的名称"
+
+#: settings.py:79
+msgid "Not normally needed. When the automatic range is not what you wanted, record the Hair Root and Hair Tip by hand and generate again"
+msgstr "通常不需要。当自动范围不符合预期时，手动记录发根和发梢后再次生成"
+
+#: operators.py:488
+#: operators.py:514
+msgid "Push this end of the Chain across the strand, at right angles to both the Chain and its outward direction, as a share of the strand's radius there. 0 leaves it where the solver put it"
+msgstr "将链的这一端沿发丝横向推移，方向同时垂直于链及其外方向，以该处发丝半径的比例表示。0 表示保持求解器的放置位置"
+
+#: operators.py:475
+#: operators.py:501
+msgid "Push this end of the Chain out of the strand or deeper into it, along the Chain's own outward direction at that end, as a share of the strand's radius there. 0 leaves it where the solver put it"
+msgstr "沿该端链自身的外方向，将链的这一端推出或推入发丝，以该处发丝半径的比例表示。0 表示保持求解器的放置位置"
+
+#: operators.py:542
+msgid "Reverse Direction"
+msgstr "反转方向"
+
+#: settings.py:129
+msgid "Root Seed Mesh"
+msgstr "发根种子网格"
+
+#: panel.py:134
+#: panel.py:171
+msgid "Selected"
+msgstr "已选"
+
+#: operators.py:543
+msgid "Show In Front"
+msgstr "在前方显示"
+
+#: operators.py:626
+msgid "Sideways"
+msgstr "侧向"
+
+#: settings.py:108
+msgid "Stay inside the selected hair while keeping the Chain as straight as the strand allows"
+msgstr "保持在所选头发内部，同时在发丝允许的范围内让链尽量笔直"
+
+#: panel.py:208
+#: settings.py:108
+msgid "Straight"
+msgstr "笔直"
+
+#: settings.py:120
+msgid "Tip Seed Mesh"
+msgstr "发梢种子网格"
+
+#: operators.py:527
+msgid "Turn the whole Chain's Bones about their own length, for when the frame does not look right. No convention says which way it should face. Note that a .L and a .R Chain given the same angle end up twice that angle apart: roll one side and mirror it, or give the other side the opposite sign"
+msgstr "绕自身长度旋转整条链的骨骼，用于坐标系看起来不正确时。没有约定规定它应朝向哪边。注意：给 .L 和 .R 链设置相同角度会让两者相差两倍角度：请只滚转一侧再镜像，或给另一侧设置相反的符号"
+
+#: operators.py:457
+msgctxt "Operator"
+msgid "Build one connected deform chain that follows the overall run of the hair strand, from the shape of the strand and the Hair Tip.\n\nIf the result is not what you wanted, undo and move the Hair Tip a little, or set the Hair Root and Hair Tip by hand under Advanced, then generate again"
+msgstr "根据发丝形状和发梢，构建一条沿发丝整体走向的相连形变链。\n\n如果结果不符合预期，请撤销并稍微移动发梢，或在“高级”下手动设置发根和发梢后重新生成"
+
+#: seeds.py:1190
+msgctxt "Operator"
+msgid "Clear the manual hair root"
+msgstr "清除手动发根"
+
+#: seeds.py:1191
+msgctxt "Operator"
+msgid "Clear the manual hair root and return to the automatic hair root"
+msgstr "清除手动发根并返回自动发根"
+
+#: seeds.py:1168
+msgctxt "Operator"
+msgid "Clear the manual hair tip"
+msgstr "清除手动发梢"
+
+#: seeds.py:1169
+msgctxt "Operator"
+msgid "Clear the manual hair tip and any manual hair root that depends on it, returning to the ordinary Edit Mode selection"
+msgstr "清除手动发梢及依赖它的手动发根，返回普通的编辑模式选择"
+
+#: operators.py:456
+msgctxt "Operator"
+msgid "Generate Hair Chain"
+msgstr "生成发链"
+
+#: panel.py:118
+#: panel.py:155
+msgctxt "Operator"
+msgid "Mark"
+msgstr "标记"
+
+#: seeds.py:1121
+msgctxt "Operator"
+msgid "Record the current selection as the Hair Root, to set the generation range by hand. This only records the position; no chain is generated"
+msgstr "将当前选择记录为发根，以便手动设置生成范围。此操作仅记录位置，不会生成链"
+
+#: seeds.py:1089
+msgctxt "Operator"
+msgid "Record the current selection as the Hair Tip. This only records the position; no chain is generated"
+msgstr "将当前选择记录为发梢。此操作仅记录位置，不会生成链"
+
+#: seeds.py:1120
+msgctxt "Operator"
+msgid "Use current selection as the hair root"
+msgstr "将当前选择用作发根"
+
+#: seeds.py:1088
+msgctxt "Operator"
+msgid "Use current selection as the hair tip"
+msgstr "将当前选择用作发梢"

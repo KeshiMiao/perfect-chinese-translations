@@ -1,0 +1,123 @@
+# perfect-chinese: 1
+# id: markcam
+# kind: addon
+# module: bl_ext.blender_org.markcam
+# name: MarkCam
+# name_zh: 标记相机
+# translator: KeshiMiao
+# category: Camera
+# supported_versions: >=5.0.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: markcam/__init__.py:1
+msgid "Animation"
+msgstr "动画"
+
+#: markcam/__init__.py:251
+msgid "Auto-computed to next camera's start - 1 (or scene end)"
+msgstr "自动计算到下一个摄像机的起始帧 - 1（或场景结束）"
+
+#: markcam/__init__.py:245
+#: markcam/__init__.py:383
+msgid "Camera"
+msgstr "摄像机"
+
+#: markcam/__init__.py:347
+msgid "Camera Ranges"
+msgstr "摄像机范围"
+
+#: markcam/__init__.py:167
+msgid "Cameras in the scene will NOT be deleted — only their markers."
+msgstr "场景中的摄像机不会被删除 — 只删除其标记。"
+
+#: markcam/__init__.py:165
+msgid "Do you want to delete ALL camera markers?"
+msgstr "要删除所有摄像机标记吗？"
+
+#: markcam/__init__.py:251
+#: markcam/__init__.py:385
+msgid "End"
+msgstr "结束"
+
+#: markcam/__init__.py:434
+msgid "Hint: click camera name to rename, start frame to adjust"
+msgstr "提示：点击摄像机名称可重命名，点击起始帧可调整"
+
+#: markcam/__init__.py:1
+#: markcam/__init__.py:346
+msgid "MarkCam"
+msgstr "MarkCam"
+
+#: markcam/__init__.py:364
+msgid "No camera markers found."
+msgstr "未找到摄像机标记。"
+
+#: markcam/__init__.py:308
+msgid "No camera-bound markers found."
+msgstr "未找到绑定摄像机的标记。"
+
+#: markcam/__init__.py:1
+msgid "Quick camera/marker tools in Timeline + Camera Ranges panel (supports multiple occurrences per camera)."
+msgstr "时间线中的快捷摄像机/标记工具 + 摄像机范围面板（支持同一摄像机多次出现）。"
+
+#: markcam/__init__.py:390
+msgid "Select"
+msgstr "选择"
+
+#: markcam/__init__.py:246
+#: markcam/__init__.py:384
+msgid "Start"
+msgstr "起始"
+
+#: markcam/__init__.py:246
+msgid "Start frame (live moves the bound marker)"
+msgstr "起始帧（实时移动绑定的标记）"
+
+#: markcam/__init__.py:365
+msgid "Use the header camera icon to add some."
+msgstr "使用标题栏的摄像机图标来添加。"
+
+#: markcam/__init__.py:118
+msgctxt "Operator"
+msgid "Camera Action"
+msgstr "摄像机操作"
+
+#: markcam/__init__.py:119
+msgctxt "Operator"
+msgid "Click: Bind the SINGLE selected camera to a marker at current frame\nShift+Click: Create new camera from current 3D view (no marker)\nCtrl+Click: Create new camera from current 3D view and bind to marker"
+msgstr "单击：将单个选中的摄像机绑定到当前帧的标记\nShift+单击：从当前 3D 视图创建新摄像机（无标记）\nCtrl+单击：从当前 3D 视图创建新摄像机并绑定到标记"
+
+#: markcam/__init__.py:155
+msgctxt "Operator"
+msgid "Click: Remove marker(s) at current frame\nCtrl+Click: Delete ALL camera-bound markers"
+msgstr "单击：移除当前帧的标记\nCtrl+单击：删除所有绑定摄像机的标记"
+
+#: markcam/__init__.py:324
+msgctxt "Operator"
+msgid "Jump"
+msgstr "跳转"
+
+#: markcam/__init__.py:299
+msgctxt "Operator"
+msgid "Rebuild table from camera-bound markers and recompute ranges"
+msgstr "从绑定摄像机的标记重建表格并重新计算范围"
+
+#: markcam/__init__.py:298
+#: markcam/__init__.py:360
+msgctxt "Operator"
+msgid "Refresh"
+msgstr "刷新"
+
+#: markcam/__init__.py:325
+msgctxt "Operator"
+msgid "Select the camera and move the playhead to its Start"
+msgstr "选择摄像机并将播放头移动到其起始位置"
+
+#: markcam/__init__.py:154
+msgctxt "Operator"
+msgid "X Action"
+msgstr "X 操作"

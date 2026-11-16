@@ -1,0 +1,186 @@
+# perfect-chinese: 1
+# id: loop_resample
+# kind: addon
+# module: bl_ext.blender_org.loop_resample
+# name: Loop Resample
+# name_zh: 循环重采样
+# translator: KeshiMiao
+# category: Modeling
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: core/curves.py:537
+msgid "A boundary contains a zero-length segment."
+msgstr "边界包含一个零长度线段。"
+
+#: core/curves.py:88
+msgid "A curve source contains a zero-length segment."
+msgstr "曲线源包含一个零长度线段。"
+
+#: core/curves.py:117
+msgid "A fitted curve segment has no measurable length."
+msgstr "拟合曲线段没有可测量的长度。"
+
+#: core/curves.py:526
+msgid "A {kind} boundary needs at least {minimum} points."
+msgstr "{kind} 边界至少需要 {minimum} 个点。"
+
+#: core/curves.py:79
+msgid "A {kind} curve needs at least {minimum} points."
+msgstr "{kind} 曲线至少需要 {minimum} 个点。"
+
+#: core/curves.py:409
+#: core/curves.py:644
+msgid "A {kind} path needs at least {minimum} points."
+msgstr "{kind} 路径至少需要 {minimum} 个点。"
+
+#: core/rebuild.py:166
+msgid "An n-gon cap needs at least three boundary vertices."
+msgstr "N 边形封盖至少需要三个边界顶点。"
+
+#: ui/interactive.py:422
+msgid "Left the curve as it was."
+msgstr "保持曲线原样。"
+
+#: core/planner.py:1575
+msgid "No valid ordered strip path was found."
+msgstr "未找到有效的有序条带路径。"
+
+#: core/session.py:621
+msgid "Nothing here can be resampled.  Select a continuous chain of edges or points."
+msgstr "此处没有可重采样的内容。请选择连续的边或点链。"
+
+#: ui/interactive.py:178
+msgid "Only available in mesh Edit Mode, with the vertex or edge select mode turned on."
+msgstr "仅在网格编辑模式下，且启用顶点或边选择模式时可用。"
+
+#: operators.py:372
+msgid "Resampled {paths} path(s): {changes}; rebuilt {strips} strip(s) with {faces} face(s)"
+msgstr "已重采样 {paths} 条路径：{changes}；已重建 {strips} 个条带，共 {faces} 个面"
+
+#: core/paths.py:30
+msgid "Select a continuous chain of edges or points."
+msgstr "请选择连续的边或点链。"
+
+#: core/session.py:445
+msgid "Select one path or multiple quad-connected parallel paths."
+msgstr "请选择一条路径或多条四边面相连的平行路径。"
+
+#: core/rebuild.py:69
+msgid "The faces beside this chain all close in on one point, so it has to be resampled as a whole ring."
+msgstr "此链旁边的面都汇聚到同一点，因此必须作为整个环进行重采样。"
+
+#: core/curves.py:119
+msgid "The fitted curve has no measurable length."
+msgstr "拟合曲线没有可测量的长度。"
+
+#: core/planner.py:1787
+msgid "The inner curve has too few points."
+msgstr "内侧曲线点数太少。"
+
+#: core/rebuild.py:174
+msgid "The n-gon cap boundary contains duplicate points."
+msgstr "N 边形封盖边界包含重复点。"
+
+#: core/rebuild.py:178
+msgid "The n-gon cap boundary is degenerate or self-intersecting."
+msgstr "N 边形封盖边界退化或自相交。"
+
+#: core/rebuild.py:197
+msgid "The n-gon cap would contain a degenerate triangle."
+msgstr "N 边形封盖会包含退化三角形。"
+
+#: core/planner.py:1685
+msgid "The ordered strip contains intersecting edges."
+msgstr "有序条带包含相交边。"
+
+#: core/planner.py:1789
+msgid "The outer curve has too few points."
+msgstr "外侧曲线点数太少。"
+
+#: core/paths.py:91
+msgid "The selected edges are not continuous; there is a gap in between."
+msgstr "所选边不连续；中间存在间隙。"
+
+#: core/paths.py:54
+msgid "The selected edges are not joined, so they cannot form one continuous chain."
+msgstr "所选边未连接，因此无法形成一条连续链。"
+
+#: core/paths.py:97
+msgid "The selected edges close back into a ring.  Break the loop and try again."
+msgstr "所选边闭合成了环。请断开循环后重试。"
+
+#: core/paths.py:42
+msgid "The selected edges cross each other.  Keep only one direction of them."
+msgstr "所选边彼此交叉。请只保留其中一个方向的边。"
+
+#: core/rebuild.py:90
+msgid "The selected path contains a branch that cannot be resampled safely."
+msgstr "所选路径包含无法安全重采样的分支。"
+
+#: core/session.py:196
+#: core/session.py:411
+msgid "The source no longer matches the locked selection."
+msgstr "源不再匹配锁定的选择。"
+
+#: core/geometry.py:229
+msgid "The strip plan contains a degenerate face."
+msgstr "条带方案包含退化面。"
+
+#: core/geometry.py:214
+msgid "The strip plan contains no complete face sequence."
+msgstr "条带方案不包含完整的面序列。"
+
+#: core/geometry.py:222
+msgid "The strip plan did not consume the full inner boundary."
+msgstr "条带方案未用完整个内侧边界。"
+
+#: core/geometry.py:224
+msgid "The strip plan did not consume the full outer boundary."
+msgstr "条带方案未用完整个外侧边界。"
+
+#: core/rebuild.py:119
+msgid "The target path would duplicate an existing edge."
+msgstr "目标路径会重复现有边。"
+
+#: core/rebuild.py:150
+msgid "The triangle-fan cap is no longer valid."
+msgstr "三角扇封盖不再有效。"
+
+#: ui/interactive.py:528
+msgid "The wheel could not start: this viewport no longer has a mesh to adjust."
+msgstr "无法启动滚轮调整：此视图不再有待调整的网格。"
+
+#: core/rebuild.py:75
+msgid "This chain of edges does not run between two matching strips of faces, so there is nothing here to resample."
+msgstr "此边链不在两条匹配的面条带之间，因此此处没有可重采样的内容。"
+
+#: ui/hud.py:420
+msgid "[Ctrl] Even"
+msgstr "[Ctrl] 均匀"
+
+#: ui/hud.py:426
+msgid "[LMB] Keep   [RMB] Revert"
+msgstr "[LMB] 保留   [RMB] 恢复"
+
+#: ui/hud.py:415
+msgid "[Shift] Smooth"
+msgstr "[Shift] 平滑"
+
+#: ui/hud.py:408
+msgid "[Wheel] Segments {entry} → {current}"
+msgstr "[Wheel] 段数 {entry} → {current}"
+
+#: ui/interactive.py:154
+msgctxt "Operator"
+msgid "Adjust Resample by Wheel"
+msgstr "滚轮调整重采样"
+
+#: ui/interactive.py:555
+msgctxt "Operator"
+msgid "Loop Resample"
+msgstr "循环重采样"

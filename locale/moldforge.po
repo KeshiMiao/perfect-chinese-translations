@@ -1,0 +1,2017 @@
+# perfect-chinese: 1
+# id: moldforge
+# kind: addon
+# module: bl_ext.blender_org.moldforge
+# name: MoldForge
+# name_zh: 模具工坊
+# translator: KeshiMiao
+# category: Mesh
+# supported_versions: >=5.1.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: properties.py:306
+msgid "(Pour Box) Unite a sawtooth base plinth into the high-poly positive; the printed shells get a matching socket that hugs the plinth with a tolerance fit, so they lock onto the base and can't slip. Bottom prints open"
+msgstr "（灌注盒）将锯齿状底座基座合并进高模正形；打印出的外壳获得匹配的插槽，以公差配合紧贴基座，从而锁定在底座上不会滑动。底部打印为开口"
+
+#: properties.py:678
+msgid "+X"
+msgstr "+X"
+
+#: properties.py:229
+msgid "+X up"
+msgstr "+X 朝上"
+
+#: properties.py:678
+msgid "+Y"
+msgstr "+Y"
+
+#: properties.py:230
+msgid "+Y up"
+msgstr "+Y 朝上"
+
+#: properties.py:228
+msgid "+Z up"
+msgstr "+Z 朝上"
+
+#: panel.py:330
+msgid "- use Bottom: Flat"
+msgstr "- 使用底部：平底"
+
+#: properties.py:678
+msgid "-X"
+msgstr "-X"
+
+#: properties.py:678
+msgid "-Y"
+msgstr "-Y"
+
+#: panel.py:634
+#: panel.py:654
+msgid "1. Core_Master + Generate = core mold"
+msgstr "1. Core_Master + 生成 = 芯模"
+
+#: panel.py:635
+#: panel.py:655
+msgid "2. Cast the core in FIRM silicone"
+msgstr "2. 用硬质硅胶浇铸芯模"
+
+#: panel.py:636
+#: panel.py:656
+msgid "3. Flip this mold, fill with SOFT"
+msgstr "3. 翻转此模具，填充软质硅胶"
+
+#: panel.py:657
+msgid "4. Press the core in - it locks"
+msgstr "4. 压入芯模——它会锁定"
+
+#: panel.py:637
+msgid "4. Seat the core's legs on the rim"
+msgstr "4. 将芯模的支脚卡在边缘上"
+
+#: properties.py:934
+msgid "A Curve or Text object to use as the label's logo (instead of the SVG file)"
+msgstr "用作标签徽标的曲线或文本物体（代替 SVG 文件）"
+
+#: properties.py:719
+msgid "A castellated row along the seam"
+msgstr "沿接缝的城垛状齿排"
+
+#: properties.py:907
+msgid "A label on one shell: the silicone and cast weights, the model's name, the date - whatever you type. It sits on a small framed plaque with rounded corners on the flattest spot of the shell's outside"
+msgstr "一个外壳上的标签：硅胶与浇铸件重量、模型名称、日期——你输入的任何内容。它位于外壳外侧最平坦处一块带圆角的小框牌上"
+
+#: properties.py:238
+msgid "A rectangular pan around the object's footprint — simplest and strongest"
+msgstr "围绕物体投影轮廓的矩形盘——最简单也最牢固"
+
+#: panel.py:386
+msgid "Add"
+msgstr "添加"
+
+#: panel.py:368
+msgid "Add a plane with +"
+msgstr "用 + 添加平面"
+
+#: properties.py:313
+msgid "Add an outward bolted skirt around the flat base — clamps the mold down to a board"
+msgstr "在平底周围添加向外凸出的螺栓裙边——将模具压紧在底板上"
+
+#: properties.py:445
+msgid "Add full-height clamp flanges along the parting seam(s), with bolt holes, to clamp the pieces together. They hug the model's profile from top to bottom; with 3+ radial pieces every seam gets a bolted flange pair"
+msgstr "沿分型接缝添加全高夹紧法兰，带螺栓孔，用于将各部件夹紧在一起。它们从顶到底贴合模型轮廓；当径向部件为 3 个或更多时，每条接缝都会有一对螺栓法兰"
+
+#: panel.py:557
+msgid "Advanced"
+msgstr "高级"
+
+#: properties.py:958
+msgid "After generating, write every print as STL into the Export Folder: the mold shells, base/former parts and the positive"
+msgstr "生成后，将每个打印件以 STL 写入导出文件夹：模具外壳、底座/成型件部件以及正形"
+
+#: properties.py:809
+msgid "Air Vents"
+msgstr "排气孔"
+
+#: panel.py:848
+msgid "Air vents"
+msgstr "排气孔"
+
+#: panel.py:761
+msgid "Alignment"
+msgstr "对齐"
+
+#: properties.py:700
+msgid "Alignment Keys"
+msgstr "对齐键"
+
+#: properties.py:455
+msgid "Alignment keys on the wing mating faces: a raised key on one half seats into a matching socket in the other (grown by Fit Clearance), so the bolted halves can't shear. Placed between the bolt holes and sized to the wing lip"
+msgstr "翼形配合面上的对齐键：一半上凸起的键嵌入另一半对应的插槽（按配合间隙放大），使螺栓连接的两半不会错位剪切。布置在螺栓孔之间，尺寸与翼缘唇边匹配"
+
+#: properties.py:358
+msgid "Also print a suction-cup former (MF_Mold_Cup): a smooth high-poly dome on a plate with four legs that seat over the open bottom (Open Bottom, with or without the key plate, or Locking Base - the former follows the base's actual height and width), tabs hugging the outer wall. Cast with the mold inverted, fill, press the former in - the material cures around the dome, leaving a suction-cup bell in the cast's base. Pop the former out after cure"
+msgstr "同时打印一个吸盘成型件（MF_Mold_Cup）：一块板上的光滑高模圆顶，带四条支脚，卡在开放的底部上（Open Bottom，带或不带键板，或 Locking Base——成型件会跟随底座的实际高度和宽度），卡舌紧贴外壁。倒置模具浇铸，填充，压入成型件——材料在圆顶周围固化，在浇铸件底部留下吸盘钟形腔。固化后取出成型件"
+
+#: properties.py:546
+msgid "Also split the shell horizontally — for XL molds: each piece prints shorter, and the horizontal seam gets a bolted flange ring all around. Size the holes for your threaded inserts with Bolt Diameter (inserts in the lower lip, screws from the top)"
+msgstr "还可水平拆分外壳——适用于超大模具：每个部件打印高度更短，水平接缝处四周有一圈螺栓法兰环。用螺栓直径设置螺纹嵌件的孔径（嵌件在下唇，螺丝从顶部拧入）"
+
+#: properties.py:928
+msgid "An SVG logo for the label, centred above the text (or on its own when the text is empty). Use filled paths"
+msgstr "标签的 SVG 徽标，居中于文字上方（文字为空时单独显示）。请使用填充路径"
+
+#: properties.py:612
+msgid "Anycubic Photon M3"
+msgstr "Anycubic Photon M3"
+
+#: properties.py:612
+msgid "Anycubic Photon M3 (180 mm)"
+msgstr "Anycubic Photon M3 (180 mm)"
+
+#: properties.py:614
+msgid "Anycubic Photon M3 Max"
+msgstr "Anycubic Photon M3 Max"
+
+#: properties.py:614
+msgid "Anycubic Photon M3 Max (300 mm)"
+msgstr "Anycubic Photon M3 Max (300 mm)"
+
+#: properties.py:613
+msgid "Anycubic Photon M3 Plus"
+msgstr "Anycubic Photon M3 Plus"
+
+#: properties.py:613
+msgid "Anycubic Photon M3 Plus (245 mm)"
+msgstr "Anycubic Photon M3 Plus (245 mm)"
+
+#: properties.py:617
+msgid "Anycubic Photon Mono 4K"
+msgstr "Anycubic Photon Mono 4K"
+
+#: properties.py:617
+msgid "Anycubic Photon Mono 4K (165 mm)"
+msgstr "Anycubic Photon Mono 4K (165 mm)"
+
+#: properties.py:610
+msgid "Anycubic Photon Mono M5s / M5s Pro"
+msgstr "Anycubic Photon Mono M5s / M5s Pro"
+
+#: properties.py:610
+msgid "Anycubic Photon Mono M5s / M5s Pro (200 mm)"
+msgstr "Anycubic Photon Mono M5s / M5s Pro (200 mm)"
+
+#: properties.py:605
+msgid "Anycubic Photon Mono M7"
+msgstr "Anycubic Photon Mono M7"
+
+#: properties.py:605
+msgid "Anycubic Photon Mono M7 (230 mm)"
+msgstr "Anycubic Photon Mono M7 (230 mm)"
+
+#: properties.py:608
+msgid "Anycubic Photon Mono M7 Max"
+msgstr "Anycubic Photon Mono M7 Max"
+
+#: properties.py:608
+msgid "Anycubic Photon Mono M7 Max (300 mm)"
+msgstr "Anycubic Photon Mono M7 Max (300 mm)"
+
+#: properties.py:606
+msgid "Anycubic Photon Mono M7 Pro"
+msgstr "Anycubic Photon Mono M7 Pro"
+
+#: properties.py:606
+msgid "Anycubic Photon Mono M7 Pro (230 mm)"
+msgstr "Anycubic Photon Mono M7 Pro (230 mm)"
+
+#: properties.py:615
+msgid "Anycubic Photon Mono X / X 6K"
+msgstr "Anycubic Photon Mono X / X 6K"
+
+#: properties.py:615
+msgid "Anycubic Photon Mono X / X 6K (245 mm)"
+msgstr "Anycubic Photon Mono X / X 6K (245 mm)"
+
+#: properties.py:523
+msgid "Artwork for the stamp. Used when no Text/Curve object is selected; shapes must be FILLED paths (convert strokes to paths in Inkscape first)"
+msgstr "印章用的图案。未选择文本/曲线物体时使用；图形必须是填充路径（先在 Inkscape 中将描边转换为路径）"
+
+#: properties.py:227
+#: properties.py:515
+msgid "Auto"
+msgstr "自动"
+
+#: properties.py:799
+msgid "Auto (high points)"
+msgstr "自动（最高点）"
+
+#: properties.py:496
+msgid "Auto Bolts"
+msgstr "自动螺栓"
+
+#: panel.py:770
+msgid "Auto bolts"
+msgstr "自动螺栓"
+
+#: panel.py:380
+#: panel.py:826
+msgid "Auto-fitted to this mold"
+msgstr "自动适配此模具"
+
+#: properties.py:643
+msgid "Bambu A1 mini (180 mm)"
+msgstr "Bambu A1 mini (180 mm)"
+
+#: properties.py:643
+msgid "Bambu Lab A1 mini"
+msgstr "Bambu Lab A1 mini"
+
+#: properties.py:644
+msgid "Bambu Lab X1 / P1 series"
+msgstr "Bambu Lab X1 / P1 系列"
+
+#: properties.py:644
+msgid "Bambu X1/P1 (256 mm)"
+msgstr "Bambu X1/P1 (256 mm)"
+
+#: properties.py:394
+msgid "Band Cleats"
+msgstr "绑带卡钉"
+
+#: properties.py:486
+msgid "Band Notches"
+msgstr "绑带凹槽"
+
+#: panel.py:768
+msgid "Band notches"
+msgstr "绑带凹槽"
+
+#: panel.py:649
+msgid "Base comes out as MF_Mold_Base"
+msgstr "底座输出为 MF_Mold_Base"
+
+#: panel.py:642
+msgid "Base height"
+msgstr "底座高度"
+
+#: properties.py:177
+msgid "Block"
+msgstr "块状"
+
+#: panel.py:769
+msgid "Bolt Ø"
+msgstr "螺栓 Ø"
+
+#: properties.py:503
+msgid "Bolts / Side"
+msgstr "螺栓 / 侧"
+
+#: panel.py:773
+msgid "Bolts / side"
+msgstr "螺栓 / 侧"
+
+#: properties.py:292
+msgid "Bottom"
+msgstr "底部"
+
+#: properties.py:730
+msgid "Bottom-Fill Channel"
+msgstr "底部灌注通道"
+
+#: panel.py:830
+msgid "Bottom-fill channel"
+msgstr "底部灌注通道"
+
+#: properties.py:973
+msgid "Box Plastic Volume"
+msgstr "盒体塑料体积"
+
+#: properties.py:223
+msgid "Capture Face"
+msgstr "捕获面"
+
+#: panel.py:957
+msgid "Cast"
+msgstr "浇铸件"
+
+#: properties.py:860
+msgid "Cast Material"
+msgstr "浇铸材料"
+
+#: properties.py:181
+msgid "Cast a thin flexible SKIN (latex, silicone - a mask, a sleeve) in a direct printed mold: a printed core - the model shrunk inward by the skin thickness - stands on the key plate inside the mold, and you pour into the gap. The skin comes out open at the bottom, where the core is pulled out. Uses an Open Bottom with the key plate"
+msgstr "在直接打印的模具中浇铸一层薄而有弹性的表皮（乳胶、硅胶——如面罩、袖套）：一个打印的芯模——即向内缩小了表皮厚度的模型——立在模具内的键板上，然后向间隙中灌注。表皮在底部开口，芯模从此处抽出。使用带键板的 Open Bottom"
+
+#: properties.py:881
+msgid "Cast g/ml"
+msgstr "浇铸密度 g/ml"
+
+#: properties.py:889
+msgid "Cast in the pour box itself: after the silicone cures, turn the whole mold over onto the pour funnel's mouth, which carries the weight, and pour the cast into the silicone's open base. Short thin legs from the top of the shell end in feet level with the mouth and keep it from tipping (Pour Box with an Open Bottom or Locking Base)"
+msgstr "直接在灌注盒中浇铸：硅胶固化后，将整个模具翻转扣在灌注漏斗的口上（由漏斗口承重），然后从硅胶的开放底部灌注浇铸件。从外壳顶部伸出的短细支脚末端为与漏斗口齐平的支脚，防止倾倒（Pour Box 配合 Open Bottom 或 Locking Base）"
+
+#: properties.py:871
+msgid "Casting / candle wax ≈ 0.90"
+msgstr "浇铸蜡 / 蜡烛蜡 ≈ 0.90"
+
+#: properties.py:866
+msgid "Casting silicone ≈ 1.10 (platinum ~1.07, tin ~1.2)"
+msgstr "浇注硅胶 ≈ 1.10（铂金 ~1.07，锡 ~1.2）"
+
+#: properties.py:971
+msgid "Cavity Volume"
+msgstr "型腔体积"
+
+#: properties.py:872
+msgid "Cement / GFRC ≈ 2.40"
+msgstr "水泥 / GFRC ≈ 2.40"
+
+#: properties.py:776
+msgid "Center X"
+msgstr "居中 X"
+
+#: properties.py:774
+msgid "Center XY"
+msgstr "居中 XY"
+
+#: properties.py:777
+msgid "Center Y"
+msgstr "居中 Y"
+
+#: properties.py:776
+msgid "Center on X; follow the model's highest point along Y"
+msgstr "X 居中；沿 Y 跟随模型最高点"
+
+#: properties.py:777
+msgid "Center on Y; follow the model's highest point along X"
+msgstr "Y 居中；沿 X 跟随模型最高点"
+
+#: properties.py:774
+msgid "Center the funnel on the model's footprint (both X and Y) — straight down the middle"
+msgstr "将漏斗居中到模型底面投影（X 和 Y）——正中对齐"
+
+#: panel.py:833
+msgid "Channel radius"
+msgstr "通道半径"
+
+#: operators.py:689
+msgid "Choose a valid export folder first."
+msgstr "请先选择有效的导出文件夹。"
+
+#: panel.py:737
+#: properties.py:445
+msgid "Clamp Wings"
+msgstr "夹紧翼"
+
+#: panel.py:388
+msgid "Clamp wings"
+msgstr "夹紧翼"
+
+#: panel.py:616
+#: panel.py:767
+msgid "Clearance"
+msgstr "间隙"
+
+#: properties.py:319
+msgid "Close the open bottom with a separate printed plate: the model registers into a pocket, and a ring tongue on the shell's rim drops into a groove around the plate's chin collar — self-aligning all round and a seal for the pour"
+msgstr "用单独打印的底板封闭开口底部：模型嵌入凹槽定位，外壳边缘的环形舌片落入底板凸缘周围的沟槽——四周自动对齐，并为浇注提供密封"
+
+#: properties.py:872
+msgid "Concrete"
+msgstr "混凝土"
+
+#: properties.py:463
+msgid "Cone"
+msgstr "锥形"
+
+#: properties.py:718
+msgid "Cone Keys"
+msgstr "锥形键"
+
+#: properties.py:718
+msgid "Conical pins seating into sockets"
+msgstr "锥形销嵌入插孔"
+
+#: panel.py:726
+msgid "Contoured"
+msgstr "随形"
+
+#: properties.py:693
+msgid "Contoured Parting"
+msgstr "随形分型"
+
+#: properties.py:435
+msgid "Contoured on Locking Base"
+msgstr "随形于锁定底座"
+
+#: properties.py:670
+msgid "Core Pull"
+msgstr "抽芯"
+
+#: panel.py:700
+msgid "Core pull"
+msgstr "抽芯"
+
+#: panel.py:701
+msgid "Core stem"
+msgstr "芯杆"
+
+#: panel.py:330
+msgid "Core_Master has its"
+msgstr "Core_Master 有其"
+
+#: panel.py:621
+#: properties.py:340
+msgid "Countersink"
+msgstr "沉头"
+
+#: properties.py:340
+msgid "Countersink the plate's underside for a flat-head screw, so the head sits flush and the plate stays flat on the table. Untick for a plain hole"
+msgstr "在底板底面沉头以安装平头螺钉，使螺钉头齐平，底板能平放在桌面上。取消勾选则为普通孔"
+
+#: properties.py:641
+msgid "Creality Ender-3 / V2 / S1"
+msgstr "Creality Ender-3 / V2 / S1"
+
+#: properties.py:634
+msgid "Creality Halot-Mage / Halot-Mage Pro / Mage S"
+msgstr "Creality Halot-Mage / Halot-Mage Pro / Mage S"
+
+#: properties.py:634
+msgid "Creality Halot-Mage / Mage Pro (230 mm)"
+msgstr "Creality Halot-Mage / Mage Pro (230 mm)"
+
+#: properties.py:633
+msgid "Creality Halot-One"
+msgstr "Creality Halot-One"
+
+#: properties.py:633
+msgid "Creality Halot-One (160 mm)"
+msgstr "Creality Halot-One (160 mm)"
+
+#: panel.py:672
+msgid "Cup depth"
+msgstr "杯深"
+
+#: panel.py:671
+msgid "Cup Ø"
+msgstr "杯 Ø"
+
+#: panel.py:665
+msgid "Cured: turn over onto the legs, pour"
+msgstr "固化后：翻转到支脚上，浇注"
+
+#: properties.py:602
+#: properties.py:849
+msgid "Custom"
+msgstr "自定义"
+
+#: properties.py:657
+msgid "Cut Positive Too"
+msgstr "同时切割阳模"
+
+#: properties.py:725
+msgid "Cut a funnel from the top into the cavity for pouring"
+msgstr "从顶部向型腔切出浇注漏斗"
+
+#: properties.py:949
+msgid "Cut in"
+msgstr "切入"
+
+#: panel.py:435
+#: panel.py:880
+msgid "Cut positive too"
+msgstr "同时切割阳模"
+
+#: properties.py:899
+msgid "Cut the legs' feet at this angle (degrees), so the turned-over mold stands tilted and air rises out of one side of the cast as you pour. It leans to the side that needs the least leg, and the feet on the low side move out to keep it from tipping. 0 = level"
+msgstr "以此角度（度）切割支脚底部，使翻转后的模具倾斜站立，浇注时空气从铸件一侧排出。它会向所需支脚最短的一侧倾斜，低侧的脚向外移动以防倾倒。0 = 水平"
+
+#: properties.py:685
+msgid "Cut the mold along your own split planes (Add Split Plane: move and rotate each one anywhere, add as many as you like) instead of the standard split. With Clamp Wings on, every plane gets a bolted flange; a direct mold gets alignment keys on every cut"
+msgstr "沿自定义分型面切割模具（添加分型面：可任意移动和旋转每个分型面，数量不限），而非标准分型。启用夹紧翼时，每个分型面都会生成带螺栓的法兰；直接打印模具则会在每个切割处生成对齐键"
+
+#: panel.py:424
+msgid "Cut to fit my printer"
+msgstr "切割以适配我的打印机"
+
+#: panel.py:911
+#: properties.py:833
+msgid "Decimate"
+msgstr "精简"
+
+#: saved_settings.py:333
+msgid "Delete"
+msgstr "删除"
+
+#: saved_settings.py:304
+msgid "Delete Saved Settings"
+msgstr "删除已保存设置"
+
+#: panel.py:956
+#: panel.py:958
+msgid "Density"
+msgstr "密度"
+
+#: properties.py:877
+msgid "Density of the pour silicone / solid-mold material (RTV silicone ≈ 1.1–1.2)"
+msgstr "浇注硅胶 / 实心模具材料的密度（RTV 硅胶 ≈ 1.1–1.2）"
+
+#: properties.py:884
+msgid "Density of the printed plastic (PLA ≈ 1.24, PETG ≈ 1.27)"
+msgstr "打印塑料的密度（PLA ≈ 1.24，PETG ≈ 1.27）"
+
+#: properties.py:881
+msgid "Density of what you cast (resin ≈ 1.1, plaster ≈ 1.8, wax ≈ 0.9)"
+msgstr "浇注材料的密度（树脂 ≈ 1.1，石膏 ≈ 1.8，蜡 ≈ 0.9）"
+
+#: panel.py:949
+msgid "Depth"
+msgstr "深度"
+
+#: properties.py:319
+msgid "Detachable Key Plate"
+msgstr "可拆卸键板"
+
+#: properties.py:160
+msgid "Direct Printed Mold"
+msgstr "直接打印模具"
+
+#: properties.py:511
+msgid "Direction the two halves separate"
+msgstr "两半分离方向"
+
+#: properties.py:464
+msgid "Dome bumps - smooth engage and release"
+msgstr "圆顶凸点——平滑接合与释放"
+
+#: properties.py:677
+msgid "Down"
+msgstr "向下"
+
+#: properties.py:850
+msgid "Dragon Skin"
+msgstr "Dragon Skin"
+
+#: properties.py:802
+msgid "Drill ONE vent at every Vent Marker you placed. Snap the 3D cursor onto the surface (Shift+Right-Click), press Add Vent Marker, then move/duplicate/delete the markers freely"
+msgstr "在每个已放置的排气标记处钻一个排气孔。将 3D 光标吸附到表面（Shift+右键），按添加排气标记，然后可自由移动/复制/删除标记"
+
+#: properties.py:799
+msgid "Drill vents at the model's highest points, spaced apart - where air actually traps"
+msgstr "在模型最高点钻排气孔，彼此间隔——空气实际滞留处"
+
+#: properties.py:559
+msgid "Dual Density (2-pour)"
+msgstr "双密度（两次浇注）"
+
+#: panel.py:396
+msgid "Dual-density core (2-pour)"
+msgstr "双密度芯（两次浇注）"
+
+#: properties.py:675
+msgid "Each core comes out the way that crosses the least of the model - out through its hole's opening"
+msgstr "每个芯都沿穿过模型最少的方向取出——从其孔口取出"
+
+#: properties.py:853
+msgid "Ecoflex"
+msgstr "Ecoflex"
+
+#: properties.py:625
+msgid "Elegoo Jupiter / Jupiter SE"
+msgstr "Elegoo Jupiter / Jupiter SE"
+
+#: properties.py:625
+msgid "Elegoo Jupiter / Jupiter SE (300 mm)"
+msgstr "Elegoo Jupiter / Jupiter SE (300 mm)"
+
+#: properties.py:619
+msgid "Elegoo Mars 3 / 4 (175 mm)"
+msgstr "Elegoo Mars 3 / 4 (175 mm)"
+
+#: properties.py:619
+msgid "Elegoo Mars 3 / Mars 4"
+msgstr "Elegoo Mars 3 / Mars 4"
+
+#: properties.py:620
+msgid "Elegoo Mars 4 Ultra / 5 Ultra (165 mm)"
+msgstr "Elegoo Mars 4 Ultra / 5 Ultra (165 mm)"
+
+#: properties.py:620
+msgid "Elegoo Mars 4 Ultra / Mars 5 Ultra"
+msgstr "Elegoo Mars 4 Ultra / Mars 5 Ultra"
+
+#: properties.py:622
+msgid "Elegoo Saturn 2 / 3 (250 mm)"
+msgstr "Elegoo Saturn 2 / 3 (250 mm)"
+
+#: properties.py:622
+msgid "Elegoo Saturn 2 / Saturn 3"
+msgstr "Elegoo Saturn 2 / Saturn 3"
+
+#: properties.py:623
+msgid "Elegoo Saturn 3 Ultra"
+msgstr "Elegoo Saturn 3 Ultra"
+
+#: properties.py:623
+msgid "Elegoo Saturn 3 Ultra (260 mm)"
+msgstr "Elegoo Saturn 3 Ultra (260 mm)"
+
+#: properties.py:624
+msgid "Elegoo Saturn 4 / 4 Ultra (220 mm)"
+msgstr "Elegoo Saturn 4 / 4 Ultra (220 mm)"
+
+#: properties.py:624
+msgid "Elegoo Saturn 4 / Saturn 4 Ultra"
+msgstr "Elegoo Saturn 4 / Saturn 4 Ultra"
+
+#: properties.py:208
+msgid "Embed → silicone stamp"
+msgstr "嵌入 → 硅胶印章"
+
+#: properties.py:641
+msgid "Ender-3 family (250 mm)"
+msgstr "Ender-3 系列（250 mm）"
+
+#: properties.py:868
+msgid "Epoxy Resin"
+msgstr "环氧树脂"
+
+#: properties.py:503
+msgid "Exact bolt holes per clamp wing / seam when Auto Bolts is off — 0 means no bolt holes at all"
+msgstr "关闭自动螺栓时，每个夹紧翼 / 接缝的精确螺栓孔数——0 表示完全没有螺栓孔"
+
+#: operators.py:694
+msgid "Exploded preview reassembled before export."
+msgstr "导出前将爆炸预览重新组装。"
+
+#: properties.py:962
+msgid "Export Folder"
+msgstr "导出文件夹"
+
+#: properties.py:958
+msgid "Export after generate"
+msgstr "生成后导出"
+
+#: panel.py:673
+msgid "Fasten"
+msgstr "固定"
+
+#: panel.py:630
+msgid "Fasten plug"
+msgstr "固定插塞"
+
+#: properties.py:381
+msgid "Fastening"
+msgstr "固定"
+
+#: panel.py:390
+msgid "Fill from the base (channel)"
+msgstr "从底部填充（通道）"
+
+#: panel.py:674
+msgid "Fill inverted, press the former in"
+msgstr "倒置填充，压入成型模"
+
+#: panel.py:565
+msgid "Fine-tune each part of the mold"
+msgstr "微调模具的每个部件"
+
+#: properties.py:825
+msgid "Fix Flat Bottom"
+msgstr "修正平底"
+
+#: panel.py:908
+msgid "Fix flat bottom"
+msgstr "修正平底"
+
+#: panel.py:612
+msgid "Flange width"
+msgstr "法兰宽度"
+
+#: properties.py:297
+msgid "Flat (closed)"
+msgstr "平底（封闭）"
+
+#: properties.py:297
+msgid "Flat closed floor the mold stands on (add a Mounting Flange to bolt it to a board)"
+msgstr "模具站立的平底封闭底面（添加安装法兰以用螺栓将其固定到板上）"
+
+#: properties.py:536
+msgid "Flip the design left-right. Leave OFF for a normal ink stamp (the pour mirrors it once and stamping mirrors it back, so imprints read correctly). Turn ON only if you want the STAMP FACE itself to read correctly"
+msgstr "左右翻转设计。普通印章保持关闭（浇注时镜像一次，盖章时再镜像回来，因此印迹方向正确）。仅当你希望印章面本身方向正确时才开启"
+
+#: panel.py:935
+msgid "Folder"
+msgstr "文件夹"
+
+#: properties.py:304
+msgid "Follow Model"
+msgstr "跟随模型"
+
+#: properties.py:638
+msgid "Formlabs Form 4"
+msgstr "Formlabs Form 4"
+
+#: properties.py:638
+msgid "Formlabs Form 4 (210 mm)"
+msgstr "Formlabs Form 4（210 毫米）"
+
+#: properties.py:217
+msgid "Frame only (real object)"
+msgstr "仅边框（真实物体）"
+
+#: properties.py:756
+msgid "Fully manual mouth: exactly throat x Mouth Flare, with no auto-fit cap (normally the mouth is capped at ≈45% of the mold half-width and kept on the mold edge). It may then overhang the mold — the panel warns. Use when a wide catch funnel won't otherwise fit the shape"
+msgstr "完全手动注入口：精确为喉部 × 注入口外扩，没有自动适配上限（通常注入口限制在模具半宽的约 45%，并保持在模具边缘）。此时它可能超出模具——面板会警告。适用于宽大承接漏斗无法适配该形状的情况"
+
+#: properties.py:278
+msgid "Fully manual throat: use EXACTLY the typed Throat Radius, with no auto-fit cap at all (normally it's capped at ≈30% of the mold half-width). A very wide throat leaves little shell around the hole — the panel warns, and you own the result"
+msgstr "完全手动喉部：精确使用输入的喉部半径，完全没有自动适配上限（通常限制在模具半宽的约 30%）。过宽的喉部会在孔周围留下很少的壳——面板会警告，结果由你负责"
+
+#: panel.py:777
+msgid "Funnel & Vents"
+msgstr "漏斗与排气孔"
+
+#: properties.py:750
+msgid "Funnel Flare"
+msgstr "漏斗外扩"
+
+#: properties.py:208
+msgid "Fuse the object into the tray floor and pour SILICONE over it. The cured silicone is a flexible negative stamp/mold you cast into"
+msgstr "将物体融合到托盘底面，并在其上浇注硅胶。固化后的硅胶是柔性的负模印章/模具，可在其中浇注"
+
+#: panel.py:303
+msgid "Generate reads it in metres"
+msgstr "生成时以米为单位读取"
+
+#: properties.py:868
+msgid "Generic epoxy casting resin ≈ 1.15"
+msgstr "通用环氧浇注树脂 ≈ 1.15"
+
+#: properties.py:855
+msgid "Generic platinum-cure RTV ≈ 1.12"
+msgstr "通用铂金固化 RTV ≈ 1.12"
+
+#: properties.py:194
+msgid "Glove / mother-mold workflow: raise registration bumps on the silicone skin that seat into pockets in the rigid shell, so a thin skin can't shift or slump (set the silicone gap to the skin thickness, e.g. 3 mm)"
+msgstr "手套/母模工作流：在硅胶皮层上凸起定位凸点，嵌入刚性外壳的凹槽中，使薄皮层不会移位或塌陷（将硅胶间隙设为皮层厚度，例如 3 毫米）"
+
+#: properties.py:194
+msgid "Glove Skin Keys"
+msgstr "手套皮层定位键"
+
+#: panel.py:607
+msgid "Glove skin keys"
+msgstr "手套皮层定位键"
+
+#: properties.py:465
+msgid "Half Cone"
+msgstr "半圆锥"
+
+#: properties.py:464
+msgid "Half Sphere"
+msgstr "半球"
+
+#: panel.py:624
+msgid "Head Ø"
+msgstr "头部直径"
+
+#: panel.py:936
+msgid "Header tick = export after Generate"
+msgstr "标题栏勾选 = 生成后导出"
+
+#: properties.py:820
+msgid "Heal Mesh"
+msgstr "修复网格"
+
+#: panel.py:907
+msgid "Heal mesh"
+msgstr "修复网格"
+
+#: panel.py:799
+msgid "Height"
+msgstr "高度"
+
+#: properties.py:778
+msgid "Highest Point"
+msgstr "最高点"
+
+#: properties.py:327
+msgid "Hold the printed master on the key plate with one screw instead of glue: a hole through the plate (countersunk from below, so the plate still sits flat) and a hole in the master's underside for a heat-set threaded insert. It goes in the middle of the base, or at the nearest spot with enough master around the insert. The plate is thickened to fit the countersink"
+msgstr "用一颗螺丝而非胶水将打印的母模固定在键板上：键板上有通孔（从下方沉头，因此键板仍能平放），母模底面有一个孔用于热熔螺纹嵌件。它位于底座中央，或位于嵌件周围有足够母模材料的最近位置。键板会加厚以容纳沉头"
+
+#: properties.py:546
+msgid "Horizontal Split"
+msgstr "水平分割"
+
+#: panel.py:715
+#: panel.py:731
+msgid "Horizontal split"
+msgstr "水平分割"
+
+#: properties.py:381
+msgid "How a former locks down onto the shells - the pour FLOATS it (buoyancy), so it must be held. Used by the suction-cup former, and on an Open Bottom by the Vac-U-Lock plug too"
+msgstr "成型模如何锁定到外壳上——浇注液会使其浮起（浮力），因此必须固定住。吸盘式成型模采用此方式，开口底部也由 Vac-U-Lock 插头采用"
+
+#: properties.py:531
+msgid "How far the design stands proud of the stamp face (mm). 1.5-2.5 is the sweet spot: shallower smears ink from the background, deeper makes fine lines floppy"
+msgstr "图案高出印章面的高度（毫米）。1.5-2.5 为最佳值：更浅会使背景沾上油墨，更深会使细线变软"
+
+#: properties.py:706
+msgid "How many pieces the mold splits into. 2 is a normal two-part split; 3-4 splits it into radial wedges around the vertical axis, so a model with undercuts on every side can still release (each wedge pulls straight out)"
+msgstr "模具分成多少块。2 为普通的两件分割；3-4 会围绕垂直轴分成径向楔块，因此四面都有倒扣的模型仍能脱模（每个楔块可直线拉出）"
+
+#: properties.py:292
+msgid "How the bottom of the mold is finished — the three genuinely different functions"
+msgstr "模具底部的收尾方式——三种真正不同的功能"
+
+#: properties.py:945
+msgid "How the letters are made"
+msgstr "字母的制作方式"
+
+#: properties.py:240
+msgid "Hug (rounded)"
+msgstr "贴合（圆角）"
+
+#: properties.py:176
+msgid "Hugging"
+msgstr "贴合"
+
+#: panel.py:627
+msgid "Insert depth"
+msgstr "嵌件深度"
+
+#: panel.py:626
+msgid "Insert hole Ø"
+msgstr "嵌件孔直径"
+
+#: properties.py:719
+msgid "Interlocking Teeth"
+msgstr "互锁齿"
+
+#: properties.py:427
+msgid "Join the sawtooth base into the positive so master + base are one piece. Untick to keep the base as a separate MF_Mold_Base part (exported with the shells) and leave your model untouched - e.g. to print the base on its own and attach the master to it"
+msgstr "将锯齿底座并入正模，使母模和底座成为一体。取消勾选可将底座保留为独立的 MF_Mold_Base 部件（随外壳一起导出），并保持你的模型不变——例如单独打印底座，再将母模安装到其上"
+
+#: panel.py:765
+msgid "Key height"
+msgstr "定位键高度"
+
+#: panel.py:614
+msgid "Key plate"
+msgstr "键板"
+
+#: panel.py:764
+msgid "Key size"
+msgstr "定位键尺寸"
+
+#: panel.py:766
+msgid "Key spacing"
+msgstr "定位键间距"
+
+#: panel.py:730
+msgid "Key type"
+msgstr "定位键类型"
+
+#: panel.py:728
+msgid "Keys"
+msgstr "定位键"
+
+#: panel.py:330
+msgid "LOCK"
+msgstr "锁定"
+
+#: panel.py:938
+#: properties.py:907
+msgid "Label"
+msgstr "标签"
+
+#: properties.py:945
+msgid "Label Style"
+msgstr "标签样式"
+
+#: properties.py:915
+msgid "Label Text"
+msgstr "标签文字"
+
+#: panel.py:403
+msgid "Label on the case"
+msgstr "外壳上的标签"
+
+#: properties.py:965
+msgid "Last Model"
+msgstr "上一个模型"
+
+#: properties.py:227
+msgid "Lay the object on its flattest side, detail facing up"
+msgstr "将物体放在最平的面上，细节朝上"
+
+#: properties.py:435
+msgid "Let the seam follow a curved model on a Locking Base (it stays flat through the plinth, so the socket still pulls straight off). Off: one flat seam straight through - best for straight models. Turn it on when a curved model's half comes out in pieces"
+msgstr "让接缝沿锁定底座上的弯曲模型走（接缝穿过底座时保持平直，因此插口仍可直线拔出）。关闭：一条平直接缝贯穿——最适合笔直的模型。当弯曲模型的半模散成碎片时开启"
+
+#: panel.py:948
+msgid "Letter height"
+msgstr "字母高度"
+
+#: properties.py:949
+msgid "Letters (and the frame line) are cut into the plaque: crisp, and nothing to snap off"
+msgstr "字母（和边框线）凹刻进牌匾：清晰，且没有会折断的凸起"
+
+#: properties.py:951
+msgid "Letters (and the frame line) stand out of the plaque"
+msgstr "字母（和边框线）从牌匾上凸出"
+
+#: properties.py:246
+msgid "Lift-off Walls"
+msgstr "可拆卸壁"
+
+#: panel.py:465
+msgid "Lift-off walls"
+msgstr "可拆卸壁"
+
+#: properties.py:394
+msgid "Lips on the hooks catch rubber bands stretched over the former - nothing is cut into the shells at all"
+msgstr "挂钩上的凸唇可挂住套在成型模上的橡皮筋——外壳上完全无需开槽"
+
+#: properties.py:306
+msgid "Locking Base"
+msgstr "锁定底座"
+
+#: panel.py:325
+msgid "Locking Base is for the Silicone Pour Box"
+msgstr "锁定底座用于硅胶浇注盒"
+
+#: panel.py:941
+msgid "Logo"
+msgstr "徽标"
+
+#: properties.py:928
+msgid "Logo File"
+msgstr "徽标文件"
+
+#: properties.py:934
+msgid "Logo Object"
+msgstr "徽标物体"
+
+#: panel.py:943
+msgid "Logo SVG"
+msgstr "徽标 SVG"
+
+#: panel.py:945
+msgid "Logo height"
+msgstr "徽标高度"
+
+#: properties.py:211
+msgid "Make a real silicone INK STAMP from artwork: the design (an SVG file, or the selected Text/Curve object) is engraved into the pan floor. Pour silicone, cure, peel: the slab carries the design raised and mirrored, so stamped imprints read correctly - glue it to an acrylic block"
+msgstr "用图稿制作真正的硅胶印章：设计（SVG 文件，或选中的文本/曲线物体）被刻入托盘底部。浇注硅胶、固化、揭下：胶片上的图案凸起且镜像，因此盖出的印迹方向正确 — 将其粘到亚克力块上"
+
+#: properties.py:802
+msgid "Manual (markers)"
+msgstr "手动（标记）"
+
+#: properties.py:780
+msgid "Manual X/Y"
+msgstr "手动 X/Y"
+
+#: properties.py:785
+msgid "Manual funnel X offset from the model's footprint centre, in mm (0 = centre); used when Sprue Placement is Manual. Clamped to the footprint so the funnel stays on the model"
+msgstr "手动漏斗相对模型底面轮廓中心的 X 偏移，单位 mm（0 = 居中）；当注入口位置为「手动」时使用。会限制在底面轮廓内，使漏斗保持在模型上"
+
+#: properties.py:790
+msgid "Manual funnel Y offset from the model's footprint centre, in mm (0 = centre); used when Sprue Placement is Manual. Clamped to the footprint so the funnel stays on the model"
+msgstr "手动漏斗相对模型底面轮廓中心的 Y 偏移，单位 mm（0 = 居中）；当注入口位置为「手动」时使用。会限制在底面轮廓内，使漏斗保持在模型上"
+
+#: panel.py:643
+msgid "Margin"
+msgstr "边距"
+
+#: panel.py:920
+msgid "Materials & Export"
+msgstr "材质与导出"
+
+#: properties.py:649
+msgid "Max Print Height"
+msgstr "最大打印高度"
+
+#: panel.py:878
+msgid "Max height"
+msgstr "最大高度"
+
+#: properties.py:820
+msgid "Merge doubles, drop loose geometry and recalculate normals first"
+msgstr "先合并重复点、清除松散几何体并重新计算法线"
+
+#: panel.py:891
+msgid "Mesh Prep"
+msgstr "网格准备"
+
+#: properties.py:536
+msgid "Mirror Design"
+msgstr "镜像设计"
+
+#: panel.py:457
+msgid "Mirror the design"
+msgstr "镜像设计"
+
+#: properties.py:844
+msgid "Mold Material"
+msgstr "模具材料"
+
+#: properties.py:854
+msgid "Mold Max"
+msgstr "Mold Max"
+
+#: properties.py:706
+msgid "Mold Pieces"
+msgstr "模具件数"
+
+#: properties.py:851
+msgid "Mold Star"
+msgstr "Mold Star"
+
+#: properties.py:152
+msgid "Mold Type"
+msgstr "模具类型"
+
+#: panel.py:271
+msgid "MoldForge"
+msgstr "MoldForge"
+
+#: panel.py:277
+msgid "MoldForge by PLESURO"
+msgstr "MoldForge（作者 PLESURO）"
+
+#: properties.py:313
+msgid "Mounting Flange"
+msgstr "安装法兰"
+
+#: panel.py:610
+msgid "Mounting flange"
+msgstr "安装法兰"
+
+#: panel.py:801
+msgid "Mouth flare"
+msgstr "口部外扩"
+
+#: properties.py:750
+msgid "Mouth width as a multiple of the sprue radius — 1.0 is a straight tube (best when a wide cone won't fit the shape), bigger is a wider catch funnel (auto-capped to the mold)"
+msgstr "口部宽度为注入口半径的倍数 — 1.0 为直管（宽锥体不适合外形时最佳），数值越大漏斗越宽（自动限制在模具内）"
+
+#: saved_settings.py:203
+#: saved_settings.py:228
+msgid "Name"
+msgstr "名称"
+
+#: saved_settings.py:203
+msgid "Name of the saved settings (the same name replaces the earlier save)"
+msgstr "已保存设置的名称（同名会替换先前保存的设置）"
+
+#: properties.py:462
+msgid "No alignment keys on the wings (the bolts alone align)"
+msgstr "翼片上无对齐键（仅靠螺栓对齐）"
+
+#: properties.py:387
+msgid "No flex needed at all: the former slides on freely, then a ~2 mm pin (bamboo skewer, 1.75 mm filament, nail) slides through each hook's channel into the shell groove - pure shear, safe for brittle resin"
+msgstr "完全不需要弹性：模芯自由滑入，然后用约 2 mm 的销（竹签、1.75 mm 耗材、钉子）穿过每个挂钩的通道插入外壳凹槽 — 纯剪切受力，对脆性树脂安全"
+
+#: operators.py:626
+#: operators.py:704
+msgid "No mold parts found. Generate a mold first."
+msgstr "未找到模具部件。请先生成模具。"
+
+#: panel.py:713
+msgid "No planes yet - add one"
+msgstr "尚无平面 — 请添加一个"
+
+#: properties.py:462
+msgid "None"
+msgstr "无"
+
+#: properties.py:486
+msgid "Notches across the clamp wings' outer edges every 30 mm, for rubber bands: a band stretched round the mold sits in a notch on each wing and cannot slide off. For clamping with bands instead of bolts"
+msgstr "在夹紧翼片外缘每 30 mm 开一个凹口，用于橡皮筋：绕模具拉开的橡皮筋卡在每侧翼片的凹口中，不会滑脱。用于以橡皮筋代替螺栓夹紧"
+
+#: saved_settings.py:328
+msgid "Nothing saved yet"
+msgstr "尚未保存任何内容"
+
+#: properties.py:765
+msgid "Number of pour funnels (more helps fill tall figures)"
+msgstr "浇注漏斗数量（更多有助于填充高大型体）"
+
+#: properties.py:415
+msgid "Number of sawtooth ridges up the plinth's side (the anti-slip zigzag the shells socket onto)"
+msgstr "底座侧面锯齿凸棱的数量（外壳套接的防滑锯齿）"
+
+#: panel.py:724
+msgid "Offset"
+msgstr "偏移"
+
+#: properties.py:163
+msgid "One-part open tray (pan) for FLAT or relief objects — text, logos, coins, medallions. The object sits at the bottom and the top is open: embed it and pour silicone over it for a stamp, carve it for a direct cast pan, or print just the frame for a real object. No split, wings or funnel"
+msgstr "用于平面或浮雕物体的一体式开口托盘 — 文字、徽标、硬币、纪念章。物体置于底部，顶部敞开：将其嵌入并浇注硅胶制成印章，或雕刻成直接浇注托盘，或仅打印外框以放入实物。无分件、翼片或漏斗"
+
+#: properties.py:852
+msgid "Oomoo"
+msgstr "Oomoo"
+
+#: panel.py:321
+msgid "Open + key plate (skin)"
+msgstr "开口 + 键板（薄层）"
+
+#: properties.py:300
+msgid "Open Bottom"
+msgstr "底部开口"
+
+#: properties.py:300
+msgid "Open at the master's base — the master sits on the build plate and you pour from the top (add a Detachable Key Plate for a separate keyed bottom)"
+msgstr "在原模底部开口 — 原模置于打印平台上，从顶部浇注（可添加可拆卸键板以获得独立的带键底部）"
+
+#: properties.py:642
+msgid "Original Prusa i3 MK3S / MK4"
+msgstr "Original Prusa i3 MK3S / MK4"
+
+#: properties.py:744
+msgid "Other Side"
+msgstr "另一侧"
+
+#: panel.py:834
+msgid "Other side"
+msgstr "另一侧"
+
+#: properties.py:172
+msgid "Outer shape of a direct printed mold"
+msgstr "直接打印模具的外形"
+
+#: properties.py:234
+msgid "Outline"
+msgstr "轮廓"
+
+#: panel.py:380
+#: panel.py:826
+msgid "Oversized - check the shell"
+msgstr "尺寸过大 — 请检查外壳"
+
+#: properties.py:756
+msgid "Oversized Mouth"
+msgstr "加大口部"
+
+#: properties.py:278
+msgid "Oversized Throat"
+msgstr "加大喉道"
+
+#: panel.py:678
+msgid "Parting"
+msgstr "分型"
+
+#: properties.py:542
+msgid "Parting Offset"
+msgstr "分型偏移"
+
+#: properties.py:693
+msgid "Parting surface follows the model's mid-profile (self-registering) instead of a flat plane; falls back to flat if it can't produce clean halves"
+msgstr "分型面沿模型中部轮廓走（自对位），而非平面；若无法生成干净的两半则回退为平面"
+
+#: operators.py:629
+msgid "Parts reassembled."
+msgstr "部件已重新组合。"
+
+#: properties.py:639
+msgid "Peopoly Phenom Forge"
+msgstr "Peopoly Phenom Forge"
+
+#: properties.py:639
+msgid "Peopoly Phenom Forge (350 mm)"
+msgstr "Peopoly Phenom Forge（350 mm）"
+
+#: properties.py:631
+msgid "Phrozen Sonic Mega 8K"
+msgstr "Phrozen Sonic Mega 8K"
+
+#: properties.py:631
+msgid "Phrozen Sonic Mega 8K (400 mm)"
+msgstr "Phrozen Sonic Mega 8K（400 mm）"
+
+#: properties.py:630
+msgid "Phrozen Sonic Mega 8K S"
+msgstr "Phrozen Sonic Mega 8K S"
+
+#: properties.py:630
+msgid "Phrozen Sonic Mega 8K S (300 mm)"
+msgstr "Phrozen Sonic Mega 8K S（300 mm）"
+
+#: properties.py:628
+msgid "Phrozen Sonic Mighty 8K / 12K (235 mm)"
+msgstr "Phrozen Sonic Mighty 8K / 12K（235 mm）"
+
+#: properties.py:628
+msgid "Phrozen Sonic Mighty 8K / Mighty 12K"
+msgstr "Phrozen Sonic Mighty 8K / Mighty 12K"
+
+#: properties.py:627
+msgid "Phrozen Sonic Mini 8K S"
+msgstr "Phrozen Sonic Mini 8K S"
+
+#: properties.py:627
+msgid "Phrozen Sonic Mini 8K S (180 mm)"
+msgstr "Phrozen Sonic Mini 8K S（180 mm）"
+
+#: properties.py:860
+msgid "Pick a common casting material to fill in its density, or Custom to type your own"
+msgstr "选择常用浇注材料以填入其密度，或选择「自定义」自行输入"
+
+#: properties.py:844
+msgid "Pick a common mold material to fill in its density, or Custom to type your own"
+msgstr "选择常用模具材料以填入其密度，或选择「自定义」自行输入"
+
+#: panel.py:439
+#: panel.py:882
+msgid "Pick a printer or type its height"
+msgstr "选择打印机或输入其高度"
+
+#: properties.py:515
+msgid "Pick the axis the model releases best along (fewest undercuts), falling back to the wider footprint when they're equal"
+msgstr "选择模型最容易脱模的轴（倒扣最少），相同时则采用较宽的底面轮廓"
+
+#: properties.py:596
+msgid "Pick your printer to fill in its build height, or Custom to type it yourself. Double-check the number against your machine - editions vary"
+msgstr "选择打印机以填入其成型高度，或选择「自定义」自行输入。请对照您的机器核对数值 — 不同版本有所差异"
+
+#: panel.py:719
+msgid "Pieces"
+msgstr "件数"
+
+#: properties.py:176
+msgid "Pieces follow the model's shape — least material"
+msgstr "部件贴合模型形状 — 用料最少"
+
+#: properties.py:387
+msgid "Pin-Lock (resin-safe)"
+msgstr "销锁（树脂安全）"
+
+#: properties.py:496
+msgid "Place the clamp bolt holes automatically by flange height; off by default - the wings clamp with clips or bands unless you ask for holes here or set a count per side"
+msgstr "按法兰高度自动布置夹紧螺栓孔；默认关闭 — 除非在此要求开孔或为每侧设置数量，否则翼片使用夹子或橡皮筋夹紧"
+
+#: panel.py:803
+msgid "Placement"
+msgstr "位置"
+
+#: properties.py:870
+msgid "Plaster"
+msgstr "石膏"
+
+#: properties.py:870
+msgid "Plaster of Paris / gypsum ≈ 1.80"
+msgstr "熟石膏 / 石膏 ≈ 1.80"
+
+#: properties.py:855
+msgid "Platinum RTV"
+msgstr "铂金 RTV"
+
+#: properties.py:463
+msgid "Pointed cone pins - self-centering, easiest to seat"
+msgstr "尖锥销 — 自定心，最易就位"
+
+#: properties.py:869
+msgid "Polyester Resin"
+msgstr "聚酯树脂"
+
+#: properties.py:869
+msgid "Polyester casting resin ≈ 1.10"
+msgstr "聚酯浇注树脂 ≈ 1.10"
+
+#: properties.py:730
+msgid "Pour BESIDE the model instead of over it: a straight pipe on the parting seam, outside the case, with a gate into the cavity just above its floor - the silicone enters at the base and rises evenly around the model, so nothing drapes over a complex master and air is pushed out ahead of it. The top funnel then works as the riser and air escape. Each half carries half the channel, so the cured sprue lifts out when the halves come apart"
+msgstr "从模型旁边而非上方浇注：在分型缝上、外壳外侧设一根直管，并在略高于腔底处开一个内浇口 — 硅胶从底部进入并均匀上升环绕模型，因此不会有材料披覆在复杂原模上，空气也被向前排出。顶部漏斗则充当冒口和排气口。每一半各带半个通道，因此分开两半时固化后的注入口即可取出"
+
+#: properties.py:765
+msgid "Pour Points"
+msgstr "浇注点"
+
+#: panel.py:835
+msgid "Pour beside the model, fills from the base"
+msgstr "在模型旁浇注，从底部填充"
+
+#: panel.py:389
+msgid "Pour funnel on top"
+msgstr "顶部浇注漏斗"
+
+#: panel.py:811
+msgid "Pour points"
+msgstr "浇注点"
+
+#: properties.py:884
+msgid "Print g/ml"
+msgstr "打印 g/ml"
+
+#: properties.py:217
+msgid "Print just the open box at the object's footprint — drop your REAL object in and pour silicone around it"
+msgstr "仅按物体占地打印开口盒——放入你的真实物体，再在其周围浇注硅胶"
+
+#: panel.py:959
+msgid "Print resin"
+msgstr "打印树脂"
+
+#: properties.py:246
+msgid "Print the tray as a floor and a separate frame: lift the frame straight off the cured silicone instead of prying the block out of a one-piece pan. A tongue under the frame seats in a groove in the floor so nothing leaks"
+msgstr "将托盘打印为底板和独立框架：直接提起框架取下固化硅胶，而不必从一体式盘中撬出整块。框架下方的凸舌嵌入底板的凹槽，因此不会渗漏"
+
+#: properties.py:391
+msgid "Printed beads click into grooves in the shells - quick and tool-free, for filaments that flex (PLA/PETG/ABS). NOT for brittle resin"
+msgstr "打印卡珠卡入外壳凹槽——快速免工具，适用于可弯曲的耗材（PLA/PETG/ABS）。不适用于脆性树脂"
+
+#: properties.py:156
+msgid "Printed jacket you pour liquid silicone into — the silicone is the mold. For the glove/mother-mold workflow, set a thin gap and turn on Glove Skin Keys"
+msgstr "打印外套，向内浇注液态硅胶——硅胶即模具。对于手套/母模流程，设置薄间隙并开启手套表皮键"
+
+#: panel.py:875
+#: properties.py:596
+msgid "Printer"
+msgstr "打印机"
+
+#: panel.py:857
+#: properties.py:588
+msgid "Printer Fit"
+msgstr "打印机适配"
+
+#: properties.py:657
+msgid "Printer Fit also cuts a too-tall positive into glue-up sections that self-align: pegs printed on each face seat into sockets in the next (nothing is ever added to its cast surface). Untick to always keep the positive whole - print it tilted or split it yourself"
+msgstr "打印机适配还会把过高的阳模切成可自对准的粘接段：每个面上打印的销钉嵌入相邻段的孔中（绝不在其浇注表面添加任何东西）。取消勾选则始终保持阳模完整——倾斜打印或自行拆分"
+
+#: properties.py:664
+msgid "Printer Fit: height the slicer's supports/raft lift the print off the plate (resin prints rarely sit flat). This is reserved out of Max Print Height, so every level still fits WITH its supports"
+msgstr "打印机适配：切片软件的支撑/底筏将打印件抬离平台的高度（树脂打印件很少平放）。该高度从最大打印高度中预留，因此每一层连同支撑仍能放下"
+
+#: properties.py:649
+msgid "Printer Fit: your printer's maximum print height in mm (0 = off). Any shell taller than this is cut into stacked levels - each with a bolted seam ring all around - and a too-tall positive into glue-up sections that self-align with printed pegs (nothing on its cast surface), so every piece fits the build plate"
+msgstr "打印机适配：打印机的最大打印高度（毫米，0 = 关闭）。任何高于此高度的外壳都会被切成堆叠层——每层四周带螺栓连接的接缝环——过高的阳模则切成用打印销钉自对准的粘接段（浇注表面上没有任何东西），让每个部件都能放入打印平台"
+
+#: properties.py:642
+msgid "Prusa MK3S/MK4 (210 mm)"
+msgstr "Prusa MK3S/MK4（210 毫米）"
+
+#: properties.py:744
+msgid "Put the bottom-fill channel on the other end of the parting seam (by default it goes where the model reaches out least)"
+msgstr "将底部填充通道放在分型缝的另一端（默认放在模型伸出最少的位置）"
+
+#: properties.py:778
+msgid "Put the funnel on the model's highest point — best venting for tall figures, but off-center on a leaning model"
+msgstr "将漏斗放在模型的最高点——对高大人像排气最佳，但在倾斜模型上会偏心"
+
+#: properties.py:951
+msgid "Raised"
+msgstr "凸起"
+
+#: panel.py:913
+#: properties.py:834
+msgid "Ratio"
+msgstr "比例"
+
+#: properties.py:238
+msgid "Rectangular"
+msgstr "矩形"
+
+#: properties.py:177
+msgid "Rectangular block — easiest to clamp and stand"
+msgstr "矩形块——最易夹持和竖立"
+
+#: properties.py:714
+msgid "Registration"
+msgstr "定位"
+
+#: properties.py:700
+msgid "Registration features on the parting face (used with a flat parting + no wings; a contoured parting self-registers)"
+msgstr "分型面上的定位特征（用于平面分型 + 无翼片；轮廓分型可自定位）"
+
+#: properties.py:531
+msgid "Relief Depth"
+msgstr "浮雕深度"
+
+#: panel.py:497
+msgid "Result"
+msgstr "结果"
+
+#: properties.py:523
+msgid "SVG File"
+msgstr "SVG 文件"
+
+#: properties.py:835
+msgid "Safe Remesh"
+msgstr "安全重网格"
+
+#: panel.py:914
+msgid "Safe remesh"
+msgstr "安全重网格"
+
+#: saved_settings.py:315
+msgid "Saved Settings"
+msgstr "已保存设置"
+
+#: properties.py:415
+msgid "Sawtooth Teeth"
+msgstr "锯齿"
+
+#: properties.py:327
+msgid "Screw Master to Plate"
+msgstr "螺丝将母模固定到平台"
+
+#: panel.py:620
+msgid "Screw hole Ø"
+msgstr "螺丝孔 Ø"
+
+#: panel.py:617
+msgid "Screw master"
+msgstr "螺丝固定母模"
+
+#: properties.py:555
+msgid "Seam Height"
+msgstr "接缝高度"
+
+#: panel.py:717
+#: panel.py:733
+msgid "Seam height"
+msgstr "接缝高度"
+
+#: panel.py:722
+msgid "Seam pins"
+msgstr "接缝销"
+
+#: properties.py:172
+msgid "Shape"
+msgstr "形状"
+
+#: properties.py:234
+msgid "Shape of the tray around the object"
+msgstr "托盘围绕物体的形状"
+
+#: panel.py:591
+msgid "Shell & Base"
+msgstr "外壳与底座"
+
+#: panel.py:843
+msgid "Shift+RClick the model, then add"
+msgstr "Shift+右键点击模型，然后添加"
+
+#: panel.py:955
+#: properties.py:866
+msgid "Silicone"
+msgstr "硅胶"
+
+#: properties.py:156
+msgid "Silicone Pour Box"
+msgstr "硅胶浇注盒"
+
+#: properties.py:972
+msgid "Silicone Volume"
+msgstr "硅胶体积"
+
+#: properties.py:877
+msgid "Silicone g/ml"
+msgstr "硅胶 g/ml"
+
+#: panel.py:339
+msgid "Sizes in mm"
+msgstr "尺寸（毫米）"
+
+#: properties.py:181
+msgid "Skin Mold"
+msgstr "表皮模具"
+
+#: panel.py:311
+msgid "Skin mold (printed core)"
+msgstr "表皮模具（打印芯）"
+
+#: properties.py:555
+msgid "Slide the horizontal seam up/down from mid-height, in mm (auto-clamped so neither stack vanishes)"
+msgstr "从中间高度上下移动水平接缝，单位毫米（自动限制，避免任一堆叠消失）"
+
+#: properties.py:542
+msgid "Slide the parting plane off-centre along the split axis, in mm (auto-clamped so neither half vanishes)"
+msgstr "沿拆分轴将分型面偏离中心，单位毫米（自动限制，避免任一半消失）"
+
+#: properties.py:867
+msgid "Smooth-Cast urethane resin ≈ 1.05"
+msgstr "Smooth-Cast 聚氨酯树脂 ≈ 1.05"
+
+#: properties.py:850
+msgid "Smooth-On Dragon Skin (platinum) ≈ 1.07"
+msgstr "Smooth-On Dragon Skin（铂金）≈ 1.07"
+
+#: properties.py:853
+msgid "Smooth-On Ecoflex (soft platinum) ≈ 1.07"
+msgstr "Smooth-On Ecoflex（软铂金）≈ 1.07"
+
+#: properties.py:854
+msgid "Smooth-On Mold Max (tin-cure) ≈ 1.42"
+msgstr "Smooth-On Mold Max（锡固化）≈ 1.42"
+
+#: properties.py:851
+msgid "Smooth-On Mold Star (platinum) ≈ 1.18"
+msgstr "Smooth-On Mold Star（铂金）≈ 1.18"
+
+#: properties.py:852
+msgid "Smooth-On Oomoo (tin-cure) ≈ 1.42"
+msgstr "Smooth-On Oomoo（锡固化）≈ 1.42"
+
+#: properties.py:391
+msgid "Snap-Lock (flexible filament)"
+msgstr "卡扣锁（柔性耗材）"
+
+#: properties.py:571
+msgid "Soft Wall"
+msgstr "软壁"
+
+#: properties.py:511
+msgid "Split Axis"
+msgstr "拆分轴"
+
+#: properties.py:588
+msgid "Split anything taller than your printer's build height into pieces that fit the plate: shells into bolted stacked levels, the positive into glue-up sections that self-align with printed pegs. Pick your printer or type its height below"
+msgstr "将高于打印机打印高度的任何物体切成适合平台的部件：外壳切成螺栓连接的堆叠层，阳模切成用打印销钉自对准的粘接段。选择你的打印机或在下方输入其高度"
+
+#: properties.py:519
+msgid "Split front/back"
+msgstr "前后拆分"
+
+#: properties.py:518
+msgid "Split left/right"
+msgstr "左右拆分"
+
+#: operators.py:452
+msgid "Split plane added - move (G) and rotate (R) it, then Generate"
+msgstr "已添加拆分割面——移动 (G) 并旋转 (R)，然后生成"
+
+#: properties.py:685
+msgid "Split with My Planes"
+msgstr "用我的平面拆分"
+
+#: panel.py:362
+#: panel.py:706
+msgid "Split with my planes"
+msgstr "用我的平面拆分"
+
+#: properties.py:725
+msgid "Sprue (pour funnel)"
+msgstr "浇口（浇注漏斗）"
+
+#: properties.py:770
+msgid "Sprue Placement"
+msgstr "浇口位置"
+
+#: properties.py:785
+msgid "Sprue X"
+msgstr "浇口 X"
+
+#: properties.py:790
+msgid "Sprue Y"
+msgstr "浇口 Y"
+
+#: properties.py:528
+msgid "Stamp Width"
+msgstr "压印宽度"
+
+#: properties.py:211
+msgid "Stamp from SVG / Text"
+msgstr "从 SVG / 文本压印"
+
+#: properties.py:889
+msgid "Stand Legs"
+msgstr "支撑脚"
+
+#: properties.py:899
+msgid "Stand Tilt"
+msgstr "支架倾角"
+
+#: panel.py:662
+msgid "Stand legs"
+msgstr "支撑脚"
+
+#: panel.py:402
+msgid "Stand legs (for casting)"
+msgstr "支撑脚（用于浇注）"
+
+#: panel.py:946
+msgid "Style"
+msgstr "样式"
+
+#: properties.py:358
+msgid "Suction Cup Former"
+msgstr "吸盘成型模"
+
+#: panel.py:669
+msgid "Suction cup"
+msgstr "吸盘"
+
+#: properties.py:664
+msgid "Support Height"
+msgstr "支撑高度"
+
+#: panel.py:879
+msgid "Supports"
+msgstr "支撑"
+
+#: panel.py:887
+msgid "Tall parts get split to fit"
+msgstr "过高的部件会被拆分以适配"
+
+#: panel.py:644
+msgid "Teeth"
+msgstr "齿"
+
+#: panel.py:940
+msgid "Text"
+msgstr "文本"
+
+#: operators.py:488
+msgid "That is the model you build the mold from - select the core mesh you modelled instead"
+msgstr "那是用于构建模具的模型——请改为选择你建模的核心网格"
+
+#: properties.py:304
+msgid "The bottom follows the model's shape (no flat cut)"
+msgstr "底部跟随模型形状（不进行平面切割）"
+
+#: properties.py:528
+msgid "The design is scaled (uniformly) to this width (mm)"
+msgstr "设计会（等比）缩放到此宽度（mm）"
+
+#: properties.py:965
+msgid "The model the last Generate built from - Regenerate rebuilds from it even while it is hidden"
+msgstr "上次「生成」所用的模型——即使它被隐藏，「重新生成」也会用它重建"
+
+#: properties.py:229
+msgid "The object's +X face is the detail / pour side"
+msgstr "物体的 +X 面为细节/浇注面"
+
+#: properties.py:230
+msgid "The object's +Y face is the detail / pour side"
+msgstr "物体的 +Y 面为细节/浇注面"
+
+#: properties.py:228
+msgid "The object's +Z face is the detail / pour side"
+msgstr "物体的 +Z 面为细节/浇注面"
+
+#: properties.py:160
+msgid "The printed pieces ARE the mold — cast resin/wax/plaster straight in. Shape: hugging (least material) or block (easiest to clamp)"
+msgstr "打印出的部件本身就是模具——直接浇注树脂/蜡/石膏。外形：贴合（用料最少）或方块（最易夹紧）"
+
+#: properties.py:571
+msgid "Thickness of the SOFT outer layer (mm). The firm core is the model shrunk INWARD by exactly this much everywhere - a true offset, so the soft layer is even on the inside of a bend, the outside, the top and the flanks alike"
+msgstr "柔软外层的厚度（mm）。硬质芯体是模型整体向内收缩相同数值——真正的偏移，因此弯内侧、外侧、顶部和侧面的软层都均匀"
+
+#: properties.py:809
+msgid "Thin channels from the cavity's high points to the outside"
+msgstr "从型腔最高点通向外部的小通道"
+
+#: panel.py:798
+msgid "Throat radius"
+msgstr "喉部半径"
+
+#: panel.py:664
+msgid "Tilt"
+msgstr "倾斜"
+
+#: panel.py:646
+msgid "Tolerance"
+msgstr "容差"
+
+#: panel.py:645
+msgid "Tooth depth"
+msgstr "齿深"
+
+#: properties.py:163
+msgid "Tray / Open Pour"
+msgstr "托盘 / 开放式浇注"
+
+#: properties.py:204
+msgid "Tray Mode"
+msgstr "托盘模式"
+
+#: properties.py:465
+msgid "Truncated cone pads - sturdy, shear-resistant"
+msgstr "截锥垫——坚固、抗剪切"
+
+#: panel.py:633
+#: panel.py:653
+msgid "Two-pour workflow:"
+msgstr "两次浇注流程："
+
+#: properties.py:849
+#: properties.py:865
+msgid "Type the density yourself"
+msgstr "自行输入密度"
+
+#: properties.py:780
+msgid "Type the funnel position yourself as an X/Y offset from the model's footprint centre"
+msgstr "自行输入漏斗位置，作为相对模型投影中心的 X/Y 偏移"
+
+#: properties.py:602
+msgid "Type the maximum print height yourself (0 = Printer Fit off)"
+msgstr "自行输入最大打印高度（0 = 关闭打印机适配）"
+
+#: panel.py:299
+msgid "Under 1 mm? It was made in metres"
+msgstr "小于 1 mm？它是以米为单位制作的"
+
+#: properties.py:637
+msgid "UniFormation GK3 Ultra"
+msgstr "UniFormation GK3 Ultra"
+
+#: properties.py:637
+msgid "UniFormation GK3 Ultra (300 mm)"
+msgstr "UniFormation GK3 Ultra（300 mm）"
+
+#: properties.py:636
+msgid "UniFormation GKtwo"
+msgstr "UniFormation GKtwo"
+
+#: properties.py:636
+msgid "UniFormation GKtwo (245 mm)"
+msgstr "UniFormation GKtwo（245 mm）"
+
+#: properties.py:427
+msgid "Unite Base with Model"
+msgstr "将底座与模型合并"
+
+#: panel.py:647
+msgid "Unite with model"
+msgstr "与模型合并"
+
+#: properties.py:677
+msgid "Up"
+msgstr "上"
+
+#: properties.py:867
+msgid "Urethane Resin"
+msgstr "聚氨酯树脂"
+
+#: properties.py:577
+msgid "Vac-U-Lock Plug"
+msgstr "Vac-U-Lock 插头"
+
+#: panel.py:400
+msgid "Vac-U-Lock plug"
+msgstr "Vac-U-Lock 插头"
+
+#: properties.py:795
+msgid "Vent Placement"
+msgstr "排气孔位置"
+
+#: panel.py:841
+#: panel.py:850
+msgid "Vent radius"
+msgstr "排气孔半径"
+
+#: panel.py:838
+msgid "Vents"
+msgstr "排气孔"
+
+#: panel.py:916
+msgid "Voxel size"
+msgstr "体素大小"
+
+#: properties.py:835
+msgid "Voxel-remesh the whole model first — for messy or non-manifold meshes"
+msgstr "先对整个模型进行体素重网格——适用于杂乱或非流形网格"
+
+#: properties.py:240
+msgid "Walls follow the object's outline seen from above (every part of it, a Border's width clear), with rounded corners — uses less silicone and plastic, especially for round or irregular shapes"
+msgstr "墙体沿俯视看到的物体轮廓（包括其所有部分，留出边框宽度），带圆角——更省硅胶和塑料，尤其适合圆形或不规则形状"
+
+#: properties.py:871
+msgid "Wax"
+msgstr "蜡"
+
+#: properties.py:152
+msgid "What MoldForge outputs — the two genuinely different functions"
+msgstr "MoldForge 的输出——两种真正不同的功能"
+
+#: properties.py:714
+msgid "What the alignment features look like (flat parting)"
+msgstr "对齐特征的外观（平面分型）"
+
+#: properties.py:915
+msgid "What the label says. Fields: {silicone_g} {silicone_ml} {cast_g} {cast_ml} {name} {date}. Use | for a new line"
+msgstr "标签内容。字段：{silicone_g} {silicone_ml} {cast_g} {cast_ml} {name} {date}。用 | 换行"
+
+#: properties.py:204
+msgid "What the printed tray does with your object"
+msgstr "打印托盘对物体的作用"
+
+#: properties.py:825
+msgid "When the model's flat bottom is badly meshed - one face of needle-thin triangles, as a boolean cut leaves it - rebuild it as an even mesh on Generate's working copy (your model is not changed; the Fix Flat Bottom button fixes the model itself)"
+msgstr "当模型的平底网格质量差时——布尔切割常留下一个由极细三角形组成的面——在「生成」的工作副本上将其重建为均匀网格（你的模型不会被修改；「修复平底」按钮修复模型本身）"
+
+#: properties.py:795
+msgid "Where the air vents go"
+msgstr "排气孔的位置"
+
+#: properties.py:770
+msgid "Where the pour funnel sits on the model"
+msgstr "浇注漏斗在模型上的位置"
+
+#: properties.py:670
+msgid "Which way the inner cores come out (their stems run this way, through the mold wall)"
+msgstr "内芯的取出方向（其柄沿此方向穿过模具壁）"
+
+#: properties.py:223
+msgid "Which way the object's detailed face points — the open pour side"
+msgstr "物体细节面的朝向——开放浇注侧"
+
+#: panel.py:759
+msgid "Width"
+msgstr "宽度"
+
+#: properties.py:455
+msgid "Wing Alignment"
+msgstr "翼形对齐"
+
+#: panel.py:805
+#: properties.py:518
+msgid "X"
+msgstr "X"
+
+#: panel.py:806
+#: properties.py:519
+msgid "Y"
+msgstr "Y"
+
+#: panel.py:353
+msgid "my planes"
+msgstr "我的平面"
+
+#: panel.py:953
+msgid "{cast_ml} {name} {date}   | = new line"
+msgstr "{cast_ml} {name} {date}   | = 换行"
+
+#: panel.py:952
+msgid "{silicone_g} {silicone_ml} {cast_g}"
+msgstr "{silicone_g} {silicone_ml} {cast_g}"
+
+#: operators.py:582
+msgctxt "Operator"
+msgid "Add Pour Marker"
+msgstr "添加浇注标记"
+
+#: operators.py:410
+msgctxt "Operator"
+msgid "Add Split Plane"
+msgstr "添加分割平面"
+
+#: operators.py:566
+msgctxt "Operator"
+msgid "Add Vent Marker"
+msgstr "添加排气标记"
+
+#: operators.py:323
+msgctxt "Operator"
+msgid "Build a silicone mold from the active mesh"
+msgstr "从活动网格构建硅胶模具"
+
+#: operators.py:341
+msgctxt "Operator"
+msgid "Build the mold again from the model you last generated from, with the current settings - no need to unhide or reselect it"
+msgstr "用当前设置从上次生成的模型再次构建模具——无需取消隐藏或重新选择"
+
+#: saved_settings.py:249
+msgctxt "Operator"
+msgid "Delete Saved Settings"
+msgstr "删除已保存设置"
+
+#: operators.py:583
+msgctxt "Operator"
+msgid "Drop a pour marker at the 3D cursor - snap the cursor onto the model first (Shift+Right-Click). Each marker adds an EXTRA spout whose channel bores from the mold top ALL the way down to the marker itself, opening into the pour right there; the first spout keeps the Placement setting above"
+msgstr "在 3D 游标处放置浇注标记——先将游标吸附到模型上（Shift+右键）。每个标记会添加一个额外浇口，其通道从模具顶部一直钻到标记本身，并在该处通入浇注口；第一个浇口仍使用上方的「位置」设置"
+
+#: operators.py:567
+msgctxt "Operator"
+msgid "Drop a vent marker at the 3D cursor - snap the cursor onto the model first (Shift+Right-Click). With Vents set to Manual, Generate drills ONE vent at every marker; move, duplicate or delete markers like any object"
+msgstr "在 3D 游标处放置排气标记——先将游标吸附到模型上（Shift+右键）。当「排气孔」设为「手动」时，「生成」会在每个标记处钻一个排气孔；可像普通物体一样移动、复制或删除标记"
+
+#: operators.py:614
+#: panel.py:548
+msgctxt "Operator"
+msgid "Exploded Preview"
+msgstr "爆炸预览"
+
+#: operators.py:679
+msgctxt "Operator"
+msgid "Export Mold Parts"
+msgstr "导出模具部件"
+
+#: panel.py:551
+msgctxt "Operator"
+msgid "Export STL..."
+msgstr "导出 STL..."
+
+#: operators.py:680
+msgctxt "Operator"
+msgid "Export every generated print as STL: the mold shells and base/former parts (MF_Mold_*) plus the positive (MF_Positive)"
+msgstr "将所有生成的打印件导出为 STL：模具壳体与底座/成型部件（MF_Mold_*）以及阳模（MF_Positive）"
+
+#: operators.py:380
+msgctxt "Operator"
+msgid "Fix Flat Bottom"
+msgstr "修复平底"
+
+#: panel.py:909
+msgctxt "Operator"
+msgid "Fix Model's Flat Bottom"
+msgstr "修复模型的平底"
+
+#: operators.py:322
+msgctxt "Operator"
+msgid "Generate Mold"
+msgstr "生成模具"
+
+#: operators.py:615
+msgctxt "Operator"
+msgid "Lay every generated part out in a row on one baseline - same height, nothing overlapping, so you can see each piece (the skin and the positive share the same space in the build). Press again to snap everything back. Display only: exports are never affected"
+msgstr "将所有生成的部件在一条基线上排成一行——高度相同、互不重叠，方便查看每个部件（在构建中表皮与阳模占据同一空间）。再次按下可还原。仅影响显示：导出不受影响"
+
+#: saved_settings.py:225
+msgctxt "Operator"
+msgid "Load Saved Settings"
+msgstr "加载已保存设置"
+
+#: operators.py:463
+msgctxt "Operator"
+msgid "Mark as Core"
+msgstr "标记为核心"
+
+#: panel.py:416
+msgctxt "Operator"
+msgid "Mark selected as inner core"
+msgstr "将选中项标记为内芯"
+
+#: operators.py:362
+msgctxt "Operator"
+msgid "My Model Is in Metres"
+msgstr "我的模型以米为单位"
+
+#: panel.py:304
+msgctxt "Operator"
+msgid "My model is in metres"
+msgstr "我的模型以米为单位"
+
+#: saved_settings.py:290
+msgctxt "Operator"
+msgid "Open Settings Folder"
+msgstr "打开设置文件夹"
+
+#: panel.py:548
+msgctxt "Operator"
+msgid "Reassemble"
+msgstr "重新组装"
+
+#: operators.py:340
+#: panel.py:542
+msgctxt "Operator"
+msgid "Regenerate"
+msgstr "重新生成"
+
+#: saved_settings.py:272
+msgctxt "Operator"
+msgid "Reset to Defaults"
+msgstr "重置为默认值"
+
+#: saved_settings.py:200
+msgctxt "Operator"
+msgid "Save Current Settings"
+msgstr "保存当前设置"
+
+#: saved_settings.py:330
+msgctxt "Operator"
+msgid "Save Current Settings..."
+msgstr "保存当前设置..."
+
+#: operators.py:519
+msgctxt "Operator"
+msgid "Show Original"
+msgstr "显示原始"

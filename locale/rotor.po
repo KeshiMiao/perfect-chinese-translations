@@ -1,0 +1,922 @@
+# perfect-chinese: 1
+# id: rotor
+# kind: addon
+# module: bl_ext.blender_org.rotor
+# name: rotor
+# name_zh: 转子
+# translator: KeshiMiao
+# category: Modeling
+# supported_versions: >=5.0.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: rotor/ops/mirror_add_axis.py:24
+#: rotor/ops/mirror_add_collection.py:24
+msgid "+"
+msgstr "+"
+
+#: rotor/ops/mirror_add_axis.py:24
+#: rotor/ops/mirror_add_collection.py:24
+msgid "-"
+msgstr "-"
+
+#: rotor/ops/mirror_set_orientation.py:86
+#: rotor/tools/mirror/props.py:58
+msgid "3D Cursor"
+msgstr "3D 游标"
+
+#: rotor/ops/mirror_set_orientation.py:28
+msgid "3D Cursor orientation"
+msgstr "3D 游标方向"
+
+#: rotor/ops/mirror_set_orientation.py:81
+msgid "Active"
+msgstr "活动"
+
+#: rotor/tools/mirror/props.py:16
+#: rotor/tools/mirror/props.py:55
+msgid "Active Element"
+msgstr "活动元素"
+
+#: rotor/ops/mirror_add_axis.py:28
+#: rotor/ops/mirror_set_axis.py:79
+msgid "Active Object"
+msgstr "活动物体"
+
+#: rotor/ops/mirror_set_orientation.py:81
+msgid "Active element"
+msgstr "活动元素"
+
+#: rotor/utils/infobar.py:72
+msgid "Adjust"
+msgstr "调整"
+
+#: rotor/tools/mirror/props.py:246
+#: rotor/tools/mirror/props.py:259
+msgid "Amount to offset mirrored UVs on flip"
+msgstr "翻转时偏移镜像 UV 的量"
+
+#: rotor/tools/mirror/props.py:166
+#: rotor/tools/mirror/props.py:177
+msgid "Apply"
+msgstr "应用"
+
+#: rotor/tools/mirror/props.py:203
+msgid "Apply bisect threshold to new modifiers"
+msgstr "将平分阈值应用到新修改器"
+
+#: rotor/tools/mirror/props.py:166
+msgid "Apply clipping setting to new modifiers"
+msgstr "将裁剪设置应用到新修改器"
+
+#: rotor/tools/mirror/props.py:177
+msgid "Apply merge setting to new modifiers"
+msgstr "将合并设置应用到新修改器"
+
+#: rotor/tools/mirror/props.py:188
+msgid "Apply merge threshold to new modifiers"
+msgstr "将合并阈值应用到新修改器"
+
+#: rotor/tools/mirror/props.py:219
+msgid "Apply mirror U setting to new modifiers"
+msgstr "将镜像 U 设置应用到新修改器"
+
+#: rotor/tools/mirror/props.py:305
+msgid "Apply mirror UDIM setting to new modifiers"
+msgstr "将镜像 UDIM 设置应用到新修改器"
+
+#: rotor/tools/mirror/props.py:230
+msgid "Apply mirror V setting to new modifiers"
+msgstr "将镜像 V 设置应用到新修改器"
+
+#: rotor/tools/mirror/props.py:241
+msgid "Apply mirror offset U to new modifiers"
+msgstr "将镜像偏移 U 应用到新修改器"
+
+#: rotor/tools/mirror/props.py:254
+msgid "Apply mirror offset V to new modifiers"
+msgstr "将镜像偏移 V 应用到新修改器"
+
+#: rotor/tools/mirror/props.py:294
+msgid "Apply mirror vertex groups setting to new modifiers"
+msgstr "将镜像顶点组设置应用到新修改器"
+
+#: rotor/tools/mirror/props.py:267
+msgid "Apply offset U to new modifiers"
+msgstr "将偏移 U 应用到新修改器"
+
+#: rotor/tools/mirror/props.py:280
+msgid "Apply offset V to new modifiers"
+msgstr "将偏移 V 应用到新修改器"
+
+#: rotor/tools/mirror/props.py:144
+msgid "Arrows"
+msgstr "箭头"
+
+#: rotor/ops/mirror_add_axis.py:16
+#: rotor/ops/mirror_add_collection.py:16
+msgid "Axis"
+msgstr "轴"
+
+#: rotor/preferences.py:54
+msgid "Axis Colors"
+msgstr "轴颜色"
+
+#: rotor/btypes.py:25
+msgid "Axis X"
+msgstr "X 轴"
+
+#: rotor/ops/mirror_mesh.py:15
+msgid "Axis to mirror across"
+msgstr "沿其镜像的轴"
+
+#: rotor/ops/mirror_add_axis.py:16
+#: rotor/ops/mirror_add_collection.py:16
+msgid "Axis to toggle"
+msgstr "要切换的轴"
+
+#: rotor/tools/mirror/props.py:112
+#: rotor/tools/mirror/tool.py:50
+msgid "Bisect"
+msgstr "平分"
+
+#: rotor/tools/mirror/props.py:208
+msgid "Bisect Threshold"
+msgstr "平分阈值"
+
+#: rotor/tools/mirror/props.py:112
+msgid "Bisect the object using specified axis"
+msgstr "使用指定轴平分物体"
+
+#: rotor/utils/infobar.py:81
+msgid "Cancel"
+msgstr "取消"
+
+#: rotor/tools/mirror/props.py:146
+msgid "Circle"
+msgstr "圆环"
+
+#: rotor/tools/mirror/props.py:171
+msgid "Clipping"
+msgstr "裁剪"
+
+#: rotor/tools/mirror/panels.py:132
+msgid "Clipping & Merge"
+msgstr "裁剪与合并"
+
+#: rotor/ops/mirror_props.py:16
+msgid "Collection Name"
+msgstr "集合名称"
+
+#: rotor/tools/mirror/props.py:11
+msgid "Collections"
+msgstr "集合"
+
+#: rotor/tools/mirror/props.py:149
+msgid "Cone"
+msgstr "圆锥"
+
+#: rotor/utils/infobar.py:75
+msgid "Confirm"
+msgstr "确认"
+
+#: rotor/tools/mirror/props.py:106
+msgid "Create real duplicated objects instead of mirror modifiers"
+msgstr "创建真实的副本物体，而不是镜像修改器"
+
+#: rotor/tools/mirror/props.py:147
+msgid "Cube"
+msgstr "立方体"
+
+#: rotor/ops/mirror_set_orientation.py:28
+#: rotor/ops/mirror_set_orientation.py:86
+msgid "Cursor"
+msgstr "游标"
+
+#: rotor/ops/mirror_set_orientation.py:29
+#: rotor/ops/mirror_set_orientation.py:87
+msgid "Custom"
+msgstr "自定义"
+
+#: rotor/tools/mirror/props.py:90
+#: rotor/tools/mirror/props.py:333
+msgid "Custom Location"
+msgstr "自定义位置"
+
+#: rotor/tools/mirror/props.py:98
+#: rotor/tools/mirror/props.py:341
+msgid "Custom Rotation"
+msgstr "自定义旋转"
+
+#: rotor/tools/mirror/props.py:333
+msgid "Custom mirror plane location (world space)"
+msgstr "自定义镜像平面位置（世界空间）"
+
+#: rotor/tools/mirror/props.py:341
+msgid "Custom mirror plane orientation (world space)"
+msgstr "自定义镜像平面朝向（世界空间）"
+
+#: rotor/ops/mirror_set_orientation.py:29
+msgid "Custom orientation"
+msgstr "自定义方向"
+
+#: rotor/tools/mirror/props.py:98
+msgid "Custom orientation (world space)"
+msgstr "自定义方向（世界空间）"
+
+#: rotor/tools/mirror/props.py:90
+msgid "Custom pivot point (world space)"
+msgstr "自定义枢轴点（世界空间）"
+
+#: rotor/ops/mirror_set_orientation.py:87
+msgid "Custom point"
+msgstr "自定义点"
+
+#: rotor/ops/mirror_set_orientation.py:33
+#: rotor/ops/mirror_set_orientation.py:91
+msgid "Cycle"
+msgstr "循环"
+
+#: rotor/ops/mirror_set_orientation.py:33
+msgid "Cycle to the next available orientation"
+msgstr "循环切换到下一个可用方向"
+
+#: rotor/ops/mirror_set_orientation.py:91
+msgid "Cycle to the next available pivot"
+msgstr "循环切换到下一个可用枢轴"
+
+#: rotor/ops/mirror_mesh.py:67
+msgid "Degenerate mirror orientation."
+msgstr "镜像方向退化。"
+
+#: rotor/tools/mirror/props.py:139
+msgid "Display type for created empty objects"
+msgstr "创建的空物体的显示类型"
+
+#: rotor/tools/mirror/props.py:193
+msgid "Distance within which mirrored vertices are merged"
+msgstr "在此距离内镜像顶点会被合并"
+
+#: rotor/tools/mirror/props.py:355
+msgid "Distance within which mirrored vertices are merged at the seam"
+msgstr "在此距离内接缝处的镜像顶点会被合并"
+
+#: rotor/tools/mirror/panels.py:7
+#: rotor/tools/mirror/props.py:75
+msgid "Element"
+msgstr "元素"
+
+#: rotor/tools/mirror/props.py:75
+msgid "Element to mirror"
+msgstr "要镜像的元素"
+
+#: rotor/tools/mirror/props.py:139
+msgid "Empty Display"
+msgstr "空物体显示"
+
+#: rotor/tools/mirror/panels.py:106
+msgid "Empty Shape"
+msgstr "空物体形状"
+
+#: rotor/tools/mirror/panels.py:107
+#: rotor/tools/mirror/props.py:154
+msgid "Empty Size"
+msgstr "空物体大小"
+
+#: rotor/ops/mirror_props.py:9
+#: rotor/ops/mirror_props.py:17
+msgid "Enabled"
+msgstr "启用"
+
+#: rotor/ops/mirror_fallback_tool.py:35
+msgid "Failed to switch to previous tool"
+msgstr "切换回上一个工具失败"
+
+#: rotor/tools/mirror/props.py:224
+msgid "Flip U"
+msgstr "翻转 U"
+
+#: rotor/tools/mirror/props.py:246
+msgid "Flip U Offset"
+msgstr "翻转 U 偏移"
+
+#: rotor/tools/mirror/props.py:235
+msgid "Flip V"
+msgstr "翻转 V"
+
+#: rotor/tools/mirror/props.py:259
+msgid "Flip V Offset"
+msgstr "翻转 V 偏移"
+
+#: rotor/btypes.py:52
+msgid "G"
+msgstr "G"
+
+#: rotor/ops/mirror_mesh.py:25
+msgid "Geometry to mirror"
+msgstr "要镜像的几何体"
+
+#: rotor/btypes.py:7
+msgid "Gizmo Size"
+msgstr "gizmo 大小"
+
+#: rotor/ops/mirror_set_orientation.py:25
+#: rotor/tools/mirror/props.py:31
+msgid "Global"
+msgstr "全局"
+
+#: rotor/ops/mirror_set_orientation.py:25
+msgid "Global orientation"
+msgstr "全局方向"
+
+#: rotor/ops/mirror_props.py:10
+msgid "Has Mirror Modifier"
+msgstr "有镜像修改器"
+
+#: rotor/tools/mirror/props.py:132
+msgid "Include Active"
+msgstr "包含活动项"
+
+#: rotor/tools/mirror/props.py:132
+msgid "Include active object in the mirror operation when using Active pivot"
+msgstr "使用活动枢轴时将活动物体包含在镜像操作中"
+
+#: rotor/ops/mirror_set_orientation.py:82
+msgid "Individual"
+msgstr "独立"
+
+#: rotor/tools/mirror/props.py:17
+msgid "Individual Elements"
+msgstr "独立元素"
+
+#: rotor/ops/mirror_set_orientation.py:82
+msgid "Individual elements (Object mode)"
+msgstr "独立元素（物体模式）"
+
+#: rotor/preferences.py:14
+msgid "Info"
+msgstr "信息"
+
+#: rotor/ops/mirror_set_axis.py:80
+msgid "Is Disabling"
+msgstr "正在禁用"
+
+#: rotor/ops/__init__.py:21
+msgid "Last Tool"
+msgstr "上一个工具"
+
+#: rotor/ops/__init__.py:21
+msgid "Last active tool before mirror tool"
+msgstr "镜像工具之前最后使用的工具"
+
+#: rotor/ops/mirror_set_orientation.py:26
+#: rotor/tools/mirror/props.py:32
+msgid "Local"
+msgstr "局部"
+
+#: rotor/ops/mirror_set_orientation.py:26
+msgid "Local orientation"
+msgstr "局部方向"
+
+#: rotor/tools/mirror/panels.py:58
+#: rotor/tools/mirror/panels.py:271
+msgid "Location"
+msgstr "位置"
+
+#: rotor/tools/mirror/props.py:325
+msgid "Location of the mirror plane"
+msgstr "镜像平面的位置"
+
+#: rotor/ops/mirror_set_orientation.py:84
+msgid "Median"
+msgstr "中点"
+
+#: rotor/tools/mirror/props.py:56
+msgid "Median Point"
+msgstr "中点"
+
+#: rotor/tools/mirror/props.py:182
+#: rotor/tools/mirror/props.py:349
+msgid "Merge"
+msgstr "合并"
+
+#: rotor/tools/mirror/props.py:355
+msgid "Merge Distance"
+msgstr "合并距离"
+
+#: rotor/tools/mirror/props.py:193
+msgid "Merge Threshold"
+msgstr "合并阈值"
+
+#: rotor/tools/mirror/props.py:182
+msgid "Merge vertices at the center"
+msgstr "在中心合并顶点"
+
+#: rotor/ops/mirror_mesh.py:30
+msgid "Mesh"
+msgstr "网格"
+
+#: rotor/tools/mirror/props.py:4
+#: rotor/tools/mirror/tool.py:12
+msgid "Mirror"
+msgstr "镜像"
+
+#: rotor/tools/mirror/props.py:25
+msgid "Mirror Across 3D Cursor"
+msgstr "沿 3D 游标镜像"
+
+#: rotor/tools/mirror/props.py:16
+msgid "Mirror Across Active Element"
+msgstr "沿活动元素镜像"
+
+#: rotor/tools/mirror/props.py:17
+msgid "Mirror Across Individual Elements"
+msgstr "沿独立元素镜像"
+
+#: rotor/tools/mirror/props.py:24
+msgid "Mirror Across World Center"
+msgstr "沿世界中心镜像"
+
+#: rotor/tools/mirror/props.py:11
+msgid "Mirror Collections"
+msgstr "镜像集合"
+
+#: rotor/gizmos/mirror.py:82
+msgid "Mirror Gizmo"
+msgstr "镜像 Gizmo"
+
+#: rotor/gizmos/mirror_mesh.py:34
+msgid "Mirror Mesh Gizmo"
+msgstr "镜像网格 Gizmo"
+
+#: rotor/tools/mirror/props.py:4
+msgid "Mirror Modifier"
+msgstr "镜像修改器"
+
+#: rotor/tools/mirror/props.py:10
+msgid "Mirror Objects"
+msgstr "镜像物体"
+
+#: rotor/tools/mirror/panels.py:111
+msgid "Mirror Options"
+msgstr "镜像选项"
+
+#: rotor/tools/mirror/props.py:224
+msgid "Mirror U texture coordinates"
+msgstr "镜像 U 纹理坐标"
+
+#: rotor/tools/mirror/props.py:310
+msgid "Mirror UDIMs"
+msgstr "镜像 UDIM"
+
+#: rotor/tools/mirror/props.py:235
+msgid "Mirror V texture coordinates"
+msgstr "镜像 V 纹理坐标"
+
+#: rotor/tools/mirror/props.py:26
+#: rotor/tools/mirror/props.py:59
+msgid "Mirror across a custom point"
+msgstr "沿自定义点镜像"
+
+#: rotor/tools/mirror/props.py:58
+msgid "Mirror across the 3D cursor"
+msgstr "沿 3D 游标镜像"
+
+#: rotor/tools/mirror/props.py:55
+msgid "Mirror across the active element"
+msgstr "沿活动元素镜像"
+
+#: rotor/tools/mirror/props.py:57
+msgid "Mirror across the object origin"
+msgstr "沿物体原点镜像"
+
+#: rotor/tools/mirror/props.py:56
+msgid "Mirror across the selection median"
+msgstr "沿选中项中点镜像"
+
+#: rotor/tools/mirror/panels.py:123
+msgid "Mirror modifier options not used in Real mode"
+msgstr "实际模式中未使用的镜像修改器选项"
+
+#: rotor/tools/mirror/panels.py:114
+msgid "Mirror modifier settings"
+msgstr "镜像修改器设置"
+
+#: rotor/ops/mirror_mesh.py:29
+msgid "Mirror only the selected geometry"
+msgstr "仅镜像选中的几何体"
+
+#: rotor/tools/mirror/panels.py:280
+msgid "Mirror options"
+msgstr "镜像选项"
+
+#: rotor/ops/mirror_mesh.py:30
+msgid "Mirror the full mesh"
+msgstr "镜像完整网格"
+
+#: rotor/tools/mirror/props.py:33
+#: rotor/tools/mirror/props.py:42
+msgid "Mirror using 3D Cursor orientation"
+msgstr "使用 3D 游标方向镜像"
+
+#: rotor/tools/mirror/props.py:31
+#: rotor/tools/mirror/props.py:40
+msgid "Mirror using Global orientation"
+msgstr "使用全局方向镜像"
+
+#: rotor/tools/mirror/props.py:32
+#: rotor/tools/mirror/props.py:41
+msgid "Mirror using Local orientation"
+msgstr "使用局部方向镜像"
+
+#: rotor/tools/mirror/props.py:5
+msgid "Mirror using Symmetry operation"
+msgstr "使用对称操作镜像"
+
+#: rotor/tools/mirror/props.py:34
+#: rotor/tools/mirror/props.py:50
+msgid "Mirror using a custom orientation"
+msgstr "使用自定义方向镜像"
+
+#: rotor/tools/mirror/props.py:43
+msgid "Mirror using the selection Normal orientation"
+msgstr "使用选中项的法向方向镜像"
+
+#: rotor/tools/mirror/props.py:299
+msgid "Mirror vertex groups (e.g., .L to .R)"
+msgstr "镜像顶点组（例如 .L 到 .R）"
+
+#: rotor/tools/mirror/tool.py:38
+#: rotor/tools/mirror/tool.py:121
+msgid "Mirror:"
+msgstr "镜像："
+
+#: rotor/ops/mirror_custom_plane.py:123
+msgid "Must be run with a 3D viewport open."
+msgstr "必须在打开 3D 视图的情况下运行。"
+
+#: rotor/btypes.py:61
+msgid "N"
+msgstr "N"
+
+#: rotor/ops/mirror_add_collection.py:183
+msgid "No collections were mirrored."
+msgstr "未镜像任何集合。"
+
+#: rotor/ops/mirror_utils.py:391
+msgid "No objects were mirrored."
+msgstr "未镜像任何物体。"
+
+#: rotor/ops/mirror_fallback_tool.py:39
+msgid "No previous tool stored"
+msgstr "没有存储的上一个工具"
+
+#: rotor/ops/mirror_mesh.py:88
+msgid "No selected geometry to mirror."
+msgstr "没有可镜像的选中几何体。"
+
+#: rotor/ops/mirror_set_orientation.py:27
+#: rotor/tools/mirror/props.py:43
+msgid "Normal"
+msgstr "法向"
+
+#: rotor/ops/mirror_set_orientation.py:27
+msgid "Normal orientation (Edit mesh only)"
+msgstr "法向方向（仅编辑网格）"
+
+#: rotor/ops/mirror_fallback_tool.py:37
+msgid "Not using a Mirror tool"
+msgstr "未使用镜像工具"
+
+#: rotor/ops/mirror_props.py:8
+msgid "Object Name"
+msgstr "物体名称"
+
+#: rotor/tools/mirror/props.py:57
+msgid "Object Origin"
+msgstr "物体原点"
+
+#: rotor/ops/mirror_set_orientation.py:85
+msgid "Object origin (Edit mesh)"
+msgstr "物体原点（编辑网格）"
+
+#: rotor/tools/mirror/props.py:10
+msgid "Objects"
+msgstr "物体"
+
+#: rotor/tools/mirror/props.py:272
+msgid "Offset U"
+msgstr "U 偏移"
+
+#: rotor/tools/mirror/props.py:272
+msgid "Offset U texture coordinates"
+msgstr "偏移 U 纹理坐标"
+
+#: rotor/tools/mirror/props.py:285
+msgid "Offset V"
+msgstr "V 偏移"
+
+#: rotor/tools/mirror/props.py:285
+msgid "Offset V texture coordinates"
+msgstr "偏移 V 纹理坐标"
+
+#: rotor/preferences.py:15
+msgid "Options"
+msgstr "选项"
+
+#: rotor/ops/mirror_custom_plane.py:47
+#: rotor/ops/mirror_set_orientation.py:22
+msgid "Orientation"
+msgstr "方向"
+
+#: rotor/ops/mirror_custom_plane.py:46
+msgid "Orientation + Pivot"
+msgstr "方向 + 轴心"
+
+#: rotor/tools/mirror/props.py:318
+msgid "Orientation of the mirror plane"
+msgstr "镜像平面的方向"
+
+#: rotor/tools/mirror/props.py:82
+msgid "Orientation of the operation"
+msgstr "操作的方向"
+
+#: rotor/ops/mirror_set_orientation.py:85
+msgid "Origin"
+msgstr "原点"
+
+#: rotor/tools/mirror/panels.py:212
+msgid "Other"
+msgstr "其他"
+
+#: rotor/ops/mirror_custom_plane.py:48
+#: rotor/ops/mirror_set_orientation.py:78
+msgid "Pivot"
+msgstr "轴心"
+
+#: rotor/tools/mirror/props.py:68
+msgid "Pivot of the operation"
+msgstr "操作的轴心"
+
+#: rotor/tools/mirror/props.py:143
+msgid "Plain Axes"
+msgstr "普通坐标轴"
+
+#: rotor/tools/mirror/props.py:171
+msgid "Prevent vertices from passing through the mirror plane"
+msgstr "防止顶点穿过镜像平面"
+
+#: rotor/preferences.py:70
+msgid "ROTOR"
+msgstr "ROTOR"
+
+#: rotor/tools/mirror/props.py:106
+#: rotor/tools/mirror/tool.py:49
+msgid "Real"
+msgstr "实际"
+
+#: rotor/tools/mirror/props.py:118
+msgid "Return to previous tool after mirror operation"
+msgstr "镜像操作后返回上一个工具"
+
+#: rotor/tools/mirror/props.py:365
+msgid "Return to previous tool after the mirror operation"
+msgstr "镜像操作后返回上一个工具"
+
+#: rotor/tools/mirror/props.py:125
+#: rotor/tools/mirror/props.py:371
+msgid "Reverse Controls"
+msgstr "反转控制"
+
+#: rotor/tools/mirror/props.py:125
+#: rotor/tools/mirror/props.py:371
+msgid "Reverse axis directions (X becomes -X, -X becomes X, etc.)"
+msgstr "反转轴方向（X 变为 -X，-X 变为 X，等）"
+
+#: rotor/utils/infobar.py:78
+msgid "Rotate View"
+msgstr "旋转视图"
+
+#: rotor/tools/mirror/panels.py:81
+#: rotor/tools/mirror/panels.py:248
+msgid "Rotation"
+msgstr "旋转"
+
+#: rotor/ops/mirror_mesh.py:55
+msgid "Select geometry to define the mirror plane."
+msgstr "选择几何体以定义镜像平面。"
+
+#: rotor/ops/mirror_mesh.py:29
+msgid "Selection"
+msgstr "选择"
+
+#: rotor/ops/mirror_set_orientation.py:84
+msgid "Selection median (Edit mesh)"
+msgstr "选中项中位点（编辑网格）"
+
+#: rotor/ops/mirror_custom_plane.py:46
+msgid "Set both the custom orientation and pivot"
+msgstr "同时设置自定义方向和轴心"
+
+#: rotor/ops/mirror_custom_plane.py:47
+msgid "Set the custom orientation only"
+msgstr "仅设置自定义方向"
+
+#: rotor/ops/mirror_custom_plane.py:48
+msgid "Set the custom pivot only"
+msgstr "仅设置自定义轴心"
+
+#: rotor/preferences.py:10
+msgid "Settings"
+msgstr "设置"
+
+#: rotor/preferences.py:10
+msgid "Settings to display"
+msgstr "要显示的设置"
+
+#: rotor/ops/mirror_mesh.py:20
+msgid "Side to keep as the source of the mirror"
+msgstr "保留为镜像源的一侧"
+
+#: rotor/ops/mirror_add_axis.py:21
+#: rotor/ops/mirror_add_collection.py:21
+msgid "Sign"
+msgstr "符号"
+
+#: rotor/ops/mirror_add_axis.py:21
+#: rotor/ops/mirror_add_collection.py:21
+msgid "Sign (+ or -)"
+msgstr "符号（+ 或 -）"
+
+#: rotor/tools/mirror/props.py:145
+msgid "Single Arrow"
+msgstr "单箭头"
+
+#: rotor/tools/mirror/props.py:154
+msgid "Size of created empty objects"
+msgstr "创建的空物体大小"
+
+#: rotor/btypes.py:7
+msgid "Size of tool gizmos (shared by all Rotor tools)"
+msgstr "工具控件大小（所有 Rotor 工具共用）"
+
+#: rotor/tools/mirror/props.py:148
+msgid "Sphere"
+msgstr "球体"
+
+#: rotor/tools/mirror/props.py:5
+msgid "Symmetry"
+msgstr "对称"
+
+#: rotor/ops/mirror_custom_plane.py:42
+#: rotor/ops/mirror_mesh.py:25
+msgid "Target"
+msgstr "目标"
+
+#: rotor/preferences.py:16
+msgid "Theme"
+msgstr "主题"
+
+#: rotor/tools/mirror/props.py:208
+msgid "Threshold for bisecting geometry"
+msgstr "二分几何体的阈值"
+
+#: rotor/tools/mirror/props.py:118
+#: rotor/tools/mirror/props.py:365
+msgid "Tool Fallback"
+msgstr "工具回退"
+
+#: rotor/tools/mirror/panels.py:87
+#: rotor/tools/mirror/panels.py:277
+msgid "Tool Options"
+msgstr "工具选项"
+
+#: rotor/tools/mirror/panels.py:90
+msgid "Tool options"
+msgstr "工具选项"
+
+#: rotor/tools/mirror/panels.py:24
+#: rotor/tools/mirror/panels.py:41
+msgid "Type"
+msgstr "类型"
+
+#: rotor/tools/mirror/props.py:64
+msgid "Type of the operation"
+msgstr "操作类型"
+
+#: rotor/tools/mirror/props.py:310
+msgid "UDIM"
+msgstr "UDIM"
+
+#: rotor/tools/mirror/panels.py:165
+msgid "UV Settings"
+msgstr "UV 设置"
+
+#: rotor/tools/mirror/props.py:299
+msgid "Vertex Groups"
+msgstr "顶点组"
+
+#: rotor/tools/mirror/props.py:349
+msgid "Weld the mirrored geometry to the original at the seam"
+msgstr "在接缝处将镜像几何体焊接到原始几何体"
+
+#: rotor/ops/mirror_custom_plane.py:42
+msgid "Which part of the custom plane to set"
+msgstr "要设置自定义平面的哪一部分"
+
+#: rotor/ops/mirror_set_orientation.py:83
+msgid "World"
+msgstr "世界"
+
+#: rotor/tools/mirror/props.py:24
+msgid "World Center"
+msgstr "世界中心"
+
+#: rotor/ops/mirror_set_orientation.py:83
+msgid "World center (Object mode)"
+msgstr "世界中心（物体模式）"
+
+#: rotor/ops/mirror_add_axis.py:19
+#: rotor/ops/mirror_add_collection.py:19
+msgid "X"
+msgstr "X"
+
+#: rotor/btypes.py:25
+msgid "X axis color"
+msgstr "X 轴颜色"
+
+#: rotor/btypes.py:34
+#: rotor/ops/mirror_add_axis.py:19
+msgid "Y"
+msgstr "Y"
+
+#: rotor/btypes.py:34
+msgid "Y axis colo"
+msgstr "Y 轴颜色"
+
+#: rotor/btypes.py:43
+#: rotor/ops/mirror_add_axis.py:19
+msgid "Z"
+msgstr "Z"
+
+#: rotor/btypes.py:43
+msgid "Z axis colo"
+msgstr "Z 轴颜色"
+
+#: rotor/ops/mirror_props.py:55
+msgid "[Edit]"
+msgstr "[编辑]"
+
+#: rotor/ops/mirror_props.py:58
+msgid "[New]"
+msgstr "[新建]"
+
+#: rotor/ops/mirror_custom_plane.py:33
+msgctxt "Operator"
+msgid "Interactively set the custom orientation/pivot by snapping to geometry\n • Move mouse - snap to vert/edge/face under cursor\n • TAB - cycle Orientation+Pivot / Orientation / Pivot\n • LMB / SPACE - confirm\n • RMB / ESC - cancel"
+msgstr "通过吸附到几何体以交互方式设置自定义方向/轴心\n • 移动鼠标 - 吸附到光标下的顶点/边/面\n • TAB - 循环 方向+轴心 / 方向 / 轴心\n • 左键 / 空格 - 确认\n • 右键 / ESC - 取消"
+
+#: rotor/ops/mirror_add_axis.py:13
+#: rotor/ops/mirror_add_collection.py:13
+msgctxt "Operator"
+msgid "Mirror Axis"
+msgstr "镜像轴"
+
+#: rotor/ops/mirror_mesh.py:12
+msgctxt "Operator"
+msgid "Mirror Mesh"
+msgstr "镜像网格"
+
+#: rotor/tools/mirror/panels.py:59
+#: rotor/tools/mirror/panels.py:82
+msgctxt "Operator"
+msgid "Pick"
+msgstr "拾取"
+
+#: rotor/ops/mirror_custom_plane.py:32
+msgctxt "Operator"
+msgid "Pick Custom Plane"
+msgstr "拾取自定义平面"
+
+#: rotor/ops/mirror_fallback_tool.py:10
+msgctxt "Operator"
+msgid "Return to Previous Tool"
+msgstr "返回上一个工具"
+
+#: rotor/ops/set_tool.py:13
+msgctxt "Operator"
+msgid "Set Active Tool"
+msgstr "设置活动工具"
+
+#: rotor/ops/mirror_set_orientation.py:19
+msgctxt "Operator"
+msgid "Set Mirror Orientation"
+msgstr "设置镜像方向"
+
+#: rotor/ops/mirror_set_orientation.py:75
+msgctxt "Operator"
+msgid "Set Mirror Pivot"
+msgstr "设置镜像轴心"
