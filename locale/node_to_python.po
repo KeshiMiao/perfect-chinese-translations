@@ -1,0 +1,557 @@
+# perfect-chinese: 1
+# id: node_to_python
+# kind: addon
+# module: bl_ext.blender_org.node_to_python
+# name: Node To Python
+# name_zh: 节点转代码
+# translator: KeshiMiao
+# category: Development
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: export/ntp_options.py:42
+msgid "2 Spaces"
+msgstr "2 个空格"
+
+#: export/ntp_options.py:43
+msgid "4 Spaces"
+msgstr "4 个空格"
+
+#: export/ntp_options.py:44
+msgid "8 Spaces"
+msgstr "8 个空格"
+
+#: ui/addon_settings.py:8
+msgid "Add-on Settings"
+msgstr "插件设置"
+
+#: export/ntp_options.py:24
+msgid "Addon"
+msgstr "插件"
+
+#: export/ntp_options.py:134
+msgid "Animation"
+msgstr "动画"
+
+#: export/ntp_options.py:86
+msgid "Author Name"
+msgstr "作者名称"
+
+#: export/ntp_options.py:135
+msgid "Bake"
+msgstr "烘焙"
+
+#: export/ntp_options.py:127
+msgid "Category"
+msgstr "类别"
+
+#: export/ntp_options.py:136
+msgid "Compositing"
+msgstr "合成"
+
+#: ui/compositor/panel.py:4
+msgid "Compositor to Python"
+msgstr "合成器转 Python"
+
+#: export/ntp_options.py:23
+msgid "Copy just the node group to the Blender clipboard"
+msgstr "仅将节点组复制到 Blender 剪贴板"
+
+#: export/ntp_operator.py:183
+msgid "Couldn't match group type (should be unreachable)"
+msgstr "无法匹配组类型（不应发生）"
+
+#: export/ntp_options.py:122
+msgid "Create License"
+msgstr "创建许可证"
+
+#: export/ntp_options.py:24
+msgid "Create a full add-on"
+msgstr "创建完整插件"
+
+#: export/ntp_options.py:130
+msgid "Custom"
+msgstr "自定义"
+
+#: export/ntp_options.py:164
+msgid "Custom Category"
+msgstr "自定义类别"
+
+#: export/ntp_options.py:81
+msgid "Description"
+msgstr "描述"
+
+#: export/ntp_options.py:81
+msgid "Description used for the add-on"
+msgstr "用于插件的描述"
+
+#: export/ntp_options.py:137
+msgid "Development"
+msgstr "开发"
+
+#: export/ntp_options.py:112
+msgid "GNU General Public License v3.0 or later"
+msgstr "GNU 通用公共许可证 v3.0 或更高版本"
+
+#: export/ntp_options.py:27
+msgid "Generate group socket default, min, and max values"
+msgstr "生成组套接字的默认值、最小值和最大值"
+
+#: export/ntp_options.py:63
+msgid "Generate necessary import statements (i.e. bpy, mathutils, etc)"
+msgstr "生成必要的导入语句（如 bpy、mathutils 等）"
+
+#: ui/generation_settings.py:8
+msgid "Generation Settings"
+msgstr "生成设置"
+
+#: export/geometry/exporter.py:15
+#: ui/geometry/panel.py:4
+msgid "Geometry Nodes to Python"
+msgstr "几何节点转 Python"
+
+#: export/ntp_options.py:141
+msgid "Import-Export"
+msgstr "导入导出"
+
+#: export/ntp_options.py:63
+msgid "Include Imports"
+msgstr "包含导入"
+
+#: export/ntp_options.py:38
+msgid "Indentation Type"
+msgstr "缩进类型"
+
+#: export/ntp_options.py:109
+msgid "License"
+msgstr "许可证"
+
+#: ui/shader/lights.py:33
+msgid "Light"
+msgstr "灯光"
+
+#: ui/shader/lights.py:16
+msgid "Light Name"
+msgstr "灯光名称"
+
+#: export/ntp_options.py:142
+msgid "Lighting"
+msgstr "照明"
+
+#: ui/shader/lights.py:76
+msgid "Lights"
+msgstr "灯光"
+
+#: ui/shader/line_styles.py:33
+msgid "Line Style"
+msgstr "线条样式"
+
+#: ui/shader/line_styles.py:16
+msgid "Line Style Name"
+msgstr "线条样式名称"
+
+#: ui/shader/line_styles.py:76
+msgid "Line Styles"
+msgstr "线条样式"
+
+#: export/ntp_options.py:50
+msgid "Link External Node Groups"
+msgstr "链接外部节点组"
+
+#: export/node_tree_exporter.py:1825
+msgid "Link's from_node was None. This shouldn't happen"
+msgstr "链接的 from_node 为 None。这不应发生"
+
+#: export/node_tree_exporter.py:1831
+msgid "Link's to_node was None. This shouldn't happen"
+msgstr "链接的 to_node 为 None。这不应发生"
+
+#: ui/shader/line_styles.py:82
+msgid "List of bpy.types.FreestyleLineStyle objects to replicate"
+msgstr "要复制的 bpy.types.FreestyleLineStyle 对象列表"
+
+#: ui/shader/lights.py:82
+msgid "List of bpy.types.Light objects to replicate"
+msgstr "要复制的 bpy.types.Light 对象列表"
+
+#: ui/shader/materials.py:82
+msgid "List of bpy.types.Material objects to replicate"
+msgstr "要复制的 bpy.types.Material 对象列表"
+
+#: ui/compositor/scenes.py:82
+msgid "List of bpy.types.Scene objects to replicate"
+msgstr "要复制的 bpy.types.Scene 对象列表"
+
+#: ui/shader/worlds.py:82
+msgid "List of bpy.types.World objects to replicate"
+msgstr "要复制的 bpy.types.World 对象列表"
+
+#: ui/compositor/compositor_node_groups.py:89
+msgid "List of compositor node group objects to replicate.\nThese are typically subgroups within a larger scene tree"
+msgstr "要复制的合成器节点组对象列表。\n这些通常是较大场景树中的子组"
+
+#: ui/geometry/geometry_node_groups.py:89
+msgid "List of geometry node group objects to replicate"
+msgstr "要复制的几何节点组对象列表"
+
+#: ui/shader/shader_node_groups.py:89
+msgid "List of shader node group objects to replicate.\nThese are typically subgroups within a larger material tree"
+msgstr "要复制的着色器节点组对象列表。\n这些通常是较大材质树中的子组"
+
+#: export/ntp_options.py:96
+msgid "Location"
+msgstr "位置"
+
+#: export/ntp_options.py:96
+msgid "Location property of the addon"
+msgstr "插件的位置属性"
+
+#: export/ntp_options.py:143
+#: ui/shader/materials.py:33
+msgid "Material"
+msgstr "材质"
+
+#: ui/shader/materials.py:16
+msgid "Material Name"
+msgstr "材质名称"
+
+#: ui/shader/materials.py:76
+msgid "Materials"
+msgstr "材质"
+
+#: export/ntp_options.py:101
+msgid "Menu ID"
+msgstr "菜单 ID"
+
+#: export/ntp_options.py:144
+msgid "Mesh"
+msgstr "网格"
+
+#: export/ntp_options.py:20
+msgid "Mode"
+msgstr "模式"
+
+#: export/ntp_options.py:145
+msgid "Modeling"
+msgstr "建模"
+
+#: export/ntp_options.py:76
+msgid "Name"
+msgstr "名称"
+
+#: export/ntp_options.py:76
+msgid "Name used for the add-on's"
+msgstr "用于插件的名称"
+
+#: export/ntp_options.py:86
+msgid "Name used for the author/maintainer of the add-on"
+msgstr "用于插件作者/维护者的名称"
+
+#: export/ntp_operator.py:562
+msgid "No license selected. Please add a license to the manifest file"
+msgstr "未选择许可证。请将许可证添加到清单文件"
+
+#: export/ntp_options.py:146
+msgid "Node"
+msgstr "节点"
+
+#: ui/compositor/compositor_node_groups.py:83
+#: ui/geometry/geometry_node_groups.py:83
+msgid "Node Groups"
+msgstr "节点组"
+
+#: ui/main.py:11
+msgid "Node To Python"
+msgstr "Node To Python"
+
+#: ui/compositor/compositor_node_groups.py:40
+#: ui/geometry/geometry_node_groups.py:40
+msgid "Node Tree"
+msgstr "节点树"
+
+#: ui/compositor/compositor_node_groups.py:21
+#: ui/geometry/geometry_node_groups.py:21
+msgid "Node Tree Name"
+msgstr "节点树名称"
+
+#: ui/addon_settings.py:13
+#: ui/generation_settings.py:13
+msgid "NodeToPython"
+msgstr "NodeToPython"
+
+#: export/ntp_operator.py:401
+#: export/ntp_operator.py:446
+msgid "NodeToPython: Found an invalid node tree. Are all data blocks valid?"
+msgstr "NodeToPython：发现无效节点树。所有数据块是否有效？"
+
+#: export/ntp_operator.py:282
+msgid "NodeToPython: No save location found. Please select one in the NodeToPython Options panel"
+msgstr "NodeToPython：未找到保存位置。请在 NodeToPython 选项面板中选择一个"
+
+#: export/ntp_options.py:147
+msgid "Object"
+msgstr "物体"
+
+#: export/ntp_options.py:113
+msgid "Other"
+msgstr "其他"
+
+#: export/ntp_options.py:148
+msgid "Paint"
+msgstr "绘画"
+
+#: export/ntp_options.py:150
+msgid "Physics"
+msgstr "物理"
+
+#: export/ntp_options.py:149
+msgid "Pipeline"
+msgstr "流程"
+
+#: export/ntp_options.py:101
+msgid "Python ID of the menu you'd like to register the add-on to. You can find these by enabling Python tooltips (Preferences > Interface > Python tooltips) and hovering over the desired menu"
+msgstr "要注册插件的菜单的 Python ID。可通过启用 Python 工具提示（偏好设置 > 界面 > Python 工具提示）并将鼠标悬停在目标菜单上来查找"
+
+#: export/ntp_options.py:151
+msgid "Render"
+msgstr "渲染"
+
+#: export/ntp_options.py:152
+msgid "Rigging"
+msgstr "绑定"
+
+#: export/ntp_options.py:70
+msgid "Save Location"
+msgstr "保存位置"
+
+#: export/ntp_options.py:70
+msgid "Save location if generating an add-on"
+msgstr "生成插件时的保存位置"
+
+#: export/ntp_options.py:153
+#: ui/compositor/scenes.py:33
+msgid "Scene"
+msgstr "场景"
+
+#: ui/compositor/scenes.py:16
+msgid "Scene Name"
+msgstr "场景名称"
+
+#: ui/compositor/scenes.py:76
+msgid "Scenes"
+msgstr "场景"
+
+#: export/ntp_options.py:23
+msgid "Script"
+msgstr "脚本"
+
+#: export/ntp_options.py:154
+msgid "Sculpt"
+msgstr "雕刻"
+
+#: export/ntp_options.py:155
+msgid "Sequencer"
+msgstr "序列编辑器"
+
+#: export/ntp_options.py:27
+msgid "Set Group Defaults"
+msgstr "设置组默认值"
+
+#: export/ntp_options.py:32
+msgid "Set Node Sizes"
+msgstr "设置节点尺寸"
+
+#: export/ntp_options.py:56
+msgid "Set default values for unavailable sockets"
+msgstr "为不可用的接口设置默认值"
+
+#: export/ntp_options.py:32
+msgid "Set dimensions of generated nodes"
+msgstr "设置生成节点的尺寸"
+
+#: export/ntp_options.py:164
+msgid "Set the custom category property for your add-on"
+msgstr "为你的插件设置自定义类别属性"
+
+#: export/ntp_options.py:56
+msgid "Set unavailable defaults"
+msgstr "设置不可用默认值"
+
+#: ui/settings.py:8
+msgid "Settings"
+msgstr "设置"
+
+#: ui/shader/panel.py:4
+msgid "Shader to Python"
+msgstr "着色器转 Python"
+
+#: export/ntp_options.py:122
+msgid "Should NodeToPython include a license file for your add-on"
+msgstr "NodeToPython 是否应为你的插件包含许可证文件"
+
+#: export/ntp_options.py:50
+msgid "Simply tries to link external node groups, otherwise copies"
+msgstr "仅尝试链接外部节点组，否则复制"
+
+#: export/ntp_options.py:156
+msgid "System"
+msgstr "系统"
+
+#: export/ntp_options.py:45
+msgid "Tabs"
+msgstr "标签页"
+
+#: export/ntp_options.py:158
+msgid "Tracking"
+msgstr "跟踪"
+
+#: export/ntp_options.py:159
+msgid "UV"
+msgstr "UV"
+
+#: export/ntp_options.py:130
+msgid "Use an unofficial category"
+msgstr "使用非官方类别"
+
+#: export/ntp_options.py:113
+msgid "User is responsible for including the license and adding it to the manifest.\nPlease note that by using the Blender Python API, your add-on must comply with the GNU GPL. See https://www.blender.org/about/license/ for more details"
+msgstr "用户需自行负责包含许可证并将其添加到清单中。\n请注意，使用 Blender Python API 意味着你的插件必须遵循 GNU GPL。详情请参见 https://www.blender.org/about/license/"
+
+#: export/ntp_options.py:91
+msgid "Version"
+msgstr "版本"
+
+#: export/ntp_options.py:91
+msgid "Version of the add-on"
+msgstr "插件版本"
+
+#: export/ntp_options.py:38
+msgid "Whitespace to use for each indentation block"
+msgstr "每个缩进块使用的空白字符"
+
+#: ui/shader/worlds.py:33
+msgid "World"
+msgstr "世界"
+
+#: ui/shader/worlds.py:16
+msgid "World Name"
+msgstr "世界名称"
+
+#: ui/shader/worlds.py:76
+msgid "Worlds"
+msgstr "世界"
+
+#: export/ntp_operator.py:112
+#: export/ntp_operator.py:126
+msgid "https://github.com/BrendanParmer/NodeToPython/blob/main/docs/README.md#supported-versions"
+msgstr "https://github.com/BrendanParmer/NodeToPython/blob/main/docs/README.md#supported-versions"
+
+#: ui/compositor/compositor_node_groups.py:49
+#: ui/compositor/compositor_node_groups.py:50
+msgctxt "Operator"
+msgid "Add Compositor Node Group Slot"
+msgstr "添加合成器节点组槽位"
+
+#: ui/geometry/geometry_node_groups.py:49
+#: ui/geometry/geometry_node_groups.py:50
+msgctxt "Operator"
+msgid "Add Geometry Node Group Slot"
+msgstr "添加几何节点组槽位"
+
+#: ui/shader/lights.py:42
+#: ui/shader/lights.py:43
+msgctxt "Operator"
+msgid "Add Light Slot"
+msgstr "添加灯光槽位"
+
+#: ui/shader/line_styles.py:42
+#: ui/shader/line_styles.py:43
+msgctxt "Operator"
+msgid "Add Line Style Slot"
+msgstr "添加线条样式槽位"
+
+#: ui/shader/materials.py:42
+#: ui/shader/materials.py:43
+msgctxt "Operator"
+msgid "Add Material Slot"
+msgstr "添加材质槽位"
+
+#: ui/compositor/scenes.py:42
+#: ui/compositor/scenes.py:43
+msgctxt "Operator"
+msgid "Add Scene Slot"
+msgstr "添加场景槽位"
+
+#: ui/shader/shader_node_groups.py:49
+#: ui/shader/shader_node_groups.py:50
+msgctxt "Operator"
+msgid "Add Shader Node Group Slot"
+msgstr "添加着色器节点组槽位"
+
+#: ui/shader/worlds.py:42
+#: ui/shader/worlds.py:43
+msgctxt "Operator"
+msgid "Add World Slot"
+msgstr "添加世界槽位"
+
+#: export/ntp_operator.py:47
+msgctxt "Operator"
+msgid "Export"
+msgstr "导出"
+
+#: export/ntp_operator.py:48
+msgctxt "Operator"
+msgid "Export node group(s) to Python"
+msgstr "将节点组导出为 Python"
+
+#: ui/compositor/compositor_node_groups.py:60
+#: ui/compositor/compositor_node_groups.py:61
+msgctxt "Operator"
+msgid "Remove Compositor Node Group Slot"
+msgstr "移除合成器节点组槽位"
+
+#: ui/geometry/geometry_node_groups.py:60
+#: ui/geometry/geometry_node_groups.py:61
+msgctxt "Operator"
+msgid "Remove Geometry Node Group Slot"
+msgstr "移除几何节点组槽位"
+
+#: ui/shader/lights.py:53
+#: ui/shader/lights.py:54
+msgctxt "Operator"
+msgid "Remove Light Slot"
+msgstr "移除灯光槽位"
+
+#: ui/shader/line_styles.py:53
+#: ui/shader/line_styles.py:54
+msgctxt "Operator"
+msgid "Remove Line Style Slot"
+msgstr "移除线条样式槽位"
+
+#: ui/shader/materials.py:53
+#: ui/shader/materials.py:54
+msgctxt "Operator"
+msgid "Remove Material Slot"
+msgstr "移除材质槽位"
+
+#: ui/compositor/scenes.py:53
+#: ui/compositor/scenes.py:54
+msgctxt "Operator"
+msgid "Remove Scene Slot"
+msgstr "移除场景槽位"
+
+#: ui/shader/shader_node_groups.py:60
+#: ui/shader/shader_node_groups.py:61
+msgctxt "Operator"
+msgid "Remove Shader Node Group Slot"
+msgstr "移除着色器节点组槽位"
+
+#: ui/shader/worlds.py:53
+#: ui/shader/worlds.py:54
+msgctxt "Operator"
+msgid "Remove World Slot"
+msgstr "移除世界槽位"

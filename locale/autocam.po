@@ -1,0 +1,1177 @@
+# perfect-chinese: 1
+# id: autocam
+# kind: addon
+# module: bl_ext.blender_org.autocam
+# name: AutoCam Free
+# name_zh: 自动相机免费版
+# translator: KeshiMiao
+# category: Camera
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: AutoCam/core/props.py:372
+msgid "AZERTY (ZQSD)"
+msgstr "AZERTY (ZQSD)"
+
+#: AutoCam/core/props.py:547
+msgid "About"
+msgstr "关于"
+
+#: AutoCam/core/props.py:333
+#: AutoCam/core/props.py:1477
+msgid "Added to the end of baked names (camera and collection) to keep them unique"
+msgstr "添加到烘焙名称（摄像机与集合）末尾以保持唯一"
+
+#: AutoCam/core/props.py:342
+#: AutoCam/core/props.py:1471
+msgid "After baking, make the baked camera the one that renders"
+msgstr "烘焙后，将烘焙摄像机设为渲染摄像机"
+
+#: AutoCam/core/props.py:1563
+msgid "Aim Automation"
+msgstr "自动瞄准"
+
+#: AutoCam/core/props.py:130
+#: AutoCam/core/props.py:595
+msgid "Aim ahead along the path to smooth corners"
+msgstr "沿路径向前瞄准以平滑转角"
+
+#: AutoCam/core/props.py:1593
+msgid "Aim at whatever the recording was pointed at, however far away that is"
+msgstr "瞄准录制时指向的任意目标，无论距离多远"
+
+#: AutoCam/core/props.py:1596
+msgid "Aim the same distance ahead of the camera throughout, in the direction the recording was pointed"
+msgstr "始终保持相机前方相同距离，朝录制时的指向"
+
+#: AutoCam/core/props.py:587
+msgid "Aim where the original recording's camera was pointing"
+msgstr "瞄准原始录制中摄像机指向的位置"
+
+#: AutoCam/ops/misc.py:185
+msgid "All AutoCam rigs removed"
+msgstr "已移除所有 AutoCam 装置"
+
+#: AutoCam/ops/camera_to_curve.py:56
+msgid "Animated"
+msgstr "动画"
+
+#: AutoCam/ui/panels.py:388
+#: AutoCam/ui/panels.py:450
+msgid "AutoCam"
+msgstr "AutoCam"
+
+#: AutoCam/__init__.py:42
+msgid "AutoCam Free"
+msgstr "AutoCam Free"
+
+#: AutoCam/ops/camera_to_curve.py:92
+msgid "AutoCam preferences not available"
+msgstr "AutoCam 偏好设置不可用"
+
+#: AutoCam/core/props.py:1774
+#: AutoCam/core/props.py:1796
+msgid "AutoCam preferences unavailable."
+msgstr "AutoCam 偏好设置不可用。"
+
+#: AutoCam/ops/record.py:180
+msgid "AutoCam: a 3D Viewport is required to record."
+msgstr "AutoCam：录制需要 3D 视图。"
+
+#: AutoCam/core/props.py:384
+msgid "Backward"
+msgstr "向后"
+
+#: AutoCam/core/props.py:457
+msgid "Bake Defaults"
+msgstr "烘焙默认值"
+
+#: AutoCam/ui/panels.py:847
+msgid "Bake Settings"
+msgstr "烘焙设置"
+
+#: AutoCam/core/props.py:1453
+msgid "Bake every Nth frame (higher values = fewer keyframes)"
+msgstr "每第 N 帧烘焙（值越大，关键帧越少）"
+
+#: AutoCam/ops/bake.py:316
+msgid "Bake settings not available"
+msgstr "烘焙设置不可用"
+
+#: AutoCam/core/props.py:1438
+msgid "Bake the frames the rig's path covers"
+msgstr "烘焙装置路径覆盖的帧"
+
+#: AutoCam/core/props.py:1440
+msgid "Bake the scene's own start and end frames"
+msgstr "烘焙场景自身的起始与结束帧"
+
+#: AutoCam/core/props.py:1442
+msgid "Bake the start and end set below"
+msgstr "烘焙下方设置的起始与结束帧"
+
+#: AutoCam/core/props.py:1743
+msgid "Bake this rig with its own settings instead of the scene-wide Bake Settings"
+msgstr "使用此装置自身的设置烘焙，而不是场景全局烘焙设置"
+
+#: AutoCam/core/props.py:1897
+msgid "Baked camera the Export actions publish"
+msgstr "导出操作发布的烘焙摄像机"
+
+#: AutoCam/core/props.py:356
+msgid "Base movement speed (Blender units/sec) applied while recording a flythrough"
+msgstr "录制飞越时使用的基础移动速度（Blender 单位/秒）"
+
+#: AutoCam/core/props.py:1114
+msgid "Base updated - current keyframes captured"
+msgstr "基础已更新 - 已捕获当前关键帧"
+
+#: AutoCam/core/props.py:248
+#: AutoCam/core/props.py:1517
+msgid "Bezier"
+msgstr "贝塞尔"
+
+#: AutoCam/__init__.py:42
+msgid "Camera"
+msgstr "摄像机"
+
+#: AutoCam/ops/misc.py:200
+msgid "Camera Name"
+msgstr "摄像机名称"
+
+#: AutoCam/ui/panels.py:529
+msgid "Camera Path Extraction"
+msgstr "摄像机路径提取"
+
+#: AutoCam/ui/panels.py:623
+msgid "Camera Rig Generation"
+msgstr "摄像机装置生成"
+
+#: AutoCam/core/props.py:1321
+msgid "Camera whose position, rotation, and optics define this pose"
+msgstr "定义此姿态的位置、旋转和光学参数的摄像机"
+
+#: AutoCam/core/props.py:1682
+msgid "Close the path into a loop by bridging the last point back to the first"
+msgstr "将最后一点桥接回第一点，使路径闭合为循环"
+
+#: AutoCam/core/props.py:1236
+msgid "Color"
+msgstr "颜色"
+
+#: AutoCam/core/props.py:1078
+msgid "Could not clear inherited timing"
+msgstr "无法清除继承的时序"
+
+#: AutoCam/core/props.py:1032
+msgid "Could not inherit timing - source camera may not have location animation"
+msgstr "无法继承时序 - 源摄像机可能没有位置动画"
+
+#: AutoCam/core/props.py:970
+#: AutoCam/core/props.py:1042
+msgid "Curve"
+msgstr "曲线"
+
+#: AutoCam/core/props.py:309
+#: AutoCam/core/props.py:1438
+msgid "Curve Range"
+msgstr "曲线范围"
+
+#: AutoCam/core/props.py:998
+#: AutoCam/core/props.py:1058
+msgid "Curve not found"
+msgstr "未找到曲线"
+
+#: AutoCam/ops/camera_to_curve.py:75
+msgid "Curve type for the generated path"
+msgstr "生成路径的曲线类型"
+
+#: AutoCam/core/props.py:244
+msgid "Curve type used when a path is first generated from a camera. Each rig keeps its own Spline Type afterwards"
+msgstr "首次从摄像机生成路径时使用的曲线类型。之后每个装置保留自己的样条类型"
+
+#: AutoCam/core/props.py:1513
+msgid "Curve type used when building the path from camera motion. Click Apply after changing it"
+msgstr "从摄像机运动构建路径时使用的曲线类型。更改后点击应用"
+
+#: AutoCam/core/props.py:311
+#: AutoCam/core/props.py:373
+msgid "Custom"
+msgstr "自定义"
+
+#: AutoCam/ui/panels.py:874
+msgid "Danger Zone"
+msgstr "危险区域"
+
+#: AutoCam/core/props.py:319
+#: AutoCam/core/props.py:1459
+msgid "Depth of Field"
+msgstr "景深"
+
+#: AutoCam/core/props.py:1585
+#: AutoCam/ui/panels.py:753
+msgid "Derive From"
+msgstr "派生自"
+
+#: AutoCam/core/props.py:476
+msgid "Dev Tools"
+msgstr "开发工具"
+
+#: AutoCam/core/props.py:1604
+msgid "Distance"
+msgstr "距离"
+
+#: AutoCam/core/props.py:1003
+#: AutoCam/core/props.py:1063
+msgid "Dolly not found"
+msgstr "未找到推拉"
+
+#: AutoCam/core/props.py:396
+msgid "Down"
+msgstr "向下"
+
+#: AutoCam/core/props.py:1709
+msgid "Draw each segment's curve color-coded in the viewport (the active segment is emphasized)"
+msgstr "在视图中以颜色编码绘制每段曲线（当前段突出显示）"
+
+#: AutoCam/core/props.py:292
+msgid "Draw the rig's path with direction-of-travel chevrons in the viewport"
+msgstr "在视图中绘制装置路径，并显示行进方向箭头"
+
+#: AutoCam/core/props.py:1671
+msgid "Ease in and out"
+msgstr "缓入缓出"
+
+#: AutoCam/core/props.py:1249
+#: AutoCam/core/props.py:1449
+msgid "End"
+msgstr "结束"
+
+#: AutoCam/ops/camera_to_curve.py:131
+msgid "End must exceed start"
+msgstr "结束必须大于开始"
+
+#: AutoCam/core/props.py:361
+msgid "Fast Multiplier"
+msgstr "快速倍率"
+
+#: AutoCam/core/props.py:943
+msgid "Feature"
+msgstr "功能"
+
+#: AutoCam/core/props.py:1445
+msgid "First frame to bake"
+msgstr "烘焙起始帧"
+
+#: AutoCam/ops/camera_to_curve.py:60
+msgid "First frame to trace"
+msgstr "追踪起始帧"
+
+#: AutoCam/core/props.py:1596
+msgid "Fixed Distance"
+msgstr "固定距离"
+
+#: AutoCam/core/props.py:498
+msgid "Flythrough Controls"
+msgstr "飞越控制"
+
+#: AutoCam/core/props.py:1604
+msgid "Focal distance in Fixed Distance mode; fallback distance when a ray misses in Surface mode"
+msgstr "固定距离模式下的焦距；表面模式下光线未命中时的回退距离"
+
+#: AutoCam/core/props.py:381
+msgid "Forward"
+msgstr "向前"
+
+#: AutoCam/core/props.py:1329
+msgid "Frame"
+msgstr "帧"
+
+#: AutoCam/ui/panels.py:830
+msgid "Frame Range"
+msgstr "帧范围"
+
+#: AutoCam/core/props.py:306
+msgid "Frame range new scenes bake over"
+msgstr "新场景烘焙的帧范围"
+
+#: AutoCam/core/props.py:314
+msgid "Frame step for baking (higher values = fewer baked frames)"
+msgstr "烘焙帧步长（值越大，烘焙帧越少）"
+
+#: AutoCam/core/props.py:1243
+msgid "Frame the camera hands off onto this segment"
+msgstr "摄像机交接到此段的帧"
+
+#: AutoCam/core/props.py:1249
+msgid "Frame this segment's traversal reaches the curve end (the camera parks there until the next handoff)"
+msgstr "此段行进到达曲线末端的帧（摄像机停在此处直到下一次交接）"
+
+#: AutoCam/core/props.py:372
+msgid "French AZERTY layout"
+msgstr "法语 AZERTY 布局"
+
+#: AutoCam/core/props.py:1665
+msgid "How a steering push fades out towards the edges of its radius, like proportional editing. Press F while steering to cycle it"
+msgstr "转向推动在半径边缘如何渐隐，类似比例编辑。转向时按 F 循环切换"
+
+#: AutoCam/ops/camera_to_curve.py:70
+msgid "How closely the path hugs the camera motion. Higher values give a simpler path with fewer points"
+msgstr "路径贴合摄像机运动的程度。值越大，路径越简单、点越少"
+
+#: AutoCam/core/props.py:1522
+msgid "How closely the path hugs the original camera motion. Higher values give a simpler path with fewer points. Click Apply after changing it"
+msgstr "路径贴合原始摄像机运动的程度。值越大，路径越简单、点越少。更改后点击应用"
+
+#: AutoCam/core/props.py:1637
+msgid "How far ahead along the path the camera aims (eases onto the path end as the camera arrives)"
+msgstr "摄像机沿路径向前瞄准的距离（摄像机到达时缓动至路径末端）"
+
+#: AutoCam/core/props.py:1659
+msgid "How far the path moves per frame while a steering key is held down"
+msgstr "按住转向键时路径每帧移动的距离"
+
+#: AutoCam/core/props.py:1653
+msgid "How much of the shot each steering push bends, in frames either side of the current one"
+msgstr "每次转向推动弯曲的镜头范围，以当前帧两侧的帧数表示"
+
+#: AutoCam/core/props.py:263
+msgid "How the camera aims by default when a rig is built"
+msgstr "构建装置时摄像机的默认瞄准方式"
+
+#: AutoCam/core/props.py:1563
+msgid "How the camera aims during playback"
+msgstr "播放时摄像机的瞄准方式"
+
+#: AutoCam/core/props.py:1585
+msgid "How the recorded camera direction becomes an Aim position"
+msgstr "录制的相机方向如何转为瞄准位置"
+
+#: AutoCam/core/props.py:1733
+msgid "Include in Batch"
+msgstr "包含在批处理中"
+
+#: AutoCam/core/props.py:1733
+msgid "Include this rig in Pipeline batch operations"
+msgstr "将此绑定包含在 Pipeline 批处理操作中"
+
+#: AutoCam/core/props.py:583
+msgid "Inherit rotation from the original recorded camera"
+msgstr "从原始录制的相机继承旋转"
+
+#: AutoCam/core/props.py:126
+msgid "Inherit rotation from the recorded camera"
+msgstr "从录制的相机继承旋转"
+
+#: AutoCam/core/props.py:1075
+msgid "Inherited timing cleared"
+msgstr "已清除继承的时序"
+
+#: AutoCam/core/props.py:1073
+msgid "Inherited timing cleared - previous keyframes restored"
+msgstr "已清除继承的时序 - 已恢复先前的关键帧"
+
+#: AutoCam/core/props.py:425
+msgid "Interface"
+msgstr "界面"
+
+#: AutoCam/__init__.py:42
+msgid "Intuitive camera tools, built for artists"
+msgstr "为艺术家打造的直观相机工具"
+
+#: AutoCam/core/props.py:1697
+msgid "Keep lapping the loop after the last Progress key (cycles the dolly's Progress curve)"
+msgstr "在最后一个进度关键帧之后继续循环（循环推车的进度曲线）"
+
+#: AutoCam/core/props.py:1256
+msgid "Keep lapping this segment's curve after its window - until the next handoff, or forever if this is the last segment (requires a cyclic curve)"
+msgstr "在此段的时间窗口之后继续循环该段的曲线 - 直到下一次交接，若这是最后一段则永久循环（需要循环曲线）"
+
+#: AutoCam/core/props.py:591
+msgid "Keep the Aim target locked onto an object so the camera tracks it"
+msgstr "让瞄准目标锁定到一个物体，以便相机跟踪它"
+
+#: AutoCam/core/props.py:327
+#: AutoCam/core/props.py:1464
+msgid "Keep the rig's FocusPoint as the camera's focus object"
+msgstr "将绑定的 FocusPoint 保持为相机的焦点物体"
+
+#: AutoCam/core/props.py:367
+msgid "Keyboard Layout"
+msgstr "键盘布局"
+
+#: AutoCam/core/props.py:325
+#: AutoCam/core/props.py:1462
+msgid "Keyframe the focus distance onto the baked camera"
+msgstr "为烘焙相机插入对焦距离关键帧"
+
+#: AutoCam/core/props.py:325
+#: AutoCam/core/props.py:1462
+msgid "Keyframes"
+msgstr "关键帧"
+
+#: AutoCam/core/props.py:1449
+msgid "Last frame to bake"
+msgstr "烘焙的结束帧"
+
+#: AutoCam/ops/camera_to_curve.py:63
+msgid "Last frame to trace"
+msgstr "追踪的结束帧"
+
+#: AutoCam/core/props.py:387
+msgid "Left"
+msgstr "左"
+
+#: AutoCam/core/props.py:1674
+msgid "Linear"
+msgstr "线性"
+
+#: AutoCam/core/props.py:591
+msgid "Lock to Target"
+msgstr "锁定到目标"
+
+#: AutoCam/core/props.py:351
+msgid "Look Sensitivity"
+msgstr "视角灵敏度"
+
+#: AutoCam/core/props.py:1637
+msgid "Look-ahead"
+msgstr "前瞻"
+
+#: AutoCam/core/props.py:1682
+msgid "Loop"
+msgstr "循环"
+
+#: AutoCam/core/props.py:124
+#: AutoCam/core/props.py:581
+msgid "Manual Aim"
+msgstr "手动瞄准"
+
+#: AutoCam/core/props.py:1336
+msgid "Marker"
+msgstr "标记"
+
+#: AutoCam/core/props.py:126
+#: AutoCam/core/props.py:583
+msgid "Match Recording"
+msgstr "匹配录制"
+
+#: AutoCam/core/props.py:444
+msgid "Match Recording:"
+msgstr "匹配录制："
+
+#: AutoCam/ui/panels.py:709
+msgid "Mode"
+msgstr "模式"
+
+#: AutoCam/core/props.py:351
+msgid "Mouse look sensitivity applied while recording a flythrough (Blender walk-navigation mouse speed)"
+msgstr "录制飞越时应用的鼠标视角灵敏度（Blender 行走导航的鼠标速度）"
+
+#: AutoCam/core/props.py:356
+msgid "Move Speed"
+msgstr "移动速度"
+
+#: AutoCam/core/props.py:250
+#: AutoCam/core/props.py:1519
+msgid "NURBS"
+msgstr "NURBS"
+
+#: AutoCam/ops/camera_to_curve.py:138
+msgid "Need >= 3 samples"
+msgstr "需要 >= 3 个采样"
+
+#: AutoCam/ops/misc.py:82
+msgid "No AutoCam rig in context"
+msgstr "上下文中没有 AutoCam 绑定"
+
+#: AutoCam/ops/record.py:125
+msgid "No active camera!"
+msgstr "没有活动相机！"
+
+#: AutoCam/core/props.py:124
+#: AutoCam/core/props.py:581
+msgid "No automation; the Aim target is static"
+msgstr "无自动化；瞄准目标是静态的"
+
+#: AutoCam/core/props.py:1881
+msgid "No baked cameras"
+msgstr "没有烘焙相机"
+
+#: AutoCam/ops/misc.py:214
+msgid "No camera to make active."
+msgstr "没有可设为活动的相机。"
+
+#: AutoCam/core/props.py:1801
+msgid "No walk bindings to read."
+msgstr "没有可读取的行走按键绑定。"
+
+#: AutoCam/core/props.py:539
+msgid "Not applied - Blender's walk keys still differ"
+msgstr "未应用 - Blender 的行走按键仍有差异"
+
+#: AutoCam/core/props.py:1627
+msgid "Object the Aim target stays locked onto in Lock to Target mode"
+msgstr "锁定到目标模式下瞄准目标持续锁定的物体"
+
+#: AutoCam/core/props.py:329
+#: AutoCam/core/props.py:1466
+msgid "Off"
+msgstr "关闭"
+
+#: AutoCam/core/props.py:1530
+msgid "Open Path Settings"
+msgstr "打开路径设置"
+
+#: AutoCam/core/props.py:1532
+msgid "Open Rig Settings"
+msgstr "打开绑定设置"
+
+#: AutoCam/core/props.py:1534
+msgid "Open Tracking Settings"
+msgstr "打开追踪设置"
+
+#: AutoCam/ops/rig.py:139
+msgid "Original camera is missing or has been renamed or deleted"
+msgstr "原始相机缺失，或已被重命名或删除"
+
+#: AutoCam/core/props.py:1146
+msgid "Original recorded camera not found"
+msgstr "未找到原始录制的相机"
+
+#: AutoCam/ui/panels.py:792
+msgid "Output"
+msgstr "输出"
+
+#: AutoCam/core/props.py:1743
+msgid "Override Bake Settings"
+msgstr "覆盖烘焙设置"
+
+#: AutoCam/ui/panels.py:507
+msgid "Path"
+msgstr "路径"
+
+#: AutoCam/core/props.py:431
+msgid "Path Defaults"
+msgstr "路径默认值"
+
+#: AutoCam/core/props.py:130
+#: AutoCam/core/props.py:595
+msgid "Path Lookahead"
+msgstr "路径前瞻"
+
+#: AutoCam/core/props.py:543
+msgid "Path Steering uses these keys too."
+msgstr "路径转向也会使用这些按键。"
+
+#: AutoCam/core/props.py:1229
+msgid "Path the camera travels during this segment"
+msgstr "相机在此段期间行进的路径"
+
+#: AutoCam/core/props.py:1726
+msgid "Path-stage curve this morph generated"
+msgstr "此变形生成的路径阶段曲线"
+
+#: AutoCam/core/props.py:367
+msgid "Pick a movement-key preset, or Custom to set keys individually"
+msgstr "选择移动按键预设，或选择自定义以单独设置按键"
+
+#: AutoCam/core/props.py:249
+#: AutoCam/core/props.py:1518
+msgid "Poly"
+msgstr "多边形"
+
+#: AutoCam/core/props.py:1321
+msgid "Pose Camera"
+msgstr "摆放相机"
+
+#: AutoCam/ui/panels.py:640
+msgid "Progress"
+msgstr "进度"
+
+#: AutoCam/core/props.py:371
+msgid "QWERTY (WASD)"
+msgstr "QWERTY (WASD)"
+
+#: AutoCam/core/props.py:306
+#: AutoCam/core/props.py:1435
+msgid "Range"
+msgstr "范围"
+
+#: AutoCam/core/props.py:1217
+msgid "Recorded rotations baked (rotation-only). Aim disabled; rig motion preserved."
+msgstr "已烘焙录制的旋转（仅旋转）。瞄准已禁用；绑定运动已保留。"
+
+#: AutoCam/ops/record.py:206
+msgid "Recording stopped; keyframes saved."
+msgstr "录制已停止；关键帧已保存。"
+
+#: AutoCam/ops/record.py:190
+msgid "Recording... press Esc, Right Click, or Left Click to finish."
+msgstr "正在录制…按 Esc、右键或左键完成。"
+
+#: AutoCam/core/props.py:1619
+msgid "Removes Aim keys while keeping the same overall motion (0% = exact)"
+msgstr "移除瞄准关键帧，同时保持整体运动不变（0% = 精确）"
+
+#: AutoCam/core/props.py:1553
+msgid "Removes inherited timing keys while keeping the same overall pacing (0% = exact)"
+msgstr "移除继承的时序关键帧，同时保持整体节奏不变（0% = 精确）"
+
+#: AutoCam/core/props.py:275
+#: AutoCam/core/props.py:1577
+msgid "Removes keys while keeping the same overall motion (0% = exact)"
+msgstr "移除关键帧，同时保持整体运动不变（0% = 精确）"
+
+#: AutoCam/core/props.py:1539
+msgid "Rename the rig: the collection and every artifact named from the old base (path, camera, dolly, bake...) follow. Double-click the name in the rig list"
+msgstr "重命名绑定：集合及所有以旧名称命名的产物（路径、相机、推车、烘焙……）都会随之更新。双击绑定列表中的名称"
+
+#: AutoCam/core/props.py:1697
+msgid "Repeat"
+msgstr "重复"
+
+#: AutoCam/core/props.py:1256
+msgid "Repeat Laps"
+msgstr "重复圈数"
+
+#: AutoCam/ui/panels.py:605
+msgid "Rig"
+msgstr "绑定"
+
+#: AutoCam/core/props.py:437
+msgid "Rig Defaults"
+msgstr "绑定默认值"
+
+#: AutoCam/core/props.py:1545
+msgid "Rig Index"
+msgstr "绑定索引"
+
+#: AutoCam/core/props.py:1539
+msgid "Rig Name"
+msgstr "绑定名称"
+
+#: AutoCam/core/props.py:285
+msgid "Rig Scale"
+msgstr "绑定缩放"
+
+#: AutoCam/core/props.py:1143
+msgid "Rig camera not found"
+msgstr "未找到绑定相机"
+
+#: AutoCam/core/props.py:390
+msgid "Right"
+msgstr "右"
+
+#: AutoCam/core/props.py:1673
+msgid "Root"
+msgstr "根"
+
+#: AutoCam/ops/camera_to_curve.py:66
+msgid "Sample every Nth frame (higher values = a rougher path)"
+msgstr "每第 N 帧采样（值越大 = 路径越粗糙）"
+
+#: AutoCam/core/props.py:310
+#: AutoCam/core/props.py:1440
+msgid "Scene Range"
+msgstr "场景范围"
+
+#: AutoCam/core/props.py:1689
+msgid "Seam Shape"
+msgstr "接缝形状"
+
+#: AutoCam/ops/camera_to_curve.py:100
+msgid "Select a Camera first"
+msgstr "请先选择一个摄像机"
+
+#: AutoCam/ops/rig.py:129
+msgid "Select the generated curve first"
+msgstr "请先选择生成的曲线"
+
+#: AutoCam/core/props.py:342
+#: AutoCam/core/props.py:1471
+msgid "Set Active Scene Camera"
+msgstr "设为活动场景摄像机"
+
+#: AutoCam/core/props.py:373
+msgid "Set each movement key individually"
+msgstr "逐个设置每个移动键"
+
+#: AutoCam/core/props.py:1689
+msgid "Shape of the closing segment: -1 curls inward (concave), 0 bridges straight, +1 follows the path's momentum (seamless)"
+msgstr "闭合段的形状：-1 向内卷曲（凹），0 直线连接，+1 跟随路径的动量（无缝）"
+
+#: AutoCam/core/props.py:1675
+msgid "Sharp"
+msgstr "尖锐"
+
+#: AutoCam/core/props.py:227
+msgid "Show 'Danger Zone'"
+msgstr "显示「危险区」"
+
+#: AutoCam/core/props.py:233
+msgid "Show Hints"
+msgstr "显示提示"
+
+#: AutoCam/core/props.py:292
+msgid "Show Path Direction"
+msgstr "显示路径方向"
+
+#: AutoCam/core/props.py:1709
+msgid "Show Segment Colors"
+msgstr "显示分段颜色"
+
+#: AutoCam/core/props.py:233
+msgid "Show instructional hint text in the AutoCam panels. Warnings, errors, and computed values always show"
+msgstr "在 AutoCam 面板中显示操作提示文字。警告、错误和计算结果始终显示"
+
+#: AutoCam/core/props.py:227
+msgid "Show the Danger Zone panel, which holds the buttons that remove rigs"
+msgstr "显示「危险区」面板，其中包含移除绑定的按钮"
+
+#: AutoCam/core/props.py:253
+msgid "Simplification tolerance used when a path is first generated from a camera. Each rig keeps its own Tolerance afterwards"
+msgstr "初次从摄像机生成路径时使用的简化容差。之后每个绑定保留各自的容差"
+
+#: AutoCam/core/props.py:275
+#: AutoCam/core/props.py:1553
+msgid "Simplify"
+msgstr "简化"
+
+#: AutoCam/core/props.py:285
+msgid "Size multiplier for the rig's Dolly, Aim, FocusPoint and camera. Applies to every rig immediately"
+msgstr "绑定的 Dolly、Aim、FocusPoint 和摄像机的大小倍数。立即应用到所有绑定"
+
+#: AutoCam/core/props.py:587
+msgid "Smart Auto-Aim"
+msgstr "智能自动瞄准"
+
+#: AutoCam/core/props.py:1671
+msgid "Smooth"
+msgstr "平滑"
+
+#: AutoCam/core/props.py:248
+#: AutoCam/core/props.py:1517
+msgid "Smooth curved path"
+msgstr "平滑曲线路径"
+
+#: AutoCam/core/props.py:269
+#: AutoCam/core/props.py:1570
+msgid "Smoothing"
+msgstr "平滑"
+
+#: AutoCam/core/props.py:1612
+msgid "Softens Aim motion (0% = raw)"
+msgstr "柔化瞄准动作（0% = 原始）"
+
+#: AutoCam/core/props.py:269
+#: AutoCam/core/props.py:1570
+msgid "Softens range of motion (0% = raw)"
+msgstr "柔化运动范围（0% = 原始）"
+
+#: AutoCam/ui/panels.py:451
+msgid "Source"
+msgstr "源"
+
+#: AutoCam/ui/panels.py:475
+msgid "Source removed"
+msgstr "源已移除"
+
+#: AutoCam/core/props.py:311
+msgid "Specify start/end per scene"
+msgstr "按场景指定开始/结束"
+
+#: AutoCam/core/props.py:361
+msgid "Speed multiplier while holding the 'fast' modifier during a flythrough"
+msgstr "飞行漫游时按住「快」修饰键的速度倍数"
+
+#: AutoCam/core/props.py:1672
+msgid "Sphere"
+msgstr "球体"
+
+#: AutoCam/core/props.py:244
+#: AutoCam/ops/camera_to_curve.py:75
+msgid "Spline"
+msgstr "样条"
+
+#: AutoCam/core/props.py:1513
+#: AutoCam/ui/panels.py:562
+msgid "Spline Type"
+msgstr "样条类型"
+
+#: AutoCam/core/props.py:371
+msgid "Standard WASD movement"
+msgstr "标准 WASD 移动"
+
+#: AutoCam/core/props.py:1243
+#: AutoCam/core/props.py:1445
+msgid "Start"
+msgstr "开始"
+
+#: AutoCam/ui/panels.py:559
+msgid "State"
+msgstr "状态"
+
+#: AutoCam/ui/panels.py:557
+msgid "State: Edited"
+msgstr "状态：已编辑"
+
+#: AutoCam/ui/panels.py:555
+msgid "State: Original"
+msgstr "状态：原始"
+
+#: AutoCam/core/props.py:1665
+msgid "Steer Falloff"
+msgstr "转向衰减"
+
+#: AutoCam/core/props.py:1653
+msgid "Steer Radius"
+msgstr "转向半径"
+
+#: AutoCam/core/props.py:1659
+msgid "Steer Strength"
+msgstr "转向强度"
+
+#: AutoCam/core/props.py:314
+#: AutoCam/core/props.py:1453
+msgid "Step"
+msgstr "步进"
+
+#: AutoCam/core/props.py:249
+#: AutoCam/core/props.py:1518
+msgid "Straight lines between points"
+msgstr "点之间为直线"
+
+#: AutoCam/core/props.py:1674
+msgid "Straight ramp"
+msgstr "线性渐变"
+
+#: AutoCam/core/props.py:333
+#: AutoCam/core/props.py:1477
+msgid "Suffix"
+msgstr "后缀"
+
+#: AutoCam/core/props.py:1593
+msgid "Surface"
+msgstr "表面"
+
+#: AutoCam/core/props.py:923
+msgid "Switched to FREE edition"
+msgstr "已切换到免费版"
+
+#: AutoCam/core/props.py:926
+msgid "Switched to PRO edition"
+msgstr "已切换到专业版"
+
+#: AutoCam/core/props.py:1627
+#: AutoCam/core/props.py:1897
+msgid "Target"
+msgstr "目标"
+
+#: AutoCam/core/props.py:1548
+msgid "This rig has taken its pacing from the source camera"
+msgstr "此绑定已采用源摄像机的节奏"
+
+#: AutoCam/core/props.py:1675
+msgid "Tight around the center"
+msgstr "紧凑围绕中心"
+
+#: AutoCam/core/props.py:1336
+msgid "Timeline marker that owns this pose's frame (empty = the Frame field)"
+msgstr "拥有此姿势帧的时间线标记（留空 = 使用「帧」字段）"
+
+#: AutoCam/core/props.py:1548
+msgid "Timing Inherited"
+msgstr "继承时间"
+
+#: AutoCam/core/props.py:1029
+msgid "Timing inherited from source camera"
+msgstr "时间继承自源摄像机"
+
+#: AutoCam/core/props.py:253
+#: AutoCam/core/props.py:1522
+msgid "Tolerance"
+msgstr "容差"
+
+#: AutoCam/ops/camera_to_curve.py:58
+msgid "Trace the frame range set below"
+msgstr "追踪下方设置的帧范围"
+
+#: AutoCam/ops/camera_to_curve.py:56
+msgid "Trace the frames the camera is actually keyframed over"
+msgstr "追踪摄像机实际关键帧覆盖的帧"
+
+#: AutoCam/core/props.py:263
+#: AutoCam/ui/panels.py:682
+msgid "Tracking"
+msgstr "追踪"
+
+#: AutoCam/core/props.py:329
+#: AutoCam/core/props.py:1466
+msgid "Turn depth of field off and clear the focus object"
+msgstr "关闭景深并清除焦点物体"
+
+#: AutoCam/core/props.py:393
+msgid "Up"
+msgstr "上"
+
+#: AutoCam/core/props.py:327
+#: AutoCam/core/props.py:1464
+msgid "Use Focus Object"
+msgstr "使用焦点物体"
+
+#: AutoCam/core/props.py:309
+msgid "Use the rig curve's start/end"
+msgstr "使用绑定曲线的起点/终点"
+
+#: AutoCam/core/props.py:310
+msgid "Use the scene frame range"
+msgstr "使用场景帧范围"
+
+#: AutoCam/core/props.py:250
+#: AutoCam/core/props.py:1519
+msgid "Very smooth path that eases past its points"
+msgstr "非常平滑的路径，在途经点处缓动"
+
+#: AutoCam/core/props.py:451
+msgid "Viewport"
+msgstr "视图"
+
+#: AutoCam/core/props.py:1236
+msgid "Viewport overlay color identifying this segment"
+msgstr "标识此分段的视图叠加颜色"
+
+#: AutoCam/core/props.py:530
+msgid "Walk keys are editable from an interactive 3D session."
+msgstr "行走关键帧可在交互式 3D 会话中编辑。"
+
+#: AutoCam/core/props.py:319
+msgid "What happens to depth of field when a rig is baked"
+msgstr "烘焙绑定时对景深的处理方式"
+
+#: AutoCam/core/props.py:1459
+msgid "What happens to depth of field when the rig is baked"
+msgstr "烘焙该绑定时对景深的处理方式"
+
+#: AutoCam/core/props.py:1329
+msgid "When the move passes through this pose (owned by the bound marker when one is set)"
+msgstr "动作经过此姿势的时间（若绑定了标记，则由该标记决定）"
+
+#: AutoCam/ops/camera_to_curve.py:53
+msgid "Which frames of the camera animation to trace"
+msgstr "追踪摄像机动画的哪些帧"
+
+#: AutoCam/core/props.py:1435
+msgid "Which frames to bake"
+msgstr "要烘焙哪些帧"
+
+#: AutoCam/core/props.py:1673
+msgid "Wide body"
+msgstr "宽体"
+
+#: AutoCam/core/props.py:1672
+msgid "Wide body, fast edge"
+msgstr "宽体，快速边缘"
+
+#: AutoCam/ui/panels.py:569
+msgctxt "Operator"
+msgid "Apply"
+msgstr "应用"
+
+#: AutoCam/ops/camera_to_curve.py:153
+msgctxt "Operator"
+msgid "Apply Path Settings"
+msgstr "应用路径设置"
+
+#: AutoCam/core/props.py:1121
+msgctxt "Operator"
+msgid "Apply Recorded Rotations"
+msgstr "应用记录的旋转"
+
+#: AutoCam/core/props.py:1767
+msgctxt "Operator"
+msgid "Apply Walk Keys"
+msgstr "应用行走关键帧"
+
+#: AutoCam/core/props.py:1768
+msgctxt "Operator"
+msgid "Apply these movement keys to Blender's global Walk navigation"
+msgstr "将这些移动键应用到 Blender 的全局行走导航"
+
+#: AutoCam/ops/bake.py:303
+#: AutoCam/ui/panels.py:819
+msgctxt "Operator"
+msgid "Bake"
+msgstr "烘焙"
+
+#: AutoCam/ops/rig.py:117
+msgctxt "Operator"
+msgid "Build Camera Rig"
+msgstr "构建摄像机绑定"
+
+#: AutoCam/ops/record.py:42
+msgctxt "Operator"
+msgid "Capture a flythrough from the active camera's POV"
+msgstr "从活动摄像机视角捕获飞行漫游"
+
+#: AutoCam/ui/panels.py:893
+msgctxt "Operator"
+msgid "Clear All Rigs"
+msgstr "清除所有绑定"
+
+#: AutoCam/ops/misc.py:152
+msgctxt "Operator"
+msgid "Clear All Rigs?"
+msgstr "清除所有绑定？"
+
+#: AutoCam/ui/panels.py:584
+#: AutoCam/ui/panels.py:655
+msgctxt "Operator"
+msgid "Clear Inherited Timing"
+msgstr "清除继承的时间"
+
+#: AutoCam/core/props.py:1039
+msgctxt "Operator"
+msgid "Clear Inherited Timing?"
+msgstr "清除继承的时间？"
+
+#: AutoCam/ui/panels.py:888
+msgctxt "Operator"
+msgid "Clear This Rig"
+msgstr "清除此绑定"
+
+#: AutoCam/ops/misc.py:53
+msgctxt "Operator"
+msgid "Clear This Rig?"
+msgstr "清除此绑定？"
+
+#: AutoCam/core/props.py:561
+msgctxt "Operator"
+msgid "Documentation"
+msgstr "文档"
+
+#: AutoCam/ops/camera_to_curve.py:48
+#: AutoCam/ui/panels.py:535
+msgctxt "Operator"
+msgid "Generate Curve"
+msgstr "生成曲线"
+
+#: AutoCam/ui/panels.py:624
+msgctxt "Operator"
+msgid "Generate Rig"
+msgstr "生成绑定"
+
+#: AutoCam/core/props.py:569
+msgctxt "Operator"
+msgid "Get AutoCam Pro"
+msgstr "获取 AutoCam Pro"
+
+#: AutoCam/ui/panels.py:674
+msgctxt "Operator"
+msgid "Inherit Original Speed"
+msgstr "继承原始速度"
+
+#: AutoCam/core/props.py:967
+msgctxt "Operator"
+msgid "Inherit Speed"
+msgstr "继承速度"
+
+#: AutoCam/core/props.py:1784
+msgctxt "Operator"
+msgid "Load from Blender"
+msgstr "从 Blender 加载"
+
+#: AutoCam/ui/panels.py:424
+#: AutoCam/ui/panels.py:435
+msgctxt "Operator"
+msgid "Make Active"
+msgstr "设为活动"
+
+#: AutoCam/ui/panels.py:292
+msgctxt "Operator"
+msgid "Pipeline Stage"
+msgstr "管线阶段"
+
+#: AutoCam/ui/panels.py:819
+msgctxt "Operator"
+msgid "Re-Bake"
+msgstr "重新烘焙"
+
+#: AutoCam/core/props.py:1785
+msgctxt "Operator"
+msgid "Read Blender's current Walk navigation movement keys into these fields, so they match what walk actually does"
+msgstr "将 Blender 当前飞行导航的移动按键读取到这些字段，使其与实际飞行操作一致"
+
+#: AutoCam/ui/panels.py:481
+msgctxt "Operator"
+msgid "Record Flythrough"
+msgstr "录制飞越"
+
+#: AutoCam/ui/panels.py:705
+msgctxt "Operator"
+msgid "Reload Scripts"
+msgstr "重新加载脚本"
+
+#: AutoCam/ui/panels.py:760
+msgctxt "Operator"
+msgid "Resample Scene"
+msgstr "重采样场景"
+
+#: AutoCam/ui/panels.py:571
+msgctxt "Operator"
+msgid "Reset"
+msgstr "重置"
+
+#: AutoCam/core/props.py:1836
+msgctxt "Operator"
+msgid "Reset flythrough sensitivity and movement keys to Blender defaults (QWERTY)"
+msgstr "将飞越灵敏度和移动按键重置为 Blender 默认值（QWERTY）"
+
+#: AutoCam/core/props.py:1835
+msgctxt "Operator"
+msgid "Reset to Defaults"
+msgstr "重置为默认值"
+
+#: AutoCam/ops/camera_to_curve.py:187
+msgctxt "Operator"
+msgid "Reset to Original Path"
+msgstr "重置为原始路径"
+
+#: AutoCam/ops/misc.py:192
+msgctxt "Operator"
+msgid "Set Active Camera"
+msgstr "设置活动摄像机"
+
+#: AutoCam/ops/record.py:41
+msgctxt "Operator"
+msgid "Start Recording"
+msgstr "开始录制"
+
+#: AutoCam/core/props.py:565
+msgctxt "Operator"
+msgid "Support"
+msgstr "支持"
+
+#: AutoCam/core/props.py:916
+msgctxt "Operator"
+msgid "Toggle Dev Edition"
+msgstr "切换开发者版"
+
+#: AutoCam/core/props.py:940
+msgctxt "Operator"
+msgid "Toggle Experimental Feature"
+msgstr "切换实验性功能"
+
+#: AutoCam/core/props.py:1085
+msgctxt "Operator"
+msgid "Update Base"
+msgstr "更新基础"
+
+#: AutoCam/core/props.py:563
+msgctxt "Operator"
+msgid "Website"
+msgstr "网站"

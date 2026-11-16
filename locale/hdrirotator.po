@@ -1,0 +1,188 @@
+# perfect-chinese: 1
+# id: hdrirotator
+# kind: addon
+# module: bl_ext.blender_org.HDRIRotator
+# name: HDRI Rotator
+# name_zh: 环境贴图旋转
+# translator: KeshiMiao
+# category: Lighting
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: HDRIRotator/preferences.py:18
+msgid "Adjust the rotation sensitivity"
+msgstr "调整旋转灵敏度"
+
+#: HDRIRotator/preferences.py:117
+msgid "Automatically sync rotation between World HDRI and Built-in HDRI when they use the same texture source"
+msgstr "当世界 HDRI 与内置 HDRI 使用相同纹理源时，自动同步两者的旋转"
+
+#: HDRIRotator/preferences.py:44
+msgid "Clamp Power Values"
+msgstr "钳制功率值"
+
+#: HDRIRotator/preferences.py:44
+msgid "Clamp strength/power adjustments to each target's recommended minimum and maximum range"
+msgstr "将强度/功率调整钳制在每个目标推荐的最小和最大范围内"
+
+#: HDRIRotator/preferences.py:85
+msgid "Color of the overlay text"
+msgstr "叠加层文字的颜色"
+
+#: HDRIRotator/preferences.py:67
+msgid "Display Duration"
+msgstr "显示持续时间"
+
+#: HDRIRotator/preferences.py:117
+msgid "Enable HDRI Rotation Sync"
+msgstr "启用 HDRI 旋转同步"
+
+#: HDRIRotator/preferences.py:26
+msgid "Enable Precision Mode"
+msgstr "启用精确模式"
+
+#: HDRIRotator/operators.py:673
+msgid "Enable Shadows or World Space Lighting, or add a Sun Light"
+msgstr "启用阴影或世界空间光照，或添加一盏太阳光"
+
+#: HDRIRotator/preferences.py:76
+msgid "Fade Duration"
+msgstr "淡出持续时间"
+
+#: HDRIRotator/operators.py:690
+msgid "Failed to enter Sun mode"
+msgstr "进入太阳模式失败"
+
+#: HDRIRotator/preferences.py:26
+msgid "Hold SHIFT for precise rotation (slower movement)"
+msgstr "按住 SHIFT 进行精确旋转（移动更慢）"
+
+#: HDRIRotator/preferences.py:106
+msgid "Horizontal Position"
+msgstr "水平位置"
+
+#: HDRIRotator/preferences.py:106
+msgid "Horizontal position of the overlay (percentage from left)"
+msgstr "叠加层的水平位置（距左侧的百分比）"
+
+#: HDRIRotator/preferences.py:67
+msgid "How long to display the overlay (seconds)"
+msgstr "叠加层显示时长（秒）"
+
+#: HDRIRotator/preferences.py:76
+msgid "How long to fade out the overlay (seconds)"
+msgstr "叠加层淡出时长（秒）"
+
+#: HDRIRotator/preferences.py:38
+msgid "Invert Height Direction"
+msgstr "反转高度方向"
+
+#: HDRIRotator/preferences.py:32
+msgid "Invert Rotation Direction"
+msgstr "反转旋转方向"
+
+#: HDRIRotator/preferences.py:32
+msgid "Invert the direction of rotation when moving the mouse (does not affect Sun Light rotation or vertical height adjustment)"
+msgstr "反转鼠标移动时的旋转方向（不影响太阳光旋转或垂直高度调整）"
+
+#: HDRIRotator/preferences.py:38
+msgid "Invert the direction of vertical adjustment when moving the mouse up/down (Mapping Z Location and Sky Elevation only)"
+msgstr "反转鼠标上下移动时的垂直调整方向（仅影响映射 Z 位置和天空仰角）"
+
+#: HDRIRotator/preferences.py:172
+msgid "Keep in mind SHIFT cannot be used in your Keymap setting"
+msgstr "请注意，SHIFT 不能用于你的键位映射设置"
+
+#: HDRIRotator/operators.py:823
+msgid "Last Material/Rendered Mode"
+msgstr "上次的材质/渲染模式"
+
+#: HDRIRotator/operators.py:819
+msgid "Last Solid/Workbench Mode"
+msgstr "上次的实体/工作台模式"
+
+#: HDRIRotator/operators.py:815
+msgid "Last Wireframe Mode"
+msgstr "上次的线框模式"
+
+#: HDRIRotator/operators.py:671
+msgid "No Sun Light found in scene"
+msgstr "场景中未找到太阳光"
+
+#: HDRIRotator/operators.py:675
+msgid "No controllable rotation source found"
+msgstr "未找到可控制的旋转源"
+
+#: HDRIRotator/operators.py:409
+msgid "No controllable strength source found"
+msgstr "未找到可控制的强度源"
+
+#: HDRIRotator/operators.py:660
+msgid "Operator must be run in a 3D Viewport"
+msgstr "操作符必须在 3D 视图中运行"
+
+#: HDRIRotator/operators.py:66
+msgid "Rotate sun on X axis instead of Z"
+msgstr "沿 X 轴而非 Z 轴旋转太阳光"
+
+#: HDRIRotator/preferences.py:168
+msgid "SHIFT key detected in Keymap - Precision mode disabled"
+msgstr "键位映射中检测到 SHIFT 键 — 精确模式已禁用"
+
+#: HDRIRotator/preferences.py:18
+msgid "Sensitivity"
+msgstr "灵敏度"
+
+#: HDRIRotator/preferences.py:51
+msgid "Show Value Overlay"
+msgstr "显示数值叠加层"
+
+#: HDRIRotator/preferences.py:51
+msgid "Show the current rotation value in the 3D viewport"
+msgstr "在 3D 视图中显示当前旋转值"
+
+#: HDRIRotator/preferences.py:58
+msgid "Size of the overlay text"
+msgstr "叠加层文字大小"
+
+#: HDRIRotator/operators.py:66
+msgid "Sun Rotate X"
+msgstr "太阳光 X 轴旋转"
+
+#: HDRIRotator/preferences.py:85
+msgid "Text Color"
+msgstr "文字颜色"
+
+#: HDRIRotator/preferences.py:58
+msgid "Text Size"
+msgstr "文字大小"
+
+#: HDRIRotator/utils.py:683
+msgid "Unsupported rotation input type in mapping node."
+msgstr "映射节点中不支持的旋转输入类型。"
+
+#: HDRIRotator/utils.py:658
+msgid "Unsupported rotation input type."
+msgstr "不支持的旋转输入类型。"
+
+#: HDRIRotator/preferences.py:96
+msgid "Vertical Position"
+msgstr "垂直位置"
+
+#: HDRIRotator/preferences.py:96
+msgid "Vertical position of the overlay (percentage from bottom)"
+msgstr "叠加层的垂直位置（距底部的百分比）"
+
+#: HDRIRotator/operators.py:61
+msgctxt "Operator"
+msgid "HDRI Rotator"
+msgstr "HDRI 旋转器"
+
+#: HDRIRotator/operators.py:62
+msgctxt "Operator"
+msgid "Rotate HDRI or Light Direction with your mouse. Hold {SHIFT} for precision."
+msgstr "用鼠标旋转 HDRI 或光照方向。按住 {SHIFT} 可精确操作。"

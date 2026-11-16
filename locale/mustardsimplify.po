@@ -1,0 +1,822 @@
+# perfect-chinese: 1
+# id: mustardsimplify
+# kind: addon
+# module: bl_ext.blender_org.MustardSimplify
+# name: Mustard Simplify
+# name_zh: 芥末简化
+# translator: KeshiMiao
+# category: Scene
+# supported_versions: >=4.3.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: tools/ops_data_removal.py:204
+msgid "("
+msgstr "("
+
+#: tools/ops_data_removal.py:204
+msgid ")"
+msgstr ")"
+
+#: __init__.py:5
+msgid "A set of tools to simplify scenes for better viewport performance"
+msgstr "一套用于简化场景以提升视图性能的工具"
+
+#: settings/settings_addon.py:21
+msgid "Add buttons in Viewport to enable/disable Simplify, and EEVEE Fast Normals"
+msgstr "在视图中添加按钮，用于启用/禁用简化和 EEVEE 快速法线"
+
+#: settings/settings_addon.py:29
+msgid "Advanced Options"
+msgstr "高级选项"
+
+#: simplify/simplify_status.py:64
+msgid "Apply the Camera Hide operation"
+msgstr "应用摄像机隐藏操作"
+
+#: tools/ops_proxy.py:269
+msgid "Auto Smooth Normals"
+msgstr "自动平滑法线"
+
+#: settings/settings_main.py:186
+msgid "Automatically update the Execution Times during animations"
+msgstr "动画期间自动更新执行时间"
+
+#: settings/settings_main.py:31
+msgid "Blender Simplify"
+msgstr "Blender 简化"
+
+#: simplify/simplify_status.py:64
+msgid "Camera Hide"
+msgstr "摄像机隐藏"
+
+#: menu/menu_camera_hide.py:9
+msgid "Camera Hide (Experimental)"
+msgstr "摄像机隐藏（实验性）"
+
+#: settings/settings_main.py:103
+#: settings/settings_main.py:113
+msgid "Collection"
+msgstr "集合"
+
+#: settings/settings_main.py:113
+msgid "Collection whose Objects will be considered full exceptions"
+msgstr "其物体将被视为完全例外的集合"
+
+#: settings/settings_main.py:103
+msgid "Collection with exceptions"
+msgstr "带例外的集合"
+
+#: settings/settings_main.py:146
+msgid "Color meshes by the number of active modifiers on each object"
+msgstr "按每个物体上活动修改器的数量为网格着色"
+
+#: settings/settings_main.py:131
+msgid "Color meshes by the number of polygons (modifiers included)"
+msgstr "按多边形数量（包括修改器）为网格着色"
+
+#: settings/settings_main.py:138
+msgid "Color meshes by the total pixel count of every texture across their materials"
+msgstr "按各材质中所有纹理的总像素数为网格着色"
+
+#: settings/settings_main.py:157
+msgid "Continuously refresh the heatmap as the scene changes.\nPerformance cost: re-evaluates every mesh on every update"
+msgstr "场景变化时持续刷新热力图。\n性能开销：每次更新都会重新评估每个网格"
+
+#: settings/settings_main.py:89
+#: simplify/ops_settings_blender_simplify.py:87
+msgid "Culling"
+msgstr "剔除"
+
+#: settings/settings_main.py:40
+msgid "Cycles"
+msgstr "Cycles"
+
+#: menu/menu_simplify.py:101
+#: menu/menu_simplify.py:232
+msgid "Cycles Culling"
+msgstr "Cycles 剔除"
+
+#: settings/settings_addon.py:34
+msgid "Debug Mode"
+msgstr "调试模式"
+
+#: settings/settings_main.py:83
+#: simplify/simplify_status.py:58
+msgid "Disable Drivers"
+msgstr "禁用驱动器"
+
+#: settings/settings_main.py:77
+msgid "Disable Physics: controls rigid bodies only"
+msgstr "禁用物理：仅控制刚体"
+
+#: settings/settings_main.py:69
+msgid "Disable Shape Keys driven by animation keyframes regardless of other settings.\nThis is not affected by Disable when Null setting: if the setting is on, these Shape Keys are muted regardless of their value"
+msgstr "禁用由动画关键帧驱动的形态键，无论其他设置如何。\n不受“为空时禁用”设置影响：如果该设置开启，这些形态键无论其值如何都会被静音"
+
+#: settings/settings_main.py:59
+msgid "Disable Shape Keys driven by drivers"
+msgstr "禁用由驱动器驱动的形态键"
+
+#: settings/settings_main.py:64
+msgid "Disable Shape Keys driven by drivers only when null"
+msgstr "仅当为空时禁用由驱动器驱动的形态键"
+
+#: settings/settings_main.py:69
+msgid "Disable if with Animation Key-Frames"
+msgstr "带有动画关键帧时禁用"
+
+#: settings/settings_main.py:59
+msgid "Disable if with Drivers"
+msgstr "带有驱动器时禁用"
+
+#: settings/settings_main.py:44
+#: simplify/simplify_status.py:50
+msgid "Disable modifiers"
+msgstr "禁用修改器"
+
+#: settings/settings_main.py:53
+msgid "Disable only Shape Keys with value equal to 0.\nThis applies only to non-driven Shape Keys (i.e., without drivers or animation keyframes)"
+msgstr "仅禁用值为 0 的形态键。\n仅适用于非驱动形态键（即没有驱动器或动画关键帧的形态键）"
+
+#: settings/settings_main.py:53
+#: settings/settings_main.py:64
+msgid "Disable only when Null"
+msgstr "仅当为空时禁用"
+
+#: tools/ops_proxy.py:302
+msgid "Do not duplicate armature, and use the existing one"
+msgstr "不复制骨架，并使用现有骨架"
+
+#: simplify/ops_settings_shape_keys.py:34
+msgid "Driven Shape-Keys"
+msgstr "驱动形态键"
+
+#: settings/settings_main.py:83
+#: simplify/simplify_status.py:58
+msgid "Drivers"
+msgstr "驱动器"
+
+#: settings/settings_main.py:39
+msgid "Eevee"
+msgstr "EEVEE"
+
+#: settings/settings_main.py:186
+msgid "Enable Animations Update"
+msgstr "启用动画更新"
+
+#: settings/settings_main.py:31
+msgid "Enable Blender Simplify"
+msgstr "启用 Blender 简化"
+
+#: settings/settings_main.py:89
+msgid "Enable Camera Frustum and Distance Culling for all Scene objects.\nOnly effective when using Cycles as render engine"
+msgstr "为所有场景物体启用摄像机视锥和距离剔除。\n仅在使用 Cycles 作为渲染引擎时有效"
+
+#: simplify/simplify_status.py:67
+msgid "Enable Camera Frustum and Distance Culling on this Object"
+msgstr "在此物体上启用摄像机视锥和距离剔除"
+
+#: settings/settings_main.py:34
+msgid "Engine"
+msgstr "引擎"
+
+#: simplify/ops_settings_modifiers.py:17
+msgid "Evaluate Execution Time"
+msgstr "评估执行时间"
+
+#: settings/settings_main.py:97
+msgid "Exception"
+msgstr "例外"
+
+#: settings/settings_main.py:97
+msgid "Exception Type"
+msgstr "例外类型"
+
+#: menu/menu_simplify.py:129
+msgid "Exceptions"
+msgstr "例外"
+
+#: simplify/ops_settings_modifiers.py:205
+msgid "Execution Time"
+msgstr "执行时间"
+
+#: menu/menu_simplify.py:325
+msgid "Execution Time Computation Overhead"
+msgstr "执行时间计算开销"
+
+#: settings/settings_main.py:198
+msgid "Execution Time list order"
+msgstr "执行时间列表顺序"
+
+#: menu/menu_simplify.py:252
+msgid "Execution Times"
+msgstr "执行时间"
+
+#: settings/settings_addon.py:43
+msgid "Experimental"
+msgstr "实验性"
+
+#: settings/settings_main.py:191
+msgid "Frames between Execution Time computation updates.\nA small number can affect Viewport performance.\nSet to 0 to update at every frame"
+msgstr "执行时间计算更新之间的帧数。\n较小的数值会影响视图性能。\n设为 0 可在每帧更新"
+
+#: tools/ops_proxy.py:253
+msgid "Full"
+msgstr "完整"
+
+#: simplify/ops_settings_shape_keys.py:29
+msgid "Global Settings"
+msgstr "全局设置"
+
+#: simplify/ops_settings_modifiers.py:192
+msgid "Grease Pencil"
+msgstr "蜡笔"
+
+#: tools/ops_proxy.py:249
+msgid "Head Type"
+msgstr "头部类型"
+
+#: tools/ops_proxy.py:253
+msgid "Head with all face bones"
+msgstr "包含所有面部骨骼的头部"
+
+#: tools/ops_proxy.py:252
+msgid "Head with jaws and eyes"
+msgstr "包含下颌和眼睛的头部"
+
+#: settings/settings_main.py:86
+msgid "Hide objects"
+msgstr "隐藏物体"
+
+#: simplify/simplify_status.py:61
+msgid "Hide the Object"
+msgstr "隐藏该物体"
+
+#: tools/ops_proxy.py:289
+msgid "Ignore Bone Groups"
+msgstr "忽略骨骼组"
+
+#: settings/settings_main.py:118
+msgid "Include Objects in Sub-collections"
+msgstr "包括子集合中的物体"
+
+#: tools/ops_proxy.py:338
+msgid "It is important to disable the Collection with the Checkbox button,"
+msgstr "重要的是，使用复选框按钮禁用集合，"
+
+#: tools/ops_proxy.py:252
+msgid "Jaw"
+msgstr "下颌"
+
+#: settings/settings_main.py:157
+msgid "Live update"
+msgstr "实时更新"
+
+#: simplify/ops_settings_blender_simplify.py:51
+#: simplify/ops_settings_blender_simplify.py:75
+msgid "Max Child Particles"
+msgstr "最大子级粒子数"
+
+#: simplify/ops_settings_blender_simplify.py:49
+#: simplify/ops_settings_blender_simplify.py:73
+msgid "Max Subdivision"
+msgstr "最大细分"
+
+#: settings/settings_main.py:146
+msgid "Modifier number"
+msgstr "修改器数量"
+
+#: settings/settings_main.py:44
+#: simplify/simplify_status.py:50
+msgid "Modifiers"
+msgstr "修改器"
+
+#: __init__.py:5
+msgid "Mustard Simplify"
+msgstr "Mustard Simplify"
+
+#: tools/ops_proxy.py:409
+msgid "Mustard Simplify - Active mesh must have an armature parent"
+msgstr "Mustard Simplify - 活动网格必须具有骨架父级"
+
+#: simplify/ops_camera_hide.py:164
+msgid "Mustard Simplify - Camera Hide applied"
+msgstr "Mustard Simplify - 已应用摄像机隐藏"
+
+#: simplify/ops_camera_hide.py:181
+msgid "Mustard Simplify - Camera Hide restored"
+msgstr "Mustard Simplify - 已恢复摄像机隐藏"
+
+#: utils/execution_time.py:94
+msgid "Mustard Simplify - Modifiers Execution Time have been updated."
+msgstr "Mustard Simplify - 修改器执行时间已更新。"
+
+#: tools/ops_complexity_analyzer.py:437
+msgid "Mustard Simplify - No 3D viewport found"
+msgstr "Mustard Simplify - 未找到 3D 视图"
+
+#: tools/ops_data_removal.py:111
+msgid "Mustard Simplify - No Data Block to remove was found."
+msgstr "Mustard Simplify - 未找到要移除的数据块。"
+
+#: tools/ops_data_removal.py:74
+msgid "Mustard Simplify - No Data Block to remove was selected."
+msgstr "Mustard Simplify - 未选择要移除的数据块。"
+
+#: tools/ops_complexity_analyzer.py:421
+msgid "Mustard Simplify - No Objects to analyze"
+msgstr "Mustard Simplify - 没有可分析的物体"
+
+#: tools/ops_proxy.py:403
+msgid "Mustard Simplify - No active object"
+msgstr "Mustard Simplify - 没有活动物体"
+
+#: tools/ops_proxy.py:396
+msgid "Mustard Simplify - Select at least one mesh"
+msgstr "Mustard Simplify - 至少选择一个网格"
+
+#: tools/ops_proxy.py:432
+msgid "Mustard Simplify - Selected meshes have no deform-bone vertex groups"
+msgstr "Mustard Simplify - 所选网格没有变形骨骼顶点组"
+
+#: simplify/ops_simplify.py:598
+msgid "Mustard Simplify - Simplify Disabled."
+msgstr "Mustard Simplify - 简化已禁用。"
+
+#: simplify/ops_simplify.py:596
+msgid "Mustard Simplify - Simplify Enabled."
+msgstr "Mustard Simplify - 简化已启用。"
+
+#: settings/settings_main.py:48
+#: simplify/simplify_status.py:53
+msgid "Mute un-used shape keys (value different from 0)"
+msgstr "静音未使用的形态键（值不为 0）"
+
+#: settings/settings_main.py:202
+msgid "Name"
+msgstr "名称"
+
+#: tools/ops_data_removal.py:162
+msgid "No Data Blocks found"
+msgstr "未找到数据块"
+
+#: simplify/ops_settings_blender_simplify.py:55
+#: tools/ops_proxy.py:264
+msgid "Normals"
+msgstr "法向"
+
+#: simplify/ops_settings_modifiers.py:191
+msgid "Object"
+msgstr "物体"
+
+#: settings/settings_main.py:86
+#: settings/settings_main.py:102
+msgid "Objects"
+msgstr "物体"
+
+#: settings/settings_main.py:118
+msgid "Objects in Sub-section of the selected collection are considered full exceptions.\nDisable to add only the Objects directly in the added collection"
+msgstr "所选集合的子集合中的物体将视为完全例外。\n禁用后仅添加所添加集合中直接包含的物体"
+
+#: settings/settings_main.py:102
+msgid "Objects with exceptions"
+msgstr "带例外的物体"
+
+#: menu/menu_simplify.py:54
+msgid "Options"
+msgstr "选项"
+
+#: settings/settings_main.py:202
+msgid "Order by name"
+msgstr "按名称排序"
+
+#: settings/settings_main.py:203
+msgid "Order by time"
+msgstr "按时间排序"
+
+#: menu/menu_simplify.py:332
+msgid "Others"
+msgstr "其他"
+
+#: settings/settings_main.py:77
+msgid "Physics (Rigid Bodies)"
+msgstr "物理（刚体）"
+
+#: settings/settings_main.py:131
+msgid "Polygon count"
+msgstr "多边形数量"
+
+#: tools/ops_proxy.py:259
+msgid "Proxy Collection"
+msgstr "代理集合"
+
+#: simplify/ops_settings_blender_simplify.py:66
+msgid "Render"
+msgstr "渲染"
+
+#: settings/settings_main.py:34
+msgid "Render engine whose Simplify settings should be shown"
+msgstr "要显示其简化设置的渲染引擎"
+
+#: __init__.py:5
+msgid "Scene"
+msgstr "场景"
+
+#: menu/menu_complexity_analyzer.py:10
+msgid "Scene Complexity Analyzer"
+msgstr "场景复杂度分析器"
+
+#: tools/ops_fast_normals.py:12
+msgid "Set all normals to custom group, or revert back to normal"
+msgstr "将所有法向设为自定义组，或恢复为默认法向"
+
+#: tools/ops_proxy.py:350
+msgid "Settings"
+msgstr "设置"
+
+#: settings/settings_main.py:48
+#: simplify/simplify_status.py:53
+msgid "Shape Keys"
+msgstr "形态键"
+
+#: settings/settings_main.py:127
+msgid "Show"
+msgstr "显示"
+
+#: settings/settings_main.py:40
+msgid "Show Cycles Simplify settings"
+msgstr "显示 Cycles 简化设置"
+
+#: settings/settings_main.py:39
+msgid "Show Eevee Simplify settings"
+msgstr "显示 EEVEE 简化设置"
+
+#: settings/settings_addon.py:15
+msgid "Show Wiki/Help Buttons"
+msgstr "显示 Wiki/帮助按钮"
+
+#: settings/settings_addon.py:15
+msgid "Show the Help buttons near the tools"
+msgstr "在工具旁显示帮助按钮"
+
+#: menu/__init__.py:4
+#: menu/menu_simplify.py:9
+msgid "Simplify"
+msgstr "简化"
+
+#: simplify/ops_settings_presets.py:82
+msgid "Simplify Presets"
+msgstr "简化预设"
+
+#: settings/settings_addon.py:21
+msgid "Simplify Viewport Button"
+msgstr "简化视图按钮"
+
+#: menu/menu_simplify.py:354
+msgid "Size Limit"
+msgstr "大小限制"
+
+#: tools/ops_proxy.py:251
+msgid "Solid"
+msgstr "实体"
+
+#: tools/ops_proxy.py:251
+msgid "Solid head"
+msgstr "实体表头"
+
+#: menu/menu_complexity_analyzer.py:29
+msgid "Switch to Workbench view to use Complexity Analyzer."
+msgstr "切换到工作台视图以使用复杂度分析器。"
+
+#: simplify/ops_settings_blender_simplify.py:59
+#: simplify/ops_settings_blender_simplify.py:79
+msgid "Texture Resolution"
+msgstr "纹理分辨率"
+
+#: simplify/ops_settings_blender_simplify.py:61
+#: simplify/ops_settings_blender_simplify.py:81
+msgid "Texture Size Limit"
+msgstr "纹理大小限制"
+
+#: settings/settings_main.py:138
+msgid "Texture resolution"
+msgstr "纹理分辨率"
+
+#: menu/menu_simplify.py:351
+msgid "Textures"
+msgstr "纹理"
+
+#: tools/ops_data_removal.py:165
+msgid "This operation is highly destructive! Remove only data-blocks you do not need!"
+msgstr "此操作具有高度破坏性！请仅移除不需要的数据块！"
+
+#: tools/ops_proxy.py:328
+msgid "This tool creates a proxy armature to increase viewport performance."
+msgstr "此工具会创建代理骨架以提高视图性能。"
+
+#: tools/ops_proxy.py:294
+msgid "Threshold"
+msgstr "阈值"
+
+#: settings/settings_main.py:203
+msgid "Time"
+msgstr "时间"
+
+#: settings/settings_main.py:210
+msgid "Time in seconds between Camera Hide updates"
+msgstr "相机隐藏更新间隔（秒）"
+
+#: tools/ops_fast_normals.py:12
+msgid "To Custom"
+msgstr "转为自定义"
+
+#: tools/ops_proxy.py:332
+msgid "To get the full benefits, disable the original Collection in Viewport,"
+msgstr "要获得完整效果，请在视图中禁用原始集合，"
+
+#: menu/menu_tools.py:9
+msgid "Tools"
+msgstr "工具"
+
+#: tools/ops_proxy.py:357
+msgid "Transfer"
+msgstr "传递"
+
+#: tools/ops_proxy.py:284
+msgid "UV Layers"
+msgstr "UV 层"
+
+#: settings/settings_addon.py:34
+msgid "Unlock Debug Mode.\nMore messaged will be generated in the console.\nEnable it only if you encounter problems, as it might degrade general Blender performance"
+msgstr "解锁调试模式。\n控制台中将生成更多消息。\n仅在遇到问题时启用，因为它可能会降低 Blender 的整体性能"
+
+#: settings/settings_addon.py:43
+msgid "Unlock Experimental Features.\nUse these features with caution, as they might not work properly or not be beneficial for performance in all cases"
+msgstr "解锁实验性功能。\n请谨慎使用这些功能，因为它们可能无法正常工作，或并非在所有情况下都有利于性能"
+
+#: settings/settings_addon.py:29
+msgid "Unlock advanced options"
+msgstr "解锁高级选项"
+
+#: settings/settings_main.py:191
+msgid "Update Frame-rate"
+msgstr "更新帧率"
+
+#: settings/settings_main.py:210
+msgid "Update Interval"
+msgstr "更新间隔"
+
+#: tools/ops_proxy.py:302
+msgid "Use Original Armature"
+msgstr "使用原始骨架"
+
+#: tools/ops_proxy.py:279
+msgid "Vertex Colors"
+msgstr "顶点颜色"
+
+#: tools/ops_proxy.py:274
+msgid "Vertex Groups"
+msgstr "顶点组"
+
+#: simplify/ops_settings_blender_simplify.py:42
+msgid "Viewport"
+msgstr "视图"
+
+#: simplify/simplify_status.py:61
+msgid "Visibility"
+msgstr "可见性"
+
+#: simplify/ops_settings_blender_simplify.py:53
+msgid "Volume Resolution"
+msgstr "体积分辨率"
+
+#: settings/settings_main.py:127
+msgid "What property to visualize across the scene"
+msgstr "要在场景中可视化的属性"
+
+#: tools/ops_proxy.py:337
+msgid "and use the proxy one instead."
+msgstr "并改用代理集合。"
+
+#: tools/ops_proxy.py:342
+msgid "not just hide the original Objects, to avoid Blender still processing"
+msgstr "而不只是隐藏原始物体，以避免 Blender 仍在"
+
+#: tools/ops_proxy.py:347
+msgid "them in the Viewport."
+msgstr "视图中处理它们。"
+
+#: tools/ops_proxy.py:245
+msgctxt "Operator"
+msgid "Add Proxys"
+msgstr "添加代理"
+
+#: simplify/ui_exceptions.py:9
+msgctxt "Operator"
+msgid "Add Selected Objects as Exceptions"
+msgstr "将所选物体添加为例外"
+
+#: simplify/ops_settings_presets.py:92
+msgctxt "Operator"
+msgid "Add Simplify Preset"
+msgstr "添加简化预设"
+
+#: tools/ops_proxy.py:246
+msgctxt "Operator"
+msgid "Add proxys to selected meshes"
+msgstr "为所选网格添加代理"
+
+#: simplify/ops_camera_hide.py:150
+msgctxt "Operator"
+msgid "Apply Camera Hide"
+msgstr "应用相机隐藏"
+
+#: tools/ops_complexity_analyzer.py:407
+msgctxt "Operator"
+msgid "Apply or remove the complexity heatmap.\nThe Viewport might become unresponsive while the Complexity Analyzer is toggled on, especially when evaluating the Texture resolution"
+msgstr "应用或移除复杂度热力图。\n开启复杂度分析器时，视图可能会无响应，尤其是在评估纹理分辨率时"
+
+#: simplify/ops_settings_blender_simplify.py:8
+msgctxt "Operator"
+msgid "Blender Simplify Settings"
+msgstr "Blender 简化设置"
+
+#: menu/menu_tools.py:23
+msgctxt "Operator"
+msgid "Create Armature Proxy"
+msgstr "创建骨架代理"
+
+#: menu/menu_tools.py:28
+msgctxt "Operator"
+msgid "Data Removal"
+msgstr "数据移除"
+
+#: tools/ops_data_removal.py:191
+msgctxt "Operator"
+msgid "Deselect All"
+msgstr "全部取消选择"
+
+#: menu/menu_complexity_analyzer.py:49
+msgctxt "Operator"
+msgid "Disable"
+msgstr "禁用"
+
+#: menu/menu_simplify.py:32
+#: menu/menu_simplify.py:42
+msgctxt "Operator"
+msgid "Disable Eevee Fast Normals"
+msgstr "禁用 EEVEE 快速法向"
+
+#: tools/ops_fast_normals.py:9
+msgctxt "Operator"
+msgid "Eevee Fast Normals"
+msgstr "EEVEE 快速法向"
+
+#: menu/menu_complexity_analyzer.py:55
+#: tools/ops_complexity_analyzer.py:406
+msgctxt "Operator"
+msgid "Enable"
+msgstr "启用"
+
+#: menu/menu_simplify.py:32
+#: menu/menu_simplify.py:42
+msgctxt "Operator"
+msgid "Enable Eevee Fast Normals"
+msgstr "启用 EEVEE 快速法向"
+
+#: settings/settings_addon.py:71
+msgctxt "Operator"
+msgid "GitHub"
+msgstr "GitHub"
+
+#: simplify/ops_camera_hide.py:151
+msgctxt "Operator"
+msgid "Hide mesh objects outside the active camera frustum"
+msgstr "隐藏活动相机视锥外的网格物体"
+
+#: simplify/ops_camera_hide.py:92
+msgctxt "Operator"
+msgid "Live Frustum Culling Modal Operator"
+msgstr "实时视锥剔除模态操作符"
+
+#: simplify/ops_settings_modifiers.py:175
+msgctxt "Operator"
+msgid "Refresh Modifiers List"
+msgstr "刷新修改器列表"
+
+#: simplify/ops_settings_objects.py:76
+msgctxt "Operator"
+msgid "Refresh Objects List"
+msgstr "刷新物体列表"
+
+#: tools/ops_data_removal.py:51
+msgctxt "Operator"
+msgid "Remove Data"
+msgstr "移除数据"
+
+#: simplify/ui_exceptions.py:44
+msgctxt "Operator"
+msgid "Remove Object"
+msgstr "移除物体"
+
+#: settings/settings_addon.py:77
+msgctxt "Operator"
+msgid "Report Bug"
+msgstr "报告错误"
+
+#: utils/ops_reset.py:8
+msgctxt "Operator"
+msgid "Reset Settings"
+msgstr "重置设置"
+
+#: simplify/ops_camera_hide.py:170
+#: simplify/ops_camera_hide.py:171
+msgctxt "Operator"
+msgid "Restore Camera Hide"
+msgstr "恢复相机隐藏"
+
+#: tools/ops_data_removal.py:188
+msgctxt "Operator"
+msgid "Select All"
+msgstr "全选"
+
+#: menu/menu_simplify.py:274
+msgctxt "Operator"
+msgid "Select Modifiers"
+msgstr "选择修改器"
+
+#: simplify/ops_settings_modifiers.py:187
+msgctxt "Operator"
+msgid "Select Modifiers to Simplify"
+msgstr "选择要简化的修改器"
+
+#: simplify/ops_settings_objects.py:88
+msgctxt "Operator"
+msgid "Select Objects to Simplify"
+msgstr "选择要简化的物体"
+
+#: tools/ops_data_removal.py:27
+msgctxt "Operator"
+msgid "Select/Deselect All"
+msgstr "全选/取消全选"
+
+#: simplify/ops_settings_shape_keys.py:8
+msgctxt "Operator"
+msgid "Shape Keys Settings"
+msgstr "形态键设置"
+
+#: simplify/ops_viewport_button.py:16
+msgctxt "Operator"
+msgid "Simplify"
+msgstr "简化"
+
+#: menu/menu_simplify.py:25
+#: simplify/ops_simplify.py:15
+msgctxt "Operator"
+msgid "Simplify Scene"
+msgstr "简化场景"
+
+#: tools/ops_fast_normals.py:7
+msgctxt "Operator"
+msgid "Switch normal map nodes to a faster custom node"
+msgstr "将法线贴图节点切换为更快的自定义节点"
+
+#: tools/ops_complexity_analyzer.py:431
+msgctxt "Operator"
+msgid "Switch the 3D viewport shading to Workbench (Solid) mode"
+msgstr "将 3D 视图着色切换为 Workbench（实体）模式"
+
+#: menu/menu_complexity_analyzer.py:34
+#: tools/ops_complexity_analyzer.py:430
+msgctxt "Operator"
+msgid "Switch to Workbench"
+msgstr "切换到 Workbench"
+
+#: simplify/ops_camera_hide.py:128
+msgctxt "Operator"
+msgid "Toggle Live Camera Hide"
+msgstr "切换实时相机隐藏"
+
+#: simplify/ops_camera_hide.py:129
+msgctxt "Operator"
+msgid "Toggle live Camera Hide on/off"
+msgstr "开启/关闭实时相机隐藏"
+
+#: menu/menu_simplify.py:18
+msgctxt "Operator"
+msgid "Un-Simplify Scene"
+msgstr "取消简化场景"
+
+#: utils/execution_time.py:89
+msgctxt "Operator"
+msgid "Update Execution time"
+msgstr "更新执行时间"
+
+#: settings/settings_addon.py:74
+msgctxt "Operator"
+msgid "User Guide"
+msgstr "用户指南"

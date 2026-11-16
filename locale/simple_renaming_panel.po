@@ -1,0 +1,1273 @@
+# perfect-chinese: 1
+# id: simple_renaming_panel
+# kind: addon
+# module: bl_ext.blender_org.simple_renaming_panel
+# name: Simple Renaming
+# name_zh: 简单重命名
+# translator: KeshiMiao
+# category: 3D View
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: simple_renaming/operators/__init__.py:62
+msgid "Actions"
+msgstr "动作"
+
+#: simple_renaming/operators/select_in_renaming_order.py:155
+msgid "Activate this from a 3D Viewport"
+msgstr "从 3D 视图激活"
+
+#: simple_renaming/add_suffix_panel/__init__.py:75
+#: simple_renaming/preferences/renaming_preferences.py:282
+msgid "Active"
+msgstr "活动项"
+
+#: simple_renaming/operators/__init__.py:179
+msgid "Active Only"
+msgstr "仅活动项"
+
+#: simple_renaming/ui/renaming_panels.py:151
+msgid "Add Prefix and Suffix"
+msgstr "添加前缀和后缀"
+
+#: simple_renaming/operators/__init__.py:108
+msgid "Add Prefix or Suffix to type"
+msgstr "为类型添加前缀或后缀"
+
+#: simple_renaming/ui/renaming_panels.py:254
+msgid "Add Type Prefix"
+msgstr "添加类型前缀"
+
+#: simple_renaming/ui/renaming_panels.py:256
+msgid "Add Type Suffix"
+msgstr "添加类型后缀"
+
+#: simple_renaming/operators/__init__.py:191
+msgid "Also Rename Data"
+msgstr "同时重命名数据"
+
+#: simple_renaming/operators/__init__.py:191
+msgid "Also rename the linked data block (mesh, curve, etc.) to match the object name"
+msgstr "同时重命名关联的数据块（网格、曲线等）以匹配物体名称"
+
+#: simple_renaming/preferences/renaming_preferences.py:276
+#: simple_renaming/preferences/renaming_preferences.py:305
+msgid "Alt"
+msgstr "Alt"
+
+#: simple_renaming/add_suffix_panel/__init__.py:126
+msgid "Armature"
+msgstr "骨架"
+
+#: simple_renaming/operators/select_in_renaming_order.py:15
+msgid "Assign next order"
+msgstr "分配下一个序号"
+
+#: simple_renaming/operators/__init__.py:57
+msgid "Attributes"
+msgstr "属性"
+
+#: simple_renaming/operators/__init__.py:172
+msgid "Automatically appends an incrementing numeric suffix to each renamed object. Configure the digit count or switch to letters in the Numerate section above, and the digit count for the @n variable in Preferences"
+msgstr "自动为每个重命名的物体追加递增的数字后缀。可在上方的“编号”部分配置位数或切换为字母，@n 变量的位数在偏好设置中配置"
+
+#: simple_renaming/operators/__init__.py:51
+msgid "Bone"
+msgstr "骨骼"
+
+#: simple_renaming/operators/select_in_renaming_order.py:164
+msgid "Bone ordering requires Edit or Pose mode"
+msgstr "骨骼排序需要编辑模式或姿态模式"
+
+#: simple_renaming/add_suffix_panel/__init__.py:137
+#: simple_renaming/operators/__init__.py:51
+msgid "Bones"
+msgstr "骨骼"
+
+#: simple_renaming/operators/__init__.py:184
+msgid "By Index"
+msgstr "按索引"
+
+#: simple_renaming/add_suffix_panel/__init__.py:70
+#: simple_renaming/preferences/renaming_preferences.py:169
+msgid "Cage"
+msgstr "框架"
+
+#: simple_renaming/add_suffix_panel/__init__.py:131
+msgid "Cameras"
+msgstr "摄像机"
+
+#: simple_renaming/ui/renaming_panels.py:338
+msgid "Case"
+msgstr "大小写"
+
+#: simple_renaming/ui/renaming_panels.py:182
+msgid "Case Transform"
+msgstr "大小写转换"
+
+#: simple_renaming/preferences/renaming_preferences.py:98
+msgid "Category"
+msgstr "类别"
+
+#: simple_renaming/operators/__init__.py:47
+msgid "Collection"
+msgstr "集合"
+
+#: simple_renaming/add_suffix_panel/__init__.py:133
+msgid "Collections"
+msgstr "集合"
+
+#: simple_renaming/operators/__init__.py:58
+msgid "Color Attributes"
+msgstr "颜色属性"
+
+#: simple_renaming/operators/select_in_renaming_order.py:16
+msgid "Confirm"
+msgstr "确认"
+
+#: simple_renaming/operators/case_transform.py:134
+msgid "Convert name to PascalCase  (hello_world → HelloWorld)"
+msgstr "将名称转换为帕斯卡命名法（hello_world → HelloWorld）"
+
+#: simple_renaming/operators/case_transform.py:116
+msgid "Convert name to UPPERCASE  (hello_world → HELLO_WORLD)"
+msgstr "将名称转换为全大写（hello_world → HELLO_WORLD）"
+
+#: simple_renaming/operators/case_transform.py:143
+msgid "Convert name to camelCase  (hello_world → helloWorld)"
+msgstr "将名称转换为驼峰命名法（hello_world → helloWorld）"
+
+#: simple_renaming/operators/case_transform.py:161
+msgid "Convert name to kebab-case  (HelloWorld → hello-world)"
+msgstr "将名称转换为短横线命名法（HelloWorld → hello-world）"
+
+#: simple_renaming/operators/case_transform.py:125
+msgid "Convert name to lowercase  (Hello_World → hello_world)"
+msgstr "将名称转换为全小写（Hello_World → hello_world）"
+
+#: simple_renaming/operators/case_transform.py:152
+msgid "Convert name to snake_case  (HelloWorld → hello_world)"
+msgstr "将名称转换为蛇形命名法（HelloWorld → hello_world）"
+
+#: simple_renaming/operators/number_transform.py:145
+msgid "Convert the last letter run in the name back to its spreadsheet-style number, padded to the Numerate Settings Padding  (A → 1, B → 2, … Z → 26, AA → 27 …)"
+msgstr "将名称末尾的连续字母转换回电子表格式数字，并按“编号设置”的填充位数补零（A → 1, B → 2, … Z → 26, AA → 27 …）"
+
+#: simple_renaming/operators/number_transform.py:163
+msgid "Convert the last letter run in the name to lowercase  (AA → aa)"
+msgstr "将名称末尾的连续字母转换为小写（AA → aa）"
+
+#: simple_renaming/operators/number_transform.py:154
+msgid "Convert the last letter run in the name to uppercase  (aa → AA)"
+msgstr "将名称末尾的连续字母转换为大写（aa → AA）"
+
+#: simple_renaming/operators/number_transform.py:135
+msgid "Convert the last number in the name to spreadsheet-style letters  (1 → A, 2 → B, … 26 → Z, 27 → AA …)"
+msgstr "将名称末尾的数字转换为电子表格式字母（1 → A, 2 → B, … 26 → Z, 27 → AA …）"
+
+#: simple_renaming/operators/number_transform.py:125
+msgid "Convert the last number in the name to spreadsheet-style letters  (1 → a, 2 → b, … 26 → z, 27 → aa …)"
+msgstr "将名称末尾的数字转换为电子表格式小写字母（1 → a, 2 → b, … 26 → z, 27 → aa …）"
+
+#: simple_renaming/preferences/renaming_preferences.py:265
+#: simple_renaming/preferences/renaming_preferences.py:294
+msgid "Ctrl"
+msgstr "Ctrl"
+
+#: simple_renaming/add_suffix_panel/__init__.py:125
+msgid "Curve"
+msgstr "曲线"
+
+#: simple_renaming/add_suffix_panel/__init__.py:80
+#: simple_renaming/add_suffix_panel/__init__.py:128
+msgid "Data"
+msgstr "数据"
+
+#: simple_renaming/add_suffix_panel/__init__.py:129
+msgid "Data = Objectname +"
+msgstr "数据 = 物体名 +"
+
+#: simple_renaming/ui/renaming_panels.py:191
+msgid "Data Name"
+msgstr "数据名称"
+
+#: simple_renaming/add_suffix_panel/__init__.py:71
+msgid "Date"
+msgstr "日期"
+
+#: simple_renaming/preferences/renaming_preferences.py:381
+msgid "Date & Time Variables"
+msgstr "日期和时间变量"
+
+#: simple_renaming/preferences/renaming_preferences.py:190
+msgid "Date Format"
+msgstr "日期格式"
+
+#: simple_renaming/preferences/renaming_preferences.py:115
+msgid "Debug Timing"
+msgstr "调试计时"
+
+#: simple_renaming/preferences/renaming_preferences.py:98
+msgid "Defines in which category of the tools panel the simple renaming panel is listed"
+msgstr "定义简单重命名面板在工具面板中列于哪个类别"
+
+#: simple_renaming/preferences/renaming_preferences.py:127
+msgid "Defines the first number for iterating objects. E.g., 1 means that the first object will be named [objectname]001"
+msgstr "定义遍历物体时的起始编号。例如 1 表示第一个物体将命名为 [objectname]001"
+
+#: simple_renaming/preferences/renaming_preferences.py:103
+msgid "Defines the separator between different operations"
+msgstr "定义不同操作之间的分隔符"
+
+#: simple_renaming/preferences/renaming_preferences.py:139
+msgid "Defines the steps between numbers. E.g., 1 results in 1, 2, 3, a step size ot two results in 1,3,5"
+msgstr "定义编号之间的步长。例如 1 得到 1、2、3，步长为 2 则得到 1、3、5"
+
+#: simple_renaming/operators/__init__.py:151
+msgid "Digit count for the auto-numeration suffix appended when Numerate is enabled (e.g. 3 → 001, 002, …), and for the Set Padding / Letters → Number tools. Ignored when Letters is enabled for the auto-numeration suffix. Does not affect the @n variable"
+msgstr "启用“编号”时追加的自动编号后缀的位数（例如 3 → 001、002……），也用于“设置填充”/“字母 → 数字”工具。若自动编号后缀启用了“字母”则忽略此项。不影响 @n 变量"
+
+#: simple_renaming/operators/numerate.py:19
+#: simple_renaming/preferences/renaming_preferences.py:134
+msgid "Digits"
+msgstr "位数"
+
+#: simple_renaming/add_suffix_panel/__init__.py:123
+msgid "Empty"
+msgstr "空物体"
+
+#: simple_renaming/preferences/renaming_preferences.py:109
+msgid "Enable or Disable Popup"
+msgstr "启用或禁用弹出窗口"
+
+#: simple_renaming/preferences/renaming_preferences.py:209
+msgid "Enable or disable the Prefix/Suffix by Type Panel"
+msgstr "启用或禁用“按类型添加前缀/后缀”面板"
+
+#: simple_renaming/ui/renaming_popup.py:29
+msgid "Error"
+msgstr "错误"
+
+#: simple_renaming/add_suffix_panel/__init__.py:66
+msgid "File"
+msgstr "文件"
+
+#: simple_renaming/ui/renaming_panels.py:172
+msgid "First"
+msgstr "第一个"
+
+#: simple_renaming/preferences/renaming_preferences.py:94
+msgid "General"
+msgstr "常规"
+
+#: simple_renaming/preferences/renaming_preferences.py:94
+msgid "General Settings"
+msgstr "常规设置"
+
+#: simple_renaming/preferences/renaming_preferences.py:145
+msgid "Generate spreadsheet-style letters (A, B, C… AA, AB…) instead of zero-padded digits for the Numerate operator, the auto-numerate suffix, and the @n variable"
+msgstr "为“编号”操作符、自动编号后缀和 @n 变量生成电子表格式字母（A、B、C…… AA、AB……）而非补零数字"
+
+#: simple_renaming/add_suffix_panel/__init__.py:122
+msgid "Geometry"
+msgstr "几何"
+
+#: simple_renaming/add_suffix_panel/__init__.py:135
+msgid "Grease Pencil"
+msgstr "蜡笔"
+
+#: simple_renaming/add_suffix_panel/__init__.py:124
+msgid "Group"
+msgstr "组"
+
+#: simple_renaming/add_suffix_panel/__init__.py:68
+#: simple_renaming/preferences/renaming_preferences.py:159
+msgid "High"
+msgstr "高"
+
+#: simple_renaming/operators/__init__.py:52
+msgid "Image Textures"
+msgstr "图像纹理"
+
+#: simple_renaming/operators/__init__.py:189
+msgid "Index"
+msgstr "索引"
+
+#: simple_renaming/preferences/renaming_preferences.py:95
+msgid "Keymaps"
+msgstr "键位映射"
+
+#: simple_renaming/operators/number_transform.py:162
+msgid "LETTERS → letters"
+msgstr "字母 → 小写字母"
+
+#: simple_renaming/ui/renaming_panels.py:173
+msgid "Last"
+msgstr "最后一个"
+
+#: simple_renaming/add_suffix_panel/__init__.py:127
+msgid "Lattice"
+msgstr "晶格"
+
+#: simple_renaming/operators/number_transform.py:144
+msgid "Letters → Number"
+msgstr "字母 → 数字"
+
+#: simple_renaming/add_suffix_panel/__init__.py:139
+#: simple_renaming/add_suffix_panel/__init__.py:142
+msgid "LightProps"
+msgstr "LightProps"
+
+#: simple_renaming/add_suffix_panel/__init__.py:132
+msgid "Lights"
+msgstr "灯光"
+
+#: simple_renaming/add_suffix_panel/__init__.py:69
+#: simple_renaming/preferences/renaming_preferences.py:164
+msgid "Low"
+msgstr "低"
+
+#: simple_renaming/operators/__init__.py:170
+msgid "Match Case"
+msgstr "区分大小写"
+
+#: simple_renaming/add_suffix_panel/__init__.py:121
+#: simple_renaming/operators/__init__.py:46
+msgid "Material"
+msgstr "材质"
+
+#: simple_renaming/preferences/renaming_preferences.py:221
+msgid "Material Regex"
+msgstr "材质正则表达式"
+
+#: simple_renaming/operators/__init__.py:46
+msgid "Materials"
+msgstr "材质"
+
+#: simple_renaming/add_suffix_panel/__init__.py:136
+msgid "Metaballs"
+msgstr "融球"
+
+#: simple_renaming/operators/__init__.py:54
+msgid "Modifiers"
+msgstr "修改器"
+
+#: simple_renaming/operators/__init__.py:142
+msgid "Name pattern for renaming. Use @n for a numbered variable (configure its digits in Preferences). Use the Numerate section above to set the auto-suffix digit count or switch to letters"
+msgstr "重命名使用的名称模式。使用 @n 表示数字变量（在偏好设置中配置其位数）。使用上方的「编号」部分设置自动后缀的位数，或切换为字母"
+
+#: simple_renaming/preferences/renaming_preferences.py:367
+msgid "Naming"
+msgstr "命名"
+
+#: simple_renaming/preferences/renaming_preferences.py:215
+msgid "Naming Regex"
+msgstr "命名正则表达式"
+
+#: simple_renaming/operators/__init__.py:142
+#: simple_renaming/ui/renaming_popup.py:109
+msgid "New Name"
+msgstr "新名称"
+
+#: simple_renaming/ui/renaming_popup.py:97
+#: simple_renaming/ui/renaming_popup.py:148
+msgid "No Objects Renamed"
+msgstr "未重命名任何物体"
+
+#: simple_renaming/ui/renaming_popup.py:57
+msgid "No Objects Validated"
+msgstr "未验证任何物体"
+
+#: simple_renaming/operators/__init__.py:67
+msgid "Node Groups"
+msgstr "节点组"
+
+#: simple_renaming/add_suffix_panel/__init__.py:79
+msgid "Number"
+msgstr "数字"
+
+#: simple_renaming/preferences/renaming_preferences.py:134
+msgid "Number of digits used for the @n variable in the New Name field (e.g. @n with 3 digits: 001). To configure the auto-suffix digit count, use the Padding option in the Numerate section instead"
+msgstr "「新名称」字段中 @n 变量使用的位数（例如 @n 使用 3 位：001）。如需配置自动后缀的位数，请改用「编号」部分中的「补零」选项"
+
+#: simple_renaming/operators/number_transform.py:134
+msgid "Number → LETTERS"
+msgstr "数字 → 字母"
+
+#: simple_renaming/operators/number_transform.py:124
+msgid "Number → letters"
+msgstr "数字 → 字母"
+
+#: simple_renaming/ui/renaming_panels.py:187
+#: simple_renaming/ui/renaming_panels.py:354
+msgid "Number ↔ Letters"
+msgstr "数字 ↔ 字母"
+
+#: simple_renaming/preferences/renaming_preferences.py:374
+msgid "Numerate"
+msgstr "编号"
+
+#: simple_renaming/ui/renaming_panels.py:91
+msgid "Numerate Settings"
+msgstr "编号设置"
+
+#: simple_renaming/preferences/renaming_preferences.py:127
+msgid "Numerate Start"
+msgstr "编号起始"
+
+#: simple_renaming/preferences/renaming_preferences.py:139
+msgid "Numerate Step"
+msgstr "编号步长"
+
+#: simple_renaming/add_suffix_panel/__init__.py:67
+#: simple_renaming/operators/__init__.py:45
+msgid "Object"
+msgstr "物体"
+
+#: simple_renaming/operators/__init__.py:49
+msgid "Object Data"
+msgstr "物体数据"
+
+#: simple_renaming/ui/renaming_popup.py:108
+msgid "Object Type"
+msgstr "物体类型"
+
+#: simple_renaming/add_suffix_panel/__init__.py:109
+#: simple_renaming/add_suffix_panel/__init__.py:144
+msgid "Object Types"
+msgstr "物体类型"
+
+#: simple_renaming/operators/select_in_renaming_order.py:168
+msgid "Object ordering requires Object mode"
+msgstr "物体排序需要物体模式"
+
+#: simple_renaming/ui/renaming_popup.py:110
+msgid "Old Name"
+msgstr "原名称"
+
+#: simple_renaming/ui/renaming_panels.py:48
+msgid "Only Of Selected Objects"
+msgstr "仅所选物体的"
+
+#: simple_renaming/ui/renaming_panels.py:59
+#: simple_renaming/ui/renaming_panels.py:63
+msgid "Only Selected"
+msgstr "仅所选"
+
+#: simple_renaming/ui/renaming_panels.py:249
+msgid "Only Selected Objects"
+msgstr "仅所选物体"
+
+#: simple_renaming/operators/__init__.py:179
+msgid "Only rename the active layer on each object"
+msgstr "仅重命名每个物体的活动层"
+
+#: simple_renaming/operators/__init__.py:184
+msgid "Only rename the layer at the specified index on each object"
+msgstr "仅重命名每个物体指定索引的层"
+
+#: simple_renaming/ui/renaming_panels.py:71
+msgid "Open from Outliner"
+msgstr "从大纲视图打开"
+
+#: simple_renaming/ui/renaming_panels.py:179
+msgid "Other"
+msgstr "其他"
+
+#: simple_renaming/operators/number_transform.py:116
+msgid "Pad or strip leading zeros on the last number in the name to match the Numerate Settings Padding  (009 → 9 at width 1, 9 → 009 at width 3)"
+msgstr "对名称中最后一个数字补零或去除前导零，以匹配「编号设置」中的「补零」（宽度 1 时 009 → 9，宽度 3 时 9 → 009）"
+
+#: simple_renaming/operators/__init__.py:151
+#: simple_renaming/ui/renaming_panels.py:96
+msgid "Padding"
+msgstr "补零"
+
+#: simple_renaming/add_suffix_panel/__init__.py:74
+msgid "Parent"
+msgstr "父级"
+
+#: simple_renaming/operators/__init__.py:65
+msgid "Particle Settings"
+msgstr "粒子设置"
+
+#: simple_renaming/operators/__init__.py:64
+msgid "Particle Systems"
+msgstr "粒子系统"
+
+#: simple_renaming/operators/case_transform.py:133
+msgid "PascalCase"
+msgstr "帕斯卡命名法"
+
+#: simple_renaming/add_suffix_panel/__init__.py:140
+msgid "Point Cloud"
+msgstr "点云"
+
+#: simple_renaming/operators/__init__.py:41
+#: simple_renaming/operators/__init__.py:150
+msgid "Prefix"
+msgstr "前缀"
+
+#: simple_renaming/ui/renaming_panels.py:239
+msgid "Prefix/Suffix by Type"
+msgstr "按类型添加前缀/后缀"
+
+#: simple_renaming/preferences/renaming_preferences.py:209
+msgid "Prefix/Suffix by Type Panel"
+msgstr "按类型前缀/后缀面板"
+
+#: simple_renaming/preferences/renaming_preferences.py:115
+msgid "Print operator execution time to the console after each rename operation"
+msgstr "每次重命名操作后在控制台输出操作符执行时间"
+
+#: simple_renaming/ui/renaming_panels.py:99
+#: simple_renaming/ui/renaming_panels.py:214
+msgid "Rename"
+msgstr "重命名"
+
+#: simple_renaming/operators/__init__.py:62
+msgid "Rename Actions"
+msgstr "重命名动作"
+
+#: simple_renaming/operators/__init__.py:54
+msgid "Rename Modifiers"
+msgstr "重命名修改器"
+
+#: simple_renaming/add_suffix_panel/__init__.py:103
+#: simple_renaming/operators/__init__.py:167
+msgid "Rename Selected Objects"
+msgstr "重命名所选物体"
+
+#: simple_renaming/operators/__init__.py:57
+msgid "Rename attributes"
+msgstr "重命名属性"
+
+#: simple_renaming/operators/__init__.py:47
+msgid "Rename collections"
+msgstr "重命名集合"
+
+#: simple_renaming/operators/__init__.py:58
+msgid "Rename color attributes"
+msgstr "重命名颜色属性"
+
+#: simple_renaming/operators/__init__.py:67
+msgid "Rename node groups"
+msgstr "重命名节点组"
+
+#: simple_renaming/operators/__init__.py:65
+msgid "Rename particle settings"
+msgstr "重命名粒子设置"
+
+#: simple_renaming/operators/__init__.py:64
+msgid "Rename particle systems"
+msgstr "重命名粒子系统"
+
+#: simple_renaming/operators/__init__.py:55
+msgid "Rename shape keys"
+msgstr "重命名形态键"
+
+#: simple_renaming/operators/__init__.py:59
+#: simple_renaming/operators/__init__.py:60
+msgid "Rename vertex groups"
+msgstr "重命名顶点组"
+
+#: simple_renaming/ui/renaming_popup.py:7
+#: simple_renaming/ui/renaming_popup.py:43
+msgid "Renaming Info"
+msgstr "重命名信息"
+
+#: simple_renaming/operators/__init__.py:114
+msgid "Renaming Objects"
+msgstr "重命名物体"
+
+#: simple_renaming/preferences/renaming_preferences.py:259
+#: simple_renaming/preferences/renaming_preferences.py:288
+msgid "Renaming Popup"
+msgstr "重命名弹出窗口"
+
+#: simple_renaming/ui/renaming_variables.py:6
+msgid "Renaming Variables"
+msgstr "重命名变量"
+
+#: simple_renaming/operators/__init__.py:148
+#: simple_renaming/ui/renaming_panels.py:134
+msgid "Replace"
+msgstr "替换"
+
+#: simple_renaming/operators/__init__.py:165
+msgid "Reverse Sorting Order"
+msgstr "反转排序顺序"
+
+#: simple_renaming/operators/__init__.py:45
+msgid "Scene Objects"
+msgstr "场景物体"
+
+#: simple_renaming/operators/__init__.py:147
+#: simple_renaming/ui/renaming_panels.py:130
+msgid "Search"
+msgstr "搜索"
+
+#: simple_renaming/ui/renaming_panels.py:115
+msgid "Search and Replace"
+msgstr "搜索并替换"
+
+#: simple_renaming/operators/search_select.py:23
+msgid "Search and Select"
+msgstr "搜索并选择"
+
+#: simple_renaming/operators/search_select.py:24
+msgid "Select Object By Name"
+msgstr "按名称选择物体"
+
+#: simple_renaming/add_suffix_panel/__init__.py:103
+#: simple_renaming/operators/__init__.py:167
+msgid "Selected Objects"
+msgstr "所选物体"
+
+#: simple_renaming/operators/__init__.py:97
+#: simple_renaming/operators/__init__.py:102
+msgid "Selection"
+msgstr "选择"
+
+#: simple_renaming/preferences/renaming_preferences.py:103
+msgid "Separator"
+msgstr "分隔符"
+
+#: simple_renaming/operators/number_transform.py:115
+msgid "Set Padding"
+msgstr "设置补零"
+
+#: simple_renaming/operators/__init__.py:55
+msgid "Shape Keys"
+msgstr "形态键"
+
+#: simple_renaming/preferences/renaming_preferences.py:271
+#: simple_renaming/preferences/renaming_preferences.py:300
+msgid "Shift"
+msgstr "偏移"
+
+#: simple_renaming/preferences/renaming_preferences.py:109
+msgid "Show Popup"
+msgstr "显示弹出窗口"
+
+#: simple_renaming/ui/renaming_panels.py:211
+msgid "Simple Renaming"
+msgstr "Simple Renaming"
+
+#: simple_renaming/ui/renaming_popup.py:137
+msgid "Skipped (Name Conflicts)"
+msgstr "已跳过（名称冲突）"
+
+#: simple_renaming/ui/renaming_panels.py:384
+msgid "Some Floating Point"
+msgstr "某个浮点数"
+
+#: simple_renaming/operators/__init__.py:135
+msgid "Sort Bones based on following attribute"
+msgstr "根据以下属性对骨骼排序"
+
+#: simple_renaming/operators/__init__.py:129
+msgid "Sort Objects based on following attribute"
+msgstr "根据以下属性对物体排序"
+
+#: simple_renaming/operators/__init__.py:160
+msgid "Sort Target Objects"
+msgstr "排序目标物体"
+
+#: simple_renaming/operators/__init__.py:129
+#: simple_renaming/operators/__init__.py:135
+msgid "Sort by"
+msgstr "排序依据"
+
+#: simple_renaming/operators/__init__.py:102
+msgid "Sort the bones based on the order they were clicked in with \"Select in Renaming Order\""
+msgstr "根据使用“按重命名顺序选择”点击的顺序对骨骼排序"
+
+#: simple_renaming/operators/__init__.py:160
+msgid "Sort the entries for renaming"
+msgstr "为重命名排序条目"
+
+#: simple_renaming/operators/__init__.py:94
+#: simple_renaming/operators/__init__.py:99
+msgid "Sort the object based on the X axis."
+msgstr "按 X 轴对物体排序。"
+
+#: simple_renaming/operators/__init__.py:95
+#: simple_renaming/operators/__init__.py:100
+msgid "Sort the object based on the Y axis."
+msgstr "按 Y 轴对物体排序。"
+
+#: simple_renaming/operators/__init__.py:96
+#: simple_renaming/operators/__init__.py:101
+msgid "Sort the object based on the Z axis."
+msgstr "按 Z 轴对物体排序。"
+
+#: simple_renaming/operators/__init__.py:97
+msgid "Sort the objects based on the order they were clicked in with \"Select in Renaming Order\""
+msgstr "根据使用“按重命名顺序选择”点击的顺序对物体排序"
+
+#: simple_renaming/add_suffix_panel/__init__.py:138
+msgid "Speakers"
+msgstr "扬声器"
+
+#: simple_renaming/operators/numerate.py:17
+msgid "Start"
+msgstr "起始"
+
+#: simple_renaming/operators/numerate.py:18
+msgid "Step"
+msgstr "步长"
+
+#: simple_renaming/ui/renaming_panels.py:386
+msgid "String Value"
+msgstr "字符串值"
+
+#: simple_renaming/operators/__init__.py:42
+#: simple_renaming/operators/__init__.py:149
+msgid "Suffix"
+msgstr "后缀"
+
+#: simple_renaming/operators/__init__.py:108
+msgid "Suffix or Prefix by Type"
+msgstr "按类型的后缀或前缀"
+
+#: simple_renaming/add_suffix_panel/__init__.py:130
+msgid "Surfaces"
+msgstr "曲面"
+
+#: simple_renaming/ui/renaming_panels.py:37
+msgid "Target"
+msgstr "目标"
+
+#: simple_renaming/add_suffix_panel/__init__.py:134
+msgid "Text"
+msgstr "文本"
+
+#: simple_renaming/add_suffix_panel/__init__.py:72
+msgid "Time"
+msgstr "时间"
+
+#: simple_renaming/preferences/renaming_preferences.py:199
+msgid "Time Format"
+msgstr "时间格式"
+
+#: simple_renaming/ui/renaming_panels.py:385
+msgid "Toggle Option"
+msgstr "切换选项"
+
+#: simple_renaming/ui/renaming_panels.py:168
+msgid "Trim"
+msgstr "裁剪"
+
+#: simple_renaming/operators/__init__.py:177
+msgid "Trim Size"
+msgstr "裁剪大小"
+
+#: simple_renaming/add_suffix_panel/__init__.py:73
+msgid "Type"
+msgstr "类型"
+
+#: simple_renaming/ui/renaming_panels.py:398
+msgid "Type Presets"
+msgstr "类型预设"
+
+#: simple_renaming/operators/case_transform.py:115
+msgid "UPPERCASE"
+msgstr "大写"
+
+#: simple_renaming/operators/__init__.py:59
+msgid "UV Maps"
+msgstr "UV 贴图"
+
+#: simple_renaming/ui/renaming_popup.py:21
+msgid "Unknown Error"
+msgstr "未知错误"
+
+#: simple_renaming/operators/numerate.py:21
+#: simple_renaming/preferences/renaming_preferences.py:152
+msgid "Uppercase Letters"
+msgstr "大写字母"
+
+#: simple_renaming/operators/numerate.py:20
+#: simple_renaming/preferences/renaming_preferences.py:145
+msgid "Use Letters"
+msgstr "使用字母"
+
+#: simple_renaming/operators/__init__.py:172
+msgid "Use Numerate"
+msgstr "使用数字编号"
+
+#: simple_renaming/operators/__init__.py:171
+msgid "Use Regex"
+msgstr "使用正则表达式"
+
+#: simple_renaming/preferences/renaming_preferences.py:121
+msgid "Use Selection Order"
+msgstr "使用选择顺序"
+
+#: simple_renaming/preferences/renaming_preferences.py:121
+msgid "Use the order of selection when renaming objects"
+msgstr "重命名物体时使用选择顺序"
+
+#: simple_renaming/preferences/renaming_preferences.py:152
+msgid "Use uppercase letters (A, B, C…) instead of lowercase (a, b, c…) when 'Use Letters' is enabled"
+msgstr "启用“使用字母”时使用大写字母（A、B、C…）而非小写（a、b、c…）"
+
+#: simple_renaming/preferences/renaming_preferences.py:174
+msgid "User 1"
+msgstr "用户 1"
+
+#: simple_renaming/preferences/renaming_preferences.py:179
+msgid "User 2"
+msgstr "用户 2"
+
+#: simple_renaming/preferences/renaming_preferences.py:184
+msgid "User 3"
+msgstr "用户 3"
+
+#: simple_renaming/preferences/renaming_preferences.py:388
+msgid "User Variables"
+msgstr "用户变量"
+
+#: simple_renaming/add_suffix_panel/__init__.py:76
+msgid "User1"
+msgstr "User1"
+
+#: simple_renaming/add_suffix_panel/__init__.py:77
+msgid "User2"
+msgstr "User2"
+
+#: simple_renaming/add_suffix_panel/__init__.py:78
+msgid "User3"
+msgstr "User3"
+
+#: simple_renaming/operators/__init__.py:60
+msgid "Vertex Groups"
+msgstr "顶点组"
+
+#: simple_renaming/ui/renaming_popup.py:33
+msgid "Warning"
+msgstr "警告"
+
+#: simple_renaming/add_suffix_panel/__init__.py:109
+#: simple_renaming/add_suffix_panel/__init__.py:144
+msgid "Which kind of object to rename"
+msgstr "要重命名的物体类型"
+
+#: simple_renaming/operators/__init__.py:94
+#: simple_renaming/operators/__init__.py:99
+msgid "X Axis"
+msgstr "X 轴"
+
+#: simple_renaming/operators/__init__.py:95
+#: simple_renaming/operators/__init__.py:100
+msgid "Y Axis"
+msgstr "Y 轴"
+
+#: simple_renaming/operators/__init__.py:96
+#: simple_renaming/operators/__init__.py:101
+msgid "Z Axis"
+msgstr "Z 轴"
+
+#: simple_renaming/ui/renaming_popup.py:73
+msgid "assetName"
+msgstr "assetName"
+
+#: simple_renaming/operators/case_transform.py:142
+msgid "camelCase"
+msgstr "camelCase"
+
+#: simple_renaming/operators/number_transform.py:153
+msgid "letters → LETTERS"
+msgstr "字母 → 大写字母"
+
+#: simple_renaming/ui/renaming_popup.py:68
+#: simple_renaming/ui/renaming_popup.py:117
+msgid "obType"
+msgstr "obType"
+
+#: simple_renaming/ui/renaming_popup.py:74
+#: simple_renaming/ui/renaming_popup.py:122
+msgid "oldName"
+msgstr "oldName"
+
+#: simple_renaming/preferences/renaming_preferences.py:190
+msgid "strftime format string for the @d variable. Codes: %d=day(03), %m=month(04), %y=year(26), %Y=year(2026), %b=month abbr(Apr). Examples: %d%m%Y → 03042026 (DDMMYYYY), %m%d%y → 040326 (MMDDYY), %d%b%Y → 03Apr2026"
+msgstr "用于 @d 变量的 strftime 格式字符串。代码：%d=日(03)，%m=月(04)，%y=年(26)，%Y=年(2026)，%b=月份缩写(Apr)。示例：%d%m%Y → 03042026 (DDMMYYYY)，%m%d%y → 040326 (MMDDYY)，%d%b%Y → 03Apr2026"
+
+#: simple_renaming/preferences/renaming_preferences.py:199
+msgid "strftime format string for the @i variable. Codes: %H=hour 24h(14), %M=minute(30), %S=second(05), %I=hour 12h(02), %p=AM/PM. Example: %H%M → 1430. Avoid colons — invalid in filenames on Windows"
+msgstr "用于 @i 变量的 strftime 格式字符串。代码：%H=小时 24 小时制(14)，%M=分钟(30)，%S=秒(05)，%I=小时 12 小时制(02)，%p=AM/PM。示例：%H%M → 1430。避免使用冒号——在 Windows 文件名中无效"
+
+#: simple_renaming/ui/renaming_panels.py:108
+#: simple_renaming/ui/renaming_panels.py:131
+msgctxt "Operator"
+msgid "@"
+msgstr "@"
+
+#: simple_renaming/ui/renaming_variables.py:33
+#: simple_renaming/ui/renaming_variables.py:51
+msgctxt "Operator"
+msgid "ACTIVE"
+msgstr "ACTIVE"
+
+#: simple_renaming/operators/add_pre_suffix.py:60
+msgctxt "Operator"
+msgid "Add Prefix"
+msgstr "添加前缀"
+
+#: simple_renaming/ui/renaming_panels.py:407
+msgctxt "Operator"
+msgid "Add Renaming Preset"
+msgstr "添加重命名预设"
+
+#: simple_renaming/add_suffix_panel/renaming_sufPre_operators.py:37
+msgctxt "Operator"
+msgid "Add Type Suffix or Prefix"
+msgstr "添加类型后缀或前缀"
+
+#: simple_renaming/operators/add_pre_suffix.py:12
+msgctxt "Operator"
+msgid "Add suffix"
+msgstr "添加后缀"
+
+#: simple_renaming/operators/add_pre_suffix.py:61
+msgctxt "Operator"
+msgid "Adds a prefix to object names"
+msgstr "为物体名称添加前缀"
+
+#: simple_renaming/operators/add_pre_suffix.py:13
+msgctxt "Operator"
+msgid "Adds a suffix to object names"
+msgstr "为物体名称添加后缀"
+
+#: simple_renaming/add_suffix_panel/renaming_sufPre_operators.py:38
+msgctxt "Operator"
+msgid "Adds the above defined Suffixes or Prefixes to all objects in your scene"
+msgstr "将上方定义的后缀或前缀添加到场景中的所有物体"
+
+#: simple_renaming/ui/renaming_panels.py:279
+msgctxt "Operator"
+msgid "Armatures"
+msgstr "骨架"
+
+#: simple_renaming/ui/renaming_panels.py:319
+msgctxt "Operator"
+msgid "Bones"
+msgstr "骨骼"
+
+#: simple_renaming/ui/renaming_variables.py:19
+msgctxt "Operator"
+msgid "CAGE"
+msgstr "CAGE"
+
+#: simple_renaming/ui/renaming_variables.py:36
+#: simple_renaming/ui/renaming_variables.py:52
+msgctxt "Operator"
+msgid "COLLECTION"
+msgstr "COLLECTION"
+
+#: simple_renaming/ui/renaming_panels.py:295
+msgctxt "Operator"
+msgid "Cameras"
+msgstr "摄像机"
+
+#: simple_renaming/operators/select_in_renaming_order.py:150
+msgctxt "Operator"
+msgid "Click objects or bones one by one to set the order used when numbering during rename"
+msgstr "逐个点击物体或骨骼，以设置重命名时编号所用的顺序"
+
+#: simple_renaming/ui/renaming_panels.py:303
+msgctxt "Operator"
+msgid "Collections"
+msgstr "集合"
+
+#: simple_renaming/ui/renaming_panels.py:275
+msgctxt "Operator"
+msgid "Curves"
+msgstr "曲线"
+
+#: simple_renaming/ui/renaming_variables.py:32
+#: simple_renaming/ui/renaming_variables.py:50
+msgctxt "Operator"
+msgid "DATA"
+msgstr "DATA"
+
+#: simple_renaming/ui/renaming_variables.py:23
+msgctxt "Operator"
+msgid "DATE"
+msgstr "DATE"
+
+#: simple_renaming/ui/renaming_panels.py:287
+msgctxt "Operator"
+msgid "Data"
+msgstr "数据"
+
+#: simple_renaming/operators/name_from_data.py:9
+msgctxt "Operator"
+msgid "Data Name from Object"
+msgstr "从物体获取数据名称"
+
+#: simple_renaming/operators/trim_string.py:12
+msgctxt "Operator"
+msgid "Deletes the in the trim size specified amount of characters at the start or the end of object names"
+msgstr "在物体名称开头或末尾删除“裁剪大小”指定数量的字符"
+
+#: simple_renaming/ui/renaming_panels.py:263
+msgctxt "Operator"
+msgid "Empties"
+msgstr "空物体"
+
+#: simple_renaming/ui/renaming_variables.py:21
+msgctxt "Operator"
+msgid "FILE"
+msgstr "FILE"
+
+#: simple_renaming/ui/renaming_panels.py:311
+msgctxt "Operator"
+msgid "Grease Pencil"
+msgstr "蜡笔"
+
+#: simple_renaming/ui/renaming_variables.py:18
+msgctxt "Operator"
+msgid "HIGH"
+msgstr "HIGH"
+
+#: simple_renaming/ui/renaming_panels.py:364
+msgctxt "Operator"
+msgid "LETTERS → letters"
+msgstr "大写字母 → 字母"
+
+#: simple_renaming/ui/renaming_variables.py:17
+msgctxt "Operator"
+msgid "LOW"
+msgstr "LOW"
+
+#: simple_renaming/ui/renaming_panels.py:283
+msgctxt "Operator"
+msgid "Lattices"
+msgstr "晶格"
+
+#: simple_renaming/ui/renaming_panels.py:361
+msgctxt "Operator"
+msgid "Letters → Number"
+msgstr "字母 → 数字"
+
+#: simple_renaming/ui/renaming_panels.py:327
+msgctxt "Operator"
+msgid "Light Probes"
+msgstr "光照探针"
+
+#: simple_renaming/ui/renaming_panels.py:299
+msgctxt "Operator"
+msgid "Lights"
+msgstr "灯光"
+
+#: simple_renaming/ui/renaming_panels.py:271
+msgctxt "Operator"
+msgid "Materials"
+msgstr "材质"
+
+#: simple_renaming/ui/renaming_panels.py:267
+msgctxt "Operator"
+msgid "Meshes"
+msgstr "网格"
+
+#: simple_renaming/ui/renaming_panels.py:315
+msgctxt "Operator"
+msgid "Metaballs"
+msgstr "融球"
+
+#: simple_renaming/ui/renaming_variables.py:15
+msgctxt "Operator"
+msgid "NUMBER"
+msgstr "数字"
+
+#: simple_renaming/ui/renaming_panels.py:360
+msgctxt "Operator"
+msgid "Number → LETTERS"
+msgstr "数字 → 大写字母"
+
+#: simple_renaming/ui/renaming_panels.py:359
+msgctxt "Operator"
+msgid "Number → letters"
+msgstr "数字 → 小写字母"
+
+#: simple_renaming/operators/numerate.py:13
+msgctxt "Operator"
+msgid "Numerate"
+msgstr "编号"
+
+#: simple_renaming/ui/renaming_variables.py:34
+#: simple_renaming/ui/renaming_variables.py:47
+msgctxt "Operator"
+msgid "OBJECT"
+msgstr "物体"
+
+#: simple_renaming/ui/ui_helpers.py:9
+msgctxt "Operator"
+msgid "Open Addon preferences"
+msgstr "打开插件偏好设置"
+
+#: simple_renaming/ui/renaming_variables.py:31
+#: simple_renaming/ui/renaming_variables.py:49
+msgctxt "Operator"
+msgid "PARENT"
+msgstr "父级"
+
+#: simple_renaming/ui/renaming_panels.py:346
+msgctxt "Operator"
+msgid "PascalCase"
+msgstr "帕斯卡命名法"
+
+#: simple_renaming/ui/renaming_panels.py:331
+msgctxt "Operator"
+msgid "Point Clouds"
+msgstr "点云"
+
+#: simple_renaming/preferences/renaming_keymap.py:24
+msgctxt "Operator"
+msgid "Press the button you want to assign to this operation."
+msgstr "按下要分配给此操作的按键。"
+
+#: simple_renaming/ui/renaming_variables.py:14
+msgctxt "Operator"
+msgid "RANDOM"
+msgstr "随机"
+
+#: simple_renaming/preferences/renaming_keymap.py:116
+#: simple_renaming/preferences/renaming_keymap.py:117
+msgctxt "Operator"
+msgid "Remove hotkey"
+msgstr "移除快捷键"
+
+#: simple_renaming/ui/renaming_panels.py:334
+msgctxt "Operator"
+msgid "Rename All"
+msgstr "全部重命名"
+
+#: simple_renaming/operators/rename_by_index.py:20
+msgctxt "Operator"
+msgid "Rename Slot"
+msgstr "重命名插槽"
+
+#: simple_renaming/operators/rename_by_index.py:21
+msgctxt "Operator"
+msgid "Rename the item at the specified index on each selected object"
+msgstr "重命名每个选中物体上指定索引的项"
+
+#: simple_renaming/operators/name_from_data.py:10
+msgctxt "Operator"
+msgid "Renames the object data according to the object name and adds the in the data textfield specified suffix."
+msgstr "根据物体名称重命名物体数据，并添加数据文本框中指定的后缀。"
+
+#: simple_renaming/operators/name_replace.py:14
+msgctxt "Operator"
+msgid "Replace Names"
+msgstr "替换名称"
+
+#: simple_renaming/operators/search_replace.py:104
+msgctxt "Operator"
+msgid "Search and Replace"
+msgstr "搜索并替换"
+
+#: simple_renaming/operators/select_in_renaming_order.py:149
+msgctxt "Operator"
+msgid "Select in Renaming Order"
+msgstr "按重命名顺序选择"
+
+#: simple_renaming/ui/renaming_panels.py:185
+msgctxt "Operator"
+msgid "Set Padding"
+msgstr "设置填充"
+
+#: simple_renaming/ui/renaming_panels.py:370
+#: simple_renaming/ui/renaming_variables.py:58
+msgctxt "Operator"
+msgid "Simple Object Operator"
+msgstr "简单物体操作"
+
+#: simple_renaming/ui/renaming_panels.py:382
+msgctxt "Operator"
+msgid "Simple Renaming"
+msgstr "简单重命名"
+
+#: simple_renaming/ui/renaming_panels.py:323
+msgctxt "Operator"
+msgid "Speakers"
+msgstr "扬声器"
+
+#: simple_renaming/ui/renaming_panels.py:291
+msgctxt "Operator"
+msgid "Surfaces"
+msgstr "曲面"
+
+#: simple_renaming/ui/renaming_variables.py:22
+msgctxt "Operator"
+msgid "TIME"
+msgstr "时间"
+
+#: simple_renaming/ui/renaming_variables.py:35
+#: simple_renaming/ui/renaming_variables.py:40
+msgctxt "Operator"
+msgid "TYPE"
+msgstr "类型"
+
+#: simple_renaming/ui/renaming_panels.py:307
+msgctxt "Operator"
+msgid "Texts"
+msgstr "文本"
+
+#: simple_renaming/operators/trim_string.py:11
+msgctxt "Operator"
+msgid "Trim String"
+msgstr "修剪字符串"
+
+#: simple_renaming/ui/renaming_panels.py:343
+msgctxt "Operator"
+msgid "UPPERCASE"
+msgstr "全大写"
+
+#: simple_renaming/ui/renaming_variables.py:25
+msgctxt "Operator"
+msgid "USER1"
+msgstr "用户1"
+
+#: simple_renaming/ui/renaming_variables.py:26
+msgctxt "Operator"
+msgid "USER2"
+msgstr "用户2"
+
+#: simple_renaming/ui/renaming_variables.py:27
+msgctxt "Operator"
+msgid "USER3"
+msgstr "用户3"
+
+#: simple_renaming/operators/numerate.py:14
+msgctxt "Operator"
+msgid "adds a growing number to the object names with the amount of digits specified in Number Length"
+msgstr "按“数字长度”中指定的位数向物体名称添加递增数字"
+
+#: simple_renaming/ui/renaming_panels.py:347
+msgctxt "Operator"
+msgid "camelCase"
+msgstr "驼峰命名法"
+
+#: simple_renaming/ui/renaming_panels.py:363
+msgctxt "Operator"
+msgid "letters → LETTERS"
+msgstr "小写字母 → 大写字母"
+
+#: simple_renaming/operators/search_replace.py:105
+msgctxt "Operator"
+msgid "replaces parts in the object names"
+msgstr "替换物体名称中的部分内容"
+
+#: simple_renaming/operators/name_replace.py:15
+msgctxt "Operator"
+msgid "replaces the names of the objects"
+msgstr "替换物体的名称"

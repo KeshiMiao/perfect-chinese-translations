@@ -1,0 +1,1063 @@
+# perfect-chinese: 1
+# id: rigi_all
+# kind: addon
+# module: bl_ext.blender_org.rigi_all
+# name: Rigi-All
+# name_zh: 绑定加速
+# translator: KeshiMiao
+# category: Rigging
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: rigi-all/main.py:159
+msgid "+X"
+msgstr "+X"
+
+#: rigi-all/operators.py:440
+#: rigi-all/operators_ambidextrous.py:315
+msgid "+X manual"
+msgstr "+X 手动"
+
+#: rigi-all/operators.py:440
+#: rigi-all/operators_ambidextrous.py:315
+msgid "+Y manual"
+msgstr "+Y 手动"
+
+#: rigi-all/operators.py:440
+#: rigi-all/operators_ambidextrous.py:315
+msgid "+Z manual"
+msgstr "+Z 手动"
+
+#: rigi-all/main.py:160
+msgid "-X"
+msgstr "-X"
+
+#: rigi-all/operators.py:441
+#: rigi-all/operators_ambidextrous.py:316
+msgid "-X manual"
+msgstr "-X 手动"
+
+#: rigi-all/operators.py:441
+#: rigi-all/operators_ambidextrous.py:316
+msgid "-Y manual"
+msgstr "-Y 手动"
+
+#: rigi-all/operators.py:441
+#: rigi-all/operators_ambidextrous.py:316
+msgid "-Z manual"
+msgstr "-Z 手动"
+
+#: rigi-all/operators_miscellaneous.py:212
+msgid "A tool that helps make menu switches to hide/show mesh objects. All selected objects will be tied to the active object"
+msgstr "用于创建隐藏/显示网格物体的菜单开关的工具。所有选中物体将绑定到活动物体"
+
+#: rigi-all/operators.py:72
+msgid "A window will display any possible questions you have"
+msgstr "将显示一个窗口，解答你可能遇到的问题"
+
+#: rigi-all/operators_miscellaneous.py:584
+msgid "Access the visiblity switch via the object's custom properties"
+msgstr "通过物体的自定义属性访问可见性开关"
+
+#: rigi-all/operators_miscellaneous.py:690
+msgid "Access the visiblity switch(es) via the object's custom properties"
+msgstr "通过物体的自定义属性访问可见性开关（可多个）"
+
+#: rigi-all/operators.py:911
+msgid "Active bone has more than one child. Please select parent, then child."
+msgstr "活动骨骼有多个子骨骼。请先选择父骨骼，再选择子骨骼。"
+
+#: rigi-all/operators_miscellaneous.py:211
+msgid "Add Visibility Switch"
+msgstr "添加可见性开关"
+
+#: rigi-all/operators_cleanup.py:107
+#: rigi-all/operators_cleanup.py:113
+msgid "An armature object needs to be selected!"
+msgstr "需要选择一个骨架物体！"
+
+#: rigi-all/panel.py:131
+msgid "Are you sure this is correct?"
+msgstr "确定这是正确的吗？"
+
+#: rigi-all/operators.py:130
+#: rigi-all/operators_ambidextrous.py:88
+msgid "Arm generated!"
+msgstr "手臂已生成！"
+
+#: rigi-all/panel.py:147
+msgid "Arms"
+msgstr "手臂"
+
+#: rigi-all/main.py:156
+msgid "Auto-complete Other Side"
+msgstr "自动补全另一侧"
+
+#: rigi-all/operators.py:159
+#: rigi-all/operators.py:439
+msgid "Automatic"
+msgstr "自动"
+
+#: rigi-all/operators.py:513
+msgid "Axis"
+msgstr "轴"
+
+#: rigi-all/main.py:237
+msgid "Bodygroup Menus"
+msgstr "身体组菜单"
+
+#: rigi-all/main.py:237
+msgid "Bodygroup menus"
+msgstr "身体组菜单"
+
+#: rigi-all/panel.py:272
+msgid "Bone Shapes"
+msgstr "骨骼形状"
+
+#: rigi-all/operators_miscellaneous.py:589
+msgid "Build All Visibility Switches"
+msgstr "构建所有可见性开关"
+
+#: rigi-all/operators_miscellaneous.py:590
+msgid "Build all visiblity switches"
+msgstr "构建所有可见性开关"
+
+#: rigi-all/main.py:139
+#: rigi-all/panel.py:15
+msgid "Category"
+msgstr "类别"
+
+#: rigi-all/main.py:143
+#: rigi-all/panel.py:23
+msgid "Change Category:"
+msgstr "更改类别："
+
+#: rigi-all/operators_cleanup.py:38
+msgid "Change the name of deform bones to be compatible with the mesh. Not recommended"
+msgstr "更改变形骨骼名称以兼容网格。不推荐"
+
+#: rigi-all/operators_cleanup.py:95
+msgid "Clean Up ALL Shapes in Project"
+msgstr "清理项目中的所有形状"
+
+#: rigi-all/main.py:172
+msgid "Clean up"
+msgstr "清理"
+
+#: rigi-all/operators_cleanup.py:104
+msgid "De-duplicate Type:"
+msgstr "去重类型："
+
+#: rigi-all/operators_cleanup.py:95
+msgid "De-duplicate all bone shapes in the .blend file"
+msgstr "对 .blend 文件中的所有骨骼形状去重"
+
+#: rigi-all/operators_cleanup.py:94
+msgid "De-duplicate bone shapes only on the armature (Safer)"
+msgstr "仅对骨架上的骨骼形状去重（更安全）"
+
+#: rigi-all/panel.py:457
+msgid "Desc.:"
+msgstr "描述："
+
+#: rigi-all/main.py:212
+msgid "Description"
+msgstr "描述"
+
+#: rigi-all/main.py:212
+msgid "Description of the visibility switch item"
+msgstr "可见性开关项的描述"
+
+#: rigi-all/main.py:151
+msgid "Disable if bones already end in \".L/_L\" or \".R/_R\""
+msgstr "如果骨骼名称已以“.L/_L”或“.R/_R”结尾，请禁用"
+
+#: rigi-all/panel.py:105
+msgid "Don't forget to apply rotation on the armature!"
+msgstr "别忘了对骨架应用旋转！"
+
+#: rigi-all/panel.py:499
+msgid "Edit"
+msgstr "编辑"
+
+#: rigi-all/panel.py:75
+msgid "Edit Mode Mirror"
+msgstr "编辑模式镜像"
+
+#: rigi-all/operators.py:769
+msgid "Enable Rigify Addon!"
+msgstr "启用 Rigify 插件！"
+
+#: rigi-all/panel.py:78
+msgid "Enter pose mode!"
+msgstr "进入姿态模式！"
+
+#: rigi-all/operators_miscellaneous.py:27
+msgid "Exclude Hidden Bones"
+msgstr "排除隐藏骨骼"
+
+#: rigi-all/operators.py:781
+#: rigi-all/operators.py:795
+msgid "Extra"
+msgstr "额外"
+
+#: rigi-all/operators.py:706
+msgid "Extra bones preserved!"
+msgstr "额外骨骼已保留！"
+
+#: rigi-all/operators.py:650
+msgid "Extra bones preserved! Select them and assign widgets in the bone tab!"
+msgstr "额外骨骼已保留！选择它们并在骨骼选项卡中分配控件！"
+
+#: rigi-all/operators.py:501
+#: rigi-all/operators_ambidextrous.py:376
+msgid "Fingers generated!"
+msgstr "手指已生成！"
+
+#: rigi-all/main.py:151
+msgid "Fix Symmetry Name"
+msgstr "修复对称名称"
+
+#: rigi-all/main.py:149
+msgid "Fixes left symmetry keywords to ensure they are compatible with Blender's naming scheme"
+msgstr "修复左侧对称关键词，以确保与 Blender 的命名方案兼容"
+
+#: rigi-all/main.py:150
+msgid "Fixes right symmetry keywords to ensure they are compatible with Blender's naming scheme"
+msgstr "修复右侧对称关键词，以确保与 Blender 的命名方案兼容"
+
+#: rigi-all/panel.py:137
+msgid "Format Names"
+msgstr "格式化名称"
+
+#: rigi-all/panel.py:309
+msgid "Fuse Armatures"
+msgstr "融合骨架"
+
+#: rigi-all/operators.py:71
+msgid "Hints"
+msgstr "提示"
+
+#: rigi-all/main.py:147
+#: rigi-all/operators.py:445
+msgid "IK Fingers"
+msgstr "IK 手指"
+
+#: rigi-all/main.py:217
+msgid "Icon"
+msgstr "图标"
+
+#: rigi-all/main.py:217
+msgid "Icon for the visibility switch item"
+msgstr "可见性开关项的图标"
+
+#: rigi-all/panel.py:464
+msgid "Icon:"
+msgstr "图标："
+
+#: rigi-all/operators_miscellaneous.py:27
+msgid "If enabled, hidden bones will not be realized"
+msgstr "启用后，隐藏骨骼将不会被实现"
+
+#: rigi-all/operators_miscellaneous.py:303
+msgid "If enabled, the custom property switch will be removed along with the visibility menu item"
+msgstr "启用后，自定义属性开关将随可见性菜单项一起移除"
+
+#: rigi-all/operators_cleanup.py:189
+#: rigi-all/operators_cleanup.py:273
+msgid "Instead of just removing groups without any vertices assigned, enabling this will also remove groups if they are absolutely unused"
+msgstr "启用后，除了移除未分配任何顶点的组，还会移除完全未使用的组"
+
+#: rigi-all/operators.py:152
+msgid "Is Left"
+msgstr "是否为左侧"
+
+#: rigi-all/panel.py:131
+msgid "Is this correct?"
+msgstr "这是正确的吗？"
+
+#: rigi-all/main.py:202
+msgid "Item Objects"
+msgstr "条目物体"
+
+#: rigi-all/main.py:202
+msgid "Item objects"
+msgstr "条目物体"
+
+#: rigi-all/operators_ambidextrous.py:446
+msgid "Leave blank for no change"
+msgstr "留空则不更改"
+
+#: rigi-all/panel.py:119
+msgid "Left Symmetry Keyword"
+msgstr "左侧对称关键词"
+
+#: rigi-all/operators.py:331
+msgid "Leg generated! Adjust the heel bone in edit mode!"
+msgstr "腿部已生成！在编辑模式下调整脚跟骨骼！"
+
+#: rigi-all/operators_ambidextrous.py:291
+msgid "Leg generated! Adjust the heel bone(s) in edit mode!"
+msgstr "腿部已生成！在编辑模式下调整脚跟骨骼！"
+
+#: rigi-all/panel.py:151
+msgid "Legs"
+msgstr "腿部"
+
+#: rigi-all/panel.py:327
+msgid "Make Bones Renderable"
+msgstr "使骨骼可渲染"
+
+#: rigi-all/operators.py:431
+#: rigi-all/operators_ambidextrous.py:308
+msgid "Make Fingers"
+msgstr "创建手指"
+
+#: rigi-all/panel.py:190
+msgid "Make Left Arm"
+msgstr "创建左臂"
+
+#: rigi-all/panel.py:206
+msgid "Make Left Fingers"
+msgstr "创建左手手指"
+
+#: rigi-all/panel.py:195
+msgid "Make Left Leg"
+msgstr "创建左腿"
+
+#: rigi-all/panel.py:217
+msgid "Make Left Shoulder"
+msgstr "创建左肩"
+
+#: rigi-all/operators_ambidextrous.py:106
+msgid "Make Legs"
+msgstr "创建腿部"
+
+#: rigi-all/panel.py:246
+msgid "Make Mesh Compatible"
+msgstr "使网格兼容"
+
+#: rigi-all/panel.py:166
+msgid "Make Neck/Head"
+msgstr "创建颈部/头部"
+
+#: rigi-all/panel.py:192
+msgid "Make Right Arm"
+msgstr "创建右臂"
+
+#: rigi-all/panel.py:211
+msgid "Make Right Fingers"
+msgstr "生成右手手指"
+
+#: rigi-all/panel.py:200
+msgid "Make Right Leg"
+msgstr "生成右腿"
+
+#: rigi-all/panel.py:219
+msgid "Make Right Shoulder"
+msgstr "生成右肩"
+
+#: rigi-all/panel.py:188
+msgid "Make Shoulders"
+msgstr "生成肩部"
+
+#: rigi-all/operators.py:346
+#: rigi-all/panel.py:161
+msgid "Make Spine"
+msgstr "生成脊柱"
+
+#: rigi-all/operators.py:741
+msgid "Make a copy of the original bones, in case they are needed by other armatures. They will remain untouched as you make the meta-rig"
+msgstr "复制原始骨骼，以备其他骨架需要。创建元骨架时，它们将保持不变。"
+
+#: rigi-all/operators.py:150
+msgid "Make leg"
+msgstr "生成腿"
+
+#: rigi-all/main.py:230
+msgid "Menu Items"
+msgstr "菜单项"
+
+#: rigi-all/main.py:230
+msgid "Menu items"
+msgstr "菜单项"
+
+#: rigi-all/main.py:173
+#: rigi-all/panel.py:169
+msgid "Misc."
+msgstr "杂项"
+
+#: rigi-all/main.py:207
+msgid "Name"
+msgstr "名称"
+
+#: rigi-all/main.py:225
+msgid "Name of the custom property to store this visibility switch on"
+msgstr "用于存储此可见性开关的自定义属性名称"
+
+#: rigi-all/main.py:207
+msgid "Name of the visibility switch item. Object's name if empty"
+msgstr "可见性开关项的名称。为空时使用物体名称"
+
+#: rigi-all/panel.py:450
+msgid "Name:"
+msgstr "名称："
+
+#: rigi-all/operators.py:423
+msgid "Neck and head generated!"
+msgstr "颈部和头部已生成！"
+
+#: rigi-all/main.py:185
+#: rigi-all/main.py:192
+msgid "Object"
+msgstr "物体"
+
+#: rigi-all/operators_miscellaneous.py:76
+msgid "Object is linked or overridden. Bone collection cannot be recycled!"
+msgstr "物体已链接或被覆盖。骨骼集合无法回收！"
+
+#: rigi-all/panel.py:438
+msgid "Object:"
+msgstr "物体："
+
+#: rigi-all/operators_cleanup.py:94
+msgid "Only Clean Up Armature"
+msgstr "仅清理骨架"
+
+#: rigi-all/operators_cleanup.py:188
+msgid "Only remove bone groups"
+msgstr "仅移除骨骼组"
+
+#: rigi-all/operators_cleanup.py:188
+msgid "Only remove vertex groups associated with an armature. If disabled, all vertex groups are subject to removal"
+msgstr "仅移除与骨架关联的顶点组。禁用时，所有顶点组都可能被移除"
+
+#: rigi-all/operators.py:845
+msgid "Original bones have been preserved! Please proceed with limb generation."
+msgstr "原始骨骼已保留！请继续生成肢体。"
+
+#: rigi-all/panel.py:74
+msgid "Pose Mirror"
+msgstr "姿态镜像"
+
+#: rigi-all/operators.py:741
+msgid "Preserve Original Bones"
+msgstr "保留原始骨骼"
+
+#: rigi-all/operators.py:155
+#: rigi-all/operators.py:437
+msgid "Primary Rotation Axis"
+msgstr "主旋转轴"
+
+#: rigi-all/panel.py:354
+msgid "Properties will be exposed when used."
+msgstr "使用时会显示属性。"
+
+#: rigi-all/main.py:225
+msgid "Property Name"
+msgstr "属性名称"
+
+#: rigi-all/panel.py:386
+msgid "Property Name:"
+msgstr "属性名称："
+
+#: rigi-all/main.py:12
+msgid "R"
+msgstr "R"
+
+#: rigi-all/main.py:10
+msgid "RIGHT"
+msgstr "右侧"
+
+#: rigi-all/operators_cleanup.py:37
+msgid "Remove \"DEF-\" from Bone Names"
+msgstr "从骨骼名称中移除“DEF-”"
+
+#: rigi-all/operators_miscellaneous.py:303
+msgid "Remove Custom Property"
+msgstr "移除自定义属性"
+
+#: rigi-all/panel.py:280
+msgid "Remove Unused Bones, Vertex Groups"
+msgstr "移除未使用的骨骼、顶点组"
+
+#: rigi-all/operators_cleanup.py:189
+#: rigi-all/operators_cleanup.py:273
+msgid "Remove groups with zero vertex weight"
+msgstr "移除顶点权重为零的组"
+
+#: rigi-all/main.py:148
+msgid "Replaces/deletes symmetry keywords to fit Blender's symmetry naming scheme"
+msgstr "替换/删除对称关键词以符合 Blender 的对称命名方案"
+
+#: rigi-all/__init__.py:1
+#: rigi-all/main.py:171
+msgid "Rigging"
+msgstr "绑定"
+
+#: rigi-all/main.py:9
+msgid "Right"
+msgstr "右"
+
+#: rigi-all/panel.py:124
+msgid "Right Symmetry Keyword"
+msgstr "右侧对称关键词"
+
+#: rigi-all/panel.py:100
+msgid "Right side is on..."
+msgstr "右侧位于..."
+
+#: rigi-all/main.py:158
+msgid "Right side of the rig is on..."
+msgstr "绑定的右侧位于..."
+
+#: rigi-all/__init__.py:1
+#: rigi-all/panel.py:33
+msgid "Rigi-All"
+msgstr "Rigi-All"
+
+#: rigi-all/main.py:251
+msgid "Rigi-All Bodygroup Helper"
+msgstr "Rigi-All 身体组辅助工具"
+
+#: rigi-all/main.py:139
+msgid "Rigi-All's category placement in the viewport"
+msgstr "Rigi-All 在视图中的类别位置"
+
+#: rigi-all/operators_ambidextrous.py:447
+msgid "Rigify Type"
+msgstr "Rigify 类型"
+
+#: rigi-all/operators.py:142
+#: rigi-all/operators.py:340
+msgid "Rigify is not enabled, limb generation could not be completed!"
+msgstr "未启用 Rigify，无法完成肢体生成！"
+
+#: rigi-all/operators.py:796
+msgid "Root"
+msgstr "根"
+
+#: rigi-all/operators.py:432
+#: rigi-all/operators_ambidextrous.py:309
+msgid "Select a chain of bones to make Rigify fingers"
+msgstr "选择一串骨骼以生成 Rigify 手指"
+
+#: rigi-all/operators.py:347
+msgid "Select a chain of bones to make them a Rigify Spine"
+msgstr "选择一串骨骼以将其设为 Rigify 脊柱"
+
+#: rigi-all/operators.py:151
+#: rigi-all/operators_ambidextrous.py:107
+msgid "Select a chain of bones to make them a Rigify leg"
+msgstr "选择一串骨骼以将其设为 Rigify 腿"
+
+#: rigi-all/panel.py:57
+msgid "Select an armature!"
+msgstr "请选择骨架！"
+
+#: rigi-all/panel.py:144
+msgid "Select enough bones to form a chain!"
+msgstr "请选择足够的骨骼以形成链！"
+
+#: rigi-all/operators.py:906
+msgid "Selected child bone is not directly a child of the parent bone!"
+msgstr "所选子骨骼不是父骨骼的直接子级！"
+
+#: rigi-all/main.py:169
+msgid "Set the view mode for Rigi-All"
+msgstr "设置 Rigi-All 的视图模式"
+
+#: rigi-all/operators.py:591
+#: rigi-all/operators_ambidextrous.py:427
+msgid "Shoulder generated!"
+msgstr "肩部已生成！"
+
+#: rigi-all/operators.py:779
+msgid "Special"
+msgstr "特殊"
+
+#: rigi-all/main.py:156
+msgid "Speed up the rigging process by automatically determining which sides are"
+msgstr "通过自动判断侧别来加速绑定流程"
+
+#: rigi-all/__init__.py:1
+msgid "Speeds up the Rigify process"
+msgstr "加速 Rigify 流程"
+
+#: rigi-all/operators.py:382
+msgid "Spine generated!"
+msgstr "脊柱已生成！"
+
+#: rigi-all/main.py:149
+msgid "Symmetry Left Keyword"
+msgstr "左侧对称关键词"
+
+#: rigi-all/main.py:150
+msgid "Symmetry Right Keyword"
+msgstr "右侧对称关键词"
+
+#: rigi-all/main.py:185
+#: rigi-all/main.py:192
+msgid "The object who's visibility will be controlled"
+msgstr "要控制其可见性的物体"
+
+#: rigi-all/main.py:160
+msgid "The right side of the armature is on the negative side of the X axis."
+msgstr "骨架右侧位于 X 轴负方向。"
+
+#: rigi-all/main.py:159
+msgid "The right side of the armature is on the positive side of the X axis."
+msgstr "骨架右侧位于 X 轴正方向。"
+
+#: rigi-all/main.py:158
+msgid "The right side of the rig should be on this side of this axis"
+msgstr "绑定的右侧应位于此轴线的这一侧"
+
+#: rigi-all/operators_miscellaneous.py:38
+msgid "This feature is for Blender 4.2+"
+msgstr "此功能适用于 Blender 4.2+"
+
+#: rigi-all/panel.py:62
+msgid "This is a Rigify rig!"
+msgstr "这是 Rigify 绑定！"
+
+#: rigi-all/operators_cleanup.py:47
+msgid "This is not necessary! You already have the original bone names from preserving them!"
+msgstr "不需要这样做！保留原始骨骼后，你已经拥有原始骨骼名称！"
+
+#: rigi-all/operators.py:631
+msgid "This marks all other unmodified bones as Extra Bones"
+msgstr "这会将所有其他未修改的骨骼标记为额外骨骼"
+
+#: rigi-all/main.py:251
+msgid "Top-level container for all bodygroup menus & items"
+msgstr "所有身体组菜单和项的顶级容器"
+
+#: rigi-all/panel.py:155
+msgid "Torso"
+msgstr "躯干"
+
+#: rigi-all/panel.py:344
+msgid "Transparency Method:"
+msgstr "透明方法："
+
+#: rigi-all/operators.py:445
+#: rigi-all/operators_ambidextrous.py:321
+msgid "Use IK targets at the end of fingers"
+msgstr "在手指末端使用 IK 目标"
+
+#: rigi-all/main.py:197
+msgid "Use Multiple Objects"
+msgstr "使用多个物体"
+
+#: rigi-all/main.py:197
+msgid "Use multiple objects for the item"
+msgstr "该项使用多个物体"
+
+#: rigi-all/main.py:169
+msgid "View"
+msgstr "视图"
+
+#: rigi-all/panel.py:48
+msgid "View Mode:"
+msgstr "视图模式："
+
+#: rigi-all/main.py:173
+msgid "View miscellaneous tools"
+msgstr "查看杂项工具"
+
+#: rigi-all/main.py:172
+msgid "View the clean up tools"
+msgstr "查看清理工具"
+
+#: rigi-all/main.py:171
+msgid "View the rigging tools"
+msgstr "查看绑定工具"
+
+#: rigi-all/panel.py:364
+msgid "Visibility Switch Helper"
+msgstr "可见性开关辅助工具"
+
+#: rigi-all/operators.py:513
+msgid "Which axis to roll on"
+msgstr "绕哪个轴滚转"
+
+#: rigi-all/operators.py:603
+#: rigi-all/operators.py:662
+msgid "Widget"
+msgstr "控件"
+
+#: rigi-all/main.py:182
+msgid "Wire Thickness"
+msgstr "线框粗细"
+
+#: rigi-all/panel.py:339
+msgid "Wire Thickness * 0.01"
+msgstr "线框粗细 * 0.01"
+
+#: rigi-all/panel.py:340
+msgid "Wire Transparency"
+msgstr "线框透明度"
+
+#: rigi-all/operators.py:515
+msgid "X"
+msgstr "X"
+
+#: rigi-all/operators.py:157
+#: rigi-all/operators_ambidextrous.py:112
+msgid "X manual"
+msgstr "X 手动"
+
+#: rigi-all/operators.py:516
+msgid "Y"
+msgstr "Y"
+
+#: rigi-all/operators_miscellaneous.py:432
+msgid "You have no other objects selected!"
+msgstr "你没有选中其他物体！"
+
+#: rigi-all/operators.py:517
+msgid "Z"
+msgstr "Z"
+
+#: rigi-all/operators.py:158
+#: rigi-all/operators_ambidextrous.py:113
+msgid "Z manual"
+msgstr "Z 手动"
+
+#: rigi-all/operators.py:79
+#: rigi-all/operators.py:434
+msgid "isLeft"
+msgstr "isLeft"
+
+#: rigi-all/operators_cleanup.py:9
+msgctxt "Operator"
+msgid "Add \"DEF-\" to Vertex Groups"
+msgstr "为顶点组添加\"DEF-\""
+
+#: rigi-all/operators_miscellaneous.py:446
+msgctxt "Operator"
+msgid "Add Object"
+msgstr "添加物体"
+
+#: rigi-all/operators_miscellaneous.py:362
+msgctxt "Operator"
+msgid "Add Visibility Item"
+msgstr "添加可见性项"
+
+#: rigi-all/operators_miscellaneous.py:363
+msgctxt "Operator"
+msgid "Add a new item to the visibility switch"
+msgstr "向可见性切换添加新项"
+
+#: rigi-all/operators_miscellaneous.py:447
+#: rigi-all/operators_miscellaneous.py:463
+msgctxt "Operator"
+msgid "Add an object to the visibility item"
+msgstr "向可见性项添加物体"
+
+#: rigi-all/operators.py:508
+msgctxt "Operator"
+msgid "Adjust Roll by 90°"
+msgstr "调整滚转角 90°"
+
+#: rigi-all/operators.py:509
+msgctxt "Operator"
+msgid "Adjust roll by 90° or -90°"
+msgstr "调整滚转角 90° 或 -90°"
+
+#: rigi-all/operators_miscellaneous.py:544
+msgctxt "Operator"
+msgid "Build Visibility Switch"
+msgstr "构建可见性切换"
+
+#: rigi-all/operators_miscellaneous.py:545
+msgctxt "Operator"
+msgid "Build a single visiblity switch"
+msgstr "构建单个可见性切换"
+
+#: rigi-all/panel.py:12
+msgctxt "Operator"
+msgid "Change Category"
+msgstr "更改类别"
+
+#: rigi-all/operators_cleanup.py:10
+msgctxt "Operator"
+msgid "Change the name of weight paints to be compatible with the rig. Recommended"
+msgstr "更改权重绘制名称以兼容绑定。推荐"
+
+#: rigi-all/panel.py:13
+msgctxt "Operator"
+msgid "Change the panel category in the viewport"
+msgstr "更改视图中面板的类别"
+
+#: rigi-all/operators_cleanup.py:88
+msgctxt "Operator"
+msgid "De-duplicate Boneshapes"
+msgstr "去除骨骼形状重复"
+
+#: rigi-all/operators_cleanup.py:89
+msgctxt "Operator"
+msgid "De-duplicate the bone shapes on the active armature"
+msgstr "去除活动骨架上的骨骼形状重复"
+
+#: rigi-all/panel.py:491
+msgctxt "Operator"
+msgid "Edit"
+msgstr "编辑"
+
+#: rigi-all/operators_miscellaneous.py:336
+msgctxt "Operator"
+msgid "Edit Bodygroup Menu"
+msgstr "编辑身体组菜单"
+
+#: rigi-all/operators_miscellaneous.py:337
+msgctxt "Operator"
+msgid "Edit bodygroup menu"
+msgstr "编辑身体组菜单"
+
+#: rigi-all/operators.py:894
+msgctxt "Operator"
+msgid "Extend the tail of the bone to the head of its child"
+msgstr "将骨骼尾部延伸到其子级头部"
+
+#: rigi-all/operators.py:893
+msgctxt "Operator"
+msgid "Extend to Child"
+msgstr "延伸到子级"
+
+#: rigi-all/operators.py:862
+msgctxt "Operator"
+msgid "Fix Symmetry Name"
+msgstr "修正对称名称"
+
+#: rigi-all/operators.py:863
+msgctxt "Operator"
+msgid "Formats bone names to be compatible with symmetry posing"
+msgstr "将骨骼名称格式化以兼容对称摆姿"
+
+#: rigi-all/panel.py:323
+msgctxt "Operator"
+msgid "Fuse"
+msgstr "融合"
+
+#: rigi-all/operators_cleanup.py:497
+msgctxt "Operator"
+msgid "Fuse Armatures"
+msgstr "融合骨架"
+
+#: rigi-all/operators_miscellaneous.py:349
+msgctxt "Operator"
+msgid "Go Back"
+msgstr "返回"
+
+#: rigi-all/operators_miscellaneous.py:350
+msgctxt "Operator"
+msgid "Go back to main menu"
+msgstr "返回主菜单"
+
+#: rigi-all/operators.py:737
+msgctxt "Operator"
+msgid "Initialize Rig"
+msgstr "初始化绑定"
+
+#: rigi-all/operators.py:738
+msgctxt "Operator"
+msgid "Initialize the rig with bonegroups and assigned layers."
+msgstr "使用骨骼组和已分配的层初始化绑定。"
+
+#: rigi-all/operators_cleanup.py:498
+msgctxt "Operator"
+msgid "Join two armatures, but take the extra step to remove duplicate bones"
+msgstr "合并两个骨架，并额外移除重复骨骼"
+
+#: rigi-all/operators.py:77
+msgctxt "Operator"
+msgid "Make Arm"
+msgstr "创建手臂"
+
+#: rigi-all/operators_ambidextrous.py:33
+msgctxt "Operator"
+msgid "Make Arms"
+msgstr "创建双臂"
+
+#: rigi-all/operators_miscellaneous.py:23
+msgctxt "Operator"
+msgid "Make Bones Renderable"
+msgstr "使骨骼可渲染"
+
+#: rigi-all/operators.py:599
+msgctxt "Operator"
+msgid "Make Extras (Do this last!)"
+msgstr "创建附加项（最后执行！）"
+
+#: rigi-all/panel.py:183
+msgctxt "Operator"
+msgid "Make Fingers"
+msgstr "创建手指"
+
+#: rigi-all/operators_ambidextrous.py:434
+msgctxt "Operator"
+msgid "Make Generic Chain"
+msgstr "创建通用链"
+
+#: rigi-all/operators.py:390
+msgctxt "Operator"
+msgid "Make Neck/Head"
+msgstr "创建颈部/头部"
+
+#: rigi-all/operators.py:658
+msgctxt "Operator"
+msgid "Make Selected Extras"
+msgstr "创建选中附加项"
+
+#: rigi-all/operators.py:565
+#: rigi-all/operators_ambidextrous.py:386
+msgctxt "Operator"
+msgid "Make Shoulders"
+msgstr "创建肩部"
+
+#: rigi-all/operators_miscellaneous.py:24
+msgctxt "Operator"
+msgid "Make mesh copies of custom bone shapes, which are converted to tubes through geometry nodes, allowing them to be rendered"
+msgstr "创建自定义骨骼形状的网格副本，通过几何节点转换为管状，使其可被渲染"
+
+#: rigi-all/operators_miscellaneous.py:397
+msgctxt "Operator"
+msgid "Move Visibility Item"
+msgstr "移动可见性项"
+
+#: rigi-all/operators_miscellaneous.py:398
+msgctxt "Operator"
+msgid "Move an item in the visibility switch"
+msgstr "在可见性切换中移动项"
+
+#: rigi-all/operators_miscellaneous.py:416
+msgctxt "Operator"
+msgid "On the visibility item, this subjects all selected objects to be controlled by the item"
+msgstr "在可见性项上，这将使所有选中物体受该项控制"
+
+#: rigi-all/panel.py:229
+msgctxt "Operator"
+msgid "Only Selected"
+msgstr "仅选中项"
+
+#: rigi-all/operators.py:659
+msgctxt "Operator"
+msgid "Preserve all unmodified bones when generating the rig."
+msgstr "生成绑定时保留所有未修改的骨骼。"
+
+#: rigi-all/operators.py:600
+msgctxt "Operator"
+msgid "Preserve all unmodified bones when generating the rig. Do this last"
+msgstr "生成绑定时保留所有未修改的骨骼。最后执行"
+
+#: rigi-all/operators_ambidextrous.py:435
+msgctxt "Operator"
+msgid "Quickly make a chain of bones with the active selection"
+msgstr "使用当前选择快速创建骨骼链"
+
+#: rigi-all/operators_miscellaneous.py:298
+msgctxt "Operator"
+msgid "Remove Bodygroup Menu"
+msgstr "移除身体组菜单"
+
+#: rigi-all/operators_miscellaneous.py:462
+msgctxt "Operator"
+msgid "Remove Object"
+msgstr "移除物体"
+
+#: rigi-all/operators_cleanup.py:184
+msgctxt "Operator"
+msgid "Remove Unassigned Vertex Groups"
+msgstr "移除未分配的顶点组"
+
+#: rigi-all/operators_cleanup.py:269
+msgctxt "Operator"
+msgid "Remove Unused Bones"
+msgstr "移除未使用的骨骼"
+
+#: rigi-all/operators_cleanup.py:372
+msgctxt "Operator"
+msgid "Remove Unused Bones & Vertex Groups"
+msgstr "移除未使用的骨骼和顶点组"
+
+#: rigi-all/operators_miscellaneous.py:377
+msgctxt "Operator"
+msgid "Remove Visibility Item"
+msgstr "移除可见性项"
+
+#: rigi-all/operators_cleanup.py:185
+msgctxt "Operator"
+msgid "Remove all vertex groups with no vertices assigned"
+msgstr "移除所有未分配顶点的顶点组"
+
+#: rigi-all/operators_miscellaneous.py:378
+msgctxt "Operator"
+msgid "Remove an item from the visibility switch"
+msgstr "从可见性切换中移除项"
+
+#: rigi-all/operators_miscellaneous.py:299
+msgctxt "Operator"
+msgid "Remove bodygroup menu"
+msgstr "移除身体组菜单"
+
+#: rigi-all/operators_cleanup.py:270
+msgctxt "Operator"
+msgid "Removes bones unused by mesh(es)"
+msgstr "移除网格未使用的骨骼"
+
+#: rigi-all/operators_cleanup.py:373
+msgctxt "Operator"
+msgid "Removes bones unused by mesh(es), and the vertex groups associated with those bones"
+msgstr "移除网格未使用的骨骼以及与这些骨骼关联的顶点组"
+
+#: rigi-all/operators.py:391
+msgctxt "Operator"
+msgid "Select a chain of bones to make them a Rigify Head"
+msgstr "选择一条骨骼链以将其设为 Rigify 头部"
+
+#: rigi-all/operators.py:78
+msgctxt "Operator"
+msgid "Select a chain of bones to make them a Rigify arm"
+msgstr "选择一条骨骼链以将其设为 Rigify 手臂"
+
+#: rigi-all/operators.py:566
+#: rigi-all/operators_ambidextrous.py:387
+msgctxt "Operator"
+msgid "Select bones to make them shoulders"
+msgstr "选择骨骼以将其设为肩部"
+
+#: rigi-all/operators_ambidextrous.py:34
+msgctxt "Operator"
+msgid "Select multiple bone chains to turn them into Rigify arms"
+msgstr "选择多条骨骼链以将其转换为 Rigify 手臂"
+
+#: rigi-all/operators_miscellaneous.py:415
+msgctxt "Operator"
+msgid "Set All Selected Objects"
+msgstr "设置所有选中物体"
+
+#: rigi-all/operators.py:549
+msgctxt "Operator"
+msgid "Set Roll to 0°"
+msgstr "将滚转角设为 0°"
+
+#: rigi-all/operators.py:550
+msgctxt "Operator"
+msgid "Sets a bone's roll to 0°"
+msgstr "将骨骼的滚转角设为 0°"
+
+#: rigi-all/operators_miscellaneous.py:479
+msgctxt "Operator"
+msgid "Show Objects"
+msgstr "显示物体"
+
+#: rigi-all/operators_miscellaneous.py:480
+msgctxt "Operator"
+msgid "Show all objects associated with the visibility item"
+msgstr "显示与可见性项关联的所有物体"

@@ -1,0 +1,589 @@
+# perfect-chinese: 1
+# id: lightpainter
+# kind: addon
+# module: bl_ext.blender_org.lightpainter
+# name: Light Painter
+# name_zh: 灯光绘制
+# translator: KeshiMiao
+# category: 3D View
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: panel.py:48
+#: panel.py:88
+msgid "..."
+msgstr "..."
+
+#: __init__.py:29
+msgid "3D View"
+msgstr "3D 视图"
+
+#: operators/lamp_adjust_tool.py:276
+msgid "Active object is not a lamp, aborting"
+msgstr "活动物体不是灯光，操作中止"
+
+#: panel.py:61
+msgid "Adjust Light"
+msgstr "调整灯光"
+
+#: operators/prop_util.py:20
+msgid "Along surface normals"
+msgstr "沿表面法线"
+
+#: operators/prop_util.py:17
+msgid "Along the global X axis"
+msgstr "沿全局 X 轴"
+
+#: operators/prop_util.py:18
+msgid "Along the global Y axis"
+msgstr "沿全局 Y 轴"
+
+#: operators/prop_util.py:19
+msgid "Along the global Z axis"
+msgstr "沿全局 Z 轴"
+
+#: operators/lamp_adjust_tool.py:129
+#: operators/lamp_adjust_tool.py:150
+msgid "Amount"
+msgstr "数量"
+
+#: operators/lamp_adjust_tool.py:83
+msgid "Angle"
+msgstr "角度"
+
+#: operators/lamp_adjust_tool.py:83
+msgid "Angular diameter of the Sun as seen from the Earth"
+msgstr "从地球看到的太阳角直径"
+
+#: operators/prop_util.py:67
+msgid "Any other tool key: confirm"
+msgstr "其他任意工具键：确认"
+
+#: operators/lamp_tool.py:45
+msgid "Area"
+msgstr "面光"
+
+#: operators/lamp_util.py:207
+msgid "Area lamp size will be clamped to these minimum values"
+msgstr "面光尺寸将被限制为这些最小值"
+
+#: operators/lamp_util.py:169
+msgid "Area light's emit value"
+msgstr "面光的发光值"
+
+#: operators/lamp_adjust_tool.py:50
+msgid "Average"
+msgstr "平均值"
+
+#: operators/lamp_adjust_tool.py:56
+msgid "Azimuth Samples"
+msgstr "方位角采样"
+
+#: operators/lamp_util.py:197
+msgid "Beam Blend"
+msgstr "光束混合"
+
+#: operators/lamp_util.py:228
+msgid "Beam Spread"
+msgstr "光束扩散"
+
+#: operators/visibility.py:16
+msgid "Camera"
+msgstr "摄像机"
+
+#: operators/lamp_adjust_tool.py:51
+msgid "Casts rays to determine occlusion and optimal direction for visibility"
+msgstr "投射光线以确定遮挡和可见性的最佳方向"
+
+#: preferences.py:112
+msgid "Cmd"
+msgstr "Cmd"
+
+#: operators/flag_tool.py:129
+#: operators/flag_tool.py:323
+msgid "Color"
+msgstr "颜色"
+
+#: operators/lamp_util.py:216
+msgid "Determine axis of offset"
+msgstr "确定偏移轴"
+
+#: operators/visibility.py:22
+msgid "Diffuse"
+msgstr "漫射"
+
+#: operators/lamp_util.py:222
+msgid "Disk"
+msgstr "圆盘"
+
+#: __init__.py:29
+msgid "Do not place your lights, paint them"
+msgstr "不要放置灯光，绘制它们"
+
+#: operators/lamp_adjust_tool.py:64
+msgid "Elevation Samples"
+msgstr "仰角采样"
+
+#: operators/lamp_util.py:223
+msgid "Ellipse"
+msgstr "椭圆"
+
+#: operators/mesh_tool.py:74
+#: operators/mesh_tool.py:314
+msgid "Emission shader's emit value"
+msgstr "发光着色器的发光值"
+
+#: operators/mesh_tool.py:74
+#: operators/mesh_tool.py:314
+msgid "Emit Value"
+msgstr "发光值"
+
+#: operators/lamp_util.py:254
+msgid "Exposure"
+msgstr "曝光"
+
+#: operators/flag_tool.py:113
+msgid "Factor"
+msgstr "系数"
+
+#: operators/mesh_tool.py:59
+msgid "Flatten"
+msgstr "展平"
+
+#: operators/lamp_util.py:228
+msgid "How widely the emitted light fans out, as in the case of a gridded softbox (Cycles only)"
+msgstr "发光发散程度，如同网格柔光箱（仅 Cycles）"
+
+#: operators/mesh_tool.py:59
+msgid "If checked, projected vertices will be flattened before processing the convex hull"
+msgstr "若勾选，投影顶点将在处理凸包前展平"
+
+#: operators/mesh_tool.py:283
+msgid "If checked, skin modifier will set smooth faces"
+msgstr "若勾选，蒙皮修改器将设置平滑面"
+
+#: operators/visibility.py:16
+msgid "If unchecked, object will not be directly visible by camera (although it will still emit light)"
+msgstr "若取消勾选，物体不会被摄像机直接看到（但仍会发光）"
+
+#: operators/visibility.py:22
+msgid "If unchecked, object will not be directly visible by diffuse rays"
+msgstr "若取消勾选，物体不会被漫射光线直接看到"
+
+#: operators/visibility.py:28
+msgid "If unchecked, object will not be directly visible by specular or glossy rays"
+msgstr "若取消勾选，物体不会被高光或光泽光线直接看到"
+
+#: operators/visibility.py:34
+msgid "If unchecked, object will not be directly visible by volumetric rays"
+msgstr "若取消勾选，物体不会被体积光线直接看到"
+
+#: operators/flag_tool.py:166
+msgid "Lamp Flag Factor"
+msgstr "灯光挡光板系数"
+
+#: operators/lamp_tool.py:40
+msgid "Lamp Type"
+msgstr "灯光类型"
+
+#: operators/lamp_util.py:163
+msgid "Lamp power scales based on distance, relative to 1m"
+msgstr "灯光功率随距离缩放，相对于 1 米"
+
+#: operators/mesh_tool.py:305
+msgid "Light Color"
+msgstr "灯光颜色"
+
+#: panel.py:33
+msgid "Light Paint"
+msgstr "灯光绘制"
+
+#: __init__.py:29
+msgid "Light Painter"
+msgstr "Light Painter"
+
+#: panel.py:250
+msgid "Light Painter Gobos"
+msgstr "Light Painter 图案片"
+
+#: operators/lamp_util.py:243
+msgid "Light color temperature in Kelvin"
+msgstr "灯光色温，单位为开尔文"
+
+#: operators/lamp_util.py:180
+msgid "Light size for ray shadow sampling"
+msgstr "用于光线阴影采样的灯光尺寸"
+
+#: __init__.py:79
+msgid "Magic"
+msgstr "魔法"
+
+#: operators/flag_tool.py:129
+#: operators/flag_tool.py:323
+msgid "Material color of the flag"
+msgstr "挡光板的材质颜色"
+
+#: operators/flag_tool.py:139
+#: operators/flag_tool.py:333
+msgid "Material transparency of the flag"
+msgstr "挡光板的材质透明度"
+
+#: operators/lamp_adjust_tool.py:72
+msgid "Max Sun Elevation"
+msgstr "最大太阳仰角"
+
+#: operators/mesh_tool.py:268
+msgid "Merge adjacent vertices closer than this distance"
+msgstr "合并距离小于此值的相邻顶点"
+
+#: operators/mesh_tool.py:268
+msgid "Merge by distance"
+msgstr "按距离合并"
+
+#: panel.py:73
+msgid "Mesh Light Paint"
+msgstr "网格灯光绘制"
+
+#: operators/lamp_adjust_tool.py:46
+msgid "Method"
+msgstr "方法"
+
+#: operators/lamp_adjust_tool.py:46
+msgid "Method to determine sun direction"
+msgstr "确定太阳方向的方法"
+
+#: panel.py:154
+#: panel.py:183
+msgid "Method:"
+msgstr "方法："
+
+#: operators/lamp_util.py:207
+msgid "Minimum size"
+msgstr "最小尺寸"
+
+#: __init__.py:80
+msgid "Musgrave"
+msgstr "Musgrave"
+
+#: operators/lamp_adjust_tool.py:195
+msgid "No valid directions found (add more samples or increase the elevation clamp!), using average normal"
+msgstr "未找到有效方向（请增加采样或提高仰角限制！），使用平均法线"
+
+#: __init__.py:78
+msgid "Noise"
+msgstr "噪波"
+
+#: operators/prop_util.py:20
+msgid "Normal"
+msgstr "法线"
+
+#: operators/lamp_util.py:266
+msgid "Normalize"
+msgstr "归一化"
+
+#: operators/lamp_util.py:266
+msgid "Normalize intensity by light area, for consistent total light output regardless of size and shape"
+msgstr "按灯光面积归一化强度，使总光输出不受尺寸和形状影响"
+
+#: operators/lamp_adjust_tool.py:51
+msgid "Occlusion"
+msgstr "遮挡"
+
+#: operators/flag_tool.py:122
+#: operators/flag_tool.py:316
+msgid "Offset"
+msgstr "偏移"
+
+#: operators/prop_util.py:13
+msgid "Offset Axis"
+msgstr "偏移轴"
+
+#: operators/flag_tool.py:139
+#: operators/flag_tool.py:333
+msgid "Opacity"
+msgstr "不透明度"
+
+#: panel.py:122
+msgid "Path"
+msgstr "路径"
+
+#: operators/lamp_tool.py:43
+msgid "Point"
+msgstr "点光"
+
+#: operators/flag_tool.py:113
+msgid "Position between light and surface (0 is at the light, 1 is at the surface)"
+msgstr "灯光与表面之间的位置（0 位于灯光处，1 位于表面处）"
+
+#: operators/prop_util.py:21
+msgid "Positions light to reflect onto the specified surface directly into the scene camera"
+msgstr "定位灯光，使其反射到指定表面并直接进入场景摄像机"
+
+#: operators/lamp_adjust_tool.py:93
+#: operators/lamp_util.py:169
+msgid "Power"
+msgstr "功率"
+
+#: operators/lamp_util.py:180
+msgid "Radius"
+msgstr "半径"
+
+#: operators/lamp_util.py:220
+msgid "Rectangle"
+msgstr "矩形"
+
+#: operators/lamp_util.py:163
+msgid "Relative"
+msgstr "相对"
+
+#: operators/prop_util.py:21
+msgid "Rim lighting"
+msgstr "轮廓光"
+
+#: operators/lamp_adjust_tool.py:56
+msgid "Samples of normals around the azimuth. Increasing samples improves precision at the cost of processing time"
+msgstr "方位角方向法线采样数。增加采样可提高精度，但会增加处理时间"
+
+#: operators/lamp_adjust_tool.py:64
+msgid "Samples of normals from the horizon to the maximum elevation. Increasing samples improves precision at the cost of processing time"
+msgstr "从地平线到最大仰角的法线采样数。增加采样可提高精度，但会增加处理时间"
+
+#: operators/lamp_util.py:254
+msgid "Scales the power of the light exponentially, multiplying the intensity by 2^exposure"
+msgstr "以指数方式缩放灯光功率，强度乘以 2^曝光"
+
+#: operators/flag_tool.py:260
+msgid "Select lamp objects to be flagged for shadows!"
+msgstr "选择要标记为阴影的灯光物体！"
+
+#: panel.py:198
+msgid "Shadow Paint"
+msgstr "阴影绘制"
+
+#: operators/lamp_util.py:216
+msgid "Shape"
+msgstr "形状"
+
+#: panel.py:136
+msgid "Sky Paint"
+msgstr "天空绘制"
+
+#: panel.py:226
+msgid "Sky Shadow Paint"
+msgstr "天空阴影绘制"
+
+#: operators/mesh_tool.py:283
+msgid "Smooth shading"
+msgstr "平滑着色"
+
+#: operators/visibility.py:28
+msgid "Specular"
+msgstr "高光"
+
+#: operators/lamp_tool.py:44
+msgid "Spot"
+msgstr "聚光"
+
+#: operators/lamp_util.py:221
+msgid "Square"
+msgstr "方形"
+
+#: panel.py:120
+msgid "Subdivision"
+msgstr "细分"
+
+#: operators/mesh_tool.py:289
+msgid "Subdivision level to smooth the wire path"
+msgstr "用于平滑线路径的细分级别"
+
+#: operators/mesh_tool.py:297
+msgid "Subdivision level to smooth the wire's surface"
+msgstr "用于平滑线表面的细分级别"
+
+#: operators/mesh_tool.py:337
+msgid "Subdivisions Path"
+msgstr "路径细分"
+
+#: operators/flag_tool.py:164
+#: operators/flag_tool.py:367
+msgid "Sun Flag Offset"
+msgstr "太阳标记偏移"
+
+#: panel.py:169
+msgid "Sun Paint"
+msgstr "太阳绘制"
+
+#: operators/lamp_adjust_tool.py:93
+msgid "Sun lamp's emit value"
+msgstr "太阳灯的发射值"
+
+#: operators/flag_tool.py:122
+#: operators/flag_tool.py:316
+msgid "Sun lamp's offset from annotation(s) along specified axis"
+msgstr "太阳灯沿指定轴相对于标注的偏移"
+
+#: panel.py:123
+#: operators/mesh_tool.py:338
+msgid "Surface"
+msgstr "表面"
+
+#: operators/lamp_util.py:243
+msgid "Temperature"
+msgstr "色温"
+
+#: operators/lamp_adjust_tool.py:72
+msgid "Tested normals will be scaled to at most this elevation.Forces the sun closer to the horizon, allowing more dynamic lighting."
+msgstr "测试的法线将被缩放至至多该仰角。迫使太阳更接近地平线，从而获得更动态的光照。"
+
+#: __init__.py:89
+msgid "Texture Type"
+msgstr "纹理类型"
+
+#: operators/lamp_util.py:197
+msgid "The softness of the spotlight edge"
+msgstr "聚光灯边缘的柔和度"
+
+#: operators/lamp_adjust_tool.py:163
+#: operators/lamp_tool.py:88
+msgid "Tint"
+msgstr "色调"
+
+#: preferences.py:37
+msgid "Tools Keymap"
+msgstr "工具键位映射"
+
+#: panel.py:101
+msgid "Tube Light Paint"
+msgstr "管状灯绘制"
+
+#: operators/lamp_util.py:238
+msgid "Use Temperature"
+msgstr "使用色温"
+
+#: operators/lamp_util.py:238
+msgid "Use blackbody temperature to determine a natural light color"
+msgstr "使用黑体温度来确定自然的光颜色"
+
+#: operators/lamp_adjust_tool.py:50
+msgid "Uses average of normals"
+msgstr "使用法线的平均值"
+
+#: operators/base_tool.py:468
+msgid "View3D not found, cannot run operator"
+msgstr "未找到 3D 视图，无法运行操作"
+
+#: operators/visibility.py:34
+msgid "Volume"
+msgstr "体积"
+
+#: __init__.py:81
+msgid "Voronoi"
+msgstr "沃罗诺伊"
+
+#: __init__.py:82
+msgid "Wave"
+msgstr "波浪"
+
+#: operators/mesh_tool.py:289
+msgid "Wire path Subdivision"
+msgstr "线路径细分"
+
+#: operators/mesh_tool.py:276
+msgid "Wire radius"
+msgstr "线半径"
+
+#: operators/mesh_tool.py:297
+msgid "Wire surface subdivision"
+msgstr "线表面细分"
+
+#: operators/prop_util.py:17
+msgid "X axis"
+msgstr "X 轴"
+
+#: operators/prop_util.py:18
+msgid "Y axis"
+msgstr "Y 轴"
+
+#: operators/prop_util.py:19
+msgid "Z axis"
+msgstr "Z 轴"
+
+#: operators/lamp_add_gobos.py:35
+msgctxt "Operator"
+msgid "Add Lamp Texture"
+msgstr "添加灯光纹理"
+
+#: operators/lamp_tool.py:36
+msgctxt "Operator"
+msgid "Adds lamp to light surfaces specified by annotations"
+msgstr "将灯光添加到由标注指定的受光表面"
+
+#: operators/flag_tool.py:107
+msgctxt "Operator"
+msgid "Adds mesh flag(s) to shadow surfaces specified by selected lights and annotations"
+msgstr "将网格标记添加到由所选灯光和标注指定的阴影表面"
+
+#: operators/flag_tool.py:310
+msgctxt "Operator"
+msgid "Adds mesh flag(s) to shadow surfaces specified by world sky texture and annotations"
+msgstr "将网格标记添加到由世界天空纹理和标注指定的阴影表面"
+
+#: operators/mesh_tool.py:49
+msgctxt "Operator"
+msgid "Adds mesh light to light surfaces specified by annotations"
+msgstr "将网格灯光添加到由标注指定的受光表面"
+
+#: operators/mesh_tool.py:257
+msgctxt "Operator"
+msgid "Adds or repositions mesh tube to light surfaces specified by annotations"
+msgstr "添加或重新定位网格管，以照亮由标注指定的表面"
+
+#: operators/lamp_add_gobos.py:36
+msgctxt "Operator"
+msgid "Adds texture to lamp to add variation"
+msgstr "为灯光添加纹理以增加变化"
+
+#: operators/lamp_adjust_tool.py:37
+msgctxt "Operator"
+msgid "Adjust Lamp"
+msgstr "调整灯光"
+
+#: operators/lamp_adjust_tool.py:38
+msgctxt "Operator"
+msgid "Adjusts active lamp's position and rotation to light surfaces specified by annotations"
+msgstr "调整活动灯光的位置和旋转，以照亮由标注指定的表面"
+
+#: operators/flag_tool.py:106
+msgctxt "Operator"
+msgid "Paint Flag"
+msgstr "绘制标记"
+
+#: operators/lamp_tool.py:35
+msgctxt "Operator"
+msgid "Paint Lamp"
+msgstr "绘制灯光"
+
+#: operators/mesh_tool.py:48
+#: operators/mesh_tool.py:256
+msgctxt "Operator"
+msgid "Paint Mesh Light"
+msgstr "绘制网格灯光"
+
+#: operators/flag_tool.py:309
+msgctxt "Operator"
+msgid "Paint Sky Flag"
+msgstr "绘制天空标记"
+
+#: operators/lamp_add_gobos.py:92
+msgctxt "Operator"
+msgid "Remove Lamp Texture"
+msgstr "移除灯光纹理"
+
+#: operators/lamp_add_gobos.py:93
+msgctxt "Operator"
+msgid "Removes texture from lamp"
+msgstr "从灯光移除纹理"

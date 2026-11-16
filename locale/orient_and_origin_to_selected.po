@@ -1,0 +1,221 @@
+# perfect-chinese: 1
+# id: orient_and_origin_to_selected
+# kind: addon
+# module: bl_ext.blender_org.orient_and_origin_to_selected
+# name: Orient and Origin to Selected
+# name_zh: 对齐与原点吸附
+# translator: KeshiMiao
+# category: 3D View
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: orient_to_selection/utilities.py:41
+msgid "-X"
+msgstr "-X"
+
+#: orient_to_selection/utilities.py:42
+msgid "-Y"
+msgstr "-Y"
+
+#: orient_to_selection/utilities.py:43
+msgid "-Z"
+msgstr "-Z"
+
+#: orient_to_selection/__init__.py:24
+msgid "3D View"
+msgstr "3D 视图"
+
+#: orient_to_selection/__init__.py:24
+msgid "Align object orientations and snap object origins to the selection"
+msgstr "将物体朝向对齐并将物体原点吸附到选中项"
+
+#: orient_to_selection/orient_to_best_fit.py:35
+msgid "Auto"
+msgstr "自动"
+
+#: orient_to_selection/origin_to_visual_geometry.py:176
+msgid "Average position of the vertices"
+msgstr "顶点的平均位置"
+
+#: orient_to_selection/origin_to_visual_geometry.py:177
+msgid "Bounds Center"
+msgstr "边界中心"
+
+#: orient_to_selection/origin_to_visual_geometry.py:178
+msgid "Calculate the center of mass from the surface area"
+msgstr "根据表面积计算质心"
+
+#: orient_to_selection/origin_to_visual_geometry.py:179
+msgid "Calculate the center of mass from the volume (must be manifold geometry with consistent normals)"
+msgstr "根据体积计算质心（必须为流形几何体且法线一致）"
+
+#: orient_to_selection/origin_to_visual_geometry.py:173
+msgid "Center"
+msgstr "中心"
+
+#: orient_to_selection/origin_to_visual_geometry.py:178
+msgid "Center of Mass"
+msgstr "质心"
+
+#: orient_to_selection/origin_to_visual_geometry.py:179
+msgid "Center of Volume"
+msgstr "体积中心"
+
+#: orient_to_selection/origin_to_visual_geometry.py:177
+msgid "Center of the local bounding box"
+msgstr "局部边界框的中心"
+
+#: orient_to_selection/orient_to_selection.py:94
+msgid "Could not create an orientation from the selection"
+msgstr "无法从选中项创建朝向"
+
+#: orient_to_selection/orient_to_best_fit.py:240
+msgid "Local axis to align with the longest side of the box"
+msgstr "与边界框最长边对齐的局部轴"
+
+#: orient_to_selection/orient_to_selection.py:40
+msgid "Local axis to align with the normal of the selection"
+msgstr "与选中项法线对齐的局部轴"
+
+#: orient_to_selection/orient_to_best_fit.py:247
+msgid "Local axis to align with the second longest side of the box"
+msgstr "与边界框次长边对齐的局部轴"
+
+#: orient_to_selection/orient_to_selection.py:47
+msgid "Local axis to align with the tangent of the selection"
+msgstr "与选中项切线对齐的局部轴"
+
+#: orient_to_selection/orient_to_best_fit.py:240
+msgid "Main Axis"
+msgstr "主轴"
+
+#: orient_to_selection/origin_to_visual_geometry.py:176
+msgid "Median Center"
+msgstr "中位中心"
+
+#: orient_to_selection/orient_to_selection.py:40
+msgid "Normal Axis"
+msgstr "法线轴"
+
+#: orient_to_selection/__init__.py:24
+msgid "Orient and Origin to Selected"
+msgstr "朝向与原点对齐选中项"
+
+#: orient_to_selection/orient_to_best_fit.py:247
+msgid "Secondary Axis"
+msgstr "次轴"
+
+#: orient_to_selection/orient_to_best_fit.py:350
+msgid "Select at least two vertices that aren't in the same place"
+msgstr "请至少选择两个不在同一位置的顶点"
+
+#: orient_to_selection/orient_to_active.py:63
+#: orient_to_selection/orient_to_best_fit.py:295
+msgid "Some selected objects have keyframes. Changing the local orientation will alter any animated rotation"
+msgstr "部分选中物体含关键帧。更改局部朝向会改变已有的动画旋转"
+
+#: orient_to_selection/orient_to_selection.py:47
+msgid "Tangent Axis"
+msgstr "切线轴"
+
+#: orient_to_selection/orient_to_best_fit.py:320
+msgid "The selected objects have no size to fit a box to"
+msgstr "选中物体没有可用于拟合边界框的尺寸"
+
+#: orient_to_selection/origin_to_visual_geometry.py:243
+msgid "The selected objects have no visible geometry"
+msgstr "选中物体没有可见几何体"
+
+#: orient_to_selection/orient_to_selection.py:138
+msgid "This object has keyframes. Changing the local orientation will alter any animated rotation"
+msgstr "此物体含关键帧。更改局部朝向会改变已有的动画旋转"
+
+#: orient_to_selection/orient_to_best_fit.py:35
+msgid "Use the local axis closest to the current orientation"
+msgstr "使用最接近当前朝向的局部轴"
+
+#: orient_to_selection/utilities.py:38
+msgid "X"
+msgstr "X"
+
+#: orient_to_selection/utilities.py:39
+msgid "Y"
+msgstr "Y"
+
+#: orient_to_selection/utilities.py:40
+msgid "Z"
+msgstr "Z"
+
+#: orient_to_selection/origin_to_pivot.py:31
+msgctxt "Operator"
+msgid "Active Origin to Pivot Point"
+msgstr "活动原点至枢轴点"
+
+#: orient_to_selection/orient_to_active.py:33
+msgctxt "Operator"
+msgid "Aligns the local axes of the selected objects with the active object and switches to Local orientation"
+msgstr "将选中物体的局部轴与活动物体对齐，并切换到局部朝向"
+
+#: orient_to_selection/orient_to_best_fit.py:234
+msgctxt "Operator"
+msgid "Aligns the local axes with the smallest box that fits each selected object, or the selected components in Edit Mode, and switches to Local orientation"
+msgstr "将局部轴与拟合每个选中物体（或在编辑模式下选中组件）的最小边界框对齐，并切换到局部朝向"
+
+#: orient_to_selection/orient_to_selection.py:35
+msgctxt "Operator"
+msgid "Aligns the object's local axes with the normals of the selected mesh and switches to Local orientation"
+msgstr "将物体的局部轴与选中网格的法线对齐，并切换到局部朝向"
+
+#: orient_to_selection/origin_to_pivot.py:33
+msgctxt "Operator"
+msgid "Moves the active object's origin to the current transform pivot point"
+msgstr "将活动物体的原点移动到当前变换枢轴点"
+
+#: orient_to_selection/origin_to_selection.py:33
+msgctxt "Operator"
+msgid "Moves the object's origin to the current transform pivot point in Edit Mode"
+msgstr "在编辑模式下将物体原点移动到当前变换枢轴点"
+
+#: orient_to_selection/origin_to_active.py:32
+msgctxt "Operator"
+msgid "Moves the origins of the selected objects to the active object's origin without moving their geometry"
+msgstr "将选中物体的原点移动到活动物体的原点，而不移动其几何体"
+
+#: orient_to_selection/origin_to_visual_geometry.py:167
+msgctxt "Operator"
+msgid "Moves the origins of the selected objects to the center of their geometry as it's shown in the viewport, including modifiers and instances"
+msgstr "将选中物体的原点移动到其几何体中心（以视图所示为准，包含修改器和实例）"
+
+#: orient_to_selection/origin_to_selection.py:31
+msgctxt "Operator"
+msgid "Object Origin to Pivot Point"
+msgstr "物体原点至枢轴点"
+
+#: orient_to_selection/orient_to_active.py:31
+msgctxt "Operator"
+msgid "Orient Local to Active"
+msgstr "局部朝向对齐活动物体"
+
+#: orient_to_selection/orient_to_best_fit.py:232
+msgctxt "Operator"
+msgid "Orient Local to Best Fit"
+msgstr "局部朝向最佳拟合"
+
+#: orient_to_selection/orient_to_selection.py:33
+msgctxt "Operator"
+msgid "Orient Local to Normal"
+msgstr "局部朝向对齐法线"
+
+#: orient_to_selection/origin_to_visual_geometry.py:165
+msgctxt "Operator"
+msgid "Origin to Visual Geometry"
+msgstr "原点至可见几何体"
+
+#: orient_to_selection/origin_to_active.py:30
+msgctxt "Operator"
+msgid "Selected Origins to Active"
+msgstr "选中原点至活动物体"

@@ -1,0 +1,255 @@
+# perfect-chinese: 1
+# id: gp_to_curves
+# kind: addon
+# module: bl_ext.blender_org.gp_to_curves
+# name: Grease Pencil to Curves
+# name_zh: 蜡笔转曲线
+# translator: KeshiMiao
+# category: Grease Pencil
+# supported_versions: >=4.3.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: GP to Curvers v0_4_5/operators.py:23
+#: GP to Curvers v0_4_5/operators.py:59
+msgid "Active object is not a Grease Pencil!"
+msgstr "活动物体不是蜡笔！"
+
+#: GP to Curvers v0_4_5/operators.py:169
+#: GP to Curvers v0_4_5/operators.py:193
+msgid "Active object is not a curve"
+msgstr "活动物体不是曲线"
+
+#: GP to Curvers v0_4_5/properties.py:37
+msgid "Adaptive"
+msgstr "自适应"
+
+#: GP to Curvers v0_4_5/properties.py:7
+msgid "Bezier"
+msgstr "贝塞尔"
+
+#: GP to Curvers v0_4_5/properties.py:8
+msgid "Bezier to Poly"
+msgstr "贝塞尔转多边形"
+
+#: GP to Curvers v0_4_5/__init__.py:1
+msgid "Convert Grease Pencil to Simplified Bezier Curve, with optional conversion to Poly, and Hair Prep feature"
+msgstr "将蜡笔转换为简化贝塞尔曲线，可选转换为多边形，并包含毛发准备功能"
+
+#: GP to Curvers v0_4_5/properties.py:7
+msgid "Convert to Bezier curve"
+msgstr "转换为贝塞尔曲线"
+
+#: GP to Curvers v0_4_5/properties.py:8
+msgid "Convert to Bezier, then to Poly curve"
+msgstr "转换为贝塞尔曲线，再转换为多边形曲线"
+
+#: GP to Curvers v0_4_5/properties.py:6
+msgid "Convert to Poly curve without Bezier conversion"
+msgstr "不经过贝塞尔转换，直接转换为多边形曲线"
+
+#: GP to Curvers v0_4_5/properties.py:6
+msgid "Curve"
+msgstr "曲线"
+
+#: GP to Curvers v0_4_5/properties.py:18
+#: GP to Curvers v0_4_5/ui.py:36
+msgid "Decimate Ratio"
+msgstr "简化比例"
+
+#: GP to Curvers v0_4_5/properties.py:58
+msgid "Enable snapping curves to the nearest surface"
+msgstr "启用曲线吸附到最近表面"
+
+#: GP to Curvers v0_4_5/properties.py:36
+msgid "Fixed"
+msgstr "固定"
+
+#: GP to Curvers v0_4_5/__init__.py:1
+msgid "GP to Curve"
+msgstr "蜡笔转曲线"
+
+#: GP to Curvers v0_4_5/ui.py:4
+#: GP to Curvers v0_4_5/ui.py:8
+msgid "GP to Curves"
+msgstr "蜡笔转曲线"
+
+#: GP to Curvers v0_4_5/ui.py:31
+msgid "IMPORTANT: Apply modifiers"
+msgstr "重要：应用修改器"
+
+#: GP to Curvers v0_4_5/properties.py:39
+msgid "Merged"
+msgstr "合并"
+
+#: GP to Curvers v0_4_5/properties.py:42
+msgid "Method for simplifying Grease Pencil strokes"
+msgstr "简化蜡笔笔画的方法"
+
+#: GP to Curvers v0_4_5/properties.py:64
+msgid "Name of the surface object to attach hair to"
+msgstr "要附加毛发的表面物体名称"
+
+#: GP to Curvers v0_4_5/operators.py:153
+msgid "No active grease pencil object selected"
+msgstr "未选择活动蜡笔物体"
+
+#: GP to Curvers v0_4_5/properties.py:26
+msgid "Number of points for resampling the curve"
+msgstr "重采样曲线的点数"
+
+#: GP to Curvers v0_4_5/properties.py:49
+msgid "Number of steps for the simplify modifier"
+msgstr "简化修改器的步数"
+
+#: GP to Curvers v0_4_5/__init__.py:1
+msgid "Object"
+msgstr "物体"
+
+#: GP to Curvers v0_4_5/properties.py:18
+msgid "Ratio of decimation"
+msgstr "简化比例"
+
+#: GP to Curvers v0_4_5/properties.py:26
+#: GP to Curvers v0_4_5/ui.py:45
+msgid "Resample Amount"
+msgstr "重采样数量"
+
+#: GP to Curvers v0_4_5/properties.py:38
+msgid "Sample"
+msgstr "采样"
+
+#: GP to Curvers v0_4_5/properties.py:42
+msgid "Simplify Mode"
+msgstr "简化模式"
+
+#: GP to Curvers v0_4_5/properties.py:49
+msgid "Simplify Steps"
+msgstr "简化步数"
+
+#: GP to Curvers v0_4_5/properties.py:39
+msgid "Simplify by merging points"
+msgstr "通过合并点进行简化"
+
+#: GP to Curvers v0_4_5/properties.py:38
+msgid "Simplify by sampling points"
+msgstr "通过采样点进行简化"
+
+#: GP to Curvers v0_4_5/properties.py:36
+msgid "Simplify using a fixed number of steps"
+msgstr "使用固定步数进行简化"
+
+#: GP to Curvers v0_4_5/properties.py:37
+msgid "Simplify using an adaptive method"
+msgstr "使用自适应方法进行简化"
+
+#: GP to Curvers v0_4_5/operators.py:43
+msgid "Smooth Factor"
+msgstr "平滑系数"
+
+#: GP to Curvers v0_4_5/operators.py:49
+msgid "Smooth Steps"
+msgstr "平滑步数"
+
+#: GP to Curvers v0_4_5/properties.py:58
+#: GP to Curvers v0_4_5/ui.py:50
+msgid "Snap Curves to Surface"
+msgstr "将曲线吸附到表面"
+
+#: GP to Curvers v0_4_5/properties.py:11
+#: GP to Curvers v0_4_5/ui.py:35
+msgid "Spline Type"
+msgstr "样条类型"
+
+#: GP to Curvers v0_4_5/ui.py:49
+msgid "Surface"
+msgstr "表面"
+
+#: GP to Curvers v0_4_5/properties.py:69
+msgid "Surface Target"
+msgstr "表面目标"
+
+#: GP to Curvers v0_4_5/properties.py:64
+msgid "Target Surface"
+msgstr "目标表面"
+
+#: GP to Curvers v0_4_5/properties.py:69
+msgid "Target surface object for hair attachment"
+msgstr "用于附着毛发的目标表面物体"
+
+#: GP to Curvers v0_4_5/ui.py:56
+msgid "Type in a valid UV Map"
+msgstr "输入有效的 UV 贴图"
+
+#: GP to Curvers v0_4_5/properties.py:11
+msgid "Type of spline to convert to"
+msgstr "要转换成的样条类型"
+
+#: GP to Curvers v0_4_5/properties.py:75
+#: GP to Curvers v0_4_5/ui.py:54
+msgid "UV Map"
+msgstr "UV 贴图"
+
+#: GP to Curvers v0_4_5/properties.py:75
+msgid "UV Map for the target surface"
+msgstr "目标表面的 UV 贴图"
+
+#: GP to Curvers v0_4_5/ui.py:32
+msgid "before converting to curve"
+msgstr "转换为曲线之前"
+
+#: GP to Curvers v0_4_5/operators.py:39
+msgctxt "Operator"
+msgid "Add GP Smooth Modifier"
+msgstr "添加蜡笔平滑修改器"
+
+#: GP to Curvers v0_4_5/ui.py:19
+msgctxt "Operator"
+msgid "Add Simplify Modifier"
+msgstr "添加简化修改器"
+
+#: GP to Curvers v0_4_5/ui.py:26
+msgctxt "Operator"
+msgid "Add Smooth Modifier"
+msgstr "添加平滑修改器"
+
+#: GP to Curvers v0_4_5/operators.py:10
+msgctxt "Operator"
+msgid "Add a Grease Pencil Simplify modifier to the active Grease Pencil object"
+msgstr "为活动蜡笔物体添加蜡笔简化修改器"
+
+#: GP to Curvers v0_4_5/operators.py:40
+msgctxt "Operator"
+msgid "Add a live Grease Pencil Smooth modifier to the active Grease Pencil object"
+msgstr "为活动蜡笔物体添加实时蜡笔平滑修改器"
+
+#: GP to Curvers v0_4_5/operators.py:73
+#: GP to Curvers v0_4_5/ui.py:39
+msgctxt "Operator"
+msgid "Convert GP to Curve"
+msgstr "将蜡笔转换为曲线"
+
+#: GP to Curvers v0_4_5/operators.py:185
+#: GP to Curvers v0_4_5/ui.py:58
+msgctxt "Operator"
+msgid "Hair Prep"
+msgstr "毛发准备"
+
+#: GP to Curvers v0_4_5/operators.py:160
+#: GP to Curvers v0_4_5/ui.py:46
+msgctxt "Operator"
+msgid "Resample Curve"
+msgstr "重采样曲线"
+
+#: GP to Curvers v0_4_5/operators.py:161
+msgctxt "Operator"
+msgid "Resample the active curve to a specified number of points"
+msgstr "将活动曲线重采样为指定数量的点"
+
+#: GP to Curvers v0_4_5/operators.py:9
+msgctxt "Operator"
+msgid "Simplify Stroke"
+msgstr "简化笔画"

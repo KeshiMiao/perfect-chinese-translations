@@ -1,0 +1,525 @@
+# perfect-chinese: 1
+# id: step_importer
+# kind: addon
+# module: bl_ext.blender_org.step_importer
+# name: STEP Importer
+# name_zh: STEP导入器
+# translator: KeshiMiao
+# category: Import-Export
+# supported_versions: >=5.1.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: utils.py:17
+msgid "-90°"
+msgstr "-90°"
+
+#: utils.py:10
+msgid "-X"
+msgstr "-X"
+
+#: utils.py:11
+msgid "-Y"
+msgstr "-Y"
+
+#: utils.py:12
+msgid "-Z"
+msgstr "-Z"
+
+#: utils.py:18
+msgid "0°"
+msgstr "0°"
+
+#: utils.py:20
+msgid "180°"
+msgstr "180°"
+
+#: operators.py:122
+#: preferences.py:142
+msgid "3D Cursor"
+msgstr "3D 游标"
+
+#: utils.py:19
+msgid "90°"
+msgstr "90°"
+
+#: operators.py:137
+msgid "Adjust how the imported assembly is offset relative to the chosen placement location. This does not change object origins."
+msgstr "调整导入的装配体相对于所选放置位置的偏移量。这不会改变物体原点。"
+
+#: preferences.py:113
+msgid "Angle threshold (in degrees) for dissolving coplanar faces."
+msgstr "用于融并共面面的角度阈值（度）。"
+
+#: panel.py:39
+#: preferences.py:59
+msgid "Angular Tolerance"
+msgstr "角度容差"
+
+#: preferences.py:32
+msgid "Apply material colors from STEP file when available"
+msgstr "可用时应用 STEP 文件中的材质颜色"
+
+#: operators.py:155
+#: preferences.py:159
+msgid "Assembly Collections"
+msgstr "装配体集合"
+
+#: preferences.py:80
+msgid "Automatically shade smooth imported meshes."
+msgstr "自动对导入的网格进行平滑着色。"
+
+#: operators.py:14
+#: operators.py:162
+msgid "Axes"
+msgstr "轴"
+
+#: preferences.py:8
+msgid "Balanced"
+msgstr "均衡"
+
+#: operators.py:144
+#: preferences.py:154
+msgid "Bottom Center"
+msgstr "底部中心"
+
+#: operators.py:142
+#: preferences.py:152
+msgid "Center XY"
+msgstr "XY 居中"
+
+#: operators.py:143
+#: preferences.py:153
+msgid "Center XYZ"
+msgstr "XYZ 居中"
+
+#: operators.py:144
+#: preferences.py:154
+msgid "Center the imported model on X and Y, and place its lowest point on the world Z=0 plane."
+msgstr "将导入的模型在 X 和 Y 轴上居中，并使其最低点位于世界 Z=0 平面上。"
+
+#: operators.py:142
+#: preferences.py:152
+msgid "Center the imported model on the X and Y axes while preserving its original height."
+msgstr "将导入的模型在 X 和 Y 轴上居中，同时保持其原始高度。"
+
+#: operators.py:143
+#: preferences.py:153
+msgid "Center the imported model on the X, Y, and Z axes."
+msgstr "将导入的模型在 X、Y 和 Z 轴上居中。"
+
+#: preferences.py:86
+msgid "Clean Up Topology"
+msgstr "清理拓扑"
+
+#: operators.py:233
+#: panel.py:219
+msgid "Cleanup"
+msgstr "清理"
+
+#: preferences.py:86
+msgid "Cleanup of imported topology (remove doubles, merge nearby vertices, etc). May increase import time but can help with messy STEP files."
+msgstr "清理导入的拓扑（移除重复顶点、合并邻近顶点等）。可能会增加导入时间，但有助于处理杂乱的 STEP 文件。"
+
+#: preferences.py:11
+msgid "Custom"
+msgstr "自定义"
+
+#: operators.py:58
+#: operators.py:186
+msgid "Cuts / Pockets"
+msgstr "切削 / 凹槽"
+
+#: preferences.py:147
+msgid "Default Origin Offset"
+msgstr "默认原点偏移"
+
+#: preferences.py:137
+msgid "Default Placement"
+msgstr "默认放置"
+
+#: preferences.py:45
+msgid "Default Rotation"
+msgstr "默认旋转"
+
+#: preferences.py:127
+msgid "Default Scale"
+msgstr "默认缩放"
+
+#: preferences.py:171
+msgid "Default Transforms"
+msgstr "默认变换"
+
+#: preferences.py:147
+msgid "Default offset applied to the origin of imported objects"
+msgstr "应用于导入物体原点的默认偏移"
+
+#: preferences.py:45
+msgid "Default rotation around the vertical axis after up-axis correction"
+msgstr "向上轴校正后绕垂直轴的默认旋转"
+
+#: operators.py:110
+msgid "Degrees to rotate around the vertical axis after up-axis correction"
+msgstr "向上轴校正后绕垂直轴旋转的角度（度）"
+
+#: preferences.py:121
+msgid "Display a GPU progress bar in the 3D viewport during import"
+msgstr "导入期间在 3D 视图中显示 GPU 进度条"
+
+#: preferences.py:113
+msgid "Dissolve Angle"
+msgstr "融并角度"
+
+#: preferences.py:107
+msgid "Dissolve Faces"
+msgstr "融并面"
+
+#: preferences.py:107
+msgid "Dissolve coplanar faces to simplify the mesh."
+msgstr "融并共面的面以简化网格。"
+
+#: preferences.py:98
+msgid "Distance threshold for removing duplicate vertices."
+msgstr "移除重复顶点所用的距离阈值。"
+
+#: preferences.py:98
+msgid "Doubles Distance"
+msgstr "重复顶点距离"
+
+#: preferences.py:7
+msgid "Draft"
+msgstr "草稿"
+
+#: operators.py:51
+#: operators.py:183
+msgid "Extrude History"
+msgstr "拉伸历史"
+
+#: preferences.py:7
+msgid "Fast tessellation with low triangle count, visible faceting on curves"
+msgstr "快速三角化，三角形数量少，曲线可见明显棱面"
+
+#: preferences.py:9
+msgid "Fine"
+msgstr "精细"
+
+#: preferences.py:8
+msgid "Good quality with moderate triangle count"
+msgstr "质量良好，三角形数量适中"
+
+#: operators.py:29
+#: operators.py:171
+msgid "Hatches"
+msgstr "剖面线"
+
+#: preferences.py:9
+msgid "High quality, slower but good for hero parts or close-ups"
+msgstr "高质量，速度较慢，但适合主要零件或特写"
+
+#: preferences.py:32
+msgid "Import Materials"
+msgstr "导入材质"
+
+#: operators.py:149
+msgid "Join all imported bodies into a single mesh object"
+msgstr "将所有导入的实体合并为一个网格物体"
+
+#: operators.py:141
+#: preferences.py:151
+msgid "Keep"
+msgstr "保留"
+
+#: panel.py:33
+#: preferences.py:52
+msgid "Linear Tolerance"
+msgstr "线性容差"
+
+#: operators.py:28
+#: operators.py:168
+msgid "Lines"
+msgstr "线"
+
+#: preferences.py:11
+msgid "Manually set linear and angular tolerances"
+msgstr "手动设置线性容差和角度容差"
+
+#: panel.py:39
+msgid "Maximum angle between adjacent triangles in radians"
+msgstr "相邻三角形之间的最大角度（弧度）"
+
+#: preferences.py:59
+msgid "Maximum angle between adjacent triangles in radians. Controls curve smoothness independent of part size — lower values keep curves smooth on both large and small features."
+msgstr "相邻三角形之间的最大角度（弧度）。控制曲线平滑度且不受零件尺寸影响——较低的值可让大型和小型特征上的曲线都保持平滑。"
+
+#: panel.py:33
+msgid "Maximum distance between the mesh and the true CAD surface"
+msgstr "网格与真实 CAD 曲面之间的最大距离"
+
+#: preferences.py:52
+msgid "Maximum distance between the mesh and the true CAD surface. In relative mode, expressed as a fraction of each edge's length. Lower values produce smoother geometry with more triangles."
+msgstr "网格与真实 CAD 曲面之间的最大距离。在相对模式下，以每条边长度的比例表示。较低的值会生成更平滑的几何体，但三角形数量更多。"
+
+#: preferences.py:10
+msgid "Maximum quality, slowest but best for extreme close-ups"
+msgstr "最高质量，速度最慢，但最适合极端特写"
+
+#: operators.py:149
+msgid "Merge Bodies"
+msgstr "合并实体"
+
+#: panel.py:193
+msgid "Merged objects cannot be regenerated"
+msgstr "合并后的物体无法重新生成"
+
+#: operators.py:286
+msgid "No file selected."
+msgstr "未选择文件。"
+
+#: utils.py:18
+msgid "No rotation"
+msgstr "不旋转"
+
+#: preferences.py:159
+msgid "Organise imported parts into nested Blender collections matching the STEP assembly hierarchy"
+msgstr "将导入的零件整理到与 STEP 装配层级匹配的嵌套 Blender 集合中"
+
+#: operators.py:155
+msgid "Organise imported parts into nested Blender collections matching the STEP assembly hierarchy. Ignored when Merge Bodies is enabled."
+msgstr "将导入的零件整理到与 STEP 装配层级匹配的嵌套 Blender 集合中。启用“合并实体”时忽略。"
+
+#: operators.py:137
+msgid "Origin Offset"
+msgstr "原点偏移"
+
+#: operators.py:121
+#: preferences.py:141
+msgid "Place at Blender world origin"
+msgstr "放置在 Blender 世界原点"
+
+#: operators.py:122
+#: preferences.py:142
+msgid "Place at the current 3D cursor position"
+msgstr "放置在当前 3D 游标位置"
+
+#: operators.py:117
+msgid "Placement"
+msgstr "放置"
+
+#: operators.py:141
+#: preferences.py:151
+msgid "Preserve the position from the CAD file"
+msgstr "保留 CAD 文件中的位置"
+
+#: operators.py:211
+#: preferences.py:180
+msgid "Quality & Appearance"
+msgstr "质量与外观"
+
+#: panel.py:26
+#: preferences.py:72
+msgid "Quality Preset"
+msgstr "质量预设"
+
+#: operators.py:44
+#: operators.py:180
+msgid "Rectangles"
+msgstr "矩形"
+
+#: panel.py:167
+msgid "Regenerate Part"
+msgstr "重新生成零件"
+
+#: panel.py:45
+#: preferences.py:66
+msgid "Relative Tolerance"
+msgstr "相对容差"
+
+#: preferences.py:92
+msgid "Remove Doubles"
+msgstr "移除重复顶点"
+
+#: preferences.py:92
+msgid "Remove duplicate vertices that are very close together."
+msgstr "移除彼此非常接近的重复顶点。"
+
+#: utils.py:20
+msgid "Rotate 180°"
+msgstr "旋转 180°"
+
+#: utils.py:19
+msgid "Rotate 90° clockwise"
+msgstr "顺时针旋转 90°"
+
+#: utils.py:17
+msgid "Rotate 90° counter-clockwise"
+msgstr "逆时针旋转 90°"
+
+#: operators.py:110
+msgid "Rotation"
+msgstr "旋转"
+
+#: panel.py:158
+msgid "STEP"
+msgstr "STEP"
+
+#: panel.py:154
+msgid "STEP Tools"
+msgstr "STEP 工具"
+
+#: operators.py:332
+msgid "STEP/IGES File Handler"
+msgstr "STEP/IGES 文件处理器"
+
+#: operators.py:127
+msgid "Scale"
+msgstr "缩放"
+
+#: panel.py:45
+msgid "Scale linear tolerance to each feature size rather than using a fixed world-space distance"
+msgstr "按各特征尺寸缩放线性公差，而不是使用固定的世界空间距离"
+
+#: panel.py:195
+msgid "Select an imported STEP object"
+msgstr "选择一个已导入的 STEP 物体"
+
+#: preferences.py:80
+msgid "Shade Smooth"
+msgstr "平滑着色"
+
+#: preferences.py:121
+msgid "Show Import Progress"
+msgstr "显示导入进度"
+
+#: operators.py:21
+#: operators.py:165
+msgid "Sketches"
+msgstr "草图"
+
+#: operators.py:247
+msgid "Skip Construction Geometry"
+msgstr "跳过构造几何"
+
+#: operators.py:103
+#: operators.py:202
+msgid "Source Up Axis"
+msgstr "源上方向轴"
+
+#: operators.py:223
+#: preferences.py:191
+msgid "Structure"
+msgstr "结构"
+
+#: operators.py:65
+#: operators.py:189
+msgid "Terrain / Site"
+msgstr "地形 / 场地"
+
+#: panel.py:26
+#: preferences.py:72
+msgid "Tessellation quality; higher quality produces smoother curves with more triangles"
+msgstr "细分质量；质量越高，曲线越平滑，三角形越多"
+
+#: panel.py:212
+msgid "Tip: select multiple parts to"
+msgstr "提示：选择多个零件以"
+
+#: operators.py:201
+msgid "Transforms"
+msgstr "变换"
+
+#: preferences.py:10
+msgid "Ultra Fine"
+msgstr "超精细"
+
+#: preferences.py:127
+msgid "Uniform scale multiplier applied to imported geometry. Use 1000 if a model that should be metres imports as millimetres, or 0.001 if a model that should be millimetres imports as metres."
+msgstr "应用于导入几何体的统一缩放倍数。如果本应为米的模型导入后成了毫米，请使用 1000；如果本应为毫米的模型导入后成了米，请使用 0.001。"
+
+#: operators.py:127
+msgid "Uniform scale multiplier applied to the imported geometry. Leave at 1.0 for correctly-exported files. Use 1000 if the model imports as millimetre-sized when it should be metres, or 0.001 for the reverse."
+msgstr "应用于导入几何体的统一缩放倍数。正确导出的文件保持 1.0。如果本应为米的模型却以毫米尺寸导入，请使用 1000；反之使用 0.001。"
+
+#: operators.py:36
+#: operators.py:174
+msgid "Wall Traces"
+msgstr "墙体轮廓"
+
+#: preferences.py:66
+msgid "When True, scale linear tolerance to each feature's size rather than using a fixed world-space distance. Recommended for assemblies with mixed part sizes."
+msgstr "启用时，按各特征尺寸缩放线性公差，而不是使用固定的世界空间距离。推荐用于零件尺寸混杂的装配体。"
+
+#: operators.py:117
+#: preferences.py:137
+msgid "Where to place imported objects in the scene"
+msgstr "导入物体在场景中的放置位置"
+
+#: preferences.py:38
+msgid "Which axis pointed up in the CAD application this model came from. Usually Y for most CAD software. Switch to Z if your model appears lying on it's side after import"
+msgstr "该模型来源的 CAD 软件中哪个轴朝上。大多数 CAD 软件通常为 Y。如果导入后模型侧躺，请切换到 Z"
+
+#: operators.py:103
+msgid "Which axis pointed up in the CAD application this model came from. Usually Y for most CAD software. Try Z if your model appears lying on it's side after import"
+msgstr "该模型来源的 CAD 软件中哪个轴朝上。大多数 CAD 软件通常为 Y。如果导入后模型侧躺，请试试 Z"
+
+#: operators.py:43
+#: operators.py:177
+msgid "Wires"
+msgstr "线"
+
+#: operators.py:121
+#: preferences.py:141
+msgid "World Origin"
+msgstr "世界原点"
+
+#: utils.py:7
+msgid "X"
+msgstr "X"
+
+#: utils.py:8
+msgid "Y"
+msgstr "Y"
+
+#: utils.py:9
+msgid "Z"
+msgstr "Z"
+
+#: operators.py:270
+msgid "cascadio is not available. Check the extension is properly installed."
+msgstr "cascadio 不可用。请检查该扩展是否正确安装。"
+
+#: panel.py:213
+msgid "regenerate them all at once"
+msgstr "一次性全部重新生成"
+
+#: panel.py:110
+msgctxt "Operator"
+msgid "Clean Up Topology"
+msgstr "清理拓扑"
+
+#: operators.py:79
+msgctxt "Operator"
+msgid "Import STEP/IGES"
+msgstr "导入 STEP/IGES"
+
+#: panel.py:59
+msgctxt "Operator"
+msgid "Re-tessellate this part from the original STEP file with new quality settings"
+msgstr "使用新的质量设置，从原始 STEP 文件重新细分此零件"
+
+#: panel.py:58
+msgctxt "Operator"
+msgid "Regenerate Part"
+msgstr "重新生成零件"
+
+#: panel.py:111
+msgctxt "Operator"
+msgid "Run topology cleanup on all selected mesh objects"
+msgstr "对所有选中的网格物体执行拓扑清理"
+
+#: operators.py:342
+msgctxt "Operator"
+msgid "STEP/IGES (.step/.stp/.igs)"
+msgstr "STEP/IGES (.step/.stp/.igs)"

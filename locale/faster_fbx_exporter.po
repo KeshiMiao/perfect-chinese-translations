@@ -1,0 +1,539 @@
+# perfect-chinese: 1
+# id: faster_fbx_exporter
+# kind: addon
+# module: bl_ext.blender_org.Faster_FBX_Exporter
+# name: Faster FBX Exporter
+# name_zh: 快速FBX导出器
+# translator: KeshiMiao
+# category: Import-Export
+# supported_versions: >=5.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: Faster_FBX_Exporter/__init__.py:226
+msgid "'LimbNode' FBX node, a regular joint between two bones..."
+msgstr "'LimbNode' FBX 节点，两根骨骼之间的普通关节……"
+
+#: Faster_FBX_Exporter/__init__.py:224
+msgid "'Null' FBX node, similar to Blender's Empty (default)"
+msgstr "'Null' FBX 节点，类似于 Blender 的空物体（默认）"
+
+#: Faster_FBX_Exporter/__init__.py:225
+msgid "'Root' FBX node, supposed to be the root of chains of bones..."
+msgstr "'Root' FBX 节点，应为骨骼链的根……"
+
+#: Faster_FBX_Exporter/__init__.py:200
+#: Faster_FBX_Exporter/__init__.py:211
+msgid "-X Axis"
+msgstr "-X 轴"
+
+#: Faster_FBX_Exporter/__init__.py:201
+#: Faster_FBX_Exporter/__init__.py:212
+msgid "-Y Axis"
+msgstr "-Y 轴"
+
+#: Faster_FBX_Exporter/__init__.py:202
+#: Faster_FBX_Exporter/__init__.py:213
+msgid "-Z Axis"
+msgstr "-Z 轴"
+
+#: Faster_FBX_Exporter/__init__.py:58
+msgid "Active Collection"
+msgstr "活动集合"
+
+#: Faster_FBX_Exporter/__init__.py:295
+msgid "Active Scene Collections"
+msgstr "活动场景集合"
+
+#: Faster_FBX_Exporter/__init__.py:288
+msgid "Active scene to file"
+msgstr "活动场景导出为文件"
+
+#: Faster_FBX_Exporter/__init__.py:189
+msgid "Add Leaf Bones"
+msgstr "添加末端骨骼"
+
+#: Faster_FBX_Exporter/__init__.py:173
+msgid "Add binormal and tangent vectors, together with normal they form the tangent space (will only work correctly with tris/quads only meshes!)"
+msgstr "添加副法线和切线向量，与法线共同构成切线空间（仅在纯三角/四边面网格上才能正确工作！）"
+
+#: Faster_FBX_Exporter/__init__.py:254
+msgid "All Actions"
+msgstr "所有动作"
+
+#: Faster_FBX_Exporter/__init__.py:84
+msgid "All Local"
+msgstr "全部本地"
+
+#: Faster_FBX_Exporter/__init__.py:261
+msgid "Always add a keyframe at start and end of actions for animated channels"
+msgstr "始终在动作的起始和结束处为动画通道插入关键帧"
+
+#: Faster_FBX_Exporter/__init__.py:430
+msgid "Animation"
+msgstr "动画"
+
+#: Faster_FBX_Exporter/__init__.py:189
+msgid "Append a final bone to the end of each chain to specify last bone length (use this when you intend to edit the armature from exported data)"
+msgstr "在每条链末端追加一根最终骨骼以指定最后一根骨骼的长度（当你打算用导出的数据编辑骨架时使用）"
+
+#: Faster_FBX_Exporter/__init__.py:83
+msgid "Apply Scalings"
+msgstr "应用缩放"
+
+#: Faster_FBX_Exporter/__init__.py:105
+msgid "Apply Transform"
+msgstr "应用变换"
+
+#: Faster_FBX_Exporter/__init__.py:75
+msgid "Apply Unit"
+msgstr "应用单位"
+
+#: Faster_FBX_Exporter/__init__.py:90
+msgid "Apply custom scaling and units scaling to FBX scale"
+msgstr "将自定义缩放和单位缩放应用到 FBX 缩放"
+
+#: Faster_FBX_Exporter/__init__.py:84
+msgid "Apply custom scaling and units scaling to each object transformation, FBX scale remains at 1.0"
+msgstr "将自定义缩放和单位缩放应用到每个物体的变换，FBX 缩放保持为 1.0"
+
+#: Faster_FBX_Exporter/__init__.py:88
+msgid "Apply custom scaling to FBX scale, and units scaling to each object transformation"
+msgstr "将自定义缩放应用到 FBX 缩放，将单位缩放应用到每个物体的变换"
+
+#: Faster_FBX_Exporter/__init__.py:86
+msgid "Apply custom scaling to each object transformation, and units scaling to FBX scale"
+msgstr "将自定义缩放应用到每个物体的变换，将单位缩放应用到 FBX 缩放"
+
+#: Faster_FBX_Exporter/__init__.py:99
+msgid "Apply global space transform to the object rotations. When disabled only the axis space is written to the file and all object transforms are left as-is"
+msgstr "将全局空间变换应用到物体旋转。禁用时仅将轴空间写入文件，所有物体变换保持原样"
+
+#: Faster_FBX_Exporter/__init__.py:119
+#: Faster_FBX_Exporter/__init__.py:417
+msgid "Armature"
+msgstr "骨架"
+
+#: Faster_FBX_Exporter/__init__.py:222
+msgid "Armature FBXNode Type"
+msgstr "骨架 FBX 节点类型"
+
+#: Faster_FBX_Exporter/__init__.py:105
+msgid "Bake space transform into object data, avoids getting unwanted rotations to objects when target space is not aligned with Blender's space (WARNING! experimental option, use at own risk, known to be broken with armatures/animations)"
+msgstr "将空间变换烘焙进物体数据，避免目标空间与 Blender 空间不一致时物体出现多余的旋转（警告！实验性选项，请自行承担风险，已知在骨架/动画上会出错）"
+
+#: Faster_FBX_Exporter/__init__.py:233
+msgid "Baked Animation"
+msgstr "烘焙动画"
+
+#: Faster_FBX_Exporter/__init__.py:286
+msgid "Batch Mode"
+msgstr "批量模式"
+
+#: Faster_FBX_Exporter/__init__.py:300
+msgid "Batch Own Dir"
+msgstr "批量独立目录"
+
+#: Faster_FBX_Exporter/__init__.py:117
+msgid "Camera"
+msgstr "摄像机"
+
+#: Faster_FBX_Exporter/__init__.py:290
+msgid "Collection"
+msgstr "集合"
+
+#: Faster_FBX_Exporter/__init__.py:179
+msgid "Convert all faces to triangles"
+msgstr "将所有面转换为三角形"
+
+#: Faster_FBX_Exporter/__init__.py:300
+msgid "Create a dir for each exported file"
+msgstr "为每个导出的文件创建目录"
+
+#: Faster_FBX_Exporter/__init__.py:184
+msgid "Custom Properties"
+msgstr "自定义属性"
+
+#: Faster_FBX_Exporter/__init__.py:145
+msgid "Do not export color attributes"
+msgstr "不导出颜色属性"
+
+#: Faster_FBX_Exporter/__init__.py:290
+msgid "Each collection (data-block ones) as a file, does not include content of children collections"
+msgstr "每个集合（数据块集合）导出为一个文件，不包含子集合的内容"
+
+#: Faster_FBX_Exporter/__init__.py:295
+msgid "Each collection (including master, non-data-block one) of the active scene as a file, including content from children collections"
+msgstr "活动场景的每个集合（包括主集合，非数据块集合）导出为一个文件，包含子集合的内容"
+
+#: Faster_FBX_Exporter/__init__.py:292
+msgid "Each collection (including master, non-data-block ones) of each scene as a file, including content from children collections"
+msgstr "每个场景的每个集合（包括主集合，非数据块集合）导出为一个文件，包含子集合的内容"
+
+#: Faster_FBX_Exporter/__init__.py:289
+msgid "Each scene as a file"
+msgstr "每个场景导出为一个文件"
+
+#: Faster_FBX_Exporter/__init__.py:136
+msgid "Edge"
+msgstr "边"
+
+#: Faster_FBX_Exporter/__init__.py:281
+msgid "Embed Textures"
+msgstr "嵌入纹理"
+
+#: Faster_FBX_Exporter/__init__.py:281
+msgid "Embed textures in FBX binary file (only for \"Copy\" path mode!)"
+msgstr "在 FBX 二进制文件中嵌入纹理（仅用于“复制”路径模式！）"
+
+#: Faster_FBX_Exporter/__init__.py:116
+msgid "Empty"
+msgstr "空物体"
+
+#: Faster_FBX_Exporter/__init__.py:233
+msgid "Export baked keyframe animation"
+msgstr "导出烘焙的关键帧动画"
+
+#: Faster_FBX_Exporter/__init__.py:147
+msgid "Export colors in linear color space"
+msgstr "以线性色彩空间导出颜色"
+
+#: Faster_FBX_Exporter/__init__.py:146
+msgid "Export colors in sRGB color space"
+msgstr "以 sRGB 色彩空间导出颜色"
+
+#: Faster_FBX_Exporter/__init__.py:184
+msgid "Export custom properties"
+msgstr "导出自定义属性"
+
+#: Faster_FBX_Exporter/__init__.py:254
+msgid "Export each action as a separated FBX's AnimStack, instead of global scene animation (note that animated objects will get all actions compatible with them, others will get no animation at all)"
+msgstr "将每个动作导出为独立的 FBX AnimStack，而非全局场景动画（注意，带动画的物体会获得所有与其兼容的动作，其他物体则不会获得任何动画）"
+
+#: Faster_FBX_Exporter/__init__.py:248
+msgid "Export each non-muted NLA strip as a separated FBX's AnimStack, if any, instead of global scene animation"
+msgstr "将每个未禁用的 NLA 片段（若有）导出为独立的 FBX AnimStack，而非全局场景动画"
+
+#: Faster_FBX_Exporter/__init__.py:168
+msgid "Export loose edges (as two-vertices polygons)"
+msgstr "导出孤立边（作为双顶点多边形）"
+
+#: Faster_FBX_Exporter/__init__.py:134
+msgid "Export only normals instead of writing edge or face smoothing data"
+msgstr "仅导出法线，而不写入边或面的平滑数据"
+
+#: Faster_FBX_Exporter/__init__.py:58
+msgid "Export only objects from the active collection (and its children)"
+msgstr "仅导出活动集合（及其子集合）中的物体"
+
+#: Faster_FBX_Exporter/__init__.py:63
+msgid "Export only objects from this collection (and its children)"
+msgstr "仅导出此集合（及其子集合）中的物体"
+
+#: Faster_FBX_Exporter/__init__.py:53
+msgid "Export only these objects, needs to have the obj.name in the list"
+msgstr "仅导出这些物体，需要在列表中包含 obj.name"
+
+#: Faster_FBX_Exporter/__init__.py:43
+msgid "Export selected and visible objects only"
+msgstr "仅导出选中且可见的物体"
+
+#: Faster_FBX_Exporter/__init__.py:132
+msgid "Export smoothing information (prefer 'Normals Only' option if your target importer understands custom normals)"
+msgstr "导出平滑信息（如果目标导入器理解自定义法线，建议使用“仅法线”选项）"
+
+#: Faster_FBX_Exporter/__init__.py:143
+msgid "Export vertex color attributes"
+msgstr "导出顶点颜色属性"
+
+#: Faster_FBX_Exporter/__init__.py:48
+msgid "Export visible objects only"
+msgstr "仅导出可见物体"
+
+#: Faster_FBX_Exporter/__init__.py:90
+msgid "FBX All"
+msgstr "FBX 全部"
+
+#: Faster_FBX_Exporter/__init__.py:88
+msgid "FBX Custom Scale"
+msgstr "FBX 自定义缩放"
+
+#: Faster_FBX_Exporter/__init__.py:86
+msgid "FBX Units Scale"
+msgstr "FBX 单位缩放"
+
+#: Faster_FBX_Exporter/__init__.py:222
+msgid "FBX type of node (object) used to represent Blender's armatures (use the Null type unless you experience issues with the other app, as other choices may not import back perfectly into Blender...)"
+msgstr "用于表示 Blender 骨架的 FBX 节点（物体）类型（除非你遇到其他应用的问题，否则请使用 Null 类型，因为其他选择可能无法完美导回 Blender……）"
+
+#: Faster_FBX_Exporter/__init__.py:135
+msgid "Face"
+msgstr "面"
+
+#: Faster_FBX_Exporter/__init__.py:261
+msgid "Force Start/End Keying"
+msgstr "强制首尾关键帧"
+
+#: Faster_FBX_Exporter/__init__.py:242
+msgid "Force exporting at least one key of animation for all bones (needed with some target applications, like UE4)"
+msgstr "为所有骨骼强制导出至少一个动画关键帧（某些目标应用如 UE4 需要）"
+
+#: Faster_FBX_Exporter/__init__.py:400
+msgid "Geometry"
+msgstr "几何"
+
+#: Faster_FBX_Exporter/__init__.py:273
+msgid "How much to simplify baked values (0.0 to disable, the higher the more simplified)"
+msgstr "烘焙值的简化程度（0.0 表示禁用，数值越大越简化）"
+
+#: Faster_FBX_Exporter/__init__.py:266
+msgid "How often to evaluate animated values (in frames)"
+msgstr "动画值的求值间隔（以帧为单位）"
+
+#: Faster_FBX_Exporter/__init__.py:83
+msgid "How to apply custom and units scalings in generated FBX file (Blender uses FBX scale to detect units on import, but many other applications do not handle the same way)"
+msgstr "如何在生成的 FBX 文件中应用自定义缩放和单位缩放（Blender 在导入时使用 FBX 缩放来检测单位，但许多其他应用的处理方式不同）"
+
+#: Faster_FBX_Exporter/__init__.py:366
+msgid "Include"
+msgstr "包含"
+
+#: Faster_FBX_Exporter/__init__.py:163
+msgid "Include Textures"
+msgstr "包含纹理"
+
+#: Faster_FBX_Exporter/__init__.py:242
+msgid "Key All Bones"
+msgstr "为所有骨骼插入关键帧"
+
+#: Faster_FBX_Exporter/__init__.py:118
+msgid "Lamp"
+msgstr "灯光"
+
+#: Faster_FBX_Exporter/__init__.py:226
+msgid "LimbNode"
+msgstr "LimbNode"
+
+#: Faster_FBX_Exporter/__init__.py:147
+msgid "Linear"
+msgstr "线性"
+
+#: Faster_FBX_Exporter/__init__.py:168
+msgid "Loose Edges"
+msgstr "孤立边"
+
+#: Faster_FBX_Exporter/__init__.py:152
+msgid "Make sure active color will be exported first. Could be important since some other software can discard other color attributes besides the first one"
+msgstr "确保活动颜色最先导出。这可能很重要，因为某些其他软件会丢弃第一个以外的其他颜色属性"
+
+#: Faster_FBX_Exporter/__init__.py:120
+msgid "Mesh"
+msgstr "网格"
+
+#: Faster_FBX_Exporter/__init__.py:248
+msgid "NLA Strips"
+msgstr "NLA 片段"
+
+#: Faster_FBX_Exporter/__init__.py:145
+msgid "None"
+msgstr "无"
+
+#: Faster_FBX_Exporter/__init__.py:134
+msgid "Normals Only"
+msgstr "仅法线"
+
+#: Faster_FBX_Exporter/__init__.py:224
+msgid "Null"
+msgstr "空"
+
+#: Faster_FBX_Exporter/__init__.py:113
+msgid "Object Types"
+msgstr "物体类型"
+
+#: Faster_FBX_Exporter/__init__.py:53
+msgid "Objects"
+msgstr "物体"
+
+#: Faster_FBX_Exporter/__init__.py:288
+msgid "Off"
+msgstr "关闭"
+
+#: Faster_FBX_Exporter/__init__.py:217
+msgid "Only Deform Bones"
+msgstr "仅变形骨骼"
+
+#: Faster_FBX_Exporter/__init__.py:158
+msgid "Only Export UDP3DSMAX Object Properties"
+msgstr "仅导出 UDP3DSMAX 物体属性"
+
+#: Faster_FBX_Exporter/__init__.py:217
+msgid "Only write deforming bones (and non-deforming ones when they have deforming children)"
+msgstr "仅写入变形骨骼（当非变形骨骼有变形子级时也一并写入）"
+
+#: Faster_FBX_Exporter/__init__.py:121
+msgid "Other"
+msgstr "其他"
+
+#: Faster_FBX_Exporter/__init__.py:121
+msgid "Other geometry types, like curve, meta-ball, etc. (converted to meshes)"
+msgstr "其他几何类型，如曲线、元球等（会转换为网格）"
+
+#: Faster_FBX_Exporter/__init__.py:163
+msgid "Packs the textures into the .fbx file"
+msgstr "将纹理打包进 .fbx 文件"
+
+#: Faster_FBX_Exporter/__init__.py:195
+msgid "Primary Bone Axis"
+msgstr "主骨骼轴"
+
+#: Faster_FBX_Exporter/__init__.py:152
+msgid "Prioritize Active Color"
+msgstr "优先使用活动颜色"
+
+#: Faster_FBX_Exporter/__init__.py:225
+msgid "Root"
+msgstr "根"
+
+#: Faster_FBX_Exporter/__init__.py:266
+msgid "Sampling Rate"
+msgstr "采样率"
+
+#: Faster_FBX_Exporter/__init__.py:158
+msgid "Save performance by only exporting props named UDP3DSMAX, you can pack all your props to one string, they need to be formated in a way where they have real spaces, a list then \"\\r\\n\".join(udp_lines) + \"\\r\\n\""
+msgstr "通过仅导出名为 UDP3DSMAX 的属性来提升性能，你可以将所有属性打包到一个字符串中，需要按真实空格格式化，一个列表然后 \"\\r\\n\".join(udp_lines) + \"\\r\\n\""
+
+#: Faster_FBX_Exporter/__init__.py:68
+msgid "Scale"
+msgstr "缩放"
+
+#: Faster_FBX_Exporter/__init__.py:68
+msgid "Scale all data (Some importers do not support scaled armatures!)"
+msgstr "缩放所有数据（部分导入器不支持缩放后的骨架！）"
+
+#: Faster_FBX_Exporter/__init__.py:289
+msgid "Scene"
+msgstr "场景"
+
+#: Faster_FBX_Exporter/__init__.py:292
+msgid "Scene Collections"
+msgstr "场景集合"
+
+#: Faster_FBX_Exporter/__init__.py:206
+msgid "Secondary Bone Axis"
+msgstr "次骨骼轴"
+
+#: Faster_FBX_Exporter/__init__.py:43
+msgid "Selected Objects"
+msgstr "选中物体"
+
+#: Faster_FBX_Exporter/__init__.py:273
+msgid "Simplify"
+msgstr "简化"
+
+#: Faster_FBX_Exporter/__init__.py:238
+msgid "Skip Time Metadata"
+msgstr "跳过时间元数据"
+
+#: Faster_FBX_Exporter/__init__.py:132
+msgid "Smoothing"
+msgstr "平滑"
+
+#: Faster_FBX_Exporter/__init__.py:137
+msgid "Smoothing Groups"
+msgstr "平滑组"
+
+#: Faster_FBX_Exporter/__init__.py:63
+msgid "Source Collection"
+msgstr "源集合"
+
+#: Faster_FBX_Exporter/__init__.py:75
+msgid "Take into account current Blender units settings (if unset, raw Blender Units values are used as-is)"
+msgstr "考虑当前 Blender 单位设置（若未设置，则直接使用原始 Blender 单位值）"
+
+#: Faster_FBX_Exporter/__init__.py:173
+msgid "Tangent Space"
+msgstr "切线空间"
+
+#: Faster_FBX_Exporter/__init__.py:383
+msgid "Transform"
+msgstr "变换"
+
+#: Faster_FBX_Exporter/__init__.py:179
+msgid "Triangulate Faces"
+msgstr "三角化面"
+
+#: Faster_FBX_Exporter/__init__.py:305
+msgid "Use Metadata"
+msgstr "使用元数据"
+
+#: Faster_FBX_Exporter/__init__.py:127
+msgid "Use Modifiers Render Setting"
+msgstr "使用修改器渲染设置"
+
+#: Faster_FBX_Exporter/__init__.py:99
+msgid "Use Space Transform"
+msgstr "使用空间变换"
+
+#: Faster_FBX_Exporter/__init__.py:127
+msgid "Use render settings when applying modifiers to mesh objects (DISABLED in Blender 2.8)"
+msgstr "对网格物体应用修改器时使用渲染设置（在 Blender 2.8 中已禁用）"
+
+#: Faster_FBX_Exporter/__init__.py:143
+msgid "Vertex Colors"
+msgstr "顶点颜色"
+
+#: Faster_FBX_Exporter/__init__.py:48
+msgid "Visible Objects"
+msgstr "可见物体"
+
+#: Faster_FBX_Exporter/__init__.py:119
+msgid "WARNING: not supported in dupli/group instances"
+msgstr "警告：不支持于实例化/组实例"
+
+#: Faster_FBX_Exporter/__init__.py:113
+msgid "Which kind of object to export"
+msgstr "要导出的物体类型"
+
+#: Faster_FBX_Exporter/__init__.py:136
+msgid "Write edge smoothing"
+msgstr "写入边平滑"
+
+#: Faster_FBX_Exporter/__init__.py:135
+msgid "Write face smoothing"
+msgstr "写入面平滑"
+
+#: Faster_FBX_Exporter/__init__.py:137
+msgid "Write face smoothing groups"
+msgstr "写入面平滑组"
+
+#: Faster_FBX_Exporter/__init__.py:197
+#: Faster_FBX_Exporter/__init__.py:208
+msgid "X Axis"
+msgstr "X 轴"
+
+#: Faster_FBX_Exporter/__init__.py:198
+#: Faster_FBX_Exporter/__init__.py:209
+msgid "Y Axis"
+msgstr "Y 轴"
+
+#: Faster_FBX_Exporter/__init__.py:199
+#: Faster_FBX_Exporter/__init__.py:210
+msgid "Z Axis"
+msgstr "Z 轴"
+
+#: Faster_FBX_Exporter/__init__.py:146
+msgid "sRGB"
+msgstr "sRGB"
+
+#: Faster_FBX_Exporter/__init__.py:34
+msgctxt "Operator"
+msgid "Export FBX"
+msgstr "导出 FBX"
+
+#: Faster_FBX_Exporter/__init__.py:442
+msgctxt "Operator"
+msgid "Faster FBX (.fbx)"
+msgstr "快速 FBX (.fbx)"

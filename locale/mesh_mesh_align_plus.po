@@ -1,0 +1,2822 @@
+# perfect-chinese: 1
+# id: mesh_mesh_align_plus
+# kind: addon
+# module: bl_ext.blender_org.mesh_mesh_align_plus
+# name: Mesh Align Plus
+# name_zh: 网格对齐增强
+# translator: KeshiMiao
+# category: 3D View
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: mesh_mesh_align_plus/utils/storage.py:590
+msgid "A list of objects to apply Easy Align Lines to."
+msgstr "要应用简易对齐线的物体列表。"
+
+#: mesh_mesh_align_plus/utils/storage.py:737
+msgid "A list of objects to apply Easy Align Planes to."
+msgstr "要应用简易对齐平面的物体列表。"
+
+#: mesh_mesh_align_plus/utils/storage.py:372
+msgid "A list of objects to apply Easy Align Points to."
+msgstr "要应用简易对齐点的物体列表。"
+
+#: mesh_mesh_align_plus/utils/storage.py:442
+msgid "A list of objects to apply Easy Directional Slide to."
+msgstr "要应用简易定向滑动的物体列表。"
+
+#: mesh_mesh_align_plus/utils/storage.py:528
+msgid "A list of objects to apply Easy Scale Match Edge to."
+msgstr "要应用简易缩放匹配边的物体列表。"
+
+#: mesh_mesh_align_plus/utils/storage.py:787
+#: mesh_mesh_align_plus/utils/storage.py:825
+msgid "A list of the objects that were selected last time the operator was run"
+msgstr "上次运行操作符时选中的物体列表"
+
+#: mesh_mesh_align_plus/calculate_compose.py:808
+#: mesh_mesh_align_plus/calculate_compose.py:815
+msgid "Add Lines"
+msgstr "添加线"
+
+#: mesh_mesh_align_plus/utils/gui_tools.py:81
+msgid "Add Mesh Align Plus items"
+msgstr "添加 Mesh Align Plus 条目"
+
+#: mesh_mesh_align_plus/advanced_tools.py:158
+#: mesh_mesh_align_plus/advanced_tools.py:165
+msgid "Add a new item"
+msgstr "添加新条目"
+
+#: mesh_mesh_align_plus/advanced_tools.py:827
+msgid "Add items above"
+msgstr "在上方添加条目"
+
+#: mesh_mesh_align_plus/advanced_tools.py:748
+#: mesh_mesh_align_plus/align_lines.py:733
+msgid "Align"
+msgstr "对齐"
+
+#: mesh_mesh_align_plus/align_lines.py:287
+#: mesh_mesh_align_plus/align_lines.py:295
+msgid "Align Lines"
+msgstr "对齐线"
+
+#: mesh_mesh_align_plus/align_lines.py:827
+msgid "Align Lines (Expert)"
+msgstr "对齐线（专家）"
+
+#: mesh_mesh_align_plus/align_lines.py:730
+msgid "Align Lines (MAPlus)"
+msgstr "对齐线（MAPlus）"
+
+#: mesh_mesh_align_plus/align_lines.py:790
+#: mesh_mesh_align_plus/align_planes.py:1174
+msgid "Align Mode:"
+msgstr "对齐模式："
+
+#: mesh_mesh_align_plus/align_objects.py:60
+msgid "Align Objects (MAPlus)"
+msgstr "对齐物体（MAPlus）"
+
+#: mesh_mesh_align_plus/align_planes.py:601
+#: mesh_mesh_align_plus/align_planes.py:609
+msgid "Align Planes"
+msgstr "对齐平面"
+
+#: mesh_mesh_align_plus/align_planes.py:1211
+msgid "Align Planes (Expert)"
+msgstr "对齐平面（专家）"
+
+#: mesh_mesh_align_plus/align_planes.py:1132
+msgid "Align Planes (Maplus)"
+msgstr "对齐平面（Maplus）"
+
+#: mesh_mesh_align_plus/utils/storage.py:154
+msgid "Align Points"
+msgstr "对齐点"
+
+#: mesh_mesh_align_plus/align_points.py:729
+msgid "Align Points (Expert)"
+msgstr "对齐点（专家）"
+
+#: mesh_mesh_align_plus/align_points.py:632
+msgid "Align Points (MAPlus)"
+msgstr "对齐点（MAPlus）"
+
+#: mesh_mesh_align_plus/align_points.py:269
+msgid "Align Points Mesh Selected"
+msgstr "对齐点网格选中"
+
+#: mesh_mesh_align_plus/align_points.py:237
+msgid "Align Points Object"
+msgstr "对齐点物体"
+
+#: mesh_mesh_align_plus/align_points.py:292
+msgid "Align Points Whole Mesh"
+msgstr "对齐点整个网格"
+
+#: mesh_mesh_align_plus/align_planes.py:1535
+msgid "Align origin mode"
+msgstr "对齐原点模式"
+
+#: mesh_mesh_align_plus/utils/storage.py:711
+msgid "Alternative mode: Directly sets the object origin using the supplied destination verts."
+msgstr "替代模式：使用提供的目标顶点直接设置物体原点。"
+
+#: mesh_mesh_align_plus/advanced_tools.py:1680
+msgid "Amount"
+msgstr "数量"
+
+#: mesh_mesh_align_plus/axis_rotate.py:1006
+msgid "Angle"
+msgstr "角度"
+
+#: mesh_mesh_align_plus/calculate_compose.py:159
+#: mesh_mesh_align_plus/calculate_compose.py:168
+msgid "Angle of Lines"
+msgstr "线的角度"
+
+#: mesh_mesh_align_plus/axis_rotate.py:813
+msgid "Angle:"
+msgstr "角度："
+
+#: mesh_mesh_align_plus/advanced_tools.py:1505
+msgid "Apply Align Lines to:"
+msgstr "将对齐线应用到："
+
+#: mesh_mesh_align_plus/advanced_tools.py:1526
+msgid "Apply Align Planes to:"
+msgstr "将对齐平面应用到："
+
+#: mesh_mesh_align_plus/advanced_tools.py:1424
+msgid "Apply Align Points to:"
+msgstr "将对齐点应用到："
+
+#: mesh_mesh_align_plus/advanced_tools.py:1485
+msgid "Apply Axis Rotate to:"
+msgstr "将轴旋转应用到："
+
+#: mesh_mesh_align_plus/advanced_tools.py:1445
+msgid "Apply Directional Slide to:"
+msgstr "将定向滑动应用到："
+
+#: mesh_mesh_align_plus/advanced_tools.py:1465
+msgid "Apply Scale Match Edge to:"
+msgstr "将缩放匹配边应用到："
+
+#: mesh_mesh_align_plus/utils/storage.py:385
+#: mesh_mesh_align_plus/utils/storage.py:454
+msgid "Apply the alignment to specified object(s)"
+msgstr "将对齐应用到指定物体"
+
+#: mesh_mesh_align_plus/utils/storage.py:386
+#: mesh_mesh_align_plus/utils/storage.py:455
+msgid "Apply the alignment to the whole mesh (all verts/mesh data)"
+msgstr "将对齐应用到整个网格（所有顶点/网格数据）"
+
+#: mesh_mesh_align_plus/align_lines.py:1130
+#: mesh_mesh_align_plus/align_planes.py:1690
+msgid "Apply to:"
+msgstr "应用到："
+
+#: mesh_mesh_align_plus/axis_rotate.py:855
+msgid "Auto Grab Axis from Selected Vertices"
+msgstr "从选中顶点自动抓取轴"
+
+#: mesh_mesh_align_plus/align_lines.py:837
+#: mesh_mesh_align_plus/align_planes.py:1220
+msgid "Auto Grab Source from Selected Vertices"
+msgstr "从选中顶点自动抓取源"
+
+#: mesh_mesh_align_plus/scale_match_edge.py:1135
+msgid "Auto Grab Target"
+msgstr "自动抓取目标"
+
+#: mesh_mesh_align_plus/utils/storage.py:640
+msgid "Automatically grab source axis from selected geometry"
+msgstr "自动从选中几何体抓取源轴"
+
+#: mesh_mesh_align_plus/utils/storage.py:422
+#: mesh_mesh_align_plus/utils/storage.py:483
+msgid "Automatically grab source line from selected geometry"
+msgstr "自动从选中几何体抓取源线"
+
+#: mesh_mesh_align_plus/utils/storage.py:705
+msgid "Automatically grab source plane from selected geometry."
+msgstr "自动从选中几何体抓取源平面。"
+
+#: mesh_mesh_align_plus/utils/storage.py:358
+msgid "Automatically grab source point from selected geometry"
+msgstr "自动从选中几何体抓取源点"
+
+#: mesh_mesh_align_plus/utils/storage.py:506
+msgid "Automatically grab target line from selected geometry"
+msgstr "自动从选中几何体抓取目标线"
+
+#: mesh_mesh_align_plus/advanced_tools.py:1250
+#: mesh_mesh_align_plus/advanced_tools.py:1315
+msgid "Available Calc.'s and Result:"
+msgstr "可用计算及结果："
+
+#: mesh_mesh_align_plus/utils/storage.py:401
+msgid "Average"
+msgstr "平均"
+
+#: mesh_mesh_align_plus/advanced_tools.py:1669
+msgid "Axis"
+msgstr "轴"
+
+#: mesh_mesh_align_plus/axis_rotate.py:269
+#: mesh_mesh_align_plus/axis_rotate.py:277
+msgid "Axis Rotate"
+msgstr "轴旋转"
+
+#: mesh_mesh_align_plus/axis_rotate.py:844
+msgid "Axis Rotate (Expert)"
+msgstr "轴旋转（专家）"
+
+#: mesh_mesh_align_plus/axis_rotate.py:751
+msgid "Axis Rotate (MAPlus)"
+msgstr "轴旋转（MAPlus）"
+
+#: mesh_mesh_align_plus/calculate_compose.py:1988
+msgid "Calc. Result Coordinates"
+msgstr "计算结果坐标"
+
+#: mesh_mesh_align_plus/utils/storage.py:103
+msgid "Calc. Type"
+msgstr "计算类型"
+
+#: mesh_mesh_align_plus/calculate_compose.py:1288
+msgid "Calculate & Compose (MAPlus)"
+msgstr "计算并合成（MAPlus）"
+
+#: mesh_mesh_align_plus/calculate_compose.py:64
+#: mesh_mesh_align_plus/calculate_compose.py:71
+msgid "Calculate Line Length"
+msgstr "计算线长度"
+
+#: mesh_mesh_align_plus/calculate_compose.py:617
+#: mesh_mesh_align_plus/calculate_compose.py:624
+msgid "Calculate the distance between provided point items"
+msgstr "计算提供的点条目之间的距离"
+
+#: mesh_mesh_align_plus/calculate_compose.py:72
+msgid "Calculates the length of the line item in Slot 1"
+msgstr "计算槽位 1 中线条目的长度"
+
+#: mesh_mesh_align_plus/calculate_compose.py:65
+msgid "Calculates the length of the targeted line item"
+msgstr "计算目标线条目的长度"
+
+#: mesh_mesh_align_plus/calculate_compose.py:160
+#: mesh_mesh_align_plus/calculate_compose.py:169
+msgid "Calculates the rotational difference between line items"
+msgstr "计算线条目之间的旋转差"
+
+#: mesh_mesh_align_plus/utils/storage.py:33
+msgid "Calculation"
+msgstr "计算"
+
+#: mesh_mesh_align_plus/utils/storage.py:33
+msgid "Calculation Primitive"
+msgstr "计算基元"
+
+#: mesh_mesh_align_plus/advanced_tools.py:1224
+msgid "Calculation Type:"
+msgstr "计算类型："
+
+#: mesh_mesh_align_plus/advanced_tools.py:114
+#: mesh_mesh_align_plus/advanced_tools.py:214
+msgid "Cannot add item, unique name error."
+msgstr "无法添加条目：名称唯一性错误。"
+
+#: mesh_mesh_align_plus/align_lines.py:275
+#: mesh_mesh_align_plus/align_lines.py:688
+msgid "Cannot complete: Cannot apply mesh-level transformations to selected non-mesh objects."
+msgstr "无法完成：无法对选中的非网格物体应用网格级变换。"
+
+#: mesh_mesh_align_plus/align_lines.py:54
+#: mesh_mesh_align_plus/align_planes.py:55
+msgid "Cannot complete: cannot auto-grab source verts  from a non-mesh object."
+msgstr "无法完成：无法从非网格物体自动抓取源顶点。"
+
+#: mesh_mesh_align_plus/align_lines.py:47
+#: mesh_mesh_align_plus/align_planes.py:48
+msgid "Cannot complete: cannot auto-grab source verts  without an active (and selected) object."
+msgstr "无法完成：没有活动（且选中）的物体时无法自动抓取源顶点。"
+
+#: mesh_mesh_align_plus/align_lines.py:423
+#: mesh_mesh_align_plus/align_planes.py:783
+msgid "Cannot complete: cannot auto-grab vert data from a non-mesh object."
+msgstr "无法完成：无法从非网格物体自动抓取顶点数据。"
+
+#: mesh_mesh_align_plus/align_lines.py:416
+#: mesh_mesh_align_plus/align_planes.py:776
+msgid "Cannot complete: cannot auto-grab vert data without an active (and selected) object."
+msgstr "无法完成：没有活动（且选中）的物体时无法自动抓取顶点数据。"
+
+#: mesh_mesh_align_plus/align_lines.py:37
+#: mesh_mesh_align_plus/align_lines.py:407
+msgid "Cannot complete: cannot perform mesh-level transform without an active (and selected) object."
+msgstr "无法完成：没有活动（且选中）的物体时无法执行网格级变换。"
+
+#: mesh_mesh_align_plus/distribute_objects.py:91
+#: mesh_mesh_align_plus/distribute_objects.py:206
+msgid "Cannot complete: need at least 1 object to distribute."
+msgstr "无法完成：至少需要 1 个物体才能进行分布。"
+
+#: mesh_mesh_align_plus/align_objects.py:18
+#: mesh_mesh_align_plus/distribute_objects.py:108
+msgid "Cannot complete: no active object."
+msgstr "无法完成：没有活动物体。"
+
+#: mesh_mesh_align_plus/advanced_tools.py:559
+#: mesh_mesh_align_plus/align_lines.py:103
+msgid "Cannot grab coords: non-mesh or no active object."
+msgstr "无法抓取坐标：非网格物体或没有活动物体。"
+
+#: mesh_mesh_align_plus/advanced_tools.py:394
+msgid "Change the calculation type to multi item"
+msgstr "将计算类型改为多条目"
+
+#: mesh_mesh_align_plus/advanced_tools.py:376
+msgid "Change the calculation type to single item"
+msgstr "将计算类型改为单条目"
+
+#: mesh_mesh_align_plus/advanced_tools.py:503
+msgid "Change the transformation type to align lines"
+msgstr "将变换类型改为对齐线"
+
+#: mesh_mesh_align_plus/advanced_tools.py:521
+msgid "Change the transformation type to align planes"
+msgstr "将变换类型改为对齐平面"
+
+#: mesh_mesh_align_plus/advanced_tools.py:431
+msgid "Change the transformation type to align points"
+msgstr "将变换类型改为对齐点"
+
+#: mesh_mesh_align_plus/advanced_tools.py:485
+msgid "Change the transformation type to axis rotate"
+msgstr "将变换类型更改为轴旋转"
+
+#: mesh_mesh_align_plus/advanced_tools.py:449
+msgid "Change the transformation type to directional slide"
+msgstr "将变换类型更改为定向滑动"
+
+#: mesh_mesh_align_plus/advanced_tools.py:467
+msgid "Change the transformation type to scale match edge"
+msgstr "将变换类型更改为匹配边缩放"
+
+#: mesh_mesh_align_plus/advanced_tools.py:321
+msgid "Change this to a calculation primitive"
+msgstr "将此项更改为计算图元"
+
+#: mesh_mesh_align_plus/advanced_tools.py:285
+msgid "Change this to a line primitive"
+msgstr "将此项更改为线图元"
+
+#: mesh_mesh_align_plus/advanced_tools.py:303
+msgid "Change this to a plane primitive"
+msgstr "将此项更改为平面图元"
+
+#: mesh_mesh_align_plus/advanced_tools.py:267
+msgid "Change this to a point primitive"
+msgstr "将此项更改为点图元"
+
+#: mesh_mesh_align_plus/advanced_tools.py:339
+msgid "Change this to a transformation primitive"
+msgstr "将此项更改为变换图元"
+
+#: mesh_mesh_align_plus/advanced_tools.py:393
+msgid "Change to multi-item calculation"
+msgstr "切换为多项计算"
+
+#: mesh_mesh_align_plus/advanced_tools.py:375
+msgid "Change to single item calculation"
+msgstr "切换为单项计算"
+
+#: mesh_mesh_align_plus/advanced_tools.py:502
+msgid "Change transformation to align lines"
+msgstr "将变换更改为对齐线"
+
+#: mesh_mesh_align_plus/advanced_tools.py:520
+msgid "Change transformation to align planes"
+msgstr "将变换更改为对齐平面"
+
+#: mesh_mesh_align_plus/advanced_tools.py:430
+msgid "Change transformation to align points"
+msgstr "将变换更改为对齐点"
+
+#: mesh_mesh_align_plus/advanced_tools.py:484
+msgid "Change transformation to axis rotate"
+msgstr "将变换更改为轴旋转"
+
+#: mesh_mesh_align_plus/advanced_tools.py:448
+msgid "Change transformation to directional slide"
+msgstr "将变换更改为定向滑动"
+
+#: mesh_mesh_align_plus/advanced_tools.py:466
+msgid "Change transformation to scale match edge"
+msgstr "将变换更改为匹配边缩放"
+
+#: mesh_mesh_align_plus/utils/storage.py:331
+msgid "Check this box, then the X to delete all list items"
+msgstr "勾选此框，然后点击 X 删除所有列表项"
+
+#: mesh_mesh_align_plus/calculate_compose.py:2291
+msgid "Check/Verify Slot Types"
+msgstr "检查/验证槽位类型"
+
+#: mesh_mesh_align_plus/utils/storage.py:852
+msgid "Check/verify slot types and disable operations that do not match the type(s) of the current geometry item slots. Uncheck to silently allow calculations on slot data that is not currently displayed in the interface."
+msgstr "检查/验证槽位类型，并禁用与当前几何项槽位类型不匹配的操作。取消勾选则静默允许对界面中当前未显示的槽位数据进行计算。"
+
+#: mesh_mesh_align_plus/calculate_compose.py:909
+#: mesh_mesh_align_plus/calculate_compose.py:919
+msgid "Composes a new line item by performing vector-subtraction (first line minus second line)"
+msgstr "通过矢量相减（第一条线减去第二条线）合成新的线项"
+
+#: mesh_mesh_align_plus/calculate_compose.py:809
+#: mesh_mesh_align_plus/calculate_compose.py:816
+msgid "Composes a new line item by vector-adding provided lines"
+msgstr "通过矢量相加提供的线来合成新的线项"
+
+#: mesh_mesh_align_plus/calculate_compose.py:712
+#: mesh_mesh_align_plus/calculate_compose.py:719
+msgid "Composes a new line item from provided point items"
+msgstr "从提供的点项合成新的线项"
+
+#: mesh_mesh_align_plus/calculate_compose.py:436
+#: mesh_mesh_align_plus/calculate_compose.py:446
+msgid "Composes a new line item from the supplied point, starting at the world origin"
+msgstr "从提供的点开始、以世界原点为起点合成新的线项"
+
+#: mesh_mesh_align_plus/calculate_compose.py:527
+#: mesh_mesh_align_plus/calculate_compose.py:534
+msgid "Composes a new line item starting at the point location"
+msgstr "从点位置开始合成新的线项"
+
+#: mesh_mesh_align_plus/calculate_compose.py:252
+#: mesh_mesh_align_plus/calculate_compose.py:259
+msgid "Composes a new line item starting at the world origin"
+msgstr "从世界原点开始合成新的线项"
+
+#: mesh_mesh_align_plus/calculate_compose.py:1016
+#: mesh_mesh_align_plus/calculate_compose.py:1025
+msgid "Composes a new point item by intersecting a line and a plane"
+msgstr "通过线与平面相交合成新的点项"
+
+#: mesh_mesh_align_plus/utils/storage.py:1061
+#: mesh_mesh_align_plus/utils/storage.py:1079
+msgid "Copies this item into the internal clipboard"
+msgstr "将此项复制到内部剪贴板"
+
+#: mesh_mesh_align_plus/utils/storage.py:842
+msgid "Copy  calculation results (new reference locations or numeric calculations) to the addon clipboard or the system clipboard, respectively."
+msgstr "将计算结果（新的参考位置或数值计算）分别复制到插件剪贴板或系统剪贴板。"
+
+#: mesh_mesh_align_plus/calculate_compose.py:1955
+msgid "Copy Result to Clipboard"
+msgstr "复制结果到剪贴板"
+
+#: mesh_mesh_align_plus/utils/storage.py:1060
+#: mesh_mesh_align_plus/utils/storage.py:1078
+msgid "Copy from this item"
+msgstr "从此项复制"
+
+#: mesh_mesh_align_plus/advanced_tools.py:1255
+#: mesh_mesh_align_plus/advanced_tools.py:1320
+msgid "Copy to Clipboard"
+msgstr "复制到剪贴板"
+
+#: mesh_mesh_align_plus/utils/storage.py:512
+msgid "Desired length for the target edge"
+msgstr "目标边的期望长度"
+
+#: mesh_mesh_align_plus/align_lines.py:1010
+#: mesh_mesh_align_plus/align_planes.py:1391
+msgid "Destination Coordinates"
+msgstr "目标坐标"
+
+#: mesh_mesh_align_plus/advanced_tools.py:1658
+msgid "Destination Edge"
+msgstr "目标边"
+
+#: mesh_mesh_align_plus/advanced_tools.py:1697
+msgid "Destination Line"
+msgstr "目标线"
+
+#: mesh_mesh_align_plus/advanced_tools.py:1719
+msgid "Destination Plane"
+msgstr "目标平面"
+
+#: mesh_mesh_align_plus/advanced_tools.py:1625
+msgid "Destination Point"
+msgstr "目标点"
+
+#: mesh_mesh_align_plus/utils/storage.py:157
+msgid "Directional Slide"
+msgstr "定向滑动"
+
+#: mesh_mesh_align_plus/directional_slide.py:582
+msgid "Directional Slide (Expert)"
+msgstr "定向滑动（专家）"
+
+#: mesh_mesh_align_plus/directional_slide.py:502
+msgid "Directional Slide (MAPlus)"
+msgstr "定向滑动（MAPlus）"
+
+#: mesh_mesh_align_plus/directional_slide.py:261
+#: mesh_mesh_align_plus/directional_slide.py:269
+msgid "Directional Slide Mesh"
+msgstr "定向滑动网格"
+
+#: mesh_mesh_align_plus/directional_slide.py:251
+msgid "Directional Slide Mesh Piece"
+msgstr "定向滑动网格片段"
+
+#: mesh_mesh_align_plus/directional_slide.py:225
+#: mesh_mesh_align_plus/directional_slide.py:233
+msgid "Directional Slide Object"
+msgstr "定向滑动物体"
+
+#: mesh_mesh_align_plus/directional_slide.py:242
+msgid "Directional Slide Object Origin"
+msgstr "定向滑动物体原点"
+
+#: mesh_mesh_align_plus/calculate_compose.py:616
+#: mesh_mesh_align_plus/calculate_compose.py:623
+msgid "Distance Between Points"
+msgstr "点间距离"
+
+#: mesh_mesh_align_plus/distribute_objects.py:232
+msgid "Distribute Between Start/End Objects"
+msgstr "在起始/结束物体之间分布"
+
+#: mesh_mesh_align_plus/distribute_objects.py:217
+msgid "Distribute Objects (MAPlus)"
+msgstr "分布物体（MAPlus）"
+
+#: mesh_mesh_align_plus/distribute_objects.py:285
+msgid "Distribute Objects Along Line"
+msgstr "沿直线分布物体"
+
+#: mesh_mesh_align_plus/scale_match_edge.py:207
+#: mesh_mesh_align_plus/scale_match_edge.py:611
+msgid "Divide by zero error: zero length edge encountered"
+msgstr "除零错误：遇到长度为零的边"
+
+#: mesh_mesh_align_plus/align_lines.py:757
+msgid "Easy Align Lines"
+msgstr "简易对齐线"
+
+#: mesh_mesh_align_plus/align_planes.py:1159
+msgid "Easy Align Planes"
+msgstr "简易对齐平面"
+
+#: mesh_mesh_align_plus/align_points.py:659
+msgid "Easy Align Points"
+msgstr "简易对齐点"
+
+#: mesh_mesh_align_plus/axis_rotate.py:791
+msgid "Easy Angle Finder"
+msgstr "简易角度查找器"
+
+#: mesh_mesh_align_plus/axis_rotate.py:780
+msgid "Easy Axis Rotate"
+msgstr "简易轴旋转"
+
+#: mesh_mesh_align_plus/directional_slide.py:531
+msgid "Easy Directional Slide"
+msgstr "简易定向滑动"
+
+#: mesh_mesh_align_plus/scale_match_edge.py:790
+msgid "Easy Match Edge Scale"
+msgstr "简易匹配边缩放"
+
+#: mesh_mesh_align_plus/utils/storage.py:770
+msgid "End Object"
+msgstr "结束物体"
+
+#: mesh_mesh_align_plus/distribute_objects.py:271
+#: mesh_mesh_align_plus/distribute_objects.py:448
+msgid "End Offset"
+msgstr "结束偏移"
+
+#: mesh_mesh_align_plus/utils/storage.py:555
+msgid "Expand/collapse the align lines operator in the quick tools panel."
+msgstr "展开/折叠快速工具面板中的对齐线操作"
+
+#: mesh_mesh_align_plus/utils/storage.py:677
+msgid "Expand/collapse the align planes operator in the quick tools panel."
+msgstr "展开/折叠快速工具面板中的对齐平面操作"
+
+#: mesh_mesh_align_plus/utils/storage.py:337
+msgid "Expand/collapse the align points operator in the quick tools panel."
+msgstr "展开/折叠快速工具面板中的对齐点操作"
+
+#: mesh_mesh_align_plus/utils/storage.py:626
+msgid "Expand/collapse the axis rotate operator in the quick tools panel."
+msgstr "展开/折叠快速工具面板中的轴旋转操作"
+
+#: mesh_mesh_align_plus/utils/storage.py:875
+msgid "Expand/collapse the calculation result geometry editor in the calculate/compose panel."
+msgstr "展开/折叠计算/合成面板中的计算结果几何编辑器"
+
+#: mesh_mesh_align_plus/utils/storage.py:351
+#: mesh_mesh_align_plus/utils/storage.py:476
+msgid "Expand/collapse the destination geometry editor in the quick tools panel."
+msgstr "展开/折叠快速工具面板中的目标几何编辑器"
+
+#: mesh_mesh_align_plus/utils/storage.py:408
+msgid "Expand/collapse the directional slide operator in the quick tools panel."
+msgstr "展开/折叠快速工具面板中的定向滑动操作"
+
+#: mesh_mesh_align_plus/utils/storage.py:586
+msgid "Expand/collapse the easy align lines operator."
+msgstr "展开/折叠简易对齐线操作"
+
+#: mesh_mesh_align_plus/utils/storage.py:733
+msgid "Expand/collapse the easy align planes operator."
+msgstr "展开/折叠简易对齐平面操作"
+
+#: mesh_mesh_align_plus/utils/storage.py:368
+msgid "Expand/collapse the easy align points operator."
+msgstr "展开/折叠简易对齐点操作"
+
+#: mesh_mesh_align_plus/utils/storage.py:649
+msgid "Expand/collapse the easy axis rotate operator."
+msgstr "展开/折叠简易轴旋转操作"
+
+#: mesh_mesh_align_plus/utils/storage.py:438
+msgid "Expand/collapse the easy directional slide operator."
+msgstr "展开/折叠简易定向滑动操作"
+
+#: mesh_mesh_align_plus/utils/storage.py:524
+msgid "Expand/collapse the easy scale match edge operator."
+msgstr "展开/折叠简易匹配边缩放操作"
+
+#: mesh_mesh_align_plus/utils/storage.py:462
+msgid "Expand/collapse the scale match edge operator in the quick tools panel."
+msgstr "展开/折叠快速工具面板中的匹配边缩放操作"
+
+#: mesh_mesh_align_plus/utils/storage.py:861
+msgid "Expand/collapse the slot 1 geometry editor in the calculate/compose panel."
+msgstr "展开/折叠计算/合成面板中的槽位 1 几何编辑器"
+
+#: mesh_mesh_align_plus/utils/storage.py:868
+msgid "Expand/collapse the slot 2 geometry editor in the calculate/compose panel."
+msgstr "展开/折叠计算/合成面板中的槽位 2 几何编辑器"
+
+#: mesh_mesh_align_plus/utils/storage.py:804
+msgid "Expand/collapse the source geometry editor for \"Distribute Objects Along Line\" in the \"Distribute Objects\" panel."
+msgstr "展开/折叠“分布物体”面板中“沿直线分布物体”的源几何编辑器"
+
+#: mesh_mesh_align_plus/utils/storage.py:344
+#: mesh_mesh_align_plus/utils/storage.py:415
+msgid "Expand/collapse the source geometry editor in the quick tools panel."
+msgstr "展开/折叠快速工具面板中的源几何编辑器"
+
+#: mesh_mesh_align_plus/advanced_tools.py:905
+#: mesh_mesh_align_plus/advanced_tools.py:993
+msgid "Flip Direction"
+msgstr "翻转方向"
+
+#: mesh_mesh_align_plus/advanced_tools.py:1596
+msgid "Flip Source Normal"
+msgstr "翻转源法线"
+
+#: mesh_mesh_align_plus/utils/storage.py:292
+msgid "Flip source line direction"
+msgstr "翻转源线方向"
+
+#: mesh_mesh_align_plus/utils/storage.py:201
+msgid "Flip the move direction"
+msgstr "翻转移动方向"
+
+#: mesh_mesh_align_plus/utils/storage.py:672
+msgid "Flip the rotation direction for Easy Axis Rotate"
+msgstr "翻转简易轴旋转的旋转方向"
+
+#: mesh_mesh_align_plus/utils/storage.py:263
+msgid "Flip the source line direction"
+msgstr "翻转源线方向"
+
+#: mesh_mesh_align_plus/utils/storage.py:227
+msgid "Flips the direction (normal) of the source plane during alignment"
+msgstr "对齐时翻转源平面的方向（法线）"
+
+#: mesh_mesh_align_plus/calculate_compose.py:1300
+msgid "Geom. Comparison Slots"
+msgstr "几何比较槽"
+
+#: mesh_mesh_align_plus/advanced_tools.py:745
+msgid "Geom. Manager (MAPlus)"
+msgstr "几何管理器 (MAPlus)"
+
+#: mesh_mesh_align_plus/calculate_compose.py:347
+#: mesh_mesh_align_plus/calculate_compose.py:354
+msgid "Get Plane Normal"
+msgstr "获取平面法线"
+
+#: mesh_mesh_align_plus/calculate_compose.py:348
+#: mesh_mesh_align_plus/calculate_compose.py:355
+msgid "Get the plane's normal as a new line item"
+msgstr "将平面法线作为新线项获取"
+
+#: mesh_mesh_align_plus/utils/geom.py:1030
+#: mesh_mesh_align_plus/utils/geom.py:1041
+msgid "Grab Average Global Coordinates From Selected Points"
+msgstr "从选定点获取平均全局坐标"
+
+#: mesh_mesh_align_plus/utils/geom.py:2235
+msgid "Grab From Active Point"
+msgstr "从活动点获取"
+
+#: mesh_mesh_align_plus/utils/geom.py:883
+#: mesh_mesh_align_plus/utils/geom.py:891
+msgid "Grab From Cursor"
+msgstr "从游标获取"
+
+#: mesh_mesh_align_plus/utils/geom.py:2268
+#: mesh_mesh_align_plus/utils/geom.py:2294
+msgid "Grab Global Coordinate for Line End From Active Point"
+msgstr "从活动点获取线终点的全局坐标"
+
+#: mesh_mesh_align_plus/utils/geom.py:1403
+#: mesh_mesh_align_plus/utils/geom.py:1454
+msgid "Grab Global Coordinate for Line Start From Active Point"
+msgstr "从活动点获取线起点的全局坐标"
+
+#: mesh_mesh_align_plus/utils/geom.py:947
+#: mesh_mesh_align_plus/utils/geom.py:1156
+msgid "Grab Global Coordinates From Active Point"
+msgstr "从活动点获取全局坐标"
+
+#: mesh_mesh_align_plus/utils/geom.py:822
+#: mesh_mesh_align_plus/utils/geom.py:835
+msgid "Grab Global Coordinates From Selected Vertices"
+msgstr "从选定顶点获取全局坐标"
+
+#: mesh_mesh_align_plus/utils/geom.py:1274
+#: mesh_mesh_align_plus/utils/geom.py:1292
+msgid "Grab Line End From Cursor"
+msgstr "从游标获取线终点"
+
+#: mesh_mesh_align_plus/utils/geom.py:1257
+#: mesh_mesh_align_plus/utils/geom.py:1265
+msgid "Grab Line Start From Cursor"
+msgstr "从游标获取线起点"
+
+#: mesh_mesh_align_plus/utils/geom.py:2543
+#: mesh_mesh_align_plus/utils/geom.py:2554
+msgid "Grab Line from Selected Verts"
+msgstr "从选定顶点获取线"
+
+#: mesh_mesh_align_plus/utils/geom.py:2255
+#: mesh_mesh_align_plus/utils/geom.py:2281
+msgid "Grab Local Coordinate for Line End From Active Point"
+msgstr "从活动点获取线终点的局部坐标"
+
+#: mesh_mesh_align_plus/utils/geom.py:1391
+#: mesh_mesh_align_plus/utils/geom.py:1415
+msgid "Grab Local Coordinate for Line Start From Active Point"
+msgstr "从活动点获取线起点的局部坐标"
+
+#: mesh_mesh_align_plus/utils/geom.py:936
+#: mesh_mesh_align_plus/utils/geom.py:958
+msgid "Grab Local Coordinates From Active Point"
+msgstr "从活动点获取局部坐标"
+
+#: mesh_mesh_align_plus/utils/storage.py:398
+#: mesh_mesh_align_plus/utils/storage.py:616
+msgid "Grab Mode"
+msgstr "获取模式"
+
+#: mesh_mesh_align_plus/align_lines.py:768
+#: mesh_mesh_align_plus/align_points.py:670
+msgid "Grab Mode:"
+msgstr "获取模式："
+
+#: mesh_mesh_align_plus/utils/geom.py:2637
+#: mesh_mesh_align_plus/utils/geom.py:2648
+msgid "Grab Normal Coords from Selected Face"
+msgstr "从选定面获取法线坐标"
+
+#: mesh_mesh_align_plus/utils/geom.py:4021
+#: mesh_mesh_align_plus/utils/geom.py:4044
+msgid "Grab Plane Global Coordinates from Selected Verts"
+msgstr "从选定顶点获取平面全局坐标"
+
+#: mesh_mesh_align_plus/utils/geom.py:4010
+#: mesh_mesh_align_plus/utils/geom.py:4032
+msgid "Grab Plane Local Coordinates from Selected Verts"
+msgstr "从选定顶点获取平面局部坐标"
+
+#: mesh_mesh_align_plus/utils/storage.py:619
+msgid "Grab face normal"
+msgstr "获取面法线"
+
+#: mesh_mesh_align_plus/utils/storage.py:401
+msgid "Grab the average position of multiple vertices"
+msgstr "获取多个顶点的平均位置"
+
+#: mesh_mesh_align_plus/utils/storage.py:400
+#: mesh_mesh_align_plus/utils/storage.py:618
+msgid "Grab vertex coordinates"
+msgstr "获取顶点坐标"
+
+#: mesh_mesh_align_plus/utils/gui_tools.py:23
+msgid "Grab:"
+msgstr "获取："
+
+#: mesh_mesh_align_plus/utils/geom.py:1031
+#: mesh_mesh_align_plus/utils/geom.py:1042
+msgid "Grabs average global coordinates from selected vertices in edit mode"
+msgstr "在编辑模式下从选定顶点获取平均全局坐标"
+
+#: mesh_mesh_align_plus/utils/geom.py:884
+#: mesh_mesh_align_plus/utils/geom.py:892
+msgid "Grabs coordinates from 3D cursor"
+msgstr "从 3D 游标获取坐标"
+
+#: mesh_mesh_align_plus/utils/geom.py:2236
+msgid "Grabs coordinates from selected vertex in edit mode"
+msgstr "在编辑模式下从选定顶点获取坐标"
+
+#: mesh_mesh_align_plus/utils/geom.py:2269
+#: mesh_mesh_align_plus/utils/geom.py:2295
+msgid "Grabs global coordinates for line end from selected vertexin edit mode"
+msgstr "在编辑模式下从选定顶点获取线终点的全局坐标"
+
+#: mesh_mesh_align_plus/utils/geom.py:1404
+#: mesh_mesh_align_plus/utils/geom.py:1455
+msgid "Grabs global coordinates for line start from selected vertexin edit mode"
+msgstr "在编辑模式下从选定顶点获取线起点的全局坐标"
+
+#: mesh_mesh_align_plus/utils/geom.py:948
+#: mesh_mesh_align_plus/utils/geom.py:959
+msgid "Grabs global coordinates from selected vertex in edit mode"
+msgstr "在编辑模式下从选定顶点获取全局坐标"
+
+#: mesh_mesh_align_plus/utils/geom.py:836
+#: mesh_mesh_align_plus/utils/geom.py:860
+msgid "Grabs global coordinates from selected vertices in edit mode"
+msgstr "在编辑模式下从选定的多个顶点获取全局坐标"
+
+#: mesh_mesh_align_plus/utils/geom.py:2544
+#: mesh_mesh_align_plus/utils/geom.py:2555
+msgid "Grabs line coordinates from selected vertices in edit mode"
+msgstr "在编辑模式下从选定顶点获取线坐标"
+
+#: mesh_mesh_align_plus/utils/geom.py:1275
+#: mesh_mesh_align_plus/utils/geom.py:1293
+msgid "Grabs line end coordinates from the 3D cursor"
+msgstr "从 3D 游标获取线终点坐标"
+
+#: mesh_mesh_align_plus/utils/geom.py:1258
+#: mesh_mesh_align_plus/utils/geom.py:1266
+msgid "Grabs line start coordinates from the 3D cursor"
+msgstr "从 3D 游标获取线起点坐标"
+
+#: mesh_mesh_align_plus/utils/geom.py:2256
+#: mesh_mesh_align_plus/utils/geom.py:2282
+msgid "Grabs local coordinates for line end from selected vertexin edit mode"
+msgstr "在编辑模式下从选定顶点获取线终点的局部坐标"
+
+#: mesh_mesh_align_plus/utils/geom.py:1392
+#: mesh_mesh_align_plus/utils/geom.py:1416
+msgid "Grabs local coordinates for line start from selected vertexin edit mode"
+msgstr "在编辑模式下从选定顶点获取线起点的局部坐标"
+
+#: mesh_mesh_align_plus/utils/geom.py:937
+#: mesh_mesh_align_plus/utils/geom.py:1193
+msgid "Grabs local coordinates from selected vertex in edit mode"
+msgstr "在编辑模式下从选定顶点获取局部坐标"
+
+#: mesh_mesh_align_plus/utils/geom.py:2638
+#: mesh_mesh_align_plus/utils/geom.py:2649
+msgid "Grabs normal coordinates from selected face in edit mode"
+msgstr "在编辑模式下从选定面获取法线坐标"
+
+#: mesh_mesh_align_plus/utils/geom.py:4022
+#: mesh_mesh_align_plus/utils/geom.py:4045
+msgid "Grabs plane global coordinates from selected vertices in edit mode"
+msgstr "在编辑模式下从选定顶点获取平面全局坐标"
+
+#: mesh_mesh_align_plus/utils/geom.py:4011
+#: mesh_mesh_align_plus/utils/geom.py:4033
+msgid "Grabs plane local coordinates from selected vertices in edit mode"
+msgstr "在编辑模式下从选定顶点获取平面局部坐标"
+
+#: mesh_mesh_align_plus/utils/storage.py:273
+msgid "How much to rotate around the specified axis (units are set to radians or degrees depending on Blender user settings)"
+msgstr "绕指定轴旋转的量（单位根据 Blender 用户设置设为弧度或度）"
+
+#: mesh_mesh_align_plus/utils/storage.py:398
+#: mesh_mesh_align_plus/utils/storage.py:616
+msgid "How to grab verts/geometry for alignment keys"
+msgstr "如何为对齐键获取顶点/几何体"
+
+#: mesh_mesh_align_plus/calculate_compose.py:1015
+#: mesh_mesh_align_plus/calculate_compose.py:1024
+msgid "Intersect Line/Plane"
+msgstr "线/平面相交"
+
+#: mesh_mesh_align_plus/advanced_tools.py:1573
+msgid "Item Modifiers:"
+msgstr "项修改器："
+
+#: mesh_mesh_align_plus/advanced_tools.py:845
+msgid "Item Name & Settings:"
+msgstr "项名称与设置："
+
+#: mesh_mesh_align_plus/utils/storage.py:28
+msgid "Item Type"
+msgstr "项类型"
+
+#: mesh_mesh_align_plus/utils/storage.py:23
+msgid "Item name"
+msgstr "项名称"
+
+#: mesh_mesh_align_plus/calculate_compose.py:1329
+#: mesh_mesh_align_plus/calculate_compose.py:1655
+msgid "Item type:"
+msgstr "项类型："
+
+#: mesh_mesh_align_plus/utils/storage.py:31
+msgid "Line"
+msgstr "线"
+
+#: mesh_mesh_align_plus/advanced_tools.py:1006
+msgid "Line Coordinates:"
+msgstr "线坐标："
+
+#: mesh_mesh_align_plus/advanced_tools.py:598
+msgid "Line From Active Global"
+msgstr "由活动点全局坐标创建线"
+
+#: mesh_mesh_align_plus/advanced_tools.py:979
+#: mesh_mesh_align_plus/align_lines.py:906
+msgid "Line Modifiers:"
+msgstr "线修改器："
+
+#: mesh_mesh_align_plus/utils/storage.py:31
+msgid "Line Primitive"
+msgstr "线基元"
+
+#: mesh_mesh_align_plus/utils/storage.py:71
+msgid "Line primitive, ending point coordinates"
+msgstr "线基元，终点坐标"
+
+#: mesh_mesh_align_plus/utils/storage.py:67
+msgid "Line primitive, starting point coordinates"
+msgstr "线基元，起点坐标"
+
+#: mesh_mesh_align_plus/utils/storage.py:163
+msgid "Make lines collinear"
+msgstr "使线共线"
+
+#: mesh_mesh_align_plus/utils/storage.py:169
+msgid "Make planes coplanar"
+msgstr "使平面共面"
+
+#: mesh_mesh_align_plus/utils/storage.py:238
+#: mesh_mesh_align_plus/utils/storage.py:718
+msgid "Make the first point (A) the pivot (The first point selected on each plane will be aligned to each other). Turn this off for 'classic'/'old-style' behavior, where point B is the pivot."
+msgstr "使第一个点 (A) 成为枢轴（每个平面上先选的点将互相对齐）。关闭此项以使用以点 B 为枢轴的“经典”/“旧式”行为。"
+
+#: mesh_mesh_align_plus/utils/storage.py:75
+#: mesh_mesh_align_plus/utils/storage.py:288
+msgid "Make the line's length 1"
+msgstr "使线长度变为 1"
+
+#: mesh_mesh_align_plus/align_lines.py:288
+#: mesh_mesh_align_plus/align_lines.py:296
+msgid "Makes lines collinear (in line with each other)"
+msgstr "使线共线（互相成一直线）"
+
+#: mesh_mesh_align_plus/align_planes.py:602
+#: mesh_mesh_align_plus/align_planes.py:610
+msgid "Makes planes coplanar (flat against each other)"
+msgstr "使平面共面（彼此贴合）"
+
+#: mesh_mesh_align_plus/advanced_tools.py:322
+msgid "Makes this item a calculation primitive"
+msgstr "将此项设为计算基元"
+
+#: mesh_mesh_align_plus/advanced_tools.py:286
+msgid "Makes this item a line primitive"
+msgstr "将此项设为线基元"
+
+#: mesh_mesh_align_plus/advanced_tools.py:304
+msgid "Makes this item a plane primitive"
+msgstr "将此项设为平面基元"
+
+#: mesh_mesh_align_plus/advanced_tools.py:268
+msgid "Makes this item a point primitive"
+msgstr "将此项设为点基元"
+
+#: mesh_mesh_align_plus/advanced_tools.py:340
+msgid "Makes this item a transformation primitive"
+msgstr "将此项设为变换基元"
+
+#: mesh_mesh_align_plus/utils/storage.py:160
+msgid "Match Edge Scale"
+msgstr "匹配边缩放"
+
+#: mesh_mesh_align_plus/scale_match_edge.py:843
+msgid "Match Edge Scale (Expert)"
+msgstr "匹配边缩放（专家）"
+
+#: mesh_mesh_align_plus/scale_match_edge.py:763
+msgid "Match Edge Scale (MAPlus)"
+msgstr "匹配边缩放 (MAPlus)"
+
+#: mesh_mesh_align_plus/utils/storage.py:160
+msgid "Match source edge length to destination edge length"
+msgstr "将源边长度匹配到目标边长度"
+
+#: mesh_mesh_align_plus/utils/storage.py:154
+msgid "Match source vertex location to destination vertex location"
+msgstr "将源顶点位置匹配到目标顶点位置"
+
+#: mesh_mesh_align_plus/align_points.py:238
+#: mesh_mesh_align_plus/align_points.py:248
+msgid "Match the location of one vertex on a mesh object to another"
+msgstr "将网格物体上一个顶点的位置匹配到另一个"
+
+#: mesh_mesh_align_plus/align_points.py:270
+#: mesh_mesh_align_plus/align_points.py:281
+msgid "Match the location of one vertex on a mesh piece (the selected verts) to another"
+msgstr "将网格块（选定顶点）上一个顶点的位置匹配到另一个"
+
+#: mesh_mesh_align_plus/align_points.py:293
+#: mesh_mesh_align_plus/align_points.py:301
+msgid "Match the location of one vertex on a mesh to another"
+msgstr "将网格上一个顶点的位置匹配到另一个"
+
+#: mesh_mesh_align_plus/__init__.py:30
+msgid "Mesh"
+msgstr "网格"
+
+#: mesh_mesh_align_plus/__init__.py:30
+msgid "Mesh Align Plus"
+msgstr "Mesh Align Plus"
+
+#: mesh_mesh_align_plus/utils/storage.py:157
+msgid "Move a target in a direction"
+msgstr "沿方向移动目标"
+
+#: mesh_mesh_align_plus/utils/storage.py:108
+msgid "Multi"
+msgstr "多项"
+
+#: mesh_mesh_align_plus/utils/storage.py:145
+msgid "Multi Item Calc. Result"
+msgstr "多项计算结果"
+
+#: mesh_mesh_align_plus/utils/storage.py:108
+msgid "Multi item calculation"
+msgstr "多项计算"
+
+#: mesh_mesh_align_plus/advanced_tools.py:911
+#: mesh_mesh_align_plus/advanced_tools.py:999
+msgid "Multiplier"
+msgstr "倍数"
+
+#: mesh_mesh_align_plus/utils/storage.py:81
+msgid "Multiply the line's length by this amount"
+msgstr "按此倍数缩放线的长度"
+
+#: mesh_mesh_align_plus/utils/storage.py:205
+msgid "Multiply the move by this amount"
+msgstr "按此倍数缩放移动量"
+
+#: mesh_mesh_align_plus/utils/storage.py:296
+msgid "Multiply the source line's length by this amount"
+msgstr "按此倍数缩放源线长度"
+
+#: mesh_mesh_align_plus/calculate_compose.py:526
+#: mesh_mesh_align_plus/calculate_compose.py:533
+msgid "New Line at Point Location"
+msgstr "在点位置新建线"
+
+#: mesh_mesh_align_plus/calculate_compose.py:251
+#: mesh_mesh_align_plus/calculate_compose.py:258
+msgid "New Line from Origin"
+msgstr "从原点新建线"
+
+#: mesh_mesh_align_plus/calculate_compose.py:435
+#: mesh_mesh_align_plus/calculate_compose.py:445
+msgid "New Line from Point"
+msgstr "从点新建线"
+
+#: mesh_mesh_align_plus/calculate_compose.py:711
+#: mesh_mesh_align_plus/calculate_compose.py:718
+msgid "New Line from Points"
+msgstr "从多个点新建线"
+
+#: mesh_mesh_align_plus/calculate_compose.py:1277
+msgid "No intersection: Could not find intersection line for selected plane/plane"
+msgstr "无交点：无法为选定的平面/平面找到交线"
+
+#: mesh_mesh_align_plus/calculate_compose.py:1190
+msgid "No intersection: Could not find nearest point for selected line/line"
+msgstr "无交点：无法为选定的线/线找到最近点"
+
+#: mesh_mesh_align_plus/calculate_compose.py:1004
+msgid "No intersection: Selected line/plane do not intersect"
+msgstr "无交点：选定的线/平面不相交"
+
+#: mesh_mesh_align_plus/utils/storage.py:918
+msgid "No stored geometry items exist to copy."
+msgstr "没有可复制的已存储几何项目。"
+
+#: mesh_mesh_align_plus/utils/storage.py:619
+msgid "Normal"
+msgstr "法向"
+
+#: mesh_mesh_align_plus/advanced_tools.py:556
+#: mesh_mesh_align_plus/align_lines.py:100
+msgid "Not enough vertices selected."
+msgstr "选定的顶点不足。"
+
+#: mesh_mesh_align_plus/advanced_tools.py:133
+msgid "Nothing to remove"
+msgstr "没有可移除的内容"
+
+#: mesh_mesh_align_plus/scale_match_edge.py:1128
+msgid "Numeric Input Mode"
+msgstr "数值输入模式"
+
+#: mesh_mesh_align_plus/utils/storage.py:385
+#: mesh_mesh_align_plus/utils/storage.py:454
+msgid "Object"
+msgstr "物体"
+
+#: mesh_mesh_align_plus/utils/storage.py:775
+#: mesh_mesh_align_plus/utils/storage.py:812
+msgid "Offset the first object from the start point"
+msgstr "使第一个物体从起点偏移"
+
+#: mesh_mesh_align_plus/utils/storage.py:781
+#: mesh_mesh_align_plus/utils/storage.py:818
+msgid "Offset the last object from the end point"
+msgstr "使最后一个物体从终点偏移"
+
+#: mesh_mesh_align_plus/calculate_compose.py:42
+#: mesh_mesh_align_plus/calculate_compose.py:215
+msgid "Operand type warning: Slot 1 (the target) is not explicitly using the correct type for this calculation (type should be set to \"Line\")."
+msgstr "操作数类型警告：槽位 1（目标）未明确使用此计算的正确类型（类型应设为“线”）。"
+
+#: mesh_mesh_align_plus/calculate_compose.py:302
+msgid "Operand type warning: Slot 1 (the target) is not explicitly using the correct type for this calculation (type should be set to \"Plane\")."
+msgstr "操作数类型警告：槽位 1（目标）未明确使用此计算的正确类型（类型应设为“平面”）。"
+
+#: mesh_mesh_align_plus/calculate_compose.py:401
+msgid "Operand type warning: Slot 1 (the target) is not explicitly using the correct type for this calculation (type should be set to \"Point\")."
+msgstr "操作数类型警告：槽位 1（目标）未明确使用此计算的正确类型（类型应设为“点”）。"
+
+#: mesh_mesh_align_plus/calculate_compose.py:122
+#: mesh_mesh_align_plus/calculate_compose.py:767
+msgid "Operand type warning: Slot 1 and/or Slot 2 are not explicitly using the correct types for this calculation (item type for both should be set to \"Line\")."
+msgstr "操作数类型警告：槽位 1 和/或槽位 2 未明确使用此计算的正确类型（两者的项目类型都应设为“线”）。"
+
+#: mesh_mesh_align_plus/calculate_compose.py:587
+#: mesh_mesh_align_plus/calculate_compose.py:672
+msgid "Operand type warning: Slot 1 and/or Slot 2 are not explicitly using the correct types for this calculation (item type for both should be set to \"Point\")."
+msgstr "操作数类型警告：槽位 1 和/或槽位 2 未明确使用此计算的正确类型（两者的项目类型都应设为“点”）。"
+
+#: mesh_mesh_align_plus/utils/storage.py:794
+#: mesh_mesh_align_plus/utils/storage.py:832
+msgid "Operate on items selected during the last run of the operator (and maintain original ordering) instead of the currently selected objects"
+msgstr "对上次运行该操作符时选定的项目进行操作（并保持原始顺序），而不是当前选定的物体"
+
+#: mesh_mesh_align_plus/align_lines.py:1121
+#: mesh_mesh_align_plus/align_planes.py:1510
+msgid "Operator settings:"
+msgstr "操作符设置："
+
+#: mesh_mesh_align_plus/align_planes.py:1562
+msgid "Origin Coordinates"
+msgstr "原点坐标"
+
+#: mesh_mesh_align_plus/utils/storage.py:1051
+#: mesh_mesh_align_plus/utils/storage.py:1069
+msgid "Paste into this item"
+msgstr "粘贴到此项目"
+
+#: mesh_mesh_align_plus/utils/storage.py:1052
+#: mesh_mesh_align_plus/utils/storage.py:1070
+msgid "Pastes from the internal clipboard into this item"
+msgstr "从内部剪贴板粘贴到此项目"
+
+#: mesh_mesh_align_plus/align_planes.py:1529
+#: mesh_mesh_align_plus/align_planes.py:1683
+msgid "Pivot is A"
+msgstr "枢轴为 A"
+
+#: mesh_mesh_align_plus/utils/storage.py:32
+msgid "Plane"
+msgstr "平面"
+
+#: mesh_mesh_align_plus/advanced_tools.py:1099
+msgid "Plane Coordinates:"
+msgstr "平面坐标："
+
+#: mesh_mesh_align_plus/advanced_tools.py:608
+msgid "Plane From Active Global"
+msgstr "从活动物体全局坐标创建平面"
+
+#: mesh_mesh_align_plus/utils/storage.py:32
+msgid "Plane Primitive"
+msgstr "平面基元"
+
+#: mesh_mesh_align_plus/utils/storage.py:89
+msgid "Plane primitive, point A coordinates"
+msgstr "平面基元，A 点坐标"
+
+#: mesh_mesh_align_plus/utils/storage.py:93
+msgid "Plane primitive, point B coordinates"
+msgstr "平面基元，B 点坐标"
+
+#: mesh_mesh_align_plus/utils/storage.py:97
+msgid "Plane primitive, point C coordinates"
+msgstr "平面基元，C 点坐标"
+
+#: mesh_mesh_align_plus/utils/storage.py:30
+msgid "Point"
+msgstr "点"
+
+#: mesh_mesh_align_plus/advanced_tools.py:918
+msgid "Point Coordinates:"
+msgstr "点坐标："
+
+#: mesh_mesh_align_plus/advanced_tools.py:588
+msgid "Point From Active Global"
+msgstr "从活动物体全局坐标创建点"
+
+#: mesh_mesh_align_plus/advanced_tools.py:891
+#: mesh_mesh_align_plus/align_points.py:802
+msgid "Point Modifiers:"
+msgstr "点修改器："
+
+#: mesh_mesh_align_plus/utils/storage.py:30
+msgid "Point Primitive"
+msgstr "点基元"
+
+#: mesh_mesh_align_plus/utils/storage.py:43
+msgid "Point primitive coordinates"
+msgstr "点基元坐标"
+
+#: mesh_mesh_align_plus/utils/storage.py:78
+msgid "Point the line in the opposite direction"
+msgstr "使线指向相反方向"
+
+#: mesh_mesh_align_plus/utils/storage.py:311
+msgid "Pointer to an item in the list, the destination edge (this is a fixed reference edge, used to determine how much to scale the source edge so that its length matches the length of this edge)."
+msgstr "指向列表中某一项目的指针，目标边（这是固定参考边，用于确定源边的缩放量，使其长度与此边的长度一致）。"
+
+#: mesh_mesh_align_plus/utils/storage.py:255
+msgid "Pointer to an item in the list, the destination line (this is a fixed reference location, where the source line will be 'moved' to)."
+msgstr "指向列表中某一项目的指针，目标线（这是固定参考位置，源线将被“移动”到此处）。"
+
+#: mesh_mesh_align_plus/utils/storage.py:219
+msgid "Pointer to an item in the list, the destination plane (this is a fixed reference location, where the source plane will be 'moved' to)."
+msgstr "指向列表中某一项目的指针，目标平面（这是固定参考位置，源平面将被“移动”到此处）。"
+
+#: mesh_mesh_align_plus/utils/storage.py:189
+msgid "Pointer to an item in the list, the destination point (this is a fixed reference location, where the source point will be 'moved' to)."
+msgstr "指向列表中某一项目的指针，目标点（这是固定参考位置，源点将被“移动”到此处）。"
+
+#: mesh_mesh_align_plus/utils/storage.py:125
+msgid "Pointer to an item in the list, the first item that the calculation will be based on."
+msgstr "指向列表中某一项目的指针，计算所依据的第一个项目。"
+
+#: mesh_mesh_align_plus/utils/storage.py:117
+msgid "Pointer to an item in the list, the item that the calculation will be based on."
+msgstr "指向列表中某一项目的指针，计算所依据的项目。"
+
+#: mesh_mesh_align_plus/utils/storage.py:132
+msgid "Pointer to an item in the list, the second item that the calculation will be based on."
+msgstr "指向列表中某一项目的指针，计算所依据的第二个项目。"
+
+#: mesh_mesh_align_plus/utils/storage.py:303
+msgid "Pointer to an item in the list, the source edge (this edge will be scaled to match the destination edge's length)."
+msgstr "指向列表中某一项目的指针，源边（此边将被缩放以匹配目标边的长度）。"
+
+#: mesh_mesh_align_plus/utils/storage.py:248
+msgid "Pointer to an item in the list, the source line (this line will be 'moved' to match the destination)."
+msgstr "指向列表中某一项目的指针，源线（此线将被“移动”以匹配目标）。"
+
+#: mesh_mesh_align_plus/utils/storage.py:212
+msgid "Pointer to an item in the list, the source plane (this plane will be 'moved' to match the destination)."
+msgstr "指向列表中某一项目的指针，源平面（此平面将被“移动”以匹配目标）。"
+
+#: mesh_mesh_align_plus/utils/storage.py:182
+msgid "Pointer to an item in the list, the source point (this point will be 'moved' to match the destination)."
+msgstr "指向列表中某一项目的指针，源点（此点将被“移动”以匹配目标）。"
+
+#: mesh_mesh_align_plus/__init__.py:30
+msgid "Precisely move mesh parts and objects around based on geometry and measurements from your scene."
+msgstr "根据场景中的几何体和测量数据精确移动网格部件和物体。"
+
+#: mesh_mesh_align_plus/align_points.py:280
+msgid "Quick Align Points Mesh Selected"
+msgstr "快速对齐点（选定网格）"
+
+#: mesh_mesh_align_plus/align_points.py:247
+msgid "Quick Align Points Object"
+msgstr "快速对齐点（物体）"
+
+#: mesh_mesh_align_plus/align_points.py:258
+msgid "Quick Align Points Object Origin"
+msgstr "快速对齐点（物体原点）"
+
+#: mesh_mesh_align_plus/align_points.py:300
+msgid "Quick Align Points Whole Mesh"
+msgstr "快速对齐点（整个网格）"
+
+#: mesh_mesh_align_plus/utils/storage.py:883
+msgid "Quick Calculation numeric result"
+msgstr "快速计算的数值结果"
+
+#: mesh_mesh_align_plus/advanced_tools.py:1260
+#: mesh_mesh_align_plus/advanced_tools.py:1325
+msgid "Result"
+msgstr "结果"
+
+#: mesh_mesh_align_plus/calculate_compose.py:1954
+msgid "Result Geom./Value:"
+msgstr "结果几何体/数值："
+
+#: mesh_mesh_align_plus/utils/storage.py:166
+msgid "Rotate around a specified axis"
+msgstr "绕指定轴旋转"
+
+#: mesh_mesh_align_plus/axis_rotate.py:270
+#: mesh_mesh_align_plus/axis_rotate.py:278
+msgid "Rotates around an axis"
+msgstr "绕轴旋转"
+
+#: mesh_mesh_align_plus/scale_match_edge.py:371
+msgid "Scale Match Edge Mesh Selected"
+msgstr "缩放匹配边（选定网格）"
+
+#: mesh_mesh_align_plus/scale_match_edge.py:339
+#: mesh_mesh_align_plus/scale_match_edge.py:349
+msgid "Scale Match Edge Object"
+msgstr "缩放匹配边（物体）"
+
+#: mesh_mesh_align_plus/scale_match_edge.py:360
+msgid "Scale Match Edge Object Origin"
+msgstr "缩放匹配边（物体原点）"
+
+#: mesh_mesh_align_plus/scale_match_edge.py:382
+#: mesh_mesh_align_plus/scale_match_edge.py:394
+msgid "Scale Match Edge Whole Mesh"
+msgstr "缩放匹配边（整个网格）"
+
+#: mesh_mesh_align_plus/scale_match_edge.py:383
+#: mesh_mesh_align_plus/scale_match_edge.py:395
+msgid "Scale source (whole) mesh so that source edge matches length of dest edge"
+msgstr "缩放源（整个）网格，使源边长度与目标边一致"
+
+#: mesh_mesh_align_plus/scale_match_edge.py:372
+msgid "Scale source mesh piece so that source edge matches length of dest edge"
+msgstr "缩放源网格部件，使源边长度与目标边一致"
+
+#: mesh_mesh_align_plus/scale_match_edge.py:340
+#: mesh_mesh_align_plus/scale_match_edge.py:350
+msgid "Scale source object so that source edge matches length of dest edge"
+msgstr "缩放源物体，使源边长度与目标边一致"
+
+#: mesh_mesh_align_plus/advanced_tools.py:1420
+msgid "Select a transformation above"
+msgstr "请在上方选择一种变换"
+
+#: mesh_mesh_align_plus/utils/geom.py:680
+msgid "Select at least one face to grab a face normal."
+msgstr "请至少选择一个面以获取面法向。"
+
+#: mesh_mesh_align_plus/utils/gui_tools.py:71
+msgid "Send:"
+msgstr "发送："
+
+#: mesh_mesh_align_plus/utils/geom.py:2075
+#: mesh_mesh_align_plus/utils/geom.py:2464
+msgid "Sends Line End Coordinates to 3D Cursor"
+msgstr "将线终点坐标发送到 3D 游标"
+
+#: mesh_mesh_align_plus/utils/geom.py:2074
+#: mesh_mesh_align_plus/utils/geom.py:2463
+msgid "Sends Line End to Cursor"
+msgstr "将线终点发送到游标"
+
+#: mesh_mesh_align_plus/utils/geom.py:2022
+#: mesh_mesh_align_plus/utils/geom.py:2030
+msgid "Sends Line Start Coordinates to 3D Cursor"
+msgstr "将线起点坐标发送到 3D 游标"
+
+#: mesh_mesh_align_plus/utils/geom.py:2021
+#: mesh_mesh_align_plus/utils/geom.py:2029
+msgid "Sends Line Start to Cursor"
+msgstr "将线起点发送到游标"
+
+#: mesh_mesh_align_plus/utils/geom.py:3495
+#: mesh_mesh_align_plus/utils/geom.py:3503
+msgid "Sends Plane Point A Coordinates to 3D Cursor"
+msgstr "将平面点 A 坐标发送到 3D 游标"
+
+#: mesh_mesh_align_plus/utils/geom.py:3494
+#: mesh_mesh_align_plus/utils/geom.py:3502
+msgid "Sends Plane Point A to Cursor"
+msgstr "将平面点 A 发送到游标"
+
+#: mesh_mesh_align_plus/utils/geom.py:3512
+#: mesh_mesh_align_plus/utils/geom.py:3539
+msgid "Sends Plane Point B Coordinates to 3D Cursor"
+msgstr "将平面点 B 坐标发送到 3D 游标"
+
+#: mesh_mesh_align_plus/utils/geom.py:3511
+#: mesh_mesh_align_plus/utils/geom.py:3538
+msgid "Sends Plane Point B to Cursor"
+msgstr "将平面点 B 发送到游标"
+
+#: mesh_mesh_align_plus/utils/geom.py:3521
+#: mesh_mesh_align_plus/utils/geom.py:3548
+msgid "Sends Plane Point C Coordinates to 3D Cursor"
+msgstr "将平面点 C 坐标发送到 3D 游标"
+
+#: mesh_mesh_align_plus/utils/geom.py:3520
+#: mesh_mesh_align_plus/utils/geom.py:3547
+msgid "Sends Plane Point C to Cursor"
+msgstr "将平面点 C 发送到游标"
+
+#: mesh_mesh_align_plus/utils/geom.py:1205
+#: mesh_mesh_align_plus/utils/geom.py:1213
+msgid "Sends Point Coordinates to the 3D Cursor"
+msgstr "将点坐标发送到 3D 游标"
+
+#: mesh_mesh_align_plus/utils/geom.py:1204
+#: mesh_mesh_align_plus/utils/geom.py:1212
+msgid "Sends Point to Cursor"
+msgstr "将点发送到游标"
+
+#: mesh_mesh_align_plus/advanced_tools.py:900
+#: mesh_mesh_align_plus/advanced_tools.py:988
+msgid "Set Length Equal to One"
+msgstr "将长度设为 1"
+
+#: mesh_mesh_align_plus/align_points.py:955
+#: mesh_mesh_align_plus/directional_slide.py:541
+msgid "Set Length to 1"
+msgstr "将长度设为 1"
+
+#: mesh_mesh_align_plus/utils/storage.py:197
+msgid "Set the move distance equal to one"
+msgstr "将移动距离设为 1"
+
+#: mesh_mesh_align_plus/utils/geom.py:5100
+#: mesh_mesh_align_plus/utils/geom.py:5101
+msgid "Show/hide \"distribute along line\" geometry"
+msgstr "显示/隐藏“沿线分布”几何体"
+
+#: mesh_mesh_align_plus/utils/geom.py:5124
+#: mesh_mesh_align_plus/utils/geom.py:5125
+msgid "Show/hide calculation result geometry"
+msgstr "显示/隐藏计算结果几何体"
+
+#: mesh_mesh_align_plus/utils/storage.py:327
+msgid "Show/hide list item info"
+msgstr "显示/隐藏列表项信息"
+
+#: mesh_mesh_align_plus/utils/geom.py:5156
+#: mesh_mesh_align_plus/utils/geom.py:5157
+msgid "Show/hide quick align lines destination geometry"
+msgstr "显示/隐藏快速对齐线目标几何体"
+
+#: mesh_mesh_align_plus/utils/geom.py:5148
+#: mesh_mesh_align_plus/utils/geom.py:5149
+msgid "Show/hide quick align lines source geometry"
+msgstr "显示/隐藏快速对齐线源几何体"
+
+#: mesh_mesh_align_plus/utils/geom.py:5172
+#: mesh_mesh_align_plus/utils/geom.py:5173
+msgid "Show/hide quick align planes destination geometry"
+msgstr "显示/隐藏快速对齐平面目标几何体"
+
+#: mesh_mesh_align_plus/utils/geom.py:5164
+#: mesh_mesh_align_plus/utils/geom.py:5165
+msgid "Show/hide quick align planes source geometry"
+msgstr "显示/隐藏快速对齐平面源几何体"
+
+#: mesh_mesh_align_plus/utils/geom.py:5140
+#: mesh_mesh_align_plus/utils/geom.py:5141
+msgid "Show/hide quick align points destination geometry"
+msgstr "显示/隐藏快速对齐点目标几何体"
+
+#: mesh_mesh_align_plus/utils/geom.py:5132
+#: mesh_mesh_align_plus/utils/geom.py:5133
+msgid "Show/hide quick align points source geometry"
+msgstr "显示/隐藏快速对齐点源几何体"
+
+#: mesh_mesh_align_plus/utils/geom.py:5188
+#: mesh_mesh_align_plus/utils/geom.py:5189
+msgid "Show/hide quick axis rotate source geometry"
+msgstr "显示/隐藏快速轴旋转源几何体"
+
+#: mesh_mesh_align_plus/utils/geom.py:5196
+#: mesh_mesh_align_plus/utils/geom.py:5197
+msgid "Show/hide quick directional slide source geometry"
+msgstr "显示/隐藏快速定向滑动源几何体"
+
+#: mesh_mesh_align_plus/utils/geom.py:5204
+#: mesh_mesh_align_plus/utils/geom.py:5205
+msgid "Show/hide quick scale match edge source geometry"
+msgstr "显示/隐藏快速缩放匹配边源几何体"
+
+#: mesh_mesh_align_plus/utils/geom.py:5108
+#: mesh_mesh_align_plus/utils/geom.py:5109
+msgid "Show/hide slot 1 geometry"
+msgstr "显示/隐藏槽位 1 几何体"
+
+#: mesh_mesh_align_plus/utils/geom.py:5116
+#: mesh_mesh_align_plus/utils/geom.py:5117
+msgid "Show/hide slot 2 geometry"
+msgstr "显示/隐藏槽位 2 几何体"
+
+#: mesh_mesh_align_plus/utils/storage.py:105
+msgid "Single"
+msgstr "单个"
+
+#: mesh_mesh_align_plus/utils/storage.py:140
+msgid "Single Item Calc. Result"
+msgstr "单项计算结果"
+
+#: mesh_mesh_align_plus/utils/storage.py:105
+msgid "Single item calculation"
+msgstr "单项计算"
+
+#: mesh_mesh_align_plus/calculate_compose.py:1326
+msgid "Slot 1 Coordinates"
+msgstr "槽位 1 坐标"
+
+#: mesh_mesh_align_plus/calculate_compose.py:1652
+msgid "Slot 2 Coordinates"
+msgstr "槽位 2 坐标"
+
+#: mesh_mesh_align_plus/align_lines.py:870
+#: mesh_mesh_align_plus/align_planes.py:1248
+msgid "Source Coordinates"
+msgstr "源坐标"
+
+#: mesh_mesh_align_plus/advanced_tools.py:1647
+msgid "Source Edge"
+msgstr "源边"
+
+#: mesh_mesh_align_plus/advanced_tools.py:1636
+#: mesh_mesh_align_plus/advanced_tools.py:1686
+msgid "Source Line"
+msgstr "源线"
+
+#: mesh_mesh_align_plus/advanced_tools.py:1708
+msgid "Source Plane"
+msgstr "源平面"
+
+#: mesh_mesh_align_plus/advanced_tools.py:1614
+msgid "Source Point"
+msgstr "源点"
+
+#: mesh_mesh_align_plus/utils/geom.py:823
+#: mesh_mesh_align_plus/utils/geom.py:847
+msgid "Special grab-all: Select 1 vert for a Point, 2 for a Line,\n3 for a Plane. Grabs global coordinates from selected vertices\nin edit mode and sets slot type"
+msgstr "特殊全部抓取：选择 1 个顶点作为点，2 个作为线，\n3 个作为平面。在编辑模式下从所选顶点抓取全局坐标\n并设置槽位类型"
+
+#: mesh_mesh_align_plus/utils/storage.py:668
+msgid "Stage flag for easy angle finder"
+msgstr "简易角度查找器的阶段标志"
+
+#: mesh_mesh_align_plus/utils/storage.py:610
+msgid "Stage indicator flag for Easy Align Lines"
+msgstr "简易对齐线的阶段指示标志"
+
+#: mesh_mesh_align_plus/utils/storage.py:757
+msgid "Stage indicator flag for Easy Align Planes"
+msgstr "简易对齐平面的阶段指示标志"
+
+#: mesh_mesh_align_plus/utils/storage.py:392
+msgid "Stage indicator flag for Easy Align Points"
+msgstr "简易对齐点的阶段指示标志"
+
+#: mesh_mesh_align_plus/utils/storage.py:548
+msgid "Stage indicator flag for Easy Scale Match Edge"
+msgstr "简易缩放匹配边的阶段指示标志"
+
+#: mesh_mesh_align_plus/utils/storage.py:765
+msgid "Start Object"
+msgstr "起始物体"
+
+#: mesh_mesh_align_plus/distribute_objects.py:266
+#: mesh_mesh_align_plus/distribute_objects.py:443
+msgid "Start Offset"
+msgstr "起始偏移"
+
+#: mesh_mesh_align_plus/calculate_compose.py:908
+#: mesh_mesh_align_plus/calculate_compose.py:918
+msgid "Subtract Lines"
+msgstr "减去线"
+
+#: mesh_mesh_align_plus/utils/geom.py:4251
+#: mesh_mesh_align_plus/utils/geom.py:4259
+msgid "Swap Line Points"
+msgstr "交换线点"
+
+#: mesh_mesh_align_plus/utils/geom.py:4349
+#: mesh_mesh_align_plus/utils/geom.py:4373
+msgid "Swap Plane Point A with Plane Point B"
+msgstr "交换平面点 A 与平面点 B"
+
+#: mesh_mesh_align_plus/utils/geom.py:4357
+#: mesh_mesh_align_plus/utils/geom.py:4382
+msgid "Swap Plane Point A with Plane Point C"
+msgstr "交换平面点 A 与平面点 C"
+
+#: mesh_mesh_align_plus/utils/geom.py:4365
+#: mesh_mesh_align_plus/utils/geom.py:4391
+msgid "Swap Plane Point B with Plane Point C"
+msgstr "交换平面点 B 与平面点 C"
+
+#: mesh_mesh_align_plus/utils/geom.py:4252
+#: mesh_mesh_align_plus/utils/geom.py:4260
+msgid "Swap line points"
+msgstr "交换线点"
+
+#: mesh_mesh_align_plus/utils/geom.py:4350
+#: mesh_mesh_align_plus/utils/geom.py:4374
+msgid "Swap plane points A and B"
+msgstr "交换平面点 A 和 B"
+
+#: mesh_mesh_align_plus/utils/geom.py:4358
+#: mesh_mesh_align_plus/utils/geom.py:4383
+msgid "Swap plane points A and C"
+msgstr "交换平面点 A 和 C"
+
+#: mesh_mesh_align_plus/utils/geom.py:4366
+#: mesh_mesh_align_plus/utils/geom.py:4392
+msgid "Swap plane points B and C"
+msgstr "交换平面点 B 和 C"
+
+#: mesh_mesh_align_plus/utils/gui_tools.py:54
+msgid "Swap:"
+msgstr "交换："
+
+#: mesh_mesh_align_plus/utils/storage.py:231
+msgid "Switches to custom transform orientation upon applying the operator (oriented to the destination plane)."
+msgstr "应用操作时切换到自定义变换方向（朝向目标平面）。"
+
+#: mesh_mesh_align_plus/scale_match_edge.py:1144
+msgid "Target Length"
+msgstr "目标长度"
+
+#: mesh_mesh_align_plus/advanced_tools.py:1238
+msgid "Target:"
+msgstr "目标："
+
+#: mesh_mesh_align_plus/advanced_tools.py:1293
+msgid "Targets:"
+msgstr "目标："
+
+#: mesh_mesh_align_plus/utils/storage.py:383
+#: mesh_mesh_align_plus/utils/storage.py:452
+msgid "The alignment mode (how to apply the alignment)"
+msgstr "对齐模式（如何应用对齐）"
+
+#: mesh_mesh_align_plus/utils/storage.py:269
+msgid "The axis to rotate around"
+msgstr "旋转所围绕的轴"
+
+#: mesh_mesh_align_plus/utils/storage.py:284
+msgid "The direction to move"
+msgstr "移动方向"
+
+#: mesh_mesh_align_plus/utils/storage.py:23
+msgid "The name of this item"
+msgstr "此项目的名称"
+
+#: mesh_mesh_align_plus/utils/storage.py:765
+msgid "The object to use as a starting location"
+msgstr "用作起始位置的物体"
+
+#: mesh_mesh_align_plus/utils/storage.py:770
+msgid "The object to use as an ending location"
+msgstr "用作结束位置的物体"
+
+#: mesh_mesh_align_plus/utils/storage.py:172
+msgid "The transformation type has not been set"
+msgstr "尚未设置变换类型"
+
+#: mesh_mesh_align_plus/utils/storage.py:103
+msgid "The type of calculation to perform"
+msgstr "要执行的计算类型"
+
+#: mesh_mesh_align_plus/utils/storage.py:28
+msgid "The type of this item"
+msgstr "此项目的类型"
+
+#: mesh_mesh_align_plus/utils/storage.py:152
+msgid "The type of transformation to perform"
+msgstr "要执行的变换类型"
+
+#: mesh_mesh_align_plus/calculate_compose.py:2289
+msgid "Tools:"
+msgstr "工具："
+
+#: mesh_mesh_align_plus/utils/storage.py:152
+msgid "Transf. Type"
+msgstr "变换类型"
+
+#: mesh_mesh_align_plus/utils/storage.py:34
+msgid "Transformation"
+msgstr "变换"
+
+#: mesh_mesh_align_plus/advanced_tools.py:1552
+msgid "Transformation Modifiers:"
+msgstr "变换修改器："
+
+#: mesh_mesh_align_plus/utils/storage.py:34
+msgid "Transformation Primitive"
+msgstr "变换基元"
+
+#: mesh_mesh_align_plus/utils/storage.py:383
+#: mesh_mesh_align_plus/utils/storage.py:452
+msgid "Transformation Type"
+msgstr "变换类型"
+
+#: mesh_mesh_align_plus/advanced_tools.py:1385
+msgid "Transformation Type Selectors:"
+msgstr "变换类型选择器："
+
+#: mesh_mesh_align_plus/directional_slide.py:262
+#: mesh_mesh_align_plus/directional_slide.py:270
+msgid "Translates a target mesh (moves mesh in a direction)"
+msgstr "平移目标网格（沿方向移动网格）"
+
+#: mesh_mesh_align_plus/directional_slide.py:252
+msgid "Translates a target mesh piece (moves selected verts in a direction)"
+msgstr "平移目标网格部分（沿方向移动所选顶点）"
+
+#: mesh_mesh_align_plus/directional_slide.py:226
+#: mesh_mesh_align_plus/directional_slide.py:234
+msgid "Translates a target object (moves in a direction)"
+msgstr "平移目标物体（沿方向移动）"
+
+#: mesh_mesh_align_plus/utils/storage.py:56
+msgid "Treat the point like a vector and multiply its length by this value"
+msgstr "将点视为向量，并将其长度乘以该值"
+
+#: mesh_mesh_align_plus/utils/storage.py:47
+msgid "Treat the point like a vector of length 1"
+msgstr "将点视为长度为 1 的向量"
+
+#: mesh_mesh_align_plus/utils/storage.py:50
+msgid "Treat the point like a vector pointing in the opposite direction"
+msgstr "将点视为指向相反方向的向量"
+
+#: mesh_mesh_align_plus/utils/storage.py:172
+msgid "Undefined"
+msgstr "未定义"
+
+#: mesh_mesh_align_plus/distribute_objects.py:261
+#: mesh_mesh_align_plus/distribute_objects.py:453
+msgid "Use Last Selection"
+msgstr "使用上次选择"
+
+#: mesh_mesh_align_plus/align_planes.py:1522
+msgid "Use Transf. Orientation"
+msgstr "使用变换方向"
+
+#: mesh_mesh_align_plus/utils/storage.py:499
+msgid "Use alternate \"Numeric Input\" mode to type a target edge length in directly."
+msgstr "使用备用“数值输入”模式直接输入目标边长度。"
+
+#: mesh_mesh_align_plus/utils/storage.py:400
+#: mesh_mesh_align_plus/utils/storage.py:618
+msgid "Verts"
+msgstr "顶点"
+
+#: mesh_mesh_align_plus/align_lines.py:193
+#: mesh_mesh_align_plus/align_lines.py:612
+msgid "Warning: mesh transforms on objects with non-uniform scaling are not currently supported."
+msgstr "警告：当前不支持对具有非均匀缩放的物体进行网格变换。"
+
+#: mesh_mesh_align_plus/utils/storage.py:386
+#: mesh_mesh_align_plus/utils/storage.py:455
+msgid "Whole Mesh"
+msgstr "整个网格"
+
+#: mesh_mesh_align_plus/calculate_compose.py:488
+msgid "Wrong operand(s): \"Compose New Line at Point\" can only operate with both a line and a point"
+msgstr "操作数错误：“在点处组合新线”只能同时作用于一条线和一个点"
+
+#: mesh_mesh_align_plus/calculate_compose.py:758
+#: mesh_mesh_align_plus/calculate_compose.py:858
+msgid "Wrong operand: \"Add Lines\" can only operate on two lines"
+msgstr "操作数错误：“添加线”只能作用于两条线"
+
+#: mesh_mesh_align_plus/calculate_compose.py:578
+msgid "Wrong operand: \"Calculate Distance Between Points\" can only operate on two points"
+msgstr "操作数错误：“计算点间距离”只能作用于两个点"
+
+#: mesh_mesh_align_plus/calculate_compose.py:34
+msgid "Wrong operand: \"Calculate Line Length\" can only operate on a line"
+msgstr "操作数错误：“计算线长”只能作用于一条线"
+
+#: mesh_mesh_align_plus/calculate_compose.py:113
+msgid "Wrong operand: \"Calculate Rotational Difference\" can only operate on two lines"
+msgstr "操作数错误：“计算旋转差”只能作用于两条线"
+
+#: mesh_mesh_align_plus/calculate_compose.py:207
+msgid "Wrong operand: \"Compose New Line from Origin\" can only operate on a line"
+msgstr "操作数错误：“从原点组合新线”只能作用于一条线"
+
+#: mesh_mesh_align_plus/calculate_compose.py:393
+msgid "Wrong operand: \"Compose New Line from Point\" can only operate on a point"
+msgstr "操作数错误：“从点组合新线”只能作用于一个点"
+
+#: mesh_mesh_align_plus/calculate_compose.py:663
+msgid "Wrong operand: \"Compose New Line from Points\" can only operate on two points"
+msgstr "操作数错误：“从多个点组合新线”只能作用于两个点"
+
+#: mesh_mesh_align_plus/directional_slide.py:67
+msgid "Wrong operand: \"Directional Slide\" can only operate on a line"
+msgstr "操作数错误：“定向滑动”只能作用于一条线"
+
+#: mesh_mesh_align_plus/advanced_tools.py:204
+msgid "Wrong operand: \"Duplicate Item\" can only operate on geometry items"
+msgstr "操作数错误：“复制项”只能作用于几何项"
+
+#: mesh_mesh_align_plus/calculate_compose.py:294
+msgid "Wrong operand: \"Get Plane Normal\" can only operate on a plane"
+msgstr "操作数错误：“获取平面法向”只能作用于一个平面"
+
+#: mesh_mesh_align_plus/calculate_compose.py:964
+msgid "Wrong operand: \"Intersect Line/Plane\" can only operate on a line and a plane."
+msgstr "操作数错误：“线与平面相交”只能作用于一条线和一个平面。"
+
+#: mesh_mesh_align_plus/calculate_compose.py:1228
+msgid "Wrong operand: \"Intersect plane/plane\" can only operate on a plane and a plane."
+msgstr "操作数错误：“平面与平面相交”只能作用于一个平面和一个平面。"
+
+#: mesh_mesh_align_plus/calculate_compose.py:1084
+msgid "Wrong operand: \"Nearest Line/Point\" can only operate on a line and a point."
+msgstr "操作数错误：“最近线/点”只能作用于一条线和一个点。"
+
+#: mesh_mesh_align_plus/calculate_compose.py:1153
+msgid "Wrong operand: \"Nearest Pt. Line/Line\" can only operate on a line and a line."
+msgstr "操作数错误：“最近点 线/线”只能作用于一条线和一条线。"
+
+#: mesh_mesh_align_plus/align_lines.py:69
+msgid "Wrong operands: \"Align Lines\" can only operate on two lines"
+msgstr "操作数错误：“对齐线”只能作用于两条线"
+
+#: mesh_mesh_align_plus/align_planes.py:70
+msgid "Wrong operands: \"Align Planes\" can only operate on two planes"
+msgstr "操作数错误：“对齐平面”只能作用于两个平面"
+
+#: mesh_mesh_align_plus/align_points.py:71
+msgid "Wrong operands: \"Align Points\" can only operate on two points"
+msgstr "操作数错误：“对齐点”只能作用于两个点"
+
+#: mesh_mesh_align_plus/axis_rotate.py:70
+msgid "Wrong operands: \"Axis Rotate\" can only operate on a line"
+msgstr "操作数错误：“轴旋转”只能作用于一条线"
+
+#: mesh_mesh_align_plus/scale_match_edge.py:69
+msgid "Wrong operands: \"Scale Match Edge\" can only operate on two lines"
+msgstr "操作数错误：“缩放匹配边”只能作用于两条线"
+
+#: mesh_mesh_align_plus/advanced_tools.py:771
+msgctxt "Operator"
+msgid "+Ref."
+msgstr "+参考"
+
+#: mesh_mesh_align_plus/advanced_tools.py:1361
+#: mesh_mesh_align_plus/calculate_compose.py:736
+msgctxt "Operator"
+msgid "Add Lines"
+msgstr "添加线"
+
+#: mesh_mesh_align_plus/advanced_tools.py:65
+msgctxt "Operator"
+msgid "Add a new item"
+msgstr "添加新项"
+
+#: mesh_mesh_align_plus/advanced_tools.py:624
+msgctxt "Operator"
+msgid "Adds commonly used reference geometry (XY, XZ,\n YZ planes, axis lines, etc.) to the geometry manager"
+msgstr "将常用参考几何（XY、XZ、\nYZ 平面、坐标轴线等）添加到几何管理器"
+
+#: mesh_mesh_align_plus/advanced_tools.py:66
+msgctxt "Operator"
+msgid "Adds geometry to store/save in the geometry manager list"
+msgstr "将几何添加并保存到几何管理器列表"
+
+#: mesh_mesh_align_plus/advanced_tools.py:618
+msgctxt "Operator"
+msgid "Adds reference planes (XY, XZ, YZ), axis unit vectors (X, Y, Z) and origin pt. (0, 0, 0) to the geometry manager list."
+msgstr "将参考平面（XY、XZ、YZ）、轴单位向量（X、Y、Z）和原点 (0, 0, 0) 添加到几何管理器列表。"
+
+#: mesh_mesh_align_plus/advanced_tools.py:1392
+msgctxt "Operator"
+msgid "Align Lines"
+msgstr "对齐线"
+
+#: mesh_mesh_align_plus/align_lines.py:15
+msgctxt "Operator"
+msgid "Align Lines Base"
+msgstr "对齐线基类"
+
+#: mesh_mesh_align_plus/align_objects.py:12
+#: mesh_mesh_align_plus/align_objects.py:13
+msgctxt "Operator"
+msgid "Align Objects"
+msgstr "对齐物体"
+
+#: mesh_mesh_align_plus/advanced_tools.py:1397
+msgctxt "Operator"
+msgid "Align Planes"
+msgstr "对齐平面"
+
+#: mesh_mesh_align_plus/align_planes.py:17
+msgctxt "Operator"
+msgid "Align Planes base"
+msgstr "对齐平面基类"
+
+#: mesh_mesh_align_plus/align_planes.py:18
+msgctxt "Operator"
+msgid "Align Planes base class"
+msgstr "对齐平面基类"
+
+#: mesh_mesh_align_plus/advanced_tools.py:1387
+msgctxt "Operator"
+msgid "Align Points"
+msgstr "对齐点"
+
+#: mesh_mesh_align_plus/align_points.py:15
+msgctxt "Operator"
+msgid "Align Points Base"
+msgstr "对齐点基类"
+
+#: mesh_mesh_align_plus/align_lines.py:16
+msgctxt "Operator"
+msgid "Align lines base class"
+msgstr "对齐线基类"
+
+#: mesh_mesh_align_plus/align_points.py:16
+msgctxt "Operator"
+msgid "Align points base class"
+msgstr "对齐点基类"
+
+#: mesh_mesh_align_plus/align_lines.py:800
+#: mesh_mesh_align_plus/align_planes.py:1184
+msgctxt "Operator"
+msgid "Align to Active"
+msgstr "对齐到活动项"
+
+#: mesh_mesh_align_plus/advanced_tools.py:1357
+#: mesh_mesh_align_plus/calculate_compose.py:90
+msgctxt "Operator"
+msgid "Angle of Lines"
+msgstr "线夹角"
+
+#: mesh_mesh_align_plus/utils/geom.py:4924
+msgctxt "Operator"
+msgid "Applies modifiers on the current geometry item."
+msgstr "对当前几何项应用修改器。"
+
+#: mesh_mesh_align_plus/advanced_tools.py:894
+#: mesh_mesh_align_plus/advanced_tools.py:982
+msgctxt "Operator"
+msgid "Apply Modifiers"
+msgstr "应用修改器"
+
+#: mesh_mesh_align_plus/advanced_tools.py:1412
+msgctxt "Operator"
+msgid "Axis Rotate"
+msgstr "轴旋转"
+
+#: mesh_mesh_align_plus/axis_rotate.py:17
+msgctxt "Operator"
+msgid "Axis Rotate Base"
+msgstr "轴旋转基类"
+
+#: mesh_mesh_align_plus/axis_rotate.py:18
+msgctxt "Operator"
+msgid "Axis rotate base class"
+msgstr "轴旋转基类"
+
+#: mesh_mesh_align_plus/calculate_compose.py:16
+msgctxt "Operator"
+msgid "Calculate Line Length"
+msgstr "计算线长"
+
+#: mesh_mesh_align_plus/calculate_compose.py:558
+msgctxt "Operator"
+msgid "Calculate the distance between provided point items"
+msgstr "计算提供的点项之间的距离"
+
+#: mesh_mesh_align_plus/calculate_compose.py:17
+msgctxt "Operator"
+msgid "Calculates the length of the targeted line item"
+msgstr "计算目标线项的长度"
+
+#: mesh_mesh_align_plus/calculate_compose.py:91
+msgctxt "Operator"
+msgid "Calculates the rotational difference between line items"
+msgstr "计算线项之间的旋转差"
+
+#: mesh_mesh_align_plus/advanced_tools.py:358
+msgctxt "Operator"
+msgid "Change calculation base class"
+msgstr "更改计算基类"
+
+#: mesh_mesh_align_plus/advanced_tools.py:413
+msgctxt "Operator"
+msgid "Change transformation base class"
+msgstr "更改变换基类"
+
+#: mesh_mesh_align_plus/advanced_tools.py:250
+msgctxt "Operator"
+msgid "Change type base class"
+msgstr "更改类型基类"
+
+#: mesh_mesh_align_plus/align_lines.py:348
+msgctxt "Operator"
+msgid "Clear/Restart Easy Align Lines"
+msgstr "清除/重启简易对齐线"
+
+#: mesh_mesh_align_plus/align_planes.py:683
+msgctxt "Operator"
+msgid "Clear/Restart Easy Align Planes"
+msgstr "清除/重启简易对齐平面"
+
+#: mesh_mesh_align_plus/align_points.py:310
+msgctxt "Operator"
+msgid "Clear/Restart Easy Align Points"
+msgstr "清除/重启简易对齐点"
+
+#: mesh_mesh_align_plus/axis_rotate.py:349
+msgctxt "Operator"
+msgid "Clear/Restart Easy Angle Diff (Line angle/rotational diff finder)"
+msgstr "清除/重启简易角度差（线角度/旋转差查找器）"
+
+#: mesh_mesh_align_plus/axis_rotate.py:330
+msgctxt "Operator"
+msgid "Clear/Restart Easy Axis Rotate"
+msgstr "清除/重启简易轴旋转"
+
+#: mesh_mesh_align_plus/scale_match_edge.py:418
+msgctxt "Operator"
+msgid "Clear/Restart Easy Scale Match Edge"
+msgstr "清除/重启简易缩放匹配边"
+
+#: mesh_mesh_align_plus/calculate_compose.py:1202
+msgctxt "Operator"
+msgid "Composes a new line by finding the intersection of two planes"
+msgstr "通过求两个平面的交线来组合新线"
+
+#: mesh_mesh_align_plus/calculate_compose.py:834
+msgctxt "Operator"
+msgid "Composes a new line item by performing vector-subtraction (first line minus second line)"
+msgstr "通过执行向量减法（第一条线减去第二条线）组合新线项"
+
+#: mesh_mesh_align_plus/calculate_compose.py:737
+msgctxt "Operator"
+msgid "Composes a new line item by vector-adding provided lines"
+msgstr "通过对提供的线进行向量加法组合新线项"
+
+#: mesh_mesh_align_plus/calculate_compose.py:642
+msgctxt "Operator"
+msgid "Composes a new line item from provided point items"
+msgstr "从提供的点项组合新线项"
+
+#: mesh_mesh_align_plus/calculate_compose.py:372
+msgctxt "Operator"
+msgid "Composes a new line item from the supplied point, starting at the world origin"
+msgstr "从提供的点组合新线项，以世界原点为起点"
+
+#: mesh_mesh_align_plus/calculate_compose.py:466
+msgctxt "Operator"
+msgid "Composes a new line item starting at the point location"
+msgstr "以点位置为起点组合新线项"
+
+#: mesh_mesh_align_plus/calculate_compose.py:189
+msgctxt "Operator"
+msgid "Composes a new line item starting at the world origin"
+msgstr "以世界原点为起点组合新线项"
+
+#: mesh_mesh_align_plus/calculate_compose.py:1125
+msgctxt "Operator"
+msgid "Composes a new point by finding the closest point on\nthe first line to the second line. NOTE: Works on\nlines, not fixed length segments."
+msgstr "通过查找第一条线上最接近第二条线的点来组合新点。注意：\n作用于线，而不是固定长度线段。"
+
+#: mesh_mesh_align_plus/calculate_compose.py:1051
+msgctxt "Operator"
+msgid "Composes a new point by finding the closest point on a line to a given point"
+msgstr "通过查找线上最接近给定点的点来组合新点"
+
+#: mesh_mesh_align_plus/calculate_compose.py:940
+msgctxt "Operator"
+msgid "Composes a new point item by intersecting a line and a plane"
+msgstr "通过线和平面的相交组合新点项"
+
+#: mesh_mesh_align_plus/utils/storage.py:902
+msgctxt "Operator"
+msgid "Copies this item to a destination"
+msgstr "将此项复制到目标位置"
+
+#: mesh_mesh_align_plus/advanced_tools.py:761
+#: mesh_mesh_align_plus/advanced_tools.py:937
+msgctxt "Operator"
+msgid "Copy (To Clipboard)"
+msgstr "复制（到剪贴板）"
+
+#: mesh_mesh_align_plus/utils/storage.py:901
+msgctxt "Operator"
+msgid "Copy to other"
+msgstr "复制到其他项"
+
+#: mesh_mesh_align_plus/advanced_tools.py:123
+msgctxt "Operator"
+msgid "Delete an item from the geometry manager list"
+msgstr "从几何管理器列表中删除项目"
+
+#: mesh_mesh_align_plus/advanced_tools.py:1402
+msgctxt "Operator"
+msgid "Directional Slide"
+msgstr "定向滑动"
+
+#: mesh_mesh_align_plus/directional_slide.py:15
+msgctxt "Operator"
+msgid "Directional Slide Base"
+msgstr "定向滑动基础类"
+
+#: mesh_mesh_align_plus/directional_slide.py:16
+msgctxt "Operator"
+msgid "Directional slide base class"
+msgstr "定向滑动基础类"
+
+#: mesh_mesh_align_plus/advanced_tools.py:1351
+#: mesh_mesh_align_plus/calculate_compose.py:557
+msgctxt "Operator"
+msgid "Distance Between Points"
+msgstr "点间距离"
+
+#: mesh_mesh_align_plus/distribute_objects.py:458
+msgctxt "Operator"
+msgid "Distribute Along Line"
+msgstr "沿直线分布"
+
+#: mesh_mesh_align_plus/distribute_objects.py:276
+msgctxt "Operator"
+msgid "Distribute Between"
+msgstr "在之间分布"
+
+#: mesh_mesh_align_plus/distribute_objects.py:13
+#: mesh_mesh_align_plus/distribute_objects.py:146
+msgctxt "Operator"
+msgid "Distribute Objects"
+msgstr "分布物体"
+
+#: mesh_mesh_align_plus/distribute_objects.py:147
+msgctxt "Operator"
+msgid "Distribute Objects Along a Specified Line"
+msgstr "沿指定直线分布物体"
+
+#: mesh_mesh_align_plus/distribute_objects.py:14
+msgctxt "Operator"
+msgid "Distribute Objects Between Start and End Objects"
+msgstr "在起始和结束物体之间分布物体"
+
+#: mesh_mesh_align_plus/advanced_tools.py:193
+#: mesh_mesh_align_plus/advanced_tools.py:972
+msgctxt "Operator"
+msgid "Duplicate Item"
+msgstr "复制项目"
+
+#: mesh_mesh_align_plus/advanced_tools.py:194
+msgctxt "Operator"
+msgid "Duplicates this item"
+msgstr "复制此项目"
+
+#: mesh_mesh_align_plus/align_lines.py:373
+msgctxt "Operator"
+msgid "Easy Align Lines"
+msgstr "简易对齐线"
+
+#: mesh_mesh_align_plus/align_planes.py:708
+msgctxt "Operator"
+msgid "Easy Align Planes"
+msgstr "简易对齐平面"
+
+#: mesh_mesh_align_plus/align_points.py:335
+msgctxt "Operator"
+msgid "Easy Align Points"
+msgstr "简易对齐点"
+
+#: mesh_mesh_align_plus/axis_rotate.py:495
+msgctxt "Operator"
+msgid "Easy Axis Rotate"
+msgstr "简易轴旋转"
+
+#: mesh_mesh_align_plus/directional_slide.py:287
+msgctxt "Operator"
+msgid "Easy Directional Slide"
+msgstr "简易定向滑动"
+
+#: mesh_mesh_align_plus/scale_match_edge.py:443
+msgctxt "Operator"
+msgid "Easy Scale Match Edge"
+msgstr "简易缩放匹配边"
+
+#: mesh_mesh_align_plus/align_points.py:336
+msgctxt "Operator"
+msgid "Easy align points (location match) operator. Select\n any vert and press, then select another vert and press\n again to align the first point to the second (all\n objects selected during first press will move)"
+msgstr "简易对齐点（位置匹配）操作符。选择任意顶点并按下，然后选择另一个顶点并再次按下，以将第一个点对齐到第二个（第一次按下期间选择的所有物体会移动）"
+
+#: mesh_mesh_align_plus/axis_rotate.py:373
+msgctxt "Operator"
+msgid "Easy angle between lines"
+msgstr "简易线间角度"
+
+#: mesh_mesh_align_plus/directional_slide.py:288
+msgctxt "Operator"
+msgid "Easy move-in-a-direction operator, specify direction with any 2 verts"
+msgstr "简易沿方向移动操作符，用任意 2 个顶点指定方向"
+
+#: mesh_mesh_align_plus/scale_match_edge.py:444
+msgctxt "Operator"
+msgid "Easy two-stage"
+msgstr "简易两阶段"
+
+#: mesh_mesh_align_plus/align_lines.py:374
+msgctxt "Operator"
+msgid "Easy two-stage align lines (make-collinear) operator.\n Select any 2 verts (first line) and press, then select\n any other 2 verts (second line) and press to align\n the first line to the second (all objects selected\n during first press move). Line1 and Line2 verts\n can come from separate objects"
+msgstr "简易两阶段对齐线（使其共线）操作符。选择任意 2 个顶点（第一条线）并按下，然后选择任意另外 2 个顶点（第二条线）并按下，以将第一条线对齐到第二条（第一次按下期间选择的所有物体会移动）。线1 和线2 的顶点可来自不同物体"
+
+#: mesh_mesh_align_plus/align_planes.py:709
+msgctxt "Operator"
+msgid "Easy two-stage surface to surface (mating) alignment.\n Select any 3 verts (plane1) and press, then select\n any other 3 verts (plane2) and press to align\n the first plane to the second (all objects selected\n during first press move)"
+msgstr "简易两阶段表面对表面（贴合）对齐。选择任意 3 个顶点（平面1）并按下，然后选择任意另外 3 个顶点（平面2）并按下，以将第一个平面对齐到第二个（第一次按下期间选择的所有物体会移动）"
+
+#: mesh_mesh_align_plus/advanced_tools.py:723
+msgctxt "Operator"
+msgid "Expands/collapses item info in the geometry manager"
+msgstr "展开/折叠几何管理器中的项目信息"
+
+#: mesh_mesh_align_plus/align_lines.py:701
+msgctxt "Operator"
+msgid "Expands/collapses the easy align lines UI"
+msgstr "展开/折叠简易对齐线界面"
+
+#: mesh_mesh_align_plus/align_planes.py:1103
+msgctxt "Operator"
+msgid "Expands/collapses the easy align planes UI"
+msgstr "展开/折叠简易对齐平面界面"
+
+#: mesh_mesh_align_plus/align_points.py:603
+msgctxt "Operator"
+msgid "Expands/collapses the easy align points UI"
+msgstr "展开/折叠简易对齐点界面"
+
+#: mesh_mesh_align_plus/axis_rotate.py:722
+msgctxt "Operator"
+msgid "Expands/collapses the easy axis rotate UI"
+msgstr "展开/折叠简易轴旋转界面"
+
+#: mesh_mesh_align_plus/directional_slide.py:473
+msgctxt "Operator"
+msgid "Expands/collapses the easy directional slide UI"
+msgstr "展开/折叠简易定向滑动界面"
+
+#: mesh_mesh_align_plus/scale_match_edge.py:734
+msgctxt "Operator"
+msgid "Expands/collapses the easy scale match edge UI"
+msgstr "展开/折叠简易缩放匹配边界面"
+
+#: mesh_mesh_align_plus/align_lines.py:716
+msgctxt "Operator"
+msgid "Expands/collapses the quick align lines UI"
+msgstr "展开/折叠快速对齐线界面"
+
+#: mesh_mesh_align_plus/align_planes.py:1118
+msgctxt "Operator"
+msgid "Expands/collapses the quick align planes UI"
+msgstr "展开/折叠快速对齐平面界面"
+
+#: mesh_mesh_align_plus/align_points.py:618
+msgctxt "Operator"
+msgid "Expands/collapses the quick align points UI"
+msgstr "展开/折叠快速对齐点界面"
+
+#: mesh_mesh_align_plus/axis_rotate.py:737
+msgctxt "Operator"
+msgid "Expands/collapses the quick axis rotate UI"
+msgstr "展开/折叠快速轴旋转界面"
+
+#: mesh_mesh_align_plus/directional_slide.py:488
+msgctxt "Operator"
+msgid "Expands/collapses the quick directional slide UI"
+msgstr "展开/折叠快速定向滑动界面"
+
+#: mesh_mesh_align_plus/scale_match_edge.py:749
+msgctxt "Operator"
+msgid "Expands/collapses the quick scale match edge UI"
+msgstr "展开/折叠快速缩放匹配边界面"
+
+#: mesh_mesh_align_plus/calculate_compose.py:275
+msgctxt "Operator"
+msgid "Get Plane Normal"
+msgstr "获取平面法线"
+
+#: mesh_mesh_align_plus/advanced_tools.py:1286
+#: mesh_mesh_align_plus/calculate_compose.py:2324
+msgctxt "Operator"
+msgid "Get Plane Normal (Normalized)"
+msgstr "获取平面法线（归一化）"
+
+#: mesh_mesh_align_plus/calculate_compose.py:276
+msgctxt "Operator"
+msgid "Get the plane's normal as a new line item"
+msgstr "获取平面法线作为新的线项目"
+
+#: mesh_mesh_align_plus/advanced_tools.py:930
+#: mesh_mesh_align_plus/advanced_tools.py:1013
+msgctxt "Operator"
+msgid "Grab All Global"
+msgstr "抓取全部全局"
+
+#: mesh_mesh_align_plus/advanced_tools.py:925
+#: mesh_mesh_align_plus/advanced_tools.py:1008
+msgctxt "Operator"
+msgid "Grab All Local"
+msgstr "抓取全部局部"
+
+#: mesh_mesh_align_plus/utils/geom.py:549
+msgctxt "Operator"
+msgid "Grab Average Location Base Class"
+msgstr "抓取平均位置基础类"
+
+#: mesh_mesh_align_plus/axis_rotate.py:871
+msgctxt "Operator"
+msgid "Grab Axis"
+msgstr "抓取轴"
+
+#: mesh_mesh_align_plus/advanced_tools.py:920
+msgctxt "Operator"
+msgid "Grab Cursor"
+msgstr "抓取光标"
+
+#: mesh_mesh_align_plus/align_lines.py:993
+#: mesh_mesh_align_plus/align_planes.py:1379
+msgctxt "Operator"
+msgid "Grab Destination"
+msgstr "抓取目标"
+
+#: mesh_mesh_align_plus/distribute_objects.py:124
+#: mesh_mesh_align_plus/distribute_objects.py:248
+msgctxt "Operator"
+msgid "Grab End"
+msgstr "抓取终点"
+
+#: mesh_mesh_align_plus/utils/geom.py:700
+msgctxt "Operator"
+msgid "Grab From Cursor Base Class"
+msgstr "从光标抓取基础类"
+
+#: mesh_mesh_align_plus/utils/geom.py:354
+msgctxt "Operator"
+msgid "Grab From Geometry Base Class"
+msgstr "从几何体抓取基础类"
+
+#: mesh_mesh_align_plus/distribute_objects.py:304
+msgctxt "Operator"
+msgid "Grab Line"
+msgstr "抓取线"
+
+#: mesh_mesh_align_plus/axis_rotate.py:794
+msgctxt "Operator"
+msgid "Grab Line1"
+msgstr "抓取线1"
+
+#: mesh_mesh_align_plus/axis_rotate.py:799
+msgctxt "Operator"
+msgid "Grab Line2/Store"
+msgstr "抓取线2/存储"
+
+#: mesh_mesh_align_plus/advanced_tools.py:1020
+#: mesh_mesh_align_plus/align_lines.py:888
+msgctxt "Operator"
+msgid "Grab Normal"
+msgstr "抓取法线"
+
+#: mesh_mesh_align_plus/utils/geom.py:630
+msgctxt "Operator"
+msgid "Grab Normal Base Class"
+msgstr "抓取法线基础类"
+
+#: mesh_mesh_align_plus/align_planes.py:1550
+msgctxt "Operator"
+msgid "Grab Origin"
+msgstr "抓取原点"
+
+#: mesh_mesh_align_plus/align_lines.py:853
+#: mesh_mesh_align_plus/align_planes.py:1236
+msgctxt "Operator"
+msgid "Grab Source"
+msgstr "抓取源"
+
+#: mesh_mesh_align_plus/distribute_objects.py:102
+#: mesh_mesh_align_plus/distribute_objects.py:238
+msgctxt "Operator"
+msgid "Grab Start"
+msgstr "抓取起点"
+
+#: mesh_mesh_align_plus/utils/geom.py:439
+msgctxt "Operator"
+msgid "Grab Target"
+msgstr "抓取目标"
+
+#: mesh_mesh_align_plus/utils/geom.py:489
+msgctxt "Operator"
+msgid "Grab and Set Item Base Class"
+msgstr "抓取并设置项目基础类"
+
+#: mesh_mesh_align_plus/utils/geom.py:440
+msgctxt "Operator"
+msgid "Grab target for scale match edge numeric mode."
+msgstr "抓取缩放匹配边数值模式的目标。"
+
+#: mesh_mesh_align_plus/distribute_objects.py:125
+msgctxt "Operator"
+msgid "Grab the Ending Object"
+msgstr "抓取结束物体"
+
+#: mesh_mesh_align_plus/distribute_objects.py:103
+msgctxt "Operator"
+msgid "Grab the Starting Object"
+msgstr "抓取起始物体"
+
+#: mesh_mesh_align_plus/utils/geom.py:701
+msgctxt "Operator"
+msgid "Grabs coordinates from 3D cursor"
+msgstr "从 3D 光标抓取坐标"
+
+#: mesh_mesh_align_plus/axis_rotate.py:374
+msgctxt "Operator"
+msgid "Helper for Easy Axis Rotate, finds the angle between two\nlines. Two-stage operator: First click grabs line1 (from\nany 2 verts), second click grabs line 2 (from any 2 verts) and\nstores the angle in the Easy Axis Rotate 'Angle' field"
+msgstr "简易轴旋转的辅助工具，查找两条线之间的角度。两阶段操作符：第一次点击抓取线1（来自任意 2 个顶点），第二次点击抓取线2（来自任意 2 个顶点），并将角度存储到简易轴旋转的“角度”字段"
+
+#: mesh_mesh_align_plus/advanced_tools.py:1378
+#: mesh_mesh_align_plus/calculate_compose.py:939
+msgctxt "Operator"
+msgid "Intersect Line/Plane"
+msgstr "线/平面相交"
+
+#: mesh_mesh_align_plus/calculate_compose.py:1201
+#: mesh_mesh_align_plus/calculate_compose.py:2314
+msgctxt "Operator"
+msgid "Intersect Plane/Plane"
+msgstr "平面/平面相交"
+
+#: mesh_mesh_align_plus/advanced_tools.py:1276
+#: mesh_mesh_align_plus/calculate_compose.py:2296
+msgctxt "Operator"
+msgid "Line Length"
+msgstr "直线长度"
+
+#: mesh_mesh_align_plus/scale_match_edge.py:816
+msgctxt "Operator"
+msgid "Match to Active"
+msgstr "匹配到活动项"
+
+#: mesh_mesh_align_plus/advanced_tools.py:1434
+#: mesh_mesh_align_plus/advanced_tools.py:1455
+msgctxt "Operator"
+msgid "Mesh Piece"
+msgstr "网格片段"
+
+#: mesh_mesh_align_plus/advanced_tools.py:1231
+msgctxt "Operator"
+msgid "Multi-Item"
+msgstr "多项目"
+
+#: mesh_mesh_align_plus/calculate_compose.py:1124
+#: mesh_mesh_align_plus/calculate_compose.py:2309
+msgctxt "Operator"
+msgid "Nearest Line/Line"
+msgstr "最近线/线"
+
+#: mesh_mesh_align_plus/calculate_compose.py:1050
+#: mesh_mesh_align_plus/calculate_compose.py:2304
+msgctxt "Operator"
+msgid "Nearest Point/Line"
+msgstr "最近点/线"
+
+#: mesh_mesh_align_plus/advanced_tools.py:1372
+#: mesh_mesh_align_plus/calculate_compose.py:2338
+msgctxt "Operator"
+msgid "New Line at Point"
+msgstr "在点处新建线"
+
+#: mesh_mesh_align_plus/calculate_compose.py:465
+msgctxt "Operator"
+msgid "New Line at Point Location"
+msgstr "在点位置新建线"
+
+#: mesh_mesh_align_plus/advanced_tools.py:1280
+#: mesh_mesh_align_plus/calculate_compose.py:188
+msgctxt "Operator"
+msgid "New Line from Origin"
+msgstr "从原点新建线"
+
+#: mesh_mesh_align_plus/advanced_tools.py:1270
+#: mesh_mesh_align_plus/calculate_compose.py:371
+msgctxt "Operator"
+msgid "New Line from Point"
+msgstr "从点新建线"
+
+#: mesh_mesh_align_plus/advanced_tools.py:1346
+#: mesh_mesh_align_plus/calculate_compose.py:641
+msgctxt "Operator"
+msgid "New Line from Points"
+msgstr "从多个点新建线"
+
+#: mesh_mesh_align_plus/align_lines.py:1138
+#: mesh_mesh_align_plus/align_planes.py:1698
+msgctxt "Operator"
+msgid "Obj. Origin"
+msgstr "物体原点"
+
+#: mesh_mesh_align_plus/advanced_tools.py:1428
+#: mesh_mesh_align_plus/advanced_tools.py:1449
+msgctxt "Operator"
+msgid "Object"
+msgstr "物体"
+
+#: mesh_mesh_align_plus/advanced_tools.py:766
+#: mesh_mesh_align_plus/advanced_tools.py:942
+msgctxt "Operator"
+msgid "Paste (From Clipboard)"
+msgstr "粘贴（从剪贴板）"
+
+#: mesh_mesh_align_plus/advanced_tools.py:122
+msgctxt "Operator"
+msgid "Remove an item"
+msgstr "移除项目"
+
+#: mesh_mesh_align_plus/align_lines.py:347
+msgctxt "Operator"
+msgid "Reset Easy Align Lines"
+msgstr "重置简易对齐线"
+
+#: mesh_mesh_align_plus/align_planes.py:682
+msgctxt "Operator"
+msgid "Reset Easy Align Planes"
+msgstr "重置简易对齐平面"
+
+#: mesh_mesh_align_plus/align_points.py:309
+msgctxt "Operator"
+msgid "Reset Easy Align Points"
+msgstr "重置简易对齐点"
+
+#: mesh_mesh_align_plus/axis_rotate.py:348
+msgctxt "Operator"
+msgid "Reset Easy Angle Diff"
+msgstr "重置简易角度差"
+
+#: mesh_mesh_align_plus/axis_rotate.py:329
+msgctxt "Operator"
+msgid "Reset Easy Axis Rotate"
+msgstr "重置简易轴旋转"
+
+#: mesh_mesh_align_plus/scale_match_edge.py:417
+msgctxt "Operator"
+msgid "Reset Easy Scale Match Edge"
+msgstr "重置简易缩放匹配边"
+
+#: mesh_mesh_align_plus/axis_rotate.py:822
+msgctxt "Operator"
+msgid "Rotate Active"
+msgstr "旋转活动项"
+
+#: mesh_mesh_align_plus/axis_rotate.py:496
+msgctxt "Operator"
+msgid "Rotate around an axis specified by any two selected verts.\n Use the Easy Angle Finder above to get line/angle differences"
+msgstr "绕由任意两个选中顶点指定的轴旋转。\n使用上方的简易角度查找器获取线/角度差"
+
+#: mesh_mesh_align_plus/calculate_compose.py:1975
+msgctxt "Operator"
+msgid "S. Grab Result"
+msgstr "S. 抓取结果"
+
+#: mesh_mesh_align_plus/calculate_compose.py:1313
+msgctxt "Operator"
+msgid "S. Grab Slot 1"
+msgstr "S. 抓取槽位 1"
+
+#: mesh_mesh_align_plus/calculate_compose.py:1639
+msgctxt "Operator"
+msgid "S. Grab Slot 2"
+msgstr "S. 抓取槽位 2"
+
+#: mesh_mesh_align_plus/advanced_tools.py:1407
+msgctxt "Operator"
+msgid "Scale Match Edge"
+msgstr "缩放匹配边"
+
+#: mesh_mesh_align_plus/scale_match_edge.py:15
+msgctxt "Operator"
+msgid "Scale Match Edge Base"
+msgstr "缩放匹配边基础"
+
+#: mesh_mesh_align_plus/scale_match_edge.py:16
+msgctxt "Operator"
+msgid "Scale match edge base class"
+msgstr "缩放匹配边基类"
+
+#: mesh_mesh_align_plus/utils/geom.py:762
+msgctxt "Operator"
+msgid "Send Coord to Cursor Base Class"
+msgstr "发送坐标到游标基类"
+
+#: mesh_mesh_align_plus/align_lines.py:700
+msgctxt "Operator"
+msgid "Show/hide easy align lines"
+msgstr "显示/隐藏简易对齐线"
+
+#: mesh_mesh_align_plus/align_planes.py:1102
+msgctxt "Operator"
+msgid "Show/hide easy align planes"
+msgstr "显示/隐藏简易对齐平面"
+
+#: mesh_mesh_align_plus/align_points.py:602
+msgctxt "Operator"
+msgid "Show/hide easy align points"
+msgstr "显示/隐藏简易对齐点"
+
+#: mesh_mesh_align_plus/axis_rotate.py:721
+msgctxt "Operator"
+msgid "Show/hide easy axis rotate"
+msgstr "显示/隐藏简易轴旋转"
+
+#: mesh_mesh_align_plus/directional_slide.py:472
+msgctxt "Operator"
+msgid "Show/hide easy directional slide"
+msgstr "显示/隐藏简易定向滑动"
+
+#: mesh_mesh_align_plus/scale_match_edge.py:733
+msgctxt "Operator"
+msgid "Show/hide easy scale match edge"
+msgstr "显示/隐藏简易缩放匹配边"
+
+#: mesh_mesh_align_plus/advanced_tools.py:722
+msgctxt "Operator"
+msgid "Show/hide list item info"
+msgstr "显示/隐藏列表项信息"
+
+#: mesh_mesh_align_plus/align_lines.py:715
+msgctxt "Operator"
+msgid "Show/hide quick align lines"
+msgstr "显示/隐藏快速对齐线"
+
+#: mesh_mesh_align_plus/align_planes.py:1117
+msgctxt "Operator"
+msgid "Show/hide quick align planes"
+msgstr "显示/隐藏快速对齐平面"
+
+#: mesh_mesh_align_plus/align_points.py:617
+msgctxt "Operator"
+msgid "Show/hide quick align points"
+msgstr "显示/隐藏快速对齐点"
+
+#: mesh_mesh_align_plus/axis_rotate.py:736
+msgctxt "Operator"
+msgid "Show/hide quick axis rotate"
+msgstr "显示/隐藏快速轴旋转"
+
+#: mesh_mesh_align_plus/directional_slide.py:487
+msgctxt "Operator"
+msgid "Show/hide quick directional slide"
+msgstr "显示/隐藏快速定向滑动"
+
+#: mesh_mesh_align_plus/utils/geom.py:5023
+msgctxt "Operator"
+msgid "Show/hide quick geometry base class"
+msgstr "显示/隐藏快速几何基类"
+
+#: mesh_mesh_align_plus/scale_match_edge.py:748
+msgctxt "Operator"
+msgid "Show/hide quick scale match edge"
+msgstr "显示/隐藏快速缩放匹配边"
+
+#: mesh_mesh_align_plus/advanced_tools.py:1226
+msgctxt "Operator"
+msgid "Single Item"
+msgstr "单个项目"
+
+#: mesh_mesh_align_plus/directional_slide.py:560
+msgctxt "Operator"
+msgid "Slide Active"
+msgstr "滑动活动项"
+
+#: mesh_mesh_align_plus/advanced_tools.py:538
+msgctxt "Operator"
+msgid "Specials Menu Item Base Class, Add Geometry Item From Active"
+msgstr "特殊菜单项基类，从活动项添加几何项目"
+
+#: mesh_mesh_align_plus/align_lines.py:794
+#: mesh_mesh_align_plus/align_planes.py:1178
+msgctxt "Operator"
+msgid "Start Alignment"
+msgstr "开始对齐"
+
+#: mesh_mesh_align_plus/scale_match_edge.py:810
+msgctxt "Operator"
+msgid "Start Match"
+msgstr "开始匹配"
+
+#: mesh_mesh_align_plus/advanced_tools.py:1366
+#: mesh_mesh_align_plus/calculate_compose.py:833
+msgctxt "Operator"
+msgid "Subtract Lines"
+msgstr "减去线"
+
+#: mesh_mesh_align_plus/utils/geom.py:4178
+msgctxt "Operator"
+msgid "Swap Points Base"
+msgstr "交换点基础"
+
+#: mesh_mesh_align_plus/utils/geom.py:4179
+msgctxt "Operator"
+msgid "Swap points base class"
+msgstr "交换点基类"
+
+#: mesh_mesh_align_plus/advanced_tools.py:359
+msgctxt "Operator"
+msgid "The base class for changing calc types"
+msgstr "用于更改计算类型的基类"
+
+#: mesh_mesh_align_plus/advanced_tools.py:414
+msgctxt "Operator"
+msgid "The base class for changing tranf types"
+msgstr "用于更改变换类型的基类"
+
+#: mesh_mesh_align_plus/advanced_tools.py:251
+msgctxt "Operator"
+msgid "The base class for changing types"
+msgstr "用于更改类型的基类"
+
+#: mesh_mesh_align_plus/utils/geom.py:550
+msgctxt "Operator"
+msgid "The base class for grabbing average point coords from mesh verts."
+msgstr "用于从网格顶点抓取平均点坐标的基类"
+
+#: mesh_mesh_align_plus/utils/geom.py:490
+msgctxt "Operator"
+msgid "The base class for grabbing coords and setting item kind based on the number of selected verts."
+msgstr "用于抓取坐标并根据选中顶点数设置项目类型的基类"
+
+#: mesh_mesh_align_plus/utils/geom.py:631
+msgctxt "Operator"
+msgid "The base class for grabbing normal coords from a selected face."
+msgstr "用于从选中面抓取法线坐标的基类"
+
+#: mesh_mesh_align_plus/utils/geom.py:355
+msgctxt "Operator"
+msgid "The base class for grabbing point coords from mesh verts."
+msgstr "用于从网格顶点抓取点坐标的基类"
+
+#: mesh_mesh_align_plus/utils/geom.py:763
+msgctxt "Operator"
+msgid "The base class for sending coordinates to the 3D Cursor"
+msgstr "用于将坐标发送到 3D 游标的基类"
+
+#: mesh_mesh_align_plus/utils/geom.py:5024
+msgctxt "Operator"
+msgid "The base class for showing/hiding quick geometry"
+msgstr "用于显示/隐藏快速几何的基类"
+
+#: mesh_mesh_align_plus/advanced_tools.py:1439
+#: mesh_mesh_align_plus/advanced_tools.py:1459
+msgctxt "Operator"
+msgid "Whole Mesh"
+msgstr "整个网格"

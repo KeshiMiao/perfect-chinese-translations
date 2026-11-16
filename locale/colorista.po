@@ -1,0 +1,346 @@
+# perfect-chinese: 1
+# id: colorista
+# kind: addon
+# module: bl_ext.blender_org.Colorista
+# name: Colorista
+# name_zh: 调色师
+# translator: KeshiMiao
+# category: Compositing
+# supported_versions: >=5.1.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: Colorista/preferences/__init__.py:171
+msgid "Advanced"
+msgstr "高级"
+
+#: Colorista/props.py:94
+msgid "Asset"
+msgstr "资产"
+
+#: Colorista/props.py:67
+msgid "Asset Category"
+msgstr "资产类别"
+
+#: Colorista/ops/operators.py:136
+msgid "Asset: {}"
+msgstr "资产：{}"
+
+#: Colorista/preferences/__init__.py:48
+msgid "Cache Compositor State"
+msgstr "缓存合成器状态"
+
+#: Colorista/preferences/__init__.py:68
+msgid "Changes to the same asset made less than this many seconds apart are combined into one history entry; set to 0 to keep each change as a separate entry"
+msgstr "对同一资产所做的更改，若间隔小于此秒数，则合并为一条历史记录；设为 0 则每次更改作为单独条目保留"
+
+#: Colorista/coloring/compositor/ui_nodes.py:22
+msgid "Channels"
+msgstr "通道"
+
+#: Colorista/ui/panel.py:111
+msgid "Coloring Panel"
+msgstr "调色面板"
+
+#: Colorista/ui/panel.py:29
+msgid "Colorista"
+msgstr "Colorista"
+
+#: Colorista/ui/panel.py:189
+msgid "Colorista History"
+msgstr "Colorista 历史"
+
+#: Colorista/ui/gizmo.py:113
+msgid "Colorista gizmo"
+msgstr "Colorista 小工具"
+
+#: Colorista/preferences/__init__.py:140
+msgid "Compositor"
+msgstr "合成器"
+
+#: Colorista/preferences/__init__.py:114
+msgid "Custom Presets Folder"
+msgstr "自定义预设文件夹"
+
+#: Colorista/ops/operators.py:133
+msgid "Delete this preset?"
+msgstr "删除此预设？"
+
+#: Colorista/props.py:48
+msgid "Enable Coloring"
+msgstr "启用调色"
+
+#: Colorista/preferences/__init__.py:94
+msgid "Enable Logging"
+msgstr "启用日志"
+
+#: Colorista/props.py:48
+msgid "Enable the Colorista color grading panel"
+msgstr "启用 Colorista 调色面板"
+
+#: Colorista/preferences/__init__.py:114
+msgid "Folder for user-saved presets when custom path is enabled"
+msgstr "启用自定义路径时用于保存用户预设的文件夹"
+
+#: Colorista/preferences/__init__.py:77
+msgid "Force CPU Compositor on Render"
+msgstr "渲染时强制使用 CPU 合成器"
+
+#: Colorista/preferences/__init__.py:133
+msgid "General"
+msgstr "常规"
+
+#: Colorista/preferences/__init__.py:40
+msgid "Gizmo Offset"
+msgstr "小工具偏移"
+
+#: Colorista/coloring/compositor/ui_nodes.py:18
+msgid "Highlights"
+msgstr "高光"
+
+#: Colorista/preferences/__init__.py:145
+msgid "History"
+msgstr "历史"
+
+#: Colorista/preferences/__init__.py:59
+msgid "History Cache Limit"
+msgstr "历史缓存上限"
+
+#: Colorista/preferences/__init__.py:68
+msgid "History Merge Interval"
+msgstr "历史合并间隔"
+
+#: Colorista/preferences/__init__.py:83
+msgid "Main Node Group Name"
+msgstr "主节点组名称"
+
+#: Colorista/coloring/compositor/ui_nodes.py:16
+msgid "Mask"
+msgstr "蒙版"
+
+#: Colorista/coloring/compositor/ui_nodes.py:17
+msgid "Master"
+msgstr "主控"
+
+#: Colorista/coloring/compositor/ui_nodes.py:19
+msgid "Midtones"
+msgstr "中间调"
+
+#: Colorista/coloring/compositor/ui_nodes.py:21
+msgid "Midtones Range"
+msgstr "中间调范围"
+
+#: Colorista/ops/operators.py:222
+#: Colorista/ops/operators.py:248
+msgid "Next"
+msgstr "下一个"
+
+#: Colorista/ops/operators.py:222
+msgid "Next asset"
+msgstr "下一个资产"
+
+#: Colorista/ops/operators.py:248
+msgid "Next preset"
+msgstr "下一个预设"
+
+#: Colorista/ops/operators.py:56
+msgid "Overwrite this preset?"
+msgstr "覆盖此预设？"
+
+#: Colorista/props.py:119
+msgid "Preset"
+msgstr "预设"
+
+#: Colorista/props.py:126
+msgid "Preset Name"
+msgstr "预设名称"
+
+#: Colorista/ops/operators.py:135
+msgid "Preset: {}"
+msgstr "预设：{}"
+
+#: Colorista/ops/operators.py:221
+#: Colorista/ops/operators.py:247
+msgid "Previous"
+msgstr "上一个"
+
+#: Colorista/ops/operators.py:221
+msgid "Previous asset"
+msgstr "上一个资产"
+
+#: Colorista/ops/operators.py:247
+msgid "Previous preset"
+msgstr "上一个预设"
+
+#: Colorista/preferences/__init__.py:106
+msgid "Save user presets to a custom folder instead of the default"
+msgstr "将用户预设保存到自定义文件夹而非默认文件夹"
+
+#: Colorista/coloring/compositor/ui_nodes.py:20
+msgid "Shadows"
+msgstr "阴影"
+
+#: Colorista/preferences/__init__.py:32
+msgid "UI Icon Scale"
+msgstr "界面图标缩放"
+
+#: Colorista/preferences/__init__.py:26
+msgid "Use Asset Color Management"
+msgstr "使用资产色彩管理"
+
+#: Colorista/preferences/__init__.py:106
+msgid "Use Custom Presets Folder"
+msgstr "使用自定义预设文件夹"
+
+#: Colorista/preferences/__init__.py:154
+msgid "User Presets"
+msgstr "用户预设"
+
+#: Colorista/src/translate/translations/zh_HANS.py:64
+msgid "上一个"
+msgstr "上一个"
+
+#: Colorista/src/translate/translations/zh_HANS.py:65
+msgid "下一个"
+msgstr "下一个"
+
+#: Colorista/src/translate/translations/zh_HANS.py:43
+msgid "历史"
+msgstr "历史"
+
+#: Colorista/src/translate/translations/zh_HANS.py:42
+msgid "合成"
+msgstr "合成"
+
+#: Colorista/src/translate/translations/zh_HANS.py:41
+msgid "常规"
+msgstr "常规"
+
+#: Colorista/src/translate/translations/zh_HANS.py:14
+msgid "无"
+msgstr "无"
+
+#: Colorista/src/translate/translations/zh_HANS.py:48
+#: Colorista/src/translate/translations/zh_HANS.py:49
+msgid "调色"
+msgstr "调色"
+
+#: Colorista/src/translate/translations/zh_HANS.py:9
+msgid "资产"
+msgstr "资产"
+
+#: Colorista/src/translate/translations/zh_HANS.py:12
+msgid "预设"
+msgstr "预设"
+
+#: Colorista/src/translate/translations/zh_HANS.py:45
+msgid "高级"
+msgstr "高级"
+
+#: Colorista/src/translate/translations/zh_HANS.py:10
+#: Colorista/src/translate/translations/zh_HANS.py:11
+msgid "默认"
+msgstr "默认"
+
+#: Colorista/ops/history.py:40
+msgctxt "Operator"
+msgid "Delete history"
+msgstr "删除历史"
+
+#: Colorista/ops/operators.py:109
+msgctxt "Operator"
+msgid "Delete preset"
+msgstr "删除预设"
+
+#: Colorista/ops/operators.py:108
+msgctxt "Operator"
+msgid "Delete the selected user preset"
+msgstr "删除选中的用户预设"
+
+#: Colorista/ops/history.py:39
+msgctxt "Operator"
+msgid "Delete this history entry"
+msgstr "删除此历史条目"
+
+#: Colorista/ops/operators.py:268
+msgctxt "Operator"
+msgid "Import a compositor node tree from a file"
+msgstr "从文件导入合成器节点树"
+
+#: Colorista/ops/operators.py:269
+msgctxt "Operator"
+msgid "Import node tree"
+msgstr "导入节点树"
+
+#: Colorista/ops/operators.py:196
+msgctxt "Operator"
+msgid "Reset node values to asset defaults"
+msgstr "将节点值重置为资产默认值"
+
+#: Colorista/ops/operators.py:197
+msgctxt "Operator"
+msgid "Reset to defaults"
+msgstr "重置为默认值"
+
+#: Colorista/ops/operators.py:38
+msgctxt "Operator"
+msgid "Save preset"
+msgstr "保存预设"
+
+#: Colorista/ops/operators.py:37
+msgctxt "Operator"
+msgid "Save the current compositor values as a preset"
+msgstr "将当前合成器值保存为预设"
+
+#: Colorista/ops/operators.py:215
+msgctxt "Operator"
+msgid "Switch asset"
+msgstr "切换资产"
+
+#: Colorista/ops/operators.py:159
+msgctxt "Operator"
+msgid "Switch device"
+msgstr "切换设备"
+
+#: Colorista/ops/operators.py:177
+msgctxt "Operator"
+msgid "Switch precision"
+msgstr "切换精度"
+
+#: Colorista/ops/operators.py:241
+msgctxt "Operator"
+msgid "Switch preset"
+msgstr "切换预设"
+
+#: Colorista/ops/operators.py:214
+msgctxt "Operator"
+msgid "Switch to the previous or next asset"
+msgstr "切换到上一个或下一个资产"
+
+#: Colorista/ops/operators.py:240
+msgctxt "Operator"
+msgid "Switch to the previous or next preset"
+msgstr "切换到上一个或下一个预设"
+
+#: Colorista/ops/operators.py:158
+msgctxt "Operator"
+msgid "Toggle compositor device between CPU and GPU"
+msgstr "在 CPU 与 GPU 之间切换合成器设备"
+
+#: Colorista/ops/operators.py:176
+msgctxt "Operator"
+msgid "Toggle compositor precision between Auto and Full"
+msgstr "在自动与完整之间切换合成器精度"
+
+#: Colorista/ui/gizmo.py:91
+msgctxt "Operator"
+msgid "Toggle viewport compositor"
+msgstr "切换视图合成器"
+
+#: Colorista/ui/gizmo.py:92
+msgctxt "Operator"
+msgid "Toggle viewport compositor for this window"
+msgstr "为此窗口切换视图合成器"

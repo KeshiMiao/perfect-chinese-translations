@@ -1,0 +1,547 @@
+# perfect-chinese: 1
+# id: iocgpoly_lip_sync
+# kind: addon
+# module: bl_ext.blender_org.iocgpoly_lip_sync
+# name: Lip Sync
+# name_zh: 唇形同步
+# translator: KeshiMiao
+# category: Animation
+# supported_versions: >=4.4.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: Preferences/LIPSYNC2D_AP_Preferences.py:95
+msgid "1. Enable Online Access: Preferences > System > Network"
+msgstr "1. 启用在线访问：偏好设置 > 系统 > 网络"
+
+#: Preferences/LIPSYNC2D_AP_Preferences.py:97
+msgid "2. Reload List: Preferences > Add-ons > Lip Sync > Reload"
+msgstr "2. 重新加载列表：偏好设置 > 插件 > Lip Sync > 重新加载"
+
+#: Properties/LIPSYNC2D_PG_CustomProperties.py:191
+msgid "Adjust Lips scale"
+msgstr "调整嘴唇缩放"
+
+#: Properties/LIPSYNC2D_PG_CustomProperties.py:186
+msgid "Adjust sprite scale so it fits in mouth area"
+msgstr "调整精灵图缩放，使其适合嘴部区域"
+
+#: Properties/LIPSYNC2D_PG_CustomProperties.py:320
+msgid "Advanced Rig"
+msgstr "高级绑定"
+
+#: Properties/LIPSYNC2D_PG_CustomProperties.py:268
+msgid "Also remove action, action slot and keyframes"
+msgstr "同时移除动作、动作槽和关键帧"
+
+#: Properties/LIPSYNC2D_PG_CustomProperties.py:274
+msgid "Also remove node groups from Object's Materials"
+msgstr "同时从物体材质中移除节点组"
+
+#: Properties/LIPSYNC2D_PG_CustomProperties.py:330
+msgid "Animate all important visemes regardless of timing constraints. Prevents critical mouth shapes (lip contact sounds like P, B, M, F, TH) from being skipped when they occur in rapid succession."
+msgstr "不受时间限制地为所有重要视位制作动画。防止在快速连续出现时跳过关键的嘴型（P、B、M、F、TH 等唇部接触音）。"
+
+#: Panels/AnimatorPanelPoseAssetsStrategy.py:35
+#: Panels/AnimatorPanelShapeKeysStrategy.py:34
+msgid "Animation Settings"
+msgstr "动画设置"
+
+#: Panels/LIPSYNC2D_PT_Panel.py:78
+#: Properties/LIPSYNC2D_PG_CustomProperties.py:220
+msgid "Animation type"
+msgstr "动画类型"
+
+#: Panels/AnimatorPanelMixin.py:52
+#: Panels/AnimatorPanelPoseAssetsStrategy.py:100
+msgid "Animation:"
+msgstr "动画："
+
+#: Panels/AnimatorPanelSpriteSheetStrategy.py:14
+msgid "Area"
+msgstr "区域"
+
+#: Properties/LIPSYNC2D_PG_CustomProperties.py:301
+msgid "Bake End"
+msgstr "烘焙结束"
+
+#: Panels/AnimatorPanelMixin.py:90
+msgid "Bake Settings"
+msgstr "烘焙设置"
+
+#: Properties/LIPSYNC2D_PG_CustomProperties.py:292
+msgid "Bake Start"
+msgstr "烘焙开始"
+
+#: Properties/LIPSYNC2D_PG_CustomProperties.py:310
+msgid "Basic Rig"
+msgstr "基础绑定"
+
+#: Preferences/LIPSYNC2D_AP_Preferences.py:91
+msgid "Blender Online Access is required"
+msgstr "需要 Blender 在线访问权限"
+
+#: Panels/AnimatorPanelMixin.py:42
+#: Panels/AnimatorPanelPoseAssetsStrategy.py:96
+msgid "Clean Up:"
+msgstr "清理："
+
+#: Properties/LIPSYNC2D_PG_CustomProperties.py:280
+msgid "Clear Keyframes"
+msgstr "清除关键帧"
+
+#: Properties/LIPSYNC2D_PG_CustomProperties.py:280
+msgid "Clear Keyframes before Bake"
+msgstr "烘焙前清除关键帧"
+
+#: Properties/LIPSYNC2D_PG_CustomProperties.py:177
+msgid "Columns"
+msgstr "列"
+
+#: Preferences/LIPSYNC2D_AP_Preferences.py:19
+msgid "Download Status"
+msgstr "下载状态"
+
+#: Properties/LIPSYNC2D_PG_CustomProperties.py:260
+msgid "Duration of lip-closing animation during silent intervals"
+msgstr "静音间隔期间闭嘴动画的持续时间"
+
+#: Panels/AnimatorPanelMixin.py:103
+msgid "End"
+msgstr "结束"
+
+#: Properties/LIPSYNC2D_PG_CustomProperties.py:301
+msgid "End Baking at this frame"
+msgstr "在此帧结束烘焙"
+
+#: Panels/AnimatorPanelSpriteSheetStrategy.py:17
+msgid "Go in Edit Mode to define Mouth Area"
+msgstr "进入编辑模式以定义嘴部区域"
+
+#: Properties/LIPSYNC2D_PG_CustomProperties.py:213
+msgid "Horizontal Line"
+msgstr "水平线"
+
+#: Panels/AnimatorPanelSpriteSheetStrategy.py:82
+msgid "Image index"
+msgstr "图像索引"
+
+#: Properties/LIPSYNC2D_PG_CustomProperties.py:228
+#: Properties/LIPSYNC2D_PG_CustomProperties.py:244
+msgid "In between"
+msgstr "中间"
+
+#: Properties/LIPSYNC2D_PG_CustomProperties.py:161
+msgid "Initilize Lip Sync"
+msgstr "初始化 Lip Sync"
+
+#: Properties/LIPSYNC2D_PG_CustomProperties.py:161
+msgid "Initilize Lip Sync on selection"
+msgstr "对所选对象初始化 Lip Sync"
+
+#: Panels/LIPSYNC2D_PT_Settings.py:29
+#: Preferences/LIPSYNC2D_AP_Preferences.py:27
+msgid "Language Model"
+msgstr "语言模型"
+
+#: Properties/LIPSYNC2D_PG_CustomProperties.py:260
+msgid "Lip Close Duration"
+msgstr "闭嘴时长"
+
+#: Panels/LIPSYNC2D_PT_Edit.py:15
+#: Panels/LIPSYNC2D_PT_Panel.py:15
+msgid "Lip Sync"
+msgstr "Lip Sync"
+
+#: Preferences/LIPSYNC2D_AP_Preferences.py:18
+msgid "Lip Sync Lang"
+msgstr "Lip Sync 语言"
+
+#: Properties/LIPSYNC2D_PG_CustomProperties.py:191
+msgid "Lips"
+msgstr "嘴唇"
+
+#: Panels/AnimatorPanelSpriteSheetStrategy.py:64
+msgid "Main"
+msgstr "主要"
+
+#: Properties/LIPSYNC2D_PG_CustomProperties.py:172
+msgid "Main Material"
+msgstr "主材质"
+
+#: Properties/LIPSYNC2D_PG_CustomProperties.py:172
+msgid "Material containing Sprite sheet"
+msgstr "包含精灵图的材质"
+
+#: Properties/LIPSYNC2D_PG_CustomProperties.py:236
+#: Properties/LIPSYNC2D_PG_CustomProperties.py:252
+msgid "Minimum time gap between keyframes required to insert a silent interval."
+msgstr "插入静音间隔所需的关键帧之间的最小时间间隔。"
+
+#: Properties/LIPSYNC2D_PG_CustomProperties.py:228
+#: Properties/LIPSYNC2D_PG_CustomProperties.py:244
+msgid "Minimum time gap required between two keyframes. Keyframes added closer than this will be removed."
+msgstr "两个关键帧之间所需的最小时间间隔。添加得比这更近的关键帧将被移除。"
+
+#: Panels/AnimatorPanelMixin.py:94
+msgid "Misc:"
+msgstr "杂项："
+
+#: Panels/AnimatorPanelShapeKeysStrategy.py:80
+msgid "Missing Shape Keys"
+msgstr "缺少形态键"
+
+#: Panels/AnimatorPanelPoseAssetsStrategy.py:38
+#: Panels/AnimatorPanelShapeKeysStrategy.py:37
+msgid "Motion:"
+msgstr "运动："
+
+#: Operators/LIPSYNC2D_OT_DownloadModelsList.py:18
+msgid "New list has been downloaded!"
+msgstr "新列表已下载！"
+
+#: Properties/LIPSYNC2D_PG_CustomProperties.py:80
+msgid "None"
+msgstr "无"
+
+#: Properties/LIPSYNC2D_PG_CustomProperties.py:286
+msgid "Only bake between specified range"
+msgstr "仅在指定范围内烘焙"
+
+#: Panels/LIPSYNC2D_PT_Edit.py:36
+#: Panels/LIPSYNC2D_PT_Panel.py:39
+msgid "Please, select an Object with Mesh Data or an Armature"
+msgstr "请选择一个带网格数据的物体或骨架"
+
+#: Panels/AnimatorPanelPoseAssetsStrategy.py:55
+msgid "Pose"
+msgstr "姿势"
+
+#: Properties/LIPSYNC2D_PG_CustomProperties.py:150
+msgid "Pose Assets"
+msgstr "姿势资产"
+
+#: Panels/AnimatorPanelPoseAssetsStrategy.py:90
+msgid "Pose Assets:"
+msgstr "姿势资产："
+
+#: Panels/LIPSYNC2D_PT_Edit.py:50
+msgid "Press on Add Lip Sync to start"
+msgstr "点击添加 Lip Sync 以开始"
+
+#: Properties/LIPSYNC2D_PG_CustomProperties.py:330
+msgid "Prioritize Accuracy"
+msgstr "优先保证准确性"
+
+#: Panels/LIPSYNC2D_PT_Edit.py:12
+msgid "Quick Edit"
+msgstr "快速编辑"
+
+#: Panels/LIPSYNC2D_PT_Settings.py:11
+msgid "Quick Setup"
+msgstr "快速设置"
+
+#: Panels/AnimatorPanelMixin.py:98
+msgid "Range:"
+msgstr "范围："
+
+#: Properties/LIPSYNC2D_PG_CustomProperties.py:208
+msgid "Rectangle"
+msgstr "矩形"
+
+#: Properties/LIPSYNC2D_PG_CustomProperties.py:268
+msgid "Remove Animation"
+msgstr "移除动画"
+
+#: Properties/LIPSYNC2D_PG_CustomProperties.py:274
+msgid "Remove Nodes"
+msgstr "移除节点"
+
+#: Panels/AnimatorPanelPoseAssetsStrategy.py:20
+msgid "Rig Settings"
+msgstr "绑定设置"
+
+#: Panels/AnimatorPanelPoseAssetsStrategy.py:24
+msgid "Rig Type"
+msgstr "绑定类型"
+
+#: Properties/LIPSYNC2D_PG_CustomProperties.py:310
+msgid "Rig with basic bones animation.\nAs long as only basic bones are animated, this should be your default choice."
+msgstr "使用基础骨骼动画的绑定。\n只要仅动画基础骨骼，这应是你的默认选择。"
+
+#: Properties/LIPSYNC2D_PG_CustomProperties.py:320
+msgid "Rig with more complex animated elements like BBone or Custom Properties.\nSince this inserts keyframes on ALL of your animated properties, it will be slower.\nOnly use this if Basic Rig is not working."
+msgstr "包含更复杂动画元素（如 BBone 或自定义属性）的绑定。\n由于它会在所有动画属性上插入关键帧，速度会较慢。\n仅在基础绑定无效时使用。"
+
+#: Properties/LIPSYNC2D_PG_CustomProperties.py:180
+msgid "Rows"
+msgstr "行"
+
+#: Panels/AnimatorPanelSpriteSheetStrategy.py:61
+msgid "Scale"
+msgstr "缩放"
+
+#: Panels/AnimatorPanelMixin.py:75
+#: Panels/AnimatorPanelPoseAssetsStrategy.py:76
+msgid "Select a Language Model before Analyzing audio"
+msgstr "分析音频前请先选择语言模型"
+
+#: Panels/AnimatorPanelSpriteSheetStrategy.py:27
+msgid "Select your Sprite sheet"
+msgstr "选择你的精灵图"
+
+#: Panels/AnimatorPanelMixin.py:46
+msgid "Shader Editor:"
+msgstr "着色器编辑器："
+
+#: Panels/AnimatorPanelShapeKeysStrategy.py:51
+msgid "Shape Key"
+msgstr "形态键"
+
+#: Properties/LIPSYNC2D_PG_CustomProperties.py:145
+msgid "Shape Keys"
+msgstr "形态键"
+
+#: Panels/AnimatorPanelShapeKeysStrategy.py:87
+msgid "Shape Keys have to be set to 'Relative'"
+msgstr "形态键必须设置为「相对」"
+
+#: Properties/LIPSYNC2D_PG_CustomProperties.py:236
+#: Properties/LIPSYNC2D_PG_CustomProperties.py:252
+msgid "Silence"
+msgstr "静音"
+
+#: Panels/LIPSYNC2D_PT_Edit.py:43
+#: Panels/LIPSYNC2D_PT_Panel.py:46
+msgid "Something wrong happened. Try uninstall / reinstall Lip Sync Addon"
+msgstr "发生错误。请尝试卸载 / 重新安装 Lip Sync 插件"
+
+#: Properties/LIPSYNC2D_PG_CustomProperties.py:186
+msgid "Sprite"
+msgstr "精灵"
+
+#: Properties/LIPSYNC2D_PG_CustomProperties.py:194
+msgid "Sprite Index"
+msgstr "精灵索引"
+
+#: Properties/LIPSYNC2D_PG_CustomProperties.py:194
+msgid "Sprite Index. Start at 0, from Bottom Left to Top Right"
+msgstr "精灵索引。从 0 开始，从左下到右上"
+
+#: Properties/LIPSYNC2D_PG_CustomProperties.py:140
+#: Properties/LIPSYNC2D_PG_CustomProperties.py:166
+msgid "Sprite Sheet"
+msgstr "精灵图"
+
+#: Panels/AnimatorPanelSpriteSheetStrategy.py:11
+msgid "Sprite Sheet Settings"
+msgstr "精灵图设置"
+
+#: Properties/LIPSYNC2D_PG_CustomProperties.py:199
+msgid "Sprite sheet format"
+msgstr "精灵图格式"
+
+#: Properties/LIPSYNC2D_PG_CustomProperties.py:199
+msgid "Sprite sheet format can be square, rectangle or line."
+msgstr "精灵图格式可以是正方形、矩形或线形"
+
+#: Properties/LIPSYNC2D_PG_CustomProperties.py:213
+msgid "Sprites are placed horizontally"
+msgstr "精灵图水平排列"
+
+#: Properties/LIPSYNC2D_PG_CustomProperties.py:208
+msgid "Sprites are placed in a rectangle with multiple columns and rows"
+msgstr "精灵图按多列多行的矩形排列"
+
+#: Properties/LIPSYNC2D_PG_CustomProperties.py:203
+msgid "Sprites are placed in a square with same width and height"
+msgstr "精灵图按等宽等高的正方形排列"
+
+#: Properties/LIPSYNC2D_PG_CustomProperties.py:214
+msgid "Sprites are placed vertically"
+msgstr "精灵图垂直排列"
+
+#: Panels/AnimatorPanelSpriteSheetStrategy.py:39
+msgid "Spritesheet Format"
+msgstr "精灵图格式"
+
+#: Properties/LIPSYNC2D_PG_CustomProperties.py:203
+msgid "Square"
+msgstr "正方形"
+
+#: Panels/AnimatorPanelMixin.py:102
+msgid "Start"
+msgstr "起始"
+
+#: Properties/LIPSYNC2D_PG_CustomProperties.py:292
+msgid "Start Baking at this frame"
+msgstr "从此帧开始烘焙"
+
+#: Properties/LIPSYNC2D_PG_CustomProperties.py:166
+msgid "The name of the addon to reload"
+msgstr "要重新加载的插件名称"
+
+#: Panels/AnimatorPanelPoseAssetsStrategy.py:67
+#: Panels/AnimatorPanelShapeKeysStrategy.py:65
+msgid "Thresholds:"
+msgstr "阈值："
+
+#: Properties/LIPSYNC2D_PG_CustomProperties.py:177
+msgid "Total of columns in sprite sheet"
+msgstr "精灵图中的列总数"
+
+#: Properties/LIPSYNC2D_PG_CustomProperties.py:180
+msgid "Total of rows in sprite sheet"
+msgstr "精灵图中的行总数"
+
+#: Operators/LIPSYNC2D_OT_DownloadModelsList.py:16
+msgid "Unable to fetch a new models list"
+msgstr "无法获取新的模型列表"
+
+#: Properties/LIPSYNC2D_PG_CustomProperties.py:150
+msgid "Use Pose Library to animate mouth"
+msgstr "使用姿态库为嘴部制作动画"
+
+#: Properties/LIPSYNC2D_PG_CustomProperties.py:286
+msgid "Use Range"
+msgstr "使用范围"
+
+#: Properties/LIPSYNC2D_PG_CustomProperties.py:140
+msgid "Use a Sprite Sheet containg all of your visemes"
+msgstr "使用包含所有视位的精灵图"
+
+#: Properties/LIPSYNC2D_PG_CustomProperties.py:145
+msgid "Use your Shape Keys to animate mouth"
+msgstr "使用形态键为嘴部制作动画"
+
+#: Properties/LIPSYNC2D_PG_CustomProperties.py:214
+msgid "Vertical Line"
+msgstr "垂直线"
+
+#: Panels/AnimatorPanelPoseAssetsStrategy.py:54
+#: Panels/AnimatorPanelShapeKeysStrategy.py:50
+msgid "Viseme"
+msgstr "视位"
+
+#: Panels/AnimatorPanelPoseAssetsStrategy.py:51
+#: Panels/AnimatorPanelShapeKeysStrategy.py:47
+msgid "Viseme Settings"
+msgstr "视位设置"
+
+#: Properties/LIPSYNC2D_PG_CustomProperties.py:220
+msgid "What kind of animation will you use."
+msgstr "你将使用哪种动画。"
+
+#: Preferences/LIPSYNC2D_AP_Preferences.py:93
+msgid "You will only see models in cache"
+msgstr "你只会看到缓存中的模型"
+
+#: Panels/LIPSYNC2D_PT_Panel.py:72
+msgctxt "Operator"
+msgid "Add Lip Sync on Selection"
+msgstr "为选中项添加口型同步"
+
+#: Operators/LIPSYNC2D_OT_AnalyzeAudio.py:24
+msgctxt "Operator"
+msgid "Analyze audio and insert Keyframes on detected phonemes"
+msgstr "分析音频并在检测到的音素上插入关键帧"
+
+#: Operators/LIPSYNC2D_OT_AnalyzeAudio.py:23
+#: Panels/AnimatorPanelMixin.py:81
+msgctxt "Operator"
+msgid "Bake audio"
+msgstr "烘焙音频"
+
+#: Operators/LIPSYNC2D_OT_refresh_pose_assets.py:9
+msgctxt "Operator"
+msgid "Only use this if your Asset Poses are not shown.\nIt will load all Pose Assets from your assets libraries into your current .blend."
+msgstr "仅当你的资产姿态未显示时使用。\n它会将资产库中的所有姿态资产加载到当前的 .blend 中。"
+
+#: Operators/LIPSYNC2D_OT_DownloadModelsList.py:9
+msgctxt "Operator"
+msgid "Refresh Models List"
+msgstr "刷新模型列表"
+
+#: Operators/LIPSYNC2D_OT_refresh_pose_assets.py:8
+msgctxt "Operator"
+msgid "Refresh Pose Assets"
+msgstr "刷新姿态资产"
+
+#: Preferences/LIPSYNC2D_AP_Preferences.py:102
+msgctxt "Operator"
+msgid "Reload Models List"
+msgstr "重新加载模型列表"
+
+#: Operators/LIPSYNC2D_OT_RemoveAnimations.py:16
+msgctxt "Operator"
+msgid "Remove Animations"
+msgstr "移除动画"
+
+#: Operators/LIPSYNC2D_OT_RemoveLipSync.py:12
+msgctxt "Operator"
+msgid "Remove Lip Sync"
+msgstr "移除口型同步"
+
+#: Operators/LIPSYNC2D_OT_RemoveAnimations.py:17
+msgctxt "Operator"
+msgid "Remove Lip Sync Animation Data from your Object. \n\nSK: ShapeKeys Animation Data.\nSPT: Sprite Sheet Animation Data.\nall: Remove the entire Action"
+msgstr "从物体移除口型同步动画数据。\n\nSK：形态键动画数据。\nSPT：精灵图动画数据。\nall：移除整个动作"
+
+#: Operators/LIPSYNC2D_OT_RemoveNodeGroups.py:12
+msgctxt "Operator"
+msgid "Remove Lip Sync's node groups from Object's Materials"
+msgstr "从物体材质中移除口型同步的节点组"
+
+#: Operators/LIPSYNC2D_OT_RemoveNodeGroups.py:11
+msgctxt "Operator"
+msgid "Remove Node Groups"
+msgstr "移除节点组"
+
+#: Panels/AnimatorPanelPoseAssetsStrategy.py:102
+msgctxt "Operator"
+msgid "Remove Pose Animation"
+msgstr "移除姿态动画"
+
+#: Panels/AnimatorPanelMixin.py:54
+msgctxt "Operator"
+msgid "Remove SK"
+msgstr "移除 SK"
+
+#: Panels/AnimatorPanelMixin.py:56
+msgctxt "Operator"
+msgid "Remove SPT"
+msgstr "移除 SPT"
+
+#: Panels/AnimatorPanelMixin.py:59
+#: Panels/AnimatorPanelPoseAssetsStrategy.py:107
+msgctxt "Operator"
+msgid "Remove all Animations"
+msgstr "移除所有动画"
+
+#: Operators/LIPSYNC2D_OT_RemoveLipSync.py:13
+msgctxt "Operator"
+msgid "Remove all Lip Sync properties from the selection. All custom settings will be forever lost"
+msgstr "从选中项移除所有口型同步属性。所有自定义设置将永久丢失"
+
+#: Operators/LIPSYNC2D_OT_DownloadModelsList.py:10
+msgctxt "Operator"
+msgid "Reuires Online Access. Fetch a new models list. Use this if models list is empty / incomplete."
+msgstr "需要联网。获取新的模型列表。如果模型列表为空或不完整，请使用此项。"
+
+#: Operators/LIPSYNC2D_OT_SetMouthArea.py:21
+msgctxt "Operator"
+msgid "Set Lips Area"
+msgstr "设置嘴唇区域"
+
+#: Operators/LIPSYNC2D_OT_SetCustomProperties.py:19
+msgctxt "Operator"
+msgid "Set Lips Material"
+msgstr "设置嘴唇材质"
+
+#: Panels/AnimatorPanelSpriteSheetStrategy.py:23
+msgctxt "Operator"
+msgid "Set Mouth Area"
+msgstr "设置嘴部区域"
