@@ -1,0 +1,122 @@
+# perfect-chinese: 1
+# id: incremental_auto_save
+# kind: addon
+# module: bl_ext.blender_org.incremental_auto_save
+# name: Incremental Auto-Save
+# name_zh: 增量自动保存
+# translator: KeshiMiao
+# category: System
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:220
+msgid "An autosave path. If this filepath doesn't exist, the next existing one will be used. If none are valid, the Blender auto-save path will be used. If that's not valid either, the OS default temp folder will be used"
+msgstr "一个自动保存路径。如果此文件路径不存在，将使用下一个存在的路径。如果都无效，将使用 Blender 自动保存路径。如果那也无效，将使用操作系统默认临时文件夹"
+
+#: __init__.py:220
+msgid "Autosave Path"
+msgstr "自动保存路径"
+
+#: __init__.py:215
+msgid "Autosave Path Identifier"
+msgstr "自动保存路径标识符"
+
+#: __init__.py:329
+msgid "Autosave Paths"
+msgstr "自动保存路径"
+
+#: __init__.py:33
+msgid "Autosaves in a way where subsequent autosaves don't overwrite previous ones"
+msgstr "以增量方式自动保存，后续的自动保存不会覆盖之前的自动保存"
+
+#: __init__.py:258
+msgid "Compress Files"
+msgstr "压缩文件"
+
+#: __init__.py:360
+msgid "Current Autosave Path"
+msgstr "当前自动保存路径"
+
+#: __init__.py:333
+msgid "First valid path will be used:"
+msgstr "将使用第一个有效路径："
+
+#: __init__.py:33
+msgid "Incremental Autosave"
+msgstr "增量自动保存"
+
+#: __init__.py:250
+msgid "Max Backups Per File"
+msgstr "每个文件最大备份数"
+
+#: __init__.py:250
+msgid "Maximum number of backups to save for each file, 0 means unlimited. Otherwise, the oldest file will be deleted after reaching the limit"
+msgstr "每个文件保存的最大备份数，0 表示不限制。否则，达到上限后将删除最旧的文件"
+
+#: __init__.py:215
+msgid "Name of this autosave path"
+msgstr "此自动保存路径的名称"
+
+#: __init__.py:338
+msgid "Native Autosave Path"
+msgstr "原生自动保存路径"
+
+#: __init__.py:240
+msgid "Number of minutes between each save while the add-on is enabled"
+msgstr "启用插件时每次保存之间的分钟数"
+
+#: __init__.py:281
+msgid "Print Saves"
+msgstr "打印保存信息"
+
+#: __init__.py:281
+msgid "Print in the System Console (aka Terminal) on each autosave."
+msgstr "每次自动保存时在系统控制台（即终端）中打印信息。"
+
+#: __init__.py:234
+msgid "Save Before File Open"
+msgstr "打开文件前保存"
+
+#: __init__.py:271
+msgid "Save Images"
+msgstr "保存图像"
+
+#: __init__.py:240
+msgid "Save Interval (Minutes)"
+msgstr "保存间隔（分钟）"
+
+#: __init__.py:276
+msgid "Save Mesh/Sculpt"
+msgstr "保存网格/雕刻"
+
+#: __init__.py:266
+msgid "Save Next To Blend"
+msgstr "保存到 .blend 旁边"
+
+#: __init__.py:258
+msgid "Save backups with compression enabled"
+msgstr "保存备份时启用压缩"
+
+#: __init__.py:234
+msgid "Save the current file before opening another file"
+msgstr "打开另一个文件前保存当前文件"
+
+#: __init__.py:33
+msgid "System"
+msgstr "系统"
+
+#: __init__.py:276
+msgid "Useful for long periods of mesh editing/sculpting. Normally if Blender crashes during mesh edit/sculpt, you lose your changes since the last time you entered Object mode. If this is enabled, the add-on will periodically switch to Object mode for you, and back. This will only trigger after dependency graph updates, so it doesn't happen in the middle of a stroke."
+msgstr "适用于长时间的网格编辑/雕刻。通常如果 Blender 在网格编辑/雕刻期间崩溃，你会丢失自上次进入物体模式以来的更改。如果启用此项，插件会定期为你切换到物体模式再切回。这仅在依赖图更新后触发，因此不会在笔划进行中发生。"
+
+#: __init__.py:271
+msgid "Useful for long periods of texture painting. This will auto-save images - both packed AND UNPACKED! Best to use in conjunction with a version control system like GitLFS/SVN!"
+msgstr "适用于长时间的纹理绘制。这会自动保存图像——包括打包和未打包的图像！最好与 GitLFS/SVN 之类的版本控制系统配合使用！"
+
+#: __init__.py:266
+msgid "When the .blend file is saved, save auto-saves next to it, into an \"Autosave\" folder.\nIf the .blend is not saved, it will fall back to the list of filepaths provided above, or system temp folder."
+msgstr "当 .blend 文件被保存时，将自动保存文件保存到其旁边的“Autosave”文件夹中。\n如果 .blend 尚未保存，将回退到上面提供的文件路径列表，或系统临时文件夹。"

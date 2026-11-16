@@ -1,0 +1,480 @@
+# perfect-chinese: 1
+# id: mesh2rig
+# kind: addon
+# module: bl_ext.blender_org.Mesh2Rig
+# name: Mesh2Rig
+# name_zh: 网格转绑定
+# translator: KeshiMiao
+# category: Rigging
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:1584
+msgid "1. Create Rig (Optional)"
+msgstr "1. 创建绑定（可选）"
+
+#: __init__.py:1607
+msgid "1.5 Merge Bones (Edit Mode)"
+msgstr "1.5 合并骨骼（编辑模式）"
+
+#: __init__.py:1634
+msgid "2. Parent Mesh to Rig"
+msgstr "2. 将网格父级到绑定"
+
+#: __init__.py:1658
+msgid "3. Constr -> Pose -> Del Mod"
+msgstr "3. 约束 -> 姿态 -> 删除修改器"
+
+#: __init__.py:1683
+msgid "3.5 Surface Deform"
+msgstr "3.5 表面变形"
+
+#: __init__.py:1703
+msgid "4. Bake Action"
+msgstr "4. 烘焙动作"
+
+#: __init__.py:1724
+msgid "5. Finalize Deform"
+msgstr "5. 最终化变形"
+
+#: __init__.py:477
+msgid "Add Copy Rotation"
+msgstr "添加复制旋转"
+
+#: __init__.py:459
+#: __init__.py:1660
+msgid "Armature"
+msgstr "骨架"
+
+#: __init__.py:510
+msgid "Armature for the final Armature modifier (usually same as Working Armature)"
+msgstr "用于最终骨架修改器的骨架（通常与工作骨架相同）"
+
+#: __init__.py:527
+msgid "Auto Clear Anim"
+msgstr "自动清除动画"
+
+#: __init__.py:522
+msgid "Auto Finalize"
+msgstr "自动最终化"
+
+#: __init__.py:527
+msgid "Automatically remove animation, shape keys, and simulations from mesh after processing"
+msgstr "处理完成后自动从网格中移除动画、形态键和模拟"
+
+#: __init__.py:1440
+msgid "Baking animation to Master Rig..."
+msgstr "正在将动画烘焙到主绑定..."
+
+#: __init__.py:1102
+msgid "Baking completed successfully."
+msgstr "烘焙成功完成。"
+
+#: __init__.py:517
+msgid "Batch Collection"
+msgstr "批量集合"
+
+#: __init__.py:1561
+msgid "Batch Processing (Cell Fracture)"
+msgstr "批量处理（细胞破碎）"
+
+#: __init__.py:428
+msgid "Bone Count"
+msgstr "骨骼数量"
+
+#: __init__.py:570
+msgid "Bone Count must be > 0."
+msgstr "骨骼数量必须大于 0。"
+
+#: __init__.py:438
+msgid "Bone Length (Creation)"
+msgstr "骨骼长度（创建时）"
+
+#: __init__.py:1577
+msgid "Cleanup:"
+msgstr "清理："
+
+#: __init__.py:517
+msgid "Collection containing objects (fragments) to process sequentially"
+msgstr "包含要依次处理的对象（碎片）的集合"
+
+#: __init__.py:660
+msgid "Could not find heads of selected bones."
+msgstr "无法找到所选骨骼的头部。"
+
+#: __init__.py:577
+msgid "Could not select vertices for bones."
+msgstr "无法为骨骼选择顶点。"
+
+#: __init__.py:1
+msgid "Creates rig from mesh, merges bones, allows manual rig, bakes action, finalizes deform. Includes Batch Processing, Merging & Advanced Cleanup."
+msgstr "从网格创建绑定、合并骨骼、允许手动绑定、烘焙动作、最终化变形。包含批量处理、合并与高级清理。"
+
+#: __init__.py:1708
+msgid "End"
+msgstr "结束"
+
+#: __init__.py:499
+msgid "End Frame"
+msgstr "结束帧"
+
+#: __init__.py:1073
+msgid "End frame cannot be before start frame."
+msgstr "结束帧不能早于起始帧。"
+
+#: __init__.py:792
+msgid "Error during mesh parenting."
+msgstr "网格父级化时出错。"
+
+#: __init__.py:1554
+msgid "Error: Properties not found."
+msgstr "错误：未找到属性。"
+
+#: __init__.py:1609
+msgid "Factor"
+msgstr "系数"
+
+#: __init__.py:583
+msgid "Failed to create armature."
+msgstr "创建骨架失败。"
+
+#: __init__.py:438
+msgid "Fixed length for bones during initial creation"
+msgstr "初始创建时骨骼的固定长度"
+
+#: __init__.py:499
+msgid "Frame to end baking at"
+msgstr "烘焙结束帧"
+
+#: __init__.py:494
+msgid "Frame to start baking from"
+msgstr "烘焙起始帧"
+
+#: __init__.py:532
+msgid "If checked, ignores bone count and creates a single bone at object center"
+msgstr "勾选后忽略骨骼数量，在物体中心创建单根骨骼"
+
+#: __init__.py:477
+msgid "Include Copy Rotation constraint in Step 3"
+msgstr "在步骤 3 中包含复制旋转约束"
+
+#: __init__.py:1549
+msgid "M2R"
+msgstr "M2R"
+
+#: __init__.py:1507
+msgid "Merge Complete (Constraint Method)."
+msgstr "合并完成（约束方法）。"
+
+#: __init__.py:637
+msgid "Merge Factor must be > 1.0."
+msgstr "合并系数必须大于 1.0。"
+
+#: __init__.py:443
+msgid "Merge Radius Factor"
+msgstr "合并半径系数"
+
+#: __init__.py:453
+msgid "Mesh"
+msgstr "网格"
+
+#: __init__.py:465
+msgid "Mesh containing vertex groups matching bone names for constraints"
+msgstr "包含与骨骼名称匹配的顶点组的网格，用于约束"
+
+#: __init__.py:482
+msgid "Mesh object that will receive the SurfaceDeform modifier"
+msgstr "将接收表面变形修改器的网格物体"
+
+#: __init__.py:488
+msgid "Mesh object the SurfaceDeform modifier will bind to"
+msgstr "表面变形修改器将绑定到的网格物体"
+
+#: __init__.py:790
+msgid "Mesh parenting to armature complete."
+msgstr "网格到骨架的父级化完成。"
+
+#: __init__.py:504
+msgid "Mesh to remove SD from and add final Armature mod to"
+msgstr "要移除表面变形并添加最终骨架修改器的网格"
+
+#: __init__.py:1
+#: __init__.py:1545
+msgid "Mesh2Rig"
+msgstr "Mesh2Rig"
+
+#: __init__.py:448
+msgid "Min Bones to Merge"
+msgstr "最少合并骨骼数"
+
+#: __init__.py:638
+msgid "Min Bones to Merge must be >= 2."
+msgstr "最少合并骨骼数必须 >= 2。"
+
+#: __init__.py:1610
+msgid "Min Count"
+msgstr "最小数量"
+
+#: __init__.py:433
+msgid "Minimum distance between generated bone heads"
+msgstr "生成的骨骼头部之间的最小距离"
+
+#: __init__.py:448
+msgid "Minimum number of selected bones within merge radius to be merged"
+msgstr "合并半径内需合并的所选骨骼最小数量"
+
+#: __init__.py:443
+msgid "Multiplier for Proximity Threshold to determine merge radius (Factor * Threshold)"
+msgstr "用于确定合并半径的邻近阈值倍数（系数 × 阈值）"
+
+#: __init__.py:556
+msgid "No MESH object selected."
+msgstr "未选择网格物体。"
+
+#: __init__.py:1602
+msgid "No MESH selected"
+msgstr "未选择网格"
+
+#: __init__.py:1531
+msgid "No objects selected or in Batch Collection."
+msgstr "未选择任何物体，批量集合中也没有物体。"
+
+#: __init__.py:1358
+msgid "No suitable Mesh+Armature pairs found."
+msgstr "未找到合适的网格+骨架配对。"
+
+#: __init__.py:433
+msgid "Proximity Threshold"
+msgstr "邻近阈值"
+
+#: __init__.py:571
+msgid "Proximity Threshold must be >= 0."
+msgstr "邻近阈值必须 >= 0。"
+
+#: __init__.py:1625
+msgid "Requires Armature Edit Mode"
+msgstr "需要骨架编辑模式"
+
+#: __init__.py:1
+msgid "Rigging"
+msgstr "绑定"
+
+#: __init__.py:522
+msgid "Run Step 5 (Replace SurfaceDeform/Mods with Final Armature Mod) automatically in batch"
+msgstr "在批量中自动运行步骤 5（用最终骨架修改器替换表面变形/修改器）"
+
+#: __init__.py:1596
+msgid "Select a MESH first. Sets targets below."
+msgstr "请先选择网格。设置下方目标。"
+
+#: __init__.py:1678
+msgid "Set valid Armature (with Pose) and VG Target."
+msgstr "设置有效的骨架（含姿态）和顶点组目标。"
+
+#: __init__.py:1719
+msgid "Set valid Armature with Pose Bones."
+msgstr "设置带姿态骨骼的有效骨架。"
+
+#: __init__.py:1653
+msgid "Set valid Mesh and Armature targets."
+msgstr "设置有效的网格和骨架目标。"
+
+#: __init__.py:1739
+msgid "Set valid Source Mesh and Target Armature."
+msgstr "设置有效的源网格和目标骨架。"
+
+#: __init__.py:1698
+msgid "Set valid Source and Target Meshes."
+msgstr "设置有效的源网格和目标网格。"
+
+#: __init__.py:532
+msgid "Simple Mode (1 Bone)"
+msgstr "简单模式（1 根骨骼）"
+
+#: __init__.py:482
+msgid "Source"
+msgstr "源"
+
+#: __init__.py:504
+msgid "Source Mesh"
+msgstr "源网格"
+
+#: __init__.py:965
+msgid "Source and Target meshes are the same. Binding may be unpredictable."
+msgstr "源网格与目标网格相同。绑定结果可能不可预测。"
+
+#: __init__.py:1158
+msgid "Source mesh (for Finalize) not found."
+msgstr "未找到源网格（用于最终化）。"
+
+#: __init__.py:963
+msgid "Source mesh not found."
+msgstr "未找到源网格。"
+
+#: __init__.py:1707
+msgid "Start"
+msgstr "起始"
+
+#: __init__.py:494
+msgid "Start Frame"
+msgstr "起始帧"
+
+#: __init__.py:488
+msgid "Target (Bind)"
+msgstr "目标（绑定）"
+
+#: __init__.py:510
+msgid "Target Armature"
+msgstr "目标骨架"
+
+#: __init__.py:784
+msgid "Target Armature not found."
+msgstr "未找到目标骨架。"
+
+#: __init__.py:465
+msgid "Target Mesh (VG)"
+msgstr "目标网格（顶点组）"
+
+#: __init__.py:826
+msgid "Target Mesh (VG) not set/found."
+msgstr "未设置/未找到目标网格（顶点组）。"
+
+#: __init__.py:783
+msgid "Target Mesh not found."
+msgstr "未找到目标网格。"
+
+#: __init__.py:1071
+msgid "Target armature ('Working Armature') not found."
+msgstr "未找到目标骨架（“Working Armature”）。"
+
+#: __init__.py:1159
+msgid "Target armature (for Finalize) not found."
+msgstr "未找到目标骨架（用于最终化）。"
+
+#: __init__.py:964
+msgid "Target mesh not found."
+msgstr "未找到目标网格。"
+
+#: __init__.py:428
+msgid "Target number of bones to generate"
+msgstr "要生成的骨骼数量"
+
+#: __init__.py:459
+msgid "The armature object to parent the mesh to"
+msgstr "网格要父级到的骨架物体"
+
+#: __init__.py:471
+msgid "The armature to add constraints to, bake, and finalize. Set by Step 1 or manually."
+msgstr "要添加约束、烘焙并最终化的骨架。由步骤 1 或手动设置。"
+
+#: __init__.py:453
+msgid "The mesh object to be parented"
+msgstr "要父级的网格物体"
+
+#: __init__.py:471
+msgid "Working Armature"
+msgstr "工作骨架"
+
+#: __init__.py:825
+msgid "Working Armature not set/found."
+msgstr "未设置/未找到工作骨架。"
+
+#: __init__.py:543
+msgctxt "Operator"
+msgid "1. Create Rig"
+msgstr "1. 创建绑定"
+
+#: __init__.py:614
+msgctxt "Operator"
+msgid "1.5 Merge Selected Bones"
+msgstr "1.5 合并选中骨骼"
+
+#: __init__.py:765
+msgctxt "Operator"
+msgid "2. Parent Mesh to Armature"
+msgstr "2. 将网格父级到骨架"
+
+#: __init__.py:802
+msgctxt "Operator"
+msgid "3. Constr -> Pose -> Del Mod"
+msgstr "3. 约束 → 姿态 → 删除修改器"
+
+#: __init__.py:944
+msgctxt "Operator"
+msgid "3.5 Add SurfaceDeform & Bind"
+msgstr "3.5 添加表面变形并绑定"
+
+#: __init__.py:1048
+msgctxt "Operator"
+msgid "4. Bake Rig Action"
+msgstr "4. 烘焙绑定动作"
+
+#: __init__.py:1138
+msgctxt "Operator"
+msgid "5. Finalize Deform"
+msgstr "5. 最终化变形"
+
+#: __init__.py:1693
+msgctxt "Operator"
+msgid "Add/Update SD & Bind"
+msgstr "添加/更新表面变形并绑定"
+
+#: __init__.py:1715
+msgctxt "Operator"
+msgid "Bake Action for Armature"
+msgstr "为骨架烘焙动作"
+
+#: __init__.py:1243
+#: __init__.py:1570
+msgctxt "Operator"
+msgid "Batch Process Collection"
+msgstr "批量处理集合"
+
+#: __init__.py:1578
+msgctxt "Operator"
+msgid "Clear Anim (Sel + Col)"
+msgstr "清除动画（选中 + 集合）"
+
+#: __init__.py:1594
+msgctxt "Operator"
+msgid "Create Rig from Selected Mesh"
+msgstr "从选中网格创建绑定"
+
+#: __init__.py:1670
+msgctxt "Operator"
+msgid "Execute Step 3"
+msgstr "执行步骤 3"
+
+#: __init__.py:1574
+msgctxt "Operator"
+msgid "Merge Generated Rigs"
+msgstr "合并生成的绑定"
+
+#: __init__.py:1332
+msgctxt "Operator"
+msgid "Merge Rigs in Collection"
+msgstr "合并集合中的绑定"
+
+#: __init__.py:1620
+msgctxt "Operator"
+msgid "Merge Selected Bones"
+msgstr "合并选中骨骼"
+
+#: __init__.py:1644
+msgctxt "Operator"
+msgid "Parent with Auto Weights"
+msgstr "以自动权重父级"
+
+#: __init__.py:1734
+msgctxt "Operator"
+msgid "Remove SD, Add Armature Mod"
+msgstr "移除表面变形，添加骨架修改器"
+
+#: __init__.py:1515
+msgctxt "Operator"
+msgid "Smart Clear Cleanup"
+msgstr "智能清除清理"

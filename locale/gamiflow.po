@@ -1,0 +1,1711 @@
+# perfect-chinese: 1
+# id: gamiflow
+# kind: addon
+# module: bl_ext.blender_org.gamiflow
+# name: GamiFlow
+# name_zh: 游戏资产流程
+# translator: KeshiMiao
+# category: Import-Export
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: enums.py:25
+msgid "AO"
+msgstr "AO"
+
+#: enums.py:25
+msgid "AO is baked into the channel"
+msgstr "AO 已烘焙到该通道"
+
+#: data.py:117
+msgid "Accurate"
+msgstr "精确"
+
+#: data.py:99
+msgid "Action slots make things difficult and I don't fully understand how they work, but for shape keys you need to set this."
+msgstr "动作插槽让事情变得复杂，我也没完全搞明白它的工作原理，但形态键需要设置这个。"
+
+#: geotags.py:191
+msgid "Affected"
+msgstr "受影响"
+
+#: data.py:164
+msgid "All objects will be treated as if part of the first UDIM.\nUseful if you want to experiment and check if you could get away with only one UDIM."
+msgstr "所有物体都将被视为属于第一个 UDIM。\n如果你想试验并确认能否只用单个 UDIM，这会很有用。"
+
+#: data.py:106
+msgid "Allow decimation"
+msgstr "允许减面"
+
+#: enums.py:35
+msgid "An object used exclusively for baking, but only as a shadow caster"
+msgstr "仅用于烘焙的物体，但只作为阴影投射者"
+
+#: enums.py:32
+msgid "An object used exclusively for baking, for example a sculpt"
+msgstr "仅用于烘焙的物体，例如雕刻模型"
+
+#: data.py:13
+#: data.py:89
+msgid "Anchor"
+msgstr "锚点"
+
+#: uv.py:823
+msgid "Angle"
+msgstr "角度"
+
+#: enums.py:2
+msgid "Angle Based"
+msgstr "基于角度"
+
+#: data.py:180
+msgid "Animation"
+msgstr "动画"
+
+#: data.py:71
+msgid "Auto Unwrap"
+msgstr "自动展开"
+
+#: settings.py:38
+msgid "Auto hide LODs"
+msgstr "自动隐藏 LOD"
+
+#: settings.py:18
+msgid "Auto merge"
+msgstr "自动合并"
+
+#: settings.py:40
+msgid "Auto-hide will hide in renders"
+msgstr "自动隐藏将在渲染中隐藏"
+
+#: settings.py:39
+msgid "Auto-hide will hide in viewport"
+msgstr "自动隐藏将在视图中隐藏"
+
+#: data.py:64
+#: ui.py:300
+msgid "Bake"
+msgstr "烘焙"
+
+#: data.py:98
+msgid "Bake Pose"
+msgstr "烘焙姿态"
+
+#: ui.py:59
+msgid "Bake Sets"
+msgstr "烘焙集"
+
+#: data.py:66
+msgid "Bake/Export"
+msgstr "烘焙/导出"
+
+#: settings.py:22
+msgid "Baker"
+msgstr "烘焙器"
+
+#: ui.py:576
+msgid "Baking"
+msgstr "烘焙"
+
+#: settings.py:103
+msgid "Baking sets"
+msgstr "烘焙集"
+
+#: data.py:176
+#: settings.py:27
+msgid "Blender"
+msgstr "Blender"
+
+#: settings.py:15
+msgid "Blender does not allow multiple objects to have the same name, so we have to suffix them with something else."
+msgstr "Blender 不允许多个物体同名，所以必须给它们添加后缀。"
+
+#: data.py:177
+msgid "Blender library"
+msgstr "Blender 库"
+
+#: data.py:177
+msgid "Blender's asset library"
+msgstr "Blender 资产库"
+
+#: data.py:189
+msgid "Blue"
+msgstr "蓝色"
+
+#: settings.py:17
+msgid "Cage"
+msgstr "罩体"
+
+#: settings.py:62
+msgid "Cage edge"
+msgstr "罩体边"
+
+#: data.py:97
+msgid "Cage offset"
+msgstr "罩体偏移"
+
+#: settings.py:22
+msgid "Chose which UV packer to use"
+msgstr "选择要使用的 UV 排布器"
+
+#: settings.py:18
+msgid "Collapses hierarchies when possible and when allowed"
+msgstr "在可能且允许的情况下折叠层级"
+
+#: enums.py:3
+msgid "Conformal"
+msgstr "共形"
+
+#: data.py:186
+msgid "Create vertex colors"
+msgstr "创建顶点颜色"
+
+#: enums.py:24
+msgid "Current"
+msgstr "当前"
+
+#: data.py:170
+msgid "Custom"
+msgstr "自定义"
+
+#: settings.py:14
+msgid "Decal"
+msgstr "贴花"
+
+#: enums.py:33
+msgid "Decal (Deprecated ⚠️)"
+msgstr "贴花（已弃用 ⚠️）"
+
+#: data.py:131
+msgid "Decimate"
+msgstr "减面"
+
+#: data.py:132
+msgid "Decimation ratio"
+msgstr "减面比例"
+
+#: data.py:152
+msgid "Default offset"
+msgstr "默认偏移"
+
+#: data.py:155
+msgid "Default resolution in pixels"
+msgstr "默认分辨率（像素）"
+
+#: geotags.py:580
+#: geotags.py:604
+msgid "Detail"
+msgstr "细节"
+
+#: settings.py:56
+#: settings.py:58
+msgid "Detail edge"
+msgstr "细节边"
+
+#: settings.py:95
+msgid "Detail edge (Lower level)"
+msgstr "细节边（较低层级）"
+
+#: settings.py:92
+msgid "Detail edge (current level)"
+msgstr "细节边（当前层级）"
+
+#: settings.py:89
+msgid "Detail edge (higher level)"
+msgstr "细节边（较高层级）"
+
+#: data.py:127
+msgid "Details"
+msgstr "细节"
+
+#: settings.py:64
+msgid "Display viewport warning"
+msgstr "显示视图警告"
+
+#: geotags.py:196
+msgid "Don't care"
+msgstr "不在意"
+
+#: data.py:103
+msgid "Double-sided"
+msgstr "双面"
+
+#: ui.py:534
+#: ui.py:608
+msgid "Edge Detail"
+msgstr "边细节"
+
+#: geotags.py:160
+#: geotags.py:190
+msgid "Edge level"
+msgstr "边层级"
+
+#: data.py:128
+#: ui.py:610
+msgid "Edge offset"
+msgstr "边偏移"
+
+#: settings.py:54
+#: settings.py:55
+msgid "Edge overlay width"
+msgstr "边叠加层宽度"
+
+#: data.py:62
+#: data.py:65
+msgid "Export"
+msgstr "导出"
+
+#: data.py:104
+msgid "Export Instance"
+msgstr "导出实例"
+
+#: data.py:111
+msgid "Export Pose"
+msgstr "导出姿态"
+
+#: ui.py:81
+msgid "Export Sets"
+msgstr "导出集"
+
+#: ui.py:416
+msgid "Export anchors"
+msgstr "导出锚点"
+
+#: settings.py:107
+msgid "Export set"
+msgstr "导出集"
+
+#: settings.py:28
+msgid "External"
+msgstr "外部"
+
+#: data.py:168
+msgid "FBX"
+msgstr "FBX"
+
+#: ui.py:553
+msgid "Face Detail"
+msgstr "面细节"
+
+#: ui.py:557
+msgid "Face Mirroring"
+msgstr "面镜像"
+
+#: data.py:117
+msgid "Fast"
+msgstr "快速"
+
+#: data.py:74
+msgid "Fill Holes"
+msgstr "填充孔洞"
+
+#: data.py:114
+msgid "Final LoD"
+msgstr "最终 LOD"
+
+#: data.py:167
+msgid "Format"
+msgstr "格式"
+
+#: data.py:169
+msgid "GLTF"
+msgstr "GLTF"
+
+#: ui.py:523
+#: ui.py:566
+msgid "GamiFlow"
+msgstr "GamiFlow"
+
+#: data.py:141
+msgid "GamiFlow version"
+msgstr "GamiFlow 版本"
+
+#: __init__.py:1
+#: ui.py:11
+msgid "Gamiflow"
+msgstr "Gamiflow"
+
+#: settings.py:128
+msgid "General"
+msgstr "常规"
+
+#: data.py:151
+msgid "Generate cage"
+msgstr "生成罩体"
+
+#: data.py:181
+msgid "Generate lightmap UVs for the export meshes"
+msgstr "为导出网格生成光照贴图 UV"
+
+#: data.py:186
+msgid "Generate vertex Colors"
+msgstr "生成顶点颜色"
+
+#: data.py:59
+msgid "Generated (internal)"
+msgstr "生成（内部）"
+
+#: ui.py:505
+msgid "Geo Dissolve"
+msgstr "几何溶解"
+
+#: settings.py:68
+msgid "Gradient power"
+msgstr "渐变幂"
+
+#: settings.py:67
+msgid "Gradient scale"
+msgstr "渐变缩放"
+
+#: data.py:188
+msgid "Green"
+msgstr "绿色"
+
+#: data.py:125
+msgid "Gridification"
+msgstr "网格化"
+
+#: uv.py:548
+msgid "Gridification: Non-quad faces were ignored"
+msgstr "网格化：已忽略非四边面"
+
+#: settings.py:38
+msgid "Hide irrelevant LODs when switching level"
+msgstr "切换级别时隐藏无关的 LOD"
+
+#: data.py:86
+msgid "High"
+msgstr "高"
+
+#: settings.py:12
+msgid "High poly"
+msgstr "高模"
+
+#: data.py:11
+msgid "High-poly"
+msgstr "高模"
+
+#: geotags.py:191
+msgid "How many edges in a row will be affected"
+msgstr "连续多少条边会受影响"
+
+#: geotags.py:432
+msgid "How many edges in a row will be selected"
+msgstr "连续多少条边会被选中"
+
+#: geotags.py:192
+msgid "How many edges in a row will be skipped"
+msgstr "连续多少条边会被跳过"
+
+#: data.py:75
+msgid "How many smoothing iterations to perform"
+msgstr "执行多少次平滑迭代"
+
+#: data.py:132
+msgid "How many vertices to keep"
+msgstr "保留多少个顶点"
+
+#: data.py:76
+msgid "How much of the smoothing is applied"
+msgstr "应用多少平滑量"
+
+#: data.py:152
+msgid "How much the cage mesh will be inflated"
+msgstr "笼网格的膨胀量"
+
+#: settings.py:43
+msgid "ID Map"
+msgstr "ID 贴图"
+
+#: geotags.py:203
+msgid "If an edge already has a dissolve tag, it will be ignored. The internal counter is still incrementend."
+msgstr "如果边已有溶解标记，则会被忽略。内部计数器仍会递增。"
+
+#: geotags.py:202
+msgid "If an edge already has a dissolve tag, it will be skipped. The internal edge counter will not update."
+msgstr "如果边已有溶解标记，则会被跳过。内部边计数器不会更新。"
+
+#: geotags.py:198
+msgid "If an edge has a seam, it will be ignored. The internal counter is still incrementend."
+msgstr "如果边有缝合线，则会被忽略。内部计数器仍会递增。"
+
+#: geotags.py:197
+msgid "If an edge has a seam, it will be skipped. The internal edge counter will not update."
+msgstr "如果边有缝合线，则会被跳过。内部边计数器不会更新。"
+
+#: data.py:157
+msgid "If enabled, UVs will be snapped to pixels"
+msgstr "启用后，UV 会吸附到像素"
+
+#: data.py:90
+msgid "If enabled, an occluder will be left behind in the high-poly"
+msgstr "启用后，会在高模中留下一个遮挡物"
+
+#: data.py:151
+msgid "If enabled, cage objects will generated"
+msgstr "启用后，将生成笼物体"
+
+#: data.py:93
+msgid "If the object should bake onto itself"
+msgstr "物体是否应烘焙到自身"
+
+#: data.py:88
+msgid "If you have multiple instances in the low set, it can be difficult to predict which one will actually be paintable. Set to True to force it to be this one."
+msgstr "如果低模集中有多个实例，很难预测哪一个实际可绘制。设为 True 可强制指定为此实例。"
+
+#: geotags.py:198
+#: geotags.py:203
+msgid "Ignore edge"
+msgstr "忽略边"
+
+#: enums.py:36
+msgid "Ignored"
+msgstr "已忽略"
+
+#: data.py:93
+msgid "Include self"
+msgstr "包含自身"
+
+#: settings.py:120
+msgid "Index"
+msgstr "索引"
+
+#: data.py:63
+msgid "Instance"
+msgstr "实例"
+
+#: data.py:82
+msgid "Instance in"
+msgstr "实例所在"
+
+#: data.py:95
+#: data.py:109
+msgid "Internal"
+msgstr "内部"
+
+#: data.py:141
+msgid "Internal version number"
+msgstr "内部版本号"
+
+#: data.py:159
+msgid "Island scale factor"
+msgstr "孤岛缩放系数"
+
+#: data.py:184
+msgid "Kit"
+msgstr "套件"
+
+#: ui.py:141
+msgid "LODs"
+msgstr "LOD"
+
+#: data.py:90
+msgid "Leave ghost"
+msgstr "保留残影"
+
+#: geotags.py:160
+#: geotags.py:190
+msgid "Level"
+msgstr "级别"
+
+#: settings.py:36
+msgid "Lightmap UV Index"
+msgstr "光照贴图 UV 索引"
+
+#: settings.py:35
+msgid "Lightmap UV name"
+msgstr "光照贴图 UV 名称"
+
+#: data.py:181
+msgid "Lightmap UVs"
+msgstr "光照贴图 UV"
+
+#: data.py:137
+#: settings.py:16
+msgid "LoD"
+msgstr "LOD"
+
+#: data.py:192
+msgid "LoDs"
+msgstr "LOD"
+
+#: data.py:120
+msgid "Lock UDIM"
+msgstr "锁定 UDIM"
+
+#: data.py:120
+msgid "Locked UDIMs do not get recomputed when auto-unwrapping"
+msgstr "锁定 UDIM 在自动展开时不会重新计算"
+
+#: geotags.py:200
+msgid "Lod behaviour"
+msgstr "LOD 行为"
+
+#: data.py:114
+msgid "Lod level after which the object stops being included."
+msgstr "在此 LOD 级别之后，物体将不再被包含。"
+
+#: data.py:84
+msgid "Low"
+msgstr "低"
+
+#: settings.py:13
+msgid "Low poly"
+msgstr "低模"
+
+#: data.py:85
+msgid "Low/High"
+msgstr "低/高"
+
+#: data.py:88
+msgid "Main instance"
+msgstr "主实例"
+
+#: data.py:156
+msgid "Margin"
+msgstr "边距"
+
+#: data.py:156
+msgid "Margin between UV islands (in pixels)"
+msgstr "UV 孤岛之间的边距（像素）"
+
+#: settings.py:48
+msgid "Material color"
+msgstr "材质颜色"
+
+#: data.py:164
+msgid "Merge UDIMs"
+msgstr "合并 UDIM"
+
+#: settings.py:19
+msgid "Merge with other UDIMs"
+msgstr "与其他 UDIM 合并"
+
+#: data.py:105
+msgid "Merge with parents"
+msgstr "与父级合并"
+
+#: data.py:182
+msgid "Method"
+msgstr "方法"
+
+#: data.py:73
+msgid "Method-specific parameter"
+msgstr "方法专用参数"
+
+#: enums.py:4
+msgid "Minimum stretch"
+msgstr "最小拉伸"
+
+#: geotags.py:521
+msgid "Mirror mode"
+msgstr "镜像模式"
+
+#: data.py:124
+#: ui.py:605
+msgid "Mirrors"
+msgstr "镜像"
+
+#: sets.py:634
+msgid "Name"
+msgstr "名称"
+
+#: settings.py:75
+msgid "Naming convention"
+msgstr "命名规则"
+
+#: enums.py:34
+msgid "Non-Baked"
+msgstr "非烘焙"
+
+#: data.py:83
+#: geotags.py:522
+msgid "None"
+msgstr "无"
+
+#: __init__.py:1
+#: ui.py:278
+msgid "Object"
+msgstr "物体"
+
+#: enums.py:34
+msgid "Object whose material already exists and isn't supposed to get baked (a generic tiled texture, trim sheet). \nThis object is not processed as much by GamiFlow (UVs and materials are not modified) but will get exported."
+msgstr "材质已存在且不应烘焙的物体（通用平铺纹理、Trim Sheet）。\nGamiFlow 不会对此物体做太多处理（不会修改 UV 和材质），但仍会导出。"
+
+#: enums.py:35
+msgid "Occluder"
+msgstr "遮挡物"
+
+#: geotags.py:193
+#: ui.py:68
+msgid "Offset"
+msgstr "偏移"
+
+#: data.py:183
+msgid "One file is exported"
+msgstr "导出一个文件"
+
+#: data.py:184
+msgid "One file is exported for each root in the export set"
+msgstr "为导出集中的每个根物体导出一个文件"
+
+#: data.py:195
+msgid "Overlays"
+msgstr "叠加层"
+
+#: geotags.py:201
+msgid "Overwrite"
+msgstr "覆盖"
+
+#: data.py:158
+msgid "Packer"
+msgstr "打包器"
+
+#: settings.py:61
+msgid "Painter edge"
+msgstr "绘制边"
+
+#: data.py:97
+msgid "Per-object cage offset override. Leave at 0 to use the scene value instead."
+msgstr "逐物体笼偏移覆盖。设为 0 则改用场景值。"
+
+#: data.py:113
+msgid "Pose Slot (Shape key)"
+msgstr "姿态槽（形态键）"
+
+#: data.py:99
+#: data.py:112
+msgid "Pose Slot (object)"
+msgstr "姿态槽（物体）"
+
+#: data.py:100
+msgid "Pose Slot (shapekey)"
+msgstr "姿态槽（形态键）"
+
+#: data.py:134
+msgid "Preserve boundaries"
+msgstr "保留边界"
+
+#: data.py:133
+msgid "Preserve seams"
+msgstr "保留缝合线"
+
+#: enums.py:32
+msgid "Projected"
+msgstr "投影"
+
+#: sets.py:680
+msgid "Projection type"
+msgstr "投影类型"
+
+#: data.py:128
+msgid "Pushes the edges outward to avoid clipping"
+msgstr "将边缘向外推以避免裁剪"
+
+#: enums.py:27
+msgid "Random (Island)"
+msgstr "随机（孤岛）"
+
+#: enums.py:26
+msgid "Random (Object)"
+msgstr "随机（物体）"
+
+#: enums.py:27
+msgid "Random value per geometry island"
+msgstr "每个几何孤岛使用随机值"
+
+#: enums.py:26
+msgid "Random value per object"
+msgstr "每个物体使用随机值"
+
+#: data.py:117
+msgid "Reasonable"
+msgstr "合理"
+
+#: data.py:187
+msgid "Red"
+msgstr "红色"
+
+#: data.py:58
+msgid "Registered (internal)"
+msgstr "已注册（内部）"
+
+#: data.py:92
+msgid "Remove hard edges"
+msgstr "移除硬边"
+
+#: data.py:92
+msgid "Remove hard edges in the high-poly"
+msgstr "移除高模中的硬边"
+
+#: settings.py:33
+msgid "Rename main UVs"
+msgstr "重命名主 UV"
+
+#: settings.py:20
+msgid "Rename meshes"
+msgstr "重命名网格"
+
+#: settings.py:33
+msgid "Rename the active UV layer"
+msgstr "重命名活动 UV 层"
+
+#: settings.py:20
+msgid "Renames meshes so that they have the same name as their object"
+msgstr "重命名网格，使其与物体同名"
+
+#: settings.py:40
+msgid "Render"
+msgstr "渲染"
+
+#: data.py:155
+msgid "Resolution"
+msgstr "分辨率"
+
+#: geotags.py:433
+msgid "Reverse"
+msgstr "反转"
+
+#: data.py:179
+msgid "Reverse the front and back directions"
+msgstr "反转前后方向"
+
+#: data.py:179
+msgid "Reversed"
+msgstr "已反转"
+
+#: data.py:126
+#: data.py:159
+msgid "Scale"
+msgstr "缩放"
+
+#: uv.py:680
+msgid "Scale factor"
+msgstr "缩放系数"
+
+#: geotags.py:195
+msgid "Seam Behaviour"
+msgstr "缝合线行为"
+
+#: geotags.py:432
+msgid "Selected"
+msgstr "已选中"
+
+#: ui.py:291
+msgid "Shape key"
+msgstr "形态键"
+
+#: settings.py:64
+msgid "Shows a background gradient in the viewport when the selected object has been generated by Gamiflow."
+msgstr "当所选物体由 Gamiflow 生成时，在视图中显示背景渐变。"
+
+#: data.py:183
+msgid "Single file"
+msgstr "单个文件"
+
+#: data.py:91
+msgid "Single-sided"
+msgstr "单面"
+
+#: data.py:175
+msgid "Sketchfab"
+msgstr "Sketchfab"
+
+#: geotags.py:197
+msgid "Skip edge"
+msgstr "跳过边"
+
+#: geotags.py:202
+msgid "Skip egde"
+msgstr "跳过边"
+
+#: geotags.py:192
+msgid "Skipped"
+msgstr "已跳过"
+
+#: ui.py:228
+msgid "Smooth"
+msgstr "平滑"
+
+#: data.py:75
+msgid "Smooth iterations"
+msgstr "平滑迭代"
+
+#: data.py:76
+msgid "Smooth strength"
+msgstr "平滑强度"
+
+#: data.py:157
+msgid "Snap"
+msgstr "吸附"
+
+#: enums.py:31
+msgid "Standard"
+msgstr "标准"
+
+#: geotags.py:193
+msgid "Start offset"
+msgstr "起始偏移"
+
+#: data.py:172
+msgid "Target"
+msgstr "目标"
+
+#: ui.py:192
+msgid "Texture Coordinates"
+msgstr "纹理坐标"
+
+#: uv.py:784
+msgid "Texture set"
+msgstr "纹理集"
+
+#: settings.py:27
+msgid "The bake will be done internally by Blender which will be quite slow."
+msgstr "烘焙将由 Blender 内部完成，速度会相当慢。"
+
+#: data.py:137
+msgid "The current LoD"
+msgstr "当前 LoD"
+
+#: data.py:86
+msgid "The instance will be added to the high-poly set."
+msgstr "该实例将被添加到高模集。"
+
+#: data.py:85
+msgid "The instance will be added to the low and high-poly baking sets."
+msgstr "该实例将被添加到低模和高模烘焙集。"
+
+#: settings.py:54
+#: settings.py:55
+msgid "Thickness of the edge overlay"
+msgstr "边缘叠加层的厚度"
+
+#: data.py:64
+msgid "This instance will be used only when baking"
+msgstr "该实例仅在烘焙时使用"
+
+#: data.py:65
+msgid "This instance will be used only when creating the final export set"
+msgstr "该实例仅在创建最终导出集时使用"
+
+#: data.py:66
+msgid "This instance will be used when baking and exporting"
+msgstr "该实例将在烘焙和导出时使用"
+
+#: enums.py:36
+msgid "This object will be completely ignored"
+msgstr "该物体将被完全忽略"
+
+#: data.py:107
+msgid "Transform used for the final object in the export set"
+msgstr "导出集中最终物体使用的变换"
+
+#: data.py:91
+msgid "Treats surface as single-sided, which means the back faces will not cast AO"
+msgstr "将表面视为单面，这意味着背面不会投射 AO"
+
+#: data.py:81
+msgid "Type"
+msgstr "类型"
+
+#: data.py:77
+#: data.py:78
+msgid "UDIM"
+msgstr "UDIM"
+
+#: ui.py:115
+msgid "UDIMs"
+msgstr "UDIM"
+
+#: ui.py:606
+msgid "UV Grid"
+msgstr "UV 网格"
+
+#: ui.py:607
+msgid "UV Scale"
+msgstr "UV 缩放"
+
+#: ui.py:544
+msgid "UV Seams"
+msgstr "UV 缝合线"
+
+#: settings.py:34
+msgid "UV name"
+msgstr "UV 名称"
+
+#: ui.py:487
+msgid "UVs"
+msgstr "UV"
+
+#: data.py:173
+msgid "Unity"
+msgstr "Unity"
+
+#: data.py:174
+msgid "Unreal"
+msgstr "Unreal"
+
+#: data.py:73
+msgid "Unwrap param"
+msgstr "展开参数"
+
+#: uv.py:746
+msgid "Unwrapper"
+msgstr "展开器"
+
+#: ui.py:578
+msgid "Unwrapping"
+msgstr "展开"
+
+#: enums.py:33
+msgid "Use Projected with single-sided faces instead."
+msgstr "请改用投影与单面。"
+
+#: data.py:170
+msgid "Use the Export set collection exporter"
+msgstr "使用导出集集合导出器"
+
+#: enums.py:22
+msgid "Value is set to 0"
+msgstr "值设为 0"
+
+#: enums.py:23
+msgid "Value is set to 1"
+msgstr "值设为 1"
+
+#: settings.py:49
+msgid "Vertex color"
+msgstr "顶点颜色"
+
+#: settings.py:39
+msgid "Viewport"
+msgstr "视图"
+
+#: settings.py:66
+msgid "Warning Color B"
+msgstr "警告颜色 B"
+
+#: settings.py:65
+msgid "Warning color A"
+msgstr "警告颜色 A"
+
+#: data.py:77
+msgid "What texture set to use"
+msgstr "要使用的纹理集"
+
+#: enums.py:24
+msgid "Whatever value exists in the currently active vertex color attribute"
+msgstr "当前活动顶点色属性中存在的值"
+
+#: settings.py:19
+msgid "When enabled, meshes will be merged regardless of their UDIMs and the resulting meshes will have multiple materials"
+msgstr "启用后，网格将忽略其 UDIM 进行合并，生成的网格将包含多个材质"
+
+#: settings.py:43
+msgid "Where the ID is supposed to come from"
+msgstr "ID 应来自何处"
+
+#: geotags.py:196
+msgid "Whether an edge has a seam or not will not matter"
+msgstr "边是否有缝合线都无关紧要"
+
+#: settings.py:90
+#: settings.py:93
+msgid "Width"
+msgstr "宽度"
+
+#: __init__.py:1
+msgid "Workflow improvements for game assets"
+msgstr "游戏资产的工作流改进"
+
+#: settings.py:11
+msgid "Working"
+msgstr "工作"
+
+#: ui.py:40
+msgid "Working Set"
+msgstr "工作集"
+
+#: data.py:144
+#: settings.py:85
+msgid "Working set"
+msgstr "工作集"
+
+#: geotags.py:201
+msgid "Writes the lod level no matter the existing dissolve tag"
+msgstr "无论现有融并标记如何，都写入 LOD 级别"
+
+#: geotags.py:523
+msgid "X"
+msgstr "X"
+
+#: settings.py:28
+msgid "You want to bake everything in an external tool such as Painter or Toolbag."
+msgstr "你希望在 Painter 或 Toolbag 等外部工具中烘焙全部内容。"
+
+#: settings.py:11
+msgid "[Optional] If you don't want your export meshes to have the export suffix applied to them, you can instead suffix your working mesh and have the suffix removed in the export set."
+msgstr "[可选] 如果你不希望导出网格带有导出后缀，可以改为给工作网格添加后缀，并在导出集中移除该后缀。"
+
+#: data.py:109
+msgid "[UI] Anchor Index"
+msgstr "[UI] 锚点索引"
+
+#: data.py:95
+msgid "[UI] HP Index"
+msgstr "[UI] HP 索引"
+
+#: data.py:163
+msgid "[UI] UDIM Index"
+msgstr "[UI] UDIM 索引"
+
+#: data.py:58
+msgid "just to track which objects are known"
+msgstr "仅用于跟踪哪些物体已知"
+
+#: data.py:59
+msgid "just to track which objects were auto-generated"
+msgstr "仅用于跟踪哪些物体是自动生成的"
+
+#: sets.py:649
+msgctxt "Operator"
+msgid "Add Anchor"
+msgstr "添加锚点"
+
+#: sets.py:608
+msgctxt "Operator"
+msgid "Add High"
+msgstr "添加高模"
+
+#: sets.py:746
+msgctxt "Operator"
+msgid "Add LOD"
+msgstr "添加 LOD"
+
+#: uv.py:702
+msgctxt "Operator"
+msgid "Add UDIM"
+msgstr "添加 UDIM"
+
+#: sets.py:543
+msgctxt "Operator"
+msgid "Add a bevel modifier to be used only on the high-poly set"
+msgstr "添加仅用于高模集的倒角修改器"
+
+#: sets.py:747
+msgctxt "Operator"
+msgid "Add a new LOD"
+msgstr "添加新 LOD"
+
+#: uv.py:703
+msgctxt "Operator"
+msgid "Add a new UDIM"
+msgstr "添加新 UDIM"
+
+#: sets.py:609
+msgctxt "Operator"
+msgid "Add a new highpoly mesh"
+msgstr "添加新高模网格"
+
+#: sets_cage.py:198
+msgctxt "Operator"
+msgid "Add a weightmap to define the cage tightness: a value of 1 means the cage vertex will not be displaced. a value of 0 means the vertex will be fully displaced."
+msgstr "添加权重图以定义笼的紧密度：值为 1 表示笼顶点不会被位移，值为 0 表示顶点会完全位移。"
+
+#: sets.py:650
+msgctxt "Operator"
+msgid "Add an export anchor"
+msgstr "添加导出锚点"
+
+#: sets_cage.py:197
+msgctxt "Operator"
+msgid "Add map"
+msgstr "添加贴图"
+
+#: helpers.py:391
+msgctxt "Operator"
+msgid "Add stage switch"
+msgstr "添加阶段切换"
+
+#: helpers.py:422
+msgctxt "Operator"
+msgid "Add stage toggles"
+msgstr "添加阶段开关"
+
+#: ui.py:366
+msgctxt "Operator"
+msgid "Add tightness map"
+msgstr "添加紧密度贴图"
+
+#: helpers.py:423
+msgctxt "Operator"
+msgid "Adds a boolean input setting whether the modifier can run for each GamiFlow stage"
+msgstr "为每个 GamiFlow 阶段添加一个布尔输入，设置修改器是否可运行"
+
+#: helpers.py:392
+msgctxt "Operator"
+msgid "Adds a switch menu and a parameter that will represent the current set (low, high, export)"
+msgstr "添加切换菜单和一个表示当前集（低模、高模、导出）的参数"
+
+#: uv.py:730
+msgctxt "Operator"
+msgid "Apply selected UDIM to object"
+msgstr "将所选 UDIM 应用到物体"
+
+#: sets.py:564
+msgctxt "Operator"
+msgid "Apply the current UDIM to the selection"
+msgstr "将当前 UDIM 应用到所选内容"
+
+#: uv.py:490
+msgctxt "Operator"
+msgid "Automatically unwrap everything.\nCtrl-click to only unwrap the selected UDIM.\nShift-click to only repack."
+msgstr "自动展开全部。\n按住 Ctrl 单击仅展开所选 UDIM。\n按住 Shift 单击仅重新排布。"
+
+#: baker.py:206
+msgctxt "Operator"
+msgid "Bake"
+msgstr "烘焙"
+
+#: baker.py:207
+msgctxt "Operator"
+msgid "Bake the normal map and AO onto the low poly set.\n⚠️This process will be very slow, make sure you set your resolution as low as possible."
+msgstr "将法线贴图和 AO 烘焙到低模集上。\n⚠️此过程会非常慢，请确保将分辨率设置得尽可能低。"
+
+#: ui.py:27
+msgctxt "Operator"
+msgid "Cage"
+msgstr "笼"
+
+#: ui.py:662
+msgctxt "Operator"
+msgid "Calls pie menu"
+msgstr "调用饼图菜单"
+
+#: ui.py:536
+msgctxt "Operator"
+msgid "Checkered loop collapse"
+msgstr "交错循环坍缩"
+
+#: ui.py:535
+msgctxt "Operator"
+msgid "Checkered ring dissolve"
+msgstr "交错边环融并"
+
+#: ui.py:368
+#: ui.py:510
+msgctxt "Operator"
+msgid "Clear"
+msgstr "清除"
+
+#: sets.py:698
+msgctxt "Operator"
+msgid "Clear Generated Sets"
+msgstr "清除生成的集"
+
+#: sets.py:597
+msgctxt "Operator"
+msgid "Clear Seam"
+msgstr "清除缝合线"
+
+#: sets.py:598
+msgctxt "Operator"
+msgid "Clear the seam and hardness"
+msgstr "清除缝合线和硬度"
+
+#: sets.py:713
+msgctxt "Operator"
+msgid "Click to focus on set. Ctrl-click to toggle visibility."
+msgstr "单击以聚焦到集。按住 Ctrl 单击切换可见性。"
+
+#: geotags.py:303
+msgctxt "Operator"
+msgid "Collapse"
+msgstr "坍缩"
+
+#: geotags.py:471
+msgctxt "Operator"
+msgid "Collapse Edge Ring"
+msgstr "坍缩边环"
+
+#: geotags.py:472
+msgctxt "Operator"
+msgid "Collapse an edge ring into a single loop"
+msgstr "将边环坍缩为单条循环边"
+
+#: geotags.py:429
+msgctxt "Operator"
+msgid "Collapse every other edge on the loop"
+msgstr "坍缩循环边上间隔的边"
+
+#: uv.py:489
+msgctxt "Operator"
+msgid "Compute UVs"
+msgstr "计算 UV"
+
+#: sets.py:699
+msgctxt "Operator"
+msgid "Deletes all aut-generated sets"
+msgstr "删除所有自动生成的集"
+
+#: ui.py:508
+#: ui.py:516
+msgctxt "Operator"
+msgid "Dissolve"
+msgstr "融并"
+
+#: geotags.py:492
+msgctxt "Operator"
+msgid "Edge will no longer be dissolved or collapsed"
+msgstr "边将不再被融并或坍缩"
+
+#: sets.py:531
+msgctxt "Operator"
+msgid "Enable weighted normals"
+msgstr "启用加权法线"
+
+#: export.py:137
+#: export.py:184
+msgctxt "Operator"
+msgid "Export"
+msgstr "导出"
+
+#: ui.py:33
+msgctxt "Operator"
+msgid "Final"
+msgstr "最终"
+
+#: ui.py:661
+msgctxt "Operator"
+msgid "GamiFlow Pie Menu"
+msgstr "GamiFlow 饼图菜单"
+
+#: sets_cage.py:181
+msgctxt "Operator"
+msgid "Generate bake cages"
+msgstr "生成烘焙笼"
+
+#: sets_export.py:768
+msgctxt "Operator"
+msgid "Generate final meshes"
+msgstr "生成最终网格"
+
+#: sets_high.py:250
+msgctxt "Operator"
+msgid "Generate high-poly meshes for Painter"
+msgstr "为 Painter 生成高模网格"
+
+#: sets_low.py:196
+msgctxt "Operator"
+msgid "Generate low-poly meshes for Painter"
+msgstr "为 Painter 生成低模网格"
+
+#: ui.py:495
+msgctxt "Operator"
+msgid "Grid"
+msgstr "网格"
+
+#: ui.py:652
+#: uv.py:525
+msgctxt "Operator"
+msgid "Gridify"
+msgstr "网格化"
+
+#: ui.py:31
+msgctxt "Operator"
+msgid "High"
+msgstr "高模"
+
+#: ui.py:499
+msgctxt "Operator"
+msgid "Horizontal"
+msgstr "水平"
+
+#: ui.py:29
+msgctxt "Operator"
+msgid "Low"
+msgstr "低模"
+
+#: sets_export.py:767
+msgctxt "Operator"
+msgid "Make Export"
+msgstr "生成导出"
+
+#: sets_cage.py:180
+#: sets_high.py:249
+msgctxt "Operator"
+msgid "Make High"
+msgstr "生成高模"
+
+#: sets_low.py:195
+msgctxt "Operator"
+msgid "Make Low"
+msgstr "生成低模"
+
+#: ui.py:639
+msgctxt "Operator"
+msgid "Mark Cage Detail"
+msgstr "标记笼细节"
+
+#: ui.py:641
+msgctxt "Operator"
+msgid "Mark Collapse"
+msgstr "标记坍缩"
+
+#: ui.py:645
+msgctxt "Operator"
+msgid "Mark Dissolve"
+msgstr "标记融并"
+
+#: sets.py:577
+msgctxt "Operator"
+msgid "Mark Hard Seam"
+msgstr "标记硬缝合线"
+
+#: sets.py:587
+msgctxt "Operator"
+msgid "Mark Soft Seam"
+msgstr "标记软缝合线"
+
+#: ui.py:541
+msgctxt "Operator"
+msgid "Mark as Cage"
+msgstr "标记为笼"
+
+#: geotags.py:576
+msgctxt "Operator"
+msgid "Mark as detail"
+msgstr "标记为细节"
+
+#: geotags.py:428
+msgctxt "Operator"
+msgid "Mark checkered collapse"
+msgstr "标记交错坍缩"
+
+#: uv.py:526
+msgctxt "Operator"
+msgid "Mark faces as gridifiable"
+msgstr "将面标记为可网格化"
+
+#: ui.py:540
+msgctxt "Operator"
+msgid "Mark for Collapse"
+msgstr "标记为塌陷"
+
+#: ui.py:554
+#: ui.py:654
+msgctxt "Operator"
+msgid "Mark for Deletion"
+msgstr "标记为删除"
+
+#: ui.py:539
+msgctxt "Operator"
+msgid "Mark for Dissolve"
+msgstr "标记为融并"
+
+#: uv.py:553
+msgctxt "Operator"
+msgid "Mark selected faces as non-gridifiable"
+msgstr "将选中面标记为不可网格化"
+
+#: sets.py:578
+msgctxt "Operator"
+msgid "Mark the selected edges as hard seams"
+msgstr "将选中边标记为硬接缝"
+
+#: sets.py:588
+msgctxt "Operator"
+msgid "Mark the selected edges as soft seams"
+msgstr "将选中边标记为软接缝"
+
+#: ui.py:558
+#: ui.py:648
+msgctxt "Operator"
+msgid "Mirror"
+msgstr "镜像"
+
+#: ui.py:496
+msgctxt "Operator"
+msgid "Natural"
+msgstr "自然"
+
+#: ui.py:501
+msgctxt "Operator"
+msgid "Neutral"
+msgstr "中性"
+
+#: uv.py:638
+msgctxt "Operator"
+msgid "Orient Horizontal"
+msgstr "水平定向"
+
+#: uv.py:656
+msgctxt "Operator"
+msgid "Orient Neutral"
+msgstr "中性定向"
+
+#: uv.py:620
+msgctxt "Operator"
+msgid "Orient Vertical"
+msgstr "垂直定向"
+
+#: sets.py:677
+msgctxt "Operator"
+msgid "Project selected objects to the active object."
+msgstr "将选中物体投影到活动物体。"
+
+#: sets.py:676
+msgctxt "Operator"
+msgid "Project to active"
+msgstr "投影到活动物体"
+
+#: sets.py:542
+msgctxt "Operator"
+msgid "Quick Bevel"
+msgstr "快速倒角"
+
+#: sets.py:660
+msgctxt "Operator"
+msgid "Remove Anchor"
+msgstr "移除锚点"
+
+#: sets.py:619
+msgctxt "Operator"
+msgid "Remove High"
+msgstr "移除高模"
+
+#: sets.py:761
+msgctxt "Operator"
+msgid "Remove LOD"
+msgstr "移除 LOD"
+
+#: uv.py:713
+msgctxt "Operator"
+msgid "Remove UDIM"
+msgstr "移除 UDIM"
+
+#: sets_cage.py:212
+msgctxt "Operator"
+msgid "Remove map"
+msgstr "移除贴图"
+
+#: sets_cage.py:213
+msgctxt "Operator"
+msgid "Remove the cage tightness weightmap."
+msgstr "移除笼体紧密程度权重图。"
+
+#: sets.py:762
+msgctxt "Operator"
+msgid "Remove the selected LOD"
+msgstr "移除选中的 LOD"
+
+#: uv.py:714
+msgctxt "Operator"
+msgid "Remove the selected UDIM"
+msgstr "移除选中的 UDIM"
+
+#: sets.py:661
+msgctxt "Operator"
+msgid "Remove the selected export anchor"
+msgstr "移除选中的导出锚点"
+
+#: sets.py:620
+msgctxt "Operator"
+msgid "Remove the selected highpoly item"
+msgstr "移除选中的高模项"
+
+#: ui.py:537
+msgctxt "Operator"
+msgid "Ring collapse"
+msgstr "环状塌陷"
+
+#: ui.py:492
+msgctxt "Operator"
+msgid "Scale"
+msgstr "缩放"
+
+#: sets.py:630
+#: ui.py:512
+msgctxt "Operator"
+msgid "Select"
+msgstr "选择"
+
+#: ui.py:519
+msgctxt "Operator"
+msgid "Select detail"
+msgstr "选择细节"
+
+#: geotags.py:256
+#: geotags.py:600
+msgctxt "Operator"
+msgid "Select level"
+msgstr "选择级别"
+
+#: sets.py:631
+msgctxt "Operator"
+msgid "Select the high-poly"
+msgstr "选择高模"
+
+#: ui.py:238
+msgctxt "Operator"
+msgid "Set Action Slot"
+msgstr "设置动作槽"
+
+#: ui.py:353
+#: ui.py:380
+msgctxt "Operator"
+msgid "Set Bake Slot"
+msgstr "设置烘焙槽"
+
+#: ui.py:434
+#: ui.py:444
+msgctxt "Operator"
+msgid "Set Export Slot"
+msgstr "设置导出槽"
+
+#: sets.py:563
+#: uv.py:729
+msgctxt "Operator"
+msgid "Set UDIM"
+msgstr "设置 UDIM"
+
+#: uv.py:742
+msgctxt "Operator"
+msgid "Set Unwrap Method"
+msgstr "设置展开方法"
+
+#: geotags.py:186
+msgctxt "Operator"
+msgid "Set checkered level"
+msgstr "设置棋盘格级别"
+
+#: geotags.py:156
+msgctxt "Operator"
+msgid "Set level"
+msgstr "设置级别"
+
+#: geotags.py:517
+msgctxt "Operator"
+msgid "Set mirror"
+msgstr "设置镜像"
+
+#: uv.py:676
+msgctxt "Operator"
+msgid "Set scale"
+msgstr "设置缩放"
+
+#: sets.py:530
+msgctxt "Operator"
+msgid "Set smoothing"
+msgstr "设置平滑"
+
+#: uv.py:621
+#: uv.py:639
+msgctxt "Operator"
+msgid "Set the UV orientation"
+msgstr "设置 UV 方向"
+
+#: geotags.py:304
+msgctxt "Operator"
+msgid "Set the collapse level of the edges"
+msgstr "设置边的塌陷级别"
+
+#: sets.py:712
+msgctxt "Operator"
+msgid "Set the desired set to be visible"
+msgstr "设置要显示的集合"
+
+#: geotags.py:157
+msgctxt "Operator"
+msgid "Set the detail level of the edges"
+msgstr "设置边的细节级别"
+
+#: geotags.py:187
+msgctxt "Operator"
+msgid "Set the edge level for every other edge in the ring"
+msgstr "为环中每隔一条边设置边级别"
+
+#: uv.py:677
+msgctxt "Operator"
+msgid "Set the relative UV scale of an island"
+msgstr "设置孤岛的相对 UV 缩放"
+
+#: uv.py:743
+msgctxt "Operator"
+msgid "Set the unwrap method to the selection"
+msgstr "为选中项设置展开方法"
+
+#: uv.py:819
+msgctxt "Operator"
+msgid "Sharpen Seams"
+msgstr "锐化接缝"
+
+#: uv.py:820
+msgctxt "Operator"
+msgid "Sharpens seams based on the edge angle"
+msgstr "根据边角度锐化接缝"
+
+#: uv.py:780
+msgctxt "Operator"
+msgid "Show UVs"
+msgstr "显示 UV"
+
+#: uv.py:781
+msgctxt "Operator"
+msgid "Show the UVs for a given texture set"
+msgstr "显示指定纹理集的 UV"
+
+#: uv.py:579
+msgctxt "Operator"
+msgid "TEST"
+msgstr "测试"
+
+#: ui.py:653
+msgctxt "Operator"
+msgid "Ungridify"
+msgstr "取消网格化"
+
+#: ui.py:646
+msgctxt "Operator"
+msgid "Unmark"
+msgstr "取消标记"
+
+#: ui.py:655
+msgctxt "Operator"
+msgid "Unmark deletion"
+msgstr "取消删除标记"
+
+#: geotags.py:491
+msgctxt "Operator"
+msgid "Unmark edge"
+msgstr "取消边标记"
+
+#: ui.py:559
+#: ui.py:649
+msgctxt "Operator"
+msgid "Unmirror"
+msgstr "取消镜像"
+
+#: uv.py:835
+msgctxt "Operator"
+msgid "Unsharpen non-seams"
+msgstr "取消非接缝的锐化"
+
+#: uv.py:836
+msgctxt "Operator"
+msgid "Unsharpens all edges that are not on seams"
+msgstr "取消所有不在接缝上的边的锐化"
+
+#: ui.py:500
+msgctxt "Operator"
+msgid "Vertical"
+msgstr "垂直"
+
+#: ui.py:24
+msgctxt "Operator"
+msgid "Working"
+msgstr "工作中"

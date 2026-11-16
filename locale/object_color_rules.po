@@ -1,0 +1,179 @@
+# perfect-chinese: 1
+# id: object_color_rules
+# kind: addon
+# module: bl_ext.blender_org.object_color_rules
+# name: Object Color Rules
+# name_zh: 物体颜色规则
+# translator: KeshiMiao
+# category: Object
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:279
+msgid "%s (%s)"
+msgstr "%s（%s）"
+
+#: __init__.py:291
+msgid "Apply to selected (otherwise all objects in the scene)"
+msgstr "应用于选中项（否则为场景中所有物体）"
+
+#: __init__.py:401
+msgid "Collection Name"
+msgstr "集合名称"
+
+#: __init__.py:384
+msgid "Color"
+msgstr "颜色"
+
+#: __init__.py:222
+msgid "Color Rules"
+msgstr "颜色规则"
+
+#: __init__.py:384
+#: __init__.py:390
+msgid "Color to assign"
+msgstr "要指定的颜色"
+
+#: __init__.py:400
+msgid "Data Name"
+msgstr "数据名称"
+
+#: __init__.py:404
+#: __init__.py:436
+msgid "Expression"
+msgstr "表达式"
+
+#: __init__.py:412
+msgid "Invert"
+msgstr "反转"
+
+#: __init__.py:421
+msgid "Match Name"
+msgstr "匹配名称"
+
+#: __init__.py:103
+msgid "Match Name:"
+msgstr "匹配名称："
+
+#: __init__.py:412
+msgid "Match when the rule isn't met"
+msgstr "规则不满足时匹配"
+
+#: __init__.py:402
+msgid "Material Name"
+msgstr "材质名称"
+
+#: __init__.py:399
+msgid "Name"
+msgstr "名称"
+
+#: __init__.py:5
+msgid "Object"
+msgstr "物体"
+
+#: __init__.py:5
+msgid "Object Color Rules"
+msgstr "物体颜色规则"
+
+#: __init__.py:429
+msgid "Object Type"
+msgstr "物体类型"
+
+#: __init__.py:400
+msgid "Object data name contains this text (or matches regex)"
+msgstr "物体数据名称包含此文本（或匹配正则表达式）"
+
+#: __init__.py:401
+msgid "Object in collection that contains this text (or matches regex)"
+msgstr "物体所在集合包含此文本（或匹配正则表达式）"
+
+#: __init__.py:399
+msgid "Object name contains this text (or matches regex)"
+msgstr "物体名称包含此文本（或匹配正则表达式）"
+
+#: __init__.py:403
+msgid "Object type"
+msgstr "物体类型"
+
+#: __init__.py:402
+msgid "Object uses a material name that contains this text (or matches regex)"
+msgstr "物体所用材质名称包含此文本（或匹配正则表达式）"
+
+#: __init__.py:390
+msgid "Opacity"
+msgstr "不透明度"
+
+#: __init__.py:436
+msgid "Python expression, where 'self' is the object variable"
+msgstr "Python 表达式，其中“self”为物体变量"
+
+#: __init__.py:424
+msgid "Regex"
+msgstr "正则表达式"
+
+#: __init__.py:381
+msgid "Rule Name"
+msgstr "规则名称"
+
+#: __init__.py:396
+msgid "Rule Type"
+msgstr "规则类型"
+
+#: __init__.py:5
+msgid "Rules for assigning object color (for object & wireframe colors)."
+msgstr "用于指定物体颜色的规则（用于物体颜色和线框颜色）。"
+
+#: __init__.py:132
+msgid "Scripted Expression:"
+msgstr "脚本表达式："
+
+#: __init__.py:404
+msgid "Scripted expression (using 'self' for the object) eg:\n  self.type == 'MESH' and len(self.data.vertices) > 20"
+msgstr "脚本表达式（用“self”表示物体），例如：\n  self.type == 'MESH' and len(self.data.vertices) > 20"
+
+#: __init__.py:291
+msgid "Selected"
+msgstr "已选中"
+
+#: __init__.py:403
+msgid "Type"
+msgstr "类型"
+
+#: __init__.py:424
+msgid "Use regular expressions for pattern matching"
+msgstr "使用正则表达式进行模式匹配"
+
+#: __init__.py:335
+msgctxt "Operator"
+msgid "Add Color Layer"
+msgstr "添加颜色层"
+
+#: __init__.py:269
+msgctxt "Operator"
+msgid "All"
+msgstr "全部"
+
+#: __init__.py:288
+msgctxt "Operator"
+msgid "Assign Colors"
+msgstr "指定颜色"
+
+#: __init__.py:267
+msgctxt "Operator"
+msgid "Assign Selected"
+msgstr "为选中项指定"
+
+#: __init__.py:349
+#: __init__.py:363
+msgctxt "Operator"
+msgid "Remove Color Layer"
+msgstr "移除颜色层"
+
+#: __init__.py:318
+msgctxt "Operator"
+msgid "Select Rule"
+msgstr "选择规则"

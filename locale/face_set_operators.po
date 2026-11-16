@@ -1,0 +1,121 @@
+# perfect-chinese: 1
+# id: face_set_operators
+# kind: addon
+# module: bl_ext.blender_org.face_set_operators
+# name: Face Set Operators
+# name_zh: 面集操作
+# translator: KeshiMiao
+# category: Sculpt
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: face_sets.py:169
+msgid "'face_sets' attribute created"
+msgstr "已创建 'face_sets' 属性"
+
+#: face_sets.py:184
+msgid "Create New UVMap"
+msgstr "创建新 UV 贴图"
+
+#: __init__.py:1
+msgid "Create material slots, vertex groups, seams, uv islands, and named attributes from sculpt Face Sets"
+msgstr "从雕刻面集合创建材质槽、顶点组、缝合边、UV 孤岛和命名属性"
+
+#: face_sets.py:184
+msgid "Creates new UV Map. If disabled will overwrite active UV Map, if it exists"
+msgstr "创建新的 UV 贴图。若禁用，将覆盖活动 UV 贴图（如果存在）"
+
+#: __init__.py:1
+msgid "Face Set Operators"
+msgstr "面集合操作"
+
+#: face_sets.py:189
+msgid "Keep Existing Seams"
+msgstr "保留现有缝合边"
+
+#: face_sets.py:189
+msgid "Keep existing seams and use them for UV unwrapping alongside face set boundaries"
+msgstr "保留现有缝合边，并将其与面集合边界一起用于 UV 展开"
+
+#: face_sets.py:110
+msgid "Material slots were created for each face set"
+msgstr "已为每个面集合创建材质槽"
+
+#: __init__.py:1
+msgid "Sculpt"
+msgstr "雕刻"
+
+#: face_sets.py:238
+msgid "UVMap created from face set boundaries"
+msgstr "已根据面集合边界创建 UV 贴图"
+
+#: face_sets.py:179
+msgid "Unwrap UVs"
+msgstr "展开 UV"
+
+#: face_sets.py:151
+msgid "Vertex groups were created for each face set"
+msgstr "已为每个面集合创建顶点组"
+
+#: face_sets.py:179
+msgid "Will automatically unwrap UVs. If disabled it will only create seams"
+msgstr "将自动展开 UV。若禁用，则仅创建缝合边"
+
+#: face_sets.py:176
+msgctxt "Operator"
+msgid "Creates UV islands from Face Set boundaries"
+msgstr "根据面集合边界创建 UV 孤岛"
+
+#: face_sets.py:117
+msgctxt "Operator"
+msgid "Creates Vertex Group for each Face Set"
+msgstr "为每个面集合创建顶点组"
+
+#: face_sets.py:158
+msgctxt "Operator"
+msgid "Creates cached face sets attribute usable outside node tool contexts"
+msgstr "创建缓存的 face_sets 属性，可在节点工具上下文之外使用"
+
+#: face_sets.py:157
+msgctxt "Operator"
+msgid "Face Sets to Attribute"
+msgstr "面集合转属性"
+
+#: face_sets.py:78
+msgctxt "Operator"
+msgid "Face Sets to Materials"
+msgstr "面集合转材质"
+
+#: face_sets.py:175
+msgctxt "Operator"
+msgid "Face Sets to UVMap"
+msgstr "面集合转 UV 贴图"
+
+#: face_sets.py:116
+msgctxt "Operator"
+msgid "Face Sets to Vertex Groups"
+msgstr "面集合转顶点组"
+
+#: mask.py:55
+msgctxt "Operator"
+msgid "Mask from Edit Mode Selection"
+msgstr "从编辑模式选择创建遮罩"
+
+#: mask.py:10
+msgctxt "Operator"
+msgid "Mask selected vertices in sculpt mode.\nWARNING: Will unhide hidden vertices"
+msgstr "在雕刻模式下遮罩选中的顶点。\n警告：将取消隐藏隐藏的顶点"
+
+#: mask.py:9
+msgctxt "Operator"
+msgid "Selection to Sculpt Mask"
+msgstr "选择转雕刻遮罩"
+
+#: face_sets.py:79
+msgctxt "Operator"
+msgid "Transfer the face set index to the material index.\nWill create new material slot with empty node-less material for each face set.\nWARNING: Material colors might blend in with face set colors in sculpt mode if Viewport Shading color is set to Material"
+msgstr "将面集合索引传递到材质索引。\n将为每个面集合创建带有空的无节点材质的新材质槽。\n警告：如果视图着色颜色设置为材质，雕刻模式下的材质颜色可能会与面集合颜色混淆"

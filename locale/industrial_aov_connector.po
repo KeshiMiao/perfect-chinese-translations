@@ -1,0 +1,613 @@
+# perfect-chinese: 1
+# id: industrial_aov_connector
+# kind: addon
+# module: bl_ext.blender_org.Industrial_AOV_Connector
+# name: Industrial AOV Connector
+# name_zh: 工业AOV连接器
+# translator: KeshiMiao
+# category: Compositing
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: Industrial-AOV-Connector/core/properties.py:15
+msgid "16bit RGBA + 32bit DATA"
+msgstr "16 位 RGBA + 32 位 DATA"
+
+#: Industrial-AOV-Connector/core/properties.py:20
+msgid "32bit all in 1"
+msgstr "32 位全合一"
+
+#: Industrial-AOV-Connector/core/properties.py:37
+msgid "Add denoise to RGBA passes, Turn it off if you use other render engine than Cycles"
+msgstr "为 RGBA 通道添加降噪；如果使用 Cycles 以外的渲染引擎，请关闭"
+
+#: Industrial-AOV-Connector/ui/panels.py:95
+msgid "Advanced:"
+msgstr "高级："
+
+#: Industrial-AOV-Connector/operators/tree_ops.py:34
+msgid "All Outputs Updated"
+msgstr "所有输出已更新"
+
+#: Industrial-AOV-Connector/ui/panels.py:124
+msgid "Antialias Depth Addition:"
+msgstr "抗锯齿深度附加："
+
+#: Industrial-AOV-Connector/core/preferences.py:111
+msgid "Appearance:"
+msgstr "外观："
+
+#: Industrial-AOV-Connector/operators/tree_ops.py:89
+msgid "Arrange finished"
+msgstr "排列完成"
+
+#: Industrial-AOV-Connector/core/properties.py:44
+msgid "Auto Arrange Nodes at generating"
+msgstr "生成时自动排列节点"
+
+#: Industrial-AOV-Connector/core/preferences.py:60
+msgid "Auto Optimize Sample Count For Data Layers"
+msgstr "自动优化 DATA 层的采样数"
+
+#: Industrial-AOV-Connector/core/properties.py:44
+msgid "Auto arrange nodes when generating node tree, only if the compositor is visible in UI. Be careful if your scene is very heavy"
+msgstr "生成节点树时自动排列节点，仅在合成器在 UI 中可见时执行。如果场景非常繁重，请谨慎使用"
+
+#: Industrial-AOV-Connector/core/preferences.py:25
+msgid "Auto change blender default render output path to \"trash_output\" subfolder, for convenient dump later"
+msgstr "自动将 Blender 默认渲染输出路径更改为 \"trash_output\" 子文件夹，便于之后丢弃"
+
+#: Industrial-AOV-Connector/core/properties.py:51
+msgid "Clear Nodes When Running \"Cook Nodetree\""
+msgstr "运行“Cook Nodetree”时清除节点"
+
+#: Industrial-AOV-Connector/operators/data_layer_ops.py:54
+#: Industrial-AOV-Connector/operators/data_layer_ops.py:61
+msgid "Copy DATA Layer Created"
+msgstr "已创建 DATA 层副本"
+
+#: Industrial-AOV-Connector/core/preferences.py:96
+msgid "Core Function:"
+msgstr "核心功能："
+
+#: Industrial-AOV-Connector/core/properties.py:163
+msgid "Cryptomatte"
+msgstr "Cryptomatte"
+
+#: Industrial-AOV-Connector/operators/data_layer_ops.py:91
+msgid "Current layer has been converted to DATA Layer"
+msgstr "当前图层已转换为 DATA 层"
+
+#: Industrial-AOV-Connector/operators/data_layer_ops.py:97
+msgid "Current layer is DATA Layer"
+msgstr "当前图层是 DATA 层"
+
+#: Industrial-AOV-Connector/core/preferences.py:81
+msgid "Custom Name Suffix"
+msgstr "自定义名称后缀"
+
+#: Industrial-AOV-Connector/core/properties.py:127
+msgid "DATA"
+msgstr "DATA"
+
+#: Industrial-AOV-Connector/ui/panels.py:113
+msgid "DATA Layer Material Override:"
+msgstr "DATA 层材质覆盖："
+
+#: Industrial-AOV-Connector/core/properties.py:119
+#: Industrial-AOV-Connector/core/properties.py:155
+msgid "DWAA"
+msgstr "DWAA"
+
+#: Industrial-AOV-Connector/core/properties.py:120
+#: Industrial-AOV-Connector/core/properties.py:156
+msgid "DWAB"
+msgstr "DWAB"
+
+#: Industrial-AOV-Connector/operators/basic_ops.py:97
+msgid "Danger file detected, interrupted"
+msgstr "检测到危险文件，已中断"
+
+#: Industrial-AOV-Connector/core/properties.py:218
+msgid "Deep From Image Z"
+msgstr "Deep From Image Z"
+
+#: Industrial-AOV-Connector/core/preferences.py:25
+msgid "Default useless renders gather"
+msgstr "收集默认无用渲染"
+
+#: Industrial-AOV-Connector/core/properties.py:51
+msgid "Delete nodes that already in compositor"
+msgstr "删除合成器中已有的节点"
+
+#: Industrial-AOV-Connector/operators/basic_ops.py:91
+msgid "Deleted"
+msgstr "已删除"
+
+#: Industrial-AOV-Connector/core/preferences.py:15
+msgid "Denoise DiffCol / GlossCol / TransCol"
+msgstr "降噪 DiffCol / GlossCol / TransCol"
+
+#: Industrial-AOV-Connector/core/preferences.py:15
+msgid "Denoise DiffCol / GlossCol / TransCol (The flat color aovs), may increase divide precision"
+msgstr "降噪 DiffCol / GlossCol / TransCol（纯色 AOV），可能提高除法精度"
+
+#: Industrial-AOV-Connector/core/preferences.py:50
+msgid "Display Preference Button As Alert Color"
+msgstr "以警告色显示偏好设置按钮"
+
+#: Industrial-AOV-Connector/core/preferences.py:35
+msgid "Do not create nodes for viewlayers which their \"Use For Rendering\" checkbox is off"
+msgstr "不要为“用于渲染”复选框未勾选的视图层创建节点"
+
+#: Industrial-AOV-Connector/ui/panels.py:96
+msgid "EXR Codec:"
+msgstr "EXR 编解码器："
+
+#: Industrial-AOV-Connector/ui/panels.py:140
+msgid "Enable Output Tools in addon setting"
+msgstr "在插件设置中启用输出工具"
+
+#: Industrial-AOV-Connector/core/properties.py:72
+msgid "Go to advanced mode for more customized control"
+msgstr "进入高级模式以获得更多自定义控制"
+
+#: Industrial-AOV-Connector/core/preferences.py:87
+msgid "Horizontal DATA Layer Arrangement"
+msgstr "水平排列 DATA 层"
+
+#: Industrial-AOV-Connector/core/preferences.py:60
+msgid "If enabled, Data Layers will get sample count override when generating nodes, for faster rendering"
+msgstr "启用后，生成节点时 DATA 层将获得采样数覆盖，以加快渲染"
+
+#: Industrial-AOV-Connector/core/preferences.py:55
+msgid "If enabled, show UI in compositor N panel in addition to the property panel"
+msgstr "启用后，除属性面板外，还在合成器 N 面板中显示 UI"
+
+#: Industrial-AOV-Connector/core/preferences.py:87
+msgid "In advanced mode, arrange DATA layers to the right of RGBA layers instead of below them"
+msgstr "在高级模式下，将 DATA 层排列到 RGBA 层右侧，而不是下方"
+
+#: Industrial-AOV-Connector/ui/panels.py:102
+msgid "Independent DATA Layer Config:"
+msgstr "独立 DATA 层配置："
+
+#: Industrial-AOV-Connector/ui/panels.py:161
+msgid "Industrial"
+msgstr "Industrial"
+
+#: Industrial-AOV-Connector/ui/panels.py:148
+#: Industrial-AOV-Connector/ui/panels.py:157
+msgid "Industrial AOV Connector"
+msgstr "Industrial AOV Connector"
+
+#: Industrial-AOV-Connector/core/properties.py:84
+msgid "Instead of cryptomatte from DATA Layer, output it from each RGBA pass"
+msgstr "不从 DATA 层输出 Cryptomatte，而是从每个 RGBA 通道输出"
+
+#: Industrial-AOV-Connector/core/properties.py:99
+#: Industrial-AOV-Connector/core/properties.py:135
+msgid "Lossless. Compression rate is the highest for grainy images, but slower to read than other Lossless method"
+msgstr "无损。对噪点较多的图像压缩率最高，但读取速度比其他无损方式慢"
+
+#: Industrial-AOV-Connector/core/properties.py:104
+#: Industrial-AOV-Connector/core/properties.py:140
+msgid "Lossless. Fastest for read & write, but significantly larger than other lossless method"
+msgstr "无损。读写速度最快，但比其他无损方式大得多"
+
+#: Industrial-AOV-Connector/core/properties.py:94
+#: Industrial-AOV-Connector/core/properties.py:130
+msgid "Lossless. Provides Decently high compression rate, also playbacks fast. The balanced choice"
+msgstr "无损。压缩率相当高，回放也快。均衡之选"
+
+#: Industrial-AOV-Connector/core/properties.py:109
+#: Industrial-AOV-Connector/core/properties.py:145
+msgid "Lossless. Provides identical compression rate with ZIP, but nearly 40% faster to playback in Nuke (tested by me with a decent machine). The recommended method"
+msgstr "无损。压缩率与 ZIP 相同，但在 Nuke 中回放速度快近 40%（我用性能不错的机器测试过）。推荐方式"
+
+#: Industrial-AOV-Connector/core/properties.py:114
+#: Industrial-AOV-Connector/core/properties.py:150
+msgid "Lossy. Compress 32bit to 24 bit, leaving 16bit and 8bit untouched. Not suitable for Cryptomatte but may be used with other type of DATA to reduce file size"
+msgstr "有损。将 32 位压缩为 24 位，16 位和 8 位保持不变。不适合 Cryptomatte，但可用于其他类型的 DATA 以减小文件大小"
+
+#: Industrial-AOV-Connector/core/properties.py:119
+#: Industrial-AOV-Connector/core/properties.py:120
+msgid "Lossy. Small"
+msgstr "有损。文件小"
+
+#: Industrial-AOV-Connector/core/properties.py:12
+msgid "Main Config"
+msgstr "主配置"
+
+#: Industrial-AOV-Connector/operators/data_layer_ops.py:213
+msgid "Make DATA Exclusive Viewlayer"
+msgstr "将 DATA 设为独占视图层"
+
+#: Industrial-AOV-Connector/ui/panels.py:114
+msgid "Material"
+msgstr "材质"
+
+#: Industrial-AOV-Connector/core/properties.py:121
+#: Industrial-AOV-Connector/core/properties.py:157
+msgid "NONE"
+msgstr "无"
+
+#: Industrial-AOV-Connector/operators/data_layer_ops.py:28
+msgid "New DATA Layer Created"
+msgstr "已创建新 DATA 层"
+
+#: Industrial-AOV-Connector/core/properties.py:121
+#: Industrial-AOV-Connector/core/properties.py:157
+msgid "No compress"
+msgstr "不压缩"
+
+#: Industrial-AOV-Connector/operators/deep_ops.py:30
+msgid "No eligible view layers"
+msgstr "没有符合条件的视图层"
+
+#: Industrial-AOV-Connector/core/preferences.py:65
+msgid "Node Interval Scale When Arranging"
+msgstr "排列时的节点间距缩放"
+
+#: Industrial-AOV-Connector/ui/panels.py:78
+msgid "Not using Cycles, no need to denoise"
+msgstr "未使用 Cycles，无需降噪"
+
+#: Industrial-AOV-Connector/core/preferences.py:35
+msgid "Only Create Nodes For Enabled Viewlayers"
+msgstr "仅为已启用的视图层创建节点"
+
+#: Industrial-AOV-Connector/core/properties.py:20
+msgid "Only if you use ACEScg colorspace! Otherwise datas may be screwed when compositing. Recommend to use default config even for ACEScg"
+msgstr "仅当你使用 ACEScg 色彩空间时！否则合成时数据可能会出错。即使使用 ACEScg，也建议使用默认配置"
+
+#: Industrial-AOV-Connector/core/properties.py:65
+msgid "Output Artistic Depth"
+msgstr "输出艺术化深度"
+
+#: Industrial-AOV-Connector/core/properties.py:84
+msgid "Output Cryptomatte From RGBA Layers"
+msgstr "从 RGBA 层输出 Cryptomatte"
+
+#: Industrial-AOV-Connector/core/properties.py:65
+msgid "Output Denoised Depth Pass as a 0-1 depth channel, should be much more precise in terms of pixel filtering, also way less noise. But the depth value will not be as correct as the default depth channel"
+msgstr "将降噪后的深度通道输出为 0-1 深度通道，在像素过滤方面应精确得多，噪点也少得多。但深度值不会像默认深度通道那样准确"
+
+#: Industrial-AOV-Connector/ui/panels.py:83
+msgid "Output Settings:"
+msgstr "输出设置："
+
+#: Industrial-AOV-Connector/core/preferences.py:107
+#: Industrial-AOV-Connector/ui/panels.py:137
+msgid "Output Tools:"
+msgstr "输出工具："
+
+#: Industrial-AOV-Connector/core/properties.py:218
+msgid "Output a modified Z channel for generating Deep data in nuke with Deep From Image node"
+msgstr "输出修改后的 Z 通道，以便在 Nuke 中使用 Deep From Image 节点生成 Deep 数据"
+
+#: Industrial-AOV-Connector/core/properties.py:30
+msgid "Output to subfolder"
+msgstr "输出到子文件夹"
+
+#: Industrial-AOV-Connector/core/properties.py:99
+#: Industrial-AOV-Connector/core/properties.py:135
+msgid "PIZ"
+msgstr "PIZ"
+
+#: Industrial-AOV-Connector/core/properties.py:114
+#: Industrial-AOV-Connector/core/properties.py:150
+msgid "PXR24"
+msgstr "PXR24"
+
+#: Industrial-AOV-Connector/operators/basic_ops.py:63
+msgid "Pre-replaced all naming presets"
+msgstr "已预先替换所有命名预设"
+
+#: Industrial-AOV-Connector/core/preferences.py:45
+msgid "Put Preference Button On The Right Of The Top Bar"
+msgstr "将偏好设置按钮放在顶栏右侧"
+
+#: Industrial-AOV-Connector/core/properties.py:91
+msgid "RGBA"
+msgstr "RGBA"
+
+#: Industrial-AOV-Connector/core/properties.py:104
+#: Industrial-AOV-Connector/core/properties.py:140
+msgid "RLE"
+msgstr "RLE"
+
+#: Industrial-AOV-Connector/core/properties.py:15
+msgid "Recommended, saving space while speed up comp"
+msgstr "推荐，节省空间并加快合成"
+
+#: Industrial-AOV-Connector/core/properties.py:225
+msgid "Renderfarm Mode Active"
+msgstr "渲染农场模式已启用"
+
+#: Industrial-AOV-Connector/operators/basic_ops.py:57
+msgid "Restored all naming presets"
+msgstr "已恢复所有命名预设"
+
+#: Industrial-AOV-Connector/core/preferences.py:73
+msgid "Sample Count Used For Data Layers"
+msgstr "DATA 层使用的采样数"
+
+#: Industrial-AOV-Connector/core/preferences.py:65
+msgid "Scale of node interval when arranging node, fix too wide node interval and space consumption. this is a compensation for system-wide UI scaling, for example My Windows uses a 1.5x scale, set this to 0.67 will generate proper nodetree"
+msgstr "排列节点时的节点间距缩放，用于修正过宽的节点间距和空间占用。这是对系统级 UI 缩放的补偿，例如我的 Windows 使用 1.5 倍缩放，将其设为 0.67 可生成合适的节点树"
+
+#: Industrial-AOV-Connector/core/properties.py:58
+msgid "Separate Cryptomatte Output"
+msgstr "分离 Cryptomatte 输出"
+
+#: Industrial-AOV-Connector/core/properties.py:58
+msgid "Separate cryptomatte to an independent file output"
+msgstr "将 Cryptomatte 分离到独立的文件输出"
+
+#: Industrial-AOV-Connector/operators/data_layer_ops.py:149
+msgid "Set override material to \"Depth_AA--exP\" which outputs Antialias depth and Pref"
+msgstr "将覆盖材质设置为“Depth_AA--exP”，其输出抗锯齿深度和 Pref"
+
+#: Industrial-AOV-Connector/operators/data_layer_ops.py:190
+msgid "Set override material to \"PositionDepth_AA--exP\" which outputs Antialias depth, Pworld and Pref"
+msgstr "将覆盖材质设置为“PositionDepth_AA--exP”，其输出抗锯齿深度、Pworld 和 Pref"
+
+#: Industrial-AOV-Connector/operators/data_layer_ops.py:164
+msgid "Set override material to \"Position_AA--exP\" which outputs Antialias Pworld and Pref"
+msgstr "将覆盖材质设置为“Position_AA--exP”，其输出抗锯齿 Pworld 和 Pref"
+
+#: Industrial-AOV-Connector/operators/data_layer_ops.py:124
+msgid "Set override material to \"override--exP\" which is a diffuse Material with Pref"
+msgstr "将覆盖材质设置为“override--exP”，这是一个带 Pref 的漫射材质"
+
+#: Industrial-AOV-Connector/core/preferences.py:30
+msgid "Show \"Delete Useless Default Renders\" button in Output Tools, for quickly delete \"trash_output\""
+msgstr "在输出工具中显示“删除无用默认渲染”按钮，用于快速删除“trash_output”"
+
+#: Industrial-AOV-Connector/core/preferences.py:55
+msgid "Show UI In Compositor N Panel"
+msgstr "在合成器 N 面板中显示 UI"
+
+#: Industrial-AOV-Connector/core/preferences.py:30
+msgid "Show useless renders clean button"
+msgstr "显示无用渲染清理按钮"
+
+#: Industrial-AOV-Connector/operators/basic_ops.py:104
+msgid "There is no trash_output folder"
+msgstr "不存在 trash_output 文件夹"
+
+#: Industrial-AOV-Connector/core/preferences.py:73
+msgid "This value will be used for 'Auto Optimize Sample Count For Data Layers'"
+msgstr "此值将用于“自动优化数据层采样数”"
+
+#: Industrial-AOV-Connector/core/properties.py:78
+msgid "Use A dedicated viewlayer only for data and cryptomatte, enable this will make plugin disable other viewlayers' data output"
+msgstr "使用专用于数据和 Cryptomatte 的视图层，启用后插件将禁用其他视图层的数据输出"
+
+#: Industrial-AOV-Connector/core/properties.py:72
+msgid "Use Advanced Mode"
+msgstr "使用高级模式"
+
+#: Industrial-AOV-Connector/core/properties.py:37
+msgid "Use Denoise Nodes"
+msgstr "使用降噪节点"
+
+#: Industrial-AOV-Connector/core/preferences.py:40
+msgid "Use Icon-Only Preference Button"
+msgstr "使用仅图标偏好设置按钮"
+
+#: Industrial-AOV-Connector/core/preferences.py:40
+msgid "Use Icon-Only Style Preference Button"
+msgstr "使用仅图标样式的偏好设置按钮"
+
+#: Industrial-AOV-Connector/core/properties.py:78
+msgid "Use Independent DATA Layer"
+msgstr "使用独立 DATA 层"
+
+#: Industrial-AOV-Connector/core/preferences.py:20
+msgid "Use Old EXR Layer Naming Convention"
+msgstr "使用旧版 EXR 层命名约定"
+
+#: Industrial-AOV-Connector/core/preferences.py:20
+msgid "Use old EXR layer naming which is the same with 2.4.x below. The new layer naming is easier to read in nuke"
+msgstr "使用旧版 EXR 层命名，与 2.4.x 及更低版本相同。新的层命名在 Nuke 中更易读"
+
+#: Industrial-AOV-Connector/operators/deep_ops.py:25
+msgid "Viewlayer Deep Manage"
+msgstr "视图层深度管理"
+
+#: Industrial-AOV-Connector/operators/tree_ops.py:62
+msgid "Viewlayer Outputs Updated"
+msgstr "视图层输出已更新"
+
+#: Industrial-AOV-Connector/core/properties.py:225
+msgid "Whether render paths are currently substituted for render farm"
+msgstr "当前渲染路径是否已替换为渲染农场路径"
+
+#: Industrial-AOV-Connector/core/properties.py:30
+msgid "Write To Subfolder"
+msgstr "写入子文件夹"
+
+#: Industrial-AOV-Connector/core/preferences.py:81
+msgid "You can add custom text and preset to the file name generated by Industrial AOV Connector, for example use # to customize frame number digits. You can also use $scene$, $file$, $camera$, $version$ as preset that can be automatically changed to actual names when rendering ($version$ expects there is a \"v001\" style version number at the last of your blend file name). A good example is $scene$_$version$_###"
+msgstr "你可以为 Industrial AOV Connector 生成的文件名添加自定义文本和预设，例如使用 # 自定义帧号位数。还可以使用 $scene$、$file$、$camera$、$version$ 作为预设，渲染时会自动替换为实际名称（$version$ 要求你的 blend 文件名末尾有“v001”风格的版本号）。一个很好的例子是 $scene$_$version$_###"
+
+#: Industrial-AOV-Connector/core/properties.py:94
+#: Industrial-AOV-Connector/core/properties.py:130
+msgid "ZIP"
+msgstr "ZIP"
+
+#: Industrial-AOV-Connector/core/properties.py:109
+#: Industrial-AOV-Connector/core/properties.py:145
+msgid "ZIPS"
+msgstr "ZIPS"
+
+#: Industrial-AOV-Connector/ui/panels.py:74
+msgid "↓↓↓Turn on Denoise Passes.↓↓↓"
+msgstr "↓↓↓开启降噪通道。↓↓↓"
+
+#: Industrial-AOV-Connector/ui/panels.py:65
+msgid "↓↓↓Turn on Use Nodes in compositor.↓↓↓"
+msgstr "↓↓↓在合成器中开启“使用节点”。↓↓↓"
+
+#: Industrial-AOV-Connector/operators/tree_ops.py:70
+msgctxt "Operator"
+msgid "Arrange Connector Nodes"
+msgstr "排列连接器节点"
+
+#: Industrial-AOV-Connector/operators/basic_ops.py:112
+msgctxt "Operator"
+msgid "Auto Set Shader AOV"
+msgstr "自动设置着色器 AOV"
+
+#: Industrial-AOV-Connector/operators/basic_ops.py:113
+msgctxt "Operator"
+msgid "Auto gather and set shader AOV for all viewlayers"
+msgstr "自动收集并为所有视图层设置着色器 AOV"
+
+#: Industrial-AOV-Connector/operators/data_layer_ops.py:15
+msgctxt "Operator"
+msgid "Brand New DATA Viewlayer"
+msgstr "全新 DATA 视图层"
+
+#: Industrial-AOV-Connector/operators/data_layer_ops.py:80
+msgctxt "Operator"
+msgid "Convert To DATA Layer"
+msgstr "转换为 DATA 层"
+
+#: Industrial-AOV-Connector/operators/data_layer_ops.py:81
+msgctxt "Operator"
+msgid "Convert current viewlayer to DATA layer"
+msgstr "将当前视图层转换为 DATA 层"
+
+#: Industrial-AOV-Connector/operators/tree_ops.py:14
+msgctxt "Operator"
+msgid "Cook Nodetree"
+msgstr "计算节点树"
+
+#: Industrial-AOV-Connector/operators/basic_ops.py:71
+msgctxt "Operator"
+msgid "Delete Useless Default Renders"
+msgstr "删除无用默认渲染"
+
+#: Industrial-AOV-Connector/operators/basic_ops.py:72
+msgctxt "Operator"
+msgid "Delete the folder called 'trash_output' which contains the default render of blender, safe to perform because valid output paths generated by the addon will always locate out of the 'trash_output' folder"
+msgstr "删除名为“trash_output”的文件夹，其中包含 Blender 的默认渲染。可安全执行，因为插件生成的有效输出路径始终位于“trash_output”文件夹之外"
+
+#: Industrial-AOV-Connector/operators/data_layer_ops.py:228
+msgctxt "Operator"
+msgid "Make A DATA Layer"
+msgstr "创建 DATA 层"
+
+#: Industrial-AOV-Connector/operators/deep_ops.py:46
+msgctxt "Operator"
+msgid "Manage Deep output intent for each view layer"
+msgstr "管理每个视图层的深度输出意图"
+
+#: Industrial-AOV-Connector/operators/data_layer_ops.py:35
+msgctxt "Operator"
+msgid "New DATA Viewlayer Based On Current Viewlayer"
+msgstr "基于当前视图层新建 DATA 视图层"
+
+#: Industrial-AOV-Connector/handy_functions.py:301
+msgctxt "Operator"
+msgid "Open Preference"
+msgstr "打开偏好设置"
+
+#: Industrial-AOV-Connector/operators/data_layer_ops.py:105
+msgctxt "Operator"
+msgid "Override And Create AOVs"
+msgstr "覆盖并创建 AOV"
+
+#: Industrial-AOV-Connector/operators/data_layer_ops.py:106
+msgctxt "Operator"
+msgid "Override Layer material to selected type, then create necessary AOV for output"
+msgstr "将层材质覆盖为所选类型，然后创建输出所需的 AOV"
+
+#: Industrial-AOV-Connector/ui/panels.py:38
+#: Industrial-AOV-Connector/ui/panels.py:54
+msgctxt "Operator"
+msgid "Preference"
+msgstr "偏好设置"
+
+#: Industrial-AOV-Connector/operators/basic_ops.py:47
+msgctxt "Operator"
+msgid "Renderfarm Prepare"
+msgstr "渲染农场准备"
+
+#: Industrial-AOV-Connector/ui/panels.py:142
+msgctxt "Operator"
+msgid "Restore Path Preset"
+msgstr "恢复路径预设"
+
+#: Industrial-AOV-Connector/operators/basic_ops.py:48
+msgctxt "Operator"
+msgid "Toggle: Replace naming presets for render farm / Restore original paths"
+msgstr "切换：替换渲染农场的命名预设 / 恢复原始路径"
+
+#: Industrial-AOV-Connector/operators/basic_ops.py:33
+msgctxt "Operator"
+msgid "Turn On Denoise For All Layers"
+msgstr "为所有层开启降噪"
+
+#: Industrial-AOV-Connector/operators/basic_ops.py:34
+msgctxt "Operator"
+msgid "Turn on denoise for all viewlayers"
+msgstr "为所有视图层开启降噪"
+
+#: Industrial-AOV-Connector/operators/basic_ops.py:23
+msgctxt "Operator"
+msgid "Turn on use nodes"
+msgstr "开启使用节点"
+
+#: Industrial-AOV-Connector/operators/tree_ops.py:41
+msgctxt "Operator"
+msgid "Update Current Viewlayer"
+msgstr "更新当前视图层"
+
+#: Industrial-AOV-Connector/operators/basic_ops.py:22
+msgctxt "Operator"
+msgid "Use Nodes"
+msgstr "使用节点"
+
+#: Industrial-AOV-Connector/operators/deep_ops.py:45
+#: Industrial-AOV-Connector/ui/panels.py:89
+msgctxt "Operator"
+msgid "Viewlayer Deep Manage"
+msgstr "视图层深度管理"
+
+#: Industrial-AOV-Connector/operators/tree_ops.py:71
+msgctxt "Operator"
+msgid "arrange nodes generated by this plugin"
+msgstr "排列此插件生成的节点"
+
+#: Industrial-AOV-Connector/operators/data_layer_ops.py:36
+msgctxt "Operator"
+msgid "make a data exclusive viewlayer that copys current viewlayer settings and passes"
+msgstr "创建一个数据专用视图层，复制当前视图层的设置和通道"
+
+#: Industrial-AOV-Connector/operators/data_layer_ops.py:16
+msgctxt "Operator"
+msgid "make a data exclusive viewlayer with all collections turned on, without any data passes"
+msgstr "创建一个数据专用视图层，开启所有集合，且不包含任何数据通道"
+
+#: Industrial-AOV-Connector/operators/data_layer_ops.py:229
+msgctxt "Operator"
+msgid "make a data exclusive viewlayer. the addon recognize data layer by naming, and supports multiple data layers. this button is actually a modified 'add viewlayer' button"
+msgstr "创建一个数据专用视图层。插件通过命名识别数据层，并支持多个数据层。此按钮实际上是修改过的“添加视图层”按钮"
+
+#: Industrial-AOV-Connector/operators/tree_ops.py:15
+msgctxt "Operator"
+msgid "make connector nodes in compositor"
+msgstr "在合成器中创建连接器节点"
+
+#: Industrial-AOV-Connector/operators/tree_ops.py:42
+msgctxt "Operator"
+msgid "only update current viewlayer's connector nodes"
+msgstr "仅更新当前视图层的连接器节点"

@@ -1,0 +1,940 @@
+# perfect-chinese: 1
+# id: k_tools_view_sync
+# kind: addon
+# module: bl_ext.blender_org.k_tools_view_sync
+# name: K-Tools: Sync | Lock Viewport
+# name_zh: 视口同步锁定
+# translator: KeshiMiao
+# category: 3D View
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: k_tools_view_sync/properties/properties.py:66
+msgid "2D Editors"
+msgstr "2D 编辑器"
+
+#: k_tools_view_sync/properties/properties.py:65
+msgid "3D View"
+msgstr "3D 视图"
+
+#: k_tools_view_sync/properties/properties.py:151
+msgid "Adjust View Distance:"
+msgstr "调整视图距离："
+
+#: k_tools_view_sync/operators/op_layout_operators.py:85
+msgid "Analytic Window Created!"
+msgstr "分析窗口已创建！"
+
+#: k_tools_view_sync/properties/properties.py:23
+msgid "Apply Toon Dark shading matcap"
+msgstr "应用卡通深色 MatCap 明暗"
+
+#: k_tools_view_sync/properties/properties.py:24
+msgid "Apply Toon Light shading matcap"
+msgstr "应用卡通浅色 MatCap 明暗"
+
+#: k_tools_view_sync/properties/properties.py:18
+msgid "Assign random colors to each object to distinguish shapes"
+msgstr "为每个物体分配随机颜色以区分形状"
+
+#: k_tools_view_sync/panels/pt_lock_panel.py:19
+#: k_tools_view_sync/properties/properties.py:171
+msgid "Auto Lock Ortho"
+msgstr "自动锁定正交视图"
+
+#: k_tools_view_sync/preferences.py:70
+msgid "Auto Lock Ortho by Default"
+msgstr "默认自动锁定正交视图"
+
+#: k_tools_view_sync/panels/pt_sync_panel.py:35
+#: k_tools_view_sync/properties/properties.py:90
+msgid "Auto Master"
+msgstr "自动主视图"
+
+#: k_tools_view_sync/preferences.py:63
+msgid "Auto Master On by Default"
+msgstr "默认启用自动主视图"
+
+#: k_tools_view_sync/properties/properties.py:171
+msgid "Automatically lock view rotation when entering Orthographic view in X, Y, Z axes"
+msgstr "在 X、Y、Z 轴进入正交视图时自动锁定视图旋转"
+
+#: k_tools_view_sync/properties/properties.py:90
+msgid "Automatically set master view to the active 3D view"
+msgstr "自动将主视图设置为活动的 3D 视图"
+
+#: k_tools_view_sync/panels/pt_sync_panel.py:105
+msgid "Available 2D Editors:"
+msgstr "可用的 2D 编辑器："
+
+#: k_tools_view_sync/panels/pt_lock_panel.py:26
+#: k_tools_view_sync/panels/pt_sync_panel.py:51
+msgid "Available Views:"
+msgstr "可用视图："
+
+#: k_tools_view_sync/operators/op_lock_operators.py:444
+msgid "Back"
+msgstr "后视图"
+
+#: k_tools_view_sync/operators/op_lock_operators.py:442
+msgid "Bottom"
+msgstr "底视图"
+
+#: k_tools_view_sync/operators/op_lock_operators.py:447
+msgid "Camera"
+msgstr "摄像机"
+
+#: k_tools_view_sync/operators/op_lock_operators.py:31
+msgid "Camera View Toggle Button"
+msgstr "摄像机视图切换按钮"
+
+#: k_tools_view_sync/properties/properties.py:205
+msgid "Center Playhead on Play"
+msgstr "播放时居中播放头"
+
+#: k_tools_view_sync/properties/properties.py:21
+msgid "Check surfaces with horizontal zebra matcap"
+msgstr "使用水平斑马纹 MatCap 检查表面"
+
+#: k_tools_view_sync/properties/properties.py:22
+msgid "Check surfaces with vertical zebra matcap"
+msgstr "使用垂直斑马纹 MatCap 检查表面"
+
+#: k_tools_view_sync/properties/properties.py:50
+msgid "Choose addon mode"
+msgstr "选择插件模式"
+
+#: k_tools_view_sync/properties/properties.py:61
+msgid "Choose between 3D Viewports sync and 2D Animation Editors sync"
+msgstr "选择 3D 视图同步或 2D 动画编辑器同步"
+
+#: k_tools_view_sync/properties/properties.py:19
+msgid "Clean View"
+msgstr "纯净视图"
+
+#: k_tools_view_sync/panels/pt_sync_panel.py:203
+msgid "Clip End"
+msgstr "结束剪裁"
+
+#: k_tools_view_sync/panels/pt_sync_panel.py:186
+msgid "Clip End:"
+msgstr "结束剪裁："
+
+#: k_tools_view_sync/panels/pt_sync_panel.py:202
+msgid "Clip Start"
+msgstr "起始剪裁"
+
+#: k_tools_view_sync/panels/pt_sync_panel.py:185
+msgid "Clip Start:"
+msgstr "起始剪裁："
+
+#: k_tools_view_sync/preferences.py:55
+msgid "Configure default startup behaviors"
+msgstr "配置默认启动行为"
+
+#: k_tools_view_sync/preferences.py:57
+msgid "Configure shortcuts and key bindings"
+msgstr "配置快捷键和按键绑定"
+
+#: k_tools_view_sync/preferences.py:56
+msgid "Configure user interface and overlays"
+msgstr "配置用户界面和叠加层"
+
+#: k_tools_view_sync/operators/op_auto_master.py:83
+msgid "Couldn't determine 2D view index"
+msgstr "无法确定 2D 视图索引"
+
+#: k_tools_view_sync/operators/op_auto_master.py:64
+msgid "Couldn't determine view index"
+msgstr "无法确定视图索引"
+
+#: k_tools_view_sync/preferences.py:176
+msgid "Default Local View keymap restored."
+msgstr "默认局部视图键位映射已恢复。"
+
+#: k_tools_view_sync/preferences.py:77
+msgid "Display a HUD notification card in the viewport when rotation is locked"
+msgstr "旋转锁定时在视图中显示 HUD 通知卡片"
+
+#: k_tools_view_sync/panels/pt_sync_panel.py:196
+msgid "Distance"
+msgstr "距离"
+
+#: k_tools_view_sync/panels/pt_sync_panel.py:190
+msgid "Distance Adjust:"
+msgstr "距离调整："
+
+#: k_tools_view_sync/preferences.py:83
+msgid "Draw Lock HUD at Top"
+msgstr "在顶部绘制锁定 HUD"
+
+#: k_tools_view_sync/preferences.py:83
+#: k_tools_view_sync/properties/properties.py:176
+msgid "Draw the Lock HUD notification card at the top of the 3D Viewport instead of the bottom"
+msgstr "将锁定 HUD 通知卡片绘制在 3D 视图顶部而不是底部"
+
+#: k_tools_view_sync/panels/pt_lock_panel.py:17
+#: k_tools_view_sync/properties/properties.py:161
+msgid "Enable Camera Pan"
+msgstr "启用摄像机平移"
+
+#: k_tools_view_sync/preferences.py:97
+#: k_tools_view_sync/preferences.py:141
+msgid "Enable Floating Panel Hotkey"
+msgstr "启用浮动面板快捷键"
+
+#: k_tools_view_sync/panels/pt_lock_panel.py:18
+msgid "Enable Pan on Lock"
+msgstr "锁定时启用平移"
+
+#: k_tools_view_sync/preferences.py:97
+msgid "Enable a global shortcut to open the View Sync / Lock floating popup menu in 3D Viewport"
+msgstr "启用全局快捷键以在 3D 视图中打开视图同步/锁定浮动弹出菜单"
+
+#: k_tools_view_sync/properties/properties.py:161
+msgid "Enable panning with middle mouse in camera view"
+msgstr "在摄像机视图中启用鼠标中键平移"
+
+#: k_tools_view_sync/properties/properties.py:166
+msgid "Enable panning with middle mouse when View Rotation is locked"
+msgstr "视图旋转锁定时启用鼠标中键平移"
+
+#: k_tools_view_sync/__init__.py:202
+msgid "Enable real-time synchronization"
+msgstr "启用实时同步"
+
+#: k_tools_view_sync/properties/properties.py:151
+msgid "Fine adjustment (Multiplier) for Sync View Distance"
+msgstr "同步视图距离的微调（乘数）"
+
+#: k_tools_view_sync/properties/properties.py:13
+msgid "Flat shading with black background for silhouette analysis"
+msgstr "用于轮廓分析的黑色背景平直着色"
+
+#: k_tools_view_sync/panels/pt_sync_panel.py:204
+msgid "Focal Length"
+msgstr "焦距"
+
+#: k_tools_view_sync/panels/pt_sync_panel.py:187
+msgid "Focal Length:"
+msgstr "焦距："
+
+#: k_tools_view_sync/operators/op_lock_operators.py:443
+msgid "Front"
+msgstr "前视图"
+
+#: k_tools_view_sync/preferences.py:55
+msgid "Global Defaults"
+msgstr "全局默认"
+
+#: k_tools_view_sync/preferences.py:118
+msgid "Global Defaults:"
+msgstr "全局默认："
+
+#: k_tools_view_sync/properties/properties.py:20
+msgid "Hard surface analysis using Red Clay Matcap"
+msgstr "使用红粘土 MatCap 进行硬表面分析"
+
+#: k_tools_view_sync/preferences.py:58
+msgid "Help"
+msgstr "帮助"
+
+#: k_tools_view_sync/preferences.py:161
+msgid "Help & Support:"
+msgstr "帮助与支持："
+
+#: k_tools_view_sync/properties/properties.py:19
+msgid "Hide all overlays and gizmos but keep current shading"
+msgstr "隐藏所有叠加层和 Gizmo，但保留当前着色"
+
+#: k_tools_view_sync/properties/properties.py:25
+msgid "High Detail"
+msgstr "高细节"
+
+#: k_tools_view_sync/properties/properties.py:198
+msgid "Horizontal (Time)"
+msgstr "水平（时间）"
+
+#: k_tools_view_sync/preferences.py:154
+msgid "Hotkey Configuration:"
+msgstr "快捷键配置："
+
+#: k_tools_view_sync/properties/properties.py:184
+msgid "Index of the master 2D view"
+msgstr "主 2D 视图的索引"
+
+#: k_tools_view_sync/properties/properties.py:76
+msgid "Index of the master View3D"
+msgstr "主 3D 视图的索引"
+
+#: k_tools_view_sync/properties/properties.py:14
+msgid "Inverted silhouette: Black models on white background"
+msgstr "反相轮廓：白色背景上的黑色模型"
+
+#: k_tools_view_sync/panels/main_panel.py:10
+msgid "K-Tools"
+msgstr "K-Tools"
+
+#: k_tools_view_sync/preferences.py:104
+msgid "Keep Lights in Local View"
+msgstr "在局部视图中保留灯光"
+
+#: k_tools_view_sync/panels/pt_sync_panel.py:209
+msgid "Keep Lights when in Local View"
+msgstr "在局部视图中保留灯光"
+
+#: k_tools_view_sync/preferences.py:104
+msgid "Keep lights visible when using Local View"
+msgstr "使用局部视图时保持灯光可见"
+
+#: k_tools_view_sync/properties/properties.py:205
+msgid "Keep the playhead centered in the 2D editors during animation playback"
+msgstr "动画播放期间保持播放头在 2D 编辑器中居中"
+
+#: k_tools_view_sync/preferences.py:57
+msgid "Keymap Options"
+msgstr "键位映射选项"
+
+#: k_tools_view_sync/preferences.py:135
+msgid "Keymap Options:"
+msgstr "键位映射选项："
+
+#: k_tools_view_sync/operators/op_lock_operators.py:446
+msgid "Left"
+msgstr "左视图"
+
+#: k_tools_view_sync/panels/pt_sync_panel.py:206
+msgid "Local View:"
+msgstr "局部视图："
+
+#: k_tools_view_sync/panels/pt_sync_panel.py:197
+msgid "Location"
+msgstr "位置"
+
+#: k_tools_view_sync/properties/properties.py:55
+msgid "Lock"
+msgstr "锁定"
+
+#: k_tools_view_sync/properties/properties.py:176
+msgid "Lock HUD at Top"
+msgstr "锁定 HUD 置顶"
+
+#: k_tools_view_sync/operators/op_lock_operators.py:9
+msgid "Lock Rotation"
+msgstr "锁定旋转"
+
+#: k_tools_view_sync/properties/properties.py:55
+msgid "Lock Rotation from selected 3D Views"
+msgstr "锁定所选 3D 视图的旋转"
+
+#: k_tools_view_sync/operators/op_lock_operators.py:428
+msgid "Lock View Presets"
+msgstr "锁定视图预设"
+
+#: k_tools_view_sync/operators/op_lock_operators.py:447
+msgid "Lock to active camera"
+msgstr "锁定到活动摄像机"
+
+#: k_tools_view_sync/operators/op_lock_operators.py:444
+msgid "Lock view from back"
+msgstr "锁定后视图"
+
+#: k_tools_view_sync/operators/op_lock_operators.py:442
+msgid "Lock view from bottom"
+msgstr "锁定底视图"
+
+#: k_tools_view_sync/operators/op_lock_operators.py:443
+msgid "Lock view from front"
+msgstr "锁定前视图"
+
+#: k_tools_view_sync/operators/op_lock_operators.py:446
+msgid "Lock view from left"
+msgstr "锁定左视图"
+
+#: k_tools_view_sync/operators/op_lock_operators.py:445
+msgid "Lock view from right"
+msgstr "锁定右视图"
+
+#: k_tools_view_sync/operators/op_lock_operators.py:441
+msgid "Lock view from top"
+msgstr "锁定顶视图"
+
+#: k_tools_view_sync/panels/pt_sync_panel.py:99
+msgid "Master 2D View"
+msgstr "主 2D 视图"
+
+#: k_tools_view_sync/properties/properties.py:184
+msgid "Master 2D View Index"
+msgstr "主 2D 视图索引"
+
+#: k_tools_view_sync/panels/pt_sync_panel.py:40
+msgid "Master View"
+msgstr "主视图"
+
+#: k_tools_view_sync/properties/properties.py:76
+msgid "Master View Index"
+msgstr "主视图索引"
+
+#: k_tools_view_sync/operators/op_lock_operators.py:448
+msgid "Match Master"
+msgstr "匹配主视图"
+
+#: k_tools_view_sync/operators/op_lock_operators.py:448
+msgid "Match master view and lock"
+msgstr "匹配主视图并锁定"
+
+#: k_tools_view_sync/properties/properties.py:25
+msgid "Maximize contrast with Cavity and Outlines for detail analysis"
+msgstr "使用腔体和轮廓增强对比度以分析细节"
+
+#: k_tools_view_sync/panels/pt_sync_panel.py:117
+msgid "No 2D Editors open (Timeline, Dopesheet, Graph, NLA)"
+msgstr "未打开 2D 编辑器（时间线、动画摄影表、曲线编辑器、NLA）"
+
+#: k_tools_view_sync/properties/properties.py:12
+msgid "No shading preset applied"
+msgstr "未应用着色预设"
+
+#: k_tools_view_sync/properties/properties.py:12
+msgid "None"
+msgstr "无"
+
+#: k_tools_view_sync/properties/properties.py:16
+msgid "Normals Check"
+msgstr "法线检查"
+
+#: k_tools_view_sync/operators/op_auto_master.py:116
+msgid "Not in a 3D View"
+msgstr "不在 3D 视图中"
+
+#: k_tools_view_sync/operators/op_auto_master.py:48
+msgid "Not in a supported editor (3D View, Timeline, Dopesheet, NLA, Graph Editor)"
+msgstr "不在支持的编辑器中（3D 视图、时间线、动画摄影表、NLA、曲线编辑器）"
+
+#: k_tools_view_sync/panels/pt_sync_panel.py:200
+msgid "Offset"
+msgstr "偏移"
+
+#: k_tools_view_sync/preferences.py:90
+msgid "Override Blender's default Local View key with K-Tools Global Local View (isolates objects in all 3D viewports simultaneously)"
+msgstr "用 K-Tools 全局局部视图覆盖 Blender 默认的局部视图快捷键（同时在所有 3D 视口中隔离物体）"
+
+#: k_tools_view_sync/properties/properties.py:166
+msgid "Pan on Rotation Lock"
+msgstr "旋转锁定时平移"
+
+#: k_tools_view_sync/properties/properties.py:50
+msgid "Panel Mode"
+msgstr "面板模式"
+
+#: k_tools_view_sync/panels/pt_sync_panel.py:201
+msgid "Perspective"
+msgstr "透视"
+
+#: k_tools_view_sync/operators/op_lock_operators.py:429
+msgid "Pre-Defined presets for locking views in: Top, Bottom, Left, Right, Front, Back, Camera, and the Matching View from the Master View"
+msgstr "用于锁定以下视图的预定义预设：顶、底、左、右、前、后、摄像机，以及主视图的匹配视图"
+
+#: k_tools_view_sync/properties/properties.py:18
+msgid "Random Colors"
+msgstr "随机颜色"
+
+#: k_tools_view_sync/panels/pt_sync_panel.py:27
+msgid "Real Time Sync"
+msgstr "实时同步"
+
+#: k_tools_view_sync/__init__.py:202
+msgid "Real-time Sync"
+msgstr "实时同步"
+
+#: k_tools_view_sync/properties/properties.py:20
+msgid "Red Clay"
+msgstr "红黏土"
+
+#: k_tools_view_sync/properties/properties.py:21
+msgid "Refl. Horizontal"
+msgstr "水平反射"
+
+#: k_tools_view_sync/properties/properties.py:22
+msgid "Refl. Vertical"
+msgstr "垂直反射"
+
+#: k_tools_view_sync/panels/pt_sync_panel.py:30
+#: k_tools_view_sync/properties/properties.py:82
+msgid "Refresh Rate"
+msgstr "刷新率"
+
+#: k_tools_view_sync/properties/properties.py:82
+msgid "Refresh rate for real-time synchronization (in seconds)"
+msgstr "实时同步的刷新率（秒）"
+
+#: k_tools_view_sync/preferences.py:90
+msgid "Replace Default Local View"
+msgstr "替换默认局部视图"
+
+#: k_tools_view_sync/preferences.py:58
+msgid "Report bugs and view documentation"
+msgstr "报告错误并查看文档"
+
+#: k_tools_view_sync/operators/op_lock_operators.py:445
+msgid "Right"
+msgstr "右"
+
+#: k_tools_view_sync/panels/pt_sync_panel.py:198
+msgid "Rotation"
+msgstr "旋转"
+
+#: k_tools_view_sync/panels/pt_sync_panel.py:21
+msgid "Settings"
+msgstr "设置"
+
+#: k_tools_view_sync/__init__.py:210
+msgid "Show Gizmo While Lock"
+msgstr "锁定时显示小工具"
+
+#: k_tools_view_sync/preferences.py:77
+msgid "Show Lock HUD Overlay"
+msgstr "显示锁定 HUD 叠加层"
+
+#: k_tools_view_sync/properties/properties.py:16
+msgid "Show face orientation using Matcap normal check"
+msgstr "使用 Matcap 法线检查显示面朝向"
+
+#: k_tools_view_sync/__init__.py:210
+msgid "Show special gizmos in locked views"
+msgstr "在锁定视图中显示特殊小工具"
+
+#: k_tools_view_sync/properties/properties.py:13
+msgid "Silhouette"
+msgstr "剪影"
+
+#: k_tools_view_sync/properties/properties.py:14
+msgid "Silhouette Inv"
+msgstr "反转剪影"
+
+#: k_tools_view_sync/properties/properties.py:17
+msgid "Solid shading with X-Ray transparency"
+msgstr "带 X 射线透明的实体着色"
+
+#: k_tools_view_sync/properties/properties.py:15
+msgid "Solid shading with wireframe overlay for checking mesh flow"
+msgstr "带线框叠加的实体着色，用于检查网格布线"
+
+#: k_tools_view_sync/panels/pt_lock_panel.py:14
+msgid "Special Gizmos"
+msgstr "特殊小工具"
+
+#: k_tools_view_sync/properties/properties.py:54
+msgid "Sync"
+msgstr "同步"
+
+#: k_tools_view_sync/panels/pt_sync_panel.py:92
+#: k_tools_view_sync/properties/properties.py:191
+msgid "Sync 2D Editors"
+msgstr "同步 2D 编辑器"
+
+#: k_tools_view_sync/properties/properties.py:191
+msgid "Sync 2D animation editors (Timeline, Dopesheet, Graph Editor, NLA)"
+msgstr "同步 2D 动画编辑器（时间线、动画摄影表、曲线编辑器、NLA）"
+
+#: k_tools_view_sync/properties/properties.py:121
+msgid "Sync Camera Offset"
+msgstr "同步摄像机偏移"
+
+#: k_tools_view_sync/properties/properties.py:115
+msgid "Sync Camera Zoom"
+msgstr "同步摄像机缩放"
+
+#: k_tools_view_sync/properties/properties.py:139
+msgid "Sync Clip End"
+msgstr "同步裁剪终点"
+
+#: k_tools_view_sync/properties/properties.py:133
+msgid "Sync Clip Start"
+msgstr "同步裁剪起点"
+
+#: k_tools_view_sync/properties/properties.py:145
+msgid "Sync Focal Length"
+msgstr "同步焦距"
+
+#: k_tools_view_sync/panels/pt_sync_panel.py:155
+msgid "Sync Options"
+msgstr "同步选项"
+
+#: k_tools_view_sync/properties/properties.py:61
+msgid "Sync Type"
+msgstr "同步类型"
+
+#: k_tools_view_sync/properties/properties.py:97
+msgid "Sync View Distance"
+msgstr "同步视图距离"
+
+#: k_tools_view_sync/properties/properties.py:103
+msgid "Sync View Location"
+msgstr "同步视图位置"
+
+#: k_tools_view_sync/properties/properties.py:127
+msgid "Sync View Perspective"
+msgstr "同步视图透视"
+
+#: k_tools_view_sync/properties/properties.py:109
+msgid "Sync View Rotation"
+msgstr "同步视图旋转"
+
+#: k_tools_view_sync/properties/properties.py:54
+msgid "Sync all selected Viewports based on a Master viewport"
+msgstr "基于主视口同步所有选定的视口"
+
+#: k_tools_view_sync/properties/properties.py:121
+msgid "Sync camera offset between 3D Views"
+msgstr "在 3D 视图之间同步摄像机偏移"
+
+#: k_tools_view_sync/properties/properties.py:115
+msgid "Sync camera zoom between 3D Views"
+msgstr "在 3D 视图之间同步摄像机缩放"
+
+#: k_tools_view_sync/properties/properties.py:145
+msgid "Sync focal length between 3D Views"
+msgstr "在 3D 视图之间同步焦距"
+
+#: k_tools_view_sync/properties/properties.py:198
+msgid "Sync horizontal pan and zoom (Time axis)"
+msgstr "同步水平平移和缩放（时间轴）"
+
+#: k_tools_view_sync/properties/properties.py:139
+msgid "Sync the end point of the viewing clip between 3D Views"
+msgstr "在 3D 视图之间同步视图裁剪终点"
+
+#: k_tools_view_sync/properties/properties.py:133
+msgid "Sync the start point of the viewing clip between 3D Views"
+msgstr "在 3D 视图之间同步视图裁剪起点"
+
+#: k_tools_view_sync/properties/properties.py:97
+msgid "Sync viewing distance between View Distance"
+msgstr "在视图之间同步观看距离"
+
+#: k_tools_view_sync/properties/properties.py:103
+msgid "Sync viewing location between 3D Views"
+msgstr "在 3D 视图之间同步观看位置"
+
+#: k_tools_view_sync/properties/properties.py:127
+msgid "Sync viewing perspective between 3D Views"
+msgstr "在 3D 视图之间同步观看透视"
+
+#: k_tools_view_sync/properties/properties.py:109
+msgid "Sync viewing rotation between 3D Views"
+msgstr "在 3D 视图之间同步观看旋转"
+
+#: k_tools_view_sync/panels/main_panel.py:11
+msgid "Sync | Lock Viewport"
+msgstr "同步 | 锁定视口"
+
+#: k_tools_view_sync/properties/properties.py:66
+msgid "Synchronize 2D animation editors (Timeline, Dopesheet, Graph, NLA)"
+msgstr "同步 2D 动画编辑器（时间线、动画摄影表、曲线、NLA）"
+
+#: k_tools_view_sync/properties/properties.py:65
+msgid "Synchronize 3D viewports navigation and settings"
+msgstr "同步 3D 视口导航和设置"
+
+#: k_tools_view_sync/preferences.py:52
+msgid "Tab"
+msgstr "标签页"
+
+#: k_tools_view_sync/properties/properties.py:23
+msgid "Toon Dark"
+msgstr "卡通暗色"
+
+#: k_tools_view_sync/properties/properties.py:24
+msgid "Toon Light"
+msgstr "卡通亮色"
+
+#: k_tools_view_sync/operators/op_lock_operators.py:441
+msgid "Top"
+msgstr "顶"
+
+#: k_tools_view_sync/properties/properties.py:15
+msgid "Topology"
+msgstr "拓扑"
+
+#: k_tools_view_sync/preferences.py:56
+msgid "UI Options"
+msgstr "UI 选项"
+
+#: k_tools_view_sync/preferences.py:127
+msgid "UI Options:"
+msgstr "UI 选项："
+
+#: k_tools_view_sync/properties/properties.py:72
+msgid "View 3D ID"
+msgstr "3D 视图 ID"
+
+#: k_tools_view_sync/operators/op_view_index.py:219
+msgid "View ID overlay cleared"
+msgstr "视图 ID 叠加已清除"
+
+#: k_tools_view_sync/panels/pt_sync_panel.py:180
+msgid "View Sync Options:"
+msgstr "视图同步选项："
+
+#: k_tools_view_sync/panels/pt_sync_panel.py:194
+msgid "What will be synchronized:"
+msgstr "将要同步的内容："
+
+#: k_tools_view_sync/preferences.py:70
+msgid "When enabled, Auto Lock Ortho will be turned on automatically when starting Blender or a new file"
+msgstr "启用后，在启动 Blender 或新建文件时将自动开启自动锁定正交"
+
+#: k_tools_view_sync/preferences.py:63
+msgid "When enabled, Auto Master will be turned on automatically when starting Blender or a new file"
+msgstr "启用后，在启动 Blender 或新建文件时将自动开启自动主视图"
+
+#: k_tools_view_sync/properties/properties.py:17
+msgid "X-Ray View"
+msgstr "X 射线视图"
+
+#: k_tools_view_sync/panels/pt_sync_panel.py:199
+msgid "Zoom"
+msgstr "缩放"
+
+#: k_tools_view_sync/operators/op_layout_operators.py:127
+#: k_tools_view_sync/panels/main_panel.py:32
+msgid "———————————"
+msgstr "———————————"
+
+#: k_tools_view_sync/operators/op_auto_master.py:12
+msgctxt "Operator"
+msgid "Auto Master Modal"
+msgstr "自动主视图模态"
+
+#: k_tools_view_sync/operators/op_lock_operators.py:319
+msgctxt "Operator"
+msgid "Call Shading Popover"
+msgstr "调用着色弹出面板"
+
+#: k_tools_view_sync/operators/op_lock_operators.py:528
+msgctxt "Operator"
+msgid "Camera Pan"
+msgstr "摄像机平移"
+
+#: k_tools_view_sync/operators/op_layout_operators.py:91
+msgctxt "Operator"
+msgid "Clean Analysis Sessions"
+msgstr "清理分析会话"
+
+#: k_tools_view_sync/operators/op_view_index.py:214
+msgctxt "Operator"
+msgid "Clear View ID Overlay"
+msgstr "清除视图 ID 叠加"
+
+#: k_tools_view_sync/panels/pt_sync_panel.py:37
+msgctxt "Operator"
+msgid "Current As Master"
+msgstr "当前作为主视图"
+
+#: k_tools_view_sync/operators/op_view_index.py:159
+#: k_tools_view_sync/operators/op_view_index.py:190
+msgctxt "Operator"
+msgid "Display Window and View ID numbers on all 3D viewports"
+msgstr "在所有 3D 视图中显示窗口和视图 ID 编号"
+
+#: k_tools_view_sync/operators/op_view_index.py:232
+msgctxt "Operator"
+msgid "Display current viewport's Window and View ID in a popup"
+msgstr "在弹出窗口中显示当前视图的窗口和视图 ID"
+
+#: k_tools_view_sync/preferences.py:164
+msgctxt "Operator"
+msgid "Documentation"
+msgstr "文档"
+
+#: k_tools_view_sync/operators/op_lock_operators.py:362
+msgctxt "Operator"
+msgid "Force Update"
+msgstr "强制更新"
+
+#: k_tools_view_sync/operators/op_lock_operators.py:363
+msgctxt "Operator"
+msgid "Force update of the 3D Views list"
+msgstr "强制更新 3D 视图列表"
+
+#: k_tools_view_sync/panels/pt_lock_panel.py:27
+#: k_tools_view_sync/panels/pt_sync_panel.py:52
+msgctxt "Operator"
+msgid "Identify Views"
+msgstr "识别视图"
+
+#: k_tools_view_sync/operators/op_layout_operators.py:106
+msgctxt "Operator"
+msgid "K-Tools View Sync Menu"
+msgstr "K-Tools 视图同步菜单"
+
+#: k_tools_view_sync/operators/op_sync_operators.py:104
+msgctxt "Operator"
+msgid "Local View All Areas"
+msgstr "所有区域局部视图"
+
+#: k_tools_view_sync/operators/op_lock_operators.py:544
+msgctxt "Operator"
+msgid "Lock Pan"
+msgstr "锁定平移"
+
+#: k_tools_view_sync/operators/op_lock_operators.py:437
+msgctxt "Operator"
+msgid "Lock View Preset"
+msgstr "锁定视图预设"
+
+#: k_tools_view_sync/operators/op_view_index.py:215
+msgctxt "Operator"
+msgid "Manually clear the GPU text overlay"
+msgstr "手动清除 GPU 文本叠加"
+
+#: k_tools_view_sync/operators/op_auto_master.py:13
+msgctxt "Operator"
+msgid "Monitor active viewport for Auto Master"
+msgstr "为自动主视图监视活动视图"
+
+#: k_tools_view_sync/operators/op_layout_operators.py:6
+msgctxt "Operator"
+msgid "Open Analytic Window"
+msgstr "打开分析窗口"
+
+#: k_tools_view_sync/operators/op_sync_operators.py:334
+msgctxt "Operator"
+msgid "Real Time Sync Modal"
+msgstr "实时同步模态"
+
+#: k_tools_view_sync/preferences.py:163
+msgctxt "Operator"
+msgid "Report a Bug"
+msgstr "报告错误"
+
+#: k_tools_view_sync/preferences.py:139
+#: k_tools_view_sync/preferences.py:169
+msgctxt "Operator"
+msgid "Restore Default"
+msgstr "恢复默认"
+
+#: k_tools_view_sync/preferences.py:170
+msgctxt "Operator"
+msgid "Restore the default Blender keymap for Local View"
+msgstr "恢复局部视图的默认 Blender 键位映射"
+
+#: k_tools_view_sync/operators/op_auto_master.py:35
+msgctxt "Operator"
+msgid "Set As Master"
+msgstr "设为主视图"
+
+#: k_tools_view_sync/panels/pt_lock_panel.py:13
+msgctxt "Operator"
+msgid "Set Clean View"
+msgstr "设置干净视图"
+
+#: k_tools_view_sync/panels/pt_sync_panel.py:45
+msgctxt "Operator"
+msgid "Set Local View"
+msgstr "设置局部视图"
+
+#: k_tools_view_sync/operators/op_sync_operators.py:105
+msgctxt "Operator"
+msgid "Set Local View for all 3D Views (Keep lights visible if enabled in options)"
+msgstr "为所有 3D 视图设置局部视图（如果选项已启用，则保持灯光可见）"
+
+#: k_tools_view_sync/operators/op_auto_master.py:36
+msgctxt "Operator"
+msgid "Set current view as master view"
+msgstr "将当前视图设为主视图"
+
+#: k_tools_view_sync/operators/op_view_index.py:189
+msgctxt "Operator"
+msgid "Show All View 3D IDs (GPU Enhanced)"
+msgstr "显示所有 3D 视图 ID（GPU 增强）"
+
+#: k_tools_view_sync/operators/op_view_index.py:158
+msgctxt "Operator"
+msgid "Show All View 3D IDs (GPU Overlay)"
+msgstr "显示所有 3D 视图 ID（GPU 叠加）"
+
+#: k_tools_view_sync/operators/op_view_index.py:231
+msgctxt "Operator"
+msgid "Show Current Window and Global View 3D ID"
+msgstr "显示当前窗口和全局 3D 视图 ID"
+
+#: k_tools_view_sync/panels/pt_sync_panel.py:26
+msgctxt "Operator"
+msgid "Single Match"
+msgstr "单次匹配"
+
+#: k_tools_view_sync/operators/op_lock_operators.py:560
+msgctxt "Operator"
+msgid "Smart Pan"
+msgstr "智能平移"
+
+#: k_tools_view_sync/operators/op_sync_operators.py:15
+msgctxt "Operator"
+msgid "Sync Views"
+msgstr "同步视图"
+
+#: k_tools_view_sync/operators/op_sync_operators.py:16
+msgctxt "Operator"
+msgid "Synchronize selected views"
+msgstr "同步选定的视图"
+
+#: k_tools_view_sync/operators/op_auto_master.py:107
+msgctxt "Operator"
+msgid "Test Current View Index"
+msgstr "测试当前视图索引"
+
+#: k_tools_view_sync/operators/op_auto_master.py:108
+msgctxt "Operator"
+msgid "Test the current view index calculation"
+msgstr "测试当前视图索引计算"
+
+#: k_tools_view_sync/operators/op_lock_operators.py:386
+msgctxt "Operator"
+msgid "Toggle Camera Pan"
+msgstr "切换摄像机平移"
+
+#: k_tools_view_sync/operators/op_lock_operators.py:239
+msgctxt "Operator"
+msgid "Toggle Camera View"
+msgstr "切换摄像机视图"
+
+#: k_tools_view_sync/operators/op_lock_operators.py:194
+msgctxt "Operator"
+msgid "Toggle Gizmos and Overlays"
+msgstr "切换小工具和叠加层"
+
+#: k_tools_view_sync/operators/op_lock_operators.py:277
+msgctxt "Operator"
+msgid "Toggle Material Shading"
+msgstr "切换材质着色"
+
+#: k_tools_view_sync/operators/op_lock_operators.py:406
+msgctxt "Operator"
+msgid "Toggle Pan on Lock"
+msgstr "切换锁定时平移"
+
+#: k_tools_view_sync/operators/op_lock_operators.py:298
+msgctxt "Operator"
+msgid "Toggle Render Shading"
+msgstr "切换渲染着色"
+
+#: k_tools_view_sync/operators/op_lock_operators.py:256
+msgctxt "Operator"
+msgid "Toggle Solid Shading"
+msgstr "切换实体着色"
+
+#: k_tools_view_sync/operators/op_sync_operators.py:652
+msgctxt "Operator"
+msgid "Update View List"
+msgstr "更新视图列表"
+
+#: k_tools_view_sync/operators/op_sync_operators.py:653
+msgctxt "Operator"
+msgid "Update the count of View3D areas and refresh boolean buttons"
+msgstr "更新 3D 视图区域数量并刷新布尔按钮"

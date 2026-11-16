@@ -1,0 +1,559 @@
+# perfect-chinese: 1
+# id: openvat
+# kind: addon
+# module: bl_ext.blender_org.openvat
+# name: OpenVAT
+# name_zh: 顶点动画纹理
+# translator: KeshiMiao
+# category: Animation
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: props.py:71
+msgid "A single selected object in scene may be chosen to be used as the proxy, valid only when Target and Proxy share exact vert/face count"
+msgstr "可选择场景中单个选中物体作为代理，仅当目标与代理的顶点/面数完全一致时有效"
+
+#: props.py:151
+msgid "Active Object"
+msgstr "活动物体"
+
+#: panels.py:113
+msgid "Animation Data"
+msgstr "动画数据"
+
+#: props.py:39
+msgid "Attribute 1"
+msgstr "属性 1"
+
+#: props.py:44
+msgid "Attribute 2"
+msgstr "属性 2"
+
+#: props.py:49
+msgid "Attribute 3"
+msgstr "属性 3"
+
+#: panels.py:71
+msgid "B Channel"
+msgstr "B 通道"
+
+#: props.py:141
+msgid "Bake World Transform"
+msgstr "烘焙世界变换"
+
+#: props.py:157
+msgid "Choose VAT image format (always RGB16)"
+msgstr "选择 VAT 图像格式（始终为 RGB16）"
+
+#: props.py:130
+msgid "Choose a format to export, always in Blender transform space (-Z Forward, Y Up)"
+msgstr "选择导出格式，始终使用 Blender 变换空间（-Z 前向，Y 向上）"
+
+#: props.py:147
+msgid "Choose a target to encoding"
+msgstr "选择要编码的目标"
+
+#: props.py:93
+msgid "Choose custom attributes to encode to RGB"
+msgstr "选择要编码到 RGB 的自定义属性"
+
+#: props.py:175
+msgid "Choose how vertex normals are stored"
+msgstr "选择顶点法线的存储方式"
+
+#: panels.py:175
+msgid "Collection 'OpenVATPreview' cannot be targeted"
+msgstr "集合“OpenVATPreview”不能作为目标"
+
+#: props.py:152
+msgid "Collection (combined)"
+msgstr "集合（合并）"
+
+#: props.py:82
+msgid "Create Normal-Safe Edges"
+msgstr "创建法线安全边"
+
+#: props.py:70
+msgid "Current Frame"
+msgstr "当前帧"
+
+#: props.py:93
+msgid "Custom Attributes (float[3])"
+msgstr "自定义属性（float[3]）"
+
+#: props.py:105
+msgid "Custom Float (A)"
+msgstr "自定义浮点（A）"
+
+#: props.py:98
+msgid "Custom Vector (RGB)"
+msgstr "自定义向量（RGB）"
+
+#: panels.py:46
+msgid "Deformation Basis"
+msgstr "变形基础"
+
+#: props.py:20
+msgid "Directory (folder) to save exported content"
+msgstr "保存导出内容的目录（文件夹）"
+
+#: operators.py:19
+msgid "Directory does not exist"
+msgstr "目录不存在"
+
+#: props.py:163
+msgid "EXR16"
+msgstr "EXR16"
+
+#: props.py:164
+msgid "EXR32"
+msgstr "EXR32"
+
+#: props.py:147
+msgid "Encode Target Type"
+msgstr "编码目标类型"
+
+#: props.py:152
+msgid "Encode all the objects in a specified collection, combined into a single object"
+msgstr "编码指定集合中的所有物体，并合并为单个物体"
+
+#: props.py:88
+msgid "Encode custom attributes"
+msgstr "编码自定义属性"
+
+#: props.py:151
+msgid "Encode the active object's Animation to VAT"
+msgstr "将活动物体的动画编码为 VAT"
+
+#: props.py:141
+msgid "Encode the world transform, as defined on the encode-target's object data - result pivot will always be (0,0,0)"
+msgstr "编码世界变换，依据编码目标的对象数据定义——结果轴心始终为 (0,0,0)"
+
+#: props.py:27
+msgid "Encoding Details"
+msgstr "编码详情"
+
+#: props.py:88
+msgid "Encoding Mode"
+msgstr "编码模式"
+
+#: panels.py:34
+msgid "End"
+msgstr "结束"
+
+#: props.py:15
+msgid "End Frame"
+msgstr "结束帧"
+
+#: panels.py:258
+msgid "Estimated Min-Max (Edge-split Potential)"
+msgstr "估算最小-最大值（潜在边拆分）"
+
+#: panels.py:195
+msgid "Export Model"
+msgstr "导出模型"
+
+#: panels.py:192
+msgid "Export directory not set"
+msgstr "未设置导出目录"
+
+#: props.py:136
+msgid "Export vat-compatible as .gltf + .bin + textures"
+msgstr "导出兼容 VAT 的 .gltf + .bin + 纹理"
+
+#: props.py:134
+msgid "Export vat-compatible mesh as .fbx"
+msgstr "导出兼容 VAT 的网格为 .fbx"
+
+#: props.py:135
+msgid "Export vat-compatible mesh as .glb"
+msgstr "导出兼容 VAT 的网格为 .glb"
+
+#: props.py:112
+msgid "Export with data in the range of (0-1) only, and provide remapping details in JSON"
+msgstr "仅导出 (0-1) 范围内的数据，并在 JSON 中提供重映射详情"
+
+#: props.py:134
+msgid "FBX"
+msgstr "FBX"
+
+#: props.py:39
+msgid "First scalar float attribute"
+msgstr "第一个标量浮点属性"
+
+#: props.py:112
+msgid "Force 0-1 Range"
+msgstr "强制 0-1 范围"
+
+#: panels.py:31
+msgid "Frame Range"
+msgstr "帧范围"
+
+#: props.py:16
+msgid "Framerate"
+msgstr "帧率"
+
+#: panels.py:70
+msgid "G Channel"
+msgstr "G 通道"
+
+#: panels.py:201
+#: props.py:157
+msgid "Image Format"
+msgstr "图像格式"
+
+#: props.py:118
+msgid "Include Mesh Export"
+msgstr "包含网格导出"
+
+#: props.py:55
+msgid "Interpret options for object transforms (world location of object)"
+msgstr "解释物体变换选项（物体的世界位置）"
+
+#: props.py:17
+msgid "Looping"
+msgstr "循环"
+
+#: props.py:130
+msgid "Mesh Format"
+msgstr "网格格式"
+
+#: panels.py:59
+#: panels.py:75
+msgid "Mesh Settings"
+msgstr "网格设置"
+
+#: panels.py:199
+msgid "Model Format"
+msgstr "模型格式"
+
+#: props.py:13
+msgid "Name"
+msgstr "名称"
+
+#: props.py:192
+msgid "No Remap"
+msgstr "不重映射"
+
+#: panels.py:172
+msgid "No valid collection selected"
+msgstr "未选择有效集合"
+
+#: panels.py:164
+msgid "No valid mesh object selected"
+msgstr "未选择有效网格物体"
+
+#: operators.py:259
+msgid "No valid mesh selected"
+msgstr "未选择有效网格"
+
+#: operators.py:266
+#: props.py:179
+msgid "None"
+msgstr "无"
+
+#: props.py:175
+msgid "Normal Encoding"
+msgstr "法线编码"
+
+#: props.py:59
+msgid "Object"
+msgstr "物体"
+
+#: props.py:179
+msgid "Only encode position data, do not export vertex normals data"
+msgstr "仅编码位置数据，不导出顶点法线数据"
+
+#: props.py:164
+msgid "OpenEXR Float (half) Full Precision in ZIP Codec with 32 bit color-channels | RGB16(full)"
+msgstr "OpenEXR 浮点（半精度）全精度，ZIP 编码，32 位颜色通道 | RGB16(full)"
+
+#: panels.py:11
+#: panels.py:117
+msgid "OpenVAT"
+msgstr "OpenVAT"
+
+#: panels.py:8
+msgid "OpenVAT Encoding"
+msgstr "OpenVAT 编码"
+
+#: panels.py:144
+msgid "OpenVAT Output"
+msgstr "OpenVAT 输出"
+
+#: props.py:20
+msgid "Output Directory"
+msgstr "输出目录"
+
+#: props.py:192
+msgid "Output in full precision, outside of 0-1 range (useful for Niagara and VFX systems)"
+msgstr "以全精度输出，超出 0-1 范围（适用于 Niagara 和 VFX 系统）"
+
+#: props.py:162
+msgid "PNG with 16 bit color-depth | RGB16"
+msgstr "16 位色深 PNG | RGB16"
+
+#: props.py:161
+msgid "PNG with 8 bit color-depth | RGB8"
+msgstr "8 位色深 PNG | RGB8"
+
+#: props.py:162
+msgid "PNG16"
+msgstr "PNG16"
+
+#: props.py:161
+msgid "PNG8"
+msgstr "PNG8"
+
+#: props.py:180
+msgid "Pack vertex normals into the same VAT as position"
+msgstr "将顶点法线打包进与位置相同的 VAT"
+
+#: props.py:180
+msgid "Packed"
+msgstr "打包"
+
+#: props.py:76
+msgid "Perform Cleanup"
+msgstr "执行清理"
+
+#: props.py:65
+msgid "Proxy Method (Mesh Basis)"
+msgstr "代理方法（网格基准）"
+
+#: panels.py:69
+msgid "R Channel"
+msgstr "R 通道"
+
+#: props.py:163
+msgid "Recommended | OpenEXR Float (half) in ZIP Codec with 16 bit color-depth | RGB16(half)"
+msgstr "推荐 | OpenEXR 浮点（半精度），ZIP 编码，16 位色深 | RGB16(half)"
+
+#: props.py:169
+msgid "Reference to a Blender collection"
+msgstr "引用 Blender 集合"
+
+#: props.py:124
+msgid "Remove vertex groups, shape keys and vertex colors from the resulting model. Target geometry (source) is unaffected"
+msgstr "从生成的模型中移除顶点组、形态键和顶点颜色。目标几何体（源）不受影响"
+
+#: props.py:76
+msgid "Removes all generated data"
+msgstr "移除所有生成的数据"
+
+#: panels.py:273
+msgid "Resolution calculated per batch object"
+msgstr "分辨率按批处理物体分别计算"
+
+#: props.py:59
+msgid "Resulting mesh does not take object transforms into account, apply transforms on target object for best results"
+msgstr "生成的网格不考虑物体变换，为获得最佳效果，请在目标物体上应用变换"
+
+#: props.py:105
+msgid "Scalar point attribute from the active object"
+msgstr "活动物体的标量点属性"
+
+#: props.py:44
+msgid "Second scalar float attribute"
+msgstr "第二个标量浮点属性"
+
+#: props.py:65
+msgid "Select whether the proxy is generated by the target (as the start frame or current frame), or use another object as the proxy"
+msgstr "选择代理是由目标生成（作为起始帧或当前帧），还是使用其他物体作为代理"
+
+#: props.py:71
+msgid "Selected Object"
+msgstr "选定物体"
+
+#: panels.py:179
+msgid "Selected collection contains no valid mesh objects"
+msgstr "选定的集合不包含有效的网格物体"
+
+#: props.py:33
+msgid "Selected object acts as proxy - which can be thought of as a deformation basis. This will become the static mesh which vat encoding is relative to. Custom Proxy MUST have the exact vert count/order as the Target. Automatic Edge splitting is not applied to proxy objects."
+msgstr "选定物体作为代理——可将其视为变形基准。它将成为 VAT 编码所相对的静态网格。自定义代理必须与目标具有完全相同的顶点数量和顺序。自动边拆分不会应用于代理物体。"
+
+#: props.py:118
+msgid "Selected object acts as proxy to active object. If False, uses frame 1 as proxy deformation"
+msgstr "选定物体作为活动物体的代理。若为假，则使用第 1 帧作为代理变形"
+
+#: props.py:181
+msgid "Separate Map"
+msgstr "分离贴图"
+
+#: props.py:27
+msgid "Show encoding details based on your current settings. This is based on currently realized data only, results may vary if vertex count changes when geometry's modifiers are applied during encoding process. Estimated min/max is shown when using automatic normal-safe edges and is determined at time of encoding"
+msgstr "根据当前设置显示编码详情。仅基于当前已实现的数据；若编码过程中应用几何体修改器导致顶点数变化，结果可能不同。使用自动法线安全边时会显示估计的最小值/最大值，并在编码时确定"
+
+#: panels.py:270
+msgid "Single Row Mode Enabled"
+msgstr "已启用单行模式"
+
+#: props.py:82
+msgid "Splits the resulting mesh on all sharp edges to provide proper per-vertex normal data (does not affect face count, increases final mesh vertex count along identified edges). Target geometry (source) is unaffected"
+msgstr "在所有锐边上拆分生成的网格，以提供正确的逐顶点法线数据（不影响面数，会增加识别边上的最终网格顶点数）。目标几何体（源）不受影响"
+
+#: props.py:92
+msgid "Standard (Position/Normal)"
+msgstr "标准（位置/法线）"
+
+#: panels.py:32
+msgid "Start"
+msgstr "开始"
+
+#: props.py:14
+#: props.py:69
+msgid "Start Frame"
+msgstr "起始帧"
+
+#: props.py:124
+msgid "Strip Data"
+msgstr "剥离数据"
+
+#: panels.py:62
+#: panels.py:78
+msgid "Strip Vertex Data"
+msgstr "剥离顶点数据"
+
+#: panels.py:20
+msgid "Target"
+msgstr "目标"
+
+#: panels.py:25
+#: props.py:169
+msgid "Target Collection"
+msgstr "目标集合"
+
+#: panels.py:168
+msgid "Target in OpenVATPreview collection is not allowed"
+msgstr "不允许使用 OpenVATPreview 集合中的目标"
+
+#: props.py:60
+msgid "Target object's world transforms are baked into VAT data, origin of VAT mesh is (0,0,0). Animated or current world transforms become deformation data"
+msgstr "目标物体的世界变换会烘焙到 VAT 数据中，VAT 网格的原点为 (0,0,0)。动画或当前世界变换会成为变形数据"
+
+#: props.py:69
+msgid "The target's deformation as it appears in the first encoded frame becomes the Proxy"
+msgstr "目标在首个编码帧中的变形会成为代理"
+
+#: props.py:70
+msgid "The target's deformation as it appears in the scene's current frame becomes the Proxy"
+msgstr "目标在场景当前帧中的变形会成为代理"
+
+#: props.py:49
+msgid "Third scalar float attribute"
+msgstr "第三个标量浮点属性"
+
+#: panels.py:49
+msgid "Transform"
+msgstr "变换"
+
+#: props.py:55
+msgid "Transform Space"
+msgstr "变换空间"
+
+#: panels.py:207
+msgid "Use Absolute Values"
+msgstr "使用绝对值"
+
+#: props.py:33
+msgid "Use Custom Proxy"
+msgstr "使用自定义代理"
+
+#: props.py:186
+msgid "Use Single Row"
+msgstr "使用单行"
+
+#: props.py:181
+msgid "Use a separate texture output for vertex normals"
+msgstr "为顶点法线使用单独的纹理输出"
+
+#: operators.py:245
+msgid "VAT Encoding Completed"
+msgstr "VAT 编码完成"
+
+#: props.py:98
+msgid "Vector point attribute from the target object"
+msgstr "目标物体的矢量点属性"
+
+#: panels.py:39
+msgid "Vertex Data"
+msgstr "顶点数据"
+
+#: panels.py:53
+msgid "Vertex Normals"
+msgstr "顶点法线"
+
+#: panels.py:44
+msgid "Vertex Position"
+msgstr "顶点位置"
+
+#: props.py:186
+msgid "Width of VAT in pixels becomes vertex count, height of VAT becomes frame count (exact)"
+msgstr "VAT 宽度（像素）即顶点数，高度即帧数（精确）"
+
+#: props.py:60
+msgid "World"
+msgstr "世界"
+
+#: props.py:135
+msgid "glTF Binary"
+msgstr "glTF 二进制"
+
+#: props.py:136
+msgid "glTF Separate"
+msgstr "glTF 分离"
+
+#: panels.py:84
+msgctxt "Operator"
+msgid "Add Animation"
+msgstr "添加动画"
+
+#: operators.py:24
+msgctxt "Operator"
+msgid "Calculate VAT Resolution"
+msgstr "计算 VAT 分辨率"
+
+#: panels.py:190
+msgctxt "Operator"
+msgid "Encode Vertex Animation Texture"
+msgstr "编码顶点动画纹理"
+
+#: operators.py:25
+msgctxt "Operator"
+msgid "Export a UV-Based Vertex Animation Texture, sidecar data and compatible model to the defined Export location"
+msgstr "将基于 UV 的顶点动画纹理、附属数据和兼容模型导出到指定的导出位置"
+
+#: operators.py:8
+msgctxt "Operator"
+msgid "Open Output Directory"
+msgstr "打开输出目录"
+
+#: operators.py:9
+msgctxt "Operator"
+msgid "Open the output directory in the system file explorer"
+msgstr "在系统文件资源管理器中打开输出目录"
+
+#: panels.py:98
+msgctxt "Operator"
+msgid "Remove Animation"
+msgstr "移除动画"
+
+#: operators.py:253
+msgctxt "Operator"
+msgid "Scan Float Attributes"
+msgstr "扫描浮点属性"
+
+#: panels.py:68
+msgctxt "Operator"
+msgid "Scan For Attributes"
+msgstr "扫描属性"
+
+#: operators.py:254
+msgctxt "Operator"
+msgid "Scan the active object for float point attributes"
+msgstr "扫描活动物体中的浮点型点属性"

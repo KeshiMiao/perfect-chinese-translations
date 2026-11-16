@@ -1,0 +1,63 @@
+# perfect-chinese: 1
+# id: textures_autosave
+# kind: addon
+# module: bl_ext.blender_org.textures_autosave
+# name: Autosave Textures
+# name_zh: 纹理自动保存
+# translator: KeshiMiao
+# category: Pipeline
+# supported_versions: >=4.4.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:126
+msgid "Also write images when manually saving the blendfile"
+msgstr "手动保存 blend 文件时也写入图像"
+
+#: __init__.py:138
+msgid "Always use Blender's temp directory as root for 'Autosave Directory' to write auto-saved images, instead of the written blendfile's directory (NOTE: temp directory is always the root when current blendfile has not yet been saved)"
+msgstr "始终使用 Blender 临时目录作为“自动保存目录”的根目录来写入自动保存的图像，而不是使用所写入 blend 文件的目录（注意：当前 blend 文件尚未保存时，临时目录始终为根目录）"
+
+#: __init__.py:145
+msgid "Autosave Directory"
+msgstr "自动保存目录"
+
+#: __init__.py:120
+msgid "Overwrite Existing on Autosave"
+msgstr "自动保存时覆盖现有文件"
+
+#: __init__.py:132
+msgid "Overwrite Existing on Blendfile Saving"
+msgstr "保存 blend 文件时覆盖现有文件"
+
+#: __init__.py:126
+msgid "Save On Blendfile Saving"
+msgstr "保存 blend 文件时保存"
+
+#: __init__.py:114
+msgid "Use Autosave Timer"
+msgstr "使用自动保存计时器"
+
+#: __init__.py:138
+msgid "Use Temp Folder as Root"
+msgstr "使用临时文件夹作为根目录"
+
+#: __init__.py:114
+msgid "Use a timer (with same interval as for blendfile itself) to save modified images"
+msgstr "使用计时器（间隔与 blend 文件本身相同）保存已修改的图像"
+
+#: __init__.py:155
+msgid "WARNING: Only handles static images currently, images sequences or videos may not be properly auto-saved"
+msgstr "警告：目前仅处理静态图像，图像序列或视频可能无法正确自动保存"
+
+#: __init__.py:120
+#: __init__.py:132
+msgid "When the modified image already exists on disk, overwrite the existing file. If False, only files in 'Autosave Directory' will be overwritten"
+msgstr "当已修改的图像已存在于磁盘上时，覆盖现有文件。若为 False，则仅覆盖“自动保存目录”中的文件"
+
+#: __init__.py:145
+msgid "Where to auto-save images when not overwriting existing files, start with '//' to use a path relative to the saved blendfile (or the temp folder if enabled)"
+msgstr "不覆盖现有文件时自动保存图像的位置，以“//”开头可使用相对于已保存 blend 文件的路径（或启用时的临时文件夹）"

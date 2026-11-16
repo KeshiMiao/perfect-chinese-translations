@@ -1,0 +1,194 @@
+# perfect-chinese: 1
+# id: lattice_helper
+# kind: addon
+# module: bl_ext.blender_org.lattice_helper
+# name: Lattice Helper
+# name_zh: 晶格助手
+# translator: KeshiMiao
+# category: Modeling
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: lattice_helper/__init__.py:3
+msgid "AIGODLIKE"
+msgstr "AIGODLIKE"
+
+#: lattice_helper/ops/add.py:18
+msgid "Add a lattice for all selected blocks within edit mode as a single region"
+msgstr "在编辑模式下为所有选中块添加一个晶格，作为单一区域"
+
+#: lattice_helper/ops/add.py:16
+msgid "Add a lattice for each selected block as a separate region within edit mode"
+msgstr "在编辑模式下为每个选中块分别添加晶格，作为独立区域"
+
+#: lattice_helper/ops/add.py:10
+msgid "All selected objects as a single entity"
+msgstr "所有选中物体作为单一实体"
+
+#: lattice_helper/__init__.py:3
+msgid "Apply Lattice modifier to object(s) in object/edit mode"
+msgstr "在物体/编辑模式下为物体应用晶格修改器"
+
+#: lattice_helper/ops/apply.py:55
+msgid "Apply the lattice modifier"
+msgstr "应用晶格修改器"
+
+#: lattice_helper/ops/apply.py:56
+msgid "Apply the lattice modifier as a shape key"
+msgstr "将晶格修改器应用为形态键"
+
+#: lattice_helper/ops/add.py:108
+#: lattice_helper/ops/add.py:119
+msgid "Axis"
+msgstr "轴"
+
+#: lattice_helper/preferences.py:17
+#: lattice_helper/ops/add.py:107
+msgid "BSpline"
+msgstr "B 样条"
+
+#: lattice_helper/ops/add.py:11
+msgid "Bounding Box"
+msgstr "边界框"
+
+#: lattice_helper/preferences.py:15
+#: lattice_helper/ops/add.py:105
+msgid "Cardinal"
+msgstr "基数"
+
+#: lattice_helper/preferences.py:16
+#: lattice_helper/ops/add.py:106
+msgid "Catmull-Rom"
+msgstr "Catmull-Rom"
+
+#: lattice_helper/ops/add.py:113
+#: lattice_helper/ops/add.py:125
+msgid "Cursor"
+msgstr "游标"
+
+#: lattice_helper/preferences.py:7
+msgid "Default lattice resolution"
+msgstr "默认晶格分辨率"
+
+#: lattice_helper/ops/apply.py:61
+msgid "Delete the lattice"
+msgstr "删除晶格"
+
+#: lattice_helper/ops/apply.py:68
+msgid "Delete the used vertex group"
+msgstr "删除使用的顶点组"
+
+#: lattice_helper/ops/apply.py:68
+msgid "Delete the vertex group used by the lattice modifier, and simultaneously remove the vertex group used by the lattice modifier when applying or deleting it"
+msgstr "删除晶格修改器使用的顶点组，并在应用或删除时同时移除晶格修改器使用的顶点组"
+
+#: lattice_helper/ops/add.py:18
+msgid "Entire Block (Edit Mode)"
+msgstr "整个块（编辑模式）"
+
+#: lattice_helper/ops/add.py:10
+msgid "Entirety"
+msgstr "整体"
+
+#: lattice_helper/ops/add.py:146
+msgid "Generate a vertex group based on the selected mode"
+msgstr "根据所选模式生成顶点组"
+
+#: lattice_helper/ops/add.py:112
+#: lattice_helper/ops/add.py:124
+msgid "Global"
+msgstr "全局"
+
+#: lattice_helper/ops/add.py:129
+msgid "If in Object Mode, set the lattice as the parent of the object.If in lattice Editing Mode, set the active object as the parent of the lattice"
+msgstr "若在物体模式下，将晶格设为物体的父级；若在晶格编辑模式下，将活动物体设为晶格的父级"
+
+#: lattice_helper/preferences.py:19
+#: lattice_helper/ops/add.py:144
+msgid "Interpolation"
+msgstr "插值"
+
+#: lattice_helper/__init__.py:3
+#: lattice_helper/ui.py:20
+msgid "Lattice Helper"
+msgstr "晶格助手"
+
+#: lattice_helper/preferences.py:14
+#: lattice_helper/ops/add.py:104
+msgid "Linear"
+msgstr "线性"
+
+#: lattice_helper/ops/add.py:111
+msgid "Local"
+msgstr "局部"
+
+#: lattice_helper/ops/add.py:150
+#: lattice_helper/ops/add.py:153
+msgid "Mode"
+msgstr "模式"
+
+#: lattice_helper/ops/apply.py:58
+msgid "Only Delete the lattice modifier"
+msgstr "仅删除晶格修改器"
+
+#: lattice_helper/ops/add.py:143
+msgid "Resolution"
+msgstr "分辨率"
+
+#: lattice_helper/ops/apply.py:57
+msgid "Save the lattice modifier as a shape key"
+msgstr "将晶格修改器保存为形态键"
+
+#: lattice_helper/ops/add.py:16
+msgid "Selection Block (Edit Mode)"
+msgstr "选中块（编辑模式）"
+
+#: lattice_helper/ops/add.py:129
+msgid "Set parent"
+msgstr "设置父级"
+
+#: lattice_helper/ops/add.py:137
+msgid "Set the active item as the parent of other selected objects"
+msgstr "将活动项设为其他选中物体的父级"
+
+#: lattice_helper/ops/add.py:146
+msgid "Specify a vertex group for the modifier"
+msgstr "为修改器指定顶点组"
+
+#: lattice_helper/ops/add.py:11
+msgid "Use the bounding box of each selected object as a separate lattice"
+msgstr "将每个选中物体的边界框用作独立的晶格"
+
+#: lattice_helper/ops/apply.py:61
+msgid "When applying or deleting the lattice modifier, remove the specified lattice for the selected lattice or selected objects"
+msgstr "在应用或删除晶格修改器时，移除选中晶格或选中物体所指定的晶格"
+
+#: lattice_helper/ui.py:25
+#: lattice_helper/ops/apply.py:47
+msgctxt "Operator"
+msgid "Apply lattice"
+msgstr "应用晶格"
+
+#: lattice_helper/ops/add.py:101
+msgctxt "Operator"
+msgid "Automatically add a lattice to selected objects"
+msgstr "自动为选中物体添加晶格"
+
+#: lattice_helper/ops/apply.py:48
+msgctxt "Operator"
+msgid "Automatically apply the lattice modifier"
+msgstr "自动应用晶格修改器"
+
+#: lattice_helper/ui.py:26
+msgctxt "Operator"
+msgid "Delete lattice"
+msgstr "删除晶格"
+
+#: lattice_helper/ops/add.py:100
+msgctxt "Operator"
+msgid "Lattice Add"
+msgstr "添加晶格"

@@ -1,0 +1,462 @@
+# perfect-chinese: 1
+# id: mesh_planes_pro
+# kind: addon
+# module: bl_ext.blender_org.mesh_planes_pro
+# name: Mesh Planes Pro
+# name_zh: 网格平面专业版
+# translator: KeshiMiao
+# category: Material
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: ui.py:89
+msgid "1. Import images, or convert"
+msgstr "导入图像，或转换"
+
+#: ui.py:90
+msgid "2. Pick the background type"
+msgstr "选择背景类型"
+
+#: ui.py:91
+msgid "3. Trace a cutout to speed up renders"
+msgstr "描摹抠图以加快渲染"
+
+#: nodes.py:48
+msgid "Add the image on top of whatever is behind it. Best for fire, sparks, smoke and light effects shot on black"
+msgstr "将图像叠加在其后方内容之上。最适合在黑色背景上拍摄的火焰、火花、烟雾和光效"
+
+#: nodes.py:48
+msgid "Additive Glow"
+msgstr "叠加辉光"
+
+#: operators.py:119
+msgid "Align"
+msgstr "对齐"
+
+#: operators.py:402
+msgid "All Materials in File"
+msgstr "文件中的所有材质"
+
+#: operators.py:438
+#: props.py:105
+msgid "Alpha Cutoff"
+msgstr "Alpha 截止"
+
+#: ui.py:269
+msgid "Backface Culling"
+msgstr "背面剔除"
+
+#: operators.py:115
+#: operators.py:295
+msgid "Background"
+msgstr "背景"
+
+#: ui.py:266
+msgid "Blend Mode"
+msgstr "混合模式"
+
+#: operators.py:128
+msgid "Bottom"
+msgstr "底部"
+
+#: ui.py:275
+msgid "Cast Shadows"
+msgstr "投射阴影"
+
+#: operators.py:129
+msgid "Center"
+msgstr "居中"
+
+#: nodes.py:42
+msgid "Color Key"
+msgstr "色键"
+
+#: nodes.py:163
+msgid "Computed opacity (1 = kept). Handy for AOVs or masks"
+msgstr "计算的不透明度（1 = 保留）。便于用于 AOV 或遮罩"
+
+#: ui.py:217
+msgid "Cutout Mesh"
+msgstr "抠图网格"
+
+#: nodes.py:38
+msgid "Dark Background"
+msgstr "深色背景"
+
+#: operators.py:434
+#: props.py:87
+msgid "Detail"
+msgstr "细节"
+
+#: props.py:93
+msgid "Extra border kept around the subject, in cells. Raise it if soft edges look clipped after tracing"
+msgstr "主体周围保留的额外边界，以单元格计。如果描摹后柔和边缘看起来被裁掉，请调高此值"
+
+#: operators.py:124
+msgid "Face Camera"
+msgstr "面向摄像机"
+
+#: operators.py:123
+msgid "Face View"
+msgstr "面向视图"
+
+#: operators.py:124
+msgid "Facing the active camera"
+msgstr "面向当前活动摄像机"
+
+#: operators.py:123
+msgid "Facing the current viewport"
+msgstr "面向当前视图"
+
+#: props.py:54
+msgid "Fake surface detail from the image's brightness (bump). Adds shader cost, so it is off by default"
+msgstr "根据图像亮度伪造表面细节（凹凸）。会增加着色器开销，因此默认关闭"
+
+#: nodes.py:162
+msgid "Final shader. Connect to the Material Output"
+msgstr "最终着色器。连接到材质输出"
+
+#: operators.py:122
+msgid "Flat"
+msgstr "平直"
+
+#: operators.py:131
+msgid "Gap"
+msgstr "间距"
+
+#: operators.py:131
+msgid "Gap between planes when importing several"
+msgstr "导入多个平面时平面之间的间距"
+
+#: props.py:61
+#: ui.py:191
+msgid "Glow"
+msgstr "辉光"
+
+#: operators.py:117
+msgid "Height"
+msgstr "高度"
+
+#: operators.py:117
+msgid "Height of the plane in the scene"
+msgstr "场景中平面的高度"
+
+#: props.py:47
+msgid "How the plane reacts to scene lighting"
+msgstr "平面如何响应场景光照"
+
+#: nodes.py:45
+msgid "Image Alpha"
+msgstr "图像 Alpha"
+
+#: operators.py:135
+msgid "Image Sequence"
+msgstr "图像序列"
+
+#: operators.py:133
+msgid "Immediately replace each plane with a cutout mesh"
+msgstr "立即将每个平面替换为抠图网格"
+
+#: props.py:99
+msgid "Islands and holes smaller than this share of the image are dropped, which cleans up compression noise in the background"
+msgstr "小于图像该比例的孤岛和孔洞会被丢弃，以清理背景中的压缩噪点"
+
+#: ui.py:348
+msgid "Keyed Mesh Plane"
+msgstr "抠像网格平面"
+
+#: nodes.py:40
+msgid "Light Background"
+msgstr "浅色背景"
+
+#: nodes.py:54
+msgid "Lit"
+msgstr "受光"
+
+#: ui.py:138
+msgid "Look"
+msgstr "外观"
+
+#: operators.py:122
+msgid "Lying on the ground, facing up"
+msgstr "平放在地面上，朝上"
+
+#: ui.py:80
+msgid "Made with Mesh Planes 2.x"
+msgstr "使用 Mesh Planes 2.x 制作"
+
+#: props.py:61
+msgid "Make the plane emit light, optionally only its bright areas"
+msgstr "让平面发光，可选仅让其明亮区域发光"
+
+#: operators.py:435
+#: props.py:93
+msgid "Margin"
+msgstr "边距"
+
+#: ui.py:113
+msgid "Matte"
+msgstr "遮罩"
+
+#: props.py:105
+msgid "Matte values at or below this count as empty when tracing"
+msgstr "描摹时，等于或低于此值的遮罩值视为空"
+
+#: ui.py:42
+#: ui.py:67
+msgid "Mesh Planes"
+msgstr "Mesh Planes"
+
+#: operators.py:415
+msgid "No Mesh Planes 2.x materials found"
+msgstr "未找到 Mesh Planes 2.x 材质"
+
+#: operators.py:214
+msgid "No image or movie files selected"
+msgstr "未选择图像或影片文件"
+
+#: operators.py:340
+msgid "No image planes found in the selection"
+msgstr "所选内容中未找到图像平面"
+
+#: nodes.py:164
+msgid "NodeSocketColor"
+msgstr "NodeSocketColor"
+
+#: nodes.py:163
+msgid "NodeSocketFloat"
+msgstr "NodeSocketFloat"
+
+#: nodes.py:162
+msgid "NodeSocketShader"
+msgstr "NodeSocketShader"
+
+#: ui.py:97
+msgid "Nodes are missing"
+msgstr "缺少节点"
+
+#: operators.py:269
+msgid "Nothing could be imported"
+msgstr "无法导入任何内容"
+
+#: operators.py:374
+msgid "Nothing to analyze"
+msgstr "没有可分析的内容"
+
+#: operators.py:126
+msgid "Origin"
+msgstr "原点"
+
+#: operators.py:128
+msgid "Origin at the bottom edge, so the plane stands on the floor"
+msgstr "原点位于底边，因此平面立于地面"
+
+#: operators.py:129
+msgid "Origin at the center of the plane"
+msgstr "原点位于平面中心"
+
+#: props.py:77
+msgid "Original Plane"
+msgstr "原始平面"
+
+#: nodes.py:164
+msgid "Processed image color (despilled and adjusted)"
+msgstr "处理后的图像颜色（已去溢色并调整）"
+
+#: nodes.py:54
+msgid "Reacts to scene lighting like a real surface (Principled BSDF)"
+msgstr "像真实表面一样响应场景光照（Principled BSDF）"
+
+#: operators.py:137
+msgid "Relative Path"
+msgstr "相对路径"
+
+#: props.py:54
+#: ui.py:166
+msgid "Relief"
+msgstr "浮雕"
+
+#: operators.py:436
+#: props.py:99
+msgid "Remove Specks"
+msgstr "去除斑点"
+
+#: nodes.py:38
+msgid "Remove a black or dark background (luma key)"
+msgstr "移除黑色或深色背景（亮度键）"
+
+#: nodes.py:42
+msgid "Remove a solid-colored background such as a green or blue screen (chroma key)"
+msgstr "移除纯色背景，例如绿幕或蓝幕（色度键）"
+
+#: nodes.py:40
+msgid "Remove a white or light background (inverted luma key)"
+msgstr "移除白色或浅色背景（反转亮度键）"
+
+#: ui.py:255
+msgid "Render"
+msgstr "渲染"
+
+#: ui.py:87
+msgid "Select an image plane to edit it"
+msgstr "选择图像平面以进行编辑"
+
+#: nodes.py:55
+msgid "Shadeless"
+msgstr "无光照"
+
+#: operators.py:116
+#: operators.py:296
+msgid "Shading"
+msgstr "着色"
+
+#: ui.py:271
+msgid "Show Backface"
+msgstr "显示背面"
+
+#: props.py:67
+msgid "Show the matte in black and white to fine-tune the keying. White is kept, black is removed"
+msgstr "以黑白显示遮罩，以便微调键控。白色保留，黑色移除"
+
+#: operators.py:121
+msgid "Standing up, facing the front view"
+msgstr "竖立，面向正视图"
+
+#: operators.py:137
+msgid "Store the image path relative to the blend file"
+msgstr "将图像路径存储为相对于 blend 文件的路径"
+
+#: operators.py:505
+msgid "Swap the plane's image for the saved PNG and switch to Image Alpha mode, which is the cheapest shader to render"
+msgstr "将平面的图像替换为已保存的 PNG，并切换到图像 Alpha 模式，这是渲染开销最低的着色器"
+
+#: nodes.py:55
+msgid "The camera sees the exact image colors regardless of lighting. The plane still casts shadows and shows up lit in reflections"
+msgstr "无论光照如何，摄像机看到的都是图像原本的颜色。该平面仍会投射阴影，并在反射中显示为受光"
+
+#: props.py:77
+msgid "The untraced plane, kept so the cutout can be re-traced or restored"
+msgstr "未描摹的平面，保留以便重新描摹或恢复抠图"
+
+#: ui.py:289
+msgid "Tools"
+msgstr "工具"
+
+#: operators.py:133
+msgid "Trace Cutout"
+msgstr "描摹抠图"
+
+#: ui.py:243
+msgid "Tracing needs a still image"
+msgstr "描摹需要静态图像"
+
+#: props.py:87
+msgid "Tracing resolution in cells along the image's longest side. Higher follows the silhouette more closely and adds geometry"
+msgstr "沿图像最长边按单元格计算的描摹分辨率。数值越高越贴合轮廓，但会增加几何体"
+
+#: ui.py:279
+msgid "Transparent Bounces"
+msgstr "透明反弹"
+
+#: ui.py:268
+msgid "Transparent Shadows"
+msgstr "透明阴影"
+
+#: operators.py:135
+msgid "Treat the selected files as one image sequence"
+msgstr "将所选文件视为一个图像序列"
+
+#: operators.py:121
+msgid "Upright"
+msgstr "直立"
+
+#: operators.py:505
+msgid "Use in Material"
+msgstr "在材质中使用"
+
+#: nodes.py:45
+msgid "Use the transparency already stored in the image (PNG, EXR, TGA, WebP...)"
+msgstr "使用图像中已存储的透明度（PNG、EXR、TGA、WebP…）"
+
+#: props.py:67
+msgid "View Matte"
+msgstr "查看遮罩"
+
+#: props.py:40
+msgid "What the background looks like in the source image"
+msgstr "源图像中背景的外观"
+
+#: operators.py:354
+msgctxt "Operator"
+msgid "Auto Detect Background"
+msgstr "自动检测背景"
+
+#: operators.py:292
+msgctxt "Operator"
+msgid "Convert Selected Planes"
+msgstr "转换所选平面"
+
+#: operators.py:573
+msgctxt "Operator"
+msgid "Copy Settings to Selected"
+msgstr "复制设置到所选"
+
+#: operators.py:606
+msgctxt "Operator"
+msgid "Face Camera"
+msgstr "朝向摄像机"
+
+#: ui.py:367
+msgctxt "Operator"
+msgid "Images as Keyed Planes"
+msgstr "将图像作为抠像平面"
+
+#: operators.py:104
+msgctxt "Operator"
+msgid "Import Keyed Planes"
+msgstr "导入抠像平面"
+
+#: ui.py:362
+msgctxt "Operator"
+msgid "Keyed Mesh Plane"
+msgstr "抠像网格平面"
+
+#: ui.py:248
+msgctxt "Operator"
+msgid "Re-Trace Cutout"
+msgstr "重新描摹抠图"
+
+#: operators.py:383
+msgctxt "Operator"
+msgid "Rebuild Nodes"
+msgstr "重建节点"
+
+#: operators.py:638
+msgctxt "Operator"
+msgid "Rebuild Shaders"
+msgstr "重建着色器"
+
+#: operators.py:478
+msgctxt "Operator"
+msgid "Restore Plane"
+msgstr "恢复平面"
+
+#: operators.py:500
+msgctxt "Operator"
+msgid "Save Keyed PNG"
+msgstr "保存抠像 PNG"
+
+#: operators.py:431
+#: ui.py:248
+msgctxt "Operator"
+msgid "Trace Cutout"
+msgstr "描摹抠图"
+
+#: operators.py:399
+msgctxt "Operator"
+msgid "Upgrade from 2.x"
+msgstr "从 2.x 升级"
