@@ -16,7 +16,7 @@ import sys
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 CATALOG = ROOT / "catalog.json"
 SCHEMA_VERSION = 1
-MAX_BYTES = 512 * 1024
+MAX_BYTES = 2 * 1024 * 1024
 ID_PATTERN = re.compile(r"^[a-z0-9][a-z0-9._-]*$")
 HEADER_PATTERN = re.compile(r"^#\s*([a-z_]+)\s*:\s*(.+)$")
 DIRECTORIES = {"locale": "addon", "blender": "blender"}

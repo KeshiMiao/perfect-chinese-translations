@@ -12,7 +12,7 @@
 - `id` 必须匹配 `[a-z0-9][a-z0-9._-]*`，并且与文件名（去掉 `.po`）一致。
 - `kind` 缺省按目录推断；补缺包必须写 `supported_versions`，不能留 `*`。
 - `locale` 固定为 `zh_HANS`，写别的值会被拒绝。
-- 单个 `.po` 不超过 512 KiB。
+- 单个 `.po` 不超过 2 MiB。
 - `url`、`sha256`、`bytes` 由脚本按真实文件计算，不需要手写；其余字段原样进目录。
 - `updated_at` 不写时取该文件最后一次 git 提交日期（格式 `YYYY-MM-DD`）。
 
@@ -63,7 +63,7 @@ msgstr ""
 - `entries` 按 `(kind, id)` 排序；条目没有变化时脚本不改文件，避免只有 `generated_at` 变化。
 - `sha256` / `bytes` 用于下载校验；`url` 是仓库内相对路径。
 - 客户端会校验：`id` 规则、`sha256` 为 64 位小写十六进制、`url` 不能以 `/` 开头 / 不能含 `..` / 不能带
-  `://`、`bytes` 不超过 512 KiB、`supported_versions` 能被解析、`locale` 为 `zh_HANS`。单条不合法会被跳过并
+  `://`、`bytes` 不超过 2 MiB、`supported_versions` 能被解析、`locale` 为 `zh_HANS`。单条不合法会被跳过并
   记入 `problems`；`schema_version` 高于客户端支持的版本时整个目录被拒绝（需要升级客户端）。
 - 变更识别只看 `sha256`：文件内容一变，哈希就变，客户端据此判断是否更新，不需要人工递增版本号。
   `translation_version` 与 `updated_at` 不参与判断；`updated_at` 仅用于展示，并在补缺包版本区间重叠时用于
