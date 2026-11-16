@@ -1,0 +1,843 @@
+# perfect-chinese: 1
+# id: lumos
+# kind: addon
+# module: bl_ext.blender_org.lumos
+# name: Lumos
+# name_zh: 照明增强
+# translator: KeshiMiao
+# category: Lighting
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: lumos/operators/lumos_editor_operators.py:151
+msgid "-"
+msgstr "-"
+
+#: lumos/lumos_preferences.py:93
+msgid "1, 2, 3, 4 as Keymaps"
+msgstr "将 1、2、3、4 用作快捷键"
+
+#: lumos/lumos_properties.py:132
+msgid "Action"
+msgstr "操作"
+
+#: lumos/lumos_properties.py:401
+msgid "All"
+msgstr "全部"
+
+#: lumos/lumos_properties.py:522
+msgid "Allow filtring by searching light's name(no case sensitive)"
+msgstr "允许通过搜索灯光名称进行筛选（不区分大小写）"
+
+#: lumos/operators/lumos_editor_operators.py:22
+#: lumos/operators/lumos_editor_operators_OLD.py:48
+msgid "Angle"
+msgstr "角度"
+
+#: lumos/lumos_properties.py:405
+msgid "Area"
+msgstr "区域"
+
+#: lumos/lumos_preferences.py:106
+msgid "Ask Each Time"
+msgstr "每次询问"
+
+#: lumos/lumos_preferences.py:106
+msgid "Ask what to do each time you try to edit a linked light"
+msgstr "每次尝试编辑链接灯光时询问要执行的操作"
+
+#: lumos/lumos_preferences.py:104
+msgid "Automatically create a library override to edit linked light properties (keeps link to source)"
+msgstr "自动创建库覆盖以编辑链接灯光属性（保留与源的链接）"
+
+#: lumos/lumos_preferences.py:105
+msgid "Automatically make the light data local (breaks link to source)"
+msgstr "自动将灯光数据设为本地（断开与源的链接）"
+
+#: lumos/operators/lumos_editor_operators_OLD.py:114
+#: lumos/operators/lumos_editor_operators_OLD.py:294
+msgid "Blend"
+msgstr "混合"
+
+#: lumos/lumos_properties.py:137
+msgid "Cancel"
+msgstr "取消"
+
+#: lumos/lumos_properties.py:137
+msgid "Cancel the operation"
+msgstr "取消操作"
+
+#: lumos/lumos_properties.py:174
+msgid "Choose how to handle it:"
+msgstr "选择处理方式："
+
+#: lumos/lumos_preferences.py:100
+msgid "Choose how to handle linked lights when modifying their properties"
+msgstr "选择修改链接灯光属性时的处理方式"
+
+#: lumos/panels/lumos_manager_panels.py:73
+msgid "Choose light origin :"
+msgstr "选择灯光原点："
+
+#: lumos/lumos_preferences.py:93
+msgid "Choose to use 1, 2, 3, 4 as keymaps for light edit or not"
+msgstr "选择是否将 1、2、3、4 用作灯光编辑快捷键"
+
+#: lumos/lumos_properties.py:190
+#: lumos/operators/lumos_editor_operators.py:16
+msgid "Color"
+msgstr "颜色"
+
+#: lumos/lumos_preferences.py:104
+#: lumos/lumos_properties.py:135
+msgid "Create Override"
+msgstr "创建覆盖"
+
+#: lumos/lumos_properties.py:135
+msgid "Create a library override (keeps link to source)"
+msgstr "创建库覆盖（保留与源的链接）"
+
+#: lumos/lumos_properties.py:364
+msgid "Cursor"
+msgstr "游标"
+
+#: lumos/lumos_gizmo.py:7
+msgid "Custom Gizmo For Light Color Settings"
+msgstr "灯光颜色设置的自定义控件"
+
+#: lumos/lumos_properties.py:363
+msgid "Défini l'origine de création de la Point Light au centre du monde"
+msgstr "将点光的创建原点设为世界中心"
+
+#: lumos/lumos_properties.py:364
+msgid "Défini l'origine de création de la Point Light à la position du curseur"
+msgstr "将点光的创建原点设为游标位置"
+
+#: lumos/operators/lumos_editor_operators.py:217
+msgid "EMISSIVE"
+msgstr "自发光"
+
+#: lumos/lumos_properties.py:415
+#: lumos/operators/lumos_manager_operators.py:580
+msgid "Edit"
+msgstr "编辑"
+
+#: lumos/operators/lumos_manager_operators.py:622
+msgid "Edit Mode: Press LEFTCLICK, E, F or C"
+msgstr "编辑模式：按左键、E、F 或 C"
+
+#: lumos/operators/lumos_manager_operators.py:1092
+#: lumos/panels/lumos_manager_panels.py:253
+msgid "Emission Color"
+msgstr "发光颜色"
+
+#: lumos/lumos_properties.py:430
+#: lumos/panels/lumos_manager_panels.py:257
+msgid "Emission Strength"
+msgstr "发光强度"
+
+#: lumos/operators/lumos_editor_operators_OLD.py:147
+#: lumos/operators/lumos_editor_operators_OLD.py:367
+msgid "Emitor"
+msgstr "发光体"
+
+#: lumos/__init__.py:134
+msgid "Empty object used as reference for placing light"
+msgstr "用作灯光放置参考的空物体"
+
+#: lumos/lumos_properties.py:424
+msgid "Enable energy preservation (Compensates for loss of light energy relative to distance)"
+msgstr "启用能量保持（补偿随距离损失的光能）"
+
+#: lumos/lumos_properties.py:241
+#: lumos/operators/lumos_editor_operators.py:17
+msgid "Energy"
+msgstr "能量"
+
+#: lumos/lumos_properties.py:442
+msgid "Filter All Light"
+msgstr "筛选全部灯光"
+
+#: lumos/lumos_properties.py:507
+msgid "Filter Angle"
+msgstr "筛选角度"
+
+#: lumos/lumos_properties.py:463
+msgid "Filter Area Light"
+msgstr "筛选区域光"
+
+#: lumos/lumos_properties.py:477
+msgid "Filter Color"
+msgstr "筛选颜色"
+
+#: lumos/lumos_properties.py:468
+msgid "Filter Emissive Objects"
+msgstr "筛选自发光物体"
+
+#: lumos/lumos_properties.py:482
+msgid "Filter Energy"
+msgstr "筛选能量"
+
+#: lumos/lumos_properties.py:497
+msgid "Filter Lightgroup"
+msgstr "筛选灯光组"
+
+#: lumos/lumos_properties.py:487
+msgid "Filter Max Bounces"
+msgstr "筛选最大反弹"
+
+#: lumos/lumos_properties.py:448
+msgid "Filter Point Light"
+msgstr "筛选点光"
+
+#: lumos/lumos_properties.py:502
+msgid "Filter Radius"
+msgstr "筛选半径"
+
+#: lumos/lumos_properties.py:522
+msgid "Filter Search"
+msgstr "筛选搜索"
+
+#: lumos/lumos_properties.py:517
+msgid "Filter Shape"
+msgstr "筛选形状"
+
+#: lumos/lumos_properties.py:512
+msgid "Filter Size"
+msgstr "筛选尺寸"
+
+#: lumos/lumos_properties.py:492
+msgid "Filter Specular"
+msgstr "筛选高光"
+
+#: lumos/lumos_properties.py:458
+msgid "Filter Spot Light"
+msgstr "筛选聚光"
+
+#: lumos/lumos_properties.py:453
+msgid "Filter Sun Light"
+msgstr "筛选日光"
+
+#: lumos/operators/lumos_editor_operators.py:378
+#: lumos/operators/lumos_editor_operators_OLD.py:31
+msgid "Filter by light type :"
+msgstr "按灯光类型筛选："
+
+#: lumos/operators/lumos_editor_operators_OLD.py:41
+msgid "Filters :"
+msgstr "筛选器："
+
+#: lumos/lumos_properties.py:507
+msgid "Hide Angle property"
+msgstr "隐藏角度属性"
+
+#: lumos/lumos_properties.py:477
+msgid "Hide Color property"
+msgstr "隐藏颜色属性"
+
+#: lumos/lumos_properties.py:482
+msgid "Hide Energy property"
+msgstr "隐藏能量属性"
+
+#: lumos/lumos_properties.py:497
+msgid "Hide Lightgroup property"
+msgstr "隐藏灯光组属性"
+
+#: lumos/lumos_properties.py:487
+msgid "Hide Max Bounces property"
+msgstr "隐藏最大反弹属性"
+
+#: lumos/lumos_properties.py:502
+msgid "Hide Radius property"
+msgstr "隐藏半径属性"
+
+#: lumos/lumos_properties.py:517
+msgid "Hide Shape property"
+msgstr "隐藏形状属性"
+
+#: lumos/lumos_properties.py:512
+msgid "Hide Size property"
+msgstr "隐藏尺寸属性"
+
+#: lumos/lumos_properties.py:492
+msgid "Hide Specular property"
+msgstr "隐藏高光属性"
+
+#: lumos/operators/lumos_manager_operators.py:913
+#: lumos/operators/lumos_manager_operators.py:934
+msgid "Horizontal modify Hue, Vertical modify Saturation"
+msgstr "水平调整色相，垂直调整饱和度"
+
+#: lumos/operators/lumos_manager_operators.py:636
+msgid "Invalid mode selected!"
+msgstr "所选模式无效！"
+
+#: lumos/panels/lumos_manager_panels.py:55
+msgid "LIGHT CREATOR :"
+msgstr "灯光创建器："
+
+#: lumos/operators/lumos_editor_operators.py:371
+#: lumos/operators/lumos_editor_operators_OLD.py:24
+msgid "LIGHT EDITOR :"
+msgstr "灯光编辑器："
+
+#: lumos/lumos_properties.py:415
+msgid "Light Edit mode"
+msgstr "灯光编辑模式"
+
+#: lumos/operators/lumos_editor_operators.py:20
+#: lumos/operators/lumos_editor_operators_OLD.py:46
+msgid "Light Group"
+msgstr "灯光组"
+
+#: lumos/panels/lumos_manager_panels.py:196
+msgid "Light's settings"
+msgstr "灯光设置"
+
+#: lumos/__init__.py:131
+msgid "Lights Collection"
+msgstr "灯光集合"
+
+#: lumos/lumos_preferences.py:100
+msgid "Linked Light Behavior"
+msgstr "链接灯光行为"
+
+#: lumos/lumos_preferences.py:115
+msgid "Linked Lights:"
+msgstr "链接灯光："
+
+#: lumos/__init__.py:128
+msgid "Lock light"
+msgstr "锁定灯光"
+
+#: lumos/__init__.py:128
+msgid "Lock light : location, rotation & scale"
+msgstr "锁定灯光：位置、旋转与缩放"
+
+#: lumos/__init__.py:130
+msgid "Lock object"
+msgstr "锁定物体"
+
+#: lumos/__init__.py:130
+msgid "Lock object : location, rotation & scale"
+msgstr "锁定物体：位置、旋转与缩放"
+
+#: lumos/panels/lumos_editor_panels.py:11
+#: lumos/panels/lumos_manager_panels.py:35
+msgid "Lumos"
+msgstr "Lumos"
+
+#: lumos/panels/lumos_editor_panels.py:8
+msgid "Lumos - Light Editor"
+msgstr "Lumos - 灯光编辑器"
+
+#: lumos/panels/lumos_manager_panels.py:32
+msgid "Lumos - Light Manager"
+msgstr "Lumos - 灯光管理器"
+
+#: lumos/panels/lumos_manager_panels.py:262
+msgid "Lumos : Light Creator"
+msgstr "Lumos：灯光创建器"
+
+#: lumos/operators/lumos_manager_operators.py:655
+msgid "Lumos : Light Edit Tool"
+msgstr "Lumos：灯光编辑工具"
+
+#: lumos/__init__.py:121
+msgid "Lumos Gizmo Active"
+msgstr "Lumos 小工具已激活"
+
+#: lumos/lumos_preferences.py:105
+#: lumos/lumos_properties.py:136
+msgid "Make Local"
+msgstr "设为本地"
+
+#: lumos/lumos_properties.py:136
+msgid "Make the light data local (breaks link)"
+msgstr "将灯光数据设为本地（断开链接）"
+
+#: lumos/lumos_properties.py:314
+#: lumos/operators/lumos_editor_operators.py:18
+msgid "Max Bounces"
+msgstr "最大反弹次数"
+
+#: lumos/operators/lumos_manager_operators.py:766
+msgid "Move horizontally to modify the emission strength"
+msgstr "水平移动以修改发光强度"
+
+#: lumos/operators/lumos_manager_operators.py:753
+msgid "Move horizontally to modify the intensity"
+msgstr "水平移动以修改强度"
+
+#: lumos/operators/lumos_manager_operators.py:1016
+msgid "Move mouse vertically to move light along local Z axis"
+msgstr "垂直移动鼠标以沿局部 Z 轴移动灯光"
+
+#: lumos/operators/lumos_manager_operators.py:1020
+msgid "No active light object found"
+msgstr "未找到活动灯光物体"
+
+#: lumos/operators/lumos_manager_operators.py:773
+#: lumos/operators/lumos_manager_operators.py:940
+msgid "No active light or emissive object found"
+msgstr "未找到活动灯光或发光物体"
+
+#: lumos/operators/lumos_manager_operators.py:937
+msgid "No emission color found on this object"
+msgstr "此物体上未找到发光颜色"
+
+#: lumos/operators/lumos_manager_operators.py:769
+msgid "No emission strength found on this object"
+msgstr "此物体上未找到发光强度"
+
+#: lumos/operators/lumos_manager_operators.py:1011
+msgid "No hit detected for the light ray"
+msgstr "光线未检测到命中"
+
+#: lumos/operators/lumos_manager_operators.py:593
+msgid "No light is selected"
+msgstr "未选择灯光"
+
+#: lumos/operators/lumos_manager_operators.py:271
+#: lumos/operators/lumos_manager_operators.py:356
+msgid "No light object selected or not in View3D space"
+msgstr "未选择灯光物体或不在 3D 视图空间中"
+
+#: lumos/operators/lumos_manager_operators.py:642
+msgid "No light selected! Use Left Click to select a light."
+msgstr "未选择灯光！使用左键点击选择灯光。"
+
+#: lumos/lumos_properties.py:145
+msgid "No pending linked light"
+msgstr "无待处理的链接灯光"
+
+#: lumos/lumos_properties.py:416
+#: lumos/operators/lumos_manager_operators.py:581
+msgid "Normals"
+msgstr "法线"
+
+#: lumos/operators/lumos_manager_operators.py:626
+msgid "Normals Mode: Pres LEFTCLICK, E, F or C"
+msgstr "法线模式：按左键、E、F 或 C"
+
+#: lumos/lumos_properties.py:416
+msgid "Normals mode : Modal to place light based on the normal under the mouse"
+msgstr "法线模式：基于鼠标下的法线放置灯光的模态操作"
+
+#: lumos/lumos_properties.py:158
+msgid "Operation cancelled"
+msgstr "操作已取消"
+
+#: lumos/__init__.py:122
+msgid "Pending Linked Light"
+msgstr "待处理的链接灯光"
+
+#: lumos/lumos_properties.py:402
+msgid "Point"
+msgstr "点"
+
+#: lumos/lumos_properties.py:424
+msgid "Preserve Energy"
+msgstr "保持能量"
+
+#: lumos/operators/lumos_editor_operators.py:8
+msgid "Properties Filters"
+msgstr "属性过滤器"
+
+#: lumos/operators/lumos_editor_operators.py:21
+#: lumos/operators/lumos_editor_operators_OLD.py:47
+msgid "Radius"
+msgstr "半径"
+
+#: lumos/__init__.py:134
+msgid "Reference Empty"
+msgstr "参考空物体"
+
+#: lumos/lumos_properties.py:417
+#: lumos/operators/lumos_manager_operators.py:582
+msgid "Reflection"
+msgstr "反射"
+
+#: lumos/operators/lumos_manager_operators.py:630
+msgid "Reflection Mode, Press LEFTCLICK, E, F or C"
+msgstr "反射模式，按左键、E、F 或 C"
+
+#: lumos/lumos_properties.py:417
+msgid "Reflection mode : Modal to place light based on the light's reflection under the mouse"
+msgstr "反射模式：基于鼠标下的灯光反射放置灯光的模态操作"
+
+#: lumos/__init__.py:131
+msgid "Select in which collection the lights will be created"
+msgstr "选择灯光将创建在哪个集合中"
+
+#: lumos/lumos_properties.py:418
+#: lumos/operators/lumos_manager_operators.py:583
+msgid "Shadow"
+msgstr "阴影"
+
+#: lumos/operators/lumos_manager_operators.py:634
+msgid "Shadow Mode: Press LEFTCLICK, E, F or C"
+msgstr "阴影模式：按左键、E、F 或 C"
+
+#: lumos/lumos_properties.py:418
+msgid "Shadow mode : : Modal to place light based on the object's shadow under the mouse"
+msgstr "阴影模式：基于鼠标下物体的阴影放置灯光的模态操作"
+
+#: lumos/operators/lumos_editor_operators.py:23
+#: lumos/operators/lumos_editor_operators_OLD.py:49
+msgid "Shape"
+msgstr "形状"
+
+#: lumos/lumos_properties.py:453
+msgid "Shhow only Sun lights"
+msgstr "仅显示太阳光"
+
+#: lumos/lumos_properties.py:442
+msgid "Show all lights and emissives, or reset all filters when clicked again"
+msgstr "显示所有灯光和发光物体，再次点击时重置所有过滤器"
+
+#: lumos/lumos_properties.py:463
+msgid "Show only Area lights"
+msgstr "仅显示区域光"
+
+#: lumos/lumos_properties.py:448
+msgid "Show only Point lights"
+msgstr "仅显示点光"
+
+#: lumos/lumos_properties.py:458
+msgid "Show only Spot lights"
+msgstr "仅显示聚光"
+
+#: lumos/lumos_properties.py:468
+msgid "Show only objects with emissive materials"
+msgstr "仅显示具有发光材质的物体"
+
+#: lumos/operators/lumos_editor_operators.py:24
+#: lumos/operators/lumos_editor_operators_OLD.py:50
+msgid "Size"
+msgstr "大小"
+
+#: lumos/operators/lumos_editor_operators_OLD.py:134
+#: lumos/operators/lumos_editor_operators_OLD.py:349
+msgid "Size X"
+msgstr "大小 X"
+
+#: lumos/operators/lumos_editor_operators_OLD.py:136
+#: lumos/operators/lumos_editor_operators_OLD.py:351
+msgid "Size Y"
+msgstr "大小 Y"
+
+#: lumos/lumos_properties.py:397
+#: lumos/lumos_properties.py:528
+msgid "Sort by Type"
+msgstr "按类型排序"
+
+#: lumos/lumos_properties.py:401
+msgid "Sort by type : All"
+msgstr "按类型排序：全部"
+
+#: lumos/lumos_properties.py:405
+msgid "Sort by type : Area Light"
+msgstr "按类型排序：区域光"
+
+#: lumos/lumos_properties.py:402
+msgid "Sort by type : Point Light"
+msgstr "按类型排序：点光"
+
+#: lumos/lumos_properties.py:404
+msgid "Sort by type : Spot Light"
+msgstr "按类型排序：聚光"
+
+#: lumos/lumos_properties.py:403
+msgid "Sort by type : Sun Light"
+msgstr "按类型排序：太阳光"
+
+#: lumos/lumos_properties.py:528
+msgid "Sort lights by type (Point, Sun, Spot, Area, then Emissive objects)"
+msgstr "按类型排序灯光（点光、太阳光、聚光、区域光，然后是发光物体）"
+
+#: lumos/operators/lumos_editor_operators.py:19
+#: lumos/operators/lumos_editor_operators_OLD.py:45
+msgid "Specular"
+msgstr "高光"
+
+#: lumos/lumos_properties.py:404
+msgid "Spot"
+msgstr "聚光"
+
+#: lumos/lumos_properties.py:403
+msgid "Sun"
+msgstr "太阳光"
+
+#: lumos/lumos_properties.py:430
+msgid "Temporary property for emission strength editing"
+msgstr "用于编辑发光强度的临时属性"
+
+#: lumos/operators/lumos_manager_operators.py:656
+msgid "Tool to position light based on reflection"
+msgstr "基于反射定位灯光的工具"
+
+#: lumos/lumos_properties.py:363
+msgid "World"
+msgstr "世界"
+
+#: lumos/operators/lumos_manager_operators.py:669
+msgid "YOU MUST TO SELECT A LIGHT TO USE LIGHT EDIT TOOLS"
+msgstr "必须选择灯光才能使用灯光编辑工具"
+
+#: lumos/operators/lumos_editor_operators.py:157
+msgid "—"
+msgstr "—"
+
+#: lumos/operators/lumos_manager_operators.py:33
+msgctxt "Operator"
+msgid "Add a new light"
+msgstr "添加新灯光"
+
+#: lumos/operators/lumos_manager_operators.py:32
+msgctxt "Operator"
+msgid "Add light"
+msgstr "添加灯光"
+
+#: lumos/panels/lumos_manager_panels.py:301
+msgctxt "Operator"
+msgid "Area Light"
+msgstr "区域光"
+
+#: lumos/operators/lumos_manager_operators.py:1029
+msgctxt "Operator"
+msgid "Controle Light Edit Tool Toggle"
+msgstr "切换灯光编辑工具"
+
+#: lumos/panels/lumos_manager_panels.py:284
+msgctxt "Operator"
+msgid "Delete"
+msgstr "删除"
+
+#: lumos/operators/lumos_manager_operators.py:1128
+msgctxt "Operator"
+msgid "Delete Emissive Object"
+msgstr "删除发光物体"
+
+#: lumos/operators/lumos_manager_operators.py:86
+msgctxt "Operator"
+msgid "Delete Light"
+msgstr "删除灯光"
+
+#: lumos/operators/lumos_manager_operators.py:87
+msgctxt "Operator"
+msgid "Delete the Light"
+msgstr "删除灯光"
+
+#: lumos/lumos_properties.py:186
+msgctxt "Operator"
+msgid "Edit Light Color"
+msgstr "编辑灯光颜色"
+
+#: lumos/lumos_properties.py:237
+msgctxt "Operator"
+msgid "Edit Light Energy"
+msgstr "编辑灯光能量"
+
+#: lumos/lumos_properties.py:310
+msgctxt "Operator"
+msgid "Edit Light Max Bounces"
+msgstr "编辑灯光最大反弹次数"
+
+#: lumos/panels/lumos_manager_panels.py:93
+msgctxt "Operator"
+msgid "Emissive Light"
+msgstr "发光灯光"
+
+#: lumos/panels/lumos_manager_panels.py:313
+msgctxt "Operator"
+msgid "Emissive Object"
+msgstr "发光物体"
+
+#: lumos/panels/lumos_manager_panels.py:107
+#: lumos/panels/lumos_manager_panels.py:290
+msgctxt "Operator"
+msgid "Hide All"
+msgstr "全部隐藏"
+
+#: lumos/operators/lumos_manager_operators.py:680
+msgctxt "Operator"
+msgid "Increase/Decrease Intensity"
+msgstr "增加/减少强度"
+
+#: lumos/panels/lumos_manager_panels.py:286
+msgctxt "Operator"
+msgid "Isolate"
+msgstr "隔离"
+
+#: lumos/operators/lumos_manager_operators.py:196
+msgctxt "Operator"
+msgid "Isolate Light"
+msgstr "隔离灯光"
+
+#: lumos/operators/lumos_manager_operators.py:197
+msgctxt "Operator"
+msgid "Isolate the Light"
+msgstr "隔离灯光"
+
+#: lumos/panels/lumos_editor_panels.py:18
+msgctxt "Operator"
+msgid "LIGHT EDITOR"
+msgstr "灯光编辑器"
+
+#: lumos/operators/lumos_manager_operators.py:159
+msgctxt "Operator"
+msgid "Light Visibility"
+msgstr "灯光可见性"
+
+#: lumos/lumos_properties.py:129
+msgctxt "Operator"
+msgid "Linked Light Detected"
+msgstr "检测到链接灯光"
+
+#: lumos/panels/lumos_manager_panels.py:281
+msgctxt "Operator"
+msgid "Lock"
+msgstr "锁定"
+
+#: lumos/operators/lumos_manager_operators.py:128
+msgctxt "Operator"
+msgid "Look Though Light"
+msgstr "透过灯光查看"
+
+#: lumos/panels/lumos_manager_panels.py:279
+msgctxt "Operator"
+msgid "Look Through / Outside"
+msgstr "透过/外部查看"
+
+#: lumos/operators/lumos_manager_operators.py:129
+msgctxt "Operator"
+msgid "Look through the Light"
+msgstr "透过灯光查看"
+
+#: lumos/operators/lumos_editor_operators.py:28
+#: lumos/operators/lumos_editor_operators_OLD.py:8
+msgctxt "Operator"
+msgid "Lumos : Light Editor"
+msgstr "Lumos：灯光编辑器"
+
+#: lumos/operators/lumos_manager_operators.py:563
+msgctxt "Operator"
+msgid "Lumos : Switch Light Edit Mode"
+msgstr "Lumos：切换灯光编辑模式"
+
+#: lumos/operators/lumos_manager_operators.py:782
+msgctxt "Operator"
+msgid "Modify Color Hue"
+msgstr "修改颜色色相"
+
+#: lumos/operators/lumos_manager_operators.py:949
+msgctxt "Operator"
+msgid "Modify Z Local Position"
+msgstr "修改局部 Z 位置"
+
+#: lumos/operators/lumos_manager_operators.py:564
+msgctxt "Operator"
+msgid "Operator to switch light edit mode with keymaps"
+msgstr "通过快捷键切换灯光编辑模式的操作"
+
+#: lumos/operators/lumos_editor_operators.py:30
+#: lumos/operators/lumos_editor_operators_OLD.py:10
+msgctxt "Operator"
+msgid "Ouvre un menu popup afin de facilité la modification des lights de la scène"
+msgstr "打开弹出菜单，方便修改场景中的灯光"
+
+#: lumos/panels/lumos_manager_panels.py:304
+msgctxt "Operator"
+msgid "Point Light"
+msgstr "点光"
+
+#: lumos/operators/lumos_manager_operators.py:392
+msgctxt "Operator"
+msgid "Position A Target For The Shadow Modal"
+msgstr "为阴影模态定位目标"
+
+#: lumos/operators/lumos_manager_operators.py:305
+msgctxt "Operator"
+msgid "Position The Light Based On Its Reflection"
+msgstr "根据反射定位灯光"
+
+#: lumos/operators/lumos_manager_operators.py:219
+msgctxt "Operator"
+msgid "Position The Light Based On Normals"
+msgstr "根据法线定位灯光"
+
+#: lumos/operators/lumos_manager_operators.py:460
+msgctxt "Operator"
+msgid "Position The Light Based On The Target Object's Shadow"
+msgstr "根据目标物体的阴影定位灯光"
+
+#: lumos/operators/lumos_manager_operators.py:107
+msgctxt "Operator"
+msgid "Select Light"
+msgstr "选择灯光"
+
+#: lumos/operators/lumos_manager_operators.py:108
+msgctxt "Operator"
+msgid "Select the Light"
+msgstr "选择灯光"
+
+#: lumos/operators/lumos_manager_operators.py:1088
+msgctxt "Operator"
+msgid "Set Emission Color"
+msgstr "设置发光颜色"
+
+#: lumos/operators/lumos_manager_operators.py:1055
+msgctxt "Operator"
+msgid "Set Emission Strength"
+msgstr "设置发光强度"
+
+#: lumos/panels/lumos_manager_panels.py:106
+#: lumos/panels/lumos_manager_panels.py:288
+msgctxt "Operator"
+msgid "Show All"
+msgstr "显示全部"
+
+#: lumos/panels/lumos_manager_panels.py:298
+msgctxt "Operator"
+msgid "Spot Light"
+msgstr "聚光"
+
+#: lumos/panels/lumos_manager_panels.py:307
+msgctxt "Operator"
+msgid "Sun Light"
+msgstr "太阳光"
+
+#: lumos/lumos_properties.py:286
+msgctxt "Operator"
+msgid "Toggle Light Lock"
+msgstr "切换灯光锁定"
+
+#: lumos/operators/lumos_manager_operators.py:160
+msgctxt "Operator"
+msgid "Toggle light visibility"
+msgstr "切换灯光可见性"
+
+#: lumos/operators/lumos_manager_operators.py:178
+msgctxt "Operator"
+msgid "Toggle lights visibility"
+msgstr "切换所有灯光可见性"
+
+#: lumos/operators/lumos_manager_operators.py:605
+msgctxt "Operator"
+msgid "Tool to Manage Light Edit Mode"
+msgstr "管理灯光编辑模式的工具"
+
+#: lumos/panels/lumos_manager_panels.py:281
+msgctxt "Operator"
+msgid "Unlock"
+msgstr "解锁"
+
+#: lumos/operators/lumos_manager_operators.py:606
+msgctxt "Operator"
+msgid "You must select a light before activating the tool"
+msgstr "必须先选择一个灯光才能激活该工具"

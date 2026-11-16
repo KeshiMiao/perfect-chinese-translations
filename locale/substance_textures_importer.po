@@ -1,0 +1,446 @@
+# perfect-chinese: 1
+# id: substance_textures_importer
+# kind: addon
+# module: bl_ext.blender_org.substance_textures_importer
+# name: Substance Textures Importer
+# name_zh: 材质贴图导入
+# translator: KeshiMiao
+# category: Material
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: substance_textures_importer/propertygroups.py:126
+msgid "Active"
+msgstr "活动"
+
+#: substance_textures_importer/functions.py:684
+msgid "All Objects materials"
+msgstr "所有物体材质"
+
+#: substance_textures_importer/functions.py:685
+msgid "All scene materials"
+msgstr "所有场景材质"
+
+#: substance_textures_importer/functions.py:683
+msgid "All visible Objects materials"
+msgstr "所有可见物体材质"
+
+#: substance_textures_importer/propertygroups.py:250
+msgid "Allows Manual setup of the Maps filenames,                     \n  (Tick the checkbox between Map Name and Sockets                                         to enable manual file selection)"
+msgstr "允许手动设置贴图文件名（勾选“贴图名称”和“接口”之间的复选框以启用手动文件选择）"
+
+#: substance_textures_importer/propertygroups.py:158
+msgid "Append your own Nodegroups in the 'Replace Shader' list above                     \n                    \n Allows to use Custom Shader nodes                    \n Custom NodeGroups must have a valid Surface Shader output socket                     \n and at least one input socket to appear in the list                     \n (Experimental !!!)"
+msgstr "在上述“替换着色器”列表中追加自己的节点组。允许使用自定义着色器节点。自定义节点组必须具有有效的表面着色器输出接口和至少一个输入接口，才会出现在列表中（实验性！！！）"
+
+#: substance_textures_importer/propertygroups.py:257
+msgid "Apply on active material only,                         \n  (By default the script iterates through all materials                        \n  presents in the Material Slots.)                        \n Enable this to only use the active Material Slot."
+msgstr "仅应用到活动材质（默认情况下脚本会遍历材质插槽中的所有材质）。启用此项以仅使用活动材质插槽。"
+
+#: substance_textures_importer/functions.py:892
+msgid "Assign Images"
+msgstr "指定图像"
+
+#: substance_textures_importer/propertygroups.py:265
+msgid "Assign the images found in usr_dir to the corresponding nodes.                        \n The nodes should already be created for this to work.                         \n (Enable 'Setup Nodes' to create them at the same time)"
+msgstr "将 usr_dir 中找到的图像指定给对应节点。节点应已创建才能生效。（启用“设置节点”以便同时创建它们）"
+
+#: substance_textures_importer/propertygroups.py:116
+msgid "Associated file exists"
+msgstr "关联文件存在"
+
+#: substance_textures_importer/functions.py:884
+msgid "Attach Curves and Ramps"
+msgstr "附加曲线和渐变"
+
+#: substance_textures_importer/propertygroups.py:183
+msgid "Attach RGB Curves and Color Ramps nodes                        \n                        \n Inserts a RGB Curve if the Texture map type is RGB                         \n or a Color ramp if the texture map type is Black & White                        \n between the Image texture node and the Shader Input Socket                        \n during Nodes Trees setup"
+msgstr "附加 RGB 曲线和颜色渐变节点。在设置节点树时，如果纹理贴图类型为 RGB，则在图像纹理节点和着色器输入接口之间插入 RGB 曲线；如果为黑白，则插入颜色渐变。"
+
+#: substance_textures_importer/propertygroups.py:103
+msgid "Auto detect target shader socket"
+msgstr "自动检测目标着色器接口"
+
+#: substance_textures_importer/propertygroups.py:231
+msgid "Base Shader node selector                         \n Used to select a replacement for the current Shader node                        \n if 'Replace Shader' is enabled or if no valid Shader node is detected."
+msgstr "基础着色器节点选择器。用于在启用“替换着色器”或未检测到有效着色器节点时，为当前着色器节点选择替代项。"
+
+#: substance_textures_importer/preferences.py:37
+msgid "Check this option to show the Extension panel                                     in the Material Properties Panel.                                     \n It will remain available in the File menu                                     > Import > Substance Textures and via                                     \n F3 Search > Import Surfacing Textures"
+msgstr "勾选此选项可在“材质属性”面板中显示扩展面板。它仍可通过“文件”菜单 > 导入 > Substance Textures 以及 F3 搜索 > Import Surfacing Textures 使用"
+
+#: substance_textures_importer/propertygroups.py:169
+msgid "Clear existing nodes                      \n Removes all nodes from the material shader                      \n before setting up the nodes trees"
+msgstr "清除现有节点。在设置节点树之前，从材质着色器中移除所有节点。"
+
+#: substance_textures_importer/functions.py:882
+msgid "Clear nodes from material"
+msgstr "从材质中清除节点"
+
+#: substance_textures_importer/propertygroups.py:72
+msgid "Color"
+msgstr "颜色"
+
+#: substance_textures_importer/propertygroups.py:97
+msgid "Complete filepath of the texture map"
+msgstr "纹理贴图的完整文件路径"
+
+#: substance_textures_importer/propertygroups.py:271
+msgid "Creates a (pseudo) PBR nodetree to load images textures"
+msgstr "创建（伪）PBR 节点树以加载图像纹理"
+
+#: substance_textures_importer/propertygroups.py:103
+msgid "Detect target socket"
+msgstr "检测目标接口"
+
+#: substance_textures_importer/functions.py:47
+#: substance_textures_importer/functions.py:99
+msgid "Diffuse BSDF"
+msgstr "漫射 BSDF"
+
+#: substance_textures_importer/propertygroups.py:193
+msgid "Disable to use DirectX™ normal map format instead of OpenGL.                        \n                        \n When this option is disabled, the script inverts the Y channel                        \n of the normal map to match blender format by adding a RGBCurve                        \n node with the green channel curve inverted before a normal map                        \n is plugged during Nodes Trees setup"
+msgstr "禁用后使用 DirectX™ 法线贴图格式而非 OpenGL。禁用此选项时，脚本会在设置节点树期间、连接法线贴图之前，添加一个绿色通道曲线反转的 RGB 曲线节点，以反转法线贴图的 Y 通道来匹配 Blender 格式。"
+
+#: substance_textures_importer/functions.py:384
+msgid "Displacement"
+msgstr "置换"
+
+#: substance_textures_importer/preferences.py:60
+msgid "Display shortcut button in Material Properties."
+msgstr "在材质属性中显示快捷按钮。"
+
+#: substance_textures_importer/preferences.py:59
+msgid "Display shortcut button in Shader Nodes Editor."
+msgstr "在着色器节点编辑器中显示快捷按钮。"
+
+#: substance_textures_importer/functions.py:888
+msgid "Duplicated material compatibility"
+msgstr "重复材质兼容性"
+
+#: substance_textures_importer/functions.py:46
+#: substance_textures_importer/functions.py:98
+msgid "Emission"
+msgstr "发光"
+
+#: substance_textures_importer/functions.py:880
+msgid "Enable Custom Shaders"
+msgstr "启用自定义着色器"
+
+#: substance_textures_importer/propertygroups.py:158
+#: substance_textures_importer/propertygroups.py:169
+msgid "Enable or Disable"
+msgstr "启用或禁用"
+
+#: substance_textures_importer/propertygroups.py:224
+msgid "Enable to replace the Material Shader with the one in the list                        \n                       \n (Enabled by default if 'Apply to all' is activated)"
+msgstr "启用后将材质着色器替换为列表中的着色器（如果启用了“应用到全部”，则默认启用）"
+
+#: substance_textures_importer/propertygroups.py:126
+msgid "Enable/Disable line"
+msgstr "启用/禁用行"
+
+#: substance_textures_importer/propertygroups.py:97
+msgid "File"
+msgstr "文件"
+
+#: substance_textures_importer/operators.py:154
+msgid "Folder"
+msgstr "文件夹"
+
+#: substance_textures_importer/propertygroups.py:204
+msgid "Folder containing the Textures Images to be imported"
+msgstr "包含要导入的纹理图像的文件夹"
+
+#: substance_textures_importer/functions.py:48
+#: substance_textures_importer/functions.py:100
+msgid "Glass BSDF"
+msgstr "玻璃 BSDF"
+
+#: substance_textures_importer/functions.py:49
+#: substance_textures_importer/functions.py:101
+msgid "Glossy BSDF"
+msgstr "光泽 BSDF"
+
+#: substance_textures_importer/functions.py:107
+msgid "Hair BSDF"
+msgstr "毛发 BSDF"
+
+#: substance_textures_importer/propertygroups.py:32
+#: substance_textures_importer/propertygroups.py:49
+msgid "ID"
+msgstr "ID"
+
+#: substance_textures_importer/__init__.py:3
+msgid "Import & autoassign images from Substance or similar 3D painting tools"
+msgstr "从 Substance 或类似 3D 绘画工具导入并自动指定图像"
+
+#: substance_textures_importer/propertygroups.py:65
+msgid "Input socket"
+msgstr "输入接口"
+
+#: substance_textures_importer/propertygroups.py:84
+msgid "Keyword identifier of the texture map to import"
+msgstr "要导入的纹理贴图的关键字标识符"
+
+#: substance_textures_importer/functions.py:867
+msgid "Manual Mode"
+msgstr "手动模式"
+
+#: substance_textures_importer/propertygroups.py:120
+msgid "Manual mode switch"
+msgstr "手动模式开关"
+
+#: substance_textures_importer/__init__.py:3
+msgid "Node"
+msgstr "节点"
+
+#: substance_textures_importer/propertygroups.py:177
+msgid "Objects or materials affected by the operations"
+msgstr "受操作影响的物体或材质"
+
+#: substance_textures_importer/functions.py:686
+msgid "Only Active Object in selection"
+msgstr "仅选中的活动物体"
+
+#: substance_textures_importer/functions.py:886
+msgid "Only active Material"
+msgstr "仅活动材质"
+
+#: substance_textures_importer/propertygroups.py:193
+msgid "OpenGL Normals"
+msgstr "OpenGL 法线"
+
+#: substance_textures_importer/functions.py:862
+msgid "Options"
+msgstr "选项"
+
+#: substance_textures_importer/propertygroups.py:120
+msgid "Overwrite file name"
+msgstr "覆盖文件名"
+
+#: substance_textures_importer/functions.py:55
+#: substance_textures_importer/functions.py:109
+msgid "Principled BSDF"
+msgstr "原理化 BSDF"
+
+#: substance_textures_importer/functions.py:43
+#: substance_textures_importer/functions.py:95
+msgid "Principled Volume"
+msgstr "原理化体积"
+
+#: substance_textures_importer/functions.py:94
+msgid "Principled-Hair BSDF"
+msgstr "原理化毛发 BSDF"
+
+#: substance_textures_importer/propertygroups.py:275
+msgid "Process duplicated materials names like the originals,                         \n  Use this to treat materials with suffix .001                        \n  as the original ones (ignores the .00x suffix)"
+msgstr "将重复材质名称按原始材质处理。使用此项可将带 .001 后缀的材质视为原始材质（忽略 .00x 后缀）"
+
+#: substance_textures_importer/functions.py:50
+#: substance_textures_importer/functions.py:102
+msgid "Refraction BSDF"
+msgstr "折射 BSDF"
+
+#: substance_textures_importer/functions.py:871
+msgid "Replace Shader"
+msgstr "替换着色器"
+
+#: substance_textures_importer/panels.py:10
+msgid "STM"
+msgstr "STM"
+
+#: substance_textures_importer/functions.py:682
+msgid "Selected Objects materials"
+msgstr "选中物体材质"
+
+#: substance_textures_importer/propertygroups.py:240
+msgid "Selector for the separator used to detect multi-sockets.                        \n If your texture map name contains multiple keywords like                        \n material_bump,metallic,ambient.exr , material_bump-metallic-ambient.exr                        \n or material_bump;metallic;ambient.exr etc.                         \n Adjust this to fit the separator character between your maps keywords."
+msgstr "用于检测多接口的分隔符选择器。如果纹理贴图名称包含多个关键字，例如 material_bump,metallic,ambient.exr、material_bump-metallic-ambient.exr 或 material_bump;metallic;ambient.exr 等，请调整此项以匹配贴图关键字之间的分隔符。"
+
+#: substance_textures_importer/preferences.py:56
+msgid "Separator used for multi-sockets:"
+msgstr "用于多接口的分隔符："
+
+#: substance_textures_importer/functions.py:890
+msgid "Setup Nodes"
+msgstr "设置节点"
+
+#: substance_textures_importer/functions.py:108
+msgid "Sheen BSDF"
+msgstr "亮泽 BSDF"
+
+#: substance_textures_importer/preferences.py:44
+msgid "Show extension activity in Blender console"
+msgstr "在 Blender 控制台中显示扩展活动"
+
+#: substance_textures_importer/preferences.py:61
+msgid "Show output messages in console."
+msgstr "在控制台中显示输出消息。"
+
+#: substance_textures_importer/propertygroups.py:215
+msgid "Skip Normal maps and Height maps detection.                            \n                            \n Usually the script inserts a Normal map converter node                             \n or a Bump map converter node according to the texture maps name.                            \n Tick to link the texture map directly"
+msgstr "跳过法线贴图和高度贴图检测。通常脚本会根据纹理贴图名称插入法线贴图转换器节点或凹凸贴图转换器节点。勾选后将直接连接纹理贴图。"
+
+#: substance_textures_importer/propertygroups.py:215
+msgid "Skip normal map detection"
+msgstr "跳过法线贴图检测"
+
+#: substance_textures_importer/functions.py:52
+msgid "Specular BSDF"
+msgstr "高光 BSDF"
+
+#: substance_textures_importer/propertygroups.py:132
+msgid "Split rgb channels"
+msgstr "拆分 RGB 通道"
+
+#: substance_textures_importer/propertygroups.py:132
+msgid "Split the RGB channels of the target image                         to plug them into individual sockets"
+msgstr "拆分目标图像的 RGB 通道，以将它们连接到各自接口"
+
+#: substance_textures_importer/panels.py:6
+#: substance_textures_importer/panels.py:23
+msgid "Substance Texture Importer"
+msgstr "Substance 纹理导入器"
+
+#: substance_textures_importer/__init__.py:3
+msgid "Substance Textures Importer"
+msgstr "Substance 纹理导入器"
+
+#: substance_textures_importer/functions.py:51
+#: substance_textures_importer/functions.py:103
+msgid "Subsurface Scattering BSSRDF"
+msgstr "次表面散射 BSSRDF"
+
+#: substance_textures_importer/propertygroups.py:177
+msgid "Target"
+msgstr "目标"
+
+#: substance_textures_importer/propertygroups.py:65
+msgid "Target shader input sockets for this texture node.                    \n Selected automaticaly if -Detect target socket- is enabled"
+msgstr "此纹理节点的目标着色器输入接口。如果启用“检测目标接口”，则会自动选择"
+
+#: substance_textures_importer/propertygroups.py:109
+msgid "Target shader input sockets for this texture node.                    \n Selected automaticaly if Autodetect sockets is enabled"
+msgstr "此纹理节点的目标着色器输入接口。如果启用“自动检测接口”，则会自动选择"
+
+#: substance_textures_importer/preferences.py:52
+msgid "Textures folder:"
+msgstr "纹理文件夹："
+
+#: substance_textures_importer/functions.py:104
+msgid "Toon BSDF"
+msgstr "卡通 BSDF"
+
+#: substance_textures_importer/functions.py:53
+#: substance_textures_importer/functions.py:105
+msgid "Translucent BSDF"
+msgstr "半透明 BSDF"
+
+#: substance_textures_importer/functions.py:54
+#: substance_textures_importer/functions.py:106
+msgid "Transparent BSDF"
+msgstr "透明 BSDF"
+
+#: substance_textures_importer/preferences.py:30
+msgid "Uncheck this option to hide the Extension panel                                     from the Shader Nodes Editor Sidebar.                                     \n It will remain available in the File menu                                     > Import > Substance Texturesand and via                                     \n F3 Search > Import Surfacing Textures"
+msgstr "取消勾选此选项可在着色器节点编辑器侧栏中隐藏扩展面板。它仍可通过文件菜单 > 导入 > Substance 纹理以及 F3 搜索 > 导入表面纹理使用。"
+
+#: substance_textures_importer/functions.py:45
+#: substance_textures_importer/functions.py:97
+msgid "Volume Absorption"
+msgstr "体积吸收"
+
+#: substance_textures_importer/functions.py:44
+#: substance_textures_importer/functions.py:96
+msgid "Volume Scatter"
+msgstr "体积散射"
+
+#: substance_textures_importer/propertygroups.py:40
+#: substance_textures_importer/propertygroups.py:57
+msgid "internal name"
+msgstr "内部名称"
+
+#: substance_textures_importer/propertygroups.py:72
+msgid "name of the line owning this instance"
+msgstr "拥有此实例的行的名称"
+
+#: substance_textures_importer/operators.py:33
+msgctxt "Operator"
+msgid "Add Texture"
+msgstr "添加纹理"
+
+#: substance_textures_importer/operators.py:141
+msgctxt "Operator"
+msgid "Import Surfacing Textures"
+msgstr "导入表面纹理"
+
+#: substance_textures_importer/operators.py:142
+msgctxt "Operator"
+msgid "Import textures created with substance                     or other similar 3D surfacing/painting tools"
+msgstr "导入使用 Substance 或其他类似 3D 表面/绘制工具创建的纹理"
+
+#: substance_textures_importer/operators.py:63
+msgctxt "Operator"
+msgid "Move lines up or down"
+msgstr "上移或下移行"
+
+#: substance_textures_importer/operators.py:163
+msgctxt "Operator"
+msgid "Open a substance textures importer window panel"
+msgstr "打开 Substance 纹理导入器窗口面板"
+
+#: substance_textures_importer/operators.py:62
+msgctxt "Operator"
+msgid "Rearrange lines order"
+msgstr "重新排列行顺序"
+
+#: substance_textures_importer/operators.py:42
+msgctxt "Operator"
+msgid "Remove Texture"
+msgstr "移除纹理"
+
+#: substance_textures_importer/operators.py:83
+msgctxt "Operator"
+msgid "Rename panel lines from keywords detected in the texture files"
+msgstr "根据纹理文件中检测到的关键词重命名面板行"
+
+#: substance_textures_importer/operators.py:51
+msgctxt "Operator"
+msgid "Reset textures names"
+msgstr "重置纹理名称"
+
+#: substance_textures_importer/operators.py:52
+msgctxt "Operator"
+msgid "Resets the textures lines to a default set of values.                    \n (Color, Roughness, Metallic, Normal)"
+msgstr "将纹理行重置为默认值集合。（颜色、粗糙度、金属度、法线）"
+
+#: substance_textures_importer/preferences.py:54
+msgctxt "Operator"
+msgid "Show Substance Texture Importer Panel"
+msgstr "显示 Substance 纹理导入器面板"
+
+#: substance_textures_importer/panels.py:20
+#: substance_textures_importer/panels.py:37
+msgctxt "Operator"
+msgid "Show importer..."
+msgstr "显示导入器…"
+
+#: substance_textures_importer/operators.py:162
+msgctxt "Operator"
+msgid "Substance Textures Importer Window"
+msgstr "Substance 纹理导入器窗口"
+
+#: substance_textures_importer/functions.py:268
+msgctxt "Operator"
+msgid "Substance Textures..."
+msgstr "Substance 纹理…"
+
+#: substance_textures_importer/operators.py:82
+msgctxt "Operator"
+msgid "Synch line names with files"
+msgstr "将行名称与文件同步"

@@ -1,0 +1,184 @@
+# perfect-chinese: 1
+# id: render_preset
+# kind: addon
+# module: bl_ext.blender_org.render_preset
+# name: Render Preset
+# name_zh: 渲染预设
+# translator: KeshiMiao
+# category: Render
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: manage_presets.py:677
+msgid "Are you sure ?"
+msgstr "确定吗？"
+
+#: addon_prefs.py:8
+msgid "BPM preferences folder"
+msgstr "BPM 偏好设置文件夹"
+
+#: manage_presets.py:271
+msgid "Categories"
+msgstr "类别"
+
+#: manage_presets.py:271
+msgid "Categories to get properties from"
+msgstr "从中获取属性的类别"
+
+#: manage_presets.py:364
+msgid "Create Render Preset"
+msgstr "创建渲染预设"
+
+#: manage_presets.py:68
+msgid "Enum Property"
+msgstr "枚举属性"
+
+#: addon_prefs.py:26
+msgid "Infos"
+msgstr "信息"
+
+#: manage_presets.py:515
+msgid "Invalid Preset File"
+msgstr "无效的预设文件"
+
+#: manage_presets.py:390
+#: manage_presets.py:501
+msgid "Invalid Preset Folder, check addon preferences"
+msgstr "无效的预设文件夹，请检查插件偏好设置"
+
+#: manage_presets.py:485
+msgid "Modify Render Preset"
+msgstr "修改渲染预设"
+
+#: manage_presets.py:297
+msgid "Name"
+msgstr "名称"
+
+#: addon_prefs.py:22
+msgid "Preference Folder"
+msgstr "偏好设置文件夹"
+
+#: manage_presets.py:276
+msgid "Preset Name"
+msgstr "预设名称"
+
+#: apply_preset.py:161
+msgid "Preset json does not exist"
+msgstr "预设 json 不存在"
+
+#: apply_preset.py:127
+msgid "Preset name missing"
+msgstr "缺少预设名称"
+
+#: apply_preset.py:98
+#: apply_preset.py:135
+msgid "Preset not valid"
+msgstr "预设无效"
+
+#: manage_presets.py:584
+msgid "Presets reloaded"
+msgstr "预设已重新加载"
+
+#: manage_presets.py:314
+msgid "Property Filters"
+msgstr "属性过滤器"
+
+#: manage_presets.py:329
+msgid "Property Value"
+msgstr "属性值"
+
+#: gui.py:18
+msgid "Render Preset"
+msgstr "渲染预设"
+
+#: manage_presets.py:709
+msgid "Render Presets Properties"
+msgstr "渲染预设属性"
+
+#: manage_presets.py:326
+msgid "Save Property"
+msgstr "保存属性"
+
+#: manage_presets.py:285
+msgid "Search"
+msgstr "搜索"
+
+#: manage_presets.py:285
+msgid "Search property in all categories"
+msgstr "在所有类别中搜索属性"
+
+#: manage_presets.py:281
+msgid "Show Unsaved Properties"
+msgstr "显示未保存的属性"
+
+#: manage_presets.py:281
+msgid "Show unsaved properties to enable them for this preset"
+msgstr "显示未保存的属性以便为此预设启用它们"
+
+#: addon_prefs.py:8
+msgid "Where BPM store global preferences"
+msgstr "BPM 存储全局偏好设置的位置"
+
+#: addon_prefs.py:35
+msgid "With preset json filepath :"
+msgstr "使用预设 json 文件路径："
+
+#: addon_prefs.py:31
+msgid "With preset name :"
+msgstr "使用预设名称："
+
+#: addon_prefs.py:27
+msgid "You can use python command to apply render presets through script :"
+msgstr "你可以使用 Python 命令通过脚本应用渲染预设："
+
+#: addon_prefs.py:36
+msgid "bpy.ops.rndrp.apply_preset_json(json_filepath=\"preset_filepath\")"
+msgstr "bpy.ops.rndrp.apply_preset_json(json_filepath=\"preset_filepath\")"
+
+#: addon_prefs.py:32
+msgid "bpy.ops.rndrp.apply_preset_name(preset_name=\"preset_name\")"
+msgstr "bpy.ops.rndrp.apply_preset_name(preset_name=\"preset_name\")"
+
+#: apply_preset.py:80
+msgctxt "Operator"
+msgid "Apply Render Preset"
+msgstr "应用渲染预设"
+
+#: apply_preset.py:111
+msgctxt "Operator"
+msgid "Apply Render Preset Name"
+msgstr "按名称应用渲染预设"
+
+#: apply_preset.py:148
+msgctxt "Operator"
+msgid "Apply Render Preset json"
+msgstr "应用渲染预设 json"
+
+#: apply_preset.py:150
+msgctxt "Operator"
+msgid "Apply json preset filepath"
+msgstr "应用 json 预设文件路径"
+
+#: apply_preset.py:113
+msgctxt "Operator"
+msgid "Apply preset from name"
+msgstr "按名称应用预设"
+
+#: apply_preset.py:82
+msgctxt "Operator"
+msgid "Apply selected preset from interface"
+msgstr "应用界面中选定的预设"
+
+#: manage_presets.py:571
+msgctxt "Operator"
+msgid "Reload Render Presets"
+msgstr "重新加载渲染预设"
+
+#: manage_presets.py:652
+msgctxt "Operator"
+msgid "Remove Render Preset"
+msgstr "移除渲染预设"

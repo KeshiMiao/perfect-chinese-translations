@@ -1,0 +1,436 @@
+# perfect-chinese: 1
+# id: pose_shape_keys
+# kind: addon
+# module: bl_ext.blender_org.pose_shape_keys
+# name: Pose Shape Keys
+# name_zh: 姿态形态键
+# translator: KeshiMiao
+# category: Rigging
+# supported_versions: >=5.0.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: ops.py:1041
+msgid ","
+msgstr ","
+
+#: symmetrize_shape_key.py:116
+msgid "-X to X"
+msgstr "-X 到 X"
+
+#: symmetrize_shape_key.py:118
+msgid "-Y to Y"
+msgstr "-Y 到 Y"
+
+#: symmetrize_shape_key.py:120
+msgid "-Z to Z"
+msgstr "-Z 到 Z"
+
+#: props.py:138
+msgid "Acion Slot"
+msgstr "动作槽"
+
+#: props.py:115
+msgid "Action"
+msgstr "动作"
+
+#: props.py:115
+msgid "Action that contains the frame that should be used when applying the stored shape as a shape key"
+msgstr "包含将存储形状应用为形态键时所使用帧的动作"
+
+#: ui_list.py:68
+msgid "Add Entry"
+msgstr "添加条目"
+
+#: symmetrize_shape_key.py:108
+msgid "All Keys"
+msgstr "所有键"
+
+#: ops.py:924
+msgid "Both"
+msgstr "两者"
+
+#: ops.py:799
+msgid "Cannot create that vertex group because it already exists!"
+msgstr "无法创建该顶点组，因为它已存在！"
+
+#: ops.py:924
+msgid "Consider the transformations of all bones, regardless of which side they're on."
+msgstr "考虑所有骨骼的变换，无论它们位于哪一侧。"
+
+#: ops.py:729
+msgid "Create New Shape Key"
+msgstr "新建形态键"
+
+#: ops.py:754
+msgid "Create New Slot"
+msgstr "新建槽"
+
+#: ops.py:747
+msgid "Create New Vertex Group"
+msgstr "新建顶点组"
+
+#: ops.py:729
+msgid "Create a new blank Shape Key to push this pose into, instead of using an existing one"
+msgstr "创建一个新的空白形态键以应用此姿势，而不是使用现有形态键"
+
+#: ops.py:747
+msgid "Create a new blank Vertex Group as a mask for this shape key, as opposed to using an existing vertex group for masking"
+msgstr "为此形态键新建一个空白顶点组作为遮罩，而不是使用现有顶点组进行遮罩"
+
+#: ops.py:1067
+msgid "Created shape key driver."
+msgstr "已创建形态键驱动器。"
+
+#: ui_list.py:98
+msgid "DOWN"
+msgstr "向下"
+
+#: ops.py:866
+msgid "Delete Shape Key"
+msgstr "删除形态键"
+
+#: ops.py:866
+msgid "Delete the underlying Shape Key"
+msgstr "删除底层形态键"
+
+#: symmetrize_shape_key.py:113
+#: ui_list.py:94
+msgid "Direction"
+msgstr "方向"
+
+#: ops.py:231
+msgid "Disable Warnings (Can be reset in Preferences)"
+msgstr "禁用警告（可在偏好设置中重置）"
+
+#: symmetrize_shape_key.py:124
+msgid "Distance threshold for matching vertex pairs in the basis shape. Lower values demand more precise symmetry from the base mesh, but will result in fewer mismatches"
+msgstr "基础形状中匹配顶点对的距离阈值。较低的值要求基础网格具有更精确的对称性，但会减少不匹配。"
+
+#: prefs.py:30
+msgid "Do not show a pop-up warning for dangerous operations"
+msgstr "不为危险操作显示弹出警告"
+
+#: ops.py:1010
+msgid "Driver will be created based on the current pose."
+msgstr "将基于当前姿势创建驱动器。"
+
+#: ops.py:925
+msgid "Exclude bones whose names indicate left-side."
+msgstr "排除名称表示左侧的骨骼。"
+
+#: ops.py:923
+msgid "Exclude bones whose names indicate right-side."
+msgstr "排除名称表示右侧的骨骼。"
+
+#: ops.py:849
+msgid "Failed to add shape key."
+msgstr "添加形态键失败。"
+
+#: props.py:48
+msgid "Flag to help keep shape key names in sync"
+msgstr "用于帮助保持形态键名称同步的标志"
+
+#: props.py:164
+msgid "Frame"
+msgstr "帧"
+
+#: props.py:164
+msgid "Frame that should be used within the selected action when applying the stored shape as a shape key"
+msgstr "将存储形状应用为形态键时，在所选动作中应使用的帧"
+
+#: ops.py:121
+msgid "Initialized Pose Key data."
+msgstr "已初始化姿势键数据。"
+
+#: ops.py:754
+msgid "Internal. Whether to assign the chosen (or created) shape key to the current slot, or to create a new one"
+msgstr "内部使用。是将所选（或新建）形态键分配到当前槽，还是新建一个槽"
+
+#: ops.py:923
+msgid "Left"
+msgstr "左侧"
+
+#: props.py:42
+msgid "Mirror X"
+msgstr "镜像 X"
+
+#: props.py:42
+msgid "Mirror the shape key on the X axis when applying the stored shape to this shape key"
+msgstr "将存储形状应用到此形态键时，沿 X 轴镜像形态键"
+
+#: ui_list.py:92
+msgid "Move Entry"
+msgstr "移动条目"
+
+#: ops.py:810
+msgid "Must provide shape key name."
+msgstr "必须提供形态键名称。"
+
+#: ops.py:68
+msgid "Must specify a name."
+msgstr "必须指定名称。"
+
+#: ops.py:52
+#: ops.py:711
+msgid "Name"
+msgstr "名称"
+
+#: ops.py:64
+msgid "Name cannot be empty."
+msgstr "名称不能为空。"
+
+#: props.py:51
+msgid "Name of the shape key to push data to"
+msgstr "要推送数据到的形态键名称"
+
+#: props.py:37
+msgid "Name of this shape key target. Should stay in sync with the displayed name and the shape key name, unless the shape key is renamed outside of our UI"
+msgstr "此形态键目标的名称。应与显示名称和形态键名称保持同步，除非在界面外重命名了形态键"
+
+#: ops.py:711
+msgid "Name to set for the new shape key"
+msgstr "为新形态键设置的名称"
+
+#: prefs.py:30
+msgid "No Danger Warning"
+msgstr "无危险警告"
+
+#: ops.py:1019
+msgid "No driving channels found."
+msgstr "未找到驱动通道。"
+
+#: ops.py:1046
+msgid "No transform channels found to drive the shape key."
+msgstr "未找到用于驱动形态键的变换通道。"
+
+#: ui.py:40
+msgid "Object must be deformed by an Armature to use Pose Keys."
+msgstr "物体必须由骨架变形才能使用姿势键。"
+
+#: ops.py:930
+msgid "Only Selected Bones"
+msgstr "仅所选骨骼"
+
+#: ops.py:930
+msgid "Only consider selected bones for the driver set-up"
+msgstr "驱动器设置仅考虑所选骨骼"
+
+#: ui.py:276
+msgid "Organize shape keys into a higher-level concept called Pose Keys. These can store vertex positions and push one shape to multiple shape keys at once, relative to existing deformation"
+msgstr "将形态键组织到称为姿势键的更高层概念中。姿势键可存储顶点位置，并相对于现有变形将一个形状同时推送到多个形态键"
+
+#: prefs.py:34
+msgid "Place Objects In Grid On Jump"
+msgstr "跳转时以网格排列物体"
+
+#: ui.py:121
+msgid "Pose Key Utilities"
+msgstr "姿势键实用工具"
+
+#: ui.py:21
+#: ui.py:276
+msgid "Pose Shape Keys"
+msgstr "姿势形态键"
+
+#: ui.py:205
+msgid "Range"
+msgstr "范围"
+
+#: ui_list.py:44
+msgid "Remove Selected Entry"
+msgstr "移除所选条目"
+
+#: ops.py:907
+msgid "Removed shape key slot."
+msgstr "已移除形态键槽。"
+
+#: prefs.py:25
+msgid "Reveal Shape Key Properties"
+msgstr "显示形态键属性"
+
+#: ops.py:925
+msgid "Right"
+msgstr "右侧"
+
+#: props.py:51
+msgid "Shape Key"
+msgstr "形态键"
+
+#: ui.py:272
+msgid "Shape Key List Type"
+msgstr "形态键列表类型"
+
+#: ui.py:136
+msgid "Shape Key Slots"
+msgstr "形态键槽"
+
+#: props.py:37
+msgid "Shape Key Target"
+msgstr "形态键目标"
+
+#: ui.py:275
+msgid "Shape Keys"
+msgstr "形态键"
+
+#: ui.py:275
+msgid "Show a flat list of shape keys"
+msgstr "显示形态键的平铺列表"
+
+#: prefs.py:25
+msgid "Show and edit the properties of the corresponding shape key"
+msgstr "显示并编辑对应形态键的属性"
+
+#: ops.py:920
+#: ops.py:1014
+msgid "Side"
+msgstr "侧"
+
+#: props.py:138
+msgid "Slot of the Action to use for the Action Constraints"
+msgstr "用于动作约束的动作槽"
+
+#: props.py:169
+msgid "Specify an object that stores the vertex position data"
+msgstr "指定存储顶点位置数据的物体"
+
+#: props.py:169
+msgid "Storage Object"
+msgstr "存储物体"
+
+#: ops.py:628
+msgid "Storage object must be in view layer."
+msgstr "存储物体必须在视图层中。"
+
+#: symmetrize_shape_key.py:108
+msgid "Symmetrize all shape keys, including Basis and disabled ones"
+msgstr "对称化所有形态键，包括 Basis 和已禁用的形态键"
+
+#: symmetrize_shape_key.py:124
+msgid "Threshold"
+msgstr "阈值"
+
+#: ui_list.py:97
+msgid "UP"
+msgstr "向上"
+
+#: ui.py:116
+msgid "Unnamed!"
+msgstr "未命名！"
+
+#: ops.py:735
+msgid "Vertex Group"
+msgstr "顶点组"
+
+#: ops.py:735
+msgid "Vertex Group to assign as the masking group of this shape key"
+msgstr "要分配为此形态键遮罩组的顶点组"
+
+#: ui.py:207
+msgid "Vertex Mask"
+msgstr "顶点遮罩"
+
+#: prefs.py:34
+msgid "When using the Jump To Storage Object operator, place the other storage objects in a grid"
+msgstr "使用跳转到存储物体操作时，将其他存储物体以网格排列"
+
+#: symmetrize_shape_key.py:117
+msgid "X to -X"
+msgstr "X 到 -X"
+
+#: symmetrize_shape_key.py:119
+msgid "Y to -Y"
+msgstr "Y 到 -Y"
+
+#: symmetrize_shape_key.py:121
+msgid "Z to -Z"
+msgstr "Z 到 -Z"
+
+#: ops.py:45
+msgctxt "Operator"
+msgid "Add Pose Shape Key"
+msgstr "添加姿势形态键"
+
+#: ops.py:691
+msgctxt "Operator"
+msgid "Add Target Shape Key"
+msgstr "添加目标形态键"
+
+#: ops.py:915
+msgctxt "Operator"
+msgid "Auto-initialize Driver"
+msgstr "自动初始化驱动器"
+
+#: ops.py:501
+msgctxt "Operator"
+msgid "Clamp Vertex Influences"
+msgstr "钳制顶点影响"
+
+#: ops.py:649
+msgctxt "Operator"
+msgid "Copy Pose Key Data"
+msgstr "复制姿势键数据"
+
+#: ops.py:90
+msgctxt "Operator"
+msgid "Initialize From Context"
+msgstr "从上下文初始化"
+
+#: ops.py:604
+msgctxt "Operator"
+msgid "Jump To Storage Object"
+msgstr "跳转到存储物体"
+
+#: ops.py:338
+msgctxt "Operator"
+msgid "Load Vertex Position Data into Shape Keys"
+msgstr "将顶点位置数据载入形态键"
+
+#: ui.py:164
+msgctxt "Operator"
+msgid "Overwrite Shape Keys"
+msgstr "覆盖形态键"
+
+#: ops.py:241
+msgctxt "Operator"
+msgid "Overwrite Storage Object"
+msgstr "覆盖存储物体"
+
+#: ops.py:557
+msgctxt "Operator"
+msgid "Place ALL Storage Objects in a Grid"
+msgstr "将所有存储物体排成网格"
+
+#: ops.py:462
+msgctxt "Operator"
+msgid "Push ALL Pose Keys into Shape Keys"
+msgstr "将所有姿势键推入形态键"
+
+#: ops.py:860
+msgctxt "Operator"
+msgid "Remove Target Shape Key"
+msgstr "移除目标形态键"
+
+#: ops.py:129
+#: ui.py:85
+msgctxt "Operator"
+msgid "Set Pose"
+msgstr "设置姿势"
+
+#: symmetrize_shape_key.py:181
+msgctxt "Operator"
+msgid "Symmetrize Active"
+msgstr "对称化活动项"
+
+#: symmetrize_shape_key.py:182
+msgctxt "Operator"
+msgid "Symmetrize All"
+msgstr "对称化全部"
+
+#: symmetrize_shape_key.py:105
+msgctxt "Operator"
+msgid "Symmetrize Shape Key"
+msgstr "对称化形态键"

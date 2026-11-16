@@ -1,0 +1,713 @@
+# perfect-chinese: 1
+# id: superduperbatchexporter
+# kind: addon
+# module: bl_ext.blender_org.SuperDuperBatchExporter
+# name: Super Duper Batch Exporter
+# name_zh: 超级批量导出
+# translator: KeshiMiao
+# category: Import-Export
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: panels.py:151
+msgid "(No objects match the filter)"
+msgstr "（没有物体匹配过滤器）"
+
+#: panels.py:14
+msgid "(invalid)"
+msgstr "（无效）"
+
+#: utils.py:330
+msgid "(no preset)"
+msgstr "（无预设）"
+
+#: preferences.py:15
+msgid "3D Viewport Header"
+msgstr "3D 视图标题栏"
+
+#: preferences.py:17
+msgid "3D Viewport Side Panel (Export Tab)"
+msgstr "3D 视图侧边栏（导出选项卡）"
+
+#: properties.py:272
+msgid "ASCII (.usda)"
+msgstr "ASCII (.usda)"
+
+#: properties.py:290
+#: properties.py:291
+msgid "ASCII Format"
+msgstr "ASCII 格式"
+
+#: properties.py:272
+msgid "ASCII Text, slow, easy to edit"
+msgstr "ASCII 文本，较慢，易于编辑"
+
+#: properties.py:240
+msgid "Active Object Index"
+msgstr "活动物体索引"
+
+#: panels.py:74
+msgid "Add-on not fully registered"
+msgstr "插件未完全注册"
+
+#: preferences.py:9
+msgid "Addon Location"
+msgstr "插件位置"
+
+#: properties.py:146
+msgid "Addon Version"
+msgstr "插件版本"
+
+#: properties.py:199
+msgid "Alembic (.abc)"
+msgstr "Alembic (.abc)"
+
+#: properties.py:376
+msgid "Apply Location"
+msgstr "应用位置"
+
+#: properties.py:335
+msgid "Apply Modifiers"
+msgstr "应用修改器"
+
+#: properties.py:380
+msgid "Apply Rotation"
+msgstr "应用旋转"
+
+#: properties.py:384
+msgid "Apply Scale"
+msgstr "应用缩放"
+
+#: properties.py:360
+msgid "Armature"
+msgstr "骨架"
+
+#: preferences.py:31
+msgid "Automatically create the export directory if it doesn't exist, without prompting"
+msgstr "如果导出目录不存在则自动创建，不提示"
+
+#: properties.py:376
+msgid "Bake the object's location into the mesh data before export"
+msgstr "导出前将物体位置烘焙到网格数据中"
+
+#: properties.py:380
+msgid "Bake the object's rotation into the mesh data before export"
+msgstr "导出前将物体旋转烘焙到网格数据中"
+
+#: properties.py:384
+msgid "Bake the object's scale into the mesh data before export"
+msgstr "导出前将物体缩放烘焙到网格数据中"
+
+#: preferences.py:21
+msgid "Base path of Directory setting, Leave empty to disable. Unique to this user prefs"
+msgstr "目录设置的基础路径，留空则禁用。仅用于此用户偏好"
+
+#: __init__.py:11
+msgid "Batch export the objects in your scene into seperate files"
+msgstr "将场景中的物体批量导出为单独文件"
+
+#: properties.py:285
+msgid "Binary (.glb)"
+msgstr "二进制 (.glb)"
+
+#: properties.py:271
+msgid "Binary Crate (default) (.usdc)"
+msgstr "二进制 Crate（默认）(.usdc)"
+
+#: properties.py:271
+msgid "Binary, fast, hard to edit"
+msgstr "二进制，较快，难以编辑"
+
+#: panels.py:28
+msgid "Blend File Name"
+msgstr "Blend 文件名"
+
+#: properties.py:363
+msgid "Camera"
+msgstr "摄像机"
+
+#: properties.py:270
+msgid "Can be either binary or ASCII\nIn Blender this exports to binary"
+msgstr "可为二进制或 ASCII\n在 Blender 中会导出为二进制"
+
+#: operators.py:614
+msgid "Cannot add the master Scene Collection."
+msgstr "无法添加主场景集合。"
+
+#: panels.py:25
+#: properties.py:113
+msgid "Collection"
+msgstr "集合"
+
+#: panels.py:26
+msgid "Collection Hierarchy"
+msgstr "集合层级"
+
+#: operators.py:620
+msgid "Collection already in list."
+msgstr "集合已在列表中。"
+
+#: properties.py:125
+msgid "Collections"
+msgstr "集合"
+
+#: properties.py:175
+msgid "Copy Dir"
+msgstr "复制目录"
+
+#: preferences.py:26
+msgid "Copy on Export"
+msgstr "导出时复制"
+
+#: properties.py:388
+msgid "Corrective Flip Normals"
+msgstr "校正翻转法线"
+
+#: properties.py:394
+msgid "Create LOD"
+msgstr "创建 LOD"
+
+#: properties.py:355
+msgid "Curve"
+msgstr "曲线"
+
+#: panels.py:29
+msgid "Date (YYYY-MM-DD)"
+msgstr "日期（YYYY-MM-DD）"
+
+#: properties.py:403
+msgid "Decimate factor for LOD 1"
+msgstr "LOD 1 的精简系数"
+
+#: properties.py:408
+msgid "Decimate factor for LOD 2"
+msgstr "LOD 2 的精简系数"
+
+#: properties.py:413
+msgid "Decimate factor for LOD 3"
+msgstr "LOD 3 的精简系数"
+
+#: properties.py:418
+msgid "Decimate factor for LOD 4"
+msgstr "LOD 4 的精简系数"
+
+#: panels.py:101
+#: properties.py:154
+msgid "Directory"
+msgstr "目录"
+
+#: properties.py:175
+msgid "Directory where export files will be copied to"
+msgstr "导出文件将复制到的目录"
+
+#: preferences.py:31
+msgid "Disable Prompt to Create Export Folders"
+msgstr "禁用创建导出文件夹提示"
+
+#: properties.py:125
+msgid "Each collection is exported into its own file"
+msgstr "每个集合导出到单独文件"
+
+#: properties.py:124
+msgid "Each object is exported separately"
+msgstr "每个物体单独导出"
+
+#: properties.py:361
+msgid "Empty"
+msgstr "空物体"
+
+#: panels.py:317
+msgid "Export"
+msgstr "导出"
+
+#: properties.py:276
+msgid "Export Animation"
+msgstr "导出动画"
+
+#: properties.py:394
+msgid "Export Levels of Details for game engines"
+msgstr "为游戏引擎导出细节级别"
+
+#: panels.py:157
+msgid "Export Settings:"
+msgstr "导出设置："
+
+#: properties.py:217
+msgid "Export each mesh together with the armature that deforms it\n(found via Armature modifier or armature parenting), so skinning\n(vertex groups / weights) is preserved.\nArmatures that deform an exported mesh are not exported as separate files"
+msgstr "导出每个网格及其变形骨架\n（通过骨架修改器或骨架父级找到），以保留蒙皮\n（顶点组/权重）。\n使导出网格变形的骨架不会作为单独文件导出"
+
+#: properties.py:234
+msgid "Export only objects added to the custom list"
+msgstr "仅导出添加到自定义列表的物体"
+
+#: properties.py:126
+msgid "Export the scene into one file\nIf Filename is empty, .blend file name is used."
+msgstr "将场景导出为一个文件\n如果文件名为空，则使用 .blend 文件名。"
+
+#: properties.py:276
+msgid "Export the scene's frame range as USD animation"
+msgstr "将场景的帧范围导出为 USD 动画"
+
+#: properties.py:162
+msgid "Export to the 'Project Directory' set in the add-on Preferences instead of the Directory above.\nThe Directory is kept and restored when switched back off.\nUse subdirectories in the file name to organise output below the project root"
+msgstr "导出到插件偏好设置中设置的“项目目录”，而不是上面的目录。\n关闭该选项时，目录会被保留并恢复。\n在文件名中使用子目录，以在项目根目录下组织输出"
+
+#: properties.py:286
+msgid "Exports the scene, geometry and textures as separate files"
+msgstr "将场景、几何体和纹理导出为单独文件"
+
+#: properties.py:241
+#: properties.py:245
+msgid "Extra Limit"
+msgstr "额外限制"
+
+#: properties.py:206
+msgid "FBX (.fbx)"
+msgstr "FBX (.fbx)"
+
+#: properties.py:181
+msgid "Filename"
+msgstr "文件名"
+
+#: properties.py:245
+msgid "Filter of objects in list, useful when collections are added to the list"
+msgstr "列表中物体的过滤器，在列表中添加集合时很有用"
+
+#: properties.py:340
+msgid "First frame to export"
+msgstr "导出的起始帧"
+
+#: properties.py:154
+msgid "Folder to place the exported files.\n'//' is relative to the .blend file"
+msgstr "放置导出文件的文件夹。\n“//”相对于 .blend 文件"
+
+#: properties.py:195
+#: properties.py:267
+msgid "Format"
+msgstr "格式"
+
+#: properties.py:345
+msgid "Frame End"
+msgstr "结束帧"
+
+#: properties.py:340
+msgid "Frame Start"
+msgstr "起始帧"
+
+#: properties.py:241
+msgid "Further limit which objects in list to export"
+msgstr "进一步限制列表中要导出的物体"
+
+#: properties.py:359
+msgid "Grease Pencil"
+msgstr "蜡笔"
+
+#: properties.py:202
+msgid "Grease Pencil as PDF (.pdf)"
+msgstr "蜡笔为 PDF (.pdf)"
+
+#: properties.py:201
+msgid "Grease Pencil as SVG (.svg)"
+msgstr "蜡笔为 SVG (.svg)"
+
+#: properties.py:398
+msgid "How many levels of detail to export"
+msgstr "要导出的细节级别数量"
+
+#: properties.py:227
+msgid "How to limit which objects are exported"
+msgstr "如何限制要导出的物体"
+
+#: __init__.py:11
+msgid "Import-Export"
+msgstr "导入-导出"
+
+#: properties.py:217
+msgid "Include Armature"
+msgstr "包含骨架"
+
+#: properties.py:256
+msgid "Index of the object currently being previewed"
+msgstr "当前预览物体的索引"
+
+#: panels.py:20
+msgid "Insert Token"
+msgstr "插入令牌"
+
+#: properties.py:403
+msgid "LOD 1 Ratio"
+msgstr "LOD 1 比例"
+
+#: properties.py:408
+msgid "LOD 2 Ratio"
+msgstr "LOD 2 比例"
+
+#: properties.py:413
+msgid "LOD 3 Ratio"
+msgstr "LOD 3 比例"
+
+#: properties.py:418
+msgid "LOD 4 Ratio"
+msgstr "LOD 4 比例"
+
+#: properties.py:362
+msgid "Lamp"
+msgstr "灯光"
+
+#: properties.py:345
+msgid "Last frame to export"
+msgstr "导出结束帧"
+
+#: panels.py:275
+msgid "Level of Detail:"
+msgstr "细节级别："
+
+#: properties.py:227
+msgid "Limit to"
+msgstr "限制为"
+
+#: properties.py:234
+msgid "List"
+msgstr "列表"
+
+#: properties.py:371
+msgid "Location"
+msgstr "位置"
+
+#: properties.py:171
+msgid "Make Copies"
+msgstr "制作副本"
+
+#: preferences.py:26
+#: properties.py:171
+msgid "Make a copy of exported files in a secondary directory"
+msgstr "在次级目录中为导出文件创建副本"
+
+#: properties.py:354
+msgid "Mesh"
+msgstr "网格"
+
+#: properties.py:357
+msgid "Metaball"
+msgstr "融球"
+
+#: properties.py:211
+msgid "Mode"
+msgstr "模式"
+
+#: properties.py:181
+msgid "Name for each exported file (without the extension).\nSupports subdirectories with '/' as a universal separator.\nUse the dropdown to insert tokens:\n$OBJ (Object), $COLL (Immediate Collection), $COLL_PATH (Full Collection Hierarchy), $SCENE (Scene), $BLEND (File Name), $DATE (YYYY-MM-DD), $TIME (HHMMSS).\nIf left blank it falls back to the object / collection / .blend name for the mode."
+msgstr "每个导出文件的名称（不含扩展名）。\n支持使用“/”作为通用分隔符的子目录。\n使用下拉菜单插入标记：\n$OBJ（物体）、$COLL（直接集合）、$COLL_PATH（完整集合层级）、$SCENE（场景）、$BLEND（文件名）、$DATE（YYYY-MM-DD）、$TIME（HHMMSS）。\n如果留空，则按模式回退到物体 / 集合 / .blend 名称。"
+
+#: operators.py:671
+msgid "No invalid entries found."
+msgstr "未找到无效条目。"
+
+#: operators.py:71
+msgid "No objects matched the filter settings."
+msgstr "没有物体匹配筛选设置。"
+
+#: operators.py:580
+msgid "No objects selected."
+msgstr "未选择物体。"
+
+#: properties.py:398
+msgid "Number of LODs"
+msgstr "LOD 数量"
+
+#: properties.py:112
+msgid "Object"
+msgstr "物体"
+
+#: panels.py:24
+msgid "Object Name"
+msgstr "物体名称"
+
+#: properties.py:350
+msgid "Object Types"
+msgstr "物体类型"
+
+#: panels.py:238
+msgid "Object Types:"
+msgstr "物体类型："
+
+#: properties.py:124
+msgid "Objects"
+msgstr "物体"
+
+#: properties.py:251
+msgid "Only renderable objects"
+msgstr "仅可渲染物体"
+
+#: properties.py:249
+msgid "Only selected objects"
+msgstr "仅选中物体"
+
+#: properties.py:250
+msgid "Only visible objects"
+msgstr "仅可见物体"
+
+#: operators.py:469
+msgid "Operation complete. No files were exported."
+msgstr "操作完成。未导出任何文件。"
+
+#: properties.py:122
+msgid "Parent Objects"
+msgstr "父级物体"
+
+#: preferences.py:15
+msgid "Place in the 3D Viewport Header (Next to View, Select, Add, etc.)"
+msgstr "放置在 3D 视图标题栏（位于视图、选择、添加等旁边）"
+
+#: preferences.py:17
+msgid "Place in the 3D Viewport's right side panel, in the Export Tab"
+msgstr "放置在 3D 视图右侧面板的“导出”选项卡中"
+
+#: preferences.py:13
+msgid "Place on Blender's Top Bar (Next to File, Edit, Render, Window, Help)"
+msgstr "放置在 Blender 顶部栏（文件、编辑、渲染、窗口、帮助旁边）"
+
+#: properties.py:270
+msgid "Plain (.usd)"
+msgstr "普通 (.usd)"
+
+#: properties.py:295
+#: properties.py:303
+msgid "Preset"
+msgstr "预设"
+
+#: properties.py:256
+msgid "Preview Index"
+msgstr "预览索引"
+
+#: preferences.py:21
+msgid "Project Directory"
+msgstr "项目目录"
+
+#: properties.py:233
+msgid "Render Enabled"
+msgstr "启用渲染"
+
+#: properties.py:251
+msgid "Renderable"
+msgstr "可渲染"
+
+#: panels.py:75
+msgid "Restart Blender to finish the update"
+msgstr "重启 Blender 以完成更新"
+
+#: properties.py:373
+msgid "Rotation"
+msgstr "旋转"
+
+#: properties.py:205
+msgid "STL (.stl)"
+msgstr "STL (.stl)"
+
+#: properties.py:122
+msgid "Same as 'Objects', but objects that are parents have their\nchildren exported along with them"
+msgstr "与“物体”相同，但作为父级的物体会将其\n子级一并导出"
+
+#: properties.py:375
+msgid "Scale"
+msgstr "缩放"
+
+#: properties.py:126
+msgid "Scene"
+msgstr "场景"
+
+#: panels.py:27
+msgid "Scene Name"
+msgstr "场景名称"
+
+#: properties.py:232
+#: properties.py:249
+msgid "Selected"
+msgstr "已选中"
+
+#: operators.py:594
+msgid "Selected objects are already in the list."
+msgstr "选中的物体已在列表中。"
+
+#: properties.py:286
+msgid "Separate (.gltf + .bin + textures)"
+msgstr "分离 (.gltf + .bin + 纹理)"
+
+#: properties.py:370
+msgid "Set Location"
+msgstr "设置位置"
+
+#: properties.py:372
+msgid "Set Rotation (XYZ Euler)"
+msgstr "设置旋转（XYZ 欧拉）"
+
+#: properties.py:374
+msgid "Set Scale"
+msgstr "设置缩放"
+
+#: panels.py:111
+msgid "Set a Project Directory in Preferences"
+msgstr "在偏好设置中设置项目目录"
+
+#: panels.py:209
+msgid "Settings:"
+msgstr "设置："
+
+#: properties.py:335
+msgid "Should the modifiers by applied onto the exported mesh?\nCan't export Shape Keys with this on"
+msgstr "是否将修改器应用到导出的网格？\n启用此项时无法导出形态键"
+
+#: properties.py:285
+msgid "Single, self-contained binary file"
+msgstr "单个自包含二进制文件"
+
+#: properties.py:204
+msgid "Stanford (.ply)"
+msgstr "Stanford (.ply)"
+
+#: __init__.py:11
+#: panels.py:318
+msgid "Super Duper Batch Exporter"
+msgstr "Super Duper Batch Exporter"
+
+#: properties.py:356
+msgid "Surface"
+msgstr "曲面"
+
+#: properties.py:358
+msgid "Text"
+msgstr "文本"
+
+#: panels.py:30
+msgid "Time (HHMMSS)"
+msgstr "时间 (HHMMSS)"
+
+#: preferences.py:13
+msgid "Top Bar"
+msgstr "顶部栏"
+
+#: panels.py:246
+msgid "Transform on Export:"
+msgstr "导出时变换："
+
+#: properties.py:200
+msgid "Universal Scene Description (.usd/.usdc/.usda)"
+msgstr "通用场景描述 (.usd/.usdc/.usda)"
+
+#: panels.py:146
+msgid "Unresolved Tokens Found"
+msgstr "发现未解析标记"
+
+#: properties.py:162
+msgid "Use Project Directory"
+msgstr "使用项目目录"
+
+#: properties.py:295
+msgid "Use export settings from a preset.\n(Create in the export settings from the File > Export > Alembic (.abc))"
+msgstr "使用预设中的导出设置。\n（在文件 > 导出 > Alembic (.abc) 的导出设置中创建）"
+
+#: properties.py:319
+msgid "Use export settings from a preset.\n(Create in the export settings from the File > Export > FBX (.fbx))"
+msgstr "使用预设中的导出设置。\n（在文件 > 导出 > FBX (.fbx) 的导出设置中创建）"
+
+#: properties.py:303
+msgid "Use export settings from a preset.\n(Create in the export settings from the File > Export > Universal Scene Description (.usd, .usdc, .usda))"
+msgstr "使用预设中的导出设置。\n（在文件 > 导出 > 通用场景描述 (.usd, .usdc, .usda) 的导出设置中创建）"
+
+#: properties.py:311
+msgid "Use export settings from a preset.\n(Create in the export settings from the File > Export > Wavefront (.obj))"
+msgstr "使用预设中的导出设置。\n（在文件 > 导出 > Wavefront (.obj) 的导出设置中创建）"
+
+#: properties.py:327
+msgid "Use export settings from a preset.\n(Create in the export settings from the File > Export > glTF (.glb/.gltf))"
+msgstr "使用预设中的导出设置。\n（在文件 > 导出 > glTF (.glb/.gltf) 的导出设置中创建）"
+
+#: properties.py:146
+msgid "Version of Super Duper Batch Exporter that last wrote these settings"
+msgstr "上次写入这些设置的 Super Duper Batch Exporter 版本"
+
+#: properties.py:231
+#: properties.py:250
+msgid "Visible"
+msgstr "可见"
+
+#: properties.py:203
+msgid "Wavefront (.obj)"
+msgstr "Wavefront (.obj)"
+
+#: properties.py:211
+msgid "What composition method to use for splitting up files"
+msgstr "拆分文件时使用的组合方式"
+
+#: properties.py:388
+msgid "When applying a negative scale, flip mesh normals so faces stay outward-facing"
+msgstr "应用负缩放时翻转网格法线，使面保持朝外"
+
+#: preferences.py:9
+msgid "Where to put the Batch Export Addon UI"
+msgstr "批处理导出插件界面的放置位置"
+
+#: properties.py:195
+msgid "Which file format to export to"
+msgstr "导出为哪种文件格式"
+
+#: properties.py:281
+msgid "Which glTF file variant to export"
+msgstr "导出哪种 glTF 文件变体"
+
+#: properties.py:350
+msgid "Which object types to export\n(NOT ALL FORMATS WILL SUPPORT THESE)"
+msgstr "要导出的物体类型\n（并非所有格式都支持这些类型）"
+
+#: properties.py:207
+msgid "glTF (.glb/.gltf)"
+msgstr "glTF (.glb/.gltf)"
+
+#: operators.py:600
+msgctxt "Operator"
+msgid "Add Collection"
+msgstr "添加集合"
+
+#: operators.py:573
+msgctxt "Operator"
+msgid "Add Selected"
+msgstr "添加选中项"
+
+#: operators.py:14
+msgctxt "Operator"
+msgid "Batch Export"
+msgstr "批量导出"
+
+#: operators.py:677
+msgctxt "Operator"
+msgid "Clear List"
+msgstr "清空列表"
+
+#: operators.py:562
+msgctxt "Operator"
+msgid "Cycle Preview"
+msgstr "循环预览"
+
+#: operators.py:701
+msgctxt "Operator"
+msgid "Insert Token"
+msgstr "插入占位符"
+
+#: operators.py:715
+msgctxt "Operator"
+msgid "Open Export Folder"
+msgstr "打开导出文件夹"
+
+#: operators.py:652
+msgctxt "Operator"
+msgid "Remove Invalid Entries"
+msgstr "移除无效条目"
+
+#: operators.py:633
+msgctxt "Operator"
+msgid "Remove from Export List"
+msgstr "从导出列表移除"

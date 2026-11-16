@@ -1,0 +1,2193 @@
+# perfect-chinese: 1
+# id: has_paint_layers
+# kind: addon
+# module: bl_ext.blender_org.has_paint_layers
+# name: HAS Paint Layers
+# name_zh: 纹理绘制图层
+# translator: KeshiMiao
+# category: Paint
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: operators.py:587
+msgid "'.HAS_' or 'HASM'"
+msgstr "'.HAS_' 或 'HASM'"
+
+#: presets.py:302
+#: presets.py:307
+msgid "A"
+msgstr "A"
+
+#: properties.py:336
+msgid "AO"
+msgstr "AO"
+
+#: bake.py:1262
+msgid "AO Distance"
+msgstr "AO 距离"
+
+#: tools.py:344
+#: tools.py:365
+msgid "Active object is not a mesh or cannot enter edit mode."
+msgstr "活动物体不是网格，或无法进入编辑模式。"
+
+#: tools.py:436
+msgid "Active object is not a mesh or is not in object mode."
+msgstr "活动物体不是网格，或不在物体模式。"
+
+#: has_enum.py:13
+msgid "Add"
+msgstr "添加"
+
+#: has_enum.py:13
+msgid "Add the layers"
+msgstr "添加图层"
+
+#: operators.py:14
+msgid "AddSubtract"
+msgstr "加减"
+
+#: operators.py:586
+msgid "Affects only data blocks that start with"
+msgstr "仅影响以此开头的数据块"
+
+#: presets.py:284
+msgid "Allowed properties: (obj), (mtl), (file), (set)"
+msgstr "允许的属性：(obj)、(mtl)、(file)、(set)"
+
+#: has_enum.py:40
+#: properties.py:16
+msgid "Alpha"
+msgstr "Alpha"
+
+#: properties.py:643
+msgid "Alpha Type"
+msgstr "Alpha 类型"
+
+#: properties.py:1030
+msgid "Alpha transparency of the cage material"
+msgstr "外壳材质的 Alpha 透明度"
+
+#: bake.py:1261
+#: has_enum.py:43
+msgid "Ambient Occlusion"
+msgstr "环境光遮蔽"
+
+#: bake.py:306
+msgid "Apply Filters For Current layer"
+msgstr "为当前图层应用滤镜"
+
+#: bake.py:307
+msgid "Apply Filters For Layer Below"
+msgstr "为下方图层应用滤镜"
+
+#: operators.py:246
+msgid "Are you sure you want to delete all layers?"
+msgstr "确定要删除所有图层吗？"
+
+#: properties.py:600
+msgid "Attached To Layer"
+msgstr "附加到图层"
+
+#: properties.py:1005
+msgid "Automatically create cage with depth offset"
+msgstr "自动创建带深度偏移的外壳"
+
+#: presets.py:306
+msgid "B"
+msgstr "B"
+
+#: properties.py:162
+msgid "B Channel"
+msgstr "B 通道"
+
+#: properties.py:728
+msgid "Bake"
+msgstr "烘焙"
+
+#: properties.py:970
+#: properties.py:977
+msgid "Bake Image Size"
+msgstr "烘焙图像尺寸"
+
+#: properties.py:891
+msgid "Bake Map"
+msgstr "烘焙贴图"
+
+#: properties.py:759
+msgid "Bake Mtl"
+msgstr "烘焙材质"
+
+#: properties.py:1038
+msgid "Bake Samples"
+msgstr "烘焙采样数"
+
+#: properties.py:881
+msgid "Bake Type"
+msgstr "烘焙类型"
+
+#: properties.py:774
+msgid "Bake height to normal"
+msgstr "将高度烘焙为法线"
+
+#: ui.py:1139
+msgid "Black"
+msgstr "黑色"
+
+#: ui.py:460
+#: ui.py:493
+msgid "Black Mask"
+msgstr "黑色遮罩"
+
+#: properties.py:1106
+msgid "Blend"
+msgstr "混合"
+
+#: properties.py:449
+#: properties.py:544
+msgid "Blend Mode"
+msgstr "混合模式"
+
+#: properties.py:449
+#: properties.py:544
+msgid "Blend mode for mixing layers"
+msgstr "用于混合图层的混合模式"
+
+#: has_enum.py:97
+msgid "Blur"
+msgstr "模糊"
+
+#: ui.py:978
+msgid "Blur Size"
+msgstr "模糊大小"
+
+#: has_enum.py:94
+msgid "Brightness Contrast"
+msgstr "亮度对比度"
+
+#: has_enum.py:24
+msgid "Burn"
+msgstr "烧灼"
+
+#: has_enum.py:24
+msgid "Burn the layers"
+msgstr "烧灼图层"
+
+#: tools.py:1163
+msgid "By Part"
+msgstr "按部件"
+
+#: tools.py:1161
+msgid "By Polygon"
+msgstr "按多边形"
+
+#: tools.py:1162
+msgid "By UV Island"
+msgstr "按 UV 孤岛"
+
+#: ui.py:266
+msgid "Cage"
+msgstr "外壳"
+
+#: properties.py:1030
+msgid "Cage Alpha"
+msgstr "外壳 Alpha"
+
+#: properties.py:1020
+msgid "Cage Color"
+msgstr "外壳颜色"
+
+#: properties.py:1012
+msgid "Cage Depth"
+msgstr "外壳深度"
+
+#: ui.py:178
+msgid "Capture scale"
+msgstr "捕获缩放"
+
+#: properties.py:155
+#: properties.py:485
+msgid "Channel"
+msgstr "通道"
+
+#: ui.py:911
+msgid "Choose Image"
+msgstr "选择图像"
+
+#: tools.py:1159
+msgid "Choose the selection mode"
+msgstr "选择选区模式"
+
+#: ui.py:63
+msgid "Cleanup HAS Data"
+msgstr "清理 HAS 数据"
+
+#: operators.py:572
+msgid "Clear Unused HAS Data"
+msgstr "清除未使用的 HAS 数据"
+
+#: properties.py:264
+#: properties.py:1108
+msgid "Clip"
+msgstr "剪贴"
+
+#: has_enum.py:48
+msgid "Closest"
+msgstr "最近"
+
+#: has_enum.py:29
+#: has_enum.py:107
+msgid "Color"
+msgstr "颜色"
+
+#: has_enum.py:89
+msgid "Color Ramp"
+msgstr "颜色渐变"
+
+#: ui.py:1281
+msgid "Color Tag"
+msgstr "颜色标签"
+
+#: properties.py:1020
+msgid "Color of the cage material"
+msgstr "外壳材质的颜色"
+
+#: properties.py:862
+msgid "Color of the plane (RGBA)"
+msgstr "平面颜色（RGBA）"
+
+#: has_enum.py:29
+msgid "Combine Color of the layers"
+msgstr "合并图层的颜色"
+
+#: has_enum.py:26
+msgid "Combine Hue of the layers"
+msgstr "合并图层的色相"
+
+#: properties.py:1143
+msgid "Combine Layers"
+msgstr "合并图层"
+
+#: has_enum.py:33
+msgid "Combine Normal"
+msgstr "合并法线"
+
+#: has_enum.py:27
+msgid "Combine Saturation of the layers"
+msgstr "合并图层的饱和度"
+
+#: has_enum.py:28
+msgid "Combine Value of the layers"
+msgstr "合并图层的明度"
+
+#: has_enum.py:33
+msgid "Combine normal blending"
+msgstr "合并法线混合"
+
+#: properties.py:821
+msgid "Combined"
+msgstr "合并后"
+
+#: properties.py:575
+msgid "Compact Layer"
+msgstr "压缩图层"
+
+#: tools.py:1074
+msgid "Could not make new image"
+msgstr "无法创建新图像"
+
+#: ui.py:963
+msgid "Create Object Normal Map before applying or exporting"
+msgstr "应用或导出前请先创建物体法线贴图"
+
+#: properties.py:713
+msgid "Create layer options"
+msgstr "创建图层选项"
+
+#: has_enum.py:49
+msgid "Cubic"
+msgstr "三次"
+
+#: bake.py:1257
+#: properties.py:337
+msgid "Curvature"
+msgstr "曲率"
+
+#: has_enum.py:55
+msgid "Curvature Map"
+msgstr "曲率贴图"
+
+#: has_enum.py:90
+msgid "Curve"
+msgstr "曲线"
+
+#: has_enum.py:44
+#: properties.py:20
+msgid "Custom"
+msgstr "自定义"
+
+#: has_enum.py:104
+msgid "Custom Filter"
+msgstr "自定义滤镜"
+
+#: has_enum.py:44
+msgid "Custom texture"
+msgstr "自定义纹理"
+
+#: has_enum.py:20
+msgid "Darken"
+msgstr "变暗"
+
+#: has_enum.py:20
+msgid "Darken the layers"
+msgstr "变暗图层"
+
+#: properties.py:210
+msgid "Default Color"
+msgstr "默认颜色"
+
+#: properties.py:756
+msgid "Default Material"
+msgstr "默认材质"
+
+#: ui.py:133
+msgid "Default Material Values"
+msgstr "默认材质值"
+
+#: properties.py:222
+msgid "Default Value"
+msgstr "默认值"
+
+#: properties.py:210
+msgid "Default color"
+msgstr "默认颜色"
+
+#: properties.py:1148
+msgid "Delete All Layers"
+msgstr "删除所有图层"
+
+#: ui.py:208
+msgid "Depth"
+msgstr "深度"
+
+#: properties.py:851
+msgid "Depth Distance"
+msgstr "深度距离"
+
+#: properties.py:731
+msgid "Depth Selection"
+msgstr "深度选择"
+
+#: properties.py:1012
+msgid "Depth offset for cage using displacement modifier"
+msgstr "使用置换修改器时笼的深度偏移"
+
+#: properties.py:811
+msgid "Description"
+msgstr "描述"
+
+#: has_enum.py:19
+msgid "Difference"
+msgstr "差值"
+
+#: has_enum.py:19
+msgid "Difference between the layers"
+msgstr "图层之间的差值"
+
+#: has_enum.py:36
+#: properties.py:12
+msgid "Diffuse"
+msgstr "漫射"
+
+#: has_enum.py:59
+msgid "Diffuse Map"
+msgstr "漫射贴图"
+
+#: properties.py:1113
+msgid "Diffuse Transparency"
+msgstr "漫射透明度"
+
+#: properties.py:812
+msgid "Directory for images used in projection"
+msgstr "投影所用图像的目录"
+
+#: properties.py:851
+msgid "Distance from the view for depth mask selection"
+msgstr "深度遮罩选择距视图的距离"
+
+#: has_enum.py:17
+msgid "Divide"
+msgstr "划分"
+
+#: has_enum.py:17
+msgid "Divide the layers"
+msgstr "划分图层"
+
+#: has_enum.py:23
+msgid "Dodge"
+msgstr "减淡"
+
+#: has_enum.py:23
+msgid "Dodge the layers"
+msgstr "减淡图层"
+
+#: operators.py:117
+#: operators.py:145
+msgid "Down"
+msgstr "向下"
+
+#: ui.py:259
+msgid "Duplicate object found, collections should have unique objects"
+msgstr "发现重复物体，集合中的物体应唯一"
+
+#: has_enum.py:39
+#: has_enum.py:60
+msgid "Emission"
+msgstr "自发光"
+
+#: ui.py:238
+msgid "Empty collection"
+msgstr "清空集合"
+
+#: properties.py:331
+msgid "Expand"
+msgstr "展开"
+
+#: properties.py:704
+msgid "Expand Actions"
+msgstr "展开操作"
+
+#: properties.py:701
+msgid "Expand Material Settings"
+msgstr "展开材质设置"
+
+#: properties.py:710
+msgid "Expand Materials"
+msgstr "展开材质"
+
+#: properties.py:707
+msgid "Expand Saving"
+msgstr "展开保存"
+
+#: ui.py:194
+msgid "External Image Editor Path:"
+msgstr "外部图像编辑器路径："
+
+#: properties.py:741
+#: ui.py:43
+msgid "File"
+msgstr "文件"
+
+#: operators.py:334
+msgid "File Path"
+msgstr "文件路径"
+
+#: has_enum.py:86
+msgid "Fill Layer"
+msgstr "填充图层"
+
+#: properties.py:398
+msgid "Filter"
+msgstr "滤镜"
+
+#: properties.py:475
+msgid "Filter Type"
+msgstr "滤镜类型"
+
+#: properties.py:485
+msgid "Filter for channel"
+msgstr "通道滤镜"
+
+#: ui.py:172
+msgid "Fix"
+msgstr "修复"
+
+#: properties.py:763
+msgid "Folder for texture export"
+msgstr "纹理导出文件夹"
+
+#: presets.py:305
+msgid "G"
+msgstr "G"
+
+#: properties.py:161
+msgid "G Channel"
+msgstr "G 通道"
+
+#: has_enum.py:93
+msgid "Gamma"
+msgstr "伽马"
+
+#: has_enum.py:109
+msgid "Generated"
+msgstr "生成"
+
+#: properties.py:444
+#: ui.py:899
+msgid "Grunge"
+msgstr "脏旧"
+
+#: presets.py:255
+msgid "HAS Export Textures"
+msgstr "HAS 导出纹理"
+
+#: __init__.py:20
+#: ui.py:11
+msgid "HAS Paint Layers"
+msgstr "HAS Paint Layers"
+
+#: ui.py:65
+msgid "HAS Set collection"
+msgstr "HAS 设置集合"
+
+#: has_enum.py:91
+msgid "HSV"
+msgstr "HSV"
+
+#: properties.py:1107
+msgid "Hashed"
+msgstr "哈希"
+
+#: properties.py:826
+msgid "Heigh"
+msgstr "高度"
+
+#: bake.py:1264
+#: has_enum.py:42
+msgid "Height"
+msgstr "高度"
+
+#: bake.py:1265
+msgid "Height Distance"
+msgstr "高度距离"
+
+#: ui.py:107
+msgid "Height Intensity"
+msgstr "高度强度"
+
+#: has_enum.py:58
+msgid "Height Map"
+msgstr "高度图"
+
+#: bake.py:1266
+msgid "Height Offset"
+msgstr "高度偏移"
+
+#: properties.py:1078
+msgid "Height instensity"
+msgstr "高度强度"
+
+#: properties.py:797
+msgid "Height of the screen grab"
+msgstr "屏幕截图高度"
+
+#: presets.py:280
+msgid "Height to Normal"
+msgstr "高度转法线"
+
+#: properties.py:734
+msgid "Hide folder"
+msgstr "隐藏文件夹"
+
+#: properties.py:995
+msgid "High Poly Object"
+msgstr "高模物体"
+
+#: ui.py:1109
+msgid "Highlights"
+msgstr "高光"
+
+#: ui.py:1116
+msgid "Histogram"
+msgstr "直方图"
+
+#: has_enum.py:26
+msgid "Hue"
+msgstr "色相"
+
+#: properties.py:393
+#: properties.py:540
+msgid "ID"
+msgstr "ID"
+
+#: ui.py:861
+msgid "ID Map"
+msgstr "ID 图"
+
+#: presets.py:186
+msgid "ID name of the menu this was called from"
+msgstr "调用此菜单的 ID 名称"
+
+#: properties.py:187
+#: properties.py:294
+msgid "Image"
+msgstr "图像"
+
+#: tools.py:792
+#: tools.py:934
+msgid "Image Index"
+msgstr "图像索引"
+
+#: properties.py:427
+#: properties.py:432
+msgid "Input"
+msgstr "输入"
+
+#: tools.py:799
+#: tools.py:945
+msgid "Invalid image index"
+msgstr "无效的图像索引"
+
+#: has_enum.py:92
+msgid "Invert"
+msgstr "反转"
+
+#: properties.py:778
+msgid "Invert G channel for Normal"
+msgstr "反转法线的 G 通道"
+
+#: ui.py:116
+msgid "Invert G in Normal"
+msgstr "反转法线中的 G"
+
+#: properties.py:810
+msgid "Label"
+msgstr "标签"
+
+#: properties.py:1140
+#: ui.py:1227
+msgid "Layer Action"
+msgstr "图层操作"
+
+#: properties.py:594
+msgid "Layer Name"
+msgstr "图层名称"
+
+#: ui.py:1211
+msgid "Layer Opacity"
+msgstr "图层不透明度"
+
+#: properties.py:615
+msgid "Layer Type"
+msgstr "图层类型"
+
+#: properties.py:594
+msgid "Layer name"
+msgstr "图层名称"
+
+#: operators.py:411
+msgid "Layer or image not found"
+msgstr "未找到图层或图像"
+
+#: properties.py:782
+msgid "LayerCombineActive"
+msgstr "LayerCombineActive"
+
+#: properties.py:737
+msgid "Layers"
+msgstr "图层"
+
+#: operators.py:254
+msgid "Layers deleted successfully."
+msgstr "图层已成功删除。"
+
+#: __init__.py:20
+msgid "Layers for texture painting"
+msgstr "纹理绘制图层"
+
+#: has_enum.py:88
+#: ui.py:936
+msgid "Levels"
+msgstr "色阶"
+
+#: has_enum.py:96
+msgid "Light"
+msgstr "亮光"
+
+#: has_enum.py:21
+msgid "Lighten"
+msgstr "变亮"
+
+#: has_enum.py:21
+msgid "Lighten the layers"
+msgstr "使图层变亮"
+
+#: has_enum.py:47
+msgid "Linear"
+msgstr "线性"
+
+#: has_enum.py:31
+msgid "Linear Light"
+msgstr "线性光"
+
+#: has_enum.py:31
+msgid "Linear light blending"
+msgstr "线性光混合"
+
+#: properties.py:1178
+msgid "Location"
+msgstr "位置"
+
+#: properties.py:1178
+msgid "Location of the camera"
+msgstr "摄像机位置"
+
+#: ui.py:1263
+msgid "Lock"
+msgstr "锁定"
+
+#: properties.py:1000
+msgid "Low Poly Object"
+msgstr "低多边形物体"
+
+#: properties.py:984
+msgid "Make the cage smooth shaded"
+msgstr "使笼体平滑着色"
+
+#: ui.py:915
+#: ui.py:1175
+msgid "Mapping"
+msgstr "映射"
+
+#: properties.py:229
+msgid "Mapping Offset X"
+msgstr "映射偏移 X"
+
+#: properties.py:235
+msgid "Mapping Offset Y"
+msgstr "映射偏移 Y"
+
+#: properties.py:251
+msgid "Mapping Rotation"
+msgstr "映射旋转"
+
+#: properties.py:241
+msgid "Mapping Scale X"
+msgstr "映射缩放 X"
+
+#: properties.py:246
+msgid "Mapping Scale Y"
+msgstr "映射缩放 Y"
+
+#: ui.py:290
+msgid "Maps"
+msgstr "贴图"
+
+#: has_enum.py:102
+msgid "Mask Generator"
+msgstr "蒙版生成器"
+
+#: ui.py:199
+msgid "Mask by depth"
+msgstr "按深度遮罩"
+
+#: properties.py:566
+msgid "MaskBase"
+msgstr "MaskBase"
+
+#: properties.py:749
+#: properties.py:1054
+msgid "Material"
+msgstr "材质"
+
+#: ui.py:91
+msgid "Material Set Name"
+msgstr "材质集名称"
+
+#: properties.py:716
+msgid "Material collection"
+msgstr "材质集合"
+
+#: ui.py:72
+msgid "Materials"
+msgstr "材质"
+
+#: presets.py:186
+msgid "Menu ID Name"
+msgstr "菜单 ID 名称"
+
+#: has_enum.py:37
+#: properties.py:13
+msgid "Metallic"
+msgstr "金属度"
+
+#: ui.py:1108
+msgid "Midtones"
+msgstr "中间调"
+
+#: has_enum.py:10
+msgid "Mix"
+msgstr "混合"
+
+#: has_enum.py:10
+msgid "Mix the layers"
+msgstr "混合图层"
+
+#: has_enum.py:14
+msgid "Multiply"
+msgstr "正片叠底"
+
+#: has_enum.py:14
+msgid "Multiply the layers"
+msgstr "对图层进行正片叠底"
+
+#: presets.py:172
+msgid "My Presets"
+msgstr "我的预设"
+
+#: properties.py:809
+msgid "Name"
+msgstr "名称"
+
+#: properties.py:637
+msgid "Name for saving texture"
+msgstr "保存纹理的名称"
+
+#: properties.py:1072
+msgid "Name of the UVs attribute"
+msgstr "UV 属性名称"
+
+#: properties.py:414
+#: properties.py:587
+msgid "Name of the node"
+msgstr "节点名称"
+
+#: bake.py:689
+#: bake.py:731
+msgid "New Height"
+msgstr "新高度"
+
+#: operators.py:399
+msgid "New Name"
+msgstr "新名称"
+
+#: bake.py:688
+#: bake.py:730
+msgid "New Width"
+msgstr "新宽度"
+
+#: ui.py:300
+msgid "No Bake Source Selected"
+msgstr "未选择烘焙源"
+
+#: bake.py:1331
+msgid "No file path specified."
+msgstr "未指定文件路径。"
+
+#: operators.py:232
+msgid "No images are modified."
+msgstr "没有图像被修改。"
+
+#: tools.py:157
+msgid "No mesh object selected"
+msgstr "未选择网格物体"
+
+#: properties.py:414
+#: properties.py:587
+msgid "Node"
+msgstr "节点"
+
+#: properties.py:44
+#: properties.py:63
+msgid "Node Name"
+msgstr "节点名称"
+
+#: properties.py:46
+#: properties.py:64
+msgid "Node Tree Name"
+msgstr "节点树名称"
+
+#: properties.py:65
+msgid "Node Type"
+msgstr "节点类型"
+
+#: has_enum.py:41
+#: properties.py:17
+msgid "Normal"
+msgstr "法线"
+
+#: presets.py:281
+msgid "Normal Invert G Channel"
+msgstr "法线反转 G 通道"
+
+#: has_enum.py:54
+msgid "Normal Map"
+msgstr "法线贴图"
+
+#: properties.py:339
+msgid "Object Normal"
+msgstr "物体法线"
+
+#: has_enum.py:56
+#: ui.py:964
+msgid "Object Normal Map"
+msgstr "物体法线贴图"
+
+#: has_enum.py:57
+msgid "Object Position Map"
+msgstr "物体位置贴图"
+
+#: ui.py:271
+#: ui.py:923
+msgid "Offset"
+msgstr "偏移"
+
+#: properties.py:298
+#: ui.py:1070
+msgid "Offset X"
+msgstr "偏移 X"
+
+#: properties.py:302
+#: ui.py:1071
+msgid "Offset Y"
+msgstr "偏移 Y"
+
+#: properties.py:461
+#: properties.py:557
+msgid "Opacity"
+msgstr "不透明度"
+
+#: properties.py:1102
+msgid "Opacity Mode"
+msgstr "不透明度模式"
+
+#: properties.py:461
+#: properties.py:557
+msgid "Opacity of the layer"
+msgstr "图层的不透明度"
+
+#: properties.py:1105
+msgid "Opaque"
+msgstr "不透明"
+
+#: tools.py:532
+msgid "Operator is already running"
+msgstr "操作符已在运行"
+
+#: tools.py:253
+msgid "Operator is already running."
+msgstr "操作符已在运行。"
+
+#: ui.py:952
+msgid "Optionally Choose Baked Map"
+msgstr "可选：选择烘焙贴图"
+
+#: has_enum.py:22
+msgid "Overlay"
+msgstr "叠加"
+
+#: has_enum.py:22
+msgid "Overlay the layers"
+msgstr "对图层进行叠加"
+
+#: presets.py:286
+msgid "Pack Images"
+msgstr "打包图像"
+
+#: __init__.py:20
+msgid "Paint"
+msgstr "绘制"
+
+#: ui.py:214
+msgid "Paint By"
+msgstr "绘制方式"
+
+#: has_enum.py:85
+#: properties.py:277
+msgid "Paint Layer"
+msgstr "绘制图层"
+
+#: tools.py:1159
+msgid "Paint Mode"
+msgstr "绘制模式"
+
+#: properties.py:725
+msgid "Paint Tools"
+msgstr "绘制工具"
+
+#: tools.py:1163
+msgid "Paint by Separate Part"
+msgstr "按分离部件绘制"
+
+#: tools.py:1162
+msgid "Paint by UV islands"
+msgstr "按 UV 孤岛绘制"
+
+#: tools.py:1161
+msgid "Paint by individual polygons"
+msgstr "按单独多边形绘制"
+
+#: has_enum.py:11
+msgid "Pass through"
+msgstr "穿透"
+
+#: has_enum.py:11
+msgid "Passthrough"
+msgstr "穿透"
+
+#: operators.py:334
+msgid "Path to the image file"
+msgstr "图像文件路径"
+
+#: properties.py:862
+msgid "Plane Color"
+msgstr "平面颜色"
+
+#: properties.py:871
+msgid "Plane Size"
+msgstr "平面大小"
+
+#: properties.py:338
+msgid "Position"
+msgstr "位置"
+
+#: properties.py:753
+msgid "Preferences"
+msgstr "偏好设置"
+
+#: properties.py:769
+msgid "Prefix"
+msgstr "前缀"
+
+#: properties.py:769
+msgid "Prefix that will be used for exporting textures"
+msgstr "用于导出纹理的前缀"
+
+#: properties.py:818
+msgid "Preview Mode"
+msgstr "预览模式"
+
+#: properties.py:1065
+msgid "Principled BSDF"
+msgstr "原理化 BSDF"
+
+#: properties.py:279
+#: properties.py:289
+msgid "Procedural"
+msgstr "程序化"
+
+#: properties.py:719
+msgid "Projection"
+msgstr "投影"
+
+#: properties.py:722
+msgid "QuickEdit"
+msgstr "快速编辑"
+
+#: presets.py:304
+#: presets.py:309
+msgid "R"
+msgstr "R"
+
+#: properties.py:160
+msgid "R Channel"
+msgstr "R 通道"
+
+#: properties.py:649
+msgid "R+G+B+A"
+msgstr "R+G+B+A"
+
+#: presets.py:297
+#: presets.py:301
+msgid "RGB"
+msgstr "RGB"
+
+#: properties.py:648
+msgid "RGB+A"
+msgstr "RGB+A"
+
+#: presets.py:299
+#: properties.py:647
+msgid "RGBA"
+msgstr "RGBA"
+
+#: operators.py:205
+msgid "Recommended for precise color output."
+msgstr "建议用于精确的颜色输出。"
+
+#: tools.py:597
+msgid "Region selected is too small"
+msgstr "所选区域太小"
+
+#: ui.py:68
+msgid "Registered Materials"
+msgstr "已注册材质"
+
+#: operators.py:575
+msgid "Remove All HAS Data"
+msgstr "移除所有 HAS 数据"
+
+#: properties.py:1148
+msgid "Remove all layers"
+msgstr "移除所有图层"
+
+#: properties.py:258
+msgid "Repeat"
+msgstr "重复"
+
+#: properties.py:262
+msgid "Repeat Texture Horizontally"
+msgstr "水平重复纹理"
+
+#: properties.py:263
+msgid "Repeat Texture Vertically"
+msgstr "垂直重复纹理"
+
+#: properties.py:261
+msgid "Repeat Texture in All Directions"
+msgstr "在所有方向重复纹理"
+
+#: properties.py:262
+msgid "Repeat X"
+msgstr "重复 X"
+
+#: properties.py:261
+msgid "Repeat XY"
+msgstr "重复 XY"
+
+#: properties.py:263
+msgid "Repeat Y"
+msgstr "重复 Y"
+
+#: properties.py:1144
+msgid "Resize All Layers"
+msgstr "调整所有图层大小"
+
+#: ui.py:933
+#: ui.py:1076
+msgid "Rotate"
+msgstr "旋转"
+
+#: properties.py:306
+#: properties.py:1185
+msgid "Rotation"
+msgstr "旋转"
+
+#: properties.py:1185
+msgid "Rotation of the camera"
+msgstr "摄像机旋转"
+
+#: has_enum.py:38
+#: properties.py:14
+msgid "Roughness"
+msgstr "粗糙度"
+
+#: ui.py:287
+msgid "Samples"
+msgstr "采样"
+
+#: has_enum.py:27
+msgid "Saturation"
+msgstr "饱和度"
+
+#: ui.py:1428
+msgid "Save"
+msgstr "保存"
+
+#: properties.py:637
+msgid "Save Name"
+msgstr "保存名称"
+
+#: properties.py:763
+msgid "Save Path"
+msgstr "保存路径"
+
+#: properties.py:812
+msgid "Save Projection Image Directory"
+msgstr "保存投影图像目录"
+
+#: properties.py:786
+msgid "Save textures with file"
+msgstr "随文件保存纹理"
+
+#: ui.py:928
+#: ui.py:1185
+msgid "Scale"
+msgstr "缩放"
+
+#: properties.py:310
+#: ui.py:1073
+msgid "Scale X"
+msgstr "缩放 X"
+
+#: properties.py:314
+#: ui.py:1074
+msgid "Scale Y"
+msgstr "缩放 Y"
+
+#: properties.py:790
+msgid "Scale capture scale"
+msgstr "缩放捕获比例"
+
+#: has_enum.py:16
+msgid "Screen"
+msgstr "滤色"
+
+#: properties.py:797
+#: properties.py:803
+msgid "Screen Grab Size Y"
+msgstr "屏幕捕获大小 Y"
+
+#: properties.py:790
+msgid "Screen capture scale"
+msgstr "屏幕捕获比例"
+
+#: has_enum.py:16
+msgid "Screen the layers"
+msgstr "筛选图层"
+
+#: has_enum.py:101
+msgid "Select Color"
+msgstr "选择颜色"
+
+#: ui.py:1363
+msgid "Select Filter"
+msgstr "选择筛选器"
+
+#: ui.py:94
+msgid "Select Maps"
+msgstr "选择贴图"
+
+#: properties.py:995
+msgid "Select the high poly object"
+msgstr "选择高模物体"
+
+#: properties.py:1000
+msgid "Select the low poly object"
+msgstr "选择低模物体"
+
+#: __init__.py:53
+msgid "Selected Texture"
+msgstr "选定纹理"
+
+#: tools.py:301
+msgid "Selection coordinates are not set properly."
+msgstr "选择坐标设置不正确。"
+
+#: has_enum.py:100
+msgid "Separate RGB"
+msgstr "分离 RGB"
+
+#: operators.py:193
+msgid "Set View Transform to 'Standart'"
+msgstr "将视图变换设置为“Standard”"
+
+#: properties.py:1058
+msgid "Set name"
+msgstr "设置名称"
+
+#: ui.py:71
+msgid "Set names"
+msgstr "设置名称"
+
+#: properties.py:403
+#: ui.py:286
+msgid "Settings"
+msgstr "设置"
+
+#: properties.py:1146
+msgid "Setup Scene"
+msgstr "设置场景"
+
+#: properties.py:1146
+msgid "Setup current scene"
+msgstr "设置当前场景"
+
+#: properties.py:1062
+#: ui.py:98
+msgid "Shader Type"
+msgstr "着色器类型"
+
+#: has_enum.py:107
+#: has_enum.py:108
+msgid "ShaderNodeAmbientOcclusion"
+msgstr "ShaderNodeAmbientOcclusion"
+
+#: has_enum.py:94
+msgid "ShaderNodeBrightContrast"
+msgstr "ShaderNodeBrightContrast"
+
+#: has_enum.py:93
+msgid "ShaderNodeGamma"
+msgstr "ShaderNodeGamma"
+
+#: has_enum.py:86
+#: has_enum.py:88
+msgid "ShaderNodeGroup"
+msgstr "ShaderNodeGroup"
+
+#: has_enum.py:91
+msgid "ShaderNodeHueSaturation"
+msgstr "ShaderNodeHueSaturation"
+
+#: has_enum.py:92
+msgid "ShaderNodeInvert"
+msgstr "ShaderNodeInvert"
+
+#: has_enum.py:90
+msgid "ShaderNodeRGBCurve"
+msgstr "ShaderNodeRGBCurve"
+
+#: has_enum.py:100
+msgid "ShaderNodeSeparateRGB"
+msgstr "ShaderNodeSeparateRGB"
+
+#: has_enum.py:109
+msgid "ShaderNodeTexCoord"
+msgstr "ShaderNodeTexCoord"
+
+#: has_enum.py:85
+msgid "ShaderNodeTexImage"
+msgstr "ShaderNodeTexImage"
+
+#: has_enum.py:89
+msgid "ShaderNodeValToRGB"
+msgstr "ShaderNodeValToRGB"
+
+#: ui.py:1107
+msgid "Shadows"
+msgstr "阴影"
+
+#: properties.py:857
+msgid "Show Plane"
+msgstr "显示平面"
+
+#: properties.py:606
+msgid "ShowFilters"
+msgstr "显示滤镜"
+
+#: ui.py:202
+#: ui.py:276
+msgid "Size"
+msgstr "尺寸"
+
+#: properties.py:970
+#: properties.py:977
+msgid "Size of the bake image for all maps"
+msgstr "所有贴图烘焙图像的尺寸"
+
+#: properties.py:1087
+#: properties.py:1094
+msgid "Size of the new texture"
+msgstr "新纹理的尺寸"
+
+#: properties.py:871
+msgid "Size of the plane"
+msgstr "平面的尺寸"
+
+#: has_enum.py:50
+msgid "Smart"
+msgstr "智能"
+
+#: properties.py:984
+#: ui.py:269
+msgid "Smooth Cage"
+msgstr "平滑罩体"
+
+#: bake.py:1259
+msgid "Smooth Subdiv"
+msgstr "平滑细分"
+
+#: has_enum.py:98
+msgid "Snapshot"
+msgstr "快照"
+
+#: properties.py:45
+msgid "Socket Name"
+msgstr "插槽名称"
+
+#: has_enum.py:30
+msgid "Soft Light"
+msgstr "柔光"
+
+#: has_enum.py:30
+msgid "Soft light blending"
+msgstr "柔光混合"
+
+#: bake.py:1258
+msgid "Subdivide"
+msgstr "细分"
+
+#: has_enum.py:15
+msgid "Subtract"
+msgstr "减去"
+
+#: has_enum.py:15
+msgid "Subtract the layers"
+msgstr "减去图层"
+
+#: operators.py:195
+msgid "Switch To Material Preview"
+msgstr "切换到材质预览"
+
+#: presets.py:273
+msgid "Template Presets"
+msgstr "模板预设"
+
+#: properties.py:278
+#: properties.py:288
+msgid "Texture"
+msgstr "纹理"
+
+#: properties.py:1087
+#: properties.py:1094
+msgid "Texture Size"
+msgstr "纹理尺寸"
+
+#: has_enum.py:40
+msgid "Texture as Alpha"
+msgstr "纹理作为 Alpha"
+
+#: has_enum.py:43
+msgid "Texture as Ambient Occlusion"
+msgstr "纹理作为环境光遮蔽"
+
+#: has_enum.py:36
+msgid "Texture as Diffuse"
+msgstr "纹理作为漫射"
+
+#: has_enum.py:39
+msgid "Texture as Emission"
+msgstr "纹理作为自发光"
+
+#: has_enum.py:42
+msgid "Texture as Height"
+msgstr "纹理作为高度"
+
+#: has_enum.py:37
+msgid "Texture as Metallic"
+msgstr "纹理作为金属度"
+
+#: has_enum.py:41
+msgid "Texture as Normal"
+msgstr "纹理作为法线"
+
+#: has_enum.py:38
+msgid "Texture as Roughness"
+msgstr "纹理作为粗糙度"
+
+#: properties.py:1159
+#: ui.py:101
+msgid "Texture filtering"
+msgstr "纹理过滤"
+
+#: ui.py:123
+msgid "Texture size"
+msgstr "纹理尺寸"
+
+#: properties.py:551
+#: properties.py:654
+msgid "Texture type"
+msgstr "纹理类型"
+
+#: properties.py:274
+#: properties.py:284
+msgid "Texture use type"
+msgstr "纹理用途类型"
+
+#: properties.py:264
+msgid "Texture will be Clipped"
+msgstr "纹理将被裁剪"
+
+#: properties.py:606
+msgid "Toggle Filters Visibility"
+msgstr "切换滤镜可见性"
+
+#: properties.py:444
+msgid "Toggle Grunge settings"
+msgstr "切换 Grunge 设置"
+
+#: properties.py:403
+msgid "Toggle filter settings"
+msgstr "切换滤镜设置"
+
+#: properties.py:408
+msgid "Toggle filter visibility"
+msgstr "切换滤镜可见性"
+
+#: properties.py:569
+msgid "Toggle layer visibility"
+msgstr "切换图层可见性"
+
+#: properties.py:857
+msgid "Toggle plane visibility"
+msgstr "切换平面可见性"
+
+#: properties.py:745
+#: ui.py:147
+msgid "Tools"
+msgstr "工具"
+
+#: ui.py:110
+msgid "Transparency Mode"
+msgstr "透明模式"
+
+#: properties.py:274
+#: properties.py:284
+msgid "Type"
+msgstr "类型"
+
+#: properties.py:480
+msgid "UV"
+msgstr "UV"
+
+#: ui.py:104
+msgid "UV Channel"
+msgstr "UV 通道"
+
+#: properties.py:1072
+msgid "UVs"
+msgstr "UV"
+
+#: properties.py:1066
+msgid "Unlit"
+msgstr "无光照"
+
+#: ui.py:1263
+msgid "Unlock"
+msgstr "解锁"
+
+#: operators.py:117
+#: operators.py:145
+msgid "Up"
+msgstr "向上"
+
+#: ui.py:1434
+msgid "Use 32 bit depth"
+msgstr "使用 32 位深度"
+
+#: properties.py:1005
+msgid "Use Cage"
+msgstr "使用罩体"
+
+#: properties.py:1067
+msgid "Use Custom shader"
+msgstr "使用自定义着色器"
+
+#: ui.py:114
+msgid "Use Diffuse Alpha"
+msgstr "使用漫射 Alpha"
+
+#: properties.py:1113
+msgid "Use Diffuse alpha for opacity"
+msgstr "使用漫射 Alpha 作为不透明度"
+
+#: properties.py:569
+msgid "Use Layer"
+msgstr "使用图层"
+
+#: properties.py:1065
+msgid "Use Principled BSDF shader"
+msgstr "使用原理化 BSDF 着色器"
+
+#: properties.py:1066
+msgid "Use Unlit shader"
+msgstr "使用无光照着色器"
+
+#: has_enum.py:28
+msgid "Value"
+msgstr "值"
+
+#: tools.py:546
+msgid "View3D not found, cannot run operator"
+msgstr "未找到 3D 视图，无法运行操作"
+
+#: properties.py:408
+msgid "Visibility"
+msgstr "可见性"
+
+#: bake.py:253
+#: bake.py:303
+msgid "Warning: This operation cannot be undone."
+msgstr "警告：此操作无法撤销。"
+
+#: ui.py:1140
+msgid "White"
+msgstr "白色"
+
+#: ui.py:460
+#: ui.py:493
+msgid "White Mask"
+msgstr "白色遮罩"
+
+#: properties.py:803
+msgid "Width of the screen grab"
+msgstr "屏幕截取的宽度"
+
+#: ui.py:130
+#: ui.py:925
+msgid "X"
+msgstr "X"
+
+#: ui.py:131
+#: ui.py:926
+msgid "Y"
+msgstr "Y"
+
+#: operators.py:584
+msgid "including textures, node groups and materials"
+msgstr "包括纹理、节点组和材质"
+
+#: bake.py:1423
+msgid "stack.xml not found in the ORA file"
+msgstr "ORA 文件中未找到 stack.xml"
+
+#: operators.py:454
+#: operators.py:528
+msgctxt "Operator"
+msgid "Action"
+msgstr "动作"
+
+#: bake.py:36
+msgctxt "Operator"
+msgid "Add Bake map"
+msgstr "添加烘焙贴图"
+
+#: ui.py:1246
+msgctxt "Operator"
+msgid "Add Fill Layer"
+msgstr "添加填充图层"
+
+#: operators.py:719
+#: ui.py:1234
+msgctxt "Operator"
+msgid "Add Filter"
+msgstr "添加滤镜"
+
+#: operators.py:630
+msgctxt "Operator"
+msgid "Add HAS Image"
+msgstr "添加 HAS 图像"
+
+#: operators.py:53
+msgctxt "Operator"
+msgid "Add Layer"
+msgstr "添加图层"
+
+#: operators.py:259
+#: operators.py:293
+msgctxt "Operator"
+msgid "Add Layer To Folder"
+msgstr "添加图层到文件夹"
+
+#: ui.py:1252
+msgctxt "Operator"
+msgid "Add Mask"
+msgstr "添加遮罩"
+
+#: operators.py:751
+#: operators.py:767
+msgctxt "Operator"
+msgid "Add Mask Generator Block"
+msgstr "添加遮罩生成器块"
+
+#: ui.py:461
+#: ui.py:494
+msgctxt "Operator"
+msgid "Add Paint"
+msgstr "添加绘制"
+
+#: ui.py:1240
+msgctxt "Operator"
+msgid "Add Paint Layer"
+msgstr "添加绘制图层"
+
+#: presets.py:246
+#: presets.py:310
+msgctxt "Operator"
+msgid "Add Texture Type"
+msgstr "添加纹理类型"
+
+#: presets.py:115
+msgctxt "Operator"
+msgid "Add a preset"
+msgstr "添加预设"
+
+#: operators.py:11
+msgctxt "Operator"
+msgid "Add or subtract from texture size"
+msgstr "增加或减少纹理尺寸"
+
+#: ui.py:210
+msgctxt "Operator"
+msgid "Adjust Depth"
+msgstr "调整深度"
+
+#: tools.py:183
+msgctxt "Operator"
+msgid "Adjust Depth Distance with Mouse Movement"
+msgstr "通过鼠标移动调整深度距离"
+
+#: ui.py:975
+msgctxt "Operator"
+msgid "Apply Blur"
+msgstr "应用模糊"
+
+#: ui.py:159
+#: ui.py:316
+msgctxt "Operator"
+msgid "Bake"
+msgstr "烘焙"
+
+#: bake.py:1245
+msgctxt "Operator"
+msgid "Bake Preferences"
+msgstr "烘焙偏好设置"
+
+#: bake.py:769
+msgctxt "Operator"
+msgid "Bake Textures"
+msgstr "烘焙纹理"
+
+#: operators.py:783
+msgctxt "Operator"
+msgid "Change Filter Input/Output"
+msgstr "切换滤镜输入/输出"
+
+#: operators.py:560
+msgctxt "Operator"
+msgid "Cleanup HAS Data"
+msgstr "清理 HAS 数据"
+
+#: ui.py:1278
+msgctxt "Operator"
+msgid "Collapse Layer"
+msgstr "折叠图层"
+
+#: bake.py:246
+msgctxt "Operator"
+msgid "Collapse layer"
+msgstr "折叠图层"
+
+#: bake.py:364
+msgctxt "Operator"
+msgid "Combine All Layers"
+msgstr "合并所有图层"
+
+#: ui.py:1268
+msgctxt "Operator"
+msgid "Combine with Layer Below"
+msgstr "与下方图层合并"
+
+#: bake.py:281
+msgctxt "Operator"
+msgid "Combine with layer below"
+msgstr "与下方图层合并"
+
+#: tools.py:468
+msgctxt "Operator"
+msgid "Crop Tool"
+msgstr "裁剪工具"
+
+#: operators.py:237
+msgctxt "Operator"
+msgid "Delete layers"
+msgstr "删除图层"
+
+#: operators.py:238
+msgctxt "Operator"
+msgid "Delete layers from material"
+msgstr "从材质删除图层"
+
+#: tools.py:142
+msgctxt "Operator"
+msgid "Depth Mask Operator"
+msgstr "深度遮罩操作器"
+
+#: tools.py:469
+msgctxt "Operator"
+msgid "Draw a box to crop a screenshot"
+msgstr "绘制方框以裁剪截图"
+
+#: operators.py:309
+#: ui.py:1298
+msgctxt "Operator"
+msgid "Duplicate Layer"
+msgstr "复制图层"
+
+#: ui.py:1310
+msgctxt "Operator"
+msgid "Edit Image Properties"
+msgstr "编辑图像属性"
+
+#: presets.py:180
+msgctxt "Operator"
+msgid "Execute a Python Preset"
+msgstr "执行 Python 预设"
+
+#: ui.py:58
+msgctxt "Operator"
+msgid "Export Layers"
+msgstr "导出图层"
+
+#: bake.py:61
+#: ui.py:55
+msgctxt "Operator"
+msgid "Export Textures"
+msgstr "导出纹理"
+
+#: bake.py:1323
+msgctxt "Operator"
+msgid "Export to ORA"
+msgstr "导出为 ORA"
+
+#: ui.py:217
+msgctxt "Operator"
+msgid "Face"
+msgstr "面"
+
+#: operators.py:89
+msgctxt "Operator"
+msgid "Folder"
+msgstr "文件夹"
+
+#: operators.py:44
+msgctxt "Operator"
+msgid "Help"
+msgstr "帮助"
+
+#: ui.py:1419
+msgctxt "Operator"
+msgid "Image Info"
+msgstr "图像信息"
+
+#: ui.py:59
+msgctxt "Operator"
+msgid "Import Layers"
+msgstr "导入图层"
+
+#: bake.py:1400
+msgctxt "Operator"
+msgid "Import ORA"
+msgstr "导入 ORA"
+
+#: operators.py:74
+msgctxt "Operator"
+msgid "Isolate Image"
+msgstr "隔离图像"
+
+#: ui.py:1305
+msgctxt "Operator"
+msgid "Isolate current layer image"
+msgstr "隔离当前图层图像"
+
+#: ui.py:1215
+msgctxt "Operator"
+msgid "Layer Action"
+msgstr "图层操作"
+
+#: presets.py:277
+msgctxt "Operator"
+msgid "Load Default HAS Presets"
+msgstr "加载默认 HAS 预设"
+
+#: presets.py:13
+msgctxt "Operator"
+msgid "Load Presets"
+msgstr "加载预设"
+
+#: bake.py:1276
+msgctxt "Operator"
+msgid "Make Group From Selected"
+msgstr "从选中项创建组"
+
+#: ui.py:1387
+msgctxt "Operator"
+msgid "Map Type"
+msgstr "贴图类型"
+
+#: ui.py:95
+msgctxt "Operator"
+msgid "Maps"
+msgstr "贴图"
+
+#: operators.py:368
+msgctxt "Operator"
+msgid "Maps that will be used in material and layers"
+msgstr "将在材质和图层中使用的贴图"
+
+#: ui.py:153
+msgctxt "Operator"
+msgid "Masking"
+msgstr "遮罩"
+
+#: operators.py:140
+msgctxt "Operator"
+msgid "Move Filter"
+msgstr "移动滤镜"
+
+#: operators.py:113
+msgctxt "Operator"
+msgid "Move Layer"
+msgstr "移动图层"
+
+#: ui.py:1332
+msgctxt "Operator"
+msgid "New Image"
+msgstr "新建图像"
+
+#: ui.py:1195
+msgctxt "Operator"
+msgid "Opacity"
+msgstr "不透明度"
+
+#: ui.py:1338
+msgctxt "Operator"
+msgid "Open"
+msgstr "打开"
+
+#: operators.py:45
+msgctxt "Operator"
+msgid "Open Documentation for HAS Paint Layers"
+msgstr "打开 HAS Paint Layers 文档"
+
+#: operators.py:331
+msgctxt "Operator"
+msgid "Open Image File"
+msgstr "打开图像文件"
+
+#: tools.py:953
+msgctxt "Operator"
+msgid "Open Project Image"
+msgstr "打开项目图像"
+
+#: operators.py:332
+msgctxt "Operator"
+msgid "Open file browser to select an image"
+msgstr "打开文件浏览器以选择图像"
+
+#: operators.py:64
+msgctxt "Operator"
+msgid "PBR Layer"
+msgstr "PBR 图层"
+
+#: ui.py:156
+msgctxt "Operator"
+msgid "Paint Tools"
+msgstr "绘制工具"
+
+#: tools.py:241
+msgctxt "Operator"
+msgid "Paint by Selection"
+msgstr "按选择绘制"
+
+#: ui.py:219
+msgctxt "Operator"
+msgid "Part"
+msgstr "部件"
+
+#: ui.py:859
+msgctxt "Operator"
+msgid "Preview"
+msgstr "预览"
+
+#: tools.py:789
+#: tools.py:1124
+msgctxt "Operator"
+msgid "Project Apply"
+msgstr "应用项目"
+
+#: tools.py:1003
+msgctxt "Operator"
+msgid "Project Edit"
+msgstr "编辑项目"
+
+#: ui.py:150
+msgctxt "Operator"
+msgid "Quick Edit"
+msgstr "快速编辑"
+
+#: bake.py:1304
+msgctxt "Operator"
+msgid "Remove All Bake Objects"
+msgstr "移除所有烘焙物体"
+
+#: bake.py:48
+msgctxt "Operator"
+msgid "Remove Bake map"
+msgstr "移除烘焙贴图"
+
+#: operators.py:422
+msgctxt "Operator"
+msgid "Remove Layer"
+msgstr "移除图层"
+
+#: operators.py:656
+#: operators.py:671
+msgctxt "Operator"
+msgid "Remove Layer Filter"
+msgstr "移除图层滤镜"
+
+#: ui.py:1256
+msgctxt "Operator"
+msgid "Remove Mask"
+msgstr "移除遮罩"
+
+#: operators.py:35
+msgctxt "Operator"
+msgid "Remove Material"
+msgstr "移除材质"
+
+#: tools.py:931
+msgctxt "Operator"
+msgid "Remove Project Image"
+msgstr "移除项目图像"
+
+#: operators.py:645
+msgctxt "Operator"
+msgid "Remove Texture Type"
+msgstr "移除纹理类型"
+
+#: presets.py:150
+msgctxt "Operator"
+msgid "Remove a preset"
+msgstr "移除预设"
+
+#: ui.py:1316
+msgctxt "Operator"
+msgid "Remove layer"
+msgstr "移除图层"
+
+#: operators.py:395
+msgctxt "Operator"
+msgid "Rename Layer"
+msgstr "重命名图层"
+
+#: bake.py:683
+#: ui.py:1273
+msgctxt "Operator"
+msgid "Resize Layer"
+msgstr "调整图层大小"
+
+#: bake.py:727
+msgctxt "Operator"
+msgid "Resize Layers"
+msgstr "调整图层大小"
+
+#: ui.py:49
+msgctxt "Operator"
+msgid "Save All Textures"
+msgstr "保存所有纹理"
+
+#: operators.py:613
+msgctxt "Operator"
+msgid "Save Image"
+msgstr "保存图像"
+
+#: operators.py:223
+msgctxt "Operator"
+msgid "Save Layers"
+msgstr "保存图层"
+
+#: operators.py:224
+msgctxt "Operator"
+msgid "Save all textures"
+msgstr "保存所有纹理"
+
+#: operators.py:614
+msgctxt "Operator"
+msgid "Save the active image"
+msgstr "保存当前活动图像"
+
+#: ui.py:207
+msgctxt "Operator"
+msgid "Select By Depth"
+msgstr "按深度选择"
+
+#: ui.py:792
+#: ui.py:1352
+msgctxt "Operator"
+msgid "Select Filter"
+msgstr "选择滤镜"
+
+#: operators.py:159
+msgctxt "Operator"
+msgid "Select Texture"
+msgstr "选择纹理"
+
+#: tools.py:19
+msgctxt "Operator"
+msgid "Select erase brush"
+msgstr "选择擦除画笔"
+
+#: ui.py:176
+msgctxt "Operator"
+msgid "Select region for quick edit"
+msgstr "选择快速编辑区域"
+
+#: operators.py:367
+msgctxt "Operator"
+msgid "Select used maps"
+msgstr "选择已使用贴图"
+
+#: tools.py:974
+msgctxt "Operator"
+msgid "Set Images Folder"
+msgstr "设置图像文件夹"
+
+#: operators.py:181
+msgctxt "Operator"
+msgid "Set Standard View Transform"
+msgstr "设置标准视图变换"
+
+#: operators.py:27
+msgctxt "Operator"
+msgid "Setup Material"
+msgstr "设置材质"
+
+#: operators.py:190
+#: ui.py:353
+msgctxt "Operator"
+msgid "Setup Scene"
+msgstr "设置场景"
+
+#: ui.py:39
+#: ui.py:81
+msgctxt "Operator"
+msgid "Setup material"
+msgstr "设置材质"
+
+#: ui.py:980
+msgctxt "Operator"
+msgid "Snapshot"
+msgstr "快照"
+
+#: bake.py:426
+msgctxt "Operator"
+msgid "Snapshot Layer"
+msgstr "快照图层"
+
+#: operators.py:697
+msgctxt "Operator"
+msgid "Tab"
+msgstr "Tab"
+
+#: ui.py:218
+msgctxt "Operator"
+msgid "UV"
+msgstr "UV"
+
+#: operators.py:98
+#: operators.py:442
+msgctxt "Operator"
+msgid "Uncheck Layer"
+msgstr "取消勾选图层"
+
+#: operators.py:352
+msgctxt "Operator"
+msgid "Unlink"
+msgstr "取消链接"
+
+#: operators.py:803
+msgctxt "Operator"
+msgid "Update Histogram"
+msgstr "更新直方图"
+
+#: tools.py:32
+msgctxt "Operator"
+msgid "Use Line Stroke"
+msgstr "使用线条笔触"

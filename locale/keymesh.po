@@ -1,0 +1,895 @@
+# perfect-chinese: 1
+# id: keymesh
+# kind: addon
+# module: bl_ext.blender_org.keymesh
+# name: Keymesh
+# name_zh: 关键网格
+# translator: KeshiMiao
+# category: Animation
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: preferences.py:58
+msgid "("
+msgstr "("
+
+#: preferences.py:58
+msgid ")"
+msgstr ")"
+
+#: operators/generate_thumbnails.py:237
+#: operators/generate_thumbnails.py:271
+msgid ".blend file isn't saved"
+msgstr ".blend 文件未保存"
+
+#: properties.py:122
+msgid "Active Block Index"
+msgstr "活动块索引"
+
+#: operators/generate_thumbnails.py:46
+msgid "Active Camera"
+msgstr "活动摄像机"
+
+#: operators/bake.py:203
+msgid "Active object doesn't have modifiers"
+msgstr "活动物体没有修改器"
+
+#: operators/bake.py:211
+msgid "Active object doesn't have shape keys"
+msgstr "活动物体没有形态键"
+
+#: operators/convert.py:392
+msgid "Active object type is currently not supported by this animation method"
+msgstr "当前动画方法不支持活动物体类型"
+
+#: operators/generate_thumbnails.py:39
+msgid "All"
+msgstr "全部"
+
+#: operators/generate_thumbnails.py:93
+msgid "All Keymesh blocks already have thumbnails"
+msgstr "所有 Keymesh 块都已有缩略图"
+
+#: preferences.py:151
+msgid "Allow Inserting Keyframes in Edit Modes"
+msgstr "允许在编辑模式下插入关键帧"
+
+#: preferences.py:157
+msgid "Allow Shape Keys Support"
+msgstr "启用形态键支持"
+
+#: ui.py:49
+#: ui.py:87
+msgid "Animate"
+msgstr "动画"
+
+#: operators/bake.py:107
+msgid "Animate Visibility"
+msgstr "动画可见性"
+
+#: operators/convert.py:29
+msgid "Animated"
+msgstr "已动画"
+
+#: operators/convert.py:70
+msgid "Axis to move the duplicated objects on"
+msgstr "用于移动复制物体的轴"
+
+#: operators/insert_keyframe.py:36
+#: operators/timeline_jump.py:21
+msgid "Backward"
+msgstr "向后"
+
+#: operators/bake.py:184
+msgid "Bake Data"
+msgstr "烘焙数据"
+
+#: operators/bake.py:89
+msgid "Bake modifiers and shape key animations to Keymesh blocks.\nSelected modifiers and shape keys will be applied to every Keymesh block on the frame they're created.\n(i.e. modifiers and shape key deformations will be baked down to each block)"
+msgstr "将修改器和形态键动画烘焙到 Keymesh 块。\n所选修改器和形态键将在创建它们的帧上应用到每个 Keymesh 块。\n（即修改器和形态键变形会烘焙到每个块）"
+
+#: operators/bake.py:92
+msgid "Bake shape key animation to Keymesh blocks.\nShape keys will be applied to every Keymesh block on the frame it's created"
+msgstr "将形态键动画烘焙到 Keymesh 块。\n形态键将在其创建时的帧应用到每个 Keymesh 块"
+
+#: operators/bake.py:285
+msgid "Baked modifier(s) were not first in the stack, result may be unexpected"
+msgstr "烘焙的修改器不在堆栈首位，结果可能不符合预期"
+
+#: properties.py:76
+msgid "Block"
+msgstr "块"
+
+#: preferences.py:142
+msgid "By default remesh and symmetry properties are saved separate for each Keymesh block.\nEnabling this will ensure settings are stored on object-level, and remain when changing frames.\nNOTE: This might have slight performance impact"
+msgstr "默认情况下，重网格和对称属性会为每个 Keymesh 块单独保存。\n启用此项可确保设置存储在物体级别，并在切换帧时保留。\n注意：这可能会稍微影响性能"
+
+#: operators/frame_picker.py:54
+msgid "Cannot animate in a library overriden action. Create a local one"
+msgstr "无法在库覆盖的动作中制作动画。请创建一个本地动作"
+
+#: operators/purge.py:50
+msgid "Cannot remove unused blocks for static Keymesh objects"
+msgstr "无法为静态 Keymesh 物体移除未使用的块"
+
+#: operators/frame_picker.py:128
+msgid "Change to next Keymesh block in the grid"
+msgstr "切换到网格中的下一个 Keymesh 块"
+
+#: operators/frame_picker.py:129
+msgid "Change to previous Keymesh block in the grid"
+msgstr "切换到网格中的上一个 Keymesh 块"
+
+#: preferences.py:127
+msgid "Choose a name for the category of the Keymesh panel in the sidebar"
+msgstr "选择侧边栏中 Keymesh 面板类别的名称"
+
+#: operators/bake.py:97
+msgid "Choose modifiers that are going to be baked"
+msgstr "选择要烘焙的修改器"
+
+#: preferences.py:113
+msgid "Cmd"
+msgstr "Cmd"
+
+#: operators/convert.py:34
+msgid "Conversion Method"
+msgstr "转换方法"
+
+#: operators/bake.py:114
+msgid "Create Back-up"
+msgstr "创建备份"
+
+#: operators/convert.py:29
+msgid "Create a object for each Keymesh block and animate their visibility with\nthe chosen conversation method to faithfully recreate the Keymesh animation.\nThe result can be used in render farms, or to play the animation without the add-on."
+msgstr "为每个 Keymesh 块创建一个物体，并使用所选转换方法为其可见性制作动画，以忠实复现 Keymesh 动画。\n结果可用于渲染农场，或在没有该插件的情况下播放动画。"
+
+#: operators/convert.py:28
+msgid "Create a object for each Keymesh block."
+msgstr "为每个 Keymesh 块创建一个物体。"
+
+#: operators/convert.py:43
+msgid "Create the duplicate object with an empty object-data and the custom Geometry Nodes modifier that\nwill control the visibility of each newly created object (for each Keymesh block) with Index Switch node.Index will be exposed as an input of the modifier so that visibility can be controlled the same way.\nIn the animated mode, the index input will be keyframed to recreate the exact Keymesh animation."
+msgstr "创建一个重复物体，它使用空白物体数据和自定义几何节点修改器，\n该修改器将通过索引切换节点控制每个新建物体（对应每个 Keymesh 块）的可见性。索引将作为修改器的输入公开，以便用同样方式控制可见性。\n在动画模式下，索引输入将被设为关键帧，以精确复现 Keymesh 动画。"
+
+#: operators/generate_thumbnails.py:47
+msgid "Current Viewport"
+msgstr "当前视图"
+
+#: operators/convert.py:84
+msgid "Custom Property Name"
+msgstr "自定义属性名称"
+
+#: operators/bake.py:86
+msgid "Data to Bake"
+msgstr "要烘焙的数据"
+
+#: ui.py:190
+msgid "Debug"
+msgstr "调试"
+
+#: preferences.py:165
+msgid "Debugging Tools"
+msgstr "调试工具"
+
+#: operators/bake.py:106
+msgid "Delete"
+msgstr "删除"
+
+#: operators/frame_picker.py:85
+#: operators/frame_picker.py:126
+msgid "Direction"
+msgstr "方向"
+
+#: operators/generate_thumbnails.py:28
+msgid "Directory"
+msgstr "目录"
+
+#: operators/generate_thumbnails.py:28
+msgid "Directory to store .jpg images for generated thumbnails"
+msgstr "用于存储生成缩略图的 .jpg 图像的目录"
+
+#: properties.py:131
+msgid "Display Keymesh blocks in a grid, represented by thumbnails"
+msgstr "以缩略图网格显示 Keymesh 块"
+
+#: operators/convert.py:64
+msgid "Distance to move each object by"
+msgstr "每个物体移动的距离"
+
+#: operators/convert.py:52
+msgid "Do not create objects from Keymesh blocks that were not used in the animation"
+msgstr "不为动画中未使用的 Keymesh 块创建物体"
+
+#: operators/convert.py:59
+msgid "Do not offset new objects, keep them in the same position as the original"
+msgstr "不偏移新物体，使其保持与原始物体相同的位置"
+
+#: operators/generate_thumbnails.py:222
+msgid "Do you want to generate them?"
+msgstr "要生成它们吗？"
+
+#: operators/generate_thumbnails.py:228
+msgid "Don't Ask Me Again"
+msgstr "不再询问"
+
+#: operators/insert_keyframe.py:39
+msgid "Don't keyframe new Keymesh block when it's created"
+msgstr "创建新 Keymesh 块时不要为其插入关键帧"
+
+#: properties.py:139
+msgid "Don't show pop-up for missing Keymesh block thumbnails"
+msgstr "缺少 Keymesh 块缩略图时不显示弹窗"
+
+#: operators/convert.py:40
+msgid "Drive viewport & render visibility of each object with the custom property on the chosen object.\nIn the animated mode, the custom property will be keyframed to recreate the Keymesh animation."
+msgstr "使用所选物体上的自定义属性驱动每个物体的视图和渲染可见性。\n在动画模式下，将为自定义属性设置关键帧，以复现 Keymesh 动画。"
+
+#: operators/convert.py:40
+msgid "Driver"
+msgstr "驱动器"
+
+#: operators/convert.py:80
+msgid "Driver Object"
+msgstr "驱动器物体"
+
+#: operators/convert.py:327
+msgid "Driver object not picked. Can't create the custom property"
+msgstr "未选择驱动器物体。无法创建自定义属性"
+
+#: operators/convert.py:159
+msgid "Drivers"
+msgstr "驱动器"
+
+#: properties.py:156
+msgid "Enable Keymesh Animation"
+msgstr "启用 Keymesh 动画"
+
+#: operators/bake.py:167
+msgid "End"
+msgstr "结束"
+
+#: operators/bake.py:73
+msgid "End Frame"
+msgstr "结束帧"
+
+#: properties.py:181
+msgid "Expose an operator in the list view that allows keyframing blocks"
+msgstr "在列表视图中提供一个可为块插入关键帧的操作符"
+
+#: operators/generate_thumbnails.py:81
+msgid "Filepath wasn't provided"
+msgstr "未提供文件路径"
+
+#: operators/insert_keyframe.py:35
+#: operators/timeline_jump.py:20
+msgid "Forward"
+msgstr "向前"
+
+#: preferences.py:139
+msgid "Frame"
+msgstr "帧"
+
+#: properties.py:162
+msgid "Frame Count"
+msgstr "帧数"
+
+#: ui.py:84
+msgid "Frame Picker"
+msgstr "帧选择器"
+
+#: properties.py:131
+msgid "Frame Picker Grid View"
+msgstr "帧选择器网格视图"
+
+#: operators/bake.py:166
+msgid "Frame Start"
+msgstr "起始帧"
+
+#: ui.py:62
+#: operators/bake.py:78
+msgid "Frame Step"
+msgstr "帧步长"
+
+#: operators/convert.py:43
+#: operators/convert.py:168
+msgid "Geometry Nodes"
+msgstr "几何节点"
+
+#: operators/bake.py:103
+msgid "Handle Modifiers"
+msgstr "处理修改器"
+
+#: properties.py:102
+msgid "Has Keymesh Animation"
+msgstr "有 Keymesh 动画"
+
+#: preferences.py:194
+msgid "Hotkeys:"
+msgstr "快捷键："
+
+#: operators/convert.py:34
+msgid "How to convert the Keymesh animation into a regular Blender animation"
+msgstr "如何将 Keymesh 动画转换为常规 Blender 动画"
+
+#: preferences.py:157
+msgid "If disabled, Keymesh will delete shape keys on object. Enable if you want to mix shape keys and Keymesh animation.\nBut because shape keys are separate data-block, some issues and difficulties are expected.\nYou may experience glitching when scrubbing the timeline. Read more in documentation"
+msgstr "如果禁用，Keymesh 会删除物体上的形态键。若要混合形态键和 Keymesh 动画，请启用。\n但由于形态键是独立的数据块，预计会出现一些问题与困难。\n拖动时间轴时可能会遇到异常。请阅读文档了解更多"
+
+#: properties.py:139
+msgid "Ignore Missing Thumbnails"
+msgstr "忽略缺失的缩略图"
+
+#: operators/purge.py:27
+msgid "In All Objects"
+msgstr "在所有物体中"
+
+#: operators/convert.py:37
+msgid "In the animated mode, keyframe viewport & render visibility of each object to recreate the Keymesh animation.\nIn the static mode, nothing happens to created objects."
+msgstr "在动画模式下，为每个物体的视图和渲染可见性设置关键帧，以复现 Keymesh 动画。\n在静态模式下，不会对创建的物体执行任何操作。"
+
+#: preferences.py:138
+msgid "Index"
+msgstr "索引"
+
+#: properties.py:172
+msgid "Insert Keyframe"
+msgstr "插入关键帧"
+
+#: operators/insert_keyframe.py:36
+msgid "Insert keyframe backward by number of frames specified"
+msgstr "按指定帧数向后插入关键帧"
+
+#: operators/insert_keyframe.py:35
+msgid "Insert keyframe forward by number of frames specified"
+msgstr "按指定帧数向前插入关键帧"
+
+#: operators/insert_keyframe.py:34
+msgid "Insert keyframe on current frame"
+msgstr "在当前帧插入关键帧"
+
+#: operators/bake.py:125
+msgid "Instance Duplicates"
+msgstr "实例化副本"
+
+#: operators/timeline_jump.py:20
+msgid "Jump to next Keymesh keyframe"
+msgstr "跳至下一个 Keymesh 关键帧"
+
+#: operators/timeline_jump.py:21
+msgid "Jump to previous Keymesh keyframe"
+msgstr "跳至上一个 Keymesh 关键帧"
+
+#: properties.py:172
+msgid "Jumping forward or backwards in timeline will also keyframe the object data.\nWARNING: Jumping on the frame with existing Keymesh keyframe will overwrite it, but not delete it"
+msgstr "在时间线中向前或向后跳转也会为物体数据插入关键帧。\n警告：跳转到已有 Keymesh 关键帧的帧会覆盖它，但不会删除它"
+
+#: operators/bake.py:119
+msgid "Keep Original Object Data"
+msgstr "保留原始物体数据"
+
+#: operators/convert.py:59
+msgid "Keep Position"
+msgstr "保持位置"
+
+#: operators/bake.py:119
+msgid "Keep current object data as Keymesh block without baking animation into it.\nThis keeps overall animation working if only middle part of it is baked to Keymesh"
+msgstr "将当前物体数据保留为 Keymesh 块，而不将动画烘焙到其中。\n如果只将动画中间部分烘焙为 Keymesh，这可保持整体动画正常工作"
+
+#: ui.py:245
+msgid "Keyframe Operator"
+msgstr "关键帧操作符"
+
+#: properties.py:228
+#: properties.py:229
+msgid "Keymesh"
+msgstr "Keymesh"
+
+#: ui.py:223
+msgid "Keymesh Animation"
+msgstr "Keymesh 动画"
+
+#: properties.py:109
+#: properties.py:115
+msgid "Keymesh Blocks"
+msgstr "Keymesh 块"
+
+#: ui.py:241
+msgid "Keymesh Filters"
+msgstr "Keymesh 过滤器"
+
+#: properties.py:97
+msgid "Keymesh Object"
+msgstr "Keymesh 物体"
+
+#: ui.py:231
+msgid "Keymesh Specials"
+msgstr "Keymesh 特殊项"
+
+#: operators/initialize_handler.py:26
+msgid "Keymesh animation is disabled in scene properties"
+msgstr "Keymesh 动画已在场景属性中禁用"
+
+#: operators/generate_thumbnails.py:221
+msgid "Keymesh blocks don't have thumbnails, or they're missing"
+msgstr "Keymesh 块没有缩略图，或缩略图缺失"
+
+#: operators/generate_thumbnails.py:40
+msgid "Missing"
+msgstr "缺失"
+
+#: operators/bake.py:97
+msgid "Modifiers"
+msgstr "修改器"
+
+#: operators/bake.py:89
+msgid "Modifiers & Shape Keys"
+msgstr "修改器与形态键"
+
+#: operators/bake.py:106
+msgid "Modifiers will be completely removed from the object"
+msgstr "将从物体上完全移除修改器"
+
+#: operators/convert.py:70
+msgid "Move on Axis"
+msgstr "沿轴移动"
+
+#: properties.py:81
+msgid "Name"
+msgstr "名称"
+
+#: preferences.py:134
+msgid "Name Keymesh Blocks After..."
+msgstr "按以下方式命名 Keymesh 块..."
+
+#: operators/convert.py:84
+msgid "Name for the new integer custom property that will drive the visibility of objects"
+msgstr "用于驱动物体可见性的新整数自定义属性名称"
+
+#: operators/generate_thumbnails.py:39
+msgid "New thumbnails get generated for all Keymesh blocks, whether or not they already have one"
+msgstr "为所有 Keymesh 块生成新缩略图，无论是否已有缩略图"
+
+#: operators/frame_picker.py:128
+msgid "Next"
+msgstr "下一个"
+
+#: operators/convert.py:125
+msgid "No Keymesh animation. Only static mode available"
+msgstr "无 Keymesh 动画。仅静态模式可用"
+
+#: operators/purge.py:115
+msgid "No Keymesh blocks were removed"
+msgstr "未移除任何 Keymesh 块"
+
+#: operators/generate_thumbnails.py:159
+msgid "No active camera in the scene. Using viewport perspective instead"
+msgstr "场景中没有活动相机。改用视图透视"
+
+#: operators/bake.py:94
+msgid "No data will be baked. Operator will create 'empty' Keymesh blocks"
+msgstr "不会烘焙任何数据。操作符将创建“空” Keymesh 块"
+
+#: operators/bake.py:94
+msgid "Nothing"
+msgstr "无"
+
+#: operators/bake.py:78
+msgid "Number of frames to skip between Keymesh blocks"
+msgstr "Keymesh 块之间跳过的帧数"
+
+#: operators/convert.py:64
+#: operators/convert.py:133
+msgid "Offset"
+msgstr "偏移"
+
+#: operators/convert.py:73
+msgid "Offset on X axis"
+msgstr "X 轴偏移"
+
+#: operators/convert.py:74
+msgid "Offset on Y axis"
+msgstr "Y 轴偏移"
+
+#: operators/convert.py:75
+msgid "Offset on Z axis"
+msgstr "Z 轴偏移"
+
+#: operators/bake.py:125
+msgid "Operator will detect if some blocks are exactly the same (same shape key values, same keyframes, etc).\nIf they are, it will reuse same Keymesh block on those frames, instead of creating new one for each.\nWARNING: For complex objects this is expensive calculation and might make operator slower"
+msgstr "操作符将检测某些块是否完全相同（相同形态键值、相同关键帧等）。\n如果相同，它将在这些帧上重用同一个 Keymesh 块，而不是为每一帧创建新块。\n警告：对于复杂物体，这是高开销计算，可能会使操作符变慢"
+
+#: operators/bake.py:114
+msgid "Operator will duplicate the active object and bake animation into it, keeping current object safe"
+msgstr "操作符将复制活动物体并将动画烘焙到副本中，保持当前物体不变"
+
+#: operators/convert.py:94
+msgid "Original"
+msgstr "原始"
+
+#: preferences.py:142
+msgid "Persistent Sculpt Mode Settings"
+msgstr "持久雕刻模式设置"
+
+#: operators/generate_thumbnails.py:43
+msgid "Perspective"
+msgstr "透视"
+
+#: operators/frame_picker.py:129
+msgid "Previous"
+msgstr "上一个"
+
+#: operators/generate_thumbnails.py:248
+msgid "Regenerate Thumbnails"
+msgstr "重新生成缩略图"
+
+#: operators/convert.py:95
+msgid "Relative"
+msgstr "相对"
+
+#: operators/generate_thumbnails.py:46
+msgid "Render from active scene cameras perspective"
+msgstr "从活动场景相机视角渲染"
+
+#: operators/generate_thumbnails.py:47
+msgid "Render from current viewport perspective"
+msgstr "从当前视图视角渲染"
+
+#: preferences.py:96
+msgid "Repeat"
+msgstr "重复"
+
+#: operators/bake.py:63
+msgid "Scene Frame Range"
+msgstr "场景帧范围"
+
+#: operators/generate_thumbnails.py:36
+msgid "Select which Keymesh blocks get new thumbnails"
+msgstr "选择要为其生成新缩略图的 Keymesh 块"
+
+#: operators/generate_thumbnails.py:36
+msgid "Selection"
+msgstr "选择"
+
+#: operators/convert.py:150
+msgid "Settings"
+msgstr "设置"
+
+#: operators/bake.py:92
+msgid "Shape Keys"
+msgstr "形态键"
+
+#: properties.py:181
+msgid "Show Keyframe Button"
+msgstr "显示关键帧按钮"
+
+#: properties.py:186
+msgid "Show Usage Count"
+msgstr "显示使用次数"
+
+#: properties.py:186
+msgid "Show how many times each Keymesh block has been used in the animation (number of keyframes).\nNOTE: Calculation can be expensive in heavy scenes and it's recommended to be off"
+msgstr "显示每个 Keymesh 块在动画中的使用次数（关键帧数量）。\n注意：在复杂场景中计算开销可能较高，建议关闭"
+
+#: preferences.py:127
+msgid "Sidebar Category"
+msgstr "侧栏类别"
+
+#: operators/convert.py:37
+msgid "Simple"
+msgstr "简单"
+
+#: operators/convert.py:52
+msgid "Skip Unused Blocks"
+msgstr "跳过未使用块"
+
+#: properties.py:162
+msgid "Skip this many frames forwards or backwards when inserting keyframe"
+msgstr "插入关键帧时向前或向后跳过这么多帧"
+
+#: operators/bake.py:68
+msgid "Start Frame"
+msgstr "起始帧"
+
+#: operators/bake.py:279
+msgid "Start frame can't be higher than the end frame"
+msgstr "起始帧不能高于结束帧"
+
+#: operators/generate_thumbnails.py:248
+msgid "Start operator for generating thumbnils to render new images"
+msgstr "启动操作符以生成缩略图并渲染新图像"
+
+#: operators/convert.py:28
+msgid "Static"
+msgstr "静态"
+
+#: operators/insert_keyframe.py:39
+msgid "Static Keymesh Block"
+msgstr "静态 Keymesh 块"
+
+#: operators/bake.py:171
+msgid "Step"
+msgstr "步长"
+
+#: operators/insert_keyframe.py:34
+msgid "Still"
+msgstr "静帧"
+
+#: operators/convert.py:80
+msgid "The object which will get new the custom property that will drive the visibility of objects"
+msgstr "将添加用于驱动物体可见性的新自定义属性的物体"
+
+#: operators/convert.py:91
+msgid "The transformation of the geometry and vector outputs of Object Info nodes"
+msgstr "物体信息节点几何与矢量输出的变换"
+
+#: properties.py:86
+msgid "Thumbnail"
+msgstr "缩略图"
+
+#: operators/generate_thumbnails.py:40
+msgid "Thumbnails get generated only for Keymesh blocks with no existing thumbnails"
+msgstr "仅为没有现有缩略图的 Keymesh 块生成缩略图"
+
+#: operators/generate_thumbnails.py:119
+msgid "Thumbnails successfully generated for Keymesh blocks"
+msgstr "已成功为 Keymesh 块生成缩略图"
+
+#: operators/generate_thumbnails.py:58
+msgid "Thumbnails will be rendered with current viewport shading"
+msgstr "缩略图将使用当前视图着色方式渲染"
+
+#: ui.py:167
+msgid "Tools"
+msgstr "工具"
+
+#: operators/convert.py:91
+msgid "Transform Space"
+msgstr "变换空间"
+
+#: ui.py:246
+msgid "Usage Count"
+msgstr "使用次数"
+
+#: operators/generate_thumbnails.py:43
+msgid "Use scene camera or viewport camera. This also affects camera properties such as focal length and clipping"
+msgstr "使用场景相机或视图相机。这也会影响焦距和裁剪等相机属性"
+
+#: operators/bake.py:63
+msgid "Use scene frame range start and end"
+msgstr "使用场景帧范围的起始帧和结束帧"
+
+#: operators/bake.py:107
+msgid "Viewport and render visibility of modifiers will be animated.\nModifiers will be disabled on given frame start, and re-enabled after frame end.\nThis way object can retain existing animation before and after baked Keymesh blocks"
+msgstr "修改器的视图和渲染可见性将被动画化。\n修改器将在给定起始帧禁用，并在结束帧之后重新启用。\n这样物体可以在烘焙的 Keymesh 块之前和之后保留现有动画"
+
+#: preferences.py:151
+msgid "Warning: Because of how Blender evaluates data in edit modes, this might cause some data to be lost.\nYou will not see Keymesh animation update in edit mode no matter if this is on or off"
+msgstr "警告：由于 Blender 在编辑模式下评估数据的方式，这可能导致部分数据丢失。\n无论此选项是否开启，在编辑模式下都不会看到 Keymesh 动画更新"
+
+#: operators/bake.py:86
+msgid "What animation & deformation data to bake down to Keymesh block"
+msgstr "要烘焙到 Keymesh 块的动画和形变数据"
+
+#: operators/bake.py:103
+msgid "What to do with modifiers after they're baked into Keymesh blocks"
+msgstr "修改器烘焙进 Keymesh 块后的处理方式"
+
+#: preferences.py:134
+msgid "When creating new Keymesh blocks you can name them after index\n(i.e. order they're created in), or after the frame they were created on"
+msgstr "创建新的 Keymesh 块时，可以按索引命名\n（即创建顺序），或按创建时所处的帧命名"
+
+#: properties.py:156
+msgid "When disabled, Keymesh objects will not get updated during playback, scrubbing, or rendering"
+msgstr "禁用后，Keymesh 物体在播放、拖动时间轴或渲染时不会更新"
+
+#: preferences.py:165
+msgid "Will expose internal properties and experimental tools in UI for debugging purposes"
+msgstr "将在界面中显示内部属性和实验性工具，用于调试"
+
+#: operators/convert.py:26
+msgid "Workflow"
+msgstr "工作流程"
+
+#: operators/convert.py:73
+msgid "X"
+msgstr "X"
+
+#: operators/convert.py:74
+msgid "Y"
+msgstr "Y"
+
+#: operators/convert.py:75
+msgid "Z"
+msgstr "Z"
+
+#: operators/insert_keyframe.py:27
+msgctxt "Operator"
+msgid "Adds a new Keymesh block on active object and keyframes it.\nObject data (which is copy of previous block) gets tied to the frame.\nShift-click will create new block without keyframing it"
+msgstr "在活动物体上添加新的 Keymesh 块并为其插入关键帧。\n物体数据（上一个块的副本）将绑定到该帧。\n按住 Shift 单击将创建新块但不插入关键帧"
+
+#: operators/bake.py:57
+msgctxt "Operator"
+msgid "Bake to Keymesh"
+msgstr "烘焙为 Keymesh"
+
+#: operators/bake.py:58
+msgctxt "Operator"
+msgid "Bakes down objects animation (from modifiers, shape key, etc.) into Keymesh blocks.\nA Keymesh block will be created for each frame of the given range with animation applied."
+msgstr "将物体动画（来自修改器、形态键等）烘焙为 Keymesh 块。\n对于给定范围的每一帧，都会创建一个应用了动画的 Keymesh 块。"
+
+#: operators/generate_thumbnails.py:25
+msgctxt "Operator"
+msgid "Batch-generate thumbnails for Keymesh blocks by rendering them in the background"
+msgstr "通过在后台渲染来批量生成 Keymesh 块的缩略图"
+
+#: operators/frame_picker.py:122
+msgctxt "Operator"
+msgid "Change Active Keymesh Block"
+msgstr "更改活动 Keymesh 块"
+
+#: operators/frame_picker.py:123
+msgctxt "Operator"
+msgid "Change active keymesh block in grid view of frame picker"
+msgstr "在帧选择器的网格视图中更改活动 Keymesh 块"
+
+#: ui.py:184
+msgctxt "Operator"
+msgid "Convert to Separate Objects"
+msgstr "转换为独立物体"
+
+#: operators/convert.py:23
+msgctxt "Operator"
+msgid "Create a new object for each Keymesh block, and animate their visibility to recreate the Keymesh animation"
+msgstr "为每个 Keymesh 块创建新物体，并动画化其可见性以重现 Keymesh 动画"
+
+#: operators/join_extract.py:95
+msgctxt "Operator"
+msgid "Extract Keymesh Block"
+msgstr "提取 Keymesh 块"
+
+#: operators/generate_thumbnails.py:210
+msgctxt "Operator"
+msgid "Generate Thumbnails"
+msgstr "生成缩略图"
+
+#: operators/initialize_handler.py:12
+msgctxt "Operator"
+msgid "Initialize Keymesh Frame Handler"
+msgstr "初始化 Keymesh 帧处理器"
+
+#: ui.py:73
+#: ui.py:75
+msgctxt "Operator"
+msgid "Insert"
+msgstr "插入"
+
+#: operators/insert_keyframe.py:26
+msgctxt "Operator"
+msgid "Insert Keymesh Block"
+msgstr "插入 Keymesh 块"
+
+#: operators/interpolate.py:15
+msgctxt "Operator"
+msgid "Interpolate Between Keymesh Frames"
+msgstr "在 Keymesh 帧之间插值"
+
+#: operators/join_extract.py:23
+msgctxt "Operator"
+msgid "Join as Keymesh Blocks"
+msgstr "合并为 Keymesh 块"
+
+#: ui.py:77
+#: ui.py:79
+msgctxt "Operator"
+msgid "Jump"
+msgstr "跳转"
+
+#: operators/timeline_jump.py:15
+msgctxt "Operator"
+msgid "Jump to Next Keymesh Keyframe"
+msgstr "跳转到下一个 Keymesh 关键帧"
+
+#: operators/timeline_jump.py:16
+msgctxt "Operator"
+msgid "Jump to the next frame that has a Keymesh keyframe for the current object"
+msgstr "跳转到当前物体下一个含 Keymesh 关键帧的帧"
+
+#: operators/convert.py:22
+msgctxt "Operator"
+msgid "Keymesh Blocks to Separate Objects"
+msgstr "Keymesh 块转为独立物体"
+
+#: operators/frame_picker.py:22
+msgctxt "Operator"
+msgid "Link the selected Keymesh block to the current object and keyframe it"
+msgstr "将选中的 Keymesh 块链接到当前物体并插入关键帧"
+
+#: operators/join_extract.py:24
+msgctxt "Operator"
+msgid "Make object datas of selected objects Keymesh blocks on active object.\nWhen joining Keymesh objects all blocks of selected objects will be transferred to active Keymesh object.\nWarning: selected objects will be deleted"
+msgstr "将选中物体的物体数据设为活动物体上的 Keymesh 块。\n合并 Keymesh 物体时，选中物体的所有块都会转移到活动的 Keymesh 物体。\n警告：选中的物体将被删除"
+
+#: operators/frame_picker.py:81
+msgctxt "Operator"
+msgid "Move Keymesh Block"
+msgstr "移动 Keymesh 块"
+
+#: operators/frame_picker.py:82
+msgctxt "Operator"
+msgid "Move the active Keymesh block up or down in the frame picker"
+msgstr "在帧选择器中将活动的 Keymesh 块上移或下移"
+
+#: ui.py:162
+msgctxt "Operator"
+msgid "Next"
+msgstr "下一个"
+
+#: operators/frame_picker.py:21
+msgctxt "Operator"
+msgid "Pick Keymesh Frame"
+msgstr "选择 Keymesh 帧"
+
+#: operators/join_extract.py:96
+msgctxt "Operator"
+msgid "Pop (extract) active Keymesh block and make it separate object.\nNew object will retain modifiers, constraints, animation, and etc. but Keymesh properties will be removed.\nKeyframes for extracted block (if there are any) will be deleted from objects active action"
+msgstr "弹出（提取）活动的 Keymesh 块并将其变为独立物体。\n新物体将保留修改器、约束、动画等，但 Keymesh 属性将被移除。\n被提取块的关键帧（如果有）将从物体的活动动作中删除"
+
+#: ui.py:160
+msgctxt "Operator"
+msgid "Previous"
+msgstr "上一个"
+
+#: ui.py:237
+msgctxt "Operator"
+msgid "Purge Unused Blocks"
+msgstr "清理未使用的块"
+
+#: operators/purge.py:22
+msgctxt "Operator"
+msgid "Purge Unused Keymesh Blocks"
+msgstr "清理未使用的 Keymesh 块"
+
+#: operators/purge.py:23
+msgctxt "Operator"
+msgid "Purges all Keymesh blocks from active object that are not used in the animation.\nShift-click purges unused blocks for all Keymesh objects in the .blend file (excluding static ones)"
+msgstr "从活动物体中清理所有未在动画中使用的 Keymesh 块。\n按住 Shift 单击可清理 .blend 文件中所有 Keymesh 物体的未使用块（不包括静态的）"
+
+#: ui.py:224
+msgctxt "Operator"
+msgid "Refresh Frame Handler"
+msgstr "刷新帧处理器"
+
+#: operators/generate_thumbnails.py:243
+msgctxt "Operator"
+msgid "Refresh Keymesh Thumbnails"
+msgstr "刷新 Keymesh 缩略图"
+
+#: operators/initialize_handler.py:13
+msgctxt "Operator"
+msgid "Refresh handlers to fix Keymesh animation freezes"
+msgstr "刷新处理器以修复 Keymesh 动画卡住的问题"
+
+#: operators/generate_thumbnails.py:244
+msgctxt "Operator"
+msgid "Refresh thumbnails for Keymesh blocks to reflect updated images in UI.\nShift-Click to regenerate thumbnails (render new images) for non-linked objects"
+msgstr "刷新 Keymesh 块的缩略图，以反映界面中更新后的图像。\n按住 Shift 单击可为未链接的物体重新生成缩略图（渲染新图像）"
+
+#: operators/purge.py:125
+msgctxt "Operator"
+msgid "Remove Keymesh Block"
+msgstr "移除 Keymesh 块"
+
+#: operators/purge.py:126
+msgctxt "Operator"
+msgid "Remove selected Keymesh block and delete every keyframe associated with it"
+msgstr "移除选中的 Keymesh 块并删除与其关联的所有关键帧"
+
+#: operators/generate_thumbnails.py:24
+msgctxt "Operator"
+msgid "Render Keymesh Thumbnails"
+msgstr "渲染 Keymesh 缩略图"

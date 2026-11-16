@@ -1,0 +1,433 @@
+# perfect-chinese: 1
+# id: pcb3d_importer
+# kind: addon
+# module: bl_ext.blender_org.pcb3d_importer
+# name: PCB 3D Importer
+# name_zh: 电路板三维导入
+# translator: KeshiMiao
+# category: Import-Export
+# supported_versions: >=5.1.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: importer.py:90
+msgid "3D (deprecated)"
+msgstr "3D（已弃用）"
+
+#: importer.py:64
+#: importer.py:827
+msgid "Add Solder Joints"
+msgstr "添加焊点"
+
+#: importer.py:75
+msgid "Add solder joints to all pads"
+msgstr "为所有焊盘添加焊点"
+
+#: importer.py:75
+msgid "All"
+msgstr "全部"
+
+#: importer.py:960
+msgid "Auto Smooth"
+msgstr "自动平滑"
+
+#: mat4cad/blender/__init__.py:118
+msgid "Base"
+msgstr "基础"
+
+#: mat4cad/blender/__init__.py:126
+msgid "Bevel"
+msgstr "倒角"
+
+#: importer.py:104
+msgid "Bevel Depth (mm)"
+msgstr "倒角深度（mm）"
+
+#: materials.py:664
+msgid "Black"
+msgstr "黑色"
+
+#: materials.py:743
+msgid "Board Edge BSDF"
+msgstr "板边 BSDF"
+
+#: importer.py:942
+msgid "CUSTOM"
+msgstr "自定义"
+
+#: importer.py:79
+msgid "Center PCBs"
+msgstr "居中 PCB"
+
+#: importer.py:939
+msgid "Centimeter"
+msgstr "厘米"
+
+#: solder_joints.py:47
+msgid "Circular"
+msgstr "圆形"
+
+#: mat4cad/blender/__init__.py:119
+msgid "Color"
+msgstr "颜色"
+
+#: materials.py:277
+#: materials.py:425
+msgid "Custom"
+msgstr "自定义"
+
+#: importer.py:80
+msgid "Cut PCBs"
+msgstr "切割 PCB"
+
+#: importer.py:938
+msgid "Decimeter"
+msgstr "分米"
+
+#: importer.py:68
+msgid "Do not add any solder joints"
+msgstr "不添加任何焊点"
+
+#: materials.py:275
+msgid "ENIG"
+msgstr "沉金"
+
+#: importer.py:84
+#: importer.py:961
+msgid "Enhance Materials"
+msgstr "增强材质"
+
+#: io_scene_x3d/source/__init__.py:70
+msgid "File Path"
+msgstr "文件路径"
+
+#: importer.py:934
+msgid "File Unit"
+msgstr "文件单位"
+
+#: io_scene_x3d/source/__init__.py:435
+msgid "General"
+msgstr "常规"
+
+#: io_scene_x3d/source/__init__.py:245
+msgid "Geometry"
+msgstr "几何"
+
+#: materials.py:274
+msgid "HASL"
+msgstr "喷锡"
+
+#: solder_joints.py:45
+msgid "Hole Shape"
+msgstr "孔形状"
+
+#: solder_joints.py:50
+msgid "Hole Size"
+msgstr "孔尺寸"
+
+#: io_scene_x3d/source/__init__.py:5
+msgid "IO"
+msgstr "IO"
+
+#: io_scene_x3d/source/__init__.py:189
+msgid "Image Textures"
+msgstr "图像纹理"
+
+#: importer.py:63
+msgid "Import Components"
+msgstr "导入元件"
+
+#: importer.py:97
+msgid "Import Frontpanel (.fpnl)"
+msgstr "导入前面板（.fpnl）"
+
+#: importer.py:97
+msgid "Import the specified .fpnl file and align it (if its stacked to a pcb)."
+msgstr "导入指定的 .fpnl 文件并使其对齐（如果它堆叠在 PCB 上）。"
+
+#: io_scene_x3d/source/__init__.py:5
+msgid "Import-Export X3D, Import VRML2"
+msgstr "导入/导出 X3D，导入 VRML2"
+
+#: importer.py:941
+msgid "Inch"
+msgstr "英寸"
+
+#: io_scene_x3d/source/__init__.py:150
+msgid "Include"
+msgstr "包含"
+
+#: importer.py:958
+msgid "Join Shapes"
+msgstr "合并形状"
+
+#: solder_joints.py:67
+msgid "Location"
+msgstr "位置"
+
+#: solder_joints.py:67
+msgid "Location for the newly added object"
+msgstr "新添加物体的位置"
+
+#: mat4cad/blender/__init__.py:554
+msgid "Mat4Cad"
+msgstr "Mat4Cad"
+
+#: mat4cad/blender/__init__.py:82
+msgid "Mat4cad BSDF"
+msgstr "Mat4cad BSDF"
+
+#: mat4cad/blender/__init__.py:261
+msgid "Mat4cad Noise"
+msgstr "Mat4cad 噪波"
+
+#: mat4cad/blender/__init__.py:346
+msgid "Mat4cad Scratches"
+msgstr "Mat4cad 划痕"
+
+#: importer.py:83
+msgid "Merge Materials"
+msgstr "合并材质"
+
+#: io_scene_x3d/source/__init__.py:460
+msgid "Mesh"
+msgstr "网格"
+
+#: importer.py:937
+msgid "Meter"
+msgstr "米"
+
+#: importer.py:940
+msgid "Millimeter"
+msgstr "毫米"
+
+#: importer.py:68
+#: materials.py:276
+msgid "None"
+msgstr "无"
+
+#: importer.py:69
+msgid "Only add solder joints to footprints that have THT/SMD attributes set and that have 3D models and only to pads which have a solder paste layer (for SMD pads)"
+msgstr "仅向设置了 THT/SMD 属性且具有 3D 模型的封装添加焊点，并且仅向具有焊膏层的焊盘添加（适用于 SMD 焊盘）"
+
+#: solder_joints.py:47
+msgid "Oval"
+msgstr "椭圆"
+
+#: importer.py:85
+#: importer.py:839
+msgid "PCB Material"
+msgstr "PCB 材质"
+
+#: materials.py:964
+msgid "PCB Shader"
+msgstr "PCB 着色器"
+
+#: solder_joints.py:58
+msgid "PCB Thickness"
+msgstr "PCB 厚度"
+
+#: solder_joints.py:29
+msgid "Pad Shape"
+msgstr "焊盘形状"
+
+#: solder_joints.py:34
+msgid "Pad Size"
+msgstr "焊盘尺寸"
+
+#: solder_joints.py:24
+msgid "Pad Type"
+msgstr "焊盘类型"
+
+#: importer.py:103
+msgid "Panel Thickness (mm)"
+msgstr "面板厚度（mm）"
+
+#: materials.py:1213
+msgid "Pcb2Blender"
+msgstr "Pcb2Blender"
+
+#: importer.py:89
+msgid "Rasterized (Cycles)"
+msgstr "光栅化（Cycles）"
+
+#: solder_joints.py:31
+msgid "Rectangular"
+msgstr "矩形"
+
+#: solder_joints.py:74
+msgid "Reuse Material"
+msgstr "复用材质"
+
+#: solder_joints.py:70
+msgid "Rotation"
+msgstr "旋转"
+
+#: solder_joints.py:70
+msgid "Rotation for the newly added object"
+msgstr "新添加物体的旋转"
+
+#: solder_joints.py:41
+msgid "Roundness"
+msgstr "圆度"
+
+#: solder_joints.py:41
+msgid "Roundness of the corners of the pad"
+msgstr "焊盘拐角的圆度"
+
+#: solder_joints.py:26
+msgid "SMD"
+msgstr "SMD"
+
+#: importer.py:948
+#: io_scene_x3d/source/__init__.py:356
+msgid "Scale"
+msgstr "缩放"
+
+#: importer.py:948
+msgid "Scale value used when 'File Unit' is set to 'CUSTOM'"
+msgstr "当“文件单位”设置为“自定义”时使用的缩放值"
+
+#: importer.py:105
+msgid "Setup Orthographic Camera"
+msgstr "设置正交相机"
+
+#: solder_joints.py:29
+msgid "Shape of the pad"
+msgstr "焊盘的形状"
+
+#: solder_joints.py:45
+msgid "Shape of the through hole"
+msgstr "通孔的形状"
+
+#: materials.py:659
+msgid "Silkscreen"
+msgstr "丝印"
+
+#: materials.py:639
+msgid "Silkscreen BSDF"
+msgstr "丝印 BSDF"
+
+#: solder_joints.py:34
+msgid "Size of the pad in mm"
+msgstr "焊盘尺寸（mm）"
+
+#: solder_joints.py:50
+msgid "Size of the through hole in mm"
+msgstr "通孔尺寸（mm）"
+
+#: importer.py:69
+msgid "Smart"
+msgstr "智能"
+
+#: materials.py:861
+msgid "Solder BSDF"
+msgstr "焊锡 BSDF"
+
+#: materials.py:417
+msgid "Solder Mask"
+msgstr "阻焊层"
+
+#: materials.py:400
+msgid "Solder Mask BSDF"
+msgstr "阻焊层 BSDF"
+
+#: solder_joints.py:31
+msgid "Square"
+msgstr "方形"
+
+#: importer.py:81
+msgid "Stack PCBs"
+msgstr "堆叠 PCB"
+
+#: materials.py:270
+msgid "Surface Finish"
+msgstr "表面处理"
+
+#: materials.py:242
+msgid "Surface Finish BSDF"
+msgstr "表面处理 BSDF"
+
+#: solder_joints.py:26
+msgid "THT"
+msgstr "THT"
+
+#: importer.py:93
+msgid "Texture DPI"
+msgstr "纹理 DPI"
+
+#: solder_joints.py:58
+msgid "Thickness of the PCB in mm"
+msgstr "PCB 厚度（毫米）"
+
+#: io_scene_x3d/source/__init__.py:212
+#: io_scene_x3d/source/__init__.py:404
+msgid "Transform"
+msgstr "变换"
+
+#: importer.py:959
+msgid "Tris to Quads"
+msgstr "三角面转四边面"
+
+#: solder_joints.py:24
+msgid "Type of pad"
+msgstr "焊盘类型"
+
+#: importer.py:934
+msgid "Unit used in the input file"
+msgstr "输入文件使用的单位"
+
+#: mat4cad/blender/__init__.py:120
+msgid "Variant"
+msgstr "变体"
+
+#: io_scene_x3d/source/__init__.py:5
+msgid "Web3D X3D/VRML2 format"
+msgstr "Web3D X3D/VRML2 格式"
+
+#: materials.py:663
+msgid "White"
+msgstr "白色"
+
+#: importer.py:60
+msgctxt "Operator"
+msgid "Import .pcb3d"
+msgstr "导入 .pcb3d"
+
+#: importer.py:1088
+msgctxt "Operator"
+msgid "PCB (.pcb3d)"
+msgstr "PCB (.pcb3d)"
+
+#: io_scene_x3d/source/prefs.py:17
+msgctxt "Operator"
+msgid "Report Bug"
+msgstr "报告错误"
+
+#: io_scene_x3d/source/prefs.py:18
+msgctxt "Operator"
+msgid "Request Feature"
+msgstr "请求新功能"
+
+#: solder_joints.py:21
+msgctxt "Operator"
+msgid "Solder Joint"
+msgstr "焊点"
+
+#: io_scene_x3d/source/__init__.py:504
+msgctxt "Operator"
+msgid "X3D Extensible 3D (.x3d)"
+msgstr "X3D 可扩展 3D (.x3d)"
+
+#: io_scene_x3d/source/__init__.py:499
+msgctxt "Operator"
+msgid "X3D Extensible 3D (.x3d/.wrl)"
+msgstr "X3D 可扩展 3D (.x3d/.wrl)"
+
+#: importer.py:1093
+msgctxt "Operator"
+msgid "X3D/VRML (.x3d/.wrl) (for pcb3d)"
+msgstr "X3D/VRML (.x3d/.wrl)（用于 pcb3d）"
