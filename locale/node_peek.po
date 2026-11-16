@@ -1,0 +1,226 @@
+# perfect-chinese: 1
+# id: node_peek
+# kind: addon
+# module: bl_ext.blender_org.node_peek
+# name: Node Peek
+# name_zh: 节点预览
+# translator: KeshiMiao
+# category: Node
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:1085
+msgid "Active object has no node-based material"
+msgstr "活动物体没有基于节点的材质"
+
+#: __init__.py:135
+msgid "All Nodes"
+msgstr "所有节点"
+
+#: __init__.py:157
+msgid "Automatically normalize only RGB channels whose preview values fall outside the 0 to 1 range. In-range maps and shader previews remain unchanged"
+msgstr "仅自动归一化预览值超出 0 到 1 范围的 RGB 通道。范围内的贴图和着色器预览保持不变"
+
+#: __init__.py:149
+msgid "Cycles (recommended)"
+msgstr "Cycles（推荐）"
+
+#: __init__.py:1273
+msgid "Draw preview thumbnails in the Shader Editor. Also follows the editor's own Overlays toggle"
+msgstr "在着色器编辑器中绘制预览缩略图。同时跟随着编辑器自身的叠加层开关"
+
+#: __init__.py:151
+msgid "EEVEE (experimental)"
+msgstr "EEVEE（实验性）"
+
+#: __init__.py:1173
+msgid "Editor overlays are off"
+msgstr "编辑器叠加层已关闭"
+
+#: __init__.py:151
+msgid "Faster, but often renders black in background mode"
+msgstr "更快，但在后台模式下常渲染为黑色"
+
+#: __init__.py:1183
+msgid "Individual Preview Size"
+msgstr "单个预览大小"
+
+#: __init__.py:1041
+msgid "No previewable node selected"
+msgstr "未选择可预览的节点"
+
+#: __init__.py:17
+msgid "Node"
+msgstr "节点"
+
+#: __init__.py:17
+#: __init__.py:1148
+msgid "Node Peek"
+msgstr "Node Peek"
+
+#: __init__.py:1231
+#: __init__.py:1273
+msgid "Node Peek Previews"
+msgstr "Node Peek 预览"
+
+#: __init__.py:157
+msgid "Normalize Out-of-Range Data"
+msgstr "归一化超出范围的数据"
+
+#: __init__.py:173
+msgid "Pin previews on selected nodes: Ctrl+Shift+P"
+msgstr "在选中节点上钉住预览：Ctrl+Shift+P"
+
+#: __init__.py:122
+msgid "Pixel size of each rendered preview (higher = sharper but slower)"
+msgstr "每个渲染预览的像素尺寸（越高越清晰但越慢）"
+
+#: __init__.py:135
+msgid "Preview every compatible node in the tree"
+msgstr "预览节点树中所有兼容节点"
+
+#: __init__.py:132
+msgid "Preview the selected nodes only, plus any pinned ones. Keeps dense node trees readable"
+msgstr "仅预览选中节点以及已钉住的节点。让密集的节点树保持可读"
+
+#: __init__.py:175
+msgid "Previews follow the Shader Editor Overlays toggle"
+msgstr "预览跟随着色器编辑器叠加层开关"
+
+#: __init__.py:1091
+msgid "Re-rendering previews..."
+msgstr "正在重新渲染预览…"
+
+#: __init__.py:146
+msgid "Render Engine"
+msgstr "渲染引擎"
+
+#: __init__.py:17
+msgid "Rendered thumbnail previews above shader nodes, computed in a background process."
+msgstr "在着色器节点上方显示渲染的缩略图预览，由后台进程计算。"
+
+#: __init__.py:1213
+msgid "Rendering..."
+msgstr "正在渲染…"
+
+#: __init__.py:149
+msgid "Renders reliably in the background process"
+msgstr "在后台进程中可靠渲染"
+
+#: __init__.py:1260
+msgid "Resize previews for the selected nodes only"
+msgstr "仅调整选中节点的预览大小"
+
+#: __init__.py:1177
+msgid "Select a node to preview it"
+msgstr "选择节点以预览"
+
+#: __init__.py:1196
+msgid "Select one or more nodes"
+msgstr "选择一个或多个节点"
+
+#: __init__.py:1187
+msgid "Selected"
+msgstr "选中"
+
+#: __init__.py:132
+msgid "Selected Nodes"
+msgstr "选中节点"
+
+#: __init__.py:1260
+msgid "Selected Preview Size"
+msgstr "选中预览大小"
+
+#: __init__.py:128
+#: __init__.py:1166
+msgid "Show Previews"
+msgstr "显示预览"
+
+#: __init__.py:122
+msgid "Thumbnail Resolution"
+msgstr "缩略图分辨率"
+
+#: __init__.py:141
+msgid "Update Delay (s)"
+msgstr "更新延迟（秒）"
+
+#: __init__.py:141
+msgid "Wait this long after the last edit before re-rendering"
+msgstr "上次编辑后等待这段时间再重新渲染"
+
+#: __init__.py:128
+msgid "Which nodes get a preview thumbnail"
+msgstr "哪些节点获得预览缩略图"
+
+#: __init__.py:1210
+msgid "Worker keeps crashing — see worker.log"
+msgstr "工作进程反复崩溃 — 见 worker.log"
+
+#: __init__.py:1097
+msgctxt "Operator"
+msgid "Clear Previews"
+msgstr "清除预览"
+
+#: __init__.py:1080
+msgctxt "Operator"
+msgid "Force a re-render of all node previews, ignoring the cache"
+msgstr "强制重新渲染所有节点预览，忽略缓存"
+
+#: __init__.py:1027
+msgctxt "Operator"
+msgid "Keep the preview visible on the selected nodes even after they are deselected"
+msgstr "即使取消选择，也让选中节点上的预览保持可见"
+
+#: __init__.py:1026
+msgctxt "Operator"
+msgid "Pin Preview"
+msgstr "钉住预览"
+
+#: __init__.py:1079
+msgctxt "Operator"
+msgid "Refresh Previews"
+msgstr "刷新预览"
+
+#: __init__.py:1098
+msgctxt "Operator"
+msgid "Remove all thumbnails and empty the render cache. Previews rebuild on the next edit or Refresh"
+msgstr "移除所有缩略图并清空渲染缓存。预览将在下次编辑或刷新时重建"
+
+#: __init__.py:1065
+msgctxt "Operator"
+msgid "Remove every pinned preview"
+msgstr "移除所有钉住的预览"
+
+#: __init__.py:1199
+msgctxt "Operator"
+msgid "Reset All"
+msgstr "全部重置"
+
+#: __init__.py:1134
+msgctxt "Operator"
+msgid "Reset All Preview Sizes"
+msgstr "重置所有预览大小"
+
+#: __init__.py:1119
+msgctxt "Operator"
+msgid "Reset Selected Preview Sizes"
+msgstr "重置选中预览大小"
+
+#: __init__.py:1135
+msgctxt "Operator"
+msgid "Restore every individually resized preview to its default size"
+msgstr "将所有单独调整过大小的预览恢复为默认大小"
+
+#: __init__.py:1120
+msgctxt "Operator"
+msgid "Restore selected nodes to the default preview size"
+msgstr "将选中节点恢复为默认预览大小"
+
+#: __init__.py:1064
+msgctxt "Operator"
+msgid "Unpin All Previews"
+msgstr "取消钉住所有预览"

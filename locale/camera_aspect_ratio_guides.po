@@ -1,0 +1,1173 @@
+# perfect-chinese: 1
+# id: camera_aspect_ratio_guides
+# kind: addon
+# module: bl_ext.blender_org.camera_aspect_ratio_guides
+# name: Camera Aspect Ratio Guides
+# name_zh: 相机宽高比参考
+# translator: KeshiMiao
+# category: Camera
+# supported_versions: >=5.0.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: ui.py:347
+msgid "%d item%s from %s"
+msgstr "%d 个项目%s，来自 %s"
+
+#: ui.py:424
+msgid "%d more guide%s shown, see All Options"
+msgstr "已显示另外 %d 条参考线%s，参见「所有选项」"
+
+#: ui.py:371
+msgid "%s tints guide colors in renders"
+msgstr "%s 会在渲染中为参考线颜色着色"
+
+#: props.py:308
+msgid "100% is solid black; lower it to see through the mask"
+msgstr "100% 为纯黑；降低该值可透过遮罩看到画面"
+
+#: ui.py:598
+msgid "3D Viewport sidebar tab that shows the guide panels"
+msgstr "3D 视图侧栏标签页，用于显示参考线面板"
+
+#: props.py:30
+msgid "45° lines from every corner"
+msgstr "从每个角出发的 45° 线"
+
+#: ops.py:33
+msgid "4:3 Center-Cut Safe"
+msgstr "4:3 中心裁切安全区"
+
+#: ops.py:33
+msgid "4:3 area at 90%, for 16:9 content that may be center-cut to 4:3"
+msgstr "90% 处的 4:3 区域，用于可能被中心裁切为 4:3 的 16:9 内容"
+
+#: props.py:26
+msgid "A diagonal with lines to the golden sections (matches Blender)"
+msgstr "一条对角线及指向黄金分割点的线（与 Blender 一致）"
+
+#: props.py:25
+msgid "A diagonal with perpendiculars from the other corners (matches Blender)"
+msgstr "一条对角线及从另外两角所作的垂线（与 Blender 一致）"
+
+#: props.py:52
+msgid "A rectangle with its own aspect ratio, e.g. 4:3 inside a 16:9 frame"
+msgstr "具有自身宽高比的矩形，例如 16:9 画面内的 4:3"
+
+#: props.py:42
+msgid "Action Safe"
+msgstr "动作安全区"
+
+#: ops.py:31
+msgid "Action Safe 90% (Legacy SD)"
+msgstr "动作安全区 90%（旧版标清）"
+
+#: ops.py:29
+msgid "Action Safe 93%"
+msgstr "动作安全区 93%"
+
+#: props.py:316
+msgid "Active Frame"
+msgstr "活动画框"
+
+#: props.py:317
+msgid "Active Guide"
+msgstr "活动参考线"
+
+#: props.py:318
+msgid "Active Safe Area"
+msgstr "活动安全区"
+
+#: ui.py:113
+msgid "Add Composition Guide"
+msgstr "添加构图参考线"
+
+#: ui.py:99
+msgid "Add Frame"
+msgstr "添加画框"
+
+#: ui.py:129
+msgid "Add Safe Area"
+msgstr "添加安全区"
+
+#: ops.py:433
+msgid "Add to the existing guides instead of replacing them"
+msgstr "添加到现有参考线，而不是替换它们"
+
+#: ui.py:595
+msgid "All Options"
+msgstr "所有选项"
+
+#: props.py:38
+msgid "Alternating dashes and dots"
+msgstr "交替的短划线与点"
+
+#: props.py:20
+msgid "Any number of evenly spaced rows and columns"
+msgstr "任意数量的等距行和列"
+
+#: props.py:44
+msgid "Any other safe zone, such as platform UI margins"
+msgstr "任何其他安全区域，例如平台 UI 边距"
+
+#: ops.py:433
+msgid "Append"
+msgstr "追加"
+
+#: props.py:52
+msgid "Aspect"
+msgstr "宽高比"
+
+#: props.py:249
+msgid "Aspect Height"
+msgstr "宽高比高度"
+
+#: props.py:248
+msgid "Aspect Width"
+msgstr "宽高比宽度"
+
+#: ui.py:269
+msgid "Aspect X"
+msgstr "宽高比 X"
+
+#: __init__.py:5
+msgid "Aspect ratio frames, golden spiral and composition guides, safe areas and render burn-in"
+msgstr "宽高比画框、黄金螺旋与构图参考线、安全区以及渲染烧录"
+
+#: props.py:303
+msgid "Black out everything outside the crop guides and outside the camera frame (also turns on Blender's camera passepartout)"
+msgstr "将裁切参考线和相机画面之外的一切涂黑（同时开启 Blender 的相机遮罩）"
+
+#: props.py:346
+msgid "Blur"
+msgstr "模糊"
+
+#: props.py:341
+msgid "Blur the camera view to judge large light and dark shapes, like squinting at a painting. Uses the viewport compositor (Material Preview or Rendered shading); renders are not affected"
+msgstr "模糊相机视图，以便判断大的明暗形状，就像眯眼看画一样。使用视图合成器（材质预览或渲染着色）；不影响渲染结果"
+
+#: props.py:27
+msgid "Both diagonals with their four reciprocal lines"
+msgstr "两条对角线及其四条互垂线"
+
+#: props.py:253
+msgid "Bottom"
+msgstr "底部"
+
+#: props.py:59
+msgid "Bottom left: the spiral converges toward the bottom left"
+msgstr "左下：螺旋向左下角汇聚"
+
+#: props.py:60
+msgid "Bottom right: the spiral converges toward the bottom right"
+msgstr "右下：螺旋向右下角汇聚"
+
+#: ui.py:158
+msgid "Built-in"
+msgstr "内置"
+
+#: props.py:359
+msgid "Burn guides marked with the render icon into final renders through the compositor"
+msgstr "通过合成器将标有渲染图标的参考线烧录到最终渲染中"
+
+#: props.py:198
+msgid "Burn into Render"
+msgstr "烧录到渲染"
+
+#: ops.py:366
+msgid "CENTER"
+msgstr "中心"
+
+#: __init__.py:5
+msgid "Camera"
+msgstr "相机"
+
+#: __init__.py:5
+msgid "Camera Aspect Ratio Guides"
+msgstr "相机宽高比参考线"
+
+#: ui.py:570
+msgid "Camera Composition Guides"
+msgstr "相机构图参考线"
+
+#: props.py:276
+msgid "Center"
+msgstr "中心"
+
+#: props.py:21
+msgid "Center Cross"
+msgstr "中心十字"
+
+#: props.py:22
+msgid "Center Mark"
+msgstr "中心标记"
+
+#: props.py:276
+msgid "Center lines inside this frame"
+msgstr "此画框内的中心线"
+
+#: ui.py:345
+msgid "Click the camera icon next to a frame, guide or safe area"
+msgstr "点击画框、参考线或安全区旁边的相机图标"
+
+#: props.py:226
+msgid "Columns"
+msgstr "列"
+
+#: ui.py:366
+msgid "Compositing is turned off, guides won't appear"
+msgstr "合成已关闭，参考线不会显示"
+
+#: ops.py:14
+#: ui.py:526
+msgid "Composition"
+msgstr "构图"
+
+#: ui.py:501
+msgid "Composition Guides"
+msgstr "构图参考线"
+
+#: ui.py:355
+msgid "Compositor nodes missing, click Update"
+msgstr "缺少合成器节点，请点击「更新」"
+
+#: props.py:35
+msgid "Continuous line"
+msgstr "实线"
+
+#: props.py:348
+msgid "Contrast"
+msgstr "对比度"
+
+#: props.py:219
+msgid "Corner the spiral converges toward"
+msgstr "螺旋汇聚所朝向的角"
+
+#: props.py:29
+msgid "Corner-to-corner diagonals"
+msgstr "角到角的对角线"
+
+#: ui.py:405
+msgid "Crop Guides"
+msgstr "裁切参考线"
+
+#: props.py:44
+msgid "Custom"
+msgstr "自定义"
+
+#: props.py:20
+msgid "Custom Grid"
+msgstr "自定义网格"
+
+#: ops.py:35
+msgid "Custom Margins"
+msgstr "自定义边距"
+
+#: ops.py:34
+msgid "Custom X / Y"
+msgstr "自定义 X / Y"
+
+#: ops.py:366
+msgid "DIAGONALS"
+msgstr "对角线"
+
+#: props.py:259
+msgid "Darken everything outside the safe area"
+msgstr "将安全区之外的一切变暗"
+
+#: props.py:308
+msgid "Darkness"
+msgstr "暗度"
+
+#: props.py:38
+msgid "Dash Dot"
+msgstr "点划线"
+
+#: props.py:36
+msgid "Dashed"
+msgstr "虚线"
+
+#: props.py:36
+msgid "Dashed line"
+msgstr "虚线"
+
+#: ui.py:142
+msgid "Delete Preset"
+msgstr "删除预设"
+
+#: props.py:30
+msgid "Diagonal Method"
+msgstr "对角线方式"
+
+#: props.py:29
+msgid "Diagonals"
+msgstr "对角线"
+
+#: props.py:18
+msgid "Divide the frame into thirds"
+msgstr "将画面分为三等分"
+
+#: props.py:37
+msgid "Dotted"
+msgstr "点线"
+
+#: ops.py:236
+msgid "Down"
+msgstr "向下"
+
+#: props.py:187
+msgid "Draw inside one of this camera's frames instead of the full camera frame"
+msgstr "在此相机的某个画框内绘制，而不是整个相机画面"
+
+#: props.py:27
+msgid "Dynamic Symmetry"
+msgstr "动态对称"
+
+#: ui.py:367
+msgid "Enable Compositing"
+msgstr "启用合成"
+
+#: props.py:194
+msgid "Enabled"
+msgstr "已启用"
+
+#: props.py:214
+msgid "End the perpendicular lines at the diagonal (classic four-triangle layout) instead of extending them to the frame edge like Blender"
+msgstr "垂线在对角线处结束（经典四三角形布局），而不像 Blender 那样延伸到画面边缘"
+
+#: ops.py:469
+msgid "Enter a name"
+msgstr "输入名称"
+
+#: props.py:219
+msgid "Eye"
+msgstr "眼睛"
+
+#: props.py:24
+msgid "Fibonacci spiral fitted to the frame, with adjustable orientation"
+msgstr "适配画面的斐波那契螺旋，方向可调"
+
+#: ui.py:600
+msgid "Font size of frame and safe area labels in the viewport"
+msgstr "视图中画面与安全区域标签的字体大小"
+
+#: props.py:187
+msgid "Frame"
+msgstr "画面"
+
+#: ops.py:14
+#: ui.py:519
+msgid "Frames"
+msgstr "画面"
+
+#: ui.py:595
+msgid "Frames, composition guides, safe areas, presets and render burn-in"
+msgstr "画面、构图参考线、安全区域、预设和渲染烧录"
+
+#: ops.py:367
+msgid "GOLDEN"
+msgstr "黄金比例"
+
+#: ops.py:368
+#: ops.py:369
+msgid "GOLDEN_TRI"
+msgstr "黄金三角形"
+
+#: props.py:24
+msgid "Golden Spiral"
+msgstr "黄金螺旋"
+
+#: props.py:25
+msgid "Golden Triangles"
+msgstr "黄金三角形"
+
+#: props.py:19
+msgid "Golden ratio lines at 38.2% and 61.8%, like Blender's Golden Ratio guide"
+msgstr "位于 38.2% 和 61.8% 处的黄金比例线，类似 Blender 的黄金比例参考线"
+
+#: ui.py:154
+msgid "Guide Presets"
+msgstr "参考线预设"
+
+#: ui.py:175
+msgid "Guide Specials"
+msgstr "参考线特殊项"
+
+#: props.py:205
+msgid "Guide Type"
+msgstr "参考线类型"
+
+#: ui.py:449
+msgid "Guides appear when you look through this camera"
+msgstr "透过此摄像机查看时显示参考线"
+
+#: ops.py:370
+#: ops.py:371
+msgid "HARMONIOUS_TRI"
+msgstr "和谐三角形"
+
+#: props.py:26
+msgid "Harmonious Triangles"
+msgstr "和谐三角形"
+
+#: ops.py:85
+#: props.py:246
+msgid "Height"
+msgstr "高度"
+
+#: ops.py:360
+msgid "Hide Blender's own guides so they are not drawn twice"
+msgstr "隐藏 Blender 自带的参考线，避免重复绘制"
+
+#: props.py:21
+msgid "Horizontal and vertical center lines"
+msgstr "水平与垂直中心线"
+
+#: props.py:346
+msgid "How strongly the camera view is blurred"
+msgstr "摄像机视图的模糊强度"
+
+#: props.py:367
+msgid "Image the guides are rasterized into"
+msgstr "参考线栅格化到的图像"
+
+#: props.py:278
+msgid "Include this frame in the mask (darkness is set by Mask Outside)"
+msgstr "将此画面纳入遮罩（暗度由“外部遮罩”设定）"
+
+#: ui.py:230
+#: ui.py:258
+msgid "Inside Frame"
+msgstr "画面内部"
+
+#: props.py:42
+msgid "Keep important action inside (93% per SMPTE ST 2046-1 / EBU R 95)"
+msgstr "保留重要动作于内部（依据 SMPTE ST 2046-1 / EBU R 95 为 93%）"
+
+#: props.py:43
+msgid "Keep text and graphics inside (90% per SMPTE ST 2046-1 / EBU R 95)"
+msgstr "保留文字与图形于内部（依据 SMPTE ST 2046-1 / EBU R 95 为 90%）"
+
+#: props.py:263
+#: props.py:292
+msgid "Label"
+msgstr "标签"
+
+#: ui.py:600
+msgid "Label Size"
+msgstr "标签大小"
+
+#: props.py:221
+msgid "Lay the spiral along the other axis of the frame"
+msgstr "沿画面的另一轴放置螺旋"
+
+#: props.py:250
+msgid "Left"
+msgstr "左"
+
+#: props.py:182
+msgid "Length of dashes, dots and gaps"
+msgstr "虚线、点与间隙的长度"
+
+#: props.py:363
+msgid "Line Scale"
+msgstr "线缩放"
+
+#: props.py:173
+msgid "Line Style"
+msgstr "线样式"
+
+#: props.py:177
+msgid "Line thickness in pixels (scaled for renders)"
+msgstr "线条粗细（像素，渲染时按比例缩放）"
+
+#: ui.py:453
+msgid "Look through the camera to see guides"
+msgstr "透过摄像机查看以显示参考线"
+
+#: props.py:53
+msgid "Margins"
+msgstr "边距"
+
+#: props.py:278
+msgid "Mask"
+msgstr "遮罩"
+
+#: props.py:303
+msgid "Mask Outside"
+msgstr "外部遮罩"
+
+#: props.py:213
+msgid "Mirror"
+msgstr "镜像"
+
+#: ui.py:239
+msgid "Mirror (B)"
+msgstr "镜像 (B)"
+
+#: props.py:289
+msgid "Move the frame down or up: -100% is flush bottom, 0 centred, 100% flush top"
+msgstr "上下移动画面：-100% 贴底，0 居中，100% 贴顶"
+
+#: props.py:286
+msgid "Move the frame left or right: -100% is flush left, 0 centred, 100% flush right"
+msgstr "左右移动画面：-100% 贴左，0 居中，100% 贴右"
+
+#: props.py:255
+msgid "Move the safe area horizontally"
+msgstr "水平移动安全区域"
+
+#: props.py:257
+msgid "Move the safe area vertically"
+msgstr "垂直移动安全区域"
+
+#: ops.py:83
+#: ops.py:462
+msgid "Name"
+msgstr "名称"
+
+#: ops.py:555
+msgid "No 3D Viewport in this workspace"
+msgstr "此工作区中没有 3D 视图"
+
+#: ui.py:148
+msgid "No saved presets"
+msgstr "没有已保存的预设"
+
+#: ui.py:344
+msgid "Nothing is marked for render"
+msgstr "没有标记要渲染的内容"
+
+#: ops.py:519
+msgid "Nothing is marked for render burn-in"
+msgstr "没有标记要烧录到渲染中的内容"
+
+#: props.py:255
+msgid "Offset X"
+msgstr "偏移 X"
+
+#: props.py:257
+msgid "Offset Y"
+msgstr "偏移 Y"
+
+#: ui.py:594
+msgid "Only one-click crop guides for common aspect ratios"
+msgstr "仅提供常见宽高比的一键裁剪参考线"
+
+#: props.py:301
+msgid "Opacity"
+msgstr "不透明度"
+
+#: props.py:301
+msgid "Overall opacity of the viewport guides"
+msgstr "视图参考线的整体不透明度"
+
+#: ui.py:351
+msgid "Overlay %d × %d, %s"
+msgstr "叠加层 %d × %d，%s"
+
+#: props.py:367
+msgid "Overlay Image"
+msgstr "叠加图像"
+
+#: ui.py:592
+msgid "Panel Layout"
+msgstr "面板布局"
+
+#: ui.py:195
+msgid "Pattern"
+msgstr "图案"
+
+#: props.py:182
+msgid "Pattern Scale"
+msgstr "图案缩放"
+
+#: props.py:19
+msgid "Phi Grid"
+msgstr "黄金网格"
+
+#: props.py:286
+msgid "Position X"
+msgstr "位置 X"
+
+#: props.py:289
+msgid "Position Y"
+msgstr "位置 Y"
+
+#: ops.py:187
+msgid "Preset"
+msgstr "预设"
+
+#: props.py:348
+msgid "Push lights and darks apart around mid-gray so values group into bolder shapes. At 100% the view is close to a black-and-white value study"
+msgstr "围绕中灰拉开明暗，使影调归并为更鲜明的形状。100% 时视图接近黑白明度研究"
+
+#: props.py:359
+#: ui.py:540
+msgid "Render Burn-in"
+msgstr "渲染烧录"
+
+#: ui.py:204
+msgid "Resolution X"
+msgstr "分辨率 X"
+
+#: props.py:251
+msgid "Right"
+msgstr "右"
+
+#: props.py:233
+msgid "Role"
+msgstr "角色"
+
+#: props.py:221
+msgid "Rotate"
+msgstr "旋转"
+
+#: props.py:37
+msgid "Round dots"
+msgstr "圆点"
+
+#: props.py:227
+msgid "Rows"
+msgstr "行数"
+
+#: props.py:18
+msgid "Rule of Thirds"
+msgstr "三分法"
+
+#: props.py:274
+msgid "Rule of thirds inside this frame"
+msgstr "此画面内的三分法"
+
+#: ops.py:29
+msgid "SMPTE ST 2046-1 / EBU R 95 action safe for HD and UHD"
+msgstr "适用于 HD 和 UHD 的 SMPTE ST 2046-1 / EBU R 95 动作安全框"
+
+#: ops.py:30
+msgid "SMPTE ST 2046-1 / EBU R 95 title (graphics) safe for HD and UHD"
+msgstr "适用于 HD 和 UHD 的 SMPTE ST 2046-1 / EBU R 95 字幕（图形）安全框"
+
+#: ops.py:14
+#: ui.py:533
+msgid "Safe Areas"
+msgstr "安全区域"
+
+#: props.py:235
+msgid "Safe area size as a percentage of the frame"
+msgstr "安全区域大小占画面的百分比"
+
+#: props.py:50
+msgid "Same percentage of the frame's width and height"
+msgstr "画面宽度和高度使用相同百分比"
+
+#: ui.py:164
+msgid "Saved"
+msgstr "已保存"
+
+#: props.py:284
+msgid "Scale"
+msgstr "缩放"
+
+#: ops.py:35
+msgid "Separate margin for each edge"
+msgstr "每条边单独设置边距"
+
+#: props.py:53
+msgid "Separate margin for each edge, e.g. social media UI zones"
+msgstr "每条边单独设置边距，例如社交媒体 UI 区域"
+
+#: ops.py:34
+#: props.py:51
+msgid "Separate width and height percentages"
+msgstr "分别设置宽度和高度百分比"
+
+#: props.py:261
+msgid "Shade Opacity"
+msgstr "遮罩不透明度"
+
+#: props.py:259
+msgid "Shade Outside"
+msgstr "外部遮罩"
+
+#: ui.py:431
+msgid "Show All Options"
+msgstr "显示所有选项"
+
+#: props.py:297
+msgid "Show Guides"
+msgstr "显示参考线"
+
+#: props.py:314
+msgid "Show rule-of-thirds lines inside the crop guides"
+msgstr "在裁剪参考线内显示三分线"
+
+#: props.py:353
+msgid "Show the blurred view in grayscale to judge values independent of color"
+msgstr "以灰度显示模糊视图，以便不受颜色影响地判断明暗"
+
+#: props.py:224
+msgid "Show the golden rectangle subdivisions"
+msgstr "显示黄金矩形细分"
+
+#: props.py:292
+msgid "Show the name and ratio in the viewport"
+msgstr "在视图中显示名称和比例"
+
+#: props.py:263
+msgid "Show the name and size in the viewport"
+msgstr "在视图中显示名称和尺寸"
+
+#: props.py:297
+msgid "Show this camera's guides in the 3D Viewport (render burn-in is not affected)"
+msgstr "在 3D 视图中显示此相机的参考线（不影响渲染烧录）"
+
+#: ui.py:396
+msgid "Shows in camera view with Material Preview or Rendered shading"
+msgstr "在材质预览或渲染着色下的相机视图中显示"
+
+#: props.py:284
+msgid "Shrink the frame, e.g. for shoot-and-protect margins"
+msgstr "收缩画框，例如用于拍摄保护边距"
+
+#: ui.py:598
+msgid "Sidebar Tab"
+msgstr "侧栏标签"
+
+#: ui.py:594
+msgid "Simple"
+msgstr "简单"
+
+#: ui.py:465
+msgid "Simple View"
+msgstr "简单视图"
+
+#: props.py:228
+#: props.py:235
+msgid "Size"
+msgstr "大小"
+
+#: props.py:243
+msgid "Size Mode"
+msgstr "大小模式"
+
+#: props.py:228
+msgid "Size of the mark relative to the frame"
+msgstr "标记相对于画框的大小"
+
+#: props.py:22
+msgid "Small cross at the center of the frame"
+msgstr "画框中心的小十字"
+
+#: props.py:35
+msgid "Solid"
+msgstr "实心"
+
+#: props.py:224
+msgid "Squares"
+msgstr "方格"
+
+#: props.py:341
+msgid "Squint"
+msgstr "眯眼"
+
+#: props.py:214
+msgid "Stop at Diagonal"
+msgstr "止于对角线"
+
+#: ui.py:192
+msgid "Style"
+msgstr "样式"
+
+#: ops.py:367
+msgid "THIRDS"
+msgstr "三分线"
+
+#: ui.py:342
+msgid "The scene has no active camera"
+msgstr "场景没有活动相机"
+
+#: props.py:363
+msgid "Thickness of burned-in lines; widths also scale with the render resolution"
+msgstr "烧录线条的粗细；宽度也会随渲染分辨率缩放"
+
+#: props.py:274
+#: props.py:314
+msgid "Thirds"
+msgstr "三分线"
+
+#: ops.py:397
+msgid "This camera has no built-in guides or safe areas enabled"
+msgstr "此相机未启用内置参考线或安全区域"
+
+#: props.py:43
+msgid "Title Safe"
+msgstr "字幕安全区"
+
+#: ops.py:32
+msgid "Title Safe 80% (Legacy SD)"
+msgstr "字幕安全区 80%（旧版标清）"
+
+#: ops.py:30
+msgid "Title Safe 90%"
+msgstr "字幕安全区 90%"
+
+#: props.py:252
+msgid "Top"
+msgstr "顶部"
+
+#: props.py:57
+msgid "Top left: the spiral converges toward the top left"
+msgstr "左上：螺旋向左上汇聚"
+
+#: props.py:58
+msgid "Top right: the spiral converges toward the top right"
+msgstr "右上：螺旋向右上汇聚"
+
+#: ops.py:31
+msgid "Traditional action safe for standard-definition TV"
+msgstr "标清电视传统动作安全区"
+
+#: ops.py:32
+msgid "Traditional title safe for standard-definition TV"
+msgstr "标清电视传统字幕安全区"
+
+#: ops.py:360
+msgid "Turn Off Built-in Guides"
+msgstr "关闭内置参考线"
+
+#: ops.py:162
+#: ui.py:229
+msgid "Type"
+msgstr "类型"
+
+#: props.py:50
+msgid "Uniform"
+msgstr "统一"
+
+#: ops.py:236
+msgid "Up"
+msgstr "向上"
+
+#: props.py:213
+msgid "Use the mirrored (B) variant"
+msgstr "使用镜像（B）变体"
+
+#: props.py:353
+msgid "Values Only"
+msgstr "仅数值"
+
+#: ui.py:485
+msgid "View"
+msgstr "视图"
+
+#: ops.py:84
+#: props.py:244
+msgid "Width"
+msgstr "宽度"
+
+#: props.py:51
+msgid "X / Y"
+msgstr "X / Y"
+
+#: ui.py:205
+#: ui.py:212
+msgid "Y"
+msgstr "Y"
+
+#: burnin.py:26
+msgid "__GUIDE_IMAGE__"
+msgstr "__GUIDE_IMAGE__"
+
+#: ui.py:351
+msgid "refreshes when you render"
+msgstr "渲染时刷新"
+
+#: ui.py:351
+msgid "up to date"
+msgstr "已是最新"
+
+#: props.py:57
+msgid "↖"
+msgstr "↖"
+
+#: props.py:58
+msgid "↗"
+msgstr "↗"
+
+#: props.py:60
+msgid "↘"
+msgstr "↘"
+
+#: props.py:59
+msgid "↙"
+msgstr "↙"
+
+#: ops.py:159
+msgctxt "Operator"
+msgid "Add Composition Guide"
+msgstr "添加构图参考线"
+
+#: ops.py:80
+msgctxt "Operator"
+msgid "Add Frame"
+msgstr "添加画框"
+
+#: ops.py:184
+msgctxt "Operator"
+msgid "Add Safe Area"
+msgstr "添加安全区域"
+
+#: ops.py:160
+msgctxt "Operator"
+msgid "Add a composition guide"
+msgstr "添加构图参考线"
+
+#: ops.py:185
+msgctxt "Operator"
+msgid "Add a safe area"
+msgstr "添加安全区域"
+
+#: ops.py:81
+msgctxt "Operator"
+msgid "Add an aspect ratio frame"
+msgstr "添加宽高比画框"
+
+#: ops.py:428
+msgctxt "Operator"
+msgid "Apply Preset"
+msgstr "应用预设"
+
+#: ops.py:312
+msgctxt "Operator"
+msgid "Center Frame"
+msgstr "居中画框"
+
+#: ops.py:356
+msgctxt "Operator"
+msgid "Convert Blender's Guides"
+msgstr "转换 Blender 参考线"
+
+#: ops.py:406
+msgctxt "Operator"
+msgid "Copy to Selected Cameras"
+msgstr "复制到选定相机"
+
+#: ops.py:114
+msgctxt "Operator"
+msgid "Crop Guide"
+msgstr "裁剪参考线"
+
+#: ui.py:103
+msgctxt "Operator"
+msgid "Current Render Resolution"
+msgstr "当前渲染分辨率"
+
+#: ops.py:482
+msgctxt "Operator"
+msgid "Delete Preset"
+msgstr "删除预设"
+
+#: ops.py:483
+msgctxt "Operator"
+msgid "Delete this user preset"
+msgstr "删除此用户预设"
+
+#: ops.py:252
+msgctxt "Operator"
+msgid "Duplicate"
+msgstr "复制"
+
+#: ops.py:253
+msgctxt "Operator"
+msgid "Duplicate the active item"
+msgstr "复制活动项"
+
+#: ui.py:138
+msgctxt "Operator"
+msgid "From Scene Safe Areas"
+msgstr "来自场景安全区域"
+
+#: ops.py:565
+msgctxt "Operator"
+msgid "Make Active Camera"
+msgstr "设为活动相机"
+
+#: ops.py:566
+msgctxt "Operator"
+msgid "Make this the scene camera so its guides are shown and burned in"
+msgstr "将此相机设为场景相机，以显示并烧录其参考线"
+
+#: ops.py:233
+msgctxt "Operator"
+msgid "Move"
+msgstr "移动"
+
+#: ops.py:313
+msgctxt "Operator"
+msgid "Move the active frame back to the middle of the camera view"
+msgstr "将活动画框移回相机视图中央"
+
+#: ops.py:234
+msgctxt "Operator"
+msgid "Move the active item up or down (items lower in the list draw on top)"
+msgstr "上移或下移活动项（列表中越靠下的项越绘制在上层）"
+
+#: ops.py:340
+msgctxt "Operator"
+msgid "Next Orientation"
+msgstr "下一个朝向"
+
+#: ops.py:501
+msgctxt "Operator"
+msgid "Open Preset Folder"
+msgstr "打开预设文件夹"
+
+#: ops.py:502
+msgctxt "Operator"
+msgid "Open the folder with your saved presets (to back them up or share them)"
+msgstr "打开保存预设的文件夹（以便备份或分享）"
+
+#: ops.py:357
+msgctxt "Operator"
+msgid "Recreate this camera's built-in composition guides and the scene's safe areas as styleable guides (color, width, dashes, render burn-in)"
+msgstr "将本相机内置的构图辅助线和场景安全框重建为可设置样式的辅助线（颜色、宽度、虚线、渲染烧录）"
+
+#: ops.py:512
+msgctxt "Operator"
+msgid "Redraw the burn-in overlay now and repair the compositor nodes"
+msgstr "立即重绘烧录叠加并修复合成器节点"
+
+#: ops.py:217
+#: ui.py:358
+msgctxt "Operator"
+msgid "Remove"
+msgstr "移除"
+
+#: ops.py:274
+msgctxt "Operator"
+msgid "Remove All Guides"
+msgstr "移除所有辅助线"
+
+#: ops.py:529
+msgctxt "Operator"
+msgid "Remove Burn-in"
+msgstr "移除烧录"
+
+#: ops.py:275
+msgctxt "Operator"
+msgid "Remove every frame, composition guide and safe area from this camera"
+msgstr "从此相机移除所有画幅、构图辅助线和安全框"
+
+#: ops.py:218
+msgctxt "Operator"
+msgid "Remove the active item"
+msgstr "移除活动项"
+
+#: ops.py:407
+msgctxt "Operator"
+msgid "Replace the guides of all other selected cameras with this camera's guides"
+msgstr "用本相机的辅助线替换其他所有选中相机的辅助线"
+
+#: ops.py:429
+msgctxt "Operator"
+msgid "Replace this camera's guides with a preset"
+msgstr "用预设替换本相机的辅助线"
+
+#: ui.py:168
+msgctxt "Operator"
+msgid "Save Current as Preset..."
+msgstr "将当前保存为预设…"
+
+#: ops.py:459
+msgctxt "Operator"
+msgid "Save Preset"
+msgstr "保存预设"
+
+#: ops.py:460
+msgctxt "Operator"
+msgid "Save this camera's guides as a preset you can apply to any camera"
+msgstr "将本相机的辅助线保存为预设，可应用到任意相机"
+
+#: ops.py:326
+msgctxt "Operator"
+msgid "Set the scene's render resolution to the active frame's width and height"
+msgstr "将场景渲染分辨率设为活动画幅的宽度和高度"
+
+#: ops.py:115
+msgctxt "Operator"
+msgid "Show or hide a crop guide"
+msgstr "显示或隐藏裁剪辅助线"
+
+#: ops.py:580
+msgctxt "Operator"
+msgid "Show or hide the guides of the camera you look through (can be added to Quick Favorites)"
+msgstr "显示或隐藏当前透视相机的辅助线（可添加到快速收藏）"
+
+#: ops.py:341
+msgctxt "Operator"
+msgid "Step through all eight golden spiral orientations"
+msgstr "依次切换全部八种黄金螺旋朝向"
+
+#: ui.py:207
+msgctxt "Operator"
+msgid "Swap"
+msgstr "交换"
+
+#: ops.py:299
+msgctxt "Operator"
+msgid "Swap Width and Height"
+msgstr "交换宽度和高度"
+
+#: ops.py:300
+msgctxt "Operator"
+msgid "Switch the active frame between landscape and portrait"
+msgstr "在横向和纵向之间切换活动画幅"
+
+#: ops.py:546
+msgctxt "Operator"
+msgid "Switch the largest 3D Viewport to the camera view"
+msgstr "将最大的 3D 视图切换为相机视图"
+
+#: ops.py:579
+msgctxt "Operator"
+msgid "Toggle Camera Guides"
+msgstr "切换相机辅助线"
+
+#: ops.py:530
+msgctxt "Operator"
+msgid "Turn off burn-in and remove its compositor nodes and overlay image. Guides keep their render settings"
+msgstr "关闭烧录并移除其合成器节点和叠加图像。辅助线保留其渲染设置"
+
+#: ui.py:357
+msgctxt "Operator"
+msgid "Update"
+msgstr "更新"
+
+#: ops.py:511
+msgctxt "Operator"
+msgid "Update Burn-in"
+msgstr "更新烧录"
+
+#: ops.py:325
+msgctxt "Operator"
+msgid "Use as Render Resolution"
+msgstr "用作渲染分辨率"
+
+#: ui.py:208
+msgctxt "Operator"
+msgid "Use for Render"
+msgstr "用于渲染"
+
+#: ui.py:444
+#: ui.py:454
+msgctxt "Operator"
+msgid "View"
+msgstr "视图"
+
+#: ops.py:545
+msgctxt "Operator"
+msgid "View Through Camera"
+msgstr "透过相机查看"

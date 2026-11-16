@@ -1,0 +1,248 @@
+# perfect-chinese: 1
+# id: simple_camera_match
+# kind: addon
+# module: bl_ext.blender_org.simple_camera_match
+# name: Simple Camera Match
+# name_zh: 简单摄像机匹配
+# translator: KeshiMiao
+# category: Object
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: ui.py:115
+msgid "--------------------------"
+msgstr "--------------------------"
+
+#: ui.py:111
+msgid "1/2/3 Key : Switch X/Y/Z Axis"
+msgstr "1/2/3 键：切换 X/Y/Z 轴"
+
+#: properties.py:377
+msgid "3D Cursor Rotation"
+msgstr "3D 光标旋转"
+
+#: ui.py:94
+msgid "3D Cursor Rotation (XY)"
+msgstr "3D 光标旋转（XY）"
+
+#: ui.py:153
+msgid "3D Cursor keeps the same framing."
+msgstr "3D 光标保持相同取景。"
+
+#: properties.py:80
+msgid "Axis (X, Y, Z)"
+msgstr "轴（X、Y、Z）"
+
+#: __init__.py:1
+msgid "Camera"
+msgstr "摄像机"
+
+#: properties.py:86
+msgid "Camera bound to current guide lines"
+msgstr "摄像机绑定到当前参考线"
+
+#: ui.py:152
+msgid "Camera dollies along its axis so the"
+msgstr "摄像机沿自身轴推拉，使"
+
+#: properties.py:280
+msgid "Camera focal length in millimeters"
+msgstr "摄像机焦距（毫米）"
+
+#: properties.py:352
+msgid "Camera sensor width in millimeters; changing it re-solves the camera"
+msgstr "摄像机传感器宽度（毫米）；修改后将重新求解摄像机"
+
+#: ui.py:11
+msgid "CameraMatch"
+msgstr "CameraMatch"
+
+#: ui.py:21
+msgid "CameraMatch data unavailable (add-on not registered)"
+msgstr "CameraMatch 数据不可用（插件未注册）"
+
+#: ui.py:144
+msgid "Dolly Focal Length (mm)"
+msgstr "推拉焦距（毫米）"
+
+#: properties.py:290
+msgid "Dolly zoom: change focal length while the camera moves along its own axis so the 3D Cursor plane keeps exactly the same framing"
+msgstr "推拉变焦：在摄像机沿自身轴移动时改变焦距，使 3D 光标平面保持完全相同的取景"
+
+#: ui.py:112
+msgid "Drag : Draw | Click : Edit"
+msgstr "拖动：绘制 | 单击：编辑"
+
+#: tool.py:54
+msgid "Drawing mode is already running"
+msgstr "绘制模式已在运行"
+
+#: properties.py:397
+#: ui.py:103
+msgid "Enable Horizon"
+msgstr "启用地平线"
+
+#: properties.py:397
+msgid "Enable horizon constraint from X/Y vanishing points"
+msgstr "根据 X/Y 消失点启用地平线约束"
+
+#: properties.py:79
+msgid "End Point (Normalized)"
+msgstr "终点（归一化）"
+
+#: ui.py:114
+msgid "Esc / Right Click : Exit"
+msgstr "Esc / 右键：退出"
+
+#: properties.py:390
+#: ui.py:95
+msgid "Flip Z Axis"
+msgstr "翻转 Z 轴"
+
+#: properties.py:390
+msgid "Flip world Z axis direction around 3D cursor (rotate 180 degrees around X axis)"
+msgstr "围绕 3D 光标翻转世界 Z 轴方向（绕 X 轴旋转 180 度）"
+
+#: properties.py:280
+#: ui.py:124
+msgid "Focal Length (mm)"
+msgstr "焦距（毫米）"
+
+#: properties.py:290
+msgid "Hitchcock Zoom"
+msgstr "希区柯克变焦"
+
+#: ui.py:143
+msgid "Hitchcock Zoom (Dolly Zoom)"
+msgstr "希区柯克变焦（推拉变焦）"
+
+#: properties.py:214
+msgid "Hitchcock zoom failed"
+msgstr "希区柯克变焦失败"
+
+#: ui.py:102
+msgid "Horizon Constraint"
+msgstr "地平线约束"
+
+#: properties.py:404
+msgid "Horizon Offset"
+msgstr "地平线偏移"
+
+#: ui.py:109
+msgid "Instructions:"
+msgstr "说明："
+
+#: ui.py:87
+msgid "Line check passed"
+msgstr "线条检查通过"
+
+#: properties.py:404
+msgid "Move horizon up/down in pixel space"
+msgstr "在像素空间中上下移动地平线"
+
+#: operators.py:815
+msgid "No scene"
+msgstr "无场景"
+
+#: ui.py:89
+msgid "Not solved yet"
+msgstr "尚未求解"
+
+#: tool.py:43
+#: ui.py:131
+msgid "Only perspective cameras are supported"
+msgstr "仅支持透视摄像机"
+
+#: tool.py:39
+msgid "Please add a camera first"
+msgstr "请先添加摄像机"
+
+#: tool.py:47
+msgid "Please switch to Camera View first"
+msgstr "请先切换到摄像机视图"
+
+#: __init__.py:1
+msgid "Reconstruct camera perspective by drawing lines"
+msgstr "通过绘制线条重建摄像机透视"
+
+#: properties.py:377
+msgid "Rotate camera around 3D cursor"
+msgstr "围绕 3D 光标旋转摄像机"
+
+#: properties.py:352
+#: ui.py:127
+msgid "Sensor (mm)"
+msgstr "传感器（毫米）"
+
+#: __init__.py:1
+#: ui.py:7
+msgid "Simple Camera Match"
+msgstr "Simple Camera Match"
+
+#: properties.py:78
+msgid "Start Point (Normalized)"
+msgstr "起点（归一化）"
+
+#: ui.py:41
+msgid "Step 1: Drawing"
+msgstr "第 1 步：绘制"
+
+#: ui.py:50
+msgid "Step 2: Solve"
+msgstr "第 2 步：求解"
+
+#: ui.py:117
+msgid "Tip: Draw at least 3 perspective edges"
+msgstr "提示：至少绘制 3 条透视边"
+
+#: ui.py:116
+msgid "Tip: Draw one or no parallel edges"
+msgstr "提示：绘制一条或不绘制平行边"
+
+#: ui.py:135
+msgid "Warning: No Active Camera!"
+msgstr "警告：没有活动摄像机！"
+
+#: ui.py:113
+msgid "X Key : Delete Line"
+msgstr "X 键：删除线条"
+
+#: tool.py:17
+msgctxt "Operator"
+msgid "Draw Reference Line"
+msgstr "绘制参考线"
+
+#: operators.py:776
+msgctxt "Operator"
+msgid "Line Check"
+msgstr "线条检查"
+
+#: operators.py:777
+msgctxt "Operator"
+msgid "Line check result (display only, nothing to click)"
+msgstr "线条检查结果（仅显示，无可点击项）"
+
+#: operators.py:791
+#: ui.py:27
+msgctxt "Operator"
+msgid "Match Background Resolution"
+msgstr "匹配背景分辨率"
+
+#: operators.py:758
+msgctxt "Operator"
+msgid "Match Camera"
+msgstr "匹配摄像机"
+
+#: ui.py:54
+msgctxt "Operator"
+msgid "Match Camera (Solve)"
+msgstr "匹配摄像机（求解）"
+
+#: ui.py:45
+msgctxt "Operator"
+msgid "Start Drawing (Brush)"
+msgstr "开始绘制（笔刷）"

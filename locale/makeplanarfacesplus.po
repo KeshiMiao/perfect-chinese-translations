@@ -1,0 +1,99 @@
+# perfect-chinese: 1
+# id: makeplanarfacesplus
+# kind: addon
+# module: bl_ext.blender_org.MakePlanarFacesPlus
+# name: Make Planar Faces Plus
+# name_zh: 平面化增强
+# translator: KeshiMiao
+# category: Mesh
+# supported_versions: >=5.1.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: makeplanarfacesplus/operators.py:83
+msgid "Advanced Settings"
+msgstr "高级设置"
+
+#: makeplanarfacesplus/operators.py:56
+msgid "Controls how much edge lengths should be preserved"
+msgstr "控制边长的保留程度"
+
+#: makeplanarfacesplus/operators.py:50
+msgid "Controls the final force that pulls vertices to their original position"
+msgstr "控制最终将顶点拉回原始位置的力度"
+
+#: makeplanarfacesplus/operators.py:44
+msgid "Controls the initial force that pulls vertices to their original position"
+msgstr "控制初始将顶点拉回原始位置的力度"
+
+#: makeplanarfacesplus/operators.py:69
+msgid "Convergence Eps"
+msgstr "收敛容差"
+
+#: makeplanarfacesplus/operators.py:56
+msgid "Edge Length Preservation Factor"
+msgstr "边长保留系数"
+
+#: makeplanarfacesplus/operators.py:32
+msgid "In each round, the shape preservation weight gets smaller. Last round optimizes for planarity only"
+msgstr "每一轮形状保留权重都会减小，最后一轮仅优化平面性"
+
+#: makeplanarfacesplus/operators.py:44
+msgid "Intial Shape Preservation Weight"
+msgstr "初始形状保留权重"
+
+#: makeplanarfacesplus/operators.py:38
+msgid "Max Iterations per Round"
+msgstr "每轮最大迭代次数"
+
+#: makeplanarfacesplus/ui.py:9
+msgid "Mesh"
+msgstr "网格"
+
+#: makeplanarfacesplus/operators.py:32
+msgid "Optimization Rounds"
+msgstr "优化轮数"
+
+#: makeplanarfacesplus/operators.py:69
+msgid "Optimization is stopped early when the newton decrement or objective function improvement is smaller than this value"
+msgstr "当牛顿减量或目标函数的改进小于此值时提前停止优化"
+
+#: makeplanarfacesplus/operators.py:27
+msgid "Pin Selected Vertices"
+msgstr "固定选中顶点"
+
+#: makeplanarfacesplus/ui.py:5
+msgid "Planar Plus"
+msgstr "Planar Plus"
+
+#: makeplanarfacesplus/operators.py:64
+msgid "Print to console"
+msgstr "打印到控制台"
+
+#: makeplanarfacesplus/operators.py:50
+msgid "Target Shape Preservation Weight"
+msgstr "目标形状保留权重"
+
+#: makeplanarfacesplus/operators.py:38
+msgid "The maximum number of inner optimization rounds"
+msgstr "内部优化的最大轮数"
+
+#: makeplanarfacesplus/operators.py:27
+msgid "When set to true, all selected vertices stay in place"
+msgstr "设为 true 时，所有选中顶点保持不动"
+
+#: makeplanarfacesplus/operators.py:64
+msgid "When set to true, every optimization round info gets printed to the console"
+msgstr "设为 true 时，每轮优化信息都会打印到控制台"
+
+#: makeplanarfacesplus/ui.py:14
+msgid "thanks for using me!"
+msgstr "感谢使用！"
+
+#: makeplanarfacesplus/operators.py:23
+msgctxt "Operator"
+msgid "Make Planar Faces Plus"
+msgstr "使面共面 Plus"

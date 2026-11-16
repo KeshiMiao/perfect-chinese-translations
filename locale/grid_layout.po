@@ -1,0 +1,218 @@
+# perfect-chinese: 1
+# id: grid_layout
+# kind: addon
+# module: bl_ext.blender_org.Grid_Layout
+# name: Grid Layout
+# name_zh: 网格布局
+# translator: KeshiMiao
+# category: UV
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: Grid_Layout/__init__.py:586
+msgid "1024 x 1024 pixels"
+msgstr "1024 x 1024 像素"
+
+#: Grid_Layout/__init__.py:587
+msgid "2048 x 2048 pixels"
+msgstr "2048 x 2048 像素"
+
+#: Grid_Layout/__init__.py:584
+msgid "256 x 256 pixels"
+msgstr "256 x 256 像素"
+
+#: Grid_Layout/__init__.py:588
+msgid "4096 x 4096 pixels"
+msgstr "4096 x 4096 像素"
+
+#: Grid_Layout/__init__.py:585
+msgid "512 x 512 pixels"
+msgstr "512 x 512 像素"
+
+#: Grid_Layout/__init__.py:589
+msgid "8192 x 8192 pixels"
+msgstr "8192 x 8192 像素"
+
+#: Grid_Layout/__init__.py:593
+msgid "Choose how to scale UV islands"
+msgstr "选择如何缩放 UV 孤岛"
+
+#: Grid_Layout/__init__.py:573
+msgid "Desired Texel Density"
+msgstr "目标纹素密度"
+
+#: Grid_Layout/__init__.py:1174
+#: Grid_Layout/__init__.py:1178
+msgid "Grid Layout"
+msgstr "网格布局"
+
+#: Grid_Layout/__init__.py:598
+msgid "Individual"
+msgstr "独立"
+
+#: Grid_Layout/__init__.py:442
+msgid "Invalid tile size calculation. Please check your margin settings."
+msgstr "图块尺寸计算无效。请检查边距设置。"
+
+#: Grid_Layout/__init__.py:358
+#: Grid_Layout/__init__.py:1167
+msgid "Island Margin"
+msgstr "孤岛边距"
+
+#: Grid_Layout/__init__.py:1188
+msgid "Layout"
+msgstr "布局"
+
+#: Grid_Layout/__init__.py:1001
+msgid "No UVs were scaled. Check your selection."
+msgstr "未缩放任何 UV。请检查选择。"
+
+#: Grid_Layout/__init__.py:379
+msgid "No mesh objects selected"
+msgstr "未选择网格物体"
+
+#: Grid_Layout/__init__.py:952
+#: Grid_Layout/__init__.py:1090
+msgid "No mesh objects selected."
+msgstr "未选择网格物体。"
+
+#: Grid_Layout/__init__.py:1150
+msgid "No valid UV islands found in selection."
+msgstr "选择中未找到有效的 UV 孤岛。"
+
+#: Grid_Layout/__init__.py:1247
+msgid "Number of units to shift UVs on the X axis while respecting UDIM bounds"
+msgstr "沿 X 轴偏移 UV 的单位数，同时遵守 UDIM 边界"
+
+#: Grid_Layout/__init__.py:580
+msgid "Resolution of the texture in pixels"
+msgstr "纹理的像素分辨率"
+
+#: Grid_Layout/__init__.py:593
+#: Grid_Layout/__init__.py:1206
+msgid "Scale Mode"
+msgstr "缩放模式"
+
+#: Grid_Layout/__init__.py:597
+msgid "Scale all selected UVs from a single center point"
+msgstr "从单一中心点缩放所有选中的 UV"
+
+#: Grid_Layout/__init__.py:598
+msgid "Scale each UV island from its own center"
+msgstr "从各自中心缩放每个 UV 孤岛"
+
+#: Grid_Layout/__init__.py:1225
+msgid "Selection"
+msgstr "选择"
+
+#: Grid_Layout/__init__.py:573
+msgid "Target texel density for the UV map"
+msgstr "UV 贴图的目标纹素密度"
+
+#: Grid_Layout/__init__.py:1202
+#: Grid_Layout/__init__.py:1205
+msgid "Texel Density"
+msgstr "纹素密度"
+
+#: Grid_Layout/__init__.py:580
+msgid "Texture Resolution"
+msgstr "纹理分辨率"
+
+#: Grid_Layout/__init__.py:1204
+msgid "Texture Size"
+msgstr "纹理尺寸"
+
+#: Grid_Layout/__init__.py:359
+#: Grid_Layout/__init__.py:1168
+msgid "Tile Margin"
+msgstr "图块边距"
+
+#: Grid_Layout/__init__.py:1215
+msgid "Translation"
+msgstr "平移"
+
+#: Grid_Layout/__init__.py:406
+msgid "UVs are larger than UDIM tile. Please scale down your UVs."
+msgstr "UV 大于 UDIM 图块。请缩小 UV。"
+
+#: Grid_Layout/__init__.py:421
+msgid "UVs are too large for the current tile margins. Please reduce UV size or adjust margins."
+msgstr "UV 对当前图块边距来说太大。请减小 UV 尺寸或调整边距。"
+
+#: Grid_Layout/__init__.py:432
+msgid "UVs are too wide for the current tile margins. Please reduce UV width or adjust margins."
+msgstr "UV 对当前图块边距来说太宽。请减小 UV 宽度或调整边距。"
+
+#: Grid_Layout/__init__.py:597
+msgid "Unified"
+msgstr "统一"
+
+#: Grid_Layout/__init__.py:1219
+#: Grid_Layout/__init__.py:1247
+msgid "Units"
+msgstr "单位"
+
+#: Grid_Layout/__init__.py:1226
+msgctxt "Operator"
+msgid "Fill UDIM Selection"
+msgstr "填充 UDIM 选择"
+
+#: Grid_Layout/__init__.py:1208
+msgctxt "Operator"
+msgid "Get"
+msgstr "获取"
+
+#: Grid_Layout/__init__.py:1007
+msgctxt "Operator"
+msgid "Get Texel Density"
+msgstr "获取纹素密度"
+
+#: Grid_Layout/__init__.py:12
+msgctxt "Operator"
+msgid "Select UV Islands in UDIM"
+msgstr "选择 UDIM 中的 UV 孤岛"
+
+#: Grid_Layout/__init__.py:13
+msgctxt "Operator"
+msgid "Selects all UV Islands in specific UDIM tiles that contain selected UVs"
+msgstr "选择包含所选 UV 的特定 UDIM 图块中的所有 UV 孤岛"
+
+#: Grid_Layout/__init__.py:1209
+msgctxt "Operator"
+msgid "Set"
+msgstr "设置"
+
+#: Grid_Layout/__init__.py:945
+msgctxt "Operator"
+msgid "Set Texel Density"
+msgstr "设置纹素密度"
+
+#: Grid_Layout/__init__.py:248
+#: Grid_Layout/__init__.py:1216
+msgctxt "Operator"
+msgid "Shift UVs"
+msgstr "偏移 UV"
+
+#: Grid_Layout/__init__.py:1192
+msgctxt "Operator"
+msgid "Stack UVS"
+msgstr "堆叠 UV"
+
+#: Grid_Layout/__init__.py:268
+msgctxt "Operator"
+msgid "Stack UVs"
+msgstr "堆叠 UV"
+
+#: Grid_Layout/__init__.py:1190
+msgctxt "Operator"
+msgid "UnStack UVS"
+msgstr "取消堆叠 UV"
+
+#: Grid_Layout/__init__.py:351
+msgctxt "Operator"
+msgid "UnStack UVs"
+msgstr "取消堆叠 UV"

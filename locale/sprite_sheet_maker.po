@@ -1,0 +1,742 @@
+# perfect-chinese: 1
+# id: sprite_sheet_maker
+# kind: addon
+# module: bl_ext.blender_org.sprite_sheet_maker
+# name: Sprite Sheet Maker
+# name_zh: 精灵图集制作
+# translator: KeshiMiao
+# category: Animation
+# supported_versions: >=5.1.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:84
+msgid "(Optional)"
+msgstr "（可选）"
+
+#: __init__.py:1
+msgid "3D to 2D sprite sheet converter with optional pixelation"
+msgstr "3D 到 2D 精灵图集转换器，可选像素化"
+
+#: __init__.py:83
+msgid "Action"
+msgstr "动作"
+
+#: __init__.py:1324
+msgid "Add atleast one row first"
+msgstr "请先至少添加一行"
+
+#: __init__.py:190
+#: __init__.py:1112
+msgid "Alpha Step"
+msgstr "Alpha 步进"
+
+#: __init__.py:83
+msgid "Animation to be captured in the row"
+msgstr "该行要捕获的动画"
+
+#: __init__.py:1126
+msgid "Appearance Settings"
+msgstr "外观设置"
+
+#: __init__.py:154
+msgid "Automatically calculate and position camera bounding box\nHold Alt & change to sync across all rows"
+msgstr "自动计算并定位相机边界框\n按住 Alt 并更改以同步所有行"
+
+#: __init__.py:273
+#: __init__.py:1243
+msgid "Background Color"
+msgstr "背景颜色"
+
+#: __init__.py:273
+msgid "Background color for entire sheet (or rows, or images based on combine mode)"
+msgstr "整个图集的背景颜色（或根据合并模式作用于行或图像）"
+
+#: __init__.py:1069
+#: __init__.py:1077
+msgid "Bone"
+msgstr "骨骼"
+
+#: __init__.py:175
+msgid "Bone whose origin will be used as the horizontal center for each sprite frame\nHold Alt & change to sync across all rows"
+msgstr "其原点将用作每个精灵帧水平中心的骨骼\n按住 Alt 并更改以同步所有行"
+
+#: __init__.py:177
+msgid "Bone whose origin will be used as the vertically center for each sprite frame\nHold Alt & change to sync across all rows"
+msgstr "其原点将用作每个精灵帧垂直中心的骨骼\n按住 Alt 并更改以同步所有行"
+
+#: __init__.py:1252
+msgid "Bottom"
+msgstr "底部"
+
+#: __init__.py:187
+msgid "By how much amount to pixelate the row\nHold Alt & change to sync across all rows"
+msgstr "该行的像素化程度\n按住 Alt 并更改以同步所有行"
+
+#: __init__.py:155
+#: __init__.py:1054
+msgid "Camera Direction"
+msgstr "相机方向"
+
+#: __init__.py:181
+#: __init__.py:182
+msgid "Camera Padding"
+msgstr "相机边距"
+
+#: __init__.py:1081
+msgid "Camera Padding H"
+msgstr "相机水平边距"
+
+#: __init__.py:1082
+msgid "Camera Padding V"
+msgstr "相机垂直边距"
+
+#: __init__.py:1030
+msgid "Camera Settings"
+msgstr "相机设置"
+
+#: __init__.py:1170
+msgid "Capture Items"
+msgstr "捕获项"
+
+#: __init__.py:1065
+msgid "Center Obj H"
+msgstr "水平居中物体"
+
+#: __init__.py:1073
+msgid "Center Obj V"
+msgstr "垂直居中物体"
+
+#: __init__.py:1110
+msgid "Color Amount"
+msgstr "颜色量"
+
+#: __init__.py:229
+msgid "Color of the label text on top of this row\nHold Alt & change to sync across all rows"
+msgstr "该行顶部标签文本的颜色\n按住 Alt 并更改以同步所有行"
+
+#: __init__.py:278
+#: __init__.py:1236
+msgid "Combine Mode"
+msgstr "合并模式"
+
+#: __init__.py:1080
+msgid "Consider Armature Bones"
+msgstr "考虑骨架骨骼"
+
+#: __init__.py:222
+#: __init__.py:1223
+msgid "Count"
+msgstr "数量"
+
+#: __init__.py:153
+#: __init__.py:1037
+msgid "Custom Camera"
+msgstr "自定义相机"
+
+#: __init__.py:153
+msgid "Custom camera object to use for rendering this row\nHold Alt & change to sync across all rows"
+msgstr "用于渲染该行的自定义相机物体\n按住 Alt 并更改以同步所有行"
+
+#: __init__.py:288
+#: __init__.py:1257
+msgid "Delete Temp Folder"
+msgstr "删除临时文件夹"
+
+#: __init__.py:222
+msgid "Desired frame count after scaling assigned actions\nHold Alt & change to sync across all rows"
+msgstr "缩放已分配动作后的目标帧数\n按住 Alt 并更改以同步所有行"
+
+#: __init__.py:278
+msgid "Dictates how all the rendered frames will be stitched together"
+msgstr "决定所有渲染帧的拼接方式"
+
+#: __init__.py:245
+msgid "Dictates how the content should be aligned within the sprite of this row\nHold Alt & change to sync across all rows"
+msgstr "决定该行精灵内内容的对齐方式\n按住 Alt 并更改以同步所有行"
+
+#: __init__.py:234
+msgid "Dictates the dimension of sprites throughout this row\nHold Alt & change to sync across all rows"
+msgstr "决定该行中精灵的尺寸\n按住 Alt 并更改以同步所有行"
+
+#: __init__.py:209
+msgid "Dictates which frames are captured for this row\nHold Alt & change to sync across all rows"
+msgstr "决定该行捕获哪些帧\n按住 Alt 并更改以同步所有行"
+
+#: __init__.py:155
+msgid "Direction from which the camera will look toward the targeted objects\nHold Alt & change to sync across all rows"
+msgstr "相机朝向目标物体的方向\n按住 Alt 并更改以同步所有行"
+
+#: __init__.py:437
+msgid "Down"
+msgstr "向下"
+
+#: __init__.py:140
+msgid "Enabled"
+msgstr "启用"
+
+#: __init__.py:221
+#: __init__.py:1221
+msgid "End"
+msgstr "结束"
+
+#: __init__.py:190
+msgid "Ensures that all pixels have a transparency which is a multiple of this amount\nHold Alt & change to sync across all rows"
+msgstr "确保所有像素的透明度都是此值的倍数\n按住 Alt 并更改以同步所有行"
+
+#: __init__.py:181
+#: __init__.py:182
+msgid "Extra margin around camera view\nHold Alt & change to sync across all rows"
+msgstr "相机视图周围的额外边距\n按住 Alt 并更改以同步所有行"
+
+#: __init__.py:295
+msgid "Folder in which the generated sprite sheet is saved into"
+msgstr "生成的精灵图集保存到的文件夹"
+
+#: __init__.py:289
+msgid "Folder to use as input for 'Combine Sprites'"
+msgstr "用作“合并精灵”输入的文件夹"
+
+#: __init__.py:226
+msgid "Font size of the label text on top of this row\nHold Alt & change to sync across all rows"
+msgstr "该行顶部标签文本的字体大小\n按住 Alt 并更改以同步所有行"
+
+#: __init__.py:227
+#: __init__.py:1143
+msgid "Frame Count in Label"
+msgstr "标签中的帧数"
+
+#: __init__.py:209
+#: __init__.py:1215
+msgid "Frame Selection"
+msgstr "帧选择"
+
+#: __init__.py:220
+msgid "Frame to start capturing from\nHold Alt & change to sync across all rows"
+msgstr "开始捕获的帧\n按住 Alt 并更改以同步所有行"
+
+#: __init__.py:221
+msgid "Frame to stop capturing at (inclusive)\nHold Alt & change to sync across all rows"
+msgstr "停止捕获的帧（包含）\n按住 Alt 并更改以同步所有行"
+
+#: __init__.py:40
+msgid "Heading"
+msgstr "标题"
+
+#: __init__.py:147
+#: __init__.py:148
+msgid "Hold Alt & change to sync across all rows"
+msgstr "按住 Alt 并更改以同步所有行"
+
+#: __init__.py:231
+msgid "Horizonal margin gap (in pixels) between images within this row\nHold Alt & change to sync across all rows"
+msgstr "该行内图像之间的水平边距间隙（像素）\n按住 Alt 并更改以同步所有行"
+
+#: __init__.py:175
+msgid "Horizontal Center Bone"
+msgstr "水平中心骨骼"
+
+#: __init__.py:174
+msgid "Horizontal Center Object"
+msgstr "水平中心物体"
+
+#: __init__.py:188
+msgid "How much amount of color to keep within the row\nHold Alt & change to sync across all rows"
+msgstr "该行中保留的颜色量\n按住 Alt 并更改以同步所有行"
+
+#: __init__.py:41
+msgid "Icon"
+msgstr "图标"
+
+#: __init__.py:189
+msgid "If any pixel in the row has a transparency less than this amount then it is discarded\nSet as 1.0 if to remove all semi-transparent pixel\nHold Alt & change to sync across all rows"
+msgstr "如果该行中任何像素的透明度低于此值，则将其丢弃\n设为 1.0 可移除所有半透明像素\n按住 Alt 并更改以同步所有行"
+
+#: __init__.py:140
+msgid "If disabled this row will not be included while creating the sprite sheet\nHold Alt & change to sync across all rows"
+msgstr "如果禁用，创建精灵图集时将不包含该行\n按住 Alt 并更改以同步所有行"
+
+#: __init__.py:200
+msgid "If enabled the rendered image is flipped horizontally before saving into temp folder\nHold Alt & change to sync across all rows"
+msgstr "如果启用，渲染图像在保存到临时文件夹前会水平翻转\n按住 Alt 并更改以同步所有行"
+
+#: __init__.py:201
+msgid "If enabled the rendered image is flipped vertically before saving into temp folder\nHold Alt & change to sync across all rows"
+msgstr "如果启用，渲染图像在保存到临时文件夹前会垂直翻转\n按住 Alt 并更改以同步所有行"
+
+#: __init__.py:186
+msgid "If enabled the row is pixelated\nHold Alt & change to sync across all rows"
+msgstr "如果启用，该行将被像素化\n按住 Alt 并更改以同步所有行"
+
+#: __init__.py:227
+msgid "If enabled, appends the frame count of this row to its label as ' [<frame count>]'\nHold Alt & change to sync across all rows"
+msgstr "如果启用，将该行的帧数附加到其标签，格式为“ [<帧数>]”\n按住 Alt 并更改以同步所有行"
+
+#: __init__.py:228
+msgid "If enabled, appends the size of this row to its label as ' (<width>x<height>)'\nIf both 'Frame Count in Label' and this are enabled, frame count is shown first\nHold Alt & change to sync across all rows"
+msgstr "如果启用，将该行的尺寸附加到其标签，格式为“ (<宽度>x<高度>)”\n如果同时启用“标签中的帧数”和此项，则先显示帧数\n按住 Alt 并更改以同步所有行"
+
+#: __init__.py:231
+#: __init__.py:1152
+msgid "Image Margin"
+msgstr "图像边距"
+
+#: __init__.py:179
+msgid "Include all armature bones when calculating auto-capture camera bounds to ensure they remain within camera view\nHold Alt & change to sync across all rows"
+msgstr "计算自动捕获相机边界时包含所有骨架骨骼，以确保它们保持在相机视图内\n按住 Alt 并更改以同步所有行"
+
+#: __init__.py:141
+#: __init__.py:1165
+msgid "Label"
+msgstr "标签"
+
+#: __init__.py:229
+#: __init__.py:1134
+msgid "Label Color"
+msgstr "标签颜色"
+
+#: __init__.py:226
+#: __init__.py:1139
+msgid "Label Font Size"
+msgstr "标签字体大小"
+
+#: __init__.py:230
+#: __init__.py:1148
+msgid "Label Margin"
+msgstr "标签边距"
+
+#: __init__.py:1253
+msgid "Left"
+msgstr "左侧"
+
+#: __init__.py:276
+msgid "Margin (in pixels) to add to the bottom of the sprite sheet"
+msgstr "添加到精灵图集底部的边距（像素）"
+
+#: __init__.py:277
+msgid "Margin (in pixels) to add to the left of the sprite sheet"
+msgstr "添加到精灵图集左侧的边距（像素）"
+
+#: __init__.py:275
+msgid "Margin (in pixels) to add to the right of the sprite sheet"
+msgstr "添加到精灵图集右侧的边距（像素）"
+
+#: __init__.py:274
+msgid "Margin (in pixels) to add to the top of the sprite sheet"
+msgstr "添加到精灵图集顶部的边距（像素）"
+
+#: __init__.py:205
+msgid "Max Columns"
+msgstr "最大列数"
+
+#: __init__.py:205
+msgid "Maximum sprite columns in this row before wrapping into a new line\nSet to 0 for no limit\nHold Alt & change to sync across all rows"
+msgstr "该行换行前的最大精灵列数\n设为 0 表示无限制\n按住 Alt 并更改以同步所有行"
+
+#: __init__.py:189
+#: __init__.py:1111
+msgid "Min Alpha"
+msgstr "最小 Alpha"
+
+#: __init__.py:180
+msgid "Number of pixels rendered per one world space meter unit\nHold Alt & change to sync across all rows"
+msgstr "每世界空间米单位渲染的像素数\n按住 Alt 并更改以同步所有行"
+
+#: __init__.py:82
+msgid "Object"
+msgstr "物体"
+
+#: __init__.py:174
+msgid "Object whose origin will be used as the horizontal center for each sprite frame\nHold Alt & change to sync across all rows"
+msgstr "其原点将用作每个精灵帧水平中心的物体\n按住 Alt 并更改以同步所有行"
+
+#: __init__.py:176
+msgid "Object whose origin will be used as the vertically center for each sprite frame\nHold Alt & change to sync across all rows"
+msgstr "将其原点用作每个精灵帧垂直中心的物体\n按住 Alt 并修改可同步到所有行"
+
+#: __init__.py:171
+msgid "Orbit rotation around X axis of capture objects\nHold Alt & change to sync across all rows"
+msgstr "捕获物体绕 X 轴的轨道旋转\n按住 Alt 并修改可同步到所有行"
+
+#: __init__.py:170
+msgid "Orbit rotation around Z axis of capture objects\nHold Alt & change to sync across all rows"
+msgstr "捕获物体绕 Z 轴的轨道旋转\n按住 Alt 并修改可同步到所有行"
+
+#: __init__.py:171
+msgid "Orbit-X"
+msgstr "轨道 X"
+
+#: __init__.py:170
+msgid "Orbit-Z"
+msgstr "轨道 Z"
+
+#: __init__.py:295
+#: __init__.py:1335
+msgid "Output Folder"
+msgstr "输出文件夹"
+
+#: __init__.py:1228
+msgid "Output Settings"
+msgstr "输出设置"
+
+#: __init__.py:191
+msgid "Pixelate Image Path"
+msgstr "像素化图像路径"
+
+#: __init__.py:1109
+msgid "Pixelation"
+msgstr "像素化"
+
+#: __init__.py:187
+msgid "Pixelation Amount"
+msgstr "像素化强度"
+
+#: __init__.py:188
+msgid "Pixelation Color Amount"
+msgstr "像素化颜色强度"
+
+#: __init__.py:1093
+msgid "Pixelation Settings"
+msgstr "像素化设置"
+
+#: __init__.py:180
+#: __init__.py:1083
+msgid "Pixels Per Meter"
+msgstr "每米像素数"
+
+#: __init__.py:143
+msgid "Pointer tracking active item inside collection"
+msgstr "指向集合内活动项的指针"
+
+#: __init__.py:1251
+msgid "Right"
+msgstr "右"
+
+#: __init__.py:172
+msgid "Roll"
+msgstr "滚转"
+
+#: __init__.py:172
+msgid "Roll rotation around cameras on pointing axis\nHold Alt & change to sync across all rows"
+msgstr "绕相机指向轴的滚转旋转\n按住 Alt 并修改可同步到所有行"
+
+#: __init__.py:232
+#: __init__.py:1157
+msgid "Row Margin"
+msgstr "行边距"
+
+#: __init__.py:228
+#: __init__.py:1144
+msgid "Row Size in Label"
+msgstr "标签中的行尺寸"
+
+#: __init__.py:1285
+msgid "Rows"
+msgstr "行"
+
+#: __init__.py:149
+msgid "Show Appearance Settings"
+msgstr "显示外观设置"
+
+#: __init__.py:147
+msgid "Show Camera Settings"
+msgstr "显示相机设置"
+
+#: __init__.py:304
+msgid "Show Output Settings"
+msgstr "显示输出设置"
+
+#: __init__.py:148
+msgid "Show Pixelation Settings"
+msgstr "显示像素化设置"
+
+#: __init__.py:303
+msgid "Show Row Info"
+msgstr "显示行信息"
+
+#: __init__.py:84
+#: __init__.py:319
+msgid "Slot"
+msgstr "槽位"
+
+#: __init__.py:234
+#: __init__.py:245
+msgid "Sprite Align"
+msgstr "精灵对齐"
+
+#: __init__.py:1202
+msgid "Sprite Consistency"
+msgstr "精灵一致性"
+
+#: __init__.py:1
+msgid "Sprite Sheet Maker"
+msgstr "精灵表制作器"
+
+#: __init__.py:1024
+msgid "SpriteSheetMaker"
+msgstr "SpriteSheetMaker"
+
+#: __init__.py:220
+#: __init__.py:1220
+msgid "Start"
+msgstr "开始"
+
+#: __init__.py:233
+#: __init__.py:1158
+msgid "Sub Row Margin"
+msgstr "子行边距"
+
+#: __init__.py:276
+msgid "Surrounding Margin Bottom"
+msgstr "底部外围边距"
+
+#: __init__.py:277
+msgid "Surrounding Margin Left"
+msgstr "左侧外围边距"
+
+#: __init__.py:275
+msgid "Surrounding Margin Right"
+msgstr "右侧外围边距"
+
+#: __init__.py:274
+msgid "Surrounding Margin Top"
+msgstr "顶部外围边距"
+
+#: __init__.py:1248
+msgid "Surrounding Margins"
+msgstr "外围边距"
+
+#: __init__.py:191
+msgid "Target image to pixelate\nHold Alt & change to sync across all rows"
+msgstr "要像素化的目标图像\n按住 Alt 并修改可同步到所有行"
+
+#: __init__.py:82
+msgid "Target object to be rendered within row"
+msgstr "在行内渲染的目标物体"
+
+#: __init__.py:289
+#: __init__.py:1263
+msgid "Temp Folder"
+msgstr "临时文件夹"
+
+#: __init__.py:1117
+msgid "Test Image"
+msgstr "测试图像"
+
+#: __init__.py:141
+msgid "The text that will be added on top of the row in the sprite sheet"
+msgstr "将添加到精灵表中该行顶部的文本"
+
+#: __init__.py:154
+msgid "To Auto Capture"
+msgstr "转为自动捕获"
+
+#: __init__.py:200
+msgid "To Flip H"
+msgstr "转为水平翻转"
+
+#: __init__.py:201
+msgid "To Flip V"
+msgstr "转为垂直翻转"
+
+#: __init__.py:186
+msgid "To Pixelate"
+msgstr "转为像素化"
+
+#: __init__.py:1250
+msgid "Top"
+msgstr "顶部"
+
+#: __init__.py:85
+msgid "Tracks last assigned action name to detect when it gets removed"
+msgstr "跟踪最后分配的动作名称，以检测其何时被移除"
+
+#: __init__.py:436
+msgid "Up"
+msgstr "上"
+
+#: __init__.py:177
+msgid "Vertical Center Bone"
+msgstr "垂直中心骨骼"
+
+#: __init__.py:176
+msgid "Vertical Center Object"
+msgstr "垂直中心物体"
+
+#: __init__.py:230
+msgid "Vertical margin gap (in pixels) between the label and the images of this row\nHold Alt & change to sync across all rows"
+msgstr "该行标签与图像之间的垂直边距间隙（像素）\n按住 Alt 并修改可同步到所有行"
+
+#: __init__.py:232
+msgid "Vertical margin gap (in pixels) between this row and the next row in the sprite sheet\nHold Alt & change to sync across all rows"
+msgstr "精灵表中该行与下一行之间的垂直边距间隙（像素）\n按住 Alt 并修改可同步到所有行"
+
+#: __init__.py:233
+msgid "Vertical margin gap (in pixels) between wrapped sub rows caused by Max Columns\nHold Alt & change to sync across all rows"
+msgstr "因最大列数换行产生的子行之间的垂直边距间隙（像素）\n按住 Alt 并修改可同步到所有行"
+
+#: __init__.py:288
+msgid "Whether to delete the cache folder after sprite sheet is made\nHowever the folder will not be deleted incase of any error even if this is enabled"
+msgstr "制作精灵表后是否删除缓存文件夹\n但即使启用此选项，出现任何错误时也不会删除该文件夹"
+
+#: __init__.py:530
+msgctxt "Operator"
+msgid "Add Capture Item"
+msgstr "添加捕获项"
+
+#: __init__.py:404
+msgctxt "Operator"
+msgid "Add Row"
+msgstr "添加行"
+
+#: __init__.py:405
+msgctxt "Operator"
+msgid "Add new animation row"
+msgstr "添加新的动画行"
+
+#: __init__.py:531
+msgctxt "Operator"
+msgid "Adds a new capture item"
+msgstr "添加一个新的捕获项"
+
+#: __init__.py:805
+#: __init__.py:1269
+msgctxt "Operator"
+msgid "Combine Sprites"
+msgstr "合并精灵"
+
+#: __init__.py:806
+msgctxt "Operator"
+msgid "Combine all sprites from Temp Folder into a single sprite sheet"
+msgstr "将临时文件夹中的所有精灵合并为单个精灵表"
+
+#: __init__.py:748
+msgctxt "Operator"
+msgid "Create Auto Camera"
+msgstr "创建自动相机"
+
+#: __init__.py:841
+#: __init__.py:1343
+msgctxt "Operator"
+msgid "Create Single Sprite"
+msgstr "创建单个精灵"
+
+#: __init__.py:900
+msgctxt "Operator"
+msgid "Create Sprite Sheet"
+msgstr "创建精灵表"
+
+#: __init__.py:749
+msgctxt "Operator"
+msgid "Create camera from given auto capture parameters"
+msgstr "根据给定的自动捕获参数创建相机"
+
+#: __init__.py:357
+msgctxt "Operator"
+msgid "Duplicate Row"
+msgstr "复制行"
+
+#: __init__.py:358
+msgctxt "Operator"
+msgid "Duplicate the selected row"
+msgstr "复制选中的行"
+
+#: __init__.py:575
+#: __init__.py:1278
+msgctxt "Operator"
+msgid "Export"
+msgstr "导出"
+
+#: __init__.py:651
+#: __init__.py:1279
+msgctxt "Operator"
+msgid "Import"
+msgstr "导入"
+
+#: __init__.py:652
+msgctxt "Operator"
+msgid "Import saved settings from .json file"
+msgstr "从 .json 文件导入已保存的设置"
+
+#: __init__.py:322
+msgctxt "Operator"
+msgid "Listen for Keys"
+msgstr "监听按键"
+
+#: __init__.py:430
+msgctxt "Operator"
+msgid "Move Row"
+msgstr "移动行"
+
+#: __init__.py:431
+msgctxt "Operator"
+msgid "Move animation row up or down"
+msgstr "向上或向下移动动画行"
+
+#: __init__.py:773
+msgctxt "Operator"
+msgid "Pixelate Image"
+msgstr "像素化图像"
+
+#: __init__.py:1122
+msgctxt "Operator"
+msgid "Pixelate Test Image"
+msgstr "像素化测试图像"
+
+#: __init__.py:774
+msgctxt "Operator"
+msgid "Pixelate given test image based on the pixelation properties assigned"
+msgstr "根据指定的像素化属性对给定的测试图像进行像素化"
+
+#: __init__.py:457
+msgctxt "Operator"
+msgid "Play Preview"
+msgstr "播放预览"
+
+#: __init__.py:458
+msgctxt "Operator"
+msgid "Preview all animations associated with this row"
+msgstr "预览与此行关联的所有动画"
+
+#: __init__.py:546
+msgctxt "Operator"
+msgid "Remove Capture Item"
+msgstr "移除捕获项"
+
+#: __init__.py:417
+msgctxt "Operator"
+msgid "Remove Row"
+msgstr "移除行"
+
+#: __init__.py:418
+msgctxt "Operator"
+msgid "Remove selected animation row"
+msgstr "移除选中的动画行"
+
+#: __init__.py:547
+msgctxt "Operator"
+msgid "Removes selected capture item"
+msgstr "移除选中的捕获项"
+
+#: __init__.py:842
+msgctxt "Operator"
+msgid "Render out a single sprite of currently selected row\nUseful for verifying settings before rendering the full sheet"
+msgstr "渲染当前选中行的单个精灵\n可用于在渲染完整图集前验证设置"
+
+#: __init__.py:901
+msgctxt "Operator"
+msgid "Render out the entire sprite sheet"
+msgstr "渲染整个精灵图集"
+
+#: __init__.py:576
+msgctxt "Operator"
+msgid "Save current settings as .json file to import later"
+msgstr "将当前设置保存为 .json 文件以便之后导入"
+
+#: __init__.py:39
+msgctxt "Operator"
+msgid "SpriteSheetMaker Message"
+msgstr "SpriteSheetMaker 消息"

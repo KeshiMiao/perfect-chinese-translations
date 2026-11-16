@@ -1,0 +1,247 @@
+# perfect-chinese: 1
+# id: convert_rotation_mode
+# kind: addon
+# module: bl_ext.blender_org.convert_rotation_mode
+# name: Convert Rotation Mode
+# name_zh: 旋转模式转换
+# translator: KeshiMiao
+# category: Animation
+# supported_versions: >=4.5.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: ui.py:50
+msgid "# Bone/Body Part"
+msgstr "# 骨骼/身体部位"
+
+#: ui.py:64
+msgid "# Rotation Mode"
+msgstr "# 旋转模式"
+
+#: ui.py:12
+#: ui.py:40
+msgid "Animation"
+msgstr "动画"
+
+#: ui.py:56
+msgid "Arm Lower"
+msgstr "下臂"
+
+#: ui.py:55
+msgid "Arm Upper"
+msgstr "上臂"
+
+#: properties.py:18
+msgid "Axis Angle (WXYZ)"
+msgstr "轴角 (WXYZ)"
+
+#: properties.py:18
+msgid "Axis Angle (WXYZ) – Defines a rotation around some axis defined by 3D-Vector."
+msgstr "轴角 (WXYZ) – 定义绕由 3D 向量定义的某个轴旋转。"
+
+#: ui.py:51
+msgid "COG"
+msgstr "重心"
+
+#: ui.py:61
+msgid "Chest"
+msgstr "胸部"
+
+#: preferences.py:34
+msgid "Choose the addon's tab (default: Animation)."
+msgstr "选择插件的选项卡（默认：动画）。"
+
+#: ui.py:13
+msgid "Convert Rotation Mode"
+msgstr "转换旋转模式"
+
+#: preferences.py:23
+msgid "Enable Developer Log in System Console"
+msgstr "在系统控制台中启用开发者日志"
+
+#: ui.py:58
+msgid "Fingers"
+msgstr "手指"
+
+#: preferences.py:53
+msgid "For Mac and Linux, you need to start Blender from the terminal to see the logs."
+msgstr "在 Mac 和 Linux 上，需要从终端启动 Blender 才能查看日志。"
+
+#: ui.py:63
+msgid "Head"
+msgstr "头部"
+
+#: preferences.py:23
+msgid "Helps with debugging issues in the addon.\nPlease use this for any bug report.\nKeep it disabled for better performances."
+msgstr "有助于调试插件中的问题。\n请在提交任何错误报告时使用此功能。\n保持禁用以获得更好的性能。"
+
+#: ui.py:52
+msgid "Hip"
+msgstr "髋部"
+
+#: ui.py:53
+msgid "Leg"
+msgstr "腿"
+
+#: ui.py:62
+msgid "Neck"
+msgstr "颈部"
+
+#: ui.py:28
+msgid "Please select a bone!"
+msgstr "请选择骨骼！"
+
+#: properties.py:30
+msgid "Preserve Locks"
+msgstr "保留锁定"
+
+#: properties.py:36
+msgid "Preserve Selection"
+msgstr "保留选择"
+
+#: properties.py:24
+msgid "Preserve current frame"
+msgstr "保留当前帧"
+
+#: properties.py:24
+msgid "Preserve the current frame after conversion is done."
+msgstr "转换完成后保留当前帧。"
+
+#: properties.py:30
+msgid "Preserves lock states on rotation channels."
+msgstr "保留旋转通道上的锁定状态。"
+
+#: properties.py:36
+msgid "Preserves selection."
+msgstr "保留选择。"
+
+#: properties.py:19
+msgid "Quaternion (WXYZ)"
+msgstr "四元数 (WXYZ)"
+
+#: properties.py:19
+msgid "Quaternion (WXYZ) – No Gimbal Lock but awful for animators in Graph Editor."
+msgstr "四元数 (WXYZ) – 无万向节锁，但对动画师在曲线编辑器中很不友好。"
+
+#: ui.py:42
+msgid "Rotation Modes Cheat Sheet"
+msgstr "旋转模式速查表"
+
+#: ui.py:54
+msgid "Shoulders"
+msgstr "肩部"
+
+#: ui.py:59
+msgid "Spine Base"
+msgstr "脊柱底部"
+
+#: ui.py:60
+msgid "Spine Mid"
+msgstr "脊柱中部"
+
+#: preferences.py:34
+msgid "Tab Category"
+msgstr "选项卡类别"
+
+#: preferences.py:45
+msgid "Tab Name"
+msgstr "选项卡名称"
+
+#: properties.py:8
+#: ui.py:23
+msgid "Target Rotation Mode"
+msgstr "目标旋转模式"
+
+#: properties.py:8
+msgid "Target Rotation Mode for the conversion."
+msgstr "用于转换的目标旋转模式。"
+
+#: ui.py:57
+msgid "Wrist"
+msgstr "手腕"
+
+#: properties.py:12
+msgid "XYZ Euler"
+msgstr "XYZ 欧拉"
+
+#: properties.py:12
+msgid "XYZ Euler - Rotation Order - prone to Gimbal Lock (default)."
+msgstr "XYZ 欧拉 - 旋转顺序 - 容易产生万向节锁（默认）。"
+
+#: properties.py:13
+msgid "XZY Euler"
+msgstr "XZY 欧拉"
+
+#: properties.py:13
+msgid "XZY Euler - Rotation Order - prone to Gimbal Lock."
+msgstr "XZY 欧拉 - 旋转顺序 - 容易产生万向节锁。"
+
+#: ui.py:69
+#: ui.py:76
+msgid "YXZ"
+msgstr "YXZ"
+
+#: properties.py:14
+msgid "YXZ Euler"
+msgstr "YXZ 欧拉"
+
+#: properties.py:14
+msgid "YXZ Euler - Rotation Order - prone to Gimbal Lock."
+msgstr "YXZ 欧拉 - 旋转顺序 - 容易产生万向节锁。"
+
+#: ui.py:66
+#: ui.py:68
+msgid "YZX"
+msgstr "YZX"
+
+#: properties.py:15
+msgid "YZX Euler"
+msgstr "YZX 欧拉"
+
+#: properties.py:15
+msgid "YZX Euler - Rotation Order - prone to Gimbal Lock."
+msgstr "YZX 欧拉 - 旋转顺序 - 容易产生万向节锁。"
+
+#: ui.py:65
+#: ui.py:67
+msgid "ZXY"
+msgstr "ZXY"
+
+#: properties.py:16
+msgid "ZXY Euler"
+msgstr "ZXY 欧拉"
+
+#: properties.py:16
+msgid "ZXY Euler - Rotation Order - prone to Gimbal Lock."
+msgstr "ZXY 欧拉 - 旋转顺序 - 容易产生万向节锁。"
+
+#: ui.py:70
+#: ui.py:71
+msgid "ZYX (or YZX)"
+msgstr "ZYX（或 YZX）"
+
+#: properties.py:17
+msgid "ZYX Euler"
+msgstr "ZYX 欧拉"
+
+#: properties.py:17
+msgid "ZYX Euler - Rotation Order - prone to Gimbal Lock."
+msgstr "ZYX 欧拉 - 旋转顺序 - 容易产生万向节锁。"
+
+#: operators.py:21
+msgctxt "Operator"
+msgid "Convert Rotation Mode"
+msgstr "转换旋转模式"
+
+#: operators.py:22
+msgctxt "Operator"
+msgid "Convert the selected bone's rotation mode."
+msgstr "转换所选骨骼的旋转模式。"
+
+#: ui.py:31
+msgctxt "Operator"
+msgid "Convert!"
+msgstr "转换！"
