@@ -1,0 +1,577 @@
+# perfect-chinese: 1
+# id: node_preview
+# kind: addon
+# module: bl_ext.blender_org.node_preview
+# name: Node Preview Thumbnails
+# name_zh: 节点预览缩略图
+# translator: KeshiMiao
+# category: Node
+# supported_versions: >=5.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: operators.py:121
+msgid "1024 px"
+msgstr "1024 px"
+
+#: operators.py:121
+msgid "2048 px"
+msgstr "2048 px"
+
+#: operators.py:120
+msgid "256 px"
+msgstr "256 px"
+
+#: operators.py:120
+msgid "512 px"
+msgstr "512 px"
+
+#: props.py:231
+msgid "Above"
+msgstr "上方"
+
+#: props.py:231
+msgid "Above the node"
+msgstr "节点上方"
+
+#: props.py:151
+msgid "Advanced"
+msgstr "高级"
+
+#: props.py:74
+msgid "All"
+msgstr "全部"
+
+#: operators.py:123
+msgid "Also load the saved PNG as an image data-block"
+msgstr "同时将保存的 PNG 加载为图像数据块"
+
+#: props.py:126
+msgid "Also preview texture / math / colour nodes in Geometry Nodes as a flat swatch (isolated node, socket defaults)"
+msgstr "同时将几何节点中的纹理/数学/颜色节点预览为平面色块（孤立节点，使用插槽默认值）"
+
+#: props.py:137
+msgid "Also preview the nodes inside a compositor node group when you enter it"
+msgstr "进入合成器节点组时，也预览其中的节点"
+
+#: props.py:62
+msgid "Auto"
+msgstr "自动"
+
+#: eligibility.py:114
+msgid "Auto (first linked)"
+msgstr "自动（第一个已连接）"
+
+#: props.py:67
+msgid "Auto Update"
+msgstr "自动更新"
+
+#: ui.py:84
+msgid "BLENDER_"
+msgstr "BLENDER_"
+
+#: props.py:232
+msgid "Below"
+msgstr "下方"
+
+#: props.py:232
+msgid "Below the node"
+msgstr "节点下方"
+
+#: props.py:245
+msgid "Checkerboard"
+msgstr "棋盘格"
+
+#: props.py:64
+msgid "Chinese"
+msgstr "中文"
+
+#: props.py:131
+msgid "Compositor"
+msgstr "合成器"
+
+#: props.py:142
+msgid "Compositor Scene Cache"
+msgstr "合成器场景缓存"
+
+#: props.py:172
+msgid "Constraints"
+msgstr "约束"
+
+#: props.py:110
+msgid "Cube"
+msgstr "立方体"
+
+#: props.py:245
+msgid "Draw a checkerboard behind thumbnails so transparency shows"
+msgstr "在缩略图后绘制棋盘格以显示透明区域"
+
+#: props.py:236
+msgid "Draw the active node's thumbnail larger, on top (Ctrl+Alt+Z in the node editor)"
+msgstr "将活动节点的缩略图放大并绘制在顶层（节点编辑器中按 Ctrl+Alt+Z）"
+
+#: props.py:212
+msgid "Drivers"
+msgstr "驱动器"
+
+#: props.py:212
+msgid "Drivers on hidden objects, their data, materials and node trees: definitions and target values (expressions are never run). Medium cost. If unticked, press Refresh after changing this"
+msgstr "隐藏对象、其数据、材质和节点树上的驱动器：定义和目标值（表达式从不执行）。中等开销。若未勾选，更改此项后请按刷新"
+
+#: __init__.py:101
+#: props.py:63
+msgid "EN"
+msgstr "英文"
+
+#: props.py:63
+msgid "English"
+msgstr "英语"
+
+#: props.py:241
+msgid "Enlarge"
+msgstr "放大"
+
+#: props.py:236
+msgid "Enlarge Active Node"
+msgstr "放大活动节点"
+
+#: props.py:113
+msgid "Environment"
+msgstr "环境"
+
+#: preview_scene.py:60
+msgid "Even white environment (World Light sets its strength)"
+msgstr "均匀白色环境（世界光设置其强度）"
+
+#: operators.py:166
+msgid "Export failed (see the system console)"
+msgstr "导出失败（请查看系统控制台）"
+
+#: props.py:111
+msgid "Flat lit swatch"
+msgstr "平面受光色块"
+
+#: props.py:62
+msgid "Follow Blender's language setting"
+msgstr "跟随 Blender 的语言设置"
+
+#: props.py:122
+msgid "Geometry Nodes"
+msgstr "几何节点"
+
+#: props.py:172
+msgid "Hidden objects' constraint settings and target names. Very low cost. If unticked, press Refresh after changing this"
+msgstr "隐藏对象的约束设置和目标名称。开销极低。若未勾选，更改此项后请按刷新"
+
+#: props.py:160
+msgid "Hidden objects' location, rotation, scale, parent and visibility. Very low cost. If unticked, press Refresh after changing this"
+msgstr "隐藏对象的位置、旋转、缩放、父级和可见性。开销极低。若未勾选，更改此项后请按刷新"
+
+#: props.py:184
+msgid "Hidden objects' materials and light node trees (structure and node settings, not image content). Medium cost. If unticked, press Refresh after changing this"
+msgstr "隐藏对象的材质和灯光节点树（结构和节点设置，不含图像内容）。中等开销。若未勾选，更改此项后请按刷新"
+
+#: props.py:178
+msgid "Hidden objects' mesh / curve data (vertex positions, attributes ...). Cost grows with the vertex count. If unticked, press Refresh after changing this"
+msgstr "隐藏对象的网格/曲线数据（顶点位置、属性等）。开销随顶点数增加。若未勾选，更改此项后请按刷新"
+
+#: props.py:166
+msgid "Hidden objects' modifier settings, including Geometry Nodes trees. Low cost. If unticked, press Refresh after changing this"
+msgstr "隐藏对象的修改器设置，包括几何节点树。开销低。若未勾选，更改此项后请按刷新"
+
+#: props.py:206
+msgid "Hidden objects' particle settings, and the textures their modifiers and particles use. Medium cost. If unticked, press Refresh after changing this"
+msgstr "隐藏对象的粒子设置，以及其修改器和粒子使用的纹理。中等开销。若未勾选，更改此项后请按刷新"
+
+#: props.py:89
+msgid "High (256px)"
+msgstr "高（256px）"
+
+#: props.py:142
+msgid "How compositor previews get the scene they composite"
+msgstr "合成器预览获取所合成场景的方式"
+
+#: props.py:191
+msgid "Image Settings"
+msgstr "图像设置"
+
+#: props.py:137
+msgid "Inside Node Groups"
+msgstr "节点组内部"
+
+#: props.py:120
+msgid "Key Light"
+msgstr "主光"
+
+#: props.py:58
+msgid "Language"
+msgstr "语言"
+
+#: props.py:233
+msgid "Left"
+msgstr "左侧"
+
+#: props.py:233
+msgid "Left of the node"
+msgstr "节点左侧"
+
+#: props.py:113
+msgid "Lighting for shader balls: an even white world, or one of Blender's bundled studio HDRIs"
+msgstr "着色器球体的光照：均匀白色世界，或 Blender 捆绑的工作室 HDRI 之一"
+
+#: props.py:151
+msgid "Like Simple, with a checklist of what is checked on hidden objects: tick more to cover more kinds of edits, untick to make the check cheaper. Its defaults equal Simple"
+msgstr "与简单模式类似，但提供隐藏对象检查项清单：勾选更多可覆盖更多类型的编辑，取消勾选可降低检查开销。其默认值等同于简单模式"
+
+#: props.py:110
+msgid "Lit cube, three faces visible"
+msgstr "受光立方体，可见三个面"
+
+#: props.py:88
+msgid "Low (64px)"
+msgstr "低（64px）"
+
+#: props.py:77
+msgid "Marked"
+msgstr "已标记"
+
+#: props.py:109
+msgid "Material-ball preview, lit"
+msgstr "受光材质球预览"
+
+#: props.py:184
+msgid "Materials and Light Nodes"
+msgstr "材质和灯光节点"
+
+#: __init__.py:83
+msgid "Max Cached Thumbnails"
+msgstr "最大缓存缩略图数"
+
+#: props.py:88
+msgid "Medium (128px)"
+msgstr "中（128px）"
+
+#: props.py:166
+msgid "Modifiers"
+msgstr "修改器"
+
+#: props.py:91
+msgid "Most previews rendered per step"
+msgstr "每步最多渲染的预览数"
+
+#: ui.py:53
+msgid "Node Preview"
+msgstr "节点预览"
+
+#: props.py:91
+msgid "Nodes / Tick"
+msgstr "节点 / 勾选"
+
+#: props.py:178
+msgid "Object Data"
+msgstr "物体数据"
+
+#: props.py:197
+msgid "Objects hidden objects reach (parent, constraint targets, Boolean / Array objects, Object Info sources, Texture Coordinate objects ...), transitively, even when disabled in renders. Medium to high cost: a large referenced collection can make it expensive. If unticked, press Refresh after changing this"
+msgstr "隐藏对象可到达的物体（父级、约束目标、布尔/阵列对象、物体信息源、纹理坐标对象等），包括传递引用，即使它们在渲染中禁用。中到高开销：引用大型集合可能使其开销很高。若未勾选，更改此项后请按刷新"
+
+#: props.py:145
+msgid "Off"
+msgstr "关闭"
+
+#: props.py:69
+msgid "Only Texture / Shader Nodes"
+msgstr "仅纹理/着色器节点"
+
+#: props.py:75
+msgid "Only preview nodes that are selected in the editor — select nodes to control what shows"
+msgstr "仅预览编辑器中选中的节点——选择节点以控制显示内容"
+
+#: props.py:77
+msgid "Only preview nodes whose 'Show Preview' checkbox is on (right-click a node, or use the buttons below)"
+msgstr "仅预览“显示预览”复选框已开启的节点（右键单击节点，或使用下方按钮）"
+
+#: operators.py:123
+msgid "Open in Blender"
+msgstr "在 Blender 中打开"
+
+#: props.py:250
+msgid "Orange outline: waiting to re-render. Red outline / '!': the last render failed (see the system console)"
+msgstr "橙色轮廓：等待重新渲染。红色轮廓/!：上次渲染失败（请查看系统控制台）"
+
+#: __init__.py:117
+msgid "P"
+msgstr "P"
+
+#: ui.py:25
+msgid "Page"
+msgstr "页面"
+
+#: props.py:206
+msgid "Particles and Textures"
+msgstr "粒子和纹理"
+
+#: props.py:111
+msgid "Plane"
+msgstr "平面"
+
+#: props.py:228
+msgid "Position"
+msgstr "位置"
+
+#: ui.py:57
+msgid "Preview"
+msgstr "预览"
+
+#: props.py:71
+msgid "Preview Scope"
+msgstr "预览范围"
+
+#: __init__.py:167
+msgid "Preview Socket"
+msgstr "预览插槽"
+
+#: operators.py:85
+msgid "Preview cache cleared"
+msgstr "预览缓存已清除"
+
+#: props.py:131
+msgid "Preview compositor nodes (rendered through the compositor; Compositor Scene Cache sets how the scene is rendered for them)"
+msgstr "预览合成器节点（通过合成器渲染；合成器场景缓存决定其场景的渲染方式）"
+
+#: props.py:74
+msgid "Preview every eligible node"
+msgstr "预览所有符合条件的节点"
+
+#: props.py:80
+msgid "Preview every linked output of a node side by side (in a 2-column grid), instead of a single Preview Socket. One render per linked output"
+msgstr "并排预览节点的所有已连接输出（2 列网格），而非单个预览插槽。每个已连接输出渲染一次"
+
+#: props.py:122
+msgid "Preview geometry-output nodes as a small 3D render"
+msgstr "以小型 3D 渲染预览输出几何体的节点"
+
+#: eligibility.py:114
+msgid "Preview the first linked output, or the first output if none is linked"
+msgstr "预览第一个已连接的输出；若无连接则预览第一个输出"
+
+#: props.py:219
+msgid "Preview world / environment shader nodes"
+msgstr "预览世界/环境着色器节点"
+
+#: props.py:86
+msgid "Quality"
+msgstr "质量"
+
+#: __init__.py:118
+msgid "R"
+msgstr "R"
+
+#: props.py:101
+msgid "Re-render previews when the frame changes (Scene Time, image sequences, simulations) and keep rendering during playback. Off: previews pause while animation plays"
+msgstr "帧变化时重新渲染预览（场景时间、图像序列、模拟），并在播放期间持续渲染。关闭：播放动画时暂停预览"
+
+#: props.py:197
+msgid "Referenced Objects"
+msgstr "引用的物体"
+
+#: props.py:145
+msgid "Render the scene for every compositor node: always current, slowest"
+msgstr "为每个合成器节点渲染场景：始终最新，最慢"
+
+#: props.py:147
+msgid "Render the scene once and re-composite each node from it. Follows the edits Blender reports, and the content of objects hidden in the viewport or in excluded collections (see the help for what it can miss)"
+msgstr "渲染一次场景，再据此对每个节点重新合成。会跟随 Blender 报告的编辑，以及视图中隐藏或排除集合中物体的内容（可能遗漏的情况见帮助）"
+
+#: props.py:234
+msgid "Right"
+msgstr "右侧"
+
+#: props.py:234
+msgid "Right of the node"
+msgstr "节点右侧"
+
+#: operators.py:144
+msgid "Run Export from a node editor with an active node"
+msgstr "在节点编辑器中以活动节点运行导出"
+
+#: props.py:75
+msgid "Selected"
+msgstr "已选"
+
+#: props.py:107
+msgid "Shader Shape"
+msgstr "着色器形状"
+
+#: props.py:80
+msgid "Show All Linked Outputs"
+msgstr "显示所有已连接输出"
+
+#: __init__.py:162
+msgid "Show Preview"
+msgstr "显示预览"
+
+#: props.py:66
+msgid "Show Previews"
+msgstr "显示预览"
+
+#: props.py:255
+msgid "Show Values"
+msgstr "显示数值"
+
+#: __init__.py:162
+msgid "Show this node's preview thumbnail (applies when Preview Scope is Marked)"
+msgstr "显示此节点的预览缩略图（预览范围设为已标记时生效）"
+
+#: props.py:147
+msgid "Simple"
+msgstr "简单"
+
+#: operators.py:118
+msgid "Size"
+msgstr "大小"
+
+#: props.py:241
+msgid "Size of the active node's thumbnail when enlarged"
+msgstr "放大时活动节点缩略图的大小"
+
+#: props.py:109
+msgid "Sphere"
+msgstr "球体"
+
+#: props.py:250
+msgid "Status Markers"
+msgstr "状态标记"
+
+#: props.py:95
+msgid "Stop a step's renders once this much time is spent (at least one render per step). Lower = smoother UI, slower refresh"
+msgstr "当某一步骤耗时达到该值时停止渲染（每步至少渲染一次）。数值越低界面越流畅，但刷新越慢"
+
+#: props.py:126
+msgid "Texture / Math Nodes"
+msgstr "纹理/数学节点"
+
+#: props.py:191
+msgid "The images those node trees use (generated settings, file changes, painting). Very low cost. If unticked, press Refresh after changing this"
+msgstr "这些节点树使用的图像（生成设置、文件更改、绘制）。开销很低。若未勾选，更改此项后需按刷新"
+
+#: operators.py:153
+msgid "This node can't be previewed here"
+msgstr "此节点无法在此预览"
+
+#: props.py:224
+msgid "Thumbnail Size"
+msgstr "缩略图大小"
+
+#: props.py:224
+msgid "Thumbnail width relative to the node's width"
+msgstr "缩略图宽度相对于节点宽度"
+
+#: __init__.py:83
+msgid "Thumbnails kept in GPU memory; the least recently shown are released above this (the node editor you are looking at always keeps its own). Approx. per 100 thumbnails: 3 MB at Low (64px), 13 MB at Medium (128px), 50 MB at High (256px)"
+msgstr "保留在 GPU 内存中的缩略图数量；超出后释放最久未显示的（当前查看的节点编辑器始终保留自己的）。约每 100 张缩略图：低 (64px) 3 MB，中 (128px) 13 MB，高 (256px) 50 MB"
+
+#: props.py:95
+msgid "Time Budget"
+msgstr "时间预算"
+
+#: props.py:160
+msgid "Transform and Visibility"
+msgstr "变换与可见性"
+
+#: props.py:58
+msgid "UI language. Auto follows Blender's language setting (non-Chinese falls back to English)"
+msgstr "界面语言。自动跟随 Blender 的语言设置（非中文时回退为英文）"
+
+#: preview_scene.py:60
+msgid "Uniform"
+msgstr "均匀"
+
+#: props.py:101
+msgid "Update on Frame Change"
+msgstr "帧变化时更新"
+
+#: props.py:228
+msgid "Where the thumbnail sits relative to its node"
+msgstr "缩略图相对于其节点的位置"
+
+#: props.py:71
+msgid "Which nodes get a preview thumbnail"
+msgstr "哪些节点显示预览缩略图"
+
+#: __init__.py:167
+msgid "Which output of this node to preview (Auto = the first linked output)"
+msgstr "预览此节点的哪个输出（自动 = 第一个已连接的输出）"
+
+#: props.py:219
+msgid "World"
+msgstr "世界"
+
+#: props.py:118
+msgid "World Light"
+msgstr "世界光照"
+
+#: props.py:255
+msgid "Write the number on a Value swatch when the whole swatch is one value (e.g. a Math node with fixed inputs)"
+msgstr "当整个数值色块为单一数值时，在该色块上写出数字（例如输入固定的数学节点）"
+
+#: __init__.py:119
+msgid "Z"
+msgstr "Z"
+
+#: props.py:64
+msgid "中文"
+msgstr "中文"
+
+#: operators.py:76
+msgctxt "Operator"
+msgid "Clear Cache"
+msgstr "清除缓存"
+
+#: ui.py:20
+msgctxt "Operator"
+msgid "Explain what each option and button does"
+msgstr "说明每个选项和按钮的作用"
+
+#: operators.py:111
+msgctxt "Operator"
+msgid "Export Preview"
+msgstr "导出预览"
+
+#: operators.py:51
+msgctxt "Operator"
+msgid "Mark Selected For Preview"
+msgstr "标记所选以预览"
+
+#: ui.py:19
+msgctxt "Operator"
+msgid "Node Preview — Help"
+msgstr "节点预览 — 帮助"
+
+#: operators.py:30
+msgctxt "Operator"
+msgid "Re-render all node previews in the current editor"
+msgstr "重新渲染当前编辑器中的所有节点预览"
+
+#: operators.py:29
+msgctxt "Operator"
+msgid "Refresh Previews"
+msgstr "刷新预览"
+
+#: operators.py:77
+msgctxt "Operator"
+msgid "Remove all cached preview thumbnails"
+msgstr "移除所有缓存的预览缩略图"
+
+#: operators.py:112
+msgctxt "Operator"
+msgid "Render the active node's preview at the chosen size and save it as a PNG"
+msgstr "以所选大小渲染活动节点的预览并保存为 PNG"
+
+#: operators.py:52
+msgctxt "Operator"
+msgid "Turn the preview checkbox on/off for the selected nodes"
+msgstr "对所选节点打开/关闭预览复选框"

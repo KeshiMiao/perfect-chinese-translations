@@ -1,0 +1,119 @@
+# perfect-chinese: 1
+# id: animcurvesorter
+# kind: addon
+# module: bl_ext.blender_org.AnimCurveSorter
+# name: Anim Curve Sorter
+# name_zh: 动画曲线整理
+# translator: KeshiMiao
+# category: Animation
+# supported_versions: >=4.4.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: ui.py:26
+msgid "Action to Copy From"
+msgstr "复制来源动作"
+
+#: operators.py:22
+msgid "Active action has no slots assigned, please assign one"
+msgstr "当前动作未分配槽位，请先分配一个"
+
+#: operators.py:19
+msgid "Active object has no action assigned, please assign one"
+msgstr "当前物体未分配动作，请先分配一个"
+
+#: operators.py:86
+msgid "Active object is not an armature! Please select the armature you want to sort by"
+msgstr "当前物体不是骨架！请选择要作为排序依据的骨架"
+
+#: ui.py:48
+#: ui.py:58
+msgid "Anim Curve Sorter"
+msgstr "动画曲线排序器"
+
+#: ui.py:13
+msgid "Apply Only to Active Action?"
+msgstr "仅应用于当前动作？"
+
+#: ui.py:40
+msgid "Master Action"
+msgstr "主动作"
+
+#: operators.py:219
+msgid "Master action is invalid, copy cancelled!"
+msgstr "主动作无效，已取消复制！"
+
+#: operators.py:212
+msgid "No action assigned to copy groups from!"
+msgstr "未分配用于复制组的动作！"
+
+#: ui.py:49
+#: ui.py:59
+msgid "Sort Curve Groups"
+msgstr "排序曲线组"
+
+#: operators.py:16
+#: operators.py:83
+msgid "There is no active object!"
+msgstr "没有当前物体！"
+
+#: ui.py:41
+msgid "UseSelected?"
+msgstr "使用所选？"
+
+#: ui.py:4
+msgid "_NONE_"
+msgstr "_NONE_"
+
+#: operators.py:46
+msgctxt "Operator"
+msgid "AlphabetiseAll"
+msgstr "全部按字母排序"
+
+#: ui.py:22
+msgctxt "Operator"
+msgid "Copy Groups to All Actions"
+msgstr "复制组到所有动作"
+
+#: operators.py:202
+msgctxt "Operator"
+msgid "CopyGroupstoAll"
+msgstr "复制组到全部"
+
+#: ui.py:36
+msgctxt "Operator"
+msgid "Group Non-Bone Custom Properties"
+msgstr "将非骨骼自定义属性分组"
+
+#: ui.py:35
+msgctxt "Operator"
+msgid "Group Orphaned Curves"
+msgstr "将孤立曲线分组"
+
+#: operators.py:174
+msgctxt "Operator"
+msgid "GroupCustomProperties"
+msgstr "分组自定义属性"
+
+#: operators.py:142
+msgctxt "Operator"
+msgid "GroupOrphanedCurves"
+msgstr "分组孤立曲线"
+
+#: ui.py:17
+msgctxt "Operator"
+msgid "Sort All Actions Alphabetically"
+msgstr "按字母顺序排序所有动作"
+
+#: ui.py:18
+msgctxt "Operator"
+msgid "Sort All Actions by Rig Hierarchy"
+msgstr "按绑定层级排序所有动作"
+
+#: operators.py:74
+msgctxt "Operator"
+msgid "SortbyRigHierarchy"
+msgstr "按绑定层级排序"

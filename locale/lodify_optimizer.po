@@ -1,0 +1,639 @@
+# perfect-chinese: 1
+# id: lodify_optimizer
+# kind: addon
+# module: bl_ext.blender_org.lodify_optimizer
+# name: LODify
+# name_zh: 细节层级优化
+# translator: KeshiMiao
+# category: Object
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: ui/main_panels.py:192
+msgid "(No resized sets found)"
+msgstr "（未找到已调整尺寸的集合）"
+
+#: ui/main_panels.py:28
+msgid "1. Collection Analyzer"
+msgstr "1. 集合分析器"
+
+#: properties.py:89
+msgid "1024 px"
+msgstr "1024 px"
+
+#: properties.py:88
+msgid "128 px"
+msgstr "128 px"
+
+#: ui/main_panels.py:70
+msgid "2. View Analyzer"
+msgstr "2. 视图分析器"
+
+#: properties.py:89
+msgid "2048 px"
+msgstr "2048 px"
+
+#: properties.py:88
+msgid "256 px"
+msgstr "256 px"
+
+#: ui/main_panels.py:93
+msgid "3. Image Resizer"
+msgstr "3. 图像尺寸调整"
+
+#: ui/main_panels.py:195
+msgid "4. LOD Manager"
+msgstr "4. LOD 管理器"
+
+#: ui/main_panels.py:306
+msgid "5. Clean Up & Storage"
+msgstr "5. 清理与存储"
+
+#: properties.py:88
+msgid "512 px"
+msgstr "512 px"
+
+#: ui/main_panels.py:361
+msgid "6. Experimental Features"
+msgstr "6. 实验性功能"
+
+#: ui/main_panels.py:150
+msgid "AI / Camera Optimization"
+msgstr "AI / 相机优化"
+
+#: properties.py:66
+msgid "Advanced"
+msgstr "高级"
+
+#: operators/analyzer.py:25
+msgid "Analyzing Collections..."
+msgstr "正在分析集合..."
+
+#: ui/main_panels.py:285
+msgid "Auto Edge Protection"
+msgstr "自动边缘保护"
+
+#: ui/main_panels.py:153
+msgid "Auto-calculate size based on screen coverage"
+msgstr "根据屏幕占比自动计算尺寸"
+
+#: properties.py:105
+msgid "Camera used for screen coverage calculation"
+msgstr "用于屏幕占比计算的相机"
+
+#: properties.py:118
+msgid "Change object display mode (Solid/Wire/Bounds) based on distance"
+msgstr "根据距离更改物体显示模式（实体/线框/边界）"
+
+#: properties.py:54
+msgid "Collection Analyzer Toggle"
+msgstr "集合分析器开关"
+
+#: ui/main_panels.py:46
+msgid "Color Thresholds (Vertex %)"
+msgstr "颜色阈值（顶点 %）"
+
+#: properties.py:89
+msgid "Custom"
+msgstr "自定义"
+
+#: properties.py:95
+msgid "Custom Path"
+msgstr "自定义路径"
+
+#: properties.py:93
+msgid "Custom Px"
+msgstr "自定义 px"
+
+#: ui/main_panels.py:320
+msgid "Data Cleanup"
+msgstr "数据清理"
+
+#: properties.py:141
+msgid "Decimate Modifier"
+msgstr "精简修改器"
+
+#: properties.py:65
+msgid "Default"
+msgstr "默认"
+
+#: ui/main_panels.py:329
+msgid "Disk Storage Management"
+msgstr "磁盘存储管理"
+
+#: ui/main_panels.py:395
+msgid "Displacement Scale Multipliers"
+msgstr "置换缩放倍数"
+
+#: ui/main_panels.py:287
+msgid "Distance-based Collapse"
+msgstr "基于距离的塌陷"
+
+#: properties.py:96
+msgid "Duplicate Files"
+msgstr "重复文件"
+
+#: ui/main_panels.py:259
+#: ui/main_panels.py:379
+msgid "Enable"
+msgstr "启用"
+
+#: operators/shader_lod.py:49
+msgid "Enable 'Shader LOD' first."
+msgstr "请先启用「Shader LOD」。"
+
+#: properties.py:133
+msgid "Enable Geometry LOD"
+msgstr "启用几何体 LOD"
+
+#: properties.py:173
+msgid "Enable Shader LOD"
+msgstr "启用着色器 LOD"
+
+#: properties.py:118
+msgid "Enable Viewport LOD"
+msgstr "启用视图 LOD"
+
+#: properties.py:133
+msgid "Enable screen ratio based decimation"
+msgstr "启用基于屏幕占比的精简"
+
+#: operators/image.py:543
+msgid "Folder not found."
+msgstr "未找到文件夹。"
+
+#: __init__.py:66
+msgid "Full-Scenario Perf Opt: Textures, Decimation & Viewport Mgmt"
+msgstr "全场景性能优化：纹理、精简与视图管理"
+
+#: ui/main_panels.py:277
+msgid "GN Strength Factor"
+msgstr "几何节点强度系数"
+
+#: ui/main_panels.py:257
+msgid "Geometry LOD (Screen Ratio)"
+msgstr "几何体 LOD（屏幕占比）"
+
+#: properties.py:142
+msgid "Geometry Nodes"
+msgstr "几何节点"
+
+#: ui/main_panels.py:243
+msgid "Hide Far Objects"
+msgstr "隐藏远处物体"
+
+#: properties.py:128
+msgid "Hide at L3"
+msgstr "在 L3 时隐藏"
+
+#: properties.py:128
+msgid "Hide objects completely at far distance"
+msgstr "在远距离完全隐藏物体"
+
+#: ui/main_panels.py:217
+msgid "High <"
+msgstr "高 <"
+
+#: properties.py:111
+msgid "High Detail End Distance"
+msgstr "高细节结束距离"
+
+#: properties.py:56
+msgid "If disabled, analyzer will only add percentage suffix without changing collection colors"
+msgstr "禁用时，分析器仅添加百分比后缀，不更改集合颜色"
+
+#: properties.py:124
+msgid "L0 Display"
+msgstr "L0 显示"
+
+#: properties.py:183
+msgid "L1 Disp %"
+msgstr "L1 置换 %"
+
+#: properties.py:125
+msgid "L1 Display"
+msgstr "L1 显示"
+
+#: properties.py:179
+msgid "L1 Normal %"
+msgstr "L1 法线 %"
+
+#: properties.py:184
+msgid "L2 Disp %"
+msgstr "L2 置换 %"
+
+#: properties.py:126
+msgid "L2 Display"
+msgstr "L2 显示"
+
+#: properties.py:180
+msgid "L2 Normal %"
+msgstr "L2 法线 %"
+
+#: properties.py:185
+msgid "L3 Disp %"
+msgstr "L3 置换 %"
+
+#: properties.py:127
+msgid "L3 Display"
+msgstr "L3 显示"
+
+#: properties.py:181
+msgid "L3 Normal %"
+msgstr "L3 法线 %"
+
+#: properties.py:111
+msgid "LOD 0 Distance"
+msgstr "LOD 0 距离"
+
+#: properties.py:112
+msgid "LOD 1 Distance"
+msgstr "LOD 1 距离"
+
+#: properties.py:113
+msgid "LOD 2 Distance"
+msgstr "LOD 2 距离"
+
+#: properties.py:105
+#: ui/main_panels.py:208
+msgid "LOD Camera"
+msgstr "LOD 相机"
+
+#: ui/main_panels.py:213
+msgid "LOD Distance Levels (For Viewport)"
+msgstr "LOD 距离层级（用于视图）"
+
+#: properties.py:138
+msgid "LOD Method"
+msgstr "LOD 方式"
+
+#: __init__.py:66
+#: ui/main_panels.py:24
+msgid "LODify"
+msgstr "LODify"
+
+#: ui/main_panels.py:219
+msgid "Low <"
+msgstr "低 <"
+
+#: properties.py:113
+msgid "Low Detail End Distance"
+msgstr "低细节结束距离"
+
+#: properties.py:162
+#: ui/main_panels.py:280
+msgid "Max Merge Distance"
+msgstr "最大合并距离"
+
+#: properties.py:162
+msgid "Merge radius at furthest distance (Higher = More aggressive)"
+msgstr "最远距离处的合并半径（越大越激进）"
+
+#: properties.py:62
+#: ui/main_panels.py:41
+msgid "Method"
+msgstr "方式"
+
+#: ui/main_panels.py:218
+msgid "Mid <"
+msgstr "中 <"
+
+#: properties.py:112
+msgid "Mid Detail End Distance"
+msgstr "中细节结束距离"
+
+#: properties.py:147
+msgid "Min Faces"
+msgstr "最小面数"
+
+#: ui/main_panels.py:268
+msgid "Min Faces (Safety)"
+msgstr "最小面数（安全）"
+
+#: ui/main_panels.py:272
+msgid "Min Ratio (Safety Floor)"
+msgstr "最小比例（安全下限）"
+
+#: properties.py:154
+msgid "Min Ratio Protection"
+msgstr "最小比例保护"
+
+#: operators/viewport.py:42
+msgid "No Camera found for LOD calculation."
+msgstr "未找到用于 LOD 计算的相机。"
+
+#: operators/geometry.py:410
+#: operators/shader_lod.py:54
+msgid "No Camera found."
+msgstr "未找到相机。"
+
+#: operators/image.py:743
+msgid "No active camera found!"
+msgstr "未找到活动相机！"
+
+#: operators/image.py:461
+msgid "No duplicate images found."
+msgstr "未找到重复图像。"
+
+#: operators/geometry.py:308
+msgid "No eligible mesh objects found."
+msgstr "未找到符合要求的网格物体。"
+
+#: ui/main_panels.py:349
+msgid "No generated folders found."
+msgstr "未找到生成的文件夹。"
+
+#: operators/image.py:320
+msgid "No images selected."
+msgstr "未选择图像。"
+
+#: operators/shader_lod.py:86
+msgid "No suitable objects found."
+msgstr "未找到合适的物体。"
+
+#: operators/image.py:1008
+msgid "No unused material slots found."
+msgstr "未找到未使用的材质槽。"
+
+#: ui/main_panels.py:384
+msgid "Normal Map Strength Multipliers"
+msgstr "法线贴图强度倍增"
+
+#: __init__.py:66
+msgid "Object"
+msgstr "物体"
+
+#: ui/main_panels.py:9
+msgid "Optimize"
+msgstr "优化"
+
+#: ui/main_panels.py:140
+msgid "Output"
+msgstr "输出"
+
+#: ui/main_panels.py:133
+msgid "Pixels"
+msgstr "像素"
+
+#: operators/image.py:229
+msgid "Please save the .blend file first!"
+msgstr "请先保存 .blend 文件！"
+
+#: ui/main_panels.py:274
+msgid "Prevents breaking close-up details"
+msgstr "防止破坏近景细节"
+
+#: properties.py:147
+msgid "Protection: Objects with fewer faces will not be decimated"
+msgstr "保护：面数少于该值的物体不会被精简"
+
+#: properties.py:173
+msgid "Reduce normal/displacement strength based on distance"
+msgstr "根据距离降低法线/置换强度"
+
+#: ui/main_panels.py:126
+msgid "Resize Options:"
+msgstr "缩放选项："
+
+#: operators/geometry.py:430
+msgid "Run 'Setup' first."
+msgstr "请先运行「设置」。"
+
+#: ui/main_panels.py:136
+msgid "Safe Mode (Copy Files)"
+msgstr "安全模式（复制文件）"
+
+#: operators/image.py:561
+#: operators/image.py:748
+msgid "Save file first!"
+msgstr "请先保存文件！"
+
+#: ui/main_panels.py:336
+msgid "Save file to see texture folders"
+msgstr "保存文件以查看贴图文件夹"
+
+#: properties.py:94
+#: ui/main_panels.py:138
+msgid "Save in Blend Dir"
+msgstr "保存到 .blend 所在目录"
+
+#: properties.py:55
+msgid "Scene Analyzer Toggle"
+msgstr "场景分析器开关"
+
+#: ui/main_panels.py:377
+msgid "Shader Detail LOD"
+msgstr "着色器细节 LOD"
+
+#: operators/image.py:767
+msgid "Starting Camera Optimization..."
+msgstr "正在开始摄像机优化…"
+
+#: properties.py:154
+msgid "Strongest protection: Keep at least this ratio even at max distance"
+msgstr "最强保护：即使在最大距离也至少保留此比例"
+
+#: properties.py:85
+#: ui/main_panels.py:130
+msgid "Target Size"
+msgstr "目标尺寸"
+
+#: ui/main_panels.py:160
+msgid "Texture Switcher (Global)"
+msgstr "贴图切换器（全局）"
+
+#: properties.py:99
+msgid "Total Images"
+msgstr "图像总数"
+
+#: properties.py:100
+msgid "Total Memory"
+msgstr "总内存"
+
+#: properties.py:142
+msgid "Use Geometry Nodes (High Quality)"
+msgstr "使用几何节点（高质量）"
+
+#: properties.py:56
+#: ui/main_panels.py:55
+msgid "Use Heatmap Colors"
+msgstr "使用热力图颜色"
+
+#: properties.py:141
+msgid "Use standard Decimate modifier"
+msgstr "使用标准精简修改器"
+
+#: ui/main_panels.py:82
+msgid "View Analyzer"
+msgstr "视图分析器"
+
+#: operators/viewport.py:37
+msgid "Viewport LOD is disabled in settings."
+msgstr "视图 LOD 已在设置中禁用。"
+
+#: ui/main_panels.py:226
+msgid "Viewport Optimization"
+msgstr "视图优化"
+
+#: operators/geometry.py:544
+msgctxt "Operator"
+msgid "Apply (Destructive) Async"
+msgstr "应用（破坏性）异步"
+
+#: ui/main_panels.py:172
+msgctxt "Operator"
+msgid "Auto-Opt"
+msgstr "自动优化"
+
+#: operators/image.py:991
+#: ui/main_panels.py:325
+msgctxt "Operator"
+msgid "Clean Unused Material Slots"
+msgstr "清理未使用的材质槽"
+
+#: operators/analyzer.py:80
+#: ui/main_panels.py:66
+msgctxt "Operator"
+msgid "Clear Analyzer"
+msgstr "清除分析器"
+
+#: operators/image.py:436
+msgctxt "Operator"
+msgid "Clear Duplicate Images"
+msgstr "清理重复图像"
+
+#: operators/analyzer.py:141
+#: ui/main_panels.py:90
+msgctxt "Operator"
+msgid "Clear View Analyzer"
+msgstr "清除视图分析器"
+
+#: operators/image.py:485
+msgctxt "Operator"
+msgid "Delete Folder"
+msgstr "删除文件夹"
+
+#: ui/main_panels.py:323
+msgctxt "Operator"
+msgid "Merge Duplicate Images (.001)"
+msgstr "合并重复图像（.001）"
+
+#: operators/image.py:643
+msgctxt "Operator"
+msgid "Optimize by Camera (Async)"
+msgstr "按摄像机优化（异步）"
+
+#: ui/main_panels.py:166
+msgctxt "Operator"
+msgid "Original"
+msgstr "原始"
+
+#: ui/main_panels.py:250
+#: ui/main_panels.py:405
+msgctxt "Operator"
+msgid "Reset"
+msgstr "重置"
+
+#: operators/geometry.py:526
+#: ui/main_panels.py:296
+msgctxt "Operator"
+msgid "Reset Geometry"
+msgstr "重置几何体"
+
+#: operators/shader_lod.py:208
+msgctxt "Operator"
+msgid "Reset Shader Parameters"
+msgstr "重置着色器参数"
+
+#: operators/viewport.py:96
+msgctxt "Operator"
+msgid "Reset Viewport"
+msgstr "重置视图"
+
+#: operators/image.py:135
+msgctxt "Operator"
+msgid "Resize Images (Async)"
+msgstr "缩放图像（异步）"
+
+#: ui/main_panels.py:145
+msgctxt "Operator"
+msgid "Resize Selected Images"
+msgstr "缩放所选图像"
+
+#: operators/analyzer.py:108
+#: ui/main_panels.py:87
+msgctxt "Operator"
+msgid "Run 3D View Analyzer"
+msgstr "运行 3D 视图分析器"
+
+#: operators/analyzer.py:18
+#: ui/main_panels.py:63
+msgctxt "Operator"
+msgid "Run Analyzer"
+msgstr "运行分析器"
+
+#: ui/main_panels.py:155
+msgctxt "Operator"
+msgid "Run Camera Optimization"
+msgstr "运行摄像机优化"
+
+#: ui/main_panels.py:109
+msgctxt "Operator"
+msgid "Scan / Refresh Images"
+msgstr "扫描 / 刷新图像"
+
+#: operators/image.py:118
+msgctxt "Operator"
+msgid "Select All"
+msgstr "全选"
+
+#: ui/main_panels.py:122
+msgctxt "Operator"
+msgid "Select All/None"
+msgstr "全选/全不选"
+
+#: operators/geometry.py:229
+#: ui/main_panels.py:292
+msgctxt "Operator"
+msgid "Setup Modifiers"
+msgstr "设置修改器"
+
+#: operators/image.py:551
+msgctxt "Operator"
+msgid "Switch Texture Resolution"
+msgstr "切换贴图分辨率"
+
+#: operators/geometry.py:381
+#: ui/main_panels.py:294
+msgctxt "Operator"
+msgid "Update Geometry (Async)"
+msgstr "更新几何体（异步）"
+
+#: operators/image.py:46
+msgctxt "Operator"
+msgid "Update Image List"
+msgstr "更新图像列表"
+
+#: operators/shader_lod.py:8
+msgctxt "Operator"
+msgid "Update Shader LOD (Async)"
+msgstr "更新着色器 LOD（异步）"
+
+#: ui/main_panels.py:403
+msgctxt "Operator"
+msgid "Update Shaders"
+msgstr "更新着色器"
+
+#: ui/main_panels.py:248
+msgctxt "Operator"
+msgid "Update View"
+msgstr "更新视图"
+
+#: operators/viewport.py:30
+msgctxt "Operator"
+msgid "Update Viewport LOD"
+msgstr "更新视图 LOD"

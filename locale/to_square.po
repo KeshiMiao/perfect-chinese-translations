@@ -1,0 +1,1080 @@
+# perfect-chinese: 1
+# id: to_square
+# kind: addon
+# module: bl_ext.blender_org.to_square
+# name: To Square
+# name_zh: 选区方形化
+# translator: KeshiMiao
+# category: Mesh
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:3564
+#: __init__.py:3573
+msgid "3D Cursor"
+msgstr "3D 光标"
+
+#: __init__.py:3564
+#: __init__.py:3573
+msgid "3D cursor location."
+msgstr "3D 光标位置。"
+
+#: __init__.py:3896
+msgid "All Geos To Default"
+msgstr "所有几何体恢复默认"
+
+#: __init__.py:3557
+#: __init__.py:4138
+msgid "Around"
+msgstr "环绕"
+
+#: __init__.py:5298
+msgid "Around Highlight"
+msgstr "环绕高亮"
+
+#: __init__.py:4311
+msgid "Around Method: Not enough unselected unhidden vertices to make a square. Switch to Mono Method"
+msgstr "环绕方式：未选中且未隐藏的顶点不足以构成正方形。请切换到单一方式"
+
+#: __init__.py:3911
+#: __init__.py:4727
+msgid "Around Outcast"
+msgstr "环绕排除项"
+
+#: __init__.py:4702
+#: __init__.py:5135
+msgid "Around Squares Highlight"
+msgstr "环绕正方形高亮"
+
+#: __init__.py:3853
+msgid "Avoid edges linked to the chosen square to overlap when e.g. a line of a grid is squared, as the cost of severely warping the quads"
+msgstr "避免与所选正方形相连的边重叠（例如网格的一行被方形化时），代价是四边形会严重变形"
+
+#: __init__.py:3848
+msgid "Avoid edges to overlap when e.g. a line of a grid is squared, as the cost of severely warping the quads"
+msgstr "避免边重叠（例如网格的一行被方形化时），代价是四边形会严重变形"
+
+#: __init__.py:3834
+msgid "BBox Center"
+msgstr "边界框中心"
+
+#: __init__.py:4712
+#: __init__.py:5145
+msgid "Before After"
+msgstr "前后对比"
+
+#: __init__.py:3563
+#: __init__.py:4575
+msgid "Bounding Box Center"
+msgstr "边界框中心"
+
+#: __init__.py:3563
+#: __init__.py:3834
+msgid "Bounding box center of the selection."
+msgstr "所选内容的边界框中心。"
+
+#: __init__.py:5033
+msgid "By default sort the vertices of the square by their position rather than their links"
+msgstr "默认按位置而非连接关系排列正方形的顶点"
+
+#: __init__.py:4056
+msgid "Center:"
+msgstr "中心："
+
+#: __init__.py:3561
+#: __init__.py:4573
+msgid "Centers"
+msgstr "中心"
+
+#: __init__.py:4976
+msgid "Choose a name for the category of the panel"
+msgstr "为面板类别选择一个名称"
+
+#: __init__.py:5039
+msgid "Choose the default corners offset to the next vertices"
+msgstr "选择角点相对下一个顶点的默认偏移"
+
+#: __init__.py:5186
+msgid "Choose the default force of the tool"
+msgstr "选择工具的默认力度"
+
+#: __init__.py:5006
+msgid "Choose the default method used for squaring the selected vertices"
+msgstr "选择将所选顶点方形化的默认方式"
+
+#: __init__.py:5015
+msgid "Choose the default position of the centers of the squares"
+msgstr "选择正方形中心的默认位置"
+
+#: __init__.py:5024
+msgid "Choose the default position of the start corners from which are built the squares"
+msgstr "选择构建正方形所用起始角点的默认位置"
+
+#: __init__.py:5046
+msgid "Choose the default scale of the squares around their center"
+msgstr "选择正方形绕其中心的默认缩放"
+
+#: __init__.py:5123
+msgid "Choose the default side length for all the squares"
+msgstr "选择所有正方形的默认边长"
+
+#: __init__.py:5082
+#: __init__.py:5089
+msgid "Choose the place in the order of rotation"
+msgstr "选择在旋转顺序中的位置"
+
+#: __init__.py:4994
+msgid "Choose to display by default more Rotations Settings for Edit All At Once in the Adjust Last Operation Panel"
+msgstr "选择是否默认在「调整上一步操作」面板中为「一次性编辑全部」显示更多旋转设置"
+
+#: __init__.py:5000
+msgid "Choose to display by default more Rotations Settings for Edit Individuals in the Adjust Last Operation Panel"
+msgstr "选择是否默认在「调整上一步操作」面板中为「逐个编辑」显示更多旋转设置"
+
+#: __init__.py:4988
+msgid "Choose to display by default the settings of the To Square panel"
+msgstr "选择是否默认显示「To Square」面板的设置"
+
+#: __init__.py:4606
+msgid "Choose to display more Rotations Settings for Edit All At Once"
+msgstr "选择是否显示「一次性编辑全部」的更多旋转设置"
+
+#: __init__.py:4611
+msgid "Choose to display more Rotations Settings for Edit Individuals"
+msgstr "选择是否显示「逐个编辑」的更多旋转设置"
+
+#: __init__.py:4982
+msgid "Choose to have by default the operator in the Edit Mesh Context Menu"
+msgstr "选择是否默认在编辑网格上下文菜单中显示该操作"
+
+#: __init__.py:5117
+msgid "Choose to have by default the same size for all the squares"
+msgstr "选择是否默认让所有正方形大小相同"
+
+#: __init__.py:5145
+msgid "Choose to invert by default the order the intersecting loops are squared one after the other"
+msgstr "选择是否默认反转相交循环依次被方形化的顺序"
+
+#: __init__.py:5168
+msgid "Choose to lock by default editing of the x-coordinate"
+msgstr "选择是否默认锁定 x 坐标的编辑"
+
+#: __init__.py:5174
+msgid "Choose to lock by default editing of the y-coordinate"
+msgstr "选择是否默认锁定 y 坐标的编辑"
+
+#: __init__.py:5180
+msgid "Choose to lock by default editing of the z-coordinate"
+msgstr "选择是否默认锁定 z 坐标的编辑"
+
+#: __init__.py:5151
+msgid "Choose to not square by default open loops that intersect with closed loops"
+msgstr "选择是否默认不方形化与闭合循环相交的开放循环"
+
+#: __init__.py:5196
+msgid "Choose to reset the defauts values automatically after the operator has been executed"
+msgstr "选择是否在执行该操作后自动重置默认值"
+
+#: __init__.py:5130
+msgid "Choose to select by default only the current N° just for visibility"
+msgstr "选择是否默认仅选中当前编号，仅用于可见性"
+
+#: __init__.py:5140
+msgid "Choose to select by default the outcast squares made with around method"
+msgstr "选择是否默认选中用环绕方式生成的排除正方形"
+
+#: __init__.py:5135
+msgid "Choose to select by default the squares made with around method"
+msgstr "选择是否默认选中用环绕方式生成的正方形"
+
+#: __init__.py:5157
+msgid "Choose to square by default the vertices not found in a loop"
+msgstr "选择是否默认方形化未处于循环中的顶点"
+
+#: __init__.py:5163
+msgid "Choose to square by default the vertices not found in a loop with around method rather than making one square with all of them"
+msgstr "选择是否默认用环绕方式方形化未处于循环中的顶点，而不是将它们全部组成一个正方形"
+
+#: __init__.py:5292
+msgid "Choosen Highlight"
+msgstr "所选高亮"
+
+#: __init__.py:4697
+#: __init__.py:5130
+msgid "Chosen Square Highlight"
+msgstr "所选正方形高亮"
+
+#: __init__.py:3901
+msgid "Clear Custom Order"
+msgstr "清除自定义顺序"
+
+#: __init__.py:3891
+msgid "Clear Individual Geos"
+msgstr "清除单个几何体"
+
+#: __init__.py:3891
+msgid "Clear individual geometry changes (All values like in 'Edit All At Once)"
+msgstr "清除单个几何体更改（所有值与「一次性编辑全部」相同）"
+
+#: __init__.py:3866
+msgid "Clear individual order changes and invert the order the intersecting loops are squared one after the other"
+msgstr "清除单个顺序更改，并反转相交循环依次被方形化的顺序"
+
+#: __init__.py:3631
+msgid "Clear individual restrictions that prevent all squares to be edited at once"
+msgstr "清除阻止一次性编辑所有正方形的单个限制"
+
+#: __init__.py:3901
+msgid "Clear order changes"
+msgstr "清除顺序更改"
+
+#: __init__.py:4982
+msgid "Context Menu"
+msgstr "上下文菜单"
+
+#: __init__.py:3572
+#: __init__.py:3842
+msgid "Coordinates"
+msgstr "坐标"
+
+#: __init__.py:3570
+#: __init__.py:4581
+msgid "Corners"
+msgstr "角点"
+
+#: __init__.py:4594
+msgid "Corners offset to the next vertices"
+msgstr "角点相对下一个顶点的偏移"
+
+#: __init__.py:5286
+msgid "Custom Size"
+msgstr "自定义大小"
+
+#: __init__.py:4554
+msgid "Defaults"
+msgstr "默认值"
+
+#: __init__.py:3780
+msgid "Deselect a side parallel to  the median A"
+msgstr "取消选择与中线 A 平行的一条边"
+
+#: __init__.py:3785
+msgid "Deselect a side parallel to the median B"
+msgstr "取消选择与中线 B 平行的一条边"
+
+#: __init__.py:3790
+msgid "Deselect the corners not on the diagonal A"
+msgstr "取消选择不在对角线 A 上的角点"
+
+#: __init__.py:3795
+msgid "Deselect the corners not on the diagonal B"
+msgstr "取消选择不在对角线 B 上的角点"
+
+#: __init__.py:3728
+#: __init__.py:3741
+msgid "Diagonal A"
+msgstr "对角线 A"
+
+#: __init__.py:4674
+#: __init__.py:5103
+msgid "Diagonal A Rotation Rank"
+msgstr "对角线 A 旋转次序"
+
+#: __init__.py:3805
+msgid "Diagonal A axis becomes Biagonal B axis and vice versa"
+msgstr "对角线 A 轴变为对角线 B 轴，反之亦然"
+
+#: __init__.py:3754
+#: __init__.py:3767
+msgid "Diagonal B"
+msgstr "对角线 B"
+
+#: __init__.py:4680
+#: __init__.py:5110
+msgid "Diagonal B Rotation Rank"
+msgstr "对角线 B 旋转次序"
+
+#: __init__.py:4098
+msgid "Diagonals"
+msgstr "对角线"
+
+#: __init__.py:5250
+msgid "Display Rotations"
+msgstr "显示旋转"
+
+#: __init__.py:3645
+msgid "Display more rotations settings"
+msgstr "显示更多旋转设置"
+
+#: __init__.py:4539
+msgid "Display settings of the To Square tool"
+msgstr "显示「To Square」工具的设置"
+
+#: __init__.py:3916
+msgid "Don't square open loops that intersect with closed loops"
+msgstr "不方形化与闭合循环相交的开放循环"
+
+#: __init__.py:4044
+msgid "Edit The Squares One By One"
+msgstr "逐个编辑正方形"
+
+#: __init__.py:3925
+#: __init__.py:4747
+msgid "Force of the tool"
+msgstr "工具力度"
+
+#: __init__.py:3562
+#: __init__.py:3833
+msgid "Geometric center of the selection."
+msgstr "所选内容的几何中心。"
+
+#: __init__.py:4141
+#: __init__.py:4856
+msgid "Highlight"
+msgstr "高亮"
+
+#: __init__.py:3626
+msgid "Ignore Individual Locks"
+msgstr "忽略单个锁定"
+
+#: __init__.py:3626
+msgid "Ignore individual restrictions and allow all squares to be edited at once"
+msgstr "忽略单个限制，允许一次性编辑所有正方形"
+
+#: __init__.py:3621
+msgid "Individual Edit Only"
+msgstr "仅单个编辑"
+
+#: __init__.py:4611
+#: __init__.py:5000
+msgid "Individual Rotation Settings"
+msgstr "单个旋转设置"
+
+#: __init__.py:3925
+#: __init__.py:4747
+msgid "Influence"
+msgstr "影响"
+
+#: __init__.py:3640
+msgid "Invert All Individual Edits locks"
+msgstr "反转所有单独编辑锁定"
+
+#: __init__.py:3805
+msgid "Invert Diagonals"
+msgstr "反转对角线"
+
+#: __init__.py:3800
+msgid "Invert Medians"
+msgstr "反转中位"
+
+#: __init__.py:3640
+msgid "Invert individual edits restrictions"
+msgstr "反转单独编辑限制"
+
+#: __init__.py:3826
+#: __init__.py:4691
+msgid "Length of the sides of the squares"
+msgstr "正方形边长"
+
+#: __init__.py:3934
+#: __init__.py:4732
+msgid "Lock X"
+msgstr "锁定 X"
+
+#: __init__.py:3939
+#: __init__.py:4737
+msgid "Lock Y"
+msgstr "锁定 Y"
+
+#: __init__.py:3944
+#: __init__.py:4742
+msgid "Lock Z"
+msgstr "锁定 Z"
+
+#: __init__.py:3934
+#: __init__.py:4732
+msgid "Lock editing of the x-coordinate"
+msgstr "锁定 x 坐标编辑"
+
+#: __init__.py:3939
+#: __init__.py:4737
+msgid "Lock editing of the y-coordinate"
+msgstr "锁定 y 坐标编辑"
+
+#: __init__.py:3944
+#: __init__.py:4742
+msgid "Lock editing of the z-coordinate"
+msgstr "锁定 z 坐标编辑"
+
+#: __init__.py:5333
+msgid "Lock_x"
+msgstr "Lock_x"
+
+#: __init__.py:5339
+msgid "Lock_y"
+msgstr "Lock_y"
+
+#: __init__.py:5345
+msgid "Lock_z"
+msgstr "Lock_z"
+
+#: __init__.py:3556
+msgid "Make one square with all the selection."
+msgstr "用整个选择创建一个正方形。"
+
+#: __init__.py:5016
+msgid "Median"
+msgstr "中位"
+
+#: __init__.py:3676
+#: __init__.py:3689
+msgid "Median A"
+msgstr "中位 A"
+
+#: __init__.py:4662
+#: __init__.py:5089
+msgid "Median A Rotation Rank"
+msgstr "中位 A 旋转顺序"
+
+#: __init__.py:3800
+msgid "Median A axis becomes Median B axis and vice versa"
+msgstr "中位 A 轴变为中位 B 轴，反之亦然"
+
+#: __init__.py:3702
+#: __init__.py:3715
+msgid "Median B"
+msgstr "中位 B"
+
+#: __init__.py:4668
+#: __init__.py:5096
+msgid "Median B Rotation Rank"
+msgstr "中位 B 旋转顺序"
+
+#: __init__.py:3562
+#: __init__.py:3833
+msgid "Median Point"
+msgstr "中位点"
+
+#: __init__.py:4097
+msgid "Medians"
+msgstr "中位"
+
+#: __init__.py:3554
+#: __init__.py:4566
+msgid "Method"
+msgstr "方法"
+
+#: __init__.py:4568
+msgid "Method to make one square with all the selection."
+msgstr "用整个选择创建一个正方形的方法。"
+
+#: __init__.py:4567
+msgid "Method to square the selected loops individually."
+msgstr "分别将所选循环边变为正方形的方法。"
+
+#: __init__.py:4569
+msgid "Method to square the vertices around the selected vertices."
+msgstr "将所选顶点周围的顶点变为正方形的方法。"
+
+#: __init__.py:3958
+msgid "Method: Around (less than 4 vertices)"
+msgstr "方法：周围（少于 4 个顶点）"
+
+#: __init__.py:3556
+#: __init__.py:4568
+msgid "Mono"
+msgstr "单个"
+
+#: __init__.py:3555
+#: __init__.py:4567
+msgid "Multi"
+msgstr "多个"
+
+#: __init__.py:3916
+#: __init__.py:4717
+msgid "No Mix"
+msgstr "不混合"
+
+#: __init__.py:5315
+msgid "No mix"
+msgstr "不混合"
+
+#: __init__.py:4308
+msgid "Not enough selected vertices to make a square and not enough unhidden others to swich to Around Method. Operation Cancelled"
+msgstr "所选顶点不足以创建正方形，且其他未隐藏顶点不足以切换到周围方法。操作已取消"
+
+#: __init__.py:3921
+msgid "Not enough selected vertices to make a square so use the Square Around Method"
+msgstr "所选顶点不足以创建正方形，因此使用周围正方形方法"
+
+#: __init__.py:4305
+msgid "Not enough unhidden vertices in Edit Mode to make a square. Operation Cancelled"
+msgstr "编辑模式下未隐藏顶点不足以创建正方形。操作已取消"
+
+#: __init__.py:4550
+msgid "Number of times the operator was edited in the Edit Last Operation Panel before the current run."
+msgstr "当前运行前，在“调整上一步操作”面板中编辑该操作符的次数。"
+
+#: __init__.py:3610
+#: __init__.py:4594
+msgid "Offset"
+msgstr "偏移"
+
+#: __init__.py:3616
+msgid "Offset the corners of the choosen square"
+msgstr "偏移所选正方形的角点"
+
+#: __init__.py:3610
+msgid "Offset the corners to the next vertices"
+msgstr "将角点偏移到下一个顶点"
+
+#: __init__.py:4560
+msgid "Only reset the defauts values for properties defined in the addon preferences"
+msgstr "仅重置插件偏好设置中定义的属性的默认值"
+
+#: __init__.py:4717
+msgid "Open loops that intersect with closed loops won't be squared"
+msgstr "与闭合循环边相交的开放循环边不会被方形化"
+
+#: __init__.py:4135
+#: __init__.py:4722
+msgid "Outcast"
+msgstr "落选"
+
+#: __init__.py:5304
+msgid "Outcast Highlight"
+msgstr "落选高亮"
+
+#: __init__.py:5140
+msgid "Outcast Squares Highlight"
+msgstr "落选正方形高亮"
+
+#: __init__.py:3657
+#: __init__.py:3670
+msgid "Place in the order of rotation"
+msgstr "按旋转顺序放置"
+
+#: __init__.py:3571
+#: __init__.py:3841
+msgid "Plane"
+msgstr "平面"
+
+#: __init__.py:4302
+msgid "Please, select at least 1 vertex. Operation Cancelled"
+msgstr "请至少选择 1 个顶点。操作已取消"
+
+#: __init__.py:3584
+#: __init__.py:4589
+msgid "Position"
+msgstr "位置"
+
+#: __init__.py:3832
+msgid "Position of the center of the chosen square"
+msgstr "所选正方形中心的位置"
+
+#: __init__.py:3561
+#: __init__.py:4573
+msgid "Position of the centers of the squares"
+msgstr "各正方形中心的位置"
+
+#: __init__.py:3840
+msgid "Position of the start corner from which is built the chosen square"
+msgstr "构建所选正方形的起始角点位置"
+
+#: __init__.py:3570
+#: __init__.py:4581
+msgid "Position of the start corners from which are built the squares"
+msgstr "构建各正方形的起始角点位置"
+
+#: __init__.py:4879
+msgid "Presets"
+msgstr "预设"
+
+#: __init__.py:4880
+msgid "Presets menu"
+msgstr "预设菜单"
+
+#: __init__.py:3621
+msgid "Prevent Edit All At Once properties to affect this square"
+msgstr "阻止“一次性全部编辑”属性影响此正方形"
+
+#: __init__.py:3841
+msgid "Projection on the average plane from each selected loop."
+msgstr "每个所选循环边在平均平面上的投影。"
+
+#: __init__.py:3571
+#: __init__.py:4582
+msgid "Projection on the average plane of the selected loop."
+msgstr "所选循环边在平均平面上的投影。"
+
+#: __init__.py:3579
+msgid "Refresh"
+msgstr "刷新"
+
+#: __init__.py:3631
+msgid "Remove All Individual Locks"
+msgstr "移除所有单独锁定"
+
+#: __init__.py:5327
+msgid "Reset Around Outcast property if Restrict is on"
+msgstr "如果启用限制，则重置“周围落选”属性"
+
+#: __init__.py:5298
+msgid "Reset Around Squares Highlight property if Restrict is on"
+msgstr "如果启用限制，则重置“周围正方形高亮”属性"
+
+#: __init__.py:5309
+msgid "Reset Before After property if Restrict is on"
+msgstr "如果启用限制，则重置“前后”属性"
+
+#: __init__.py:5214
+msgid "Reset Centers property if Restrict is on"
+msgstr "如果启用限制，则重置“中心”属性"
+
+#: __init__.py:5292
+msgid "Reset Chosen Square Highlight property if Restrict is on"
+msgstr "如果启用限制，则重置“所选正方形高亮”属性"
+
+#: __init__.py:5286
+msgid "Reset Custom Size property if Restrict is on"
+msgstr "如果启用限制，则重置“自定义大小”属性"
+
+#: __init__.py:5250
+msgid "Reset Display Rotations properties to False if Restrict is on"
+msgstr "如果启用限制，则将“显示旋转”属性重置为 False"
+
+#: __init__.py:5351
+msgid "Reset Influence property if Restrict is on"
+msgstr "如果启用限制，则重置“影响”属性"
+
+#: __init__.py:5333
+msgid "Reset Lock_x property if Restrict is on"
+msgstr "如果启用限制，则重置 Lock_x 属性"
+
+#: __init__.py:5339
+msgid "Reset Lock_y property if Restrict is on"
+msgstr "如果启用限制，则重置 Lock_y 属性"
+
+#: __init__.py:5345
+msgid "Reset Lock_z property if Restrict is on"
+msgstr "如果启用限制，则重置 Lock_z 属性"
+
+#: __init__.py:5208
+msgid "Reset Method property if Restrict is on"
+msgstr "如果启用限制，则重置“方法”属性"
+
+#: __init__.py:5315
+msgid "Reset No Mix property if Restrict is on"
+msgstr "如果启用限制，则重置“不混合”属性"
+
+#: __init__.py:5304
+msgid "Reset Outcast Squares Highlight property if Restrict is on"
+msgstr "如果启用限制，则重置“落选正方形高亮”属性"
+
+#: __init__.py:5321
+msgid "Reset Outcast property if Restrict is on"
+msgstr "如果启用限制，则重置“落选”属性"
+
+#: __init__.py:5262
+msgid "Reset Rotations properties to 0.0 if Restrict is on"
+msgstr "如果启用限制，则将“旋转”属性重置为 0.0"
+
+#: __init__.py:5238
+msgid "Reset Scale property if Restrict is on"
+msgstr "如果启用限制，则重置“缩放”属性"
+
+#: __init__.py:5280
+msgid "Reset Side property if Restrict is on"
+msgstr "如果启用限制，则重置“边长”属性"
+
+#: __init__.py:5220
+msgid "Reset Start Corners property if Restrict is on"
+msgstr "如果启用限制，则重置“起始角点”属性"
+
+#: __init__.py:5196
+msgid "Reset To Defaults"
+msgstr "重置为默认值"
+
+#: __init__.py:5232
+msgid "Reset offset property if Restrict is on"
+msgstr "如果启用了限制，则重置偏移属性"
+
+#: __init__.py:3896
+msgid "Reset offsets, scales, rotations, zigzags and reverses properties to their default values for the unlocked squares"
+msgstr "将未锁定方形的偏移、缩放、旋转、锯齿和反转属性重置为默认值"
+
+#: __init__.py:4554
+msgid "Reset the defauts values automatically after the operator has been executed"
+msgstr "操作符执行后自动重置默认值"
+
+#: __init__.py:5202
+msgid "Reset the defauts values automatically only for the choosen properties below"
+msgstr "仅对下方选中的属性自动重置默认值"
+
+#: __init__.py:5274
+msgid "Reset the order of rotations if Restrict is on"
+msgstr "如果启用了限制，则重置旋转顺序"
+
+#: __init__.py:4560
+msgid "Restrict"
+msgstr "限制"
+
+#: __init__.py:5202
+msgid "Restrict Reset"
+msgstr "限制重置"
+
+#: __init__.py:3857
+msgid "Reverse"
+msgstr "反转"
+
+#: __init__.py:3862
+msgid "Reverse the order of the vertices of the chosen square"
+msgstr "反转所选方形的顶点顺序"
+
+#: __init__.py:3857
+msgid "Reverse the order of the vertices of the square"
+msgstr "反转方形的顶点顺序"
+
+#: __init__.py:3663
+msgid "Rotate the choosen square around its normal"
+msgstr "绕法向旋转所选方形"
+
+#: __init__.py:3689
+msgid "Rotate the choosen square around the median A"
+msgstr "绕中线 A 旋转所选方形"
+
+#: __init__.py:3715
+msgid "Rotate the choosen square around the median B"
+msgstr "绕中线 B 旋转所选方形"
+
+#: __init__.py:3650
+msgid "Rotate the square around its normal"
+msgstr "绕法向旋转方形"
+
+#: __init__.py:3728
+#: __init__.py:3741
+msgid "Rotate the square around the diagonal A"
+msgstr "绕对角线 A 旋转方形"
+
+#: __init__.py:3754
+#: __init__.py:3767
+msgid "Rotate the square around the diagonal B"
+msgstr "绕对角线 B 旋转方形"
+
+#: __init__.py:3676
+#: __init__.py:4628
+msgid "Rotate the square around the median A"
+msgstr "绕中线 A 旋转方形"
+
+#: __init__.py:3702
+#: __init__.py:4635
+msgid "Rotate the square around the median B"
+msgstr "绕中线 B 旋转方形"
+
+#: __init__.py:5391
+msgid "Rotation Order"
+msgstr "旋转顺序"
+
+#: __init__.py:3657
+#: __init__.py:3670
+msgid "Rotation Rank"
+msgstr "旋转等级"
+
+#: __init__.py:3645
+#: __init__.py:4606
+msgid "Rotation Settings"
+msgstr "旋转设置"
+
+#: __init__.py:4616
+msgid "Rotation of the squares around their normal"
+msgstr "方形绕其法向的旋转"
+
+#: __init__.py:5262
+msgid "Rotations"
+msgstr "旋转"
+
+#: __init__.py:5274
+msgid "Rotations Order"
+msgstr "旋转顺序"
+
+#: __init__.py:3821
+#: __init__.py:4686
+msgid "Same size for all the squares"
+msgstr "所有方形大小相同"
+
+#: __init__.py:3810
+#: __init__.py:4600
+msgid "Scale"
+msgstr "缩放"
+
+#: __init__.py:4600
+msgid "Scale of the squares around their center"
+msgstr "方形绕其中心的缩放"
+
+#: __init__.py:3816
+msgid "Scale the choosen square around its center"
+msgstr "绕中心缩放所选方形"
+
+#: __init__.py:3810
+msgid "Scale the square around its center"
+msgstr "绕中心缩放方形"
+
+#: __init__.py:3600
+msgid "Select Around Squares"
+msgstr "选择环绕方形"
+
+#: __init__.py:3589
+msgid "Select Square N°"
+msgstr "选择方形编号"
+
+#: __init__.py:3595
+msgid "Select only the current N° just for visibility, if switched off return to the whole selection"
+msgstr "仅选择当前编号以便查看；关闭后恢复为整个选择"
+
+#: __init__.py:3605
+#: __init__.py:4707
+msgid "Select outcast Squares"
+msgstr "选择孤立方形"
+
+#: __init__.py:3605
+#: __init__.py:4707
+msgid "Select the outcast squares made with around method"
+msgstr "选择用环绕方法创建的孤立方形"
+
+#: __init__.py:3589
+msgid "Select the square you want to adjust individually"
+msgstr "选择要单独调整的方形"
+
+#: __init__.py:3600
+msgid "Select the squares made with around method"
+msgstr "选择用环绕方法创建的方形"
+
+#: __init__.py:3595
+msgid "Show Chosen Square"
+msgstr "显示选中的方形"
+
+#: __init__.py:3790
+#: __init__.py:3795
+msgid "Show Corners"
+msgstr "显示角点"
+
+#: __init__.py:3780
+#: __init__.py:3785
+msgid "Show Parallel Sides"
+msgstr "显示平行边"
+
+#: __init__.py:3826
+#: __init__.py:4691
+msgid "Side Length"
+msgstr "边长"
+
+#: __init__.py:3821
+#: __init__.py:4686
+msgid "Size"
+msgstr "大小"
+
+#: __init__.py:3584
+#: __init__.py:4589
+msgid "Sort the vertices of the square by their position rather than their links"
+msgstr "按位置而非连接关系排序方形顶点"
+
+#: __init__.py:3650
+#: __init__.py:3663
+msgid "Spin"
+msgstr "旋绕"
+
+#: __init__.py:4656
+#: __init__.py:5082
+msgid "Spin Rotation Rank"
+msgstr "旋绕旋转等级"
+
+#: __init__.py:4794
+#: __init__.py:4796
+msgid "Square"
+msgstr "方形化"
+
+#: __init__.py:3881
+msgid "Square After"
+msgstr "之后方形化"
+
+#: __init__.py:3876
+msgid "Square Before"
+msgstr "之前方形化"
+
+#: __init__.py:3866
+msgid "Square Before After"
+msgstr "前后方形化"
+
+#: __init__.py:3871
+msgid "Square First"
+msgstr "最先方形化"
+
+#: __init__.py:3886
+msgid "Square Last"
+msgstr "最后方形化"
+
+#: __init__.py:3906
+msgid "Square Outcast"
+msgstr "方形化孤立顶点"
+
+#: __init__.py:4539
+msgid "Square Settings"
+msgstr "方形设置"
+
+#: __init__.py:4988
+msgid "Square settings"
+msgstr "方形设置"
+
+#: __init__.py:3886
+msgid "Square that loop after all other intersecting loops to prevent its shape to be altered"
+msgstr "在所有其他相交循环边之后方形化该循环边，以防止其形状被改变"
+
+#: __init__.py:3881
+msgid "Square that loop after the next one in the order of squaring"
+msgstr "按方形化顺序在下一个之后方形化该循环边"
+
+#: __init__.py:3876
+msgid "Square that loop before the previous one in the order of squaring"
+msgstr "按方形化顺序在上一个之前方形化该循环边"
+
+#: __init__.py:3871
+msgid "Square that loop first, no mind its vertices may be moved when squaring intersecting loops"
+msgstr "首先方形化该循环边，不管方形化相交循环边时其顶点可能被移动"
+
+#: __init__.py:3555
+msgid "Square the selected loops individually."
+msgstr "分别方形化选中的循环边。"
+
+#: __init__.py:3557
+msgid "Square the vertices around the selected vertices."
+msgstr "方形化所选顶点周围的顶点。"
+
+#: __init__.py:3906
+msgid "Square the vertices not found in a loop"
+msgstr "方形化未处于循环边中的顶点"
+
+#: __init__.py:3911
+#: __init__.py:4727
+msgid "Square the vertices not found in a loop with around method rather than making one square with all of them"
+msgstr "用环绕方法方形化未处于循环边中的顶点，而不是将它们全部创建为一个方形"
+
+#: __init__.py:3840
+msgid "Start Corner"
+msgstr "起始角点"
+
+#: __init__.py:4059
+msgid "Start Corner:"
+msgstr "起始角点："
+
+#: __init__.py:5220
+msgid "Start Corners"
+msgstr "起始角点"
+
+#: __init__.py:4824
+#: __init__.py:5375
+msgid "Start Corners:"
+msgstr "起始角点："
+
+#: __init__.py:3842
+msgid "Start corner vertex coordinates."
+msgstr "起始角点顶点坐标。"
+
+#: __init__.py:3572
+#: __init__.py:4583
+msgid "Start corners vertices coordinates."
+msgstr "起始角点顶点坐标。"
+
+#: __init__.py:4976
+msgid "Tab Name"
+msgstr "标签页名称"
+
+#: __init__.py:5364
+msgid "Tab Name:"
+msgstr "标签页名称："
+
+#: __init__.py:3636
+msgid "There are squares that can only be edit individually"
+msgstr "有些方形只能单独编辑"
+
+#: __init__.py:4712
+msgid "To invert the order the intersecting loops are squared one after the other"
+msgstr "反转相交循环边依次方形化的顺序"
+
+#: __init__.py:5009
+msgid "To make one square with all the selection."
+msgstr "将整个选择创建为一个方形。"
+
+#: __init__.py:4697
+msgid "To select only the current N° just for visibility"
+msgstr "仅选择当前编号以便查看"
+
+#: __init__.py:4702
+msgid "To select the squares made with around method"
+msgstr "选择用环绕方法创建的方形"
+
+#: __init__.py:5008
+msgid "To square the selected loops individually."
+msgstr "分别方形化选中的循环边。"
+
+#: __init__.py:5010
+msgid "To square the vertices around the selected vertices."
+msgstr "方形化所选顶点周围的顶点。"
+
+#: __init__.py:4722
+msgid "To square the vertices not found in a loop"
+msgstr "方形化未处于循环边中的顶点"
+
+#: __init__.py:4546
+msgid "True if the preferences properties has not been load"
+msgstr "若偏好设置属性尚未加载，则为真"
+
+#: __init__.py:3579
+msgid "Update the square to reflect moves of the 3D cursor"
+msgstr "更新方形以反映 3D 光标的移动"
+
+#: __init__.py:5026
+msgid "Vertex coordinates."
+msgstr "顶点坐标。"
+
+#: __init__.py:4146
+#: __init__.py:4870
+msgid "X"
+msgstr "X"
+
+#: __init__.py:4148
+#: __init__.py:4872
+msgid "Y"
+msgstr "Y"
+
+#: __init__.py:4150
+#: __init__.py:4874
+msgid "Z"
+msgstr "Z"
+
+#: __init__.py:3848
+msgid "Zigzag"
+msgstr "锯齿"
+
+#: __init__.py:4890
+msgctxt "Operator"
+msgid "Add a preset or remove the active one"
+msgstr "添加预设或移除当前预设"
+
+#: __init__.py:3488
+msgctxt "Operator"
+msgid "Make one or more squares from the selected vertices"
+msgstr "从选中的顶点生成一个或多个正方形"
+
+#: __init__.py:4889
+msgctxt "Operator"
+msgid "Preset Operation"
+msgstr "预设操作"
+
+#: __init__.py:3487
+msgctxt "Operator"
+msgid "Square"
+msgstr "方形化"

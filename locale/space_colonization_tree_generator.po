@@ -1,0 +1,140 @@
+# perfect-chinese: 1
+# id: space_colonization_tree_generator
+# kind: addon
+# module: bl_ext.blender_org.space_colonization_tree_generator
+# name: Space colonization tree generator
+# name_zh: 空间殖民树生成器
+# translator: KeshiMiao
+# category: 
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: space_colonization_tree_generator/__init__.py:44
+msgid "A point cloud will be distributed in it, based on the attractor count."
+msgstr "将根据吸引点数量在其中分布点云。"
+
+#: space_colonization_tree_generator/__init__.py:1
+msgid "A simple add-on which uses the space-colonization approach to generating trees."
+msgstr "一个使用空间殖民方法生成树木的简单插件。"
+
+#: space_colonization_tree_generator/__init__.py:18
+msgid "Attractor point amount"
+msgstr "吸引点数量"
+
+#: space_colonization_tree_generator/__init__.py:19
+msgid "Distance of influence"
+msgstr "影响距离"
+
+#: space_colonization_tree_generator/__init__.py:46
+msgid "Ensure the mesh is above the origin so the trunk"
+msgstr "确保网格位于原点上方，以便树干"
+
+#: space_colonization_tree_generator/__init__.py:23
+msgid "Gravity and tropism"
+msgstr "重力与向性"
+
+#: space_colonization_tree_generator/__init__.py:24
+msgid "Initial branch thickness"
+msgstr "初始树枝粗细"
+
+#: space_colonization_tree_generator/__init__.py:22
+msgid "Iteration maximum"
+msgstr "最大迭代次数"
+
+#: space_colonization_tree_generator/__init__.py:20
+msgid "Kill distance"
+msgstr "终止距离"
+
+#: space_colonization_tree_generator/__init__.py:26
+msgid "Minimal branch thickness"
+msgstr "最小树枝粗细"
+
+#: space_colonization_tree_generator/__init__.py:1
+msgid "Object"
+msgstr "物体"
+
+#: space_colonization_tree_generator/__init__.py:43
+msgid "Please select a closed mesh before pressing 'Generate Tree'."
+msgstr "请在按下“生成树”前选择一个封闭网格。"
+
+#: space_colonization_tree_generator/__init__.py:29
+msgid "Run limited dissolve (reduces faces)"
+msgstr "执行有限融并（减少面数）"
+
+#: space_colonization_tree_generator/__init__.py:28
+msgid "Skin skeleton"
+msgstr "蒙皮骨架"
+
+#: space_colonization_tree_generator/__init__.py:1
+msgid "Space colonization tree generator"
+msgstr "空间殖民树生成器"
+
+#: space_colonization_tree_generator/__init__.py:32
+msgid "Space-colonization Tree Generator"
+msgstr "空间殖民树生成器"
+
+#: space_colonization_tree_generator/__init__.py:36
+msgid "SpaceColonization Tree Generator"
+msgstr "空间殖民树生成器"
+
+#: space_colonization_tree_generator/__init__.py:45
+msgid "Starting from the origin, a tree will colonize this point cloud."
+msgstr "从原点开始，树将殖民此点云。"
+
+#: space_colonization_tree_generator/__init__.py:21
+msgid "Step distance"
+msgstr "步长"
+
+#: space_colonization_tree_generator/__init__.py:58
+msgid "The branch thickness inputs control"
+msgstr "树枝粗细输入控制"
+
+#: space_colonization_tree_generator/__init__.py:50
+msgid "The larger the attractor count, the smaller the kill distance,"
+msgstr "吸引点数量越大，终止距离越小，"
+
+#: space_colonization_tree_generator/__init__.py:25
+msgid "Thickness-loss factor per iteration"
+msgstr "每次迭代的粗细损耗系数"
+
+#: space_colonization_tree_generator/__init__.py:55
+msgid "This avoids excessive runtime if conditions are unfavorable."
+msgstr "这样可在条件不利时避免运行时间过长。"
+
+#: space_colonization_tree_generator/__init__.py:60
+msgid "This can later be used by a skin Modifier,"
+msgstr "之后可供蒙皮修改器使用，"
+
+#: space_colonization_tree_generator/__init__.py:54
+msgid "Use the Iteration Maximum to stop early or prevent freezing."
+msgstr "使用最大迭代次数来提前停止或防止卡死。"
+
+#: space_colonization_tree_generator/__init__.py:51
+msgid "and the smaller the step distance, the longer it will take."
+msgstr "而步长越小，耗时越长。"
+
+#: space_colonization_tree_generator/__init__.py:47
+msgid "eventually reaches the attractor points."
+msgstr "最终到达吸引点。"
+
+#: space_colonization_tree_generator/__init__.py:59
+msgid "the Radius that is set on each vertex."
+msgstr "每个顶点上设置的半径。"
+
+#: space_colonization_tree_generator/__init__.py:61
+msgid "to give the tree skeletton thickness."
+msgstr "以赋予树骨架粗细。"
+
+#: space_colonization_tree_generator/__init__.py:80
+msgctxt "Operator"
+msgid "Generate Tree"
+msgstr "生成树"
+
+#: space_colonization_tree_generator/__init__.py:81
+msgctxt "Operator"
+msgid "Generate Tree using the given inputs."
+msgstr "使用给定的输入生成树。"

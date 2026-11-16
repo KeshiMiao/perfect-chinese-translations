@@ -1,0 +1,860 @@
+# perfect-chinese: 1
+# id: trajectory_anim
+# kind: addon
+# module: bl_ext.blender_org.trajectory_anim
+# name: Trajectory Anim
+# name_zh: 轨迹动画
+# translator: KeshiMiao
+# category: Animation
+# supported_versions: >=4.3.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: properties/trajectanim_panel_props.py:268
+msgid "-X"
+msgstr "-X"
+
+#: properties/trajectanim_panel_props.py:269
+msgid "-Y"
+msgstr "-Y"
+
+#: properties/trajectanim_panel_props.py:270
+msgid "-Z"
+msgstr "-Z"
+
+#: properties/trajectanim_panel_props.py:61
+msgid "3D Cursor"
+msgstr "3D 游标"
+
+#: properties/gpencil_panel_props.py:17
+msgid "Active Grease Pencil"
+msgstr "活动蜡笔"
+
+#: properties/trajectanim_panel_props.py:22
+msgid "Active Index"
+msgstr "活动索引"
+
+#: properties/gpencil_panel_props.py:28
+msgid "Add"
+msgstr "添加"
+
+#: properties/gpencil_panel_props.py:28
+msgid "Add points on intersections, as well keeping the original points"
+msgstr "在交点处添加点，同时保留原点"
+
+#: __init__.py:14
+msgid "Add-on to quickly animate using trajectory line"
+msgstr "使用轨迹线快速制作动画的插件"
+
+#: properties/annotation_panel_props.py:7
+msgid "All Layers"
+msgstr "所有图层"
+
+#: properties/stroke_panel_props.py:43
+msgid "All points are removed, except for the starting, intersection, and ending points"
+msgstr "除起点、交点和终点外，所有点均被移除"
+
+#: properties/trajectanim_panel_props.py:176
+msgid "Angle Threshold"
+msgstr "角度阈值"
+
+#: __init__.py:14
+msgid "Animation"
+msgstr "动画"
+
+#: panel/annotation_panel.py:13
+#: properties/stroke_panel_props.py:31
+msgid "Annotation"
+msgstr "注释"
+
+#: __init__.py:14
+msgid "Annotation Anim"
+msgstr "注释动画"
+
+#: panel/trajectanim_panel.py:271
+msgid "Auto Fix Rotation"
+msgstr "自动修正旋转"
+
+#: properties/trajectanim_panel_props.py:147
+msgid "Auto track and up axis"
+msgstr "自动确定轨道轴和向上轴"
+
+#: properties/stroke_panel_props.py:19
+#: properties/stroke_panel_props.py:30
+msgid "Automatic"
+msgstr "自动"
+
+#: properties/stroke_panel_props.py:30
+msgid "Automatic detection. If no Grease Pencil or curve object is selected, then assumes using annotation"
+msgstr "自动检测。若未选择蜡笔或曲线物体，则默认使用注释"
+
+#: properties/stroke_panel_props.py:19
+msgid "Automatic operation, use each point if there is only single stroke, otherwise use intersections"
+msgstr "自动操作：仅单条笔画时使用每个点，否则使用交点"
+
+#: properties/trajectanim_panel_props.py:142
+msgid "Bezier"
+msgstr "贝塞尔"
+
+#: properties/stroke_panel_props.py:21
+msgid "Calculate vector point where stroke intersection meets, as well including starting and ending points"
+msgstr "计算笔画相交处的矢量点，并包含起点和终点"
+
+#: properties/trajectanim_panel_props.py:140
+msgid "Constant"
+msgstr "常量"
+
+#: panel/trajectanim_panel.py:119
+msgid "Conversion Method"
+msgstr "转换方式"
+
+#: panel/stroke_panel.py:74
+#: panel/stroke_panel.py:99
+msgid "Convert Method"
+msgstr "转换方式"
+
+#: panel/gpencil_panel.py:23
+msgid "Create new one using the"
+msgstr "使用以下方式创建新的"
+
+#: properties/stroke_panel_props.py:33
+msgid "Curve"
+msgstr "曲线"
+
+#: panel/trajectanim_panel.py:162
+#: properties/trajectanim_panel_props.py:66
+msgid "Delete After"
+msgstr "之后删除"
+
+#: panel/stroke_panel.py:50
+msgid "Detected Source:"
+msgstr "检测到的来源："
+
+#: panel/trajectanim_panel.py:205
+msgid "Determine Axis Automatically"
+msgstr "自动确定轴"
+
+#: properties/trajectanim_panel_props.py:147
+msgid "Determine track and up axis automatically"
+msgstr "自动确定轨道轴和向上轴"
+
+#: properties/trajectanim_panel_props.py:113
+#: properties/trajectanim_panel_props.py:120
+msgid "Duration"
+msgstr "持续时间"
+
+#: operators/animate_pos_rot.py:726
+#: operators/animate_pos_rot.py:742
+msgid "Fail to animate. Stroke not found"
+msgstr "动画失败。未找到笔画"
+
+#: properties/trajectanim_panel_props.py:153
+msgid "Fix Rotation"
+msgstr "修正旋转"
+
+#: panel/trajectanim_panel.py:298
+msgid "Flip Detection"
+msgstr "翻转检测"
+
+#: panel/trajectanim_panel.py:321
+msgid "Flip Threshold"
+msgstr "翻转阈值"
+
+#: panel/trajectanim_panel.py:138
+#: properties/trajectanim_panel_props.py:129
+msgid "Frame Step"
+msgstr "帧步长"
+
+#: properties/trajectanim_panel_props.py:40
+#: properties/trajectanim_panel_props.py:50
+msgid "Global"
+msgstr "全局"
+
+#: panel/gpencil_panel.py:7
+#: properties/stroke_panel_props.py:32
+msgid "Grease Pencil"
+msgstr "蜡笔"
+
+#: properties/gpencil_panel_props.py:17
+msgid "Grease Pencil datablock to work with"
+msgstr "要使用的蜡笔数据块"
+
+#: panel/trajectanim_panel.py:158
+#: properties/trajectanim_panel_props.py:91
+msgid "Initial Rotation"
+msgstr "初始旋转"
+
+#: properties/annotation_panel_props.py:7
+msgid "Insert blank keyframe will also apply to other layers as well, instead of only the active ones"
+msgstr "插入空白关键帧也会应用到其他图层，而不仅是活动图层"
+
+#: panel/trajectanim_panel.py:147
+#: properties/trajectanim_panel_props.py:136
+msgid "Interpolation"
+msgstr "插值"
+
+#: properties/trajectanim_panel_props.py:136
+msgid "Interpolation used for the keyframes"
+msgstr "关键帧使用的插值"
+
+#: properties/stroke_panel_props.py:21
+msgid "Intersection"
+msgstr "交点"
+
+#: panel/stroke_panel.py:70
+#: panel/stroke_panel.py:93
+msgid "Intersection Method"
+msgstr "交点方式"
+
+#: properties/stroke_panel_props.py:42
+msgid "Intersection line will be added in addition to the original points"
+msgstr "除原点外还将添加交点线"
+
+#: properties/gpencil_panel_props.py:23
+msgid "Intersection method to use"
+msgstr "要使用的交点方式"
+
+#: panel/stroke_panel.py:75
+#: panel/stroke_panel.py:100
+msgid "Keep Original"
+msgstr "保留原始"
+
+#: properties/stroke_panel_props.py:42
+msgid "Keep Original Points"
+msgstr "保留原始点"
+
+#: operators/convert_curve.py:34
+#: operators/convert_curve.py:112
+msgid "Keyframe already exist on this frame"
+msgstr "此帧上已存在关键帧"
+
+#: properties/trajectanim_panel_props.py:141
+msgid "Linear"
+msgstr "线性"
+
+#: properties/trajectanim_panel_props.py:102
+msgid "List"
+msgstr "列表"
+
+#: properties/trajectanim_panel_props.py:41
+#: properties/trajectanim_panel_props.py:51
+msgid "Local"
+msgstr "局部"
+
+#: panel/trajectanim_panel.py:12
+msgid "Main"
+msgstr "主要"
+
+#: panel/trajectanim_panel.py:316
+#: properties/trajectanim_panel_props.py:185
+msgid "Map to Zero"
+msgstr "映射到零"
+
+#: properties/trajectanim_panel_props.py:120
+msgid "Maximum duration an animation should have. If stroke has more points than duration set on this property, some frames will be skipped to fit this total duration. Otherwise animation will be stretched."
+msgstr "动画的最大持续时间。若笔画点数超过此属性设置的持续时间，将跳过部分帧以适应此总时长；否则动画会被拉伸。"
+
+#: panel/trajectanim_panel.py:168
+msgid "Movement Axis:"
+msgstr "移动轴："
+
+#: panel/annotation_panel.py:27
+#: panel/annotation_panel.py:33
+msgid "No active annotation."
+msgstr "没有活动的注释。"
+
+#: panel/stroke_panel.py:105
+msgid "No active curve object"
+msgstr "没有活动的曲线物体"
+
+#: panel/gpencil_panel.py:22
+#: panel/stroke_panel.py:80
+msgid "No active grease pencil."
+msgstr "没有活动的蜡笔。"
+
+#: operators/self_intersect.py:147
+msgid "No intersections were made"
+msgstr "未产生交点"
+
+#: operators/clear_strokes.py:80
+#: operators/clear_strokes.py:102
+msgid "No strokes to clear"
+msgstr "没有可清除的笔画"
+
+#: operators/convert_annotation_to_curve.py:73
+#: operators/convert_curve.py:180
+msgid "Nothing to convert"
+msgstr "没有可转换的内容"
+
+#: properties/trajectanim_panel_props.py:129
+msgid "Number of frames to skip after each frame"
+msgstr "每帧之后要跳过的帧数"
+
+#: properties/trajectanim_panel_props.py:8
+#: properties/trajectanim_panel_props.py:60
+msgid "Object"
+msgstr "物体"
+
+#: panel/trajectanim_panel.py:236
+msgid "Offset Position X"
+msgstr "偏移位置 X"
+
+#: panel/trajectanim_panel.py:278
+msgid "Offset Rotation X"
+msgstr "偏移旋转 X"
+
+#: panel/trajectanim_panel.py:204
+msgid "Only Rotate Up"
+msgstr "仅向上旋转"
+
+#: properties/trajectanim_panel_props.py:102
+msgid "Only animate whatever is listed on the list"
+msgstr "仅对列表中列出的项制作动画"
+
+#: panel/annotation_panel.py:57
+msgid "Only insert active Layer"
+msgstr "仅插入活动图层"
+
+#: properties/trajectanim_panel_props.py:160
+msgid "Only rotate up (if rotate along path is enabled)"
+msgstr "仅向上旋转（若启用了沿路径旋转）"
+
+#: properties/stroke_panel_props.py:20
+#: properties/trajectanim_panel_props.py:112
+msgid "Points"
+msgstr "点"
+
+#: panel/trajectanim_panel.py:224
+msgid "Position Offset"
+msgstr "位置偏移"
+
+#: properties/trajectanim_panel_props.py:206
+msgid "Position Offset X"
+msgstr "位置偏移 X"
+
+#: properties/trajectanim_panel_props.py:213
+#: properties/trajectanim_panel_props.py:220
+msgid "Position Offset Y"
+msgstr "位置偏移 Y"
+
+#: panel/trajectanim_panel.py:98
+msgid "Position Orientation"
+msgstr "位置朝向"
+
+#: properties/trajectanim_panel_props.py:36
+msgid "Position Transformation Orientation"
+msgstr "位置变换朝向"
+
+#: properties/trajectanim_panel_props.py:206
+#: properties/trajectanim_panel_props.py:213
+msgid "Position used to offset when using Animate Position."
+msgstr "使用动画位置时用于偏移的位置。"
+
+#: properties/stroke_panel_props.py:38
+msgid "Property to define how strokes will be intersected"
+msgstr "用于定义笔画如何相交的属性"
+
+#: properties/trajectanim_panel_props.py:36
+#: properties/trajectanim_panel_props.py:46
+msgid "Property to define how transformation are applied"
+msgstr "用于定义变换应用方式的属性"
+
+#: properties/trajectanim_panel_props.py:98
+msgid "Property to define the behaviour of defining target object/bone"
+msgstr "用于定义目标物体/骨骼指定行为的属性"
+
+#: properties/trajectanim_panel_props.py:56
+msgid "Property to define the center origin for rotation. Does not affect Rotate Along Path"
+msgstr "用于定义旋转中心原点的属性。不影响沿路径旋转"
+
+#: properties/trajectanim_panel_props.py:108
+msgid "Property to define the timing of animation"
+msgstr "用于定义动画时序的属性"
+
+#: properties/stroke_panel_props.py:15
+msgid "Property to define which operator suited for curve conversion/trajectory animation"
+msgstr "用于定义适用于曲线转换/轨迹动画的操作符的属性"
+
+#: properties/trajectanim_panel_props.py:84
+msgid "Relative to Path"
+msgstr "相对于路径"
+
+#: panel/trajectanim_panel.py:157
+msgid "Relative to Stroke"
+msgstr "相对于笔划"
+
+#: properties/gpencil_panel_props.py:27
+msgid "Remove all points aside from starting, ending, and intersection"
+msgstr "移除除起点、终点和交点以外的所有点"
+
+#: properties/gpencil_panel_props.py:27
+msgid "Replace"
+msgstr "替换"
+
+#: properties/stroke_panel_props.py:43
+msgid "Replace with Intersection"
+msgstr "替换为交点"
+
+#: panel/trajectanim_panel.py:161
+#: properties/trajectanim_panel_props.py:78
+msgid "Reverse Path"
+msgstr "反转路径"
+
+#: panel/trajectanim_panel.py:159
+#: properties/trajectanim_panel_props.py:72
+msgid "Rotate Along Path"
+msgstr "沿路径旋转"
+
+#: panel/trajectanim_panel.py:179
+msgid "Rotation Axis:"
+msgstr "旋转轴："
+
+#: panel/trajectanim_panel.py:110
+msgid "Rotation Center"
+msgstr "旋转中心"
+
+#: panel/trajectanim_panel.py:256
+msgid "Rotation Offset"
+msgstr "旋转偏移"
+
+#: properties/trajectanim_panel_props.py:229
+msgid "Rotation Offset X"
+msgstr "旋转偏移 X"
+
+#: properties/trajectanim_panel_props.py:239
+#: properties/trajectanim_panel_props.py:249
+msgid "Rotation Offset Y"
+msgstr "旋转偏移 Y"
+
+#: panel/trajectanim_panel.py:104
+msgid "Rotation Orientation"
+msgstr "旋转朝向"
+
+#: properties/trajectanim_panel_props.py:56
+msgid "Rotation Origin"
+msgstr "旋转原点"
+
+#: properties/trajectanim_panel_props.py:46
+msgid "Rotation Transformation Orientation"
+msgstr "旋转变换朝向"
+
+#: properties/trajectanim_panel_props.py:239
+#: properties/trajectanim_panel_props.py:249
+msgid "Rotation used to offset when using Rotate Along Path or Animate Position Suppressed when Auto Fix Rotation is enabled."
+msgstr "使用沿路径旋转或动画位置时用于偏移的旋转。启用自动修正旋转时被禁用。"
+
+#: properties/trajectanim_panel_props.py:229
+msgid "Rotation used to offset when using Rotate Along Path or Animate Position. Suppressed when Auto Fix Rotation is enabled."
+msgstr "使用沿路径旋转或动画位置时用于偏移的旋转。启用自动修正旋转时被禁用。"
+
+#: panel/gpencil_panel.py:45
+msgid "Select the active grease pencil"
+msgstr "选择活动的蜡笔"
+
+#: properties/trajectanim_panel_props.py:103
+msgid "Selected"
+msgstr "已选择"
+
+#: properties/stroke_panel_props.py:38
+msgid "Self Intersection Method"
+msgstr "自相交方式"
+
+#: panel/trajectanim_panel.py:89
+#: properties/trajectanim_panel_props.py:30
+msgid "Set 3D Cursor Automatically"
+msgstr "自动设置 3D 光标"
+
+#: panel/trajectanim_panel.py:75
+msgid "Settings"
+msgstr "设置"
+
+#: properties/trajectanim_panel_props.py:170
+msgid "Smooth Flips"
+msgstr "平滑翻转"
+
+#: panel/trajectanim_panel.py:310
+msgid "Smooth flips"
+msgstr "平滑翻转"
+
+#: panel/stroke_panel.py:30
+msgid "Source"
+msgstr "来源"
+
+#: panel/annotation_panel.py:28
+#: panel/annotation_panel.py:34
+msgid "Start drawing using annotation tool!"
+msgstr "使用标注工具开始绘制！"
+
+#: panel/stroke_panel.py:13
+msgid "Stroke"
+msgstr "笔划"
+
+#: operators/animate_pos_rot.py:724
+#: operators/animate_pos_rot.py:740
+msgid "Successfully animate trajectory"
+msgstr "成功为轨迹添加动画"
+
+#: operators/convert_annotation_to_curve.py:75
+msgid "Successfully convert annotation into curve"
+msgstr "成功将标注转换为曲线"
+
+#: operators/convert_curve.py:206
+msgid "Successfully convert curve into annotation"
+msgstr "成功将曲线转换为标注"
+
+#: operators/convert_curve.py:182
+msgid "Successfully convert curve into grease pencil"
+msgstr "成功将曲线转换为蜡笔"
+
+#: operators/convert_gpencil.py:114
+msgid "Successfully convert grease pencil into annotation"
+msgstr "成功将蜡笔转换为标注"
+
+#: operators/convert_gpencil.py:93
+msgid "Successfully convert grease pencil into curve"
+msgstr "成功将蜡笔转换为曲线"
+
+#: operators/create_gpencil.py:50
+msgid "Successfully created Grease Pencil"
+msgstr "成功创建蜡笔"
+
+#: operators/self_intersect.py:149
+msgid "Successfully intersect stroke"
+msgstr "成功相交笔划"
+
+#: operators/clear_strokes.py:104
+msgid "Successfully remove all strokes"
+msgstr "成功移除所有笔划"
+
+#: operators/clear_strokes.py:82
+msgid "Successfully remove excess strokes"
+msgstr "成功移除多余笔划"
+
+#: panel/trajectanim_panel.py:33
+#: panel/trajectanim_panel.py:43
+msgid "Target"
+msgstr "目标"
+
+#: properties/stroke_panel_props.py:26
+msgid "Target used for operator for this panel. Can be used to override annotation tool over grease pencil"
+msgstr "此面板操作符使用的目标。可用于覆盖蜡笔上的标注工具"
+
+#: properties/trajectanim_panel_props.py:98
+msgid "Targets"
+msgstr "目标"
+
+#: panel/annotation_panel.py:53
+msgid "Thickness"
+msgstr "厚度"
+
+#: operators/convert_curve.py:44
+#: operators/convert_curve.py:122
+msgid "This curve contain more than one splines. Only active spline is converted"
+msgstr "此曲线包含多个样条。仅转换活动样条"
+
+#: properties/trajectanim_panel_props.py:176
+msgid "Threshold to detect flips. If rotation equal or higher than this angle, negate the rotation."
+msgstr "检测翻转的阈值。若旋转大于或等于此角度，则反转旋转。"
+
+#: panel/trajectanim_panel.py:125
+#: properties/trajectanim_panel_props.py:108
+msgid "Timing"
+msgstr "时序"
+
+#: properties/trajectanim_panel_props.py:113
+msgid "Timing will be defined by total frames, which is defined by user. If there are less duration than the amount of points/intersections, then some points will be skipped to fit the total duration."
+msgstr "时序将由用户定义的总帧数决定。若持续时间少于点/交点数量，则会跳过部分点以适配总时长。"
+
+#: properties/trajectanim_panel_props.py:112
+msgid "Timing will be defined by total points of the stroke or the intersections"
+msgstr "时序将由笔划或交点的总点数决定"
+
+#: panel/trajectanim_panel.py:132
+msgid "Total Duration"
+msgstr "总持续时间"
+
+#: properties/trajectanim_panel_props.py:261
+msgid "Track Axis"
+msgstr "跟踪轴"
+
+#: panel/trajectanim_panel.py:190
+msgid "Track Settings"
+msgstr "跟踪设置"
+
+#: panel/trajectanim_panel.py:209
+msgid "Track/Forward Axis:"
+msgstr "跟踪/前向轴："
+
+#: panel/annotation_panel.py:11
+#: panel/gpencil_panel.py:5
+msgid "TrajectAnim"
+msgstr "TrajectAnim"
+
+#: properties/trajectanim_panel_props.py:276
+msgid "Up Axis"
+msgstr "上轴"
+
+#: panel/trajectanim_panel.py:214
+msgid "Up Axis:"
+msgstr "上轴："
+
+#: properties/trajectanim_panel_props.py:61
+msgid "Use 3d cursor as the rotation center"
+msgstr "使用 3D 光标作为旋转中心"
+
+#: properties/trajectanim_panel_props.py:60
+msgid "Use active object or first item from list as the rotation center"
+msgstr "使用活动物体或列表中的第一项作为旋转中心"
+
+#: properties/stroke_panel_props.py:20
+msgid "Use each points. Note: Only first stroke/curve will be used, any subsequent stroke/curve will be ignored"
+msgstr "使用每个点。注意：仅使用第一个笔划/曲线，后续笔划/曲线将被忽略"
+
+#: properties/trajectanim_panel_props.py:40
+msgid "Use global axis to orient position"
+msgstr "使用全局轴确定位置朝向"
+
+#: properties/trajectanim_panel_props.py:50
+msgid "Use global axis to orient rotation"
+msgstr "使用全局轴确定旋转朝向"
+
+#: properties/trajectanim_panel_props.py:41
+msgid "Use local axis to orient position"
+msgstr "使用局部轴确定位置朝向"
+
+#: properties/trajectanim_panel_props.py:51
+msgid "Use local axis to orient rotation"
+msgstr "使用局部轴确定旋转朝向"
+
+#: properties/trajectanim_panel_props.py:103
+msgid "Use selected objects as their target. Grease pencil and curves are excluded from this"
+msgstr "使用选中物体作为其目标。蜡笔和曲线不包含在内"
+
+#: properties/trajectanim_panel_props.py:160
+msgid "When enabled, disable any other rotation than the up axis. Only works when animating position with Rotate Along Path enabled. Use this to prevent object twisting/flipping while following the path. Only works if Rotate Along Path is enabled"
+msgstr "启用后，禁用除上轴以外的任何旋转。仅在使用沿路径旋转并动画位置时有效。用于防止物体沿路径时扭转/翻转。仅在启用沿路径旋转时有效"
+
+#: properties/trajectanim_panel_props.py:185
+msgid "When enabled, rotation will not go over 360 degrees, and instead mapped to 0. Only applicable for object with euler rotation."
+msgstr "启用后，旋转不会超过 360 度，而是映射到 0。仅适用于使用欧拉旋转的物体。"
+
+#: properties/trajectanim_panel_props.py:153
+msgid "When enabled, script will attempt to fix rotation based off the track axis direction. This is to ensure object always facing forward the path. Only works if Rotate Along Path is enabled."
+msgstr "启用后，脚本将尝试根据跟踪轴方向修正旋转。以确保物体始终朝向路径前方。仅在启用沿路径旋转时有效。"
+
+#: properties/trajectanim_panel_props.py:170
+msgid "When enabled, the script will attempt to fix rotation that cause flip by negating the rotation."
+msgstr "启用后，脚本将尝试通过反转旋转来修正导致翻转的旋转。"
+
+#: properties/trajectanim_panel_props.py:30
+msgid "When turned on, 3D cursor will be set depending on the first item in target list. Does not work for pose bones when using \"Selected\"."
+msgstr "开启后，将根据目标列表中的第一项设置 3D 光标。使用「已选择」时不适用于姿态骨骼。"
+
+#: properties/trajectanim_panel_props.py:66
+msgid "When turned on, annotation/grease pencil current keyframe or curve object will be removed after applying animation"
+msgstr "开启后，应用动画后将移除标注/蜡笔当前关键帧或曲线物体"
+
+#: properties/trajectanim_panel_props.py:91
+msgid "When turned on, initial rotation will be added in addition to the trajectory rotation path. Otherwise the rotation will be set to whatever is given based off the settings."
+msgstr "开启后，将在轨迹旋转路径之外额外添加初始旋转。否则旋转将根据设置设定为指定值。"
+
+#: properties/trajectanim_panel_props.py:84
+msgid "When turned on, position will be relative to their current position and the trajectory. Otherwise the position will snap to the trajectory position."
+msgstr "开启后，位置将相对于其当前位置和轨迹。否则位置将吸附到轨迹位置。"
+
+#: properties/stroke_panel_props.py:7
+msgid "When turned on, stroke will not be removed after converting into curve. Otherwise the active frame will be removed after conversion."
+msgstr "开启后，转换为曲线后不会移除笔划。否则转换后将移除当前帧。"
+
+#: properties/trajectanim_panel_props.py:72
+msgid "When turned on, target animation will rotate along trajectory path"
+msgstr "开启后，目标动画将沿轨迹路径旋转"
+
+#: properties/trajectanim_panel_props.py:78
+msgid "When turned on, trajectory path will be reversed"
+msgstr "开启后，轨迹路径将被反转"
+
+#: properties/stroke_panel_props.py:32
+msgid "Will always prioritize selected Grease Pencil object. If there are none, then the active grease pencil from `Active Grease Pencil` property will be used"
+msgstr "将始终优先使用选中的蜡笔物体。如果没有，则使用「活动蜡笔」属性中的活动蜡笔"
+
+#: panel/trajectanim_panel.py:171
+#: panel/trajectanim_panel.py:182
+msgid "X"
+msgstr "X"
+
+#: panel/trajectanim_panel.py:172
+#: panel/trajectanim_panel.py:183
+msgid "Y"
+msgstr "Y"
+
+#: panel/trajectanim_panel.py:173
+#: panel/trajectanim_panel.py:184
+msgid "Z"
+msgstr "Z"
+
+#: panel/gpencil_panel.py:24
+msgid "button below, or use an existing one."
+msgstr "下方按钮，或使用现有的。"
+
+#: panel/gpencil_panel.py:46
+msgid "object to display layers here"
+msgstr "在此显示层的物体"
+
+#: panel/trajectanim_panel.py:67
+msgctxt "Operator"
+msgid "Add"
+msgstr "添加"
+
+#: panel/annotation_panel.py:49
+#: panel/gpencil_panel.py:53
+msgctxt "Operator"
+msgid "Add Layer"
+msgstr "添加层"
+
+#: operators/trajectanim_target.py:75
+msgctxt "Operator"
+msgid "Add entry to target list"
+msgstr "向目标列表添加条目"
+
+#: operators/animate_pos_rot.py:717
+#: panel/trajectanim_panel.py:19
+msgctxt "Operator"
+msgid "Animate Position"
+msgstr "位置动画"
+
+#: operators/animate_pos_rot.py:733
+#: panel/trajectanim_panel.py:20
+msgctxt "Operator"
+msgid "Animate Rotation"
+msgstr "旋转动画"
+
+#: operators/annotation_add_keyframe.py:30
+msgctxt "Operator"
+msgid "Annotation Add Blank Keyframe"
+msgstr "注记添加空白关键帧"
+
+#: panel/stroke_panel.py:62
+#: panel/stroke_panel.py:85
+msgctxt "Operator"
+msgid "Clear All Strokes"
+msgstr "清除所有笔画"
+
+#: panel/stroke_panel.py:61
+#: panel/stroke_panel.py:84
+msgctxt "Operator"
+msgid "Clear excess strokes"
+msgstr "清除多余笔画"
+
+#: operators/convert_annotation_to_curve.py:62
+msgctxt "Operator"
+msgid "Convert annotation strokes into curve"
+msgstr "将注记笔画转换为曲线"
+
+#: operators/convert_curve.py:190
+msgctxt "Operator"
+msgid "Convert curve into annotation"
+msgstr "将曲线转换为注记"
+
+#: operators/convert_curve.py:166
+msgctxt "Operator"
+msgid "Convert curve into grease pencil"
+msgstr "将曲线转换为蜡笔"
+
+#: operators/convert_gpencil.py:101
+msgctxt "Operator"
+msgid "Convert grease pencil strokes into annotation"
+msgstr "将蜡笔笔画转换为注记"
+
+#: operators/convert_gpencil.py:80
+msgctxt "Operator"
+msgid "Convert grease pencil strokes into curve"
+msgstr "将蜡笔笔画转换为曲线"
+
+#: panel/stroke_panel.py:98
+#: panel/stroke_panel.py:110
+msgctxt "Operator"
+msgid "Convert to Annotation"
+msgstr "转换为注记"
+
+#: panel/stroke_panel.py:73
+#: panel/stroke_panel.py:96
+msgctxt "Operator"
+msgid "Convert to Curve"
+msgstr "转换为曲线"
+
+#: panel/stroke_panel.py:108
+msgctxt "Operator"
+msgid "Convert to Grease Pencil"
+msgstr "转换为蜡笔"
+
+#: operators/create_gpencil.py:45
+msgctxt "Operator"
+msgid "Crease Grease Pencil"
+msgstr "为蜡笔添加折痕"
+
+#: panel/gpencil_panel.py:27
+msgctxt "Operator"
+msgid "Create Grease Pencil"
+msgstr "创建蜡笔"
+
+#: panel/stroke_panel.py:59
+#: panel/stroke_panel.py:86
+msgctxt "Operator"
+msgid "Delete Active Frame"
+msgstr "删除活动帧"
+
+#: panel/annotation_panel.py:50
+#: panel/gpencil_panel.py:54
+msgctxt "Operator"
+msgid "Delete Layer"
+msgstr "删除层"
+
+#: panel/annotation_panel.py:56
+msgctxt "Operator"
+msgid "Insert Blank Keyframe"
+msgstr "插入空白关键帧"
+
+#: operators/self_intersect.py:135
+msgctxt "Operator"
+msgid "Intersect stroke"
+msgstr "笔画相交"
+
+#: panel/trajectanim_panel.py:68
+msgctxt "Operator"
+msgid "Remove"
+msgstr "移除"
+
+#: operators/clear_strokes.py:90
+msgctxt "Operator"
+msgid "Remove all strokes"
+msgstr "移除所有笔画"
+
+#: operators/trajectanim_target.py:86
+msgctxt "Operator"
+msgid "Remove entry from target list"
+msgstr "从目标列表移除条目"
+
+#: operators/clear_strokes.py:68
+msgctxt "Operator"
+msgid "Remove excess strokes"
+msgstr "移除多余笔画"
+
+#: operators/trajectanim_target.py:97
+msgctxt "Operator"
+msgid "Replace entry with newly selected object(s)"
+msgstr "用新选中的物体替换条目"
+
+#: panel/stroke_panel.py:69
+#: panel/stroke_panel.py:92
+msgctxt "Operator"
+msgid "Self Intersect"
+msgstr "自相交"
+
+#: panel/trajectanim_panel.py:69
+msgctxt "Operator"
+msgid "Substitute"
+msgstr "替换"

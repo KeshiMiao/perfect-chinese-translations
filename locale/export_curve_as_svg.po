@@ -1,0 +1,603 @@
+# perfect-chinese: 1
+# id: export_curve_as_svg
+# kind: addon
+# module: bl_ext.blender_org.export_curve_as_svg
+# name: Export Curve as SVG
+# name_zh: 曲线导出
+# translator: KeshiMiao
+# category: Import-Export
+# supported_versions: >=5.0.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:1694
+msgid "A4"
+msgstr "A4"
+
+#: __init__.py:2092
+msgid "Accuracy"
+msgstr "精度"
+
+#: __init__.py:1518
+msgid "Active Collection"
+msgstr "活动集合"
+
+#: __init__.py:1505
+msgid "Active Object"
+msgstr "活动物体"
+
+#: __init__.py:1525
+#: __init__.py:1978
+msgid "All"
+msgstr "全部"
+
+#: __init__.py:1581
+msgid "Apply Modifiers"
+msgstr "应用修改器"
+
+#: __init__.py:1631
+msgid "Camera"
+msgstr "摄像机"
+
+#: __init__.py:1307
+msgid "Caps"
+msgstr "端点"
+
+#: __init__.py:1859
+msgid "Center the complete artwork using its projected bounds while preserving relative positions between objects and groups. Fit to Content includes stroke padding around the combined result."
+msgstr "使用投影边界将完整作品居中，同时保留物体与组之间的相对位置。适应内容会在合并结果周围包含描边内边距。"
+
+#: __init__.py:1779
+msgid "Centimeters"
+msgstr "厘米"
+
+#: __init__.py:1610
+msgid "Choose how 3D geometry is projected onto the SVG page. Top, Front, Side and Current View use orthographic projection; Camera follows the scene camera. Object transforms are respected. Projection alone does not remove hidden edges or occluded paths."
+msgstr "选择 3D 几何体投影到 SVG 页面的方式。顶视图、前视图、侧视图和当前视图使用正交投影；摄像机跟随场景摄像机。会遵循物体变换。仅投影不会移除隐藏边或遮挡路径。"
+
+#: __init__.py:1849
+msgid "Choose how projected artwork is positioned on the page. On centers the complete export; Groups centers each top-level SVG group independently. Group by determines which groups are moved. Camera projection keeps its camera framing and ignores this setting."
+msgstr "选择投影作品在页面上的定位方式。整体居中会将整个导出内容居中；组会独立居中每个顶层 SVG 组。分组依据决定移动哪些组。摄像机投影保留其摄像机取景并忽略此设置。"
+
+#: __init__.py:1995
+msgid "Choose one fill color per exported object, applied to its filled paths. Custom uses the picker below; Object and Material read Blender properties; Random generates new colors on each export. Only used when Fill Mode allows a fill. Object and material alpha are not exported."
+msgstr "为每个导出的物体选择一种填充颜色，并应用到其填充路径。自定义使用下方的拾色器；物体和材质读取 Blender 属性；随机在每次导出时生成新颜色。仅在填充模式允许填充时使用。物体和材质透明度不会导出。"
+
+#: __init__.py:1901
+msgid "Choose one stroke color per exported object, applied to all its paths. Custom uses the picker below; Object and Material read Blender properties; Random generates new colors on each export. Colors are opaque RGB; object and material alpha are not exported."
+msgstr "为每个导出的物体选择一种描边颜色，并应用到其所有路径。自定义使用下方的拾色器；物体和材质读取 Blender 属性；随机在每次导出时生成新颜色。颜色为不透明 RGB；物体和材质透明度不会导出。"
+
+#: __init__.py:1747
+msgid "Choose portrait or landscape dimensions for A4 and Letter. Landscape swaps the preset width and height; it does not rotate the artwork. For a Custom page, set Width and Height directly."
+msgstr "选择 A4 和 Letter 的纵向或横向尺寸。横向会交换预设的宽度和高度；它不会旋转作品。对于自定义页面，直接设置宽度和高度。"
+
+#: __init__.py:1683
+msgid "Choose the SVG page dimensions. Fixed paper sizes retain manual artwork scale unless Fit to Page is enabled. Geometry outside a fixed page is retained. Camera projection uses its camera frame instead and shows From Camera."
+msgstr "选择 SVG 页面尺寸。固定纸张尺寸会保留手动作品缩放，除非启用适应页面。固定页面外的几何体会保留。摄像机投影则使用其摄像机边框并显示“来自摄像机”。"
+
+#: __init__.py:2034
+msgid "Choose the interior color for all filled paths when Color Source is Custom. Fill Mode determines which paths receive it. This color has no effect with Fill Mode None or when another fill color source is selected."
+msgstr "当颜色来源为自定义时，选择所有填充路径的内部颜色。填充模式决定哪些路径应用它。当填充模式为无或选择了其他填充颜色来源时，此颜色无效。"
+
+#: __init__.py:1940
+msgid "Choose the stroke color used for all exported objects when Color Source is Custom. Applies to outlines and open paths, including text and wireframes. This picker is ignored when another color source is selected."
+msgstr "当颜色来源为自定义时，选择用于所有导出物体的描边颜色。应用于轮廓和开放路径，包括文本和线框。当选择了其他颜色来源时，此拾色器将被忽略。"
+
+#: __init__.py:1307
+msgid "Choose the stroke corner shape where SVG path segments meet, including the closing corner of closed paths. Affects the stroke outline; the path centerline and fill shape stay unchanged."
+msgstr "选择 SVG 路径线段相接处的描边拐角形状，包括闭合路径的闭合拐角。会影响描边轮廓；路径中心线和填充形状保持不变。"
+
+#: __init__.py:1307
+msgid "Choose the stroke end shape on open paths. Caps affect only the SVG stroke and extend according to Stroke Width; closed paths have no caps. The source curve geometry is unchanged."
+msgstr "选择开放路径上的描边端点形状。端点仅影响 SVG 描边，并根据描边宽度延伸；闭合路径没有端点。源曲线几何体保持不变。"
+
+#: __init__.py:1495
+msgid "Choose which objects are considered, then filter them with the enabled Object Types. Object lists are captured when opening the export dialog. Reopen the dialog after changing selection, visibility or the active collection."
+msgstr "选择要考虑哪些物体，然后使用启用的物体类型进行过滤。打开导出对话框时会捕获物体列表。更改选择、可见性或活动集合后，请重新打开对话框。"
+
+#: __init__.py:1955
+msgid "Choose which projected path interiors receive a fill. This fills path shapes, not 3D surface or mesh faces. Text outlines preserve holes between contours; other separate contours are filled independently. Choose None for line drawings, or Closed Curves to fill explicitly closed paths."
+msgstr "选择哪些投影路径内部进行填充。这会填充路径形状，而不是 3D 表面或网格面。文本轮廓会保留轮廓之间的孔洞；其他独立轮廓会分别填充。选择无用于线稿，或选择闭合曲线以填充明确闭合的路径。"
+
+#: __init__.py:1657
+msgid "Clip to Camera Frame"
+msgstr "裁剪到摄像机边框"
+
+#: __init__.py:2089
+msgid "Clip to Frame"
+msgstr "裁剪到边框"
+
+#: __init__.py:1964
+msgid "Closed Curves"
+msgstr "闭合曲线"
+
+#: __init__.py:1550
+msgid "Collections"
+msgstr "集合"
+
+#: __init__.py:1562
+msgid "Collections + Hierarchy"
+msgstr "集合 + 层级"
+
+#: __init__.py:1901
+#: __init__.py:1940
+msgid "Color"
+msgstr "颜色"
+
+#: __init__.py:2130
+#: __init__.py:2137
+msgid "Color Source"
+msgstr "颜色来源"
+
+#: __init__.py:2200
+msgid "Could not write to file. Check permissions."
+msgstr "无法写入文件。请检查权限。"
+
+#: __init__.py:1544
+msgid "Create one named SVG group per exported object and keep the existing object order. With Re-center Groups, each object group is centered independently."
+msgstr "为每个导出的物体创建一个命名 SVG 组，并保持现有物体顺序。使用重新居中组时，每个物体组会独立居中。"
+
+#: __init__.py:1639
+msgid "Current View"
+msgstr "当前视图"
+
+#: __init__.py:1418
+msgid "Curve"
+msgstr "曲线"
+
+#: __init__.py:1668
+msgid "Curve Accuracy"
+msgstr "曲线精度"
+
+#: __init__.py:1431
+msgid "Curves"
+msgstr "曲线"
+
+#: __init__.py:1708
+#: __init__.py:1904
+msgid "Custom"
+msgstr "自定义"
+
+#: __init__.py:1815
+msgid "Custom page height in the selected Units. Sets the SVG canvas height. Manual artwork scale is retained unless Fit to Page is enabled. For portrait, enter a height larger than Width."
+msgstr "所选单位下的自定义页面高度。设置 SVG 画布高度。除非启用适应页面，否则保留手动作品缩放。对于纵向，请输入大于宽度的值。"
+
+#: __init__.py:1805
+msgid "Custom page width in the selected Units. Sets the SVG canvas width. Manual artwork scale is retained unless Fit to Page is enabled. For landscape, enter a width larger than Height."
+msgstr "所选单位下的自定义页面宽度。设置 SVG 画布宽度。除非启用适应页面，否则保留手动作品缩放。对于横向，请输入大于高度的值。"
+
+#: __init__.py:1790
+msgid "Enter Custom page Width and Height in SVG pixels at 96 pixels per inch. The SVG remains vector artwork and can be scaled when viewed or printed."
+msgstr "以 SVG 像素（每英寸 96 像素）输入自定义页面宽度和高度。SVG 仍是矢量作品，在查看或打印时可以缩放。"
+
+#: __init__.py:1779
+msgid "Enter Custom page Width and Height in centimeters. One centimeter equals 10 mm; the SVG stores physical page dimensions."
+msgstr "以厘米输入自定义页面宽度和高度。一厘米等于 10 毫米；SVG 会存储物理页面尺寸。"
+
+#: __init__.py:1785
+msgid "Enter Custom page Width and Height in inches. One inch equals 25.4 mm and 96 SVG pixels."
+msgstr "以英寸输入自定义页面宽度和高度。一英寸等于 25.4 毫米和 96 SVG 像素。"
+
+#: __init__.py:1774
+msgid "Enter Custom page Width and Height in millimeters. 25.4 mm equals one inch; the SVG stores physical page dimensions."
+msgstr "以毫米输入自定义页面宽度和高度。25.4 毫米等于一英寸；SVG 会存储物理页面尺寸。"
+
+#: __init__.py:1469
+msgid "Export NURBS Surface objects as tessellated wireframes. Increase Blender U/V resolution for finer sampling and larger SVG files; Apply Modifiers includes supported evaluated geometry. All tessellation edges are included, even internal and hidden edges. Filled surface patches, silhouettes and hidden-line removal are not generated. Original surfaces stay editable."
+msgstr "将 NURBS 曲面物体导出为细分线框。提高 Blender U/V 分辨率可获得更精细的采样和更大的 SVG 文件；应用修改器会包含支持的求值几何体。所有细分边都会包含，甚至内部边和隐藏边。不会生成填充曲面片、轮廓和消隐线。原始曲面保持可编辑。"
+
+#: __init__.py:1444
+msgid "Export Text objects as temporary glyph outlines, including holes in letters such as O and B. SVG letters are paths; the original Blender text and fonts stay editable. Extrusion and bevel are omitted. With Apply Modifiers enabled, text that evaluates only to a mesh is skipped; disable it to export the original outlines."
+msgstr "将文本物体导出为临时字形轮廓，包括 O 和 B 等字母中的孔洞。SVG 字母是路径；原始 Blender 文本和字体保持可编辑。会省略挤出和倒角。启用应用修改器时，仅求值为网格的文本会被跳过；禁用后可导出原始轮廓。"
+
+#: __init__.py:1482
+msgid "Export all mesh edges, including loose and hidden edges, as straight SVG paths. Continuous chains join through vertices with two edges; paths split at branches and closed chains form loops. Enable Apply Modifiers for the evaluated wireframe. Isolated vertices and filled faces are omitted; use Line Art for visible outlines."
+msgstr "将所有网格边（包括松散边和隐藏边）导出为直线 SVG 路径。连续链通过具有两条边的顶点连接；路径在分支处拆分，闭合链形成环。启用应用修改器以获取求值后的线框。会省略孤立顶点和填充面；使用线条画获取可见轮廓。"
+
+#: __init__.py:1518
+msgid "Export enabled object types from the active collection and all its child collections, including hidden or excluded objects. Set the active collection before opening this dialog."
+msgstr "从活动集合及其所有子集合中导出启用的物体类型，包括隐藏或排除的物体。在打开此对话框之前设置活动集合。"
+
+#: __init__.py:1498
+msgid "Export enabled object types visible in the source 3D viewport, respecting viewport visibility and Local View. If no viewport is available, use current view-layer visibility. Render visibility is not used."
+msgstr "导出源 3D 视图中可见的启用物体类型，遵循视图可见性和局部视图。如果没有可用视图，则使用当前视图层的可见性。不使用渲染可见性。"
+
+#: __init__.py:1525
+msgid "Export every object of the enabled types in the current scene, including hidden and excluded objects. Objects belonging only to other scenes are not included."
+msgstr "导出当前场景中启用类型的所有物体，包括隐藏和排除的物体。仅属于其他场景的物体不会包含在内。"
+
+#: __init__.py:1505
+msgid "Export only the active object if its type is enabled. Selecting several objects still exports only the active one. Set the active object before opening this dialog."
+msgstr "仅当活动物体的类型已启用时导出该物体。选择多个物体仍只导出活动物体。在打开此对话框之前设置活动物体。"
+
+#: __init__.py:1511
+msgid "Export selected objects whose types are enabled in Include. Select them before opening this dialog; changing the scene selection while the dialog is open does not update the captured list."
+msgstr "导出在包含中启用了类型的选中物体。在打开此对话框之前选择它们；对话框打开时更改场景选择不会更新已捕获的列表。"
+
+#: __init__.py:1581
+msgid "Export the result of viewport-enabled modifiers without applying or removing them in Blender. Enable this for generated Line Art. Curve, Curves and Text sources export curve components; mesh-only results from these sources are skipped with a warning. Mesh and Surface sources support evaluated wireframes. Unsupported components are skipped; Geometry Nodes instances require Realize Instances."
+msgstr "导出视图启用的修改器结果，而不在 Blender 中应用或移除它们。为生成的线条画启用此选项。曲线、曲线和文本源会导出曲线组件；这些源中仅网格的结果会被跳过并给出警告。网格和曲面源支持求值后的线框。不支持的组件会被跳过；几何节点实例需要实现实例。"
+
+#: __init__.py:1456
+msgid "Export visible layers at the current frame as stroke centerlines and fill contours. Enable Apply Modifiers to include generated Line Art. Fill contours follow the SVG Fill mode. Single-point strokes are skipped. SVG uses the chosen colors and uniform width; pressure, textures, masks, holdouts, effects and layer blending are omitted."
+msgstr "将当前帧的可见层导出为描边中心线和填充轮廓。启用应用修改器以包含生成的线条画。填充轮廓遵循 SVG 填充模式。单点描边会被跳过。SVG 使用所选颜色和统一宽度；会省略压感、纹理、遮罩、保持、效果和层混合。"
+
+#: __init__.py:2126
+msgid "Fill"
+msgstr "填充"
+
+#: __init__.py:1971
+msgid "Fill closed paths when the source Curve or Text data is set to 2D with a Blender Fill Mode enabled. Objects without these 2D fill settings need Closed Curves or All to receive SVG fills."
+msgstr "当源曲线或文本数据设为 2D 且启用了 Blender 填充模式时，填充闭合路径。没有这些 2D 填充设置的物体需要选择闭合曲线或全部才能获得 SVG 填充。"
+
+#: __init__.py:1978
+msgid "Fill every path, including open paths. SVG implicitly joins the endpoints with a straight edge for the fill, which can create unexpected polygons. The stroke still follows the original open path."
+msgstr "填充每条路径，包括开放路径。SVG 会隐式用直线边连接端点以进行填充，这可能会产生意外的多边形。描边仍遵循原始开放路径。"
+
+#: __init__.py:1964
+msgid "Fill only paths marked closed or cyclic, including closed text outlines and Grease Pencil fill contours. Touching endpoints on an open spline do not count as closed. Closed wireframe loops are filled as path shapes, not mesh faces."
+msgstr "仅填充标记为闭合或循环的路径，包括闭合文本轮廓和蜡笔填充轮廓。开放样条上接触的端点不算作闭合。闭合线框环作为路径形状填充，而不是网格面。"
+
+#: __init__.py:1971
+msgid "Filled 2D Curves"
+msgstr "填充的 2D 曲线"
+
+#: __init__.py:1687
+msgid "Fit to Content"
+msgstr "适应内容"
+
+#: __init__.py:1825
+msgid "Fit to Page"
+msgstr "适应页面"
+
+#: __init__.py:1562
+msgid "Follow the collection tree, then object parenting within each collection. Cross-collection parents may appear as structure-only groups. Multi-collection objects use the first matching collection, and each object geometry is exported once."
+msgstr "遵循集合树，然后遵循每个集合内的物体父子关系。跨集合的父级可能显示为仅结构组。多集合物体使用第一个匹配的集合，每个物体几何体只导出一次。"
+
+#: __init__.py:1726
+msgid "From Camera"
+msgstr "来自摄像机"
+
+#: __init__.py:1619
+msgid "Front (XZ)"
+msgstr "前视图 (XZ)"
+
+#: __init__.py:1924
+#: __init__.py:2018
+msgid "Generate one fresh color per object on every export. Stroke and Fill generate their colors independently, so they can differ and repeated exports can produce different results."
+msgstr "每次导出时为每个物体生成一种新颜色。描边和填充独立生成颜色，因此它们可能不同，重复导出可能产生不同结果。"
+
+#: __init__.py:1456
+msgid "Grease Pencil"
+msgstr "蜡笔"
+
+#: __init__.py:2095
+msgid "Group by"
+msgstr "分组依据"
+
+#: __init__.py:1541
+msgid "Grouping"
+msgstr "分组"
+
+#: __init__.py:1866
+msgid "Groups"
+msgstr "组"
+
+#: __init__.py:1815
+msgid "Height"
+msgstr "高度"
+
+#: __init__.py:1657
+msgid "Hide geometry outside the camera rectangle using an SVG clipping mask. Disable this to keep outside-frame paths visible while retaining the camera page size. This does not remove occluded geometry or enforce camera near/far clipping distances."
+msgstr "使用 SVG 剪切蒙版隐藏摄像机矩形外的几何体。禁用此选项可保持边框外的路径可见，同时保留摄像机页面尺寸。这不会移除被遮挡的几何体，也不会强制执行摄像机近/远裁剪距离。"
+
+#: __init__.py:1785
+msgid "Inches"
+msgstr "英寸"
+
+#: __init__.py:2073
+msgid "Include"
+msgstr "包含"
+
+#: __init__.py:1431
+msgid "Include Curves objects, including hair curves, from the chosen Limit to scope. Bezier and Poly export directly, Catmull-Rom becomes cubic Bezier, and NURBS is sampled at Blender curve resolution. Curve radius and hair shading are omitted; Style supplies uniform width and colors. Geometry Nodes instances must be realized before export."
+msgstr "包含来自所选限制范围的曲线物体，包括毛发曲线。贝塞尔和多段线直接导出，Catmull-Rom 变为三次贝塞尔，NURBS 按 Blender 曲线分辨率采样。会省略曲线半径和毛发着色；样式提供统一宽度和颜色。几何节点实例必须在导出前实现。"
+
+#: __init__.py:1418
+msgid "Include legacy Curve objects from the chosen Limit to scope. Bezier and Poly splines export directly; NURBS is sampled at Blender curve resolution. Increase that resolution for smoother NURBS output. Bevel and curve thickness are omitted; Style controls the SVG stroke width. Empty or single-point splines are skipped with a warning."
+msgstr "包含来自所选限制范围的旧版曲线物体。贝塞尔和多段线样条直接导出；NURBS 按 Blender 曲线分辨率采样。提高该分辨率可获得更平滑的 NURBS 输出。会省略倒角和曲线厚度；样式控制 SVG 描边宽度。空样条或单点样条会被跳过并给出警告。"
+
+#: __init__.py:1307
+msgid "Joins"
+msgstr "连接"
+
+#: __init__.py:1852
+msgid "Keep the original projected placement. Fixed pages put the original origin at the page center; Fit to Content leaves the SVG unframed. Fit to Page scales about that origin and preserves the offset proportionally."
+msgstr "保留原始投影位置。固定页面会将原始原点放在页面中心；适应内容会使 SVG 不设边框。适应页面会围绕该原点缩放，并按比例保留偏移。"
+
+#: __init__.py:1757
+msgid "Landscape"
+msgstr "横向"
+
+#: __init__.py:2085
+msgid "Layout"
+msgstr "布局"
+
+#: __init__.py:1958
+msgid "Leave all path interiors unfilled and draw only their strokes. Use for outlines, line drawings and wireframes. Fill color settings have no effect."
+msgstr "所有路径内部保持未填充，仅绘制其描边。用于轮廓、线稿和线框。填充颜色设置无效。"
+
+#: __init__.py:1701
+msgid "Letter"
+msgstr "Letter"
+
+#: __init__.py:1495
+msgid "Limit to"
+msgstr "限制到"
+
+#: __init__.py:1836
+msgid "Margin (mm)"
+msgstr "边距（毫米）"
+
+#: __init__.py:1915
+#: __init__.py:2009
+msgid "Material"
+msgstr "材质"
+
+#: __init__.py:1482
+msgid "Mesh"
+msgstr "网格"
+
+#: __init__.py:1774
+msgid "Millimeters"
+msgstr "毫米"
+
+#: __init__.py:1836
+msgid "Minimum space between the artwork, including stroke padding, and each page edge when Fit to Page is enabled. Always measured in millimeters, regardless of Custom page Units. Larger margins make the fitted artwork smaller. Export is cancelled if the margins leave no drawing area."
+msgstr "启用「适合页面」时，图形（含描边留白）与每条页面边缘之间的最小间距。始终以毫米为单位，与自定义页面单位无关。边距越大，适配后的图形越小。若边距导致没有绘制区域，则取消导出。"
+
+#: __init__.py:1955
+msgid "Mode"
+msgstr "模式"
+
+#: __init__.py:1866
+msgid "Move each top-level SVG group to the same page center while preserving the arrangement of its children. Group by determines which groups are centered. Independent groups can overlap."
+msgstr "将每个顶层 SVG 组移动到同一页面中心，同时保持其子项的排布。由分组方式决定居中哪些组。独立组之间可以重叠。"
+
+#: __init__.py:1596
+msgid "Multiply artwork coordinates and stroke width by this value. For Top, Front, Side and Current View, Scale 100 gives 100 SVG pixels per Blender coordinate unit; scene unit scale is not used. In Camera mode, Scale 100 makes page width match the full render resolution. Fit to Page overrides this manual scale."
+msgstr "将图形坐标和描边宽度乘以该值。对于顶视图、前视图、侧视图和当前视图，缩放 100 表示每个 Blender 坐标单位对应 100 SVG 像素；不使用场景单位比例。在摄像机模式下，缩放 100 使页面宽度匹配完整渲染分辨率。「适合页面」会覆盖此手动缩放。"
+
+#: __init__.py:1556
+msgid "Nest SVG groups along Blender object-parent chains. Parents outside the export scope appear as structure-only groups; their geometry is included only if allowed by Include."
+msgstr "沿 Blender 物体父级链嵌套 SVG 组。导出范围之外的父级会显示为仅结构组；仅当「包含」允许时，其几何体才会被包含。"
+
+#: __init__.py:2194
+msgid "No 3D viewport available. Open export from a 3D Viewport."
+msgstr "没有可用的 3D 视图。请从 3D 视图中打开导出。"
+
+#: __init__.py:2175
+msgid "No objects match the enabled types in Include."
+msgstr "没有物体匹配「包含」中启用的类型。"
+
+#: __init__.py:1958
+msgid "None"
+msgstr "无"
+
+#: __init__.py:1909
+#: __init__.py:2003
+msgid "Object"
+msgstr "物体"
+
+#: __init__.py:1556
+msgid "Object Hierarchy"
+msgstr "物体层级"
+
+#: __init__.py:2075
+msgid "Object Types"
+msgstr "物体类型"
+
+#: __init__.py:1544
+msgid "Objects"
+msgstr "物体"
+
+#: __init__.py:1852
+msgid "Off"
+msgstr "关闭"
+
+#: __init__.py:1859
+msgid "On"
+msgstr "开启"
+
+#: __init__.py:1541
+msgid "Organize exported paths into named SVG groups for easier selection in a vector editor. Object and collection names are retained. Nesting can change the stacking order of overlapping objects. Parents used for structure do not add geometry outside the Include settings."
+msgstr "将导出的路径整理为命名的 SVG 组，便于在矢量编辑器中选中。保留物体和集合名称。嵌套可能改变重叠物体的堆叠顺序。用于结构的父级不会在「包含」设置之外添加几何体。"
+
+#: __init__.py:1747
+msgid "Orientation"
+msgstr "方向"
+
+#: __init__.py:1723
+#: __init__.py:2106
+msgid "Page Size"
+msgstr "页面尺寸"
+
+#: __init__.py:1723
+#: __init__.py:1726
+msgid "Page size is controlled by the active camera, so this dropdown is unavailable. At Scale 100, width matches the full render resolution and height accounts for render pixel aspect. Render resolution percentage and render border cropping are ignored. Change the camera/render settings or Scale to change the output frame."
+msgstr "页面尺寸由活动摄像机控制，因此此下拉菜单不可用。在缩放 100 时，宽度匹配完整渲染分辨率，高度考虑渲染像素宽高比。渲染分辨率百分比和渲染边框裁剪会被忽略。更改摄像机/渲染设置或缩放可改变输出画幅。"
+
+#: __init__.py:1790
+msgid "Pixels"
+msgstr "像素"
+
+#: __init__.py:1751
+msgid "Portrait"
+msgstr "纵向"
+
+#: __init__.py:2087
+msgid "Projection"
+msgstr "投影"
+
+#: __init__.py:1610
+msgid "Projection View"
+msgstr "投影视图"
+
+#: __init__.py:1924
+#: __init__.py:2018
+msgid "Random"
+msgstr "随机"
+
+#: __init__.py:1849
+msgid "Re-center"
+msgstr "重新居中"
+
+#: __init__.py:1550
+msgid "Reproduce nested collection groups containing the exported object groups. Objects linked to multiple collections use the first matching collection; empty groups are omitted."
+msgstr "重现包含导出物体组的嵌套集合组。链接到多个集合的物体使用第一个匹配的集合；空组会被省略。"
+
+#: __init__.py:1596
+msgid "Scale"
+msgstr "缩放"
+
+#: __init__.py:1825
+msgid "Scale the artwork proportionally to fit inside the page Margin, including stroke padding. Overrides manual Scale; stroke width scales with the artwork. With Re-center Off, fitting scales about the original origin and accounts for offsets. Available for A4, Letter and Custom pages."
+msgstr "按比例缩放图形以适配页面边距（含描边留白）。覆盖手动缩放；描边宽度随图形缩放。关闭「重新居中」时，适配以原始原点为中心并考虑偏移量。适用于 A4、Letter 和自定义页面。"
+
+#: __init__.py:1511
+msgid "Selected Objects"
+msgstr "选中的物体"
+
+#: __init__.py:1694
+msgid "Set A4 paper dimensions: 210 by 297 mm in portrait. Orientation can swap width and height. Enable Fit to Page to resize the artwork inside margins; choosing this preset alone retains manual artwork scale."
+msgstr "设置 A4 纸张尺寸：纵向 210 × 297 毫米。方向可交换宽度和高度。启用「适合页面」可在边距内调整图形大小；仅选择此预设会保留手动图形缩放。"
+
+#: __init__.py:1701
+msgid "Set US Letter dimensions: 8.5 by 11 inches in portrait. Orientation can swap width and height. Enable Fit to Page to resize the artwork inside margins; choosing this preset alone retains manual artwork scale."
+msgstr "设置 US Letter 尺寸：纵向 8.5 × 11 英寸。方向可交换宽度和高度。启用「适合页面」可在边距内调整图形大小；仅选择此预设会保留手动图形缩放。"
+
+#: __init__.py:1708
+msgid "Set the page Width and Height in the selected Units. Enable Fit to Page to fit the artwork inside margins. Changing dimensions alone retains manual artwork scale, and geometry outside the page is retained."
+msgstr "以所选单位设置页面宽度和高度。启用「适合页面」使图形适配边距。仅更改尺寸会保留手动图形缩放，且页面之外的几何体会被保留。"
+
+#: __init__.py:1408
+msgid "Show SVG files in the file browser when choosing an export destination."
+msgstr "选择导出目标位置时，在文件浏览器中显示 SVG 文件。"
+
+#: __init__.py:1625
+msgid "Side (YZ)"
+msgstr "侧 (YZ)"
+
+#: __init__.py:1683
+msgid "Size"
+msgstr "尺寸"
+
+#: __init__.py:2135
+msgid "Stroke"
+msgstr "描边"
+
+#: __init__.py:2123
+msgid "Style"
+msgstr "样式"
+
+#: __init__.py:1469
+msgid "Surface"
+msgstr "曲面"
+
+#: __init__.py:1757
+msgid "Swap the preset width and height so the longer page edge is horizontal. Changes page dimensions; the artwork keeps its orientation."
+msgstr "交换预设的宽度和高度，使较长的页面边水平。会更改页面尺寸；图形保持其方向。"
+
+#: __init__.py:1444
+msgid "Text"
+msgstr "文本"
+
+#: __init__.py:1668
+msgid "Tolerance in final SVG pixels when approximating perspective Bezier curves with straight segments. Lower values make curves smoother, increase SVG size and take longer to export; 0.25 targets a quarter-pixel deviation. This does not increase NURBS or surface sampling resolution; adjust their Blender resolution instead."
+msgstr "用直线段近似透视贝塞尔曲线时，以最终 SVG 像素为单位的容差。较低的值使曲线更平滑，增加 SVG 大小并延长导出时间；0.25 对应四分之一像素偏差。这不会提高 NURBS 或曲面的采样分辨率；请改为调整其 Blender 分辨率。"
+
+#: __init__.py:1613
+msgid "Top (XY)"
+msgstr "顶 (XY)"
+
+#: __init__.py:1885
+msgid "Uniform width for every exported stroke, measured before Scale is applied. For example, Width 0.05 at Scale 100 produces a 5-pixel SVG stroke. Fit to Page changes the effective scale. Blender bevel, curve radius and Grease Pencil pressure do not determine this width."
+msgstr "所有导出描边的统一宽度，在应用缩放之前测量。例如，缩放 100 时宽度 0.05 会产生 5 像素的 SVG 描边。「适合页面」会改变有效缩放。Blender 倒角、曲线半径和蜡笔压力不决定此宽度。"
+
+#: __init__.py:1770
+msgid "Units"
+msgstr "单位"
+
+#: __init__.py:1770
+msgid "Units for the Custom page Width and Height. Physical sizes use 96 SVG pixels per inch. Changing this setting reinterprets the existing numbers in the new unit; it does not convert the numbers automatically. Artwork scale changes only when you adjust Scale or enable Fit to Page."
+msgstr "自定义页面宽度和高度的单位。物理尺寸使用每英寸 96 SVG 像素。更改此设置会以新单位重新解释现有数值，而不会自动转换数值。仅在调整缩放或启用「适合页面」时，图形缩放才会改变。"
+
+#: __init__.py:1909
+#: __init__.py:2003
+msgid "Use each object's Viewport Display Color for all its paths. Set it in Object Properties before export. Uses RGB only; object alpha is ignored."
+msgstr "使用每个物体的视图显示颜色作为其所有路径的颜色。导出前在物体属性中设置。仅使用 RGB；物体 Alpha 会被忽略。"
+
+#: __init__.py:1915
+#: __init__.py:2009
+msgid "Use the active material, falling back to the first material, for the whole object. Reads the first Principled/Diffuse base color, or the material viewport color when unavailable; objects without a material use black. Textures, shader effects, transparency and per-face or per-stroke colors are not reproduced."
+msgstr "对整个物体使用活动材质，若无则回退到第一个材质。读取第一个 Principled/漫射基础色，若不可用则使用材质视图颜色；没有材质的物体使用黑色。不会重现纹理、着色器效果、透明度以及逐面或逐笔触颜色。"
+
+#: __init__.py:1904
+#: __init__.py:1998
+msgid "Use the color picker below for every exported object. Object and material colors do not affect this choice."
+msgstr "对每个导出的物体使用下方的颜色选择器。物体和材质颜色不影响此选择。"
+
+#: __init__.py:1751
+msgid "Use the preset portrait dimensions, with the shorter page edge as Width. Changes page dimensions; the artwork keeps its orientation."
+msgstr "使用预设的纵向尺寸，以较短的页面边作为宽度。会更改页面尺寸；图形保持其方向。"
+
+#: __init__.py:1631
+msgid "Use the scene's active perspective or orthographic camera, including its evaluated transform, lens, shift, sensor fit and render pixel aspect. Panoramic cameras are unsupported. Perspective splines crossing or behind the camera plane are skipped with a warning."
+msgstr "使用场景的活动透视或正交摄像机，包括其求值后的变换、镜头、偏移、传感器适配和渲染像素宽高比。不支持全景摄像机。穿过摄像机平面或位于其后的透视样条会被跳过并给出警告。"
+
+#: __init__.py:1639
+msgid "Use the source 3D viewport rotation captured when opening the export dialog. Projection is orthographic; viewport perspective, zoom and pan are ignored. When launched outside a viewport, use the largest 3D viewport in the current window."
+msgstr "使用打开导出对话框时捕获的源 3D 视图旋转。投影为正交；视图透视、缩放和平移会被忽略。在视图之外启动时，使用当前窗口中最大的 3D 视图。"
+
+#: __init__.py:1613
+msgid "Use world X horizontally and Y vertically, discarding Z depth. Produces an orthographic plan view and keeps Bezier segments as cubic curves."
+msgstr "以世界 X 为水平方向、Y 为垂直方向，丢弃 Z 深度。生成正交平面视图，并将贝塞尔段保持为三次曲线。"
+
+#: __init__.py:1619
+msgid "Use world X horizontally and Z vertically, discarding Y depth. Produces an orthographic elevation and keeps Bezier segments as cubic curves."
+msgstr "以世界 X 为水平方向、Z 为垂直方向，丢弃 Y 深度。生成正交立面视图，并将贝塞尔段保持为三次曲线。"
+
+#: __init__.py:1625
+msgid "Use world Y horizontally and Z vertically, discarding X depth. Produces an orthographic side view and keeps Bezier segments as cubic curves."
+msgstr "以世界 Y 为水平方向、Z 为垂直方向，丢弃 X 深度。生成正交侧视图，并将贝塞尔段保持为三次曲线。"
+
+#: __init__.py:1498
+msgid "Visible"
+msgstr "可见"
+
+#: __init__.py:1805
+#: __init__.py:1885
+msgid "Width"
+msgstr "宽度"
+
+#: __init__.py:1687
+msgid "With Re-center On or Groups, size the page to the artwork bounds plus stroke padding. With Re-center Off, preserve unframed coordinates without calculating page dimensions. Fixed page fitting and margins are not used."
+msgstr "启用「重新居中」或分组时，将页面尺寸设为图形边界加描边留白。关闭「重新居中」时，保留无框坐标且不计算页面尺寸。不使用固定页面适配和边距。"
+
+#: __init__.py:2208
+msgctxt "Operator"
+msgid "Curve as SVG (.svg)"
+msgstr "曲线为 SVG (.svg)"
+
+#: __init__.py:1399
+msgctxt "Operator"
+msgid "Export SVG"
+msgstr "导出 SVG"
+
+#: __init__.py:1400
+msgctxt "Operator"
+msgid "Export enabled object types as SVG paths. Use Include to choose objects, Layout to project and position them, and Style to set fills and strokes. Conversions and modifier evaluation are temporary; warnings identify skipped or unsupported geometry."
+msgstr "将启用的物体类型导出为 SVG 路径。使用「包含」选择物体，使用「布局」投影并定位它们，使用「样式」设置填充和描边。转换和修改器求值是临时的；警告会指出被跳过或不支持的几何体。"

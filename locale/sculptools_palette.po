@@ -1,0 +1,961 @@
+# perfect-chinese: 1
+# id: sculptools_palette
+# kind: addon
+# module: bl_ext.blender_org.sculptools_palette
+# name: Sculptools: Palette
+# name_zh: 雕刻工具盘
+# translator: KeshiMiao
+# category: Sculpt
+# supported_versions: >=4.5.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: operators.py:110
+msgid "Add to Palette"
+msgstr "添加到调色板"
+
+#: brushes.py:61
+msgid "Airbrush"
+msgstr "喷枪"
+
+#: prefs.py:657
+msgid "All settings live in the dedicated 'Palette' tab of the 3D Viewport sidebar (press N while in Sculpt Mode)."
+msgstr "所有设置都位于 3D 视图侧栏中专门的「调色板」选项卡中（在雕刻模式下按 N）。"
+
+#: operators.py:1082
+msgid "Also restore the Open Palette and Cycle Palette hotkeys stored in this preset file"
+msgstr "同时恢复此预设文件中保存的打开调色板和循环调色板快捷键"
+
+#: prefs.py:39
+msgid "Alt"
+msgstr "Alt"
+
+#: prefs.py:39
+msgid "Alt + number (1-8) jumps to that palette"
+msgstr "Alt + 数字键（1-8）跳转到该调色板"
+
+#: operators.py:378
+#: operators.py:680
+msgid "Assign Tool"
+msgstr "指定工具"
+
+#: prefs.py:135
+msgid "BACK_SLASH"
+msgstr "BACK_SLASH"
+
+#: brushes.py:17
+msgid "Blob"
+msgstr "球状"
+
+#: brushes.py:44
+msgid "Boundary"
+msgstr "边界"
+
+#: brushes.py:12
+msgid "Clay"
+msgstr "黏土"
+
+#: prefs.py:545
+msgid "Colour of the main-slot outline and of its hover glow"
+msgstr "主槽位轮廓及其悬停光晕的颜色"
+
+#: prefs.py:584
+msgid "Colour of the sub-slot outline and of its hover glow"
+msgstr "子槽位轮廓及其悬停光晕的颜色"
+
+#: prefs.py:38
+msgid "Ctrl"
+msgstr "Ctrl"
+
+#: prefs.py:38
+msgid "Ctrl + number (1-8) jumps to that palette"
+msgstr "Ctrl + 数字键（1-8）跳转到该调色板"
+
+#: brushes.py:62
+msgid "Density"
+msgstr "密度"
+
+#: brushes.py:10
+msgid "Draw"
+msgstr "绘制"
+
+#: prefs.py:592
+msgid "Dynamic Brush Sliders"
+msgstr "动态笔刷滑块"
+
+#: prefs.py:661
+msgid "Edit palette slots there, or right-click a brush in Sculpt Mode and choose 'Add brush to Palette'."
+msgstr "在该处编辑调色板槽位，或在雕刻模式下右键单击笔刷并选择「将笔刷添加到调色板」。"
+
+#: prefs.py:574
+msgid "Extra gap in pixels between slot and sub-slot circles. Higher values push the sub-slots further out along the vector from their parent slot"
+msgstr "槽位与子槽位圆圈之间额外的像素间距。数值越大，子槽位沿其父槽位的向量方向越向外推"
+
+#: brushes.py:25
+msgid "Fill/Deepen"
+msgstr "填充/加深"
+
+#: prefs.py:602
+msgid "Fixed Slot Outline"
+msgstr "固定槽位轮廓"
+
+#: prefs.py:608
+msgid "Fixed Sub-Slot Visibility"
+msgstr "固定子槽位可见性"
+
+#: brushes.py:24
+msgid "Flatten/Contrast"
+msgstr "压平/对比"
+
+#: brushes.py:30
+msgid "Grab"
+msgstr "抓取"
+
+#: prefs.py:562
+msgid "Gradient Falloff"
+msgstr "渐变衰减"
+
+#: prefs.py:558
+msgid "Gradient Intensity"
+msgstr "渐变强度"
+
+#: prefs.py:554
+msgid "Gradient Size"
+msgstr "渐变大小"
+
+#: panel.py:931
+msgid "Hotkey editor unavailable here"
+msgstr "此处无法使用快捷键编辑器"
+
+#: prefs.py:533
+msgid "Hover Delay (s)"
+msgstr "悬停延迟（秒）"
+
+#: prefs.py:558
+msgid "Hover glow opacity."
+msgstr "悬停光晕不透明度。"
+
+#: prefs.py:537
+msgid "How quickly sub-slots disappear after moving the cursor away"
+msgstr "光标移开后子槽位消失的快慢"
+
+#: operators.py:1082
+msgid "Import hotkeys"
+msgstr "导入快捷键"
+
+#: brushes.py:16
+msgid "Inflate/Deflate"
+msgstr "膨胀/收缩"
+
+#: prefs.py:638
+msgid "Jump Modifier"
+msgstr "跳转修饰键"
+
+#: panel.py:1011
+msgid "Jump-to Palette Hotkey"
+msgstr "跳转到调色板快捷键"
+
+#: panel.py:929
+msgid "Keymap not found"
+msgstr "未找到键位映射"
+
+#: brushes.py:15
+msgid "Layer"
+msgstr "图层"
+
+#: operators.py:420
+msgid "Main Slot"
+msgstr "主槽位"
+
+#: brushes.py:64
+msgid "Mask"
+msgstr "遮罩"
+
+#: panel.py:1012
+msgid "Modifier"
+msgstr "修饰键"
+
+#: prefs.py:638
+msgid "Modifier held with a number key (1-8) to jump straight to that palette in Sculpt Mode. A modifier is required so the shortcut never clashes with Quick Numbers (plain number keys)"
+msgstr "在雕刻模式下按住修饰键配合数字键（1-8）可直接跳转到该调色板。必须使用修饰键，以免快捷键与快速数字（纯数字键）冲突"
+
+#: operators.py:727
+#: panel.py:831
+msgid "Name"
+msgstr "名称"
+
+#: operators.py:478
+msgid "No slot selected"
+msgstr "未选择槽位"
+
+#: brushes.py:38
+msgid "Nudge"
+msgstr "微移"
+
+#: prefs.py:392
+#: prefs.py:523
+msgid "Number of Slots"
+msgstr "槽位数量"
+
+#: prefs.py:523
+msgid "Number of main slots in the pie palette"
+msgstr "饼状调色板中主槽位的数量"
+
+#: prefs.py:392
+msgid "Number of main slots in this palette's pie"
+msgstr "此调色板饼状菜单中主槽位的数量"
+
+#: operators.py:942
+#: panel.py:800
+msgid "Palette"
+msgstr "调色板"
+
+#: panel.py:797
+msgid "Palette Appearance"
+msgstr "调色板外观"
+
+#: prefs.py:527
+msgid "Palette Radius"
+msgstr "调色板半径"
+
+#: operators.py:468
+msgid "Palette Slot"
+msgstr "调色板槽位"
+
+#: panel.py:897
+msgid "Palette Utilities"
+msgstr "调色板工具"
+
+#: brushes.py:43
+msgid "Pinch/Magnify"
+msgstr "捏合/放大"
+
+#: brushes.py:28
+msgid "Plateau"
+msgstr "平台"
+
+#: brushes.py:37
+msgid "Pose"
+msgstr "姿态"
+
+#: prefs.py:626
+msgid "Press a number key (1-9, 0) in Sculpt Mode to activate a slot's brush without opening the wheel. Repeat the same key to cycle through that slot's sub-slot brushes"
+msgstr "在雕刻模式下按数字键（1-9、0）无需打开轮盘即可激活槽位的笔刷。重复按同一键可在该槽位的子槽位笔刷间循环"
+
+#: brushes.py:40
+msgid "Pull"
+msgstr "拉动"
+
+#: prefs.py:626
+msgid "Quick Numbers"
+msgstr "快速数字"
+
+#: prefs.py:554
+msgid "Radius of the hover glow, as a multiple of the slot radius"
+msgstr "悬停光晕的半径，以槽位半径的倍数表示"
+
+#: operators.py:1089
+msgid "Replaces ALL current palettes"
+msgstr "替换所有当前调色板"
+
+#: prefs.py:592
+msgid "Right-click + drag in the viewport to adjust brush Radius (horizontal) and Strength (vertical). A quick right-click still opens the native context menu"
+msgstr "在视图中右键单击并拖动可调整笔刷半径（水平）和强度（垂直）。快速右键单击仍会打开原生上下文菜单"
+
+#: brushes.py:26
+msgid "Scrape/Fill"
+msgstr "刮削/填充"
+
+#: panel.py:1023
+msgid "Sculpt Interaction"
+msgstr "雕刻交互"
+
+#: operators.py:854
+msgid "Sculptools: Palette cannot delete the only palette"
+msgstr "Sculptools: Palette 无法删除唯一的调色板"
+
+#: operators.py:610
+msgid "Sculptools: Palette clipboard is empty"
+msgstr "Sculptools: Palette 剪贴板为空"
+
+#: operators.py:315
+msgid "Sculptools: Palette does not support this tool"
+msgstr "Sculptools: Palette 不支持此工具"
+
+#: operators.py:211
+#: operators.py:294
+msgid "Sculptools: Palette found no active brush"
+msgstr "Sculptools: Palette 未找到活动笔刷"
+
+#: operators.py:525
+msgid "Sculptools: Palette found no active sculpt brush"
+msgstr "Sculptools: Palette 未找到活动的雕刻笔刷"
+
+#: operators.py:258
+msgid "Sculptools: Palette found no sculpt settings"
+msgstr "Sculptools: Palette 未找到雕刻设置"
+
+#: operators.py:1119
+msgid "Sculptools: Palette found no usable palettes to import"
+msgstr "Sculptools: Palette 未找到可导入的可用调色板"
+
+#: operators.py:764
+#: operators.py:795
+msgid "Sculptools: Palette maximum number of palettes reached"
+msgstr "Sculptools: Palette 已达到调色板数量上限"
+
+#: panel.py:597
+msgid "Sculptools: Palette reset all palettes to defaults"
+msgstr "Sculptools: Palette 已将所有调色板重置为默认值"
+
+#: panel.py:621
+msgid "Sculptools: Palette reset the hotkeys to defaults"
+msgstr "Sculptools: Palette 已将快捷键重置为默认值"
+
+#: panel.py:571
+msgid "Sculptools: Palette reset this palette"
+msgstr "Sculptools: Palette 已重置此调色板"
+
+#: prefs.py:562
+msgid "Shape of the glow fade: 1.0 is linear, higher values concentrate the glow near the centre, lower values spread it out toward the edge"
+msgstr "光晕衰减的形状：1.0 为线性，数值越高光晕越集中在中心附近，数值越低则越向边缘扩散"
+
+#: brushes.py:20
+msgid "Sharpen"
+msgstr "锐化"
+
+#: prefs.py:40
+msgid "Shift"
+msgstr "Shift"
+
+#: prefs.py:40
+msgid "Shift + number (1-8) jumps to that palette"
+msgstr "Shift + 数字键（1-8）跳转到该调色板"
+
+#: prefs.py:648
+msgid "Show Preview"
+msgstr "显示预览"
+
+#: prefs.py:618
+msgid "Show Wordmark"
+msgstr "显示字标"
+
+#: prefs.py:618
+msgid "Show the PA\\ETTE wordmark at the centre of the wheel. When off, the palette counter, name, hints and gear close up and re-centre"
+msgstr "在轮盘中心显示 PA\\ETTE 字标。关闭时，调色板的计数器、名称、提示和齿轮会收起并重新居中"
+
+#: prefs.py:570
+msgid "Size of sub-slots relative to Slot Radius"
+msgstr "子槽大小相对于槽半径"
+
+#: operators.py:79
+msgid "Slot"
+msgstr "槽"
+
+#: prefs.py:477
+msgid "Slot 1"
+msgstr "槽 1"
+
+#: prefs.py:489
+msgid "Slot 1 / Sub 1"
+msgstr "槽 1 / 子槽 1"
+
+#: prefs.py:490
+msgid "Slot 1 / Sub 2"
+msgstr "槽 1 / 子槽 2"
+
+#: prefs.py:491
+msgid "Slot 1 / Sub 3"
+msgstr "槽 1 / 子槽 3"
+
+#: prefs.py:486
+msgid "Slot 10"
+msgstr "槽 10"
+
+#: prefs.py:516
+msgid "Slot 10 / Sub 1"
+msgstr "槽 10 / 子槽 1"
+
+#: prefs.py:517
+msgid "Slot 10 / Sub 2"
+msgstr "槽 10 / 子槽 2"
+
+#: prefs.py:518
+msgid "Slot 10 / Sub 3"
+msgstr "槽 10 / 子槽 3"
+
+#: prefs.py:478
+msgid "Slot 2"
+msgstr "槽 2"
+
+#: prefs.py:492
+msgid "Slot 2 / Sub 1"
+msgstr "槽 2 / 子槽 1"
+
+#: prefs.py:493
+msgid "Slot 2 / Sub 2"
+msgstr "槽 2 / 子槽 2"
+
+#: prefs.py:494
+msgid "Slot 2 / Sub 3"
+msgstr "槽 2 / 子槽 3"
+
+#: prefs.py:479
+msgid "Slot 3"
+msgstr "槽 3"
+
+#: prefs.py:495
+msgid "Slot 3 / Sub 1"
+msgstr "槽 3 / 子槽 1"
+
+#: prefs.py:496
+msgid "Slot 3 / Sub 2"
+msgstr "槽 3 / 子槽 2"
+
+#: prefs.py:497
+msgid "Slot 3 / Sub 3"
+msgstr "槽 3 / 子槽 3"
+
+#: prefs.py:480
+msgid "Slot 4"
+msgstr "槽 4"
+
+#: prefs.py:498
+msgid "Slot 4 / Sub 1"
+msgstr "槽 4 / 子槽 1"
+
+#: prefs.py:499
+msgid "Slot 4 / Sub 2"
+msgstr "槽 4 / 子槽 2"
+
+#: prefs.py:500
+msgid "Slot 4 / Sub 3"
+msgstr "槽 4 / 子槽 3"
+
+#: prefs.py:481
+msgid "Slot 5"
+msgstr "槽 5"
+
+#: prefs.py:501
+msgid "Slot 5 / Sub 1"
+msgstr "槽 5 / 子槽 1"
+
+#: prefs.py:502
+msgid "Slot 5 / Sub 2"
+msgstr "槽 5 / 子槽 2"
+
+#: prefs.py:503
+msgid "Slot 5 / Sub 3"
+msgstr "槽 5 / 子槽 3"
+
+#: prefs.py:482
+msgid "Slot 6"
+msgstr "槽 6"
+
+#: prefs.py:504
+msgid "Slot 6 / Sub 1"
+msgstr "槽 6 / 子槽 1"
+
+#: prefs.py:505
+msgid "Slot 6 / Sub 2"
+msgstr "槽 6 / 子槽 2"
+
+#: prefs.py:506
+msgid "Slot 6 / Sub 3"
+msgstr "槽 6 / 子槽 3"
+
+#: prefs.py:483
+msgid "Slot 7"
+msgstr "槽 7"
+
+#: prefs.py:507
+msgid "Slot 7 / Sub 1"
+msgstr "槽 7 / 子槽 1"
+
+#: prefs.py:508
+msgid "Slot 7 / Sub 2"
+msgstr "槽 7 / 子槽 2"
+
+#: prefs.py:509
+msgid "Slot 7 / Sub 3"
+msgstr "槽 7 / 子槽 3"
+
+#: prefs.py:484
+msgid "Slot 8"
+msgstr "槽 8"
+
+#: prefs.py:510
+msgid "Slot 8 / Sub 1"
+msgstr "槽 8 / 子槽 1"
+
+#: prefs.py:511
+msgid "Slot 8 / Sub 2"
+msgstr "槽 8 / 子槽 2"
+
+#: prefs.py:512
+msgid "Slot 8 / Sub 3"
+msgstr "槽 8 / 子槽 3"
+
+#: prefs.py:485
+msgid "Slot 9"
+msgstr "槽 9"
+
+#: prefs.py:513
+msgid "Slot 9 / Sub 1"
+msgstr "槽 9 / 子槽 1"
+
+#: prefs.py:514
+msgid "Slot 9 / Sub 2"
+msgstr "槽 9 / 子槽 2"
+
+#: prefs.py:515
+msgid "Slot 9 / Sub 3"
+msgstr "槽 9 / 子槽 3"
+
+#: panel.py:834
+#: prefs.py:439
+msgid "Slot Outline Colour"
+msgstr "槽轮廓颜色"
+
+#: prefs.py:541
+msgid "Slot Outline Width"
+msgstr "槽轮廓宽度"
+
+#: prefs.py:530
+msgid "Slot Radius"
+msgstr "槽半径"
+
+#: brushes.py:60
+msgid "Smear"
+msgstr "涂抹"
+
+#: brushes.py:23
+msgid "Smooth"
+msgstr "平滑"
+
+#: operators.py:450
+msgid "Sub 1"
+msgstr "子槽 1"
+
+#: operators.py:430
+msgid "Sub 2"
+msgstr "子槽 2"
+
+#: operators.py:440
+msgid "Sub 3"
+msgstr "子槽 3"
+
+#: prefs.py:574
+msgid "Sub-slot Distance"
+msgstr "子槽距离"
+
+#: prefs.py:537
+msgid "Sub-slot Fade Out (s)"
+msgstr "子槽淡出（秒）"
+
+#: panel.py:835
+#: prefs.py:443
+msgid "Sub-slot Outline Colour"
+msgstr "子槽轮廓颜色"
+
+#: prefs.py:580
+msgid "Sub-slot Outline Width"
+msgstr "子槽轮廓宽度"
+
+#: prefs.py:570
+msgid "Sub-slot Size"
+msgstr "子槽大小"
+
+#: prefs.py:135
+msgid "TAB"
+msgstr "TAB"
+
+#: prefs.py:648
+msgid "Temporarily display the pie palette in the viewport while adjusting these settings"
+msgstr "调整这些设置时，临时在视图中显示饼状调色板"
+
+#: prefs.py:541
+msgid "Thickness in pixels of the outline around main slots"
+msgstr "主槽周围轮廓的像素厚度"
+
+#: prefs.py:580
+msgid "Thickness in pixels of the outline around sub-slots"
+msgstr "子槽周围轮廓的像素厚度"
+
+#: panel.py:829
+msgid "This Palette"
+msgstr "此调色板"
+
+#: operators.py:843
+msgid "This cannot be undone."
+msgstr "此操作无法撤销。"
+
+#: brushes.py:36
+msgid "Thumb"
+msgstr "拇指"
+
+#: prefs.py:533
+msgid "Time the cursor must hover a slot before sub-slots appear"
+msgstr "光标悬停在槽上后子槽出现所需的时间"
+
+#: brushes.py:21
+msgid "Trim"
+msgstr "修剪"
+
+#: brushes.py:39
+msgid "Twist"
+msgstr "扭转"
+
+#: panel.py:846
+msgid "Universal  (all palettes)"
+msgstr "通用（所有调色板）"
+
+#: prefs.py:608
+msgid "When on, every sub-slot stays open for as long as the palette is. Flick selection still reaches main slots only, never sub-slots"
+msgstr "开启时，只要调色板保持打开，所有子槽都会保持展开。快速甩动选择仍只能到达主槽，绝不会到达子槽"
+
+#: prefs.py:602
+msgid "When on, slot and sub-slot outlines are always visible with their configured colour and width. When off, outlines appear only on hover"
+msgstr "开启时，槽和子槽轮廓始终以配置的颜色和宽度显示。关闭时，轮廓仅在悬停时显示"
+
+#: quick_numbers.py:78
+msgctxt "Operator"
+msgid "Activate this palette slot without opening the wheel. Press the same number again to cycle its sub-slots"
+msgstr "激活此调色板槽而不打开轮盘。再次按相同数字可循环切换其子槽"
+
+#: operators.py:371
+msgctxt "Operator"
+msgid "Add Active Brush"
+msgstr "添加当前笔刷"
+
+#: operators.py:508
+msgctxt "Operator"
+msgid "Add Active Brush to Slot"
+msgstr "将当前笔刷添加到槽"
+
+#: operators.py:302
+#: operators.py:348
+msgctxt "Operator"
+msgid "Add Tool to Palette"
+msgstr "将工具添加到调色板"
+
+#: operators.py:124
+#: operators.py:204
+msgctxt "Operator"
+msgid "Add brush to Palette"
+msgstr "将笔刷添加到调色板"
+
+#: operators.py:648
+msgctxt "Operator"
+msgid "Assign Tool to Slot"
+msgstr "将工具指定到槽"
+
+#: operators.py:509
+msgctxt "Operator"
+msgid "Assign the currently active brush to this palette slot"
+msgstr "将当前活动笔刷指定到此调色板槽"
+
+#: operators.py:303
+msgctxt "Operator"
+msgid "Assign this Sculpt tool to a slot in the active palette"
+msgstr "将此雕刻工具指定到活动调色板中的槽"
+
+#: operators.py:649
+msgctxt "Operator"
+msgid "Assign this Sculpt tool/action to the palette slot"
+msgstr "将此雕刻工具/操作指定到调色板槽"
+
+#: operators.py:125
+#: operators.py:205
+msgctxt "Operator"
+msgid "Assign this brush to a slot in the active palette"
+msgstr "将此笔刷指定到活动调色板中的槽"
+
+#: operators.py:248
+msgctxt "Operator"
+msgid "Assign this brush tool's brush to a slot in the active palette"
+msgstr "将此笔刷工具的笔刷分配到活动调色板中的槽位"
+
+#: operators.py:165
+msgctxt "Operator"
+msgid "Assign to this slot / sub-slot"
+msgstr "分配到此槽位 / 子槽位"
+
+#: operators.py:628
+msgctxt "Operator"
+msgid "Clear the brush assignment from this palette slot"
+msgstr "清除此调色板槽位的笔刷分配"
+
+#: panel.py:732
+msgctxt "Operator"
+msgid "Clear the thumbnail cache and re-request previews for every brush currently assigned to a slot. Also prints a diagnostic report to the System Console (Window > Toggle System Console) — useful if thumbnails still don't appear after this"
+msgstr "清除缩略图缓存，并重新请求所有已分配到槽位的笔刷预览。同时向系统控制台输出诊断报告（窗口 > 切换系统控制台）——如果此后缩略图仍不显示，可借此排查"
+
+#: operators.py:164
+msgctxt "Operator"
+msgid "Confirm Assignment"
+msgstr "确认分配"
+
+#: operators.py:387
+msgctxt "Operator"
+msgid "Copy"
+msgstr "复制"
+
+#: operators.py:570
+msgctxt "Operator"
+msgid "Copy from Slot"
+msgstr "从槽位复制"
+
+#: operators.py:571
+msgctxt "Operator"
+msgid "Copy this slot's content to the Sculptools clipboard"
+msgstr "将此槽位内容复制到 Sculptools 剪贴板"
+
+#: operators.py:542
+msgctxt "Operator"
+msgid "Copy this slot's content to the Sculptools clipboard and clear the slot"
+msgstr "将此槽位内容复制到 Sculptools 剪贴板并清空槽位"
+
+#: operators.py:756
+msgctxt "Operator"
+msgid "Create a new palette with empty slots"
+msgstr "新建包含空槽位的调色板"
+
+#: operators.py:382
+msgctxt "Operator"
+msgid "Cut"
+msgstr "剪切"
+
+#: operators.py:541
+msgctxt "Operator"
+msgid "Cut from Slot"
+msgstr "从槽位剪切"
+
+#: panel.py:577
+#: panel.py:884
+msgctxt "Operator"
+msgid "Delete All Palettes"
+msgstr "删除所有调色板"
+
+#: operators.py:814
+#: operators.py:924
+msgctxt "Operator"
+msgid "Delete This Palette"
+msgstr "删除此调色板"
+
+#: operators.py:815
+#: operators.py:925
+msgctxt "Operator"
+msgid "Delete the current palette"
+msgstr "删除当前调色板"
+
+#: operators.py:785
+#: operators.py:953
+msgctxt "Operator"
+msgid "Duplicate Palette"
+msgstr "复制调色板"
+
+#: operators.py:786
+msgctxt "Operator"
+msgid "Duplicate the current palette"
+msgstr "复制当前调色板"
+
+#: operators.py:1038
+#: operators.py:1176
+msgctxt "Operator"
+msgid "Export Palettes"
+msgstr "导出调色板"
+
+#: operators.py:960
+#: panel.py:887
+msgctxt "Operator"
+msgid "Export Palettes…"
+msgstr "导出调色板…"
+
+#: panel.py:578
+msgctxt "Operator"
+msgid "Factory reset: delete every palette, leaving a single empty default palette. This clears all brush/tool assignments and resets the universal Appearance settings"
+msgstr "恢复出厂设置：删除所有调色板，仅保留一个空的默认调色板。这会清除所有笔刷/工具分配，并重置通用外观设置"
+
+#: panel.py:878
+msgctxt "Operator"
+msgid "Hide Preview Editor"
+msgstr "隐藏预览编辑器"
+
+#: operators.py:1074
+#: operators.py:1192
+msgctxt "Operator"
+msgid "Import Palettes"
+msgstr "导入调色板"
+
+#: operators.py:962
+#: panel.py:889
+msgctxt "Operator"
+msgid "Import Palettes…"
+msgstr "导入调色板…"
+
+#: operators.py:755
+#: operators.py:951
+msgctxt "Operator"
+msgid "New Palette"
+msgstr "新建调色板"
+
+#: modal.py:278
+msgctxt "Operator"
+msgid "Open the radial palette of sculpt brushes and tools at the cursor"
+msgstr "在光标处打开雕刻笔刷和工具的径向调色板"
+
+#: operators.py:396
+msgctxt "Operator"
+msgid "Paste Brush"
+msgstr "粘贴笔刷"
+
+#: operators.py:595
+msgctxt "Operator"
+msgid "Paste Brush to Slot"
+msgstr "将笔刷粘贴到槽位"
+
+#: operators.py:596
+msgctxt "Operator"
+msgid "Paste the brush from the Sculptools clipboard into this slot"
+msgstr "将 Sculptools 剪贴板中的笔刷粘贴到此槽位"
+
+#: panel.py:731
+#: panel.py:881
+msgctxt "Operator"
+msgid "Refresh Thumbnails"
+msgstr "刷新缩略图"
+
+#: operators.py:405
+msgctxt "Operator"
+msgid "Remove Brush"
+msgstr "移除笔刷"
+
+#: operators.py:627
+msgctxt "Operator"
+msgid "Remove Brush from Slot"
+msgstr "从槽位移除笔刷"
+
+#: operators.py:711
+#: operators.py:908
+msgctxt "Operator"
+msgid "Rename Palette"
+msgstr "重命名调色板"
+
+#: operators.py:948
+msgctxt "Operator"
+msgid "Rename Palette…"
+msgstr "重命名调色板…"
+
+#: operators.py:712
+#: operators.py:909
+msgctxt "Operator"
+msgid "Rename the current palette"
+msgstr "重命名当前调色板"
+
+#: operators.py:1075
+#: operators.py:1193
+msgctxt "Operator"
+msgid "Replace ALL palettes with those from a .json preset file"
+msgstr "将所有调色板替换为 .json 预设文件中的调色板"
+
+#: panel.py:603
+#: panel.py:1018
+msgctxt "Operator"
+msgid "Reset Hotkeys"
+msgstr "重置快捷键"
+
+#: panel.py:542
+msgctxt "Operator"
+msgid "Reset THIS palette completely: clear every slot/sub-slot and restore its number of slots and the two outline colours to defaults. Does not touch universal settings or other palettes"
+msgstr "完全重置此调色板：清空所有槽位/子槽位，并将槽位数量及两种轮廓颜色恢复为默认值。不会改动通用设置或其他调色板"
+
+#: panel.py:541
+#: panel.py:837
+msgctxt "Operator"
+msgid "Reset This Palette"
+msgstr "重置此调色板"
+
+#: panel.py:604
+msgctxt "Operator"
+msgid "Restore the default hotkeys: Open Palette to \\, Cycle Palette to Tab, and the Jump-to Palette modifier to Ctrl. Does not touch palettes, appearance or the Sculpt Interaction toggles"
+msgstr "恢复默认快捷键：打开调色板为 \\，循环切换调色板为 Tab，跳转到调色板修饰键为 Ctrl。不会改动调色板、外观或雕刻交互开关"
+
+#: dynamic_sliders.py:199
+msgctxt "Operator"
+msgid "Right-click and drag to adjust the brush Radius (horizontal) or Strength (vertical)"
+msgstr "右键拖动可调整笔刷半径（水平）或强度（垂直）"
+
+#: panel.py:822
+msgctxt "Operator"
+msgid "Save Preferences"
+msgstr "保存偏好设置"
+
+#: operators.py:1039
+#: operators.py:1177
+msgctxt "Operator"
+msgid "Save all palettes and every universal setting (appearance and interaction) to a .json preset file"
+msgstr "将所有调色板及所有通用设置（外观和交互）保存到 .json 预设文件"
+
+#: modal.py:277
+msgctxt "Operator"
+msgid "Sculptools: Palette"
+msgstr "Sculptools: Palette"
+
+#: panel.py:633
+msgctxt "Operator"
+msgid "Sculptools: Palette - Cycle Palette (Preview)"
+msgstr "Sculptools: Palette - 循环切换调色板（预览）"
+
+#: panel.py:668
+msgctxt "Operator"
+msgid "Sculptools: Palette - Cycle Palette Backwards (Preview)"
+msgstr "Sculptools: Palette - 反向循环切换调色板（预览）"
+
+#: dynamic_sliders.py:198
+msgctxt "Operator"
+msgid "Sculptools: Palette - Dynamic Sliders"
+msgstr "Sculptools: Palette - 动态滑块"
+
+#: operators.py:870
+msgctxt "Operator"
+msgid "Sculptools: Palette - Jump to Palette"
+msgstr "Sculptools: Palette - 跳转到调色板"
+
+#: quick_numbers.py:77
+msgctxt "Operator"
+msgid "Sculptools: Palette - Quick Number"
+msgstr "Sculptools: Palette - 快速编号"
+
+#: panel.py:878
+msgctxt "Operator"
+msgid "Show Preview Editor"
+msgstr "显示预览编辑器"
+
+#: panel.py:707
+msgctxt "Operator"
+msgid "Show/Hide the Palette preview editor in the viewport."
+msgstr "在视图中显示/隐藏调色板预览编辑器"
+
+#: operators.py:871
+msgctxt "Operator"
+msgid "Switch directly to the palette with this number"
+msgstr "直接切换到对应编号的调色板"
+
+#: panel.py:634
+msgctxt "Operator"
+msgid "Switch to the next palette while the Preview Editor is shown. With the wheel open the same key cycles there"
+msgstr "显示预览编辑器时切换到下一个调色板。轮盘打开时，同一按键也会在其中循环切换"
+
+#: panel.py:669
+msgctxt "Operator"
+msgid "Switch to the previous palette while the Preview Editor is shown. With the wheel open the same key cycles there"
+msgstr "显示预览编辑器时切换到上一个调色板。轮盘打开时，同一按键也会在其中循环切换"
+
+#: panel.py:706
+msgctxt "Operator"
+msgid "Toggle Palette Preview"
+msgstr "切换调色板预览"

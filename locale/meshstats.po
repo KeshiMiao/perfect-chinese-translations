@@ -1,0 +1,226 @@
+# perfect-chinese: 1
+# id: meshstats
+# kind: addon
+# module: bl_ext.blender_org.meshstats
+# name: Meshstats
+# name_zh: 网格统计
+# translator: KeshiMiao
+# category: Mesh
+# supported_versions: >=4.2.2
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: ui.py:60
+#: ui.py:187
+msgid "*-poles"
+msgstr "*-极点"
+
+#: ui.py:85
+msgid "Active object: {}"
+msgstr "活动物体：{}"
+
+#: ui.py:144
+msgid "Budget"
+msgstr "预算"
+
+#: props.py:156
+msgid "Budget for number of faces in this mesh."
+msgstr "此网格面数的预算。"
+
+#: ui.py:134
+msgid "Budget:"
+msgstr "预算："
+
+#: ui.py:99
+msgid "Calculating..."
+msgstr "正在计算..."
+
+#: props.py:95
+msgid "Color to be used to draw overlay of *-poles in 3D view."
+msgstr "用于在 3D 视图中绘制 *-极点叠加层的颜色。"
+
+#: props.py:85
+msgid "Color to be used to draw overlay of E-poles in 3D view."
+msgstr "用于在 3D 视图中绘制 E 极点叠加层的颜色。"
+
+#: props.py:75
+msgid "Color to be used to draw overlay of N-poles in 3D view."
+msgstr "用于在 3D 视图中绘制 N 极点叠加层的颜色。"
+
+#: props.py:66
+msgid "Color to be used to draw overlay of ngons in 3D view."
+msgstr "用于在 3D 视图中绘制 N 边形叠加层的颜色。"
+
+#: props.py:57
+msgid "Color to be used to draw overlay of tris in 3D view."
+msgstr "用于在 3D 视图中绘制三角面叠加层的颜色。"
+
+#: props.py:174
+msgid "Count of any kind of faces, including ngons"
+msgstr "统计任意类型面的数量，包括 N 边形"
+
+#: props.py:173
+msgid "Count only quads"
+msgstr "仅统计四边面"
+
+#: props.py:172
+msgid "Count triangulated faces"
+msgstr "统计三角化后的面"
+
+#: props.py:145
+msgid "Disabled"
+msgstr "已禁用"
+
+#: ui.py:115
+msgid "Disabled by modifier on this object."
+msgstr "因该物体上的修改器而被禁用。"
+
+#: ui.py:123
+msgid "Disabled on this object."
+msgstr "已在此物体上禁用。"
+
+#: ui.py:54
+#: ui.py:186
+msgid "E-poles"
+msgstr "E 极点"
+
+#: props.py:138
+msgid "Enable meshstats."
+msgstr "启用 Meshstats。"
+
+#: props.py:144
+msgid "Enabled"
+msgstr "已启用"
+
+#: ui.py:136
+msgid "Face Budget"
+msgstr "面数预算"
+
+#: props.py:174
+msgid "Faces"
+msgstr "面数"
+
+#: ui.py:157
+msgid "Faces:"
+msgstr "面数："
+
+#: ui.py:72
+msgid "Item"
+msgstr "项"
+
+#: props.py:38
+msgid "Maximum face limit for meshstats calculations."
+msgstr "Meshstats 计算的最大面数限制。"
+
+#: ui.py:75
+#: ui.py:200
+msgid "Meshstats"
+msgstr "Meshstats"
+
+#: ui.py:48
+#: ui.py:185
+msgid "N-poles"
+msgstr "N 极点"
+
+#: ui.py:41
+#: ui.py:163
+msgid "Ngons"
+msgstr "N 边形"
+
+#: ui.py:81
+msgid "Not a mesh."
+msgstr "不是网格。"
+
+#: ui.py:95
+msgid "Overlays:"
+msgstr "叠加层："
+
+#: ui.py:182
+msgid "Poles:"
+msgstr "极点："
+
+#: ui.py:162
+msgid "Quads"
+msgstr "四边面"
+
+#: props.py:173
+msgid "Quads Only"
+msgstr "仅四边面"
+
+#: props.py:151
+msgid "Toggle face budget"
+msgstr "切换面数预算"
+
+#: props.py:205
+msgid "Toggle overlay of *-poles."
+msgstr "切换 *-极点叠加层。"
+
+#: props.py:200
+msgid "Toggle overlay of E-poles."
+msgstr "切换 E 极点叠加层。"
+
+#: props.py:195
+msgid "Toggle overlay of N-poles."
+msgstr "切换 N 极点叠加层。"
+
+#: props.py:190
+msgid "Toggle overlay of ngons."
+msgstr "切换 N 边形叠加层。"
+
+#: props.py:185
+msgid "Toggle overlay of tris."
+msgstr "切换三角面叠加层。"
+
+#: ui.py:108
+msgid "Too many faces"
+msgstr "面数过多"
+
+#: ui.py:164
+#: ui.py:188
+msgid "Total"
+msgstr "总计"
+
+#: props.py:172
+#: ui.py:35
+msgid "Tris"
+msgstr "三角面"
+
+#: props.py:143
+msgid "Uninitialized"
+msgstr "未初始化"
+
+#: ui.py:152
+msgid "Utilization is {:.2%}."
+msgstr "利用率为 {:.2%}。"
+
+#: props.py:167
+msgid "Whether to cound tris or quads"
+msgstr "统计三角面还是四边面。"
+
+#: ui.py:167
+#: ui.py:168
+msgid "{}"
+msgstr "{}"
+
+#: ui.py:173
+#: ui.py:174
+msgid "{}%"
+msgstr "{}%"
+
+#: ops.py:32
+msgctxt "Operator"
+msgid "Disable"
+msgstr "禁用"
+
+#: ops.py:48
+msgctxt "Operator"
+msgid "Enable"
+msgstr "启用"
+
+#: ops.py:65
+msgctxt "Operator"
+msgid "Reset Meshstats settings"
+msgstr "重置 Meshstats 设置"

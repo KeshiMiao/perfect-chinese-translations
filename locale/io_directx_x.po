@@ -1,0 +1,411 @@
+# perfect-chinese: 1
+# id: io_directx_x
+# kind: addon
+# module: bl_ext.blender_org.io_directx_x
+# name: DirectX X Format (.x)
+# name_zh: 骨骼模型导入导出
+# translator: KeshiMiao
+# category: Import-Export
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: io_directx_x-master/__init__.py:208
+msgid "Animation FPS"
+msgstr "动画帧率"
+
+#: io_directx_x-master/__init__.py:376
+msgid "Animation Keys"
+msgstr "动画关键帧"
+
+#: io_directx_x-master/__init__.py:499
+msgid "Animation tick rate (AnimTicksPerSecond) and target real-time playback rate. Blender frame numbers are written directly as tick values. When High-precision animation ticks is on, this field is ignored and 4800 is used instead."
+msgstr "动画 tick 速率（AnimTicksPerSecond）与目标实时播放速率。Blender 帧号会直接作为 tick 值写入。开启「高精度动画 tick」后，此字段将被忽略，改用 4800。"
+
+#: io_directx_x-master/__init__.py:119
+msgid "Apply Blender's shade-smooth pass to imported meshes so face normals are averaged at shared vertices.  Useful for files where the file-stored per-loop normals don't render cleanly (e.g. faceting that the artist didn't intend).  Untick to keep the file's authored normals exactly as-is"
+msgstr "对导入的网格应用 Blender 的平滑着色处理，使共享顶点处的面法线取平均值。适用于文件中存储的逐循环法线渲染效果不佳的情况（例如美术并未预期的棱面）。取消勾选可完全保留文件原有的法线。"
+
+#: io_directx_x-master/__init__.py:347
+msgid "Apply Modifiers"
+msgstr "应用修改器"
+
+#: io_directx_x-master/__init__.py:57
+msgid "Apply Transform"
+msgstr "应用变换"
+
+#: io_directx_x-master/__init__.py:347
+msgid "Apply mesh modifiers before exporting"
+msgstr "导出前应用网格修改器"
+
+#: io_directx_x-master/__init__.py:57
+msgid "Apply the root Frame transform matrix to mesh data"
+msgstr "将根 Frame 变换矩阵应用到网格数据"
+
+#: io_directx_x-master/__init__.py:274
+#: io_directx_x-master/__init__.py:579
+msgid "Armature & Animation"
+msgstr "骨架与动画"
+
+#: io_directx_x-master/__init__.py:437
+msgid "Binary .x"
+msgstr "二进制 .x"
+
+#: io_directx_x-master/__init__.py:439
+msgid "Compressed Binary .x"
+msgstr "压缩二进制 .x"
+
+#: io_directx_x-master/__init__.py:438
+msgid "Compressed Text .x"
+msgstr "压缩文本 .x"
+
+#: io_directx_x-master/__init__.py:82
+msgid "Connect the alpha channel of the diffuse (_D) texture to the material's Alpha input, and set the blend mode to alpha clip/blend. some games textures sometimes encode transparency in the diffuse alpha channel (e.g. leaf cutouts on plants, eye highlights). Without this, the textures look opaque in Blender's viewport even when they were authored with alpha.\n\nIf a texture has no alpha channel (most opaque materials), connecting alpha is a no-op so this is safe to leave on."
+msgstr "将漫射（_D）纹理的 Alpha 通道连接到材质的 Alpha 输入，并将混合模式设为 Alpha 裁剪/混合。某些游戏的纹理有时会在漫射 Alpha 通道中编码透明信息（例如植物叶片镂空、眼睛高光）。若不启用，即使纹理制作时带有 Alpha，在 Blender 视图中也会显示为不透明。\n\n如果纹理没有 Alpha 通道（大多数不透明材质），连接 Alpha 不会产生任何效果，因此可以安全地保持开启。"
+
+#: io_directx_x-master/__init__.py:512
+msgid "Convert all polygons to triangles on export.\n\nON (default): produces triangle-only meshes, which load reliably in all DirectX viewers.\n\nOFF: preserves quads and n-gons. Turn this off to keep quad topology on round-trip"
+msgstr "导出时将所有多边形转换为三角形。\n\n开启（默认）：生成仅含三角形的网格，可在所有 DirectX 查看器中可靠加载。\n\n关闭：保留四边面和 N 边形。关闭此项可在往返导入导出时保留四边面拓扑。"
+
+#: io_directx_x-master/__init__.py:154
+msgid "Convert quad and n-gon faces into pairs of triangles on import.\n\nON (default): all imported meshes have only triangle faces, matching what most engines use internally. Many .x files are exported with the original quad topology; without this option, those quads come through into Blender as-is.\n\nOFF: preserve the original quad / n-gon topology from .x files. Better for editing, subdivision, and animation workflows that benefit from quad mesh structure. Round-trip to .x preserves the quads"
+msgstr "导入时将四边面和 N 边形面转换为成对的三角形。\n\n开启（默认）：所有导入的网格仅含三角形面，与大多数引擎内部使用的结构一致。许多 .x 文件以原始四边面拓扑导出；若不启用此选项，这些四边面会原样进入 Blender。\n\n关闭：保留 .x 文件原有的四边面 / N 边形拓扑。更适合编辑、细分以及受益于四边面网格结构的动画工作流。往返导出到 .x 时会保留四边面。"
+
+#: io_directx_x-master/__init__.py:265
+#: io_directx_x-master/__init__.py:549
+msgid "Data"
+msgstr "数据"
+
+#: io_directx_x-master/__init__.py:470
+msgid "Declare the standard DirectX templates at the top of the file. Strict template-driven loaders (FPS Creator / Dark Basic's converter, ModelConverterX, Virtual Sailor NG) reject files whose data objects use undeclared templates, so this should stay enabled unless the target engine is known to pre-register everything itself. When the model was imported from a .x file, that file's own template block is re-used and topped up with any missing standard templates"
+msgstr "在文件顶部声明标准 DirectX 模板。严格的模板驱动加载器（FPS Creator / Dark Basic 的转换器、ModelConverterX、Virtual Sailor NG）会拒绝数据对象使用未声明模板的文件，因此除非确定目标引擎会自行预注册所有模板，否则应保持启用。若模型是从 .x 文件导入的，则复用该文件自身的模板块，并补齐缺失的标准模板。"
+
+#: io_directx_x-master/__init__.py:171
+msgid "DirectX 8.0 (rigid skin)"
+msgstr "DirectX 8.0（刚性蒙皮）"
+
+#: io_directx_x-master/__init__.py:253
+#: io_directx_x-master/__init__.py:540
+msgid "DirectX Format"
+msgstr "DirectX 格式"
+
+#: io_directx_x-master/__init__.py:9
+msgid "DirectX X Format (.x)"
+msgstr "DirectX X 格式 (.x)"
+
+#: io_directx_x-master/__init__.py:437
+msgid "DirectX binary format (smaller, faster to parse)"
+msgstr "DirectX 二进制格式（更小、解析更快）"
+
+#: io_directx_x-master/__init__.py:439
+msgid "DirectX binary format compressed with MSZIP (bzip)"
+msgstr "使用 MSZIP (bzip) 压缩的 DirectX 二进制格式"
+
+#: io_directx_x-master/__init__.py:436
+msgid "DirectX text format (human-readable)"
+msgstr "DirectX 文本格式（人类可读）"
+
+#: io_directx_x-master/__init__.py:438
+msgid "DirectX text format compressed with MSZIP (tzip)"
+msgstr "使用 MSZIP (tzip) 压缩的 DirectX 文本格式"
+
+#: io_directx_x-master/__init__.py:572
+msgid "Edit before export if needed:"
+msgstr "如有需要，可在导出前编辑："
+
+#: io_directx_x-master/__init__.py:374
+msgid "Export Animation"
+msgstr "导出动画"
+
+#: io_directx_x-master/__init__.py:372
+msgid "Export Armature"
+msgstr "导出骨架"
+
+#: io_directx_x-master/__init__.py:370
+msgid "Export Materials"
+msgstr "导出材质"
+
+#: io_directx_x-master/__init__.py:368
+msgid "Export Normals"
+msgstr "导出法线"
+
+#: io_directx_x-master/__init__.py:371
+msgid "Export Textures"
+msgstr "导出纹理"
+
+#: io_directx_x-master/__init__.py:369
+msgid "Export UVs"
+msgstr "导出 UV"
+
+#: io_directx_x-master/__init__.py:373
+msgid "Export Weights"
+msgstr "导出权重"
+
+#: io_directx_x-master/__init__.py:342
+msgid "Export only selected objects"
+msgstr "仅导出选中物体"
+
+#: io_directx_x-master/__init__.py:499
+msgid "FPS"
+msgstr "帧率"
+
+#: io_directx_x-master/__init__.py:107
+msgid "Flatten Mirrored Frames"
+msgstr "展平镜像 Frame"
+
+#: io_directx_x-master/__init__.py:107
+msgid "Fold a mirrored (negative-determinant) frame into the mesh geometry instead of leaving it in the matrices. Blender rebuilds bone rests as pure rotations, so a reflected frame always ends up with an axis flipped between Rest and Pose. Turn off to restore the old behaviour"
+msgstr "将镜像（负行列式）Frame 折叠进网格几何体，而不是保留在矩阵中。Blender 会将骨骼静止姿态重建为纯旋转，因此反射的 Frame 在静止姿态和姿态之间总会有一个轴发生翻转。关闭可恢复旧行为。"
+
+#: io_directx_x-master/__init__.py:459
+msgid "For meshes without a UV map, write a MeshTextureCoords block of zeroed coordinates instead of omitting it. Some strict consumers (Virtual Sailor-style) treat the missing block as malformed"
+msgstr "对于没有 UV 贴图的网格，写入一个坐标全为零的 MeshTextureCoords 块，而不是省略它。某些严格的读取器（Virtual Sailor 风格）会把缺失该块视为格式错误。"
+
+#: io_directx_x-master/__init__.py:432
+msgid "Format"
+msgstr "格式"
+
+#: io_directx_x-master/__init__.py:65
+#: io_directx_x-master/__init__.py:354
+msgid "Forward Axis"
+msgstr "前向轴"
+
+#: io_directx_x-master/__init__.py:510
+msgid "Frame End"
+msgstr "结束帧"
+
+#: io_directx_x-master/__init__.py:509
+msgid "Frame Start"
+msgstr "起始帧"
+
+#: io_directx_x-master/__init__.py:228
+msgid "Group in Collection"
+msgstr "在集合中分组"
+
+#: io_directx_x-master/__init__.py:486
+msgid "High-precision animation ticks"
+msgstr "高精度动画 tick"
+
+#: io_directx_x-master/__init__.py:185
+msgid "Import Animation"
+msgstr "导入动画"
+
+#: io_directx_x-master/__init__.py:183
+msgid "Import Armature"
+msgstr "导入骨架"
+
+#: io_directx_x-master/__init__.py:80
+msgid "Import Materials"
+msgstr "导入材质"
+
+#: io_directx_x-master/__init__.py:78
+msgid "Import Normals"
+msgstr "导入法线"
+
+#: io_directx_x-master/__init__.py:81
+msgid "Import Textures"
+msgstr "导入纹理"
+
+#: io_directx_x-master/__init__.py:79
+msgid "Import UVs"
+msgstr "导入 UV"
+
+#: io_directx_x-master/__init__.py:184
+msgid "Import Weights"
+msgstr "导入权重"
+
+#: io_directx_x-master/__init__.py:9
+msgid "Import-Export"
+msgstr "导入-导出"
+
+#: io_directx_x-master/__init__.py:9
+msgid "Import/Export DirectX .x files — full armature, skin, animation, material and texture support"
+msgstr "导入/导出 DirectX .x 文件 — 完整支持骨架、蒙皮、动画、材质和纹理"
+
+#: io_directx_x-master/__init__.py:529
+msgid "Include"
+msgstr "包含"
+
+#: io_directx_x-master/__init__.py:446
+msgid "Inline Materials in Mesh"
+msgstr "在网格中内联材质"
+
+#: io_directx_x-master/__init__.py:394
+msgid "Matrix"
+msgstr "矩阵"
+
+#: io_directx_x-master/__init__.py:394
+msgid "One 4x4 matrix per frame (keyType 4)"
+msgstr "每帧一个 4x4 矩阵（keyType 4）"
+
+#: io_directx_x-master/__init__.py:432
+msgid "Output file format"
+msgstr "输出文件格式"
+
+#: io_directx_x-master/__init__.py:208
+msgid "Override FPS (0 = read from file's AnimTicksPerSecond)"
+msgstr "覆盖帧率（0 = 从文件的 AnimTicksPerSecond 读取）"
+
+#: io_directx_x-master/__init__.py:228
+msgid "Put everything from this file into a new collection named after the file.\n\nON (default): imported objects are grouped together, keeping the outliner tidy when importing several files.\n\nOFF: objects are added straight to the scene's collection, with no extra grouping"
+msgstr "将此文件中的所有内容放入以该文件命名的新集合。\n\n开启（默认）：导入的物体归入同一组，在导入多个文件时保持大纲视图整洁。\n\n关闭：物体直接添加到场景集合中，不额外分组。"
+
+#: io_directx_x-master/__init__.py:392
+msgid "Quaternion"
+msgstr "四元数"
+
+#: io_directx_x-master/__init__.py:97
+msgid "Rest Pose from First Frame"
+msgstr "使用第一帧作为静止姿态"
+
+#: io_directx_x-master/__init__.py:62
+#: io_directx_x-master/__init__.py:353
+msgid "Scale"
+msgstr "缩放"
+
+#: io_directx_x-master/__init__.py:213
+msgid "Scan the animation data and set scene frame_start / frame_end to match the authored range.  The file's tick numbers are preserved verbatim, so an animation authored from tick 0 to 120 will play from frame 0 to 120 regardless of what the scene range was set to before"
+msgstr "扫描动画数据，并将场景的 frame_start / frame_end 设置为与制作的帧范围一致。文件中的 tick 数值会原样保留，因此从 tick 0 到 120 制作的动画将从第 0 帧播放到第 120 帧，与之前设置的场景范围无关。"
+
+#: io_directx_x-master/__init__.py:282
+msgid "Scene"
+msgstr "场景"
+
+#: io_directx_x-master/__init__.py:342
+msgid "Selected Only"
+msgstr "仅选中"
+
+#: io_directx_x-master/__init__.py:392
+msgid "Separate rotation (quaternion), scale and position tracks"
+msgstr "分离旋转（四元数）、缩放和位置轨道"
+
+#: io_directx_x-master/__init__.py:213
+msgid "Set Scene Frame Range"
+msgstr "设置场景帧范围"
+
+#: io_directx_x-master/__init__.py:119
+msgid "Smooth Shade from Faces"
+msgstr "根据面平滑着色"
+
+#: io_directx_x-master/__init__.py:131
+msgid "Split Sub-Meshes"
+msgstr "拆分子网格"
+
+#: io_directx_x-master/__init__.py:436
+msgid "Text .x"
+msgstr "文本 .x"
+
+#: io_directx_x-master/__init__.py:571
+msgid "Texture Paths"
+msgstr "纹理路径"
+
+#: io_directx_x-master/__init__.py:246
+#: io_directx_x-master/__init__.py:534
+msgid "Transform"
+msgstr "变换"
+
+#: io_directx_x-master/__init__.py:512
+msgid "Triangulate Faces"
+msgstr "三角化面"
+
+#: io_directx_x-master/__init__.py:154
+msgid "Triangulate Quads"
+msgstr "三角化四边面"
+
+#: io_directx_x-master/__init__.py:400
+msgid "Unweld on Export"
+msgstr "导出时断开焊接"
+
+#: io_directx_x-master/__init__.py:71
+#: io_directx_x-master/__init__.py:361
+msgid "Up Axis"
+msgstr "上轴"
+
+#: io_directx_x-master/__init__.py:82
+msgid "Use Diffuse Alpha"
+msgstr "使用漫射 Alpha"
+
+#: io_directx_x-master/__init__.py:421
+msgid "Use Original Material Data"
+msgstr "使用原始材质数据"
+
+#: io_directx_x-master/__init__.py:97
+msgid "Use the FrameTransformMatrix hierarchy (which in most .x files is the first animation frame) as the rest pose, matching the old behaviour. Off (default): use the model's own bind pose from the SkinWeights matrixOffset, so the rest pose is the authored rig"
+msgstr "将 FrameTransformMatrix 层级（在大多数 .x 文件中即第一个动画帧）用作静止姿态，与旧行为一致。关闭（默认）：使用模型中来自 SkinWeights matrixOffset 的绑定姿态，使静止姿态即为制作的骨架。"
+
+#: io_directx_x-master/__init__.py:171
+msgid "Use the dedicated import path for DirectX 8.0-style files: a single skinned mesh with SkinWeights / matrixOffset bind matrices and rigid (one-bone-per-vertex) binding. Leave off for general .x files from common exporters (the original, well-tested path)"
+msgstr "对 DirectX 8.0 风格的文件使用专用导入路径：单个蒙皮网格，带有 SkinWeights / matrixOffset 绑定矩阵以及刚性（每顶点一根骨骼）绑定。对于常见导出器生成的普通 .x 文件请保持关闭（即原有且经过充分测试的路径）。"
+
+#: io_directx_x-master/__init__.py:187
+msgid "Weld Duplicate Vertices"
+msgstr "焊接重复顶点"
+
+#: io_directx_x-master/__init__.py:421
+msgid "When ticked, exports the material values as originally imported from the .x file, ignoring any changes made in Blender. When unticked (default), exports the current Blender material state so your edits are included in the output"
+msgstr "勾选时，按从 .x 文件最初导入的材质值导出，忽略在 Blender 中所做的任何更改。取消勾选（默认）时，导出当前 Blender 材质状态，以便你的编辑包含在输出中"
+
+#: io_directx_x-master/__init__.py:446
+msgid "Write Material blocks anonymously inside each mesh's MeshMaterialList instead of declaring them once at the root and referencing them by name. Native Virtual Sailor files use the inline style, and some strict template-driven parsers resolve it more reliably than cross-object references"
+msgstr "将材质块匿名写入每个网格的 MeshMaterialList 中，而不是在根级别声明一次并按名称引用。原生 Virtual Sailor 文件使用内联样式，某些严格的模板驱动解析器比跨对象引用更能可靠地解析它"
+
+#: io_directx_x-master/__init__.py:470
+msgid "Write Template Declarations"
+msgstr "写入模板声明"
+
+#: io_directx_x-master/__init__.py:459
+msgid "Write Zero UVs When Missing"
+msgstr "缺失时写入零 UV"
+
+#: io_directx_x-master/__init__.py:486
+msgid "Write the animation block with high-precision tick conventions used by some biped/game exports:\n  • AnimTicksPerSecond = 4800 (vs the FPS field's value)\n  • AnimationKey nodes named 'R', 'S', 'T' (rotation/scale/translation)\nBlender frame numbers are scaled to the 4800-tick rate so the animation plays at the correct real-time speed."
+msgstr "使用某些双足/游戏导出所采用的高精度 tick 约定写入动画块：\n  • AnimTicksPerSecond = 4800（而非 FPS 字段的值）\n  • AnimationKey 节点命名为 'R'、'S'、'T'（旋转/缩放/平移）\nBlender 帧号会缩放到 4800 tick 速率，以便动画以正确的实时速度播放。"
+
+#: io_directx_x-master/__init__.py:68
+#: io_directx_x-master/__init__.py:74
+msgid "X"
+msgstr "X"
+
+#: io_directx_x-master/__init__.py:67
+#: io_directx_x-master/__init__.py:73
+msgid "Y"
+msgstr "Y"
+
+#: io_directx_x-master/__init__.py:67
+#: io_directx_x-master/__init__.py:73
+msgid "Z"
+msgstr "Z"
+
+#: io_directx_x-master/__init__.py:68
+#: io_directx_x-master/__init__.py:74
+msgid "−X"
+msgstr "−X"
+
+#: io_directx_x-master/__init__.py:68
+#: io_directx_x-master/__init__.py:73
+msgid "−Y"
+msgstr "−Y"
+
+#: io_directx_x-master/__init__.py:67
+#: io_directx_x-master/__init__.py:74
+msgid "−Z"
+msgstr "−Z"
+
+#: io_directx_x-master/__init__.py:639
+#: io_directx_x-master/__init__.py:642
+msgctxt "Operator"
+msgid "DirectX X (.x)"
+msgstr "DirectX X (.x)"
+
+#: io_directx_x-master/__init__.py:333
+msgctxt "Operator"
+msgid "Export DirectX X (.x)"
+msgstr "导出 DirectX X (.x)"
+
+#: io_directx_x-master/__init__.py:33
+msgctxt "Operator"
+msgid "Import DirectX X (.x)"
+msgstr "导入 DirectX X (.x)"

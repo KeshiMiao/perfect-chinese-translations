@@ -1,0 +1,577 @@
+# perfect-chinese: 1
+# id: beantextures
+# kind: addon
+# module: bl_ext.blender_org.beantextures
+# name: Beantextures
+# name_zh: 二维纹理动画
+# translator: KeshiMiao
+# category: Animation
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: connector/props.py:40
+msgid "A Beantextures node group instance to control"
+msgstr "要控制的 Beantextures 节点组实例"
+
+#: ui_node_generator.py:134
+msgid "Add"
+msgstr "添加"
+
+#: connector/ops.py:34
+msgid "Add Connector Item"
+msgstr "添加连接器项"
+
+#: ops_settings.py:255
+msgid "Also purge image data-blocks (if they have no users left)"
+msgstr "同时清除图像数据块（如果已无用户）"
+
+#: __init__.py:1
+msgid "Animation"
+msgstr "动画"
+
+#: props_settings.py:46
+msgid "Approach to link values to images"
+msgstr "将值链接到图像的方式"
+
+#: props_nodes.py:30
+msgid "Available enum items; only used if linking type is set to enum"
+msgstr "可用的枚举项；仅在链接类型设为枚举时使用"
+
+#: __init__.py:1
+#: ui_node_generator.py:120
+msgid "Beantextures"
+msgstr "Beantextures"
+
+#: props_settings.py:61
+msgid "Beantextures Configurations"
+msgstr "Beantextures 配置"
+
+#: connector/ui.py:37
+msgid "Beantextures Connector"
+msgstr "Beantextures 连接器"
+
+#: connector/popup_menu.py:15
+msgid "Beantextures Nodes Control"
+msgstr "Beantextures 节点控制"
+
+#: connector/popup_menu.py:111
+msgid "Beantextures Props List"
+msgstr "Beantextures 属性列表"
+
+#: props_nodes.py:38
+msgid "Beantextures enum driver property"
+msgstr "Beantextures 枚举驱动器属性"
+
+#: props_settings.py:70
+msgid "Beantextures properties for node generation settings"
+msgstr "用于节点生成设置的 Beantextures 属性"
+
+#: ui_node_generator.py:248
+msgid "Bind to"
+msgstr "绑定到"
+
+#: connector/ops.py:57
+msgid "Clear connector items"
+msgstr "清除连接器项"
+
+#: props_settings.py:51
+msgid "Collection of defined value-image links"
+msgstr "已定义的值-图像链接集合"
+
+#: props_settings.py:44
+msgid "Config Name"
+msgstr "配置名称"
+
+#: ui_node_generator.py:148
+msgid "Configurations"
+msgstr "配置"
+
+#: props_settings.py:51
+msgid "Configured Links"
+msgstr "已配置链接"
+
+#: connector/props.py:47
+#: connector/ui.py:62
+msgid "Connector Items"
+msgstr "连接器项"
+
+#: props_nodes.py:24
+msgid "Defines how Beantextures Node links values to images"
+msgstr "定义 Beantextures 节点如何将值链接到图像"
+
+#: ops_settings.py:147
+msgid "Delete all configurations?"
+msgstr "删除所有配置？"
+
+#: connector/ops.py:71
+msgid "Delete all connector items?"
+msgstr "删除所有连接器项？"
+
+#: ops_settings.py:279
+msgid "Delete all relations?"
+msgstr "删除所有关系？"
+
+#: connector/ui.py:51
+msgid "Display as:"
+msgstr "显示为："
+
+#: __init__.py:1
+msgid "Enhance image texture-based animation workflow."
+msgstr "增强基于图像纹理的动画工作流。"
+
+#: props_nodes.py:21
+msgid "Enum item index"
+msgstr "枚举项索引"
+
+#: props_nodes.py:20
+msgid "Enum item name"
+msgstr "枚举项名称"
+
+#: props_nodes.py:30
+msgid "Enum items"
+msgstr "枚举项"
+
+#: ui_node_generator.py:313
+msgid "Enum selection"
+msgstr "枚举选择"
+
+#: ops_settings.py:202
+msgid "Extra prefix which will be added to relation names"
+msgstr "添加到关系名称的额外前缀"
+
+#: ops_settings.py:203
+msgid "Extra suffix which will be added to relation names"
+msgstr "添加到关系名称的额外后缀"
+
+#: props_settings.py:45
+#: ui_node_generator.py:172
+msgid "Fallback Image"
+msgstr "备用图像"
+
+#: connector/icon_picker.py:199
+msgid "Filter"
+msgstr "过滤"
+
+#: ui_node_generator.py:256
+#: ui_node_generator.py:265
+msgid "Greater Than"
+msgstr "大于"
+
+#: props_nodes.py:20
+msgid "Human-readable name assigned by user"
+msgstr "用户指定的可读名称"
+
+#: connector/props.py:42
+msgid "Icon"
+msgstr "图标"
+
+#: connector/props.py:42
+msgid "Icon used to identify the connector item"
+msgstr "用于标识连接器项的图标"
+
+#: ui_node_generator.py:278
+msgid "Image"
+msgstr "图像"
+
+#: props_settings.py:41
+msgid "Image Node Properties"
+msgstr "图像节点属性"
+
+#: props_settings.py:45
+msgid "Image to use when user-defined value does not match any link and therefore image (will output black if this is not set)"
+msgstr "当用户定义的值不匹配任何链接时使用的图像（若未设置则输出黑色）"
+
+#: props_settings.py:62
+msgid "Index of Active Configuration"
+msgstr "活动配置的索引"
+
+#: connector/props.py:48
+msgid "Index of Active Connector Item"
+msgstr "活动连接器项的索引"
+
+#: props_settings.py:50
+msgid "Index of Active Link"
+msgstr "活动链接的索引"
+
+#: connector/props.py:41
+msgid "Index of the connector item; will influence the order of the item when displayed"
+msgstr "连接器项的索引；会影响该项显示时的顺序"
+
+#: props_settings.py:49
+#: ui_node_generator.py:174
+msgid "Input Vector"
+msgstr "输入向量"
+
+#: ui_node_generator.py:291
+msgid "Inspector"
+msgstr "检查器"
+
+#: props_settings.py:34
+msgid "Int Value"
+msgstr "整数值"
+
+#: props_nodes.py:21
+msgid "Integer linked to enum item"
+msgstr "链接到枚举项的整数"
+
+#: ui_node_generator.py:257
+#: ui_node_generator.py:266
+msgid "Less Than"
+msgstr "小于"
+
+#: props_settings.py:31
+msgid "Link Name"
+msgstr "链接名称"
+
+#: props_settings.py:32
+msgid "Linked Image"
+msgstr "链接的图像"
+
+#: props_settings.py:46
+#: ui_node_generator.py:170
+msgid "Linking Type"
+msgstr "链接类型"
+
+#: props_nodes.py:24
+msgid "Linking type"
+msgstr "链接类型"
+
+#: ui_node_generator.py:213
+msgid "Links"
+msgstr "链接"
+
+#: props_settings.py:61
+msgid "List of stored configurations for active scene"
+msgstr "活动场景的已存储配置列表"
+
+#: connector/props.py:38
+msgid "Location of target node group instance"
+msgstr "目标节点组实例的位置"
+
+#: connector/ops.py:121
+msgid "Material"
+msgstr "材质"
+
+#: connector/props.py:38
+msgid "Material Selection"
+msgstr "材质选择"
+
+#: ui_node_generator.py:180
+#: ui_node_generator.py:184
+msgid "Max"
+msgstr "最大值"
+
+#: props_settings.py:56
+msgid "Maximum Float Value"
+msgstr "最大浮点值"
+
+#: props_settings.py:53
+#: props_settings.py:54
+msgid "Maximum Int Value"
+msgstr "最大整数值"
+
+#: connector/props.py:41
+#: connector/ui.py:95
+msgid "Menu Index"
+msgstr "菜单索引"
+
+#: connector/props.py:49
+msgid "Menu Type"
+msgstr "菜单类型"
+
+#: ui_node_generator.py:179
+#: ui_node_generator.py:183
+msgid "Min"
+msgstr "最小值"
+
+#: props_settings.py:57
+msgid "Minimum Float Value"
+msgstr "最小浮点值"
+
+#: props_settings.py:44
+msgid "Name of Beantextures configuration entry"
+msgstr "Beantextures 配置条目的名称"
+
+#: props_settings.py:31
+msgid "Name of a Beantextures image link"
+msgstr "Beantextures 图像链接的名称"
+
+#: props_settings.py:60
+msgid "Name to assign for the new group"
+msgstr "为新节点组指定的名称"
+
+#: ops_settings.py:202
+msgid "Naming Prefix"
+msgstr "命名前缀"
+
+#: ops_settings.py:203
+msgid "Naming Suffix"
+msgstr "命名后缀"
+
+#: ui_node_generator.py:199
+msgid "No configuration available."
+msgstr "没有可用的配置。"
+
+#: connector/popup_menu.py:32
+#: connector/popup_menu.py:137
+msgid "No connector item available."
+msgstr "没有可用的连接器项。"
+
+#: connector/icon_picker.py:117
+msgid "No icons were found"
+msgstr "未找到图标"
+
+#: ops_generation.py:611
+msgid "No warnings found; hit OK to proceed."
+msgstr "未发现警告；点击确定继续。"
+
+#: connector/ui.py:92
+msgid "Node"
+msgstr "节点"
+
+#: ui_node_generator.py:128
+msgid "Node Group"
+msgstr "节点组"
+
+#: props_settings.py:60
+msgid "Node Group Name"
+msgstr "节点组名称"
+
+#: connector/props.py:40
+msgid "Node Name"
+msgstr "节点名称"
+
+#: props_settings.py:47
+msgid "Node tree to be configured"
+msgstr "要配置的节点树"
+
+#: connector/panel.py:9
+msgid "Nodes Controls"
+msgstr "节点控制"
+
+#: ui_node_generator.py:306
+msgid "Not a Beantextures node."
+msgstr "不是 Beantextures 节点。"
+
+#: props_settings.py:48
+#: ui_node_generator.py:173
+msgid "Output Alpha"
+msgstr "输出 Alpha"
+
+#: props_settings.py:70
+msgid "Per-Scene Beantextures Settings"
+msgstr "各场景 Beantextures 设置"
+
+#: props_settings.py:41
+msgid "Properties to assign to image nodes"
+msgstr "要分配给图像节点的属性"
+
+#: connector/ops.py:80
+#: connector/ops.py:92
+msgid "Reload List"
+msgstr "重新加载列表"
+
+#: connector/ops.py:43
+msgid "Remove Connector Item"
+msgstr "移除连接器项"
+
+#: ops_settings.py:255
+msgid "Remove Data-Blocks"
+msgstr "移除数据块"
+
+#: connector/icon_picker.py:204
+msgid "Selected Icon"
+msgstr "所选图标"
+
+#: connector/ops.py:109
+msgid "Set Target Material"
+msgstr "设置目标材质"
+
+#: connector/icon_picker.py:132
+msgid "Show Brush Icons"
+msgstr "显示笔刷图标"
+
+#: connector/icon_picker.py:144
+msgid "Show Colorset Icons"
+msgstr "显示颜色集图标"
+
+#: connector/icon_picker.py:140
+msgid "Show Event Icons"
+msgstr "显示事件图标"
+
+#: connector/icon_picker.py:129
+msgid "Show History"
+msgstr "显示历史"
+
+#: connector/icon_picker.py:136
+msgid "Show Matcap Icons"
+msgstr "显示 MatCap 图标"
+
+#: connector/icon_picker.py:132
+msgid "Show brush icons"
+msgstr "显示笔刷图标"
+
+#: connector/icon_picker.py:144
+msgid "Show colorset icons"
+msgstr "显示颜色集图标"
+
+#: connector/icon_picker.py:140
+msgid "Show event icons"
+msgstr "显示事件图标"
+
+#: connector/icon_picker.py:129
+msgid "Show history"
+msgstr "显示历史"
+
+#: connector/icon_picker.py:136
+msgid "Show matcap icons"
+msgstr "显示 MatCap 图标"
+
+#: connector/props.py:43
+msgid "Show on View3D Sidebar and Pop-up"
+msgstr "在 3D 视图侧边栏和弹出窗口中显示"
+
+#: ops_generation.py:609
+msgid "Some warnings found; hit OK to proceed anyways."
+msgstr "发现一些警告；点击确定仍要继续。"
+
+#: ui_node_generator.py:171
+msgid "Target Node Group"
+msgstr "目标节点组"
+
+#: props_settings.py:47
+msgid "Target Node Tree"
+msgstr "目标节点树"
+
+#: ui_node_generator.py:245
+#: ui_node_generator.py:253
+msgid "Warning:"
+msgstr "警告："
+
+#: connector/ops.py:123
+msgid "Warning: material doesn't use nodes"
+msgstr "警告：材质未使用节点"
+
+#: props_settings.py:39
+msgid "When Float is Greater Than"
+msgstr "当浮点数大于"
+
+#: props_settings.py:38
+msgid "When Float is Less Than"
+msgstr "当浮点数小于"
+
+#: props_settings.py:36
+msgid "When Int is Greater than"
+msgstr "当整数大于"
+
+#: props_settings.py:35
+msgid "When Int is Less than"
+msgstr "当整数小于"
+
+#: props_nodes.py:36
+msgid "Whether or not node tree is a Beantextures node"
+msgstr "节点树是否为 Beantextures 节点"
+
+#: props_settings.py:49
+msgid "Whether or not the generated node should have vector input (shared for all image textures)"
+msgstr "生成的节点是否应具有矢量输入（所有图像纹理共用）"
+
+#: props_settings.py:48
+msgid "Whether or not the generated node should output alpha of the active image"
+msgstr "生成的节点是否应输出活动图像的 Alpha"
+
+#: connector/props.py:44
+msgid "Whether or not the node under said name exists on the respecting material"
+msgstr "对应材质上是否存在该名称的节点"
+
+#: ops_settings.py:106
+msgctxt "Operator"
+msgid "Add Configuration"
+msgstr "添加配置"
+
+#: ops_settings.py:288
+#: ui_node_generator.py:315
+msgctxt "Operator"
+msgid "Add Driver"
+msgstr "添加驱动器"
+
+#: ops_settings.py:89
+msgctxt "Operator"
+msgid "Add New Node Group"
+msgstr "添加新节点组"
+
+#: ops_settings.py:133
+msgctxt "Operator"
+msgid "Clear Configurations"
+msgstr "清除配置"
+
+#: ops_settings.py:252
+msgctxt "Operator"
+msgid "Clear Defined Links"
+msgstr "清除已定义的链接"
+
+#: connector/popup_menu.py:142
+msgctxt "Operator"
+msgid "Display Beantextures Props"
+msgstr "显示 Beantextures 属性"
+
+#: connector/popup_menu.py:37
+#: connector/popup_menu.py:71
+msgctxt "Operator"
+msgid "Display Beantextures Props List"
+msgstr "显示 Beantextures 属性列表"
+
+#: ops_generation.py:550
+#: ui_node_generator.py:196
+msgctxt "Operator"
+msgid "Generate Node Tree"
+msgstr "生成节点树"
+
+#: connector/icon_picker.py:180
+msgctxt "Operator"
+msgid "Icon Selector"
+msgstr "图标选择器"
+
+#: ops_settings.py:193
+msgctxt "Operator"
+msgid "Import Image(s)"
+msgstr "导入图像"
+
+#: ops_settings.py:156
+msgctxt "Operator"
+msgid "New Link"
+msgstr "新建链接"
+
+#: ops_settings.py:225
+msgctxt "Operator"
+msgid "Pick Image"
+msgstr "选择图像"
+
+#: ui_node_generator.py:194
+msgctxt "Operator"
+msgid "Re-generate Node Tree"
+msgstr "重新生成节点树"
+
+#: ops_settings.py:119
+msgctxt "Operator"
+msgid "Remove Configuration"
+msgstr "移除配置"
+
+#: ops_settings.py:169
+msgctxt "Operator"
+msgid "Remove Link"
+msgstr "移除链接"
+
+#: connector/icon_picker.py:181
+msgctxt "Operator"
+msgid "Select an icon for a connector item"
+msgstr "为连接器项选择图标"
+
+#: connector/icon_picker.py:152
+msgctxt "Operator"
+msgid "Select the icon"
+msgstr "选择图标"

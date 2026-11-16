@@ -1,0 +1,346 @@
+# perfect-chinese: 1
+# id: script_manager_pro
+# kind: addon
+# module: bl_ext.blender_org.script_manager_pro
+# name: Script Manager Pro
+# name_zh: 脚本管理器
+# translator: KeshiMiao
+# category: Development
+# supported_versions: >=4.4.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: operators.py:67
+msgid "Add a valid script folder in the add-on preferences first"
+msgstr "请先在插件偏好设置中添加有效的脚本文件夹"
+
+#: ui.py:132
+msgid "Add your script folder(s):"
+msgstr "添加脚本文件夹："
+
+#: preferences.py:27
+msgid "Backup on Save"
+msgstr "保存时备份"
+
+#: preferences.py:27
+msgid "Before Update & Save overwrites a file, copy the old version to .script_manager/backups/ inside its library"
+msgstr "在「更新并保存」覆盖文件之前，先将旧版本复制到其库内的 .script_manager/backups/"
+
+#: operators.py:190
+msgid "Comma separated; each tag becomes a group in the tag list"
+msgstr "以逗号分隔；每个标签会成为标签列表中的一个分组"
+
+#: operators.py:120
+msgid "Could not create a Text Editor area"
+msgstr "无法创建文本编辑器区域"
+
+#: operators.py:186
+msgid "Display Name"
+msgstr "显示名称"
+
+#: operators.py:442
+msgid "File Name"
+msgstr "文件名"
+
+#: operators.py:481
+msgid "File name is empty"
+msgstr "文件名为空"
+
+#: operators.py:487
+msgid "File name must stay inside the script folder"
+msgstr "文件名必须位于脚本文件夹内"
+
+#: properties.py:94
+msgid "Filter by file name, display name, tag or subfolder"
+msgstr "按文件名、显示名称、标签或子文件夹筛选"
+
+#: properties.py:82
+msgid "Filter the folder list"
+msgstr "筛选文件夹列表"
+
+#: properties.py:88
+msgid "Filter the tag list"
+msgstr "筛选标签列表"
+
+#: operators.py:446
+msgid "Folder"
+msgstr "文件夹"
+
+#: ui.py:239
+msgid "Folders"
+msgstr "文件夹"
+
+#: preferences.py:35
+msgid "How many backups to keep per script"
+msgstr "每个脚本保留的备份数量"
+
+#: preferences.py:35
+msgid "Keep Backups"
+msgstr "保留备份"
+
+#: preferences.py:59
+msgid "Metadata and backups live in <folder>/.script_manager/ of each library"
+msgstr "元数据和备份位于各库的 <folder>/.script_manager/ 中"
+
+#: operators.py:442
+msgid "Name of the .py file; a subfolder like tools/name.py is allowed"
+msgstr ".py 文件的名称；允许使用类似 tools/name.py 的子文件夹"
+
+#: ui.py:172
+msgid "No scripts found — press Refresh"
+msgstr "未找到脚本 — 请按「刷新」"
+
+#: ui.py:186
+msgid "No text open"
+msgstr "未打开文本"
+
+#: operators.py:243
+#: operators.py:475
+msgid "No valid script folder configured"
+msgstr "未配置有效的脚本文件夹"
+
+#: preferences.py:13
+msgid "Path"
+msgstr "路径"
+
+#: operators.py:367
+msgid "Please select the script folder from the \"Folders\" panel!"
+msgstr "请从「文件夹」面板中选择脚本文件夹！"
+
+#: operators.py:539
+msgid "Reloaded from disk"
+msgstr "已从磁盘重新加载"
+
+#: preferences.py:13
+msgid "Root folder of a .py script library (scanned recursively when you press Refresh)"
+msgstr ".py 脚本库的根文件夹（按「刷新」时递归扫描）"
+
+#: preferences.py:45
+msgid "Script Folders:"
+msgstr "脚本文件夹："
+
+#: ui.py:216
+#: ui.py:220
+msgid "Script Manager"
+msgstr "脚本管理器"
+
+#: ui.py:261
+msgid "Scripts"
+msgstr "脚本"
+
+#: operators.py:371
+msgid "Scripts folder is not set or does not exist"
+msgstr "脚本文件夹未设置或不存在"
+
+#: properties.py:82
+msgid "Search Folders"
+msgstr "搜索文件夹"
+
+#: properties.py:94
+msgid "Search Scripts"
+msgstr "搜索脚本"
+
+#: properties.py:88
+msgid "Search Tags"
+msgstr "搜索标签"
+
+#: operators.py:281
+msgid "Select a single folder in the \"Folders\" panel to remove a tag"
+msgstr "在「文件夹」面板中选择单个文件夹以移除标签"
+
+#: operators.py:289
+#: operators.py:302
+msgid "Select a tag in the list first"
+msgstr "请先在列表中选择标签"
+
+#: operators.py:186
+msgid "Shown instead of the file name (leave empty to use the file name)"
+msgstr "代替文件名显示（留空则使用文件名）"
+
+#: operators.py:230
+msgid "Tag Name"
+msgstr "标签名称"
+
+#: operators.py:239
+msgid "Tag name is empty"
+msgstr "标签名称为空"
+
+#: operators.py:190
+#: ui.py:250
+msgid "Tags"
+msgstr "标签"
+
+#: preferences.py:51
+#: ui.py:138
+msgctxt "Operator"
+msgid "Add Folder"
+msgstr "添加文件夹"
+
+#: operators.py:325
+msgctxt "Operator"
+msgid "Add Script Folder"
+msgstr "添加脚本文件夹"
+
+#: operators.py:326
+msgctxt "Operator"
+msgid "Add another script folder to the library list"
+msgstr "向库列表添加另一个脚本文件夹"
+
+#: operators.py:163
+msgctxt "Operator"
+msgid "Add or remove this script from favorites"
+msgstr "将此脚本加入收藏或从收藏中移除"
+
+#: operators.py:545
+msgctxt "Operator"
+msgid "Close Script"
+msgstr "关闭脚本"
+
+#: operators.py:228
+msgctxt "Operator"
+msgid "Create an empty tag; assign scripts to it via their settings"
+msgstr "创建空标签；通过脚本设置为其分配脚本"
+
+#: operators.py:263
+msgctxt "Operator"
+msgid "Delete the selected tag and remove it from every script in scope"
+msgstr "删除所选标签并从范围内所有脚本中移除"
+
+#: operators.py:521
+msgctxt "Operator"
+msgid "Discard the edits in this editor and reload the file from disk"
+msgstr "放弃此编辑器中的修改并从磁盘重新加载文件"
+
+#: operators.py:183
+msgctxt "Operator"
+msgid "Edit the display name and tags of this script"
+msgstr "编辑此脚本的显示名称和标签"
+
+#: ui.py:187
+msgctxt "Operator"
+msgid "New Script"
+msgstr "新建脚本"
+
+#: operators.py:227
+msgctxt "Operator"
+msgid "New Tag"
+msgstr "新建标签"
+
+#: operators.py:357
+msgctxt "Operator"
+msgid "Open Scripts Folder"
+msgstr "打开脚本文件夹"
+
+#: operators.py:97
+msgctxt "Operator"
+msgid "Open in Text Editor"
+msgstr "在文本编辑器中打开"
+
+#: operators.py:98
+msgctxt "Operator"
+msgid "Open the script in a Text Editor. Reuses an existing Text Editor area, otherwise splits the current area and turns the right half into one"
+msgstr "在文本编辑器中打开脚本。复用现有的文本编辑器区域，否则拆分当前区域并将右半部分变为文本编辑器"
+
+#: operators.py:358
+msgctxt "Operator"
+msgid "Open the scripts folder in the system file browser"
+msgstr "在系统文件浏览器中打开脚本文件夹"
+
+#: ui.py:122
+msgctxt "Operator"
+msgid "Refresh"
+msgstr "刷新"
+
+#: operators.py:60
+msgctxt "Operator"
+msgid "Refresh Script List"
+msgstr "刷新脚本列表"
+
+#: operators.py:520
+msgctxt "Operator"
+msgid "Reload from Disk"
+msgstr "从磁盘重新加载"
+
+#: operators.py:338
+msgctxt "Operator"
+msgid "Remove Script Folder"
+msgstr "移除脚本文件夹"
+
+#: operators.py:262
+msgctxt "Operator"
+msgid "Remove Tag"
+msgstr "移除标签"
+
+#: operators.py:339
+msgctxt "Operator"
+msgid "Remove this folder from the library list (nothing is deleted on disk)"
+msgstr "从库列表中移除此文件夹（磁盘上不会删除任何内容）"
+
+#: operators.py:546
+msgctxt "Operator"
+msgid "Remove this text from the .blend (the file on disk is kept)"
+msgstr "从 .blend 中移除此文本（保留磁盘上的文件）"
+
+#: operators.py:61
+msgctxt "Operator"
+msgid "Rescan all script folders and rebuild the lists"
+msgstr "重新扫描所有脚本文件夹并重建列表"
+
+#: operators.py:75
+msgctxt "Operator"
+msgid "Run Script"
+msgstr "运行脚本"
+
+#: operators.py:76
+msgctxt "Operator"
+msgid "Run this file straight from disk (nothing is imported into the .blend)"
+msgstr "直接从磁盘运行此文件（不会将任何内容导入 .blend）"
+
+#: operators.py:400
+msgctxt "Operator"
+msgid "Save & Run"
+msgstr "保存并运行"
+
+#: ui.py:199
+msgctxt "Operator"
+msgid "Save as .py..."
+msgstr "另存为 .py..."
+
+#: operators.py:439
+msgctxt "Operator"
+msgid "Save as Python Script"
+msgstr "另存为 Python 脚本"
+
+#: operators.py:401
+msgctxt "Operator"
+msgid "Save this text back to its .py file, then run the file from disk"
+msgstr "将此文本保存回其 .py 文件，然后从磁盘运行该文件"
+
+#: operators.py:440
+msgctxt "Operator"
+msgid "Save this text into a script folder as a .py file and link it to the library"
+msgstr "将此文本作为 .py 文件保存到脚本文件夹，并将其链接到库"
+
+#: operators.py:182
+msgctxt "Operator"
+msgid "Script Settings"
+msgstr "脚本设置"
+
+#: operators.py:162
+msgctxt "Operator"
+msgid "Toggle Favorite"
+msgstr "切换收藏"
+
+#: operators.py:383
+#: ui.py:193
+msgctxt "Operator"
+msgid "Update & Save"
+msgstr "更新并保存"
+
+#: operators.py:384
+msgctxt "Operator"
+msgid "Write this text back to its .py file on disk (a backup is kept if enabled)"
+msgstr "将此文本写回磁盘上的 .py 文件（若启用则保留备份）"
