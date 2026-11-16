@@ -1,0 +1,1093 @@
+# perfect-chinese: 1
+# id: easymesh_batch_exporter
+# kind: addon
+# module: bl_ext.blender_org.easymesh_batch_exporter
+# name: EasyMesh Batch Exporter
+# name_zh: 网格批量导出
+# translator: KeshiMiao
+# category: Import-Export
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: panels.py:58
+msgid "* Modified"
+msgstr "* 已修改"
+
+#: properties.py:237
+#: properties.py:251
+msgid "-X"
+msgstr "-X"
+
+#: properties.py:238
+#: properties.py:252
+msgid "-Y"
+msgstr "-Y"
+
+#: properties.py:239
+#: properties.py:253
+msgid "-Z"
+msgstr "-Z"
+
+#: properties.py:448
+#: properties.py:459
+msgid "1K"
+msgstr "1K"
+
+#: properties.py:447
+#: properties.py:458
+msgid "2K"
+msgstr "2K"
+
+#: properties.py:446
+#: properties.py:457
+msgid "4K"
+msgstr "4K"
+
+#: properties.py:445
+msgid "8K"
+msgstr "8K"
+
+#: properties.py:386
+msgid "Additional LODs"
+msgstr "额外 LOD"
+
+#: properties.py:605
+msgid "All Children"
+msgstr "所有子级"
+
+#: properties.py:561
+msgid "All Empties"
+msgstr "所有空物体"
+
+#: properties.py:331
+msgid "Apply only modifiers enabled for rendering"
+msgstr "仅应用渲染启用的修改器"
+
+#: properties.py:330
+msgid "Apply only modifiers visible in viewport"
+msgstr "仅应用视图中可见的修改器"
+
+#: properties.py:348
+msgid "Apply prefix, suffix and engine naming convention to exported files"
+msgstr "对导出文件应用前缀、后缀和引擎命名约定"
+
+#: properties.py:356
+msgid "Apply specific naming conventions to exported files"
+msgstr "对导出文件应用特定命名约定"
+
+#: panels.py:405
+msgid "Attachment Points"
+msgstr "附着点"
+
+#: properties.py:421
+msgid "Automatically resize textures for LODs"
+msgstr "自动为 LOD 调整纹理大小"
+
+#: properties.py:400
+msgid "Axis of symmetry for LOD generation"
+msgstr "LOD 生成的对称轴"
+
+#: operators.py:3480
+msgid "Batch Export Filename"
+msgstr "批量导出文件名"
+
+#: properties.py:188
+msgid "Batching"
+msgstr "批处理"
+
+#: properties.py:293
+msgid "Beauty"
+msgstr "美观"
+
+#: properties.py:148
+msgid "Binary"
+msgstr "二进制"
+
+#: operators.py:4926
+msgid "Cannot rename built-in presets"
+msgstr "无法重命名内置预设"
+
+#: properties.py:361
+msgid "Capitalised words with underscores (My_Mesh_Name)"
+msgstr "首字母大写的下划线单词 (My_Mesh_Name)"
+
+#: properties.py:188
+msgid "Choose how to export multiple selected meshes in glTF format"
+msgstr "选择如何以 glTF 格式导出多个选定网格"
+
+#: properties.py:413
+msgid "Collapse"
+msgstr "折叠"
+
+#: properties.py:413
+msgid "Collapse edges (Ratio)"
+msgstr "塌陷边（比例）"
+
+#: properties.py:595
+msgid "Collision Filter"
+msgstr "碰撞过滤器"
+
+#: panels.py:463
+msgid "Collision Meshes"
+msgstr "碰撞网格"
+
+#: properties.py:192
+msgid "Combine"
+msgstr "合并"
+
+#: operators.py:3527
+msgid "Combined Filename:"
+msgstr "合并文件名："
+
+#: panels.py:352
+msgid "Compression"
+msgstr "压缩"
+
+#: panels.py:283
+#: properties.py:614
+msgid "Convention"
+msgstr "约定"
+
+#: properties.py:282
+msgid "Convert all faces to triangles on the copy"
+msgstr "在副本上将全部面转换为三角形"
+
+#: properties.py:620
+msgid "Convex collision suffix (Mesh-convcolonly)"
+msgstr "凸形碰撞后缀（Mesh-convcolonly）"
+
+#: panels.py:450
+#: properties.py:573
+msgid "Create Slot Empties"
+msgstr "创建插槽空物体"
+
+#: properties.py:573
+msgid "Create slot empties marking where child meshes attach"
+msgstr "创建插槽空物体，标记子网格的附着位置"
+
+#: panels.py:458
+msgid "Creates empties at child mesh positions"
+msgstr "在子网格位置创建空物体"
+
+#: properties.py:648
+msgid "Current Preset"
+msgstr "当前预设"
+
+#: properties.py:648
+msgid "Currently active export preset"
+msgstr "当前活动的导出预设"
+
+#: properties.py:621
+msgid "Custom"
+msgstr "自定义"
+
+#: properties.py:635
+msgid "Custom Prefix"
+msgstr "自定义前缀"
+
+#: properties.py:641
+msgid "Custom Suffix"
+msgstr "自定义后缀"
+
+#: properties.py:517
+msgid "Decimate factor for LOD 1"
+msgstr "LOD 1 的减面系数"
+
+#: properties.py:525
+msgid "Decimate factor for LOD 2"
+msgstr "LOD 2 的减面系数"
+
+#: properties.py:533
+msgid "Decimate factor for LOD 3"
+msgstr "LOD 3 的减面系数"
+
+#: properties.py:541
+msgid "Decimate factor for LOD 4"
+msgstr "LOD 4 的减面系数"
+
+#: properties.py:409
+msgid "Decimation Type"
+msgstr "减面类型"
+
+#: properties.py:368
+msgid "Display colour indicators in viewport for recently exported objects"
+msgstr "在视图中为最近导出的物体显示颜色指示"
+
+#: properties.py:166
+msgid "Do not export materials, and combine mesh primitive groups, losing material slot information"
+msgstr "不导出材质，并合并网格图元组，丢失材质槽信息"
+
+#: properties.py:160
+msgid "Do not export materials, but write multiple primitive groups per mesh, keeping material slot information"
+msgstr "不导出材质，但为每个网格写入多个图元组，保留材质槽信息"
+
+#: properties.py:329
+msgid "Don't apply any modifiers to the exported copy"
+msgstr "不对导出的副本应用任何修改器"
+
+#: properties.py:177
+msgid "Draco Compression"
+msgstr "Draco 压缩"
+
+#: panels.py:15
+msgid "EasyMesh Batch Exporter"
+msgstr "EasyMesh 批量导出器"
+
+#: properties.py:268
+msgid "Edge"
+msgstr "边"
+
+#: properties.py:497
+msgid "Embed Textures"
+msgstr "嵌入纹理"
+
+#: properties.py:497
+msgid "Embed textures in the exported file (recommended for game development)"
+msgstr "将纹理嵌入导出文件（推荐用于游戏开发）"
+
+#: properties.py:557
+msgid "Empty Filter"
+msgstr "空物体过滤器"
+
+#: properties.py:567
+msgid "Empty Prefix"
+msgstr "空物体前缀"
+
+#: properties.py:177
+msgid "Enable Draco mesh compression for smaller file sizes. Note: Godot has its own runtime compression, so this is typically not needed for Godot imports"
+msgstr "启用 Draco 网格压缩以减小文件大小。注意：Godot 有自己的运行时压缩，因此 Godot 导入通常不需要此项"
+
+#: panels.py:101
+msgid "Error: Property group is None?"
+msgstr "错误：属性组为 None？"
+
+#: panels.py:95
+msgid "Error: Property group not registered?"
+msgstr "错误：属性组未注册？"
+
+#: panels.py:675
+msgid "Estimated compressed sizes:"
+msgstr "估计的压缩大小："
+
+#: properties.py:159
+msgid "Export"
+msgstr "导出"
+
+#: properties.py:155
+msgid "Export Materials"
+msgstr "导出材质"
+
+#: properties.py:122
+msgid "Export Path"
+msgstr "导出路径"
+
+#: properties.py:159
+msgid "Export all materials used by included objects"
+msgstr "导出包含物体使用的所有材质"
+
+#: properties.py:192
+msgid "Export all selected meshes into a single glTF file (recommended for Godot)"
+msgstr "将所有选定网格导出为单个 glTF 文件（推荐用于 Godot）"
+
+#: properties.py:134
+msgid "Export as FBX"
+msgstr "导出为 FBX"
+
+#: properties.py:507
+msgid "Export as Hierarchy"
+msgstr "导出为层级结构"
+
+#: properties.py:149
+msgid "Export as JSON glTF (GLTF)"
+msgstr "导出为 JSON glTF（GLTF）"
+
+#: properties.py:135
+msgid "Export as OBJ"
+msgstr "导出为 OBJ"
+
+#: properties.py:138
+msgid "Export as STL"
+msgstr "导出为 STL"
+
+#: properties.py:137
+msgid "Export as USD"
+msgstr "导出为 USD"
+
+#: properties.py:148
+msgid "Export as binary glTF (GLB)"
+msgstr "导出为二进制 glTF（GLB）"
+
+#: properties.py:136
+msgid "Export as glTF"
+msgstr "导出为 glTF"
+
+#: operators.py:4442
+#: operators.py:4499
+msgid "Export cancelled by user"
+msgstr "导出被用户取消"
+
+#: properties.py:507
+msgid "Export collection as single mesh with LODs in parent/child structure (Unity/Unreal workflow)"
+msgstr "将集合导出为带 LOD 的单个网格，采用父/子结构（Unity/Unreal 工作流）"
+
+#: properties.py:198
+msgid "Export each selected mesh as a separate glTF file"
+msgstr "将每个选定网格导出为单独的 glTF 文件"
+
+#: panels.py:554
+msgid "Export indicators disabled."
+msgstr "导出指示器已禁用。"
+
+#: properties.py:155
+msgid "Export materials with glTF"
+msgstr "随 glTF 导出材质"
+
+#: properties.py:262
+msgid "Export only normals instead of writing edge or face smoothing data"
+msgstr "仅导出法线，而不是写入边或面平滑数据"
+
+#: panels.py:19
+#: panels.py:251
+msgid "Exporter"
+msgstr "导出器"
+
+#: properties.py:134
+msgid "FBX"
+msgstr "FBX"
+
+#: properties.py:267
+msgid "Face"
+msgstr "面"
+
+#: properties.py:305
+msgid "Fast"
+msgstr "快速"
+
+#: properties.py:130
+msgid "File format to export meshes"
+msgstr "用于导出网格的文件格式"
+
+#: properties.py:294
+msgid "Fixed"
+msgstr "固定"
+
+#: properties.py:295
+msgid "Fixed Alternate"
+msgstr "固定交替"
+
+#: operators.py:3546
+msgid "For Godot we recommend using snake_case naming"
+msgstr "对于 Godot，建议使用 snake_case 命名"
+
+#: properties.py:130
+msgid "Format"
+msgstr "格式"
+
+#: properties.py:244
+msgid "Forward Axis"
+msgstr "前向轴"
+
+#: properties.py:244
+msgid "Forward axis for exported meshes"
+msgstr "导出网格的前向轴"
+
+#: panels.py:208
+msgid "GLB format always embeds textures"
+msgstr "GLB 格式始终嵌入纹理"
+
+#: properties.py:379
+msgid "Generate LODs"
+msgstr "生成 LOD"
+
+#: properties.py:379
+msgid "Generate additional LODs using Decimate (modifies copy)"
+msgstr "使用精简修改器生成附加 LOD（修改副本）"
+
+#: operators.py:3218
+msgid "Generic custom preset template (FBX, Z-up, Y-forward, meters)"
+msgstr "通用自定义预设模板（FBX、Z 轴向上、Y 轴向前、米）"
+
+#: properties.py:360
+#: properties.py:620
+msgid "Godot"
+msgstr "Godot"
+
+#: properties.py:614
+msgid "How collision meshes are named for the target engine"
+msgstr "碰撞网格在目标引擎中的命名方式"
+
+#: properties.py:386
+msgid "How many additional LODs to generate (LOD1 to LOD4)"
+msgstr "要生成的附加 LOD 数量（LOD1 到 LOD4）"
+
+#: properties.py:551
+msgid "Include Attachment Points"
+msgstr "包含挂载点"
+
+#: properties.py:586
+msgid "Include Collision Meshes"
+msgstr "包含碰撞网格"
+
+#: properties.py:561
+msgid "Include all empty children"
+msgstr "包含所有空物体子级"
+
+#: properties.py:586
+msgid "Include collision mesh children of exported objects in the same file (FBX/glTF), renamed for the target engine"
+msgstr "在同一文件中包含导出物体的碰撞网格子级（FBX/glTF），并按目标引擎重命名"
+
+#: properties.py:551
+msgid "Include empty children of exported objects as attachment points"
+msgstr "将导出物体的空物体子级作为挂载点包含"
+
+#: panels.py:561
+msgid "Indicator system not fully loaded."
+msgstr "指示系统未完全加载。"
+
+#: properties.py:198
+msgid "Individual"
+msgstr "单独"
+
+#: properties.py:658
+msgid "Is Built-in Preset"
+msgstr "是内置预设"
+
+#: properties.py:149
+msgid "JSON"
+msgstr "JSON"
+
+#: panels.py:206
+msgid "JSON format exports textures separately"
+msgstr "JSON 格式单独导出纹理"
+
+#: properties.py:318
+msgid "Keep Normals"
+msgstr "保留法线"
+
+#: properties.py:490
+msgid "Keep normal maps at one LOD level higher resolution"
+msgstr "法线贴图保留比所在 LOD 高一级的分辨率"
+
+#: properties.py:618
+msgid "Keep the original collision name"
+msgstr "保留原始碰撞名称"
+
+#: panels.py:364
+msgid "LOD Decimation Ratios:"
+msgstr "LOD 减面比例："
+
+#: panels.py:386
+msgid "LOD Texture Sizes:"
+msgstr "LOD 纹理尺寸："
+
+#: panels.py:366
+#: panels.py:388
+msgid "LOD1"
+msgstr "LOD1"
+
+#: properties.py:517
+msgid "LOD1 Ratio"
+msgstr "LOD1 比例"
+
+#: properties.py:441
+msgid "LOD1 Texture Size"
+msgstr "LOD1 纹理尺寸"
+
+#: panels.py:368
+#: panels.py:390
+msgid "LOD2"
+msgstr "LOD2"
+
+#: properties.py:525
+msgid "LOD2 Ratio"
+msgstr "LOD2 比例"
+
+#: properties.py:453
+msgid "LOD2 Texture Size"
+msgstr "LOD2 纹理尺寸"
+
+#: panels.py:372
+#: panels.py:394
+msgid "LOD3"
+msgstr "LOD3"
+
+#: properties.py:533
+msgid "LOD3 Ratio"
+msgstr "LOD3 比例"
+
+#: properties.py:465
+msgid "LOD3 Texture Size"
+msgstr "LOD3 纹理尺寸"
+
+#: panels.py:376
+#: panels.py:398
+msgid "LOD4"
+msgstr "LOD4"
+
+#: properties.py:541
+msgid "LOD4 Ratio"
+msgstr "LOD4 比例"
+
+#: properties.py:477
+msgid "LOD4 Texture Size"
+msgstr "LOD4 纹理尺寸"
+
+#: properties.py:305
+msgid "Let the format exporter triangulate during export instead of a separate pass. Much faster on dense meshes, but may slightly alter shading on non-planar quads (normals are recomputed rather than preserved). Ideal for high-poly/organic meshes"
+msgstr "在导出时由格式导出器进行三角化，而不是单独处理。对密集网格快得多，但可能略微改变非平面四边形的着色（法线会重新计算而非保留）。适合高面数/有机网格"
+
+#: properties.py:441
+msgid "Maximum texture size for LOD1"
+msgstr "LOD1 的最大纹理尺寸"
+
+#: properties.py:453
+msgid "Maximum texture size for LOD2"
+msgstr "LOD2 的最大纹理尺寸"
+
+#: properties.py:465
+msgid "Maximum texture size for LOD3"
+msgstr "LOD3 的最大纹理尺寸"
+
+#: properties.py:477
+msgid "Maximum texture size for LOD4"
+msgstr "LOD4 的最大纹理尺寸"
+
+#: properties.py:289
+msgid "Method"
+msgstr "方法"
+
+#: properties.py:289
+msgid "Method used for triangulating quads"
+msgstr "用于四边形三角化的方法"
+
+#: properties.py:325
+msgid "Modifier Mode"
+msgstr "修改器模式"
+
+#: operators.py:3480
+msgid "Name for the combined batch export file (without extension)"
+msgstr "合并批处理导出文件的名称（不含扩展名）"
+
+#: operators.py:4564
+msgid "Name for the preset"
+msgstr "预设名称"
+
+#: operators.py:4742
+msgid "Name of the preset to delete"
+msgstr "要删除的预设名称"
+
+#: operators.py:4663
+msgid "Name of the preset to load"
+msgstr "要加载的预设名称"
+
+#: panels.py:517
+msgid "Name source objects UCX_/UBX_/USP_/UCP_"
+msgstr "将源物体命名为 UCX_/UBX_/USP_/UCP_"
+
+#: panels.py:247
+#: properties.py:348
+msgid "Naming Convention"
+msgstr "命名规则"
+
+#: operators.py:4908
+msgid "New Name"
+msgstr "新名称"
+
+#: operators.py:4908
+msgid "New name for the preset"
+msgstr "预设的新名称"
+
+#: properties.py:166
+msgid "No export"
+msgstr "不导出"
+
+#: operators.py:4921
+#: operators.py:5019
+msgid "No preset currently loaded"
+msgstr "当前未加载预设"
+
+#: operators.py:4824
+msgid "No preset currently loaded. Use 'Save As...' to create a new preset"
+msgstr "当前未加载预设。使用「另存为...」创建新预设"
+
+#: operators.py:4672
+#: operators.py:4755
+msgid "No preset name specified"
+msgstr "未指定预设名称"
+
+#: panels.py:565
+msgid "No recent mesh exports."
+msgstr "最近没有网格导出记录。"
+
+#: panels.py:656
+msgid "No textures found in selection."
+msgstr "所选内容中未找到纹理。"
+
+#: properties.py:329
+#: properties.py:618
+msgid "None"
+msgstr "无"
+
+#: properties.py:135
+msgid "OBJ"
+msgstr "OBJ"
+
+#: properties.py:262
+msgid "Off"
+msgstr "关闭"
+
+#: properties.py:599
+msgid "Only children named with a UCX_/UBX_/USP_/UCP_ prefix (the prefix also sets the shape)"
+msgstr "仅名称以 UCX_/UBX_/USP_/UCP_ 为前缀的子级（前缀同时决定形状）"
+
+#: properties.py:562
+msgid "Only empties with specific prefix"
+msgstr "仅带有指定前缀的空物体"
+
+#: properties.py:567
+msgid "Only include empties starting with this prefix"
+msgstr "仅包含以此前缀开头的空物体"
+
+#: properties.py:362
+msgid "PascalCase naming (MyMeshName)"
+msgstr "PascalCase 命名（MyMeshName）"
+
+#: properties.py:122
+msgid "Path to export meshes"
+msgstr "网格导出路径"
+
+#: properties.py:160
+msgid "Placeholder"
+msgstr "占位符"
+
+#: operators.py:3539
+msgid "Pre-filled with the detected collection or object name. Edit if needed."
+msgstr "已预填检测到的集合或物体名称。如需修改可编辑。"
+
+#: properties.py:337
+msgid "Prefix"
+msgstr "前缀"
+
+#: properties.py:635
+msgid "Prefix applied to collision names (Custom profile)"
+msgstr "应用于碰撞名称的前缀（自定义配置）"
+
+#: properties.py:337
+msgid "Prefix for exported file names"
+msgstr "导出文件名的前缀"
+
+#: properties.py:579
+msgid "Prefix for generated slot empties"
+msgstr "生成的槽位空物体前缀"
+
+#: properties.py:562
+#: properties.py:599
+msgid "Prefixed Only"
+msgstr "仅限带前缀"
+
+#: properties.py:490
+msgid "Preserve Normal Map Quality"
+msgstr "保持法线贴图质量"
+
+#: properties.py:318
+msgid "Preserve normal vectors during triangulation"
+msgstr "三角化时保留法线向量"
+
+#: properties.py:664
+msgid "Preset"
+msgstr "预设"
+
+#: properties.py:652
+msgid "Preset Modified"
+msgstr "预设已修改"
+
+#: operators.py:4564
+#: operators.py:4663
+msgid "Preset Name"
+msgstr "预设名称"
+
+#: operators.py:4953
+msgid "Preset name unchanged"
+msgstr "预设名称未更改"
+
+#: panels.py:47
+msgid "Presets"
+msgstr "预设"
+
+#: properties.py:428
+msgid "Quality for lossy formats like JPEG (0-100). Does not affect PNG or other lossless formats"
+msgstr "JPEG 等有损格式的质量（0-100），不影响 PNG 等无损格式"
+
+#: panels.py:288
+msgid "Quick LODs"
+msgstr "快速 LOD"
+
+#: panels.py:524
+msgid "Recent Exports"
+msgstr "最近的导出"
+
+#: properties.py:331
+msgid "Render"
+msgstr "渲染"
+
+#: properties.py:626
+msgid "Render Collision (Godot)"
+msgstr "渲染碰撞（Godot）"
+
+#: properties.py:421
+msgid "Resize Textures for LODs"
+msgstr "为 LOD 调整纹理尺寸"
+
+#: panels.py:348
+msgid "Resize for LODs"
+msgstr "为 LOD 调整尺寸"
+
+#: properties.py:138
+msgid "STL"
+msgstr "STL"
+
+#: properties.py:208
+msgid "Scale"
+msgstr "缩放"
+
+#: properties.py:208
+msgid "Scale factor for exported meshes"
+msgstr "导出网格的缩放系数"
+
+#: properties.py:664
+msgid "Select and load a preset"
+msgstr "选择并加载预设"
+
+#: properties.py:300
+msgid "Shortest Diagonal"
+msgstr "最短对角线"
+
+#: properties.py:368
+msgid "Show Export Indicators"
+msgstr "显示导出指示器"
+
+#: properties.py:579
+msgid "Slot Prefix"
+msgstr "槽位前缀"
+
+#: properties.py:258
+msgid "Smoothing"
+msgstr "平滑"
+
+#: properties.py:269
+msgid "Smoothing Groups"
+msgstr "平滑组"
+
+#: properties.py:258
+msgid "Smoothing method for exported meshes"
+msgstr "导出网格的平滑方式"
+
+#: properties.py:300
+msgid "Split the quad along the shortest diagonal"
+msgstr "沿最短对角线拆分四边形"
+
+#: properties.py:294
+msgid "Split the quad from the first to third vertices"
+msgstr "从第一个到第三个顶点拆分四边形"
+
+#: properties.py:295
+msgid "Split the quad from the second to fourth vertices"
+msgstr "从第二个到第四个顶点拆分四边形"
+
+#: properties.py:341
+msgid "Suffix"
+msgstr "后缀"
+
+#: properties.py:641
+msgid "Suffix applied to collision names (Custom profile)"
+msgstr "应用于碰撞名称的后缀（自定义配置）"
+
+#: properties.py:341
+msgid "Suffix for exported file names"
+msgstr "导出文件名的后缀"
+
+#: properties.py:395
+msgid "Symmetry"
+msgstr "对称"
+
+#: properties.py:400
+msgid "Symmetry Axis"
+msgstr "对称轴"
+
+#: properties.py:428
+msgid "Texture Compression"
+msgstr "纹理压缩"
+
+#: panels.py:613
+msgid "Texture Export Preview"
+msgstr "纹理导出预览"
+
+#: properties.py:605
+msgid "Treat every mesh child as a convex collision"
+msgstr "将每个子网格视为凸形碰撞"
+
+#: properties.py:282
+msgid "Triangulate Faces"
+msgstr "三角化面"
+
+#: properties.py:293
+msgid "Triangulate with the best-looking result"
+msgstr "以最佳外观进行三角化"
+
+#: properties.py:658
+msgid "True if current preset is a built-in factory preset"
+msgstr "当前预设为内置出厂预设时为真"
+
+#: properties.py:652
+msgid "True if current settings differ from saved preset"
+msgstr "当前设置与已保存预设不同时为真"
+
+#: properties.py:409
+msgid "Type of decimation to use for generating LODs"
+msgstr "生成 LOD 时使用的减面类型"
+
+#: properties.py:144
+msgid "Type of glTF to export"
+msgstr "要导出的 glTF 类型"
+
+#: properties.py:619
+msgid "UCX_/UBX_/USP_/UCP_ prefix (UCX_Mesh_00)"
+msgstr "UCX_/UBX_/USP_/UCP_ 前缀（UCX_Mesh_00）"
+
+#: properties.py:137
+msgid "USD"
+msgstr "USD"
+
+#: properties.py:219
+msgid "Unit system for exported meshes"
+msgstr "导出网格的单位系统"
+
+#: properties.py:219
+msgid "Units"
+msgstr "单位"
+
+#: properties.py:361
+msgid "Unity"
+msgstr "Unity"
+
+#: properties.py:362
+#: properties.py:619
+msgid "Unreal Engine"
+msgstr "Unreal Engine"
+
+#: properties.py:230
+msgid "Up Axis"
+msgstr "上轴"
+
+#: properties.py:230
+msgid "Up axis for exported meshes"
+msgstr "导出网格的上轴"
+
+#: properties.py:626
+msgid "Use '-convcol' (collision + rendered) instead of '-convcolonly' (collision only)"
+msgstr "使用 '-convcol'（碰撞 + 渲染）而非 '-convcolonly'（仅碰撞）"
+
+#: properties.py:224
+msgid "Use centimeters as export unit"
+msgstr "使用厘米作为导出单位"
+
+#: properties.py:223
+msgid "Use meters as export unit"
+msgstr "使用米作为导出单位"
+
+#: properties.py:395
+msgid "Use symmetry for LOD generation"
+msgstr "LOD 生成时使用对称"
+
+#: properties.py:621
+msgid "User-defined prefix and suffix"
+msgstr "用户自定义的前缀和后缀"
+
+#: properties.py:330
+msgid "Visible"
+msgstr "可见"
+
+#: properties.py:557
+msgid "Which empty children to include"
+msgstr "包含哪些空物体子级"
+
+#: properties.py:595
+msgid "Which mesh children to treat as collisions"
+msgstr "将哪些网格子级视为碰撞"
+
+#: properties.py:325
+msgid "Which modifiers to apply during export"
+msgstr "导出时应用哪些修改器"
+
+#: properties.py:268
+msgid "Write edge smoothing"
+msgstr "写入边平滑"
+
+#: properties.py:267
+msgid "Write face smoothing"
+msgstr "写入面平滑"
+
+#: properties.py:269
+msgid "Write smoothing groups"
+msgstr "写入平滑组"
+
+#: properties.py:234
+#: properties.py:248
+msgid "X"
+msgstr "X"
+
+#: properties.py:403
+msgid "X axis"
+msgstr "X 轴"
+
+#: properties.py:235
+#: properties.py:249
+msgid "Y"
+msgstr "Y"
+
+#: properties.py:403
+msgid "Y axis"
+msgstr "Y 轴"
+
+#: properties.py:236
+#: properties.py:250
+msgid "Z"
+msgstr "Z"
+
+#: properties.py:403
+msgid "Z axis"
+msgstr "Z 轴"
+
+#: properties.py:275
+msgid "Zero Location"
+msgstr "位置归零"
+
+#: panels.py:173
+msgid "Zero Location is disabled for batch combine mode"
+msgstr "批量合并模式下位置归零已禁用"
+
+#: properties.py:275
+msgid "Zero location of the object copy before export"
+msgstr "导出前将物体副本的位置归零"
+
+#: properties.py:136
+msgid "glTF"
+msgstr "glTF"
+
+#: properties.py:144
+msgid "glTF Type"
+msgstr "glTF 类型"
+
+#: properties.py:360
+msgid "snake_case naming (my_mesh_name)"
+msgstr "snake_case 命名（my_mesh_name）"
+
+#: export_indicators.py:430
+msgctxt "Operator"
+msgid "Clear All Export Indicators"
+msgstr "清除所有导出指示器"
+
+#: operators.py:4560
+msgctxt "Operator"
+msgid "Create new preset from current export settings and give it a name"
+msgstr "根据当前导出设置创建新预设并命名"
+
+#: panels.py:72
+msgctxt "Operator"
+msgid "Delete"
+msgstr "删除"
+
+#: operators.py:4737
+msgctxt "Operator"
+msgid "Delete Preset"
+msgstr "删除预设"
+
+#: operators.py:4738
+msgctxt "Operator"
+msgid "Delete a saved export preset"
+msgstr "删除已保存的导出预设"
+
+#: operators.py:3476
+msgctxt "Operator"
+msgid "Export Selected Meshes"
+msgstr "导出选中的网格"
+
+#: operators.py:4658
+msgctxt "Operator"
+msgid "Load Preset"
+msgstr "加载预设"
+
+#: operators.py:4659
+msgctxt "Operator"
+msgid "Load export settings from a saved preset"
+msgstr "从已保存的预设加载导出设置"
+
+#: panels.py:81
+msgctxt "Operator"
+msgid "Rename"
+msgstr "重命名"
+
+#: operators.py:4903
+msgctxt "Operator"
+msgid "Rename Preset"
+msgstr "重命名预设"
+
+#: operators.py:4904
+msgctxt "Operator"
+msgid "Rename the current preset"
+msgstr "重命名当前预设"
+
+#: panels.py:69
+msgctxt "Operator"
+msgid "Reset"
+msgstr "重置"
+
+#: operators.py:5006
+msgctxt "Operator"
+msgid "Reset this built-in preset to factory default settings"
+msgstr "将此内置预设重置为出厂默认设置"
+
+#: operators.py:5005
+msgctxt "Operator"
+msgid "Reset to Default"
+msgstr "重置为默认值"
+
+#: operators.py:4814
+#: panels.py:89
+msgctxt "Operator"
+msgid "Save"
+msgstr "保存"
+
+#: panels.py:84
+msgctxt "Operator"
+msgid "Save As"
+msgstr "另存为"
+
+#: operators.py:4559
+msgctxt "Operator"
+msgid "Save Preset"
+msgstr "保存预设"
+
+#: operators.py:4529
+msgctxt "Operator"
+msgid "Select Object by Name"
+msgstr "按名称选择物体"
+
+#: operators.py:4530
+msgctxt "Operator"
+msgid "Selects and focuses on the specified object"
+msgstr "选择并聚焦指定物体"
+
+#: export_indicators.py:475
+msgctxt "Operator"
+msgid "Update Export Indicators"
+msgstr "更新导出指示器"
+
+#: operators.py:4815
+msgctxt "Operator"
+msgid "Update current preset with current settings"
+msgstr "用当前设置更新当前预设"

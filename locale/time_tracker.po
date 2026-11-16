@@ -1,0 +1,182 @@
+# perfect-chinese: 1
+# id: time_tracker
+# kind: addon
+# module: bl_ext.blender_org.time_tracker
+# name: Time Tracker
+# name_zh: 时间追踪
+# translator: KeshiMiao
+# category: System
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: properties.py:44
+msgid "Detects inactivity based on threshhold and stopps/starts tracking"
+msgstr "根据阈值检测无操作并停止/开始计时"
+
+#: properties.py:77
+#: ui.py:82
+msgid "Filter"
+msgstr "过滤"
+
+#: properties.py:77
+msgid "Filter sessions (id, date)"
+msgstr "过滤会话（ID、日期）"
+
+#: ui.py:32
+msgid "Inactivity Threshhold (s)"
+msgstr "无操作阈值（秒）"
+
+#: properties.py:71
+msgid "Latest first"
+msgstr "最新优先"
+
+#: time_tracker.py:257
+msgid "Modal Logger already running!"
+msgstr "模态记录器已在运行！"
+
+#: ui.py:86
+msgid "No Sessions Yet"
+msgstr "暂无会话"
+
+#: time_tracker.py:59
+msgid "No tracked files yet."
+msgstr "尚无已跟踪的文件。"
+
+#: properties.py:72
+msgid "Oldest first"
+msgstr "最旧优先"
+
+#: properties.py:38
+msgid "Returns if time tracking is running"
+msgstr "返回时间跟踪是否正在运行"
+
+#: ui.py:27
+msgid "Session Time:"
+msgstr "会话时间："
+
+#: ui.py:68
+msgid "Sessions"
+msgstr "会话"
+
+#: ui.py:47
+msgid "Settings"
+msgstr "设置"
+
+#: properties.py:51
+msgid "Shuts down modal operator for a moment (autosave interval) allowing blender to perform autosave (might affect 'stopp & go' user experience)"
+msgstr "在自动保存间隔期间短暂关闭模态操作符，以便 Blender 执行自动保存（可能影响“停止后继续”的使用体验）"
+
+#: properties.py:67
+#: ui.py:81
+msgid "Sort"
+msgstr "排序"
+
+#: ui.py:30
+msgid "Stopp & Go"
+msgstr "停止后继续"
+
+#: time_tracker.py:103
+msgid "This will delete this files' time data!"
+msgstr "这将删除该文件的时间数据！"
+
+#: properties.py:57
+msgid "Thresshold of inactivity (when to stop timing) in seconds"
+msgstr "无操作阈值（何时停止计时），以秒为单位"
+
+#: ui.py:9
+#: ui.py:14
+msgid "Time Tracker"
+msgstr "时间跟踪器"
+
+#: properties.py:32
+msgid "Time spent on this file in one session"
+msgstr "单次会话中在此文件上花费的时间"
+
+#: properties.py:26
+msgid "Time spent working on this file"
+msgstr "在此文件上工作所花费的时间"
+
+#: ui.py:24
+msgid "Time:"
+msgstr "时间："
+
+#: properties.py:51
+msgid "autosave compatibility mode"
+msgstr "自动保存兼容模式"
+
+#: properties.py:32
+msgid "session time"
+msgstr "会话时间"
+
+#: properties.py:67
+msgid "sort sessions"
+msgstr "排序会话"
+
+#: properties.py:44
+msgid "stopp and go"
+msgstr "停止后继续"
+
+#: time_tracker.py:27
+msgctxt "Operator"
+msgid "Continue"
+msgstr "继续"
+
+#: ui.py:37
+msgctxt "Operator"
+msgid "Continue (paused)"
+msgstr "继续（已暂停）"
+
+#: time_tracker.py:28
+msgctxt "Operator"
+msgid "Continue Time Tracking"
+msgstr "继续时间跟踪"
+
+#: time_tracker.py:236
+msgctxt "Operator"
+msgid "Modal Event Logger"
+msgstr "模态事件记录器"
+
+#: time_tracker.py:13
+#: ui.py:35
+msgctxt "Operator"
+msgid "Pause"
+msgstr "暂停"
+
+#: time_tracker.py:14
+msgctxt "Operator"
+msgid "Pause Time Tracking"
+msgstr "暂停时间跟踪"
+
+#: time_tracker.py:90
+msgctxt "Operator"
+msgid "Reset Time"
+msgstr "重置时间"
+
+#: ui.py:63
+msgctxt "Operator"
+msgid "Reset time"
+msgstr "重置时间"
+
+#: time_tracker.py:91
+msgctxt "Operator"
+msgid "Resets time data of the tracked file"
+msgstr "重置已跟踪文件的时间数据"
+
+#: ui.py:42
+msgctxt "Operator"
+msgid "Show Time Table"
+msgstr "显示时间表"
+
+#: time_tracker.py:41
+msgctxt "Operator"
+msgid "Time Table"
+msgstr "时间表"
+
+#: time_tracker.py:42
+msgctxt "Operator"
+msgid "Time table data of all tracked projects"
+msgstr "所有已跟踪项目的时间表数据"

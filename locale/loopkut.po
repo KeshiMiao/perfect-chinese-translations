@@ -1,0 +1,878 @@
+# perfect-chinese: 1
+# id: loopkut
+# kind: addon
+# module: bl_ext.blender_org.loopkut
+# name: Loopkut
+# name_zh: 循环切割预览
+# translator: KeshiMiao
+# category: Mesh
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: core.py:578
+msgid "+ Loops"
+msgstr "+ 循环"
+
+#: core.py:579
+msgid "- Loops"
+msgstr "- 循环"
+
+#: internal.py:152
+msgid "Active Keymap"
+msgstr "活动键位映射"
+
+#: internal.py:154
+msgid "Active Operator Keymap"
+msgstr "活动操作符键位映射"
+
+#: internal.py:374
+msgid "Add loop cuts"
+msgstr "添加循环切割"
+
+#: props.py:513
+#: props.py:546
+msgid "Alt"
+msgstr "Alt"
+
+#: core.py:1105
+#: loopkut.py:1906
+msgid "An unexpected error occurred — check the system console."
+msgstr "发生意外错误 — 请检查系统控制台。"
+
+#: props.py:255
+msgid "Apply Set Edge Flow after each loop cut (D to toggle)."
+msgstr "每次循环切割后应用设置边流（按 D 切换）。"
+
+#: props.py:234
+msgid "Auto"
+msgstr "自动"
+
+#: props.py:356
+msgid "Awaiting Input"
+msgstr "等待输入"
+
+#: loopkut.py:174
+#: loopkut.py:2027
+msgid "Axis"
+msgstr "轴"
+
+#: props.py:543
+msgid "Base key for the Loopkut shortcut"
+msgstr "Loopkut 快捷键的基础键"
+
+#: loopkut.py:2047
+msgid "Bias segment spacing toward/away from the cut centre (O, held+drag, during bisect)"
+msgstr "使分段间距偏向/远离切割中心（O，二分期间按住并拖动）"
+
+#: internal.py:395
+#: props.py:488
+msgid "Bisect"
+msgstr "二分"
+
+#: props.py:272
+msgid "Bisect Active"
+msgstr "二分活动项"
+
+#: props.py:587
+msgid "Bisect Color"
+msgstr "二分颜色"
+
+#: props.py:595
+msgid "Bisect Line Width"
+msgstr "二分线宽"
+
+#: props.py:294
+#: props.py:489
+msgid "Bisect Local Ref"
+msgstr "二分局部参考"
+
+#: props.py:284
+msgid "Bisect Selection Only"
+msgstr "仅二分选中项"
+
+#: core.py:603
+#: props.py:111
+msgid "Cancel"
+msgstr "取消"
+
+#: props.py:518
+#: props.py:815
+msgid "Cancel Key"
+msgstr "取消键"
+
+#: props.py:522
+msgid "Cancel with right mouse button (default)"
+msgstr "使用鼠标右键取消（默认）"
+
+#: props.py:523
+msgid "Cancel with the Escape key"
+msgstr "使用 Esc 键取消"
+
+#: props.py:660
+msgid "Center Point Color"
+msgstr "中心点颜色"
+
+#: props.py:653
+msgid "Center Point Size"
+msgstr "中心点大小"
+
+#: props.py:587
+msgid "Color of the bisect preview lines and cursor circle."
+msgstr "二分预览线和光标圆圈的颜色。"
+
+#: props.py:675
+msgid "Color of the circle drawn when hovering a snap point."
+msgstr "悬停在吸附点时绘制的圆圈颜色。"
+
+#: props.py:612
+msgid "Color of the even mode anchor point."
+msgstr "均匀模式锚点的颜色。"
+
+#: props.py:635
+msgid "Color of the insert verts mode points."
+msgstr "插入顶点模式点的颜色。"
+
+#: props.py:620
+msgid "Color of the perpendicular mode anchor point."
+msgstr "垂直模式锚点的颜色。"
+
+#: props.py:702
+msgid "Color of the vertex snap indicator circle."
+msgstr "顶点吸附指示圆圈的颜色。"
+
+#: internal.py:112
+msgid "Could not access LoopKut preferences."
+msgstr "无法访问 LoopKut 偏好设置。"
+
+#: props.py:804
+msgid "Could not load keymap."
+msgstr "无法加载键位映射。"
+
+#: props.py:717
+msgid "Couleur des snapping points."
+msgstr "吸附点的颜色。"
+
+#: props.py:511
+#: props.py:544
+msgid "Ctrl"
+msgstr "Ctrl"
+
+#: props.py:234
+msgid "Derive segment count from edge length and spacing."
+msgstr "根据边长度和间距推导分段数。"
+
+#: props.py:751
+msgid "Display"
+msgstr "显示"
+
+#: props.py:216
+#: props.py:309
+msgid "Distance"
+msgstr "距离"
+
+#: props.py:216
+msgid "Distance between snap points."
+msgstr "吸附点之间的距离。"
+
+#: props.py:249
+msgid "Divide edge into equidistant snap points (I to toggle)."
+msgstr "将边分割为等距吸附点（按 I 切换）。"
+
+#: props.py:690
+msgid "Edge Proximity Tolerance"
+msgstr "边邻近容差"
+
+#: internal.py:197
+msgid "Enable Alt Navigation Settings"
+msgstr "启用 Alt 导航设置"
+
+#: props.py:551
+msgid "Enable Industry Compatible Keymap Support"
+msgstr "启用行业兼容键位映射支持"
+
+#: props.py:551
+msgid "Enabling this switches alt(press) -> to spacebar(toggle) to activate edge slide"
+msgstr "启用此项会将 Alt（按下）切换为空格键（切换）来激活边滑动"
+
+#: props.py:523
+msgid "Esc"
+msgstr "Esc"
+
+#: internal.py:393
+#: loopkut.py:124
+msgid "Even"
+msgstr "均匀"
+
+#: props.py:612
+msgid "Even Point Color"
+msgstr "均匀点颜色"
+
+#: loopkut.py:88
+msgid "Exit the modal after the first loop cut is inserted"
+msgstr "插入第一个循环切割后退出模态操作"
+
+#: loopkut.py:108
+msgid "Factor"
+msgstr "系数"
+
+#: loopkut.py:120
+#: props.py:157
+msgid "Flip"
+msgstr "翻转"
+
+#: loopkut.py:120
+msgid "Flip the cut direction"
+msgstr "翻转切割方向"
+
+#: props.py:197
+msgid "Freeze Edge"
+msgstr "冻结边"
+
+#: loopkut.py:41
+msgid "Global X"
+msgstr "全局 X"
+
+#: loopkut.py:43
+msgid "Global Y"
+msgstr "全局 Y"
+
+#: loopkut.py:45
+msgid "Global Z"
+msgstr "全局 Z"
+
+#: internal.py:398
+#: props.py:249
+msgid "Increment"
+msgstr "递增"
+
+#: props.py:302
+msgid "Increment Divisions"
+msgstr "递增分段"
+
+#: props.py:486
+msgid "Increment Down"
+msgstr "向下递增"
+
+#: props.py:485
+msgid "Increment Up"
+msgstr "向上递增"
+
+#: core.py:572
+msgid "Insert Loop"
+msgstr "插入循环"
+
+#: props.py:185
+#: props.py:479
+msgid "Insert Verts"
+msgstr "插入顶点"
+
+#: props.py:635
+msgid "Insert Verts Color"
+msgstr "插入顶点颜色"
+
+#: props.py:643
+msgid "Insert Verts Size"
+msgstr "插入顶点大小"
+
+#: props.py:161
+msgid "Insert loops mirrored about the active edge midpoint."
+msgstr "围绕活动边中点镜像插入循环。"
+
+#: props.py:167
+msgid "Insert loops perpendicular to the active edge."
+msgstr "垂直于活动边插入循环。"
+
+#: props.py:185
+msgid "Insert vertices on the active edge."
+msgstr "在活动边上插入顶点。"
+
+#: props.py:261
+msgid "Internal flag — True while vertex snap mode is engaged."
+msgstr "内部标志 — 顶点吸附模式启用时为 True。"
+
+#: loopkut.py:81
+msgid "Internal flag — set automatically when the operator is launched via the tool button"
+msgstr "内部标志 — 通过工具按钮启动操作符时自动设置"
+
+#: props.py:728
+msgid "Interpolation Type"
+msgstr "插值类型"
+
+#: loopkut.py:81
+msgid "Invoked by Tool"
+msgstr "由工具调用"
+
+#: loopkut.py:124
+msgid "Keep an even distance from the reference edge"
+msgstr "与参考边保持均匀距离"
+
+#: props.py:518
+msgid "Key used to cancel the LoopKut operator"
+msgstr "用于取消 LoopKut 操作符的按键"
+
+#: props.py:742
+msgid "Keymaps"
+msgstr "键位映射"
+
+#: props.py:191
+msgid "Let selected edges guide loop direction."
+msgstr "让选中边引导循环方向。"
+
+#: props.py:284
+msgid "Limit Bisect to selected verts/edges/faces instead of the whole visible mesh."
+msgstr "将二分限制在选中的顶点/边/面，而不是整个可见网格。"
+
+#: props.py:557
+msgid "Line Width"
+msgstr "线宽"
+
+#: props.py:595
+msgid "Line width of the bisect preview."
+msgstr "二分预览的线宽。"
+
+#: loopkut.py:42
+msgid "Local X"
+msgstr "局部 X"
+
+#: loopkut.py:44
+msgid "Local Y"
+msgstr "局部 Y"
+
+#: loopkut.py:46
+msgid "Local Z"
+msgstr "局部 Z"
+
+#: props.py:197
+msgid "Lock the active edge so it cannot change."
+msgstr "锁定活动边，使其无法更改。"
+
+#: props.py:564
+msgid "Loop Color"
+msgstr "循环颜色"
+
+#: loopkut.py:137
+#: loopkut.py:178
+msgid "Loop Offset"
+msgstr "循环偏移"
+
+#: props.py:572
+msgid "Loop preview color when Set Flow is active."
+msgstr "启用设置流向时的循环预览颜色。"
+
+#: props.py:564
+msgid "Loop preview color."
+msgstr "循环预览颜色。"
+
+#: props.py:580
+msgid "Loop preview line width when Set Flow is active."
+msgstr "启用设置流向时的循环预览线宽。"
+
+#: props.py:557
+msgid "Loop preview line width."
+msgstr "循环预览线宽。"
+
+#: props.py:605
+msgid "Loop preview point size."
+msgstr "循环预览点大小。"
+
+#: internal.py:133
+msgid "LoopKut keymaps reset to defaults."
+msgstr "LoopKut 快捷键已重置为默认值。"
+
+#: internal.py:373
+msgid "Loopkut"
+msgstr "Loopkut"
+
+#: props.py:747
+msgid "Loopkut Activation"
+msgstr "Loopkut 激活"
+
+#: props.py:543
+msgid "Loopkut key"
+msgstr "Loopkut 快捷键"
+
+#: loopkut.py:1692
+#: loopkut.py:1980
+msgid "Loopkut: loop doesn't cross the current selection."
+msgstr "Loopkut：循环未穿过当前选择。"
+
+#: loopkut.py:1934
+msgid "Loopkut: mesh changed, cannot rebuild the cut."
+msgstr "Loopkut：网格已更改，无法重建切割。"
+
+#: loopkut.py:1949
+msgid "Loopkut: no usable loop on this edge."
+msgstr "Loopkut：此边上没有可用的循环。"
+
+#: internal.py:392
+msgid "Loops"
+msgstr "循环"
+
+#: props.py:151
+msgid "Match the adjacent edge shape."
+msgstr "匹配相邻边的形状。"
+
+#: props.py:223
+msgid "Measure snap distance from the far end."
+msgstr "从远端测量吸附距离。"
+
+#: loopkut.py:187
+#: loopkut.py:2023
+msgid "Merge Distance"
+msgstr "合并距离"
+
+#: core.py:577
+#: props.py:473
+msgid "Midpoint"
+msgstr "中点"
+
+#: internal.py:394
+#: loopkut.py:128
+msgid "Mirror"
+msgstr "镜像"
+
+#: loopkut.py:128
+msgid "Mirror the cut on the other half of the loop"
+msgstr "在循环的另一半上镜像切割"
+
+#: props.py:161
+#: props.py:476
+msgid "Mirrored"
+msgstr "已镜像"
+
+#: props.py:136
+msgid "Mode"
+msgstr "模式"
+
+#: loopkut.py:170
+#: loopkut.py:2015
+msgid "Move"
+msgstr "移动"
+
+#: props.py:140
+msgid "Multi Loop"
+msgstr "多循环"
+
+#: props.py:173
+msgid "Multi Loop Offset"
+msgstr "多循环偏移"
+
+#: props.py:294
+msgid "Multi-segment cut spacing reference: On = the active edge's length (local), Off = the whole mesh's extent along the cut normal (global). L to toggle while bisect is engaged."
+msgstr "多段切割间距参考：开启 = 活动边长度（局部），关闭 = 整个网格沿切割法向的范围（全局）。启用二等分时按 L 切换。"
+
+#: loopkut.py:40
+msgid "Normal"
+msgstr "法向"
+
+#: props.py:302
+msgid "Number of increment snap points (↑/↓ to change)."
+msgstr "增量吸附点数量（↑/↓ 更改）。"
+
+#: loopkut.py:112
+msgid "Number of loop segments"
+msgstr "循环分段数"
+
+#: props.py:125
+msgid "Number of loop segments."
+msgstr "循环分段数。"
+
+#: loopkut.py:2019
+msgid "Number of parallel cuts"
+msgstr "平行切割数量"
+
+#: props.py:210
+msgid "Number of snap point divisions (1–100)."
+msgstr "吸附点分段数（1–100）。"
+
+#: loopkut.py:42
+msgid "Object X axis"
+msgstr "物体 X 轴"
+
+#: loopkut.py:44
+msgid "Object Y axis"
+msgstr "物体 Y 轴"
+
+#: loopkut.py:46
+msgid "Object Z axis"
+msgstr "物体 Z 轴"
+
+#: loopkut.py:116
+#: props.py:179
+msgid "Offset"
+msgstr "偏移"
+
+#: loopkut.py:170
+#: loopkut.py:2015
+msgid "Offset along the plane normal"
+msgstr "沿平面法向偏移"
+
+#: loopkut.py:116
+msgid "Offset factor applied to multiple loops"
+msgstr "应用于多个循环的偏移系数"
+
+#: props.py:179
+msgid "Offset factor applied to multiple loops."
+msgstr "应用于多个循环的偏移系数。"
+
+#: props.py:173
+msgid "Offset loops to start at the cursor."
+msgstr "使循环从光标处开始偏移。"
+
+#: actions.py:120
+msgid "Offset mode requires an edge under the cursor."
+msgstr "偏移模式需要光标下方有边。"
+
+#: loopkut.py:137
+msgid "Offset multiple loops from the click position"
+msgstr "从点击位置偏移多个循环"
+
+#: core.py:573
+msgid "Options"
+msgstr "选项"
+
+#: props.py:730
+msgid "Percent"
+msgstr "百分比"
+
+#: internal.py:401
+#: loopkut.py:132
+msgid "Perpendicular"
+msgstr "垂直"
+
+#: props.py:620
+msgid "Perpendicular Point Color"
+msgstr "垂直点颜色"
+
+#: props.py:628
+msgid "Perpendicular Point Size"
+msgstr "垂直点大小"
+
+#: loopkut.py:174
+#: loopkut.py:2027
+msgid "Plane orientation"
+msgstr "平面朝向"
+
+#: props.py:605
+msgid "Point Size"
+msgstr "点大小"
+
+#: internal.py:400
+msgid "Points"
+msgstr "点"
+
+#: loopkut.py:108
+msgid "Position of the cut along the active edge"
+msgstr "切割沿活动边的位置"
+
+#: internal.py:153
+msgid "Previous Shortcut"
+msgstr "上一个快捷键"
+
+#: loopkut.py:132
+msgid "Project cuts onto a plane perpendicular to the active edge"
+msgstr "将切割投影到垂直于活动边的平面上"
+
+#: props.py:522
+msgid "RMB (Right Mouse)"
+msgstr "右键（鼠标右键）"
+
+#: props.py:710
+msgid "Radius in pixels of the circle drawn around the snapped vertex."
+msgstr "在吸附顶点周围绘制的圆的半径（像素）。"
+
+#: props.py:683
+msgid "Radius in pixels of the snap point indicator circle."
+msgstr "吸附点指示圆的半径（像素）。"
+
+#: loopkut.py:141
+msgid "Run Set Edge Flow on the new loop"
+msgstr "对新循环运行设置边流向"
+
+#: loopkut.py:178
+msgid "Segment spacing factor (1 = even spacing, lower = tighter around the centre)"
+msgstr "分段间距系数（1 = 均匀间距，越小 = 中心附近越密集）"
+
+#: loopkut.py:112
+#: loopkut.py:2019
+msgid "Segments"
+msgstr "分段"
+
+#: props.py:141
+msgid "Select Loop"
+msgstr "选择循环"
+
+#: props.py:490
+msgid "Selection Only"
+msgstr "仅所选"
+
+#: internal.py:397
+#: loopkut.py:141
+msgid "Set Flow"
+msgstr "设置流向"
+
+#: props.py:580
+msgid "Set Flow Line Width"
+msgstr "设置流向线宽"
+
+#: props.py:572
+msgid "Set Flow Loop Color"
+msgstr "设置流向循环颜色"
+
+#: props.py:512
+#: props.py:545
+msgid "Shift"
+msgstr "Shift"
+
+#: props.py:139
+msgid "Single"
+msgstr "单个"
+
+#: props.py:643
+msgid "Size of the insert verts mode points."
+msgstr "插入顶点模式点的大小。"
+
+#: props.py:628
+msgid "Size of the perpendicular mode anchor point."
+msgstr "垂直模式锚点的大小。"
+
+#: props.py:247
+msgid "Snap Center"
+msgstr "吸附中心"
+
+#: props.py:210
+msgid "Snap Divisions"
+msgstr "吸附分段"
+
+#: props.py:675
+msgid "Snap Indicator Color"
+msgstr "吸附指示器颜色"
+
+#: props.py:683
+msgid "Snap Indicator Radius"
+msgstr "吸附指示器半径"
+
+#: props.py:241
+msgid "Snap Left"
+msgstr "向左吸附"
+
+#: props.py:717
+msgid "Snap Point Color"
+msgstr "吸附点颜色"
+
+#: props.py:668
+msgid "Snap Point Size"
+msgstr "吸附点大小"
+
+#: props.py:204
+msgid "Snap Points"
+msgstr "吸附点"
+
+#: props.py:244
+msgid "Snap Right"
+msgstr "向右吸附"
+
+#: props.py:660
+msgid "Snap center point color."
+msgstr "吸附中心点颜色。"
+
+#: props.py:653
+msgid "Snap center point size."
+msgstr "吸附中心点大小。"
+
+#: props.py:204
+msgid "Snap to points along the active edge."
+msgstr "吸附到活动边上的点。"
+
+#: core.py:815
+msgid "Something went wrong. Toggle edit mode, ensure an object is selected, and try again."
+msgstr "出现问题。切换编辑模式，确保已选中物体，然后重试。"
+
+#: props.py:228
+msgid "Space snapping points by distance instead of count."
+msgstr "按距离而非数量分布吸附点。"
+
+#: props.py:668
+msgid "Taille des snapping points."
+msgstr "吸附点大小。"
+
+#: props.py:690
+msgid "Tolerance in pixels around an edge: when the cursor is within this distance of the last hovered edge (screen space), the preview stays active even if the raycast misses. Increase for a more forgiving hover zone."
+msgstr "边的像素容差：当光标与上次悬停的边（屏幕空间）距离在此范围内时，即使射线检测未命中，预览仍保持激活。增大该值可获得更宽松的悬停区域。"
+
+#: loopkut.py:95
+msgid "Tool idname to restore when exiting insert mode"
+msgstr "退出插入模式时要恢复的工具 idname"
+
+#: props.py:272
+msgid "True while bisect mode is engaged. Toggling this from the N-panel while Loopkut is running enters/exits bisect mode just like pressing B."
+msgstr "进入切割模式时为真。在 Loopkut 运行时从 N 面板切换此项，与按 B 键一样可进入/退出切割模式。"
+
+#: props.py:228
+msgid "Use Distance"
+msgstr "使用距离"
+
+#: props.py:223
+msgid "Use Opposite Snap Distance"
+msgstr "使用对侧吸附距离"
+
+#: props.py:191
+msgid "Use Selected Edges"
+msgstr "使用选中边"
+
+#: loopkut.py:40
+msgid "Use the plane captured from Loopkut"
+msgstr "使用从 Loopkut 捕获的平面"
+
+#: props.py:483
+msgid "Vertex Snap"
+msgstr "顶点吸附"
+
+#: props.py:261
+msgid "Vertex Snap Active"
+msgstr "顶点吸附激活"
+
+#: props.py:710
+msgid "Vertex Snap Circle Radius"
+msgstr "顶点吸附圆半径"
+
+#: props.py:702
+msgid "Vertex Snap Color"
+msgstr "顶点吸附颜色"
+
+#: loopkut.py:187
+#: loopkut.py:2023
+msgid "Weld cut verts within this distance"
+msgstr "在此距离内焊接切割顶点"
+
+#: loopkut.py:41
+msgid "World X axis"
+msgstr "世界 X 轴"
+
+#: loopkut.py:43
+msgid "World Y axis"
+msgstr "世界 Y 轴"
+
+#: loopkut.py:45
+msgid "World Z axis"
+msgstr "世界 Z 轴"
+
+#: props.py:353
+msgid "bisect local ref"
+msgstr "切割局部参考"
+
+#: props.py:346
+msgid "decrease loop count"
+msgstr "减少环切数量"
+
+#: loopkut.py:88
+msgid "exit after insert"
+msgstr "插入后退出"
+
+#: props.py:345
+msgid "increase loop count"
+msgstr "增加环切数量"
+
+#: props.py:350
+msgid "increment down"
+msgstr "向下递增"
+
+#: props.py:349
+msgid "increment up"
+msgstr "向上递增"
+
+#: props.py:344
+msgid "insert verts"
+msgstr "插入顶点"
+
+#: props.py:342
+msgid "loop offset"
+msgstr "环切偏移"
+
+#: props.py:17
+msgid "op running"
+msgstr "操作符运行中"
+
+#: props.py:343
+msgid "reset loop offset"
+msgstr "重置环切偏移"
+
+#: props.py:354
+msgid "selection only"
+msgstr "仅选中项"
+
+#: props.py:351
+msgid "set flow"
+msgstr "设置流向"
+
+#: loopkut.py:95
+msgid "tool to restore"
+msgstr "要恢复的工具"
+
+#: props.py:347
+msgid "vertex snap"
+msgstr "顶点吸附"
+
+#: internal.py:193
+msgctxt "Operator"
+msgid "Alt Navigation Detected"
+msgstr "检测到 Alt 导航"
+
+#: internal.py:150
+msgctxt "Operator"
+msgid "Click to change keymap"
+msgstr "点击更改键位映射"
+
+#: internal.py:269
+msgctxt "Operator"
+msgid "Click to change shortcut"
+msgstr "点击更改快捷键"
+
+#: internal.py:36
+msgctxt "Operator"
+msgid "Execute Loopkut Operator"
+msgstr "执行 Loopkut 操作符"
+
+#: internal.py:88
+msgctxt "Operator"
+msgid "If the LoopKut operators are stuck, run this to reset their state."
+msgstr "如果 LoopKut 操作符卡住，运行此命令以重置其状态。"
+
+#: internal.py:233
+msgctxt "Operator"
+msgid "Loopkut"
+msgstr "Loopkut"
+
+#: loopkut.py:2012
+msgctxt "Operator"
+msgid "Loopkut Bisect"
+msgstr "Loopkut 切割"
+
+#: loopkut.py:73
+msgctxt "Operator"
+msgid "Loopkut Operator"
+msgstr "Loopkut 操作符"
+
+#: props.py:836
+msgctxt "Operator"
+msgid "Reset Keymaps to Defaults"
+msgstr "将键位映射重置为默认值"
+
+#: internal.py:104
+msgctxt "Operator"
+msgid "Reset LoopKut Keymaps"
+msgstr "重置 LoopKut 键位映射"
+
+#: internal.py:86
+msgctxt "Operator"
+msgid "Reset Operator"
+msgstr "重置操作符"
+
+#: internal.py:106
+msgctxt "Operator"
+msgid "Reset all LoopKut modal keymaps to their default values"
+msgstr "将所有 LoopKut 模态键位映射重置为默认值"

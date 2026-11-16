@@ -1,0 +1,862 @@
+# perfect-chinese: 1
+# id: coloraide
+# kind: addon
+# module: bl_ext.blender_org.Coloraide
+# name: Coloraide
+# name_zh: 颜色助手
+# translator: KeshiMiao
+# category: Paint
+# supported_versions: >=5.0.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: Coloraide/properties/RGB_properties.py:45
+msgid "A"
+msgstr "A"
+
+#: Coloraide/__init__.py:177
+msgid "Applies to Image Editor, 3D View, and Clip Editor."
+msgstr "适用于图像编辑器、3D 视图和剪辑编辑器。"
+
+#: Coloraide/properties/CPICKER_properties.py:34
+msgid "Average color of sampled area (scene linear)"
+msgstr "采样区域的平均颜色（场景线性）"
+
+#: Coloraide/properties/RGB_properties.py:37
+msgid "B"
+msgstr "B"
+
+#: Coloraide/__init__.py:155
+msgid "Batched (100ms)"
+msgstr "批量（100 毫秒）"
+
+#: Coloraide/__init__.py:226
+msgid "Best for: Heavy scenes with 200+ properties"
+msgstr "最适合：包含 200 多个属性的复杂场景"
+
+#: Coloraide/__init__.py:218
+msgid "Best for: Precise work with few properties"
+msgstr "最适合：属性较少的精细操作"
+
+#: Coloraide/properties/RGB_properties.py:71
+msgid "Blue Preview"
+msgstr "蓝色预览"
+
+#: Coloraide/properties/CPICKER_properties.py:53
+msgid "Brightest color in sampled area (scene linear)"
+msgstr "采样区域中最亮的颜色（场景线性）"
+
+#: Coloraide/__init__.py:98
+msgid "Choose the sidebar tab where Coloraide panels will appear"
+msgstr "选择 Coloraide 面板显示的侧边栏标签页"
+
+#: Coloraide/panels/OBJECT_COLORS_panel.py:14
+#: Coloraide/panels/OBJECT_COLORS_panel.py:107
+msgid "Click 'Rescan' to detect colors"
+msgstr "点击「重新扫描」以检测颜色"
+
+#: Coloraide/properties/CHISTORY_properties.py:16
+#: Coloraide/properties/CWHEEL_properties.py:22
+msgid "Color"
+msgstr "颜色"
+
+#: Coloraide/__init__.py:112
+msgid "Color Dynamics"
+msgstr "颜色动态"
+
+#: Coloraide/__init__.py:130
+msgid "Color History"
+msgstr "颜色历史"
+
+#: Coloraide/__init__.py:136
+msgid "Color Palettes"
+msgstr "颜色调色板"
+
+#: Coloraide/__init__.py:118
+msgid "Color Picker"
+msgstr "颜色选择器"
+
+#: Coloraide/panels/CWHEEL_panel.py:18
+msgid "Color Picker Type"
+msgstr "颜色选择器类型"
+
+#: Coloraide/properties/OBJECT_COLORS_properties.py:194
+msgid "Color Properties"
+msgstr "颜色属性"
+
+#: Coloraide/__init__.py:124
+msgid "Color Sliders"
+msgstr "颜色滑块"
+
+#: Coloraide/properties/OBJECT_COLORS_properties.py:52
+msgid "Color Space"
+msgstr "色彩空间"
+
+#: Coloraide/properties/OBJECT_COLORS_properties.py:206
+msgid "Color Tolerance"
+msgstr "颜色容差"
+
+#: Coloraide/__init__.py:106
+msgid "Color Wheel"
+msgstr "色轮"
+
+#: Coloraide/panels/CDYNAMICS_panel.py:85
+msgid "Color dynamics not available"
+msgstr "颜色动态不可用"
+
+#: Coloraide/properties/HEX_properties.py:56
+msgid "Color in hex format (sRGB, e.g. #FF0000)"
+msgstr "十六进制格式的颜色（sRGB，例如 #FF0000）"
+
+#: Coloraide/properties/OBJECT_COLORS_properties.py:52
+msgid "Color space (LINEAR or COLOR_GAMMA)"
+msgstr "色彩空间（LINEAR 或 COLOR_GAMMA）"
+
+#: Coloraide/COLORAIDE_panel.py:104
+#: Coloraide/COLORAIDE_panel.py:114
+msgid "Coloraide"
+msgstr "Coloraide"
+
+#: Coloraide/COLORAIDE_panel.py:100
+#: Coloraide/COLORAIDE_panel.py:110
+msgid "Coloraide 1.5.3"
+msgstr "Coloraide 1.5.3"
+
+#: Coloraide/__init__.py:175
+msgid "Controls which tab the Coloraide panel appears in."
+msgstr "控制 Coloraide 面板显示在哪个标签页。"
+
+#: Coloraide/properties/CPICKER_properties.py:44
+msgid "Current Color"
+msgstr "当前颜色"
+
+#: Coloraide/properties/CPICKER_properties.py:62
+msgid "Darkest color in sampled area (scene linear)"
+msgstr "采样区域中最暗的颜色（场景线性）"
+
+#: Coloraide/__init__.py:176
+msgid "Default: 'Coloraide' - Change to 'Tool', 'View', 'Edit', etc."
+msgstr "默认：'Coloraide' - 可改为 'Tool'、'View'、'Edit' 等"
+
+#: Coloraide/properties/OBJECT_COLORS_properties.py:28
+msgid "Detailed Label"
+msgstr "详细标签"
+
+#: Coloraide/properties/OBJECT_COLORS_properties.py:28
+msgid "Detailed label for tooltip"
+msgstr "用于工具提示的详细标签"
+
+#: Coloraide/__init__.py:200
+msgid "Disabled panels are completely hidden from the UI."
+msgstr "禁用的面板会完全从界面中隐藏。"
+
+#: Coloraide/properties/OBJECT_COLORS_properties.py:183
+msgid "Display Mode"
+msgstr "显示模式"
+
+#: Coloraide/panels/CDYNAMICS_panel.py:49
+msgid "Enable Randomization"
+msgstr "启用随机化"
+
+#: Coloraide/__init__.py:112
+msgid "Enable the Color Dynamics panel (native brush randomization)"
+msgstr "启用颜色动态面板（原生笔刷随机化）"
+
+#: Coloraide/__init__.py:130
+msgid "Enable the Color History panel with recently used colors"
+msgstr "启用颜色历史面板，显示最近使用的颜色"
+
+#: Coloraide/__init__.py:136
+msgid "Enable the Color Palettes panel for managing persistent color collections"
+msgstr "启用颜色调色板面板，用于管理持久颜色集合"
+
+#: Coloraide/__init__.py:118
+msgid "Enable the Color Picker panel with screen sampling and normal picker"
+msgstr "启用颜色选择器面板，包含屏幕采样和普通拾色器"
+
+#: Coloraide/__init__.py:124
+msgid "Enable the Color Sliders panel (RGB/HSV/LAB)"
+msgstr "启用颜色滑块面板（RGB/HSV/LAB）"
+
+#: Coloraide/__init__.py:106
+msgid "Enable the Color Wheel panel with picker type selector and hex input"
+msgstr "启用色轮面板，包含选择器类型选择和十六进制输入"
+
+#: Coloraide/__init__.py:142
+msgid "Enable the Object Colors panel for detecting and syncing colors from selected objects"
+msgstr "启用物体颜色面板，用于检测并同步选中物体的颜色"
+
+#: Coloraide/__init__.py:183
+msgid "Enabled Panels"
+msgstr "启用的面板"
+
+#: Coloraide/panels/OBJECT_COLORS_panel.py:217
+msgid "Filters"
+msgstr "筛选"
+
+#: Coloraide/panels/HEX_panel.py:27
+msgid "Format: #RRGGBB (e.g. #FF0000 for red)"
+msgstr "格式：#RRGGBB（例如红色为 #FF0000）"
+
+#: Coloraide/properties/RGB_properties.py:29
+msgid "G"
+msgstr "G"
+
+#: Coloraide/panels/OBJECT_COLORS_panel.py:228
+#: Coloraide/properties/OBJECT_COLORS_properties.py:155
+msgid "Geometry Nodes"
+msgstr "几何节点"
+
+#: Coloraide/panels/OBJECT_COLORS_panel.py:232
+#: Coloraide/properties/OBJECT_COLORS_properties.py:176
+msgid "Grease Pencil"
+msgstr "蜡笔"
+
+#: Coloraide/properties/RGB_properties.py:63
+msgid "Green Preview"
+msgstr "绿色预览"
+
+#: Coloraide/properties/OBJECT_COLORS_properties.py:188
+msgid "Group identical colors"
+msgstr "对相同颜色分组"
+
+#: Coloraide/panels/OBJECT_COLORS_panel.py:244
+msgid "Grouped"
+msgstr "分组"
+
+#: Coloraide/properties/OBJECT_COLORS_properties.py:188
+msgid "Grouped Mode"
+msgstr "分组模式"
+
+#: Coloraide/properties/HSV_properties.py:17
+msgid "H"
+msgstr "H"
+
+#: Coloraide/panels/HSV_panel.py:11
+msgid "H:"
+msgstr "H："
+
+#: Coloraide/COLORAIDE_panel.py:74
+msgid "HSV"
+msgstr "HSV"
+
+#: Coloraide/properties/HEX_properties.py:56
+msgid "Hex"
+msgstr "十六进制"
+
+#: Coloraide/panels/HEX_panel.py:15
+msgid "Hex Color"
+msgstr "十六进制颜色"
+
+#: Coloraide/properties/OBJECT_COLORS_properties.py:206
+msgid "How similar colors must be to group"
+msgstr "颜色分组的相似度阈值"
+
+#: Coloraide/properties/OBJECT_COLORS_properties.py:183
+msgid "How to display detected colors"
+msgstr "如何显示检测到的颜色"
+
+#: Coloraide/__init__.py:149
+msgid "How to update live-synced object colors (affects performance)"
+msgstr "如何更新实时同步的物体颜色（影响性能）"
+
+#: Coloraide/panels/CDYNAMICS_panel.py:32
+#: Coloraide/panels/CDYNAMICS_panel.py:55
+msgid "Hue"
+msgstr "色相"
+
+#: Coloraide/__init__.py:153
+msgid "Immediate"
+msgstr "立即"
+
+#: Coloraide/properties/OBJECT_COLORS_properties.py:187
+msgid "Individual properties per object"
+msgstr "每个物体的独立属性"
+
+#: Coloraide/properties/LAB_properties.py:17
+msgid "L"
+msgstr "L"
+
+#: Coloraide/panels/LAB_panel.py:10
+msgid "L:"
+msgstr "L："
+
+#: Coloraide/COLORAIDE_panel.py:76
+msgid "LAB"
+msgstr "LAB"
+
+#: Coloraide/properties/OBJECT_COLORS_properties.py:216
+msgid "Last Active Object"
+msgstr "最后活动的物体"
+
+#: Coloraide/properties/OBJECT_COLORS_properties.py:222
+msgid "Last Selected Count"
+msgstr "上次选择数量"
+
+#: Coloraide/properties/HEX_properties.py:16
+msgid "Last valid hex value for validation fallback"
+msgstr "用于校验回退的上一个有效十六进制值"
+
+#: Coloraide/panels/OBJECT_COLORS_panel.py:229
+#: Coloraide/properties/OBJECT_COLORS_properties.py:162
+msgid "Lights"
+msgstr "灯光"
+
+#: Coloraide/properties/OBJECT_COLORS_properties.py:111
+msgid "Live Sync"
+msgstr "实时同步"
+
+#: Coloraide/__init__.py:149
+msgid "Live Sync Update Mode"
+msgstr "实时同步更新模式"
+
+#: Coloraide/__init__.py:210
+msgid "Live Sync Update Mode:"
+msgstr "实时同步更新模式："
+
+#: Coloraide/panels/OBJECT_COLORS_panel.py:227
+#: Coloraide/properties/OBJECT_COLORS_properties.py:148
+msgid "Materials"
+msgstr "材质"
+
+#: Coloraide/properties/CPICKER_properties.py:53
+msgid "Maximum"
+msgstr "最大值"
+
+#: Coloraide/properties/CPICKER_properties.py:34
+msgid "Mean Color"
+msgstr "平均颜色"
+
+#: Coloraide/properties/CPICKER_properties.py:71
+msgid "Median"
+msgstr "中位数"
+
+#: Coloraide/properties/CPICKER_properties.py:71
+msgid "Median color of sampled area (scene linear)"
+msgstr "采样区域的中位颜色（场景线性）"
+
+#: Coloraide/properties/CPICKER_properties.py:62
+msgid "Minimum"
+msgstr "最小值"
+
+#: Coloraide/panels/OBJECT_COLORS_panel.py:239
+msgid "Multi"
+msgstr "多个"
+
+#: Coloraide/panels/CDYNAMICS_panel.py:23
+msgid "No active brush, go to paint mode"
+msgstr "无活动笔刷，请进入绘制模式"
+
+#: Coloraide/panels/OBJECT_COLORS_panel.py:13
+#: Coloraide/panels/OBJECT_COLORS_panel.py:106
+msgid "No colors detected"
+msgstr "未检测到颜色"
+
+#: Coloraide/properties/NORMAL_properties.py:7
+msgid "Normal Color Sampling"
+msgstr "法线颜色采样"
+
+#: Coloraide/panels/OBJECT_COLORS_panel.py:243
+msgid "Object"
+msgstr "物体"
+
+#: Coloraide/__init__.py:142
+#: Coloraide/panels/OBJECT_COLORS_panel.py:205
+msgid "Object Colors"
+msgstr "物体颜色"
+
+#: Coloraide/properties/OBJECT_COLORS_properties.py:187
+msgid "Object Mode"
+msgstr "物体模式"
+
+#: Coloraide/properties/OBJECT_COLORS_properties.py:34
+msgid "Object Name"
+msgstr "物体名称"
+
+#: Coloraide/properties/OBJECT_COLORS_properties.py:34
+msgid "Object this property belongs to"
+msgstr "此属性所属的物体"
+
+#: Coloraide/panels/OBJECT_COLORS_panel.py:231
+#: Coloraide/properties/OBJECT_COLORS_properties.py:169
+msgid "Objects"
+msgstr "物体"
+
+#: Coloraide/__init__.py:157
+msgid "On Mouse Release"
+msgstr "鼠标释放时"
+
+#: Coloraide/__init__.py:168
+msgid "Panel Location"
+msgstr "面板位置"
+
+#: Coloraide/__init__.py:207
+msgid "Performance Settings"
+msgstr "性能设置"
+
+#: Coloraide/properties/OBJECT_COLORS_properties.py:15
+msgid "Prevent update callbacks during refresh"
+msgstr "刷新期间阻止更新回调"
+
+#: Coloraide/properties/HEX_properties.py:16
+msgid "Previous Hex"
+msgstr "上一个十六进制"
+
+#: Coloraide/properties/OBJECT_COLORS_properties.py:40
+msgid "Property Path"
+msgstr "属性路径"
+
+#: Coloraide/properties/OBJECT_COLORS_properties.py:46
+msgid "Property Type"
+msgstr "属性类型"
+
+#: Coloraide/properties/OBJECT_COLORS_properties.py:40
+msgid "Python path to access this property"
+msgstr "访问此属性的 Python 路径"
+
+#: Coloraide/properties/RGB_properties.py:21
+msgid "R"
+msgstr "R"
+
+#: Coloraide/COLORAIDE_panel.py:75
+msgid "RGB"
+msgstr "RGB"
+
+#: Coloraide/properties/RGB_properties.py:54
+msgid "Red Preview"
+msgstr "红色预览"
+
+#: Coloraide/properties/HSV_properties.py:27
+msgid "S"
+msgstr "S"
+
+#: Coloraide/panels/HSV_panel.py:16
+msgid "S:"
+msgstr "S:"
+
+#: Coloraide/properties/CPICKER_properties.py:25
+msgid "Sample Size"
+msgstr "采样大小"
+
+#: Coloraide/properties/NORMAL_properties.py:7
+msgid "Sample normals as colors when painting, only work in 3D View"
+msgstr "绘制时将法线作为颜色采样，仅在 3D 视图中有效"
+
+#: Coloraide/panels/CPICKER_panel.py:29
+msgid "Sample px"
+msgstr "采样像素"
+
+#: Coloraide/panels/CDYNAMICS_panel.py:37
+#: Coloraide/panels/CDYNAMICS_panel.py:65
+msgid "Saturation"
+msgstr "饱和度"
+
+#: Coloraide/properties/OBJECT_COLORS_properties.py:22
+msgid "Short Label"
+msgstr "简短标签"
+
+#: Coloraide/properties/OBJECT_COLORS_properties.py:22
+msgid "Short label for UI"
+msgstr "UI 简短标签"
+
+#: Coloraide/COLORAIDE_properties.py:64
+msgid "Show Color Dynamics"
+msgstr "显示颜色动态"
+
+#: Coloraide/COLORAIDE_properties.py:71
+msgid "Show Color History"
+msgstr "显示颜色历史"
+
+#: Coloraide/COLORAIDE_properties.py:77
+msgid "Show Color Palettes"
+msgstr "显示颜色调板"
+
+#: Coloraide/COLORAIDE_properties.py:14
+msgid "Show Color Picker"
+msgstr "显示颜色选择器"
+
+#: Coloraide/COLORAIDE_properties.py:57
+msgid "Show Color Sliders"
+msgstr "显示颜色滑块"
+
+#: Coloraide/COLORAIDE_properties.py:20
+msgid "Show Color Statistics"
+msgstr "显示颜色统计"
+
+#: Coloraide/COLORAIDE_properties.py:51
+msgid "Show Color Wheel"
+msgstr "显示色轮"
+
+#: Coloraide/properties/OBJECT_COLORS_properties.py:142
+msgid "Show Filters"
+msgstr "显示过滤器"
+
+#: Coloraide/properties/OBJECT_COLORS_properties.py:155
+msgid "Show Geometry Nodes color inputs"
+msgstr "显示几何节点颜色输入"
+
+#: Coloraide/properties/OBJECT_COLORS_properties.py:176
+msgid "Show Grease Pencil fill/stroke colors"
+msgstr "显示蜡笔填充/描边颜色"
+
+#: Coloraide/COLORAIDE_properties.py:39
+msgid "Show HSV Controls"
+msgstr "显示 HSV 控制项"
+
+#: Coloraide/COLORAIDE_properties.py:39
+msgid "Show HSV color controls"
+msgstr "显示 HSV 颜色控制项"
+
+#: Coloraide/COLORAIDE_properties.py:45
+msgid "Show Hex Input"
+msgstr "显示十六进制输入"
+
+#: Coloraide/COLORAIDE_properties.py:33
+msgid "Show LAB Controls"
+msgstr "显示 LAB 控制项"
+
+#: Coloraide/COLORAIDE_properties.py:33
+msgid "Show LAB color controls"
+msgstr "显示 LAB 颜色控制项"
+
+#: Coloraide/properties/OBJECT_COLORS_properties.py:199
+msgid "Show Multiple Objects"
+msgstr "显示多个物体"
+
+#: Coloraide/COLORAIDE_properties.py:83
+msgid "Show Object Colors"
+msgstr "显示物体颜色"
+
+#: Coloraide/COLORAIDE_properties.py:27
+msgid "Show RGB Controls"
+msgstr "显示 RGB 控制项"
+
+#: Coloraide/COLORAIDE_properties.py:27
+msgid "Show RGB color controls"
+msgstr "显示 RGB 颜色控制项"
+
+#: Coloraide/COLORAIDE_properties.py:64
+msgid "Show color dynamics (randomization) controls"
+msgstr "显示颜色动态（随机化）控制项"
+
+#: Coloraide/COLORAIDE_properties.py:71
+msgid "Show color history panel"
+msgstr "显示颜色历史面板"
+
+#: Coloraide/COLORAIDE_properties.py:77
+msgid "Show color palette controls"
+msgstr "显示颜色调板控制项"
+
+#: Coloraide/COLORAIDE_properties.py:57
+msgid "Show color space sliders"
+msgstr "显示色彩空间滑块"
+
+#: Coloraide/COLORAIDE_properties.py:20
+msgid "Show color statistics in picker panel"
+msgstr "在拾色器面板中显示颜色统计"
+
+#: Coloraide/COLORAIDE_properties.py:51
+msgid "Show color wheel control"
+msgstr "显示色轮控件"
+
+#: Coloraide/properties/OBJECT_COLORS_properties.py:199
+msgid "Show colors from all selected objects (off = active only)"
+msgstr "显示所有选中物体的颜色（关闭 = 仅活动物体）"
+
+#: Coloraide/COLORAIDE_properties.py:14
+msgid "Show core color picker controls"
+msgstr "显示核心拾色器控制项"
+
+#: Coloraide/COLORAIDE_properties.py:83
+msgid "Show detected color properties from selected objects"
+msgstr "显示选中物体中检测到的颜色属性"
+
+#: Coloraide/COLORAIDE_properties.py:45
+msgid "Show hex color input field"
+msgstr "显示十六进制颜色输入框"
+
+#: Coloraide/properties/OBJECT_COLORS_properties.py:162
+msgid "Show light colors"
+msgstr "显示灯光颜色"
+
+#: Coloraide/properties/OBJECT_COLORS_properties.py:148
+msgid "Show material shader node colors"
+msgstr "显示材质着色器节点颜色"
+
+#: Coloraide/properties/OBJECT_COLORS_properties.py:169
+msgid "Show object viewport display colors"
+msgstr "显示物体视图显示颜色"
+
+#: Coloraide/properties/OBJECT_COLORS_properties.py:142
+msgid "Show/hide filter options"
+msgstr "显示/隐藏过滤选项"
+
+#: Coloraide/__init__.py:171
+msgid "Sidebar Tab Category:"
+msgstr "侧边栏标签类别："
+
+#: Coloraide/properties/CPICKER_properties.py:44
+msgid "Single pixel color under cursor (scene linear)"
+msgstr "光标下单个像素颜色（场景线性）"
+
+#: Coloraide/panels/CWHEEL_panel.py:39
+msgid "Size"
+msgstr "大小"
+
+#: Coloraide/properties/CPICKER_properties.py:25
+msgid "Size of the sample square area in pixels"
+msgstr "采样方形区域大小（像素）"
+
+#: Coloraide/properties/OBJECT_COLORS_properties.py:15
+msgid "Suppress Updates"
+msgstr "抑制更新"
+
+#: Coloraide/properties/OBJECT_COLORS_properties.py:111
+msgid "Sync Coloraide changes to this property in real-time"
+msgstr "将 Coloraide 的更改实时同步到此属性"
+
+#: Coloraide/__init__.py:98
+msgid "Tab Category"
+msgstr "标签类别"
+
+#: Coloraide/__init__.py:184
+msgid "Toggle individual panel sections on/off:"
+msgstr "切换各个面板分区的显示/隐藏："
+
+#: Coloraide/properties/OBJECT_COLORS_properties.py:46
+msgid "Type (GEONODES, MATERIAL, LIGHT, OBJECT, GPENCIL)"
+msgstr "类型（GEONODES、MATERIAL、LIGHT、OBJECT、GPENCIL）"
+
+#: Coloraide/__init__.py:155
+msgid "Update every 100ms - smooth with slight delay (recommended)"
+msgstr "每 100 毫秒更新 - 平滑但有轻微延迟（推荐）"
+
+#: Coloraide/__init__.py:153
+msgid "Update instantly - accurate but may lag with 50+ properties"
+msgstr "即时更新 - 准确，但属性超过 50 个时可能卡顿"
+
+#: Coloraide/__init__.py:157
+msgid "Update when slider released - fastest but no live preview"
+msgstr "释放滑块时更新 - 最快但无实时预览"
+
+#: Coloraide/__init__.py:201
+msgid "Use this to customize your workflow and reduce clutter."
+msgstr "用此选项自定义你的工作流程并减少杂乱。"
+
+#: Coloraide/properties/HSV_properties.py:38
+msgid "V"
+msgstr "V"
+
+#: Coloraide/panels/HSV_panel.py:21
+msgid "V:"
+msgstr "V:"
+
+#: Coloraide/panels/CDYNAMICS_panel.py:42
+#: Coloraide/panels/CDYNAMICS_panel.py:75
+msgid "Value"
+msgstr "明度"
+
+#: Coloraide/properties/CWHEEL_properties.py:15
+msgid "Wheel Size"
+msgstr "色轮大小"
+
+#: Coloraide/__init__.py:225
+msgid "⚠ Colors update only when you release mouse"
+msgstr "⚠ 仅在释放鼠标时更新颜色"
+
+#: Coloraide/__init__.py:217
+msgid "⚠ May lag with 50+ live-synced properties"
+msgstr "⚠ 同步 50 个以上实时属性时可能卡顿"
+
+#: Coloraide/__init__.py:220
+msgid "✓ Balanced - smooth with minimal delay"
+msgstr "✓ 均衡 - 流畅且延迟极小"
+
+#: Coloraide/__init__.py:224
+msgid "✓ Fastest - no lag during slider drag"
+msgstr "✓ 最快 - 拖动滑块时无卡顿"
+
+#: Coloraide/__init__.py:216
+msgid "✓ Most accurate - updates instantly"
+msgstr "✓ 最精确 - 即时更新"
+
+#: Coloraide/__init__.py:222
+msgid "✓ Recommended for most users"
+msgstr "✓ 推荐大多数用户使用"
+
+#: Coloraide/__init__.py:221
+msgid "✓ Updates every 100ms (imperceptible)"
+msgstr "✓ 每 100ms 更新（无法察觉）"
+
+#: Coloraide/panels/CHISTORY_panel.py:23
+msgctxt "Operator"
+msgid "+"
+msgstr "+"
+
+#: Coloraide/panels/CHISTORY_panel.py:21
+msgctxt "Operator"
+msgid "-"
+msgstr "-"
+
+#: Coloraide/operators/PALETTE_OT.py:10
+msgctxt "Operator"
+msgid "Add to Palette"
+msgstr "添加到调色板"
+
+#: Coloraide/operators/CHISTORY_OT.py:9
+msgctxt "Operator"
+msgid "Adjust History Size"
+msgstr "调整历史记录大小"
+
+#: Coloraide/operators/OBJECT_COLORS_OT.py:122
+msgctxt "Operator"
+msgid "Apply Coloraide's current color to this property"
+msgstr "将 Coloraide 当前颜色应用到此属性"
+
+#: Coloraide/operators/CHISTORY_OT.py:25
+msgctxt "Operator"
+msgid "Clear History"
+msgstr "清除历史记录"
+
+#: Coloraide/operators/OBJECT_COLORS_OT.py:191
+msgctxt "Operator"
+msgid "Load this color into Coloraide's picker"
+msgstr "将此颜色载入 Coloraide 拾色器"
+
+#: Coloraide/COLORAIDE_monitor.py:15
+msgctxt "Operator"
+msgid "Monitor Color Changes"
+msgstr "监视颜色变化"
+
+#: Coloraide/operators/NORMAL_OT.py:18
+msgctxt "Operator"
+msgid "Normal Color Picker"
+msgstr "法线颜色拾取器"
+
+#: Coloraide/panels/NORMAL_panel.py:19
+msgctxt "Operator"
+msgid "Normal Color Sampler"
+msgstr "法线颜色采样器"
+
+#: Coloraide/panels/CPICKER_panel.py:40
+msgctxt "Operator"
+msgid "Object Normal Picker"
+msgstr "物体法线拾取器"
+
+#: Coloraide/operators/CPICKER_OT.py:181
+msgctxt "Operator"
+msgid "Press and hold to activate color picker, release to select color"
+msgstr "按住以激活拾色器，松开以选取颜色"
+
+#: Coloraide/operators/OBJECT_COLORS_OT.py:121
+msgctxt "Operator"
+msgid "Pull Color from Coloraide"
+msgstr "从 Coloraide 拉取颜色"
+
+#: Coloraide/operators/OBJECT_COLORS_OT.py:190
+msgctxt "Operator"
+msgid "Push Color to Coloraide"
+msgstr "将颜色推送到 Coloraide"
+
+#: Coloraide/operators/CPICKER_OT.py:180
+msgctxt "Operator"
+msgid "Quick Color Picker"
+msgstr "快速拾色器"
+
+#: Coloraide/operators/PALETTE_OT.py:36
+msgctxt "Operator"
+msgid "Remove Color"
+msgstr "移除颜色"
+
+#: Coloraide/operators/PALETTE_OT.py:37
+msgctxt "Operator"
+msgid "Remove selected color from palette"
+msgstr "从调色板中移除所选颜色"
+
+#: Coloraide/operators/OBJECT_COLORS_OT.py:17
+msgctxt "Operator"
+msgid "Rescan Objects"
+msgstr "重新扫描物体"
+
+#: Coloraide/operators/CWHEEL_OT.py:29
+msgctxt "Operator"
+msgid "Reset Wheel Scale"
+msgstr "重置色轮缩放"
+
+#: Coloraide/operators/CWHEEL_OT.py:30
+msgctxt "Operator"
+msgid "Reset the color wheel size to default"
+msgstr "将色轮大小重置为默认值"
+
+#: Coloraide/operators/CPICKER_OT.py:132
+msgctxt "Operator"
+msgid "Sample colors from screen"
+msgstr "从屏幕采样颜色"
+
+#: Coloraide/operators/NORMAL_OT.py:19
+msgctxt "Operator"
+msgid "Sample object space normals as colors for painting"
+msgstr "将物体空间法线采样为颜色用于绘制"
+
+#: Coloraide/operators/OBJECT_COLORS_OT.py:18
+msgctxt "Operator"
+msgid "Scan selected objects for color properties (preserves live sync toggles)"
+msgstr "扫描所选物体的颜色属性（保留实时同步开关）"
+
+#: Coloraide/operators/CPICKER_OT.py:131
+msgctxt "Operator"
+msgid "Screen Color Picker"
+msgstr "屏幕拾色器"
+
+#: Coloraide/operators/CWHEEL_OT.py:11
+msgctxt "Operator"
+msgid "Sync Color Wheel"
+msgstr "同步色轮"
+
+#: Coloraide/operators/HSV_OT.py:9
+msgctxt "Operator"
+msgid "Sync HSV Values"
+msgstr "同步 HSV 值"
+
+#: Coloraide/operators/HEX_OT.py:11
+msgctxt "Operator"
+msgid "Sync Hex Value"
+msgstr "同步十六进制值"
+
+#: Coloraide/operators/LAB_OT.py:9
+msgctxt "Operator"
+msgid "Sync LAB Values"
+msgstr "同步 LAB 值"
+
+#: Coloraide/operators/RGB_OT.py:10
+msgctxt "Operator"
+msgid "Sync RGB Values"
+msgstr "同步 RGB 值"
+
+#: Coloraide/operators/RGB_OT.py:11
+msgctxt "Operator"
+msgid "Synchronize RGB sliders with current color"
+msgstr "让 RGB 滑块与当前颜色同步"
+
+#: Coloraide/operators/CWHEEL_OT.py:12
+msgctxt "Operator"
+msgid "Synchronize color wheel with current color"
+msgstr "让色轮与当前颜色同步"
+
+#: Coloraide/operators/HEX_OT.py:12
+msgctxt "Operator"
+msgid "Synchronize hex value with current color"
+msgstr "让十六进制值与当前颜色同步"
+
+#: Coloraide/operators/OBJECT_COLORS_OT.py:238
+msgctxt "Operator"
+msgid "Update Group Color"
+msgstr "更新组颜色"
+
+#: Coloraide/operators/OBJECT_COLORS_OT.py:239
+msgctxt "Operator"
+msgid "Update all instances in this color group"
+msgstr "更新此颜色组中的所有实例"

@@ -1,0 +1,858 @@
+# perfect-chinese: 1
+# id: power_sequencer
+# kind: addon
+# module: bl_ext.blender_org.power_sequencer
+# name: Power Sequencer
+# name_zh: 强力视频序列器
+# translator: KeshiMiao
+# category: Sequencer
+# supported_versions: >=4.4.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: addon_preferences.py:24
+msgid "100%"
+msgstr "100%"
+
+#: addon_preferences.py:21
+msgid "25%"
+msgstr "25%"
+
+#: addon_preferences.py:22
+msgid "50%"
+msgstr "50%"
+
+#: addon_preferences.py:23
+msgid "75%"
+msgstr "75%"
+
+#: addon_properties.py:19
+msgid "Active Tab"
+msgstr "活动标签"
+
+#: operators/set_timeline_range.py:27
+msgid "Adjust"
+msgstr "调整"
+
+#: operators/speed_up_movie_strip.py:52
+msgid "Affect individual strips"
+msgstr "影响单个片段"
+
+#: operators/grab_sequence_handles.py:35
+msgid "Always find closest"
+msgstr "始终查找最近的"
+
+#: ui/menu_toolbar.py:182
+msgid "Audio"
+msgstr "音频"
+
+#: operators/toggle_waveforms.py:33
+msgid "Auto"
+msgstr "自动"
+
+#: operators/crossfade_add.py:39
+msgid "Auto Move Strip"
+msgstr "自动移动片段"
+
+#: operators/render_apply_preset.py:59
+msgid "Auto name the rendered video after..."
+msgstr "以…自动命名渲染的视频"
+
+#: operators/mouse_trim_instantly.py:49
+msgid "Auto-select the strip you click on or that the time cursor overlaps"
+msgstr "自动选择你点击的片段或与时间光标重叠的片段"
+
+#: operators/toggle_waveforms.py:33
+msgid "Automatically toggle the waveform"
+msgstr "自动切换波形"
+
+#: operators/jump_time_offset.py:57
+msgid "Backward"
+msgstr "向后"
+
+#: operators/render_apply_preset.py:62
+msgid "Blender file"
+msgstr "Blender 文件"
+
+#: operators/playback_speed_set.py:31
+msgid "Change the playback speed"
+msgstr "更改播放速度"
+
+#: operators/set_timeline_range.py:27
+msgid "Change the start or the end frame of the timeline"
+msgstr "更改时间线的起始帧或结束帧"
+
+#: operators/grab_sequence_handles.py:37
+#: operators/select_closest_to_mouse.py:30
+msgid "Channel"
+msgstr "通道"
+
+#: operators/concatenate_strips.py:66
+msgid "Concatenate all strips in channel"
+msgstr "拼接通道中的所有片段"
+
+#: operators/concatenate_strips.py:71
+msgid "Concatenate strips moving them back in time (default) or forward in time"
+msgstr "拼接片段，将其在时间上往回（默认）或往前移动"
+
+#: operators/import_local_footage.py:56
+msgid "Controls the duration of the imported image strip in seconds"
+msgstr "控制导入的图像片段的时长（秒）"
+
+#: operators/crossfade_add.py:36
+msgid "Crossfade Duration"
+msgstr "交叉淡化持续时间"
+
+#: operators/render_apply_preset.py:67
+msgid "Current scene"
+msgstr "当前场景"
+
+#: operators/preview_closest_cut.py:40
+msgid "Cut Frame Override"
+msgstr "切分帧覆盖"
+
+#: tools/trim.py:15
+msgid "Cut and trim strips with the mouse"
+msgstr "用鼠标切分和修剪片段"
+
+#: operators/mouse_trim_modal.py:92
+msgid "Cut only the strip under the mouse or all strips under the time cursor"
+msgstr "仅切分鼠标下的片段或时间光标下的所有片段"
+
+#: operators/scene_merge_from.py:31
+msgid "Delete Strip's scene"
+msgstr "删除片段的场景"
+
+#: operators/copy_selected_sequences.py:45
+msgid "Delete selected strips: acts like cut and paste"
+msgstr "删除选中的片段：效果如同剪切和粘贴"
+
+#: operators/copy_selected_sequences.py:45
+msgid "Delete selection"
+msgstr "删除选中项"
+
+#: operators/scene_merge_from.py:31
+msgid "Delete the SceneStrip's scene after the merging"
+msgstr "合并后删除场景片段的场景"
+
+#: operators/select_strips_under_cursor.py:28
+msgid "Deselect First"
+msgstr "先取消选择"
+
+#: operators/deselect_all_left_or_right.py:43
+msgid "Deselect based on the mouse position relative to the time cursor"
+msgstr "根据鼠标相对于时间光标的位置取消选择"
+
+#: operators/channel_offset.py:51
+#: operators/jump_time_offset.py:52
+msgid "Direction"
+msgstr "方向"
+
+#: addon_properties.py:12
+#: operators/playback_speed_set.py:34
+msgid "Double (2x)"
+msgstr "双倍（2x）"
+
+#: operators/swap_strips.py:38
+msgid "Down"
+msgstr "向下"
+
+#: operators/jump_time_offset.py:46
+#: operators/space_sequences.py:29
+msgid "Duration"
+msgstr "持续时间"
+
+#: operators/fade_add.py:41
+msgid "Duration of the fade in seconds"
+msgstr "淡化的持续时间（秒）"
+
+#: ui/menu_toolbar.py:93
+msgid "Edit"
+msgstr "编辑"
+
+#: operators/fade_add.py:41
+msgid "Fade Duration"
+msgstr "淡化持续时间"
+
+#: operators/fade_add.py:57
+msgid "Fade from the start of sequences under the time cursor to the current frame"
+msgstr "从时间光标下的序列起点淡化到当前帧"
+
+#: operators/fade_add.py:52
+msgid "Fade from the time cursor to the end of overlapping sequences"
+msgstr "从时间光标淡化到重叠序列的末尾"
+
+#: operators/fade_add.py:50
+msgid "Fade in"
+msgstr "淡入"
+
+#: operators/fade_add.py:49
+msgid "Fade in and out"
+msgstr "淡入淡出"
+
+#: operators/fade_add.py:50
+msgid "Fade in selected strips"
+msgstr "对选中片段淡入"
+
+#: operators/fade_add.py:47
+msgid "Fade in, out, or both in and out. Default is both"
+msgstr "淡入、淡出或淡入淡出。默认为淡入淡出"
+
+#: operators/fade_add.py:51
+msgid "Fade out"
+msgstr "淡出"
+
+#: operators/fade_add.py:51
+msgid "Fade out selected strips"
+msgstr "对选中片段淡出"
+
+#: operators/fade_add.py:49
+msgid "Fade selected strips in and out"
+msgstr "对选中片段淡入淡出"
+
+#: operators/fade_add.py:47
+msgid "Fade type"
+msgstr "淡化类型"
+
+#: ui/menu_toolbar.py:141
+msgid "File"
+msgstr "文件"
+
+#: operators/save_direct.py:40
+msgid "File saved"
+msgstr "文件已保存"
+
+#: operators/render_apply_preset.py:59
+msgid "Filename"
+msgstr "文件名"
+
+#: operators/select_related_strips.py:32
+msgid "Find All"
+msgstr "查找全部"
+
+#: operators/select_related_strips.py:32
+msgid "Find all related strips recursively so that you can copy the selection without getting an error from Blender"
+msgstr "递归查找所有相关片段，以便复制选中项时不会出现 Blender 错误"
+
+#: operators/render_apply_preset.py:61
+msgid "Folder"
+msgstr "文件夹"
+
+#: operators/toggle_waveforms.py:31
+msgid "Force the waveforms' visibility with On or Off,             or let Blender choose automatically"
+msgstr "用「开」或「关」强制波形可见性，或让 Blender 自动选择"
+
+#: operators/preview_closest_cut.py:40
+msgid "Force to preview around this frame"
+msgstr "强制预览此帧附近"
+
+#: operators/jump_time_offset.py:56
+msgid "Forward"
+msgstr "向前"
+
+#: operators/gap_remove.py:39
+#: operators/grab_sequence_handles.py:36
+msgid "Frame"
+msgstr "帧"
+
+#: operators/gap_remove.py:39
+msgid "Frame to remove gaps from, defaults at the time cursor"
+msgstr "要移除间隙的帧，默认为时间光标处"
+
+#: operators/value_offset.py:52
+msgid "Frames"
+msgstr "帧"
+
+#: operators/fade_add.py:52
+msgid "From playhead"
+msgstr "从播放头"
+
+#: operators/render_apply_preset.py:43
+msgid "Full HD mp4 with AAC audio, following recommendations from Youtube"
+msgstr "全高清 mp4，含 AAC 音频，遵循 Youtube 推荐设置"
+
+#: operators/render_apply_preset.py:48
+msgid "HD ready mp4 with high enough bitrate for Twitter and Facebook"
+msgstr "高清 mp4，比特率足够高，适合 Twitter 和 Facebook"
+
+#: operators/trim_left_or_right_handles.py:53
+msgid "Handle side to use for the snap"
+msgstr "用于吸附的控制柄侧"
+
+#: operators/speed_up_movie_strip.py:49
+msgid "How many times the footage gets sped up"
+msgstr "素材加速的倍数"
+
+#: operators/import_local_footage.py:51
+msgid "If False, the audio that comes with video files will not be imported"
+msgstr "若为假，则不会导入视频文件自带的音频"
+
+#: operators/mouse_trim_instantly.py:58
+msgid "If auto-select, cut linked strips if checked"
+msgstr "若为自动选择，勾选时切分链接的片段"
+
+#: operators/concatenate_strips.py:66
+msgid "If only one strip selected, concatenate the entire channel"
+msgstr "若只选中一个片段，则拼接整个通道"
+
+#: operators/gap_remove.py:29
+msgid "Ignore Locked Strips"
+msgstr "忽略锁定的片段"
+
+#: operators/import_local_footage.py:62
+msgid "Image Padding"
+msgstr "图像填充"
+
+#: operators/import_local_footage.py:56
+msgid "Image strip Length"
+msgstr "图像片段长度"
+
+#: operators/mouse_trim_modal.py:101
+msgid "In mouse or CONTEXT mode, always cut linked strips if this is checked"
+msgstr "在鼠标或上下文模式下，若勾选则始终切分链接的片段"
+
+#: operators/jump_time_offset.py:57
+#: operators/jump_to_cut.py:48
+msgid "Jump backward in time"
+msgstr "在时间上向后跳转"
+
+#: operators/jump_time_offset.py:52
+#: operators/jump_to_cut.py:43
+msgid "Jump direction, either forward or backward"
+msgstr "跳转方向，向前或向后"
+
+#: operators/jump_time_offset.py:56
+#: operators/jump_to_cut.py:47
+msgid "Jump forward in time"
+msgstr "在时间上向前跳转"
+
+#: operators/import_local_footage.py:51
+msgid "Keep Audio from Video Files"
+msgstr "保留视频文件中的音频"
+
+#: operators/channel_offset.py:65
+msgid "Keep selection offset"
+msgstr "保持选中偏移"
+
+#: operators/deselect_all_left_or_right.py:48
+#: operators/jump_to_cut.py:48
+msgid "Left"
+msgstr "左"
+
+#: operators/deselect_all_left_or_right.py:48
+msgid "Left of the time cursor"
+msgstr "时间光标左侧"
+
+#: operators/trim_left_or_right_handles.py:54
+#: operators/trim_three_point_edit.py:32
+msgid "Left side"
+msgstr "左侧"
+
+#: operators/toggle_waveforms.py:35
+msgid "Make the waveforms invisible"
+msgstr "使波形不可见"
+
+#: operators/toggle_waveforms.py:34
+msgid "Make the waveforms visible"
+msgstr "使波形可见"
+
+#: operators/expand_to_surrounding_cuts.py:37
+#: operators/trim_to_surrounding_cuts.py:44
+msgid "Margin to leave on either sides of the trim in seconds"
+msgstr "修剪两侧保留的边距（秒）"
+
+#: ui/menu_toolbar.py:124
+msgid "Marker"
+msgstr "标记"
+
+#: operators/deselect_all_left_or_right.py:43
+msgid "Mouse position"
+msgstr "鼠标位置"
+
+#: operators/gap_remove.py:44
+msgid "Move Time Cursor"
+msgstr "移动时间光标"
+
+#: operators/select_all_left_or_right.py:42
+msgid "Move strips back in time, to the left"
+msgstr "将片段在时间上向后移动，即向左"
+
+#: operators/select_all_left_or_right.py:43
+msgid "Move strips forward in time, to the right"
+msgstr "将片段在时间上向前移动，即向右"
+
+#: operators/channel_offset.py:54
+msgid "Move the selection 1 channel down"
+msgstr "将所选内容下移 1 个通道"
+
+#: operators/channel_offset.py:53
+msgid "Move the selection 1 channel up"
+msgstr "将所选内容上移 1 个通道"
+
+#: operators/value_offset.py:39
+msgid "Move the selection given frames or seconds"
+msgstr "按给定帧数或秒数移动所选内容"
+
+#: operators/value_offset.py:41
+msgid "Move the selection to the left"
+msgstr "将所选内容向左移动"
+
+#: operators/value_offset.py:42
+msgid "Move the selection to the right"
+msgstr "将所选内容向右移动"
+
+#: operators/channel_offset.py:51
+msgid "Move the sequences up or down"
+msgstr "将序列上移或下移"
+
+#: operators/gap_remove.py:44
+msgid "Move the time cursor when closing the gap"
+msgstr "关闭间隙时移动时间光标"
+
+#: operators/scene_create_from_selection.py:32
+msgid "Move to First Frame"
+msgstr "移动到第一帧"
+
+#: operators/value_offset.py:52
+msgid "Move with the value as frames"
+msgstr "以帧为单位移动"
+
+#: operators/value_offset.py:51
+msgid "Move with the value as seconds"
+msgstr "以秒为单位移动"
+
+#: operators/speed_up_movie_strip.py:66
+msgid "No Movie meta_strip or Metastrips selected. Operation cancelled"
+msgstr "未选择影片元片段或元片段。操作已取消"
+
+#: operators/markers_as_timecodes.py:35
+msgid "No markers found"
+msgstr "未找到标记"
+
+#: operators/import_local_footage.py:85
+msgid "No new files to import found"
+msgstr "未找到要导入的新文件"
+
+#: operators/toggle_selected_mute.py:53
+msgid "No sequences to toggle muted"
+msgstr "没有可切换静音的序列"
+
+#: addon_properties.py:11
+#: operators/playback_speed_set.py:33
+msgid "Normal (1x)"
+msgstr "正常 (1x)"
+
+#: operators/toggle_waveforms.py:35
+msgid "Off"
+msgstr "关闭"
+
+#: operators/value_offset.py:58
+msgid "Offset"
+msgstr "偏移"
+
+#: operators/value_offset.py:58
+msgid "Offset amount to apply"
+msgstr "要应用的偏移量"
+
+#: operators/toggle_waveforms.py:34
+msgid "On"
+msgstr "开启"
+
+#: operators/import_local_footage.py:62
+msgid "Padding added between imported image strips in seconds"
+msgstr "导入的图像片段之间添加的填充（秒）"
+
+#: addon_preferences.py:27
+msgid "Path to ffmpeg executable"
+msgstr "ffmpeg 可执行文件路径"
+
+#: addon_properties.py:9
+#: ui/menu_toolbar.py:34
+msgid "Playback"
+msgstr "播放"
+
+#: operators/render_apply_preset.py:41
+msgid "Preset"
+msgstr "预设"
+
+#: operators/render_apply_preset.py:41
+msgid "Preset to use"
+msgstr "要使用的预设"
+
+#: ui/menu_toolbar.py:169
+msgid "Preview"
+msgstr "预览"
+
+#: operators/preview_closest_cut.py:34
+msgid "Preview duration"
+msgstr "预览时长"
+
+#: operators/utils/info_progress_bar.py:36
+msgid "Progress"
+msgstr "进度"
+
+#: addon_preferences.py:55
+msgid "Proxy"
+msgstr "代理"
+
+#: operators/gap_remove.py:34
+msgid "Remove All"
+msgstr "全部移除"
+
+#: operators/delete_direct.py:41
+msgid "Remove Transitions"
+msgstr "移除过渡"
+
+#: operators/gap_remove.py:34
+msgid "Remove all gaps starting from the time cursor"
+msgstr "从时间光标开始移除所有间隙"
+
+#: operators/expand_to_surrounding_cuts.py:43
+#: operators/mouse_trim_instantly.py:63
+msgid "Remove gaps"
+msgstr "移除间隙"
+
+#: operators/gap_remove.py:29
+msgid "Remove gaps without moving locked strips"
+msgstr "移除间隙但不移动锁定的片段"
+
+#: operators/deselect_all_left_or_right.py:49
+#: operators/jump_to_cut.py:47
+msgid "Right"
+msgstr "右侧"
+
+#: operators/deselect_all_left_or_right.py:49
+msgid "Right of the time cursor"
+msgstr "时间光标右侧"
+
+#: operators/trim_left_or_right_handles.py:54
+#: operators/trim_three_point_edit.py:32
+msgid "Right side"
+msgstr "右侧"
+
+#: operators/trim_left_or_right_handles.py:59
+msgid "Ripple"
+msgstr "波纹"
+
+#: operators/concatenate_strips.py:76
+msgid "Ripple Edit"
+msgstr "波纹编辑"
+
+#: operators/concatenate_strips.py:76
+msgid "Ripple the time offset to strips after the concatenated one"
+msgstr "将时间偏移波纹到串联片段之后的片段"
+
+#: operators/render_apply_preset.py:80
+msgid "Save your file first"
+msgstr "请先保存文件"
+
+#: operators/value_offset.py:51
+msgid "Seconds"
+msgstr "秒"
+
+#: ui/menu_toolbar.py:79
+msgid "Select"
+msgstr "选择"
+
+#: operators/grab_closest_handle_or_cut.py:44
+msgid "Select Linked"
+msgstr "选择相连项"
+
+#: operators/mouse_trim_instantly.py:52
+#: operators/mouse_trim_modal.py:94
+msgid "Select all of the strips the time cursor overlaps"
+msgstr "选择时间光标重叠的所有片段"
+
+#: operators/toggle_waveforms.py:55
+msgid "Select at least one sound strip"
+msgstr "至少选择一个声音片段"
+
+#: operators/grab_closest_handle_or_cut.py:44
+msgid "Select strips that are linked in time"
+msgstr "选择在时间上链接的片段"
+
+#: operators/mouse_trim_instantly.py:49
+#: operators/mouse_trim_modal.py:92
+msgid "Selection mode"
+msgstr "选择模式"
+
+#: operators/cut_strips_under_cursor.py:29
+#: operators/deselect_all_left_or_right.py:39
+msgid "Side"
+msgstr "侧边"
+
+#: operators/trim_three_point_edit.py:31
+msgid "Side of the strip(s) to trim, either LEFT or RIGHT"
+msgstr "要修剪的片段侧边，可选 LEFT 或 RIGHT"
+
+#: operators/select_all_left_or_right.py:38
+msgid "Side to select"
+msgstr "要选择的一侧"
+
+#: operators/mouse_trim_instantly.py:51
+#: operators/mouse_trim_modal.py:95
+msgid "Smart"
+msgstr "智能"
+
+#: operators/trim_left_or_right_handles.py:53
+msgid "Snap side"
+msgstr "吸附侧"
+
+#: operators/playback_speed_set.py:31
+msgid "Speed"
+msgstr "速度"
+
+#: operators/speed_up_movie_strip.py:49
+msgid "Speed factor"
+msgstr "速度系数"
+
+#: operators/speed_up_movie_strip.py:52
+msgid "Speed up every VIDEO strip individually"
+msgstr "单独加速每个视频片段"
+
+#: ui/menu_toolbar.py:44
+msgid "Strip"
+msgstr "片段"
+
+#: operators/make_hold_frame.py:33
+msgid "Strip Duration"
+msgstr "片段时长"
+
+#: operators/scene_rename_with_strip.py:28
+msgid "Strip New Name"
+msgstr "片段新名称"
+
+#: operators/swap_strips.py:38
+msgid "The direction down from the selected strip"
+msgstr "从所选片段向下的方向"
+
+#: operators/swap_strips.py:33
+msgid "The direction to find the closest strip"
+msgstr "查找最近片段的方向"
+
+#: operators/swap_strips.py:37
+msgid "The direction up from the selected strip"
+msgstr "从所选片段向上的方向"
+
+#: operators/make_hold_frame.py:33
+msgid "The duration in seconds of the new strip, if 0.0 it will use the gap as its duration"
+msgstr "新片段的时长（秒）；若为 0.0，则使用间隙作为其时长"
+
+#: operators/crossfade_add.py:36
+msgid "The duration of the crossfade"
+msgstr "交叉淡化的时长"
+
+#: operators/jump_time_offset.py:46
+msgid "The length of the jump in seconds (default: 1.0)"
+msgstr "跳跃长度（秒，默认：1.0）"
+
+#: operators/scene_rename_with_strip.py:28
+msgid "The name both the SceneStrip and its source Scene will take"
+msgstr "SceneStrip 及其源场景将采用的名称"
+
+#: addon_properties.py:19
+msgid "The name of the active tab in the UI"
+msgstr "UI 中活动标签页的名称"
+
+#: operators/channel_offset.py:65
+msgid "The selected strips preserve their relative positions"
+msgstr "所选片段保持其相对位置"
+
+#: operators/deselect_all_left_or_right.py:39
+msgid "The side to deselect"
+msgstr "要取消选择的一侧"
+
+#: operators/scene_create_from_selection.py:32
+msgid "The strips will start at frame 1 on the new scene"
+msgstr "片段将在新场景中从第 1 帧开始"
+
+#: operators/space_sequences.py:29
+msgid "The time offset to apply to the strips"
+msgstr "要应用到片段的时间偏移"
+
+#: operators/trim_to_surrounding_cuts.py:72
+msgid "The trim margin is larger than the gap\nUse snap trim or reduce the margin"
+msgstr "修剪边距大于间隙\n请使用吸附修剪或减小边距"
+
+#: operators/markers_set_preview_in_between.py:34
+#: operators/markers_set_preview_in_between.py:41
+msgid "There are no markers. Operation cancelled."
+msgstr "没有标记。操作已取消。"
+
+#: operators/mouse_trim_instantly.py:52
+#: operators/mouse_trim_modal.py:94
+msgid "Time cursor"
+msgstr "时间光标"
+
+#: operators/concatenate_strips.py:71
+msgid "To Left"
+msgstr "向左"
+
+#: operators/fade_add.py:57
+msgid "To playhead"
+msgstr "到播放头"
+
+#: operators/value_offset.py:49
+msgid "Toggle between offset in frames or seconds"
+msgstr "在按帧或按秒的偏移之间切换"
+
+#: operators/toggle_selected_mute.py:38
+msgid "Toggle non selected sequences"
+msgstr "切换未选中的序列"
+
+#: operators/preview_closest_cut.py:34
+msgid "Total duration of the preview, in seconds"
+msgstr "预览的总时长，以秒为单位"
+
+#: ui/menu_toolbar.py:64
+msgid "Transition"
+msgstr "过渡"
+
+#: tools/trim.py:14
+#: ui/menu_toolbar.py:155
+msgid "Trim"
+msgstr "修剪"
+
+#: operators/meta_ungroup_and_trim.py:27
+msgid "Trim Content"
+msgstr "修剪内容"
+
+#: operators/expand_to_surrounding_cuts.py:37
+#: operators/trim_to_surrounding_cuts.py:44
+msgid "Trim margin"
+msgstr "修剪边距"
+
+#: operators/trim_three_point_edit.py:31
+msgid "Trim side"
+msgstr "修剪侧"
+
+#: operators/channel_offset.py:60
+msgid "Trim strips"
+msgstr "修剪片段"
+
+#: operators/channel_offset.py:60
+msgid "Trim strips to make space in the target channel"
+msgstr "修剪片段以在目标通道中腾出空间"
+
+#: operators/meta_ungroup_and_trim.py:27
+msgid "Trim the content of the Meta Strips to their extents"
+msgstr "将元片段的内容修剪到其边界范围"
+
+#: addon_properties.py:13
+#: operators/playback_speed_set.py:35
+msgid "Triple (3x)"
+msgstr "三倍（3x）"
+
+#: operators/swap_strips.py:37
+msgid "Up"
+msgstr "向上"
+
+#: operators/mouse_trim_instantly.py:58
+#: operators/mouse_trim_modal.py:101
+msgid "Use linked time"
+msgstr "使用链接时间"
+
+#: operators/render_apply_preset.py:61
+msgid "Use the folder's name as the exported file name"
+msgstr "使用文件夹名称作为导出文件名"
+
+#: operators/render_apply_preset.py:62
+msgid "Use the project's .blend file name as the exported file name"
+msgstr "使用项目的 .blend 文件名作为导出文件名"
+
+#: operators/render_apply_preset.py:67
+msgid "Use the scene's name as the exported file name"
+msgstr "使用场景名称作为导出文件名"
+
+#: operators/toggle_selected_mute.py:38
+msgid "Use unselected"
+msgstr "使用未选中的"
+
+#: operators/mouse_trim_instantly.py:51
+#: operators/mouse_trim_modal.py:95
+msgid "Uses the selection if possible, else uses the other modes"
+msgstr "尽可能使用选中项，否则使用其他模式"
+
+#: operators/value_offset.py:49
+msgid "Value Type"
+msgstr "值类型"
+
+#: operators/toggle_waveforms.py:31
+msgid "Waveform visibility"
+msgstr "波形可见性"
+
+#: operators/expand_to_surrounding_cuts.py:43
+#: operators/mouse_trim_instantly.py:63
+msgid "When trimming the sequences, remove gaps automatically"
+msgstr "修剪序列时自动移除间隙"
+
+#: operators/crossfade_add.py:39
+msgid "When true, moves the second strip so the crossfade is of the length set in 'Crossfade Length'"
+msgstr "启用时，移动第二个片段，使交叉淡化长度与「交叉淡化长度」中设置的一致"
+
+#: operators/marker_snap_to_cursor.py:42
+msgid "You can only snap 1 marker at a time. Operation cancelled."
+msgstr "一次只能吸附 1 个标记。操作已取消。"
+
+#: operators/open_project_directory.py:38
+msgid "You have to save your project first."
+msgstr "请先保存项目。"
+
+#: ui/menu_toolbar.py:30
+msgctxt "Operator"
+msgid "Apply Render Preset"
+msgstr "应用渲染预设"
+
+#: ui/menu_contextual.py:46
+msgctxt "Operator"
+msgid "Auto crossfade"
+msgstr "自动交叉淡化"
+
+#: ui/menu_toolbar.py:103
+msgctxt "Operator"
+msgid "Copy Selected"
+msgstr "复制选中项"
+
+#: ui/menu_contextual.py:33
+msgctxt "Operator"
+msgid "Edit crossfade"
+msgstr "编辑交叉淡化"
+
+#: ui/menu_contextual.py:39
+msgctxt "Operator"
+msgid "Fade strips"
+msgstr "淡化片段"
+
+#: ui/menu_contextual.py:23
+#: ui/menu_contextual.py:65
+msgctxt "Operator"
+msgid "Import local footage"
+msgstr "导入本地素材"
+
+#: ui/menu_toolbar.py:145
+msgctxt "Operator"
+msgid "Open Project Directory"
+msgstr "打开项目目录"
+
+#: ui/menu_contextual.py:68
+msgctxt "Operator"
+msgid "Render video for the web"
+msgstr "渲染网络视频"
+
+#: ui/menu_contextual.py:58
+msgctxt "Operator"
+msgid "Ripple delete"
+msgstr "波纹删除"
+
+#: ui/menu_contextual.py:19
+msgctxt "Operator"
+msgid "Save as"
+msgstr "另存为"
+
+#: ui/menu_contextual.py:61
+msgctxt "Operator"
+msgid "Snap selection"
+msgstr "吸附选中项"

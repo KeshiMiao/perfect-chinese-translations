@@ -1,0 +1,197 @@
+# perfect-chinese: 1
+# id: geonode_shapekeys
+# kind: addon
+# module: bl_ext.blender_org.geonode_shapekeys
+# name: GeoNode Shape Keys
+# name_zh: 几何节点形态键
+# translator: KeshiMiao
+# category: Rigging
+# supported_versions: >=5.0.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: operators.py:58
+msgid "Absolute"
+msgstr "绝对"
+
+#: operators.py:568
+msgid "Affected objects:"
+msgstr "受影响的物体："
+
+#: __init__.py:11
+msgid "Animation"
+msgstr "动画"
+
+#: prefs.py:30
+msgid "Append"
+msgstr "追加"
+
+#: prefs.py:30
+msgid "Append the nodes, making it local to the currently opened blend file"
+msgstr "追加节点，使其成为当前打开的 blend 文件的本地数据"
+
+#: ui.py:44
+msgid "Error: Modifier was removed."
+msgstr "错误：修改器已被移除。"
+
+#: __init__.py:11
+#: ui.py:100
+msgid "GeoNode Shape Keys"
+msgstr "GeoNode 形态键"
+
+#: operators.py:543
+msgid "Influence"
+msgstr "影响"
+
+#: operators.py:543
+msgid "Influence to set on all affected objects"
+msgstr "为所有受影响物体设置的影响值"
+
+#: operators.py:525
+msgid "Insert Keyframe"
+msgstr "插入关键帧"
+
+#: operators.py:525
+msgid "Insert a keyframe on all affected values"
+msgstr "为所有受影响的值插入关键帧"
+
+#: prefs.py:35
+msgid "Link"
+msgstr "关联"
+
+#: prefs.py:35
+msgid "Link the node tree from the specified blend file"
+msgstr "从指定的 blend 文件关联节点树"
+
+#: props.py:72
+msgid "Name of the modifier, storage object, etc. Renaming it renames those as well"
+msgstr "修改器、存储物体等的名称。重命名时这些也会一并重命名"
+
+#: operators.py:46
+msgid "Name to identify this shape (used in the shape key and modifier names)"
+msgstr "用于标识此形态的名称（用于形态键和修改器名称）"
+
+#: prefs.py:22
+msgid "No Alt Key"
+msgstr "无 Alt 键"
+
+#: operators.py:481
+msgid "No storage object to swap to."
+msgstr "没有可切换的存储物体。"
+
+#: operators.py:508
+msgid "No storage or target to swap to."
+msgstr "没有可切换的存储物体或目标物体。"
+
+#: operators.py:91
+msgid "Node tree file not found. Check your Add-On preferences."
+msgstr "未找到节点树文件。请检查您的插件偏好设置。"
+
+#: prefs.py:38
+msgid "Nodes File"
+msgstr "节点文件"
+
+#: prefs.py:26
+msgid "Nodes Import Method"
+msgstr "节点导入方式"
+
+#: prefs.py:38
+msgid "Path to the file containing the GeoNode ShapeKey nodes.\nDefault path points to a file packaged with the add-on"
+msgstr "包含 GeoNode 形态键节点的文件路径。\n默认路径指向插件自带的文件"
+
+#: operators.py:59
+msgid "Relative"
+msgstr "相对"
+
+#: operators.py:301
+msgid "Remove From All"
+msgstr "从全部移除"
+
+#: operators.py:301
+msgid "Remove this shape from all affected objects, and delete the local object"
+msgstr "从所有受影响物体中移除此形态，并删除本地物体"
+
+#: operators.py:421
+msgid "Sculpt"
+msgstr "雕刻"
+
+#: __init__.py:11
+msgid "Sculpt on linked meshes, or on top of the modifier stack of local meshes"
+msgstr "在关联网格上雕刻，或在本地网格修改器堆栈顶部雕刻"
+
+#: operators.py:46
+msgid "Shape Name"
+msgstr "形态名称"
+
+#: props.py:80
+msgid "Storage Object"
+msgstr "存储物体"
+
+#: operators.py:355
+msgid "Storage object was not found."
+msgstr "未找到存储物体。"
+
+#: props.py:124
+msgid "Target Object"
+msgstr "目标物体"
+
+#: operators.py:54
+msgid "Transfer Mode"
+msgstr "传递模式"
+
+#: operators.py:58
+msgid "Transfers the deformation as an absolute shape"
+msgstr "将变形作为绝对形态传递"
+
+#: operators.py:59
+msgid "Transfers the deformation relative to the base shape"
+msgstr "相对于基础形态传递变形"
+
+#: operators.py:50
+msgid "UV Map to use for the Tangent Space transfer mode. All selected objects must have a map with this name"
+msgstr "切线空间传递模式使用的 UV 贴图。所有选中的物体都必须具有此名称的贴图"
+
+#: operators.py:50
+msgid "UVMap"
+msgstr "UVMap"
+
+#: operators.py:422
+msgid "Weight Paint"
+msgstr "权重绘制"
+
+#: prefs.py:22
+msgid "When trying to change a GeoNode shape key on multiple objects at once, you can normally hold the Alt key while you click and drag on the value. If you don't have an Alt key, you can enable this to show a button next to the slider with this behaviour"
+msgstr "当尝试一次更改多个物体上的 GeoNode 形态键时，通常可以按住 Alt 键同时点击并拖动数值。如果您没有 Alt 键，可启用此项，在滑块旁显示具有相同行为的按钮"
+
+#: prefs.py:26
+msgid "Whether the Geometry Nodes should be linked or appended"
+msgstr "几何节点应关联还是追加"
+
+#: operators.py:42
+#: operators.py:298
+msgctxt "Operator"
+msgid "Add GeoNode Shape Key"
+msgstr "添加 GeoNode 形态键"
+
+#: operators.py:518
+msgctxt "Operator"
+msgid "Change Influence of All Selected"
+msgstr "更改所有选中项的影响"
+
+#: operators.py:613
+msgctxt "Operator"
+msgid "Ensure GNSK UVMap"
+msgstr "确保 GNSK UVMap"
+
+#: operators.py:582
+msgctxt "Operator"
+msgid "Select Objects"
+msgstr "选择物体"
+
+#: operators.py:413
+msgctxt "Operator"
+msgid "Switch to Render Objects"
+msgstr "切换到渲染物体"

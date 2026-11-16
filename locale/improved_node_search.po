@@ -1,0 +1,405 @@
+# perfect-chinese: 1
+# id: improved_node_search
+# kind: addon
+# module: bl_ext.blender_org.improved_node_search
+# name: Improved Node Search
+# name_zh: 节点搜索增强
+# translator: KeshiMiao
+# category: Node
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: node_search/search.py:315
+msgid "\"Search in Attributes\""
+msgstr "“在属性中搜索”"
+
+#: node_search/search.py:327
+msgid "\"Search in Sockets\""
+msgstr "“在插槽中搜索”"
+
+#: node_search/search.py:302
+msgid "\"Search\""
+msgstr "“搜索”"
+
+#: node_search/search.py:310
+msgid "- Exact match option will match the whole string, otherwise partial matches are found."
+msgstr "- 精确匹配选项将匹配整个字符串，否则会查找部分匹配。"
+
+#: node_search/search.py:309
+msgid "- Make sure to handle special characters properly in regex mode."
+msgstr "- 请确保在正则表达式模式下正确处理特殊字符。"
+
+#: node_search/search.py:311
+msgid "- Match case option makes the search case sensitive."
+msgstr "- 区分大小写选项使搜索区分大小写。"
+
+#: node_search/search.py:317
+msgid "- Provide the attribute name in the 'Attribute Search' field."
+msgstr "- 在“属性搜索”字段中填写属性名称。"
+
+#: node_search/search.py:329
+msgid "- Provide the socket name or type in the 'Socket Search' field."
+msgstr "- 在“插槽搜索”字段中填写插槽名称或类型。"
+
+#: node_search/search.py:320
+#: node_search/search.py:333
+msgid "- This adds an additional filter on top of the main search criteria, allowing more refined search."
+msgstr "- 这会在主搜索条件之上增加额外筛选，可实现更精细的搜索。"
+
+#: node_search/search.py:321
+msgid "- To search only by attribute, disable search options in nodes' 'Search in Name', 'Search in Label', etc."
+msgstr "- 若仅按属性搜索，请关闭节点中的“在名称中搜索”“在标签中搜索”等搜索选项。"
+
+#: node_search/search.py:334
+msgid "- To search only by sockets, disable search options in nodes' 'Search in Name', 'Search in Label', etc."
+msgstr "- 若仅按插槽搜索，请关闭节点中的“在名称中搜索”“在标签中搜索”等搜索选项。"
+
+#: node_search/search.py:316
+msgid "- Toggle 'Search in Attributes' to filter nodes that use a specific attribute name."
+msgstr "- 开启“在属性中搜索”可按使用了特定属性名称来筛选节点。"
+
+#: node_search/search.py:328
+msgid "- Toggle 'Search in Sockets' to filter nodes by their sockets."
+msgstr "- 开启“在插槽中搜索”可按节点的插槽筛选节点。"
+
+#: node_search/search.py:303
+msgid "- Type your search term and choose what to search in (Name, Label, Node Type)."
+msgstr "- 输入搜索词并选择搜索范围（名称、标签、节点类型）。"
+
+#: node_search/search.py:330
+msgid "- Use the toggles to specify whether to search by socket name, type, in inputs or in outputs."
+msgstr "- 使用开关指定按插槽名称、类型、输入或输出搜索。"
+
+#: node_search/search.py:304
+msgid "- You can also enable special filters to find disconnected nodes, unused nodes"
+msgstr "- 你也可以启用特殊筛选来查找未连接的节点、未使用的节点"
+
+#: node_search/search.py:308
+msgid "- You can use regular expressions by toggling the regex option."
+msgstr "- 开启正则表达式选项即可使用正则表达式。"
+
+#: node_search/search.py:307
+msgid "Additional options"
+msgstr "附加选项"
+
+#: node_search/prefs.py:35
+msgid "Attenuation of the border color"
+msgstr "边框颜色的衰减"
+
+#: node_search/prefs.py:101
+msgid "Attribute Search"
+msgstr "属性搜索"
+
+#: node_search/prefs.py:35
+msgid "Border Attenuation"
+msgstr "边框衰减"
+
+#: node_search/prefs.py:43
+msgid "Border Size (px)"
+msgstr "边框大小（像素）"
+
+#: node_search/search.py:319
+#: node_search/search.py:332
+msgid "Combination with other search options"
+msgstr "与其他搜索选项的组合"
+
+#: node_search/search.py:642
+msgid "Display"
+msgstr "显示"
+
+#: node_search/prefs.py:20
+msgid "Exact Match"
+msgstr "精确匹配"
+
+#: node_search/prefs.py:25
+msgid "Highlight Color"
+msgstr "高亮颜色"
+
+#: node_search/prefs.py:25
+msgid "Highlight color of the found nodes overlay"
+msgstr "找到的节点叠加层的高亮颜色"
+
+#: node_search/prefs.py:43
+msgid "How large is the attenuated border in pixels"
+msgstr "衰减边框的大小（像素）"
+
+#: node_search/prefs.py:96
+msgid "If toggled, \"Attribute Search\" will be used to filter nodes by usage of specified attribute name"
+msgstr "若开启，将使用“属性搜索”按指定属性名称的使用情况筛选节点"
+
+#: node_search/prefs.py:107
+msgid "If toggled, \"Socket Search\" will be used to filter nodes by their sockets"
+msgstr "若开启，将使用“插槽搜索”按节点的插槽筛选节点"
+
+#: node_search/prefs.py:121
+msgid "If toggled, the \"Socket Search\" will include socket names"
+msgstr "若开启，“插槽搜索”将包含插槽名称"
+
+#: node_search/prefs.py:116
+msgid "If toggled, the \"Socket Search\" will include socket types"
+msgstr "若开启，“插槽搜索”将包含插槽类型"
+
+#: node_search/prefs.py:79
+msgid "If toggled, the search will include nodes that are not connected to anything"
+msgstr "若开启，搜索将包含未连接到任何内容的节点"
+
+#: node_search/prefs.py:84
+msgid "If toggled, the search will include nodes that have missing images"
+msgstr "若开启，搜索将包含图像缺失的节点"
+
+#: node_search/prefs.py:89
+msgid "If toggled, the search will include nodes that have missing node groups"
+msgstr "若开启，搜索将包含节点组缺失的节点"
+
+#: node_search/prefs.py:20
+msgid "If toggled, then only exact matches of the input will be searched"
+msgstr "若开启，则仅搜索与输入完全匹配的内容"
+
+#: node_search/prefs.py:15
+msgid "If toggled, then the search will be case sensitive"
+msgstr "若开启，则搜索区分大小写"
+
+#: node_search/prefs.py:10
+msgid "If toggled, then the search will be done using regular expressions"
+msgstr "若开启，则使用正则表达式进行搜索"
+
+#: node_search/prefs.py:72
+msgid "If toggled, then we will search also the inside of node groups in current node tree"
+msgstr "若开启，还会搜索当前节点树中节点组的内部"
+
+#: node_search/prefs.py:62
+msgid "If toggled, then what is in \"Search\" will be searched in node \"Label\""
+msgstr "若开启，“搜索”中的内容将在节点的“标签”中搜索"
+
+#: node_search/prefs.py:57
+msgid "If toggled, then what is in \"Search\" will be searched in node \"Name\""
+msgstr "若开启，“搜索”中的内容将在节点的“名称”中搜索"
+
+#: node_search/prefs.py:67
+msgid "If toggled, then what is in \"Search\" will be searched in node \"Node Type\" (.bl_idname)"
+msgstr "若开启，“搜索”中的内容将在节点的“节点类型”（.bl_idname）中搜索"
+
+#: node_search/__init__.py:9
+msgid "Improved Node Search"
+msgstr "增强节点搜索"
+
+#: node_search/search.py:298
+msgid "Improved Node Search Help"
+msgstr "增强节点搜索帮助"
+
+#: node_search/search.py:596
+msgid "Improved Search"
+msgstr "增强搜索"
+
+#: node_search/prefs.py:126
+msgid "Include input sockets in the \"Socket Search\""
+msgstr "在“插槽搜索”中包含输入插槽"
+
+#: node_search/prefs.py:131
+msgid "Include output sockets in the \"Socket Search\""
+msgstr "在“插槽搜索”中包含输出插槽"
+
+#: node_search/prefs.py:15
+msgid "Match Case"
+msgstr "区分大小写"
+
+#: node_search/search.py:477
+msgid "No nodes found"
+msgstr "未找到节点"
+
+#: node_search/search.py:435
+msgid "No search input provided, provide search input"
+msgstr "未提供搜索输入，请提供搜索输入"
+
+#: node_search/__init__.py:9
+msgid "Node"
+msgstr "节点"
+
+#: node_search/search.py:372
+msgid "Node search only works in node editors"
+msgstr "节点搜索仅在节点编辑器中可用"
+
+#: node_search/search.py:358
+msgid "Search"
+msgstr "搜索"
+
+#: node_search/prefs.py:79
+msgid "Search Disconnected Nodes"
+msgstr "搜索未连接的节点"
+
+#: node_search/prefs.py:84
+msgid "Search Missing Image Nodes"
+msgstr "搜索图像缺失的节点"
+
+#: node_search/prefs.py:89
+msgid "Search Missing Node Groups"
+msgstr "搜索缺失的节点组"
+
+#: node_search/prefs.py:121
+msgid "Search by Socket Name"
+msgstr "按插槽名称搜索"
+
+#: node_search/prefs.py:116
+msgid "Search by Socket Type"
+msgstr "按插槽类型搜索"
+
+#: node_search/prefs.py:62
+msgid "Search in \"Label\""
+msgstr "在“标签”中搜索"
+
+#: node_search/prefs.py:57
+msgid "Search in \"Name\""
+msgstr "在“名称”中搜索"
+
+#: node_search/prefs.py:67
+msgid "Search in \"Node Type\""
+msgstr "在“节点类型”中搜索"
+
+#: node_search/prefs.py:96
+msgid "Search in Attributes"
+msgstr "在属性中搜索"
+
+#: node_search/prefs.py:126
+msgid "Search in Input Sockets"
+msgstr "在输入插槽中搜索"
+
+#: node_search/prefs.py:72
+msgid "Search in Node Groups"
+msgstr "在节点组中搜索"
+
+#: node_search/prefs.py:131
+msgid "Search in Output Sockets"
+msgstr "在输出插槽中搜索"
+
+#: node_search/prefs.py:107
+msgid "Search in Sockets"
+msgstr "在插槽中搜索"
+
+#: node_search/prefs.py:50
+msgid "Size of numbers reffering to occurances in a node group in pixels"
+msgstr "表示节点组中出现次数的数字大小（像素）"
+
+#: node_search/prefs.py:112
+msgid "Socket Search"
+msgstr "插槽搜索"
+
+#: node_search/prefs.py:50
+msgid "Text Size (px)"
+msgstr "文字大小（像素）"
+
+#: node_search/search.py:358
+msgid "Text to search for based on other options"
+msgstr "根据其他选项要搜索的文本"
+
+#: node_search/prefs.py:101
+msgid "Text to search inside attributes when \"Filter by Attribute\" is toggled"
+msgstr "开启“按属性筛选”时在属性内搜索的文本"
+
+#: node_search/prefs.py:112
+msgid "Text to search inside sockets when \"Search in Sockets\" is toggled"
+msgstr "开启“在插槽中搜索”时在插槽内搜索的文本"
+
+#: node_search/search.py:338
+msgid "Thanks for using the extension, feel free to reach out on GitHub."
+msgstr "感谢使用本扩展，欢迎在 GitHub 上联系我们。"
+
+#: node_search/search.py:323
+msgid "This works only in Geometry Nodes editor."
+msgstr "此功能仅在几何节点编辑器中可用。"
+
+#: node_search/search.py:592
+msgid "Tool"
+msgstr "工具"
+
+#: node_search/prefs.py:10
+msgid "Use Regular Expressions"
+msgstr "使用正则表达式"
+
+#: node_search/search.py:305
+msgid "or nodes with missing images/groups."
+msgstr "或图像/节点组缺失的节点。"
+
+#: node_search/search.py:428
+msgctxt "Operator"
+msgid "Clear Previous Search"
+msgstr "清除上一次搜索"
+
+#: node_search/search.py:519
+msgctxt "Operator"
+msgid "Clear Search"
+msgstr "清除搜索"
+
+#: node_search/search.py:520
+msgctxt "Operator"
+msgid "Clear the search results"
+msgstr "清除搜索结果"
+
+#: node_search/search.py:554
+msgctxt "Operator"
+msgid "Cycle Found Nodes"
+msgstr "循环切换找到的节点"
+
+#: node_search/search.py:555
+msgctxt "Operator"
+msgid "Go to the next or previous found node"
+msgstr "转到下一个或上一个找到的节点"
+
+#: node_search/search.py:627
+msgctxt "Operator"
+msgid "Next"
+msgstr "下一个"
+
+#: node_search/search.py:231
+msgctxt "Operator"
+msgid "Overlay Search Results"
+msgstr "叠加显示搜索结果"
+
+#: node_search/search.py:624
+msgctxt "Operator"
+msgid "Previous"
+msgstr "上一个"
+
+#: node_search/search.py:354
+#: node_search/search.py:606
+msgctxt "Operator"
+msgid "Search"
+msgstr "搜索"
+
+#: node_search/search.py:355
+msgctxt "Operator"
+msgid "Search for nodes in the current node tree based on several criteria"
+msgstr "按多种条件在当前节点树中搜索节点"
+
+#: node_search/search.py:620
+msgctxt "Operator"
+msgid "Select Found"
+msgstr "选择找到的节点"
+
+#: node_search/search.py:535
+msgctxt "Operator"
+msgid "Select Found Nodes"
+msgstr "选择找到的节点"
+
+#: node_search/search.py:536
+msgctxt "Operator"
+msgid "Select all found nodes"
+msgstr "选择所有找到的节点"
+
+#: node_search/search.py:292
+msgctxt "Operator"
+msgid "Show Help"
+msgstr "显示帮助"
+
+#: node_search/search.py:293
+msgctxt "Operator"
+msgid "Show help about using the Improved Node Search"
+msgstr "显示 Improved Node Search 的使用帮助"
+
+#: node_search/search.py:232
+msgctxt "Operator"
+msgid "Toggle the visual display of the search results"
+msgstr "切换搜索结果的显示"

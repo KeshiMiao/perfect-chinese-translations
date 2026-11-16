@@ -1,0 +1,297 @@
+# perfect-chinese: 1
+# id: bake_shape_keys
+# kind: addon
+# module: bl_ext.blender_org.bake_shape_keys
+# name: Bake Shape Keys
+# name_zh: 烘焙形态键
+# translator: KeshiMiao
+# category: Animation
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: operators/objects.py:48
+msgid "Axis to move the duplicated objects on"
+msgstr "用于移动重复物体的轴"
+
+#: operators/bake.py:36
+msgid "Bake between frame range start and end as defined in scene properties"
+msgstr "在场景属性中定义的帧范围起止之间烘焙"
+
+#: operators/duplicate.py:36
+msgid "Basis shape key can't be duplicated"
+msgstr "基础形态键无法复制"
+
+#: operators/merge.py:47
+#: operators/merge.py:139
+msgid "Basis shape key can't be merged with anything"
+msgstr "基础形态键无法与任何形态键合并"
+
+#: operators/split.py:37
+msgid "Basis shape key can't be split"
+msgstr "基础形态键无法拆分"
+
+#: operators/bake.py:57
+msgid "Constant Interpolation"
+msgstr "常量插值"
+
+#: operators/copy.py:20
+msgid "Copy Values"
+msgstr "复制值"
+
+#: operators/copy.py:20
+msgid "Copy shape key values as well"
+msgstr "同时复制形态键值"
+
+#: operators/objects.py:18
+msgid "Delete Duplicates"
+msgstr "删除重复项"
+
+#: operators/merge.py:29
+#: operators/merge.py:121
+msgid "Direction"
+msgstr "方向"
+
+#: operators/objects.py:56
+msgid "Distance to move each object by"
+msgstr "每个物体的移动距离"
+
+#: operators/merge.py:32
+#: operators/merge.py:124
+msgid "Down"
+msgstr "向下"
+
+#: operators/objects.py:37
+msgid "Duplicate object only on keyframed frames instead of on every frame that has different shape key values"
+msgstr "仅在有关键帧的帧上复制物体，而不是在形态键值不同的每一帧上复制"
+
+#: operators/bake.py:46
+#: operators/objects.py:28
+msgid "End Frame"
+msgstr "结束帧"
+
+#: operators/bake.py:124
+#: operators/objects.py:192
+msgid "Frame Range"
+msgstr "帧范围"
+
+#: operators/objects.py:63
+msgid "Hide Duplicates"
+msgstr "隐藏重复项"
+
+#: operators/objects.py:18
+msgid "If duplicated object is exact copy of previous one it will be deleted automatically"
+msgstr "如果复制的物体与上一个完全相同，将自动删除"
+
+#: operators/objects.py:63
+msgid "If enabled collection containing newly created objects will be hidden in the viewport"
+msgstr "启用后，包含新建物体的集合将在视图中隐藏"
+
+#: operators/objects.py:43
+msgid "If enabled duplicated objects will have same position as original. Otherwise they'll move along the selected axis"
+msgstr "启用后，复制的物体与原物体位置相同。否则将沿所选轴移动"
+
+#: operators/bake.py:57
+msgid "Inserted keyframes will have constant interpolation between them"
+msgstr "插入的关键帧之间将使用常量插值"
+
+#: operators/copy.py:15
+msgid "Instead of creating new shape keys, operator will transfer vertex positions and shape key values\nto existing shape keys on target object with same names as ones on source objects"
+msgstr "不创建新的形态键，而是将顶点位置和形态键值传输到目标物体上与源物体同名的现有形态键"
+
+#: operators/objects.py:43
+msgid "Keep Position"
+msgstr "保持位置"
+
+#: operators/objects.py:37
+msgid "Keyframes Only"
+msgstr "仅关键帧"
+
+#: ui.py:56
+msgid "Merge"
+msgstr "合并"
+
+#: ui.py:51
+msgid "Merge Shape Keys"
+msgstr "合并形态键"
+
+#: operators/objects.py:48
+msgid "Move on Axis"
+msgstr "沿轴移动"
+
+#: operators/objects.py:51
+msgid "Move on X axis"
+msgstr "沿 X 轴移动"
+
+#: operators/objects.py:52
+msgid "Move on Y axis"
+msgstr "沿 Y 轴移动"
+
+#: operators/objects.py:53
+msgid "Move on Z axis"
+msgstr "沿 Z 轴移动"
+
+#: operators/merge.py:51
+#: operators/merge.py:143
+msgid "No shape keys below to merge with"
+msgstr "下方没有可合并的形态键"
+
+#: operators/split.py:41
+msgid "Nothing is selected in edit mode"
+msgstr "编辑模式下未选择任何内容"
+
+#: operators/objects.py:56
+msgid "Offset"
+msgstr "偏移"
+
+#: operators/copy.py:15
+msgid "Only for Existing Keys"
+msgstr "仅限现有形态键"
+
+#: operators/bake.py:36
+msgid "Scene Frame Range"
+msgstr "场景帧范围"
+
+#: operators/bake.py:113
+msgid "Shape key action successfully baked for selected object(s)"
+msgstr "已成功为所选物体烘焙形态键动作"
+
+#: operators/bake.py:41
+#: operators/objects.py:24
+msgid "Start Frame"
+msgstr "起始帧"
+
+#: operators/bake.py:51
+#: operators/objects.py:32
+msgid "Step"
+msgstr "步长"
+
+#: operators/merge.py:31
+#: operators/merge.py:123
+msgid "Top"
+msgstr "向上"
+
+#: operators/objects.py:51
+msgid "X"
+msgstr "X"
+
+#: operators/objects.py:52
+msgid "Y"
+msgstr "Y"
+
+#: operators/objects.py:53
+msgid "Z"
+msgstr "Z"
+
+#: operators/bake.py:32
+msgctxt "Operator"
+msgid "Bake Shape Key Action"
+msgstr "烘焙形态键动作"
+
+#: operators/copy.py:10
+msgctxt "Operator"
+msgid "Copy Shape Keys"
+msgstr "复制形态键"
+
+#: operators/objects.py:14
+msgctxt "Operator"
+msgid "Creates new object for every frame that has different Shape Key values within the selected frame range.\nCan be used to turn keyframed mesh into separate objects.\nDuplicated meshes will be given unique name for origanizational purposes"
+msgstr "在所选帧范围内，为形态键值不同的每一帧创建新物体。\n可用于将有关键帧的网格转换为独立物体。\n为便于管理，复制的网格将获得唯一名称"
+
+#: operators/duplicate.py:21
+msgctxt "Operator"
+msgid "Duplicate Shape Key (with Animation)"
+msgstr "复制形态键（含动画）"
+
+#: operators/bake.py:13
+msgctxt "Operator"
+msgid "Insert Keyframe for All Shape Keys"
+msgstr "为所有形态键插入关键帧"
+
+#: ui.py:19
+msgctxt "Operator"
+msgid "Insert Keyframe for Shape Keys"
+msgstr "为形态键插入关键帧"
+
+#: operators/bake.py:33
+msgctxt "Operator"
+msgid "Insert keyframes for all shape keys on selected objects on every frame within frame range"
+msgstr "在帧范围内的每一帧为所选物体的所有形态键插入关键帧"
+
+#: ui.py:30
+msgctxt "Operator"
+msgid "Keyframe All Shape Keys"
+msgstr "为所有形态键插入关键帧"
+
+#: operators/bake.py:14
+msgctxt "Operator"
+msgid "Keyframe all shape keys of the active object"
+msgstr "为活动物体的所有形态键插入关键帧"
+
+#: operators/duplicate.py:22
+msgctxt "Operator"
+msgid "Make a duplicated copy of an active shape key with it's animation & drivers"
+msgstr "复制活动形态键及其动画与驱动器"
+
+#: ui.py:63
+msgctxt "Operator"
+msgid "Merge Down"
+msgstr "向下合并"
+
+#: ui.py:62
+msgctxt "Operator"
+msgid "Merge Down (All the Way)"
+msgstr "向下合并（全部）"
+
+#: operators/merge.py:115
+msgctxt "Operator"
+msgid "Merge Shape Keys"
+msgstr "合并形态键"
+
+#: operators/merge.py:23
+msgctxt "Operator"
+msgid "Merge Shape Keys (All the Way)"
+msgstr "合并形态键（全部）"
+
+#: ui.py:60
+msgctxt "Operator"
+msgid "Merge Up"
+msgstr "向上合并"
+
+#: ui.py:61
+msgctxt "Operator"
+msgid "Merge Up (All the Way)"
+msgstr "向上合并（全部）"
+
+#: operators/merge.py:24
+msgctxt "Operator"
+msgid "Merge active shape key with all other shape keys above or below it.\nWARNING: If shape key values are animated, merged shape key will inherit the animation of active key.\nRest of the animation will be lost, as well as other properties from merged shape keys"
+msgstr "将活动形态键与其上方或下方的所有其他形态键合并。\n警告：如果形态键值已制作动画，合并后的形态键将继承活动键的动画。\n其余动画以及被合并形态键的其他属性都将丢失"
+
+#: operators/merge.py:116
+msgctxt "Operator"
+msgid "Merge active shape key with shape key above or below it.\nWARNING: If shape key values are animated, merged shape key will inherit the animation of active key.\nRest of the animation will be lost, as well as other properties from merged shape keys"
+msgstr "将活动形态键与其上方或下方的形态键合并。\n警告：如果形态键值已制作动画，合并后的形态键将继承活动键的动画。\n其余动画以及被合并形态键的其他属性都将丢失"
+
+#: operators/objects.py:13
+msgctxt "Operator"
+msgid "Objects from Shape Keys"
+msgstr "从形态键创建物体"
+
+#: operators/split.py:22
+msgctxt "Operator"
+msgid "Split Shape Key"
+msgstr "拆分形态键"
+
+#: operators/split.py:23
+msgctxt "Operator"
+msgid "Split active shape key into two parts based on edit mode selection"
+msgstr "根据编辑模式选择将活动形态键拆分为两部分"
+
+#: operators/copy.py:11
+msgctxt "Operator"
+msgid "Transfer shape keys from selected objects to active object\nVertex positions are transferred by index. Different number of vertices or index will give unpredictable results"
+msgstr "将形态键从所选物体传输到活动物体\n顶点位置按索引传输。顶点数量或索引不同将导致不可预测的结果"

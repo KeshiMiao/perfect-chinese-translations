@@ -1,0 +1,392 @@
+# perfect-chinese: 1
+# id: flatterer
+# kind: addon
+# module: bl_ext.blender_org.flatterer
+# name: Flatterer
+# name_zh: 网格展平导出
+# translator: KeshiMiao
+# category: Import-Export
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:169
+#: __init__.py:286
+msgid "Allow Rotation"
+msgstr "允许旋转"
+
+#: __init__.py:218
+msgid "Compensate for material removed by the laser. Edges marked as 'sharp' will be moved by half this amount before exporting to SVG"
+msgstr "补偿激光移除的材料。标记为“锐边”的边将在导出为 SVG 前按此值的一半移动"
+
+#: __init__.py:85
+msgid "Compensate for material removed by the laser. Edges marked as 'sharp' will be moved by half this amount before exporting to SVG. The actual setting is stored on the Scene; this is just the default"
+msgstr "补偿激光移除的材料。标记为“锐边”的边将在导出为 SVG 前按此值的一半移动。实际设置存储在场景中；此处仅为默认值"
+
+#: __init__.py:192
+msgid "Default settings:"
+msgstr "默认设置："
+
+#: __init__.py:49
+msgid "Descending Area"
+msgstr "面积降序"
+
+#: __init__.py:54
+msgid "Descending Perimeter"
+msgstr "周长降序"
+
+#: __init__.py:59
+msgid "Difference Of Rectangle Sides"
+msgstr "矩形边长差"
+
+#: __init__.py:48
+msgid "Do not sort shapes before trying to pack them"
+msgstr "排布前不对形状排序"
+
+#: gui.py:67
+msgid "Edge Options"
+msgstr "边选项"
+
+#: gui.py:86
+msgid "Engrave"
+msgstr "雕刻"
+
+#: __init__.py:310
+msgid "Exclude from Export"
+msgstr "从导出中排除"
+
+#: gui.py:20
+msgid "Export"
+msgstr "导出"
+
+#: __init__.py:14
+msgid "Flat mesh to SVG exporter for laser cutters"
+msgstr "用于激光切割机的平面网格到 SVG 导出器"
+
+#: gui.py:24
+msgid "Flatterer"
+msgstr "Flatterer"
+
+#: __init__.py:14
+msgid "Flatterer to SVG"
+msgstr "Flatterer 导出为 SVG"
+
+#: __init__.py:14
+msgid "Import-Export"
+msgstr "导入-导出"
+
+#: operators.py:45
+msgid "Include a table listing the shapes and their sizes"
+msgstr "包含一个列出形状及其尺寸的表格"
+
+#: gui.py:80
+msgid "Kerf Compensation"
+msgstr "切缝补偿"
+
+#: __init__.py:85
+msgid "Laser Beam Width"
+msgstr "激光束宽度"
+
+#: __init__.py:218
+msgid "Laser Width"
+msgstr "激光宽度"
+
+#: __init__.py:69
+msgid "Longest Side"
+msgstr "最长边"
+
+#: __init__.py:123
+#: __init__.py:258
+msgid "Margin"
+msgstr "边距"
+
+#: __init__.py:111
+#: __init__.py:239
+msgid "Material Length"
+msgstr "材料长度"
+
+#: __init__.py:135
+#: __init__.py:249
+msgid "Material Thickness"
+msgstr "材料厚度"
+
+#: __init__.py:99
+#: __init__.py:229
+msgid "Material Width"
+msgstr "材料宽度"
+
+#: __init__.py:207
+msgid "New defaults will be in effect after the next Blender restart or add-on reload."
+msgstr "新默认值将在下次重启 Blender 或重新加载插件后生效。"
+
+#: operators.py:282
+msgid "No selected edges found"
+msgstr "未找到选中的边"
+
+#: operators.py:73
+msgid "No shapes to export, aborting."
+msgstr "没有可导出的形状，正在中止。"
+
+#: __init__.py:48
+msgid "No sorting"
+msgstr "不排序"
+
+#: gui.py:49
+msgid "Object Options"
+msgstr "物体选项"
+
+#: __init__.py:176
+msgid "Open Directory After Export"
+msgstr "导出后打开目录"
+
+#: __init__.py:176
+msgid "Open a file manager / explorer after the export to SVG has finished"
+msgstr "导出为 SVG 完成后打开文件管理器/资源管理器"
+
+#: __init__.py:160
+#: __init__.py:279
+msgid "Pack Sorting"
+msgstr "排布排序"
+
+#: gui.py:41
+msgid "Packing Options:"
+msgstr "排布选项："
+
+#: __init__.py:187
+msgid "Preferences:"
+msgstr "偏好设置："
+
+#: __init__.py:74
+msgid "Ratio Between Sides"
+msgstr "边长比"
+
+#: __init__.py:147
+#: __init__.py:267
+msgid "Shape Padding"
+msgstr "形状间距"
+
+#: operators.py:45
+msgid "Shape Table"
+msgstr "形状表格"
+
+#: __init__.py:64
+msgid "Shortest Side"
+msgstr "最短边"
+
+#: __init__.py:49
+msgid "Sort shapes by descending area before trying to pack them"
+msgstr "在尝试排布前按面积降序对形状排序"
+
+#: __init__.py:54
+msgid "Sort shapes by descending perimeter before trying to pack them"
+msgstr "在尝试排布前按周长降序对形状排序"
+
+#: __init__.py:59
+msgid "Sort shapes by difference of rectangle sides before trying to pack them"
+msgstr "在尝试排布前按矩形边长差对形状排序"
+
+#: __init__.py:69
+msgid "Sort shapes by longest side before trying to pack them"
+msgstr "在尝试排布前按最长边对形状排序"
+
+#: __init__.py:74
+msgid "Sort shapes by ratio between sides before trying to pack them"
+msgstr "在尝试排布前按边长比对形状排序"
+
+#: __init__.py:64
+msgid "Sort shapes by shortest side before trying to pack them"
+msgstr "在尝试排布前按最短边对形状排序"
+
+#: __init__.py:204
+msgid "The actual settings are stored on the Scene; these are just the defaults."
+msgstr "实际设置存储在场景中；此处仅为默认值。"
+
+#: __init__.py:258
+msgid "The distance from the edge of the material to the closest shape"
+msgstr "材料边缘到最近形状的距离"
+
+#: __init__.py:123
+msgid "The distance from the edge of the material to the closest shape. The actual setting is stored on the Scene; this is just the default"
+msgstr "材料边缘到最近形状的距离。实际设置存储在场景中；此处仅为默认值"
+
+#: __init__.py:239
+msgid "The shape packing will attempt to fill the material length"
+msgstr "形状排布将尝试填满材料长度"
+
+#: __init__.py:111
+msgid "The shape packing will attempt to fill the material length. The actual setting is stored on the Scene; this is just the default"
+msgstr "形状排布将尝试填满材料长度。实际设置存储在场景中；此处仅为默认值"
+
+#: __init__.py:229
+msgid "The shape packing will attempt to fill the material width"
+msgstr "形状排布将尝试填满材料宽度"
+
+#: __init__.py:99
+msgid "The shape packing will attempt to fill the material width. The actual setting is stored on the Scene; this is just the default"
+msgstr "形状排布将尝试填满材料宽度。实际设置存储在场景中；此处仅为默认值"
+
+#: __init__.py:267
+msgid "The shape packing will keep this distance as padding around each shape. The padding will be double between shapes, and single between the shape and the outer edge of the document"
+msgstr "形状排布会将此距离作为每个形状周围的间距。形状之间的间距将加倍，形状与文档外边缘之间为单倍"
+
+#: __init__.py:147
+msgid "The shape packing will keep this distance as padding around each shape. The padding will be double between shapes, and single between the shape and the outer edge of the document. The actual setting is stored on the Scene; this is just the default"
+msgstr "形状排布会将此距离作为每个形状周围的间距。形状之间的间距将加倍，形状与文档外边缘之间为单倍。实际设置存储在场景中；此处仅为默认值"
+
+#: __init__.py:279
+msgid "The shape packing will sort the bounding boxes of the shapes before trying to pack them. Different sorting approaches will be useful for different situations (square shapes vs. longer shapes, etc.)"
+msgstr "形状排布会先对形状的包围盒排序，然后再尝试排布。不同排序方式适用于不同情况（方形与较长形状等）"
+
+#: __init__.py:160
+msgid "The shape packing will sort the bounding boxes of the shapes before trying to pack them. Different sorting approaches will be useful for different situations (square shapes vs. longer shapes, etc.). The actual setting is stored on the Scene; this is just the default"
+msgstr "形状排布会先对形状的包围盒排序，然后再尝试排布。不同排序方式适用于不同情况（方形与较长形状等）。实际设置存储在场景中；此处仅为默认值"
+
+#: __init__.py:249
+msgid "The thickness of the to-be-cut material"
+msgstr "待切割材料的厚度"
+
+#: __init__.py:135
+msgid "The thickness of the to-be-cut material. The actual setting is stored on the Scene; this is just the default"
+msgstr "待切割材料的厚度。实际设置存储在场景中；此处仅为默认值"
+
+#: __init__.py:184
+msgid "This add-on assumes that 1 Blender unit is 1 mm."
+msgstr "此插件假定 1 Blender 单位等于 1 毫米。"
+
+#: __init__.py:310
+msgid "This object will not be exported to SVG"
+msgstr "此物体将不会导出到 SVG"
+
+#: operators.py:255
+msgid "This operation made a copy of the mesh, and it's now single-user"
+msgstr "此操作复制了网格，现在它是单用户数据"
+
+#: __init__.py:286
+msgid "Whether the shape packing algorithm is allowed to rotate shapes by 90 degrees or not"
+msgstr "形状排布算法是否允许将形状旋转 90 度"
+
+#: __init__.py:169
+msgid "Whether the shape packing algorithm is allowed to rotate shapes by 90 degrees or not. The actual setting is stored on the Scene; this is just the default"
+msgstr "形状排布算法是否允许将形状旋转 90 度。实际设置存储在场景中；此处仅为默认值"
+
+#: operators.py:236
+msgid "X"
+msgstr "X"
+
+#: operators.py:236
+msgid "X-axis"
+msgstr "X 轴"
+
+#: operators.py:237
+msgid "Y"
+msgstr "Y"
+
+#: operators.py:237
+msgid "Y-axis"
+msgstr "Y 轴"
+
+#: operators.py:238
+msgid "Z"
+msgstr "Z"
+
+#: operators.py:238
+msgid "Z-axis"
+msgstr "Z 轴"
+
+#: operators.py:396
+msgctxt "Operator"
+msgid "Add Boolean modifiers to selected mesh objects to cut out the active object"
+msgstr "为选中的网格物体添加布尔修改器，以切除活动物体"
+
+#: operators.py:436
+msgctxt "Operator"
+msgid "Add Boolean modifiers to the active mesh object, to cut out the selected object"
+msgstr "为活动网格物体添加布尔修改器，以切除选中物体"
+
+#: operators.py:186
+msgctxt "Operator"
+msgid "Add Faces to Islands"
+msgstr "向孤岛添加面"
+
+#: operators.py:119
+msgctxt "Operator"
+msgid "Add Solidify Modifier"
+msgstr "添加实体化修改器"
+
+#: operators.py:120
+msgctxt "Operator"
+msgid "Add a solidify modifier to the selected mesh objects"
+msgstr "为选中的网格物体添加实体化修改器"
+
+#: operators.py:229
+msgctxt "Operator"
+msgid "Align to Local Axis"
+msgstr "对齐到局部轴"
+
+#: operators.py:98
+msgctxt "Operator"
+msgid "Configure the Scene and 3D Viewport for mm units"
+msgstr "将场景和 3D 视图配置为毫米单位"
+
+#: operators.py:395
+msgctxt "Operator"
+msgid "Cut Active from Selected"
+msgstr "从选中物体中切除活动物体"
+
+#: operators.py:435
+msgctxt "Operator"
+msgid "Cut Selected from Active"
+msgstr "从活动物体中切除选中物体"
+
+#: operators.py:37
+msgctxt "Operator"
+msgid "Export the outline of the selected mesh objects. MUST be planar meshes, possibly with holes"
+msgstr "导出选中网格物体的轮廓。必须是平面网格，可能包含孔洞"
+
+#: operators.py:265
+msgctxt "Operator"
+msgid "Extrude Finger"
+msgstr "挤出指状榫"
+
+#: operators.py:266
+msgctxt "Operator"
+msgid "Extrude selected geometry away from the face center"
+msgstr "沿远离面中心方向挤出选中几何体"
+
+#: operators.py:36
+msgctxt "Operator"
+msgid "Flatten to SVG Outline"
+msgstr "展平为 SVG 轮廓"
+
+#: operators.py:230
+msgctxt "Operator"
+msgid "Rotate the mesh so that it aligns with a local coordinate axis"
+msgstr "旋转网格使其与局部坐标轴对齐"
+
+#: operators.py:165
+msgctxt "Operator"
+msgid "Select Export Edges"
+msgstr "选择导出边"
+
+#: operators.py:166
+msgctxt "Operator"
+msgid "Select all edges that will be exported to SVG"
+msgstr "选择所有将导出到 SVG 的边"
+
+#: operators.py:334
+msgctxt "Operator"
+msgid "Separate Mesh into Faces"
+msgstr "将网格分离为面"
+
+#: operators.py:97
+msgctxt "Operator"
+msgid "Setup Scene for mm"
+msgstr "将场景设置为毫米"
+
+#: operators.py:335
+msgctxt "Operator"
+msgid "Split up the mesh into an object per face"
+msgstr "将网格拆分为每个面一个物体"

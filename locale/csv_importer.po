@@ -1,0 +1,96 @@
+# perfect-chinese: 1
+# id: csv_importer
+# kind: addon
+# module: bl_ext.blender_org.csv_importer
+# name: CSV Importer
+# name_zh: CSV 数据导入
+# translator: KeshiMiao
+# category: Geometry Nodes
+# supported_versions: >=5.3.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: props.py:6
+msgid "CSV Filepath"
+msgstr "CSV 文件路径"
+
+#: ui.py:5
+msgid "CSV Importer"
+msgstr "CSV 导入器"
+
+#: props.py:13
+msgid "File Access Time"
+msgstr "文件访问时间"
+
+#: ops.py:81
+msgid "File Path"
+msgstr "文件路径"
+
+#: ops.py:63
+msgid "File handler for CSV import"
+msgstr "用于 CSV 导入的文件处理器"
+
+#: props.py:19
+msgid "Hot Reload"
+msgstr "热重载"
+
+#: ops.py:131
+msgid "Hot reload started"
+msgstr "热重载已启动"
+
+#: ops.py:127
+msgid "Hot reload stopped"
+msgstr "热重载已停止"
+
+#: ops.py:81
+msgid "Path to the CSV file"
+msgstr "CSV 文件的路径"
+
+#: props.py:6
+msgid "Path to the CSV file that was used for loading this object"
+msgstr "用于加载此物体的 CSV 文件路径"
+
+#: ops.py:35
+msgid "Selected file is not a CSV"
+msgstr "所选文件不是 CSV"
+
+#: props.py:13
+msgid "The last time the file was accessed"
+msgstr "文件最后访问时间"
+
+#: props.py:19
+msgid "Whether to reload the CSV file when the object is selected"
+msgstr "选中物体时是否重新加载 CSV 文件"
+
+#: addon.py:12
+msgctxt "Operator"
+msgid "CSV 🐻 (.csv)"
+msgstr "CSV 🐻 (.csv)"
+
+#: ops.py:115
+msgctxt "Operator"
+msgid "Enable or disable hot reloading of the data from the imported file"
+msgstr "启用或禁用从导入文件热重载数据"
+
+#: ops.py:17
+msgctxt "Operator"
+msgid "Import CSV (Polars)"
+msgstr "导入 CSV (Polars)"
+
+#: ops.py:75
+msgctxt "Operator"
+msgid "Reload Data"
+msgstr "重新加载数据"
+
+#: ops.py:77
+msgctxt "Operator"
+msgid "Reload the imported data file with updated values into this object"
+msgstr "将更新后的导入数据文件重新加载到此物体"
+
+#: ops.py:114
+msgctxt "Operator"
+msgid "Toggle Hot Reload"
+msgstr "切换热重载"

@@ -1,0 +1,2467 @@
+# perfect-chinese: 1
+# id: proto_game_asset_tools
+# kind: addon
+# module: bl_ext.blender_org.proto_game_asset_tools
+# name: PROTO Game Asset Tools
+# name_zh: 游戏资产工具
+# translator: KeshiMiao
+# category: Import-Export
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: preferences.py:52
+msgid "'Game Asset Tools'"
+msgstr "游戏资产工具"
+
+#: src/fbx_export/proto_fbx_init.py:306
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:504
+msgid "'LimbNode' FBX node, a regular joint between two bones..."
+msgstr "“LimbNode” FBX 节点，两根骨骼之间的常规关节..."
+
+#: src/fbx_export/proto_fbx_init.py:304
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:502
+msgid "'Null' FBX node, similar to Blender's Empty (default)"
+msgstr "“Null” FBX 节点，类似 Blender 的空物体（默认）"
+
+#: preferences.py:51
+msgid "'PROTO'"
+msgstr "PROTO"
+
+#: src/fbx_export/proto_fbx_init.py:305
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:503
+msgid "'Root' FBX node, supposed to be the root of chains of bones..."
+msgstr "“Root” FBX 节点，通常作为骨骼链的根..."
+
+#: src/fbx_export/proto_fbx_init.py:554
+msgid "(Default Blender exporter behavior) Export Armature and Mesh(es), Shape Key animation is detected on Mesh(es) and exported\n\nRecommended for: Any engine, when exporting Mesh and animations in one FBX file"
+msgstr "（Blender 导出器默认行为）导出骨架和网格，在网格上检测形态键动画并导出\n\n推荐用于：任何引擎，将网格和动画导出到同一个 FBX 文件时"
+
+#: src/fbx_export/proto_fbx_init.py:487
+msgid "(Requires Armature) Export multiple Actions from the Armature as animations"
+msgstr "（需要骨架）将骨架中的多个动作导出为动画"
+
+#: src/fbx_export/proto_fbx_init.py:486
+msgid "(Requires Armature) Export the Armature's current active Action as 1 animation"
+msgstr "（需要骨架）将骨架当前的活动动作导出为 1 个动画"
+
+#: src/properties.py:136
+msgid "(internal) if these properties are associated with a Batch Export Item, the index for that item. If -1, not Batch Export Item properties"
+msgstr "（内部）如果这些属性关联到批量导出项，则为该项的索引。若为 -1，则不是批量导出项属性"
+
+#: src/properties.py:62
+msgid "(optional) Rename Object to this name when exported (ignored if blank).\n\nTIP: if the mesh animated in Blender is not the same one exported to game engines, Shape Key animation may break due to non-matching Mesh names. Use this to keep a matching name"
+msgstr "（可选）导出时将物体重命名为该名称（留空则忽略）。\n\n提示：如果 Blender 中制作动画的网格与导出到游戏引擎的网格不是同一个，形态键动画可能因网格名称不匹配而失效。可用此项保持名称一致"
+
+#: src/ui.py:128
+#: src/ui.py:177
+msgid "*Action filter enabled"
+msgstr "*动作过滤器已启用"
+
+#: src/fbx_export/proto_fbx_init.py:280
+#: src/fbx_export/proto_fbx_init.py:291
+msgid "-X Axis"
+msgstr "-X 轴"
+
+#: src/fbx_export/proto_fbx_init.py:281
+#: src/fbx_export/proto_fbx_init.py:292
+msgid "-Y Axis"
+msgstr "-Y 轴"
+
+#: src/fbx_export/proto_fbx_init.py:282
+#: src/fbx_export/proto_fbx_init.py:293
+msgid "-Z Axis"
+msgstr "-Z 轴"
+
+#: src/properties.py:595
+msgid "0->1"
+msgstr "0->1"
+
+#: src/properties.py:167
+#: src/fbx_export/proto_fbx_init.py:494
+msgid "1 File Per Action"
+msgstr "每个动作 1 个文件"
+
+#: src/properties.py:202
+#: src/fbx_export/proto_fbx_init.py:410
+msgid "A custom unit conversion. Enter a multiplier to apply to meters (e.g. 100 for centimeters, 39.37 for inches)"
+msgstr "自定义单位换算。输入应用于米数的乘数（例如厘米用 100，英寸用 39.37）"
+
+#: src/properties.py:260
+#: src/fbx_export/proto_fbx_init.py:504
+msgid "Action"
+msgstr "动作"
+
+#: src/properties.py:256
+#: src/fbx_export/proto_fbx_init.py:501
+msgid "Action File Names"
+msgstr "动作文件名"
+
+#: src/properties.py:288
+#: src/fbx_export/proto_fbx_init.py:101
+msgid "Action Filter"
+msgstr "动作过滤器"
+
+#: src/properties.py:294
+#: src/fbx_export/proto_fbx_init.py:107
+msgid "Action Index"
+msgstr "动作索引"
+
+#: src/ui.py:461
+msgid "Action List Operations"
+msgstr "动作列表操作"
+
+#: preferences.py:35
+msgid "Action Slot Behavior"
+msgstr "动作槽行为"
+
+#: preferences.py:77
+msgid "Action Slot Behavior:"
+msgstr "动作槽行为："
+
+#: src/ui.py:750
+msgid "Action Slot does not match Object name!"
+msgstr "动作槽与物体名称不匹配！"
+
+#: src/fbx_export/proto_fbx_init.py:528
+msgid "Action Whitelist"
+msgstr "动作白名单"
+
+#: src/ui.py:473
+#: src/ui.py:676
+msgid "Actions"
+msgstr "动作"
+
+#: src/properties.py:260
+#: src/fbx_export/proto_fbx_init.py:504
+msgid "Actions FBX files are saved as just their name:\nActionName.fbx"
+msgstr "动作 FBX 文件仅以名称保存：\nActionName.fbx"
+
+#: src/properties.py:262
+#: src/fbx_export/proto_fbx_init.py:506
+msgid "Actions FBX files are saved with a shared name with -ActionName:\nSharedName-ActionName.fbx"
+msgstr "动作 FBX 文件以共享名称加 -ActionName 保存：\nSharedName-ActionName.fbx"
+
+#: src/properties.py:263
+#: src/fbx_export/proto_fbx_init.py:507
+msgid "Actions FBX files are saved with a shared name with @ActionName:\nSharedName@ActionName.fbx"
+msgstr "动作 FBX 文件以共享名称加 @ActionName 保存：\nSharedName@ActionName.fbx"
+
+#: src/properties.py:261
+#: src/fbx_export/proto_fbx_init.py:505
+msgid "Actions FBX files are saved with a shared name with _ActionName:\nSharedName_ActionName.fbx"
+msgstr "动作 FBX 文件以共享名称加 _ActionName 保存：\nSharedName_ActionName.fbx"
+
+#: src/fbx_export/proto_fbx_init.py:152
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:334
+msgid "Active Collection"
+msgstr "活动集合"
+
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:569
+msgid "Active Scene Collections"
+msgstr "活动场景集合"
+
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:562
+msgid "Active scene to file"
+msgstr "将活动场景写入文件"
+
+#: src/fbx_export/proto_fbx_init.py:269
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:467
+msgid "Add Leaf Bones"
+msgstr "添加末端骨骼"
+
+#: src/fbx_export/proto_fbx_init.py:253
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:451
+msgid "Add binormal and tangent vectors, together with normal they form the tangent space (will only work correctly with tris/quads only meshes!)"
+msgstr "添加副法线和切线向量，与法线共同构成切线空间（仅对全三角面/四边面网格正确工作！）"
+
+#: preferences.py:38
+msgid "Add-on will expect Actions to have a Slot with the same name as your Armature"
+msgstr "插件将要求动作包含与骨架同名的槽"
+
+#: preferences.py:53
+msgid "Add-on will use a custom viewport panel category."
+msgstr "插件将使用自定义视图面板类别。"
+
+#: preferences.py:52
+msgid "Add-on will use the viewport panel category 'Game Asset Tools'."
+msgstr "插件将使用视图面板类别“游戏资产工具”。"
+
+#: preferences.py:51
+msgid "Add-on will use the viewport panel category 'PROTO'."
+msgstr "插件将使用视图面板类别“PROTO”。"
+
+#: src/ui.py:603
+#: src/ui.py:815
+msgid "Advanced"
+msgstr "高级"
+
+#: src/operators.py:1522
+msgid "All"
+msgstr "全部"
+
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:528
+msgid "All Actions"
+msgstr "所有动作"
+
+#: src/fbx_export/proto_fbx_init.py:175
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:360
+msgid "All Local"
+msgstr "所有本地"
+
+#: src/fbx_export/proto_fbx_init.py:488
+msgid "All NLA Strips"
+msgstr "所有 NLA 片段"
+
+#: src/vertex_group_to_vertex_color.py:72
+#: src/vertex_group_to_vertex_color.py:162
+msgid "Alpha"
+msgstr "Alpha"
+
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:117
+msgid "Alpha Decals"
+msgstr "Alpha 贴花"
+
+#: src/vertex_group_to_vertex_color.py:72
+#: src/vertex_group_to_vertex_color.py:162
+msgid "Alpha color channel"
+msgstr "Alpha 颜色通道"
+
+#: src/fbx_export/proto_fbx_init.py:337
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:535
+msgid "Always add a keyframe at start and end of actions for animated channels"
+msgstr "始终在动作的起始和结束处为动画通道添加关键帧"
+
+#: src/fbx_export/proto_fbx_init.py:1168
+#: src/fbx_export/proto_fbx_init.py:1291
+msgid "Animation"
+msgstr "动画"
+
+#: src/fbx_export/proto_fbx_init.py:483
+msgid "Animation Mode"
+msgstr "动画模式"
+
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:134
+msgid "Animation Offset"
+msgstr "动画偏移"
+
+#: src/operators.py:759
+msgid "Animation exported successfully"
+msgstr "动画导出成功"
+
+#: src/properties.py:490
+msgid "Animations"
+msgstr "动画"
+
+#: src/operators.py:994
+msgid "Animations exported successfully"
+msgstr "动画导出成功"
+
+#: src/properties.py:275
+#: src/fbx_export/proto_fbx_init.py:520
+msgid "Anims Dummy Mesh (Unity)"
+msgstr "动画占位网格（Unity）"
+
+#: src/fbx_export/proto_fbx_init.py:269
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:467
+msgid "Append a final bone to the end of each chain to specify last bone length (use this when you intend to edit the armature from exported data)"
+msgstr "在每个骨骼链末端附加一根最终骨骼，以指定最后一根骨骼的长度（当你打算基于导出数据编辑骨架时使用）"
+
+#: src/operators.py:1519
+msgid "Apply Mode"
+msgstr "应用模式"
+
+#: src/properties.py:239
+#: src/ui.py:956
+msgid "Apply Modifiers"
+msgstr "应用修改器"
+
+#: src/ui.py:979
+msgid "Apply Modifiers and preserve Shape Keys"
+msgstr "应用修改器并保留形态键"
+
+#: src/properties.py:239
+#: src/fbx_export/proto_fbx_init.py:616
+msgid "Apply Modifiers to mesh objects?\n* Armature Modifiers will be skipped\n* Modifiers with names ending in '_NoExport' will be skipped"
+msgstr "将修改器应用到网格物体？\n* 将跳过骨架修改器\n* 将跳过名称以 _NoExport 结尾的修改器"
+
+#: src/fbx_export/proto_fbx_init.py:174
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:359
+msgid "Apply Scalings"
+msgstr "应用缩放"
+
+#: src/fbx_export/proto_fbx_init.py:196
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:88
+msgid "Apply Transform"
+msgstr "应用变换"
+
+#: src/properties.py:431
+#: src/fbx_export/proto_fbx_init.py:651
+msgid "Apply Transforms - Armatures"
+msgstr "应用变换 - 骨架"
+
+#: src/properties.py:424
+#: src/fbx_export/proto_fbx_init.py:643
+msgid "Apply Transforms - Child Objects"
+msgstr "应用变换 - 子物体"
+
+#: src/properties.py:417
+#: src/fbx_export/proto_fbx_init.py:635
+msgid "Apply Transforms - Root Objects"
+msgstr "应用变换 - 根物体"
+
+#: src/fbx_export/proto_fbx_init.py:169
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:351
+msgid "Apply Unit"
+msgstr "应用单位"
+
+#: src/operators.py:1522
+#: src/properties.py:243
+msgid "Apply all modifiers, whether they are visible or not"
+msgstr "应用所有修改器，无论是否可见"
+
+#: src/fbx_export/proto_fbx_init.py:181
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:366
+msgid "Apply custom scaling and units scaling to FBX scale"
+msgstr "将自定义缩放和单位缩放应用到 FBX 缩放"
+
+#: src/fbx_export/proto_fbx_init.py:175
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:360
+msgid "Apply custom scaling and units scaling to each object transformation, FBX scale remains at 1.0"
+msgstr "将自定义缩放和单位缩放应用到每个物体的变换，FBX 缩放保持为 1.0"
+
+#: src/fbx_export/proto_fbx_init.py:179
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:364
+msgid "Apply custom scaling to FBX scale, and units scaling to each object transformation"
+msgstr "将自定义缩放应用到 FBX 缩放，将单位缩放应用到每个物体的变换"
+
+#: src/fbx_export/proto_fbx_init.py:177
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:362
+msgid "Apply custom scaling to each object transformation, and units scaling to FBX scale"
+msgstr "将自定义缩放应用到每个物体的变换，将单位缩放应用到 FBX 缩放"
+
+#: src/fbx_export/proto_fbx_init.py:190
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:375
+msgid "Apply global space transform to the object rotations. When disabled only the axis space is written to the file and all object transforms are left as-is"
+msgstr "将全局空间变换应用到物体旋转。禁用时，仅将轴向空间写入文件，所有物体变换保持不变"
+
+#: src/operators.py:1524
+#: src/properties.py:245
+msgid "Apply modifiers that are visible in the render"
+msgstr "应用渲染中可见的修改器"
+
+#: src/operators.py:1523
+#: src/properties.py:244
+msgid "Apply modifiers that are visible in the viewport"
+msgstr "应用视图中可见的修改器"
+
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:403
+msgid "Apply modifiers to mesh objects (except Armature ones) - WARNING: prevents exporting shape keys"
+msgstr "将修改器应用到网格物体（骨架修改器除外）- 警告：会阻止导出形态键"
+
+#: src/properties.py:431
+#: src/fbx_export/proto_fbx_init.py:651
+msgid "Apply transforms to Armatures in the export, zeroing their transforms out.\n\nWARNING: disabling this usually causes problems! If the Armature object is stripped out of the export (or import, in Unreal's case), and it had un-applied local transforms, animations and child objects may appear incorrect."
+msgstr "导出时将变换应用到骨架，并将其变换归零。\n\n警告：禁用此选项通常会导致问题！如果骨架物体被从导出中移除（在 Unreal 的情况下是从导入中移除），且其本地变换未应用，动画和子物体可能会显示不正确。"
+
+#: src/properties.py:424
+msgid "Apply transforms to child objects in the export, zeroing their transforms out."
+msgstr "导出时将变换应用到子物体，并将其变换归零。"
+
+#: src/properties.py:417
+msgid "Apply transforms to root objects in the export (i.e. not parented to other exported objects), zeroing their transforms out."
+msgstr "导出时将变换应用到根物体（即未父级到其他导出物体的物体），并将其变换归零。"
+
+#: src/properties.py:554
+msgid "Are Export Properties Copied"
+msgstr "是否复制导出属性"
+
+#: src/fbx_export/proto_fbx_init.py:210
+#: src/fbx_export/proto_fbx_init.py:1280
+msgid "Armature"
+msgstr "骨架"
+
+#: src/properties.py:410
+msgid "Armature Data"
+msgstr "骨架数据"
+
+#: src/fbx_export/proto_fbx_init.py:302
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:500
+msgid "Armature FBXNode Type"
+msgstr "骨架 FBX 节点类型"
+
+#: src/properties.py:403
+msgid "Armature Object"
+msgstr "骨架物体"
+
+#: src/fbx_export/proto_fbx_init.py:567
+msgid "Armature Shape Key Scale"
+msgstr "骨架形态键缩放"
+
+#: src/fbx_export/proto_fbx_init.py:552
+msgid "Armature, Custom Props"
+msgstr "骨架、自定义属性"
+
+#: src/fbx_export/proto_fbx_init.py:553
+msgid "Armature, Dummy Mesh"
+msgstr "骨架、假网格"
+
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:72
+msgid "Armature-related settings"
+msgstr "骨架相关设置"
+
+#: src/ui.py:622
+#: src/fbx_export/proto_fbx_init.py:1216
+msgid "Armatures"
+msgstr "骨架"
+
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:168
+msgid "Automatic Bone Orientation"
+msgstr "自动骨骼朝向"
+
+#: src/fbx_export/proto_fbx_init.py:419
+msgid "Bake Z Forward"
+msgstr "烘焙 Z 轴向前"
+
+#: src/properties.py:197
+#: src/fbx_export/proto_fbx_init.py:404
+msgid "Bake a custom conversion. Enter a multiplier to apply to meters (e.g. 100 for centimeters, 39.37 for inches)"
+msgstr "烘焙自定义换算。输入应用于米（meters）的倍数（例如厘米填 100，英寸填 39.37）"
+
+#: src/properties.py:195
+#: src/fbx_export/proto_fbx_init.py:402
+msgid "Bake a unit conversion to centimeters.\n\nRecommended for: Unreal, Unity, Godot\nNOTE: Unity and Godot use meters, but expect cenimters in FBX, or they will apply 100x scale to imported objects"
+msgstr "烘焙单位换算为厘米。\n\n推荐用于：Unreal、Unity、Godot\n注意：Unity 和 Godot 使用米，但期望 FBX 中使用厘米，否则它们会对导入的物体应用 100 倍缩放"
+
+#: src/properties.py:196
+#: src/fbx_export/proto_fbx_init.py:403
+msgid "Bake a unit conversion to inches.\n\nRecommended for: Source, Source 2"
+msgstr "烘焙单位换算为英寸。\n\n推荐用于：Source、Source 2"
+
+#: src/properties.py:190
+#: src/fbx_export/proto_fbx_init.py:398
+msgid "Bake in a conversion from Blender's default units (meters) to a different length unit"
+msgstr "烘焙从 Blender 默认单位（米）到其他长度单位的换算"
+
+#: src/fbx_export/proto_fbx_init.py:419
+msgid "Bake in rotation to make the scene Z-forward, Y-Up, X-Left, matching Maya's coordinate system. Avoids issues with importers (e.g. Unity, Godot) applying 90 degree rotations to objects and bones.\n\nRecommended for: Unity, Godot"
+msgstr "烘焙旋转，使场景为 Z 轴向前、Y 轴向上、X 轴向左，与 Maya 坐标系一致。可避免导入器（如 Unity、Godot）对物体和骨骼应用 90 度旋转的问题。\n\n推荐用于：Unity、Godot"
+
+#: src/fbx_export/proto_fbx_init.py:196
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:88
+msgid "Bake space transform into object data, avoids getting unwanted rotations to objects when target space is not aligned with Blender's space (WARNING! experimental option, use at own risk, known to be broken with armatures/animations)"
+msgstr "将空间变换烘焙到物体数据中，避免目标空间与 Blender 空间不对齐时物体产生不需要的旋转（警告！实验性选项，使用风险自负，已知在骨架/动画下会失效）"
+
+#: src/properties.py:215
+msgid "Bake-in rotation to make the scene Z-forward, Y-Up, X-Left, matching Maya's coordinate system.\n\nRecommended for: Unity, Godot"
+msgstr "烘焙旋转，使场景为 Z 轴向前、Y 轴向上、X 轴向左，与 Maya 坐标系一致。\n\n推荐用于：Unity、Godot"
+
+#: src/fbx_export/proto_fbx_init.py:313
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:511
+msgid "Baked Animation"
+msgstr "已烘焙动画"
+
+#: src/properties.py:536
+#: src/ui.py:71
+msgid "Batch Export"
+msgstr "批量导出"
+
+#: src/properties.py:568
+msgid "Batch Export Item"
+msgstr "批量导出项"
+
+#: src/properties.py:136
+msgid "Batch Export Item Index"
+msgstr "批量导出项索引"
+
+#: src/properties.py:561
+msgid "Batch Export Items"
+msgstr "批量导出项"
+
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:560
+msgid "Batch Mode"
+msgstr "批量模式"
+
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:574
+msgid "Batch Own Dir"
+msgstr "批量为各自创建目录"
+
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:201
+msgid "Behavior when the name of an imported material conflicts with an existing material"
+msgstr "导入材质名称与现有材质冲突时的行为"
+
+#: src/properties.py:220
+#: src/fbx_export/proto_fbx_init.py:433
+msgid "Blender exports the Armature object itself as node above the root bone. You may rename it, or leave blank to use the existing name.\n\nTIP: Unreal will import this node as a bone in the skeleton, but will strip it out if it is named 'Armature'; if you set this to 'Armature', this will cause Unreal to use the first bone as the root when imported"
+msgstr "Blender 会将骨架物体本身导出为根骨骼上方的节点。你可以重命名它，或留空以使用现有名称。\n\n提示：Unreal 会将此节点作为骨骼导入骨架，但如果它命名为 'Armature' 就会被移除；若你设为 'Armature'，Unreal 在导入时会用第一根骨骼作为根"
+
+#: src/vertex_group_to_vertex_color.py:71
+#: src/vertex_group_to_vertex_color.py:161
+msgid "Blue"
+msgstr "蓝色"
+
+#: src/vertex_group_to_vertex_color.py:71
+#: src/vertex_group_to_vertex_color.py:161
+msgid "Blue color channel"
+msgstr "蓝色通道"
+
+#: src/fbx_export/proto_fbx_init.py:440
+msgid "By default, Blender exports the Armature object itself above the root bone. This is generally not desireable. If True, this option will remove it from the export.\n\nRecommended for: Unity, Godot.\n\nNOTE: If used without 'Bake Z Forward', may result in a rotated export.\n\nNOTE: Not recommended for Unreal, instead rename the Armature to 'Armature' to cause Unreal to remove it on-import"
+msgstr "默认情况下，Blender 会将骨架物体本身导出到根骨骼上方。这通常并不理想。若为真，此选项会将其从导出中移除。\n\n推荐用于：Unity、Godot。\n\n注意：若不配合「烘焙 Z 轴向前」使用，可能导致导出结果被旋转。\n\n注意：不推荐用于 Unreal，而应将骨架重命名为 'Armature' 以让 Unreal 在导入时移除它"
+
+#: src/properties.py:227
+msgid "By default, Blender exports the Armature object itself above the root bone. This is generally not desireable. If True, this option will remove it from the export.\n\nRecommended for: Unity, Godot.\n\nNOTE: If used without Scene Rotation 'Z Forward', may result in a rotated export.\n\nNOTE: Not recommended for Unreal, instead rename the Armature to 'Armature' to cause Unreal to remove it on-import"
+msgstr "默认情况下，Blender 会将骨架物体本身导出到根骨骼上方。这通常并不理想。若为真，此选项会将其从导出中移除。\n\n推荐用于：Unity、Godot。\n\n注意：若不配合场景旋转「Z 轴向前」使用，可能导致导出结果被旋转。\n\n注意：不推荐用于 Unreal，而应将骨架重命名为 'Armature' 以让 Unreal 在导入时移除它"
+
+#: src/fbx_export/proto_fbx_init.py:208
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:393
+msgid "Camera"
+msgstr "摄像机"
+
+#: src/properties.py:195
+#: src/fbx_export/proto_fbx_init.py:402
+msgid "Centimeters (Unreal, Unity, Godot)"
+msgstr "厘米（Unreal、Unity、Godot）"
+
+#: src/vertex_group_to_vertex_color.py:65
+#: src/vertex_group_to_vertex_color.py:155
+msgid "Channel"
+msgstr "通道"
+
+#: src/properties.py:471
+msgid "Check multiple Export Items to export multiple at once"
+msgstr "勾选多个导出项以一次性导出多个"
+
+#: src/ui.py:621
+#: src/fbx_export/proto_fbx_init.py:1215
+msgid "Child Objects"
+msgstr "子物体"
+
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:564
+msgid "Collection"
+msgstr "集合"
+
+#: src/fbx_export/proto_fbx_init.py:259
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:457
+msgid "Convert all faces to triangles"
+msgstr "将所有面转换为三角形"
+
+#: src/properties.py:184
+msgid "Convert scene for Unity and Godot Engine.\n* Scaled to centimers, rotated to Z-forward.\n* Armature object removed from export.\n\nNOTE: Unity and Godot use meters, but this conversion avoids these engines applying 100x scale to imported objects"
+msgstr "为 Unity 和 Godot 引擎转换场景。\n* 缩放为厘米，旋转为 Z 轴向前。\n* 从导出中移除骨架物体。\n\n注意：Unity 和 Godot 使用米，但此转换可避免这些引擎对导入的物体应用 100 倍缩放"
+
+#: src/properties.py:183
+msgid "Convert scene for Unreal Engine.\n* Scaled to centimeters\n* Armature object is exported but renamed to 'Armature', which causes Unreal to exclude it from the imported Skeleton."
+msgstr "为 Unreal 引擎转换场景。\n* 缩放为厘米\n* 骨架物体会被导出，但重命名为 'Armature'，使 Unreal 将其从导入的骨架中排除。"
+
+#: src/operators.py:1365
+msgid "Copied"
+msgstr "已复制"
+
+#: src/operators.py:1374
+msgid "Copied Export Options"
+msgstr "已复制导出选项"
+
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:574
+msgid "Create a dir for each exported file"
+msgstr "为每个导出文件创建目录"
+
+#: src/fbx_export/proto_fbx_init.py:486
+msgid "Current Action (Armature)"
+msgstr "当前动作（骨架）"
+
+#: preferences.py:53
+#: src/properties.py:185
+msgid "Custom"
+msgstr "自定义"
+
+#: preferences.py:63
+msgid "Custom Name"
+msgstr "自定义名称"
+
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:96
+msgid "Custom Normals"
+msgstr "自定义法向"
+
+#: src/fbx_export/proto_fbx_init.py:264
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:146
+msgid "Custom Properties"
+msgstr "自定义属性"
+
+#: src/properties.py:382
+#: src/ui.py:565
+msgid "Custom Property Animation"
+msgstr "自定义属性动画"
+
+#: src/properties.py:360
+msgid "Custom Props (Unreal)"
+msgstr "自定义属性（Unreal）"
+
+#: src/properties.py:202
+#: src/fbx_export/proto_fbx_init.py:410
+msgid "Custom Scale"
+msgstr "自定义缩放"
+
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:122
+msgid "Decal Offset"
+msgstr "贴花偏移"
+
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:122
+msgid "Displace geometry of alpha meshes"
+msgstr "置换 Alpha 网格的几何体"
+
+#: src/properties.py:242
+#: src/fbx_export/proto_fbx_init.py:619
+msgid "Do not apply modifiers"
+msgstr "不应用修改器"
+
+#: src/properties.py:194
+#: src/fbx_export/proto_fbx_init.py:401
+msgid "Do not bake a unit conversion"
+msgstr "不烘焙单位换算"
+
+#: src/properties.py:214
+msgid "Do not bake any rotation into the scene, and export with default options\n\nRecommended for: Unreal (if *not* using 'Skip Armature Object')"
+msgstr "不向场景烘焙任何旋转，使用默认选项导出\n\n推荐用于：Unreal（若*不*使用「跳过骨架物体」）"
+
+#: src/properties.py:447
+#: src/fbx_export/proto_fbx_init.py:229
+msgid "Do not export color attributes"
+msgstr "不导出颜色属性"
+
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:103
+msgid "Do not import color attributes"
+msgstr "不导入颜色属性"
+
+#: src/properties.py:343
+#: src/fbx_export/proto_fbx_init.py:609
+msgid "Don't Simplify Root Bone"
+msgstr "不简化根骨骼"
+
+#: src/batch_export_operators.py:245
+#: src/batch_export_operators.py:345
+msgid "Down"
+msgstr "向下"
+
+#: src/properties.py:361
+msgid "Dummy Mesh (Unity, Godot)"
+msgstr "假网格（Unity、Godot）"
+
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:564
+msgid "Each collection (data-block ones) as a file, does not include content of children collections"
+msgstr "每个集合（数据块）导出为一个文件，不包含子集合的内容"
+
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:569
+msgid "Each collection (including master, non-data-block one) of the active scene as a file, including content from children collections"
+msgstr "活动场景的每个集合（包括主集合，非数据块）导出为一个文件，包含子集合的内容"
+
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:566
+msgid "Each collection (including master, non-data-block ones) of each scene as a file, including content from children collections"
+msgstr "每个场景的每个集合（包括主集合，非数据块）导出为一个文件，包含子集合的内容"
+
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:563
+msgid "Each scene as a file"
+msgstr "每个场景导出为一个文件"
+
+#: src/fbx_export/proto_fbx_init.py:221
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:418
+msgid "Edge"
+msgstr "边"
+
+#: src/fbx_export/proto_fbx_init.py:357
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:555
+msgid "Embed Textures"
+msgstr "嵌入纹理"
+
+#: src/fbx_export/proto_fbx_init.py:357
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:555
+msgid "Embed textures in FBX binary file (only for \"Copy\" path mode!)"
+msgstr "在 FBX 二进制文件中嵌入纹理（仅限\"复制\"路径模式！）"
+
+#: src/fbx_export/proto_fbx_init.py:207
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:392
+msgid "Empty"
+msgstr "空物体"
+
+#: src/properties.py:281
+#: src/fbx_export/proto_fbx_init.py:535
+msgid "Enable Action Filter"
+msgstr "启用动作过滤"
+
+#: src/properties.py:614
+#: src/ui.py:788
+msgid "End"
+msgstr "结束"
+
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:105
+msgid "Expect file colors in linear color space"
+msgstr "期望文件颜色为线性色彩空间"
+
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:104
+msgid "Expect file colors in sRGB color space"
+msgstr "期望文件颜色为 sRGB 色彩空间"
+
+#: src/ui.py:146
+msgid "Export Animation:"
+msgstr "导出动画："
+
+#: src/properties.py:490
+msgid "Export Animations, in 1 file or 1 file-per-action"
+msgstr "导出动画，合并为 1 个文件或每个动作 1 个文件"
+
+#: src/fbx_export/proto_fbx_init.py:574
+msgid "Export Custom Prop Animation"
+msgstr "导出自定义属性动画"
+
+#: src/properties.py:620
+msgid "Export Frames Separately"
+msgstr "分别导出帧"
+
+#: src/properties.py:489
+msgid "Export Mesh and Armature in 1 file"
+msgstr "将网格和骨架导出到 1 个文件"
+
+#: src/properties.py:131
+msgid "Export Mesh and Armature in one file, and Animations in separate files"
+msgstr "将网格和骨架导出到一个文件，动画导出到单独文件"
+
+#: src/properties.py:488
+msgid "Export Mesh, Armature, and Animations all in 1 file"
+msgstr "将网格、骨架和动画全部导出到 1 个文件"
+
+#: src/properties.py:130
+msgid "Export Mesh, Armature, and Animations all in one FBX file"
+msgstr "将网格、骨架和动画导出到同一个 FBX 文件中"
+
+#: src/properties.py:126
+#: src/properties.py:484
+msgid "Export Mode"
+msgstr "导出模式"
+
+#: src/ui.py:111
+msgid "Export Model + Animations:"
+msgstr "导出模型 + 动画："
+
+#: src/ui.py:131
+msgid "Export Model:"
+msgstr "导出模型："
+
+#: src/operators.py:231
+#: src/operators.py:389
+msgid "Export Name"
+msgstr "导出名称"
+
+#: src/properties.py:503
+msgid "Export Object"
+msgstr "导出物体"
+
+#: src/properties.py:496
+msgid "Export Objects"
+msgstr "导出物体"
+
+#: src/properties.py:547
+msgid "Export Options that the user has copied to later paste"
+msgstr "用户已复制以便之后粘贴的导出选项"
+
+#: src/properties.py:509
+msgid "Export Properties"
+msgstr "导出属性"
+
+#: src/properties.py:535
+#: src/ui.py:69
+msgid "Export Selected"
+msgstr "导出选中项"
+
+#: src/fbx_export/proto_fbx_init.py:242
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:440
+msgid "Export Subdivision Surface"
+msgstr "导出细分曲面"
+
+#: src/fbx_export/proto_fbx_init.py:488
+msgid "Export all NLA Strips from the Scene as animations"
+msgstr "将场景中的所有 NLA 片段导出为动画"
+
+#: src/properties.py:351
+#: src/fbx_export/proto_fbx_init.py:543
+msgid "Export animation of Shape Keys"
+msgstr "导出形态键动画"
+
+#: src/properties.py:382
+msgid "Export animation of the Armature's (and Bones') Custom Properties.\n\nNOTE: game engine FBX importers may not import custom property curves by default, and may have optional settings to do-so"
+msgstr "导出骨架（和骨骼）自定义属性的动画。\n\n注意：游戏引擎的 FBX 导入器默认可能不会导入自定义属性曲线，可能需要启用可选设置才能导入"
+
+#: src/fbx_export/proto_fbx_init.py:574
+msgid "Export animation of the Armature's Custom Properties as curve data"
+msgstr "将骨架自定义属性的动画导出为曲线数据"
+
+#: src/fbx_export/proto_fbx_init.py:313
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:511
+msgid "Export baked keyframe animation"
+msgstr "导出烘焙的关键帧动画"
+
+#: src/properties.py:449
+#: src/fbx_export/proto_fbx_init.py:231
+msgid "Export colors in linear color space"
+msgstr "以线性色彩空间导出颜色"
+
+#: src/properties.py:448
+#: src/fbx_export/proto_fbx_init.py:230
+msgid "Export colors in sRGB color space"
+msgstr "以 sRGB 色彩空间导出颜色"
+
+#: src/properties.py:535
+msgid "Export current selection with 1 set of options"
+msgstr "使用一组选项导出当前选中项"
+
+#: src/fbx_export/proto_fbx_init.py:264
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:462
+msgid "Export custom properties"
+msgstr "导出自定义属性"
+
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:528
+msgid "Export each action as a separated FBX's AnimStack, instead of global scene animation (note that animated objects will get all actions compatible with them, others will get no animation at all)"
+msgstr "将每个动作导出为单独的 FBX AnimStack，而不是全局场景动画（注意：有动画的物体会获得与其兼容的所有动作，其他物体则完全不会获得动画）"
+
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:522
+msgid "Export each non-muted NLA strip as a separated FBX's AnimStack, if any, instead of global scene animation"
+msgstr "将每个未静音的 NLA 片段（如果有）导出为单独的 FBX AnimStack，而不是全局场景动画"
+
+#: src/fbx_export/proto_fbx_init.py:552
+msgid "Export just Armature, Shape Key animation of deformed Meshes is detected and converted to Custom Property curves on the Armature root bone.\n\nRecommended for: Unreal.\nNote: Unity can import these curves, but will not automatically apply them to Blendshape animation"
+msgstr "仅导出骨架，变形网格的形态键动画会被检测并转换为骨架根骨骼上的自定义属性曲线。\n\n推荐用于：Unreal。\n注意：Unity 可以导入这些曲线，但不会自动将其应用到混合形状动画"
+
+#: src/fbx_export/proto_fbx_init.py:553
+msgid "Export just Armature, Shape Key animation of deformed Meshes is detected and converted to Shape Key curves on a dummy mesh. Allows for real FBX blendshape curves while keeping filesize down.\n\nRecommended for: Unity, Godot.\nNote: If you wish to export a Mesh in the same FBX as its animations, do not use this option, use 'Mesh' instead"
+msgstr "仅导出骨架，变形网格的形态键动画会被检测并转换为虚拟网格上的形态键曲线。这样可以获得真正的 FBX 混合形状曲线，同时保持文件体积较小。\n\n推荐用于：Unity、Godot。\n注意：如果你希望将网格与其动画导出到同一个 FBX 中，请不要使用此选项，而应使用“网格”"
+
+#: src/fbx_export/proto_fbx_init.py:248
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:446
+msgid "Export loose edges (as two-vertices polygons)"
+msgstr "导出孤立边（作为两顶点多边形）"
+
+#: src/fbx_export/proto_fbx_init.py:219
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:416
+msgid "Export only normals instead of writing edge or face smoothing data"
+msgstr "仅导出法线，而不写入边或面平滑数据"
+
+#: src/fbx_export/proto_fbx_init.py:152
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:334
+msgid "Export only objects from the active collection (and its children)"
+msgstr "仅导出活动集合（及其子集合）中的物体"
+
+#: src/fbx_export/proto_fbx_init.py:157
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:339
+msgid "Export only objects from this collection (and its children)"
+msgstr "仅导出此集合（及其子集合）中的物体"
+
+#: src/fbx_export/proto_fbx_init.py:142
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:324
+msgid "Export selected and visible objects only"
+msgstr "仅导出选中且可见的物体"
+
+#: src/fbx_export/proto_fbx_init.py:217
+msgid "Export smoothing information (prefer 'Normals Only' option if your target importer understand split normals)"
+msgstr "导出平滑信息（如果你的目标导入器支持拆分法线，建议使用“仅法线”选项）"
+
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:414
+msgid "Export smoothing information (prefer 'Normals Only' option if your target importer understands custom normals)"
+msgstr "导出平滑信息（如果你的目标导入器支持自定义法线，建议使用“仅法线”选项）"
+
+#: src/fbx_export/proto_fbx_init.py:485
+msgid "Export the current timeline"
+msgstr "导出当前时间线"
+
+#: src/fbx_export/proto_fbx_init.py:242
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:440
+msgid "Export the last Catmull-Rom subdivision modifier as FBX subdivision (does not apply the modifier even if 'Apply Modifiers' is enabled)"
+msgstr "将最后一个 Catmull-Rom 细分修改器导出为 FBX 细分（即使启用了“应用修改器”，也不会应用该修改器）"
+
+#: src/properties.py:445
+#: src/fbx_export/proto_fbx_init.py:227
+msgid "Export vertex color attributes"
+msgstr "导出顶点颜色属性"
+
+#: src/fbx_export/proto_fbx_init.py:147
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:329
+msgid "Export visible objects only"
+msgstr "仅导出可见物体"
+
+#: src/properties.py:541
+#: src/properties.py:547
+msgid "Export-Selected Properties"
+msgstr "导出选中项属性"
+
+#: src/fbx_export/proto_fbx_init.py:181
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:366
+msgid "FBX All"
+msgstr "FBX 全部"
+
+#: src/fbx_export/proto_fbx_init.py:179
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:364
+msgid "FBX Custom Scale"
+msgstr "FBX 自定义缩放"
+
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:5
+msgid "FBX IO meshes, UVs, vertex colors, materials, textures, cameras, lamps and actions"
+msgstr "FBX IO 网格、UV、顶点颜色、材质、纹理、摄像机、灯光和动作"
+
+#: src/fbx_export/proto_fbx_init.py:177
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:362
+msgid "FBX Units Scale"
+msgstr "FBX 单位缩放"
+
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:5
+msgid "FBX format"
+msgstr "FBX 格式"
+
+#: src/fbx_export/proto_fbx_init.py:302
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:500
+msgid "FBX type of node (object) used to represent Blender's armatures (use the Null type unless you experience issues with the other app, as other choices may not import back perfectly into Blender...)"
+msgstr "用于表示 Blender 骨架的 FBX 节点（物体）类型（除非在其他应用中遇到问题，否则请使用 Null 类型，因为其他选项可能无法完美导回 Blender……）"
+
+#: src/fbx_export/proto_fbx_init.py:220
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:417
+msgid "Face"
+msgstr "面"
+
+#: src/ui.py:119
+#: src/ui.py:139
+msgid "File Path"
+msgstr "文件路径"
+
+#: src/vertex_group_to_vertex_color.py:74
+#: src/vertex_group_to_vertex_color.py:164
+msgid "Fill Red Green Blue and Alpha color channels"
+msgstr "填充红、绿、蓝和 Alpha 颜色通道"
+
+#: src/vertex_group_to_vertex_color.py:73
+#: src/vertex_group_to_vertex_color.py:163
+msgid "Fill Red Green and Blue color channels"
+msgstr "填充红、绿和蓝颜色通道"
+
+#: src/ui.py:872
+msgid "Fill Vertex Color"
+msgstr "填充顶点颜色"
+
+#: src/properties.py:320
+#: src/fbx_export/proto_fbx_init.py:468
+msgid "Flat Bone Hierarchy"
+msgstr "扁平骨骼层级"
+
+#: src/properties.py:151
+#: src/ui.py:157
+msgid "Folder"
+msgstr "文件夹"
+
+#: src/properties.py:151
+msgid "Folder to save the exported Anim FBX file in. The exported file(s) will be named after Action name(s)"
+msgstr "用于保存导出的动画 FBX 文件的文件夹。导出的文件将按动作名称命名"
+
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:162
+msgid "Force Connect Children"
+msgstr "强制连接子级"
+
+#: src/fbx_export/proto_fbx_init.py:337
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:535
+msgid "Force Start/End Keying"
+msgstr "强制起始/结束关键帧"
+
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:162
+msgid "Force connection of children bones to their parent, even if their computed head/tail positions do not match (can be useful with pure-joints-type armatures)"
+msgstr "强制将子骨骼连接到其父骨骼，即使计算出的头/尾位置不匹配（对纯关节类型的骨架可能有用）"
+
+#: src/fbx_export/proto_fbx_init.py:318
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:516
+msgid "Force exporting at least one key of animation for all bones (needed with some target applications, like UE4)"
+msgstr "强制为所有骨骼至少导出一个动画关键帧（某些目标应用需要，例如 UE4）"
+
+#: src/properties.py:343
+#: src/fbx_export/proto_fbx_init.py:609
+msgid "Forces root bone location animation to skip simplification. Hack to help some FBX importers get the right frame count and framerate by having a track with keys on every frame.\n\nSpecifically works around an importer bug with Unreal Engine"
+msgstr "强制根骨骼位置动画跳过简化。这是一种权宜方法，通过让轨道在每一帧都有键来帮助某些 FBX 导入器获得正确的帧数和帧率。\n\n专门用于规避 Unreal Engine 的导入器错误"
+
+#: src/ui.py:46
+msgid "Game Asset Tools"
+msgstr "游戏资产工具"
+
+#: src/fbx_export/proto_fbx_init.py:1265
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:672
+msgid "Geometry"
+msgstr "几何"
+
+#: src/operators.py:123
+msgid "Godot"
+msgstr "Godot"
+
+#: src/vertex_group_to_vertex_color.py:70
+#: src/vertex_group_to_vertex_color.py:160
+msgid "Green"
+msgstr "绿色"
+
+#: src/vertex_group_to_vertex_color.py:70
+#: src/vertex_group_to_vertex_color.py:160
+msgid "Green color channel"
+msgstr "绿色通道"
+
+#: src/properties.py:334
+#: src/fbx_export/proto_fbx_init.py:349
+msgid "How much to compress animation data (0.0 = best accuracy, largest file size. Higher numbers = less accuracy, smaller file size).\nGenerally leave at default of 0.1. Try setting to 0.0 if you see innacuracy in exported animation.\n\n(NOTE: innacurate animation is often the result of scaled bones, not the Simplify setting)"
+msgstr "动画数据的压缩程度（0.0 = 最高精度、最大文件体积。数值越高 = 精度越低、文件体积越小）。\n通常保持默认值 0.1。如果导出的动画出现不准确，可尝试设为 0.0。\n\n（注意：动画不准确通常是骨骼缩放导致的，而不是简化设置）"
+
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:547
+msgid "How much to simplify baked values (0.0 to disable, the higher the more simplified)"
+msgstr "烘焙值的简化程度（0.0 表示禁用，数值越高简化越多）"
+
+#: src/fbx_export/proto_fbx_init.py:342
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:540
+msgid "How often to evaluate animated values (in frames)"
+msgstr "计算动画值的间隔（以帧为单位）"
+
+#: src/properties.py:484
+msgid "How this Export Item exports"
+msgstr "此导出项的导出方式"
+
+#: src/fbx_export/proto_fbx_init.py:174
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:359
+msgid "How to apply custom and units scalings in generated FBX file (Blender uses FBX scale to detect units on import, but many other applications do not handle the same way)"
+msgstr "如何在生成的 FBX 文件中应用自定义缩放和单位缩放（Blender 在导入时使用 FBX 缩放来检测单位，但许多其他应用的处理方式不同）"
+
+#: src/properties.py:211
+msgid "How to export rotation in the scene, to target different game engines"
+msgstr "如何导出场景中的旋转，以适配不同的游戏引擎"
+
+#: preferences.py:35
+msgid "How to handle Action Slots"
+msgstr "如何处理动作槽"
+
+#: src/properties.py:179
+msgid "How to scale/rotate the exported scene, and how to export the Armature object"
+msgstr "如何缩放/旋转导出的场景，以及如何导出骨架物体"
+
+#: src/properties.py:438
+#: src/fbx_export/proto_fbx_init.py:659
+msgid "If 'Apply Transforms - Armatures' is disabled, and Armatures have local transforms, the exporter will warn about possible transform issues. If this option is true, this warning will be suppressed."
+msgstr "如果禁用了“应用变换 - 骨架”，且骨架具有局部变换，导出器将警告可能存在变换问题。如果此选项为真，将抑制此警告。"
+
+#: src/vertex_group_to_vertex_color.py:176
+msgid "If True, skip the active Paint Mask.\n\nNOTE: Paint Mask is only visible in Vertex Paint mode, but can still be applied in all modes"
+msgstr "如果为真，跳过活动的绘制遮罩。\n\n注意：绘制遮罩仅在顶点绘制模式下可见，但仍可在所有模式下应用"
+
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:204
+msgid "If a material with the same name already exists, reference that instead of importing"
+msgstr "如果已存在同名材质，则引用该材质而不是导入"
+
+#: src/properties.py:275
+#: src/fbx_export/proto_fbx_init.py:520
+msgid "If true, animation FBX files will always have a dummy Mesh inserted.\n\nThis is a workaround for Unity's FBX importer; when FBX files only contain animation, Unity's importer requires its 'Preserve Hierarchy' option to be enabled, or else it will import incorrectly. By inserting a dummy Mesh, animation FBX files will import correctly in Unity by-default.\n\nRecommended for: Unity"
+msgstr "如果为真，动画 FBX 文件将始终插入一个虚拟网格。\n\n这是针对 Unity FBX 导入器的变通方法；当 FBX 文件只包含动画时，Unity 的导入器要求启用“保留层级”选项，否则会导入错误。通过插入虚拟网格，动画 FBX 文件在 Unity 中默认即可正确导入。\n\n推荐用于：Unity"
+
+#: src/operators.py:1529
+msgid "If true, skip Armature Modifiers"
+msgstr "如果为真，跳过骨架修改器"
+
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:157
+msgid "Ignore Leaf Bones"
+msgstr "忽略叶骨骼"
+
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:157
+msgid "Ignore the last bone at the end of each chain (used to mark the length of the previous bone)"
+msgstr "忽略每条链末端的最后一个骨骼（用于标记前一个骨骼的长度）"
+
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:111
+msgid "Image Search"
+msgstr "图像搜索"
+
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:129
+msgid "Import Animation"
+msgstr "导入动画"
+
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:151
+msgid "Import Enums As Strings"
+msgstr "将枚举导入为字符串"
+
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:129
+msgid "Import FBX animation"
+msgstr "导入 FBX 动画"
+
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:140
+msgid "Import FBX subdivision information as subdivision surface modifiers"
+msgstr "将 FBX 细分信息导入为细分曲面修改器"
+
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:96
+msgid "Import custom normals, if available (otherwise Blender will recompute them)"
+msgstr "导入自定义法线（如可用，否则 Blender 将重新计算）"
+
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:203
+msgid "Import each FBX material as a unique Blender material"
+msgstr "将每个 FBX 材质导入为唯一的 Blender 材质"
+
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:70
+msgid "Import options categories"
+msgstr "导入选项类别"
+
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:146
+msgid "Import user properties as custom properties"
+msgstr "将用户属性导入为自定义属性"
+
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:101
+msgid "Import vertex color attributes"
+msgstr "导入顶点颜色属性"
+
+#: __init__.py:5
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:5
+msgid "Import-Export"
+msgstr "导入-导出"
+
+#: src/properties.py:196
+#: src/fbx_export/proto_fbx_init.py:403
+msgid "Inches (Source)"
+msgstr "英寸（源）"
+
+#: src/fbx_export/proto_fbx_init.py:1117
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:244
+msgid "Include"
+msgstr "包含"
+
+#: src/fbx_export/proto_fbx_init.py:602
+msgid "Include Armature Data"
+msgstr "包含骨架数据"
+
+#: src/fbx_export/proto_fbx_init.py:595
+msgid "Include Armature Object"
+msgstr "包含骨架物体"
+
+#: src/fbx_export/proto_fbx_init.py:588
+msgid "Include Non-Deform Bones"
+msgstr "包含非变形骨骼"
+
+#: src/fbx_export/proto_fbx_init.py:581
+msgid "Include Zeroed Properties"
+msgstr "包含零值属性"
+
+#: src/fbx_export/proto_fbx_init.py:560
+msgid "Include Zeroed Shape Keys"
+msgstr "包含零值形态键"
+
+#: src/properties.py:46
+#: src/fbx_export/proto_fbx_init.py:87
+msgid "Include in exports"
+msgstr "包含在导出中"
+
+#: src/properties.py:294
+#: src/fbx_export/proto_fbx_init.py:107
+msgid "Index of currently selected Action in the Action Filter list"
+msgstr "当前所选动作在动作过滤器列表中的索引"
+
+#: src/operators.py:631
+msgid "Invalid Action - No active Action on selected Armature."
+msgstr "无效动作 - 所选骨架没有活动动作。"
+
+#: src/operators.py:648
+msgid "Invalid Action Slot - No active Slot on selected Armature."
+msgstr "无效动作槽 - 所选骨架没有活动槽。"
+
+#: src/operators.py:640
+msgid "Invalid Action Slot - No active Slot on selected Armature.\nCheck the Quick Action Select panel."
+msgstr "无效动作槽 - 所选骨架没有活动槽。\n请检查快速动作选择面板。"
+
+#: src/operators.py:643
+msgid "Invalid Action Slot - active Slot on selected Armature does not match Armature name.\nCheck the Quick Action Select panel."
+msgstr "无效动作槽 - 所选骨架的活动槽与骨架名称不匹配。\n请检查快速动作选择面板。"
+
+#: src/operators.py:303
+#: src/operators.py:461
+msgid "Invalid Armature - Must have at least 1 bone."
+msgstr "无效骨架 - 必须至少有 1 根骨骼。"
+
+#: src/vertex_group_to_vertex_color.py:109
+#: src/vertex_group_to_vertex_color.py:195
+msgid "Invalid Color Attribute - Active color attribute must be of type Face Corner"
+msgstr "无效颜色属性 - 活动颜色属性必须为面角类型"
+
+#: src/fbx_export/proto_fbx_init.py:892
+msgid "Invalid File Path"
+msgstr "无效文件路径"
+
+#: src/fbx_export/proto_fbx_init.py:905
+msgid "Invalid File Path - Must specify a file name"
+msgstr "无效文件路径 - 必须指定文件名"
+
+#: src/operators.py:255
+#: src/operators.py:413
+msgid "Invalid File Path - Must specify a file name."
+msgstr "无效文件路径 - 必须指定文件名。"
+
+#: src/operators.py:252
+#: src/operators.py:410
+msgid "Invalid File Path - Set a path above."
+msgstr "无效文件路径 - 请在上方设置路径。"
+
+#: src/operators.py:817
+msgid "Invalid File Path - With 1 File Per Action, must specify a folder name."
+msgstr "无效文件路径 - 在“每个动作一个文件”模式下，必须指定文件夹名称。"
+
+#: src/fbx_export/proto_fbx_init.py:899
+msgid "Invalid Folder Path (One File Per Action mode) - Must specify a folder path"
+msgstr "无效文件夹路径（每个动作一个文件模式） - 必须指定文件夹路径"
+
+#: src/operators.py:579
+msgid "Invalid Folder Path - Must specify a folder name."
+msgstr "无效文件夹路径 - 必须指定文件夹名称。"
+
+#: src/operators.py:298
+#: src/operators.py:456
+msgid "Invalid Selection - Multiple Armatures selected, maximum 1 Armature allowed."
+msgstr "无效选择 - 选择了多个骨架，最多允许 1 个骨架。"
+
+#: src/operators.py:609
+#: src/operators.py:863
+msgid "Invalid Selection - Must only select 1 Armature."
+msgstr "无效选择 - 只能选择 1 个骨架。"
+
+#: src/operators.py:295
+#: src/operators.py:453
+msgid "Invalid Selection - No Meshes selected."
+msgstr "无效选择 - 未选择网格。"
+
+#: src/operators.py:281
+#: src/operators.py:439
+msgid "Invalid Selection - No Objects selected."
+msgstr "无效选择 - 未选择物体。"
+
+#: src/vertex_group_to_vertex_color.py:30
+#: src/vertex_group_to_vertex_color.py:79
+msgid "Invert"
+msgstr "反转"
+
+#: src/vertex_group_to_vertex_color.py:30
+#: src/vertex_group_to_vertex_color.py:79
+msgid "Invert the Vertex Group values before copying to Vertex Colors"
+msgstr "复制到顶点颜色前反转顶点组值"
+
+#: src/properties.py:250
+#: src/fbx_export/proto_fbx_init.py:628
+msgid "Keep Shape Keys"
+msgstr "保留形态键"
+
+#: src/fbx_export/proto_fbx_init.py:318
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:516
+msgid "Key All Bones"
+msgstr "为所有骨骼插入关键帧"
+
+#: src/fbx_export/proto_fbx_init.py:209
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:394
+msgid "Lamp"
+msgstr "灯光"
+
+#: src/ui.py:721
+msgid "Legacy Action Slot data detected!"
+msgstr "检测到旧版动作槽数据！"
+
+#: src/fbx_export/proto_fbx_init.py:1232
+msgid "Legacy Options"
+msgstr "旧版选项"
+
+#: src/fbx_export/proto_fbx_init.py:306
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:504
+msgid "LimbNode"
+msgstr "肢节节点"
+
+#: src/properties.py:281
+#: src/fbx_export/proto_fbx_init.py:535
+msgid "Limit which Actions are considered for export"
+msgstr "限制导出时考虑的动作"
+
+#: src/properties.py:449
+#: src/fbx_export/proto_fbx_init.py:231
+msgid "Linear"
+msgstr "线性"
+
+#: src/properties.py:561
+msgid "List of Batch Export Items defined by user in the UI"
+msgstr "用户在 UI 中定义的批量导出项列表"
+
+#: src/fbx_export/proto_fbx_init.py:248
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:446
+msgid "Loose Edges"
+msgstr "松散边"
+
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:71
+msgid "Main"
+msgstr "主要"
+
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:71
+msgid "Main basic settings"
+msgstr "主要基本设置"
+
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:203
+msgid "Make Unique"
+msgstr "设为唯一"
+
+#: src/fbx_export/proto_fbx_init.py:236
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:434
+msgid "Make sure active color will be exported first. Could be important since some other software can discard other color attributes besides the first one"
+msgstr "确保活动颜色首先导出。某些其他软件可能会丢弃第一个之外的其他颜色属性，因此这可能很重要"
+
+#: src/properties.py:602
+msgid "Manual Frame Range"
+msgstr "手动帧范围"
+
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:78
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:274
+msgid "Manual Orientation"
+msgstr "手动方向"
+
+#: preferences.py:39
+msgid "Manually Set Slots"
+msgstr "手动设置槽"
+
+#: preferences.py:39
+msgid "Manually manage Action Slots yourself"
+msgstr "自行手动管理动作槽"
+
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:201
+msgid "Material Name Collision"
+msgstr "材质名称冲突"
+
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:283
+msgid "Materials"
+msgstr "材质"
+
+#: src/fbx_export/proto_fbx_init.py:211
+#: src/fbx_export/proto_fbx_init.py:554
+msgid "Mesh"
+msgstr "网格"
+
+#: src/ui.py:423
+#: src/fbx_export/proto_fbx_init.py:1153
+msgid "Mesh/Armature"
+msgstr "网格/骨架"
+
+#: src/properties.py:300
+#: src/fbx_export/proto_fbx_init.py:454
+msgid "Minimum 2 Frames"
+msgstr "最少 2 帧"
+
+#: src/properties.py:126
+msgid "Mode"
+msgstr "模式"
+
+#: src/properties.py:489
+msgid "Model"
+msgstr "模型"
+
+#: src/properties.py:130
+#: src/properties.py:488
+msgid "Model + Animations (1 File)"
+msgstr "模型 + 动画（1 个文件）"
+
+#: src/operators.py:379
+#: src/operators.py:542
+msgid "Model exported successfully"
+msgstr "模型导出成功"
+
+#: src/properties.py:233
+#: src/fbx_export/proto_fbx_init.py:447
+msgid "Move Object(s) to world origin before exporting, removing world offset from exported Model.\n\nNOTE: parented Objects are moved together. If you have multiple un-parented Objects in export, ensure that they have the same origin"
+msgstr "导出前将物体移动到世界原点，从导出的模型中移除世界偏移。\n\n注意：已父子化的物体会一起移动。如果导出中有多个未父子化的物体，请确保它们具有相同的原点"
+
+#: src/properties.py:233
+#: src/fbx_export/proto_fbx_init.py:447
+msgid "Move To Origin"
+msgstr "移动到原点"
+
+#: src/fbx_export/proto_fbx_init.py:487
+msgid "Multiple Actions (Armature)"
+msgstr "多个动作（骨架）"
+
+#: src/fbx_export/proto_fbx_init.py:770
+msgid "Multiple Armatures in export! Only 1 armatures is supported."
+msgstr "导出中有多个骨架！仅支持 1 个骨架。"
+
+#: src/operators.py:617
+#: src/operators.py:871
+msgid "Multiple Armatures selected - Must select exactly 1 Armature."
+msgstr "选择了多个骨架 - 必须恰好选择 1 个骨架。"
+
+#: src/properties.py:367
+msgid "Multiplier applied to Shape Key curves exported as Custom Property curves.\n\nCan be used to compensate for importers that expect values of 0-100 instead of 0-1\n\nOnly used when 'Shape Key Anim Mode' is set to 'Custom Properties'"
+msgstr "应用于以自定义属性曲线导出的形态键曲线的乘数。\n\n可用于补偿期望 0-100 而非 0-1 值的导入器\n\n仅在“形态键动画模式”设为“自定义属性”时使用"
+
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:522
+msgid "NLA Strips"
+msgstr "NLA 片段"
+
+#: src/properties.py:478
+msgid "Name"
+msgstr "名称"
+
+#: src/operators.py:231
+#: src/operators.py:389
+msgid "Name to identify this export, displayed in warnings. Internal, not set by users"
+msgstr "用于标识此导出的名称，显示在警告中。内部使用，不由用户设置"
+
+#: src/properties.py:262
+#: src/fbx_export/proto_fbx_init.py:506
+msgid "Name-Action"
+msgstr "名称-动作"
+
+#: src/properties.py:263
+#: src/fbx_export/proto_fbx_init.py:507
+msgid "Name@Action"
+msgstr "名称@动作"
+
+#: src/properties.py:261
+#: src/fbx_export/proto_fbx_init.py:505
+msgid "Name_Action"
+msgstr "名称_动作"
+
+#: src/properties.py:242
+#: src/fbx_export/proto_fbx_init.py:619
+msgid "No"
+msgstr "否"
+
+#: src/ui.py:735
+msgid "No Action Slot assigned!"
+msgstr "未分配动作槽！"
+
+#: src/operators.py:621
+#: src/operators.py:875
+msgid "No Armature selected - Must select exactly 1 Armature."
+msgstr "未选择骨架 - 必须恰好选择 1 个骨架。"
+
+#: src/properties.py:396
+msgid "Non-Deform Bones"
+msgstr "非变形骨骼"
+
+#: src/properties.py:194
+#: src/properties.py:214
+msgid "None"
+msgstr "无"
+
+#: src/fbx_export/proto_fbx_init.py:219
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:416
+msgid "Normals Only"
+msgstr "仅法线"
+
+#: src/fbx_export/proto_fbx_init.py:304
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:502
+msgid "Null"
+msgstr "空"
+
+#: src/properties.py:56
+msgid "Object"
+msgstr "物体"
+
+#: src/fbx_export/proto_fbx_init.py:204
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:389
+msgid "Object Types"
+msgstr "物体类型"
+
+#: src/ui.py:309
+msgid "Objects"
+msgstr "物体"
+
+#: src/properties.py:496
+msgid "Objects that will be included in this export.\n\nA maximum of 1 Armature is allowed"
+msgstr "将包含在此次导出中的物体。\n\n最多允许 1 个骨架"
+
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:562
+msgid "Off"
+msgstr "关闭"
+
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:134
+msgid "Offset to apply to animation during import, in frames"
+msgstr "导入时应用于动画的偏移量，单位为帧"
+
+#: src/properties.py:620
+msgid "On export, split this action into multiple 1-frame animations"
+msgstr "导出时，将此动作拆分为多个 1 帧动画"
+
+#: src/fbx_export/proto_fbx_init.py:297
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:495
+msgid "Only Deform Bones"
+msgstr "仅形变骨骼"
+
+#: src/fbx_export/proto_fbx_init.py:297
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:495
+msgid "Only write deforming bones (and non-deforming ones when they have deforming children)"
+msgstr "仅写入形变骨骼（当非形变骨骼拥有形变子级时也一并写入）"
+
+#: src/ui.py:364
+msgid "Options"
+msgstr "选项"
+
+#: src/ui.py:370
+msgid "Options -"
+msgstr "选项 -"
+
+#: src/ui.py:368
+msgid "Options - (no Export Item)"
+msgstr "选项 -（无导出项）"
+
+#: src/operators.py:119
+msgid "Options Preset"
+msgstr "选项预设"
+
+#: src/fbx_export/proto_fbx_init.py:212
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:397
+msgid "Other"
+msgstr "其他"
+
+#: src/ui.py:851
+msgid "Other Tools"
+msgstr "其他工具"
+
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:397
+msgid "Other geometry types, like curve, meta-ball, etc. (converted to meshes)"
+msgstr "其他几何类型，如曲线、融球等（转换为网格）"
+
+#: src/fbx_export/proto_fbx_init.py:212
+msgid "Other geometry types, like curve, metaball, etc. (converted to meshes)"
+msgstr "其他几何类型，如曲线、融球等（转换为网格）"
+
+#: src/ui.py:50
+msgid "PROTO FBX Export"
+msgstr "PROTO FBX 导出"
+
+#: __init__.py:5
+msgid "PROTO Game Asset Tools"
+msgstr "PROTO 游戏资产工具"
+
+#: src/operators.py:1400
+msgid "Pasted Export Options"
+msgstr "已粘贴的导出选项"
+
+#: src/properties.py:143
+#: src/properties.py:159
+msgid "Path"
+msgstr "路径"
+
+#: src/properties.py:536
+msgid "Pre-define multiple exports, export multiple in one click"
+msgstr "预定义多个导出，一键导出多个"
+
+#: src/fbx_export/proto_fbx_init.py:275
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:173
+msgid "Primary Bone Axis"
+msgstr "主骨骼轴"
+
+#: src/fbx_export/proto_fbx_init.py:236
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:434
+msgid "Prioritize Active Color"
+msgstr "优先使用活动颜色"
+
+#: src/ui.py:668
+msgid "Quick Action Select"
+msgstr "快速动作选择"
+
+#: src/properties.py:531
+msgid "Quick Export Mode"
+msgstr "快速导出模式"
+
+#: src/vertex_group_to_vertex_color.py:73
+#: src/vertex_group_to_vertex_color.py:163
+msgid "RGB"
+msgstr "RGB"
+
+#: src/vertex_group_to_vertex_color.py:74
+#: src/vertex_group_to_vertex_color.py:164
+msgid "RGBA"
+msgstr "RGBA"
+
+#: src/fbx_export/proto_fbx_init.py:1098
+msgid "Recommended to use the Add-on's"
+msgstr "建议使用该插件的"
+
+#: src/vertex_group_to_vertex_color.py:69
+#: src/vertex_group_to_vertex_color.py:159
+msgid "Red"
+msgstr "红色"
+
+#: src/vertex_group_to_vertex_color.py:69
+#: src/vertex_group_to_vertex_color.py:159
+msgid "Red color channel"
+msgstr "红色通道"
+
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:204
+msgid "Reference Existing"
+msgstr "引用现有"
+
+#: src/properties.py:314
+#: src/fbx_export/proto_fbx_init.py:426
+msgid "Remove Rotation from Bones"
+msgstr "移除骨骼旋转"
+
+#: src/properties.py:307
+#: src/fbx_export/proto_fbx_init.py:461
+msgid "Remove Scale from Bones"
+msgstr "移除骨骼缩放"
+
+#: src/properties.py:314
+#: src/fbx_export/proto_fbx_init.py:426
+msgid "Remove all bone rotation from bind pose, making each bone have (0,0,0) rotation (in Blender's coordinate system)"
+msgstr "从绑定姿态中移除所有骨骼旋转，使每根骨骼的旋转为 (0,0,0)（在 Blender 坐标系中）"
+
+#: src/properties.py:62
+msgid "Rename"
+msgstr "重命名"
+
+#: src/properties.py:220
+msgid "Rename Armature"
+msgstr "重命名骨架"
+
+#: src/fbx_export/proto_fbx_init.py:433
+msgid "Rename Root"
+msgstr "重命名根"
+
+#: src/operators.py:1524
+msgid "Render"
+msgstr "渲染"
+
+#: src/fbx_export/proto_fbx_init.py:305
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:503
+msgid "Root"
+msgstr "根"
+
+#: src/properties.py:327
+#: src/fbx_export/proto_fbx_init.py:475
+msgid "Root Bone Name"
+msgstr "根骨骼名称"
+
+#: src/ui.py:620
+#: src/fbx_export/proto_fbx_init.py:1214
+msgid "Root Objects"
+msgstr "根物体"
+
+#: src/fbx_export/proto_fbx_init.py:958
+msgid "Running in one_file_per_action mode, but more than 1 armature was present in exported objects! Only 1 is supported."
+msgstr "正在以 one_file_per_action 模式运行，但导出物体中存在多个骨架！仅支持 1 个。"
+
+#: src/fbx_export/proto_fbx_init.py:950
+msgid "Running in one_file_per_action mode, but no action were found!"
+msgstr "正在以 one_file_per_action 模式运行，但未找到任何动作！"
+
+#: src/fbx_export/proto_fbx_init.py:955
+msgid "Running in one_file_per_action mode, but no armatures were present in exported objects!"
+msgstr "正在以 one_file_per_action 模式运行，但导出物体中没有骨架！"
+
+#: src/fbx_export/proto_fbx_init.py:926
+msgid "Running with Flat Bone Hierarchy, but specified Root Bone was not found in the armature!"
+msgstr "正在以平铺骨骼层级运行，但在骨架中未找到指定的根骨骼！"
+
+#: src/fbx_export/proto_fbx_init.py:965
+#: src/fbx_export/proto_fbx_init.py:1000
+msgid "Running with min_two_frames enabled, but more than 1 armature was present in exported objects! Only 1 is supported."
+msgstr "正在以 min_two_frames 启用状态运行，但导出物体中存在多个骨架！仅支持 1 个。"
+
+#: src/fbx_export/proto_fbx_init.py:342
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:540
+msgid "Sampling Rate"
+msgstr "采样率"
+
+#: src/fbx_export/proto_fbx_init.py:494
+msgid "Save each Action to its own FBX animation file. Each file will be named after the Action's name"
+msgstr "将每个动作保存为独立的 FBX 动画文件。每个文件以动作名称命名"
+
+#: src/fbx_export/proto_fbx_init.py:162
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:83
+msgid "Scale"
+msgstr "缩放"
+
+#: src/fbx_export/proto_fbx_init.py:162
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:344
+msgid "Scale all data (Some importers do not support scaled armatures!)"
+msgstr "缩放所有数据（部分导入器不支持缩放后的骨架！）"
+
+#: src/ui.py:388
+#: src/fbx_export/proto_fbx_init.py:485
+msgid "Scene"
+msgstr "场景"
+
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:566
+msgid "Scene Collections"
+msgstr "场景集合"
+
+#: src/properties.py:179
+msgid "Scene Conversion"
+msgstr "场景转换"
+
+#: src/properties.py:211
+msgid "Scene Rotation"
+msgstr "场景旋转"
+
+#: src/properties.py:190
+#: src/fbx_export/proto_fbx_init.py:398
+msgid "Scene Scale"
+msgstr "场景缩放"
+
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:111
+msgid "Search subdirs for any associated images (WARNING: may be slow)"
+msgstr "在子目录中搜索所有关联图像（警告：可能较慢）"
+
+#: src/fbx_export/proto_fbx_init.py:286
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:184
+msgid "Secondary Bone Axis"
+msgstr "次骨骼轴"
+
+#: src/properties.py:288
+#: src/fbx_export/proto_fbx_init.py:101
+msgid "Select Actions considered for export"
+msgstr "选择导出时考虑的动作"
+
+#: src/properties.py:471
+msgid "Select for Export"
+msgstr "选择以导出"
+
+#: src/properties.py:531
+msgid "Select whether to do single exports of selected objects, or pre-defined batch exports"
+msgstr "选择对选中物体执行单次导出，还是执行预定义的批量导出"
+
+#: src/fbx_export/proto_fbx_init.py:142
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:324
+msgid "Selected Objects"
+msgstr "选中物体"
+
+#: src/properties.py:131
+msgid "Separate Animations"
+msgstr "分离动画"
+
+#: src/properties.py:185
+msgid "Set scene conversion options manually"
+msgstr "手动设置场景转换选项"
+
+#: src/properties.py:358
+#: src/fbx_export/proto_fbx_init.py:550
+msgid "Shape Key Anim Mode"
+msgstr "形态键动画模式"
+
+#: src/properties.py:351
+#: src/ui.py:527
+msgid "Shape Key Animation"
+msgstr "形态键动画"
+
+#: src/properties.py:367
+msgid "Shape Key Custom Prop Scale"
+msgstr "形态键自定义属性缩放"
+
+#: src/properties.py:268
+#: src/fbx_export/proto_fbx_init.py:513
+msgid "Shared Name"
+msgstr "共享名称"
+
+#: src/properties.py:334
+#: src/fbx_export/proto_fbx_init.py:349
+msgid "Simplify"
+msgstr "简化"
+
+#: src/operators.py:1529
+msgid "Skip Armature"
+msgstr "跳过骨架"
+
+#: src/properties.py:227
+#: src/fbx_export/proto_fbx_init.py:440
+msgid "Skip Armature Object"
+msgstr "跳过骨架物体"
+
+#: src/vertex_group_to_vertex_color.py:24
+#: src/vertex_group_to_vertex_color.py:36
+msgid "Skip Mask"
+msgstr "跳过遮罩"
+
+#: src/vertex_group_to_vertex_color.py:24
+#: src/vertex_group_to_vertex_color.py:36
+msgid "Skip the active Paint Mask"
+msgstr "跳过活动的绘制遮罩"
+
+#: src/vertex_group_to_vertex_color.py:85
+msgid "Skip the active Paint Mask.\n\nNOTE: Paint Mask is only visible in Vertex Paint mode, but can still be applied in all modes"
+msgstr "跳过活动的绘制遮罩。\n\n注意：绘制遮罩仅在顶点绘制模式下可见，但在所有模式下均可应用"
+
+#: src/fbx_export/proto_fbx_init.py:217
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:414
+msgid "Smoothing"
+msgstr "平滑"
+
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:419
+msgid "Smoothing Groups"
+msgstr "平滑组"
+
+#: src/batch_export_operators.py:408
+msgid "Some meshes could not be selected (not in the view layer?)"
+msgstr "部分网格无法被选中（不在视图层中？）"
+
+#: src/fbx_export/proto_fbx_init.py:157
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:339
+msgid "Source Collection"
+msgstr "源集合"
+
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:78
+msgid "Specify orientation and scale, instead of using embedded data in FBX file"
+msgstr "指定朝向和缩放，而不使用 FBX 文件中的内嵌数据"
+
+#: src/properties.py:608
+#: src/ui.py:787
+msgid "Start"
+msgstr "开始"
+
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:151
+msgid "Store enumeration values as strings"
+msgstr "将枚举值存储为字符串"
+
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:140
+msgid "Subdivision Data"
+msgstr "细分数据"
+
+#: src/properties.py:438
+#: src/fbx_export/proto_fbx_init.py:659
+msgid "Suppress Armature Warning"
+msgstr "抑制骨架警告"
+
+#: src/fbx_export/proto_fbx_init.py:169
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:351
+msgid "Take into account current Blender units settings (if unset, raw Blender Units values are used as-is)"
+msgstr "考虑当前 Blender 单位设置（若未设置，则直接使用原始 Blender 单位值）"
+
+#: src/fbx_export/proto_fbx_init.py:253
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:451
+msgid "Tangent Space"
+msgstr "切线空间"
+
+#: src/fbx_export/proto_fbx_init.py:1236
+msgid "These are options from the"
+msgstr "这些选项来自"
+
+#: preferences.py:76
+msgid "This add-on expects a given Armature to use exactly one (1) Slot per-Action."
+msgstr "此插件要求给定骨架的每个动作恰好使用一（1）个槽位。"
+
+#: src/fbx_export/proto_fbx_init.py:1097
+msgid "This export dialogue is a fallback."
+msgstr "此导出对话框为备用方案。"
+
+#: __init__.py:5
+msgid "Tools for game assets, with fixed exports for Unreal/Source."
+msgstr "游戏资产工具，为 Unreal/Source 提供修正后的导出。"
+
+#: src/properties.py:554
+msgid "Tracks if any export properties have been copied. Resets on file load"
+msgstr "跟踪是否有导出属性被复制。文件加载时重置"
+
+#: src/fbx_export/proto_fbx_init.py:1248
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:258
+msgid "Transform"
+msgstr "变换"
+
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:117
+msgid "Treat materials with alpha as decals (no shadow casting)"
+msgstr "将带 Alpha 的材质视为贴花（不投射阴影）"
+
+#: src/fbx_export/proto_fbx_init.py:259
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:457
+msgid "Triangulate Faces"
+msgstr "三角化面"
+
+#: src/fbx_export/proto_fbx_init.py:845
+msgid "Tried to bake current action, but selected armature did not have an active action!"
+msgstr "尝试烘焙当前动作，但所选骨架没有活动动作！"
+
+#: src/fbx_export/proto_fbx_init.py:842
+msgid "Tried to bake current action, but selected armature did not have animation data!"
+msgstr "尝试烘焙当前动作，但所选骨架没有动画数据！"
+
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:168
+msgid "Try to align the major bone axis with the bone children"
+msgstr "尝试将骨骼主轴与其子骨骼对齐"
+
+#: src/operators.py:122
+msgid "Unity"
+msgstr "Unity"
+
+#: src/properties.py:184
+msgid "Unity, Godot"
+msgstr "Unity、Godot"
+
+#: src/operators.py:121
+#: src/properties.py:183
+msgid "Unreal"
+msgstr "Unreal"
+
+#: src/batch_export_operators.py:245
+#: src/batch_export_operators.py:345
+msgid "Up"
+msgstr "向上"
+
+#: preferences.py:38
+msgid "Use Armature Name"
+msgstr "使用骨架名称"
+
+#: src/fbx_export/proto_fbx_init.py:383
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:579
+msgid "Use Metadata"
+msgstr "使用元数据"
+
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:409
+msgid "Use Modifiers Render Setting"
+msgstr "使用修改器渲染设置"
+
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:196
+msgid "Use Pre/Post Rotation"
+msgstr "使用前置/后置旋转"
+
+#: src/fbx_export/proto_fbx_init.py:190
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:375
+msgid "Use Space Transform"
+msgstr "使用空间变换"
+
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:196
+msgid "Use pre/post rotation from FBX transform (you may have to disable that in some cases)"
+msgstr "使用 FBX 变换中的前置/后置旋转（某些情况下可能需要禁用）"
+
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:409
+msgid "Use render settings when applying modifiers to mesh objects (DISABLED in Blender 2.8)"
+msgstr "对网格物体应用修改器时使用渲染设置（在 Blender 2.8 中已禁用）"
+
+#: src/ui.py:859
+msgid "Vertex Color Tools"
+msgstr "顶点颜色工具"
+
+#: src/properties.py:445
+#: src/fbx_export/proto_fbx_init.py:227
+msgid "Vertex Colors"
+msgstr "顶点颜色"
+
+#: src/ui.py:916
+msgid "Vertex Group to Vertex Color"
+msgstr "顶点组转顶点颜色"
+
+#: src/operators.py:1523
+msgid "Viewport"
+msgstr "视图"
+
+#: preferences.py:48
+msgid "Viewport Panel Category"
+msgstr "视图面板类别"
+
+#: preferences.py:81
+msgid "Viewport Panel Category:"
+msgstr "视图面板类别："
+
+#: src/fbx_export/proto_fbx_init.py:147
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:329
+msgid "Visible Objects"
+msgstr "可见物体"
+
+#: src/fbx_export/proto_fbx_init.py:210
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:395
+msgid "WARNING: not supported in dupli/group instances"
+msgstr "警告：不支持重复/组实例"
+
+#: src/vertex_group_to_vertex_color.py:16
+#: src/vertex_group_to_vertex_color.py:169
+msgid "Weight"
+msgstr "权重"
+
+#: preferences.py:48
+msgid "What Viewport panel category to use for this add-on"
+msgstr "此插件使用的视图面板类别"
+
+#: src/fbx_export/proto_fbx_init.py:643
+msgid "When True, child objects in the export will have rotation and scale applied, zeroing them out."
+msgstr "启用时，导出中的子物体会应用旋转和缩放并将其归零。"
+
+#: src/properties.py:389
+msgid "When True, export Custom Property animation even if the property is zero for the entire Action. Otherwise, skip these properties"
+msgstr "启用时，即使自定义属性在整个动作中为零也导出其动画。否则跳过这些属性"
+
+#: src/fbx_export/proto_fbx_init.py:581
+msgid "When True, export Custom Property animation even if the property is zero for the entire animation. Otherwise, skip these properties"
+msgstr "启用时，即使自定义属性在整个动画中为零也导出其动画。否则跳过这些属性"
+
+#: src/properties.py:374
+msgid "When True, export Shape Key animation even if a Shape Key is zero for the entire Action. Otherwise, skip these Shape Keys"
+msgstr "启用时，即使形态键在整个动作中为零也导出其动画。否则跳过这些形态键"
+
+#: src/fbx_export/proto_fbx_init.py:560
+msgid "When True, export Shape Key animation even if a Shape Key is zero for the entire animation. Otherwise, skip these Shape Keys"
+msgstr "启用时，即使形态键在整个动画中为零也导出其动画。否则跳过这些形态键"
+
+#: src/properties.py:396
+msgid "When True, export animation of Custom Properties on non-deform bones (even if those bones are not exported)"
+msgstr "启用时，导出非变形骨骼上自定义属性的动画（即使这些骨骼未被导出）"
+
+#: src/fbx_export/proto_fbx_init.py:588
+msgid "When True, export animation of Custom Properties on non-deforming bones (even if those bones are not exported)"
+msgstr "启用时，导出非变形骨骼上自定义属性的动画（即使这些骨骼未被导出）"
+
+#: src/properties.py:410
+#: src/fbx_export/proto_fbx_init.py:602
+msgid "When True, export animation of Custom Properties on the Armature Data.\n\nI.E. properties defined in the 'Data' panel"
+msgstr "启用时，导出骨架数据上自定义属性的动画。\n\n即“数据”面板中定义的属性"
+
+#: src/properties.py:403
+#: src/fbx_export/proto_fbx_init.py:595
+msgid "When True, export animation of Custom Properties on the Armature Object itself.\n\nI.E. properties defined in the 'Object' panel"
+msgstr "启用时，导出骨架物体自身自定义属性的动画。\n\n即“物体”面板中定义的属性"
+
+#: src/fbx_export/proto_fbx_init.py:635
+msgid "When True, root objects in the export (i.e. not parented to other exported objects) will have rotation and scale applied, zeroing them out."
+msgstr "启用时，导出中的根物体（即未父级到其他导出物体的物体）会应用旋转和缩放并将其归零。"
+
+#: src/fbx_export/proto_fbx_init.py:628
+msgid "When applying Modifiers, preserve Shape Keys on the Mesh.\n\nPotentially SLOW operation with many Shape Keys.\n\nEXPERIMENTAL: this is complicated and may have cases that do not work. Please report bugs with this option if you experience them."
+msgstr "应用修改器时，保留网格上的形态键。\n\n形态键较多时可能非常慢。\n\n实验性：此功能较复杂，可能存在无法正常工作的情况。如遇到问题请报告此选项的错误。"
+
+#: src/properties.py:250
+msgid "When applying Modifiers, preserve Shape Keys on the mesh.\n\nPotentially SLOW operation with many Shape Keys.\n\nEXPERIMENTAL: this is complicated and may have cases that do not work. Please report bugs with this option if you experience them."
+msgstr "应用修改器时，保留网格上的形态键。\n\n形态键较多时可能非常慢。\n\n实验性：此功能较复杂，可能存在无法正常工作的情况。如遇到问题请报告此选项的错误。"
+
+#: src/fbx_export/proto_fbx_init.py:513
+msgid "When exporting 1 File Per Action, shared name that will be combined with the Action Name to make a file name"
+msgstr "每个动作导出为一个文件时，与动作名称组合成文件名的共用名称"
+
+#: src/fbx_export/proto_fbx_init.py:501
+msgid "When exporting 1 File Per Action, the format to use for their file names"
+msgstr "每个动作导出为一个文件时，其文件名使用的格式"
+
+#: src/properties.py:268
+msgid "When exporting Actions as FBX animations, shared name that will be combined with the Action Name to make a file name"
+msgstr "将动作导出为 FBX 动画时，与动作名称组合成文件名的共用名称"
+
+#: src/properties.py:256
+msgid "When exporting Actions as FBX animations, the format to use for their file names"
+msgstr "将动作导出为 FBX 动画时，其文件名使用的格式"
+
+#: src/properties.py:300
+msgid "When exporting Actions, force frame range to be at least 2 frames long.\n\nAvoids a Blender FBX export bug where no keys are exported for 1 frame animations. Recommended to always leave this enabled"
+msgstr "导出动作时，强制帧范围至少为 2 帧。\n\n避免 Blender FBX 导出的一个错误：单帧动画不会导出任何关键帧。建议始终保持启用"
+
+#: src/fbx_export/proto_fbx_init.py:454
+msgid "When exporting Actions, force frame range to be at least 2 frames long.\nFixes import issue with Unreal, where it cannot import 1 frame animations"
+msgstr "导出动作时，强制帧范围至少为 2 帧。\n修复 Unreal 的导入问题：它无法导入单帧动画"
+
+#: src/properties.py:167
+msgid "When exporting all Actions, save each action to its own FBX file. Each file will be named after the Action's name"
+msgstr "导出所有动作时，将每个动作保存到单独的 FBX 文件。每个文件以动作名称命名"
+
+#: src/properties.py:360
+msgid "When exporting an Armature with animation, Shape Key animation of deformed Meshes is detected and converted to Custom Property curves on the Armature root bone.\n\nRecommended for: Unreal.\nNote: Unity can import these curves, but will not automatically apply them to Blendshape animation"
+msgstr "导出带动画的骨架时，检测变形网格的形态键动画并转换为骨架根骨骼上的自定义属性曲线。\n\n推荐用于：Unreal。\n注意：Unity 可以导入这些曲线，但不会自动将其应用于混合变形动画"
+
+#: src/properties.py:361
+msgid "When exporting an Armature with animation, Shape Key animation of deformed Meshes is detected and converted to Shape Key curves on a dummy mesh. Allows for real FBX blendshape curves while keeping filesize down.\n\nRecommended for: Unity, Godot"
+msgstr "导出带动画的骨架时，检测变形网格的形态键动画并转换为虚拟网格上的形态键曲线。可保留真实的 FBX 混合变形曲线，同时减小文件体积。\n\n推荐用于：Unity、Godot"
+
+#: src/properties.py:307
+#: src/fbx_export/proto_fbx_init.py:461
+msgid "When exporting armatures and actions, remove all scaling from bones.\n\nTIP: if you see innacurate animations after export, it is often the result of scaled bones. This option can be used to work around rigs that producing scaled bones"
+msgstr "导出骨架和动作时，移除骨骼上的所有缩放。\n\n提示：如果导出后动画不准确，通常是骨骼缩放导致的。此选项可用于绕过会产生缩放骨骼的绑定"
+
+#: src/properties.py:320
+#: src/fbx_export/proto_fbx_init.py:468
+msgid "When exporting armatures and actions, set all bones' parents to the given root bone.\n\nTIP: Useful if you want to do squash/stretch bone scaling in a game engine. A flat hierarchy avoids distorted transforms resulting from scaled bone chains, but is not recommended under normal circumstances"
+msgstr "导出骨架和动作时，将所有骨骼的父级设为指定的根骨骼。\n\n提示：如果要在游戏引擎中做挤压/拉伸骨骼缩放，此选项很有用。扁平层级可避免缩放骨骼链导致的变换扭曲，但正常情况下不建议使用"
+
+#: src/properties.py:595
+msgid "When true, Set Timeline will ignore a frame on frame zero, and set the start to frame one instead. Useful when previewing looping animations.\n\nNOTE: Quick Export functions will still export the full frame-range of the action"
+msgstr "启用时，设置时间轴将忽略第零帧，改为从第一帧开始。预览循环动画时很有用。\n\n注意：快速导出功能仍会导出动作的完整帧范围"
+
+#: src/fbx_export/proto_fbx_init.py:567
+msgid "When using 'From Armature as Props' Shape Key animation export, scale applied to exported curves.\n\nCan be used to compensate for importers that expect values of 0-100 instead of 0-1"
+msgstr "使用“从骨架作为属性”形态键动画导出时，应用于导出曲线的缩放。\n\n可用于补偿期望 0-100 而非 0-1 值的导入器"
+
+#: src/properties.py:327
+#: src/fbx_export/proto_fbx_init.py:475
+msgid "When using Flat Bone Hierarchy, name of the bone to treat as the root.\nLeave blank to make all bones have no parent (making the Armature itself the root)"
+msgstr "使用扁平骨骼层级时，作为根骨骼处理的骨骼名称。\n留空则所有骨骼均无父级（使骨架本身成为根）"
+
+#: src/properties.py:159
+msgid "Where save the exported Animation FBX file"
+msgstr "导出动画 FBX 文件的保存位置"
+
+#: src/properties.py:143
+msgid "Where to save the exported Model FBX"
+msgstr "导出模型 FBX 的保存位置"
+
+#: src/operators.py:1519
+msgid "Which Modifiers to apply"
+msgstr "要应用的修改器"
+
+#: src/vertex_group_to_vertex_color.py:65
+#: src/vertex_group_to_vertex_color.py:155
+msgid "Which color channel to fill (Red, Green, Blue, Alpha)"
+msgstr "要填充的颜色通道（红、绿、蓝、Alpha）"
+
+#: src/fbx_export/proto_fbx_init.py:204
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:389
+msgid "Which kind of object to export"
+msgstr "要导出的物体类型"
+
+#: src/fbx_export/proto_fbx_init.py:221
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:418
+msgid "Write edge smoothing"
+msgstr "写入边平滑"
+
+#: src/fbx_export/proto_fbx_init.py:220
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:417
+msgid "Write face smoothing"
+msgstr "写入面平滑"
+
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:419
+msgid "Write face smoothing groups"
+msgstr "写入面平滑组"
+
+#: src/fbx_export/proto_fbx_init.py:277
+#: src/fbx_export/proto_fbx_init.py:288
+msgid "X Axis"
+msgstr "X 轴"
+
+#: src/fbx_export/proto_fbx_init.py:278
+#: src/fbx_export/proto_fbx_init.py:289
+msgid "Y Axis"
+msgstr "Y 轴"
+
+#: src/properties.py:243
+#: src/fbx_export/proto_fbx_init.py:620
+msgid "Yes, all"
+msgstr "是，全部"
+
+#: src/properties.py:245
+#: src/fbx_export/proto_fbx_init.py:622
+msgid "Yes, render"
+msgstr "是，渲染"
+
+#: src/properties.py:244
+#: src/fbx_export/proto_fbx_init.py:621
+msgid "Yes, viewport"
+msgstr "是，视图"
+
+#: src/fbx_export/proto_fbx_init.py:279
+#: src/fbx_export/proto_fbx_init.py:290
+msgid "Z Axis"
+msgstr "Z 轴"
+
+#: src/properties.py:215
+msgid "Z Forward (Unity, Godot)"
+msgstr "Z 向前（Unity、Godot）"
+
+#: src/properties.py:389
+msgid "Zeroed Properties"
+msgstr "归零属性"
+
+#: src/properties.py:374
+msgid "Zeroed Shape Keys"
+msgstr "归零形态键"
+
+#: preferences.py:63
+msgid "custom name for the add-on's viewport panel category"
+msgstr "插件视图面板分类的自定义名称"
+
+#: src/fbx_export/proto_fbx_init.py:1237
+msgid "default FBX exporter. Compatibility is"
+msgstr "默认 FBX 导出器。兼容性"
+
+#: src/fbx_export/proto_fbx_init.py:759
+msgid "no valid exportable objects found"
+msgstr "未找到可导出的有效物体"
+
+#: src/fbx_export/proto_fbx_init.py:1238
+msgid "not guaranteed, use at your own risk."
+msgstr "不保证，使用风险自负。"
+
+#: src/fbx_export/proto_fbx_init.py:1099
+msgid "panel in the viewport instead."
+msgstr "改为视图中的面板。"
+
+#: src/properties.py:448
+#: src/fbx_export/proto_fbx_init.py:230
+msgid "sRGB"
+msgstr "sRGB"
+
+#: src/ui.py:738
+#: src/ui.py:741
+msgctxt "Operator"
+msgid "'"
+msgstr "'"
+
+#: src/ui.py:758
+msgctxt "Operator"
+msgid "' to '"
+msgstr "' 到 '"
+
+#: src/ui.py:163
+msgctxt "Operator"
+msgid "Active"
+msgstr "活动"
+
+#: src/ui.py:310
+msgctxt "Operator"
+msgid "Add"
+msgstr "添加"
+
+#: src/batch_export_operators.py:168
+msgctxt "Operator"
+msgid "Add Export Item"
+msgstr "添加导出项"
+
+#: src/batch_export_operators.py:279
+msgctxt "Operator"
+msgid "Add Export Object"
+msgstr "添加导出物体"
+
+#: src/ui.py:164
+msgctxt "Operator"
+msgid "All"
+msgstr "全部"
+
+#: src/operators.py:1496
+msgctxt "Operator"
+msgid "Apply Active Modifier"
+msgstr "应用活动修改器"
+
+#: src/operators.py:1516
+msgctxt "Operator"
+msgid "Apply All Modifiers"
+msgstr "应用所有修改器"
+
+#: src/batch_export_operators.py:54
+msgctxt "Operator"
+msgid "Batch Export"
+msgstr "批量导出"
+
+#: src/ui.py:910
+msgctxt "Operator"
+msgid "Clear"
+msgstr "清除"
+
+#: src/operators.py:1356
+msgctxt "Operator"
+msgid "Copy"
+msgstr "复制"
+
+#: src/operators.py:1037
+msgctxt "Operator"
+msgid "Create Anim Data"
+msgstr "创建动画数据"
+
+#: src/operators.py:1269
+msgctxt "Operator"
+msgid "Create Object Name Slot"
+msgstr "创建物体名称槽"
+
+#: src/ui.py:741
+#: src/ui.py:756
+msgctxt "Operator"
+msgid "Create Slot '"
+msgstr "创建槽 '"
+
+#: src/operators.py:1117
+msgctxt "Operator"
+msgid "Delete Action"
+msgstr "删除动作"
+
+#: src/operators.py:1140
+msgctxt "Operator"
+msgid "Delete Action Slot"
+msgstr "删除动作槽"
+
+#: src/operators.py:1200
+msgctxt "Operator"
+msgid "Delete Legacy Slot"
+msgstr "删除旧版槽"
+
+#: src/operators.py:1225
+msgctxt "Operator"
+msgid "Delete Mesh Animation Data"
+msgstr "删除网格动画数据"
+
+#: src/batch_export_operators.py:416
+msgctxt "Operator"
+msgid "Deselect All"
+msgstr "取消选择全部"
+
+#: src/ui.py:468
+msgctxt "Operator"
+msgid "Disable All"
+msgstr "全部禁用"
+
+#: src/batch_export_operators.py:211
+msgctxt "Operator"
+msgid "Duplicate Export Item"
+msgstr "复制导出项"
+
+#: src/ui.py:466
+msgctxt "Operator"
+msgid "Enable All"
+msgstr "全部启用"
+
+#: src/ui.py:123
+msgctxt "Operator"
+msgid "Export"
+msgstr "导出"
+
+#: src/ui.py:170
+msgctxt "Operator"
+msgid "Export All Actions"
+msgstr "导出所有动作"
+
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:315
+msgctxt "Operator"
+msgid "Export FBX"
+msgstr "导出 FBX"
+
+#: src/ui.py:143
+msgctxt "Operator"
+msgid "Export Model"
+msgstr "导出模型"
+
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:720
+msgctxt "Operator"
+msgid "FBX (.fbx)"
+msgstr "FBX (.fbx)"
+
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:716
+msgctxt "Operator"
+msgid "FBX (.fbx) (Legacy)"
+msgstr "FBX (.fbx)（旧版）"
+
+#: src/vertex_group_to_vertex_color.py:152
+msgctxt "Operator"
+msgid "Fill Vertex Color"
+msgstr "填充顶点色"
+
+#: src/fbx_export/io_scene_fbx_5_2/__init__.py:53
+msgctxt "Operator"
+msgid "Import FBX"
+msgstr "导入 FBX"
+
+#: src/operators.py:1411
+#: src/operators.py:1452
+msgctxt "Operator"
+msgid "Info"
+msgstr "信息"
+
+#: src/operators.py:1164
+msgctxt "Operator"
+msgid "Migrate Legacy Slot"
+msgstr "迁移旧版槽"
+
+#: src/batch_export_operators.py:243
+msgctxt "Operator"
+msgid "Move Export Item"
+msgstr "移动导出项"
+
+#: src/batch_export_operators.py:343
+msgctxt "Operator"
+msgid "Move Export Object"
+msgstr "移动导出物体"
+
+#: src/operators.py:1056
+msgctxt "Operator"
+msgid "New Action"
+msgstr "新建动作"
+
+#: src/operators.py:117
+msgctxt "Operator"
+msgid "Options Presets"
+msgstr "选项预设"
+
+#: src/fbx_export/proto_fbx_init.py:126
+msgctxt "Operator"
+msgid "PROTO Export FBX"
+msgstr "PROTO 导出 FBX"
+
+#: src/fbx_export/proto_fbx_init.py:1327
+msgctxt "Operator"
+msgid "PROTO FBX (.fbx)"
+msgstr "PROTO FBX (.fbx)"
+
+#: src/operators.py:1385
+msgctxt "Operator"
+msgid "Paste"
+msgstr "粘贴"
+
+#: src/operators.py:783
+msgctxt "Operator"
+msgid "Quick Export All Actions"
+msgstr "快速导出所有动作"
+
+#: src/operators.py:549
+msgctxt "Operator"
+msgid "Quick Export Current Action"
+msgstr "快速导出当前动作"
+
+#: src/operators.py:386
+msgctxt "Operator"
+msgid "Quick Export Mesh"
+msgstr "快速导出网格"
+
+#: src/operators.py:228
+msgctxt "Operator"
+msgid "Quick Export Mesh and Animations"
+msgstr "快速导出网格和动画"
+
+#: src/operators.py:1001
+#: src/fbx_export/proto_fbx_init.py:77
+msgctxt "Operator"
+msgid "Refresh Action list"
+msgstr "刷新动作列表"
+
+#: src/batch_export_operators.py:185
+msgctxt "Operator"
+msgid "Remove Export Item"
+msgstr "移除导出项"
+
+#: src/batch_export_operators.py:317
+msgctxt "Operator"
+msgid "Remove Export Object"
+msgstr "移除导出物体"
+
+#: src/operators.py:1302
+msgctxt "Operator"
+msgid "Rename Current Slot To Object Name"
+msgstr "将当前槽重命名为物体名称"
+
+#: src/ui.py:758
+msgctxt "Operator"
+msgid "Rename Slot '"
+msgstr "重命名槽 '"
+
+#: src/ui.py:311
+msgctxt "Operator"
+msgid "Rmv"
+msgstr "移除"
+
+#: src/batch_export_operators.py:378
+msgctxt "Operator"
+msgid "Select All"
+msgstr "全选"
+
+#: src/operators.py:1331
+msgctxt "Operator"
+msgid "Set Timeline"
+msgstr "设置时间轴"
+
+#: src/operators.py:1243
+msgctxt "Operator"
+msgid "Switch To Object Name Slot"
+msgstr "切换到物体名称槽"
+
+#: src/ui.py:738
+#: src/ui.py:753
+msgctxt "Operator"
+msgid "Switch to Slot '"
+msgstr "切换到槽 '"
+
+#: src/operators.py:1098
+msgctxt "Operator"
+msgid "Unlink Action"
+msgstr "取消链接动作"
+
+#: src/vertex_group_to_vertex_color.py:62
+msgctxt "Operator"
+msgid "Vertex Group To Vertex Color)"
+msgstr "顶点组转顶点色)"

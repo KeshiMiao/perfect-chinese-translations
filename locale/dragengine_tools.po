@@ -1,0 +1,1113 @@
+# perfect-chinese: 1
+# id: dragengine_tools
+# kind: addon
+# module: bl_ext.blender_org.dragengine_tools
+# name: Drag[en]gine Import/Export
+# name_zh: 引擎资源导入导出
+# translator: KeshiMiao
+# category: Import-Export
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: dragengine-import-export/de_tools.py:453
+msgid "Animation"
+msgstr "动画"
+
+#: dragengine-import-export/de_tools.py:1059
+msgid "Animation is looping (skip last frame which is duplicate of first)"
+msgstr "动画循环（跳过与首帧重复的最后一帧）"
+
+#: dragengine-import-export/de_tools.py:77
+msgid "Apply only to selected edges"
+msgstr "仅应用到选中边"
+
+#: dragengine-import-export/de_tools.py:78
+msgid "Apply only to visible edges"
+msgstr "仅应用到可见边"
+
+#: dragengine-import-export/de_tools.py:1046
+msgid "Automatic Range"
+msgstr "自动范围"
+
+#: dragengine-import-export/de_tool_loderrorcalc.py:41
+msgid "Average Error"
+msgstr "平均误差"
+
+#: dragengine-import-export/de_tools.py:794
+msgid "Base UV Map"
+msgstr "基础 UV 贴图"
+
+#: dragengine-import-export/de_export_animation.py:86
+#: dragengine-import-export/de_export_model.py:51
+msgid "Basic"
+msgstr "基础"
+
+#: dragengine-import-export/de_import_rig.py:52
+msgid "Bone Length"
+msgstr "骨骼长度"
+
+#: dragengine-import-export/de_tools.py:907
+msgid "Bottom"
+msgstr "底部"
+
+#: dragengine-import-export/de_tools.py:872
+msgid "Bottom Radius Scale"
+msgstr "底部半径缩放"
+
+#: dragengine-import-export/de_tools.py:872
+msgid "Bottom radius scaling (capsule/cylinder)"
+msgstr "底部半径缩放（胶囊/圆柱）"
+
+#: dragengine-import-export/de_tools.py:859
+msgid "Box"
+msgstr "盒体"
+
+#: dragengine-import-export/de_tools.py:859
+msgid "Box shaped physics object"
+msgstr "盒形物理物体"
+
+#: dragengine-import-export/de_tools.py:359
+msgid "Calc Average Error"
+msgstr "计算平均误差"
+
+#: dragengine-import-export/de_tool_loderrorcalc.py:138
+msgid "Calc Avg Error"
+msgstr "计算平均误差"
+
+#: dragengine-import-export/de_tool_loderrorcalc.py:136
+msgid "Calc Max Error"
+msgstr "计算最大误差"
+
+#: dragengine-import-export/de_tools.py:356
+msgid "Calc Maximum Error"
+msgstr "计算最大误差"
+
+#: dragengine-import-export/de_tool_loderrorcalc.py:138
+msgid "Calculate average error"
+msgstr "计算平均误差"
+
+#: dragengine-import-export/de_tool_loderrorcalc.py:136
+msgid "Calculate maximum error"
+msgstr "计算最大误差"
+
+#: dragengine-import-export/de_tool_loderrorcalc.py:53
+msgid "Camera FOV"
+msgstr "摄像机视场角"
+
+#: dragengine-import-export/de_export_model.py:275
+#: dragengine-import-export/de_tool_gbuffernormgen.py:746
+msgid "Can not Multi-Fold meshes (Edges used by more than 2 faces)."
+msgstr "无法多重折叠网格（边被多于 2 个面使用）。"
+
+#: dragengine-import-export/de_tools.py:861
+msgid "Capsule"
+msgstr "胶囊"
+
+#: dragengine-import-export/de_tools.py:861
+msgid "Capsule shaped physics object"
+msgstr "胶囊形物理物体"
+
+#: dragengine-import-export/de_tools.py:904
+msgid "Capsule/Cylinder Radius Scale"
+msgstr "胶囊/圆柱半径缩放"
+
+#: dragengine-import-export/de_export_animation.py:84
+#: dragengine-import-export/de_export_model.py:49
+msgid "Choose amount of logging"
+msgstr "选择日志记录量"
+
+#: dragengine-import-export/de_tools.py:221
+msgid "Collapse"
+msgstr "折叠"
+
+#: dragengine-import-export/de_tools.py:208
+msgid "Collapse Vertices"
+msgstr "折叠顶点"
+
+#: dragengine-import-export/de_tools.py:862
+msgid "Convex Hull"
+msgstr "凸包"
+
+#: dragengine-import-export/de_tools.py:862
+msgid "Convex hull shaped physics object"
+msgstr "凸包形物理物体"
+
+#: dragengine-import-export/de_tool_copyvertex.py:38
+msgid "Coordinates"
+msgstr "坐标"
+
+#: dragengine-import-export/de_tools.py:773
+msgid "Custom LOD error to use (relative to base mesh)"
+msgstr "使用的自定义 LOD 误差（相对于基础网格）"
+
+#: dragengine-import-export/de_tools.py:860
+msgid "Cylinder"
+msgstr "圆柱"
+
+#: dragengine-import-export/de_tools.py:860
+msgid "Cylinder shaped physics object"
+msgstr "圆柱形物理物体"
+
+#: dragengine-import-export/de_export_animation.py:88
+#: dragengine-import-export/de_export_model.py:53
+msgid "Debug"
+msgstr "调试"
+
+#: dragengine-import-export/de_tools.py:923
+msgid "Decal"
+msgstr "贴花"
+
+#: dragengine-import-export/de_tools.py:926
+msgid "Decal Offset"
+msgstr "贴花偏移"
+
+#: dragengine-import-export/de_export_model.py:278
+#: dragengine-import-export/de_export_navspace.py:117
+msgid "Degenerated Faces found."
+msgstr "发现退化面。"
+
+#: dragengine-import-export/de_tools.py:1115
+msgid "Determines if short format is used instead of float format. Short format produces smaller files but can cause artifacts due to the limited resolution"
+msgstr "确定是否使用短格式而非浮点格式。短格式文件更小，但受分辨率限制可能产生伪影"
+
+#: dragengine-import-export/de_tools.py:1298
+msgid "Determines if the progress panel is visible"
+msgstr "确定进度面板是否可见"
+
+#: dragengine-import-export/de_tools.py:1046
+msgid "Determines if the range to export is determined from the first and last keyframe set"
+msgstr "确定导出范围是否由第一个和最后一个关键帧集确定"
+
+#: dragengine-import-export/de_tools.py:1034
+msgid "Determines if this action is exported"
+msgstr "确定是否导出此动作"
+
+#: dragengine-import-export/de_tool_rounding.py:41
+msgid "Digits"
+msgstr "位数"
+
+#: dragengine-import-export/de_tool_rounding.py:41
+msgid "Digits to round to"
+msgstr "舍入位数"
+
+#: dragengine-import-export/de_tool_loderrorcalc.py:64
+msgid "Distance"
+msgstr "距离"
+
+#: dragengine-import-export/de_tools.py:920
+msgid "Double Sided"
+msgstr "双面"
+
+#: dragengine-import-export/de_tools.py:207
+#: dragengine-import-export/de_tools.py:230
+msgid "Drag[en]gine"
+msgstr "Drag[en]gine"
+
+#: dragengine-import-export/de_tools.py:587
+msgid "Drag[en]gine Global"
+msgstr "Drag[en]gine 全局"
+
+#: dragengine-import-export/de_tools.py:1188
+msgid "Drag[en]gine Ignore Bones"
+msgstr "Drag[en]gine 忽略骨骼"
+
+#: dragengine-import-export/__init__.py:34
+msgid "Drag[en]gine Import/Export"
+msgstr "Drag[en]gine 导入/导出"
+
+#: dragengine-import-export/de_tools.py:835
+msgid "Drag[en]gine LOD"
+msgstr "Drag[en]gine LOD"
+
+#: dragengine-import-export/de_tools.py:811
+msgid "Drag[en]gine Model"
+msgstr "Drag[en]gine 模型"
+
+#: dragengine-import-export/de_tools.py:1068
+msgid "Drag[en]gine Move"
+msgstr "Drag[en]gine 动作"
+
+#: dragengine-import-export/de_tools.py:723
+msgid "Drag[en]gine Move Set Filters"
+msgstr "Drag[en]gine 动作集过滤器"
+
+#: dragengine-import-export/de_tools.py:705
+msgid "Drag[en]gine Move Sets"
+msgstr "Drag[en]gine 动作集"
+
+#: dragengine-import-export/de_tools.py:891
+msgid "Drag[en]gine Physics"
+msgstr "Drag[en]gine 物理"
+
+#: dragengine-import-export/__init__.py:50
+#: dragengine-import-export/__init__.py:82
+msgid "Drag[en]gine Resources"
+msgstr "Drag[en]gine 资源"
+
+#: dragengine-import-export/de_tools.py:1209
+msgid "Drag[en]gine Rig"
+msgstr "Drag[en]gine 骨架"
+
+#: dragengine-import-export/de_tools.py:939
+msgid "Drag[en]gine Texture"
+msgstr "Drag[en]gine 纹理"
+
+#: dragengine-import-export/de_tools.py:550
+msgid "Drag[en]gine Tools"
+msgstr "Drag[en]gine 工具"
+
+#: dragengine-import-export/de_tools.py:1004
+msgid "Drag[en]gine Vertex Group"
+msgstr "Drag[en]gine 顶点组"
+
+#: dragengine-import-export/de_tools.py:294
+msgid "Editing"
+msgstr "编辑"
+
+#: dragengine-import-export/de_tools.py:496
+msgid "Element Class"
+msgstr "元素类别"
+
+#: dragengine-import-export/de_tool_loderrorcalc.py:61
+#: dragengine-import-export/de_tools.py:773
+msgid "Error"
+msgstr "误差"
+
+#: dragengine-import-export/de_tools.py:426
+#: dragengine-import-export/de_tools.py:476
+msgid "Export"
+msgstr "导出"
+
+#: dragengine-import-export/de_export_animation.py:91
+msgid "Export All"
+msgstr "全部导出"
+
+#: dragengine-import-export/de_export_animation.py:90
+msgid "Export Mode"
+msgstr "导出模式"
+
+#: dragengine-import-export/de_tools.py:917
+#: dragengine-import-export/de_tools.py:1037
+msgid "Export Name"
+msgstr "导出名称"
+
+#: dragengine-import-export/de_tools.py:1231
+msgid "Export Options"
+msgstr "导出选项"
+
+#: dragengine-import-export/de_tools.py:1222
+msgid "Export Threshold"
+msgstr "导出阈值"
+
+#: dragengine-import-export/de_export_animation.py:91
+msgid "Export all moves. File is completely overwritten."
+msgstr "导出所有动作。文件将被完全覆盖。"
+
+#: dragengine-import-export/de_export_animation.py:90
+msgid "Export mode"
+msgstr "导出模式"
+
+#: dragengine-import-export/de_tools.py:1037
+msgid "Export name to use for the action. Use empty string to use the blender action name"
+msgstr "用于动作的导出名称。留空则使用 Blender 动作名称"
+
+#: dragengine-import-export/de_tools.py:917
+msgid "Export name to use for the material. Use empty string to use the blender material name"
+msgstr "用于材质的导出名称。留空则使用 Blender 材质名称"
+
+#: dragengine-import-export/de_export_animation.py:92
+msgid "Export single move. File is updated with exported move."
+msgstr "导出单个动作。文件将用导出的动作更新。"
+
+#: dragengine-import-export/de_tools.py:607
+#: dragengine-import-export/de_tools.py:1110
+msgid "Expression"
+msgstr "表达式"
+
+#: dragengine-import-export/de_tools.py:580
+msgid "FPS"
+msgstr "FPS"
+
+#: dragengine-import-export/de_tools.py:580
+msgid "FPS to use for animations"
+msgstr "用于动画的 FPS"
+
+#: dragengine-import-export/de_tools.py:920
+msgid "Faces are double sided"
+msgstr "面为双面"
+
+#: dragengine-import-export/de_tools.py:923
+msgid "Faces are rendered as decal"
+msgstr "面渲染为贴花"
+
+#: dragengine-import-export/de_tools.py:607
+#: dragengine-import-export/de_tools.py:1110
+msgid "Filter Expression"
+msgstr "过滤表达式"
+
+#: dragengine-import-export/de_tools.py:1051
+msgid "First frame to export if not using automatic range"
+msgstr "不使用自动范围时导出的起始帧"
+
+#: dragengine-import-export/de_tools.py:319
+msgid "Generators"
+msgstr "生成器"
+
+#: dragengine-import-export/de_tools.py:781
+msgid "Grid"
+msgstr "网格"
+
+#: dragengine-import-export/de_tools.py:781
+msgid "Grid type navigation space"
+msgstr "网格类型导航空间"
+
+#: dragengine-import-export/de_tools.py:966
+msgid "Group"
+msgstr "组"
+
+#: dragengine-import-export/de_tools.py:966
+msgid "Group name"
+msgstr "组名"
+
+#: dragengine-import-export/de_tool_homogenize.py:271
+#: dragengine-import-export/de_tools.py:404
+msgid "Homogenize"
+msgstr "均匀化"
+
+#: dragengine-import-export/de_import_animation.py:55
+msgid "Import All"
+msgstr "全部导入"
+
+#: dragengine-import-export/de_import_animation.py:54
+msgid "Import Mode"
+msgstr "导入模式"
+
+#: dragengine-import-export/de_import_animation.py:56
+msgid "Import Single"
+msgstr "导入单个"
+
+#: dragengine-import-export/de_import_animation.py:55
+msgid "Import all moves."
+msgstr "导入所有动作。"
+
+#: dragengine-import-export/de_import_animation.py:54
+msgid "Import mode"
+msgstr "导入模式"
+
+#: dragengine-import-export/de_import_animation.py:56
+msgid "Import single move."
+msgstr "导入单个动作。"
+
+#: dragengine-import-export/__init__.py:34
+msgid "Import-Export"
+msgstr "导入导出"
+
+#: dragengine-import-export/__init__.py:34
+msgid "Import/Export Drag[en]gine Resources including helper tools"
+msgstr "导入/导出 Drag[en]gine 资源，包括辅助工具"
+
+#: dragengine-import-export/de_tool_collapsevertices.py:35
+#: dragengine-import-export/de_tool_copyvertex.py:34
+msgid "Index"
+msgstr "索引"
+
+#: dragengine-import-export/de_tools.py:1297
+msgid "Info Text"
+msgstr "信息文本"
+
+#: dragengine-import-export/de_tools.py:1297
+msgid "Information text to display"
+msgstr "要显示的信息文本"
+
+#: dragengine-import-export/de_tools.py:340
+msgid "LOD Testing"
+msgstr "LOD 测试"
+
+#: dragengine-import-export/de_export_model.py:150
+msgid "LOD mesh has not the same armature as the base mesh!"
+msgstr "LOD 网格的骨架与基础网格不相同！"
+
+#: dragengine-import-export/de_tools.py:769
+msgid "LOD-Error"
+msgstr "LOD 错误"
+
+#: dragengine-import-export/de_tools.py:764
+msgid "LOD-Mesh"
+msgstr "LOD 网格"
+
+#: dragengine-import-export/de_tools.py:1055
+msgid "Last frame to export if not using automatic range"
+msgstr "不使用自动范围时导出的结束帧"
+
+#: dragengine-import-export/de_import_rig.py:52
+msgid "Length of bones"
+msgstr "骨骼长度"
+
+#: dragengine-import-export/de_export_animation.py:84
+#: dragengine-import-export/de_export_model.py:49
+msgid "Logging"
+msgstr "日志"
+
+#: dragengine-import-export/de_export_model.py:128
+msgid "Loop in LOD meshes!"
+msgstr "LOD 网格中存在循环！"
+
+#: dragengine-import-export/de_tools.py:1059
+msgid "Looping"
+msgstr "循环"
+
+#: dragengine-import-export/de_tool_loderrorcalc.py:39
+msgid "Max Error"
+msgstr "最大误差"
+
+#: dragengine-import-export/de_tools.py:800
+msgid "Max Weights"
+msgstr "最大权重数"
+
+#: dragengine-import-export/de_tools.py:800
+msgid "Maximum number of weights per weight-set"
+msgstr "每个权重集的最大权重数"
+
+#: dragengine-import-export/de_tools.py:782
+msgid "Mesh"
+msgstr "网格"
+
+#: dragengine-import-export/de_tools.py:764
+msgid "Mesh to use as next LOD"
+msgstr "用作下一级 LOD 的网格"
+
+#: dragengine-import-export/de_tools.py:782
+msgid "Mesh type navigation space"
+msgstr "网格类型导航空间"
+
+#: dragengine-import-export/de_tool_copyvertex.py:94
+msgid "Mirror"
+msgstr "镜像"
+
+#: dragengine-import-export/de_tool_copyvertex.py:94
+msgid "Mirror vertices"
+msgstr "镜像顶点"
+
+#: dragengine-import-export/de_tool_copyvertex.py:99
+msgid "Mirror vertices with topology"
+msgstr "按拓扑镜像顶点"
+
+#: dragengine-import-export/de_tools.py:605
+msgid "Move Set Name"
+msgstr "动作集名称"
+
+#: dragengine-import-export/de_export_animation.py:115
+msgid "Move exporting"
+msgstr "动作导出"
+
+#: dragengine-import-export/de_import_animation.py:79
+msgid "Move importing"
+msgstr "动作导入"
+
+#: dragengine-import-export/de_tool_projectuv.py:37
+msgid "Name"
+msgstr "名称"
+
+#: dragengine-import-export/de_tools.py:777
+msgid "Nav-Space Type"
+msgstr "导航空间类型"
+
+#: dragengine-import-export/de_tools.py:930
+#: dragengine-import-export/de_tools.py:969
+msgid "Navigation Type"
+msgstr "导航类型"
+
+#: dragengine-import-export/de_tools.py:777
+msgid "Navigation space type"
+msgstr "导航空间类型"
+
+#: dragengine-import-export/de_tools.py:969
+msgid "Navigation type to use for members of the vertex group"
+msgstr "用于该顶点组成员的导航类型"
+
+#: dragengine-import-export/de_tools.py:930
+msgid "Navigation type to use for this material"
+msgstr "用于该材质的导航类型"
+
+#: dragengine-import-export/de_tool_gbuffernormgen.py:752
+msgid "No UV-Layers found. Add at least one UV-Layer."
+msgstr "未找到 UV 层。请至少添加一个 UV 层。"
+
+#: dragengine-import-export/de_export_model.py:281
+msgid "No materials found. Add at last one material."
+msgstr "未找到材质。请至少添加一个材质。"
+
+#: dragengine-import-export/de_tools.py:857
+msgid "No physics object"
+msgstr "无物理物体"
+
+#: dragengine-import-export/de_export_animation.py:85
+#: dragengine-import-export/de_export_model.py:50
+msgid "None"
+msgstr "无"
+
+#: dragengine-import-export/de_tool_projectuv.py:41
+#: dragengine-import-export/de_tool_projectuv.py:68
+msgid "Normal"
+msgstr "法线"
+
+#: dragengine-import-export/de_tools.py:780
+msgid "Not a navigation space"
+msgstr "不是导航空间"
+
+#: dragengine-import-export/de_tool_projectuv.py:39
+#: dragengine-import-export/de_tool_projectuv.py:64
+msgid "Offset"
+msgstr "偏移"
+
+#: dragengine-import-export/de_tool_projectuv.py:39
+#: dragengine-import-export/de_tool_projectuv.py:64
+msgid "Offset in U/V direction"
+msgstr "U/V 方向偏移"
+
+#: dragengine-import-export/de_tools.py:926
+msgid "Offset of decal faces relative to others (higher overlaps lower)"
+msgstr "贴花面相对于其他面的偏移（数值越大越靠下）"
+
+#: dragengine-import-export/de_export_animation.py:86
+#: dragengine-import-export/de_export_model.py:51
+msgid "Output basic amount of debug messages."
+msgstr "输出基本数量的调试信息。"
+
+#: dragengine-import-export/de_export_animation.py:87
+#: dragengine-import-export/de_export_model.py:52
+msgid "Output lots of debug messages."
+msgstr "输出大量调试信息。"
+
+#: dragengine-import-export/de_export_animation.py:85
+#: dragengine-import-export/de_export_model.py:50
+msgid "Output no debug messages."
+msgstr "不输出调试信息。"
+
+#: dragengine-import-export/de_export_animation.py:88
+#: dragengine-import-export/de_export_model.py:53
+msgid "Output very large amount of debug messages."
+msgstr "输出非常大量的调试信息。"
+
+#: dragengine-import-export/de_tools.py:251
+msgid "Paste Mirror"
+msgstr "粘贴镜像"
+
+#: dragengine-import-export/de_tools.py:256
+msgid "Paste Mirror Topology"
+msgstr "粘贴镜像拓扑"
+
+#: dragengine-import-export/de_tool_projectuv.py:41
+#: dragengine-import-export/de_tool_projectuv.py:68
+msgid "Per-component multiplier for normal calculation"
+msgstr "法线计算的逐分量乘数"
+
+#: dragengine-import-export/de_tools.py:1296
+msgid "Percentage"
+msgstr "百分比"
+
+#: dragengine-import-export/de_tools.py:1296
+msgid "Percentage to display"
+msgstr "要显示的百分比"
+
+#: dragengine-import-export/de_tools.py:856
+msgid "Physics"
+msgstr "物理"
+
+#: dragengine-import-export/de_tools.py:383
+msgid "Physics Shapes"
+msgstr "物理形状"
+
+#: dragengine-import-export/de_tools.py:856
+msgid "Physics shape if this object is a physics object"
+msgstr "若该物体是物理物体，则为其物理形状"
+
+#: dragengine-import-export/de_tool_loderrorcalc.py:59
+msgid "Pixel Error"
+msgstr "像素误差"
+
+#: dragengine-import-export/de_tools.py:1120
+msgid "Position"
+msgstr "位置"
+
+#: dragengine-import-export/de_tools.py:1120
+msgid "Position difference below this threshold are considered 0"
+msgstr "低于此阈值的位置差异视为 0"
+
+#: dragengine-import-export/de_tools.py:865
+msgid "Property"
+msgstr "属性"
+
+#: dragengine-import-export/de_tools.py:1051
+msgid "Range Begin"
+msgstr "范围起点"
+
+#: dragengine-import-export/de_tools.py:1055
+msgid "Range End"
+msgstr "范围终点"
+
+#: dragengine-import-export/de_tool_eclassproperty.py:46
+msgid "Relative 3D-Cursor"
+msgstr "相对 3D 游标"
+
+#: dragengine-import-export/de_tool_eclassproperty.py:46
+msgid "Relative to 3D cursor"
+msgstr "相对于 3D 游标"
+
+#: dragengine-import-export/de_tool_loderrorcalc.py:41
+msgid "Result average error"
+msgstr "结果平均误差"
+
+#: dragengine-import-export/de_tool_loderrorcalc.py:39
+msgid "Result max error"
+msgstr "结果最大误差"
+
+#: dragengine-import-export/de_tool_projectuv.py:40
+#: dragengine-import-export/de_tool_projectuv.py:66
+msgid "Rotation"
+msgstr "旋转"
+
+#: dragengine-import-export/de_tools.py:1129
+msgid "Rotation difference below this threshold are considered 0"
+msgstr "低于此阈值的旋转差异视为 0"
+
+#: dragengine-import-export/de_tool_projectuv.py:40
+#: dragengine-import-export/de_tool_projectuv.py:66
+msgid "Rotation in degrees"
+msgstr "旋转（度）"
+
+#: dragengine-import-export/de_tool_projectuv.py:38
+#: dragengine-import-export/de_tool_projectuv.py:62
+msgid "Scaling"
+msgstr "缩放"
+
+#: dragengine-import-export/de_tools.py:1138
+msgid "Scaling difference below this threshold are considered 0"
+msgstr "低于此阈值的缩放差异视为 0"
+
+#: dragengine-import-export/de_tool_projectuv.py:38
+#: dragengine-import-export/de_tool_projectuv.py:62
+msgid "Scaling in U/V direction"
+msgstr "U/V 方向缩放"
+
+#: dragengine-import-export/de_tools.py:577
+#: dragengine-import-export/de_tools.py:749
+msgid "Scaling to apply"
+msgstr "应用的缩放"
+
+#: dragengine-import-export/de_tools.py:1042
+msgid "Scaling to apply to the export time values"
+msgstr "应用于导出时间值的缩放"
+
+#: dragengine-import-export/de_tool_loderrorcalc.py:56
+msgid "Screen Size"
+msgstr "屏幕尺寸"
+
+#: dragengine-import-export/de_tool_shapropfromtex.py:50
+msgid "Select exactly one non-physics object to map physics objects against."
+msgstr "请选择一个非物理物体，以将物理物体映射到其上。"
+
+#: dragengine-import-export/de_tools.py:77
+msgid "Selected Edges"
+msgstr "选中的边"
+
+#: dragengine-import-export/de_tools.py:231
+msgid "Shape Keys"
+msgstr "形态键"
+
+#: dragengine-import-export/de_tools.py:865
+msgid "Shape property string"
+msgstr "形态属性字符串"
+
+#: dragengine-import-export/de_tools.py:1115
+msgid "Short Format"
+msgstr "短格式"
+
+#: dragengine-import-export/de_tool_loderrorcalc.py:56
+msgid "Size of test screen in pixels"
+msgstr "测试屏幕尺寸（像素）"
+
+#: dragengine-import-export/de_tools.py:858
+msgid "Sphere"
+msgstr "球体"
+
+#: dragengine-import-export/de_tools.py:858
+msgid "Sphere shaped physics object"
+msgstr "球形物理物体"
+
+#: dragengine-import-export/de_tools.py:804
+msgid "TC-Equals"
+msgstr "纹理坐标相等"
+
+#: dragengine-import-export/de_tool_spreadanim.py:35
+msgid "Target"
+msgstr "目标"
+
+#: dragengine-import-export/de_tool_spreadanim.py:35
+msgid "Target Action (Reg-Ex)"
+msgstr "目标动作（正则表达式）"
+
+#: dragengine-import-export/de_tool_loderrorcalc.py:61
+msgid "Test LOD error to calculate distance for"
+msgstr "用于计算距离的测试 LOD 误差"
+
+#: dragengine-import-export/de_tool_loderrorcalc.py:53
+msgid "Test camera field of view in degrees"
+msgstr "测试相机视野（度）"
+
+#: dragengine-import-export/de_tool_loderrorcalc.py:59
+msgid "Test maximum screen pixel error"
+msgstr "测试最大屏幕像素误差"
+
+#: dragengine-import-export/de_tool_loderrorcalc.py:64
+msgid "Test result lod switch distance"
+msgstr "测试结果 LOD 切换距离"
+
+#: dragengine-import-export/de_tools.py:804
+msgid "Texture Coordinate Equals Threshold"
+msgstr "纹理坐标相等阈值"
+
+#: dragengine-import-export/de_export_rig.py:153
+msgid "There is no Armature or Mesh selected. Select at last one Armature or Mesh"
+msgstr "未选择骨架或网格。请至少选择一个骨架或网格"
+
+#: dragengine-import-export/de_export_animation.py:241
+#: dragengine-import-export/de_import_animation.py:156
+msgid "There is no Armature or Mesh selected. Select at last one Armature or Mesh parented to an armature"
+msgstr "未选择骨架或网格。请至少选择一个骨架，或选择一个已父级到骨架的网格"
+
+#: dragengine-import-export/de_export_navspace.py:114
+msgid "There is no Mesh selected"
+msgstr "未选择网格"
+
+#: dragengine-import-export/de_export_model.py:272
+#: dragengine-import-export/de_export_occmesh.py:134
+msgid "There is no Mesh selected. Select at last a Mesh and optional an Armature"
+msgstr "未选择网格。请至少选择一个网格，可选一个骨架"
+
+#: dragengine-import-export/de_tools.py:1042
+msgid "Time Scaling"
+msgstr "时间缩放"
+
+#: dragengine-import-export/de_tools.py:906
+msgid "Top"
+msgstr "顶部"
+
+#: dragengine-import-export/de_tools.py:868
+msgid "Top Radius Scale"
+msgstr "顶部半径缩放"
+
+#: dragengine-import-export/de_tools.py:868
+msgid "Top Radius scaling (capsule/cylinder)"
+msgstr "顶部半径缩放（胶囊/圆柱）"
+
+#: dragengine-import-export/de_tool_copyvertex.py:99
+msgid "Topology"
+msgstr "拓扑"
+
+#: dragengine-import-export/de_tools.py:794
+msgid "UV map to use as base texture coordinate set for export if more than one UV map exists. Other UV maps will be additional sets."
+msgstr "若存在多个 UV 贴图，选择导出时作为基础纹理坐标集的 UV 贴图。其他 UV 贴图将作为附加集。"
+
+#: dragengine-import-export/de_tools.py:271
+msgid "Unwrap"
+msgstr "展开"
+
+#: dragengine-import-export/de_export_animation.py:92
+msgid "Update Single"
+msgstr "更新单个"
+
+#: dragengine-import-export/de_tools.py:769
+msgid "Use Custom LOD error instead of automatically calculated LOD Error"
+msgstr "使用自定义 LOD 误差而非自动计算的 LOD 误差"
+
+#: dragengine-import-export/de_export_animation.py:87
+#: dragengine-import-export/de_export_model.py:52
+msgid "Verbose"
+msgstr "详细输出"
+
+#: dragengine-import-export/de_tool_copyvertex.py:38
+msgid "Vertex coordinates"
+msgstr "顶点坐标"
+
+#: dragengine-import-export/de_tool_collapsevertices.py:35
+#: dragengine-import-export/de_tool_copyvertex.py:34
+msgid "Vertex index"
+msgstr "顶点索引"
+
+#: dragengine-import-export/de_tools.py:1298
+msgid "Visible"
+msgstr "可见"
+
+#: dragengine-import-export/de_tools.py:78
+msgid "Visible Edges"
+msgstr "可见边"
+
+#: dragengine-import-export/de_tools.py:783
+msgid "Volume"
+msgstr "体积"
+
+#: dragengine-import-export/de_tools.py:783
+msgid "Volume type navigation space"
+msgstr "体积类型导航空间"
+
+#: dragengine-import-export/de_tool_projectuv.py:37
+msgid "name of the template"
+msgstr "模板名称"
+
+#: dragengine-import-export/de_tools.py:1314
+msgid "this is a test"
+msgstr "这是一个测试"
+
+#: dragengine-import-export/de_tool_aogen.py:39
+msgctxt "Operator"
+msgid "AO Generation from normal map"
+msgstr "从法线贴图生成 AO"
+
+#: dragengine-import-export/de_tools.py:713
+#: dragengine-import-export/de_tools.py:736
+msgctxt "Operator"
+msgid "Add"
+msgstr "添加"
+
+#: dragengine-import-export/de_tools.py:1167
+msgctxt "Operator"
+msgid "Add Bone Filter"
+msgstr "添加骨骼过滤器"
+
+#: dragengine-import-export/de_tools.py:669
+msgctxt "Operator"
+msgid "Add Move Set"
+msgstr "添加移动集"
+
+#: dragengine-import-export/de_tools.py:631
+msgctxt "Operator"
+msgid "Add Move Set Filter"
+msgstr "添加移动集过滤器"
+
+#: dragengine-import-export/de_export_animation.py:78
+#: dragengine-import-export/de_import_animation.py:44
+msgctxt "Operator"
+msgid "Animations (.deanim)"
+msgstr "动画 (.deanim)"
+
+#: dragengine-import-export/de_tool_fixactiongroups.py:36
+msgctxt "Operator"
+msgid "Auto-group actions"
+msgstr "自动分组动作"
+
+#: dragengine-import-export/de_tool_rounding.py:36
+msgctxt "Operator"
+msgid "Clamp position"
+msgstr "钳制位置"
+
+#: dragengine-import-export/de_tool_collapsevertices.py:72
+msgctxt "Operator"
+msgid "Collapse Vertices"
+msgstr "塌陷顶点"
+
+#: dragengine-import-export/de_tool_collapsevertices.py:40
+msgctxt "Operator"
+msgid "Collapse Vertices Set Targets"
+msgstr "塌陷顶点设置目标"
+
+#: dragengine-import-export/de_export_config.py:41
+msgctxt "Operator"
+msgid "Configuration (.txt)"
+msgstr "配置 (.txt)"
+
+#: dragengine-import-export/de_tools.py:566
+msgctxt "Operator"
+msgid "Convert Normal"
+msgstr "转换法线"
+
+#: dragengine-import-export/de_tool_loderrorcalc.py:132
+msgctxt "Operator"
+msgid "Drag[en]gine LOD Info"
+msgstr "Drag[en]gine LOD 信息"
+
+#: dragengine-import-export/de_tool_eclassproperty.py:40
+msgctxt "Operator"
+msgid "Element Class Property"
+msgstr "元素类属性"
+
+#: dragengine-import-export/de_tool_texturefill.py:307
+msgctxt "Operator"
+msgid "EncBLNor2DENor"
+msgstr "EncBLNor2DENor"
+
+#: dragengine-import-export/de_tool_exportmerger.py:35
+msgctxt "Operator"
+msgid "Export merge"
+msgstr "导出合并"
+
+#: dragengine-import-export/de_tool_gbuffernormgen.py:42
+msgctxt "Operator"
+msgid "GBuffer Normal Generation"
+msgstr "生成 GBuffer 法线"
+
+#: dragengine-import-export/de_tool_homogenize.py:109
+msgctxt "Operator"
+msgid "Homogenize Materials"
+msgstr "统一材质"
+
+#: dragengine-import-export/de_tool_homogenize.py:189
+msgctxt "Operator"
+msgid "Homogenize Shape Keys"
+msgstr "统一形态键"
+
+#: dragengine-import-export/de_tool_homogenize.py:34
+msgctxt "Operator"
+msgid "Homogenize Vertex Groups"
+msgstr "统一顶点组"
+
+#: dragengine-import-export/de_tools.py:978
+msgctxt "Operator"
+msgid "Init navigation type data for the active vertex group"
+msgstr "为活动顶点组初始化导航类型数据"
+
+#: dragengine-import-export/de_tool_mirroranim.py:36
+msgctxt "Operator"
+msgid "Mirror Animation"
+msgstr "镜像动画"
+
+#: dragengine-import-export/de_tool_mirrorvertices.py:36
+msgctxt "Operator"
+msgid "Mirror Vertices"
+msgstr "镜像顶点"
+
+#: dragengine-import-export/de_export_model.py:43
+msgctxt "Operator"
+msgid "Model (.demodel)"
+msgstr "模型 (.demodel)"
+
+#: dragengine-import-export/de_export_navspace.py:44
+msgctxt "Operator"
+msgid "Navigation Space (.denavspace))"
+msgstr "导航空间 (.denavspace)"
+
+#: dragengine-import-export/de_export_occmesh.py:45
+msgctxt "Operator"
+msgid "Occlusion Mesh (.deoccmesh)"
+msgstr "遮挡网格 (.deoccmesh)"
+
+#: dragengine-import-export/de_tool_projectuv.py:47
+msgctxt "Operator"
+msgid "Project UV"
+msgstr "投影 UV"
+
+#: dragengine-import-export/de_tools.py:714
+#: dragengine-import-export/de_tools.py:737
+msgctxt "Operator"
+msgid "Remove"
+msgstr "移除"
+
+#: dragengine-import-export/de_tools.py:1149
+msgctxt "Operator"
+msgid "Remove Bone Filter"
+msgstr "移除骨骼过滤器"
+
+#: dragengine-import-export/de_tools.py:651
+msgctxt "Operator"
+msgid "Remove Move Set"
+msgstr "移除移动集"
+
+#: dragengine-import-export/de_tools.py:612
+msgctxt "Operator"
+msgid "Remove Move Set Filter"
+msgstr "移除移动集过滤器"
+
+#: dragengine-import-export/de_tool_removeemptyvertexgroups.py:36
+msgctxt "Operator"
+msgid "Remove empty vertex groups"
+msgstr "移除空顶点组"
+
+#: dragengine-import-export/de_tools.py:715
+msgctxt "Operator"
+msgid "Rename"
+msgstr "重命名"
+
+#: dragengine-import-export/de_tools.py:684
+msgctxt "Operator"
+msgid "Rename Move Set"
+msgstr "重命名移动集"
+
+#: dragengine-import-export/de_export_rig.py:46
+msgctxt "Operator"
+msgid "Rig (.derig)"
+msgstr "骨架 (.derig)"
+
+#: dragengine-import-export/de_import_rig.py:42
+msgctxt "Operator"
+msgid "Rigs (.derig)"
+msgstr "骨架 (.derig)"
+
+#: dragengine-import-export/de_tools.py:72
+msgctxt "Operator"
+msgid "Seam To Sharp"
+msgstr "缝合边转锐边"
+
+#: dragengine-import-export/de_tools.py:569
+msgctxt "Operator"
+msgid "Seams from Island"
+msgstr "从孤岛生成缝合边"
+
+#: dragengine-import-export/de_tools.py:109
+msgctxt "Operator"
+msgid "Select N-Gon faces"
+msgstr "选择 N 边形面"
+
+#: dragengine-import-export/de_tool_copyvertex.py:50
+msgctxt "Operator"
+msgid "Shape key: Copy vertex position"
+msgstr "形态键：复制顶点位置"
+
+#: dragengine-import-export/de_tool_copyvertex.py:88
+msgctxt "Operator"
+msgid "Shape key: Paste vertex position"
+msgstr "形态键：粘贴顶点位置"
+
+#: dragengine-import-export/de_tool_shapropfromtex.py:36
+msgctxt "Operator"
+msgid "Shape property from texture"
+msgstr "从纹理生成形态属性"
+
+#: dragengine-import-export/de_tool_channellayout.py:36
+msgctxt "Operator"
+msgid "Sort alphabetically"
+msgstr "按字母顺序排序"
+
+#: dragengine-import-export/de_tool_spreadanim.py:40
+msgctxt "Operator"
+msgid "Spread animation"
+msgstr "分散动画"
+
+#: dragengine-import-export/de_tool_texturefill.py:37
+#: dragengine-import-export/de_tools.py:565
+msgctxt "Operator"
+msgid "Texture Fill"
+msgstr "纹理填充"
+
+#: dragengine-import-export/de_tool_transferuv.py:37
+msgctxt "Operator"
+msgid "Transfer UV"
+msgstr "传递 UV"
+
+#: dragengine-import-export/de_tool_transferallshapekeys.py:35
+msgctxt "Operator"
+msgid "Transfer all shape keys"
+msgstr "传递所有形态键"
+
+#: dragengine-import-export/de_tool_treebranchunwrap.py:37
+msgctxt "Operator"
+msgid "Tree Branch Unwrap"
+msgstr "树枝展开"
+
+#: dragengine-import-export/de_tools.py:1026
+msgctxt "Operator"
+msgid "Vertex Group Navigation Data"
+msgstr "顶点组导航数据"

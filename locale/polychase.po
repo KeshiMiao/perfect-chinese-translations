@@ -1,0 +1,662 @@
+# perfect-chinese: 1
+# id: polychase
+# kind: addon
+# module: bl_ext.blender_org.polychase
+# name: Polychase
+# name_zh: 网格运动跟踪
+# translator: KeshiMiao
+# category: Animation
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: properties.py:199
+msgid "3D Mask Color"
+msgstr "3D 遮罩颜色"
+
+#: operators/tracking.py:140
+msgid "Already at or past the next keyframe."
+msgstr "已到达或越过下一个关键帧。"
+
+#: operators/analysis.py:133
+msgid "Analysis is already in progress."
+msgstr "分析已在进行中。"
+
+#: operators/analysis.py:354
+msgid "Analysis is not running."
+msgstr "分析未运行。"
+
+#: operators/refiner.py:265
+#: operators/tracking.py:74
+msgid "Analyze the video first."
+msgstr "请先分析视频。"
+
+#: ui/panels.py:358
+msgid "Appearance"
+msgstr "外观"
+
+#: operators/tracking.py:24
+msgid "Backward"
+msgstr "向后"
+
+#: properties.py:131
+#: properties.py:140
+msgid "Camera"
+msgstr "摄像机"
+
+#: operators/refiner.py:275
+#: operators/tracking.py:84
+msgid "Camera is not set."
+msgstr "未设置摄像机。"
+
+#: ui/panels.py:126
+msgid "Camera:"
+msgstr "摄像机："
+
+#: operators/keyframe_management.py:363
+msgid "Clear only non-KEYFRAME type keyframes (tracked/generated), preserve manual keyframes"
+msgstr "仅清除非 KEYFRAME 类型的关键帧（跟踪/生成），保留手动关键帧"
+
+#: operators/keyframe_management.py:363
+msgid "Clear tracked keyframes only"
+msgstr "仅清除跟踪的关键帧"
+
+#: properties.py:121
+msgid "Clip"
+msgstr "剪辑"
+
+#: operators/refiner.py:270
+#: operators/tracking.py:79
+msgid "Clip is not set."
+msgstr "未设置剪辑。"
+
+#: ui/panels.py:113
+msgid "Clip:"
+msgstr "剪辑："
+
+#: operators/scene_operations.py:346
+msgid "Coordinates"
+msgstr "坐标"
+
+#: operators/refiner.py:310
+msgid "Could not detect the segment to refine"
+msgstr "无法检测要细化的片段"
+
+#: operators/scene_operations.py:50
+#: operators/scene_operations.py:141
+msgid "Could not find associated scene"
+msgstr "找不到关联的场景"
+
+#: operators/tracking.py:118
+#: operators/tracking.py:123
+msgid "Current frame is already at the edge of the clip."
+msgstr "当前帧已位于剪辑边缘。"
+
+#: operators/tracking.py:113
+msgid "Current frame is outside the range of the clip."
+msgstr "当前帧超出剪辑范围。"
+
+#: properties.py:142
+msgid "Database"
+msgstr "数据库"
+
+#: operators/refiner.py:261
+#: operators/tracking.py:70
+msgid "Database path is not set."
+msgstr "未设置数据库路径。"
+
+#: ui/panels.py:389
+msgid "Default Pin Color"
+msgstr "默认图钉颜色"
+
+#: operators/tracking.py:20
+msgid "Direction"
+msgstr "方向"
+
+#: ui/panels.py:155
+msgid "Estimate Focal Length"
+msgstr "估算焦距"
+
+#: ui/panels.py:159
+msgid "Estimate Principal Point"
+msgstr "估算主点"
+
+#: operators/refiner.py:321
+msgid "Failed to setup first segment"
+msgstr "设置首个片段失败"
+
+#: operators/analysis.py:20
+msgid "First Frame"
+msgstr "首帧"
+
+#: ui/panels.py:452
+msgid "Focal Length:"
+msgstr "焦距："
+
+#: operators/tracking.py:23
+msgid "Forward"
+msgstr "向前"
+
+#: properties.py:126
+#: properties.py:141
+msgid "Geometry"
+msgstr "几何体"
+
+#: operators/refiner.py:280
+#: operators/tracking.py:89
+msgid "Geometry is not set."
+msgstr "未设置几何体。"
+
+#: ui/panels.py:119
+msgid "Geometry:"
+msgstr "几何体："
+
+#: ui/panels.py:445
+msgid "Height"
+msgstr "高度"
+
+#: ui/panels.py:89
+msgid "Inputs"
+msgstr "输入"
+
+#: operators/analysis.py:21
+msgid "Last Frame"
+msgstr "末帧"
+
+#: operators/analysis.py:65
+msgid "Last Frame must be > First Frame."
+msgstr "末帧必须大于首帧。"
+
+#: operators/scene_operations.py:349
+msgid "Local"
+msgstr "局部"
+
+#: operators/scene_operations.py:349
+msgid "Local Coordinates"
+msgstr "局部坐标"
+
+#: operators/scene_operations.py:368
+msgid "Location"
+msgstr "位置"
+
+#: properties.py:120
+msgid "Name"
+msgstr "名称"
+
+#: ui/panels.py:110
+msgid "Name:"
+msgstr "名称："
+
+#: operators/scene_operations.py:33
+#: operators/scene_operations.py:124
+msgid "No Polychase data found"
+msgstr "未找到 Polychase 数据"
+
+#: operators/scene_operations.py:38
+#: operators/scene_operations.py:129
+msgid "No active tracker"
+msgstr "无活动跟踪器"
+
+#: operators/keyframe_management.py:25
+#: operators/keyframe_management.py:66
+msgid "No active tracker found"
+msgstr "未找到活动跟踪器"
+
+#: operators/keyframe_management.py:34
+#: operators/keyframe_management.py:75
+msgid "No animation data found for target object"
+msgstr "未找到目标物体的动画数据"
+
+#: operators/scene_operations.py:159
+#: operators/scene_operations.py:486
+msgid "No animation keyframes found on source object"
+msgstr "源物体上未找到动画关键帧"
+
+#: operators/scene_operations.py:46
+#: operators/scene_operations.py:137
+msgid "No camera object assigned to tracker"
+msgstr "跟踪器未指定摄像机物体"
+
+#: operators/keyframe_management.py:120
+#: operators/keyframe_management.py:167
+msgid "No clip found"
+msgstr "未找到剪辑"
+
+#: operators/scene_operations.py:42
+#: operators/scene_operations.py:133
+msgid "No geometry object assigned to tracker"
+msgstr "跟踪器未指定几何体物体"
+
+#: operators/scene_operations.py:171
+#: operators/scene_operations.py:498
+msgid "No keyframes found"
+msgstr "未找到关键帧"
+
+#: operators/keyframe_management.py:92
+msgid "No next keyframe found"
+msgstr "未找到下一个关键帧"
+
+#: operators/keyframe_management.py:20
+#: operators/keyframe_management.py:61
+msgid "No polychase data found"
+msgstr "未找到 Polychase 数据"
+
+#: operators/keyframe_management.py:47
+msgid "No previous keyframe found"
+msgstr "未找到上一个关键帧"
+
+#: operators/keyframe_management.py:30
+#: operators/keyframe_management.py:71
+msgid "No target object found"
+msgstr "未找到目标物体"
+
+#: ui/panels.py:49
+msgid "No trackers are created yet."
+msgstr "尚未创建任何跟踪器。"
+
+#: ui/panels.py:384
+msgid "Opacity"
+msgstr "不透明度"
+
+#: ui/panels.py:322
+msgid "Optical Flow"
+msgstr "光流"
+
+#: properties.py:142
+msgid "Optical flow database path"
+msgstr "光流数据库路径"
+
+#: properties.py:174
+#: properties.py:181
+msgid "Pin Color"
+msgstr "图钉颜色"
+
+#: ui/panels.py:136
+msgid "Pin Mode"
+msgstr "图钉模式"
+
+#: properties.py:188
+#: ui/panels.py:401
+msgid "Pin Radius"
+msgstr "图钉半径"
+
+#: operators/analysis.py:98
+msgid "Please set the selected clip as the background for this camera."
+msgstr "请将该剪辑设为该摄像机的背景。"
+
+#: __init__.py:4
+#: ui/panels.py:32
+msgid "Polychase"
+msgstr "Polychase"
+
+#: ui/panels.py:31
+msgid "Polychase Trackers"
+msgstr "Polychase 跟踪器"
+
+#: ui/panels.py:42
+msgid "Polychase data not found on scene."
+msgstr "场景中未找到 Polychase 数据。"
+
+#: ui/panels.py:463
+msgid "Principal Point:"
+msgstr "主点："
+
+#: operators/scene_operations.py:340
+msgid "Reference"
+msgstr "参考"
+
+#: operators/refiner.py:21
+msgid "Refine All Segments"
+msgstr "细化所有片段"
+
+#: operators/refiner.py:21
+msgid "Refine all animation segments instead of just the current one"
+msgstr "细化所有动画片段，而不仅是当前片段"
+
+#: operators/refiner.py:610
+msgid "Refining is not running."
+msgstr "细化未运行。"
+
+#: operators/scene_operations.py:361
+msgid "Rotation"
+msgstr "旋转"
+
+#: operators/scene_operations.py:354
+msgid "Scale"
+msgstr "缩放"
+
+#: ui/panels.py:171
+msgid "Scene"
+msgstr "场景"
+
+#: ui/panels.py:391
+msgid "Selected Pin Color"
+msgstr "选中图钉颜色"
+
+#: ui/panels.py:441
+msgid "Sensor:"
+msgstr "传感器："
+
+#: operators/tracking.py:28
+msgid "Single Frame"
+msgstr "单帧"
+
+#: ui/panels.py:131
+msgid "Target:"
+msgstr "目标："
+
+#: properties.py:140
+msgid "Track Camera"
+msgstr "跟踪摄像机"
+
+#: properties.py:141
+msgid "Track Geometry"
+msgstr "跟踪几何体"
+
+#: operators/tracking.py:24
+msgid "Track backwards from the current frame"
+msgstr "从当前帧向后追踪"
+
+#: operators/tracking.py:23
+msgid "Track forwards from the current frame"
+msgstr "从当前帧向前追踪"
+
+#: properties.py:284
+msgid "Trackers"
+msgstr "追踪器"
+
+#: ui/panels.py:201
+msgid "Tracking"
+msgstr "追踪"
+
+#: properties.py:137
+msgid "Tracking Target"
+msgstr "追踪目标"
+
+#: operators/refiner.py:256
+#: operators/tracking.py:65
+msgid "Tracking is already in progress."
+msgstr "追踪已在进行中。"
+
+#: operators/tracking.py:491
+msgid "Tracking is not running."
+msgstr "追踪未运行。"
+
+#: operators/scene_operations.py:344
+msgid "Transform camera"
+msgstr "变换摄像机"
+
+#: operators/scene_operations.py:343
+msgid "Transform geometry"
+msgstr "变换几何体"
+
+#: properties.py:160
+msgid "Variable Focal Length"
+msgstr "可变焦距"
+
+#: properties.py:166
+msgid "Variable Principal Length"
+msgstr "可变主点"
+
+#: operators/analysis.py:330
+msgid "Video analysis completed successfully."
+msgstr "视频分析成功完成。"
+
+#: operators/analysis.py:333
+msgid "Video analysis was cancelled."
+msgstr "视频分析已取消。"
+
+#: properties.py:160
+msgid "Whether or not to estimate focal length for each tracked frame"
+msgstr "是否为每个追踪帧估计焦距"
+
+#: properties.py:166
+msgid "Whether or not to estimate principal point for each tracked frame"
+msgstr "是否为每个追踪帧估计主点"
+
+#: ui/panels.py:381
+#: ui/panels.py:447
+msgid "Width"
+msgstr "宽度"
+
+#: properties.py:190
+msgid "Wireframe Color"
+msgstr "线框颜色"
+
+#: properties.py:197
+msgid "Wireframe width"
+msgstr "线框宽度"
+
+#: ui/panels.py:377
+msgid "Wireframe:"
+msgstr "线框："
+
+#: operators/scene_operations.py:350
+msgid "World"
+msgstr "世界"
+
+#: operators/scene_operations.py:350
+msgid "World Coordinates"
+msgstr "世界坐标"
+
+#: operators/analysis.py:23
+msgid "Write Debug Images"
+msgstr "写入调试图像"
+
+#: operators/analysis.py:23
+msgid "Write images with detected features overlayed on top on disk for debugging."
+msgstr "将检测到的特征叠加后写入磁盘图像，用于调试。"
+
+#: ui/panels.py:465
+msgid "X"
+msgstr "X"
+
+#: ui/panels.py:466
+msgid "Y"
+msgstr "Y"
+
+#: operators/keyframe_management.py:265
+msgctxt "Operator"
+msgid "Add Keyframe"
+msgstr "添加关键帧"
+
+#: operators/keyframe_management.py:266
+msgctxt "Operator"
+msgid "Add keyframe for the target object"
+msgstr "为目标物体添加关键帧"
+
+#: operators/analysis.py:18
+msgctxt "Operator"
+msgid "Analyze Video"
+msgstr "分析视频"
+
+#: ui/panels.py:225
+#: ui/panels.py:231
+msgctxt "Operator"
+msgid "Cancel"
+msgstr "取消"
+
+#: operators/analysis.py:339
+msgctxt "Operator"
+msgid "Cancel Analysis"
+msgstr "取消分析"
+
+#: operators/refiner.py:595
+msgctxt "Operator"
+msgid "Cancel Refining"
+msgstr "取消精炼"
+
+#: operators/tracking.py:476
+msgctxt "Operator"
+msgid "Cancel Tracking"
+msgstr "取消追踪"
+
+#: operators/scene_operations.py:15
+msgctxt "Operator"
+msgid "Center Geometry"
+msgstr "居中几何体"
+
+#: operators/scene_operations.py:17
+msgctxt "Operator"
+msgid "Center the geometry in front of the camera"
+msgstr "将几何体置于摄像机前方居中"
+
+#: operators/keyframe_management.py:198
+msgctxt "Operator"
+msgid "Clear Animation Segment"
+msgstr "清除动画片段"
+
+#: operators/keyframe_management.py:359
+msgctxt "Operator"
+msgid "Clear Keyframes"
+msgstr "清除关键帧"
+
+#: operators/keyframe_management.py:99
+#: operators/keyframe_management.py:151
+msgctxt "Operator"
+msgid "Clear Keyframes Backwards"
+msgstr "清除之前的关键帧"
+
+#: operators/pin_mode/pin_mode.py:640
+msgctxt "Operator"
+msgid "Clear Pins"
+msgstr "清除固定点"
+
+#: operators/keyframe_management.py:100
+#: operators/keyframe_management.py:152
+msgctxt "Operator"
+msgid "Clear all keyframes before the current frame"
+msgstr "清除当前帧之前的所有关键帧"
+
+#: operators/keyframe_management.py:360
+msgctxt "Operator"
+msgid "Clear keyframes from the target object"
+msgstr "清除目标物体的关键帧"
+
+#: operators/keyframe_management.py:199
+msgctxt "Operator"
+msgid "Clear tracked animation segment"
+msgstr "清除已追踪的动画片段"
+
+#: operators/scene_operations.py:106
+msgctxt "Operator"
+msgid "Convert Animation"
+msgstr "转换动画"
+
+#: operators/scene_operations.py:108
+msgctxt "Operator"
+msgid "Convert animation from camera to geometry, or from geometry to camera (depending on the tracking target)"
+msgstr "将动画从摄像机转换到几何体，或从几何体转换到摄像机（取决于追踪目标）"
+
+#: operators/tracker_management.py:14
+msgctxt "Operator"
+msgid "Create Tracker"
+msgstr "创建追踪器"
+
+#: operators/tracker_management.py:50
+msgctxt "Operator"
+msgid "Delete Tracker"
+msgstr "删除追踪器"
+
+#: operators/pin_mode/pin_mode.py:21
+msgctxt "Operator"
+msgid "Enter Pin Mode"
+msgstr "进入固定模式"
+
+#: operators/keyframe_management.py:55
+msgctxt "Operator"
+msgid "Go to next keyframe"
+msgstr "跳到下一个关键帧"
+
+#: operators/keyframe_management.py:14
+msgctxt "Operator"
+msgid "Go to previous keyframe"
+msgstr "跳到上一个关键帧"
+
+#: operators/keyframe_management.py:54
+msgctxt "Operator"
+msgid "Next Keyframe"
+msgstr "下一个关键帧"
+
+#: operators/open_clip.py:12
+msgctxt "Operator"
+msgid "Open Clip"
+msgstr "打开片段"
+
+#: operators/keyframe_management.py:13
+msgctxt "Operator"
+msgid "Previous Keyframe"
+msgstr "上一个关键帧"
+
+#: ui/panels.py:281
+msgctxt "Operator"
+msgid "Refine"
+msgstr "精炼"
+
+#: ui/panels.py:287
+msgctxt "Operator"
+msgid "Refine All"
+msgstr "全部精炼"
+
+#: operators/refiner.py:19
+msgctxt "Operator"
+msgid "Refine Sequence"
+msgstr "精炼序列"
+
+#: operators/refresh_geometry.py:12
+msgctxt "Operator"
+msgid "Refresh Geometry"
+msgstr "刷新几何体"
+
+#: operators/refresh_geometry.py:14
+msgctxt "Operator"
+msgid "Refresh Polychase's view of the geometry in case it was editted"
+msgstr "若几何体被编辑过，刷新 Polychase 对几何体的视图"
+
+#: operators/keyframe_management.py:321
+msgctxt "Operator"
+msgid "Remove Keyframe"
+msgstr "移除关键帧"
+
+#: operators/keyframe_management.py:322
+msgctxt "Operator"
+msgid "Remove keyframe at the current frame"
+msgstr "移除当前帧的关键帧"
+
+#: operators/tracker_management.py:34
+msgctxt "Operator"
+msgid "Select Tracker"
+msgstr "选择追踪器"
+
+#: operators/tracking.py:18
+msgctxt "Operator"
+msgid "Track Sequence"
+msgstr "追踪序列"
+
+#: ui/panels.py:195
+msgctxt "Operator"
+msgid "Transform Camera"
+msgstr "变换摄像机"
+
+#: ui/panels.py:191
+msgctxt "Operator"
+msgid "Transform Geometry"
+msgstr "变换几何体"
+
+#: operators/scene_operations.py:336
+msgctxt "Operator"
+msgid "Transform Scene"
+msgstr "变换场景"
+
+#: operators/scene_operations.py:338
+msgctxt "Operator"
+msgid "Transform tracked geometry or camera while maintaining correct relative poses between them"
+msgstr "变换已追踪的几何体或摄像机，同时保持两者间正确的相对姿态"
+
+#: ui/panels.py:313
+msgctxt "Operator"
+msgid "|-X-|"
+msgstr "|-X-|"

@@ -1,0 +1,103 @@
+# perfect-chinese: 1
+# id: uv_snapper
+# kind: addon
+# module: bl_ext.blender_org.UV_Snapper
+# name: UV Snapper
+# name_zh: UV 吸附对齐
+# translator: KeshiMiao
+# category: UV
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: uv_snapper_extension/__init__.py:66
+msgid "Atlas"
+msgstr "图集"
+
+#: uv_snapper_extension/__init__.py:327
+msgid "Atlas has less than 4 UVs. Please make sure there's at least a square to snap to"
+msgstr "图集的 UV 少于 4 个。请确保至少有一个可供吸附的方形"
+
+#: uv_snapper_extension/__init__.py:1227
+msgid "Atlas object has no UVs."
+msgstr "图集物体没有 UV。"
+
+#: uv_snapper_extension/__init__.py:1221
+msgid "Atlas object is not a mesh."
+msgstr "图集物体不是网格。"
+
+#: uv_snapper_extension/__init__.py:1345
+msgid "Could not import atlas texture"
+msgstr "无法导入图集纹理"
+
+#: uv_snapper_extension/__init__.py:1206
+msgid "More than one mesh selected!"
+msgstr "选中了多个网格！"
+
+#: uv_snapper_extension/__init__.py:1216
+msgid "No atlas mesh selected. Please assign one in the panel in the UV editor"
+msgstr "未选择图集网格。请在 UV 编辑器面板中指定一个"
+
+#: uv_snapper_extension/__init__.py:1211
+msgid "No mesh selected!"
+msgstr "未选择网格！"
+
+#: uv_snapper_extension/__init__.py:1237
+msgid "Please enter edit mode"
+msgstr "请进入编辑模式"
+
+#: uv_snapper_extension/__init__.py:355
+msgid "Please select all the UVs in a face"
+msgstr "请选中一个面的全部 UV"
+
+#: uv_snapper_extension/__init__.py:603
+msgid "Selected UVs centre point is outside the atlas UVs. Check the UVs on the atlas object"
+msgstr "所选 UV 的中心点位于图集 UV 之外。请检查图集物体上的 UV"
+
+#: uv_snapper_extension/__init__.py:599
+msgid "Selected UVs centre point is outside the atlas UVs. Check the UVs on the atlas object. Selection is outside 0-1 space which may be the cause"
+msgstr "所选 UV 的中心点位于图集 UV 之外。请检查图集物体上的 UV。选区超出 0-1 范围，这可能是原因"
+
+#: uv_snapper_extension/__init__.py:1232
+msgid "Selected object is also the atlas. Please select a different object"
+msgstr "所选物体也是图集。请选择其他物体"
+
+#: uv_snapper_extension/__init__.py:72
+msgid "Settings"
+msgstr "设置"
+
+#: uv_snapper_extension/__init__.py:29
+msgid "Shell Padding Divisor"
+msgstr "壳边距除数"
+
+#: uv_snapper_extension/__init__.py:30
+msgid "Soft Select Falloff Range"
+msgstr "软选择衰减范围"
+
+#: uv_snapper_extension/__init__.py:31
+msgid "Soft Select Multiplier"
+msgstr "软选择系数"
+
+#: uv_snapper_extension/__init__.py:37
+#: uv_snapper_extension/__init__.py:40
+msgid "UV Snapper"
+msgstr "UV Snapper"
+
+#: uv_snapper_extension/__init__.py:28
+msgid "Use Full Soft Select"
+msgstr "使用完整软选择"
+
+#: uv_snapper_extension/__init__.py:64
+#: uv_snapper_extension/__init__.py:1320
+msgctxt "Operator"
+msgid "Create Example Atlas"
+msgstr "创建示例图集"
+
+#: uv_snapper_extension/__init__.py:52
+#: uv_snapper_extension/__init__.py:1246
+msgctxt "Operator"
+msgid "Snap UV to Atlas"
+msgstr "将 UV 吸附到图集"

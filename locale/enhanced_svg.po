@@ -1,0 +1,88 @@
+# perfect-chinese: 1
+# id: enhanced_svg
+# kind: addon
+# module: bl_ext.blender_org.enhanced_svg
+# name: Enhanced SVG
+# name_zh: SVG 增强导入
+# translator: KeshiMiao
+# category: Import-Export
+# supported_versions: >=5.1.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: imports.py:415
+#: imports.py:456
+msgid "Allow Images Outside SVG Folder"
+msgstr "允许使用 SVG 文件夹外的图像"
+
+#: imports.py:415
+#: imports.py:456
+msgid "Allow absolute paths and parent-directory image references; leave disabled for untrusted SVG files"
+msgstr "允许绝对路径和上级目录中的图像引用；对不受信任的 SVG 文件请保持禁用"
+
+#: z_offset.py:46
+msgid "Collection"
+msgstr "集合"
+
+#: z_offset.py:46
+msgid "Collection of objects to offset"
+msgstr "要偏移的物体集合"
+
+#: imports.py:551
+msgid "File handler for SVG import with processing"
+msgstr "用于带处理的 SVG 导入的文件处理器"
+
+#: imports.py:579
+msgid "File handler for SVG import with processing and emission"
+msgstr "用于带处理和自发光的 SVG 导入的文件处理器"
+
+#: imports.py:565
+msgid "File handler for simple SVG import"
+msgstr "用于简单 SVG 导入的文件处理器"
+
+#: z_offset.py:52
+msgid "Offset applied per object along Z"
+msgstr "沿 Z 轴对每个物体应用的偏移"
+
+#: imports.py:427
+#: imports.py:468
+msgid "Selected file is not an SVG file"
+msgstr "所选文件不是 SVG 文件"
+
+#: z_offset.py:28
+#: z_offset.py:52
+msgid "Z Offset"
+msgstr "Z 偏移"
+
+#: imports.py:487
+msgctxt "Operator"
+msgid "Import SVG File (.svg)"
+msgstr "导入 SVG 文件 (.svg)"
+
+#: imports.py:405
+msgctxt "Operator"
+msgid "Import SVG File with Processing (.svg)"
+msgstr "导入带处理的 SVG 文件 (.svg)"
+
+#: imports.py:446
+msgctxt "Operator"
+msgid "Import SVG File with Processing and Emission (.svg)"
+msgstr "导入带处理和自发光的 SVG 文件 (.svg)"
+
+#: __init__.py:19
+msgctxt "Operator"
+msgid "SVG (Processed + Emission)"
+msgstr "SVG（处理 + 自发光）"
+
+#: __init__.py:18
+msgctxt "Operator"
+msgid "SVG (Processed)"
+msgstr "SVG（已处理）"
+
+#: __init__.py:17
+msgctxt "Operator"
+msgid "SVG (Simple)"
+msgstr "SVG（简单）"
