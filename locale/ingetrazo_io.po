@@ -1,0 +1,134 @@
+# perfect-chinese: 1
+# id: ingetrazo_io
+# kind: addon
+# module: bl_ext.blender_org.ingetrazo_io
+# name: IngeTrazo Sync (.igz)
+# name_zh: IngeTrazo同步
+# translator: KeshiMiao
+# category: Import-Export
+# supported_versions: >=5.0.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:60
+msgid "Also overwrite materials already in the .blend (loses the changes you made to them in Blender)"
+msgstr "同时覆盖 .blend 中已有的材质（会丢失你在 Blender 中对它们所做的更改）"
+
+#: __init__.py:124
+#: __init__.py:239
+msgid "Don't show this again"
+msgstr "不再显示"
+
+#: __init__.py:387
+msgid "File not found"
+msgstr "文件未找到"
+
+#: __init__.py:118
+msgid "Give them their own copy of the group's paint"
+msgstr "让它们拥有组绘制的独立副本"
+
+#: __init__.py:356
+#: __init__.py:359
+msgid "IngeTrazo"
+msgstr "IngeTrazo"
+
+#: __init__.py:85
+msgid "IngeTrazo does not notice the change by itself: the document has to be closed and opened again there"
+msgstr "IngeTrazo 不会自动察觉更改：需要在其中关闭并重新打开文档"
+
+#: __init__.py:161
+msgid "IngeTrazo: no UV changes to send"
+msgstr "IngeTrazo：没有要发送的 UV 更改"
+
+#: __init__.py:218
+#: __init__.py:323
+msgid "IngeTrazo: nothing sent"
+msgstr "IngeTrazo：未发送任何内容"
+
+#: __init__.py:266
+msgid "IngeTrazo: select the cameras to send"
+msgstr "IngeTrazo：选择要发送的摄像机"
+
+#: __init__.py:145
+#: __init__.py:208
+msgid "IngeTrazo: the .igz was saved in IngeTrazo after it was loaded here. Reload first, then send."
+msgstr "IngeTrazo：.igz 在此处加载后又在 IngeTrazo 中保存过。请先重新加载，再发送。"
+
+#: __init__.py:367
+msgid "No IngeTrazo document yet"
+msgstr "尚无 IngeTrazo 文档"
+
+#: __init__.py:402
+msgid "Reload when the file changes"
+msgstr "文件更改时重新加载"
+
+#: __init__.py:85
+msgid "Remind me to reopen the file in IngeTrazo after sending UVs or cameras"
+msgstr "发送 UV 或摄像机后提醒我在 IngeTrazo 中重新打开文件"
+
+#: __init__.py:118
+msgid "The face keeps the same texture, now as its own paint, mapped as you edited it. Repainting the group in IngeTrazo will no longer change these faces"
+msgstr "该面保留相同纹理，现在作为其独立绘制，按你的编辑进行映射。在 IngeTrazo 中重新绘制该组将不再更改这些面"
+
+#: __init__.py:60
+msgid "Update materials"
+msgstr "更新材质"
+
+#: __init__.py:402
+msgid "Watch the imported .igz files and update the scene each time IngeTrazo saves them"
+msgstr "监视导入的 .igz 文件，并在 IngeTrazo 每次保存它们时更新场景"
+
+#: finish.py:27
+msgid "agua|water|pool|piscina|pileta|espejo[_ ]de[_ ]agua|(?:lago|lake|mar|sea)(?![a-záéíóúñç])|ocean|oc[eé]ano|[aá]gua"
+msgstr "agua|water|pool|piscina|pileta|espejo[_ ]de[_ ]agua|(?:lago|lake|mar|sea)(?![a-záéíóúñç])|ocean|oc[eé]ano|[aá]gua"
+
+#: finish.py:35
+msgid "m[aá]rmol|marble|m[aá]rmore|granit|porcel|cer[aá]mic|ceramic|azulej|tile|lacad|lacquer|laca|pulid|polish|brillant|glossy|pl[aá]stic|acr[ií]lic|esmalt|enamel|lacquered|gleam"
+msgstr "m[aá]rmol|marble|m[aá]rmore|granit|porcel|cer[aá]mic|ceramic|azulej|tile|lacad|lacquer|laca|pulid|polish|brillant|glossy|pl[aá]stic|acr[ií]lic|esmalt|enamel|lacquered|gleam"
+
+#: finish.py:39
+msgid "madera|wood|madeira|parquet|laminad|laminate|cuero|leather|couro|satin|satinad|semi"
+msgstr "madera|wood|madeira|parquet|laminad|laminate|cuero|leather|couro|satin|satinad|semi"
+
+#: finish.py:31
+msgid "metal|acero|steel|a[cç]o(?![a-záéíóúñç])|alumin|hierro|iron|ferro|chrom|cromo|inox|bronce|bronze|cobre|copper|lat[oó]n|brass|galvaniz|zinc|zinco|titani"
+msgstr "metal|acero|steel|a[cç]o(?![a-záéíóúñç])|alumin|hierro|iron|ferro|chrom|cromo|inox|bronce|bronze|cobre|copper|lat[oó]n|brass|galvaniz|zinc|zinco|titani"
+
+#: finish.py:29
+msgid "vidri|glass|cristal|crystal|vitral|window[_ ]?pane|mampara|vidro"
+msgstr "vidri|glass|cristal|crystal|vitral|window[_ ]?pane|mampara|vidro"
+
+#: __init__.py:363
+msgctxt "Operator"
+msgid "Import .igz…"
+msgstr "导入 .igz…"
+
+#: __init__.py:36
+msgctxt "Operator"
+msgid "Import IngeTrazo"
+msgstr "导入 IngeTrazo"
+
+#: __init__.py:391
+msgctxt "Operator"
+msgid "IngeTrazo (.igz)"
+msgstr "IngeTrazo (.igz)"
+
+#: __init__.py:56
+msgctxt "Operator"
+msgid "Reload"
+msgstr "重新加载"
+
+#: __init__.py:114
+#: __init__.py:380
+msgctxt "Operator"
+msgid "Send UVs to IngeTrazo"
+msgstr "发送 UV 到 IngeTrazo"
+
+#: __init__.py:235
+#: __init__.py:383
+msgctxt "Operator"
+msgid "Send cameras to IngeTrazo"
+msgstr "发送摄像机到 IngeTrazo"

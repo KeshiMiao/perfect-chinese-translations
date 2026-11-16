@@ -1,0 +1,232 @@
+# perfect-chinese: 1
+# id: img2cube
+# kind: addon
+# module: bl_ext.blender_org.img2cube
+# name: img2cube
+# name_zh: 图像转立方
+# translator: KeshiMiao
+# category: 3D View
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: ui.py:47
+msgid "1. Image"
+msgstr "1. 图像"
+
+#: ui.py:60
+msgid "2. Draw parallel lines"
+msgstr "2. 绘制平行线"
+
+#: ui.py:83
+msgid "3. Solve & origin"
+msgstr "3. 求解与原点"
+
+#: ui.py:134
+msgid "4. Scale (measure lines)"
+msgstr "4. 缩放（测量线）"
+
+#: ui.py:187
+msgid "5. Add snap points"
+msgstr "5. 添加吸附点"
+
+#: properties.py:51
+msgid "Active axis"
+msgstr "活动轴"
+
+#: operators.py:1083
+msgid "Click closer to a drawn line or its extension."
+msgstr "点击靠近已绘制直线或其延长线的位置。"
+
+#: operators.py:942
+msgid "Click closer to where two different-axis lines cross."
+msgstr "点击靠近两条不同轴直线交叉点的位置。"
+
+#: ui.py:147
+msgid "Drawn & Measured Lines:"
+msgstr "已绘制和已测量的直线："
+
+#: ui.py:104
+msgid "Extra lines only serve to create snap points."
+msgstr "额外直线仅用于创建吸附点。"
+
+#: properties.py:12
+msgid "First real-world direction (red)"
+msgstr "第一个现实世界方向（红色）"
+
+#: properties.py:47
+msgid "Image"
+msgstr "图像"
+
+#: operators.py:854
+msgid "Need at least 2 axes with 2+ lines each."
+msgstr "至少需要 2 个轴，每个轴至少 2 条线。"
+
+#: operators.py:778
+msgid "No line near click — try again"
+msgstr "点击处附近没有线——请重试"
+
+#: ui.py:188
+msgid "Note: Click on any drawn line or its extension (thin guide)."
+msgstr "注意：点击任意已绘制直线或其延长线（细引导线）。"
+
+#: ui.py:103
+msgid "Note: Fewer accurate lines are better than many rough lines."
+msgstr "注意：少量精确直线胜过大量粗略直线。"
+
+#: ui.py:126
+msgid "Note: Origin must be a real corner where two lines"
+msgstr "注意：原点必须是两条线"
+
+#: properties.py:83
+msgid "Overlay calculated lengths on all drawn lines in the viewport"
+msgstr "在视图中叠加显示所有已绘制直线的计算长度"
+
+#: ui.py:40
+msgid "Press  Esc  or  right-click  to stop"
+msgstr "按 Esc 或右键停止"
+
+#: operators.py:812
+#: properties.py:39
+msgid "Real length"
+msgstr "实际长度"
+
+#: properties.py:39
+msgid "Real-world length of this line (0 = unmeasured). Lines with a known length feed the scene scale."
+msgstr "此直线的现实世界长度（0 = 未测量）。已知长度的直线用于确定场景缩放。"
+
+#: operators.py:868
+msgid "Run 'Use this image' first."
+msgstr "请先运行“使用此图像”。"
+
+#: properties.py:13
+msgid "Second real-world direction (green)"
+msgstr "第二个现实世界方向（绿色）"
+
+#: properties.py:83
+msgid "Show Dimensions in Viewport"
+msgstr "在视图中显示尺寸"
+
+#: ui.py:180
+msgid "Show Estimated Dimensions"
+msgstr "显示估算尺寸"
+
+#: properties.py:14
+msgid "Third real-world direction (blue)"
+msgstr "第三个现实世界方向（蓝色）"
+
+#: properties.py:12
+msgid "X axis"
+msgstr "X 轴"
+
+#: properties.py:13
+msgid "Y axis"
+msgstr "Y 轴"
+
+#: properties.py:14
+msgid "Z axis"
+msgstr "Z 轴"
+
+#: ui.py:127
+msgid "meet in 3D (not just cross on the photo)."
+msgstr "在 3D 中相交处的真实角点（不只是照片上交叉）。"
+
+#: ui.py:190
+msgctxt "Operator"
+msgid "Add Snap Points along Lines"
+msgstr "沿直线添加吸附点"
+
+#: operators.py:1044
+msgctxt "Operator"
+msgid "Add snap points along lines"
+msgstr "沿直线添加吸附点"
+
+#: ui.py:109
+msgctxt "Operator"
+msgid "Cancel origin pick"
+msgstr "取消原点拾取"
+
+#: ui.py:136
+msgctxt "Operator"
+msgid "Cancel pick"
+msgstr "取消拾取"
+
+#: operators.py:697
+#: ui.py:76
+msgctxt "Operator"
+msgid "Clear active axis"
+msgstr "清除活动轴"
+
+#: operators.py:1163
+#: ui.py:197
+msgctxt "Operator"
+msgid "Clear all snap points"
+msgstr "清除所有吸附点"
+
+#: operators.py:621
+msgctxt "Operator"
+msgid "Draw lines (active axis)"
+msgstr "绘制直线（活动轴）"
+
+#: ui.py:64
+msgctxt "Operator"
+msgid "Draw lines (click A, click B)"
+msgstr "绘制直线（点击 A，点击 B）"
+
+#: ui.py:109
+msgctxt "Operator"
+msgid "Establish Origin (0,0,0)"
+msgstr "建立原点（0,0,0）"
+
+#: operators.py:901
+msgctxt "Operator"
+msgid "Establish Origin (click an intersection)"
+msgstr "建立原点（点击交点）"
+
+#: ui.py:136
+msgctxt "Operator"
+msgid "Pick a line in image"
+msgstr "在图像中拾取直线"
+
+#: operators.py:735
+msgctxt "Operator"
+msgid "Pick line in image"
+msgstr "在图像中拾取直线"
+
+#: operators.py:715
+msgctxt "Operator"
+msgid "Remove segment"
+msgstr "移除线段"
+
+#: operators.py:792
+msgctxt "Operator"
+msgid "Select segment"
+msgstr "选择线段"
+
+#: operators.py:809
+msgctxt "Operator"
+msgid "Set known real length"
+msgstr "设置已知实际长度"
+
+#: operators.py:847
+msgctxt "Operator"
+msgid "Solve camera"
+msgstr "求解相机"
+
+#: ui.py:190
+msgctxt "Operator"
+msgid "Stop adding"
+msgstr "停止添加"
+
+#: ui.py:64
+msgctxt "Operator"
+msgid "Stop drawing"
+msgstr "停止绘制"
+
+#: operators.py:576
+msgctxt "Operator"
+msgid "Use this image"
+msgstr "使用此图像"

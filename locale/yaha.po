@@ -1,0 +1,1004 @@
+# perfect-chinese: 1
+# id: yaha
+# kind: addon
+# module: bl_ext.blender_org.yaha
+# name: Y.A.H.A
+# name_zh: 环境光插件
+# translator: KeshiMiao
+# category: Lighting
+# supported_versions: >=5.0.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: picker.py:86
+msgid "(You can add folders in Preferences btw.)"
+msgstr "（顺便说一下，可在偏好设置中添加文件夹。）"
+
+#: properties.py:549
+msgid "Active Folder"
+msgstr "活动文件夹"
+
+#: properties.py:429
+msgid "Active HDRI"
+msgstr "活动 HDRI"
+
+#: properties.py:479
+msgid "Adjust HDRI horizontal rotation (0°-360°)"
+msgstr "调整 HDRI 水平旋转（0°-360°）"
+
+#: properties.py:574
+msgid "Adjust color temperature of the HDRI (1000K-10000K)"
+msgstr "调整 HDRI 色温（1000K-10000K）"
+
+#: properties.py:511
+msgid "Adjusts exposure for sunlight and highlights."
+msgstr "调整阳光和高光的曝光。"
+
+#: preferences.py:203
+msgid "Advanced"
+msgstr "高级"
+
+#: properties.py:536
+msgid "Alignment Mode"
+msgstr "对齐模式"
+
+#: operators.py:635
+msgid "All"
+msgstr "全部"
+
+#: panels.py:582
+msgid "Angle"
+msgstr "角度"
+
+#: panels.py:454
+msgid "Apply Color Preset..."
+msgstr "应用颜色预设..."
+
+#: panels.py:31
+#: preferences.py:127
+msgid "Auto-Cleanup"
+msgstr "自动清理"
+
+#: preferences.py:134
+#: properties.py:446
+msgid "Auto-Detect Projection"
+msgstr "自动检测投影"
+
+#: panels.py:32
+msgid "Auto-Load"
+msgstr "自动加载"
+
+#: preferences.py:127
+msgid "Automatically remove unused .hdr/.exr images when switching HDRIs (syncs with N-Panel)"
+msgstr "切换 HDRI 时自动移除未使用的 .hdr/.exr 图像（与 N 面板同步）"
+
+#: properties.py:440
+msgid "Automatically remove unused .hdr/.exr images when switching HDRIs (syncs with Preferences → Advanced)"
+msgstr "切换 HDRI 时自动移除未使用的 .hdr/.exr 图像（与偏好设置 → 高级同步）"
+
+#: preferences.py:134
+#: properties.py:446
+msgid "Automatically set projection based on image size (Square → Mirror Ball, Non-square → Equirectangular)"
+msgstr "根据图像尺寸自动设置投影（方形 → 镜面球，非方形 → 等距柱状）"
+
+#: properties.py:540
+msgid "Average of top 1% brightest pixels for smoother alignment"
+msgstr "取最亮 1% 像素平均值，使对齐更平滑"
+
+#: panels.py:489
+msgid "BACKGROUND DISPLAY"
+msgstr "背景显示"
+
+#: properties.py:503
+msgid "BG Intensity"
+msgstr "背景强度"
+
+#: panels.py:470
+msgid "Background"
+msgstr "背景"
+
+#: operators.py:637
+msgid "Background Only"
+msgstr "仅背景"
+
+#: panels.py:517
+msgid "Blur Intensity"
+msgstr "模糊强度"
+
+#: constants.py:126
+#: panels.py:500
+msgid "Blurred"
+msgstr "模糊"
+
+#: operators.py:466
+msgid "Blurred image regenerated with current settings"
+msgstr "已使用当前设置重新生成模糊图像"
+
+#: properties.py:539
+msgid "Brightest Pixel"
+msgstr "最亮像素"
+
+#: panels.py:410
+msgid "COLOR TWEAKS"
+msgstr "颜色调整"
+
+#: properties.py:402
+msgid "Cached count of HDRIs in this folder (recomputed on load)"
+msgstr "此文件夹中 HDRI 的缓存数量（加载时重新计算）"
+
+#: operators.py:758
+msgid "Cannot get addon preferences"
+msgstr "无法获取插件偏好设置"
+
+#: properties.py:555
+msgid "Choose where to manage favorites: per-project or globally"
+msgstr "选择收藏项的管理范围：按项目或全局"
+
+#: panels.py:392
+#: preferences.py:200
+msgid "Color"
+msgstr "颜色"
+
+#: operators.py:638
+msgid "Color Grading Only"
+msgstr "仅颜色分级"
+
+#: panels.py:458
+msgid "Color Presets"
+msgstr "颜色预设"
+
+#: properties.py:574
+msgid "Color Temp (K)"
+msgstr "色温 (K)"
+
+#: panels.py:416
+msgid "Color Temp (K) - Warm/Cool Shift"
+msgstr "色温 (K) - 暖/冷偏移"
+
+#: preferences.py:102
+msgid "Color of the rotation overlay text"
+msgstr "旋转叠加文字的颜色"
+
+#: panels.py:443
+msgid "Contrast - Softness/Punch"
+msgstr "对比度 - 柔和/强烈"
+
+#: properties.py:503
+msgid "Controls overall background brightness"
+msgstr "控制整体背景亮度"
+
+#: operators.py:936
+#: operators.py:961
+msgid "Could not add favorite (global collection unavailable)"
+msgstr "无法添加收藏项（全局集合不可用）"
+
+#: operators.py:582
+msgid "Could not create or align Sun lamp"
+msgstr "无法创建或对齐太阳灯"
+
+#: panels.py:161
+msgid "Ctrl + R to rotate in viewport"
+msgstr "Ctrl + R 在视图中旋转"
+
+#: preferences.py:195
+msgid "Ctrl+R (change in Keymap preferences)"
+msgstr "Ctrl+R（在键位映射偏好设置中更改）"
+
+#: properties.py:582
+msgid "Current page in the HDRI Picker"
+msgstr "HDRI 选择器中的当前页"
+
+#: properties.py:567
+msgid "Current page in the favorites grid"
+msgstr "收藏项网格中的当前页"
+
+#: panels.py:507
+msgid "Custom"
+msgstr "自定义"
+
+#: constants.py:129
+msgid "Custom Image"
+msgstr "自定义图像"
+
+#: properties.py:411
+#: properties.py:421
+msgid "Custom display name for this favorite (does not rename the HDRI file)"
+msgstr "此收藏项的自定义显示名称（不会重命名 HDRI 文件）"
+
+#: panels.py:36
+#: preferences.py:88
+msgid "Depth"
+msgstr "深度"
+
+#: panels.py:191
+msgid "Direction"
+msgstr "方向"
+
+#: operators.py:1407
+#: properties.py:390
+msgid "Display Name"
+msgstr "显示名称"
+
+#: preferences.py:97
+msgid "Enable/Disable the rotation widget."
+msgstr "启用/禁用旋转控件。"
+
+#: panels.py:581
+msgid "Energy"
+msgstr "能量"
+
+#: operators.py:1426
+msgid "Enter a display name for this favorite:"
+msgstr "输入此收藏项的显示名称："
+
+#: preferences.py:185
+msgid "Error reading folder"
+msgstr "读取文件夹时出错"
+
+#: operators.py:419
+msgid "Failed to generate blurred image"
+msgstr "生成模糊图像失败"
+
+#: operators.py:463
+msgid "Failed to regenerate blurred image"
+msgstr "重新生成模糊图像失败"
+
+#: operators.py:994
+msgid "Favorite index out of range; nothing to delete."
+msgstr "收藏项索引超出范围；没有可删除的内容。"
+
+#: panels.py:216
+msgid "Favorites"
+msgstr "收藏项"
+
+#: properties.py:567
+msgid "Favorites Page"
+msgstr "收藏项页"
+
+#: properties.py:555
+msgid "Favorites Scope"
+msgstr "收藏项范围"
+
+#: properties.py:395
+#: properties.py:452
+msgid "Folder Path"
+msgstr "文件夹路径"
+
+#: panels.py:166
+msgid "Folders"
+msgstr "文件夹"
+
+#: panels.py:432
+msgid "Gamma - Midtone Brightness"
+msgstr "伽马 - 中间调亮度"
+
+#: properties.py:559
+msgid "Global"
+msgstr "全局"
+
+#: preferences.py:77
+msgid "Global favorite HDRIs shared across all projects"
+msgstr "在所有项目间共享的全局收藏 HDRI"
+
+#: panels.py:195
+msgid "Go to the next page"
+msgstr "前往下一页"
+
+#: panels.py:194
+msgid "Go to the previous page"
+msgstr "前往上一页"
+
+#: constants.py:128
+#: panels.py:504
+msgid "Gradient"
+msgstr "渐变"
+
+#: properties.py:402
+msgid "HDRI Count"
+msgstr "HDRI 数量"
+
+#: panels.py:386
+msgid "Horizon Offset"
+msgstr "地平线偏移"
+
+#: preferences.py:88
+msgid "How deep to search in subdirectories"
+msgstr "在子目录中搜索的深度"
+
+#: properties.py:536
+msgid "How to derive the sun direction from the HDRI. Brightest Pixel is sharper but jittery on noisy HDRIs; Soft Peak averages the top 1% for smoother, more stable alignment."
+msgstr "如何从 HDRI 推导太阳方向。最亮像素更精确，但在有噪点的 HDRI 上会抖动；柔和峰值会对前 1% 取平均，对齐更平滑稳定。"
+
+#: properties.py:525
+msgid "How to display the Background"
+msgstr "如何显示背景"
+
+#: properties.py:465
+msgid "Include Subdirectories"
+msgstr "包含子目录"
+
+#: properties.py:549
+msgid "Index of the active named folder"
+msgstr "当前命名文件夹的索引"
+
+#: operators.py:821
+msgid "Keep the existing favorite and add this as a separate one"
+msgstr "保留现有收藏，并将此项另存为单独一项"
+
+#: preferences.py:157
+msgid "Library"
+msgstr "库"
+
+#: properties.py:435
+msgid "Load Dynamically"
+msgstr "动态加载"
+
+#: properties.py:435
+msgid "Load the HDRI when the preview changes"
+msgstr "预览变化时加载 HDRI"
+
+#: properties.py:471
+msgid "Look for HDRIs in sub-folders at this depth level"
+msgstr "按此深度层级在子文件夹中查找 HDRI"
+
+#: operators.py:636
+msgid "Main Only"
+msgstr "仅主目录"
+
+#: operators.py:1427
+msgid "Name"
+msgstr "名称"
+
+#: properties.py:390
+msgid "Name of folder"
+msgstr "文件夹名称"
+
+#: properties.py:429
+msgid "Name of the currently selected HDRI"
+msgstr "当前所选 HDRI 的名称"
+
+#: preferences.py:71
+msgid "Named HDRI folders"
+msgstr "已命名的 HDRI 文件夹"
+
+#: panels.py:195
+msgid "Next"
+msgstr "下一个"
+
+#: operators.py:414
+#: operators.py:563
+msgid "No Active HDRI Found"
+msgstr "未找到活动 HDRI"
+
+#: operators.py:912
+msgid "No HDRI selected"
+msgstr "未选择 HDRI"
+
+#: preferences.py:181
+msgid "No HDRIs found"
+msgstr "未找到 HDRI"
+
+#: picker.py:88
+msgid "No HDRIs were found."
+msgstr "未找到任何 HDRI。"
+
+#: panels.py:77
+msgid "No folders"
+msgstr "无文件夹"
+
+#: preferences.py:163
+msgid "No folders yet , click below to add one."
+msgstr "还没有文件夹，点击下方添加一个。"
+
+#: panels.py:340
+msgid "No global favorites added yet"
+msgstr "尚未添加全局收藏"
+
+#: preferences.py:187
+msgid "No path set"
+msgstr "未设置路径"
+
+#: panels.py:338
+msgid "No project favorites added yet"
+msgstr "尚未添加项目收藏"
+
+#: constants.py:21
+#: constants.py:24
+msgid "NodeSocketFloat"
+msgstr "NodeSocketFloat"
+
+#: constants.py:18
+msgid "NodeSocketVector"
+msgstr "NodeSocketVector"
+
+#: preferences.py:183
+msgid "Not scanned"
+msgstr "未扫描"
+
+#: panels.py:109
+msgid "Not set up yet"
+msgstr "尚未设置"
+
+#: picker.py:85
+msgid "Nothing here yet."
+msgstr "这里还没有内容。"
+
+#: constants.py:125
+#: panels.py:499
+msgid "Original"
+msgstr "原始"
+
+#: operators.py:816
+msgid "Override"
+msgstr "覆盖"
+
+#: operators.py:905
+msgid "Overwrite"
+msgstr "覆写"
+
+#: properties.py:582
+msgid "Page"
+msgstr "页"
+
+#: properties.py:395
+msgid "Path to an HDRI folder"
+msgstr "HDRI 文件夹的路径"
+
+#: properties.py:452
+msgid "Path to the folder containing the images"
+msgstr "包含图像的文件夹路径"
+
+#: operators.py:770
+msgid "Please select a valid folder."
+msgstr "请选择有效的文件夹。"
+
+#: panels.py:194
+msgid "Previous"
+msgstr "上一个"
+
+#: properties.py:558
+msgid "Project"
+msgstr "项目"
+
+#: panels.py:363
+msgid "ROTATION & INTENSITY"
+msgstr "旋转与强度"
+
+#: properties.py:471
+msgid "Recursion Level"
+msgstr "递归层级"
+
+#: constants.py:127
+msgid "Replace the background with a solid color. HDRI still lights the scene."
+msgstr "用纯色替换背景。HDRI 仍会照亮场景。"
+
+#: operators.py:816
+msgid "Replace the saved version with your current settings"
+msgstr "用当前设置替换已保存的版本"
+
+#: operators.py:632
+msgid "Reset Scope"
+msgstr "重置范围"
+
+#: operators.py:635
+msgid "Reset all settings to defaults"
+msgstr "将所有设置重置为默认值"
+
+#: operators.py:637
+msgid "Reset background-related settings only"
+msgstr "仅重置与背景相关的设置"
+
+#: operators.py:638
+msgid "Reset color grading settings only"
+msgstr "仅重置调色设置"
+
+#: operators.py:636
+msgid "Reset rotation and intensities only"
+msgstr "仅重置旋转与强度"
+
+#: operators.py:639
+msgid "Reset sun lamp linkage only"
+msgstr "仅重置太阳灯关联"
+
+#: preferences.py:194
+msgid "Rotate Shortcut"
+msgstr "旋转快捷键"
+
+#: panels.py:344
+msgid "Rotation & Intensity"
+msgstr "旋转与强度"
+
+#: preferences.py:119
+msgid "Rotation Speed"
+msgstr "旋转速度"
+
+#: preferences.py:198
+msgid "Rotation Text"
+msgstr "旋转文本"
+
+#: panels.py:547
+msgid "SUN LAMP ALIGNMENT"
+msgstr "太阳灯对齐"
+
+#: panels.py:437
+msgid "Saturation - Color Intensity"
+msgstr "饱和度 - 颜色强度"
+
+#: operators.py:821
+#: operators.py:906
+msgid "Save as New"
+msgstr "另存为新"
+
+#: panels.py:34
+#: preferences.py:82
+msgid "Scan Subdirectories"
+msgstr "扫描子目录"
+
+#: properties.py:459
+msgid "Search HDRIs"
+msgstr "搜索 HDRI"
+
+#: preferences.py:82
+msgid "Search for HDRIs inside subdirectories of your folders (syncs with N-Panel)"
+msgstr "在文件夹的子目录中搜索 HDRI（与 N 面板同步）"
+
+#: properties.py:465
+msgid "Search for HDRIs inside subdirectories of your folders (syncs with Preferences → Advanced)"
+msgstr "在文件夹的子目录中搜索 HDRI（与偏好设置 → 高级同步）"
+
+#: panels.py:24
+#: panels.py:25
+msgid "Settings"
+msgstr "设置"
+
+#: properties.py:559
+msgid "Shared across all projects (addon preferences)"
+msgstr "在所有项目间共享（插件偏好设置）"
+
+#: properties.py:495
+msgid "Shift HDRI left/right along the Y axis"
+msgstr "沿 Y 轴左右平移 HDRI"
+
+#: preferences.py:97
+msgid "Show Text"
+msgstr "显示文本"
+
+#: preferences.py:199
+msgid "Show while rotating"
+msgstr "旋转时显示"
+
+#: properties.py:540
+msgid "Soft Peak"
+msgstr "柔和峰值"
+
+#: constants.py:127
+#: panels.py:503
+msgid "Solid Color"
+msgstr "纯色"
+
+#: properties.py:558
+msgid "Stored in this .blend file"
+msgstr "存储在此 .blend 文件中"
+
+#: panels.py:424
+#: panels.py:521
+msgid "Strength"
+msgstr "强度"
+
+#: properties.py:511
+msgid "Sun Intensity"
+msgstr "太阳强度"
+
+#: panels.py:531
+#: properties.py:530
+msgid "Sun Lamp"
+msgstr "太阳灯"
+
+#: properties.py:530
+msgid "Sun Lamp linked to the HDRI"
+msgstr "与 HDRI 链接的太阳灯"
+
+#: operators.py:639
+msgid "Sun Only"
+msgstr "仅太阳"
+
+#: preferences.py:102
+msgid "Text Color"
+msgstr "文本颜色"
+
+#: preferences.py:112
+msgid "Text Size"
+msgstr "文本大小"
+
+#: properties.py:487
+msgid "Tilt HDRI up/down along the X axis"
+msgstr "沿 X 轴上下倾斜 HDRI"
+
+#: panels.py:419
+msgid "Tint Overlay"
+msgstr "色偏叠加"
+
+#: properties.py:459
+msgid "Type and press Enter to filter HDRIs by name"
+msgstr "输入并按回车按名称筛选 HDRI"
+
+#: operators.py:1207
+msgid "Unable to find Y.A.H.A Node Group"
+msgstr "找不到 Y.A.H.A 节点组"
+
+#: constants.py:126
+msgid "Use a blurred version of the HDRI for both background and lighting. Softens visual detail and light data, giving smoother shadows and highlights."
+msgstr "使用 HDRI 的模糊版本作为背景和照明。柔化视觉细节和光照数据，产生更柔和的阴影和高光。"
+
+#: constants.py:129
+msgid "Use a custom image as background while keeping the HDRI for lighting."
+msgstr "使用自定义图像作为背景，同时保留 HDRI 用于照明。"
+
+#: constants.py:128
+msgid "Use a vertical gradient as background. HDRI still lights the scene."
+msgstr "使用垂直渐变作为背景。HDRI 仍照亮场景。"
+
+#: properties.py:519
+msgid "Use for Reflections"
+msgstr "用于反射"
+
+#: properties.py:539
+msgid "Use single brightest pixel for sharp alignment"
+msgstr "使用单个最亮像素进行精确对齐"
+
+#: constants.py:125
+msgid "Use the original HDRI as both lighting and background. Best for realistic, full-detail environment look."
+msgstr "使用原始 HDRI 同时作为照明和背景。最适合真实、完整细节的环境效果。"
+
+#: properties.py:519
+msgid "When enabled, the HDRI is used as environment for material reflections. Disable to keep it visible as background but remove its reflection contribution."
+msgstr "启用后，HDRI 用作材质反射的环境。禁用则保持其作为背景可见，但移除其反射贡献。"
+
+#: operators.py:647
+msgid "World shader not set up; nothing to reset."
+msgstr "世界着色器未设置；没有可重置的内容。"
+
+#: operators.py:481
+msgid "Wrong File Path"
+msgstr "文件路径错误"
+
+#: panels.py:376
+#: properties.py:487
+msgid "X"
+msgstr "X"
+
+#: panels.py:378
+#: properties.py:495
+msgid "Y"
+msgstr "Y"
+
+#: panels.py:39
+#: panels.py:42
+msgid "Y.A.H.A"
+msgstr "Y.A.H.A"
+
+#: operators.py:86
+msgid "Y.A.H.A Will replace your current world shader!"
+msgstr "Y.A.H.A 将替换你当前的世界着色器！"
+
+#: panels.py:113
+msgid "You need to create a world shader"
+msgstr "你需要创建一个世界着色器"
+
+#: panels.py:372
+#: properties.py:479
+msgid "Z"
+msgstr "Z"
+
+#: operators.py:707
+#: panels.py:84
+msgctxt "Operator"
+msgid "Add Folder"
+msgstr "添加文件夹"
+
+#: operators.py:746
+msgctxt "Operator"
+msgid "Add HDRI Folder"
+msgstr "添加 HDRI 文件夹"
+
+#: operators.py:708
+msgctxt "Operator"
+msgid "Add a new folder"
+msgstr "添加新文件夹"
+
+#: operators.py:811
+msgctxt "Operator"
+msgid "Add this HDRI to your favorites (respects current Project/Global scope)"
+msgstr "将此 HDRI 添加到收藏夹（遵循当前项目/全局范围）"
+
+#: operators.py:809
+#: panels.py:152
+msgctxt "Operator"
+msgid "Add to Favorites"
+msgstr "添加到收藏夹"
+
+#: operators.py:551
+#: panels.py:566
+msgctxt "Operator"
+msgid "Align"
+msgstr "对齐"
+
+#: operators.py:553
+msgctxt "Operator"
+msgid "Align this lamp according to the selected method"
+msgstr "按所选方法对齐此灯"
+
+#: operators.py:1381
+msgctxt "Operator"
+msgid "Apply Color Preset"
+msgstr "应用颜色预设"
+
+#: operators.py:1383
+msgctxt "Operator"
+msgid "Apply a built-in color preset"
+msgstr "应用内置颜色预设"
+
+#: operators.py:1302
+msgctxt "Operator"
+msgid "Apply a random color/grading preset (Temperature, Tint, Gamma, Saturation, Contrast)"
+msgstr "应用随机颜色/调色预设（色温、色偏、伽马、饱和度、对比度）"
+
+#: operators.py:1343
+msgctxt "Operator"
+msgid "Apply a random rotation and intensity preset (Z/X/Y, BG Intensity, Sun Intensity)"
+msgstr "应用随机旋转和强度预设（Z/X/Y、背景强度、太阳强度）"
+
+#: picker.py:15
+msgctxt "Operator"
+msgid "Browse HDRIs from your library"
+msgstr "浏览库中的 HDRI"
+
+#: panels.py:123
+msgctxt "Operator"
+msgid "Browse Library"
+msgstr "浏览库"
+
+#: panels.py:563
+msgctxt "Operator"
+msgid "Create New Sun Lamp"
+msgstr "创建新太阳灯"
+
+#: operators.py:570
+msgctxt "Operator"
+msgid "Create Sun"
+msgstr "创建太阳"
+
+#: operators.py:41
+#: panels.py:101
+msgctxt "Operator"
+msgid "Create World Shader"
+msgstr "创建世界着色器"
+
+#: operators.py:572
+msgctxt "Operator"
+msgid "Create a new Sun lamp aligned to the HDRI (energy defaults to 1)"
+msgstr "创建与 HDRI 对齐的新太阳灯（能量默认 1）"
+
+#: operators.py:43
+msgctxt "Operator"
+msgid "Create world shader for Y.A.H.A"
+msgstr "为 Y.A.H.A 创建世界着色器"
+
+#: operators.py:1288
+msgctxt "Operator"
+msgid "Enable/disable Blender's transparent background (Render → Film → Transparent)"
+msgstr "启用/禁用 Blender 的透明背景（渲染 → 胶片 → 透明）"
+
+#: panels.py:516
+msgctxt "Operator"
+msgid "Generate"
+msgstr "生成"
+
+#: operators.py:407
+msgctxt "Operator"
+msgid "Generate Blurred Image"
+msgstr "生成模糊图像"
+
+#: operators.py:409
+msgctxt "Operator"
+msgid "Generate a blurred image from the current HDRI"
+msgstr "从当前 HDRI 生成模糊图像"
+
+#: operators.py:1404
+msgctxt "Operator"
+msgid "Give this favorite a custom display name (does not rename the HDRI file)"
+msgstr "为此收藏项设置自定义显示名称（不会重命名 HDRI 文件）"
+
+#: panels.py:189
+msgctxt "Operator"
+msgid "Go to the previous or next favorites page"
+msgstr "切换到上一页或下一页收藏"
+
+#: operators.py:792
+msgctxt "Operator"
+msgid "HDRI Folder"
+msgstr "HDRI 文件夹"
+
+#: picker.py:14
+msgctxt "Operator"
+msgid "HDRI Library"
+msgstr "HDRI 库"
+
+#: operators.py:472
+#: panels.py:508
+msgctxt "Operator"
+msgid "Load Custom Image"
+msgstr "加载自定义图像"
+
+#: operators.py:474
+msgctxt "Operator"
+msgid "Load a custom background image."
+msgstr "加载自定义背景图像。"
+
+#: operators.py:589
+#: panels.py:574
+msgctxt "Operator"
+msgid "Match Sun Color to HDRI"
+msgstr "使太阳颜色匹配 HDRI"
+
+#: panels.py:140
+#: panels.py:144
+msgctxt "Operator"
+msgid "Open HDRI Library"
+msgstr "打开 HDRI 库"
+
+#: panels.py:187
+msgctxt "Operator"
+msgid "Paginate Favorites"
+msgstr "收藏分页"
+
+#: operators.py:1037
+msgctxt "Operator"
+msgid "Pick Favorite"
+msgstr "选择收藏"
+
+#: operators.py:790
+msgctxt "Operator"
+msgid "Pick Folder"
+msgstr "选择文件夹"
+
+#: picker.py:162
+msgctxt "Operator"
+msgid "Pick HDRI"
+msgstr "选择 HDRI"
+
+#: operators.py:1232
+msgctxt "Operator"
+msgid "Random"
+msgstr "随机"
+
+#: operators.py:1300
+msgctxt "Operator"
+msgid "Random Color"
+msgstr "随机颜色"
+
+#: panels.py:451
+msgctxt "Operator"
+msgid "Random Color Preset"
+msgstr "随机颜色预设"
+
+#: operators.py:1234
+#: panels.py:147
+msgctxt "Operator"
+msgid "Random HDRI"
+msgstr "随机 HDRI"
+
+#: operators.py:1256
+msgctxt "Operator"
+msgid "Random Rotation"
+msgstr "随机旋转"
+
+#: operators.py:1341
+#: panels.py:389
+msgctxt "Operator"
+msgid "Random Rotation & Intensity"
+msgstr "随机旋转和强度"
+
+#: operators.py:1258
+msgctxt "Operator"
+msgid "Randomly set the HDRI rotation between 0° and 360°"
+msgstr "将 HDRI 旋转随机设置在 0° 到 360° 之间"
+
+#: operators.py:426
+msgctxt "Operator"
+msgid "Regenerate"
+msgstr "重新生成"
+
+#: operators.py:428
+msgctxt "Operator"
+msgid "Regenerate the blurred background with current colour settings (temperature, tint, gamma, saturation, contrast) baked in"
+msgstr "使用当前色彩设置（色温、色调、伽马、饱和度、对比度）重新生成模糊背景并烘焙进去"
+
+#: picker.py:189
+msgctxt "Operator"
+msgid "Reload"
+msgstr "重新加载"
+
+#: picker.py:191
+msgctxt "Operator"
+msgid "Reload HDRIs."
+msgstr "重新加载 HDRI。"
+
+#: operators.py:509
+msgctxt "Operator"
+msgid "Remove Custom Image"
+msgstr "移除自定义图像"
+
+#: operators.py:982
+msgctxt "Operator"
+msgid "Remove Favorite"
+msgstr "移除收藏"
+
+#: operators.py:723
+msgctxt "Operator"
+msgid "Remove Folder"
+msgstr "移除文件夹"
+
+#: operators.py:511
+msgctxt "Operator"
+msgid "Remove the custom background image and return to the HDRI as background."
+msgstr "移除自定义背景图像，恢复使用 HDRI 作为背景。"
+
+#: operators.py:984
+msgctxt "Operator"
+msgid "Remove this HDRI from favorites"
+msgstr "将此 HDRI 从收藏中移除"
+
+#: operators.py:724
+msgctxt "Operator"
+msgid "Remove this folder"
+msgstr "移除此文件夹"
+
+#: operators.py:1403
+msgctxt "Operator"
+msgid "Rename Favorite"
+msgstr "重命名收藏"
+
+#: operators.py:628
+#: operators.py:630
+msgctxt "Operator"
+msgid "Reset to Default Values"
+msgstr "重置为默认值"
+
+#: operators.py:1128
+msgctxt "Operator"
+msgid "Rotate"
+msgstr "旋转"
+
+#: operators.py:1130
+msgctxt "Operator"
+msgid "Rotate the HDRI"
+msgstr "旋转 HDRI"
+
+#: operators.py:591
+msgctxt "Operator"
+msgid "Sample the brightest region of the HDRI and apply its color to the sun lamp. Helps keep the artificial sun physically consistent with the environment."
+msgstr "采样 HDRI 的最亮区域并将其颜色应用到太阳灯。有助于保持人工太阳与环境在物理上一致。"
+
+#: operators.py:747
+msgctxt "Operator"
+msgid "Select a folder containing HDRIs. You can rename/remove folders in the addon preferences."
+msgstr "选择包含 HDRI 的文件夹。你可以在插件偏好设置中重命名/移除文件夹。"
+
+#: operators.py:1286
+msgctxt "Operator"
+msgid "Toggle Transparent Background"
+msgstr "切换透明背景"
+
+#: picker.py:164
+msgctxt "Operator"
+msgid "Use this HDRI"
+msgstr "使用此 HDRI"
+
+#: operators.py:1039
+msgctxt "Operator"
+msgid "Use this favorite HDRI"
+msgstr "使用此收藏的 HDRI"

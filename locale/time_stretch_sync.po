@@ -1,0 +1,290 @@
+# perfect-chinese: 1
+# id: time_stretch_sync
+# kind: addon
+# module: bl_ext.blender_org.time_stretch_sync
+# name: Time Stretch Sync
+# name_zh: 时间伸缩同步
+# translator: KeshiMiao
+# category: Animation
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: Time Stretch Sync/preferences.py:36
+msgid "(next vs previous) or context (Graph Editor, NLA, Dopesheet...)."
+msgstr "（下一个 vs 上一个）或上下文（曲线编辑器、NLA、动画摄影表……）。"
+
+#: Time Stretch Sync/preferences.py:27
+msgid "1. \"Sync Operators\" like \"Jump to Keyframe\" only work via keymaps."
+msgstr "1. 像“跳转到关键帧”这类“同步操作符”只能通过键位映射生效。"
+
+#: Time Stretch Sync/preferences.py:31
+msgid "2. Default bindings mirror Blender's defaults. If conflicts occur,"
+msgstr "2. 默认绑定与 Blender 默认一致。若发生冲突，"
+
+#: Time Stretch Sync/preferences.py:35
+msgid "3. Some entries may look duplicated but differ in behavior"
+msgstr "3. 某些条目看似重复，但行为不同"
+
+#: Time Stretch Sync/preferences.py:40
+msgid "4. If keymaps are enabled but options are disabled in"
+msgstr "4. 如果已启用键位映射，但在此处禁用了选项"
+
+#: Time Stretch Sync/preferences.py:24
+msgid "About Override Keymaps"
+msgstr "关于覆盖键位映射"
+
+#: Time Stretch Sync/ops.py:17
+msgid "Action"
+msgstr "动作"
+
+#: Time Stretch Sync/__init__.py:71
+msgid "Add START/END markers at frame range when time stretch is active"
+msgstr "启用时间伸缩时，在帧范围处添加 START/END 标记"
+
+#: Time Stretch Sync/preferences.py:60
+msgid "Amount to change the Time Stretch value per adjustment"
+msgstr "每次调整时时间伸缩值的变化量"
+
+#: Time Stretch Sync/__init__.py:1
+msgid "Animation"
+msgstr "动画"
+
+#: Time Stretch Sync/__init__.py:65
+msgid "Automatically move all user markers when time stretch changes"
+msgstr "时间伸缩变化时自动移动所有用户标记"
+
+#: Time Stretch Sync/__init__.py:86
+msgid "Center view on playline position instead of playhead when time stretch is active. Requires override keymaps to be enabled in addon preferences"
+msgstr "启用时间伸缩时，以播放线位置而非播放头为中心。需要在插件偏好设置中启用覆盖键位映射"
+
+#: Time Stretch Sync/preferences.py:269
+msgid "DOPESHEET_EDITOR"
+msgstr "DOPESHEET_EDITOR"
+
+#: Time Stretch Sync/ops.py:21
+msgid "Decrease"
+msgstr "减少"
+
+#: Time Stretch Sync/ops.py:21
+msgid "Decrease time stretch (speed up playback)"
+msgstr "减小时间伸缩（加快播放速度）"
+
+#: Time Stretch Sync/preferences.py:151
+msgid "Don't forget to enable an Operator sync option in the Sync panel!"
+msgstr "别忘了在“同步”面板中启用一个操作符同步选项！"
+
+#: Time Stretch Sync/preferences.py:90
+msgid "Enable at least one \"Adjust Time Stretch\" keymap."
+msgstr "至少启用一个“调整时间伸缩”键位映射。"
+
+#: Time Stretch Sync/__init__.py:42
+msgid "Enable automatic syncing when time stretch changes"
+msgstr "时间伸缩变化时启用自动同步"
+
+#: Time Stretch Sync/preferences.py:28
+msgid "Enable them below to use synced navigation."
+msgstr "在下方启用它们以使用同步导航。"
+
+#: Time Stretch Sync/preferences.py:72
+msgid "End Marker Name"
+msgstr "结束标记名称"
+
+#: Time Stretch Sync/ui.py:38
+msgid "Frames"
+msgstr "帧"
+
+#: Time Stretch Sync/ops.py:20
+msgid "Increase"
+msgstr "增加"
+
+#: Time Stretch Sync/ops.py:20
+msgid "Increase time stretch (slow down playback)"
+msgstr "增大时间伸缩（减慢播放速度）"
+
+#: Time Stretch Sync/__init__.py:76
+msgid "Jump to Keyframe (Sync)"
+msgstr "跳转到关键帧（同步）"
+
+#: Time Stretch Sync/__init__.py:81
+msgid "Jump to Marker (Sync)"
+msgstr "跳转到标记（同步）"
+
+#: Time Stretch Sync/__init__.py:76
+msgid "Jump to keyframes based on playline position instead of playhead when time stretch is active. Requires override keymaps to be enabled in addon preferences"
+msgstr "启用时间伸缩时，基于播放线位置而非播放头跳转到关键帧。需要在插件偏好设置中启用覆盖键位映射"
+
+#: Time Stretch Sync/__init__.py:81
+msgid "Jump to markers based on playline position instead of playhead when time stretch is active. Requires override keymaps to be enabled in addon preferences"
+msgstr "启用时间伸缩时，基于播放线位置而非播放头跳转到标记。需要在插件偏好设置中启用覆盖键位映射"
+
+#: Time Stretch Sync/ops.py:94
+msgid "Jump to next keyframe if True, previous if False"
+msgstr "为 True 时跳转到下一个关键帧，为 False 时跳转到上一个"
+
+#: Time Stretch Sync/ops.py:145
+msgid "Jump to next marker if True, previous if False"
+msgstr "为 True 时跳转到下一个标记，为 False 时跳转到上一个"
+
+#: Time Stretch Sync/__init__.py:47
+msgid "Keep playline at same underlying time when stretch changes"
+msgstr "伸缩变化时保持播放线处于相同的底层时间"
+
+#: Time Stretch Sync/preferences.py:99
+msgid "Keymaps"
+msgstr "键位映射"
+
+#: Time Stretch Sync/__init__.py:65
+msgid "Markers Position"
+msgstr "标记位置"
+
+#: Time Stretch Sync/preferences.py:72
+msgid "Name for the stretch range end marker"
+msgstr "伸缩范围结束标记的名称"
+
+#: Time Stretch Sync/preferences.py:66
+msgid "Name for the stretch range start marker"
+msgstr "伸缩范围开始标记的名称"
+
+#: Time Stretch Sync/ops.py:94
+msgid "Next Keyframe"
+msgstr "下一个关键帧"
+
+#: Time Stretch Sync/ops.py:145
+msgid "Next Marker"
+msgstr "下一个标记"
+
+#: Time Stretch Sync/ops.py:112
+#: Time Stretch Sync/ops.py:124
+msgid "No more keyframes in this direction"
+msgstr "此方向上没有更多关键帧"
+
+#: Time Stretch Sync/ops.py:163
+#: Time Stretch Sync/ops.py:175
+msgid "No more markers in this direction"
+msgstr "此方向上没有更多标记"
+
+#: Time Stretch Sync/ui.py:80
+msgid "Only works with keymaps."
+msgstr "仅在使用键位映射时有效。"
+
+#: Time Stretch Sync/ui.py:56
+msgid "Operators"
+msgstr "操作符"
+
+#: Time Stretch Sync/preferences.py:127
+msgid "Override Keymaps"
+msgstr "覆盖键位映射"
+
+#: Time Stretch Sync/__init__.py:47
+#: Time Stretch Sync/ui.py:39
+msgid "Playline Position"
+msgstr "播放线位置"
+
+#: Time Stretch Sync/__init__.py:52
+msgid "Preview Range"
+msgstr "预览范围"
+
+#: Time Stretch Sync/preferences.py:272
+msgid "SEQUENCE_EDITOR"
+msgstr "SEQUENCE_EDITOR"
+
+#: Time Stretch Sync/__init__.py:71
+msgid "Show Range Markers"
+msgstr "显示范围标记"
+
+#: Time Stretch Sync/preferences.py:66
+msgid "Start Marker Name"
+msgstr "开始标记名称"
+
+#: Time Stretch Sync/preferences.py:93
+msgid "Stretch Range Markers"
+msgstr "伸缩范围标记"
+
+#: Time Stretch Sync/__init__.py:42
+#: Time Stretch Sync/ui.py:13
+msgid "Sync"
+msgstr "同步"
+
+#: Time Stretch Sync/preferences.py:41
+msgid "Sync > Operators, they will use Blender's default behavior."
+msgstr "同步 > 操作符，它们将使用 Blender 的默认行为。"
+
+#: Time Stretch Sync/__init__.py:52
+msgid "Sync preview range with time stretch"
+msgstr "将预览范围与时间伸缩同步"
+
+#: Time Stretch Sync/__init__.py:58
+msgid "Sync timeline frame range with time stretch (disabled in preview range)"
+msgstr "将时间线帧范围与时间伸缩同步（在预览范围内禁用）"
+
+#: Time Stretch Sync/__init__.py:1
+msgid "Sync timeline range, playline and operators with timestretching"
+msgstr "通过时间伸缩同步时间线范围、播放线和操作符"
+
+#: Time Stretch Sync/preferences.py:60
+#: Time Stretch Sync/preferences.py:85
+msgid "Time Stretch Sensitivity"
+msgstr "时间伸缩灵敏度"
+
+#: Time Stretch Sync/__init__.py:1
+msgid "Time Stretch Sync"
+msgstr "时间伸缩同步"
+
+#: Time Stretch Sync/ops.py:80
+msgid "Time Stretch: Reset to 1:1"
+msgstr "时间伸缩：重置为 1:1"
+
+#: Time Stretch Sync/__init__.py:58
+msgid "Timeline Range"
+msgstr "时间线范围"
+
+#: Time Stretch Sync/preferences.py:37
+msgid "Using consistent bindings across editors is recommended."
+msgstr "建议在各编辑器中使用一致的绑定。"
+
+#: Time Stretch Sync/__init__.py:86
+msgid "View Frame (Sync)"
+msgstr "查看帧（同步）"
+
+#: Time Stretch Sync/preferences.py:32
+msgid "disable the original keymaps in Blender's Keymap preferences."
+msgstr "在 Blender 的键位映射偏好设置中禁用原始键位映射。"
+
+#: Time Stretch Sync/ops.py:14
+msgctxt "Operator"
+msgid "Adjust Time Stretch"
+msgstr "调整时间伸缩"
+
+#: Time Stretch Sync/ops.py:91
+msgctxt "Operator"
+msgid "Jump to Keyframe (Sync)"
+msgstr "跳转到关键帧（同步）"
+
+#: Time Stretch Sync/ops.py:142
+msgctxt "Operator"
+msgid "Jump to Marker (Sync)"
+msgstr "跳转到标记（同步）"
+
+#: Time Stretch Sync/preferences.py:10
+msgctxt "Operator"
+msgid "Override Keymaps Info"
+msgstr "覆盖快捷键信息"
+
+#: Time Stretch Sync/preferences.py:128
+msgctxt "Operator"
+msgid "Read Me"
+msgstr "说明"
+
+#: Time Stretch Sync/ops.py:55
+msgctxt "Operator"
+msgid "Reset Time Stretch"
+msgstr "重置时间伸缩"
+
+#: Time Stretch Sync/ops.py:193
+msgctxt "Operator"
+msgid "View Frame (Sync)"
+msgstr "查看帧（同步）"

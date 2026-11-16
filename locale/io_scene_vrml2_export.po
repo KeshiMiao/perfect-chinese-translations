@@ -1,0 +1,177 @@
+# perfect-chinese: 1
+# id: io_scene_vrml2_export
+# kind: addon
+# module: bl_ext.blender_org.io_scene_vrml2_export
+# name: VRML2 Exporter
+# name_zh: VRML2导出器
+# translator: KeshiMiao
+# category: Import-Export
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:77
+msgid "All Identical Geometry"
+msgstr "所有相同几何体"
+
+#: __init__.py:145
+msgid "Also create a gzip-compressed .wrz file beside the .wrl file"
+msgstr "同时在 .wrl 文件旁创建 gzip 压缩的 .wrz 文件"
+
+#: __init__.py:77
+msgid "Also reuse independent objects whose exported geometry is identical"
+msgstr "同时复用导出几何体相同的独立物体"
+
+#: __init__.py:53
+msgid "Apply Modifiers"
+msgstr "应用修改器"
+
+#: __init__.py:68
+msgid "Choose which mesh objects may share VRML DEF/USE geometry"
+msgstr "选择哪些网格物体可以共享 VRML DEF/USE 几何体"
+
+#: __init__.py:100
+msgid "Color Attribute"
+msgstr "颜色属性"
+
+#: __init__.py:97
+msgid "Color Source"
+msgstr "颜色来源"
+
+#: __init__.py:91
+msgid "Colors / Materials"
+msgstr "颜色 / 材质"
+
+#: __init__.py:139
+msgid "Compact Output"
+msgstr "紧凑输出"
+
+#: __init__.py:145
+msgid "Create Compressed WRZ Copy"
+msgstr "创建压缩的 WRZ 副本"
+
+#: __init__.py:116
+msgid "Decimal Places"
+msgstr "小数位数"
+
+#: __init__.py:127
+msgid "Deduplicate UV Coordinates"
+msgstr "UV 坐标去重"
+
+#: __init__.py:47
+msgid "Export selected objects only"
+msgstr "仅导出选中物体"
+
+#: __init__.py:110
+msgid "Export the active UV map and a referenced image texture"
+msgstr "导出活动 UV 贴图和引用的图像纹理"
+
+#: __init__.py:91
+msgid "Export the active color attribute or Blender and VRML2 material settings"
+msgstr "导出活动颜色属性或 Blender 与 VRML2 材质设置"
+
+#: __init__.py:53
+msgid "Export the evaluated mesh with modifiers applied"
+msgstr "导出已应用修改器的求值网格"
+
+#: __init__.py:225
+msgid "File Size"
+msgstr "文件大小"
+
+#: __init__.py:68
+msgid "Geometry Reuse"
+msgstr "几何体复用"
+
+#: __init__.py:133
+msgid "Include Object Name Comments"
+msgstr "包含物体名称注释"
+
+#: __init__.py:72
+msgid "Linked Objects Only"
+msgstr "仅链接物体"
+
+#: __init__.py:101
+msgid "Material Settings"
+msgstr "材质设置"
+
+#: export_vrml2.py:1209
+msgid "No mesh objects were available to export"
+msgstr "没有可导出的网格物体"
+
+#: __init__.py:82
+msgid "Off"
+msgstr "关闭"
+
+#: __init__.py:139
+msgid "Remove indentation and blank lines to reduce WRL file size"
+msgstr "移除缩进和空行以减小 WRL 文件大小"
+
+#: __init__.py:72
+msgid "Reuse geometry only when Blender objects intentionally share mesh data"
+msgstr "仅当 Blender 物体有意共享网格数据时才复用几何体"
+
+#: __init__.py:116
+msgid "Round exported numbers to this many decimal places; coordinate precision is raised automatically when needed to avoid collapsing faces"
+msgstr "将导出的数值四舍五入到该小数位数；必要时自动提高坐标精度以避免面塌陷"
+
+#: __init__.py:151
+msgid "Scale"
+msgstr "缩放"
+
+#: __init__.py:151
+msgid "Scale exported coordinates"
+msgstr "缩放导出的坐标"
+
+#: __init__.py:47
+msgid "Selection Only"
+msgstr "仅选中项"
+
+#: __init__.py:59
+msgid "Show both sides of exported faces; useful for thin or open meshes, but does not add thickness or repair mesh topology"
+msgstr "显示导出面的两侧；适用于薄网格或开放网格，但不会增加厚度或修复网格拓扑"
+
+#: __init__.py:110
+msgid "Texture and UVs"
+msgstr "纹理和 UV"
+
+#: __init__.py:59
+msgid "Two-Sided Faces"
+msgstr "双面"
+
+#: __init__.py:101
+msgid "Use VRML2 Material Studio settings when available, otherwise use material viewport colors"
+msgstr "有 VRML2 Material Studio 设置时使用该设置，否则使用材质视图颜色"
+
+#: __init__.py:100
+msgid "Use the active mesh color attribute"
+msgstr "使用活动的网格颜色属性"
+
+#: __init__.py:127
+msgid "Write each rounded UV coordinate once and reuse its index"
+msgstr "每个四舍五入后的 UV 坐标只写入一次并复用其索引"
+
+#: __init__.py:82
+msgid "Write every object's geometry separately"
+msgstr "分别写入每个物体的几何体"
+
+#: __init__.py:133
+msgid "Write object names as comments to make the WRL easier to inspect"
+msgstr "将物体名称写为注释，以便更轻松地检查 WRL"
+
+#: __init__.py:40
+msgctxt "Operator"
+msgid "Export VRML2"
+msgstr "导出 VRML2"
+
+#: __init__.py:41
+msgctxt "Operator"
+msgid "Export mesh objects as VRML 2.0 with colors and textures"
+msgstr "将网格物体导出为带颜色和纹理的 VRML 2.0"
+
+#: __init__.py:234
+msgctxt "Operator"
+msgid "VRML2 (.wrl)"
+msgstr "VRML2 (.wrl)"

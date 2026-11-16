@@ -1,0 +1,740 @@
+# perfect-chinese: 1
+# id: nodesync
+# kind: addon
+# module: bl_ext.blender_org.nodesync
+# name: NodeSync
+# name_zh: 节点同步
+# translator: KeshiMiao
+# category: Node
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: panels.py:463
+msgid ","
+msgstr ","
+
+#: operators/commit_ops.py:652
+#: operators/diff_ops.py:43
+msgid "Active node tree is not tracked by NodeSync"
+msgstr "当前节点树未被 NodeSync 跟踪"
+
+#: operators/remote_ops.py:323
+msgid "Already up to date — nothing to pull"
+msgstr "已是最新 — 无需拉取"
+
+#: __init__.py:50
+msgid "Auto-Push on Commit"
+msgstr "提交时自动推送"
+
+#: __init__.py:50
+msgid "Automatically push to the remote after every commit when a remote URL is configured"
+msgstr "配置远程 URL 后，每次提交后自动推送到远程"
+
+#: props.py:139
+msgid "Branch Name"
+msgstr "分支名称"
+
+#: panels.py:263
+msgid "Branches"
+msgstr "分支"
+
+#: __init__.py:57
+msgid "Capture a screenshot of the Geometry Node editor when committing and show it in the commit history panel"
+msgstr "提交时截取几何节点编辑器的截图，并在提交历史面板中显示"
+
+#: operators/remote_ops.py:62
+msgid "Choose a local folder to clone into"
+msgstr "选择要克隆到的本地文件夹"
+
+#: operators/remote_ops.py:220
+msgid "Click OK to apply, or Cancel to skip."
+msgstr "点击确定应用，或点击取消跳过。"
+
+#: props.py:112
+msgid "Clone Into"
+msgstr "克隆到"
+
+#: props.py:107
+msgid "Clone URL"
+msgstr "克隆 URL"
+
+#: operators/remote_ops.py:42
+msgid "Clone into folder:"
+msgstr "克隆到文件夹："
+
+#: operators/remote_ops.py:97
+msgid "Cloned successfully but no .nodesync config found. This may not be a NodeSync project."
+msgstr "克隆成功，但未找到 .nodesync 配置。这可能不是 NodeSync 项目。"
+
+#: __init__.py:90
+msgid "Commit Behaviour"
+msgstr "提交行为"
+
+#: props.py:80
+msgid "Commit Message"
+msgstr "提交信息"
+
+#: operators/migrate_ops.py:74
+msgid "Commit or stash any work in progress first."
+msgstr "请先提交或贮藏进行中的工作。"
+
+#: props.py:129
+msgid "Current Branch"
+msgstr "当前分支"
+
+#: props.py:100
+msgid "Diff Base Hash"
+msgstr "差异基准哈希"
+
+#: props.py:95
+msgid "Diff Mode Active"
+msgstr "差异模式已启用"
+
+#: operators/diff_ops.py:132
+#: operators/diff_ops.py:150
+msgid "Diff base cleared — comparing against HEAD"
+msgstr "已清除差异基准 — 改为与 HEAD 比较"
+
+#: operators/diff_ops.py:111
+msgid "Diff overlay removed"
+msgstr "已移除差异叠加显示"
+
+#: panels.py:233
+msgid "Diff view active — exit before making changes"
+msgstr "差异视图已启用 — 请先退出再进行修改"
+
+#: operators/remote_ops.py:59
+msgid "Enter a Git repository URL"
+msgstr "输入 Git 仓库 URL"
+
+#: operators/remote_ops.py:46
+msgid "Enter a Git repository URL above"
+msgstr "在上方输入 Git 仓库 URL"
+
+#: operators/remote_ops.py:135
+msgid "Enter a Git repository URL first"
+msgstr "请先输入 Git 仓库 URL"
+
+#: operators/branch_ops.py:29
+msgid "Enter a branch name"
+msgstr "输入分支名称"
+
+#: operators/commit_ops.py:59
+msgid "Enter a commit message first"
+msgstr "请先输入提交信息"
+
+#: props.py:180
+msgid "Files Needing Migration"
+msgstr "需要迁移的文件"
+
+#: props.py:73
+msgid "Folder containing the .nodesync config and nodes/ directory"
+msgstr "包含 .nodesync 配置和 nodes/ 目录的文件夹"
+
+#: panels.py:163
+msgid "Folder not found"
+msgstr "未找到文件夹"
+
+#: operators/project_ops.py:106
+msgid "Folder set — press 'Init New Project' to initialize"
+msgstr "已设置文件夹 — 按「初始化新项目」进行初始化"
+
+#: props.py:100
+msgid "Full commit hash to use as the diff comparison base. Empty means compare against HEAD."
+msgstr "用作差异比较基准的完整提交哈希。留空则与 HEAD 比较。"
+
+#: operators/commit_ops.py:679
+msgid "Geometry Nodes"
+msgstr "几何节点"
+
+#: panels.py:187
+msgid "Git Remote"
+msgstr "Git 远程"
+
+#: __init__.py:74
+msgid "Git Remote Authentication"
+msgstr "Git 远程认证"
+
+#: operators/commit_ops.py:128
+msgid "Git executable not found in PATH. Install Git and make sure it is on your system PATH."
+msgstr "未在 PATH 中找到 Git 可执行文件。请安装 Git 并确保其已加入系统 PATH。"
+
+#: props.py:119
+msgid "Git repository URL (HTTPS or SSH) for push and pull"
+msgstr "用于推送和拉取的 Git 仓库 URL（HTTPS 或 SSH）"
+
+#: props.py:107
+msgid "Git repository URL (HTTPS or SSH) to clone from"
+msgstr "用于克隆的 Git 仓库 URL（HTTPS 或 SSH）"
+
+#: __init__.py:5
+msgid "Git-backed version control for Geometry and Shader Node trees"
+msgstr "基于 Git 的几何节点与着色器节点树版本控制"
+
+#: props.py:145
+msgid "HEAD Hash"
+msgstr "HEAD 哈希"
+
+#: props.py:169
+msgid "Has Conflicts"
+msgstr "存在冲突"
+
+#: panels.py:365
+msgid "History"
+msgstr "历史"
+
+#: props.py:156
+msgid "History Filter Active"
+msgstr "历史筛选已启用"
+
+#: props.py:160
+msgid "History Filter Label"
+msgstr "历史筛选标签"
+
+#: props.py:164
+msgid "History Filter Type"
+msgstr "历史筛选类型"
+
+#: operators/migrate_ops.py:75
+msgid "If others share this repository, everyone must"
+msgstr "如果其他人共享此仓库，所有人都必须"
+
+#: operators/remote_ops.py:371
+msgid "Incoming changes from origin:"
+msgstr "来自 origin 的传入更改："
+
+#: panels.py:223
+#: panels.py:274
+msgid "Initialize a project first"
+msgstr "请先初始化项目"
+
+#: props.py:112
+msgid "Local folder to clone the repository into"
+msgstr "要克隆仓库到的本地文件夹"
+
+#: panels.py:304
+msgid "Merge Conflicts"
+msgstr "合并冲突"
+
+#: props.py:80
+msgid "Message for the next Git commit"
+msgstr "下一次 Git 提交的信息"
+
+#: operators/branch_ops.py:19
+msgid "Name"
+msgstr "名称"
+
+#: props.py:139
+msgid "Name for the new branch"
+msgstr "新分支的名称"
+
+#: operators/remote_ops.py:204
+msgid "New node groups incoming from pull:"
+msgstr "拉取传入的新节点组："
+
+#: operators/branch_ops.py:34
+#: operators/branch_ops.py:71
+msgid "No active NodeSync project"
+msgstr "没有活动的 NodeSync 项目"
+
+#: operators/commit_ops.py:647
+msgid "No active node tree in the editor"
+msgstr "编辑器中无活动的节点树"
+
+#: panels.py:286
+msgid "No branches found"
+msgstr "未找到分支"
+
+#: operators/remote_ops.py:382
+msgid "No candidates"
+msgstr "无候选项"
+
+#: panels.py:430
+msgid "No commits yet"
+msgstr "尚无提交"
+
+#: operators/remote_ops.py:50
+msgid "No token set — only public repos and SSH URLs will work"
+msgstr "未设置令牌 — 仅公共仓库和 SSH URL 可用"
+
+#: operators/commit_ops.py:83
+msgid "No tracked node groups found in file"
+msgstr "文件中未找到已跟踪的节点组"
+
+#: __init__.py:5
+msgid "Node"
+msgstr "节点"
+
+#: operators/remote_ops.py:211
+msgid "Node groups removed in pull:"
+msgstr "拉取中移除的节点组："
+
+#: __init__.py:5
+#: panels.py:117
+msgid "NodeSync"
+msgstr "NodeSync"
+
+#: operators/remote_ops.py:419
+msgid "Nothing selected — pull cancelled"
+msgstr "未选择任何内容 — 已取消拉取"
+
+#: operators/migrate_ops.py:93
+msgid "Nothing to migrate"
+msgstr "没有可迁移的内容"
+
+#: operators/migrate_ops.py:37
+msgid "Nothing to migrate — all filenames are already current"
+msgstr "没有可迁移的内容 — 所有文件名均为最新"
+
+#: props.py:180
+msgid "Number of project files still using the pre-1.3.1 naming scheme"
+msgstr "仍在使 1.3.1 之前命名方案的项目文件数量"
+
+#: __init__.py:64
+msgid "On commit, copy every image used by a Shader Image Texture node into the project textures/ folder and commit it to Git"
+msgstr "提交时，将着色器图像纹理节点使用的每个图像复制到项目的 textures/ 文件夹并提交到 Git"
+
+#: __init__.py:40
+msgid "Personal Access Token"
+msgstr "个人访问令牌"
+
+#: panels.py:140
+msgid "Project"
+msgstr "项目"
+
+#: props.py:73
+msgid "Project Root"
+msgstr "项目根目录"
+
+#: props.py:119
+msgid "Remote URL"
+msgstr "远程 URL"
+
+#: __init__.py:30
+msgid "Remote Username"
+msgstr "远程用户名"
+
+#: operators/remote_ops.py:38
+msgid "Repository URL:"
+msgstr "仓库 URL："
+
+#: panels.py:355
+msgid "Resolve all conflicts to complete merge"
+msgstr "解决所有冲突以完成合并"
+
+#: props.py:151
+msgid "Restore Hash"
+msgstr "恢复哈希"
+
+#: __init__.py:57
+msgid "Screenshot Node Editor on Commit"
+msgstr "提交时截取节点编辑器截图"
+
+#: operators/project_ops.py:26
+msgid "Set a Project Root folder, or save the .blend file first"
+msgstr "请设置项目根目录，或先保存 .blend 文件"
+
+#: operators/commit_ops.py:680
+msgid "Shader Nodes"
+msgstr "着色器节点"
+
+#: operators/commit_ops.py:679
+msgid "Show commits that touched geometry node groups"
+msgstr "显示涉及几何节点组的提交"
+
+#: operators/commit_ops.py:680
+msgid "Show commits that touched shader node trees"
+msgstr "显示涉及着色器节点树的提交"
+
+#: panels.py:179
+msgid "Some may be undeletable on Windows."
+msgstr "部分在 Windows 上可能无法删除。"
+
+#: props.py:91
+msgid "Status"
+msgstr "状态"
+
+#: props.py:124
+msgid "Sync Status"
+msgstr "同步状态"
+
+#: operators/migrate_ops.py:73
+msgid "This edits files in your project folder."
+msgstr "这将编辑项目文件夹中的文件。"
+
+#: __init__.py:40
+msgid "Token for HTTPS authentication with your Git remote (GitLab, Codeberg, Gitea, GitHub, Bitbucket, self-hosted, etc.).  Leave blank if you authenticate over SSH instead"
+msgstr "用于 Git 远程（GitLab、Codeberg、Gitea、GitHub、Bitbucket、自托管等）HTTPS 身份验证的令牌。若改用 SSH 验证请留空"
+
+#: __init__.py:79
+msgid "Token required for HTTPS Push / Pull (SSH URLs use your SSH agent instead)"
+msgstr "HTTPS 推送/拉取需要令牌（SSH URL 则使用 SSH 代理）"
+
+#: __init__.py:64
+msgid "Track Shader Textures"
+msgstr "跟踪着色器纹理"
+
+#: operators/remote_ops.py:401
+msgid "Unselected groups will keep their local version."
+msgstr "未选中的节点组将保留本地版本。"
+
+#: __init__.py:30
+msgid "Username for HTTPS authentication with your Git remote.  Service-specific values: leave blank for GitHub or Azure DevOps; use \"oauth2\" for GitLab; \"x-token-auth\" for Bitbucket; your account name for Codeberg, Gitea, or self-hosted Forgejo"
+msgstr "用于 Git 远程 HTTPS 身份验证的用户名。各服务取值：GitHub 或 Azure DevOps 留空；GitLab 使用 \"oauth2\"；Bitbucket 使用 \"x-token-auth\"；Codeberg、Gitea 或自托管 Forgejo 使用你的账户名"
+
+#: __init__.py:84
+msgid "Username hints:"
+msgstr "用户名提示："
+
+#: panels.py:213
+msgid "Version Control"
+msgstr "版本控制"
+
+#: props.py:95
+msgid "Whether the visual diff overlay is currently shown"
+msgstr "当前是否显示可视化差异叠加层"
+
+#: operators/migrate_ops.py:77
+msgid "an older version will recreate the old names."
+msgstr "旧版本会重新创建旧名称。"
+
+#: operators/migrate_ops.py:76
+msgid "update NodeSync before you push the result —"
+msgstr "在推送结果之前先更新 NodeSync —"
+
+#: __init__.py:87
+msgid "• Bitbucket — \"x-token-auth\""
+msgstr "• Bitbucket — \"x-token-auth\""
+
+#: __init__.py:88
+msgid "• Codeberg / Gitea / Forgejo — your account name"
+msgstr "• Codeberg / Gitea / Forgejo — 你的账户名"
+
+#: __init__.py:85
+msgid "• GitHub / Azure DevOps — leave blank"
+msgstr "• GitHub / Azure DevOps — 留空"
+
+#: __init__.py:86
+msgid "• GitLab — \"oauth2\""
+msgstr "• GitLab — \"oauth2\""
+
+#: panels.py:64
+msgid "…"
+msgstr "…"
+
+#: operators/conflict_ops.py:98
+msgctxt "Operator"
+msgid "Abort Merge"
+msgstr "中止合并"
+
+#: operators/remote_ops.py:194
+msgctxt "Operator"
+msgid "Apply Pull Changes"
+msgstr "应用拉取更改"
+
+#: operators/conflict_ops.py:99
+msgctxt "Operator"
+msgid "Cancel the merge and return to the pre-merge state"
+msgstr "取消合并并返回合并前状态"
+
+#: operators/commit_ops.py:547
+msgctxt "Operator"
+msgid "Check out this commit and reimport all node groups from that version"
+msgstr "检出此提交并从该版本重新导入所有节点组"
+
+#: operators/commit_ops.py:546
+msgctxt "Operator"
+msgid "Checkout"
+msgstr "检出"
+
+#: operators/remote_ops.py:361
+msgctxt "Operator"
+msgid "Choose which incoming node group changes to apply to your project"
+msgstr "选择要应用到项目的传入节点组更改"
+
+#: operators/diff_ops.py:141
+msgctxt "Operator"
+msgid "Clear Diff Base"
+msgstr "清除差异基准"
+
+#: operators/remote_ops.py:24
+msgctxt "Operator"
+msgid "Clone an existing NodeSync repository from a Git remote URL into a local folder and open it as the active project"
+msgstr "从 Git 远程 URL 克隆现有 NodeSync 仓库到本地文件夹，并作为活动项目打开"
+
+#: operators/remote_ops.py:23
+msgctxt "Operator"
+msgid "Clone from Git Remote"
+msgstr "从 Git 远程克隆"
+
+#: operators/commit_ops.py:29
+msgctxt "Operator"
+msgid "Commit"
+msgstr "提交"
+
+#: operators/diff_ops.py:14
+msgctxt "Operator"
+msgid "Compare the active node group against the last commit. Green = added, Orange = modified, Red ghost = deleted."
+msgstr "将活动节点组与上次提交比较。绿色 = 新增，橙色 = 修改，红色残影 = 删除。"
+
+#: operators/conflict_ops.py:58
+msgctxt "Operator"
+msgid "Complete Merge"
+msgstr "完成合并"
+
+#: operators/branch_ops.py:12
+msgctxt "Operator"
+msgid "Create Branch"
+msgstr "创建分支"
+
+#: operators/branch_ops.py:13
+msgctxt "Operator"
+msgid "Create a new git branch with a display color"
+msgstr "创建一个带显示颜色的新 git 分支"
+
+#: operators/project_ops.py:15
+msgctxt "Operator"
+msgid "Create the NodeSync folder structure and run git init in the selected project root"
+msgstr "创建 NodeSync 文件夹结构并在选定的项目根目录运行 git init"
+
+#: operators/diff_ops.py:85
+msgctxt "Operator"
+msgid "Diff Legend"
+msgstr "差异图例"
+
+#: panels.py:452
+msgctxt "Operator"
+msgid "Diff base"
+msgstr "差异基准"
+
+#: operators/diff_ops.py:94
+msgctxt "Operator"
+msgid "Exit Diff"
+msgstr "退出差异"
+
+#: operators/commit_ops.py:30
+msgctxt "Operator"
+msgid "Export tracked node groups to JSON and create a Git commit"
+msgstr "将跟踪的节点组导出为 JSON 并创建 Git 提交"
+
+#: operators/remote_ops.py:282
+msgctxt "Operator"
+msgid "Fetch from the configured Git remote, then choose which node groups to apply from the incoming changes"
+msgstr "从配置的 Git 远程获取，然后选择要应用哪些传入更改中的节点组"
+
+#: operators/commit_ops.py:674
+msgctxt "Operator"
+msgid "Filter History by Type"
+msgstr "按类型筛选历史"
+
+#: operators/conflict_ops.py:59
+msgctxt "Operator"
+msgid "Finalize the merge commit after resolving all conflicts"
+msgstr "解决所有冲突后完成合并提交"
+
+#: panels.py:403
+msgctxt "Operator"
+msgid "GEO"
+msgstr "GEO"
+
+#: panels.py:403
+msgctxt "Operator"
+msgid "Geo"
+msgstr "Geo"
+
+#: panels.py:403
+msgctxt "Operator"
+msgid "Geo ×"
+msgstr "Geo ×"
+
+#: operators/diff_ops.py:86
+msgctxt "Operator"
+msgid "Green = added  |  Orange = modified  |  Red ghost = deleted"
+msgstr "绿色 = 新增  |  橙色 = 修改  |  红色残影 = 删除"
+
+#: panels.py:167
+msgctxt "Operator"
+msgid "Init New Project"
+msgstr "初始化新项目"
+
+#: operators/project_ops.py:14
+msgctxt "Operator"
+msgid "Initialize Project"
+msgstr "初始化项目"
+
+#: panels.py:336
+msgctxt "Operator"
+msgid "Keep Mine"
+msgstr "保留我的"
+
+#: panels.py:182
+#: operators/migrate_ops.py:20
+msgctxt "Operator"
+msgid "Migrate Project Files"
+msgstr "迁移项目文件"
+
+#: operators/project_ops.py:76
+msgctxt "Operator"
+msgid "Open Project"
+msgstr "打开项目"
+
+#: operators/project_ops.py:77
+msgctxt "Operator"
+msgid "Open an existing NodeSync project folder"
+msgstr "打开现有的 NodeSync 项目文件夹"
+
+#: operators/diff_ops.py:117
+msgctxt "Operator"
+msgid "Pin as Diff Base"
+msgstr "固定为差异基准"
+
+#: panels.py:452
+msgctxt "Operator"
+msgid "Pin as diff base"
+msgstr "固定为差异基准"
+
+#: operators/diff_ops.py:118
+msgctxt "Operator"
+msgid "Pin this commit as the diff comparison base. View Diff will compare the live tree against this commit instead of HEAD. Click again to unpin."
+msgstr "将此提交固定为差异比较基准。查看差异时会将实时节点树与此提交比较，而非 HEAD。再次点击可取消固定。"
+
+#: operators/remote_ops.py:281
+msgctxt "Operator"
+msgid "Pull"
+msgstr "拉取"
+
+#: panels.py:196
+msgctxt "Operator"
+msgid "Pull ↓"
+msgstr "拉取 ↓"
+
+#: operators/remote_ops.py:158
+msgctxt "Operator"
+msgid "Push"
+msgstr "推送"
+
+#: operators/remote_ops.py:159
+msgctxt "Operator"
+msgid "Push commits to the configured Git remote"
+msgstr "将提交推送到配置的 Git 远程"
+
+#: panels.py:195
+msgctxt "Operator"
+msgid "Push ↑"
+msgstr "推送 ↑"
+
+#: operators/commit_ops.py:526
+msgctxt "Operator"
+msgid "Re-read git log and update the history list"
+msgstr "重新读取 git 日志并更新历史列表"
+
+#: operators/commit_ops.py:525
+msgctxt "Operator"
+msgid "Refresh"
+msgstr "刷新"
+
+#: operators/diff_ops.py:95
+msgctxt "Operator"
+msgid "Remove the diff overlay and restore original node colors"
+msgstr "移除差异叠加层并恢复原始节点颜色"
+
+#: operators/migrate_ops.py:21
+msgctxt "Operator"
+msgid "Rename files written by older NodeSync versions to the current naming scheme, and repair files whose names the operating system cannot delete"
+msgstr "将旧版 NodeSync 写入的文件重命名为当前命名方案，并修复操作系统无法删除的文件名"
+
+#: operators/diff_ops.py:142
+msgctxt "Operator"
+msgid "Reset the diff comparison base back to HEAD"
+msgstr "将差异比较基准重置回 HEAD"
+
+#: operators/conflict_ops.py:13
+msgctxt "Operator"
+msgid "Resolve"
+msgstr "解决"
+
+#: operators/conflict_ops.py:14
+msgctxt "Operator"
+msgid "Resolve this conflict by keeping one version"
+msgstr "通过保留一个版本来解决此冲突"
+
+#: panels.py:409
+msgctxt "Operator"
+msgid "SHADER"
+msgstr "SHADER"
+
+#: operators/remote_ops.py:125
+msgctxt "Operator"
+msgid "Save the Git remote URL and configure the origin remote"
+msgstr "保存 Git 远程 URL 并配置 origin 远程"
+
+#: operators/remote_ops.py:376
+#: operators/remote_ops.py:506
+msgctxt "Operator"
+msgid "Select All"
+msgstr "全选"
+
+#: operators/remote_ops.py:360
+msgctxt "Operator"
+msgid "Select Groups to Pull"
+msgstr "选择要拉取的节点组"
+
+#: operators/remote_ops.py:377
+#: operators/remote_ops.py:517
+msgctxt "Operator"
+msgid "Select None"
+msgstr "取消全选"
+
+#: operators/remote_ops.py:124
+msgctxt "Operator"
+msgid "Set Remote"
+msgstr "设置远程"
+
+#: panels.py:409
+msgctxt "Operator"
+msgid "Shader"
+msgstr "Shader"
+
+#: panels.py:409
+msgctxt "Operator"
+msgid "Shader ×"
+msgstr "Shader ×"
+
+#: operators/commit_ops.py:675
+msgctxt "Operator"
+msgid "Show only commits that affected geometry nodes or shader nodes"
+msgstr "仅显示影响几何节点或着色器节点的提交"
+
+#: operators/commit_ops.py:625
+msgctxt "Operator"
+msgid "Show only commits that touched the currently viewed node group, or clear the filter to show all commits"
+msgstr "仅显示涉及当前查看的节点组的提交，或清除筛选以显示全部提交"
+
+#: operators/branch_ops.py:55
+msgctxt "Operator"
+msgid "Switch"
+msgstr "切换"
+
+#: operators/branch_ops.py:56
+msgctxt "Operator"
+msgid "Switch to this branch and reload node groups"
+msgstr "切换到此分支并重新加载节点组"
+
+#: operators/commit_ops.py:624
+msgctxt "Operator"
+msgid "Toggle History Filter"
+msgstr "切换历史筛选"
+
+#: panels.py:341
+msgctxt "Operator"
+msgid "Use Remote"
+msgstr "使用远程"
+
+#: operators/diff_ops.py:13
+msgctxt "Operator"
+msgid "View Diff"
+msgstr "查看差异"

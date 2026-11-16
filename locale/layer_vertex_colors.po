@@ -1,0 +1,330 @@
+# perfect-chinese: 1
+# id: layer_vertex_colors
+# kind: addon
+# module: bl_ext.blender_org.layer_vertex_colors
+# name: Layer Vertex Colors
+# name_zh: 顶点颜色图层
+# translator: KeshiMiao
+# category: 
+# supported_versions: >=4.5.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: LayerVertexColors-master/layer_vertex_colors.py:618
+msgid "Ball Hash"
+msgstr "色球哈希"
+
+#: LayerVertexColors-master/layer_vertex_colors.py:605
+msgid "Color"
+msgstr "颜色"
+
+#: LayerVertexColors-master/layer_vertex_colors.py:600
+msgid "Hash Value"
+msgstr "哈希值"
+
+#: LayerVertexColors-master/layer_vertex_colors.py:618
+msgid "Hash of the associated global color ball"
+msgstr "关联全局色球的哈希"
+
+#: LayerVertexColors-master/layer_vertex_colors.py:1833
+msgid "LVC"
+msgstr "LVC"
+
+#: LayerVertexColors-master/__init__.py:2
+#: LayerVertexColors-master/layer_vertex_colors.py:1830
+msgid "Layer Vertex Colors"
+msgstr "分层顶点色"
+
+#: LayerVertexColors-master/__init__.py:2
+msgid "Layered vertex color management tool — independent color slot system"
+msgstr "分层顶点色管理工具 — 独立的颜色槽位系统"
+
+#: LayerVertexColors-master/layer_vertex_colors.py:1224
+msgid "Limit"
+msgstr "限制"
+
+#: LayerVertexColors-master/layer_vertex_colors.py:1224
+msgid "Maximum number of loose parts, excess will be merged into the last slot"
+msgstr "松散块最大数量，超出的部分将合并到最后一个槽位"
+
+#: LayerVertexColors-master/__init__.py:2
+msgid "Mesh"
+msgstr "网格"
+
+#: LayerVertexColors-master/layer_vertex_colors.py:1840
+msgid "No active mesh object"
+msgstr "没有活动网格物体"
+
+#: LayerVertexColors-master/layer_vertex_colors.py:600
+msgid "Unique identifier"
+msgstr "唯一标识符"
+
+#: LayerVertexColors-master/layer_vertex_colors.py:1454
+msgid "Utility Menu"
+msgstr "实用工具菜单"
+
+#: LayerVertexColors-master/layer_vertex_colors.py:1448
+msgid "已删除所有分层顶点色"
+msgstr "已删除所有分层顶点色"
+
+#: LayerVertexColors-master/layer_vertex_colors.py:1693
+msgid "已移除选中面的分层顶点色"
+msgstr "已移除选中面的分层顶点色"
+
+#: LayerVertexColors-master/layer_vertex_colors.py:872
+msgid "无效的槽位索引"
+msgstr "无效的槽位索引"
+
+#: LayerVertexColors-master/layer_vertex_colors.py:1168
+msgid "物体没有材质槽"
+msgstr "物体没有材质槽"
+
+#: LayerVertexColors-master/layer_vertex_colors.py:1659
+msgid "请先选择一个槽位"
+msgstr "请先选择一个槽位"
+
+#: LayerVertexColors-master/layer_vertex_colors.py:689
+msgctxt "Operator"
+msgid "Add Color Ball"
+msgstr "添加色球"
+
+#: LayerVertexColors-master/layer_vertex_colors.py:797
+msgctxt "Operator"
+msgid "Add Slot"
+msgstr "添加槽位"
+
+#: LayerVertexColors-master/layer_vertex_colors.py:798
+msgctxt "Operator"
+msgid "Add an empty layer vertex color slot to the current object"
+msgstr "为当前物体添加一个空的分层顶点色槽位"
+
+#: LayerVertexColors-master/layer_vertex_colors.py:1089
+msgctxt "Operator"
+msgid "Add from Active Material"
+msgstr "从活动材质添加"
+
+#: LayerVertexColors-master/layer_vertex_colors.py:1035
+msgctxt "Operator"
+msgid "Add from Active Vertex Group"
+msgstr "从活动顶点组添加"
+
+#: LayerVertexColors-master/layer_vertex_colors.py:1641
+#: LayerVertexColors-master/layer_vertex_colors.py:1894
+msgctxt "Operator"
+msgid "Assign"
+msgstr "指定"
+
+#: LayerVertexColors-master/layer_vertex_colors.py:1642
+msgctxt "Operator"
+msgid "Assign all corners of selected faces to the current slot"
+msgstr "将选中面的所有角指定到当前槽位"
+
+#: LayerVertexColors-master/layer_vertex_colors.py:1509
+msgctxt "Operator"
+msgid "Associate the selected slot with this color ball"
+msgstr "将选中槽位与此色球关联"
+
+#: LayerVertexColors-master/layer_vertex_colors.py:966
+msgctxt "Operator"
+msgid "Cleanup Unused Colors"
+msgstr "清理未使用的颜色"
+
+#: LayerVertexColors-master/layer_vertex_colors.py:690
+msgctxt "Operator"
+msgid "Create a new global color ball"
+msgstr "创建新的全局色球"
+
+#: LayerVertexColors-master/layer_vertex_colors.py:1539
+msgctxt "Operator"
+msgid "Create a new global color ball and associate it with the specified slot"
+msgstr "创建新的全局色球并将其与指定槽位关联"
+
+#: LayerVertexColors-master/layer_vertex_colors.py:1090
+msgctxt "Operator"
+msgid "Create a slot from the current active material and assign corresponding faces"
+msgstr "从当前活动材质创建槽位并指定相应面"
+
+#: LayerVertexColors-master/layer_vertex_colors.py:1036
+msgctxt "Operator"
+msgid "Create a slot from the current active vertex group"
+msgstr "从当前活动顶点组创建槽位"
+
+#: LayerVertexColors-master/layer_vertex_colors.py:1146
+msgctxt "Operator"
+msgid "Create slots by material and assign faces, clear existing slots"
+msgstr "按材质创建槽位并指定面，清除现有槽位"
+
+#: LayerVertexColors-master/layer_vertex_colors.py:1221
+msgctxt "Operator"
+msgid "Create slots by mesh loose parts and assign faces, clear existing slots"
+msgstr "按网格松散块创建槽位并指定面，清除现有槽位"
+
+#: LayerVertexColors-master/layer_vertex_colors.py:762
+msgctxt "Operator"
+msgid "Delete"
+msgstr "删除"
+
+#: LayerVertexColors-master/layer_vertex_colors.py:967
+msgctxt "Operator"
+msgid "Delete all unreferenced global color balls"
+msgstr "删除所有未引用的全局色球"
+
+#: LayerVertexColors-master/layer_vertex_colors.py:763
+msgctxt "Operator"
+msgid "Delete this global color ball, all slots referencing it will be cleared"
+msgstr "删除此全局色球，所有引用它的槽位将被清除"
+
+#: LayerVertexColors-master/layer_vertex_colors.py:1897
+msgctxt "Operator"
+msgid "Deselect"
+msgstr "取消选择"
+
+#: LayerVertexColors-master/layer_vertex_colors.py:1726
+msgctxt "Operator"
+msgid "Deselect Faces"
+msgstr "取消选择面"
+
+#: LayerVertexColors-master/layer_vertex_colors.py:1727
+msgctxt "Operator"
+msgid "Deselect all faces belonging to the current slot"
+msgstr "取消选择当前槽位的所有面"
+
+#: LayerVertexColors-master/layer_vertex_colors.py:1587
+msgctxt "Operator"
+msgid "Detach"
+msgstr "分离"
+
+#: LayerVertexColors-master/layer_vertex_colors.py:1588
+msgctxt "Operator"
+msgid "Detach the current slot from its color ball association"
+msgstr "解除当前槽位与色球的关联"
+
+#: LayerVertexColors-master/layer_vertex_colors.py:892
+msgctxt "Operator"
+msgid "Move Slot"
+msgstr "移动槽位"
+
+#: LayerVertexColors-master/layer_vertex_colors.py:893
+msgctxt "Operator"
+msgid "Move the current slot position"
+msgstr "移动当前槽位的位置"
+
+#: LayerVertexColors-master/layer_vertex_colors.py:670
+msgctxt "Operator"
+msgid "New"
+msgstr "新建"
+
+#: LayerVertexColors-master/layer_vertex_colors.py:1538
+msgctxt "Operator"
+msgid "New Color Ball"
+msgstr "新建色球"
+
+#: LayerVertexColors-master/layer_vertex_colors.py:1477
+msgctxt "Operator"
+msgid "Pick Color Ball"
+msgstr "拾取色球"
+
+#: LayerVertexColors-master/layer_vertex_colors.py:1003
+msgctxt "Operator"
+msgid "Rebuild Slot Data"
+msgstr "重建槽位数据"
+
+#: LayerVertexColors-master/layer_vertex_colors.py:1004
+msgctxt "Operator"
+msgid "Rebuild object slot list from mesh layer_vertex_slot attribute"
+msgstr "从网格 layer_vertex_slot 属性重建物体槽位列表"
+
+#: LayerVertexColors-master/layer_vertex_colors.py:1674
+#: LayerVertexColors-master/layer_vertex_colors.py:1895
+msgctxt "Operator"
+msgid "Remove"
+msgstr "移除"
+
+#: LayerVertexColors-master/layer_vertex_colors.py:1426
+msgctxt "Operator"
+msgid "Remove All Colors"
+msgstr "移除所有颜色"
+
+#: LayerVertexColors-master/layer_vertex_colors.py:720
+msgctxt "Operator"
+msgid "Remove Color Ball"
+msgstr "移除色球"
+
+#: LayerVertexColors-master/layer_vertex_colors.py:854
+msgctxt "Operator"
+msgid "Remove Slot"
+msgstr "移除槽位"
+
+#: LayerVertexColors-master/layer_vertex_colors.py:1427
+msgctxt "Operator"
+msgid "Remove all layer vertex color slots and corner data from the current object"
+msgstr "移除当前物体的所有分层顶点色槽位和角数据"
+
+#: LayerVertexColors-master/layer_vertex_colors.py:855
+msgctxt "Operator"
+msgid "Remove the current slot and clean up mesh data (higher indices auto-decrement)"
+msgstr "移除当前槽位并清理网格数据（更高的索引自动递减）"
+
+#: LayerVertexColors-master/layer_vertex_colors.py:721
+msgctxt "Operator"
+msgid "Remove the selected global color ball, all slots referencing it will be cleared"
+msgstr "移除选中的全局色球，所有引用它的槽位将被清除"
+
+#: LayerVertexColors-master/layer_vertex_colors.py:1675
+msgctxt "Operator"
+msgid "Reset all corners of selected faces to unassigned"
+msgstr "将选中面的所有角重置为未指定"
+
+#: LayerVertexColors-master/layer_vertex_colors.py:1508
+#: LayerVertexColors-master/layer_vertex_colors.py:1896
+msgctxt "Operator"
+msgid "Select"
+msgstr "选择"
+
+#: LayerVertexColors-master/layer_vertex_colors.py:1700
+msgctxt "Operator"
+msgid "Select Faces"
+msgstr "选择面"
+
+#: LayerVertexColors-master/layer_vertex_colors.py:1701
+msgctxt "Operator"
+msgid "Select all faces belonging to the current slot"
+msgstr "选择当前槽位的所有面"
+
+#: LayerVertexColors-master/layer_vertex_colors.py:1220
+msgctxt "Operator"
+msgid "Set by Loose Parts"
+msgstr "按松散块设置"
+
+#: LayerVertexColors-master/layer_vertex_colors.py:1145
+msgctxt "Operator"
+msgid "Set by Material"
+msgstr "按材质设置"
+
+#: LayerVertexColors-master/layer_vertex_colors.py:1861
+msgctxt "Operator"
+msgid "Slot conflict detected, click to rebuild"
+msgstr "检测到槽位冲突，点击重建"
+
+#: LayerVertexColors-master/layer_vertex_colors.py:1478
+msgctxt "Operator"
+msgid "Switch the associated global color ball for the current slot"
+msgstr "切换当前槽位关联的全局色球"
+
+#: LayerVertexColors-master/layer_vertex_colors.py:1752
+msgctxt "Operator"
+msgid "Toggle Vertex Color View"
+msgstr "切换顶点颜色视图"
+
+#: LayerVertexColors-master/layer_vertex_colors.py:1753
+msgctxt "Operator"
+msgid "Toggle show/hide layer_vertex_color vertex colors in viewport"
+msgstr "切换在视图中显示/隐藏 layer_vertex_color 顶点颜色"
+
+#: LayerVertexColors-master/layer_vertex_colors.py:1853
+msgctxt "Operator"
+msgid "Vertex color attribute missing, click to rebuild"
+msgstr "顶点颜色属性缺失，点击重建"

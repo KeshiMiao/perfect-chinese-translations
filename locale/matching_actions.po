@@ -1,0 +1,156 @@
+# perfect-chinese: 1
+# id: matching_actions
+# kind: addon
+# module: bl_ext.blender_org.matching_actions
+# name: Matching Actions
+# name_zh: 动作衔接
+# translator: KeshiMiao
+# category: Animation
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: properties.py:32
+msgid "Action 1 (End)"
+msgstr "动作 1（结束）"
+
+#: operators.py:309
+msgid "Action 1 and Action 2 cannot be the same."
+msgstr "动作 1 与动作 2 不能相同。"
+
+#: properties.py:39
+msgid "Action 2 (Start)"
+msgstr "动作 2（开始）"
+
+#: operators.py:358
+msgid "Action matching process completed."
+msgstr "动作匹配处理已完成。"
+
+#: operators.py:360
+msgid "Action matching process failed during execution."
+msgstr "动作匹配处理执行失败。"
+
+#: ui.py:42
+msgid "Actions must be different"
+msgstr "动作必须不同"
+
+#: operators.py:34
+#: operators.py:282
+msgid "Add-on properties not found."
+msgstr "未找到插件属性。"
+
+#: properties.py:25
+msgid "Armature"
+msgstr "骨架"
+
+#: ui.py:46
+msgid "Bone Selection (Select ONE bone in Pose Mode first):"
+msgstr "骨骼选择（请先在姿态模式中选择一根骨骼）："
+
+#: ui.py:68
+msgid "Enter Pose Mode to assign bones"
+msgstr "进入姿态模式以指定骨骼"
+
+#: ui.py:27
+msgid "Error: Add-on properties not initialized."
+msgstr "错误：插件属性未初始化。"
+
+#: ui.py:70
+msgid "Make Armature active to assign bones"
+msgstr "将骨架设为活动物体以指定骨骼"
+
+#: ui.py:60
+msgid "Match"
+msgstr "匹配"
+
+#: properties.py:53
+msgid "Match Bone"
+msgstr "匹配骨骼"
+
+#: properties.py:60
+msgid "Match Z Rotation"
+msgstr "匹配 Z 轴旋转"
+
+#: properties.py:60
+msgid "Match Z-axis rotation difference of the Match Bone. If checked, runs process twice (with Z-Rot then without)."
+msgstr "匹配匹配骨骼的 Z 轴旋转差。若勾选，会执行两次处理（先带 Z 轴旋转，再不带）。"
+
+#: ui.py:9
+#: ui.py:13
+msgid "Matching Actions"
+msgstr "匹配动作"
+
+#: properties.py:7
+msgid "No Action Selected"
+msgstr "未选择动作"
+
+#: operators.py:295
+msgid "No Armature selected."
+msgstr "未选择骨架。"
+
+#: properties.py:7
+msgid "None"
+msgstr "无"
+
+#: ui.py:53
+msgid "Parent"
+msgstr "父级"
+
+#: properties.py:46
+msgid "Parent Bone"
+msgstr "父级骨骼"
+
+#: operators.py:51
+msgid "Select exactly ONE bone in Pose Mode first."
+msgstr "请先在姿态模式中选择恰好一根骨骼。"
+
+#: ui.py:72
+msgid "Select exactly ONE bone to assign"
+msgstr "请选择恰好一根要指定的骨骼"
+
+#: operators.py:39
+msgid "Target property not specified for bone assignment."
+msgstr "未指定骨骼指定的目标属性。"
+
+#: properties.py:25
+msgid "The armature object containing the animations and bones"
+msgstr "包含动画和骨骼的骨架物体"
+
+#: properties.py:53
+msgid "The bone whose position/rotation should match between actions (e.g., Foot)"
+msgstr "在各动作之间需要匹配位置/旋转的骨骼（例如脚部）"
+
+#: properties.py:32
+msgid "The first action (e.g., Walk). The match occurs at its end frame"
+msgstr "第一个动作（例如行走）。匹配发生在它的结束帧"
+
+#: properties.py:46
+msgid "The main parent/root bone to offset and bake (e.g., Hips)"
+msgstr "用于偏移和烘焙的主父级/根骨骼（例如臀部）"
+
+#: properties.py:39
+msgid "The second action (e.g., Jump). A copy will be made, and this original action will be modified"
+msgstr "第二个动作（例如跳跃）。将创建副本，并修改此原始动作"
+
+#: operators.py:14
+msgctxt "Operator"
+msgid "Assign Selected Bone"
+msgstr "指定选中骨骼"
+
+#: operators.py:15
+msgctxt "Operator"
+msgid "Assign the name of the single selected pose bone to the corresponding field"
+msgstr "将唯一选中姿态骨骼的名称指定到相应字段"
+
+#: operators.py:59
+msgctxt "Operator"
+msgid "Copies Action 2, then aligns original Action 2 start to Action 1 end based on Match Bone, offsets Parent Bone, and bakes original Action 2"
+msgstr "复制动作 2，然后根据匹配骨骼将原始动作 2 的开始对齐到动作 1 的结束，偏移父级骨骼，并烘焙原始动作 2"
+
+#: operators.py:58
+msgctxt "Operator"
+msgid "Match Actions"
+msgstr "匹配动作"

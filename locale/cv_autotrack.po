@@ -1,0 +1,1942 @@
+# perfect-chinese: 1
+# id: cv_autotrack
+# kind: addon
+# module: bl_ext.blender_org.cv_autotrack
+# name: CV Auto Track
+# name_zh: 视觉自动跟踪
+# translator: KeshiMiao
+# category: Tracking
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: properties.py:211
+msgid "25%"
+msgstr "25%"
+
+#: properties.py:211
+msgid "50%"
+msgstr "50%"
+
+#: properties.py:211
+msgid "75%"
+msgstr "75%"
+
+#: operators.py:703
+msgid "A"
+msgstr "A"
+
+#: properties.py:376
+msgid "AT Mode"
+msgstr "AT 模式"
+
+#: properties.py:389
+msgid "Absolute bundle-error threshold used by solve refinement"
+msgstr "解算细化使用的绝对捆绑误差阈值"
+
+#: panels.py:307
+msgid "Accel MAD"
+msgstr "加速度 MAD"
+
+#: panels.py:309
+msgid "Accel Ratio"
+msgstr "加速度比率"
+
+#: panels.py:308
+msgid "Accel Residual"
+msgstr "加速度残差"
+
+#: panels.py:305
+msgid "Acceleration"
+msgstr "加速度"
+
+#: properties.py:334
+msgid "Acceleration Filter"
+msgstr "加速度过滤"
+
+#: properties.py:335
+msgid "Acceleration MAD Multiplier"
+msgstr "加速度 MAD 乘数"
+
+#: properties.py:336
+msgid "Acceleration Minimum"
+msgstr "加速度最小值"
+
+#: properties.py:337
+msgid "Acceleration Minimum Ratio"
+msgstr "加速度最小比率"
+
+#: panels.py:361
+msgid "Adaptive"
+msgstr "自适应"
+
+#: properties.py:274
+msgid "Adaptive Redetect"
+msgstr "自适应重新检测"
+
+#: properties.py:382
+msgid "Add New"
+msgstr "添加新项"
+
+#: properties.py:274
+msgid "Add new points when active tracks or screen distribution fall below target"
+msgstr "当活动轨迹或屏幕分布低于目标时添加新点"
+
+#: panels.py:98
+msgid "Advanced"
+msgstr "高级"
+
+#: properties.py:160
+msgid "Advanced Mode"
+msgstr "高级模式"
+
+#: properties.py:273
+msgid "Allow CV Auto Track to add new points during the pass"
+msgstr "允许 CV Auto Track 在本次处理期间添加新点"
+
+#: properties.py:357
+msgid "Alpha"
+msgstr "Alpha"
+
+#: properties.py:208
+msgid "Analysis Scale"
+msgstr "分析缩放"
+
+#: panels.py:150
+msgid "Analyze"
+msgstr "分析"
+
+#: properties.py:408
+msgid "Analyze Action"
+msgstr "分析动作"
+
+#: panels.py:268
+#: properties.py:250
+msgid "Appearance Check"
+msgstr "外观检查"
+
+#: properties.py:255
+msgid "Appearance Patch Size"
+msgstr "外观图块大小"
+
+#: properties.py:161
+msgid "Apply a tracking setup preset"
+msgstr "应用跟踪设置预设"
+
+#: properties.py:301
+msgid "Apply candidate and refine rejection thresholds without changing detection density"
+msgstr "应用候选和细化剔除阈值而不更改检测密度"
+
+#: properties.py:313
+msgid "Apply common filter thresholds"
+msgstr "应用常用过滤阈值"
+
+#: properties.py:199
+msgid "Auto"
+msgstr "自动"
+
+#: panels.py:371
+#: properties.py:282
+msgid "Auto Bake Limit"
+msgstr "自动烘焙上限"
+
+#: panels.py:368
+msgid "Auto Budget"
+msgstr "自动预算"
+
+#: properties.py:361
+msgid "Auto Keyframe A/B"
+msgstr "自动关键帧 A/B"
+
+#: properties.py:380
+msgid "Auto Reuse"
+msgstr "自动重用"
+
+#: properties.py:225
+msgid "Auto Scale Pixel Parameters"
+msgstr "自动缩放像素参数"
+
+#: panels.py:185
+msgid "Auto Scale Px"
+msgstr "自动缩放像素"
+
+#: properties.py:362
+msgid "Auto Scene Setup"
+msgstr "自动场景设置"
+
+#: properties.py:360
+msgid "Auto Solve & Refine"
+msgstr "自动解算并细化"
+
+#: panels.py:363
+msgid "Auto Target"
+msgstr "自动目标"
+
+#: properties.py:278
+msgid "Auto Target Tracks"
+msgstr "自动目标轨迹"
+
+#: properties.py:280
+msgid "Auto Track Budget"
+msgstr "自动跟踪预算"
+
+#: properties.py:295
+msgid "Automatic"
+msgstr "自动"
+
+#: properties.py:362
+msgid "Automatically configure the active scene camera for the solved clip"
+msgstr "为解算的剪辑自动配置活动场景摄像机"
+
+#: properties.py:386
+msgid "Avoid cleaning or replacing non-CV Auto Track tracks"
+msgstr "避免清理或替换非 CV Auto Track 轨迹"
+
+#: properties.py:239
+msgid "Avoid detecting or tracking near the clip border before automatic resolution scaling"
+msgstr "在自动分辨率缩放前避免在剪辑边界附近检测或跟踪"
+
+#: properties.py:257
+msgid "Avoid edge-like points whose motion is under-constrained along a silhouette or line"
+msgstr "避免使用沿轮廓或直线运动约束不足的类边缘点"
+
+#: properties.py:387
+msgid "Avoid placing new features on top of existing tracks"
+msgstr "避免在现有轨迹上放置新特征"
+
+#: properties.py:264
+msgid "Avoid weak corner points near strong silhouette-like edges"
+msgstr "避免在强轮廓状边缘附近使用弱角点"
+
+#: operators.py:704
+msgid "B"
+msgstr "B"
+
+#: properties.py:196
+msgid "Backward"
+msgstr "向后"
+
+#: operators.py:724
+msgid "Bake Marker Size"
+msgstr "烘焙标记大小"
+
+#: properties.py:367
+msgid "Bake Pattern Size"
+msgstr "烘焙图案大小"
+
+#: properties.py:368
+msgid "Bake Search Size"
+msgstr "烘焙搜索大小"
+
+#: properties.py:168
+msgid "Balanced"
+msgstr "平衡"
+
+#: properties.py:284
+msgid "Bias adaptive redetection toward the screen edge where new image content is entering"
+msgstr "使自适应重新检测偏向新图像内容进入的屏幕边缘"
+
+#: properties.py:349
+msgid "Blender Mask"
+msgstr "Blender 蒙版"
+
+#: properties.py:352
+msgid "Blender Mask datablock used when Mask Source is Blender Mask"
+msgstr "当蒙版来源为 Blender 蒙版时使用的 Blender 蒙版数据块"
+
+#: panels.py:234
+msgid "Block"
+msgstr "块"
+
+#: properties.py:236
+msgid "Block Size"
+msgstr "块大小"
+
+#: properties.py:197
+msgid "Both"
+msgstr "双向"
+
+#: operators.py:747
+msgid "Build a Blender 100% proxy now?"
+msgstr "现在构建 Blender 100% 代理？"
+
+#: panels.py:82
+#: panels.py:138
+msgid "CV  Auto Track"
+msgstr "CV Auto Track"
+
+#: panels.py:78
+msgid "CV Auto Track"
+msgstr "CV Auto Track"
+
+#: panels.py:53
+#: panels.py:61
+msgid "CV Auto Track Presets"
+msgstr "CV Auto Track 预设"
+
+#: operators.py:718
+msgid "Camera"
+msgstr "摄像机"
+
+#: properties.py:416
+msgid "Cancel Requested"
+msgstr "已请求取消"
+
+#: panels.py:198
+msgid "Channel"
+msgstr "通道"
+
+#: properties.py:278
+msgid "Choose Target Active Tracks from the preset, analysis resolution, and grid settings"
+msgstr "从预设、分析分辨率和网格设置中选择目标活动轨迹"
+
+#: properties.py:376
+msgid "Choose how Detect & Track and Full Auto Track handle existing CV Auto Track-generated tracks"
+msgstr "选择检测并跟踪和全自动跟踪如何处理现有的 CV Auto Track 生成的轨迹"
+
+#: properties.py:191
+msgid "Choose how tracking passes run through the frame range"
+msgstr "选择跟踪过程如何在帧范围内运行"
+
+#: properties.py:361
+msgid "Choose stable solve keyframes automatically and disable Blender Keyframe Selection"
+msgstr "自动选择稳定的求解关键帧并禁用 Blender 关键帧选择"
+
+#: properties.py:408
+msgid "Choose what Analyze Solve does with detected outlier tracks"
+msgstr "选择分析求解如何处理检测到的离群轨迹"
+
+#: properties.py:346
+msgid "Choose whether to use the Clip Editor mask or an external mask Movie Clip"
+msgstr "选择使用剪辑编辑器遮罩还是外部遮罩影片剪辑"
+
+#: properties.py:369
+msgid "Choose whether white mask pixels are excluded or used as the allowed tracking area"
+msgstr "选择白色遮罩像素是被排除还是用作允许的跟踪区域"
+
+#: properties.py:176
+msgid "Choose which clip frames CV Auto Track should process"
+msgstr "选择 CV Auto Track 应处理哪些剪辑帧"
+
+#: properties.py:182
+msgid "Clip Full Range"
+msgstr "剪辑完整范围"
+
+#: panels.py:354
+msgid "Cols"
+msgstr "列"
+
+#: panels.py:333
+msgid "Confidence"
+msgstr "置信度"
+
+#: properties.py:345
+msgid "Constrain detection and tracking with a Blender Mask or external mask clip"
+msgstr "使用 Blender 遮罩或外部遮罩剪辑约束检测和跟踪"
+
+#: properties.py:198
+msgid "Current"
+msgstr "当前"
+
+#: properties.py:418
+msgid "Current CV Auto Track status message"
+msgstr "当前 CV Auto Track 状态消息"
+
+#: properties.py:183
+msgid "Current to End"
+msgstr "当前到结束"
+
+#: properties.py:308
+msgid "Custom"
+msgstr "自定义"
+
+#: properties.py:185
+msgid "Custom Range"
+msgstr "自定义范围"
+
+#: properties.py:168
+#: properties.py:306
+msgid "Default balance for general footage"
+msgstr "常规素材的默认平衡"
+
+#: panels.py:149
+msgid "Delete Refined"
+msgstr "删除已优化"
+
+#: properties.py:394
+msgid "Delete Refined Tracks"
+msgstr "删除已优化轨迹"
+
+#: properties.py:381
+msgid "Delete existing AT tracks before detect/track"
+msgstr "在检测/跟踪前删除现有 AT 轨迹"
+
+#: properties.py:394
+msgid "Delete tracks rejected by solve refinement instead of only muting them"
+msgstr "删除被求解优化拒绝的轨迹，而不是仅将其静音"
+
+#: panels.py:100
+msgid "Density"
+msgstr "密度"
+
+#: properties.py:170
+msgid "Detailed"
+msgstr "详细"
+
+#: properties.py:380
+msgid "Detect & Track replaces existing AT tracks; Full Auto reuses them and skips detect/track"
+msgstr "检测并跟踪会替换现有 AT 轨迹；全自动会复用它们并跳过检测/跟踪"
+
+#: properties.py:285
+msgid "Detect Only When Needed"
+msgstr "仅在需要时检测"
+
+#: panels.py:215
+msgid "Detection"
+msgstr "检测"
+
+#: panels.py:230
+#: properties.py:214
+msgid "Detector"
+msgstr "检测器"
+
+#: properties.py:191
+msgid "Direction"
+msgstr "方向"
+
+#: properties.py:411
+msgid "Disable Outliers"
+msgstr "禁用离群轨迹"
+
+#: properties.py:324
+msgid "Disable duplicate tracks that start within this distance before automatic resolution scaling"
+msgstr "在自动分辨率缩放前禁用起始距离在此范围内的重复轨迹"
+
+#: panels.py:338
+msgid "Distribution"
+msgstr "分布"
+
+#: properties.py:332
+msgid "Distribution Strength"
+msgstr "分布强度"
+
+#: panels.py:304
+msgid "Duplicate Dist"
+msgstr "重复距离"
+
+#: properties.py:324
+msgid "Duplicate Distance"
+msgstr "重复距离"
+
+#: properties.py:166
+msgid "Dynamic"
+msgstr "动态"
+
+#: panels.py:272
+msgid "Edge Ambiguity"
+msgstr "边缘歧义"
+
+#: properties.py:257
+msgid "Edge Ambiguity Check"
+msgstr "边缘歧义检查"
+
+#: panels.py:235
+#: properties.py:239
+msgid "Edge Margin"
+msgstr "边缘边距"
+
+#: panels.py:274
+msgid "Edge Patch"
+msgstr "边缘块"
+
+#: panels.py:279
+msgid "Edge Percentile"
+msgstr "边缘百分位"
+
+#: panels.py:278
+msgid "Edge Radius"
+msgstr "边缘半径"
+
+#: properties.py:262
+msgid "Edge Response Patch Size"
+msgstr "边缘响应块大小"
+
+#: panels.py:262
+msgid "Eigen Thresh"
+msgstr "特征值阈值"
+
+#: panels.py:180
+msgid "End"
+msgstr "结束"
+
+#: properties.py:190
+msgid "End Frame"
+msgstr "结束帧"
+
+#: properties.py:250
+msgid "End a track when its local image patch changes abruptly, helping prevent foreground occlusion drift"
+msgstr "当轨迹的局部图像块突然变化时结束该轨迹，有助于防止前景遮挡导致的漂移"
+
+#: panels.py:261
+msgid "Epsilon"
+msgstr "Epsilon"
+
+#: panels.py:380
+msgid "Existing Tracks"
+msgstr "现有轨迹"
+
+#: properties.py:354
+msgid "External Channel"
+msgstr "外部通道"
+
+#: properties.py:349
+msgid "External Image"
+msgstr "外部图像"
+
+#: properties.py:353
+msgid "External mask loaded as a Movie Clip"
+msgstr "作为影片剪辑加载的外部遮罩"
+
+#: properties.py:221
+msgid "FAST"
+msgstr "FAST"
+
+#: panels.py:265
+msgid "FB Check"
+msgstr "前后向检查"
+
+#: properties.py:165
+msgid "Fast"
+msgstr "快速"
+
+#: properties.py:167
+msgid "Fast camera motion with wider optical-flow tolerance"
+msgstr "快速相机运动，光流容差更宽"
+
+#: properties.py:218
+msgid "Fast corner detector; default and usually best for LK tracking"
+msgstr "FAST 角点检测器；默认选项，通常最适合 LK 跟踪"
+
+#: properties.py:220
+msgid "Fast oriented binary features; experimental tracking seeds"
+msgstr "快速定向二值特征；实验性跟踪种子"
+
+#: properties.py:214
+msgid "Feature detector used before Lucas-Kanade tracking"
+msgstr "Lucas-Kanade 跟踪前使用的特征检测器"
+
+#: properties.py:236
+msgid "Feature-detection neighborhood size before automatic resolution scaling"
+msgstr "自动分辨率缩放前的特征检测邻域大小"
+
+#: operators.py:773
+msgid "File Path"
+msgstr "文件路径"
+
+#: properties.py:313
+msgid "Filter"
+msgstr "过滤"
+
+#: properties.py:301
+msgid "Filter Preset"
+msgstr "过滤预设"
+
+#: panels.py:284
+msgid "Filtering"
+msgstr "过滤"
+
+#: properties.py:189
+msgid "First clip frame for Custom Range"
+msgstr "自定义范围的起始帧"
+
+#: operators.py:721
+#: panels.py:39
+msgid "Focal"
+msgstr "焦距"
+
+#: operators.py:709
+msgid "Focal Length"
+msgstr "焦距"
+
+#: properties.py:195
+msgid "Forward"
+msgstr "正向"
+
+#: properties.py:248
+msgid "Forward-Backward Check"
+msgstr "前向-后向检查"
+
+#: panels.py:189
+msgid "Frame Cache"
+msgstr "帧缓存"
+
+#: properties.py:415
+msgid "Frame Cache Size"
+msgstr "帧缓存大小"
+
+#: properties.py:176
+msgid "Frame Range"
+msgstr "帧范围"
+
+#: properties.py:211
+msgid "Full"
+msgstr "完整"
+
+#: properties.py:401
+msgid "Full Auto Refine Passes"
+msgstr "全自动细化迭代次数"
+
+#: operators.py:924
+#: operators.py:1073
+msgid "Full Auto Track finished."
+msgstr "全自动跟踪已完成。"
+
+#: properties.py:295
+msgid "Fundamental Matrix"
+msgstr "基础矩阵"
+
+#: properties.py:292
+msgid "Geometric model used for multi-baseline outlier filtering"
+msgstr "用于多基线外点过滤的几何模型"
+
+#: properties.py:270
+msgid "Gradient percentile used to classify strong silhouette-like edges"
+msgstr "用于判定强轮廓状边缘的梯度百分位"
+
+#: properties.py:328
+msgid "Grid Columns"
+msgstr "网格列数"
+
+#: properties.py:329
+msgid "Grid Rows"
+msgstr "网格行数"
+
+#: panels.py:237
+msgid "Harris"
+msgstr "Harris"
+
+#: properties.py:238
+msgid "Harris K"
+msgstr "Harris K"
+
+#: properties.py:238
+msgid "Harris detector free parameter"
+msgstr "Harris 检测器自由参数"
+
+#: properties.py:167
+msgid "High Motion"
+msgstr "高运动"
+
+#: properties.py:170
+msgid "Higher resolution and denser tracks"
+msgstr "更高分辨率且更密集的跟踪"
+
+#: properties.py:295
+msgid "Homography"
+msgstr "单应性"
+
+#: properties.py:328
+msgid "Horizontal cells used for detection distribution"
+msgstr "用于检测分布的水平单元格数"
+
+#: properties.py:416
+msgid "Internal cancellation flag"
+msgstr "内部取消标记"
+
+#: properties.py:417
+msgid "Internal running-state flag"
+msgstr "内部运行状态标记"
+
+#: panels.py:362
+msgid "Interval"
+msgstr "间隔"
+
+#: panels.py:260
+msgid "Iterations"
+msgstr "迭代次数"
+
+#: properties.py:382
+msgid "Keep existing AT tracks and add newly generated tracks"
+msgstr "保留现有 AT 跟踪并添加新生成的跟踪"
+
+#: properties.py:305
+#: properties.py:317
+msgid "Keep more tracks; useful for fast motion or difficult footage"
+msgstr "保留更多跟踪；适用于快速运动或困难素材"
+
+#: operators.py:699
+msgid "Keyframes"
+msgstr "关键帧"
+
+#: properties.py:190
+msgid "Last clip frame for Custom Range"
+msgstr "自定义范围的结束帧"
+
+#: properties.py:419
+msgid "Latest CV Auto Track result summary"
+msgstr "最近的 CV Auto Track 结果摘要"
+
+#: panels.py:375
+msgid "Lead Edge"
+msgstr "前缘"
+
+#: properties.py:284
+msgid "Lead Edge Redetect"
+msgstr "前缘重新检测"
+
+#: properties.py:305
+#: properties.py:317
+msgid "Lenient"
+msgstr "宽松"
+
+#: properties.py:282
+msgid "Limit final baked CV Auto Track tracks automatically before Blender solve"
+msgstr "在 Blender 求解前自动限制最终烘焙的 CV Auto Track 跟踪数量"
+
+#: panels.py:313
+msgid "Local MAD"
+msgstr "局部 MAD"
+
+#: panels.py:315
+#: panels.py:328
+msgid "Local Min"
+msgstr "局部最小值"
+
+#: panels.py:310
+msgid "Local Motion"
+msgstr "局部运动"
+
+#: properties.py:338
+msgid "Local Motion Coherence"
+msgstr "局部运动一致性"
+
+#: properties.py:340
+msgid "Local Motion MAD Multiplier"
+msgstr "局部运动 MAD 倍数"
+
+#: properties.py:343
+msgid "Local Motion Minimum Ratio"
+msgstr "局部运动最小比率"
+
+#: properties.py:341
+msgid "Local Motion Minimum Residual"
+msgstr "局部运动最小残差"
+
+#: properties.py:342
+msgid "Local Motion Minimum Tracks"
+msgstr "局部运动最小跟踪数"
+
+#: properties.py:339
+msgid "Local Motion Radius"
+msgstr "局部运动半径"
+
+#: panels.py:312
+#: panels.py:327
+msgid "Local Radius"
+msgstr "局部半径"
+
+#: panels.py:316
+msgid "Local Ratio"
+msgstr "局部比率"
+
+#: panels.py:314
+msgid "Local Residual"
+msgstr "局部残差"
+
+#: properties.py:166
+msgid "Long or changing camera views with frequent redetection"
+msgstr "长镜头或不断变化的相机视野，频繁重新检测"
+
+#: properties.py:165
+msgid "Low resolution, fewer tracks, quicker solve prep"
+msgstr "低分辨率，更少跟踪点，更快解算准备"
+
+#: properties.py:169
+msgid "Low-contrast or weak-texture footage with more permissive detection"
+msgstr "低对比度或弱纹理素材，检测更宽松"
+
+#: properties.py:244
+msgid "Lucas-Kanade convergence epsilon"
+msgstr "Lucas-Kanade 收敛 epsilon"
+
+#: properties.py:241
+msgid "Lucas-Kanade tracking window size before automatic resolution scaling"
+msgstr "自动分辨率缩放前的 Lucas-Kanade 跟踪窗口大小"
+
+#: panels.py:318
+msgid "MAD"
+msgstr "MAD"
+
+#: properties.py:390
+msgid "MAD Multiplier"
+msgstr "MAD 倍数"
+
+#: properties.py:281
+msgid "Manual upper limit for generated CV Auto Track candidates when Auto Track Budget is off"
+msgstr "关闭自动跟踪预算时生成的 CV Auto Track 候选的手动上限"
+
+#: properties.py:308
+msgid "Manually edited filter settings"
+msgstr "手动编辑的过滤器设置"
+
+#: panels.py:210
+#: properties.py:352
+msgid "Mask"
+msgstr "遮罩"
+
+#: panels.py:195
+#: properties.py:353
+msgid "Mask Clip"
+msgstr "遮罩剪辑"
+
+#: operators.py:819
+msgid "Mask Clip is not selected."
+msgstr "未选择遮罩剪辑。"
+
+#: properties.py:375
+msgid "Mask Edge Margin"
+msgstr "遮罩边缘边距"
+
+#: panels.py:211
+msgid "Mask Margin"
+msgstr "遮罩边距"
+
+#: properties.py:369
+msgid "Mask Meaning"
+msgstr "遮罩含义"
+
+#: properties.py:346
+msgid "Mask Source"
+msgstr "遮罩来源"
+
+#: operators.py:785
+msgid "Mask clip filepath is empty."
+msgstr "遮罩剪辑文件路径为空。"
+
+#: panels.py:356
+msgid "Max / Cell"
+msgstr "每单元最大数"
+
+#: panels.py:374
+msgid "Max Baked"
+msgstr "最大烘焙数"
+
+#: panels.py:370
+msgid "Max Budget"
+msgstr "最大预算"
+
+#: panels.py:267
+msgid "Max FB Error"
+msgstr "最大 FB 误差"
+
+#: panels.py:231
+msgid "Max Features"
+msgstr "最大特征数"
+
+#: panels.py:151
+msgid "Max Iter"
+msgstr "最大迭代"
+
+#: panels.py:263
+msgid "Max LK Error"
+msgstr "最大 LK 误差"
+
+#: panels.py:264
+msgid "Max Motion"
+msgstr "最大运动"
+
+#: panels.py:320
+msgid "Max Reject"
+msgstr "最大剔除"
+
+#: properties.py:392
+msgid "Max Rejected Per Iteration"
+msgstr "每次迭代最大剔除数"
+
+#: panels.py:317
+msgid "Max Track Error"
+msgstr "最大跟踪误差"
+
+#: properties.py:283
+msgid "Maximum Baked Tracks"
+msgstr "最大烘焙跟踪点数"
+
+#: properties.py:249
+msgid "Maximum FB Error"
+msgstr "最大 FB 误差"
+
+#: properties.py:233
+msgid "Maximum Features"
+msgstr "最大特征数"
+
+#: properties.py:402
+msgid "Maximum Iterations"
+msgstr "最大迭代次数"
+
+#: properties.py:246
+msgid "Maximum LK Error"
+msgstr "最大 LK 误差"
+
+#: properties.py:243
+msgid "Maximum Lucas-Kanade iteration count"
+msgstr "Lucas-Kanade 最大迭代次数"
+
+#: properties.py:246
+msgid "Maximum Lucas-Kanade residual error before ending a track"
+msgstr "结束跟踪前的 Lucas-Kanade 最大残差"
+
+#: properties.py:247
+msgid "Maximum Motion"
+msgstr "最大运动"
+
+#: properties.py:281
+msgid "Maximum Track Budget"
+msgstr "最大跟踪预算"
+
+#: properties.py:389
+msgid "Maximum Track Error"
+msgstr "最大跟踪误差"
+
+#: properties.py:330
+msgid "Maximum Tracks Per Cell"
+msgstr "每单元最大跟踪点数"
+
+#: properties.py:283
+msgid "Maximum enabled CV Auto Track tracks baked into Blender when Auto Bake Limit is off, or the automatic upper cap when it is on"
+msgstr "关闭自动烘焙限制时烘焙进 Blender 的已启用 CV Auto Track 跟踪点最大数，开启时则为自动上限"
+
+#: properties.py:233
+msgid "Maximum feature points requested per detection pass"
+msgstr "每次检测请求的最大特征点数"
+
+#: properties.py:249
+msgid "Maximum forward-backward error before automatic resolution scaling"
+msgstr "自动分辨率缩放前的最大前向-后向误差"
+
+#: properties.py:330
+msgid "Maximum generated tracks kept per distribution cell"
+msgstr "每个分布单元保留的最大生成跟踪点数"
+
+#: properties.py:402
+msgid "Maximum iterations for manual Solve & Refine"
+msgstr "手动解算与细化的最大迭代次数"
+
+#: properties.py:247
+msgid "Maximum per-frame motion before automatic resolution scaling"
+msgstr "自动分辨率缩放前的最大每帧运动"
+
+#: properties.py:391
+msgid "Maximum percentage of enabled tracks refined per iteration"
+msgstr "每次迭代细化的已启用跟踪点最大百分比"
+
+#: properties.py:401
+msgid "Maximum solve-refine passes after Full Auto Track"
+msgstr "全自动跟踪后的最大解算-细化遍数"
+
+#: properties.py:392
+msgid "Maximum tracks rejected in one refinement iteration"
+msgstr "一次细化迭代中剔除的最大跟踪点数"
+
+#: properties.py:335
+msgid "Median absolute deviation multiplier for acceleration jitter rejection"
+msgstr "加速度抖动剔除的中位数绝对偏差倍数"
+
+#: properties.py:390
+msgid "Median absolute deviation multiplier for adaptive outlier selection"
+msgstr "自适应离群值选择的中位数绝对偏差倍数"
+
+#: properties.py:340
+msgid "Median absolute deviation multiplier for local motion coherence"
+msgstr "局部运动一致性的中位数绝对偏差倍数"
+
+#: properties.py:396
+msgid "Median absolute deviation multiplier for motion outlier detection"
+msgstr "运动离群值检测的中位数绝对偏差倍数"
+
+#: panels.py:357
+msgid "Min / Cell"
+msgstr "每单元最小数"
+
+#: panels.py:367
+msgid "Min Active"
+msgstr "最小活跃数"
+
+#: panels.py:275
+#: panels.py:280
+msgid "Min Corner Ratio"
+msgstr "最小角点比例"
+
+#: panels.py:271
+msgid "Min Correlation"
+msgstr "最小相关性"
+
+#: panels.py:233
+msgid "Min Distance"
+msgstr "最小距离"
+
+#: panels.py:188
+msgid "Min H"
+msgstr "最小 H"
+
+#: panels.py:153
+msgid "Min Improve"
+msgstr "最小改进"
+
+#: panels.py:301
+msgid "Min Length"
+msgstr "最小长度"
+
+#: panels.py:334
+msgid "Min Points"
+msgstr "最小点数"
+
+#: panels.py:321
+msgid "Min Remain"
+msgstr "最少剩余"
+
+#: panels.py:187
+msgid "Min W"
+msgstr "最小宽度"
+
+#: properties.py:276
+msgid "Minimum Active Tracks"
+msgstr "最少活动轨迹数"
+
+#: properties.py:231
+msgid "Minimum Analysis Height"
+msgstr "最小分析高度"
+
+#: properties.py:230
+msgid "Minimum Analysis Width"
+msgstr "最小分析宽度"
+
+#: properties.py:256
+msgid "Minimum Appearance Correlation"
+msgstr "最小外观相关性"
+
+#: properties.py:263
+msgid "Minimum Corner Ratio"
+msgstr "最小角点比例"
+
+#: properties.py:235
+msgid "Minimum Distance"
+msgstr "最小距离"
+
+#: properties.py:245
+msgid "Minimum Eigen Threshold"
+msgstr "最小特征值阈值"
+
+#: properties.py:404
+msgid "Minimum Improvement"
+msgstr "最小改进量"
+
+#: properties.py:393
+msgid "Minimum Remaining Tracks"
+msgstr "最少剩余轨迹数"
+
+#: properties.py:325
+msgid "Minimum Track Length"
+msgstr "最小轨迹长度"
+
+#: properties.py:331
+msgid "Minimum Tracks Per Cell"
+msgstr "每单元最少轨迹数"
+
+#: properties.py:327
+msgid "Minimum Valid Ratio"
+msgstr "最小有效比例"
+
+#: properties.py:336
+msgid "Minimum acceleration residual before jitter rejection can disable a track"
+msgstr "抖动剔除禁用轨迹前的最小加速度残差"
+
+#: properties.py:331
+msgid "Minimum active tracks requested per distribution cell"
+msgstr "每个分布单元要求的最少活动轨迹数"
+
+#: properties.py:231
+msgid "Minimum analysis height used when Analysis Scale would downsample small footage too far"
+msgstr "当分析缩放会将小素材降采样过度时使用的最小分析高度"
+
+#: properties.py:230
+msgid "Minimum analysis width used when Analysis Scale would downsample small footage too far"
+msgstr "当分析缩放会将小素材降采样过度时使用的最小分析宽度"
+
+#: properties.py:271
+msgid "Minimum corner ratio required to keep a detected point near a strong edge"
+msgstr "在强边缘附近保留检测点时所需的最小角点比例"
+
+#: properties.py:245
+msgid "Minimum eigenvalue threshold for optical-flow tracking"
+msgstr "光流跟踪的最小特征值阈值"
+
+#: properties.py:393
+msgid "Minimum enabled track count preserved during refinement"
+msgstr "细化期间保留的最少已启用轨迹数"
+
+#: properties.py:234
+msgid "Minimum feature quality or detector threshold"
+msgstr "最小特征质量或检测器阈值"
+
+#: properties.py:275
+msgid "Minimum frame gap between adaptive detection passes"
+msgstr "自适应检测轮次之间的最小帧间隔"
+
+#: properties.py:263
+msgid "Minimum minor-to-major gradient eigenvalue ratio for accepting a point as corner-like"
+msgstr "接受点为类角点所需的最小梯度特征值次主比"
+
+#: properties.py:342
+msgid "Minimum nearby generated tracks needed for local motion coherence"
+msgstr "局部运动一致性所需的最少附近已生成轨迹数"
+
+#: properties.py:400
+msgid "Minimum nearby tracks needed for local motion outlier detection"
+msgstr "局部运动异常值检测所需的最少附近轨迹数"
+
+#: properties.py:256
+msgid "Minimum normalized patch or gradient correlation before ending a track"
+msgstr "结束轨迹前的最小归一化图像块或梯度相关性"
+
+#: properties.py:341
+msgid "Minimum pixel residual before local motion coherence can reject a track"
+msgstr "局部运动一致性可剔除轨迹前的最小像素残差"
+
+#: properties.py:397
+msgid "Minimum pixel residual before motion outlier detection can reject a track"
+msgstr "运动异常值检测可剔除轨迹前的最小像素残差"
+
+#: properties.py:300
+msgid "Minimum point count required before running RANSAC"
+msgstr "运行 RANSAC 前所需的最少点数"
+
+#: properties.py:398
+msgid "Minimum ratio of bad motion steps before a track is rejected"
+msgstr "轨迹被剔除前的不良运动步最小比例"
+
+#: properties.py:343
+msgid "Minimum ratio of incoherent motion steps before a track is rejected"
+msgstr "轨迹被剔除前的不一致运动步最小比例"
+
+#: properties.py:337
+msgid "Minimum ratio of jittery motion steps before a track is rejected"
+msgstr "轨迹被剔除前的抖动运动步最小比例"
+
+#: properties.py:235
+msgid "Minimum spacing between detected feature points before automatic resolution scaling"
+msgstr "自动分辨率缩放前检测特征点之间的最小间距"
+
+#: properties.py:327
+msgid "Minimum tracked-frame ratio before a generated candidate is rejected"
+msgstr "生成的候选项被剔除前的最小已跟踪帧比例"
+
+#: properties.py:325
+msgid "Minimum valid marker count for keeping a generated track"
+msgstr "保留生成轨迹所需的最少有效标记数"
+
+#: panels.py:331
+msgid "Model"
+msgstr "模型"
+
+#: panels.py:322
+msgid "Motion Filter"
+msgstr "运动过滤器"
+
+#: properties.py:400
+msgid "Motion Local Min Tracks"
+msgstr "运动局部最少轨迹数"
+
+#: properties.py:399
+msgid "Motion Local Radius"
+msgstr "运动局部半径"
+
+#: panels.py:324
+msgid "Motion MAD"
+msgstr "运动 MAD"
+
+#: properties.py:396
+msgid "Motion MAD Multiplier"
+msgstr "运动 MAD 倍数"
+
+#: properties.py:398
+msgid "Motion Min Ratio"
+msgstr "运动最小比例"
+
+#: properties.py:397
+msgid "Motion Min Residual"
+msgstr "运动最小残差"
+
+#: panels.py:326
+msgid "Motion Ratio"
+msgstr "运动比例"
+
+#: panels.py:325
+msgid "Motion Residual"
+msgstr "运动残差"
+
+#: operators.py:739
+msgid "Movie Clip"
+msgstr "影片剪辑"
+
+#: operators.py:756
+#: operators.py:816
+msgid "Movie Clip is not selected."
+msgstr "未选择影片剪辑。"
+
+#: panels.py:329
+#: properties.py:287
+msgid "Multi-Baseline RANSAC"
+msgstr "多基线 RANSAC"
+
+#: properties.py:406
+msgid "Never refine non-CV Auto Track tracks"
+msgstr "不细化非 CV Auto Track 轨迹"
+
+#: properties.py:405
+msgid "Never refine tracks currently selected by the user"
+msgstr "不细化用户当前选中的轨迹"
+
+#: operators.py:693
+msgid "No active Movie Clip."
+msgstr "没有活动的影片剪辑。"
+
+#: panels.py:420
+msgid "No results yet."
+msgstr "尚无结果。"
+
+#: properties.py:415
+msgid "Number of decoded analysis frames kept in memory"
+msgstr "内存中保留的解码分析帧数"
+
+#: properties.py:220
+msgid "ORB"
+msgstr "ORB"
+
+#: panels.py:376
+msgid "Only When Needed"
+msgstr "仅在需要时"
+
+#: operators.py:746
+msgid "OpenCV cannot read this media."
+msgstr "OpenCV 无法读取此媒体。"
+
+#: operators.py:710
+#: panels.py:40
+msgid "Optical Center"
+msgstr "光学中心"
+
+#: properties.py:242
+msgid "Optical-flow pyramid levels for larger motion"
+msgstr "用于较大运动的光流金字塔层级"
+
+#: panels.py:319
+msgid "Outlier %"
+msgstr "离群值 %"
+
+#: properties.py:391
+msgid "Outlier % Per Iteration"
+msgstr "每次迭代离群值 %"
+
+#: panels.py:270
+msgid "Patch Size"
+msgstr "图块大小"
+
+#: properties.py:255
+msgid "Patch size used for local appearance consistency before automatic resolution scaling"
+msgstr "自动分辨率缩放前用于局部外观一致性的图块大小"
+
+#: properties.py:262
+msgid "Patch size used to detect edge-like ambiguous points before automatic resolution scaling"
+msgstr "自动分辨率缩放前用于检测类边缘歧义点的图块大小"
+
+#: operators.py:726
+msgid "Pattern"
+msgstr "图案"
+
+#: properties.py:367
+msgid "Pattern Area size used when baking generated Blender markers"
+msgstr "烘焙生成的 Blender 标记时使用的图案区域大小"
+
+#: properties.py:273
+msgid "Periodic Redetect"
+msgstr "周期性重新检测"
+
+#: properties.py:269
+msgid "Pixel radius around strong edges used by silhouette proximity filtering before automatic resolution scaling"
+msgstr "自动分辨率缩放前轮廓邻近过滤使用的强边缘周围像素半径"
+
+#: properties.py:339
+msgid "Pixel radius used for local motion coherence before automatic resolution scaling"
+msgstr "自动分辨率缩放前用于局部运动一致性的像素半径"
+
+#: properties.py:399
+msgid "Pixel radius used to compare each track against nearby track motion"
+msgstr "用于将每个轨迹与附近轨迹运动进行比较的像素半径"
+
+#: panels.py:302
+msgid "Preferred Len"
+msgstr "首选长度"
+
+#: properties.py:326
+msgid "Preferred Track Length"
+msgstr "首选轨迹长度"
+
+#: properties.py:277
+msgid "Preferred number of live tracks maintained on each frame"
+msgstr "每帧维持的活动轨迹首选数量"
+
+#: properties.py:386
+msgid "Preserve Existing Tracks"
+msgstr "保留现有轨迹"
+
+#: panels.py:396
+msgid "Preserve User"
+msgstr "保留用户"
+
+#: panels.py:300
+#: properties.py:161
+msgid "Preset"
+msgstr "预设"
+
+#: properties.py:181
+msgid "Preview Range"
+msgstr "预览范围"
+
+#: panels.py:156
+msgid "Protect Existing"
+msgstr "保护现有"
+
+#: properties.py:406
+msgid "Protect Existing Tracks"
+msgstr "保护现有轨迹"
+
+#: panels.py:157
+msgid "Protect Prefix"
+msgstr "保护前缀"
+
+#: panels.py:155
+msgid "Protect Selected"
+msgstr "保护选定"
+
+#: properties.py:405
+msgid "Protect Selected Tracks"
+msgstr "保护选定轨迹"
+
+#: properties.py:407
+msgid "Protected Name Prefix"
+msgstr "受保护名称前缀"
+
+#: panels.py:259
+msgid "Pyramid"
+msgstr "金字塔"
+
+#: properties.py:242
+msgid "Pyramid Levels"
+msgstr "金字塔层级"
+
+#: preferences.py:24
+msgid "Python wheels are registered by Blender from the extension manifest."
+msgstr "Python wheel 包由 Blender 根据扩展清单注册。"
+
+#: panels.py:232
+msgid "Quality"
+msgstr "质量"
+
+#: properties.py:234
+msgid "Quality Level"
+msgstr "质量级别"
+
+#: properties.py:299
+msgid "RANSAC Confidence"
+msgstr "RANSAC 置信度"
+
+#: properties.py:300
+msgid "RANSAC Minimum Points"
+msgstr "RANSAC 最小点数"
+
+#: properties.py:292
+msgid "RANSAC Model"
+msgstr "RANSAC 模型"
+
+#: properties.py:298
+msgid "RANSAC Threshold"
+msgstr "RANSAC 阈值"
+
+#: properties.py:299
+msgid "RANSAC confidence used for fundamental-matrix estimation"
+msgstr "用于基础矩阵估计的 RANSAC 置信度"
+
+#: properties.py:298
+msgid "RANSAC reprojection threshold before automatic resolution scaling"
+msgstr "自动分辨率缩放前的 RANSAC 重投影阈值"
+
+#: panels.py:42
+msgid "Radial"
+msgstr "径向"
+
+#: operators.py:712
+msgid "Radial Distortion"
+msgstr "径向畸变"
+
+#: panels.py:359
+msgid "Redetect"
+msgstr "重新检测"
+
+#: properties.py:275
+msgid "Redetect Interval"
+msgstr "重新检测间隔"
+
+#: panels.py:119
+msgid "Refine"
+msgstr "细化"
+
+#: properties.py:395
+msgid "Refine Motion Outliers"
+msgstr "细化运动离群值"
+
+#: operators.py:716
+msgid "Refine Passes"
+msgstr "细化遍数"
+
+#: panels.py:134
+msgid "Refine Settings"
+msgstr "细化设置"
+
+#: properties.py:338
+msgid "Reject generated tracks whose motion disagrees with nearby generated tracks"
+msgstr "剔除运动与附近生成轨迹不一致的生成轨迹"
+
+#: properties.py:307
+#: properties.py:319
+msgid "Reject more aggressively when dense coverage is available"
+msgstr "覆盖密集时更积极地剔除"
+
+#: properties.py:248
+msgid "Reject tracks that do not return close to the source point"
+msgstr "剔除未返回靠近源点的轨迹"
+
+#: properties.py:287
+msgid "Reject tracks that repeatedly violate dominant scene geometry across several frame pairs"
+msgstr "剔除在多个帧对中反复违反主导场景几何的轨迹"
+
+#: properties.py:395
+msgid "Reject tracks whose motion is inconsistent with the frame-to-frame median motion"
+msgstr "剔除运动与帧间中值运动不一致的轨迹"
+
+#: properties.py:334
+msgid "Reject tracks with repeated abrupt velocity changes"
+msgstr "剔除反复出现速度突变的轨迹"
+
+#: properties.py:381
+msgid "Replace"
+msgstr "替换"
+
+#: properties.py:411
+msgid "Report Only"
+msgstr "仅报告"
+
+#: panels.py:401
+#: properties.py:419
+msgid "Results"
+msgstr "结果"
+
+#: panels.py:355
+msgid "Rows"
+msgstr "行"
+
+#: operators.py:748
+msgid "Run CV Auto Track again after the proxy finishes."
+msgstr "代理完成后再次运行 CV Auto Track。"
+
+#: properties.py:199
+msgid "Run separate forward and backward passes"
+msgstr "分别运行正向和反向遍"
+
+#: properties.py:360
+msgid "Run solve refinement after Full Auto Track"
+msgstr "在完整自动追踪后运行解算细化"
+
+#: properties.py:417
+msgid "Running"
+msgstr "运行中"
+
+#: properties.py:219
+msgid "SIFT"
+msgstr "SIFT"
+
+#: properties.py:279
+msgid "Scale automatic target and baked track counts as a simple percentage"
+msgstr "以简单百分比缩放自动目标轨迹数和烘焙轨迹数"
+
+#: properties.py:225
+msgid "Scale pixel-based thresholds from the effective analysis resolution so presets behave more consistently across footage resolutions"
+msgstr "根据有效分析分辨率缩放基于像素的阈值，使预设在不同素材分辨率下表现更一致"
+
+#: properties.py:280
+msgid "Scale the internal generated-track budget from the frame range and redetect interval"
+msgstr "按帧范围和重新检测间隔缩放内部生成的跟踪点预算"
+
+#: properties.py:219
+msgid "Scale-invariant features; slower and experimental for tracking seeds"
+msgstr "尺度不变特征；速度较慢，用于跟踪种子时为实验性功能"
+
+#: properties.py:180
+msgid "Scene Range"
+msgstr "场景范围"
+
+#: operators.py:715
+msgid "Scene Setup"
+msgstr "场景设置"
+
+#: operators.py:727
+msgid "Search"
+msgstr "搜索"
+
+#: properties.py:368
+msgid "Search Area size used when baking generated Blender markers"
+msgstr "烘焙生成的 Blender 标记时使用的搜索区域大小"
+
+#: properties.py:411
+msgid "Select Outliers"
+msgstr "选择离群点"
+
+#: properties.py:169
+msgid "Sensitive"
+msgstr "敏感"
+
+#: operators.py:720
+msgid "Sensor"
+msgstr "传感器"
+
+#: properties.py:218
+msgid "Shi-Tomasi"
+msgstr "Shi-Tomasi"
+
+#: properties.py:160
+msgid "Show all CV Auto Track settings"
+msgstr "显示所有 CV Auto Track 设置"
+
+#: properties.py:375
+msgid "Shrink the allowed tracking area near mask edges in full-resolution pixels"
+msgstr "以全分辨率像素为单位收缩遮罩边缘附近允许的跟踪区域"
+
+#: properties.py:270
+msgid "Silhouette Edge Percentile"
+msgstr "轮廓边缘百分位"
+
+#: properties.py:269
+msgid "Silhouette Edge Radius"
+msgstr "轮廓边缘半径"
+
+#: properties.py:271
+msgid "Silhouette Minimum Corner Ratio"
+msgstr "轮廓最小角点比率"
+
+#: panels.py:276
+msgid "Silhouette Proximity"
+msgstr "轮廓邻近度"
+
+#: properties.py:264
+msgid "Silhouette Proximity Check"
+msgstr "轮廓邻近度检查"
+
+#: properties.py:285
+msgid "Skip scheduled detection when current tracks already satisfy the targets"
+msgstr "当前跟踪点已满足目标时跳过计划检测"
+
+#: operators.py:706
+msgid "Solve"
+msgstr "求解"
+
+#: operators.py:573
+msgid "Some frames may have too few usable tracks."
+msgstr "某些帧的可用跟踪点可能过少。"
+
+#: operators.py:553
+msgid "Some frames may need manual track adjustment."
+msgstr "某些帧可能需要手动调整跟踪点。"
+
+#: operators.py:538
+msgid "Some frames may not have enough connected tracks for solving."
+msgstr "某些帧可能没有足够的连通跟踪点用于求解。"
+
+#: panels.py:192
+msgid "Source"
+msgstr "源"
+
+#: properties.py:306
+#: properties.py:318
+msgid "Standard"
+msgstr "标准"
+
+#: panels.py:179
+msgid "Start"
+msgstr "开始"
+
+#: properties.py:189
+msgid "Start Frame"
+msgstr "起始帧"
+
+#: properties.py:184
+msgid "Start to Current"
+msgstr "从起始帧到当前帧"
+
+#: properties.py:418
+msgid "Status"
+msgstr "状态"
+
+#: properties.py:403
+msgid "Stop refining once the solve error reaches this value"
+msgstr "求解误差达到此值时停止细化"
+
+#: properties.py:404
+msgid "Stop refining when solve-error improvement falls below this value"
+msgstr "求解误差改善低于此值时停止细化"
+
+#: panels.py:358
+msgid "Strength"
+msgstr "强度"
+
+#: properties.py:332
+msgid "Strength of distribution-aware redetection and pruning"
+msgstr "分布感知重新检测与剪枝的强度"
+
+#: properties.py:307
+#: properties.py:319
+msgid "Strict"
+msgstr "严格"
+
+#: panels.py:43
+msgid "Tangential"
+msgstr "切向"
+
+#: operators.py:713
+msgid "Tangential Distortion"
+msgstr "切向畸变"
+
+#: panels.py:366
+msgid "Target"
+msgstr "目标"
+
+#: properties.py:277
+msgid "Target Active Tracks"
+msgstr "目标活动跟踪点数"
+
+#: panels.py:152
+msgid "Target Error"
+msgstr "目标误差"
+
+#: properties.py:403
+msgid "Target Solve Error"
+msgstr "目标求解误差"
+
+#: properties.py:276
+msgid "Target floor for active tracks before adaptive redetection"
+msgstr "自适应重新检测前活动跟踪点的目标下限"
+
+#: properties.py:208
+msgid "Temporary analysis resolution used by detection and optical flow"
+msgstr "检测和光流使用的临时分析分辨率"
+
+#: properties.py:243
+msgid "Termination Count"
+msgstr "终止计数"
+
+#: properties.py:244
+msgid "Termination Epsilon"
+msgstr "终止 Epsilon"
+
+#: operators.py:597
+msgid "The active clip or tracking object changed. Run Solve again."
+msgstr "活动剪辑或跟踪物体已更改。请再次运行求解。"
+
+#: panels.py:332
+msgid "Threshold"
+msgstr "阈值"
+
+#: panels.py:103
+msgid "Track"
+msgstr "跟踪"
+
+#: properties.py:279
+msgid "Track Density"
+msgstr "跟踪点密度"
+
+#: panels.py:161
+msgid "Track Setup"
+msgstr "跟踪设置"
+
+#: properties.py:196
+msgid "Track backward from the range end"
+msgstr "从范围末尾向后跟踪"
+
+#: operators.py:574
+msgid "Track continuity may also be insufficient."
+msgstr "跟踪连续性也可能不足。"
+
+#: properties.py:198
+msgid "Track forward and backward from the current frame"
+msgstr "从当前帧向前和向后跟踪"
+
+#: properties.py:197
+msgid "Track forward and backward from the range middle"
+msgstr "从范围中间向前和向后跟踪"
+
+#: properties.py:195
+msgid "Track forward from the range start"
+msgstr "从范围起始处向前跟踪"
+
+#: properties.py:326
+msgid "Track length considered good when scoring candidates"
+msgstr "评分候选时视为良好的跟踪长度"
+
+#: properties.py:203
+msgid "Track newly added points in both directions, extending their span by up to 12 frames; adds processing time"
+msgstr "双向跟踪新添加的点，将其跨度最多延长 12 帧；会增加处理时间"
+
+#: properties.py:407
+msgid "Track-name prefix that prevents solve refinement from changing a track"
+msgstr "阻止求解细化更改跟踪点的跟踪名称前缀"
+
+#: panels.py:243
+msgid "Tracking"
+msgstr "跟踪"
+
+#: operators.py:707
+msgid "Tripod Motion"
+msgstr "三脚架运动"
+
+#: properties.py:203
+msgid "Two-Way Tracking"
+msgstr "双向跟踪"
+
+#: properties.py:387
+msgid "Use Existing Tracks as Exclusion"
+msgstr "使用现有跟踪点作为排除"
+
+#: properties.py:237
+msgid "Use Harris Detector"
+msgstr "使用 Harris 检测器"
+
+#: properties.py:237
+msgid "Use Harris corner scoring instead of the default Shi-Tomasi score"
+msgstr "使用 Harris 角点评分代替默认的 Shi-Tomasi 评分"
+
+#: panels.py:190
+#: properties.py:345
+msgid "Use Mask"
+msgstr "使用遮罩"
+
+#: panels.py:397
+msgid "Use User Exclusion"
+msgstr "使用用户排除区域"
+
+#: properties.py:354
+msgid "Use luma or alpha from the external mask clip"
+msgstr "使用外部遮罩剪辑中的亮度或 Alpha"
+
+#: panels.py:303
+msgid "Valid Ratio"
+msgstr "有效比例"
+
+#: properties.py:329
+msgid "Vertical cells used for detection distribution"
+msgstr "用于检测分布的垂直单元数"
+
+#: properties.py:221
+msgid "Very fast corner detector; experimental tracking seeds"
+msgstr "极快的角点检测器；实验性跟踪种子点"
+
+#: properties.py:372
+msgid "White Area to Exclude"
+msgstr "要排除的白色区域"
+
+#: properties.py:372
+msgid "White Area to Track"
+msgstr "要跟踪的白色区域"
+
+#: properties.py:357
+msgid "White/Luma"
+msgstr "白色/亮度"
+
+#: panels.py:258
+msgid "Window"
+msgstr "窗口"
+
+#: properties.py:241
+msgid "Window Size"
+msgstr "窗口大小"
+
+#: operators.py:1165
+msgctxt "Operator"
+msgid "Add CV Auto Track Preset"
+msgstr "添加 CV Auto Track 预设"
+
+#: operators.py:1092
+msgctxt "Operator"
+msgid "Add Tracks"
+msgstr "添加跟踪"
+
+#: operators.py:1093
+msgctxt "Operator"
+msgid "Add more Blender tracks from the latest cached OpenCV tracking candidates"
+msgstr "从最新缓存的 OpenCV 跟踪候选中添加更多 Blender 跟踪"
+
+#: operators.py:494
+#: panels.py:127
+msgctxt "Operator"
+msgid "Analyze Solve"
+msgstr "分析解算"
+
+#: operators.py:495
+msgctxt "Operator"
+msgid "Analyze track bundle errors from the current solve"
+msgstr "分析当前解算的跟踪束误差"
+
+#: operators.py:1123
+msgctxt "Operator"
+msgid "Auto Refine"
+msgstr "自动精化"
+
+#: operators.py:735
+msgctxt "Operator"
+msgid "Build 100% Proxy"
+msgstr "构建 100% 代理"
+
+#: operators.py:736
+msgctxt "Operator"
+msgid "Build a Blender 100% proxy when OpenCV cannot read the active footage"
+msgstr "当 OpenCV 无法读取当前素材时构建 Blender 100% 代理"
+
+#: operators.py:1081
+#: panels.py:107
+msgctxt "Operator"
+msgid "Cancel"
+msgstr "取消"
+
+#: operators.py:559
+msgctxt "Operator"
+msgid "Choose whether to solve tracks with incomplete frame coverage or continuity"
+msgstr "选择是否解算帧覆盖不完整或连续性不足的跟踪"
+
+#: operators.py:451
+msgctxt "Operator"
+msgid "Clean Tracks"
+msgstr "清理跟踪"
+
+#: operators.py:1134
+#: panels.py:129
+msgctxt "Operator"
+msgid "Delete Auto Tracks"
+msgstr "删除自动跟踪"
+
+#: operators.py:1135
+msgctxt "Operator"
+msgid "Delete CV Auto Track-created tracks from the active Movie Clip"
+msgstr "从当前影片剪辑中删除由 CV Auto Track 创建的跟踪"
+
+#: operators.py:325
+msgctxt "Operator"
+msgid "Detect & Track"
+msgstr "检测并跟踪"
+
+#: operators.py:326
+msgctxt "Operator"
+msgid "Detect features with OpenCV, track them, clean candidates, and bake Blender Movie Tracking tracks"
+msgstr "使用 OpenCV 检测特征、跟踪它们、清理候选点，并烘焙为 Blender 影片跟踪的跟踪"
+
+#: operators.py:835
+msgctxt "Operator"
+msgid "Full Auto Track"
+msgstr "全自动跟踪"
+
+#: panels.py:110
+msgctxt "Operator"
+msgid "Generate Tracks"
+msgstr "生成跟踪"
+
+#: operators.py:769
+msgctxt "Operator"
+msgid "Load Mask Clip"
+msgstr "加载遮罩剪辑"
+
+#: operators.py:770
+msgctxt "Operator"
+msgid "Load an external mask as a Blender Movie Clip"
+msgstr "将外部遮罩加载为 Blender 影片剪辑"
+
+#: operators.py:452
+msgctxt "Operator"
+msgid "Mute short or high-error tracks, and delete empty CV Auto Track tracks"
+msgstr "静音过短或误差过高的跟踪，并删除空的 CV Auto Track 跟踪"
+
+#: operators.py:683
+msgctxt "Operator"
+msgid "Open CV Auto Track and Blender camera solve settings together"
+msgstr "同时打开 CV Auto Track 和 Blender 摄像机解算设置"
+
+#: operators.py:1082
+msgctxt "Operator"
+msgid "Request cancellation of the current CV Auto Track operation"
+msgstr "请求取消当前 CV Auto Track 操作"
+
+#: panels.py:114
+msgctxt "Operator"
+msgid "Run Auto Track"
+msgstr "运行自动跟踪"
+
+#: operators.py:645
+msgctxt "Operator"
+msgid "Run Blender camera solve and progressively disable high-error tracks"
+msgstr "运行 Blender 摄像机解算，并逐步禁用高误差跟踪"
+
+#: operators.py:613
+msgctxt "Operator"
+msgid "Run Blender's standard camera solve using the active Movie Clip"
+msgstr "使用当前影片剪辑运行 Blender 标准摄像机解算"
+
+#: operators.py:836
+msgctxt "Operator"
+msgid "Run detect, clean, bake, and optional solve refinement"
+msgstr "运行检测、清理、烘焙以及可选的解算精化"
+
+#: operators.py:612
+#: panels.py:121
+msgctxt "Operator"
+msgid "Solve"
+msgstr "解算"
+
+#: operators.py:644
+#: panels.py:125
+msgctxt "Operator"
+msgid "Solve & Refine"
+msgstr "解算并精化"
+
+#: operators.py:682
+#: panels.py:99
+msgctxt "Operator"
+msgid "Solve Setup"
+msgstr "解算设置"
+
+#: operators.py:808
+msgctxt "Operator"
+msgid "Sync Mask Clip"
+msgstr "同步遮罩剪辑"
+
+#: operators.py:809
+msgctxt "Operator"
+msgid "Sync mask clip footage settings from the active Movie Clip"
+msgstr "从当前影片剪辑同步遮罩剪辑的素材设置"
+
+#: operators.py:1124
+msgctxt "Operator"
+msgid "Toggle whether Full Auto Track runs solve refinement"
+msgstr "切换全自动跟踪是否运行解算精化"
+
+#: operators.py:558
+msgctxt "Operator"
+msgid "Track Coverage Warning"
+msgstr "跟踪覆盖率警告"

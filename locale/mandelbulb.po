@@ -1,0 +1,158 @@
+# perfect-chinese: 1
+# id: mandelbulb
+# kind: addon
+# module: bl_ext.blender_org.mandelbulb
+# name: Mandelbulb Generator
+# name_zh: 曼德球生成器
+# translator: KeshiMiao
+# category: Add Mesh
+# supported_versions: >=5.1.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:1
+msgid "Add Mesh"
+msgstr "添加网格"
+
+#: __init__.py:78
+msgid "Bailout Radius"
+msgstr "逃逸半径"
+
+#: __init__.py:99
+msgid "Constant c used in Julia mode"
+msgstr "Julia 模式中使用的常量 c"
+
+#: __init__.py:78
+msgid "Distance beyond which the sequence is considered divergent. Standard value: 2.0"
+msgstr "序列被视为发散的距离阈值。标准值：2.0"
+
+#: __init__.py:589
+msgid "Distortion"
+msgstr "畸变"
+
+#: __init__.py:124
+msgid "Enable smooth shading on all faces"
+msgstr "为所有面启用平滑着色"
+
+#: __init__.py:57
+msgid "Exponent of the White-Nylander formula (8 = classic Mandelbulb, 2 = Mandelbrot shape, non-integer values = exotic shapes)"
+msgstr "White-Nylander 公式的指数（8 = 经典 Mandelbulb，2 = Mandelbrot 形状，非整数值 = 奇异形状）"
+
+#: __init__.py:1
+msgid "Generate 3D Mandelbulb fractals"
+msgstr "生成 3D Mandelbulb 分形"
+
+#: __init__.py:48
+msgid "Grid Size"
+msgstr "网格大小"
+
+#: __init__.py:48
+msgid "Half-width of the evaluated volume (Blender units)"
+msgstr "评估体积的半宽（Blender 单位）"
+
+#: __init__.py:90
+msgid "In Julia mode, c is fixed by julia_c instead of being equal to the evaluated point's position"
+msgstr "在 Julia 模式下，c 由 julia_c 固定，而不是等于被评估点的位置"
+
+#: __init__.py:130
+msgid "Iso Level"
+msgstr "等值级别"
+
+#: __init__.py:99
+msgid "Julia Constant (c)"
+msgstr "Julia 常量 (c)"
+
+#: __init__.py:90
+msgid "Julia Mode"
+msgstr "Julia 模式"
+
+#: __init__.py:1
+#: __init__.py:553
+msgid "Mandelbulb"
+msgstr "Mandelbulb"
+
+#: __init__.py:575
+msgid "Mandelbulb Formula"
+msgstr "Mandelbulb 公式"
+
+#: __init__.py:549
+msgid "Mandelbulb Fractal"
+msgstr "Mandelbulb 分形"
+
+#: __init__.py:539
+msgid "Mandelbulb regenerated"
+msgstr "Mandelbulb 已重新生成"
+
+#: __init__.py:68
+msgid "Max Iterations"
+msgstr "最大迭代次数"
+
+#: __init__.py:68
+msgid "Maximum number of iterations before deciding whether a point belongs to the set"
+msgstr "判断点是否属于该集合前的最大迭代次数"
+
+#: __init__.py:38
+msgid "Number of voxels per axis (NxNxN). Warning: 64³ = 262,144 cells, 128³ = 2M"
+msgstr "每轴体素数（NxNxN）。警告：64³ = 262,144 个单元，128³ = 2M"
+
+#: __init__.py:108
+msgid "Offset"
+msgstr "偏移"
+
+#: __init__.py:536
+msgid "Please select a Mandelbulb object"
+msgstr "请选择一个 Mandelbulb 物体"
+
+#: __init__.py:57
+msgid "Power"
+msgstr "幂"
+
+#: __init__.py:115
+msgid "Progressive rotation at each iteration (spirals)"
+msgstr "每次迭代的渐进旋转（螺旋）"
+
+#: __init__.py:38
+msgid "Resolution"
+msgstr "分辨率"
+
+#: __init__.py:569
+msgid "SDF Grid"
+msgstr "SDF 网格"
+
+#: __init__.py:130
+msgid "SDF isosurface level to extract (0.0 = exact surface, positive = inflated surface, negative = shrunk surface)"
+msgstr "要提取的 SDF 等值面级别（0.0 = 精确表面，正数 = 膨胀表面，负数 = 收缩表面）"
+
+#: __init__.py:124
+msgid "Smooth Normals"
+msgstr "平滑法线"
+
+#: __init__.py:595
+msgid "Surface Nets"
+msgstr "Surface Nets"
+
+#: __init__.py:108
+msgid "Translation of the evaluation point (zone exploration)"
+msgstr "评估点的平移（区域探索）"
+
+#: __init__.py:115
+msgid "Twist"
+msgstr "扭曲"
+
+#: __init__.py:506
+msgctxt "Operator"
+msgid "Add Mandelbulb"
+msgstr "添加 Mandelbulb"
+
+#: __init__.py:606
+msgctxt "Operator"
+msgid "Mandelbulb Fractal"
+msgstr "Mandelbulb 分形"
+
+#: __init__.py:530
+msgctxt "Operator"
+msgid "Regenerate Mandelbulb"
+msgstr "重新生成 Mandelbulb"

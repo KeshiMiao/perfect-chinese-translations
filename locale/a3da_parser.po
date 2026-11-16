@@ -1,0 +1,1067 @@
+# perfect-chinese: 1
+# id: a3da_parser
+# kind: addon
+# module: bl_ext.blender_org.a3da_parser
+# name: A3DA Parser
+# name_zh: 动画文件解析器
+# translator: KeshiMiao
+# category: Import-Export
+# supported_versions: >=4.5.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: A3DA_Edit/Convert_Utils.py:98
+msgid "!!! WARNING !!! This requires selected objects to be in Auth3D space (rotated 90°), or it will not work!"
+msgstr "!!! 警告 !!! 这要求所选物体位于 Auth3D 空间（旋转 90°），否则将无法工作！"
+
+#: A3DA_Utils/EmptiesToBones.py:44
+msgid "(! Slow !) Creates a morph for the average scale of every object. Good enough for most of the cases."
+msgstr "（! 慢 !）为每个物体的平均缩放创建形态键。大多数情况下够用。"
+
+#: A3DA_Utils/EmptiesToBones.py:45
+msgid "(!! Slower !!) Creates a scale morph for every axis of every object. Usefull for objects with non uniform scale."
+msgstr "（!! 更慢 !!）为每个物体的每个轴创建缩放形态键。适用于非均匀缩放的物体。"
+
+#: A3DA_UI.py:118
+msgid "(EXPERIMENTAL) When enabled, all imported A3DA animations will loop. Usefull for old stages, breakes newer. Use with caution"
+msgstr "（实验性）启用后，所有导入的 A3DA 动画都会循环。适用于旧场景，会破坏较新的场景。请谨慎使用"
+
+#: A3DA_UI.py:153
+msgid "(EXPERIMENTAL) When enabled, the importer will try to load the first a3da of a stage (STGPVxxxS01_EFF_001), even if its not declared in the pv_field. This is a workaround, idk if the game does this. Use with caution"
+msgstr "（实验性）启用后，导入器会尝试加载场景的第一个 a3da（STGPVxxxS01_EFF_001），即使它未在 pv_field 中声明。这是一种变通方法，不确定游戏是否如此。请谨慎使用"
+
+#: A3DA_Edit/Edit_UI.py:14
+#: A3DA_Export/Export_UI.py:20
+msgid "A3DA"
+msgstr "A3DA"
+
+#: A3DA_UI.py:310
+msgid "A3DA Animation File Drop Handler"
+msgstr "A3DA 动画文件拖放处理器"
+
+#: A3DA_Export/Export_UI.py:16
+msgid "A3DA Export"
+msgstr "A3DA 导出"
+
+#: A3DA_Utils/Visibility_Editor.py:47
+msgid "Active to Selected"
+msgstr "从活动项到选中项"
+
+#: A3DA_Utils/Visibility_Editor.py:20
+msgid "Add visibility drivers to the selected objects."
+msgstr "为所选物体添加可见性驱动器。"
+
+#: A3DA_Properties.py:21
+msgid "Animated object"
+msgstr "动画物体"
+
+#: A3DA_Edit/Convert_Utils.py:106
+msgid "Attach meshes"
+msgstr "附加网格"
+
+#: A3DA_Edit/Convert_Utils.py:106
+msgid "Attaches meshes to created controllers after bake."
+msgstr "烘焙后将网格附加到所创建的控制器。"
+
+#: A3DA_Utils/Visibility_Editor.py:32
+msgid "Auth3D API"
+msgstr "Auth3D API"
+
+#: A3DA_Properties.py:26
+msgid "Auth3D Camera"
+msgstr "Auth3D 摄像机"
+
+#: A3DA_Properties.py:48
+msgid "Auth3D Camera Subtype"
+msgstr "Auth3D 摄像机子类型"
+
+#: A3DA_Properties.py:63
+msgid "Auth3D FOV"
+msgstr "Auth3D 视场角"
+
+#: A3DA_Edit/Edit_UI.py:10
+msgid "Auth3D Manipulation"
+msgstr "Auth3D 操作"
+
+#: A3DA_Edit/Edit_UI.py:51
+msgid "Auth3D Manipulation Utils"
+msgstr "Auth3D 操作工具"
+
+#: A3DA_Properties.py:20
+msgid "Auth3D Space"
+msgstr "Auth3D 空间"
+
+#: A3DA_Properties.py:14
+msgid "Auth3D Type"
+msgstr "Auth3D 类型"
+
+#: A3DA_Utils/Ui_panel.py:15
+msgid "Auth3D Utils"
+msgstr "Auth3D 工具"
+
+#: A3DA_Edit/Edit_UI.py:21
+msgid "Auth3D View Panel"
+msgstr "Auth3D 视图面板"
+
+#: A3DA_Properties.py:20
+msgid "Auth3D root space"
+msgstr "Auth3D 根空间"
+
+#: A3DA_Properties.py:24
+msgid "Auth3D_ready armature, all bones start at 0,0,0"
+msgstr "Auth3D 就绪骨架，所有骨骼起始于 0,0,0"
+
+#: A3DA_UI.py:367
+msgid "Auto"
+msgstr "自动"
+
+#: A3DA_UI.py:160
+msgid "Auto Parent GND"
+msgstr "自动父级 GND"
+
+#: A3DA_UI.py:160
+msgid "Automatically assing objects with _GND suffix to their field controllers"
+msgstr "自动将带 _GND 后缀的物体指定到其场控制器"
+
+#: A3DA_UI.py:367
+msgid "Automatically determine endianness based on game"
+msgstr "根据游戏自动确定字节序"
+
+#: A3DA_Edit/Convert_Utils.py:99
+msgid "Bake Animation"
+msgstr "烘焙动画"
+
+#: A3DA_UI.py:368
+msgid "Big endian"
+msgstr "大端序"
+
+#: A3DA_Utils/EmptiesToBones.py:16
+msgid "Bone Naming"
+msgstr "骨骼命名"
+
+#: A3DA_Utils/EmptiesToBones.py:33
+msgid "Bones at origin"
+msgstr "骨骼位于原点"
+
+#: A3DA_Utils/EmptiesToBones.py:20
+msgid "Bones will be named after the objects' UID_Name field if it exists, otherwise fallback to object name."
+msgstr "若物体存在 UID_Name 字段，则以其命名骨骼，否则回退到物体名称。"
+
+#: A3DA_Utils/EmptiesToBones.py:21
+msgid "Bones will be named after the objects."
+msgstr "骨骼将以物体名称命名。"
+
+#: A3DA_Properties.py:26
+msgid "Camera"
+msgstr "摄像机"
+
+#: A3DA_Properties.py:55
+msgid "Camera Interest"
+msgstr "摄像机目标点"
+
+#: A3DA_Properties.py:57
+msgid "Camera Object"
+msgstr "摄像机物体"
+
+#: A3DA_Properties.py:54
+msgid "Camera Root"
+msgstr "摄像机根"
+
+#: A3DA_Properties.py:56
+msgid "Camera Viewpoint"
+msgstr "摄像机视点"
+
+#: A3DA_UI.py:216
+msgid "Camera options"
+msgstr "摄像机选项"
+
+#: A3DA_UI.py:27
+msgid "Choose the import mode"
+msgstr "选择导入模式"
+
+#: A3DA_Utils/Visibility_Editor.py:33
+msgid "Compatibility"
+msgstr "兼容性"
+
+#: A3DA_UI.py:62
+msgid "Compatibility Mode"
+msgstr "兼容模式"
+
+#: A3DA_Utils/Dof_Visualizer.py:55
+msgid "Compositor nodes not found!!!"
+msgstr "未找到合成器节点！！！"
+
+#: A3DA_Edit/Convert_Utils.py:100
+msgid "Constraints Only"
+msgstr "仅约束"
+
+#: A3DA_Edit/Convert_Utils.py:98
+msgid "Copy FCurves"
+msgstr "复制 F 曲线"
+
+#: A3DA_Utils/Visibility_Editor.py:23
+msgid "Copy Fcurve"
+msgstr "复制 F 曲线"
+
+#: A3DA_Utils/Visibility_Editor.py:23
+msgid "Copy visibility drivers from active object to selected objects. Note: only for API defined drivers."
+msgstr "将可见性驱动器从活动物体复制到所选物体。注意：仅限 API 定义的驱动器。"
+
+#: A3DA_Edit/Edit_Utils.py:54
+msgid "Create & set up a DOF object."
+msgstr "创建并设置景深物体。"
+
+#: A3DA_Utils/Visibility_Editor.py:20
+msgid "Create Drivers"
+msgstr "创建驱动器"
+
+#: A3DA_UI.py:132
+msgid "Create a new\"ghost\" armature, instead of trying to find an existing one. Recommended to leave enabled"
+msgstr "创建新的\"幽灵\"骨架，而不是尝试查找现有骨架。建议保持启用"
+
+#: A3DA_Edit/Convert_Utils.py:100
+msgid "Creates empies and adds constraints, but doesn't bake animation"
+msgstr "创建空物体并添加约束，但不烘焙动画"
+
+#: A3DA_Edit/Convert_Utils.py:101
+msgid "Creates empties, but doesn't transfer animation"
+msgstr "创建空物体，但不传递动画"
+
+#: A3DA_Edit/Convert_Utils.py:99
+msgid "Creates empties, then adds and bakes constraints"
+msgstr "创建空物体，然后添加并烘焙约束"
+
+#: A3DA_Properties.py:58
+msgid "DOF Object"
+msgstr "景深物体"
+
+#: A3DA_Properties.py:58
+msgid "DOF Object to drive Depth of Field"
+msgstr "用于驱动景深的景深物体"
+
+#: A3DA_Utils/Visibility_Editor.py:38
+msgid "Direction of the move"
+msgstr "移动方向"
+
+#: A3DA_Edit/Convert_Utils.py:180
+msgid "Distance from the camera to the interest point"
+msgstr "摄像机到目标点的距离"
+
+#: A3DA_UI.py:44
+msgid "Diva F"
+msgstr "Diva F"
+
+#: A3DA_UI.py:45
+msgid "Diva F2nd"
+msgstr "Diva F2nd"
+
+#: A3DA_Utils/EmptiesToBones.py:46
+msgid "Don't use scale animation."
+msgstr "不使用缩放动画。"
+
+#: A3DA_UI.py:303
+msgid "ERROR! Check console output for details!!! \nWindow -> Toggle console"
+msgstr "错误！详细信息请查看控制台输出！！！\n窗口 -> 切换控制台"
+
+#: A3DA_Properties.py:23
+msgid "Empty controller representing a mesh"
+msgstr "代表网格的空控制器"
+
+#: A3DA_Edit/Edit_UI.py:84
+msgid "Enable"
+msgstr "启用"
+
+#: A3DA_UI.py:363
+msgid "Endian"
+msgstr "字节序"
+
+#: A3DA_UI.py:363
+msgid "Endiannes for reading the DSC file"
+msgstr "读取 DSC 文件所用的字节序"
+
+#: A3DA_Utils/Dof_Visualizer.py:15
+msgid "Ensures a depth render pass is enabled, and enables compositor viewer."
+msgstr "确保启用深度渲染通道，并启用合成器查看器。"
+
+#: A3DA_Export/Export_UI.py:111
+msgid "Export Camera"
+msgstr "导出摄像机"
+
+#: A3DA_Export/Export_UI.py:50
+msgid "Export HRC"
+msgstr "导出 HRC"
+
+#: A3DA_Export/Export_UI.py:82
+msgid "Export Objects"
+msgstr "导出物体"
+
+#: A3DA_Export/Export_UI.py:24
+msgid "Export tools"
+msgstr "导出工具"
+
+#: A3DA_Edit/Edit_UI.py:74
+msgid "FOV"
+msgstr "视场"
+
+#: A3DA_Properties.py:63
+msgid "Field of View of an Auth3D camera, in degrees. Internally radians."
+msgstr "Auth3D 摄像机的视场角，单位为度。内部使用弧度。"
+
+#: A3DA_UI.py:222
+msgid "File options"
+msgstr "文件选项"
+
+#: A3DA_Utils/FixMats.py:23
+msgid "Fix Alpha"
+msgstr "修正 Alpha"
+
+#: A3DA_Utils/FixMats.py:15
+msgid "Fix Emission"
+msgstr "修正自发光"
+
+#: A3DA_Utils/FixMats.py:27
+msgid "Fix Metalic"
+msgstr "修正金属度"
+
+#: A3DA_Utils/FOV_ready_cam.py:77
+msgid "Foces to bake the focal length on the SOURCE camera before converting to MMD. This will modify the source camera."
+msgstr "强制在转换为 MMD 之前烘焙源摄像机的焦距。这会修改源摄像机。"
+
+#: A3DA_Edit/Edit_UI.py:80
+msgid "Focus Range"
+msgstr "对焦范围"
+
+#: A3DA_Utils/FOV_ready_cam.py:77
+msgid "Force Bake Lens"
+msgstr "强制烘焙镜头"
+
+#: A3DA_UI.py:153
+msgid "Force Load First A3DA"
+msgstr "强制加载第一个 A3DA"
+
+#: A3DA_UI.py:118
+msgid "Force loops"
+msgstr "强制循环"
+
+#: A3DA_UI.py:368
+msgid "Force to use big endian"
+msgstr "强制使用大端序"
+
+#: A3DA_UI.py:369
+msgid "Force to use little endian"
+msgstr "强制使用小端序"
+
+#: A3DA_Edit/Edit_UI.py:75
+msgid "Fov Scale"
+msgstr "视场缩放"
+
+#: A3DA_Properties.py:70
+msgid "Fov Scale Factor"
+msgstr "视场缩放系数"
+
+#: A3DA_UI.py:55
+msgid "Frame Offset"
+msgstr "帧偏移"
+
+#: A3DA_UI.py:32
+msgid "Full PV import"
+msgstr "完整 PV 导入"
+
+#: A3DA_UI.py:43
+msgid "Future Tone"
+msgstr "Future Tone"
+
+#: A3DA_Edit/Edit_UI.py:81
+msgid "Fuzzing Range"
+msgstr "模糊范围"
+
+#: A3DA_UI.py:39
+msgid "Game"
+msgstr "游戏"
+
+#: A3DA_UI.py:39
+msgid "Game of origin. Required for DSC read"
+msgstr "来源游戏。读取 DSC 时必需"
+
+#: A3DA_Properties.py:24
+msgid "HRC armature"
+msgstr "HRC 骨架"
+
+#: A3DA_UI.py:207
+msgid "HRC options"
+msgstr "HRC 选项"
+
+#: A3DA_Utils/EmptiesToBones.py:16
+msgid "How to name the created bones"
+msgstr "创建骨骼的命名方式"
+
+#: A3DA_Utils/EmptiesToBones.py:51
+msgid "Ignore Z Axis"
+msgstr "忽略 Z 轴"
+
+#: A3DA_UI.py:33
+msgid "Import Camera"
+msgstr "导入摄像机"
+
+#: A3DA_UI.py:125
+msgid "Import HRC skeletal animation"
+msgstr "导入 HRC 骨骼动画"
+
+#: A3DA_UI.py:31
+msgid "Import a single A3DA file"
+msgstr "导入单个 A3DA 文件"
+
+#: A3DA_UI.py:69
+msgid "Import animated objects"
+msgstr "导入动画物体"
+
+#: A3DA_UI.py:33
+msgid "Import camera animation"
+msgstr "导入摄像机动画"
+
+#: A3DA_UI.py:48
+msgid "Import dsc converted to text. (Legacy)"
+msgstr "导入转换为文本的 DSC。（旧版）"
+
+#: A3DA_UI.py:90
+msgid "Import morph animations. You'll need to manually setup the shape keys after import."
+msgstr "导入形态动画。导入后需手动设置形态键。"
+
+#: A3DA_UI.py:32
+msgid "Import multiple A3DAs using DivaScript"
+msgstr "使用 DivaScript 导入多个 A3DA"
+
+#: A3DA_UI.py:97
+msgid "Import texture UV animations"
+msgstr "导入纹理 UV 动画"
+
+#: A3DA_UI.py:104
+msgid "Import texture pattern animations"
+msgstr "导入纹理图案动画"
+
+#: A3DA_UI.py:76
+msgid "Import visibility animations"
+msgstr "导入可见性动画"
+
+#: A3DA_UI.py:83
+msgid "Inherit Visibility"
+msgstr "继承可见性"
+
+#: A3DA_Edit/Convert_Utils.py:203
+msgid "Interest Distance"
+msgstr "目标点距离"
+
+#: A3DA_Properties.py:55
+msgid "Interest object for a viewpoint to point to"
+msgstr "视点指向的目标物体"
+
+#: A3DA_Utils/Dof_Visualizer.py:41
+msgid "Invalid camera rig!!!"
+msgstr "无效的摄像机装置！！！"
+
+#: A3DA_Utils/EmptiesToBones.py:394
+#: A3DA_Utils/FOV_ready_cam.py:111
+msgid "Invalid selection!"
+msgstr "选择无效！"
+
+#: A3DA_Utils/EmptiesToBones.py:386
+msgid "Invalid selection. Active must be a mesh!"
+msgstr "选择无效。活动物体必须是网格！"
+
+#: A3DA_Utils/FOV_ready_cam.py:100
+msgid "Invalid selection. Please select a camera."
+msgstr "选择无效。请选择摄像机。"
+
+#: A3DA_Properties.py:8
+msgid "Is Auth3D"
+msgstr "是否为 Auth3D"
+
+#: A3DA_UI.py:369
+msgid "Little endian"
+msgstr "小端序"
+
+#: A3DA_Properties.py:25
+msgid "M_HRC"
+msgstr "M_HRC"
+
+#: A3DA_UI.py:111
+msgid "Make Independent Instances"
+msgstr "设为独立实例"
+
+#: A3DA_Utils/EmptiesToBones.py:33
+msgid "Make all bones rest pose the armature's origin. This is the desired behaviour in most cases"
+msgstr "将所有骨骼的静止姿态设为骨架原点。多数情况下这是期望的行为"
+
+#: A3DA_Utils/EmptiesToBones.py:43
+msgid "Make bones copy the scale too"
+msgstr "让骨骼也复制缩放"
+
+#: A3DA_UI.py:83
+msgid "Make visibility of a controller affect children controllers and meshes. Required for MGF"
+msgstr "使控制器的可见性影响子控制器和网格。MGF 必需"
+
+#: A3DA_Utils/FixMats.py:66
+msgid "Material Fixes"
+msgstr "材质修复"
+
+#: A3DA_Properties.py:22
+msgid "Mesh"
+msgstr "网格"
+
+#: A3DA_Properties.py:23
+msgid "Mesh Controller"
+msgstr "网格控制器"
+
+#: A3DA_Properties.py:22
+msgid "Mesh object"
+msgstr "网格物体"
+
+#: A3DA_Utils/EmptiesToBones.py:39
+msgid "Method of handling scale animation"
+msgstr "缩放动画的处理方式"
+
+#: A3DA_Edit/Convert_Utils.py:94
+msgid "Method to transfer animation"
+msgstr "传递动画的方式"
+
+#: A3DA_UI.py:27
+#: A3DA_Edit/Convert_Utils.py:94
+msgid "Mode"
+msgstr "模式"
+
+#: A3DA_Utils/Visibility_Editor.py:22
+msgid "Move Fcurve"
+msgstr "移动 F 曲线"
+
+#: A3DA_Utils/Visibility_Editor.py:43
+msgid "Move drivers from api properties to user defined custom properties."
+msgstr "将驱动器从 API 属性移动到用户定义的自定义属性。"
+
+#: A3DA_Utils/Visibility_Editor.py:42
+msgid "Move drivers from user defined custom properties to api properties."
+msgstr "将驱动器从用户定义的自定义属性移动到 API 属性。"
+
+#: A3DA_Utils/Visibility_Editor.py:74
+msgid "Move to:"
+msgstr "移动到："
+
+#: A3DA_Utils/Visibility_Editor.py:38
+msgid "Move type"
+msgstr "移动类型"
+
+#: A3DA_Edit/Edit_Utils.py:16
+#: A3DA_Edit/Edit_Utils.py:48
+msgid "Name"
+msgstr "名称"
+
+#: A3DA_Properties.py:31
+msgid "Name PJD uses to match animation to model"
+msgstr "PJD 用于将动画与模型匹配的名称"
+
+#: A3DA_Utils/EmptiesToBones.py:27
+msgid "Name Prefix"
+msgstr "名称前缀"
+
+#: A3DA_Edit/Edit_Utils.py:48
+msgid "Name of the created camera"
+msgstr "所创建摄像机的名称"
+
+#: A3DA_Edit/Edit_Utils.py:16
+msgid "Name of the created empty"
+msgstr "所创建空物体的名称"
+
+#: A3DA_Edit/Edit_Utils.py:30
+msgid "Name of the new Auth3D space:"
+msgstr "新 Auth3D 空间的名称："
+
+#: A3DA_Utils/Dof_Visualizer.py:49
+msgid "No DOF object found!!!"
+msgstr "未找到景深物体！！！"
+
+#: A3DA_Utils/Visibility_Editor.py:91
+msgid "No valid objects selected. Please select at least one other object!"
+msgstr "未选择有效物体。请至少选择一个其他物体！"
+
+#: A3DA_Utils/EmptiesToBones.py:45
+msgid "Non-Uniform Morphs"
+msgstr "非均匀变形"
+
+#: A3DA_Properties.py:19
+#: A3DA_Properties.py:53
+msgid "None"
+msgstr "无"
+
+#: A3DA_Properties.py:19
+msgid "Not an Auth3D object"
+msgstr "不是 Auth3D 物体"
+
+#: A3DA_Utils/Bind_armatures.py:18
+msgid "Not an armature!"
+msgstr "不是骨架！"
+
+#: A3DA_Properties.py:53
+msgid "Not part of an Auth3D camera"
+msgstr "不属于 Auth3D 摄像机"
+
+#: A3DA_Properties.py:21
+msgid "Object"
+msgstr "物体"
+
+#: A3DA_UI.py:186
+msgid "Object options"
+msgstr "物体选项"
+
+#: A3DA_Edit/Convert_Utils.py:180
+msgid "Offset Distance"
+msgstr "偏移距离"
+
+#: A3DA_UI.py:55
+msgid "Offset to apply to all imported keyframes. Recommended to leave at 1"
+msgstr "应用于所有导入关键帧的偏移。建议保持为 1"
+
+#: A3DA_Utils/Visibility_Editor.py:16
+msgid "Operation"
+msgstr "操作"
+
+#: A3DA_Edit/Convert_Utils.py:112
+msgid "Prefix"
+msgstr "前缀"
+
+#: A3DA_Edit/Convert_Utils.py:112
+msgid "Prefix to use on created empties."
+msgstr "用于所创建空物体的前缀。"
+
+#: A3DA_Utils/EmptiesToBones.py:27
+msgid "Prefix to use when renaming bones. Underscore (_) will be added."
+msgstr "重命名骨骼时使用的前缀。将添加下划线（_）。"
+
+#: A3DA_Utils/FixMats.py:19
+msgid "Preserve Emission Strenght"
+msgstr "保留自发光强度"
+
+#: A3DA_UI.py:44
+msgid "Project Diva F"
+msgstr "Project Diva F"
+
+#: A3DA_UI.py:45
+msgid "Project Diva F2nd"
+msgstr "Project Diva F2nd"
+
+#: A3DA_UI.py:43
+msgid "Project Diva Future Tone / MegaMix / Arcade Future Tone"
+msgstr "Project Diva Future Tone / MegaMix / Arcade Future Tone"
+
+#: A3DA_Edit/Edit_UI.py:82
+msgid "Ratio"
+msgstr "比例"
+
+#: A3DA_Utils/Visibility_Editor.py:21
+msgid "Remove Drivers"
+msgstr "移除驱动器"
+
+#: A3DA_Utils/Visibility_Editor.py:21
+msgid "Remove visibility drivers from the selected objects."
+msgstr "移除所选物体的可见性驱动器。"
+
+#: A3DA_Utils/EmptiesToBones.py:22
+msgid "Rename"
+msgstr "重命名"
+
+#: A3DA_Utils/EmptiesToBones.py:22
+msgid "Renames bones with a prefix."
+msgstr "用前缀重命名骨骼。"
+
+#: A3DA_Properties.py:54
+msgid "Root object of a camera"
+msgstr "摄像机的根物体"
+
+#: A3DA_Utils/EmptiesToBones.py:43
+msgid "Scale Bones"
+msgstr "缩放骨骼"
+
+#: A3DA_Utils/EmptiesToBones.py:39
+msgid "Scale Handling"
+msgstr "缩放处理"
+
+#: A3DA_Properties.py:70
+msgid "Scale to apply to FOV. This parameter is not imported nor exported from A3DA. It's merely for previewing."
+msgstr "应用于视野的缩放。该参数不会从 A3DA 导入或导出，仅用于预览。"
+
+#: A3DA_UI.py:387
+msgid "Select DSC file to use"
+msgstr "选择要使用的 DSC 文件"
+
+#: A3DA_Utils/FixMats.py:61
+msgid "Select Fixes to Run"
+msgstr "选择要运行的修复"
+
+#: A3DA_UI.py:338
+msgid "Select pv_field.txt to use"
+msgstr "选择要使用的 pv_field.txt"
+
+#: A3DA_Utils/Bind_armatures.py:25
+msgid "Select two armatures!!"
+msgstr "请选择两个骨架！！"
+
+#: A3DA_Utils/Ui_panel.py:28
+msgid "Select utility to launch"
+msgstr "选择要启动的实用工具"
+
+#: A3DA_UI.py:228
+msgid "Sequencial options"
+msgstr "顺序选项"
+
+#: A3DA_Utils/Visibility_Editor.py:47
+msgid "Set visibility driver from active object to selected objects only. When disabled, it will set drivers from all parents to their children meshes."
+msgstr "仅从活动物体为所选物体设置可见性驱动器。禁用时，将从所有父级为其子级网格设置驱动器。"
+
+#: A3DA_Utils/Dof_Visualizer.py:15
+msgid "Setup Scene"
+msgstr "设置场景"
+
+#: A3DA_Utils/FixMats.py:47
+msgid "Show Backface"
+msgstr "显示背面"
+
+#: A3DA_Properties.py:37
+msgid "Show or hide an object"
+msgstr "显示或隐藏物体"
+
+#: A3DA_UI.py:31
+msgid "Single file"
+msgstr "单个文件"
+
+#: A3DA_Utils/Visibility_Editor.py:28
+msgid "Source"
+msgstr "源"
+
+#: A3DA_Utils/Visibility_Editor.py:70
+msgid "Source:"
+msgstr "源："
+
+#: A3DA_Properties.py:48
+msgid "Subetype of a camera object"
+msgstr "摄像机物体的子类型"
+
+#: A3DA_Edit/Edit_UI.py:70
+msgid "Subtype"
+msgstr "子类型"
+
+#: A3DA_Utils/Visibility_Editor.py:22
+msgid "Switch between user defined / api properties for the selected objects."
+msgstr "在所选物体的用户定义/API 属性之间切换。"
+
+#: A3DA_UI.py:48
+msgid "Text (Legacy)"
+msgstr "文本（旧版）"
+
+#: A3DA_Utils/Visibility_Editor.py:42
+msgid "To API"
+msgstr "转为 API"
+
+#: A3DA_Utils/Visibility_Editor.py:43
+msgid "To Custom"
+msgstr "转为自定义"
+
+#: A3DA_Utils/FOV_ready_cam.py:93
+msgid "Transfer the selected focal length into the distance of the active camera."
+msgstr "将所选焦距传递到活动摄像机的距离。"
+
+#: A3DA_Edit/Edit_UI.py:39
+msgid "Type"
+msgstr "类型"
+
+#: A3DA_Properties.py:14
+msgid "Type of Auth3D Object"
+msgstr "Auth3D 物体的类型"
+
+#: A3DA_Properties.py:31
+msgid "UID Name"
+msgstr "UID 名称"
+
+#: A3DA_Edit/Edit_UI.py:44
+msgid "Uid"
+msgstr "UID"
+
+#: A3DA_Utils/EmptiesToBones.py:44
+msgid "Uniform Morphs"
+msgstr "统一变形"
+
+#: A3DA_Utils/FixMats.py:31
+msgid "Use Alpha Blend"
+msgstr "使用 Alpha 混合"
+
+#: A3DA_Utils/FixMats.py:39
+msgid "Use Alpha Dither"
+msgstr "使用 Alpha 抖动"
+
+#: A3DA_Utils/FixMats.py:43
+msgid "Use Backface Culling"
+msgstr "使用背面剔除"
+
+#: A3DA_UI.py:146
+msgid "Use Chance Time"
+msgstr "使用 Chance Time"
+
+#: A3DA_UI.py:167
+#: A3DA_Edit/Edit_Utils.py:54
+msgid "Use DOF"
+msgstr "使用景深"
+
+#: A3DA_UI.py:167
+msgid "Use Depth of Field animation if available"
+msgstr "如果可用，使用景深动画"
+
+#: A3DA_UI.py:139
+msgid "Use File Begin"
+msgstr "使用文件起始帧"
+
+#: A3DA_UI.py:132
+msgid "Use Ghost Armature"
+msgstr "使用幽灵骨架"
+
+#: A3DA_UI.py:125
+msgid "Use HRC"
+msgstr "使用 HRC"
+
+#: A3DA_UI.py:90
+msgid "Use Morphs"
+msgstr "使用变形"
+
+#: A3DA_Utils/EmptiesToBones.py:21
+msgid "Use Object Names"
+msgstr "使用物体名称"
+
+#: A3DA_UI.py:69
+msgid "Use Objects"
+msgstr "使用物体"
+
+#: A3DA_Export/Export_UI.py:30
+msgid "Use Raw Data"
+msgstr "使用原始数据"
+
+#: A3DA_UI.py:104
+msgid "Use Tex Pattern"
+msgstr "使用纹理图案"
+
+#: A3DA_UI.py:97
+msgid "Use Tex Transform"
+msgstr "使用纹理变换"
+
+#: A3DA_Utils/EmptiesToBones.py:20
+msgid "Use UID_Name"
+msgstr "使用 UID_Name"
+
+#: A3DA_Utils/FixMats.py:35
+msgid "Use Vertex Color"
+msgstr "使用顶点颜色"
+
+#: A3DA_UI.py:76
+msgid "Use Visibility"
+msgstr "使用可见性"
+
+#: A3DA_Utils/Visibility_Editor.py:33
+msgid "Use a user defined custom property for visibility."
+msgstr "使用用户定义的自定义属性控制可见性。"
+
+#: A3DA_UI.py:139
+msgid "Use begin frame declared in the file"
+msgstr "使用文件中声明的起始帧"
+
+#: A3DA_UI.py:146
+msgid "Use chance time effect if availyble"
+msgstr "如果可用，使用 Chance Time 效果"
+
+#: A3DA_Export/Export_UI.py:30
+msgid "Use raw data for channels with more than 2 keyframes. HUGE file size saver & performance boost."
+msgstr "对超过 2 个关键帧的通道使用原始数据。极大节省文件体积并提升性能。"
+
+#: A3DA_Utils/Visibility_Editor.py:32
+msgid "Use the visibility property from the api."
+msgstr "使用 API 中的可见性属性。"
+
+#: A3DA_UI.py:62
+msgid "Uses user defined insted of api definde custom properties. When enabled, resulting animation will work even without A3DA Parser enabled, but it will not be exportable."
+msgstr "使用用户定义的自定义属性代替 API 定义的自定义属性。启用后，生成的动画即使未启用 A3DA Parser 也能工作，但无法导出。"
+
+#: A3DA_Properties.py:56
+msgid "Viewpoint Object"
+msgstr "视点物体"
+
+#: A3DA_Properties.py:37
+#: A3DA_Edit/Edit_UI.py:45
+msgid "Visibility"
+msgstr "可见性"
+
+#: A3DA_Utils/EmptiesToBones.py:51
+msgid "When calculating the average scale, don't take in consideration Z axis. Usefull for plain objects."
+msgstr "计算平均缩放时，不考虑 Z 轴。适用于平面物体。"
+
+#: A3DA_UI.py:111
+msgid "When enabled, A3DA instances will have independent data blocks. Required for exporting to MMD"
+msgstr "启用后，A3DA 实例将拥有独立的数据块。导出到 MMD 时需要。"
+
+#: A3DA_Utils/Visibility_Editor.py:28
+msgid "Where to get visibility from."
+msgstr "可见性的获取来源。"
+
+#: A3DA_Properties.py:8
+msgid "Whether the object is Auth3D"
+msgstr "物体是否为 Auth3D"
+
+#: A3DA_Utils/Visibility_Editor.py:16
+msgid "Whether to add or remove visibility drivers."
+msgstr "是否添加或移除可见性驱动器。"
+
+#: A3DA_Utils/Dof_Visualizer.py:11
+msgctxt "Operator"
+msgid "Add DOF Nodes"
+msgstr "添加景深节点"
+
+#: A3DA_Utils/Dof_Visualizer.py:12
+msgctxt "Operator"
+msgid "Adds Aura's DOF visualization node to the scene compositor."
+msgstr "将 Aura 的景深可视化节点添加到场景合成器。"
+
+#: A3DA_Utils/Visibility_Editor.py:12
+msgctxt "Operator"
+msgid "Allows to set & remove visibility drivers."
+msgstr "允许设置和移除可见性驱动器。"
+
+#: A3DA_Edit/Convert_Utils.py:91
+msgctxt "Operator"
+msgid "Attaches empties to the selected models. Active object must be Auth3D space"
+msgstr "将空物体附加到所选模型。活动物体必须是 Auth3D 空间。"
+
+#: A3DA_Utils/Ui_panel.py:52
+msgctxt "Operator"
+msgid "Bind armatures"
+msgstr "绑定骨架"
+
+#: A3DA_Utils/Ui_panel.py:53
+msgctxt "Operator"
+msgid "Binds the global transforms of the selected armature to the active armature using constraints. Just make sure bone names match"
+msgstr "使用约束将所选骨架的全局变换绑定到活动骨架。只需确保骨骼名称匹配。"
+
+#: A3DA_Utils/EmptiesToBones.py:379
+msgctxt "Operator"
+msgid "Combine Shape Keys"
+msgstr "合并形态键"
+
+#: A3DA_Edit/Convert_Utils.py:17
+msgctxt "Operator"
+msgid "Convert Armature"
+msgstr "转换骨架"
+
+#: A3DA_Edit/Convert_Utils.py:176
+msgctxt "Operator"
+msgid "Convert Camera"
+msgstr "转换摄像机"
+
+#: A3DA_Edit/Convert_Utils.py:90
+msgctxt "Operator"
+msgid "Convert Models"
+msgstr "转换模型"
+
+#: A3DA_Utils/Ui_panel.py:42
+msgctxt "Operator"
+msgid "Converts empties containign meshes, in the current collection, into bones. Then rigs the meshes for the created bones. (LEGACY method, don't use this unless you know it works for you.)"
+msgstr "将当前集合中包含网格的空物体转换为骨骼，然后为创建的骨骼绑定网格。（旧版方法，除非你确定它适用于你，否则不要使用。）"
+
+#: A3DA_Edit/Convert_Utils.py:177
+msgctxt "Operator"
+msgid "Converts selected camera to an Auth3D Camera"
+msgstr "将所选摄像机转换为 Auth3D 摄像机"
+
+#: A3DA_Utils/FOV_ready_cam.py:74
+msgctxt "Operator"
+msgid "Converts the focal length of the selected camera to FOV, and saves it into the distances of the active camera. The resulting camera will be suitable for use with float FOV modded MMD."
+msgstr "将所选摄像机的焦距转换为 FOV，并保存到活动摄像机的距离中。生成的摄像机适用于使用浮点 FOV 修改版 MMD。"
+
+#: A3DA_Edit/Edit_Utils.py:44
+msgctxt "Operator"
+msgid "Create Auth3D Camera"
+msgstr "创建 Auth3D 摄像机"
+
+#: A3DA_Edit/Edit_Utils.py:12
+msgctxt "Operator"
+msgid "Create Auth3D space"
+msgstr "创建 Auth3D 空间"
+
+#: A3DA_Edit/Convert_Utils.py:18
+msgctxt "Operator"
+msgid "Creates a new armature with the same bone structure as the selected one, but with all bones starting at the armature origin. This armature is ready to be export as A3DA"
+msgstr "创建与所选骨架骨骼结构相同的新骨架，但所有骨骼都从骨架原点开始。此骨架已准备好导出为 A3DA。"
+
+#: A3DA_Edit/Edit_Utils.py:45
+msgctxt "Operator"
+msgid "Creates an Auth3D Camera Rig"
+msgstr "创建 Auth3D 摄像机装配"
+
+#: A3DA_Edit/Edit_Utils.py:13
+msgctxt "Operator"
+msgid "Creates an empty at the world origin rotated 90°. Yeh just that. Required for transforms to look good in Diva."
+msgstr "在世界原点创建一个旋转 90° 的空物体。仅此而已。Diva 中变换显示正常所必需。"
+
+#: __init__.py:69
+msgctxt "Operator"
+msgid "Diva A3DA Animation (.a3da)"
+msgstr "Diva A3DA 动画 (.a3da)"
+
+#: A3DA_Utils/FixMats.py:11
+msgctxt "Operator"
+msgid "Edits selected objects materials to better match the Project Diva look."
+msgstr "编辑所选物体的材质，使其更贴合 Project Diva 的外观。"
+
+#: A3DA_Utils/EmptiesToBones.py:11
+msgctxt "Operator"
+msgid "Empties To Bones"
+msgstr "空物体转为骨骼"
+
+#: A3DA_Utils/Ui_panel.py:41
+msgctxt "Operator"
+msgid "Empties To Bones (Legacy)"
+msgstr "空物体转为骨骼（旧版）"
+
+#: A3DA_Utils/FixMats.py:10
+msgctxt "Operator"
+msgid "Fix Materials"
+msgstr "修复材质"
+
+#: A3DA_Utils/FOV_ready_cam.py:73
+msgctxt "Operator"
+msgid "Focal Length to FOV mod"
+msgstr "焦距转 FOV 修改器"
+
+#: A3DA_UI.py:19
+msgctxt "Operator"
+msgid "Import A3DA"
+msgstr "导入 A3DA"
+
+#: A3DA_UI.py:360
+msgctxt "Operator"
+msgid "Select DSC"
+msgstr "选择 DSC"
+
+#: A3DA_UI.py:322
+msgctxt "Operator"
+msgid "Select pv_field"
+msgstr "选择 pv_field"
+
+#: A3DA_Utils/EmptiesToBones.py:380
+msgctxt "Operator"
+msgid "Transfer shape keys as dummies from selected objects to active."
+msgstr "将所选物体的形态键作为虚拟对象转移到活动物体。"
+
+#: A3DA_Utils/Visibility_Editor.py:11
+msgctxt "Operator"
+msgid "Visibility Editor"
+msgstr "可见性编辑器"
+
+#: A3DA_Utils/EmptiesToBones.py:12
+msgctxt "Operator"
+msgid "Works on selected objects. For every empty that has at least a children mesh, creates a bone that will follow the empty, and attaches the meshes, originially parented to the empty, to the bone. Breaks for objects with negative scale."
+msgstr "作用于所选物体。对于每个至少有一个子级网格的空物体，创建一个跟随该空物体的骨骼，并将原本父级为该空物体的网格附着到该骨骼上。对负缩放的物体会失效。"

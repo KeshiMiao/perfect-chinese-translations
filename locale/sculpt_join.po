@@ -1,0 +1,209 @@
+# perfect-chinese: 1
+# id: sculpt_join
+# kind: addon
+# module: bl_ext.blender_org.sculpt_join
+# name: Sculpt Join
+# name_zh: 雕刻合并
+# translator: KeshiMiao
+# category: Sculpt
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:1618
+msgid "(Armature: rest pose)."
+msgstr "（骨架：静止姿势）。"
+
+#: __init__.py:1618
+msgid "."
+msgstr "."
+
+#: __init__.py:2226
+msgid "About how many faces the joined mesh should have (a target, it can end a little above). Shared by surface area; only meshes denser than their share get a proxy. Higher: proxies closer to the originals, heavier brushes. Lower: lighter and faster, coarser bends"
+msgstr "合并后的网格大约应有多少面（目标值，最终可略高）。按表面积分配；只有比其份额更密的网格才会生成代理。较高：代理更接近原始网格，笔刷更重。较低：更轻更快，弯曲更粗糙"
+
+#: __init__.py:1560
+msgid "Apply Mirror modifiers permanently"
+msgstr "永久应用镜像修改器"
+
+#: __init__.py:1560
+msgid "Apply the Mirror modifiers of the originals, so both halves join. The originals only change once the join succeeded (Esc leaves them untouched); then the Mirror is gone (Ctrl+Z undoes it). Off: only the real half joins"
+msgstr "应用原始网格的镜像修改器，使两半都参与合并。只有合并成功后原始网格才会改变（按 Esc 则保持原样）；随后镜像修改器会消失（Ctrl+Z 可撤销）。关闭：仅合并真实的一半"
+
+#: __init__.py:2250
+msgid "Before joining, list the meshes with deforming modifiers (Armature, Lattice, Shrinkwrap...). While joined they show their base shape (Armature: rest pose); the modifiers stay on the originals and work again after Apply"
+msgstr "合并前，列出带有变形修改器（骨架、晶格、缩裹……）的网格。合并期间它们显示基础形状（骨架：静止姿势）；修改器保留在原始网格上，并在应用后重新生效"
+
+#: __init__.py:2258
+msgid "Create Face Sets when joining, so parts can be masked, hidden or posed as segments. Overwrites existing Face Sets"
+msgstr "合并时创建面集，以便按分段进行遮罩、隐藏或摆姿势。会覆盖现有面集"
+
+#: __init__.py:2148
+msgid "Ctrl+Z may bring it back, or:"
+msgstr "Ctrl+Z 可能将其恢复，或者："
+
+#: __init__.py:2216
+msgid "Dense Proxies"
+msgstr "高密度代理"
+
+#: __init__.py:2263
+msgid "Do not create Face Sets"
+msgstr "不创建面集"
+
+#: __init__.py:2159
+msgid "Don't use Dyntopo or Remesh while joined."
+msgstr "合并期间不要使用动态拓扑或重网格。"
+
+#: __init__.py:2173
+#: __init__.py:2226
+msgid "Face Limit"
+msgstr "面数限制"
+
+#: __init__.py:2258
+msgid "Face Sets"
+msgstr "面集"
+
+#: __init__.py:2175
+msgid "For fine detail, turn Dense Proxies off"
+msgstr "如需精细细节，请关闭高密度代理"
+
+#: __init__.py:2242
+msgid "In Solid shading, set the viewport color to Single while joined, so the joined mesh looks like it has one material. The real materials are not changed; the previous color is restored afterwards"
+msgstr "在实体着色下，合并期间将视图颜色设为单一，使合并后的网格看起来只有一种材质。真实材质不会改变；之后会恢复之前的颜色"
+
+#: __init__.py:1955
+msgid "Join cancelled. Original meshes restored."
+msgstr "合并已取消。原始网格已恢复。"
+
+#: __init__.py:1792
+msgid "Join failed: the join did not keep the vertex ids, so it could not be applied later."
+msgstr "合并失败：合并未保留顶点 ID，因此之后无法应用。"
+
+#: __init__.py:1554
+msgid "Join only the selected meshes (plus the active one)"
+msgstr "仅合并选中的网格（加上活动网格）"
+
+#: __init__.py:2235
+msgid "Join only the selected meshes (plus the active one). Select the parts in the Outliner, or in Object Mode before entering Sculpt Mode. Off: all visible meshes are joined"
+msgstr "仅合并选中的网格（加上活动网格）。在大纲视图中选择部件，或在进入雕刻模式前于物体模式中选择。关闭：合并所有可见网格"
+
+#: __init__.py:1621
+msgid "Keep warning about deforming modifiers"
+msgstr "保持对变形修改器的警告"
+
+#: __init__.py:2263
+msgid "None"
+msgstr "无"
+
+#: __init__.py:1645
+msgid "Off: only the real half of each mesh is joined."
+msgstr "关闭：仅合并每个网格真实的一半。"
+
+#: __init__.py:2264
+msgid "One Face Set for each joined mesh"
+msgstr "每个合并的网格一个面集"
+
+#: __init__.py:2265
+msgid "One Face Set for each loose part of the joined mesh (a mesh made of separate pieces gets one per piece)"
+msgstr "合并后的网格每个松散部分一个面集（由分离块组成的网格每块一个）"
+
+#: __init__.py:2168
+msgid "Options"
+msgstr "选项"
+
+#: __init__.py:2135
+msgid "Outside Sculpt Mode"
+msgstr "雕刻模式外"
+
+#: __init__.py:2265
+msgid "Per Loose Part"
+msgstr "按松散部分"
+
+#: __init__.py:2264
+msgid "Per Mesh"
+msgstr "按网格"
+
+#: __init__.py:2158
+msgid "Pose and sculpt the parts as one."
+msgstr "将各部件作为一个整体摆姿势和雕刻。"
+
+#: __init__.py:2121
+msgid "Press Esc to cancel"
+msgstr "按 Esc 取消"
+
+#: __init__.py:2105
+msgid "Sculpt Join"
+msgstr "雕刻合并"
+
+#: __init__.py:2198
+msgid "Select 2+ parts (Outliner or Object Mode)"
+msgstr "选择 2 个以上部件（大纲视图或物体模式）"
+
+#: __init__.py:1554
+#: __init__.py:2235
+msgid "Selected Only"
+msgstr "仅选中"
+
+#: __init__.py:2242
+msgid "Single Viewport Color"
+msgstr "单一视图颜色"
+
+#: __init__.py:2146
+msgid "The joined mesh is gone"
+msgstr "合并后的网格已消失"
+
+#: __init__.py:1620
+msgid "The modifiers stay and work again after Apply."
+msgstr "修改器会保留，并在应用后重新生效。"
+
+#: __init__.py:1627
+msgid "These meshes stay untouched in the scene:"
+msgstr "这些网格在场景中保持不变："
+
+#: __init__.py:2130
+msgid "Topology changed: this join"
+msgstr "拓扑已改变：此合并"
+
+#: __init__.py:2250
+msgid "Warn About Deform Modifiers"
+msgstr "警告变形修改器"
+
+#: __init__.py:2216
+msgid "When the scene has more faces than the Face Limit, dense meshes without Multires join as light proxies, sized by surface area. On Apply the pose is carried to every vertex of the dense originals, details included. Good for posing and big shape changes; fine detail sculpted on a proxy is not carried exactly: turn this off for fine detail"
+msgstr "当场景面数超过面数限制时，没有多重精度的密集网格会作为轻量代理参与合并，大小按表面积分配。应用时，姿势会传递到密集原始网格的每个顶点，包括细节。适合摆姿势和大幅形状变化；在代理上雕刻的精细细节不会被精确传递：如需精细细节，请关闭此选项"
+
+#: __init__.py:1618
+msgid "While joined they show their base shape"
+msgstr "合并期间它们显示基础形状"
+
+#: __init__.py:2131
+msgid "can't be applied. Ctrl+Z to undo."
+msgstr "无法应用。按 Ctrl+Z 撤销。"
+
+#: __init__.py:1891
+msgctxt "Operator"
+msgid "Apply to Originals"
+msgstr "应用到原始网格"
+
+#: __init__.py:1962
+msgctxt "Operator"
+msgid "Back to Join"
+msgstr "返回合并"
+
+#: __init__.py:1937
+msgctxt "Operator"
+msgid "Cancel Join"
+msgstr "取消合并"
+
+#: __init__.py:1551
+msgctxt "Operator"
+msgid "Join Visible"
+msgstr "合并可见"
+
+#: __init__.py:1985
+msgctxt "Operator"
+msgid "Restore Originals"
+msgstr "恢复原始网格"

@@ -1,0 +1,202 @@
+# perfect-chinese: 1
+# id: flexytrack
+# kind: addon
+# module: bl_ext.blender_org.flexytrack
+# name: FlexyTrack
+# name_zh: 骨骼阻尼追踪
+# translator: KeshiMiao
+# category: Animation
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: Flexytrack-1.0.1/__init__.py:273
+msgid "1. Select the root bone of the chain"
+msgstr "1. 选择骨骼链的根骨骼"
+
+#: Flexytrack-1.0.1/__init__.py:274
+msgid "2. Make sure it is the active bone"
+msgstr "2. 确保它是活动骨骼"
+
+#: Flexytrack-1.0.1/__init__.py:275
+msgid "3. Choose a mode or use a preset"
+msgstr "3. 选择一种模式或使用预设"
+
+#: Flexytrack-1.0.1/__init__.py:276
+msgid "4. Click 'Apply Damped Track'"
+msgstr "4. 点击「应用阻尼追踪」"
+
+#: Flexytrack-1.0.1/__init__.py:277
+msgid "5. All descendants are processed automatically"
+msgstr "5. 所有子级骨骼将自动处理"
+
+#: Flexytrack-1.0.1/__init__.py:278
+msgid "6. Rope preset uses constant influence on all bones"
+msgstr "6. 绳索预设对所有骨骼使用恒定影响"
+
+#: Flexytrack-1.0.1/__init__.py:279
+msgid "7. Best results on a single chain"
+msgstr "7. 单条骨骼链效果最佳"
+
+#: Flexytrack-1.0.1/__init__.py:178
+msgid "Active bone must have at least 1 child bone"
+msgstr "活动骨骼必须至少拥有 1 个子骨骼"
+
+#: Flexytrack-1.0.1/__init__.py:1
+msgid "Animation"
+msgstr "动画"
+
+#: Flexytrack-1.0.1/__init__.py:1
+msgid "Automatically apply chained Damped Track constraints from the active bone descendants"
+msgstr "从活动骨骼的子级自动应用链式阻尼追踪约束"
+
+#: Flexytrack-1.0.1/__init__.py:20
+msgid "Base influence value used by the selected falloff mode"
+msgstr "所选衰减模式使用的基础影响值"
+
+#: Flexytrack-1.0.1/__init__.py:183
+msgid "Branching detected: best results are with a single chain"
+msgstr "检测到分支：单条骨骼链效果最佳"
+
+#: Flexytrack-1.0.1/__init__.py:34
+msgid "Constant"
+msgstr "恒定"
+
+#: Flexytrack-1.0.1/__init__.py:39
+msgid "Decay Power"
+msgstr "衰减幂"
+
+#: Flexytrack-1.0.1/__init__.py:33
+msgid "Exponential"
+msgstr "指数"
+
+#: Flexytrack-1.0.1/__init__.py:33
+msgid "Exponential falloff across the whole chain"
+msgstr "整条骨骼链按指数衰减"
+
+#: Flexytrack-1.0.1/__init__.py:28
+msgid "Falloff Mode"
+msgstr "衰减模式"
+
+#: Flexytrack-1.0.1/__init__.py:1
+#: Flexytrack-1.0.1/__init__.py:212
+msgid "FlexyTrack"
+msgstr "FlexyTrack"
+
+#: Flexytrack-1.0.1/__init__.py:20
+msgid "Global Flexibility"
+msgstr "全局柔韧性"
+
+#: Flexytrack-1.0.1/__init__.py:48
+msgid "Help / Instructions"
+msgstr "帮助 / 说明"
+
+#: Flexytrack-1.0.1/__init__.py:272
+msgid "How to use:"
+msgstr "使用方法："
+
+#: Flexytrack-1.0.1/__init__.py:28
+msgid "Influence distribution along the full chain"
+msgstr "影响值沿整条骨骼链的分布"
+
+#: Flexytrack-1.0.1/__init__.py:32
+msgid "Linear"
+msgstr "线性"
+
+#: Flexytrack-1.0.1/__init__.py:32
+msgid "Linear falloff across the whole chain"
+msgstr "整条骨骼链按线性衰减"
+
+#: Flexytrack-1.0.1/__init__.py:255
+msgid "No active bone"
+msgstr "无活动骨骼"
+
+#: Flexytrack-1.0.1/__init__.py:280
+msgid "Note: French UI requires Blender interface language set to French"
+msgstr "注意：法语界面需要将 Blender 界面语言设为法语"
+
+#: Flexytrack-1.0.1/__init__.py:135
+#: Flexytrack-1.0.1/__init__.py:167
+msgid "Pose Mode required"
+msgstr "需要姿态模式"
+
+#: Flexytrack-1.0.1/__init__.py:104
+msgid "Preset applied: Fish Propulsion"
+msgstr "已应用预设：鱼类推进"
+
+#: Flexytrack-1.0.1/__init__.py:111
+msgid "Preset applied: Octopus"
+msgstr "已应用预设：章鱼"
+
+#: Flexytrack-1.0.1/__init__.py:118
+msgid "Preset applied: Rope"
+msgstr "已应用预设：绳索"
+
+#: Flexytrack-1.0.1/__init__.py:234
+msgid "Presets"
+msgstr "预设"
+
+#: Flexytrack-1.0.1/__init__.py:34
+msgid "Same influence on the whole chain"
+msgstr "整条骨骼链影响值相同"
+
+#: Flexytrack-1.0.1/__init__.py:140
+#: Flexytrack-1.0.1/__init__.py:172
+msgid "Select an active bone"
+msgstr "请选择活动骨骼"
+
+#: Flexytrack-1.0.1/__init__.py:48
+msgid "Show or hide instructions"
+msgstr "显示或隐藏说明"
+
+#: Flexytrack-1.0.1/__init__.py:39
+msgid "Used in Exponential mode only. Higher values = faster falloff"
+msgstr "仅在指数模式下使用。数值越高 = 衰减越快"
+
+#: Flexytrack-1.0.1/__init__.py:158
+msgctxt "Operator"
+msgid "Apply Damped Track"
+msgstr "应用阻尼追踪"
+
+#: Flexytrack-1.0.1/__init__.py:91
+msgctxt "Operator"
+msgid "Apply Preset"
+msgstr "应用预设"
+
+#: Flexytrack-1.0.1/__init__.py:92
+msgctxt "Operator"
+msgid "Apply a predefined preset to the addon settings"
+msgstr "将预定义预设应用到插件设置"
+
+#: Flexytrack-1.0.1/__init__.py:159
+msgctxt "Operator"
+msgid "Apply delay logic from active bone through all descendants"
+msgstr "从活动骨骼向所有子级应用延迟逻辑"
+
+#: Flexytrack-1.0.1/__init__.py:127
+msgctxt "Operator"
+msgid "Clear Damped Track"
+msgstr "清除阻尼追踪"
+
+#: Flexytrack-1.0.1/__init__.py:236
+msgctxt "Operator"
+msgid "Fish"
+msgstr "鱼类"
+
+#: Flexytrack-1.0.1/__init__.py:239
+msgctxt "Operator"
+msgid "Octopod"
+msgstr "章鱼"
+
+#: Flexytrack-1.0.1/__init__.py:128
+msgctxt "Operator"
+msgid "Removes all 'DelayedTrack' constraints from active bone and its descendants"
+msgstr "从活动骨骼及其子级移除所有「DelayedTrack」约束"
+
+#: Flexytrack-1.0.1/__init__.py:242
+msgctxt "Operator"
+msgid "Rope"
+msgstr "绳索"

@@ -1,0 +1,281 @@
+# perfect-chinese: 1
+# id: low_poly_colorizer
+# kind: addon
+# module: bl_ext.blender_org.low_poly_colorizer
+# name: Low Poly Colorizer
+# name_zh: 低多边形上色
+# translator: KeshiMiao
+# category: Material
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:113
+msgid "Active Preset"
+msgstr "活动预设"
+
+#: picker/interface.py:148
+msgid "Add Greyscale Column"
+msgstr "添加灰度列"
+
+#: ui/panel.py:101
+msgid "Base Color"
+msgstr "基础色"
+
+#: picker/interface.py:160
+msgid "Brightness"
+msgstr "亮度"
+
+#: picker/interface.py:160
+msgid "Brightness of the middle row (base color)"
+msgstr "中间行（基础色）的亮度"
+
+#: export/exporter.py:339
+msgid "Choose an existing output folder"
+msgstr "选择现有输出文件夹"
+
+#: model/presets.py:126
+msgid "Clearcoat"
+msgstr "清漆"
+
+#: model/presets.py:150
+msgid "Clearcoat Roughness"
+msgstr "清漆粗糙度"
+
+#: model/presets.py:126
+msgid "Clearcoat intensity (C)"
+msgstr "清漆强度 (C)"
+
+#: picker/interface.py:206
+msgid "Color"
+msgstr "颜色"
+
+#: picker/interface.py:206
+msgid "Color of the picked palette cell"
+msgstr "所选调色板单元格的颜色"
+
+#: picker/interface.py:138
+msgid "Columns"
+msgstr "列数"
+
+#: model/presets.py:121
+msgid "Emission"
+msgstr "自发光"
+
+#: model/presets.py:144
+msgid "Emission Factor"
+msgstr "自发光系数"
+
+#: model/presets.py:121
+msgid "Emission strength (E), scaled by the global emission factor"
+msgstr "自发光强度 (E)，受全局自发光系数缩放"
+
+#: ui/panel.py:271
+msgid "Export"
+msgstr "导出"
+
+#: __init__.py:124
+msgid "Export Target"
+msgstr "导出目标"
+
+#: model/presets.py:144
+msgid "Global multiplier on every preset's emission"
+msgstr "所有预设自发光的全局乘数"
+
+#: ui/panel.py:113
+msgid "Globals"
+msgstr "全局"
+
+#: ui/panel.py:94
+msgid "Grid"
+msgstr "栅格"
+
+#: picker/interface.py:171
+msgid "How much the darkest row (the last one) is mixed toward black (0 = like the middle row, 1 = black)"
+msgstr "最暗行（最后一行）向黑色混合的程度（0 = 同中间行，1 = 黑色）"
+
+#: picker/interface.py:166
+msgid "How much the lightest row (row 0) is mixed toward white (0 = like the middle row, 1 = white)"
+msgstr "最亮行（第 0 行）向白色混合的程度（0 = 同中间行，1 = 白色）"
+
+#: model/presets.py:109
+msgid "Immutable preset identity"
+msgstr "不可变的预设标识"
+
+#: ui/panel.py:172
+msgid "LPC"
+msgstr "LPC"
+
+#: __init__.py:129
+msgid "Last Export Fingerprint"
+msgstr "上次导出指纹"
+
+#: ui/panel.py:168
+msgid "Low Poly Colorizer"
+msgstr "Low Poly Colorizer"
+
+#: model/presets.py:117
+msgid "Metallic"
+msgstr "金属度"
+
+#: model/presets.py:117
+msgid "Metallic (M)"
+msgstr "金属度 (M)"
+
+#: __init__.py:116
+msgid "Monotonic counter; the only source of preset uids (starts at 1 -- 0 is the UNASSIGNED sentinel for unpainted faces)"
+msgstr "单调递增计数器；预设 UID 的唯一来源（从 1 开始——0 是未绘制面用的 UNASSIGNED 哨兵值）"
+
+#: model/presets.py:106
+msgid "Name"
+msgstr "名称"
+
+#: __init__.py:116
+msgid "Next Preset UID"
+msgstr "下一个预设 UID"
+
+#: export/exporter.py:335
+msgid "No export target selected"
+msgstr "未选择导出目标"
+
+#: ui/panel.py:196
+msgid "No preset selected"
+msgstr "未选择预设"
+
+#: picker/interface.py:138
+msgid "Number of hue columns (excluding the optional greyscale column)"
+msgstr "色相列数（不含可选的灰度列）"
+
+#: picker/interface.py:143
+msgid "Number of rows"
+msgstr "行数"
+
+#: picker/interface.py:148
+msgid "Prepend an extra column with a plain white-to-black ramp"
+msgstr "在前面添加一列纯白到黑的渐变"
+
+#: ui/panel.py:147
+msgid "Preset Extras"
+msgstr "预设附加项"
+
+#: model/presets.py:150
+msgid "Project-wide constant clearcoat roughness"
+msgstr "项目范围内固定的清漆粗糙度"
+
+#: model/presets.py:113
+msgid "Roughness"
+msgstr "粗糙度"
+
+#: model/presets.py:113
+msgid "Roughness (R)"
+msgstr "粗糙度 (R)"
+
+#: picker/interface.py:143
+msgid "Rows"
+msgstr "行数"
+
+#: picker/interface.py:154
+msgid "Saturation"
+msgstr "饱和度"
+
+#: picker/interface.py:154
+msgid "Saturation of the middle row (base color)"
+msgstr "中间行（基础色）的饱和度"
+
+#: picker/interface.py:171
+msgid "Shade"
+msgstr "明暗"
+
+#: __init__.py:129
+msgid "Snapshot of every value baked into the exported files as of the last successful export (export.exporter.export_fingerprint) -- compared live against the current scene to decide whether the Export button should flag as out of date. A real Scene property (persists across saves) rather than process-only state, safe because LPC_OT_export is itself undo-registered"
+msgstr "上次成功导出时烘焙进导出文件的每个值的快照 (export.exporter.export_fingerprint)——与当前场景实时比较，以决定导出按钮是否应标记为过期。它是真正的场景属性（跨保存保留）而非仅进程内状态，之所以安全，是因为 LPC_OT_export 本身已注册撤销"
+
+#: picker/interface.py:166
+msgid "Tint"
+msgstr "色调"
+
+#: ui/panel.py:107
+msgid "Tint / Shade"
+msgstr "色调 / 明暗"
+
+#: model/presets.py:109
+msgid "UID"
+msgstr "UID"
+
+#: ui/panel.py:259
+msgid "UV maps need fixing"
+msgstr "UV 贴图需要修复"
+
+#: __init__.py:124
+msgid "Which template set the Export button writes"
+msgstr "导出按钮写入哪一套模板"
+
+#: picker/interface.py:204
+#: ui/panel.py:181
+msgid "X"
+msgstr "X"
+
+#: picker/interface.py:205
+#: ui/panel.py:182
+msgid "Y"
+msgstr "Y"
+
+#: ops/presets.py:254
+msgctxt "Operator"
+msgid "Add Preset"
+msgstr "添加预设"
+
+#: ui/geometry_nodes.py:273
+#: ui/panel.py:158
+msgctxt "Operator"
+msgid "Create Geometry Node Group"
+msgstr "创建几何节点组"
+
+#: ops/presets.py:270
+msgctxt "Operator"
+msgid "Delete Preset"
+msgstr "删除预设"
+
+#: ops/presets.py:302
+msgctxt "Operator"
+msgid "Duplicate Preset"
+msgstr "复制预设"
+
+#: export/exporter.py:315
+#: ui/panel.py:154
+msgctxt "Operator"
+msgid "Export"
+msgstr "导出"
+
+#: ops/presets.py:336
+msgctxt "Operator"
+msgid "Export Presets"
+msgstr "导出预设"
+
+#: ui/panel.py:153
+msgctxt "Operator"
+msgid "Import"
+msgstr "导入"
+
+#: ops/presets.py:364
+msgctxt "Operator"
+msgid "Import Presets"
+msgstr "导入预设"
+
+#: ops/presets.py:323
+msgctxt "Operator"
+msgid "Load Default Presets"
+msgstr "加载默认预设"
+
+#: ui/panel.py:60
+msgctxt "Operator"
+msgid "Settings"
+msgstr "设置"
+
+#: ui/panel.py:278
+msgctxt "Operator"
+msgid "Settings..."
+msgstr "设置..."

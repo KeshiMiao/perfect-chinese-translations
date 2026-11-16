@@ -1,0 +1,379 @@
+# perfect-chinese: 1
+# id: bone_damped_track_batch
+# kind: addon
+# module: bl_ext.blender_org.bone_damped_track_batch
+# name: Bone Damped Track Batch
+# name_zh: 批量骨骼阻尼追踪
+# translator: KeshiMiao
+# category: Animation
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:756
+msgid "Add constraints to all matching bones in the armature"
+msgstr "为骨架中所有匹配的骨骼添加约束"
+
+#: __init__.py:756
+msgid "All Bones"
+msgstr "所有骨骼"
+
+#: __init__.py:1
+msgid "Animation"
+msgstr "动画"
+
+#: __init__.py:745
+msgid "Base influence value (0-1) for each bone's Damped Track constraint. Higher = bones follow their child tightly (less swing); lower = looser (more swing). Combined with gradient modes for root-stiff / tip-soft results."
+msgstr "每根骨骼的阻尼追踪约束的基础影响值（0-1）。数值越高 = 骨骼紧密跟随其子级（摆动更少）；数值越低 = 更松弛（摆动更多）。与渐变模式结合可获得根部僵硬/末端柔软的效果。"
+
+#: __init__.py:1
+msgid "Batch-add Damped Track constraints with gradient influence"
+msgstr "批量添加带渐变影响的阻尼追踪约束"
+
+#: __init__.py:670
+msgid "Bone Damped Track"
+msgstr "骨骼阻尼追踪"
+
+#: __init__.py:1
+msgid "Bone Damped Track Batch"
+msgstr "骨骼阻尼追踪批量"
+
+#: __init__.py:674
+msgid "Bone Tools"
+msgstr "骨骼工具"
+
+#: __init__.py:695
+msgid "Bone name / MMD JP-EN names containing any keyword match; comma-separated"
+msgstr "骨骼名 / MMD 日文-英文名包含任一关键词；用逗号分隔"
+
+#: __init__.py:820
+msgid "Cloth/Hair Keywords"
+msgstr "布料/头发关键词"
+
+#: __init__.py:831
+msgid "Comma-separated name keywords; bones whose names contain any of them are added even if the filter missed them. Use Preview to verify."
+msgstr "逗号分隔的名称关键词；名称包含任一关键词的骨骼将被添加，即使过滤器漏掉了它们。使用预览验证。"
+
+#: __init__.py:837
+msgid "Comma-separated name keywords; bones whose names contain any of them are removed even if the filter matched them (e.g. 足,腿,foot,leg). Use Preview to verify."
+msgstr "逗号分隔的名称关键词；名称包含任一关键词的骨骼将被移除，即使过滤器匹配了它们（例如 足,腿,foot,leg）。使用预览验证。"
+
+#: __init__.py:825
+msgid "Comma-separated; a bone matches if its name, MMD Japanese name or MMD English name contains any keyword"
+msgstr "逗号分隔；如果骨骼名称、MMD 日文名或 MMD 英文名包含任一关键词，则匹配"
+
+#: __init__.py:781
+msgid "Constant change from start to end value"
+msgstr "从起始值到结束值恒定变化"
+
+#: __init__.py:767
+msgid "Decrease"
+msgstr "递减"
+
+#: __init__.py:768
+msgid "Distribute influence by each chain's total length, from start to end influence, regardless of chain length"
+msgstr "无论链长度如何，按每条链的总长度分配影响，从起始影响到结束影响"
+
+#: __init__.py:782
+msgid "Ease In"
+msgstr "缓入"
+
+#: __init__.py:783
+msgid "Ease Out"
+msgstr "缓出"
+
+#: __init__.py:721
+#: __init__.py:778
+msgid "Easing"
+msgstr "缓动"
+
+#: __init__.py:773
+msgid "End Influence"
+msgstr "结束影响"
+
+#: __init__.py:720
+msgid "End influence"
+msgstr "结束影响"
+
+#: __init__.py:783
+msgid "Fast near the root, slower toward the tip"
+msgstr "靠近根部快，越靠近末端越慢"
+
+#: __init__.py:815
+msgid "Filter"
+msgstr "过滤器"
+
+#: __init__.py:796
+msgid "First Child"
+msgstr "第一个子级"
+
+#: __init__.py:715
+#: __init__.py:762
+msgid "Gradient Mode"
+msgstr "渐变模式"
+
+#: __init__.py:697
+msgid "Green = has constraints (non-IK); constrained leg bones also match"
+msgstr "绿色 = 有约束（非 IK）；带约束的腿部骨骼也会匹配"
+
+#: __init__.py:766
+msgid "Increase"
+msgstr "递增"
+
+#: __init__.py:766
+msgid "Influence += step for each level down the chain"
+msgstr "沿链每下降一级，影响 += 步长"
+
+#: __init__.py:767
+msgid "Influence -= step for each level down the chain"
+msgstr "沿链每下降一级，影响 -= 步长"
+
+#: __init__.py:773
+msgid "Influence at the chain tip in Proportional mode (default 0; raise it to keep tips from going fully loose)"
+msgstr "比例模式下链末端的影响值（默认 0；提高它可防止末端完全松弛）"
+
+#: __init__.py:789
+msgid "Influence change per level down the chain in Increase/Decrease mode. Larger step = faster gradient; for long chains prefer Proportional mode."
+msgstr "递增/递减模式下沿链每下降一级的影响变化量。步长越大 = 渐变越快；长链建议使用比例模式。"
+
+#: __init__.py:694
+#: __init__.py:825
+msgid "Keywords"
+msgstr "关键词"
+
+#: __init__.py:797
+msgid "Last Child"
+msgstr "最后一个子级"
+
+#: __init__.py:781
+msgid "Linear"
+msgstr "线性"
+
+#: __init__.py:806
+msgid "Local"
+msgstr "局部"
+
+#: __init__.py:837
+msgid "Manual Exclude Bones"
+msgstr "手动排除骨骼"
+
+#: __init__.py:831
+msgid "Manual Include Bones"
+msgstr "手动包含骨骼"
+
+#: __init__.py:704
+msgid "Manual exclude"
+msgstr "手动排除"
+
+#: __init__.py:700
+msgid "Manual include"
+msgstr "手动包含"
+
+#: __init__.py:524
+msgid "No bone picked; click a bone body or its endpoint"
+msgstr "未选取骨骼；点击骨骼主体或其端点"
+
+#: __init__.py:322
+msgid "No bones matched the current settings"
+msgstr "没有骨骼匹配当前设置"
+
+#: __init__.py:378
+msgid "No bones matched; check the filter or keywords"
+msgstr "未匹配到骨骼；请检查过滤器或关键词"
+
+#: __init__.py:765
+#: __init__.py:818
+msgid "None"
+msgstr "无"
+
+#: __init__.py:757
+msgid "Only add constraints to selected bones and their descendants (select in Pose/Edit Mode)"
+msgstr "仅向选中骨骼及其后代添加约束（在姿态/编辑模式下选择）"
+
+#: __init__.py:819
+msgid "Only bones that already have constraints (non-IK, with valid targets)"
+msgstr "仅已有约束的骨骼（非 IK，且目标有效）"
+
+#: __init__.py:820
+msgid "Only bones whose names contain the given cloth/hair keywords"
+msgstr "仅名称包含指定布料/头发关键词的骨骼"
+
+#: __init__.py:501
+msgid "Pick bone: hover to highlight, LMB to pick, RMB/Esc to cancel"
+msgstr "选取骨骼：悬停高亮，左键选取，右键/Esc 取消"
+
+#: __init__.py:819
+msgid "Pose-Green Bones"
+msgstr "姿态绿色骨骼"
+
+#: __init__.py:818
+msgid "Process all bones"
+msgstr "处理所有骨骼"
+
+#: __init__.py:768
+msgid "Proportional"
+msgstr "比例"
+
+#: __init__.py:784
+msgid "S-shaped transition, gentle at both ends"
+msgstr "S 形过渡，两端平缓"
+
+#: __init__.py:753
+msgid "Scope"
+msgstr "范围"
+
+#: __init__.py:682
+msgid "Select an armature"
+msgstr "选择骨架"
+
+#: __init__.py:243
+#: __init__.py:350
+msgid "Select at least one bone in Pose or Edit Mode first"
+msgstr "请先在姿态或编辑模式下选择至少一根骨骼"
+
+#: __init__.py:642
+msgid "Select bones first (Pose or Edit Mode)"
+msgstr "请先选择骨骼（姿态或编辑模式）"
+
+#: __init__.py:757
+msgid "Selected Chain Only"
+msgstr "仅选中链"
+
+#: __init__.py:749
+msgid "Skip Root Bones"
+msgstr "跳过根骨骼"
+
+#: __init__.py:708
+msgid "Skip root bones"
+msgstr "跳过根骨骼"
+
+#: __init__.py:782
+msgid "Slow near the root, faster toward the tip"
+msgstr "靠近根部慢，越靠近末端越快"
+
+#: __init__.py:784
+msgid "Smooth"
+msgstr "平滑"
+
+#: __init__.py:806
+msgid "Solve in local space; use when the armature's own rotation/scale causes offset"
+msgstr "在局部空间求解；当骨架自身的旋转/缩放导致偏移时使用"
+
+#: __init__.py:805
+msgid "Solve in world space (default, matches the original)"
+msgstr "在世界空间求解（默认，与原版一致）"
+
+#: __init__.py:745
+msgid "Start Influence"
+msgstr "起始影响"
+
+#: __init__.py:707
+msgid "Start influence"
+msgstr "起始影响"
+
+#: __init__.py:718
+#: __init__.py:789
+msgid "Step"
+msgstr "步长"
+
+#: __init__.py:793
+msgid "Target Child"
+msgstr "目标子级"
+
+#: __init__.py:802
+msgid "Target Space"
+msgstr "目标空间"
+
+#: __init__.py:709
+msgid "Target child"
+msgstr "目标子级"
+
+#: __init__.py:710
+msgid "Target space"
+msgstr "目标空间"
+
+#: __init__.py:796
+msgid "Target the first child bone (default)"
+msgstr "以第一个子骨骼为目标（默认）"
+
+#: __init__.py:797
+msgid "Target the last child bone, for chains needing special control"
+msgstr "以最后一个子骨骼为目标，适用于需要特殊控制的骨骼链"
+
+#: __init__.py:811
+msgid "Update Existing Add-on Constraints"
+msgstr "更新现有插件约束"
+
+#: __init__.py:711
+msgid "Update existing add-on constraints"
+msgstr "更新现有插件约束"
+
+#: __init__.py:765
+msgid "Use the same influence value for all bones"
+msgstr "所有骨骼使用相同的影响值"
+
+#: __init__.py:749
+msgid "When enabled, root bones without parents (anchor bones such as the head or torso) get no constraint; only their descendant chains are processed."
+msgstr "启用后，没有父级的根骨骼（如头部或躯干等锚点骨骼）不会添加约束；仅处理其后代骨骼链。"
+
+#: __init__.py:811
+msgid "When re-running Batch Add, update constraints the add-on already created to the current parameters. On = full refresh; off = keep existing constraints, only add to bones without them."
+msgstr "重新运行批量添加时，将插件已创建的约束更新为当前参数。开启 = 完全刷新；关闭 = 保留现有约束，仅为没有约束的骨骼添加。"
+
+#: __init__.py:805
+msgid "World"
+msgstr "世界"
+
+#: __init__.py:216
+msgctxt "Operator"
+msgid "Add Damped Track constraints to the matched bones, with gradient influence support"
+msgstr "为匹配的骨骼添加阻尼跟踪约束，支持渐变影响"
+
+#: __init__.py:215
+msgctxt "Operator"
+msgid "Batch Add Damped Track Constraints"
+msgstr "批量添加阻尼跟踪约束"
+
+#: __init__.py:629
+msgctxt "Operator"
+msgid "Clear Damped Track Constraints in Selected Chain"
+msgstr "清除所选骨骼链中的阻尼跟踪约束"
+
+#: __init__.py:469
+msgctxt "Operator"
+msgid "Click a bone in the viewport to add its name to the include/exclude field"
+msgstr "在视图中点击骨骼，将其名称添加到包含/排除字段"
+
+#: __init__.py:468
+msgctxt "Operator"
+msgid "Pick Bone (Eyedropper)"
+msgstr "拾取骨骼（吸管）"
+
+#: __init__.py:334
+#: __init__.py:724
+msgctxt "Operator"
+msgid "Preview Matched Bones"
+msgstr "预览匹配的骨骼"
+
+#: __init__.py:630
+msgctxt "Operator"
+msgid "Remove the add-on's Damped Track constraints from the selected bones and their descendants"
+msgstr "从所选骨骼及其后代中移除插件的阻尼跟踪约束"
+
+#: __init__.py:335
+msgctxt "Operator"
+msgid "Select (highlight) the bones the current settings would affect, without modifying anything"
+msgstr "选择（高亮）当前设置会影响的骨骼，不进行任何修改"
+
+#: __init__.py:725
+msgctxt "Operator"
+msgid "▶ Batch Add"
+msgstr "▶ 批量添加"
+
+#: __init__.py:726
+msgctxt "Operator"
+msgid "✖ Clear Selected Chain"
+msgstr "✖ 清除所选骨骼链"

@@ -1,0 +1,308 @@
+# perfect-chinese: 1
+# id: plateline_light
+# kind: addon
+# module: bl_ext.blender_org.plateline_light
+# name: Plateline Light
+# name_zh: 图板相机助手
+# translator: KeshiMiao
+# category: Camera
+# supported_versions: >=4.5.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: plateline_light/core.py:555
+msgid "# runs become the shot number, @ runs the sequence. e.g. @@@@_#### gives 0010_0010, 0010_0020, then 0020_0010"
+msgstr "# 连续段成为镜头编号，@ 连续段成为序列编号。例如 @@@@_#### 得到 0010_0010、0010_0020，然后 0020_0010"
+
+#: plateline_light/core.py:505
+msgid "Always use the value below"
+msgstr "始终使用下方数值"
+
+#: plateline_light/core.py:473
+msgid "Append"
+msgstr "追加"
+
+#: plateline_light/core.py:518
+msgid "Back"
+msgstr "后方"
+
+#: plateline_light/core.py:484
+msgid "Blank frames left between one clip and the next, for handles"
+msgstr "片段之间留出的空白帧，用作余量"
+
+#: plateline_light/ui.py:104
+msgid "Camera"
+msgstr "摄像机"
+
+#: plateline_light/ui.py:79
+msgid "Cameras will be named"
+msgstr "摄像机将命名为"
+
+#: plateline_light/core.py:548
+msgid "Collection"
+msgstr "集合"
+
+#: plateline_light/core.py:474
+msgid "Cursor"
+msgstr "游标"
+
+#: plateline_light/core.py:514
+msgid "Depth"
+msgstr "深度"
+
+#: plateline_light/core.py:518
+msgid "Draw the plate behind the scene"
+msgstr "在场景后方绘制素材板"
+
+#: plateline_light/core.py:517
+msgid "Draw the plate in front of the scene"
+msgstr "在场景前方绘制素材板"
+
+#: plateline_light/core.py:911
+msgid "Drop plates to build cameras"
+msgstr "拖入素材板以创建摄像机"
+
+#: plateline_light/ui.py:108
+msgid "Fallback"
+msgstr "备用值"
+
+#: plateline_light/core.py:525
+msgid "Filename"
+msgstr "文件名"
+
+#: plateline_light/core.py:532
+msgid "Find"
+msgstr "查找"
+
+#: plateline_light/core.py:494
+#: plateline_light/core.py:500
+msgid "Focal Length"
+msgstr "焦距"
+
+#: plateline_light/core.py:494
+msgid "Focal length to use when the plate carries no lens data, or when Lens is set to Manual"
+msgstr "当素材板不带镜头数据，或镜头设置为手动时使用的焦距"
+
+#: plateline_light/core.py:478
+msgid "Frame the first clip starts on. Used by Manual placement, and as the starting point when the timeline is empty"
+msgstr "第一个片段开始的帧。用于手动放置，并在时间线为空时作为起始点"
+
+#: plateline_light/core.py:504
+msgid "From Metadata"
+msgstr "从元数据"
+
+#: plateline_light/core.py:517
+msgid "Front"
+msgstr "前方"
+
+#: plateline_light/core.py:484
+msgid "Gap"
+msgstr "间隔"
+
+#: plateline_light/core.py:489
+msgid "Height"
+msgstr "高度"
+
+#: plateline_light/core.py:489
+msgid "Height above the origin at which each camera is placed"
+msgstr "每台摄像机放置于原点上方的高度"
+
+#: plateline_light/core.py:521
+msgid "How each camera's name is derived from its plate"
+msgstr "每台摄像机的名称如何由其素材板得出"
+
+#: plateline_light/core.py:509
+msgid "How strongly the background plate is drawn in the viewport"
+msgstr "背景素材板在视图中的绘制强度"
+
+#: plateline_light/ui.py:49
+msgid "Import"
+msgstr "导入"
+
+#: plateline_light/core.py:576
+msgid "Increment between sequences, for the @ token"
+msgstr "序列之间的增量，用于 @ 标记"
+
+#: plateline_light/core.py:566
+msgid "Increment between shots. 10 is the film convention, leaving room for inserts"
+msgstr "镜头之间的增量。10 是影视惯例，为插入镜头留出空间"
+
+#: plateline_light/core.py:542
+msgid "Into a Collection"
+msgstr "放入集合"
+
+#: plateline_light/ui.py:107
+msgid "Lens"
+msgstr "镜头"
+
+#: plateline_light/ui.py:108
+msgid "METADATA"
+msgstr "元数据"
+
+#: plateline_light/core.py:472
+#: plateline_light/core.py:505
+msgid "Manual"
+msgstr "手动"
+
+#: plateline_light/core.py:521
+msgid "Mode"
+msgstr "模式"
+
+#: plateline_light/core.py:548
+msgid "Name of the collection to put the cameras in. An existing one with this name is reused, so importing twice does not split the shots across two collections"
+msgstr "用于放置摄像机的集合名称。若已存在同名集合则复用，因此导入两次不会把镜头拆分到两个集合中"
+
+#: plateline_light/core.py:850
+msgid "Nothing importable found."
+msgstr "未找到可导入的内容。"
+
+#: plateline_light/core.py:571
+msgid "Number given to the first sequence, for the @ token"
+msgstr "第一个序列的编号，用于 @ 标记"
+
+#: plateline_light/core.py:561
+msgid "Number given to the first shot"
+msgstr "第一个镜头的编号"
+
+#: plateline_light/core.py:527
+msgid "Numbered pattern: # runs become the shot number, @ runs the sequence"
+msgstr "编号模式：# 连续段成为镜头编号，@ 连续段成为序列编号"
+
+#: plateline_light/core.py:509
+msgid "Opacity"
+msgstr "不透明度"
+
+#: plateline_light/core.py:527
+#: plateline_light/core.py:555
+msgid "Pattern"
+msgstr "命名模式"
+
+#: plateline_light/core.py:468
+msgid "Placement"
+msgstr "放置"
+
+#: plateline_light/ui.py:38
+#: plateline_light/ui.py:42
+msgid "Plateline"
+msgstr "Plateline"
+
+#: plateline_light/core.py:542
+msgid "Put the new cameras in their own collection, so the whole shot list can be selected or hidden in one click"
+msgstr "将新摄像机放入独立集合，以便一键选中或隐藏整个镜头列表"
+
+#: plateline_light/core.py:504
+msgid "Read the lens from the plate when it carries one, otherwise use the value below"
+msgstr "当素材板带有镜头数据时从中读取焦距，否则使用下方数值"
+
+#: plateline_light/core.py:526
+#: plateline_light/core.py:537
+msgid "Replace"
+msgstr "替换"
+
+#: plateline_light/core.py:526
+msgid "Search and replace within the file name"
+msgstr "在文件名中搜索并替换"
+
+#: plateline_light/core.py:571
+msgid "Seq Start"
+msgstr "序列起始"
+
+#: plateline_light/core.py:576
+msgid "Seq Step"
+msgstr "序列步长"
+
+#: plateline_light/ui.py:72
+msgid "Sequence numbering"
+msgstr "序列编号"
+
+#: plateline_light/ui.py:66
+msgid "Shot numbering"
+msgstr "镜头编号"
+
+#: plateline_light/core.py:561
+#: plateline_light/ui.py:68
+msgid "Start"
+msgstr "起始"
+
+#: plateline_light/core.py:478
+msgid "Start Frame"
+msgstr "起始帧"
+
+#: plateline_light/core.py:473
+msgid "Start after the last existing clip"
+msgstr "从最后一个现有片段之后开始"
+
+#: plateline_light/core.py:474
+msgid "Start at the playhead"
+msgstr "从播放头开始"
+
+#: plateline_light/core.py:472
+msgid "Start strictly at the frame set below"
+msgstr "严格从下方设定的帧开始"
+
+#: plateline_light/core.py:566
+#: plateline_light/ui.py:69
+msgid "Step"
+msgstr "步长"
+
+#: plateline_light/core.py:532
+msgid "Text to look for in the file name, for Replace naming"
+msgstr "在文件名中查找的文本，用于替换命名"
+
+#: plateline_light/core.py:537
+msgid "Text to put in its place. Leave empty to strip the Find text out"
+msgstr "用于替换的文本。留空则删除查找的文本"
+
+#: plateline_light/ui.py:122
+msgid "Tools"
+msgstr "工具"
+
+#: plateline_light/core.py:525
+msgid "Use the file name as-is, minus the frame number"
+msgstr "直接使用文件名，去掉帧号"
+
+#: plateline_light/core.py:500
+msgid "Where each camera's focal length comes from"
+msgstr "各相机的焦距来源"
+
+#: plateline_light/core.py:468
+msgid "Where new clips start on the timeline"
+msgstr "新片段在时间线上的起始位置"
+
+#: plateline_light/core.py:514
+msgid "Whether the plate draws over the scene or behind it"
+msgstr "底板绘制在场景之上还是之下"
+
+#: plateline_light/ui.py:94
+msgctxt "Operator"
+msgid "Files"
+msgstr "文件"
+
+#: plateline_light/core.py:857
+msgctxt "Operator"
+msgid "Import"
+msgstr "导入"
+
+#: plateline_light/ui.py:94
+msgctxt "Operator"
+msgid "Import Files"
+msgstr "导入文件"
+
+#: plateline_light/core.py:858
+msgctxt "Operator"
+msgid "Import selected plates. Frames of one sequence become a single camera"
+msgstr "导入所选底板。同一序列的帧合并为单个相机"
+
+#: plateline_light/core.py:923
+msgctxt "Operator"
+msgid "Re-stack the selected cameras on the timeline in name order, starting at the frame above. Their markers and plate offsets move with them"
+msgstr "按名称顺序将所选相机重新堆叠到时间线上，从上一帧开始。其标记和底板偏移随之移动"
+
+#: plateline_light/core.py:922
+#: plateline_light/ui.py:124
+msgctxt "Operator"
+msgid "Reorder Selected"
+msgstr "重排所选"

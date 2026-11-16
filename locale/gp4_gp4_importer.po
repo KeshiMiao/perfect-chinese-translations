@@ -1,0 +1,164 @@
+# perfect-chinese: 1
+# id: gp4_gp4_importer
+# kind: addon
+# module: bl_ext.blender_org.gp4_gp4_importer
+# name: Grand Prix 4 Multi Importer
+# name_zh: 大奖赛多导入
+# translator: KeshiMiao
+# category: Import-Export
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: gp4_gp4_importer/__init__.py:49
+msgid "Backface Culling"
+msgstr "背面剔除"
+
+#: gp4_gp4_importer/__init__.py:66
+msgid "Boundaries"
+msgstr "边界"
+
+#: gp4_gp4_importer/__init__.py:63
+msgid "Centreline (Curve)"
+msgstr "中心线（曲线）"
+
+#: gp4_gp4_importer/__init__.py:55
+msgid "Create the SUN light stored in track meshes"
+msgstr "创建赛道网格中存储的 SUN 灯光"
+
+#: gp4_gp4_importer/__init__.py:69
+msgid "Create the trackside TV cameras stored in the track data"
+msgstr "创建赛道数据中存储的赛道旁电视摄像机"
+
+#: gp4_gp4_importer/__init__.py:58
+msgid "Crowd Camera Flashes"
+msgstr "观众相机闪光"
+
+#: gp4_gp4_importer/__init__.py:40
+msgid "Do not import REFLECT* and SHADOW* objects (in-game helper geometry)"
+msgstr "不导入 REFLECT* 和 SHADOW* 物体（游戏内辅助几何体）"
+
+#: gp4_gp4_importer/__init__.py:37
+msgid "Embed the extracted textures in the .blend file"
+msgstr "将提取的纹理嵌入 .blend 文件"
+
+#: gp4_gp4_importer/__init__.py:49
+msgid "Enable backface culling on materials that are not two-sided"
+msgstr "在非双面材质上启用背面剔除"
+
+#: gp4_gp4_importer/__init__.py:24
+msgid "Extract .tex textures (DDS) from the WAD / folder and assign them"
+msgstr "从 WAD / 文件夹提取 .tex 纹理（DDS）并赋予"
+
+#: gp4_gp4_importer/dat_importer.py:148
+msgid "FLOAT"
+msgstr "浮点"
+
+#: gp4_gp4_importer/dat_importer.py:148
+msgid "INT"
+msgstr "整数"
+
+#: gp4_gp4_importer/__init__.py:55
+msgid "Import Lights"
+msgstr "导入灯光"
+
+#: gp4_gp4_importer/__init__.py:58
+msgid "Import the spectator camera flash positions (.cfp) of a track as small emissive quads facing the track"
+msgstr "将赛道的观众相机闪光位置（.cfp）导入为面向赛道的小型自发光四边形"
+
+#: gp4_gp4_importer/__init__.py:46
+msgid "Import vertex colors (only if they are not plain white)"
+msgstr "导入顶点颜色（仅当不是纯白色时）"
+
+#: gp4_gp4_importer/__init__.py:65
+msgid "Kerbs"
+msgstr "路缘"
+
+#: gp4_gp4_importer/__init__.py:24
+msgid "Load Textures"
+msgstr "加载纹理"
+
+#: gp4_gp4_importer/__init__.py:30
+msgid "Next to File (<name>_textures)"
+msgstr "文件旁边（<name>_textures）"
+
+#: gp4_gp4_importer/__init__.py:148
+msgid "No file selected"
+msgstr "未选择文件"
+
+#: gp4_gp4_importer/__init__.py:43
+msgid "Normals from File"
+msgstr "从文件读取法线"
+
+#: gp4_gp4_importer/__init__.py:52
+msgid "Origin per Object"
+msgstr "每个物体独立原点"
+
+#: gp4_gp4_importer/__init__.py:37
+msgid "Pack Images into .blend"
+msgstr "将图像打包进 .blend"
+
+#: gp4_gp4_importer/__init__.py:67
+msgid "Pit Lane"
+msgstr "维修区"
+
+#: gp4_gp4_importer/__init__.py:52
+msgid "Place each object's origin at its GP4 position instead of the world origin"
+msgstr "将每个物体的原点放在其 GP4 位置，而非世界原点"
+
+#: gp4_gp4_importer/__init__.py:32
+msgid "Save extracted textures in Blender's temporary folder; it is deleted when Blender closes, so enable 'Pack Images into .blend' to keep them in a saved .blend"
+msgstr "将提取的纹理保存在 Blender 的临时文件夹中；Blender 关闭时该文件夹会被删除，因此请启用“将图像打包进 .blend”以将其保留在已保存的 .blend 中"
+
+#: gp4_gp4_importer/__init__.py:30
+msgid "Save extracted textures in a new folder '<name>_textures' next to the imported file"
+msgstr "将提取的纹理保存在导入文件旁边的新文件夹“<name>_textures”中"
+
+#: gp4_gp4_importer/__init__.py:138
+msgid "Settings: Preferences > Add-ons > Grand Prix 4 Multi Importer"
+msgstr "设置：偏好设置 > 插件 > Grand Prix 4 Multi Importer"
+
+#: gp4_gp4_importer/__init__.py:40
+msgid "Skip Reflection/Shadow Geometry"
+msgstr "跳过反射/阴影几何体"
+
+#: gp4_gp4_importer/__init__.py:68
+msgid "Start Position (Empty)"
+msgstr "起始位置（空物体）"
+
+#: gp4_gp4_importer/__init__.py:69
+msgid "TV Cameras"
+msgstr "电视摄像机"
+
+#: gp4_gp4_importer/__init__.py:32
+msgid "Temporary Folder"
+msgstr "临时文件夹"
+
+#: gp4_gp4_importer/__init__.py:27
+msgid "Texture Folder"
+msgstr "纹理文件夹"
+
+#: gp4_gp4_importer/__init__.py:64
+msgid "Track Surface (Mesh)"
+msgstr "赛道表面（网格）"
+
+#: gp4_gp4_importer/__init__.py:43
+msgid "Use the vertex normals stored in the .gp4 as custom split normals"
+msgstr "使用 .gp4 中存储的顶点法线作为自定义拆分法线"
+
+#: gp4_gp4_importer/__init__.py:46
+msgid "Vertex Colors"
+msgstr "顶点颜色"
+
+#: gp4_gp4_importer/__init__.py:206
+msgctxt "Operator"
+msgid "Grand Prix 4 (*.dat, *.gp4, *.wad)"
+msgstr "Grand Prix 4 (*.dat, *.gp4, *.wad)"
+
+#: gp4_gp4_importer/__init__.py:128
+msgctxt "Operator"
+msgid "Import GP4"
+msgstr "导入 GP4"

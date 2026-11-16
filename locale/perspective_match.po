@@ -1,0 +1,352 @@
+# perfect-chinese: 1
+# id: perspective_match
+# kind: addon
+# module: bl_ext.blender_org.perspective_match
+# name: Perspective Match
+# name_zh: 透视匹配
+# translator: KeshiMiao
+# category: Camera
+# supported_versions: >=5.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: ui.py:214
+#: ui.py:215
+msgid ","
+msgstr ","
+
+#: interact.py:732
+msgid "/"
+msgstr "/"
+
+#: props.py:161
+msgid "1 Point"
+msgstr "1 点"
+
+#: props.py:152
+msgid "2 Points"
+msgstr "2 点"
+
+#: props.py:158
+msgid "3 Points"
+msgstr "3 点"
+
+#: ops.py:277
+msgid "An axis needs at least two lines"
+msgstr "轴至少需要两条线"
+
+#: props.py:104
+#: props.py:164
+msgid "Axis"
+msgstr "轴"
+
+#: props.py:164
+msgid "Axis of the lines (1 Point); first axis of 2 Points"
+msgstr "线条所在的轴（1 点）；2 点的第一个轴"
+
+#: props.py:104
+msgid "Axis the known length goes along from the origin"
+msgstr "已知长度从原点沿其延伸的轴"
+
+#: props.py:146
+msgid "Camera"
+msgstr "相机"
+
+#: ui.py:194
+msgid "Camera Info"
+msgstr "相机信息"
+
+#: props.py:146
+msgid "Camera to match to its photo (its background image). Picking it starts Perspective Match for it and looks through it; clear it to switch off"
+msgstr "要匹配其照片（背景图）的相机。选中后为该相机启动透视匹配并透过它查看；清除则关闭"
+
+#: props.py:168
+msgid "Directions"
+msgstr "方向"
+
+#: ui.py:222
+msgid "Display"
+msgstr "显示"
+
+#: props.py:171
+msgid "Drag the principal point (the lens shift) in Edit Perspective, like the other points (not in 3 Points: there it is computed)"
+msgstr "在编辑透视时像其他点一样拖动主点（镜头偏移）（3 点模式下不可用：那里由计算得出）"
+
+#: props.py:171
+msgid "Edit Principal Point"
+msgstr "编辑主点"
+
+#: props.py:73
+msgid "End"
+msgstr "终点"
+
+#: ui.py:133
+msgid "Extra Lines"
+msgstr "额外线条"
+
+#: props.py:177
+msgid "Horizon"
+msgstr "地平线"
+
+#: props.py:106
+msgid "Length"
+msgstr "长度"
+
+#: props.py:175
+#: ui.py:89
+msgid "Lines"
+msgstr "线条"
+
+#: props.py:28
+msgid "Lines parallel to the world X axis"
+msgstr "平行于世界 X 轴的线"
+
+#: props.py:29
+msgid "Lines parallel to the world Y axis"
+msgstr "平行于世界 Y 轴的线"
+
+#: props.py:30
+msgid "Lines parallel to the world Z axis (vertical)"
+msgstr "平行于世界 Z 轴（垂直）的线"
+
+#: ui.py:214
+msgid "Location:"
+msgstr "位置："
+
+#: props.py:150
+msgid "Mode"
+msgstr "模式"
+
+#: ui.py:72
+msgid "No background image on this camera"
+msgstr "此相机没有背景图"
+
+#: props.py:155
+msgid "No tilt or roll (rotation X 90°, Y 0°): vertical lines stay vertical; uses the X and Y lines"
+msgstr "无倾斜或滚转（X 旋转 90°，Y 0°）：垂直线保持垂直；使用 X 和 Y 线"
+
+#: props.py:43
+msgid "One horizontal direction (X) and the verticals"
+msgstr "一个水平方向（X）和垂直线"
+
+#: props.py:44
+msgid "One horizontal direction (Y) and the verticals"
+msgstr "一个水平方向（Y）和垂直线"
+
+#: props.py:161
+msgid "One vanishing point turns the camera; the focal length is kept, switching to this mode sets the shift to 0"
+msgstr "一个灭点会旋转相机；焦距保持不变，切换到此模式会将偏移设为 0"
+
+#: props.py:97
+msgid "Origin"
+msgstr "原点"
+
+#: props.py:155
+msgid "Parallel Verticals"
+msgstr "平行垂直线"
+
+#: ui.py:39
+msgid "Perspective"
+msgstr "透视"
+
+#: ui.py:43
+msgid "Perspective Match"
+msgstr "透视匹配"
+
+#: props.py:92
+msgid "Perspective Match has lines for this camera"
+msgstr "此相机有透视匹配的线条"
+
+#: interact.py:766
+msgid "Pick a camera in the Perspective panel first"
+msgstr "请先在透视面板中选择一个相机"
+
+#: ops.py:151
+msgid "Pick a photo file"
+msgstr "选择照片文件"
+
+#: props.py:106
+msgid "Real length from the world origin to the end of the axis (scene units); the camera moves closer or farther, the photo does not change"
+msgstr "从世界原点到轴末端的实际长度（场景单位）；相机会靠近或远离，照片不变"
+
+#: ops.py:114
+msgid "Relative Path"
+msgstr "相对路径"
+
+#: ui.py:215
+msgid "Rotation:"
+msgstr "旋转："
+
+#: props.py:99
+#: ui.py:166
+msgid "Scale"
+msgstr "缩放"
+
+#: props.py:111
+msgid "Scale End"
+msgstr "缩放终点"
+
+#: props.py:166
+msgid "Second Axis"
+msgstr "第二轴"
+
+#: props.py:166
+msgid "Second axis of 2 Points"
+msgstr "2 点的第二个轴"
+
+#: ops.py:114
+msgid "Select the file relative to the blend file"
+msgstr "选择相对于 blend 文件的文件"
+
+#: props.py:99
+msgid "Set the size of the scene by a known length from the world origin along an axis: drag the end of that axis at the origin to the end of something you know the size of"
+msgstr "通过从世界原点沿某一轴的已知长度来设定场景大小：将原点处该轴的端点拖到已知大小的物体末端"
+
+#: props.py:177
+msgid "Show the horizon (eye level) of the camera"
+msgstr "显示相机的地平线（视线高度）"
+
+#: props.py:175
+msgid "Show the perspective lines in the camera view"
+msgstr "在相机视图中显示透视线"
+
+#: ui.py:178
+msgid "Specify Scale"
+msgstr "指定缩放"
+
+#: props.py:72
+msgid "Start"
+msgstr "起点"
+
+#: props.py:116
+msgid "The known length goes along the negative axis"
+msgstr "已知长度沿负轴方向"
+
+#: props.py:114
+msgid "The length was set once (it is remembered)"
+msgstr "长度已设置过一次（会被记住）"
+
+#: ops.py:208
+msgid "The photo has no pixels"
+msgstr "照片没有像素"
+
+#: ops.py:165
+msgid "The photo has no pixels (cannot read it)"
+msgstr "照片没有像素（无法读取）"
+
+#: props.py:158
+msgid "Three vanishing points (X, Y and Z lines): the principal point (shift) is computed too"
+msgstr "三个灭点（X、Y 和 Z 线）：主点（偏移）也会被计算"
+
+#: props.py:42
+msgid "Two horizontal directions (floor, walls, the two sides of a building)"
+msgstr "两个水平方向（地板、墙壁、建筑的两侧）"
+
+#: props.py:152
+msgid "Two vanishing points give rotation and focal length; switching to this mode sets the shift to 0"
+msgstr "两个灭点可得出旋转和焦距；切换到此模式会将偏移设为 0"
+
+#: props.py:111
+msgid "Where the end of the known length is on the photo"
+msgstr "已知长度的末端在照片上的位置"
+
+#: props.py:97
+msgid "Where the world origin is on the photo"
+msgstr "世界原点在照片上的位置"
+
+#: props.py:168
+msgid "Which two directions the lines follow"
+msgstr "线条所沿的两个方向"
+
+#: props.py:28
+msgid "X"
+msgstr "X"
+
+#: props.py:42
+msgid "XY"
+msgstr "XY"
+
+#: props.py:43
+msgid "XZ"
+msgstr "XZ"
+
+#: props.py:29
+msgid "Y"
+msgstr "Y"
+
+#: props.py:44
+msgid "YZ"
+msgstr "YZ"
+
+#: props.py:30
+msgid "Z"
+msgstr "Z"
+
+#: ops.py:221
+msgctxt "Operator"
+msgid "Add Line"
+msgstr "添加线条"
+
+#: ops.py:414
+msgctxt "Operator"
+msgid "Detect Lines"
+msgstr "检测线条"
+
+#: interact.py:748
+#: ui.py:65
+msgctxt "Operator"
+msgid "Edit Perspective"
+msgstr "编辑透视"
+
+#: ui.py:84
+msgctxt "Operator"
+msgid "Other Photo…"
+msgstr "其他照片…"
+
+#: ops.py:468
+msgctxt "Operator"
+msgid "Rebuild Lines from Camera"
+msgstr "从相机重建线条"
+
+#: ops.py:263
+msgctxt "Operator"
+msgid "Remove Line"
+msgstr "移除线条"
+
+#: ops.py:335
+msgctxt "Operator"
+msgid "Reset Camera Position"
+msgstr "重置相机位置"
+
+#: ops.py:299
+msgctxt "Operator"
+msgid "Reset Shift"
+msgstr "重置偏移"
+
+#: ops.py:103
+msgctxt "Operator"
+msgid "Set Up from Photo"
+msgstr "从照片设置"
+
+#: ui.py:84
+msgctxt "Operator"
+msgid "Set Up from Photo…"
+msgstr "从照片设置…"
+
+#: ui.py:65
+msgctxt "Operator"
+msgid "Stop Editing"
+msgstr "停止编辑"
+
+#: ops.py:179
+msgctxt "Operator"
+msgid "Use Background Photo"
+msgstr "使用背景照片"
+
+#: ops.py:197
+msgctxt "Operator"
+msgid "Use Photo Size"
+msgstr "使用照片尺寸"

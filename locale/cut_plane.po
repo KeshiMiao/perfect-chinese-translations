@@ -1,0 +1,889 @@
+# perfect-chinese: 1
+# id: cut_plane
+# kind: addon
+# module: bl_ext.blender_org.cut_plane
+# name: Cut Plane
+# name_zh: 平面切割
+# translator: KeshiMiao
+# category: 3D View
+# supported_versions: >=4.5.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: state/preferences.py:278
+msgid "\"3D View Tool: Edit Mesh, Cut Plane\""
+msgstr "\"3D 视图工具：编辑网格，切割平面\""
+
+#: ui/tool.py:319
+msgid "..."
+msgstr "..."
+
+#: lib/constants.py:148
+msgid "3D Cursor"
+msgstr "3D 游标"
+
+#: state/properties.py:284
+msgid "4x4 rotation matrix flattened to 16 floats"
+msgstr "展平为 16 个浮点数的 4x4 旋转矩阵"
+
+#: state/properties.py:319
+msgid "ADD the new cut edge loop to the selection in the live preview / after cutting. Never deselects anything - your own selection always survives, and loops from successive cuts stay selected together (deselect to shed them; deselections made during the preview stick)"
+msgstr "在实时预览中/切割后将新的切割边循环添加到选择。从不会取消选择任何内容——你自己的选择始终保留，连续切割产生的循环会一起保持选中（取消选择即可移除它们；预览期间所做的取消选择会保留）"
+
+#: state/preferences.py:200
+msgid "Above this face count the destructive live preview is skipped (a per-mousemove re-bisect of a very dense mesh would stall the viewport); Execute Cut always works. Lower it on slow machines, raise it on fast ones"
+msgstr "超过此面数时将跳过破坏性实时预览（对非常密集的网格每次鼠标移动都重新二分会使视图卡顿）；执行切割始终有效。在慢速机器上降低此值，在快速机器上提高"
+
+#: state/properties.py:475
+msgid "Active Dial"
+msgstr "活动拨盘"
+
+#: state/properties.py:480
+msgid "Active Move Axis"
+msgstr "活动移动轴"
+
+#: ui/tool.py:54
+msgid "Affect"
+msgstr "影响"
+
+#: state/properties.py:449
+msgid "Align Rotation to Target"
+msgstr "将旋转对齐到目标"
+
+#: state/properties.py:213
+msgid "Align the gizmo to the plane's own rotation"
+msgstr "将小工具对齐到平面自身的旋转"
+
+#: state/properties.py:211
+msgid "Align the gizmo to world axes"
+msgstr "将小工具对齐到世界坐标轴"
+
+#: state/properties.py:449
+msgid "Align the plane's normal to the snapped surface normal"
+msgstr "将平面法线对齐到吸附到的表面法线"
+
+#: state/preferences.py:277
+msgid "All bindings incl. box select: Preferences > Keymap >"
+msgstr "所有绑定（包括框选）：偏好设置 > 键位映射 >"
+
+#: operators/cut.py:114
+msgid "Also cut at the plane mirrored across the object's local X axis"
+msgstr "也在沿物体局部 X 轴镜像的平面处切割"
+
+#: state/properties.py:354
+msgid "Also cut at the plane mirrored across the object's local X axis (like the Mirror modifier)"
+msgstr "也在沿物体局部 X 轴镜像的平面处切割（类似镜像修改器）"
+
+#: operators/cut.py:119
+msgid "Also cut at the plane mirrored across the object's local Y axis"
+msgstr "也在沿物体局部 Y 轴镜像的平面处切割"
+
+#: state/properties.py:361
+msgid "Also cut at the plane mirrored across the object's local Y axis (like the Mirror modifier)"
+msgstr "也在沿物体局部 Y 轴镜像的平面处切割（类似镜像修改器）"
+
+#: operators/cut.py:124
+msgid "Also cut at the plane mirrored across the object's local Z axis"
+msgstr "也在沿物体局部 Z 轴镜像的平面处切割"
+
+#: state/properties.py:368
+msgid "Also cut at the plane mirrored across the object's local Z axis (like the Mirror modifier)"
+msgstr "也在沿物体局部 Z 轴镜像的平面处切割（类似镜像修改器）"
+
+#: ui/tool.py:507
+msgid "Alt"
+msgstr "Alt"
+
+#: operators/cut.py:143
+#: operators/cut.py:146
+msgid "Anchor"
+msgstr "锚点"
+
+#: state/properties.py:439
+msgid "Angle Increment"
+msgstr "角度增量"
+
+#: state/properties.py:444
+msgid "Angle Increment (Precision)"
+msgstr "角度增量（精确）"
+
+#: state/properties.py:523
+msgid "Angle increment used for the snap tick marks (radians)"
+msgstr "用于吸附刻度标记的角度增量（弧度）"
+
+#: state/properties.py:439
+msgid "Angle step for rotation snapping"
+msgstr "旋转吸附的角度步长"
+
+#: state/properties.py:491
+msgid "Arc Axis"
+msgstr "圆弧轴"
+
+#: state/properties.py:485
+msgid "Arc Center"
+msgstr "圆弧中心"
+
+#: state/properties.py:507
+msgid "Arc Color"
+msgstr "圆弧颜色"
+
+#: state/properties.py:502
+msgid "Arc Current Angle"
+msgstr "圆弧当前角度"
+
+#: state/properties.py:513
+msgid "Arc Scale"
+msgstr "圆弧缩放"
+
+#: state/properties.py:497
+msgid "Arc Start Angle"
+msgstr "圆弧起始角度"
+
+#: state/properties.py:191
+msgid "Arrow and square handles: translate the plane"
+msgstr "箭头和方形控制柄：平移平面"
+
+#: operators/reset.py:147
+msgid "Axis Left Out"
+msgstr "排除的轴"
+
+#: state/properties.py:480
+msgid "Axis arrow currently being dragged (X, Y, Z, or empty)"
+msgstr "当前拖动的轴箭头（X、Y、Z 或空）"
+
+#: operators/move.py:143
+msgid "Axis for constrained movement (X, Y, or Z)"
+msgstr "约束移动的轴（X、Y 或 Z）"
+
+#: operators/move.py:372
+msgid "Axis normal to the movement plane (X, Y, Z) or empty for free move"
+msgstr "垂直于移动平面的轴（X、Y、Z），自由移动时为空"
+
+#: operators/scale.py:74
+msgid "Axis to lock (leave empty for uniform scale)"
+msgstr "要锁定的轴（留空以进行统一缩放）"
+
+#: operators/cut.py:259
+msgid "Bisect failed (see console for details)"
+msgstr "二分失败（详情见控制台）"
+
+#: lib/constants.py:141
+msgid "Bounding Box"
+msgstr "边界框"
+
+#: state/properties.py:193
+msgid "Box handles: scale the plane"
+msgstr "方形控制柄：缩放平面"
+
+#: operators/cut.py:109
+msgid "Cap the cut on the side you keep (with Clear Inner or Clear Outer)"
+msgstr "在你保留的一侧封盖切口（使用清除内侧或清除外侧）"
+
+#: state/properties.py:311
+msgid "Cap the cut on the side you keep with new faces. Works with Clear Inner or Clear Outer: with both sides kept there is no open edge to close"
+msgstr "用新面在你保留的一侧封盖切口。可与清除内侧或清除外侧配合使用：两侧都保留时没有可闭合的开放边"
+
+#: state/properties.py:258
+msgid "Center Offset"
+msgstr "中心偏移"
+
+#: state/properties.py:485
+msgid "Center point for rotation arc display"
+msgstr "旋转圆弧显示的中心点"
+
+#: lib/constants.py:148
+msgid "Centre and mirror around the 3D cursor"
+msgstr "围绕 3D 游标居中并镜像"
+
+#: lib/constants.py:141
+msgid "Centre and mirror around the mesh bounding-box centre - always on the geometry, whatever the origin is doing"
+msgstr "围绕网格边界框中心居中并镜像——始终基于几何体，不受原点影响"
+
+#: lib/constants.py:144
+msgid "Centre and mirror around the object origin - Mirror-modifier behaviour, and right when the origin IS the symmetry plane"
+msgstr "围绕物体原点居中并镜像——镜像修改器的行为，当原点本身就是对称平面时正合适"
+
+#: operators/cut.py:99
+#: state/properties.py:297
+msgid "Clear Inner"
+msgstr "清除内侧"
+
+#: operators/cut.py:104
+#: state/properties.py:304
+msgid "Clear Outer"
+msgstr "清除外侧"
+
+#: operators/move.py:143
+#: operators/move.py:372
+msgid "Constraint Axis"
+msgstr "约束轴"
+
+#: state/properties.py:206
+msgid "Coordinate space for the cut plane (independent of the scene's transform orientation)"
+msgstr "切割平面的坐标空间（独立于场景的变换方向）"
+
+#: ui/tool.py:507
+msgid "Ctrl"
+msgstr "Ctrl"
+
+#: state/properties.py:502
+msgid "Current angle for rotation arc"
+msgstr "旋转圆弧的当前角度"
+
+#: operators/cut.py:138
+msgid "Cursor"
+msgstr "游标"
+
+#: ui/tool.py:73
+msgid "Cut Options"
+msgstr "切割选项"
+
+#: ui/tool.py:97
+msgid "Cut Plane"
+msgstr "切割平面"
+
+#: ui/tool.py:31
+msgid "Cut Plane Snapping"
+msgstr "切割平面吸附"
+
+#: state/properties.py:334
+msgid "Cut only the selected geometry (like native Bisect); unselected geometry is never touched, cleared, or filled. Select BEFORE activating the tool (or before the current preview session): the preview keeps cutting the selection captured at its start. Nothing selected = nothing cut. Disables Select Cut Loop while on"
+msgstr "仅切割选中的几何体（类似原生二分）；未选中的几何体绝不会被触碰、清除或填充。在激活工具之前（或在当前预览会话之前）进行选择：预览会持续切割其开始时捕获的选择。未选择任何内容 = 不切割任何内容。开启时禁用选择切割边循环"
+
+#: operators/cut.py:152
+msgid "Cut only the selected geometry (native Bisect semantics); unselected geometry is never touched"
+msgstr "仅切割选中的几何体（原生二分语义）；未选中的几何体绝不会被触碰"
+
+#: state/preferences.py:191
+msgid "Debug Mode"
+msgstr "调试模式"
+
+#: operators/cut.py:267
+msgid "Degenerate plane normal"
+msgstr "平面法线退化"
+
+#: state/properties.py:195
+msgid "Dial handles: rotate the plane"
+msgstr "转盘控制柄：旋转平面"
+
+#: state/properties.py:419
+msgid "Edge"
+msgstr "边"
+
+#: state/properties.py:421
+msgid "Edge Center"
+msgstr "边中心"
+
+#: operators/reset.py:46
+msgid "Everything"
+msgstr "全部"
+
+#: state/properties.py:420
+msgid "Face"
+msgstr "面"
+
+#: state/properties.py:423
+msgid "Face Center"
+msgstr "面中心"
+
+#: operators/cut.py:109
+#: state/properties.py:311
+msgid "Fill"
+msgstr "填充"
+
+#: state/properties.py:444
+msgid "Finer angle step for rotation snapping (with Shift)"
+msgstr "旋转吸附的更精细角度步长（按住 Shift）"
+
+#: state/properties.py:258
+msgid "Free 3D movement offset"
+msgstr "自由 3D 移动偏移"
+
+#: state/properties.py:187
+msgid "Gizmo Mode"
+msgstr "控件模式"
+
+#: state/properties.py:211
+msgid "Global"
+msgstr "全局"
+
+#: state/properties.py:417
+msgid "Grid"
+msgstr "栅格"
+
+#: ui/tool.py:508
+msgid "Hyper"
+msgstr "超级"
+
+#: state/properties.py:416
+msgid "Increment"
+msgstr "增量"
+
+#: operators/move.py:378
+msgid "Is Plane Constraint"
+msgstr "平面约束"
+
+#: state/properties.py:561
+msgid "Last Mode"
+msgstr "上次模式"
+
+#: state/properties.py:555
+msgid "Last Orientation"
+msgstr "上次方向"
+
+#: state/properties.py:561
+msgid "Last known mode for change detection"
+msgstr "用于检测变化的上次已知模式"
+
+#: state/properties.py:555
+msgid "Last known orientation type for change detection"
+msgstr "用于检测变化的上次已知方向类型"
+
+#: state/preferences.py:200
+msgid "Live Preview Face Limit"
+msgstr "实时预览面数限制"
+
+#: state/properties.py:213
+msgid "Local"
+msgstr "局部"
+
+#: operators/reset.py:47
+msgid "Location"
+msgstr "位置"
+
+#: operators/reset.py:46
+msgid "Location, rotation, and scale"
+msgstr "位置、旋转和缩放"
+
+#: operators/cut.py:114
+#: state/properties.py:354
+msgid "Mirror X"
+msgstr "镜像 X"
+
+#: operators/cut.py:119
+#: state/properties.py:361
+msgid "Mirror Y"
+msgstr "镜像 Y"
+
+#: operators/cut.py:124
+#: state/properties.py:368
+msgid "Mirror Z"
+msgstr "镜像 Z"
+
+#: state/properties.py:191
+#: state/properties.py:430
+msgid "Move"
+msgstr "移动"
+
+#: operators/cut.py:170
+msgid "No valid plane to cut with"
+msgstr "没有可用于切割的有效平面"
+
+#: ui/tool.py:508
+msgid "OS"
+msgstr "物体空间"
+
+#: lib/constants.py:144
+msgid "Object Origin"
+msgstr "物体原点"
+
+#: state/properties.py:206
+msgid "Orientation"
+msgstr "方向"
+
+#: ui/gizmos.py:113
+msgid "Plane 3-Axis Gizmo"
+msgstr "平面三轴控件"
+
+#: operators/cut.py:93
+msgid "Plane Normal"
+msgstr "平面法线"
+
+#: operators/cut.py:89
+msgid "Plane Point"
+msgstr "平面点"
+
+#: state/properties.py:240
+msgid "Plane offset from the object origin along X"
+msgstr "平面沿 X 轴相对物体原点的偏移"
+
+#: state/properties.py:246
+msgid "Plane offset from the object origin along Y"
+msgstr "平面沿 Y 轴相对物体原点的偏移"
+
+#: state/properties.py:252
+msgid "Plane offset from the object origin along Z"
+msgstr "平面沿 Z 轴相对物体原点的偏移"
+
+#: operators/reset.py:47
+msgid "Plane position only (back to the mesh center)"
+msgstr "仅平面位置（返回网格中心）"
+
+#: operators/reset.py:48
+msgid "Plane rotation only (position is kept)"
+msgstr "仅平面旋转（保持位置）"
+
+#: operators/reset.py:49
+msgid "Plane scale only"
+msgstr "仅平面缩放"
+
+#: state/properties.py:507
+msgid "RGB color for rotation arc"
+msgstr "旋转弧的 RGB 颜色"
+
+#: operators/cut.py:99
+msgid "Remove geometry on the back side of the plane"
+msgstr "移除平面背面的几何体"
+
+#: state/properties.py:297
+msgid "Remove geometry on the back side of the plane (the side the normal points away from)"
+msgstr "移除平面背面的几何体（法线背离的一侧）"
+
+#: operators/cut.py:104
+msgid "Remove geometry on the front side of the plane"
+msgstr "移除平面正面的几何体"
+
+#: state/properties.py:304
+msgid "Remove geometry on the front side of the plane (the side the normal points toward)"
+msgstr "移除平面正面的几何体（法线朝向的一侧）"
+
+#: operators/reset.py:42
+msgid "Reset"
+msgstr "重置"
+
+#: state/properties.py:195
+#: state/properties.py:433
+msgid "Rotate"
+msgstr "旋转"
+
+#: operators/rotate.py:798
+msgid "Rotate Plane View"
+msgstr "旋转平面视图"
+
+#: operators/rotate.py:768
+msgid "Rotate Plane X"
+msgstr "旋转平面 X"
+
+#: operators/rotate.py:778
+msgid "Rotate Plane Y"
+msgstr "旋转平面 Y"
+
+#: operators/rotate.py:788
+msgid "Rotate Plane Z"
+msgstr "旋转平面 Z"
+
+#: operators/rotate.py:769
+msgid "Rotate the cut plane around the dial's X axis\nShift — precision, Ctrl — angle snap, or type an exact angle"
+msgstr "绕转盘 X 轴旋转切割平面\nShift — 精调，Ctrl — 角度吸附，或输入精确角度"
+
+#: operators/rotate.py:779
+msgid "Rotate the cut plane around the dial's Y axis\nShift — precision, Ctrl — angle snap, or type an exact angle"
+msgstr "绕转盘 Y 轴旋转切割平面\nShift — 精调，Ctrl — 角度吸附，或输入精确角度"
+
+#: operators/rotate.py:789
+msgid "Rotate the cut plane around the dial's Z axis\nShift — precision, Ctrl — angle snap, or type an exact angle"
+msgstr "绕转盘 Z 轴旋转切割平面\nShift — 精调，Ctrl — 角度吸附，或输入精确角度"
+
+#: operators/rotate.py:799
+msgid "Rotate the cut plane around the view axis (R)\nX/Y/Z — constrain to an axis, Shift — precision, Ctrl — angle snap, or type an angle"
+msgstr "绕视图轴旋转切割平面 (R)\nX/Y/Z — 约束到轴，Shift — 精调，Ctrl — 角度吸附，或输入角度"
+
+#: operators/reset.py:48
+msgid "Rotation"
+msgstr "旋转"
+
+#: state/properties.py:470
+msgid "Rotation Active"
+msgstr "旋转激活"
+
+#: ui/tool.py:61
+msgid "Rotation Increment"
+msgstr "旋转增量"
+
+#: state/properties.py:284
+msgid "Rotation Matrix"
+msgstr "旋转矩阵"
+
+#: state/properties.py:491
+msgid "Rotation axis for arc display"
+msgstr "弧形显示所用的旋转轴"
+
+#: operators/reset.py:49
+#: state/properties.py:193
+msgid "Scale"
+msgstr "缩放"
+
+#: state/properties.py:513
+msgid "Scale factor for arc radius (1.0 for axis dials, 1.2 for view dial)"
+msgstr "弧形半径的缩放系数（轴向转盘为 1.0，视图转盘为 1.2）"
+
+#: operators/cut.py:158
+#: state/properties.py:319
+msgid "Select Cut Loop"
+msgstr "选择切割循环边"
+
+#: operators/cut.py:152
+#: state/properties.py:334
+msgid "Selected Only"
+msgstr "仅选中项"
+
+#: operators/cut.py:269
+msgid "Selected Only: nothing selected to cut"
+msgstr "仅选中项：未选中任何可切割对象"
+
+#: ui/tool.py:81
+msgid "Selection"
+msgstr "选择"
+
+#: ui/tool.py:507
+msgid "Shift"
+msgstr "偏移"
+
+#: state/preferences.py:236
+msgid "Shortcuts unavailable in this session"
+msgstr "此会话中快捷键不可用"
+
+#: state/properties.py:222
+msgid "Show Gizmo Handles"
+msgstr "显示小工具手柄"
+
+#: state/properties.py:390
+msgid "Show Mirrored Planes"
+msgstr "显示镜像平面"
+
+#: state/properties.py:390
+msgid "Show gray ghost planes at the mirrored cut positions (display only - the mirrored cuts happen either way)"
+msgstr "在镜像切割位置显示灰色幽灵平面（仅显示 - 镜像切割无论如何都会执行）"
+
+#: state/properties.py:222
+msgid "Show the interactive move/rotate/scale handles. Turn off for a keyboard-driven workflow (G / R / S still transform the plane; the plane outline stays visible)"
+msgstr "显示交互式移动/旋转/缩放手柄。关闭以使用键盘驱动的工作流（G / R / S 仍可变换平面；平面轮廓保持可见）"
+
+#: ui/tool.py:98
+msgid "Slice the mesh with a positionable plane, previewing the cut live.\nMove, rotate or scale the plane, then press Enter to cut"
+msgstr "用可定位的平面切割网格，并实时预览切割效果。\n移动、旋转或缩放平面，然后按 Enter 执行切割"
+
+#: state/properties.py:406
+msgid "Snap"
+msgstr "吸附"
+
+#: state/properties.py:518
+msgid "Snap Active"
+msgstr "吸附活动项"
+
+#: state/properties.py:523
+msgid "Snap Increment"
+msgstr "吸附增量"
+
+#: state/properties.py:530
+msgid "Snap Marker Active"
+msgstr "吸附标记活动"
+
+#: state/properties.py:541
+msgid "Snap Marker Element"
+msgstr "吸附标记元素"
+
+#: state/properties.py:535
+msgid "Snap Marker Location"
+msgstr "吸附标记位置"
+
+#: state/properties.py:412
+#: ui/tool.py:40
+msgid "Snap Target"
+msgstr "吸附目标"
+
+#: state/properties.py:541
+msgid "Snap element type the marker represents (drives its shape)"
+msgstr "标记所代表的吸附元素类型（决定其形状）"
+
+#: state/properties.py:406
+msgid "Snap the cut plane to geometry / increments while dragging (Ctrl inverts). Independent of Blender's global snap toggle"
+msgstr "拖动时将切割平面吸附到几何体/增量（Ctrl 反向）。独立于 Blender 的全局吸附开关"
+
+#: state/properties.py:419
+msgid "Snap to edges"
+msgstr "吸附到边"
+
+#: state/properties.py:420
+msgid "Snap to faces"
+msgstr "吸附到面"
+
+#: state/properties.py:417
+msgid "Snap to grid"
+msgstr "吸附到栅格"
+
+#: state/properties.py:416
+msgid "Snap to increments"
+msgstr "吸附到增量"
+
+#: state/properties.py:421
+msgid "Snap to the middle of edges"
+msgstr "吸附到边中点"
+
+#: state/properties.py:423
+msgid "Snap to the middle of faces"
+msgstr "吸附到面中点"
+
+#: state/properties.py:418
+msgid "Snap to vertices"
+msgstr "吸附到顶点"
+
+#: state/properties.py:497
+msgid "Starting angle for rotation arc"
+msgstr "旋转弧的起始角度"
+
+#: ui/tool.py:342
+msgid "Targets"
+msgstr "目标"
+
+#: operators/reset.py:147
+msgid "The axis the plane leaves out - its normal"
+msgstr "平面省略的轴 - 即其法线"
+
+#: state/properties.py:380
+msgid "The point a fresh plane centres on, and the point the mirrored cuts reflect through"
+msgstr "新平面居中的点，也是镜像切割的反射点"
+
+#: operators/cut.py:146
+msgid "The point the mirrored cuts reflect through"
+msgstr "镜像切割的反射点"
+
+#: operators/reset.py:153
+msgid "The world XY plane (facing Z)"
+msgstr "世界 XY 平面（朝向 Z）"
+
+#: operators/reset.py:152
+msgid "The world XZ plane (facing Y)"
+msgstr "世界 XZ 平面（朝向 Y）"
+
+#: operators/reset.py:151
+msgid "The world YZ plane (facing X)"
+msgstr "世界 YZ 平面（朝向 X）"
+
+#: operators/move.py:378
+msgid "True for 2D plane movement (squares), False for 1D axis movement (arrows)"
+msgstr "2D 平面移动（方块）为 True，1D 轴向移动（箭头）为 False"
+
+#: state/properties.py:430
+msgid "Use snapping when moving the plane"
+msgstr "移动平面时使用吸附"
+
+#: state/properties.py:433
+msgid "Use snapping when rotating the plane"
+msgstr "旋转平面时使用吸附"
+
+#: state/properties.py:436
+msgid "Use snapping when scaling the plane"
+msgstr "缩放平面时使用吸附"
+
+#: state/preferences.py:191
+msgid "Verbose logging, and internal errors raise loudly instead of being swallowed - turn on when reporting a bug (equivalent to the CUT_PLANE_DEBUG environment variable; some extra debug prints need an addon reload)"
+msgstr "详细日志，且内部错误会明确抛出而非被吞掉 - 报告 bug 时开启（等同于 CUT_PLANE_DEBUG 环境变量；部分额外调试输出需要重新加载插件）"
+
+#: state/properties.py:418
+msgid "Vertex"
+msgstr "顶点"
+
+#: state/properties.py:412
+msgid "What the cut plane snaps to"
+msgstr "切割平面吸附到什么"
+
+#: state/properties.py:470
+msgid "Whether a rotation operation is in progress"
+msgstr "是否正在进行旋转操作"
+
+#: state/properties.py:518
+msgid "Whether angle snapping is active during rotation"
+msgstr "旋转时是否启用角度吸附"
+
+#: state/properties.py:530
+msgid "Whether the geometry snap marker is visible"
+msgstr "几何体吸附标记是否可见"
+
+#: state/properties.py:475
+msgid "Which dial is currently being rotated (X, Y, Z, VIEW, TRACKBALL, or empty)"
+msgstr "当前正在旋转的转盘（X、Y、Z、VIEW、TRACKBALL 或空）"
+
+#: state/properties.py:187
+msgid "Which handle set the gizmo shows"
+msgstr "小工具显示哪组手柄"
+
+#: operators/reset.py:42
+msgid "Which plane channels to reset"
+msgstr "要重置的平面通道"
+
+#: state/preferences.py:224
+msgid "While a transform is running"
+msgstr "变换进行中时"
+
+#: state/properties.py:535
+msgid "World position of the geometry snap point"
+msgstr "几何体吸附点的世界位置"
+
+#: operators/cut.py:464
+#: ui/tool.py:311
+msgid "X"
+msgstr "X"
+
+#: state/properties.py:240
+msgid "X Offset"
+msgstr "X 偏移"
+
+#: state/properties.py:269
+msgid "X Scale"
+msgstr "X 缩放"
+
+#: state/properties.py:269
+msgid "X-axis scale"
+msgstr "X 轴缩放"
+
+#: operators/reset.py:153
+msgid "XY"
+msgstr "XY"
+
+#: operators/reset.py:152
+msgid "XZ"
+msgstr "XZ"
+
+#: operators/cut.py:465
+#: ui/tool.py:312
+msgid "Y"
+msgstr "Y"
+
+#: state/properties.py:246
+msgid "Y Offset"
+msgstr "Y 偏移"
+
+#: state/properties.py:273
+msgid "Y Scale"
+msgstr "Y 缩放"
+
+#: state/properties.py:273
+msgid "Y-axis scale"
+msgstr "Y 轴缩放"
+
+#: operators/reset.py:151
+msgid "YZ"
+msgstr "YZ"
+
+#: operators/cut.py:466
+#: ui/tool.py:313
+msgid "Z"
+msgstr "Z"
+
+#: state/properties.py:252
+msgid "Z Offset"
+msgstr "Z 偏移"
+
+#: state/properties.py:277
+msgid "Z Scale"
+msgstr "Z 缩放"
+
+#: state/properties.py:277
+msgid "Z-axis scale"
+msgstr "Z 轴缩放"
+
+#: ui/tool.py:657
+msgctxt "Operator"
+msgid "Activate the Cut Plane slice tool"
+msgstr "激活切割平面切片工具"
+
+#: operators/reset.py:142
+msgctxt "Operator"
+msgid "Align Plane"
+msgstr "对齐平面"
+
+#: ui/tool.py:323
+#: ui/tool.py:373
+msgctxt "Operator"
+msgid "Cut"
+msgstr "切割"
+
+#: operators/cut.py:63
+msgctxt "Operator"
+msgid "Cut Plane Cut"
+msgstr "切割平面切割"
+
+#: ui/tool.py:656
+msgctxt "Operator"
+msgid "Cut Plane Slice"
+msgstr "切割平面切片"
+
+#: operators/cut.py:64
+msgctxt "Operator"
+msgid "Cut the mesh along the gizmo plane (bisect)"
+msgstr "沿控件平面对网格进行切割（二分）"
+
+#: operators/rotate.py:828
+msgctxt "Operator"
+msgid "Free-rotate the cut plane by dragging (trackball)"
+msgstr "拖动自由旋转切割平面（轨迹球）"
+
+#: operators/move.py:129
+msgctxt "Operator"
+msgid "Move Plane Axis"
+msgstr "移动平面轴"
+
+#: operators/move.py:357
+msgctxt "Operator"
+msgid "Move Plane Center"
+msgstr "移动平面中心"
+
+#: operators/move.py:358
+msgctxt "Operator"
+msgid "Move the cut plane freely at its current depth (G)\nX/Y/Z — axis constraint, Shift — precision, Ctrl — snap, or type a distance"
+msgstr "在当前深度自由移动切割平面（G）\nX/Y/Z — 轴约束，Shift — 精确，Ctrl — 吸附，或输入距离"
+
+#: operators/undo.py:55
+msgctxt "Operator"
+msgid "Redo (Cut Plane)"
+msgstr "重做（切割平面）"
+
+#: operators/undo.py:56
+msgctxt "Operator"
+msgid "Redo the last undone change: plane moves when the timeline lines up, otherwise native redo"
+msgstr "重做上一次撤销的更改：时间线对齐时移动平面，否则使用原生重做"
+
+#: ui/tool.py:290
+#: ui/tool.py:372
+msgctxt "Operator"
+msgid "Reset"
+msgstr "重置"
+
+#: operators/reset.py:30
+msgctxt "Operator"
+msgid "Reset Plane"
+msgstr "重置平面"
+
+#: operators/scale.py:63
+msgctxt "Operator"
+msgid "Scale Plane"
+msgstr "缩放平面"
+
+#: operators/scale.py:64
+msgctxt "Operator"
+msgid "Scale the cut plane (S; corner handles scale per-axis)\nShift — precision, Ctrl — snap, or type an exact factor"
+msgstr "缩放切割平面（S；角控制柄按轴缩放）\nShift — 精确，Ctrl — 吸附，或输入精确系数"
+
+#: operators/move.py:130
+msgctxt "Operator"
+msgid "Slide the cut plane along this arrow's axis\nShift — precision, Ctrl — snap, or type an exact distance"
+msgstr "沿此箭头的轴滑动切割平面\nShift — 精确，Ctrl — 吸附，或输入精确距离"
+
+#: operators/rotate.py:827
+msgctxt "Operator"
+msgid "Trackball Rotate Plane"
+msgstr "轨迹球旋转平面"
+
+#: operators/undo.py:29
+msgctxt "Operator"
+msgid "Undo (Cut Plane)"
+msgstr "撤销（切割平面）"
+
+#: operators/undo.py:30
+msgctxt "Operator"
+msgid "Undo the newest change: plane moves first, then cuts and mesh edits (native undo)"
+msgstr "撤销最新更改：先移动平面，然后是切割和网格编辑（原生撤销）"

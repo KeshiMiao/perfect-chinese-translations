@@ -1,0 +1,422 @@
+# perfect-chinese: 1
+# id: plagalys_piano_midi_player
+# kind: addon
+# module: bl_ext.blender_org.plagalys_piano_midi_player
+# name: PLAGALYS Piano MIDI Player
+# name_zh: 钢琴键盘动画
+# translator: KeshiMiao
+# category: Animation
+# supported_versions: >=5.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:595
+msgid "(middle C)"
+msgstr "（中央 C）"
+
+#: __init__.py:595
+#: keyboard_tools.py:361
+msgid "="
+msgstr "="
+
+#: keyboard_tools.py:371
+msgid "Add a ready-to-animate piano keyboard: choose its size"
+msgstr "添加一个可直接用于动画的钢琴键盘：选择其尺寸"
+
+#: __init__.py:296
+msgid "Add this sound to the sequencer, aligned on the start frame"
+msgstr "将此声音添加到序列编辑器，并对齐到起始帧"
+
+#: __init__.py:119
+msgid "All tracks"
+msgstr "所有轨道"
+
+#: __init__.py:275
+msgid "Alternate the two colors from track to track"
+msgstr "在相邻轨道间交替使用两种颜色"
+
+#: __init__.py:268
+msgid "Amount"
+msgstr "数量"
+
+#: __init__.py:556
+msgid "Audio"
+msgstr "音频"
+
+#: __init__.py:296
+msgid "Audio File"
+msgstr "音频文件"
+
+#: __init__.py:279
+msgid "Blue right hand, green left hand"
+msgstr "蓝色右手，绿色左手"
+
+#: __init__.py:266
+msgid "Bounce and Settle"
+msgstr "弹跳并回稳"
+
+#: __init__.py:288
+msgid "Brightness of the glow"
+msgstr "辉光亮度"
+
+#: __init__.py:340
+msgid "Choose a keyboard first"
+msgstr "请先选择一个键盘"
+
+#: __init__.py:279
+msgid "Classic"
+msgstr "经典"
+
+#: __init__.py:272
+msgid "Color By"
+msgstr "颜色依据"
+
+#: __init__.py:283
+msgid "Custom"
+msgstr "自定义"
+
+#: __init__.py:281
+msgid "Cyan and magenta"
+msgstr "青色和品红色"
+
+#: __init__.py:258
+msgid "Distance the front of a key travels down to the key bed"
+msgstr "琴键前端向下移动到键盘底的距离"
+
+#: __init__.py:119
+msgid "Every track with notes"
+msgstr "所有含音符的轨道"
+
+#: __init__.py:286
+msgid "Fade Out (frames)"
+msgstr "淡出（帧）"
+
+#: keyboard_tools.py:232
+msgid "Find the lowest note from the number of keys and the black/white pattern (88 keys start on A0, 73 on E1, 61 on C2)"
+msgstr "根据琴键数量和黑白键排列推算最低音（88 键从 A0 开始，73 键从 E1，61 键从 C2）"
+
+#: __init__.py:292
+msgid "Fit Notes to Keyboard"
+msgstr "将音符适配到键盘"
+
+#: __init__.py:254
+msgid "Frame where the MIDI starts (the first note, if Skip Leading Silence is on)"
+msgstr "MIDI 起始帧（若启用「跳过前导静音」，则为第一个音符）"
+
+#: __init__.py:260
+msgid "Frames a key takes to go down on the loudest notes (velocity 127)"
+msgstr "最响音符（力度 127）按下琴键所需的帧数"
+
+#: __init__.py:262
+msgid "Frames a key takes to go down on the softest notes (velocity 1)"
+msgstr "最轻音符（力度 1）按下琴键所需的帧数"
+
+#: __init__.py:270
+#: __init__.py:588
+msgid "Glow on Press"
+msgstr "按下时发光"
+
+#: keyboard_tools.py:232
+msgid "Guess Lowest Note"
+msgstr "推测最低音"
+
+#: __init__.py:276
+msgid "Hand Split"
+msgstr "手部分割"
+
+#: __init__.py:286
+msgid "How long the color takes to fade out after the note ends. 0 = off at once; higher values leave a trail on fast passages"
+msgstr "音符结束后颜色淡出所需的时间。0 = 立即熄灭；数值越大，快速段落会留下拖尾"
+
+#: __init__.py:290
+msgid "How much the key surface itself takes the glow color (0 = light only, 1 = fully colored key)"
+msgstr "琴键表面本身染上辉光颜色的程度（0 = 仅发光，1 = 琴键完全着色）"
+
+#: __init__.py:256
+msgid "Ignore the silence before the first note. DAWs like Logic export a region at its position in the project, so a part at bar 30 would otherwise start a minute late"
+msgstr "忽略第一个音符之前的静音。Logic 等 DAW 会按工程中的位置导出片段，否则第 30 小节的段落会延迟一分钟才开始"
+
+#: __init__.py:573
+msgid "Key Motion"
+msgstr "琴键运动"
+
+#: __init__.py:290
+msgid "Key Tint"
+msgstr "琴键着色"
+
+#: keyboard_tools.py:189
+msgid "Key bed and cheeks"
+msgstr "键盘底板与侧板"
+
+#: __init__.py:250
+msgid "Keyboard"
+msgstr "键盘"
+
+#: keyboard_tools.py:187
+msgid "Keys"
+msgstr "琴键"
+
+#: keyboard_tools.py:237
+msgid "Keys rotate around their origin. Moves each origin to the back-bottom edge of the key (keyboard facing -Y, the player's side)"
+msgstr "琴键绕各自原点旋转。将每个原点移到琴键后下方边缘（键盘朝向 -Y，即演奏者一侧）"
+
+#: __init__.py:273
+msgid "Left / Right Hand"
+msgstr "左手 / 右手"
+
+#: __init__.py:285
+msgid "Left Hand"
+msgstr "左手"
+
+#: __init__.py:270
+msgid "Light up pressed keys, piano-tutorial style (adds a small emission setup to the key materials)"
+msgstr "点亮被按下的琴键，类似钢琴教学视频（为琴键材质添加小型自发光设置）"
+
+#: __init__.py:260
+msgid "Loud Note Press (frames)"
+msgstr "强音按下（帧）"
+
+#: keyboard_tools.py:235
+msgid "Lowest Note (MIDI)"
+msgstr "最低音（MIDI）"
+
+#: __init__.py:553
+msgid "MIDI"
+msgstr "MIDI"
+
+#: __init__.py:252
+msgid "MIDI File"
+msgstr "MIDI 文件"
+
+#: __init__.py:567
+msgid "MIDI Options"
+msgstr "MIDI 选项"
+
+#: keyboard_tools.py:235
+msgid "MIDI number of the leftmost key. 21 = A0, 28 = E1, 36 = C2, 60 = middle C"
+msgstr "最左侧琴键的 MIDI 编号。21 = A0，28 = E1，36 = C2，60 = 中央 C"
+
+#: __init__.py:282
+msgid "Monochrome"
+msgstr "单色"
+
+#: __init__.py:281
+msgid "Neon"
+msgstr "霓虹"
+
+#: __init__.py:543
+#: keyboard_tools.py:370
+msgid "New Keyboard"
+msgstr "新建键盘"
+
+#: __init__.py:280
+msgid "Night blue and copper, the PLAGALYS colors"
+msgstr "夜蓝与铜色，PLAGALYS 配色"
+
+#: __init__.py:314
+msgid "No playable keys under the active object: select its keys and use Make Playable"
+msgstr "活动物体下没有可演奏的琴键：选中其琴键并使用「设为可演奏」"
+
+#: __init__.py:583
+msgid "Note Range"
+msgstr "音符范围"
+
+#: __init__.py:276
+msgid "Notes below go to the left-hand color. 60 = C4, middle C (shown as C3 on some brands, e.g. Yamaha)"
+msgstr "低于此值的音符使用左手颜色。60 = C4，即中央 C（某些品牌如 Yamaha 显示为 C3）"
+
+#: __init__.py:274
+msgid "One color for every note"
+msgstr "所有音符使用同一种颜色"
+
+#: __init__.py:282
+msgid "One warm color"
+msgstr "单一暖色"
+
+#: __init__.py:280
+msgid "PLAGALYS"
+msgstr "PLAGALYS"
+
+#: __init__.py:528
+msgid "PLAGALYS MIDI"
+msgstr "PLAGALYS MIDI"
+
+#: keyboard_tools.py:379
+msgid "PLAGALYS Piano Keyboard"
+msgstr "PLAGALYS 钢琴键盘"
+
+#: __init__.py:278
+msgid "Palette"
+msgstr "调色板"
+
+#: __init__.py:250
+msgid "Parent object of the keys. Use New Keyboard, or Make Playable on your own model"
+msgstr "琴键的父级物体。使用「新建键盘」，或对自有模型使用「设为可演奏」"
+
+#: __init__.py:524
+msgid "Piano MIDI Player"
+msgstr "钢琴 MIDI 播放器"
+
+#: keyboard_tools.py:237
+msgid "Pivot at the Back of Each Key"
+msgstr "轴心位于每个琴键的后端"
+
+#: __init__.py:258
+msgid "Press Depth (mm)"
+msgstr "按下深度 (mm)"
+
+#: __init__.py:264
+msgid "Release (frames)"
+msgstr "松开 (帧)"
+
+#: __init__.py:284
+msgid "Right Hand / Main"
+msgstr "右手 / 主"
+
+#: keyboard_tools.py:257
+msgid "Select at least one octave of key objects (one object per key)"
+msgstr "至少选择一个八度的琴键物体（每个琴键一个物体）"
+
+#: __init__.py:294
+msgid "Shift every note up or down. 12 = one octave"
+msgstr "将所有音符上移或下移。12 = 一个八度"
+
+#: __init__.py:274
+msgid "Single Color"
+msgstr "单色"
+
+#: __init__.py:256
+msgid "Skip Leading Silence"
+msgstr "跳过开头静音"
+
+#: __init__.py:266
+msgid "Small changes of depth only, a millimetre at most: a slight bounce when the key lands, soft notes a little less deep, held keys rising slightly. Timing and notes are never changed, and the result is the same at every Regenerate"
+msgstr "仅在深度上做微小变化，最多一毫米：琴键落下时轻微回弹，轻音稍浅一些，保持的音符略微回升。时间与音符永不改变，每次重新生成的结果都相同"
+
+#: __init__.py:262
+msgid "Soft Note Press (frames)"
+msgstr "轻音按下 (帧)"
+
+#: __init__.py:273
+msgid "Split at the note below: left hand / right hand"
+msgstr "在下方音符处拆分：左手 / 右手"
+
+#: __init__.py:254
+msgid "Start Frame"
+msgstr "起始帧"
+
+#: __init__.py:288
+msgid "Strength"
+msgstr "强度"
+
+#: __init__.py:268
+msgid "Strength of Bounce and Settle. 1 = realistic, 2 = exaggerated"
+msgstr "回弹与稳定强度。1 = 真实，2 = 夸张"
+
+#: keyboard_tools.py:253
+msgid "Switch to Object Mode first"
+msgstr "请先切换到物体模式"
+
+#: keyboard_tools.py:276
+msgid "The black/white pattern of the selection does not look like a piano keyboard (one object per key, keyboard along X, black keys higher or shorter)"
+msgstr "选中的黑白分布看起来不像钢琴键盘（每个琴键一个物体，键盘沿 X 轴，黑键更高或更短）"
+
+#: __init__.py:264
+msgid "Time for the key spring to bring the key back up"
+msgstr "琴键弹簧使琴键回弹所需的时间"
+
+#: __init__.py:253
+#: __init__.py:275
+msgid "Track"
+msgstr "轨道"
+
+#: __init__.py:294
+msgid "Transpose (semitones)"
+msgstr "移调 (半音)"
+
+#: __init__.py:292
+msgid "Transpose notes outside the keyboard to the nearest octave instead of dropping them"
+msgstr "将键盘范围之外的音符移调至最近的八度，而不是丢弃"
+
+#: __init__.py:283
+msgid "Your own colors below"
+msgstr "下方自定义颜色"
+
+#: keyboard_tools.py:184
+msgctxt "Operator"
+msgid "Add a ready-to-animate piano keyboard (real key sizes, one object per key)"
+msgstr "添加可直接动画的钢琴键盘（真实琴键尺寸，每个琴键一个物体）"
+
+#: __init__.py:562
+msgctxt "Operator"
+msgid "Animate"
+msgstr "动画"
+
+#: __init__.py:322
+msgctxt "Operator"
+msgid "Animate Keyboard"
+msgstr "为键盘制作动画"
+
+#: __init__.py:472
+msgctxt "Operator"
+msgid "Clear Animation"
+msgstr "清除动画"
+
+#: __init__.py:507
+msgctxt "Operator"
+msgid "Fill in the demo MIDI file and its audio recording shipped with the add-on"
+msgstr "填入插件自带的演示 MIDI 文件及其音频录制"
+
+#: __init__.py:506
+msgctxt "Operator"
+msgid "Load Demo MIDI and Audio"
+msgstr "加载演示 MIDI 与音频"
+
+#: __init__.py:550
+msgctxt "Operator"
+msgid "Load the Demo"
+msgstr "加载演示"
+
+#: __init__.py:544
+#: keyboard_tools.py:225
+msgctxt "Operator"
+msgid "Make Playable"
+msgstr "设为可演奏"
+
+#: keyboard_tools.py:183
+msgctxt "Operator"
+msgid "PLAGALYS Piano Keyboard"
+msgstr "PLAGALYS 钢琴键盘"
+
+#: __init__.py:562
+msgctxt "Operator"
+msgid "Regenerate"
+msgstr "重新生成"
+
+#: __init__.py:473
+msgctxt "Operator"
+msgid "Remove the key animation and put every key back up"
+msgstr "移除琴键动画并将所有琴键复位"
+
+#: __init__.py:323
+msgctxt "Operator"
+msgid "Replace the key animation with the notes of the MIDI file"
+msgstr "用 MIDI 文件的音符替换琴键动画"
+
+#: keyboard_tools.py:226
+msgctxt "Operator"
+msgid "Turn the selected key objects of any piano model into a playable keyboard: sorts them left to right, tells black from white keys, assigns MIDI notes and moves each pivot to the back of its key. Linked duplicates and rotated imports (FBX, OBJ, glTF) are fixed on the way"
+msgstr "将任意钢琴模型的选中琴键物体转换为可演奏键盘：从左到右排序，区分黑键与白键，分配 MIDI 音符，并将每个轴心移到其琴键后端。链接副本和旋转过的导入（FBX、OBJ、glTF）会一并修正"
+
+#: __init__.py:306
+msgctxt "Operator"
+msgid "Use Selected"
+msgstr "使用选中项"
+
+#: __init__.py:307
+msgctxt "Operator"
+msgid "Use the active object (or its parent) as the keyboard"
+msgstr "使用活动物体（或其父级）作为键盘"

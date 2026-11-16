@@ -1,0 +1,181 @@
+# perfect-chinese: 1
+# id: io_lottie_export
+# kind: addon
+# module: bl_ext.blender_org.io_lottie_export
+# name: Lottie Export
+# name_zh: 矢量动画导出
+# translator: KeshiMiao
+# category: Import-Export
+# supported_versions: >=5.1.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:172
+msgid "All in View Layer"
+msgstr "视图图层中的全部"
+
+#: __init__.py:115
+msgid "Bake Animation"
+msgstr "烘焙动画"
+
+#: __init__.py:240
+msgid "Choose a collection to export."
+msgstr "选择要导出的集合。"
+
+#: __init__.py:176
+#: __init__.py:181
+msgid "Collection"
+msgstr "集合"
+
+#: __init__.py:163
+msgid "Collection name passed by Blender Collection export handler"
+msgstr "由 Blender 集合导出处理器传入的集合名称"
+
+#: __init__.py:181
+msgid "Collection to export from (includes nested children)"
+msgstr "要导出的集合（包含嵌套子级）"
+
+#: __init__.py:124
+msgid "Compare each stroke's path/fill/stroke/width against the previously exported key for that stroke and skip identical samples. Reduces file size but can increase export time on heavy scenes"
+msgstr "将每条笔画的路径/填充/描边/宽度与之前导出的该笔画关键帧比较，跳过完全相同的采样。可减小文件体积，但在复杂场景中可能增加导出时间"
+
+#: __init__.py:155
+msgid "Compressed DotLottie (.lottie)"
+msgstr "压缩的 DotLottie (.lottie)"
+
+#: __init__.py:155
+msgid "Compressed DotLottie - smaller file size"
+msgstr "压缩的 DotLottie - 文件更小"
+
+#: __init__.py:101
+msgid "Custom Frame Range"
+msgstr "自定义帧范围"
+
+#: __init__.py:106
+msgid "Decimal places for 2D coordinates"
+msgstr "2D 坐标的小数位数"
+
+#: __init__.py:99
+msgid "End"
+msgstr "结束"
+
+#: __init__.py:176
+msgid "Export Grease Pencil objects from a specific collection"
+msgstr "从指定集合导出蜡笔物体"
+
+#: __init__.py:30
+msgid "Export Grease Pencil objects to Lottie JSON, dotLottie, or TGS"
+msgstr "将蜡笔物体导出为 Lottie JSON、dotLottie 或 TGS"
+
+#: __init__.py:172
+msgid "Export all Grease Pencil objects in the active view layer"
+msgstr "导出活动视图图层中的所有蜡笔物体"
+
+#: __init__.py:174
+msgid "Export only selected Grease Pencil objects"
+msgstr "仅导出选中的蜡笔物体"
+
+#: __init__.py:106
+msgid "Float Precision"
+msgstr "浮点精度"
+
+#: __init__.py:149
+msgid "Format"
+msgstr "格式"
+
+#: __init__.py:30
+msgid "Grease Pencil Lottie Export"
+msgstr "蜡笔 Lottie 导出"
+
+#: __init__.py:30
+msgid "Import-Export"
+msgstr "导入-导出"
+
+#: __init__.py:303
+msgid "Lottie"
+msgstr "Lottie"
+
+#: __init__.py:153
+msgid "Lottie JSON (.json)"
+msgstr "Lottie JSON (.json)"
+
+#: __init__.py:153
+msgid "Lottie JSON (.json) - larger file size, human readable"
+msgstr "Lottie JSON (.json) - 文件较大，可读性强"
+
+#: __init__.py:157
+msgid "Lottie-based animation format used for animated stickers and emoji"
+msgstr "用于动画贴纸和表情的基于 Lottie 的动画格式"
+
+#: __init__.py:262
+msgid "No Grease Pencil objects found in selected collection (within active view layer)."
+msgstr "所选集合中（活动视图图层内）未找到蜡笔物体。"
+
+#: __init__.py:133
+msgid "Output Size Export Log"
+msgstr "输出大小导出日志"
+
+#: __init__.py:206
+msgid "Output options"
+msgstr "输出选项"
+
+#: __init__.py:140
+msgid "Pack Layers as Precomposition"
+msgstr "将图层打包为预合成"
+
+#: __init__.py:140
+msgid "Put all exported Grease Pencil layers into one Lottie precomposition asset; the root composition contains a single static precomposition layer. May be required by some Lottie players to display the animation correctly."
+msgstr "将所有导出的蜡笔图层放入一个 Lottie 预合成资源中；根合成仅包含一个静态预合成图层。某些 Lottie 播放器可能需要这样才能正确显示动画。"
+
+#: __init__.py:115
+msgid "Sample GP object transform every frame in the export range (Useful for animation with constraints, drivers, 360° rotation). Disables F-curve-based transform keys"
+msgstr "在导出范围内逐帧采样蜡笔物体变换（适用于带约束、驱动器、360° 旋转的动画）。禁用基于 F 曲线的变换关键帧"
+
+#: __init__.py:174
+msgid "Selected Only"
+msgstr "仅选中"
+
+#: __init__.py:124
+msgid "Skip Unchanged Stroke Keys"
+msgstr "跳过未变化的笔画关键帧"
+
+#: __init__.py:168
+msgid "Source"
+msgstr "来源"
+
+#: __init__.py:163
+msgid "Source Collection"
+msgstr "源集合"
+
+#: __init__.py:97
+msgid "Start"
+msgstr "开始"
+
+#: __init__.py:157
+msgid "Telegram TGS (.tgs)"
+msgstr "Telegram TGS (.tgs)"
+
+#: __init__.py:149
+msgid "The format of the exported file"
+msgstr "导出文件的格式"
+
+#: __init__.py:101
+msgid "Use custom start/end instead of scene frame range"
+msgstr "使用自定义开始/结束帧而非场景帧范围"
+
+#: __init__.py:168
+msgid "Which Grease Pencil objects to export"
+msgstr "要导出的蜡笔物体"
+
+#: __init__.py:133
+msgid "Write a separate .export.log.txt file with per-layer and per-frame metrics"
+msgstr "写入单独的 .export.log.txt 文件，包含各图层和各帧的指标"
+
+#: __init__.py:89
+#: __init__.py:313
+msgctxt "Operator"
+msgid "Grease Pencil to Lottie (vector)"
+msgstr "蜡笔转 Lottie（矢量）"

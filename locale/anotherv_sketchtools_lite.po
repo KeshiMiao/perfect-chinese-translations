@@ -1,0 +1,536 @@
+# perfect-chinese: 1
+# id: anotherv_sketchtools_lite
+# kind: addon
+# module: bl_ext.blender_org.anotherv_sketchtools_lite
+# name: Axonobox Lite
+# name_zh: 网格绘图精简版
+# translator: KeshiMiao
+# category: Mesh
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: anotherv_sketchtools_lite/ui.py:38
+msgid "After cutting, select the face(s) inside the shape (ready for E / I)"
+msgstr "切割后，选择形状内的面（可进行 E / I）"
+
+#: anotherv_sketchtools_lite/ui.py:46
+msgid "After each action the tool stays active for the next one. Esc or right-click drops what is being drawn; once more leaves the tool. Off: every tool ends after one action"
+msgstr "每次操作后工具保持激活以进行下一次。Esc 或右键放弃正在绘制的内容；再按一次退出工具。关闭：每个工具在一次操作后结束"
+
+#: anotherv_sketchtools_lite/ops_knife.py:89
+#: anotherv_sketchtools_lite/ui.py:41
+msgid "Align"
+msgstr "对齐"
+
+#: anotherv_sketchtools_lite/ui.py:13
+msgid "Align the shape to the longest edge of the face (good for walls/floors)"
+msgstr "将形状对齐到面的最长边（适合墙壁/地板）"
+
+#: anotherv_sketchtools_lite/ui.py:14
+msgid "Align the shape to the screen"
+msgstr "将形状对齐到屏幕"
+
+#: anotherv_sketchtools_lite/ui.py:72
+msgid "Also snap to the other visible meshes in the scene, the ones that are not being edited: point at a corner of another object to reference it (up to 400,000 vertices; switch off if a very big scene feels slow)"
+msgstr "也吸附到场景中其他可见网格（未被编辑的网格）：指向另一个物体的角点以作为参考（最多 400,000 个顶点；如果场景很大导致卡顿请关闭）"
+
+#: anotherv_sketchtools_lite/osnap.py:683
+msgid "Alt+G"
+msgstr "Alt+G"
+
+#: anotherv_sketchtools_lite/ui.py:160
+msgid "Alt+G move • Alt+R rotate (Ctrl = copy)"
+msgstr "Alt+G 移动 • Alt+R 旋转（Ctrl = 复制）"
+
+#: anotherv_sketchtools_lite/osnap.py:679
+msgid "Alt+K"
+msgstr "Alt+K"
+
+#: anotherv_sketchtools_lite/ui.py:154
+msgid "Alt+K shape • Alt+L line"
+msgstr "Alt+K 形状 • Alt+L 线"
+
+#: anotherv_sketchtools_lite/osnap.py:678
+msgid "Alt+L"
+msgstr "Alt+L"
+
+#: anotherv_sketchtools_lite/osnap.py:680
+msgid "Alt+P"
+msgstr "Alt+P"
+
+#: anotherv_sketchtools_lite/ui.py:156
+msgid "Alt+P push/pull • Alt+U box • Alt+C cylinder"
+msgstr "Alt+P 推/拉 • Alt+U 盒 • Alt+C 圆柱"
+
+#: anotherv_sketchtools_lite/osnap.py:684
+msgid "Alt+R"
+msgstr "Alt+R"
+
+#: anotherv_sketchtools_lite/osnap.py:682
+msgid "Alt+T"
+msgstr "Alt+T"
+
+#: anotherv_sketchtools_lite/ui.py:158
+msgid "Alt+T offset (I / Tab = individual faces)"
+msgstr "Alt+T 偏移（I / Tab = 各个面）"
+
+#: anotherv_sketchtools_lite/osnap.py:681
+msgid "Alt+U"
+msgstr "Alt+U"
+
+#: anotherv_sketchtools_lite/ui.py:68
+msgid "Any point on a face  (hold F)"
+msgstr "面上的任意点（按住 F）"
+
+#: anotherv_sketchtools_lite/ui.py:67
+msgid "Any point on an edge  (hold N)"
+msgstr "边上的任意点（按住 N）"
+
+#: anotherv_sketchtools_lite/osnap.py:696
+msgid "Axis"
+msgstr "轴"
+
+#: anotherv_sketchtools_lite/ui.py:70
+msgid "Axis Lines"
+msgstr "轴线"
+
+#: anotherv_sketchtools_lite/ui.py:63
+msgid "Axis line meets an edge, or aligns with two points  (hold I)"
+msgstr "轴线与边相交，或与两个点对齐（按住 I）"
+
+#: anotherv_sketchtools_lite/ui.py:79
+msgid "Bar in Edit Mode"
+msgstr "编辑模式中的栏"
+
+#: anotherv_sketchtools_lite/ui.py:42
+#: anotherv_sketchtools_lite/ui.py:219
+msgid "Box"
+msgstr "盒"
+
+#: anotherv_sketchtools_lite/osnap.py:681
+msgid "Box / Cylinder"
+msgstr "盒 / 圆柱"
+
+#: anotherv_sketchtools_lite/ui.py:42
+msgid "Box Shape"
+msgstr "盒形状"
+
+#: anotherv_sketchtools_lite/osnap.py:694
+msgid "Cen"
+msgstr "中心"
+
+#: anotherv_sketchtools_lite/ui.py:62
+msgid "Center"
+msgstr "中心"
+
+#: anotherv_sketchtools_lite/ui.py:10
+msgid "Circle"
+msgstr "圆"
+
+#: anotherv_sketchtools_lite/ui.py:29
+msgid "Circle Segments"
+msgstr "圆分段"
+
+#: anotherv_sketchtools_lite/ops_knife.py:417
+msgid "Circle has no radius — move the mouse first"
+msgstr "圆没有半径 — 请先移动鼠标"
+
+#: anotherv_sketchtools_lite/ui.py:10
+msgid "Click center, then a point on the rim"
+msgstr "点击中心，然后在圆周上点击一个点"
+
+#: anotherv_sketchtools_lite/ui.py:9
+msgid "Click first corner, then opposite corner"
+msgstr "点击第一个角，然后点击对角"
+
+#: anotherv_sketchtools_lite/ops_knife.py:373
+#: anotherv_sketchtools_lite/ops_line.py:197
+msgid "Click on a face of the mesh"
+msgstr "点击网格的一个面"
+
+#: anotherv_sketchtools_lite/ops_knife.py:79
+#: anotherv_sketchtools_lite/ui.py:30
+msgid "Cut Depth"
+msgstr "切割深度"
+
+#: anotherv_sketchtools_lite/ops_knife.py:84
+msgid "Cut Through (X-Ray)"
+msgstr "穿透切割（X 射线）"
+
+#: anotherv_sketchtools_lite/ops_knife.py:84
+msgid "Cut every face the shape passes through, front and back. Turned on automatically when the viewport is in X-Ray (Alt+Z)"
+msgstr "切割形状穿过的每个面，包括正面和背面。当视图处于 X 射线时自动开启（Alt+Z）"
+
+#: anotherv_sketchtools_lite/ui.py:42
+msgid "Cylinder"
+msgstr "圆柱"
+
+#: anotherv_sketchtools_lite/ui.py:61
+msgid "Edge midpoints  (hold M)"
+msgstr "边中点（按住 M）"
+
+#: anotherv_sketchtools_lite/ui.py:114
+msgid "Edit"
+msgstr "编辑"
+
+#: anotherv_sketchtools_lite/osnap.py:694
+msgid "End"
+msgstr "端点"
+
+#: anotherv_sketchtools_lite/ui.py:60
+msgid "Endpoint"
+msgstr "端点"
+
+#: anotherv_sketchtools_lite/osnap.py:695
+msgid "Face"
+msgstr "面"
+
+#: anotherv_sketchtools_lite/ui.py:13
+msgid "Face Edge"
+msgstr "面边"
+
+#: anotherv_sketchtools_lite/ui.py:62
+msgid "Face centers  (hold C)"
+msgstr "面中心（按住 C）"
+
+#: anotherv_sketchtools_lite/ui.py:65
+msgid "Foot of the perpendicular from the last point to an edge  (hold P)"
+msgstr "从上一个点到边的垂足（按住 P）"
+
+#: anotherv_sketchtools_lite/osnap.py:695
+#: anotherv_sketchtools_lite/ui.py:69
+msgid "Grid"
+msgstr "栅格"
+
+#: anotherv_sketchtools_lite/ui.py:57
+msgid "Grid Step"
+msgstr "栅格步长"
+
+#: anotherv_sketchtools_lite/ui.py:57
+msgid "Grid snap spacing (Grid toggle, or hold Ctrl)"
+msgstr "栅格吸附间距（栅格开关，或按住 Ctrl）"
+
+#: anotherv_sketchtools_lite/ui.py:30
+msgid "Half-thickness of the temporary cutter. Bigger = cuts faces further from the picked plane, including curved surfaces"
+msgstr "临时切割器的半厚度。越大 = 切割离所选平面更远的面，包括曲面"
+
+#: anotherv_sketchtools_lite/ops_knife.py:73
+msgid "Height"
+msgstr "高度"
+
+#: anotherv_sketchtools_lite/ui.py:76
+msgid "Hints in Status Bar"
+msgstr "状态栏提示"
+
+#: anotherv_sketchtools_lite/ui.py:53
+msgid "How close the cursor must be to a snap target, in pixels at Blender's UI scale (so it feels the same on a Retina / HiDPI screen)"
+msgstr "光标与吸附目标之间的接近程度，以 Blender UI 缩放下的像素为单位（因此在 Retina / HiDPI 屏幕上感觉一致）"
+
+#: anotherv_sketchtools_lite/ui.py:138
+msgid "I = Offset  (Shift = snap)"
+msgstr "I = 偏移（Shift = 吸附）"
+
+#: anotherv_sketchtools_lite/ops_knife.py:80
+#: anotherv_sketchtools_lite/ui.py:34
+msgid "Include connected faces on the picked surface within Cut Depth; exclude hidden faces, separate shells and sharp corners"
+msgstr "包括所选表面上切割深度内的相连面；排除隐藏面、分离的壳和尖角"
+
+#: anotherv_sketchtools_lite/osnap.py:694
+msgid "Int"
+msgstr "交点"
+
+#: anotherv_sketchtools_lite/ui.py:63
+msgid "Intersection"
+msgstr "交点"
+
+#: anotherv_sketchtools_lite/__init__.py:84
+msgid "K"
+msgstr "K"
+
+#: anotherv_sketchtools_lite/ui.py:46
+msgid "Keep Tool Active"
+msgstr "保持工具激活"
+
+#: anotherv_sketchtools_lite/__init__.py:85
+msgid "L"
+msgstr "L"
+
+#: anotherv_sketchtools_lite/__init__.py:87
+msgid "LEFTMOUSE"
+msgstr "LEFTMOUSE"
+
+#: anotherv_sketchtools_lite/osnap.py:678
+msgid "Line"
+msgstr "直线"
+
+#: anotherv_sketchtools_lite/osnap.py:694
+msgid "Mid"
+msgstr "中点"
+
+#: anotherv_sketchtools_lite/ui.py:61
+msgid "Midpoint"
+msgstr "中点"
+
+#: anotherv_sketchtools_lite/osnap.py:683
+msgid "Move"
+msgstr "移动"
+
+#: anotherv_sketchtools_lite/osnap.py:695
+msgid "Near"
+msgstr "靠近"
+
+#: anotherv_sketchtools_lite/ui.py:67
+msgid "Nearest"
+msgstr "最近"
+
+#: anotherv_sketchtools_lite/ops_line.py:225
+#: anotherv_sketchtools_lite/ops_line.py:241
+msgid "Need at least two points"
+msgstr "至少需要两个点"
+
+#: anotherv_sketchtools_lite/osnap.py:682
+msgid "Offset"
+msgstr "偏移"
+
+#: anotherv_sketchtools_lite/ops_knife.py:77
+msgid "Offset X"
+msgstr "X 偏移"
+
+#: anotherv_sketchtools_lite/ops_knife.py:78
+msgid "Offset Y"
+msgstr "Y 偏移"
+
+#: anotherv_sketchtools_lite/ui.py:68
+msgid "On Face"
+msgstr "面上"
+
+#: anotherv_sketchtools_lite/ops_knife.py:80
+#: anotherv_sketchtools_lite/ui.py:34
+msgid "Only Picked Surface"
+msgstr "仅拾取的表面"
+
+#: anotherv_sketchtools_lite/ui.py:72
+msgid "Other Objects"
+msgstr "其他物体"
+
+#: anotherv_sketchtools_lite/osnap.py:696
+msgid "Others"
+msgstr "其他"
+
+#: anotherv_sketchtools_lite/osnap.py:695
+msgid "Perp"
+msgstr "垂直"
+
+#: anotherv_sketchtools_lite/ui.py:65
+msgid "Perpendicular"
+msgstr "垂直"
+
+#: anotherv_sketchtools_lite/ops_line.py:35
+msgid "Points were picked in the viewport (no redo values)"
+msgstr "已在视图中拾取点（无重做参数）"
+
+#: anotherv_sketchtools_lite/osnap.py:680
+msgid "Push/Pull"
+msgstr "推/拉"
+
+#: anotherv_sketchtools_lite/ui.py:43
+msgid "Push/Pull: Cut Through"
+msgstr "推/拉：穿透切割"
+
+#: anotherv_sketchtools_lite/ops_knife.py:74
+msgid "Radius"
+msgstr "半径"
+
+#: anotherv_sketchtools_lite/ui.py:9
+msgid "Rectangle"
+msgstr "矩形"
+
+#: anotherv_sketchtools_lite/osnap.py:679
+msgid "Rectangle / Circle"
+msgstr "矩形/圆形"
+
+#: anotherv_sketchtools_lite/ops_knife.py:414
+msgid "Rectangle has no size — move the mouse first"
+msgstr "矩形没有尺寸——请先移动鼠标"
+
+#: anotherv_sketchtools_lite/ui.py:70
+msgid "Red/green inference lines parallel to the face edges"
+msgstr "平行于面边的红/绿推断线"
+
+#: anotherv_sketchtools_lite/osnap.py:684
+msgid "Rotate"
+msgstr "旋转"
+
+#: anotherv_sketchtools_lite/ops_knife.py:76
+msgid "Rotation"
+msgstr "旋转"
+
+#: anotherv_sketchtools_lite/ui.py:69
+msgid "Round free points to the grid step  (hold G)"
+msgstr "将自由点按栅格步长四舍五入（按住 G）"
+
+#: anotherv_sketchtools_lite/ops_knife.py:75
+msgid "Segments"
+msgstr "分段"
+
+#: anotherv_sketchtools_lite/ops_knife.py:88
+#: anotherv_sketchtools_lite/ui.py:38
+msgid "Select Inner Face"
+msgstr "选择内部面"
+
+#: anotherv_sketchtools_lite/ops_knife.py:71
+#: anotherv_sketchtools_lite/ui.py:28
+msgid "Shape"
+msgstr "形状"
+
+#: anotherv_sketchtools_lite/ops_knife.py:252
+msgid "Shape Knife works in the 3D Viewport"
+msgstr "形状切割可在 3D 视图中使用"
+
+#: anotherv_sketchtools_lite/ops_knife.py:165
+msgid "Shape Knife: picked face no longer exists"
+msgstr "形状切割：拾取的面已不存在"
+
+#: anotherv_sketchtools_lite/ops_knife.py:154
+msgid "Shape Knife: radius must be > 0"
+msgstr "形状切割：半径必须大于 0"
+
+#: anotherv_sketchtools_lite/ops_knife.py:148
+msgid "Shape Knife: run it from the 3D viewport (Alt+K) and click on a face"
+msgstr "形状切割：请从 3D 视图运行（Alt+K）并点击一个面"
+
+#: anotherv_sketchtools_lite/ops_knife.py:151
+msgid "Shape Knife: width/height must be > 0"
+msgstr "形状切割：宽度/高度必须大于 0"
+
+#: anotherv_sketchtools_lite/ui.py:76
+msgid "Show a line of help for the running tool in Blender's status bar at the bottom"
+msgstr "在 Blender 底部状态栏显示正在运行工具的帮助行"
+
+#: anotherv_sketchtools_lite/ui.py:79
+msgid "Show the bar with the tools and snaps at the bottom of the viewport whenever you are in Edit Mode. Off: it only shows while a tool is running"
+msgstr "在编辑模式下，始终在视图底部显示工具与捕捉栏。关闭：仅在工具运行时显示"
+
+#: anotherv_sketchtools_lite/ops_line.py:40
+msgid "Sketch Line works in the 3D Viewport"
+msgstr "草图直线可在 3D 视图中使用"
+
+#: anotherv_sketchtools_lite/ops_line.py:254
+msgid "Sketch Line: both ends must touch the face outline to cut — cancelled"
+msgstr "草图直线：两端必须接触面轮廓才能切割——已取消"
+
+#: anotherv_sketchtools_lite/ops_line.py:261
+msgid "Sketch Line: that edge already exists"
+msgstr "草图直线：该边已存在"
+
+#: anotherv_sketchtools_lite/ui.py:53
+msgid "Snap Radius (px)"
+msgstr "捕捉半径（px）"
+
+#: anotherv_sketchtools_lite/ui.py:168
+msgid "Snaps"
+msgstr "捕捉"
+
+#: anotherv_sketchtools_lite/ui.py:169
+msgid "Snaps to what you can see • X-Ray = through"
+msgstr "捕捉到可见内容 • X 射线 = 穿透"
+
+#: anotherv_sketchtools_lite/ui.py:187
+msgid "Tool Settings"
+msgstr "工具设置"
+
+#: anotherv_sketchtools_lite/ui.py:163
+msgid "Tools stay active • Esc = leave"
+msgstr "工具保持激活 • Esc = 退出"
+
+#: anotherv_sketchtools_lite/ui.py:161
+msgid "Type numbers + Enter in any tool"
+msgstr "在任意工具中输入数字 + Enter"
+
+#: anotherv_sketchtools_lite/ui.py:60
+msgid "Vertices  (hold E)"
+msgstr "顶点（按住 E）"
+
+#: anotherv_sketchtools_lite/ui.py:14
+msgid "View"
+msgstr "视图"
+
+#: anotherv_sketchtools_lite/ui.py:43
+msgid "When a pushed face lands exactly on another face, remove both (hole)"
+msgstr "当推拉的面恰好落在另一面上时，删除两者（孔洞）"
+
+#: anotherv_sketchtools_lite/ops_knife.py:72
+msgid "Width"
+msgstr "宽度"
+
+#: anotherv_sketchtools_lite/ui.py:165
+msgid "X-Ray (Alt+Z) on = cut through"
+msgstr "X 射线（Alt+Z）开启 = 穿透切割"
+
+#: anotherv_sketchtools_lite/osnap.py:944
+msgctxt "Operator"
+msgid "Bar"
+msgstr "条形"
+
+#: anotherv_sketchtools_lite/ui.py:142
+#: anotherv_sketchtools_lite/ui.py:223
+msgctxt "Operator"
+msgid "Box"
+msgstr "盒体"
+
+#: anotherv_sketchtools_lite/ui.py:124
+#: anotherv_sketchtools_lite/ui.py:212
+msgctxt "Operator"
+msgid "Circle"
+msgstr "圆"
+
+#: anotherv_sketchtools_lite/ui.py:144
+#: anotherv_sketchtools_lite/ui.py:225
+msgctxt "Operator"
+msgid "Cylinder"
+msgstr "圆柱"
+
+#: anotherv_sketchtools_lite/ui.py:128
+msgctxt "Operator"
+msgid "Line"
+msgstr "直线"
+
+#: anotherv_sketchtools_lite/ui.py:150
+msgctxt "Operator"
+msgid "Move"
+msgstr "移动"
+
+#: anotherv_sketchtools_lite/ui.py:134
+msgctxt "Operator"
+msgid "Offset"
+msgstr "偏移"
+
+#: anotherv_sketchtools_lite/ui.py:130
+msgctxt "Operator"
+msgid "Push/Pull"
+msgstr "推/拉"
+
+#: anotherv_sketchtools_lite/ui.py:122
+#: anotherv_sketchtools_lite/ui.py:210
+msgctxt "Operator"
+msgid "Rectangle"
+msgstr "矩形"
+
+#: anotherv_sketchtools_lite/ui.py:151
+msgctxt "Operator"
+msgid "Rotate"
+msgstr "旋转"
+
+#: anotherv_sketchtools_lite/ops_knife.py:68
+msgctxt "Operator"
+msgid "Shape Knife"
+msgstr "形状切割"
+
+#: anotherv_sketchtools_lite/ops_line.py:26
+msgctxt "Operator"
+msgid "Sketch Line"
+msgstr "草绘线"

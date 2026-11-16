@@ -1,0 +1,565 @@
+# perfect-chinese: 1
+# id: generate_tree_plugin
+# kind: addon
+# module: bl_ext.blender_org.generate_tree_plugin
+# name: Generate Tree Plugin
+# name_zh: 生成树木
+# translator: KeshiMiao
+# category: Add Mesh
+# supported_versions: >=5.0.1
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: properties.py:89
+msgid "0 = all branches short, 1 = all long, 0.5 = an even mix of both"
+msgstr "0 = 所有树枝都短，1 = 都长，0.5 = 两者均匀混合"
+
+#: properties.py:19
+msgid "0 adds no steady lean. 1 leans the trunk 90% of the way to fully horizontal by the top, towards the side opposite to where Bend Strength drifts it"
+msgstr "0 不添加持续倾斜。1 会使树干顶部朝弯曲强度偏移方向的反侧倾斜，达到完全水平的 90%"
+
+#: properties.py:98
+msgid "Above 1 winds the branch further around its own axis per segment, coiling into a spiral"
+msgstr "大于 1 时，树枝每段绕自身轴进一步缠绕，卷成螺旋"
+
+#: properties.py:163
+msgid "Absolute clamp applied after Thickness/Thickness Random"
+msgstr "厚度/厚度随机之后应用的绝对钳制"
+
+#: properties.py:63
+msgid "Angle Order"
+msgstr "角度顺序"
+
+#: properties.py:149
+msgid "Attach Distance"
+msgstr "附着距离"
+
+#: properties.py:296
+msgid "Base Radius"
+msgstr "基础半径"
+
+#: properties.py:35
+msgid "Bend Limit"
+msgstr "弯曲限制"
+
+#: properties.py:27
+msgid "Bend Strength"
+msgstr "弯曲强度"
+
+#: properties.py:276
+msgid "Bottom Distortion"
+msgstr "底部扭曲"
+
+#: panel.py:19
+msgid "Branch Secondary"
+msgstr "次级枝"
+
+#: properties.py:249
+msgid "Build a single tapering stack of low-poly cone tiers along the trunk, like a conifer"
+msgstr "沿树干构建单个渐缩的低多边形锥形层堆叠，类似针叶树"
+
+#: properties.py:292
+msgid "Canopy Start"
+msgstr "树冠起始"
+
+#: properties.py:76
+msgid "Chance that, while moving up the trunk placing one branch per height, an extra branch also spawns at that exact same height - like a whorl of branches instead of a single one. That extra branch's angle still follows Angle Order along with every other branch. 0 always just moves on to the next height as usual; 1 always adds the extra branch"
+msgstr "沿树干向上、每个高度放置一根树枝时，有几率在同一高度额外生成一根树枝——像轮生枝而非单枝。该额外树枝的角度仍与其他所有树枝一起遵循角度顺序。0 总是照常进入下一高度；1 总是添加额外树枝"
+
+#: properties.py:14
+msgid "Collection"
+msgstr "集合"
+
+#: properties.py:325
+msgid "Core Width"
+msgstr "核心宽度"
+
+#: properties.py:47
+msgid "Count"
+msgstr "数量"
+
+#: properties.py:148
+msgid "Count Max"
+msgstr "最大数量"
+
+#: properties.py:147
+msgid "Count Min"
+msgstr "最小数量"
+
+#: properties.py:98
+#: properties.py:170
+msgid "Curvature"
+msgstr "曲率"
+
+#: properties.py:223
+msgid "Decimate Leaves"
+msgstr "简化树叶"
+
+#: properties.py:217
+msgid "Decimate Trunk"
+msgstr "简化树干"
+
+#: properties.py:274
+msgid "Depth"
+msgstr "深度"
+
+#: properties.py:238
+msgid "Disable to generate a bare tree with no leaf clusters"
+msgstr "禁用后生成无叶簇的裸树"
+
+#: properties.py:242
+msgid "Foliage Type"
+msgstr "树叶类型"
+
+#: properties.py:181
+msgid "Fraction of each root's length that arcs opposite the eventual downward pull before it starts diving down, instead of bending straight down immediately"
+msgstr "每根根长度的该比例会先朝最终下拉方向的反侧弯曲，然后才开始向下延伸，而不是立即垂直向下"
+
+#: properties.py:124
+msgid "Fraction of the parent's length"
+msgstr "父级长度的比例"
+
+#: properties.py:292
+msgid "Fraction of the way up the trunk where the lowest, widest tier begins"
+msgstr "最低最宽层在树干上开始的高度比例"
+
+#: properties.py:52
+msgid "Fraction of tree height above which branches cannot start"
+msgstr "树枝无法起始的树高上限比例"
+
+#: properties.py:48
+msgid "Fraction of tree height below which branches cannot start"
+msgstr "树枝无法起始的树高下限比例"
+
+#: properties.py:238
+msgid "Generate Leaves"
+msgstr "生成树叶"
+
+#: properties.py:275
+msgid "Height"
+msgstr "高度"
+
+#: properties.py:63
+msgid "How evenly the main branches are spaced around the trunk's 360 degrees. 0 picks each branch's angle fully at random, which can cluster several branches on one side and leave the canopy lopsided; 1 spaces every branch perfectly evenly around the trunk instead, so there's a branch on each side and the canopy fills out fully. Even at 1, which evenly-spaced slot each branch gets is shuffled rather than assigned in height order, so the angle doesn't spiral steadily upward"
+msgstr "主枝在树干 360 度周围分布的均匀程度。0 完全随机选择每根树枝的角度，可能使多根树枝聚集在一侧，导致树冠偏斜；1 则让每根树枝完美均匀地环绕树干分布，使各侧都有树枝，树冠充分填满。即便为 1，每根树枝分到的均匀间隔槽位仍是随机打乱的，而不是按高度顺序分配，因此角度不会稳定地向上螺旋"
+
+#: properties.py:269
+msgid "How far an individual cluster can drift from its branch attach point"
+msgstr "单个叶簇可从其树枝附着点偏移的最大距离"
+
+#: properties.py:335
+msgid "How far each spike protrudes sideways beyond the tier's core (see Core Width). 0 keeps spikes flush with the core; 1 makes them stick out sharply - unless Core Width is 1, which always pulls them back flush regardless of this value"
+msgstr "每个尖刺从该层核心向外突出的距离（见核心宽度）。0 使尖刺与核心齐平；1 使它们明显突出——除非核心宽度为 1，此时无论该值如何都会将它们拉回齐平"
+
+#: properties.py:344
+msgid "How far each spike tilts from pointing straight out away from the trunk (0) towards pointing straight down (1, almost vertical)"
+msgstr "每个尖刺从笔直朝外远离树干（0）向笔直向下（1，几乎垂直）倾斜的程度"
+
+#: properties.py:306
+msgid "How far each tier's cone extends down into the tier below, hiding the seam between them"
+msgstr "每层锥体向下伸入下一层以遮盖接缝的程度"
+
+#: properties.py:27
+msgid "How far each trunk ring can randomly drift sideways, in any direction: a random amount between minus and plus this value. 0 keeps the trunk perfectly straight (unless Trunk Bend leans it)"
+msgstr "每个树干环可在任意方向随机侧移的最大距离：在负值到正值之间随机。0 保持树干完全笔直（除非树干弯曲使其倾斜）"
+
+#: properties.py:149
+msgid "How far from the trunk's central axis each root starts, as a fraction of the trunk's base radius. 0 starts every root at the trunk's center; 1 starts it right at the trunk's outer edge. Each root's initial growth direction follows the trunk's own tapered surface normal at that point either way, and it's still raised just enough to never dip below the trunk's bottom boundary"
+msgstr "每根根从树干中心轴开始的距离，以树干基础半径的比例表示。0 表示每根根从树干中心开始；1 表示正好从树干外缘开始。无论哪种，每根根的初始生长方向都遵循该处树干自身渐缩表面的法线，并且仍会抬升到刚好不会低于树干底部边界"
+
+#: properties.py:231
+msgid "How many different leaf colors are used, spread evenly from dark to light and picked at random per leaf cluster. 1 makes all leaves a single color"
+msgstr "使用多少种不同的树叶颜色，从深到浅均匀分布，并按叶簇随机选取。1 使所有树叶为单一颜色"
+
+#: properties.py:288
+msgid "How many stacked cone tiers make up the canopy"
+msgstr "构成树冠的堆叠锥形层数量"
+
+#: properties.py:296
+msgid "How many times wider than the trunk itself the lowest tier flares out. Every tier's radius is measured relative to the trunk's own (tapered) radius at that height, shrinking down to exactly 1.0 (an exact fit) at the topmost tier, so the trunk is never left wider than the foliage around it"
+msgstr "最底层相对树干本身宽出多少倍。每层半径都相对于该高度处树干自身（渐缩）半径测量，到最顶层缩小到正好 1.0（完全贴合），因此树干永远不会比周围树叶更宽"
+
+#: properties.py:276
+msgid "How much each leaf cluster's lower hemisphere gets pulled further downward at random, breaking the underside into an irregular, dangling silhouette instead of a flat or evenly rounded one. 0 leaves the bottom as smooth as the top; 1 is the original full-strength stretch, and values above 1 push it further still"
+msgstr "每个叶簇下半球随机进一步向下拉伸的程度，使底部呈现不规则、下垂的轮廓，而不是平坦或均匀圆润。0 使底部与顶部一样平滑；1 为原始全强度拉伸，大于 1 会进一步拉伸"
+
+#: properties.py:318
+msgid "How quickly tiers shrink in radius going up. Higher values pull the upper tiers in faster, ending in a sharper point"
+msgstr "各层半径向上缩小的速度。值越高，上层收得越快，末端越尖锐"
+
+#: properties.py:242
+msgid "How the tree's foliage mass is shaped"
+msgstr "树木枝叶整体的成形方式"
+
+#: properties.py:245
+msgid "Icosphere Clusters"
+msgstr "二十面体球簇"
+
+#: properties.py:360
+msgid "Jitter"
+msgstr "抖动"
+
+#: properties.py:261
+msgid "Join All Leaves Into One Mesh"
+msgstr "将所有树叶合并为一个网格"
+
+#: properties.py:103
+msgid "Join Branches With Trunk"
+msgstr "将树枝与树干合并"
+
+#: properties.py:261
+msgid "Join every branch's leaf mesh (and the canopy fill) into a single object"
+msgstr "将每根树枝的树叶网格（以及树冠填充）合并为单个物体"
+
+#: properties.py:103
+msgid "Join every main branch (already joined with its own secondaries) into the trunk as a single object, instead of leaving branches and trunk as separate objects. A plain join, not a Boolean - any hidden overlap where a branch pokes into the trunk is left as-is"
+msgstr "将每根主枝（已与其自身的次级枝合并）作为单个物体合并进树干，而不是让树枝和树干保持为独立物体。普通合并，不是布尔——树枝插入树干处的任何隐藏重叠都保持原样"
+
+#: properties.py:35
+msgid "Largest allowed change of the drift between two neighboring rings, going bottom-up. A bigger jump is cut back to this limit in the same direction, so the trunk can't turn sharply. Low values give a smooth curve, 0 a straight trunk, high values an uneven one"
+msgstr "自下而上时，相邻两个树干环之间漂移量允许的最大变化。更大的跳变会在同一方向上被削减到该限制，因此树干无法急转弯。低值得到平滑曲线，0 得到笔直树干，高值得到不均匀树干"
+
+#: properties.py:171
+msgid "Lateral Curvature"
+msgstr "横向曲率"
+
+#: panel.py:22
+msgid "Leaves"
+msgstr "树叶"
+
+#: properties.py:227
+msgid "Leaves Decimate Ratio"
+msgstr "树叶简化比例"
+
+#: properties.py:88
+#: properties.py:169
+msgid "Length Max"
+msgstr "最大长度"
+
+#: properties.py:87
+#: properties.py:168
+msgid "Length Min"
+msgstr "最小长度"
+
+#: properties.py:89
+msgid "Long Ratio"
+msgstr "长枝比例"
+
+#: panel.py:18
+msgid "Main Branches"
+msgstr "主枝"
+
+#: properties.py:231
+msgid "Material Count"
+msgstr "材质数量"
+
+#: properties.py:52
+msgid "Max Height"
+msgstr "最大高度"
+
+#: properties.py:257
+msgid "Merge Leaves (Union)"
+msgstr "合并树叶（并集）"
+
+#: properties.py:204
+msgid "Merge Roots Into Trunk"
+msgstr "将根系合并到树干"
+
+#: properties.py:133
+msgid "Merge Secondary Into Main"
+msgstr "将次级枝合并到主枝"
+
+#: properties.py:194
+msgid "Merge Secondary Roots Into Main"
+msgstr "将次级根合并到主根"
+
+#: properties.py:257
+msgid "Merge each branch's leaf clusters into one mesh via boolean UNION"
+msgstr "通过布尔并集将每个枝条的叶簇合并为一个网格"
+
+#: panel.py:21
+msgid "Mesh Simplification"
+msgstr "网格简化"
+
+#: properties.py:48
+msgid "Min Height"
+msgstr "最小高度"
+
+#: properties.py:56
+msgid "Min Spacing"
+msgstr "最小间距"
+
+#: properties.py:56
+msgid "Minimum gap between two branch origins, as a fraction of the full trunk height. 0 allows branches at the same point, 1 forces opposite ends"
+msgstr "两个枝条起点之间的最小间隔，以完整树干高度的比例表示。0 允许枝条位于同一点，1 强制位于两端"
+
+#: properties.py:310
+msgid "Multiplier on each tier's own vertical height (how far its apex reaches above its base), on top of Tier Overlap. No upper limit, so tiers can be stretched arbitrarily tall"
+msgstr "每个层级自身垂直高度的倍数（其顶点高出基部的高度），叠加在层级重叠之上。无上限，因此层级可被任意拉伸变高"
+
+#: properties.py:364
+msgid "Number of spikes around each tier"
+msgstr "每个层级的尖刺数量"
+
+#: properties.py:266
+msgid "Per Branch Max"
+msgstr "每枝最大值"
+
+#: properties.py:265
+msgid "Per Branch Min"
+msgstr "每枝最小值"
+
+#: properties.py:249
+msgid "Pine Canopy"
+msgstr "松树树冠"
+
+#: properties.py:335
+msgid "Prickliness"
+msgstr "尖刺度"
+
+#: properties.py:167
+msgid "Radius Max"
+msgstr "最大半径"
+
+#: properties.py:163
+msgid "Radius Min"
+msgstr "最小半径"
+
+#: properties.py:325
+msgid "Radius of each tier's solid core, from the trunk's own centerline (0, so needles spring directly out of it) to the tier's full silhouette radius (1, where the needle tips land on that same radius too - a smooth rounded cone with no needles left showing)"
+msgstr "每个层级实心核心的半径，从树干自身的中心线（0，即针叶直接从中心线长出）到该层级的完整轮廓半径（1，此时针尖也落在同一半径上——形成光滑的圆锥，不再露出针叶）"
+
+#: properties.py:352
+msgid "Random horizontal deflection of each spike's angle, so they aren't all perfectly radial (directed straight away from the trunk's center) - the same idea as Roots' Lateral Curvature"
+msgstr "每个尖刺角度的随机水平偏移，使它们不再完全呈径向（径直背离树干中心）——与根系的侧向弯曲是同一思路"
+
+#: properties.py:360
+msgid "Random per-vertex variation applied to each tier's radius, so tiers don't look perfectly uniform"
+msgstr "对每个层级半径施加的逐顶点随机变化，使各层级不会显得完全一致"
+
+#: properties.py:129
+msgid "Relative to the parent's local radius at the split point"
+msgstr "相对于分叉点处父级的局部半径"
+
+#: properties.py:93
+msgid "Relative to the trunk's tapered radius at the attach point, not an absolute width"
+msgstr "相对于附着点处树干收缩后的半径，而非绝对宽度"
+
+#: panel.py:20
+msgid "Roots"
+msgstr "根系"
+
+#: properties.py:76
+msgid "Same Height Chance"
+msgstr "等高概率"
+
+#: properties.py:268
+msgid "Scale Max"
+msgstr "最大缩放"
+
+#: properties.py:267
+msgid "Scale Min"
+msgstr "最小缩放"
+
+#: properties.py:245
+msgid "Scatter deformed icosphere blobs along each branch and the canopy top"
+msgstr "沿每个枝条和树冠顶部散布变形后的二十面球体团块"
+
+#: properties.py:123
+#: properties.py:190
+msgid "Secondary Count Max"
+msgstr "次级数量最大值"
+
+#: properties.py:122
+#: properties.py:189
+msgid "Secondary Count Min"
+msgstr "次级数量最小值"
+
+#: properties.py:128
+#: properties.py:192
+msgid "Secondary Length Max"
+msgstr "次级长度最大值"
+
+#: properties.py:124
+#: properties.py:191
+msgid "Secondary Length Min"
+msgstr "次级长度最小值"
+
+#: properties.py:129
+#: properties.py:193
+msgid "Secondary Thickness"
+msgstr "次级粗细"
+
+#: properties.py:13
+msgid "Seed"
+msgstr "随机种子"
+
+#: properties.py:102
+#: properties.py:180
+msgid "Segments"
+msgstr "分段"
+
+#: properties.py:364
+msgid "Sides"
+msgstr "边数"
+
+#: properties.py:223
+msgid "Simplify each merged leaf mesh. Off by default to keep generation fast"
+msgstr "简化每个合并后的树叶网格。默认关闭以保持生成速度"
+
+#: properties.py:217
+msgid "Simplify the trunk mesh (includes roots if joined into it). Off by default to keep generation fast"
+msgstr "简化树干网格（若根系已合并则包含根系）。默认关闭以保持生成速度"
+
+#: properties.py:352
+msgid "Spike Horizontal Deform"
+msgstr "尖刺水平变形"
+
+#: properties.py:344
+msgid "Spike Tilt"
+msgstr "尖刺倾斜"
+
+#: properties.py:116
+#: properties.py:188
+msgid "Split Chance"
+msgstr "分叉概率"
+
+#: properties.py:121
+msgid "Split Position Max"
+msgstr "分叉位置最大值"
+
+#: properties.py:117
+msgid "Split Position Min"
+msgstr "分叉位置最小值"
+
+#: properties.py:269
+msgid "Spread"
+msgstr "扩散"
+
+#: properties.py:171
+msgid "Strength of random left/right (horizontal) bending as each root grows, independent of the up-then-down curve driven by Curvature. 0 keeps growth confined to a single vertical plane; higher values wander further side to side"
+msgstr "每条根系生长时随机左右（水平）弯曲的强度，不受弯曲度所驱动的先上后下曲线影响。0 使生长限制在单一垂直平面内；数值越大，左右游走越远"
+
+#: properties.py:318
+msgid "Taper"
+msgstr "锥化"
+
+#: properties.py:93
+#: properties.py:161
+msgid "Thickness"
+msgstr "粗细"
+
+#: properties.py:97
+#: properties.py:162
+msgid "Thickness Random"
+msgstr "粗细随机"
+
+#: properties.py:288
+msgid "Tier Count"
+msgstr "层级数量"
+
+#: properties.py:306
+msgid "Tier Overlap"
+msgstr "层级重叠"
+
+#: panel.py:17
+msgid "Tree"
+msgstr "树"
+
+#: panel.py:9
+msgid "Tree Gen"
+msgstr "树木生成"
+
+#: panel.py:6
+msgid "Tree Generator"
+msgstr "树木生成器"
+
+#: properties.py:15
+msgid "Tree Height"
+msgstr "树高"
+
+#: properties.py:204
+msgid "Trim away each root's overlap with the trunk via Boolean Difference before joining it in, instead of joining the raw root mesh straight into the trunk. Roots always end up joined into the trunk as a single object either way; this only removes the hidden overlap a plain join would leave behind"
+msgstr "在合并前，通过布尔差集修剪每条根系与树干的重叠部分，而不是直接将原始根系网格合并进树干。无论哪种方式，根系最终都会作为单个物体合并进树干；此处仅移除直接合并会留下的隐藏重叠"
+
+#: properties.py:133
+msgid "Trim away each secondary branch's overlap with the branch it grows from via Boolean Difference before joining it in, instead of joining the raw meshes straight together. A main branch and its secondary branches always end up joined into a single object either way; this only removes the hidden overlap a plain join would leave behind"
+msgstr "在合并前，通过布尔差集修剪每条次级枝条与其生长来源枝条的重叠部分，而不是直接将原始网格合并在一起。无论哪种方式，主枝与其次级枝条最终都会合并为单个物体；此处仅移除直接合并会留下的隐藏重叠"
+
+#: properties.py:194
+msgid "Trim away each secondary root's overlap with the root it grows from via Boolean Difference before joining it in, instead of joining the raw meshes straight together. Roots always end up joined into a single object either way; this only removes the hidden overlap a plain join would leave behind"
+msgstr "在合并前，通过布尔差集修剪每条次级根系与其生长来源根系的重叠部分，而不是直接将原始网格合并在一起。无论哪种方式，根系最终都会合并为单个物体；此处仅移除直接合并会留下的隐藏重叠"
+
+#: properties.py:19
+msgid "Trunk Bend"
+msgstr "树干弯曲"
+
+#: properties.py:221
+msgid "Trunk Decimate Ratio"
+msgstr "树干精简比例"
+
+#: properties.py:16
+msgid "Trunk Radius"
+msgstr "树干半径"
+
+#: properties.py:17
+msgid "Trunk Segments"
+msgstr "树干分段"
+
+#: properties.py:18
+msgid "Trunk Sides"
+msgstr "树干边数"
+
+#: properties.py:181
+msgid "Upward Phase"
+msgstr "向上相位"
+
+#: properties.py:310
+msgid "Vertical Width"
+msgstr "垂直宽度"
+
+#: properties.py:117
+msgid "Where along the branch's own length (0 = base, 1 = tip) a split can occur"
+msgstr "分支自身长度上的位置（0 = 基部，1 = 末端），可在此处发生分叉"
+
+#: properties.py:273
+msgid "Width"
+msgstr "宽度"
+
+#: operators.py:42
+msgctxt "Operator"
+msgid "Add 1 to Seed and generate a new tree right away"
+msgstr "将种子加 1 并立即生成新树"
+
+#: panel.py:36
+msgctxt "Operator"
+msgid "Generate"
+msgstr "生成"
+
+#: operators.py:20
+msgctxt "Operator"
+msgid "Generate Tree"
+msgstr "生成树"
+
+#: operators.py:21
+msgctxt "Operator"
+msgid "Generate a new procedural tree using the settings above"
+msgstr "使用上述设置生成新的程序化树"
+
+#: operators.py:41
+msgctxt "Operator"
+msgid "Next Seed"
+msgstr "下一个种子"
+
+#: operators.py:30
+msgctxt "Operator"
+msgid "Previous Seed"
+msgstr "上一个种子"
+
+#: operators.py:31
+msgctxt "Operator"
+msgid "Subtract 1 from Seed and generate a new tree right away"
+msgstr "将种子减 1 并立即生成新树"

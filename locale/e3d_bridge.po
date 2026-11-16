@@ -1,0 +1,203 @@
+# perfect-chinese: 1
+# id: e3d_bridge
+# kind: addon
+# module: bl_ext.blender_org.e3d_bridge
+# name: E3D Bridge
+# name_zh: E3D桥接
+# translator: KeshiMiao
+# category: Import-Export
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: ui.py:152
+msgid "Advanced"
+msgstr "高级"
+
+#: ui.py:137
+msgid "Apply the part rules below: matched objects get prefixed names, grouped placement, and their own materials so they can be isolated in Element 3D"
+msgstr "应用以下部件规则：匹配的物体会获得前缀名称、分组放置和独立材质，以便在 Element 3D 中单独隔离"
+
+#: ui.py:17
+msgid "Comma-separated name fragments; matches object OR collection names, case-insensitive"
+msgstr "以逗号分隔的名称片段；匹配物体或集合名称，不区分大小写"
+
+#: ui.py:125
+msgid "Decimate Heavy Meshes"
+msgstr "简化高面数网格"
+
+#: ui.py:146
+msgid "Detail Quality Boost"
+msgstr "细节质量提升"
+
+#: ui.py:180
+#: ui.py:183
+msgid "E3D Bridge"
+msgstr "E3D Bridge"
+
+#: ui.py:222
+msgid "Empty list = defaults (PROPS, GIMBAL, DETAIL)"
+msgstr "空列表 = 默认值（PROPS、GIMBAL、DETAIL）"
+
+#: ui.py:101
+msgid "Every visible mesh-like object"
+msgstr "所有可见的类网格物体"
+
+#: ui.py:96
+msgid "Export"
+msgstr "导出"
+
+#: ui.py:120
+msgid "Flip Normal Green"
+msgstr "翻转法线绿色通道"
+
+#: ui.py:22
+msgid "Give matched parts their own prefix, placement and materials so they can be isolated in Element 3D"
+msgstr "为匹配的部件赋予独立前缀、放置和材质，以便在 Element 3D 中单独隔离"
+
+#: ui.py:146
+msgid "How many times more triangles protected parts keep compared to the body when decimating"
+msgstr "简化时受保护部件保留的三角形数量相对于主体的倍数"
+
+#: ui.py:120
+msgid "Invert the green channel of normal maps (if E3D expects DirectX-style normals)"
+msgstr "反转法线贴图的绿色通道（如果 E3D 期望 DirectX 风格法线）"
+
+#: ui.py:137
+msgid "Isolate Tagged Parts"
+msgstr "隔离已标记部件"
+
+#: ui.py:27
+msgid "Keep Quality"
+msgstr "保持质量"
+
+#: ui.py:17
+msgid "Keywords"
+msgstr "关键词"
+
+#: ui.py:12
+msgid "Label"
+msgstr "标签"
+
+#: ui.py:27
+msgid "Matched parts keep the Detail Quality Boost x more triangles when decimating"
+msgstr "简化时匹配的部件保留「细节质量提升」倍数的三角形"
+
+#: ui.py:110
+msgid "Max Texture Size"
+msgstr "最大纹理尺寸"
+
+#: ui.py:105
+msgid "OBJ units per Blender meter (100 matches AE's 100 units/m convention)"
+msgstr "每 Blender 米的 OBJ 单位数（100 与 AE 的 100 单位/米惯例一致）"
+
+#: ui.py:100
+msgid "Only selected objects"
+msgstr "仅选中物体"
+
+#: ui.py:89
+msgid "Output Folder"
+msgstr "输出文件夹"
+
+#: ui.py:22
+msgid "Own Group"
+msgstr "独立组"
+
+#: ui.py:115
+msgid "PNG Everything"
+msgstr "全部使用 PNG"
+
+#: ui.py:12
+msgid "Prefix for matched parts in the OBJ (e.g. WHEELS__...) and suffix for their cloned materials"
+msgstr "OBJ 中匹配部件的前缀（例如 WHEELS__...）及其克隆材质的后缀"
+
+#: ui.py:125
+msgid "Reduce total triangles to the target below. Small objects are never decimated"
+msgstr "将总三角形数减少到下方目标值。小物体不会被简化"
+
+#: ui.py:105
+msgid "Scale"
+msgstr "缩放"
+
+#: ui.py:99
+msgid "Selected objects, or the whole scene if nothing is selected"
+msgstr "选中物体；若未选择任何物体则为整个场景"
+
+#: ui.py:99
+msgid "Selection (or all)"
+msgstr "选中项（或全部）"
+
+#: ui.py:100
+msgid "Selection only"
+msgstr "仅选中项"
+
+#: ui.py:130
+msgid "Target Triangles"
+msgstr "目标三角形数"
+
+#: ui.py:130
+msgid "Total triangle budget for the whole export. The OBJ runs ~80 bytes per triangle: 5M triangles ~= 400 MB, 2M ~= 160 MB"
+msgstr "整个导出的三角形总预算。OBJ 每三角形约 80 字节：5M 三角形 ≈ 400 MB，2M ≈ 160 MB"
+
+#: ui.py:89
+msgid "Where the OBJ, MTL and textures go. Empty = a '<blendname>_e3d' folder next to the .blend"
+msgstr "OBJ、MTL 和纹理的输出位置。留空 = .blend 旁边的「<blendname>_e3d」文件夹"
+
+#: ui.py:101
+msgid "Whole scene"
+msgstr "整个场景"
+
+#: ui.py:115
+msgid "Write every texture as PNG. Off = JPG for color maps, PNG for data maps"
+msgstr "将所有纹理写为 PNG。关闭 = 颜色贴图用 JPG，数据贴图用 PNG"
+
+#: obj_writer.py:17
+msgid "map_Kd"
+msgstr "map_Kd"
+
+#: obj_writer.py:17
+msgid "map_Ks"
+msgstr "map_Ks"
+
+#: ui.py:46
+msgctxt "Operator"
+msgid "Add Part Rule"
+msgstr "添加部件规则"
+
+#: ui.py:47
+msgctxt "Operator"
+msgid "Add a keyword rule for isolating or protecting parts"
+msgstr "添加用于隔离或保护部件的关键词规则"
+
+#: ui.py:157
+msgctxt "Operator"
+msgid "Export for Element 3D"
+msgstr "导出到 Element 3D"
+
+#: ui.py:72
+msgctxt "Operator"
+msgid "Load Default Rules"
+msgstr "加载默认规则"
+
+#: ui.py:59
+msgctxt "Operator"
+msgid "Remove Part Rule"
+msgstr "移除部件规则"
+
+#: ui.py:60
+msgctxt "Operator"
+msgid "Remove the selected rule"
+msgstr "移除选中的规则"
+
+#: ui.py:73
+msgctxt "Operator"
+msgid "Replace the list with the built-in PROPS / GIMBAL / DETAIL rules"
+msgstr "用内置的 PROPS / GIMBAL / DETAIL 规则替换列表"
+
+#: ui.py:158
+msgctxt "Operator"
+msgid "Write OBJ + MTL + textures that Element 3D imports cleanly"
+msgstr "写出可被 Element 3D 干净导入的 OBJ + MTL + 纹理"

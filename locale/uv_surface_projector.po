@@ -1,0 +1,269 @@
+# perfect-chinese: 1
+# id: uv_surface_projector
+# kind: addon
+# module: bl_ext.blender_org.uv_surface_projector
+# name: UV Surface Projector
+# name_zh: 表面坐标投影
+# translator: KeshiMiao
+# category: Mesh
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: uv_surface_projector/__init__.py:2484
+msgid "Active Object = Target"
+msgstr "活动物体 = 目标"
+
+#: uv_surface_projector/__init__.py:2217
+msgid "Auto"
+msgstr "自动"
+
+#: uv_surface_projector/__init__.py:2252
+msgid "Avoid aggressive vertex welding and preserve source topology"
+msgstr "避免激进顶点焊接并保留源拓扑"
+
+#: uv_surface_projector/__init__.py:2366
+msgid "Bevel Depth"
+msgstr "倒角深度"
+
+#: uv_surface_projector/__init__.py:2374
+msgid "Bevel Resolution"
+msgstr "倒角分辨率"
+
+#: uv_surface_projector/__init__.py:2267
+msgid "Clip Outside UV"
+msgstr "裁剪 UV 外部"
+
+#: uv_surface_projector/__init__.py:2222
+msgid "Curve"
+msgstr "曲线"
+
+#: uv_surface_projector/__init__.py:2356
+msgid "Curve Samples"
+msgstr "曲线采样"
+
+#: uv_surface_projector/__init__.py:2204
+msgid "Curve Settings"
+msgstr "曲线设置"
+
+#: uv_surface_projector/__init__.py:2217
+msgid "Curve or Mesh"
+msgstr "曲线或网格"
+
+#: uv_surface_projector/__init__.py:2553
+msgid "Curves create projected surface curves."
+msgstr "曲线会创建投影曲面曲线。"
+
+#: uv_surface_projector/__init__.py:2241
+msgid "Cut / Modify Source"
+msgstr "切割 / 修改源"
+
+#: uv_surface_projector/__init__.py:2199
+#: uv_surface_projector/__init__.py:2340
+msgid "Edge Margin"
+msgstr "边缘边距"
+
+#: uv_surface_projector/__init__.py:2305
+msgid "Enable Edge Margin"
+msgstr "启用边缘边距"
+
+#: uv_surface_projector/__init__.py:2305
+msgid "Enable/disable UV edge margin. When disabled, margin is exactly zero."
+msgstr "启用/禁用 UV 边缘边距。禁用时，边距恰好为零。"
+
+#: uv_surface_projector/__init__.py:2330
+msgid "Estimate from target dimensions"
+msgstr "根据目标尺寸估算"
+
+#: uv_surface_projector/__init__.py:2631
+msgid "Example: 0.002 UV"
+msgstr "示例：0.002 UV"
+
+#: uv_surface_projector/__init__.py:2639
+msgid "Example: 1 = 1%"
+msgstr "示例：1 = 1%"
+
+#: uv_surface_projector/__init__.py:2290
+msgid "Find nearest UV triangle for points close to UV boundaries"
+msgstr "为接近 UV 边界的点查找最近的 UV 三角形"
+
+#: uv_surface_projector/__init__.py:2284
+msgid "Flip V"
+msgstr "翻转 V"
+
+#: uv_surface_projector/__init__.py:2278
+msgid "Keep Aspect Ratio"
+msgstr "保持宽高比"
+
+#: uv_surface_projector/__init__.py:2656
+msgid "Margin DISABLED — no margin will be removed."
+msgstr "边距已禁用 — 不会移除任何边距。"
+
+#: uv_surface_projector/__init__.py:2316
+msgid "Margin Mode"
+msgstr "边距模式"
+
+#: uv_surface_projector/__init__.py:2320
+msgid "Margin in UV units"
+msgstr "边距（UV 单位）"
+
+#: uv_surface_projector/__init__.py:2227
+msgid "Mesh"
+msgstr "网格"
+
+#: uv_surface_projector/__init__.py:2546
+msgid "Mesh sources are modified directly."
+msgstr "网格源会被直接修改。"
+
+#: uv_surface_projector/__init__.py:2330
+msgid "Millimeters"
+msgstr "毫米"
+
+#: uv_surface_projector/__init__.py:2647
+msgid "Millimeters are estimated from target dimensions."
+msgstr "毫米根据目标尺寸估算。"
+
+#: uv_surface_projector/__init__.py:2241
+msgid "Modify selected source meshes instead of creating a new mesh"
+msgstr "修改选定的源网格，而不是创建新网格"
+
+#: uv_surface_projector/__init__.py:2290
+msgid "Nearest Triangle"
+msgstr "最近三角形"
+
+#: uv_surface_projector/__init__.py:1
+msgid "Object"
+msgstr "物体"
+
+#: uv_surface_projector/__init__.py:2490
+msgid "Other Selected Objects = Sources"
+msgstr "其他选定物体 = 源"
+
+#: uv_surface_projector/__init__.py:2325
+msgid "Percent"
+msgstr "百分比"
+
+#: uv_surface_projector/__init__.py:2325
+msgid "Percentage of UV size"
+msgstr "UV 尺寸的百分比"
+
+#: uv_surface_projector/__init__.py:2252
+msgid "Preserve Edges"
+msgstr "保留边"
+
+#: uv_surface_projector/__init__.py:2189
+msgid "Projection / Cut"
+msgstr "投影 / 切割"
+
+#: uv_surface_projector/__init__.py:1
+msgid "Projects curves and meshes onto the active UV target. The active object is the Target and all other selected objects are Sources. Includes UV island boundary preview and collapsible settings."
+msgstr "将曲线和网格投影到活动 UV 目标上。活动物体为目标，其他所有选定物体为源。包含 UV 孤岛边界预览和可折叠设置。"
+
+#: uv_surface_projector/__init__.py:2267
+msgid "Remove source parts outside the actual UV islands"
+msgstr "移除实际 UV 孤岛之外的源部分"
+
+#: uv_surface_projector/__init__.py:2164
+msgid "Results cleared."
+msgstr "结果已清除。"
+
+#: uv_surface_projector/__init__.py:2340
+msgid "Safe distance from UV edges"
+msgstr "与 UV 边缘的安全距离"
+
+#: uv_surface_projector/__init__.py:2479
+msgid "Select Active Mesh"
+msgstr "选择活动网格"
+
+#: uv_surface_projector/__init__.py:1938
+msgid "Select Target as Active object and select other objects as Sources."
+msgstr "将目标选为活动物体，并将其他物体选为源。"
+
+#: uv_surface_projector/__init__.py:2184
+msgid "Source"
+msgstr "源"
+
+#: uv_surface_projector/__init__.py:2213
+msgid "Source Type"
+msgstr "源类型"
+
+#: uv_surface_projector/__init__.py:2465
+msgid "Target"
+msgstr "目标"
+
+#: uv_surface_projector/__init__.py:2320
+msgid "UV"
+msgstr "UV"
+
+#: uv_surface_projector/__init__.py:2138
+msgid "UV Boundary cleared."
+msgstr "UV 边界已清除。"
+
+#: uv_surface_projector/__init__.py:2194
+msgid "UV Projection"
+msgstr "UV 投影"
+
+#: uv_surface_projector/__init__.py:2442
+msgid "UV Projector"
+msgstr "UV 投影器"
+
+#: uv_surface_projector/__init__.py:1
+msgid "UV Surface Projector"
+msgstr "UV 表面投影器"
+
+#: uv_surface_projector/__init__.py:2432
+msgid "UV Surface Projector Pro"
+msgstr "UV 表面投影器 Pro"
+
+#: uv_surface_projector/__init__.py:2222
+msgid "Use selected Curves"
+msgstr "使用选定的曲线"
+
+#: uv_surface_projector/__init__.py:2227
+msgid "Use selected Meshes"
+msgstr "使用选定的网格"
+
+#: uv_surface_projector/__init__.py:1869
+msgctxt "Operator"
+msgid "Active object = Target. Other selected objects = Sources."
+msgstr "活动物体 = 目标。其他选定物体 = 源。"
+
+#: uv_surface_projector/__init__.py:2719
+msgctxt "Operator"
+msgid "Clear"
+msgstr "清除"
+
+#: uv_surface_projector/__init__.py:2156
+#: uv_surface_projector/__init__.py:2725
+msgctxt "Operator"
+msgid "Clear Results"
+msgstr "清除结果"
+
+#: uv_surface_projector/__init__.py:2130
+msgctxt "Operator"
+msgid "Clear UV Boundary"
+msgstr "清除 UV 边界"
+
+#: uv_surface_projector/__init__.py:2060
+msgctxt "Operator"
+msgid "Creates only UV island boundary lines with real-world scale."
+msgstr "仅创建具有真实世界比例的 UV 孤岛边界线。"
+
+#: uv_surface_projector/__init__.py:1867
+#: uv_surface_projector/__init__.py:2705
+msgctxt "Operator"
+msgid "Project / Cut"
+msgstr "投影 / 切割"
+
+#: uv_surface_projector/__init__.py:2058
+msgctxt "Operator"
+msgid "Show UV Boundary"
+msgstr "显示 UV 边界"
+
+#: uv_surface_projector/__init__.py:2713
+msgctxt "Operator"
+msgid "UV Boundary"
+msgstr "UV 边界"

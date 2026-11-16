@@ -1,0 +1,321 @@
+# perfect-chinese: 1
+# id: blend_project_packer
+# kind: addon
+# module: bl_ext.blender_org.blend_project_packer
+# name: Blend Project Packer
+# name_zh: 项目打包器
+# translator: KeshiMiao
+# category: Pipeline
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: addon/panels.py:291
+msgid "(no log entries at this level)"
+msgstr "（此级别无日志条目）"
+
+#: addon/panels.py:455
+msgid "- no unbaked caches found"
+msgstr "- 未找到未烘焙的缓存"
+
+#: addon/panels.py:444
+msgid "- none found"
+msgstr "- 未找到"
+
+#: addon/panels.py:169
+msgid "Build Portable Package will populate details"
+msgstr "构建便携包后将填充详细信息"
+
+#: addon/panels.py:408
+msgid "Build review is no longer pending."
+msgstr "构建检查不再待处理。"
+
+#: addon/preferences.py:148
+msgid "Cache"
+msgstr "缓存"
+
+#: addon/panels.py:241
+msgid "Caches and outputs"
+msgstr "缓存与输出"
+
+#: addon/preferences.py:84
+msgid "Choose whether to keep a portable folder or write a zip archive"
+msgstr "选择保留便携文件夹还是写入 zip 压缩包"
+
+#: addon/preferences.py:129
+msgid "Debug"
+msgstr "调试"
+
+#: addon/preferences.py:48
+msgid "Default Output Directory"
+msgstr "默认输出目录"
+
+#: addon/panels.py:156
+msgid "Details"
+msgstr "详细信息"
+
+#: addon/preferences.py:72
+msgid "Embed Blender-packable resources (textures, sounds) inside the .blend copy. Useful for simple scenes where you don't need editable textures alongside; use Keep external for simulation caches or linked-library projects."
+msgstr "将 Blender 可打包的资源（纹理、声音）嵌入 .blend 副本。适用于无需同时保留可编辑纹理的简单场景；模拟缓存或链接库项目请使用「保持外部」。"
+
+#: addon/preferences.py:132
+msgid "Error"
+msgstr "错误"
+
+#: addon/panels.py:142
+msgid "Error:"
+msgstr "错误："
+
+#: addon/preferences.py:129
+msgid "Everything, including per-file copy traces"
+msgstr "全部内容，包括逐文件复制记录"
+
+#: addon/preferences.py:88
+msgid "Fastest. Keep the portable project as a folder; you can zip it yourself later."
+msgstr "最快。将便携项目保留为文件夹；之后可自行压缩为 zip。"
+
+#: addon/panels.py:309
+msgid "Fastest; zip manually later."
+msgstr "最快；稍后手动压缩为 zip。"
+
+#: addon/operators.py:422
+msgid "Fix missing or unverified project files before building"
+msgstr "构建前修复缺失或未验证的项目文件"
+
+#: addon/preferences.py:88
+msgid "Folder"
+msgstr "文件夹"
+
+#: addon/operators.py:523
+msgid "Folder where the add-on pack ZIP will be written"
+msgstr "插件包 ZIP 的写入文件夹"
+
+#: addon/preferences.py:58
+msgid "How to handle external assets when packing"
+msgstr "打包时如何处理外部资源"
+
+#: addon/preferences.py:102
+msgid "Include selected add-ons in the project package"
+msgstr "将所选插件包含在项目包中"
+
+#: addon/preferences.py:130
+msgid "Info"
+msgstr "信息"
+
+#: addon/preferences.py:62
+msgid "Keep external (recommended)"
+msgstr "保持外部（推荐）"
+
+#: addon/panels.py:225
+msgid "Linked libraries"
+msgstr "链接库"
+
+#: addon/panels.py:265
+msgid "Log"
+msgstr "日志"
+
+#: addon/preferences.py:118
+msgid "Log Level"
+msgstr "日志级别"
+
+#: addon/preferences.py:118
+msgid "Minimum severity captured in the panel log buffer and on-disk log file. Warning is a good default - bump it down to Info or Debug when debugging packing issues."
+msgstr "面板日志缓冲区和磁盘日志文件中记录的最低严重级别。「警告」是合适的默认值 — 调试打包问题时可下调至「信息」或「调试」。"
+
+#: addon/preferences.py:62
+msgid "Mirror your project folder inside the portable package. Assets that already live inside the project are kept in place; anything outside is copied into a category subfolder (textures/, sounds/, libraries/...). All paths become //-relative. The result is a self-contained project directory you can keep working with."
+msgstr "在便携包内镜像你的项目文件夹。已在项目内的资源保持原位；外部资源复制到类别子文件夹（textures/、sounds/、libraries/...）。所有路径变为 // 相对路径。结果是一个可继续使用的独立项目目录。"
+
+#: addon/panels.py:442
+msgid "Missing or unverified"
+msgstr "缺失或未验证"
+
+#: addon/panels.py:335
+msgid "Move project out of common user folders"
+msgstr "将项目移出常见用户文件夹"
+
+#: addon/operators.py:545
+msgid "No add-ons are available to pack"
+msgstr "没有可打包的插件"
+
+#: addon/panels.py:634
+msgid "No add-ons available to pack"
+msgstr "没有可打包的插件"
+
+#: addon/preferences.py:132
+msgid "Only failures"
+msgstr "仅失败项"
+
+#: addon/panels.py:260
+msgid "Orphan data-blocks"
+msgstr "孤立数据块"
+
+#: addon/panels.py:305
+#: addon/preferences.py:84
+msgid "Output"
+msgstr "输出"
+
+#: addon/operators.py:523
+msgid "Output Folder"
+msgstr "输出文件夹"
+
+#: addon/preferences.py:102
+msgid "Pack Selected Add-ons"
+msgstr "打包所选插件"
+
+#: addon/preferences.py:58
+msgid "Pack Strategy"
+msgstr "打包策略"
+
+#: addon/preferences.py:72
+msgid "Pack into .blend"
+msgstr "打包进 .blend"
+
+#: addon/panels.py:629
+msgid "Pack selected add-ons"
+msgstr "打包所选插件"
+
+#: addon/panels.py:190
+msgid "Packer will handle"
+msgstr "打包器将处理"
+
+#: addon/preferences.py:131
+msgid "Path-rule violations and missing files (default)"
+msgstr "路径规则违规和缺失文件（默认）"
+
+#: addon/panels.py:425
+msgid "Project changed since this check"
+msgstr "自此次检查后项目已更改"
+
+#: addon/panels.py:178
+msgid "Project check"
+msgstr "项目检查"
+
+#: addon/panels.py:206
+msgid "Project files"
+msgstr "项目文件"
+
+#: addon/operators.py:419
+msgid "Run Build Portable Package to check the project first"
+msgstr "先运行「构建便携包」以检查项目"
+
+#: addon/preferences.py:108
+msgid "Save Machine Diagnostics in Pack Manifest"
+msgstr "在打包清单中保存机器诊断信息"
+
+#: addon/preferences.py:108
+msgid "Save offline OS, Blender, hardware, and render capability diagnostics in blend-project-pack.json for troubleshooting. The add-on does not upload this data."
+msgstr "在 blend-project-pack.json 中保存离线操作系统、Blender、硬件和渲染能力诊断信息，以便排查问题。插件不会上传这些数据。"
+
+#: addon/panels.py:126
+msgid "Save the .blend to build a project package"
+msgstr "保存 .blend 后才能构建项目包"
+
+#: addon/operators.py:579
+msgid "Select at least one add-on to pack"
+msgstr "请至少选择一个要打包的插件"
+
+#: addon/panels.py:453
+msgid "Simulation caches"
+msgstr "模拟缓存"
+
+#: addon/preferences.py:93
+msgid "Slower on large projects because the portable folder must also be archived."
+msgstr "大型项目较慢，因为还需归档便携文件夹。"
+
+#: addon/panels.py:307
+msgid "Slower on large projects."
+msgstr "大型项目较慢。"
+
+#: addon/preferences.py:130
+msgid "Step start/finish + headless Blender output"
+msgstr "步骤开始/结束 + 无界面 Blender 输出"
+
+#: addon/preferences.py:131
+msgid "Warning"
+msgstr "警告"
+
+#: addon/preferences.py:48
+msgid "Where to write portable project folders or zip archives. Leave as // to write next to the current .blend"
+msgstr "便携项目文件夹或 zip 压缩包的写入位置。保留 // 可写入当前 .blend 旁边"
+
+#: addon/preferences.py:93
+msgid "Zip"
+msgstr "Zip"
+
+#: addon/panels.py:390
+msgctxt "Operator"
+msgid "Action required: click to review"
+msgstr "需要操作：点击查看"
+
+#: addon/operators.py:361
+#: addon/panels.py:315
+msgctxt "Operator"
+msgid "Build Portable Package"
+msgstr "构建便携包"
+
+#: addon/operators.py:484
+msgctxt "Operator"
+msgid "Cancel"
+msgstr "取消"
+
+#: addon/operators.py:362
+msgctxt "Operator"
+msgid "Check all assets in this scene and produce a portable project folder or zip for sharing, archiving, or rendering elsewhere"
+msgstr "检查此场景中的所有资产，并生成可移植的项目文件夹或 ZIP，用于分享、归档或在其他环境中渲染"
+
+#: addon/operators.py:660
+msgctxt "Operator"
+msgid "Clear Packer Cache"
+msgstr "清除打包器缓存"
+
+#: addon/panels.py:52
+#: addon/panels.py:74
+msgctxt "Operator"
+msgid "Confirm Before Building"
+msgstr "构建前确认"
+
+#: addon/operators.py:401
+msgctxt "Operator"
+msgid "Continue Build"
+msgstr "继续构建"
+
+#: addon/operators.py:402
+msgctxt "Operator"
+msgid "Continue building the portable package after reviewing project warnings"
+msgstr "查看项目警告后继续构建可移植包"
+
+#: addon/operators.py:520
+msgctxt "Operator"
+msgid "Create a ZIP containing selected add-ons"
+msgstr "创建包含所选插件的 ZIP"
+
+#: addon/operators.py:450
+#: addon/panels.py:148
+msgctxt "Operator"
+msgid "Open Output Folder"
+msgstr "打开输出文件夹"
+
+#: addon/operators.py:519
+msgctxt "Operator"
+msgid "Pack Add-ons Only"
+msgstr "仅打包插件"
+
+#: addon/panels.py:322
+msgctxt "Operator"
+msgid "Pack Add-ons Only..."
+msgstr "仅打包插件..."
+
+#: addon/panels.py:53
+#: addon/panels.py:75
+msgctxt "Operator"
+msgid "Review files, add-ons, and simulation caches before building"
+msgstr "构建前检查文件、插件和模拟缓存"
+
+#: addon/operators.py:505
+msgctxt "Operator"
+msgid "Toggle Add-on Bundle"
+msgstr "切换插件包"

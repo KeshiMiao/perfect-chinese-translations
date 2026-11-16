@@ -1,0 +1,2038 @@
+# perfect-chinese: 1
+# id: gn_toolkit
+# kind: addon
+# module: bl_ext.blender_org.gn_toolkit
+# name: GNToolkit
+# name_zh: 几何节点工具包
+# translator: KeshiMiao
+# category: Geometry Nodes
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: sync_ui.py:2694
+#: sync_ui.py:2697
+msgid ","
+msgstr ","
+
+#: sync_ui.py:1098
+#: sync_ui.py:1133
+msgid "..."
+msgstr "…"
+
+#: sync_operators.py:1896
+msgid "A backup of the destination file is written to backups/"
+msgstr "目标文件的备份将写入 backups/"
+
+#: sync_ui.py:1642
+msgid "A tree type mismatch cannot be merged - use Keep JSON or Keep Blend"
+msgstr "节点树类型不匹配，无法合并 - 请使用保留 JSON 或保留 Blend"
+
+#: sync_ui.py:925
+msgid "Add more"
+msgstr "添加更多"
+
+#: sync_operators.py:1765
+#: sync_operators.py:1798
+msgid "Add-on preferences are not available"
+msgstr "插件偏好设置不可用"
+
+#: operators.py:1076
+msgid "Advanced"
+msgstr "高级"
+
+#: sync_ui.py:2232
+msgid "After loading a .blend, compare the JSON hashes in the background and show a notice when files changed outside Blender"
+msgstr "加载 .blend 后，在后台比较 JSON 哈希，并在文件于 Blender 外部发生变化时显示通知"
+
+#: sync_ui.py:2239
+msgid "After loading a .blend, contact the Git remotes of the tracked repositories in the background (only when online access is enabled)"
+msgstr "加载 .blend 后，在后台联系已跟踪仓库的 Git 远程（仅在启用在线访问时）"
+
+#: sync_ui.py:836
+msgid "All synced"
+msgstr "全部已同步"
+
+#: sync_ui.py:2683
+msgid "Already in the .blend (not touched):"
+msgstr "已在 .blend 中（未改动）："
+
+#: sync_operators.py:567
+msgid "Already synced - nothing to import"
+msgstr "已同步 - 无需导入"
+
+#: sync_ui.py:1385
+msgid "An audit is already running"
+msgstr "审核已在运行"
+
+#: sync_ui.py:269
+msgid "Animation (keyframes/drivers) is not versioned"
+msgstr "动画（关键帧/驱动器）未纳入版本控制"
+
+#: operators.py:755
+msgid "Apply Modifiers"
+msgstr "应用修改器"
+
+#: operators.py:755
+msgid "Apply the modifiers stored in the JSON to existing objects with matching names"
+msgstr "将 JSON 中存储的修改器应用到名称匹配的现有物体"
+
+#: sync_operators.py:873
+#: sync_operators.py:952
+msgid "Around a group"
+msgstr "围绕组"
+
+#: sync_operators.py:967
+msgid "As arranged on the board"
+msgstr "按看板中的排列"
+
+#: sync_ui.py:1047
+msgid "Auditing in the background..."
+msgstr "正在后台审核…"
+
+#: sync_ui.py:2192
+msgid "Automatic"
+msgstr "自动"
+
+#: sync_ui.py:1003
+msgid "Bar marks: ~ edited | J JSON | ! conflict | M missing | F JSON missing"
+msgstr "条形标记：~ 已编辑 | J JSON | ! 冲突 | M 缺失 | F JSON 缺失"
+
+#: sync_ui.py:1100
+msgid "Base"
+msgstr "基准"
+
+#: sync_ui.py:999
+msgid "Board may be out of date"
+msgstr "看板可能已过期"
+
+#: operators.py:966
+msgid "Cancelled by user"
+msgstr "已被用户取消"
+
+#: sync_ui.py:503
+msgid "Changed in JSON"
+msgstr "JSON 中已更改"
+
+#: sync_ui.py:2232
+msgid "Check JSON on open"
+msgstr "打开时检查 JSON"
+
+#: sync_ui.py:2020
+msgid "Checking git state…"
+msgstr "正在检查 Git 状态…"
+
+#: sync_operators.py:3243
+msgid "Choose a JSON package file first"
+msgstr "请先选择 JSON 包文件"
+
+#: sync_ui.py:2401
+msgid "Clean"
+msgstr "干净"
+
+#: sync_ui.py:2424
+msgid "Click 'Validate' to check"
+msgstr "点击“验证”进行检查"
+
+#: sync_operators.py:899
+msgid "Cluster view: one bar per name prefix, aggregated status and edges."
+msgstr "聚类视图：每个名称前缀一个条形，显示聚合状态和边。"
+
+#: sync_operators.py:876
+msgid "Clusters (by prefix)"
+msgstr "聚类（按前缀）"
+
+#: sync_operators.py:1658
+msgid "Commit message (single line, like git commit -m)"
+msgstr "提交信息（单行，类似 git commit -m）"
+
+#: sync_operators.py:965
+msgid "Compact auto lay-out"
+msgstr "紧凑自动布局"
+
+#: operators.py:235
+msgid "Compositor groups"
+msgstr "合成器组"
+
+#: sync_ui.py:505
+msgid "Conflict"
+msgstr "冲突"
+
+#: sync_ui.py:1526
+msgid "Conflict resolved - kept the .blend version"
+msgstr "冲突已解决 - 保留了 .blend 版本"
+
+#: sync_ui.py:1550
+msgid "Conflict resolved - kept the JSON version"
+msgstr "冲突已解决 - 保留了 JSON 版本"
+
+#: sync_ui.py:664
+msgid "Conflicted"
+msgstr "有冲突"
+
+#: sync_operators.py:850
+#: sync_ui.py:1542
+msgid "Could not apply the JSON side - check the console/log (library-linked groups must be made local first)"
+msgstr "无法应用 JSON 侧 - 请检查控制台/日志（库链接的组必须先设为本地）"
+
+#: sync_operators.py:1742
+#: sync_ui.py:1498
+msgid "Could not open the system file browser"
+msgstr "无法打开系统文件浏览器"
+
+#: sync_ui.py:1519
+msgid "Could not write the JSON - check the console/log (e.g. unwritable file)"
+msgstr "无法写入 JSON - 请检查控制台/日志（例如文件不可写）"
+
+#: sync_ui.py:2277
+msgid "Credentials"
+msgstr "凭据"
+
+#: sync_ui.py:2694
+msgid "Differ from package:"
+msgstr "与包不同："
+
+#: sync_operators.py:1992
+msgid "Each entry versions the node tree plus the curated material settings"
+msgstr "每个条目会对节点树以及精选材质设置进行版本控制"
+
+#: sync_ui.py:501
+msgid "Edited locally"
+msgstr "本地已编辑"
+
+#: sync_ui.py:2194
+msgid "Embedded (dulwich)"
+msgstr "内嵌（dulwich）"
+
+#: sync_ui.py:2215
+msgid "Engine that runs the collaboration operations"
+msgstr "运行协作操作的引擎"
+
+#: sync_operators.py:1773
+msgid "Enter a token to save"
+msgstr "输入令牌以保存"
+
+#: sync_operators.py:875
+#: sync_operators.py:954
+msgid "Every tracked group"
+msgstr "每个已跟踪的组"
+
+#: sync_ui.py:2026
+msgid "Everything else works without it"
+msgstr "其他所有功能无需它即可使用"
+
+#: operators.py:221
+msgid "Exclude Libraries"
+msgstr "排除库"
+
+#: sync_ui.py:2710
+msgid "Existing groups are never touched - only missing dependencies are imported."
+msgstr "现有组绝不会被改动 - 仅导入缺失的依赖项。"
+
+#: sync_ui.py:960
+msgid "Explore"
+msgstr "浏览"
+
+#: sync_operators.py:2572
+msgid "Failed to read JSON (unreadable or concurrent write)"
+msgstr "读取 JSON 失败（无法读取或并发写入）"
+
+#: sync_ui.py:2239
+msgid "Fetch remotes on open"
+msgstr "打开时获取远程"
+
+#: sync_operators.py:1623
+#: sync_operators.py:1640
+msgid "File"
+msgstr "文件"
+
+#: sync_ui.py:495
+msgid "Filter"
+msgstr "筛选"
+
+#: sync_operators.py:883
+#: sync_operators.py:960
+msgid "Focus group"
+msgstr "聚焦组"
+
+#: sync_ui.py:1006
+#: sync_ui.py:2338
+msgid "Follow board selection"
+msgstr "跟随看板选择"
+
+#: sync_operators.py:2307
+msgid "Force Overwrite"
+msgstr "强制覆盖"
+
+#: __init__.py:27
+#: operators.py:1080
+msgid "GNToolkit"
+msgstr "GNToolkit"
+
+#: sync_ui.py:2373
+msgid "Geometry Nodes Validation"
+msgstr "几何节点验证"
+
+#: operators.py:229
+msgid "Geometry Nodes groups"
+msgstr "几何节点组"
+
+#: sync_ui.py:1995
+msgid "Git"
+msgstr "Git"
+
+#: sync_operators.py:1696
+msgid "Git commit started in background..."
+msgstr "Git 提交已在后台开始..."
+
+#: sync_ui.py:2215
+#: sync_ui.py:2269
+msgid "Git engine"
+msgstr "Git 引擎"
+
+#: sync_ui.py:2137
+msgid "Git operation in progress…"
+msgstr "Git 操作进行中…"
+
+#: sync_ui.py:2103
+msgid "Git sees file changes; GNToolkit is synced with the working JSON"
+msgstr "Git 检测到文件变更；GNToolkit 已与工作 JSON 同步"
+
+#: sync_operators.py:1721
+msgid "Git sync started in background..."
+msgstr "Git 同步已在后台开始..."
+
+#: sync_ui.py:2253
+msgid "Git user"
+msgstr "Git 用户"
+
+#: sync_ui.py:993
+msgid "Graph incomplete: increase the port cap or use a neighborhood."
+msgstr "图不完整：增加端口上限或使用邻域。"
+
+#: sync_operators.py:1821
+#: sync_operators.py:3096
+msgid "Group"
+msgstr "组"
+
+#: sync_operators.py:502
+msgid "Group not found in metadata"
+msgstr "元数据中未找到组"
+
+#: sync_operators.py:2327
+msgid "Groups missing from the .blend are skipped"
+msgstr ".blend 中缺失的组将被跳过"
+
+#: sync_operators.py:880
+#: sync_operators.py:957
+msgid "Hops"
+msgstr "Hops"
+
+#: sync_ui.py:2247
+msgid "Host"
+msgstr "主机"
+
+#: sync_ui.py:2247
+msgid "Host the credentials apply to (e.g. github.com) — filled from the tracked remotes"
+msgstr "凭据适用的主机（例如 github.com）— 从跟踪的远程仓库填充"
+
+#: sync_ui.py:589
+msgid "IGNORED"
+msgstr "已忽略"
+
+#: sync_ui.py:511
+msgid "Ignored"
+msgstr "已忽略"
+
+#: operators.py:235
+msgid "Include Compositor node group trees (scene compositors and reusable compositor groups)"
+msgstr "包含合成器节点组树（场景合成器和可复用合成器组）"
+
+#: operators.py:229
+msgid "Include Geometry Nodes group trees"
+msgstr "包含几何节点组树"
+
+#: operators.py:239
+msgid "Include NODES modifier setups (exported only together with Geometry Nodes groups)"
+msgstr "包含 NODES 修改器设置（仅与几何节点组一起导出）"
+
+#: operators.py:232
+msgid "Include Shader node group trees"
+msgstr "包含着色器节点组树"
+
+#: operators.py:243
+msgid "Include material node trees"
+msgstr "包含材质节点树"
+
+#: sync_operators.py:881
+#: sync_operators.py:958
+msgid "Include untracked references"
+msgstr "包含未跟踪的引用"
+
+#: operators.py:246
+msgid "Include world node trees"
+msgstr "包含世界节点树"
+
+#: sync_ui.py:1832
+msgid "Index"
+msgstr "索引"
+
+#: sync_ui.py:2091
+msgid "Index: clean"
+msgstr "索引：干净"
+
+#: sync_ui.py:2034
+msgid "Init one with your Git tooling, then refresh"
+msgstr "使用 Git 工具初始化一个，然后刷新"
+
+#: sync_operators.py:1110
+msgid "Issue ignored - status still tracked"
+msgstr "问题已忽略 - 状态仍被跟踪"
+
+#: sync_operators.py:1135
+msgid "Issue un-ignored"
+msgstr "问题已取消忽略"
+
+#: sync_ui.py:1101
+#: sync_ui.py:1135
+msgid "JSON"
+msgstr "JSON"
+
+#: sync_ui.py:509
+msgid "JSON missing"
+msgstr "JSON 缺失"
+
+#: sync_operators.py:3092
+msgid "JSON package to import from"
+msgstr "要从中导入的 JSON 包"
+
+#: sync_ui.py:1474
+msgid "JSON path copied to clipboard"
+msgstr "JSON 路径已复制到剪贴板"
+
+#: sync_ui.py:1134
+msgid "Keep the local .blend structure"
+msgstr "保留本地 .blend 结构"
+
+#: sync_ui.py:1099
+msgid "Keep the local .blend value"
+msgstr "保留本地 .blend 值"
+
+#: sync_operators.py:963
+msgid "Layout"
+msgstr "布局"
+
+#: sync_ui.py:2317
+msgid "List each out-of-sync group with its actions"
+msgstr "列出每个不同步的组及其操作"
+
+#: sync_ui.py:2311
+msgid "List every JSON file that tracked groups point to (folder exports can produce one file per group)"
+msgstr "列出跟踪组指向的每个 JSON 文件（文件夹导出可为每个组生成一个文件）"
+
+#: sync_ui.py:2360
+msgid "List every changed/staged JSON file instead of the first 50"
+msgstr "列出每个已更改/已暂存的 JSON 文件，而不是前 50 个"
+
+#: sync_ui.py:2349
+msgid "List every out-of-sync group instead of the first 50"
+msgstr "列出每个不同步的组，而不是前 50 个"
+
+#: sync_ui.py:2322
+msgid "List every out-of-sync group with mark/unmark/discard/pull actions (the staging list for the next save)"
+msgstr "列出每个不同步的组及标记/取消标记/放弃/拉取操作（下次保存的暂存列表）"
+
+#: sync_ui.py:2354
+msgid "List the changed tracked JSON files with their Stage/Unstage buttons (the staging list for the next commit)"
+msgstr "列出已更改的跟踪 JSON 文件及其暂存/取消暂存按钮（下次提交的暂存列表）"
+
+#: sync_ui.py:2333
+msgid "List the latest commits of the active group's JSON file"
+msgstr "列出活动组 JSON 文件的最新提交"
+
+#: sync_ui.py:2328
+msgid "List the latest commits of the git repository"
+msgstr "列出 Git 仓库的最新提交"
+
+#: sync_operators.py:856
+msgid "Local changes discarded - JSON version applied"
+msgstr "本地更改已放弃 - 已应用 JSON 版本"
+
+#: sync_ui.py:255
+msgid "Make it local to track"
+msgstr "将其设为本地以进行跟踪"
+
+#: sync_ui.py:529
+msgid "Mark to save"
+msgstr "标记为保存"
+
+#: sync_operators.py:368
+msgid "Material"
+msgstr "材质"
+
+#: sync_operators.py:385
+msgid "Material not found"
+msgstr "未找到材质"
+
+#: operators.py:243
+msgid "Materials"
+msgstr "材质"
+
+#: sync_ui.py:2223
+msgid "Maximum seconds to wait for remote Git operations (fetch, pull, push) before cancelling them"
+msgstr "远程 Git 操作（获取、拉取、推送）在取消前的最大等待秒数"
+
+#: sync_ui.py:664
+msgid "Merged"
+msgstr "已合并"
+
+#: sync_operators.py:1658
+msgid "Message"
+msgstr "消息"
+
+#: operators.py:220
+#: operators.py:463
+msgid "Minify JSON"
+msgstr "压缩 JSON"
+
+#: sync_ui.py:507
+msgid "Missing in blend"
+msgstr ".blend 中缺失"
+
+#: operators.py:239
+msgid "Modifiers (NODES)"
+msgstr "修改器（NODES）"
+
+#: operators.py:468
+msgid "Must be in Node Editor."
+msgstr "必须在节点编辑器中。"
+
+#: sync_operators.py:262
+msgid "Name of the node group to link"
+msgstr "要链接的节点组名称"
+
+#: sync_ui.py:2271
+msgid "Network"
+msgstr "网络"
+
+#: sync_ui.py:2223
+msgid "Network Timeout (s)"
+msgstr "网络超时（秒）"
+
+#: sync_ui.py:2024
+msgid "No Git engine available — collaboration is optional"
+msgstr "无可用 Git 引擎 — 协作是可选的"
+
+#: sync_ui.py:1471
+msgid "No JSON path to copy"
+msgstr "没有可复制的 JSON 路径"
+
+#: sync_ui.py:2765
+msgid "No Node Editor area is available"
+msgstr "没有可用的节点编辑器区域"
+
+#: sync_operators.py:373
+msgid "No active material found (open a material in the Shader Editor)"
+msgstr "未找到活动材质（请在着色器编辑器中打开材质）"
+
+#: sync_operators.py:272
+msgid "No active node group found"
+msgstr "未找到活动的节点组"
+
+#: operators.py:473
+msgid "No active node tree."
+msgstr "没有活动的节点树。"
+
+#: sync_operators.py:1013
+msgid "No board on screen — build the graph view first, or use the compact auto lay-out."
+msgstr "屏幕上没有面板 — 请先构建图表视图，或使用紧凑自动布局。"
+
+#: sync_operators.py:1540
+#: sync_operators.py:1560
+msgid "No changed tracked JSON files"
+msgstr "没有已更改的受跟踪 JSON 文件"
+
+#: sync_ui.py:490
+msgid "No changes - everything is saved"
+msgstr "无更改 - 所有内容均已保存"
+
+#: sync_ui.py:557
+msgid "No changes match current filters"
+msgstr "没有符合当前筛选条件的更改"
+
+#: sync_ui.py:2166
+msgid "No commits yet"
+msgstr "尚无提交"
+
+#: operators.py:880
+msgid "No data found."
+msgstr "未找到数据。"
+
+#: sync_ui.py:1618
+msgid "No editable merge report - press Merge in the entry row first"
+msgstr "没有可编辑的合并报告 - 请先按条目行中的合并"
+
+#: operators.py:803
+msgid "No file selected."
+msgstr "未选择文件。"
+
+#: sync_ui.py:2422
+#: sync_ui.py:2628
+msgid "No geometry issues found"
+msgstr "未发现几何体问题"
+
+#: sync_operators.py:1071
+msgid "No graph board to rebuild"
+msgstr "没有可重建的图表面板"
+
+#: sync_operators.py:908
+#: sync_operators.py:990
+msgid "No groups tracked."
+msgstr "未跟踪任何节点组。"
+
+#: sync_operators.py:2332
+#: sync_operators.py:2383
+msgid "No groups tracked. Use 'Track All' or 'Track from Existing JSON' first."
+msgstr "未跟踪任何节点组。请先使用「全部跟踪」或「从现有 JSON 跟踪」。"
+
+#: sync_operators.py:299
+msgid "No node group specified"
+msgstr "未指定节点组"
+
+#: sync_ui.py:488
+msgid "No status yet - click Refresh Status"
+msgstr "尚无状态 - 请点击刷新状态"
+
+#: sync_operators.py:1915
+msgid "No trackable node groups found in this .blend"
+msgstr "此 .blend 中未找到可跟踪的节点组"
+
+#: sync_operators.py:497
+#: sync_operators.py:562
+msgid "No tracked group found"
+msgstr "未找到受跟踪的节点组"
+
+#: sync_operators.py:1161
+#: sync_ui.py:1393
+msgid "No tracked groups"
+msgstr "没有受跟踪的节点组"
+
+#: sync_ui.py:1065
+msgid "No untracked dependencies"
+msgstr "没有未跟踪的依赖项"
+
+#: sync_operators.py:1839
+msgid "No untracked dependencies found"
+msgstr "未发现未跟踪的依赖项"
+
+#: sync_operators.py:435
+msgid "No world found"
+msgstr "未找到世界环境"
+
+#: __init__.py:27
+msgid "Node"
+msgstr "节点"
+
+#: sync_operators.py:262
+msgid "Node Group"
+msgstr "节点组"
+
+#: sync_operators.py:3096
+msgid "Node group to import from the selected JSON package"
+msgstr "要从所选 JSON 包导入的节点组"
+
+#: sync_operators.py:3234
+msgid "Node group to track"
+msgstr "要跟踪的节点组"
+
+#: sync_ui.py:1098
+#: sync_ui.py:1133
+msgid "Not decided yet"
+msgstr "尚未决定"
+
+#: sync_ui.py:2680
+msgid "Not found in this package"
+msgstr "此包中未找到"
+
+#: sync_ui.py:2395
+msgid "Not run"
+msgstr "未运行"
+
+#: sync_operators.py:788
+msgid "Nothing marked - mark changes first"
+msgstr "未标记任何内容 - 请先标记更改"
+
+#: operators.py:271
+msgid "Nothing to export - enable at least one category"
+msgstr "无可导出内容 - 请至少启用一个类别"
+
+#: sync_operators.py:2484
+msgid "Nothing to retry"
+msgstr "没有可重试的内容"
+
+#: sync_ui.py:546
+msgid "Nothing to save"
+msgstr "没有可保存的内容"
+
+#: sync_operators.py:525
+msgid "Nothing tracked"
+msgstr "未跟踪任何内容"
+
+#: sync_ui.py:889
+msgid "Nothing tracked yet"
+msgstr "尚未跟踪任何内容"
+
+#: sync_ui.py:2273
+msgid "On file open"
+msgstr "打开文件时"
+
+#: sync_operators.py:876
+msgid "One bar per name prefix; aggregated status and edges"
+msgstr "每个名称前缀一个条形；聚合状态和边"
+
+#: operators.py:1108
+msgid "One-shot export/import of the whole project."
+msgstr "一次性导出/导入整个项目。"
+
+#: operators.py:1091
+msgid "One-shot tools: package, project health and validation"
+msgstr "一次性工具：打包、项目健康状况和验证"
+
+#: sync_operators.py:1715
+msgid "Online access is disabled in Blender preferences - Git Sync needs it to push/pull. Git Commit still works locally"
+msgstr "Blender 偏好设置中已禁用在线访问 - Git 同步需要它来推送/拉取。Git 提交仍可在本地使用"
+
+#: sync_ui.py:2338
+msgid "Open History automatically when a GNT Graph bar is selected (otherwise use the bar's History button)"
+msgstr "选择 GNT 图表条形时自动打开历史记录（否则使用该条形的历史记录按钮）"
+
+#: sync_ui.py:1099
+#: sync_ui.py:1134
+msgid "Ours"
+msgstr "我方"
+
+#: sync_operators.py:2307
+msgid "Overwrite JSON even if it was modified externally"
+msgstr "即使 JSON 被外部修改也覆盖"
+
+#: operators.py:1097
+#: sync_operators.py:3092
+msgid "Package"
+msgstr "包"
+
+#: sync_ui.py:2259
+msgid "Personal access token — stored in the OS vault when available"
+msgstr "个人访问令牌 — 可用时存储在操作系统密钥库中"
+
+#: sync_operators.py:3113
+msgid "Pick a group from the list first"
+msgstr "请先从列表中选择一个组"
+
+#: sync_ui.py:1023
+msgid "Project Health"
+msgstr "项目健康状况"
+
+#: sync_ui.py:1042
+msgid "Project audit"
+msgstr "项目审计"
+
+#: sync_operators.py:597
+msgid "Pull from JSON completed"
+msgstr "从 JSON 拉取完成"
+
+#: sync_ui.py:2194
+msgid "Pure-Python engine bundled with the add-on — no external program needed"
+msgstr "插件自带的纯 Python 引擎 — 无需外部程序"
+
+#: sync_ui.py:751
+msgid "Ready"
+msgstr "就绪"
+
+#: sync_ui.py:437
+msgid "Rebuild applied - save the .blend to persist (Ctrl+S)"
+msgstr "已应用重建 - 保存 .blend 以持久化（Ctrl+S）"
+
+#: sync_operators.py:965
+msgid "Recompute the compact layered layout"
+msgstr "重新计算紧凑分层布局"
+
+#: operators.py:762
+msgid "Replace the content of groups that already exist in the file with the JSON version. Modifiers referencing them and external links are preserved"
+msgstr "用 JSON 版本替换文件中已存在组的内容。引用它们的修改器和外部链接会保留"
+
+#: sync_operators.py:1623
+msgid "Repo-relative JSON path (empty stages every changed file)"
+msgstr "相对于仓库的 JSON 路径（留空则暂存所有已更改文件）"
+
+#: sync_operators.py:1640
+msgid "Repo-relative JSON path (empty unstages every staged file)"
+msgstr "相对于仓库的 JSON 路径（留空则取消暂存所有已暂存文件）"
+
+#: sync_operators.py:1533
+#: sync_operators.py:1622
+msgid "Repository"
+msgstr "仓库"
+
+#: sync_ui.py:2156
+msgid "Repository history"
+msgstr "仓库历史"
+
+#: sync_operators.py:1597
+#: sync_operators.py:1666
+msgid "Repository not found"
+msgstr "未找到仓库"
+
+#: sync_operators.py:1556
+msgid "Repository state is unavailable"
+msgstr "仓库状态不可用"
+
+#: sync_ui.py:2146
+msgid "Resolve the conflicts with your Git tooling"
+msgstr "使用你的 Git 工具解决冲突"
+
+#: sync_ui.py:878
+msgid "Restore the matching sidecar or re-track these groups"
+msgstr "恢复匹配的附属文件，或重新跟踪这些组"
+
+#: sync_ui.py:1100
+msgid "Restore the pre-edit value"
+msgstr "恢复编辑前的值"
+
+#: sync_ui.py:751
+msgid "Restored"
+msgstr "已恢复"
+
+#: sync_operators.py:961
+msgid "SVG file"
+msgstr "SVG 文件"
+
+#: sync_ui.py:2861
+msgid "Save"
+msgstr "保存"
+
+#: sync_operators.py:639
+msgid "Save blocked - the JSON was modified externally. Pull first or resolve the conflict."
+msgstr "保存被阻止 - JSON 已在外部修改。请先拉取或解决冲突。"
+
+#: sync_operators.py:636
+msgid "Saved to JSON"
+msgstr "已保存到 JSON"
+
+#: sync_operators.py:871
+#: sync_operators.py:950
+msgid "Scope"
+msgstr "范围"
+
+#: sync_ui.py:2675
+msgid "Search and select a group to see the plan."
+msgstr "搜索并选择组以查看计划。"
+
+#: sync_operators.py:3110
+msgid "Select a JSON package file first"
+msgstr "请先选择 JSON 包文件"
+
+#: sync_ui.py:2716
+msgid "Select a group first"
+msgstr "请先选择组"
+
+#: sync_ui.py:1850
+msgid "Select a revision first"
+msgstr "请先选择修订版"
+
+#: sync_ui.py:1018
+msgid "Select a row's History or a board bar."
+msgstr "选择某一行的历史记录或看板栏。"
+
+#: sync_operators.py:920
+#: sync_operators.py:1002
+msgid "Select a tracked group in a Node Editor (or switch to the whole project scope)."
+msgstr "在节点编辑器中选择已跟踪的组（或切换到整个项目范围）。"
+
+#: sync_operators.py:2111
+msgid "Select any file inside the exported folder"
+msgstr "选择导出文件夹中的任意文件"
+
+#: operators.py:221
+msgid "Semicolon-separated path fragments. Groups linked from a library whose path contains any fragment are skipped (e.g. Blender's datafiles or a third-party toolset)"
+msgstr "以分号分隔的路径片段。会跳过从路径包含任一片段的库链接的组（例如 Blender 的 datafiles 或第三方工具集）"
+
+#: sync_operators.py:1770
+#: sync_operators.py:1802
+msgid "Set the host first (e.g. github.com)"
+msgstr "请先设置主机（例如 github.com）"
+
+#: operators.py:232
+msgid "Shader groups"
+msgstr "着色器组"
+
+#: sync_ui.py:644
+msgid "Show"
+msgstr "显示"
+
+#: sync_ui.py:2333
+msgid "Show Active Group History"
+msgstr "显示活动组历史"
+
+#: sync_ui.py:2296
+msgid "Show Changed in JSON"
+msgstr "显示 JSON 中已更改"
+
+#: sync_ui.py:2322
+msgid "Show Changes"
+msgstr "显示更改"
+
+#: sync_ui.py:2299
+msgid "Show Conflict"
+msgstr "显示冲突"
+
+#: sync_ui.py:2293
+msgid "Show Edited Locally"
+msgstr "显示本地已编辑"
+
+#: sync_ui.py:2308
+msgid "Show Ignored"
+msgstr "显示已忽略"
+
+#: sync_ui.py:2317
+msgid "Show Issue List"
+msgstr "显示问题列表"
+
+#: sync_ui.py:2305
+msgid "Show JSON File Missing"
+msgstr "显示缺失的 JSON 文件"
+
+#: sync_ui.py:2311
+msgid "Show JSON Files"
+msgstr "显示 JSON 文件"
+
+#: sync_ui.py:2354
+msgid "Show JSON files"
+msgstr "显示 JSON 文件"
+
+#: sync_ui.py:2302
+msgid "Show Missing in Blend"
+msgstr "显示 .blend 中缺失项"
+
+#: sync_ui.py:2328
+msgid "Show Repository History"
+msgstr "显示仓库历史"
+
+#: sync_ui.py:564
+#: sync_ui.py:1989
+msgid "Show all"
+msgstr "显示全部"
+
+#: sync_ui.py:2360
+msgid "Show all JSON files"
+msgstr "显示所有 JSON 文件"
+
+#: sync_ui.py:2349
+msgid "Show all changes"
+msgstr "显示所有更改"
+
+#: sync_ui.py:2344
+msgid "Show change filters"
+msgstr "显示更改筛选器"
+
+#: sync_ui.py:486
+msgid "Show ignored"
+msgstr "显示已忽略"
+
+#: sync_ui.py:2344
+msgid "Show the status filters in the Changes list"
+msgstr "在更改列表中显示状态筛选器"
+
+#: sync_ui.py:2163
+msgid "Shows the last 10 commits (newest first)"
+msgstr "显示最近 10 次提交（最新在前）"
+
+#: sync_ui.py:1952
+msgid "Stage = goes into the next commit"
+msgstr "暂存 = 纳入下一次提交"
+
+#: sync_ui.py:2133
+msgid "Stage the JSON files that go into the next commit"
+msgstr "暂存将进入下一次提交的 JSON 文件"
+
+#: sync_operators.py:342
+msgid "Start tracking the active scene's compositor group (Compositor Nodes, Blender 5.0+): writes its JSON from the current .blend content (first save)"
+msgstr "开始跟踪活动场景的合成器节点组（Compositor Nodes，Blender 5.0+）：根据当前 .blend 内容写入其 JSON（首次保存）"
+
+#: sync_operators.py:1151
+msgid "Status check already running"
+msgstr "状态检查已在运行"
+
+#: sync_operators.py:1252
+msgid "Status check cancelled"
+msgstr "状态检查已取消"
+
+#: sync_ui.py:802
+msgid "Status not checked"
+msgstr "状态未检查"
+
+#: sync_ui.py:820
+msgid "Status partially checked - Refresh Status"
+msgstr "状态仅部分检查 - 刷新状态"
+
+#: sync_ui.py:725
+msgid "Structure changed on both sides - pick one side"
+msgstr "双方结构均已更改 - 请选择一侧"
+
+#: sync_ui.py:859
+msgid "Sync"
+msgstr "同步"
+
+#: sync_ui.py:1135
+msgid "Take the structure from the JSON file"
+msgstr "从 JSON 文件采用结构"
+
+#: sync_ui.py:1101
+msgid "Take the value from the JSON file"
+msgstr "从 JSON 文件采用值"
+
+#: sync_operators.py:1901
+#: sync_operators.py:2548
+msgid "The .blend is not saved yet - tracking is kept in memory until you save. Save the file to persist the sidecar and relative JSON paths."
+msgstr ".blend 尚未保存 - 跟踪信息会保留在内存中，直到你保存。保存文件以保留附属文件和相对 JSON 路径。"
+
+#: sync_ui.py:2105
+msgid "The JSON may contain uncommitted changes."
+msgstr "JSON 可能包含未提交的更改。"
+
+#: sync_operators.py:351
+msgid "The active scene has no compositor node group"
+msgstr "活动场景没有合成器节点组"
+
+#: sync_operators.py:1892
+msgid "The existing JSON will be overwritten — a copy is kept in backups/"
+msgstr "现有 JSON 将被覆盖 — 备份保留在 backups/ 中"
+
+#: operators.py:489
+msgid "The graph board is a disposable view and cannot be exported"
+msgstr "图板是一次性视图，无法导出"
+
+#: sync_operators.py:307
+msgid "The graph board is a disposable view and cannot be tracked"
+msgstr "图板是一次性视图，无法跟踪"
+
+#: sync_ui.py:2495
+msgid "The node no longer exists"
+msgstr "节点已不存在"
+
+#: sync_ui.py:2742
+msgid "The node tree was not found"
+msgstr "未找到节点树"
+
+#: sync_operators.py:873
+#: sync_operators.py:952
+msgid "The selected/active group and its dependencies/dependents"
+msgstr "所选/活动组及其依赖项/依赖方"
+
+#: sync_operators.py:2377
+msgid "Their JSON files will be overwritten — a backup copy is kept in backups/"
+msgstr "其 JSON 文件将被覆盖 — 备份副本保留在 backups/ 中"
+
+#: operators.py:1110
+msgid "This does not create tracking; use Track for that."
+msgstr "此操作不会创建跟踪；请使用「跟踪」"
+
+#: sync_ui.py:2738
+msgid "This entry is no longer tracked"
+msgstr "此条目已不再被跟踪"
+
+#: sync_ui.py:2259
+msgid "Token"
+msgstr "令牌"
+
+#: sync_ui.py:910
+msgid "Track"
+msgstr "跟踪"
+
+#: sync_operators.py:341
+msgid "Track Scene Compositor"
+msgstr "跟踪场景合成器"
+
+#: sync_operators.py:1821
+msgid "Track only this dependency group (empty = every untracked one)"
+msgstr "仅跟踪此依赖组（留空 = 所有未跟踪项）"
+
+#: sync_ui.py:2032
+msgid "Tracked JSONs are not inside a git repository"
+msgstr "已跟踪的 JSON 不在 git 仓库内"
+
+#: sync_ui.py:1378
+msgid "Tracked group for the impact report (defaults to the active node editor tree)"
+msgstr "用于影响报告的已跟踪组（默认为活动节点编辑器树）"
+
+#: sync_ui.py:955
+msgid "Tracking writes the JSON and metadata; Save writes later changes."
+msgstr "跟踪会写入 JSON 和元数据；保存会写入后续更改"
+
+#: sync_ui.py:731
+msgid "Tree type mismatch: not mergeable - use Keep JSON or Keep Blend"
+msgstr "树类型不匹配：无法合并 - 请使用保留 JSON 或保留 .blend"
+
+#: sync_operators.py:489
+#: sync_operators.py:554
+msgid "UUID"
+msgstr "UUID"
+
+#: sync_operators.py:489
+#: sync_operators.py:554
+msgid "UUID of the tracked group"
+msgstr "已跟踪组的 UUID"
+
+#: sync_ui.py:2697
+msgid "Unconnected refs:"
+msgstr "未连接的引用："
+
+#: sync_ui.py:2086
+msgid "Unstage the foreign paths with your Git client first"
+msgstr "请先用 Git 客户端取消暂存外部路径"
+
+#: operators.py:762
+msgid "Update existing groups"
+msgstr "更新现有组"
+
+#: operators.py:219
+msgid "Use Folder Structure"
+msgstr "使用文件夹结构"
+
+#: sync_ui.py:890
+msgid "Use Track to add a group, material or world."
+msgstr "使用“跟踪”添加组、材质或世界"
+
+#: sync_ui.py:2192
+msgid "Use the embedded engine bundled with the add-on"
+msgstr "使用插件自带的嵌入式引擎"
+
+#: sync_operators.py:967
+msgid "Use the node editor board's current positions, e.g. after an external node arrangement"
+msgstr "使用节点编辑器图板的当前位置，例如外部节点排列之后"
+
+#: sync_ui.py:2253
+msgid "Username for token authentication (any non-empty name works with token logins)"
+msgstr "令牌认证的用户名（令牌登录时任何非空名称均可）"
+
+#: sync_ui.py:2619
+msgid "Validation is already running"
+msgstr "验证已在运行"
+
+#: sync_ui.py:2411
+msgid "Validation runs in the background; you can close Advanced."
+msgstr "验证在后台运行；可以关闭“高级”"
+
+#: sync_ui.py:1120
+#: sync_ui.py:1121
+msgid "Value"
+msgstr "值"
+
+#: __init__.py:27
+msgid "Version control with semantics for Blender node trees."
+msgstr "为 Blender 节点树提供语义化版本控制"
+
+#: sync_operators.py:2059
+msgid "Versions each world's node tree plus its curated settings"
+msgstr "对每个世界的节点树及其精选设置进行版本控制"
+
+#: sync_operators.py:875
+#: sync_operators.py:954
+msgid "Whole project"
+msgstr "整个项目"
+
+#: sync_ui.py:2689
+msgid "Will be imported:"
+msgstr "将导入："
+
+#: sync_operators.py:430
+msgid "World"
+msgstr "世界"
+
+#: sync_operators.py:445
+msgid "World not found"
+msgstr "未找到世界"
+
+#: operators.py:246
+msgid "Worlds"
+msgstr "世界"
+
+#: sync_ui.py:2048
+msgid "git status failed"
+msgstr "git status 失败"
+
+#: sync_ui.py:939
+msgctxt "Operator"
+msgid "Adopt existing JSON..."
+msgstr "采用现有 JSON..."
+
+#: sync_ui.py:736
+#: sync_ui.py:1608
+msgctxt "Operator"
+msgid "Apply Chosen Merge"
+msgstr "应用所选合并"
+
+#: sync_operators.py:2413
+msgctxt "Operator"
+msgid "Apply JSON changes to the .blend for every group that changed in the JSON; warns before overwriting local edits"
+msgstr "将 JSON 更改应用到 .blend 中每个在 JSON 中发生更改的组；覆盖本地编辑前会警告"
+
+#: sync_operators.py:1703
+msgctxt "Operator"
+msgid "Bring remote changes in and push local commits; when the branch diverged, the tracked JSON files merge per item (nothing is written if anything conflicts)"
+msgstr "引入远程更改并推送本地提交；分支已分叉时，已跟踪的 JSON 文件按条目合并（如有冲突则不写入任何内容）"
+
+#: sync_ui.py:1769
+msgctxt "Operator"
+msgid "Browse this entry's JSON revisions (git history) and restore an old version into the JSON - the .blend is not touched"
+msgstr "浏览此条目的 JSON 修订（git 历史）并将旧版本恢复到 JSON 中 - 不会改动 .blend"
+
+#: sync_ui.py:798
+#: sync_ui.py:1046
+msgctxt "Operator"
+msgid "Cancel"
+msgstr "取消"
+
+#: sync_ui.py:1430
+msgctxt "Operator"
+msgid "Cancel Audit"
+msgstr "取消审查"
+
+#: sync_operators.py:1244
+msgctxt "Operator"
+msgid "Cancel Status Check"
+msgstr "取消状态检查"
+
+#: sync_ui.py:2598
+msgctxt "Operator"
+msgid "Cancel Validation"
+msgstr "取消验证"
+
+#: sync_ui.py:2773
+msgctxt "Operator"
+msgid "Change Actions"
+msgstr "更改操作"
+
+#: sync_ui.py:2614
+msgctxt "Operator"
+msgid "Check all tracked groups for geometry issues"
+msgstr "检查所有已跟踪组的几何问题"
+
+#: sync_ui.py:1372
+msgctxt "Operator"
+msgid "Check every tracked JSON for duplicate logic, missing/unreadable/conflicted files and untracked references, and report the dependency impact of the selected group"
+msgstr "检查每个已跟踪 JSON 的重复逻辑、缺失/不可读/冲突文件及未跟踪引用，并报告所选组的依赖影响"
+
+#: sync_ui.py:1446
+msgctxt "Operator"
+msgid "Clear Audit Report"
+msgstr "清除审查报告"
+
+#: sync_operators.py:1047
+msgctxt "Operator"
+msgid "Clear Graph"
+msgstr "清除图板"
+
+#: sync_ui.py:1682
+msgctxt "Operator"
+msgid "Clear Merge Report"
+msgstr "清除合并报告"
+
+#: sync_ui.py:981
+msgctxt "Operator"
+msgid "Clear graph"
+msgstr "清除图板"
+
+#: sync_operators.py:2511
+msgctxt "Operator"
+msgid "Clear the failed-import list"
+msgstr "清除导入失败列表"
+
+#: sync_ui.py:1807
+msgctxt "Operator"
+msgid "Close History"
+msgstr "关闭历史"
+
+#: sync_operators.py:3025
+msgctxt "Operator"
+msgid "Close Import Picker"
+msgstr "关闭导入选择器"
+
+#: sync_ui.py:976
+msgctxt "Operator"
+msgid "Clusters..."
+msgstr "簇..."
+
+#: sync_operators.py:1652
+msgctxt "Operator"
+msgid "Commit the tracked JSON files staged in the Git index to the local git repository - only files managed by this addon are committed"
+msgstr "将 Git 索引中已暂存的已跟踪 JSON 文件提交到本地 git 仓库 - 仅提交此插件管理的文件"
+
+#: sync_ui.py:1463
+msgctxt "Operator"
+msgid "Copy JSON Path"
+msgstr "复制 JSON 路径"
+
+#: sync_ui.py:1464
+msgctxt "Operator"
+msgid "Copy the full JSON file path to the clipboard"
+msgstr "将完整 JSON 文件路径复制到剪贴板"
+
+#: sync_ui.py:2169
+msgctxt "Operator"
+msgid "Credentials & Git settings..."
+msgstr "凭据与 Git 设置..."
+
+#: sync_operators.py:1791
+msgctxt "Operator"
+msgid "Delete the stored token for the host"
+msgstr "删除该主机存储的令牌"
+
+#: sync_operators.py:1528
+msgctxt "Operator"
+msgid "Discard Cosmetic-only Changes"
+msgstr "丢弃仅外观更改"
+
+#: sync_operators.py:826
+msgctxt "Operator"
+msgid "Discard Local Changes"
+msgstr "丢弃本地更改"
+
+#: sync_ui.py:2107
+msgctxt "Operator"
+msgid "Discard cosmetic-only changes"
+msgstr "丢弃仅外观更改"
+
+#: sync_ui.py:2844
+msgctxt "Operator"
+msgid "Discard local changes"
+msgstr "丢弃本地更改"
+
+#: sync_operators.py:2510
+#: sync_ui.py:454
+msgctxt "Operator"
+msgid "Dismiss"
+msgstr "关闭"
+
+#: sync_operators.py:867
+msgctxt "Operator"
+msgid "Draw the dependency graph as a disposable node tree, coloured by sync status (nothing is saved)"
+msgstr "将依赖图绘制为一次性节点树，按同步状态着色（不会保存任何内容）"
+
+#: sync_operators.py:740
+msgctxt "Operator"
+msgid "Exclude this group from the next save to JSON"
+msgstr "在下一次保存到 JSON 时排除此组"
+
+#: operators.py:458
+msgctxt "Operator"
+msgid "Export Active Group"
+msgstr "导出活动组"
+
+#: operators.py:212
+msgctxt "Operator"
+msgid "Export JSON Package"
+msgstr "导出 JSON 包"
+
+#: operators.py:1119
+msgctxt "Operator"
+msgid "Export active group..."
+msgstr "导出活动组..."
+
+#: operators.py:213
+msgctxt "Operator"
+msgid "Export all node groups (Geometry Nodes, Shader and Compositor) and NODES modifiers to JSON — a single package file, or one file per group in folders with 'Use Folder Structure'"
+msgstr "将所有节点组（几何节点、着色器和合成器）及 NODES 修改器导出为 JSON — 可导出为单个包文件，或在启用“使用文件夹结构”时按组分别导出为文件夹中的文件"
+
+#: operators.py:1113
+msgctxt "Operator"
+msgid "Export package..."
+msgstr "导出包..."
+
+#: sync_operators.py:946
+msgctxt "Operator"
+msgid "Export the board as a vector SVG poster (no Graphviz needed; opens in any browser)"
+msgstr "将图板导出为矢量 SVG 海报（无需 Graphviz；可在任意浏览器中打开）"
+
+#: sync_ui.py:2283
+msgctxt "Operator"
+msgid "Forget"
+msgstr "忘记"
+
+#: sync_operators.py:1790
+msgctxt "Operator"
+msgid "Forget Credentials"
+msgstr "忘记凭据"
+
+#: sync_operators.py:1651
+msgctxt "Operator"
+msgid "Git Commit"
+msgstr "Git 提交"
+
+#: sync_operators.py:1702
+msgctxt "Operator"
+msgid "Git Sync"
+msgstr "Git 同步"
+
+#: sync_ui.py:2118
+msgctxt "Operator"
+msgid "Git commit..."
+msgstr "Git 提交..."
+
+#: sync_ui.py:2124
+msgctxt "Operator"
+msgid "Git sync"
+msgstr "Git 同步"
+
+#: sync_ui.py:2728
+msgctxt "Operator"
+msgid "Go to Item"
+msgstr "转到项目"
+
+#: sync_ui.py:2479
+msgctxt "Operator"
+msgid "Go to Node"
+msgstr "转到节点"
+
+#: sync_ui.py:2802
+msgctxt "Operator"
+msgid "Go to item"
+msgstr "转到项目"
+
+#: sync_ui.py:2457
+msgctxt "Operator"
+msgid "Go to node"
+msgstr "转到节点"
+
+#: sync_operators.py:945
+msgctxt "Operator"
+msgid "Graph Poster"
+msgstr "图形海报"
+
+#: sync_operators.py:866
+msgctxt "Operator"
+msgid "Graph View"
+msgstr "图形视图"
+
+#: sync_ui.py:980
+msgctxt "Operator"
+msgid "Graph poster..."
+msgstr "图形海报..."
+
+#: sync_ui.py:975
+msgctxt "Operator"
+msgid "Graph view..."
+msgstr "图形视图..."
+
+#: sync_ui.py:1808
+msgctxt "Operator"
+msgid "Hide the history box"
+msgstr "隐藏历史记录框"
+
+#: sync_ui.py:1683
+msgctxt "Operator"
+msgid "Hide the last merge report"
+msgstr "隐藏上次合并报告"
+
+#: sync_operators.py:1093
+msgctxt "Operator"
+msgid "Hide this issue from the list — the real status is still tracked"
+msgstr "从列表中隐藏此问题 — 实际状态仍会被跟踪"
+
+#: sync_ui.py:1768
+#: sync_ui.py:2805
+msgctxt "Operator"
+msgid "History"
+msgstr "历史记录"
+
+#: sync_ui.py:2849
+msgctxt "Operator"
+msgid "Ignore"
+msgstr "忽略"
+
+#: sync_operators.py:1092
+msgctxt "Operator"
+msgid "Ignore Changes"
+msgstr "忽略更改"
+
+#: sync_operators.py:3087
+#: sync_ui.py:2654
+msgctxt "Operator"
+msgid "Import Group from JSON"
+msgstr "从 JSON 导入组"
+
+#: sync_operators.py:3042
+msgctxt "Operator"
+msgid "Import Group from JSON…"
+msgstr "从 JSON 导入组…"
+
+#: operators.py:745
+msgctxt "Operator"
+msgid "Import JSON Package"
+msgstr "导入 JSON 包"
+
+#: sync_operators.py:2477
+msgctxt "Operator"
+msgid "Import again only the groups that failed in the last batch pull"
+msgstr "仅重新导入上次批量拉取失败的组"
+
+#: operators.py:1121
+msgctxt "Operator"
+msgid "Import one group..."
+msgstr "导入单个组..."
+
+#: sync_operators.py:3088
+msgctxt "Operator"
+msgid "Import one node group plus its missing dependencies from a JSON package. Groups already present in the .blend are never touched."
+msgstr "从 JSON 包中导入一个节点组及其缺失的依赖项。.blend 中已存在的组绝不会被修改。"
+
+#: operators.py:1115
+msgctxt "Operator"
+msgid "Import package/folder..."
+msgstr "导入包/文件夹..."
+
+#: sync_operators.py:724
+msgctxt "Operator"
+msgid "Include this group in the next save to JSON"
+msgstr "在下一次保存到 JSON 时包含此组"
+
+#: sync_ui.py:2839
+msgctxt "Operator"
+msgid "Keep Blend"
+msgstr "保留 .blend"
+
+#: sync_ui.py:2836
+msgctxt "Operator"
+msgid "Keep JSON"
+msgstr "保留 JSON"
+
+#: sync_ui.py:1510
+msgctxt "Operator"
+msgid "Keep the .blend version and overwrite the JSON"
+msgstr "保留 .blend 版本并覆盖 JSON"
+
+#: sync_ui.py:1533
+msgctxt "Operator"
+msgid "Keep the JSON version and overwrite the .blend"
+msgstr "保留 JSON 版本并覆盖 .blend"
+
+#: sync_ui.py:606
+#: sync_ui.py:2817
+msgctxt "Operator"
+msgid "Mark"
+msgstr "标记"
+
+#: sync_operators.py:755
+msgctxt "Operator"
+msgid "Mark All Changes"
+msgstr "标记所有更改"
+
+#: sync_operators.py:723
+msgctxt "Operator"
+msgid "Mark Change"
+msgstr "标记更改"
+
+#: sync_ui.py:532
+msgctxt "Operator"
+msgid "Mark all"
+msgstr "全部标记"
+
+#: sync_operators.py:756
+msgctxt "Operator"
+msgid "Mark every change for the next save to JSON"
+msgstr "标记所有更改，以便下次保存到 JSON"
+
+#: sync_ui.py:1557
+msgctxt "Operator"
+msgid "Merge this conflicted entry per item (values, and nodes/links when the sides carry identities): local .blend edits are kept and the JSON changes applied; the common base comes from the JSON file's git history. Nothing is written when items conflict"
+msgstr "逐项合并此冲突条目（值，以及两侧具有标识时的节点/链接）：保留本地 .blend 编辑并应用 JSON 更改；共同基础来自 JSON 文件的 Git 历史。项目冲突时不写入任何内容"
+
+#: sync_ui.py:1556
+#: sync_ui.py:2832
+msgctxt "Operator"
+msgid "Merge with JSON"
+msgstr "与 JSON 合并"
+
+#: sync_ui.py:1481
+msgctxt "Operator"
+msgid "Open the JSON file's folder in the system file browser"
+msgstr "在系统文件浏览器中打开 JSON 文件所在文件夹"
+
+#: sync_operators.py:1728
+msgctxt "Operator"
+msgid "Open the git repository folder in the system file browser"
+msgstr "在系统文件浏览器中打开 Git 仓库文件夹"
+
+#: sync_ui.py:2480
+msgctxt "Operator"
+msgid "Open the group and select the node with this issue"
+msgstr "打开该组并选择存在此问题的节点"
+
+#: sync_ui.py:2729
+msgctxt "Operator"
+msgid "Open this group/material/world tree in a node editor"
+msgstr "在节点编辑器中打开此组/材质/世界树"
+
+#: sync_operators.py:551
+msgctxt "Operator"
+msgid "Overwrite this group in the .blend with the JSON version (JSON wins)"
+msgstr "用 JSON 版本覆盖 .blend 中的此组（JSON 优先）"
+
+#: sync_operators.py:3043
+msgctxt "Operator"
+msgid "Pick a JSON package and import one group plus its missing dependencies. Groups already present in the .blend are never touched."
+msgstr "选择 JSON 包，导入一个组及其缺失的依赖。.blend 中已存在的组不会被改动。"
+
+#: sync_ui.py:2655
+msgctxt "Operator"
+msgid "Pick a group and preview its missing dependencies"
+msgstr "选择一个组并预览其缺失的依赖"
+
+#: sync_ui.py:1829
+msgctxt "Operator"
+msgid "Preview this revision against the current JSON entry"
+msgstr "预览此修订相对当前 JSON 条目"
+
+#: sync_operators.py:550
+#: sync_operators.py:2412
+msgctxt "Operator"
+msgid "Pull from JSON"
+msgstr "从 JSON 拉取"
+
+#: sync_ui.py:1001
+msgctxt "Operator"
+msgid "Rebuild"
+msgstr "重建"
+
+#: sync_operators.py:1062
+msgctxt "Operator"
+msgid "Rebuild Board"
+msgstr "重建图板"
+
+#: sync_operators.py:1063
+msgctxt "Operator"
+msgid "Rebuild the current graph board with fresh statuses (layout and selection are reset)"
+msgstr "以最新状态重建当前图板（布局和选择将被重置）"
+
+#: sync_operators.py:1146
+msgctxt "Operator"
+msgid "Recompute the sync status of every tracked group"
+msgstr "重新计算每个已跟踪组的同步状态"
+
+#: operators.py:747
+msgctxt "Operator"
+msgid "Recreate all node groups (Geometry Nodes, Shader and Compositor) and modifiers from a JSON package — or pick any file inside a folder export ('Export package' with folder structure) to recreate its NodeGroups/Modifiers folders; 'Update existing groups' rebuilds existing ones in place"
+msgstr "从 JSON 包重新创建所有节点组（几何节点、着色器和合成器）及修改器——或选择文件夹导出（带文件夹结构的“Export package”）中的任意文件，以重新创建其 NodeGroups/Modifiers 文件夹；“更新现有组”会就地重建现有组"
+
+#: sync_ui.py:2639
+msgctxt "Operator"
+msgid "Refresh Git History"
+msgstr "刷新 Git 历史"
+
+#: sync_operators.py:1145
+#: sync_ui.py:788
+msgctxt "Operator"
+msgid "Refresh Status"
+msgstr "刷新状态"
+
+#: sync_ui.py:2640
+msgctxt "Operator"
+msgid "Reload the cached repository history"
+msgstr "重新加载缓存的仓库历史"
+
+#: sync_operators.py:1048
+msgctxt "Operator"
+msgid "Remove the disposable graph board and its helper trees"
+msgstr "移除临时图板及其辅助节点树"
+
+#: sync_ui.py:1509
+msgctxt "Operator"
+msgid "Resolve: Keep Blend"
+msgstr "解决：保留 .blend"
+
+#: sync_ui.py:1532
+msgctxt "Operator"
+msgid "Resolve: Keep JSON"
+msgstr "解决：保留 JSON"
+
+#: sync_ui.py:775
+#: sync_ui.py:1841
+msgctxt "Operator"
+msgid "Restore This Revision"
+msgstr "恢复此修订"
+
+#: sync_operators.py:1529
+msgctxt "Operator"
+msgid "Restore the changed tracked JSON files from HEAD when their only differences are cosmetic (layout) data"
+msgstr "当已更改的已跟踪 JSON 文件仅有外观（布局）数据差异时，从 HEAD 恢复它们"
+
+#: sync_operators.py:2476
+msgctxt "Operator"
+msgid "Retry Failed"
+msgstr "重试失败项"
+
+#: sync_ui.py:452
+msgctxt "Operator"
+msgid "Retry failed"
+msgstr "重试失败项"
+
+#: sync_ui.py:2143
+msgctxt "Operator"
+msgid "Reveal"
+msgstr "显示"
+
+#: sync_ui.py:1480
+msgctxt "Operator"
+msgid "Reveal JSON in File Browser"
+msgstr "在文件浏览器中显示 JSON"
+
+#: sync_operators.py:1727
+msgctxt "Operator"
+msgid "Reveal Repository"
+msgstr "显示仓库"
+
+#: sync_ui.py:1049
+msgctxt "Operator"
+msgid "Run"
+msgstr "运行"
+
+#: sync_ui.py:1371
+msgctxt "Operator"
+msgid "Run Project Audit"
+msgstr "运行项目审计"
+
+#: sync_ui.py:2282
+msgctxt "Operator"
+msgid "Save"
+msgstr "保存"
+
+#: sync_operators.py:2303
+msgctxt "Operator"
+msgid "Save All to JSON"
+msgstr "全部保存到 JSON"
+
+#: sync_operators.py:1756
+msgctxt "Operator"
+msgid "Save Credentials"
+msgstr "保存凭据"
+
+#: sync_operators.py:780
+msgctxt "Operator"
+msgid "Save Marked to JSON"
+msgstr "将标记项保存到 JSON"
+
+#: sync_operators.py:2361
+msgctxt "Operator"
+msgid "Save Modified to JSON"
+msgstr "将修改项保存到 JSON"
+
+#: sync_ui.py:2865
+msgctxt "Operator"
+msgid "Save all tracked groups..."
+msgstr "保存所有已跟踪组..."
+
+#: operators.py:459
+msgctxt "Operator"
+msgid "Save the active node group plus its dependencies to a JSON package file"
+msgstr "将活动节点组及其依赖保存到 JSON 包文件"
+
+#: sync_operators.py:606
+#: sync_ui.py:2824
+msgctxt "Operator"
+msgid "Save to JSON"
+msgstr "保存到 JSON"
+
+#: sync_ui.py:1828
+msgctxt "Operator"
+msgid "Select Revision"
+msgstr "选择修订"
+
+#: sync_operators.py:1117
+msgctxt "Operator"
+msgid "Show this issue in the list again"
+msgstr "在列表中再次显示此问题"
+
+#: sync_operators.py:1617
+msgctxt "Operator"
+msgid "Stage JSON"
+msgstr "暂存 JSON"
+
+#: sync_ui.py:1955
+msgctxt "Operator"
+msgid "Stage all"
+msgstr "全部暂存"
+
+#: sync_operators.py:1618
+msgctxt "Operator"
+msgid "Stage this JSON file for the next Git commit. Writes the real Git index; the working file is not changed"
+msgstr "暂存此 JSON 文件以供下次 Git 提交。写入真实 Git 索引；工作文件不会更改"
+
+#: sync_operators.py:2528
+msgctxt "Operator"
+msgid "Start tracking groups using an existing JSON as the source of truth — a unified package (one file) or a single-group export ('Export package' with folder structure). The JSON is read only and is NOT modified; use 'Track All' instead to write a new master JSON from the current .blend"
+msgstr "使用现有 JSON 作为唯一来源开始跟踪组——统一包（单个文件）或单组导出（带文件夹结构的“Export package”）。该 JSON 为只读且不会被修改；如需从当前 .blend 写入新的主 JSON，请改用“全部跟踪”"
+
+#: sync_operators.py:256
+msgctxt "Operator"
+msgid "Start tracking the active group: writes its JSON from the current .blend content (first save)"
+msgstr "开始跟踪活动组：根据当前 .blend 内容写入其 JSON（首次保存）"
+
+#: sync_operators.py:360
+msgctxt "Operator"
+msgid "Start tracking the active material: writes its JSON (node tree + versioned material settings) from the current .blend content (first save)"
+msgstr "开始跟踪活动材质：根据当前 .blend 内容写入其 JSON（节点树 + 版本化材质设置）（首次保存）"
+
+#: sync_operators.py:422
+msgctxt "Operator"
+msgid "Start tracking the active world: writes its JSON (node tree + versioned world settings) from the current .blend content (first save)"
+msgstr "开始跟踪活动世界：根据当前 .blend 内容写入其 JSON（节点树 + 版本化世界设置）（首次保存）"
+
+#: sync_operators.py:1816
+msgctxt "Operator"
+msgid "Start tracking untracked dependency groups found in the .blend: each one is written to its own JSON file in the folder (or into the master package) and recorded with its own entry"
+msgstr "开始跟踪 .blend 中发现的未跟踪依赖组：每个组都会写入文件夹中的独立 JSON 文件（或写入主包），并记录为独立条目"
+
+#: sync_operators.py:485
+msgctxt "Operator"
+msgid "Stop Tracking"
+msgstr "停止跟踪"
+
+#: sync_operators.py:518
+msgctxt "Operator"
+msgid "Stop Tracking All"
+msgstr "停止跟踪全部"
+
+#: sync_ui.py:2852
+msgctxt "Operator"
+msgid "Stop tracking"
+msgstr "停止跟踪"
+
+#: sync_ui.py:953
+msgctxt "Operator"
+msgid "Stop tracking all..."
+msgstr "停止跟踪全部..."
+
+#: sync_operators.py:519
+msgctxt "Operator"
+msgid "Stop tracking every group — the JSON files and the node trees are kept"
+msgstr "停止跟踪所有组——JSON 文件和节点树会保留"
+
+#: sync_operators.py:486
+msgctxt "Operator"
+msgid "Stop tracking this group — the JSON file and the node tree are kept"
+msgstr "停止跟踪此组——JSON 文件和节点树会保留"
+
+#: sync_operators.py:1757
+msgctxt "Operator"
+msgid "Store the token for the host: the OS vault when available, otherwise the add-on preferences"
+msgstr "为主机存储令牌：可用时存入操作系统保管库，否则存入插件偏好设置"
+
+#: sync_operators.py:827
+msgctxt "Operator"
+msgid "Throw away this group's local edits and take the JSON version (the saved one wins)"
+msgstr "丢弃此组的本地编辑并采用 JSON 版本（以已保存的为准）"
+
+#: sync_ui.py:264
+#: sync_ui.py:637
+msgctxt "Operator"
+msgid "Track"
+msgstr "跟踪"
+
+#: sync_operators.py:1860
+msgctxt "Operator"
+msgid "Track All"
+msgstr "全部跟踪"
+
+#: sync_operators.py:1958
+msgctxt "Operator"
+msgid "Track All Materials"
+msgstr "跟踪所有材质"
+
+#: sync_operators.py:2027
+msgctxt "Operator"
+msgid "Track All Worlds"
+msgstr "跟踪所有世界"
+
+#: sync_operators.py:2088
+msgctxt "Operator"
+msgid "Track All from Folder"
+msgstr "从文件夹跟踪全部"
+
+#: sync_operators.py:1815
+msgctxt "Operator"
+msgid "Track Dependencies"
+msgstr "跟踪依赖"
+
+#: sync_operators.py:255
+msgctxt "Operator"
+msgid "Track Group"
+msgstr "跟踪组"
+
+#: sync_operators.py:3226
+msgctxt "Operator"
+msgid "Track Imported Group to JSON…"
+msgstr "将导入的组跟踪到 JSON…"
+
+#: sync_operators.py:359
+msgctxt "Operator"
+msgid "Track Material"
+msgstr "跟踪材质"
+
+#: sync_operators.py:421
+msgctxt "Operator"
+msgid "Track World"
+msgstr "跟踪世界"
+
+#: sync_ui.py:927
+msgctxt "Operator"
+msgid "Track all groups..."
+msgstr "跟踪所有组..."
+
+#: sync_ui.py:930
+msgctxt "Operator"
+msgid "Track all materials..."
+msgstr "跟踪所有材质..."
+
+#: sync_ui.py:933
+msgctxt "Operator"
+msgid "Track all worlds..."
+msgstr "跟踪所有世界..."
+
+#: sync_operators.py:1959
+msgctxt "Operator"
+msgid "Track every material with a node tree, writing one master JSON from the current .blend — the addon CREATES the JSON here (first save). Versioned per material: its node tree plus the curated settings (mix mode, culling, viewport display...)"
+msgstr "跟踪每个含节点树的材质，从当前 .blend 写入一个主 JSON —— 插件在此处创建 JSON（首次保存）。按材质分别建立版本：其节点树加上精选设置（混合模式、剔除、视图显示……）"
+
+#: sync_operators.py:1861
+msgctxt "Operator"
+msgid "Track every node group (Geometry Nodes, Shader and Compositor), writing one master JSON from the current .blend — the addon CREATES the JSON here (first save). Use 'Track from Existing JSON' instead when the JSON already exists elsewhere and must not be rewritten"
+msgstr "跟踪每个节点组（几何节点、着色器和合成器），从当前 .blend 写入一个主 JSON —— 插件在此处创建 JSON（首次保存）。当 JSON 已存在于别处且不能被重写时，请改用「从现有 JSON 跟踪」"
+
+#: sync_operators.py:2089
+msgctxt "Operator"
+msgid "Track every per-group JSON export found in a folder ('Export package' with folder structure): pick any file inside the exported folder, and each JSON whose group exists in the .blend is tracked against its own file. The JSONs are read only and are NOT modified"
+msgstr "跟踪文件夹中找到的每个逐组 JSON 导出（带文件夹结构的「导出包」）：选择导出文件夹内的任意文件，每个组存在于 .blend 中的 JSON 都会与其自身文件进行跟踪。这些 JSON 为只读，不会被修改"
+
+#: sync_operators.py:2028
+msgctxt "Operator"
+msgid "Track every world with a node tree, writing one master JSON from the current .blend - the addon CREATES the JSON here (first save)"
+msgstr "跟踪每个含节点树的世界，从当前 .blend 写入一个主 JSON —— 插件在此处创建 JSON（首次保存）"
+
+#: sync_operators.py:2527
+msgctxt "Operator"
+msgid "Track from Existing JSON"
+msgstr "从现有 JSON 跟踪"
+
+#: sync_ui.py:936
+msgctxt "Operator"
+msgid "Track from folder..."
+msgstr "从文件夹跟踪..."
+
+#: sync_ui.py:944
+msgctxt "Operator"
+msgid "Track scene compositor..."
+msgstr "跟踪场景合成器..."
+
+#: sync_operators.py:3227
+msgctxt "Operator"
+msgid "Track the imported group (and its untracked dependencies) to a JSON package: the group is written into the JSON and becomes sync-tracked"
+msgstr "将导入的组（及其未跟踪的依赖项）跟踪到 JSON 包：该组被写入 JSON 并变为同步跟踪"
+
+#: sync_ui.py:2707
+msgctxt "Operator"
+msgid "Track to JSON..."
+msgstr "跟踪到 JSON..."
+
+#: sync_ui.py:596
+#: sync_ui.py:2811
+msgctxt "Operator"
+msgid "Un-ignore"
+msgstr "取消忽略"
+
+#: sync_operators.py:1116
+msgctxt "Operator"
+msgid "Un-ignore Changes"
+msgstr "取消忽略更改"
+
+#: sync_ui.py:606
+#: sync_ui.py:2817
+msgctxt "Operator"
+msgid "Unmark"
+msgstr "取消标记"
+
+#: sync_operators.py:768
+msgctxt "Operator"
+msgid "Unmark All Changes"
+msgstr "取消标记所有更改"
+
+#: sync_operators.py:739
+msgctxt "Operator"
+msgid "Unmark Change"
+msgstr "取消标记更改"
+
+#: sync_ui.py:533
+msgctxt "Operator"
+msgid "Unmark all"
+msgstr "取消标记全部"
+
+#: sync_operators.py:769
+msgctxt "Operator"
+msgid "Unmark every change"
+msgstr "取消标记每个更改"
+
+#: sync_operators.py:1634
+msgctxt "Operator"
+msgid "Unstage JSON"
+msgstr "取消暂存 JSON"
+
+#: sync_ui.py:1957
+msgctxt "Operator"
+msgid "Unstage all"
+msgstr "取消暂存全部"
+
+#: sync_operators.py:1635
+msgctxt "Operator"
+msgid "Unstage this JSON file (the index entry goes back to HEAD; the working file keeps its changes)"
+msgstr "取消暂存此 JSON 文件（索引条目回到 HEAD；工作文件保留其更改）"
+
+#: sync_ui.py:2418
+msgctxt "Operator"
+msgid "Validate"
+msgstr "验证"
+
+#: sync_ui.py:2613
+msgctxt "Operator"
+msgid "Validate Geometry"
+msgstr "验证几何"
+
+#: sync_operators.py:2304
+msgctxt "Operator"
+msgid "Write every tracked group's .blend content into its JSON file"
+msgstr "将所有已跟踪组的 .blend 内容写入其 JSON 文件"
+
+#: sync_operators.py:2362
+msgctxt "Operator"
+msgid "Write only edited or conflicting groups into their JSON files"
+msgstr "仅将已编辑或冲突的组写入其 JSON 文件"
+
+#: sync_operators.py:781
+msgctxt "Operator"
+msgid "Write the marked groups' .blend content into their JSON files (blend wins)"
+msgstr "将已标记组的 .blend 内容写入其 JSON 文件（以 .blend 为准）"
+
+#: sync_ui.py:1609
+msgctxt "Operator"
+msgid "Write the merged package with the per-item decisions chosen in the merge report, rebuild the entry in the .blend and mark it Synced; nothing is written while any conflict is undecided"
+msgstr "写入合并包，采用合并报告中为各项选择的决定，在 .blend 中重建条目并将其标记为已同步；只要有冲突未决定，就不会写入任何内容"
+
+#: sync_ui.py:1842
+msgctxt "Operator"
+msgid "Write this entry as it was in the selected revision into the JSON file; the .blend is not touched - Pull rebuilds the group from the JSON"
+msgstr "将此条目按所选修订版本中的原样写入 JSON 文件；.blend 不受影响 —— 拉取会从 JSON 重建该组"
+
+#: sync_operators.py:607
+msgctxt "Operator"
+msgid "Write this group's .blend content into its JSON file (blend wins)"
+msgstr "将此组的 .blend 内容写入其 JSON 文件（以 .blend 为准）"

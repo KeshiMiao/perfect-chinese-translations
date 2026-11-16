@@ -1,0 +1,581 @@
+# perfect-chinese: 1
+# id: blackhole_studio
+# kind: addon
+# module: bl_ext.blender_org.blackhole_studio
+# name: Black Hole Studio
+# name_zh: 黑洞工作室
+# translator: KeshiMiao
+# category: Render
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: operators.py:196
+msgid "0 = no glow, 1 = default, 2 = only glow"
+msgstr "0 = 无辉光，1 = 默认，2 = 仅辉光"
+
+#: properties.py:92
+#: ui.py:149
+msgid "Accretion Disk"
+msgstr "吸积盘"
+
+#: properties.py:267
+msgid "Add an invisible emitter matching the disk so it lights nearby objects (Cycles, Eevee)"
+msgstr "添加与吸积盘匹配的不可见发光体，使其照亮附近物体（Cycles、EEVEE）"
+
+#: ui.py:219
+msgid "Artistic"
+msgstr "艺术效果"
+
+#: params.py:147
+msgid "Beaming Exponent"
+msgstr "集束指数"
+
+#: properties.py:238
+msgid "Bend the view of real scene objects behind the black hole using a steered refraction (Cycles only). Off: the lensed background is the skybox/starfield"
+msgstr "通过受控折射弯曲黑洞后方真实场景物体的视图（仅 Cycles）。关闭时：透镜化背景为天空盒/星空"
+
+#: ui.py:24
+#: ui.py:84
+msgid "Black Hole"
+msgstr "黑洞"
+
+#: ui.py:25
+msgid "Black Hole Studio"
+msgstr "Black Hole Studio"
+
+#: ui.py:353
+msgid "Camera & Render"
+msgstr "摄像机与渲染"
+
+#: ui.py:212
+msgid "Camera Exposure"
+msgstr "摄像机曝光"
+
+#: properties.py:276
+msgid "Camera angle from the disk axis (90° = edge-on)"
+msgstr "相对吸积盘轴线的摄像机角度（90° = 侧视）"
+
+#: properties.py:279
+msgid "Camera distance from the hole"
+msgstr "摄像机到黑洞的距离"
+
+#: ui.py:76
+msgid "Camera is inside the event horizon"
+msgstr "摄像机位于事件视界内部"
+
+#: operators.py:201
+msgid "Chromatic Aberration"
+msgstr "色差"
+
+#: properties.py:191
+msgid "Clean thick disks"
+msgstr "干净的厚盘"
+
+#: properties.py:63
+msgid "Clockwise"
+msgstr "顺时针"
+
+#: params.py:147
+msgid "Color Shift"
+msgstr "颜色偏移"
+
+#: operators.py:30
+msgid "Configure Render"
+msgstr "配置渲染"
+
+#: properties.py:62
+msgid "Counter-clockwise"
+msgstr "逆时针"
+
+#: operators.py:187
+msgid "Cycles CPU + Open Shading Language enabled (required for Exact mode)"
+msgstr "Cycles CPU + 已启用 Open Shading Language（精确模式所需）"
+
+#: ui.py:193
+msgid "Disk Brightness"
+msgstr "吸积盘亮度"
+
+#: properties.py:267
+msgid "Disk Lights the Scene"
+msgstr "吸积盘照亮场景"
+
+#: properties.py:61
+msgid "Disk Rotation"
+msgstr "吸积盘旋转"
+
+#: properties.py:121
+#: ui.py:246
+msgid "Disk Texture"
+msgstr "吸积盘纹理"
+
+#: params.py:164
+msgid "Disk Thickness (thin-disk limit)"
+msgstr "吸积盘厚度（薄盘极限）"
+
+#: properties.py:63
+msgid "Disk rotates clockwise seen from +Z"
+msgstr "从 +Z 方向看，吸积盘顺时针旋转"
+
+#: properties.py:62
+msgid "Disk rotates counter-clockwise seen from +Z"
+msgstr "从 +Z 方向看，吸积盘逆时针旋转"
+
+#: properties.py:279
+msgid "Distance (r_s)"
+msgstr "距离（r_s）"
+
+#: ui.py:176
+msgid "Doppler & Redshift"
+msgstr "多普勒与红移"
+
+#: params.py:147
+msgid "Doppler Beaming"
+msgstr "多普勒集束"
+
+#: properties.py:189
+msgid "Draft (8)"
+msgstr "草稿（8）"
+
+#: properties.py:198
+msgid "Draw the photon-sphere and horizon markers and the disk-light outline in the viewport"
+msgstr "在视图中绘制光子球和视界标记以及吸积盘光照轮廓"
+
+#: properties.py:195
+msgid "Draw the wireframe of the lens sphere in the viewport (it always renders)"
+msgstr "在视图中绘制透镜球线框（它始终参与渲染）"
+
+#: properties.py:272
+msgid "Drive World Background"
+msgstr "驱动世界背景"
+
+#: properties.py:141
+msgid "Each radius orbits at its real Keplerian speed (inner parts faster), so structures wind into spirals over time"
+msgstr "各半径按真实开普勒速度公转（内侧更快），因此结构会随时间卷成旋臂"
+
+#: params.py:147
+msgid "Einstein Ring Glow"
+msgstr "爱因斯坦环辉光"
+
+#: properties.py:245
+msgid "Equirectangular (2:1) sky image. Defaults to the bundled Milky Way (NASA); use the folder icon to load your own"
+msgstr "等距圆柱（2:1）天空图像。默认使用捆绑的银河（NASA）；使用文件夹图标加载自定义图像"
+
+#: operators.py:24
+#: properties.py:46
+msgid "Exact (Cycles OSL)"
+msgstr "精确（Cycles OSL）"
+
+#: properties.py:43
+msgid "Exact Schwarzschild geodesics from a precomputed lookup table, evaluated with shader nodes. Works on GPU and in Eevee"
+msgstr "从预计算查找表获取精确史瓦西测地线，用着色器节点求值。支持 GPU 和 EEVEE"
+
+#: ui.py:42
+msgid "Exact mode needs Cycles + OSL (CPU)"
+msgstr "精确模式需要 Cycles + OSL（CPU）"
+
+#: properties.py:81
+msgid "Exact mode: RK4 steps per 2π of orbital angle"
+msgstr "精确模式：轨道角每 2π 的 RK4 步数"
+
+#: operators.py:23
+#: properties.py:43
+msgid "Fast (GPU / Eevee)"
+msgstr "快速（GPU / EEVEE）"
+
+#: operators.py:181
+#: properties.py:189
+msgid "Fast look-dev"
+msgstr "快速外观开发"
+
+#: operators.py:182
+msgid "Final"
+msgstr "最终"
+
+#: properties.py:135
+msgid "Fixed rotation of the texture"
+msgstr "纹理的固定旋转"
+
+#: properties.py:154
+#: ui.py:263
+msgid "Fog & Dust"
+msgstr "雾与尘埃"
+
+#: ui.py:200
+msgid "Fog Glow"
+msgstr "雾辉光"
+
+#: operators.py:28
+msgid "Frame Camera"
+msgstr "框取摄像机"
+
+#: ui.py:232
+msgid "Glow"
+msgstr "辉光"
+
+#: operators.py:196
+msgid "Glow Strength"
+msgstr "辉光强度"
+
+#: properties.py:190
+msgid "Good for fog; thick disks may show faint streaks"
+msgstr "适合雾；厚盘可能出现淡淡的条纹"
+
+#: params.py:147
+msgid "Gravitational Redshift"
+msgstr "引力红移"
+
+#: properties.py:124
+msgid "Grayscale top-down image of the disk. The image edge corresponds to Outer Radius × Texture Scale"
+msgstr "吸积盘的灰度俯视图像。图像边缘对应外半径 × 纹理缩放"
+
+#: properties.py:229
+msgid "Half opening angle of the jet cone"
+msgstr "喷流锥的半张角"
+
+#: ui.py:47
+msgid "Helpers"
+msgstr "辅助对象"
+
+#: properties.py:191
+msgid "High (24)"
+msgstr "高（24）"
+
+#: operators.py:182
+msgid "High sample count"
+msgstr "高采样数"
+
+#: params.py:147
+msgid "Horizon Glow"
+msgstr "视界辉光"
+
+#: properties.py:74
+msgid "Hovering Observer"
+msgstr "悬停观测者"
+
+#: params.py:147
+msgid "Hue Shift"
+msgstr "色相偏移"
+
+#: properties.py:276
+msgid "Inclination"
+msgstr "倾角"
+
+#: params.py:147
+#: properties.py:93
+msgid "Inner Edge at ISCO"
+msgstr "内边缘位于 ISCO"
+
+#: properties.py:74
+msgid "Inside the influence sphere, render what a camera hovering in place (held by rockets) would see: light is blueshifted and brighter close to the hole, and the camera's view angles change the shadow's size. Off: the camera sees light as in flat space"
+msgstr "在影响球内，渲染悬停（由火箭固定）的相机所见的景象：靠近黑洞的光会蓝移并变亮，相机视角会改变阴影的大小。关闭：相机按平坦空间方式观察光线"
+
+#: ui.py:78
+msgid "Inside the photon sphere: Exact mode is more accurate"
+msgstr "在光子球内：精确模式更准确"
+
+#: properties.py:46
+msgid "Integrates every light ray with RK4 in an OSL shader. CPU only. Adds frame dragging and volumetric jets along curved paths"
+msgstr "在 OSL 着色器中用 RK4 对每条光线积分。仅限 CPU。沿弯曲路径添加参考系拖曳和体积喷流"
+
+#: ui.py:196
+msgid "Jet Brightness"
+msgstr "喷流亮度"
+
+#: properties.py:272
+msgid "Keep the scene world in sync with these sky settings"
+msgstr "使场景世界与这些天空设置保持同步"
+
+#: properties.py:141
+msgid "Keplerian"
+msgstr "开普勒式"
+
+#: properties.py:238
+msgid "Lens Scene Objects (Cycles)"
+msgstr "透镜化场景物体（Cycles）"
+
+#: params.py:147
+msgid "Lensing Strength"
+msgstr "透镜强度"
+
+#: ui.py:190
+msgid "Lighting & Intensity"
+msgstr "光照与强度"
+
+#: properties.py:164
+msgid "Match Disk Thickness"
+msgstr "匹配吸积盘厚度"
+
+#: properties.py:229
+msgid "Opening Angle"
+msgstr "张角"
+
+#: params.py:147
+msgid "Photon Ring Boost"
+msgstr "光子环增强"
+
+#: params.py:147
+msgid "Physical Color"
+msgstr "物理颜色"
+
+#: ui.py:111
+msgid "Physically accurate"
+msgstr "物理精确"
+
+#: operators.py:28
+msgid "Point the scene camera at the black hole"
+msgstr "将场景相机对准黑洞"
+
+#: operators.py:77
+msgid "Preset"
+msgstr "预设"
+
+#: ui.py:49
+msgid "Presets"
+msgstr "预设"
+
+#: operators.py:181
+msgid "Preview"
+msgstr "预览"
+
+#: properties.py:93
+msgid "Put the inner edge at the innermost stable circular orbit for the current spin"
+msgstr "将内边缘置于当前自旋对应的最内稳定圆轨道"
+
+#: operators.py:181
+msgid "Quality"
+msgstr "质量"
+
+#: operators.py:287
+msgid "Quick Start guide not found in the extension folder"
+msgstr "在扩展文件夹中未找到快速入门指南"
+
+#: ui.py:103
+msgid "Realism (Physics)"
+msgstr "真实感（物理）"
+
+#: properties.py:227
+#: ui.py:312
+msgid "Relativistic Jets"
+msgstr "相对论喷流"
+
+#: operators.py:23
+#: properties.py:40
+msgid "Render Mode"
+msgstr "渲染模式"
+
+#: properties.py:140
+msgid "Rigid"
+msgstr "刚性"
+
+#: ui.py:197
+msgid "Ring Glow"
+msgstr "光环辉光"
+
+#: properties.py:250
+msgid "Rotate the skybox around the world Z axis"
+msgstr "绕世界 Z 轴旋转天空盒"
+
+#: properties.py:185
+msgid "Samples along each light path for fog and disk thickness (rebuilds the shader). More = smoother, slower; render time grows roughly linearly"
+msgstr "沿每条光路为雾和吸积盘厚度采样的数量（会重建着色器）。越多越平滑、越慢；渲染时间大致线性增长"
+
+#: params.py:147
+msgid "Saturation"
+msgstr "饱和度"
+
+#: ui.py:34
+msgid "Select a black hole to edit it"
+msgstr "选择一个黑洞以进行编辑"
+
+#: properties.py:198
+msgid "Show Helpers"
+msgstr "显示辅助对象"
+
+#: properties.py:195
+msgid "Show Influence Sphere"
+msgstr "显示影响球"
+
+#: operators.py:199
+msgid "Size"
+msgstr "大小"
+
+#: properties.py:245
+msgid "Skybox"
+msgstr "天空盒"
+
+#: ui.py:328
+msgid "Skybox & Background"
+msgstr "天空盒与背景"
+
+#: properties.py:250
+msgid "Skybox Rotation"
+msgstr "天空盒旋转"
+
+#: ui.py:46
+msgid "Sphere"
+msgstr "球体"
+
+#: operators.py:199
+msgid "Spread of the glow"
+msgstr "辉光的扩散范围"
+
+#: properties.py:190
+msgid "Standard (16)"
+msgstr "标准（16）"
+
+#: operators.py:26
+msgid "Starfield World"
+msgstr "星空世界"
+
+#: properties.py:139
+msgid "Static"
+msgstr "静态"
+
+#: properties.py:81
+msgid "Steps / Orbit"
+msgstr "每圈步数"
+
+#: operators.py:30
+msgid "Switch to Cycles and set suitable render settings"
+msgstr "切换到 Cycles 并设置合适的渲染设置"
+
+#: params.py:147
+msgid "Temperature Falloff"
+msgstr "温度衰减"
+
+#: properties.py:124
+msgid "Texture"
+msgstr "纹理"
+
+#: properties.py:138
+msgid "Texture Motion"
+msgstr "纹理运动"
+
+#: properties.py:135
+msgid "Texture Rotation"
+msgstr "纹理旋转"
+
+#: properties.py:139
+msgid "The texture does not move"
+msgstr "纹理不移动"
+
+#: properties.py:140
+msgid "The whole texture turns at one rate"
+msgstr "整个纹理以同一速率旋转"
+
+#: operators.py:198
+msgid "Threshold"
+msgstr "阈值"
+
+#: ui.py:301
+msgid "Turbulence & Edges"
+msgstr "湍流与边缘"
+
+#: properties.py:192
+msgid "Ultra (48)"
+msgstr "极致（48）"
+
+#: properties.py:242
+msgid "Use Skybox"
+msgstr "使用天空盒"
+
+#: operators.py:26
+msgid "Use a matching lensed starfield World (your current World is kept)"
+msgstr "使用匹配的透镜化星空世界（保留当前世界）"
+
+#: properties.py:242
+msgid "Use a panoramic sky image (equirectangular HDR/EXR) as the background the black hole lenses. Off: procedural starfield"
+msgstr "使用全景天空图像（等距柱状 HDR/EXR）作为黑洞透镜化的背景。关闭：程序化星空"
+
+#: properties.py:121
+msgid "Use an image (seen from above, disk centred) for the disk's density and brightness"
+msgstr "使用图像（俯视、吸积盘居中）作为吸积盘的密度和亮度"
+
+#: properties.py:164
+msgid "Use the disk's thickness for the fog height"
+msgstr "使用吸积盘厚度作为雾的高度"
+
+#: properties.py:192
+msgid "Very High (32)"
+msgstr "很高（32）"
+
+#: properties.py:185
+msgid "Volume Quality"
+msgstr "体积质量"
+
+#: ui.py:298
+msgid "Volume rendering: ~3-9x render time (see Quality)"
+msgstr "体积渲染：渲染时间约增加 3-9 倍（见“质量”）"
+
+#: properties.py:154
+msgid "Volumetric dust around the black hole, integrated along the bent light paths (so it is lensed too)"
+msgstr "黑洞周围的体积尘埃，沿弯曲光线路径积分（因此也会受透镜效应影响）"
+
+#: operators.py:20
+msgctxt "Operator"
+msgid "Add Black Hole"
+msgstr "添加黑洞"
+
+#: operators.py:193
+msgctxt "Operator"
+msgid "Add Glow & Lens Effects"
+msgstr "添加辉光与透镜效果"
+
+#: operators.py:74
+msgctxt "Operator"
+msgid "Apply Preset"
+msgstr "应用预设"
+
+#: operators.py:298
+msgctxt "Operator"
+msgid "Black Hole"
+msgstr "黑洞"
+
+#: operators.py:178
+msgctxt "Operator"
+msgid "Configure Render Settings"
+msgstr "配置渲染设置"
+
+#: ui.py:364
+msgctxt "Operator"
+msgid "Final"
+msgstr "最终"
+
+#: operators.py:108
+msgctxt "Operator"
+msgid "Frame Camera"
+msgstr "相机取景"
+
+#: operators.py:87
+msgctxt "Operator"
+msgid "Make Physically Accurate"
+msgstr "设为物理精确"
+
+#: ui.py:363
+msgctxt "Operator"
+msgid "Preview"
+msgstr "预览"
+
+#: operators.py:283
+msgctxt "Operator"
+msgid "Quick Start Guide"
+msgstr "快速入门指南"
+
+#: operators.py:53
+msgctxt "Operator"
+msgid "Rebuild Shader"
+msgstr "重建着色器"
+
+#: operators.py:63
+msgctxt "Operator"
+msgid "Remove Black Hole"
+msgstr "移除黑洞"
+
+#: operators.py:118
+msgctxt "Operator"
+msgid "Use Matching World"
+msgstr "使用匹配的世界"

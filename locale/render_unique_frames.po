@@ -1,0 +1,58 @@
+# perfect-chinese: 1
+# id: render_unique_frames
+# kind: addon
+# module: bl_ext.blender_org.render_unique_frames
+# name: Render unique frames
+# name_zh: 唯一帧渲染
+# translator: KeshiMiao
+# category: Render
+# supported_versions: >=5.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: render_unique_frames/ops.py:10
+msgid "Create Sequence"
+msgstr "创建序列"
+
+#: render_unique_frames/preferences.py:7
+msgid "Default output node directory"
+msgstr "默认输出节点目录"
+
+#: render_unique_frames/preferences.py:14
+msgid "Default output node file"
+msgstr "默认输出节点文件"
+
+#: render_unique_frames/preferences.py:7
+msgid "Defines what is the default directory for file output nodes created with the AddLayerOutputNodes operator"
+msgstr "定义使用 AddLayerOutputNodes 操作符创建的文件输出节点的默认目录"
+
+#: render_unique_frames/preferences.py:14
+msgid "Defines what is the default file name for file output nodes created with the AddLayerOutputNodes operator"
+msgstr "定义使用 AddLayerOutputNodes 操作符创建的文件输出节点的默认文件名"
+
+#: render_unique_frames/ops.py:10
+msgid "When selected, after rendering all keyframes, they will be copied into extra image files until a full sequence is created"
+msgstr "选中后，在渲染完所有关键帧后，它们将被复制到额外的图像文件中，直到创建完整序列"
+
+#: render_unique_frames/ops.py:54
+msgctxt "Operator"
+msgid "Add layer output nodes"
+msgstr "添加图层输出节点"
+
+#: render_unique_frames/ops.py:29
+msgctxt "Operator"
+msgid "Adds a compositor node setup for exporting each viewlayer"
+msgstr "添加用于导出每个视图层的合成器节点设置"
+
+#: render_unique_frames/ops.py:50
+msgctxt "Operator"
+msgid "Render Unique Frames"
+msgstr "渲染唯一帧"
+
+#: render_unique_frames/ops.py:8
+msgctxt "Operator"
+msgid "Render unique frames from a selected scene"
+msgstr "从选定场景渲染唯一帧"

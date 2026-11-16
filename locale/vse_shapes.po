@@ -1,0 +1,313 @@
+# perfect-chinese: 1
+# id: vse_shapes
+# kind: addon
+# module: bl_ext.blender_org.vse_shapes
+# name: VSE Shapes
+# name_zh: 序列形状
+# translator: KeshiMiao
+# category: Sequencer
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: ui.py:143
+msgid "Active Shape"
+msgstr "活动形状"
+
+#: ops.py:916
+msgid "Active strip is not a freehand drawing"
+msgstr "活动片段不是自由绘制"
+
+#: ops.py:411
+#: props.py:85
+msgid "Arrow"
+msgstr "箭头"
+
+#: props.py:125
+msgid "Arrow shaft thickness (0 = auto, 35% of height)"
+msgstr "箭杆粗细（0 = 自动，高度的 35%）"
+
+#: props.py:85
+msgid "Arrow shape"
+msgstr "箭头形状"
+
+#: props.py:129
+msgid "Arrowhead length (0 = auto, 35% of width)"
+msgstr "箭头长度（0 = 自动，宽度的 35%）"
+
+#: props.py:158
+msgid "Brush Color"
+msgstr "笔刷颜色"
+
+#: props.py:156
+#: ui.py:163
+msgid "Brush Size"
+msgstr "笔刷大小"
+
+#: ui.py:98
+#: ui.py:104
+msgid "Color"
+msgstr "颜色"
+
+#: ops.py:775
+msgid "Continue drawing on the active freehand strip"
+msgstr "在活动自由绘制片段上继续绘制"
+
+#: props.py:119
+#: props.py:148
+msgid "Corner Radius"
+msgstr "圆角半径"
+
+#: ops.py:782
+msgid "Draw"
+msgstr "绘制"
+
+#: ui.py:59
+msgid "Draw (drag in preview):"
+msgstr "绘制（在预览中拖拽）："
+
+#: ops.py:782
+msgid "Draw brush strokes"
+msgstr "绘制笔刷描边"
+
+#: props.py:161
+msgid "Duration"
+msgstr "持续时间"
+
+#: ops.py:775
+msgid "Edit Existing"
+msgstr "编辑现有"
+
+#: ops.py:410
+#: props.py:84
+msgid "Ellipse"
+msgstr "椭圆"
+
+#: props.py:84
+msgid "Ellipse / circle"
+msgstr "椭圆 / 圆形"
+
+#: ops.py:783
+msgid "Erase"
+msgstr "擦除"
+
+#: ops.py:783
+msgid "Erase existing strokes"
+msgstr "擦除现有描边"
+
+#: props.py:122
+#: props.py:150
+msgid "Feather"
+msgstr "羽化"
+
+#: props.py:107
+#: props.py:138
+msgid "Fill"
+msgstr "填充"
+
+#: props.py:108
+#: props.py:139
+msgid "Fill Color"
+msgstr "填充颜色"
+
+#: props.py:86
+msgid "Freehand Stroke"
+msgstr "自由绘制描边"
+
+#: props.py:86
+msgid "Hand-drawn brush stroke"
+msgstr "手绘笔刷描边"
+
+#: props.py:129
+#: props.py:154
+msgid "Head Length"
+msgstr "箭头长度"
+
+#: props.py:104
+msgid "Height"
+msgstr "高度"
+
+#: props.py:161
+msgid "Length of new shape strips in frames (0 = 4 seconds)"
+msgstr "新形状片段的长度（帧，0 = 4 秒）"
+
+#: ops.py:779
+msgid "Mode"
+msgstr "模式"
+
+#: ui.py:84
+msgid "New Shape Style"
+msgstr "新形状样式"
+
+#: ops.py:564
+msgid "No sequencer preview found — switch a Sequencer area to Preview"
+msgstr "未找到序列编辑器预览——请将序列编辑器区域切换为预览"
+
+#: ops.py:409
+#: props.py:83
+msgid "Rectangle"
+msgstr "矩形"
+
+#: props.py:83
+msgid "Rectangle with optional rounded corners"
+msgstr "可带圆角的矩形"
+
+#: props.py:125
+#: props.py:152
+msgid "Shaft Thickness"
+msgstr "杆粗细"
+
+#: ops.py:440
+#: ops.py:622
+msgid "Shape"
+msgstr "形状"
+
+#: ui.py:23
+#: ui.py:44
+msgid "Shapes"
+msgstr "形状"
+
+#: props.py:122
+msgid "Soften the shape edges"
+msgstr "柔化形状边缘"
+
+#: props.py:111
+#: props.py:142
+msgid "Stroke"
+msgstr "描边"
+
+#: props.py:112
+#: props.py:143
+msgid "Stroke Color"
+msgstr "描边颜色"
+
+#: props.py:115
+#: props.py:146
+msgid "Stroke Width"
+msgstr "描边宽度"
+
+#: props.py:115
+msgid "Stroke thickness (doubles as brush size for freehand strokes)"
+msgstr "描边粗细（自由绘制时兼作笔刷大小）"
+
+#: props.py:101
+#: ui.py:105
+msgid "Width"
+msgstr "宽度"
+
+#: ops.py:422
+msgctxt "Operator"
+msgid "Add"
+msgstr "添加"
+
+#: ops.py:436
+msgctxt "Operator"
+msgid "Add Shape"
+msgstr "添加形状"
+
+#: ops.py:437
+msgctxt "Operator"
+msgid "Add a shape strip centered in the frame at the current frame"
+msgstr "在当前帧添加居中的形状片段"
+
+#: ui.py:55
+#: ui.py:221
+msgctxt "Operator"
+msgid "Arrow"
+msgstr "箭头"
+
+#: ops.py:526
+msgctxt "Operator"
+msgid "Clear Shape Animation"
+msgstr "清除形状动画"
+
+#: ops.py:619
+msgctxt "Operator"
+msgid "Click and drag in the sequencer preview to place a shape"
+msgstr "在序列编辑器预览中点击并拖拽以放置形状"
+
+#: ui.py:64
+#: ui.py:226
+msgctxt "Operator"
+msgid "Draw Arrow"
+msgstr "绘制箭头"
+
+#: ui.py:62
+#: ui.py:225
+msgctxt "Operator"
+msgid "Draw Ellipse"
+msgstr "绘制椭圆"
+
+#: ui.py:60
+#: ui.py:224
+msgctxt "Operator"
+msgid "Draw Rectangle"
+msgstr "绘制矩形"
+
+#: ops.py:618
+msgctxt "Operator"
+msgid "Draw Shape"
+msgstr "绘制形状"
+
+#: ops.py:771
+msgctxt "Operator"
+msgid "Draw freehand brush strokes in the sequencer preview. Finish with Enter, Space or right click"
+msgstr "在序列编辑器预览中自由绘制笔刷描边。按 Enter、空格或右键完成"
+
+#: ui.py:71
+#: ui.py:167
+msgctxt "Operator"
+msgid "Edit Drawing"
+msgstr "编辑绘图"
+
+#: ui.py:53
+#: ui.py:219
+msgctxt "Operator"
+msgid "Ellipse"
+msgstr "椭圆"
+
+#: ui.py:73
+#: ui.py:169
+msgctxt "Operator"
+msgid "Eraser"
+msgstr "橡皮擦"
+
+#: ops.py:770
+#: ui.py:66
+msgctxt "Operator"
+msgid "Free Draw"
+msgstr "自由绘制"
+
+#: ops.py:493
+msgctxt "Operator"
+msgid "Insert a keyframe for this property at the current frame (deletes it if the frame is already keyed)"
+msgstr "在当前帧为此属性插入关键帧（若该帧已有关键帧则删除）"
+
+#: ops.py:492
+msgctxt "Operator"
+msgid "Keyframe Shape Property"
+msgstr "为形状属性插入关键帧"
+
+#: ops.py:458
+msgctxt "Operator"
+msgid "Move Images Next to Blend File"
+msgstr "将图像移至 Blend 文件旁"
+
+#: ops.py:459
+msgctxt "Operator"
+msgid "Re-save all shape images into a 'vse_shapes' folder next to the .blend file (useful when shapes were created before the file was saved)"
+msgstr "将所有形状图像重新保存到 .blend 文件旁的 'vse_shapes' 文件夹（适用于在保存文件前已创建形状的情况）"
+
+#: ui.py:51
+#: ui.py:217
+msgctxt "Operator"
+msgid "Rectangle"
+msgstr "矩形"
+
+#: ops.py:527
+msgctxt "Operator"
+msgid "Remove all keyframes of the active shape's style properties"
+msgstr "移除活动形状样式属性的所有关键帧"

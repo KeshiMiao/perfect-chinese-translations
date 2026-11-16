@@ -1,0 +1,457 @@
+# perfect-chinese: 1
+# id: bbone_to_bones
+# kind: addon
+# module: bl_ext.blender_org.bbone_to_bones
+# name: BBone to Bones
+# name_zh: 弯骨转骨链
+# translator: KeshiMiao
+# category: Rigging
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: bbone_to_bones/ui/panel.py:162
+msgid "1. Segments & Weights"
+msgstr "分段与权重"
+
+#: bbone_to_bones/ui/panel.py:191
+msgid "2. Live Follow & Bake"
+msgstr "实时跟随与烘焙"
+
+#: bbone_to_bones/ui/panel.py:214
+msgid "3. Export"
+msgstr "导出"
+
+#: bbone_to_bones/ui/properties.py:136
+msgid "Add Leaf Bones"
+msgstr "添加叶骨骼"
+
+#: bbone_to_bones/ui/properties.py:57
+msgid "Add Live Follow Constraints"
+msgstr "添加实时跟随约束"
+
+#: bbone_to_bones/ui/properties.py:136
+msgid "Add the leaf bones of the FBX exporter (usually unwanted)"
+msgstr "添加 FBX 导出器的叶骨骼（通常不需要）"
+
+#: bbone_to_bones/ui/panel.py:49
+msgid "Add-on not registered"
+msgstr "插件未注册"
+
+#: bbone_to_bones/ui/panel.py:204
+#: bbone_to_bones/ui/properties.py:111
+msgid "All Actions"
+msgstr "所有动作"
+
+#: bbone_to_bones/ui/properties.py:57
+msgid "Attach BTOB_FollowBBone constraints right after conversion for live viewport preview"
+msgstr "转换后立即附加 BTOB_FollowBBone 约束，用于视口实时预览"
+
+#: bbone_to_bones/__init__.py:12
+#: bbone_to_bones/ui/panel.py:35
+msgid "BBone to Bones"
+msgstr "BBone to Bones"
+
+#: bbone_to_bones/ui/properties.py:111
+msgid "Bake and export every action of the armature instead of only the active one"
+msgstr "烘焙并导出骨架的所有动作，而非仅当前动作"
+
+#: bbone_to_bones/ui/properties.py:72
+msgid "Bake the scene frame range instead of the custom one"
+msgstr "烘焙场景帧范围而非自定义范围"
+
+#: bbone_to_bones/ui/properties.py:67
+msgid "Clear Source Weights"
+msgstr "清除源权重"
+
+#: bbone_to_bones/ui/properties.py:67
+msgid "Clear the weights left on the bendy bones after the transfer"
+msgstr "清除传递后留在 B-Bone 上的权重"
+
+#: bbone_to_bones/ui/properties.py:52
+msgid "Convert only bendy bones with Deform enabled (skips MCH/helper bendy bones)"
+msgstr "仅转换启用了变形的 B-Bone（跳过 MCH/辅助 B-Bone）"
+
+#: bbone_to_bones/__init__.py:12
+msgid "Converts bendy bones into real bone chains, with weights, bake and export presets for Unity / Unreal / Godot"
+msgstr "将 B-Bone 转换为真实骨骼链，并提供适用于 Unity / Unreal / Godot 的权重、烘焙和导出预设"
+
+#: bbone_to_bones/ui/panel.py:132
+msgid "Deform BBones: {0}"
+msgstr "变形 B-Bone：{0}"
+
+#: bbone_to_bones/ui/panel.py:126
+msgid "Deform BBones: {0} ({1} skip)"
+msgstr "变形 B-Bone：{0}（跳过 {1}）"
+
+#: bbone_to_bones/ui/panel.py:163
+#: bbone_to_bones/ui/properties.py:52
+msgid "Deform Bones Only"
+msgstr "仅变形骨骼"
+
+#: bbone_to_bones/ui/properties.py:106
+msgid "Delete the follow constraints once the bake is keyed"
+msgstr "烘焙关键帧后删除跟随约束"
+
+#: bbone_to_bones/ui/properties.py:92
+msgid "End Frame"
+msgstr "结束帧"
+
+#: bbone_to_bones/ui/properties.py:116
+msgid "Engine Preset"
+msgstr "引擎预设"
+
+#: bbone_to_bones/ui/operator_convert.py:43
+msgid "Every bendy bone is already converted"
+msgstr "所有 B-Bone 均已转换"
+
+#: bbone_to_bones/ui/properties.py:146
+msgid "Export Path"
+msgstr "导出路径"
+
+#: bbone_to_bones/ui/properties.py:116
+msgid "Export flags of the target engine"
+msgstr "目标引擎的导出标志"
+
+#: bbone_to_bones/ui/properties.py:120
+msgid "FBX preset for Unity"
+msgstr "Unity 的 FBX 预设"
+
+#: bbone_to_bones/ui/properties.py:122
+msgid "FBX preset for Unreal Engine"
+msgstr "Unreal Engine 的 FBX 预设"
+
+#: bbone_to_bones/ui/properties.py:146
+msgid "File written by the export operator"
+msgstr "导出操作符写入的文件"
+
+#: bbone_to_bones/ui/operator_export.py:22
+msgid "Filepath"
+msgstr "文件路径"
+
+#: bbone_to_bones/ui/properties.py:85
+msgid "First frame of the custom bake range"
+msgstr "自定义烘焙范围的起始帧"
+
+#: bbone_to_bones/ui/properties.py:99
+msgid "Frame Step"
+msgstr "帧步长"
+
+#: bbone_to_bones/ui/properties.py:124
+msgid "Godot (glTF)"
+msgstr "Godot (glTF)"
+
+#: bbone_to_bones/ui/properties.py:92
+msgid "Last frame of the custom bake range"
+msgstr "自定义烘焙范围的结束帧"
+
+#: bbone_to_bones/ui/panel.py:218
+#: bbone_to_bones/ui/properties.py:141
+msgid "Linear Skin (LBS)"
+msgstr "线性蒙皮（LBS）"
+
+#: bbone_to_bones/ui/panel.py:165
+msgid "Live Follow Preview"
+msgstr "实时跟随预览"
+
+#: bbone_to_bones/ui/properties.py:129
+msgid "Max Influences"
+msgstr "最大影响数"
+
+#: bbone_to_bones/ui/properties.py:129
+msgid "Maximum number of deforming groups per vertex"
+msgstr "每个顶点的最大变形组数"
+
+#: bbone_to_bones/ui/operator_follow.py:37
+#: bbone_to_bones/ui/operator_follow.py:108
+msgid "No bendy bone selected"
+msgstr "未选择 B-Bone"
+
+#: bbone_to_bones/ui/operator_convert.py:37
+msgid "No bendy bone with more than one segment in this armature"
+msgstr "此骨架中没有分段数大于 1 的 B-Bone"
+
+#: bbone_to_bones/ui/operator_follow.py:44
+msgid "No converted segment to constrain"
+msgstr "没有可约束的已转换分段"
+
+#: bbone_to_bones/ui/operator_convert.py:90
+msgid "No converted segment to revert"
+msgstr "没有可还原的已转换分段"
+
+#: bbone_to_bones/ui/operator_follow.py:95
+#: bbone_to_bones/ui/operator_weights.py:28
+msgid "No converted segments: convert the bendy bones first"
+msgstr "没有已转换的分段：请先转换 B-Bone"
+
+#: bbone_to_bones/ui/operator_weights.py:32
+#: bbone_to_bones/ui/operator_weights.py:70
+msgid "No mesh is rigged to this armature"
+msgstr "没有网格绑定到此骨架"
+
+#: bbone_to_bones/ui/properties.py:62
+msgid "Normalize Deform Weights"
+msgstr "归一化变形权重"
+
+#: bbone_to_bones/ui/panel.py:149
+msgid "One-Click Pipeline"
+msgstr "一键流程"
+
+#: bbone_to_bones/ui/properties.py:47
+msgid "Operate only on the bendy bones currently selected in Pose or Object mode"
+msgstr "仅操作姿态模式或物体模式下当前选中的 B-Bone"
+
+#: bbone_to_bones/ui/operator_export.py:22
+msgid "Override the export path of the settings"
+msgstr "覆盖设置中的导出路径"
+
+#: bbone_to_bones/ui/panel.py:215
+msgid "Preset"
+msgstr "预设"
+
+#: bbone_to_bones/ui/panel.py:205
+msgid "Remove After Bake"
+msgstr "烘焙后移除"
+
+#: bbone_to_bones/ui/properties.py:106
+msgid "Remove Constraints After Bake"
+msgstr "烘焙后移除约束"
+
+#: bbone_to_bones/ui/panel.py:142
+msgid "Rigged meshes: {0}"
+msgstr "已绑定网格：{0}"
+
+#: bbone_to_bones/__init__.py:12
+msgid "Rigging"
+msgstr "绑定"
+
+#: bbone_to_bones/ui/panel.py:228
+msgid "Rigging Suite"
+msgstr "绑定套件"
+
+#: bbone_to_bones/ui/properties.py:99
+msgid "Sample every N frames while baking"
+msgstr "烘焙时每 N 帧采样"
+
+#: bbone_to_bones/ui/properties.py:62
+msgid "Scale the deform weights of every vertex back to 1.0"
+msgstr "将每个顶点的变形权重缩放回 1.0"
+
+#: bbone_to_bones/ui/panel.py:135
+msgid "Segments: 0 (Ready)"
+msgstr "分段：0（就绪）"
+
+#: bbone_to_bones/ui/panel.py:139
+msgid "Segments: {0} (Baked: YES)"
+msgstr "分段：{0}（已烘焙：是）"
+
+#: bbone_to_bones/ui/panel.py:137
+msgid "Segments: {0} (Follow: ON)"
+msgstr "分段：{0}（跟随：开）"
+
+#: bbone_to_bones/ui/panel.py:141
+msgid "Segments: {0} (Static)"
+msgstr "分段：{0}（静态）"
+
+#: bbone_to_bones/ui/panel.py:45
+msgid "Select an Armature first"
+msgstr "请先选择骨架"
+
+#: bbone_to_bones/ui/operator_common.py:51
+msgid "Select an Armature object first"
+msgstr "请先选择一个骨架物体"
+
+#: bbone_to_bones/ui/panel.py:164
+#: bbone_to_bones/ui/properties.py:47
+msgid "Selected Bones Only"
+msgstr "仅选中的骨骼"
+
+#: bbone_to_bones/ui/properties.py:85
+msgid "Start Frame"
+msgstr "起始帧"
+
+#: bbone_to_bones/ui/properties.py:141
+msgid "Turn off Preserve Volume on the Armature modifier before export to match game engines"
+msgstr "导出前请关闭骨架修改器上的「保持体积」，以匹配游戏引擎"
+
+#: bbone_to_bones/ui/properties.py:120
+msgid "Unity (FBX)"
+msgstr "Unity (FBX)"
+
+#: bbone_to_bones/ui/properties.py:121
+msgid "Unity (glTF)"
+msgstr "Unity (glTF)"
+
+#: bbone_to_bones/ui/properties.py:122
+msgid "Unreal (FBX)"
+msgstr "Unreal (FBX)"
+
+#: bbone_to_bones/ui/properties.py:123
+msgid "Unreal (glTF)"
+msgstr "Unreal (glTF)"
+
+#: bbone_to_bones/ui/properties.py:72
+msgid "Use Scene Frame Range"
+msgstr "使用场景帧范围"
+
+#: bbone_to_bones/ui/properties.py:124
+msgid "glTF preset for Godot"
+msgstr "适用于 Godot 的 glTF 预设"
+
+#: bbone_to_bones/ui/properties.py:121
+msgid "glTF preset for Unity"
+msgstr "适用于 Unity 的 glTF 预设"
+
+#: bbone_to_bones/ui/properties.py:123
+msgid "glTF preset for Unreal Engine 5"
+msgstr "适用于 Unreal Engine 5 的 glTF 预设"
+
+#: bbone_to_bones/ui/panel.py:194
+msgctxt "Operator"
+msgid "Add Follow"
+msgstr "添加跟随"
+
+#: bbone_to_bones/ui/operator_follow.py:21
+msgctxt "Operator"
+msgid "Add Follow Constraints"
+msgstr "添加跟随约束"
+
+#: bbone_to_bones/ui/operator_follow.py:22
+msgctxt "Operator"
+msgid "Add one follow constraint per converted segment"
+msgstr "为每个转换后的分段添加一个跟随约束"
+
+#: bbone_to_bones/ui/panel.py:169
+msgctxt "Operator"
+msgid "All {0} BBones Converted"
+msgstr "已转换全部 {0} 个弯曲骨骼"
+
+#: bbone_to_bones/ui/panel.py:240
+msgctxt "Operator"
+msgid "Apply ACTD"
+msgstr "应用 ACTD"
+
+#: bbone_to_bones/ui/panel.py:208
+msgctxt "Operator"
+msgid "Bake Animation"
+msgstr "烘焙动画"
+
+#: bbone_to_bones/ui/operator_follow.py:86
+msgctxt "Operator"
+msgid "Bake Segment Animation"
+msgstr "烘焙分段动画"
+
+#: bbone_to_bones/ui/panel.py:235
+msgctxt "Operator"
+msgid "Bind CTRL to DEF"
+msgstr "将 CTRL 绑定到 DEF"
+
+#: bbone_to_bones/ui/panel.py:152
+msgctxt "Operator"
+msgid "Convert All"
+msgstr "全部转换"
+
+#: bbone_to_bones/ui/operator_convert.py:105
+msgctxt "Operator"
+msgid "Convert All (Segments + Weights + Bake)"
+msgstr "全部转换（分段 + 权重 + 烘焙）"
+
+#: bbone_to_bones/ui/operator_convert.py:22
+msgctxt "Operator"
+msgid "Convert BBones to Segments"
+msgstr "将弯曲骨骼转换为分段"
+
+#: bbone_to_bones/ui/panel.py:177
+msgctxt "Operator"
+msgid "Convert Segments"
+msgstr "转换分段"
+
+#: bbone_to_bones/ui/operator_convert.py:106
+msgctxt "Operator"
+msgid "Convert the bendy bones, transfer the weights and bake the motion"
+msgstr "转换弯曲骨骼、传递权重并烘焙运动"
+
+#: bbone_to_bones/ui/operator_convert.py:71
+msgctxt "Operator"
+msgid "Delete the converted segments and move their weights back on the bendy bones"
+msgstr "删除已转换的分段，并将其权重移回弯曲骨骼"
+
+#: bbone_to_bones/ui/operator_follow.py:60
+msgctxt "Operator"
+msgid "Delete the follow constraints added by the add-on"
+msgstr "删除由插件添加的跟随约束"
+
+#: bbone_to_bones/ui/operator_export.py:18
+#: bbone_to_bones/ui/panel.py:219
+msgctxt "Operator"
+msgid "Export Rig"
+msgstr "导出绑定"
+
+#: bbone_to_bones/ui/operator_export.py:19
+msgctxt "Operator"
+msgid "Export the rig and its meshes with the engine preset"
+msgstr "使用引擎预设导出绑定及其网格"
+
+#: bbone_to_bones/ui/panel.py:231
+msgctxt "Operator"
+msgid "Generate CTRL"
+msgstr "生成 CTRL"
+
+#: bbone_to_bones/ui/operator_weights.py:61
+msgctxt "Operator"
+msgid "Keep only the strongest deforming groups per vertex"
+msgstr "每个顶点仅保留影响最强的变形组"
+
+#: bbone_to_bones/ui/operator_follow.py:87
+msgctxt "Operator"
+msgid "Key the segment motion over the chosen frame range"
+msgstr "在所选帧范围内为分段运动插入关键帧"
+
+#: bbone_to_bones/ui/panel.py:183
+msgctxt "Operator"
+msgid "Limit Influences"
+msgstr "限制影响"
+
+#: bbone_to_bones/ui/operator_weights.py:60
+msgctxt "Operator"
+msgid "Limit Vertex Influences"
+msgstr "限制顶点影响"
+
+#: bbone_to_bones/ui/panel.py:197
+msgctxt "Operator"
+msgid "Remove Follow"
+msgstr "移除跟随"
+
+#: bbone_to_bones/ui/operator_follow.py:59
+msgctxt "Operator"
+msgid "Remove Follow Constraints"
+msgstr "移除跟随约束"
+
+#: bbone_to_bones/ui/operator_convert.py:23
+msgctxt "Operator"
+msgid "Replace every bendy bone with a chain of regular bones"
+msgstr "将每个弯曲骨骼替换为常规骨骼链"
+
+#: bbone_to_bones/ui/operator_convert.py:70
+#: bbone_to_bones/ui/panel.py:155
+msgctxt "Operator"
+msgid "Revert to BBones"
+msgstr "还原为弯曲骨骼"
+
+#: bbone_to_bones/ui/operator_weights.py:20
+msgctxt "Operator"
+msgid "Split the bendy-bone weights on the converted segments"
+msgstr "在已转换的分段上拆分弯曲骨骼权重"
+
+#: bbone_to_bones/ui/operator_weights.py:19
+msgctxt "Operator"
+msgid "Transfer Skin Weights"
+msgstr "传递蒙皮权重"
+
+#: bbone_to_bones/ui/panel.py:180
+msgctxt "Operator"
+msgid "Transfer Weights"
+msgstr "传递权重"

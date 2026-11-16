@@ -1,0 +1,630 @@
+# perfect-chinese: 1
+# id: novaskin_export
+# kind: addon
+# module: bl_ext.blender_org.novaskin_export
+# name: NovaSkin Export
+# name_zh: 皮肤壁纸导出
+# translator: KeshiMiao
+# category: Render
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:6378
+msgid "(Sprite = flat image; Texture/Player = re-skinnable mesh)"
+msgstr "（Sprite = 平面图像；Texture/Player = 可更换皮肤的网格）"
+
+#: __init__.py:6328
+msgid "(enable Allow Online Access for web links)"
+msgstr "（网页链接需启用「允许在线访问」）"
+
+#: __init__.py:6355
+msgid "(nothing selected)"
+msgstr "（未选择任何内容）"
+
+#: __init__.py:6254
+msgid "(or Esc in the viewport)"
+msgstr "（或在视图中按 Esc）"
+
+#: __init__.py:5648
+msgid "16-bit half EXR (smaller); off = 32-bit float"
+msgstr "16 位半精度 EXR（更小）；关闭 = 32 位浮点"
+
+#: __init__.py:5644
+msgid "8-bit lossless WebP -- ~60% smaller than PNG, browser-decodable"
+msgstr "8 位无损 WebP —— 比 PNG 小约 60%，浏览器可解码"
+
+#: __init__.py:5643
+msgid "8/16-bit PNG"
+msgstr "8/16 位 PNG"
+
+#: __init__.py:6400
+msgid "Animated"
+msgstr "动画"
+
+#: __init__.py:5735
+msgid "Animated wallpaper export"
+msgstr "动画壁纸导出"
+
+#: __init__.py:5692
+msgid "Animated: include the background band (the scenery behind the players)"
+msgstr "动画：包含背景条带（玩家身后的景物）"
+
+#: __init__.py:5695
+msgid "Animated: include the light band (per-frame player relighting). OFF = flat skin"
+msgstr "动画：包含光照条带（逐帧玩家重新打光）。关闭 = 平光皮肤"
+
+#: __init__.py:5698
+msgid "Animated: include the occlusion band (player-vs-scenery matte). OFF when nothing occludes the players -- skips a render pass and a band"
+msgstr "动画：包含遮挡条带（玩家与场景的遮罩）。当没有物体遮挡玩家时关闭 —— 可跳过一遍渲染和一条条带"
+
+#: __init__.py:5735
+msgid "Animation"
+msgstr "动画"
+
+#: __init__.py:5409
+msgid "Arm_IK.L"
+msgstr "Arm_IK.L"
+
+#: __init__.py:5409
+msgid "Arm_IK.R"
+msgstr "Arm_IK.R"
+
+#: __init__.py:5408
+msgid "Arm_Lower_FK.L"
+msgstr "Arm_Lower_FK.L"
+
+#: __init__.py:5408
+msgid "Arm_Lower_FK.R"
+msgstr "Arm_Lower_FK.R"
+
+#: __init__.py:5407
+msgid "Arm_Upper_FK.L"
+msgstr "Arm_Upper_FK.L"
+
+#: __init__.py:5407
+msgid "Arm_Upper_FK.R"
+msgstr "Arm_Upper_FK.R"
+
+#: __init__.py:5717
+msgid "Atlas res"
+msgstr "图集分辨率"
+
+#: __init__.py:5663
+msgid "Back Faces"
+msgstr "背面"
+
+#: __init__.py:5676
+#: __init__.py:5692
+msgid "Background"
+msgstr "背景"
+
+#: __init__.py:5668
+msgid "Background (no players/layers)"
+msgstr "背景（不含玩家/图层）"
+
+#: __init__.py:6397
+msgid "Bakes onto the FK controls. Feet may need cleanup."
+msgstr "烘焙到 FK 控制上。脚部可能需要清理。"
+
+#: __init__.py:6404
+msgid "Bands:"
+msgstr "条带："
+
+#: __init__.py:5667
+msgid "Base Layer Composite"
+msgstr "基础层合成"
+
+#: __init__.py:6385
+msgid "Copy FBX Animation (Mixamo → Rig)"
+msgstr "复制 FBX 动画（Mixamo → 绑定）"
+
+#: __init__.py:5706
+msgid "Cycles render samples for the whole static export -- the background, the character light atlas, the shadows and the layer sprites all use the same value so they stay consistent. Higher is cleaner but slower; lower for tests"
+msgstr "整个静态导出使用的 Cycles 渲染采样数 —— 背景、角色光照图集、阴影和图层精灵都使用同一数值以保持一致。数值越高越干净但越慢；测试时可用较低值"
+
+#: __init__.py:5733
+msgid "Detected rig + optional toggleable layers"
+msgstr "检测到的绑定 + 可选的可切换图层"
+
+#: __init__.py:6036
+#: __init__.py:6054
+msgid "Draft"
+msgstr "草稿"
+
+#: __init__.py:5646
+msgid "EXR (float)"
+msgstr "EXR（浮点）"
+
+#: __init__.py:5650
+msgid "EXR Codec"
+msgstr "EXR 编码"
+
+#: __init__.py:6203
+msgid "Enable legacy Texture UV export"
+msgstr "启用旧版纹理 UV 导出"
+
+#: __init__.py:5731
+msgid "Export"
+msgstr "导出"
+
+#: __init__.py:5672
+msgid "Export Mesh v2: bake the per-character / per-layer relight atlas. OFF reuses the previous export's atlas (re-render other steps without re-baking)"
+msgstr "导出网格 v2：烘焙每个角色/每个图层的重新打光图集。关闭则复用上次导出的图集（重新渲染其他步骤而无需重新烘焙）"
+
+#: __init__.py:5676
+msgid "Export Mesh v2: render the clean background image. OFF reuses the previous export"
+msgstr "导出网格 v2：渲染干净的背景图像。关闭则复用上次导出"
+
+#: __init__.py:5679
+msgid "Export Mesh v2: render the per-entity FOREGROUND matte -- one map of everything in front of the entity (scenery occludes + water/glass tints). OFF reuses the previous"
+msgstr "导出网格 v2：渲染每个实体的前景遮罩 —— 一张包含实体前方所有内容的图（场景遮挡 + 水/玻璃染色）。关闭则复用上次结果"
+
+#: __init__.py:5683
+msgid "Export Mesh v2: render the per-entity shadow ratios (the slow pass). OFF reuses"
+msgstr "导出网格 v2：渲染每个实体的阴影比例（较慢的一遍）。关闭则复用"
+
+#: __init__.py:5686
+msgid "Export Mesh v2: render the sprite-type scenery layers. OFF reuses the previous"
+msgstr "导出网格 v2：渲染精灵类型的场景图层。关闭则复用上次结果"
+
+#: __init__.py:6054
+msgid "Fast preview: 50% resolution, few samples"
+msgstr "快速预览：50% 分辨率，少量采样"
+
+#: __init__.py:6036
+msgid "Fast preview: render everything at 50% resolution with few samples (framing/marking iteration -- not for the final export)"
+msgstr "快速预览：以 50% 分辨率和少量采样渲染全部内容（用于构图/标记迭代 —— 不用于最终导出）"
+
+#: __init__.py:109
+msgid "Finger main"
+msgstr "Finger main"
+
+#: __init__.py:110
+msgid "Finger+ main"
+msgstr "Finger+ main"
+
+#: __init__.py:5702
+msgid "Fix Hat Position and Scale"
+msgstr "修正帽子的位置和缩放"
+
+#: __init__.py:481
+msgid "Flat baked image -- matches the render exactly. For background props"
+msgstr "平面烘焙图像 —— 与渲染完全一致。用于背景道具"
+
+#: __init__.py:5646
+msgid "Float EXR -- straight alpha, no quantization"
+msgstr "浮点 EXR —— 直通 Alpha，无量化"
+
+#: __init__.py:5679
+msgid "Foreground"
+msgstr "前景"
+
+#: __init__.py:5666
+msgid "Foreground (tint)"
+msgstr "前景（染色）"
+
+#: __init__.py:5654
+msgid "Format"
+msgstr "格式"
+
+#: __init__.py:5648
+msgid "Half float"
+msgstr "半浮点"
+
+#: __init__.py:5390
+msgid "Head"
+msgstr "Head"
+
+#: __init__.py:5717
+msgid "How crisp the baked light and shadows look on the characters. Higher is sharper but a bit heavier; 512 is a good balance"
+msgstr "角色上烘焙光照和阴影的清晰程度。数值越高越锐利但稍重；512 是不错的平衡"
+
+#: __init__.py:5654
+msgid "How the players and retexturable layers are exported"
+msgstr "玩家和可重新贴图的图层的导出方式"
+
+#: __init__.py:6452
+msgid "How this optional layer is exported"
+msgstr "此可选图层的导出方式"
+
+#: __init__.py:5664
+msgid "Illum"
+msgstr "光照"
+
+#: __init__.py:5711
+msgid "Illum/Shadow"
+msgstr "光照/阴影"
+
+#: __init__.py:5659
+msgid "Interactive 3D wallpaper: the characters as meshes you can re-skin live, with toggleable scenery layers"
+msgstr "交互式 3D 壁纸：角色为可实时更换皮肤的网格，场景图层可切换"
+
+#: __init__.py:5713
+msgid "JPEG"
+msgstr "JPEG"
+
+#: __init__.py:5715
+msgid "JPEG/WebP quality"
+msgstr "JPEG/WebP 质量"
+
+#: __init__.py:114
+msgid "L.Arm_ Fingers+"
+msgstr "L.Arm_ Fingers+"
+
+#: __init__.py:5414
+msgid "L.Arm_FK/IK"
+msgstr "L.Arm_FK/IK"
+
+#: __init__.py:113
+msgid "L.Arm_Fingers"
+msgstr "L.Arm_Fingers"
+
+#: __init__.py:5418
+msgid "L.Arm_World"
+msgstr "L.Arm_World"
+
+#: __init__.py:5419
+msgid "L.IK/FK"
+msgstr "L.IK/FK"
+
+#: __init__.py:6452
+msgid "Layer"
+msgstr "图层"
+
+#: __init__.py:6274
+msgid "Layer Options"
+msgstr "图层选项"
+
+#: __init__.py:5731
+msgid "Layer options, quality, output and the render buttons"
+msgstr "图层选项、质量、输出和渲染按钮"
+
+#: __init__.py:5733
+msgid "Layers"
+msgstr "图层"
+
+#: __init__.py:5391
+msgid "Leg_FK.L"
+msgstr "Leg_FK.L"
+
+#: __init__.py:5392
+msgid "Leg_FK.R"
+msgstr "Leg_FK.R"
+
+#: __init__.py:5393
+msgid "Leg_foot.L"
+msgstr "Leg_foot.L"
+
+#: __init__.py:5393
+msgid "Leg_foot.R"
+msgstr "Leg_foot.R"
+
+#: __init__.py:5391
+msgid "Leg_knee_FK.L"
+msgstr "Leg_knee_FK.L"
+
+#: __init__.py:5392
+msgid "Leg_knee_FK.R"
+msgstr "Leg_knee_FK.R"
+
+#: __init__.py:5695
+msgid "Light"
+msgstr "光照"
+
+#: __init__.py:5672
+msgid "Light Atlas"
+msgstr "光照图集"
+
+#: __init__.py:483
+msgid "Like Texture, but shown as a player/character in the wallpaper tool"
+msgstr "类似纹理，但在壁纸工具中显示为玩家/角色"
+
+#: __init__.py:5389
+msgid "Lower_body"
+msgstr "Lower_body"
+
+#: __init__.py:5659
+msgid "Mesh"
+msgstr "网格"
+
+#: __init__.py:5724
+msgid "Mixamo FBX armature to copy the animation from (the one with mixamorig: bones). The animation is baked onto the selected Thomas rig"
+msgstr "用于复制动画的 Mixamo FBX 骨架（带 mixamorig: 骨骼的那个）。动画会烘焙到所选 Thomas 骨架上"
+
+#: __init__.py:6258
+msgid "No Thomas rig found — see the Layers tab"
+msgstr "未找到 Thomas 骨架 — 请查看“图层”选项卡"
+
+#: __init__.py:128
+msgid "No face"
+msgstr "无面部"
+
+#: __init__.py:5606
+msgid "No target rig selected."
+msgstr "未选择目标骨架。"
+
+#: __init__.py:6235
+msgid "NovaSkin"
+msgstr "NovaSkin"
+
+#: __init__.py:6231
+msgid "NovaSkin Export"
+msgstr "NovaSkin 导出"
+
+#: __init__.py:4872
+msgid "NovaSkin animated: enable at least one band (BG / Light / Occ)"
+msgstr "NovaSkin 动画：至少启用一个通道（BG / Light / Occ）"
+
+#: __init__.py:6147
+msgid "NovaSkin layers: nothing selected and the active collection is empty"
+msgstr "NovaSkin 图层：未选择任何内容且活动集合为空"
+
+#: __init__.py:6022
+msgid "NovaSkin: cancelled (scene restored)"
+msgstr "NovaSkin：已取消（场景已恢复）"
+
+#: __init__.py:5823
+msgid "NovaSkin: starting export…"
+msgstr "NovaSkin：开始导出…"
+
+#: __init__.py:5698
+msgid "Occlusion"
+msgstr "遮蔽"
+
+#: __init__.py:6214
+msgid "Off by default: NovaSkin exports the interactive Mesh (v2) format."
+msgstr "默认关闭：NovaSkin 导出交互式网格（v2）格式。"
+
+#: __init__.py:6351
+msgid "Optional Layers"
+msgstr "可选图层"
+
+#: __init__.py:5638
+#: __init__.py:6302
+msgid "Output"
+msgstr "输出"
+
+#: __init__.py:484
+msgid "Overlay"
+msgstr "叠加"
+
+#: __init__.py:5643
+#: __init__.py:5713
+msgid "PNG"
+msgstr "PNG"
+
+#: __init__.py:5656
+msgid "Per-part UV maps + occlusion masks + screen-space light: the players and retexturable layers as flat images"
+msgstr "逐部件 UV 贴图 + 遮蔽遮罩 + 屏幕空间光照：玩家和可重贴图图层以平面图像形式输出"
+
+#: __init__.py:483
+msgid "Player"
+msgstr "玩家"
+
+#: __init__.py:5715
+#: __init__.py:6295
+msgid "Quality"
+msgstr "质量"
+
+#: __init__.py:5414
+msgid "R.Arm_FK/IK"
+msgstr "R.Arm_FK/IK"
+
+#: __init__.py:111
+msgid "R.Arm_Fingers"
+msgstr "R.Arm_Fingers"
+
+#: __init__.py:112
+msgid "R.Arm_Fingers+"
+msgstr "R.Arm_Fingers+"
+
+#: __init__.py:5418
+msgid "R.Arm_World"
+msgstr "R.Arm_World"
+
+#: __init__.py:5419
+msgid "R.IK/FK"
+msgstr "R.IK/FK"
+
+#: __init__.py:482
+msgid "Re-skinnable 3D mesh: its own swappable texture + baked light"
+msgstr "可重贴图 3D 网格：自带可替换纹理 + 烘焙光照"
+
+#: __init__.py:6310
+msgid "Render"
+msgstr "渲染"
+
+#: __init__.py:6333
+msgid "Rig"
+msgstr "骨架"
+
+#: __init__.py:5706
+msgid "Samples"
+msgstr "采样"
+
+#: __init__.py:127
+msgid "Second layer"
+msgstr "第二图层"
+
+#: __init__.py:5729
+msgid "Section"
+msgstr "部分"
+
+#: __init__.py:484
+msgid "Semi-transparent element IN FRONT of everything (rain, glare, smoke): rendered alone over transparent and composited on top. Hidden from the mask/geometry so it never occludes the players/layers"
+msgstr "位于所有内容前方的半透明元素（雨、眩光、烟雾）：单独在透明背景上渲染并合成到最上层。已从遮罩/几何体中隐藏，因此永远不会遮挡玩家/图层"
+
+#: __init__.py:5665
+msgid "Shadow"
+msgstr "阴影"
+
+#: __init__.py:5683
+msgid "Shadows"
+msgstr "阴影"
+
+#: __init__.py:6203
+msgid "Show the export Format selector (Texture UV vs Mesh) in the NovaSkin sidebar and the Render menu. When off, only the interactive Mesh (v2) export is offered; the legacy per-part UV export still works, for advanced or backward-compatible use"
+msgstr "在 NovaSkin 侧边栏和渲染菜单中显示导出格式选择器（纹理 UV 与网格）。关闭时仅提供交互式网格（v2）导出；旧版的逐部件 UV 导出仍可使用，供高级或向后兼容用途"
+
+#: __init__.py:5702
+msgid "Snap the hat (2_Layer_Extrusion) onto the head and scale it to the Minecraft hat size (a bit bigger than the head)"
+msgstr "将帽子（2_Layer_Extrusion）吸附到头部，并缩放至 Minecraft 帽子尺寸（比头部稍大）"
+
+#: __init__.py:6386
+msgid "Source"
+msgstr "源"
+
+#: __init__.py:5724
+msgid "Source FBX"
+msgstr "源 FBX"
+
+#: __init__.py:481
+msgid "Sprite"
+msgstr "精灵"
+
+#: __init__.py:5686
+msgid "Sprites"
+msgstr "精灵"
+
+#: __init__.py:6279
+msgid "Steps (off = reuse previous export):"
+msgstr "步数（关闭 = 复用之前的导出）："
+
+#: __init__.py:482
+msgid "Texture"
+msgstr "纹理"
+
+#: __init__.py:5656
+msgid "Texture UV"
+msgstr "纹理 UV"
+
+#: __init__.py:6344
+msgid "This exporter needs the Thomas Rig Legacy."
+msgstr "此导出器需要 Thomas Rig Legacy。"
+
+#: __init__.py:5641
+msgid "UV Format"
+msgstr "UV 格式"
+
+#: __init__.py:5389
+msgid "Upper_Body"
+msgstr "Upper_Body"
+
+#: __init__.py:5713
+msgid "WebP"
+msgstr "WebP"
+
+#: __init__.py:5644
+msgid "WebP (lossless)"
+msgstr "WebP（无损）"
+
+#: __init__.py:5638
+msgid "Where to write the export (relative to the .blend with //)"
+msgstr "导出写入位置（相对于 .blend，使用 //）"
+
+#: __init__.py:6388
+msgid "no Thomas rig found"
+msgstr "未找到 Thomas 骨架"
+
+#: __init__.py:6381
+msgid "none marked"
+msgstr "未标记任何项"
+
+#: __init__.py:6297
+msgid "render samples for the whole export"
+msgstr "整个导出过程的渲染采样数"
+
+#: __init__.py:6253
+msgctxt "Operator"
+msgid "Cancel"
+msgstr "取消"
+
+#: __init__.py:6078
+msgctxt "Operator"
+msgid "Cancel NovaSkin export"
+msgstr "取消 NovaSkin 导出"
+
+#: __init__.py:5600
+msgctxt "Operator"
+msgid "Clear Rig Animation"
+msgstr "清除骨架动画"
+
+#: __init__.py:5577
+msgctxt "Operator"
+msgid "Copy FBX Animation to Rig"
+msgstr "复制 FBX 动画到骨架"
+
+#: __init__.py:6050
+msgctxt "Operator"
+msgid "Export Animation (beta)"
+msgstr "导出动画（测试版）"
+
+#: __init__.py:6416
+msgctxt "Operator"
+msgid "Export Animation (full quality)"
+msgstr "导出动画（完整质量）"
+
+#: __init__.py:6067
+msgctxt "Operator"
+msgid "Export Static (mesh v2, beta)"
+msgstr "导出静态（网格 v2，测试版）"
+
+#: __init__.py:6347
+msgctxt "Operator"
+msgid "Get the rig (extensions.blender.org)"
+msgstr "获取骨架（extensions.blender.org）"
+
+#: __init__.py:6098
+msgctxt "Operator"
+msgid "Mark as Optional Layer"
+msgstr "标记为可选层"
+
+#: __init__.py:6305
+msgctxt "Operator"
+msgid "Open Output Folder"
+msgstr "打开输出文件夹"
+
+#: __init__.py:6325
+msgctxt "Operator"
+msgid "Open Wallpaper Tool"
+msgstr "打开壁纸工具"
+
+#: __init__.py:6168
+msgctxt "Operator"
+msgid "Remove Optional Layer"
+msgstr "移除可选层"
+
+#: __init__.py:6314
+#: __init__.py:6316
+msgctxt "Operator"
+msgid "Render"
+msgstr "渲染"
+
+#: __init__.py:6225
+msgctxt "Operator"
+msgid "Render Draft (Texture UV preview)"
+msgstr "渲染草图（纹理 UV 预览）"
+
+#: __init__.py:6318
+msgctxt "Operator"
+msgid "Render Draft (test only)"
+msgstr "渲染草图（仅测试）"
+
+#: __init__.py:6032
+msgctxt "Operator"
+msgid "Render for NovaSkin"
+msgstr "为 NovaSkin 渲染"
+
+#: __init__.py:6220
+msgctxt "Operator"
+msgid "Render for NovaSkin (Mesh)"
+msgstr "为 NovaSkin 渲染（网格）"
+
+#: __init__.py:6223
+msgctxt "Operator"
+msgid "Render for NovaSkin (Texture UV)"
+msgstr "为 NovaSkin 渲染（纹理 UV）"

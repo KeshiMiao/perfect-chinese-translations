@@ -1,0 +1,120 @@
+# perfect-chinese: 1
+# id: sldprt_import
+# kind: addon
+# module: bl_ext.blender_org.sldprt_import
+# name: SLDPRT Import
+# name_zh: SLDPRT导入
+# translator: KeshiMiao
+# category: Import-Export
+# supported_versions: >=4.3.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:16
+msgid "16 times more triangles (heavy on large parts)"
+msgstr "三角形数量增加 16 倍（大型零件负担较重）"
+
+#: __init__.py:15
+msgid "4 times more triangles: rounds and holes bent onto the surface with the stored normals"
+msgstr "三角形数量增加 4 倍：圆角和孔依据存储的法线贴合到曲面"
+
+#: __init__.py:14
+msgid "As Saved"
+msgstr "按保存状态"
+
+#: __init__.py:13
+msgid "Coarse"
+msgstr "粗糙"
+
+#: __init__.py:157
+msgid "Detail"
+msgstr "细节"
+
+#: __init__.py:141
+msgid "Display Mesh"
+msgstr "显示网格"
+
+#: __init__.py:160
+msgid "Edges sharper than this stay sharp, the others are smoothed"
+msgstr "比此更尖锐的边保持锐利，其余边平滑"
+
+#: __init__.py:140
+msgid "Exact Geometry"
+msgstr "精确几何"
+
+#: __init__.py:15
+msgid "Fine"
+msgstr "精细"
+
+#: __init__.py:13
+msgid "Half the triangles of the file (lighter, rounds get flatter)"
+msgstr "文件三角形数量的一半（更轻量，圆角更平）"
+
+#: __init__.py:159
+msgid "Join the faces of the part into one closed mesh"
+msgstr "将零件的各个面合并为一个封闭网格"
+
+#: __init__.py:162
+msgid "Keep CAD Faces"
+msgstr "保留 CAD 面"
+
+#: __init__.py:155
+msgid "Largest gap between the mesh and the exact surface (smaller: more triangles)"
+msgstr "网格与精确曲面之间的最大偏差（越小：三角形越多）"
+
+#: __init__.py:159
+msgid "Merge Faces"
+msgstr "合并面"
+
+#: __init__.py:140
+msgid "Mesh the exact surfaces of the part (Parasolid) at the tolerance below"
+msgstr "按下方容差对零件的精确曲面（Parasolid）进行网格化"
+
+#: __init__.py:157
+msgid "Number of triangles: the file stores one mesh; Fine and Very Fine bend new points onto the curved surfaces"
+msgstr "三角形数量：文件只存储一个网格；「精细」和「极精细」会将新顶点贴合到曲面"
+
+#: __init__.py:208
+msgid "SLDPRT"
+msgstr "SLDPRT"
+
+#: __init__.py:160
+msgid "Sharp Edges Above"
+msgstr "锐边角度阈值"
+
+#: __init__.py:154
+msgid "Source"
+msgstr "来源"
+
+#: __init__.py:162
+msgid "Store the CAD face of each triangle in the attribute « cad_face »"
+msgstr "将每个三角形所属的 CAD 面存储到属性「cad_face」中"
+
+#: __init__.py:14
+msgid "The mesh stored in the file"
+msgstr "文件中存储的网格"
+
+#: __init__.py:141
+msgid "The mesh stored in the file for display (fast, fixed detail)"
+msgstr "文件中存储的显示用网格（快速、固定细节）"
+
+#: __init__.py:155
+msgid "Tolerance"
+msgstr "容差"
+
+#: __init__.py:16
+msgid "Very Fine"
+msgstr "极精细"
+
+#: __init__.py:147
+msgctxt "Operator"
+msgid "Import SLDPRT"
+msgstr "导入 SLDPRT"
+
+#: __init__.py:218
+msgctxt "Operator"
+msgid "SLDPRT (.sldprt)"
+msgstr "SLDPRT (.sldprt)"

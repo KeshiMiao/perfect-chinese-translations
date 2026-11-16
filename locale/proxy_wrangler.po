@@ -1,0 +1,214 @@
+# perfect-chinese: 1
+# id: proxy_wrangler
+# kind: addon
+# module: bl_ext.blender_org.proxy_wrangler
+# name: ProxyWrangler
+# name_zh: 轮廓代理工具
+# translator: KeshiMiao
+# category: Pipeline
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:956
+msgid "Adaptive"
+msgstr "自适应"
+
+#: __init__.py:26
+msgid "All"
+msgstr "全部"
+
+#: __init__.py:884
+msgid "Applies on generate / regenerate"
+msgstr "在生成/重新生成时应用"
+
+#: __init__.py:907
+msgid "Automatic render visibility: On"
+msgstr "自动渲染可见性：开启"
+
+#: __init__.py:954
+msgid "Balanced"
+msgstr "均衡"
+
+#: __init__.py:941
+msgid "Collapse Ratio"
+msgstr "塌陷比例"
+
+#: __init__.py:952
+msgid "Custom Ratio"
+msgstr "自定义比例"
+
+#: __init__.py:955
+msgid "Detailed Silhouette"
+msgstr "精细轮廓"
+
+#: __init__.py:953
+msgid "Fast Layout"
+msgstr "快速布局"
+
+#: __init__.py:903
+msgid "Last preflight result"
+msgstr "上次预检结果"
+
+#: __init__.py:906
+msgid "Linked assets use local overrides"
+msgstr "链接资产使用本地覆盖"
+
+#: __init__.py:959
+msgid "Minimum Triangles"
+msgstr "最小三角形数"
+
+#: __init__.py:874
+msgid "Object Mode required"
+msgstr "需要物体模式"
+
+#: __init__.py:941
+msgid "Percentage of geometry to retain in new proxies; lower values create lighter proxies"
+msgstr "新代理中保留的几何体百分比；数值越低，代理越轻量"
+
+#: __init__.py:867
+msgid "ProxyWrangler"
+msgstr "ProxyWrangler"
+
+#: __init__.py:863
+msgid "ProxyWrangler Engine"
+msgstr "ProxyWrangler 引擎"
+
+#: __init__.py:950
+msgid "Quality"
+msgstr "质量"
+
+#: __init__.py:959
+msgid "Raise the collapse ratio for small assets; the decimator's final count is approximate"
+msgstr "小型资产请提高塌陷比例；减面器的最终计数为近似值"
+
+#: __init__.py:911
+msgid "Render preparation needs attention"
+msgstr "渲染准备需要处理"
+
+#: __init__.py:953
+msgid "Retain 1% with a minimum triangle floor"
+msgstr "保留 1%，并设最小三角形数下限"
+
+#: __init__.py:955
+msgid "Retain 15% with a minimum triangle floor"
+msgstr "保留 15%，并设最小三角形数下限"
+
+#: __init__.py:954
+msgid "Retain 3% with a minimum triangle floor"
+msgstr "保留 3%，并设最小三角形数下限"
+
+#: __init__.py:963
+msgid "Reuse proxy meshes only when evaluated geometry and collapse settings match"
+msgstr "仅在求值后的几何体与塌陷设置匹配时复用代理网格"
+
+#: __init__.py:25
+msgid "Selected"
+msgstr "已选中"
+
+#: __init__.py:963
+msgid "Share Matching Geometry"
+msgstr "共享匹配几何体"
+
+#: __init__.py:26
+msgid "Use all proxies; generation uses eligible visible assets in the active view layer"
+msgstr "使用全部代理；生成时使用活动视图图层中符合条件的可见资产"
+
+#: __init__.py:25
+msgid "Use selected assets"
+msgstr "使用选中的资产"
+
+#: __init__.py:952
+msgid "Use the artist's collapse ratio without a triangle floor"
+msgstr "使用作者设定的塌陷比例，不设三角形数下限"
+
+#: __init__.py:956
+msgid "Use the custom ratio with a minimum triangle floor"
+msgstr "使用自定义比例，并设最小三角形数下限"
+
+#: __init__.py:912
+msgid "_pw_render_warning"
+msgstr "_pw_render_warning"
+
+#: __init__.py:893
+msgctxt "Operator"
+msgid "All"
+msgstr "全部"
+
+#: __init__.py:594
+msgctxt "Operator"
+msgid "Bake selected meshes and collection instances using the panel collapse ratio"
+msgstr "使用面板中的塌陷比例烘焙选中的网格与集合实例"
+
+#: __init__.py:772
+msgctxt "Operator"
+msgid "Block rendering on proxy preflight errors before starting Blender's renderer"
+msgstr "代理预检出错时阻止渲染，不启动 Blender 渲染器"
+
+#: __init__.py:593
+msgctxt "Operator"
+msgid "Generate Performance Proxies"
+msgstr "生成性能代理"
+
+#: __init__.py:899
+msgctxt "Operator"
+msgid "Preflight & Animation"
+msgstr "预检与动画"
+
+#: __init__.py:771
+msgctxt "Operator"
+msgid "Preflight & Render"
+msgstr "预检与渲染"
+
+#: __init__.py:898
+msgctxt "Operator"
+msgid "Preflight & Render · F12"
+msgstr "预检与渲染 · F12"
+
+#: __init__.py:923
+msgctxt "Operator"
+msgid "ProxyWrangler Preflight & Animation"
+msgstr "ProxyWrangler 预检与动画"
+
+#: __init__.py:922
+msgctxt "Operator"
+msgid "ProxyWrangler Preflight & Render"
+msgstr "ProxyWrangler 预检与渲染"
+
+#: __init__.py:691
+msgctxt "Operator"
+msgid "Rebuild proxy geometry at the current quality without changing layout placements"
+msgstr "按当前质量重建代理几何体，不改变布局位置"
+
+#: __init__.py:690
+msgctxt "Operator"
+msgid "Regenerate Proxies"
+msgstr "重新生成代理"
+
+#: __init__.py:759
+msgctxt "Operator"
+msgid "Render Preflight"
+msgstr "渲染预检"
+
+#: __init__.py:892
+msgctxt "Operator"
+msgid "Selected"
+msgstr "已选中"
+
+#: __init__.py:794
+msgctxt "Operator"
+msgid "Swap to Production Meshes"
+msgstr "切换为生产网格"
+
+#: __init__.py:795
+msgctxt "Operator"
+msgid "Transfer proxy world transforms to production objects and remove successful proxies"
+msgstr "将代理的世界变换转移到生产物体，并移除成功的代理"
+
+#: __init__.py:760
+msgctxt "Operator"
+msgid "Validate production references, libraries, render visibility and current-frame placement"
+msgstr "校验生产引用、库、渲染可见性以及当前帧位置"

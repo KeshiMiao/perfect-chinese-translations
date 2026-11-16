@@ -1,0 +1,144 @@
+# perfect-chinese: 1
+# id: audio_oven_trigger
+# kind: addon
+# module: bl_ext.blender_org.audio_oven_trigger
+# name: Audio Oven Trigger
+# name_zh: 音频触发系统
+# translator: KeshiMiao
+# category: Sequencer
+# supported_versions: >=5.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:143
+msgid "Active strip is not a sound strip."
+msgstr "活动片段不是声音片段。"
+
+#: __init__.py:65
+msgid "Audio File"
+msgstr "音频文件"
+
+#: __init__.py:327
+msgid "Audio Oven"
+msgstr "Audio Oven"
+
+#: __init__.py:65
+msgid "Audio file used by the trigger system"
+msgstr "触发器系统使用的音频文件"
+
+#: __init__.py:90
+msgid "Color Tag"
+msgstr "颜色标签"
+
+#: __init__.py:215
+msgid "Could not create the Sequence Editor."
+msgstr "无法创建序列编辑器。"
+
+#: __init__.py:90
+msgid "Default VSE color tag, used when the mesh has no valid \"color tag\" attribute value"
+msgstr "默认 VSE 颜色标签，当网格没有有效的 \"color tag\" 属性值时使用"
+
+#: __init__.py:82
+msgid "Default Volume"
+msgstr "默认音量"
+
+#: __init__.py:98
+msgid "First VSE channel available to the trigger system"
+msgstr "触发器系统可用的第一个 VSE 通道"
+
+#: __init__.py:98
+msgid "From Channel"
+msgstr "起始通道"
+
+#: __init__.py:105
+msgid "Last VSE channel available to the trigger system"
+msgstr "触发器系统可用的最后一个 VSE 通道"
+
+#: __init__.py:118
+msgid "Maximum Frame Duration"
+msgstr "最大帧时长"
+
+#: __init__.py:118
+msgid "Maximum duration of a generated audio strip in frames"
+msgstr "生成的音频片段的最大持续时间（帧）"
+
+#: __init__.py:70
+msgid "Mesh object containing the trigger attributes"
+msgstr "包含触发器属性的网格物体"
+
+#: __init__.py:192
+msgid "No audio file has been selected."
+msgstr "未选择音频文件。"
+
+#: __init__.py:203
+msgid "No trigger mesh has been selected."
+msgstr "未选择触发器网格。"
+
+#: __init__.py:308
+msgid "No trigger was added."
+msgstr "未添加触发器。"
+
+#: __init__.py:112
+msgid "Number of frames removed from the beginning of each audio strip"
+msgstr "从每个音频片段开头移除的帧数"
+
+#: __init__.py:112
+msgid "Start Trim"
+msgstr "起始修剪"
+
+#: __init__.py:197
+msgid "The selected audio file could not be found."
+msgstr "找不到所选音频文件。"
+
+#: __init__.py:207
+msgid "The trigger object must be a mesh."
+msgstr "触发器物体必须是网格。"
+
+#: __init__.py:105
+msgid "To Channel"
+msgstr "结束通道"
+
+#: __init__.py:76
+msgid "Trigger ID"
+msgstr "触发器 ID"
+
+#: __init__.py:76
+msgid "Trigger ID to search for"
+msgstr "要搜索的触发器 ID"
+
+#: __init__.py:70
+msgid "Trigger Mesh"
+msgstr "触发器网格"
+
+#: __init__.py:82
+msgid "Volume used when no valid per-trigger volume exists"
+msgstr "当不存在有效的逐触发器音量时使用的音量"
+
+#: __init__.py:133
+msgctxt "Operator"
+msgid "Copy selected sound strip information to the Audio Oven trigger panel"
+msgstr "将所选声音片段信息复制到 Audio Oven 触发器面板"
+
+#: __init__.py:172
+msgctxt "Operator"
+msgid "Generate Triggers"
+msgstr "生成触发器"
+
+#: __init__.py:173
+msgctxt "Operator"
+msgid "Generate audio strips from trigger attributes"
+msgstr "从触发器属性生成音频片段"
+
+#: __init__.py:132
+#: __init__.py:361
+msgctxt "Operator"
+msgid "Strip Info to Trigger Panel"
+msgstr "片段信息到触发器面板"
+
+#: __init__.py:352
+msgctxt "Operator"
+msgid "generate triggers"
+msgstr "生成触发器"

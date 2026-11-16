@@ -1,0 +1,273 @@
+# perfect-chinese: 1
+# id: shapingrecorder
+# kind: addon
+# module: bl_ext.blender_org.shapingrecorder
+# name: Shaping Recorder
+# name_zh: 塑形记录器
+# translator: KeshiMiao
+# category: Modeling
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: shapingrecorder/data/properties.py:85
+msgid "Active Step"
+msgstr "当前步骤"
+
+#: shapingrecorder/data/properties.py:51
+#: shapingrecorder/data/properties.py:88
+msgid "Camera Duration"
+msgstr "摄像机持续时间"
+
+#: shapingrecorder/data/properties.py:94
+msgid "Edge Color"
+msgstr "边颜色"
+
+#: shapingrecorder/ui/panels.py:79
+msgid "Edge Display"
+msgstr "边显示"
+
+#: shapingrecorder/data/properties.py:99
+msgid "Edge Glow"
+msgstr "边发光"
+
+#: shapingrecorder/data/properties.py:98
+msgid "Edge Width"
+msgstr "边宽度"
+
+#: shapingrecorder/data/properties.py:70
+msgid "End Step"
+msgstr "结束步骤"
+
+#: shapingrecorder/data/properties.py:76
+msgid "Export Render Mode"
+msgstr "导出渲染模式"
+
+#: shapingrecorder/ui/panels.py:41
+msgid "Exporting: {n} frames"
+msgstr "正在导出：{n} 帧"
+
+#: shapingrecorder/data/properties.py:73
+msgid "File Prefix"
+msgstr "文件前缀"
+
+#: shapingrecorder/data/properties.py:80
+msgid "Final Render"
+msgstr "最终渲染"
+
+#: shapingrecorder/ui/panels.py:112
+msgid "Frame Export (Sequence)"
+msgstr "帧导出（序列）"
+
+#: shapingrecorder/data/properties.py:104
+msgid "From Active"
+msgstr "从当前步骤"
+
+#: shapingrecorder/data/properties.py:105
+msgid "From Range"
+msgstr "从范围"
+
+#: shapingrecorder/data/properties.py:103
+msgid "From Start"
+msgstr "从起始"
+
+#: shapingrecorder/ui/panels.py:91
+msgid "Global Settings"
+msgstr "全局设置"
+
+#: shapingrecorder/data/properties.py:64
+msgid "Interpolation Steps"
+msgstr "插值步数"
+
+#: shapingrecorder/__init__.py:1
+msgid "Mesh"
+msgstr "网格"
+
+#: shapingrecorder/data/properties.py:54
+#: shapingrecorder/data/properties.py:91
+msgid "Mesh Duration"
+msgstr "网格持续时间"
+
+#: shapingrecorder/ui/panels.py:36
+msgid "No recorded object"
+msgstr "无已记录物体"
+
+#: shapingrecorder/ui/panels.py:34
+msgid "Object: {name}"
+msgstr "物体：{name}"
+
+#: shapingrecorder/data/properties.py:103
+msgid "Play/record from beginning"
+msgstr "从头播放/记录"
+
+#: shapingrecorder/data/properties.py:104
+msgid "Play/record from selected step"
+msgstr "从所选步骤播放/记录"
+
+#: shapingrecorder/data/properties.py:105
+msgid "Play/record within specified range"
+msgstr "在指定范围内播放/记录"
+
+#: shapingrecorder/data/properties.py:100
+#: shapingrecorder/ui/panels.py:103
+msgid "Playback Mode"
+msgstr "播放模式"
+
+#: shapingrecorder/__init__.py:1
+msgid "Record mesh shaping steps and viewport view changes, then replay with interpolated geometry and view. Optional frame export."
+msgstr "记录网格塑形步骤和视图变化，然后用插值几何体和视图回放。可选帧导出。"
+
+#: shapingrecorder/ui/panels.py:97
+msgid "Replay Range (1..{n})"
+msgstr "回放范围（1..{n}）"
+
+#: shapingrecorder/ui/panels.py:65
+msgid "Resetting..."
+msgstr "正在重置..."
+
+#: shapingrecorder/__init__.py:1
+#: shapingrecorder/ui/panels.py:26
+msgid "Shaping Recorder"
+msgstr "塑形记录器"
+
+#: shapingrecorder/data/properties.py:109
+msgid "Show Edge Settings"
+msgstr "显示边设置"
+
+#: shapingrecorder/data/properties.py:67
+msgid "Start Step"
+msgstr "起始步骤"
+
+#: shapingrecorder/ui/panels.py:11
+msgid "Step 0 (Initial)"
+msgstr "步骤 0（初始）"
+
+#: shapingrecorder/data/properties.py:61
+msgid "Step Duration"
+msgstr "步骤持续时间"
+
+#: shapingrecorder/ui/panels.py:14
+msgid "Step {n}"
+msgstr "步骤 {n}"
+
+#: shapingrecorder/ui/panels.py:62
+msgid "Step {n} Settings"
+msgstr "步骤 {n} 设置"
+
+#: shapingrecorder/ui/panels.py:38
+msgid "Steps: {n}"
+msgstr "步骤：{n}"
+
+#: shapingrecorder/data/properties.py:48
+#: shapingrecorder/ui/panels.py:69
+msgid "Use Custom Timing"
+msgstr "使用自定义时间"
+
+#: shapingrecorder/data/properties.py:79
+msgid "Use OpenGL viewport render"
+msgstr "使用 OpenGL 视图渲染"
+
+#: shapingrecorder/data/properties.py:80
+msgid "Use scene render engine"
+msgstr "使用场景渲染引擎"
+
+#: shapingrecorder/ui/panels.py:115
+msgid "Uses Output Path directory from Render Properties."
+msgstr "使用「渲染属性」中的输出路径目录。"
+
+#: shapingrecorder/data/properties.py:79
+msgid "Viewport"
+msgstr "视图"
+
+#: shapingrecorder/operators/generic.py:270
+#: shapingrecorder/ui/panels.py:85
+msgctxt "Operator"
+msgid "Confirm"
+msgstr "确认"
+
+#: shapingrecorder/operators/generic.py:151
+#: shapingrecorder/ui/panels.py:68
+msgctxt "Operator"
+msgid "Confirm Camera"
+msgstr "确认摄像机"
+
+#: shapingrecorder/operators/generic.py:80
+msgctxt "Operator"
+msgid "Delete Step"
+msgstr "删除步骤"
+
+#: shapingrecorder/operators/generic.py:248
+#: shapingrecorder/ui/panels.py:84
+msgctxt "Operator"
+msgid "Mark Edge"
+msgstr "标记边"
+
+#: shapingrecorder/operators/recording.py:95
+msgctxt "Operator"
+msgid "Mesh Recorder Modal"
+msgstr "网格记录模态"
+
+#: shapingrecorder/operators/generic.py:167
+#: shapingrecorder/operators/generic.py:303
+msgctxt "Operator"
+msgid "Play"
+msgstr "播放"
+
+#: shapingrecorder/operators/generic.py:182
+#: shapingrecorder/operators/generic.py:335
+msgctxt "Operator"
+msgid "Record"
+msgstr "记录"
+
+#: shapingrecorder/operators/generic.py:137
+#: shapingrecorder/ui/panels.py:67
+msgctxt "Operator"
+msgid "Reset Camera"
+msgstr "重置摄像机"
+
+#: shapingrecorder/operators/generic.py:111
+msgctxt "Operator"
+msgid "Restore Deleted Step"
+msgstr "恢复已删除步骤"
+
+#: shapingrecorder/operators/generic.py:212
+#: shapingrecorder/ui/panels.py:75
+msgctxt "Operator"
+msgid "Set End"
+msgstr "设置结束"
+
+#: shapingrecorder/operators/generic.py:197
+#: shapingrecorder/ui/panels.py:74
+msgctxt "Operator"
+msgid "Set Start"
+msgstr "设置开始"
+
+#: shapingrecorder/operators/generic.py:46
+#: shapingrecorder/ui/panels.py:45
+msgctxt "Operator"
+msgid "Start Recording"
+msgstr "开始记录"
+
+#: shapingrecorder/ui/panels.py:109
+msgctxt "Operator"
+msgid "Stop"
+msgstr "停止"
+
+#: shapingrecorder/operators/generic.py:69
+msgctxt "Operator"
+msgid "Stop Playing"
+msgstr "停止播放"
+
+#: shapingrecorder/operators/generic.py:58
+#: shapingrecorder/ui/panels.py:47
+msgctxt "Operator"
+msgid "Stop Recording"
+msgstr "停止记录"
+
+#: shapingrecorder/operators/generic.py:227
+msgctxt "Operator"
+msgid "Toggle Highlighted Edges"
+msgstr "切换高亮边"

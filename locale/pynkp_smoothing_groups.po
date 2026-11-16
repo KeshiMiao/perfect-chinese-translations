@@ -1,0 +1,169 @@
+# perfect-chinese: 1
+# id: pynkp_smoothing_groups
+# kind: addon
+# module: bl_ext.blender_org.pynkp_smoothing_groups
+# name: pynk_p Smoothing Groups
+# name_zh: 平滑组细分
+# translator: KeshiMiao
+# category: Mesh
+# supported_versions: >=4.5.5
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: properties.py:9
+msgid "Angle"
+msgstr "角度"
+
+#: properties.py:9
+msgid "Auto Smooth threshold between face normals"
+msgstr "面法线之间的自动平滑阈值"
+
+#: panels.py:97
+msgid "Boundary Method: Crease"
+msgstr "边界方式：折痕"
+
+#: panels.py:78
+msgid "Check modifier order / names"
+msgstr "检查修改器顺序/名称"
+
+#: panels.py:60
+msgid "Created by pynk_p"
+msgstr "由 pynk_p 创建"
+
+#: panels.py:42
+msgid "Enter Edit Mode to assign groups"
+msgstr "进入编辑模式以分配组"
+
+#: panels.py:57
+#: properties.py:12
+msgid "Group"
+msgstr "组"
+
+#: properties.py:14
+msgid "Managed Subdivision"
+msgstr "托管细分"
+
+#: panels.py:101
+msgid "Refresh after mesh edits"
+msgstr "网格编辑后刷新"
+
+#: operators.py:120
+msgid "Render"
+msgstr "渲染"
+
+#: panels.py:96
+msgid "Render Levels"
+msgstr "渲染级别"
+
+#: panels.py:31
+msgid "Smoothing Groups"
+msgstr "平滑组"
+
+#: panels.py:65
+msgid "Subdivision By Smoothing Groups"
+msgstr "按平滑组细分"
+
+#: properties.py:13
+msgid "Use Smoothing Groups"
+msgstr "使用平滑组"
+
+#: operators.py:120
+msgid "Viewport"
+msgstr "视图"
+
+#: panels.py:95
+msgid "Viewport Levels"
+msgstr "视图级别"
+
+#: operators.py:93
+msgctxt "Operator"
+msgid "Add Subdivision"
+msgstr "添加细分"
+
+#: operators.py:94
+msgctxt "Operator"
+msgid "Add a non-destructive, crease-based subdivision driven by smoothing-group boundaries"
+msgstr "添加由平滑组边界驱动的非破坏性折痕细分"
+
+#: operators.py:65
+msgctxt "Operator"
+msgid "Auto Smooth"
+msgstr "自动平滑"
+
+#: operators.py:56
+msgctxt "Operator"
+msgid "Clear Groups"
+msgstr "清除组"
+
+#: operators.py:57
+msgctxt "Operator"
+msgid "Clear every group on the selected faces and update shading"
+msgstr "清除所选面上的所有组并更新着色"
+
+#: operators.py:47
+msgctxt "Operator"
+msgid "On: remove from all selected faces. Off: add to all selected faces. Update shading immediately"
+msgstr "开启：从所有所选面移除。关闭：添加到所有所选面。立即更新着色"
+
+#: operators.py:84
+msgctxt "Operator"
+msgid "Rebuild group normals and boundaries after moving vertices, Extrude, Bevel, or other mesh edits"
+msgstr "在移动顶点、挤出、倒角或其他网格编辑后重建组法线和边界"
+
+#: operators.py:135
+msgctxt "Operator"
+msgid "Remove SG Subdivision"
+msgstr "移除平滑组细分"
+
+#: operators.py:136
+msgctxt "Operator"
+msgid "Remove the managed subdivision and boundary modifier; keep groups and original creases"
+msgstr "移除托管的细分和边界修改器；保留组和原始折痕"
+
+#: operators.py:66
+msgctxt "Operator"
+msgid "Replace selected-face groups by angle; preserve unselected group assignments"
+msgstr "按角度替换所选面的组；保留未选中的组分配"
+
+#: operators.py:75
+msgctxt "Operator"
+msgid "Replace the visible face selection with faces in the chosen group"
+msgstr "用所选组中的面替换可见面选择"
+
+#: panels.py:58
+msgctxt "Operator"
+msgid "Select"
+msgstr "选择"
+
+#: operators.py:74
+msgctxt "Operator"
+msgid "Select by Group"
+msgstr "按组选择"
+
+#: operators.py:46
+msgctxt "Operator"
+msgid "Toggle Smoothing Group"
+msgstr "切换平滑组"
+
+#: operators.py:119
+msgctxt "Operator"
+msgid "Toggle Subdivision Visibility"
+msgstr "切换细分可见性"
+
+#: operators.py:103
+msgctxt "Operator"
+msgid "Toggle group-derived subdivision creases; preserve source mesh creases"
+msgstr "切换由组生成的细分折痕；保留源网格折痕"
+
+#: operators.py:83
+msgctxt "Operator"
+msgid "Update Boundaries"
+msgstr "更新边界"
+
+#: operators.py:102
+msgctxt "Operator"
+msgid "Use Smoothing Groups"
+msgstr "使用平滑组"

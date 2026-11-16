@@ -1,0 +1,236 @@
+# perfect-chinese: 1
+# id: mesh_data_transfer
+# kind: addon
+# module: bl_ext.blender_org.mesh_data_transfer
+# name: MeshDataTransfer
+# name_zh: 网格数据传递
+# translator: KeshiMiao
+# category: Mesh
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:163
+msgid "ATTRIBUTE TO TRANSFER"
+msgstr "要传递的属性"
+
+#: __init__.py:44
+msgid "Active UV"
+msgstr "活动 UV"
+
+#: __init__.py:44
+msgid "Active UV Search Method"
+msgstr "活动 UV 搜索方法"
+
+#: __init__.py:47
+msgid "Attributes to to transfer"
+msgstr "要传递的属性"
+
+#: __init__.py:42
+msgid "Bidirectional Projection Search Method"
+msgstr "双向投影搜索方法"
+
+#: __init__.py:41
+msgid "Closest"
+msgstr "最近"
+
+#: __init__.py:41
+msgid "Closest Point on Surface Search Method"
+msgstr "表面最近点搜索方法"
+
+#: __init__.py:76
+msgid "Exclude locked"
+msgstr "排除已锁定"
+
+#: __init__.py:73
+msgid "Exclude muted"
+msgstr "排除已静音"
+
+#: __init__.py:61
+msgid "Filter transfer using a vertex group."
+msgstr "使用顶点组过滤传递。"
+
+#: __init__.py:63
+msgid "Invert vertex group values"
+msgstr "反转顶点组值"
+
+#: __init__.py:33
+#: __init__.py:37
+msgid "Local"
+msgstr "局部"
+
+#: __init__.py:76
+msgid "Locked vertex groups will not be transferred"
+msgstr "已锁定的顶点组不会被传递"
+
+#: __init__.py:88
+msgid "Mesh Data Transfer"
+msgstr "网格数据传递"
+
+#: __init__.py:73
+msgid "Muted shape keys will not be transferred"
+msgstr "已静音的形态键不会被传递"
+
+#: __init__.py:32
+#: __init__.py:36
+msgid "Object Space"
+msgstr "物体空间"
+
+#: __init__.py:64
+msgid "Only edit mode selection"
+msgstr "仅编辑模式选择"
+
+#: __init__.py:52
+msgid "Pick a source armature for transfer"
+msgstr "选择用于传递的源骨架"
+
+#: __init__.py:58
+msgid "Pick a source mesh for transfer"
+msgstr "选择用于传递的源网格"
+
+#: __init__.py:55
+msgid "Pick a target armature for transfer"
+msgstr "选择用于传递的目标骨架"
+
+#: __init__.py:251
+#: __init__.py:259
+msgid "RIGGING HELPERS"
+msgstr "绑定辅助工具"
+
+#: __init__.py:42
+msgid "Raycast"
+msgstr "射线投射"
+
+#: __init__.py:64
+msgid "Restrict transfer to selection in edit mode"
+msgstr "将传递限制为编辑模式中的选择"
+
+#: __init__.py:136
+msgid "SEARCH METHOD"
+msgstr "搜索方法"
+
+#: __init__.py:40
+msgid "Search method"
+msgstr "搜索方法"
+
+#: __init__.py:48
+msgid "Shape"
+msgstr "形态"
+
+#: __init__.py:48
+msgid "Shape Keys"
+msgstr "形态键"
+
+#: __init__.py:80
+msgid "Snap shape key to closest vertex"
+msgstr "将形态键吸附到最近顶点"
+
+#: __init__.py:78
+msgid "Snap shape to closest vertex"
+msgstr "将形态吸附到最近顶点"
+
+#: __init__.py:80
+msgid "Snap transferred shape keys vertices to closest vertex on source shape key"
+msgstr "将传递的形态键顶点吸附到源形态键上的最近顶点"
+
+#: __init__.py:78
+msgid "Snap transferred vertices to closest vertex on source mesh"
+msgstr "将传递的顶点吸附到源网格上的最近顶点"
+
+#: __init__.py:212
+msgid "Source"
+msgstr "源"
+
+#: __init__.py:267
+msgid "Source Armature"
+msgstr "源骨架"
+
+#: __init__.py:55
+msgid "Source armature"
+msgstr "源骨架"
+
+#: __init__.py:52
+msgid "Source mesh"
+msgstr "源网格"
+
+#: __init__.py:269
+msgid "Target Armature"
+msgstr "目标骨架"
+
+#: __init__.py:58
+msgid "Target armature"
+msgstr "目标骨架"
+
+#: __init__.py:43
+msgid "Topology"
+msgstr "拓扑"
+
+#: __init__.py:66
+msgid "Transfer as shape key"
+msgstr "作为形态键传递"
+
+#: __init__.py:70
+msgid "Transfer deformed source"
+msgstr "传递变形后的源"
+
+#: __init__.py:70
+msgid "Transfer the source mesh deformed by modifiers and shapeKeys"
+msgstr "传递由修改器和形态键变形后的源网格"
+
+#: __init__.py:66
+msgid "Transfer vertices position as a shape key"
+msgstr "将顶点位置作为形态键传递"
+
+#: __init__.py:48
+msgid "UV set"
+msgstr "UV 集"
+
+#: operators/operators.py:62
+#: operators/operators.py:142
+msgid "Unable to perform the operation."
+msgstr "无法执行该操作。"
+
+#: __init__.py:61
+msgid "Vertex Group"
+msgstr "顶点组"
+
+#: __init__.py:49
+msgid "Vertex Groups"
+msgstr "顶点组"
+
+#: __init__.py:151
+msgid "Vertex ID"
+msgstr "顶点 ID"
+
+#: __init__.py:43
+msgid "Vertex ID or Topology Search Methood"
+msgstr "顶点 ID 或拓扑搜索方法"
+
+#: __init__.py:33
+#: __init__.py:37
+msgid "World"
+msgstr "世界"
+
+#: operators/operators.py:57
+#: operators/operators.py:126
+msgid "Zero area faces detected in the source mesh. Fix the source mesh for cleaner transfer."
+msgstr "源网格中检测到零面积面。修复源网格以获得更干净的传递。"
+
+#: operators/operators.py:9
+#: operators/operators.py:70
+msgctxt "Operator"
+msgid "Simple Object Operator"
+msgstr "简单物体操作符"
+
+#: __init__.py:235
+msgctxt "Operator"
+msgid "Transfer Mesh Data"
+msgstr "传递网格数据"
+
+#: __init__.py:271
+msgctxt "Operator"
+msgid "Transfer Shape Keys drivers"
+msgstr "传递形态键驱动器"

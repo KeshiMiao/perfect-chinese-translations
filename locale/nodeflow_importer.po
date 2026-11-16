@@ -1,0 +1,169 @@
+# perfect-chinese: 1
+# id: nodeflow_importer
+# kind: addon
+# module: bl_ext.blender_org.nodeflow_importer
+# name: NodeFlow Importer
+# name_zh: 节点流导入
+# translator: KeshiMiao
+# category: Import-Export
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:487
+msgid "--==NodeFlow Importer==--"
+msgstr "--==NodeFlow Importer==--"
+
+#: __init__.py:134
+msgid "3D Cursor"
+msgstr "3D 光标"
+
+#: __init__.py:114
+msgid "After import, pack all textures inside the .blend so it is self-contained"
+msgstr "导入后将所有纹理打包进 .blend，使其自包含"
+
+#: __init__.py:163
+msgid "Asset Browser catalog for the import, for example \"Furniture/Sofas\". Needs the current file to be saved"
+msgstr "用于导入的资产浏览器目录，例如“Furniture/Sofas”。需先保存当前文件"
+
+#: __init__.py:163
+msgid "Asset folder"
+msgstr "资产文件夹"
+
+#: __init__.py:545
+msgid "Asset preview"
+msgstr "资产预览"
+
+#: __init__.py:105
+msgid "Assets Folder"
+msgstr "资产文件夹"
+
+#: __init__.py:170
+msgid "Comma-separated tags added to the asset, for example \"top3, client-a\""
+msgstr "添加到资产的标签，以逗号分隔，例如“top3, client-a”"
+
+#: __init__.py:121
+msgid "Delete keyframes, drivers and NLA tracks from imported objects. FBX from 3ds Max carries one key per object even for a still scene, and that key overrides Apply Scale"
+msgstr "删除导入物体上的关键帧、驱动器和 NLA 轨道。来自 3ds Max 的 FBX 即使是静态场景，每个物体也带有一个关键帧，该关键帧会覆盖应用缩放"
+
+#: __init__.py:170
+msgid "Extra tags"
+msgstr "额外标签"
+
+#: __init__.py:156
+msgid "Generate asset preview"
+msgstr "生成资产预览"
+
+#: __init__.py:142
+msgid "Group the imported objects in a collection named after the package"
+msgstr "将导入的物体归入以包名命名的集合"
+
+#: __init__.py:46
+msgid "Import 3ds Max scenes converted by NodeFlow (V-Ray, Corona)"
+msgstr "导入由 NodeFlow 转换的 3ds Max 场景（V-Ray、Corona）"
+
+#: __init__.py:536
+msgid "Import a .nodeflow package"
+msgstr "导入 .nodeflow 包"
+
+#: __init__.py:46
+msgid "Import-Export"
+msgstr "导入-导出"
+
+#: __init__.py:136
+msgid "Keep the position the objects had in the 3ds Max scene"
+msgstr "保持物体在 3ds Max 场景中的位置"
+
+#: __init__.py:543
+msgid "Mark as asset"
+msgstr "标记为资产"
+
+#: __init__.py:149
+msgid "Mark import as asset"
+msgstr "将导入标记为资产"
+
+#: __init__.py:149
+msgid "Mark the import collection as an asset so it can be found and reused from the Asset Browser"
+msgstr "将导入集合标记为资产，以便在资产浏览器中找到并重用"
+
+#: __init__.py:491
+msgid "NodeFlow"
+msgstr "NodeFlow"
+
+#: __init__.py:46
+msgid "NodeFlow Importer"
+msgstr "NodeFlow 导入器"
+
+#: __init__.py:136
+msgid "Original position"
+msgstr "原始位置"
+
+#: __init__.py:542
+msgid "Own collection"
+msgstr "独立集合"
+
+#: __init__.py:546
+msgid "Pack textures"
+msgstr "打包纹理"
+
+#: __init__.py:114
+msgid "Pack textures into .blend"
+msgstr "将纹理打包进 .blend"
+
+#: __init__.py:407
+msgid "Package has no FBX - materials only"
+msgstr "包中没有 FBX，仅有材质"
+
+#: __init__.py:383
+msgid "Package has no materials file"
+msgstr "包中没有材质文件"
+
+#: __init__.py:352
+msgid "Pick a .nodeflow package first"
+msgstr "请先选择一个 .nodeflow 包"
+
+#: __init__.py:130
+msgid "Placement"
+msgstr "放置"
+
+#: __init__.py:142
+msgid "Put import into its own collection"
+msgstr "将导入放入独立集合"
+
+#: __init__.py:134
+msgid "Put the set at the 3D cursor: centred in XY, standing on Z"
+msgstr "将组合放在 3D 光标处：在 XY 平面居中，沿 Z 轴站立"
+
+#: __init__.py:121
+msgid "Remove animation on import"
+msgstr "导入时移除动画"
+
+#: __init__.py:156
+msgid "Render a thumbnail for the asset. Costs a few seconds on heavy scenes"
+msgstr "为资产渲染缩略图。在复杂场景中会多花几秒钟"
+
+#: __init__.py:359
+#: __init__.py:365
+msgid "This file is not a NodeFlow package"
+msgstr "此文件不是 NodeFlow 包"
+
+#: __init__.py:130
+msgid "Where the imported set is put"
+msgstr "导入组合的放置位置"
+
+#: __init__.py:105
+msgid "Where to unpack FBX and textures when the current file has not been saved yet. Leave empty to use a temporary folder (textures are then packed into the .blend)"
+msgstr "当前文件尚未保存时，FBX 和纹理的解包位置。留空则使用临时文件夹（此时纹理会打包进 .blend）"
+
+#: __init__.py:316
+msgctxt "Operator"
+msgid "Import NodeFlow Package"
+msgstr "导入 NodeFlow 包"
+
+#: __init__.py:537
+msgctxt "Operator"
+msgid "Open Package..."
+msgstr "打开包…"

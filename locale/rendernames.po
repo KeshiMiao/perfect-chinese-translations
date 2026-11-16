@@ -1,0 +1,378 @@
+# perfect-chinese: 1
+# id: rendernames
+# kind: addon
+# module: bl_ext.blender_org.rendernames
+# name: RenderNames
+# name_zh: 智能渲染命名
+# translator: KeshiMiao
+# category: Render
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: rendernames/properties.py:200
+msgid "Active Preset"
+msgstr "活动预设"
+
+#: rendernames/properties.py:156
+msgid "Automatically append file extension based on output format"
+msgstr "根据输出格式自动附加文件扩展名"
+
+#: rendernames/properties.py:81
+msgid "Base Path"
+msgstr "基础路径"
+
+#: rendernames/properties.py:81
+msgid "Base directory for renders (leave empty to use Blender's output path)"
+msgstr "渲染的基础目录（留空则使用 Blender 的输出路径）"
+
+#: rendernames/panels.py:139
+msgid "Blend File Root"
+msgstr "Blend 文件根目录"
+
+#: rendernames/operators.py:420
+msgid "Built-in Presets"
+msgstr "内置预设"
+
+#: rendernames/properties.py:137
+msgid "Convert all text to lowercase"
+msgstr "将所有文本转换为小写"
+
+#: rendernames/properties.py:106
+msgid "Create a subfolder for each camera"
+msgstr "为每个摄像机创建子文件夹"
+
+#: rendernames/properties.py:113
+msgid "Create a subfolder for each render date"
+msgstr "为每个渲染日期创建子文件夹"
+
+#: rendernames/properties.py:99
+msgid "Create a subfolder for each scene"
+msgstr "为每个场景创建子文件夹"
+
+#: rendernames/panels.py:64
+msgid "Custom Base Path"
+msgstr "自定义基础路径"
+
+#: rendernames/properties.py:55
+msgid "Enable RenderNames"
+msgstr "启用 RenderNames"
+
+#: rendernames/properties.py:55
+msgid "Enable smart render naming (disabling uses Blender's default path)"
+msgstr "启用智能渲染命名（禁用时使用 Blender 的默认路径）"
+
+#: rendernames/properties.py:174
+msgid "Expand/collapse the options panel"
+msgstr "展开/折叠选项面板"
+
+#: rendernames/properties.py:180
+msgid "Expand/collapse the variables reference"
+msgstr "展开/折叠变量参考"
+
+#: rendernames/panels.py:136
+msgid "Folder Structure:"
+msgstr "文件夹结构："
+
+#: rendernames/properties.py:106
+msgid "Folder per Camera"
+msgstr "每个摄像机一个文件夹"
+
+#: rendernames/properties.py:113
+msgid "Folder per Date"
+msgstr "每个日期一个文件夹"
+
+#: rendernames/properties.py:99
+msgid "Folder per Scene"
+msgstr "每个场景一个文件夹"
+
+#: rendernames/panels.py:155
+#: rendernames/properties.py:144
+msgid "Frame Padding"
+msgstr "帧编号补零"
+
+#: rendernames/panels.py:44
+msgid "Global Settings (all scenes)"
+msgstr "全局设置（所有场景）"
+
+#: rendernames/properties.py:156
+msgid "Include Extension"
+msgstr "包含扩展名"
+
+#: rendernames/properties.py:165
+msgid "Live preview of the render output path"
+msgstr "实时预览渲染输出路径"
+
+#: rendernames/panels.py:180
+msgid "Load Preset"
+msgstr "加载预设"
+
+#: rendernames/panels.py:152
+#: rendernames/properties.py:137
+msgid "Lowercase"
+msgstr "小写"
+
+#: rendernames/operators.py:245
+msgid "Name"
+msgstr "名称"
+
+#: rendernames/properties.py:189
+msgid "Name for saving the current settings as a preset"
+msgstr "将当前设置保存为预设时使用的名称"
+
+#: rendernames/operators.py:211
+msgid "Name for this preset"
+msgstr "此预设的名称"
+
+#: rendernames/operators.py:285
+msgid "Name of preset to delete"
+msgstr "要删除的预设名称"
+
+#: rendernames/operators.py:254
+msgid "Name of preset to load"
+msgstr "要加载的预设名称"
+
+#: rendernames/panels.py:148
+msgid "Naming:"
+msgstr "命名："
+
+#: rendernames/operators.py:263
+#: rendernames/operators.py:294
+msgid "No preset selected"
+msgstr "未选择预设"
+
+#: rendernames/operators.py:444
+msgid "No user presets"
+msgstr "无用户预设"
+
+#: rendernames/properties.py:144
+msgid "Number of digits for frame numbers (e.g., 4 = 0001)"
+msgstr "帧编号的位数（例如 4 = 0001）"
+
+#: rendernames/panels.py:121
+msgid "Options"
+msgstr "选项"
+
+#: rendernames/panels.py:286
+msgid "Output path managed by RenderNames"
+msgstr "输出路径由 RenderNames 管理"
+
+#: rendernames/panels.py:141
+msgid "Per Camera"
+msgstr "每个摄像机"
+
+#: rendernames/panels.py:142
+msgid "Per Date"
+msgstr "每个日期"
+
+#: rendernames/panels.py:140
+msgid "Per Scene"
+msgstr "每个场景"
+
+#: rendernames/operators.py:222
+msgid "Please enter a preset name"
+msgstr "请输入预设名称"
+
+#: rendernames/operators.py:211
+#: rendernames/operators.py:254
+msgid "Preset Name"
+msgstr "预设名称"
+
+#: rendernames/operators.py:413
+#: rendernames/panels.py:165
+msgid "Presets"
+msgstr "预设"
+
+#: rendernames/properties.py:165
+msgid "Preview"
+msgstr "预览"
+
+#: rendernames/panels.py:22
+msgid "RenderNames"
+msgstr "RenderNames"
+
+#: rendernames/operators.py:184
+msgid "RenderNames is disabled"
+msgstr "RenderNames 已禁用"
+
+#: rendernames/properties.py:130
+msgid "Replace special characters and spaces with underscores"
+msgstr "用下划线替换特殊字符和空格"
+
+#: rendernames/panels.py:151
+#: rendernames/properties.py:130
+msgid "Sanitize Names"
+msgstr "清理名称"
+
+#: rendernames/panels.py:186
+msgid "Save Current Settings:"
+msgstr "保存当前设置："
+
+#: rendernames/properties.py:64
+msgid "Share settings across all scenes. When off, each scene has its own settings"
+msgstr "在所有场景间共享设置。关闭时，每个场景使用各自的设置"
+
+#: rendernames/properties.py:174
+msgid "Show Options"
+msgstr "显示选项"
+
+#: rendernames/properties.py:180
+msgid "Show Variables"
+msgstr "显示变量"
+
+#: rendernames/properties.py:74
+msgid "Template"
+msgstr "模板"
+
+#: rendernames/properties.py:74
+msgid "Template for render output naming. Use {{variable}} syntax"
+msgstr "渲染输出命名模板。使用 {{variable}} 语法"
+
+#: rendernames/operators.py:139
+msgid "Template is empty"
+msgstr "模板为空"
+
+#: rendernames/operators.py:113
+msgid "Template reset to default"
+msgstr "模板已重置为默认值"
+
+#: rendernames/panels.py:52
+msgid "Template:"
+msgstr "模板："
+
+#: rendernames/properties.py:120
+msgid "Use Blend File as Root"
+msgstr "使用 Blend 文件作为根目录"
+
+#: rendernames/properties.py:89
+msgid "Use Custom Base Path"
+msgstr "使用自定义基础路径"
+
+#: rendernames/properties.py:64
+msgid "Use Global Settings"
+msgstr "使用全局设置"
+
+#: rendernames/properties.py:89
+msgid "Use custom base path instead of Blender's output path"
+msgstr "使用自定义基础路径代替 Blender 的输出路径"
+
+#: rendernames/properties.py:120
+msgid "Use the .blend filename as the root folder"
+msgstr "使用 .blend 文件名作为根文件夹"
+
+#: rendernames/operators.py:434
+msgid "User Presets"
+msgstr "用户预设"
+
+#: rendernames/panels.py:73
+msgid "Using Blender's output path"
+msgstr "使用 Blender 的输出路径"
+
+#: rendernames/operators.py:29
+#: rendernames/operators.py:55
+msgid "Variable"
+msgstr "变量"
+
+#: rendernames/operators.py:55
+msgid "Variable name to copy"
+msgstr "要复制的变量名"
+
+#: rendernames/operators.py:29
+msgid "Variable name to insert"
+msgstr "要插入的变量名"
+
+#: rendernames/operators.py:70
+msgid "Variables"
+msgstr "变量"
+
+#: rendernames/panels.py:207
+msgid "Variables Reference"
+msgstr "变量参考"
+
+#: rendernames/panels.py:293
+msgctxt "Operator"
+msgid "Apply"
+msgstr "应用"
+
+#: rendernames/operators.py:176
+msgctxt "Operator"
+msgid "Apply to Render Settings"
+msgstr "应用到渲染设置"
+
+#: rendernames/operators.py:120
+msgctxt "Operator"
+msgid "Clear Template"
+msgstr "清除模板"
+
+#: rendernames/operators.py:132
+msgctxt "Operator"
+msgid "Copy Preview Path"
+msgstr "复制预览路径"
+
+#: rendernames/operators.py:52
+msgctxt "Operator"
+msgid "Copy Variable"
+msgstr "复制变量"
+
+#: rendernames/operators.py:282
+msgctxt "Operator"
+msgid "Delete Preset"
+msgstr "删除预设"
+
+#: rendernames/panels.py:197
+msgctxt "Operator"
+msgid "Export"
+msgstr "导出"
+
+#: rendernames/operators.py:368
+msgctxt "Operator"
+msgid "Export Preset"
+msgstr "导出预设"
+
+#: rendernames/panels.py:196
+msgctxt "Operator"
+msgid "Import"
+msgstr "导入"
+
+#: rendernames/operators.py:327
+msgctxt "Operator"
+msgid "Import Preset"
+msgstr "导入预设"
+
+#: rendernames/operators.py:26
+msgctxt "Operator"
+msgid "Insert Variable"
+msgstr "插入变量"
+
+#: rendernames/operators.py:251
+msgctxt "Operator"
+msgid "Load Preset"
+msgstr "加载预设"
+
+#: rendernames/operators.py:316
+msgctxt "Operator"
+msgid "Refresh Presets"
+msgstr "刷新预设"
+
+#: rendernames/operators.py:107
+msgctxt "Operator"
+msgid "Reset Template"
+msgstr "重置模板"
+
+#: rendernames/panels.py:190
+msgctxt "Operator"
+msgid "Save"
+msgstr "保存"
+
+#: rendernames/operators.py:208
+msgctxt "Operator"
+msgid "Save Preset"
+msgstr "保存预设"
+
+#: rendernames/operators.py:423
+msgctxt "Operator"
+msgid "_"
+msgstr "_"

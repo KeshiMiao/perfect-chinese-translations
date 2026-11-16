@@ -1,0 +1,798 @@
+# perfect-chinese: 1
+# id: audio_trigger_lite
+# kind: addon
+# module: bl_ext.blender_org.audio_trigger_lite
+# name: Audio Trigger Lite
+# name_zh: 音频触发精简版
+# translator: KeshiMiao
+# category: Animation
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: properties.py:19
+msgid "1 beat between triggers (quarter notes)"
+msgstr "触发器之间 1 拍（四分音符）"
+
+#: panels.py:274
+msgid "1. Right-click any property in Blender"
+msgstr "1. 在 Blender 中右键点击任意属性"
+
+#: properties.py:15
+msgid "1/16"
+msgstr "1/16"
+
+#: properties.py:15
+msgid "1/16 beats between triggers"
+msgstr "触发器之间 1/16 拍"
+
+#: properties.py:18
+msgid "1/2"
+msgstr "1/2"
+
+#: properties.py:18
+msgid "1/2 beat between triggers (8th notes)"
+msgstr "触发器之间 1/2 拍（八分音符）"
+
+#: properties.py:14
+msgid "1/32"
+msgstr "1/32"
+
+#: properties.py:14
+msgid "1/32 beats between triggers"
+msgstr "触发器之间 1/32 拍"
+
+#: properties.py:17
+msgid "1/4"
+msgstr "1/4"
+
+#: properties.py:17
+msgid "1/4 beats between triggers (16th notes in 4/4)"
+msgstr "触发器之间 1/4 拍（4/4 拍中的十六分音符）"
+
+#: properties.py:16
+msgid "1/8"
+msgstr "1/8"
+
+#: properties.py:16
+msgid "1/8 beats between triggers"
+msgstr "触发器之间 1/8 拍"
+
+#: properties.py:23
+msgid "16 beats between triggers"
+msgstr "触发器之间 16 拍"
+
+#: properties.py:20
+msgid "2 beats between triggers (half notes)"
+msgstr "触发器之间 2 拍（二分音符）"
+
+#: panels.py:275
+msgid "2. Choose 'Use in Audio Trigger'"
+msgstr "2. 选择「在 Audio Trigger 中使用」"
+
+#: properties.py:24
+msgid "32 beats between triggers"
+msgstr "触发器之间 32 拍"
+
+#: properties.py:21
+msgid "4 beats between triggers (once per bar in 4/4)"
+msgstr "触发器之间 4 拍（4/4 拍中每小节一次）"
+
+#: properties.py:22
+msgid "8 beats between triggers"
+msgstr "触发器之间 8 拍"
+
+#: properties.py:221
+msgid "A quarter as many triggers"
+msgstr "触发次数为四分之一"
+
+#: operators.py:339
+msgid "All Inputs"
+msgstr "所有输入"
+
+#: id_target.py:23
+#: properties.py:141
+msgid "Armature"
+msgstr "骨架"
+
+#: properties.py:141
+msgid "Armature datablock"
+msgstr "骨架数据块"
+
+#: properties.py:161
+msgid "Array index (0=X, 1=Y, 2=Z for vectors). -1 for scalar properties"
+msgstr "数组索引（向量：0=X，1=Y，2=Z）。标量属性用 -1"
+
+#: properties.py:201
+#: properties.py:283
+msgid "Attack"
+msgstr "起音"
+
+#: panels.py:115
+msgid "Audio Trigger Lite"
+msgstr "Audio Trigger Lite"
+
+#: panels.py:194
+#: properties.py:245
+msgid "BPM"
+msgstr "BPM"
+
+#: operators.py:339
+msgid "Bake every input instead of just the active one"
+msgstr "烘焙所有输入，而不仅是活动输入"
+
+#: panels.py:387
+msgid "Baking"
+msgstr "烘焙"
+
+#: properties.py:188
+msgid "Beat Offset"
+msgstr "节拍偏移"
+
+#: properties.py:333
+msgid "Beat unit for the Copy to Selected cascade"
+msgstr "复制到选中项级联所用的节拍单位"
+
+#: properties.py:193
+msgid "Beat unit for the offset (1/4 beat is a sixteenth note in 4/4)"
+msgstr "偏移的节拍单位（4/4 拍中 1/4 拍为十六分音符）"
+
+#: properties.py:329
+msgid "Beat-unit offset added per selected object in Copy to Selected"
+msgstr "复制到选中项时，为每个选中物体增加的节拍单位偏移"
+
+#: properties.py:179
+#: properties.py:320
+msgid "Beats"
+msgstr "节拍"
+
+#: properties.py:253
+msgid "Beats between BPM triggers (1 = quarter notes, 1/4 beat = sixteenth notes in 4/4)"
+msgstr "BPM 触发器之间的节拍数（1 = 四分音符，1/4 拍 = 4/4 拍中的十六分音符）"
+
+#: properties.py:329
+msgid "Beats per Object"
+msgstr "每个物体的节拍数"
+
+#: operators.py:451
+msgid "Cache cleared"
+msgstr "缓存已清除"
+
+#: id_target.py:20
+#: properties.py:138
+msgid "Camera"
+msgstr "摄像机"
+
+#: properties.py:138
+msgid "Camera datablock"
+msgstr "摄像机数据块"
+
+#: panels.py:375
+msgid "Cascade from active object:"
+msgstr "从活动物体级联："
+
+#: properties.py:289
+msgid "Chance each trigger actually fires. Below 100% thins hits out for a looser feel"
+msgstr "每个触发器实际触发的概率。低于 100% 会减少触发次数，手感更松散"
+
+#: operators.py:214
+msgid "Choose a mapping to copy."
+msgstr "选择要复制的映射。"
+
+#: operators.py:343
+msgid "Clear Existing"
+msgstr "清除现有"
+
+#: panels.py:369
+msgid "Copy Mapping to Selection"
+msgstr "复制映射到选中项"
+
+#: properties.py:315
+msgid "Copy Offset Mode"
+msgstr "复制偏移模式"
+
+#: operators.py:155
+msgid "Copy-to-selected only works on Object mappings. Source mapping has no object target."
+msgstr "复制到选中项仅适用于物体映射。源映射没有物体目标。"
+
+#: context_menu.py:103
+msgid "Couldn't read property. Supported: Objects, Lights, Materials, Worlds, Node Groups, Cameras, Scenes, Meshes, Armatures."
+msgstr "无法读取属性。支持：物体、灯光、材质、世界、节点组、摄像机、场景、网格、骨架。"
+
+#: properties.py:155
+msgid "Data Path"
+msgstr "数据路径"
+
+#: properties.py:150
+msgid "Datablock"
+msgstr "数据块"
+
+#: panels.py:406
+msgid "Dense: one key per frame (heavy)."
+msgstr "密集：每帧一个关键帧（较重）。"
+
+#: properties.py:253
+msgid "Division"
+msgstr "分频"
+
+#: panels.py:197
+msgid "Division (beats between triggers):"
+msgstr "分频（触发器之间的节拍数）："
+
+#: properties.py:166
+msgid "Drive every component of the target vector with the same value (e.g. all three scale axes from one mapping)"
+msgstr "用相同值驱动目标向量的每个分量（例如从一个映射驱动全部三个缩放轴）"
+
+#: panels.py:371
+msgid "Duplicate icon on a mapping copies"
+msgstr "映射上的复制图标用于复制"
+
+#: properties.py:229
+msgid "Enabled"
+msgstr "启用"
+
+#: panels.py:183
+#: properties.py:276
+msgid "End"
+msgstr "结束"
+
+#: panels.py:238
+#: properties.py:198
+msgid "Envelope"
+msgstr "包络"
+
+#: properties.py:273
+msgid "First frame of this input's range (used when Sync to Scene is off)"
+msgstr "此输入范围的第一帧（关闭「同步到场景」时使用）"
+
+#: properties.py:225
+msgid "Four times as many triggers"
+msgstr "触发次数为四倍"
+
+#: properties.py:184
+msgid "Frame Offset"
+msgstr "帧偏移"
+
+#: properties.py:325
+msgid "Frame offset added per selected object in Copy to Selected"
+msgstr "复制到选中项时，为每个选中物体增加的帧偏移"
+
+#: properties.py:180
+#: properties.py:321
+msgid "Frames"
+msgstr "帧"
+
+#: properties.py:325
+msgid "Frames per Object"
+msgstr "每物体帧数"
+
+#: properties.py:286
+msgid "Frames to ease back down after each hit"
+msgstr "每次触发后缓降的帧数"
+
+#: properties.py:283
+msgid "Frames to ramp up to each hit. 0 is an instant attack"
+msgstr "每次触发前渐升的帧数。0 为瞬时起音"
+
+#: properties.py:245
+msgid "Generate triggers from a BPM value"
+msgstr "根据 BPM 值生成触发"
+
+#: properties.py:222
+msgid "Half as many triggers"
+msgstr "触发数量减半"
+
+#: properties.py:217
+msgid "How many triggers this mapping fires relative to the input"
+msgstr "此映射相对于输入触发多少次"
+
+#: properties.py:229
+msgid "Include this mapping when previewing and baking"
+msgstr "预览和烘焙时包含此映射"
+
+#: properties.py:161
+msgid "Index"
+msgstr "索引"
+
+#: panels.py:156
+msgid "Input Settings"
+msgstr "输入设置"
+
+#: properties.py:276
+msgid "Last frame of this input's range (used when Sync to Scene is off)"
+msgstr "此输入范围的最后一帧（未同步到场景时使用）"
+
+#: id_target.py:16
+#: properties.py:134
+msgid "Light"
+msgstr "灯光"
+
+#: properties.py:134
+msgid "Light datablock (e.g. energy)"
+msgstr "灯光数据块（例如能量）"
+
+#: properties.py:306
+msgid "Live Preview"
+msgstr "实时预览"
+
+#: operators.py:181
+msgid "Mapping"
+msgstr "映射"
+
+#: properties.py:121
+msgid "Mapping name (auto-set from the target when created; editable)"
+msgstr "映射名称（创建时根据目标自动设置；可编辑）"
+
+#: panels.py:251
+msgid "Mappings"
+msgstr "映射"
+
+#: id_target.py:17
+#: properties.py:135
+msgid "Material"
+msgstr "材质"
+
+#: properties.py:135
+msgid "Material / shader nodes"
+msgstr "材质 / 着色器节点"
+
+#: properties.py:172
+msgid "Max"
+msgstr "最大值"
+
+#: id_target.py:22
+#: properties.py:140
+msgid "Mesh"
+msgstr "网格"
+
+#: properties.py:140
+msgid "Mesh datablock"
+msgstr "网格数据块"
+
+#: properties.py:257
+msgid "Metronome"
+msgstr "节拍器"
+
+#: properties.py:170
+msgid "Min"
+msgstr "最小值"
+
+#: properties.py:261
+msgid "Min Gap"
+msgstr "最小间隔"
+
+#: properties.py:261
+msgid "Minimum frames between triggers. Raise it to reject double-hits at fine subdivisions"
+msgstr "触发之间的最小帧数。提高它可在细分较细时拒绝重复触发"
+
+#: properties.py:235
+msgid "Mute"
+msgstr "静音"
+
+#: properties.py:235
+msgid "Mute this input (off = muted). Also mutes its metronome in the VSE"
+msgstr "静音此输入（关闭 = 静音）。同时静音其在 VSE 中的节拍器"
+
+#: properties.py:121
+msgid "Name"
+msgstr "名称"
+
+#: properties.py:150
+msgid "Name of the target datablock (when not targeting an Object)"
+msgstr "目标数据块的名称（当目标不是物体时）"
+
+#: id_target.py:19
+#: properties.py:137
+msgid "Node Group"
+msgstr "节点组"
+
+#: id_target.py:15
+#: properties.py:133
+msgid "Object"
+msgstr "物体"
+
+#: properties.py:133
+msgid "Object property"
+msgstr "物体属性"
+
+#: properties.py:174
+msgid "Offset Mode"
+msgstr "偏移模式"
+
+#: properties.py:180
+msgid "Offset by a fixed number of frames"
+msgstr "按固定帧数偏移"
+
+#: properties.py:179
+msgid "Offset by musical divisions, using the input's BPM"
+msgstr "按音乐分割偏移，使用输入的 BPM"
+
+#: properties.py:310
+msgid "Only insert keyframes where the signal changes. Cuts keyframe count for mostly-silent signals"
+msgstr "仅在信号变化处插入关键帧。可减少大部分静音信号的关键帧数量"
+
+#: properties.py:198
+msgid "Override the attack/release envelope for this mapping"
+msgstr "覆盖此映射的起音/释音包络"
+
+#: properties.py:206
+msgid "Override the probability and seed for this mapping"
+msgstr "覆盖此映射的概率和种子"
+
+#: properties.py:214
+msgid "Override trigger density for this mapping (multiplies the beat rate)"
+msgstr "覆盖此映射的触发密度（乘以节拍速率）"
+
+#: panels.py:328
+msgid "Overrides"
+msgstr "覆盖"
+
+#: properties.py:124
+msgid "Pin"
+msgstr "固定"
+
+#: properties.py:124
+msgid "Pin this mapping's controls into the panel below, so several mappings can be edited at once"
+msgstr "将此映射的控件固定到下方面板，以便同时编辑多个映射"
+
+#: properties.py:257
+msgid "Play a click track for this BPM input in the VSE, so you can hear the beat during playback"
+msgstr "在 VSE 中为此 BPM 输入播放节拍音轨，以便播放时听到节拍"
+
+#: panels.py:244
+#: properties.py:206
+msgid "Probability"
+msgstr "概率"
+
+#: properties.py:155
+msgid "Property path relative to the target ID. Easiest: right-click a property in Blender and choose 'Use in Audio Trigger'"
+msgstr "相对于目标 ID 的属性路径。最简单的方法：在 Blender 中右键单击属性，然后选择「在 Audio Trigger 中使用」"
+
+#: properties.py:293
+msgid "Random seed for Probability. The same seed repeats the same pattern"
+msgstr "概率的随机种子。相同种子会重复相同模式"
+
+#: panels.py:176
+msgid "Range"
+msgstr "范围"
+
+#: properties.py:214
+#: properties.py:217
+msgid "Rate"
+msgstr "速率"
+
+#: properties.py:203
+#: properties.py:286
+msgid "Release"
+msgstr "释音"
+
+#: properties.py:223
+msgid "Same as the input"
+msgstr "与输入相同"
+
+#: id_target.py:21
+#: properties.py:139
+msgid "Scene"
+msgstr "场景"
+
+#: properties.py:139
+msgid "Scene property"
+msgstr "场景属性"
+
+#: properties.py:212
+#: properties.py:293
+msgid "Seed"
+msgstr "种子"
+
+#: operators.py:162
+msgid "Select additional objects first (besides the source target)"
+msgstr "先选择其他物体（源目标之外）"
+
+#: operators.py:220
+msgid "Select target objects besides the active object."
+msgstr "选择活动物体之外的目标物体。"
+
+#: panels.py:278
+#: properties.py:337
+msgid "Selected Objects Only"
+msgstr "仅选定物体"
+
+#: operators.py:341
+msgid "Selection Only"
+msgstr "仅选中项"
+
+#: properties.py:279
+msgid "Shift ALL of this input's triggers by this many frames"
+msgstr "将此输入的所有触发偏移此帧数"
+
+#: properties.py:188
+msgid "Shift this mapping's signal by this many beat units (see Unit), using the input's BPM. Negative shifts earlier"
+msgstr "按此节拍单位数偏移此映射的信号（参见单位），使用输入的 BPM。负值会提前"
+
+#: properties.py:184
+msgid "Shift this mapping's signal by this many frames (wave/cascade effects)"
+msgstr "按此帧数偏移此映射的信号（波浪/级联效果）"
+
+#: properties.py:337
+msgid "Show only mappings whose target object is selected in the viewport. Handy when an input has many mappings"
+msgstr "仅显示目标物体在视图中被选中的映射。当输入包含许多映射时很方便"
+
+#: properties.py:279
+msgid "Signal Offset"
+msgstr "信号偏移"
+
+#: panels.py:218
+msgid "Signal Shape"
+msgstr "信号形状"
+
+#: operators.py:341
+msgid "Skip Object mappings whose target isn't selected"
+msgstr "跳过目标未选中的物体映射"
+
+#: properties.py:238
+msgid "Solo"
+msgstr "独奏"
+
+#: properties.py:238
+msgid "Solo: if any input is soloed, only soloed inputs are active, in both the signal and VSE audio"
+msgstr "独奏：只要有输入被独奏，则仅独奏的输入在信号和 VSE 音频中生效"
+
+#: properties.py:310
+msgid "Sparse Baking"
+msgstr "稀疏烘焙"
+
+#: panels.py:403
+msgid "Sparse: keys only where signal changes."
+msgstr "稀疏：仅在信号变化处插入关键帧。"
+
+#: properties.py:321
+msgid "Stagger each copy by a fixed number of frames"
+msgstr "按固定帧数错开每个副本"
+
+#: properties.py:320
+msgid "Stagger each copy by beat units, using the input's BPM"
+msgstr "使用输入的 BPM，按节拍单位错开每个副本"
+
+#: properties.py:137
+msgid "Standalone node group"
+msgstr "独立节点组"
+
+#: panels.py:182
+#: properties.py:273
+msgid "Start"
+msgstr "起始"
+
+#: panels.py:177
+#: properties.py:266
+msgid "Sync to Scene"
+msgstr "同步到场景"
+
+#: id_target.py:20
+msgid "Target a camera datablock"
+msgstr "目标为相机数据块"
+
+#: id_target.py:16
+msgid "Target a light datablock (e.g. energy)"
+msgstr "目标为灯光数据块（例如能量）"
+
+#: id_target.py:17
+msgid "Target a material (shader nodes)"
+msgstr "目标为材质（着色器节点）"
+
+#: id_target.py:22
+msgid "Target a mesh datablock"
+msgstr "目标为网格数据块"
+
+#: id_target.py:21
+msgid "Target a scene property"
+msgstr "目标为场景属性"
+
+#: id_target.py:19
+msgid "Target a standalone node group"
+msgstr "目标为独立节点组"
+
+#: id_target.py:23
+msgid "Target an armature datablock"
+msgstr "目标为骨架数据块"
+
+#: id_target.py:15
+msgid "Target an object property"
+msgstr "目标为物体属性"
+
+#: id_target.py:18
+msgid "Target the world (background shader)"
+msgstr "目标为世界（背景着色器）"
+
+#: properties.py:250
+msgid "Tempo in beats per minute. Drives the BPM trigger grid and the beat unit for per-mapping beat offsets"
+msgstr "每分钟节拍数。驱动 BPM 触发网格和每个映射节拍偏移的节拍单位"
+
+#: operators.py:191
+msgid "The active object has no mapping in this input. Right-click a property to create one first."
+msgstr "活动物体在此输入中没有映射。请先右键单击属性以创建映射。"
+
+#: properties.py:145
+msgid "The object this mapping drives (for Object targets)"
+msgstr "此映射驱动的物体（用于物体目标）"
+
+#: properties.py:201
+msgid "This mapping's attack in frames"
+msgstr "此映射的起音帧数"
+
+#: properties.py:212
+msgid "This mapping's probability seed"
+msgstr "此映射的概率种子"
+
+#: properties.py:203
+msgid "This mapping's release in frames"
+msgstr "此映射的释音帧数"
+
+#: properties.py:209
+msgid "This mapping's trigger probability"
+msgstr "此映射的触发概率"
+
+#: panels.py:363
+msgid "Timeline Markers"
+msgstr "时间线标记"
+
+#: panels.py:273
+msgid "To add a mapping:"
+msgstr "要添加映射："
+
+#: panels.py:345
+msgid "Tools"
+msgstr "工具"
+
+#: panels.py:420
+msgid "Turn off Live Preview before"
+msgstr "请先关闭实时预览，再"
+
+#: properties.py:224
+msgid "Twice as many triggers"
+msgstr "触发次数加倍"
+
+#: properties.py:129
+#: properties.py:242
+msgid "Type"
+msgstr "类型"
+
+#: properties.py:166
+msgid "Uniform (all axes)"
+msgstr "统一（所有轴）"
+
+#: properties.py:193
+#: properties.py:333
+msgid "Unit"
+msgstr "单位"
+
+#: properties.py:306
+msgid "Update mapped target values every frame while scrubbing"
+msgstr "拖动时间线时每帧更新映射的目标值"
+
+#: properties.py:266
+msgid "Use the scene's frame range instead of per-input values. When on, start/end follow scene.frame_start / frame_end"
+msgstr "使用场景帧范围而非每个输入的值。开启时，起始/结束跟随 scene.frame_start / frame_end"
+
+#: properties.py:170
+msgid "Value when signal = 0"
+msgstr "信号 = 0 时的值"
+
+#: properties.py:172
+msgid "Value when signal = 1"
+msgstr "信号 = 1 时的值"
+
+#: properties.py:315
+msgid "Whether Copy to Selected staggers copies by beats (using the input's BPM) or by frames"
+msgstr "复制到选中项时，是按节拍（使用输入的 BPM）还是按帧错开副本"
+
+#: properties.py:174
+msgid "Whether this mapping's timing offset is in beats (using this input's BPM) or in raw frames"
+msgstr "此映射的时间偏移使用节拍（使用此输入的 BPM）还是原始帧"
+
+#: properties.py:129
+msgid "Which kind of datablock this mapping targets"
+msgstr "此映射以哪种数据块为目标"
+
+#: operators.py:181
+msgid "Which mapping on the active object to copy"
+msgstr "要复制活动物体上的哪个映射"
+
+#: id_target.py:18
+#: properties.py:136
+msgid "World"
+msgstr "世界"
+
+#: properties.py:136
+msgid "World / background shader"
+msgstr "世界 / 背景着色器"
+
+#: panels.py:372
+msgid "it 1:1 to the other selected objects."
+msgstr "将其 1:1 复制到其他选中物体。"
+
+#: panels.py:421
+msgid "playing baked animation."
+msgstr "播放烘焙动画。"
+
+#: operators.py:17
+msgctxt "Operator"
+msgid "Add Input"
+msgstr "添加输入"
+
+#: panels.py:414
+msgctxt "Operator"
+msgid "Bake All"
+msgstr "全部烘焙"
+
+#: panels.py:410
+msgctxt "Operator"
+msgid "Bake Selected"
+msgstr "烘焙选中项"
+
+#: operators.py:336
+msgctxt "Operator"
+msgid "Bake to Keyframes"
+msgstr "烘焙为关键帧"
+
+#: operators.py:315
+msgctxt "Operator"
+msgid "Clear All AT Markers"
+msgstr "清除所有 AT 标记"
+
+#: operators.py:446
+msgctxt "Operator"
+msgid "Clear Cache"
+msgstr "清除缓存"
+
+#: operators.py:140
+msgctxt "Operator"
+msgid "Copy 1:1 to Selected"
+msgstr "1:1 复制到选中项"
+
+#: operators.py:178
+msgctxt "Operator"
+msgid "Copy from Active with Offset"
+msgstr "从活动项带偏移复制"
+
+#: operators.py:281
+msgctxt "Operator"
+msgid "Create Timeline Markers"
+msgstr "创建时间线标记"
+
+#: operators.py:54
+msgctxt "Operator"
+msgid "Move Input"
+msgstr "移动输入"
+
+#: operators.py:458
+msgctxt "Operator"
+msgid "Remove AT Strips from VSE"
+msgstr "从 VSE 移除 AT 片段"
+
+#: operators.py:36
+msgctxt "Operator"
+msgid "Remove Input"
+msgstr "移除输入"
+
+#: operators.py:74
+msgctxt "Operator"
+msgid "Remove Mapping"
+msgstr "移除映射"
+
+#: operators.py:249
+msgctxt "Operator"
+msgid "Set Division"
+msgstr "设置分割"
+
+#: operators.py:263
+msgctxt "Operator"
+msgid "Solo"
+msgstr "独奏"
+
+#: context_menu.py:90
+msgctxt "Operator"
+msgid "Use in Audio Trigger Mapping"
+msgstr "在音频触发器映射中使用"

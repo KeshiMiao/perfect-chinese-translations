@@ -1,0 +1,422 @@
+# perfect-chinese: 1
+# id: magic_wand
+# kind: addon
+# module: bl_ext.blender_org.magic_wand
+# name: Magic Wand
+# name_zh: 魔术棒
+# translator: KeshiMiao
+# category: Mesh
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: preferences.py:21
+msgid "3D Magic Wand"
+msgstr "3D 魔法棒"
+
+#: preferences.py:55
+#: operators/edit.py:82
+msgid "Add"
+msgstr "添加"
+
+#: preferences.py:55
+msgid "Add the region to the current selection"
+msgstr "将区域添加到当前选择"
+
+#: operators/edit.py:82
+msgid "Add to the current selection"
+msgstr "添加到当前选择"
+
+#: operators/edit.py:89
+msgid "Advanced Settings"
+msgstr "高级设置"
+
+#: preferences.py:70
+msgid "Also limit growth by the number of connected vertices in the region"
+msgstr "同时根据区域内相连顶点数限制扩展"
+
+#: preferences.py:62
+msgid "Angle Threshold"
+msgstr "角度阈值"
+
+#: preferences.py:30
+#: preferences.py:42
+msgid "Auto"
+msgstr "自动"
+
+#: preferences.py:184
+msgid "Axis used by symmetry-aware growth"
+msgstr "对称感知扩展所用的轴"
+
+#: preferences.py:26
+msgid "Choose the element type used to seed region growth"
+msgstr "选择用于区域扩展种子的元素类型"
+
+#: preferences.py:142
+msgid "Connected Only"
+msgstr "仅相连"
+
+#: preferences.py:70
+msgid "Connected Vertex Threshold"
+msgstr "相连顶点阈值"
+
+#: preferences.py:92
+msgid "Curvature Sensitivity"
+msgstr "曲率灵敏度"
+
+#: preferences.py:130
+msgid "Do not cross UV seams"
+msgstr "不跨越 UV 接缝"
+
+#: preferences.py:124
+msgid "Do not cross material borders"
+msgstr "不跨越材质边界"
+
+#: preferences.py:136
+msgid "Do not cross sharp or explicitly marked hard edges"
+msgstr "不跨越锐边或显式标记的硬边"
+
+#: preferences.py:32
+#: preferences.py:44
+msgid "Edge"
+msgstr "边"
+
+#: preferences.py:31
+#: preferences.py:43
+msgid "Face"
+msgstr "面"
+
+#: preferences.py:11
+msgid "Global preview opacity used by the modal overlay"
+msgstr "模态叠加层使用的全局预览不透明度"
+
+#: preferences.py:92
+msgid "How aggressively local curvature changes block growth"
+msgstr "局部曲率变化阻止扩展的力度"
+
+#: preferences.py:50
+msgid "How the new region affects the current selection"
+msgstr "新区域如何影响当前选择"
+
+#: preferences.py:57
+#: operators/edit.py:84
+msgid "Intersect"
+msgstr "交集"
+
+#: operators/edit.py:84
+msgid "Intersect with the current selection"
+msgstr "与当前选择求交集"
+
+#: preferences.py:57
+msgid "Keep only the overlap with the current selection"
+msgstr "仅保留与当前选择重叠的部分"
+
+#: ui.py:28
+msgid "Magic Wand"
+msgstr "魔法棒"
+
+#: operators/edit.py:70
+msgid "Match Blender's current mesh select mode"
+msgstr "匹配 Blender 当前的网格选择模式"
+
+#: preferences.py:42
+msgid "Match Blender's current selection mode"
+msgstr "匹配 Blender 当前的选择模式"
+
+#: preferences.py:124
+msgid "Material Lock"
+msgstr "材质锁定"
+
+#: preferences.py:76
+msgid "Max Connected Vertices"
+msgstr "最大相连顶点数"
+
+#: preferences.py:100
+msgid "Maximum Growth Distance"
+msgstr "最大扩展距离"
+
+#: preferences.py:116
+msgid "Maximum color delta allowed across a transition"
+msgstr "过渡处允许的最大颜色差值"
+
+#: preferences.py:62
+msgid "Maximum face-normal angle difference that can still grow the selection"
+msgstr "仍可扩展选择的最大面法线角度差"
+
+#: preferences.py:76
+msgid "Maximum number of unique vertices allowed in the grown region"
+msgstr "扩展区域中允许的最大唯一顶点数"
+
+#: preferences.py:188
+msgid "Mirror across local X"
+msgstr "沿局部 X 镜像"
+
+#: preferences.py:189
+msgid "Mirror across local Y"
+msgstr "沿局部 Y 镜像"
+
+#: preferences.py:190
+msgid "Mirror across local Z"
+msgstr "沿局部 Z 镜像"
+
+#: operators/edit.py:98
+msgid "Open the mesh in Edit Mode first"
+msgstr "请先在编辑模式下打开网格"
+
+#: preferences.py:178
+msgid "Optional future hook for mirrored growth"
+msgstr "用于镜像扩展的可选预留钩子"
+
+#: preferences.py:195
+msgid "Optional future hook for view-dependent similarity scoring"
+msgstr "用于视图相关相似度评分的可选预留钩子"
+
+#: preferences.py:38
+msgid "Output"
+msgstr "输出"
+
+#: operators/edit.py:67
+msgid "Output Mode"
+msgstr "输出模式"
+
+#: preferences.py:11
+msgid "Preview Strength"
+msgstr "预览强度"
+
+#: preferences.py:84
+msgid "Prioritize vertices closer to seed point (higher = stricter at distance)"
+msgstr "优先靠近种子点的顶点（值越高，距离越远越严格）"
+
+#: preferences.py:108
+msgid "Reduce tolerance as the region grows away from the seed"
+msgstr "区域远离种子扩展时降低容差"
+
+#: preferences.py:56
+msgid "Remove the region from the current selection"
+msgstr "从当前选择中移除该区域"
+
+#: preferences.py:54
+#: operators/edit.py:81
+msgid "Replace"
+msgstr "替换"
+
+#: preferences.py:54
+#: operators/edit.py:81
+msgid "Replace the current selection"
+msgstr "替换当前选择"
+
+#: preferences.py:142
+msgid "Restrict growth to adjacent topology"
+msgstr "将扩展限制在相邻拓扑内"
+
+#: preferences.py:195
+msgid "Screen-Space Similarity"
+msgstr "屏幕空间相似度"
+
+#: preferences.py:26
+msgid "Seed From"
+msgstr "种子来源"
+
+#: operators/edit.py:56
+msgid "Seed Mode"
+msgstr "种子模式"
+
+#: operators/edit.py:60
+msgid "Seed from the clicked face"
+msgstr "从点击的面生成种子"
+
+#: operators/edit.py:61
+msgid "Seed from the closest edge on the clicked face"
+msgstr "从点击面上最近的边生成种子"
+
+#: preferences.py:32
+msgid "Seed from the closest edge under the cursor"
+msgstr "从光标下最近的边生成种子"
+
+#: operators/edit.py:62
+msgid "Seed from the closest vertex on the clicked face"
+msgstr "从点击面上最近的顶点生成种子"
+
+#: preferences.py:33
+msgid "Seed from the closest vertex under the cursor"
+msgstr "从光标下最近的顶点生成种子"
+
+#: preferences.py:31
+msgid "Seed from the face under the cursor"
+msgstr "从光标下的面生成种子"
+
+#: ui.py:38
+msgid "Select a mesh object to begin"
+msgstr "请选择网格物体以开始"
+
+#: operators/edit.py:72
+msgid "Select edges"
+msgstr "选择边"
+
+#: preferences.py:44
+msgid "Select edges derived from the region"
+msgstr "选择由该区域推导出的边"
+
+#: preferences.py:43
+#: operators/edit.py:71
+msgid "Select faces"
+msgstr "选择面"
+
+#: operators/edit.py:73
+msgid "Select vertices"
+msgstr "选择顶点"
+
+#: preferences.py:45
+msgid "Select vertices derived from the region"
+msgstr "选择由该区域派生的顶点"
+
+#: operators/edit.py:78
+msgid "Selection Behavior"
+msgstr "选择行为"
+
+#: preferences.py:50
+msgid "Selection Mode"
+msgstr "选择模式"
+
+#: preferences.py:22
+msgid "Selection settings are stored per scene."
+msgstr "选择设置按场景存储。"
+
+#: preferences.py:136
+msgid "Sharp Edge Blocking"
+msgstr "锐边阻挡"
+
+#: operators/edit.py:89
+msgid "Show advanced threshold and sensitivity settings"
+msgstr "显示高级阈值和灵敏度设置"
+
+#: ui.py:48
+msgid "Similarity Controls"
+msgstr "相似度控制"
+
+#: ui.py:14
+#: ui.py:27
+msgid "Smart 3D Magic Wand"
+msgstr "智能 3D 魔术棒"
+
+#: preferences.py:100
+msgid "Stop growing once geodesic distance exceeds this value"
+msgstr "测地距离超过此值时停止生长"
+
+#: preferences.py:56
+#: operators/edit.py:83
+msgid "Subtract"
+msgstr "减去"
+
+#: operators/edit.py:83
+msgid "Subtract from the current selection"
+msgstr "从当前选择中减去"
+
+#: preferences.py:178
+msgid "Symmetry Aware"
+msgstr "对称感知"
+
+#: preferences.py:184
+msgid "Symmetry Axis"
+msgstr "对称轴"
+
+#: preferences.py:108
+msgid "Tolerance Falloff"
+msgstr "容差衰减"
+
+#: preferences.py:130
+msgid "UV Boundary Lock"
+msgstr "UV 边界锁定"
+
+#: preferences.py:30
+#: operators/edit.py:59
+msgid "Use Blender's current mesh select mode"
+msgstr "使用 Blender 当前的网格选择模式"
+
+#: preferences.py:160
+msgid "Use Curvature"
+msgstr "使用曲率"
+
+#: preferences.py:154
+msgid "Use Face Normals"
+msgstr "使用面法线"
+
+#: preferences.py:166
+msgid "Use Materials"
+msgstr "使用材质"
+
+#: preferences.py:172
+msgid "Use UV seam locking as a growth signal"
+msgstr "使用 UV 缝合线锁定作为生长信号"
+
+#: preferences.py:172
+msgid "Use UVs"
+msgstr "使用 UV"
+
+#: preferences.py:148
+msgid "Use Vertex Colors"
+msgstr "使用顶点颜色"
+
+#: preferences.py:160
+msgid "Use curvature continuity as a growth signal"
+msgstr "使用曲率连续性作为生长信号"
+
+#: preferences.py:154
+msgid "Use face-normal similarity as a growth signal"
+msgstr "使用面法线相似度作为生长信号"
+
+#: preferences.py:166
+msgid "Use material similarity as a growth signal"
+msgstr "使用材质相似度作为生长信号"
+
+#: preferences.py:148
+msgid "Use vertex color similarity as a growth signal"
+msgstr "使用顶点颜色相似度作为生长信号"
+
+#: preferences.py:33
+#: preferences.py:45
+msgid "Vertex"
+msgstr "顶点"
+
+#: preferences.py:116
+msgid "Vertex Color Tolerance"
+msgstr "顶点颜色容差"
+
+#: preferences.py:84
+msgid "Vertex Distance Bias"
+msgstr "顶点距离偏移"
+
+#: preferences.py:38
+msgid "Which mesh element type receives the final selection"
+msgstr "最终选择应用于哪种网格元素类型"
+
+#: preferences.py:188
+msgid "X"
+msgstr "X"
+
+#: preferences.py:189
+msgid "Y"
+msgstr "Y"
+
+#: preferences.py:190
+msgid "Z"
+msgstr "Z"
+
+#: operators/edit.py:53
+msgctxt "Operator"
+msgid "Grow a topology-aware mesh selection from a clicked seed element"
+msgstr "从点击的种子元素生长拓扑感知网格选择"
+
+#: ui.py:42
+msgctxt "Operator"
+msgid "Launch Magic Wand"
+msgstr "启动魔术棒"
+
+#: ui.py:20
+#: operators/edit.py:52
+msgctxt "Operator"
+msgid "Smart 3D Magic Wand"
+msgstr "智能 3D 魔术棒"

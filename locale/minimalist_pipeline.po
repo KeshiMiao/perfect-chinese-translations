@@ -1,0 +1,2275 @@
+# perfect-chinese: 1
+# id: minimalist_pipeline
+# kind: addon
+# module: bl_ext.blender_org.minimalist_pipeline
+# name: Minimalist Pipeline
+# name_zh: 极简文件管线
+# translator: KeshiMiao
+# category: Pipeline
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: operators/tracking_ops.py:982
+msgid "(To leave one out, fix it in the spreadsheet and re-import.)"
+msgstr "（若要排除某一项，请在表格中修正后重新导入。）"
+
+#: panels/tracking_panel.py:858
+msgid "(editable via /.pipeline/tracking.json > departments_required)"
+msgstr "（可通过 /.pipeline/tracking.json > departments_required 编辑）"
+
+#: operators/tracking_ops.py:1158
+msgid "(ld/) is made once, beside the render."
+msgstr "（ld/）只生成一次，位于渲染结果旁边。"
+
+#: operators/file_ops.py:36
+msgid "(no tag)"
+msgstr "（无标签）"
+
+#: operators/tracking_ops.py:814
+msgid ","
+msgstr ","
+
+#: panels/farm_panel.py:1201
+msgid "-"
+msgstr "-"
+
+#: panels/farm_panel.py:165
+msgid "..."
+msgstr "..."
+
+#: lib/core.py:77
+msgid "/opt/homebrew/bin/ffmpeg"
+msgstr "/opt/homebrew/bin/ffmpeg"
+
+#: lib/core.py:77
+msgid "/usr/bin/ffmpeg"
+msgstr "/usr/bin/ffmpeg"
+
+#: lib/core.py:77
+msgid "/usr/local/bin/ffmpeg"
+msgstr "/usr/local/bin/ffmpeg"
+
+#: operators/project_ops.py:705
+msgid "0 = always switch"
+msgstr "0 = 总是切换"
+
+#: operators/project_ops.py:700
+msgid "0 = never kill"
+msgstr "0 = 从不终止"
+
+#: operators/tracking_ops.py:799
+msgid ":"
+msgstr ":"
+
+#: panels/farm_panel.py:1362
+msgid "?"
+msgstr "?"
+
+#: __init__.py:90
+msgid "A frame of the render: which machine wrote it"
+msgstr "渲染的某一帧：由哪台机器写入"
+
+#: operators/project_ops.py:467
+msgid "A machine on a lower-priority render moves to a higher-priority job short of machines once its chunk is done -- unless its render has less than this many minutes left. 0: it always moves"
+msgstr "低优先级渲染的机器在完成自己的分块后，若高优先级任务缺少机器，就会转过去——除非其渲染剩余时间少于这么多分钟。0：总是转移"
+
+#: operators/shot_ops.py:327
+#: operators/shot_ops.py:484
+msgid "A shot number above is already used by another active file"
+msgstr "上面的镜头编号已被另一个活动文件使用"
+
+#: operators/file_ops.py:129
+msgid "A validation stays on the departments not worked on since the last stable."
+msgstr "验证会停留在自上一个稳定版以来未改动过的部门上。"
+
+#: operators/project_ops.py:455
+msgid "A worker kills its render when the frame it's on takes this many times its usual time (5 min at least): the frames left go to the other machines. 0: never"
+msgstr "当当前帧耗时达到平常的这么多倍（至少 5 分钟）时，工作机会终止其渲染：剩余的帧交给其他机器。0：从不"
+
+#: operators/farm_ops.py:429
+#: operators/tracking_ops.py:195
+msgid "Absolute"
+msgstr "绝对"
+
+#: addon_data.py:25
+msgid "Active project"
+msgstr "活动项目"
+
+#: addon_data.py:25
+msgid "Active project root path."
+msgstr "活动项目根目录路径。"
+
+#: addon_data.py:105
+msgid "Advanced"
+msgstr "高级"
+
+#: operators/farm_ops.py:402
+msgid "All machines"
+msgstr "所有机器"
+
+#: operators/tracking_ops.py:814
+msgid "Already there, left as is (never duplicated):"
+msgstr "已存在，保持原样（从不重复）："
+
+#: operators/farm_ops.py:195
+msgid "Already-running processes will finish."
+msgstr "已在运行的进程将会完成。"
+
+#: operators/rushes_ops.py:100
+#: operators/tracking_ops.py:1082
+msgid "Also every asset/library's latest video"
+msgstr "还包括每个资产/库的最新视频"
+
+#: addon_data.py:71
+msgid "Always open project files as read-only, regardless of file lock or -stable tag. Safe default for review/playblast machines."
+msgstr "始终以只读方式打开项目文件，无论文件锁定或 -stable 标签。适合审阅/预演机器的安全默认值。"
+
+#: addon_data.py:71
+msgid "Always open read-only"
+msgstr "始终以只读方式打开"
+
+#: operators/farm_ops.py:412
+msgid "Always use a new output folder (force_all)"
+msgstr "始终使用新的输出文件夹（force_all）"
+
+#: operators/farm_ops.py:859
+msgid "Another Blender instance on this machine is already a worker."
+msgstr "本机上的另一个 Blender 实例已是工作机。"
+
+#: operators/tracking_ops.py:205
+msgid "As my role"
+msgstr "按我的角色"
+
+#: operators/browser_ops.py:88
+msgid "Asset"
+msgstr "资产"
+
+#: operators/browser_ops.py:40
+#: operators/farm_ops.py:359
+msgid "Asset / Library"
+msgstr "资产 / 库"
+
+#: operators/browser_ops.py:40
+msgid "Asset and Library files"
+msgstr "资产和库文件"
+
+#: operators/asset_ops.py:129
+msgid "Asset name is required."
+msgstr "资产名称为必填项。"
+
+#: operators/batch_ops.py:40
+#: operators/render_clean_ops.py:68
+msgid "Assets"
+msgstr "资产"
+
+#: operators/rushes_ops.py:100
+#: operators/tracking_ops.py:1082
+msgid "Assets & libraries"
+msgstr "资产和库"
+
+#: operators/farm_ops.py:518
+msgid "Assigned machines (empty: auto)"
+msgstr "分配的机器（留空：自动）"
+
+#: addon_data.py:64
+msgid "Auto-launch worker"
+msgstr "自动启动工作机"
+
+#: addon_data.py:64
+msgid "Automatically make this machine a farm worker when a project becomes active (on Blender startup, or when switching projects)."
+msgstr "当项目变为活动时（Blender 启动时或切换项目时），自动将此机器设为农场工作机。"
+
+#: menus/top_bar.py:96
+msgid "Batch create from CSV"
+msgstr "从 CSV 批量创建"
+
+#: addon_data.py:104
+msgid "Beginner"
+msgstr "新手"
+
+#: addon_data.py:99
+msgid "Beginner shows short inline explanations of pipeline concepts (versions, stable, links...) next to the relevant buttons."
+msgstr "新手模式会在相关按钮旁显示管线概念的简短内联说明（版本、稳定版、链接……）。"
+
+#: operators/farm_ops.py:1336
+#: operators/log_ops.py:98
+msgid "Blender could not open a new window."
+msgstr "Blender 无法打开新窗口。"
+
+#: operators/preview_ops.py:100
+msgid "Block"
+msgstr "阻止"
+
+#: operators/shot_ops.py:484
+msgid "Branch anyway"
+msgstr "仍然分支"
+
+#: lib/core.py:77
+msgid "C:\\ProgramData\\chocolatey\\bin\\ffmpeg.exe"
+msgstr "C:\\ProgramData\\chocolatey\\bin\\ffmpeg.exe"
+
+#: lib/core.py:77
+msgid "C:\\ffmpeg\\bin\\ffmpeg.exe"
+msgstr "C:\\ffmpeg\\bin\\ffmpeg.exe"
+
+#: operators/batch_ops.py:44
+msgid "CSV file"
+msgstr "CSV 文件"
+
+#: operators/batch_ops.py:69
+msgid "CSV path"
+msgstr "CSV 路径"
+
+#: operators/asset_ops.py:89
+#: operators/shot_ops.py:352
+msgid "Clean file"
+msgstr "干净文件"
+
+#: operators/render_clean_ops.py:184
+msgid "Cleaning old renders..."
+msgstr "正在清理旧渲染……"
+
+#: operators/farm_ops.py:1213
+msgid "Compilation requested again."
+msgstr "已再次请求编译。"
+
+#: panels/farm_panel.py:733
+msgid "Compiling"
+msgstr "正在编译"
+
+#: operators/log_ops.py:170
+msgid "Copied."
+msgstr "已复制。"
+
+#: operators/tracking_ops.py:1061
+msgid "Copy nothing: on a machine that reaches the project, the page plays the videos from renders/ itself"
+msgstr "不复制：在能访问项目的机器上，页面会直接从 renders/ 播放视频"
+
+#: operators/tracking_ops.py:1067
+msgid "Copy the videos into a videos folder beside the snapshots, to take it elsewhere -- kept from one export to the next: only new or changed videos are copied"
+msgstr "将视频复制到快照旁的 videos 文件夹，以便带到别处——在多次导出之间保留：只复制新增或已更改的视频"
+
+#: operators/tracking_ops.py:1818
+msgid "Copy this render's video into editing/rushes/, replacing the previous one under the same name (the edit keeps its link)"
+msgstr "将此渲染的视频复制到 editing/rushes/，替换同名的上一个（剪辑会保留其链接）"
+
+#: operators/project_ops.py:123
+msgid "Create a subfolder named after the project inside the parent directory."
+msgstr "在父目录中创建一个以项目命名的子文件夹。"
+
+#: operators/shot_ops.py:327
+msgid "Create anyway"
+msgstr "仍然创建"
+
+#: operators/project_ops.py:123
+msgid "Create subfolder"
+msgstr "创建子文件夹"
+
+#: operators/browser_ops.py:61
+#: operators/browser_ops.py:168
+msgid "Custom"
+msgstr "自定义"
+
+#: operators/project_ops.py:621
+msgid "DIGITS"
+msgstr "数字"
+
+#: operators/project_ops.py:542
+msgid "Days of the week the project works"
+msgstr "项目工作的星期几"
+
+#: operators/owner_ops.py:50
+msgid "Delete"
+msgstr "删除"
+
+#: operators/render_clean_ops.py:58
+msgid "Delete only their frames: every version stays watchable, a fraction of the size"
+msgstr "仅删除其帧序列：每个版本仍可观看，体积只占一小部分"
+
+#: operators/render_clean_ops.py:59
+msgid "Delete their whole folder, video included"
+msgstr "删除整个文件夹，包含视频"
+
+#: operators/render_clean_ops.py:59
+msgid "Delete them"
+msgstr "删除它们"
+
+#: operators/owner_ops.py:50
+msgid "Deleted: the space freed"
+msgstr "已删除：释放的空间"
+
+#: operators/asset_ops.py:86
+#: operators/shot_ops.py:321
+msgid "Departments"
+msgstr "部门"
+
+#: operators/file_ops.py:75
+msgid "Departments done:"
+msgstr "已完成部门："
+
+#: panels/tracking_panel.py:835
+msgid "Departments required:"
+msgstr "所需部门："
+
+#: operators/file_ops.py:70
+msgid "Departments worked this session:"
+msgstr "本次会话工作的部门："
+
+#: operators/asset_ops.py:83
+#: operators/shot_ops.py:313
+msgid "Description"
+msgstr "描述"
+
+#: operators/tracking_ops.py:1577
+msgid "Description updated."
+msgstr "描述已更新。"
+
+#: operators/tracking_ops.py:1061
+msgid "Don't copy"
+msgstr "不复制"
+
+#: operators/farm_ops.py:428
+msgid "Don't override"
+msgstr "不覆盖"
+
+#: operators/tracking_ops.py:1871
+msgid "Done:"
+msgstr "已完成："
+
+#: operators/farm_ops.py:746
+msgid "Each shot's latest video, end to end."
+msgstr "每个镜头的最新视频，从头到尾。"
+
+#: menus/top_bar.py:133
+#: operators/shot_ops.py:494
+msgid "Edit block structure"
+msgstr "编辑块结构"
+
+#: operators/farm_ops.py:608
+msgid "Empty -- add files with the button above."
+msgstr "空——使用上方按钮添加文件。"
+
+#: operators/project_ops.py:531
+#: operators/shot_ops.py:110
+msgid "End"
+msgstr "结束"
+
+#: operators/shot_ops.py:312
+#: operators/shot_ops.py:469
+msgid "End frame"
+msgstr "结束帧"
+
+#: operators/tracking_ops.py:390
+msgid "Entry created."
+msgstr "条目已创建。"
+
+#: operators/tracking_ops.py:630
+msgid "Entry deleted."
+msgstr "条目已删除。"
+
+#: operators/tracking_ops.py:255
+msgid "Entry type:"
+msgstr "条目类型："
+
+#: operators/tracking_ops.py:570
+msgid "Entry updated."
+msgstr "条目已更新。"
+
+#: operators/farm_ops.py:402
+msgid "Every free machine takes chunks of frames; more can join any time"
+msgstr "每台空闲机器领取帧块；随时可加入更多"
+
+#: operators/tracking_ops.py:1074
+msgid "Every video in a zip named like the snapshot, to send with it"
+msgstr "所有视频打包成与快照同名的 zip，随快照一起发送"
+
+#: addon_data.py:99
+msgid "Experience level"
+msgstr "经验水平"
+
+#: addon_data.py:79
+msgid "FFmpeg path"
+msgstr "FFmpeg 路径"
+
+#: operators/farm_ops.py:1105
+msgid "Failed"
+msgstr "失败"
+
+#: panels/monitoring_panel.py:209
+msgid "Familiar with the add-on? Advanced hides the tips."
+msgstr "熟悉此插件？高级模式会隐藏提示。"
+
+#: panels/tracking_panel.py:1057
+msgid "Farm"
+msgstr "农场"
+
+#: operators/farm_ops.py:313
+msgid "Farm monitor launched."
+msgstr "农场监视器已启动。"
+
+#: operators/farm_ops.py:1324
+msgid "Farm monitoring is already open."
+msgstr "农场监视器已打开。"
+
+#: panels/farm_panel.py:900
+msgid "Farm not running"
+msgstr "农场未运行"
+
+#: panels/tracking_panel.py:1053
+msgid "File"
+msgstr "文件"
+
+#: operators/preview_ops.py:157
+msgid "File doesn't match the naming convention."
+msgstr "文件不符合命名规范。"
+
+#: operators/browser_ops.py:163
+msgid "Filepath"
+msgstr "文件路径"
+
+#: operators/project_ops.py:391
+msgid "Files on disk are NOT deleted."
+msgstr "磁盘上的文件不会被删除。"
+
+#: panels/monitoring_panel.py:90
+#: panels/monitoring_panel.py:135
+msgid "Filters"
+msgstr "过滤器"
+
+#: operators/farm_ops.py:1105
+#: operators/file_ops.py:124
+msgid "Finished"
+msgstr "已完成"
+
+#: operators/project_ops.py:523
+msgid "First day of the project (DD/MM/YYYY). With the end date, the snapshot compares the progress with where it should be at an even pace. Empty: no schedule"
+msgstr "项目的第一天（DD/MM/YYYY）。结合结束日期，快照会将进度与匀速推进时应有的进度进行比较。留空：无日程"
+
+#: panels/project_panel.py:152
+msgid "First time here?"
+msgstr "第一次使用？"
+
+#: operators/tracking_ops.py:1067
+msgid "Folder"
+msgstr "文件夹"
+
+#: __init__.py:90
+#: operators/tracking_ops.py:519
+msgid "Frame"
+msgstr "帧"
+
+#: operators/farm_ops.py:433
+#: operators/farm_ops.py:439
+msgid "Frame override"
+msgstr "帧覆盖"
+
+#: operators/farm_ops.py:425
+msgid "Frame_end"
+msgstr "结束帧"
+
+#: operators/farm_ops.py:424
+msgid "Frame_start"
+msgstr "起始帧"
+
+#: operators/project_ops.py:485
+msgid "Frames per chunk: a worker claims this many frames at a time. Fixed for a render once it's sent out"
+msgstr "每块的帧数：工作机每次领取这么多帧。渲染发出后即固定"
+
+#: menus/button_context.py:84
+msgid "Gone from the queue meanwhile"
+msgstr "期间已从队列中移除"
+
+#: lib/operators.py:349
+msgid "HOW TO START."
+msgstr "如何开始。"
+
+#: panels/tracking_panel.py:142
+msgid "Hide done"
+msgstr "隐藏已完成"
+
+#: addon_data.py:105
+msgid "Hide inline concept explanations"
+msgstr "隐藏内联概念说明"
+
+#: operators/farm_ops.py:394
+#: operators/preview_ops.py:107
+msgid "Higher goes first (10 by default); same priority: oldest first"
+msgstr "数值越高越优先（默认 10）；优先级相同：最早优先"
+
+#: operators/render_clean_ops.py:48
+msgid "How many of its latest renders each shot and asset keeps whole"
+msgstr "每个镜头和资产完整保留多少个最新渲染"
+
+#: operators/tracking_ops.py:778
+msgid "Imported as: the team -- team retakes, no validation"
+msgstr "导入为：团队——团队重拍，不验证"
+
+#: operators/render_clean_ops.py:63
+msgid "In"
+msgstr "入"
+
+#: panels/tracking_panel.py:646
+msgid "In the farm:"
+msgstr "在农场中："
+
+#: operators/farm_ops.py:412
+msgid "Increment"
+msgstr "增量"
+
+#: addon_data.py:92
+msgid "Internal: the first-launch popup has already been shown."
+msgstr "内部：首次启动弹窗已显示。"
+
+#: operators/rushes_ops.py:136
+msgid "Into editing/rushes/, names without"
+msgstr "移入 editing/rushes/，名称不含"
+
+#: operators/owner_ops.py:49
+msgid "Into old/"
+msgstr "移入 old/"
+
+#: operators/project_ops.py:336
+msgid "Invalid or unreachable project path."
+msgstr "项目路径无效或无法访问。"
+
+#: operators/farm_ops.py:1092
+msgid "It started meanwhile: cancel it instead."
+msgstr "期间已启动：请改为取消。"
+
+#: operators/owner_ops.py:65
+msgid "It's the file open here: open another one first."
+msgstr "这是此处打开的文件：请先打开另一个。"
+
+#: operators/owner_ops.py:46
+msgid "Its renders"
+msgstr "其渲染"
+
+#: operators/farm_ops.py:1067
+msgid "Job archived."
+msgstr "任务已归档。"
+
+#: operators/farm_ops.py:1238
+msgid "Job file not found (deleted?)."
+msgstr "未找到任务文件（已删除？）。"
+
+#: panels/farm_panel.py:1136
+msgid "Job file not found."
+msgstr "未找到任务文件。"
+
+#: panels/farm_panel.py:401
+#: panels/farm_panel.py:874
+msgid "Jobs"
+msgstr "任务"
+
+#: operators/farm_ops.py:428
+msgid "Keep actual frame range."
+msgstr "保留实际帧范围。"
+
+#: operators/render_clean_ops.py:58
+msgid "Keep their videos"
+msgstr "保留其视频"
+
+#: operators/farm_ops.py:199
+msgid "Kill request sent -- the monitor will stop on its next tick."
+msgstr "终止请求已发送——监视器将在下次轮询时停止。"
+
+#: operators/batch_ops.py:39
+msgid "Kind"
+msgstr "类型"
+
+#: addon_data.py:137
+msgid "Known projects:"
+msgstr "已知项目："
+
+#: operators/browser_ops.py:59
+#: operators/browser_ops.py:166
+msgid "Last"
+msgstr "上次"
+
+#: operators/project_ops.py:531
+msgid "Last day of the project (DD/MM/YYYY)"
+msgstr "项目最后一天（DD/MM/YYYY）"
+
+#: panels/farm_panel.py:832
+msgid "Last render"
+msgstr "上次渲染"
+
+#: panels/tracking_panel.py:567
+msgid "Last render:"
+msgstr "上次渲染："
+
+#: operators/browser_ops.py:60
+#: operators/browser_ops.py:167
+msgid "Last stable"
+msgstr "最近稳定版"
+
+#: lib/operators.py:483
+msgid "Le dossier n'existe pas"
+msgstr "文件夹不存在"
+
+#: operators/owner_ops.py:51
+msgid "Leave them"
+msgstr "保留它们"
+
+#: operators/owner_ops.py:51
+msgid "Left where they are"
+msgstr "保持原位"
+
+#: __init__.py:1
+msgid "Lightweight pipeline manager for solo/small team Blender projects."
+msgstr "面向个人/小型团队 Blender 项目的轻量级管线管理器。"
+
+#: panels/tracking_panel.py:911
+msgid "Linked by:"
+msgstr "链接来源："
+
+#: panels/tracking_panel.py:874
+msgid "Linked by: scanning project..."
+msgstr "链接来源：正在扫描项目..."
+
+#: panels/tracking_panel.py:888
+msgid "Links to:"
+msgstr "链接到："
+
+#: panels/farm_panel.py:1324
+msgid "Logs"
+msgstr "日志"
+
+#: operators/project_ops.py:443
+msgid "Longest side of the render thumbnails (snapshot, file details). Existing ones are remade at the next snapshot export"
+msgstr "渲染缩略图最长边（快照、文件详情）。现有缩略图将在下次导出快照时重新生成"
+
+#: operators/render_clean_ops.py:100
+msgid "Looking at the renders..."
+msgstr "正在查看渲染..."
+
+#: operators/project_ops.py:112
+msgid "Lowercase, no spaces (use underscores)."
+msgstr "小写，不含空格（使用下划线）。"
+
+#: panels/monitoring_panel.py:249
+msgid "MAINTENANCE"
+msgstr "维护"
+
+#: panels/farm_panel.py:864
+msgid "Machine"
+msgstr "机器"
+
+#: addon_data.py:31
+msgid "Machine ID"
+msgstr "机器 ID"
+
+#: operators/tracking_ops.py:205
+msgid "Mark these entries with your validation role (prefs) -- off: a team note, like anyone's"
+msgstr "用你的验证角色标记这些条目（偏好设置）——关闭：普通团队备注，与其他人一样"
+
+#: panels/monitoring_panel.py:147
+msgid "Mine"
+msgstr "我的"
+
+#: __init__.py:1
+msgid "Minimalist Pipeline"
+msgstr "Minimalist Pipeline"
+
+#: operators/browser_ops.py:60
+#: operators/browser_ops.py:167
+msgid "Most recent -stable version"
+msgstr "最新的 -stable 版本"
+
+#: operators/browser_ops.py:59
+#: operators/browser_ops.py:166
+msgid "Most recent version"
+msgstr "最新版本"
+
+#: operators/owner_ops.py:49
+msgid "Moved into the renders' old/ folder: out of the way, still there"
+msgstr "已移入渲染的 old/ 文件夹：不碍事，仍然保留"
+
+#: operators/asset_ops.py:55
+#: operators/asset_ops.py:77
+msgid "Name"
+msgstr "名称"
+
+#: operators/batch_ops.py:112
+msgid "No CSV file selected."
+msgstr "未选择 CSV 文件。"
+
+#: lib/operators.py:94
+msgid "No action available"
+msgstr "无可用操作"
+
+#: operators/farm_ops.py:170
+msgid "No active farm monitor found."
+msgstr "未找到活动的农场监视器。"
+
+#: panels/project_panel.py:63
+msgid "No active project"
+msgstr "无活动项目"
+
+#: operators/asset_ops.py:109
+#: operators/batch_ops.py:102
+msgid "No active project."
+msgstr "无活动项目。"
+
+#: panels/file_panel.py:67
+msgid "No active project. Set one first."
+msgstr "无活动项目。请先设置一个。"
+
+#: operators/shot_ops.py:530
+msgid "No block file to branch from."
+msgstr "没有可从中分支的块文件。"
+
+#: panels/tracking_panel.py:857
+msgid "No departments required for this file."
+msgstr "此文件无需部门。"
+
+#: operators/tracking_ops.py:217
+msgid "No file to attach this entry to (save it first)."
+msgstr "没有可附加此条目的文件（请先保存）。"
+
+#: operators/preview_ops.py:136
+msgid "No file/project to resolve a preview from."
+msgstr "没有可用于解析预览的文件/项目。"
+
+#: panels/tracking_panel.py:1094
+msgid "No files found with this filter"
+msgstr "此筛选条件下未找到文件"
+
+#: panels/farm_panel.py:547
+msgid "No job"
+msgstr "无任务"
+
+#: panels/farm_panel.py:547
+msgid "No job with this filter"
+msgstr "此筛选条件下无任务"
+
+#: operators/browser_ops.py:134
+#: operators/browser_ops.py:139
+msgid "No matching file found."
+msgstr "未找到匹配文件。"
+
+#: panels/tracking_panel.py:181
+msgid "No notes or tasks match the filters."
+msgstr "没有符合筛选条件的笔记或任务。"
+
+#: panels/tracking_panel.py:181
+msgid "No notes or tasks."
+msgstr "无笔记或任务。"
+
+#: panels/project_panel.py:161
+msgid "No other projects"
+msgstr "没有其他项目"
+
+#: panels/monitoring_panel.py:237
+msgid "No project loaded: open Project settings again."
+msgstr "未加载项目：请重新打开项目设置。"
+
+#: operators/project_ops.py:287
+msgid "No project_config.json found here or in parent folders."
+msgstr "在此处或父文件夹中未找到 project_config.json。"
+
+#: operators/owner_ops.py:101
+msgid "No render."
+msgstr "无渲染。"
+
+#: operators/preview_ops.py:186
+msgid "No rendered shot found to compile a preview from."
+msgstr "未找到可用于生成预览的已渲染镜头。"
+
+#: operators/tracking_ops.py:693
+msgid "No review (.xlsx or .json) selected."
+msgstr "未选择审阅文件（.xlsx 或 .json）。"
+
+#: operators/tracking_ops.py:786
+msgid "No role: descriptions only"
+msgstr "无角色：仅描述"
+
+#: operators/farm_ops.py:741
+#: operators/tracking_ops.py:1141
+msgid "No sequence in this project."
+msgstr "此项目中没有序列。"
+
+#: operators/farm_ops.py:752
+msgid "No sequence selected."
+msgstr "未选择序列。"
+
+#: operators/shot_ops.py:394
+#: operators/shot_ops.py:582
+msgid "No shot added. Click Add to add at least one shot before creating."
+msgstr "未添加镜头。创建前请点击“添加”以添加至少一个镜头。"
+
+#: operators/farm_ops.py:787
+msgid "No shot selected to render."
+msgstr "未选择要渲染的镜头。"
+
+#: operators/preview_ops.py:149
+msgid "No versioned file found in this folder."
+msgstr "此文件夹中未找到版本化文件。"
+
+#: panels/farm_panel.py:700
+msgid "No worker file for this machine any more."
+msgstr "此机器已不再有工作进程文件。"
+
+#: operators/tracking_ops.py:1763
+msgid "None any more."
+msgstr "不再有。"
+
+#: operators/shot_ops.py:534
+#: operators/shot_ops.py:577
+msgid "Not a shot file."
+msgstr "不是镜头文件。"
+
+#: lib/browser.py:422
+msgid "Not tied to a specific shot"
+msgstr "未绑定到特定镜头"
+
+#: operators/tracking_ops.py:187
+#: operators/tracking_ops.py:403
+msgid "Note"
+msgstr "备注"
+
+#: panels/tracking_panel.py:99
+msgid "Notes & tasks"
+msgstr "备注与任务"
+
+#: operators/farm_ops.py:765
+msgid "Nothing rendered yet in the selected sequence(s)."
+msgstr "所选序列中尚无渲染结果。"
+
+#: operators/rushes_ops.py:146
+msgid "Nothing selected."
+msgstr "未选择任何内容。"
+
+#: operators/tracking_ops.py:362
+msgid "Nothing to add: every line is empty."
+msgstr "无可添加内容：所有行均为空。"
+
+#: operators/shot_ops.py:92
+msgid "Number"
+msgstr "编号"
+
+#: operators/render_clean_ops.py:55
+msgid "Older renders"
+msgstr "较旧的渲染"
+
+#: addon_data.py:39
+msgid "On the first file open of the day (already on the latest version), increment silently instead of asking for confirmation."
+msgstr "每天首次打开文件时（已是最新版本），静默递增而不请求确认。"
+
+#: addon_data.py:92
+msgid "Onboarding seen"
+msgstr "已查看新手引导"
+
+#: operators/farm_ops.py:407
+msgid "One machine at a time renders the whole range"
+msgstr "一次一台机器渲染整个范围"
+
+#: operators/farm_ops.py:1196
+#: operators/farm_ops.py:1209
+msgid "Only a finished render can be recompiled."
+msgstr "只有已完成的渲染才能重新编译。"
+
+#: operators/project_ops.py:513
+msgid "Open RTK"
+msgstr "打开 RTK"
+
+#: operators/tracking_ops.py:1052
+msgid "Open the snapshot in the browser once it's written"
+msgstr "快照写入后在浏览器中打开"
+
+#: operators/tracking_ops.py:1052
+msgid "Open when done"
+msgstr "完成后打开"
+
+#: addon_data.py:79
+msgid "Optional: explicit path to the ffmpeg binary, for setups where it isn't found on Blender's PATH (e.g. Blender launched through a sandboxed runtime such as Steam's). Leave blank to auto-detect."
+msgstr "可选：ffmpeg 可执行文件的显式路径，用于在 Blender 的 PATH 中找不到它的环境（例如通过 Steam 等沙盒运行时启动 Blender）。留空则自动检测。"
+
+#: operators/owner_ops.py:89
+msgid "Out of every list (monitoring, snapshot, menus)."
+msgstr "从所有列表中排除（监控、快照、菜单）。"
+
+#: panels/farm_panel.py:1199
+msgid "Output"
+msgstr "输出"
+
+#: operators/farm_ops.py:504
+msgid "Override applies within each selected shot's own range."
+msgstr "覆盖应用于每个所选镜头自身的范围。"
+
+#: operators/farm_ops.py:429
+msgid "Override with absolute frame number."
+msgstr "使用绝对帧号覆盖。"
+
+#: operators/farm_ops.py:431
+msgid "Override with end relative frame number."
+msgstr "使用相对于结束的帧号覆盖。"
+
+#: operators/farm_ops.py:430
+msgid "Override with start relative frame number."
+msgstr "使用相对于开始的帧号覆盖。"
+
+#: operators/project_ops.py:620
+msgid "PREFIX"
+msgstr "前缀"
+
+#: lib/monitoring.py:623
+msgid "PROPERTIES"
+msgstr "属性"
+
+#: operators/project_ops.py:117
+msgid "Parent directory"
+msgstr "父目录"
+
+#: operators/farm_ops.py:320
+#: operators/farm_ops.py:813
+msgid "Path"
+msgstr "路径"
+
+#: operators/farm_ops.py:194
+msgid "Pending renders will not be cancelled."
+msgstr "待处理的渲染将不会被取消。"
+
+#: operators/owner_ops.py:166
+msgid "Pick a shot or an asset first."
+msgstr "请先选择镜头或资产。"
+
+#: operators/browser_ops.py:61
+#: operators/browser_ops.py:168
+msgid "Pick a specific version"
+msgstr "选择特定版本"
+
+#: __init__.py:1
+#: menus/top_bar.py:56
+msgid "Pipeline"
+msgstr "流程"
+
+#: addon_data.py:117
+msgid "Pipeline Automations:"
+msgstr "流程自动化："
+
+#: menus/top_bar.py:148
+#: panels/monitoring_panel.py:166
+msgid "Pipeline log"
+msgstr "流程日志"
+
+#: panels/monitoring_panel.py:120
+msgid "Pipeline: Farm monitoring"
+msgstr "流程：渲染农场监控"
+
+#: panels/monitoring_panel.py:159
+msgid "Pipeline: Pipeline log"
+msgstr "流程：流程日志"
+
+#: panels/monitoring_panel.py:69
+msgid "Pipeline: Project monitoring"
+msgstr "流程：项目监控"
+
+#: panels/monitoring_panel.py:229
+msgid "Pipeline: Project settings"
+msgstr "流程：项目设置"
+
+#: panels/monitoring_panel.py:179
+msgid "Pipeline: Welcome"
+msgstr "流程：欢迎"
+
+#: operators/tracking_ops.py:1149
+msgid "Played from renders/, on a machine"
+msgstr "在机器上从 renders/ 播放"
+
+#: operators/farm_ops.py:445
+msgid "Pre render script"
+msgstr "预渲染脚本"
+
+#: operators/project_ops.py:479
+msgid "Pre-render script the Render dialog starts with"
+msgstr "渲染对话框启动时使用的预渲染脚本"
+
+#: operators/asset_ops.py:74
+msgid "Prefix"
+msgstr "前缀"
+
+#: operators/farm_ops.py:361
+msgid "Preview"
+msgstr "预览"
+
+#: operators/farm_ops.py:394
+#: operators/preview_ops.py:107
+msgid "Priority"
+msgstr "优先级"
+
+#: panels/project_panel.py:39
+msgid "Project"
+msgstr "项目"
+
+#: operators/shot_ops.py:202
+msgid "Project config is missing or invalid."
+msgstr "项目配置缺失或无效。"
+
+#: operators/project_ops.py:258
+#: operators/project_ops.py:266
+msgid "Project folder"
+msgstr "项目文件夹"
+
+#: operators/tracking_ops.py:1537
+msgid "Project monitoring is already open."
+msgstr "项目监控已打开。"
+
+#: addon_data.py:11
+#: operators/project_ops.py:112
+msgid "Project name"
+msgstr "项目名称"
+
+#: addon_data.py:12
+msgid "Project path"
+msgstr "项目路径"
+
+#: operators/asset_ops.py:125
+#: operators/shot_ops.py:389
+msgid "Project path does not exist or is unreachable."
+msgstr "项目路径不存在或无法访问。"
+
+#: lib/monitoring.py:623
+msgid "Property Editor"
+msgstr "属性编辑器"
+
+#: operators/project_ops.py:534
+msgid "Public holidays and days off, left out of the working days -- DD/MM/YYYY, comma-separated"
+msgstr "公共假日和休息日，不计入工作日 -- DD/MM/YYYY，用逗号分隔"
+
+#: menus/top_bar.py:156
+msgid "Push rushes to editing"
+msgstr "推送样片到剪辑"
+
+#: operators/tracking_ops.py:1818
+msgid "Push to editing"
+msgstr "推送到剪辑"
+
+#: operators/rushes_ops.py:156
+msgid "Pushing rushes to editing (see the log when done)..."
+msgstr "正在推送样片到剪辑（完成后查看日志）..."
+
+#: menus/top_bar.py:227
+#: menus/top_bar.py:267
+msgid "READ-ONLY"
+msgstr "只读"
+
+#: operators/tracking_ops.py:187
+#: operators/tracking_ops.py:403
+msgid "RTK"
+msgstr "RTK"
+
+#: menus/top_bar.py:233
+msgid "Read-only"
+msgstr "只读"
+
+#: menus/top_bar.py:43
+msgid "Recent files"
+msgstr "最近文件"
+
+#: operators/tracking_ops.py:532
+msgid "Reference"
+msgstr "参考"
+
+#: operators/farm_ops.py:431
+msgid "Relative to end"
+msgstr "相对于结束"
+
+#: operators/farm_ops.py:430
+msgid "Relative to start"
+msgstr "相对于开始"
+
+#: operators/project_ops.py:388
+msgid "Remove from list?"
+msgstr "从列表中移除？"
+
+#: operators/farm_ops.py:400
+msgid "Render Mode"
+msgstr "渲染模式"
+
+#: operators/farm_ops.py:602
+msgid "Render list:"
+msgstr "渲染列表："
+
+#: operators/farm_ops.py:907
+msgid "Render stopped, worker stopped."
+msgstr "渲染已停止，工作进程已停止。"
+
+#: panels/farm_panel.py:733
+msgid "Rendering"
+msgstr "渲染中"
+
+#: operators/render_clean_ops.py:48
+msgid "Renders kept"
+msgstr "保留的渲染"
+
+#: panels/tracking_panel.py:606
+msgid "Renders to check:"
+msgstr "待检查的渲染："
+
+#: operators/project_ops.py:505
+msgid "Reworked"
+msgstr "已返工"
+
+#: operators/farm_ops.py:458
+msgid "Save this file first."
+msgstr "请先保存此文件。"
+
+#: operators/file_ops.py:36
+msgid "Save without tag"
+msgstr "保存但不添加标签"
+
+#: operators/tracking_ops.py:1194
+msgid "Scanning project for the snapshot..."
+msgstr "正在扫描项目以生成快照..."
+
+#: operators/farm_ops.py:931
+msgid "Scripted call only: interrupt its render in progress"
+msgstr "仅限脚本调用：中断正在进行的渲染"
+
+#: operators/batch_ops.py:44
+msgid "Select your .csv file."
+msgstr "选择你的 .csv 文件。"
+
+#: operators/preview_ops.py:100
+#: operators/render_clean_ops.py:72
+msgid "Sequence"
+msgstr "序列"
+
+#: operators/farm_ops.py:361
+msgid "Sequence previews: each shot's latest video, end to end"
+msgstr "序列预览：将每个镜头的最新视频首尾相接"
+
+#: operators/farm_ops.py:737
+msgid "Sequences to preview:"
+msgstr "待预览的序列："
+
+#: operators/rushes_ops.py:129
+msgid "Sequences:"
+msgstr "序列："
+
+#: operators/tracking_ops.py:1669
+msgid "Set your validation role in the preferences first."
+msgstr "请先在偏好设置中设置你的审核角色。"
+
+#: operators/farm_ops.py:389
+msgid "Settings"
+msgstr "设置"
+
+#: operators/project_ops.py:505
+msgid "Share counted as done when validated, then reworked since"
+msgstr "份额在通过审核时计为完成，但之后已返工"
+
+#: operators/project_ops.py:513
+msgid "Share counted as done when validated, with an open RTK"
+msgstr "份额在通过审核时计为完成，但有未关闭的 RTK"
+
+#: operators/project_ops.py:497
+msgid "Share of a department counted as done while in progress"
+msgstr "部门份额在进行中即计为完成"
+
+#: addon_data.py:90
+msgid "Shortcuts"
+msgstr "快捷键"
+
+#: operators/browser_ops.py:41
+#: operators/browser_ops.py:102
+msgid "Shot"
+msgstr "镜头"
+
+#: operators/shot_ops.py:598
+msgid "Shot number(s) already used elsewhere -- tick 'Branch anyway' to confirm."
+msgstr "镜头编号已在别处使用 -- 勾选“仍然分支”以确认。"
+
+#: operators/shot_ops.py:416
+msgid "Shot number(s) already used elsewhere -- tick 'Create anyway' to confirm."
+msgstr "镜头编号已在别处使用 -- 勾选“仍然创建”以确认。"
+
+#: operators/browser_ops.py:41
+msgid "Shot sequence files"
+msgstr "镜头序列文件"
+
+#: operators/shot_ops.py:87
+msgid "Shot(s)"
+msgstr "镜头"
+
+#: operators/batch_ops.py:40
+#: operators/render_clean_ops.py:67
+msgid "Shots"
+msgstr "镜头"
+
+#: operators/render_clean_ops.py:66
+msgid "Shots and assets"
+msgstr "镜头和资产"
+
+#: operators/farm_ops.py:532
+msgid "Shots in this block -- pick which to render:"
+msgstr "此区块中的镜头 -- 选择要渲染的镜头："
+
+#: operators/tracking_ops.py:1044
+msgid "Show a thumbnail per asset/shot, from its latest render. Missing or outdated ones are made first, in the background"
+msgstr "为每个资产/镜头显示其最新渲染的缩略图。缺失或过期的会先在后台生成"
+
+#: addon_data.py:104
+msgid "Show inline concept explanations"
+msgstr "显示内联概念说明"
+
+#: addon_data.py:39
+msgid "Silent auto-increment"
+msgstr "静默自动递增"
+
+#: panels/tracking_panel.py:160
+msgid "Since version"
+msgstr "起始版本"
+
+#: operators/farm_ops.py:407
+msgid "Single"
+msgstr "单个"
+
+#: operators/tracking_ops.py:1215
+#: operators/tracking_ops.py:1231
+msgid "Snapshot failed (see log)."
+msgstr "快照失败（见日志）。"
+
+#: panels/farm_panel.py:1345
+msgid "Stages"
+msgstr "阶段"
+
+#: operators/farm_ops.py:290
+msgid "Stale lock detected!"
+msgstr "检测到过期的锁！"
+
+#: operators/project_ops.py:523
+#: operators/shot_ops.py:105
+msgid "Start"
+msgstr "开始"
+
+#: operators/tracking_ops.py:196
+#: operators/tracking_ops.py:415
+msgid "Start at 0"
+msgstr "从 0 开始"
+
+#: operators/tracking_ops.py:197
+#: operators/tracking_ops.py:416
+msgid "Start at 1"
+msgstr "从 1 开始"
+
+#: operators/asset_ops.py:60
+msgid "Start with a new clean file"
+msgstr "从新的空白文件开始"
+
+#: operators/shot_ops.py:318
+#: operators/shot_ops.py:475
+msgid "Start with a new clean scene"
+msgstr "从新建的干净场景开始"
+
+#: panels/farm_panel.py:402
+msgid "Status"
+msgstr "状态"
+
+#: operators/owner_ops.py:73
+msgid "Still reading the project's links: try again in a moment."
+msgstr "仍在读取项目链接：请稍后再试。"
+
+#: operators/farm_ops.py:187
+msgid "Stop your own farm?"
+msgstr "停止你自己的农场？"
+
+#: operators/file_ops.py:67
+#: operators/file_ops.py:113
+msgid "Tag"
+msgstr "标签"
+
+#: operators/file_ops.py:67
+msgid "Tag to apply to this version."
+msgstr "要应用到此版本的标签。"
+
+#: operators/farm_ops.py:298
+msgid "Take over the monitor role?"
+msgstr "接管监控者角色？"
+
+#: operators/farm_ops.py:417
+msgid "Target Machine"
+msgstr "目标机器"
+
+#: operators/tracking_ops.py:494
+msgid "Text"
+msgstr "文本"
+
+#: operators/tracking_ops.py:128
+#: operators/tracking_ops.py:406
+msgid "The departments this entry is for -- several at once"
+msgstr "此条目所属的部门——可同时选择多个"
+
+#: operators/log_ops.py:147
+msgid "The log is already empty."
+msgstr "日志已经是空的。"
+
+#: operators/log_ops.py:94
+msgid "The pipeline log is already open."
+msgstr "流程日志已经打开。"
+
+#: operators/farm_ops.py:296
+msgid "The previous monitor may have crashed."
+msgstr "之前的监控者可能已崩溃。"
+
+#: operators/project_ops.py:258
+msgid "The project's folder, or any folder inside it: config/project_config.json is looked for there and above"
+msgstr "项目文件夹，或其中的任意文件夹：会在此处及其上级目录查找 config/project_config.json"
+
+#: operators/tracking_ops.py:981
+msgid "The review changes these descriptions. Apply them all?"
+msgstr "审阅会更改这些描述。全部应用？"
+
+#: addon_data.py:54
+msgid "The validation role you review as (e.g. sup, prod -- Edit project lists them): your notes are marked with it, and you can validate departments for it. Empty: a team member"
+msgstr "你进行审阅时使用的验证角色（例如 sup、prod——编辑项目中有列出）：你的备注会以此标记，你也可以为该角色验证部门。留空：团队成员"
+
+#: operators/render_clean_ops.py:92
+msgid "Their last render, a render a note or 'to check' names,"
+msgstr "他们最近的渲染，备注或“待检查”指定的渲染，"
+
+#: operators/tracking_ops.py:1155
+msgid "Their videos, in a zip named"
+msgstr "他们的视频，打包为 zip，名称为"
+
+#: operators/tracking_ops.py:1152
+msgid "Their videos, in videos/ beside:"
+msgstr "他们的视频，位于旁边的 videos/ 中："
+
+#: operators/farm_ops.py:1154
+#: operators/farm_ops.py:1167
+msgid "This job didn't fail: nothing to retry."
+msgstr "此任务没有失败：无需重试。"
+
+#: operators/farm_ops.py:910
+msgid "This machine is no longer a farm worker."
+msgstr "此机器不再是农场工作节点。"
+
+#: operators/farm_ops.py:857
+msgid "This machine is now a farm worker."
+msgstr "此机器现在是农场工作节点。"
+
+#: operators/farm_ops.py:912
+msgid "This worker entry belongs to another machine/process."
+msgstr "此工作节点条目属于另一台机器/进程。"
+
+#: operators/tracking_ops.py:1044
+msgid "Thumbnails"
+msgstr "缩略图"
+
+#: addon_data.py:160
+msgid "Tick a shortcut to use it; click its key to change it."
+msgstr "勾选快捷键即可使用；点击其按键可更改。"
+
+#: operators/shot_ops.py:93
+msgid "Timeline"
+msgstr "时间线"
+
+#: operators/tracking_ops.py:187
+#: operators/tracking_ops.py:403
+msgid "Todo"
+msgstr "待办"
+
+#: operators/tracking_ops.py:1157
+msgid "Too wide for a browser: a light copy"
+msgstr "对浏览器来说太宽：使用轻量副本"
+
+#: panels/monitoring_panel.py:36
+msgid "Tool"
+msgstr "工具"
+
+#: operators/batch_ops.py:66
+#: operators/browser_ops.py:81
+msgid "Type"
+msgstr "类型"
+
+#: addon_data.py:31
+msgid "Unique id by machine."
+msgstr "按机器唯一的 ID。"
+
+#: menus/top_bar.py:204
+msgid "Unset active project"
+msgstr "取消设置活动项目"
+
+#: addon_data.py:125
+msgid "User Infos:"
+msgstr "用户信息："
+
+#: addon_data.py:47
+msgid "User name"
+msgstr "用户名"
+
+#: operators/project_ops.py:158
+msgid "Validation failed."
+msgstr "验证失败。"
+
+#: addon_data.py:54
+msgid "Validation role"
+msgstr "验证角色"
+
+#: operators/browser_ops.py:118
+#: operators/tracking_ops.py:508
+msgid "Version"
+msgstr "版本"
+
+#: operators/tracking_ops.py:1058
+msgid "Videos"
+msgstr "视频"
+
+#: operators/tracking_ops.py:1135
+msgid "Videos to play on the page:"
+msgstr "要在页面上播放的视频："
+
+#: operators/project_ops.py:497
+msgid "WIP"
+msgstr "制作中"
+
+#: operators/asset_ops.py:56
+msgid "What this asset is, shown in its tracking panel."
+msgstr "此资产的说明，显示在其跟踪面板中。"
+
+#: operators/shot_ops.py:313
+#: operators/shot_ops.py:470
+msgid "What this shot is, shown in its tracking panel."
+msgstr "此镜头的说明，显示在其跟踪面板中。"
+
+#: operators/project_ops.py:117
+msgid "Where the project folder will be created."
+msgstr "项目文件夹将创建的位置。"
+
+#: operators/tracking_ops.py:425
+msgid "Which shot in this block the entry is about, if any."
+msgstr "此条目涉及的此段落中的镜头（如果有）。"
+
+#: operators/tracking_ops.py:133
+msgid "Which shot in this block the line is about, if any"
+msgstr "此行涉及的此段落中的镜头（如果有）"
+
+#: panels/farm_panel.py:1295
+msgid "Who rendered"
+msgstr "渲染者"
+
+#: operators/project_ops.py:570
+msgid "Who validates a done department, as role:level -- a higher level covers the lower ones, the same level is equivalent (e.g. sup:1,prod:2,real:2). Empty: none"
+msgstr "谁验证已完成的部门，格式为 角色:级别——较高级别覆盖较低级别，同级视为等同（例如 sup:1,prod:2,real:2）。留空：无"
+
+#: operators/file_ops.py:119
+msgid "Worked on"
+msgstr "已处理"
+
+#: panels/file_panel.py:77
+msgid "Working on:"
+msgstr "正在处理："
+
+#: lib/operators.py:305
+msgid "YOUR NAME:"
+msgstr "你的名字："
+
+#: lib/operators.py:366
+msgid "You're familiar with the add-on? Hide tooltips in the add-on's preferences."
+msgstr "已熟悉此附加组件？可在其偏好设置中隐藏工具提示。"
+
+#: addon_data.py:47
+msgid "Your name (used in logs)."
+msgstr "你的名字（用于日志）。"
+
+#: operators/tracking_ops.py:1074
+msgid "Zip"
+msgstr "Zip"
+
+#: panels/tracking_panel.py:258
+msgid "_"
+msgstr "_"
+
+#: panels/logs_panel.py:165
+msgid "_time"
+msgstr "_time"
+
+#: operators/tracking_ops.py:1156
+msgid "like the snapshot."
+msgstr "与快照相同。"
+
+#: operators/project_ops.py:705
+msgid "min left: stays"
+msgstr "剩余分钟：保留"
+
+#: operators/render_clean_ops.py:93
+msgid "one the farm is writing: always kept. Nothing done before you confirm."
+msgstr "农场正在写入的那个：始终保留。在你确认前不会执行任何操作。"
+
+#: operators/tracking_ops.py:1153
+msgid "only new ones get copied."
+msgstr "仅复制新的。"
+
+#: panels/farm_panel.py:363
+msgid "pace unknown"
+msgstr "进度未知"
+
+#: operators/tracking_ops.py:1150
+msgid "that reaches the project."
+msgstr "到达项目的内容"
+
+#: panels/farm_panel.py:358
+msgid "this frame only"
+msgstr "仅此帧"
+
+#: operators/rushes_ops.py:137
+msgid "version: only what changed is copied."
+msgstr "版本：只复制变更的内容。"
+
+#: panels/farm_panel.py:1041
+msgid "worker idle"
+msgstr "工作节点空闲"
+
+#: operators/project_ops.py:700
+msgid "x usual time: kill"
+msgstr "× 通常时间：终止"
+
+#: operators/tracking_ops.py:1776
+msgid "·"
+msgstr "·"
+
+#: panels/tracking_panel.py:1211
+msgid "–"
+msgstr "–"
+
+#: lib/browser.py:422
+msgid "—"
+msgstr "—"
+
+#: addon_data.py:143
+msgid "•"
+msgstr "•"
+
+#: addon_data.py:145
+msgid "• No projects"
+msgstr "• 无项目"
+
+#: operators/project_ops.py:329
+msgctxt "Operator"
+msgid "Activate project"
+msgstr "激活项目"
+
+#: operators/shot_ops.py:48
+msgctxt "Operator"
+msgid "Add"
+msgstr "添加"
+
+#: operators/tracking_ops.py:184
+msgctxt "Operator"
+msgid "Add a note, todo, or RTK entry to this file's tracking."
+msgstr "为此文件的跟踪添加备注、待办或 RTK 条目。"
+
+#: operators/shot_ops.py:122
+msgctxt "Operator"
+msgid "Add shot(s) number"
+msgstr "添加镜头编号"
+
+#: panels/farm_panel.py:870
+msgctxt "Operator"
+msgid "Add this machine"
+msgstr "添加此机器"
+
+#: menus/top_bar.py:197
+#: panels/farm_panel.py:175
+msgctxt "Operator"
+msgid "Add this machine as worker"
+msgstr "将此机器添加为工作节点"
+
+#: operators/farm_ops.py:852
+msgctxt "Operator"
+msgid "Add this machine to the farm as worker."
+msgstr "将此机器作为工作节点加入农场。"
+
+#: operators/farm_ops.py:811
+msgctxt "Operator"
+msgid "Add to list"
+msgstr "添加到列表"
+
+#: operators/farm_ops.py:1054
+msgctxt "Operator"
+msgid "Archive"
+msgstr "归档"
+
+#: operators/farm_ops.py:1102
+msgctxt "Operator"
+msgid "Archive all"
+msgstr "全部归档"
+
+#: operators/log_ops.py:120
+msgctxt "Operator"
+msgid "Archive the log"
+msgstr "归档日志"
+
+#: operators/shot_ops.py:464
+msgctxt "Operator"
+msgid "Archive this block and create a new one with a different shot enumeration."
+msgstr "归档此区块并新建一个使用不同镜头编号的区块。"
+
+#: lib/operators.py:376
+msgctxt "Operator"
+msgid "Auto Versioning"
+msgstr "自动版本管理"
+
+#: operators/monitoring_ops.py:140
+msgctxt "Operator"
+msgid "Back to the list"
+msgstr "返回列表"
+
+#: operators/batch_ops.py:34
+msgctxt "Operator"
+msgid "Batch create from CSV"
+msgstr "从 CSV 批量创建"
+
+#: menus/button_context.py:91
+#: operators/farm_ops.py:1016
+msgctxt "Operator"
+msgid "Cancel"
+msgstr "取消"
+
+#: operators/farm_ops.py:1017
+msgctxt "Operator"
+msgid "Cancel this job's render."
+msgstr "取消此任务的渲染。"
+
+#: operators/monitoring_ops.py:74
+msgctxt "Operator"
+msgid "Change page"
+msgstr "翻页"
+
+#: panels/tracking_panel.py:633
+msgctxt "Operator"
+msgid "Checked"
+msgstr "已检查"
+
+#: operators/render_clean_ops.py:45
+#: operators/render_clean_ops.py:130
+msgctxt "Operator"
+msgid "Clean old renders"
+msgstr "清理旧渲染"
+
+#: panels/monitoring_panel.py:251
+msgctxt "Operator"
+msgid "Clean old renders..."
+msgstr "清理旧渲染..."
+
+#: operators/farm_ops.py:622
+msgctxt "Operator"
+msgid "Clear list"
+msgstr "清空列表"
+
+#: panels/monitoring_panel.py:217
+#: panels/monitoring_panel.py:257
+msgctxt "Operator"
+msgid "Close"
+msgstr "关闭"
+
+#: operators/preview_ops.py:97
+msgctxt "Operator"
+msgid "Compile preview"
+msgstr "编译预览"
+
+#: operators/farm_ops.py:1180
+msgctxt "Operator"
+msgid "Compile this job's video again from the frames already rendered: no render, no worker -- just ffmpeg on the monitor's machine. The render goes back to To check once done."
+msgstr "从已渲染的帧重新合成此任务的视频：不渲染、不使用工作节点——只在监控端机器上运行 ffmpeg。完成后渲染回到「待检查」。"
+
+#: operators/rushes_ops.py:93
+msgctxt "Operator"
+msgid "Copy each shot's latest video (and the assets') into editing/rushes/ under its name without version -- sq100/sq100_sh030.mp4 -- so the edit keeps its links. Only what changed is copied; rushes.json there says which render each one is"
+msgstr "将每个镜头的最新视频（以及资产视频）按不带版本的名称复制到 editing/rushes/ —— sq100/sq100_sh030.mp4 —— 以保持剪辑的链接。只复制变更的内容；其中的 rushes.json 记录每个视频对应的渲染。"
+
+#: operators/asset_ops.py:52
+msgctxt "Operator"
+msgid "Create a new versioned asset in the active project."
+msgstr "在活动项目中创建新的版本化资产。"
+
+#: operators/shot_ops.py:309
+msgctxt "Operator"
+msgid "Create a new versioned shot in the active project."
+msgstr "在活动项目中创建新的版本化镜头。"
+
+#: operators/project_ops.py:110
+msgctxt "Operator"
+msgid "Create folder structure and pipeline config."
+msgstr "创建文件夹结构和流程配置。"
+
+#: operators/batch_ops.py:35
+msgctxt "Operator"
+msgid "Create multiple assets or shots from a CSV file, skipping existing ones."
+msgstr "从 CSV 文件批量创建资产或镜头，跳过已有项。"
+
+#: operators/project_ops.py:109
+msgctxt "Operator"
+msgid "Create new project"
+msgstr "新建项目"
+
+#: operators/tracking_ops.py:664
+msgctxt "Operator"
+msgid "Create notes from reviews sent back by production: the .xlsx downloaded from a snapshot, or the .json its page's Review makes -- several at once (sup's, prod's...). Lines already imported are skipped"
+msgstr "从制作方返回的审阅创建备注：从快照下载的 .xlsx，或其页面「审阅」生成的 .json —— 可一次处理多个（主管的、制作的……）。已导入的行将被跳过。"
+
+#: menus/button_context.py:69
+#: operators/owner_ops.py:42
+msgctxt "Operator"
+msgid "Delete"
+msgstr "删除"
+
+#: operators/owner_ops.py:131
+msgctxt "Operator"
+msgid "Delete a shot or an asset"
+msgstr "删除镜头或资产"
+
+#: panels/monitoring_panel.py:252
+msgctxt "Operator"
+msgid "Delete a shot or an asset..."
+msgstr "删除镜头或资产..."
+
+#: operators/tracking_ops.py:612
+msgctxt "Operator"
+msgid "Delete this entry."
+msgstr "删除此条目。"
+
+#: panels/file_panel.py:170
+msgctxt "Operator"
+msgid "Details"
+msgstr "详情"
+
+#: menus/button_context.py:59
+#: operators/tracking_ops.py:399
+msgctxt "Operator"
+msgid "Edit"
+msgstr "编辑"
+
+#: operators/shot_ops.py:463
+msgctxt "Operator"
+msgid "Edit block structure"
+msgstr "编辑区块结构"
+
+#: operators/tracking_ops.py:1552
+msgctxt "Operator"
+msgid "Edit description"
+msgstr "编辑描述"
+
+#: operators/project_ops.py:950
+msgctxt "Operator"
+msgid "Edit project settings."
+msgstr "编辑项目设置。"
+
+#: operators/tracking_ops.py:1553
+msgctxt "Operator"
+msgid "Edit this asset/shot's description."
+msgstr "编辑此资产/镜头的描述。"
+
+#: operators/tracking_ops.py:1035
+msgctxt "Operator"
+msgid "Export snapshot"
+msgstr "导出快照"
+
+#: menus/top_bar.py:159
+#: panels/farm_panel.py:132
+msgctxt "Operator"
+msgid "Farm monitor"
+msgstr "农场监控"
+
+#: operators/farm_ops.py:1310
+msgctxt "Operator"
+msgid "Farm monitoring"
+msgstr "农场监控"
+
+#: panels/farm_panel.py:106
+msgctxt "Operator"
+msgid "Farm: ..."
+msgstr "农场：..."
+
+#: panels/farm_panel.py:78
+msgctxt "Operator"
+msgid "Farm: Not running"
+msgstr "农场：未运行"
+
+#: operators/project_ops.py:253
+#: panels/monitoring_panel.py:216
+msgctxt "Operator"
+msgid "Find existing project"
+msgstr "查找现有项目"
+
+#: menus/top_bar.py:83
+msgctxt "Operator"
+msgid "Find existing project..."
+msgstr "查找现有项目..."
+
+#: panels/farm_panel.py:690
+msgctxt "Operator"
+msgid "Forget"
+msgstr "忽略"
+
+#: operators/farm_ops.py:986
+msgctxt "Operator"
+msgid "Forget worker"
+msgstr "移除工作机"
+
+#: menus/top_bar.py:107
+#: operators/tracking_ops.py:663
+msgctxt "Operator"
+msgid "Import review"
+msgstr "导入审阅"
+
+#: menus/top_bar.py:117
+#: menus/top_bar.py:249
+msgctxt "Operator"
+msgid "Increment"
+msgstr "递增"
+
+#: operators/file_ops.py:64
+msgctxt "Operator"
+msgid "Increment version"
+msgstr "递增版本"
+
+#: lib/operators.py:162
+msgctxt "Operator"
+msgid "Info"
+msgstr "信息"
+
+#: operators/farm_ops.py:160
+msgctxt "Operator"
+msgid "Kill"
+msgstr "终止"
+
+#: panels/farm_panel.py:143
+msgctxt "Operator"
+msgid "Kill farm"
+msgstr "终止渲染农场"
+
+#: panels/farm_panel.py:866
+msgctxt "Operator"
+msgid "Kill this worker"
+msgstr "终止此工作机"
+
+#: operators/farm_ops.py:869
+msgctxt "Operator"
+msgid "Kill this worker."
+msgstr "终止此工作机。"
+
+#: operators/farm_ops.py:209
+msgctxt "Operator"
+msgid "Launch"
+msgstr "启动"
+
+#: menus/top_bar.py:162
+#: menus/top_bar.py:178
+msgctxt "Operator"
+msgid "Launch farm"
+msgstr "启动渲染农场"
+
+#: operators/farm_ops.py:210
+msgctxt "Operator"
+msgid "Launch the farm and become its monitor"
+msgstr "启动渲染农场并成为其监视器"
+
+#: menus/top_bar.py:122
+#: panels/file_panel.py:107
+msgctxt "Operator"
+msgid "Mark as stable"
+msgstr "标记为稳定版"
+
+#: menus/button_context.py:62
+msgctxt "Operator"
+msgid "Mark done"
+msgstr "标记为已完成"
+
+#: operators/tracking_ops.py:639
+msgctxt "Operator"
+msgid "Mark this todo/RTK entry as done, or undo that."
+msgstr "将此待办/RTK 条目标记为已完成，或撤销该标记。"
+
+#: operators/tracking_ops.py:1616
+msgctxt "Operator"
+msgid "Mark/unmark this department as done (no new stable version needed)."
+msgstr "将本部门标记为已完成/取消完成（无需新的稳定版本）。"
+
+#: operators/tracking_ops.py:1589
+msgctxt "Operator"
+msgid "Mark/unmark this department as worked on during this session."
+msgstr "将本部门标记为本次会话中已处理/取消该标记。"
+
+#: operators/log_ops.py:121
+msgctxt "Operator"
+msgid "Move the current pipeline log into config/logs/archives/ now, as it is once it reaches 5 MB: the log starts again empty. Nothing is deleted"
+msgstr "立即将当前流程日志移到 config/logs/archives/，与日志达到 5 MB 时的处理相同：日志将重新开始为空。不会删除任何内容"
+
+#: operators/farm_ops.py:1055
+msgctxt "Operator"
+msgid "Move this job's file and logs to queue/archives/."
+msgstr "将此任务的文件和日志移到 queue/archives/。"
+
+#: menus/top_bar.py:94
+#: operators/asset_ops.py:51
+msgctxt "Operator"
+msgid "New asset"
+msgstr "新建资产"
+
+#: operators/tracking_ops.py:183
+msgctxt "Operator"
+msgid "New entry"
+msgstr "新建条目"
+
+#: operators/tracking_ops.py:148
+#: operators/tracking_ops.py:325
+msgctxt "Operator"
+msgid "New line"
+msgstr "新建行"
+
+#: menus/top_bar.py:80
+#: panels/monitoring_panel.py:215
+msgctxt "Operator"
+msgid "New project"
+msgstr "新建项目"
+
+#: menus/top_bar.py:95
+#: operators/shot_ops.py:308
+msgctxt "Operator"
+msgid "New shot"
+msgstr "新建镜头"
+
+#: lib/operators.py:470
+msgctxt "Operator"
+msgid "Open Folder"
+msgstr "打开文件夹"
+
+#: operators/tracking_ops.py:1490
+msgctxt "Operator"
+msgid "Open a window listing every file of the project with its tracking status. It stays open, resizable, while you work.\nCtrl+click: the open file's details"
+msgstr "打开一个窗口，列出项目的每个文件及其跟踪状态。窗口保持打开、可调整大小，不影响你继续工作。\nCtrl+点击：打开文件的详细信息"
+
+#: operators/farm_ops.py:1311
+msgctxt "Operator"
+msgid "Open a window with the farm's jobs and machines. It stays open, resizable, while you work"
+msgstr "打开一个窗口，显示渲染农场的任务和机器。窗口保持打开、可调整大小，不影响你继续工作"
+
+#: operators/log_ops.py:74
+msgctxt "Operator"
+msgid "Open a window with the project's pipeline log, filterable by level, action and user. It stays open, resizable, while you work"
+msgstr "打开一个窗口，显示项目的流程日志，可按级别、操作和用户筛选。窗口保持打开、可调整大小，不影响你继续工作"
+
+#: operators/browser_ops.py:36
+#: operators/browser_ops.py:161
+msgctxt "Operator"
+msgid "Open an asset or shot from the active project."
+msgstr "从当前项目打开资产或镜头。"
+
+#: menus/top_bar.py:90
+#: panels/project_panel.py:100
+msgctxt "Operator"
+msgid "Open file"
+msgstr "打开文件"
+
+#: menus/button_context.py:44
+msgctxt "Operator"
+msgid "Open file folder"
+msgstr "打开文件所在文件夹"
+
+#: panels/file_panel.py:173
+#: panels/project_panel.py:105
+msgctxt "Operator"
+msgid "Open folder"
+msgstr "打开文件夹"
+
+#: menus/button_context.py:101
+msgctxt "Operator"
+msgid "Open job file"
+msgstr "打开任务文件"
+
+#: operators/browser_ops.py:35
+#: operators/browser_ops.py:160
+msgctxt "Operator"
+msgid "Open project file"
+msgstr "打开项目文件"
+
+#: menus/top_bar.py:143
+msgctxt "Operator"
+msgid "Open project folder"
+msgstr "打开项目文件夹"
+
+#: menus/button_context.py:42
+#: menus/button_context.py:95
+msgctxt "Operator"
+msgid "Open render folder"
+msgstr "打开渲染文件夹"
+
+#: lib/operators.py:471
+msgctxt "Operator"
+msgid "Open this folder in the system's file browser"
+msgstr "在系统文件浏览器中打开此文件夹"
+
+#: lib/operators.py:31
+msgctxt "Operator"
+msgid "Pipeline"
+msgstr "流程"
+
+#: operators/log_ops.py:73
+msgctxt "Operator"
+msgid "Pipeline log"
+msgstr "流程日志"
+
+#: panels/file_panel.py:144
+msgctxt "Operator"
+msgid "Preview block"
+msgstr "预览块"
+
+#: panels/file_panel.py:152
+msgctxt "Operator"
+msgid "Preview sequence"
+msgstr "预览序列"
+
+#: operators/tracking_ops.py:1489
+#: panels/project_panel.py:122
+msgctxt "Operator"
+msgid "Project monitoring"
+msgstr "项目监视"
+
+#: menus/top_bar.py:140
+msgctxt "Operator"
+msgid "Project settings"
+msgstr "项目设置"
+
+#: operators/rushes_ops.py:92
+#: panels/project_panel.py:115
+msgctxt "Operator"
+msgid "Push rushes to editing"
+msgstr "将样片推送到剪辑"
+
+#: operators/tracking_ops.py:1347
+msgctxt "Operator"
+msgid "Re-scan the project's tracking data. The monitoring view otherwise shows what was found when it opened -- a full scan costs seconds on a network share, too much for every redraw."
+msgstr "重新扫描项目的跟踪数据。否则监视视图只显示打开时找到的内容——在网络共享上完整扫描要花费数秒，每次重绘都做代价太大。"
+
+#: operators/log_ops.py:109
+msgctxt "Operator"
+msgid "Read the pipeline log again (F5)."
+msgstr "重新读取流程日志（F5）。"
+
+#: operators/farm_ops.py:1179
+#: panels/farm_panel.py:1113
+msgctxt "Operator"
+msgid "Recompile"
+msgstr "重新编译"
+
+#: operators/monitoring_ops.py:160
+#: operators/tracking_ops.py:1346
+msgctxt "Operator"
+msgid "Refresh"
+msgstr "刷新"
+
+#: operators/farm_ops.py:853
+msgctxt "Operator"
+msgid "Register this computer as a farm worker for the active project."
+msgstr "将此计算机注册为当前项目的渲染农场工作机。"
+
+#: menus/button_context.py:88
+#: operators/farm_ops.py:1076
+msgctxt "Operator"
+msgid "Remove from queue"
+msgstr "从队列移除"
+
+#: operators/shot_ops.py:65
+#: operators/tracking_ops.py:169
+msgctxt "Operator"
+msgid "Remove line"
+msgstr "移除行"
+
+#: operators/farm_ops.py:870
+msgctxt "Operator"
+msgid "Remove this computer's worker registration."
+msgstr "移除此计算机的工作机注册。"
+
+#: operators/project_ops.py:382
+msgctxt "Operator"
+msgid "Remove this project from your list."
+msgstr "从列表中移除此项目。"
+
+#: menus/top_bar.py:153
+#: operators/farm_ops.py:342
+msgctxt "Operator"
+msgid "Render"
+msgstr "渲染"
+
+#: menus/top_bar.py:127
+msgctxt "Operator"
+msgid "Render this file"
+msgstr "渲染此文件"
+
+#: menus/button_context.py:62
+msgctxt "Operator"
+msgid "Reopen"
+msgstr "重新打开"
+
+#: menus/button_context.py:57
+msgctxt "Operator"
+msgid "Reply"
+msgstr "回复"
+
+#: menus/button_context.py:93
+#: operators/farm_ops.py:1138
+msgctxt "Operator"
+msgid "Retry"
+msgstr "重试"
+
+#: operators/farm_ops.py:1139
+msgctxt "Operator"
+msgid "Run this job again from the stage that failed: same output folder, frames and preset (no new version). A render keeps the frames already rendered."
+msgstr "从失败的阶段重新运行此任务：相同的输出文件夹、帧和预设（不生成新版本）。渲染会保留已渲染的帧。"
+
+#: menus/top_bar.py:116
+#: operators/project_ops.py:1005
+msgctxt "Operator"
+msgid "Save"
+msgstr "保存"
+
+#: lib/saving.py:118
+msgctxt "Operator"
+msgid "Save Incremental (pipeline)"
+msgstr "增量保存（流程）"
+
+#: lib/saving.py:141
+msgctxt "Operator"
+msgid "Save Mainfile safely"
+msgstr "安全保存主文件"
+
+#: operators/file_ops.py:65
+msgctxt "Operator"
+msgid "Save current file as next version."
+msgstr "将当前文件保存为下一版本。"
+
+#: operators/project_ops.py:254
+msgctxt "Operator"
+msgid "Select a folder containing a pipeline config."
+msgstr "选择包含流程配置的文件夹。"
+
+#: operators/farm_ops.py:1224
+msgctxt "Operator"
+msgid "Show this job's details."
+msgstr "显示此任务的详细信息。"
+
+#: operators/farm_ops.py:1251
+msgctxt "Operator"
+msgid "Show this worker's details: versions, active since, renders done..."
+msgstr "显示此工作机的详细信息：版本、启用时间、已完成渲染…"
+
+#: menus/top_bar.py:104
+#: panels/project_panel.py:135
+msgctxt "Operator"
+msgid "Snapshot"
+msgstr "快照"
+
+#: panels/farm_panel.py:683
+msgctxt "Operator"
+msgid "Stop"
+msgstr "停止"
+
+#: menus/top_bar.py:170
+#: menus/top_bar.py:184
+msgctxt "Operator"
+msgid "Stop farm"
+msgstr "停止农场"
+
+#: operators/farm_ops.py:161
+msgctxt "Operator"
+msgid "Stop the current farm monitor so someone else can take over"
+msgstr "停止当前农场监视器，以便他人接手"
+
+#: operators/farm_ops.py:923
+msgctxt "Operator"
+msgid "Stop this machine's worker. If it's rendering, choose whether its render is interrupted or writes its frame in progress first."
+msgstr "停止此机器的工作机。若正在渲染，可选择中断渲染或先写入进行中的帧。"
+
+#: menus/top_bar.py:191
+#: panels/farm_panel.py:171
+msgctxt "Operator"
+msgid "Stop this worker"
+msgstr "停止此工作机"
+
+#: operators/farm_ops.py:922
+msgctxt "Operator"
+msgid "Stop worker"
+msgstr "停止工作机"
+
+#: operators/farm_ops.py:343
+msgctxt "Operator"
+msgid "Submit this file (or the pending list) to the render farm queue."
+msgstr "将此文件（或待处理列表）提交到渲染农场队列。"
+
+#: operators/monitoring_ops.py:116
+msgctxt "Operator"
+msgid "Switch view"
+msgstr "切换视图"
+
+#: operators/farm_ops.py:1077
+msgctxt "Operator"
+msgid "Take this job out of the queue: nothing of it rendered yet."
+msgstr "将此任务移出队列：尚未渲染任何内容。"
+
+#: operators/farm_ops.py:987
+msgctxt "Operator"
+msgid "This machine's worker has been silent for a while (crashed, Blender closed, machine asleep or off the share): remove it from the list. It shows again as soon as its worker is relaunched."
+msgstr "此机器的工作机已静默一段时间（崩溃、Blender 已关闭、机器休眠或离线共享）：将其从列表中移除。工作机重新启动后会再次显示。"
+
+#: operators/tracking_ops.py:1615
+msgctxt "Operator"
+msgid "Toggle department done"
+msgstr "切换部门完成状态"
+
+#: operators/tracking_ops.py:1652
+msgctxt "Operator"
+msgid "Toggle department validation"
+msgstr "切换部门验证状态"
+
+#: operators/tracking_ops.py:1588
+msgctxt "Operator"
+msgid "Toggle department worked"
+msgstr "切换部门工作状态"
+
+#: menus/top_bar.py:101
+msgctxt "Operator"
+msgid "Tracking monitor"
+msgstr "跟踪监视器"
+
+#: panels/tracking_panel.py:1123
+msgctxt "Operator"
+msgid "Unknown"
+msgstr "未知"
+
+#: operators/project_ops.py:357
+msgctxt "Operator"
+msgid "Unset active project"
+msgstr "取消设置活动项目"
+
+#: lib/operators.py:210
+msgctxt "Operator"
+msgid "Welcome"
+msgstr "欢迎"
+
+#: addon_data.py:169
+#: panels/project_panel.py:153
+msgctxt "Operator"
+msgid "What this addon does"
+msgstr "此插件的作用"
+
+#: operators/tracking_ops.py:1036
+msgctxt "Operator"
+msgid "Write one HTML file showing every asset/shot's status and open notes, readable offline without Blender, with a review spreadsheet inside to send back"
+msgstr "生成一个 HTML 文件，展示每个资产/镜头的状态和公开备注，无需 Blender 即可离线阅读，内含可回传的审核表格"
+
+#: panels/logs_panel.py:170
+msgctxt "Operator"
+msgid "_short"
+msgstr "_short"
+
+#: panels/farm_panel.py:1333
+msgctxt "Operator"
+msgid "farm host"
+msgstr "农场主机"

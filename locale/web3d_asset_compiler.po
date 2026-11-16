@@ -1,0 +1,1780 @@
+# perfect-chinese: 1
+# id: web3d_asset_compiler
+# kind: addon
+# module: bl_ext.blender_org.web3d_asset_compiler
+# name: Web3D Asset Compiler
+# name_zh: 网页三维资产编译
+# translator: KeshiMiao
+# category: Import-Export
+# supported_versions: >=5.1.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: baking/properties.py:171
+msgid "(RECOMMENDED) Angle-based automatic unwrap. Guarantees NO overlaps."
+msgstr "（推荐）基于角度的自动展开。保证无重叠。"
+
+#: baking/properties.py:293
+msgid "+X"
+msgstr "+X"
+
+#: baking/properties.py:294
+msgid "+Y"
+msgstr "+Y"
+
+#: baking/properties.py:295
+msgid "+Z"
+msgstr "+Z"
+
+#: baking/properties.py:293
+msgid "-X"
+msgstr "-X"
+
+#: baking/properties.py:294
+msgid "-Y"
+msgstr "-Y"
+
+#: baking/properties.py:295
+msgid "-Z"
+msgstr "-Z"
+
+#: exporter/properties.py:131
+msgid ".glb (Binary)"
+msgstr ".glb（二进制）"
+
+#: exporter/properties.py:133
+msgid ".gltf (Embedded)"
+msgstr ".gltf（内嵌）"
+
+#: exporter/properties.py:132
+msgid ".gltf (Separate)"
+msgstr ".gltf（分离）"
+
+#: baking/properties.py:79
+msgid "1K (1024)"
+msgstr "1K（1024）"
+
+#: baking/properties.py:80
+msgid "2K (2048)"
+msgstr "2K（2048）"
+
+#: baking/properties.py:126
+msgid "32-bit Float (HDR)"
+msgstr "32 位浮点（HDR）"
+
+#: baking/properties.py:81
+msgid "4K (4096)"
+msgstr "4K（4096）"
+
+#: baking/properties.py:78
+msgid "512 × 512"
+msgstr "512 × 512"
+
+#: baking/properties.py:82
+msgid "8K (8192)"
+msgstr "8K（8192）"
+
+#: baking/properties.py:263
+msgid "AMD GPU"
+msgstr "AMD GPU"
+
+#: baking/properties.py:55
+msgid "AO pass"
+msgstr "AO 通道"
+
+#: baking/properties.py:221
+msgid "Accurate concave hull (tightest fit)"
+msgstr "精确凹包（最紧密贴合）"
+
+#: baking/properties.py:337
+msgid "Achieved Gutter (px)"
+msgstr "实际边距（像素）"
+
+#: exporter/properties.py:44
+msgid "Active Actions"
+msgstr "活动动作"
+
+#: baking/properties.py:269
+msgid "Active Device"
+msgstr "活动设备"
+
+#: baking/properties.py:44
+msgid "Active Only"
+msgstr "仅活动"
+
+#: baking/properties.py:239
+msgid "Adjacent Faces"
+msgstr "相邻面"
+
+#: ui/sidebar.py:776
+msgid "Advanced and Utilities"
+msgstr "高级与实用工具"
+
+#: baking/properties.py:205
+msgid "Align islands to their principal axes"
+msgstr "将孤岛对齐到其主轴"
+
+#: exporter/properties.py:43
+msgid "All Actions"
+msgstr "所有动作"
+
+#: baking/properties.py:43
+msgid "All Selected"
+msgstr "所有选中项"
+
+#: baking/properties.py:45
+msgid "All Visible"
+msgstr "所有可见项"
+
+#: baking/properties.py:136
+msgid "All objects share one UV-packed image"
+msgstr "所有物体共享一张 UV 打包图像"
+
+#: baking/properties.py:54
+msgid "All passes combined"
+msgstr "合并所有通道"
+
+#: exporter/properties.py:149
+msgid "Allow >4 Bone Influences"
+msgstr "允许超过 4 个骨骼影响"
+
+#: baking/properties.py:200
+msgid "Allow Rotation"
+msgstr "允许旋转"
+
+#: exporter/properties.py:149
+msgid "Allow more than 4 bone weights per vertex"
+msgstr "允许每个顶点超过 4 个骨骼权重"
+
+#: baking/properties.py:55
+msgid "Ambient Occlusion"
+msgstr "环境光遮蔽"
+
+#: baking/properties.py:181
+msgid "Angle Limit"
+msgstr "角度限制"
+
+#: ui/sidebar.py:632
+msgid "Animation Export"
+msgstr "动画导出"
+
+#: ui/sidebar.py:652
+msgid "Animation Optimization"
+msgstr "动画优化"
+
+#: exporter/properties.py:40
+msgid "Animations"
+msgstr "动画"
+
+#: baking/properties.py:204
+msgid "Any Angle"
+msgstr "任意角度"
+
+#: baking/properties.py:265
+msgid "Apple GPU"
+msgstr "Apple GPU"
+
+#: baking/properties.py:358
+msgid "Apply Mode"
+msgstr "应用模式"
+
+#: exporter/properties.py:50
+msgid "Apply Modifiers"
+msgstr "应用修改器"
+
+#: baking/properties.py:144
+#: ui/sidebar.py:442
+msgid "Atlas Count"
+msgstr "图集数量"
+
+#: baking/properties.py:260
+msgid "Auto"
+msgstr "自动"
+
+#: baking/properties.py:361
+msgid "Auto (by Bake Type)"
+msgstr "自动（按烘焙类型）"
+
+#: baking/properties.py:324
+msgid "Auto Clean Bake Nodes"
+msgstr "自动清理烘焙节点"
+
+#: baking/properties.py:161
+msgid "Auto Create UV Layer"
+msgstr "自动创建 UV 层"
+
+#: baking/properties.py:321
+msgid "Auto Save After Bake"
+msgstr "烘焙后自动保存"
+
+#: baking/properties.py:172
+msgid "Auto Seam Unwrap"
+msgstr "自动接缝展开"
+
+#: baking/properties.py:248
+msgid "Auto Switch to Cycles"
+msgstr "自动切换到 Cycles"
+
+#: baking/properties.py:137
+msgid "Auto Tiles"
+msgstr "自动平铺"
+
+#: baking/properties.py:370
+msgid "Auto-Rename Objects"
+msgstr "自动重命名物体"
+
+#: baking/properties.py:172
+msgid "Auto-marks seams at sharp edges, keeps smooth curves together."
+msgstr "在锐边自动标记接缝，保持平滑曲线相连。"
+
+#: baking/properties.py:137
+msgid "Auto-split across multiple images for quality"
+msgstr "为保证质量自动拆分到多张图像"
+
+#: exporter/properties.py:61
+msgid "Automatic"
+msgstr "自动"
+
+#: baking/properties.py:205
+msgid "Axis Aligned"
+msgstr "轴对齐"
+
+#: baking/properties.py:293
+msgid "Axis X"
+msgstr "X 轴"
+
+#: baking/properties.py:294
+msgid "Axis Y"
+msgstr "Y 轴"
+
+#: baking/properties.py:295
+msgid "Axis Z"
+msgstr "Z 轴"
+
+#: baking/properties.py:223
+msgid "Axis-aligned bounding box"
+msgstr "轴对齐包围盒"
+
+#: baking/properties.py:112
+msgid "B44"
+msgstr "B44"
+
+#: baking/properties.py:113
+msgid "B44A"
+msgstr "B44A"
+
+#: ui/sidebar.py:749
+msgid "Bake"
+msgstr "烘焙"
+
+#: baking/properties.py:326
+msgid "Bake Cancelled"
+msgstr "烘焙已取消"
+
+#: ui/sidebar.py:423
+msgid "Bake Output"
+msgstr "烘焙输出"
+
+#: baking/properties.py:51
+#: ui/sidebar.py:397
+msgid "Bake Type"
+msgstr "烘焙类型"
+
+#: baking/properties.py:296
+msgid "Bake a Normal map from an object's Multiresolution modifier"
+msgstr "从物体的多级精度修改器烘焙法线贴图"
+
+#: baking/properties.py:45
+msgid "Bake all visible meshes in scene"
+msgstr "烘焙场景中所有可见网格"
+
+#: baking/pipeline.py:2360
+msgid "Bake cancelled by user."
+msgstr "用户取消了烘焙。"
+
+#: ui/operators.py:107
+msgid "Bake completed, but export failed or was cancelled."
+msgstr "烘焙完成，但导出失败或被取消。"
+
+#: exporter/properties.py:159
+msgid "Bake constraints and final dependency-graph pose"
+msgstr "烘焙约束和最终依赖图姿态"
+
+#: baking/properties.py:305
+msgid "Bake directly to mesh vertex colors"
+msgstr "直接烘焙到网格顶点颜色"
+
+#: baking/properties.py:43
+msgid "Bake every selected mesh"
+msgstr "烘焙每个选中的网格"
+
+#: baking/properties.py:296
+msgid "Bake from Multires"
+msgstr "从多级精度烘焙"
+
+#: baking/properties.py:44
+msgid "Bake only the active object"
+msgstr "仅烘焙活动物体"
+
+#: baking/properties.py:304
+msgid "Bake to image textures"
+msgstr "烘焙到图像纹理"
+
+#: baking/properties.py:252
+msgid "Bake with a supported graphics card"
+msgstr "使用受支持的显卡烘焙"
+
+#: baking/properties.py:253
+msgid "Bake with the processor"
+msgstr "使用处理器烘焙"
+
+#: ui/sidebar.py:684
+msgid "Baked Material View"
+msgstr "烘焙材质视图"
+
+#: baking/properties.py:325
+msgid "Baked View"
+msgstr "烘焙视图"
+
+#: baking/properties.py:363
+msgid "Base Color"
+msgstr "基础色"
+
+#: baking/properties.py:223
+msgid "Bounding Box"
+msgstr "包围盒"
+
+#: baking/properties.py:352
+msgid "Build Running"
+msgstr "构建运行中"
+
+#: baking/properties.py:253
+msgid "CPU"
+msgstr "CPU"
+
+#: baking/properties.py:262
+msgid "CUDA"
+msgstr "CUDA"
+
+#: baking/properties.py:273
+msgid "Cage Extrusion"
+msgstr "笼体挤出"
+
+#: baking/properties.py:276
+msgid "Cage Object"
+msgstr "笼体物体"
+
+#: baking/properties.py:331
+msgid "Cancel Requested"
+msgstr "已请求取消"
+
+#: ui/operators.py:134
+msgid "Cancelling at the next step…"
+msgstr "将在下一步取消…"
+
+#: ui/sidebar.py:456
+msgid "Channels"
+msgstr "通道"
+
+#: ui/sidebar.py:297
+msgid "Choose Optimization Preset"
+msgstr "选择优化预设"
+
+#: ui/sidebar.py:702
+msgid "Cleanup"
+msgstr "清理"
+
+#: baking/properties.py:244
+msgid "Clear Before Bake"
+msgstr "烘焙前清除"
+
+#: baking/properties.py:185
+msgid "Clear old seams and recalculate fresh auto seams when previewing or setting up UVs"
+msgstr "预览或设置 UV 时清除旧接缝并重新计算新的自动接缝"
+
+#: baking/properties.py:138
+msgid "Collection Atlases"
+msgstr "集合图集"
+
+#: baking/properties.py:149
+#: ui/sidebar.py:441
+msgid "Collection Prefix"
+msgstr "集合前缀"
+
+#: baking/properties.py:72
+msgid "Color"
+msgstr "颜色"
+
+#: baking/properties.py:305
+msgid "Color Attributes"
+msgstr "颜色属性"
+
+#: exporter/properties.py:94
+msgid "Color Bits"
+msgstr "颜色位数"
+
+#: baking/properties.py:118
+msgid "Color Mode"
+msgstr "颜色模式"
+
+#: baking/operators.py:555
+msgid "Color attribute bakes are stored on the mesh and saved with the blend file."
+msgstr "颜色属性烘焙存储在网格上，并随 blend 文件保存。"
+
+#: baking/properties.py:54
+msgid "Combined"
+msgstr "组合"
+
+#: exporter/properties.py:120
+msgid "Comma-separated Action names to skip"
+msgstr "要跳过的动作名称，以逗号分隔"
+
+#: ui/sidebar.py:309
+msgid "Compiler properties are not registered"
+msgstr "编译器属性未注册"
+
+#: exporter/properties.py:78
+msgid "Compress final GLB mesh data with Draco"
+msgstr "使用 Draco 压缩最终 GLB 网格数据"
+
+#: exporter/properties.py:82
+msgid "Compression Level"
+msgstr "压缩级别"
+
+#: baking/properties.py:249
+msgid "Compute Device"
+msgstr "计算设备"
+
+#: baking/properties.py:221
+msgid "Concave"
+msgstr "凹面"
+
+#: exporter/properties.py:62
+msgid "Convert exported images to JPEG"
+msgstr "将导出的图像转换为 JPEG"
+
+#: exporter/properties.py:63
+msgid "Convert exported images to WebP"
+msgstr "将导出的图像转换为 WebP"
+
+#: baking/properties.py:222
+msgid "Convex"
+msgstr "凸面"
+
+#: baking/properties.py:222
+msgid "Convex hull (faster, slightly larger)"
+msgstr "凸包（更快，稍大）"
+
+#: baking/properties.py:173
+msgid "Cube Project"
+msgstr "立方体投影"
+
+#: baking/properties.py:183
+msgid "Cube Size"
+msgstr "立方体尺寸"
+
+#: baking/properties.py:83
+msgid "Custom"
+msgstr "自定义"
+
+#: exporter/properties.py:73
+msgid "Custom Properties"
+msgstr "自定义属性"
+
+#: baking/properties.py:276
+msgid "Custom cage mesh object"
+msgstr "自定义笼体网格物体"
+
+#: baking/properties.py:114
+msgid "DWAA"
+msgstr "DWAA"
+
+#: exporter/properties.py:125
+msgid "Decimal Precision"
+msgstr "小数精度"
+
+#: baking/properties.py:279
+msgid "Denoise Baked Textures"
+msgstr "烘焙纹理降噪"
+
+#: ui/sidebar.py:575
+msgid "Destination"
+msgstr "目标位置"
+
+#: baking/properties.py:56
+msgid "Diffuse"
+msgstr "漫射"
+
+#: baking/properties.py:56
+msgid "Diffuse color + lighting"
+msgstr "漫射颜色 + 光照"
+
+#: baking/properties.py:70
+msgid "Direct"
+msgstr "直接"
+
+#: exporter/properties.py:64
+msgid "Do not export image data"
+msgstr "不导出图像数据"
+
+#: exporter/properties.py:142
+msgid "Do not export materials"
+msgstr "不导出材质"
+
+#: exporter/properties.py:78
+msgid "Draco"
+msgstr "Draco"
+
+#: baking/properties.py:96
+msgid "EXR (HDR, 32-bit)"
+msgstr "EXR（HDR，32 位）"
+
+#: baking/properties.py:103
+msgid "EXR Codec"
+msgstr "EXR 编码"
+
+#: baking/properties.py:97
+msgid "EXR Multi-Layer"
+msgstr "EXR 多图层"
+
+#: baking/properties.py:190
+msgid "Edges sharper than this angle become seams."
+msgstr "夹角大于此值的边将成为接缝。"
+
+#: baking/properties.py:61
+#: baking/properties.py:362
+msgid "Emission"
+msgstr "自发光"
+
+#: baking/properties.py:361
+msgid "Emission for Combined/Diffuse, Base Color for others"
+msgstr "合并/漫射使用自发光，其他使用基础色"
+
+#: baking/properties.py:61
+msgid "Emit"
+msgstr "发射"
+
+#: baking/pipeline.py:2386
+msgid "Enable at least one Direct, Indirect, or Color pass."
+msgstr "请至少启用一个直接、间接或颜色通道。"
+
+#: exporter/properties.py:36
+msgid "Entire Scene"
+msgstr "整个场景"
+
+#: baking/properties.py:62
+msgid "Environment"
+msgstr "环境"
+
+#: baking/properties.py:62
+msgid "Environment lighting"
+msgstr "环境光照"
+
+#: baking/properties.py:175
+msgid "Every face gets its own island. Good density, but tiny faces for curves."
+msgstr "每个面生成独立孤岛。密度良好，但曲线上的面会很小。"
+
+#: exporter/properties.py:120
+msgid "Exclude Actions"
+msgstr "排除动作"
+
+#: ui/sidebar.py:767
+msgid "Export"
+msgstr "导出"
+
+#: exporter/properties.py:119
+msgid "Export All Actions"
+msgstr "导出所有动作"
+
+#: exporter/properties.py:128
+msgid "Export Format"
+msgstr "导出格式"
+
+#: exporter/properties.py:147
+msgid "Export KHR_lights_punctual (Point, Sun, Spot)"
+msgstr "导出 KHR_lights_punctual（点光、日光、聚光）"
+
+#: exporter/properties.py:140
+msgid "Export Materials"
+msgstr "导出材质"
+
+#: exporter/properties.py:151
+msgid "Export Mesh Attributes"
+msgstr "导出网格属性"
+
+#: exporter/properties.py:155
+msgid "Export NLA Track Strips"
+msgstr "导出 NLA 轨道片段"
+
+#: exporter/properties.py:155
+msgid "Export NLA tracks and combined strips"
+msgstr "导出 NLA 轨道与合并片段"
+
+#: exporter/properties.py:140
+msgid "Export PBR materials and textures"
+msgstr "导出 PBR 材质与纹理"
+
+#: exporter/properties.py:72
+msgid "Export Tangents"
+msgstr "导出切线"
+
+#: exporter/properties.py:44
+msgid "Export active actions only"
+msgstr "仅导出活动动作"
+
+#: exporter/properties.py:148
+msgid "Export bone armatures and skin weights"
+msgstr "导出骨骼骨架与蒙皮权重"
+
+#: exporter/properties.py:18
+msgid "Export character.glb, every current Action, manifest, and binary files directly into output folder"
+msgstr "将 character.glb、所有当前动作、清单和二进制文件直接导出到输出文件夹"
+
+#: exporter/properties.py:43
+msgid "Export compatible actions as separate clips"
+msgstr "将兼容的动作导出为独立片段"
+
+#: exporter/properties.py:151
+msgid "Export custom geometry mesh attributes"
+msgstr "导出自定义几何网格属性"
+
+#: exporter/properties.py:50
+msgid "Export evaluated mesh with visible modifiers applied; keep disabled when editable shape keys must be preserved"
+msgstr "导出应用可见修改器后的求值网格；需保留可编辑形态键时请保持禁用"
+
+#: exporter/properties.py:141
+msgid "Export material slots only"
+msgstr "仅导出材质槽"
+
+#: exporter/properties.py:45
+msgid "Export non-muted NLA tracks as clips"
+msgstr "将未静音的 NLA 轨道导出为片段"
+
+#: exporter/properties.py:146
+msgid "Export perspective/orthographic cameras"
+msgstr "导出透视/正交相机"
+
+#: exporter/properties.py:35
+msgid "Export selected objects and required rigs"
+msgstr "导出选中物体及所需绑定"
+
+#: exporter/properties.py:36
+msgid "Export the complete scene"
+msgstr "导出完整场景"
+
+#: exporter/properties.py:46
+msgid "Export the scene timeline as one animation"
+msgstr "将场景时间线导出为一个动画"
+
+#: exporter/properties.py:77
+msgid "Export uncompressed mesh data"
+msgstr "导出未压缩的网格数据"
+
+#: exporter/properties.py:150
+msgid "Export using WebGL standard Y-Up coordinate space"
+msgstr "使用 WebGL 标准 Y 轴向上坐标空间导出"
+
+#: baking/properties.py:240
+msgid "Extend"
+msgstr "扩展"
+
+#: baking/properties.py:320
+msgid "Filename Prefix"
+msgstr "文件名前缀"
+
+#: baking/properties.py:91
+msgid "Format"
+msgstr "格式"
+
+#: exporter/properties.py:153
+msgid "Frame Step"
+msgstr "帧步长"
+
+#: baking/properties.py:204
+msgid "Fully free rotation for maximum density"
+msgstr "完全自由旋转以获得最大密度"
+
+#: baking/properties.py:252
+msgid "GPU"
+msgstr "GPU"
+
+#: baking/properties.py:257
+msgid "GPU Backend"
+msgstr "GPU 后端"
+
+#: exporter/properties.py:97
+msgid "Generic Bits"
+msgstr "通用位深"
+
+#: ui/sidebar.py:584
+msgid "Geometry and Materials"
+msgstr "几何与材质"
+
+#: baking/properties.py:57
+msgid "Glossy"
+msgstr "光泽"
+
+#: baking/properties.py:57
+msgid "Glossy reflections"
+msgstr "光泽反射"
+
+#: baking/properties.py:173
+msgid "Good for simple architecture, but can cause overlapping on complex connected geometry."
+msgstr "适合简单建筑，但在复杂相连几何体上可能导致重叠。"
+
+#: baking/pipeline.py:1903
+msgid "Group to Collections only works in Auto Tiles mode."
+msgstr "分组到集合仅在自动拼贴模式下有效。"
+
+#: ui/sidebar.py:526
+msgid "Gutter (px)"
+msgstr "边距（像素）"
+
+#: baking/properties.py:337
+msgid "Gutter the last UV pack actually achieved, in pixels"
+msgstr "上次 UV 展开实际达到的边距（像素）"
+
+#: baking/properties.py:263
+msgid "HIP"
+msgstr "HIP"
+
+#: baking/properties.py:88
+#: ui/sidebar.py:452
+msgid "Height"
+msgstr "高度"
+
+#: baking/properties.py:133
+msgid "How bake images are organized"
+msgstr "烘焙图像的组织方式"
+
+#: baking/properties.py:168
+msgid "How to generate UVs for the bake layer"
+msgstr "如何为烘焙层生成 UV"
+
+#: exporter/properties.py:58
+msgid "Image Format"
+msgstr "图像格式"
+
+#: ui/sidebar.py:433
+msgid "Image Layout"
+msgstr "图像布局"
+
+#: baking/properties.py:133
+msgid "Image Mode"
+msgstr "图像模式"
+
+#: exporter/properties.py:68
+msgid "Image Quality"
+msgstr "图像质量"
+
+#: baking/properties.py:212
+msgid "Image Texture Boost"
+msgstr "图像纹理增强"
+
+#: baking/properties.py:304
+msgid "Image Textures"
+msgstr "图像纹理"
+
+#: baking/operators.py:165
+msgid "Imported materials from JSON successfully."
+msgstr "已成功从 JSON 导入材质。"
+
+#: exporter/properties.py:148
+msgid "Include Armatures & Skins"
+msgstr "包含骨架与蒙皮"
+
+#: exporter/properties.py:146
+msgid "Include Cameras"
+msgstr "包含摄像机"
+
+#: exporter/properties.py:147
+msgid "Include Lights"
+msgstr "包含灯光"
+
+#: exporter/properties.py:55
+msgid "Include Materials"
+msgstr "包含材质"
+
+#: exporter/properties.py:56
+msgid "Include Shape Keys"
+msgstr "包含形态键"
+
+#: exporter/properties.py:57
+msgid "Include Textures"
+msgstr "包含纹理"
+
+#: exporter/properties.py:71
+msgid "Include Vertex Colors"
+msgstr "包含顶点颜色"
+
+#: baking/properties.py:122
+msgid "Include alpha"
+msgstr "包含 Alpha"
+
+#: baking/properties.py:71
+msgid "Indirect"
+msgstr "间接光"
+
+#: exporter/properties.py:115
+msgid "Int16 Quaternions"
+msgstr "Int16 四元数"
+
+#: baking/properties.py:264
+msgid "Intel GPU"
+msgstr "Intel GPU"
+
+#: baking/properties.py:331
+msgid "Internal: set by the Cancel button, checked between steps"
+msgstr "内部：由「取消」按钮设置，在步骤之间检查"
+
+#: baking/properties.py:352
+msgid "Internal: true while a build is in flight"
+msgstr "内部：构建进行中时为 true"
+
+#: baking/properties.py:182
+#: ui/sidebar.py:498
+msgid "Island Margin"
+msgstr "孤岛边距"
+
+#: ui/sidebar.py:519
+msgid "Island Packing"
+msgstr "孤岛排布"
+
+#: ui/sidebar.py:528
+msgid "Iterations"
+msgstr "迭代次数"
+
+#: baking/properties.py:95
+#: exporter/properties.py:62
+msgid "JPEG"
+msgstr "JPEG"
+
+#: baking/properties.py:367
+msgid "Keep Original Nodes"
+msgstr "保留原始节点"
+
+#: exporter/properties.py:61
+msgid "Keep compatible source formats"
+msgstr "保留兼容的源格式"
+
+#: baking/properties.py:176
+msgid "Keep current UVs, just set active layer"
+msgstr "保留当前 UV，仅设置活动层"
+
+#: baking/properties.py:313
+msgid "Keep images internal to .blend file"
+msgstr "将图像保留在 .blend 文件内部"
+
+#: baking/properties.py:313
+msgid "Keep in Blend File"
+msgstr "保留在 .blend 文件中"
+
+#: baking/properties.py:206
+msgid "Keep original orientation"
+msgstr "保留原始方向"
+
+#: baking/properties.py:196
+msgid "Lightmap Margin"
+msgstr "光照贴图边距"
+
+#: baking/properties.py:175
+msgid "Lightmap Pack"
+msgstr "光照贴图排布"
+
+#: exporter/properties.py:152
+msgid "Limit export to scene frame start/end"
+msgstr "将导出限定为场景帧起止范围"
+
+#: baking/properties.py:95
+msgid "Lossy, smallest files"
+msgstr "有损，文件最小"
+
+#: baking/properties.py:245
+msgid "Make Materials Unique"
+msgstr "使材质唯一"
+
+#: ui/sidebar.py:381
+msgid "Manual Pipeline"
+msgstr "手动流程"
+
+#: baking/properties.py:235
+msgid "Margin (px)"
+msgstr "边距（像素）"
+
+#: baking/properties.py:236
+msgid "Margin Type"
+msgstr "边距类型"
+
+#: exporter/properties.py:137
+msgid "Materials Mode"
+msgstr "材质模式"
+
+#: baking/properties.py:274
+msgid "Max Ray Distance"
+msgstr "最大光线距离"
+
+#: exporter/properties.py:74
+#: ui/sidebar.py:615
+msgid "Mesh Compression"
+msgstr "网格压缩"
+
+#: baking/properties.py:265
+msgid "Metal"
+msgstr "Metal"
+
+#: exporter/properties.py:28
+msgid "Model Filename"
+msgstr "模型文件名"
+
+#: exporter/properties.py:109
+msgid "Morph Error"
+msgstr "形变误差"
+
+#: baking/properties.py:97
+msgid "Multi-layer OpenEXR"
+msgstr "多层 OpenEXR"
+
+#: exporter/properties.py:45
+msgid "NLA Tracks"
+msgstr "NLA 轨道"
+
+#: baking/properties.py:262
+msgid "NVIDIA CUDA"
+msgstr "NVIDIA CUDA"
+
+#: baking/properties.py:261
+msgid "NVIDIA RTX/GTX"
+msgstr "NVIDIA RTX/GTX"
+
+#: baking/properties.py:214
+msgid "Nest Inside Hollow Centers"
+msgstr "在中空中心内嵌套"
+
+#: exporter/properties.py:64
+msgid "No Images"
+msgstr "无图像"
+
+#: exporter/properties.py:142
+msgid "No Materials"
+msgstr "无材质"
+
+#: baking/properties.py:206
+msgid "No Rotation"
+msgstr "不旋转"
+
+#: baking/properties.py:121
+msgid "No alpha"
+msgstr "无 Alpha"
+
+#: baking/pipeline.py:1980
+#: baking/pipeline.py:2015
+msgid "No materials found on objects."
+msgstr "物体上未找到材质。"
+
+#: baking/operators.py:767
+msgid "No objects with valid UV layers."
+msgstr "没有具有有效 UV 层的物体。"
+
+#: baking/pipeline.py:2009
+msgid "No scoped objects belong to an atlas collection."
+msgstr "没有范围内的物体属于图集集合。"
+
+#: baking/operators.py:179
+#: baking/operators.py:203
+msgid "No valid mesh objects in scope."
+msgstr "范围内没有有效的网格物体。"
+
+#: baking/properties.py:231
+msgid "Node Tag"
+msgstr "节点标签"
+
+#: exporter/properties.py:77
+msgid "None"
+msgstr "无"
+
+#: baking/properties.py:106
+msgid "None (Uncompressed)"
+msgstr "无（未压缩）"
+
+#: baking/properties.py:60
+msgid "Normal"
+msgstr "法线"
+
+#: exporter/properties.py:88
+msgid "Normal Bits"
+msgstr "法线位数"
+
+#: baking/properties.py:285
+msgid "Normal Space"
+msgstr "法线空间"
+
+#: baking/properties.py:60
+msgid "Normal map"
+msgstr "法线贴图"
+
+#: baking/properties.py:144
+msgid "Number of numbered collections to atlas (Prefix + 1 … Prefix + N)"
+msgstr "要图集化的编号集合数量（前缀 + 1 … 前缀 + N）"
+
+#: baking/properties.py:154
+msgid "Number of texture tiles for Auto Tiles mode"
+msgstr "自动平铺模式下的纹理分块数量"
+
+#: baking/properties.py:149
+msgid "Numbered collection prefix, for example Texture_Pack_ creates Texture_Pack_1, Texture_Pack_2, …"
+msgstr "编号集合前缀，例如 Texture_Pack_ 会创建 Texture_Pack_1、Texture_Pack_2、…"
+
+#: baking/properties.py:289
+msgid "Object Space"
+msgstr "物体空间"
+
+#: baking/pipeline.py:1831
+msgid "Object renaming by texture is unavailable for color attribute bakes."
+msgstr "颜色属性烘焙不支持按纹理重命名物体。"
+
+#: baking/pipeline.py:1840
+msgid "Object renaming is ambiguous in Per Material mode and was skipped."
+msgstr "按材质模式下物体重命名存在歧义，已跳过。"
+
+#: baking/properties.py:289
+msgid "Object space normal map"
+msgstr "物体空间法线贴图"
+
+#: baking/operators.py:977
+msgid "Objects move into the tile collections and leave their current collections (Ctrl+Z undoes this)."
+msgstr "物体会移入平铺集合并离开当前集合（Ctrl+Z 可撤销）。"
+
+#: baking/properties.py:139
+msgid "One image per material name"
+msgstr "每个材质名称一张图像"
+
+#: baking/properties.py:138
+msgid "One numbered atlas per collection (Texture_Pack_1, Texture_Pack_2, …)"
+msgstr "每个集合一个编号图集（Texture_Pack_1、Texture_Pack_2、…）"
+
+#: baking/properties.py:96
+msgid "OpenEXR full-float HDR — large files"
+msgstr "OpenEXR 全浮点 HDR — 文件较大"
+
+#: baking/properties.py:261
+msgid "OptiX"
+msgstr "OptiX"
+
+#: baking/properties.py:319
+#: exporter/properties.py:23
+msgid "Output Directory"
+msgstr "输出目录"
+
+#: baking/properties.py:110
+msgid "PIZ"
+msgstr "PIZ"
+
+#: baking/properties.py:94
+msgid "PNG (LDR)"
+msgstr "PNG（LDR）"
+
+#: baking/properties.py:111
+msgid "PXR24 (lossy)"
+msgstr "PXR24（有损）"
+
+#: baking/properties.py:199
+msgid "Pack Islands After Unwrap"
+msgstr "展开后打包孤岛"
+
+#: baking/properties.py:210
+msgid "Pack Margin (px)"
+msgstr "打包边距（像素）"
+
+#: baking/properties.py:213
+msgid "Pack Quality Iterations"
+msgstr "打包质量迭代次数"
+
+#: baking/properties.py:139
+msgid "Per Material"
+msgstr "按材质"
+
+#: exporter/properties.py:141
+msgid "Placeholder"
+msgstr "占位符"
+
+#: exporter/properties.py:18
+msgid "Portfolio One-Click Export"
+msgstr "作品集一键导出"
+
+#: exporter/properties.py:85
+msgid "Position Bits"
+msgstr "位置位数"
+
+#: exporter/properties.py:100
+msgid "Position Error"
+msgstr "位置误差"
+
+#: presets/operators.py:27
+msgid "Preset"
+msgstr "预设"
+
+#: baking/properties.py:195
+msgid "Quality"
+msgstr "质量"
+
+#: ui/sidebar.py:469
+msgid "Quality and Compute"
+msgstr "质量与计算"
+
+#: exporter/properties.py:114
+msgid "Quantize Animation Data"
+msgstr "量化动画数据"
+
+#: baking/properties.py:121
+msgid "RGB"
+msgstr "RGB"
+
+#: baking/properties.py:122
+msgid "RGBA"
+msgstr "RGBA"
+
+#: baking/properties.py:109
+msgid "RLE"
+msgstr "RLE"
+
+#: baking/properties.py:98
+msgid "Radiance HDR (.hdr)"
+msgstr "Radiance HDR (.hdr)"
+
+#: baking/properties.py:98
+msgid "Radiance RGBE format"
+msgstr "Radiance RGBE 格式"
+
+#: exporter/properties.py:112
+msgid "Reduce Keyframes"
+msgstr "减少关键帧"
+
+#: baking/properties.py:163
+msgid "Remove Old UV Maps"
+msgstr "移除旧 UV 贴图"
+
+#: exporter/properties.py:113
+msgid "Remove Rest-Pose Tracks"
+msgstr "移除静止姿态轨道"
+
+#: baking/properties.py:163
+msgid "Remove all other UV layers after creating the bake UV layer"
+msgstr "创建烘焙 UV 层后移除所有其他 UV 层"
+
+#: baking/properties.py:185
+msgid "Renew Auto Seams on Preview"
+msgstr "预览时重新生成自动缝合边"
+
+#: baking/properties.py:363
+msgid "Replace base color"
+msgstr "替换基础色"
+
+#: baking/properties.py:279
+msgid "Reserved for compatibility; Cycles does not denoise bake targets"
+msgstr "为兼容性保留；Cycles 不会对烘焙目标降噪"
+
+#: exporter/properties.py:154
+msgid "Reset Rest Pose at Frame 0"
+msgstr "在第 0 帧重置静止姿态"
+
+#: exporter/properties.py:154
+msgid "Reset armature to rest pose at frame 0"
+msgstr "在第 0 帧将骨架重置为静止姿态"
+
+#: baking/properties.py:75
+msgid "Resolution"
+msgstr "分辨率"
+
+#: baking/properties.py:346
+msgid "Result of the last UV pack validation pass"
+msgstr "上次 UV 打包验证的结果"
+
+#: exporter/properties.py:103
+msgid "Rotation Error (deg)"
+msgstr "旋转误差（度）"
+
+#: baking/properties.py:201
+msgid "Rotation Mode"
+msgstr "旋转模式"
+
+#: baking/properties.py:59
+msgid "Roughness"
+msgstr "粗糙度"
+
+#: baking/properties.py:59
+msgid "Roughness map"
+msgstr "粗糙度贴图"
+
+#: exporter/properties.py:159
+msgid "Sample Evaluated Pose"
+msgstr "采样评估姿态"
+
+#: baking/properties.py:234
+msgid "Samples"
+msgstr "采样"
+
+#: exporter/properties.py:156
+msgid "Sampling FPS"
+msgstr "采样帧率"
+
+#: baking/properties.py:312
+msgid "Save Files to Disk"
+msgstr "将文件保存到磁盘"
+
+#: baking/properties.py:309
+msgid "Save Mode"
+msgstr "保存模式"
+
+#: baking/properties.py:312
+msgid "Save baked images directly to output directory"
+msgstr "将烘焙图像直接保存到输出目录"
+
+#: exporter/properties.py:106
+msgid "Scale Error"
+msgstr "缩放误差"
+
+#: baking/properties.py:227
+msgid "Scale Islands to Fit Gaps"
+msgstr "缩放孤岛以适应间隙"
+
+#: exporter/properties.py:46
+msgid "Scene Timeline"
+msgstr "场景时间轴"
+
+#: baking/properties.py:40
+#: exporter/properties.py:32
+msgid "Scope"
+msgstr "范围"
+
+#: baking/properties.py:190
+msgid "Seam Angle"
+msgstr "接缝角度"
+
+#: baking/operators.py:247
+msgid "Select an active mesh object to rebake."
+msgstr "请选择活动网格物体以重新烘焙。"
+
+#: exporter/properties.py:35
+msgid "Selected"
+msgstr "选中项"
+
+#: baking/properties.py:272
+msgid "Selected to Active"
+msgstr "选中到活动"
+
+#: baking/pipeline.py:268
+msgid "Selected to Active needs an active mesh target."
+msgstr "“选中到活动”需要一个活动网格目标。"
+
+#: baking/pipeline.py:285
+msgid "Selected to Active needs at least one other selected source mesh."
+msgstr "“选中到活动”至少需要一个其他选中的源网格。"
+
+#: baking/properties.py:83
+msgid "Set a custom resolution"
+msgstr "设置自定义分辨率"
+
+#: baking/properties.py:326
+msgid "Set when the user aborted the bake with ESC"
+msgstr "当用户按 ESC 中止烘焙时设置"
+
+#: ui/sidebar.py:718
+msgid "Settings Transfer"
+msgstr "设置传输"
+
+#: baking/pipeline.py:2128
+msgid "Setup cancelled by user."
+msgstr "用户取消了设置。"
+
+#: baking/properties.py:63
+msgid "Shadow"
+msgstr "阴影"
+
+#: baking/properties.py:63
+msgid "Shadow map"
+msgstr "阴影贴图"
+
+#: baking/properties.py:215
+msgid "Shape Method"
+msgstr "形状方法"
+
+#: baking/properties.py:136
+msgid "Single Atlas"
+msgstr "单一图集"
+
+#: exporter/properties.py:131
+msgid "Single self-contained binary file"
+msgstr "单个自包含二进制文件"
+
+#: baking/properties.py:171
+msgid "Smart UV Project"
+msgstr "智能 UV 投影"
+
+#: baking/properties.py:228
+msgid "Stack Identical Islands"
+msgstr "堆叠相同孤岛"
+
+#: baking/properties.py:94
+msgid "Standard 8/16-bit PNG — small files"
+msgstr "标准 8/16 位 PNG — 小文件"
+
+#: baking/properties.py:174
+msgid "Standard Unwrap"
+msgstr "标准展开"
+
+#: baking/properties.py:288
+msgid "Standard tangent space normal map for PBR shaders"
+msgstr "用于 PBR 着色器的标准切线空间法线贴图"
+
+#: ui/operators.py:71
+msgid "Starting Web3D Asset Compiler full pipeline."
+msgstr "正在启动 Web3D Asset Compiler 完整流程。"
+
+#: exporter/properties.py:153
+msgid "Step interval between keyframe samples"
+msgstr "关键帧采样之间的步长间隔"
+
+#: baking/properties.py:99
+msgid "TIFF"
+msgstr "TIFF"
+
+#: baking/properties.py:99
+msgid "Tagged Image Format"
+msgstr "标签图像文件格式"
+
+#: baking/properties.py:288
+msgid "Tangent Space"
+msgstr "切线空间"
+
+#: baking/properties.py:301
+msgid "Target Output"
+msgstr "目标输出"
+
+#: ui/sidebar.py:395
+msgid "Target and Pass"
+msgstr "目标与通道"
+
+#: ui/sidebar.py:524
+msgid "Texture Density Boost"
+msgstr "纹理密度提升"
+
+#: baking/pipeline.py:275
+msgid "The custom cage must be a non-empty mesh object."
+msgstr "自定义笼必须是非空网格物体。"
+
+#: baking/pipeline.py:278
+msgid "The custom cage must be separate from the active bake target."
+msgstr "自定义笼必须与活动烘焙目标分离。"
+
+#: baking/properties.py:154
+msgid "Tile Count"
+msgstr "平铺数量"
+
+#: baking/properties.py:58
+msgid "Transmission"
+msgstr "透射"
+
+#: baking/properties.py:126
+msgid "True HDR float buffer — large files. Only needed for HDR lighting workflows"
+msgstr "真 HDR 浮点缓冲区 — 大文件。仅 HDR 光照工作流需要"
+
+#: baking/properties.py:64
+msgid "UV"
+msgstr "UV"
+
+#: exporter/properties.py:91
+msgid "UV Bits"
+msgstr "UV 位数"
+
+#: ui/sidebar.py:488
+msgid "UV Generation"
+msgstr "UV 生成"
+
+#: baking/properties.py:162
+msgid "UV Layer Name"
+msgstr "UV 层名称"
+
+#: baking/properties.py:168
+msgid "UV Mode"
+msgstr "UV 模式"
+
+#: baking/properties.py:346
+msgid "UV Pack Verified"
+msgstr "UV 排布已验证"
+
+#: ui/sidebar.py:758
+msgid "UV and Packing"
+msgstr "UV 与排布"
+
+#: baking/properties.py:64
+msgid "UV layout visualization"
+msgstr "UV 布局可视化"
+
+#: exporter/properties.py:118
+msgid "Uint16 Morph Values"
+msgstr "Uint16 形变值"
+
+#: exporter/properties.py:116
+msgid "Uint16 Positions"
+msgstr "Uint16 位置"
+
+#: exporter/properties.py:117
+msgid "Uint16 Scales"
+msgstr "Uint16 缩放"
+
+#: baking/properties.py:275
+msgid "Use Custom Cage"
+msgstr "使用自定义笼"
+
+#: baking/properties.py:176
+msgid "Use Existing"
+msgstr "使用现有"
+
+#: exporter/properties.py:152
+msgid "Use Scene Frame Range"
+msgstr "使用场景帧范围"
+
+#: baking/properties.py:275
+msgid "Use a custom cage object for distance casting"
+msgstr "使用自定义笼物体进行距离投射"
+
+#: baking/properties.py:362
+msgid "Use baked texture as emission"
+msgstr "将烘焙纹理用作自发光"
+
+#: baking/properties.py:260
+msgid "Use configured backend, or try OptiX, CUDA, HIP, oneAPI, Metal"
+msgstr "使用已配置后端，或尝试 OptiX、CUDA、HIP、oneAPI、Metal"
+
+#: baking/properties.py:174
+msgid "Uses your existing seams. Will overlap if you have no seams!"
+msgstr "使用现有接缝。如果没有接缝，将会重叠！"
+
+#: ui/sidebar.py:727
+#: ui/sidebar.py:739
+msgid "Web3D"
+msgstr "Web3D"
+
+#: ui/render_panel.py:13
+#: ui/sidebar.py:728
+msgid "Web3D Asset Compiler"
+msgstr "Web3D Asset Compiler"
+
+#: __init__.py:24
+msgid "Web3D Compiler Status"
+msgstr "Web3D 编译器状态"
+
+#: exporter/properties.py:63
+msgid "WebP"
+msgstr "WebP"
+
+#: baking/properties.py:87
+#: ui/sidebar.py:451
+msgid "Width"
+msgstr "宽度"
+
+#: baking/properties.py:211
+msgid "World-Space Proportional"
+msgstr "世界空间比例"
+
+#: ui/sidebar.py:407
+msgid "X"
+msgstr "X"
+
+#: ui/sidebar.py:408
+msgid "Y"
+msgstr "Y"
+
+#: exporter/properties.py:150
+msgid "Y-Up Orientation"
+msgstr "Y 轴向上朝向"
+
+#: ui/sidebar.py:409
+msgid "Z"
+msgstr "Z"
+
+#: baking/properties.py:107
+msgid "ZIP"
+msgstr "ZIP"
+
+#: baking/properties.py:108
+msgid "ZIPS"
+msgstr "ZIPS"
+
+#: exporter/properties.py:132
+msgid "gltf + .bin + textures"
+msgstr "gltf + .bin + 纹理"
+
+#: exporter/properties.py:133
+msgid "gltf with inline base64 data"
+msgstr "含内联 base64 数据的 gltf"
+
+#: baking/properties.py:264
+msgid "oneAPI"
+msgstr "oneAPI"
+
+#: baking/pipeline.py:2467
+msgid "run_bake() was called without on_done in an interactive session; the result cannot be returned synchronously."
+msgstr "在交互式会话中调用 run_bake() 时未提供 on_done，结果无法同步返回。"
+
+#: ui/sidebar.py:390
+msgctxt "Operator"
+msgid "1 Setup"
+msgstr "1 设置"
+
+#: ui/sidebar.py:391
+msgctxt "Operator"
+msgid "2 Bake"
+msgstr "2 烘焙"
+
+#: ui/sidebar.py:392
+msgctxt "Operator"
+msgid "3 Save"
+msgstr "3 保存"
+
+#: ui/sidebar.py:698
+msgctxt "Operator"
+msgid "Apply Bake to Materials"
+msgstr "将烘焙应用到材质"
+
+#: baking/operators.py:902
+msgctxt "Operator"
+msgid "Apply Baked Textures"
+msgstr "应用烘焙纹理"
+
+#: presets/operators.py:24
+msgctxt "Operator"
+msgid "Apply Web3D Preset"
+msgstr "应用 Web3D 预设"
+
+#: baking/operators.py:196
+msgctxt "Operator"
+msgid "Bake All"
+msgstr "全部烘焙"
+
+#: ui/sidebar.py:354
+msgctxt "Operator"
+msgid "Bake Only"
+msgstr "仅烘焙"
+
+#: ui/operators.py:42
+#: ui/sidebar.py:345
+msgctxt "Operator"
+msgid "Build Web Asset"
+msgstr "构建 Web 资产"
+
+#: ui/operators.py:120
+#: ui/sidebar.py:322
+msgctxt "Operator"
+msgid "Cancel Build"
+msgstr "取消构建"
+
+#: ui/sidebar.py:561
+msgctxt "Operator"
+msgid "Character + Animations"
+msgstr "角色 + 动画"
+
+#: baking/operators.py:946
+msgctxt "Operator"
+msgid "Create Atlas Collections"
+msgstr "创建图集集合"
+
+#: ui/sidebar.py:443
+msgctxt "Operator"
+msgid "Create Collections"
+msgstr "创建集合"
+
+#: baking/operators.py:491
+msgctxt "Operator"
+msgid "Delete Old UV Maps"
+msgstr "删除旧 UV 贴图"
+
+#: ui/sidebar.py:515
+msgctxt "Operator"
+msgid "Delete Old UVs"
+msgstr "删除旧 UV"
+
+#: ui/sidebar.py:357
+msgctxt "Operator"
+msgid "Export Animated"
+msgstr "导出动画"
+
+#: exporter/operators.py:107
+msgctxt "Operator"
+msgid "Export Character + Binary Animations"
+msgstr "导出角色 + 二进制动画"
+
+#: ui/sidebar.py:720
+msgctxt "Operator"
+msgid "Export JSON"
+msgstr "导出 JSON"
+
+#: baking/operators.py:66
+msgctxt "Operator"
+msgid "Export Materials to JSON"
+msgstr "将材质导出为 JSON"
+
+#: ui/sidebar.py:357
+msgctxt "Operator"
+msgid "Export Model"
+msgstr "导出模型"
+
+#: exporter/operators.py:72
+msgctxt "Operator"
+msgid "Export Model Only"
+msgstr "仅导出模型"
+
+#: ui/sidebar.py:436
+msgctxt "Operator"
+msgid "Group Objects into Tile Collections"
+msgstr "将物体分组到平铺集合"
+
+#: baking/operators.py:967
+msgctxt "Operator"
+msgid "Group to Tile Collections"
+msgstr "分组到平铺集合"
+
+#: ui/sidebar.py:721
+msgctxt "Operator"
+msgid "Import JSON"
+msgstr "导入 JSON"
+
+#: baking/operators.py:111
+msgctxt "Operator"
+msgid "Import Materials from JSON"
+msgstr "从 JSON 导入材质"
+
+#: ui/sidebar.py:568
+msgctxt "Operator"
+msgid "Model Only"
+msgstr "仅模型"
+
+#: baking/operators.py:741
+msgctxt "Operator"
+msgid "Pack UV Islands"
+msgstr "打包 UV 孤岛"
+
+#: baking/operators.py:619
+msgctxt "Operator"
+msgid "Preview Bake UVs"
+msgstr "预览烘焙 UV"
+
+#: ui/sidebar.py:510
+msgctxt "Operator"
+msgid "Preview UVs"
+msgstr "预览 UV"
+
+#: ui/sidebar.py:375
+msgctxt "Operator"
+msgid "Quick Bake"
+msgstr "快速烘焙"
+
+#: baking/operators.py:364
+msgctxt "Operator"
+msgid "Quick Bake (Full Pipeline)"
+msgstr "快速烘焙（完整流程）"
+
+#: ui/sidebar.py:378
+msgctxt "Operator"
+msgid "Rebake Active"
+msgstr "重新烘焙活动项"
+
+#: baking/operators.py:234
+msgctxt "Operator"
+msgid "Rebake Selected Object"
+msgstr "重新烘焙选中物体"
+
+#: baking/operators.py:471
+msgctxt "Operator"
+msgid "Remove All UV Maps"
+msgstr "移除所有 UV 贴图"
+
+#: ui/sidebar.py:516
+msgctxt "Operator"
+msgid "Remove All UVs"
+msgstr "移除所有 UV"
+
+#: baking/operators.py:837
+#: ui/sidebar.py:710
+msgctxt "Operator"
+msgid "Remove Bake Images"
+msgstr "移除烘焙图像"
+
+#: baking/operators.py:525
+#: ui/sidebar.py:709
+msgctxt "Operator"
+msgid "Remove Bake Nodes"
+msgstr "移除烘焙节点"
+
+#: baking/operators.py:856
+msgctxt "Operator"
+msgid "Remove Unused Materials"
+msgstr "移除未使用材质"
+
+#: ui/sidebar.py:711
+msgctxt "Operator"
+msgid "Remove Unused Slots"
+msgstr "移除未使用槽位"
+
+#: baking/operators.py:988
+msgctxt "Operator"
+msgid "Rename Objects by Texture"
+msgstr "按纹理重命名物体"
+
+#: ui/sidebar.py:712
+msgctxt "Operator"
+msgid "Rename by Texture"
+msgstr "按纹理重命名"
+
+#: baking/operators.py:580
+msgctxt "Operator"
+msgid "Renew Auto Seams"
+msgstr "重新生成自动缝合线"
+
+#: ui/sidebar.py:511
+msgctxt "Operator"
+msgid "Renew Seams"
+msgstr "重新生成缝合线"
+
+#: ui/sidebar.py:539
+msgctxt "Operator"
+msgid "Repack Islands"
+msgstr "重新打包孤岛"
+
+#: baking/operators.py:1005
+msgctxt "Operator"
+msgid "Restore Original Materials"
+msgstr "恢复原始材质"
+
+#: ui/sidebar.py:699
+msgctxt "Operator"
+msgid "Restore Originals"
+msgstr "恢复原始项"
+
+#: baking/operators.py:548
+msgctxt "Operator"
+msgid "Save Baked Images"
+msgstr "保存烘焙图像"
+
+#: baking/operators.py:172
+msgctxt "Operator"
+msgid "Setup Material Nodes"
+msgstr "设置材质节点"
+
+#: ui/sidebar.py:686
+msgctxt "Operator"
+msgid "Show Baked Result"
+msgstr "显示烘焙结果"
+
+#: ui/sidebar.py:686
+msgctxt "Operator"
+msgid "Show Original Materials"
+msgstr "显示原始材质"
+
+#: baking/operators.py:920
+msgctxt "Operator"
+msgid "Toggle Baked / Original"
+msgstr "切换烘焙/原始"

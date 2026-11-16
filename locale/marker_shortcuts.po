@@ -1,0 +1,223 @@
+# perfect-chinese: 1
+# id: marker_shortcuts
+# kind: addon
+# module: bl_ext.blender_org.marker_shortcuts
+# name: Marker Shortcuts
+# name_zh: 标记快捷键
+# translator: KeshiMiao
+# category: Animation
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: Marker Shortcuts/operators.py:175
+msgid "%s  >  %s"
+msgstr "%s  >  %s"
+
+#: Marker Shortcuts/preferences.py:251
+msgid "%s:"
+msgstr "%s："
+
+#: Marker Shortcuts/preferences.py:254
+msgid "(keymap entry not available)"
+msgstr "（键位映射条目不可用）"
+
+#: Marker Shortcuts/preferences.py:223
+msgid "1. Set a Trigger Keymap below. The Trigger Keymap will enter a modal state"
+msgstr "1. 在下方设置触发键位映射。触发键位映射将进入模态状态"
+
+#: Marker Shortcuts/preferences.py:225
+msgid "2. Those shortcuts are assigned via the 'Scene' box below,"
+msgstr "2. 这些快捷键通过下方的「场景」框分配，"
+
+#: Marker Shortcuts/preferences.py:227
+msgid "3. You can also use Auto Numbering Setup and the other tools at the bottom."
+msgstr "3. 你还可以使用底部的自动编号设置和其他工具。"
+
+#: Marker Shortcuts/utils.py:6
+msgid "DOPESHEET_EDITOR"
+msgstr "DOPESHEET_EDITOR"
+
+#: Marker Shortcuts/utils.py:6
+msgid "DOPESHEET_MT_marker"
+msgstr "DOPESHEET_MT_marker"
+
+#: Marker Shortcuts/utils.py:15
+msgid "Frame"
+msgstr "帧"
+
+#: Marker Shortcuts/preferences.py:184
+msgid "Frames"
+msgstr "帧"
+
+#: Marker Shortcuts/preferences.py:220
+msgid "How to Set and Use Marker Shortcuts"
+msgstr "如何设置和使用标记快捷键"
+
+#: Marker Shortcuts/preferences.py:192
+msgid "Input Timeout"
+msgstr "输入超时"
+
+#: Marker Shortcuts/preferences.py:256
+msgid "Input Timeout (s)"
+msgstr "输入超时（秒）"
+
+#: Marker Shortcuts/preferences.py:177
+msgid "Keymap Context"
+msgstr "键位映射上下文"
+
+#: Marker Shortcuts/preferences.py:234
+msgid "Keymap Context:"
+msgstr "键位映射上下文："
+
+#: Marker Shortcuts/utils.py:14
+msgid "Marker"
+msgstr "标记"
+
+#: Marker Shortcuts/preferences.py:270
+msgid "Marker Name"
+msgstr "标记名称"
+
+#: Marker Shortcuts/preferences.py:271
+msgid "Marker Shortcut"
+msgstr "标记快捷键"
+
+#: Marker Shortcuts/operators.py:22
+msgid "Marker not found"
+msgstr "未找到标记"
+
+#: Marker Shortcuts/preferences.py:264
+msgid "No markers in this scene"
+msgstr "此场景中没有标记"
+
+#: Marker Shortcuts/operators.py:265
+msgid "No numbered prefixes found."
+msgstr "未找到数字前缀。"
+
+#: Marker Shortcuts/utils.py:9
+msgid "SEQUENCER_MT_marker"
+msgstr "SEQUENCER_MT_marker"
+
+#: Marker Shortcuts/utils.py:9
+msgid "SEQUENCE_EDITOR"
+msgstr "SEQUENCE_EDITOR"
+
+#: Marker Shortcuts/operators.py:20
+msgid "Scene not found"
+msgstr "未找到场景"
+
+#: Marker Shortcuts/preferences.py:261
+msgid "Scene: %s"
+msgstr "场景：%s"
+
+#: Marker Shortcuts/preferences.py:192
+msgid "Seconds to wait after the last keystroke before jumping"
+msgstr "最后一次按键后等待跳转的秒数"
+
+#: Marker Shortcuts/operators.py:163
+#: Marker Shortcuts/utils.py:16
+msgid "Shortcut"
+msgstr "快捷键"
+
+#: Marker Shortcuts/preferences.py:184
+msgid "Shortcuts work globally, in any editor"
+msgstr "快捷键在所有编辑器中全局生效"
+
+#: Marker Shortcuts/preferences.py:181
+msgid "Shortcuts work in timeline-related editors"
+msgstr "快捷键在时间线相关编辑器中生效"
+
+#: Marker Shortcuts/preferences.py:302
+msgid "Some markers share the same shortcut in this scene"
+msgstr "此场景中有些标记共用相同的快捷键"
+
+#: Marker Shortcuts/preferences.py:240
+msgid "This keymap gives you access to Marker Shortcuts from any context (including 3D View), but may conflict with existing Blender bindings."
+msgstr "此键位映射可让你在任何上下文中使用标记快捷键（包括 3D 视图），但可能与现有 Blender 键位冲突。"
+
+#: Marker Shortcuts/preferences.py:181
+msgid "Timeline Editors (Recommended)"
+msgstr "时间线编辑器（推荐）"
+
+#: Marker Shortcuts/preferences.py:308
+msgid "Tool"
+msgstr "工具"
+
+#: Marker Shortcuts/preferences.py:231
+msgid "Trigger Keymap"
+msgstr "触发键位映射"
+
+#: Marker Shortcuts/utils.py:16
+msgid "Type this after pressing the trigger key to jump to this marker"
+msgstr "按下触发键后输入此内容以跳转到该标记"
+
+#: Marker Shortcuts/preferences.py:177
+msgid "Where the marker shortcuts are active"
+msgstr "标记快捷键生效的位置"
+
+#: Marker Shortcuts/preferences.py:224
+msgid "where you can type the desired shortcut within a certain time limit."
+msgstr "可在此于限定时间内输入所需的快捷键。"
+
+#: Marker Shortcuts/preferences.py:226
+msgid "which will list all marker names and shortcuts in the scene."
+msgstr "将列出场景中所有标记名称和快捷键。"
+
+#: Marker Shortcuts/operators.py:140
+msgctxt "Operator"
+msgid "Assign Shortcut"
+msgstr "分配快捷键"
+
+#: Marker Shortcuts/preferences.py:287
+msgctxt "Operator"
+msgid "Assign shortcut"
+msgstr "分配快捷键"
+
+#: Marker Shortcuts/operators.py:216
+msgctxt "Operator"
+msgid "Auto Numbering"
+msgstr "自动编号"
+
+#: Marker Shortcuts/operators.py:301
+msgctxt "Operator"
+msgid "Delete All Shortcuts"
+msgstr "删除所有快捷键"
+
+#: Marker Shortcuts/operators.py:343
+msgctxt "Operator"
+msgid "Edit Marker Shortcut"
+msgstr "编辑标记快捷键"
+
+#: Marker Shortcuts/operators.py:31
+msgctxt "Operator"
+msgid "Jump to Marker by Shortcut"
+msgstr "按快捷键跳转到标记"
+
+#: Marker Shortcuts/operators.py:273
+msgctxt "Operator"
+msgid "Names to Shortcuts"
+msgstr "名称转为快捷键"
+
+#: Marker Shortcuts/operators.py:197
+#: Marker Shortcuts/operators.py:347
+msgctxt "Operator"
+msgid "Remove Marker Shortcut"
+msgstr "移除标记快捷键"
+
+#: Marker Shortcuts/operators.py:244
+msgctxt "Operator"
+msgid "Remove Number Prefixes"
+msgstr "移除数字前缀"
+
+#: Marker Shortcuts/operators.py:159
+msgctxt "Operator"
+msgid "Set Marker Shortcut"
+msgstr "设置标记快捷键"
+
+#: Marker Shortcuts/operators.py:352
+msgctxt "Operator"
+msgid "Set Shortcut to Marker"
+msgstr "为标记设置快捷键"

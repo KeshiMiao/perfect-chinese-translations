@@ -1,0 +1,1168 @@
+# perfect-chinese: 1
+# id: frax_jxl_dcp_render
+# kind: addon
+# module: bl_ext.blender_org.frax_jxl_dcp_render
+# name: Frax JXL DCP Render
+# name_zh: 高压缩渲染输出
+# translator: KeshiMiao
+# category: Render
+# supported_versions: >=5.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: ui.py:239
+msgid "%d%%"
+msgstr "%d%%"
+
+#: ui.py:20
+msgid "%d%%×%d%%"
+msgstr "%d%%×%d%%"
+
+#: settings.py:68
+msgid "0 = default"
+msgstr "0 = 默认"
+
+#: settings.py:82
+msgid "0 = loop forever"
+msgstr "0 = 无限循环"
+
+#: settings.py:54
+msgid "1 fastest … 7 default … 10 slowest, smallest"
+msgstr "1 最快 … 7 默认 … 10 最慢、最小"
+
+#: settings.py:95
+msgid "1 pass"
+msgstr "1 遍"
+
+#: operators.py:25
+msgid "10-bit, quality 95"
+msgstr "10 位，质量 95"
+
+#: settings.py:59
+msgid "16-bit float"
+msgstr "16 位浮点"
+
+#: dcp.py:29
+msgid "1998×1080 / 3996×2160 — most films and shorts"
+msgstr "1998×1080 / 3996×2160 — 多数电影与短片"
+
+#: settings.py:107
+#: settings.py:108
+msgid "1×"
+msgstr "1×"
+
+#: settings.py:95
+msgid "2 passes"
+msgstr "2 遍"
+
+#: dcp.py:31
+msgid "2048×1080 / 4096×2160"
+msgstr "2048×1080 / 4096×2160"
+
+#: dcp.py:30
+msgid "2048×858 / 4096×1716 — widescreen"
+msgstr "2048×858 / 4096×1716 — 宽银幕"
+
+#: dcp.py:34
+msgid "24 fps"
+msgstr "24 fps"
+
+#: dcp.py:34
+msgid "25 fps"
+msgstr "25 fps"
+
+#: dcp.py:32
+msgid "2K"
+msgstr "2K"
+
+#: settings.py:107
+#: settings.py:108
+msgid "2×"
+msgstr "2×"
+
+#: dcp.py:34
+msgid "30 fps"
+msgstr "30 fps"
+
+#: settings.py:59
+msgid "32-bit float"
+msgstr "32 位浮点"
+
+#: dcp.py:35
+msgid "48 fps (HFR)"
+msgstr "48 fps（HFR）"
+
+#: dcp.py:32
+msgid "4K"
+msgstr "4K"
+
+#: settings.py:107
+#: settings.py:108
+msgid "4×"
+msgstr "4×"
+
+#: dcp.py:46
+msgid "5.1 surround"
+msgstr "5.1 环绕声"
+
+#: dcp.py:35
+msgid "50 fps (HFR)"
+msgstr "50 fps（HFR）"
+
+#: dcp.py:35
+msgid "60 fps (HFR)"
+msgstr "60 fps（HFR）"
+
+#: settings.py:107
+#: settings.py:108
+msgid "8×"
+msgstr "8×"
+
+#: operators.py:164
+#: operators.py:292
+msgid "A JPEG XL / DCP render is already running"
+msgstr "已有 JPEG XL / DCP 渲染正在运行"
+
+#: settings.py:67
+msgid "Absolute"
+msgstr "绝对"
+
+#: settings.py:104
+msgid "Adaptive noise"
+msgstr "自适应噪波"
+
+#: dcp.py:23
+msgid "Advertisement"
+msgstr "广告"
+
+#: settings.py:70
+msgid "Alpha"
+msgstr "Alpha"
+
+#: settings.py:73
+msgid "Alpha depth"
+msgstr "Alpha 位深"
+
+#: settings.py:108
+msgid "Alpha downsample"
+msgstr "Alpha 降采样"
+
+#: settings.py:75
+msgid "Alpha quality"
+msgstr "Alpha 质量"
+
+#: settings.py:79
+msgid "Also write an animated .jxl"
+msgstr "同时写入动画 .jxl"
+
+#: ui.py:116
+msgid "Animation"
+msgstr "动画"
+
+#: settings.py:81
+msgid "Animation file"
+msgstr "动画文件"
+
+#: dcp.py:28
+msgid "Aspect"
+msgstr "宽高比"
+
+#: dcp.py:46
+msgid "Audio"
+msgstr "音频"
+
+#: dcp.py:42
+msgid "Audio language"
+msgstr "音频语言"
+
+#: operators.py:308
+msgid "Audio mixdown failed — continuing without sound"
+msgstr "音频混音失败 — 将在无声音下继续"
+
+#: settings.py:129
+msgid "Author"
+msgstr "作者"
+
+#: settings.py:66
+#: settings.py:71
+msgid "Auto"
+msgstr "自动"
+
+#: settings.py:123
+msgid "Bare codestream"
+msgstr "裸码流"
+
+#: settings.py:48
+msgid "Best for rendered images and photos"
+msgstr "最适合渲染图像和照片"
+
+#: ui.py:78
+msgid "Bit Depth & Colour"
+msgstr "位深与颜色"
+
+#: settings.py:57
+msgid "Bit depth"
+msgstr "位深"
+
+#: settings.py:126
+msgid "Brotli effort"
+msgstr "Brotli 压缩强度"
+
+#: settings.py:99
+msgid "Buffering"
+msgstr "缓冲"
+
+#: settings.py:52
+msgid "Butteraugli distance: 0 lossless · 1 visually lossless · 2–3 web"
+msgstr "Butteraugli 距离：0 无损 · 1 视觉无损 · 2–3 网络"
+
+#: dcpwriter.py:179
+msgid "Center"
+msgstr "居中"
+
+#: settings.py:93
+msgid "Centre X"
+msgstr "中心 X"
+
+#: settings.py:94
+msgid "Centre Y"
+msgstr "中心 Y"
+
+#: settings.py:92
+msgid "Centre-first"
+msgstr "中心优先"
+
+#: settings.py:89
+msgid "Centre-first tile order around the first focus area"
+msgstr "围绕第一个焦点区域的中心优先瓦片顺序"
+
+#: dcp.py:37
+msgid "Change the scene resolution to the exact DCP size (best quality)"
+msgstr "将场景分辨率改为准确的 DCP 尺寸（最佳质量）"
+
+#: settings.py:118
+msgid "Channel palette % global"
+msgstr "通道调色板 % 全局"
+
+#: settings.py:119
+msgid "Channel palette % tile"
+msgstr "通道调色板 % 瓦片"
+
+#: settings.py:66
+msgid "Channels"
+msgstr "通道"
+
+#: settings.py:124
+msgid "Codestream level"
+msgstr "码流级别"
+
+#: settings.py:112
+msgid "Coding"
+msgstr "编码"
+
+#: settings.py:66
+msgid "Colour"
+msgstr "颜色"
+
+#: settings.py:63
+msgid "Colour space"
+msgstr "色彩空间"
+
+#: settings.py:77
+msgid "Colour under clear pixels"
+msgstr "透明像素下的颜色"
+
+#: ui.py:112
+msgid "Compositor output alpha is written as rendered"
+msgstr "合成器输出 Alpha 按渲染结果写入"
+
+#: settings.py:125
+msgid "Compress metadata"
+msgstr "压缩元数据"
+
+#: ui.py:53
+msgid "Compression"
+msgstr "压缩"
+
+#: settings.py:123
+msgid "Container"
+msgstr "容器"
+
+#: ui.py:197
+msgid "Container & Metadata"
+msgstr "容器与元数据"
+
+#: dcp.py:40
+msgid "Content type"
+msgstr "内容类型"
+
+#: settings.py:130
+msgid "Copyright"
+msgstr "版权"
+
+#: dcp.py:39
+msgid "Current standard; most festivals require it"
+msgstr "当前标准；多数电影节要求"
+
+#: dcp.py:32
+msgid "DCI 4K, 24 fps only"
+msgstr "仅 DCI 4K、24 fps"
+
+#: settings.py:55
+msgid "Decode speed"
+msgstr "解码速度"
+
+#: ui.py:176
+msgid "Detail & Filters"
+msgstr "细节与滤镜"
+
+#: ui.py:208
+msgid "Digital Cinema (DCP)"
+msgstr "数字电影（DCP）"
+
+#: settings.py:77
+msgid "Discard"
+msgstr "丢弃"
+
+#: settings.py:61
+msgid "Display (view transform)"
+msgstr "显示（视图变换）"
+
+#: settings.py:64
+msgid "Display P3"
+msgstr "Display P3"
+
+#: settings.py:52
+msgid "Distance"
+msgstr "距离"
+
+#: settings.py:105
+msgid "Dots"
+msgstr "点"
+
+#: settings.py:107
+msgid "Downsample"
+msgstr "降采样"
+
+#: settings.py:101
+msgid "Edge-preserving filter"
+msgstr "边缘保留滤镜"
+
+#: settings.py:54
+msgid "Effort"
+msgstr "强度"
+
+#: settings.py:127
+msgid "Embed render info (XMP)"
+msgstr "嵌入渲染信息（XMP）"
+
+#: settings.py:41
+msgid "Encoder"
+msgstr "编码器"
+
+#: ui.py:260
+msgid "Encoding"
+msgstr "编码"
+
+#: settings.py:50
+msgid "Every pixel exact: masters, archives, compositing plates"
+msgstr "每个像素精确：母版、存档、合成素材"
+
+#: operators.py:25
+msgid "Every pixel, 16 bits"
+msgstr "每个像素，16 位"
+
+#: dcp.py:48
+msgid "Facility"
+msgstr "机构"
+
+#: dcp.py:22
+msgid "Feature"
+msgstr "剧情片"
+
+#: ui.py:226
+msgid "Festival checks"
+msgstr "电影节检查"
+
+#: settings.py:123
+msgid "File structure"
+msgstr "文件结构"
+
+#: settings.py:103
+msgid "Film grain; hides banding in skies"
+msgstr "胶片颗粒；掩盖天空中的色带"
+
+#: dcp.py:36
+msgid "Fit"
+msgstr "适应"
+
+#: dcp.py:38
+msgid "Fit into container"
+msgstr "适应容器"
+
+#: dcp.py:29
+msgid "Flat 1.85"
+msgstr "遮幅 1.85"
+
+#: ui.py:131
+msgid "Focus Areas"
+msgstr "焦点区域"
+
+#: settings.py:88
+msgid "Focus quality"
+msgstr "对焦质量"
+
+#: operators.py:217
+msgid "Follow Selected Objects"
+msgstr "跟随选中物体"
+
+#: settings.py:36
+msgid "Follow object"
+msgstr "跟随物体"
+
+#: settings.py:112
+msgid "Force Modular"
+msgstr "强制 Modular"
+
+#: settings.py:112
+msgid "Force VarDCT"
+msgstr "强制 VarDCT"
+
+#: operators.py:216
+msgid "Frame each selected object as seen by the camera"
+msgstr "按相机视角框取每个选中物体"
+
+#: dcp.py:33
+msgid "Frame rate"
+msgstr "帧率"
+
+#: ui.py:124
+msgid "Frames %d – %d, step %d · %.3f fps"
+msgstr "帧 %d – %d，步长 %d · %.3f fps"
+
+#: __init__.py:12
+msgid "Frax JXL DCP Render"
+msgstr "Frax JXL DCP 渲染"
+
+#: settings.py:42
+msgid "Frax JXL · pure Python"
+msgstr "Frax JXL · 纯 Python"
+
+#: operators.py:215
+msgid "From Render Region"
+msgstr "来自渲染区域"
+
+#: operators.py:216
+msgid "From Selected Objects"
+msgstr "来自选中物体"
+
+#: dcp.py:31
+msgid "Full container 1.90"
+msgstr "完整容器 1.90"
+
+#: settings.py:59
+msgid "Full float — HDR / scene-linear"
+msgstr "全浮点 — HDR / 场景线性"
+
+#: settings.py:102
+msgid "Gaborish"
+msgstr "Gaborish"
+
+#: settings.py:66
+msgid "Greyscale"
+msgstr "灰度"
+
+#: settings.py:68
+msgid "HDR peak nits"
+msgstr "HDR 峰值尼特"
+
+#: operators.py:27
+msgid "HDR · Rec.2100 PQ"
+msgstr "HDR · Rec.2100 PQ"
+
+#: settings.py:59
+msgid "Half float — HDR / scene-linear"
+msgstr "半浮点 — HDR / 场景线性"
+
+#: operators.py:27
+msgid "Half-float HDR for HDR displays"
+msgstr "面向 HDR 显示器的半浮点 HDR"
+
+#: ui.py:159
+msgid "Height"
+msgstr "高度"
+
+#: settings.py:55
+msgid "Higher decodes faster at some size cost"
+msgstr "越高解码越快，文件体积略增"
+
+#: dcp.py:42
+msgid "ISO 639 code, e.g. EN, FR, ES; XX for no dialogue"
+msgstr "ISO 639 代码，例如 EN、FR、ES；无对白用 XX"
+
+#: settings.py:67
+msgid "Intent"
+msgstr "意图"
+
+#: settings.py:121
+msgid "Internal transform"
+msgstr "内部变换"
+
+#: dcp.py:39
+msgid "Interop"
+msgstr "Interop"
+
+#: ui.py:269
+msgid "JPEG 2000: Blender's OpenJPEG, DCI cinema profile, X'Y'Z' 12-bit"
+msgstr "JPEG 2000：Blender 的 OpenJPEG，DCI 影院配置，X'Y'Z' 12 位"
+
+#: ui.py:24
+msgid "JPEG XL (Frax)"
+msgstr "JPEG XL（Frax）"
+
+#: operators.py:404
+msgid "JPEG XL Presets"
+msgstr "JPEG XL 预设"
+
+#: settings.py:42
+msgid "JPEG XL written by the extension's own Python encoder (Modular coding: lossless, lossy Squeeze, animation, focus areas). No external libraries"
+msgstr "由该扩展自带的 Python 编码器写入 JPEG XL（模块化编码：无损、有损 Squeeze、动画、焦点区域）。不使用外部库"
+
+#: settings.py:72
+#: settings.py:77
+msgid "Keep"
+msgstr "保留"
+
+#: settings.py:71
+msgid "Keep alpha when Film ▸ Transparent is on or the image has transparency"
+msgstr "开启胶片 ▸ 透明或图像含透明度时保留 Alpha"
+
+#: dcp.py:50
+msgid "Keep the TIFF master"
+msgstr "保留 TIFF 母版"
+
+#: dcp.py:38
+msgid "Keep your resolution; it is scaled and letter/pillar-boxed into the container"
+msgstr "保留你的分辨率；会缩放并加黑边适配到容器中"
+
+#: dcpwriter.py:179
+msgid "LFE"
+msgstr "低频效果"
+
+#: dcpwriter.py:179
+msgid "Left"
+msgstr "左"
+
+#: dcpwriter.py:180
+msgid "Left Surround"
+msgstr "左环绕"
+
+#: dcp.py:39
+msgid "Legacy MXF Interop; only if a venue asks for it"
+msgstr "旧版 MXF Interop；仅在影院要求时使用"
+
+#: settings.py:124
+msgid "Level 10"
+msgstr "级别 10"
+
+#: settings.py:124
+msgid "Level 5"
+msgstr "级别 5"
+
+#: ui.py:92
+msgid "Linear light in integers bands: it is stored as sRGB instead"
+msgstr "整数波段中的线性光：将改为以 sRGB 存储"
+
+#: settings.py:64
+msgid "Linear sRGB / Rec.709"
+msgstr "线性 sRGB / Rec.709"
+
+#: settings.py:89
+msgid "Load focus first"
+msgstr "先加载焦点"
+
+#: settings.py:82
+msgid "Loops"
+msgstr "循环次数"
+
+#: settings.py:50
+msgid "Lossless"
+msgstr "无损"
+
+#: operators.py:25
+msgid "Lossless 16-bit master"
+msgstr "无损 16 位母版"
+
+#: operators.py:26
+msgid "Lossless 32-bit float, no view transform"
+msgstr "无损 32 位浮点，无视图变换"
+
+#: settings.py:74
+msgid "Lossless alpha"
+msgstr "无损 Alpha"
+
+#: settings.py:49
+msgid "Lossy modular coding: flat art, UI, toon / NPR renders"
+msgstr "有损模块化编码：平面美术、UI、卡通 / NPR 渲染"
+
+#: settings.py:117
+msgid "Lossy palette"
+msgstr "有损调色板"
+
+#: ui.py:71
+msgid "Lossy uses Modular Squeeze coding (progressive)"
+msgstr "有损使用模块化 Squeeze 编码（渐进式）"
+
+#: settings.py:49
+msgid "Lossy · Modular"
+msgstr "有损 · 模块化"
+
+#: settings.py:48
+msgid "Lossy · VarDCT"
+msgstr "有损 · VarDCT"
+
+#: settings.py:114
+msgid "MA-tree learning %"
+msgstr "MA 树学习 %"
+
+#: ui.py:270
+msgid "MXF (SMPTE 429-4 / 382, MCA 5.1) or MXF Interop + CPL with ISDCF metadata, unencrypted"
+msgstr "MXF（SMPTE 429-4 / 382，MCA 5.1）或 MXF Interop + 带 ISDCF 元数据的 CPL，未加密"
+
+#: operators.py:215
+msgid "Manual"
+msgstr "手动"
+
+#: settings.py:47
+msgid "Mode"
+msgstr "模式"
+
+#: ui.py:186
+msgid "Modular & Palette (Expert)"
+msgstr "模块化与调色板（专家）"
+
+#: operators.py:27
+msgid "Modular coding for flat shading"
+msgstr "用于平面着色的模块化编码"
+
+#: operators.py:48
+msgid "More options: Output Properties ▸ JPEG XL"
+msgstr "更多选项：输出属性 ▸ JPEG XL"
+
+#: settings.py:77
+msgid "Needed for re-compositing"
+msgstr "重新合成时需要"
+
+#: dcp.py:46
+msgid "No audio (MOS)"
+msgstr "无音频（MOS）"
+
+#: operators.py:101
+msgid "No image to save"
+msgstr "没有可保存的图像"
+
+#: operators.py:79
+msgid "No image to save — render something first"
+msgstr "没有可保存的图像 — 请先渲染"
+
+#: settings.py:121
+msgid "None"
+msgstr "无"
+
+#: settings.py:11
+#: settings.py:95
+msgid "Off"
+msgstr "关闭"
+
+#: settings.py:11
+#: settings.py:109
+msgid "On"
+msgstr "开启"
+
+#: operators.py:131
+msgid "Opening JPEG XL files uses the libjxl runtime (wasmtime), which is not installed"
+msgstr "打开 JPEG XL 文件需使用 libjxl 运行时（wasmtime），但尚未安装"
+
+#: dcp.py:49
+msgid "Output folder"
+msgstr "输出文件夹"
+
+#: ui.py:127
+msgid "Output is a movie format: 'Also write' needs an image sequence"
+msgstr "输出为影片格式：「同时写入」需要图像序列"
+
+#: dcp.py:34
+msgid "PAL territories"
+msgstr "PAL 地区"
+
+#: settings.py:116
+msgid "Palette colours"
+msgstr "调色板颜色"
+
+#: settings.py:106
+msgid "Patches"
+msgstr "补丁"
+
+#: settings.py:67
+msgid "Perceptual"
+msgstr "感知"
+
+#: settings.py:109
+msgid "Perceptual optimisation"
+msgstr "感知优化"
+
+#: settings.py:103
+msgid "Photon noise ISO"
+msgstr "光子噪点 ISO"
+
+#: settings.py:60
+msgid "Pixels"
+msgstr "像素"
+
+#: dcp.py:23
+msgid "Policy"
+msgstr "策略"
+
+#: settings.py:113
+msgid "Predictor"
+msgstr "预测器"
+
+#: settings.py:76
+msgid "Premultiplied"
+msgstr "预乘"
+
+#: ui.py:33
+msgid "Presets"
+msgstr "预设"
+
+#: settings.py:115
+msgid "Previous channels"
+msgstr "前面的声道"
+
+#: settings.py:96
+msgid "Progressive AC"
+msgstr "渐进式 AC"
+
+#: settings.py:95
+msgid "Progressive DC"
+msgstr "渐进式 DC"
+
+#: operators.py:24
+msgid "Progressive, small, fast to show"
+msgstr "渐进式，体积小，显示快"
+
+#: dcp.py:23
+msgid "Public service"
+msgstr "公共服务"
+
+#: ui.py:72
+msgid "Pure-Python JPEG XL · format by the JPEG XL Project (libjxl)"
+msgstr "纯 Python JPEG XL · 格式由 JPEG XL Project 制定（libjxl）"
+
+#: settings.py:51
+msgid "Quality"
+msgstr "质量"
+
+#: operators.py:28
+msgid "Quality 72, effort 9"
+msgstr "质量 72，编码强度 9"
+
+#: operators.py:24
+msgid "Quality 90"
+msgstr "质量 90"
+
+#: settings.py:97
+msgid "Quantised AC"
+msgstr "量化 AC"
+
+#: settings.py:120
+msgid "RCT"
+msgstr "RCT"
+
+#: dcp.py:45
+msgid "Rating"
+msgstr "分级"
+
+#: dcp.py:24
+msgid "Rating card"
+msgstr "分级卡"
+
+#: settings.py:62
+msgid "Raw scene-linear light, no view transform: for compositing and HDR"
+msgstr "原始场景线性光，无视图变换：用于合成和 HDR"
+
+#: operators.py:217
+msgid "Re-frame around each selected object every frame"
+msgstr "每帧围绕每个选中物体重新取景"
+
+#: settings.py:36
+msgid "Re-frame this focus area around the object every frame of an animation"
+msgstr "动画每一帧都围绕物体重新取景此聚焦区域"
+
+#: settings.py:64
+msgid "Rec.2020"
+msgstr "Rec.2020"
+
+#: settings.py:65
+msgid "Rec.2100 HLG (HDR)"
+msgstr "Rec.2100 HLG（HDR）"
+
+#: settings.py:65
+msgid "Rec.2100 PQ (HDR)"
+msgstr "Rec.2100 PQ（HDR）"
+
+#: ui.py:139
+msgid "Regions coded sharper and streamed first (lossy)"
+msgstr "区域编码更锐利并优先流式传输（有损）"
+
+#: settings.py:67
+msgid "Relative"
+msgstr "相对"
+
+#: settings.py:72
+msgid "Remove"
+msgstr "移除"
+
+#: settings.py:83
+msgid "Remove frame files afterwards"
+msgstr "之后移除帧文件"
+
+#: __init__.py:12
+msgid "Render"
+msgstr "渲染"
+
+#: __init__.py:12
+msgid "Render JPEG XL stills & animations (pure-Python JPEG XL encoder, or libjxl), and build festival-ready DCPs (EEVEE / Cycles)"
+msgstr "渲染 JPEG XL 静帧和动画（纯 Python JPEG XL 编码器或 libjxl），并构建可参展的 DCP（EEVEE / Cycles）"
+
+#: dcp.py:37
+msgid "Render at container size"
+msgstr "按容器尺寸渲染"
+
+#: operators.py:24
+msgid "Render · high"
+msgstr "渲染 · 高"
+
+#: dcp.py:32
+msgid "Resolution"
+msgstr "分辨率"
+
+#: settings.py:98
+msgid "Responsive"
+msgstr "响应式"
+
+#: dcpwriter.py:179
+msgid "Right"
+msgstr "右"
+
+#: dcpwriter.py:180
+msgid "Right Surround"
+msgstr "右环绕"
+
+#: dcp.py:39
+msgid "SMPTE"
+msgstr "SMPTE"
+
+#: settings.py:73
+msgid "Same as colour"
+msgstr "与颜色相同"
+
+#: settings.py:67
+msgid "Saturation"
+msgstr "饱和度"
+
+#: settings.py:92
+msgid "Scanline"
+msgstr "扫描线"
+
+#: settings.py:127
+msgid "Scene, frame, engine, samples, camera and Blender version in the file's XMP"
+msgstr "文件 XMP 中的场景、帧、引擎、采样数、相机和 Blender 版本"
+
+#: settings.py:62
+msgid "Scene-linear (HDR)"
+msgstr "场景线性（HDR）"
+
+#: operators.py:26
+msgid "Scene-linear float (comp plate)"
+msgstr "场景线性浮点（合成底板）"
+
+#: dcp.py:30
+msgid "Scope 2.39"
+msgstr "宽银幕 2.39"
+
+#: operators.py:236
+msgid "Select the objects that matter (faces, logos, hero props)"
+msgstr "选择重要物体（人脸、标志、主角道具）"
+
+#: ui.py:44
+msgid "Session running:"
+msgstr "会话运行中："
+
+#: operators.py:227
+msgid "Set a render region first (Ctrl B in the camera view)"
+msgstr "请先设置渲染区域（相机视图中按 Ctrl B）"
+
+#: dcp.py:22
+msgid "Short"
+msgstr "短片"
+
+#: settings.py:77
+msgid "Smaller"
+msgstr "较小"
+
+#: operators.py:28
+msgid "Smallest"
+msgstr "最小"
+
+#: dcp.py:39
+msgid "Standard"
+msgstr "标准"
+
+#: dcp.py:46
+msgid "Stereo (2.0)"
+msgstr "立体声（2.0）"
+
+#: settings.py:99
+msgid "Streaming"
+msgstr "流式传输"
+
+#: dcp.py:47
+msgid "Studio"
+msgstr "制片厂"
+
+#: dcp.py:43
+msgid "Subtitle language"
+msgstr "字幕语言"
+
+#: dcp.py:22
+msgid "Teaser"
+msgstr "预告片"
+
+#: dcp.py:44
+msgid "Territory"
+msgstr "地区"
+
+#: dcp.py:23
+msgid "Test"
+msgstr "测试"
+
+#: settings.py:44
+msgid "The reference libjxl encoder run in WebAssembly (VarDCT, patches, noise, JPEG recompression). Needs the bundled wasmtime runtime"
+msgstr "在 WebAssembly 中运行的参考 libjxl 编码器（VarDCT、补丁、噪声、JPEG 重压缩）。需要捆绑的 wasmtime 运行时"
+
+#: dcp.py:34
+msgid "The safe choice for festivals"
+msgstr "电影节的稳妥选择"
+
+#: settings.py:92
+msgid "Tile order"
+msgstr "分块顺序"
+
+#: settings.py:91
+msgid "Tile size"
+msgstr "分块大小"
+
+#: ui.py:166
+msgid "Tiles & Progressive"
+msgstr "分块与渐进式"
+
+#: ui.py:125
+msgid "Timing is exact: the file plays at the scene's frame rate"
+msgstr "时序精确：文件按场景帧率播放"
+
+#: dcp.py:41
+#: settings.py:131
+msgid "Title"
+msgstr "片名"
+
+#: ui.py:247
+msgid "Title & Naming (ISDCF)"
+msgstr "片名与命名（ISDCF）"
+
+#: operators.py:27
+msgid "Toon / NPR"
+msgstr "卡通 / NPR"
+
+#: dcp.py:22
+msgid "Trailer"
+msgstr "预告片"
+
+#: dcp.py:24
+msgid "Transitional"
+msgstr "过渡"
+
+#: ui.py:98
+msgid "Transparency"
+msgstr "透明"
+
+#: ui.py:103
+msgid "Transparent film"
+msgstr "透明胶片"
+
+#: settings.py:87
+msgid "Use focus areas"
+msgstr "使用焦点区域"
+
+#: ui.py:94
+msgid "View transform: %s · %s"
+msgstr "视图变换：%s · %s"
+
+#: operators.py:25
+msgid "Visually lossless"
+msgstr "视觉无损"
+
+#: operators.py:24
+msgid "Web"
+msgstr "网页"
+
+#: dcp.py:32
+msgid "What almost every festival asks for"
+msgstr "几乎所有电影节都要求的"
+
+#: settings.py:61
+msgid "What you see: AgX / Filmic / Standard applied, sRGB"
+msgstr "所见内容：已应用 AgX / Filmic / Standard，sRGB"
+
+#: settings.py:79
+msgid "Whenever you render an animation (Ctrl F12), also pack the written frames into one animated .jxl"
+msgstr "每次渲染动画（Ctrl F12）时，同时将写入的帧打包为一个动画 .jxl"
+
+#: settings.py:99
+msgid "Whole image"
+msgstr "整幅图像"
+
+#: settings.py:110
+msgid "Whole-image heuristics"
+msgstr "整图启发式"
+
+#: ui.py:158
+msgid "Width"
+msgstr "宽度"
+
+#: dcp.py:43
+msgid "XX = no subtitles"
+msgstr "XX = 无字幕"
+
+#: settings.py:121
+msgid "XYB"
+msgstr "XYB"
+
+#: settings.py:121
+msgid "YCbCr"
+msgstr "YCbCr"
+
+#: ui.py:62
+msgid "libjxl runtime not installed — the pure-Python encoder is used"
+msgstr "未安装 libjxl 运行时 — 将使用纯 Python 编码器"
+
+#: settings.py:44
+msgid "libjxl · WebAssembly"
+msgstr "libjxl · WebAssembly"
+
+#: settings.py:64
+msgid "sRGB"
+msgstr "sRGB"
+
+#: operators.py:213
+msgctxt "Operator"
+msgid "Add Focus Area"
+msgstr "添加焦点区域"
+
+#: operators.py:268
+msgctxt "Operator"
+msgid "Apply DCP Format"
+msgstr "应用 DCP 格式"
+
+#: operators.py:54
+msgctxt "Operator"
+msgid "Apply a JPEG XL preset"
+msgstr "应用 JPEG XL 预设"
+
+#: operators.py:356
+msgctxt "Operator"
+msgid "Build DCP from Rendered Frames"
+msgstr "从渲染帧构建 DCP"
+
+#: operators.py:384
+msgctxt "Operator"
+msgid "Cancel DCP Build"
+msgstr "取消 DCP 构建"
+
+#: ui.py:147
+msgctxt "Operator"
+msgid "Follow Selected"
+msgstr "跟随选中项"
+
+#: ui.py:148
+msgctxt "Operator"
+msgid "From Render Region"
+msgstr "从渲染区域"
+
+#: ui.py:146
+msgctxt "Operator"
+msgid "From Selected"
+msgstr "从选中项"
+
+#: operators.py:53
+msgctxt "Operator"
+msgid "JPEG XL Preset"
+msgstr "JPEG XL 预设"
+
+#: operators.py:394
+msgctxt "Operator"
+msgid "Open DCP Folder"
+msgstr "打开 DCP 文件夹"
+
+#: operators.py:125
+msgctxt "Operator"
+msgid "Open JPEG XL"
+msgstr "打开 JPEG XL"
+
+#: ui.py:278
+msgctxt "Operator"
+msgid "Open JPEG XL…"
+msgstr "打开 JPEG XL…"
+
+#: operators.py:253
+msgctxt "Operator"
+msgid "Remove Focus Area"
+msgstr "移除焦点区域"
+
+#: operators.py:159
+msgctxt "Operator"
+msgid "Render Animation → JPEG XL"
+msgstr "渲染动画 → JPEG XL"
+
+#: operators.py:286
+msgctxt "Operator"
+msgid "Render DCP"
+msgstr "渲染 DCP"
+
+#: ui.py:286
+msgctxt "Operator"
+msgid "Render DCP (Digital Cinema)"
+msgstr "渲染 DCP（数字电影）"
+
+#: ui.py:34
+msgctxt "Operator"
+msgid "Save Render"
+msgstr "保存渲染"
+
+#: ui.py:284
+msgctxt "Operator"
+msgid "Save Render as JPEG XL…"
+msgstr "将渲染保存为 JPEG XL…"
+
+#: operators.py:70
+msgctxt "Operator"
+msgid "Save as JPEG XL"
+msgstr "保存为 JPEG XL"
+
+#: ui.py:277
+msgctxt "Operator"
+msgid "Save as JPEG XL…"
+msgstr "保存为 JPEG XL…"

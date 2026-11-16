@@ -1,0 +1,510 @@
+# perfect-chinese: 1
+# id: batchforge_batch_export
+# kind: addon
+# module: bl_ext.blender_org.batchforge_batch_export
+# name: BatchForge: Batch Export Tool
+# name_zh: 批量导出工具
+# translator: KeshiMiao
+# category: Import-Export
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:602
+#: __init__.py:612
+msgid "-X"
+msgstr "-X"
+
+#: __init__.py:603
+#: __init__.py:613
+msgid "-Y"
+msgstr "-Y"
+
+#: __init__.py:604
+#: __init__.py:614
+msgid "-Z"
+msgstr "-Z"
+
+#: __init__.py:464
+msgid "1. Select source (Selection/All Meshes/Collection)"
+msgstr "1. 选择来源（选中物体/所有网格/集合）"
+
+#: __init__.py:465
+msgid "2. Choose origin point placement"
+msgstr "2. 选择原点位置"
+
+#: __init__.py:466
+msgid "3. Select export formats and presets"
+msgstr "3. 选择导出格式和预设"
+
+#: __init__.py:467
+msgid "4. Click 'Export' button"
+msgstr "4. 点击「导出」按钮"
+
+#: __init__.py:543
+msgid "Add prefix"
+msgstr "添加前缀"
+
+#: __init__.py:526
+msgid "All Meshes"
+msgstr "所有网格"
+
+#: __init__.py:622
+msgid "Apply Modifiers"
+msgstr "应用修改器"
+
+#: __init__.py:550
+msgid "Auto Numbering"
+msgstr "自动编号"
+
+#: __init__.py:1029
+msgid "Bake Axis Conversion: Yes"
+msgstr "烘焙轴转换：是"
+
+#: __init__.py:952
+#: __init__.py:956
+msgid "Batch Export"
+msgstr "批量导出"
+
+#: __init__.py:5
+msgid "Batch export objects with origin control, transform reset and Unity FBX presets"
+msgstr "批量导出物体，支持原点控制、变换重置和 Unity FBX 预设"
+
+#: __init__.py:5
+msgid "BatchForge: Batch Export Tool"
+msgstr "BatchForge：批量导出工具"
+
+#: __init__.py:577
+msgid "Blend"
+msgstr "Blend"
+
+#: __init__.py:557
+msgid "Bottom Center"
+msgstr "底部中心"
+
+#: __init__.py:557
+msgid "Bottom → (0,0,0)"
+msgstr "底部 → (0,0,0)"
+
+#: __init__.py:556
+msgid "Center"
+msgstr "中心"
+
+#: __init__.py:559
+msgid "Center of Mass"
+msgstr "质心"
+
+#: __init__.py:527
+#: __init__.py:532
+msgid "Collection"
+msgstr "集合"
+
+#: __init__.py:623
+msgid "Copy Materials"
+msgstr "复制材质"
+
+#: __init__.py:632
+msgid "Create Log"
+msgstr "创建日志"
+
+#: __init__.py:621
+msgid "Create Subfolders"
+msgstr "创建子文件夹"
+
+#: __init__.py:547
+#: __init__.py:594
+msgid "Custom"
+msgstr "自定义"
+
+#: __init__.py:542
+msgid "Custom Name"
+msgstr "自定义名称"
+
+#: __init__.py:542
+msgid "Custom name + number"
+msgstr "自定义名称 + 编号"
+
+#: __init__.py:591
+msgid "Default"
+msgstr "默认"
+
+#: __init__.py:624
+msgid "Embed Textures"
+msgstr "嵌入纹理"
+
+#: __init__.py:498
+#: __init__.py:1004
+msgid "Export Formats"
+msgstr "导出格式"
+
+#: __init__.py:620
+msgid "Export Path"
+msgstr "导出路径"
+
+#: __init__.py:1041
+msgid "Export Settings"
+msgstr "导出设置"
+
+#: __init__.py:526
+msgid "Export all mesh objects in scene"
+msgstr "导出场景中的所有网格物体"
+
+#: __init__.py:527
+msgid "Export from specific collection"
+msgstr "从指定集合导出"
+
+#: __init__.py:525
+msgid "Export selected objects"
+msgstr "导出选中物体"
+
+#: __init__.py:578
+msgid "FBX"
+msgstr "FBX"
+
+#: __init__.py:587
+#: __init__.py:1022
+msgid "FBX Preset"
+msgstr "FBX 预设"
+
+#: __init__.py:587
+msgid "FBX export preset for target application"
+msgstr "针对目标应用程序的 FBX 导出预设"
+
+#: __init__.py:1054
+msgid "Filter"
+msgstr "筛选"
+
+#: __init__.py:599
+msgid "Forward Axis"
+msgstr "前向轴"
+
+#: __init__.py:1028
+msgid "Forward: -Z, Up: Y"
+msgstr "前向：-Z，上：Y"
+
+#: __init__.py:1033
+msgid "Forward: X, Up: Z"
+msgstr "前向：X，上：Z"
+
+#: __init__.py:579
+msgid "GLB"
+msgstr "GLB"
+
+#: __init__.py:580
+msgid "GLTF"
+msgstr "GLTF"
+
+#: __init__.py:556
+msgid "Geometric center → (0,0,0)"
+msgstr "几何中心 → (0,0,0)"
+
+#: __init__.py:5
+msgid "Import-Export"
+msgstr "导入导出"
+
+#: __init__.py:560
+msgid "Keep Original"
+msgstr "保留原始"
+
+#: __init__.py:572
+#: __init__.py:994
+msgid "Location"
+msgstr "位置"
+
+#: __init__.py:594
+msgid "Manual FBX axis settings"
+msgstr "手动 FBX 轴设置"
+
+#: __init__.py:559
+msgid "Mass center → (0,0,0)"
+msgstr "质心 → (0,0,0)"
+
+#: __init__.py:541
+msgid "Mesh Name"
+msgstr "网格名称"
+
+#: __init__.py:627
+msgid "Mesh Only"
+msgstr "仅网格"
+
+#: __init__.py:561
+msgid "Move to (0,0,0) directly"
+msgstr "直接移动到 (0,0,0)"
+
+#: __init__.py:976
+msgid "Naming"
+msgstr "命名"
+
+#: __init__.py:538
+msgid "Naming Method"
+msgstr "命名方式"
+
+#: __init__.py:470
+msgid "Naming Methods"
+msgstr "命名方式"
+
+#: __init__.py:898
+msgid "No objects found to export!"
+msgstr "未找到可导出的物体！"
+
+#: __init__.py:581
+msgid "OBJ"
+msgstr "OBJ"
+
+#: __init__.py:592
+msgid "Optimized for Unity (Y-up, -Z forward)"
+msgstr "针对 Unity 优化（Y 轴向上，-Z 为前向）"
+
+#: __init__.py:593
+msgid "Optimized for Unreal Engine"
+msgstr "针对虚幻引擎优化"
+
+#: __init__.py:553
+#: __init__.py:987
+msgid "Origin Point"
+msgstr "原点"
+
+#: __init__.py:479
+msgid "Origin Points"
+msgstr "原点"
+
+#: __init__.py:631
+msgid "Overwrite Existing"
+msgstr "覆盖现有文件"
+
+#: __init__.py:560
+msgid "Pivot → (0,0,0)"
+msgstr "轴心点 → (0,0,0)"
+
+#: __init__.py:548
+msgid "Prefix"
+msgstr "前缀"
+
+#: __init__.py:543
+msgid "Prefix + Mesh"
+msgstr "前缀 + 网格"
+
+#: __init__.py:461
+msgid "Quick Start"
+msgstr "快速开始"
+
+#: __init__.py:568
+msgid "Reset Location"
+msgstr "重置位置"
+
+#: __init__.py:569
+msgid "Reset Rotation"
+msgstr "重置旋转"
+
+#: __init__.py:570
+msgid "Reset Scale"
+msgstr "重置缩放"
+
+#: __init__.py:573
+#: __init__.py:996
+msgid "Rotation"
+msgstr "旋转"
+
+#: __init__.py:582
+msgid "STL"
+msgstr "STL"
+
+#: __init__.py:574
+#: __init__.py:998
+msgid "Scale"
+msgstr "缩放"
+
+#: __init__.py:525
+msgid "Selection"
+msgstr "选中项"
+
+#: __init__.py:521
+#: __init__.py:968
+msgid "Source"
+msgstr "来源"
+
+#: __init__.py:591
+msgid "Standard FBX export"
+msgstr "标准 FBX 导出"
+
+#: __init__.py:549
+msgid "Suffix"
+msgstr "后缀"
+
+#: __init__.py:558
+msgid "Top Center"
+msgstr "顶部中心"
+
+#: __init__.py:558
+msgid "Top → (0,0,0)"
+msgstr "顶部 → (0,0,0)"
+
+#: __init__.py:992
+msgid "Transform"
+msgstr "变换"
+
+#: __init__.py:583
+msgid "USD"
+msgstr "USD"
+
+#: __init__.py:584
+msgid "USDC"
+msgstr "USDC"
+
+#: __init__.py:592
+msgid "Unity Engine"
+msgstr "Unity 引擎"
+
+#: __init__.py:489
+msgid "Unity FBX Preset"
+msgstr "Unity FBX 预设"
+
+#: __init__.py:1027
+msgid "Unity Optimized:"
+msgstr "Unity 优化："
+
+#: __init__.py:593
+msgid "Unreal Engine"
+msgstr "虚幻引擎"
+
+#: __init__.py:1032
+msgid "Unreal Engine:"
+msgstr "虚幻引擎："
+
+#: __init__.py:609
+msgid "Up Axis"
+msgstr "向上轴"
+
+#: __init__.py:567
+msgid "Use Current Transform"
+msgstr "使用当前变换"
+
+#: __init__.py:541
+msgid "Use object name"
+msgstr "使用物体名称"
+
+#: __init__.py:628
+msgid "Visible Only"
+msgstr "仅可见"
+
+#: __init__.py:521
+msgid "Which objects to export"
+msgstr "要导出的物体"
+
+#: __init__.py:561
+msgid "World Origin"
+msgstr "世界原点"
+
+#: __init__.py:602
+#: __init__.py:612
+msgid "X"
+msgstr "X"
+
+#: __init__.py:603
+#: __init__.py:613
+msgid "Y"
+msgstr "Y"
+
+#: __init__.py:604
+#: __init__.py:614
+msgid "Z"
+msgstr "Z"
+
+#: __init__.py:494
+msgid "• Apply Scale: All"
+msgstr "• 应用缩放：全部"
+
+#: __init__.py:493
+msgid "• Bake Axis Conversion: Automatic"
+msgstr "• 烘焙轴转换：自动"
+
+#: __init__.py:501
+msgid "• Blend: Native Blender file"
+msgstr "• Blend：Blender 原生文件"
+
+#: __init__.py:483
+msgid "• Bottom/Top: Align by Z-axis"
+msgstr "• 底部/顶部：按 Z 轴对齐"
+
+#: __init__.py:484
+msgid "• Center of Mass: Volumetric center"
+msgstr "• 质心：体积中心"
+
+#: __init__.py:482
+msgid "• Center: Geometric center → (0,0,0)"
+msgstr "• 中心：几何中心 → (0,0,0)"
+
+#: __init__.py:474
+msgid "• Custom Name: Custom name + numbering"
+msgstr "• 自定义名称：自定义名称 + 编号"
+
+#: __init__.py:502
+msgid "• FBX: Unity, Unreal, Maya, 3ds Max"
+msgstr "• FBX：Unity、Unreal、Maya、3ds Max"
+
+#: __init__.py:492
+msgid "• Forward: -Z, Up: Y (Unity standard)"
+msgstr "• 前向：-Z，向上：Y（Unity 标准）"
+
+#: __init__.py:503
+msgid "• GLB/GLTF: Web, AR, modern engines"
+msgstr "• GLB/GLTF：Web、AR、现代引擎"
+
+#: __init__.py:495
+msgid "• In Unity: Also check 'Bake Axis Conversion'"
+msgstr "• 在 Unity 中：同时勾选“烘焙轴转换”"
+
+#: __init__.py:485
+msgid "• Keep Original: Preserve pivot"
+msgstr "• 保留原始：保留轴心点"
+
+#: __init__.py:473
+msgid "• Mesh Name: Uses object's name"
+msgstr "• 网格名称：使用物体名称"
+
+#: __init__.py:504
+msgid "• OBJ: Universal 3D format"
+msgstr "• OBJ：通用 3D 格式"
+
+#: __init__.py:475
+msgid "• Prefix + Mesh: Add prefix (e.g., SM_Cube)"
+msgstr "• 前缀 + 网格：添加前缀（例如 SM_Cube）"
+
+#: __init__.py:505
+msgid "• STL: 3D printing"
+msgstr "• STL：3D 打印"
+
+#: __init__.py:476
+msgid "• Suffix: Added to end of filename"
+msgstr "• 后缀：添加到文件名末尾"
+
+#: __init__.py:506
+msgid "• USD/USDC: Universal Scene Description"
+msgstr "• USD/USDC：通用场景描述"
+
+#: __init__.py:486
+msgid "• World Origin: Move to (0,0,0) directly"
+msgstr "• 世界原点：直接移动到 (0,0,0)"
+
+#: __init__.py:642
+msgctxt "Operator"
+msgid "Batch Export"
+msgstr "批量导出"
+
+#: __init__.py:964
+msgctxt "Operator"
+msgid "How to Use"
+msgstr "使用方法"
+
+#: __init__.py:454
+msgctxt "Operator"
+msgid "How to Use - Batch Export Tool"
+msgstr "使用方法 - 批量导出工具"
+
+#: __init__.py:939
+msgctxt "Operator"
+msgid "Select Export Folder"
+msgstr "选择导出文件夹"

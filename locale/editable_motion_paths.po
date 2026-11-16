@@ -1,0 +1,4505 @@
+# perfect-chinese: 1
+# id: editable_motion_paths
+# kind: addon
+# module: bl_ext.blender_org.editable_motion_paths
+# name: Editable Motion Paths
+# name_zh: 可编辑运动路径
+# translator: KeshiMiao
+# category: Animation
+# supported_versions: >=4.4.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: ops_vertex.py:489
+msgid "%d - %d"
+msgstr "%d - %d"
+
+#: snapshots.py:1104
+msgid "%d Bone%s"
+msgstr "%d 骨骼%s"
+
+#: ops_tools.py:373
+msgid "%d bones, each"
+msgstr "%d 根骨骼，各自"
+
+#: ops_tools.py:373
+msgid "%d bones, together"
+msgstr "%d 根骨骼，共同"
+
+#: ui.py:931
+msgid "%d curve%s use%s Continuous Acceleration:"
+msgstr "%d 条曲线%s使用%s连续加速度："
+
+#: ops_sculpt.py:872
+msgid "%d px"
+msgstr "%d 像素"
+
+#: ops_sculpt.py:872
+msgid "%d%%"
+msgstr "%d%%"
+
+#: snapshots.py:1109
+msgid "%s Frame"
+msgstr "%s 帧"
+
+#: ops_fmods.py:697
+msgid "%s, %s"
+msgstr "%s，%s"
+
+#: ui.py:877
+msgid "(Pose Mode)"
+msgstr "（姿态模式）"
+
+#: props.py:602
+msgid "+X"
+msgstr "+X"
+
+#: ops_tools.py:371
+msgid ", %"
+msgstr "，%"
+
+#: ops_tools.py:371
+msgid ", kg"
+msgstr "，千克"
+
+#: ops_tools.py:371
+msgid ", lb"
+msgstr "，磅"
+
+#: ops_timetools.py:449
+msgid "-1: the previous key's pose, 0: halfway, 1: the next key's pose"
+msgstr "-1：上一个关键帧的姿态，0：中间，1：下一个关键帧的姿态"
+
+#: props.py:603
+msgid "-X"
+msgstr "-X"
+
+#: ops_timing.py:186
+msgid "0 = spacing as it was, 1 = exactly the profile"
+msgstr "0 = 保持原间距，1 = 完全贴合轮廓"
+
+#: ops_tools.py:1553
+msgid "0.5 = 50% bigger deviation from the baseline, -1 = flatten"
+msgstr "0.5 = 相对基线的偏差增大 50%，-1 = 压平"
+
+#: ops_shape.py:354
+msgid "0.5 is a circular arc, lower is flatter / concave, higher keeps more of the corner"
+msgstr "0.5 为圆弧，更低更平/更凹，更高保留更多拐角"
+
+#: ops_tools.py:2220
+msgid "0.5: handles 50% longer, -1: no handles"
+msgstr "0.5：控制柄加长 50%，-1：无控制柄"
+
+#: ops_tools.py:1998
+msgid "1: full ease (the bone comes to rest at the key), -1: the opposite, faster through the key (Keep the Path: the frames spread out at the key; Handles: longer handles, a wider path around it)"
+msgstr "1：完全缓动（骨骼在关键帧处静止），-1：相反，更快通过关键帧（保持路径：帧在关键帧处拉开；控制柄：控制柄更长，周围路径更宽）"
+
+#: props.py:531
+msgid "3D Cursor"
+msgstr "3D 光标"
+
+#: ops_tools.py:693
+msgid "A bone of that armature (empty: the object itself)"
+msgstr "该骨架的一根骨骼（留空：物体本身）"
+
+#: props.py:698
+msgid "A circle when the bone / object stays in place, the path otherwise"
+msgstr "骨骼/物体原地不动时显示圆，否则显示路径"
+
+#: props.py:869
+msgid "A click near a path goes to the path, not to a bone or object under it: keys, handles win from farther away (2.5 times). Away from them, a click selects bones and objects as usual"
+msgstr "在路径附近单击会选中路径，而不是其下方的骨骼或物体：关键帧、控制柄在更远处仍优先（2.5 倍）。远离它们时，单击会照常选择骨骼和物体"
+
+#: props.py:531
+msgid "A floor at the height of the 3D cursor"
+msgstr "位于 3D 光标高度的地面"
+
+#: props.py:530
+msgid "A floor at this height (a rooftop, a table...)"
+msgstr "此高度的地面（屋顶、桌面……）"
+
+#: props.py:650
+msgid "A graph of the speed of the active path, above the timing chart"
+msgstr "活动路径速度的图表，位于时间图上方"
+
+#: ops_io.py:111
+msgid "A key on every point of the curve (exported paths keep their frames)"
+msgstr "曲线每个点上都有关键帧（导出的路径保留其帧）"
+
+#: props.py:608
+msgid "A timing chart of the selected keys at the bottom of the viewport: where every frame is between them. Drag a frame tick (or a frame dot on the path) to change it"
+msgstr "视图底部的所选关键帧时间图：显示每帧在它们之间的位置。拖动帧刻度（或路径上的帧点）即可更改"
+
+#: props.py:667
+msgid "Above the Path"
+msgstr "路径上方"
+
+#: props.py:418
+#: props.py:560
+msgid "Action"
+msgstr "动作"
+
+#: ops_tools.py:98
+msgid "Active"
+msgstr "活动"
+
+#: ops_tools.py:1689
+#: props.py:518
+msgid "Adaptive"
+msgstr "自适应"
+
+#: props.py:520
+msgid "Adaptive + Length"
+msgstr "自适应 + 长度"
+
+#: ops_timing.py:198
+msgid "Add Keys If Needed"
+msgstr "按需添加关键帧"
+
+#: ops_fmods.py:642
+msgid "Add Modifier"
+msgstr "添加修改器"
+
+#: ops_fmods.py:14
+msgid "Add a polynomial (e.g. a constant drift)"
+msgstr "添加多项式（例如恒定漂移）"
+
+#: ops_shape.py:1054
+msgid "Add keys every N frames so the path can follow the stroke (0: use only the existing keys)"
+msgstr "每 N 帧添加关键帧，以便路径跟随笔画（0：仅使用现有键）"
+
+#: ops_fmods.py:18
+msgid "Add noise (shake, jitter)"
+msgstr "添加噪波（抖动、颤动）"
+
+#: ops_fmods.py:262
+msgid "Add or remove this channel, keep the others"
+msgstr "添加或移除此通道，保留其他通道"
+
+#: ops_timetools.py:502
+#: ops_timetools.py:664
+msgid "Affect"
+msgstr "影响"
+
+#: props.py:430
+#: props.py:482
+msgid "After"
+msgstr "之后"
+
+#: ops_select.py:698
+msgid "After Current Frame"
+msgstr "当前帧之后"
+
+#: ops_tools.py:966
+msgid "Aligned"
+msgstr "对齐"
+
+#: ops_timetools.py:19
+#: ops_tools.py:100
+msgid "All"
+msgstr "全部"
+
+#: props.py:455
+msgid "All Handles"
+msgstr "所有控制柄"
+
+#: ops_value.py:57
+msgid "All Selected Keys"
+msgstr "所有选中的关键帧"
+
+#: ops_timing.py:201
+msgid "Allowed distance from the exact new motion (percent of the path size)"
+msgstr "与精确新运动的允许距离（路径大小的百分比）"
+
+#: props.py:699
+msgid "Along the Path"
+msgstr "沿路径"
+
+#: space.py:11
+msgid "Along the path: Y = direction of motion, X = sideways, Z = up"
+msgstr "沿路径：Y = 运动方向，X = 侧向，Z = 向上"
+
+#: ops_keys.py:1038
+#: ops_keys.py:1127
+msgid "Also copy the other keys of the bone / object on the same frames (rotation, scale, custom properties)"
+msgstr "同时复制骨骼/物体在同一帧上的其他关键帧（旋转、缩放、自定义属性）"
+
+#: ops_tools.py:1449
+msgid "Also smooth what the path shows but doesn't edit, over the same frames: the bone's other channels and the bones / objects it hangs from (mocap trembles on every bone). Their keys stay where they are in time"
+msgstr "同时平滑路径显示但未编辑的内容，范围相同帧：骨骼的其他通道及其所依附的骨骼/物体（动捕会在每根骨骼上产生颤动）。它们的关键帧在时间上保持原位"
+
+#: props.py:519
+msgid "Always the length below: only the direction"
+msgstr "始终使用下方长度：仅方向"
+
+#: ops_easing.py:95
+msgid "Amplitude"
+msgstr "振幅"
+
+#: ops_shape.py:492
+#: ops_shape.py:814
+msgid "Angle"
+msgstr "角度"
+
+#: ops_keys.py:341
+msgid "Angle Snapping Increment"
+msgstr "角度吸附增量"
+
+#: __init__.py:1
+msgid "Animation"
+msgstr "动画"
+
+#: props.py:774
+msgid "Anti-aliased lines and dots (paths, keys, handles, ribbons, charts): softer edges, a little more drawing work"
+msgstr "抗锯齿的线条和点（路径、关键帧、控制柄、带状线、图表）：边缘更柔和，绘制开销略高"
+
+#: props.py:425
+#: props.py:566
+msgid "Around Current Frame"
+msgstr "当前帧附近"
+
+#: props.py:800
+msgid "Arrows"
+msgstr "箭头"
+
+#: props.py:518
+msgid "As long as the way the body goes in about 8 frames (slow: short)"
+msgstr "约等于身体在 8 帧内移动的距离（慢：短）"
+
+#: ops_keys.py:682
+msgid "At Center"
+msgstr "在中心"
+
+#: ops_keys.py:683
+msgid "At Cursor"
+msgstr "在游标"
+
+#: ops_keys.py:681
+msgid "At First"
+msgstr "在开头"
+
+#: ops_timetools.py:929
+msgid "At Frame"
+msgstr "在指定帧"
+
+#: ops_keys.py:680
+msgid "At Last"
+msgstr "在末尾"
+
+#: ops_tools.py:557
+#: ops_tools.py:1556
+msgid "Auto"
+msgstr "自动"
+
+#: ops_tools.py:964
+msgid "Auto Clamped"
+msgstr "自动钳制"
+
+#: props.py:728
+msgid "Auto Update"
+msgstr "自动更新"
+
+#: ops_tools.py:965
+msgid "Automatic"
+msgstr "自动"
+
+#: ops_tools.py:1559
+msgid "Average position of the selected keys (makes the whole motion bigger/smaller)"
+msgstr "所选关键帧的平均位置（使整个运动变大/变小）"
+
+#: props.py:676
+msgid "Away from the middle of the motion (around the outside of its curves)"
+msgstr "远离运动中心（沿其曲线外侧）"
+
+#: space.py:10
+msgid "Axes of each key's bone (its channel axes) or object (turned with it)"
+msgstr "每个关键帧对应骨骼（其通道轴）或物体（随其旋转）的坐标轴"
+
+#: space.py:13
+msgid "Axes of the 3D cursor"
+msgstr "3D 游标的坐标轴"
+
+#: space.py:14
+msgid "Axes of the parent space"
+msgstr "父级空间的坐标轴"
+
+#: ops_shape.py:171
+#: ops_shape.py:496
+msgid "Axis"
+msgstr "轴"
+
+#: props.py:464
+msgid "Axis Rings"
+msgstr "轴环"
+
+#: easing.py:9
+msgid "Back"
+msgstr "回退"
+
+#: ops_easing.py:93
+msgid "Back: how far it goes past the end"
+msgstr "回退：超过终点的距离"
+
+#: props.py:853
+msgid "Background"
+msgstr "背景"
+
+#: props.py:429
+#: props.py:480
+msgid "Before"
+msgstr "之前"
+
+#: props.py:443
+msgid "Before / After"
+msgstr "之前/之后"
+
+#: ops_select.py:697
+msgid "Before Current Frame"
+msgstr "当前帧之前"
+
+#: ops_shape.py:816
+msgid "Bend the arc the other way (concave becomes convex)"
+msgstr "向另一方向弯曲弧线（凹变凸）"
+
+#: props.py:668
+msgid "Beside the Path"
+msgstr "路径旁"
+
+#: ops_shape.py:984
+msgid "Best Fit"
+msgstr "最佳拟合"
+
+#: ops_tools.py:1014
+msgid "Bezier"
+msgstr "贝塞尔"
+
+#: ops_easing.py:87
+#: ops_easing.py:422
+msgid "Blend"
+msgstr "混合"
+
+#: props.py:616
+msgid "Blender's easing interpolation on the chosen channels, like in the Graph Editor"
+msgstr "在所选通道上使用 Blender 的缓动插值，与曲线编辑器一致"
+
+#: ops_easing.py:45
+msgid "Blender's easing interpolation on the chosen channels, like in the Graph Editor (the shape of the path changes too)"
+msgstr "在所选通道上使用 Blender 的缓动插值，与曲线编辑器一致（路径形状也会改变）"
+
+#: props.py:552
+msgid "Body Mass"
+msgstr "身体质量"
+
+#: ui.py:894
+msgid "Body Mass, kg"
+msgstr "身体质量，kg"
+
+#: ops_tools.py:693
+#: ops_tools.py:727
+msgid "Bone"
+msgstr "骨骼"
+
+#: props.py:807
+msgid "Bone Color"
+msgstr "骨骼颜色"
+
+#: props.py:754
+msgid "Bone Lines"
+msgstr "骨骼线"
+
+#: ops_tools.py:279
+#: ops_tools.py:319
+msgid "Bone Weight"
+msgstr "骨骼权重"
+
+#: ops_tools.py:513
+#: props.py:352
+msgid "Bones"
+msgstr "骨骼"
+
+#: ops_tools.py:2223
+#: ops_tools.py:2287
+msgid "Both"
+msgstr "两者"
+
+#: props.py:601
+msgid "Both Sides"
+msgstr "两侧"
+
+#: props.py:839
+msgid "Bottom Left"
+msgstr "左下"
+
+#: props.py:839
+msgid "Bottom Right"
+msgstr "右下"
+
+#: easing.py:10
+msgid "Bounce"
+msgstr "弹跳"
+
+#: ops_easing.py:99
+msgid "Bounce: how many times it bounces (Keep the Path)"
+msgstr "弹跳：弹跳次数（保留路径）"
+
+#: ops_easing.py:101
+msgid "Bounce: how much of each bounce is left for the next one (Keep the Path)"
+msgstr "弹跳：每次弹跳有多少留给下一次（保留路径）"
+
+#: ops_easing.py:99
+msgid "Bounces"
+msgstr "弹跳次数"
+
+#: ops_easing.py:101
+msgid "Bounciness"
+msgstr "弹性"
+
+#: props.py:773
+msgid "Box Size"
+msgstr "方框大小"
+
+#: props.py:705
+msgid "Box Values"
+msgstr "方框值"
+
+#: props.py:192
+msgid "Brush"
+msgstr "笔刷"
+
+#: props.py:194
+msgid "Brush radius on the screen (F)"
+msgstr "屏幕上的笔刷半径（F）"
+
+#: ops_sculpt.py:1061
+msgid "Brushes"
+msgstr "笔刷"
+
+#: ops_fmods.py:15
+msgid "Built-In Function"
+msgstr "内置函数"
+
+#: ops_shape.py:890
+msgid "Bulge"
+msgstr "凸起"
+
+#: props.py:577
+msgid "By Object"
+msgstr "按物体"
+
+#: props.py:575
+msgid "By Weight"
+msgstr "按权重"
+
+#: ops_slide.py:264
+msgid "C while sliding. The key keeps its handles and follows the path itself. Timing: it moves in time and onto the path where the motion was at the new frame. Spacing: it slides along the path without retiming the frames around it. Past the first / last key the motion goes on"
+msgstr "滑动时按 C。关键帧保留其控制柄并沿路径本身移动。时间：它在时间上移动，并移动到新帧处运动所在路径上的位置。间距：沿路径滑动，不重新调整周围帧的时间。超过第一个/最后一个关键帧后运动继续"
+
+#: ops_tools.py:532
+#: props.py:298
+msgid "Camera"
+msgstr "摄像机"
+
+#: props.py:298
+msgid "Camera space: the path as the active camera sees it"
+msgstr "摄像机空间：以当前活动摄像机视角看到的路径"
+
+#: ops_shape.py:495
+#: ops_tools.py:1559
+msgid "Center"
+msgstr "中心"
+
+#: props.py:502
+#: props.py:919
+msgid "Center of Mass"
+msgstr "质心"
+
+#: props.py:510
+msgid "Center of mass: an arrow where the body is going (about 8 frames ahead)"
+msgstr "质心：表示身体前进方向的箭头（约提前 8 帧）"
+
+#: props.py:816
+msgid "Center of mass: how a limb's weight is shown and set"
+msgstr "质心：肢体重量如何显示和设置"
+
+#: props.py:811
+msgid "Center of mass: how closely the support area on the floor follows the feet (1: a grid of 2% of the character's height; higher: finer, a little more work while the pose changes). The ghosts' Detail sets how fine the meshes it's taken from are"
+msgstr "质心：地面支撑区域跟随脚部的精细程度（1：角色身高的 2% 网格；更高：更精细，姿态变化时计算稍多）。残影的“细节”决定其所用网格的精细程度"
+
+#: props.py:541
+msgid "Center of mass: how much of the body's mass the active bone alone is, without its child bones (a hand without the fingers). The rest of the part it carries makes up for it"
+msgstr "质心：仅活动骨骼（不含子骨骼）占身体质量的比例（例如不含手指的手）。其所属部位的其余部分会补足差额"
+
+#: props.py:534
+msgid "Center of mass: how much of the body's mass the active bone and what hangs on it are (the whole arm on the shoulder). Worked out from the meshes; set it where it's off and the other bones make up for it - the part keeps this weight also when a smaller part inside it gets its own. It lights up while it changes; the arrow: worked out again"
+msgstr "质心：活动骨骼及其附属部分（肩部的整条手臂）占身体质量的比例。由网格计算得出；如果数值不对可手动设置，其他骨骼会补足——即使其中更小的部位有自己的权重，该部位仍保留此重量。变化时会高亮；箭头：重新计算"
+
+#: props.py:507
+msgid "Center of mass: its path over the frames (a jump's arc should be a parabola)"
+msgstr "质心：其随帧变化的路径（跳跃弧线应为抛物线）"
+
+#: props.py:566
+msgid "Center of mass: only draw the trajectory around the current frame"
+msgstr "质心：仅绘制当前帧附近的轨迹"
+
+#: props.py:523
+msgid "Center of mass: the arrow's length (Fixed) or what is added to it (Adaptive + Length)"
+msgstr "质心：箭头长度（固定）或附加长度（自适应 + 长度）"
+
+#: props.py:552
+msgid "Center of mass: the character's whole mass in kilograms (only for showing the limbs' masses in kg / lb; the center itself only needs the shares)"
+msgstr "质心：角色总质量（千克）（仅用于以 kg / lb 显示肢体质量；质心本身只需比例）"
+
+#: props.py:803
+msgid "Center of mass: the color a limb lights up in while its weight changes (the bones it carries)"
+msgstr "质心：肢体重量变化时高亮的颜色（它承载的骨骼）"
+
+#: props.py:807
+msgid "Center of mass: the color of the bone itself in the lit up limb (and of the part Bone Weight changes)"
+msgstr "质心：高亮肢体中骨骼本身的颜色（以及“骨骼权重”所改变部位的颜色）"
+
+#: props.py:556
+msgid "Center of mass: the frames its trajectory (and velocity) is worked out for"
+msgstr "质心：计算其轨迹（和速度）所用的帧范围"
+
+#: props.py:545
+msgid "Center of mass: the mass of the active bone alone (in the unit set in the preferences)"
+msgstr "质心：仅活动骨骼的质量（使用偏好设置中的单位）"
+
+#: props.py:548
+msgid "Center of mass: the mass of the limb this controller moves (its share of the Body Mass, in the unit set in the preferences)"
+msgstr "质心：此控制器所移动肢体的质量（其占身体质量的比例，使用偏好设置中的单位）"
+
+#: props.py:513
+msgid "Center of mass: the outline of what touches the floor; the plumb point is green inside it (stable), red outside, gray in the air"
+msgstr "质心：接触地面的物体轮廓；垂点在轮廓内为绿色（稳定），外为红色，悬空为灰色"
+
+#: props.py:527
+msgid "Center of mass: where the floor is (the plumb line ends there, the support is what touches it)"
+msgstr "质心：地面位置（垂线终止于此，支撑面即接触地面的部分）"
+
+#: props.py:601
+msgid "Centered on the path of the tip"
+msgstr "以末端路径为中心"
+
+#: ops_tools.py:1453
+#: props.py:218
+msgid "Chain Length"
+msgstr "链长"
+
+#: ops_tools.py:2227
+#: ops_tools.py:2291
+msgid "Channel"
+msgstr "通道"
+
+#: ops_fmods.py:261
+msgid "Channel (-1: all of them)"
+msgstr "通道（-1：全部）"
+
+#: ops_easing.py:45
+#: ops_easing.py:77
+msgid "Channels"
+msgstr "通道"
+
+#: ops_easing.py:77
+msgid "Channels mode: which channels get the easing"
+msgstr "通道模式：哪些通道获得缓动"
+
+#: ops_easing.py:913
+msgid "Channels:"
+msgstr "通道："
+
+#: props.py:700
+#: props.py:801
+msgid "Circle"
+msgstr "圆"
+
+#: props.py:687
+msgid "Circle Radius"
+msgstr "圆半径"
+
+#: easing.py:9
+msgid "Circular"
+msgstr "圆形"
+
+#: ops_shape.py:358
+msgid "Clamp"
+msgstr "钳制"
+
+#: ops_fmods.py:19
+msgid "Clamp the values"
+msgstr "钳制数值"
+
+#: ops_tools.py:1688
+msgid "Clean"
+msgstr "清理"
+
+#: ops_fmods.py:426
+#: ops_fmods.py:486
+msgid "Clean Up"
+msgstr "清理"
+
+#: ops_sculpt.py:33
+msgid "Clean: remove the keys under the brush that the path doesn't need; its shape (and timing) stay within the tolerance (Alt: Dissolve, whatever the brush)"
+msgstr "清理：移除画笔下路径不需要的关键帧；路径形状（和时序）保持在容差内（Alt：溶解，不受画笔影响）"
+
+#: props.py:718
+msgid "Clicked keys, oldest first (JSON); the last one is the active key. Saved in the scene so undo brings it back"
+msgstr "已点击的关键帧，最旧在前（JSON）；最后一个是活动关键帧。保存在场景中，因此撤销可恢复"
+
+#: props.py:368
+#: props.py:436
+msgid "Color"
+msgstr "颜色"
+
+#: props.py:440
+msgid "Color the path by speed: blue is slow, red is fast"
+msgstr "按速度给路径着色：蓝色慢，红色快"
+
+#: props.py:801
+msgid "Cone"
+msgstr "圆锥"
+
+#: ops_transform.py:501
+msgid "Connected"
+msgstr "相连"
+
+#: ui.py:231
+msgid "Connected Only"
+msgstr "仅相连"
+
+#: ops_tools.py:1016
+#: ops_transform.py:463
+msgid "Constant"
+msgstr "常量"
+
+#: ops_io.py:110
+msgid "Constant speed along the curve"
+msgstr "沿曲线匀速"
+
+#: ops_timing.py:13
+msgid "Constant speed: the frame dots are evenly spaced (E)"
+msgstr "匀速：帧点均匀分布（E）"
+
+#: props.py:827
+msgid "Continuous Acceleration Note"
+msgstr "连续加速度说明"
+
+#: ops_keys.py:963
+msgid "Copy a key first (Ctrl+C on a selected key)"
+msgstr "请先复制一个关键帧（在选中的关键帧上按 Ctrl+C）"
+
+#: ops_keys.py:883
+msgid "Copy every channel of the bone / object, not only the edited ones"
+msgstr "复制骨骼/物体的所有通道，而不仅是已编辑的"
+
+#: props.py:836
+msgid "Corner"
+msgstr "拐角"
+
+#: props.py:801
+msgid "Cube"
+msgstr "立方体"
+
+#: easing.py:8
+msgid "Cubic"
+msgstr "三次"
+
+#: props.py:863
+#: snapshots.py:972
+msgid "Current Frame"
+msgstr "当前帧"
+
+#: space.py:13
+msgid "Cursor"
+msgstr "光标"
+
+#: ops_io.py:106
+msgid "Curve"
+msgstr "曲线"
+
+#: ui.py:1064
+msgid "Curve Smoothing"
+msgstr "曲线平滑"
+
+#: ops_io.py:106
+msgid "Curve object the path should follow"
+msgstr "路径应跟随的曲线物体"
+
+#: ui.py:527
+#: ui.py:719
+msgid "Curves"
+msgstr "曲线"
+
+#: space.py:15
+msgid "Custom"
+msgstr "自定义"
+
+#: props.py:690
+msgid "Custom Range"
+msgstr "自定义范围"
+
+#: props.py:419
+msgid "Custom frame range"
+msgstr "自定义帧范围"
+
+#: ops_fmods.py:17
+msgid "Cycles"
+msgstr "Cycles"
+
+#: props.py:443
+msgid "Darker before the current frame, brighter after"
+msgstr "当前帧之前较暗，之后较亮"
+
+#: ops_keys.py:118
+msgid "Delete"
+msgstr "删除"
+
+#: ops_shape.py:1057
+msgid "Delete Stroke"
+msgstr "删除笔画"
+
+#: ops_select.py:408
+#: ops_select.py:622
+msgid "Deselect"
+msgstr "取消选择"
+
+#: props.py:488
+msgid "Detail"
+msgstr "细节"
+
+#: ops_easing.py:74
+#: snapshots.py:951
+msgid "Direction"
+msgstr "方向"
+
+#: props.py:371
+#: ui.py:786
+msgid "Display"
+msgstr "显示"
+
+#: ops_sculpt.py:33
+msgid "Dissolve"
+msgstr "融并"
+
+#: props.py:208
+msgid "Dissolve: a key goes only if the path then moves less than this (percent of the path size)"
+msgstr "融并：仅当路径随后的移动小于此值（路径大小的百分比）时才删除关键帧"
+
+#: props.py:212
+msgid "Dissolve: first smooth out the tremble of the keys under the brush (mocap), over about this many frames around each key; then the keys the smooth motion doesn't need go (the Tolerance counts from the smooth motion). 0: off - only keys go, the motion stays exactly as it was"
+msgstr "融并：先平滑掉笔刷下关键帧的抖动（动捕），范围约为每个关键帧周围的这么多帧；然后删除平滑运动不需要的关键帧（容差从平滑运动算起）。0：关闭 — 只删除关键帧，运动完全保持不变"
+
+#: props.py:227
+msgid "Dissolve: the timing must stay too (where the bone is on every frame). Off: only the shape of the path counts, so more keys can go"
+msgstr "融并：时间也必须保持不变（骨骼在每一帧的位置）。关闭：只计算路径形状，因此可以删除更多关键帧"
+
+#: props.py:844
+msgid "Distance from the bottom / top of the view"
+msgstr "距视图底部 / 顶部的距离"
+
+#: props.py:842
+msgid "Distance from the side of the view"
+msgstr "距视图侧边的距离"
+
+#: ops_fmods.py:369
+#: snapshots.py:951
+msgid "Down"
+msgstr "向下"
+
+#: ops_shape.py:1062
+msgid "Draw a stroke with the Annotate tool first (hold D and drag)"
+msgstr "先用标注工具画一笔（按住 D 并拖动）"
+
+#: props.py:760
+msgid "Draw paths in front of geometry"
+msgstr "在几何体前方绘制路径"
+
+#: props.py:593
+msgid "Draw the ghosts over everything (X-ray)"
+msgstr "在所有物体之上绘制残影（X 光透视）"
+
+#: ops_timetools.py:719
+msgid "Drift"
+msgstr "漂移"
+
+#: ops_keys.py:1069
+msgid "Duplicate and Move Path Keys"
+msgstr "复制并移动路径关键帧"
+
+#: ops_tools.py:373
+msgid "EACH"
+msgstr "每个"
+
+#: ops_tools.py:321
+msgid "Each"
+msgstr "每个"
+
+#: ops_tools.py:319
+msgid "Each bone alone"
+msgstr "每根骨骼单独"
+
+#: ops_tools.py:318
+msgid "Each bone with what hangs on it"
+msgstr "每根骨骼连同其附属"
+
+#: ops_timetools.py:921
+msgid "Ease"
+msgstr "缓动"
+
+#: ops_timetools.py:930
+msgid "Ease: how much faster (or slower, below 0) the motion is where the curve was grabbed, in the graph's units (distance per frame)"
+msgstr "缓动：曲线被抓取处的运动快多少（或慢多少，低于 0），以图表单位计（每帧距离）"
+
+#: ops_timetools.py:925
+msgid "Ease: the segment's last key"
+msgstr "缓动：该段的最后一个关键帧"
+
+#: ops_timetools.py:929
+msgid "Ease: where the curve was grabbed"
+msgstr "缓动：曲线被抓取的位置"
+
+#: ops_easing.py:70
+#: props.py:630
+msgid "Easing"
+msgstr "缓动"
+
+#: props.py:624
+msgid "Easing Channels"
+msgstr "缓动通道"
+
+#: props.py:619
+msgid "Easing Direction"
+msgstr "缓动方向"
+
+#: props.py:612
+msgid "Easing Mode"
+msgstr "缓动模式"
+
+#: ops_easing.py:948
+#: ops_easing.py:960
+msgid "Easing Presets"
+msgstr "缓动预设"
+
+#: ops_tools.py:902
+#: props.py:392
+msgid "Edit"
+msgstr "编辑"
+
+#: ui.py:314
+#: ui.py:328
+msgid "Edit Motion Path"
+msgstr "编辑运动路径"
+
+#: __init__.py:1
+msgid "Edit bone and object motion paths directly in the viewport: drag keys and handles, smooth and exaggerate paths, edit location and rotation"
+msgstr "在视图中直接编辑骨骼和物体的运动路径：拖动关键帧和手柄，平滑和夸张路径，编辑位置和旋转"
+
+#: ui.py:315
+msgid "Edit motion paths like curves: click keys, drag keys and handles, G R S, E extrude, Ctrl+Click on a path to insert a key, right-click for the menu, 1 / 2 / 3 / 4: Location / Rotation / Scale / Value"
+msgstr "像曲线一样编辑运动路径：点击关键帧，拖动关键帧和手柄，G R S，E 挤出，Ctrl+点击路径插入关键帧，右键打开菜单，1 / 2 / 3 / 4：位置 / 旋转 / 缩放 / 数值"
+
+#: __init__.py:1
+#: ui.py:651
+msgid "Editable Motion Paths"
+msgstr "可编辑运动路径"
+
+#: easing.py:10
+msgid "Elastic"
+msgstr "弹性"
+
+#: ops_easing.py:95
+msgid "Elastic: how big the swings are"
+msgstr "弹性：摆动幅度"
+
+#: ops_easing.py:97
+msgid "Elastic: how long a swing is (share of the part)"
+msgstr "弹性：一次摆动的长度（占该部分的比例）"
+
+#: ops_vertex.py:227
+#: props.py:424
+msgid "End"
+msgstr "结束"
+
+#: ops_timing.py:195
+msgid "End Blend"
+msgstr "结束混合"
+
+#: ops_fmods.py:16
+msgid "Envelope"
+msgstr "包络"
+
+#: ops_sculpt.py:29
+#: ops_timing.py:13
+msgid "Even"
+msgstr "均匀"
+
+#: ops_io.py:110
+msgid "Even Speed"
+msgstr "匀速"
+
+#: snapshots.py:970
+msgid "Every bone the snapshot keeps"
+msgstr "快照保留的每根骨骼"
+
+#: ops_timetools.py:19
+msgid "Every channel of the bone / object"
+msgstr "骨骼 / 物体的每个通道"
+
+#: ops_tools.py:321
+msgid "Every selected bone gets this weight"
+msgstr "每根选中骨骼都使用此权重"
+
+#: ops_keys.py:681
+msgid "Everything goes to the first selected key"
+msgstr "全部归到第一个选中的关键帧"
+
+#: ops_keys.py:680
+msgid "Everything goes to the last selected (active) key"
+msgstr "全部归到最后一个选中的（活动）关键帧"
+
+#: ops_fmods.py:612
+#: snapshots.py:1011
+msgid "Expand / Collapse"
+msgstr "展开 / 折叠"
+
+#: props.py:347
+msgid "Expanded"
+msgstr "已展开"
+
+#: easing.py:9
+msgid "Exponential"
+msgstr "指数"
+
+#: ops_fmods.py:262
+#: ops_select.py:442
+msgid "Extend"
+msgstr "延伸"
+
+#: props.py:293
+msgid "F-Curve shown and edited in Value mode (4)"
+msgstr "在数值模式（4）下显示并编辑的 F 曲线"
+
+#: ui.py:944
+msgid "F-Curves > Default Smoothing: None"
+msgstr "F 曲线 > 默认平滑：无"
+
+#: ops_shape.py:985
+msgid "Facing the view, through the middle of the keys"
+msgstr "朝向视图，穿过关键帧的中部"
+
+#: ops_timetools.py:366
+#: ops_timing.py:186
+msgid "Factor"
+msgstr "系数"
+
+#: ops_transform.py:500
+#: props.py:198
+msgid "Falloff"
+msgstr "衰减"
+
+#: props.py:490
+msgid "Fast"
+msgstr "快速"
+
+#: props.py:490
+msgid "Fast ghosts: every bent mesh is simplified once (down to Detail) and bent by its bones only - quick also on heavy characters, but shape keys (correctives, expressions), lattices and other deformers don't show. Off: Exact - every ghost is the mesh as Blender makes it on that frame, in full detail (slower on heavy characters)"
+msgstr "快速残影：每个变形网格只简化一次（简化到细节级别），并仅由其骨骼变形 — 重型角色也很快，但形态键（校正、表情）、晶格和其他变形器不会显示。关闭：精确 — 每个残影都是 Blender 在该帧生成的网格，完整细节（重型角色较慢）"
+
+#: props.py:488
+msgid "Fast ghosts: most triangles / edges / points per mesh (fewer: faster)"
+msgstr "快速残影：每个网格的三角形 / 边 / 点数量上限（越少越快）"
+
+#: ops_timetools.py:449
+msgid "Favor"
+msgstr "偏好"
+
+#: props.py:857
+msgid "Fill Opacity"
+msgstr "填充不透明度"
+
+#: ops_fmods.py:369
+msgid "First"
+msgstr "第一帧"
+
+#: ops_vertex.py:226
+msgid "First frame of the path"
+msgstr "路径的第一帧"
+
+#: props.py:660
+msgid "First frame of the speed graph"
+msgstr "速度图的第一帧"
+
+#: ops_tools.py:1609
+msgid "Fix every channel of the bone/object (location, rotation, scale, custom properties), not just the ones of the current path type"
+msgstr "修复骨骼/物体的所有通道（位置、旋转、缩放、自定义属性），而不仅是当前路径类型的通道"
+
+#: props.py:519
+msgid "Fixed"
+msgstr "固定"
+
+#: props.py:527
+#: ui.py:850
+msgid "Floor"
+msgstr "地面"
+
+#: props.py:811
+msgid "Floor Detail"
+msgstr "地面细节"
+
+#: props.py:570
+msgid "Floor Height"
+msgstr "地面高度"
+
+#: ops_slide.py:264
+msgid "Follow the Path"
+msgstr "跟随路径"
+
+#: ops_io.py:114
+msgid "Follow the curve backwards"
+msgstr "沿曲线反向跟随"
+
+#: props.py:668
+msgid "Follows the shape of the path: farther from it = bigger value, on the side set below (stays put when the view turns)"
+msgstr "跟随路径形状：离路径越远值越大，位于下方设置的一侧（视图转动时保持不动）"
+
+#: ops_timetools.py:253
+#: ops_timetools.py:921
+msgid "Frame"
+msgstr "帧"
+
+#: props.py:448
+msgid "Frame Dots"
+msgstr "帧点"
+
+#: props.py:865
+msgid "Frame Ticks"
+msgstr "帧刻度"
+
+#: props.py:418
+msgid "Frame range of the animated action"
+msgstr "动画动作的帧范围"
+
+#: props.py:413
+msgid "Frame range the paths are calculated for"
+msgstr "计算路径所用的帧范围"
+
+#: ops_keys.py:1035
+#: ops_keys.py:1126
+msgid "Frames"
+msgstr "帧"
+
+#: ops_io.py:23
+msgid "Frames (Poly)"
+msgstr "帧（多边形）"
+
+#: props.py:690
+msgid "Frames around the circle (off: the scene's frame range)"
+msgstr "圆周上的帧数（关闭：使用场景帧范围）"
+
+#: props.py:484
+msgid "Frames between the ghosts (0: on the keys)"
+msgstr "残影之间的帧数（0：在关键帧上）"
+
+#: props.py:296
+msgid "Frames of hidden keys (H / Alt+H)"
+msgstr "隐藏关键帧的帧（H / Alt+H）"
+
+#: ops_shape.py:351
+msgid "Frames on each side of the key"
+msgstr "关键帧每侧的帧数"
+
+#: ops_fmods.py:483
+msgid "Frames over which the effect fades in and out at the ends of the selected parts (0: a hard cut)"
+msgstr "效果在所选部分两端淡入淡出的帧数（0：硬切）"
+
+#: ops_timetools.py:498
+msgid "Frames per Path"
+msgstr "每条路径的帧数"
+
+#: ops_shape.py:494
+msgid "Frames per Step"
+msgstr "每步的帧数"
+
+#: ops_tools.py:967
+msgid "Free (Break)"
+msgstr "自由（断开）"
+
+#: ops_easing.py:81
+#: ops_easing.py:421
+msgid "From"
+msgstr "从"
+
+#: ops_fmods.py:14
+msgid "Generator"
+msgstr "生成器"
+
+#: props.py:752
+msgid "Ghost While Editing"
+msgstr "编辑时显示残影"
+
+#: props.py:792
+msgid "Ghosts Ahead"
+msgstr "前方残影"
+
+#: props.py:469
+msgid "Ghosts of the edited bones / objects on the frames around the current one (captured in the background, so the viewport stays fast)"
+msgstr "编辑中的骨骼/物体在当前帧周围帧上的残影（在后台捕获，因此视图保持流畅）"
+
+#: ops_tools.py:532
+#: props.py:308
+msgid "Global"
+msgstr "全局"
+
+#: props.py:320
+msgid "Global: the motion in the world (the parents' motion is in the path). Local: only this bone's / object's own motion - the path is drawn in its parent's space as it is on the current frame, so it moves along with the parent and the parent's motion isn't in it. The paths being edited (highlighted) all take it; drag over the icons to set several"
+msgstr "全局：世界空间中的运动（父级运动包含在路径中）。局部：仅此骨骼/物体自身的运动——路径按当前帧在其父级空间中绘制，因此会随父级移动，且不包含父级运动。正在编辑（高亮）的路径都会采用该设置；在图标上拖动可设置多个"
+
+#: ops_sculpt.py:30
+msgid "Grab"
+msgstr "抓取"
+
+#: props.py:204
+msgid "Grab, Smooth, Pinch: where there are few keys under the brush, add keys there first (the motion doesn't change), so the brush can shape the path"
+msgstr "抓取、平滑、捏合：如果笔刷下关键帧很少，先在那里添加关键帧（运动不变），以便笔刷塑造路径"
+
+#: ops_select.py:722
+#: ui.py:425
+msgid "Handle Type"
+msgstr "控制柄类型"
+
+#: ops_tools.py:2010
+#: props.py:453
+msgid "Handles"
+msgstr "控制柄"
+
+#: ops_tools.py:967
+msgid "Handles move independently (sharp corner possible)"
+msgstr "控制柄独立移动（可形成尖角）"
+
+#: ops_tools.py:968
+msgid "Handles point to the neighbors (sharp corner)"
+msgstr "控制柄指向相邻项（尖角）"
+
+#: ops_tools.py:966
+msgid "Handles stay in line (smooth motion)"
+msgstr "控制柄保持共线（平滑运动）"
+
+#: props.py:441
+msgid "Heat map of roughness: smooth motion stays gray, hitches, pops and wobbles glow yellow to red (select them and smooth)"
+msgstr "粗糙度热力图：平滑运动保持灰色，卡顿、跳变和抖动会呈黄色到红色（选中它们并平滑）"
+
+#: props.py:530
+msgid "Height"
+msgstr "高度"
+
+#: props.py:667
+msgid "Higher on the screen = bigger value"
+msgstr "屏幕上越靠上值越大"
+
+#: props.py:778
+msgid "Highlight Under Mouse"
+msgstr "鼠标下高亮"
+
+#: ops_tools.py:97
+msgid "Highlighted"
+msgstr "高亮"
+
+#: ops_fmods.py:20
+msgid "Hold every n frames (on twos, on threes...)"
+msgstr "每 n 帧保持（一拍二、一拍三……）"
+
+#: ops_select.py:727
+msgid "Holds"
+msgstr "保持"
+
+#: props.py:874
+msgid "Hotkey Priority"
+msgstr "快捷键优先级"
+
+#: ops_io.py:115
+msgid "How closely the keys follow the curve (more keys are added where needed)"
+msgstr "关键帧跟随曲线的紧密程度（在需要处添加更多关键帧）"
+
+#: ops_timetools.py:719
+msgid "How far it keeps drifting, as part of the distance it covered in the same number of frames before the key"
+msgstr "继续漂移的距离，作为关键帧前相同帧数内所移动距离的一部分"
+
+#: ops_shape.py:890
+msgid "How far the arc swings out (1: like the path was)"
+msgstr "弧线向外摆动的幅度（1：与路径原样相同）"
+
+#: ops_tools.py:1692
+msgid "How far the cleaned path may move away from the original, in percent of the path size (lower keeps more keys)"
+msgstr "清理后的路径偏离原始路径的最大距离，按路径尺寸的百分比表示（越低保留的关键帧越多）"
+
+#: ops_tools.py:2284
+msgid "How far the handle after the key goes up (scale value)"
+msgstr "关键帧之后的控制柄向上延伸的距离（缩放值）"
+
+#: ops_timetools.py:933
+msgid "How far the speed change spreads (1: about a third of the segment, as always; more: on over the keys into the segments around - each of them still takes its frames). The mouse wheel while dragging"
+msgstr "速度变化的扩散范围（1：约为该段的三分之一，与平常一样；更大：越过关键帧延伸到周围段——每段仍采用自己的帧数）。拖动时使用鼠标滚轮"
+
+#: snapshots.py:975
+msgid "How far toward the snapshot's pose: 0 the pose as it is, 1 the snapshot's"
+msgstr "向快照姿态过渡的程度：0 为当前姿态，1 为快照姿态"
+
+#: ops_keys.py:1229
+msgid "How many frames after (or before) the selected key"
+msgstr "所选关键帧之后（或之前）的帧数"
+
+#: ops_timetools.py:1223
+msgid "How many frames around the mouse are smoothed (the mouse wheel while smoothing)"
+msgstr "鼠标周围被平滑的帧数（平滑时使用鼠标滚轮）"
+
+#: ops_keys.py:1035
+msgid "How many frames later the copies go (0: halfway to the next key)"
+msgstr "副本后移的帧数（0：到下一关键帧的一半）"
+
+#: props.py:482
+msgid "How many ghosts after the current frame"
+msgstr "当前帧之后的残影数量"
+
+#: props.py:480
+msgid "How many ghosts before the current frame"
+msgstr "当前帧前显示多少个残影"
+
+#: ops_timetools.py:1226
+msgid "How much a stroke smooths (Shift+wheel while smoothing)"
+msgstr "笔划平滑程度（平滑时按 Shift+滚轮）"
+
+#: props.py:628
+msgid "How much of the easing (0: the timing as it was)"
+msgstr "缓动应用程度（0：时序保持不变）"
+
+#: props.py:746
+msgid "How rough the motion has to be to show full red (lower = more sensitive). Roughness is the frame-to-frame change of acceleration relative to the average speed"
+msgstr "运动多粗糙才显示为全红（越低越敏感）。粗糙度是加速度逐帧变化相对于平均速度的比值"
+
+#: ops_timing.py:195
+msgid "How softly the new spacing hands over to the timing after the range at its end. O while dragging, then move the mouse"
+msgstr "新间距在范围末端后多柔和地过渡到原有时序。拖动时按 O，然后移动鼠标"
+
+#: ops_timing.py:191
+msgid "How softly the new spacing takes over at the start: over that share of the range the speed carries on from the timing before it (no seam). I while dragging, then move the mouse"
+msgstr "新间距在起点处多柔和地接管：在该范围占比内，速度延续此前时序（无接缝）。拖动时按 I，然后移动鼠标"
+
+#: props.py:196
+msgid "How strong the brush is (Shift+F)"
+msgstr "笔刷强度（Shift+F）"
+
+#: ops_timing.py:189
+msgid "How strong the slow in / slow out is (mouse wheel)"
+msgstr "缓入/缓出强度（鼠标滚轮）"
+
+#: props.py:198
+msgid "How the brush fades out toward its edge"
+msgstr "笔刷向边缘的衰减方式"
+
+#: easing.py:12
+#: ops_tools.py:2004
+msgid "In"
+msgstr "缓入"
+
+#: easing.py:12
+#: ops_tools.py:2003
+msgid "In & Out"
+msgstr "缓入缓出"
+
+#: props.py:374
+#: props.py:593
+msgid "In Front"
+msgstr "在前方"
+
+#: ops_tools.py:325
+msgid "In the unit of the preferences (percent of the body, or kg / lb of the Body Mass)"
+msgstr "使用偏好设置中的单位（身体的百分比，或身体质量的 kg / lb）"
+
+#: props.py:295
+msgid "Index"
+msgstr "索引"
+
+#: ops_shape.py:671
+#: snapshots.py:975
+msgid "Influence"
+msgstr "影响"
+
+#: props.py:204
+msgid "Insert Keys"
+msgstr "插入关键帧"
+
+#: ops_timing.py:198
+msgid "Insert keys where the existing ones can't follow the new spacing closely enough"
+msgstr "在现有键无法足够贴合新间距的位置插入关键帧"
+
+#: props.py:678
+msgid "Inside"
+msgstr "内部"
+
+#: ops_timetools.py:661
+msgid "Inside the loop (Cycles): keys going past its end come back at its start, its frames and length stay. Off: all the keys move"
+msgstr "在循环内部（Cycles）：越过循环末端的关键帧会从起点重新出现，循环的帧范围和长度保持不变。关闭：所有关键帧都会移动"
+
+#: ops_select.py:723
+#: ops_tools.py:1013
+msgid "Interpolation"
+msgstr "插值"
+
+#: ops_transform.py:461
+msgid "Inverse Square"
+msgstr "平方反比"
+
+#: ops_easing.py:90
+#: ops_select.py:408
+msgid "Invert"
+msgstr "反转"
+
+#: props.py:819
+#: props.py:820
+msgid "Its mass, from the character's Body Mass"
+msgstr "其质量，取自角色的身体质量"
+
+#: ops_tools.py:775
+msgid "Its object is hidden or gone"
+msgstr "其物体已隐藏或不存在"
+
+#: props.py:821
+msgid "Its share of the whole body"
+msgstr "其占整个身体的比例"
+
+#: props.py:441
+msgid "Jitter"
+msgstr "抖动"
+
+#: props.py:746
+#: props.py:896
+msgid "Jitter Threshold"
+msgstr "抖动阈值"
+
+#: ops_tools.py:371
+msgid "KG"
+msgstr "千克"
+
+#: ops_tools.py:1701
+msgid "Keep Holds"
+msgstr "保留停顿"
+
+#: ops_shape.py:94
+msgid "Keep Offset"
+msgstr "保持偏移"
+
+#: ops_tools.py:1704
+msgid "Keep Poses"
+msgstr "保留姿势"
+
+#: ops_io.py:108
+#: ops_keys.py:685
+msgid "Keep Timing"
+msgstr "保留时序"
+
+#: props.py:832
+msgid "Keep the Graph's Keys"
+msgstr "保留曲线图的关键帧"
+
+#: ops_easing.py:43
+#: ops_tools.py:2008
+msgid "Keep the Path"
+msgstr "保持路径"
+
+#: ops_tools.py:2013
+msgid "Keep the Path: allowed distance from the exact new motion (percent of the path size); lower adds more keys"
+msgstr "保持路径：允许偏离精确新运动的距离（路径大小的百分比）；越低会添加越多关键帧"
+
+#: ops_easing.py:79
+msgid "Keep the Path: how much of the easing (0: the timing as it was)"
+msgstr "保持路径：缓动应用程度（0：时序保持不变）"
+
+#: ops_easing.py:87
+#: props.py:637
+msgid "Keep the Path: how softly the easing joins the timing left as it is before From and after To (share of the part)"
+msgstr "保持路径：缓动与起点前、终点后保持原样的时序衔接有多柔和（该部分的占比）"
+
+#: ops_easing.py:90
+msgid "Keep the Path: the easing goes on outside From - To, the timing between them stays"
+msgstr "保持路径：缓动在起点 - 终点之外继续，二者之间的时序保持不变"
+
+#: props.py:640
+msgid "Keep the Path: the easing goes on outside From - To, the timing between them stays as it is"
+msgstr "保持路径：缓动在起点 - 终点之外继续，二者之间的时序保持原样"
+
+#: props.py:643
+msgid "Keep the Path: where in the selected part the easing begins (before it the timing stays; e.g. Out from 60%: only the end slows down, the start keeps its speed)"
+msgstr "保持路径：缓动在选中部分中的起始位置（在此之前时序保持不变；例如从 60% 开始缓出：只有末端减速，起点保持原速度）"
+
+#: ops_easing.py:81
+msgid "Keep the Path: where in the selected part the easing begins (before it the timing stays; the speed carries on smoothly into it)"
+msgstr "保持路径：缓动在选中部分中的起始位置（在此之前时序保持不变；速度会平滑地延续进入缓动）"
+
+#: ops_easing.py:84
+#: props.py:647
+msgid "Keep the Path: where in the selected part the easing ends (after it the timing stays)"
+msgstr "保持路径：缓动在选中部分中的结束位置（之后时序保持不变）"
+
+#: ops_shape.py:1054
+msgid "Key Every"
+msgstr "关键帧间隔"
+
+#: props.py:451
+msgid "Key Numbers"
+msgstr "关键帧编号"
+
+#: props.py:763
+msgid "Key Size"
+msgstr "关键帧大小"
+
+#: ops_timetools.py:922
+msgid "Key Speed"
+msgstr "关键帧速度"
+
+#: props.py:867
+msgid "Key Ticks"
+msgstr "关键帧刻度"
+
+#: ops_timetools.py:921
+msgid "Key Time"
+msgstr "关键帧时间"
+
+#: ops_timetools.py:924
+msgid "Key Time: the key moved; Ease: the segment's first key"
+msgstr "关键帧时间：移动的关键帧；缓动：该段的首个关键帧"
+
+#: ops_timetools.py:928
+msgid "Key Time: where the key goes"
+msgstr "关键帧时间：关键帧移动到的位置"
+
+#: snapshots.py:972
+msgid "Key the pose on the current frame (off: on the snapshot's own frame)"
+msgstr "在当前帧为姿势插入关键帧（关闭：在快照自身的帧上）"
+
+#: ops_select.py:724
+msgid "Keyframe Type"
+msgstr "关键帧类型"
+
+#: props.py:859
+#: ui.py:740
+msgid "Keys"
+msgstr "关键帧"
+
+#: ops_io.py:22
+msgid "Keys (Bezier)"
+msgstr "关键帧（贝塞尔）"
+
+#: ops_slide.py:259
+msgid "Keys keep their frame and slide along the trajectory under the mouse, so the bone arrives there earlier or later"
+msgstr "关键帧保持所在帧，并沿鼠标下的轨迹滑动，使骨骼更早或更晚到达该处"
+
+#: ops_slide.py:261
+msgid "Keys keep their pose and move in time (like dragging them in the timeline). The frame dots around them spread out or bunch up"
+msgstr "关键帧保持姿势并随时间移动（就像在时间线中拖动它们）。其周围的帧点会散开或聚拢"
+
+#: ops_select.py:724
+msgid "Keys of the same keyframe type (keyframe, breakdown...)"
+msgstr "相同关键帧类型的关键帧（关键帧、分解帧……）"
+
+#: ops_select.py:725
+msgid "Keys that are keyed on some channels only (dark center), or fully keyed ones"
+msgstr "仅在部分通道上有关键帧的关键帧（中心较暗），或所有通道都有关键帧的关键帧"
+
+#: ops_select.py:727
+msgid "Keys where the motion stops (or keys where it doesn't)"
+msgstr "运动停止处的关键帧（或运动未停止处的关键帧）"
+
+#: ops_tools.py:1704
+msgid "Keys where the motion stops for a moment or turns back (contacts, extremes) stay, like an animator would keep them"
+msgstr "运动短暂停止或折返处的关键帧（接触、极值）会保留，就像动画师会保留它们一样"
+
+#: ops_select.py:722
+msgid "Keys with the same handle type"
+msgstr "相同控制柄类型的关键帧"
+
+#: ops_select.py:723
+msgid "Keys with the same interpolation"
+msgstr "相同插值的关键帧"
+
+#: props.py:819
+msgid "Kilograms"
+msgstr "千克"
+
+#: ops_tools.py:371
+msgid "LB"
+msgstr "磅"
+
+#: snapshots.py:1109
+msgid "LIVE"
+msgstr "实时"
+
+#: ops_fmods.py:370
+msgid "Last"
+msgstr "最后"
+
+#: ops_timetools.py:925
+msgid "Last Frame"
+msgstr "最后一帧"
+
+#: ops_vertex.py:227
+msgid "Last frame of the path"
+msgstr "路径的最后一帧"
+
+#: props.py:662
+msgid "Last frame of the speed graph"
+msgstr "速度图的最后一帧"
+
+#: props.py:694
+msgid "Layout"
+msgstr "布局"
+
+#: props.py:523
+msgid "Length"
+msgstr "长度"
+
+#: ops_timetools.py:717
+msgid "Length of the hold (0: halfway to the next key)"
+msgstr "保持长度（0：到下一个关键帧的一半）"
+
+#: ops_select.py:658
+msgid "Less"
+msgstr "更少"
+
+#: props.py:778
+msgid "Light up what a click would grab: a key, a handle, a frame dot, a gizmo arrow or ring under the mouse (like Blender's gizmos)"
+msgstr "高亮单击会抓取的对象：关键帧、控制柄、帧点、鼠标下的 gizmo 箭头或圆环（类似 Blender 的 gizmo）"
+
+#: props.py:354
+msgid "Limb"
+msgstr "肢体"
+
+#: props.py:803
+msgid "Limb Color"
+msgstr "肢体颜色"
+
+#: ops_tools.py:278
+#: ops_tools.py:318
+msgid "Limb Weight"
+msgstr "肢体权重"
+
+#: props.py:816
+msgid "Limb Weight In"
+msgstr "肢体权重输入"
+
+#: ui.py:876
+msgid "Limb Weight: select a bone"
+msgstr "肢体权重：选择骨骼"
+
+#: ops_fmods.py:19
+msgid "Limits"
+msgstr "限制"
+
+#: props.py:762
+msgid "Line Width"
+msgstr "线宽"
+
+#: ops_tools.py:1556
+msgid "Line between the unselected neighbor keys, or the center when everything is selected"
+msgstr "未选中的相邻关键帧之间的线；全部选中时为中心线"
+
+#: ops_tools.py:1015
+#: ops_transform.py:462
+msgid "Linear"
+msgstr "线性"
+
+#: props.py:253
+#: props.py:358
+msgid "Live"
+msgstr "实时"
+
+#: props.py:360
+msgid "Live: the frame whose pose it shows. Static: the frame it was taken on; changed, it shows that frame's pose - the check mark next to it keeps it, another frame on the timeline goes back to the one it was taken on"
+msgstr "实时：显示其姿势的帧。静态：截取时的帧；更改后会显示该帧的姿势——旁边的勾选标记会保留它，时间轴上的另一帧会回到截取时的帧"
+
+#: props.py:253
+msgid "Live: the path follows the animation by itself (a vertex an Armature modifier moves: worked out from its bones). Static: kept as it was tracked - Update Static Path tracks it again"
+msgstr "实时：路径自动跟随动画（由骨架修改器移动的顶点：根据其骨骼计算）。静态：保持跟踪时的状态——更新静态路径会重新跟踪"
+
+#: ops_tools.py:532
+#: props.py:309
+msgid "Local"
+msgstr "局部"
+
+#: ops_timetools.py:20
+#: ops_tools.py:557
+msgid "Location"
+msgstr "位置"
+
+#: props.py:458
+msgid "Location paths: Blender's move gizmo at the selected key - drag an arrow to move along that axis (the header's orientation), a square to move in its plane; the key itself still moves freely"
+msgstr "位置路径：所选关键帧处的 Blender 移动 gizmo——拖动箭头沿该轴移动（标题栏的方向），拖动方块在其平面内移动；关键帧本身仍可自由移动"
+
+#: ops_keys.py:1435
+#: ops_timetools.py:499
+msgid "Loop"
+msgstr "循环"
+
+#: props.py:757
+msgid "Loop Repeats"
+msgstr "循环重复"
+
+#: ops_keys.py:1402
+msgid "Loop every channel of the bone / object, not only the ones of the current mode"
+msgstr "循环骨骼/物体的每个通道，而不仅是当前模式的通道"
+
+#: ui.py:497
+#: ui.py:718
+msgid "LoopTools"
+msgstr "LoopTools"
+
+#: props.py:757
+msgid "Looping motion: draw the path outside the loop's keys (the repeats) faintly"
+msgstr "循环运动：在循环关键帧之外（重复部分）淡淡绘制路径"
+
+#: props.py:419
+#: props.py:562
+msgid "Manual"
+msgstr "手动"
+
+#: props.py:842
+msgid "Margin X"
+msgstr "边距 X"
+
+#: props.py:844
+msgid "Margin Y"
+msgstr "边距 Y"
+
+#: ops_transform.py:501
+msgid "Measure the distance along the path"
+msgstr "测量沿路径的距离"
+
+#: ops_transform.py:503
+msgid "Measure the distance on the screen"
+msgstr "测量屏幕上的距离"
+
+#: ops_keys.py:766
+msgid "Merge"
+msgstr "合并"
+
+#: ops_tools.py:1438
+#: ops_tools.py:1687
+msgid "Method"
+msgstr "方法"
+
+#: ops_easing.py:76
+#: ops_slide.py:258
+msgid "Mode"
+msgstr "模式"
+
+#: ops_fmods.py:666
+msgid "Modifier"
+msgstr "修改器"
+
+#: ops_fmods.py:651
+msgid "Modifier Tools"
+msgstr "修改器工具"
+
+#: ops_fmods.py:749
+msgid "Modifiers"
+msgstr "修改器"
+
+#: ui.py:539
+msgid "Motion Path"
+msgstr "运动路径"
+
+#: ops_easing.py:959
+#: ops_fmods.py:748
+msgid "Motion Paths"
+msgstr "运动路径"
+
+#: ops_transform.py:516
+msgid "Mouse wheel moves the keys in time (Shift+D)"
+msgstr "鼠标滚轮按时间移动关键帧（Shift+D）"
+
+#: ops_transform.py:479
+#: ops_transform.py:840
+msgid "Move"
+msgstr "移动"
+
+#: props.py:458
+msgid "Move Gizmo"
+msgstr "移动 gizmo"
+
+#: ops_io.py:108
+msgid "Move along the curve with the same spacing as before (slow parts stay slow)"
+msgstr "沿曲线移动并保持原有间距（慢速部分仍慢）"
+
+#: ops_keys.py:1231
+msgid "Move from the key it grows from"
+msgstr "从它延伸出的关键帧开始移动"
+
+#: ops_transform.py:479
+msgid "Move keys / handles"
+msgstr "移动关键帧/控制柄"
+
+#: ops_timetools.py:367
+msgid "Move the keys after the selection too"
+msgstr "同时移动所选关键帧之后的关键帧"
+
+#: ops_shape.py:94
+msgid "Move the keys together, their median onto the cursor"
+msgstr "一起移动关键帧，将其中位点移到光标处"
+
+#: props.py:365
+msgid "Moved aside by this much (world space): side by side with the character"
+msgstr "侧移此距离（世界空间）：与角色并排"
+
+#: props.py:344
+msgid "Name"
+msgstr "名称"
+
+#: ops_tools.py:1558
+msgid "Neighbors"
+msgstr "相邻项"
+
+#: ops_timetools.py:928
+msgid "New Frame"
+msgstr "新建帧"
+
+#: ui.py:943
+msgid "New curves get it too: Preferences > Animation >"
+msgstr "新曲线也会采用：偏好设置 > 动画 >"
+
+#: ops_shape.py:47
+#: ops_shape.py:113
+msgid "No active key: click a key first"
+msgstr "无活动关键帧：请先点击一个关键帧"
+
+#: ops_tools.py:712
+msgid "No active object: select what the path should be relative to"
+msgstr "无活动物体：请选择路径应相对于的对象"
+
+#: ops_vertex.py:278
+msgid "No active vertex: click a vertex first"
+msgstr "无活动顶点：请先点击一个顶点"
+
+#: ui.py:457
+msgid "No animated values (custom properties, influences...)"
+msgstr "没有动画值（自定义属性、影响……）"
+
+#: snapshots.py:996
+msgid "No bone to apply it to (select some, or Whole Pose)"
+msgstr "没有可应用到的骨骼（选择一些，或使用整体姿态）"
+
+#: ui.py:935
+msgid "No curve here uses Continuous Acceleration"
+msgstr "此处没有曲线使用连续加速度"
+
+#: ops_tools.py:1288
+#: ops_tools.py:1300
+msgid "No editable path: select a bone/object that has a path"
+msgstr "无可编辑路径：请选择有路径的骨骼/物体"
+
+#: ops_fmods.py:699
+msgid "No modifiers (Alt+C adds Cycles)"
+msgstr "无修改器（Alt+C 添加 Cycles）"
+
+#: ops_keys.py:1000
+msgid "No path to paste on (select a bone / object with an editable path)"
+msgstr "没有可粘贴的路径（选择有可编辑路径的骨骼/物体）"
+
+#: snapshots.py:1079
+msgid "No snapshots: take one of the pose (Pose Mode)"
+msgstr "没有快照：为姿态创建一个（姿态模式）"
+
+#: ops_fmods.py:18
+msgid "Noise"
+msgstr "噪波"
+
+#: props.py:684
+msgid "None"
+msgstr "无"
+
+#: ops_tools.py:383
+msgid "None of these bones moves a part with weight of its own"
+msgstr "这些骨骼都没有带动自身有权重的部分"
+
+#: ops_tools.py:71
+msgid "Nothing new to add: select bones (Pose Mode) or objects"
+msgstr "没有可新增的内容：请选择骨骼（姿态模式）或物体"
+
+#: ops_tools.py:1844
+msgid "Nothing to clean: select a bone/object with a path (and 2+ keys for a range)"
+msgstr "没有可清理的内容：请选择有路径的骨骼/物体（范围需 2 个以上关键帧）"
+
+#: ops_io.py:159
+msgid "Nothing to do: the path needs a range of 2+ frames"
+msgstr "无可操作：路径需要 2 帧以上的范围"
+
+#: ops_keys.py:199
+#: ops_keys.py:229
+msgid "Number of Cuts"
+msgstr "切割数量"
+
+#: ops_tools.py:692
+#: ops_tools.py:724
+msgid "Object"
+msgstr "物体"
+
+#: ops_keys.py:1231
+#: ops_tools.py:2284
+msgid "Offset"
+msgstr "偏移"
+
+#: props.py:684
+msgid "On the X ribbon's edges"
+msgstr "在 X 条带的边缘上"
+
+#: props.py:685
+msgid "On the Z ribbon's edges"
+msgstr "在 Z 条带的边缘上"
+
+#: props.py:699
+msgid "On the location path"
+msgstr "在位置路径上"
+
+#: props.py:685
+msgid "On the path (Y is the ribbons' color)"
+msgstr "在路径上（Y 为条带颜色）"
+
+#: props.py:602
+msgid "On the side of the bone's +X axis"
+msgstr "在骨骼 +X 轴一侧"
+
+#: props.py:603
+msgid "On the side of the bone's -X axis"
+msgstr "在骨骼 -X 轴一侧"
+
+#: ops_io.py:22
+msgid "One Bezier point per key, with the key's handles"
+msgstr "每个关键帧一个贝塞尔点，带该关键帧的手柄"
+
+#: props.py:402
+msgid "One animated value (custom property, IK/FK switch, constraint influence...) drawn as a track above the path; move its keys up and down (4)"
+msgstr "一个动画值（自定义属性、IK/FK 切换、约束影响……）绘制为路径上方的轨道；上下移动其关键帧（4）"
+
+#: props.py:444
+msgid "One color"
+msgstr "单一颜色"
+
+#: props.py:372
+msgid "One flat see-through color"
+msgstr "单一半透明纯色"
+
+#: ops_keys.py:682
+msgid "One key in the middle (frame and position)"
+msgstr "中间一个关键帧（帧与位置）"
+
+#: ops_io.py:23
+msgid "One point per frame: exactly the path"
+msgstr "每帧一个点：精确路径"
+
+#: props.py:496
+msgid "Onion Bones"
+msgstr "洋葱皮骨骼"
+
+#: props.py:473
+msgid "Onion Mode"
+msgstr "洋葱皮模式"
+
+#: props.py:469
+#: props.py:912
+msgid "Onion Skin"
+msgstr "洋葱皮"
+
+#: props.py:796
+msgid "Onion skin: how objects without a shape of their own (speakers, light probes, force fields...) are drawn"
+msgstr "洋葱皮：没有自身形状的物体（扬声器、光照探针、力场……）的绘制方式"
+
+#: props.py:792
+msgid "Onion skin: the ghosts are captured ahead of time this many frames before and after the current frame (the ones shown always are); more: smoother playback, more work"
+msgstr "洋葱皮：残影会提前在当前帧前后这么多帧处捕获（显示的始终会被捕获）；数值越大：播放越流畅，但计算量越大"
+
+#: props.py:431
+msgid "Only Selected"
+msgstr "仅选中项"
+
+#: props.py:425
+msgid "Only draw the part of the path around the current frame"
+msgstr "仅绘制当前帧附近的路径部分"
+
+#: props.py:579
+msgid "Only one vertex group of the ghosted meshes (say the lower part of a handle); what has no such group isn't shown"
+msgstr "仅残影网格的一个顶点组（例如手柄的下半部分）；没有该顶点组的部分不显示"
+
+#: ui.py:1097
+msgid "Only paths of selected bones/objects"
+msgstr "仅选中骨骼/物体的路径"
+
+#: ops_timetools.py:20
+msgid "Only the location channels"
+msgstr "仅位置通道"
+
+#: props.py:577
+msgid "Only the objects the edited bones move: for characters made of separate parts, a part with no weight from them isn't shown"
+msgstr "仅被编辑骨骼带动的物体：对于由分离部件组成的角色，没有这些骨骼权重的部件不显示"
+
+#: ops_timetools.py:23
+msgid "Only the other animated values (custom properties...)"
+msgstr "仅其他动画值（自定义属性……）"
+
+#: props.py:575
+msgid "Only the part of the mesh the edited bones move (their weights, and of the bones that follow them: children, IK chains)"
+msgstr "仅网格中被编辑骨骼带动的部分（这些骨骼的权重，以及跟随它们的骨骼：子级、IK 链）"
+
+#: props.py:353
+msgid "Only the part of the selected bones themselves"
+msgstr "仅选中骨骼自身的部分"
+
+#: props.py:350
+msgid "Only the part the bones move"
+msgstr "仅骨骼带动的部分"
+
+#: snapshots.py:808
+msgid "Only the part the selected bones move"
+msgstr "仅选中骨骼带动的部分"
+
+#: ops_timetools.py:21
+msgid "Only the rotation channels"
+msgstr "仅旋转通道"
+
+#: ops_timetools.py:22
+msgid "Only the scale channels"
+msgstr "仅缩放通道"
+
+#: props.py:498
+#: snapshots.py:971
+msgid "Only the selected bones"
+msgstr "仅选中骨骼"
+
+#: ops_tools.py:2008
+msgid "Only the timing changes: the frames bunch up at the key along the same path (keys are added where needed)"
+msgstr "仅改变时间：帧沿同一路径在关键帧处聚拢（按需添加关键帧）"
+
+#: props.py:309
+msgid "Only this bone's / object's own motion: the path is drawn in its parent's space as it is on the current frame, so it moves along with the parent"
+msgstr "仅此骨骼/物体自身的运动：路径按当前帧的父级空间绘制，因此会随父级一起移动"
+
+#: props.py:370
+#: props.py:486
+msgid "Opacity"
+msgstr "不透明度"
+
+#: snapshots.py:1011
+msgid "Open / close them all"
+msgstr "全部展开/折叠"
+
+#: ops_shape.py:172
+#: ops_transform.py:488
+msgid "Orientation"
+msgstr "方向"
+
+#: props.py:796
+msgid "Other Objects"
+msgstr "其他物体"
+
+#: easing.py:12
+#: ops_tools.py:2005
+msgid "Out"
+msgstr "外"
+
+#: props.py:676
+msgid "Outside"
+msgstr "外部"
+
+#: ops_easing.py:93
+msgid "Overshoot"
+msgstr "过冲"
+
+#: ops_easing.py:941
+msgid "P in the viewport: pick, see the speed it gives, tune, apply"
+msgstr "在视图中按 P：拾取、查看其产生的速度、调节、应用"
+
+#: ops_tools.py:371
+msgid "PERCENT"
+msgstr "百分比"
+
+#: ops_sculpt.py:1074
+msgid "Paint on motion paths with brushes: the timing (Push, Slow Down, Speed Up, Even: the shape stays) or the shape (Grab, Smooth, Pinch). F: radius, Shift+F: strength, Ctrl: the opposite effect, Shift: Smooth, Ctrl+Shift: Even, Alt: Dissolve, right click: the brushes"
+msgstr "用笔刷在运动路径上绘制：时间（推、减速、加速、均匀：形状不变）或形状（抓取、平滑、捏挤）。F：半径，Shift+F：强度，Ctrl：相反效果，Shift：平滑，Ctrl+Shift：均匀，Alt：溶解，右键：笔刷"
+
+#: space.py:14
+msgid "Parent"
+msgstr "父级"
+
+#: ops_tools.py:1456
+msgid "Parents Smooth"
+msgstr "父级平滑"
+
+#: ops_tools.py:278
+#: props.py:348
+msgid "Part"
+msgstr "部分"
+
+#: ops_select.py:725
+msgid "Partial Keys"
+msgstr "部分关键帧"
+
+#: ops_keys.py:952
+msgid "Paste every copied channel of the bone / object, not only the ones of the current mode"
+msgstr "粘贴骨骼/物体所有已复制的通道，而不仅是当前模式的通道"
+
+#: space.py:11
+msgid "Path"
+msgstr "路径"
+
+#: props.py:744
+msgid "Path Color"
+msgstr "路径颜色"
+
+#: props.py:895
+msgid "Path Color (Time / Solid)"
+msgstr "路径颜色（时间/纯色）"
+
+#: ui.py:253
+#: ui.py:1054
+msgid "Path Display"
+msgstr "路径显示"
+
+#: ops_fmods.py:760
+#: ui.py:254
+msgid "Path Modifiers"
+msgstr "路径修改器"
+
+#: props.py:722
+msgid "Path keys that are keyed on some channels only (dark center) get keyed on the other channels too when a neighbor is edited, so they stay in place instead of following it"
+msgstr "仅在部分通道上有关键帧的路径关键帧（中心较暗）在编辑相邻关键帧时也会在其他通道上打关键帧，从而保持原位而不跟随相邻关键帧"
+
+#: ui.py:532
+msgid "Path to Curve"
+msgstr "路径转曲线"
+
+#: props.py:561
+#: props.py:892
+msgid "Paths"
+msgstr "路径"
+
+#: props.py:869
+msgid "Paths First"
+msgstr "路径优先"
+
+#: props.py:821
+msgid "Percent"
+msgstr "百分比"
+
+#: ops_easing.py:97
+msgid "Period"
+msgstr "周期"
+
+#: ops_io.py:145
+msgid "Pick a curve object"
+msgstr "拾取曲线物体"
+
+#: ops_easing.py:72
+msgid "Pick the easing from a gallery under the mouse (P)"
+msgstr "从鼠标下的图库中拾取缓动（P）"
+
+#: ops_tools.py:733
+msgid "Pick the object (and bone) the path should be relative to"
+msgstr "拾取路径应相对的对象（及骨骼）"
+
+#: ops_tools.py:2228
+#: ops_tools.py:2292
+msgid "Picked"
+msgstr "已拾取"
+
+#: props.py:722
+msgid "Pin Partial Keys"
+msgstr "固定部分关键帧"
+
+#: ops_sculpt.py:32
+msgid "Pinch"
+msgstr "捏挤"
+
+#: props.py:800
+msgid "Plain Axes"
+msgstr "普通坐标轴"
+
+#: ops_shape.py:983
+msgid "Plane"
+msgstr "平面"
+
+#: ops_io.py:21
+#: ops_tools.py:513
+msgid "Points"
+msgstr "点"
+
+#: props.py:586
+msgid "Points / lines of the ghosts: how thick they are"
+msgstr "残影的点/线：粗细"
+
+#: props.py:477
+msgid "Points of the meshes: the lightest to draw"
+msgstr "网格的点：绘制最轻量"
+
+#: ops_io.py:111
+msgid "Points to Keys"
+msgstr "点转关键帧"
+
+#: ops_tools.py:1435
+msgid "Positive values smooth (higher = stronger), negative values sharpen (anti-smooth)"
+msgstr "正值平滑（越高越强），负值锐化（反平滑）"
+
+#: props.py:820
+msgid "Pounds"
+msgstr "磅"
+
+#: props.py:588
+msgid "Preview Unkeyed Pose"
+msgstr "预览未打关键帧的姿态"
+
+#: ops_shape.py:354
+#: ops_timing.py:188
+msgid "Profile"
+msgstr "轮廓"
+
+#: ops_transform.py:503
+msgid "Projected (2D)"
+msgstr "投影（2D）"
+
+#: ui.py:278
+msgid "Proportional"
+msgstr "衰减"
+
+#: ops_transform.py:497
+#: ui.py:226
+msgid "Proportional Editing"
+msgstr "衰减编辑"
+
+#: ops_transform.py:498
+#: props.py:408
+msgid "Proportional Size"
+msgstr "衰减大小"
+
+#: ops_tools.py:1441
+msgid "Pull keys toward the in-between of their neighbors in time (also evens out the spacing, but flattens arcs)"
+msgstr "将关键帧在时间上拉向相邻关键帧的中间（也会均匀间距，但会压平弧线）"
+
+#: ops_sculpt.py:23
+msgid "Push"
+msgstr "推"
+
+#: ops_keys.py:200
+msgid "Put the new keys on whole frames (otherwise exactly evenly spaced, on subframes)"
+msgstr "将新关键帧放在整帧上（否则会在子帧上精确等距）"
+
+#: easing.py:8
+msgid "Quadratic"
+msgstr "二次"
+
+#: easing.py:8
+msgid "Quartic"
+msgstr "四次"
+
+#: easing.py:9
+msgid "Quintic"
+msgstr "五次"
+
+#: ops_select.py:873
+#: ops_shape.py:821
+msgid "Radius"
+msgstr "半径"
+
+#: props.py:408
+msgid "Radius of proportional editing on paths (on/off, falloff and connected are Blender's own settings: O, Shift+O, Alt+O)"
+msgstr "路径上衰减编辑的半径（开/关、衰减和相连是 Blender 自带设置：O、Shift+O、Alt+O）"
+
+#: ops_shape.py:821
+msgid "Radius of the circle (0: fit to the keys)"
+msgstr "圆的半径（0：适配关键帧）"
+
+#: ops_transform.py:463
+msgid "Random"
+msgstr "随机"
+
+#: ops_vertex.py:260
+#: props.py:413
+msgid "Range"
+msgstr "范围"
+
+#: ops_timetools.py:933
+#: props.py:605
+msgid "Reach"
+msgstr "触及范围"
+
+#: ops_tools.py:1689
+msgid "Rebuild the keys from scratch: as few as possible, on the frames where the shape needs them"
+msgstr "从头重建关键帧：尽可能少，放在形状需要它们的帧上"
+
+#: props.py:728
+msgid "Recalculate paths automatically when other animation (e.g. parents) changes"
+msgstr "其他动画（如父级）变化时自动重新计算路径"
+
+#: ops_fmods.py:426
+#: ops_fmods.py:486
+msgid "Reduce the baked keys while keeping the motion (Clean Up)"
+msgstr "在保持运动的同时减少烘焙关键帧（清理）"
+
+#: ops_shape.py:823
+msgid "Regular"
+msgstr "常规"
+
+#: props.py:300
+msgid "Relative"
+msgstr "相对"
+
+#: ops_tools.py:1555
+#: props.py:302
+msgid "Relative To"
+msgstr "相对于"
+
+#: props.py:304
+msgid "Relative To: a bone of that armature (empty: the object itself)"
+msgstr "相对于：该骨架的骨骼（空：物体本身）"
+
+#: props.py:302
+msgid "Relative To: the object the path is drawn relative to"
+msgstr "相对于：绘制路径所相对的对象"
+
+#: props.py:300
+msgid "Relative To: the path as seen from an object or bone of your choice"
+msgstr "相对于：从所选物体或骨骼观察到的路径"
+
+#: ops_fmods.py:610
+#: snapshots.py:1009
+msgid "Remove All"
+msgstr "全部移除"
+
+#: ops_fmods.py:610
+msgid "Remove every modifier"
+msgstr "移除所有修改器"
+
+#: snapshots.py:1009
+msgid "Remove every snapshot"
+msgstr "移除所有快照"
+
+#: ops_tools.py:1688
+msgid "Remove keys that are not needed and refit the handles of the rest"
+msgstr "移除不需要的关键帧并重新拟合其余控制柄"
+
+#: ops_fmods.py:17
+msgid "Repeat the motion (a loop)"
+msgstr "重复运动（循环）"
+
+#: props.py:614
+msgid "Retime along the path: the shape stays (Location and Rotation paths)"
+msgstr "沿路径重定时：形状保持不变（位置和旋转路径）"
+
+#: ops_easing.py:43
+msgid "Retime along the path: the shape stays, only where the bone is on each frame changes (Location and Rotation paths)"
+msgstr "沿路径重定时：形状保持不变，仅骨骼每帧所在位置变化（位置和旋转路径）"
+
+#: ops_io.py:114
+msgid "Reverse"
+msgstr "反向"
+
+#: props.py:784
+msgid "Ribbon"
+msgstr "条带"
+
+#: props.py:599
+msgid "Ribbon Side"
+msgstr "条带侧"
+
+#: props.py:769
+#: props.py:771
+msgid "Ribbon Width"
+msgstr "条带宽度"
+
+#: ops_timetools.py:367
+msgid "Ripple"
+msgstr "波纹"
+
+#: ops_transform.py:461
+#: props.py:201
+msgid "Root"
+msgstr "根"
+
+#: ops_shape.py:818
+#: ops_transform.py:480
+msgid "Rotate"
+msgstr "旋转"
+
+#: ops_transform.py:482
+msgid "Rotate freely around the pivot point (R R)"
+msgstr "绕轴心点自由旋转（R R）"
+
+#: ops_transform.py:480
+msgid "Rotate keys around the pivot point; a single key (or every key with Individual Origins) turns its handles"
+msgstr "绕轴心点旋转关键帧；单个关键帧（或在各自原点下每个关键帧）会转动其控制柄"
+
+#: ops_timetools.py:21
+#: ops_tools.py:558
+msgid "Rotation"
+msgstr "旋转"
+
+#: props.py:764
+msgid "Rotation Path Length"
+msgstr "旋转路径长度"
+
+#: props.py:595
+msgid "Rotation Ribbon"
+msgstr "旋转条带"
+
+#: props.py:906
+msgid "Rotation Ribbon Width"
+msgstr "旋转条带宽度"
+
+#: props.py:904
+msgid "Rotation and Scale"
+msgstr "旋转和缩放"
+
+#: ops_transform.py:514
+msgid "Rotation keys turn like a trackball (dragging the key)"
+msgstr "旋转关键帧像轨迹球一样转动（拖动关键帧）"
+
+#: props.py:764
+msgid "Rotation paths trace a point along the bone axis at this multiple of the bone length (object: in meters). Larger values make small rotations easier to see"
+msgstr "旋转路径沿骨骼轴按骨骼长度的此倍数追踪一个点（物体：以米为单位）。数值越大，小旋转越容易看清"
+
+#: props.py:605
+msgid "Rotation paths: a circle showing how far the tip can go (it stays on a sphere around the bone head)"
+msgstr "旋转路径：显示末端可达范围的圆（它始终位于骨骼头部周围的球面上）"
+
+#: props.py:595
+msgid "Rotation paths: a ribbon along the path of the tip, turned like the bone's X axis, so the twist (around Y) shows"
+msgstr "旋转路径：沿末端路径的条带，按骨骼 X 轴扭转，以显示绕 Y 轴的扭转"
+
+#: props.py:754
+msgid "Rotation paths: draw lines from the bone head to selected keys"
+msgstr "旋转路径：从骨骼头部向选中关键帧绘制连线"
+
+#: props.py:464
+msgid "Rotation paths: the bone's X, Y and Z rings at selected keys. Drag a ring to turn around that axis (Y: twist), drag the key to turn freely"
+msgstr "旋转路径：选中关键帧处骨骼的 X、Y、Z 环。拖动环可绕该轴转动（Y：扭转），拖动关键帧可自由转动"
+
+#: ops_transform.py:495
+msgid "Rotation paths: twist the bones around their own axis (Ctrl+T)"
+msgstr "旋转路径：绕骨骼自身轴扭转（Ctrl+T）"
+
+#: props.py:771
+msgid "Rotation ribbon: how wide it is"
+msgstr "旋转条带：宽度"
+
+#: ops_keys.py:339
+msgid "Round the cuts to whole frames"
+msgstr "将切割四舍五入到整帧"
+
+#: ops_timetools.py:22
+#: ops_tools.py:558
+msgid "Scale"
+msgstr "缩放"
+
+#: props.py:694
+msgid "Scale (3) and Value (4) paths: draw them along the motion path, or around a circle like a clock face (for things that don't move)"
+msgstr "缩放（3）和值（4）路径：沿运动路径绘制，或像钟面一样绕圆绘制（用于不移动的对象）"
+
+#: ui.py:998
+msgid "Scale / Value Layout"
+msgstr "缩放/值布局"
+
+#: props.py:707
+msgid "Scale Box"
+msgstr "缩放框"
+
+#: props.py:908
+msgid "Scale Box Size"
+msgstr "缩放框大小"
+
+#: props.py:680
+msgid "Scale Handles"
+msgstr "缩放控制柄"
+
+#: props.py:907
+msgid "Scale Ribbon Width"
+msgstr "缩放条带宽度"
+
+#: props.py:782
+msgid "Scale Y"
+msgstr "缩放 Y"
+
+#: props.py:710
+msgid "Scale handles picked on their whiskers (JSON). Saved in the scene so undo brings them back"
+msgstr "在其须线上拾取的缩放控制柄（JSON）。保存在场景中，因此撤销会将其恢复"
+
+#: ops_transform.py:483
+msgid "Scale keys around the pivot point; a single key (or every key with Individual Origins) scales its handles (speed through the key)"
+msgstr "绕轴心点缩放关键帧；单个关键帧（或在各自原点下每个关键帧）会缩放其控制柄（通过关键帧的速度）"
+
+#: props.py:707
+msgid "Scale paths: a box at the current frame, as big as the current scale"
+msgstr "缩放路径：当前帧处一个与当前缩放大小相同的框"
+
+#: props.py:769
+msgid "Scale paths: how wide the ribbons are drawn"
+msgstr "缩放路径：条带的绘制宽度"
+
+#: props.py:705
+msgid "Scale paths: the current scale next to the Scale Box"
+msgstr "缩放路径：缩放框旁的当前缩放"
+
+#: props.py:703
+msgid "Scale paths: the scale values next to the keys"
+msgstr "缩放路径：关键帧旁的缩放值"
+
+#: props.py:680
+msgid "Scale paths: whose handles (whiskers) are shown on the selected keys. Click a gizmo handle to pick it"
+msgstr "缩放路径：选中关键帧上显示哪些控制柄（须线）。点击控件控制柄以选择"
+
+#: ops_fmods.py:16
+msgid "Scale the motion between limits"
+msgstr "在限制范围内缩放运动"
+
+#: props.py:417
+#: props.py:559
+msgid "Scene"
+msgstr "场景"
+
+#: props.py:417
+msgid "Scene frame range (or preview range when enabled)"
+msgstr "场景帧范围（启用时为预览范围）"
+
+#: space.py:12
+msgid "Screen axes"
+msgstr "屏幕轴"
+
+#: ops_tools.py:902
+msgid "Sculpt"
+msgstr "雕刻"
+
+#: ops_sculpt.py:1073
+msgid "Sculpt Motion Path"
+msgstr "雕刻运动路径"
+
+#: props.py:192
+msgid "Sculpt Motion Path: what the brush does"
+msgstr "雕刻运动路径：笔刷的作用"
+
+#: props.py:374
+msgid "Seen through the character and everything else"
+msgstr "可穿透角色及其他物体看到"
+
+#: props.py:655
+msgid "Segment"
+msgstr "段"
+
+#: ops_shape.py:353
+msgid "Segments"
+msgstr "段数"
+
+#: ops_select.py:407
+msgid "Select"
+msgstr "选择"
+
+#: props.py:823
+msgid "Select New Keys"
+msgstr "选择新关键帧"
+
+#: ops_select.py:789
+msgid "Select Similar"
+msgstr "选择相似"
+
+#: ops_io.py:33
+#: ops_io.py:125
+msgid "Select a bone / object that has a path"
+msgstr "选择具有路径的骨骼/物体"
+
+#: ops_fmods.py:690
+msgid "Select a bone / object with a path"
+msgstr "选择具有路径的骨骼/物体"
+
+#: ops_sculpt.py:263
+msgid "Select a bone / object with a path to sculpt it"
+msgstr "选择具有路径的骨骼/物体以进行雕刻"
+
+#: ops_tools.py:305
+msgid "Select a bone of the rig"
+msgstr "选择绑定中的一根骨骼"
+
+#: ops_keys.py:141
+msgid "Select a bone/object that has a path"
+msgstr "选择有路径的骨骼/物体"
+
+#: ops_value.py:68
+msgid "Select a key first"
+msgstr "请先选择关键帧"
+
+#: ops_timetools.py:801
+msgid "Select a key with room after it"
+msgstr "选择其后留有空间的关键帧"
+
+#: ops_shape.py:382
+msgid "Select keys between two other keys to bevel"
+msgstr "选择另外两个关键帧之间的关键帧以进行倒角"
+
+#: ops_easing.py:341
+msgid "Select keys of a path (2 or more: the part between them)"
+msgstr "选择路径上的关键帧（2 个或更多：取它们之间的部分）"
+
+#: ops_fmods.py:494
+msgid "Select keys of the path: the modifier is baked between them"
+msgstr "选择路径上的关键帧：修改器将在它们之间烘焙"
+
+#: ops_slide.py:312
+#: ops_timetools.py:161
+msgid "Select keys on a path first"
+msgstr "请先选择路径上的关键帧"
+
+#: ops_tools.py:379
+msgid "Select several bones of the rig (Pose Mode)"
+msgstr "选择绑定中的多根骨骼（姿态模式）"
+
+#: ops_tools.py:583
+msgid "Select the bones / objects whose paths should keep a mode of their own"
+msgstr "选择其路径应保持自身模式的骨骼/物体"
+
+#: snapshots.py:881
+msgid "Select the bones whose part to show (Pose Mode)"
+msgstr "选择要显示其部分的骨骼（姿态模式）"
+
+#: ops_shape.py:1067
+msgid "Select the first and the last key of the part to redraw"
+msgstr "选择要重绘部分的首个和最后一个关键帧"
+
+#: ops_shape.py:573
+msgid "Select the first or last key of a path (not a looping one)"
+msgstr "选择路径的首个或最后一个关键帧（非循环路径）"
+
+#: ops_tools.py:1670
+msgid "Select the first or last key of a path: the one the loop should match"
+msgstr "选择路径的首个或最后一个关键帧：循环应与之匹配的那个"
+
+#: ops_keys.py:216
+msgid "Select two neighboring keys (a segment) to subdivide"
+msgstr "选择两个相邻关键帧（一段）以细分"
+
+#: ops_tools.py:99
+msgid "Selected"
+msgstr "已选中"
+
+#: props.py:350
+#: props.py:498
+msgid "Selected Bones"
+msgstr "已选骨骼"
+
+#: props.py:861
+msgid "Selected Keys"
+msgstr "已选关键帧"
+
+#: ops_select.py:442
+msgid "Set"
+msgstr "设置"
+
+#: ops_value.py:57
+msgid "Set these values on every selected key, not only the active one"
+msgstr "在所有已选关键帧上设置这些值，而不仅是活动关键帧"
+
+#: ops_tools.py:1439
+#: ui.py:704
+msgid "Shape"
+msgstr "形状"
+
+#: ops_tools.py:1444
+msgid "Shape: also turn the handles of the smoothed keys along the path (from the key before to the key after), like the Smooth brush; auto handles do that by themselves"
+msgstr "形状：同时让平滑后关键帧的控制柄沿路径转向（从前一个关键帧到后一个关键帧），类似平滑笔刷；自动控制柄会自动这样做"
+
+#: ops_sculpt.py:32
+msgid "Shape: draw the path toward the brush center (Ctrl: push it away)"
+msgstr "形状：将路径拉向笔刷中心（Ctrl：推开）"
+
+#: ops_sculpt.py:30
+msgid "Shape: pull the path under the brush along with the mouse"
+msgstr "形状：让笔刷下的路径随鼠标拖动"
+
+#: ops_sculpt.py:31
+msgid "Shape: smooth the path under the brush"
+msgstr "形状：平滑笔刷下的路径"
+
+#: ops_transform.py:462
+#: props.py:201
+msgid "Sharp"
+msgstr "锐化"
+
+#: ops_transform.py:485
+msgid "Shear"
+msgstr "切变"
+
+#: ui.py:1074
+msgid "Shortcuts"
+msgstr "快捷键"
+
+#: props.py:251
+#: props.py:292
+msgid "Show"
+msgstr "显示"
+
+#: snapshots.py:1010
+msgid "Show / hide them all"
+msgstr "全部显示/隐藏"
+
+#: snapshots.py:1077
+msgid "Show Snapshots"
+msgstr "显示快照"
+
+#: props.py:448
+msgid "Show a dot on every frame: the timing between the keys (Ctrl+Shift+H)"
+msgstr "在每一帧上显示一个点：关键帧之间的时间（Ctrl+Shift+H）"
+
+#: props.py:451
+msgid "Show frame numbers next to keys"
+msgstr "在关键帧旁显示帧编号"
+
+#: props.py:455
+msgid "Show handles of all keys, not only selected ones"
+msgstr "显示所有关键帧的控制柄，而不仅是已选关键帧"
+
+#: snapshots.py:870
+msgid "Show only the part the selected bones move now"
+msgstr "仅显示已选骨骼当前移动的部分"
+
+#: props.py:431
+msgid "Show only the paths of the selected bones / objects (with none selected, nothing is drawn or kept up to date - no cost)"
+msgstr "仅显示已选骨骼/物体的路径（未选择任何对象时不绘制也不更新——无开销）"
+
+#: ops_fmods.py:612
+msgid "Show or hide the settings of all modifiers"
+msgstr "显示或隐藏所有修改器的设置"
+
+#: props.py:502
+msgid "Show the character's center of mass (from its deform bones and their weights), a plumb line to the floor, the support and where the body is going: to check that a pose is believable"
+msgstr "显示角色的重心（根据变形骨骼及其权重）、到地面的铅垂线、支撑点以及身体运动方向：用于检查姿态是否可信"
+
+#: props.py:453
+msgid "Show the handles of the selected keys (Ctrl+H)"
+msgstr "显示已选关键帧的控制柄（Ctrl+H）"
+
+#: props.py:752
+msgid "Show the original path while dragging"
+msgstr "拖动时显示原始路径"
+
+#: props.py:385
+msgid "Show the snapshots (off: they cost nothing - nothing drawn, nothing kept up to date)"
+msgstr "显示快照（关闭：无开销——不绘制，也不更新）"
+
+#: snapshots.py:869
+msgid "Show the whole character"
+msgstr "显示整个角色"
+
+#: props.py:345
+msgid "Show this snapshot (hidden, it costs nothing)"
+msgstr "显示此快照（隐藏时无开销）"
+
+#: props.py:582
+msgid "Show: Vertex Group - the vertex group of the ghosted meshes shown (what has no such group isn't shown; empty: all of them)"
+msgstr "显示：顶点组 - 所显示虚影网格的顶点组（没有该组的不会显示；留空：全部）"
+
+#: ops_timetools.py:256
+msgid "Shows Frame"
+msgstr "显示帧"
+
+#: ops_select.py:697
+#: ops_tools.py:2002
+msgid "Side"
+msgstr "侧面"
+
+#: ops_tools.py:512
+#: props.py:372
+msgid "Silhouette"
+msgstr "剪影"
+
+#: easing.py:8
+msgid "Sine"
+msgstr "正弦"
+
+#: ops_fmods.py:15
+msgid "Sine, cosine... (a wave on top of the motion)"
+msgstr "正弦、余弦……（在运动之上叠加波形）"
+
+#: props.py:800
+msgid "Single Arrow"
+msgstr "单箭头"
+
+#: props.py:586
+#: ui.py:230
+msgid "Size"
+msgstr "大小"
+
+#: props.py:687
+msgid "Size of the circle (0: automatic)"
+msgstr "圆的大小（0：自动）"
+
+#: ops_transform.py:485
+msgid "Slant the selected keys: they move sideways in proportion to their height above the pivot (Shift+Ctrl+Alt+S)"
+msgstr "使已选关键帧倾斜：它们按高于轴心的程度横向移动（Shift+Ctrl+Alt+S）"
+
+#: ops_sculpt.py:25
+msgid "Slow Down"
+msgstr "减速"
+
+#: ops_timing.py:16
+msgid "Slow In"
+msgstr "缓入"
+
+#: ops_timing.py:17
+msgid "Slow In & Out"
+msgstr "缓入缓出"
+
+#: ops_timing.py:15
+msgid "Slow Out"
+msgstr "缓出"
+
+#: ops_timing.py:15
+msgid "Slow down at the end of the segment: decelerate (O)"
+msgstr "在段末尾放慢：减速（O）"
+
+#: props.py:621
+msgid "Slow end"
+msgstr "缓慢结束"
+
+#: ops_tools.py:2003
+msgid "Slow in and slow out"
+msgstr "缓入缓出"
+
+#: ops_tools.py:2004
+msgid "Slow in: arrive gently (the part before the key)"
+msgstr "缓入：平缓抵达（关键帧之前的部分）"
+
+#: ops_tools.py:2005
+msgid "Slow out: leave gently (the part after the key)"
+msgstr "缓出：平缓离开（关键帧之后的部分）"
+
+#: props.py:621
+msgid "Slow start"
+msgstr "缓慢起始"
+
+#: props.py:622
+msgid "Slow start and end"
+msgstr "首尾缓慢"
+
+#: ops_sculpt.py:31
+#: ops_sculpt.py:980
+msgid "Smooth"
+msgstr "平滑"
+
+#: props.py:774
+msgid "Smooth Display"
+msgstr "平滑显示"
+
+#: ops_shape.py:825
+#: ops_shape.py:892
+msgid "Smooth Ends"
+msgstr "平滑两端"
+
+#: ops_tools.py:1444
+msgid "Smooth Handles"
+msgstr "平滑手柄"
+
+#: ops_tools.py:1449
+#: props.py:222
+msgid "Smooth Parents"
+msgstr "平滑父级"
+
+#: ops_tools.py:1453
+msgid "Smooth Parents: how many bones / objects above it (0: all, like an IK constraint's Chain Length)"
+msgstr "平滑父级：上方有多少骨骼/物体（0：全部，类似 IK 约束的链长）"
+
+#: props.py:218
+msgid "Smooth Parents: how many bones / objects above it are smoothed (0: all of them, like an IK constraint's Chain Length)"
+msgstr "平滑父级：上方有多少骨骼/物体被平滑（0：全部，类似 IK 约束的链长）"
+
+#: ops_tools.py:1456
+msgid "Smooth Parents: over about how many frames (the Factor, up to 1, says how much)"
+msgstr "平滑父级：大约跨越多少帧（系数最大为 1，表示平滑程度）"
+
+#: ops_fmods.py:483
+msgid "Smooth Seams"
+msgstr "平滑接缝"
+
+#: props.py:222
+msgid "Smooth brush, Dissolve with Smooth: also smooth the bones / objects it hangs from (the shoulder, the chest...) over the same frames - in mocap every bone trembles, and the path shows them all. Their keys stay where they are in time"
+msgstr "平滑笔刷、带平滑的融解：同时平滑它依附的骨骼/物体（肩、胸……）相同帧范围内的运动——动作捕捉中每根骨骼都会抖动，路径会全部显示出来。它们的关键帧时间位置保持不变"
+
+#: ops_tools.py:1014
+msgid "Smooth curves"
+msgstr "平滑曲线"
+
+#: ops_tools.py:1439
+msgid "Smooth the form of the path: removes bumps and corners, keeps arcs and timing (keys only move across the path)"
+msgstr "平滑路径的形状：去除凸起和尖角，保留弧线与时间（关键帧只沿路径移动）"
+
+#: ops_tools.py:964
+msgid "Smooth, without overshoot"
+msgstr "平滑，无过冲"
+
+#: ui.py:938
+msgid "Smoothing: None turns it off on the curves"
+msgstr "平滑：无 会在曲线上关闭它"
+
+#: ui.py:512
+msgid "Snap"
+msgstr "吸附"
+
+#: ops_shape.py:132
+msgid "Snap Path Keys"
+msgstr "吸附路径关键帧"
+
+#: snapshots.py:1044
+msgid "Snapshot"
+msgstr "快照"
+
+#: snapshots.py:1035
+msgid "Snapshot Tools"
+msgstr "快照工具"
+
+#: props.py:385
+#: snapshots.py:1133
+msgid "Snapshots"
+msgstr "快照"
+
+#: props.py:444
+msgid "Solid"
+msgstr "实体"
+
+#: props.py:306
+#: ui.py:485
+msgid "Space"
+msgstr "空间"
+
+#: ops_slide.py:259
+msgid "Spacing"
+msgstr "间距"
+
+#: props.py:440
+msgid "Speed"
+msgstr "速度"
+
+#: ops_timetools.py:930
+msgid "Speed Change"
+msgstr "速度变化"
+
+#: props.py:855
+msgid "Speed Curve"
+msgstr "速度曲线"
+
+#: props.py:650
+msgid "Speed Graph"
+msgstr "速度图表"
+
+#: props.py:849
+msgid "Speed Graph Height"
+msgstr "速度图表高度"
+
+#: props.py:653
+msgid "Speed Graph Range"
+msgstr "速度图表范围"
+
+#: ops_sculpt.py:27
+msgid "Speed Up"
+msgstr "加速"
+
+#: props.py:832
+msgid "Speed graph: after a drag, the keys at both ends of the graph are selected too (one key selected: its neighbors), so the graph doesn't jump to other keys"
+msgstr "速度图表：拖动后，图表两端的关键帧也会被选中（只选一个关键帧时为它的相邻帧），这样图表不会跳到其他关键帧"
+
+#: props.py:823
+msgid "Speed graph: the keys a drag of the curve adds are selected (so the graph keeps showing the same keys)"
+msgstr "速度图表：拖动曲线新增的关键帧会被选中（使图表始终显示相同的关键帧）"
+
+#: ops_transform.py:460
+#: props.py:200
+msgid "Sphere"
+msgstr "球体"
+
+#: ops_tools.py:322
+msgid "Split"
+msgstr "拆分"
+
+#: ops_shape.py:823
+msgid "Spread the keys evenly around the arc"
+msgstr "让关键帧沿弧线均匀分布"
+
+#: ops_vertex.py:226
+#: props.py:423
+msgid "Start"
+msgstr "起点"
+
+#: ops_timing.py:191
+msgid "Start Blend"
+msgstr "起点混合"
+
+#: ops_timing.py:17
+msgid "Start and end slowly, fastest in the middle (B)"
+msgstr "首尾缓慢，中间最快 (B)"
+
+#: ops_timing.py:16
+msgid "Start slowly at the beginning of the segment: accelerate (I)"
+msgstr "在片段起点缓慢开始：加速 (I)"
+
+#: props.py:357
+#: snapshots.py:895
+msgid "Static"
+msgstr "静止"
+
+#: props.py:484
+msgid "Step"
+msgstr "步进"
+
+#: ui.py:818
+msgid "Step (0: on keys)"
+msgstr "步进（0：位于关键帧上）"
+
+#: ops_tools.py:1016
+msgid "Stepped (blocking)"
+msgstr "阶梯（阻塞）"
+
+#: ops_fmods.py:20
+msgid "Stepped Interpolation"
+msgstr "阶梯插值"
+
+#: ops_shape.py:493
+msgid "Steps"
+msgstr "步数"
+
+#: ops_shape.py:358
+msgid "Stop at the keys next to the beveled one (off: go through them; the path outside the arc keeps its shape and timing)"
+msgstr "在倒角关键帧相邻的关键帧处停止（关闭：穿过它们；弧线之外的路径保持形状和时间）"
+
+#: ops_tools.py:1558
+msgid "Straight line between the keys around the selection"
+msgstr "在选择范围周围的关键帧之间拉直线"
+
+#: ops_tools.py:1015
+msgid "Straight lines between keys"
+msgstr "关键帧之间为直线"
+
+#: ops_easing.py:79
+#: ops_easing.py:421
+msgid "Strength"
+msgstr "强度"
+
+#: ops_select.py:442
+msgid "Subtract"
+msgstr "相减"
+
+#: props.py:513
+msgid "Support"
+msgstr "支撑"
+
+#: ops_tools.py:919
+msgid "Switch to Pose or Object Mode"
+msgstr "切换到姿势模式或物体模式"
+
+#: ops_tools.py:79
+msgid "Switched to Location paths (1 / 2 switches Location / Rotation)"
+msgstr "已切换到位置路径（1/2 切换位置/旋转）"
+
+#: ops_tools.py:76
+msgid "Switched to Rotation paths (1 / 2 switches Location / Rotation)"
+msgstr "已切换到旋转路径（1/2 切换位置/旋转）"
+
+#: ops_transform.py:840
+msgid "TRANSLATE"
+msgstr "移动"
+
+#: props.py:851
+msgid "Text Size"
+msgstr "文字大小"
+
+#: props.py:672
+msgid "The Value track / the Scale Y ribbon beside the path: on which side of the path it is drawn (around a circle always outside)"
+msgstr "值轨道/路径旁的缩放 Y 飘带：绘制在路径的哪一侧（圆形则始终在外侧）"
+
+#: props.py:784
+msgid "The Y scale is a third ribbon beside the other two, as wide as it; drag its edge like the others"
+msgstr "Y 缩放是另外两条条带旁的第三条条带，与它们等宽；像其他条带一样拖动其边缘"
+
+#: props.py:786
+msgid "The Y scale is the color of the ribbons (blue below 1, red above)"
+msgstr "Y 缩放由条带颜色表示（低于 1 为蓝色，高于 1 为红色）"
+
+#: ops_keys.py:683
+msgid "The active key, moved to the 3D cursor"
+msgstr "活动关键帧，已移动到 3D 光标"
+
+#: ops_keys.py:341
+msgid "The angle constraint (A) snaps the line to multiples of this angle"
+msgstr "角度约束（A）将线条吸附到该角度的倍数"
+
+#: ops_shape.py:892
+msgid "The arc leaves and joins the path around it in the same direction (off: it keeps its own directions at the ends)"
+msgstr "弧线以相同方向离开并汇入其周围的路径（关闭：两端保持自身方向）"
+
+#: ops_tools.py:279
+msgid "The bone alone"
+msgstr "仅骨骼"
+
+#: ops_tools.py:278
+msgid "The bone with what hangs on it"
+msgstr "骨骼及其附属内容"
+
+#: props.py:478
+msgid "The bones as sticks (no meshes needed)"
+msgstr "骨骼以棍状显示（无需网格）"
+
+#: props.py:499
+msgid "The bones you can see (hidden bones and hidden bone collections are left out)"
+msgstr "可见骨骼（排除隐藏的骨骼和隐藏的骨骼集合）"
+
+#: ops_tools.py:2228
+#: ops_tools.py:2292
+msgid "The channel picked on the scale gizmo (all if none)"
+msgstr "在缩放控件上选择的通道（未选择则为全部）"
+
+#: space.py:15
+msgid "The custom transform orientation"
+msgstr "自定义变换坐标系"
+
+#: props.py:630
+msgid "The easing picked in the gallery (P), put on with Apply"
+msgstr "在图库（P）中选择的缓动，用“应用”套用"
+
+#: props.py:373
+msgid "The edges"
+msgstr "边"
+
+#: ops_tools.py:1701
+msgid "The first and last key of a hold (the motion standing still) stay as they are"
+msgstr "保持段（运动静止）的首尾关键帧保持不变"
+
+#: props.py:700
+msgid "The frame range goes once around a circle; the current frame runs around it like on a clock"
+msgstr "帧范围绕圆一周；当前帧像钟表一样沿其运行"
+
+#: props.py:560
+msgid "The frame range of the armature's action"
+msgstr "骨架动作的帧范围"
+
+#: props.py:561
+msgid "The frames of the motion paths shown"
+msgstr "显示的运动路径的帧"
+
+#: props.py:562
+#: props.py:657
+msgid "The frames set below"
+msgstr "下方设置的帧"
+
+#: props.py:588
+msgid "The ghosts show the neighboring frames as if the pose you are changing were keyed on this frame (during G / R / S and after it, until you change the frame). With Auto Keying on, this happens during G / R / S anyway"
+msgstr "残影显示相邻帧，就像你正在修改的姿态已在此帧打上关键帧（在 G / R / S 期间及之后，直到你切换帧）。开启自动关键帧后，G / R / S 期间本就会这样"
+
+#: ops_tools.py:2225
+#: ops_tools.py:2289
+msgid "The handle after the key"
+msgstr "关键帧之后的手柄"
+
+#: ops_tools.py:2224
+#: ops_tools.py:2288
+msgid "The handle before the key"
+msgstr "关键帧之前的手柄"
+
+#: ops_tools.py:2223
+#: ops_tools.py:2287
+msgid "The handles on both sides of the key"
+msgstr "关键帧两侧的手柄"
+
+#: ops_tools.py:560
+msgid "The highlighted paths already in that mode: back to the top's"
+msgstr "高亮路径已处于该模式：恢复为顶部所选模式"
+
+#: ops_tools.py:2010
+msgid "The key's handles get flatter and longer in time (the path near the key changes a little too)"
+msgstr "关键帧的手柄在时间上变得更平、更长（关键帧附近的路径也会略微变化）"
+
+#: props.py:851
+msgid "The labels and frame numbers (1: the usual size)"
+msgstr "标签和帧编号（1：常规大小）"
+
+#: props.py:400
+msgid "The location path drawn as a ribbon as wide as the scale. S changes the scale keys, Alt+S their handles (3)"
+msgstr "位置路径绘制为与缩放条带等宽的条带。S 更改缩放关键帧，Alt+S 更改其手柄（3）"
+
+#: props.py:529
+msgid "The lowest point of the character over the whole animation"
+msgstr "整个动画中角色的最低点"
+
+#: ops_vertex.py:327
+msgid "The mesh as made has other vertices: can't follow this one"
+msgstr "创建网格时含有其他顶点：无法跟随此顶点"
+
+#: props.py:475
+msgid "The meshes in one flat color per ghost"
+msgstr "网格按残影各用一种纯色"
+
+#: props.py:476
+msgid "The meshes' edges"
+msgstr "网格的边"
+
+#: props.py:315
+msgid "The motion against an object or bone of your choice: the path is drawn relative to it on the current frame (a hand holding a prop: only what moves against the prop is left)"
+msgstr "相对于所选物体或骨骼的运动：路径在当前帧相对其绘制（手拿道具：只留下相对道具运动的部分）"
+
+#: props.py:312
+msgid "The motion as the active camera sees it: the path is drawn relative to the camera on the current frame (a camera that follows the character: only what moves in its view is left)"
+msgstr "以活动摄像机视角呈现的运动：路径在当前帧相对摄像机绘制（跟随角色的摄像机：只留下其视野中运动的部分）"
+
+#: props.py:308
+msgid "The motion in the world (the parents' motion is in the path)"
+msgstr "世界空间中的运动（父级的运动包含在路径中）"
+
+#: ops_keys.py:685
+msgid "The new shape between the keys around is travelled with the old spacing (the bone covers the same share of the way on every frame: only the handles change, no keys are added)"
+msgstr "周围关键帧之间的新形状按旧间距行进（骨骼在每一帧走过相同比例的路程：只改变手柄，不添加关键帧）"
+
+#: ops_shape.py:672
+msgid "The new shape is travelled with the old spacing: the bone covers the same share of the way on every frame"
+msgstr "新形状按旧间距行进：骨骼在每一帧走过相同比例的路程"
+
+#: ops_tools.py:692
+msgid "The object the path is drawn relative to"
+msgstr "路径所相对绘制的物体"
+
+#: ops_timetools.py:256
+msgid "The original pose this frame shows now"
+msgstr "此帧当前显示的原始姿态"
+
+#: ops_timetools.py:876
+msgid "The other timing tools need a path"
+msgstr "其他时间工具需要一条路径"
+
+#: props.py:354
+msgid "The part the selected bones move: what follows them too (children, IK chains)"
+msgstr "所选骨骼带动的部分：包括跟随它们的部分（子级、IK 链）"
+
+#: ops_shape.py:825
+msgid "The path around the arc turns to meet it in its direction at the first and last key, without kinks (off: the ends keep a corner)"
+msgstr "弧线周围的路径在首尾关键帧转向，以沿弧线方向与其相接，且无折角（关闭：两端保留尖角）"
+
+#: props.py:874
+msgid "The path tools' keys win over other add-ons' keys in the 3D view. Off: where another add-on uses the same key, its key works and the path tool's doesn't"
+msgstr "在 3D 视图中，路径工具的按键优先于其他插件的按键。关闭：若其他插件使用相同按键，则其按键生效，路径工具的不生效"
+
+#: props.py:714
+msgid "The paths in the order they got selected keys (JSON), for Offset Cascade. Saved in the scene so undo brings it back"
+msgstr "按关键帧被选中的顺序排列的路径（JSON），用于偏移级联。保存于场景中，撤销后可恢复"
+
+#: ops_shape.py:984
+msgid "The plane closest to the keys"
+msgstr "最接近关键帧的平面"
+
+#: props.py:357
+msgid "The pose as it was taken (a photo of it)"
+msgstr "拍摄时的姿态（其照片）"
+
+#: props.py:358
+msgid "The pose on its frame as the animation has it now - it follows every edit"
+msgstr "该帧上的姿态，按动画当前状态显示——它会跟随每次编辑"
+
+#: ops_vertex.py:285
+msgid "The range needs at least two frames"
+msgstr "范围至少需要两帧"
+
+#: props.py:559
+msgid "The scene's frame range (or the preview range when it's on)"
+msgstr "场景的帧范围（或开启时的预览范围）"
+
+#: props.py:658
+msgid "The scene's frame range (preview range if used)"
+msgstr "场景的帧范围（若使用则为预览范围）"
+
+#: props.py:655
+msgid "The selected keys (like the timing chart), or the keys around the current frame"
+msgstr "选中的关键帧（如同时间图表），或当前帧周围的关键帧"
+
+#: props.py:857
+msgid "The soft fill under the speed curve"
+msgstr "速度曲线下方的柔和填充"
+
+#: props.py:520
+msgid "The way in about 8 frames, plus the length below (a slow motion still shows its direction)"
+msgstr "约 8 帧内的走向，加上下方长度（慢动作仍能显示方向）"
+
+#: props.py:349
+#: snapshots.py:807
+msgid "The whole character"
+msgstr "整个角色"
+
+#: props.py:574
+msgid "The whole character (every mesh the armature moves, and what is on it)"
+msgstr "整个角色（骨架带动的每个网格及其上的内容）"
+
+#: ops_fmods.py:287
+msgid "This channel is not animated"
+msgstr "此通道未设置动画"
+
+#: snapshots.py:940
+msgid "This frame's pose couldn't be worked out"
+msgstr "无法计算此帧的姿态"
+
+#: props.py:279
+msgid "This path follows the mode picked at the top (1 - 4)"
+msgstr "此路径遵循顶部所选模式（1 - 4）"
+
+#: ops_fmods.py:224
+msgid "This path has no animated channels in this mode"
+msgstr "此路径在该模式下没有动画通道"
+
+#: ops_tools.py:180
+msgid "This path has no animation curves"
+msgstr "此路径没有动画曲线"
+
+#: props.py:280
+msgid "This path is always shown and edited in Location, whatever mode is picked at the top"
+msgstr "无论顶部选择何种模式，此路径始终以位置模式显示和编辑"
+
+#: props.py:282
+msgid "This path is always shown and edited in Rotation, whatever mode is picked at the top"
+msgstr "无论顶部选择何种模式，此路径始终以旋转模式显示和编辑"
+
+#: props.py:284
+msgid "This path is always shown and edited in Scale, whatever mode is picked at the top"
+msgstr "无论顶部选择何种模式，此路径始终以缩放模式显示和编辑"
+
+#: props.py:286
+msgid "This path is always shown and edited in Value, whatever mode is picked at the top"
+msgstr "无论顶部选择何种模式，此路径始终以数值模式显示和编辑"
+
+#: snapshots.py:903
+msgid "This snapshot couldn't be worked out"
+msgstr "无法计算此快照"
+
+#: ops_tools.py:322
+msgid "This weight is shared among the selected bones as they compare now (a heavier one gets more): together they are this much of the body. A limb inside another selected one (a hand in an arm) is left out: the outer one holds it"
+msgstr "此权重按所选骨骼当前的比例在它们之间共享（越重的分得越多）：合起来它们占身体的这个比例。位于另一个所选骨骼内部的肢体（如手臂中的手）会被排除：由外层骨骼保留"
+
+#: ui.py:959
+msgid "Threshold"
+msgstr "阈值"
+
+#: ops_tools.py:1441
+msgid "Time"
+msgstr "时间"
+
+#: ops_slide.py:270
+msgid "Time offset along the path"
+msgstr "沿路径的时间偏移"
+
+#: props.py:658
+msgid "Timeline"
+msgstr "时间线"
+
+#: ops_io.py:107
+#: ops_slide.py:261
+msgid "Timing"
+msgstr "时序"
+
+#: ui.py:723
+msgid "Timing & Speed"
+msgstr "时序与速度"
+
+#: props.py:608
+msgid "Timing Chart"
+msgstr "时序图表"
+
+#: props.py:847
+msgid "Timing Chart Height"
+msgstr "时序图表高度"
+
+#: props.py:926
+msgid "Timing Chart and Speed Graph (the 3D view shows changes right away)"
+msgstr "时序图表与速度图（3D 视图会立即显示变化）"
+
+#: ui.py:736
+msgid "Timing Tools"
+msgstr "时序工具"
+
+#: ops_sculpt.py:301
+msgid "Timing brushes work on Location / Rotation paths"
+msgstr "时序笔刷作用于位置/旋转路径"
+
+#: props.py:836
+msgid "Timing chart and speed graph: the corner of the 3D view they are in"
+msgstr "时序图表与速度图：它们在 3D 视图中的角落"
+
+#: ops_slide.py:271
+msgid "Timing: also move the bone's other keys on the same frames (rotation, scale, custom properties), like the Dope Sheet summary row"
+msgstr "时序：同时移动同一帧上骨骼的其他关键帧（旋转、缩放、自定义属性），如同摄影表摘要行"
+
+#: ops_sculpt.py:29
+msgid "Timing: even out the spacing under the brush"
+msgstr "时序：拉平笔刷下的间距"
+
+#: ops_sculpt.py:23
+msgid "Timing: push the frames under the brush along the path, the way you drag (the shape stays)"
+msgstr "时序：按拖动方向沿路径推动笔刷下的帧（形状保持不变）"
+
+#: ops_sculpt.py:25
+msgid "Timing: the frames gather under the brush, so the motion is slower there (Ctrl: speed up)"
+msgstr "时序：帧向笔刷下聚集，因此该处运动更慢（Ctrl：加快）"
+
+#: ops_sculpt.py:27
+msgid "Timing: the frames spread out from under the brush, so the motion is faster there (Ctrl: slow down)"
+msgstr "时序：帧从笔刷下散开，因此该处运动更快（Ctrl：减慢）"
+
+#: ops_easing.py:84
+#: ops_easing.py:422
+msgid "To"
+msgstr "到"
+
+#: ops_select.py:407
+msgid "Toggle"
+msgstr "切换"
+
+#: ops_fmods.py:611
+#: snapshots.py:1010
+msgid "Toggle Visibility"
+msgstr "切换可见性"
+
+#: ops_io.py:115
+#: ops_timing.py:201
+msgid "Tolerance"
+msgstr "容差"
+
+#: props.py:840
+msgid "Top Left"
+msgstr "左上"
+
+#: props.py:840
+msgid "Top Right"
+msgstr "右上"
+
+#: props.py:678
+msgid "Toward the middle of the motion"
+msgstr "朝运动中间"
+
+#: ui.py:220
+msgid "Track"
+msgstr "跟踪"
+
+#: ops_transform.py:482
+msgid "Trackball"
+msgstr "轨迹球"
+
+#: props.py:507
+msgid "Trajectory"
+msgstr "轨迹"
+
+#: props.py:556
+msgid "Trajectory Range"
+msgstr "轨迹范围"
+
+#: props.py:396
+msgid "Trajectory of the bone head / object origin. Editing it changes the location keys (1)"
+msgstr "骨骼头部/物体原点的轨迹。编辑它会改变位置关键帧 (1)"
+
+#: props.py:398
+msgid "Trajectory of the bone tip. Editing it changes the rotation keys: Euler, Quaternion or Axis Angle (2)"
+msgstr "骨骼末端的轨迹。编辑它会改变旋转关键帧：欧拉、四元数或轴角 (2)"
+
+#: ops_fmods.py:611
+msgid "Turn all modifiers off, or all on again"
+msgstr "关闭所有修改器，或全部重新开启"
+
+#: ops_shape.py:814
+msgid "Turn the arc around the line between its first and last key"
+msgstr "绕首尾关键帧之间的连线旋转弧线"
+
+#: ops_shape.py:818
+msgid "Turn the arc around the middle of the circle, across its plane: the keys slide along the circle and the arc swings back and forth"
+msgstr "绕圆心、垂直于圆平面旋转弧线：关键帧沿圆滑动，弧线来回摆动"
+
+#: ops_transform.py:495
+msgid "Twist"
+msgstr "扭转"
+
+#: ops_fmods.py:218
+#: ops_keys.py:679
+msgid "Type"
+msgstr "类型"
+
+#: ops_select.py:805
+msgid "Unselected"
+msgstr "未选中"
+
+#: ops_fmods.py:369
+#: snapshots.py:951
+msgid "Up"
+msgstr "上"
+
+#: ops_sculpt.py:247
+msgid "Use this brush for the stroke (Shift: Smooth, Ctrl+Shift: Even, Alt: Dissolve)"
+msgstr "使用此笔刷绘制描边（Shift：平滑，Ctrl+Shift：均匀，Alt：溶解）"
+
+#: ops_timetools.py:23
+#: ops_tools.py:558
+msgid "Value"
+msgstr "数值"
+
+#: props.py:664
+msgid "Value Track"
+msgstr "数值轨迹"
+
+#: props.py:703
+msgid "Values at Keys"
+msgstr "关键帧处的数值"
+
+#: ops_tools.py:968
+msgid "Vector"
+msgstr "矢量"
+
+#: props.py:510
+msgid "Velocity"
+msgstr "速度"
+
+#: props.py:516
+msgid "Velocity Length"
+msgstr "速度长度"
+
+#: props.py:579
+#: props.py:582
+msgid "Vertex Group"
+msgstr "顶点组"
+
+#: props.py:390
+msgid "Vertex Path"
+msgstr "顶点路径"
+
+#: ops_shape.py:985
+#: space.py:12
+msgid "View"
+msgstr "视图"
+
+#: props.py:499
+msgid "Visible Bones"
+msgstr "可见骨骼"
+
+#: ops_tools.py:318
+#: ops_tools.py:325
+msgid "Weight"
+msgstr "权重"
+
+#: ui.py:890
+msgid "Weight of %s"
+msgstr "%s 的权重"
+
+#: props.py:827
+msgid "When a drag starts on curves with Blender's Continuous Acceleration smoothing (the whole curve re-solves, so the path moves beyond the edited key), say so in the view. The sidebar's Curve Smoothing panel shows it either way"
+msgstr "在启用了 Blender 连续加速平滑的曲线上开始拖动时（整条曲线会重新求解，因此路径会超出被编辑的关键帧），在视图中提示。侧边栏的曲线平滑面板无论如何都会显示"
+
+#: props.py:664
+msgid "Where Value mode (4) draws the value"
+msgstr "数值模式 (4) 绘制数值的位置"
+
+#: ops_tools.py:1696
+msgid "Where the bone is on every frame stays (within the tolerance). Off: only the shape of the path counts - keys go as long as the path keeps its shape, and the timing along it may change (fewer keys, a cleaner path)"
+msgstr "保持骨骼在每一帧的位置（在容差范围内）。关闭：只保留路径形状——只要路径保持形状就可删除关键帧，沿路径的时序可能改变（更少的关键帧、更简洁的路径）"
+
+#: props.py:306
+msgid "Where the path is drawn (and edited): the world, the parent's space or the active camera's view. The paths being edited (highlighted) all take it"
+msgstr "路径绘制（和编辑）的空间：世界、父级空间或活动摄像机视图。正在编辑（高亮）的路径都采用它"
+
+#: props.py:624
+msgid "Which channels get the easing (drag across to switch several; one always stays on)"
+msgstr "哪些通道应用缓动（横向拖动可切换多个；始终有一个开启）"
+
+#: props.py:392
+msgid "Which trajectory is shown and edited (1 / 2 with the Edit Motion Path tool)"
+msgstr "显示和编辑哪条轨迹（使用编辑运动路径工具时按 1 / 2）"
+
+#: props.py:574
+msgid "Whole"
+msgstr "整体"
+
+#: ops_keys.py:200
+#: ops_keys.py:230
+msgid "Whole Frames"
+msgstr "整帧"
+
+#: ops_keys.py:883
+#: ops_keys.py:952
+msgid "Whole Pose"
+msgstr "整体姿态"
+
+#: ops_shape.py:351
+#: props.py:846
+msgid "Width"
+msgstr "宽度"
+
+#: ops_tools.py:512
+#: props.py:373
+msgid "Wire"
+msgstr "线框"
+
+#: props.py:376
+msgid "Wire Width"
+msgstr "线框宽度"
+
+#: props.py:376
+msgid "Wire: how thick the lines are"
+msgstr "线框：线条的粗细"
+
+#: ops_timetools.py:499
+msgid "With no keys selected (the whole animation moves): looping curves (Cycles) shift inside their loop - its frames and length stay"
+msgstr "未选中关键帧时（整段动画移动）：循环曲线（Cycles）在其循环内偏移——帧和长度保持不变"
+
+#: ui.py:1080
+msgid "With the Edit Motion Path tool:"
+msgstr "使用「编辑运动路径」工具时："
+
+#: space.py:9
+msgid "World axes"
+msgstr "世界轴"
+
+#: ops_shape.py:171
+#: ops_tools.py:2229
+msgid "X"
+msgstr "X"
+
+#: ops_shape.py:171
+#: ops_tools.py:2229
+msgid "Y"
+msgstr "Y"
+
+#: ops_shape.py:171
+#: ops_tools.py:2229
+msgid "Z"
+msgstr "Z"
+
+#: ui.py:1098
+msgid "are editable; click a gray path to pick it."
+msgstr "可编辑；点击灰色路径即可选取。"
+
+#: ui.py:888
+msgid "chest, the hips or a limb"
+msgstr "胸部、臀部或肢体"
+
+#: ui.py:933
+msgid "editing a key also moves its neighbors' handles"
+msgstr "编辑关键帧也会移动相邻关键帧的控制柄"
+
+#: ui.py:884
+msgid "moves no part with weight"
+msgstr "不移动任何带权重的部位"
+
+#: ui.py:887
+msgid "moves the whole body: pick the"
+msgstr "移动整个身体：选取"
+
+#: ui.py:939
+msgid "of the selection, so a key changes only its"
+msgstr "所选内容的"
+
+#: ui.py:940
+msgid "own segments (the path may shift a little, once)."
+msgstr "自身段（路径可能会轻微偏移一次）。"
+
+#: ops_timetools.py:415
+msgctxt "Operator"
+msgid "Add / Remove Frames"
+msgstr "添加 / 移除帧"
+
+#: ops_fmods.py:216
+msgctxt "Operator"
+msgid "Add Modifier"
+msgstr "添加修改器"
+
+#: ops_tools.py:51
+msgctxt "Operator"
+msgid "Add Motion Path"
+msgstr "添加运动路径"
+
+#: ui.py:200
+#: ui.py:235
+msgctxt "Operator"
+msgid "Add Path"
+msgstr "添加路径"
+
+#: ops_tools.py:635
+msgctxt "Operator"
+msgid "Always"
+msgstr "始终"
+
+#: ops_fmods.py:675
+#: snapshots.py:1091
+msgctxt "Operator"
+msgid "Apply"
+msgstr "应用"
+
+#: ops_fmods.py:656
+msgctxt "Operator"
+msgid "Apply All"
+msgstr "全部应用"
+
+#: ops_fmods.py:422
+msgctxt "Operator"
+msgid "Apply Modifier"
+msgstr "应用修改器"
+
+#: snapshots.py:968
+msgctxt "Operator"
+msgid "Apply Snapshot"
+msgstr "应用快照"
+
+#: ops_fmods.py:480
+#: ops_fmods.py:676
+msgctxt "Operator"
+msgid "Apply to Selected"
+msgstr "应用到所选"
+
+#: snapshots.py:1125
+msgctxt "Operator"
+msgid "Apply..."
+msgstr "应用…"
+
+#: ops_shape.py:886
+msgctxt "Operator"
+msgid "Arc"
+msgstr "弧线"
+
+#: ops_tools.py:630
+msgctxt "Operator"
+msgid "Auto (as at the top: 1 - 4)"
+msgstr "自动（同顶部：1 - 4）"
+
+#: ui.py:557
+#: ui.py:715
+msgctxt "Operator"
+msgid "Bevel"
+msgstr "倒角"
+
+#: ops_shape.py:348
+msgctxt "Operator"
+msgid "Bevel Path Keys"
+msgstr "倒角路径关键帧"
+
+#: ops_select.py:439
+msgctxt "Operator"
+msgid "Box Select Path Keys"
+msgstr "框选路径关键帧"
+
+#: ops_timetools.py:447
+#: ops_timetools.py:880
+msgctxt "Operator"
+msgid "Breakdown"
+msgstr "过渡帧"
+
+#: ops_sculpt.py:904
+msgctxt "Operator"
+msgid "Brush Cursor"
+msgstr "笔刷光标"
+
+#: ops_sculpt.py:845
+msgctxt "Operator"
+msgid "Brush Size"
+msgstr "笔刷大小"
+
+#: ops_shape.py:812
+msgctxt "Operator"
+msgid "Circle"
+msgstr "圆形"
+
+#: ops_select.py:870
+msgctxt "Operator"
+msgid "Circle Select Path Keys"
+msgstr "圈选路径关键帧"
+
+#: ops_tools.py:1684
+msgctxt "Operator"
+msgid "Clean Up Path"
+msgstr "清理路径"
+
+#: ui.py:1011
+msgctxt "Operator"
+msgid "Colors, Sizes, Keys..."
+msgstr "颜色、大小、关键帧…"
+
+#: snapshots.py:867
+msgctxt "Operator"
+msgid "Convert Snapshot"
+msgstr "转换快照"
+
+#: ops_fmods.py:678
+msgctxt "Operator"
+msgid "Copy"
+msgstr "复制"
+
+#: ops_fmods.py:660
+msgctxt "Operator"
+msgid "Copy All"
+msgstr "全部复制"
+
+#: ops_keys.py:881
+msgctxt "Operator"
+msgid "Copy Key Pose"
+msgstr "复制关键姿态"
+
+#: ops_fmods.py:560
+msgctxt "Operator"
+msgid "Copy Modifiers"
+msgstr "复制修改器"
+
+#: ops_shape.py:146
+#: ui.py:523
+msgctxt "Operator"
+msgid "Cursor to Active"
+msgstr "光标到活动项"
+
+#: ops_shape.py:41
+msgctxt "Operator"
+msgid "Cursor to Active Key"
+msgstr "光标到活动关键帧"
+
+#: ops_shape.py:137
+msgctxt "Operator"
+msgid "Cursor to Grid"
+msgstr "光标到栅格"
+
+#: ops_shape.py:139
+#: ui.py:522
+msgctxt "Operator"
+msgid "Cursor to Selected"
+msgstr "光标到所选"
+
+#: ops_shape.py:24
+msgctxt "Operator"
+msgid "Cursor to Selected Keys"
+msgstr "光标到所选关键帧"
+
+#: ops_shape.py:145
+msgctxt "Operator"
+msgid "Cursor to World Origin"
+msgstr "光标到世界原点"
+
+#: ui.py:758
+msgctxt "Operator"
+msgid "Cycles"
+msgstr "循环"
+
+#: ops_keys.py:85
+msgctxt "Operator"
+msgid "Delete Keys"
+msgstr "删除关键帧"
+
+#: ops_keys.py:108
+msgctxt "Operator"
+msgid "Delete Path Keys Menu"
+msgstr "删除路径关键帧菜单"
+
+#: ui.py:752
+msgctxt "Operator"
+msgid "Dissolve"
+msgstr "融并"
+
+#: ops_keys.py:97
+#: ops_keys.py:126
+msgctxt "Operator"
+msgid "Dissolve Keys"
+msgstr "融并关键帧"
+
+#: ops_timetools.py:250
+msgctxt "Operator"
+msgid "Drag Frame"
+msgstr "拖动帧"
+
+#: ops_fmods.py:677
+#: snapshots.py:1054
+msgctxt "Operator"
+msgid "Duplicate"
+msgstr "复制"
+
+#: ops_fmods.py:317
+msgctxt "Operator"
+msgid "Duplicate Modifier"
+msgstr "复制修改器"
+
+#: ops_keys.py:1032
+msgctxt "Operator"
+msgid "Duplicate Path Keys"
+msgstr "复制路径关键帧"
+
+#: snapshots.py:843
+msgctxt "Operator"
+msgid "Duplicate Snapshot"
+msgstr "复制快照"
+
+#: ops_keys.py:1123
+#: ui.py:556
+msgctxt "Operator"
+msgid "Duplicate in Time"
+msgstr "在时间上复制"
+
+#: ops_timetools.py:878
+#: ops_tools.py:1993
+msgctxt "Operator"
+msgid "Ease"
+msgstr "缓动"
+
+#: ops_easing.py:67
+msgctxt "Operator"
+msgid "Easing Preset"
+msgstr "缓动预设"
+
+#: ops_timetools.py:881
+msgctxt "Operator"
+msgid "Easing Presets..."
+msgstr "缓动预设…"
+
+#: ops_tools.py:397
+msgctxt "Operator"
+msgid "Edit Limb Weight"
+msgstr "编辑肢体权重"
+
+#: ui.py:551
+msgctxt "Operator"
+msgid "Edit Limb Weight..."
+msgstr "编辑肢体权重…"
+
+#: ops_tools.py:900
+#: ui.py:695
+msgctxt "Operator"
+msgid "Edit Paths"
+msgstr "编辑路径"
+
+#: ops_value.py:202
+msgctxt "Operator"
+msgid "Edit Scale Handle"
+msgstr "编辑缩放控制柄"
+
+#: ops_value.py:44
+msgctxt "Operator"
+msgid "Edit Value"
+msgstr "编辑值"
+
+#: ui.py:549
+msgctxt "Operator"
+msgid "Edit Value..."
+msgstr "编辑值…"
+
+#: ui.py:695
+msgctxt "Operator"
+msgid "Editing Paths"
+msgstr "编辑路径中"
+
+#: ui.py:731
+msgctxt "Operator"
+msgid "Even Spacing"
+msgstr "均匀间距"
+
+#: ui.py:562
+#: ui.py:713
+msgctxt "Operator"
+msgid "Exaggerate"
+msgstr "夸张"
+
+#: ops_tools.py:1549
+msgctxt "Operator"
+msgid "Exaggerate Path"
+msgstr "夸张路径"
+
+#: ui.py:554
+msgctxt "Operator"
+msgid "Extrude"
+msgstr "挤出"
+
+#: ops_keys.py:1226
+msgctxt "Operator"
+msgid "Extrude Path Key"
+msgstr "挤出路径关键帧"
+
+#: ops_tools.py:1606
+#: ui.py:759
+msgctxt "Operator"
+msgid "Fix Loop"
+msgstr "修复循环"
+
+#: ops_keys.py:1448
+msgctxt "Operator"
+msgid "Fix Loop Seam"
+msgstr "修复循环接缝"
+
+#: ops_shape.py:981
+msgctxt "Operator"
+msgid "Flatten"
+msgstr "展平"
+
+#: ops_io.py:103
+msgctxt "Operator"
+msgid "Follow Curve"
+msgstr "跟随曲线"
+
+#: ui.py:534
+msgctxt "Operator"
+msgid "Follow Curve..."
+msgstr "跟随曲线…"
+
+#: ops_shape.py:1051
+msgctxt "Operator"
+msgid "Follow Stroke (GStretch)"
+msgstr "跟随笔画（GStretch）"
+
+#: ops_select.py:577
+msgctxt "Operator"
+msgid "Handle Type Menu"
+msgstr "控制柄类型菜单"
+
+#: ops_select.py:802
+msgctxt "Operator"
+msgid "Hide Keys"
+msgstr "隐藏关键帧"
+
+#: ui.py:749
+msgctxt "Operator"
+msgid "Insert"
+msgstr "插入"
+
+#: ops_keys.py:134
+msgctxt "Operator"
+msgid "Insert Path Key"
+msgstr "插入路径关键帧"
+
+#: ops_keys.py:1466
+msgctxt "Operator"
+msgid "Interpolation Menu"
+msgstr "插值菜单"
+
+#: ops_tools.py:168
+msgctxt "Operator"
+msgid "Isolate in Graph Editor"
+msgstr "在曲线编辑器中隔离"
+
+#: ops_select.py:542
+msgctxt "Operator"
+msgid "Jump to Path Key"
+msgstr "跳转到路径关键帧"
+
+#: ops_keys.py:124
+msgctxt "Operator"
+msgid "Keys"
+msgstr "关键帧"
+
+#: ops_keys.py:336
+msgctxt "Operator"
+msgid "Knife Path"
+msgstr "切割路径"
+
+#: ops_keys.py:127
+msgctxt "Operator"
+msgid "Limited Dissolve (Clean Up)"
+msgstr "有限溶解（清理）"
+
+#: ops_easing.py:933
+msgctxt "Operator"
+msgid "Linear"
+msgstr "线性"
+
+#: ops_vertex.py:442
+msgctxt "Operator"
+msgid "Live"
+msgstr "实时"
+
+#: ops_tools.py:217
+msgctxt "Operator"
+msgid "Locked Path"
+msgstr "锁定的路径"
+
+#: ops_keys.py:226
+msgctxt "Operator"
+msgid "Loop Cut Path Segment"
+msgstr "循环切割路径段"
+
+#: ops_keys.py:1454
+msgctxt "Operator"
+msgid "Loop Menu"
+msgstr "循环菜单"
+
+#: snapshots.py:1061
+msgctxt "Operator"
+msgid "Make %s"
+msgstr "创建 %s"
+
+#: ops_keys.py:676
+msgctxt "Operator"
+msgid "Merge Path Keys"
+msgstr "合并路径关键帧"
+
+#: ops_shape.py:168
+msgctxt "Operator"
+msgid "Mirror Path Keys"
+msgstr "镜像路径关键帧"
+
+#: ops_fmods.py:258
+msgctxt "Operator"
+msgid "Modifier Channel"
+msgstr "修改器通道"
+
+#: ops_fmods.py:607
+msgctxt "Operator"
+msgid "Modifier Tools"
+msgstr "修改器工具"
+
+#: ops_select.py:557
+msgctxt "Operator"
+msgid "Motion Path Menu"
+msgstr "运动路径菜单"
+
+#: ops_fmods.py:366
+msgctxt "Operator"
+msgid "Move Modifier"
+msgstr "移动修改器"
+
+#: ops_tools.py:2278
+msgctxt "Operator"
+msgid "Move Scale Handles"
+msgstr "移动缩放控制柄"
+
+#: snapshots.py:949
+msgctxt "Operator"
+msgid "Move Snapshot"
+msgstr "移动快照"
+
+#: ops_timetools.py:714
+msgctxt "Operator"
+msgid "Moving Hold"
+msgstr "移动保持"
+
+#: ops_timetools.py:496
+msgctxt "Operator"
+msgid "Offset Cascade"
+msgstr "偏移级联"
+
+#: ops_tools.py:509
+msgctxt "Operator"
+msgid "Onion Mode"
+msgstr "洋葱皮模式"
+
+#: ops_fmods.py:661
+#: ops_fmods.py:679
+msgctxt "Operator"
+msgid "Paste"
+msgstr "粘贴"
+
+#: ops_keys.py:949
+msgctxt "Operator"
+msgid "Paste Key Pose"
+msgstr "粘贴关键姿势"
+
+#: ops_fmods.py:581
+msgctxt "Operator"
+msgid "Paste Modifiers"
+msgstr "粘贴修改器"
+
+#: ops_tools.py:488
+msgctxt "Operator"
+msgid "Path Display"
+msgstr "路径显示"
+
+#: ops_tools.py:553
+#: ops_tools.py:607
+msgctxt "Operator"
+msgid "Path Mode"
+msgstr "路径模式"
+
+#: ops_tools.py:528
+#: ops_tools.py:645
+msgctxt "Operator"
+msgid "Path Space"
+msgstr "路径空间"
+
+#: ops_io.py:18
+msgctxt "Operator"
+msgid "Path to Curve"
+msgstr "路径转曲线"
+
+#: ops_select.py:619
+msgctxt "Operator"
+msgid "Pick Linked Path Keys"
+msgstr "拾取相连路径关键帧"
+
+#: ops_tools.py:757
+msgctxt "Operator"
+msgid "Pick Path"
+msgstr "拾取路径"
+
+#: ops_tools.py:687
+msgctxt "Operator"
+msgid "Relative To"
+msgstr "相对于"
+
+#: ops_tools.py:676
+msgctxt "Operator"
+msgid "Relative To..."
+msgstr "相对于…"
+
+#: ops_tools.py:674
+msgctxt "Operator"
+msgid "Relative to Active"
+msgstr "相对于活动项"
+
+#: ui.py:508
+msgctxt "Operator"
+msgid "Relax"
+msgstr "松弛"
+
+#: ops_fmods.py:240
+msgctxt "Operator"
+msgid "Remove Modifier"
+msgstr "移除修改器"
+
+#: ops_tools.py:88
+msgctxt "Operator"
+msgid "Remove Motion Paths"
+msgstr "移除运动路径"
+
+#: snapshots.py:823
+msgctxt "Operator"
+msgid "Remove Snapshot"
+msgstr "移除快照"
+
+#: ops_vertex.py:455
+msgctxt "Operator"
+msgid "Remove Vertex Path"
+msgstr "移除顶点路径"
+
+#: ops_tools.py:294
+msgctxt "Operator"
+msgid "Reset All Weights"
+msgstr "重置所有权重"
+
+#: ops_tools.py:425
+msgctxt "Operator"
+msgid "Reset the Charts' Look"
+msgstr "重置图表外观"
+
+#: ops_tools.py:448
+msgctxt "Operator"
+msgid "Reset to Default (Motion Paths)"
+msgstr "重置为默认值（运动路径）"
+
+#: ops_tools.py:257
+msgctxt "Operator"
+msgid "Reset to Default Value"
+msgstr "重置为默认值"
+
+#: ops_select.py:839
+msgctxt "Operator"
+msgid "Reveal Keys"
+msgstr "显示关键帧"
+
+#: ops_tools.py:2215
+msgctxt "Operator"
+msgid "Scale Handles"
+msgstr "缩放控制柄"
+
+#: ops_timetools.py:363
+msgctxt "Operator"
+msgid "Scale Time"
+msgstr "缩放时间"
+
+#: ops_sculpt.py:243
+msgctxt "Operator"
+msgid "Sculpt Path"
+msgstr "雕刻路径"
+
+#: ui.py:698
+msgctxt "Operator"
+msgid "Sculpt Paths"
+msgstr "雕刻路径"
+
+#: ui.py:698
+msgctxt "Operator"
+msgid "Sculpting Paths"
+msgstr "雕刻路径"
+
+#: ops_select.py:403
+msgctxt "Operator"
+msgid "Select All Path Keys"
+msgstr "选择所有路径关键帧"
+
+#: ops_select.py:694
+msgctxt "Operator"
+msgid "Select Before / After Current Frame"
+msgstr "选择当前帧之前/之后"
+
+#: ops_select.py:598
+msgctxt "Operator"
+msgid "Select Linked Path Keys"
+msgstr "选择相连路径关键帧"
+
+#: ops_select.py:655
+msgctxt "Operator"
+msgid "Select More / Less"
+msgstr "增加/减少选择"
+
+#: ops_select.py:56
+msgctxt "Operator"
+msgid "Select Path Key"
+msgstr "选择路径关键帧"
+
+#: ops_select.py:753
+msgctxt "Operator"
+msgid "Select Similar Path Keys"
+msgstr "选择相似路径关键帧"
+
+#: snapshots.py:1074
+msgctxt "Operator"
+msgid "Selected Bones"
+msgstr "选定骨骼"
+
+#: ops_shape.py:144
+#: ui.py:519
+msgctxt "Operator"
+msgid "Selection to Active"
+msgstr "选择项对齐到活动项"
+
+#: ops_shape.py:108
+msgctxt "Operator"
+msgid "Selection to Active Key"
+msgstr "选择项对齐到活动关键帧"
+
+#: ops_shape.py:92
+#: ops_shape.py:140
+msgctxt "Operator"
+msgid "Selection to Cursor"
+msgstr "选择项对齐到游标"
+
+#: ops_shape.py:142
+#: ui.py:518
+msgctxt "Operator"
+msgid "Selection to Cursor (Keep Offset)"
+msgstr "选择项对齐到游标（保持偏移）"
+
+#: ops_shape.py:121
+#: ops_shape.py:138
+msgctxt "Operator"
+msgid "Selection to Grid"
+msgstr "选择项对齐到网格"
+
+#: ops_sculpt.py:165
+msgctxt "Operator"
+msgid "Set Brush"
+msgstr "设置笔刷"
+
+#: ops_tools.py:960
+msgctxt "Operator"
+msgid "Set Path Handle Type"
+msgstr "设置路径控制柄类型"
+
+#: ops_tools.py:1010
+msgctxt "Operator"
+msgid "Set Path Interpolation"
+msgstr "设置路径插值"
+
+#: ui.py:467
+msgctxt "Operator"
+msgid "Set Value Channel"
+msgstr "设置值通道"
+
+#: ui.py:914
+msgctxt "Operator"
+msgid "Set Weight of %d Bones..."
+msgstr "设置 %d 个骨骼的权重…"
+
+#: ops_tools.py:315
+msgctxt "Operator"
+msgid "Set Weights"
+msgstr "设置权重"
+
+#: ops_timetools.py:658
+msgctxt "Operator"
+msgid "Shift Phase"
+msgstr "偏移相位"
+
+#: ui.py:735
+msgctxt "Operator"
+msgid "Slide"
+msgstr "滑动"
+
+#: ops_timetools.py:883
+msgctxt "Operator"
+msgid "Slide (G G)"
+msgstr "滑动（G G）"
+
+#: ops_slide.py:255
+msgctxt "Operator"
+msgid "Slide Keys Along Path"
+msgstr "沿路径滑动关键帧"
+
+#: ui.py:561
+#: ui.py:712
+msgctxt "Operator"
+msgid "Smooth"
+msgstr "平滑"
+
+#: ops_tools.py:1431
+msgctxt "Operator"
+msgid "Smooth Path"
+msgstr "平滑路径"
+
+#: ops_timetools.py:1218
+msgctxt "Operator"
+msgid "Smooth Speed"
+msgstr "平滑速度"
+
+#: ops_tools.py:856
+msgctxt "Operator"
+msgid "Smoothing: None"
+msgstr "平滑：无"
+
+#: ops_shape.py:152
+msgctxt "Operator"
+msgid "Snap Path Keys"
+msgstr "吸附路径关键帧"
+
+#: ops_timetools.py:837
+msgctxt "Operator"
+msgid "Snap to Frames"
+msgstr "吸附到帧"
+
+#: snapshots.py:1006
+msgctxt "Operator"
+msgid "Snapshot Tools"
+msgstr "快照工具"
+
+#: ops_timing.py:182
+msgctxt "Operator"
+msgid "Space"
+msgstr "间距"
+
+#: ops_timetools.py:918
+msgctxt "Operator"
+msgid "Speed Graph"
+msgstr "速度图表"
+
+#: ops_timetools.py:1540
+msgctxt "Operator"
+msgid "Speed Graph Hover"
+msgstr "悬停速度图表"
+
+#: ui.py:558
+#: ui.py:716
+msgctxt "Operator"
+msgid "Spin"
+msgstr "旋转"
+
+#: ops_shape.py:489
+msgctxt "Operator"
+msgid "Spin Path"
+msgstr "旋转路径"
+
+#: ops_vertex.py:444
+msgctxt "Operator"
+msgid "Static"
+msgstr "静态"
+
+#: snapshots.py:893
+msgctxt "Operator"
+msgid "Static / Live"
+msgstr "静态/实时"
+
+#: ops_shape.py:1007
+msgctxt "Operator"
+msgid "Straighten"
+msgstr "拉直"
+
+#: ui.py:750
+msgctxt "Operator"
+msgid "Subdivide"
+msgstr "细分"
+
+#: ops_keys.py:196
+msgctxt "Operator"
+msgid "Subdivide Path"
+msgstr "细分路径"
+
+#: snapshots.py:804
+msgctxt "Operator"
+msgid "Take Snapshot"
+msgstr "拍摄快照"
+
+#: snapshots.py:933
+msgctxt "Operator"
+msgid "Take This Frame's Pose"
+msgstr "采用此帧姿态"
+
+#: ops_timetools.py:899
+msgctxt "Operator"
+msgid "Timing Menu"
+msgstr "时序菜单"
+
+#: ops_keys.py:1399
+msgctxt "Operator"
+msgid "Toggle Cycles"
+msgstr "切换循环"
+
+#: ops_keys.py:1446
+msgctxt "Operator"
+msgid "Toggle Cycles (%s Only)"
+msgstr "切换循环（仅 %s）"
+
+#: ops_keys.py:1444
+msgctxt "Operator"
+msgid "Toggle Cycles (Whole Pose)"
+msgstr "切换循环（整个姿态）"
+
+#: ops_fmods.py:347
+msgctxt "Operator"
+msgid "Toggle Modifier"
+msgstr "切换修改器"
+
+#: ops_vertex.py:222
+msgctxt "Operator"
+msgid "Track Motion Path"
+msgstr "跟踪运动路径"
+
+#: ops_transform.py:475
+msgctxt "Operator"
+msgid "Transform Path Keys"
+msgstr "变换路径关键帧"
+
+#: snapshots.py:1053
+msgctxt "Operator"
+msgid "Update"
+msgstr "更新"
+
+#: ops_tools.py:474
+msgctxt "Operator"
+msgid "Update Ghosts"
+msgstr "更新幽灵"
+
+#: ops_tools.py:884
+msgctxt "Operator"
+msgid "Update Motion Paths"
+msgstr "更新运动路径"
+
+#: snapshots.py:914
+msgctxt "Operator"
+msgid "Update Snapshot"
+msgstr "更新快照"
+
+#: ops_vertex.py:447
+msgctxt "Operator"
+msgid "Update Static Path"
+msgstr "更新静态路径"
+
+#: ops_vertex.py:389
+#: ops_vertex.py:423
+msgctxt "Operator"
+msgid "Vertex Path Mode"
+msgstr "顶点路径模式"
+
+#: snapshots.py:1073
+msgctxt "Operator"
+msgid "Whole Pose"
+msgstr "整个姿态"
+
+#: ops_tools.py:275
+msgctxt "Operator"
+msgid "Worked Out Weight"
+msgstr "计算权重"

@@ -1,0 +1,209 @@
+# perfect-chinese: 1
+# id: hdr_encoding_tools
+# kind: addon
+# module: bl_ext.blender_org.hdr_encoding_tools
+# name: HDR Encoding Tools
+# name_zh: HDR编码工具
+# translator: KeshiMiao
+# category: Bake
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:641
+msgid "A higher value will lighten a greater surface area ofthe mesh. A lower value will only lighten the absolute darkest partsof the mesh. Default value should work in most cases"
+msgstr "数值越高，提亮的网格表面积越大。数值越低，只提亮网格中最暗的部分。默认值在大多数情况下即可。"
+
+#: __init__.py:1
+msgid "Bake"
+msgstr "烘焙"
+
+#: __init__.py:673
+#: __init__.py:1252
+msgid "Bake Color"
+msgstr "烘焙颜色"
+
+#: __init__.py:1222
+msgid "Batch"
+msgstr "批量"
+
+#: __init__.py:627
+msgid "Batch Folder"
+msgstr "批量文件夹"
+
+#: __init__.py:1230
+msgid "Batch folder:"
+msgstr "批量文件夹："
+
+#: __init__.py:1269
+msgid "Cleanup:"
+msgstr "清理："
+
+#: __init__.py:618
+msgid "Color in RGB, multiplier in alpha. Gamma range [0, 5], linear range [0, 34.49]"
+msgstr "颜色存入 RGB，乘数存入 Alpha。伽马范围 [0, 5]，线性范围 [0, 34.49]"
+
+#: __init__.py:632
+msgid "Compression Factor"
+msgstr "压缩系数"
+
+#: __init__.py:641
+msgid "Darkness Threshold"
+msgstr "暗度阈值"
+
+#: __init__.py:653
+msgid "Direction Similarity"
+msgstr "方向相似度"
+
+#: __init__.py:621
+msgid "Double LDR: gamma range [0, 2] mapped to [0, 1], values above 2 are clamped"
+msgstr "双 LDR：伽马范围 [0, 2] 映射到 [0, 1]，超过 2 的值会被钳制"
+
+#: __init__.py:615
+msgid "Encoding"
+msgstr "编码"
+
+#: __init__.py:627
+msgid "Folder whose .exr/.hdr files will all be converted"
+msgstr "该文件夹中的所有 .exr/.hdr 文件都会被转换"
+
+#: __init__.py:1199
+#: __init__.py:1220
+msgid "HDR Encoding"
+msgstr "HDR 编码"
+
+#: __init__.py:1
+#: __init__.py:1200
+msgid "HDR Encoding Tools"
+msgstr "HDR 编码工具"
+
+#: __init__.py:653
+msgid "If 'Sample from Other Islands' is enabled, this setting is used to determine how similar the direction of nearby faces must be in order fortheir color to be copied to any buried vertices"
+msgstr "如果启用「从其他孤岛采样」，此设置用于确定附近面的方向需多相似，才会将其颜色复制到被埋没的顶点"
+
+#: __init__.py:881
+msgid "No mesh objects selected"
+msgstr "未选择网格物体"
+
+#: __init__.py:1153
+msgid "No transparent Principled materials found on the selection"
+msgstr "所选内容中未找到透明的原理化材质"
+
+#: __init__.py:1187
+msgid "No unplugged materials found on the selection"
+msgstr "所选内容中未找到断开的材质"
+
+#: __init__.py:611
+msgid "Path to a .exr or .hdr image"
+msgstr ".exr 或 .hdr 图像的路径"
+
+#: __init__.py:618
+msgid "RGBM PNG"
+msgstr "RGBM PNG"
+
+#: __init__.py:665
+msgid "Sample from Other Islands"
+msgstr "从其他孤岛采样"
+
+#: __init__.py:919
+#: __init__.py:958
+msgid "Selected meshes have no color attributes"
+msgstr "所选网格没有颜色属性"
+
+#: __init__.py:1207
+msgid "Source (.exr / .hdr):"
+msgstr "源文件（.exr / .hdr）："
+
+#: __init__.py:611
+msgid "Source Image"
+msgstr "源图像"
+
+#: __init__.py:717
+msgid "Source must be a .exr or .hdr file"
+msgstr "源文件必须是 .exr 或 .hdr 文件"
+
+#: __init__.py:673
+msgid "The solid Base Color that transparent materials are temporarily set to while baking, so their albedo does not bleed dark into the vertex colors (green suits foliage)"
+msgstr "烘焙时临时将透明材质设为的纯色基础色，以免其反照率把暗色渗入顶点色（绿色适合植被）"
+
+#: __init__.py:1
+msgid "Tools for encoding / compressing HDR images and vertex colors, for use in game engines"
+msgstr "用于编码/压缩 HDR 图像和顶点色的工具，适用于游戏引擎"
+
+#: __init__.py:1251
+msgid "Transparency:"
+msgstr "透明度："
+
+#: __init__.py:1241
+msgid "Vertex Colors"
+msgstr "顶点色"
+
+#: __init__.py:632
+msgid "Vertex colors are divided by this before FBX export and multiplied by it (here or in a Unity shader) to restore the HDR range"
+msgstr "FBX 导出前顶点色会除以该值，再在此处或 Unity 着色器中乘以该值以恢复 HDR 范围"
+
+#: __init__.py:665
+msgid "When parts of the mesh are completely buried, this setting will force the 'Fix Buried Vertices' button to sample nearby (unburied) faces and copy their colorto the completley buried islands"
+msgstr "当网格的某些部分完全被埋没时，此设置会强制「修复被埋没顶点」按钮对附近（未埋没）的面采样，并将其颜色复制到完全被埋没的孤岛"
+
+#: __init__.py:621
+msgid "dLDR PNG"
+msgstr "dLDR PNG"
+
+#: __init__.py:690
+msgctxt "Operator"
+msgid "Browse HDR Image"
+msgstr "浏览 HDR 图像"
+
+#: __init__.py:896
+msgctxt "Operator"
+msgid "Compress HDR Vertex Color"
+msgstr "压缩 HDR 顶点色"
+
+#: __init__.py:738
+msgctxt "Operator"
+msgid "Convert Folder"
+msgstr "转换文件夹"
+
+#: __init__.py:856
+msgctxt "Operator"
+msgid "Create Vertex Color Layer"
+msgstr "创建顶点色图层"
+
+#: __init__.py:934
+msgctxt "Operator"
+msgid "Decompress and Restore HDR"
+msgstr "解压并恢复 HDR"
+
+#: __init__.py:971
+msgctxt "Operator"
+msgid "Find Buried Islands"
+msgstr "查找被埋没的孤岛"
+
+#: __init__.py:1030
+msgctxt "Operator"
+msgid "Fix Buried Vertices"
+msgstr "修复被埋没的顶点"
+
+#: __init__.py:702
+msgctxt "Operator"
+msgid "Generate PNG"
+msgstr "生成 PNG"
+
+#: __init__.py:1166
+msgctxt "Operator"
+msgid "Restore Connections"
+msgstr "恢复连接"
+
+#: __init__.py:1097
+msgctxt "Operator"
+msgid "Smooth Vertex Colors"
+msgstr "平滑顶点色"
+
+#: __init__.py:1127
+msgctxt "Operator"
+msgid "Unplug for Bake"
+msgstr "断开连接以烘焙"

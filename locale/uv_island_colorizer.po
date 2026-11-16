@@ -1,0 +1,199 @@
+# perfect-chinese: 1
+# id: uv_island_colorizer
+# kind: addon
+# module: bl_ext.blender_org.uv_island_colorizer
+# name: UV Island Colorizer
+# name_zh: UV岛上色
+# translator: KeshiMiao
+# category: UV
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:85
+msgid "(missing)"
+msgstr "（缺失）"
+
+#: __init__.py:590
+msgid "1.  Target Meshes"
+msgstr "1.  目标网格"
+
+#: __init__.py:629
+msgid "2.  Colorize & Bake"
+msgstr "2.  着色并烘焙"
+
+#: __init__.py:64
+msgid "Active index"
+msgstr "活动索引"
+
+#: __init__.py:67
+msgid "Add Mesh"
+msgstr "添加网格"
+
+#: __init__.py:20
+msgid "After colorizing UV islands, bake the vertex colors to a diffuse PNG using Cycles (Blender equivalent of Maya's Transfer Maps / Surface Sampler)"
+msgstr "为 UV 孤岛着色后，使用 Cycles 将顶点颜色烘焙为漫反射 PNG（相当于 Maya 的 Transfer Maps / Surface Sampler）"
+
+#: __init__.py:20
+#: __init__.py:632
+msgid "Bake Diffuse Map"
+msgstr "烘焙漫反射贴图"
+
+#: __init__.py:28
+msgid "Bake texture resolution in pixels (square)"
+msgstr "烘焙贴图分辨率（像素，正方形）"
+
+#: __init__.py:181
+msgid "Choose a collection to add"
+msgstr "选择要添加的集合"
+
+#: __init__.py:181
+#: __init__.py:191
+msgid "Collection"
+msgstr "集合"
+
+#: __init__.py:638
+msgid "Cycles · albedo pass only, no lighting."
+msgstr "Cycles · 仅反照率通道，不含光照。"
+
+#: __init__.py:55
+msgid "Mesh Object"
+msgstr "网格物体"
+
+#: __init__.py:195
+msgid "No collections found in the file."
+msgstr "文件中未找到集合。"
+
+#: __init__.py:119
+msgid "No mesh selected in the picker."
+msgstr "选择器中未选择网格。"
+
+#: __init__.py:161
+msgid "No new mesh objects were selected."
+msgstr "未选择新的网格物体。"
+
+#: __init__.py:33
+#: __init__.py:637
+msgid "Output Folder"
+msgstr "输出文件夹"
+
+#: __init__.py:67
+msgid "Pick a mesh from the scene or any collection to add to the list"
+msgstr "从场景或任意集合中选择网格以添加到列表"
+
+#: __init__.py:28
+msgid "Resolution"
+msgstr "分辨率"
+
+#: __init__.py:636
+msgid "Resolution (px)"
+msgstr "分辨率（px）"
+
+#: __init__.py:41
+msgid "Saved across Blender restarts:"
+msgstr "在 Blender 重启后保留："
+
+#: __init__.py:650
+msgid "Settings saved across restarts."
+msgstr "设置在重启后保留。"
+
+#: __init__.py:484
+msgid "The mesh list is empty. Add at least one mesh."
+msgstr "网格列表为空。请至少添加一个网格。"
+
+#: __init__.py:575
+#: __init__.py:579
+msgid "UV Island Colorizer"
+msgstr "UV 孤岛着色器"
+
+#: __init__.py:33
+msgid "Where to save baked PNGs. Blank = next to .blend file"
+msgstr "烘焙 PNG 的保存位置。留空 = .blend 文件所在目录"
+
+#: __init__.py:169
+msgctxt "Operator"
+msgid "Add Collection"
+msgstr "添加集合"
+
+#: __init__.py:139
+msgctxt "Operator"
+msgid "Add Selected Objects"
+msgstr "添加选定物体"
+
+#: __init__.py:598
+msgctxt "Operator"
+msgid "Add Selected from Viewport"
+msgstr "从视图添加选中项"
+
+#: __init__.py:140
+msgctxt "Operator"
+msgid "Add all currently selected mesh objects in the viewport to the list"
+msgstr "将视图中当前所有选中的网格物体添加到列表"
+
+#: __init__.py:170
+msgctxt "Operator"
+msgid "Add all mesh objects from a chosen collection to the list"
+msgstr "将所选集合中的所有网格物体添加到列表"
+
+#: __init__.py:601
+msgctxt "Operator"
+msgid "Add from Collection…"
+msgstr "从集合添加…"
+
+#: __init__.py:112
+msgctxt "Operator"
+msgid "Add the picked mesh to the target list"
+msgstr "将所选网格添加到目标列表"
+
+#: __init__.py:111
+msgctxt "Operator"
+msgid "Add to List"
+msgstr "添加到列表"
+
+#: __init__.py:246
+msgctxt "Operator"
+msgid "Clear All"
+msgstr "全部清除"
+
+#: __init__.py:470
+msgctxt "Operator"
+msgid "Colorize UV Islands"
+msgstr "为 UV 孤岛着色"
+
+#: __init__.py:471
+msgctxt "Operator"
+msgid "Colorize UV islands on every mesh in the list. Optionally bake each one to a diffuse PNG."
+msgstr "为列表中每个网格的 UV 孤岛着色。可选择将每个网格烘焙为漫反射 PNG。"
+
+#: __init__.py:651
+msgctxt "Operator"
+msgid "Help"
+msgstr "帮助"
+
+#: __init__.py:232
+msgctxt "Operator"
+msgid "Remove"
+msgstr "移除"
+
+#: __init__.py:247
+msgctxt "Operator"
+msgid "Remove all meshes from the list"
+msgstr "从列表中移除所有网格"
+
+#: __init__.py:233
+msgctxt "Operator"
+msgid "Remove the highlighted mesh from the list"
+msgstr "从列表中移除高亮的网格"
+
+#: __init__.py:552
+msgctxt "Operator"
+msgid "Show how to use this tool"
+msgstr "显示此工具的使用方法"
+
+#: __init__.py:551
+msgctxt "Operator"
+msgid "UV Island Colorizer Help"
+msgstr "UV 孤岛着色器帮助"

@@ -1,0 +1,1520 @@
+# perfect-chinese: 1
+# id: rendersynth
+# kind: addon
+# module: bl_ext.blender_org.rendersynth
+# name: Rendersynth
+# name_zh: 合成数据渲染
+# translator: KeshiMiao
+# category: Physics
+# supported_versions: >=4.5.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: ext/ui/pipe_edit_widgets.py:89
+msgid "(Empty)"
+msgstr "（空）"
+
+#: ext/distribution/nodes.py:30
+msgid "1D + 1D + 1D > 3D"
+msgstr "1D + 1D + 1D > 3D"
+
+#: ext/distribution/nodes.py:29
+msgid "1D + 1D > 2D"
+msgstr "1D + 1D > 2D"
+
+#: ext/distribution/nodes.py:32
+msgid "1D + 2D > 3D"
+msgstr "1D + 2D > 3D"
+
+#: ext/distribution/nodes.py:416
+msgid "2D"
+msgstr "2D"
+
+#: ext/distribution/nodes.py:31
+msgid "2D + 1D > 3D"
+msgstr "2D + 1D > 3D"
+
+#: ext/distribution/nodes.py:416
+msgid "3D"
+msgstr "3D"
+
+#: ext/distribution/nodes.py:20
+msgid "Abs"
+msgstr "绝对值"
+
+#: ext/ui/pipe_edit_widgets.py:923
+#: ext/ui/pipe_edit_widgets.py:953
+msgid "Active Color"
+msgstr "活动颜色"
+
+#: ext/ui/labeling/landmark_section.py:105
+msgid "Active Connection"
+msgstr "活动连接"
+
+#: ext/ui/labeling/landmark_section.py:109
+msgid "Active Keypoint"
+msgstr "活动关键点"
+
+#: ext/ui/properties.py:267
+msgid "Active palette item index"
+msgstr "活动调色板项索引"
+
+#: ext/distribution/nodes.py:21
+msgid "Add"
+msgstr "添加"
+
+#: ext/ui/pipeline_list_viewer.py:229
+msgid "All"
+msgstr "全部"
+
+#: ext/distribution/nodes.py:306
+#: ext/ui/properties.py:185
+msgid "Alpha"
+msgstr "Alpha"
+
+#: ext/ui/properties.py:52
+msgid "Amount"
+msgstr "数量"
+
+#: ext/ui/panels.py:33
+msgid "Amount:"
+msgstr "数量："
+
+#: ext/ui/labeling/landmark_section.py:97
+msgid "Armature"
+msgstr "骨架"
+
+#: ext/operators/landmarks_operator.py:30
+msgid "Assign an armature to this rig first"
+msgstr "请先为此绑定指定骨架"
+
+#: ext/operators/landmarks_operator.py:25
+msgid "Auto-detect only applies to Blender rigs"
+msgstr "自动检测仅适用于 Blender 绑定"
+
+#: ext/ui/pipe_edit_widgets.py:211
+msgid "Axis:"
+msgstr "轴："
+
+#: ext/ui/formatting_config.py:299
+msgid "BBox float precision"
+msgstr "包围盒浮点精度"
+
+#: ext/ui/properties.py:246
+msgid "Base Color"
+msgstr "基础色"
+
+#: ext/distribution/nodes.py:48
+#: ext/distribution/nodes.py:307
+msgid "Beta"
+msgstr "Beta"
+
+#: ext/distribution/nodes.py:55
+msgid "Binomial"
+msgstr "二项式"
+
+#: ext/operators/landmarks_operator.py:181
+#: ext/ui/labeling/landmark_section.py:120
+msgid "Blender Armature"
+msgstr "Blender 骨架"
+
+#: ext/ui/labeling/landmark_section.py:92
+msgid "Blender Rig"
+msgstr "Blender 绑定"
+
+#: ext/ui/labeling/landmark_section.py:36
+msgid "Bone"
+msgstr "骨骼"
+
+#: ext/ui/pipe_edit_widgets.py:108
+msgid "Broken Tree Link"
+msgstr "断开的树连接"
+
+#: ext/ui/pipeline_list_viewer.py:332
+msgid "Camera"
+msgstr "摄像机"
+
+#: ext/ui/pipeline_list_viewer.py:337
+msgid "Camera Operations"
+msgstr "摄像机操作"
+
+#: ext/operators/core_ops.py:27
+msgid "Cannot generate: invalid amount of images"
+msgstr "无法生成：图像数量无效"
+
+#: ext/operators/core_ops.py:60
+msgid "Cannot generate: invalid destination path"
+msgstr "无法生成：目标路径无效"
+
+#: ext/operators/core_ops.py:56
+msgid "Cannot generate: invalid save prefix"
+msgstr "无法生成：保存前缀无效"
+
+#: ext/distribution/nodes.py:56
+msgid "Categorical"
+msgstr "分类"
+
+#: ext/ui/properties.py:246
+msgid "Center color for Gaussian distribution"
+msgstr "高斯分布的中心颜色"
+
+#: ext/ui/properties.py:100
+msgid "Clamp"
+msgstr "钳制"
+
+#: ext/labeling/bpy_properties.py:55
+#: ext/labeling/bpy_properties.py:100
+msgid "Class Name"
+msgstr "类名"
+
+#: ext/ui/labeling/labeling_panel.py:204
+msgid "Class assignment"
+msgstr "类别分配"
+
+#: ext/ui/labeling/labeling_panel.py:159
+msgid "Classes"
+msgstr "类别"
+
+#: ext/labeling/bpy_properties.py:77
+msgid "Collection"
+msgstr "集合"
+
+#: ext/ui/pipe_edit_widgets.py:113
+msgid "Color"
+msgstr "颜色"
+
+#: ext/ui/pipe_edit_widgets.py:872
+#: ext/ui/properties.py:212
+msgid "Color Distribution"
+msgstr "颜色分布"
+
+#: ext/ui/pipe_edit_widgets.py:902
+msgid "Color Palette"
+msgstr "调色板"
+
+#: ext/ui/properties.py:262
+msgid "Colors and weights for palette-based sampling"
+msgstr "用于基于调色板采样的颜色和权重"
+
+#: ext/ui/pipe_edit_widgets.py:932
+msgid "Colors are sampled continuously along the gradient"
+msgstr "颜色沿渐变连续采样"
+
+#: ext/labeling/generator/per_pixel.py:121
+#: ext/labeling/generator/per_pixel.py:196
+msgid "CompositorNodeCombineColor"
+msgstr "CompositorNodeCombineColor"
+
+#: ext/labeling/generator/per_pixel.py:121
+msgid "CompositorNodeInvert"
+msgstr "CompositorNodeInvert"
+
+#: ext/labeling/generator/per_pixel.py:121
+msgid "CompositorNodeNormalize"
+msgstr "CompositorNodeNormalize"
+
+#: ext/labeling/generator/per_pixel.py:121
+#: ext/labeling/generator/per_pixel.py:196
+msgid "CompositorNodeOutputFile"
+msgstr "CompositorNodeOutputFile"
+
+#: ext/labeling/generator/per_pixel.py:121
+#: ext/labeling/generator/per_pixel.py:196
+msgid "CompositorNodeRLayers"
+msgstr "CompositorNodeRLayers"
+
+#: ext/pipeline/bpy_properties.py:10
+msgid "Config"
+msgstr "配置"
+
+#: ext/ui/properties.py:115
+msgid "Consider the extracted values as offset to the current value."
+msgstr "将提取的值视为当前值的偏移。"
+
+#: ext/distribution/nodes.py:406
+msgid "Constant"
+msgstr "常量"
+
+#: ext/ui/pipeline_list_viewer.py:301
+msgid "Constraints"
+msgstr "约束"
+
+#: ext/ui/pipeline_list_viewer.py:307
+msgid "Constraints Operations"
+msgstr "约束操作"
+
+#: ext/distribution/nodes.py:284
+msgid "Continuous"
+msgstr "连续"
+
+#: ext/distribution/nodes.py:292
+msgid "Covariance"
+msgstr "协方差"
+
+#: ext/operators/landmarks_operator.py:182
+msgid "Custom Rig"
+msgstr "自定义绑定"
+
+#: ext/labeling/bpy_properties.py:118
+#: ext/ui/labeling/labeling_panel.py:172
+msgid "Default Class"
+msgstr "默认类别"
+
+#: ext/ui/labeling/labeling_panel.py:184
+msgid "Define multi-object entities"
+msgstr "定义多物体实体"
+
+#: ext/operators/landmarks_operator.py:182
+msgid "Define non-Blender rig by name"
+msgstr "按名称定义非 Blender 绑定"
+
+#: ext/ui/properties.py:38
+msgid "Destination"
+msgstr "目标"
+
+#: ext/distribution/nodes.py:63
+msgid "Diagonal"
+msgstr "对角线"
+
+#: ext/distribution/nodes.py:280
+#: ext/distribution/nodes.py:327
+msgid "Dim"
+msgstr "维数"
+
+#: ext/distribution/nodes.py:268
+#: ext/distribution/nodes.py:290
+msgid "Dimension"
+msgstr "维度"
+
+#: ext/ui/pipe_edit_widgets.py:516
+msgid "Dimension mismatch"
+msgstr "维度不匹配"
+
+#: ext/distribution/nodes.py:369
+msgid "Discrete"
+msgstr "离散"
+
+#: ext/ui/properties.py:110
+msgid "Discretize values"
+msgstr "离散化数值"
+
+#: ext/distribution/nodes.py:72
+#: ext/ui/properties.py:122
+msgid "Distribution"
+msgstr "分布"
+
+#: ext/distribution/nodes.py:240
+msgid "Distribution Editor"
+msgstr "分布编辑器"
+
+#: ext/operators/graphical_ops.py:33
+msgid "Distribution tree pointer is broken"
+msgstr "分布树指针已损坏"
+
+#: ext/distribution/nodes.py:21
+msgid "Div"
+msgstr "除法"
+
+#: ext/ui/properties.py:80
+msgid "Enable Logging"
+msgstr "启用日志记录"
+
+#: ext/pipeline/bpy_properties.py:8
+#: ext/ui/labeling/landmark_section.py:72
+msgid "Enabled"
+msgstr "已启用"
+
+#: ext/operators/landmarks_operator.py:208
+msgid "Enter a rig name!"
+msgstr "请输入绑定名称！"
+
+#: ext/operators/labeling_ops.py:136
+msgid "Entities"
+msgstr "实体"
+
+#: ext/distribution/nodes.py:20
+msgid "Exp"
+msgstr "指数"
+
+#: ext/ui/pipeline_list_viewer.py:367
+msgid "Experimental"
+msgstr "实验性"
+
+#: ext/ui/pipeline_list_viewer.py:372
+msgid "Experimental Operations"
+msgstr "实验性操作"
+
+#: ext/distribution/nodes.py:47
+msgid "Exponential"
+msgstr "指数"
+
+#: ext/operators/io_ops.py:366
+msgid "Failed to update logger"
+msgstr "更新日志记录器失败"
+
+#: ext/ui/properties.py:48
+msgid "File naming prefix for saved images"
+msgstr "保存图像的文件命名前缀"
+
+#: ext/ui/pipe_edit_widgets.py:426
+msgid "Folder Selection"
+msgstr "文件夹选择"
+
+#: ext/ui/formatting_config.py:296
+msgid "Folder split"
+msgstr "文件夹划分"
+
+#: ext/ui/properties.py:67
+msgid "Format"
+msgstr "格式"
+
+#: ext/ui/labeling/landmark_section.py:66
+msgid "From"
+msgstr "从"
+
+#: ext/distribution/nodes.py:49
+msgid "Gamma"
+msgstr "伽马"
+
+#: ext/ui/pipe_edit_widgets.py:961
+msgid "Gaussian Parameters"
+msgstr "高斯参数"
+
+#: ext/ui/properties.py:64
+msgid "Generate labels for renders"
+msgstr "为渲染生成标签"
+
+#: ext/ui/formatting_config.py:315
+msgid "Generate metadata"
+msgstr "生成元数据"
+
+#: ext/ui/pipe_edit_widgets.py:931
+msgid "Gradient Colors"
+msgstr "渐变颜色"
+
+#: ext/ui/pipe_edit_widgets.py:889
+msgid "HSV Constraints"
+msgstr "HSV 约束"
+
+#: ext/distribution/nodes.py:311
+msgid "Hi"
+msgstr "高"
+
+#: ext/distribution/nodes.py:302
+#: ext/distribution/nodes.py:374
+msgid "High"
+msgstr "高"
+
+#: ext/ui/labeling/landmark_section.py:177
+msgid "ID"
+msgstr "ID"
+
+#: ext/ui/labeling/landmark_section.py:78
+msgid "Identity"
+msgstr "恒等"
+
+#: ext/ui/properties.py:156
+msgid "Image Folder"
+msgstr "图像文件夹"
+
+#: ext/ui/labeling/landmark_section.py:28
+msgid "Include"
+msgstr "包含"
+
+#: ext/distribution/nodes.py:63
+msgid "Independent sigma per axis; axis-aligned Gaussian (diagonal covariance, N d.o.f.)"
+msgstr "各轴独立 sigma；轴对齐高斯（对角协方差，N 自由度）"
+
+#: ext/ui/labeling/landmark_section.py:27
+msgid "Index"
+msgstr "索引"
+
+#: ext/ui/pipe_edit_widgets.py:431
+msgid "Individual Files"
+msgstr "单独文件"
+
+#: ext/ui/panels.py:97
+msgid "Info"
+msgstr "信息"
+
+#: ext/ui/properties.py:43
+msgid "Initialize counter to last number"
+msgstr "将计数器初始化为最后编号"
+
+#: ext/ui/properties.py:33
+msgid "Input path"
+msgstr "输入路径"
+
+#: ext/distribution/nodes.py:534
+msgid "Inputs"
+msgstr "输入"
+
+#: ext/distribution/nodes.py:61
+msgid "Isotropic"
+msgstr "各向同性"
+
+#: ext/ui/labeling/landmark_section.py:231
+msgid "Keypoint Mapping"
+msgstr "关键点映射"
+
+#: ext/ui/pipe_edit_widgets.py:23
+#: ext/ui/pipe_edit_widgets.py:28
+msgid "Label"
+msgstr "标签"
+
+#: ext/labeling/bpy_properties.py:118
+msgid "Label assigned to objects that don't match any rules"
+msgstr "分配给不匹配任何规则的物体的标签"
+
+#: ext/ui/labeling/labeling_panel.py:122
+msgid "Labeling"
+msgstr "标注"
+
+#: ext/ui/labeling/labeling_panel.py:221
+msgid "Labeling Rules"
+msgstr "标注规则"
+
+#: ext/ui/formatting_config.py:124
+msgid "Labeling Settings"
+msgstr "标注设置"
+
+#: ext/ui/labeling/labeling_panel.py:133
+msgid "Labeling mode"
+msgstr "标注模式"
+
+#: ext/distribution/nodes.py:304
+#: ext/distribution/nodes.py:376
+msgid "Lambda"
+msgstr "Lambda"
+
+#: ext/ui/pipeline_list_viewer.py:283
+msgid "Lighting"
+msgstr "光照"
+
+#: ext/ui/pipeline_list_viewer.py:288
+msgid "Lighting Operations"
+msgstr "光照操作"
+
+#: ext/ui/panels.py:120
+msgid "Links:"
+msgstr "链接："
+
+#: ext/distribution/nodes.py:310
+msgid "Lo"
+msgstr "低"
+
+#: ext/__init__.py:25
+msgid "Load a JSON config randomize objects render N images"
+msgstr "加载 JSON 配置，随机化物体并渲染 N 张图像"
+
+#: ext/ui/pipeline_list_viewer.py:155
+msgid "Load pipeline"
+msgstr "加载管线"
+
+#: ext/distribution/nodes.py:20
+msgid "Log"
+msgstr "日志"
+
+#: ext/ui/properties.py:74
+msgid "Log Path"
+msgstr "日志路径"
+
+#: ext/operators/io_ops.py:314
+msgid "Log file does not exist."
+msgstr "日志文件不存在。"
+
+#: ext/operators/io_ops.py:363
+msgid "Logger updated!"
+msgstr "日志记录器已更新！"
+
+#: ext/ui/panels.py:77
+msgid "Logging"
+msgstr "日志记录"
+
+#: ext/distribution/nodes.py:301
+#: ext/distribution/nodes.py:373
+msgid "Low"
+msgstr "低"
+
+#: ext/ui/labeling/landmark_section.py:32
+msgid "Mapped Object"
+msgstr "映射物体"
+
+#: ext/labeling/bpy_properties.py:75
+#: ext/labeling/bpy_properties.py:83
+msgid "Material"
+msgstr "材质"
+
+#: ext/ui/pipeline_list_viewer.py:355
+msgid "Material Operations"
+msgstr "材质操作"
+
+#: ext/operators/pipeline_ops.py:427
+msgid "Material not found"
+msgstr "未找到材质"
+
+#: ext/distribution/nodes.py:545
+msgid "Math"
+msgstr "数学"
+
+#: ext/ui/properties.py:182
+msgid "Maximum"
+msgstr "最大值"
+
+#: ext/ui/properties.py:195
+msgid "Maximum Vector"
+msgstr "最大向量"
+
+#: ext/ui/properties.py:225
+msgid "Maximum saturation value"
+msgstr "最大饱和度值"
+
+#: ext/ui/properties.py:239
+msgid "Maximum value (brightness)"
+msgstr "最大值（亮度）"
+
+#: ext/distribution/nodes.py:293
+#: ext/distribution/nodes.py:333
+msgid "Mean"
+msgstr "均值"
+
+#: ext/distribution/nodes.py:333
+msgid "Mean X"
+msgstr "X 均值"
+
+#: ext/distribution/nodes.py:294
+msgid "Mean Y"
+msgstr "Y 均值"
+
+#: ext/distribution/nodes.py:295
+msgid "Mean Z"
+msgstr "Z 均值"
+
+#: ext/ui/properties.py:181
+msgid "Minimum"
+msgstr "最小值"
+
+#: ext/ui/properties.py:194
+msgid "Minimum Vector"
+msgstr "最小向量"
+
+#: ext/ui/properties.py:218
+msgid "Minimum saturation value"
+msgstr "最小饱和度值"
+
+#: ext/ui/properties.py:232
+msgid "Minimum value (brightness)"
+msgstr "最小值（亮度）"
+
+#: ext/distribution/nodes.py:21
+msgid "Mul"
+msgstr "乘"
+
+#: ext/ui/properties.py:188
+msgid "N"
+msgstr "N"
+
+#: ext/labeling/bpy_properties.py:47
+#: ext/labeling/bpy_properties.py:67
+msgid "Name"
+msgstr "名称"
+
+#: ext/labeling/bpy_properties.py:76
+msgid "Name Contains"
+msgstr "名称包含"
+
+#: ext/ui/labeling/labeling_panel.py:190
+msgid "Named Entities"
+msgstr "命名实体"
+
+#: ext/distribution/nodes.py:20
+msgid "Neg"
+msgstr "负"
+
+#: ext/operators/pipeline_ops.py:395
+msgid "No Position to remove"
+msgstr "没有可移除的位置"
+
+#: ext/operators/labeling_ops.py:33
+msgid "No class to remove"
+msgstr "没有可移除的类别"
+
+#: ext/ui/properties.py:204
+msgid "No color distribution"
+msgstr "无颜色分布"
+
+#: ext/ui/pipe_edit_widgets.py:880
+msgid "No color distribution selected."
+msgstr "未选择颜色分布。"
+
+#: ext/core/preview.py:138
+msgid "No default camera was set, no labels preview could be generated"
+msgstr "未设置默认摄像机，无法生成标签预览"
+
+#: ext/operators/graphical_ops.py:28
+msgid "No distribution selected"
+msgstr "未选择分布"
+
+#: ext/ui/pipe_edit_widgets.py:667
+msgid "No distribution."
+msgstr "无分布。"
+
+#: ext/operators/labeling_ops.py:184
+msgid "No entity to remove"
+msgstr "没有可移除的实体"
+
+#: ext/operators/labeling_ops.py:71
+msgid "No label to remove"
+msgstr "没有可移除的标签"
+
+#: ext/operators/labeling_ops.py:209
+#: ext/operators/labeling_ops.py:239
+msgid "No objects selected"
+msgstr "未选择物体"
+
+#: ext/operators/pipeline_ops.py:47
+msgid "No operations to remove"
+msgstr "没有可移除的操作"
+
+#: ext/ui/pipe_edit_widgets.py:971
+msgid "No parameters required. Uniform distribution over all colors."
+msgstr "无需参数。在所有颜色上均匀分布。"
+
+#: ext/operators/landmarks_operator.py:240
+msgid "No rig selected"
+msgstr "未选择绑定"
+
+#: ext/operators/labeling_ops.py:103
+msgid "No rule to remove"
+msgstr "没有可移除的规则"
+
+#: ext/operators/landmarks_operator.py:159
+msgid "No skeleton is being visualized currently."
+msgstr "当前未可视化任何骨架。"
+
+#: ext/operators/landmarks_operator.py:271
+msgid "No stale keypoints found"
+msgstr "未找到过期的关键点"
+
+#: ext/pipeline/bpy_properties.py:35
+msgid "Node Tree"
+msgstr "节点树"
+
+#: ext/labeling/bpy_properties.py:26
+#: ext/labeling/bpy_properties.py:78
+msgid "None"
+msgstr "无"
+
+#: ext/distribution/nodes.py:45
+msgid "Normal"
+msgstr "法线"
+
+#: ext/ui/properties.py:52
+msgid "Number of images to generate"
+msgstr "要生成的图像数量"
+
+#: ext/ui/pipe_editor.py:179
+msgid "Number of items (K)"
+msgstr "项目数量（K）"
+
+#: ext/ui/pipeline_list_viewer.py:314
+msgid "Object"
+msgstr "物体"
+
+#: ext/ui/labeling/labeling_panel.py:206
+msgid "Object Labels"
+msgstr "物体标签"
+
+#: ext/ui/pipeline_list_viewer.py:319
+msgid "Object Operations"
+msgstr "物体操作"
+
+#: ext/ui/properties.py:115
+msgid "Offset mode"
+msgstr "偏移模式"
+
+#: ext/operators/graphical_ops.py:65
+msgid "Open Node Editor manually and set tree type to Distribution"
+msgstr "手动打开节点编辑器，并将节点树类型设置为分布"
+
+#: ext/ui/properties.py:27
+msgid "Output path"
+msgstr "输出路径"
+
+#: ext/ui/properties.py:187
+msgid "P"
+msgstr "P"
+
+#: ext/ui/properties.py:262
+msgid "Palette Colors"
+msgstr "调色板颜色"
+
+#: ext/ui/properties.py:267
+msgid "Palette Index"
+msgstr "调色板索引"
+
+#: ext/ui/pipe_edit_widgets.py:36
+msgid "Path"
+msgstr "路径"
+
+#: ext/ui/properties.py:156
+msgid "Path to image folder"
+msgstr "图像文件夹路径"
+
+#: ext/ui/properties.py:27
+msgid "Path to save JSON config"
+msgstr "保存 JSON 配置的路径"
+
+#: ext/ui/properties.py:33
+msgid "Path to your JSON config"
+msgstr "JSON 配置路径"
+
+#: ext/ui/properties.py:74
+msgid "Path where addon logs will be saved"
+msgstr "插件日志保存路径"
+
+#: ext/ui/properties.py:138
+msgid "Pick k-out-of-N"
+msgstr "从 N 中选取 k 个"
+
+#: ext/ui/pipeline_list_viewer.py:65
+msgid "Pipeline Editor"
+msgstr "管线编辑器"
+
+#: ext/distribution/nodes.py:54
+msgid "Poisson"
+msgstr "泊松"
+
+#: ext/ui/pipe_edit_widgets.py:52
+#: ext/ui/pipe_edit_widgets.py:63
+msgid "Position"
+msgstr "位置"
+
+#: ext/ui/pipe_edit_widgets.py:955
+msgid "Position (0 = start, 1 = end)"
+msgstr "位置（0 = 起点，1 = 终点）"
+
+#: ext/distribution/nodes.py:22
+msgid "Pow"
+msgstr "幂"
+
+#: ext/ui/properties.py:48
+msgid "Prefix"
+msgstr "前缀"
+
+#: ext/ui/pipe_edit_widgets.py:639
+msgid "Preset Distributions"
+msgstr "预设分布"
+
+#: ext/ui/properties.py:187
+msgid "Probability"
+msgstr "概率"
+
+#: ext/distribution/nodes.py:382
+msgid "Probs"
+msgstr "概率"
+
+#: ext/ui/pipe_edit_widgets.py:113
+msgid "RGBA color value"
+msgstr "RGBA 颜色值"
+
+#: ext/ui/properties.py:58
+msgid "Random seed for reproducibility"
+msgstr "用于复现的随机种子"
+
+#: ext/ui/pipeline_list_viewer.py:230
+msgid "Randomize"
+msgstr "随机化"
+
+#: ext/ui/formatting_config.py:303
+msgid "Ray-casting precision"
+msgstr "光线投射精度"
+
+#: ext/pipeline/bpy_properties.py:35
+msgid "Reference to the actual DistributionNodeTree instance"
+msgstr "对实际 DistributionNodeTree 实例的引用"
+
+#: ext/ui/labeling/landmark_section.py:207
+msgid "Registered Rigs"
+msgstr "已注册绑定"
+
+#: ext/__init__.py:25
+msgid "Render"
+msgstr "渲染"
+
+#: ext/__init__.py:25
+msgid "Rendersynth"
+msgstr "Rendersynth"
+
+#: ext/operators/landmarks_operator.py:180
+msgid "Rig Mode"
+msgstr "绑定模式"
+
+#: ext/operators/landmarks_operator.py:185
+#: ext/ui/labeling/landmark_section.py:71
+msgid "Rig Name"
+msgstr "绑定名称"
+
+#: ext/distribution/nodes.py:265
+msgid "Root"
+msgstr "根"
+
+#: ext/labeling/bpy_properties.py:73
+msgid "Rule type"
+msgstr "规则类型"
+
+#: ext/ui/formatting_config.py:309
+msgid "Sampling Type"
+msgstr "采样类型"
+
+#: ext/ui/properties.py:225
+msgid "Saturation Max"
+msgstr "饱和度上限"
+
+#: ext/ui/properties.py:218
+msgid "Saturation Min"
+msgstr "饱和度下限"
+
+#: ext/ui/pipeline_list_viewer.py:161
+msgid "Save Pipeline"
+msgstr "保存管线"
+
+#: ext/ui/properties.py:38
+msgid "Save folder destination"
+msgstr "保存文件夹目标"
+
+#: ext/ui/pipe_edit_widgets.py:498
+msgid "Saved Distributions"
+msgstr "已保存分布"
+
+#: ext/ui/pipe_edit_widgets.py:1016
+msgid "Saved Positions"
+msgstr "已保存位置"
+
+#: ext/distribution/nodes.py:409
+msgid "Scalar"
+msgstr "标量"
+
+#: ext/distribution/nodes.py:567
+msgid "Scale"
+msgstr "缩放"
+
+#: ext/ui/properties.py:58
+msgid "Seed"
+msgstr "种子"
+
+#: ext/ui/panels.py:36
+msgid "Seed:"
+msgstr "种子："
+
+#: ext/operators/landmarks_operator.py:202
+msgid "Select a Blender armature!"
+msgstr "请选择一个 Blender 骨架！"
+
+#: ext/ui/properties.py:212
+msgid "Select a color distribution method"
+msgstr "选择颜色分布方法"
+
+#: ext/operators/landmarks_operator.py:18
+#: ext/operators/landmarks_operator.py:138
+msgid "Select a rig first"
+msgstr "请先选择绑定"
+
+#: ext/operators/labeling_ops.py:136
+msgid "Select an entity to add"
+msgstr "选择要添加的实体"
+
+#: ext/labeling/bpy_properties.py:83
+#: ext/labeling/bpy_properties.py:92
+msgid "Select material to add"
+msgstr "选择要添加的材质"
+
+#: ext/ui/pipe_edit_widgets.py:1068
+msgid "Select target materials:"
+msgstr "选择目标材质："
+
+#: ext/ui/labeling/landmark_section.py:118
+msgid "Selected"
+msgstr "已选中"
+
+#: ext/ui/pipe_edit_widgets.py:122
+msgid "Selection weight for this color"
+msgstr "此颜色的选择权重"
+
+#: ext/distribution/nodes.py:499
+msgid "Selector"
+msgstr "选择器"
+
+#: ext/ui/panels.py:63
+msgid "Settings"
+msgstr "设置"
+
+#: ext/ui/pipe_editor.py:288
+msgid "Shader Node:"
+msgstr "着色器节点："
+
+#: ext/labeling/generator/per_pixel.py:196
+msgid "ShaderNodeSeparateXYZ"
+msgstr "ShaderNodeSeparateXYZ"
+
+#: ext/labeling/generator/per_pixel.py:196
+msgid "ShaderNodeVectorMath"
+msgstr "ShaderNodeVectorMath"
+
+#: ext/ui/pipeline_list_viewer.py:229
+msgid "Show all"
+msgstr "显示全部"
+
+#: ext/ui/pipeline_list_viewer.py:230
+msgid "Show randomize ops"
+msgstr "显示随机化操作"
+
+#: ext/distribution/nodes.py:296
+#: ext/distribution/nodes.py:342
+msgid "Sigma"
+msgstr "西格玛"
+
+#: ext/distribution/nodes.py:344
+msgid "Sigma X"
+msgstr "西格玛 X"
+
+#: ext/distribution/nodes.py:297
+msgid "Sigma Y"
+msgstr "西格玛 Y"
+
+#: ext/distribution/nodes.py:298
+msgid "Sigma Z"
+msgstr "西格玛 Z"
+
+#: ext/distribution/nodes.py:61
+msgid "Single shared sigma; spherical Gaussian (covariance = sigma^2 * I)"
+msgstr "单一共享 sigma；球形高斯（协方差 = sigma^2 * I）"
+
+#: ext/ui/labeling/landmark_section.py:248
+msgid "Skeleton Connections"
+msgstr "骨骼连接"
+
+#: ext/ui/properties.py:184
+msgid "Standard Dev."
+msgstr "标准差"
+
+#: ext/ui/properties.py:255
+msgid "Standard deviation for Gaussian distribution"
+msgstr "高斯分布的标准差"
+
+#: ext/ui/properties.py:43
+#: ext/ui/properties.py:100
+msgid "Start numbering at the last identified number in the destination folder"
+msgstr "从目标文件夹中最后识别到的编号开始编号"
+
+#: ext/distribution/nodes.py:21
+msgid "Sub"
+msgstr "减去"
+
+#: ext/distribution/nodes.py:471
+msgid "Swap"
+msgstr "交换"
+
+#: ext/core/io/strategies/coco_strategy.py:41
+#: ext/core/io/strategies/coco_strategy.py:218
+msgid "Synthetically generated dataset using the Blendersynth extension"
+msgstr "使用 Blendersynth 扩展生成的合成数据集"
+
+#: ext/ui/labeling/landmark_section.py:37
+msgid "Tail"
+msgstr "尾部"
+
+#: ext/ui/pipe_edit_widgets.py:279
+#: ext/ui/pipe_edit_widgets.py:1187
+msgid "Target(s):"
+msgstr "目标："
+
+#: ext/ui/pipe_edit_widgets.py:1097
+msgid "Target:"
+msgstr "目标："
+
+#: ext/ui/properties.py:147
+msgid "Targeted Node"
+msgstr "目标节点"
+
+#: ext/ui/properties.py:143
+msgid "Targeted Objects"
+msgstr "目标物体"
+
+#: ext/ui/pipe_edit_widgets.py:330
+msgid "Texture:"
+msgstr "纹理："
+
+#: ext/operators/landmarks_operator.py:133
+msgid "The skeleton is already being visualized."
+msgstr "骨架已处于可视化状态。"
+
+#: ext/ui/pipeline_list_viewer.py:172
+msgid "There are no operations."
+msgstr "没有操作。"
+
+#: ext/ui/labeling/landmark_section.py:67
+msgid "To"
+msgstr "到"
+
+#: ext/ui/properties.py:151
+msgid "Toggle between folder and individual files"
+msgstr "在文件夹和单个文件之间切换"
+
+#: ext/distribution/nodes.py:309
+msgid "Truncate"
+msgstr "截断"
+
+#: ext/pipeline/bpy_properties.py:7
+msgid "Type"
+msgstr "类型"
+
+#: ext/distribution/nodes.py:46
+#: ext/ui/formatting_config.py:310
+msgid "Uniform"
+msgstr "均匀"
+
+#: ext/distribution/nodes.py:53
+msgid "Uniform Discrete"
+msgstr "离散均匀"
+
+#: ext/ui/labeling/labeling_panel.py:218
+msgid "Use Assignment Rules"
+msgstr "使用分配规则"
+
+#: ext/ui/properties.py:151
+msgid "Use Folder"
+msgstr "使用文件夹"
+
+#: ext/ui/pipe_edit_widgets.py:422
+msgid "Use Folder Mode"
+msgstr "使用文件夹模式"
+
+#: ext/ui/properties.py:91
+msgid "Use advanced Distribution Editor nodes"
+msgstr "使用高级分布编辑器节点"
+
+#: ext/operators/landmarks_operator.py:181
+msgid "Use existing Blender rig"
+msgstr "使用现有 Blender 骨架"
+
+#: ext/ui/properties.py:32
+msgid "Use file path"
+msgstr "使用文件路径"
+
+#: ext/pipeline/bpy_properties.py:13
+msgid "Valid"
+msgstr "有效"
+
+#: ext/ui/pipe_edit_widgets.py:519
+msgid "Valid distribution"
+msgstr "有效分布"
+
+#: ext/distribution/nodes.py:91
+#: ext/distribution/nodes.py:412
+msgid "Value"
+msgstr "值"
+
+#: ext/distribution/nodes.py:88
+msgid "Value (1D)"
+msgstr "值（一维）"
+
+#: ext/ui/properties.py:239
+msgid "Value Max"
+msgstr "最大值"
+
+#: ext/ui/properties.py:232
+msgid "Value Min"
+msgstr "最小值"
+
+#: ext/ui/pipe_edit_widgets.py:1117
+msgid "Value Node:"
+msgstr "值节点："
+
+#: ext/ui/properties.py:189
+#: ext/ui/properties.py:255
+msgid "Variance"
+msgstr "方差"
+
+#: ext/distribution/nodes.py:409
+msgid "Vector"
+msgstr "向量"
+
+#: ext/distribution/nodes.py:447
+msgid "Vectorize"
+msgstr "向量化"
+
+#: ext/ui/pipe_edit_widgets.py:122
+msgid "Weight"
+msgstr "权重"
+
+#: ext/distribution/nodes.py:506
+#: ext/distribution/nodes.py:535
+msgid "Weights"
+msgstr "权重"
+
+#: ext/distribution/nodes.py:438
+#: ext/ui/pipe_edit_widgets.py:216
+msgid "X"
+msgstr "X"
+
+#: ext/distribution/nodes.py:413
+#: ext/distribution/nodes.py:440
+msgid "Y"
+msgstr "Y"
+
+#: ext/distribution/nodes.py:414
+#: ext/distribution/nodes.py:442
+msgid "Z"
+msgstr "Z"
+
+#: ext/ui/formatting_config.py:294
+msgid "Zero-pad result names"
+msgstr "结果名称补零"
+
+#: ext/ui/pipeline_list_viewer.py:275
+msgid "└ Folder"
+msgstr "└ 文件夹"
+
+#: ext/operators/landmarks_operator.py:54
+#: ext/operators/landmarks_operator.py:92
+msgctxt "Operator"
+msgid "Add"
+msgstr "添加"
+
+#: ext/operators/distribution_ops.py:82
+#: ext/operators/distribution_ops.py:112
+msgctxt "Operator"
+msgid "Add Color"
+msgstr "添加颜色"
+
+#: ext/operators/distribution_ops.py:11
+msgctxt "Operator"
+msgid "Add Distribution"
+msgstr "添加分布"
+
+#: ext/operators/distribution_ops.py:48
+msgctxt "Operator"
+msgid "Add Image"
+msgstr "添加图像"
+
+#: ext/operators/pipeline_ops.py:409
+msgctxt "Operator"
+msgid "Add Material"
+msgstr "添加材质"
+
+#: ext/operators/pipeline_ops.py:62
+msgctxt "Operator"
+msgid "Add Operation"
+msgstr "添加操作"
+
+#: ext/operators/landmarks_operator.py:177
+msgctxt "Operator"
+msgid "Add Rig"
+msgstr "添加骨架"
+
+#: ext/operators/labeling_ops.py:9
+msgctxt "Operator"
+msgid "Add a new class of labels"
+msgstr "添加新的标签类别"
+
+#: ext/operators/labeling_ops.py:117
+msgctxt "Operator"
+msgid "Add a new entity definition"
+msgstr "添加新的实体定义"
+
+#: ext/operators/labeling_ops.py:85
+msgctxt "Operator"
+msgid "Add a new label rule"
+msgstr "添加新的标签规则"
+
+#: ext/operators/labeling_ops.py:47
+msgctxt "Operator"
+msgid "Add a new label to an object"
+msgstr "向物体添加新标签"
+
+#: ext/operators/pipeline_ops.py:17
+msgctxt "Operator"
+msgid "Add a new pipe to the pipeline"
+msgstr "向管线添加新管道"
+
+#: ext/operators/pipeline_ops.py:374
+msgctxt "Operator"
+msgid "Add a new target position"
+msgstr "添加新的目标位置"
+
+#: ext/operators/graphical_ops.py:128
+msgctxt "Operator"
+msgid "Add folder"
+msgstr "添加文件夹"
+
+#: ext/operators/io_ops.py:337
+msgctxt "Operator"
+msgid "Apply Log Path"
+msgstr "应用日志路径"
+
+#: ext/operators/landmarks_operator.py:10
+msgctxt "Operator"
+msgid "Auto-detect"
+msgstr "自动检测"
+
+#: ext/ui/pipe_edit_widgets.py:335
+#: ext/ui/pipe_edit_widgets.py:359
+msgctxt "Operator"
+msgid "Capture"
+msgstr "捕获"
+
+#: ext/operators/pipeline_ops.py:484
+msgctxt "Operator"
+msgid "Capture Node"
+msgstr "捕获节点"
+
+#: ext/operators/pipeline_ops.py:296
+msgctxt "Operator"
+msgid "Capture Object Position"
+msgstr "捕获物体位置"
+
+#: ext/operators/pipeline_ops.py:138
+msgctxt "Operator"
+msgid "Capture Objects"
+msgstr "捕获物体"
+
+#: ext/ui/pipe_edit_widgets.py:285
+#: ext/ui/pipe_edit_widgets.py:1099
+msgctxt "Operator"
+msgid "Capture Selected"
+msgstr "捕获选中项"
+
+#: ext/operators/pipeline_ops.py:274
+msgctxt "Operator"
+msgid "Capture Texture"
+msgstr "捕获纹理"
+
+#: ext/operators/pipeline_ops.py:462
+msgctxt "Operator"
+msgid "Capture Value Node"
+msgstr "捕获值节点"
+
+#: ext/operators/pipeline_ops.py:247
+msgctxt "Operator"
+msgid "Capture a Typed node"
+msgstr "捕获类型化节点"
+
+#: ext/operators/labeling_ops.py:198
+#: ext/operators/labeling_ops.py:225
+msgctxt "Operator"
+msgid "Capture selected objects for this label"
+msgstr "为此标签捕获选中物体"
+
+#: ext/operators/pipeline_ops.py:314
+msgctxt "Operator"
+msgid "Capture the position of the cursor"
+msgstr "捕获光标位置"
+
+#: ext/operators/pipeline_ops.py:387
+msgctxt "Operator"
+msgid "Delete the selected target position"
+msgstr "删除选中的目标位置"
+
+#: ext/ui/panels.py:125
+msgctxt "Operator"
+msgid "Documentation"
+msgstr "文档"
+
+#: ext/operators/landmarks_operator.py:127
+msgctxt "Operator"
+msgid "Draw the current rig's keypoints and connections in the viewport"
+msgstr "在视图中绘制当前绑定的关键点与连接"
+
+#: ext/operators/landmarks_operator.py:246
+msgctxt "Operator"
+msgid "Drop keypoints whose mapped bone or object no longer exists"
+msgstr "移除映射骨骼或物体已不存在的关键点"
+
+#: ext/operators/graphical_ops.py:18
+msgctxt "Operator"
+msgid "Edit Distribution"
+msgstr "编辑分布"
+
+#: ext/operators/pipeline_ops.py:73
+msgctxt "Operator"
+msgid "Folder"
+msgstr "文件夹"
+
+#: ext/ui/panels.py:50
+msgctxt "Operator"
+msgid "Generate"
+msgstr "生成"
+
+#: ext/operators/core_ops.py:16
+#: ext/operators/core_ops.py:111
+msgctxt "Operator"
+msgid "Generate Dataset"
+msgstr "生成数据集"
+
+#: ext/ui/panels.py:123
+msgctxt "Operator"
+msgid "GitHub"
+msgstr "GitHub"
+
+#: ext/ui/pipeline_list_viewer.py:158
+msgctxt "Operator"
+msgid "Load"
+msgstr "加载"
+
+#: ext/operators/io_ops.py:268
+msgctxt "Operator"
+msgid "Load Pipeline"
+msgstr "加载管线"
+
+#: ext/operators/io_ops.py:304
+msgctxt "Operator"
+msgid "Open Log File"
+msgstr "打开日志文件"
+
+#: ext/ui/panels.py:86
+msgctxt "Operator"
+msgid "Open logs"
+msgstr "打开日志"
+
+#: ext/operators/landmarks_operator.py:11
+msgctxt "Operator"
+msgid "Populate keypoint list from the current rig's armature"
+msgstr "从当前绑定的骨架对象填充关键点列表"
+
+#: ext/operators/pipeline_ops.py:129
+msgctxt "Operator"
+msgid "Put into folder"
+msgstr "放入文件夹"
+
+#: ext/operators/landmarks_operator.py:74
+#: ext/operators/landmarks_operator.py:108
+msgctxt "Operator"
+msgid "Remove"
+msgstr "移除"
+
+#: ext/operators/distribution_ops.py:97
+#: ext/operators/distribution_ops.py:127
+msgctxt "Operator"
+msgid "Remove Color"
+msgstr "移除颜色"
+
+#: ext/operators/distribution_ops.py:26
+msgctxt "Operator"
+msgid "Remove Distribution"
+msgstr "移除分布"
+
+#: ext/operators/distribution_ops.py:66
+msgctxt "Operator"
+msgid "Remove Image"
+msgstr "移除图像"
+
+#: ext/operators/landmarks_operator.py:229
+msgctxt "Operator"
+msgid "Remove Rig"
+msgstr "移除绑定"
+
+#: ext/operators/labeling_ops.py:24
+msgctxt "Operator"
+msgid "Remove a label class"
+msgstr "移除标签类别"
+
+#: ext/operators/labeling_ops.py:62
+msgctxt "Operator"
+msgid "Remove a label from an objecte"
+msgstr "从物体移除标签"
+
+#: ext/operators/labeling_ops.py:94
+msgctxt "Operator"
+msgid "Remove a label rule"
+msgstr "移除标签规则"
+
+#: ext/operators/labeling_ops.py:175
+msgctxt "Operator"
+msgid "Remove an entity"
+msgstr "移除实体"
+
+#: ext/operators/landmarks_operator.py:245
+msgctxt "Operator"
+msgid "Sanitize Bone Mapping Rig"
+msgstr "清理骨骼映射绑定"
+
+#: ext/ui/pipeline_list_viewer.py:164
+#: ext/ui/pipeline_list_viewer.py:195
+msgctxt "Operator"
+msgid "Save"
+msgstr "保存"
+
+#: ext/ui/panels.py:87
+msgctxt "Operator"
+msgid "Save path"
+msgstr "保存路径"
+
+#: ext/operators/pipeline_ops.py:113
+msgctxt "Operator"
+msgid "Scan Pipeline"
+msgstr "扫描管线"
+
+#: ext/operators/graphical_ops.py:73
+#: ext/operators/graphical_ops.py:94
+msgctxt "Operator"
+msgid "Select Node"
+msgstr "选择节点"
+
+#: ext/operators/labeling_ops.py:132
+msgctxt "Operator"
+msgid "Select the entity for the class"
+msgstr "为类别选择实体"
+
+#: ext/operators/pipeline_ops.py:169
+msgctxt "Operator"
+msgid "Selects a single object of given type"
+msgstr "选择指定类型的单个物体"
+
+#: ext/operators/graphical_ops.py:114
+msgctxt "Operator"
+msgid "Set Tab"
+msgstr "设置标签页"
+
+#: ext/operators/landmarks_operator.py:152
+msgctxt "Operator"
+msgid "Stop Viewing Bones Configuration"
+msgstr "停止查看骨骼配置"
+
+#: ext/ui/labeling/landmark_section.py:268
+msgctxt "Operator"
+msgid "Stop Visualizing"
+msgstr "停止可视化"
+
+#: ext/operators/landmarks_operator.py:153
+msgctxt "Operator"
+msgid "Stop drawing the current rig's keypoints and connections in the viewport"
+msgstr "停止在视图中绘制当前绑定的关键点与连接"
+
+#: ext/operators/graphical_ops.py:149
+msgctxt "Operator"
+msgid "Switch Labeling mode"
+msgstr "切换标注模式"
+
+#: ext/operators/pipeline_ops.py:328
+msgctxt "Operator"
+msgid "View Target Selected"
+msgstr "查看选中目标"
+
+#: ext/operators/landmarks_operator.py:126
+msgctxt "Operator"
+msgid "Visualize Bones Configuration"
+msgstr "可视化骨骼配置"
+
+#: ext/ui/labeling/landmark_section.py:270
+msgctxt "Operator"
+msgid "Visualize Skeleton"
+msgstr "可视化骨架"
+
+#: ext/operators/io_ops.py:233
+msgctxt "Operator"
+msgid "Write back the pipeline"
+msgstr "写回管线"

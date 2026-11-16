@@ -1,0 +1,721 @@
+# perfect-chinese: 1
+# id: blendixserial
+# kind: addon
+# module: bl_ext.blender_org.blendixserial
+# name: blendixserial
+# name_zh: 串口设备连接
+# translator: KeshiMiao
+# category: System
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: blendix_vit_properties.py:311
+msgid "2D Joystick Mode"
+msgstr "2D 摇杆模式"
+
+#: blendix_panels.py:57
+msgid "3D Object Control"
+msgstr "3D 物体控制"
+
+#: blendix_operators.py:288
+msgid "A real-time Serial communication bridge between Blender and"
+msgstr "Blender 与外部设备之间的实时串口通信桥接"
+
+#: blendix_panels.py:113
+msgid "Add Object"
+msgstr "添加物体"
+
+#: blendix_vit_properties.py:277
+msgid "Axis"
+msgstr "轴"
+
+#: blendix_operators.py:91
+msgid "Axis Mode"
+msgstr "轴模式"
+
+#: blendix_properties.py:247
+msgid "Axis Text Mode"
+msgstr "轴文本模式"
+
+#: blendix_panels.py:8
+msgid "BLENDIX SERIAL"
+msgstr "BLENDIX SERIAL"
+
+#: blendix_panels.py:44
+#: blendix_properties.py:35
+msgid "Baud Rate"
+msgstr "波特率"
+
+#: blendix_connection.py:283
+msgid "Bidirectional"
+msgstr "双向"
+
+#: blendix_vit_properties.py:299
+msgid "Binary (On/Off)"
+msgstr "二进制（开/关）"
+
+#: blendix_connection.py:290
+msgid "CSV"
+msgstr "CSV"
+
+#: blendix_panels.py:43
+msgid "Com Port"
+msgstr "串口"
+
+#: blendix_operators.py:293
+msgid "Communication Modes:"
+msgstr "通信模式："
+
+#: blendix_properties.py:260
+msgid "Connected"
+msgstr "已连接"
+
+#: blendix_panels.py:23
+msgid "Connection Settings"
+msgstr "连接设置"
+
+#: blendix_properties.py:265
+msgid "Connection Status"
+msgstr "连接状态"
+
+#: blendix_panels.py:198
+#: blendix_vit_properties.py:270
+msgid "Control Type"
+msgstr "控制类型"
+
+#: blendix_vit_properties.py:353
+msgid "Current Step"
+msgstr "当前步"
+
+#: blendix_connection.py:288
+#: blendix_panels.py:87
+msgid "Data Format"
+msgstr "数据格式"
+
+#: blendix_operators.py:321
+#: blendix_panels.py:140
+msgid "Decimal Places"
+msgstr "小数位数"
+
+#: blendix_properties.py:255
+msgid "Delay between scene animation updates"
+msgstr "场景动画更新之间的延迟"
+
+#: serial_log.py:35
+msgid "Diagnostic Log"
+msgstr "诊断日志"
+
+#: blendix_vit_properties.py:358
+msgid "Direction"
+msgstr "方向"
+
+#: blendix_operators.py:179
+msgid "Disconnected"
+msgstr "未连接"
+
+#: blendix_properties.py:242
+msgid "Display Axis on New Lines"
+msgstr "在新行显示各轴"
+
+#: blendix_properties.py:242
+msgid "Display each axis value on a new line instead of a single line"
+msgstr "将每个轴的值显示在新行，而不是同一行"
+
+#: blendix_vit_properties.py:256
+msgid "Element Name"
+msgstr "元素名称"
+
+#: serial_log.py:35
+msgid "Enable diagnostic logging to Blender's system console. Useful for identifying whether issues originate from the addon or the connected serial device."
+msgstr "启用向 Blender 系统控制台输出诊断日志。有助于判断问题来自插件还是连接的串口设备。"
+
+#: blendix_properties.py:236
+msgid "Font"
+msgstr "字体"
+
+#: blendix_panels.py:141
+msgid "Frame Skip"
+msgstr "跳帧"
+
+#: blendix_operators.py:326
+msgid "Frame Skip Interval"
+msgstr "跳帧间隔"
+
+#: blendix_operators.py:326
+msgid "Frames to skip before sending data again (0 = every frame)"
+msgstr "再次发送数据前跳过的帧数（0 = 每帧）"
+
+#: blendix_properties.py:250
+msgid "Grouped"
+msgstr "分组"
+
+#: blendix_vit_properties.py:270
+msgid "How the element drives its output transform"
+msgstr "元素驱动其输出变换的方式"
+
+#: blendix_properties.py:260
+msgid "Indicates if the serial connection is established"
+msgstr "指示串口连接是否已建立"
+
+#: blendix_panels.py:166
+msgid "Interactive 3D Viewport Mode"
+msgstr "交互式 3D 视图模式"
+
+#: blendix_vit_operators.py:153
+msgid "Interactive mode active  |  ESC / RMB to exit"
+msgstr "交互模式已激活  |  ESC / 鼠标右键退出"
+
+#: blendix_vit_operators.py:163
+msgid "Interactive mode exited"
+msgstr "已退出交互模式"
+
+#: blendix_vit_properties.py:252
+msgid "Is Interactive Element"
+msgstr "是否为交互元素"
+
+#: blendix_vit_properties.py:316
+msgid "Joystick Max Radius"
+msgstr "摇杆最大半径"
+
+#: blendix_vit_properties.py:328
+msgid "Joystick X Output"
+msgstr "摇杆 X 输出"
+
+#: blendix_vit_properties.py:333
+msgid "Joystick Y Output"
+msgstr "摇杆 Y 输出"
+
+#: blendix_operators.py:316
+msgid "Keyframe Based"
+msgstr "基于关键帧"
+
+#: blendix_properties.py:60
+#: blendix_properties.py:162
+msgid "Location"
+msgstr "位置"
+
+#: blendix_properties.py:66
+#: blendix_properties.py:168
+msgid "Location Axes"
+msgstr "位置轴"
+
+#: blendix_operators.py:307
+msgid "Made with"
+msgstr "使用……制作"
+
+#: blendix_vit_properties.py:286
+msgid "Max"
+msgstr "最大"
+
+#: blendix_panels.py:188
+msgid "Max Radius"
+msgstr "最大半径"
+
+#: blendix_vit_properties.py:316
+msgid "Maximum physical tilt radius in local units"
+msgstr "局部单位下的最大物理倾斜半径"
+
+#: blendix_vit_properties.py:282
+msgid "Min"
+msgstr "最小"
+
+#: blendix_panels.py:86
+msgid "Mode"
+msgstr "模式"
+
+#: blendix_vit_properties.py:304
+msgid "Momentary"
+msgstr "瞬时"
+
+#: blendix_vit_properties.py:7
+msgid "Move / rotate / scale along X"
+msgstr "沿 X 移动 / 旋转 / 缩放"
+
+#: blendix_vit_properties.py:8
+msgid "Move / rotate / scale along Y"
+msgstr "沿 Y 移动 / 旋转 / 缩放"
+
+#: blendix_vit_properties.py:9
+msgid "Move / rotate / scale along Z"
+msgstr "沿 Z 移动 / 旋转 / 缩放"
+
+#: blendix_operators.py:126
+msgid "Movement started"
+msgstr "移动已开始"
+
+#: blendix_operators.py:137
+msgid "Movement stopped"
+msgstr "移动已停止"
+
+#: blendix_vit_properties.py:340
+msgid "Multi-Position Mode"
+msgstr "多位置模式"
+
+#: blendix_panels.py:183
+msgid "Name"
+msgstr "名称"
+
+#: blendix_vit_operators.py:47
+#: blendix_vit_operators.py:74
+msgid "No active object selected"
+msgstr "未选择活动物体"
+
+#: blendix_operators.py:156
+msgid "No serial port available. Please connect a device first."
+msgstr "无可用串口。请先连接设备。"
+
+#: blendix_operators.py:321
+msgid "Number of decimal places when sending transform values"
+msgstr "发送变换值的小数位数"
+
+#: blendix_vit_properties.py:345
+msgid "Number of discrete detent positions"
+msgstr "离散档位数量"
+
+#: blendix_properties.py:55
+#: blendix_properties.py:157
+msgid "Object"
+msgstr "物体"
+
+#: blendix_operators.py:14
+msgid "Object Added"
+msgstr "已添加物体"
+
+#: blendix_operators.py:235
+msgid "Object Added for Sending"
+msgstr "已添加要发送的物体"
+
+#: blendix_operators.py:27
+#: blendix_operators.py:248
+msgid "Object Removed"
+msgstr "已移除物体"
+
+#: blendix_properties.py:251
+msgid "Per Axis"
+msgstr "每轴"
+
+#: blendix_properties.py:26
+msgid "Port Name"
+msgstr "端口名称"
+
+#: blendix_vit_properties.py:345
+msgid "Positions"
+msgstr "位置数"
+
+#: blendix_vit_operators.py:34
+#: blendix_vit_properties.py:261
+msgid "Preset"
+msgstr "预设"
+
+#: blendix_panels.py:229
+msgid "Press Esc or RMB to exit."
+msgstr "按 Esc 或 RMB 退出。"
+
+#: blendix_connection.py:290
+msgid "Protocol"
+msgstr "协议"
+
+#: blendix_connection.py:282
+#: blendix_properties.py:149
+msgid "Receive"
+msgstr "接收"
+
+#: blendix_properties.py:149
+msgid "Receive Data"
+msgstr "接收数据"
+
+#: blendix_properties.py:60
+msgid "Receive Location data"
+msgstr "接收位置数据"
+
+#: blendix_properties.py:86
+msgid "Receive Rotation data (degrees)"
+msgstr "接收旋转数据（角度）"
+
+#: blendix_properties.py:112
+msgid "Receive Scale data"
+msgstr "接收缩放数据"
+
+#: blendix_panels.py:104
+msgid "Receiving Mode"
+msgstr "接收模式"
+
+#: blendix_vit_properties.py:323
+msgid "Return joystick to centre when released"
+msgstr "释放后摇杆回到中心"
+
+#: blendix_vit_properties.py:363
+msgid "Rotary Angle"
+msgstr "旋转角度"
+
+#: blendix_vit_properties.py:13
+msgid "Rotate around selected axis"
+msgstr "绕所选轴旋转"
+
+#: blendix_properties.py:86
+#: blendix_properties.py:182
+msgid "Rotation"
+msgstr "旋转"
+
+#: blendix_properties.py:92
+#: blendix_properties.py:188
+msgid "Rotation Axes"
+msgstr "旋转轴"
+
+#: blendix_properties.py:112
+#: blendix_properties.py:202
+msgid "Scale"
+msgstr "缩放"
+
+#: blendix_properties.py:118
+#: blendix_properties.py:208
+msgid "Scale Axes"
+msgstr "缩放轴"
+
+#: blendix_vit_properties.py:15
+msgid "Scale along selected axis"
+msgstr "沿所选轴缩放"
+
+#: blendix_properties.py:236
+msgid "Select Text Object to display received text data in the 3D View"
+msgstr "选择文本物体以在 3D 视图中显示接收的文本数据"
+
+#: blendix_vit_properties.py:261
+msgid "Select a preset configuration"
+msgstr "选择预设配置"
+
+#: blendix_properties.py:26
+msgid "Select a serial port"
+msgstr "选择串口"
+
+#: blendix_panels.py:169
+msgid "Select an object first"
+msgstr "请先选择一个物体"
+
+#: blendix_properties.py:35
+msgid "Select baud rate for serial communication"
+msgstr "选择串口通信的波特率"
+
+#: blendix_connection.py:281
+#: blendix_properties.py:150
+msgid "Send"
+msgstr "发送"
+
+#: blendix_properties.py:150
+msgid "Send Data"
+msgstr "发送数据"
+
+#: blendix_operators.py:313
+#: blendix_panels.py:139
+msgid "Send Method"
+msgstr "发送方式"
+
+#: blendix_properties.py:162
+msgid "Send current location"
+msgstr "发送当前位置"
+
+#: blendix_properties.py:182
+msgid "Send current rotation (in degrees)"
+msgstr "发送当前旋转（角度）"
+
+#: blendix_properties.py:202
+msgid "Send current scale"
+msgstr "发送当前缩放"
+
+#: blendix_operators.py:317
+msgid "Send data using a timer function"
+msgstr "使用定时器函数发送数据"
+
+#: blendix_operators.py:316
+msgid "Send data using frame change events"
+msgstr "使用帧更改事件发送数据"
+
+#: blendix_panels.py:133
+msgid "Sending Mode"
+msgstr "发送模式"
+
+#: blendix_vit_properties.py:290
+msgid "Sensitivity"
+msgstr "灵敏度"
+
+#: blendix_connection.py:278
+msgid "Serial Thread Mode"
+msgstr "串口线程模式"
+
+#: blendix_properties.py:80
+msgid "Show Location values in text object"
+msgstr "在文本物体中显示位置值"
+
+#: blendix_properties.py:106
+msgid "Show Rotation values in text object"
+msgstr "在文本物体中显示旋转值"
+
+#: blendix_properties.py:132
+msgid "Show Scale values in text object"
+msgstr "在文本物体中显示缩放值"
+
+#: blendix_properties.py:250
+msgid "Show XYZ on one line"
+msgstr "在同一行显示 XYZ"
+
+#: blendix_properties.py:251
+msgid "Show each axis on a new line"
+msgstr "每个轴显示在新行"
+
+#: blendix_properties.py:80
+#: blendix_properties.py:106
+msgid "Show in Text"
+msgstr "在文本中显示"
+
+#: blendix_properties.py:265
+msgid "Shows the current connection status"
+msgstr "显示当前连接状态"
+
+#: blendix_vit_properties.py:299
+msgid "Snap output to 0 or 1 instead of a continuous range"
+msgstr "将输出吸附到 0 或 1，而非连续范围"
+
+#: blendix_vit_properties.py:323
+msgid "Spring Return"
+msgstr "弹性回位"
+
+#: blendix_vit_properties.py:304
+msgid "Spring back to off-state when the mouse is released"
+msgstr "释放鼠标时回弹到关闭状态"
+
+#: blendix_vit_operators.py:135
+msgid "Switch to Object Mode first"
+msgstr "请先切换到物体模式"
+
+#: blendix_properties.py:146
+msgid "Tabs"
+msgstr "标签页"
+
+#: blendix_operators.py:82
+msgid "Text"
+msgstr "文本"
+
+#: blendix_panels.py:110
+msgid "Text Object"
+msgstr "文本物体"
+
+#: blendix_properties.py:138
+msgid "Text Object for Axis"
+msgstr "用于轴的文本物体"
+
+#: blendix_operators.py:317
+msgid "Timer Based"
+msgstr "基于定时器"
+
+#: blendix_vit_properties.py:14
+msgid "Translate along selected axis"
+msgstr "沿所选轴平移"
+
+#: blendix_panels.py:85
+#: blendix_properties.py:255
+msgid "Update Scene"
+msgstr "更新场景"
+
+#: blendix_vit_gizmo.py:24
+msgid "VIM Rotary Knob"
+msgstr "VIM 旋钮"
+
+#: blendix_properties.py:69
+#: blendix_properties.py:95
+msgid "X"
+msgstr "X"
+
+#: blendix_vit_properties.py:7
+msgid "X Axis"
+msgstr "X 轴"
+
+#: blendix_properties.py:72
+#: blendix_properties.py:98
+msgid "XY"
+msgstr "XY"
+
+#: blendix_properties.py:75
+#: blendix_properties.py:101
+msgid "XYZ"
+msgstr "XYZ"
+
+#: blendix_properties.py:73
+#: blendix_properties.py:99
+msgid "XZ"
+msgstr "XZ"
+
+#: blendix_properties.py:70
+#: blendix_properties.py:96
+msgid "Y"
+msgstr "Y"
+
+#: blendix_vit_properties.py:8
+msgid "Y Axis"
+msgstr "Y 轴"
+
+#: blendix_properties.py:74
+#: blendix_properties.py:100
+msgid "YZ"
+msgstr "YZ"
+
+#: blendix_properties.py:71
+#: blendix_properties.py:97
+msgid "Z"
+msgstr "Z"
+
+#: blendix_vit_properties.py:9
+msgid "Z Axis"
+msgstr "Z 轴"
+
+#: blendix_operators.py:290
+msgid "between Blender and microcontrollers or custom applications."
+msgstr "在 Blender 与微控制器或自定义应用程序之间。"
+
+#: blendix_operators.py:309
+msgid "by M. Usman | Pakistan"
+msgstr "作者：M. Usman | 巴基斯坦"
+
+#: blendix_operators.py:289
+msgid "external devices (USB/COM). Send and receive structured data"
+msgstr "外部设备（USB/COM）。收发结构化数据"
+
+#: blendix_operators.py:294
+msgid "• CSV Streaming"
+msgstr "• CSV 流式传输"
+
+#: blendix_operators.py:295
+msgid "• Custom Binary Protocol"
+msgstr "• 自定义二进制协议"
+
+#: blendix_operators.py:270
+msgctxt "Operator"
+msgid "About blendixserial"
+msgstr "关于 blendixserial"
+
+#: blendix_panels.py:114
+msgctxt "Operator"
+msgid "Add"
+msgstr "添加"
+
+#: blendix_operators.py:10
+msgctxt "Operator"
+msgid "Add Custom Object"
+msgstr "添加自定义物体"
+
+#: blendix_panels.py:144
+msgctxt "Operator"
+msgid "Add Object"
+msgstr "添加物体"
+
+#: blendix_operators.py:231
+msgctxt "Operator"
+msgid "Add Object to Send"
+msgstr "添加待发送物体"
+
+#: blendix_vit_operators.py:32
+msgctxt "Operator"
+msgid "Apply Preset"
+msgstr "应用预设"
+
+#: blendix_panels.py:28
+msgctxt "Operator"
+msgid "Connect"
+msgstr "连接"
+
+#: blendix_operators.py:145
+msgctxt "Operator"
+msgid "Connect to Serial"
+msgstr "连接到串口"
+
+#: blendix_panels.py:30
+msgctxt "Operator"
+msgid "Disconnect"
+msgstr "断开连接"
+
+#: blendix_operators.py:172
+msgctxt "Operator"
+msgid "Disconnect from Serial"
+msgstr "断开串口连接"
+
+#: blendix_operators.py:299
+msgctxt "Operator"
+msgid "Documentation"
+msgstr "文档"
+
+#: blendix_operators.py:301
+msgctxt "Operator"
+msgid "GitHub"
+msgstr "GitHub"
+
+#: blendix_vit_operators.py:129
+msgctxt "Operator"
+msgid "Interactive Mode"
+msgstr "交互模式"
+
+#: blendix_panels.py:173
+#: blendix_vit_operators.py:65
+msgctxt "Operator"
+msgid "Mark as Element"
+msgstr "标记为元素"
+
+#: blendix_operators.py:35
+#: blendix_operators.py:187
+msgctxt "Operator"
+msgid "Preferences"
+msgstr "偏好设置"
+
+#: blendix_operators.py:21
+msgctxt "Operator"
+msgid "Remove Custom Object"
+msgstr "移除自定义物体"
+
+#: blendix_operators.py:242
+msgctxt "Operator"
+msgid "Remove Object to Send"
+msgstr "移除待发送物体"
+
+#: blendix_operators.py:95
+msgctxt "Operator"
+msgid "Reset Transforms"
+msgstr "重置变换"
+
+#: blendix_operators.py:103
+msgctxt "Operator"
+msgid "Reset Transforms Base"
+msgstr "重置基础变换"
+
+#: blendix_operators.py:256
+msgctxt "Operator"
+msgid "Select Serial Thread Mode"
+msgstr "选择串口线程模式"
+
+#: blendix_panels.py:228
+msgctxt "Operator"
+msgid "Start Interactive Mode"
+msgstr "启动交互模式"
+
+#: blendix_operators.py:122
+#: blendix_panels.py:77
+msgctxt "Operator"
+msgid "Start Movement"
+msgstr "开始移动"
+
+#: blendix_operators.py:133
+#: blendix_panels.py:79
+msgctxt "Operator"
+msgid "Stop Movement"
+msgstr "停止移动"
+
+#: blendix_panels.py:176
+msgctxt "Operator"
+msgid "Unmark"
+msgstr "取消标记"
+
+#: blendix_vit_operators.py:90
+msgctxt "Operator"
+msgid "Unmark Element"
+msgstr "取消元素标记"

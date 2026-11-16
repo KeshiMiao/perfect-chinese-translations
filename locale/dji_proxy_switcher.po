@@ -1,0 +1,81 @@
+# perfect-chinese: 1
+# id: dji_proxy_switcher
+# kind: addon
+# module: bl_ext.blender_org.dji_proxy_switcher
+# name: DJI Proxy Switcher
+# name_zh: DJI代理切换
+# translator: KeshiMiao
+# category: Sequencer
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:414
+#: __init__.py:418
+msgid "DJI Tools"
+msgstr "DJI 工具"
+
+#: __init__.py:388
+msgid "File extension used for the high-resolution master clips (e.g. MP4)"
+msgstr "用于高分辨率主素材的文件扩展名（例如 MP4）"
+
+#: __init__.py:383
+msgid "File extension used for the low-resolution proxy clips (e.g. DJI LRF)"
+msgstr "用于低分辨率代理素材的文件扩展名（例如 DJI LRF）"
+
+#: __init__.py:437
+msgid "High-res ({}):  {} clip(s)"
+msgstr "高分辨率（{}）：  {} 个片段"
+
+#: __init__.py:388
+msgid "High-res extension"
+msgstr "高分辨率扩展名"
+
+#: __init__.py:404
+msgid "Process only selected clips in the sequencer"
+msgstr "仅处理序列编辑器中的选中片段"
+
+#: __init__.py:436
+msgid "Proxy ({}):  {} clip(s)"
+msgstr "代理（{}）：  {} 个片段"
+
+#: __init__.py:383
+msgid "Proxy extension (low-res)"
+msgstr "代理扩展名（低分辨率）"
+
+#: __init__.py:404
+msgid "Selected only"
+msgstr "仅选中项"
+
+#: __init__.py:295
+msgctxt "Operator"
+msgid "High Res"
+msgstr "高分辨率"
+
+#: __init__.py:359
+msgctxt "Operator"
+msgid "List proxy clips"
+msgstr "列出代理片段"
+
+#: __init__.py:360
+msgctxt "Operator"
+msgid "Print the list of detected proxy clips to the console"
+msgstr "将检测到的代理片段列表输出到控制台"
+
+#: __init__.py:327
+msgctxt "Operator"
+msgid "Proxy"
+msgstr "代理"
+
+#: __init__.py:328
+msgctxt "Operator"
+msgid "Replace all high-resolution clips with their low-resolution proxy version (extensions configurable in add-on preferences)"
+msgstr "将所有高分辨率片段替换为对应的低分辨率代理版本（扩展名可在插件偏好设置中配置）"
+
+#: __init__.py:296
+msgctxt "Operator"
+msgid "Replace all proxy clips with their high-resolution version (extensions configurable in add-on preferences)"
+msgstr "将所有代理片段替换为对应的高分辨率版本（扩展名可在插件偏好设置中配置）"

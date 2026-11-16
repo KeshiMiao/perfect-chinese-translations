@@ -1,0 +1,600 @@
+# perfect-chinese: 1
+# id: nla_batch_editor
+# kind: addon
+# module: bl_ext.blender_org.nla_batch_editor
+# name: NLA Batch Editor
+# name_zh: 非线性批量编辑
+# translator: KeshiMiao
+# category: Animation
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: custom_properties.py:6
+msgid "Action"
+msgstr "动作"
+
+#: custom_properties.py:232
+#: custom_properties.py:290
+msgid "Add"
+msgstr "添加"
+
+#: custom_properties.py:232
+msgid "Add to current selection"
+msgstr "添加到当前选择"
+
+#: custom_properties.py:76
+#: custom_properties.py:298
+msgid "Animated Influence"
+msgstr "动画化影响"
+
+#: custom_properties.py:273
+msgid "Animated Influence State"
+msgstr "动画化影响状态"
+
+#: custom_properties.py:90
+msgid "Animated Time"
+msgstr "动画化时间"
+
+#: custom_properties.py:104
+msgid "Animated Time Cyclic"
+msgstr "动画化时间循环"
+
+#: custom_properties.py:161
+msgid "Assigns random starts for each strip"
+msgstr "为每个片段分配随机起始帧"
+
+#: custom_properties.py:154
+msgid "Assigns start frame max"
+msgstr "分配最大起始帧"
+
+#: custom_properties.py:147
+msgid "Assigns start frame min"
+msgstr "分配最小起始帧"
+
+#: custom_properties.py:111
+#: custom_properties.py:294
+msgid "Auto Blend In/Out"
+msgstr "自动混合入/出"
+
+#: custom_properties.py:269
+msgid "Auto Blend State"
+msgstr "自动混合状态"
+
+#: __init__.py:24
+msgid "Batch Pushdown"
+msgstr "批量下推"
+
+#: custom_properties.py:13
+#: custom_properties.py:295
+msgid "Blend In"
+msgstr "混合入"
+
+#: custom_properties.py:270
+msgid "Blend In Amount"
+msgstr "混合入量"
+
+#: custom_properties.py:20
+#: custom_properties.py:296
+msgid "Blend Out"
+msgstr "混合出"
+
+#: custom_properties.py:271
+msgid "Blend Out Amount"
+msgstr "混合出量"
+
+#: custom_properties.py:27
+#: custom_properties.py:268
+msgid "Blend Type"
+msgstr "混合类型"
+
+#: custom_properties.py:248
+msgid "Both"
+msgstr "两者"
+
+#: custom_properties.py:290
+msgid "Combine"
+msgstr "合并"
+
+#: custom_properties.py:180
+msgid "Distinct Strip Names"
+msgstr "独立片段名称"
+
+#: __init__.py:177
+msgid "Dublicate Tracks"
+msgstr "复制轨道"
+
+#: custom_properties.py:311
+msgid "Edit Mode"
+msgstr "编辑模式"
+
+#: __init__.py:159
+msgid "Edit Tracks"
+msgstr "编辑轨道"
+
+#: custom_properties.py:304
+msgid "Edit track name. Tip: **TRACK_NAME** will be substituted with the name of the original track"
+msgstr "编辑轨道名称。提示：**TRACK_NAME** 将被替换为原轨道的名称"
+
+#: custom_properties.py:41
+#: custom_properties.py:266
+msgid "End Frame"
+msgstr "结束帧"
+
+#: custom_properties.py:34
+#: custom_properties.py:285
+msgid "Extrapolation"
+msgstr "外插"
+
+#: custom_properties.py:267
+msgid "Extrapolation Type"
+msgstr "外插类型"
+
+#: custom_properties.py:263
+msgid "Filter by"
+msgstr "筛选依据"
+
+#: custom_properties.py:273
+msgid "Filter by animated influence state"
+msgstr "按动画化影响状态筛选"
+
+#: custom_properties.py:269
+msgid "Filter by auto blend state"
+msgstr "按自动混合状态筛选"
+
+#: custom_properties.py:270
+msgid "Filter by blend in amount"
+msgstr "按混合入量筛选"
+
+#: custom_properties.py:271
+msgid "Filter by blend out amount"
+msgstr "按混合出量筛选"
+
+#: custom_properties.py:268
+msgid "Filter by blend type"
+msgstr "按混合类型筛选"
+
+#: custom_properties.py:266
+msgid "Filter by end frame value"
+msgstr "按结束帧值筛选"
+
+#: custom_properties.py:267
+msgid "Filter by extrapolation type"
+msgstr "按外插类型筛选"
+
+#: custom_properties.py:274
+msgid "Filter by influence amount"
+msgstr "按影响量筛选"
+
+#: custom_properties.py:264
+msgid "Filter by name"
+msgstr "按名称筛选"
+
+#: custom_properties.py:276
+msgid "Filter by repeat"
+msgstr "按重复筛选"
+
+#: custom_properties.py:272
+msgid "Filter by reverse state"
+msgstr "按反向状态筛选"
+
+#: custom_properties.py:275
+msgid "Filter by scale"
+msgstr "按缩放筛选"
+
+#: custom_properties.py:265
+msgid "Filter by start frame value"
+msgstr "按起始帧值筛选"
+
+#: custom_properties.py:140
+msgid "Frame Start"
+msgstr "帧起始"
+
+#: custom_properties.py:140
+msgid "Frame starts at"
+msgstr "帧起始于"
+
+#: custom_properties.py:286
+msgid "Hold"
+msgstr "保持"
+
+#: custom_properties.py:286
+msgid "Hold Forward"
+msgstr "向前保持"
+
+#: custom_properties.py:247
+msgid "Include Tracks"
+msgstr "包含轨道"
+
+#: custom_properties.py:6
+msgid "Include action to edit"
+msgstr "包含要编辑的动作"
+
+#: custom_properties.py:76
+msgid "Include animated influence to edit"
+msgstr "包含要编辑的动画化影响"
+
+#: custom_properties.py:104
+msgid "Include animated time cyclic to edit"
+msgstr "包含要编辑的动画化时间循环"
+
+#: custom_properties.py:90
+msgid "Include animated time to edit"
+msgstr "包含要编辑的动画化时间"
+
+#: custom_properties.py:111
+msgid "Include auto blend attribute to edit"
+msgstr "包含要编辑的自动混合属性"
+
+#: custom_properties.py:13
+msgid "Include blend in amount to edit"
+msgstr "包含要编辑的混合入量"
+
+#: custom_properties.py:20
+msgid "Include blend out amount to edit"
+msgstr "包含要编辑的混合出量"
+
+#: custom_properties.py:27
+msgid "Include blend type to edit"
+msgstr "包含要编辑的混合类型"
+
+#: custom_properties.py:248
+msgid "Include both muted and locked tracks"
+msgstr "包含已静音和已锁定的轨道"
+
+#: custom_properties.py:41
+msgid "Include end frame value to edit"
+msgstr "包含要编辑的结束帧值"
+
+#: custom_properties.py:34
+msgid "Include extrapolation type to edit"
+msgstr "包含要编辑的外插类型"
+
+#: custom_properties.py:83
+msgid "Include influence amount to edit"
+msgstr "包含要编辑的影响量"
+
+#: custom_properties.py:118
+msgid "Include mute attribute to edit"
+msgstr "包含要编辑的静音属性"
+
+#: custom_properties.py:55
+msgid "Include name attribute to edit"
+msgstr "包含要编辑的名称属性"
+
+#: custom_properties.py:250
+msgid "Include only locked tracks"
+msgstr "仅包含已锁定轨道"
+
+#: custom_properties.py:249
+msgid "Include only muted tracks"
+msgstr "仅包含已静音轨道"
+
+#: custom_properties.py:62
+msgid "Include repeat amount to edit"
+msgstr "包含要编辑的重复量"
+
+#: custom_properties.py:125
+msgid "Include reverse attribute to edit"
+msgstr "包含要编辑的反转属性"
+
+#: custom_properties.py:69
+msgid "Include scale amount to edit"
+msgstr "包含要编辑的缩放量"
+
+#: custom_properties.py:48
+msgid "Include start frame value to edit"
+msgstr "包含要编辑的起始帧值"
+
+#: custom_properties.py:97
+msgid "Include strip time attribute to edit"
+msgstr "包含要编辑的片段时间属性"
+
+#: custom_properties.py:132
+msgid "Include sync length to edit"
+msgstr "包含要编辑的同步长度"
+
+#: custom_properties.py:83
+#: custom_properties.py:299
+msgid "Influence"
+msgstr "影响"
+
+#: custom_properties.py:274
+msgid "Influence Amount"
+msgstr "影响量"
+
+#: custom_properties.py:234
+msgid "Intersect"
+msgstr "交集"
+
+#: custom_properties.py:234
+msgid "Intersect with current selection"
+msgstr "与当前选择求交集"
+
+#: custom_properties.py:194
+msgid "Keep actions"
+msgstr "保留动作"
+
+#: custom_properties.py:194
+msgid "Keeps actions in Action Editor"
+msgstr "在动作编辑器中保留动作"
+
+#: custom_properties.py:216
+msgid "Linked Copy"
+msgstr "关联副本"
+
+#: __init__.py:166
+#: custom_properties.py:250
+msgid "Lock"
+msgstr "锁定"
+
+#: custom_properties.py:242
+msgid "Modify strip selection"
+msgstr "修改片段选择"
+
+#: custom_properties.py:241
+msgid "Modify track selection"
+msgstr "修改轨道选择"
+
+#: custom_properties.py:291
+msgid "Multiply"
+msgstr "相乘"
+
+#: __init__.py:165
+#: custom_properties.py:118
+msgid "Mute"
+msgstr "静音"
+
+#: custom_properties.py:187
+msgid "Mute New Tracks"
+msgstr "静音新轨道"
+
+#: custom_properties.py:251
+msgid "Muted and locked tracks are excluded"
+msgstr "已静音和锁定的轨道将被排除"
+
+#: __init__.py:98
+#: __init__.py:145
+msgid "NBE | Batch Edit"
+msgstr "NBE | 批量编辑"
+
+#: __init__.py:28
+msgid "NBE | Batch Pushdown"
+msgstr "NBE | 批量下推"
+
+#: custom_properties.py:55
+#: custom_properties.py:224
+msgid "Name"
+msgstr "名称"
+
+#: custom_properties.py:256
+msgid "Name Contains Keyword"
+msgstr "名称包含关键字"
+
+#: __init__.py:42
+msgid "New Stack Name"
+msgstr "新堆栈名称"
+
+#: custom_properties.py:174
+msgid "New Strip Name"
+msgstr "新片段名称"
+
+#: custom_properties.py:168
+msgid "New Track Name"
+msgstr "新轨道名称"
+
+#: __init__.py:206
+#: op_edit_strip_data.py:18
+msgid "No active strip"
+msgstr "无活动片段"
+
+#: custom_properties.py:251
+msgid "None"
+msgstr "无"
+
+#: custom_properties.py:286
+msgid "Nothing"
+msgstr "无"
+
+#: custom_properties.py:161
+msgid "Randomize"
+msgstr "随机化"
+
+#: custom_properties.py:62
+#: custom_properties.py:276
+msgid "Repeat"
+msgstr "重复"
+
+#: custom_properties.py:290
+msgid "Replace"
+msgstr "替换"
+
+#: custom_properties.py:125
+#: custom_properties.py:297
+msgid "Reverse"
+msgstr "反转"
+
+#: custom_properties.py:272
+msgid "Reverse State"
+msgstr "反转状态"
+
+#: custom_properties.py:69
+#: custom_properties.py:275
+msgid "Scale"
+msgstr "缩放"
+
+#: custom_properties.py:224
+msgid "Search by name"
+msgstr "按名称搜索"
+
+#: __init__.py:94
+msgid "Selection"
+msgstr "选择"
+
+#: custom_properties.py:231
+msgid "Selection Option"
+msgstr "选择选项"
+
+#: custom_properties.py:240
+msgid "Selection by"
+msgstr "选择依据"
+
+#: custom_properties.py:313
+msgid "Set"
+msgstr "设置"
+
+#: custom_properties.py:313
+msgid "Set mute or lock properties"
+msgstr "设置静音或锁定属性"
+
+#: custom_properties.py:209
+msgid "Set name for copy tracks. Tip: **TRACK_NAME** will be substituted with the name of the original track"
+msgstr "设置副本轨道的名称。提示：**TRACK_NAME** 将替换为原始轨道的名称"
+
+#: custom_properties.py:187
+msgid "Sets mute for new tracks"
+msgstr "为新轨道设置静音"
+
+#: custom_properties.py:174
+msgid "Sets name for new strips. Tip, **OBJECT_NAME** will be replaced by its object name."
+msgstr "设置新片段的名称。提示，**OBJECT_NAME** 将被替换为其物体名称。"
+
+#: custom_properties.py:168
+msgid "Sets name for new tracks. Tip: **OBJECT_NAME** will be substituted with the name of the associated object."
+msgstr "设置新轨道的名称。提示：**OBJECT_NAME** 将替换为关联物体的名称。"
+
+#: custom_properties.py:180
+msgid "Sets strip names different than tracks"
+msgstr "设置与轨道不同的片段名称"
+
+#: custom_properties.py:48
+#: custom_properties.py:265
+msgid "Start Frame"
+msgstr "起始帧"
+
+#: custom_properties.py:154
+msgid "Start Max"
+msgstr "起始最大值"
+
+#: custom_properties.py:147
+msgid "Start Min"
+msgstr "起始最小值"
+
+#: custom_properties.py:242
+msgid "Strip"
+msgstr "片段"
+
+#: __init__.py:189
+msgid "Strip Edit"
+msgstr "片段编辑"
+
+#: __init__.py:49
+msgid "Strip Name"
+msgstr "片段名称"
+
+#: custom_properties.py:97
+msgid "Strip Time"
+msgstr "片段时间"
+
+#: op_transfer_selection.py:11
+msgid "Strips to tracks"
+msgstr "片段到轨道"
+
+#: custom_properties.py:233
+#: custom_properties.py:291
+msgid "Subtract"
+msgstr "相减"
+
+#: custom_properties.py:233
+msgid "Subtract from current selection"
+msgstr "从当前选择中减去"
+
+#: custom_properties.py:132
+msgid "Sync Length"
+msgstr "同步长度"
+
+#: custom_properties.py:312
+msgid "Toggle"
+msgstr "切换"
+
+#: __init__.py:166
+msgid "Toggle Lock"
+msgstr "切换锁定"
+
+#: __init__.py:165
+msgid "Toggle Mute"
+msgstr "切换静音"
+
+#: custom_properties.py:312
+msgid "Toggle mute or lock properties"
+msgstr "切换静音或锁定属性"
+
+#: custom_properties.py:241
+msgid "Track"
+msgstr "轨道"
+
+#: __init__.py:141
+msgid "Track Edit"
+msgstr "轨道编辑"
+
+#: __init__.py:42
+#: custom_properties.py:209
+msgid "Track Name"
+msgstr "轨道名称"
+
+#: op_transfer_selection.py:12
+msgid "Tracks to strips"
+msgstr "轨道到片段"
+
+#: op_transfer_selection.py:9
+msgid "Transfer Type"
+msgstr "传递类型"
+
+#: op_transfer_selection.py:11
+msgid "Transfer strip selection to tracks"
+msgstr "将片段选择传递到轨道"
+
+#: op_transfer_selection.py:12
+msgid "Transfer track selection to strips"
+msgstr "将轨道选择传递到片段"
+
+#: custom_properties.py:216
+msgid "When disabled, actions of strips will also be dublicated"
+msgstr "禁用时，片段的动作也会被复制"
+
+#: custom_properties.py:256
+msgid "When enabled, the search key will inclusively match any part of the target names. Disable for exact matching only."
+msgstr "启用时，搜索关键词将匹配目标名称的任意部分。禁用则仅进行精确匹配。"
+
+#: op_dublicate.py:7
+msgctxt "Operator"
+msgid "Dublicate Tracks"
+msgstr "复制轨道"
+
+#: op_edit_strip_data.py:6
+msgctxt "Operator"
+msgid "Edit Strips"
+msgstr "编辑片段"
+
+#: op_edit_track_data.py:6
+msgctxt "Operator"
+msgid "Edit Tracks"
+msgstr "编辑轨道"
+
+#: op_modify_selection.py:7
+msgctxt "Operator"
+msgid "Make Selection"
+msgstr "建立选择"
+
+#: op_batch_pushdown.py:7
+msgctxt "Operator"
+msgid "Pushdown Actions"
+msgstr "下推动作"
+
+#: op_transfer_selection.py:6
+msgctxt "Operator"
+msgid "Transfer Selection"
+msgstr "传递选择"

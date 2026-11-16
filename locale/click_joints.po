@@ -1,0 +1,252 @@
+# perfect-chinese: 1
+# id: click_joints
+# kind: addon
+# module: bl_ext.blender_org.click_joints
+# name: Click Joints
+# name_zh: 点击关节
+# translator: KeshiMiao
+# category: Mesh
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: paneel.py:98
+msgid ")"
+msgstr ")"
+
+#: paneel.py:61
+msgid "1  Place"
+msgstr "1  放置"
+
+#: paneel.py:79
+msgid "2  Joint"
+msgstr "2  关节"
+
+#: paneel.py:89
+msgid "3  Fit and export"
+msgstr "3  适配并导出"
+
+#: eigenschappen.py:42
+msgid "3D cursor"
+msgstr "3D 游标"
+
+#: eigenschappen.py:49
+msgid "3MF"
+msgstr "3MF"
+
+#: eigenschappen.py:33
+msgid "Auto"
+msgstr "自动"
+
+#: eigenschappen.py:40
+msgid "Axis"
+msgstr "轴"
+
+#: eigenschappen.py:42
+msgid "Axis along the Z axis of the 3D cursor"
+msgstr "轴沿 3D 游标的 Z 轴"
+
+#: eigenschappen.py:41
+msgid "Axis along the view direction of the 3D viewport"
+msgstr "轴沿 3D 视图的视图方向"
+
+#: eigenschappen.py:37
+msgid "Ball"
+msgstr "球"
+
+#: eigenschappen.py:37
+msgid "Ball and socket, turns in every direction"
+msgstr "球窝关节，可向各个方向转动"
+
+#: eigenschappen.py:62
+msgid "Bend"
+msgstr "弯曲"
+
+#: eigenschappen.py:27
+msgid "Clearance (mm)"
+msgstr "间隙 (mm)"
+
+#: paneel.py:49
+#: paneel.py:53
+msgid "Click Joints"
+msgstr "Click Joints"
+
+#: eigenschappen.py:30
+msgid "Diameter (mm)"
+msgstr "直径 (mm)"
+
+#: eigenschappen.py:30
+msgid "Diameter of the ball or pin in millimeters"
+msgstr "球或销钉的直径，单位为毫米"
+
+#: eigenschappen.py:67
+#: paneel.py:107
+msgid "Direction"
+msgstr "方向"
+
+#: paneel.py:67
+msgid "Expected 5 to 500 mm: is the unit right?"
+msgstr "预期为 5 到 500 mm：单位是否正确？"
+
+#: eigenschappen.py:54
+msgid "Exploded view"
+msgstr "爆炸视图"
+
+#: eigenschappen.py:51
+msgid "Folder"
+msgstr "文件夹"
+
+#: eigenschappen.py:51
+msgid "Folder for the exported files. Empty: click_joints folder next to the .blend file"
+msgstr "导出文件的文件夹。留空：.blend 文件旁的 click_joints 文件夹"
+
+#: eigenschappen.py:47
+msgid "Format"
+msgstr "格式"
+
+#: eigenschappen.py:27
+msgid "Gap between ball and socket in millimeters"
+msgstr "球与球窝之间的间隙，单位为毫米"
+
+#: paneel.py:72
+msgid "Mesh is not watertight"
+msgstr "网格不是水密的"
+
+#: gewricht.py:216
+msgid "No 3D viewport found for the view direction; the axis now follows the Z axis of the 3D cursor. Click Place joint in the 3D viewport."
+msgstr "未找到用于视图方向的 3D 视图；轴现在沿 3D 游标的 Z 轴。请在 3D 视图中点击“放置关节”。"
+
+#: paneel.py:112
+msgid "No joint yet"
+msgstr "尚无关节"
+
+#: eigenschappen.py:49
+msgid "One 3MF file per part, in millimeters (Bambu Studio, PrusaSlicer, Cura)"
+msgstr "每个零件一个 3MF 文件，单位为毫米（Bambu Studio、PrusaSlicer、Cura）"
+
+#: eigenschappen.py:48
+msgid "One binary STL file per part, in millimeters"
+msgstr "每个零件一个二进制 STL 文件，单位为毫米"
+
+#: eigenschappen.py:33
+msgid "Pick the diameter for you at Place joint: the largest ball with a good fit (wall 1.5 mm or more), at most 60% of the thickness of the mesh at the cut. Typing a diameter turns this off"
+msgstr "放置关节时自动选择直径：选择能良好适配的最大球（壁厚至少 1.5 mm），且最多为切口处网格厚度的 60%。手动输入直径会关闭此功能"
+
+#: eigenschappen.py:38
+msgid "Pin"
+msgstr "销钉"
+
+#: eigenschappen.py:38
+msgid "Pin and hole, turns around one axis"
+msgstr "销钉与孔，绕一个轴转动"
+
+#: eigenschappen.py:48
+msgid "STL"
+msgstr "STL"
+
+#: paneel.py:69
+msgid "Shift + right click sets the 3D cursor"
+msgstr "Shift + 右键单击设置 3D 游标"
+
+#: eigenschappen.py:59
+msgid "Show bend range"
+msgstr "显示弯曲范围"
+
+#: eigenschappen.py:59
+msgid "Show how far the joint bends, as a protractor in the chosen direction in the viewport"
+msgstr "在视图中以量角器显示关节在所选方向上的弯曲程度"
+
+#: eigenschappen.py:54
+msgid "Show part B a little apart along the joint axis, so you see the ball. Only in the viewport: the export uses the real position"
+msgstr "沿关节轴稍微分开显示零件 B，以便看到球。仅在视图中显示：导出时使用实际位置"
+
+#: exporteer.py:47
+msgid "There are no joint parts to export yet"
+msgstr "尚无可导出的关节零件"
+
+#: exporteer.py:43
+msgid "This Blender has no STL export (needs 4.2 or newer)"
+msgstr "此 Blender 没有 STL 导出功能（需要 4.2 或更新版本）"
+
+#: eigenschappen.py:62
+msgid "Tilt part B around the ball, only in the viewport. Past the measured range, the parts that collide turn red. The export always uses the straight position"
+msgstr "仅在视图中让零件 B 绕球倾斜。超过测得范围后，发生碰撞的零件会变红。导出始终使用伸直位置"
+
+#: eigenschappen.py:36
+msgid "Type"
+msgstr "类型"
+
+#: eigenschappen.py:41
+msgid "View direction"
+msgstr "视图方向"
+
+#: eigenschappen.py:44
+msgid "Voxel (mm)"
+msgstr "体素 (mm)"
+
+#: eigenschappen.py:44
+msgid "Voxel size for Make watertight in millimeters"
+msgstr "用于“制作水密”的体素大小，单位为毫米"
+
+#: gesloten.py:55
+msgctxt "Operator"
+msgid "Check if the mesh is watertight (every edge has exactly 2 faces)"
+msgstr "检查网格是否水密（每条边恰好有 2 个面）"
+
+#: gesloten.py:54
+msgctxt "Operator"
+msgid "Check mesh"
+msgstr "检查网格"
+
+#: schaal.py:41
+msgctxt "Operator"
+msgid "Convert to mm"
+msgstr "转换为毫米"
+
+#: gewricht.py:195
+msgctxt "Operator"
+msgid "Cut the mesh at the 3D cursor into two watertight parts with a joint"
+msgstr "在 3D 游标处将网格切成两个带关节的水密零件"
+
+#: exporteer.py:37
+msgctxt "Operator"
+msgid "Export"
+msgstr "导出"
+
+#: gesloten.py:76
+msgctxt "Operator"
+msgid "Make a watertight copy with a voxel remesh. The original is kept, hidden"
+msgstr "使用体素重网格制作水密副本。保留原网格并隐藏"
+
+#: gesloten.py:75
+msgctxt "Operator"
+msgid "Make watertight"
+msgstr "制作水密"
+
+#: gewricht.py:194
+msgctxt "Operator"
+msgid "Place joint"
+msgstr "放置关节"
+
+#: waaier.py:175
+msgctxt "Operator"
+msgid "Put part B back in the straight position"
+msgstr "将零件 B 放回伸直位置"
+
+#: waaier.py:174
+msgctxt "Operator"
+msgid "Reset bend"
+msgstr "重置弯曲"
+
+#: schaal.py:42
+msgctxt "Operator"
+msgid "Set the scene unit scale so the mesh measures between 5 and 500 mm. The mesh itself does not change"
+msgstr "设置场景单位比例，使网格尺寸在 5 到 500 mm 之间。网格本身不会改变"
+
+#: exporteer.py:38
+msgctxt "Operator"
+msgid "Write every visible joint part as an STL or 3MF file in millimeters"
+msgstr "将每个可见的关节零件导出为 STL 或 3MF 文件，单位为毫米"

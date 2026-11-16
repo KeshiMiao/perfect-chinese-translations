@@ -1,0 +1,72 @@
+# perfect-chinese: 1
+# id: noodlebin
+# kind: addon
+# module: bl_ext.blender_org.noodlebin
+# name: noodlebin
+# name_zh: 节点剪贴板
+# translator: KeshiMiao
+# category: Node
+# supported_versions: >=5.0.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: panel.py:79
+msgid "Last paste skips"
+msgstr "上次粘贴跳过"
+
+#: panel.py:88
+msgid "No catalog for this Blender. Same-version paste still works. Browser colors will be missing until a catalog is extracted."
+msgstr "此 Blender 没有目录。同版本粘贴仍可用。在提取目录之前，浏览器颜色将缺失。"
+
+#: copy_nodes.py:80
+msgctxt "Operator"
+msgid "Copy All Nodes"
+msgstr "复制所有节点"
+
+#: copy_nodes.py:47
+msgctxt "Operator"
+msgid "Copy Nodes"
+msgstr "复制节点"
+
+#: copy_nodes.py:81
+msgctxt "Operator"
+msgid "Copy every node in this tree as noodlebin JSON on the system clipboard"
+msgstr "将此节点树中的所有节点以 noodlebin JSON 复制到系统剪贴板"
+
+#: copy_nodes.py:48
+msgctxt "Operator"
+msgid "Copy selected nodes as noodlebin JSON on the system clipboard"
+msgstr "将选中节点以 noodlebin JSON 复制到系统剪贴板"
+
+#: paste_nodes.py:80
+msgctxt "Operator"
+msgid "Paste Nodes"
+msgstr "粘贴节点"
+
+#: paste_nodes.py:81
+msgctxt "Operator"
+msgid "Paste a noodlebin JSON clipboard into this node editor"
+msgstr "将 noodlebin JSON 剪贴板粘贴到此节点编辑器"
+
+#: paste_nodes.py:94
+msgctxt "Operator"
+msgid "Paste and Replace Nodes"
+msgstr "粘贴并替换节点"
+
+#: paste_nodes.py:95
+msgctxt "Operator"
+msgid "Remove every node in this tree, then paste the noodlebin clipboard in place"
+msgstr "移除此节点树中的所有节点，然后就地粘贴 noodlebin 剪贴板"
+
+#: copy_nodes.py:118
+msgctxt "Operator"
+msgid "Save Nodes"
+msgstr "保存节点"
+
+#: copy_nodes.py:119
+msgctxt "Operator"
+msgid "Save selected nodes as a .noodlebin.json file"
+msgstr "将选中节点保存为 .noodlebin.json 文件"

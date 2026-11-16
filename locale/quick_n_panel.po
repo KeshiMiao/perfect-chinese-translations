@@ -1,0 +1,805 @@
+# perfect-chinese: 1
+# id: quick_n_panel
+# kind: addon
+# module: bl_ext.blender_org.quick_n_panel
+# name: Quick N-panel
+# name_zh: 快捷 N 面板
+# translator: KeshiMiao
+# category: User Interface
+# supported_versions: >=5.0.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: preferences.py:151
+msgid "Access Labels"
+msgstr "访问标签"
+
+#: registration.py:164
+msgid "Active favorite row in the launcher"
+msgstr "启动器中当前选中的收藏行"
+
+#: properties.py:51
+#: properties.py:68
+msgid "Add-on Key"
+msgstr "插件键"
+
+#: ui/sections/appearance.py:17
+msgid "Affects included and imported PNG icons."
+msgstr "影响内置和导入的 PNG 图标。"
+
+#: preferences.py:194
+msgid "Also open Categories with the launcher shortcut"
+msgstr "使用启动器快捷键时也打开分类"
+
+#: preferences.py:188
+msgid "Also open Library with the launcher shortcut"
+msgstr "使用启动器快捷键时也打开库"
+
+#: constants.py:25
+msgid "Animation & Rigging"
+msgstr "动画与绑定"
+
+#: ui/configuration_panel.py:94
+msgid "Appearance"
+msgstr "外观"
+
+#: constants.py:47
+msgid "Asset tools"
+msgstr "资产工具"
+
+#: constants.py:47
+msgid "Assets"
+msgstr "资产"
+
+#: ui/sections/library.py:49
+msgid "Available"
+msgstr "可用"
+
+#: properties.py:132
+#: properties.py:166
+msgid "Blender Icon"
+msgstr "Blender 图标"
+
+#: ui/sections/appearance.py:20
+msgid "Blender icons, popup colors, and hover follow the theme."
+msgstr "Blender 图标、弹出菜单颜色和悬停效果跟随主题。"
+
+#: ui/sections/diagnostics.py:26
+msgid "Catalog identity warnings"
+msgstr "目录标识警告"
+
+#: ui/configuration_panel.py:70
+#: ui/configuration_panel.py:131
+msgid "Categories"
+msgstr "分类"
+
+#: operators/groups.py:108
+#: operators/library.py:58
+msgid "Category"
+msgstr "分类"
+
+#: properties.py:121
+msgid "Category Memberships"
+msgstr "分类归属"
+
+#: preferences.py:157
+msgid "Choose how included and imported PNG icons are colored"
+msgstr "选择内置和导入 PNG 图标的着色方式"
+
+#: preferences.py:164
+msgid "Color applied to every included and imported PNG icon"
+msgstr "应用于所有内置和导入 PNG 图标的颜色"
+
+#: preferences.py:143
+msgid "Compact Popup Width"
+msgstr "紧凑弹出菜单宽度"
+
+#: ui/sections/diagnostics.py:39
+msgid "Configuration Backup"
+msgstr "配置备份"
+
+#: preferences.py:203
+msgid "Configuration is available in the 3D View sidebar."
+msgstr "配置可在 3D 视图侧边栏中使用。"
+
+#: constants.py:50
+msgid "Configuration tools"
+msgstr "配置工具"
+
+#: ui/sections/groups.py:37
+msgid "Create a group to organize tabs"
+msgstr "创建组以整理标签页"
+
+#: constants.py:38
+msgid "Custom"
+msgstr "自定义"
+
+#: preferences.py:157
+msgid "Custom Icon Color"
+msgstr "自定义图标颜色"
+
+#: ui/sections/appearance.py:13
+msgid "Custom Icon Style"
+msgstr "自定义图标样式"
+
+#: ui/configuration_panel.py:106
+msgid "Diagnostics"
+msgstr "诊断"
+
+#: properties.py:53
+msgid "Discovered At"
+msgstr "发现位置"
+
+#: operators/choices.py:79
+msgid "Do not place this tab in a category"
+msgstr "不要将此标签页放入分类"
+
+#: ui/lists.py:250
+msgid "Empty"
+msgstr "空"
+
+#: preferences.py:194
+msgid "Experimental: also open the existing Categories popover when the configured launcher shortcut opens the launcher"
+msgstr "实验性：当配置的启动器快捷键打开启动器时，也打开现有的分类弹出面板"
+
+#: preferences.py:188
+msgid "Experimental: also open the existing Library popover when the configured launcher shortcut opens the launcher"
+msgstr "实验性：当配置的启动器快捷键打开启动器时，也打开现有的库弹出面板"
+
+#: ui/sections/diagnostics.py:56
+msgid "Extension Updates"
+msgstr "扩展更新"
+
+#: properties.py:144
+#: properties.py:178
+msgid "External Icon"
+msgstr "外部图标"
+
+#: ui/configuration_panel.py:53
+#: ui/popup.py:301
+msgid "Favorites"
+msgstr "收藏"
+
+#: properties.py:104
+msgid "First Opened"
+msgstr "首次打开"
+
+#: constants.py:42
+msgid "Generic add-on icon"
+msgstr "通用插件图标"
+
+#: properties.py:114
+msgid "Group"
+msgstr "组"
+
+#: properties.py:160
+msgid "Group ID"
+msgstr "组 ID"
+
+#: properties.py:115
+msgid "Group Order"
+msgstr "组顺序"
+
+#: properties.py:126
+msgid "Hide from Search"
+msgstr "从搜索中隐藏"
+
+#: properties.py:138
+#: properties.py:172
+msgid "Icon Library"
+msgstr "图标库"
+
+#: constants.py:31
+msgid "Icon and Name"
+msgstr "图标和名称"
+
+#: properties.py:138
+#: properties.py:172
+msgid "Icon included with Quick N-panel"
+msgstr "Quick N-panel 内置图标"
+
+#: operators/library.py:84
+msgid "Imported a managed 96 x 96 icon copy"
+msgstr "已导入受管理的 96 x 96 图标副本"
+
+#: preferences.py:182
+msgid "Include Blender Tabs"
+msgstr "包含 Blender 标签页"
+
+#: preferences.py:182
+msgid "Include built-in Blender sidebar categories in the library"
+msgstr "在库中包含 Blender 内置侧边栏分类"
+
+#: properties.py:35
+#: properties.py:46
+msgid "Internal Name"
+msgstr "内部名称"
+
+#: properties.py:126
+msgid "Keep this tab out of the search library"
+msgstr "使此标签页不出现在搜索库中"
+
+#: properties.py:109
+msgid "Last Opened"
+msgstr "最近打开"
+
+#: ui/sections/diagnostics.py:22
+msgid "Last scan: Not run"
+msgstr "上次扫描：未运行"
+
+#: registration.py:164
+msgid "Launcher Favorite"
+msgstr "启动器收藏"
+
+#: preferences.py:111
+msgid "Legacy Favorite 1"
+msgstr "旧版收藏 1"
+
+#: preferences.py:116
+msgid "Legacy Favorite 2"
+msgstr "旧版收藏 2"
+
+#: preferences.py:121
+msgid "Legacy Favorite 3"
+msgstr "旧版收藏 3"
+
+#: ui/configuration_panel.py:82
+#: ui/configuration_panel.py:118
+msgid "Library"
+msgstr "库"
+
+#: operators/library.py:58
+#: operators/library.py:95
+msgid "Library Tab"
+msgstr "库标签页"
+
+#: constants.py:24
+msgid "MATERIAL"
+msgstr "材质"
+
+#: constants.py:25
+msgid "MODIFIER"
+msgstr "修改器"
+
+#: ui/sections/diagnostics.py:69
+msgid "Manual installation"
+msgstr "手动安装"
+
+#: constants.py:46
+msgid "Material"
+msgstr "材质"
+
+#: constants.py:46
+msgid "Material tools"
+msgstr "材质工具"
+
+#: constants.py:24
+msgid "Materials & Nodes"
+msgstr "材质与节点"
+
+#: preferences.py:174
+msgid "Maximum number of native search entries indexed at once"
+msgstr "一次索引的原生搜索条目最大数量"
+
+#: ui/lists.py:250
+#: ui/popup.py:437
+msgid "Missing target"
+msgstr "缺少目标"
+
+#: constants.py:22
+msgid "Modeling"
+msgstr "建模"
+
+#: constants.py:44
+msgid "Modifier"
+msgstr "修改器"
+
+#: constants.py:44
+msgid "Modifier tools"
+msgstr "修改器工具"
+
+#: constants.py:32
+#: properties.py:161
+msgid "Name"
+msgstr "名称"
+
+#: properties.py:80
+msgid "Native Tab"
+msgstr "原生标签页"
+
+#: ui/popup.py:280
+msgid "New"
+msgstr "新建"
+
+#: ui/sections/library.py:38
+msgid "No detected sidebar tabs"
+msgstr "未检测到侧边栏标签页"
+
+#: ui/popup.py:318
+#: ui/sections/favorites.py:8
+msgid "No favorites configured"
+msgstr "未配置收藏夹"
+
+#: operators/groups.py:163
+msgid "No other sidebar tabs are available"
+msgstr "没有其他可用的侧边栏标签页"
+
+#: ui/popup.py:248
+msgid "No recent tab"
+msgstr "无最近标签页"
+
+#: operators/launcher.py:207
+msgid "No searchable sidebar tabs were detected"
+msgstr "未检测到可搜索的侧边栏标签页"
+
+#: operators/favorites.py:37
+msgid "No sidebar tabs are available"
+msgstr "没有可用的侧边栏标签页"
+
+#: ui/sections/groups.py:74
+msgid "No tabs assigned"
+msgstr "未分配标签页"
+
+#: ui/popup.py:109
+msgid "No tabs available"
+msgstr "没有可用的标签页"
+
+#: constants.py:45
+msgid "Node tools"
+msgstr "节点工具"
+
+#: constants.py:45
+msgid "Nodes"
+msgstr "节点"
+
+#: constants.py:22
+msgid "OBJECT_DATA"
+msgstr "OBJECT_DATA"
+
+#: constants.py:49
+msgid "Object"
+msgstr "物体"
+
+#: constants.py:49
+msgid "Object tools"
+msgstr "物体工具"
+
+#: properties.py:98
+msgid "Open Count"
+msgstr "打开次数"
+
+#: properties.py:144
+#: properties.py:178
+msgid "Optional external PNG used when no included icon is selected"
+msgstr "未选择内置图标时使用的可选外部 PNG"
+
+#: properties.py:91
+msgid "Optional name shown by the launcher"
+msgstr "启动器显示的可选名称"
+
+#: properties.py:81
+msgid "Origin Key"
+msgstr "来源键"
+
+#: constants.py:36
+msgid "Original"
+msgstr "原始"
+
+#: constants.py:27
+msgid "PLUGIN"
+msgstr "PLUGIN"
+
+#: properties.py:86
+msgid "Panel IDs"
+msgstr "面板 ID"
+
+#: properties.py:96
+msgid "Panels"
+msgstr "面板"
+
+#: constants.py:42
+msgid "Plug-in"
+msgstr "插件"
+
+#: ui/configuration_panel.py:31
+#: ui/popup.py:26
+msgid "Preferences unavailable"
+msgstr "偏好设置不可用"
+
+#: constants.py:36
+msgid "Preserve each custom icon's source colors"
+msgstr "保留每个自定义图标的源颜色"
+
+#: ui/configuration_panel.py:17
+msgid "Quick N-panel"
+msgstr "Quick N-panel"
+
+#: operators/launcher.py:154
+msgid "Quick N-panel preferences are unavailable"
+msgstr "Quick N-panel 偏好设置不可用"
+
+#: ui/popup.py:240
+msgid "Recent"
+msgstr "最近"
+
+#: preferences.py:127
+msgid "Recent Target"
+msgstr "最近目标"
+
+#: constants.py:26
+msgid "Render & Output"
+msgstr "渲染与输出"
+
+#: constants.py:37
+msgid "Render every custom icon in neutral white"
+msgstr "以中性白色渲染所有自定义图标"
+
+#: constants.py:38
+msgid "Render every custom icon with one selected color"
+msgstr "使用单一选定颜色渲染所有自定义图标"
+
+#: constants.py:26
+msgid "SCENE_DATA"
+msgstr "SCENE_DATA"
+
+#: constants.py:48
+msgid "Scene"
+msgstr "场景"
+
+#: constants.py:48
+msgid "Scene tools"
+msgstr "场景工具"
+
+#: constants.py:23
+msgid "Sculpt & Paint"
+msgstr "雕刻与绘制"
+
+#: preferences.py:174
+msgid "Search Index Limit"
+msgstr "搜索索引上限"
+
+#: constants.py:50
+msgid "Settings"
+msgstr "设置"
+
+#: properties.py:91
+msgid "Short Name"
+msgstr "短名称"
+
+#: registration.py:152
+msgid "Show Empty Categories"
+msgstr "显示空类别"
+
+#: constants.py:31
+msgid "Show an icon and a short name"
+msgstr "显示图标和短名称"
+
+#: registration.py:152
+msgid "Show categories without assigned tabs"
+msgstr "显示未分配标签页的类别"
+
+#: constants.py:32
+msgid "Show only the short name"
+msgstr "仅显示短名称"
+
+#: operators/favorites.py:24
+#: operators/groups.py:155
+msgid "Sidebar Tab"
+msgstr "侧边栏标签页"
+
+#: properties.py:97
+msgid "Sources"
+msgstr "来源"
+
+#: constants.py:23
+msgid "TOOL_SETTINGS"
+msgstr "TOOL_SETTINGS"
+
+#: properties.py:40
+#: properties.py:52
+msgid "Target Key"
+msgstr "目标键"
+
+#: operators/library.py:70
+msgid "The icon owner no longer exists"
+msgstr "图标所有者已不存在"
+
+#: operators/navigation.py:57
+msgid "The sidebar tab is unavailable in this context"
+msgstr "当前上下文中侧边栏标签页不可用"
+
+#: operators/favorites.py:57
+msgid "This tab is already a favorite"
+msgstr "此选项卡已是收藏项"
+
+#: constants.py:43
+msgid "Tool settings"
+msgstr "工具设置"
+
+#: constants.py:43
+msgid "Tools"
+msgstr "工具"
+
+#: operators/choices.py:79
+msgid "Unassigned"
+msgstr "未分配"
+
+#: ui/sections/library.py:49
+msgid "Unavailable"
+msgstr "不可用"
+
+#: preferences.py:164
+msgid "Uniform Color"
+msgstr "均匀颜色"
+
+#: ui/sections/diagnostics.py:67
+msgid "Up to date"
+msgstr "已是最新"
+
+#: ui/configuration_panel.py:25
+#: ui/sections/diagnostics.py:65
+msgid "Update available"
+msgstr "有可用更新"
+
+#: ui/sections/diagnostics.py:73
+msgid "Update status error"
+msgstr "更新状态错误"
+
+#: ui/sections/diagnostics.py:75
+msgid "Update status not checked"
+msgstr "更新状态未检查"
+
+#: ui/sections/diagnostics.py:71
+msgid "Update status unavailable"
+msgstr "更新状态不可用"
+
+#: core/icons.py:24
+#: core/icons.py:68
+msgid "Use the selected Blender fallback icon"
+msgstr "使用选定的 Blender 备用图标"
+
+#: constants.py:27
+msgid "Utilities"
+msgstr "实用工具"
+
+#: constants.py:37
+msgid "White"
+msgstr "白色"
+
+#: preferences.py:143
+msgid "Width of the compact launcher"
+msgstr "紧凑启动器的宽度"
+
+#: ui/sections/favorites.py:25
+msgctxt "Operator"
+msgid "Add Favorite"
+msgstr "添加收藏"
+
+#: operators/groups.py:28
+msgctxt "Operator"
+msgid "Add Group"
+msgstr "添加组"
+
+#: operators/groups.py:149
+msgctxt "Operator"
+msgid "Add Tab to Category"
+msgstr "将选项卡添加到类别"
+
+#: operators/favorites.py:134
+msgctxt "Operator"
+msgid "Add this tab to favorites or remove it if already present"
+msgstr "将此选项卡添加到收藏，若已存在则移除"
+
+#: operators/groups.py:102
+msgctxt "Operator"
+msgid "Assign Category"
+msgstr "指定类别"
+
+#: operators/favorites.py:14
+msgctxt "Operator"
+msgid "Assign Favorite"
+msgstr "指定收藏"
+
+#: operators/groups.py:103
+msgctxt "Operator"
+msgid "Assign this tab to a launcher category"
+msgstr "将此选项卡指定到启动器类别"
+
+#: operators/groups.py:150
+msgctxt "Operator"
+msgid "Choose a sidebar tab to add to this category"
+msgstr "选择要添加到此类别的侧栏选项卡"
+
+#: operators/launcher.py:224
+msgctxt "Operator"
+msgid "Dismiss New Add-on"
+msgstr "忽略新插件"
+
+#: ui/sections/diagnostics.py:41
+msgctxt "Operator"
+msgid "Export"
+msgstr "导出"
+
+#: operators/library.py:112
+msgctxt "Operator"
+msgid "Export Configuration"
+msgstr "导出配置"
+
+#: operators/launcher.py:225
+msgctxt "Operator"
+msgid "Hide this newly detected add-on"
+msgstr "隐藏此新检测到的插件"
+
+#: ui/sections/diagnostics.py:46
+msgctxt "Operator"
+msgid "Import"
+msgstr "导入"
+
+#: operators/library.py:143
+msgctxt "Operator"
+msgid "Import Configuration"
+msgstr "导入配置"
+
+#: operators/library.py:51
+#: ui/sections/groups.py:160
+msgctxt "Operator"
+msgid "Import External Icon"
+msgstr "导入外部图标"
+
+#: operators/library.py:52
+msgctxt "Operator"
+msgid "Import a managed 96 px copy so the source file can be moved or deleted"
+msgstr "导入受管理的 96 像素副本，以便源文件可移动或删除"
+
+#: operators/favorites.py:103
+msgctxt "Operator"
+msgid "Move Favorite"
+msgstr "移动收藏"
+
+#: operators/groups.py:79
+msgctxt "Operator"
+msgid "Move Group"
+msgstr "移动组"
+
+#: operators/groups.py:183
+msgctxt "Operator"
+msgid "Move Tab in Category"
+msgstr "在类别中移动选项卡"
+
+#: ui/sections/library.py:79
+msgctxt "Operator"
+msgid "Open"
+msgstr "打开"
+
+#: operators/navigation.py:37
+msgctxt "Operator"
+msgid "Open Direct Sidebar Tab"
+msgstr "直接打开侧栏选项卡"
+
+#: ui/configuration_panel.py:35
+msgctxt "Operator"
+msgid "Open Launcher"
+msgstr "打开启动器"
+
+#: operators/navigation.py:69
+msgctxt "Operator"
+msgid "Open Launcher Configuration"
+msgstr "打开启动器配置"
+
+#: operators/navigation.py:13
+msgctxt "Operator"
+msgid "Open Sidebar Tab"
+msgstr "打开侧栏选项卡"
+
+#: operators/navigation.py:14
+msgctxt "Operator"
+msgid "Open the 3D View sidebar and activate this native tab"
+msgstr "打开 3D 视图侧栏并激活此原生选项卡"
+
+#: operators/navigation.py:70
+msgctxt "Operator"
+msgid "Open the Quick N-panel configuration tab in the sidebar"
+msgstr "在侧栏中打开 Quick N-panel 配置选项卡"
+
+#: operators/launcher.py:142
+msgctxt "Operator"
+msgid "Open the quick sidebar tab launcher"
+msgstr "打开快速侧栏选项卡启动器"
+
+#: operators/navigation.py:38
+msgctxt "Operator"
+msgid "Open this compact sidebar shortcut"
+msgstr "打开此紧凑侧栏快捷方式"
+
+#: operators/launcher.py:141
+msgctxt "Operator"
+msgid "Quick N-panel"
+msgstr "Quick N-panel"
+
+#: operators/library.py:13
+msgctxt "Operator"
+msgid "Refresh Detection"
+msgstr "刷新检测"
+
+#: operators/library.py:90
+msgctxt "Operator"
+msgid "Remove External Icon"
+msgstr "移除外部图标"
+
+#: operators/favorites.py:79
+msgctxt "Operator"
+msgid "Remove Favorite"
+msgstr "移除收藏"
+
+#: operators/groups.py:48
+msgctxt "Operator"
+msgid "Remove Group"
+msgstr "移除组"
+
+#: operators/groups.py:225
+msgctxt "Operator"
+msgid "Remove Tab from Category"
+msgstr "从类别中移除选项卡"
+
+#: operators/groups.py:49
+msgctxt "Operator"
+msgid "Remove the selected group without deleting library tabs"
+msgstr "移除所选组而不删除库选项卡"
+
+#: operators/groups.py:226
+msgctxt "Operator"
+msgid "Remove this tab from its category without deleting it"
+msgstr "从此类别中移除此选项卡而不删除它"
+
+#: ui/sections/groups.py:160
+msgctxt "Operator"
+msgid "Replace External Icon"
+msgstr "替换外部图标"
+
+#: operators/library.py:144
+msgctxt "Operator"
+msgid "Replace current settings from a Quick N-panel ZIP backup"
+msgstr "用 Quick N-panel ZIP 备份替换当前设置"
+
+#: operators/library.py:28
+msgctxt "Operator"
+msgid "Reset Tab Customization"
+msgstr "重置选项卡自定义"
+
+#: operators/library.py:113
+msgctxt "Operator"
+msgid "Save settings and imported icons as a portable ZIP backup"
+msgstr "将设置和导入的图标保存为便携 ZIP 备份"
+
+#: operators/library.py:14
+msgctxt "Operator"
+msgid "Scan registered 3D View sidebar panels again"
+msgstr "重新扫描已注册的 3D 视图侧栏面板"
+
+#: ui/popup.py:233
+msgctxt "Operator"
+msgid "Search"
+msgstr "搜索"
+
+#: operators/launcher.py:196
+msgctxt "Operator"
+msgid "Search Sidebar Tabs"
+msgstr "搜索侧栏选项卡"
+
+#: operators/launcher.py:197
+msgctxt "Operator"
+msgid "Search detected sidebar tabs by name"
+msgstr "按名称搜索检测到的侧栏选项卡"
+
+#: operators/library.py:91
+msgctxt "Operator"
+msgid "Stop using the imported icon and fall back to the selected Blender icon"
+msgstr "停止使用导入的图标并回退到选定的 Blender 图标"
+
+#: operators/favorites.py:133
+msgctxt "Operator"
+msgid "Toggle Favorite"
+msgstr "切换收藏"

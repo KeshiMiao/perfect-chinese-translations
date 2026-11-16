@@ -1,0 +1,604 @@
+# perfect-chinese: 1
+# id: flatcut
+# kind: addon
+# module: bl_ext.blender_org.flatcut
+# name: Flatcut
+# name_zh: 平面切割
+# translator: KeshiMiao
+# category: Import-Export
+# supported_versions: >=5.0.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: gcode_gen/settings.py:156
+msgid "Additional depth beyond material thickness to ensure full cut-through (mm)"
+msgstr "超出材料厚度的额外深度，确保完全切透（mm）"
+
+#: gcode_gen/settings.py:293
+msgid "Auto-Detect Slice Face"
+msgstr "自动检测切片面"
+
+#: gcode_gen/settings.py:286
+msgid "Back Left"
+msgstr "后左"
+
+#: gcode_gen/settings.py:287
+msgid "Back Right"
+msgstr "后右"
+
+#: gcode_gen/settings.py:286
+msgid "Back-left corner as origin"
+msgstr "以后左角为原点"
+
+#: gcode_gen/settings.py:287
+msgid "Back-right corner as origin"
+msgstr "以后右角为原点"
+
+#: gcode_gen/operators.py:200
+msgid "Beam Kerf Width (mm)"
+msgstr "光束切缝宽度（mm）"
+
+#: gcode_gen/settings.py:60
+msgid "CNC Mill"
+msgstr "CNC 铣床"
+
+#: gcode_gen/operators.py:172
+msgid "CNC Mode: spindle_speed = RPM"
+msgstr "CNC 模式：spindle_speed = RPM"
+
+#: gcode_gen/settings.py:60
+msgid "CNC milling machine with Z-axis depth control"
+msgstr "带 Z 轴深度控制的 CNC 铣床"
+
+#: gcode_gen/settings.py:110
+msgid "CNC: End mill diameter (mm) / Laser: Beam kerf width (mm)"
+msgstr "CNC：立铣刀直径（mm）/ 激光：光束切缝宽度（mm）"
+
+#: gcode_gen/settings.py:288
+msgid "Center"
+msgstr "中心"
+
+#: gcode_gen/settings.py:288
+msgid "Center of work area as origin"
+msgstr "以工作区中心为原点"
+
+#: gcode_gen/settings.py:199
+msgid "Cut V-Grooves"
+msgstr "切割 V 形槽"
+
+#: gcode_gen/settings.py:74
+msgid "Cutting feed rate (mm/min)"
+msgstr "切削进给速度（mm/min）"
+
+#: gcode_gen/settings.py:234
+msgid "Cutting feed rate for grooves (mm/min)"
+msgstr "槽切削进给速度（mm/min）"
+
+#: gcode_gen/settings.py:99
+msgid "Depth of cut per pass (mm)"
+msgstr "每刀切削深度（mm）"
+
+#: gcode_gen/settings.py:199
+msgid "Detect the V-grooves modelled into the top face of each part and cut them before the outline. Turn off for parts whose tilted faces are not grooves"
+msgstr "检测各零件顶面建模的 V 形槽，并在轮廓切割前先切割；若零件的倾斜面不是槽，请关闭"
+
+#: gcode_gen/settings.py:67
+msgid "Directory to save G-code files"
+msgstr "保存 G-code 文件的目录"
+
+#: gcode_gen/settings.py:166
+msgid "Enable Tabs"
+msgstr "启用凸片"
+
+#: ui_panel.py:56
+msgid "Enter Edit Mode on a mesh to select faces"
+msgstr "进入网格编辑模式以选择面"
+
+#: gcode_gen/operators.py:94
+msgid "Enter a preset name"
+msgstr "输入预设名称"
+
+#: ui_panel.py:84
+msgid "Export Workflow:"
+msgstr "导出流程："
+
+#: gcode_gen/settings.py:156
+msgid "Extra Depth"
+msgstr "额外深度"
+
+#: gcode_gen/operators.py:1676
+msgid "Failed to build SVG"
+msgstr "构建 SVG 失败"
+
+#: gcode_gen/settings.py:74
+msgid "Feed Rate (Cut)"
+msgstr "进给速度（切割）"
+
+#: gcode_gen/settings.py:234
+msgid "Feed Rate (Groove Cut)"
+msgstr "进给速度（槽切割）"
+
+#: gcode_gen/settings.py:242
+msgid "Feed Rate (Groove Plunge)"
+msgstr "进给速度（槽下刀）"
+
+#: gcode_gen/settings.py:82
+msgid "Feed Rate (Plunge)"
+msgstr "进给速度（下刀）"
+
+#: gcode_gen/operators.py:208
+msgid "Feed Rates"
+msgstr "进给速度"
+
+#: ui_panel.py:26
+#: ui_panel.py:30
+msgid "Flatcut"
+msgstr "Flatcut"
+
+#: gcode_gen/settings.py:284
+msgid "Front Left"
+msgstr "前左"
+
+#: gcode_gen/settings.py:285
+msgid "Front Right"
+msgstr "前右"
+
+#: gcode_gen/settings.py:284
+msgid "Front-left corner as origin (default)"
+msgstr "以前左角为原点（默认）"
+
+#: gcode_gen/settings.py:285
+msgid "Front-right corner as origin"
+msgstr "以前右角为原点"
+
+#: gcode_gen/settings.py:214
+msgid "Groove Min. Remaining Wall"
+msgstr "槽最小剩余壁厚"
+
+#: gcode_gen/settings.py:224
+msgid "Groove Stepover"
+msgstr "开槽步距"
+
+#: gcode_gen/settings.py:172
+msgid "Height of tabs from bottom of material (mm)"
+msgstr "凸片距材料底部的高度（mm）"
+
+#: gcode_gen/settings.py:271
+msgid "Height of the work area for packing objects (mm)"
+msgstr "用于排布物体的工作区高度（mm）"
+
+#: gcode_gen/settings.py:206
+msgid "Included angle of the V-bit used for grooves (degrees)"
+msgstr "用于开槽的 V 形刀夹角（度）"
+
+#: gcode_gen/operators.py:249
+msgid "Largest flat face of plate-like objects"
+msgstr "板状物体的最大平面"
+
+#: gcode_gen/settings.py:61
+msgid "Laser Cutter"
+msgstr "激光切割机"
+
+#: gcode_gen/operators.py:169
+msgid "Laser Mode: spindle_speed = laser power"
+msgstr "激光模式：spindle_speed = 激光功率"
+
+#: gcode_gen/settings.py:130
+msgid "Laser Power"
+msgstr "激光功率"
+
+#: gcode_gen/operators.py:202
+msgid "Laser Power (0-255 or %)"
+msgstr "激光功率（0-255 或 %）"
+
+#: gcode_gen/settings.py:139
+msgid "Laser Speed"
+msgstr "激光速度"
+
+#: gcode_gen/settings.py:61
+msgid "Laser cutter with power control (no Z-axis depth)"
+msgstr "带功率控制的激光切割机（无 Z 轴深度）"
+
+#: gcode_gen/settings.py:139
+msgid "Laser cutting/engraving speed (mm/min)"
+msgstr "激光切割/雕刻速度（mm/min）"
+
+#: gcode_gen/settings.py:130
+msgid "Laser power percentage (0-100%)"
+msgstr "激光功率百分比（0-100%）"
+
+#: gcode_gen/settings.py:166
+msgid "Leave small tabs on outer boundary to prevent part from detaching during cutting"
+msgstr "在外边界保留小凸片，防止切割时零件脱落"
+
+#: gcode_gen/operators.py:164
+msgid "Machine Configuration"
+msgstr "机器配置"
+
+#: gcode_gen/settings.py:56
+msgid "Machine Type"
+msgstr "机器类型"
+
+#: gcode_gen/operators.py:218
+msgid "Mill Settings"
+msgstr "铣削设置"
+
+#: gcode_gen/settings.py:214
+msgid "Minimum material thickness to leave uncut below a groove, so the board is never cut all the way through (mm)"
+msgstr "槽下方保留不切的最小材料厚度，避免板材被完全切透（mm）"
+
+#: gcode_gen/settings.py:50
+msgid "Name for saving/loading presets"
+msgstr "用于保存/加载预设的名称"
+
+#: slice_face/operators.py:46
+#: slice_face/operators.py:74
+msgid "No active mesh object"
+msgstr "没有活动的网格物体"
+
+#: gcode_gen/operators.py:1665
+msgid "No contours could be extracted"
+msgstr "无法提取轮廓"
+
+#: slice_face/operators.py:59
+msgid "No faces selected or failed to save"
+msgstr "未选择面或保存失败"
+
+#: gcode_gen/operators.py:728
+msgid "No mesh objects found in preview scene"
+msgstr "预览场景中未找到网格物体"
+
+#: slice_face/operators.py:126
+msgid "No mesh objects selected"
+msgstr "未选择网格物体"
+
+#: gcode_gen/operators.py:284
+msgid "No mesh objects with slice face found in scene. Select objects to auto-detect their slice face."
+msgstr "场景中未找到带切片面的网格物体。选择物体以自动检测其切片面。"
+
+#: gcode_gen/operators.py:443
+msgid "No objects found to arrange"
+msgstr "未找到可排列的物体"
+
+#: gcode_gen/operators.py:1634
+msgid "No prepared objects found. Run Step 1 first."
+msgstr "未找到已准备的物体。请先运行第 1 步。"
+
+#: gcode_gen/operators.py:1051
+msgid "No toolpaths found. Run Step 3 first to generate toolpaths."
+msgstr "未找到刀具路径。请先运行第 3 步生成刀具路径。"
+
+#: gcode_gen/operators.py:1092
+msgid "No valid toolpath meshes found"
+msgstr "未找到有效的刀具路径网格"
+
+#: gcode_gen/operators.py:1040
+#: gcode_gen/operators.py:1698
+msgid "Not in G-code preview scene"
+msgstr "不在 G 代码预览场景中"
+
+#: gcode_gen/operators.py:436
+#: gcode_gen/operators.py:650
+msgid "Not in preview scene. Run Step 1 first."
+msgstr "不在预览场景中。请先运行第 1 步。"
+
+#: gcode_gen/settings.py:190
+msgid "Number of tabs per outer boundary contour"
+msgstr "每个外边界轮廓的凸片数量"
+
+#: slice_face/operators.py:50
+msgid "Object must be in Edit Mode. Select faces first, then save."
+msgstr "物体必须处于编辑模式。请先选择面，然后保存。"
+
+#: gcode_gen/settings.py:67
+msgid "Output Path"
+msgstr "输出路径"
+
+#: gcode_gen/operators.py:252
+msgid "Packing"
+msgstr "排样"
+
+#: gcode_gen/settings.py:82
+msgid "Plunge feed rate (mm/min)"
+msgstr "下刀进给速度（mm/min）"
+
+#: gcode_gen/settings.py:242
+msgid "Plunge feed rate for grooves (mm/min)"
+msgstr "凹槽下刀进给速度（mm/min）"
+
+#: gcode_gen/settings.py:50
+msgid "Preset Name"
+msgstr "预设名称"
+
+#: gcode_gen/operators.py:181
+msgid "Presets"
+msgstr "预设"
+
+#: ui_panel.py:83
+msgid "Preview Scene Active"
+msgstr "预览场景已启用"
+
+#: gcode_gen/settings.py:256
+msgid "Retract Between Passes"
+msgstr "分层间抬刀"
+
+#: gcode_gen/settings.py:256
+msgid "Retract to safe height between depth passes of the same contour. Disable for faster cutting when multiple passes on the same contour"
+msgstr "同一轮廓的各层深度切削之间抬刀至安全高度。对同一轮廓进行多次走刀时禁用可加快切削"
+
+#: gcode_gen/operators.py:1726
+msgid "Returned to original scene"
+msgstr "已返回原场景"
+
+#: gcode_gen/settings.py:90
+msgid "Safe Height"
+msgstr "安全高度"
+
+#: gcode_gen/settings.py:90
+msgid "Safe Z height for rapid moves (mm)"
+msgstr "快速移动的安全 Z 高度（mm）"
+
+#: gcode_gen/settings.py:250
+msgid "Show Section"
+msgstr "显示设置区块"
+
+#: gcode_gen/settings.py:250
+msgid "Show/hide settings and export section"
+msgstr "显示/隐藏设置与导出区块"
+
+#: gcode_gen/settings.py:224
+msgid "Sideways offset between passes when a groove is wider than the V-bit: each pass steps up the groove's wall, so smaller values give finer steps (mm)"
+msgstr "当凹槽宽度大于 V 型刀时，各走刀之间的横向偏移：每次走刀沿凹槽壁逐步上移，数值越小步进越精细（mm）"
+
+#: gcode_gen/operators.py:246
+msgid "Slice Face"
+msgstr "切片面"
+
+#: ui_panel.py:54
+msgid "Slice Face Setup:"
+msgstr "切片面设置："
+
+#: gcode_gen/settings.py:302
+msgid "Slice Plane"
+msgstr "切片平面"
+
+#: gcode_gen/settings.py:308
+msgid "Slice at X=0 (side face)"
+msgstr "在 X=0 处切片（侧面）"
+
+#: gcode_gen/settings.py:307
+msgid "Slice at Y=0 (front face)"
+msgstr "在 Y=0 处切片（前面）"
+
+#: gcode_gen/settings.py:306
+msgid "Slice at Z=0 (bottom face)"
+msgstr "在 Z=0 处切片（底面）"
+
+#: gcode_gen/settings.py:121
+msgid "Spindle Speed"
+msgstr "主轴转速"
+
+#: gcode_gen/settings.py:121
+msgid "Spindle speed (RPM)"
+msgstr "主轴转速（RPM）"
+
+#: gcode_gen/settings.py:280
+msgid "Start Position"
+msgstr "起始位置"
+
+#: gcode_gen/operators.py:257
+msgid "Start Position (G-code X0 Y0)"
+msgstr "起始位置（G 代码 X0 Y0）"
+
+#: gcode_gen/settings.py:99
+msgid "Step Down"
+msgstr "分层深度"
+
+#: gcode_gen/settings.py:190
+msgid "Tab Count"
+msgstr "凸片数量"
+
+#: gcode_gen/settings.py:172
+msgid "Tab Height"
+msgstr "凸片高度"
+
+#: gcode_gen/settings.py:181
+msgid "Tab Width"
+msgstr "凸片宽度"
+
+#: gcode_gen/operators.py:227
+msgid "Tabs"
+msgstr "凸片"
+
+#: gcode_gen/settings.py:110
+msgid "Tool Diameter"
+msgstr "刀具直径"
+
+#: gcode_gen/operators.py:196
+msgid "Tool Settings"
+msgstr "刀具设置"
+
+#: gcode_gen/settings.py:147
+msgid "Total Depth"
+msgstr "总深度"
+
+#: gcode_gen/settings.py:147
+msgid "Total cutting depth (mm)"
+msgstr "总切削深度（mm）"
+
+#: gcode_gen/settings.py:56
+msgid "Type of CNC machine"
+msgstr "CNC 机床类型"
+
+#: gcode_gen/operators.py:201
+msgid "Typical: 0.1-0.3mm (test & adjust)"
+msgstr "典型值：0.1-0.3mm（请测试并调整）"
+
+#: gcode_gen/operators.py:235
+msgid "V-Grooves"
+msgstr "V 型槽"
+
+#: gcode_gen/settings.py:206
+msgid "V-bit Angle"
+msgstr "V 型刀角度"
+
+#: gcode_gen/settings.py:293
+msgid "When Flatten & Arrange runs on a selected object with no slice face saved, detect the largest flat face automatically and save it"
+msgstr "当对未保存切片面的选中物体运行「展平并排列」时，自动检测最大的平面并保存"
+
+#: gcode_gen/settings.py:302
+msgid "Which plane to use for slicing the object"
+msgstr "用于切片物体的平面"
+
+#: gcode_gen/settings.py:181
+msgid "Width of each tab along the contour (mm)"
+msgstr "每个凸片沿轮廓的宽度（mm）"
+
+#: gcode_gen/settings.py:262
+msgid "Width of the work area for packing objects (mm)"
+msgstr "用于排样物体的工作区域宽度（mm）"
+
+#: gcode_gen/settings.py:271
+msgid "Work Area Height"
+msgstr "工作区域高度"
+
+#: gcode_gen/settings.py:262
+msgid "Work Area Width"
+msgstr "工作区域宽度"
+
+#: gcode_gen/settings.py:280
+msgid "Work area position used as machine origin (X0 Y0)"
+msgstr "用作机床原点（X0 Y0）的工作区域位置"
+
+#: gcode_gen/settings.py:306
+msgid "XY (Bottom)"
+msgstr "XY（底面）"
+
+#: gcode_gen/settings.py:307
+msgid "XZ (Front)"
+msgstr "XZ（前面）"
+
+#: gcode_gen/settings.py:308
+msgid "YZ (Side)"
+msgstr "YZ（侧面）"
+
+#: gcode_gen/operators.py:173
+msgid "step_down = depth per pass"
+msgstr "step_down = 每次走刀深度"
+
+#: gcode_gen/operators.py:170
+msgid "step_down is ignored (single pass)"
+msgstr "step_down 被忽略（单次走刀）"
+
+#: ui_panel.py:90
+msgctxt "Operator"
+msgid "1. Flatten & Arrange"
+msgstr "1. 展平并排列"
+
+#: ui_panel.py:95
+msgctxt "Operator"
+msgid "2. Pack Objects"
+msgstr "2. 打包物体"
+
+#: ui_panel.py:99
+msgctxt "Operator"
+msgid "3. Add Toolpaths"
+msgstr "3. 添加刀具路径"
+
+#: ui_panel.py:103
+msgctxt "Operator"
+msgid "4. Download G-code"
+msgstr "4. 下载 G 代码"
+
+#: ui_panel.py:112
+#: gcode_gen/operators.py:1690
+msgctxt "Operator"
+msgid "Cancel and Return"
+msgstr "取消并返回"
+
+#: ui_panel.py:68
+#: slice_face/operators.py:118
+msgctxt "Operator"
+msgid "Clear Slice Face"
+msgstr "清除切面"
+
+#: slice_face/operators.py:119
+msgctxt "Operator"
+msgid "Clear the saved slice face data for selected objects"
+msgstr "清除所选物体已保存的切面数据"
+
+#: gcode_gen/operators.py:125
+msgctxt "Operator"
+msgid "Delete Preset"
+msgstr "删除预设"
+
+#: slice_face/operators.py:67
+msgctxt "Operator"
+msgid "Enter Edit Mode and select the faces saved as the slice face"
+msgstr "进入编辑模式并选择已保存为切面的面"
+
+#: gcode_gen/operators.py:1611
+msgctxt "Operator"
+msgid "Export SVG"
+msgstr "导出 SVG"
+
+#: ui_panel.py:107
+msgctxt "Operator"
+msgid "Export SVG (Top View)"
+msgstr "导出 SVG（顶视图）"
+
+#: gcode_gen/operators.py:105
+msgctxt "Operator"
+msgid "Load Preset"
+msgstr "加载预设"
+
+#: gcode_gen/operators.py:86
+msgctxt "Operator"
+msgid "Save Preset"
+msgstr "保存预设"
+
+#: ui_panel.py:59
+#: slice_face/operators.py:38
+msgctxt "Operator"
+msgid "Save Slice Face"
+msgstr "保存切面"
+
+#: slice_face/operators.py:39
+msgctxt "Operator"
+msgid "Save the currently selected faces in Edit Mode as the slice face for this object"
+msgstr "将编辑模式下当前选中的面保存为此物体的切面"
+
+#: ui_panel.py:66
+#: slice_face/operators.py:66
+msgctxt "Operator"
+msgid "Select Slice Face"
+msgstr "选择切面"
+
+#: ui_panel.py:47
+#: gcode_gen/operators.py:149
+msgctxt "Operator"
+msgid "Settings"
+msgstr "设置"
+
+#: gcode_gen/operators.py:264
+msgctxt "Operator"
+msgid "Step 1: Flatten & Arrange"
+msgstr "第 1 步：展平并排列"
+
+#: gcode_gen/operators.py:426
+msgctxt "Operator"
+msgid "Step 2: Pack Objects"
+msgstr "第 2 步：打包物体"
+
+#: gcode_gen/operators.py:642
+msgctxt "Operator"
+msgid "Step 3: Add Toolpaths"
+msgstr "第 3 步：添加刀具路径"
+
+#: gcode_gen/operators.py:1014
+msgctxt "Operator"
+msgid "Step 4: Download G-code"
+msgstr "第 4 步：下载 G 代码"

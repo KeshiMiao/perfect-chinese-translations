@@ -1,0 +1,206 @@
+# perfect-chinese: 1
+# id: atlas2mesh
+# kind: addon
+# module: bl_ext.blender_org.atlas2mesh
+# name: Atlas2Mesh
+# name_zh: 图集转网格
+# translator: KeshiMiao
+# category: 
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: properties.py:34
+msgid "Atlas"
+msgstr "图集"
+
+#: properties.py:34
+msgid "Atlas texture containing many sprite shapes on transparency"
+msgstr "包含许多精灵形状（透明区域）的图集纹理"
+
+#: ui.py:148
+#: ui.py:152
+msgid "Atlas2Mesh"
+msgstr "Atlas2Mesh"
+
+#: properties.py:79
+msgid "Auto-filled from the atlas filename when you load one (map-type/resolution suffixes like _4K_Opacity are stripped); edit freely to override"
+msgstr "加载图集时根据文件名自动填充（会去除 _4K_Opacity 之类的贴图类型/分辨率后缀）；可随意修改以覆盖"
+
+#: ui.py:200
+msgid "BHiMAX"
+msgstr "BHiMAX"
+
+#: properties.py:27
+msgid "Build This One"
+msgstr "构建此区域"
+
+#: properties.py:74
+msgid "Collection Name"
+msgstr "集合名称"
+
+#: operators.py:80
+msgid "Detect regions first"
+msgstr "请先检测区域"
+
+#: properties.py:45
+msgid "Edge Offset (px)"
+msgstr "边缘偏移（像素）"
+
+#: properties.py:69
+msgid "Grid spacing between generated objects, used only when 'Position As In Atlas' is off"
+msgstr "生成物体之间的网格间距，仅在「按图集位置」关闭时使用"
+
+#: properties.py:40
+msgid "Higher values produce a lower-poly outline that follows the alpha shape less precisely; 0 keeps every traced point"
+msgstr "数值越高，轮廓多边形越少、贴合 alpha 形状越不精确；0 保留所有追踪点"
+
+#: ui.py:43
+msgid "Include"
+msgstr "包含"
+
+#: properties.py:27
+msgid "Include this region when Build Meshes runs"
+msgstr "运行构建网格时包含此区域"
+
+#: ui.py:74
+msgid "Layout"
+msgstr "布局"
+
+#: properties.py:69
+msgid "Layout Spacing"
+msgstr "布局间距"
+
+#: operators.py:45
+msgid "Load an atlas image first"
+msgstr "请先加载图集图像"
+
+#: ui.py:103
+msgid "Load an atlas to get started"
+msgstr "加载图集以开始"
+
+#: properties.py:79
+msgid "Material Name"
+msgstr "材质名称"
+
+#: properties.py:74
+msgid "Meshes are created inside a collection with this name (created if it doesn't exist yet)"
+msgstr "网格将创建在以此命名的集合中（若不存在则新建）"
+
+#: ui.py:84
+msgid "Naming"
+msgstr "命名"
+
+#: ui.py:107
+msgid "No alpha channel - treated as opacity map"
+msgstr "无 alpha 通道——按不透明度贴图处理"
+
+#: operators.py:83
+msgid "No regions are ticked to build"
+msgstr "未勾选任何要构建的区域"
+
+#: ui.py:117
+msgid "No regions detected yet"
+msgstr "尚未检测到区域"
+
+#: ui.py:18
+msgid "Nothing loaded yet"
+msgstr "尚未加载任何内容"
+
+#: properties.py:40
+msgid "Outline Simplify (px)"
+msgstr "轮廓简化（像素）"
+
+#: properties.py:52
+msgid "Pixels Per Unit"
+msgstr "每单位像素数"
+
+#: properties.py:63
+msgid "Place each generated mesh at the same relative position it had on the atlas sheet (scaled by Pixels Per Unit), instead of arranging them in a plain grid"
+msgstr "将每个生成的网格放在其图集图纸上的相同相对位置（按每单位像素数缩放），而不是排列成普通网格"
+
+#: properties.py:63
+msgid "Position As In Atlas"
+msgstr "按图集位置"
+
+#: properties.py:45
+msgid "Positive shrinks each traced silhouette inward by this many pixels (trims stray edge pixels/bleed); negative grows it outward. 0 traces the alpha edge exactly"
+msgstr "正值会将每个追踪的轮廓向内收缩该像素数（修剪边缘杂散像素/溢出）；负值向外扩张。0 精确沿 alpha 边缘追踪"
+
+#: ui.py:25
+msgid "Run Detect Regions to populate this grid"
+msgstr "运行检测区域以填充此网格"
+
+#: ui.py:57
+msgid "Scale"
+msgstr "缩放"
+
+#: properties.py:52
+msgid "Sets the real-world scale: this many atlas PIXELS = 1 Blender unit (1 metre by default scene scale). Every shape is scaled by the same factor, so a shape that's twice as many pixels as another stays twice as big in the scene, matching the atlas proportions. Raise it to make everything smaller, lower it to make everything bigger"
+msgstr "设置真实世界比例：该数量的图集像素 = 1 个 Blender 单位（默认场景比例为 1 米）。所有形状按同一系数缩放，因此像素数翻倍的形状在场景中也保持两倍大小，与图集比例一致。调高会让所有物体变小，调低会让所有物体变大"
+
+#: properties.py:87
+msgid "Show Build Settings"
+msgstr "显示构建设置"
+
+#: properties.py:86
+msgid "Show Preview"
+msgstr "显示预览"
+
+#: ui.py:48
+msgid "Silhouette"
+msgstr "轮廓"
+
+#: operators.py:24
+msgid "This image has no alpha channel (e.g. JPG) - detection will fall back to using its brightness as opacity"
+msgstr "此图像没有 alpha 通道（例如 JPG）——检测将回退为使用其亮度作为不透明度"
+
+#: ui.py:29
+msgid "Traced Shapes"
+msgstr "已追踪形状"
+
+#: ui.py:164
+#: ui.py:221
+msgctxt "Operator"
+msgid "Atlas2Mesh"
+msgstr "Atlas2Mesh"
+
+#: operators.py:73
+#: ui.py:131
+msgctxt "Operator"
+msgid "Build Meshes"
+msgstr "构建网格"
+
+#: operators.py:74
+msgctxt "Operator"
+msgid "Create one mesh per detected region, shaped to its alpha silhouette"
+msgstr "为每个检测到的区域创建一个网格，形状贴合其 alpha 轮廓"
+
+#: operators.py:38
+#: ui.py:127
+msgctxt "Operator"
+msgid "Detect Regions"
+msgstr "检测区域"
+
+#: operators.py:11
+msgctxt "Operator"
+msgid "Load Atlas"
+msgstr "加载图集"
+
+#: operators.py:12
+msgctxt "Operator"
+msgid "Load an atlas texture (many sprites on one transparent sheet)"
+msgstr "加载图集纹理（一张透明图纸上包含许多精灵）"
+
+#: ui.py:165
+msgctxt "Operator"
+msgid "Open Atlas2Mesh in a floating popup"
+msgstr "在浮动弹窗中打开 Atlas2Mesh"
+
+#: operators.py:39
+msgctxt "Operator"
+msgid "Scan the atlas opacity mask for separate sprite blobs"
+msgstr "扫描图集不透明度遮罩，查找独立的精灵块"

@@ -1,0 +1,144 @@
+# perfect-chinese: 1
+# id: locuman
+# kind: addon
+# module: bl_ext.blender_org.LocUMan
+# name: Local User Manual File URL
+# name_zh: 本地用户手册链接
+# translator: KeshiMiao
+# category: User Interface
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: preferences.py:100
+msgid "404.html not found in this folder!"
+msgstr "在此文件夹中未找到 404.html！"
+
+#: operators.py:63
+msgid "Add-on preferences are not available"
+msgstr "插件偏好设置不可用"
+
+#: operators.py:96
+msgid "Cannot download: internet access is disabled. Enable it in Edit > Preferences > System > Network"
+msgstr "无法下载：网络访问已禁用。请在 编辑 > 偏好设置 > 系统 > 网络 中启用"
+
+#: operators.py:89
+msgid "Cannot remove existing archive. It may be in use."
+msgstr "无法删除现有压缩包。它可能正在使用中。"
+
+#: preferences.py:95
+msgid "Download the manual using the button above."
+msgstr "使用上方按钮下载手册。"
+
+#: operators.py:103
+msgid "Downloading manual..."
+msgstr "正在下载手册..."
+
+#: operators.py:148
+msgid "Extracting manual..."
+msgstr "正在解压手册..."
+
+#: operators.py:44
+msgid "Force Download"
+msgstr "强制下载"
+
+#: operators.py:50
+msgid "Force Extract"
+msgstr "强制解压"
+
+#: preferences.py:30
+msgid "Local Manual Folder"
+msgstr "本地手册文件夹"
+
+#: preferences.py:104
+msgid "Local manual prefix:"
+msgstr "本地手册前缀："
+
+#: preferences.py:90
+msgid "No local manual path set!"
+msgstr "未设置本地手册路径！"
+
+#: preferences.py:24
+msgid "Override online manual URLs with a local manual copy."
+msgstr "用本地手册副本覆盖在线手册 URL。"
+
+#: preferences.py:93
+msgid "Path does not exist!"
+msgstr "路径不存在！"
+
+#: preferences.py:30
+msgid "Path to the folder containing the local manual HTML files."
+msgstr "包含本地手册 HTML 文件的文件夹路径。"
+
+#: operators.py:44
+msgid "Re-download the manual archive even if it already exists"
+msgstr "即使手册压缩包已存在也重新下载"
+
+#: operators.py:50
+msgid "Re-extract the manual archive even if already extracted"
+msgstr "即使手册压缩包已解压也重新解压"
+
+#: preferences.py:70
+msgid "The manual folder must contain a 404.html file for auto-detection"
+msgstr "手册文件夹必须包含 404.html 文件才能自动检测"
+
+#: preferences.py:24
+msgid "Use Local Manual"
+msgstr "使用本地手册"
+
+#: preferences.py:115
+msgid "Using Blender's default URL prefix."
+msgstr "正在使用 Blender 的默认 URL 前缀。"
+
+#: utils.py:223
+#: utils.py:227
+msgid "src/branch/main/README.md#user-guide-"
+msgstr "src/branch/main/README.md#user-guide-"
+
+#: operators.py:41
+msgctxt "Operator"
+msgid "Auto Download Blender Manual"
+msgstr "自动下载 Blender 手册"
+
+#: operators.py:28
+msgctxt "Operator"
+msgid "Copy Manual Path"
+msgstr "复制手册路径"
+
+#: operators.py:29
+msgctxt "Operator"
+msgid "Copy the auto-detection path to clipboard"
+msgstr "将自动检测路径复制到剪贴板"
+
+#: operators.py:42
+msgctxt "Operator"
+msgid "Download, extract and set the Blender manual locally"
+msgstr "下载并解压 Blender 手册并设置到本地"
+
+#: preferences.py:117
+msgctxt "Operator"
+msgid "Open download folder in file browser"
+msgstr "在文件浏览器中打开下载文件夹"
+
+#: preferences.py:109
+msgctxt "Operator"
+msgid "Open local manual"
+msgstr "打开本地手册"
+
+#: preferences.py:65
+msgctxt "Operator"
+msgid "Open online manual download page"
+msgstr "打开在线手册下载页面"
+
+#: preferences.py:58
+msgctxt "Operator"
+msgid "Re-extract"
+msgstr "重新解压"
+
+#: preferences.py:51
+msgctxt "Operator"
+msgid "Redownload"
+msgstr "重新下载"

@@ -1,0 +1,692 @@
+# perfect-chinese: 1
+# id: unitypackage_loader
+# kind: addon
+# module: bl_ext.blender_org.unitypackage_loader
+# name: Unitypackage Importer
+# name_zh: Unitypackage 导入
+# translator: KeshiMiao
+# category: Import-Export
+# supported_versions: >=4.5.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: ui/preferences.py:18
+msgid "<blend dir>/textures/<package>/ (falls back to cache if unsaved)"
+msgstr "<blend 目录>/textures/<package>/（未保存时回退到缓存）"
+
+#: operators/rebuild_material.py:42
+msgid "Active Material"
+msgstr "活动材质"
+
+#: operators/import_package.py:102
+msgid "Add a Solidify outline to meshes whose Unity material has outline settings"
+msgstr "为 Unity 材质带描边设置的网格添加实体化描边"
+
+#: ui/preferences.py:19
+msgid "Add-on Cache"
+msgstr "插件缓存"
+
+#: ui/preferences.py:24
+msgid "All Models"
+msgstr "所有模型"
+
+#: operators/rebuild_material.py:41
+msgid "All materials on the selected meshes"
+msgstr "所选网格上的所有材质"
+
+#: operators/select_models.py:303
+msgid "Also Import"
+msgstr "同时导入"
+
+#: operators/import_package.py:126
+msgid "Also load the package's other images (masks, textures of materials the imported items don't use)"
+msgstr "同时加载包中的其他图像（遮罩、导入项未使用的材质贴图）"
+
+#: ui/preferences.py:12
+msgid "Always build a Principled BSDF material"
+msgstr "始终构建 Principled BSDF 材质"
+
+#: operators/import_package.py:74
+msgid "Append objects from .blend files inside the package. A .blend can contain Python scripts (drivers, registered text blocks) that run when 'Auto Run Python Scripts' is enabled; turn this on only for packages you trust"
+msgstr "从包内的 .blend 文件追加物体。.blend 可能包含 Python 脚本（驱动器、已注册的文本块），在启用「自动运行 Python 脚本」时会执行；仅对信任的包开启"
+
+#: operators/rebuild_material.py:38
+msgid "Apply To"
+msgstr "应用到"
+
+#: operators/import_package.py:36
+#: operators/select_models.py:299
+msgid "Arrange"
+msgstr "排列"
+
+#: ui/preferences.py:42
+msgid "Arrange Prefabs"
+msgstr "排列预制体"
+
+#: ui/preferences.py:23
+msgid "Ask"
+msgstr "询问"
+
+#: operators/import_package.py:56
+#: ui/preferences.py:11
+msgid "Auto"
+msgstr "自动"
+
+#: operators/import_package.py:90
+#: operators/rebuild_material.py:47
+msgid "Backface Culling"
+msgstr "背面剔除"
+
+#: ui/preferences.py:18
+msgid "Beside .blend"
+msgstr ".blend 旁边"
+
+#: operators/import_package.py:108
+msgid "Bundled .blend Materials"
+msgstr "随附 .blend 材质"
+
+#: operators/import_package.py:175
+msgid "Bundled .blend files may contain Python scripts."
+msgstr "随附的 .blend 文件可能包含 Python 脚本。"
+
+#: operators/select_models.py:445
+msgid "Cameras"
+msgstr "摄像机"
+
+#: ui/preferences.py:20
+#: ui/preferences.py:52
+msgid "Custom Path"
+msgstr "自定义路径"
+
+#: operators/select_models.py:454
+msgid "Decals"
+msgstr "贴花"
+
+#: operators/import_package.py:47
+msgid "Do not import the parts of a model file that the Unity prefabs or scene do not use (scenes and prefabs)"
+msgstr "不导入 Unity 预制体或场景未使用的模型文件部分（场景和预制体）"
+
+#: operators/select_models.py:470
+msgid "Do not import the parts of a model file that the Unity prefabs or scene do not use, such as the other pieces of a model file that bundles many props. Turn off to import them hidden, as before"
+msgstr "不导入 Unity 预制体或场景未使用的模型文件部分，例如包含多个道具的模型文件中的其他部件。关闭此项则像以前一样以隐藏方式导入"
+
+#: operators/import_package.py:96
+#: operators/rebuild_material.py:49
+msgid "Emission"
+msgstr "自发光"
+
+#: operators/rebuild_material.py:115
+msgid "Enable"
+msgstr "启用"
+
+#: operators/import_package.py:176
+msgid "Enable only for packages you trust."
+msgstr "仅对信任的包启用。"
+
+#: operators/select_models.py:446
+msgid "Exposure"
+msgstr "曝光"
+
+#: ui/preferences.py:59
+msgid "Extra Shader Table"
+msgstr "额外着色器表"
+
+#: operators/import_package.py:123
+#: ui/preferences.py:51
+msgid "Extract To"
+msgstr "解压到"
+
+#: operators/import_package.py:53
+msgid "FBX Importer"
+msgstr "FBX 导入器"
+
+#: ui/preferences.py:25
+msgid "First Model Only"
+msgstr "仅第一个模型"
+
+#: operators/import_package.py:86
+#: operators/rebuild_material.py:46
+msgid "Force Opaque"
+msgstr "强制不透明"
+
+#: operators/select_models.py:462
+msgid "Hide Distant Levels"
+msgstr "隐藏远端层级"
+
+#: operators/import_package.py:41
+msgid "Hide Lower LODs"
+msgstr "隐藏较低 LOD"
+
+#: operators/import_package.py:90
+#: ui/preferences.py:54
+msgid "Hide back faces where Unity's _Cull setting does (off: draw both sides of every material)"
+msgstr "按 Unity 的 _Cull 设置隐藏背面（关闭：绘制每个材质的双面）"
+
+#: operators/import_package.py:41
+msgid "Hide the distant LOD levels of Unity LODGroups (scenes and prefabs)"
+msgstr "隐藏 Unity LODGroup 的远端 LOD 层级（场景和预制体）"
+
+#: operators/select_models.py:462
+msgid "Hide the distant LOD levels of Unity LODGroups, so only the most detailed mesh is visible. The hidden objects stay in the file and keep their level in the 'unity_lod' custom property"
+msgstr "隐藏 Unity LODGroup 的远端 LOD 层级，仅显示最精细的网格。隐藏的物体保留在文件中，并在 'unity_lod' 自定义属性中保留其层级"
+
+#: ui/preferences.py:42
+msgid "How to place prefabs when importing more than one. The choice made in the selection dialog is saved here"
+msgstr "导入多个预制体时的放置方式。在选择对话框中所做的选择会保存在此处"
+
+#: operators/import_package.py:97
+msgid "If a material with the same name already exists in the file, use it instead of building a new one"
+msgstr "如果文件中已存在同名材质，则使用它而不新建"
+
+#: operators/import_package.py:73
+msgid "Ignore Leaf Bones"
+msgstr "忽略末端骨骼"
+
+#: operators/import_package.py:86
+msgid "Ignore Unity cutout/transparent settings"
+msgstr "忽略 Unity 的镂空/透明设置"
+
+#: operators/import_package.py:63
+msgid "Import .vrm models with the 'VRM format' add-on when it is installed (MToon, humanoid and spring bones are reproduced by the add-on). Otherwise the glTF importer is used and materials are rebuilt from .mat files"
+msgstr "安装「VRM 格式」插件时使用它导入 .vrm 模型（MToon、人形骨骼和弹簧骨骼由该插件还原）。否则使用 glTF 导入器并从 .mat 文件重建材质"
+
+#: operators/import_package.py:72
+msgid "Import Animation"
+msgstr "导入动画"
+
+#: operators/import_package.py:74
+msgid "Import Bundled .blend Files"
+msgstr "导入随附的 .blend 文件"
+
+#: operators/import_package.py:35
+#: operators/select_models.py:442
+msgid "Import Unit"
+msgstr "导入单位"
+
+#: operators/import_package.py:126
+#: ui/preferences.py:53
+msgid "Import Unreferenced Images"
+msgstr "导入未引用的图像"
+
+#: ui/preferences.py:24
+msgid "Import everything of the chosen import unit (every model file by default) without asking"
+msgstr "不询问，导入所选导入单位的全部内容（默认是每个模型文件）"
+
+#: ui/preferences.py:30
+msgid "Import model files (FBX etc.) as they are"
+msgstr "按原样导入模型文件（FBX 等）"
+
+#: ui/preferences.py:25
+msgid "Import only the first scene, prefab or model of the chosen import unit, without asking"
+msgstr "不询问，仅导入所选导入单位的第一个场景、预制体或模型"
+
+#: ui/preferences.py:29
+msgid "Import prefabs with their own material assignments; each prefab gets its own collection"
+msgstr "导入预制体及其自身的材质指定；每个预制体获得自己的集合"
+
+#: ui/panel_report.py:24
+msgid "Import report copied to clipboard"
+msgstr "导入报告已复制到剪贴板"
+
+#: ui/preferences.py:28
+msgid "Import scenes with prefabs and models placed as in Unity; each scene gets its own collection"
+msgstr "按 Unity 中的摆放导入场景、预制体和模型；每个场景获得自己的集合"
+
+#: operators/select_models.py:454
+msgid "Import the scene's URP / HDRP Decal Projectors as flat planes with the decal material, placed in the middle of each projector's box. Good for decals on flat walls and roads"
+msgstr "将场景的 URP / HDRP 贴花投影器导入为带贴花材质的平面，置于每个投影器盒体的中央。适合平面墙壁和道路上的贴花"
+
+#: operators/select_models.py:445
+msgid "Import the scene's cameras"
+msgstr "导入场景的摄像机"
+
+#: operators/select_models.py:444
+msgid "Import the scene's lights"
+msgstr "导入场景的灯光"
+
+#: ui/preferences.py:59
+msgid "JSON file with the same layout as shader_guids.json; entries are added to the built-in table"
+msgstr "与 shader_guids.json 布局相同的 JSON 文件；条目会添加到内置表中"
+
+#: operators/import_package.py:111
+msgid "Keep"
+msgstr "保留"
+
+#: ui/preferences.py:15
+msgid "Keep the FBX importer's materials, only attach Unity metadata"
+msgstr "保留 FBX 导入器的材质，仅附加 Unity 元数据"
+
+#: operators/select_models.py:313
+msgid "LODs"
+msgstr "LOD"
+
+#: operators/import_package.py:111
+msgid "Leave materials from bundled .blend files untouched (only attach Unity metadata)"
+msgstr "保持捆绑的 .blend 文件中的材质不变（仅附加 Unity 元数据）"
+
+#: operators/import_package.py:58
+msgid "Legacy (Python)"
+msgstr "旧版（Python）"
+
+#: operators/select_models.py:444
+msgid "Lights"
+msgstr "灯光"
+
+#: operators/import_package.py:85
+#: operators/rebuild_material.py:37
+msgid "Material Mode"
+msgstr "材质模式"
+
+#: operators/import_package.py:179
+#: ui/panel_report.py:83
+msgid "Materials"
+msgstr "材质"
+
+#: ui/panel_report.py:148
+msgid "Materials (selected meshes)"
+msgstr "材质（选中的网格）"
+
+#: ui/preferences.py:65
+msgid "Max Extract Size (MB)"
+msgstr "最大解压大小 (MB)"
+
+#: operators/import_package.py:165
+msgid "Model"
+msgstr "模型"
+
+#: operators/import_package.py:33
+#: ui/preferences.py:30
+msgid "Models"
+msgstr "模型"
+
+#: operators/outline_ops.py:17
+msgid "Multiplier from the Unity outline width to metres"
+msgstr "Unity 描边宽度到米的乘数"
+
+#: ui/preferences.py:15
+msgid "Names Only"
+msgstr "仅名称"
+
+#: operators/import_package.py:57
+msgid "New (C++)"
+msgstr "新版（C++）"
+
+#: ui/panel_report.py:54
+msgid "No import in this session yet"
+msgstr "本次会话尚未导入"
+
+#: ui/panel_report.py:95
+msgid "No materials were imported"
+msgstr "未导入任何材质"
+
+#: operators/import_package.py:221
+msgid "No package selected"
+msgstr "未选择包"
+
+#: operators/select_models.py:253
+#: operators/select_models.py:338
+msgid "No pending package to import"
+msgstr "没有待导入的包"
+
+#: operators/outline_ops.py:33
+msgid "No selected mesh has a Unity material with outline settings"
+msgstr "所选网格中没有带描边设置的 Unity 材质"
+
+#: blender/toon_group.py:27
+#: blender/toon_group.py:34
+msgid "NodeSocketColor"
+msgstr "NodeSocketColor"
+
+#: blender/toon_group.py:21
+msgid "NodeSocketFloat"
+msgstr "NodeSocketFloat"
+
+#: blender/toon_group.py:22
+msgid "NodeSocketVector"
+msgstr "NodeSocketVector"
+
+#: operators/import_package.py:95
+#: operators/rebuild_material.py:48
+msgid "Normal Maps"
+msgstr "法线贴图"
+
+#: operators/select_models.py:345
+msgid "Nothing selected to import"
+msgstr "未选择要导入的内容"
+
+#: operators/rebuild_material.py:42
+msgid "Only the active object's active material"
+msgstr "仅活动物体的活动材质"
+
+#: operators/import_package.py:107
+msgid "Outline Width Scale"
+msgstr "描边宽度缩放"
+
+#: operators/import_package.py:102
+msgid "Outlines (Solidify)"
+msgstr "描边（实体化）"
+
+#: ui/panel_report.py:155
+msgid "Outlines (selected meshes)"
+msgstr "描边（选中的网格）"
+
+#: operators/import_package.py:131
+msgid "Overwrite Extracted Files"
+msgstr "覆盖已解压文件"
+
+#: operators/import_package.py:125
+msgid "Pack Into .blend"
+msgstr "打包进 .blend"
+
+#: operators/import_package.py:124
+msgid "Path"
+msgstr "路径"
+
+#: ui/preferences.py:34
+msgid "Place every prefab at the origin"
+msgstr "将所有预制体放在原点"
+
+#: ui/preferences.py:33
+msgid "Place prefabs next to each other so they do not overlap"
+msgstr "将预制体并排放置以免重叠"
+
+#: ui/preferences.py:29
+msgid "Prefabs"
+msgstr "预制体"
+
+#: ui/preferences.py:12
+msgid "Principled BSDF"
+msgstr "Principled BSDF"
+
+#: ui/preferences.py:75
+msgid "Print the full import report to the system console"
+msgstr "将完整导入报告打印到系统控制台"
+
+#: operators/import_package.py:112
+msgid "Rebuild"
+msgstr "重建"
+
+#: operators/import_package.py:112
+msgid "Rebuild them from the Unity .mat like other models"
+msgstr "像其他模型一样从 Unity .mat 重建它们"
+
+#: ui/preferences.py:65
+msgid "Refuse to import when the files to extract from one package would exceed this total size (protects against packages that hide huge files behind gzip). 0 = no limit"
+msgstr "当从单个包中解压的文件超过此总大小时拒绝导入（防止包通过 gzip 隐藏超大文件）。0 = 不限制"
+
+#: operators/import_package.py:97
+msgid "Reuse Existing Materials"
+msgstr "复用现有材质"
+
+#: operators/import_package.py:116
+msgid "Save GUIDs and unmapped shader values as custom properties on the material"
+msgstr "将 GUID 和未映射的着色器值保存为材质上的自定义属性"
+
+#: operators/import_package.py:62
+msgid "Scale"
+msgstr "缩放"
+
+#: operators/select_models.py:446
+msgid "Scale the HDRP scene's lights by its Volume exposure, so the physical light units look as bright as in Unity. The Blender scene's exposure is left unchanged. Automatic exposure is approximated with its upper limit"
+msgstr "按 HDRP 场景的 Volume 曝光缩放其灯光，使物理灯光单位看起来像在 Unity 中一样亮。Blender 场景的曝光保持不变。自动曝光按其上限近似"
+
+#: operators/import_package.py:38
+msgid "Scene Cameras"
+msgstr "场景摄像机"
+
+#: operators/import_package.py:40
+msgid "Scene Decals"
+msgstr "场景贴花"
+
+#: operators/import_package.py:39
+msgid "Scene Exposure"
+msgstr "场景曝光"
+
+#: operators/import_package.py:37
+msgid "Scene Lights"
+msgstr "场景灯光"
+
+#: ui/preferences.py:28
+msgid "Scenes"
+msgstr "场景"
+
+#: operators/rebuild_material.py:41
+msgid "Selected Objects"
+msgstr "选中的物体"
+
+#: ui/preferences.py:41
+msgid "Selection Dialog"
+msgstr "选择对话框"
+
+#: ui/preferences.py:23
+msgid "Show the selection dialog when the package has more than one scene, prefab or model to choose from"
+msgstr "当包中有多个场景、预制体或模型可供选择时显示选择对话框"
+
+#: ui/preferences.py:33
+msgid "Side by Side"
+msgstr "并排"
+
+#: operators/import_package.py:47
+#: operators/select_models.py:470
+msgid "Skip Unused Parts"
+msgstr "跳过未使用部分"
+
+#: ui/preferences.py:34
+msgid "Stack at Origin"
+msgstr "在原点堆叠"
+
+#: operators/import_package.py:116
+msgid "Store Unity Properties"
+msgstr "存储 Unity 属性"
+
+#: ui/preferences.py:14
+msgid "Texture straight into an Emission shader, no lighting"
+msgstr "纹理直接接入自发光着色器，无光照"
+
+#: operators/import_package.py:197
+msgid "Textures"
+msgstr "纹理"
+
+#: ui/preferences.py:20
+msgid "The directory given below"
+msgstr "下方给出的目录"
+
+#: ui/preferences.py:19
+msgid "The extension's user cache directory"
+msgstr "扩展的用户缓存目录"
+
+#: ui/panel_report.py:143
+msgid "Tools"
+msgstr "工具"
+
+#: ui/preferences.py:13
+msgid "Toon (Node Group)"
+msgstr "卡通（节点组）"
+
+#: ui/preferences.py:11
+msgid "Toon node group for toon shaders (lilToon etc.), Principled BSDF for PBR shaders"
+msgstr "卡通着色器（lilToon 等）使用卡通节点组，PBR 着色器使用 Principled BSDF"
+
+#: ui/panel_report.py:45
+#: ui/panel_report.py:82
+msgid "UPI"
+msgstr "UPI"
+
+#: ui/preferences.py:13
+msgid "UnityToon node group: shadow color, MatCap, rim light and emission (EEVEE)"
+msgstr "UnityToon 节点组：阴影颜色、MatCap、边缘光和自发光（EEVEE）"
+
+#: operators/import_package.py:298
+msgid "Unitypackage"
+msgstr "Unitypackage"
+
+#: ui/panel_report.py:46
+msgid "Unitypackage Importer"
+msgstr "Unitypackage 导入器"
+
+#: ui/preferences.py:14
+msgid "Unlit (Emission)"
+msgstr "无光照（自发光）"
+
+#: operators/select_models.py:317
+msgid "Unused Parts"
+msgstr "未使用的部分"
+
+#: operators/import_package.py:56
+msgid "Use the new FBX importer"
+msgstr "使用新的 FBX 导入器"
+
+#: operators/import_package.py:63
+msgid "VRM via VRM Add-on"
+msgstr "通过 VRM 附加组件导入 VRM"
+
+#: ui/preferences.py:75
+msgid "Verbose Console Log"
+msgstr "详细控制台日志"
+
+#: ui/panel_report.py:115
+msgid "Warnings"
+msgstr "警告"
+
+#: operators/outline_ops.py:17
+msgid "Width Scale"
+msgstr "宽度缩放"
+
+#: ui/panel_report.py:157
+msgctxt "Operator"
+msgid "Add"
+msgstr "添加"
+
+#: operators/outline_ops.py:13
+msgctxt "Operator"
+msgid "Add Unity Outlines"
+msgstr "添加 Unity 描边"
+
+#: operators/outline_ops.py:14
+msgctxt "Operator"
+msgid "Add a Solidify outline to selected meshes using the Unity material's outline color and width"
+msgstr "使用 Unity 材质的描边颜色和宽度为选中网格添加实体化描边"
+
+#: operators/select_models.py:291
+msgctxt "Operator"
+msgid "All"
+msgstr "全部"
+
+#: operators/select_models.py:244
+msgctxt "Operator"
+msgid "Choose what to import from the package: scenes, prefabs or model files"
+msgstr "选择从包中导入的内容：场景、预制体或模型文件"
+
+#: ui/panel_report.py:15
+msgctxt "Operator"
+msgid "Copy Log"
+msgstr "复制日志"
+
+#: ui/panel_report.py:16
+msgctxt "Operator"
+msgid "Copy the full import report to the clipboard"
+msgstr "将完整导入报告复制到剪贴板"
+
+#: operators/import_package.py:22
+#: ui/panel_report.py:50
+msgctxt "Operator"
+msgid "Import Unitypackage"
+msgstr "导入 Unitypackage"
+
+#: operators/select_models.py:243
+msgctxt "Operator"
+msgid "Import from Unitypackage"
+msgstr "从 Unitypackage 导入"
+
+#: operators/import_package.py:23
+msgctxt "Operator"
+msgid "Import meshes, materials and textures from a .unitypackage"
+msgstr "从 .unitypackage 导入网格、材质和纹理"
+
+#: operators/select_models.py:292
+msgctxt "Operator"
+msgid "None"
+msgstr "无"
+
+#: ui/panel_report.py:153
+msgctxt "Operator"
+msgid "Off"
+msgstr "关闭"
+
+#: ui/panel_report.py:152
+msgctxt "Operator"
+msgid "On"
+msgstr "开启"
+
+#: ui/preferences.py:111
+msgctxt "Operator"
+msgid "Open Cache Folder"
+msgstr "打开缓存文件夹"
+
+#: ui/panel_report.py:30
+msgctxt "Operator"
+msgid "Open Extract Folder"
+msgstr "打开解压文件夹"
+
+#: ui/preferences.py:112
+msgctxt "Operator"
+msgid "Open the extension's texture cache directory in the system file browser"
+msgstr "在系统文件浏览器中打开该扩展的纹理缓存目录"
+
+#: ui/panel_report.py:31
+msgctxt "Operator"
+msgid "Open the folder where textures were extracted"
+msgstr "打开纹理解压到的文件夹"
+
+#: operators/rebuild_material.py:33
+msgctxt "Operator"
+msgid "Rebuild Unity Material"
+msgstr "重建 Unity 材质"
+
+#: ui/panel_report.py:149
+msgctxt "Operator"
+msgid "Rebuild in Another Mode"
+msgstr "以其他模式重建"
+
+#: operators/rebuild_material.py:34
+msgctxt "Operator"
+msgid "Rebuild the material nodes from the stored Unity data in another mode (no package needed)"
+msgstr "使用已存储的 Unity 数据以其他模式重建材质节点（无需安装包）"
+
+#: ui/panel_report.py:158
+msgctxt "Operator"
+msgid "Remove"
+msgstr "移除"
+
+#: operators/outline_ops.py:41
+msgctxt "Operator"
+msgid "Remove Unity Outlines"
+msgstr "移除 Unity 描边"
+
+#: operators/outline_ops.py:42
+msgctxt "Operator"
+msgid "Remove outlines added by this add-on from selected meshes"
+msgstr "从选中网格移除此附加组件添加的描边"
+
+#: operators/select_models.py:413
+msgctxt "Operator"
+msgid "Select All"
+msgstr "全选"
+
+#: operators/rebuild_material.py:109
+msgctxt "Operator"
+msgid "Set Backface Culling"
+msgstr "设置背面剔除"
+
+#: operators/rebuild_material.py:110
+msgctxt "Operator"
+msgid "Turn Backface Culling on (following Unity's _Cull setting) or off for the materials of the selected meshes"
+msgstr "为选中网格的材质开启背面剔除（遵循 Unity 的 _Cull 设置）或关闭"
+
+#: operators/import_package.py:310
+msgctxt "Operator"
+msgid "Unitypackage (.unitypackage)"
+msgstr "Unitypackage（.unitypackage）"

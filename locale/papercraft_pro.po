@@ -1,0 +1,1019 @@
+# perfect-chinese: 1
+# id: papercraft_pro
+# kind: addon
+# module: bl_ext.blender_org.papercraft_pro
+# name: Papercraft Pro
+# name_zh: 纸模专业版
+# translator: KeshiMiao
+# category: Import-Export
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: scene_setup.py:403
+msgid "A fine paper grain on the model's materials (a bump only; colours and prints untouched). Skips materials with their own bump"
+msgstr "在模型材质上添加细微纸纹（仅凹凸，不影响颜色和图案）。跳过自带凹凸的材质"
+
+#: props.py:53
+msgid "A model being unfolded"
+msgstr "正在展开的模型"
+
+#: scene_setup.py:45
+msgid "A photo studio's light (Blender's studio HDRI) with the sun's shadows, at 64 samples: soft, even light with real reflections"
+msgstr "摄影棚灯光（Blender 的工作室 HDRI），带太阳阴影，64 采样：柔和均匀的光照与真实反射"
+
+#: scene_setup.py:396
+msgid "A sun from above left: shadows show at once which way each fold goes"
+msgstr "左上方的太阳光：阴影能立刻显示每条折痕的朝向"
+
+#: props.py:296
+msgid "Add a page showing where every piece goes: the model from four sides, each piece in its own colour and lettered, with the page each one is on"
+msgstr "添加一页显示每个部件的位置：模型四个侧面视图，每个部件使用不同颜色并标有字母，同时标明所在页码"
+
+#: props.py:346
+msgid "All lines in one colour and opacity, e.g. white over dark art or soft black over light art"
+msgstr "所有线条使用同一颜色和不透明度，例如深色图案上用白色，浅色图案上用柔和的黑色"
+
+#: ui.py:99
+msgid "Apply Cuts to see changes"
+msgstr "应用切割以查看变化"
+
+#: props.py:142
+msgid "Arrange"
+msgstr "排列"
+
+#: props.py:223
+msgid "Art + Cut Lines"
+msgstr "图案 + 切割线"
+
+#: props.py:223
+msgid "Art on the pieces and carried onto the tabs, outlined by cut lines only: no fold lines over the art; file name ends _art"
+msgstr "图案位于部件上并延伸到翼片，仅由切割线勾勒：图案上无折线；文件名以 _art 结尾"
+
+#: props.py:222
+msgid "Art, tabs, lines and numbers for printing"
+msgstr "用于打印的图案、翼片、线条和编号"
+
+#: ui.py:245
+msgid "Assemble"
+msgstr "组装"
+
+#: ops.py:192
+msgid "Assemble Frames"
+msgstr "组装帧"
+
+#: props.py:296
+msgid "Assembly Page"
+msgstr "组装页"
+
+#: props.py:57
+msgid "Assembly Target"
+msgstr "组装目标"
+
+#: props.py:86
+#: props.py:256
+msgid "Auto"
+msgstr "自动"
+
+#: ui.py:81
+msgid "Auto chose:"
+msgstr "自动选择："
+
+#: props.py:230
+msgid "Back Marks"
+msgstr "背面标记"
+
+#: props.py:253
+msgid "Bake"
+msgstr "烘焙"
+
+#: props.py:265
+msgid "Bake DPI"
+msgstr "烘焙 DPI"
+
+#: props.py:244
+msgid "Bake what the material shows onto each page with Cycles: works with layered or node-group materials, procedurals and vertex colours"
+msgstr "使用 Cycles 将材质显示内容烘焙到每一页：支持分层材质、节点组材质、程序纹理和顶点色"
+
+#: props.py:244
+msgid "Baked Material"
+msgstr "烘焙材质"
+
+#: props.py:258
+msgid "Base Colour"
+msgstr "基础色"
+
+#: props.py:256
+msgid "Base colour; falls back to emission for materials that colour through an emission shader, then to a full render"
+msgstr "基础色；对于通过自发光着色器着色的材质，回退到自发光，再回退到完整渲染"
+
+#: props.py:345
+msgid "Black cuts, red mountain folds, blue valley folds"
+msgstr "黑色切割线，红色山折线，蓝色谷折线"
+
+#: props.py:337
+msgid "Bleed"
+msgstr "出血"
+
+#: scene_setup.py:43
+msgid "Blender's sunrise light, as in Material Preview (warm where the low sun strikes, blue where the sky does) with the sun's shadows, at 64 samples"
+msgstr "Blender 的日出光照，与材质预览中一致（低角度阳光照射处偏暖，天空照射处偏蓝），带太阳阴影，64 采样"
+
+#: props.py:182
+msgid "Board thickness in mm (behind the printed surface)"
+msgstr "板材厚度，单位 mm（位于印刷面之后）"
+
+#: props.py:228
+msgid "Both in one file, creases in red so they import as a separate colour layer; file name ends _lines"
+msgstr "两者合在一个文件中，折痕为红色，以便作为单独颜色图层导入；文件名以 _lines 结尾"
+
+#: scene_setup.py:413
+msgid "Camera"
+msgstr "摄像机"
+
+#: scene_setup.py:407
+msgid "Camera Frames"
+msgstr "摄像机帧"
+
+#: props.py:191
+msgid "Carve a V out of the back so the printed liner folds sharp on the line (corrugated board); grooves are marked on Back Marks pages"
+msgstr "从背面切出 V 形槽，使印刷面纸在折线处折得锐利（瓦楞纸板）；沟槽标记在背面标记页上"
+
+#: scene_setup.py:40
+msgid "Clean"
+msgstr "清理"
+
+#: ui.py:116
+msgid "Click edge: cut / join"
+msgstr "点击边：切割 / 连接"
+
+#: ui.py:121
+msgid "Click open edge: flap on / off"
+msgstr "点击开放边：翼片开 / 关"
+
+#: ui.py:119
+msgid "Click tab: other side of seam"
+msgstr "点击翼片：接缝另一侧"
+
+#: props.py:119
+msgid "Colour Boundaries"
+msgstr "颜色边界"
+
+#: props.py:260
+msgid "Colour with the scene's lighting and shading (matte: no glossy reflections)"
+msgstr "使用场景的光照和着色上色（哑光：无光泽反射）"
+
+#: props.py:219
+msgid "Content"
+msgstr "内容"
+
+#: props.py:269
+msgid "Continue each face's art onto its tabs, so small gaps at glued seams don't show the tab colour"
+msgstr "将每个面的图案延续到其翼片上，使粘接接缝处的小缝隙不会露出翼片颜色"
+
+#: props.py:189
+msgid "Crease"
+msgstr "折痕"
+
+#: props.py:227
+msgid "Crease Lines Only"
+msgstr "仅折痕线"
+
+#: ui.py:263
+msgid "Creases are red, cuts black"
+msgstr "折痕为红色，切割线为黑色"
+
+#: props.py:346
+msgid "Custom Colour"
+msgstr "自定义颜色"
+
+#: props.py:228
+msgid "Cut + Crease"
+msgstr "切割 + 折痕"
+
+#: ui.py:103
+msgid "Cut Along"
+msgstr "沿…切割"
+
+#: props.py:83
+msgid "Cut For"
+msgstr "切割用于"
+
+#: props.py:225
+msgid "Cut Lines Only"
+msgstr "仅切割线"
+
+#: props.py:212
+msgid "Cut Valley Folds"
+msgstr "切割谷折线"
+
+#: props.py:124
+msgid "Cut along edges marked Sharp"
+msgstr "沿标记为锐边的边切割"
+
+#: props.py:111
+msgid "Cut along edges marked as seams (and edges cut with the Edit Cuts tool)"
+msgstr "沿标记为接缝的边切割（以及使用“编辑切割”工具切割的边）"
+
+#: props.py:212
+msgid "Cut every inward (valley) fold: thick board can't fold that way neatly. A Join made with Edit Cuts still wins"
+msgstr "切开每个向内（谷）折：厚板材无法整齐地那样折叠。使用“编辑切割”创建的连接仍然优先"
+
+#: props.py:115
+msgid "Cut wherever the material changes, so each material becomes its own piece"
+msgstr "在材质变化处切割，使每种材质成为独立部件"
+
+#: props.py:119
+msgid "Cut wherever the painted colour (active colour attribute) changes. Paint regions in Vertex Paint mode to define the pieces"
+msgstr "在绘制颜色（活动颜色属性）变化处切割。在顶点绘制模式中绘制区域以定义部件"
+
+#: ui.py:94
+msgid "Cuts (select edges)"
+msgstr "切割（选择边）"
+
+#: ui.py:118
+msgid "Cuts wait for Apply Cuts"
+msgstr "切割需应用切割后生效"
+
+#: ui.py:261
+msgid "Cutters score each dash separately"
+msgstr "切割机分别压痕每段虚线"
+
+#: props.py:236
+msgid "Dash the fold lines. Turn off for cutting machines, which score a dashed line as many short pieces"
+msgstr "将折线设为虚线。使用切割机时关闭，因为切割机会把虚线压成许多短段"
+
+#: props.py:236
+msgid "Dashed Folds"
+msgstr "虚线折线"
+
+#: scene_setup.py:43
+msgid "Dawn"
+msgstr "黎明"
+
+#: props.py:345
+msgid "Default"
+msgstr "默认"
+
+#: props.py:360
+msgid "Don't draw fold lines flatter than this many degrees"
+msgstr "不绘制比此角度更平缓的折线"
+
+#: props.py:248
+msgid "Each piece in its material's base colour"
+msgstr "每块使用其材质的基色"
+
+#: props.py:206
+msgid "Edge to edge, no tabs. Outside corners are bevelled away at the back (marked on Back Marks pages) so the boards sit flush"
+msgstr "边对边，无粘接片。外角在背面倒角（在背标页上标记），使板材贴合平整"
+
+#: editor.py:415
+msgid "Edit Cuts needs the model without topology-changing modifiers (apply or disable them first)"
+msgstr "编辑切割需要模型没有改变拓扑的修改器（请先应用或禁用它们）"
+
+#: props.py:259
+msgid "Emission"
+msgstr "自发光"
+
+#: scene_setup.py:40
+msgid "Even white light, no sun: plain, flat images of the model"
+msgstr "均匀白光，无太阳光：模型的平淡、扁平图像"
+
+#: scene_setup.py:411
+#: scene_setup.py:496
+msgid "Everything"
+msgstr "全部"
+
+#: ui.py:192
+msgid "Export Back Marks for the back of the board"
+msgstr "导出背标用于板材背面"
+
+#: scene_setup.py:400
+msgid "Faint lines where faces meet at an angle (the Wireframe overlay)"
+msgstr "面以一定角度相接处的淡线（线框叠加层）"
+
+#: props.py:145
+msgid "Fewest Pages"
+msgstr "最少页数"
+
+#: props.py:88
+#: ui.py:81
+msgid "Fewest Pieces"
+msgstr "最少块数"
+
+#: props.py:317
+msgid "Fill plain tabs light grey. Off: tabs stay paper white, outlined by their cut lines"
+msgstr "将普通粘接片填充为浅灰色。关闭：粘接片保持纸白色，仅由切割线勾勒"
+
+#: props.py:160
+msgid "Fit to Pages"
+msgstr "适应页面"
+
+#: props.py:162
+msgid "Fixed Ratio"
+msgstr "固定比例"
+
+#: props.py:248
+msgid "Flat Colours"
+msgstr "纯色"
+
+#: ui.py:244
+msgid "Fold"
+msgstr "折叠"
+
+#: ui.py:216
+msgid "Fold Animation"
+msgstr "折叠动画"
+
+#: ops.py:191
+msgid "Fold Frames"
+msgstr "折叠帧数"
+
+#: scene_setup.py:400
+msgid "Fold Lines"
+msgstr "折线"
+
+#: props.py:197
+msgid "Fold Radius"
+msgstr "折叠半径"
+
+#: scene_setup.py:410
+#: scene_setup.py:496
+msgid "Fold Rig"
+msgstr "折叠绑定"
+
+#: props.py:227
+msgid "Fold lines only, for scoring; file name ends _crease"
+msgstr "仅折线，用于压痕；文件名以 _crease 结尾"
+
+#: props.py:55
+msgid "Fold rig generated from a model"
+msgstr "由模型生成的折叠绑定"
+
+#: editor.py:459
+msgid "Fold rig rebuilt to match the new cuts"
+msgstr "已重建折叠绑定以匹配新的切割"
+
+#: props.py:89
+msgid "Fold the flattest edges first: seams sit on sharp edges where they show least, usually more pieces"
+msgstr "先折叠最平缓的边：接缝位于最不显眼的锐边上，通常块数更多"
+
+#: props.py:274
+msgid "Fold the hinges in turn, from the extremities inwards: glue tabs, then the tips, the root piece last (Rebuild Rig to apply)"
+msgstr "依次折叠铰链，从末端向内：先粘接片，再是尖端，根部件最后（重建绑定以应用）"
+
+#: props.py:88
+msgid "Fold the longest edges first: fewer, larger pieces"
+msgstr "先折叠最长的边：块数更少、更大"
+
+#: props.py:56
+msgid "Folding Mesh"
+msgstr "折叠网格"
+
+#: props.py:186
+msgid "Folds"
+msgstr "折叠"
+
+#: props.py:259
+msgid "For materials that output colour through an Emission shader"
+msgstr "用于通过自发光着色器输出颜色的材质"
+
+#: scene_setup.py:494
+msgid "Frame"
+msgstr "框选"
+
+#: scene_setup.py:410
+msgid "Frame the folding sheet"
+msgstr "框选折叠图纸"
+
+#: scene_setup.py:409
+msgid "Frame the model"
+msgstr "框选模型"
+
+#: scene_setup.py:411
+msgid "Frame the model, its layout and its rig"
+msgstr "框选模型、其布局及其绑定"
+
+#: props.py:260
+msgid "Full Render"
+msgstr "完整渲染"
+
+#: props.py:138
+msgid "Gap between pieces in mm"
+msgstr "块之间的间隙（毫米）"
+
+#: props.py:284
+msgid "Give the folding sheet real thickness in mm (e.g. 0.3 for card). Glue tabs then sit one thickness behind the wall they glue to (in front, for outside tabs) instead of showing through it. 0 = flat sheet (Rebuild Rig to apply)"
+msgstr "为折叠图纸设置实际厚度（毫米，例如卡纸为 0.3）。粘接片随后会位于其所粘接壁面后方一个厚度处（外置粘接片则在前方），而不会透出。0 = 平面图纸（重建绑定以应用）"
+
+#: props.py:306
+msgid "Glue Guides"
+msgstr "粘接参考线"
+
+#: props.py:205
+msgid "Glue Tabs"
+msgstr "粘接片"
+
+#: props.py:205
+msgid "Glue tabs along the seams, as for paper"
+msgstr "沿接缝添加粘接片，如同纸张"
+
+#: props.py:317
+msgid "Grey Tabs"
+msgstr "灰色粘接片"
+
+#: props.py:133
+msgid "Height"
+msgstr "高度"
+
+#: props.py:360
+msgid "Hide Folds Under"
+msgstr "隐藏低于此的折叠"
+
+#: props.py:279
+msgid "How much each fold overlaps the next: 0 = strictly one after another, 1 = all together (Rebuild Rig to apply)"
+msgstr "每个折叠与下一个重叠的程度：0 = 严格依次进行，1 = 全部同时进行（重建绑定以应用）"
+
+#: props.py:247
+msgid "Image Textures"
+msgstr "图像纹理"
+
+#: props.py:290
+msgid "In Texture Paint, show the paint unlit with the Standard view transform, so the eyedropper picks the colour you painted (put back when you leave Texture Paint). Materials built from layer stacks keep their own nodes"
+msgstr "在纹理绘制中，以标准视图变换显示未受光照的绘制内容，使吸管拾取你绘制的颜色（离开纹理绘制时恢复）。由图层堆栈构建的材质保留自己的节点"
+
+#: props.py:312
+msgid "Inside Guides on Front"
+msgstr "正面的内侧参考线"
+
+#: props.py:202
+msgid "Joins"
+msgstr "连接"
+
+#: props.py:131
+msgid "Landscape"
+msgstr "横向"
+
+#: props.py:333
+msgid "Larger images are downsampled to this many pixels when embedded"
+msgstr "嵌入时，较大的图像会降采样到此像素数"
+
+#: props.py:160
+msgid "Largest model that fits on the chosen number of pages"
+msgstr "所选页数能容纳的最大模型"
+
+#: props.py:54
+msgid "Layout"
+msgstr "布局"
+
+#: props.py:301
+msgid "Letter each piece (A, B, C ...) to match the assembly page: inside the piece with Numbers On Faces, on the scrap below it with Tabs & Scrap"
+msgstr "为每块标字母（A、B、C……）以匹配组装页：使用「面上数字」时在块内部，使用「粘接片与废料」时在其下方的废料上"
+
+#: props.py:352
+msgid "Line Colour"
+msgstr "线条颜色"
+
+#: props.py:356
+msgid "Line Opacity"
+msgstr "线条不透明度"
+
+#: props.py:359
+msgid "Line Width"
+msgstr "线条宽度"
+
+#: props.py:342
+msgid "Lines"
+msgstr "线条"
+
+#: props.py:249
+msgid "Lines Only"
+msgstr "仅线条"
+
+#: props.py:73
+msgid "Live Layout"
+msgstr "实时布局"
+
+#: scene_setup.py:414
+msgid "Look Through Camera"
+msgstr "透过相机查看"
+
+#: props.py:134
+msgid "Margin"
+msgstr "边距"
+
+#: props.py:325
+msgid "Matching numbers just inside both glued edges"
+msgstr "在两条粘合边内侧印匹配编号"
+
+#: props.py:176
+#: ui.py:156
+msgid "Material"
+msgstr "材质"
+
+#: props.py:115
+msgid "Material Boundaries"
+msgstr "材质边界"
+
+#: props.py:101
+msgid "Max Faces per Piece"
+msgstr "每片最大面数"
+
+#: props.py:333
+msgid "Max Texture Size"
+msgstr "最大纹理尺寸"
+
+#: props.py:56
+msgid "Mesh deformed by the fold rig"
+msgstr "由折叠绑定变形的网格"
+
+#: props.py:337
+msgid "Millimetres of colour printed past each edge so slightly off cuts don't show white"
+msgstr "每条边外多印的彩色毫米数，避免裁切略偏时露出白色"
+
+#: props.py:162
+msgid "Millimetres of paper per Blender unit"
+msgstr "每 Blender 单位对应的纸张毫米数"
+
+#: props.py:206
+msgid "Mitre"
+msgstr "斜接"
+
+#: props.py:53
+#: props.py:69
+msgid "Model"
+msgstr "模型"
+
+#: props.py:161
+msgid "Model Size"
+msgstr "模型尺寸"
+
+#: props.py:69
+msgid "Model this generated object belongs to"
+msgstr "此生成物体所属的模型"
+
+#: props.py:161
+msgid "Model's largest dimension in millimetres"
+msgstr "模型最大尺寸（毫米）"
+
+#: props.py:149
+msgid "Neighbours Together"
+msgstr "相邻纸片放在一起"
+
+#: props.py:348
+msgid "No Lines"
+msgstr "无线条"
+
+#: props.py:249
+msgid "No fill: white paper with lines (cutting machines)"
+msgstr "不填充：白纸加线条（切割机）"
+
+#: props.py:329
+msgid "No glue numbers"
+msgstr "不印粘接编号"
+
+#: props.py:52
+msgid "None"
+msgstr "无"
+
+#: props.py:326
+msgid "Number on the tab, and on the scrap just outside the other edge: nothing printed on the art"
+msgstr "编号印在粘接片上，以及另一条边外侧的废料上：图案上不印任何内容"
+
+#: props.py:322
+msgid "Numbers"
+msgstr "编号"
+
+#: props.py:329
+msgid "Off"
+msgstr "关闭"
+
+#: props.py:325
+msgid "On Faces"
+msgstr "在面上"
+
+#: props.py:274
+msgid "One at a Time"
+msgstr "一次一个"
+
+#: props.py:306
+msgid "Outline where each tab lands on the face it glues to. Inside tabs glue to the back of that face, so their guides print on Back Marks pages; outside tabs' guides print on the front, under the tab"
+msgstr "标出每个粘接片粘到面上的落点轮廓。内侧粘接片粘到该面的背面，因此其引导线印在背面标记页；外侧粘接片的引导线印在正面、粘接片下方"
+
+#: props.py:197
+msgid "Outside radius of a creased fold in mm (about the thickness for greyboard). 0 = sharp folds, nothing shortened"
+msgstr "折痕外半径（毫米，灰板纸约为其厚度）。0 = 尖折，不缩短"
+
+#: props.py:279
+msgid "Overlap"
+msgstr "重叠"
+
+#: props.py:145
+msgid "Pack the pieces tightly, biggest first, onto as few pages as possible"
+msgstr "将纸片按从大到小紧密排布，尽量少用页面"
+
+#: props.py:167
+msgid "Pages"
+msgstr "页面"
+
+#: props.py:130
+msgid "Paper"
+msgstr "纸张"
+
+#: ui.py:125
+msgid "Paper & Scale"
+msgstr "纸张与比例"
+
+#: scene_setup.py:403
+msgid "Paper Texture"
+msgstr "纸张纹理"
+
+#: props.py:284
+msgid "Paper Thickness"
+msgstr "纸张厚度"
+
+#: props.py:54
+msgid "Paper layout generated from a model"
+msgstr "由模型生成的纸张排版"
+
+#: ui.py:34
+msgid "Papercraft"
+msgstr "纸模"
+
+#: ui.py:46
+msgid "Papercraft Pro"
+msgstr "Papercraft Pro"
+
+#: props.py:301
+msgid "Piece Letters"
+msgstr "纸片字母"
+
+#: props.py:225
+msgid "Piece and tab outlines only, as plain solid lines (cutting machine template); file name ends _cut"
+msgstr "仅纸片与粘接片轮廓，为纯实线（切割机模板）；文件名以 _cut 结尾"
+
+#: ui.py:196
+msgid "Pieces & Tabs"
+msgstr "纸片与粘接片"
+
+#: props.py:149
+msgid "Pieces that glue to each other sit side by side, in assembly order across the pages (piece letters follow it too)"
+msgstr "相互粘接的纸片按装配顺序跨页并排排列（纸片字母也按此顺序）"
+
+#: props.py:95
+msgid "Prefer Valley Cuts"
+msgstr "优先谷折处切割"
+
+#: props.py:222
+#: props.py:241
+msgid "Print"
+msgstr "打印"
+
+#: ui.py:335
+msgid "Print & Export"
+msgstr "打印与导出"
+
+#: props.py:247
+msgid "Print image textures directly through the UVs (fast)"
+msgstr "通过 UV 直接打印图像纹理（快速）"
+
+#: props.py:265
+msgid "Print resolution of the baked pages (300 for fine detail; slower)"
+msgstr "烘焙页面的打印分辨率（300 适合精细细节；较慢）"
+
+#: props.py:348
+msgid "Print the art only (lines stay in the file as hidden layers)"
+msgstr "仅打印图案（线条作为隐藏图层保留在文件中）"
+
+#: props.py:312
+msgid "Print the inside tabs' guides on the front too: for plain models you paint after building (on printed art they would show on the finished model)"
+msgstr "也在正面打印内侧粘接片的引导线：适用于组装后再上色的素模（若印在图案上，成品模型会显露这些线）"
+
+#: props.py:95
+msgid "Put cuts on valley (inward) edges where possible: seams hide in the creases and mountain ridges stay crisp. 0 = cut wherever is sharpest"
+msgstr "尽量在谷折（向内）边切割：接缝藏在折痕中，山折脊线保持清晰。0 = 在最尖锐处切割"
+
+#: props.py:73
+msgid "Re-unfold automatically while you edit the model, mark seams or click cuts. Off: your cuts and joins wait until you press Apply Cuts, and the pieces stay as they are in the meantime"
+msgstr "编辑模型、标记接缝或点击切割时自动重新展开。关闭：切割与连接会等到你按下“应用切割”后才生效，期间纸片保持不变"
+
+#: scene_setup.py:395
+#: scene_setup.py:480
+msgid "Render Look"
+msgstr "渲染外观"
+
+#: scene_setup.py:47
+msgid "Renders use your own world and lights; the papercraft sun stays in the viewport only"
+msgstr "渲染使用你自己的世界和灯光；纸模太阳仅保留在视图中"
+
+#: props.py:55
+msgid "Rig"
+msgstr "绑定"
+
+#: ui.py:238
+msgid "Rig is out of date: Rebuild Rig"
+msgstr "绑定已过期：重建绑定"
+
+#: props.py:68
+msgid "Role"
+msgstr "角色"
+
+#: props.py:147
+msgid "Same number of pages, but the pieces shared out so each page holds a similar amount, centred, with more room to cut round them"
+msgstr "页面数相同，但重新分配纸片，使每页数量相近、居中排列，并留出更多裁切空间"
+
+#: props.py:157
+msgid "Scale"
+msgstr "比例"
+
+#: ui.py:303
+msgid "Scene & Render"
+msgstr "场景与渲染"
+
+#: props.py:189
+msgid "Score and bend: the board curves round the Fold Radius and pieces are shortened to suit"
+msgstr "压痕并弯折：板材绕折痕半径弯曲，纸片相应缩短"
+
+#: props.py:111
+msgid "Seams"
+msgstr "接缝"
+
+#: props.py:89
+#: ui.py:81
+msgid "Seams on Creases"
+msgstr "折痕处缝合线"
+
+#: ui.py:52
+msgid "Select a mesh to unfold"
+msgstr "选择要展开的网格"
+
+#: props.py:124
+msgid "Sharp Edges"
+msgstr "锐利边"
+
+#: ui.py:120
+msgid "Shift+click tab: inside / outside"
+msgstr "Shift+单击粘贴边：内侧/外侧"
+
+#: ui.py:321
+msgid "Show in Renders"
+msgstr "在渲染中显示"
+
+#: scene_setup.py:41
+msgid "Showcase"
+msgstr "展示"
+
+#: props.py:168
+msgid "Size (mm)"
+msgstr "尺寸（mm）"
+
+#: props.py:138
+msgid "Spacing"
+msgstr "间距"
+
+#: props.py:101
+msgid "Split pieces larger than this (0 = no limit). Smaller pieces leave more room for tabs on round models"
+msgstr "拆分大于此值的片（0 = 不限制）。较小的片能在圆形模型上为粘贴边留出更多空间"
+
+#: props.py:147
+msgid "Spread Evenly"
+msgstr "均匀分布"
+
+#: ops.py:190
+msgid "Start Frame"
+msgstr "起始帧"
+
+#: scene_setup.py:45
+msgid "Studio"
+msgstr "工作室"
+
+#: scene_setup.py:396
+msgid "Sun (shadows)"
+msgstr "太阳光（阴影）"
+
+#: scene_setup.py:399
+msgid "Sun Strength"
+msgstr "太阳光强度"
+
+#: props.py:173
+msgid "Tab Angle"
+msgstr "粘贴边角度"
+
+#: props.py:172
+msgid "Tab Height"
+msgstr "粘贴边高度"
+
+#: props.py:326
+msgid "Tabs & Scrap"
+msgstr "粘贴边与废料"
+
+#: props.py:269
+msgid "Texture on Tabs"
+msgstr "粘贴边上的纹理"
+
+#: props.py:230
+msgid "The back of each sheet, mirrored so it lines up when printed on the reverse or traced: outlines, glue guides, and for thick board V-grooves and mitre bevels; file name ends _back"
+msgstr "每张纸的背面，已镜像，便于双面打印或描摹时对齐：轮廓、涂胶导引，厚纸板还包括 V 形槽和斜接斜边；文件名以 _back 结尾"
+
+#: props.py:258
+msgid "The material's colour without lighting (usual for papercraft)"
+msgstr "材质在无光照时的颜色（纸模常用）"
+
+#: props.py:182
+msgid "Thickness"
+msgstr "厚度"
+
+#: props.py:290
+msgid "True Colours While Painting"
+msgstr "绘制时显示真实颜色"
+
+#: props.py:86
+msgid "Try both and keep the better layout: fewest pieces, avoiding comb-shaped pieces that are fiddly to cut and assemble"
+msgstr "两种都尝试并保留更好的排版：片数最少，避免难以裁剪和组装的梳状片"
+
+#: props.py:134
+msgid "Unprintable border in mm"
+msgstr "不可打印边距（mm）"
+
+#: props.py:191
+msgid "V-Groove"
+msgstr "V 形槽"
+
+#: props.py:57
+msgid "Where a piece lands when assembled"
+msgstr "组装后片所在的位置"
+
+#: scene_setup.py:41
+msgid "White light and a sun's shadows, at 64 render samples: every fold reads at a glance"
+msgstr "白光加太阳光阴影，64 渲染采样：每条折痕一目了然"
+
+#: props.py:132
+msgid "Width"
+msgstr "宽度"
+
+#: scene_setup.py:47
+msgid "Your Own"
+msgstr "自定义"
+
+#: core/svg.py:473
+msgid "font-family:sans-serif;fill:#333333"
+msgstr "font-family:sans-serif;fill:#333333"
+
+#: core/svg.py:474
+msgid "font-family:sans-serif;font-size:4px;fill:#555555"
+msgstr "font-family:sans-serif;font-size:4px;fill:#555555"
+
+#: props.py:169
+msgid "mm per Unit"
+msgstr "每单位毫米数"
+
+#: ops.py:43
+#: ui.py:25
+msgctxt "Operator"
+msgid "Apply Cuts"
+msgstr "应用切口"
+
+#: ops.py:147
+msgctxt "Operator"
+msgid "Build Fold Rig"
+msgstr "构建折叠绑定"
+
+#: editor.py:381
+msgctxt "Operator"
+msgid "Click edges on the model or the paper layout to cut or join them; click a tab to move it to the other side; Shift+click a tab to glue it on the outside (printed with the art it covers); click an open edge (or Ctrl/Alt+click) to add or remove a flap for joining parts. Cuts and joins wait for Apply Cuts unless Live Layout is on. Press again, right-click or Esc to finish"
+msgstr "在模型或纸张排版上单击边以切开或连接；单击粘贴边可将其移到另一侧；Shift+单击粘贴边可将其粘在外侧（连同其覆盖的图案一起打印）；单击开放边（或 Ctrl/Alt+单击）可添加或移除用于连接部件的翼片。除非开启实时排版，否则切口和连接要等应用切口后才生效。再次按下、右键单击或按 Esc 完成"
+
+#: ops.py:148
+msgctxt "Operator"
+msgid "Create (or rebuild) an armature with a driven hinge on every fold, so the sheet can fold up and fly onto the model. Rebuilding keeps your keyframes"
+msgstr "创建（或重建）骨架，为每条折痕添加由驱动器控制的铰链，使纸张能折起并飞到模型上。重建会保留你的关键帧"
+
+#: ui.py:96
+msgctxt "Operator"
+msgid "Cut Here"
+msgstr "在此处切开"
+
+#: ops.py:167
+msgctxt "Operator"
+msgid "Delete this model's fold rig and folding mesh"
+msgstr "删除此模型的折叠绑定和折叠网格"
+
+#: ops.py:71
+msgctxt "Operator"
+msgid "Delete this model's layout and fold rig (the model itself is untouched)"
+msgstr "删除此模型的排版和折叠绑定（模型本身不受影响）"
+
+#: ui.py:14
+msgctxt "Operator"
+msgid "Done Editing"
+msgstr "完成编辑"
+
+#: editor.py:380
+msgctxt "Operator"
+msgid "Edit Cuts"
+msgstr "编辑切口"
+
+#: ops.py:258
+#: ui.py:341
+msgctxt "Operator"
+msgid "Export PDF"
+msgstr "导出 PDF"
+
+#: ops.py:238
+#: ui.py:340
+msgctxt "Operator"
+msgid "Export SVG Pages"
+msgstr "导出 SVG 页面"
+
+#: scene_setup.py:491
+msgctxt "Operator"
+msgid "Frame Camera"
+msgstr "相机取景"
+
+#: ui.py:97
+msgctxt "Operator"
+msgid "Join"
+msgstr "连接"
+
+#: ops.py:186
+msgctxt "Operator"
+msgid "Keyframe Fold Animation"
+msgstr "为折叠动画插入关键帧"
+
+#: ops.py:187
+msgctxt "Operator"
+msgid "Keyframe the rig: fold up from flat, then move onto the model"
+msgstr "为绑定插入关键帧：从平面折起，然后移动到模型上"
+
+#: ops.py:93
+msgctxt "Operator"
+msgid "Look straight down at this model's paper layout in this viewport (switches to Material Preview so the art shows)"
+msgstr "在此视图中俯视此模型的纸张排版（切换到材质预览以显示图案）"
+
+#: ops.py:134
+msgctxt "Operator"
+msgid "Move the paper layout back beside the model"
+msgstr "将纸张排版移回模型旁边"
+
+#: ui.py:240
+msgctxt "Operator"
+msgid "Rebuild Rig"
+msgstr "重建绑定"
+
+#: ops.py:166
+msgctxt "Operator"
+msgid "Remove Fold Rig"
+msgstr "移除折叠绑定"
+
+#: ops.py:70
+msgctxt "Operator"
+msgid "Remove Papercraft"
+msgstr "移除纸模"
+
+#: scene_setup.py:477
+msgctxt "Operator"
+msgid "Render Look"
+msgstr "渲染外观"
+
+#: ops.py:133
+msgctxt "Operator"
+msgid "Reset Layout Position"
+msgstr "重置排版位置"
+
+#: scene_setup.py:392
+msgctxt "Operator"
+msgid "Set Up Scene"
+msgstr "设置场景"
+
+#: ops.py:92
+msgctxt "Operator"
+msgid "Show Layout"
+msgstr "显示排版"
+
+#: ops.py:22
+msgctxt "Operator"
+msgid "Unfold"
+msgstr "展开"
+
+#: ops.py:44
+msgctxt "Operator"
+msgid "Unfold again with the cuts and joins you have marked. Pieces you haven't touched keep their shape where they can, and extra cuts are added only where your own would leave pieces overlapping. (Unfold starts afresh instead)"
+msgstr "按你标记的切口和连接重新展开。未改动的片会尽量保持原有形状，只有你自己的切口会导致片重叠时才添加额外切口。（展开则从头开始）"
+
+#: ops.py:23
+msgctxt "Operator"
+msgid "Unfold this model and lay its pieces out on pages beside it"
+msgstr "展开此模型，并将其各片排布在旁边的页面上"
+
+#: ops.py:259
+msgctxt "Operator"
+msgid "Write every page into one PDF at true size: vector lines, art at full resolution with its bleed (opens reliably in Photoshop, Krita and print shops)"
+msgstr "以真实尺寸将所有页面写入一个 PDF：矢量线条、带出血的完整分辨率图案（可在 Photoshop、Krita 和印刷店可靠打开）"
+
+#: ops.py:239
+msgctxt "Operator"
+msgid "Write one SVG per page (print, or send to a cutting machine)"
+msgstr "每页写入一个 SVG（打印或发送到切割机）"

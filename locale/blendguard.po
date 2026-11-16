@@ -1,0 +1,468 @@
+# perfect-chinese: 1
+# id: blendguard
+# kind: addon
+# module: bl_ext.blender_org.blendguard
+# name: BlendGuard
+# name_zh: 自动运行检测
+# translator: KeshiMiao
+# category: Pipeline
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:321
+msgid "%s  (%s)"
+msgstr "%s  (%s)"
+
+#: __init__.py:90
+msgid "%s  (%s…)"
+msgstr "%s  (%s…)"
+
+#: scanner.py:37
+msgid "(?i)%APPDATA%|%LOCALAPPDATA%|AppData[\\\\/]+Roaming"
+msgstr "(?i)%APPDATA%|%LOCALAPPDATA%|AppData[\\\\/]+Roaming"
+
+#: scanner.py:52
+msgid "(?i)-enc(?:odedcommand)?\\b|FromBase64String"
+msgstr "(?i)-enc(?:odedcommand)?\\b|FromBase64String"
+
+#: scanner.py:65
+msgid "(?i)Local Storage[\\\\/]+leveldb|cookies\\.sqlite|Login\\s?Data|wallet\\.dat|seed\\s?phrase|\\\\Discord\\\\|Opera Software|Mozilla[\\\\/]+Firefox[\\\\/]+Profiles"
+msgstr "(?i)Local Storage[\\\\/]+leveldb|cookies\\.sqlite|Login\\s?Data|wallet\\.dat|seed\\s?phrase|\\\\Discord\\\\|Opera Software|Mozilla[\\\\/]+Firefox[\\\\/]+Profiles"
+
+#: scanner.py:51
+msgid "(?i)\\b(?:powershell|cmd\\.exe|/bin/sh|bash\\s+-c)\\b"
+msgstr "(?i)\\b(?:powershell|cmd\\.exe|/bin/sh|bash\\s+-c)\\b"
+
+#: scanner.py:62
+msgid "(?i)api\\.telegram\\.org/bot"
+msgstr "(?i)api\\.telegram\\.org/bot"
+
+#: scanner.py:61
+msgid "(?i)discord(?:app)?\\.com/api/webhooks"
+msgstr "(?i)discord(?:app)?\\.com/api/webhooks"
+
+#: scanner.py:63
+msgid "(?i)https?://[a-z0-9.-]+\\.workers\\.dev\\b"
+msgstr "(?i)https?://[a-z0-9.-]+\\.workers\\.dev\\b"
+
+#: scanner.py:64
+msgid "(?i)schtasks|CurrentVersion\\\\+Run|Startup\\\\+|launchctl\\b|crontab\\b"
+msgstr "(?i)schtasks|CurrentVersion\\\\+Run|Startup\\\\+|launchctl\\b|crontab\\b"
+
+#: scanner.py:56
+msgid "(?i)winreg\\.(?:SetValueEx|CreateKey\\w*|DeleteKey\\w*|DeleteValue|SaveKey)|reg\\s+add\\b"
+msgstr "(?i)winreg\\.(?:SetValueEx|CreateKey\\w*|DeleteKey\\w*|DeleteValue|SaveKey)|reg\\s+add\\b"
+
+#: __init__.py:95
+msgid "A trusted script runs on open in any file containing that exact text."
+msgstr "受信任的脚本会在包含该确切文本的任意文件打开时运行。"
+
+#: scanner.py:377
+msgid "App-data path"
+msgstr "应用数据路径"
+
+#: __init__.py:564
+msgid "Auto-Run Python Scripts: OFF"
+msgstr "自动运行 Python 脚本：关闭"
+
+#: __init__.py:560
+msgid "Auto-Run Python Scripts: ON"
+msgstr "自动运行 Python 脚本：开启"
+
+#: __init__.py:458
+msgid "Auto-Run disabled"
+msgstr "自动运行已禁用"
+
+#: __init__.py:343
+msgid "Auto-Run is OFF - nothing was executed"
+msgstr "自动运行已关闭 - 未执行任何内容"
+
+#: __init__.py:341
+msgid "Auto-Run is ON - scripts run on open"
+msgstr "自动运行已开启 - 打开时运行脚本"
+
+#: __init__.py:69
+msgid "Auto-run scripts I have trusted, on file open"
+msgstr "文件打开时自动运行我信任的脚本"
+
+#: __init__.py:549
+#: __init__.py:553
+msgid "BlendGuard"
+msgstr "BlendGuard"
+
+#: scanner.py:35
+#: scanner.py:36
+msgid "C"
+msgstr "C"
+
+#: scanner.py:377
+msgid "Call on an __import__ result"
+msgstr "对 __import__ 结果进行调用"
+
+#: __init__.py:527
+msgid "Cleared all trusted scripts"
+msgstr "已清除所有受信任脚本"
+
+#: scanner.py:377
+msgid "Cloudflare Workers loader"
+msgstr "Cloudflare Workers 加载器"
+
+#: scanner.py:377
+msgid "Code built from chr()"
+msgstr "由 chr() 构建的代码"
+
+#: scanner.py:377
+msgid "Credential/wallet path"
+msgstr "凭据/钱包路径"
+
+#: scanner.py:377
+msgid "Discord webhook"
+msgstr "Discord Webhook"
+
+#: __init__.py:584
+msgid "Disk: %s  (%s)"
+msgstr "磁盘：%s  (%s)"
+
+#: scanner.py:377
+msgid "Dynamic __import__()"
+msgstr "动态 __import__()"
+
+#: scanner.py:377
+msgid "Dynamic code execution (exec/eval)"
+msgstr "动态代码执行（exec/eval）"
+
+#: __init__.py:96
+msgid "Edit the script by one byte and it is no longer trusted (it will ask again)."
+msgstr "脚本只要改动一个字节就不再受信任（会再次询问）。"
+
+#: scanner.py:377
+msgid "Executes via os"
+msgstr "通过 os 执行"
+
+#: scanner.py:377
+msgid "Hardcoded IP"
+msgstr "硬编码 IP"
+
+#: scanner.py:377
+msgid "Hardcoded URL"
+msgstr "硬编码 URL"
+
+#: scanner.py:377
+msgid "High-entropy blob"
+msgstr "高熵数据块"
+
+#: scanner.py:377
+msgid "Imports a sensitive module"
+msgstr "导入敏感模块"
+
+#: __init__.py:62
+msgid "Inspect automatically when a file opens"
+msgstr "文件打开时自动检查"
+
+#: __init__.py:84
+msgid "Inspection is static-only: no code is executed and no network access is used."
+msgstr "检查仅为静态分析：不执行代码，也不使用网络访问。"
+
+#: scanner.py:377
+msgid "Native code via ctypes"
+msgstr "通过 ctypes 调用原生代码"
+
+#: scanner.py:377
+msgid "Network connection"
+msgstr "网络连接"
+
+#: __init__.py:489
+msgid "No script hash"
+msgstr "无脚本哈希"
+
+#: __init__.py:438
+#: __init__.py:589
+msgid "No specific security concerns"
+msgstr "无特定安全问题"
+
+#: scanner.py:58
+#: scanner.py:59
+msgid "O"
+msgstr "O"
+
+#: scanner.py:377
+msgid "OSL script node"
+msgstr "OSL 脚本节点"
+
+#: scanner.py:377
+msgid "Obfuscated payload"
+msgstr "混淆载荷"
+
+#: __init__.py:62
+msgid "Off by default. The recommended flow is to scan a file before opening it, or press Inspect manually. Enable this only if you want an automatic check on every open."
+msgstr "默认关闭。建议流程是在打开文件前扫描，或手动点击检查。仅当希望在每次打开时自动检查才启用。"
+
+#: scanner.py:377
+msgid "Persistence mechanism"
+msgstr "持久化机制"
+
+#: scanner.py:377
+msgid "PowerShell encoded command"
+msgstr "PowerShell 编码命令"
+
+#: __init__.py:487
+msgid "Preferences unavailable"
+msgstr "偏好设置不可用"
+
+#: __init__.py:83
+msgid "Recommended: keep Auto-Run Python Scripts off, and scan files before opening them."
+msgstr "建议：保持自动运行 Python 脚本关闭，并在打开文件前扫描。"
+
+#: __init__.py:318
+msgid "Registered scripts (trust to auto-run):"
+msgstr "已注册脚本（信任以自动运行）："
+
+#: scanner.py:377
+msgid "Reversed string/bytes"
+msgstr "反转字符串/字节"
+
+#: scanner.py:377
+msgid "Runtime decoding"
+msgstr "运行时解码"
+
+#: scanner.py:45
+#: scanner.py:46
+msgid "S"
+msgstr "S"
+
+#: __init__.py:55
+msgid "SHA-256"
+msgstr "SHA-256"
+
+#: __init__.py:56
+msgid "Script"
+msgstr "脚本"
+
+#: __init__.py:511
+msgid "Script untrusted"
+msgstr "脚本未受信任"
+
+#: __init__.py:349
+#: __init__.py:440
+msgid "Security concerns (%d):"
+msgstr "安全问题（%d）："
+
+#: scanner.py:43
+msgid "ShaderNodeScript|\\.osl\\b|#\\s*include\\s*[<\\\"]stdosl"
+msgstr "ShaderNodeScript|\\.osl\\b|#\\s*include\\s*[<\\\"]stdosl"
+
+#: scanner.py:377
+msgid "Shell invocation"
+msgstr "Shell 调用"
+
+#: scanner.py:377
+msgid "Spawns a subprocess"
+msgstr "启动子进程"
+
+#: scanner.py:377
+msgid "Telegram bot API"
+msgstr "Telegram 机器人 API"
+
+#: scanner.py:377
+msgid "Temp file"
+msgstr "临时文件"
+
+#: __init__.py:572
+msgid "This file: %s"
+msgstr "此文件：%s"
+
+#: __init__.py:561
+msgid "Trusted auto-run is paused while global Auto-Run is on."
+msgstr "全局自动运行开启时，受信任的自动运行已暂停。"
+
+#: __init__.py:87
+msgid "Trusted scripts (auto-run by exact content): %d"
+msgstr "受信任脚本（按精确内容自动运行）：%d"
+
+#: __init__.py:331
+msgid "Trusted scripts auto-run on open (exact content only)."
+msgstr "受信任脚本在打开文件时自动运行（仅限精确内容）。"
+
+#: __init__.py:69
+msgid "When ON, scripts you explicitly trusted (by exact content) run on open, so your rig UIs come up without pressing Run. Only exact-hash matches run, and only while Blender's global Auto-Run is OFF. Turn this off to suspend all auto-running."
+msgstr "开启后，你明确信任的脚本（按精确内容）会在打开时运行，因此你的绑定 UI 无需点击运行即可出现。只有哈希完全匹配的脚本才会运行，且仅在 Blender 全局自动运行关闭时。关闭此项可暂停所有自动运行。"
+
+#: scanner.py:377
+msgid "Windows registry write"
+msgstr "写入 Windows 注册表"
+
+#: scanner.py:377
+msgid "Writes a file"
+msgstr "写入文件"
+
+#: scanner.py:377
+msgid "Writes an executable/script file"
+msgstr "写入可执行/脚本文件"
+
+#: scanner.py:56
+#: scanner.py:61
+msgid "X"
+msgstr "X"
+
+#: scanner.py:58
+msgid "\\.join\\s*\\([^)]{0,40}chr\\s*\\(|chr\\s*\\(\\s*\\w+\\s*\\)\\s*for\\s+\\w+\\s+in|(?:chr\\s*\\(\\s*\\d+\\s*\\)\\s*\\+?\\s*){3,}"
+msgstr "\\.join\\s*\\([^)]{0,40}chr\\s*\\(|chr\\s*\\(\\s*\\w+\\s*\\)\\s*for\\s+\\w+\\s+in|(?:chr\\s*\\(\\s*\\d+\\s*\\)\\s*\\+?\\s*){3,}"
+
+#: scanner.py:59
+msgid "\\[::-1\\]"
+msgstr "\\[::-1\\]"
+
+#: scanner.py:36
+msgid "\\b(?:\\d{1,3}\\.){3}\\d{1,3}\\b"
+msgstr "\\b(?:\\d{1,3}\\.){3}\\d{1,3}\\b"
+
+#: scanner.py:45
+msgid "\\b(?:exec|eval)\\s*\\("
+msgstr "\\b(?:exec|eval)\\s*\\("
+
+#: scanner.py:42
+msgid "\\b(?:import|from)\\s+(?:ctypes|winreg|marshal|socket)\\b"
+msgstr "\\b(?:import|from)\\s+(?:ctypes|winreg|marshal|socket)\\b"
+
+#: scanner.py:55
+msgid "\\b(?:marshal|pickle)\\.loads?\\s*\\("
+msgstr "\\b(?:marshal|pickle)\\.loads?\\s*\\("
+
+#: scanner.py:54
+msgid "\\bctypes\\.(?:windll|cdll|CDLL|WinDLL|cast|memmove|create_string_buffer)\\b"
+msgstr "\\bctypes\\.(?:windll|cdll|CDLL|WinDLL|cast|memmove|create_string_buffer)\\b"
+
+#: scanner.py:38
+msgid "\\bopen\\s*\\([^)]*['\\\"](?:w|wb|a|ab)['\\\"]|\\.write_(?:bytes|text)\\s*\\(|\\bos\\.(?:remove|unlink|write|open)\\s*\\(|\\bio\\.open\\s*\\(|shutil\\.(?:rmtree|move|copy\\w*)\\b"
+msgstr "\\bopen\\s*\\([^)]*['\\\"](?:w|wb|a|ab)['\\\"]|\\.write_(?:bytes|text)\\s*\\(|\\bos\\.(?:remove|unlink|write|open)\\s*\\(|\\bio\\.open\\s*\\(|shutil\\.(?:rmtree|move|copy\\w*)\\b"
+
+#: scanner.py:49
+msgid "\\bos\\.(?:system|popen|startfile)\\s*\\(|\\bos\\.exec[lv]\\w*\\s*\\("
+msgstr "\\bos\\.(?:system|popen|startfile)\\s*\\(|\\bos\\.exec[lv]\\w*\\s*\\("
+
+#: scanner.py:50
+msgid "\\bsubprocess\\.(?:Popen|run|call|check_output|check_call|getoutput)\\s*\\("
+msgstr "\\bsubprocess\\.(?:Popen|run|call|check_output|check_call|getoutput)\\s*\\("
+
+#: scanner.py:41
+msgid "\\btempfile\\.(?:NamedTemporaryFile|mkstemp|gettempdir)\\b"
+msgstr "\\btempfile\\.(?:NamedTemporaryFile|mkstemp|gettempdir)\\b"
+
+#: scanner.py:53
+msgid "\\burlopen\\s*\\(|\\brequests\\.(?:get|post|put|head)\\s*\\(|\\bsocket\\.socket\\s*\\(|\\.sendall\\s*\\(|http\\.client\\.HTTPS?Connection|\\.connect\\s*\\(\\s*\\("
+msgstr "\\burlopen\\s*\\(|\\brequests\\.(?:get|post|put|head)\\s*\\(|\\bsocket\\.socket\\s*\\(|\\.sendall\\s*\\(|http\\.client\\.HTTPS?Connection|\\.connect\\s*\\(\\s*\\("
+
+#: scanner.py:46
+msgid "__import__\\s*\\("
+msgstr "__import__\\s*\\("
+
+#: scanner.py:47
+msgid "__import__\\s*\\([^)]*\\)\\s*\\.\\s*\\w+"
+msgstr "__import__\\s*\\([^)]*\\)\\s*\\.\\s*\\w+"
+
+#: scanner.py:40
+msgid "base64\\.(?:b64decode|urlsafe_b64decode|standard_b64decode|b85decode|a85decode|b32decode)\\s*\\(|bytes\\.fromhex\\s*\\(|binascii\\.unhexlify\\s*\\(|codecs\\.decode\\s*\\([^)]*(?:hex|rot_?13|base64|zlib|uu)"
+msgstr "base64\\.(?:b64decode|urlsafe_b64decode|standard_b64decode|b85decode|a85decode|b32decode)\\s*\\(|bytes\\.fromhex\\s*\\(|binascii\\.unhexlify\\s*\\(|codecs\\.decode\\s*\\([^)]*(?:hex|rot_?13|base64|zlib|uu)"
+
+#: scanner.py:377
+msgid "getattr against __import__"
+msgstr "对 __import__ 使用 getattr"
+
+#: scanner.py:48
+msgid "getattr\\s*\\(\\s*__import__"
+msgstr "getattr\\s*\\(\\s*__import__"
+
+#: scanner.py:35
+msgid "https?://[^\\s'\\\"]+"
+msgstr "https?://[^\\s'\\\"]+"
+
+#: scanner.py:377
+msgid "marshal/pickle.loads"
+msgstr "marshal/pickle.loads"
+
+#: __init__.py:309
+msgid "usually fine:"
+msgstr "通常无碍："
+
+#: __init__.py:307
+msgid "when it matters:"
+msgstr "关键时："
+
+#: __init__.py:517
+msgctxt "Operator"
+msgid "Clear All Trusted Scripts"
+msgstr "清除所有受信任脚本"
+
+#: __init__.py:453
+msgctxt "Operator"
+msgid "Disable Auto-Run Python Scripts"
+msgstr "禁用自动运行 Python 脚本"
+
+#: __init__.py:518
+msgctxt "Operator"
+msgid "Forget every trusted script. Nothing will auto-run until you trust scripts again"
+msgstr "忘记所有受信任脚本。在你重新信任脚本之前，不会有任何自动运行"
+
+#: __init__.py:400
+msgctxt "Operator"
+msgid "Inspect This File"
+msgstr "检查此文件"
+
+#: __init__.py:414
+msgctxt "Operator"
+msgid "Quick pre-check of a .blend on disk WITHOUT opening it. Compressed files cannot be fully read; for those, open with Auto-Run off and use Inspect"
+msgstr "不打开文件，对磁盘上的 .blend 进行快速预检。压缩文件无法完整读取；对于此类文件，请在关闭自动运行的情况下打开并使用“检查”"
+
+#: __init__.py:467
+msgctxt "Operator"
+msgid "Remember this exact script and let it auto-run when you open files. Trust only scripts you understand: a trusted script is executed on open"
+msgstr "记住此精确脚本，并在打开文件时让它自动运行。只信任你理解的脚本：受信任脚本会在打开时执行"
+
+#: __init__.py:413
+msgctxt "Operator"
+msgid "Scan a .blend on Disk"
+msgstr "扫描磁盘上的 .blend"
+
+#: __init__.py:401
+msgctxt "Operator"
+msgid "Show what would auto-run and any security concerns, without executing anything"
+msgstr "显示将会自动运行的内容及任何安全问题，而不执行任何东西"
+
+#: __init__.py:501
+msgctxt "Operator"
+msgid "Stop auto-running this script. It will need explicit approval again"
+msgstr "停止自动运行此脚本。它将再次需要明确批准"
+
+#: __init__.py:327
+msgctxt "Operator"
+msgid "Trust"
+msgstr "信任"
+
+#: __init__.py:466
+msgctxt "Operator"
+msgid "Trust this script so it auto-runs on open?"
+msgstr "信任此脚本，使其在打开时自动运行？"
+
+#: __init__.py:324
+msgctxt "Operator"
+msgid "Trusted"
+msgstr "受信任"
+
+#: __init__.py:500
+msgctxt "Operator"
+msgid "Untrust Script"
+msgstr "取消信任脚本"
+
+#: __init__.py:533
+msgctxt "Operator"
+msgid "Write Full Report to Text"
+msgstr "将完整报告写入文本"
+
+#: __init__.py:534
+msgctxt "Operator"
+msgid "Write the complete report (with every explanation) to a Text datablock you can read in the Text Editor"
+msgstr "将完整报告（包含所有说明）写入一个文本数据块，你可以在文本编辑器中阅读"

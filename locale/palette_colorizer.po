@@ -1,0 +1,766 @@
+# perfect-chinese: 1
+# id: palette_colorizer
+# kind: addon
+# module: bl_ext.blender_org.palette_colorizer
+# name: Palette Colorizer
+# name_zh: 调色板着色
+# translator: KeshiMiao
+# category: Material
+# supported_versions: >=5.0.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: palette_colorizer/preferences.py:34
+msgid "About"
+msgstr "关于"
+
+#: palette_colorizer/properties.py:241
+msgid "Adjacent Contrast"
+msgstr "相邻对比度"
+
+#: palette_colorizer/properties.py:251
+msgid "Affect all visible objects in the viewport"
+msgstr "影响视图中所有可见物体"
+
+#: palette_colorizer/properties.py:252
+msgid "Affect every valid object in the scene"
+msgstr "影响场景中所有有效物体"
+
+#: palette_colorizer/properties.py:250
+msgid "Affect only selected objects"
+msgstr "仅影响选中的物体"
+
+#: palette_colorizer/properties.py:252
+msgid "All"
+msgstr "全部"
+
+#: palette_colorizer/properties.py:157
+msgid "Apply colors to Principled BSDF showcase materials"
+msgstr "将颜色应用到 Principled BSDF 展示材质"
+
+#: palette_colorizer/properties.py:158
+msgid "Apply colors to both viewport object color and render materials"
+msgstr "同时将颜色应用到视图物体颜色和渲染材质"
+
+#: palette_colorizer/properties.py:156
+msgid "Apply colors to viewport object color (obj.color)"
+msgstr "将颜色应用到视图物体颜色 (obj.color)"
+
+#: palette_colorizer/ui.py:229
+msgid "Architecture"
+msgstr "架构"
+
+#: palette_colorizer/properties.py:233
+msgid "Assign a color to each individual object"
+msgstr "为每个单独物体分配颜色"
+
+#: palette_colorizer/properties.py:234
+msgid "Assign a shared color to all objects in the same collection"
+msgstr "为同一集合中的所有物体分配共享颜色"
+
+#: palette_colorizer/properties.py:235
+msgid "Assign a shared color to each parent hierarchy assembly"
+msgstr "为每个父级层级组合分配共享颜色"
+
+#: palette_colorizer/properties.py:225
+msgid "Assign a stable color based on object or group name"
+msgstr "根据物体或组名称分配稳定的颜色"
+
+#: palette_colorizer/preferences.py:82
+msgid "Assign color palettes to viewport objects and showcase shaders."
+msgstr "为视图物体分配调色板并展示着色器。"
+
+#: palette_colorizer/properties.py:223
+msgid "Assign colors in palette order"
+msgstr "按调色板顺序分配颜色"
+
+#: palette_colorizer/properties.py:224
+msgid "Assign colors randomly from palette using the seed"
+msgstr "使用种子从调色板中随机分配颜色"
+
+#: palette_colorizer/properties.py:236
+msgid "Assign colors to disconnected mesh islands inside each object"
+msgstr "为每个物体内部不相连的网格孤岛分配颜色"
+
+#: palette_colorizer/preferences.py:81
+msgid "Author: Klra"
+msgstr "作者：Klra"
+
+#: palette_colorizer/properties.py:263
+msgid "Auto-Switch Viewport Shading"
+msgstr "自动切换视图着色"
+
+#: palette_colorizer/properties.py:263
+msgid "Automatically set the active 3D Viewport shading color mode"
+msgstr "自动设置活动 3D 视图的着色颜色模式"
+
+#: palette_colorizer/properties.py:94
+msgid "Automatically update object colors when you change settings or add and duplicate objects"
+msgstr "当更改设置或添加、复制物体时自动更新物体颜色"
+
+#: palette_colorizer/properties.py:158
+msgid "Both"
+msgstr "两者"
+
+#: palette_colorizer/properties.py:225
+msgid "By Name"
+msgstr "按名称"
+
+#: palette_colorizer/properties.py:107
+msgid "Click to inspect or edit Swatch 1 (forks preset into Custom mode)"
+msgstr "点击以检查或编辑色板 1（将预设切换为自定义模式）"
+
+#: palette_colorizer/properties.py:112
+msgid "Click to inspect or edit Swatch 2 (forks preset into Custom mode)"
+msgstr "点击以检查或编辑色板 2（将预设切换为自定义模式）"
+
+#: palette_colorizer/properties.py:117
+msgid "Click to inspect or edit Swatch 3 (forks preset into Custom mode)"
+msgstr "点击以检查或编辑色板 3（将预设切换为自定义模式）"
+
+#: palette_colorizer/properties.py:122
+msgid "Click to inspect or edit Swatch 4 (forks preset into Custom mode)"
+msgstr "点击以检查或编辑色板 4（将预设切换为自定义模式）"
+
+#: palette_colorizer/properties.py:127
+msgid "Click to inspect or edit Swatch 5 (forks preset into Custom mode)"
+msgstr "点击以检查或编辑色板 5（将预设切换为自定义模式）"
+
+#: palette_colorizer/properties.py:132
+msgid "Click to inspect or edit Swatch 6 (forks preset into Custom mode)"
+msgstr "点击以检查或编辑色板 6（将预设切换为自定义模式）"
+
+#: palette_colorizer/properties.py:137
+msgid "Click to inspect or edit Swatch 7 (forks preset into Custom mode)"
+msgstr "点击以检查或编辑色板 7（将预设切换为自定义模式）"
+
+#: palette_colorizer/properties.py:142
+msgid "Click to inspect or edit Swatch 8 (forks preset into Custom mode)"
+msgstr "点击以检查或编辑色板 8（将预设切换为自定义模式）"
+
+#: palette_colorizer/properties.py:77
+msgid "Color"
+msgstr "颜色"
+
+#: palette_colorizer/operators.py:635
+#: palette_colorizer/operators.py:668
+msgid "Could not read pixel data from the selected image."
+msgstr "无法从所选图像读取像素数据。"
+
+#: palette_colorizer/operators.py:717
+msgid "Count"
+msgstr "数量"
+
+#: palette_colorizer/properties.py:171
+msgid "Create one shared material per palette swatch color"
+msgstr "为每个调色板色板颜色创建一个共享材质"
+
+#: palette_colorizer/preferences.py:23
+msgid "Display a quick-access Preferences gear button in the 3D Viewport Palette panel header"
+msgstr "在 3D 视图调色板面板标题栏显示快捷设置齿轮按钮"
+
+#: palette_colorizer/properties.py:220
+msgid "Distribution"
+msgstr "分布"
+
+#: palette_colorizer/ui.py:309
+msgid "Enable add-on to use library."
+msgstr "启用插件以使用库。"
+
+#: palette_colorizer/preferences.py:32
+msgid "General"
+msgstr "常规"
+
+#: palette_colorizer/preferences.py:32
+msgid "General add-on settings"
+msgstr "常规插件设置"
+
+#: palette_colorizer/properties.py:230
+msgid "Group By"
+msgstr "分组依据"
+
+#: palette_colorizer/properties.py:148
+msgid "Image"
+msgstr "图像"
+
+#: palette_colorizer/properties.py:257
+msgid "Include Curve, Surface, Meta, and Text objects in addition to Meshes"
+msgstr "除网格外，还包括曲线、曲面、融球和文本物体"
+
+#: palette_colorizer/properties.py:257
+msgid "Include Curves & Text"
+msgstr "包括曲线和文本"
+
+#: palette_colorizer/operators.py:862
+msgid "Invalid library index."
+msgstr "无效的库索引。"
+
+#: palette_colorizer/properties.py:74
+msgid "JSON"
+msgstr "JSON"
+
+#: palette_colorizer/ui.py:284
+msgid "JSON File"
+msgstr "JSON 文件"
+
+#: palette_colorizer/properties.py:268
+msgid "Keep the current alpha value of each object"
+msgstr "保留每个物体的当前 Alpha 值"
+
+#: palette_colorizer/properties.py:94
+msgid "Live Update"
+msgstr "实时更新"
+
+#: palette_colorizer/preferences.py:33
+msgid "Manage saved palettes that persist across blend files"
+msgstr "管理可跨 blend 文件保留的已保存调色板"
+
+#: palette_colorizer/properties.py:163
+msgid "Material Mode"
+msgstr "材质模式"
+
+#: palette_colorizer/properties.py:157
+msgid "Materials"
+msgstr "材质"
+
+#: palette_colorizer/properties.py:176
+msgid "Mesh Color Attribute"
+msgstr "网格颜色属性"
+
+#: palette_colorizer/properties.py:194
+msgid "Metallic"
+msgstr "金属度"
+
+#: palette_colorizer/properties.py:194
+msgid "Metallic value for all Palette Colorizer materials"
+msgstr "所有 Palette Colorizer 材质的金属度值"
+
+#: palette_colorizer/ui.py:290
+msgid "My Library"
+msgstr "我的库"
+
+#: palette_colorizer/properties.py:73
+#: palette_colorizer/ui.py:144
+msgid "Name"
+msgstr "名称"
+
+#: palette_colorizer/properties.py:101
+msgid "Name used when you save or export this custom palette"
+msgstr "保存或导出此自定义调色板时使用的名称"
+
+#: palette_colorizer/operators.py:547
+#: palette_colorizer/operators.py:565
+msgid "No objects selected."
+msgstr "未选择物体。"
+
+#: palette_colorizer/preferences.py:76
+msgid "No saved palettes in library yet."
+msgstr "库中尚无已保存的调色板。"
+
+#: palette_colorizer/ui.py:307
+msgid "No saved palettes yet."
+msgstr "尚无已保存的调色板。"
+
+#: palette_colorizer/operators.py:432
+#: palette_colorizer/operators.py:447
+msgid "No unlocked target objects found."
+msgstr "未找到未锁定的目标物体。"
+
+#: palette_colorizer/operators.py:488
+msgid "No valid target objects found."
+msgstr "未找到有效的目标物体。"
+
+#: palette_colorizer/operators.py:478
+msgid "Only Palette Materials"
+msgstr "仅调色板材质"
+
+#: palette_colorizer/operators.py:478
+msgid "Only remove materials created by Palette Colorizer (PC_*)"
+msgstr "仅移除由 Palette Colorizer 创建的材质（PC_*）"
+
+#: palette_colorizer/properties.py:153
+msgid "Output"
+msgstr "输出"
+
+#: palette_colorizer/properties.py:88
+#: palette_colorizer/ui.py:108
+msgid "Palette"
+msgstr "调色板"
+
+#: palette_colorizer/ui.py:104
+msgid "Palette Colorizer"
+msgstr "Palette Colorizer"
+
+#: palette_colorizer/preferences.py:80
+msgid "Palette Colorizer 1.2.1 for Blender 5.0+"
+msgstr "Palette Colorizer 1.2.1（适用于 Blender 5.0+）"
+
+#: palette_colorizer/properties.py:101
+msgid "Palette Name"
+msgstr "调色板名称"
+
+#: palette_colorizer/properties.py:282
+msgid "Paste String"
+msgstr "粘贴字符串"
+
+#: palette_colorizer/operators.py:762
+msgid "Paste String field and clipboard are both empty."
+msgstr "粘贴字符串字段和剪贴板均为空。"
+
+#: palette_colorizer/properties.py:282
+msgid "Paste a palette share string here, then select Import Pasted String"
+msgstr "在此粘贴调色板分享字符串，然后选择导入粘贴的字符串"
+
+#: palette_colorizer/properties.py:234
+msgid "Per Collection"
+msgstr "按集合"
+
+#: palette_colorizer/properties.py:236
+msgid "Per Mesh Island"
+msgstr "按网格孤岛"
+
+#: palette_colorizer/properties.py:233
+msgid "Per Object"
+msgstr "按物体"
+
+#: palette_colorizer/properties.py:235
+msgid "Per Root Parent"
+msgstr "按根父级"
+
+#: palette_colorizer/properties.py:171
+msgid "Per Swatch"
+msgstr "按色板"
+
+#: palette_colorizer/properties.py:268
+msgid "Preserve Alpha"
+msgstr "保留 Alpha"
+
+#: palette_colorizer/properties.py:212
+msgid "Protect Existing Materials"
+msgstr "保护现有材质"
+
+#: palette_colorizer/properties.py:224
+msgid "Random"
+msgstr "随机"
+
+#: palette_colorizer/properties.py:241
+msgid "Reduce duplicate random colors on touching or overlapping neighbor objects"
+msgstr "减少相邻接触或重叠物体上重复的随机颜色"
+
+#: palette_colorizer/properties.py:185
+msgid "Roughness"
+msgstr "粗糙度"
+
+#: palette_colorizer/preferences.py:33
+msgid "Saved Library"
+msgstr "已保存库"
+
+#: palette_colorizer/preferences.py:61
+msgid "Saved Palette Library (Persists Across Blend Files)"
+msgstr "已保存的调色板库（跨 .blend 文件保留）"
+
+#: palette_colorizer/properties.py:247
+msgid "Scope"
+msgstr "范围"
+
+#: palette_colorizer/properties.py:274
+#: palette_colorizer/ui.py:183
+msgid "Seed"
+msgstr "种子"
+
+#: palette_colorizer/properties.py:274
+msgid "Seed value for random color assignment (1 through 9999)"
+msgstr "随机颜色分配的种子值（1 到 9999）"
+
+#: palette_colorizer/operators.py:631
+msgid "Select a Source Image or click Browse Image first."
+msgstr "请先选择源图像或点击浏览图像。"
+
+#: palette_colorizer/properties.py:88
+msgid "Select a built-in, theme, saved, or custom palette"
+msgstr "选择内置、主题、已保存或自定义调色板"
+
+#: palette_colorizer/properties.py:148
+msgid "Select a loaded image to sample dominant colors into the Custom palette"
+msgstr "选择已加载的图像，以提取主色到自定义调色板"
+
+#: palette_colorizer/operators.py:659
+msgid "Select a valid image file."
+msgstr "请选择有效的图像文件。"
+
+#: palette_colorizer/properties.py:250
+msgid "Selected"
+msgstr "选中项"
+
+#: palette_colorizer/properties.py:223
+msgid "Sequential"
+msgstr "顺序"
+
+#: palette_colorizer/ui.py:263
+msgid "Share & Library"
+msgstr "分享与库"
+
+#: palette_colorizer/ui.py:277
+msgid "Share String"
+msgstr "分享字符串"
+
+#: palette_colorizer/properties.py:166
+msgid "Shared Master (1 Mat)"
+msgstr "共享主材质（1 个材质）"
+
+#: palette_colorizer/preferences.py:23
+msgid "Show Preferences Button in Sidebar Header"
+msgstr "在侧边栏标题栏显示偏好设置按钮"
+
+#: palette_colorizer/ui.py:213
+msgid "Showcase Materials"
+msgstr "展示材质"
+
+#: palette_colorizer/properties.py:203
+msgid "Specular"
+msgstr "高光"
+
+#: palette_colorizer/properties.py:203
+msgid "Specular IOR level for all Palette Colorizer materials"
+msgstr "所有 Palette Colorizer 材质的高光 IOR 级别"
+
+#: palette_colorizer/properties.py:185
+msgid "Surface roughness for all Palette Colorizer materials"
+msgstr "所有 Palette Colorizer 材质的表面粗糙度"
+
+#: palette_colorizer/properties.py:107
+msgid "Swatch 1"
+msgstr "色板 1"
+
+#: palette_colorizer/properties.py:112
+msgid "Swatch 2"
+msgstr "色板 2"
+
+#: palette_colorizer/properties.py:117
+msgid "Swatch 3"
+msgstr "色板 3"
+
+#: palette_colorizer/properties.py:122
+msgid "Swatch 4"
+msgstr "色板 4"
+
+#: palette_colorizer/properties.py:127
+msgid "Swatch 5"
+msgstr "色板 5"
+
+#: palette_colorizer/properties.py:132
+msgid "Swatch 6"
+msgstr "色板 6"
+
+#: palette_colorizer/properties.py:137
+msgid "Swatch 7"
+msgstr "色板 7"
+
+#: palette_colorizer/properties.py:142
+msgid "Swatch 8"
+msgstr "色板 8"
+
+#: palette_colorizer/preferences.py:29
+msgid "Tabs"
+msgstr "标签页"
+
+#: palette_colorizer/properties.py:166
+msgid "Use a single shared material reading Object Info Color across all objects"
+msgstr "在所有物体上使用读取物体信息颜色的单一共享材质"
+
+#: palette_colorizer/preferences.py:34
+msgid "Version and documentation links"
+msgstr "版本与文档链接"
+
+#: palette_colorizer/properties.py:156
+msgid "Viewport"
+msgstr "视图"
+
+#: palette_colorizer/ui.py:243
+msgid "Viewport Options"
+msgstr "视图选项"
+
+#: palette_colorizer/properties.py:251
+msgid "Visible"
+msgstr "可见项"
+
+#: palette_colorizer/properties.py:212
+msgid "When enabled, skip objects that already have non-palette materials. When disabled, add a temporary palette material slot without overwriting existing materials"
+msgstr "启用时，跳过已有非调色板材质的物体。禁用时，添加临时调色板材质槽，但不覆盖现有材质"
+
+#: palette_colorizer/properties.py:176
+msgid "Write colors to the PC_Color mesh attribute and render via an Attribute node"
+msgstr "将颜色写入 PC_Color 网格属性，并通过属性节点渲染"
+
+#: palette_colorizer/operators.py:682
+msgctxt "Operator"
+msgid "Add Color"
+msgstr "添加颜色"
+
+#: palette_colorizer/operators.py:683
+msgctxt "Operator"
+msgid "Add a new color slot to the custom palette"
+msgstr "向自定义调色板添加新的颜色槽"
+
+#: palette_colorizer/operators.py:424
+#: palette_colorizer/ui.py:209
+msgctxt "Operator"
+msgid "Apply Palette"
+msgstr "应用调色板"
+
+#: palette_colorizer/operators.py:439
+#: palette_colorizer/ui.py:239
+msgctxt "Operator"
+msgid "Assign Materials"
+msgstr "指定材质"
+
+#: palette_colorizer/operators.py:425
+msgctxt "Operator"
+msgid "Assign active palette colors and materials to target objects"
+msgstr "将活动调色板颜色和材质指定给目标物体"
+
+#: palette_colorizer/operators.py:440
+msgctxt "Operator"
+msgid "Assign showcase materials to target objects for Cycles and EEVEE rendering"
+msgstr "为目标物体指定展示材质以用于 Cycles 和 EEVEE 渲染"
+
+#: palette_colorizer/operators.py:647
+#: palette_colorizer/ui.py:165
+msgctxt "Operator"
+msgid "Browse Image..."
+msgstr "浏览图像..."
+
+#: palette_colorizer/operators.py:474
+#: palette_colorizer/ui.py:240
+msgctxt "Operator"
+msgid "Clear Materials"
+msgstr "清除材质"
+
+#: palette_colorizer/ui.py:278
+msgctxt "Operator"
+msgid "Copy Active Palette String"
+msgstr "复制活动调色板字符串"
+
+#: palette_colorizer/operators.py:736
+msgctxt "Operator"
+msgid "Copy Share String"
+msgstr "复制分享字符串"
+
+#: palette_colorizer/operators.py:605
+msgctxt "Operator"
+msgid "Copy the active palette into the Custom Palette editor for tweaking"
+msgstr "将活动调色板复制到自定义调色板编辑器以进行调整"
+
+#: palette_colorizer/operators.py:604
+msgctxt "Operator"
+msgid "Edit in Custom"
+msgstr "在自定义中编辑"
+
+#: palette_colorizer/operators.py:737
+msgctxt "Operator"
+msgid "Encode active palette as a compact JSON string and copy to clipboard"
+msgstr "将活动调色板编码为紧凑的 JSON 字符串并复制到剪贴板"
+
+#: palette_colorizer/ui.py:286
+msgctxt "Operator"
+msgid "Export .json"
+msgstr "导出 .json"
+
+#: palette_colorizer/operators.py:778
+msgctxt "Operator"
+msgid "Export Palette (.json)"
+msgstr "导出调色板（.json）"
+
+#: palette_colorizer/operators.py:714
+msgctxt "Operator"
+msgid "Fill custom palette with evenly distributed hues"
+msgstr "用均匀分布的色相填充自定义调色板"
+
+#: palette_colorizer/operators.py:713
+msgctxt "Operator"
+msgid "Generate Hues"
+msgstr "生成色相"
+
+#: palette_colorizer/preferences.py:84
+msgctxt "Operator"
+msgid "GitHub Repository"
+msgstr "GitHub 仓库"
+
+#: palette_colorizer/ui.py:281
+msgctxt "Operator"
+msgid "Import"
+msgstr "导入"
+
+#: palette_colorizer/ui.py:287
+msgctxt "Operator"
+msgid "Import .json"
+msgstr "导入 .json"
+
+#: palette_colorizer/operators.py:803
+msgctxt "Operator"
+msgid "Import Palette (.json)"
+msgstr "导入调色板（.json）"
+
+#: palette_colorizer/operators.py:754
+msgctxt "Operator"
+msgid "Import Pasted String"
+msgstr "导入粘贴的字符串"
+
+#: palette_colorizer/operators.py:591
+msgctxt "Operator"
+msgid "Increment or decrement the random seed by 1"
+msgstr "将随机种子增加或减少 1"
+
+#: palette_colorizer/operators.py:852
+msgctxt "Operator"
+msgid "Load"
+msgstr "加载"
+
+#: palette_colorizer/operators.py:804
+msgctxt "Operator"
+msgid "Load a JSON palette file into the Custom palette slot"
+msgstr "将 JSON 调色板文件加载到自定义调色板槽"
+
+#: palette_colorizer/operators.py:853
+msgctxt "Operator"
+msgid "Load this library palette into the Custom slot"
+msgstr "将此库调色板加载到自定义槽"
+
+#: palette_colorizer/operators.py:540
+msgctxt "Operator"
+msgid "Lock Selected"
+msgstr "锁定所选"
+
+#: palette_colorizer/operators.py:893
+msgctxt "Operator"
+msgid "Open Add-on Preferences"
+msgstr "打开插件偏好设置"
+
+#: palette_colorizer/operators.py:894
+msgctxt "Operator"
+msgid "Open Palette Colorizer preferences and saved palette library"
+msgstr "打开 Palette Colorizer 偏好设置和已保存的调色板库"
+
+#: palette_colorizer/operators.py:755
+msgctxt "Operator"
+msgid "Parse the palette string from the Paste field or clipboard into Custom mode"
+msgstr "将粘贴字段或剪贴板中的调色板字符串解析到自定义模式"
+
+#: palette_colorizer/ui.py:202
+msgctxt "Operator"
+msgid "Pin Selected"
+msgstr "固定所选"
+
+#: palette_colorizer/operators.py:541
+msgctxt "Operator"
+msgid "Pin current palette colors on selected objects so seed and palette changes skip them"
+msgstr "将当前调色板颜色固定在所选物体上，使种子和调色板更改跳过它们"
+
+#: palette_colorizer/operators.py:577
+msgctxt "Operator"
+msgid "Randomize Seed"
+msgstr "随机化种子"
+
+#: palette_colorizer/operators.py:878
+msgctxt "Operator"
+msgid "Remove"
+msgstr "移除"
+
+#: palette_colorizer/operators.py:697
+msgctxt "Operator"
+msgid "Remove Color"
+msgstr "移除颜色"
+
+#: palette_colorizer/operators.py:475
+msgctxt "Operator"
+msgid "Remove temporary Palette Colorizer (PC_*) materials and color attributes from target objects"
+msgstr "从目标物体移除临时 Palette Colorizer（PC_*）材质和颜色属性"
+
+#: palette_colorizer/operators.py:698
+msgctxt "Operator"
+msgid "Remove the selected color slot from the custom palette"
+msgstr "从自定义调色板中移除所选颜色槽"
+
+#: palette_colorizer/operators.py:879
+msgctxt "Operator"
+msgid "Remove the selected palette from the library"
+msgstr "从库中移除所选调色板"
+
+#: palette_colorizer/preferences.py:87
+msgctxt "Operator"
+msgid "Report an Issue"
+msgstr "报告问题"
+
+#: palette_colorizer/operators.py:454
+#: palette_colorizer/ui.py:210
+msgctxt "Operator"
+msgid "Reset"
+msgstr "重置"
+
+#: palette_colorizer/operators.py:455
+msgctxt "Operator"
+msgid "Reset viewport colors to white on target unlocked objects"
+msgstr "将目标未锁定物体的视图颜色重置为白色"
+
+#: palette_colorizer/operators.py:624
+msgctxt "Operator"
+msgid "Sample 8 dominant colors from the selected image into the Custom Palette"
+msgstr "从所选图像中采样 8 种主色到自定义调色板"
+
+#: palette_colorizer/ui.py:164
+msgctxt "Operator"
+msgid "Sample Image"
+msgstr "采样图像"
+
+#: palette_colorizer/operators.py:623
+msgctxt "Operator"
+msgid "Sample Image Colors"
+msgstr "采样图像颜色"
+
+#: palette_colorizer/ui.py:311
+msgctxt "Operator"
+msgid "Save Active Palette to Library"
+msgstr "将活动调色板保存到库"
+
+#: palette_colorizer/operators.py:779
+msgctxt "Operator"
+msgid "Save the active palette to a JSON file"
+msgstr "将活动调色板保存为 JSON 文件"
+
+#: palette_colorizer/operators.py:827
+msgctxt "Operator"
+msgid "Save the active palette to the persistent add-on library"
+msgstr "将活动调色板保存到持久化插件库"
+
+#: palette_colorizer/operators.py:826
+msgctxt "Operator"
+msgid "Save to Library"
+msgstr "保存到库"
+
+#: palette_colorizer/operators.py:648
+msgctxt "Operator"
+msgid "Select an image file from disk and sample 8 dominant colors into the Custom Palette"
+msgstr "从磁盘选择图像文件并采样 8 种主色到自定义调色板"
+
+#: palette_colorizer/operators.py:578
+msgctxt "Operator"
+msgid "Select an unbiased random seed between 1 and 9999"
+msgstr "在 1 到 9999 之间选择无偏差随机种子"
+
+#: palette_colorizer/operators.py:590
+msgctxt "Operator"
+msgid "Step Seed"
+msgstr "步进种子"
+
+#: palette_colorizer/operators.py:558
+msgctxt "Operator"
+msgid "Unlock Selected"
+msgstr "解锁所选"
+
+#: palette_colorizer/operators.py:559
+msgctxt "Operator"
+msgid "Unpin selected objects so they receive new palette colors again"
+msgstr "取消固定所选物体，使其再次接收新的调色板颜色"

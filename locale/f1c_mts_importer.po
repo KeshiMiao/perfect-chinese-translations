@@ -1,0 +1,223 @@
+# perfect-chinese: 1
+# id: f1c_mts_importer
+# kind: addon
+# module: bl_ext.blender_org.f1c_mts_importer
+# name: F1 Challenge 99-02 MTS Importer
+# name_zh: MTS 导入器
+# translator: KeshiMiao
+# category: Import-Export
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: f1c_mts_importer/import_mts.py:921
+msgid "ANM File"
+msgstr "ANM 文件"
+
+#: f1c_mts_importer/import_mts.py:949
+msgid "ANM only: applied to"
+msgstr "仅 ANM：应用于"
+
+#: f1c_mts_importer/import_mts.py:916
+msgid "ANM selected in the browser, then AnimFile from a .gen, then an ANM in the same folder"
+msgstr "在浏览器中选择 ANM，然后从 .gen 选择 AnimFile，再选择同一文件夹中的 ANM"
+
+#: f1c_mts_importer/import_mts.py:913
+msgid "Animation"
+msgstr "动画"
+
+#: f1c_mts_importer/import_mts.py:941
+msgid "Animation (.anm)"
+msgstr "动画 (.anm)"
+
+#: f1c_mts_importer/export_mts.py:648
+msgid "Apply Modifiers"
+msgstr "应用修改器"
+
+#: f1c_mts_importer/import_mts.py:905
+msgid "Apply Pivot"
+msgstr "应用轴心"
+
+#: f1c_mts_importer/import_mts.py:916
+msgid "Auto Detect"
+msgstr "自动检测"
+
+#: f1c_mts_importer/import_mts.py:918
+msgid "By File Name"
+msgstr "按文件名"
+
+#: f1c_mts_importer/import_mts.py:903
+msgid "Custom Normals"
+msgstr "自定义法线"
+
+#: f1c_mts_importer/export_mts.py:649
+msgid "Export Rig (skinned)"
+msgstr "导出骨架（蒙皮）"
+
+#: f1c_mts_importer/export_mts.py:640
+msgid "Export every selected mesh as its own MTS, named like the object. Unchecked: only the active object"
+msgstr "将每个选中的网格导出为单独的 MTS，并以物体命名。未勾选：仅活动物体"
+
+#: f1c_mts_importer/__init__.py:1
+msgid "F1 Challenge 99-02 MTS Tools"
+msgstr "F1 Challenge 99-02 MTS 工具"
+
+#: f1c_mts_importer/export_mts.py:695
+msgid "Geometry"
+msgstr "几何体"
+
+#: f1c_mts_importer/import_mts.py:931
+msgid "Geometry (.mts)"
+msgstr "几何体 (.mts)"
+
+#: f1c_mts_importer/import_mts.py:913
+msgid "How to find the ANM file for animated meshes (driver arms)"
+msgstr "如何为动画网格（车手手臂）查找 ANM 文件"
+
+#: f1c_mts_importer/__init__.py:1
+msgid "Import and export F1 Challenge 99-02 MTS meshes (CUBE_MTS 4.01/4.10) incl. pivots, materials, driver-arm rigs and ANM animation"
+msgstr "导入和导出 F1 Challenge 99-02 MTS 网格（CUBE_MTS 4.01/4.10），包括轴心、材质、车手手臂骨架和 ANM 动画"
+
+#: f1c_mts_importer/import_mts.py:919
+msgid "Import the rig without animation"
+msgstr "导入不带动画的骨架"
+
+#: f1c_mts_importer/__init__.py:1
+msgid "Import-Export"
+msgstr "导入/导出"
+
+#: f1c_mts_importer/export_mts.py:685
+msgid "Include"
+msgstr "包含"
+
+#: f1c_mts_importer/import_mts.py:947
+msgid "MTS + ANM: Ctrl+click both files"
+msgstr "MTS + ANM：Ctrl+单击两个文件"
+
+#: f1c_mts_importer/import_mts.py:937
+msgid "Materials"
+msgstr "材质"
+
+#: f1c_mts_importer/import_mts.py:907
+msgid "Merge Vertices"
+msgstr "合并顶点"
+
+#: f1c_mts_importer/import_mts.py:907
+msgid "Merge duplicate vertices (can break UV seams)"
+msgstr "合并重复顶点（可能破坏 UV 缝合线）"
+
+#: f1c_mts_importer/export_mts.py:649
+msgid "Meshes with an Armature modifier are written as skinned MTS (64 byte vertices + bone table, like DriverArms)"
+msgstr "带有骨架修改器的网格将写为蒙皮 MTS（64 字节顶点 + 骨骼表，类似 DriverArms）"
+
+#: f1c_mts_importer/import_mts.py:939
+msgid "Missing textures become named placeholders"
+msgstr "缺失的纹理将替换为命名占位符"
+
+#: f1c_mts_importer/import_mts.py:910
+msgid "Multiply the base texture with the vertex color attribute"
+msgstr "将基础纹理与顶点颜色属性相乘"
+
+#: f1c_mts_importer/import_mts.py:970
+msgid "No MTS rig found - import the driver arms .mts first (or select its rig)"
+msgstr "未找到 MTS 骨架 - 请先导入车手手臂 .mts（或选择其骨架）"
+
+#: f1c_mts_importer/export_mts.py:703
+msgid "No mesh object selected"
+msgstr "未选择网格物体"
+
+#: f1c_mts_importer/import_mts.py:919
+msgid "None"
+msgstr "无"
+
+#: f1c_mts_importer/export_mts.py:644
+msgid "Object Origin as Pivot"
+msgstr "物体原点作为轴心"
+
+#: f1c_mts_importer/import_mts.py:918
+msgid "Only use the ANM file name entered below"
+msgstr "仅使用下方输入的 ANM 文件名"
+
+#: f1c_mts_importer/import_mts.py:921
+msgid "Optional ANM file name next to the MTS, e.g. catsteer.anm"
+msgstr "MTS 旁的可选 ANM 文件名，例如 catsteer.anm"
+
+#: f1c_mts_importer/import_mts.py:905
+msgid "Place the object at the pivot stored in the MTS (e.g. wheels)"
+msgstr "将物体放置在 MTS 中存储的轴心处（例如车轮）"
+
+#: f1c_mts_importer/export_mts.py:653
+#: f1c_mts_importer/import_mts.py:901
+msgid "Scale"
+msgstr "缩放"
+
+#: f1c_mts_importer/import_mts.py:901
+msgid "Scale factor for the imported geometry"
+msgstr "导入几何体的缩放系数"
+
+#: f1c_mts_importer/import_mts.py:961
+msgid "Select an .mts or .anm file"
+msgstr "选择 .mts 或 .anm 文件"
+
+#: f1c_mts_importer/export_mts.py:640
+msgid "Selected Objects"
+msgstr "选中物体"
+
+#: f1c_mts_importer/import_mts.py:923
+msgid "Set Scene FPS / Range"
+msgstr "设置场景 FPS / 范围"
+
+#: f1c_mts_importer/import_mts.py:923
+msgid "Set scene frame rate and frame range from the ANM"
+msgstr "从 ANM 设置场景帧率和帧范围"
+
+#: f1c_mts_importer/export_mts.py:644
+msgid "Store the object origin as MTS pivot (steering wheel, wheels, suspension...); geometry is written relative to it"
+msgstr "将物体原点存储为 MTS 轴心（方向盘、车轮、悬挂……）；几何体相对其写入"
+
+#: f1c_mts_importer/export_mts.py:698
+msgid "Textures: Base Color image of each material"
+msgstr "纹理：每个材质的基础色图像"
+
+#: f1c_mts_importer/export_mts.py:691
+msgid "Transform"
+msgstr "变换"
+
+#: f1c_mts_importer/import_mts.py:903
+msgid "Use the vertex normals stored in the MTS as custom split normals"
+msgstr "使用 MTS 中存储的顶点法线作为自定义拆分法线"
+
+#: f1c_mts_importer/import_mts.py:910
+msgid "Vertex Colors in Material"
+msgstr "材质中的顶点颜色"
+
+#: f1c_mts_importer/export_mts.py:689
+msgid "named like the objects, saved in this folder"
+msgstr "以物体命名，保存在此文件夹中"
+
+#: f1c_mts_importer/import_mts.py:949
+msgid "the selected rig"
+msgstr "选中的骨架"
+
+#: f1c_mts_importer/export_mts.py:634
+msgctxt "Operator"
+msgid "Export F1C MTS"
+msgstr "导出 F1C MTS"
+
+#: f1c_mts_importer/import_mts.py:999
+msgctxt "Operator"
+msgid "F1 Challenge 99-02 (*.mts or *.anm)"
+msgstr "F1 Challenge 99-02 (*.mts 或 *.anm)"
+
+#: f1c_mts_importer/export_mts.py:735
+msgctxt "Operator"
+msgid "F1 Challenge 99-02 (.mts)"
+msgstr "F1 Challenge 99-02 (.mts)"
+
+#: f1c_mts_importer/import_mts.py:892
+msgctxt "Operator"
+msgid "Import F1 Challenge 99-02"
+msgstr "导入 F1 Challenge 99-02"

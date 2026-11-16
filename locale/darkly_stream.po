@@ -1,0 +1,121 @@
+# perfect-chinese: 1
+# id: darkly_stream
+# kind: addon
+# module: bl_ext.blender_org.darkly_stream
+# name: Darkly
+# name_zh: 暗色图层
+# translator: KeshiMiao
+# category: Import-Export
+# supported_versions: >=5.1.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:91
+msgid "All Interfaces"
+msgstr "所有接口"
+
+#: __init__.py:46
+msgid "Auto (First Viewport)"
+msgstr "自动（第一个视图）"
+
+#: __init__.py:70
+#: __init__.py:106
+msgid "Camera"
+msgstr "摄像机"
+
+#: __init__.py:106
+msgid "Camera to stream (defaults to the scene's active camera)"
+msgstr "要串流的摄像机（默认为场景的活动摄像机）"
+
+#: __init__.py:46
+msgid "Capture the first open 3D viewport; follows the layout if viewports come and go"
+msgstr "捕获第一个打开的 3D 视图；视图增减时跟随布局"
+
+#: __init__.py:102
+msgid "Compression"
+msgstr "压缩"
+
+#: panel.py:7
+#: panel.py:11
+msgid "Darkly"
+msgstr "Darkly"
+
+#: __init__.py:97
+msgid "FPS"
+msgstr "帧率"
+
+#: panel.py:51
+msgid "Film Transparency"
+msgstr "胶片透明"
+
+#: __init__.py:97
+msgid "Max capture rate. Gates the main-thread capture, so lower it if streaming feels heavy (a static scene sends nothing)"
+msgstr "最大捕获速率。控制主线程捕获，若串流卡顿可调低（静态场景不发送任何内容）"
+
+#: panel.py:65
+msgid "Object Outline"
+msgstr "物体轮廓"
+
+#: __init__.py:102
+msgid "PNG compression level (0 = fastest/largest, 9 = slowest/smallest)"
+msgstr "PNG 压缩级别（0 = 最快/最大，9 = 最慢/最小）"
+
+#: __init__.py:87
+msgid "Port"
+msgstr "端口"
+
+#: __init__.py:87
+msgid "Port the frame stream is served on"
+msgstr "提供帧串流的端口"
+
+#: __init__.py:91
+msgid "Serve on every network interface so other machines on your network can connect, instead of this machine only"
+msgstr "在所有网络接口上提供服务，使网络中的其他机器也能连接，而非仅限本机"
+
+#: __init__.py:60
+msgid "Source"
+msgstr "来源"
+
+#: __init__.py:70
+msgid "Stream a camera's point of view regardless of where the viewport is looking. Renders the scene once more per frame"
+msgstr "串流摄像机视角，不受视图朝向影响。每帧会额外渲染一次场景"
+
+#: __init__.py:63
+msgid "Stream the 3D viewport's current view. Reuses the pixels Blender already rendered - no extra rendering, overlays and background excluded automatically (one frame of latency)"
+msgstr "串流 3D 视图的当前视角。复用 Blender 已渲染的像素——无额外渲染，自动排除叠加层和背景（一帧延迟）"
+
+#: __init__.py:63
+#: __init__.py:80
+msgid "Viewport"
+msgstr "视图"
+
+#: __init__.py:60
+msgid "What the stream shows"
+msgstr "串流显示的内容"
+
+#: __init__.py:80
+msgid "Which 3D viewport to capture. Identified by position in the layout, so a closed or rearranged selection falls back to the first open viewport"
+msgstr "要捕获的 3D 视图。按在布局中的位置识别，因此选择被关闭或重新排列时会回退到第一个打开的视图"
+
+#: __init__.py:117
+msgctxt "Operator"
+msgid "Begin serving the selected view to Darkly"
+msgstr "开始将所选视图提供给 Darkly"
+
+#: __init__.py:116
+msgctxt "Operator"
+msgid "Start Stream"
+msgstr "开始串流"
+
+#: __init__.py:129
+msgctxt "Operator"
+msgid "Stop Stream"
+msgstr "停止串流"
+
+#: __init__.py:130
+msgctxt "Operator"
+msgid "Stop serving the view"
+msgstr "停止提供视图"

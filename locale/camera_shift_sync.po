@@ -1,0 +1,382 @@
+# perfect-chinese: 1
+# id: camera_shift_sync
+# kind: addon
+# module: bl_ext.blender_org.camera_shift_sync
+# name: Camera Shift Sync
+# name_zh: 相机偏移同步
+# translator: KeshiMiao
+# category: Camera
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: ui.py:89
+msgid "Camera"
+msgstr "摄像机"
+
+#: properties.py:874
+msgid "Camera Plate-local X offset from the Initialize anchor (init_plate_local). Editing translates the camera along the Plate-X axis (pure straight-line translation in D-plane local space). Bidirectionally synced with Radial Distance"
+msgstr "摄像机相对板局部坐标的 X 偏移（基于初始化锚点 init_plate_local）。编辑会沿板 X 轴平移摄像机（在 D 平面局部空间中为纯直线平移）。与径向距离双向同步"
+
+#: properties.py:889
+msgid "Camera Plate-local Y offset from the Initialize anchor (init_plate_local). Plate-Y axis translation. See Delta X"
+msgstr "摄像机相对板局部坐标的 Y 偏移（基于初始化锚点 init_plate_local）。沿板 Y 轴平移。参见增量 X"
+
+#: properties.py:902
+msgid "Camera Plate-local Z offset from the Initialize anchor (init_plate_local). Plate-Z axis translation (NOT radial — radial movement toward d is the Radial Distance slider). See Delta X"
+msgstr "摄像机相对板局部坐标的 Z 偏移（基于初始化锚点 init_plate_local）。沿板 Z 轴平移（非径向——朝向 d 的径向移动由径向距离滑块控制）。参见增量 X"
+
+#: ui.py:121
+msgid "Camera Position"
+msgstr "摄像机位置"
+
+#: ui.py:33
+msgid "Camera Shift Sync"
+msgstr "摄像机偏移同步"
+
+#: properties.py:943
+msgid "Camera horizontal shift (UI mirror of cam.shift_x with extended drag range)"
+msgstr "摄像机水平偏移（cam.shift_x 的界面镜像，拖动范围更大）"
+
+#: properties.py:953
+msgid "Camera vertical shift (UI mirror of cam.shift_y with extended drag range)"
+msgstr "摄像机垂直偏移（cam.shift_y 的界面镜像，拖动范围更大）"
+
+#: properties.py:695
+msgid "Camera world position anchor for Camera Position computations. Initialized to cam.location at Initialize time, rigid-followed by Plate Transform edits. Used by core.compute_init_plate_local as the reference point that, together with plane_origin, defines init_plate_local = plate_rot.inv @ (init_cam_location - plane_origin)"
+msgstr "用于摄像机位置计算的摄像机世界位置锚点。初始化时设为 cam.location，之后由板变换编辑刚性跟随。core.compute_init_plate_local 将其用作参考点，与 plane_origin 一起定义 init_plate_local = plate_rot.inv @ (init_cam_location - plane_origin)"
+
+#: preferences.py:45
+#: preferences.py:96
+msgid "Category (N-Panel)"
+msgstr "分类（N 面板）"
+
+#: operators.py:77
+msgid "Click an object to read its distance; ESC / right-click to cancel."
+msgstr "点击物体读取其距离；ESC / 右键取消。"
+
+#: properties.py:764
+msgid "D Plane Origin (T, world)"
+msgstr "D 平面原点（T，世界空间）"
+
+#: operators.py:172
+msgid "D Plane re-initialized"
+msgstr "D 平面已重新初始化"
+
+#: preferences.py:52
+msgid "Default 'In Front' state seeded into a camera's plate settings on D plane init / Reset Plate. ON = always on top, OFF = occluded by scene objects"
+msgstr "初始化 D 平面 / 重置板时写入摄像机板设置的默认「在前面」状态。开启 = 始终在最前，关闭 = 被场景物体遮挡"
+
+#: preferences.py:52
+msgid "Default In Front"
+msgstr "默认在前面"
+
+#: preferences.py:72
+msgid "Default Plate Edge Color"
+msgstr "默认板边缘颜色"
+
+#: preferences.py:82
+msgid "Default Plate Edge Width"
+msgstr "默认板边缘宽度"
+
+#: preferences.py:62
+msgid "Default Plate Fill Color"
+msgstr "默认板填充颜色"
+
+#: preferences.py:72
+msgid "Default edge color (RGBA) seeded into a camera's plate settings on D plane init / Reset Plate"
+msgstr "初始化 D 平面 / 重置板时写入摄像机板设置的默认边缘颜色（RGBA）"
+
+#: preferences.py:62
+msgid "Default fill color (RGBA) seeded into a camera's plate settings on D plane init / Reset Plate"
+msgstr "初始化 D 平面 / 重置板时写入摄像机板设置的默认填充颜色（RGBA）"
+
+#: preferences.py:82
+msgid "Default outline thickness (pixels) seeded into a camera's plate settings on D plane init / Reset Plate"
+msgstr "初始化 D 平面 / 重置板时写入摄像机板设置的默认轮廓厚度（像素）"
+
+#: properties.py:874
+#: ui.py:123
+msgid "Delta X"
+msgstr "增量 X"
+
+#: properties.py:889
+#: ui.py:124
+msgid "Delta Y"
+msgstr "增量 Y"
+
+#: properties.py:902
+#: ui.py:125
+msgid "Delta Z"
+msgstr "增量 Z"
+
+#: properties.py:814
+msgid "Display the D plane plate overlay in the 3D viewport. Session-only: never saved into the .blend file"
+msgstr "在 3D 视图中显示 D 平面板叠加层。仅限当前会话：绝不保存到 .blend 文件"
+
+#: ui.py:191
+msgid "Edge"
+msgstr "边缘"
+
+#: preferences.py:110
+msgid "Edge Color"
+msgstr "边缘颜色"
+
+#: preferences.py:111
+#: ui.py:192
+msgid "Edge Width"
+msgstr "边缘宽度"
+
+#: properties.py:854
+msgid "Edge color (RGBA) of the D plane plate overlay outline"
+msgstr "D 平面板叠加层轮廓的边缘颜色（RGBA）"
+
+#: ui.py:109
+msgid "Field of View"
+msgstr "视野"
+
+#: ui.py:190
+msgid "Fill"
+msgstr "填充"
+
+#: preferences.py:109
+msgid "Fill Color"
+msgstr "填充颜色"
+
+#: properties.py:843
+msgid "Fill color (RGBA) of the D plane plate overlay; the alpha controls translucency"
+msgstr "D 平面板叠加层的填充颜色（RGBA）；Alpha 控制半透明度"
+
+#: ui.py:107
+msgid "Focal Length"
+msgstr "焦距"
+
+#: preferences.py:94
+msgid "General"
+msgstr "常规"
+
+#: operators.py:72
+msgid "Get Distance from Click: 3D Viewport region not available"
+msgstr "点击获取距离：3D 视图区域不可用"
+
+#: operators.py:101
+msgid "Get Distance from Click: cancelled"
+msgstr "点击获取距离：已取消"
+
+#: operators.py:69
+msgid "Get Distance from Click: must be invoked in the 3D Viewport"
+msgstr "点击获取距离：必须在 3D 视图中调用"
+
+#: operators.py:136
+msgid "Hit point is behind the camera; ignored."
+msgstr "命中点在摄像机后方，已忽略。"
+
+#: preferences.py:108
+#: properties.py:826
+msgid "In Front"
+msgstr "在前面"
+
+#: properties.py:721
+msgid "Init Camera Lens"
+msgstr "初始摄像机焦距"
+
+#: properties.py:695
+msgid "Init Camera Location"
+msgstr "初始摄像机位置"
+
+#: properties.py:711
+msgid "Init Camera Rotation"
+msgstr "初始摄像机旋转"
+
+#: properties.py:729
+msgid "Init Camera Shift X"
+msgstr "初始摄像机偏移 X"
+
+#: properties.py:737
+msgid "Init Camera Shift Y"
+msgstr "初始摄像机偏移 Y"
+
+#: properties.py:671
+#: ui.py:63
+msgid "Initialize"
+msgstr "初始化"
+
+#: properties.py:721
+msgid "Initialize 時の cam.lens（snapshot）"
+msgstr "初始化时的 cam.lens（快照）"
+
+#: properties.py:729
+msgid "Initialize 時の cam.shift_x（snapshot）"
+msgstr "初始化时的 cam.shift_x（快照）"
+
+#: properties.py:737
+msgid "Initialize 時の cam.shift_y（snapshot）"
+msgstr "初始化时的 cam.shift_y（快照）"
+
+#: properties.py:711
+msgid "Initialize 時のカメラ rotation（XYZ Euler 保存、rotation_mode 非依存。Properties Editor 等で直感的に値が読めるよう Euler 形式）"
+msgstr "初始化时的摄像机旋转（以 XYZ 欧拉角保存，不依赖 rotation_mode。为便于在属性编辑器等处直观读取数值而采用欧拉形式）"
+
+#: properties.py:764
+msgid "Internal: world-space center T of the D plane. Updated by Initialize, by shift_sync (when cam.shift_x/y is edited), and by Plate Transform Location edits. Not directly edited in the UI — shown as a greyed-out reference under Location"
+msgstr "内部：D 平面的世界空间中心 T。由初始化、shift_sync（编辑 cam.shift_x/y 时）和板变换位置编辑更新。不在界面中直接编辑——在位置下方以灰色参考显示"
+
+#: properties.py:779
+#: ui.py:147
+msgid "Location"
+msgstr "位置"
+
+#: operators.py:96
+msgid "No object hit. Click on a mesh, or ESC to cancel."
+msgstr "未命中物体。请点击网格，或按 ESC 取消。"
+
+#: properties.py:865
+msgid "Outline thickness of the D plane plate overlay (pixels)"
+msgstr "D 平面板叠加层的轮廓厚度（像素）"
+
+#: properties.py:745
+msgid "Perpendicular depth from the camera to the D plane target T. Editing this slider dollies the camera along Z (computes move_delta_z so the new camera position has d = target_distance). Conversely, when Move Delta Z dollies the camera, this value auto-syncs to the live d. Initialize ON restores T from this stored value. Independent of cam.dof.focus_distance. Shown as plain Float without unit so the digits don't get truncated"
+msgstr "从摄像机到 D 平面目标 T 的垂直深度。编辑此滑块会沿 Z 轴推拉摄像机（计算 move_delta_z，使新摄像机位置满足 d = target_distance）。反之，当移动增量 Z 推拉摄像机时，此值会自动同步为实时的 d。开启初始化时，将根据此存储值恢复 T。与 cam.dof.focus_distance 无关。显示为无单位的纯浮点数，以免数字被截断"
+
+#: ui.py:185
+msgid "Plate"
+msgstr "板"
+
+#: preferences.py:106
+msgid "Plate Defaults (applied on D Plane init / Reset Plate)"
+msgstr "板默认值（在初始化 D 平面 / 重置板时应用）"
+
+#: properties.py:854
+msgid "Plate Edge Color"
+msgstr "板边缘颜色"
+
+#: properties.py:865
+msgid "Plate Edge Width"
+msgstr "板边缘宽度"
+
+#: properties.py:843
+msgid "Plate Fill Color"
+msgstr "板填充颜色"
+
+#: properties.py:837
+msgid "Plate Settings Expanded"
+msgstr "底板设置已展开"
+
+#: ui.py:144
+msgid "Plate Transform"
+msgstr "底板变换"
+
+#: properties.py:779
+msgid "Plate Transform Location: user-editable delta in D-plane LOCAL axes (baked frame). Starts at (0, 0, 0) on every Initialize. Editing translates the D plane and the camera by the same world delta (delta_world = baked_rotation @ delta_local), preserving shift_x/y. The actual world T position is shown as a greyed-out reference underneath"
+msgstr "底板变换位置：D 平面 LOCAL 轴上的用户可编辑增量（已烘焙帧）。每次初始化时均从 (0, 0, 0) 开始。编辑会以相同的世界增量平移 D 平面和摄像机（delta_world = baked_rotation @ delta_local），同时保持 shift_x/y 不变。下方以灰色显示实际的世界 T 位置作为参考"
+
+#: properties.py:798
+msgid "Plate Transform Rotation: user-editable delta on top of plate_baked_rotation. Starts at (0, 0, 0) on every Initialize. Editing rotates the D plane and the camera (position + rotation) rigidly around T, preserving shift_x/y"
+msgstr "底板变换旋转：叠加在 plate_baked_rotation 之上的用户可编辑增量。每次初始化时均从 (0, 0, 0) 开始。编辑会围绕 T 刚性旋转 D 平面和摄像机（位置 + 旋转），同时保持 shift_x/y 不变"
+
+#: operators.py:195
+msgid "Plate reset to AddonPreferences defaults"
+msgstr "底板已重置为 AddonPreferences 默认值"
+
+#: properties.py:917
+#: ui.py:127
+msgid "Radial Distance"
+msgstr "径向距离"
+
+#: properties.py:917
+msgid "Radial distance from D plane center d (=T) to the camera (3D Euclidean length of the Plate-local position vector). Editing scales the camera's Plate-local position along the current d-cam direction so the new |P| equals this value — i.e. moves the camera along the d-cam line. Bidirectionally synced with Delta XYZ. Hard min > 0 to avoid the camera passing through or onto d"
+msgstr "从 D 平面中心 d（=T）到摄像机的径向距离（底板局部位置向量的 3D 欧氏长度）。编辑会沿当前 d-cam 方向缩放摄像机的底板局部位置，使新的 |P| 等于该值——即沿 d-cam 连线移动摄像机。与 Delta XYZ 双向同步。硬性最小值 > 0，以防摄像机穿过或落在 d 上"
+
+#: properties.py:798
+#: ui.py:157
+msgid "Rotation"
+msgstr "旋转"
+
+#: properties.py:943
+#: ui.py:91
+msgid "Shift X"
+msgstr "偏移 X"
+
+#: properties.py:953
+#: ui.py:92
+msgid "Shift Y"
+msgstr "偏移 Y"
+
+#: properties.py:814
+msgid "Show Plate"
+msgstr "显示底板"
+
+#: preferences.py:45
+msgid "Tab category in the N-panel sidebar (bl_category)"
+msgstr "N 面板侧边栏中的标签类别（bl_category）"
+
+#: properties.py:745
+#: ui.py:95
+msgid "Target Distance"
+msgstr "目标距离"
+
+#: properties.py:671
+msgid "Toggle the D plane Initialize state. Turning ON computes T from target_distance along the camera's current shift view direction. Turning OFF clears the linkage (target_distance is kept as the restore seed). Also set automatically by Get Distance from Click and cleared by external camera edits / deactivation. Session-only: never saved into the .blend file."
+msgstr "切换 D 平面的初始化状态。开启时根据 target_distance 沿摄像机当前偏移视线方向计算 T。关闭时清除关联（target_distance 保留作为恢复种子）。也会由「单击获取距离」自动设置，并在外部编辑摄像机或停用时清除。仅限当前会话：从不保存到 .blend 文件。"
+
+#: properties.py:837
+msgid "UI-only: whether the Plate section is expanded in the N-Panel"
+msgstr "仅界面：底板区域是否在 N 面板中展开"
+
+#: properties.py:826
+msgid "When ON the plate draws always on top of the scene (no depth test). When OFF the plate is depth-tested against scene objects, so they occlude it where they intersect"
+msgstr "开启时底板始终绘制在场景之上（无深度测试）。关闭时底板会与场景物体进行深度测试，因此相交处会被物体遮挡"
+
+#: operators.py:53
+msgctxt "Operator"
+msgid "Click a surface in the 3D Viewport to read its perpendicular depth, then write that value into target_distance. Equivalent to editing the Target Distance slider with the picked value: snapshot / UI Delta / Initialize state are NOT touched (no bake). If Initialize is ON, T moves to the new distance; if OFF, only the Live plate size updates. ESC or right-click to cancel."
+msgstr "在 3D 视图中单击某个表面以读取其垂直深度，然后将该值写入 target_distance。等同于用拾取到的值编辑目标距离滑块：快照 / UI Delta / 初始化状态均不受影响（不烘焙）。若初始化已开启，T 会移动到新距离；若已关闭，则仅更新实时底板尺寸。按 ESC 或右键取消。"
+
+#: operators.py:52
+msgctxt "Operator"
+msgid "Get Distance from Click"
+msgstr "单击获取距离"
+
+#: operators.py:209
+msgctxt "Operator"
+msgid "Legacy picker (parked): clicks the viewport and takes the hit point as T directly. Not registered; revived alongside Function B."
+msgstr "旧版拾取器（已搁置）：单击视图并将命中点直接作为 T。未注册；与功能 B 一同恢复。"
+
+#: operators.py:208
+msgctxt "Operator"
+msgid "Pick D Plane from Click (parked)"
+msgstr "单击拾取 D 平面（已搁置）"
+
+#: ui.py:66
+msgctxt "Operator"
+msgid "Re-Initialize"
+msgstr "重新初始化"
+
+#: operators.py:150
+msgctxt "Operator"
+msgid "Re-Initialize D Plane"
+msgstr "重新初始化 D 平面"
+
+#: operators.py:151
+msgctxt "Operator"
+msgid "Re-bake the D plane at the camera's current position and orientation. plate_baked_rotation is refreshed, plate_rotation / plate_location_delta / move_delta_* are reset to (0,0,0), and target_distance is preserved"
+msgstr "在摄像机当前位置和朝向重新烘焙 D 平面。刷新 plate_baked_rotation，将 plate_rotation / plate_location_delta / move_delta_* 重置为 (0,0,0)，并保留 target_distance"
+
+#: operators.py:178
+#: ui.py:193
+msgctxt "Operator"
+msgid "Reset Plate"
+msgstr "重置底板"
+
+#: operators.py:179
+msgctxt "Operator"
+msgid "Reset this camera's plate settings (In Front / fill color / edge color / edge width) to the defaults configured in AddonPreferences"
+msgstr "将此摄像机的底板设置（在前显示 / 填充色 / 边缘色 / 边缘宽度）重置为插件偏好设置中配置的默认值"
+
+#: preferences.py:33
+msgctxt "Operator"
+msgid "Reset to Default"
+msgstr "重置为默认值"

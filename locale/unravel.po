@@ -1,0 +1,499 @@
+# perfect-chinese: 1
+# id: unravel
+# kind: addon
+# module: bl_ext.blender_org.unravel
+# name: Unravel
+# name_zh: 破洞散线
+# translator: KeshiMiao
+# category: Geometry Nodes
+# supported_versions: >=5.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:585
+msgid "Always treat the selected holes as tears"
+msgstr "始终将选中的孔洞视为撕裂"
+
+#: __init__.py:1364
+msgid "Boundary Size"
+msgstr "边界大小"
+
+#: __init__.py:1151
+msgid "Bridges"
+msgstr "桥接"
+
+#: __init__.py:1027
+msgid "Burlap"
+msgstr "粗麻布"
+
+#: __init__.py:1028
+msgid "Canvas"
+msgstr "帆布"
+
+#: __init__.py:586
+msgid "Clear Tear"
+msgstr "清除撕裂"
+
+#: __init__.py:1027
+msgid "Coarse, loose weave with thick hairy threads"
+msgstr "粗糙松散的织法，线粗且毛糙"
+
+#: __init__.py:1236
+msgid "Colour"
+msgstr "颜色"
+
+#: __init__.py:1032
+msgid "Cotton"
+msgstr "棉布"
+
+#: __init__.py:1029
+msgid "Denim"
+msgstr "牛仔布"
+
+#: __init__.py:795
+msgid "Detail"
+msgstr "细节"
+
+#: __init__.py:1351
+msgid "Detect Holes"
+msgstr "检测孔洞"
+
+#: __init__.py:1149
+msgid "Direction"
+msgstr "方向"
+
+#: __init__.py:678
+msgid "Draw on the cloth, then press Tab when you are done"
+msgstr "在布料上绘制，完成后按 Tab"
+
+#: __init__.py:1231
+msgid "Edit"
+msgstr "编辑"
+
+#: __init__.py:1031
+msgid "Fine, soft weave with thin wispy threads"
+msgstr "细密柔软的织法，线细而轻盈"
+
+#: __init__.py:1196
+msgid "Fray Threads"
+msgstr "散开线头"
+
+#: __init__.py:1034
+msgid "Gauze"
+msgstr "纱布"
+
+#: __init__.py:1351
+msgid "Give holes already in the mesh torn edges and threads, without painting them"
+msgstr "为网格中已有的孔洞添加撕裂边缘和线头，无需绘制"
+
+#: __init__.py:797
+msgid "Give the thread mesh the cloth's bone weights so it bends with the rig"
+msgstr "将布料的骨骼权重赋予线网格，使其随绑定弯曲"
+
+#: __init__.py:790
+msgid "Hair"
+msgstr "毛发"
+
+#: __init__.py:790
+msgid "Hair curves. Best for Blender renders, Alembic and USD"
+msgstr "毛发曲线。最适合 Blender 渲染、Alembic 和 USD"
+
+#: __init__.py:1115
+msgid "Holes are baked into the mesh"
+msgstr "孔洞已烘焙到网格中"
+
+#: __init__.py:1357
+msgid "Ignore Boundaries"
+msgstr "忽略边界"
+
+#: __init__.py:1357
+msgid "Leave the mesh's own outer edges alone (hems, cuffs, necklines): open loops longer than Boundary Size"
+msgstr "保留网格自身的外边缘（下摆、袖口、领口）：长度超过边界大小的开放环"
+
+#: __init__.py:1032
+msgid "Light shirting with short fine threads"
+msgstr "轻薄衬衫布，短线细密"
+
+#: __init__.py:1031
+msgid "Linen"
+msgstr "亚麻"
+
+#: __init__.py:1068
+msgid "Made with an older Unravel"
+msgstr "由旧版 Unravel 创建"
+
+#: __init__.py:585
+msgid "Mark as Tear"
+msgstr "标记为撕裂"
+
+#: __init__.py:789
+msgid "Mesh"
+msgstr "网格"
+
+#: __init__.py:586
+msgid "Never treat the selected holes as tears"
+msgstr "绝不将选中的孔洞视为撕裂"
+
+#: __init__.py:1259
+msgid "No drawn strands yet"
+msgstr "尚未绘制线股"
+
+#: __init__.py:1364
+msgid "Open loops longer than this count as the mesh's outer edges, not holes. Set for you from the mesh when Detect Holes is first turned on"
+msgstr "超过此长度的开放环会视为网格外边缘，而非孔洞。首次开启检测孔洞时会根据网格自动设置"
+
+#: __init__.py:1091
+msgid "Paint red where the cloth tears"
+msgstr "在布料撕裂处绘制红色"
+
+#: __init__.py:1024
+msgid "Preset"
+msgstr "预设"
+
+#: __init__.py:1082
+#: __init__.py:1286
+msgid "Presets"
+msgstr "预设"
+
+#: __init__.py:1237
+msgid "Roughness"
+msgstr "粗糙度"
+
+#: __init__.py:1341
+msgid "Scale"
+msgstr "缩放"
+
+#: __init__.py:476
+msgid "See it in Material Preview or Rendered"
+msgstr "在材质预览或渲染视图中查看"
+
+#: __init__.py:1072
+msgid "Select a cloth object"
+msgstr "选择布料物体"
+
+#: __init__.py:623
+msgid "Select an edge on the border of a hole first"
+msgstr "请先选择孔洞边界上的一条边"
+
+#: __init__.py:1148
+msgid "Shape"
+msgstr "形状"
+
+#: __init__.py:795
+msgid "Share of points kept along each thread. Lower is lighter"
+msgstr "每条线保留的点比例。越低越轻量"
+
+#: __init__.py:794
+msgid "Sides"
+msgstr "边数"
+
+#: __init__.py:794
+msgid "Sides around each thread tube. 3 is lightest"
+msgstr "每根线管周围的边数。3 为最轻量"
+
+#: __init__.py:1033
+msgid "Silk"
+msgstr "丝绸"
+
+#: __init__.py:1341
+msgid "Size of the cloth compared to real life. Use 10 if the cloth is 10 times too big. Higher also gives chunkier threads"
+msgstr "布料相对于现实的大小。若布料大了 10 倍，请填 10。数值越高，线也越粗"
+
+#: __init__.py:797
+msgid "Skin Threads to Rig"
+msgstr "将线头蒙皮到骨架"
+
+#: __init__.py:475
+msgid "Solid view hides thread width"
+msgstr "实体视图会隐藏线宽"
+
+#: __init__.py:1241
+msgid "Strands"
+msgstr "线股"
+
+#: __init__.py:1202
+msgid "Stray Threads"
+msgstr "散乱线头"
+
+#: __init__.py:1029
+msgid "Sturdy twill with short, bunched threads"
+msgstr "结实的斜纹布，短线成束"
+
+#: __init__.py:1150
+msgid "Style"
+msgstr "样式"
+
+#: __init__.py:1152
+msgid "Surface Contact"
+msgstr "表面接触"
+
+#: __init__.py:1335
+msgid "Take Colour from Cloth"
+msgstr "从布料获取颜色"
+
+#: __init__.py:1098
+msgid "Tears"
+msgstr "撕裂"
+
+#: __init__.py:776
+msgid "Tears are live again. Bake again before simulating"
+msgstr "撕裂已恢复为实时。模拟前请重新烘焙"
+
+#: __init__.py:750
+msgid "Tears baked. Simulate or animate the cloth now"
+msgstr "撕裂已烘焙。现在可模拟或动画布料"
+
+#: __init__.py:1227
+msgid "The cloth has no material"
+msgstr "布料没有材质"
+
+#: __init__.py:1030
+msgid "Thick wool with fuzzy, frizzy threads"
+msgstr "厚羊毛，线粗且绒毛卷曲"
+
+#: __init__.py:1034
+msgid "Thin open weave with sparse loose threads"
+msgstr "轻薄稀疏织法，带少量松散线头"
+
+#: __init__.py:789
+msgid "Thin tubes. Exports to FBX, glTF and game engines"
+msgstr "细管状。可导出到 FBX、glTF 和游戏引擎"
+
+#: __init__.py:1087
+msgid "This cloth has no UVs"
+msgstr "此布料没有 UV"
+
+#: __init__.py:1207
+msgid "Thread Material"
+msgstr "线头材质"
+
+#: __init__.py:1131
+msgid "Threads"
+msgstr "线头"
+
+#: __init__.py:786
+msgid "Threads as"
+msgstr "线头作为"
+
+#: __init__.py:1335
+msgid "Threads use the cloth's own material, coloured by where each thread grows from"
+msgstr "线头使用布料自身材质，颜色由每根线头的生长位置决定"
+
+#: __init__.py:1028
+msgid "Tight, stiff weave with short neat threads"
+msgstr "紧密硬挺织法，带短而整齐的线头"
+
+#: __init__.py:1030
+msgid "Tweed"
+msgstr "粗花呢"
+
+#: __init__.py:1057
+#: __init__.py:1061
+msgid "Unravel"
+msgstr "Unravel"
+
+#: __init__.py:965
+msgid "Unravel is live again"
+msgstr "Unravel 已恢复实时"
+
+#: __init__.py:531
+msgid "Unravel is ready. Paint the Tears vertex group to cut holes"
+msgstr "Unravel 已就绪。绘制 Tears 顶点组以切出孔洞"
+
+#: __init__.py:983
+msgid "Unravel node groups updated"
+msgstr "Unravel 节点组已更新"
+
+#: __init__.py:816
+msgid "Uses the current frame"
+msgstr "使用当前帧"
+
+#: __init__.py:1224
+msgid "Using"
+msgstr "使用"
+
+#: __init__.py:1033
+msgid "Very fine and smooth, with long slippery threads"
+msgstr "非常细腻光滑，带长而顺滑的线头"
+
+#: __init__.py:1088
+msgid "Without UVs, threads need Flow above 0"
+msgstr "没有 UV 时，线头的流动值需大于 0"
+
+#: __init__.py:1231
+msgid "in the Shading tab"
+msgstr "在着色选项卡中"
+
+#: __init__.py:1077
+msgid "is applied"
+msgstr "已应用"
+
+#: __init__.py:1257
+#: __init__.py:1281
+msgctxt "Operator"
+msgid "Add Strand"
+msgstr "添加线股"
+
+#: __init__.py:1020
+msgctxt "Operator"
+msgid "Apply Preset"
+msgstr "应用预设"
+
+#: __init__.py:782
+msgctxt "Operator"
+msgid "Apply Unravel"
+msgstr "应用 Unravel"
+
+#: __init__.py:718
+msgctxt "Operator"
+msgid "Bake Tears"
+msgstr "烘焙撕裂"
+
+#: __init__.py:923
+msgctxt "Operator"
+msgid "Bring back the live tears and threads from before Apply"
+msgstr "恢复应用前的实时撕裂和线头"
+
+#: __init__.py:757
+msgctxt "Operator"
+msgid "Bring back the live tears so you can paint and tweak them again"
+msgstr "恢复实时撕裂，以便再次绘制和调整"
+
+#: __init__.py:467
+msgctxt "Operator"
+msgid "Clear Tear"
+msgstr "清除撕裂"
+
+#: __init__.py:719
+msgctxt "Operator"
+msgid "Cut the holes into the mesh so simulations and rigs move the torn cloth. Unbake to edit again"
+msgstr "将孔洞切入网格，以便模拟和绑定能驱动撕裂布料。取消烘焙后可再次编辑"
+
+#: __init__.py:685
+msgctxt "Operator"
+msgid "Delete this strand and the curve it was drawn with"
+msgstr "删除此线股及其绘制时使用的曲线"
+
+#: __init__.py:1093
+msgctxt "Operator"
+msgid "Done Painting"
+msgstr "完成绘制"
+
+#: __init__.py:641
+msgctxt "Operator"
+msgid "Draw a loose thread strand on an Unravel cloth"
+msgstr "在 Unravel 布料上绘制松散线股"
+
+#: __init__.py:561
+msgctxt "Operator"
+msgid "Find the mesh's holes again, after you change the mesh"
+msgstr "更改网格后重新查找网格孔洞"
+
+#: __init__.py:481
+msgctxt "Operator"
+msgid "Make Unravel"
+msgstr "创建 Unravel"
+
+#: __init__.py:466
+#: __init__.py:580
+msgctxt "Operator"
+msgid "Mark as Tear"
+msgstr "标记为撕裂"
+
+#: __init__.py:581
+msgctxt "Operator"
+msgid "Mark or clear the holes touching the selected edges, whatever their size"
+msgstr "标记或清除与所选边接触的孔洞，无论其大小"
+
+#: __init__.py:990
+msgctxt "Operator"
+msgid "Open the Unravel guide in your text editor"
+msgstr "在文本编辑器中打开 Unravel 指南"
+
+#: __init__.py:537
+msgctxt "Operator"
+msgid "Paint Tears"
+msgstr "绘制 Tears"
+
+#: __init__.py:1000
+msgctxt "Operator"
+msgid "Pick a new random seed"
+msgstr "选择新的随机种子"
+
+#: __init__.py:999
+msgctxt "Operator"
+msgid "Randomize Seed"
+msgstr "随机化种子"
+
+#: __init__.py:560
+msgctxt "Operator"
+msgid "Refresh Holes"
+msgstr "刷新孔洞"
+
+#: __init__.py:684
+msgctxt "Operator"
+msgid "Remove Strand"
+msgstr "移除线股"
+
+#: __init__.py:922
+msgctxt "Operator"
+msgid "Restore Unravel"
+msgstr "恢复 Unravel"
+
+#: __init__.py:1021
+msgctxt "Operator"
+msgid "Set the tears and threads to look like a type of cloth"
+msgstr "将撕裂和线头设置为某种布料的外观"
+
+#: __init__.py:482
+msgctxt "Operator"
+msgid "Set up tears and threads on the selected cloth"
+msgstr "在所选布料上设置撕裂和线头"
+
+#: __init__.py:972
+msgctxt "Operator"
+msgid "Swap this file's Unravel node groups for the ones in the installed version. Settings and paint are kept"
+msgstr "将此文件的 Unravel 节点组替换为已安装版本中的节点组。设置和绘制内容均保留"
+
+#: __init__.py:538
+msgctxt "Operator"
+msgid "Switch to Weight Paint on the cloth's Tears group"
+msgstr "切换到布料 Tears 组的权重绘制"
+
+#: __init__.py:783
+msgctxt "Operator"
+msgid "Turn the cloth and threads into plain objects for export. Restore Unravel brings the live setup back"
+msgstr "将布料和线头转换为普通物体以便导出。恢复 Unravel 可找回实时设置"
+
+#: __init__.py:756
+msgctxt "Operator"
+msgid "Unbake Tears"
+msgstr "取消烘焙撕裂"
+
+#: __init__.py:989
+msgctxt "Operator"
+msgid "Unravel Help"
+msgstr "Unravel 帮助"
+
+#: __init__.py:640
+msgctxt "Operator"
+msgid "Unravel Strand"
+msgstr "拆解线股"
+
+#: __init__.py:635
+msgctxt "Operator"
+msgid "Unravel · Clear Tear"
+msgstr "Unravel · 清除撕裂"
+
+#: __init__.py:634
+msgctxt "Operator"
+msgid "Unravel · Mark as Tear"
+msgstr "Unravel · 标记为撕裂"
+
+#: __init__.py:971
+msgctxt "Operator"
+msgid "Update Node Groups"
+msgstr "更新节点组"

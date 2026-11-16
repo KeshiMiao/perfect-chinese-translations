@@ -1,0 +1,1206 @@
+# perfect-chinese: 1
+# id: fanlei_max_spline_tools
+# kind: addon
+# module: bl_ext.blender_org.fanlei_max_spline_tools
+# name: Max Spline Tools
+# name_zh: 样条建模工具
+# translator: KeshiMiao
+# category: Add Curve
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: primitives.py:173
+msgid "3D helix"
+msgstr "3D 螺旋线"
+
+#: __init__.py:10
+msgid "3ds Max style editable splines: draw (Alt for handles / snapping), interactive extrude, outline (in / out / both), fillet, chamfer, insert point, vertex types, spline primitives, section, non-destructive lathe, weld, break, mirror, boolean"
+msgstr "3ds Max 风格可编辑样条线：绘制（按住 Alt 调整控制柄或吸附）、交互式挤出、轮廓（向内、向外、双侧）、圆角、切角、插入点、顶点类型、样条线基本体、剖切、非破坏性车削、焊接、断开、镜像、布尔"
+
+#: __init__.py:10
+msgid "Add Curve"
+msgstr "添加曲线"
+
+#: operators.py:1492
+msgid "Along X"
+msgstr "沿 X"
+
+#: operators.py:1493
+msgid "Along Y"
+msgstr "沿 Y"
+
+#: operators.py:1494
+msgid "Along Z"
+msgstr "沿 Z"
+
+#: panels.py:581
+msgid "An open spline is offset along its path and joined end to end — ready to extrude"
+msgstr "开放样条线沿其路径偏移，并首尾相接，可直接挤出"
+
+#: operators.py:1703
+#: panels.py:134
+msgid "Angle"
+msgstr "角度"
+
+#: primitives.py:170
+msgid "Arc"
+msgstr "圆弧"
+
+#: panels.py:656
+msgid "Attach / Detach"
+msgstr "附加 / 分离"
+
+#: panels.py:302
+msgid "Attach needs a selected curve object"
+msgstr "附加需要选中一个曲线物体"
+
+#: line_tool.py:80
+#: panels.py:164
+msgid "Attach to Current Curve"
+msgstr "附加到当前曲线"
+
+#: operators.py:1491
+#: operators.py:2692
+msgid "Auto"
+msgstr "自动"
+
+#: operators.py:981
+#: panels.py:107
+msgid "Auto Close"
+msgstr "自动闭合"
+
+#: operators.py:1822
+msgid "Auto smooth handles, the curve stays continuous"
+msgstr "自动平滑控制柄，曲线保持连续"
+
+#: panels.py:315
+msgid "Available in Edit Mode"
+msgstr "在编辑模式下可用"
+
+#: operators.py:1145
+#: operators.py:1698
+msgid "Axis"
+msgstr "轴"
+
+#: panels.py:220
+#: panels.py:692
+msgid "Bevel Depth"
+msgstr "倒角深度"
+
+#: panels.py:693
+msgid "Bevel Resolution"
+msgstr "倒角分辨率"
+
+#: menus.py:16
+#: operators.py:1823
+msgid "Bezier"
+msgstr "贝塞尔"
+
+#: menus.py:17
+#: operators.py:1824
+msgid "Bezier Corner"
+msgstr "贝塞尔角点"
+
+#: panels.py:664
+msgid "Boolean (Closed Splines)"
+msgstr "布尔（闭合样条线）"
+
+#: operators.py:989
+#: panels.py:37
+msgid "Both"
+msgstr "双侧"
+
+#: operators.py:1498
+msgid "Cap both ends; turn off to keep only the side walls"
+msgstr "封盖两端；关闭则只保留侧壁"
+
+#: operators.py:1498
+#: panels.py:125
+msgid "Caps"
+msgstr "封盖"
+
+#: panels.py:100
+#: panels.py:505
+msgid "Chamfer Distance"
+msgstr "切角距离"
+
+#: primitives.py:169
+msgid "Circle"
+msgstr "圆"
+
+#: operators.py:2088
+#: panels.py:92
+msgid "Click, then click on the curve to insert points"
+msgstr "点击，然后在曲线上点击以插入点"
+
+#: panels.py:174
+msgid "Click, then drag in the viewport to set the size"
+msgstr "点击，然后在视图中拖动以设置大小"
+
+#: panels.py:452
+msgid "Click, then drag up/down to set height; LMB confirms. Open splines are auto-closed"
+msgstr "点击，然后上下拖动设置高度；左键确认。开放样条线将自动闭合"
+
+#: panels.py:89
+msgid "Click, then drag up/down to set the chamfer distance"
+msgstr "点击，然后上下拖动设置切角距离"
+
+#: panels.py:86
+msgid "Click, then drag up/down to set the fillet radius"
+msgstr "点击，然后上下拖动设置圆角半径"
+
+#: panels.py:126
+msgid "Click, then drag up/down to set the height"
+msgstr "点击，然后上下拖动设置高度"
+
+#: panels.py:111
+msgid "Click, then drag up/down to set the offset"
+msgstr "点击，然后上下拖动设置偏移"
+
+#: panels.py:215
+msgid "Click, then move the mouse to slide the cutting plane"
+msgstr "点击，然后移动鼠标以滑动剖切平面"
+
+#: panels.py:570
+msgid "Closed Outline for Open Splines"
+msgstr "为开放样条线生成闭合轮廓"
+
+#: operators.py:988
+#: panels.py:36
+msgid "Closed splines offset inward; open splines get a band on the other side"
+msgstr "闭合样条线向内偏移；开放样条线在另一侧生成带状面"
+
+#: operators.py:987
+#: panels.py:35
+msgid "Closed splines offset outward; open splines get a band on one side"
+msgstr "闭合样条线向外偏移；开放样条线在一侧生成带状面"
+
+#: panels.py:300
+msgid "Connect Ends"
+msgstr "连接端点"
+
+#: panels.py:670
+msgid "Convert"
+msgstr "转换"
+
+#: menus.py:14
+#: operators.py:1821
+msgid "Corner"
+msgstr "角点"
+
+#: operators.py:887
+msgid "Count"
+msgstr "数量"
+
+#: operators.py:2318
+#: panels.py:51
+msgid "Create on the plane facing the current view"
+msgstr "在当前视图朝向的平面上创建"
+
+#: operators.py:2319
+#: panels.py:56
+msgid "Create on the world XY plane (Z=0)"
+msgstr "在世界 XY 平面（Z=0）上创建"
+
+#: panels.py:613
+msgid "Cursor"
+msgstr "游标"
+
+#: operators.py:1150
+#: panels.py:149
+msgid "Cursor Center"
+msgstr "游标中心"
+
+#: panels.py:694
+msgid "Curve Resolution"
+msgstr "曲线分辨率"
+
+#: operators.py:2693
+msgid "Cut along X"
+msgstr "沿 X 剖切"
+
+#: operators.py:2694
+msgid "Cut along Y"
+msgstr "沿 Y 剖切"
+
+#: operators.py:2695
+msgid "Cut along Z"
+msgstr "沿 Z 剖切"
+
+#: panels.py:59
+msgid "Cut along the current view direction"
+msgstr "沿当前视图方向剖切"
+
+#: operators.py:2684
+#: panels.py:65
+msgid "Cutting plane faces the current view"
+msgstr "剖切平面朝向当前视图"
+
+#: panels.py:66
+msgid "Cutting plane is the world horizontal plane"
+msgstr "剖切平面为世界水平面"
+
+#: operators.py:2685
+msgid "Cutting plane is the world horizontal plane (Z = const)"
+msgstr "剖切平面为世界水平面（Z = 常数）"
+
+#: panels.py:40
+msgid "Decide from the view used while drawing"
+msgstr "根据绘制时使用的视图决定"
+
+#: panels.py:697
+msgid "Depth > 0 makes the curve visible in viewport and render"
+msgstr "深度 > 0 时曲线在视图和渲染中可见"
+
+#: operators.py:285
+msgid "Deselect"
+msgstr "取消选择"
+
+#: operators.py:1364
+#: panels.py:47
+msgid "Difference"
+msgstr "差集"
+
+#: operators.py:984
+#: operators.py:1488
+msgid "Direction"
+msgstr "方向"
+
+#: panels.py:677
+msgid "Display"
+msgstr "显示"
+
+#: operators.py:786
+msgid "Distance"
+msgstr "距离"
+
+#: operators.py:2345
+#: panels.py:195
+msgid "Distortion"
+msgstr "扭曲"
+
+#: panels.py:97
+#: panels.py:544
+msgid "Divide Count"
+msgstr "等分数量"
+
+#: panels.py:634
+msgid "Drag the pivot empty directly; edits to the spline rebuild the lathe live"
+msgstr "直接拖动轴心空物体；编辑样条会实时重建车削"
+
+#: operators.py:1823
+msgid "Draggable handles, always symmetric"
+msgstr "可拖动控制柄，始终对称"
+
+#: operators.py:1824
+msgid "Draggable handles, each side independent"
+msgstr "可拖动控制柄，两侧独立"
+
+#: panels.py:285
+msgid "Draw Line"
+msgstr "绘制线"
+
+#: line_tool.py:66
+#: panels.py:159
+msgid "Draw Plane"
+msgstr "绘制平面"
+
+#: line_tool.py:70
+#: panels.py:52
+msgid "Draw on a plane parallel to the ground"
+msgstr "在与地面平行的平面上绘制"
+
+#: line_tool.py:69
+msgid "Draw on the plane facing the view (most freedom)"
+msgstr "在面向视图的平面上绘制（自由度最高）"
+
+#: operators.py:2340
+#: panels.py:197
+msgid "End Angle"
+msgstr "结束角度"
+
+#: panels.py:426
+msgid "Extrude (Spline → Solid)"
+msgstr "挤出（样条 → 实体）"
+
+#: panels.py:696
+msgid "Fill Caps"
+msgstr "填充封盖"
+
+#: operators.py:2333
+#: panels.py:183
+msgid "Fillet"
+msgstr "圆角"
+
+#: panels.py:493
+msgid "Fillet / Chamfer"
+msgstr "圆角 / 倒角"
+
+#: panels.py:82
+#: panels.py:495
+msgid "Fillet Radius"
+msgstr "圆角半径"
+
+#: operators.py:768
+#: operators.py:2334
+msgid "Fillet Segments"
+msgstr "圆角分段"
+
+#: line_tool.py:75
+msgid "Follow Blender's snapping (magnet / Shift+Tab) to vertices, edges, faces or the grid"
+msgstr "跟随 Blender 吸附（磁铁 / Shift+Tab）到顶点、边、面或栅格"
+
+#: panels.py:161
+msgid "Follows Blender's snapping (magnet / Shift+Tab)"
+msgstr "跟随 Blender 吸附（磁铁 / Shift+Tab）"
+
+#: panels.py:353
+msgid "H"
+msgstr "H"
+
+#: operators.py:1480
+#: operators.py:2332
+msgid "Height"
+msgstr "高度"
+
+#: primitives.py:173
+msgid "Helix"
+msgstr "螺旋"
+
+#: panels.py:199
+#: panels.py:387
+msgid "Helix Height"
+msgstr "螺旋高度"
+
+#: line_tool.py:70
+#: operators.py:2319
+msgid "Horizontal"
+msgstr "水平"
+
+#: operators.py:2344
+#: panels.py:194
+msgid "Inner Ratio"
+msgstr "内径比例"
+
+#: operators.py:2342
+#: panels.py:192
+msgid "Inscribed"
+msgstr "内接"
+
+#: operators.py:769
+#: operators.py:790
+msgid "Interactive"
+msgstr "交互式"
+
+#: operators.py:1365
+#: panels.py:48
+msgid "Intersect"
+msgstr "相交"
+
+#: operators.py:285
+msgid "Invert"
+msgstr "反转"
+
+#: operators.py:988
+#: panels.py:36
+msgid "Inward"
+msgstr "向内"
+
+#: operators.py:1151
+#: panels.py:150
+msgid "Keep Original"
+msgstr "保留原始"
+
+#: operators.py:1247
+#: panels.py:153
+msgid "Keep Source"
+msgstr "保留源"
+
+#: panels.py:164
+msgid "Keep drawing inside the selected curve"
+msgstr "在所选曲线内继续绘制"
+
+#: line_tool.py:80
+msgid "Keep drawing inside the selected curve instead of creating a new object"
+msgstr "在所选曲线内继续绘制，而不是创建新物体"
+
+#: operators.py:1247
+msgid "Keep the attached objects instead of deleting them"
+msgstr "保留附加物体而不是删除它们"
+
+#: panels.py:610
+msgid "Lathe (Spline → Revolved, live update)"
+msgstr "车削（样条 → 旋转体，实时更新）"
+
+#: panels.py:276
+#: panels.py:336
+msgid "Max Spline"
+msgstr "Max Spline"
+
+#: menus.py:39
+#: menus.py:59
+msgid "Max Spline Primitive"
+msgstr "Max 样条基元"
+
+#: __init__.py:10
+#: panels.py:273
+msgid "Max Spline Tools"
+msgstr "Max Spline Tools"
+
+#: menus.py:24
+#: menus.py:53
+msgid "Max Vertex Type"
+msgstr "Max 顶点类型"
+
+#: panels.py:591
+msgid "Mirror"
+msgstr "镜像"
+
+#: panels.py:347
+#: panels.py:412
+msgid "Mouse"
+msgstr "鼠标"
+
+#: panels.py:518
+msgid "Mouse on: click on the curve to insert; off: one point after each selected vertex"
+msgstr "鼠标开启：单击曲线插入；关闭：在每个选中顶点后插入一个点"
+
+#: primitives.py:171
+msgid "NGon"
+msgstr "N 边形"
+
+#: panels.py:603
+msgid "Normalize (Equal Segments)"
+msgstr "归一化（等长分段）"
+
+#: panels.py:640
+msgid "Object / Boolean"
+msgstr "物体 / 布尔"
+
+#: operators.py:977
+#: operators.py:2699
+msgid "Offset"
+msgstr "偏移"
+
+#: operators.py:989
+#: panels.py:37
+msgid "One on each side — two rings for closed splines, a centered band for open ones"
+msgstr "每侧一个——闭合样条为两个环，开放样条为居中带"
+
+#: operators.py:981
+#: panels.py:107
+msgid "Open splines get a closed outline joined end to end"
+msgstr "开放样条会得到首尾相连的闭合轮廓"
+
+#: operators.py:1360
+#: panels.py:156
+msgid "Operation"
+msgstr "操作"
+
+#: panels.py:103
+#: panels.py:568
+msgid "Outline Offset"
+msgstr "轮廓偏移"
+
+#: panels.py:106
+#: panels.py:569
+msgid "Outline Steps"
+msgstr "轮廓步数"
+
+#: operators.py:987
+#: panels.py:35
+msgid "Outward"
+msgstr "向外"
+
+#: operators.py:2350
+#: panels.py:202
+msgid "Per Turn"
+msgstr "每圈"
+
+#: operators.py:1707
+#: panels.py:138
+msgid "Pivot at Cursor"
+msgstr "轴心在光标处"
+
+#: operators.py:2315
+#: operators.py:2681
+msgid "Plane"
+msgstr "平面"
+
+#: operators.py:2343
+#: panels.py:193
+msgid "Points"
+msgstr "点"
+
+#: operators.py:1821
+msgid "Poly corner, no handles"
+msgstr "多段线角点，无控制柄"
+
+#: panels.py:333
+msgid "Primitives / Section"
+msgstr "基元 / 截面"
+
+#: operators.py:764
+#: operators.py:2337
+msgid "Radius"
+msgstr "半径"
+
+#: operators.py:2342
+msgid "Radius of the inscribed circle (otherwise circumscribed)"
+msgstr "内切圆半径（否则为外接圆半径）"
+
+#: operators.py:2324
+msgid "Rebuild"
+msgstr "重建"
+
+#: operators.py:2324
+msgid "Rebuild the selected shape with current values instead of creating a new object"
+msgstr "使用当前值重建所选形状，而不是创建新物体"
+
+#: primitives.py:168
+msgid "Rectangle"
+msgstr "矩形"
+
+#: primitives.py:168
+msgid "Rectangle, with optional fillet"
+msgstr "矩形，可选圆角"
+
+#: panels.py:513
+msgid "Refine"
+msgstr "细化"
+
+#: primitives.py:171
+msgid "Regular polygon"
+msgstr "正多边形"
+
+#: menus.py:18
+#: operators.py:1825
+msgid "Reset Tangents"
+msgstr "重置切线"
+
+#: operators.py:1825
+msgid "Reset selected handles to their computed default direction"
+msgstr "将所选控制柄重置为计算出的默认方向"
+
+#: panels.py:409
+msgid "Section (Slice Mesh into Spline)"
+msgstr "截面（将网格切分为样条）"
+
+#: operators.py:1443
+#: panels.py:530
+msgid "Segment"
+msgstr "线段"
+
+#: operators.py:1935
+#: panels.py:141
+msgid "Segment Length"
+msgstr "线段长度"
+
+#: operators.py:1706
+#: operators.py:2338
+msgid "Segments"
+msgstr "分段"
+
+#: operators.py:285
+msgid "Select All"
+msgstr "全选"
+
+#: panels.py:305
+msgid "Select a curve object to show editing tools"
+msgstr "选择曲线物体以显示编辑工具"
+
+#: panels.py:404
+msgid "Selected object was made by this add-on — tweak values and hit Rebuild"
+msgstr "所选物体由此插件创建——调整数值并点击“重建”"
+
+#: panels.py:313
+msgid "Selection"
+msgstr "选择"
+
+#: operators.py:2341
+#: panels.py:191
+msgid "Sides"
+msgstr "边数"
+
+#: operators.py:2355
+#: panels.py:205
+msgid "Size"
+msgstr "尺寸"
+
+#: panels.py:420
+msgid "Slices selected meshes; with nothing selected it slices all visible meshes"
+msgstr "切分所选网格；未选择任何内容时切分所有可见网格"
+
+#: line_tool.py:74
+#: menus.py:15
+msgid "Smooth"
+msgstr "平滑"
+
+#: panels.py:160
+msgid "Smooth Output"
+msgstr "平滑输出"
+
+#: line_tool.py:75
+#: panels.py:161
+msgid "Snap"
+msgstr "吸附"
+
+#: panels.py:553
+msgid "Spline"
+msgstr "样条"
+
+#: primitives.py:172
+msgid "Star"
+msgstr "星形"
+
+#: operators.py:2339
+#: panels.py:196
+msgid "Start Angle"
+msgstr "起始角度"
+
+#: line_tool.py:85
+#: panels.py:167
+msgid "Start from Selected Point"
+msgstr "从所选点开始"
+
+#: line_tool.py:85
+msgid "Start from the selected end point and continue the same line"
+msgstr "从所选端点开始并延续同一条线"
+
+#: panels.py:167
+msgid "Start from the selected end point when attaching"
+msgstr "附加时从所选端点开始"
+
+#: operators.py:906
+#: operators.py:980
+msgid "Steps"
+msgstr "步数"
+
+#: operators.py:2351
+#: panels.py:203
+msgid "Taper"
+msgstr "锥化"
+
+#: operators.py:2354
+#: panels.py:204
+msgid "Text"
+msgstr "文本"
+
+#: panels.py:406
+msgid "Text becomes an editable spline — edit the text, then hit Rebuild"
+msgstr "文本将变为可编辑样条——编辑文本后点击“重建”"
+
+#: primitives.py:174
+msgid "Text spline"
+msgstr "文本样条"
+
+#: operators.py:366
+msgid "Threshold"
+msgstr "阈值"
+
+#: line_tool.py:74
+msgid "Treat every point as smooth"
+msgstr "将所有点视为平滑"
+
+#: operators.py:2348
+#: panels.py:198
+msgid "Turns"
+msgstr "圈数"
+
+#: operators.py:1818
+#: operators.py:2314
+msgid "Type"
+msgstr "类型"
+
+#: operators.py:1363
+#: panels.py:46
+msgid "Union"
+msgstr "并集"
+
+#: operators.py:2692
+msgid "Use the current view direction as the cutting plane normal"
+msgstr "使用当前视图方向作为切割平面法线"
+
+#: operators.py:1491
+msgid "Use the spline's own plane; the draw-time view axis wins if recorded"
+msgstr "使用样条自身平面；若记录了绘制时的视图轴，则以该轴为准"
+
+#: operators.py:1443
+#: panels.py:458
+msgid "Vertex"
+msgstr "顶点"
+
+#: panels.py:483
+msgid "Vertex Type (also in right-click menu)"
+msgstr "顶点类型（也在右键菜单中）"
+
+#: line_tool.py:69
+#: operators.py:2318
+msgid "View Plane"
+msgstr "视图平面"
+
+#: panels.py:352
+msgid "W"
+msgstr "W"
+
+#: panels.py:79
+#: panels.py:474
+msgid "Weld Threshold"
+msgstr "焊接阈值"
+
+#: operators.py:2331
+#: panels.py:177
+msgid "Width"
+msgstr "宽度"
+
+#: operators.py:1147
+#: operators.py:1492
+msgid "X"
+msgstr "X"
+
+#: operators.py:1147
+#: operators.py:1493
+msgid "Y"
+msgstr "Y"
+
+#: operators.py:1147
+#: operators.py:1494
+msgid "Z"
+msgstr "Z"
+
+#: operators.py:1695
+msgctxt "Operator"
+msgid "Add a Screw modifier to the selected curve (3ds Max Lathe). Editing the spline afterwards updates the revolved surface live — nothing is baked to a mesh"
+msgstr "为所选曲线添加螺旋修改器（3ds Max 车削）。之后编辑样条会实时更新旋转曲面——不会烘焙为网格"
+
+#: operators.py:1244
+msgctxt "Operator"
+msgid "Attach"
+msgstr "附加"
+
+#: panels.py:659
+msgctxt "Operator"
+msgid "Attach Selected Curves"
+msgstr "附加所选曲线"
+
+#: panels.py:488
+msgctxt "Operator"
+msgid "Bezier"
+msgstr "贝塞尔"
+
+#: panels.py:489
+msgctxt "Operator"
+msgid "Bezier Corner"
+msgstr "贝塞尔角点"
+
+#: operators.py:1355
+#: panels.py:666
+msgctxt "Operator"
+msgid "Boolean"
+msgstr "布尔"
+
+#: menus.py:34
+#: panels.py:479
+msgctxt "Operator"
+msgid "Break"
+msgstr "断开"
+
+#: operators.py:497
+msgctxt "Operator"
+msgid "Break Vertices"
+msgstr "断开顶点"
+
+#: operators.py:498
+msgctxt "Operator"
+msgid "Break the spline at selected vertices — one vertex becomes two coincident ends"
+msgstr "在所选顶点处断开样条——一个顶点会变为两个重合端点"
+
+#: operators.py:780
+#: panels.py:507
+msgctxt "Operator"
+msgid "Chamfer"
+msgstr "倒角"
+
+#: operators.py:860
+#: panels.py:586
+msgctxt "Operator"
+msgid "Close/Open"
+msgstr "闭合/打开"
+
+#: panels.py:485
+msgctxt "Operator"
+msgid "Corner"
+msgstr "角点"
+
+#: panels.py:395
+msgctxt "Operator"
+msgid "Create"
+msgstr "创建"
+
+#: panels.py:415
+msgctxt "Operator"
+msgid "Create Section"
+msgstr "创建截面"
+
+#: operators.py:2309
+msgctxt "Operator"
+msgid "Create Spline Shape"
+msgstr "创建样条形状"
+
+#: operators.py:2310
+msgctxt "Operator"
+msgid "Create a rectangle / circle / arc / NGon / star / helix / text (3ds Max spline primitives); click then drag in the viewport to size it"
+msgstr "创建矩形/圆/圆弧/多边形/星形/螺旋线/文本（3ds Max 样条图元）；在视图中单击并拖动以设定尺寸"
+
+#: operators.py:781
+msgctxt "Operator"
+msgid "Cut straight chamfers at selected corners (result becomes a poly spline); click then drag up/down to change the distance live"
+msgstr "在选中角点处切出直线倒角（结果为多边形样条）；单击后上下拖动可实时调整距离"
+
+#: operators.py:1439
+msgctxt "Operator"
+msgid "Delete"
+msgstr "删除"
+
+#: panels.py:547
+msgctxt "Operator"
+msgid "Delete Segments"
+msgstr "删除线段"
+
+#: panels.py:524
+msgctxt "Operator"
+msgid "Delete Vertices"
+msgstr "删除顶点"
+
+#: operators.py:1440
+msgctxt "Operator"
+msgid "Delete selected vertices or segments"
+msgstr "删除选中的顶点或线段"
+
+#: operators.py:1763
+msgctxt "Operator"
+msgid "Delete the Screw modifier and pivot empty, back to a plain spline"
+msgstr "删除螺旋修改器和轴心空物体，恢复为普通样条"
+
+#: panels.py:319
+msgctxt "Operator"
+msgid "Deselect"
+msgstr "取消选择"
+
+#: operators.py:1305
+msgctxt "Operator"
+msgid "Detach"
+msgstr "分离"
+
+#: panels.py:661
+msgctxt "Operator"
+msgid "Detach Selected Splines"
+msgstr "分离选中样条"
+
+#: operators.py:1306
+msgctxt "Operator"
+msgid "Detach selected splines into a new curve object (3ds Max Detach)"
+msgstr "将选中的样条分离为新的曲线物体（3ds Max 分离）"
+
+#: panels.py:545
+msgctxt "Operator"
+msgid "Divide"
+msgstr "等分"
+
+#: operators.py:884
+msgctxt "Operator"
+msgid "Divide Segment"
+msgstr "等分线段"
+
+#: panels.py:286
+msgctxt "Operator"
+msgid "Draw Line"
+msgstr "绘制线"
+
+#: line_tool.py:61
+msgctxt "Operator"
+msgid "Draw Spline"
+msgstr "绘制样条"
+
+#: line_tool.py:62
+msgctxt "Operator"
+msgid "Draw a spline by clicking, like 3ds Max Line; hold Alt and drag for Bezier handles. Zoom, pan and Blender snapping stay available while drawing"
+msgstr "通过单击绘制样条，类似 3ds Max 的线；按住 Alt 拖动可绘制贝塞尔手柄。绘制时仍可使用缩放、平移和 Blender 吸附"
+
+#: operators.py:1201
+#: panels.py:588
+msgctxt "Operator"
+msgid "Explode"
+msgstr "炸开"
+
+#: operators.py:1476
+#: panels.py:446
+msgctxt "Operator"
+msgid "Extrude"
+msgstr "挤出"
+
+#: operators.py:1477
+msgctxt "Operator"
+msgid "Extrude selected splines into a solid (3ds Max Extrude). Open splines are closed first; the direction follows the view used while drawing (top/bottom = Z, left/right = X, front/back = Y); height may be negative"
+msgstr "将选中的样条挤出为实体（3ds Max 挤出）。开放样条会先闭合；方向取决于绘制时使用的视图（顶/底 = Z，左/右 = X，前/后 = Y）；高度可为负值"
+
+#: operators.py:759
+#: panels.py:498
+msgctxt "Operator"
+msgid "Fillet"
+msgstr "圆角"
+
+#: operators.py:254
+#: panels.py:322
+msgctxt "Operator"
+msgid "Grow Selection"
+msgstr "扩展选择"
+
+#: operators.py:255
+msgctxt "Operator"
+msgid "Grow the selection one vertex to each side, handy for picking segments"
+msgstr "向两侧各扩展一个顶点，便于选取线段"
+
+#: panels.py:628
+msgctxt "Operator"
+msgid "Hide Lathe"
+msgstr "隐藏车削"
+
+#: operators.py:2085
+msgctxt "Operator"
+msgid "Insert a point between a selected vertex and the next one (3ds Max Refine); Bezier splines are split exactly, shape unchanged. With interactive mode you click anywhere on the curve to insert"
+msgstr "在选中顶点与下一个顶点之间插入点（3ds Max 优化）；贝塞尔样条会精确拆分，形状不变。交互模式下可在曲线上任意位置单击插入"
+
+#: panels.py:318
+msgctxt "Operator"
+msgid "Invert"
+msgstr "反选"
+
+#: operators.py:1694
+#: panels.py:617
+msgctxt "Operator"
+msgid "Lathe"
+msgstr "车削"
+
+#: operators.py:804
+#: panels.py:480
+msgctxt "Operator"
+msgid "Make First"
+msgstr "设为首点"
+
+#: operators.py:805
+msgctxt "Operator"
+msgid "Make the selected vertex the spline's first point (shape unchanged)"
+msgstr "将选中顶点设为样条的首点（形状不变）"
+
+#: operators.py:1245
+msgctxt "Operator"
+msgid "Merge other selected curve objects into the active one (3ds Max Attach)"
+msgstr "将其他选中的曲线物体合并到活动物体（3ds Max 附加）"
+
+#: operators.py:362
+msgctxt "Operator"
+msgid "Merge selected vertices within the threshold; poly splines are de-duplicated, closed and stitched back together"
+msgstr "合并阈值内的选中顶点；多边形样条会去重、闭合并重新缝合"
+
+#: operators.py:1142
+#: panels.py:597
+msgctxt "Operator"
+msgid "Mirror"
+msgstr "镜像"
+
+#: operators.py:1143
+msgctxt "Operator"
+msgid "Mirror selected splines on an axis"
+msgstr "沿轴镜像选中的样条"
+
+#: operators.py:1932
+#: panels.py:606
+msgctxt "Operator"
+msgid "Normalize"
+msgstr "规范化"
+
+#: operators.py:974
+msgctxt "Operator"
+msgid "Offset selected splines in parallel. Open splines get a closed outline (ready to extrude); positive goes outward, negative inward. Click then move the mouse to adjust, LMB confirms"
+msgstr "平行偏移选中的样条。开放样条会生成闭合轮廓（可直接挤出）；正值向外，负值向内。单击后移动鼠标调整，左键确认"
+
+#: operators.py:973
+#: panels.py:574
+msgctxt "Operator"
+msgid "Outline"
+msgstr "轮廓"
+
+#: panels.py:397
+msgctxt "Operator"
+msgid "Rebuild"
+msgstr "重建"
+
+#: operators.py:2084
+#: panels.py:515
+msgctxt "Operator"
+msgid "Refine"
+msgstr "优化"
+
+#: menus.py:32
+msgctxt "Operator"
+msgid "Refine (click with mouse)"
+msgstr "优化（鼠标单击）"
+
+#: operators.py:1762
+#: panels.py:633
+msgctxt "Operator"
+msgid "Remove Lathe"
+msgstr "移除车削"
+
+#: operators.py:1933
+msgctxt "Operator"
+msgid "Resample selected splines into equal-length segments (3ds Max Normalize Spline)"
+msgstr "将选中的样条重采样为等长线段（3ds Max 规格化样条）"
+
+#: operators.py:904
+msgctxt "Operator"
+msgid "Resample selected splines into polylines, keeping the shape"
+msgstr "将选中的样条重采样为折线，保持形状"
+
+#: panels.py:490
+msgctxt "Operator"
+msgid "Reset Tangents"
+msgstr "重置切线"
+
+#: operators.py:837
+#: panels.py:587
+msgctxt "Operator"
+msgid "Reverse"
+msgstr "反转"
+
+#: operators.py:838
+msgctxt "Operator"
+msgid "Reverse the spline direction"
+msgstr "反转样条方向"
+
+#: operators.py:760
+msgctxt "Operator"
+msgid "Round the selected corners (result becomes a poly spline); click then drag up/down to change the radius live"
+msgstr "对选中的角点进行圆化（结果为多边形样条）；单击后上下拖动可实时调整半径"
+
+#: panels.py:671
+msgctxt "Operator"
+msgid "Sample as Poly"
+msgstr "采样为多边形"
+
+#: operators.py:2674
+msgctxt "Operator"
+msgid "Section"
+msgstr "截面"
+
+#: menus.py:47
+msgctxt "Operator"
+msgid "Section (slice mesh)"
+msgstr "截面（剖切网格）"
+
+#: panels.py:317
+msgctxt "Operator"
+msgid "Select All"
+msgstr "全选"
+
+#: operators.py:281
+msgctxt "Operator"
+msgid "Select All Vertices"
+msgstr "选择所有顶点"
+
+#: operators.py:235
+msgctxt "Operator"
+msgid "Select Whole Spline"
+msgstr "选择整条样条"
+
+#: operators.py:236
+msgctxt "Operator"
+msgid "Select every spline that owns a selected vertex (3ds Max spline sub-object)"
+msgstr "选择包含选中顶点的所有样条（3ds Max 样条子对象）"
+
+#: operators.py:282
+msgctxt "Operator"
+msgid "Select every vertex of the current curve"
+msgstr "选择当前曲线的所有顶点"
+
+#: operators.py:1815
+msgctxt "Operator"
+msgid "Set selected vertices to Corner / Smooth / Bezier / Bezier Corner; poly splines are converted to Bezier (3ds Max right-click vertex types)"
+msgstr "将选中顶点设为角点/平滑/贝塞尔/贝塞尔角点；多边形样条会转换为贝塞尔（3ds Max 右键顶点类型）"
+
+#: operators.py:1788
+msgctxt "Operator"
+msgid "Show / Hide Lathe"
+msgstr "显示/隐藏车削"
+
+#: panels.py:628
+msgctxt "Operator"
+msgid "Show Lathe"
+msgstr "显示车削"
+
+#: operators.py:2675
+msgctxt "Operator"
+msgid "Slice selected meshes with a plane and turn the intersection into splines (3ds Max Section shape). Click, then move the mouse to slide the cutting plane"
+msgstr "用平面剖切所选网格，并将交线转换为样条（3ds Max 的剖面图形）。点击后移动鼠标可滑动剖切平面"
+
+#: panels.py:486
+msgctxt "Operator"
+msgid "Smooth"
+msgstr "平滑"
+
+#: operators.py:885
+msgctxt "Operator"
+msgid "Split selected segments into equal parts (3ds Max Divide)"
+msgstr "将所选线段等分为若干段（3ds Max 的 Divide）"
+
+#: operators.py:1202
+msgctxt "Operator"
+msgid "Split selected splines into one spline per segment (3ds Max Explode)"
+msgstr "将所选样条拆分，每段成为一条样条（3ds Max 的 Explode）"
+
+#: operators.py:1789
+msgctxt "Operator"
+msgid "Temporarily hide the Screw modifier so you can inspect the spline alone"
+msgstr "临时隐藏螺旋修改器，以便单独检查样条"
+
+#: operators.py:903
+#: panels.py:523
+msgctxt "Operator"
+msgid "To Poly"
+msgstr "转换为多边形"
+
+#: operators.py:861
+msgctxt "Operator"
+msgid "Toggle the closed state of selected splines"
+msgstr "切换所选样条的闭合状态"
+
+#: operators.py:1356
+msgctxt "Operator"
+msgid "Union / difference / intersect closed splines (largest one is the base, the rest are tools)"
+msgstr "对闭合样条执行并集 / 差集 / 相交（最大的为基础，其余为工具）"
+
+#: operators.py:1814
+msgctxt "Operator"
+msgid "Vertex Type"
+msgstr "顶点类型"
+
+#: menus.py:33
+#: panels.py:475
+msgctxt "Operator"
+msgid "Weld"
+msgstr "焊接"
+
+#: operators.py:361
+msgctxt "Operator"
+msgid "Weld Vertices"
+msgstr "焊接顶点"
+
+#: panels.py:321
+msgctxt "Operator"
+msgid "Whole Spline"
+msgstr "整条样条"

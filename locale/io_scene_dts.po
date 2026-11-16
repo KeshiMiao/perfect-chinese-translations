@@ -1,0 +1,983 @@
+# perfect-chinese: 1
+# id: io_scene_dts
+# kind: addon
+# module: bl_ext.blender_org.io_scene_dts
+# name: Torque DTS format
+# name_zh: DTS模型导入导出
+# translator: KeshiMiao
+# category: Import-Export
+# supported_versions: >=4.5.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: ui/lists.py:36
+msgid "(missing)"
+msgstr "（缺失）"
+
+#: ui/lists.py:42
+msgid "(no image)"
+msgstr "（无图像）"
+
+#: ui/lists.py:67
+msgid "(none)"
+msgstr "（无）"
+
+#: ui/panels.py:375
+msgid ","
+msgstr ","
+
+#: props/mesh.py:22
+msgid "A sorted mesh with one cluster covering every primitive.  Keeps the mesh type without claiming an ordering the geometry was never partitioned for"
+msgstr "使用单个簇覆盖所有图元的已排序网格。保留网格类型，但不声称具有几何体从未划分过的顺序"
+
+#: ops/export_dsq.py:20
+msgid "Active Sequence Only"
+msgstr "仅活动序列"
+
+#: props/sequence.py:36
+msgid "Aligned"
+msgstr "对齐"
+
+#: ui/operators.py:141
+msgid "All Detail Levels"
+msgstr "所有细节级别"
+
+#: ui/operators.py:348
+msgid "All Materials"
+msgstr "所有材质"
+
+#: props/mesh.py:100
+msgid "Always Write Depth"
+msgstr "始终写入深度"
+
+#: props/mesh.py:41
+msgid "Always face the camera.  The engine replaces this mesh's rotation with the identity, keeping only its position and scale (tsMesh.cc:59).  Build the card standing in the XZ plane -- X becomes screen-right and Z screen-up, so a card lying flat in XY has no height and draws as a smear.  Nothing in the viewport shows this"
+msgstr "始终面向摄像机。引擎会把此网格的旋转替换为单位旋转，仅保留其位置和缩放（tsMesh.cc:59）。请把卡片建在 XZ 平面中直立——X 会变成屏幕右方，Z 变成屏幕上方，因此平躺在 XY 平面中的卡片没有高度，会绘制成一条拖影。视口中不会显示这一点"
+
+#: props/material.py:122
+msgid "Always write the reflectance as a texture of its own, with its own entry in the shape's material list, even when the export box is on"
+msgstr "始终将反射率写为独立纹理，并在形状的材质列表中拥有自己的条目，即使导出复选框已开启"
+
+#: props/material.py:114
+msgid "Always write the reflectance map into the diffuse texture's alpha channel and point this material's reflectance slot at itself, even when the export box is off.  That packing is what every material in Tribes 2's own shapes uses"
+msgstr "始终将反射率贴图写入漫反射纹理的 Alpha 通道，并让此材质的反射率槽指向自身，即使导出复选框已关闭。Tribes 2 自带形状中的每个材质都使用这种打包方式"
+
+#: ui/panels.py:127
+msgid "An IFL material flips through a .ifl"
+msgstr "IFL 材质会逐帧播放 .ifl"
+
+#: props/mesh.py:21
+msgid "An ordinary mesh, drawn in the order its primitives are stored"
+msgstr "普通网格，按其图元的存储顺序绘制"
+
+#: props/decal.py:61
+msgid "Any Corner Inside"
+msgstr "任一角在内"
+
+#: props/sequence.py:37
+msgid "Arbitrary"
+msgstr "任意"
+
+#: ui/panels.py:510
+msgid "Arbitrary scale is refused on export"
+msgstr "导出时拒绝任意缩放"
+
+#: ops/export_dts.py:41
+msgid "As v17, and animation is stored keyframe-major through a keyframe table"
+msgstr "与 v17 相同，并通过关键帧表以关键帧为主序存储动画"
+
+#: ops/export_dts.py:40
+msgid "As v18, with 32-bit primitive and index fields"
+msgstr "与 v18 相同，使用 32 位图元和索引字段"
+
+#: ops/export_dts.py:35
+msgid "As v20; decals carry the empty mesh header they had when decals were derived from meshes"
+msgstr "与 v20 相同；贴花携带从网格派生时原有的空网格头"
+
+#: ops/export_dts.py:34
+msgid "As v21, without per-material reflection amounts"
+msgstr "与 v21 相同，但没有逐材质反射量"
+
+#: props/shape.py:49
+msgid "Average Error"
+msgstr "平均误差"
+
+#: props/mesh.py:41
+msgid "Billboard"
+msgstr "广告牌"
+
+#: props/mesh.py:52
+msgid "Billboard Z-Axis"
+msgstr "广告牌 Z 轴"
+
+#: ui/panels.py:367
+msgid "Blend mode comes from the shader, not from here"
+msgstr "混合模式来自着色器，而不是此处"
+
+#: ui/panels.py:329
+msgid "Bump Map Only"
+msgstr "仅凹凸贴图"
+
+#: props/decal.py:67
+msgid "Centre Inside"
+msgstr "中心在内"
+
+#: props/material.py:114
+msgid "Combine"
+msgstr "合并"
+
+#: ops/export_dts.py:79
+msgid "Combine Diffuse and Reflectance"
+msgstr "合并漫反射和反射率"
+
+#: ui/panels.py:430
+msgid "Combine Diffuse and Reflectance, in the export dialog"
+msgstr "在导出对话框中合并漫反射和反射率"
+
+#: props/decal.py:61
+msgid "Cover a face if any of its corners falls inside the projector square.  The most generous rule and the closest to the shipped art"
+msgstr "只要面的任一角落入投影器方形内，就覆盖该面。这是最宽松的规则，也最接近随附美术资源"
+
+#: props/decal.py:67
+msgid "Cover a face if its centre falls inside the projector square.  Tighter than Any Corner, and it can miss a face larger than the projector"
+msgstr "如果面的中心落入投影器方形内，就覆盖该面。比“任一角在内”更严格，且可能漏掉比投影器更大的面"
+
+#: props/decal.py:73
+msgid "Cover a face only if all of its corners fall inside the projector square.  Covers nothing on geometry coarser than the decal"
+msgstr "仅当面的所有角都落入投影器方形内时才覆盖该面。对于比贴花更粗糙的几何体不会覆盖任何内容"
+
+#: props/decal.py:160
+msgid "Coverage"
+msgstr "覆盖范围"
+
+#: ui/panels.py:202
+msgid "Covered Faces"
+msgstr "已覆盖面"
+
+#: ops/import_dts.py:34
+msgid "Create Materials"
+msgstr "创建材质"
+
+#: ops/import_dts.py:34
+msgid "Create Principled BSDF materials with textures found next to the file"
+msgstr "使用文件旁找到的纹理创建 Principled BSDF 材质"
+
+#: ops/import_dts.py:29
+msgid "Create an Action for every animation sequence"
+msgstr "为每个动画序列创建动作"
+
+#: ui/panels.py:546
+msgid "DTS"
+msgstr "DTS"
+
+#: ui/panels.py:171
+msgid "DTS Decal"
+msgstr "DTS 贴花"
+
+#: ui/panels.py:454
+msgid "DTS Environment Map"
+msgstr "DTS 环境贴图"
+
+#: ui/panels.py:335
+msgid "DTS Material"
+msgstr "DTS 材质"
+
+#: ui/panels.py:250
+msgid "DTS Mesh"
+msgstr "DTS 网格"
+
+#: ui/panels.py:214
+msgid "DTS Node"
+msgstr "DTS 节点"
+
+#: ui/panels.py:544
+msgid "DTS Sequence"
+msgstr "DTS 序列"
+
+#: ui/panels.py:42
+msgid "DTS Shape"
+msgstr "DTS 形状"
+
+#: props/decal.py:104
+msgid "Decal Name"
+msgstr "贴花名称"
+
+#: ui/panels.py:300
+msgid "Decals"
+msgstr "贴花"
+
+#: props/decal.py:149
+msgid "Depth"
+msgstr "深度"
+
+#: ui/panels.py:60
+msgid "Detail Levels"
+msgstr "细节级别"
+
+#: ui/panels.py:328
+msgid "Detail Map Only"
+msgstr "仅细节贴图"
+
+#: props/shape.py:44
+msgid "Detail Number"
+msgstr "细节编号"
+
+#: props/decal.py:166
+msgid "Do not cover a face whose normal turns further than this from the projector's axis.  90 degrees rejects anything pointing away, which is what stops a decal on the front of a shape also landing on the back.  The original exporter's DECAL::MAX_ANGLE, same default"
+msgstr "如果面的法线与投影器轴的偏转超过此值，则不覆盖该面。90 度会拒绝任何背向的面，从而防止形状正面的贴花也落到背面。原导出器的 DECAL::MAX_ANGLE，默认值相同"
+
+#: ui/operators.py:91
+msgid "Down"
+msgstr "向下"
+
+#: ui/panels.py:285
+msgid "Draw order"
+msgstr "绘制顺序"
+
+#: ui/panels.py:295
+msgid "Each level doubles the index buffer"
+msgstr "每一级都会使索引缓冲区翻倍"
+
+#: props/mesh.py:74
+msgid "Echo Mesh Type In Flags"
+msgstr "在标志中回显网格类型"
+
+#: props/scene.py:36
+msgid "Environment Map"
+msgstr "环境贴图"
+
+#: ui/operators.py:205
+#: ui/operators.py:402
+msgid "Every Decal"
+msgstr "每个贴花"
+
+#: ui/operators.py:348
+msgid "Every material in the file, not just the active one"
+msgstr "文件中的每个材质，而不仅是活动材质"
+
+#: ops/export_dts.py:53
+msgid "Export DTS-tagged actions as animation sequences"
+msgstr "将带有 DTS 标记的动作导出为动画序列"
+
+#: ops/export_dts.py:67
+msgid "Export Decals as Meshes"
+msgstr "将贴花导出为网格"
+
+#: ops/export_dts.py:53
+msgid "Export Sequences"
+msgstr "导出序列"
+
+#: ops/export_dts.py:58
+msgid "Export Textures"
+msgstr "导出纹理"
+
+#: ui/panels.py:235
+msgid "Export keeps these while the bone still agrees with them"
+msgstr "只要骨骼仍与之一致，导出时就保留这些"
+
+#: ops/export_dts.py:48
+msgid "Export only selected mesh objects (the active armature is always used)"
+msgstr "仅导出选中的网格物体（始终使用活动骨架）"
+
+#: ops/export_dsq.py:20
+msgid "Export only the sequence currently playing — the armature's one unmuted NLA track — instead of all DTS actions"
+msgstr "仅导出当前正在播放的序列——骨架中唯一未静音的 NLA 轨道——而不是全部 DTS 动作"
+
+#: props/node.py:23
+msgid "Export this node's rest transform exactly as the file held it, as long as the bone still agrees with it.  Clear to let the bone's own matrix decide"
+msgstr "按文件中原样导出此节点的静止变换，只要骨骼仍与之一致。清除则交由骨骼自身的矩阵决定"
+
+#: props/sequence.py:37
+msgid "Factors plus an orientation for the axes to be measured along.  A bone's scale cannot express this, so it is refused on export"
+msgstr "各轴因子及测量方向的朝向。骨骼的缩放无法表达这一点，因此导出时会被拒绝"
+
+#: ui/panels.py:353
+msgid "Flags"
+msgstr "标志"
+
+#: props/sequence.py:63
+msgid "Flip the sense of this trigger when the sequence plays backwards"
+msgstr "序列倒放时反转此触发器的方向"
+
+#: props/material.py:108
+msgid "Follow Export Setting"
+msgstr "跟随导出设置"
+
+#: ops/export_dts.py:22
+msgid "Format Version"
+msgstr "格式版本"
+
+#: props/decal.py:73
+msgid "Fully Inside"
+msgstr "完全在内"
+
+#: ui/panels.py:524
+msgid "Ground Frames"
+msgstr "地面帧"
+
+#: props/mesh.py:61
+msgid "Has Detail Texture"
+msgstr "有细节纹理"
+
+#: props/material.py:58
+msgid "Hold"
+msgstr "保持"
+
+#: props/mesh.py:90
+msgid "How deep to partition.  Each level doubles the index buffer, because a subtree is emitted once per direction the walk can arrive from"
+msgstr "划分的深度。每增加一级索引缓冲区就翻倍，因为每个子树会按遍历可能到达的每个方向各输出一次"
+
+#: props/decal.py:149
+msgid "How far behind the projector a face may sit and still be covered, in multiples of the projector's own half-width.  The format stores no depth axis, so this is a choice rather than a recovered value"
+msgstr "面可以位于投影器后方多远仍被覆盖，以投影器自身半宽的倍数计。该格式不存储深度轴，因此这是一个选择值而非可恢复的值"
+
+#: props/material.py:87
+msgid "How much of the environment map this material reflects, on top of its reflectance mask.  The engine multiplies the two (tsMesh.cc:1003)"
+msgstr "此材质在反射遮罩之外额外反射多少环境贴图。引擎会将两者相乘（tsMesh.cc:1003）"
+
+#: props/material.py:100
+msgid "How this material's reflectance map is written on export, when it has one.  Leave it on Follow Export Setting unless this material has to disagree with the rest of the shape"
+msgstr "导出时如何写入此材质的反射贴图（若存在）。除非此材质必须与形状其余部分不同，否则保持为跟随导出设置"
+
+#: props/mesh.py:84
+msgid "How this mesh's draw order is decided"
+msgstr "此网格的绘制顺序如何决定"
+
+#: ui/panels.py:327
+msgid "IFL Frame"
+msgstr "IFL 帧"
+
+#: ui/panels.py:110
+msgid "IFL Frames"
+msgstr "IFL 帧"
+
+#: props/material.py:65
+#: props/sequence.py:90
+msgid "IFL Material"
+msgstr "IFL 材质"
+
+#: ui/panels.py:537
+msgid "IFL Materials Advanced"
+msgstr "IFL 材质高级"
+
+#: ops/import_dts.py:39
+msgid "Import Decals as Meshes"
+msgstr "将贴花导入为网格"
+
+#: ops/import_dts.py:50
+msgid "Import Detail Levels"
+msgstr "导入细节级别"
+
+#: ops/import_dts.py:29
+msgid "Import Sequences"
+msgstr "导入序列"
+
+#: ops/import_dts.py:39
+msgid "Import each decal as a copy of the faces the file says it covers, one mesh per detail level, instead of as a projector empty.  This is the only way to see the file's own face list, which a projector has to re-derive -- but a decal is exported from a projector, so these meshes reach no file"
+msgstr "将每个贴花作为文件所述覆盖面的副本导入，每个细节级别一个网格，而不是作为投影器空物体。这是查看文件自身面列表的唯一方式，投影器必须重新推导——但贴花是从投影器导出的，因此这些网格不会写入任何文件"
+
+#: ops/import_dts.py:50
+msgid "Import every LOD, not just the one the engine shows by default.  They all stand at the same origin, so a shape with eleven levels imports as eleven overlapping copies.  Collision and LOS details are kept either way; the levels left out lose their geometry in anything exported from this scene"
+msgstr "导入所有 LOD，而不仅是引擎默认显示的那一个。它们都位于同一原点，因此有十一个级别的形状会导入为十一个重叠副本。碰撞和 LOS 细节无论如何都会保留；被省略的级别在从此场景导出的任何内容中都会丢失几何体"
+
+#: props/decal.py:112
+msgid "Index"
+msgstr "索引"
+
+#: props/sequence.py:63
+msgid "Invert On Reverse"
+msgstr "倒放时反转"
+
+#: props/shape.py:68
+msgid "Is a DTS Shape"
+msgstr "是 DTS 形状"
+
+#: props/node.py:23
+msgid "Keep Imported Rest Transform"
+msgstr "保留导入的静止变换"
+
+#: ops/export_dts.py:99
+msgid "Limit Textures to 512x512"
+msgstr "将纹理限制为 512x512"
+
+#: ui/panels.py:100
+msgid "Map slots and IFL entries index into this list"
+msgstr "贴图槽和 IFL 条目索引此列表"
+
+#: ui/panels.py:380
+msgid "Maps (no preview; the Principled shader ignores them)"
+msgstr "贴图（无预览；原理化着色器会忽略它们）"
+
+#: props/decal.py:140
+#: props/shape.py:62
+msgid "Material"
+msgstr "材质"
+
+#: ui/panels.py:87
+msgid "Material Order"
+msgstr "材质顺序"
+
+#: props/decal.py:166
+msgid "Max Angle"
+msgstr "最大角度"
+
+#: props/shape.py:50
+msgid "Max Error"
+msgstr "最大误差"
+
+#: props/mesh.py:66
+msgid "Mesh flag bit 28: read normals from the 256-entry table rather than the float array.  No shape in the Tribes 2 corpus sets it"
+msgstr "网格标志位 28：从 256 项表而非浮点数组读取法线。Tribes 2 语料库中没有任何形状设置它"
+
+#: props/mesh.py:61
+msgid "Mesh flag bit 30.  No shape in the Tribes 2 corpus sets it"
+msgstr "网格标志位 30。Tribes 2 语料库中没有任何形状设置它"
+
+#: ui/panels.py:326
+msgid "Mip-Map Zero Border"
+msgstr "Mip 贴图零边界"
+
+#: props/mesh.py:52
+msgid "Modifies Billboard rather than replacing it: only the Z axis is kept, so the mesh spins to face the camera but stays upright.  What a tree trunk or a flame wants.  Has no effect unless Billboard is also on"
+msgstr "修改而非替换广告牌：仅保留 Z 轴，因此网格会旋转面向相机但保持竖直。适合树干或火焰。除非也开启广告牌，否则无效"
+
+#: props/shape.py:32
+#: props/shape.py:42
+msgid "Name"
+msgstr "名称"
+
+#: ui/panels.py:142
+msgid "Name Table"
+msgstr "名称表"
+
+#: ui/panels.py:324
+msgid "Never Env-Map"
+msgstr "从不使用环境贴图"
+
+#: ops/export_dts.py:25
+msgid "Newest format: Torque Game Engine 1.5.  The only version with somewhere to keep ground frames"
+msgstr "最新格式：Torque Game Engine 1.5。唯一有位置存储地面帧的版本"
+
+#: ui/panels.py:325
+msgid "No Mip-Map"
+msgstr "无 Mip 贴图"
+
+#: ui/panels.py:435
+msgid "No environment map set; see Scene Properties"
+msgstr "未设置环境贴图；请参见场景属性"
+
+#: props/sequence.py:34
+msgid "No node scale animation"
+msgstr "无节点缩放动画"
+
+#: ui/panels.py:412
+msgid "No reflectance map; this material does not reflect"
+msgstr "无反射贴图；此材质不反射"
+
+#: props/sequence.py:34
+msgid "None"
+msgstr "无"
+
+#: ui/panels.py:277
+msgid "Nothing in the viewport turns it to face you"
+msgstr "视图中没有任何东西让它转向面对你"
+
+#: props/sequence.py:62
+msgid "On"
+msgstr "开启"
+
+#: props/sequence.py:35
+msgid "One factor per keyframe, applied to all three axes"
+msgstr "每个关键帧一个因子，应用于全部三个轴"
+
+#: ops/export_dts.py:31
+msgid "One node track per node: a node that rotates also stores a translation.  No scale animation, and no encoded normals.  Ground frames ride at the end of the node array"
+msgstr "每个节点一条节点轨道：旋转的节点也会存储平移。无缩放动画，也无编码法线。地面帧位于节点数组末尾"
+
+#: ui/panels.py:375
+msgid "Opaque"
+msgstr "不透明"
+
+#: ui/panels.py:154
+msgid "Order is load-bearing: every name index is an offset here"
+msgstr "顺序至关重要：这里的每个名称索引都是偏移量"
+
+#: props/decal.py:122
+msgid "Owner Object"
+msgstr "所属物体"
+
+#: props/shape.py:51
+msgid "Polygon Count"
+msgstr "多边形数量"
+
+#: props/sequence.py:68
+msgid "Position"
+msgstr "位置"
+
+#: ui/panels.py:473
+msgid "Preview only; never written to a .dts"
+msgstr "仅预览；从不写入 .dts"
+
+#: ui/operators.py:141
+msgid "Project onto every detail level of the same object, so the decal does not vanish as the engine drops LOD.  Every shipped decal does this"
+msgstr "投射到同一物体的每个细节层级上，这样当引擎降低 LOD 时贴花不会消失。所有已发布的贴花都这样做"
+
+#: props/node.py:33
+msgid "Quat16 x, y, z, w as stored in the file"
+msgstr "文件中存储的 Quat16 x、y、z、w"
+
+#: props/mesh.py:28
+msgid "Rebuild a back-to-front cluster tree from the geometry on export.  For translucent surfaces that need to blend in the right order"
+msgstr "导出时根据几何体重建从后到前的簇树。用于需要按正确顺序混合的半透明表面"
+
+#: ui/operators.py:402
+msgid "Rebuild every decal in the scene, not just the selected one"
+msgstr "重建场景中的每个贴花，而不仅是选中的贴花"
+
+#: ui/panels.py:207
+msgid "Recomputed on export; the file's own list is not kept"
+msgstr "导出时重新计算；不保留文件自身的列表"
+
+#: ui/panels.py:398
+msgid "Reflectance (environment map)"
+msgstr "反射率（环境贴图）"
+
+#: ui/panels.py:330
+msgid "Reflectance Map Only"
+msgstr "仅反射率贴图"
+
+#: props/material.py:100
+msgid "Reflectance Packing"
+msgstr "反射率打包"
+
+#: props/material.py:87
+msgid "Reflection Amount"
+msgstr "反射量"
+
+#: ui/operators.py:205
+msgid "Refresh every decal in the scene, not just the selected one"
+msgstr "刷新场景中的每个贴花，而不仅是选中的贴花"
+
+#: props/mesh.py:74
+msgid "Repeat the mesh type in the low three bits of the flags word.  Whether an exporter did this varies per mesh -- every sorted mesh in the corpus does, and 16 of its 20 skins -- so it is recorded rather than inferred"
+msgstr "在标志字的低三位中重复网格类型。不同网格的导出器是否这样做各不相同——语料库中的每个已排序网格都这样做，其 20 个蒙皮中有 16 个也这样做——因此将其记录而不是推断"
+
+#: ops/export_dts.py:90
+msgid "Resize exported textures to the nearest power-of-two dimensions (100x60 becomes 128x64).  Torque's texture loader assumes power-of-two sizes, so one that is not renders white or garbled in-game while looking correct in Blender.  Only the written file is resized -- the image in your .blend is left alone"
+msgstr "将导出的纹理调整为最接近的 2 的幂尺寸（100x60 变为 128x64）。Torque 的纹理加载器假定尺寸为 2 的幂，因此非 2 的幂的纹理在游戏中会渲染成白色或乱码，而在 Blender 中看起来正常。仅调整写入的文件——.blend 中的图像保持不变"
+
+#: props/node.py:33
+msgid "Rest Rotation (raw)"
+msgstr "静止旋转（原始）"
+
+#: props/node.py:39
+msgid "Rest Translation"
+msgstr "静止平移"
+
+#: ui/panels.py:525
+msgid "Root motion: what gives a movement animation its speed"
+msgstr "根运动：为移动动画提供速度的因素"
+
+#: props/sequence.py:52
+msgid "Rotation (raw)"
+msgstr "旋转（原始）"
+
+#: ui/panels.py:321
+msgid "S Wrap"
+msgstr "S 环绕"
+
+#: props/sequence.py:106
+msgid "Scale Mode"
+msgstr "缩放模式"
+
+#: ops/export_dts.py:90
+msgid "Scale Textures to Power of Two"
+msgstr "将纹理缩放为 2 的幂"
+
+#: ops/export_dts.py:99
+msgid "Scale any exported texture larger than 512x512 down to fit, keeping its aspect ratio.  An oversized texture still renders, but the engine uploads and mipmaps all of it and the driver resamples what its hardware cannot hold, so the size is paid for and then discarded.  512 is the largest the art this format ships with is built to.  Only the written file is resized -- the image in your .blend is left alone"
+msgstr "将任何大于 512x512 的导出纹理按比例缩小以适配。过大的纹理仍能渲染，但引擎会将其全部上传并生成 mipmap，而驱动会重采样其硬件无法容纳的部分，因此尺寸代价付出了却被丢弃。512 是该格式附带的美术资源所支持的最大尺寸。仅调整写入的文件——.blend 中的图像保持不变"
+
+#: props/scene.py:46
+msgid "Scales every material's reflection, the way the engine's shape-level environment-map alpha does.  The game uses 1.0; the SDK shape viewer makes it a slider.  Preview only"
+msgstr "缩放每个材质的反射，方式与引擎的形体级环境贴图 alpha 相同。游戏使用 1.0；SDK 形体查看器将其做成滑块。仅预览"
+
+#: props/shape.py:45
+msgid "Screen size at which this level takes over; negative means never drawn"
+msgstr "此层级接管的屏幕尺寸；负值表示从不绘制"
+
+#: ui/panels.py:302
+msgid "Select the faces to cover first"
+msgstr "先选择要覆盖的面"
+
+#: ops/export_dts.py:48
+msgid "Selected Objects Only"
+msgstr "仅选中的物体"
+
+#: ui/panels.py:323
+msgid "Self Illuminating"
+msgstr "自发光"
+
+#: props/material.py:122
+msgid "Separate"
+msgstr "分离"
+
+#: props/shape.py:68
+msgid "Set on the armature an imported shape was built around"
+msgstr "设置在导入形体所依据的骨架上"
+
+#: props/shape.py:45
+msgid "Size"
+msgstr "大小"
+
+#: ui/panels.py:292
+msgid "Sorted (BSP) on export: the material blends"
+msgstr "导出时排序（BSP）：材质混合"
+
+#: props/mesh.py:84
+msgid "Sorted Mode"
+msgstr "排序模式"
+
+#: props/mesh.py:28
+msgid "Sorted, BSP"
+msgstr "排序，BSP"
+
+#: props/mesh.py:22
+msgid "Sorted, Unordered"
+msgstr "排序，无序"
+
+#: props/mesh.py:21
+msgid "Standard"
+msgstr "标准"
+
+#: props/sequence.py:59
+msgid "State"
+msgstr "状态"
+
+#: props/scene.py:46
+msgid "Strength"
+msgstr "强度"
+
+#: props/decal.py:127
+#: props/shape.py:43
+msgid "Sub-shape"
+msgstr "子形体"
+
+#: props/sequence.py:62
+msgid "Switch the state on rather than off"
+msgstr "打开状态而非关闭"
+
+#: ui/panels.py:322
+msgid "T Wrap"
+msgstr "T 环绕"
+
+#: props/decal.py:129
+msgid "Target"
+msgstr "目标"
+
+#: props/material.py:57
+msgid "Texture"
+msgstr "纹理"
+
+#: props/decal.py:122
+msgid "The DTS object this decal hangs off, by name"
+msgstr "此贴花所依附的 DTS 物体名称"
+
+#: ops/export_dts.py:29
+msgid "The bulk of Tribes 2's shapes.  Skins live with the other meshes from here up"
+msgstr "Tribes 2 的大部分形体。从此版本起，蒙皮与其他网格放在一起"
+
+#: props/decal.py:104
+msgid "The decal's name in the file.  Not unique -- turret_tank_base gives all fourteen of its decals the same one -- so the index below is its identity"
+msgstr "文件中此贴花的名称。不唯一——turret_tank_base 的十四个贴花全都用同一个名称——因此下面的索引才是它的标识"
+
+#: ui/operators.py:136
+msgid "The decal's name.  Not unique in real shapes; the index is its identity"
+msgstr "贴花的名称。真实形体中不唯一；索引才是它的标识"
+
+#: props/decal.py:140
+msgid "The decal's own material, which is not the target's.  It had nowhere to live once the decal stopped being a mesh with a material slot"
+msgstr "贴花自身的材质，并非目标的材质。贴花不再是带材质槽的网格后，它便无处存放"
+
+#: ui/panels.py:474
+msgid "The engine takes it from the mission sky's .dml"
+msgstr "引擎从任务天空的 .dml 中获取"
+
+#: props/decal.py:112
+msgid "The file's own identity for this decal.  decal_states[i] and each sequence's decal_matters bits are keyed by it, so two decals must not share one"
+msgstr "文件为此外贴花自身的标识。decal_states[i] 和每个序列的 decal_matters 位都以它为键，因此两个贴花不能共用同一个"
+
+#: ops/export_dts.py:37
+msgid "The flat-stream format: no mesh bounds (the engine computes them), no vertex sharing between detail levels, no merge indices, no LOD error metrics, and no decal projection planes"
+msgstr "扁平流格式：没有网格边界（由引擎计算），细节层级之间没有顶点共享，没有合并索引，没有 LOD 误差度量，也没有贴花投影平面"
+
+#: ops/export_dts.py:27
+msgid "The format Tribes 2's own shapes use.  No ground frames -- v23 and v22 have nowhere for them"
+msgstr "Tribes 2 自带形体使用的格式。没有地面帧——v23 和 v22 无处存放它们"
+
+#: ui/panels.py:424
+msgid "The mask comes from the node graph"
+msgstr "遮罩来自节点图"
+
+#: ui/panels.py:419
+msgid "The mask is this texture's alpha, shared with transparency"
+msgstr "遮罩是此纹理的 alpha，与透明度共用"
+
+#: props/decal.py:129
+msgid "The mesh this decal projects onto.  A pointer and not a name: export matches the decal's faces against this exact object's vertices, and a renamed mesh used to silently cover nothing"
+msgstr "此贴花投射到的网格。它是指针而非名称：导出时将贴花的面与此确切物体的顶点匹配，而重命名过的网格以前会静默地不覆盖任何东西"
+
+#: ops/export_dts.py:43
+msgid "The oldest this add-on writes.  As v16, and meshes are indexed through a separate list rather than a null-mesh marker"
+msgstr "此插件可写入的最旧格式。作为 v16，网格通过单独列表索引，而不是空网格标记"
+
+#: props/scene.py:36
+msgid "The sphere map reflective materials show, standing in for the sky the engine would take it from.  Preview only -- it is not part of the shape and is never exported.  With none set, nothing reflects"
+msgstr "反射材质所显示的球面贴图，用来代替引擎原本会从中获取的天空。仅预览——它不属于形体，且从不导出。未设置时，不反射任何内容"
+
+#: props/material.py:65
+msgid "This material is an animated flipbook: the engine reads a .ifl file named after it and swaps the texture as the sequence runs.  Ticking this is what puts an entry in the shape's IFL table, and export writes the frames below out as that .ifl"
+msgstr "此材质是动画翻页图集：引擎会读取与其同名的 .ifl 文件，并在序列播放时切换纹理。勾选此项会把一条记录写入形体的 IFL 表，导出时会将下方的帧写出为该 .ifl"
+
+#: props/sequence.py:36
+msgid "Three factors per keyframe, along the node's own axes"
+msgstr "每个关键帧三个因子，沿节点自身的坐标轴"
+
+#: ops/export_dts.py:25
+msgid "Torque (v24)"
+msgstr "Torque (v24)"
+
+#: props/sequence.py:50
+msgid "Translation"
+msgstr "平移"
+
+#: props/mesh.py:90
+msgid "Tree Depth"
+msgstr "树深度"
+
+#: ops/export_dts.py:27
+msgid "Tribes 2 (v23)"
+msgstr "Tribes 2 (v23)"
+
+#: ops/export_dts.py:29
+msgid "Tribes 2, older (v22)"
+msgstr "Tribes 2 旧版 (v22)"
+
+#: ui/panels.py:513
+msgid "Triggers"
+msgstr "触发器"
+
+#: props/sequence.py:35
+msgid "Uniform"
+msgstr "均匀"
+
+#: ui/operators.py:91
+msgid "Up"
+msgstr "上"
+
+#: props/mesh.py:66
+msgid "Use Encoded Normals"
+msgstr "使用编码法线"
+
+#: props/material.py:108
+msgid "Whatever Combine Diffuse and Reflectance is set to in the export dialog.  This is what a material carries unless someone changes it"
+msgstr "取导出对话框中「合并漫反射与反射率」的设置值。除非有人更改，否则材质沿用此设置"
+
+#: props/sequence.py:68
+msgid "Where in the sequence it fires, 0..1"
+msgstr "在序列中触发的位置，0..1"
+
+#: props/decal.py:160
+msgid "Which faces of the target the projector covers"
+msgstr "投影器覆盖目标物体的哪些面"
+
+#: props/sequence.py:106
+msgid "Which of the DTS node-scale forms the bones' scale channels mean"
+msgstr "骨骼缩放通道对应哪种 DTS 节点缩放形式"
+
+#: props/sequence.py:59
+msgid "Which trigger state, 1..30"
+msgstr "触发状态，1..30"
+
+#: ops/export_dts.py:58
+msgid "Write a .png beside the .dts for every texture the shape names, whether it was made in Blender or loaded from disk.  Existing files are overwritten, so exporting into a game's textures/ tree rewrites the art there.  A material's .ifl is written either way -- it is animation data, not art"
+msgstr "为形体引用的每个纹理在 .dts 旁写出一个 .png，无论它是在 Blender 中生成的还是从磁盘加载的。已存在的文件会被覆盖，因此导出到游戏的 textures/ 目录会重写那里的美术资源。材质的 .ifl 无论如何都会写出——它是动画数据，不是美术资源"
+
+#: props/mesh.py:100
+msgid "Write depth values even where the mesh is translucent"
+msgstr "即使网格为半透明也写入深度值"
+
+#: ops/export_dts.py:67
+msgid "Write each decal as an ordinary mesh object -- the faces it covers, copied, lifted just off the surface so the two do not z-fight, with the projection baked into its UVs -- instead of as a TSDecalMesh.  Anything that reads a .dts then draws the decal, including tools that skip the decal section, and the shape no longer needs a translucent mesh to draw decals against.  The file carries no decal entries afterwards, so re-importing gives meshes and no projectors"
+msgstr "将每个贴花写为普通网格物体——复制其覆盖的面，略微抬离表面以免两者发生 z-fighting，并把投影烘焙进其 UV——而不是写成 TSDecalMesh。任何读取 .dts 的程序都会绘制该贴花，包括跳过贴花段的工具，且形体不再需要半透明网格来绘制贴花。之后文件中不再包含贴花条目，因此重新导入只会得到网格而没有投影器"
+
+#: ops/export_dts.py:79
+msgid "Write each material's reflectance map into its diffuse texture's alpha channel, so the shape names one texture and points its reflectance slot at itself.  That is the packing every material in Tribes 2's own shapes uses.  Unchecked, the diffuse and the reflectance are written as separate files and the reflectance gets its own entry in the material list.  A material set to Combine or Separate in its DTS Material panel overrules this for itself"
+msgstr "将每个材质的反射率贴图写入其漫反射纹理的 alpha 通道，这样形体只引用一个纹理，并让反射率槽指向自身。这是 Tribes 2 自带形体的每个材质都采用的打包方式。取消勾选时，漫反射与反射率会写成各自独立的文件，反射率在材质列表中获得自己的条目。在 DTS 材质面板中设为「合并」或「分离」的材质会覆盖此设置"
+
+#: ops/export_dsq.py:55
+msgid "no actions to export"
+msgstr "没有可导出的动作"
+
+#: ops/export_dsq.py:44
+msgid "no single active sequence — leave exactly one NLA track unmuted"
+msgstr "没有唯一的活动序列——请只保留一个未静音的 NLA 轨道"
+
+#: ui/lists.py:26
+msgid "not drawn"
+msgstr "未绘制"
+
+#: ops/export_dsq.py:36
+msgid "select the source armature first"
+msgstr "请先选择源骨架"
+
+#: ops/import_dsq.py:27
+msgid "select the target armature first"
+msgstr "请先选择目标骨架"
+
+#: ui/operators.py:172
+msgid "the decal's target must hang off the shape's armature"
+msgstr "贴花的目标必须隶属于形体的骨架"
+
+#: ui/operators.py:274
+msgid "this material already has a reflectance map"
+msgstr "此材质已有反射率贴图"
+
+#: ui/operators.py:280
+msgid "this material has no Principled BSDF to mix the reflection over; additive and subtractive materials never env-map in the engine"
+msgstr "此材质没有 Principled BSDF 可供在其上混合反射；加法与减法材质在引擎中从不使用环境贴图"
+
+#: ui/operators.py:129
+msgctxt "Operator"
+msgid "Add DTS Decal"
+msgstr "添加 DTS 贴花"
+
+#: ui/operators.py:48
+msgctxt "Operator"
+msgid "Add Entry"
+msgstr "添加条目"
+
+#: ui/operators.py:257
+msgctxt "Operator"
+msgid "Add Reflectance Map"
+msgstr "添加反射率贴图"
+
+#: ui/operators.py:49
+msgctxt "Operator"
+msgid "Add an entry to this DTS table"
+msgstr "在此 DTS 表中添加一个条目"
+
+#: ui/operators.py:258
+msgctxt "Operator"
+msgid "Add an environment-map mask to this material and wire it up.  The mask says which texels reflect; pick or paint an image for it afterwards"
+msgstr "为此材质添加环境贴图遮罩并连接好。遮罩指定哪些纹素产生反射；之后为其选择或绘制一张图像"
+
+#: ops/export_dsq.py:14
+msgctxt "Operator"
+msgid "Export DSQ"
+msgstr "导出 DSQ"
+
+#: ops/export_dts.py:16
+msgctxt "Operator"
+msgid "Export DTS"
+msgstr "导出 DTS"
+
+#: ui/operators.py:130
+msgctxt "Operator"
+msgid "Fit a decal projector to the selected faces.  The decal is the empty this creates: move or scale it to move the decal"
+msgstr "将贴花投影器适配到选中的面。贴花就是由此创建的空物体：移动或缩放它即可移动贴花"
+
+#: ops/import_dsq.py:14
+msgctxt "Operator"
+msgid "Import DSQ"
+msgstr "导入 DSQ"
+
+#: ops/import_dts.py:17
+msgctxt "Operator"
+msgid "Import DTS"
+msgstr "导入 DTS"
+
+#: ui/operators.py:86
+msgctxt "Operator"
+msgid "Move Entry"
+msgstr "移动条目"
+
+#: ui/operators.py:87
+msgctxt "Operator"
+msgid "Move the selected entry.  Order is load-bearing in these tables"
+msgstr "移动选中的条目。这些表中的顺序至关重要"
+
+#: ui/operators.py:342
+msgctxt "Operator"
+msgid "Re-wire reflectance maps that are still on the Principled BSDF's Metallic input so they show the engine's environment map instead"
+msgstr "重新连接仍接在 Principled BSDF 金属度输入上的反射率贴图，使其改为显示引擎的环境贴图"
+
+#: ui/panels.py:475
+msgctxt "Operator"
+msgid "Rebuild All Materials"
+msgstr "重建所有材质"
+
+#: ui/operators.py:394
+msgctxt "Operator"
+msgid "Rebuild Decal Preview"
+msgstr "重建贴花预览"
+
+#: ui/operators.py:341
+msgctxt "Operator"
+msgid "Rebuild Environment Preview"
+msgstr "重建环境预览"
+
+#: ui/operators.py:395
+msgctxt "Operator"
+msgid "Rebuild the shader branch that previews this decal, picking up its current material and how the add-on now shades decals.  Affects the viewport only; export is unchanged"
+msgstr "重建用于预览此贴花的着色器分支，采用其当前材质以及插件现在的贴花着色方式。仅影响视图；导出不变"
+
+#: ui/operators.py:199
+msgctxt "Operator"
+msgid "Recompute the faces this decal covers from its current position, size and depth.  Affects the viewport preview only; export recomputes anyway"
+msgstr "根据当前位置、尺寸和深度重新计算此贴花覆盖的面。仅影响视图预览；导出时仍会重新计算"
+
+#: ui/operators.py:198
+msgctxt "Operator"
+msgid "Refresh DTS Decal Coverage"
+msgstr "刷新 DTS 贴花覆盖范围"
+
+#: ui/operators.py:229
+msgctxt "Operator"
+msgid "Refresh IFL Preview"
+msgstr "刷新 IFL 预览"
+
+#: ui/operators.py:66
+msgctxt "Operator"
+msgid "Remove Entry"
+msgstr "移除条目"
+
+#: ui/operators.py:305
+msgctxt "Operator"
+msgid "Remove Reflectance Map"
+msgstr "移除反射率贴图"
+
+#: ui/operators.py:67
+msgctxt "Operator"
+msgid "Remove the selected entry from this DTS table"
+msgstr "从此 DTS 表中移除选中的条目"
+
+#: ui/operators.py:306
+msgctxt "Operator"
+msgid "Take the environment-map mask and its preview back out of this material"
+msgstr "从此材质中移除环境贴图遮罩及其预览"
+
+#: ops/export_dsq.py:75
+#: ops/import_dsq.py:58
+msgctxt "Operator"
+msgid "Torque Sequence (.dsq)"
+msgstr "Torque 序列 (.dsq)"
+
+#: ops/export_dts.py:166
+#: ops/import_dts.py:143
+msgctxt "Operator"
+msgid "Torque Shape (.dts)"
+msgstr "Torque 形体 (.dts)"

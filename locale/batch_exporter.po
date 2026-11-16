@@ -1,0 +1,245 @@
+# perfect-chinese: 1
+# id: batch_exporter
+# kind: addon
+# module: bl_ext.blender_org.batch_exporter
+# name: Monty Batch Exporter
+# name_zh: Monty 批量导出
+# translator: KeshiMiao
+# category: Import-Export
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: ui.py:156
+msgid "Advanced"
+msgstr "高级"
+
+#: ui.py:86
+msgid "Character between naming tokens"
+msgstr "命名标记之间的字符"
+
+#: ui.py:182
+msgid "Copy textures used by exported objects into a subfolder per material, skipping duplicates"
+msgstr "将导出物体使用的纹理复制到按材质划分的子文件夹，跳过重复项"
+
+#: ui.py:106
+msgid "Counter Digits"
+msgstr "计数器位数"
+
+#: ui.py:117
+msgid "Create Subdirectories"
+msgstr "创建子目录"
+
+#: preferences.py:28
+msgid "Default Format"
+msgstr "默认格式"
+
+#: preferences.py:22
+msgid "Default Output Directory"
+msgstr "默认输出目录"
+
+#: preferences.py:34
+msgid "Default Separator"
+msgstr "默认分隔符"
+
+#: preferences.py:34
+msgid "Default separator between name tokens"
+msgstr "命名标记之间的默认分隔符"
+
+#: ui.py:182
+msgid "Export Textures"
+msgstr "导出纹理"
+
+#: ui.py:163
+msgid "Export at Origin"
+msgstr "在原点导出"
+
+#: ui.py:128
+msgid "Filter Prefix"
+msgstr "过滤前缀"
+
+#: ui.py:136
+msgid "Filter Suffix"
+msgstr "过滤后缀"
+
+#: ui.py:151
+msgid "Filters"
+msgstr "过滤器"
+
+#: ui.py:31
+msgid "Format"
+msgstr "格式"
+
+#: ui.py:173
+msgid "Group LOD variants (e.g. Cube_LOD0, Cube_LOD1) into a single export file"
+msgstr "将 LOD 变体（如 Cube_LOD0、Cube_LOD1）合并为单个导出文件"
+
+#: ui.py:117
+msgid "Group exported files into subdirectories by prefix or collection name"
+msgstr "按前缀或集合名称将导出文件归入子目录"
+
+#: ui.py:98
+msgid "Include the collection name in the filename"
+msgstr "在文件名中包含集合名称"
+
+#: ui.py:92
+msgid "Include the object name in the filename"
+msgstr "在文件名中包含物体名称"
+
+#: ui.py:146
+msgid "Naming"
+msgstr "命名"
+
+#: ui.py:37
+msgid "Native export preset for the selected format (e.g. FBX axis, scale, mesh options)"
+msgstr "所选格式的原生导出预设（如 FBX 轴向、缩放、网格选项）"
+
+#: operators.py:229
+msgid "No output directory specified."
+msgstr "未指定输出目录。"
+
+#: ui.py:106
+msgid "Number of zero-padded digits for the counter (e.g. 3 → 001). Set to 0 to disable"
+msgstr "计数器补零位数（如 3 → 001）。设为 0 则禁用"
+
+#: ui.py:136
+msgid "Only export items whose name ends with this string (leave empty for all)"
+msgstr "仅导出名称以此字符串结尾的项目（留空表示全部）"
+
+#: ui.py:128
+msgid "Only export items whose name starts with this string (leave empty for all)"
+msgstr "仅导出名称以此字符串开头的项目（留空表示全部）"
+
+#: operators.py:85
+msgid "Output"
+msgstr "输出"
+
+#: ui.py:25
+msgid "Output Directory"
+msgstr "输出目录"
+
+#: ui.py:173
+msgid "Pack LODs"
+msgstr "打包 LOD"
+
+#: preferences.py:22
+msgid "Pre-filled output path for new exports"
+msgstr "新导出时预填的输出路径"
+
+#: preferences.py:28
+msgid "Pre-selected export format"
+msgstr "预选的导出格式"
+
+#: ui.py:76
+msgid "Prefix"
+msgstr "前缀"
+
+#: ui.py:37
+msgid "Preset"
+msgstr "预设"
+
+#: operators.py:94
+msgid "Preview:"
+msgstr "预览："
+
+#: ui.py:25
+msgid "Root directory for exported files"
+msgstr "导出文件的根目录"
+
+#: ui.py:46
+msgid "Scope"
+msgstr "范围"
+
+#: ui.py:86
+msgid "Separator"
+msgstr "分隔符"
+
+#: ui.py:81
+msgid "String appended to every filename"
+msgstr "追加到每个文件名末尾的字符串"
+
+#: ui.py:76
+msgid "String prepended to every filename"
+msgstr "添加到每个文件名开头的字符串"
+
+#: ui.py:81
+msgid "Suffix"
+msgstr "后缀"
+
+#: ui.py:31
+msgid "Target file format"
+msgstr "目标文件格式"
+
+#: ui.py:163
+msgid "Temporarily move objects to world origin (0, 0, 0) during export. Original positions are restored afterwards"
+msgstr "导出时临时将物体移动到世界原点 (0, 0, 0)，之后恢复原始位置"
+
+#: ui.py:98
+msgid "Use Collection Name"
+msgstr "使用集合名称"
+
+#: ui.py:92
+msgid "Use Object Name"
+msgstr "使用物体名称"
+
+#: ui.py:46
+msgid "What to iterate over during export"
+msgstr "导出时迭代的对象"
+
+#: operators.py:48
+msgctxt "Operator"
+msgid "Batch Export"
+msgstr "批量导出"
+
+#: ui.py:204
+msgctxt "Operator"
+msgid "Batch Export…"
+msgstr "批量导出…"
+
+#: operators.py:440
+msgctxt "Operator"
+msgid "Choose a directory for batch-exported files"
+msgstr "选择批量导出文件的目录"
+
+#: operators.py:49
+msgctxt "Operator"
+msgid "Export items individually based on scope and naming rules"
+msgstr "根据范围和命名规则逐个导出项目"
+
+#: operators.py:560
+msgctxt "Operator"
+msgid "Load Batch Export Config"
+msgstr "加载批量导出配置"
+
+#: operators.py:162
+msgctxt "Operator"
+msgid "Load Config"
+msgstr "加载配置"
+
+#: operators.py:561
+msgctxt "Operator"
+msgid "Load export settings from a previously saved JSON config file"
+msgstr "从之前保存的 JSON 配置文件加载导出设置"
+
+#: operators.py:439
+msgctxt "Operator"
+msgid "Pick Output Directory"
+msgstr "选择输出目录"
+
+#: operators.py:488
+msgctxt "Operator"
+msgid "Save Batch Export Config"
+msgstr "保存批量导出配置"
+
+#: operators.py:157
+msgctxt "Operator"
+msgid "Save Config"
+msgstr "保存配置"
+
+#: operators.py:489
+msgctxt "Operator"
+msgid "Save all current export settings to a JSON file for CLI or reuse"
+msgstr "将所有当前导出设置保存到 JSON 文件，供命令行使用或重复使用"

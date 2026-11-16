@@ -1,0 +1,118 @@
+# perfect-chinese: 1
+# id: nms_shader_addon
+# kind: addon
+# module: bl_ext.blender_org.nms_shader_addon
+# name: NMS Shader Add-on
+# name_zh: NMS着色器插件
+# translator: KeshiMiao
+# category: 
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:1
+msgid "Applies a flat, direction-based 'normal shading' material to selected objects (the Minecraft NMS render look), preserving the original texture's transparency."
+msgstr "为选中物体应用基于方向的平面「法线着色」材质（Minecraft NMS 渲染风格），并保留原纹理的透明度。"
+
+#: __init__.py:359
+msgid "Apply to Collection"
+msgstr "应用到集合"
+
+#: __init__.py:359
+msgid "Apply to every mesh in the active collection, or any collection selected in the Outliner (includes subcollections)"
+msgstr "应用到活动集合中的每个网格，或在大纲视图中选中的任意集合（包含子集合）"
+
+#: __init__.py:354
+msgid "Automatically enable transparent film + RGBA output when applying the shader"
+msgstr "应用着色器时自动启用透明胶片 + RGBA 输出"
+
+#: __init__.py:399
+msgid "Click a collection in the Outliner, then Apply."
+msgstr "在大纲视图中点击一个集合，然后点击应用。"
+
+#: __init__.py:349
+msgid "Distinct hard color per face direction. Off = smooth raw normal gradient."
+msgstr "每个面方向使用独立的硬色。关闭 = 平滑的原始法线渐变。"
+
+#: __init__.py:404
+msgid "Each object gets its own color order."
+msgstr "每个物体使用各自的颜色顺序。"
+
+#: __init__.py:349
+msgid "Flat Candy Colors"
+msgstr "平面糖果色"
+
+#: __init__.py:86
+#: __init__.py:88
+msgid "GREATER_THAN"
+msgstr "大于"
+
+#: __init__.py:87
+#: __init__.py:89
+msgid "LESS_THAN"
+msgstr "小于"
+
+#: __init__.py:1
+msgid "Material"
+msgstr "材质"
+
+#: __init__.py:371
+#: __init__.py:375
+msgid "NMS Shader"
+msgstr "NMS 着色器"
+
+#: __init__.py:1
+msgid "NMS Shader (Normal Map Shading)"
+msgstr "NMS 着色器（法线贴图着色）"
+
+#: __init__.py:318
+msgid "No mesh objects found in the target collection(s)"
+msgstr "目标集合中未找到网格物体"
+
+#: __init__.py:320
+msgid "No mesh objects selected"
+msgstr "未选中网格物体"
+
+#: __init__.py:402
+msgid "Overlay-layer transparency is kept automatically."
+msgstr "叠加层透明度会自动保留。"
+
+#: __init__.py:401
+msgid "Select mesh objects, then click Apply."
+msgstr "选择网格物体，然后点击应用。"
+
+#: __init__.py:397
+msgid "Tip:"
+msgstr "提示："
+
+#: __init__.py:354
+msgid "Transparent Background on Apply"
+msgstr "应用时透明背景"
+
+#: __init__.py:86
+#: __init__.py:87
+msgid "X"
+msgstr "X"
+
+#: __init__.py:88
+#: __init__.py:89
+msgid "Y"
+msgstr "Y"
+
+#: __init__.py:90
+#: __init__.py:91
+msgid "Z"
+msgstr "Z"
+
+#: __init__.py:303
+msgctxt "Operator"
+msgid "Apply NMS Shader"
+msgstr "应用 NMS 着色器"
+
+#: __init__.py:304
+msgctxt "Operator"
+msgid "Apply the normal-direction flat shading material to selected meshes or every mesh in the active / selected collection(s)"
+msgstr "将法线方向的平面着色材质应用于选中的网格，或活动/选中集合中的每个网格"

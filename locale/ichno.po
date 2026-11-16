@@ -1,0 +1,4508 @@
+# perfect-chinese: 1
+# id: ichno
+# kind: addon
+# module: bl_ext.blender_org.ichno
+# name: Ichno
+# name_zh: 技术图纸
+# translator: KeshiMiao
+# category: 3D View
+# supported_versions: >=4.3.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: dims.py:36
+msgid "( )"
+msgstr "( )"
+
+#: dims.py:274
+msgid "+"
+msgstr "+"
+
+#: dims.py:28
+msgid "+/−"
+msgstr "+/−"
+
+#: ui.py:89
+#: ui.py:178
+msgid ","
+msgstr ","
+
+#: viewer.py:429
+msgid "100 dpi, fastest"
+msgstr "100 dpi，最快"
+
+#: i18n.py:83
+msgid "2 Vertices"
+msgstr "2 个顶点"
+
+#: i18n.py:83
+msgid "2 sommets"
+msgstr "2 个顶点"
+
+#: i18n.py:40
+#: props.py:67
+msgid "20 mm margin on the left side for binding (ISO 5457)"
+msgstr "左侧 20 mm 装订边距（ISO 5457）"
+
+#: viewer.py:429
+msgid "200 dpi"
+msgstr "200 dpi"
+
+#: viewer.py:429
+msgid "300 dpi, for zooming in on details"
+msgstr "300 dpi，用于放大细节"
+
+#: i18n.py:83
+msgid "3D Cursor"
+msgstr "3D 光标"
+
+#: i18n.py:109
+#: props.py:87
+msgid "45° chamfers recognised on the model and dimensioned “2 × 45°” (ISO 129-1), each size once, on the first view where the chamfer is seen edge-on"
+msgstr "在模型上识别 45° 倒角，并标注为“2 × 45°”（ISO 129-1）；每个尺寸仅标注一次，标在首次以侧边视角看到该倒角的视图上"
+
+#: i18n.py:189
+msgid "5 colonnes au plus"
+msgstr "最多 5 列"
+
+#: i18n.py:189
+msgid "5 columns at most"
+msgstr "最多 5 列"
+
+#: props.py:66
+msgid "ASME"
+msgstr "ASME"
+
+#: i18n.py:39
+msgid "ASME Y14.5, Y14.1 : cote horizontale, dans une coupure de la ligne"
+msgstr "ASME Y14.5、Y14.1：尺寸文本水平，在线条断开处"
+
+#: i18n.py:39
+#: props.py:66
+msgid "ASME Y14.5, Y14.1: dimension text horizontal, in a break of the line"
+msgstr "ASME Y14.5、Y14.1：尺寸文本水平，在线条断开处"
+
+#: i18n.py:238
+#: titleblock.py:23
+msgid "Abbreviation"
+msgstr "缩写"
+
+#: i18n.py:233
+#: props.py:59
+msgid "About a third faster on heavy models: back faces ignored and no intersection lines (lines missing on open surfaces seen from behind and where two objects cross); for drafts"
+msgstr "在复杂模型上约快三分之一：忽略背面且不生成交线（从背面看开放表面以及两个物体交叉处的线条会缺失）；用于初稿"
+
+#: i18n.py:238
+msgid "Abréviation"
+msgstr "缩写"
+
+#: i18n.py:189
+msgid "Active Column"
+msgstr "活动列"
+
+#: i18n.py:271
+#: section.py:176
+msgid "Active Cut"
+msgstr "活动剖切"
+
+#: i18n.py:258
+msgid "Activée"
+msgstr "启用"
+
+#: i18n.py:216
+msgid "Add a chain dimension"
+msgstr "添加链式尺寸"
+
+#: i18n.py:307
+msgid "Add a collection to the active sheet"
+msgstr "将集合添加到活动图纸"
+
+#: i18n.py:286
+#: section.py:589
+msgid "Add a cut parallel to:"
+msgstr "添加平行于以下方向的剖切："
+
+#: i18n.py:292
+msgid "Add a cutting plane through the middle of the parts, parallel to this view; move it with G"
+msgstr "在零件中部添加一个平行于此视图的剖切平面；按 G 移动"
+
+#: i18n.py:224
+msgid "Add a row"
+msgstr "添加行"
+
+#: i18n.py:304
+msgid "Add a sheet"
+msgstr "添加图纸"
+
+#: i18n.py:310
+msgid "Affichée sur les feuilles"
+msgstr "显示在图纸上"
+
+#: dims.py:34
+#: i18n.py:62
+msgid "After"
+msgstr "之后"
+
+#: i18n.py:292
+msgid "Ajoute un plan de coupe au milieu des pièces, parallèle à cette vue ; à déplacer avec G"
+msgstr "在零件中部添加一个平行于此视图的剖切平面；按 G 移动"
+
+#: i18n.py:307
+msgid "Ajoute une collection à la feuille active"
+msgstr "将集合添加到活动图纸"
+
+#: i18n.py:216
+msgid "Ajoute une cote en chaîne"
+msgstr "添加链式尺寸"
+
+#: i18n.py:304
+msgid "Ajoute une feuille"
+msgstr "添加图纸"
+
+#: i18n.py:224
+msgid "Ajoute une ligne"
+msgstr "添加行"
+
+#: i18n.py:286
+msgid "Ajouter une coupe parallèle à :"
+msgstr "添加平行于以下方向的剖切："
+
+#: i18n.py:70
+msgid "Ajustement"
+msgstr "调整"
+
+#: i18n.py:107
+msgid "Ajuster"
+msgstr "调整"
+
+#: i18n.py:181
+msgid "All Scenes"
+msgstr "所有场景"
+
+#: i18n.py:284
+#: section.py:186
+msgid "All the cutting planes on the isometric view of the drawing"
+msgstr "图纸等轴测视图上的所有剖切平面"
+
+#: i18n.py:99
+#: props.py:136
+msgid "All the sheets in one PDF file"
+msgstr "所有图纸合并为一个 PDF 文件"
+
+#: i18n.py:32
+#: props.py:58
+msgid "Also draw hidden lines on the isometric view (usually cluttered)"
+msgstr "还在等轴测视图上绘制隐藏线（通常会很杂乱）"
+
+#: i18n.py:45
+#: props.py:72
+msgid "Also in the PDF"
+msgstr "也包含在 PDF 中"
+
+#: i18n.py:147
+#: props.py:157
+msgid "Always"
+msgstr "始终"
+
+#: i18n.py:148
+#: props.py:157
+msgid "Always above the title block, rows past 30 summed up"
+msgstr "始终位于标题栏上方，超过 30 行则汇总"
+
+#: i18n.py:18
+#: props.py:42
+msgid "American (Third Angle)"
+msgstr "美式（第三角）"
+
+#: i18n.py:18
+msgid "Américaine (troisième dièdre)"
+msgstr "美式（第三角）"
+
+#: i18n.py:279
+#: section.py:182
+msgid "An extra page with one isometric view per cutting plane, the material in front of the plane removed; the main isometric view stays clean"
+msgstr "额外页面，每个剖切平面一个等轴测视图，并移除平面前方的材料；主等轴测视图保持干净"
+
+#: i18n.py:282
+#: section.py:184
+msgid "An extra page with one whole isometric view per cutting plane; the main isometric view stays clean"
+msgstr "额外页面，每个剖切平面一个完整等轴测视图；主等轴测视图保持干净"
+
+#: i18n.py:167
+msgid "Anglais"
+msgstr "英语"
+
+#: i18n.py:83
+msgid "Angle"
+msgstr "角度"
+
+#: i18n.py:61
+msgid "Angle added: {}°"
+msgstr "已添加角度：{}°"
+
+#: i18n.py:61
+msgid "Angle ajouté : {}°"
+msgstr "已添加角度：{}°"
+
+#: i18n.py:57
+msgid "Angle depuis 3 sommets"
+msgstr "由 3 个顶点确定的角度"
+
+#: i18n.py:150
+msgid "Angle des arêtes"
+msgstr "边角度"
+
+#: i18n.py:57
+msgid "Angle from 3 Vertices"
+msgstr "由 3 个顶点确定的角度"
+
+#: i18n.py:58
+msgid "Angles : dessinés sur les vues qui leur sont parallèles"
+msgstr "角度：绘制在与其平行的视图上"
+
+#: i18n.py:58
+msgid "Angles: drawn on the views parallel to them"
+msgstr "角度：绘制在与其平行的视图上"
+
+#: i18n.py:96
+#: i18n.py:255
+msgid "Annotations"
+msgstr "标注"
+
+#: i18n.py:314
+msgid "Annulé"
+msgstr "已取消"
+
+#: i18n.py:173
+msgid "Appliquer le modèle"
+msgstr "应用模板"
+
+#: i18n.py:173
+msgid "Apply Template"
+msgstr "应用模板"
+
+#: i18n.py:129
+msgid "Approuvé"
+msgstr "已批准"
+
+#: i18n.py:257
+#: ui.py:358
+msgid "Approval and Manufacturing"
+msgstr "审批与制造"
+
+#: i18n.py:129
+#: props.py:113
+msgid "Approved"
+msgstr "已批准"
+
+#: i18n.py:62
+msgid "Après"
+msgstr "之后"
+
+#: i18n.py:126
+#: props.py:94
+msgid "Architect Ticks"
+msgstr "建筑刻度"
+
+#: i18n.py:227
+#: props.py:144
+msgid "Architect grid: axis lines with bubbles 1, 2, 3 and A, B, C"
+msgstr "建筑网格：带轴号圈的轴线 1、2、3 和 A、B、C"
+
+#: i18n.py:14
+msgid "Arrière (+Y)"
+msgstr "后 (+Y)"
+
+#: i18n.py:241
+msgid "Arrière droit"
+msgstr "右后"
+
+#: i18n.py:241
+msgid "Arrière gauche"
+msgstr "左后"
+
+#: i18n.py:303
+msgid "Arrête le plan en cours"
+msgstr "停止当前图纸"
+
+#: i18n.py:67
+msgid "Arêtes (ISO 13715)"
+msgstr "边（ISO 13715）"
+
+#: i18n.py:151
+msgid "Arêtes marquées"
+msgstr "已标记边"
+
+#: i18n.py:175
+msgid "Aucun modèle enregistré"
+msgstr "无已保存模板"
+
+#: i18n.py:25
+msgid "Aucune"
+msgstr "无"
+
+#: i18n.py:319
+msgid "Aucune collection avec des objets"
+msgstr "没有包含物体的集合"
+
+#: i18n.py:289
+msgid "Aucune pièce visible à couper"
+msgstr "没有可剖切的可见零件"
+
+#: i18n.py:231
+msgid "Aucune vue choisie (panneau Vues)"
+msgstr "未选择视图（视图面板）"
+
+#: i18n.py:45
+msgid "Aussi dans le PDF"
+msgstr "也包含在 PDF 中"
+
+#: i18n.py:171
+msgid "Auteur"
+msgstr "作者"
+
+#: i18n.py:171
+#: props.py:103
+msgid "Author"
+msgstr "作者"
+
+#: dims.py:42
+#: props.py:37
+msgid "Auto"
+msgstr "自动"
+
+#: i18n.py:180
+msgid "Auto : vues où la cote a sa vraie longueur"
+msgstr "自动：尺寸显示真实长度的视图"
+
+#: i18n.py:104
+#: viewer.py:430
+msgid "Auto Reload"
+msgstr "自动重新加载"
+
+#: i18n.py:180
+msgid "Auto: views where the dimension shows its true length"
+msgstr "自动：尺寸显示真实长度的视图"
+
+#: i18n.py:96
+#: ui.py:233
+msgid "Automatic"
+msgstr "自动"
+
+#: i18n.py:96
+msgid "Automatiques"
+msgstr "自动"
+
+#: i18n.py:62
+msgid "Avant"
+msgstr "前"
+
+#: i18n.py:13
+msgid "Avant (-Y)"
+msgstr "前 (-Y)"
+
+#: i18n.py:241
+msgid "Avant droit"
+msgstr "右前"
+
+#: i18n.py:240
+msgid "Avant gauche"
+msgstr "左前"
+
+#: i18n.py:188
+msgid "Axe"
+msgstr "轴"
+
+#: i18n.py:33
+#: i18n.py:86
+msgid "Axes"
+msgstr "轴"
+
+#: dims.py:24
+#: i18n.py:188
+msgid "Axis"
+msgstr "轴"
+
+#: i18n.py:257
+msgid "BOM"
+msgstr "BOM"
+
+#: i18n.py:184
+msgid "BOM to CSV / Excel"
+msgstr "BOM 导出为 CSV / Excel"
+
+#: i18n.py:197
+msgid "BOM to CSV / Excel (Bill of Materials off)"
+msgstr "BOM 导出为 CSV / Excel（物料清单关闭）"
+
+#: i18n.py:14
+#: props.py:34
+msgid "Back (+Y)"
+msgstr "后 (+Y)"
+
+#: i18n.py:241
+#: props.py:52
+msgid "Back Left"
+msgstr "左后"
+
+#: i18n.py:241
+#: props.py:52
+msgid "Back Right"
+msgstr "右后"
+
+#: i18n.py:106
+msgid "Back to the workspace you were in"
+msgstr "返回之前的工作区"
+
+#: i18n.py:180
+msgid "Balloons"
+msgstr "气泡标注"
+
+#: i18n.py:249
+#: props.py:152
+msgid "Base Name"
+msgstr "基础名称"
+
+#: i18n.py:181
+msgid "Batch Export"
+msgstr "批量导出"
+
+#: dims.py:33
+#: i18n.py:62
+msgid "Before"
+msgstr "之前"
+
+#: i18n.py:249
+#: sheets.py:64
+msgid "Bill of Materials"
+msgstr "物料清单"
+
+#: i18n.py:94
+msgid "Bill of Materials off"
+msgstr "物料清单关闭"
+
+#: i18n.py:311
+msgid "Bill of Materials: {}"
+msgstr "物料清单：{}"
+
+#: i18n.py:101
+msgid "Bill of materials as a CSV file"
+msgstr "物料清单为 CSV 文件"
+
+#: i18n.py:101
+msgid "Bill of materials as an Excel (.xlsx) file"
+msgstr "物料清单为 Excel (.xlsx) 文件"
+
+#: i18n.py:146
+#: props.py:156
+msgid "Bill of materials on its own sheet at the end of the drawing"
+msgstr "物料清单单独放在图纸末尾的页面上"
+
+#: i18n.py:315
+msgid "Blender s'est arrêté avant la fin (code {})"
+msgstr "Blender 在完成前停止（代码 {}）"
+
+#: i18n.py:315
+msgid "Blender stopped before the end (code {})"
+msgstr "Blender 在完成前停止（代码 {}）"
+
+#: i18n.py:13
+#: props.py:34
+msgid "Blender's front, numpad 1"
+msgstr "Blender 前视图，小键盘 1"
+
+#: i18n.py:149
+#: props.py:95
+msgid "Bold"
+msgstr "粗体"
+
+#: i18n.py:209
+msgid "Bord droit"
+msgstr "右边缘"
+
+#: i18n.py:209
+msgid "Bord gauche"
+msgstr "左边缘"
+
+#: i18n.py:188
+msgid "Bord maxi"
+msgstr "最大边"
+
+#: i18n.py:188
+msgid "Bord mini"
+msgstr "最小边框"
+
+#: i18n.py:207
+msgid "Bord à droite de la vue sur la feuille"
+msgstr "视图在图纸上的右边缘"
+
+#: i18n.py:206
+msgid "Bord à gauche de la vue sur la feuille"
+msgstr "视图在图纸上的左边缘"
+
+#: i18n.py:15
+#: props.py:35
+msgid "Bottom (-Z)"
+msgstr "底部 (-Z)"
+
+#: i18n.py:104
+msgid "Brouillon"
+msgstr "草稿"
+
+#: i18n.py:180
+msgid "Bulles de repère"
+msgstr "序号气泡"
+
+#: planengine.py:1190
+msgid "CM"
+msgstr "厘米"
+
+#: i18n.py:62
+msgid "Cadre"
+msgstr "图框"
+
+#: i18n.py:106
+msgid "Calques"
+msgstr "图层"
+
+#: i18n.py:314
+msgid "Cancelled"
+msgstr "已取消"
+
+#: i18n.py:316
+msgid "Cannot write “{}” in {}"
+msgstr "无法将“{}”写入 {}"
+
+#: i18n.py:118
+msgid "Carré"
+msgstr "正方形"
+
+#: i18n.py:255
+msgid "Cartouche"
+msgstr "标题栏"
+
+#: i18n.py:91
+msgid "Ce qui s'ouvre quand le plan est fait"
+msgstr "图纸完成后打开的内容"
+
+#: dims.py:23
+#: i18n.py:188
+msgid "Center"
+msgstr "中心"
+
+#: i18n.py:111
+#: props.py:83
+msgid "Center Lines"
+msgstr "中心线"
+
+#: i18n.py:23
+#: props.py:44
+msgid "Centimeters"
+msgstr "厘米"
+
+#: i18n.py:23
+msgid "Centimètres"
+msgstr "厘米"
+
+#: i18n.py:188
+#: i18n.py:209
+msgid "Centre"
+msgstr "中心"
+
+#: i18n.py:237
+msgid "Cette feuille dessine ses propres vues au lieu de celles du panneau Vues"
+msgstr "此图纸绘制自身视图，而非“视图”面板中的视图"
+
+#: i18n.py:215
+#: ui.py:243
+msgid "Chain Dimensions"
+msgstr "链式尺寸"
+
+#: i18n.py:256
+msgid "Chains"
+msgstr "链式"
+
+#: i18n.py:67
+#: props.py:87
+msgid "Chamfers"
+msgstr "倒角"
+
+#: i18n.py:219
+msgid "Champ"
+msgstr "字段"
+
+#: i18n.py:217
+msgid "Champs libres"
+msgstr "自由字段"
+
+#: i18n.py:67
+msgid "Chanfreins"
+msgstr "倒角"
+
+#: i18n.py:109
+msgid "Chanfreins à 45° reconnus sur le modèle et cotés « 2 × 45° » (ISO 129-1), chaque taille une fois, sur la première vue où le chanfrein est vu par la tranche"
+msgstr "模型上识别出的 45° 倒角按“2 × 45°”标注（ISO 129-1），每种尺寸仅标注一次，标在倒角首次以侧边可见的视图上"
+
+#: i18n.py:195
+msgid "Chaque bulle juste sous, au-dessus ou à côté de sa pièce, au bout d'un rappel droit (vertical sous ou sur la vue) ; bulles décalées sur plusieurs rangées quand les pièces sont proches"
+msgstr "每个序号气泡紧邻对应零件的下方、上方或旁边，位于直线引线末端（视图下方或视图上的垂直线）；零件靠近时气泡错开成多行"
+
+#: i18n.py:256
+msgid "Chaînes"
+msgstr "链式"
+
+#: i18n.py:128
+#: props.py:112
+msgid "Checked"
+msgstr "已勾选"
+
+#: i18n.py:135
+#: props.py:117
+msgid "Class"
+msgstr "等级"
+
+#: i18n.py:135
+msgid "Classe"
+msgstr "等级"
+
+#: i18n.py:72
+msgid "Classe ISO 286 : alésage E, F, G, H, JS ou arbre e, f, g, h, js, k, m, n, p, qualité 5 à 11 (H7, g6, h9…) ; les écarts suivent la dimension nominale"
+msgstr "ISO 286 等级：孔 E、F、G、H、JS 或轴 e、f、g、h、js、k、m、n、p，公差等级 5 至 11（H7、g6、h9…）；偏差随公称尺寸变化"
+
+#: i18n.py:71
+msgid "Classe d'ajustement (H7, g6…) : écarts calculés d'après les tableaux de l'ISO 286"
+msgstr "配合等级（H7、g6…）：偏差根据 ISO 286 表计算"
+
+#: i18n.py:134
+msgid "Classe des longueurs et des angles, classe géométrique"
+msgstr "长度与角度等级、几何等级"
+
+#: i18n.py:132
+msgid "Classe fine"
+msgstr "精密级"
+
+#: i18n.py:132
+msgid "Classe grossière"
+msgstr "粗糙级"
+
+#: i18n.py:132
+msgid "Classe moyenne"
+msgstr "中等级"
+
+#: i18n.py:133
+msgid "Classe moyenne, classe géométrique K"
+msgstr "中等级、几何等级 K"
+
+#: i18n.py:133
+msgid "Classe très grossière"
+msgstr "很粗糙级"
+
+#: edges.py:39
+#: i18n.py:156
+msgid "Clear"
+msgstr "清除"
+
+#: i18n.py:132
+#: props.py:118
+msgid "Coarse class"
+msgstr "粗糙级"
+
+#: i18n.py:239
+msgid "Coin depuis lequel la vue isométrique est vue"
+msgstr "等轴测视图的观察角"
+
+#: chains.py:36
+#: i18n.py:11
+msgid "Collection"
+msgstr "集合"
+
+#: i18n.py:193
+msgid "Collection de la pièce"
+msgstr "零件集合"
+
+#: i18n.py:193
+msgid "Collection of the part"
+msgstr "零件集合"
+
+#: i18n.py:310
+msgid "Collections comptées (toutes si vide)"
+msgstr "计入的集合（空则全部）"
+
+#: i18n.py:310
+#: sheets.py:297
+msgid "Collections counted (all if empty)"
+msgstr "计入的集合（空则全部）"
+
+#: i18n.py:310
+msgid "Collections de « {} »"
+msgstr "“{}”的集合"
+
+#: i18n.py:310
+#: sheets.py:242
+msgid "Collections of “{}”"
+msgstr "“{}”的集合"
+
+#: i18n.py:189
+msgid "Colonne active"
+msgstr "活动列"
+
+#: i18n.py:186
+msgid "Colonnes ajoutées (entre Pièce et Qté) :"
+msgstr "添加的列（在“零件”和“数量”之间）："
+
+#: i18n.py:97
+msgid "Colonnes personnalisées"
+msgstr "自定义列"
+
+#: i18n.py:269
+#: section.py:170
+msgid "Color"
+msgstr "颜色"
+
+#: i18n.py:273
+#: section.py:179
+msgid "Colored Planes"
+msgstr "彩色平面"
+
+#: i18n.py:49
+#: props.py:75
+msgid "Colour of the dimensions, their lines and values"
+msgstr "尺寸及其线条和数值的颜色"
+
+#: i18n.py:51
+#: props.py:77
+msgid "Colour of the frame, the title block lines and the grid"
+msgstr "图框、标题栏线条和网格的颜色"
+
+#: i18n.py:52
+#: props.py:78
+msgid "Colour of the hatching of section views (parts coloured one by one keep their own colours)"
+msgstr "剖视图剖面线的颜色（逐个着色的零件保留各自颜色）"
+
+#: i18n.py:48
+#: props.py:74
+msgid "Colour of the hidden lines"
+msgstr "隐藏线的颜色"
+
+#: i18n.py:50
+#: props.py:76
+msgid "Colour of the texts: view titles, title block, notes"
+msgstr "文字颜色：视图标题、标题栏、注释"
+
+#: i18n.py:48
+#: props.py:73
+msgid "Colour of the visible lines"
+msgstr "可见线颜色"
+
+#: i18n.py:270
+#: section.py:170
+msgid "Colour of this cutting plane in the 3D View and on the drawing"
+msgstr "此剖切平面在 3D 视图和图纸上的颜色"
+
+#: i18n.py:190
+msgid "Column title on the drawing and in the CSV / Excel files"
+msgstr "图纸及 CSV/Excel 文件中的列标题"
+
+#: chains.py:42
+#: i18n.py:234
+msgid "Combine Equal Spacing"
+msgstr "合并等间距"
+
+#: i18n.py:167
+msgid "Comme l'interface de Blender"
+msgstr "与 Blender 界面一致"
+
+#: i18n.py:169
+#: props.py:101
+msgid "Company"
+msgstr "公司"
+
+#: i18n.py:249
+msgid "Compter par"
+msgstr "计数依据"
+
+#: i18n.py:225
+#: ui.py:253
+msgid "Coordinate Grid"
+msgstr "坐标网格"
+
+#: i18n.py:239
+#: props.py:50
+msgid "Corner the isometric view is seen from"
+msgstr "等轴测视图的观察角"
+
+#: i18n.py:177
+msgid "Cote ajoutée : {}"
+msgstr "已添加尺寸：{}"
+
+#: i18n.py:65
+msgid "Cote de référence, entre parenthèses : pour information, non contrôlée"
+msgstr "参考尺寸，置于括号中：仅供参考，不作检验"
+
+#: i18n.py:65
+msgid "Cote ordinaire"
+msgstr "普通尺寸"
+
+#: i18n.py:66
+msgid "Cote théoriquement exacte, encadrée (base des tolérances géométriques, ISO 1101) : sans tolérance"
+msgstr "理论正确尺寸，加框（几何公差基准，ISO 1101）：无公差"
+
+#: i18n.py:257
+msgid "Cotes"
+msgstr "尺寸"
+
+#: i18n.py:56
+msgid "Cotes d'encombrement sur chaque vue"
+msgstr "各视图上的外形尺寸"
+
+#: i18n.py:111
+msgid "Cotes des trous"
+msgstr "孔尺寸"
+
+#: i18n.py:215
+msgid "Cotes en chaîne"
+msgstr "链式尺寸"
+
+#: i18n.py:175
+msgid "Cotes manuelles"
+msgstr "手动尺寸"
+
+#: i18n.py:269
+msgid "Couleur"
+msgstr "颜色"
+
+#: i18n.py:270
+msgid "Couleur de ce plan de coupe dans la vue 3D et sur le plan"
+msgstr "此剖切平面在 3D 视图和图纸上的颜色"
+
+#: i18n.py:49
+msgid "Couleur des cotes, de leurs lignes et valeurs"
+msgstr "尺寸及其线条和数值的颜色"
+
+#: i18n.py:52
+msgid "Couleur des hachures des coupes (les pièces colorées une à une gardent leur couleur)"
+msgstr "剖面线颜色（逐件着色的零件保留自身颜色）"
+
+#: i18n.py:50
+msgid "Couleur des textes : titres des vues, cartouche, notes"
+msgstr "文本颜色：视图标题、标题栏、注释"
+
+#: i18n.py:48
+msgid "Couleur des traits cachés"
+msgstr "隐藏线颜色"
+
+#: i18n.py:48
+msgid "Couleur des traits vus"
+msgstr "可见线颜色"
+
+#: i18n.py:51
+msgid "Couleur du cadre, des lignes du cartouche et de la grille"
+msgstr "边框、标题栏线条和网格的颜色"
+
+#: i18n.py:42
+msgid "Couleurs des calques"
+msgstr "图层颜色"
+
+#: i18n.py:42
+msgid "Couleurs des calques (SVG)"
+msgstr "图层颜色（SVG）"
+
+#: i18n.py:45
+msgid "Couleurs des calques aussi dans le PDF (sinon noir, comme l'attendent les ateliers)"
+msgstr "图层颜色也用于 PDF（否则为黑色，符合车间预期）"
+
+#: i18n.py:249
+#: props.py:151
+msgid "Count by"
+msgstr "计数依据"
+
+#: i18n.py:271
+msgid "Coupe active"
+msgstr "活动剖切"
+
+#: i18n.py:286
+msgid "Couper les pièces parallèlement à :"
+msgstr "平行于以下方向剖切零件："
+
+#: i18n.py:150
+#: props.py:97
+msgid "Crease angle"
+msgstr "折痕角度"
+
+#: i18n.py:83
+msgid "Curseur 3D"
+msgstr "3D 光标"
+
+#: i18n.py:144
+#: props.py:116
+msgid "Custom"
+msgstr "自定义"
+
+#: i18n.py:97
+#: ui.py:311
+msgid "Custom Columns"
+msgstr "自定义列"
+
+#: i18n.py:186
+msgid "Custom Columns (between Part and Qty):"
+msgstr "自定义列（位于“零件”和“数量”之间）："
+
+#: i18n.py:217
+#: titleblock.py:55
+msgid "Custom Fields"
+msgstr "自定义字段"
+
+#: i18n.py:187
+#: i18n.py:251
+msgid "Custom Property"
+msgstr "自定义属性"
+
+#: i18n.py:253
+#: props.py:155
+msgid "Custom property of the objects (Object Properties > Custom Properties)"
+msgstr "物体的自定义属性（物体属性 > 自定义属性）"
+
+#: i18n.py:260
+#: section.py:160
+msgid "Cut View"
+msgstr "剖切视图"
+
+#: i18n.py:286
+#: section.py:589
+msgid "Cut the parts parallel to:"
+msgstr "平行于以下方向剖切零件："
+
+#: i18n.py:259
+#: section.py:159
+msgid "Cutting Plane"
+msgstr "剖切平面"
+
+#: i18n.py:204
+msgid "Côté"
+msgstr "侧面"
+
+#: i18n.py:12
+msgid "Côté du modèle montré en vue de face"
+msgstr "前视图中显示的模型侧面"
+
+#: i18n.py:43
+msgid "Dans le SVG, une couleur par calque (traits vus, cachés, cotes, textes, cadre, hachures), choisie dessous ; le PDF reste noir sauf avec « Aussi dans le PDF »"
+msgstr "在 SVG 中，每个图层一种颜色（可见线、隐藏线、尺寸、文本、边框、剖面线），在下方选择；除非启用“也用于 PDF”，PDF 保持黑色"
+
+#: i18n.py:30
+#: props.py:57
+msgid "Dashed hidden lines (slow on heavy models)"
+msgstr "隐藏线用虚线（大型模型上较慢）"
+
+#: i18n.py:218
+#: titleblock.py:14
+msgid "Date"
+msgstr "日期"
+
+#: i18n.py:133
+msgid "Default geometrical specification"
+msgstr "默认几何规范"
+
+#: i18n.py:175
+msgid "Delete"
+msgstr "删除"
+
+#: i18n.py:174
+msgid "Delete Template"
+msgstr "删除模板"
+
+#: i18n.py:175
+msgid "Depuis 2 sommets"
+msgstr "从 2 个顶点"
+
+#: i18n.py:176
+msgid "Depuis le curseur 3D"
+msgstr "从 3D 光标"
+
+#: i18n.py:218
+#: titleblock.py:13
+msgid "Description"
+msgstr "描述"
+
+#: i18n.py:274
+msgid "Dessine chaque plan de coupe dans sa couleur sur le plan (traits de coupe, perspective, titres des coupes et aplat léger sous les hachures). Décoché : noir et blanc, comme l'ISO 128"
+msgstr "在图纸上以各自颜色绘制每个剖切平面（剖切线、透视、剖切标题及剖面线下的浅色填充）。取消勾选：黑白，符合 ISO 128"
+
+#: i18n.py:230
+msgid "Dessine la vue de côté"
+msgstr "绘制侧视图"
+
+#: i18n.py:231
+msgid "Dessine la vue de dessus"
+msgstr "绘制顶视图"
+
+#: i18n.py:230
+msgid "Dessine la vue de face"
+msgstr "绘制前视图"
+
+#: i18n.py:301
+msgid "Dessine le plan (PDF et SVG) en arrière-plan, sans modifier la scène"
+msgstr "在后台绘制图纸（PDF 和 SVG），不修改场景"
+
+#: i18n.py:230
+msgid "Dessiner"
+msgstr "绘制"
+
+#: i18n.py:152
+msgid "Dessiner les arêtes marquées en mode Édition (marques Freestyle), même là où la surface est lisse : coutures, joints, tangences"
+msgstr "绘制在编辑模式下标记的边（Freestyle 标记），即使表面平滑也绘制：接缝、拼缝、相切边"
+
+#: i18n.py:15
+msgid "Dessous (-Z)"
+msgstr "底部 (-Z)"
+
+#: i18n.py:204
+msgid "Dessus"
+msgstr "顶部"
+
+#: i18n.py:15
+msgid "Dessus (+Z)"
+msgstr "顶部 (+Z)"
+
+#: dims.py:22
+#: dims.py:39
+msgid "Diameter"
+msgstr "直径"
+
+#: dims.py:22
+msgid "Diameter of a circle"
+msgstr "圆的直径"
+
+#: i18n.py:117
+msgid "Diamètre"
+msgstr "直径"
+
+#: i18n.py:117
+msgid "Diamètre de sphère"
+msgstr "球体直径"
+
+#: i18n.py:177
+msgid "Dimension added: {}"
+msgstr "已添加尺寸：{}"
+
+#: i18n.py:257
+#: props.py:75
+msgid "Dimensions"
+msgstr "尺寸"
+
+#: i18n.py:268
+#: section.py:168
+msgid "Distance between hatch lines on the sheet, in mm (smaller on small cut faces)"
+msgstr "图纸上剖面线间距，单位 mm（小切面上更小）"
+
+#: dims.py:21
+msgid "Distance between two points"
+msgstr "两点距离"
+
+#: i18n.py:172
+msgid "Dossier"
+msgstr "文件夹"
+
+#: i18n.py:182
+msgid "Dossier de fichiers .blend…"
+msgstr "存放 .blend 文件的文件夹…"
+
+#: i18n.py:26
+msgid "Double cotation : seconde valeur entre crochets, ex. 254,0 [10.00]"
+msgstr "双尺寸标注：第二个值放在方括号内，例如 254.0 [10.00]"
+
+#: sheets.py:137
+msgid "Down"
+msgstr "向下"
+
+#: i18n.py:104
+#: viewer.py:429
+msgid "Draft"
+msgstr "草稿"
+
+#: i18n.py:230
+msgid "Draw"
+msgstr "绘制"
+
+#: i18n.py:274
+#: section.py:179
+msgid "Draw each cutting plane in its colour on the drawing (cut lines, isometric view, section titles and a light tint under the hatching). Off: black and white, as ISO 128"
+msgstr "在图纸上用各自颜色绘制每个剖切面（剖切线、轴测视图、剖视图标题以及剖面线下方的浅色底纹）。关闭：黑白，按 ISO 128"
+
+#: i18n.py:152
+#: props.py:96
+msgid "Draw the edges marked in Edit Mode (Freestyle edge marks), even where the surface is smooth: seams, panel joints, tangent edges"
+msgstr "绘制在编辑模式下标记的边（Freestyle 标记），即使表面平滑也绘制：接缝、拼缝、相切边"
+
+#: i18n.py:230
+#: props.py:54
+msgid "Draw the front view"
+msgstr "绘制前视图"
+
+#: i18n.py:301
+msgid "Draw the plan (PDF and SVG) in the background, without changing the scene"
+msgstr "在后台绘制平面图（PDF 和 SVG），不更改场景"
+
+#: i18n.py:230
+#: props.py:55
+msgid "Draw the side view"
+msgstr "绘制侧视图"
+
+#: i18n.py:231
+#: props.py:56
+msgid "Draw the top view"
+msgstr "绘制顶视图"
+
+#: i18n.py:166
+#: props.py:36
+msgid "Drawing Language"
+msgstr "图纸语言"
+
+#: i18n.py:168
+#: props.py:100
+msgid "Drawing No."
+msgstr "图号"
+
+#: i18n.py:169
+#: props.py:100
+msgid "Drawing number, also the file name"
+msgstr "图号，同时用作文件名"
+
+#: i18n.py:34
+#: props.py:62
+msgid "Drawing rules that differ between ISO and ASME: dimension text, arrows, extension line gap, filing margin, tolerance label"
+msgstr "ISO 与 ASME 不同的制图规则：尺寸文本、箭头、尺寸界线间隙、装订边距、公差标注"
+
+#: viewer.py:618
+msgid "Drawing…"
+msgstr "绘制中…"
+
+#: i18n.py:14
+msgid "Droite (+X)"
+msgstr "右侧 (+X)"
+
+#: i18n.py:26
+#: props.py:46
+msgid "Dual dimensioning: second value in brackets, e.g. 254.0 [10.00]"
+msgstr "双尺寸标注：第二个值放在方括号内，例如 254.0 [10.00]"
+
+#: i18n.py:314
+msgid "Démarrage…"
+msgstr "正在启动…"
+
+#: i18n.py:195
+msgid "Each balloon right below, above or beside its part, on a straight leader (vertical under or over the view); balloons staggered on several rows when parts are close"
+msgstr "每个气泡标注紧挨其零件下方、上方或旁边，通过直线引线连接（在视图下方或上方垂直）；零件靠近时气泡标注错开成多行"
+
+#: i18n.py:206
+msgid "Edge on the left of the view on the sheet"
+msgstr "图纸上视图左侧的边"
+
+#: i18n.py:207
+msgid "Edge on the right of the view on the sheet"
+msgstr "图纸上视图右侧的边"
+
+#: i18n.py:67
+#: props.py:81
+msgid "Edges (ISO 13715)"
+msgstr "边（ISO 13715）"
+
+#: i18n.py:150
+#: props.py:97
+msgid "Edges sharper than this are drawn"
+msgstr "比此更尖锐的边会被绘制"
+
+#: i18n.py:119
+msgid "Edit Mode: select 2 vertices, then From 2 Vertices"
+msgstr "编辑模式：选择 2 个顶点，然后点击“从 2 个顶点”"
+
+#: edges.py:103
+#: i18n.py:165
+msgid "Edit Mode: select edges, then Mark"
+msgstr "编辑模式：选择边，然后点击“标记”"
+
+#: dims.py:244
+#: i18n.py:84
+msgid "Edit Mode: select the vertices, then a button"
+msgstr "编辑模式：选择顶点，然后点击按钮"
+
+#: i18n.py:156
+msgid "Effacer"
+msgstr "清除"
+
+#: i18n.py:259
+msgid "Empty qui place le plan de coupe"
+msgstr "用于放置剖切面的空物体"
+
+#: i18n.py:259
+#: section.py:159
+msgid "Empty that places the cutting plane"
+msgstr "用于放置剖切面的空物体"
+
+#: i18n.py:96
+msgid "Encombrement"
+msgstr "外形尺寸"
+
+#: i18n.py:191
+msgid "Encombrement de la pièce, plus grande dimension d'abord, dans les unités du plan"
+msgstr "零件外形尺寸，最大尺寸在前，使用图纸单位"
+
+#: i18n.py:120
+msgid "Encombrement sans les poignées"
+msgstr "不含手柄的外形尺寸"
+
+#: i18n.py:167
+#: props.py:37
+msgid "English"
+msgstr "英语"
+
+#: i18n.py:183
+msgid "Enregistre d'abord le fichier : chaque scène est dessinée depuis le fichier enregistré"
+msgstr "请先保存文件：每个场景都从已保存的文件绘制"
+
+#: i18n.py:94
+msgid "Enregistre seulement les fichiers"
+msgstr "仅保存文件"
+
+#: i18n.py:173
+msgid "Enregistrer le modèle"
+msgstr "保存模型"
+
+#: i18n.py:139
+#: props.py:122
+msgid "Envelope Requirement (E)"
+msgstr "包容要求 (E)"
+
+#: i18n.py:233
+msgid "Environ un tiers plus rapide sur les gros modèles : faces arrière ignorées et sans lignes d'intersection (traits en moins sur les surfaces ouvertes vues de dos et là où deux objets se traversent) ; pour les brouillons"
+msgstr "大型模型上约快三分之一：忽略背面且不绘制交线（从背面看开放表面以及两个物体相交处的线条更少）；适合草稿"
+
+#: chains.py:42
+#: i18n.py:235
+msgid "Equal intervals in a row written once as “n × pitch = total”; off: every interval and every position dimensioned"
+msgstr "一排等间距只写一次为“n × 间距 = 总长”；关闭：标注每个间隔和每个位置"
+
+#: i18n.py:318
+msgid "Erreur"
+msgstr "错误"
+
+#: i18n.py:318
+msgid "Error"
+msgstr "错误"
+
+#: i18n.py:17
+#: props.py:41
+msgid "European (First Angle)"
+msgstr "欧洲（第一角）"
+
+#: i18n.py:17
+msgid "Européenne (premier dièdre)"
+msgstr "欧洲（第一角）"
+
+#: i18n.py:96
+#: ui.py:229
+msgid "Every View"
+msgstr "每个视图"
+
+#: dims.py:42
+msgid "Every view where the dimension is parallel to the view, with its true length"
+msgstr "尺寸与该视图平行的每个视图，以实长显示"
+
+#: i18n.py:85
+msgid "Exclure"
+msgstr "排除"
+
+#: i18n.py:139
+msgid "Exigence de l'enveloppe (E)"
+msgstr "包容要求 (E)"
+
+#: i18n.py:174
+msgid "Export Template"
+msgstr "导出模板"
+
+#: i18n.py:181
+msgid "Export en lot"
+msgstr "批量导出"
+
+#: i18n.py:174
+msgid "Exporter le modèle"
+msgstr "导出模型"
+
+#: i18n.py:204
+msgid "Face"
+msgstr "前视图"
+
+#: i18n.py:240
+msgid "Face et côté montré par la vue de côté"
+msgstr "前视图及侧视图所示的侧面"
+
+#: i18n.py:256
+msgid "Face, côté, dessus"
+msgstr "前视图、侧视图、顶视图"
+
+#: i18n.py:232
+#: props.py:59
+msgid "Fast"
+msgstr "快速"
+
+#: i18n.py:140
+#: props.py:122
+msgid "Features of size must fit a perfect form at maximum material size"
+msgstr "尺寸要素在最大实体尺寸下必须符合完美形状"
+
+#: i18n.py:203
+msgid "Feuille"
+msgstr "图纸"
+
+#: i18n.py:107
+msgid "Feuille précédente ou suivante"
+msgstr "上一张或下一张图纸"
+
+#: i18n.py:313
+msgid "Feuille « {} » : {}"
+msgstr "图纸「{}」：{}"
+
+#: i18n.py:146
+msgid "Feuille à part"
+msgstr "单独图纸"
+
+#: i18n.py:86
+msgid "Feuilles"
+msgstr "图纸"
+
+#: i18n.py:200
+msgid "Feuilles par collection"
+msgstr "按集合分图纸"
+
+#: i18n.py:219
+#: titleblock.py:18
+msgid "Field"
+msgstr "字段"
+
+#: i18n.py:40
+#: props.py:67
+msgid "Filing Margin"
+msgstr "装订边距"
+
+#: i18n.py:149
+#: props.py:95
+msgid "Fine"
+msgstr "精细"
+
+#: i18n.py:132
+#: props.py:118
+msgid "Fine class"
+msgstr "精细等级"
+
+#: i18n.py:149
+msgid "Fins"
+msgstr "端点"
+
+#: dims.py:29
+#: i18n.py:70
+msgid "Fit"
+msgstr "配合"
+
+#: dims.py:28
+#: i18n.py:71
+msgid "Fit class (H7, g6…): deviations computed from the ISO 286 tables"
+msgstr "配合等级（H7、g6…）：偏差按 ISO 286 表计算"
+
+#: i18n.py:172
+#: props.py:128
+msgid "Folder"
+msgstr "文件夹"
+
+#: i18n.py:182
+msgid "Folder of .blend Files…"
+msgstr ".blend 文件文件夹…"
+
+#: i18n.py:172
+#: props.py:129
+msgid "Folder per Drawing"
+msgstr "每张图纸一个文件夹"
+
+#: i18n.py:16
+msgid "Format"
+msgstr "格式"
+
+#: dims.py:35
+#: i18n.py:62
+msgid "Frame"
+msgstr "图框"
+
+#: i18n.py:167
+msgid "Français"
+msgstr "法语"
+
+#: i18n.py:167
+#: props.py:37
+msgid "French"
+msgstr "法语"
+
+#: i18n.py:175
+msgid "From 2 Vertices"
+msgstr "从 2 个顶点"
+
+#: i18n.py:176
+msgid "From 3D Cursor"
+msgstr "从 3D 光标"
+
+#: chains.py:37
+#: dims.py:43
+msgid "Front"
+msgstr "前视图"
+
+#: i18n.py:13
+#: props.py:34
+msgid "Front (-Y)"
+msgstr "前 (-Y)"
+
+#: i18n.py:240
+#: props.py:51
+msgid "Front Left"
+msgstr "左前"
+
+#: i18n.py:241
+#: props.py:51
+msgid "Front Right"
+msgstr "右前"
+
+#: i18n.py:12
+#: i18n.py:180
+msgid "Front View"
+msgstr "前视图"
+
+#: i18n.py:240
+#: props.py:51
+msgid "Front and the side shown by the side view"
+msgstr "前视图及侧视图所示的侧面"
+
+#: dims.py:43
+msgid "Front view only, distance as seen in that view"
+msgstr "仅前视图，距离按该视图所示"
+
+#: i18n.py:261
+#: section.py:161
+msgid "Front view, cut by a plane parallel to it"
+msgstr "前视图，由平行于它的平面剖切"
+
+#: i18n.py:256
+#: ui.py:107
+msgid "Front, Side, Top"
+msgstr "前视图、侧视图、顶视图"
+
+#: i18n.py:28
+msgid "Full size"
+msgstr "实际尺寸"
+
+#: i18n.py:14
+msgid "Gauche (-X)"
+msgstr "左 (-X)"
+
+#: i18n.py:130
+#: props.py:114
+msgid "General Tolerances"
+msgstr "一般公差"
+
+#: i18n.py:68
+#: props.py:81
+msgid "General condition of the edges not dimensioned, written in the title block like the general tolerances: −0.3 (burr-free, broken up to 0.3 mm), +0.3 (burr allowed), ±0.1…"
+msgstr "未标注边缘的一般状态，与一般公差一样写入标题栏：−0.3（无毛刺，倒钝至 0.3 mm）、+0.3（允许毛刺）、±0.1…"
+
+#: i18n.py:131
+#: props.py:114
+msgid "General tolerances for dimensions without their own tolerance"
+msgstr "未单独标注公差尺寸的一般公差"
+
+#: i18n.py:82
+msgid "Genre"
+msgstr "类型"
+
+#: i18n.py:62
+msgid "Genre de cote"
+msgstr "尺寸类型"
+
+#: i18n.py:135
+#: props.py:119
+msgid "Geometrical"
+msgstr "几何"
+
+#: i18n.py:226
+msgid "Graduations en coordonnées du monde au-dessus et à gauche des vues"
+msgstr "视图上方和左侧的世界坐标刻度"
+
+#: i18n.py:226
+#: props.py:143
+msgid "Graduations in world coordinates above and left of the views"
+msgstr "视图上方和左侧的世界坐标刻度"
+
+#: i18n.py:28
+msgid "Grandeur nature"
+msgstr "实际尺寸"
+
+#: i18n.py:197
+msgid "Grandeur réelle (1:1)"
+msgstr "实际尺寸 (1:1)"
+
+#: i18n.py:225
+#: i18n.py:256
+msgid "Grid"
+msgstr "网格"
+
+#: i18n.py:225
+#: i18n.py:256
+msgid "Grille"
+msgstr "网格"
+
+#: i18n.py:227
+msgid "Grille d'architecte : lignes d'axes avec bulles 1, 2, 3 et A, B, C"
+msgstr "建筑轴网：带 1、2、3 和 A、B、C 圆标的轴线"
+
+#: i18n.py:225
+msgid "Grille de coordonnées"
+msgstr "坐标网格"
+
+#: i18n.py:135
+msgid "Géométrique"
+msgstr "几何"
+
+#: props.py:120
+msgid "H"
+msgstr "H"
+
+#: i18n.py:47
+msgid "Hachures"
+msgstr "剖面线"
+
+#: i18n.py:267
+msgid "Hachures (mm)"
+msgstr "剖面线 (mm)"
+
+#: i18n.py:267
+#: section.py:168
+msgid "Hatch (mm)"
+msgstr "剖面线 (mm)"
+
+#: i18n.py:47
+#: props.py:78
+msgid "Hatching"
+msgstr "剖面线"
+
+#: i18n.py:105
+msgid "Haute"
+msgstr "高"
+
+#: i18n.py:245
+msgid "Hauteur du texte des étiquettes sur la feuille (mm)"
+msgstr "图纸上标签文字的高度 (mm)"
+
+#: i18n.py:288
+#: section.py:622
+msgid "Heavy scene: cuts shown on the drawing only"
+msgstr "复杂场景：剖切仅在图纸中显示"
+
+#: i18n.py:245
+msgid "Height of the label text on the sheet (mm)"
+msgstr "图纸上标签文字的高度 (mm)"
+
+#: i18n.py:47
+#: props.py:74
+msgid "Hidden Lines"
+msgstr "隐藏线"
+
+#: i18n.py:29
+#: props.py:57
+msgid "Hidden lines"
+msgstr "隐藏线"
+
+#: i18n.py:243
+msgid "Hide .001 Suffix"
+msgstr "隐藏 .001 后缀"
+
+#: i18n.py:271
+#: section.py:177
+msgid "Hide Cut Material"
+msgstr "隐藏剖切材质"
+
+#: i18n.py:272
+#: section.py:177
+msgid "Hide in the 3D View the material in front of the active plane, as in its section"
+msgstr "在 3D 视图中隐藏活动平面前方的材质，如同其剖面"
+
+#: i18n.py:105
+#: viewer.py:429
+msgid "High"
+msgstr "高"
+
+#: i18n.py:111
+#: props.py:85
+msgid "Hole Dimensions"
+msgstr "孔尺寸"
+
+#: i18n.py:70
+msgid "Hole Table"
+msgstr "孔表"
+
+#: i18n.py:97
+#: ui.py:236
+msgid "Holes"
+msgstr "孔"
+
+#: i18n.py:120
+msgid "Hors encombrement"
+msgstr "不计入外形尺寸"
+
+#: planengine.py:1190
+msgid "IN"
+msgstr "英寸"
+
+#: props.py:65
+msgid "ISO"
+msgstr "ISO"
+
+#: i18n.py:37
+msgid "ISO 128, 129-1, 5457 : cote au-dessus de la ligne, lue du bas ou de la droite"
+msgstr "ISO 128、129-1、5457：尺寸标注在线上方，从下方或右侧读取"
+
+#: i18n.py:37
+#: props.py:65
+msgid "ISO 128, 129-1, 5457: dimension text above the line, read from the bottom or the right"
+msgstr "ISO 128、129-1、5457：尺寸文字在线上方，从下方或右侧读取"
+
+#: i18n.py:136
+msgid "ISO 2768-1 : classe de tolérance des longueurs et des angles"
+msgstr "ISO 2768-1：长度和角度公差等级"
+
+#: i18n.py:136
+#: props.py:117
+msgid "ISO 2768-1: tolerance class of linear and angular dimensions"
+msgstr "ISO 2768-1：线性尺寸和角度尺寸的公差等级"
+
+#: i18n.py:137
+msgid "ISO 2768-2 : classe de tolérance de rectitude, planéité, perpendicularité, symétrie, battement"
+msgstr "ISO 2768-2：直线度、平面度、垂直度、对称度和跳动的公差等级"
+
+#: i18n.py:137
+#: props.py:119
+msgid "ISO 2768-2: tolerance class of straightness, flatness, perpendicularity, symmetry, run-out"
+msgstr "ISO 2768-2：直线度、平面度、垂直度、对称度和跳动的公差等级"
+
+#: dims.py:28
+msgid "ISO 286"
+msgstr "ISO 286"
+
+#: dims.py:29
+#: i18n.py:72
+msgid "ISO 286 class: hole E, F, G, H, JS or shaft e, f, g, h, js, k, m, n, p, grade 5 to 11 (H7, g6, h9…); the deviations follow from the nominal size"
+msgstr "ISO 286 等级：孔 E、F、G、H、JS 或轴 e、f、g、h、js、k、m、n、p，5 到 11 级（H7、g6、h9…）；偏差由公称尺寸决定"
+
+#: i18n.py:21
+#: props.py:42
+msgid "ISO A, used in the USA and Canada: right view on the right of the front view, top view above"
+msgstr "ISO A，用于美国和加拿大：右视图在主视图右侧，俯视图在上方"
+
+#: i18n.py:21
+msgid "ISO A, utilisée aux États-Unis et au Canada : vue de droite à droite de la face, vue de dessus au-dessus"
+msgstr "ISO A，用于美国和加拿大：右视图在主视图右侧，俯视图在上方"
+
+#: i18n.py:19
+#: props.py:41
+msgid "ISO E, used in Europe and most of the world: left view on the right of the front view, top view below"
+msgstr "ISO E，用于欧洲和世界大部分地区：左视图在主视图右侧，俯视图在下方"
+
+#: i18n.py:19
+msgid "ISO E, utilisée en Europe et presque partout : vue de gauche à droite de la face, vue de dessus en dessous"
+msgstr "ISO E，用于欧洲和几乎所有地区：左视图在主视图右侧，俯视图在下方"
+
+#: i18n.py:36
+msgid "ISO avec la projection européenne, ASME avec l'américaine"
+msgstr "ISO 使用欧洲投影，ASME 使用美国投影"
+
+#: i18n.py:36
+#: props.py:64
+msgid "ISO with the European projection, ASME with the American one"
+msgstr "ISO 使用欧洲投影，ASME 使用美国投影"
+
+#: ui.py:14
+#: ui.py:35
+msgid "Ichno"
+msgstr "Ichno"
+
+#: i18n.py:104
+msgid "Ichno Viewer"
+msgstr "Ichno Viewer"
+
+#: i18n.py:170
+msgid "Image affichée dans le cartouche (PNG, JPEG…)"
+msgstr "标题栏中显示的图像（PNG、JPEG…）"
+
+#: i18n.py:170
+#: props.py:102
+msgid "Image shown in the title block (PNG, JPEG…)"
+msgstr "标题栏中显示的图像（PNG、JPEG…）"
+
+#: i18n.py:174
+msgid "Import Template"
+msgstr "导入模板"
+
+#: i18n.py:174
+msgid "Importer un modèle"
+msgstr "导入模板"
+
+#: i18n.py:316
+msgid "Impossible d'écrire « {} » dans {}"
+msgstr "无法将“{}”写入 {}"
+
+#: i18n.py:43
+#: props.py:70
+msgid "In the SVG, one colour per layer (visible lines, hidden lines, dimensions, text, frame, hatching), chosen below; the PDF stays black unless « Also in the PDF » is on"
+msgstr "在 SVG 中，每个图层一种颜色（可见线、隐藏线、尺寸、文字、图框、剖面线），在下方选择；除非开启“也在 PDF 中”，否则 PDF 保持黑色"
+
+#: i18n.py:24
+#: props.py:45
+msgid "Inches"
+msgstr "英寸"
+
+#: i18n.py:24
+#: props.py:45
+msgid "Inches and imperial scales"
+msgstr "英寸和英制比例"
+
+#: i18n.py:77
+msgid "Inférieur"
+msgstr "低"
+
+#: i18n.py:74
+msgid "Instead of “4 × Ø8” and the hole spacing: a tag on each hole (A1, A2… one letter per diameter) and a table above the title block: X and Y from the bottom left corner of the view, diameter"
+msgstr "不使用“4 × Ø8”和孔间距：每个孔上标记（A1、A2…每个直径一个字母），并在标题栏上方放一个表格：从视图左下角起算的 X 和 Y、直径"
+
+#: i18n.py:235
+msgid "Intervalles égaux qui se suivent écrits une fois « n × pas = total » ; décoché : chaque intervalle et chaque position cotés"
+msgstr "连续相等的间隔只写一次“n × 间距 = 总计”；取消勾选：每个间隔和每个位置都标注"
+
+#: chains.py:40
+#: i18n.py:213
+msgid "Intervals that differ by less than this are merged into “n × pitch” (model imprecision)"
+msgstr "差异小于此值的间隔会合并为“n × 间距”（模型不精确）"
+
+#: i18n.py:85
+#: ui.py:31
+msgid "Iso"
+msgstr "等轴测"
+
+#: i18n.py:232
+#: section.py:619
+msgid "Isometric"
+msgstr "等轴测"
+
+#: i18n.py:181
+msgid "Isometric View"
+msgstr "等轴测视图"
+
+#: i18n.py:29
+#: props.py:49
+msgid "Isometric view"
+msgstr "等轴测视图"
+
+#: i18n.py:232
+msgid "Isométrique"
+msgstr "等轴测"
+
+#: i18n.py:147
+msgid "Jamais"
+msgstr "从不"
+
+#: props.py:120
+msgid "K"
+msgstr "K"
+
+#: dims.py:21
+#: i18n.py:82
+msgid "Kind"
+msgstr "类型"
+
+#: dims.py:35
+#: i18n.py:62
+msgid "Kind of dimension"
+msgstr "尺寸类型"
+
+#: props.py:121
+msgid "L"
+msgstr "L"
+
+#: i18n.py:13
+msgid "L'avant de Blender, pavé numérique 1"
+msgstr "Blender 的前视图，小键盘 1"
+
+#: i18n.py:290
+msgid "La vue {} est déjà coupée par {} : une coupe par vue"
+msgstr "视图 {} 已被 {} 剖切：每个视图只能有一个剖切"
+
+#: i18n.py:256
+msgid "Labels"
+msgstr "标签"
+
+#: i18n.py:103
+msgid "Lance « Faire le plan », puis montre le plan dans Blender quand il est prêt"
+msgstr "运行“生成图纸”，准备好后在 Blender 中显示图纸"
+
+#: i18n.py:16
+#: props.py:39
+msgid "Landscape"
+msgstr "横向"
+
+#: i18n.py:166
+#: props.py:36
+msgid "Language of the texts on the drawing"
+msgstr "图纸文字语言"
+
+#: i18n.py:166
+msgid "Langue des textes du plan"
+msgstr "图纸文字语言"
+
+#: i18n.py:166
+msgid "Langue du plan"
+msgstr "图纸语言"
+
+#: i18n.py:27
+msgid "Largest standard scale that fits the sheet"
+msgstr "适合图纸的最大标准比例"
+
+#: i18n.py:124
+msgid "Largeur et hauteur sur chaque vue. Décoché : chaque cote une seule fois, largeur et hauteur sur la face, profondeur sur le côté (ISO 129-1)"
+msgstr "每个视图上标注宽度和高度。取消勾选：每个尺寸只标注一次，宽度和高度标在正面，深度标在侧面（ISO 129-1）"
+
+#: i18n.py:42
+#: props.py:70
+msgid "Layer Colours"
+msgstr "图层颜色"
+
+#: i18n.py:106
+#: viewer.py:677
+msgid "Layers"
+msgstr "图层"
+
+#: i18n.py:179
+msgid "Le point B est le même que le point A : déplace d'abord le curseur 3D"
+msgstr "点 B 与点 A 相同：请先移动 3D 游标"
+
+#: i18n.py:309
+msgid "Le titre devient le nom générique"
+msgstr "标题将变为通用名称"
+
+#: i18n.py:85
+#: ui.py:232
+msgid "Leave Out"
+msgstr "排除"
+
+#: i18n.py:14
+#: props.py:35
+msgid "Left (-X)"
+msgstr "左 (-X)"
+
+#: i18n.py:209
+msgid "Left Edge"
+msgstr "左边缘"
+
+#: i18n.py:238
+#: titleblock.py:55
+msgid "Legend"
+msgstr "图例"
+
+#: i18n.py:150
+msgid "Les arêtes plus vives que cet angle sont dessinées"
+msgstr "比此角度更锐利的边会被绘制"
+
+#: i18n.py:258
+msgid "Les cotes d'encombrement sont toujours dessinées"
+msgstr "外形尺寸始终绘制"
+
+#: i18n.py:213
+msgid "Les intervalles qui diffèrent de moins que cela sont réunis en « n × pas » (imprécisions du modèle)"
+msgstr "差异小于此值的间隔会合并为“n × 间距”（模型误差）"
+
+#: i18n.py:250
+msgid "Les objets Siège, Siège.001… comptent sur une ligne « Siège »"
+msgstr "物体 Siège、Siège.001… 会归到一行“Siège”"
+
+#: i18n.py:81
+msgid "Les sommets sélectionnés sont alignés"
+msgstr "所选顶点已对齐"
+
+#: i18n.py:140
+msgid "Les éléments doivent tenir dans une forme parfaite à leur cote maximale"
+msgstr "元素必须以其最大尺寸适配理想形状"
+
+#: i18n.py:266
+#: section.py:166
+msgid "Letter"
+msgstr "字母"
+
+#: i18n.py:287
+#: section.py:613
+msgid "Letter {} used twice"
+msgstr "字母 {} 使用了两次"
+
+#: i18n.py:266
+msgid "Lettre"
+msgstr "字母"
+
+#: i18n.py:287
+msgid "Lettre {} utilisée deux fois"
+msgstr "字母 {} 使用了两次"
+
+#: i18n.py:149
+#: props.py:95
+msgid "Line weight"
+msgstr "线宽"
+
+#: dims.py:21
+#: i18n.py:82
+msgid "Linear"
+msgstr "线性"
+
+#: i18n.py:134
+msgid "Linear and angular class, geometrical class"
+msgstr "线性与角度等级，几何等级"
+
+#: i18n.py:255
+msgid "Lines"
+msgstr "线条"
+
+#: i18n.py:82
+msgid "Linéaire"
+msgstr "线性"
+
+#: i18n.py:170
+#: props.py:102
+msgid "Logo"
+msgstr "Logo"
+
+#: dims.py:32
+#: i18n.py:77
+msgid "Lower"
+msgstr "下"
+
+#: dims.py:32
+msgid "Lower deviation, in mm (written with a minus sign)"
+msgstr "下偏差，单位 mm（以负号书写）"
+
+#: i18n.py:238
+msgid "Légende"
+msgstr "图例"
+
+#: planengine.py:1190
+msgid "M"
+msgstr "M"
+
+#: planengine.py:1190
+msgid "MM"
+msgstr "MM"
+
+#: i18n.py:284
+#: section.py:186
+msgid "Main Isometric View"
+msgstr "主等轴测视图"
+
+#: i18n.py:258
+msgid "Manual"
+msgstr "手动"
+
+#: i18n.py:175
+#: ui.py:268
+msgid "Manual Dimensions"
+msgstr "手动尺寸"
+
+#: i18n.py:258
+msgid "Manuelles"
+msgstr "手动"
+
+#: i18n.py:40
+msgid "Marge de 20 mm à gauche pour la reliure (ISO 5457)"
+msgstr "左侧 20 mm 装订边距（ISO 5457）"
+
+#: i18n.py:40
+msgid "Marge de classement"
+msgstr "归档边距"
+
+#: i18n.py:156
+msgid "Mark"
+msgstr "标记"
+
+#: i18n.py:154
+msgid "Mark Edges"
+msgstr "标记边"
+
+#: i18n.py:157
+msgid "Mark the selected edges: they are always drawn on the plan, even where the surface is smooth (seams, panel joints, tangent edges)"
+msgstr "标记所选边：它们始终绘制在图纸上，即使表面光滑（接缝、面板接合、相切边）"
+
+#: i18n.py:151
+#: props.py:96
+msgid "Marked Edges"
+msgstr "已标记边"
+
+#: i18n.py:156
+msgid "Marquer"
+msgstr "标记"
+
+#: i18n.py:154
+msgid "Marquer les arêtes"
+msgstr "标记边"
+
+#: i18n.py:157
+msgid "Marquer les arêtes sélectionnées : elles sont toujours dessinées sur le plan, même là où la surface est lisse (coutures, joints, tangences)"
+msgstr "标记所选边：它们始终绘制在图纸上，即使表面光滑（接缝、面板接合、相切边）"
+
+#: i18n.py:272
+msgid "Masque dans la vue 3D la matière devant le plan actif, comme dans sa coupe"
+msgstr "在 3D 视图中隐藏活动平面前方的材质，如同其剖切效果"
+
+#: i18n.py:271
+msgid "Masquer la matière coupée"
+msgstr "隐藏被剖切的材质"
+
+#: i18n.py:243
+msgid "Masquer le suffixe .001"
+msgstr "隐藏 .001 后缀"
+
+#: i18n.py:145
+#: i18n.py:187
+msgid "Material"
+msgstr "材质"
+
+#: i18n.py:145
+#: props.py:126
+msgid "Material, finish"
+msgstr "材质、表面处理"
+
+#: i18n.py:192
+msgid "Materials of the part (its material slots)"
+msgstr "零件的材质（其材质槽）"
+
+#: i18n.py:145
+#: i18n.py:187
+msgid "Matière"
+msgstr "材质"
+
+#: i18n.py:145
+msgid "Matière, finition"
+msgstr "材质、表面处理"
+
+#: i18n.py:192
+msgid "Matières de la pièce (ses emplacements de matériau)"
+msgstr "零件的材质（其材质槽）"
+
+#: i18n.py:188
+msgid "Max Edge"
+msgstr "最大边"
+
+#: i18n.py:132
+#: props.py:118
+msgid "Medium class"
+msgstr "中等等级"
+
+#: i18n.py:133
+msgid "Medium class, geometrical class K"
+msgstr "中等等级，几何等级 K"
+
+#: i18n.py:218
+msgid "Mention de propriété"
+msgstr "所有权声明"
+
+#: i18n.py:221
+msgid "Mention en bas du cartouche, ex. « Ce dessin est la propriété de … — tous droits réservés »"
+msgstr "标题栏底部的声明，例如“本图纸归……所有——保留所有权利”"
+
+#: i18n.py:23
+#: props.py:44
+msgid "Meters"
+msgstr "米"
+
+#: i18n.py:23
+#: props.py:44
+msgid "Millimeters"
+msgstr "毫米"
+
+#: i18n.py:23
+msgid "Millimètres"
+msgstr "毫米"
+
+#: i18n.py:188
+msgid "Min Edge"
+msgstr "最小边"
+
+#: i18n.py:225
+#: props.py:142
+msgid "Mode"
+msgstr "模式"
+
+#: i18n.py:119
+msgid "Mode Édition : sélectionne 2 sommets, puis « Depuis 2 sommets »"
+msgstr "编辑模式：选择 2 个顶点，然后选择“从 2 个顶点”"
+
+#: i18n.py:165
+msgid "Mode Édition : sélectionne des arêtes, puis Marquer"
+msgstr "编辑模式：选择边，然后选择“标记”"
+
+#: i18n.py:84
+msgid "Mode Édition : sélectionne les sommets, puis un bouton"
+msgstr "编辑模式：选择顶点，然后点击按钮"
+
+#: i18n.py:175
+msgid "Modèle"
+msgstr "模板"
+
+#: i18n.py:173
+msgid "Modèles"
+msgstr "模板"
+
+#: i18n.py:300
+msgid "Monte ou descend la feuille active (ordre des pages)"
+msgstr "将当前图纸上移或下移（页面顺序）"
+
+#: i18n.py:91
+msgid "Montre de nouveau le plan seul"
+msgstr "重新仅显示图纸"
+
+#: i18n.py:102
+msgid "Montre le dernier plan feuille par feuille dans l'espace de travail « Ichno »"
+msgstr "在“Ichno”工作区中逐页显示最新图纸"
+
+#: i18n.py:93
+msgid "Montre le plan dans l'espace de travail « Ichno » de Blender (demande les fichiers SVG)"
+msgstr "在 Blender 的“Ichno”工作区中显示图纸（需要 SVG 文件）"
+
+#: i18n.py:277
+msgid "Montre où chaque coupe est prise, sur une perspective du plan"
+msgstr "在图纸透视图中显示每个剖切的位置"
+
+#: i18n.py:89
+msgid "Montre un autre plan (ou une autre révision) à droite de celui-ci, feuille par feuille, avec les textes et valeurs qui diffèrent"
+msgstr "在此图纸右侧逐页显示另一张图纸（或其他修订版），并标出不同的文字和值"
+
+#: i18n.py:300
+msgid "Move the active sheet up or down (order of the pages)"
+msgstr "将当前图纸上移或下移（页面顺序）"
+
+#: i18n.py:23
+msgid "Mètres"
+msgstr "米"
+
+#: i18n.py:242
+msgid "Même angle que la vue 3D (orthographique, selon la direction de la vue)"
+msgstr "与 3D 视图角度相同（正交，取决于视图方向）"
+
+#: i18n.py:88
+msgid "Mêmes textes et valeurs sur les deux feuilles"
+msgstr "两张图纸上的文字和值相同"
+
+#: dims.py:20
+#: dims.py:52
+msgid "Name"
+msgstr "名称"
+
+#: i18n.py:54
+#: props.py:68
+msgid "Name and scale above each view; workshops usually leave them out, the projection identifies the views (ISO 128-3)"
+msgstr "每个视图上方显示名称和比例；车间通常省略，投影可识别视图（ISO 128-3）"
+
+#: i18n.py:246
+msgid "Name of each object (a collection instance: its empty)"
+msgstr "每个物体的名称（集合实例：其空物体）"
+
+#: i18n.py:266
+#: section.py:166
+msgid "Name of the section (A gives « SECTION A–A »)"
+msgstr "剖切名称（输入 A 显示为“剖面 A–A”）"
+
+#: i18n.py:147
+#: props.py:157
+msgid "Never"
+msgstr "从不"
+
+#: viewer.py:590
+msgid "No SVG file next to this drawing (Ichno writes one per sheet)"
+msgstr "此图纸旁没有 SVG 文件（Ichno 每张图纸写入一个）"
+
+#: i18n.py:319
+msgid "No collection with objects"
+msgstr "没有包含物体的集合"
+
+#: i18n.py:285
+#: section.py:187
+msgid "No cutting planes in isometric"
+msgstr "等轴测中没有剖切平面"
+
+#: i18n.py:135
+#: props.py:120
+msgid "No geometrical class"
+msgstr "没有几何类别"
+
+#: i18n.py:108
+#: viewer.py:686
+msgid "No layers: drawing made before Ichno 1.0.6"
+msgstr "没有图层：图纸由 Ichno 1.0.6 之前的版本生成"
+
+#: dims.py:39
+#: i18n.py:117
+msgid "No symbol"
+msgstr "没有符号"
+
+#: i18n.py:175
+msgid "No template saved"
+msgstr "未保存模板"
+
+#: dims.py:27
+#: i18n.py:78
+msgid "No tolerance (general tolerances of the title block)"
+msgstr "无公差（标题栏中的一般公差）"
+
+#: i18n.py:231
+msgid "No view selected (Views panel)"
+msgstr "未选择视图（视图面板）"
+
+#: i18n.py:289
+msgid "No visible part to cut"
+msgstr "没有可剖切的可见部分"
+
+#: i18n.py:203
+msgid "Nom"
+msgstr "名称"
+
+#: i18n.py:249
+msgid "Nom de base"
+msgstr "基础名称"
+
+#: i18n.py:246
+msgid "Nom de chaque objet (une instance de collection : son vide)"
+msgstr "每个物体的名称（集合实例：其空物体）"
+
+#: i18n.py:245
+msgid "Nom de l'objet"
+msgstr "物体名称"
+
+#: i18n.py:266
+msgid "Nom de la coupe (A donne « COUPE A–A »)"
+msgstr "剖切名称（输入 A 显示为“剖面 A–A”）"
+
+#: i18n.py:54
+msgid "Nom et échelle au-dessus de chaque vue ; l'atelier s'en passe en général, la projection identifie les vues (ISO 128-3)"
+msgstr "每个视图上方显示名称和比例；车间通常省略，投影可识别视图（ISO 128-3）"
+
+#: i18n.py:249
+#: i18n.py:257
+msgid "Nomenclature"
+msgstr "明细表"
+
+#: i18n.py:311
+msgid "Nomenclature : {}"
+msgstr "明细表：{}"
+
+#: i18n.py:94
+msgid "Nomenclature désactivée"
+msgstr "明细表已禁用"
+
+#: i18n.py:184
+msgid "Nomenclature en CSV / Excel"
+msgstr "CSV / Excel 明细表"
+
+#: i18n.py:197
+msgid "Nomenclature en CSV / Excel (nomenclature désactivée)"
+msgstr "CSV / Excel 明细表（明细表已禁用）"
+
+#: i18n.py:101
+msgid "Nomenclature en fichier CSV"
+msgstr "CSV 文件明细表"
+
+#: i18n.py:101
+msgid "Nomenclature en fichier Excel (.xlsx)"
+msgstr "Excel 文件明细表（.xlsx）"
+
+#: i18n.py:146
+msgid "Nomenclature sur sa propre feuille, à la fin du plan"
+msgstr "明细表单独一页，位于图纸末尾"
+
+#: dims.py:27
+#: i18n.py:25
+msgid "None"
+msgstr "无"
+
+#: dims.py:36
+#: i18n.py:105
+msgid "Normal"
+msgstr "法向"
+
+#: i18n.py:105
+msgid "Normale"
+msgstr "法向"
+
+#: i18n.py:149
+msgid "Normaux"
+msgstr "法向"
+
+#: i18n.py:34
+msgid "Norme"
+msgstr "标准"
+
+#: i18n.py:120
+#: props.py:92
+msgid "Not in Overall"
+msgstr "不在总图中"
+
+#: i18n.py:94
+#: props.py:135
+msgid "Nothing"
+msgstr "无"
+
+#: i18n.py:98
+#: ui.py:207
+msgid "Nothing checked: every file is kept"
+msgstr "未勾选任何项：保留所有文件"
+
+#: i18n.py:314
+msgid "Nothing to draw"
+msgstr "没有可绘制的内容"
+
+#: i18n.py:169
+msgid "Numéro du plan, aussi nom du fichier"
+msgstr "图纸编号，也是文件名"
+
+#: i18n.py:168
+msgid "N° de plan"
+msgstr "图纸编号"
+
+#: i18n.py:232
+msgid "Object Labels"
+msgstr "物体标签"
+
+#: i18n.py:245
+msgid "Object Name"
+msgstr "物体名称"
+
+#: i18n.py:229
+#: props.py:146
+msgid "Object whose location is the zero of the coordinates (world origin if empty)"
+msgstr "位置作为坐标零点的物体（为空时使用世界原点）"
+
+#: i18n.py:9
+#: props.py:28
+msgid "Objects"
+msgstr "物体"
+
+#: i18n.py:123
+#: props.py:92
+msgid "Objects left out of the overall dimensions, besides those recognised by their name"
+msgstr "除按名称识别的物体外，不参与总体尺寸的物体"
+
+#: i18n.py:250
+#: props.py:152
+msgid "Objects named Seat, Seat.001… count as one row “Seat”"
+msgstr "名为 Seat、Seat.001… 的物体合并为一行“Seat”"
+
+#: i18n.py:11
+#: props.py:31
+msgid "Objects of one collection"
+msgstr "同一集合中的物体"
+
+#: i18n.py:9
+#: props.py:29
+msgid "Objects visible in the viewport"
+msgstr "视图中可见的物体"
+
+#: i18n.py:229
+msgid "Objet dont la position est le zéro des coordonnées (origine du monde si vide)"
+msgstr "位置为坐标零点的物体（为空时使用世界原点）"
+
+#: i18n.py:9
+msgid "Objets"
+msgstr "物体"
+
+#: i18n.py:11
+msgid "Objets d'une collection"
+msgstr "集合中的物体"
+
+#: i18n.py:123
+msgid "Objets laissés hors des cotes d'encombrement, en plus de ceux reconnus par leur nom"
+msgstr "除按名称识别的物体外，不参与总体尺寸的物体"
+
+#: i18n.py:10
+msgid "Objets sélectionnés seulement"
+msgstr "仅选中的物体"
+
+#: i18n.py:9
+msgid "Objets visibles dans la vue 3D"
+msgstr "3D 视图中可见的物体"
+
+#: i18n.py:127
+#: props.py:94
+msgid "Oblique ticks instead of arrows at the ends of chain dimensions"
+msgstr "链式尺寸两端用斜线标记代替箭头"
+
+#: i18n.py:258
+#: ui.py:290
+msgid "On"
+msgstr "开"
+
+#: i18n.py:31
+#: props.py:58
+msgid "On Isometric View"
+msgstr "在等轴测视图上"
+
+#: i18n.py:114
+#: props.py:85
+msgid "On the view where most holes are seen as circles: “4 × Ø8” per diameter and the hole spacing from the left and bottom edges (ISO 129-1)"
+msgstr "在大多数孔显示为圆形的视图上：每种直径标注“4 × Ø8”，并从左边和底边标注孔间距（ISO 129-1）"
+
+#: i18n.py:100
+#: props.py:137
+msgid "One SVG file per sheet, with layers (Inkscape, Illustrator, Affinity); also used by View in Blender"
+msgstr "每张图纸一个 SVG 文件，带图层（Inkscape、Illustrator、Affinity）；也供 Blender 中的查看使用"
+
+#: i18n.py:251
+#: props.py:153
+msgid "One row per collection"
+msgstr "每个集合一行"
+
+#: i18n.py:252
+#: props.py:153
+msgid "One row per value of a custom property"
+msgstr "自定义属性的每个值一行"
+
+#: i18n.py:201
+#: props.py:139
+msgid "One sheet per group of collections, each with its name and scale"
+msgstr "每组集合一张图纸，各自带有名称和比例"
+
+#: i18n.py:305
+msgid "One sheet per top-level collection of the scene (replaces the list)"
+msgstr "场景的每个顶层集合一张图纸（替换列表）"
+
+#: i18n.py:87
+msgid "Only on the left"
+msgstr "仅在左侧"
+
+#: i18n.py:88
+msgid "Only on the right"
+msgstr "仅在右侧"
+
+#: i18n.py:94
+#: props.py:135
+msgid "Only save the files"
+msgstr "仅保存文件"
+
+#: i18n.py:199
+#: props.py:131
+msgid "Open PDF"
+msgstr "打开 PDF"
+
+#: i18n.py:183
+msgid "Open Templates Folder"
+msgstr "打开模板文件夹"
+
+#: i18n.py:92
+#: props.py:133
+msgid "Open the PDF"
+msgstr "打开 PDF"
+
+#: i18n.py:92
+#: props.py:133
+msgid "Open the PDF in your PDF reader"
+msgstr "在 PDF 阅读器中打开 PDF"
+
+#: i18n.py:199
+msgid "Open the PDF when the plan is done"
+msgstr "图纸完成后打开 PDF"
+
+#: i18n.py:303
+msgid "Open the last plan"
+msgstr "打开最近的图纸"
+
+#: props.py:131
+msgid "Open the result when the plan is done (off: nothing opens, e.g. batch export)"
+msgstr "图纸完成后打开结果（关闭：不打开任何内容，例如批量导出）"
+
+#: dims.py:36
+#: i18n.py:65
+msgid "Ordinary dimension"
+msgstr "普通尺寸"
+
+#: i18n.py:189
+#: i18n.py:209
+msgid "Origin"
+msgstr "原点"
+
+#: i18n.py:189
+#: i18n.py:209
+msgid "Origine"
+msgstr "原点"
+
+#: i18n.py:255
+#: ui.py:172
+msgid "Output"
+msgstr "输出"
+
+#: i18n.py:92
+msgid "Ouvre le PDF dans ton lecteur de PDF"
+msgstr "在 PDF 阅读器中打开 PDF"
+
+#: i18n.py:303
+msgid "Ouvre le dernier plan"
+msgstr "打开最近的图纸"
+
+#: i18n.py:92
+#: i18n.py:199
+msgid "Ouvrir le PDF"
+msgstr "打开 PDF"
+
+#: i18n.py:199
+msgid "Ouvrir le PDF quand le plan est prêt"
+msgstr "图纸完成后打开 PDF"
+
+#: i18n.py:183
+msgid "Ouvrir le dossier des modèles"
+msgstr "打开模板文件夹"
+
+#: i18n.py:96
+#: ui.py:227
+msgid "Overall"
+msgstr "总体尺寸"
+
+#: i18n.py:56
+#: props.py:79
+msgid "Overall Dimensions on Every View"
+msgstr "每个视图上的总体尺寸"
+
+#: i18n.py:120
+#: props.py:89
+msgid "Overall Without Handles"
+msgstr "不含把手的总体尺寸"
+
+#: i18n.py:258
+msgid "Overall dimensions are always drawn"
+msgstr "始终绘制总体尺寸"
+
+#: i18n.py:191
+msgid "Overall size of the part, largest first, in the drawing units"
+msgstr "零件的总体尺寸，最大尺寸在前，采用图纸单位"
+
+#: i18n.py:236
+#: sheets.py:59
+msgid "Own Views"
+msgstr "独立视图"
+
+#: i18n.py:218
+#: props.py:127
+msgid "Ownership"
+msgstr "所有权"
+
+#: i18n.py:221
+#: props.py:127
+msgid "Ownership notice at the bottom of the title block, e.g. “This drawing is the property of … — all rights reserved”"
+msgstr "标题栏底部的所有权声明，例如“本图纸属于……——保留所有权利”"
+
+#: i18n.py:264
+msgid "Où le plan coupe les pièces, depuis le côté que regarde la vue (50 % : au milieu). Le plan se déplace aussi avec G dans la vue 3D"
+msgstr "剖切平面剖切零件的位置，从视图朝向的一侧起算（50%：中间）。在 3D 视图中也可用 G 移动剖切平面"
+
+#: props.py:136
+msgid "PDF"
+msgstr "PDF"
+
+#: i18n.py:281
+msgid "Page à part"
+msgstr "单独页面"
+
+#: i18n.py:278
+msgid "Page à part, coupées"
+msgstr "单独页面，剖切"
+
+#: i18n.py:107
+msgid "Paper Size"
+msgstr "纸张大小"
+
+#: i18n.py:228
+msgid "Pas"
+msgstr "步长"
+
+#: i18n.py:108
+msgid "Pas de calques : plan fait avant Ichno 1.0.6"
+msgstr "无图层：图纸由 Ichno 1.0.6 之前的版本生成"
+
+#: i18n.py:285
+msgid "Pas de plan de coupe en perspective"
+msgstr "透视图中不显示剖切平面"
+
+#: i18n.py:16
+msgid "Paysage"
+msgstr "横向"
+
+#: i18n.py:144
+msgid "Personnalisée"
+msgstr "自定义"
+
+#: i18n.py:284
+msgid "Perspective principale"
+msgstr "主透视图"
+
+#: i18n.py:33
+msgid "Petit trièdre X, Y, Z à côté du titre de chaque vue"
+msgstr "每个视图标题旁的小型 X、Y、Z 三轴标"
+
+#: i18n.py:259
+msgid "Plan de coupe"
+msgstr "剖面图"
+
+#: i18n.py:276
+#: section.py:181
+msgid "Planes in Isometric"
+msgstr "等轴测图"
+
+#: i18n.py:273
+msgid "Plans en couleur"
+msgstr "彩色图纸"
+
+#: i18n.py:276
+msgid "Plans en perspective"
+msgstr "透视图纸"
+
+#: i18n.py:27
+msgid "Plus grande échelle normalisée qui tient sur la feuille"
+msgstr "能放入图纸的最大标准比例"
+
+#: dims.py:18
+#: dims.py:50
+msgid "Point A"
+msgstr "点 A"
+
+#: i18n.py:178
+msgid "Point A placé : mets le curseur 3D sur le point B et appuie à nouveau"
+msgstr "点 A 已设置：将 3D 光标移到点 B 并再次按下"
+
+#: i18n.py:178
+msgid "Point A set: move the 3D cursor to point B and press again"
+msgstr "点 A 已设置：将 3D 光标移到点 B 并再次按下"
+
+#: dims.py:19
+#: dims.py:51
+msgid "Point B"
+msgstr "点 B"
+
+#: i18n.py:176
+msgid "Point B (3D Cursor)"
+msgstr "点 B（3D 光标）"
+
+#: i18n.py:176
+msgid "Point B (curseur 3D)"
+msgstr "点 B（3D 光标）"
+
+#: i18n.py:179
+msgid "Point B is the same as point A: move the 3D cursor first"
+msgstr "点 B 与点 A 相同：请先移动 3D 光标"
+
+#: i18n.py:205
+msgid "Point de chaque objet pris comme repère"
+msgstr "每个物体用作基准的点"
+
+#: i18n.py:208
+msgid "Point de chaque objet pris comme repère, nommé d'après le côté du modèle"
+msgstr "每个物体用作基准的点，按模型侧面命名"
+
+#: i18n.py:238
+msgid "Point de vue"
+msgstr "视点"
+
+#: i18n.py:205
+msgid "Point of each object used as a station"
+msgstr "每个物体用作站点的点"
+
+#: chains.py:38
+#: i18n.py:208
+msgid "Point of each object used as a station, named after the side of the model"
+msgstr "每个物体用作站点的点，按模型侧面命名"
+
+#: i18n.py:187
+#: i18n.py:263
+msgid "Position"
+msgstr "位置"
+
+#: chains.py:44
+#: i18n.py:210
+msgid "Positions"
+msgstr "位置"
+
+#: i18n.py:24
+msgid "Pouces"
+msgstr "英寸"
+
+#: i18n.py:24
+msgid "Pouces et échelles impériales"
+msgstr "英寸与英制比例"
+
+#: i18n.py:107
+msgid "Previous or next sheet"
+msgstr "上一张或下一张图纸"
+
+#: i18n.py:168
+#: props.py:99
+msgid "Project"
+msgstr "项目"
+
+#: i18n.py:17
+#: props.py:40
+msgid "Projection"
+msgstr "投影"
+
+#: i18n.py:168
+msgid "Projet"
+msgstr "项目"
+
+#: i18n.py:252
+#: props.py:155
+msgid "Property"
+msgstr "属性"
+
+#: i18n.py:252
+msgid "Propriété"
+msgstr "属性"
+
+#: i18n.py:187
+#: i18n.py:251
+msgid "Propriété personnalisée"
+msgstr "自定义属性"
+
+#: i18n.py:253
+msgid "Propriété personnalisée des objets (Propriétés de l'objet > Propriétés personnalisées)"
+msgstr "物体的自定义属性（物体属性 > 自定义属性）"
+
+#: i18n.py:198
+#: props.py:129
+msgid "Put all the files of the drawing (PDF, SVG…) in a folder named after the drawing number, inside Folder"
+msgstr "将图纸的所有文件（PDF、SVG…）放入「文件夹」内以图号命名的文件夹中"
+
+#: i18n.py:104
+#: viewer.py:428
+msgid "Quality"
+msgstr "质量"
+
+#: i18n.py:104
+msgid "Qualité"
+msgstr "质量"
+
+#: i18n.py:147
+msgid "Quand elle dépasse 30 lignes"
+msgstr "当超过 30 行时"
+
+#: i18n.py:60
+msgid "Quel sommet est le sommet de l'angle ? Clique-le en dernier (sommet actif), ou sélectionne deux arêtes"
+msgstr "哪个顶点是角的顶点？最后点击它（活动顶点），或选择两条边"
+
+#: i18n.py:129
+msgid "Qui a approuvé le plan"
+msgstr "批准人"
+
+#: i18n.py:128
+msgid "Qui a vérifié le plan"
+msgstr "检查人"
+
+#: dims.py:39
+msgid "R"
+msgstr "R"
+
+#: dims.py:22
+#: dims.py:25
+msgid "Radius"
+msgstr "半径"
+
+#: i18n.py:76
+msgid "Radius / Diameter"
+msgstr "半径 / 直径"
+
+#: i18n.py:84
+msgid "Radius / Ø"
+msgstr "半径 / Ø"
+
+#: dims.py:257
+#: i18n.py:85
+msgid "Radius and diameter: not drawn"
+msgstr "半径和直径：不绘制"
+
+#: dims.py:22
+msgid "Radius of an arc"
+msgstr "圆弧半径"
+
+#: i18n.py:198
+msgid "Range tous les fichiers du plan (PDF, SVG…) dans un dossier au nom du n° de plan, dans Dossier"
+msgstr "将图纸的所有文件（PDF、SVG…）放入「文件夹」内以图号命名的文件夹中"
+
+#: i18n.py:232
+msgid "Rapide"
+msgstr "快速"
+
+#: i18n.py:185
+msgid "Rappels droits"
+msgstr "直线引线"
+
+#: i18n.py:117
+msgid "Rayon"
+msgstr "半径"
+
+#: i18n.py:76
+msgid "Rayon / diamètre"
+msgstr "半径 / 直径"
+
+#: i18n.py:84
+msgid "Rayon / Ø"
+msgstr "半径 / Ø"
+
+#: i18n.py:118
+msgid "Rayon de sphère"
+msgstr "球半径"
+
+#: i18n.py:85
+msgid "Rayon et diamètre : non dessinés"
+msgstr "半径和直径：不绘制"
+
+#: i18n.py:197
+msgid "Real Size (1:1)"
+msgstr "实际尺寸（1:1）"
+
+#: i18n.py:104
+msgid "Rechargement auto"
+msgstr "自动重新加载"
+
+#: chains.py:38
+#: i18n.py:188
+msgid "Reference"
+msgstr "参考"
+
+#: dims.py:36
+#: i18n.py:65
+msgid "Reference dimension, in brackets: for information, not checked"
+msgstr "参考尺寸，放在括号中：仅供参考，不检查"
+
+#: i18n.py:217
+#: props.py:111
+msgid "Remarks"
+msgstr "备注"
+
+#: i18n.py:217
+msgid "Remarques"
+msgstr "备注"
+
+#: i18n.py:176
+msgid "Remove Dimension"
+msgstr "移除尺寸标注"
+
+#: i18n.py:216
+msgid "Remove the active chain dimension"
+msgstr "移除活动链式尺寸标注"
+
+#: i18n.py:294
+msgid "Remove the active cutting plane (its view is drawn without section again)"
+msgstr "移除活动剖切平面（其视图将恢复为无剖面绘制）"
+
+#: i18n.py:224
+msgid "Remove the active row"
+msgstr "移除活动行"
+
+#: i18n.py:304
+msgid "Remove the active sheet"
+msgstr "移除活动图纸"
+
+#: i18n.py:308
+msgid "Remove the collection from the active sheet"
+msgstr "从活动图纸中移除集合"
+
+#: i18n.py:308
+msgid "Retire la collection de la feuille active"
+msgstr "从活动图纸中移除集合"
+
+#: i18n.py:216
+msgid "Retire la cote en chaîne active"
+msgstr "移除活动链式尺寸标注"
+
+#: i18n.py:304
+msgid "Retire la feuille active"
+msgstr "移除活动图纸"
+
+#: i18n.py:224
+msgid "Retire la ligne active"
+msgstr "移除活动行"
+
+#: i18n.py:294
+msgid "Retire le plan de coupe actif (sa vue est de nouveau dessinée sans coupe)"
+msgstr "移除活动剖切平面（其视图将恢复为无剖切绘制）"
+
+#: i18n.py:160
+msgid "Retirer la marque des arêtes sélectionnées"
+msgstr "移除所选边的标记"
+
+#: i18n.py:159
+msgid "Retirer la marque des arêtes sélectionnées : elles ne sont dessinées que si elles sont assez vives"
+msgstr "移除所选边的标记：仅当边足够锐利时才会绘制"
+
+#: i18n.py:106
+msgid "Retour à l'espace de travail précédent"
+msgstr "返回上一个工作区"
+
+#: i18n.py:218
+#: titleblock.py:12
+msgid "Rev."
+msgstr "版本"
+
+#: i18n.py:171
+#: props.py:104
+msgid "Revision"
+msgstr "修订"
+
+#: i18n.py:217
+#: titleblock.py:55
+msgid "Revisions"
+msgstr "修订"
+
+#: i18n.py:97
+#: ui.py:382
+msgid "Revisions and Notes"
+msgstr "修订与注释"
+
+#: i18n.py:94
+msgid "Rien"
+msgstr "无"
+
+#: i18n.py:98
+msgid "Rien de coché : tous les fichiers sont gardés"
+msgstr "未勾选任何项：所有文件均保留"
+
+#: i18n.py:314
+msgid "Rien à dessiner"
+msgstr "无可绘制内容"
+
+#: i18n.py:14
+#: props.py:34
+msgid "Right (+X)"
+msgstr "右 (+X)"
+
+#: i18n.py:209
+msgid "Right Edge"
+msgstr "右边缘"
+
+#: viewer.py:657
+msgid "Right:"
+msgstr "右："
+
+#: i18n.py:225
+#: props.py:143
+msgid "Ruler"
+msgstr "标尺"
+
+#: i18n.py:103
+msgid "Run Ichno's Make Plan, then show the drawing in Blender when it is done"
+msgstr "运行 Ichno 的“生成图纸”，完成后在 Blender 中显示图纸"
+
+#: i18n.py:225
+msgid "Règle"
+msgstr "标尺"
+
+#: i18n.py:34
+msgid "Règles qui diffèrent entre ISO et ASME : écriture des cotes, flèches, écart des lignes d'attache, marge de classement, intitulé des tolérances"
+msgstr "ISO 与 ASME 之间不同的规则：尺寸标注写法、箭头、尺寸界线偏移、装订边距、公差标题"
+
+#: i18n.py:188
+#: i18n.py:205
+msgid "Référence"
+msgstr "参考"
+
+#: i18n.py:234
+msgid "Réunir les espacements égaux"
+msgstr "合并等间距"
+
+#: i18n.py:218
+msgid "Rév."
+msgstr "版本"
+
+#: i18n.py:171
+msgid "Révision"
+msgstr "修订"
+
+#: i18n.py:217
+msgid "Révisions"
+msgstr "修订"
+
+#: i18n.py:97
+msgid "Révisions et notes"
+msgstr "修订与注释"
+
+#: dims.py:40
+msgid "SR"
+msgstr "SR"
+
+#: props.py:137
+msgid "SVG"
+msgstr "SVG"
+
+#: i18n.py:42
+msgid "SVG Layer Colours"
+msgstr "SVG 图层颜色"
+
+#: dims.py:274
+msgid "SYM"
+msgstr "SYM"
+
+#: i18n.py:242
+#: props.py:53
+msgid "Same angle as the 3D Viewport (orthographic, from the view's direction)"
+msgstr "与 3D 视图相同的角度（正交，沿视图方向）"
+
+#: i18n.py:167
+#: props.py:37
+msgid "Same as Blender's interface"
+msgstr "与 Blender 界面相同"
+
+#: i18n.py:88
+#: viewer.py:663
+msgid "Same texts and values on both sheets"
+msgstr "两张图纸上的文本和数值相同"
+
+#: i18n.py:135
+msgid "Sans classe géométrique"
+msgstr "无几何等级"
+
+#: i18n.py:85
+msgid "Sans poignées"
+msgstr "无控制柄"
+
+#: i18n.py:117
+msgid "Sans symbole"
+msgstr "无符号"
+
+#: i18n.py:78
+msgid "Sans tolérance (tolérances générales du cartouche)"
+msgstr "无公差（标题栏中的一般公差）"
+
+#: i18n.py:173
+msgid "Save Template"
+msgstr "保存模板"
+
+#: i18n.py:183
+msgid "Save the file first: each scene is drawn from the saved file"
+msgstr "请先保存文件：每个场景都基于已保存的文件进行绘制"
+
+#: i18n.py:27
+#: props.py:48
+msgid "Scale"
+msgstr "比例"
+
+#: i18n.py:288
+msgid "Scène lourde : coupes montrées sur le plan seulement"
+msgstr "场景较重：剖切仅在图纸上显示"
+
+#: i18n.py:25
+#: props.py:46
+msgid "Secondary Units"
+msgstr "辅助单位"
+
+#: i18n.py:259
+#: ui.py:82
+msgid "Section Views"
+msgstr "剖视图"
+
+#: i18n.py:156
+msgid "Select"
+msgstr "选择"
+
+#: i18n.py:80
+msgid "Select 3 vertices or more on the arc or the circle ({} selected)"
+msgstr "在圆弧或圆上选择 3 个或更多顶点（已选择 {} 个）"
+
+#: i18n.py:154
+#: i18n.py:155
+msgid "Select Marked Edges"
+msgstr "选择已标记的边"
+
+#: i18n.py:162
+msgid "Select edges first (Edit Mode, Edge select)"
+msgstr "请先选择边（编辑模式，边选择）"
+
+#: i18n.py:177
+msgid "Select exactly 2 vertices ({} selected)"
+msgstr "请选择正好 2 个顶点（已选择 {} 个）"
+
+#: i18n.py:59
+msgid "Select exactly 3 vertices ({} selected)"
+msgstr "请选择正好 3 个顶点（已选择 {} 个）"
+
+#: i18n.py:295
+msgid "Select the active cutting plane, to move it with G"
+msgstr "选择活动剖切平面，以便用 G 移动"
+
+#: i18n.py:161
+msgid "Select the marked edges of the objects in Edit Mode"
+msgstr "在编辑模式下选择物体的已标记边"
+
+#: i18n.py:10
+#: props.py:30
+msgid "Selected"
+msgstr "已选择"
+
+#: i18n.py:10
+#: props.py:30
+msgid "Selected objects only"
+msgstr "仅选中物体"
+
+#: i18n.py:281
+#: section.py:184
+msgid "Separate Page"
+msgstr "单独页面"
+
+#: i18n.py:278
+#: section.py:182
+msgid "Separate Page, Cut"
+msgstr "单独页面，剖切"
+
+#: i18n.py:146
+#: props.py:156
+msgid "Separate Sheet"
+msgstr "单独图纸"
+
+#: i18n.py:88
+msgid "Seulement à droite"
+msgstr "仅右侧"
+
+#: i18n.py:87
+msgid "Seulement à gauche"
+msgstr "仅左侧"
+
+#: i18n.py:203
+#: ui.py:126
+msgid "Sheet"
+msgstr "图纸"
+
+#: i18n.py:313
+#: sheets.py:258
+msgid "Sheet “{}”: {}"
+msgstr "图纸“{}”：{}"
+
+#: i18n.py:86
+#: viewer.py:645
+msgid "Sheets"
+msgstr "图纸"
+
+#: i18n.py:200
+#: props.py:139
+msgid "Sheets by Collection"
+msgstr "按集合分图纸"
+
+#: i18n.py:106
+msgid "Show All"
+msgstr "显示全部"
+
+#: i18n.py:89
+msgid "Show another drawing (or another revision) on the right of this one, sheet by sheet, with the texts and values that differ"
+msgstr "在此图纸右侧逐页显示另一图纸（或另一修订版），并标出不同的文本和数值"
+
+#: viewer.py:430
+msgid "Show each new drawing made by Ichno as soon as it is done"
+msgstr "Ichno 每完成一张新图纸即显示"
+
+#: i18n.py:91
+msgid "Show the drawing alone again"
+msgstr "再次单独显示图纸"
+
+#: i18n.py:93
+#: props.py:134
+msgid "Show the drawing in the « Ichno » workspace of Blender (needs the SVG files)"
+msgstr "在 Blender 的“Ichno”工作区中显示图纸（需要 SVG 文件）"
+
+#: i18n.py:102
+msgid "Show the last Ichno drawing page by page in the « Ichno » workspace"
+msgstr "在“Ichno”工作区中逐页显示最近的 Ichno 图纸"
+
+#: i18n.py:277
+#: section.py:181
+msgid "Show where each section is taken on an isometric view of the drawing"
+msgstr "在图纸的等轴测视图中显示每个剖切的剖切位置"
+
+#: i18n.py:310
+#: sheets.py:304
+msgid "Shown on sheets"
+msgstr "在图纸上显示"
+
+#: chains.py:37
+#: dims.py:44
+msgid "Side"
+msgstr "侧视"
+
+#: i18n.py:180
+msgid "Side View"
+msgstr "侧视图"
+
+#: i18n.py:12
+#: props.py:33
+msgid "Side of the model shown as the front view"
+msgstr "作为前视图显示的模型侧面"
+
+#: dims.py:44
+msgid "Side view only, distance as seen in that view"
+msgstr "仅侧视图，距离按该视图中所见"
+
+#: i18n.py:262
+#: section.py:162
+msgid "Side view, cut by a plane parallel to it"
+msgstr "侧视图，由平行于该视图的平面剖切"
+
+#: i18n.py:16
+#: props.py:38
+msgid "Size"
+msgstr "尺寸"
+
+#: i18n.py:33
+#: props.py:61
+msgid "Small X, Y, Z axis triad next to each view title"
+msgstr "每个视图标题旁的小型 X、Y、Z 坐标轴三轴标"
+
+#: i18n.py:169
+msgid "Société"
+msgstr "公司"
+
+#: i18n.py:255
+msgid "Sortie"
+msgstr "输出"
+
+#: i18n.py:187
+msgid "Source"
+msgstr "源"
+
+#: i18n.py:311
+msgid "Sous-collections de « {} » seulement"
+msgstr "仅“{}”的子集合"
+
+#: i18n.py:228
+#: props.py:145
+msgid "Spacing in drawing units; 0 = automatic (about 10 intervals)"
+msgstr "以图纸单位表示的间距；0 = 自动（约 10 个间隔）"
+
+#: dims.py:39
+#: i18n.py:117
+msgid "Spherical diameter"
+msgstr "球面直径"
+
+#: dims.py:40
+#: i18n.py:118
+msgid "Spherical radius"
+msgstr "球面半径"
+
+#: i18n.py:133
+msgid "Spécification géométrique par défaut"
+msgstr "默认几何规范"
+
+#: dims.py:40
+#: i18n.py:118
+msgid "Square"
+msgstr "方形"
+
+#: i18n.py:34
+#: props.py:62
+msgid "Standard"
+msgstr "标准"
+
+#: i18n.py:314
+msgid "Starting…"
+msgstr "正在启动…"
+
+#: i18n.py:228
+#: props.py:145
+msgid "Step"
+msgstr "单步"
+
+#: i18n.py:303
+msgid "Stop the plan being drawn"
+msgstr "停止绘制图纸"
+
+#: i18n.py:185
+msgid "Straight Leaders"
+msgstr "直线引线"
+
+#: i18n.py:257
+#: ui.py:96
+msgid "Style"
+msgstr "样式"
+
+#: i18n.py:311
+#: sheets.py:230
+msgid "Sub-collections of “{}” only"
+msgstr "仅“{}”的子集合"
+
+#: i18n.py:175
+msgid "Supprimer"
+msgstr "删除"
+
+#: i18n.py:176
+msgid "Supprimer la cote"
+msgstr "删除尺寸"
+
+#: i18n.py:174
+msgid "Supprimer le modèle"
+msgstr "删除模型"
+
+#: i18n.py:77
+msgid "Supérieur"
+msgstr "上方"
+
+#: i18n.py:96
+msgid "Sur chaque vue"
+msgstr "在每个视图上"
+
+#: i18n.py:31
+msgid "Sur la vue isométrique"
+msgstr "在等轴测视图上"
+
+#: i18n.py:114
+msgid "Sur la vue où l'on voit le plus de trous en cercles : « 4 × Ø8 » par diamètre et les entraxes depuis les bords gauche et bas (ISO 129-1)"
+msgstr "在显示圆孔最多的视图上：按直径标注“4 × Ø8”，并从左侧和下边缘标注孔间距（ISO 129-1）"
+
+#: dims.py:38
+#: i18n.py:116
+msgid "Symbol"
+msgstr "符号"
+
+#: dims.py:38
+#: i18n.py:116
+msgid "Symbol written before the value (ISO 129-1)"
+msgstr "写在数值前的符号（ISO 129-1）"
+
+#: i18n.py:116
+msgid "Symbole"
+msgstr "符号"
+
+#: i18n.py:116
+msgid "Symbole écrit devant la valeur (ISO 129-1)"
+msgstr "写在数值前的符号（ISO 129-1）"
+
+#: dims.py:27
+#: i18n.py:79
+msgid "Symmetric: ±0.1"
+msgstr "对称：±0.1"
+
+#: i18n.py:79
+msgid "Symétrique : ±0,1"
+msgstr "对称：±0.1"
+
+#: dims.py:39
+msgid "SØ"
+msgstr "SØ"
+
+#: i18n.py:10
+msgid "Sélection"
+msgstr "选择"
+
+#: i18n.py:80
+msgid "Sélectionne au moins 3 sommets sur l'arc ou le cercle ({} sélectionnés)"
+msgstr "在圆弧或圆上至少选择 3 个顶点（已选择 {} 个）"
+
+#: i18n.py:162
+msgid "Sélectionne d'abord des arêtes (mode Édition, sélection d'arêtes)"
+msgstr "请先选择边（编辑模式，边选择）"
+
+#: i18n.py:177
+msgid "Sélectionne exactement 2 sommets ({} sélectionnés)"
+msgstr "请选择恰好 2 个顶点（已选择 {} 个）"
+
+#: i18n.py:59
+msgid "Sélectionne exactement 3 sommets ({} sélectionnés)"
+msgstr "请选择恰好 3 个顶点（已选择 {} 个）"
+
+#: i18n.py:295
+msgid "Sélectionne le plan de coupe actif, pour le déplacer avec G"
+msgstr "选择活动剖切平面，以便用 G 移动"
+
+#: i18n.py:156
+msgid "Sélectionner"
+msgstr "选择"
+
+#: i18n.py:154
+#: i18n.py:155
+msgid "Sélectionner les arêtes marquées"
+msgstr "选择已标记的边"
+
+#: i18n.py:161
+msgid "Sélectionner les arêtes marquées des objets en mode Édition"
+msgstr "选择编辑模式下物体的已标记边"
+
+#: i18n.py:142
+#: props.py:123
+msgid "Table above the title block with the permitted deviations (± mm) of the class, for the sizes dimensioned on the sheet"
+msgstr "标题栏上方的表格，列出图纸标注尺寸所属等级的允许偏差（± mm）"
+
+#: i18n.py:141
+#: props.py:123
+msgid "Table of Deviations"
+msgstr "偏差表"
+
+#: i18n.py:142
+msgid "Tableau au-dessus du cartouche avec les écarts admis (± mm) de la classe, pour les cotes de la feuille"
+msgstr "标题栏上方的表格，列出图纸尺寸所属等级的允许偏差（± mm）"
+
+#: i18n.py:70
+msgid "Tableau des trous"
+msgstr "孔表"
+
+#: i18n.py:141
+msgid "Tableau des écarts"
+msgstr "偏差表"
+
+#: i18n.py:244
+msgid "Taille du texte"
+msgstr "文本大小"
+
+#: i18n.py:107
+msgid "Taille papier"
+msgstr "纸张大小"
+
+#: i18n.py:175
+msgid "Template"
+msgstr "模板"
+
+#: i18n.py:173
+msgid "Templates"
+msgstr "模板"
+
+#: dims.py:278
+#: i18n.py:85
+msgid "Text"
+msgstr "文本"
+
+#: i18n.py:220
+#: props.py:111
+msgid "Text (Text Editor) written above the title block"
+msgstr "标题栏上方写入的文本（文本编辑器）"
+
+#: i18n.py:244
+msgid "Text Size"
+msgstr "文本大小"
+
+#: dims.py:34
+#: i18n.py:64
+msgid "Text written after the value, e.g. “TYP.”"
+msgstr "值后写入的文本，例如“TYP.”"
+
+#: dims.py:33
+#: i18n.py:63
+msgid "Text written before the value, e.g. “4 ×”"
+msgstr "值前写入的文本，例如“4 ×”"
+
+#: i18n.py:85
+#: i18n.py:232
+msgid "Texte"
+msgstr "文本"
+
+#: i18n.py:220
+msgid "Texte (éditeur de texte) écrit au-dessus du cartouche"
+msgstr "标题栏上方写入的文本（文本编辑器）"
+
+#: i18n.py:64
+msgid "Texte écrit après la valeur, ex. « TYP. »"
+msgstr "值后写入的文本，例如“TYP.”"
+
+#: i18n.py:63
+msgid "Texte écrit avant la valeur, ex. « 4 × »"
+msgstr "值前写入的文本，例如“4 ×”"
+
+#: i18n.py:81
+msgid "The selected vertices are in a straight line"
+msgstr "所选顶点位于同一直线上"
+
+#: i18n.py:309
+#: sheets.py:254
+msgid "The title becomes the generic name"
+msgstr "标题将变为通用名称"
+
+#: i18n.py:290
+msgid "The {} view is already cut by {}: one section per view"
+msgstr "{} 视图已被 {} 剖切：每个视图只能有一个剖切"
+
+#: dims.py:37
+#: i18n.py:66
+msgid "Theoretically exact dimension, framed (basis of geometric tolerances, ISO 1101): no tolerance"
+msgstr "理论正确尺寸，加框（几何公差基础，ISO 1101）：无公差"
+
+#: dims.py:40
+#: i18n.py:118
+msgid "Thickness of a flat part or sheet"
+msgstr "平板或板材的厚度"
+
+#: i18n.py:112
+#: props.py:83
+msgid "Thin chain lines (ISO 128-2) on holes and shafts: a cross on each circle, the axis along a cylinder seen from the side"
+msgstr "细点划线（ISO 128-2）用于孔和轴：每个圆上画十字，侧视圆柱时沿轴线绘制"
+
+#: i18n.py:237
+#: sheets.py:59
+msgid "This sheet draws its own views instead of those of the Views panel"
+msgstr "此图纸绘制自身视图，而不是“视图”面板中的视图"
+
+#: sheets.py:64
+msgid "This sheet shows the bill of materials"
+msgstr "此图纸显示物料清单"
+
+#: i18n.py:168
+#: i18n.py:186
+msgid "Title"
+msgstr "标题"
+
+#: i18n.py:255
+#: ui.py:332
+msgid "Title Block"
+msgstr "标题栏"
+
+#: i18n.py:168
+#: i18n.py:186
+msgid "Titre"
+msgstr "标题"
+
+#: i18n.py:190
+msgid "Titre de la colonne sur le plan et dans les fichiers CSV / Excel"
+msgstr "图纸及 CSV / Excel 文件中的列标题"
+
+#: i18n.py:41
+msgid "Titres des vues"
+msgstr "视图标题"
+
+#: chains.py:40
+#: dims.py:26
+msgid "Tolerance"
+msgstr "公差"
+
+#: dims.py:26
+#: i18n.py:77
+msgid "Tolerance written after the value"
+msgstr "值后写入的公差"
+
+#: i18n.py:144
+#: props.py:125
+msgid "Tolerances"
+msgstr "公差"
+
+#: i18n.py:210
+msgid "Tolérance"
+msgstr "公差"
+
+#: i18n.py:77
+msgid "Tolérance écrite après la valeur"
+msgstr "值后写入的公差"
+
+#: i18n.py:144
+msgid "Tolérances"
+msgstr "公差"
+
+#: i18n.py:131
+msgid "Tolérances des cotes qui n'ont pas la leur"
+msgstr "未单独标注公差的尺寸的公差"
+
+#: i18n.py:130
+msgid "Tolérances générales"
+msgstr "一般公差"
+
+#: i18n.py:144
+msgid "Ton propre texte"
+msgstr "自定义文本"
+
+#: chains.py:37
+#: dims.py:45
+msgid "Top"
+msgstr "顶"
+
+#: i18n.py:15
+#: props.py:35
+msgid "Top (+Z)"
+msgstr "顶（+Z）"
+
+#: i18n.py:181
+msgid "Top View"
+msgstr "顶视图"
+
+#: dims.py:45
+msgid "Top view only, distance as seen in that view"
+msgstr "仅顶视图，按该视图中所见距离"
+
+#: i18n.py:263
+#: section.py:163
+msgid "Top view, cut by a horizontal plane"
+msgstr "顶视图，由水平面剖切"
+
+#: i18n.py:147
+msgid "Toujours"
+msgstr "始终"
+
+#: i18n.py:148
+msgid "Toujours au-dessus du cartouche, lignes au-delà de 30 résumées"
+msgstr "始终位于标题栏上方，超过 30 行时汇总"
+
+#: i18n.py:284
+msgid "Tous les plans de coupe sur la perspective du plan"
+msgstr "在图纸透视图中显示所有剖切平面"
+
+#: i18n.py:106
+msgid "Tout afficher"
+msgstr "显示全部"
+
+#: i18n.py:99
+msgid "Toutes les feuilles dans un fichier PDF"
+msgstr "所有图纸放入一个 PDF 文件"
+
+#: i18n.py:181
+msgid "Toutes les scènes"
+msgstr "所有场景"
+
+#: i18n.py:255
+msgid "Traits"
+msgstr "线条"
+
+#: i18n.py:29
+#: i18n.py:47
+msgid "Traits cachés"
+msgstr "隐藏线"
+
+#: i18n.py:32
+msgid "Traits cachés aussi sur la vue isométrique (souvent chargée)"
+msgstr "等轴测视图中也显示隐藏线（通常较繁重）"
+
+#: i18n.py:30
+msgid "Traits cachés en pointillés (lent sur les modèles lourds)"
+msgstr "隐藏线以虚线显示（在复杂模型上较慢）"
+
+#: i18n.py:112
+msgid "Traits mixtes fins (ISO 128-2) sur les trous et les arbres : une croix sur chaque cercle, l'axe le long d'un cylindre vu de profil"
+msgstr "细点划线（ISO 128-2）用于孔和轴：每个圆上画十字，侧视圆柱时沿轴线绘制"
+
+#: i18n.py:126
+msgid "Traits obliques (architecte)"
+msgstr "斜线（建筑）"
+
+#: i18n.py:127
+msgid "Traits obliques au lieu des flèches aux bouts des cotes en chaîne"
+msgstr "链式标注端点用斜线代替箭头"
+
+#: i18n.py:47
+msgid "Traits vus"
+msgstr "可见线"
+
+#: i18n.py:97
+msgid "Trous"
+msgstr "孔"
+
+#: i18n.py:172
+msgid "Un dossier par plan"
+msgstr "每张图纸一个文件夹"
+
+#: i18n.py:100
+msgid "Un fichier SVG par feuille, avec calques (Inkscape, Illustrator, Affinity) ; sert aussi à « Voir dans Blender »"
+msgstr "每张图纸一个 SVG 文件，带图层（Inkscape、Illustrator、Affinity）；也用于“在 Blender 中查看”"
+
+#: i18n.py:305
+msgid "Une feuille par collection principale de la scène (remplace la liste)"
+msgstr "每个场景主集合一张图纸（替换列表）"
+
+#: i18n.py:201
+msgid "Une feuille par groupe de collections, chacune avec son nom et son échelle"
+msgstr "每个集合组一张图纸，各自带名称和比例"
+
+#: i18n.py:251
+msgid "Une ligne par collection"
+msgstr "每个集合一行"
+
+#: i18n.py:252
+msgid "Une ligne par valeur d'une propriété personnalisée"
+msgstr "自定义属性的每个值一行"
+
+#: i18n.py:282
+msgid "Une page de plus avec une perspective entière par plan de coupe ; la perspective principale reste nette"
+msgstr "额外一页，每个剖切平面一张完整透视图；主透视图保持清晰"
+
+#: i18n.py:279
+msgid "Une page de plus avec une perspective par plan de coupe, la matière devant le plan retirée ; la perspective principale reste nette"
+msgstr "额外一页，每个剖切平面一张透视图，移除剖切平面前方部分；主透视图保持清晰"
+
+#: i18n.py:23
+#: props.py:44
+msgid "Units"
+msgstr "单位"
+
+#: i18n.py:23
+msgid "Unités"
+msgstr "单位"
+
+#: i18n.py:25
+msgid "Unités secondaires"
+msgstr "次级单位"
+
+#: edges.py:39
+#: i18n.py:160
+msgid "Unmark the selected edges instead"
+msgstr "改为取消标记选中的边"
+
+#: i18n.py:159
+msgid "Unmark the selected edges: they are drawn only if they are sharp enough"
+msgstr "取消标记选中的边：仅当足够尖锐时才绘制"
+
+#: sheets.py:137
+msgid "Up"
+msgstr "上"
+
+#: dims.py:31
+#: i18n.py:77
+msgid "Upper"
+msgstr "上偏差"
+
+#: dims.py:28
+#: i18n.py:79
+msgid "Upper and lower deviations: +0.1/−0.05"
+msgstr "上、下偏差：+0.1/−0.05"
+
+#: dims.py:31
+msgid "Upper deviation (±: the tolerance), in mm"
+msgstr "上偏差（±：公差），单位 mm"
+
+#: i18n.py:45
+#: props.py:72
+msgid "Use the layer colours in the PDF too (off: black, as workshops expect)"
+msgstr "在 PDF 中也使用图层颜色（关闭：黑色，符合车间预期）"
+
+#: i18n.py:219
+msgid "Valeur"
+msgstr "值"
+
+#: i18n.py:247
+msgid "Valeur d'une propriété personnalisée ; les objets qui ne l'ont pas ne sont pas étiquetés"
+msgstr "自定义属性的值；没有该属性的物体不添加标签"
+
+#: i18n.py:257
+msgid "Validation et fabrication"
+msgstr "验证与制造"
+
+#: i18n.py:219
+#: titleblock.py:19
+msgid "Value"
+msgstr "值"
+
+#: i18n.py:247
+msgid "Value of a custom property; objects without it are not labeled"
+msgstr "自定义属性的值；没有该属性的物体不添加标签"
+
+#: dims.py:49
+msgid "Vertex"
+msgstr "顶点"
+
+#: i18n.py:133
+#: props.py:118
+msgid "Very coarse class"
+msgstr "极粗级别"
+
+#: chains.py:37
+#: dims.py:41
+msgid "View"
+msgstr "视图"
+
+#: i18n.py:41
+#: props.py:68
+msgid "View Titles"
+msgstr "视图标题"
+
+#: i18n.py:86
+#: props.py:134
+msgid "View in Blender"
+msgstr "在 Blender 中查看"
+
+#: i18n.py:95
+#: ui.py:210
+msgid "View in Blender needs the SVG files"
+msgstr "“在 Blender 中查看”需要 SVG 文件"
+
+#: i18n.py:260
+#: section.py:160
+msgid "View of the drawing shown as a section (one section per view)"
+msgstr "图纸视图以剖面显示（每个视图一个剖面）"
+
+#: i18n.py:238
+#: props.py:50
+msgid "Viewpoint"
+msgstr "视点"
+
+#: i18n.py:242
+#: props.py:53
+msgid "Viewport"
+msgstr "视图"
+
+#: i18n.py:255
+#: ui.py:67
+msgid "Views"
+msgstr "视图"
+
+#: i18n.py:9
+#: props.py:29
+msgid "Visible"
+msgstr "可见"
+
+#: i18n.py:47
+#: props.py:73
+msgid "Visible Lines"
+msgstr "可见线"
+
+#: i18n.py:9
+msgid "Visibles"
+msgstr "可见线"
+
+#: i18n.py:104
+msgid "Visionneuse Ichno"
+msgstr "Ichno 查看器"
+
+#: i18n.py:86
+msgid "Voir dans Blender"
+msgstr "在 Blender 中查看"
+
+#: i18n.py:204
+msgid "Vue"
+msgstr "视图"
+
+#: i18n.py:242
+msgid "Vue 3D"
+msgstr "3D 视图"
+
+#: i18n.py:260
+msgid "Vue coupée"
+msgstr "剖视图"
+
+#: i18n.py:180
+msgid "Vue de côté"
+msgstr "侧视图"
+
+#: i18n.py:262
+msgid "Vue de côté, coupée par un plan parallèle"
+msgstr "侧视图，由平行平面剖切"
+
+#: i18n.py:181
+msgid "Vue de dessus"
+msgstr "顶视图"
+
+#: i18n.py:263
+msgid "Vue de dessus, coupée par un plan horizontal"
+msgstr "顶视图，由水平平面剖切"
+
+#: i18n.py:12
+#: i18n.py:180
+msgid "Vue de face"
+msgstr "前视图"
+
+#: i18n.py:261
+msgid "Vue de face, coupée par un plan parallèle"
+msgstr "前视图，由平行平面剖切"
+
+#: i18n.py:260
+msgid "Vue du plan dessinée en coupe (une coupe par vue)"
+msgstr "图纸视图以剖视绘制（每个视图一个剖切）"
+
+#: i18n.py:29
+#: i18n.py:181
+msgid "Vue isométrique"
+msgstr "等轴测视图"
+
+#: i18n.py:255
+msgid "Vues"
+msgstr "视图"
+
+#: i18n.py:259
+msgid "Vues en coupe"
+msgstr "剖视图"
+
+#: i18n.py:236
+msgid "Vues propres"
+msgstr "干净视图"
+
+#: i18n.py:128
+msgid "Vérifié"
+msgstr "已验证"
+
+#: i18n.py:91
+#: props.py:132
+msgid "What opens when the plan is done"
+msgstr "图纸完成后打开的内容"
+
+#: i18n.py:86
+#: props.py:132
+msgid "When Done"
+msgstr "完成后"
+
+#: i18n.py:147
+#: props.py:157
+msgid "When it has more than 30 rows"
+msgstr "当超过 30 行时"
+
+#: i18n.py:264
+#: section.py:164
+msgid "Where the plane cuts the parts, from the side the view looks at (50 %: the middle). You can also move the plane with G in the 3D View"
+msgstr "平面切割零件的位置，从视图观察的一侧计算（50%：中间）。也可在 3D 视图中按 G 移动平面"
+
+#: i18n.py:60
+msgid "Which vertex is the vertex of the angle? Click it last (active vertex), or select two edges"
+msgstr "哪个顶点是角的顶点？最后点击它（活动顶点），或选择两条边"
+
+#: i18n.py:129
+#: props.py:113
+msgid "Who approved the drawing"
+msgstr "图纸批准人"
+
+#: i18n.py:128
+#: props.py:112
+msgid "Who checked the drawing"
+msgstr "图纸校对人"
+
+#: i18n.py:124
+#: props.py:79
+msgid "Width and height on every view. Off: each dimension only once, width and height on the front view, depth on the side view (ISO 129-1)"
+msgstr "每个视图都标注宽度和高度。关闭：每个尺寸只标注一次，宽度和高度标在主视图，深度标在侧视图（ISO 129-1）"
+
+#: props.py:89
+msgid "Width, depth and height of the body, without the handles, knobs and pulls (objects named handle, knob, pull, poignée, bouton, Griff… or in the collection below); the full overall size follows in brackets"
+msgstr "主体的宽度、深度和高度，不含拉手、旋钮和把手（名称为 handle、knob、pull、poignée、bouton、Griff… 的物体，或位于下方集合中的物体）；完整总尺寸随后在括号中给出"
+
+#: i18n.py:85
+#: ui.py:230
+msgid "Without Handles"
+msgstr "不含拉手"
+
+#: i18n.py:244
+msgid "Write Frame instead of Frame.001"
+msgstr "写入 Frame 而非 Frame.001"
+
+#: chains.py:44
+#: i18n.py:211
+msgid "Write each station's coordinate from the world origin under the chain"
+msgstr "在链下方写入每个测站的坐标（以世界原点为基准）"
+
+#: i18n.py:223
+#: ui.py:403
+msgid "Write the remarks in the Text Editor"
+msgstr "在文本编辑器中写入备注"
+
+#: dims.py:20
+#: dims.py:52
+msgid "Your own note, not drawn"
+msgstr "你自己的备注，不会绘制"
+
+#: i18n.py:144
+#: props.py:116
+msgid "Your own text"
+msgstr "你自己的文本"
+
+#: i18n.py:312
+msgid "aucune collection"
+msgstr "无集合"
+
+#: i18n.py:238
+msgid "aucune vue choisie"
+msgstr "未选择视图"
+
+#: i18n.py:312
+msgid "collection hors de « {} »"
+msgstr "集合在「{}」之外"
+
+#: i18n.py:312
+msgid "collection outside “{}”"
+msgstr "集合在“{}”之外"
+
+#: props.py:125
+msgid "e.g. ±0.5, X.X = ±0.1, ANGLES ±1°"
+msgstr "例如 ±0.5，X.X = ±0.1，角度 ±1°"
+
+#: i18n.py:98
+msgid "no BOM"
+msgstr "无物料清单"
+
+#: i18n.py:312
+msgid "no collection"
+msgstr "无集合"
+
+#: i18n.py:238
+msgid "no view selected"
+msgstr "未选择视图"
+
+#: i18n.py:311
+msgid "nothing to count (check its collections)"
+msgstr "没有可计数的内容（请检查其集合）"
+
+#: i18n.py:313
+msgid "nothing to draw (check Objects)"
+msgstr "没有可绘制的内容（请检查物体）"
+
+#: i18n.py:98
+msgid "pas de nomenclature"
+msgstr "无物料清单"
+
+#: i18n.py:311
+msgid "rien à compter (vérifier ses collections)"
+msgstr "没有可计数的内容（请检查其集合）"
+
+#: i18n.py:313
+msgid "rien à dessiner (vérifie Objets)"
+msgstr "没有可绘制的内容（请检查物体）"
+
+#: dims.py:40
+msgid "t="
+msgstr "t="
+
+#: i18n.py:164
+msgid "{} : {} arêtes marquées"
+msgstr "{}：{} 条边已标记"
+
+#: i18n.py:163
+msgid "{} arêtes démarquées, {} marquées"
+msgstr "{} 条边已取消标记，{} 条已标记"
+
+#: i18n.py:164
+msgid "{} arêtes marquées"
+msgstr "{} 条边已标记"
+
+#: i18n.py:163
+msgid "{} arêtes marquées, {} en tout"
+msgstr "{} 条边已标记，共 {} 条"
+
+#: i18n.py:163
+msgid "{} edges marked, {} in all"
+msgstr "{} 条边已标记，共 {} 条"
+
+#: i18n.py:163
+msgid "{} edges unmarked, {} marked"
+msgstr "{} 条边已取消标记，{} 条已标记"
+
+#: i18n.py:182
+msgid "{} en échec"
+msgstr "{} 个失败"
+
+#: i18n.py:182
+msgid "{} failed"
+msgstr "{} 个失败"
+
+#: i18n.py:318
+msgid "{} feuille en {} s"
+msgstr "{} 张图纸，用时 {} 秒"
+
+#: i18n.py:318
+msgid "{} feuilles en {} s"
+msgstr "{} 张图纸，用时 {} 秒"
+
+#: i18n.py:164
+msgid "{} marked edges"
+msgstr "{} 条已标记的边"
+
+#: i18n.py:182
+msgid "{} plans faits"
+msgstr "{} 张图纸已完成"
+
+#: i18n.py:182
+msgid "{} plans made"
+msgstr "{} 张图纸已生成"
+
+#: i18n.py:318
+msgid "{} sheet in {} s"
+msgstr "{} 张图纸，用时 {} 秒"
+
+#: i18n.py:318
+msgid "{} sheets in {} s"
+msgstr "{} 张图纸，用时 {} 秒"
+
+#: edges.py:103
+#: i18n.py:164
+msgid "{}: {} marked edges"
+msgstr "{}：{} 条边已标记"
+
+#: i18n.py:95
+msgid "« Voir dans Blender » demande les fichiers SVG"
+msgstr "“在 Blender 中查看”需要 SVG 文件"
+
+#: i18n.py:317
+msgid "« {} » est ouvert dans un autre programme : enregistré sous « {} »"
+msgstr "“{}”已在其他程序中打开：已另存为“{}”"
+
+#: i18n.py:287
+msgid "« {} » n'est pas fermé : pas de hachures"
+msgstr "“{}”未闭合：无剖面线"
+
+#: dims.py:27
+#: dims.py:274
+msgid "±"
+msgstr "±"
+
+#: i18n.py:86
+msgid "À la fin"
+msgstr "在末尾"
+
+#: i18n.py:74
+msgid "À la place de « 4 × Ø8 » et des entraxes : un repère sur chaque trou (A1, A2… une lettre par diamètre) et un tableau au-dessus du cartouche : X et Y depuis le coin bas gauche de la vue, diamètre"
+msgstr "代替「4 × Ø8」和孔距：每个孔上标注一个标记（A1、A2……每个直径用一个字母），并在标题栏上方放一个表格：从视图左下角起的 X 和 Y、直径"
+
+#: i18n.py:228
+msgid "Écart dans l'unité du plan ; 0 = automatique (une dizaine d'intervalles)"
+msgstr "以图纸单位表示的间距；0 = 自动（约十个间隔）"
+
+#: i18n.py:268
+msgid "Écart des hachures sur la feuille, en mm (plus petit sur les petites faces coupées)"
+msgstr "图纸上剖面线的间距，单位 mm（较小的切割面使用更小间距）"
+
+#: i18n.py:79
+msgid "Écarts supérieur et inférieur : +0,1/−0,05"
+msgstr "上偏差和下偏差：+0.1/−0.05"
+
+#: i18n.py:27
+msgid "Échelle"
+msgstr "比例"
+
+#: i18n.py:223
+msgid "Écris les remarques dans l'éditeur de texte"
+msgstr "在文本编辑器中写入备注"
+
+#: i18n.py:244
+msgid "Écrit Cadre au lieu de Cadre.001"
+msgstr "写入 Cadre 而不是 Cadre.001"
+
+#: i18n.py:211
+msgid "Écrit sous la chaîne la coordonnée de chaque repère depuis l'origine du monde"
+msgstr "在链下方写入每个标记相对世界原点的坐标"
+
+#: i18n.py:149
+msgid "Épais"
+msgstr "粗"
+
+#: i18n.py:118
+msgid "Épaisseur d'une pièce plate ou d'une tôle"
+msgstr "平板或钣金的厚度"
+
+#: i18n.py:149
+msgid "Épaisseur des traits"
+msgstr "线宽"
+
+#: i18n.py:68
+msgid "État général des arêtes non cotées, écrit dans le cartouche comme les tolérances générales : −0,3 (sans bavure, cassées jusqu'à 0,3 mm), +0,3 (bavure admise), ±0,1…"
+msgstr "未标注尺寸边的通用状态，像一般公差那样写入标题栏：−0.3（无毛刺，倒钝至 0.3 mm）、+0.3（允许毛刺）、±0.1……"
+
+#: i18n.py:256
+msgid "Étiquettes"
+msgstr "标签"
+
+#: i18n.py:232
+msgid "Étiquettes d'objets"
+msgstr "物体标签"
+
+#: dims.py:39
+msgid "Ø"
+msgstr "Ø"
+
+#: props.py:120
+msgid "–"
+msgstr "–"
+
+#: dims.py:39
+#: sheets.py:84
+msgid "—"
+msgstr "—"
+
+#: i18n.py:287
+#: section.py:617
+msgid "“{}” is not closed: no hatching"
+msgstr "“{}”未闭合：无剖面线"
+
+#: i18n.py:317
+msgid "“{}” is open in another program: saved as “{}”"
+msgstr "“{}”已在其他程序中打开：保存为“{}”"
+
+#: ui.py:51
+msgid "…"
+msgstr "…"
+
+#: dims.py:276
+msgid "−"
+msgstr "−"
+
+#: dims.py:40
+msgid "□"
+msgstr "□"
+
+#: dims.py:37
+msgid "▭"
+msgstr "▭"
+
+#: dims.py:237
+msgctxt "Operator"
+msgid "2 Vertices"
+msgstr "2 个顶点"
+
+#: dims.py:241
+msgctxt "Operator"
+msgid "3D Cursor"
+msgstr "3D 游标"
+
+#: titleblock.py:75
+msgctxt "Operator"
+msgid "Add"
+msgstr "添加"
+
+#: chains.py:57
+msgctxt "Operator"
+msgid "Add Chain"
+msgstr "添加链"
+
+#: sheets.py:190
+#: sheets.py:264
+msgctxt "Operator"
+msgid "Add Collection"
+msgstr "添加集合"
+
+#: section.py:493
+msgctxt "Operator"
+msgid "Add Cutting Plane"
+msgstr "添加剖切平面"
+
+#: sheets.py:104
+msgctxt "Operator"
+msgid "Add Sheet"
+msgstr "添加图纸"
+
+#: dims.py:238
+msgctxt "Operator"
+msgid "Angle"
+msgstr "角度"
+
+#: dims.py:140
+msgctxt "Operator"
+msgid "Angle from 3 Vertices"
+msgstr "由 3 个顶点确定角度"
+
+#: viewer.py:548
+msgctxt "Operator"
+msgid "Back"
+msgstr "返回"
+
+#: viewer.py:549
+msgctxt "Operator"
+msgid "Back to the workspace you were in"
+msgstr "返回之前的工作区"
+
+#: ops.py:312
+msgctxt "Operator"
+msgid "Cancel"
+msgstr "取消"
+
+#: edges.py:99
+msgctxt "Operator"
+msgid "Clear"
+msgstr "清除"
+
+#: viewer.py:573
+msgctxt "Operator"
+msgid "Compare with…"
+msgstr "与…比较"
+
+#: viewer.py:639
+msgctxt "Operator"
+msgid "Fit"
+msgstr "适配"
+
+#: viewer.py:501
+msgctxt "Operator"
+msgid "Fit the sheet in the editor, or show it about at paper size"
+msgstr "在编辑器中适配图纸，或按纸张尺寸显示"
+
+#: dims.py:116
+msgctxt "Operator"
+msgid "From 2 Vertices"
+msgstr "由 2 个顶点"
+
+#: viewer.py:485
+msgctxt "Operator"
+msgid "Layer"
+msgstr "图层"
+
+#: ops.py:236
+msgctxt "Operator"
+msgid "Make Plan"
+msgstr "生成图纸"
+
+#: viewer.py:453
+msgctxt "Operator"
+msgid "Make Plan and View"
+msgstr "生成图纸并查看"
+
+#: edges.py:98
+msgctxt "Operator"
+msgid "Mark"
+msgstr "标记"
+
+#: edges.py:37
+msgctxt "Operator"
+msgid "Mark Edges"
+msgstr "标记边"
+
+#: dims.py:195
+msgctxt "Operator"
+msgid "Move Dimension"
+msgstr "移动标注"
+
+#: sheets.py:135
+msgctxt "Operator"
+msgid "Move Sheet"
+msgstr "移动图纸"
+
+#: sheets.py:155
+msgctxt "Operator"
+msgid "One Sheet per Collection"
+msgstr "每个集合一张图纸"
+
+#: ops.py:323
+msgctxt "Operator"
+msgid "Open Last Plan"
+msgstr "打开上次图纸"
+
+#: viewer.py:640
+msgctxt "Operator"
+msgid "Paper Size"
+msgstr "纸张尺寸"
+
+#: dims.py:241
+msgctxt "Operator"
+msgid "Point B"
+msgstr "点 B"
+
+#: viewer.py:471
+msgctxt "Operator"
+msgid "Previous or next sheet"
+msgstr "上一张或下一张图纸"
+
+#: dims.py:242
+msgctxt "Operator"
+msgid "Radius / Ø"
+msgstr "半径 / Ø"
+
+#: titleblock.py:93
+msgctxt "Operator"
+msgid "Remove"
+msgstr "移除"
+
+#: dims.py:178
+msgctxt "Operator"
+msgid "Remove Angle"
+msgstr "移除角度"
+
+#: chains.py:70
+msgctxt "Operator"
+msgid "Remove Chain"
+msgstr "移除链"
+
+#: sheets.py:207
+#: sheets.py:277
+msgctxt "Operator"
+msgid "Remove Collection"
+msgstr "移除集合"
+
+#: section.py:535
+msgctxt "Operator"
+msgid "Remove Cutting Plane"
+msgstr "移除剖切平面"
+
+#: dims.py:215
+msgctxt "Operator"
+msgid "Remove Dimension"
+msgstr "移除标注"
+
+#: sheets.py:118
+msgctxt "Operator"
+msgid "Remove Sheet"
+msgstr "移除图纸"
+
+#: viewer.py:454
+msgctxt "Operator"
+msgid "Run Ichno's Make Plan, then show the drawing in Blender when it is done"
+msgstr "运行 Ichno 的“生成图纸”，完成后在 Blender 中显示图纸"
+
+#: viewer.py:521
+msgctxt "Operator"
+msgid "Save Sheet as PNG"
+msgstr "将图纸保存为 PNG"
+
+#: viewer.py:522
+msgctxt "Operator"
+msgid "Save the sheet shown, with the layers shown, as a PNG image"
+msgstr "将显示的图纸及图层保存为 PNG 图像"
+
+#: edges.py:100
+msgctxt "Operator"
+msgid "Select"
+msgstr "选择"
+
+#: edges.py:63
+msgctxt "Operator"
+msgid "Select Marked Edges"
+msgstr "选择已标记的边"
+
+#: section.py:557
+msgctxt "Operator"
+msgid "Select Plane"
+msgstr "选择平面"
+
+#: viewer.py:470
+msgctxt "Operator"
+msgid "Sheet"
+msgstr "图纸"
+
+#: viewer.py:679
+#: viewer.py:700
+msgctxt "Operator"
+msgid "Show All"
+msgstr "全部显示"
+
+#: viewer.py:562
+msgctxt "Operator"
+msgid "Show Sheet"
+msgstr "显示图纸"
+
+#: viewer.py:574
+msgctxt "Operator"
+msgid "Show another drawing (or another revision) on the right of this one, sheet by sheet, with the texts and values that differ"
+msgstr "在此图纸右侧逐张显示另一图纸（或另一修订版），并显示不同的文本和数值"
+
+#: viewer.py:486
+msgctxt "Operator"
+msgid "Show or hide this layer of the drawing (empty: show all)"
+msgstr "显示或隐藏图纸的这一图层（空：显示全部）"
+
+#: viewer.py:600
+msgctxt "Operator"
+msgid "Show the drawing alone again"
+msgstr "再次单独显示图纸"
+
+#: viewer.py:436
+msgctxt "Operator"
+msgid "Show the last Ichno drawing page by page in the « Ichno » workspace"
+msgstr "在“Ichno”工作区中逐页显示上次的 Ichno 图纸"
+
+#: viewer.py:563
+msgctxt "Operator"
+msgid "Show this sheet"
+msgstr "显示此图纸"
+
+#: viewer.py:599
+msgctxt "Operator"
+msgid "Stop Comparing"
+msgstr "停止比较"
+
+#: viewer.py:435
+msgctxt "Operator"
+msgid "View in Blender"
+msgstr "在 Blender 中查看"
+
+#: viewer.py:500
+msgctxt "Operator"
+msgid "Zoom"
+msgstr "缩放"

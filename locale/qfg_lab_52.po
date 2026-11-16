@@ -1,0 +1,3245 @@
+# perfect-chinese: 1
+# id: qfg_lab_52
+# kind: addon
+# module: bl_ext.blender_org.qfg_lab_52
+# name: QFG Dynamics 1.0.2
+# name_zh: 场驱动力学
+# translator: KeshiMiao
+# category: Physics
+# supported_versions: >=5.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: qfg_lab_52/properties.py:699
+#: qfg_lab_52/properties.py:746
+msgid "+Local X"
+msgstr "+局部 X"
+
+#: qfg_lab_52/properties.py:700
+#: qfg_lab_52/properties.py:747
+msgid "+Local Y"
+msgstr "+局部 Y"
+
+#: qfg_lab_52/properties.py:701
+#: qfg_lab_52/properties.py:748
+msgid "+Local Z"
+msgstr "+局部 Z"
+
+#: qfg_lab_52/properties.py:475
+msgid "0 = valence direction torque only, 1 = orbital-normal torque only"
+msgstr "0 = 仅价方向力矩，1 = 仅轨道法向力矩"
+
+#: qfg_lab_52/properties.py:416
+msgid "0 = valence/director tensor only, 1 = orbital-plane-normal tensor only"
+msgstr "0 = 仅价/指向矢张量，1 = 仅轨道平面法向张量"
+
+#: qfg_lab_52/properties.py:233
+msgid "1-D grid"
+msgstr "一维网格"
+
+#: qfg_lab_52/properties.py:332
+msgid "1/r³"
+msgstr "1/r³"
+
+#: qfg_lab_52/properties.py:34
+msgid "128³ Research"
+msgstr "128³ 研究"
+
+#: qfg_lab_52/properties.py:29
+msgid "24³ Preview"
+msgstr "24³ 预览"
+
+#: qfg_lab_52/properties.py:30
+msgid "32³ Standard"
+msgstr "32³ 标准"
+
+#: qfg_lab_52/properties.py:154
+msgid "32³, 720p, faster bake"
+msgstr "32³，720p，更快烘焙"
+
+#: qfg_lab_52/properties.py:31
+msgid "48³ Detailed"
+msgstr "48³ 精细"
+
+#: qfg_lab_52/panels.py:241
+msgid "6-DoF Debug Overlay"
+msgstr "6 自由度调试叠加层"
+
+#: qfg_lab_52/properties.py:181
+msgid "6-DoF debug overlay"
+msgstr "6 自由度调试叠加层"
+
+#: qfg_lab_52/panels.py:132
+msgid "6-DoF runtime diagnostics"
+msgstr "6 自由度运行时诊断"
+
+#: qfg_lab_52/properties.py:32
+msgid "64³ High"
+msgstr "64³ 高"
+
+#: qfg_lab_52/properties.py:155
+msgid "64³, 1080p, heavier bake"
+msgstr "64³，1080p，更重烘焙"
+
+#: qfg_lab_52/properties.py:33
+msgid "96³ Extreme"
+msgstr "96³ 极限"
+
+#: qfg_lab_52/operators.py:2545
+msgid "A prediction is already frozen. Reset Atlas Holdout before starting a new B6 run"
+msgstr "预测已冻结。开始新的 B6 运行前，请重置 Atlas 留出集"
+
+#: qfg_lab_52/properties.py:260
+msgid "AC-Stark proxy"
+msgstr "AC-Stark 代理"
+
+#: qfg_lab_52/properties.py:134
+msgid "Active body contacts"
+msgstr "活动物体接触"
+
+#: qfg_lab_52/properties.py:135
+msgid "Active floor contacts"
+msgstr "活动地面接触"
+
+#: qfg_lab_52/properties.py:643
+msgid "Actor type"
+msgstr "作用体类型"
+
+#: qfg_lab_52/properties.py:453
+msgid "Align Atlas frames to the local QFG density-gradient direction"
+msgstr "将 Atlas 帧对齐到局部 QFG 密度梯度方向"
+
+#: qfg_lab_52/properties.py:393
+msgid "All Atlas roles"
+msgstr "所有 Atlas 角色"
+
+#: qfg_lab_52/properties.py:384
+msgid "All non-rejected"
+msgstr "所有未拒绝"
+
+#: qfg_lab_52/properties.py:322
+msgid "All tagged"
+msgstr "所有已标记"
+
+#: qfg_lab_52/properties.py:383
+msgid "Allow reviewed DERIVED auto-tags; excludes CONDITIONAL/CALIBRATED/EXPERIMENTAL/REJECTED"
+msgstr "允许已审核的 DERIVED 自动标签；排除 CONDITIONAL/CALIBRATED/EXPERIMENTAL/REJECTED"
+
+#: qfg_lab_52/properties.py:364
+msgid "Allow tagged Atlas structures to populate the reduced QFG field; CONDITIONAL bridge"
+msgstr "允许已标记的 Atlas 结构填充精简 QFG 场；CONDITIONAL 桥接"
+
+#: qfg_lab_52/operators.py:2178
+msgid "Allow the heuristic to replace explicit SOURCE tags (normally leave disabled)"
+msgstr "允许启发式替换显式 SOURCE 标签（通常保持禁用）"
+
+#: qfg_lab_52/properties.py:435
+msgid "Allow the live QFG field to move/rotate tagged Atlas sources through a bounded CONDITIONAL relaxation bridge"
+msgstr "允许实时 QFG 场通过有界 CONDITIONAL 松弛桥接移动/旋转已标记的 Atlas 源"
+
+#: qfg_lab_52/properties.py:757
+msgid "Allow this Atlas object to receive conditional QFG force/torque feedback"
+msgstr "允许此 Atlas 物体接收条件 QFG 力/力矩反馈"
+
+#: qfg_lab_52/properties.py:546
+msgid "Allowed radial deviation in scene units before B5 shell projection acts"
+msgstr "B5 壳投影生效前允许的径向偏差（场景单位）"
+
+#: qfg_lab_52/properties.py:597
+msgid "Angle drift tolerance / iter"
+msgstr "角度漂移容差/迭代"
+
+#: qfg_lab_52/properties.py:303
+msgid "Angle spread σ"
+msgstr "角度散布 σ"
+
+#: qfg_lab_52/properties.py:593
+msgid "Angle window tolerance"
+msgstr "角度窗口容差"
+
+#: qfg_lab_52/properties.py:825
+msgid "Angular drag"
+msgstr "角阻力"
+
+#: qfg_lab_52/properties.py:791
+msgid "Angular freedom cone"
+msgstr "角度自由锥"
+
+#: qfg_lab_52/properties.py:817
+msgid "Angular velocity"
+msgstr "角速度"
+
+#: qfg_lab_52/properties.py:189
+msgid "Angular velocity scale"
+msgstr "角速度缩放"
+
+#: qfg_lab_52/properties.py:186
+msgid "Angular velocity vectors"
+msgstr "角速度向量"
+
+#: qfg_lab_52/properties.py:538
+msgid "Angular-cone stiffness"
+msgstr "角锥刚度"
+
+#: qfg_lab_52/properties.py:273
+msgid "Antimony holdout reference"
+msgstr "锑留出参考"
+
+#: qfg_lab_52/properties.py:369
+msgid "Apply on engine initialize"
+msgstr "引擎初始化时应用"
+
+#: qfg_lab_52/properties.py:272
+msgid "Arsenic holdout reference"
+msgstr "砷留出参考"
+
+#: qfg_lab_52/properties.py:272
+msgid "As / AsH₃"
+msgstr "As / AsH₃"
+
+#: qfg_lab_52/properties.py:421
+msgid "Atlas -> QFG length scale"
+msgstr "Atlas -> QFG 长度缩放"
+
+#: qfg_lab_52/panels.py:390
+msgid "Atlas Direct / BSM-SG Geometry"
+msgstr "Atlas Direct / BSM-SG 几何"
+
+#: qfg_lab_52/properties.py:429
+msgid "Atlas V RMS"
+msgstr "Atlas V RMS"
+
+#: qfg_lab_52/properties.py:428
+msgid "Atlas V max"
+msgstr "Atlas V 最大值"
+
+#: qfg_lab_52/properties.py:427
+msgid "Atlas V min"
+msgstr "Atlas V 最小值"
+
+#: qfg_lab_52/properties.py:364
+msgid "Atlas field bridge"
+msgstr "Atlas 场桥接"
+
+#: qfg_lab_52/properties.py:425
+msgid "Atlas field status"
+msgstr "Atlas 场状态"
+
+#: qfg_lab_52/properties.py:652
+msgid "Atlas nucleon"
+msgstr "Atlas 核子"
+
+#: qfg_lab_52/operators.py:2088
+#: qfg_lab_52/properties.py:684
+msgid "Atlas role"
+msgstr "Atlas 角色"
+
+#: qfg_lab_52/properties.py:205
+msgid "Atlas scalar energy"
+msgstr "Atlas 标量能量"
+
+#: qfg_lab_52/properties.py:301
+msgid "Atlas status"
+msgstr "Atlas 状态"
+
+#: qfg_lab_52/properties.py:431
+msgid "Atlas |B| RMS"
+msgstr "Atlas |B| RMS"
+
+#: qfg_lab_52/properties.py:430
+msgid "Atlas |B| max"
+msgstr "Atlas |B| 最大值"
+
+#: qfg_lab_52/properties.py:651
+msgid "Atom for Molecular Creator"
+msgstr "分子创建器用原子"
+
+#: qfg_lab_52/properties.py:669
+msgid "Atomic number"
+msgstr "原子序数"
+
+#: qfg_lab_52/properties.py:716
+msgid "Audit-only rejected assumption"
+msgstr "仅审计的已拒绝假设"
+
+#: qfg_lab_52/properties.py:515
+msgid "Auto-capture B5 constraints"
+msgstr "自动捕获 B5 约束"
+
+#: qfg_lab_52/properties.py:440
+msgid "Auto-capture anchors"
+msgstr "自动捕获锚点"
+
+#: qfg_lab_52/panels.py:405
+msgid "Auto-detect is DERIVED name heuristics; review tags manually"
+msgstr "自动检测是基于名称的 DERIVED 启发式；请手动检查标签"
+
+#: qfg_lab_52/properties.py:577
+msgid "Auto-initialize QFG"
+msgstr "自动初始化 QFG"
+
+#: qfg_lab_52/properties.py:721
+msgid "Auto-tag confidence"
+msgstr "自动标记置信度"
+
+#: qfg_lab_52/properties.py:722
+msgid "Auto-tag evidence"
+msgstr "自动标记证据"
+
+#: qfg_lab_52/properties.py:609
+msgid "Automatically freeze the final B6 prediction while keeping the experimental reference hidden"
+msgstr "自动冻结最终 B6 预测，同时保持实验参考隐藏"
+
+#: qfg_lab_52/properties.py:65
+msgid "A₁"
+msgstr "A₁"
+
+#: qfg_lab_52/properties.py:66
+msgid "A₂"
+msgstr "A₂"
+
+#: qfg_lab_52/panels.py:428
+msgid "B2 interaction / orbital / Bohr proxies"
+msgstr "B2 相互作用 / 轨道 / 玻尔代理量"
+
+#: qfg_lab_52/properties.py:525
+msgid "B2 source star"
+msgstr "B2 源恒星"
+
+#: qfg_lab_52/panels.py:461
+msgid "B3 Atlas → QFG field bridge"
+msgstr "B3 Atlas → QFG 场桥接"
+
+#: qfg_lab_52/properties.py:738
+msgid "B3 anisotropy"
+msgstr "B3 各向异性"
+
+#: qfg_lab_52/properties.py:723
+msgid "B3 field source"
+msgstr "B3 场源"
+
+#: qfg_lab_52/properties.py:426
+msgid "B3 field sources"
+msgstr "B3 场源"
+
+#: qfg_lab_52/properties.py:733
+msgid "B3 source radius"
+msgstr "B3 源半径"
+
+#: qfg_lab_52/properties.py:728
+msgid "B3 source strength"
+msgstr "B3 源强度"
+
+#: qfg_lab_52/panels.py:489
+msgid "B4 QFG → Atlas feedback"
+msgstr "B4 QFG → Atlas 反馈"
+
+#: qfg_lab_52/properties.py:771
+msgid "B4 angular mobility"
+msgstr "B4 角迁移率"
+
+#: qfg_lab_52/properties.py:435
+msgid "B4 bidirectional feedback"
+msgstr "B4 双向反馈"
+
+#: qfg_lab_52/properties.py:499
+msgid "B4 clipped updates"
+msgstr "B4 裁剪更新"
+
+#: qfg_lab_52/properties.py:757
+msgid "B4 feedback source"
+msgstr "B4 反馈源"
+
+#: qfg_lab_52/properties.py:496
+msgid "B4 feedback sources"
+msgstr "B4 反馈源"
+
+#: qfg_lab_52/properties.py:495
+msgid "B4 feedback status"
+msgstr "B4 反馈状态"
+
+#: qfg_lab_52/properties.py:762
+msgid "B4 force coupling"
+msgstr "B4 力耦合"
+
+#: qfg_lab_52/properties.py:459
+msgid "B4 force scale"
+msgstr "B4 力缩放"
+
+#: qfg_lab_52/properties.py:504
+msgid "B4 force work proxy"
+msgstr "B4 力功代理"
+
+#: qfg_lab_52/properties.py:768
+msgid "B4 linear mobility"
+msgstr "B4 线迁移率"
+
+#: qfg_lab_52/properties.py:507
+msgid "B4 max anchor displacement"
+msgstr "B4 最大锚点位移"
+
+#: qfg_lab_52/properties.py:501
+msgid "B4 max |F|"
+msgstr "B4 最大 |F|"
+
+#: qfg_lab_52/properties.py:503
+msgid "B4 max |τ|"
+msgstr "B4 最大 |τ|"
+
+#: qfg_lab_52/properties.py:500
+msgid "B4 mean |F|"
+msgstr "B4 平均 |F|"
+
+#: qfg_lab_52/properties.py:502
+msgid "B4 mean |τ|"
+msgstr "B4 平均 |τ|"
+
+#: qfg_lab_52/properties.py:497
+msgid "B4 moved sources"
+msgstr "B4 已移动源"
+
+#: qfg_lab_52/properties.py:498
+msgid "B4 rotated sources"
+msgstr "B4 已旋转源"
+
+#: qfg_lab_52/properties.py:765
+msgid "B4 torque coupling"
+msgstr "B4 力矩耦合"
+
+#: qfg_lab_52/properties.py:463
+msgid "B4 torque scale"
+msgstr "B4 力矩缩放"
+
+#: qfg_lab_52/properties.py:505
+msgid "B4 torque work proxy"
+msgstr "B4 力矩功代理"
+
+#: qfg_lab_52/properties.py:506
+msgid "B4 total work proxy"
+msgstr "B4 总功代理"
+
+#: qfg_lab_52/properties.py:779
+msgid "B5 constrained"
+msgstr "B5 已约束"
+
+#: qfg_lab_52/operators.py:2506
+msgid "B5 constraint snapshot cleared"
+msgstr "B5 约束快照已清除"
+
+#: qfg_lab_52/properties.py:562
+msgid "B5 constraint status"
+msgstr "B5 约束状态"
+
+#: qfg_lab_52/panels.py:683
+msgid "B5 constraints"
+msgstr "B5 约束"
+
+#: qfg_lab_52/properties.py:551
+msgid "B5 convergence tolerance"
+msgstr "B5 收敛容差"
+
+#: qfg_lab_52/properties.py:605
+msgid "B5 correction tolerance"
+msgstr "B5 修正容差"
+
+#: qfg_lab_52/properties.py:783
+msgid "B5 fixed node"
+msgstr "B5 固定节点"
+
+#: qfg_lab_52/properties.py:510
+msgid "B5 geometry constraints"
+msgstr "B5 几何约束"
+
+#: qfg_lab_52/properties.py:566
+msgid "B5 iterations used"
+msgstr "B5 已用迭代次数"
+
+#: qfg_lab_52/properties.py:569
+msgid "B5 max cone excess"
+msgstr "B5 最大锥体超出量"
+
+#: qfg_lab_52/properties.py:570
+msgid "B5 max correction"
+msgstr "B5 最大修正"
+
+#: qfg_lab_52/properties.py:567
+msgid "B5 max pair error"
+msgstr "B5 最大对误差"
+
+#: qfg_lab_52/properties.py:568
+msgid "B5 max shell error"
+msgstr "B5 最大壳层误差"
+
+#: qfg_lab_52/properties.py:795
+msgid "B5 neighbours"
+msgstr "B5 相邻项"
+
+#: qfg_lab_52/properties.py:563
+msgid "B5 nodes"
+msgstr "B5 节点"
+
+#: qfg_lab_52/properties.py:564
+msgid "B5 pair constraints"
+msgstr "B5 对约束"
+
+#: qfg_lab_52/properties.py:550
+msgid "B5 projection iterations"
+msgstr "B5 投影迭代次数"
+
+#: qfg_lab_52/properties.py:572
+msgid "B5 symmetry angle after"
+msgstr "B5 对称角（后）"
+
+#: qfg_lab_52/properties.py:571
+msgid "B5 symmetry angle before"
+msgstr "B5 对称角（前）"
+
+#: qfg_lab_52/properties.py:799
+msgid "B5 symmetry group"
+msgstr "B5 对称群"
+
+#: qfg_lab_52/properties.py:565
+msgid "B5 symmetry groups"
+msgstr "B5 对称群"
+
+#: qfg_lab_52/panels.py:520
+msgid "B5 topology / angular constraints"
+msgstr "B5 拓扑 / 角度约束"
+
+#: qfg_lab_52/properties.py:620
+msgid "B6 angle slope"
+msgstr "B6 角度斜率"
+
+#: qfg_lab_52/properties.py:619
+msgid "B6 angle window range"
+msgstr "B6 角度窗口范围"
+
+#: qfg_lab_52/panels.py:549
+msgid "B6 blind Group-15 relaxation"
+msgstr "B6 盲组-15 松弛"
+
+#: qfg_lab_52/operators.py:2721
+msgid "B6 blind-run record cleared; Atlas geometry unchanged"
+msgstr "B6 盲运行记录已清除；Atlas 几何未变"
+
+#: qfg_lab_52/properties.py:613
+msgid "B6 blind-run status"
+msgstr "B6 盲运行状态"
+
+#: qfg_lab_52/properties.py:615
+msgid "B6 converged"
+msgstr "B6 已收敛"
+
+#: qfg_lab_52/properties.py:617
+msgid "B6 final angle"
+msgstr "B6 最终角度"
+
+#: qfg_lab_52/properties.py:618
+msgid "B6 final spread"
+msgstr "B6 最终离散度"
+
+#: qfg_lab_52/properties.py:616
+msgid "B6 iterations used"
+msgstr "B6 已用迭代次数"
+
+#: qfg_lab_52/properties.py:590
+msgid "B6 max iterations"
+msgstr "B6 最大迭代次数"
+
+#: qfg_lab_52/properties.py:591
+msgid "B6 min iterations"
+msgstr "B6 最小迭代次数"
+
+#: qfg_lab_52/properties.py:621
+msgid "B6 protocol hash"
+msgstr "B6 协议哈希"
+
+#: qfg_lab_52/operators.py:2548
+msgid "B6 requires B3 field, B4 feedback and B5 constraints to be enabled"
+msgstr "B6 需要启用 B3 场、B4 反馈和 B5 约束"
+
+#: qfg_lab_52/properties.py:614
+msgid "B6 running"
+msgstr "B6 运行中"
+
+#: qfg_lab_52/properties.py:652
+msgid "BSM-SG/Atlas geometry source object"
+msgstr "BSM-SG/Atlas 几何源物体"
+
+#: qfg_lab_52/properties.py:13
+msgid "Backend"
+msgstr "后端"
+
+#: qfg_lab_52/properties.py:196
+msgid "Backend status"
+msgstr "后端状态"
+
+#: qfg_lab_52/operators.py:1856
+msgid "Bake after build"
+msgstr "构建后烘焙"
+
+#: qfg_lab_52/properties.py:168
+msgid "Bake end"
+msgstr "烘焙结束"
+
+#: qfg_lab_52/operators.py:1479
+msgid "Bake end must be >= bake start"
+msgstr "烘焙结束必须 >= 烘焙开始"
+
+#: qfg_lab_52/properties.py:167
+msgid "Bake start"
+msgstr "烘焙开始"
+
+#: qfg_lab_52/operators.py:2887
+msgid "Benzene"
+msgstr "苯"
+
+#: qfg_lab_52/properties.py:234
+msgid "Best HRM point"
+msgstr "最佳 HRM 点"
+
+#: qfg_lab_52/panels.py:577
+msgid "Blind holdout"
+msgstr "盲留出"
+
+#: qfg_lab_52/properties.py:307
+msgid "Blind prediction frozen"
+msgstr "盲预测已冻结"
+
+#: qfg_lab_52/properties.py:133
+msgid "Body angular momentum"
+msgstr "刚体角动量"
+
+#: qfg_lab_52/properties.py:106
+msgid "Body collisions"
+msgstr "刚体碰撞"
+
+#: qfg_lab_52/operators.py:1762
+msgid "Body count"
+msgstr "刚体数量"
+
+#: qfg_lab_52/properties.py:125
+msgid "Body kinetic energy"
+msgstr "刚体动能"
+
+#: qfg_lab_52/properties.py:804
+msgid "Body mass"
+msgstr "刚体质量"
+
+#: qfg_lab_52/properties.py:132
+msgid "Body momentum"
+msgstr "刚体动量"
+
+#: qfg_lab_52/properties.py:119
+msgid "Body step ms"
+msgstr "刚体步长 ms"
+
+#: qfg_lab_52/properties.py:359
+msgid "Bohr envelope status"
+msgstr "玻尔包络状态"
+
+#: qfg_lab_52/properties.py:631
+msgid "Bond stiffness"
+msgstr "键刚度"
+
+#: qfg_lab_52/properties.py:630
+msgid "Bond tolerance"
+msgstr "键容差"
+
+#: qfg_lab_52/operators.py:2093
+#: qfg_lab_52/properties.py:689
+msgid "Bound"
+msgstr "已成键"
+
+#: qfg_lab_52/properties.py:689
+msgid "Bound/excluded from principal valence"
+msgstr "已成键/排除于主价"
+
+#: qfg_lab_52/properties.py:650
+msgid "Boundary"
+msgstr "边界"
+
+#: qfg_lab_52/properties.py:668
+msgid "Boundary damping"
+msgstr "边界阻尼"
+
+#: qfg_lab_52/properties.py:237
+msgid "Boundary factor"
+msgstr "边界系数"
+
+#: qfg_lab_52/properties.py:667
+msgid "Boundary potential"
+msgstr "边界势"
+
+#: qfg_lab_52/properties.py:666
+msgid "Boundary shape"
+msgstr "边界形状"
+
+#: qfg_lab_52/properties.py:361
+msgid "Bounding radius"
+msgstr "包围半径"
+
+#: qfg_lab_52/properties.py:666
+msgid "Box"
+msgstr "盒"
+
+#: qfg_lab_52/properties.py:809
+msgid "Box (OBB)"
+msgstr "盒（OBB）"
+
+#: qfg_lab_52/properties.py:814
+msgid "Box half extents"
+msgstr "盒半长"
+
+#: qfg_lab_52/properties.py:16
+msgid "Bundled portable CPU backend"
+msgstr "内置便携 CPU 后端"
+
+#: qfg_lab_52/panels.py:545
+msgid "C3 groups preserve azimuth while collective polar tilt remains free"
+msgstr "C3 群保持方位角，而集体极向倾斜保持自由"
+
+#: qfg_lab_52/properties.py:601
+msgid "C3 spread tolerance"
+msgstr "C3 离散度容差"
+
+#: qfg_lab_52/properties.py:306
+msgid "C3v h/r"
+msgstr "C3v h/r"
+
+#: qfg_lab_52/properties.py:714
+msgid "CALIBRATED"
+msgstr "已校准"
+
+#: qfg_lab_52/properties.py:713
+msgid "CONDITIONAL"
+msgstr "有条件"
+
+#: qfg_lab_52/panels.py:517
+msgid "CONDITIONAL bounded relaxation; not absolute BSM-SG force normalization"
+msgstr "有条件有界松弛；并非绝对的 BSM-SG 力归一化"
+
+#: qfg_lab_52/panels.py:574
+msgid "CONDITIONAL dynamics; convergence detector never reads experiment"
+msgstr "有条件动力学；收敛检测器从不读取实验"
+
+#: qfg_lab_52/panels.py:546
+msgid "CONDITIONAL projection law; recapture after changing source topology"
+msgstr "有条件投影定律；更改源拓扑后重新捕获"
+
+#: qfg_lab_52/panels.py:486
+msgid "CONDITIONAL: geometry feeds dynamics; absolute energy scale remains open"
+msgstr "有条件：几何驱动动力学；绝对能量尺度仍待定"
+
+#: qfg_lab_52/properties.py:524
+msgid "Capture Atlas parent/child relations as DERIVED distance constraints"
+msgstr "将 Atlas 父子关系捕获为派生距离约束"
+
+#: qfg_lab_52/properties.py:440
+msgid "Capture current Atlas positions/orientations as B4 anchors when feedback first runs"
+msgstr "反馈首次运行时，将当前 Atlas 位置/朝向捕获为 B4 锚点"
+
+#: qfg_lab_52/properties.py:515
+msgid "Capture the current reviewed Atlas topology the first time B5 is required"
+msgstr "首次需要 B5 时，捕获当前已审阅的 Atlas 拓扑"
+
+#: qfg_lab_52/properties.py:585
+msgid "Capture the current reviewed B5 admissible geometry before the blind run"
+msgstr "盲运行前捕获当前已审阅的 B5 可容许几何体"
+
+#: qfg_lab_52/properties.py:240
+msgid "Cavity Q"
+msgstr "腔体 Q"
+
+#: qfg_lab_52/panels.py:346
+msgid "Cavity and MEMS"
+msgstr "腔体与 MEMS"
+
+#: qfg_lab_52/properties.py:255
+msgid "Cavity power (relative)"
+msgstr "腔体功率（相对）"
+
+#: qfg_lab_52/panels.py:353
+msgid "Cavity shift: QFG vs thermal"
+msgstr "腔体频移：QFG 与热"
+
+#: qfg_lab_52/properties.py:282
+#: qfg_lab_52/properties.py:287
+msgid "Center object"
+msgstr "居中物体"
+
+#: qfg_lab_52/properties.py:698
+msgid "Center → object"
+msgstr "中心 → 物体"
+
+#: qfg_lab_52/properties.py:353
+msgid "Centers only"
+msgstr "仅中心"
+
+#: qfg_lab_52/operators.py:1689
+msgid "Central mode and cavity boundary"
+msgstr "中心模式与腔体边界"
+
+#: qfg_lab_52/properties.py:281
+msgid "Centroid of Atlas nucleons tagged CORE; extraction stops if no core is tagged"
+msgstr "标记为 CORE 的 Atlas 核子的质心；若未标记核心则停止提取"
+
+#: qfg_lab_52/properties.py:670
+msgid "Charge"
+msgstr "电荷"
+
+#: qfg_lab_52/operators.py:2539
+msgid "Choose N, P, As or Sb for B6 Group-15 blind relaxation"
+msgstr "为 B6 第 15 族盲弛豫选择 N、P、As 或 Sb"
+
+#: qfg_lab_52/operators.py:2737
+msgid "Choose N, P, As or Sb for the built-in blind holdout workflow"
+msgstr "为内置盲留出工作流选择 N、P、As 或 Sb"
+
+#: qfg_lab_52/properties.py:173
+msgid "Clamp timeline"
+msgstr "钳制时间线"
+
+#: qfg_lab_52/properties.py:625
+msgid "Coherence overlap"
+msgstr "相干重叠"
+
+#: qfg_lab_52/properties.py:141
+msgid "Collision"
+msgstr "碰撞"
+
+#: qfg_lab_52/properties.py:59
+msgid "Collision heating"
+msgstr "碰撞加热"
+
+#: qfg_lab_52/properties.py:813
+msgid "Collision radius"
+msgstr "碰撞半径"
+
+#: qfg_lab_52/properties.py:805
+msgid "Collision shape"
+msgstr "碰撞形状"
+
+#: qfg_lab_52/operators.py:1690
+msgid "Collision with thermal feedback"
+msgstr "带热反馈的碰撞"
+
+#: qfg_lab_52/properties.py:795
+msgid "Comma-separated Atlas object names for explicit/manual captured connectivity"
+msgstr "用逗号分隔的 Atlas 物体名称，用于显式/手动捕获的连接关系"
+
+#: qfg_lab_52/properties.py:332
+msgid "Conditional inverse-cube SG-like geometry proxy; scene-unit dependent"
+msgstr "条件类 SG 反立方几何代理；取决于场景单位"
+
+#: qfg_lab_52/properties.py:530
+msgid "Conditional iterative projection strength for captured pair distances"
+msgstr "捕获成对距离的条件迭代投影强度"
+
+#: qfg_lab_52/properties.py:330
+msgid "Conditional orbital/direction overlap proxy"
+msgstr "条件轨道/方向重叠代理"
+
+#: qfg_lab_52/properties.py:333
+msgid "Conditional overlap × inverse-cube proxy"
+msgstr "条件重叠 × 反立方代理"
+
+#: qfg_lab_52/properties.py:534
+msgid "Conditional projection strength for captured radial shell distance"
+msgstr "捕获径向壳距离的条件投影强度"
+
+#: qfg_lab_52/properties.py:401
+msgid "Conditional softened inverse-cube source; scene-unit dependent"
+msgstr "条件软化反立方源；取决于场景单位"
+
+#: qfg_lab_52/properties.py:331
+msgid "Conditional spin-even overlap proxy"
+msgstr "条件偶自旋重叠代理"
+
+#: qfg_lab_52/properties.py:320
+msgid "Connect tagged VALENCE to tagged EQUATORIAL objects only"
+msgstr "仅将标记为 VALENCE 的物体连接到标记为 EQUATORIAL 的物体"
+
+#: qfg_lab_52/properties.py:520
+msgid "Connectivity capture"
+msgstr "连接关系捕获"
+
+#: qfg_lab_52/properties.py:115
+msgid "Contact event threshold"
+msgstr "接触事件阈值"
+
+#: qfg_lab_52/properties.py:191
+msgid "Contact impulse scale"
+msgstr "接触冲量缩放"
+
+#: qfg_lab_52/properties.py:190
+msgid "Contact normal scale"
+msgstr "接触法线缩放"
+
+#: qfg_lab_52/properties.py:183
+msgid "Contact points / normals / impulses"
+msgstr "接触点 / 法线 / 冲量"
+
+#: qfg_lab_52/properties.py:123
+msgid "Contacts"
+msgstr "接触"
+
+#: qfg_lab_52/operators.py:2091
+msgid "Contributes to nuclear center"
+msgstr "贡献于核中心"
+
+#: qfg_lab_52/properties.py:687
+msgid "Contributes to nuclear-center estimate"
+msgstr "贡献于核中心估计"
+
+#: qfg_lab_52/properties.py:592
+msgid "Convergence window"
+msgstr "收敛窗口"
+
+#: qfg_lab_52/operators.py:2091
+#: qfg_lab_52/properties.py:687
+msgid "Core"
+msgstr "核心"
+
+#: qfg_lab_52/properties.py:624
+msgid "Coulomb proxy"
+msgstr "库仑代理"
+
+#: qfg_lab_52/properties.py:96
+msgid "Couple reduced dynamic bodies to the QFG field"
+msgstr "将简化动态体耦合到 QFG 场"
+
+#: qfg_lab_52/properties.py:671
+msgid "Covalent radius"
+msgstr "共价半径"
+
+#: qfg_lab_52/properties.py:60
+msgid "Critical temperature"
+msgstr "临界温度"
+
+#: qfg_lab_52/panels.py:270
+msgid "Current rigid-body state"
+msgstr "当前刚体状态"
+
+#: qfg_lab_52/properties.py:274
+msgid "Custom"
+msgstr "自定义"
+
+#: qfg_lab_52/properties.py:712
+msgid "DERIVED"
+msgstr "派生"
+
+#: qfg_lab_52/panels.py:418
+msgid "DERIVED geometry"
+msgstr "派生几何体"
+
+#: qfg_lab_52/properties.py:47
+msgid "Damping"
+msgstr "阻尼"
+
+#: qfg_lab_52/properties.py:453
+msgid "Density gradient"
+msgstr "密度梯度"
+
+#: qfg_lab_52/properties.py:163
+msgid "Density threshold"
+msgstr "密度阈值"
+
+#: qfg_lab_52/properties.py:252
+msgid "Dephasing"
+msgstr "退相位"
+
+#: qfg_lab_52/properties.py:654
+msgid "Detector marker"
+msgstr "探测器标记"
+
+#: qfg_lab_52/properties.py:107
+msgid "Deterministic replay"
+msgstr "确定性回放"
+
+#: qfg_lab_52/properties.py:712
+msgid "Deterministic result from source geometry"
+msgstr "由源几何体得到的确定性结果"
+
+#: qfg_lab_52/properties.py:251
+msgid "Detuning"
+msgstr "失谐"
+
+#: qfg_lab_52/properties.py:213
+msgid "Detuning max"
+msgstr "最大失谐"
+
+#: qfg_lab_52/properties.py:212
+msgid "Detuning min"
+msgstr "最小失谐"
+
+#: qfg_lab_52/properties.py:293
+#: qfg_lab_52/properties.py:677
+msgid "Deuteron"
+msgstr "氘核"
+
+#: qfg_lab_52/properties.py:322
+msgid "Diagnostic complete graph of all Atlas objects"
+msgstr "所有 Atlas 物体的诊断完全图"
+
+#: qfg_lab_52/properties.py:384
+msgid "Diagnostic mode; use every enabled Atlas object except REJECTED"
+msgstr "诊断模式；使用除 REJECTED 外的所有已启用 Atlas 物体"
+
+#: qfg_lab_52/properties.py:321
+msgid "Diagnostic pair graph between tagged valence objects"
+msgstr "已标记价态物体之间的诊断配对图"
+
+#: qfg_lab_52/properties.py:182
+msgid "Diagnostics HUD"
+msgstr "诊断 HUD"
+
+#: qfg_lab_52/panels.py:280
+msgid "Diagnostics and Export"
+msgstr "诊断与导出"
+
+#: qfg_lab_52/properties.py:463
+msgid "Dimensionless alignment-torque normalization; CONDITIONAL"
+msgstr "无量纲对齐扭矩归一化；CONDITIONAL"
+
+#: qfg_lab_52/properties.py:728
+msgid "Dimensionless conditional source weight; not an absolute BSM-SG energy"
+msgstr "无量纲条件源权重；不是绝对 BSM-SG 能量"
+
+#: qfg_lab_52/properties.py:738
+msgid "Dimensionless director/orbital anisotropy amplitude; CONDITIONAL"
+msgstr "无量纲指向矢/轨道各向异性振幅；CONDITIONAL"
+
+#: qfg_lab_52/properties.py:459
+msgid "Dimensionless force-proxy normalization; CONDITIONAL"
+msgstr "无量纲力代理归一化；CONDITIONAL"
+
+#: qfg_lab_52/properties.py:409
+msgid "Dipole proxy"
+msgstr "偶极代理"
+
+#: qfg_lab_52/properties.py:408
+msgid "Director"
+msgstr "指向矢"
+
+#: qfg_lab_52/properties.py:174
+msgid "Do not change the displayed cached state; report that the frame is outside the cache"
+msgstr "不要更改显示的缓存状态；报告该帧在缓存之外"
+
+#: qfg_lab_52/properties.py:37
+msgid "Domain length"
+msgstr "域长度"
+
+#: qfg_lab_52/properties.py:215
+msgid "Drive"
+msgstr "驱动"
+
+#: qfg_lab_52/properties.py:69
+msgid "Drive profile"
+msgstr "驱动轮廓"
+
+#: qfg_lab_52/properties.py:78
+msgid "Drive width/radius"
+msgstr "驱动宽度/半径"
+
+#: qfg_lab_52/properties.py:147
+msgid "Driven boundary showcase"
+msgstr "受驱边界展示"
+
+#: qfg_lab_52/operators.py:1692
+msgid "Dual drive and dielectric region"
+msgstr "双驱动与介电区域"
+
+#: qfg_lab_52/properties.py:144
+msgid "Dual-drive cavity showcase"
+msgstr "双驱动腔体展示"
+
+#: qfg_lab_52/properties.py:218
+msgid "Duffing K"
+msgstr "Duffing K"
+
+#: qfg_lab_52/properties.py:248
+msgid "Duration"
+msgstr "持续时间"
+
+#: qfg_lab_52/properties.py:122
+msgid "Dynamic bodies"
+msgstr "动态刚体"
+
+#: qfg_lab_52/panels.py:95
+msgid "Dynamics Runtime"
+msgstr "动力学运行时"
+
+#: qfg_lab_52/properties.py:101
+msgid "Dynamics substeps"
+msgstr "动力学子步"
+
+#: qfg_lab_52/properties.py:715
+msgid "EXPERIMENTAL"
+msgstr "实验性"
+
+#: qfg_lab_52/properties.py:87
+msgid "Effective G"
+msgstr "有效 G"
+
+#: qfg_lab_52/operators.py:2469
+msgid "Enable B4 bidirectional feedback first"
+msgstr "请先启用 B4 双向反馈"
+
+#: qfg_lab_52/operators.py:2518
+msgid "Enable B5 geometry constraints first"
+msgstr "请先启用 B5 几何约束"
+
+#: qfg_lab_52/panels.py:103
+msgid "Enable for field-coupled bodies"
+msgstr "为场耦合刚体启用"
+
+#: qfg_lab_52/properties.py:201
+msgid "Energy proxy"
+msgstr "能量代理"
+
+#: qfg_lab_52/properties.py:358
+msgid "Envelope padding"
+msgstr "包络填充"
+
+#: qfg_lab_52/properties.py:348
+msgid "Envelope source radius"
+msgstr "包络源半径"
+
+#: qfg_lab_52/properties.py:360
+msgid "Envelope volume"
+msgstr "包络体积"
+
+#: qfg_lab_52/operators.py:2094
+#: qfg_lab_52/properties.py:690
+msgid "Equatorial"
+msgstr "赤道"
+
+#: qfg_lab_52/operators.py:2094
+#: qfg_lab_52/properties.py:690
+msgid "Equatorial source structure"
+msgstr "赤道源结构"
+
+#: qfg_lab_52/properties.py:124
+msgid "Events"
+msgstr "事件"
+
+#: qfg_lab_52/operators.py:2093
+msgid "Excluded from principal valence"
+msgstr "从主价态中排除"
+
+#: qfg_lab_52/operators.py:2542
+msgid "Experimental holdout is already revealed. Reset Atlas Holdout before a strict B6 blind run"
+msgstr "实验性保留集已揭示。严格 B6 盲测前请重置 Atlas Holdout"
+
+#: qfg_lab_52/panels.py:580
+msgid "Experimental reference remains hidden"
+msgstr "实验参考仍隐藏"
+
+#: qfg_lab_52/properties.py:711
+msgid "Explicit BSM-SG/Atlas source geometry"
+msgstr "显式 BSM-SG/Atlas 源几何"
+
+#: qfg_lab_52/properties.py:54
+msgid "External B proxy"
+msgstr "外部 B 代理"
+
+#: qfg_lab_52/properties.py:219
+msgid "External coupling"
+msgstr "外部耦合"
+
+#: qfg_lab_52/properties.py:715
+msgid "External measurement/reference"
+msgstr "外部测量/参考"
+
+#: qfg_lab_52/properties.py:823
+msgid "External torque"
+msgstr "外部扭矩"
+
+#: qfg_lab_52/operators.py:2734
+msgid "Extract Atlas geometry before freezing"
+msgstr "冻结前提取 Atlas 几何"
+
+#: qfg_lab_52/properties.py:29
+msgid "Fast viewport preview"
+msgstr "快速视图预览"
+
+#: qfg_lab_52/properties.py:19
+msgid "Field"
+msgstr "场"
+
+#: qfg_lab_52/panels.py:143
+msgid "Field and Topology"
+msgstr "场与拓扑"
+
+#: qfg_lab_52/properties.py:820
+msgid "Field coupling"
+msgstr "场耦合"
+
+#: qfg_lab_52/properties.py:114
+msgid "Field event threshold"
+msgstr "场事件阈值"
+
+#: qfg_lab_52/properties.py:397
+msgid "Field kernel"
+msgstr "场核"
+
+#: qfg_lab_52/properties.py:120
+msgid "Field query ms"
+msgstr "场查询 ms"
+
+#: qfg_lab_52/properties.py:659
+msgid "Field radius"
+msgstr "场半径"
+
+#: qfg_lab_52/properties.py:388
+msgid "Field roles"
+msgstr "场角色"
+
+#: qfg_lab_52/properties.py:424
+msgid "Field safety clip"
+msgstr "场安全裁剪"
+
+#: qfg_lab_52/properties.py:413
+msgid "Field softening"
+msgstr "场软化"
+
+#: qfg_lab_52/properties.py:379
+msgid "Field source scope"
+msgstr "场源范围"
+
+#: qfg_lab_52/properties.py:118
+msgid "Field step ms"
+msgstr "场步进 ms"
+
+#: qfg_lab_52/properties.py:822
+msgid "Field torque coupling"
+msgstr "场扭矩耦合"
+
+#: qfg_lab_52/properties.py:141
+msgid "Field-coupled collision showcase"
+msgstr "场耦合碰撞展示"
+
+#: qfg_lab_52/__init__.py:4
+msgid "Field-driven dynamics, BSM-SG Atlas geometry, B2 geometry, B3 Atlas-to-field coupling, B4 bounded bidirectional feedback, B5 topology-aware constrained relaxation and B6 blind Group-15 experiment harness, topology, HRM/RF, thermal, Yb and molecular research prototypes"
+msgstr "场驱动动力学、BSM-SG Atlas 几何、B2 几何、B3 Atlas 到场耦合、B4 有界双向反馈、B5 拓扑感知约束松弛与 B6 盲测 Group-15 实验框架、拓扑、HRM/RF、热学、Yb 与分子研究原型"
+
+#: qfg_lab_52/panels.py:17
+msgid "Field-driven multi-physics runtime"
+msgstr "场驱动多物理运行时"
+
+#: qfg_lab_52/properties.py:155
+msgid "Final"
+msgstr "最终"
+
+#: qfg_lab_52/properties.py:352
+msgid "Fixed radius"
+msgstr "固定半径"
+
+#: qfg_lab_52/properties.py:357
+msgid "Fixed source radius"
+msgstr "固定源半径"
+
+#: qfg_lab_52/properties.py:105
+msgid "Floor height"
+msgstr "底面高度"
+
+#: qfg_lab_52/properties.py:187
+msgid "Force scale"
+msgstr "力缩放"
+
+#: qfg_lab_52/operators.py:2092
+#: qfg_lab_52/properties.py:688
+msgid "Free valence"
+msgstr "自由价"
+
+#: qfg_lab_52/properties.py:688
+msgid "Free valence direction used by Atlas Direct"
+msgstr "Atlas Direct 使用的自由价方向"
+
+#: qfg_lab_52/operators.py:2769
+msgid "Freeze a blind prediction first"
+msgstr "先冻结盲预测"
+
+#: qfg_lab_52/properties.py:609
+msgid "Freeze prediction on convergence"
+msgstr "收敛时冻结预测"
+
+#: qfg_lab_52/properties.py:827
+msgid "Friction"
+msgstr "摩擦"
+
+#: qfg_lab_52/properties.py:308
+msgid "Frozen angle"
+msgstr "冻结角度"
+
+#: qfg_lab_52/properties.py:310
+msgid "Frozen element"
+msgstr "冻结元素"
+
+#: qfg_lab_52/properties.py:309
+msgid "Frozen σ"
+msgstr "冻结 σ"
+
+#: qfg_lab_52/operators.py:1691
+#: qfg_lab_52/properties.py:146
+msgid "Gauge + gravity"
+msgstr "规范场 + 重力"
+
+#: qfg_lab_52/properties.py:85
+msgid "Gauge backreaction"
+msgstr "规范场反作用"
+
+#: qfg_lab_52/properties.py:82
+msgid "Gauge coupling q"
+msgstr "规范耦合 q"
+
+#: qfg_lab_52/properties.py:83
+msgid "Gauge damping"
+msgstr "规范阻尼"
+
+#: qfg_lab_52/properties.py:203
+msgid "Gauge energy"
+msgstr "规范能量"
+
+#: qfg_lab_52/properties.py:84
+msgid "Gauge wave speed"
+msgstr "规范波速"
+
+#: qfg_lab_52/panels.py:194
+msgid "Gauge, Gravity and Noise"
+msgstr "规范场、重力与噪声"
+
+#: qfg_lab_52/properties.py:73
+#: qfg_lab_52/properties.py:400
+msgid "Gaussian"
+msgstr "高斯"
+
+#: qfg_lab_52/properties.py:646
+msgid "Gaussian node"
+msgstr "高斯节点"
+
+#: qfg_lab_52/properties.py:245
+msgid "Geometry-lock scale"
+msgstr "几何锁定缩放"
+
+#: qfg_lab_52/properties.py:111
+msgid "Global field force"
+msgstr "全局场力"
+
+#: qfg_lab_52/properties.py:113
+msgid "Global field torque"
+msgstr "全局场力矩"
+
+#: qfg_lab_52/properties.py:112
+msgid "Global thermal force"
+msgstr "全局热力"
+
+#: qfg_lab_52/panels.py:335
+msgid "Glow-plasma boundary proxy"
+msgstr "辉光等离子体边界代理"
+
+#: qfg_lab_52/properties.py:339
+msgid "Graph edges"
+msgstr "图边"
+
+#: qfg_lab_52/properties.py:337
+msgid "Graph softening"
+msgstr "图软化"
+
+#: qfg_lab_52/properties.py:88
+msgid "Gravity backreaction"
+msgstr "重力反作用"
+
+#: qfg_lab_52/properties.py:204
+msgid "Gravity energy"
+msgstr "重力能量"
+
+#: qfg_lab_52/properties.py:26
+msgid "Grid"
+msgstr "网格"
+
+#: qfg_lab_52/properties.py:267
+msgid "Group-15 holdout"
+msgstr "Group-15 留出集"
+
+#: qfg_lab_52/operators.py:1689
+#: qfg_lab_52/properties.py:144
+msgid "HRM cavity"
+msgstr "HRM 腔体"
+
+#: qfg_lab_52/properties.py:64
+msgid "HRM dual drive"
+msgstr "HRM 双驱动"
+
+#: qfg_lab_52/panels.py:320
+msgid "HRM scan"
+msgstr "HRM 扫描"
+
+#: qfg_lab_52/properties.py:192
+msgid "HUD font size"
+msgstr "HUD 字体大小"
+
+#: qfg_lab_52/properties.py:58
+msgid "Heat conduction"
+msgstr "热传导"
+
+#: qfg_lab_52/properties.py:32
+msgid "Heavy inside Blender"
+msgstr "Blender 内高负载"
+
+#: qfg_lab_52/properties.py:295
+#: qfg_lab_52/properties.py:679
+msgid "Helium"
+msgstr "氦"
+
+#: qfg_lab_52/properties.py:295
+#: qfg_lab_52/properties.py:679
+msgid "Helium structural unit"
+msgstr "氦结构单元"
+
+#: qfg_lab_52/properties.py:159
+msgid "Hero bodies"
+msgstr "主物体"
+
+#: qfg_lab_52/properties.py:160
+msgid "Hero still frame"
+msgstr "主静帧"
+
+#: qfg_lab_52/properties.py:172
+msgid "Hold nearest baked frame"
+msgstr "保持最近的烘焙帧"
+
+#: qfg_lab_52/operators.py:2740
+msgid "Holdout element changed after extraction; extract geometry again before freezing"
+msgstr "提取后留出元素已更改；冻结前请重新提取几何"
+
+#: qfg_lab_52/properties.py:142
+msgid "Hopf"
+msgstr "Hopf"
+
+#: qfg_lab_52/properties.py:207
+msgid "Hopf proxy"
+msgstr "Hopf 代理"
+
+#: qfg_lab_52/properties.py:647
+msgid "Hopf ring ansatz"
+msgstr "Hopf 环拟设"
+
+#: qfg_lab_52/operators.py:1687
+msgid "Hopf-ring prototype"
+msgstr "Hopf 环原型"
+
+#: qfg_lab_52/properties.py:455
+msgid "Hybrid"
+msgstr "混合"
+
+#: qfg_lab_52/properties.py:479
+msgid "Hybrid spin mix"
+msgstr "混合自旋配比"
+
+#: qfg_lab_52/operators.py:2887
+msgid "H₂"
+msgstr "H₂"
+
+#: qfg_lab_52/operators.py:2887
+msgid "H₂O"
+msgstr "H₂O"
+
+#: qfg_lab_52/properties.py:353
+msgid "Ignore object radii and envelope object origins only"
+msgstr "忽略物体半径，仅以物体原点作为包络"
+
+#: qfg_lab_52/properties.py:479
+msgid "In HYBRID mode, weight of the spin-texture direction"
+msgstr "在 HYBRID 模式下，自旋纹理方向的权重"
+
+#: qfg_lab_52/properties.py:779
+msgid "Include this Atlas object in the B5 constraint snapshot/projection"
+msgstr "将此 Atlas 物体纳入 B5 约束快照/投影"
+
+#: qfg_lab_52/properties.py:723
+msgid "Include this Atlas object in the conditional Atlas-to-QFG field bridge"
+msgstr "将此 Atlas 物体纳入条件式 Atlas 到 QFG 场桥接"
+
+#: qfg_lab_52/operators.py:2466
+msgid "Initialize the QFG engine first"
+msgstr "请先初始化 QFG 引擎"
+
+#: qfg_lab_52/operators.py:1372
+#: qfg_lab_52/operators.py:1465
+msgid "Initialize the engine first"
+msgstr "先初始化引擎"
+
+#: qfg_lab_52/properties.py:660
+msgid "Intensity"
+msgstr "强度"
+
+#: qfg_lab_52/properties.py:338
+msgid "Interaction graph status"
+msgstr "交互图状态"
+
+#: qfg_lab_52/properties.py:317
+msgid "Interaction topology"
+msgstr "交互拓扑"
+
+#: qfg_lab_52/properties.py:238
+msgid "Ionization gain"
+msgstr "电离增益"
+
+#: qfg_lab_52/panels.py:458
+msgid "J and Bohr envelope are proxies unless independently normalized"
+msgstr "J 和 Bohr 包络为代理值，除非单独归一化"
+
+#: qfg_lab_52/properties.py:326
+msgid "J proxy kernel"
+msgstr "J 代理核"
+
+#: qfg_lab_52/properties.py:172
+msgid "Keep the requested Blender frame but display the nearest cached state"
+msgstr "保持请求的 Blender 帧，但显示最近的缓存状态"
+
+#: qfg_lab_52/properties.py:783
+msgid "Keep this node fixed while allowing connected constrained nodes to move"
+msgstr "保持此节点固定，同时允许连接的受约束节点移动"
+
+#: qfg_lab_52/properties.py:828
+msgid "Kinematic"
+msgstr "运动学"
+
+#: qfg_lab_52/properties.py:824
+msgid "Linear drag"
+msgstr "线性阻力"
+
+#: qfg_lab_52/properties.py:126
+msgid "Linear kinetic energy"
+msgstr "线性动能"
+
+#: qfg_lab_52/properties.py:216
+msgid "Linear loss"
+msgstr "线性损耗"
+
+#: qfg_lab_52/panels.py:697
+msgid "Linear velocity"
+msgstr "线性速度"
+
+#: qfg_lab_52/properties.py:408
+msgid "Local field follows the Atlas source direction"
+msgstr "局部场跟随 Atlas 源方向"
+
+#: qfg_lab_52/properties.py:73
+msgid "Localized central drive"
+msgstr "局部中心驱动"
+
+#: qfg_lab_52/properties.py:646
+msgid "Localized complex field node"
+msgstr "局部复场节点"
+
+#: qfg_lab_52/properties.py:400
+msgid "Localized finite source; numerically robust"
+msgstr "局部有限源；数值稳健"
+
+#: qfg_lab_52/properties.py:774
+msgid "Lock B4 position"
+msgstr "锁定 B4 位置"
+
+#: qfg_lab_52/properties.py:775
+msgid "Lock B4 rotation"
+msgstr "锁定 B4 旋转"
+
+#: qfg_lab_52/properties.py:244
+msgid "MEMS base Q"
+msgstr "MEMS 基础 Q"
+
+#: qfg_lab_52/panels.py:360
+msgid "MEMS geometry/Q proxy"
+msgstr "MEMS 几何/Q 代理"
+
+#: qfg_lab_52/properties.py:523
+msgid "Manual neighbours"
+msgstr "手动邻居"
+
+#: qfg_lab_52/properties.py:554
+msgid "Max B5 correction / iter"
+msgstr "最大 B5 校正/迭代"
+
+#: qfg_lab_52/properties.py:491
+msgid "Max anchor displacement"
+msgstr "最大锚点位移"
+
+#: qfg_lab_52/properties.py:305
+msgid "Max angle"
+msgstr "最大角度"
+
+#: qfg_lab_52/properties.py:198
+msgid "Max density"
+msgstr "最大密度"
+
+#: qfg_lab_52/properties.py:487
+msgid "Max rotation / cycle"
+msgstr "最大旋转/周期"
+
+#: qfg_lab_52/properties.py:202
+msgid "Max temperature"
+msgstr "最高温度"
+
+#: qfg_lab_52/properties.py:483
+msgid "Max translation / cycle"
+msgstr "最大平移/周期"
+
+#: qfg_lab_52/properties.py:597
+msgid "Maximum absolute recent linear drift of the predicted angle"
+msgstr "预测角度的近期最大绝对线性漂移"
+
+#: qfg_lab_52/properties.py:791
+msgid "Maximum angular departure in degrees from the captured radial direction; 0 disables the cone"
+msgstr "相对捕获径向方向的最大角度偏差（度）；0 禁用锥体"
+
+#: qfg_lab_52/properties.py:110
+msgid "Maximum angular speed"
+msgstr "最大角速度"
+
+#: qfg_lab_52/properties.py:487
+msgid "Maximum axis-angle rotation in degrees per B4 update"
+msgstr "每次 B4 更新的最大轴角旋转（度）"
+
+#: qfg_lab_52/properties.py:129
+msgid "Maximum body force"
+msgstr "最大体力"
+
+#: qfg_lab_52/properties.py:109
+msgid "Maximum body speed"
+msgstr "最大物体速度"
+
+#: qfg_lab_52/properties.py:131
+msgid "Maximum body torque"
+msgstr "最大物体力矩"
+
+#: qfg_lab_52/properties.py:601
+msgid "Maximum pair-angle standard deviation permitted in the convergence window"
+msgstr "收敛窗口内允许的最大对角度标准差"
+
+#: qfg_lab_52/properties.py:164
+msgid "Maximum points"
+msgstr "最大点数"
+
+#: qfg_lab_52/properties.py:593
+msgid "Maximum recent peak-to-peak mean valence-angle variation required for convergence"
+msgstr "收敛所需的最大近期峰峰值平均价角变化"
+
+#: qfg_lab_52/properties.py:491
+msgid "Maximum scene-space distance from the captured anchor; 0 disables the radius limit"
+msgstr "距捕获锚点的最大场景空间距离；0 禁用半径限制"
+
+#: qfg_lab_52/properties.py:128
+msgid "Mean body force"
+msgstr "平均体力"
+
+#: qfg_lab_52/properties.py:130
+msgid "Mean body torque"
+msgstr "平均物体力矩"
+
+#: qfg_lab_52/properties.py:345
+msgid "Mean plane dihedral"
+msgstr "平均平面二面角"
+
+#: qfg_lab_52/properties.py:302
+msgid "Mean valence angle"
+msgstr "平均价角"
+
+#: qfg_lab_52/properties.py:341
+msgid "Mean |J proxy|"
+msgstr "平均 |J 代理|"
+
+#: qfg_lab_52/properties.py:654
+msgid "Measurement point/region marker"
+msgstr "测量点/区域标记"
+
+#: qfg_lab_52/properties.py:304
+msgid "Min angle"
+msgstr "最小角度"
+
+#: qfg_lab_52/properties.py:200
+msgid "Mode variance"
+msgstr "模态方差"
+
+#: qfg_lab_52/properties.py:713
+msgid "Model-dependent bridge"
+msgstr "依赖模型的桥接"
+
+#: qfg_lab_52/properties.py:31
+msgid "Moderate cost"
+msgstr "中等开销"
+
+#: qfg_lab_52/panels.py:600
+msgid "Molecular Creator"
+msgstr "分子创建器"
+
+#: qfg_lab_52/properties.py:651
+msgid "Molecular atom"
+msgstr "分子原子"
+
+#: qfg_lab_52/properties.py:638
+msgid "Molecular result"
+msgstr "分子结果"
+
+#: qfg_lab_52/operators.py:2885
+msgid "Molecule"
+msgstr "分子"
+
+#: qfg_lab_52/properties.py:206
+msgid "Momentum"
+msgstr "动量"
+
+#: qfg_lab_52/properties.py:173
+msgid "Move the Blender timeline to the nearest cached frame"
+msgstr "将 Blender 时间轴移动到最近的缓存帧"
+
+#: qfg_lab_52/properties.py:270
+msgid "N / NH₃"
+msgstr "N / NH₃"
+
+#: qfg_lab_52/panels.py:38
+msgid "Native Hero Showcase"
+msgstr "原生 Hero 展示"
+
+#: qfg_lab_52/properties.py:292
+#: qfg_lab_52/properties.py:676
+msgid "Neutron"
+msgstr "中子"
+
+#: qfg_lab_52/properties.py:292
+msgid "Neutron source object"
+msgstr "中子源物体"
+
+#: qfg_lab_52/properties.py:270
+msgid "Nitrogen holdout reference"
+msgstr "氮保持参考"
+
+#: qfg_lab_52/operators.py:2826
+msgid "No Atlas result to export"
+msgstr "没有可导出的 Atlas 结果"
+
+#: qfg_lab_52/properties.py:274
+msgid "No built-in experimental reference"
+msgstr "没有内置实验参考"
+
+#: qfg_lab_52/operators.py:2915
+#: qfg_lab_52/operators.py:2937
+msgid "No molecular atoms in the scene"
+msgstr "场景中没有分子原子"
+
+#: qfg_lab_52/properties.py:526
+msgid "No pair distances"
+msgstr "没有对间距"
+
+#: qfg_lab_52/properties.py:92
+msgid "Noise amplitude"
+msgstr "噪波幅度"
+
+#: qfg_lab_52/properties.py:91
+msgid "Noise robustness test"
+msgstr "噪波鲁棒性测试"
+
+#: qfg_lab_52/properties.py:93
+msgid "Noise seed"
+msgstr "噪波种子"
+
+#: qfg_lab_52/panels.py:314
+msgid "Nonlinear RF resonator"
+msgstr "非线性射频谐振器"
+
+#: qfg_lab_52/properties.py:217
+msgid "Nonlinear loss"
+msgstr "非线性损耗"
+
+#: qfg_lab_52/properties.py:199
+msgid "Norm"
+msgstr "范数"
+
+#: qfg_lab_52/properties.py:455
+msgid "Normalized blend of density-gradient and spin-texture directions"
+msgstr "密度梯度与自旋纹理方向的归一化混合"
+
+#: qfg_lab_52/properties.py:278
+msgid "Nuclear center"
+msgstr "核中心"
+
+#: qfg_lab_52/properties.py:672
+msgid "Nucleon type"
+msgstr "核子类型"
+
+#: qfg_lab_52/properties.py:16
+msgid "NumPy CPU"
+msgstr "NumPy CPU"
+
+#: qfg_lab_52/panels.py:72
+msgid "Numerical Core"
+msgstr "数值核心"
+
+#: qfg_lab_52/properties.py:263
+msgid "ODMR max"
+msgstr "ODMR 最大值"
+
+#: qfg_lab_52/properties.py:262
+msgid "ODMR min"
+msgstr "ODMR 最小值"
+
+#: qfg_lab_52/properties.py:264
+msgid "ODMR points"
+msgstr "ODMR 点数"
+
+#: qfg_lab_52/properties.py:351
+msgid "Object bounds"
+msgstr "物体边界"
+
+#: qfg_lab_52/properties.py:799
+msgid "Objects sharing a group preserve captured azimuth pattern but may change collective polar tilt"
+msgstr "共享同一组的物体保持捕获的方位角图案，但可改变整体极向倾斜"
+
+#: qfg_lab_52/properties.py:22
+msgid "One complex order parameter"
+msgstr "单个复数序参量"
+
+#: qfg_lab_52/operators.py:1686
+msgid "Opposing Gaussian nodes"
+msgstr "相对的高斯节点"
+
+#: qfg_lab_52/properties.py:636
+msgid "Optimizer iterations"
+msgstr "优化器迭代次数"
+
+#: qfg_lab_52/properties.py:637
+msgid "Optimizer step"
+msgstr "优化器步进"
+
+#: qfg_lab_52/properties.py:605
+msgid "Optional maximum B5 correction in the convergence window; 0 disables this gate"
+msgstr "收敛窗口内可选的最大 B5 修正；0 表示禁用此门限"
+
+#: qfg_lab_52/properties.py:743
+msgid "Orbital plane normal"
+msgstr "轨道平面法线"
+
+#: qfg_lab_52/properties.py:344
+msgid "Orbital plane status"
+msgstr "轨道平面状态"
+
+#: qfg_lab_52/properties.py:416
+msgid "Orbital-normal mix"
+msgstr "轨道法线混合"
+
+#: qfg_lab_52/properties.py:343
+msgid "Orbital-plane display radius"
+msgstr "轨道平面显示半径"
+
+#: qfg_lab_52/properties.py:471
+msgid "Orientation anchor"
+msgstr "朝向锚点"
+
+#: qfg_lab_52/properties.py:209
+msgid "Orientation variance"
+msgstr "朝向方差"
+
+#: qfg_lab_52/properties.py:809
+msgid "Oriented box rigid-body collision shape"
+msgstr "定向盒刚体碰撞形状"
+
+#: qfg_lab_52/operators.py:2095
+#: qfg_lab_52/properties.py:296
+msgid "Other"
+msgstr "其他"
+
+#: qfg_lab_52/operators.py:2095
+#: qfg_lab_52/properties.py:691
+msgid "Other Atlas role"
+msgstr "其他 Atlas 角色"
+
+#: qfg_lab_52/properties.py:296
+#: qfg_lab_52/properties.py:680
+msgid "Other source structure"
+msgstr "其他源结构"
+
+#: qfg_lab_52/properties.py:178
+msgid "Output directory"
+msgstr "输出目录"
+
+#: qfg_lab_52/panels.py:383
+msgid "Outputs: Rabi, Ramsey, ODMR, Q sweep, two-ion phase"
+msgstr "输出：Rabi、Ramsey、ODMR、Q 扫描、双离子相位"
+
+#: qfg_lab_52/properties.py:169
+msgid "Outside baked range"
+msgstr "超出烘焙范围"
+
+#: qfg_lab_52/operators.py:2178
+msgid "Overwrite SOURCE tags"
+msgstr "覆盖 SOURCE 标签"
+
+#: qfg_lab_52/properties.py:271
+msgid "P / PH₃"
+msgstr "P / PH₃"
+
+#: qfg_lab_52/properties.py:530
+msgid "Pair-distance stiffness"
+msgstr "对间距刚度"
+
+#: qfg_lab_52/properties.py:524
+msgid "Parent-child"
+msgstr "父级-子级"
+
+#: qfg_lab_52/properties.py:116
+msgid "Penetration slop"
+msgstr "穿透容差"
+
+#: qfg_lab_52/properties.py:658
+msgid "Phase kick / wave vector"
+msgstr "相位踢 / 波矢"
+
+#: qfg_lab_52/properties.py:648
+msgid "Phase-winding vortex ansatz"
+msgstr "相位绕转涡旋试探解"
+
+#: qfg_lab_52/properties.py:271
+msgid "Phosphorus holdout reference"
+msgstr "磷保持参考"
+
+#: qfg_lab_52/__init__.py:4
+msgid "Physics"
+msgstr "物理"
+
+#: qfg_lab_52/properties.py:346
+msgid "Plane dihedral σ"
+msgstr "平面二面角 σ"
+
+#: qfg_lab_52/properties.py:649
+msgid "Plane wave"
+msgstr "平面波"
+
+#: qfg_lab_52/operators.py:1692
+#: qfg_lab_52/properties.py:147
+msgid "Plasma boundary"
+msgstr "等离子体边界"
+
+#: qfg_lab_52/properties.py:165
+msgid "Point radius"
+msgstr "点半径"
+
+#: qfg_lab_52/properties.py:467
+msgid "Position anchor"
+msgstr "位置锚点"
+
+#: qfg_lab_52/properties.py:117
+msgid "Position correction"
+msgstr "位置修正"
+
+#: qfg_lab_52/properties.py:34
+msgid "Potentially several GB during analysis"
+msgstr "分析过程中可能占用数 GB"
+
+#: qfg_lab_52/properties.py:241
+msgid "Power max"
+msgstr "功率最大值"
+
+#: qfg_lab_52/properties.py:542
+msgid "Preserve captured group azimuth pattern while allowing collective polar tilt to relax"
+msgstr "保持捕获的组方位角图案，同时允许整体极向倾斜松弛"
+
+#: qfg_lab_52/properties.py:558
+msgid "Preserve movable centroid"
+msgstr "保持可移动质心"
+
+#: qfg_lab_52/properties.py:787
+msgid "Preserve shell radius"
+msgstr "保持壳层半径"
+
+#: qfg_lab_52/properties.py:787
+msgid "Preserve the captured distance from the Atlas nuclear centre, within the scene B5 tolerance"
+msgstr "在场景 B5 容差内保留距 Atlas 核中心的捕获距离"
+
+#: qfg_lab_52/operators.py:1683
+msgid "Preset"
+msgstr "预设"
+
+#: qfg_lab_52/properties.py:154
+msgid "Preview"
+msgstr "预览"
+
+#: qfg_lab_52/properties.py:510
+msgid "Project B4 proposals back into captured BSM-SG/Atlas topology and angular admissibility constraints"
+msgstr "将 B4 提议投影回捕获的 BSM-SG/Atlas 拓扑与角度容许约束"
+
+#: qfg_lab_52/properties.py:538
+msgid "Projection strength when a valence nucleon exceeds its declared angular freedom cone"
+msgstr "价核子超出其声明角度自由锥时的投影强度"
+
+#: qfg_lab_52/properties.py:291
+#: qfg_lab_52/properties.py:675
+msgid "Proton"
+msgstr "质子"
+
+#: qfg_lab_52/properties.py:293
+#: qfg_lab_52/properties.py:677
+msgid "Proton + neutron structural unit"
+msgstr "质子 + 中子结构单元"
+
+#: qfg_lab_52/properties.py:294
+#: qfg_lab_52/properties.py:678
+msgid "Proton + two-neutron structural unit"
+msgstr "质子 + 双中子结构单元"
+
+#: qfg_lab_52/properties.py:291
+msgid "Proton source object"
+msgstr "质子源物体"
+
+#: qfg_lab_52/properties.py:708
+msgid "Provenance"
+msgstr "来源"
+
+#: qfg_lab_52/panels.py:623
+msgid "Proxy only — not a Kohn–Sham/QFG-DFT solve"
+msgstr "仅代理 — 非 Kohn–Sham/QFG-DFT 求解"
+
+#: qfg_lab_52/panels.py:10
+#: qfg_lab_52/panels.py:31
+msgid "QFG 5.2"
+msgstr "QFG 5.2"
+
+#: qfg_lab_52/panels.py:630
+msgid "QFG Actor 5.2"
+msgstr "QFG Actor 5.2"
+
+#: qfg_lab_52/__init__.py:4
+#: qfg_lab_52/panels.py:11
+msgid "QFG Dynamics 1.0.0 Alpha"
+msgstr "QFG Dynamics 1.0.0 Alpha"
+
+#: qfg_lab_52/properties.py:96
+msgid "QFG Dynamics bodies"
+msgstr "QFG Dynamics 物体"
+
+#: qfg_lab_52/properties.py:642
+msgid "QFG actor"
+msgstr "QFG actor"
+
+#: qfg_lab_52/properties.py:257
+msgid "QFG correction scale"
+msgstr "QFG 校正缩放"
+
+#: qfg_lab_52/properties.py:655
+msgid "QFG dynamic body"
+msgstr "QFG 动态体"
+
+#: qfg_lab_52/operators.py:1452
+msgid "QFG state reset from scene actors"
+msgstr "从场景 Actor 重置 QFG 状态"
+
+#: qfg_lab_52/properties.py:589
+msgid "QFG steps / B6 iteration"
+msgstr "QFG 步数 / B6 迭代"
+
+#: qfg_lab_52/properties.py:151
+msgid "Quality"
+msgstr "质量"
+
+#: qfg_lab_52/properties.py:716
+msgid "REJECTED"
+msgstr "已拒绝"
+
+#: qfg_lab_52/panels.py:307
+msgid "RF / HRM / Plasma"
+msgstr "RF / HRM / 等离子体"
+
+#: qfg_lab_52/properties.py:220
+msgid "ROM dt"
+msgstr "ROM dt"
+
+#: qfg_lab_52/properties.py:250
+msgid "Rabi frequency"
+msgstr "拉比频率"
+
+#: qfg_lab_52/properties.py:75
+msgid "Radial ring"
+msgstr "径向环"
+
+#: qfg_lab_52/properties.py:261
+msgid "Ramsey max free time"
+msgstr "Ramsey 最大自由时间"
+
+#: qfg_lab_52/properties.py:374
+msgid "Re-rasterize B3 from current Atlas object transforms before each Run QFG Steps action; expensive on large grids"
+msgstr "每次执行“运行 QFG 步进”前，根据当前 Atlas 物体变换重新栅格化 B3；大型网格开销高"
+
+#: qfg_lab_52/properties.py:445
+msgid "Re-rasterize the Atlas->QFG field after B4 moves the source geometry"
+msgstr "B4 移动源几何体后重新栅格化 Atlas->QFG 场"
+
+#: qfg_lab_52/properties.py:445
+msgid "Rebuild B3 after feedback"
+msgstr "反馈后重建 B3"
+
+#: qfg_lab_52/properties.py:369
+msgid "Rebuild and install the Atlas field whenever the QFG engine is initialized/reset"
+msgstr "QFG 引擎初始化/重置时重建并安装 Atlas 场"
+
+#: qfg_lab_52/properties.py:585
+msgid "Recapture B5 constraints"
+msgstr "重新捕获 B5 约束"
+
+#: qfg_lab_52/properties.py:239
+msgid "Recombination"
+msgstr "复合"
+
+#: qfg_lab_52/properties.py:30
+msgid "Recommended starting point"
+msgstr "推荐起点"
+
+#: qfg_lab_52/operators.py:1691
+msgid "Reduced U(1) and Poisson sectors"
+msgstr "约化 U(1) 与泊松扇区"
+
+#: qfg_lab_52/properties.py:81
+msgid "Reduced U(1) gauge field"
+msgstr "约化 U(1) 规范场"
+
+#: qfg_lab_52/properties.py:146
+msgid "Reduced coupled sectors showcase"
+msgstr "约化耦合扇区展示"
+
+#: qfg_lab_52/properties.py:655
+msgid "Reduced field-coupled body for QFG Dynamics"
+msgstr "用于 QFG Dynamics 的约化场耦合体"
+
+#: qfg_lab_52/properties.py:142
+msgid "Reduced spinor topology showcase"
+msgstr "约化旋量拓扑展示"
+
+#: qfg_lab_52/properties.py:312
+msgid "Reference angle"
+msgstr "参考角度"
+
+#: qfg_lab_52/properties.py:311
+msgid "Reference revealed"
+msgstr "参考已显示"
+
+#: qfg_lab_52/properties.py:374
+msgid "Refresh before manual steps"
+msgstr "手动步进前刷新"
+
+#: qfg_lab_52/properties.py:577
+msgid "Reinitialize the QFG engine at the start of a B6 blind run after source geometry/constraints are prepared"
+msgstr "源几何体/约束准备好后，在 B6 盲运行开始时重新初始化 QFG 引擎"
+
+#: qfg_lab_52/properties.py:253
+msgid "Relaxation"
+msgstr "松弛"
+
+#: qfg_lab_52/properties.py:558
+msgid "Remove net translation introduced by constraint projection; useful for isolated symmetric groups"
+msgstr "移除约束投影引入的净平移；适用于孤立对称组"
+
+#: qfg_lab_52/operators.py:1857
+msgid "Render still"
+msgstr "渲染静帧"
+
+#: qfg_lab_52/properties.py:581
+msgid "Reset to B4 anchors"
+msgstr "重置到 B4 锚点"
+
+#: qfg_lab_52/properties.py:313
+msgid "Residual"
+msgstr "残差"
+
+#: qfg_lab_52/properties.py:314
+msgid "Residual %"
+msgstr "残差 %"
+
+#: qfg_lab_52/properties.py:826
+msgid "Restitution"
+msgstr "恢复系数"
+
+#: qfg_lab_52/properties.py:581
+msgid "Restore the captured source geometry before beginning the blind relaxation"
+msgstr "开始盲松弛前恢复捕获的源几何体"
+
+#: qfg_lab_52/properties.py:471
+msgid "Restoring alignment toward the captured Atlas source frame; numerical stabilizer"
+msgstr "恢复向捕获的 Atlas 源参考系对齐；数值稳定器"
+
+#: qfg_lab_52/properties.py:467
+msgid "Restoring strength toward the captured Atlas anchor position; numerical stabilizer"
+msgstr "将强度恢复至捕获的 Atlas 锚点位置；数值稳定器"
+
+#: qfg_lab_52/properties.py:665
+msgid "Ring radius"
+msgstr "环半径"
+
+#: qfg_lab_52/properties.py:647
+msgid "Ring-like spinor/topological ansatz"
+msgstr "环状旋量/拓扑拟设"
+
+#: qfg_lab_52/properties.py:75
+msgid "Ring-shaped drive profile"
+msgstr "环形驱动剖面"
+
+#: qfg_lab_52/properties.py:127
+msgid "Rotational kinetic energy"
+msgstr "转动动能"
+
+#: qfg_lab_52/properties.py:231
+msgid "Run duration"
+msgstr "运行时长"
+
+#: qfg_lab_52/panels.py:124
+msgid "Runtime profiler"
+msgstr "运行时分析器"
+
+#: qfg_lab_52/properties.py:711
+msgid "SOURCE"
+msgstr "源"
+
+#: qfg_lab_52/properties.py:383
+msgid "SOURCE + DERIVED"
+msgstr "源 + 派生"
+
+#: qfg_lab_52/panels.py:398
+msgid "SOURCE geometry"
+msgstr "源几何体"
+
+#: qfg_lab_52/properties.py:382
+msgid "SOURCE only"
+msgstr "仅源"
+
+#: qfg_lab_52/panels.py:593
+msgid "SOURCE → DERIVED → freeze → EXPERIMENTAL"
+msgstr "源 → 派生 → 冻结 → 实验性"
+
+#: qfg_lab_52/properties.py:554
+msgid "Safety clamp on each constraint correction; 0 disables this clamp"
+msgstr "每次约束修正的安全钳制；0 禁用此钳制"
+
+#: qfg_lab_52/properties.py:273
+msgid "Sb / SbH₃"
+msgstr "Sb / SbH₃"
+
+#: qfg_lab_52/properties.py:414
+msgid "Scalar potential scale"
+msgstr "标量势缩放"
+
+#: qfg_lab_52/properties.py:22
+msgid "Scalar prototype"
+msgstr "标量原型"
+
+#: qfg_lab_52/properties.py:232
+msgid "Scan dt"
+msgstr "扫描 dt"
+
+#: qfg_lab_52/properties.py:230
+msgid "Scan points/axis"
+msgstr "扫描点/轴"
+
+#: qfg_lab_52/properties.py:653
+msgid "Scene marker for Yb module"
+msgstr "Yb 模块的场景标记"
+
+#: qfg_lab_52/properties.py:483
+msgid "Scene-space safety clamp for one B4 feedback update"
+msgstr "单次 B4 反馈更新的场景空间安全钳制"
+
+#: qfg_lab_52/properties.py:222
+msgid "Second-tone ratio"
+msgstr "第二音调比例"
+
+#: qfg_lab_52/operators.py:2103
+msgid "Select one or more Blender objects"
+msgstr "选择一个或多个 Blender 物体"
+
+#: qfg_lab_52/operators.py:2187
+msgid "Select one or more named Blender objects"
+msgstr "选择一个或多个命名 Blender 物体"
+
+#: qfg_lab_52/properties.py:221
+msgid "Settle steps"
+msgstr "稳定步数"
+
+#: qfg_lab_52/properties.py:534
+msgid "Shell stiffness"
+msgstr "壳刚度"
+
+#: qfg_lab_52/properties.py:546
+msgid "Shell tolerance"
+msgstr "壳容差"
+
+#: qfg_lab_52/properties.py:138
+msgid "Showcase"
+msgstr "展示"
+
+#: qfg_lab_52/properties.py:53
+msgid "Skyrme backreaction"
+msgstr "Skyrme 反作用"
+
+#: qfg_lab_52/properties.py:208
+msgid "Skyrme proxy"
+msgstr "Skyrme 代理"
+
+#: qfg_lab_52/properties.py:166
+msgid "Slice axis"
+msgstr "切片轴"
+
+#: qfg_lab_52/properties.py:401
+msgid "Soft 1/r³ proxy"
+msgstr "软 1/r³ 代理"
+
+#: qfg_lab_52/properties.py:629
+msgid "Softening"
+msgstr "软化"
+
+#: qfg_lab_52/properties.py:829
+msgid "Softening temperature"
+msgstr "软化温度"
+
+#: qfg_lab_52/properties.py:733
+msgid "Source kernel radius in Blender scene units before Atlas->QFG scaling"
+msgstr "Atlas->QFG 缩放前，以 Blender 场景单位表示的源核半径"
+
+#: qfg_lab_52/properties.py:720
+msgid "Source note"
+msgstr "源备注"
+
+#: qfg_lab_52/properties.py:320
+msgid "Source star"
+msgstr "源恒星"
+
+#: qfg_lab_52/properties.py:666
+#: qfg_lab_52/properties.py:808
+msgid "Sphere"
+msgstr "球体"
+
+#: qfg_lab_52/properties.py:808
+msgid "Spherical rigid-body collision shape"
+msgstr "球形刚体碰撞形状"
+
+#: qfg_lab_52/properties.py:52
+msgid "Spin exchange"
+msgstr "自旋交换"
+
+#: qfg_lab_52/properties.py:454
+msgid "Spin texture"
+msgstr "自旋纹理"
+
+#: qfg_lab_52/properties.py:661
+msgid "Spin θ"
+msgstr "自旋 θ"
+
+#: qfg_lab_52/properties.py:662
+msgid "Spin φ"
+msgstr "自旋 φ"
+
+#: qfg_lab_52/properties.py:23
+msgid "Spinor prototype"
+msgstr "旋量原型"
+
+#: qfg_lab_52/operators.py:1687
+msgid "Spinor ring ansatz"
+msgstr "旋量环拟设"
+
+#: qfg_lab_52/operators.py:1688
+msgid "Spinor vortex ansatz"
+msgstr "旋量涡旋拟设"
+
+#: qfg_lab_52/properties.py:143
+msgid "Spinor winding showcase"
+msgstr "旋量绕数展示"
+
+#: qfg_lab_52/properties.py:74
+msgid "Standing X"
+msgstr "驻波 X"
+
+#: qfg_lab_52/properties.py:74
+msgid "Standing-wave profile along X"
+msgstr "沿 X 的驻波剖面"
+
+#: qfg_lab_52/panels.py:32
+msgid "Starting Scenes"
+msgstr "起始场景"
+
+#: qfg_lab_52/properties.py:650
+msgid "Static potential/damping region"
+msgstr "静态势/阻尼区域"
+
+#: qfg_lab_52/properties.py:195
+msgid "Status"
+msgstr "状态"
+
+#: qfg_lab_52/properties.py:174
+msgid "Status only"
+msgstr "仅状态"
+
+#: qfg_lab_52/properties.py:39
+msgid "Steps per action"
+msgstr "每动作步数"
+
+#: qfg_lab_52/properties.py:40
+msgid "Steps per frame"
+msgstr "每帧步数"
+
+#: qfg_lab_52/properties.py:214
+msgid "Sweep points"
+msgstr "扫掠点数"
+
+#: qfg_lab_52/properties.py:542
+msgid "Symmetry stiffness"
+msgstr "对称刚度"
+
+#: qfg_lab_52/properties.py:288
+msgid "Tag nucleon"
+msgstr "标记核子"
+
+#: qfg_lab_52/properties.py:281
+msgid "Tagged core centroid"
+msgstr "标记核心质心"
+
+#: qfg_lab_52/properties.py:633
+msgid "Target band gap (eV)"
+msgstr "目标带隙 (eV)"
+
+#: qfg_lab_52/properties.py:632
+msgid "Target energy"
+msgstr "目标能量"
+
+#: qfg_lab_52/properties.py:635
+msgid "Target oscillator"
+msgstr "目标振子"
+
+#: qfg_lab_52/properties.py:634
+msgid "Target λmax (nm)"
+msgstr "目标 λmax (nm)"
+
+#: qfg_lab_52/panels.py:614
+msgid "Target-driven optimizer"
+msgstr "目标驱动优化器"
+
+#: qfg_lab_52/properties.py:61
+msgid "Temperature cap"
+msgstr "温度上限"
+
+#: qfg_lab_52/properties.py:258
+msgid "Texture ξ"
+msgstr "纹理 ξ"
+
+#: qfg_lab_52/properties.py:145
+msgid "Thermal"
+msgstr "热"
+
+#: qfg_lab_52/panels.py:167
+msgid "Thermal and HRM"
+msgstr "热与 HRM"
+
+#: qfg_lab_52/properties.py:243
+msgid "Thermal coefficient"
+msgstr "热系数"
+
+#: qfg_lab_52/operators.py:1690
+msgid "Thermal collision"
+msgstr "热碰撞"
+
+#: qfg_lab_52/properties.py:821
+msgid "Thermal coupling"
+msgstr "热耦合"
+
+#: qfg_lab_52/properties.py:145
+msgid "Thermal feedback showcase"
+msgstr "热反馈展示"
+
+#: qfg_lab_52/properties.py:57
+msgid "Thermal module"
+msgstr "热模块"
+
+#: qfg_lab_52/properties.py:197
+msgid "Time"
+msgstr "时间"
+
+#: qfg_lab_52/properties.py:223
+msgid "Tone offset"
+msgstr "色调偏移"
+
+#: qfg_lab_52/properties.py:51
+msgid "Topology / Skyrme sector"
+msgstr "拓扑 / Skyrme 扇区"
+
+#: qfg_lab_52/properties.py:329
+msgid "Topology only"
+msgstr "仅拓扑"
+
+#: qfg_lab_52/properties.py:475
+msgid "Torque orbital mix"
+msgstr "扭矩轨道混合"
+
+#: qfg_lab_52/properties.py:188
+msgid "Torque scale"
+msgstr "扭矩缩放"
+
+#: qfg_lab_52/properties.py:450
+msgid "Torque target"
+msgstr "扭矩目标"
+
+#: qfg_lab_52/properties.py:184
+msgid "Total force vectors"
+msgstr "总力向量"
+
+#: qfg_lab_52/properties.py:185
+msgid "Total torque vectors"
+msgstr "总扭矩向量"
+
+#: qfg_lab_52/properties.py:294
+#: qfg_lab_52/properties.py:678
+msgid "Tritium"
+msgstr "氚"
+
+#: qfg_lab_52/properties.py:23
+msgid "Two-component reduced spinor field"
+msgstr "二分量约化旋量场"
+
+#: qfg_lab_52/operators.py:1686
+msgid "Two-node collision"
+msgstr "双节点碰撞"
+
+#: qfg_lab_52/properties.py:72
+msgid "Uniform"
+msgstr "均匀"
+
+#: qfg_lab_52/properties.py:649
+msgid "Uniform complex wave"
+msgstr "均匀复波"
+
+#: qfg_lab_52/properties.py:72
+msgid "Uniform phase drive"
+msgstr "均匀相位驱动"
+
+#: qfg_lab_52/properties.py:329
+msgid "Unit edge weight; DERIVED connectivity only"
+msgstr "单位边权重；仅 DERIVED 连接"
+
+#: qfg_lab_52/properties.py:283
+msgid "Use (0,0,0)"
+msgstr "使用 (0,0,0)"
+
+#: qfg_lab_52/properties.py:409
+msgid "Use 3(d·r^)r^-d orientation pattern"
+msgstr "使用 3(d·r^)r^-d 取向模式"
+
+#: qfg_lab_52/properties.py:752
+msgid "Use Atlas valence direction as plane normal; convenience bridge, not SOURCE"
+msgstr "使用 Atlas 价方向作为平面法线；便捷桥接，非 SOURCE"
+
+#: qfg_lab_52/properties.py:391
+msgid "Use VALENCE and EQUATORIAL Atlas sources"
+msgstr "使用 VALENCE 和 EQUATORIAL Atlas 源"
+
+#: qfg_lab_52/properties.py:525
+msgid "Use VALENCE↔EQUATORIAL source-star edges; DERIVED/conditional structural bridge"
+msgstr "使用 VALENCE↔EQUATORIAL 源星边；DERIVED/条件结构桥接"
+
+#: qfg_lab_52/properties.py:393
+msgid "Use all tagged Atlas structures"
+msgstr "使用所有标记的 Atlas 结构"
+
+#: qfg_lab_52/properties.py:523
+msgid "Use comma-separated neighbour names on Atlas objects; intended for reviewed/source connectivity"
+msgstr "在 Atlas 物体上使用逗号分隔的相邻名称；用于已审核/源连接"
+
+#: qfg_lab_52/properties.py:351
+msgid "Use half of the largest world-space object dimension"
+msgstr "使用世界空间物体最大尺寸的一半"
+
+#: qfg_lab_52/properties.py:454
+msgid "Use local QFG spin texture when available; fall back to density gradient"
+msgstr "可用时使用局部 QFG 自旋纹理；否则回退到密度梯度"
+
+#: qfg_lab_52/properties.py:746
+msgid "Use object local +X as the plane normal"
+msgstr "使用物体局部 +X 作为平面法线"
+
+#: qfg_lab_52/properties.py:699
+msgid "Use object local +X axis"
+msgstr "使用物体局部 +X 轴"
+
+#: qfg_lab_52/properties.py:747
+msgid "Use object local +Y as the plane normal"
+msgstr "使用物体局部 +Y 作为平面法线"
+
+#: qfg_lab_52/properties.py:700
+msgid "Use object local +Y axis"
+msgstr "使用物体局部 +Y 轴"
+
+#: qfg_lab_52/properties.py:748
+msgid "Use object local +Z as the plane normal"
+msgstr "使用物体局部 +Z 作为平面法线"
+
+#: qfg_lab_52/properties.py:701
+msgid "Use object local +Z axis"
+msgstr "使用物体局部 +Z 轴"
+
+#: qfg_lab_52/properties.py:749
+msgid "Use object local -X as the plane normal"
+msgstr "使用物体局部 -X 作为平面法线"
+
+#: qfg_lab_52/properties.py:702
+msgid "Use object local -X axis"
+msgstr "使用物体局部 -X 轴"
+
+#: qfg_lab_52/properties.py:750
+msgid "Use object local -Y as the plane normal"
+msgstr "使用物体局部 -Y 作为平面法线"
+
+#: qfg_lab_52/properties.py:703
+msgid "Use object local -Y axis"
+msgstr "使用物体局部 -Y 轴"
+
+#: qfg_lab_52/properties.py:751
+msgid "Use object local -Z as the plane normal"
+msgstr "使用物体局部 -Z 作为平面法线"
+
+#: qfg_lab_52/properties.py:704
+msgid "Use object local -Z axis"
+msgstr "使用物体局部 -Z 轴"
+
+#: qfg_lab_52/properties.py:352
+msgid "Use one scene-unit radius for every tagged Atlas object"
+msgstr "为每个标记的 Atlas 物体使用一个场景单位半径"
+
+#: qfg_lab_52/properties.py:392
+msgid "Use only VALENCE Atlas sources"
+msgstr "仅使用 VALENCE Atlas 源"
+
+#: qfg_lab_52/properties.py:382
+msgid "Use only explicit SOURCE-tagged Atlas objects"
+msgstr "仅使用显式标记为 SOURCE 的 Atlas 物体"
+
+#: qfg_lab_52/properties.py:526
+msgid "Use only shell, cone and symmetry constraints"
+msgstr "仅使用壳、锥和对称约束"
+
+#: qfg_lab_52/properties.py:282
+msgid "Use the selected center object origin"
+msgstr "使用选中的中心物体原点"
+
+#: qfg_lab_52/properties.py:698
+msgid "Use vector from nuclear center to object origin"
+msgstr "使用从核中心到物体原点的向量"
+
+#: qfg_lab_52/operators.py:2092
+msgid "Used for Atlas Direct valence geometry"
+msgstr "用于 Atlas Direct 价几何"
+
+#: qfg_lab_52/properties.py:714
+msgid "Uses a reference/measurement"
+msgstr "使用参考/测量"
+
+#: qfg_lab_52/properties.py:42
+msgid "Vacuum density ρ₀"
+msgstr "真空密度 ρ₀"
+
+#: qfg_lab_52/properties.py:391
+msgid "Valence + equatorial"
+msgstr "价 + 赤道"
+
+#: qfg_lab_52/properties.py:695
+msgid "Valence direction"
+msgstr "价方向"
+
+#: qfg_lab_52/properties.py:392
+msgid "Valence only"
+msgstr "仅价"
+
+#: qfg_lab_52/properties.py:321
+msgid "Valence pairs"
+msgstr "价对"
+
+#: qfg_lab_52/properties.py:752
+msgid "Valence vector (conditional)"
+msgstr "价向量（条件）"
+
+#: qfg_lab_52/properties.py:300
+msgid "Vector display scale"
+msgstr "向量显示缩放"
+
+#: qfg_lab_52/properties.py:405
+msgid "Vector field"
+msgstr "向量场"
+
+#: qfg_lab_52/panels.py:256
+msgid "Vector scales"
+msgstr "向量缩放"
+
+#: qfg_lab_52/properties.py:415
+msgid "Vector/spin scale"
+msgstr "向量/自旋缩放"
+
+#: qfg_lab_52/properties.py:33
+msgid "Very heavy; substantial RAM recommended"
+msgstr "非常繁重；建议大容量内存"
+
+#: qfg_lab_52/panels.py:218
+msgid "Visualization and Timeline"
+msgstr "可视化与时间轴"
+
+#: qfg_lab_52/properties.py:143
+msgid "Vortex"
+msgstr "旋涡"
+
+#: qfg_lab_52/properties.py:648
+msgid "Vortex node"
+msgstr "旋涡节点"
+
+#: qfg_lab_52/operators.py:1688
+msgid "Vortex prototype"
+msgstr "旋涡原型"
+
+#: qfg_lab_52/properties.py:86
+msgid "Weak-field gravity proxy"
+msgstr "弱场引力代理"
+
+#: qfg_lab_52/properties.py:663
+msgid "Winding m"
+msgstr "缠绕数 m"
+
+#: qfg_lab_52/properties.py:664
+msgid "Winding n"
+msgstr "缠绕数 n"
+
+#: qfg_lab_52/properties.py:102
+msgid "World gravity"
+msgstr "世界重力"
+
+#: qfg_lab_52/properties.py:283
+msgid "World origin"
+msgstr "世界原点"
+
+#: qfg_lab_52/properties.py:108
+msgid "World seed"
+msgstr "世界种子"
+
+#: qfg_lab_52/properties.py:121
+msgid "World total ms"
+msgstr "世界总耗时 (ms)"
+
+#: qfg_lab_52/properties.py:166
+msgid "X"
+msgstr "X"
+
+#: qfg_lab_52/properties.py:166
+msgid "Y"
+msgstr "Y"
+
+#: qfg_lab_52/panels.py:370
+msgid "Yb Quantum-Control Suite"
+msgstr "Yb 量子控制套件"
+
+#: qfg_lab_52/properties.py:254
+msgid "Yb cavity Q"
+msgstr "Yb 腔 Q"
+
+#: qfg_lab_52/properties.py:249
+msgid "Yb dt"
+msgstr "Yb dt"
+
+#: qfg_lab_52/properties.py:653
+msgid "Yb probe"
+msgstr "Yb 探针"
+
+#: qfg_lab_52/properties.py:166
+msgid "Z"
+msgstr "Z"
+
+#: qfg_lab_52/properties.py:331
+msgid "cos² χ"
+msgstr "cos² χ"
+
+#: qfg_lab_52/properties.py:333
+msgid "cos² χ / r³"
+msgstr "cos² χ / r³"
+
+#: qfg_lab_52/properties.py:67
+msgid "f₁"
+msgstr "f₁"
+
+#: qfg_lab_52/properties.py:227
+msgid "f₁ max"
+msgstr "f₁ 最大值"
+
+#: qfg_lab_52/properties.py:226
+msgid "f₁ min"
+msgstr "f₁ 最小值"
+
+#: qfg_lab_52/properties.py:68
+msgid "f₂"
+msgstr "f₂"
+
+#: qfg_lab_52/properties.py:229
+msgid "f₂ max"
+msgstr "f₂ 最大值"
+
+#: qfg_lab_52/properties.py:228
+msgid "f₂ min"
+msgstr "f₂ 最小值"
+
+#: qfg_lab_52/properties.py:330
+msgid "|cos χ|"
+msgstr "|cos χ|"
+
+#: qfg_lab_52/properties.py:48
+msgid "Δ anisotropy"
+msgstr "Δ 各向异性"
+
+#: qfg_lab_52/properties.py:340
+msgid "Σ J proxy"
+msgstr "Σ J 代理"
+
+#: qfg_lab_52/properties.py:45
+msgid "α in Z(ρ)"
+msgstr "Z(ρ) 中的 α"
+
+#: qfg_lab_52/properties.py:626
+msgid "β gradient proxy"
+msgstr "β 梯度代理"
+
+#: qfg_lab_52/properties.py:627
+msgid "γ kinetic proxy"
+msgstr "γ 动能代理"
+
+#: qfg_lab_52/properties.py:46
+msgid "ζEM"
+msgstr "ζEM"
+
+#: qfg_lab_52/properties.py:628
+msgid "η topology proxy"
+msgstr "η 拓扑代理"
+
+#: qfg_lab_52/properties.py:44
+msgid "κ stability"
+msgstr "κ 稳定性"
+
+#: qfg_lab_52/properties.py:43
+msgid "λ cohesion"
+msgstr "λ 内聚力"
+
+#: qfg_lab_52/properties.py:242
+msgid "ρ offset / power"
+msgstr "ρ 偏移 / 强度"
+
+#: qfg_lab_52/properties.py:256
+msgid "ρ−ρ₀"
+msgstr "ρ−ρ₀"
+
+#: qfg_lab_52/properties.py:259
+msgid "∇·n proxy"
+msgstr "∇·n 代理"
+
+#: qfg_lab_52/properties.py:702
+#: qfg_lab_52/properties.py:749
+msgid "−Local X"
+msgstr "−局部 X"
+
+#: qfg_lab_52/properties.py:703
+#: qfg_lab_52/properties.py:750
+msgid "−Local Y"
+msgstr "−局部 Y"
+
+#: qfg_lab_52/properties.py:704
+#: qfg_lab_52/properties.py:751
+msgid "−Local Z"
+msgstr "−局部 Z"
+
+#: qfg_lab_52/operators.py:1368
+msgctxt "Operator"
+msgid "Advance the solver and update the viewport"
+msgstr "推进求解器并更新视图"
+
+#: qfg_lab_52/operators.py:2460
+msgctxt "Operator"
+msgid "Apply B4 Feedback Once"
+msgstr "应用一次 B4 反馈"
+
+#: qfg_lab_52/operators.py:2174
+msgctxt "Operator"
+msgid "Auto-detect Selected"
+msgstr "自动检测选中项"
+
+#: qfg_lab_52/operators.py:1473
+msgctxt "Operator"
+msgid "Bake QFG Timeline"
+msgstr "烘焙 QFG 时间轴"
+
+#: qfg_lab_52/panels.py:44
+msgctxt "Operator"
+msgid "Build"
+msgstr "构建"
+
+#: qfg_lab_52/panels.py:47
+msgctxt "Operator"
+msgid "Build + Bake"
+msgstr "构建 + 烘焙"
+
+#: qfg_lab_52/operators.py:2388
+msgctxt "Operator"
+msgid "Build / Apply Atlas Field"
+msgstr "构建 / 应用 Atlas 场"
+
+#: qfg_lab_52/operators.py:2226
+msgctxt "Operator"
+msgid "Build Atlas topology and optional conditional J_ij geometry proxy"
+msgstr "构建 Atlas 拓扑及可选的条件 J_ij 几何代理"
+
+#: qfg_lab_52/operators.py:2336
+msgctxt "Operator"
+msgid "Build Bohr Envelope Proxy"
+msgstr "构建玻尔包络代理"
+
+#: qfg_lab_52/operators.py:2225
+msgctxt "Operator"
+msgid "Build Interaction Graph"
+msgstr "构建交互图"
+
+#: qfg_lab_52/operators.py:1853
+msgctxt "Operator"
+msgid "Build Native QFG Hero Showcase"
+msgstr "构建原生 QFG 主展示"
+
+#: qfg_lab_52/operators.py:1854
+msgctxt "Operator"
+msgid "Build a safe procedural showcase stage from the selected QFG mode"
+msgstr "根据所选 QFG 模式构建安全的过程化展示舞台"
+
+#: qfg_lab_52/operators.py:2337
+msgctxt "Operator"
+msgid "Build an oriented geometric envelope around tagged Atlas structures; CONDITIONAL proxy, not a solved field surface"
+msgstr "围绕已标记的 Atlas 结构构建定向几何包络；条件代理，并非求解后的场表面"
+
+#: qfg_lab_52/operators.py:1345
+msgctxt "Operator"
+msgid "Build the numerical field from QFG actors"
+msgstr "根据 QFG 作用体构建数值场"
+
+#: qfg_lab_52/operators.py:2428
+msgctxt "Operator"
+msgid "Capture B4 Anchors"
+msgstr "捕获 B4 锚点"
+
+#: qfg_lab_52/operators.py:2485
+msgctxt "Operator"
+msgid "Capture B5 Constraints"
+msgstr "捕获 B5 约束"
+
+#: qfg_lab_52/operators.py:2486
+msgctxt "Operator"
+msgid "Capture current reviewed Atlas shell/connectivity/angular/symmetry geometry as the B5 admissible set"
+msgstr "将当前已审核的 Atlas 壳层/连通性/角度/对称几何捕获为 B5 容许集"
+
+#: qfg_lab_52/operators.py:2429
+msgctxt "Operator"
+msgid "Capture current reviewed Atlas transforms/directions as the bounded B4 relaxation reference"
+msgstr "将当前已审核的 Atlas 变换/方向捕获为有界 B4 松弛参考"
+
+#: qfg_lab_52/operators.py:1922
+msgctxt "Operator"
+msgid "Check Numerical Backend"
+msgstr "检查数值后端"
+
+#: qfg_lab_52/operators.py:2406
+msgctxt "Operator"
+msgid "Clear Atlas Field"
+msgstr "清除 Atlas 场"
+
+#: qfg_lab_52/operators.py:2501
+msgctxt "Operator"
+msgid "Clear B5 Constraints"
+msgstr "清除 B5 约束"
+
+#: qfg_lab_52/operators.py:2717
+msgctxt "Operator"
+msgid "Clear B6 convergence history/status without changing Atlas geometry or experimental holdout state"
+msgstr "清除 B6 收敛历史/状态，不更改 Atlas 几何或实验留出状态"
+
+#: qfg_lab_52/operators.py:2992
+msgctxt "Operator"
+msgid "Clear QFG Results"
+msgstr "清除 QFG 结果"
+
+#: qfg_lab_52/operators.py:1552
+msgctxt "Operator"
+msgid "Clear Timeline Cache"
+msgstr "清除时间线缓存"
+
+#: qfg_lab_52/operators.py:2798
+msgctxt "Operator"
+msgid "Clear the blind freeze/reference reveal state without changing geometry tags"
+msgstr "清除盲冻结/参考揭示状态，不更改几何标签"
+
+#: qfg_lab_52/operators.py:2502
+msgctxt "Operator"
+msgid "Clear the captured B5 constraint snapshot without changing Atlas transforms"
+msgstr "清除已捕获的 B5 约束快照，不更改 Atlas 变换"
+
+#: qfg_lab_52/operators.py:1563
+msgctxt "Operator"
+msgid "Compute Topology Proxies"
+msgstr "计算拓扑代理"
+
+#: qfg_lab_52/operators.py:2122
+msgctxt "Operator"
+msgid "Compute blind valence-vector geometry from tagged Atlas objects only"
+msgstr "仅从已标记的 Atlas 物体计算盲价向量几何"
+
+#: qfg_lab_52/operators.py:1474
+msgctxt "Operator"
+msgid "Compute frames explicitly; playback only displays cached results"
+msgstr "显式计算帧；播放仅显示缓存结果"
+
+#: qfg_lab_52/operators.py:2175
+msgctxt "Operator"
+msgid "Conservative name-based nucleon/role tagging; DERIVED heuristic that must be reviewed"
+msgstr "保守的基于名称的核子/角色标记；必须审查的派生启发式"
+
+#: qfg_lab_52/operators.py:2884
+msgctxt "Operator"
+msgid "Create Molecule Preset"
+msgstr "创建分子预设"
+
+#: qfg_lab_52/operators.py:1759
+msgctxt "Operator"
+msgid "Create QFG Dynamics Showcase"
+msgstr "创建 QFG Dynamics 展示"
+
+#: qfg_lab_52/operators.py:1682
+msgctxt "Operator"
+msgid "Create QFG Preset"
+msgstr "创建 QFG 预设"
+
+#: qfg_lab_52/operators.py:1760
+msgctxt "Operator"
+msgid "Create field emitters and deterministic field-coupled bodies"
+msgstr "创建场发射器与确定性场耦合体"
+
+#: qfg_lab_52/operators.py:2909
+msgctxt "Operator"
+msgid "Evaluate Molecular Proxy"
+msgstr "评估分子代理"
+
+#: qfg_lab_52/operators.py:2821
+msgctxt "Operator"
+msgid "Export Atlas Direct geometry, provenance and holdout result as JSON/CSV"
+msgstr "将 Atlas Direct 几何、溯源和留出结果导出为 JSON/CSV"
+
+#: qfg_lab_52/operators.py:2820
+msgctxt "Operator"
+msgid "Export Atlas Report"
+msgstr "导出 Atlas 报告"
+
+#: qfg_lab_52/operators.py:1581
+msgctxt "Operator"
+msgid "Export Complete QFG Session"
+msgstr "导出完整 QFG 会话"
+
+#: qfg_lab_52/operators.py:2121
+msgctxt "Operator"
+msgid "Extract Atlas Geometry"
+msgstr "提取 Atlas 几何"
+
+#: qfg_lab_52/operators.py:2262
+msgctxt "Operator"
+msgid "Extract Orbital Planes"
+msgstr "提取轨道平面"
+
+#: qfg_lab_52/operators.py:2263
+msgctxt "Operator"
+msgid "Extract orbital-plane normals from tagged object local axes or a conditional valence-vector bridge"
+msgstr "从已标记物体的局部轴或条件价向量桥提取轨道平面法线"
+
+#: qfg_lab_52/operators.py:2727
+msgctxt "Operator"
+msgid "Freeze Blind Prediction"
+msgstr "冻结盲预测"
+
+#: qfg_lab_52/operators.py:1344
+msgctxt "Operator"
+msgid "Initialize QFG Engine"
+msgstr "初始化 QFG 引擎"
+
+#: qfg_lab_52/operators.py:2728
+msgctxt "Operator"
+msgid "Lock the current derived angle before revealing an experimental reference"
+msgstr "在揭示实验参考前锁定当前派生角度"
+
+#: qfg_lab_52/operators.py:2931
+msgctxt "Operator"
+msgid "Optimize Molecular Geometry"
+msgstr "优化分子几何"
+
+#: qfg_lab_52/operators.py:2512
+msgctxt "Operator"
+msgid "Project Into B5 Constraints"
+msgstr "投影到 B5 约束"
+
+#: qfg_lab_52/operators.py:2513
+msgctxt "Operator"
+msgid "Project current Atlas positions into the captured B5 admissible geometry without advancing the QFG field"
+msgstr "将当前 Atlas 位置投影到已捕获的 B5 容许几何，不推进 QFG 场"
+
+#: qfg_lab_52/operators.py:2389
+msgctxt "Operator"
+msgid "Rasterize tagged Atlas geometry into the reduced QFG scalar/vector field; CONDITIONAL bridge"
+msgstr "将已标记的 Atlas 几何栅格化到简化 QFG 标量/矢量场；条件桥"
+
+#: qfg_lab_52/operators.py:1461
+msgctxt "Operator"
+msgid "Refresh Visualization"
+msgstr "刷新可视化"
+
+#: qfg_lab_52/operators.py:2407
+msgctxt "Operator"
+msgid "Remove the B3 Atlas scalar/vector field from the live QFG engine"
+msgstr "从实时 QFG 引擎移除 B3 Atlas 标量/矢量场"
+
+#: qfg_lab_52/operators.py:1905
+msgctxt "Operator"
+msgid "Render QFG Hero Still"
+msgstr "渲染 QFG 主视觉静帧"
+
+#: qfg_lab_52/panels.py:52
+msgctxt "Operator"
+msgid "Render Still"
+msgstr "渲染静帧"
+
+#: qfg_lab_52/operators.py:1906
+msgctxt "Operator"
+msgid "Render the selected baked frame with the native safe camera"
+msgstr "使用原生安全相机渲染选定的烘焙帧"
+
+#: qfg_lab_52/operators.py:2797
+msgctxt "Operator"
+msgid "Reset Atlas Holdout"
+msgstr "重置 Atlas 留出"
+
+#: qfg_lab_52/operators.py:2716
+msgctxt "Operator"
+msgid "Reset B6 Run Record"
+msgstr "重置 B6 运行记录"
+
+#: qfg_lab_52/operators.py:1447
+msgctxt "Operator"
+msgid "Reset from Scene"
+msgstr "从场景重置"
+
+#: qfg_lab_52/operators.py:2443
+msgctxt "Operator"
+msgid "Reset to B4 Anchors"
+msgstr "重置到 B4 锚点"
+
+#: qfg_lab_52/operators.py:2444
+msgctxt "Operator"
+msgid "Restore tagged Atlas sources to the transforms captured for B4 feedback"
+msgstr "将已标记的 Atlas 源恢复为 B4 反馈捕获的变换"
+
+#: qfg_lab_52/operators.py:2763
+msgctxt "Operator"
+msgid "Reveal Experimental Holdout"
+msgstr "揭示实验留出"
+
+#: qfg_lab_52/operators.py:2764
+msgctxt "Operator"
+msgid "Reveal the built-in experimental reference only after a blind prediction is frozen"
+msgstr "仅在盲预测冻结后揭示内置实验参考"
+
+#: qfg_lab_52/operators.py:2532
+msgctxt "Operator"
+msgid "Run B6 Blind Relaxation"
+msgstr "运行 B6 盲松弛"
+
+#: qfg_lab_52/operators.py:2014
+msgctxt "Operator"
+msgid "Run Cavity Shift Comparison"
+msgstr "运行腔频移比较"
+
+#: qfg_lab_52/operators.py:1994
+msgctxt "Operator"
+msgid "Run Glow-Plasma Proxy"
+msgstr "运行辉光等离子体代理"
+
+#: qfg_lab_52/operators.py:1962
+msgctxt "Operator"
+msgid "Run HRM Frequency Scan"
+msgstr "运行 HRM 频率扫描"
+
+#: qfg_lab_52/operators.py:2034
+msgctxt "Operator"
+msgid "Run MEMS Geometry Sweep"
+msgstr "运行 MEMS 几何扫描"
+
+#: qfg_lab_52/operators.py:1367
+msgctxt "Operator"
+msgid "Run QFG Steps"
+msgstr "运行 QFG 步进"
+
+#: qfg_lab_52/operators.py:1935
+msgctxt "Operator"
+msgid "Run RF Resonator Sweep"
+msgstr "运行 RF 谐振器扫描"
+
+#: qfg_lab_52/operators.py:2967
+msgctxt "Operator"
+msgid "Run RF, HRM, plasma, cavity, MEMS, and Yb prototype models"
+msgstr "运行 RF、HRM、等离子体、腔体、MEMS 和 Yb 原型模型"
+
+#: qfg_lab_52/operators.py:2966
+msgctxt "Operator"
+msgid "Run Reduced Validation Suite"
+msgstr "运行简化验证套件"
+
+#: qfg_lab_52/operators.py:2050
+msgctxt "Operator"
+msgid "Run Yb Control Suite"
+msgstr "运行 Yb 控制套件"
+
+#: qfg_lab_52/operators.py:2533
+msgctxt "Operator"
+msgid "Run the end-to-end Group-15 Atlas/QFG relaxation until prediction-only convergence; experimental references remain hidden"
+msgstr "运行端到端第 15 组 Atlas/QFG 松弛，直到仅预测收敛；实验参考保持隐藏"
+
+#: qfg_lab_52/operators.py:2461
+msgctxt "Operator"
+msgid "Sample the current QFG field and apply one bounded conditional force/torque relaxation update to Atlas sources"
+msgstr "采样当前 QFG 场，并对 Atlas 源应用一次有界条件力/力矩松弛更新"
+
+#: qfg_lab_52/panels.py:412
+msgctxt "Operator"
+msgid "Tag Bound"
+msgstr "标记束缚"
+
+#: qfg_lab_52/panels.py:407
+msgctxt "Operator"
+msgid "Tag Core"
+msgstr "标记核心"
+
+#: qfg_lab_52/panels.py:414
+msgctxt "Operator"
+msgid "Tag Equatorial"
+msgstr "标记赤道"
+
+#: qfg_lab_52/operators.py:2084
+msgctxt "Operator"
+msgid "Tag Selected Atlas Objects"
+msgstr "标记选定 Atlas 物体"
+
+#: qfg_lab_52/panels.py:409
+msgctxt "Operator"
+msgid "Tag Valence"
+msgstr "标记价"
+
+#: qfg_lab_52/operators.py:2085
+msgctxt "Operator"
+msgid "Tag selected Blender objects as BSM-SG/Atlas source structures"
+msgstr "将选定的 Blender 物体标记为 BSM-SG/Atlas 源结构"

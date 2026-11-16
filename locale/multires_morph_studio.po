@@ -1,0 +1,236 @@
+# perfect-chinese: 1
+# id: multires_morph_studio
+# kind: addon
+# module: bl_ext.blender_org.multires_morph_studio
+# name: Multires Morph Studio
+# name_zh: 多重精度形态捕捉
+# translator: KeshiMiao
+# category: Sculpt
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: properties.py:32
+msgid "1024 (1K)"
+msgstr "1024 (1K)"
+
+#: properties.py:32
+msgid "1024 x 1024 resolution"
+msgstr "1024 x 1024 分辨率"
+
+#: properties.py:33
+msgid "2048 (2K)"
+msgstr "2048 (2K)"
+
+#: properties.py:33
+msgid "2048 x 2048 resolution"
+msgstr "2048 x 2048 分辨率"
+
+#: properties.py:56
+msgid "32-Bit Float"
+msgstr "32 位浮点"
+
+#: properties.py:34
+msgid "4096 (4K)"
+msgstr "4096 (4K)"
+
+#: properties.py:34
+msgid "4096 x 4096 resolution"
+msgstr "4096 x 4096 分辨率"
+
+#: properties.py:35
+msgid "8192 (8K)"
+msgstr "8192 (8K)"
+
+#: properties.py:35
+msgid "8192 x 8192 resolution"
+msgstr "8192 x 8192 分辨率"
+
+#: properties.py:42
+msgid "Amount of bleed/margin pixels outside UV islands"
+msgstr "UV 孤岛外的溢出/边距像素量"
+
+#: ui.py:172
+msgid "Baking is independent and does not affect shape keys."
+msgstr "烘焙独立进行，不影响形态键。"
+
+#: ui.py:60
+msgid "Capture Sculpt to Shape Key:"
+msgstr "捕捉雕刻到形态键："
+
+#: properties.py:50
+msgid "Custom name for the baked image (leave blank for automatic naming)"
+msgstr "烘焙图像的自定义名称（留空则自动命名）"
+
+#: ui.py:78
+msgid "Deformation saved to Shape Key & Multires preserved"
+msgstr "变形已保存到形态键并保留多重精度"
+
+#: operators.py:298
+msgid "Displacement Map"
+msgstr "置换贴图"
+
+#: ui.py:53
+msgid "For sculpted morphs, use a character"
+msgstr "对于雕刻形变，请使用角色"
+
+#: operators.py:298
+msgid "Height / displacement map"
+msgstr "高度/置换贴图"
+
+#: properties.py:21
+#: ui.py:65
+msgid "Initial Value"
+msgstr "初始值"
+
+#: properties.py:21
+msgid "Initial value for the newly created shape key (0.0 keeps the neutral base appearance)"
+msgstr "新建形态键的初始值（0.0 保持中性基础外观）"
+
+#: operators.py:295
+msgid "Map Type"
+msgstr "贴图类型"
+
+#: properties.py:42
+msgid "Margin (px)"
+msgstr "边距（像素）"
+
+#: __init__.py:1
+#: ui.py:8
+msgid "Multires Morph Studio"
+msgstr "Multires Morph Studio"
+
+#: ui.py:64
+msgid "Name"
+msgstr "名称"
+
+#: properties.py:15
+msgid "Name for the newly created shape key"
+msgstr "新建形态键的名称"
+
+#: ui.py:34
+msgid "No Multires Modifier Found"
+msgstr "未找到多重精度修改器"
+
+#: operators.py:28
+msgid "No Multiresolution modifier found on active object."
+msgstr "活动物体上未找到多重精度修改器。"
+
+#: ui.py:97
+msgid "No shape keys on this object yet."
+msgstr "此物体尚无形态键。"
+
+#: __init__.py:1
+msgid "Non-destructively capture Multires sculpts into Shape Keys and manage independent texture baking."
+msgstr "非破坏性地将多重精度雕刻捕捉为形态键，并管理独立的纹理烘焙。"
+
+#: operators.py:297
+msgid "Normal Map"
+msgstr "法线贴图"
+
+#: operators.py:315
+msgid "Object has no UV map. Please UV unwrap the mesh before baking."
+msgstr "物体没有 UV 贴图。烘焙前请先展开网格 UV。"
+
+#: ui.py:120
+msgid "Reset Sculpt Tool (Optional):"
+msgstr "重置雕刻工具（可选）："
+
+#: properties.py:30
+msgid "Resolution"
+msgstr "分辨率"
+
+#: properties.py:30
+msgid "Resolution for baked texture maps"
+msgstr "烘焙纹理贴图的分辨率"
+
+#: ui.py:12
+#: ui.py:88
+msgid "Sculpt Morph"
+msgstr "雕刻形变"
+
+#: __init__.py:1
+msgid "Sculpting"
+msgstr "雕刻"
+
+#: ui.py:22
+msgid "Select a Mesh object to begin."
+msgstr "选择网格物体以开始。"
+
+#: operators.py:212
+#: properties.py:15
+msgid "Shape Key Name"
+msgstr "形态键名称"
+
+#: ui.py:84
+msgid "Shape Keys"
+msgstr "形态键"
+
+#: ui.py:52
+msgid "Shape keys deform base vertices."
+msgstr "形态键使基础顶点变形。"
+
+#: operators.py:297
+msgid "Tangent space normal map"
+msgstr "切线空间法线贴图"
+
+#: ui.py:133
+msgid "Texture Baking (Independent)"
+msgstr "纹理烘焙（独立）"
+
+#: properties.py:50
+msgid "Texture Name"
+msgstr "纹理名称"
+
+#: properties.py:56
+msgid "Use 32-bit floating point image (recommended for Displacement maps)"
+msgstr "使用 32 位浮点图像（推荐用于置换贴图）"
+
+#: ui.py:54
+msgid "or subdivided base mesh."
+msgstr "或细分后的基础网格。"
+
+#: ui.py:35
+msgctxt "Operator"
+msgid "Add Multires Modifier"
+msgstr "添加多重精度修改器"
+
+#: ui.py:163
+msgctxt "Operator"
+msgid "Bake Displacement"
+msgstr "烘焙置换"
+
+#: operators.py:292
+msgctxt "Operator"
+msgid "Bake Multires Texture"
+msgstr "烘焙多重精度纹理"
+
+#: ui.py:156
+msgctxt "Operator"
+msgid "Bake Normal Map"
+msgstr "烘焙法线贴图"
+
+#: operators.py:12
+#: ui.py:70
+msgctxt "Operator"
+msgid "Create Shape Key from Multires"
+msgstr "从多重精度创建形态键"
+
+#: operators.py:209
+msgctxt "Operator"
+msgid "Delete Shape Key"
+msgstr "删除形态键"
+
+#: operators.py:245
+#: ui.py:123
+msgctxt "Operator"
+msgid "Reset Multires to Base"
+msgstr "重置多重精度为基础"
+
+#: operators.py:246
+msgctxt "Operator"
+msgid "Reset the Multires displacement to match the neutral base mesh"
+msgstr "重置多重精度置换以匹配中性基础网格"

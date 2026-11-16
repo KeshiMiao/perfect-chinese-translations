@@ -1,0 +1,138 @@
+# perfect-chinese: 1
+# id: ar_preview_ps
+# kind: addon
+# module: bl_ext.blender_org.ar_preview_ps
+# name: AR Preview
+# name_zh: 增强现实预览
+# translator: KeshiMiao
+# category: 3D View
+# supported_versions: >=4.5.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:94
+msgid "%s triangles, %.1f MB"
+msgstr "%s 个三角形，%.1f MB"
+
+#: __init__.py:94
+msgid ","
+msgstr "，"
+
+#: __init__.py:71
+msgid "AR Preview"
+msgstr "AR 预览"
+
+#: __init__.py:74
+#: __init__.py:111
+msgid "ARP"
+msgstr "ARP"
+
+#: __init__.py:40
+msgid "Disable pinch-to-scale in AR, the model stays 1:1"
+msgstr "在 AR 中禁用双指缩放，模型保持 1:1"
+
+#: __init__.py:28
+msgid "Export as one mesh (temporary copy, the scene is not changed). One draw call per material - faster on the phone"
+msgstr "导出为单个网格（临时副本，不改变场景）。每个材质一次绘制调用——手机上更快"
+
+#: __init__.py:23
+msgid "Export only selected objects, otherwise all visible objects"
+msgstr "仅导出所选物体，否则导出所有可见物体"
+
+#: __init__.py:52
+msgid "IP"
+msgstr "IP"
+
+#: __init__.py:34
+msgid "Instancing"
+msgstr "实例化"
+
+#: __init__.py:52
+msgid "Leave empty for automatic detection. Fill in when the computer has more networks (VPN, Ethernet + Wi-Fi)"
+msgstr "留空以自动检测。当电脑有多个网络（VPN、以太网 + Wi-Fi）时填写"
+
+#: __init__.py:40
+msgid "Lock Scale"
+msgstr "锁定缩放"
+
+#: __init__.py:28
+msgid "Merge Meshes"
+msgstr "合并网格"
+
+#: operators.py:260
+msgid "No geometry selected"
+msgstr "未选择几何体"
+
+#: operators.py:181
+#: operators.py:225
+msgid "Nothing to export"
+msgstr "没有可导出的内容"
+
+#: __init__.py:108
+msgid "Options"
+msgstr "选项"
+
+#: __init__.py:58
+msgid "Path"
+msgstr "路径"
+
+#: __init__.py:51
+msgid "Port"
+msgstr "端口"
+
+#: operators.py:215
+msgid "Save the .blend file first or use an absolute path"
+msgstr "请先保存 .blend 文件或使用绝对路径"
+
+#: __init__.py:23
+msgid "Selected Only"
+msgstr "仅所选"
+
+#: __init__.py:45
+msgid "Triangle Limit"
+msgstr "三角形上限"
+
+#: __init__.py:134
+msgid "USDZ File"
+msgstr "USDZ 文件"
+
+#: __init__.py:45
+msgid "Warn when the export has more triangles"
+msgstr "导出三角形数超过此值时警告"
+
+#: __init__.py:58
+msgid "Where Save USDZ writes the file. // means the folder of the .blend file"
+msgstr "保存 USDZ 时写入文件的位置。// 表示 .blend 文件所在文件夹"
+
+#: __init__.py:34
+msgid "Write collection instances and Geometry Nodes instances as USD instances (smaller file). Used only when Merge Meshes is off"
+msgstr "将集合实例和几何节点实例写为 USD 实例（文件更小）。仅在关闭合并网格时使用"
+
+#: operators.py:254
+msgctxt "Operator"
+msgid "Assign Grey Material"
+msgstr "指定灰色材质"
+
+#: operators.py:210
+msgctxt "Operator"
+msgid "Save USDZ"
+msgstr "保存 USDZ"
+
+#: operators.py:200
+msgctxt "Operator"
+msgid "Stop Server"
+msgstr "停止服务器"
+
+#: __init__.py:83
+msgctxt "Operator"
+msgid "Update AR"
+msgstr "更新 AR"
+
+#: __init__.py:83
+#: operators.py:167
+msgctxt "Operator"
+msgid "View in AR"
+msgstr "在 AR 中查看"

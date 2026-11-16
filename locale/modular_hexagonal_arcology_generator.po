@@ -1,0 +1,1657 @@
+# perfect-chinese: 1
+# id: modular_hexagonal_arcology_generator
+# kind: addon
+# module: bl_ext.blender_org.modular_hexagonal_arcology_generator
+# name: Modular Arcology Generator
+# name_zh: 模块化生态建筑生成器
+# translator: KeshiMiao
+# category: Add Mesh
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: modular_hexagonal_arcology_generator/props.py:704
+msgid "% Wingspan Spacing"
+msgstr "% 翼展间距"
+
+#: modular_hexagonal_arcology_generator/props.py:691
+msgid "-1 is 100% solar, 0 is half solar and half wind by power, 1 is 100% wind"
+msgstr "-1 为 100% 太阳能，0 为太阳能与风能各占一半功率，1 为 100% 风能"
+
+#: modular_hexagonal_arcology_generator/props.py:696
+msgid "1.5 MW"
+msgstr "1.5 MW"
+
+#: modular_hexagonal_arcology_generator/props.py:697
+msgid "3 MW"
+msgstr "3 MW"
+
+#: modular_hexagonal_arcology_generator/props.py:232
+msgid "3 ft columns at every octagon corner, one 36 ft column per level"
+msgstr "每个八边形角落处的 3 英尺立柱，每层一根 36 英尺立柱"
+
+#: modular_hexagonal_arcology_generator/props.py:372
+msgid "3 ft columns at every rectangle corner, one 36 ft column per level"
+msgstr "每个矩形角落处的 3 英尺立柱，每层一根 36 英尺立柱"
+
+#: modular_hexagonal_arcology_generator/props.py:141
+msgid "3 ft hexagonal columns at every hex centre and corner"
+msgstr "每个六边形中心和角落处的 3 英尺六边形立柱"
+
+#: modular_hexagonal_arcology_generator/props.py:508
+msgid "3 ft pentagonal columns at every tile corner, one per level"
+msgstr "每个瓦片角落处的 3 英尺五边形立柱，每层一根"
+
+#: modular_hexagonal_arcology_generator/props.py:234
+msgid "4 ft roof paths on the park cells, six flat planes per cell, joined to neighbours"
+msgstr "公园单元格上的 4 英尺屋顶路径，每个单元格六个平面，与相邻单元连接"
+
+#: modular_hexagonal_arcology_generator/props.py:374
+msgid "4 ft roof paths on the park rectangles, joined to neighbours"
+msgstr "公园矩形上的 4 英尺屋顶路径，与相邻单元连接"
+
+#: modular_hexagonal_arcology_generator/props.py:510
+msgid "4 ft roof paths on the parks, joined to neighbouring parks"
+msgstr "公园上的 4 英尺屋顶路径，与相邻公园连接"
+
+#: modular_hexagonal_arcology_generator/props.py:698
+msgid "6 MW"
+msgstr "6 MW"
+
+#: modular_hexagonal_arcology_generator/props.py:696
+msgid "A 1.5 MW turbine"
+msgstr "一台 1.5 MW 风机"
+
+#: modular_hexagonal_arcology_generator/props.py:697
+msgid "A 3 MW turbine"
+msgstr "一台 3 MW 风机"
+
+#: modular_hexagonal_arcology_generator/props.py:698
+msgid "A 6 MW turbine"
+msgstr "一台 6 MW 风机"
+
+#: modular_hexagonal_arcology_generator/__init__.py:22
+msgid "Add Mesh"
+msgstr "添加网格"
+
+#: modular_hexagonal_arcology_generator/electricity.py:331
+#: modular_hexagonal_arcology_generator/electricity.py:492
+msgid "Add an arcology first"
+msgstr "请先添加生态建筑"
+
+#: modular_hexagonal_arcology_generator/props.py:160
+#: modular_hexagonal_arcology_generator/props.py:290
+msgid "Annual mortgage interest rate. The loan is a 30-year fixed mortgage"
+msgstr "年抵押贷款利率。该贷款为 30 年期固定抵押贷款"
+
+#: modular_hexagonal_arcology_generator/props.py:639
+msgid "Annual mortgage rate, in percent, for the monthly payment"
+msgstr "用于计算月供的年抵押贷款利率，单位为百分比"
+
+#: modular_hexagonal_arcology_generator/__init__.py:90
+#: modular_hexagonal_arcology_generator/panels.py:622
+msgid "Arcology"
+msgstr "生态建筑"
+
+#: modular_hexagonal_arcology_generator/props.py:681
+msgid "Area of one solar panel, in square metres"
+msgstr "单块太阳能板的面积，单位：平方米"
+
+#: modular_hexagonal_arcology_generator/props.py:702
+msgid "Average Wind Speed (m/s)"
+msgstr "平均风速 (m/s)"
+
+#: modular_hexagonal_arcology_generator/props.py:662
+msgid "Average continuous electricity demand of one person, in kW"
+msgstr "单人平均持续用电需求，单位：kW"
+
+#: modular_hexagonal_arcology_generator/props.py:158
+#: modular_hexagonal_arcology_generator/props.py:288
+msgid "Average number of people in each household"
+msgstr "每户平均人数"
+
+#: modular_hexagonal_arcology_generator/props.py:637
+msgid "Average persons in a household"
+msgstr "每户平均人数"
+
+#: modular_hexagonal_arcology_generator/props.py:702
+msgid "Average wind speed at the site, in metres per second"
+msgstr "场址平均风速，单位：米/秒"
+
+#: modular_hexagonal_arcology_generator/panels.py:570
+msgid "Battery Storage"
+msgstr "电池储能"
+
+#: modular_hexagonal_arcology_generator/props.py:664
+msgid "Battery Storage (nights)"
+msgstr "电池储能（夜间）"
+
+#: modular_hexagonal_arcology_generator/props.py:675
+msgid "Battery cost per kWh ($)"
+msgstr "每 kWh 电池成本（$）"
+
+#: modular_hexagonal_arcology_generator/props.py:138
+#: modular_hexagonal_arcology_generator/props.py:231
+msgid "Benches"
+msgstr "长椅"
+
+#: modular_hexagonal_arcology_generator/props.py:145
+#: modular_hexagonal_arcology_generator/props.py:596
+msgid "Benches per park hex"
+msgstr "每个公园六边形的长椅数"
+
+#: modular_hexagonal_arcology_generator/props.py:272
+msgid "Benches per park octagon"
+msgstr "每个公园八边形的长椅数"
+
+#: modular_hexagonal_arcology_generator/props.py:405
+msgid "Benches per park rectangle"
+msgstr "每个公园矩形的长椅数"
+
+#: modular_hexagonal_arcology_generator/props.py:499
+msgid "Benches per park tile"
+msgstr "每个公园瓦片的长椅数"
+
+#: modular_hexagonal_arcology_generator/props.py:635
+msgid "Build cost of one Flower Part structure, in millions of dollars"
+msgstr "单个花朵部件结构的建造成本，单位：百万美元"
+
+#: modular_hexagonal_arcology_generator/props.py:154
+msgid "Build cost of one hexagon cell, in millions of dollars"
+msgstr "单个六边形单元格的建造成本，单位：百万美元"
+
+#: modular_hexagonal_arcology_generator/props.py:286
+msgid "Build cost of one octagon cell, in millions of dollars"
+msgstr "单个八边形单元格的建造成本，单位：百万美元"
+
+#: modular_hexagonal_arcology_generator/props.py:415
+msgid "Build cost of one rectangle cell, in millions of dollars"
+msgstr "单个矩形单元格的建造成本，单位：百万美元"
+
+#: modular_hexagonal_arcology_generator/props.py:551
+msgid "Build cost of one thick rhombus cell, in millions of dollars"
+msgstr "单个厚菱形单元格的建造成本，单位：百万美元"
+
+#: modular_hexagonal_arcology_generator/maps.py:405
+msgid "Cell map hidden"
+msgstr "单元格图已隐藏"
+
+#: modular_hexagonal_arcology_generator/maps.py:409
+msgid "Cell map on. Click a cell, then press Commute From Selected"
+msgstr "单元格图已开启。点击一个单元格，然后按“从所选通勤”"
+
+#: modular_hexagonal_arcology_generator/panels.py:89
+msgid "Cells, rectangles (every layer, excluding junctions and parks): build to count"
+msgstr "矩形单元格（每一层，不含交叉口和公园）：建造数量"
+
+#: modular_hexagonal_arcology_generator/panels.py:188
+msgid "Cells, thick rhombi (every layer, excluding parks): build to count"
+msgstr "厚菱形单元格（每一层，不含公园）：建造数量"
+
+#: modular_hexagonal_arcology_generator/props.py:587
+msgid "Chance that a junction's top layer gets a park"
+msgstr "交叉口顶层生成公园的概率"
+
+#: modular_hexagonal_arcology_generator/props.py:107
+#: modular_hexagonal_arcology_generator/props.py:221
+msgid "Chance that a roof site gets a park"
+msgstr "屋顶位置生成公园的概率"
+
+#: modular_hexagonal_arcology_generator/props.py:209
+msgid "Chance that a row or column of octagons is a road"
+msgstr "一行或一列八边形成为道路的概率"
+
+#: modular_hexagonal_arcology_generator/props.py:351
+msgid "Chance that a row or column of rectangles is a road"
+msgstr "一行或一列矩形成为道路的概率"
+
+#: modular_hexagonal_arcology_generator/props.py:96
+msgid "Chance that a straight line of hexes is a road"
+msgstr "一条直线上的六边形成为道路的概率"
+
+#: modular_hexagonal_arcology_generator/props.py:448
+msgid "Changes the tower heights, the placement of the tiling, the elevators and the parks"
+msgstr "改变塔楼高度，以及瓦片、电梯和公园的布置"
+
+#: modular_hexagonal_arcology_generator/props.py:570
+msgid "Changes the turn of each copied object, and the trees and benches"
+msgstr "改变每个复制物体的旋转，以及树木和长椅"
+
+#: modular_hexagonal_arcology_generator/props.py:572
+msgid "Circle Radius (ft)"
+msgstr "圆半径 (ft)"
+
+#: modular_hexagonal_arcology_generator/props.py:575
+msgid "Circle Vertexes"
+msgstr "圆顶点数"
+
+#: modular_hexagonal_arcology_generator/props.py:626
+msgid "Circles"
+msgstr "圆"
+
+#: modular_hexagonal_arcology_generator/props.py:626
+msgid "Circles in the last build (set by Build)"
+msgstr "上次构建中的圆（由“构建”设置）"
+
+#: modular_hexagonal_arcology_generator/panels.py:616
+msgid "Click a cell in the viewport first"
+msgstr "请先在视图中点击一个单元格"
+
+#: modular_hexagonal_arcology_generator/panels.py:30
+#: modular_hexagonal_arcology_generator/panels.py:131
+msgid "Collections"
+msgstr "集合"
+
+#: modular_hexagonal_arcology_generator/props.py:141
+#: modular_hexagonal_arcology_generator/props.py:232
+msgid "Columns"
+msgstr "立柱"
+
+#: modular_hexagonal_arcology_generator/props.py:575
+msgid "Corners in each circle outline. Shown in the Size box below Circle Radius"
+msgstr "每个圆形轮廓的顶点数。显示在“圆半径”下方的“大小”框中"
+
+#: modular_hexagonal_arcology_generator/props.py:708
+#: modular_hexagonal_arcology_generator/props.py:710
+msgid "Cost Each $M"
+msgstr "每个成本 $M"
+
+#: modular_hexagonal_arcology_generator/props.py:635
+msgid "Cost Per Flower Part ($M)"
+msgstr "每个花朵部件成本（$M）"
+
+#: modular_hexagonal_arcology_generator/props.py:154
+msgid "Cost Per Hexagon ($M)"
+msgstr "每六边形成本（百万美元）"
+
+#: modular_hexagonal_arcology_generator/props.py:286
+msgid "Cost Per Octagon ($M)"
+msgstr "每八边形成本（百万美元）"
+
+#: modular_hexagonal_arcology_generator/props.py:415
+msgid "Cost Per Rectangle ($M)"
+msgstr "每矩形成本（百万美元）"
+
+#: modular_hexagonal_arcology_generator/props.py:551
+msgid "Cost Per Thick Rhombus ($M)"
+msgstr "每厚菱形成本（百万美元）"
+
+#: modular_hexagonal_arcology_generator/props.py:667
+msgid "Cost Per kWh ($)"
+msgstr "每千瓦时成本（$）"
+
+#: modular_hexagonal_arcology_generator/panels.py:600
+msgid "Depreciation, savings and ROI: n/a, no population yet"
+msgstr "折旧、节省与投资回报率：不适用，尚无人口"
+
+#: modular_hexagonal_arcology_generator/props.py:688
+msgid "Distance from one row to the next. Tilted rows need space so they do not shade each other"
+msgstr "一行到下一行的距离。倾斜的行需要留出空间，以免互相遮挡"
+
+#: modular_hexagonal_arcology_generator/props.py:704
+msgid "Distance from the centre of one turbine to the next, as a percentage of the wingspan (blade length). 200% is where the rotor discs just touch; real farms use about 1000% to 1800%"
+msgstr "从一个涡轮机中心到下一个涡轮机中心的距离，以翼展（叶片长度）的百分比表示。200% 时转子盘刚好相触；实际风电场约用 1000% 到 1800%"
+
+#: modular_hexagonal_arcology_generator/props.py:581
+msgid "Edge of each hexagonal elevator. Three sit in the corners of each Junction Hexagon"
+msgstr "每个六边形电梯的边长。三个位于每个交汇六边形的角上"
+
+#: modular_hexagonal_arcology_generator/panels.py:584
+msgid "Electric Summary"
+msgstr "电力摘要"
+
+#: modular_hexagonal_arcology_generator/props.py:452
+#: modular_hexagonal_arcology_generator/props.py:463
+msgid "Elevator Distance"
+msgstr "电梯距离"
+
+#: modular_hexagonal_arcology_generator/props.py:581
+msgid "Elevator edge (ft)"
+msgstr "电梯边长（英尺）"
+
+#: modular_hexagonal_arcology_generator/props.py:716
+msgid "Elevator speed up and down, in feet per second, for the commute map"
+msgstr "电梯上下行速度，单位为英尺/秒，用于通勤图"
+
+#: modular_hexagonal_arcology_generator/props.py:113
+#: modular_hexagonal_arcology_generator/props.py:135
+msgid "Elevators"
+msgstr "电梯"
+
+#: modular_hexagonal_arcology_generator/panels.py:108
+#: modular_hexagonal_arcology_generator/panels.py:208
+msgid "Estimated Land Area: build to calculate"
+msgstr "估算土地面积：构建后计算"
+
+#: modular_hexagonal_arcology_generator/panels.py:523
+msgid "Estimated Land Area: rebuild to calculate"
+msgstr "估算土地面积：重新构建后计算"
+
+#: modular_hexagonal_arcology_generator/props.py:65
+#: modular_hexagonal_arcology_generator/props.py:180
+msgid "Feet"
+msgstr "英尺"
+
+#: modular_hexagonal_arcology_generator/props.py:673
+msgid "Floor area of battery boxes needed for each MWh of storage"
+msgstr "每 MWh 储能所需的电池箱占地面积"
+
+#: modular_hexagonal_arcology_generator/panels.py:639
+msgid "Flower Arcs Do Not Generate Perfectly"
+msgstr "花朵弧线无法完美生成"
+
+#: modular_hexagonal_arcology_generator/props.py:598
+msgid "Flower Part 1"
+msgstr "花朵部件 1"
+
+#: modular_hexagonal_arcology_generator/props.py:600
+msgid "Flower Part 2"
+msgstr "花朵部件 2"
+
+#: modular_hexagonal_arcology_generator/props.py:602
+msgid "Flower Part 3"
+msgstr "花朵部件 3"
+
+#: modular_hexagonal_arcology_generator/props.py:604
+msgid "Flower Part 4"
+msgstr "花朵部件 4"
+
+#: modular_hexagonal_arcology_generator/props.py:606
+msgid "Flower Part 5"
+msgstr "花朵部件 5"
+
+#: modular_hexagonal_arcology_generator/props.py:608
+msgid "Flower Part 6"
+msgstr "花朵部件 6"
+
+#: modular_hexagonal_arcology_generator/props.py:610
+msgid "Flower Part 7"
+msgstr "花朵部件 7"
+
+#: modular_hexagonal_arcology_generator/props.py:612
+msgid "Flower Part 8"
+msgstr "花朵部件 8"
+
+#: modular_hexagonal_arcology_generator/panels.py:275
+msgid "Flower Part structures (one per part per layer): build to count"
+msgstr "花朵部件结构（每层每个部件一个）：构建后计数"
+
+#: modular_hexagonal_arcology_generator/props.py:628
+msgid "Flower Part structures in the last build, one per part per layer (set by Build)"
+msgstr "上次构建中的花朵部件结构，每层每个部件一个（由构建设置）"
+
+#: modular_hexagonal_arcology_generator/panels.py:252
+#: modular_hexagonal_arcology_generator/props.py:590
+msgid "Flower Parts"
+msgstr "花朵部件"
+
+#: modular_hexagonal_arcology_generator/props.py:722
+msgid "Footprint"
+msgstr "占地轮廓"
+
+#: modular_hexagonal_arcology_generator/panels.py:23
+#: modular_hexagonal_arcology_generator/panels.py:124
+msgid "Footprint and roof"
+msgstr "占地轮廓与屋顶"
+
+#: modular_hexagonal_arcology_generator/props.py:156
+msgid "Footprint hexes"
+msgstr "占地六边形"
+
+#: modular_hexagonal_arcology_generator/props.py:278
+msgid "Footprint octagons"
+msgstr "占地八边形"
+
+#: modular_hexagonal_arcology_generator/props.py:409
+msgid "Footprint rectangles"
+msgstr "占地矩形"
+
+#: modular_hexagonal_arcology_generator/props.py:543
+msgid "Footprint tiles"
+msgstr "占地图块"
+
+#: modular_hexagonal_arcology_generator/__init__.py:22
+msgid "Generates the hex arcology from ultra-low-poly proxies, live, with sliders."
+msgstr "通过滑块从超低多边形代理实时生成六边形生态建筑。"
+
+#: modular_hexagonal_arcology_generator/panels.py:51
+#: modular_hexagonal_arcology_generator/panels.py:154
+msgid "Height"
+msgstr "高度"
+
+#: modular_hexagonal_arcology_generator/props.py:76
+#: modular_hexagonal_arcology_generator/props.py:189
+msgid "Height of one level. Shown in the unit picked by the button beside Size"
+msgstr "一层的层高。以尺寸旁按钮所选单位显示"
+
+#: modular_hexagonal_arcology_generator/props.py:620
+msgid "Height of the roof between two layers"
+msgstr "两层之间屋顶的高度"
+
+#: modular_hexagonal_arcology_generator/props.py:81
+#: modular_hexagonal_arcology_generator/props.py:194
+msgid "Height of the roof slab. Shown in the unit picked by the button beside Size"
+msgstr "屋顶板的高度。以尺寸旁按钮所选单位显示"
+
+#: modular_hexagonal_arcology_generator/props.py:647
+msgid "Hemisphere"
+msgstr "半球"
+
+#: modular_hexagonal_arcology_generator/props.py:61
+#: modular_hexagonal_arcology_generator/props.py:68
+msgid "Hex edge length"
+msgstr "六边形边长"
+
+#: modular_hexagonal_arcology_generator/props.py:148
+msgid "Hexagon cells"
+msgstr "六边形单元"
+
+#: modular_hexagonal_arcology_generator/panels.py:504
+msgid "Hexagon cells (every layer, excluding transport and parks): rebuild to count"
+msgstr "六边形单元（每层，不含交通和公园）：重新构建后计数"
+
+#: modular_hexagonal_arcology_generator/props.py:148
+msgid "Hexagon cells in the last build, counted at every level, excluding transport hexes and the top (park) layer (set by Rebuild)"
+msgstr "上次构建中的六边形单元，按每层计数，不含交通六边形和顶层（公园）层（由重新构建设置）"
+
+#: modular_hexagonal_arcology_generator/props.py:116
+msgid "Hexagons"
+msgstr "六边形"
+
+#: modular_hexagonal_arcology_generator/props.py:156
+msgid "Hexagons across the footprint in the last build, transport included (set by Rebuild)"
+msgstr "上次构建中横跨占地范围的六边形，包含交通（由重新构建设置）"
+
+#: modular_hexagonal_arcology_generator/props.py:714
+msgid "Horizontal Commute (mph)"
+msgstr "水平通勤（英里/小时）"
+
+#: modular_hexagonal_arcology_generator/props.py:660
+msgid "Household use (kWh/yr)"
+msgstr "家庭用电（千瓦时/年）"
+
+#: modular_hexagonal_arcology_generator/props.py:736
+msgid "Identifies this arcology's output, so it stays put when the list changes"
+msgstr "标识此生态建筑的输出，使其在列表变化时保持不变"
+
+#: modular_hexagonal_arcology_generator/props.py:708
+msgid "Installed cost of one 1.5 MW turbine, in millions of dollars"
+msgstr "一台 1.5 MW 涡轮机的安装成本，以百万美元计"
+
+#: modular_hexagonal_arcology_generator/props.py:710
+msgid "Installed cost of one 3 MW turbine, in millions of dollars"
+msgstr "一台 3 MW 涡轮机的安装成本，以百万美元计"
+
+#: modular_hexagonal_arcology_generator/props.py:712
+msgid "Installed cost of one 6 MW turbine, in millions of dollars"
+msgstr "一台 6 MW 涡轮机的安装成本，以百万美元计"
+
+#: modular_hexagonal_arcology_generator/props.py:624
+msgid "Junctions"
+msgstr "交汇点"
+
+#: modular_hexagonal_arcology_generator/props.py:624
+msgid "Junctions (circle centres) in the last build (set by Build)"
+msgstr "上次构建中的交汇点（圆形中心）（由构建设置）"
+
+#: modular_hexagonal_arcology_generator/props.py:463
+msgid "Least centre-to-centre distance between thin tiles with elevators. Shown in the unit picked by the button beside Size"
+msgstr "带电梯的薄图块之间的最小中心距。以尺寸旁按钮所选单位显示"
+
+#: modular_hexagonal_arcology_generator/props.py:452
+msgid "Least distance, in metres, between two thin tiles that both have elevator shafts, measured centre to centre. 0 puts elevators in every thin tile"
+msgstr "两个都带电梯井的薄图块之间的最小中心到中心距离，单位为米。0 表示在每个薄图块中都放置电梯"
+
+#: modular_hexagonal_arcology_generator/props.py:383
+msgid "Length Road Rectangles"
+msgstr "道路矩形长度"
+
+#: modular_hexagonal_arcology_generator/props.py:450
+msgid "Length of one edge of a Penrose tile, in metres"
+msgstr "一个彭罗斯图块一条边的长度，单位为米"
+
+#: modular_hexagonal_arcology_generator/props.py:61
+msgid "Length of one edge of a hexagon, in scene units. Across the flats it is this times 1.732 (33.35 by default)"
+msgstr "六边形一条边的长度，以场景单位计。对边距为此值乘以 1.732（默认 33.35）"
+
+#: modular_hexagonal_arcology_generator/props.py:68
+msgid "Length of one edge of a hexagon. Shown in the unit picked by the button beside Size"
+msgstr "六边形一条边的长度。以“尺寸”旁按钮所选单位显示"
+
+#: modular_hexagonal_arcology_generator/props.py:314
+msgid "Length of one rectangle, along the hallway, in metres"
+msgstr "一个矩形沿走廊方向的长度，以米计"
+
+#: modular_hexagonal_arcology_generator/props.py:324
+msgid "Length of one rectangle, along the hallway. Shown in the unit picked by the button beside Size"
+msgstr "一个矩形沿走廊方向的长度。以“尺寸”旁按钮所选单位显示"
+
+#: modular_hexagonal_arcology_generator/props.py:177
+msgid "Length of one side of an octagon, in metres. The gap squares have the same side"
+msgstr "八边形一条边的长度，以米计。间隙正方形的边长与此相同"
+
+#: modular_hexagonal_arcology_generator/props.py:182
+msgid "Length of one side of an octagon. Shown in the unit picked by the button beside Size"
+msgstr "八边形一条边的长度。以“尺寸”旁按钮所选单位显示"
+
+#: modular_hexagonal_arcology_generator/props.py:458
+msgid "Length of one tile edge. Shown in the unit picked by the button beside Size"
+msgstr "一个地块边缘的长度。以“尺寸”旁按钮所选单位显示"
+
+#: modular_hexagonal_arcology_generator/props.py:76
+#: modular_hexagonal_arcology_generator/props.py:189
+msgid "Level height"
+msgstr "层高"
+
+#: modular_hexagonal_arcology_generator/props.py:73
+#: modular_hexagonal_arcology_generator/props.py:187
+msgid "Level height (ft)"
+msgstr "层高（英尺）"
+
+#: modular_hexagonal_arcology_generator/props.py:645
+msgid "Live update"
+msgstr "实时更新"
+
+#: modular_hexagonal_arcology_generator/panels.py:606
+msgid "Maps"
+msgstr "地图"
+
+#: modular_hexagonal_arcology_generator/panels.py:608
+msgid "Maps work on hexagon, octagon,"
+msgstr "地图适用于六边形、八边形，"
+
+#: modular_hexagonal_arcology_generator/maps.py:378
+msgid "Maps work on hexagon, octagon, rectangle and Penrose arcologies"
+msgstr "地图适用于六边形、八边形、矩形和彭罗斯生态建筑"
+
+#: modular_hexagonal_arcology_generator/props.py:98
+#: modular_hexagonal_arcology_generator/props.py:212
+msgid "Max Cells Between Roads"
+msgstr "道路间最大单元数"
+
+#: modular_hexagonal_arcology_generator/props.py:92
+#: modular_hexagonal_arcology_generator/props.py:205
+msgid "Max layers"
+msgstr "最大层数"
+
+#: modular_hexagonal_arcology_generator/props.py:101
+#: modular_hexagonal_arcology_generator/props.py:215
+msgid "Min Cells Between Roads"
+msgstr "道路间最小单元数"
+
+#: modular_hexagonal_arcology_generator/__init__.py:22
+msgid "Modular Arcology Generator"
+msgstr "模块化生态建筑生成器"
+
+#: modular_hexagonal_arcology_generator/props.py:160
+#: modular_hexagonal_arcology_generator/props.py:290
+msgid "Mortgage Rate"
+msgstr "房贷利率"
+
+#: modular_hexagonal_arcology_generator/props.py:656
+msgid "Multiply solar panel power by this number. 15% for Canada, 29% for desert. Accounts for weather, day/night, and seasons."
+msgstr "将太阳能板功率乘以该数值。加拿大为 15%，沙漠为 29%。会考虑天气、昼夜和季节。"
+
+#: modular_hexagonal_arcology_generator/props.py:664
+msgid "Nights the batteries can carry the city with no sun, 12 hours each. Sets the battery storage"
+msgstr "电池可在无日照下为城市供电的夜晚数，每晚 12 小时。设置电池储能"
+
+#: modular_hexagonal_arcology_generator/panels.py:696
+msgid "No 3D Viewport is open"
+msgstr "未打开 3D 视图"
+
+#: modular_hexagonal_arcology_generator/electricity.py:337
+msgid "No batteries needed: build an arcology with residents first"
+msgstr "无需电池：请先建造带住户的生态建筑"
+
+#: modular_hexagonal_arcology_generator/electricity.py:496
+msgid "No panels needed: build an arcology with residents first"
+msgstr "无需太阳能板：请先建造带住户的生态建筑"
+
+#: modular_hexagonal_arcology_generator/wind.py:302
+msgid "No turbines needed: raise the mix above -1 and build an arcology with residents first"
+msgstr "无需涡轮机：将混合比例提高到 -1 以上，并先建造带住户的生态建筑"
+
+#: modular_hexagonal_arcology_generator/props.py:650
+msgid "North Hemisphere"
+msgstr "北半球"
+
+#: modular_hexagonal_arcology_generator/props.py:614
+msgid "Objects in this collection are copied as the road through Flower Part 1, stretched to the road length and width. Empty = the generated road"
+msgstr "此集合中的物体将作为穿过花形第 1 部分的道路复制，并拉伸到道路长度和宽度。留空 = 生成的道路"
+
+#: modular_hexagonal_arcology_generator/props.py:598
+msgid "Objects in this collection are copied for Flower Part 1 (the lens), fitted to the circle radius and the roof height. Empty = the generated part"
+msgstr "此集合中的物体将复制为花形第 1 部分（透镜），适配圆形半径和屋顶高度。留空 = 生成的部分"
+
+#: modular_hexagonal_arcology_generator/props.py:600
+msgid "Objects in this collection are copied for Flower Part 2, fitted to the circle radius and the roof height. Empty = the generated part"
+msgstr "此集合中的物体将复制为花形第 2 部分，适配圆形半径和屋顶高度。留空 = 生成的部分"
+
+#: modular_hexagonal_arcology_generator/props.py:602
+msgid "Objects in this collection are copied for Flower Part 3, fitted to the circle radius and the roof height. Empty = the generated part"
+msgstr "此集合中的物体将复制为花形第 3 部分，适配圆形半径和屋顶高度。留空 = 生成的部分"
+
+#: modular_hexagonal_arcology_generator/props.py:604
+msgid "Objects in this collection are copied for Flower Part 4, fitted to the circle radius and the roof height. Empty = the generated part"
+msgstr "此集合中的物体将复制为花形第 4 部分，适配圆形半径和屋顶高度。留空 = 生成的部分"
+
+#: modular_hexagonal_arcology_generator/props.py:606
+msgid "Objects in this collection are copied for Flower Part 5, fitted to the circle radius and the roof height. Empty = the generated part"
+msgstr "此集合中的物体将复制为花形第 5 部分，适配圆形半径和屋顶高度。留空 = 生成的部分"
+
+#: modular_hexagonal_arcology_generator/props.py:608
+msgid "Objects in this collection are copied for Flower Part 6, fitted to the circle radius and the roof height. Empty = the generated part"
+msgstr "此集合中的物体将复制为花形第 6 部分，适配圆形半径和屋顶高度。留空 = 生成的部分"
+
+#: modular_hexagonal_arcology_generator/props.py:610
+msgid "Objects in this collection are copied for Flower Part 7 (the triangle), fitted to the circle radius and the roof height. Empty = the generated part"
+msgstr "此集合中的物体将复制为花形第 7 部分（三角形），适配圆形半径和屋顶高度。留空 = 生成的部分"
+
+#: modular_hexagonal_arcology_generator/props.py:612
+msgid "Objects in this collection are copied for Flower Part 8, fitted to the circle radius and the roof height. Empty = the generated part"
+msgstr "此集合中的物体将复制为花形第 8 部分，适配圆形半径和屋顶高度。留空 = 生成的部分"
+
+#: modular_hexagonal_arcology_generator/props.py:135
+#: modular_hexagonal_arcology_generator/props.py:538
+msgid "Objects in this collection are copied into the elevator shafts. Empty = generated shafts"
+msgstr "此集合中的物体将复制到电梯井中。留空 = 生成的井道"
+
+#: modular_hexagonal_arcology_generator/props.py:616
+msgid "Objects in this collection are copied into the hexagonal elevators, three at each junction. Empty = generated shafts"
+msgstr "此集合中的物体将复制到六边形电梯中，每个交叉点三个。留空 = 生成的井道"
+
+#: modular_hexagonal_arcology_generator/props.py:512
+msgid "Objects in this collection are copied into the thick tiles as towers. Empty = generated towers"
+msgstr "此集合中的物体将作为塔楼复制到厚地块中。留空 = 生成的塔楼"
+
+#: modular_hexagonal_arcology_generator/props.py:267
+msgid "Objects in this collection are copied into the transport octagons. Empty = generated shafts"
+msgstr "此集合中的物体将复制到交通八边形中。留空 = 生成的井道"
+
+#: modular_hexagonal_arcology_generator/props.py:400
+msgid "Objects in this collection are copied into the transport rectangles. Empty = generated shafts"
+msgstr "此集合中的物体将复制到交通矩形中。留空 = 生成的井道"
+
+#: modular_hexagonal_arcology_generator/props.py:519
+msgid "Objects in this collection are copied onto each side of the road on the thin tiles, one per side on each level of the road. Empty = nothing there"
+msgstr "此集合中的物体将复制到薄地块上道路的每一侧，道路每一层每侧一个。留空 = 此处无内容"
+
+#: modular_hexagonal_arcology_generator/props.py:535
+msgid "Objects in this collection are copied onto the exposed edges as walls. Empty = generated walls"
+msgstr "此集合中的物体将作为墙体复制到外露边缘上。留空 = 生成的墙体"
+
+#: modular_hexagonal_arcology_generator/props.py:129
+#: modular_hexagonal_arcology_generator/props.py:255
+msgid "Objects in this collection are copied onto the exposed sides as walls. Empty = generated walls"
+msgstr "此集合中的物体将作为墙体复制到外露侧面上。留空 = 生成的墙体"
+
+#: modular_hexagonal_arcology_generator/props.py:258
+msgid "Objects in this collection are copied onto the octagon roofs. Empty = generated roofs"
+msgstr "此集合中的物体将复制到八边形屋顶上。留空 = 生成的屋顶"
+
+#: modular_hexagonal_arcology_generator/props.py:379
+msgid "Objects in this collection are copied onto the rectangles whose road runs across the width. The road runs along X and the hallway along Y. Stretched to the rectangle. Empty = generated"
+msgstr "此集合中的物体将复制到道路横跨宽度的矩形上。道路沿 X 轴，走廊沿 Y 轴。拉伸到矩形。留空 = 生成的"
+
+#: modular_hexagonal_arcology_generator/props.py:383
+msgid "Objects in this collection are copied onto the rectangles whose road runs along the length. The road runs along Y and the hallway along X. Stretched to the rectangle. Empty = generated"
+msgstr "此集合中的物体将复制到道路沿长度方向的矩形上。道路沿 Y 轴，走廊沿 X 轴。拉伸到矩形。留空 = 生成的"
+
+#: modular_hexagonal_arcology_generator/props.py:240
+msgid "Objects in this collection are copied onto the road and junction octagons, four to a cell, one in each quarter, at road height. Each object is one quarter of the octagon with its origin at the centre, filling the quarter between +X and +Y. Empty = generated quarters"
+msgstr "此集合中的物体将复制到道路和交叉点八边形上，每个单元四个，每个四分之一区域一个，位于道路高度。每个物体是八边形的四分之一，原点在中心，填充 +X 与 +Y 之间的四分之一区域。留空 = 生成的四分之一部分"
+
+#: modular_hexagonal_arcology_generator/props.py:122
+msgid "Objects in this collection are copied onto the road hexes as road strips, at road height. The road runs along the object's X axis. Empty = generated road strips"
+msgstr "此集合中的物体将作为道路条带复制到道路六边形上，位于道路高度。道路沿物体的 X 轴。留空 = 生成的道路条带"
+
+#: modular_hexagonal_arcology_generator/props.py:119
+msgid "Objects in this collection are copied onto the road hexes. Empty = generated trapezoids"
+msgstr "此集合中的物体将复制到道路六边形上。留空 = 生成的梯形"
+
+#: modular_hexagonal_arcology_generator/props.py:245
+msgid "Objects in this collection are copied onto the roads as road strips, at road height, one from the centre of each octagon to its edge. The road runs along the object's X axis. Empty = generated strips"
+msgstr "此集合中的物体将作为道路条带复制到道路上，位于道路高度，从每个八边形中心到其边缘各一个。道路沿物体的 X 轴。留空 = 生成的条带"
+
+#: modular_hexagonal_arcology_generator/props.py:387
+msgid "Objects in this collection are copied onto the roads as road strips, at road height, one from the centre of each rectangle to its edge. The road runs along the object's X axis. Empty = generated strips"
+msgstr "此集合中的物体将作为道路条带复制到道路上，位于道路高度，从每个矩形中心到其边缘各一个。道路沿物体的 X 轴。留空 = 生成的条带"
+
+#: modular_hexagonal_arcology_generator/props.py:126
+#: modular_hexagonal_arcology_generator/props.py:252
+msgid "Objects in this collection are copied onto the roofs as parks. Empty = generated parks"
+msgstr "此集合中的物体将作为公园复制到屋顶上。留空 = 生成的公园"
+
+#: modular_hexagonal_arcology_generator/props.py:523
+msgid "Objects in this collection are copied onto the roofs of the thick tiles. Empty = generated roofs"
+msgstr "此集合中的物体将复制到厚地块的屋顶上。留空 = 生成的屋顶"
+
+#: modular_hexagonal_arcology_generator/props.py:526
+msgid "Objects in this collection are copied onto the roofs of the thin tiles. Empty = generated roofs"
+msgstr "此集合中的物体将复制到薄地块的屋顶上。留空 = 生成的屋顶"
+
+#: modular_hexagonal_arcology_generator/props.py:132
+#: modular_hexagonal_arcology_generator/props.py:397
+msgid "Objects in this collection are copied onto the roofs. Empty = generated roofs"
+msgstr "此集合中的物体将复制到屋顶上。留空 = 生成的屋顶"
+
+#: modular_hexagonal_arcology_generator/props.py:264
+msgid "Objects in this collection are copied onto the square roofs as parks. Empty = the Octagon Parks objects are used"
+msgstr "此集合中的物体将作为公园复制到方形屋顶上。留空 = 使用八边形公园物体"
+
+#: modular_hexagonal_arcology_generator/props.py:261
+msgid "Objects in this collection are copied onto the square roofs. Empty = generated roofs"
+msgstr "此集合中的物体将复制到方形屋顶上。留空 = 生成的屋顶"
+
+#: modular_hexagonal_arcology_generator/props.py:529
+msgid "Objects in this collection are copied onto the thick tiles as parks. Empty = generated parks"
+msgstr "此集合中的物体将作为公园复制到厚地块上。留空 = 生成的公园"
+
+#: modular_hexagonal_arcology_generator/props.py:532
+msgid "Objects in this collection are copied onto the thin tiles as parks. Empty = generated parks"
+msgstr "此集合中的物体将作为公园复制到薄地块上。留空 = 生成的公园"
+
+#: modular_hexagonal_arcology_generator/props.py:515
+msgid "Objects in this collection are copied onto the thin tiles as roads, stretched along the long diagonal to the road width. Empty = generated roads"
+msgstr "此集合中的物体将作为道路复制到薄地块上，沿长对角线拉伸到道路宽度。留空 = 生成的道路"
+
+#: modular_hexagonal_arcology_generator/props.py:116
+msgid "Objects in this collection are copied to fill the hexagon towers. Empty = generated hexagons"
+msgstr "此集合中的物体将复制以填充六边形塔楼。留空 = 生成的六边形"
+
+#: modular_hexagonal_arcology_generator/props.py:236
+msgid "Objects in this collection are copied to fill the octagon towers. Empty = generated octagons"
+msgstr "此集合中的物体将被复制以填充八边形塔楼。留空 = 自动生成八边形"
+
+#: modular_hexagonal_arcology_generator/props.py:376
+msgid "Objects in this collection are copied to fill the rectangle towers. Empty = generated towers"
+msgstr "此集合中的物体将被复制以填充矩形塔楼。留空 = 自动生成塔楼"
+
+#: modular_hexagonal_arcology_generator/props.py:249
+msgid "Objects in this collection are copied to fill the square towers. Empty = generated squares"
+msgstr "此集合中的物体将被复制以填充方形塔楼。留空 = 自动生成方形"
+
+#: modular_hexagonal_arcology_generator/props.py:252
+msgid "Octagon Parks"
+msgstr "八边形公园"
+
+#: modular_hexagonal_arcology_generator/props.py:258
+msgid "Octagon Roofs"
+msgstr "八边形屋顶"
+
+#: modular_hexagonal_arcology_generator/props.py:274
+msgid "Octagon cells"
+msgstr "八边形单元"
+
+#: modular_hexagonal_arcology_generator/panels.py:396
+msgid "Octagon cells (every layer, excluding junctions and parks): build to count"
+msgstr "八边形单元（每层，不含交叉节点和公园）：构建后计数"
+
+#: modular_hexagonal_arcology_generator/props.py:274
+msgid "Octagon cells in the last build, counted at every level, excluding junctions and the park layer (set by Build)"
+msgstr "上次构建的八边形单元数，按每层计数，不含交叉节点和公园层（由构建设置）"
+
+#: modular_hexagonal_arcology_generator/props.py:177
+#: modular_hexagonal_arcology_generator/props.py:182
+msgid "Octagon edge length"
+msgstr "八边形边长"
+
+#: modular_hexagonal_arcology_generator/props.py:236
+msgid "Octagons"
+msgstr "八边形"
+
+#: modular_hexagonal_arcology_generator/props.py:278
+msgid "Octagons across the footprint in the last build (set by Build)"
+msgstr "上次构建时占地范围内的八边形数量（由构建设置）"
+
+#: modular_hexagonal_arcology_generator/props.py:57
+msgid "Optional. Its height above each hex sets that hex's layer count, so it can be sculpted"
+msgstr "可选。其在每个六边形上方的高度决定该六边形的层数，因此可通过雕刻调整"
+
+#: modular_hexagonal_arcology_generator/props.py:566
+msgid "Optional. Its height above each junction sets that junction's layers, and the top layer meets it. Without one, every junction gets the layer cap"
+msgstr "可选。其在每个交叉节点上方的高度决定该节点的层数，顶层与其相接。未指定时，每个节点使用层数上限"
+
+#: modular_hexagonal_arcology_generator/props.py:173
+msgid "Optional. Its height above each octagon sets that octagon's layer count, so it can be sculpted"
+msgstr "可选。其在每个八边形上方的高度决定该八边形的层数，因此可通过雕刻调整"
+
+#: modular_hexagonal_arcology_generator/props.py:307
+msgid "Optional. Its height above each rectangle sets that rectangle's layer count, so it can be sculpted"
+msgstr "可选。其在每个矩形上方的高度决定该矩形的层数，因此可通过雕刻调整"
+
+#: modular_hexagonal_arcology_generator/props.py:445
+msgid "Optional. Its height above each tile sets that tile's layer count, so it can be sculpted"
+msgstr "可选。其在每个瓦片上方的高度决定该瓦片的层数，因此可通过雕刻调整"
+
+#: modular_hexagonal_arcology_generator/props.py:681
+msgid "Panel area (m2)"
+msgstr "面板面积（m2）"
+
+#: modular_hexagonal_arcology_generator/props.py:677
+msgid "Panel rating (W)"
+msgstr "面板额定功率（W）"
+
+#: modular_hexagonal_arcology_generator/props.py:683
+msgid "Panel width per mount (m)"
+msgstr "每个支架的面板宽度（m）"
+
+#: modular_hexagonal_arcology_generator/props.py:686
+msgid "Panels along one row, from one end of the mount to the other"
+msgstr "沿一排的面板数量，从支架一端到另一端"
+
+#: modular_hexagonal_arcology_generator/props.py:686
+msgid "Panels per row"
+msgstr "每排面板数"
+
+#: modular_hexagonal_arcology_generator/props.py:107
+#: modular_hexagonal_arcology_generator/props.py:221
+msgid "Park density"
+msgstr "公园密度"
+
+#: modular_hexagonal_arcology_generator/props.py:112
+#: modular_hexagonal_arcology_generator/props.py:126
+msgid "Parks"
+msgstr "公园"
+
+#: modular_hexagonal_arcology_generator/panels.py:256
+msgid "Parks, trees and benches"
+msgstr "公园、树木和长椅"
+
+#: modular_hexagonal_arcology_generator/props.py:139
+#: modular_hexagonal_arcology_generator/props.py:234
+msgid "Paths"
+msgstr "路径"
+
+#: modular_hexagonal_arcology_generator/panels.py:590
+msgid "Per capita (calculated): n/a, no population yet"
+msgstr "人均（计算值）：不适用，暂无人口"
+
+#: modular_hexagonal_arcology_generator/props.py:150
+#: modular_hexagonal_arcology_generator/props.py:280
+msgid "Percent Residential"
+msgstr "住宅占比"
+
+#: modular_hexagonal_arcology_generator/props.py:158
+#: modular_hexagonal_arcology_generator/props.py:288
+msgid "Persons Per Household"
+msgstr "每户人数"
+
+#: modular_hexagonal_arcology_generator/props.py:590
+msgid "Place the Flower Parts on the junctions, one level at a time"
+msgstr "将花形部件放置在交叉节点上，一次一层"
+
+#: modular_hexagonal_arcology_generator/panels.py:652
+msgid "Press + to add an arcology on a footprint."
+msgstr "按 + 在占地上添加生态建筑。"
+
+#: modular_hexagonal_arcology_generator/maps.py:382
+msgid "Press Build on this arcology first, so the map has its cells"
+msgstr "请先在此生态建筑上点击构建，以便地图获得其单元"
+
+#: modular_hexagonal_arcology_generator/props.py:675
+msgid "Price of battery storage, per kilowatt-hour"
+msgstr "电池储能价格，每千瓦时"
+
+#: modular_hexagonal_arcology_generator/props.py:679
+msgid "Price of solar panels, per watt of rated output"
+msgstr "太阳能板价格，每瓦额定输出"
+
+#: modular_hexagonal_arcology_generator/props.py:679
+msgid "Price per watt ($)"
+msgstr "每瓦价格（$）"
+
+#: modular_hexagonal_arcology_generator/info.py:113
+msgid "Proudly made by Claude Haiku 5.5"
+msgstr "由 Claude Haiku 5.5 自豪打造"
+
+#: modular_hexagonal_arcology_generator/props.py:240
+msgid "Quarter Octagons"
+msgstr "四分之一八边形"
+
+#: modular_hexagonal_arcology_generator/props.py:572
+msgid "Radius of each circle. It is the road length too, and neighbouring junctions are one radius apart"
+msgstr "每个圆的半径。同时也是道路长度，相邻交叉节点相距一个半径"
+
+#: modular_hexagonal_arcology_generator/props.py:596
+msgid "Random benches placed in each park"
+msgstr "每个公园中随机放置的长椅"
+
+#: modular_hexagonal_arcology_generator/props.py:145
+msgid "Random benches placed in each park hexagon"
+msgstr "每个公园六边形中随机放置的长椅"
+
+#: modular_hexagonal_arcology_generator/props.py:272
+msgid "Random benches placed in each park octagon"
+msgstr "每个公园八边形中随机放置的长椅"
+
+#: modular_hexagonal_arcology_generator/props.py:405
+msgid "Random benches placed in each park rectangle"
+msgstr "每个公园矩形中随机放置的长椅"
+
+#: modular_hexagonal_arcology_generator/props.py:499
+msgid "Random benches placed in each park tile"
+msgstr "每个公园瓦片中随机放置的长椅"
+
+#: modular_hexagonal_arcology_generator/props.py:594
+msgid "Random trees placed in each park"
+msgstr "每个公园中随机放置的树木"
+
+#: modular_hexagonal_arcology_generator/props.py:143
+msgid "Random trees placed in each park hexagon"
+msgstr "每个公园六边形中随机放置的树木"
+
+#: modular_hexagonal_arcology_generator/props.py:270
+msgid "Random trees placed in each park octagon"
+msgstr "每个公园八边形中随机放置的树木"
+
+#: modular_hexagonal_arcology_generator/props.py:403
+msgid "Random trees placed in each park rectangle"
+msgstr "每个公园矩形中随机放置的树木"
+
+#: modular_hexagonal_arcology_generator/props.py:497
+msgid "Random trees placed in each park tile"
+msgstr "每个公园瓦片中随机放置的树木"
+
+#: modular_hexagonal_arcology_generator/props.py:677
+msgid "Rated output of one solar panel, in watts"
+msgstr "单块太阳能板的额定输出，单位瓦"
+
+#: modular_hexagonal_arcology_generator/props.py:645
+msgid "Rebuild a moment after every change"
+msgstr "每次更改后稍候重建"
+
+#: modular_hexagonal_arcology_generator/props.py:407
+msgid "Rectangle cells"
+msgstr "矩形单元"
+
+#: modular_hexagonal_arcology_generator/props.py:407
+msgid "Rectangle cells in the last build, counted at every level, excluding junctions and the park layer (set by Build)"
+msgstr "上次构建的矩形单元数，按每层计数，不含交叉节点和公园层（由构建设置）"
+
+#: modular_hexagonal_arcology_generator/props.py:314
+#: modular_hexagonal_arcology_generator/props.py:324
+msgid "Rectangle length"
+msgstr "矩形长度"
+
+#: modular_hexagonal_arcology_generator/props.py:311
+#: modular_hexagonal_arcology_generator/props.py:319
+msgid "Rectangle width"
+msgstr "矩形宽度"
+
+#: modular_hexagonal_arcology_generator/props.py:376
+msgid "Rectangles"
+msgstr "矩形"
+
+#: modular_hexagonal_arcology_generator/props.py:409
+msgid "Rectangles across the footprint in the last build (set by Build)"
+msgstr "上次构建时占地范围内的矩形数量（由构建设置）"
+
+#: modular_hexagonal_arcology_generator/props.py:670
+msgid "Replacement (years)"
+msgstr "更换周期（年）"
+
+#: modular_hexagonal_arcology_generator/props.py:633
+msgid "Residents in each residential Flower Part structure"
+msgstr "每个住宅花形部件结构中的居民数"
+
+#: modular_hexagonal_arcology_generator/props.py:152
+msgid "Residents in each residential hexagon cell"
+msgstr "每个住宅六边形单元中的居民数"
+
+#: modular_hexagonal_arcology_generator/props.py:282
+msgid "Residents in each residential octagon cell"
+msgstr "每个住宅八边形单元中的居民数"
+
+#: modular_hexagonal_arcology_generator/props.py:413
+msgid "Residents in each residential rectangle cell"
+msgstr "每个住宅矩形单元中的居民数"
+
+#: modular_hexagonal_arcology_generator/props.py:284
+msgid "Residents in each residential square cell"
+msgstr "每个住宅方格单元中的居民数"
+
+#: modular_hexagonal_arcology_generator/props.py:549
+msgid "Residents in each residential thick rhombus cell. Thin rhombi hold no residents"
+msgstr "每个住宅厚菱形单元中的居民数。薄菱形单元不含居民"
+
+#: modular_hexagonal_arcology_generator/props.py:152
+msgid "Residents per hexagon"
+msgstr "每个六边形的居民数"
+
+#: modular_hexagonal_arcology_generator/props.py:282
+msgid "Residents per octagon"
+msgstr "每个八边形的居民数"
+
+#: modular_hexagonal_arcology_generator/props.py:633
+msgid "Residents per part"
+msgstr "每个部件的居民数"
+
+#: modular_hexagonal_arcology_generator/props.py:413
+msgid "Residents per rectangle"
+msgstr "每个矩形的居民数"
+
+#: modular_hexagonal_arcology_generator/props.py:284
+msgid "Residents per square"
+msgstr "每个正方形的居民数"
+
+#: modular_hexagonal_arcology_generator/props.py:549
+msgid "Residents per thick rhombi"
+msgstr "每个厚菱形的居民数"
+
+#: modular_hexagonal_arcology_generator/props.py:119
+msgid "Road Trapezoids"
+msgstr "道路梯形"
+
+#: modular_hexagonal_arcology_generator/props.py:96
+#: modular_hexagonal_arcology_generator/props.py:209
+msgid "Road chance"
+msgstr "道路概率"
+
+#: modular_hexagonal_arcology_generator/props.py:87
+#: modular_hexagonal_arcology_generator/props.py:200
+msgid "Road width"
+msgstr "道路宽度"
+
+#: modular_hexagonal_arcology_generator/props.py:86
+#: modular_hexagonal_arcology_generator/props.py:199
+msgid "Road width (ft)"
+msgstr "道路宽度（英尺）"
+
+#: modular_hexagonal_arcology_generator/props.py:110
+#: modular_hexagonal_arcology_generator/props.py:122
+msgid "Roads"
+msgstr "道路"
+
+#: modular_hexagonal_arcology_generator/panels.py:57
+#: modular_hexagonal_arcology_generator/panels.py:361
+msgid "Roads and seed"
+msgstr "道路与种子"
+
+#: modular_hexagonal_arcology_generator/props.py:132
+#: modular_hexagonal_arcology_generator/props.py:397
+msgid "Roof"
+msgstr "屋顶"
+
+#: modular_hexagonal_arcology_generator/props.py:57
+#: modular_hexagonal_arcology_generator/props.py:173
+msgid "Roof Plane"
+msgstr "屋顶平面"
+
+#: modular_hexagonal_arcology_generator/props.py:81
+#: modular_hexagonal_arcology_generator/props.py:194
+msgid "Roof height"
+msgstr "屋顶高度"
+
+#: modular_hexagonal_arcology_generator/props.py:74
+#: modular_hexagonal_arcology_generator/props.py:188
+msgid "Roof height (ft)"
+msgstr "屋顶高度（英尺）"
+
+#: modular_hexagonal_arcology_generator/props.py:688
+msgid "Row spacing (m)"
+msgstr "行间距（米）"
+
+#: modular_hexagonal_arcology_generator/props.py:104
+#: modular_hexagonal_arcology_generator/props.py:218
+msgid "Scales every tree, its canopy and its trunk. 0 hides the trees, 3 is three times the size"
+msgstr "缩放每棵树及其树冠和树干。0 会隐藏树木，3 表示三倍大小"
+
+#: modular_hexagonal_arcology_generator/panels.py:160
+#: modular_hexagonal_arcology_generator/panels.py:266
+msgid "Seed"
+msgstr "种子"
+
+#: modular_hexagonal_arcology_generator/__init__.py:93
+#: modular_hexagonal_arcology_generator/props.py:725
+msgid "Shape"
+msgstr "形状"
+
+#: modular_hexagonal_arcology_generator/props.py:631
+msgid "Share of Flower Part structures that are residential, from 0 to 1"
+msgstr "花卉部件结构中住宅的占比，0 到 1"
+
+#: modular_hexagonal_arcology_generator/props.py:150
+msgid "Share of hexagon cells that are residential, from 0 to 1"
+msgstr "六边形单元中住宅的占比，0 到 1"
+
+#: modular_hexagonal_arcology_generator/props.py:280
+msgid "Share of octagon cells that are residential, from 0 to 1"
+msgstr "八边形单元中住宅的占比，0 到 1"
+
+#: modular_hexagonal_arcology_generator/props.py:411
+msgid "Share of rectangle cells that are residential, from 0 to 1"
+msgstr "矩形单元中住宅的占比，0 到 1"
+
+#: modular_hexagonal_arcology_generator/props.py:547
+msgid "Share of thick rhombus cells that are residential, from 0 to 1"
+msgstr "厚菱形单元中住宅的占比，0 到 1"
+
+#: modular_hexagonal_arcology_generator/panels.py:67
+#: modular_hexagonal_arcology_generator/panels.py:166
+msgid "Show"
+msgstr "显示"
+
+#: modular_hexagonal_arcology_generator/maps.py:455
+msgid "Show a map, click a cell, then press Commute"
+msgstr "显示地图，点击单元，然后按“通勤”"
+
+#: modular_hexagonal_arcology_generator/props.py:65
+msgid "Show the hex edge length in feet instead of meters"
+msgstr "以英尺而非米显示六边形边长"
+
+#: modular_hexagonal_arcology_generator/props.py:180
+msgid "Show the octagon edge length and heights in feet instead of meters"
+msgstr "以英尺而非米显示八边形边长和高度"
+
+#: modular_hexagonal_arcology_generator/props.py:456
+msgid "Show the tile edge, distances and heights in feet instead of metres"
+msgstr "以英尺而非米显示瓦片边缘、距离和高度"
+
+#: modular_hexagonal_arcology_generator/props.py:317
+msgid "Show the width, length and heights in feet instead of meters"
+msgstr "以英尺而非米显示宽度、长度和高度"
+
+#: modular_hexagonal_arcology_generator/panels.py:43
+#: modular_hexagonal_arcology_generator/panels.py:145
+msgid "Size"
+msgstr "大小"
+
+#: modular_hexagonal_arcology_generator/props.py:693
+msgid "Size of the wind turbines"
+msgstr "风力发电机的大小"
+
+#: modular_hexagonal_arcology_generator/props.py:691
+msgid "Solar / Wind Mix"
+msgstr "太阳能/风能混合"
+
+#: modular_hexagonal_arcology_generator/panels.py:536
+msgid "Solar Power"
+msgstr "太阳能发电"
+
+#: modular_hexagonal_arcology_generator/props.py:656
+msgid "Solar capacity factor"
+msgstr "太阳能容量因子"
+
+#: modular_hexagonal_arcology_generator/props.py:651
+msgid "South Hemisphere"
+msgstr "南半球"
+
+#: modular_hexagonal_arcology_generator/props.py:714
+msgid "Speed along the roads, for the commute map"
+msgstr "沿道路的速度，用于通勤图"
+
+#: modular_hexagonal_arcology_generator/props.py:673
+msgid "Sq-ft per MWh"
+msgstr "平方英尺/MWh"
+
+#: modular_hexagonal_arcology_generator/props.py:264
+msgid "Square Parks"
+msgstr "方形公园"
+
+#: modular_hexagonal_arcology_generator/props.py:261
+msgid "Square Roofs"
+msgstr "方形屋顶"
+
+#: modular_hexagonal_arcology_generator/props.py:276
+msgid "Square cells"
+msgstr "方形单元"
+
+#: modular_hexagonal_arcology_generator/panels.py:397
+msgid "Square cells (every layer, excluding parks): build to count"
+msgstr "方形单元（每一层，不包括公园）：构建后计数"
+
+#: modular_hexagonal_arcology_generator/props.py:276
+msgid "Square cells in the last build, counted at every level, excluding the park layer (set by Build)"
+msgstr "上次构建中的方形单元数，按每一层计数，不包括公园层（由“构建”设置）"
+
+#: modular_hexagonal_arcology_generator/props.py:225
+msgid "Square towers in the gaps between the octagons"
+msgstr "八边形之间空隙中的方形塔楼"
+
+#: modular_hexagonal_arcology_generator/props.py:225
+#: modular_hexagonal_arcology_generator/props.py:249
+msgid "Squares"
+msgstr "方形"
+
+#: modular_hexagonal_arcology_generator/panels.py:84
+#: modular_hexagonal_arcology_generator/panels.py:183
+msgid "Stats"
+msgstr "统计"
+
+#: modular_hexagonal_arcology_generator/props.py:655
+msgid "Status"
+msgstr "状态"
+
+#: modular_hexagonal_arcology_generator/maps.py:435
+msgid "Sunshine exposure on. Parks are left clear"
+msgstr "日照曝光已开启。公园保持空白"
+
+#: modular_hexagonal_arcology_generator/maps.py:428
+msgid "Sunshine map hidden"
+msgstr "日照图已隐藏"
+
+#: modular_hexagonal_arcology_generator/__init__.py:90
+msgid "The arcology the panel is showing"
+msgstr "面板当前显示的生态建筑"
+
+#: modular_hexagonal_arcology_generator/props.py:725
+msgid "The city this footprint gets"
+msgstr "此占地范围生成的城市"
+
+#: modular_hexagonal_arcology_generator/props.py:101
+msgid "The fewest rows or columns of hexes that must sit between two roads, so roads are never back to back"
+msgstr "两条道路之间必须保留的最少六边形行数或列数，以免道路背靠背"
+
+#: modular_hexagonal_arcology_generator/props.py:215
+msgid "The fewest rows or columns of octagons that must sit between two roads, so roads are never back to back"
+msgstr "两条道路之间必须保留的最少八边形行数或列数，以免道路背靠背"
+
+#: modular_hexagonal_arcology_generator/props.py:357
+msgid "The fewest rows or columns of rectangles that must sit between two roads, so roads are never back to back"
+msgstr "两条道路之间必须保留的最少矩形行数或列数，以免道路背靠背"
+
+#: modular_hexagonal_arcology_generator/props.py:722
+msgid "The mesh this arcology is built on"
+msgstr "此生态建筑所基于的网格"
+
+#: modular_hexagonal_arcology_generator/props.py:92
+msgid "The most layers any hex can have"
+msgstr "任意六边形可拥有的最大层数"
+
+#: modular_hexagonal_arcology_generator/props.py:622
+msgid "The most layers any junction gets"
+msgstr "任意交叉点可获得的最大层数"
+
+#: modular_hexagonal_arcology_generator/props.py:205
+msgid "The most layers any octagon or square can have"
+msgstr "任意八边形或正方形所能拥有的最大层数"
+
+#: modular_hexagonal_arcology_generator/props.py:347
+msgid "The most layers any rectangle can have"
+msgstr "任意矩形所能拥有的最大层数"
+
+#: modular_hexagonal_arcology_generator/props.py:488
+msgid "The most layers any tile can have"
+msgstr "任意瓦片所能拥有的最大层数"
+
+#: modular_hexagonal_arcology_generator/props.py:98
+msgid "The most rows or columns of hexes that can sit between two roads. A road is forced when reached"
+msgstr "两条道路之间可容纳的六边形行或列的最大数量。达到后强制生成道路"
+
+#: modular_hexagonal_arcology_generator/props.py:212
+msgid "The most rows or columns of octagons that can sit between two roads. A road is forced when reached"
+msgstr "两条道路之间可容纳的八边形行或列的最大数量。达到后强制生成道路"
+
+#: modular_hexagonal_arcology_generator/props.py:354
+msgid "The most rows or columns of rectangles that can sit between two roads. A road is forced when reached"
+msgstr "两条道路之间可容纳的矩形行或列的最大数量。达到后强制生成道路"
+
+#: modular_hexagonal_arcology_generator/__init__.py:93
+msgid "The shape Build gives the selected arcology"
+msgstr "构建操作赋予所选生态建筑的形状"
+
+#: modular_hexagonal_arcology_generator/props.py:651
+msgid "The sun is to the north: the sunshine map is turned 180 degrees"
+msgstr "太阳位于北方：日照图旋转 180 度"
+
+#: modular_hexagonal_arcology_generator/props.py:650
+msgid "The sun is to the south, so south-facing windows get the most sun"
+msgstr "太阳位于南方，因此朝南的窗户获得最多日照"
+
+#: modular_hexagonal_arcology_generator/props.py:529
+msgid "Thick Parks"
+msgstr "厚公园"
+
+#: modular_hexagonal_arcology_generator/props.py:512
+msgid "Thick Rhombs"
+msgstr "厚菱形"
+
+#: modular_hexagonal_arcology_generator/props.py:523
+msgid "Thick Roofs"
+msgstr "厚屋顶"
+
+#: modular_hexagonal_arcology_generator/props.py:541
+msgid "Thick rhombi cells"
+msgstr "厚菱形单元"
+
+#: modular_hexagonal_arcology_generator/props.py:541
+msgid "Thick rhombus cells in the last build, counted at every level (set by Build)"
+msgstr "上次构建中的厚菱形单元数，按每个层级统计（由构建设置）"
+
+#: modular_hexagonal_arcology_generator/props.py:545
+msgid "Thick tiles"
+msgstr "厚瓦片"
+
+#: modular_hexagonal_arcology_generator/props.py:545
+msgid "Thick tiles in the last build (set by Build)"
+msgstr "上次构建中的厚瓦片数（由构建设置）"
+
+#: modular_hexagonal_arcology_generator/props.py:579
+msgid "Thickness of the concrete wall that follows each circle outline"
+msgstr "沿每个圆形轮廓的混凝土墙厚度"
+
+#: modular_hexagonal_arcology_generator/props.py:519
+msgid "Thin Half Rhombs"
+msgstr "薄半菱形"
+
+#: modular_hexagonal_arcology_generator/props.py:532
+msgid "Thin Parks"
+msgstr "薄公园"
+
+#: modular_hexagonal_arcology_generator/props.py:526
+msgid "Thin Roofs"
+msgstr "薄屋顶"
+
+#: modular_hexagonal_arcology_generator/props.py:450
+#: modular_hexagonal_arcology_generator/props.py:458
+msgid "Tile edge"
+msgstr "瓦片边缘"
+
+#: modular_hexagonal_arcology_generator/props.py:543
+msgid "Tiles across the footprint in the last build (set by Build)"
+msgstr "上次构建中横跨占地范围的瓦片数（由构建设置）"
+
+#: modular_hexagonal_arcology_generator/props.py:95
+#: modular_hexagonal_arcology_generator/props.py:208
+msgid "Tower max layers"
+msgstr "塔楼最大层数"
+
+#: modular_hexagonal_arcology_generator/props.py:94
+#: modular_hexagonal_arcology_generator/props.py:207
+msgid "Tower min layers"
+msgstr "塔楼最小层数"
+
+#: modular_hexagonal_arcology_generator/props.py:109
+#: modular_hexagonal_arcology_generator/props.py:223
+msgid "Towers"
+msgstr "塔楼"
+
+#: modular_hexagonal_arcology_generator/props.py:111
+msgid "Trapezoids"
+msgstr "梯形"
+
+#: modular_hexagonal_arcology_generator/props.py:104
+#: modular_hexagonal_arcology_generator/props.py:218
+msgid "Tree Scale"
+msgstr "树木缩放"
+
+#: modular_hexagonal_arcology_generator/props.py:115
+#: modular_hexagonal_arcology_generator/props.py:230
+msgid "Trees"
+msgstr "树木"
+
+#: modular_hexagonal_arcology_generator/props.py:143
+#: modular_hexagonal_arcology_generator/props.py:594
+msgid "Trees per park hex"
+msgstr "每个公园六边形的树木数"
+
+#: modular_hexagonal_arcology_generator/props.py:270
+msgid "Trees per park octagon"
+msgstr "每个公园八边形的树木数"
+
+#: modular_hexagonal_arcology_generator/props.py:403
+msgid "Trees per park rectangle"
+msgstr "每个公园矩形的树木数"
+
+#: modular_hexagonal_arcology_generator/props.py:497
+msgid "Trees per park tile"
+msgstr "每个公园瓦片的树木数"
+
+#: modular_hexagonal_arcology_generator/props.py:693
+msgid "Turbine size"
+msgstr "风机尺寸"
+
+#: modular_hexagonal_arcology_generator/props.py:716
+msgid "Vertical Commute Feet-per-second"
+msgstr "垂直通勤英尺/秒"
+
+#: modular_hexagonal_arcology_generator/props.py:579
+msgid "Wall width (ft)"
+msgstr "墙宽度（英尺）"
+
+#: modular_hexagonal_arcology_generator/props.py:114
+#: modular_hexagonal_arcology_generator/props.py:129
+msgid "Walls"
+msgstr "墙"
+
+#: modular_hexagonal_arcology_generator/props.py:667
+msgid "What residents pay for one kilowatt-hour of electricity. Sets the monthly savings per capita"
+msgstr "居民每千瓦时电费。决定人均每月节省额"
+
+#: modular_hexagonal_arcology_generator/props.py:647
+msgid "Which hemisphere the sunshine map is for"
+msgstr "日照图适用的半球"
+
+#: modular_hexagonal_arcology_generator/props.py:379
+msgid "Width Road Rectangles"
+msgstr "矩形道路宽度"
+
+#: modular_hexagonal_arcology_generator/props.py:87
+#: modular_hexagonal_arcology_generator/props.py:200
+msgid "Width of a road. Shown in the unit picked by the button beside Size"
+msgstr "道路宽度。以“尺寸”旁按钮所选单位显示"
+
+#: modular_hexagonal_arcology_generator/props.py:469
+msgid "Width of each road, along the long diagonal of a thin tile"
+msgstr "每条道路的宽度，沿薄瓦片的长对角线方向"
+
+#: modular_hexagonal_arcology_generator/props.py:471
+msgid "Width of each road. Shown in the unit picked by the button beside Size"
+msgstr "道路宽度。以“尺寸”旁按钮所选单位显示"
+
+#: modular_hexagonal_arcology_generator/props.py:683
+msgid "Width of one mount across the slope. Panels lie lengthwise, so a 4 m mount holds 4 panels that are 1 m wide each"
+msgstr "单个支架沿坡面的宽度。面板纵向铺设，因此 4 米支架可容纳 4 块各宽 1 米的面板"
+
+#: modular_hexagonal_arcology_generator/props.py:311
+msgid "Width of one rectangle, across the hallway, in metres"
+msgstr "单个矩形横跨走廊的宽度，单位为米"
+
+#: modular_hexagonal_arcology_generator/props.py:319
+msgid "Width of one rectangle. Shown in the unit picked by the button beside Size"
+msgstr "单个矩形的宽度。以“尺寸”旁按钮所选单位显示"
+
+#: modular_hexagonal_arcology_generator/props.py:577
+msgid "Width of the road that runs through Flower part 1"
+msgstr "穿过 Flower 第 1 部分的道路宽度"
+
+#: modular_hexagonal_arcology_generator/wind.py:266
+msgid "Wind Power"
+msgstr "风力发电"
+
+#: modular_hexagonal_arcology_generator/props.py:139
+msgid "Winding 4 ft paths across the parks"
+msgstr "横穿公园的蜿蜒 4 英尺小径"
+
+#: modular_hexagonal_arcology_generator/props.py:660
+msgid "Yearly electricity use of one household"
+msgstr "每户年用电量"
+
+#: modular_hexagonal_arcology_generator/props.py:670
+msgid "Years before the solar, wind, battery and power systems are replaced. Sets the depreciation"
+msgstr "太阳能、风力、电池和电力系统的更换年限。决定折旧"
+
+#: modular_hexagonal_arcology_generator/props.py:662
+msgid "kW per person"
+msgstr "人均千瓦"
+
+#: modular_hexagonal_arcology_generator/panels.py:609
+msgid "rectangle and Penrose arcologies"
+msgstr "矩形与彭罗斯生态建筑"
+
+#: modular_hexagonal_arcology_generator/operators.py:59
+msgctxt "Operator"
+msgid "Add an arcology. It starts on the active mesh, or on 'Ark Polygon' or '30 Acre Ark'"
+msgstr "添加生态建筑。它从活动网格开始，或从“Ark Polygon”或“30 Acre Ark”开始"
+
+#: modular_hexagonal_arcology_generator/operators.py:58
+msgctxt "Operator"
+msgid "Add arcology"
+msgstr "添加生态建筑"
+
+#: modular_hexagonal_arcology_generator/operators.py:13
+#: modular_hexagonal_arcology_generator/panels.py:634
+msgctxt "Operator"
+msgid "Build"
+msgstr "构建"
+
+#: modular_hexagonal_arcology_generator/operators.py:31
+msgctxt "Operator"
+msgid "Clear"
+msgstr "清除"
+
+#: modular_hexagonal_arcology_generator/maps.py:480
+msgctxt "Operator"
+msgid "Clear Map And Colors"
+msgstr "清除地图和颜色"
+
+#: modular_hexagonal_arcology_generator/info.py:163
+msgctxt "Operator"
+msgid "Collection origins"
+msgstr "集合原点"
+
+#: modular_hexagonal_arcology_generator/maps.py:443
+msgctxt "Operator"
+msgid "Colour and label each section by its travel minutes from the level you clicked. Click a cell in the viewport first"
+msgstr "按从你所点击层级出发的通行分钟数为每个分区着色并标注。请先在视图中点击一个单元"
+
+#: modular_hexagonal_arcology_generator/maps.py:417
+msgctxt "Operator"
+msgid "Colour each section by its window exposure. Press again to hide the sunshine map. It can stay on while the commute map is shown"
+msgstr "按每个分区的窗户日照情况着色。再次按下可隐藏日照图。通勤图显示时它可保持开启"
+
+#: modular_hexagonal_arcology_generator/maps.py:442
+msgctxt "Operator"
+msgid "Commute From Selected"
+msgstr "从选中项通勤"
+
+#: modular_hexagonal_arcology_generator/report.py:298
+msgctxt "Operator"
+msgid "Electric Infrastructure Report (HTML)"
+msgstr "电力基础设施报告 (HTML)"
+
+#: modular_hexagonal_arcology_generator/electricity.py:324
+#: modular_hexagonal_arcology_generator/wind.py:289
+msgctxt "Operator"
+msgid "Generate At 3D Cursor"
+msgstr "在 3D 游标处生成"
+
+#: modular_hexagonal_arcology_generator/electricity.py:348
+msgctxt "Operator"
+msgid "Generate Electric Infrastructure"
+msgstr "生成电力基础设施"
+
+#: modular_hexagonal_arcology_generator/electricity.py:484
+msgctxt "Operator"
+msgid "Generate at 3D Cursor"
+msgstr "在 3D 游标处生成"
+
+#: modular_hexagonal_arcology_generator/info.py:164
+msgctxt "Operator"
+msgid "How to set the origin of the objects you pick"
+msgstr "如何设置所选物体的原点"
+
+#: modular_hexagonal_arcology_generator/info.py:145
+msgctxt "Operator"
+msgid "Info"
+msgstr "信息"
+
+#: modular_hexagonal_arcology_generator/operators.py:44
+msgctxt "Operator"
+msgid "New seed"
+msgstr "新种子"
+
+#: modular_hexagonal_arcology_generator/panels.py:690
+msgctxt "Operator"
+msgid "Open Arcology Generator"
+msgstr "打开生态建筑生成器"
+
+#: modular_hexagonal_arcology_generator/panels.py:691
+msgctxt "Operator"
+msgid "Open the Arcology tab in the 3D Viewport sidebar (N panel), or close it if it is already open"
+msgstr "打开 3D 视图侧栏（N 面板）中的生态建筑标签页，若已打开则关闭"
+
+#: modular_hexagonal_arcology_generator/operators.py:45
+msgctxt "Operator"
+msgid "Pick a random seed for the selected arcology"
+msgstr "为选中的生态建筑随机选取一个种子"
+
+#: modular_hexagonal_arcology_generator/electricity.py:325
+msgctxt "Operator"
+msgid "Place the battery boxes for this arcology's storage at the 3D cursor"
+msgstr "在 3D 游标处放置该生态建筑储能用的电池箱"
+
+#: modular_hexagonal_arcology_generator/electricity.py:485
+msgctxt "Operator"
+msgid "Place the solar panels needed for this arcology's electricity at the 3D cursor"
+msgstr "在 3D 游标处放置该生态建筑供电所需的太阳能板"
+
+#: modular_hexagonal_arcology_generator/wind.py:290
+msgctxt "Operator"
+msgid "Place the wind turbines needed for this arcology's wind share at the 3D cursor"
+msgstr "在 3D 游标处放置该生态建筑风电份额所需的风力发电机"
+
+#: modular_hexagonal_arcology_generator/electricity.py:349
+msgctxt "Operator"
+msgid "Power stations and power lines connecting the solar field, the batteries and the arcology. Generate the solar field, the batteries and the arcology first"
+msgstr "连接太阳能场、电池和生态建筑的电站与电力线。请先生成太阳能场、电池和生态建筑"
+
+#: modular_hexagonal_arcology_generator/operators.py:14
+msgctxt "Operator"
+msgid "Rebuild the selected arcology. It takes the shape on the tabs"
+msgstr "重建选中的生态建筑。形状取自各标签页"
+
+#: modular_hexagonal_arcology_generator/operators.py:73
+msgctxt "Operator"
+msgid "Remove arcology"
+msgstr "移除生态建筑"
+
+#: modular_hexagonal_arcology_generator/maps.py:481
+msgctxt "Operator"
+msgid "Remove the cell, sunshine and commute maps and the map text"
+msgstr "移除单元图、日照图和通勤图以及图上的文字"
+
+#: modular_hexagonal_arcology_generator/operators.py:74
+msgctxt "Operator"
+msgid "Remove the selected arcology and its city. The others are left as they are"
+msgstr "移除选中的生态建筑及其城市。其他保持原样"
+
+#: modular_hexagonal_arcology_generator/operators.py:32
+msgctxt "Operator"
+msgid "Remove the selected arcology's city. The others are left as they are"
+msgstr "移除选中生态建筑的城市。其他保持原样"
+
+#: modular_hexagonal_arcology_generator/electricity.py:24
+msgctxt "Operator"
+msgid "Set the solar capacity factor to this preset"
+msgstr "将太阳能容量系数设为此预设值"
+
+#: modular_hexagonal_arcology_generator/maps.py:393
+msgctxt "Operator"
+msgid "Show Cell Map"
+msgstr "显示单元图"
+
+#: modular_hexagonal_arcology_generator/maps.py:394
+msgctxt "Operator"
+msgid "Show one flat cell per cell per layer, on top of each layer, in the cell's own shape (hexagon, octagon, rectangle or Penrose tile). Press again to hide them"
+msgstr "在每层顶部按单元自身形状（六边形、八边形、矩形或彭罗斯瓷砖）为每个单元显示一个平面单元。再次按下可隐藏"
+
+#: modular_hexagonal_arcology_generator/electricity.py:23
+msgctxt "Operator"
+msgid "Solar preset"
+msgstr "太阳能预设"
+
+#: modular_hexagonal_arcology_generator/maps.py:416
+msgctxt "Operator"
+msgid "Toggle Sunshine Exposure"
+msgstr "切换日照曝光"
+
+#: modular_hexagonal_arcology_generator/report.py:299
+msgctxt "Operator"
+msgid "Write the electric infrastructure report as an HTML page with pie charts, and open it in the browser"
+msgstr "将电力基础设施报告写为带饼图的 HTML 页面，并在浏览器中打开"

@@ -1,0 +1,465 @@
+# perfect-chinese: 1
+# id: habd_loop_reducer
+# kind: addon
+# module: bl_ext.blender_org.habd_loop_reducer
+# name: HABD Loop Reducer
+# name_zh: 环线精简
+# translator: KeshiMiao
+# category: Mesh
+# supported_versions: >=5.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:221
+msgid "Accumulated centerline length between both bases"
+msgstr "两个底面之间的累计中心线长度"
+
+#: operators.py:154
+#: operators.py:275
+msgid "An active mesh must be in Edit Mode"
+msgstr "活动网格必须处于编辑模式"
+
+#: __init__.py:63
+msgid "Analyze and resample a curved circular tube"
+msgstr "分析并重采样弯曲圆管"
+
+#: panel.py:99
+msgid "Analyze the bend before applying"
+msgstr "应用前分析弯曲"
+
+#: panel.py:197
+msgid "Analyze the curved tube before applying"
+msgstr "应用前分析弯曲管"
+
+#: panel.py:151
+msgid "Analyze the profile before applying"
+msgstr "应用前分析轮廓"
+
+#: __init__.py:169
+msgid "Automatically detected Rails or Cross Loops input"
+msgstr "自动检测到的轨道或交叉循环输入"
+
+#: __init__.py:132
+msgid "Automatically detected open or closed profile topology"
+msgstr "自动检测到的开放或闭合轮廓拓扑"
+
+#: panel.py:34
+msgid "Bend Resampling"
+msgstr "弯曲重采样"
+
+#: __init__.py:229
+msgid "Bend Status"
+msgstr "弯曲状态"
+
+#: panel.py:136
+msgid "Change per Region: Mixed"
+msgstr "每区域变化：混合"
+
+#: __init__.py:58
+msgid "Choose straight or curved tube resampling"
+msgstr "选择直管或弯曲管重采样"
+
+#: __init__.py:48
+msgid "Compatible"
+msgstr "兼容"
+
+#: __init__.py:164
+msgid "Cross-Section"
+msgstr "横截面"
+
+#: __init__.py:198
+msgid "Current Cuts"
+msgstr "当前切割数"
+
+#: __init__.py:149
+msgid "Current Profile Samples"
+msgstr "当前轮廓采样数"
+
+#: __init__.py:38
+msgid "Current Segments"
+msgstr "当前分段数"
+
+#: __init__.py:149
+msgid "Current sample count for each detected profile region"
+msgstr "每个检测到的轮廓区域的当前采样数"
+
+#: __init__.py:63
+msgid "Curved"
+msgstr "弯曲"
+
+#: panel.py:168
+msgid "Curved Analysis"
+msgstr "弯曲分析"
+
+#: __init__.py:174
+msgid "Detected open or closed longitudinal topology"
+msgstr "检测到的开放或闭合纵向拓扑"
+
+#: __init__.py:164
+msgid "Detected open or closed transverse topology"
+msgstr "检测到的开放或闭合横向拓扑"
+
+#: panel.py:22
+msgid "Direction"
+msgstr "方向"
+
+#: __init__.py:206
+msgid "Final interior cuts for an open path or total levels for a closed path"
+msgstr "开放路径的最终内部切割数或闭合路径的总层级数"
+
+#: __init__.py:31
+msgid "Final number of radial segments or profile samples"
+msgstr "最终的径向分段数或轮廓采样数"
+
+#: __init__.py:117
+msgid "Frame Continuity"
+msgstr "标架连续性"
+
+#: __init__.py:58
+#: panel.py:107
+msgid "Geometry Mode"
+msgstr "几何模式"
+
+#: panel.py:15
+msgid "HABD"
+msgstr "HABD"
+
+#: panel.py:21
+msgid "HABD Loop Reducer"
+msgstr "HABD 循环精简器"
+
+#: __init__.py:169
+msgid "Input"
+msgstr "输入"
+
+#: __init__.py:198
+msgid "Interior cuts for an open path or total levels for a closed path"
+msgstr "开放路径的内部切割数或闭合路径的总层级数"
+
+#: __init__.py:185
+msgid "Keep the current longitudinal polyline shape"
+msgstr "保留当前纵向折线形状"
+
+#: __init__.py:107
+msgid "Largest angle between consecutive local tangents"
+msgstr "相邻局部切线之间的最大角度"
+
+#: __init__.py:99
+msgid "Largest radial distance found across all levels"
+msgstr "所有层级中的最大径向距离"
+
+#: __init__.py:43
+msgid "Legacy current-minus-target segment difference"
+msgstr "旧版当前减目标的分段差值"
+
+#: __init__.py:83
+msgid "Length of the analyzed centerline in local mesh units"
+msgstr "以局部网格单位表示的分析中心线长度"
+
+#: __init__.py:77
+#: __init__.py:215
+msgid "Levels"
+msgstr "层级"
+
+#: __init__.py:26
+msgid "Longitudinal"
+msgstr "纵向"
+
+#: operators.py:386
+msgid "Longitudinal resampling is disabled for meshes with shape keys"
+msgstr "具有形态键的网格禁用纵向重采样"
+
+#: panel.py:12
+msgid "Loop Reducer"
+msgstr "循环精简器"
+
+#: __init__.py:99
+#: panel.py:175
+msgid "Maximum Radius"
+msgstr "最大半径"
+
+#: __init__.py:107
+#: panel.py:176
+msgid "Maximum Turn Angle"
+msgstr "最大转向角"
+
+#: __init__.py:91
+#: panel.py:174
+msgid "Minimum Radius"
+msgstr "最小半径"
+
+#: __init__.py:143
+msgid "Number of automatically detected bevel regions"
+msgstr "自动检测到的倒角区域数"
+
+#: __init__.py:137
+msgid "Number of corresponding transverse profile levels"
+msgstr "对应的横向轮廓层级数"
+
+#: __init__.py:77
+msgid "Number of transverse levels found in the curved selection"
+msgstr "弯曲选择中找到的横向层级数"
+
+#: __init__.py:38
+msgid "Number of valid longitudinal chains found in the selection"
+msgstr "选择中找到的有效纵向链数"
+
+#: __init__.py:83
+#: __init__.py:221
+msgid "Path Length"
+msgstr "路径长度"
+
+#: __init__.py:179
+#: panel.py:25
+msgid "Path Shape"
+msgstr "路径形状"
+
+#: __init__.py:174
+msgid "Path Type"
+msgstr "路径类型"
+
+#: __init__.py:185
+msgid "Preserve"
+msgstr "保留"
+
+#: __init__.py:179
+msgid "Preserve the source polyline or reconstruct a smooth centerline"
+msgstr "保留源折线或重建平滑中心线"
+
+#: __init__.py:64
+msgid "Profile"
+msgstr "轮廓"
+
+#: panel.py:118
+msgid "Profile Analysis"
+msgstr "轮廓分析"
+
+#: __init__.py:137
+msgid "Profile Levels"
+msgstr "轮廓层级"
+
+#: __init__.py:143
+msgid "Profile Regions"
+msgstr "轮廓区域"
+
+#: __init__.py:154
+msgid "Profile Status"
+msgstr "轮廓状态"
+
+#: __init__.py:132
+msgid "Profile Type"
+msgstr "轮廓类型"
+
+#: panel.py:147
+msgid "Profile resample ready"
+msgstr "轮廓重采样就绪"
+
+#: operators.py:444
+msgid "Profile resampling is disabled for meshes with shape keys"
+msgstr "具有形态键的网格禁用轮廓重采样"
+
+#: __init__.py:25
+msgid "Radial"
+msgstr "径向"
+
+#: __init__.py:190
+msgid "Reconstruct a smooth longitudinal centerline"
+msgstr "重建平滑的纵向中心线"
+
+#: __init__.py:21
+msgid "Resample Direction"
+msgstr "重采样方向"
+
+#: __init__.py:62
+msgid "Resample a straight circular tube"
+msgstr "重采样直的圆管"
+
+#: __init__.py:64
+msgid "Resample an open or closed profile by cumulative length"
+msgstr "按累积长度重采样开放或闭合轮廓"
+
+#: __init__.py:21
+msgid "Resample around a section or along a bend"
+msgstr "绕截面或沿弯曲重采样"
+
+#: __init__.py:26
+msgid "Resample cross-sections along a bend"
+msgstr "沿弯曲重采样横截面"
+
+#: __init__.py:154
+msgid "Result of the most recent PROFILE analysis"
+msgstr "最近一次 PROFILE 分析的结果"
+
+#: __init__.py:122
+msgid "Result of the most recent curved tube analysis"
+msgstr "最近一次弯曲管分析的结果"
+
+#: __init__.py:229
+msgid "Result of the most recent longitudinal analysis"
+msgstr "最近一次纵向分析的结果"
+
+#: __init__.py:53
+msgid "Result of the most recent segment detection"
+msgstr "最近一次分段检测的结果"
+
+#: __init__.py:43
+msgid "Segment Difference"
+msgstr "分段差异"
+
+#: operators.py:286
+#: operators.py:510
+msgid "Segment resampling is disabled for meshes with shape keys"
+msgstr "带形态键的网格已禁用分段重采样"
+
+#: __init__.py:91
+msgid "Smallest radial distance found across all levels"
+msgstr "所有层级中找到的最小径向距离"
+
+#: __init__.py:190
+msgid "Smooth"
+msgstr "平滑"
+
+#: __init__.py:53
+#: __init__.py:122
+msgid "Status"
+msgstr "状态"
+
+#: __init__.py:62
+msgid "Straight"
+msgstr "直管"
+
+#: __init__.py:206
+msgid "Target Cuts"
+msgstr "目标切割数"
+
+#: panel.py:131
+msgid "Target Samples"
+msgstr "目标采样数"
+
+#: __init__.py:31
+#: panel.py:172
+msgid "Target Segments"
+msgstr "目标分段数"
+
+#: panel.py:97
+msgid "Target already matches Current Cuts"
+msgstr "目标已与当前切割数一致"
+
+#: panel.py:149
+msgid "Target already matches current samples"
+msgstr "目标已与当前采样数一致"
+
+#: panel.py:195
+msgid "Target already matches current segments"
+msgstr "目标已与当前分段数一致"
+
+#: operators.py:530
+msgid "Target must be at least 3"
+msgstr "目标至少为 3"
+
+#: operators.py:467
+msgid "Target must be at least 3 profile samples"
+msgstr "目标至少为 3 个轮廓采样"
+
+#: __init__.py:215
+msgid "Total cross-sections including Base A and Base B"
+msgstr "横截面总数，包含基准 A 和基准 B"
+
+#: __init__.py:25
+msgid "Use the existing Straight, Curved, or Profile pipelines"
+msgstr "使用现有的直管、弯曲或轮廓管线"
+
+#: __init__.py:72
+msgid "Valid"
+msgstr "有效"
+
+#: __init__.py:159
+msgid "Valid Bend"
+msgstr "有效弯曲"
+
+#: __init__.py:127
+msgid "Valid Profile"
+msgstr "有效轮廓"
+
+#: __init__.py:127
+msgid "Whether the most recent PROFILE analysis is compatible"
+msgstr "最近一次 PROFILE 分析是否兼容"
+
+#: __init__.py:72
+msgid "Whether the most recent curved analysis is compatible"
+msgstr "最近一次弯曲分析是否兼容"
+
+#: __init__.py:159
+msgid "Whether the most recent longitudinal analysis is compatible"
+msgstr "最近一次纵向分析是否兼容"
+
+#: __init__.py:48
+msgid "Whether the selected chains are compatible with resampling"
+msgstr "所选链是否兼容重采样"
+
+#: __init__.py:117
+msgid "Whether transported local frames avoid orientation flips"
+msgstr "传输的局部坐标框架是否避免朝向翻转"
+
+#: operators.py:229
+#: panel.py:28
+msgctxt "Operator"
+msgid "Analyze Bend"
+msgstr "分析弯曲"
+
+#: operators.py:144
+#: panel.py:162
+msgctxt "Operator"
+msgid "Analyze Curved Tube"
+msgstr "分析弯曲管"
+
+#: operators.py:191
+#: panel.py:112
+msgctxt "Operator"
+msgid "Analyze Profile"
+msgstr "分析轮廓"
+
+#: operators.py:145
+msgctxt "Operator"
+msgid "Analyze a curved tubular selection without changing geometry"
+msgstr "分析弯曲管状选区，不改变几何体"
+
+#: operators.py:104
+msgctxt "Operator"
+msgid "Analyze selected longitudinal edge chains without changing geometry"
+msgstr "分析所选纵向边链，不改变几何体"
+
+#: panel.py:104
+msgctxt "Operator"
+msgid "Apply Cuts"
+msgstr "应用切割"
+
+#: operators.py:264
+#: panel.py:156
+msgctxt "Operator"
+msgid "Apply Segments"
+msgstr "应用分段"
+
+#: operators.py:103
+#: panel.py:206
+msgctxt "Operator"
+msgid "Detect Segments"
+msgstr "检测分段"
+
+#: operators.py:192
+msgctxt "Operator"
+msgid "Detect an open or closed profile band without changing geometry"
+msgstr "检测开放或闭合轮廓带，不改变几何体"
+
+#: operators.py:230
+msgctxt "Operator"
+msgid "Detect bases and interior cuts without changing geometry"
+msgstr "检测基准和内部切割，不改变几何体"
+
+#: operators.py:265
+msgctxt "Operator"
+msgid "Resample the selected mesh surface to the requested final count"
+msgstr "将所选网格表面重采样至请求的最终数量"

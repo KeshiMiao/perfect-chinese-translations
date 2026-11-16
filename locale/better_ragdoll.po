@@ -1,0 +1,564 @@
+# perfect-chinese: 1
+# id: better_ragdoll
+# kind: addon
+# module: bl_ext.blender_org.better_ragdoll
+# name: Better Ragdoll
+# name_zh: 改进布娃娃
+# translator: KeshiMiao
+# category: Animation
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: ui.py:36
+msgid "%d bones mapped"
+msgstr "已映射 %d 根骨骼"
+
+#: properties.py:102
+msgid "+X"
+msgstr "+X"
+
+#: properties.py:100
+msgid "+Y"
+msgstr "+Y"
+
+#: properties.py:101
+msgid "-X"
+msgstr "-X"
+
+#: properties.py:99
+msgid "-Y"
+msgstr "-Y"
+
+#: properties.py:111
+msgid "Air Drag"
+msgstr "空气阻力"
+
+#: properties.py:121
+msgid "Animated Colliders"
+msgstr "动画碰撞体"
+
+#: properties.py:98
+msgid "Auto"
+msgstr "自动"
+
+#: ui.py:21
+msgid "Better Ragdoll"
+msgstr "Better Ragdoll"
+
+#: properties.py:140
+msgid "Blend Duration"
+msgstr "混合时长"
+
+#: properties.py:26
+msgid "Body part this bone represents in the ragdoll"
+msgstr "该骨骼在布娃娃中代表的身体部位"
+
+#: properties.py:126
+msgid "Body parts collide with each other"
+msgstr "身体部位相互碰撞"
+
+#: presets.py:19
+msgid "Bone is not simulated, it follows its parent"
+msgstr "骨骼不参与模拟，跟随其父级"
+
+#: properties.py:164
+msgid "Bone receiving the focused impulse (chest when empty)"
+msgstr "接收聚焦冲量的骨骼（为空时为胸部）"
+
+#: ui.py:62
+msgid "Bones"
+msgstr "骨骼"
+
+#: properties.py:102
+msgid "Character faces +X"
+msgstr "角色面向 +X"
+
+#: properties.py:100
+msgid "Character faces +Y"
+msgstr "角色面向 +Y"
+
+#: properties.py:101
+msgid "Character faces -X"
+msgstr "角色面向 -X"
+
+#: properties.py:99
+msgid "Character faces -Y (Blender default)"
+msgstr "角色面向 -Y（Blender 默认）"
+
+#: presets.py:24
+msgid "Clavicle"
+msgstr "锁骨"
+
+#: presets.py:24
+msgid "Clavicle / shoulder blade"
+msgstr "锁骨 / 肩胛骨"
+
+#: properties.py:114
+msgid "Collide with an infinite horizontal ground plane"
+msgstr "与无限水平地平面碰撞"
+
+#: properties.py:118
+msgid "Colliders"
+msgstr "碰撞体"
+
+#: properties.py:29
+msgid "Collision radius, 0 to measure it from the skinned mesh automatically"
+msgstr "碰撞半径，0 表示从蒙皮网格自动测量"
+
+#: ui.py:94
+#: ui.py:101
+msgid "Damping"
+msgstr "阻尼"
+
+#: properties.py:87
+msgid "Damping applied to every joint motion"
+msgstr "应用于每个关节运动的阻尼"
+
+#: properties.py:75
+msgid "Damping ratio of the neutral tension spring"
+msgstr "中性张力弹簧的阻尼比"
+
+#: properties.py:153
+msgid "Delay"
+msgstr "延迟"
+
+#: properties.py:98
+msgid "Detect from the feet direction"
+msgstr "根据脚部方向检测"
+
+#: properties.py:155
+msgid "Direction"
+msgstr "方向"
+
+#: properties.py:95
+msgid "Direction the character faces in its rest pose, used to orient the joints"
+msgstr "角色在静止姿势下面向的方向，用于确定关节朝向"
+
+#: properties.py:146
+msgid "Drive Strength"
+msgstr "驱动强度"
+
+#: ui.py:78
+msgid "Edit roles and limits in Bone properties"
+msgstr "在骨骼属性中编辑角色和限制"
+
+#: properties.py:134
+msgid "End"
+msgstr "末端"
+
+#: properties.py:84
+msgid "Extra damping inside the soft zone, slowing the joint down near its limits"
+msgstr "软区内的额外阻尼，在关节接近限制时使其减速"
+
+#: properties.py:95
+msgid "Facing"
+msgstr "朝向"
+
+#: properties.py:161
+msgid "Focus"
+msgstr "聚焦"
+
+#: presets.py:30
+msgid "Foot"
+msgstr "脚"
+
+#: presets.py:30
+msgid "Foot (ankle joint)"
+msgstr "脚（踝关节）"
+
+#: presets.py:26
+msgid "Forearm"
+msgstr "前臂"
+
+#: presets.py:26
+msgid "Forearm (elbow joint)"
+msgstr "前臂（肘关节）"
+
+#: properties.py:137
+msgid "Frame where the character stops following its animation and becomes a ragdoll"
+msgstr "角色停止跟随动画并变为布娃娃的帧"
+
+#: properties.py:153
+msgid "Frames after the release frame when the impact happens"
+msgstr "释放帧之后发生冲击的帧数"
+
+#: properties.py:143
+msgid "Frames the legs and pelvis keep following the animation after the upper body"
+msgstr "上半身之后腿部和骨盆继续跟随动画的帧数"
+
+#: properties.py:140
+msgid "Frames to fade from the animation to the full simulation (active ragdoll)"
+msgstr "从动画过渡到完全模拟的帧数（主动布娃娃）"
+
+#: properties.py:124
+msgid "Friction"
+msgstr "摩擦"
+
+#: properties.py:124
+msgid "Friction coefficient against colliders"
+msgstr "与碰撞体的摩擦系数"
+
+#: properties.py:108
+msgid "Gravity"
+msgstr "重力"
+
+#: properties.py:114
+msgid "Ground Plane"
+msgstr "地平面"
+
+#: presets.py:27
+msgid "Hand"
+msgstr "手"
+
+#: presets.py:27
+msgid "Hand (wrist joint)"
+msgstr "手（腕关节）"
+
+#: properties.py:64
+msgid "Hard Limits (Classic)"
+msgstr "硬限制（经典）"
+
+#: presets.py:23
+msgid "Head"
+msgstr "头"
+
+#: properties.py:116
+msgid "Height"
+msgstr "高度"
+
+#: properties.py:116
+msgid "Height of the ground plane"
+msgstr "地平面的高度"
+
+#: properties.py:164
+msgid "Hit Bone"
+msgstr "受击骨骼"
+
+#: properties.py:146
+msgid "How strongly bodies follow the animation while blending"
+msgstr "混合时刚体跟随动画的强度"
+
+#: properties.py:151
+#: ui.py:144
+msgid "Impact"
+msgstr "冲击"
+
+#: properties.py:87
+msgid "Joint Friction"
+msgstr "关节摩擦"
+
+#: properties.py:59
+msgid "Joint Model"
+msgstr "关节模型"
+
+#: ui.py:82
+msgid "Joints"
+msgstr "关节"
+
+#: properties.py:62
+msgid "Joints slow down approaching their limits and relax towards the neutral body posture"
+msgstr "关节接近极限时会减速，并向中性身体姿态放松"
+
+#: properties.py:143
+msgid "Leg Delay"
+msgstr "腿部延迟"
+
+#: properties.py:166
+msgid "Limb Rotation"
+msgstr "肢体旋转"
+
+#: properties.py:111
+msgid "Linear and angular velocity damping"
+msgstr "线性与角速度阻尼"
+
+#: properties.py:92
+msgid "Mass of the whole character, distributed with anthropometric ratios"
+msgstr "整个角色的质量，按人体比例分配"
+
+#: ui.py:211
+msgid "Max"
+msgstr "最大"
+
+#: ui.py:210
+msgid "Min"
+msgstr "最小"
+
+#: properties.py:108
+msgid "Multiplier of the scene gravity (0 for a zero gravity test of the neutral posture)"
+msgstr "场景重力倍率（设为 0 可进行中性姿态的零重力测试）"
+
+#: properties.py:176
+msgid "Mute Bone Constraints"
+msgstr "禁用骨骼约束"
+
+#: properties.py:176
+msgid "Mute bone constraints after baking so the baked keys are visible (restored with 'Restore Animation')"
+msgstr "烘焙后禁用骨骼约束，以便看到烘焙的关键帧（通过「恢复动画」还原）"
+
+#: presets.py:22
+msgid "Neck"
+msgstr "颈部"
+
+#: presets.py:22
+msgid "Neck segment"
+msgstr "颈段"
+
+#: ui.py:212
+msgid "Neutral"
+msgstr "中性"
+
+#: properties.py:68
+msgid "Neutral Tension"
+msgstr "中性张力"
+
+#: operators.py:39
+msgid "No humanoid bones found, assign roles in the Bone properties"
+msgstr "未找到人形骨骼，请在骨骼属性中分配角色"
+
+#: presets.py:19
+msgid "None"
+msgstr "无"
+
+#: properties.py:118
+msgid "Objects of this collection are used as static collision geometry"
+msgstr "此集合中的物体用作静态碰撞几何体"
+
+#: properties.py:78
+msgid "Part of each joint range, near its limits, where the joint starts to resist"
+msgstr "每个关节范围中靠近极限的部分，关节在此开始产生阻力"
+
+#: properties.py:161
+msgid "Part of the impulse concentrated on the hit bone instead of the whole body"
+msgstr "集中于受击骨骼而非整个身体的冲量比例"
+
+#: presets.py:20
+msgid "Pelvis"
+msgstr "骨盆"
+
+#: properties.py:68
+msgid "Pull every joint gently towards the neutral body posture"
+msgstr "将所有关节轻柔地拉向中性身体姿态"
+
+#: properties.py:151
+msgid "Push the character when it is released"
+msgstr "释放时推动角色"
+
+#: properties.py:29
+msgid "Radius"
+msgstr "半径"
+
+#: ui.py:20
+#: ui.py:53
+msgid "Ragdoll"
+msgstr "布娃娃"
+
+#: properties.py:170
+msgid "Random variation of the limb rotation so limbs do not move identically"
+msgstr "肢体旋转的随机变化，使肢体运动不完全相同"
+
+#: properties.py:170
+msgid "Randomness"
+msgstr "随机性"
+
+#: properties.py:121
+msgid "Re-evaluate the collision geometry on every frame (slower)"
+msgstr "每帧重新计算碰撞几何体（较慢）"
+
+#: ui.py:127
+msgid "Release"
+msgstr "释放"
+
+#: properties.py:137
+msgid "Release Frame"
+msgstr "释放帧"
+
+#: properties.py:26
+msgid "Role"
+msgstr "角色"
+
+#: presets.py:20
+msgid "Root of the ragdoll (hips)"
+msgstr "布娃娃的根骨骼（髋部）"
+
+#: properties.py:166
+msgid "Rotational impulse (rad/s) given to shoulders and hips: arms are thrown along the push, legs the other way"
+msgstr "施加于肩部和髋部的旋转冲量（弧度/秒）：手臂沿推动方向甩出，腿部反向"
+
+#: properties.py:173
+msgid "Seed"
+msgstr "种子"
+
+#: ui.py:27
+msgid "Select an armature"
+msgstr "选择骨架"
+
+#: properties.py:126
+msgid "Self Collision"
+msgstr "自碰撞"
+
+#: presets.py:29
+msgid "Shin"
+msgstr "小腿"
+
+#: presets.py:29
+msgid "Shin (knee joint)"
+msgstr "小腿（膝关节）"
+
+#: ui.py:169
+msgid "Simulation"
+msgstr "模拟"
+
+#: properties.py:84
+msgid "Soft Limit Damping"
+msgstr "软极限阻尼"
+
+#: properties.py:81
+msgid "Soft Limit Stiffness"
+msgstr "软极限刚度"
+
+#: properties.py:62
+msgid "Soft Limits + Tension"
+msgstr "软极限 + 张力"
+
+#: properties.py:78
+msgid "Soft Zone"
+msgstr "软区"
+
+#: properties.py:130
+msgid "Solver substeps per frame, higher is more accurate and slower"
+msgstr "每帧求解器子步数，越高越精确但越慢"
+
+#: properties.py:158
+msgid "Speed"
+msgstr "速度"
+
+#: presets.py:21
+msgid "Spine"
+msgstr "脊柱"
+
+#: presets.py:21
+msgid "Spine / chest segment"
+msgstr "脊柱 / 胸部段"
+
+#: properties.py:133
+msgid "Start"
+msgstr "起始"
+
+#: ui.py:93
+msgid "Stiffness"
+msgstr "刚度"
+
+#: properties.py:71
+msgid "Stiffness of the pull towards the neutral posture (squared natural frequency, independent of the character size)"
+msgstr "拉向中性姿态的刚度（固有频率的平方，与角色大小无关）"
+
+#: properties.py:81
+msgid "Stiffness of the soft limits, growing progressively inside the soft zone"
+msgstr "软极限的刚度，在软区内逐渐增大"
+
+#: ui.py:100
+msgid "Strength"
+msgstr "强度"
+
+#: properties.py:130
+msgid "Substeps"
+msgstr "子步"
+
+#: operators.py:115
+msgid "Switch to Object or Pose mode first"
+msgstr "请先切换到物体或姿态模式"
+
+#: properties.py:75
+msgid "Tension Damping"
+msgstr "张力阻尼"
+
+#: properties.py:71
+msgid "Tension Strength"
+msgstr "张力强度"
+
+#: presets.py:28
+msgid "Thigh"
+msgstr "大腿"
+
+#: presets.py:28
+msgid "Thigh (hip joint)"
+msgstr "大腿（髋关节）"
+
+#: presets.py:31
+msgid "Toe"
+msgstr "脚趾"
+
+#: presets.py:31
+msgid "Toes, rigidly attached to the foot and extending its collision"
+msgstr "脚趾，刚性附着于脚部并延伸其碰撞"
+
+#: properties.py:92
+msgid "Total Mass"
+msgstr "总质量"
+
+#: properties.py:64
+msgid "Typical game ragdoll: joints move freely and stop abruptly at their limits"
+msgstr "典型游戏布娃娃：关节自由活动，到达限制时突然停止"
+
+#: presets.py:25
+msgid "Upper Arm"
+msgstr "上臂"
+
+#: presets.py:25
+msgid "Upper arm (shoulder joint)"
+msgstr "上臂（肩关节）"
+
+#: properties.py:132
+msgid "Use Scene Range"
+msgstr "使用场景范围"
+
+#: properties.py:158
+msgid "Velocity given to the whole body"
+msgstr "施加于整个身体的速度"
+
+#: ui.py:106
+msgid "World & Collision"
+msgstr "世界与碰撞"
+
+#: properties.py:155
+msgid "World direction of the push"
+msgstr "推力的世界方向"
+
+#: operators.py:53
+msgctxt "Operator"
+msgid "Clear Bones"
+msgstr "清除骨骼"
+
+#: operators.py:28
+msgctxt "Operator"
+msgid "Detect Bones"
+msgstr "检测骨骼"
+
+#: operators.py:80
+msgctxt "Operator"
+msgid "Preview Neutral Pose"
+msgstr "预览中立姿势"
+
+#: operators.py:65
+msgctxt "Operator"
+msgid "Reset Limits to Preset"
+msgstr "将限制重置为预设"
+
+#: operators.py:96
+msgctxt "Operator"
+msgid "Reset Pose"
+msgstr "重置姿势"
+
+#: operators.py:139
+msgctxt "Operator"
+msgid "Restore Animation"
+msgstr "恢复动画"
+
+#: operators.py:108
+msgctxt "Operator"
+msgid "Simulate & Bake"
+msgstr "模拟并烘焙"

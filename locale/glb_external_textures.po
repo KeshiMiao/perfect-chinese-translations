@@ -1,0 +1,88 @@
+# perfect-chinese: 1
+# id: glb_external_textures
+# kind: addon
+# module: bl_ext.blender_org.glb_external_textures
+# name: GLB External Textures
+# name_zh: GLB外置贴图
+# translator: KeshiMiao
+# category: Import-Export
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:193
+msgid "Adjust the material export behavior"
+msgstr "调整材质导出行为"
+
+#: __init__.py:199
+msgid "Do not export materials"
+msgstr "不导出材质"
+
+#: __init__.py:197
+msgid "Export"
+msgstr "导出"
+
+#: __init__.py:38
+msgid "Export a single .glb with mesh packed in but textures kept as separate external files."
+msgstr "导出单个 .glb，网格内嵌，纹理保留为独立的外部文件。"
+
+#: __init__.py:197
+msgid "Export all materials"
+msgstr "导出全部材质"
+
+#: __init__.py:198
+msgid "Export material placeholders only"
+msgstr "仅导出材质占位符"
+
+#: __init__.py:187
+msgid "Export selected objects only"
+msgstr "仅导出选中物体"
+
+#: __init__.py:38
+msgid "GLB External Textures"
+msgstr "GLB 外部纹理"
+
+#: __init__.py:38
+msgid "Import-Export"
+msgstr "导入-导出"
+
+#: __init__.py:193
+msgid "Materials"
+msgstr "材质"
+
+#: __init__.py:242
+msgid "No output file specified"
+msgstr "未指定输出文件"
+
+#: __init__.py:199
+msgid "None"
+msgstr "无"
+
+#: __init__.py:261
+msgid "Official glTF export did not finish"
+msgstr "官方 glTF 导出未完成"
+
+#: __init__.py:198
+msgid "Placeholder"
+msgstr "占位符"
+
+#: __init__.py:187
+msgid "Selected Objects"
+msgstr "选中物体"
+
+#: __init__.py:204
+msgid "Texture Subfolder"
+msgstr "纹理子文件夹"
+
+#: __init__.py:204
+msgid "Where textures are saved, relative to the .glb. Examples: 'textures' (next to the glb), '../textures' (one folder up). Empty = same folder as the glb."
+msgstr "纹理保存位置，相对于 .glb 文件。示例：'textures'（与 glb 同目录）、'../textures'（上一级文件夹）。留空 = 与 glb 同一文件夹。"
+
+#: __init__.py:172
+#: __init__.py:296
+msgctxt "Operator"
+msgid "GLB External Textures (.glb)"
+msgstr "GLB 外部纹理 (.glb)"

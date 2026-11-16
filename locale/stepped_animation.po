@@ -1,0 +1,212 @@
+# perfect-chinese: 1
+# id: stepped_animation
+# kind: addon
+# module: bl_ext.blender_org.stepped_animation
+# name: Stepped Animation
+# name_zh: 步进动画
+# translator: KeshiMiao
+# category: Animation
+# supported_versions: >=5.0.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: properties.py:47
+msgid "Also keep a key on every original keyframe so extremes are never skipped"
+msgstr "同时在每个原始关键帧上保留关键帧，确保极值不会被跳过"
+
+#: properties.py:57
+msgid "Also step animation on object data and shape keys (camera lens, light power, shape keys...)"
+msgstr "同时对物体数据和形态键应用步进（摄像机焦距、灯光功率、形态键……）"
+
+#: properties.py:42
+msgid "Always add a key on the last frame of the range so the final pose is reached"
+msgstr "始终在范围最后一帧添加关键帧，以到达最终姿势"
+
+#: properties.py:14
+msgid "Animate on fours (a new pose every 4 frames)"
+msgstr "四帧一拍（每 4 帧一个新姿势）"
+
+#: properties.py:11
+msgid "Animate on ones (a new pose every frame)"
+msgstr "一帧一拍（每帧一个新姿势）"
+
+#: properties.py:13
+msgid "Animate on threes (a new pose every 3 frames)"
+msgstr "三帧一拍（每 3 帧一个新姿势）"
+
+#: properties.py:12
+msgid "Animate on twos (a new pose every 2 frames)"
+msgstr "二帧一拍（每 2 帧一个新姿势）"
+
+#: properties.py:62
+msgid "Bake F-Modifiers"
+msgstr "烘焙 F 曲线修改器"
+
+#: properties.py:15
+#: properties.py:31
+msgid "Custom"
+msgstr "自定义"
+
+#: properties.py:19
+msgid "Custom number of frames to hold each pose"
+msgstr "自定义每个姿势保持的帧数"
+
+#: operators.py:29
+msgid "Custom range end is before its start"
+msgstr "自定义范围的结束帧早于起始帧"
+
+#: properties.py:31
+msgid "Custom start and end frames"
+msgstr "自定义起始和结束帧"
+
+#: properties.py:36
+msgid "End"
+msgstr "结束"
+
+#: ui.py:31
+msgid "Frame Range"
+msgstr "帧范围"
+
+#: properties.py:24
+msgid "Frame range to convert to stepped keys"
+msgstr "要转换为步进关键帧的帧范围"
+
+#: properties.py:19
+msgid "Frames"
+msgstr "帧数"
+
+#: operators.py:14
+msgid "Frames to hold each pose (0 = use the panel setting)"
+msgstr "每个姿势保持的帧数（0 = 使用面板设置）"
+
+#: properties.py:28
+msgid "From the first to the last keyframe of each action"
+msgstr "从每个动作的第一个到最后一个关键帧"
+
+#: ui.py:25
+msgid "Hold Each Pose For"
+msgstr "每个姿势保持"
+
+#: properties.py:7
+msgid "Hold each pose for this many frames"
+msgstr "每个姿势保持这么多帧"
+
+#: properties.py:52
+msgid "In Pose Mode, only step the channels of selected bones"
+msgstr "在姿势模式下，仅对选中骨骼的通道进行步进"
+
+#: properties.py:62
+msgid "Include F-Curve modifiers (e.g. Noise) in the sampled values and remove them afterwards"
+msgstr "在采样值中包含 F 曲线修改器（如噪波），之后将其移除"
+
+#: properties.py:42
+msgid "Include Last Frame"
+msgstr "包含最后一帧"
+
+#: properties.py:57
+msgid "Include Object Data"
+msgstr "包含物体数据"
+
+#: properties.py:47
+msgid "Keep Key Poses"
+msgstr "保留关键姿势"
+
+#: properties.py:67
+msgid "Keep Smooth Backup"
+msgstr "保留平滑备份"
+
+#: properties.py:28
+msgid "Keyframes"
+msgstr "关键帧"
+
+#: operators.py:34
+msgid "No animated channels found on the selection"
+msgstr "所选内容中未找到动画通道"
+
+#: operators.py:54
+msgid "No smooth backups found on the selection"
+msgstr "所选内容中未找到平滑备份"
+
+#: properties.py:37
+msgid "Offset"
+msgstr "偏移"
+
+#: properties.py:52
+msgid "Only Selected Bones"
+msgstr "仅选中骨骼"
+
+#: ui.py:51
+msgid "Options"
+msgstr "选项"
+
+#: properties.py:30
+msgid "Preview"
+msgstr "预览"
+
+#: properties.py:30
+msgid "Preview range (falls back to the scene range)"
+msgstr "预览范围（回退到场景范围）"
+
+#: properties.py:24
+msgid "Range"
+msgstr "范围"
+
+#: properties.py:29
+msgid "Scene"
+msgstr "场景"
+
+#: properties.py:29
+msgid "Scene start and end frames"
+msgstr "场景起始和结束帧"
+
+#: properties.py:37
+msgid "Shift the stepping by N frames (stagger characters so they don't all pop on the same frame)"
+msgstr "将步进偏移 N 帧（错开角色，避免它们都在同一帧跳变）"
+
+#: properties.py:35
+msgid "Start"
+msgstr "起始"
+
+#: operators.py:14
+#: properties.py:7
+msgid "Step"
+msgstr "步长"
+
+#: ui.py:9
+msgid "Stepped"
+msgstr "步进"
+
+#: ui.py:17
+msgid "Stepped Animation"
+msgstr "步进动画"
+
+#: properties.py:67
+msgid "Store a copy of the original smooth action so it can be restored later"
+msgstr "保存原始平滑动作的副本，以便之后恢复"
+
+#: properties.py:15
+msgid "Use a custom step size"
+msgstr "使用自定义步长"
+
+#: operators.py:11
+msgctxt "Operator"
+msgid "Make Stepped"
+msgstr "转换为步进"
+
+#: operators.py:43
+msgctxt "Operator"
+msgid "Restore Smooth"
+msgstr "恢复平滑"
+
+#: operators.py:41
+msgctxt "Operator"
+msgid "Restore the smooth animation saved before the last stepped bake"
+msgstr "恢复上次步进烘焙前保存的平滑动画"
+
+#: operators.py:9
+msgctxt "Operator"
+msgid "Sample the interpolated animation every N frames and replace it with constant keys"
+msgstr "每 N 帧采样插值动画，并替换为常量关键帧"

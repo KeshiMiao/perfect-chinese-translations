@@ -1,0 +1,178 @@
+# perfect-chinese: 1
+# id: stl_frame_sequence_exporter
+# kind: addon
+# module: bl_ext.blender_org.stl_frame_sequence_exporter
+# name: STL Frame Sequence Exporter
+# name_zh: STL帧序列导出
+# translator: KeshiMiao
+# category: Import-Export
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: properties.py:78
+msgid "ASCII"
+msgstr "ASCII"
+
+#: preferences.py:21
+msgid "ASCII by Default"
+msgstr "默认使用 ASCII"
+
+#: properties.py:73
+msgid "Also export mesh objects parented to the target object (e.g. separate fingernail/skin parts)"
+msgstr "同时导出以目标物体为父级的网格物体（例如分离的指甲/皮肤部分）"
+
+#: properties.py:68
+msgid "Apply Modifiers"
+msgstr "应用修改器"
+
+#: preferences.py:17
+msgid "Apply Modifiers by Default"
+msgstr "默认应用修改器"
+
+#: properties.py:68
+msgid "Bake the modifier stack (armature deform, subsurf, etc.) into the exported mesh"
+msgstr "将修改器堆栈（骨骼变形、细分曲面等）烘焙到导出的网格中"
+
+#: properties.py:26
+msgid "Custom Range"
+msgstr "自定义范围"
+
+#: preferences.py:13
+msgid "Default Filename Prefix"
+msgstr "默认文件名前缀"
+
+#: properties.py:35
+msgid "End Frame"
+msgstr "结束帧"
+
+#: operators.py:165
+msgid "End frame must be greater than or equal to start frame"
+msgstr "结束帧必须大于或等于起始帧"
+
+#: properties.py:40
+msgid "Export every Nth frame"
+msgstr "每隔 N 帧导出"
+
+#: properties.py:46
+msgid "Export only frames with a keyframe on the target's armature/shape-key action, instead of the numeric range/step above"
+msgstr "仅导出目标骨骼/形态键动作上有关键帧的帧，而不用上面的数值范围/步长"
+
+#: properties.py:63
+msgid "Filename Prefix"
+msgstr "文件名前缀"
+
+#: properties.py:54
+msgid "Folder to write the STL sequence to. If left empty, defaults to the .blend file's folder, or the last folder used"
+msgstr "写入 STL 序列的文件夹。留空则默认为 .blend 文件所在文件夹，或上次使用的文件夹"
+
+#: panels.py:21
+#: properties.py:22
+msgid "Frame Range"
+msgstr "帧范围"
+
+#: properties.py:40
+msgid "Frame Step"
+msgstr "帧步长"
+
+#: properties.py:73
+msgid "Include Children"
+msgstr "包含子级"
+
+#: properties.py:46
+msgid "Keyframes Only"
+msgstr "仅关键帧"
+
+#: operators.py:157
+msgid "Keyframes Only was selected but no keyframes were found"
+msgstr "已选择“仅关键帧”，但未找到关键帧"
+
+#: preferences.py:8
+msgid "Last Output Folder"
+msgstr "上次输出文件夹"
+
+#: properties.py:16
+msgid "Mesh object to export a per-frame STL sequence for"
+msgstr "要为其导出逐帧 STL 序列的网格物体"
+
+#: operators.py:171
+msgid "No output folder set, and the .blend file has not been saved yet"
+msgstr "未设置输出文件夹，且 .blend 文件尚未保存"
+
+#: operators.py:143
+msgid "No target object selected"
+msgstr "未选择目标物体"
+
+#: properties.py:83
+msgid "Open Output Folder"
+msgstr "打开输出文件夹"
+
+#: properties.py:83
+msgid "Open the output folder in the system file browser after the export finishes"
+msgstr "导出完成后在系统文件浏览器中打开输出文件夹"
+
+#: panels.py:38
+msgid "Options"
+msgstr "选项"
+
+#: panels.py:33
+msgid "Output"
+msgstr "输出"
+
+#: properties.py:54
+msgid "Output Folder"
+msgstr "输出文件夹"
+
+#: properties.py:63
+msgid "Prefix for each exported file; '_' plus the zero-padded frame number is appended automatically, e.g. frame -> frame_07.stl"
+msgstr "每个导出文件的前缀；会自动追加 '_' 和补零的帧号，例如 frame -> frame_07.stl"
+
+#: panels.py:5
+#: panels.py:9
+msgid "STL Frame Export"
+msgstr "STL 帧导出"
+
+#: properties.py:25
+msgid "Scene Range"
+msgstr "场景范围"
+
+#: properties.py:30
+msgid "Start Frame"
+msgstr "起始帧"
+
+#: properties.py:16
+msgid "Target Object"
+msgstr "目标物体"
+
+#: panels.py:18
+msgid "Target must be a mesh object"
+msgstr "目标必须是网格物体"
+
+#: operators.py:146
+msgid "Target object must be a mesh"
+msgstr "目标物体必须是网格"
+
+#: properties.py:26
+msgid "Use a custom start/end frame"
+msgstr "使用自定义起始/结束帧"
+
+#: properties.py:25
+msgid "Use the scene's start/end frame"
+msgstr "使用场景的起始/结束帧"
+
+#: properties.py:78
+msgid "Write ASCII STL files instead of binary"
+msgstr "写入 ASCII STL 文件而非二进制"
+
+#: operators.py:125
+msgctxt "Operator"
+msgid "Export STL Frame Sequence"
+msgstr "导出 STL 帧序列"
+
+#: panels.py:52
+msgctxt "Operator"
+msgid "STL Frame Sequence"
+msgstr "STL 帧序列"

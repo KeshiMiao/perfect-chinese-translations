@@ -1,0 +1,747 @@
+# perfect-chinese: 1
+# id: laserity
+# kind: addon
+# module: bl_ext.blender_org.laserity
+# name: Laserity
+# name_zh: 激光切割导出
+# translator: KeshiMiao
+# category: Import-Export
+# supported_versions: >=5.1.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: props.py:40
+msgid "1220 x 610 mm"
+msgstr "1220 x 610 mm"
+
+#: props.py:39
+msgid "1300 x 900 mm"
+msgstr "1300 x 900 mm"
+
+#: props.py:41
+msgid "2440 x 1220 mm"
+msgstr "2440 x 1220 mm"
+
+#: props.py:35
+msgid "300 x 200 mm"
+msgstr "300 x 200 mm"
+
+#: props.py:40
+msgid "4 x 2 ft plywood sheet"
+msgstr "4 x 2 英尺胶合板"
+
+#: props.py:36
+msgid "400 x 400 mm"
+msgstr "400 x 400 mm"
+
+#: props.py:37
+msgid "600 x 400 mm"
+msgstr "600 x 400 mm"
+
+#: props.py:41
+msgid "8 x 4 ft plywood sheet"
+msgstr "8 x 4 英尺胶合板"
+
+#: props.py:38
+msgid "900 x 600 mm"
+msgstr "900 x 600 mm"
+
+#: editor.py:1148
+msgid "Action"
+msgstr "操作"
+
+#: props.py:408
+msgid "Active Part"
+msgstr "活动零件"
+
+#: props.py:328
+msgid "Align to Min Rect"
+msgstr "对齐到最小矩形"
+
+#: props.py:70
+msgid "All"
+msgstr "全部"
+
+#: props.py:325
+msgid "Allow Rotation"
+msgstr "允许旋转"
+
+#: ui.py:218
+msgid "Arrange"
+msgstr "排列"
+
+#: operators.py:172
+msgid "Auto Nest"
+msgstr "自动排料"
+
+#: props.py:353
+msgid "Beam width to compensate for. Cut paths grow outwards by half of this. Leave at zero unless you know your kerf"
+msgstr "需要补偿的光束宽度。切割路径会向外扩展该值的一半。除非你了解自己的锯缝，否则保持为零"
+
+#: editor.py:1121
+msgid "Blender did not open a new window"
+msgstr "Blender 未能打开新窗口"
+
+#: editor.py:1152
+msgid "Clear the selection"
+msgstr "清除选择"
+
+#: props.py:36
+msgid "Common diode bed"
+msgstr "常见二极管激光工作台"
+
+#: props.py:195
+msgid "Conflict"
+msgstr "冲突"
+
+#: props.py:34
+msgid "Custom"
+msgstr "自定义"
+
+#: props.py:382
+msgid "Decimal places written into the SVG"
+msgstr "写入 SVG 的小数位数"
+
+#: ui.py:122
+msgid "Detection"
+msgstr "检测"
+
+#: props.py:61
+msgid "Do not turn marked edges into engraving"
+msgstr "不将标记的边转换为雕刻"
+
+#: props.py:377
+msgid "Draw Sheet Outline"
+msgstr "绘制板材轮廓"
+
+#: props.py:298
+msgid "Drop outline points that stray less than this from the line, in millimetres"
+msgstr "丢弃偏离直线小于此值的轮廓点，单位为毫米"
+
+#: props.py:312
+msgid "Edge Mark"
+msgstr "边标记"
+
+#: props.py:63
+msgid "Edges marked as UV seams become engraved lines"
+msgstr "标记为 UV 缝合线的边将变为雕刻线"
+
+#: props.py:62
+msgid "Edges marked for Freestyle become engraved lines"
+msgstr "标记为 Freestyle 的边将变为雕刻线"
+
+#: props.py:64
+msgid "Edges marked sharp become engraved lines"
+msgstr "标记为锐边的边将变为雕刻线"
+
+#: props.py:371
+msgid "Engrave Layer"
+msgstr "雕刻层"
+
+#: ui.py:146
+msgid "Engraving"
+msgstr "雕刻"
+
+#: props.py:70
+msgid "Every object in the scene, hidden ones included"
+msgstr "场景中的每个物体，包括隐藏的物体"
+
+#: props.py:68
+msgid "Every visible object in the view layer"
+msgstr "视图层中的每个可见物体"
+
+#: ui.py:235
+#: ui.py:351
+msgid "Export"
+msgstr "导出"
+
+#: props.py:340
+msgid "Export Path"
+msgstr "导出路径"
+
+#: props.py:307
+msgid "Faces whose material name starts with this are exported as engraved regions"
+msgstr "材质名称以此开头的面将作为雕刻区域导出"
+
+#: props.py:363
+msgid "First Cut Layer"
+msgstr "第一切割层"
+
+#: ui.py:46
+msgid "Flat Parts"
+msgstr "平面零件"
+
+#: props.py:270
+msgid "Flatness Ratio"
+msgstr "平整度比例"
+
+#: editor.py:1156
+msgid "Flip the selection"
+msgstr "反转选择"
+
+#: props.py:262
+msgid "Fraction of vertices that must sit on the two outer faces"
+msgstr "必须位于两个外侧面的顶点比例"
+
+#: props.py:62
+msgid "Freestyle Mark"
+msgstr "Freestyle 标记"
+
+#: props.py:233
+msgid "Gap kept between neighbouring parts, in millimetres"
+msgstr "相邻零件之间保留的间隙，单位为毫米"
+
+#: props.py:176
+msgid "Geometry"
+msgstr "几何体"
+
+#: operators.py:173
+msgid "Grid"
+msgstr "网格"
+
+#: props.py:390
+msgid "Grid step in millimetres"
+msgstr "网格步长，单位为毫米"
+
+#: props.py:255
+msgid "Group Tolerance"
+msgstr "组容差"
+
+#: props.py:346
+msgid "Hairline width written into the SVG, in millimetres"
+msgstr "写入 SVG 的细线宽度，单位为毫米"
+
+#: props.py:173
+#: props.py:219
+msgid "Height"
+msgstr "高度"
+
+#: props.py:397
+msgid "Highlight Conflicts"
+msgstr "高亮冲突"
+
+#: props.py:174
+msgid "Holes"
+msgstr "孔洞"
+
+#: props.py:284
+msgid "How far a face normal may stray and still count as part of the flat surface"
+msgstr "面法线允许偏离多少仍算作平面的一部分"
+
+#: props.py:156
+msgid "How many copies of this part to cut"
+msgstr "该零件要切割的份数"
+
+#: props.py:292
+msgid "How the outline is traced"
+msgstr "轮廓的描摹方式"
+
+#: props.py:277
+msgid "Ignore parts whose face area is under this, in square millimetres"
+msgstr "忽略面面积小于此值的零件，单位为平方毫米"
+
+#: operators.py:123
+#: props.py:150
+msgid "Include"
+msgstr "包含"
+
+#: props.py:150
+msgid "Include this part when arranging and exporting"
+msgstr "排列和导出时包含此零件"
+
+#: editor.py:1153
+msgid "Invert"
+msgstr "反转"
+
+#: editor.py:1153
+msgid "Invert the selection"
+msgstr "反选"
+
+#: props.py:37
+msgid "K40 / entry level CO2 bed"
+msgstr "K40 / 入门级 CO2 工作台"
+
+#: operators.py:31
+msgid "Keep Arrangement"
+msgstr "保持排列"
+
+#: props.py:353
+msgid "Kerf"
+msgstr "切缝"
+
+#: props.py:402
+msgid "Label parts in the editor"
+msgstr "在编辑器中标注零件"
+
+#: props.py:39
+msgid "Large CO2 bed"
+msgstr "大型 CO2 工作台"
+
+#: ui.py:42
+#: ui.py:266
+msgid "Laserity"
+msgstr "Laserity"
+
+#: operators.py:173
+msgid "Lay parts out in plain rows, unrotated"
+msgstr "将零件按普通行排列，不旋转"
+
+#: ui.py:310
+msgid "Layout"
+msgstr "布局"
+
+#: operators.py:211
+msgid "Layout is clear"
+msgstr "布局无问题"
+
+#: operators.py:31
+msgid "Leave the current sheet layout alone instead of re-packing after the scan"
+msgstr "保留当前板材布局，扫描后不重新排布"
+
+#: props.py:325
+msgid "Let the packer turn parts 90 degrees"
+msgstr "允许排布器将零件旋转 90 度"
+
+#: props.py:363
+msgid "LightBurn layer for the thinnest stock; further thicknesses take the next layers"
+msgstr "最薄板材使用的 LightBurn 图层；更厚的板材依次使用后续图层"
+
+#: props.py:371
+msgid "LightBurn layer used for engraved regions and lines"
+msgstr "用于雕刻区域和线条的 LightBurn 图层"
+
+#: props.py:226
+msgid "Margin"
+msgstr "边距"
+
+#: props.py:397
+msgid "Mark parts that overlap, break the spacing or share a sheet with other stock"
+msgstr "标记重叠、间距不足或与其他板材共用同一张板材的零件"
+
+#: props.py:307
+msgid "Material Prefix"
+msgstr "材质前缀"
+
+#: props.py:335
+msgid "Max Sheets"
+msgstr "最大板材数"
+
+#: props.py:248
+msgid "Max Thickness"
+msgstr "最大厚度"
+
+#: props.py:164
+msgid "Measured thickness in mm"
+msgstr "实测厚度（毫米）"
+
+#: props.py:175
+#: props.py:292
+msgid "Method"
+msgstr "方法"
+
+#: props.py:38
+msgid "Mid size CO2 bed"
+msgstr "中型 CO2 工作台"
+
+#: props.py:277
+msgid "Min Area"
+msgstr "最小面积"
+
+#: editor.py:1156
+msgid "Mirror"
+msgstr "镜像"
+
+#: props.py:193
+msgid "Mirrored"
+msgstr "已镜像"
+
+#: operators.py:169
+msgid "Mode"
+msgstr "模式"
+
+#: ui.py:270
+msgid "Nesting"
+msgstr "排料"
+
+#: props.py:61
+msgid "None"
+msgstr "无"
+
+#: props.py:284
+msgid "Normal Tolerance"
+msgstr "法向容差"
+
+#: editor.py:1114
+#: operators.py:182
+msgid "Nothing to arrange — scan the scene first"
+msgstr "无可排布的零件 — 请先扫描场景"
+
+#: operators.py:245
+msgid "Nothing to export — scan the scene and arrange the parts first"
+msgstr "无可导出的内容 — 请先扫描场景并排布零件"
+
+#: props.py:145
+msgid "Object"
+msgstr "物体"
+
+#: props.py:248
+msgid "Objects thicker than this are not treated as sheet material"
+msgstr "厚度超过此值的物体不会被视为板材"
+
+#: props.py:318
+msgid "Only take marked edges lying on the part's upper surface"
+msgstr "仅采用位于零件上表面的标记边"
+
+#: props.py:69
+msgid "Only the selected objects"
+msgstr "仅选中的物体"
+
+#: ui.py:281
+msgid "Or close this window and reopen"
+msgstr "或关闭此窗口后重新打开"
+
+#: operators.py:172
+msgid "Pack parts tightly using their tightest bounding rectangle"
+msgstr "使用最紧凑的边界矩形紧密排布零件"
+
+#: operators.py:142
+#: props.py:188
+msgid "Part"
+msgstr "零件"
+
+#: props.py:402
+msgid "Part Names"
+msgstr "零件名称"
+
+#: ui.py:243
+msgid "Path"
+msgstr "路径"
+
+#: props.py:205
+msgid "Pick a common bed or stock size"
+msgstr "选择一个常用的工作台或板材尺寸"
+
+#: props.py:382
+msgid "Precision"
+msgstr "精度"
+
+#: props.py:156
+msgid "Quantity"
+msgstr "数量"
+
+#: props.py:182
+msgid "Reason"
+msgstr "原因"
+
+#: editor.py:1157
+msgid "Remove"
+msgstr "移除"
+
+#: editor.py:1157
+msgid "Remove the selected copies"
+msgstr "移除选中的副本"
+
+#: props.py:411
+msgid "Report"
+msgstr "报告"
+
+#: editor.py:1154
+msgid "Rotate 90 CCW"
+msgstr "逆时针旋转 90 度"
+
+#: editor.py:1155
+msgid "Rotate 90 CW"
+msgstr "顺时针旋转 90 度"
+
+#: props.py:328
+msgid "Rotate each part so its tightest bounding rectangle is axis aligned before packing"
+msgstr "排布前旋转每个零件，使其最紧凑的边界矩形与坐标轴对齐"
+
+#: props.py:190
+msgid "Rotation"
+msgstr "旋转"
+
+#: props.py:242
+msgid "Scan"
+msgstr "扫描"
+
+#: props.py:145
+msgid "Scene object this part was flattened from"
+msgstr "该零件展平前所对应的场景物体"
+
+#: editor.py:1151
+msgid "Select All"
+msgstr "全选"
+
+#: editor.py:1152
+msgid "Select None"
+msgstr "取消选择"
+
+#: editor.py:1151
+msgid "Select every part"
+msgstr "选择所有零件"
+
+#: props.py:69
+#: props.py:194
+msgid "Selected"
+msgstr "已选中"
+
+#: props.py:64
+msgid "Sharp"
+msgstr "锐利"
+
+#: props.py:189
+#: props.py:205
+msgid "Sheet"
+msgstr "板材"
+
+#: props.py:219
+msgid "Sheet height in millimetres"
+msgstr "板材高度（毫米）"
+
+#: props.py:34
+msgid "Sheet size entered by hand"
+msgstr "手动输入的板材尺寸"
+
+#: props.py:212
+msgid "Sheet width in millimetres"
+msgstr "板材宽度（毫米）"
+
+#: props.py:270
+msgid "Shortest in-plane side must be at least this many times the thickness"
+msgstr "平面内最短边至少为厚度的该倍数"
+
+#: props.py:298
+msgid "Simplify"
+msgstr "简化"
+
+#: ui.py:164
+msgid "Skipped Objects"
+msgstr "已跳过的物体"
+
+#: props.py:262
+msgid "Slab Strictness"
+msgstr "板料严格度"
+
+#: props.py:35
+msgid "Small diode bed"
+msgstr "小型二极管激光工作台"
+
+#: props.py:387
+msgid "Snap"
+msgstr "吸附"
+
+#: props.py:390
+msgid "Snap Size"
+msgstr "吸附尺寸"
+
+#: props.py:387
+msgid "Snap parts to a grid while dragging"
+msgstr "拖动时将零件吸附到网格"
+
+#: props.py:233
+msgid "Spacing"
+msgstr "间距"
+
+#: props.py:165
+msgid "Stock Thickness"
+msgstr "板材厚度"
+
+#: props.py:335
+msgid "Stop after this many sheets"
+msgstr "达到该板材数量后停止"
+
+#: props.py:346
+msgid "Stroke Width"
+msgstr "描边宽度"
+
+#: operators.py:148
+msgid "That part's object is gone from the scene"
+msgstr "该零件的物体已从场景中移除"
+
+#: props.py:164
+msgid "Thickness"
+msgstr "厚度"
+
+#: props.py:165
+msgid "Thickness rounded to the grouping tolerance; parts sharing it are cut together"
+msgstr "厚度按分组容差取整；共享该厚度的零件一起切割"
+
+#: props.py:255
+msgid "Thicknesses within this distance are treated as the same stock"
+msgstr "在此距离内的厚度视为同一种板材"
+
+#: props.py:318
+msgid "Top Face Only"
+msgstr "仅顶面"
+
+#: editor.py:1154
+msgid "Turn the selection a quarter turn anticlockwise"
+msgstr "将所选逆时针旋转四分之一圈"
+
+#: editor.py:1155
+msgid "Turn the selection a quarter turn clockwise"
+msgstr "将所选顺时针旋转四分之一圈"
+
+#: props.py:63
+msgid "UV Seam"
+msgstr "UV 缝合线"
+
+#: props.py:226
+msgid "Unusable border kept clear around the sheet, in millimetres"
+msgstr "板材周围保留的不可用边距（毫米）"
+
+#: props.py:68
+msgid "Visible"
+msgstr "可见"
+
+#: props.py:340
+msgid "Where the SVG sheets are written. One file per sheet"
+msgstr "SVG 板材文件的写入位置。每张板材一个文件"
+
+#: props.py:312
+msgid "Which edge marking becomes an engraved line"
+msgstr "哪种边标记会成为雕刻线"
+
+#: props.py:242
+msgid "Which objects to look at"
+msgstr "要查看的物体"
+
+#: props.py:172
+#: props.py:212
+msgid "Width"
+msgstr "宽度"
+
+#: props.py:377
+msgid "Write the sheet border into the SVG, on its own layer"
+msgstr "将板材边框写入 SVG 的独立图层"
+
+#: props.py:191
+msgid "X"
+msgstr "X"
+
+#: props.py:192
+msgid "Y"
+msgstr "Y"
+
+#: ui.py:282
+msgid "the editor from the 3D viewport."
+msgstr "从 3D 视图打开该编辑器。"
+
+#: ui.py:289
+msgctxt "Operator"
+msgid "All"
+msgstr "全部"
+
+#: operators.py:166
+msgctxt "Operator"
+msgid "Arrange"
+msgstr "排列"
+
+#: ui.py:187
+msgctxt "Operator"
+msgid "Auto Nest"
+msgstr "自动排样"
+
+#: ui.py:190
+msgctxt "Operator"
+msgid "Check"
+msgstr "检查"
+
+#: operators.py:202
+msgctxt "Operator"
+msgid "Check Layout"
+msgstr "检查布局"
+
+#: operators.py:103
+msgctxt "Operator"
+msgid "Clear Parts"
+msgstr "清除零件"
+
+#: ui.py:67
+msgctxt "Operator"
+msgid "Exclude All"
+msgstr "全部排除"
+
+#: operators.py:220
+msgctxt "Operator"
+msgid "Export SVG"
+msgstr "导出 SVG"
+
+#: ui.py:189
+msgctxt "Operator"
+msgid "Grid"
+msgstr "网格"
+
+#: ui.py:66
+msgctxt "Operator"
+msgid "Include All"
+msgstr "全部包含"
+
+#: ui.py:291
+msgctxt "Operator"
+msgid "Invert"
+msgstr "反转"
+
+#: operators.py:277
+msgctxt "Operator"
+msgid "Laser Sheets (.svg)"
+msgstr "激光板材 (.svg)"
+
+#: editor.py:730
+msgctxt "Operator"
+msgid "Laserity Nesting Editor"
+msgstr "Laserity 排样编辑器"
+
+#: ui.py:303
+msgctxt "Operator"
+msgid "Mirror"
+msgstr "镜像"
+
+#: ui.py:290
+msgctxt "Operator"
+msgid "None"
+msgstr "无"
+
+#: editor.py:1107
+msgctxt "Operator"
+msgid "Open Nesting Editor"
+msgstr "打开排样编辑器"
+
+#: editor.py:1145
+msgctxt "Operator"
+msgid "Placement Action"
+msgstr "放置操作"
+
+#: ui.py:306
+msgctxt "Operator"
+msgid "Remove"
+msgstr "移除"
+
+#: ui.py:296
+msgctxt "Operator"
+msgid "Rotate 90°"
+msgstr "旋转 90°"
+
+#: operators.py:28
+msgctxt "Operator"
+msgid "Scan Scene"
+msgstr "扫描场景"
+
+#: operators.py:139
+msgctxt "Operator"
+msgid "Select Object"
+msgstr "选择物体"
+
+#: operators.py:120
+msgctxt "Operator"
+msgid "Set All"
+msgstr "全部设置"
+
+#: ui.py:280
+msgctxt "Operator"
+msgid "Start Editor Here"
+msgstr "从此处启动编辑器"

@@ -1,0 +1,183 @@
+# perfect-chinese: 1
+# id: pixelsync_porter
+# kind: addon
+# module: bl_ext.blender_org.pixelsync_porter
+# name: PixelSync Porter
+# name_zh: 像素同步桥
+# translator: KeshiMiao
+# category: 
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: pixelsync_porter_v2.4.0/__init__.py:1227
+msgid "Backup File"
+msgstr "备份文件"
+
+#: pixelsync_porter_v2.4.0/__init__.py:1332
+msgid "Backup contains extensions but this Blender (<4.2) does not support them. Files copied to scripts/addons as a legacy fallback."
+msgstr "备份包含扩展，但此 Blender（<4.2）不支持扩展。文件已作为旧版回退复制到 scripts/addons。"
+
+#: pixelsync_porter_v2.4.0/__init__.py:914
+msgid "Cached Backup Size"
+msgstr "缓存的备份大小"
+
+#: pixelsync_porter_v2.4.0/__init__.py:1344
+msgid "Corrupt or unreadable ZIP file."
+msgstr "ZIP 文件损坏或无法读取。"
+
+#: pixelsync_porter_v2.4.0/__init__.py:977
+msgid "Destination path for the .zip backup file"
+msgstr ".zip 备份文件的目标路径"
+
+#: pixelsync_porter_v2.4.0/__init__.py:1476
+msgid "Detected Paths"
+msgstr "检测到的路径"
+
+#: pixelsync_porter_v2.4.0/__init__.py:1423
+msgid "Est. size: not calculated"
+msgstr "预估大小：未计算"
+
+#: pixelsync_porter_v2.4.0/__init__.py:1411
+msgid "Export"
+msgstr "导出"
+
+#: pixelsync_porter_v2.4.0/__init__.py:1497
+msgid "Ext    : N/A (Blender < 4.2)"
+msgstr "扩展    ：不适用（Blender < 4.2）"
+
+#: pixelsync_porter_v2.4.0/__init__.py:1461
+msgid "Import"
+msgstr "导入"
+
+#: pixelsync_porter_v2.4.0/__init__.py:914
+msgid "Last calculated backup size (click 'Calculate Size' to refresh)"
+msgstr "上次计算的备份大小（点击「计算大小」刷新）"
+
+#: pixelsync_porter_v2.4.0/__init__.py:1402
+msgid "Mode: Add-ons + Extensions"
+msgstr "模式：插件 + 扩展"
+
+#: pixelsync_porter_v2.4.0/__init__.py:1404
+msgid "Mode: Legacy add-ons only"
+msgstr "模式：仅旧版插件"
+
+#: pixelsync_porter_v2.4.0/__init__.py:1032
+msgid "No config / addons / extensions found — nothing to back up."
+msgstr "未找到配置 / 插件 / 扩展——无可备份内容。"
+
+#: pixelsync_porter_v2.4.0/__init__.py:1260
+msgid "Not a valid PixelSync Porter backup. The file is missing a PixelSync MANIFEST.txt. Select a .zip created by PixelSync Porter."
+msgstr "不是有效的 PixelSync Porter 备份。文件缺少 PixelSync MANIFEST.txt。请选择由 PixelSync Porter 创建的 .zip 文件。"
+
+#: pixelsync_porter_v2.4.0/__init__.py:1227
+msgid "Path to the PixelSync Porter .zip backup"
+msgstr "PixelSync Porter .zip 备份的路径"
+
+#: pixelsync_porter_v2.4.0/__init__.py:113
+#: pixelsync_porter_v2.4.0/__init__.py:1383
+msgid "PixelSync Porter"
+msgstr "PixelSync Porter"
+
+#: pixelsync_porter_v2.4.0/__init__.py:1357
+msgid "PixelSync: Applying preferences..."
+msgstr "PixelSync：正在应用偏好设置…"
+
+#: pixelsync_porter_v2.4.0/__init__.py:1036
+msgid "PixelSync: Building manifest..."
+msgstr "PixelSync：正在生成清单…"
+
+#: pixelsync_porter_v2.4.0/__init__.py:1289
+msgid "PixelSync: Extracting to temp directory..."
+msgstr "PixelSync：正在解压到临时目录…"
+
+#: pixelsync_porter_v2.4.0/__init__.py:1368
+msgid "PixelSync: Restore complete. Restart Blender to apply all changes."
+msgstr "PixelSync：恢复完成。重启 Blender 以应用所有更改。"
+
+#: pixelsync_porter_v2.4.0/__init__.py:1362
+msgid "PixelSync: Restore complete. Themes & UI settings applied live. Restart Blender to activate restored add-on modules."
+msgstr "PixelSync：恢复完成。主题与界面设置已即时应用。重启 Blender 以激活已恢复的插件模块。"
+
+#: pixelsync_porter_v2.4.0/__init__.py:1315
+msgid "PixelSync: Restoring add-ons..."
+msgstr "PixelSync：正在恢复插件…"
+
+#: pixelsync_porter_v2.4.0/__init__.py:1309
+msgid "PixelSync: Restoring config..."
+msgstr "PixelSync：正在恢复配置…"
+
+#: pixelsync_porter_v2.4.0/__init__.py:1325
+msgid "PixelSync: Restoring extensions..."
+msgstr "PixelSync：正在恢复扩展…"
+
+#: pixelsync_porter_v2.4.0/__init__.py:1076
+msgid "PixelSync: Scanning file count..."
+msgstr "PixelSync：正在扫描文件数量…"
+
+#: pixelsync_porter_v2.4.0/__init__.py:993
+msgid "PixelSync: Scanning source directories..."
+msgstr "PixelSync：正在扫描源目录…"
+
+#: pixelsync_porter_v2.4.0/__init__.py:1246
+msgid "PixelSync: Validating backup file..."
+msgstr "PixelSync：正在校验备份文件…"
+
+#: pixelsync_porter_v2.4.0/__init__.py:113
+msgid "Professional settings backup & restore. Exports config, keymaps, add-ons, and extensions (4.2+) into a single timestamped .zip. Supports Blender 4.0 – 5.1+."
+msgstr "专业的设置备份与恢复。将配置、键位映射、插件和扩展（4.2+）导出为单个带时间戳的 .zip。支持 Blender 4.0 – 5.1+。"
+
+#: pixelsync_porter_v2.4.0/__init__.py:1463
+msgid "Restore from .zip backup"
+msgstr "从 .zip 备份恢复"
+
+#: pixelsync_porter_v2.4.0/__init__.py:977
+msgid "Save Backup As"
+msgstr "备份另存为"
+
+#: pixelsync_porter_v2.4.0/__init__.py:1253
+msgid "Selected file is not a .zip archive."
+msgstr "所选文件不是 .zip 压缩包。"
+
+#: pixelsync_porter_v2.4.0/__init__.py:1398
+msgid "Settings Backup & Restore"
+msgstr "设置备份与恢复"
+
+#: pixelsync_porter_v2.4.0/__init__.py:113
+msgid "System"
+msgstr "系统"
+
+#: pixelsync_porter_v2.4.0/__init__.py:1145
+#: pixelsync_porter_v2.4.0/__init__.py:1350
+msgid "Unexpected error — see System Console."
+msgstr "意外错误——请查看系统控制台。"
+
+#: pixelsync_porter_v2.4.0/__init__.py:1299
+msgid "ZIP contains unsafe path entries — restore aborted."
+msgstr "ZIP 包含不安全的路径条目——恢复已中止。"
+
+#: pixelsync_porter_v2.4.0/__init__.py:973
+#: pixelsync_porter_v2.4.0/__init__.py:1450
+msgctxt "Operator"
+msgid "Backup All Settings"
+msgstr "备份所有设置"
+
+#: pixelsync_porter_v2.4.0/__init__.py:935
+msgctxt "Operator"
+msgid "Calculate Size"
+msgstr "计算大小"
+
+#: pixelsync_porter_v2.4.0/__init__.py:1178
+#: pixelsync_porter_v2.4.0/__init__.py:1444
+msgctxt "Operator"
+msgid "Confirm Large Backup"
+msgstr "确认大型备份"
+
+#: pixelsync_porter_v2.4.0/__init__.py:1224
+#: pixelsync_porter_v2.4.0/__init__.py:1465
+msgctxt "Operator"
+msgid "Restore from Backup"
+msgstr "从备份恢复"

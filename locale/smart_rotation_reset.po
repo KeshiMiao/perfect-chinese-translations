@@ -1,0 +1,168 @@
+# perfect-chinese: 1
+# id: smart_rotation_reset
+# kind: addon
+# module: bl_ext.blender_org.smart_rotation_reset
+# name: Smart Rotation Reset
+# name_zh: 智能旋转重置
+# translator: KeshiMiao
+# category: Mesh
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: Smart-Rotation-Reset-1.2/preferences.py:33
+msgid "1-Edge Mode: Default Alignment"
+msgstr "1 边模式：默认对齐"
+
+#: Smart-Rotation-Reset-1.2/preferences.py:24
+msgid "1-Face Mode: Use Roll by Default"
+msgstr "1 面模式：默认使用滚转"
+
+#: Smart-Rotation-Reset-1.2/operators.py:569
+msgid "1-Face mode: face is non-planar AND degenerate (no well-defined best-fit plane); no changes made"
+msgstr "1 面模式：面非平面且退化（无明确定义的最佳拟合平面）；未做更改"
+
+#: Smart-Rotation-Reset-1.2/preferences.py:8
+msgid "2-Edge Mode: Use Roll by Default"
+msgstr "2 边模式：默认使用滚转"
+
+#: Smart-Rotation-Reset-1.2/preferences.py:42
+msgid "2-Vertex Mode: Default Alignment"
+msgstr "2 顶点模式：默认对齐"
+
+#: Smart-Rotation-Reset-1.2/preferences.py:16
+msgid "3-Vertex Mode: Use Roll by Default"
+msgstr "3 顶点模式：默认使用滚转"
+
+#: Smart-Rotation-Reset-1.2/operators.py:328
+msgid "Align To"
+msgstr "对齐到"
+
+#: Smart-Rotation-Reset-1.2/operators.py:331
+#: Smart-Rotation-Reset-1.2/preferences.py:37
+msgid "Align to the closest single world axis (line)"
+msgstr "对齐到最近的世界单轴（直线）"
+
+#: Smart-Rotation-Reset-1.2/operators.py:332
+#: Smart-Rotation-Reset-1.2/preferences.py:38
+msgid "Align to the closest world plane"
+msgstr "对齐到最近的世界平面"
+
+#: Smart-Rotation-Reset-1.2/preferences.py:80
+msgid "Alignment Target Defaults"
+msgstr "对齐目标默认值"
+
+#: Smart-Rotation-Reset-1.2/operators.py:323
+msgid "Also align in-plane rotation to the nearest world axis"
+msgstr "同时将面内旋转对齐到最近的世界轴"
+
+#: Smart-Rotation-Reset-1.2/operators.py:331
+#: Smart-Rotation-Reset-1.2/preferences.py:37
+msgid "Axis"
+msgstr "轴"
+
+#: Smart-Rotation-Reset-1.2/preferences.py:33
+msgid "Default target type when rotating using 1 selected edge"
+msgstr "使用 1 条选中边旋转时的默认目标类型"
+
+#: Smart-Rotation-Reset-1.2/preferences.py:42
+msgid "Default target type when rotating using 2 selected vertices"
+msgstr "使用 2 个选中顶点旋转时的默认目标类型"
+
+#: Smart-Rotation-Reset-1.2/operators.py:398
+msgid "Edit Mode Rotation Reset: no mode set, aborting"
+msgstr "编辑模式旋转重置：未设置模式，正在中止"
+
+#: Smart-Rotation-Reset-1.2/modal_facing.py:103
+msgid "Facing Picker: mesh context changed, aborted"
+msgstr "朝向选择器：网格上下文已更改，已中止"
+
+#: Smart-Rotation-Reset-1.2/modal_facing.py:29
+msgid "Facing Picker: mesh has no geometry"
+msgstr "朝向选择器：网格没有几何体"
+
+#: Smart-Rotation-Reset-1.2/__init__.py:1
+msgid "Mesh"
+msgstr "网格"
+
+#: Smart-Rotation-Reset-1.2/preferences.py:85
+msgid "Messages"
+msgstr "消息"
+
+#: Smart-Rotation-Reset-1.2/operators.py:389
+msgid "No adjustable options for this mode"
+msgstr "此模式没有可调整的选项"
+
+#: Smart-Rotation-Reset-1.2/operators.py:332
+#: Smart-Rotation-Reset-1.2/preferences.py:38
+msgid "Plane"
+msgstr "平面"
+
+#: Smart-Rotation-Reset-1.2/operators.py:617
+msgid "Rest On Selected Faces: no selected face had a well-defined plane (all were degenerate/collinear)"
+msgstr "放置在选中面上：没有选中的面具有明确定义的平面（全部退化/共线）"
+
+#: Smart-Rotation-Reset-1.2/operators.py:630
+msgid "Rest On Selected Faces: none of the selected faces are a perfectly stable resting plane; used the closest match"
+msgstr "放置在选中面上：选中的面均不是完全稳定的放置平面；已使用最接近的匹配"
+
+#: Smart-Rotation-Reset-1.2/preferences.py:74
+msgid "Roll Defaults"
+msgstr "滚转默认值"
+
+#: Smart-Rotation-Reset-1.2/__init__.py:1
+msgid "Rotate mesh geometry so the current selection (edges, verts, or face) aligns to world axes/planes, or rest the whole mesh on the floor, or pick a 90-degree facing direction."
+msgstr "旋转网格几何体，使当前选择（边、顶点或面）对齐到世界轴/平面，或将整个网格放置在地面上，或选取 90 度朝向方向。"
+
+#: Smart-Rotation-Reset-1.2/preferences.py:52
+msgid "Show Info Messages"
+msgstr "显示信息消息"
+
+#: Smart-Rotation-Reset-1.2/preferences.py:60
+msgid "Show Warning Messages"
+msgstr "显示警告消息"
+
+#: Smart-Rotation-Reset-1.2/preferences.py:52
+msgid "Show informational messages (e.g. 'rotated to align with world axes') in the status bar after a successful operation"
+msgstr "操作成功后，在状态栏显示信息消息（例如「已旋转以对齐世界轴」）"
+
+#: Smart-Rotation-Reset-1.2/preferences.py:60
+msgid "Show warning messages (e.g. non-planar face, non-perpendicular edges, no stable resting face found) in the status bar. Errors are always shown regardless of this setting"
+msgstr "在状态栏显示警告消息（例如非平面面、非垂直边、未找到稳定的放置面）。无论此设置如何，错误始终显示"
+
+#: Smart-Rotation-Reset-1.2/__init__.py:1
+msgid "Smart Rotation Reset"
+msgstr "智能旋转重置"
+
+#: Smart-Rotation-Reset-1.2/preferences.py:89
+msgid "These defaults are used the first time an operator runs; adjust per-operation in the redo panel (bottom-left after running)."
+msgstr "这些默认值在操作首次运行时使用；可在重做面板（运行后位于左下角）中按操作调整。"
+
+#: Smart-Rotation-Reset-1.2/operators.py:323
+msgid "Use Roll"
+msgstr "使用滚转"
+
+#: Smart-Rotation-Reset-1.2/preferences.py:24
+msgid "When rotating using 1 selected face, also align the in-plane rotation (roll) to the nearest world axis by default"
+msgstr "使用 1 个选中面旋转时，默认同时将面内旋转（滚转）对齐到最近的世界轴"
+
+#: Smart-Rotation-Reset-1.2/preferences.py:8
+msgid "When rotating using 2 selected edges, also align the in-plane rotation (roll) to the nearest world axis by default"
+msgstr "使用 2 条选中边旋转时，默认同时将面内旋转（滚转）对齐到最近的世界轴"
+
+#: Smart-Rotation-Reset-1.2/preferences.py:16
+msgid "When rotating using 3 selected vertices, also align the in-plane rotation (roll) to the nearest world axis by default"
+msgstr "使用 3 个选中顶点旋转时，默认同时将面内旋转（滚转）对齐到最近的世界轴"
+
+#: Smart-Rotation-Reset-1.2/operators.py:307
+msgctxt "Operator"
+msgid "Edit Mode Rotation Reset"
+msgstr "编辑模式旋转重置"
+
+#: Smart-Rotation-Reset-1.2/modal_facing.py:16
+msgctxt "Operator"
+msgid "Rotation Reset: Facing Picker"
+msgstr "旋转重置：朝向选择器"

@@ -1,0 +1,854 @@
+# perfect-chinese: 1
+# id: prop_handoff
+# kind: addon
+# module: bl_ext.blender_org.prop_handoff
+# name: PropHandoff
+# name_zh: 道具交接
+# translator: KeshiMiao
+# category: Animation
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: panel.py:122
+#: panel.py:125
+msgid "%s › %s"
+msgstr "%s › %s"
+
+#: panel.py:387
+msgid ","
+msgstr ","
+
+#: operators.py:2091
+#: operators.py:2152
+msgid "Action"
+msgstr "动作"
+
+#: panel.py:214
+msgid "Actions (current frame)"
+msgstr "动作（当前帧）"
+
+#: operators.py:174
+#: panel.py:64
+msgid "Active prop"
+msgstr "活动道具"
+
+#: operators.py:2646
+msgid "Active prop and throw settings"
+msgstr "活动道具和投掷设置"
+
+#: operators.py:122
+msgid "Active slot"
+msgstr "活动插槽"
+
+#: operators.py:2369
+msgid "Add the left hand"
+msgstr "添加左手"
+
+#: operators.py:2370
+msgid "Add the right hand"
+msgstr "添加右手"
+
+#: operators.py:2300
+msgid "Also release the prop"
+msgstr "同时释放道具"
+
+#: operators.py:721
+msgid "Also remove the slots"
+msgstr "同时移除插槽"
+
+#: operators.py:223
+msgid "Angular velocity (world axes), shown in degrees/s"
+msgstr "角速度（世界轴），单位为度/秒"
+
+#: operators.py:94
+msgid "Armature or object/empty used as attachment point"
+msgstr "用作附加点的骨架或物体/空物体"
+
+#: operators.py:2445
+msgid "Attach"
+msgstr "附加"
+
+#: panel.py:477
+msgid "Attach (current frame)"
+msgstr "附加（当前帧）"
+
+#: operators.py:2445
+msgid "Attach it to the prop at the current frame"
+msgstr "在当前帧将其附加到道具"
+
+#: operators.py:2368
+#: operators.py:2442
+msgid "Automatic"
+msgstr "自动"
+
+#: operators.py:2094
+msgid "Back to the proximity blend from this frame on"
+msgstr "从此帧起恢复邻近混合"
+
+#: operators.py:2191
+msgid "Bake the motion"
+msgstr "烘焙运动"
+
+#: operators.py:635
+msgid "Bind the default slots to the selected armature, else to the only armature of the scene"
+msgstr "将默认插槽绑定到所选骨架，否则绑定到场景中唯一的骨架"
+
+#: operators.py:100
+#: panel.py:207
+msgid "Bone"
+msgstr "骨骼"
+
+#: operators.py:100
+msgid "Bone name (only if the target is an armature)"
+msgstr "骨骼名称（仅当目标为骨架时）"
+
+#: operators.py:2383
+msgid "Cannot deduce which hand holds the prop: assign it first through section 1, or pick the hand explicitly."
+msgstr "无法推断哪只手拿着道具：请先通过第 1 节指定，或明确选择手。"
+
+#: operators.py:630
+msgid "Create Hand_L and Hand_R if no slot is defined yet"
+msgstr "如果尚未定义插槽，则创建 Hand_L 和 Hand_R"
+
+#: operators.py:1946
+msgid "Create the zone sphere"
+msgstr "创建区域球体"
+
+#: operators.py:2368
+msgid "Deduce from the active slot of section 1"
+msgstr "根据第 1 节的活动插槽推断"
+
+#: operators.py:630
+msgid "Default slots"
+msgstr "默认插槽"
+
+#: operators.py:208
+#: operators.py:832
+msgid "Direction"
+msgstr "方向"
+
+#: operators.py:193
+#: operators.py:1017
+msgid "Direction + speed"
+msgstr "方向 + 速度"
+
+#: operators.py:834
+msgid "Down"
+msgstr "向下"
+
+#: operators.py:721
+msgid "Empty the slot list and the ph_slots custom property"
+msgstr "清空插槽列表和 ph_slots 自定义属性"
+
+#: operators.py:203
+msgid "Factor applied to the measured velocity"
+msgstr "应用于测得速度的系数"
+
+#: operators.py:2191
+msgid "First bake to keys the effect of the Grip Zone / Lock over the whole scene (otherwise the hands go back to their raw channels)"
+msgstr "先将抓握区域 / 锁定在整个场景中的效果烘焙为关键帧（否则双手会回到其原始通道）"
+
+#: operators.py:182
+#: operators.py:1012
+msgid "Flight frames"
+msgstr "飞行帧数"
+
+#: operators.py:160
+msgid "Fraction of the arm length kept in reserve: the prop stops slightly before the arm is fully extended"
+msgstr "手臂长度保留的余量比例：道具会在手臂完全伸展前稍早停下"
+
+#: operators.py:2555
+msgid "Frame"
+msgstr "帧"
+
+#: panel.py:301
+msgid "Frame %d → %s"
+msgstr "帧 %d → %s"
+
+#: panel.py:168
+msgid "Frame %d: %s"
+msgstr "帧 %d：%s"
+
+#: panel.py:489
+msgid "Frame %d: %s only"
+msgstr "帧 %d：仅 %s"
+
+#: panel.py:487
+msgid "Frame %d: both hands on the prop"
+msgstr "帧 %d：双手放在道具上"
+
+#: panel.py:492
+msgid "Frame %d: hands free"
+msgstr "帧 %d：双手空闲"
+
+#: panel.py:166
+msgid "Frame %d: released (world space)"
+msgstr "帧 %d：已释放（世界空间）"
+
+#: operators.py:198
+msgid "Frames analysed backwards to estimate the velocity"
+msgstr "为估算速度而向后分析的帧数"
+
+#: operators.py:716
+msgid "Freeze the current position before removing the constraints"
+msgstr "移除约束前冻结当前位置"
+
+#: operators.py:191
+#: operators.py:1016
+msgid "From animation"
+msgstr "来自动画"
+
+#: operators.py:218
+#: operators.py:1026
+msgid "Gravity"
+msgstr "重力"
+
+#: panel.py:441
+msgid "Grip Poses"
+msgstr "抓握姿势"
+
+#: panel.py:403
+msgid "Grip Zone"
+msgstr "抓握区域"
+
+#: operators.py:2021
+msgid "Hand"
+msgstr "手"
+
+#: operators.py:2365
+msgid "Hand that comes onto the prop"
+msgstr "靠近道具的手"
+
+#: operators.py:2365
+msgid "Hand to add"
+msgstr "要添加的手"
+
+#: operators.py:2093
+msgid "Hands locked on the grips from this frame on"
+msgstr "从此帧起双手锁定在抓握点上"
+
+#: operators.py:77
+#: panel.py:203
+msgid "ID"
+msgstr "ID"
+
+#: panel.py:365
+msgid "IK Targets"
+msgstr "IK 目标"
+
+#: operators.py:1951
+msgid "If a side's IK target is set, place the grip point directly on the hand (same as \"Set pose\")"
+msgstr "如果某侧的 IK 目标已设置，则直接将抓握点放在手上（与“设置姿势”相同）"
+
+#: operators.py:2442
+msgid "If it does not already follow the prop: restore its Grip Zone (if enabled), else attach it"
+msgstr "如果它尚未跟随道具：恢复其抓握区域（如果启用），否则附加它"
+
+#: operators.py:2229
+msgid "If the prop already follows a hand (section 1), free it to avoid a circular dependency"
+msgstr "如果道具已跟随某只手（第 1 节），请释放它以避免循环依赖"
+
+#: operators.py:2300
+msgid "If the prop follows a hand (Master Hand / section 1), free it too so that nothing stays linked"
+msgstr "如果道具跟随某只手（主手 / 第 1 节），也释放它，以免仍有任何链接"
+
+#: operators.py:804
+msgid "Index"
+msgstr "索引"
+
+#: operators.py:213
+msgid "Initial speed in Blender units per second"
+msgstr "初始速度，单位为 Blender 单位/秒"
+
+#: operators.py:2154
+msgid "Install"
+msgstr "安装"
+
+#: operators.py:2154
+msgid "Install or rebuild the reach limit"
+msgstr "安装或重建可达范围限制"
+
+#: operators.py:83
+msgid "Internal: detects a rename"
+msgstr "内部：检测重命名"
+
+#: operators.py:2446
+msgid "Keep its current state"
+msgstr "保持当前状态"
+
+#: operators.py:2294
+msgid "Keep the Grip Zone"
+msgstr "保留抓握区域"
+
+#: operators.py:716
+msgid "Keep visual position"
+msgstr "保持视觉位置"
+
+#: panel.py:345
+msgid "LEFT"
+msgstr "左"
+
+#: operators.py:89
+#: panel.py:204
+msgid "Label"
+msgstr "标签"
+
+#: operators.py:2446
+msgid "Leave as is"
+msgstr "保持原样"
+
+#: operators.py:2294
+msgid "Leave the proximity blend enabled: a hand still inside the sphere will be re-grabbed immediately"
+msgstr "保持邻近混合启用：仍在球体内的手会立即重新抓取"
+
+#: operators.py:2023
+#: operators.py:2369
+msgid "Left"
+msgstr "左"
+
+#: operators.py:132
+msgid "Left bone"
+msgstr "左侧骨骼"
+
+#: operators.py:648
+#: operators.py:2023
+msgid "Left hand"
+msgstr "左手"
+
+#: operators.py:125
+msgid "Left hand IK"
+msgstr "左手 IK"
+
+#: operators.py:132
+msgid "Left hand IK bone (empty if the target is an object)"
+msgstr "左手 IK 骨骼（若目标为物体则留空）"
+
+#: panel.py:81
+msgid "Linked object: read-only."
+msgstr "关联物体：只读。"
+
+#: operators.py:2093
+msgid "Lock"
+msgstr "锁定"
+
+#: operators.py:160
+#: panel.py:436
+msgid "Margin"
+msgstr "边距"
+
+#: panel.py:459
+msgid "Master Hand"
+msgstr "主手"
+
+#: operators.py:2432
+msgid "Master hand"
+msgstr "主手"
+
+#: operators.py:1016
+msgid "Measure the real motion before the release"
+msgstr "在释放前测量真实运动"
+
+#: operators.py:191
+msgid "Measure the real motion of the prop just before the release"
+msgstr "在释放前即时测量道具的真实运动"
+
+#: panel.py:387
+msgid "Missing IK target: %s"
+msgstr "缺少 IK 目标：%s"
+
+#: operators.py:834
+msgid "Move down"
+msgstr "下移"
+
+#: operators.py:834
+msgid "Move up"
+msgstr "上移"
+
+#: operators.py:203
+#: operators.py:1022
+msgid "Multiplier"
+msgstr "倍增"
+
+#: operators.py:2572
+msgid "Next"
+msgstr "下一个"
+
+#: operators.py:2572
+msgid "Next transfer"
+msgstr "下一次传递"
+
+#: operators.py:2213
+msgid "No Grip Zone constraint to remove."
+msgstr "没有可移除的抓握区域约束。"
+
+#: operators.py:866
+#: operators.py:968
+msgid "No active slot."
+msgstr "没有活动槽位。"
+
+#: operators.py:600
+msgid "No prop selected."
+msgstr "未选择道具。"
+
+#: operators.py:695
+msgid "No slot defined: add at least one slot."
+msgstr "未定义槽位：请至少添加一个槽位。"
+
+#: operators.py:813
+msgid "No slot to remove."
+msgstr "没有可移除的槽位。"
+
+#: operators.py:2593
+msgid "No transfer in that direction."
+msgstr "该方向没有传递。"
+
+#: operators.py:2582
+msgid "No transfer on this object."
+msgstr "此物体上没有传递。"
+
+#: operators.py:940
+msgid "No usable data in ph_slots."
+msgstr "ph_slots 中没有可用数据。"
+
+#: operators.py:2434
+msgid "None"
+msgstr "无"
+
+#: operators.py:182
+msgid "Number of trajectory frames generated after the release"
+msgstr "释放后生成的轨迹帧数"
+
+#: operators.py:912
+msgid "Object"
+msgstr "物体"
+
+#: operators.py:125
+msgid "Object carrying the left hand IK target (the armature if the target is a bone)"
+msgstr "承载左手 IK 目标的物体（若目标为骨骼则为骨架）"
+
+#: operators.py:138
+msgid "Object carrying the right hand IK target (the armature if the target is a bone)"
+msgstr "承载右手 IK 目标的物体（若目标为骨骼则为骨架）"
+
+#: operators.py:174
+msgid "Object driven by PropHandoff (empty = active object of the view)"
+msgstr "由 PropHandoff 驱动的物体（留空 = 视图的活动物体）"
+
+#: operators.py:1941
+msgid "Offset used if the object has no usable geometry"
+msgstr "物体没有可用几何体时使用的偏移"
+
+#: operators.py:187
+msgid "Origin of the initial velocity"
+msgstr "初始速度的起点"
+
+#: operators.py:2439
+msgid "Other hand"
+msgstr "另一只手"
+
+#: operators.py:1951
+msgid "Place on the hands"
+msgstr "放置到手上"
+
+#: operators.py:2571
+msgid "Previous"
+msgstr "上一个"
+
+#: operators.py:83
+msgid "Previous name"
+msgstr "之前的名称"
+
+#: operators.py:2571
+msgid "Previous transfer"
+msgstr "上一次传递"
+
+#: operators.py:2643
+#: operators.py:2646
+msgid "PropHandoff"
+msgstr "PropHandoff"
+
+#: operators.py:151
+#: panel.py:412
+msgid "Radius"
+msgstr "半径"
+
+#: operators.py:151
+msgid "Radius of the proximity zone (Blender units). Beyond it the hand is free; inside it blends towards the grip point"
+msgstr "邻近区域的半径（Blender 单位）。超出该半径时手可自由活动；在半径内则向抓握点混合"
+
+#: operators.py:89
+msgid "Readable name shown in the interface (e.g. Left hand)"
+msgstr "界面中显示的可读名称（例如：左手）"
+
+#: operators.py:2229
+msgid "Release the prop first"
+msgstr "请先释放道具"
+
+#: operators.py:2155
+msgid "Remove"
+msgstr "移除"
+
+#: operators.py:2155
+msgid "Remove the constraint, its drivers and its helpers"
+msgstr "移除该约束、其驱动器及辅助对象"
+
+#: operators.py:2023
+#: operators.py:2370
+msgid "Right"
+msgstr "右"
+
+#: operators.py:145
+msgid "Right bone"
+msgstr "右侧骨骼"
+
+#: operators.py:649
+#: operators.py:2023
+msgid "Right hand"
+msgstr "右手"
+
+#: operators.py:138
+msgid "Right hand IK"
+msgstr "右手 IK"
+
+#: operators.py:145
+msgid "Right hand IK bone (empty if the target is an object)"
+msgstr "右手 IK 骨骼（若目标为物体则留空）"
+
+#: operators.py:2039
+msgid "Run \"Setup Two-Hand Grip\" first."
+msgstr "请先运行「设置双手抓握」。"
+
+#: operators.py:198
+#: operators.py:1021
+msgid "Sample frames"
+msgstr "采样帧"
+
+#: operators.py:871
+msgid "Select an armature (active bone) or a target object."
+msgstr "选择骨架（活动骨骼）或目标物体。"
+
+#: operators.py:957
+msgid "Slot"
+msgstr "槽位"
+
+#: panel.py:175
+msgid "Slots"
+msgstr "槽位"
+
+#: operators.py:2643
+msgid "Slots and Two-Hand Grip settings of this object"
+msgstr "此物体的槽位与双手抓握设置"
+
+#: operators.py:1941
+msgid "Spacing (fallback)"
+msgstr "间距（备用）"
+
+#: operators.py:213
+#: operators.py:1025
+msgid "Speed"
+msgstr "速度"
+
+#: operators.py:223
+#: operators.py:1027
+msgid "Spin"
+msgstr "自旋"
+
+#: operators.py:94
+#: panel.py:205
+msgid "Target"
+msgstr "目标"
+
+#: operators.py:635
+msgid "Target the armature automatically"
+msgstr "自动以骨架为目标"
+
+#: operators.py:77
+msgid "Technical identifier of the slot (names the PH_<slot> constraint)"
+msgstr "槽位技术标识符（用于命名 PH_<slot> 约束）"
+
+#: operators.py:2435
+msgid "The prop follows the left hand"
+msgstr "道具跟随左手"
+
+#: operators.py:2436
+msgid "The prop follows the right hand"
+msgstr "道具跟随右手"
+
+#: operators.py:2434
+msgid "The prop is free, the hands follow it"
+msgstr "道具自由，由双手跟随"
+
+#: operators.py:2400
+msgid "This hand already carries the prop (section 1): pick the other hand."
+msgstr "该手已持道具（第 1 部分）：请选另一只手。"
+
+#: panel.py:359
+msgid "This is a widget, not the rig"
+msgstr "这是控件，不是绑定骨架"
+
+#: panel.py:354
+msgid "This rig deforms no mesh (duplicate?)"
+msgstr "此绑定骨架不变形任何网格（是否重复？）"
+
+#: panel.py:249
+msgid "Throw Settings"
+msgstr "投掷设置"
+
+#: operators.py:208
+msgid "Throw direction in world space (normalized)"
+msgstr "世界空间中的投掷方向（已归一化）"
+
+#: panel.py:275
+msgid "Transfers"
+msgstr "转移"
+
+#: panel.py:317
+msgid "Two-Hand Grip"
+msgstr "双手抓握"
+
+#: operators.py:2003
+msgid "Two-Hand Grip already in place: settings updated."
+msgstr "双手抓握已存在：设置已更新。"
+
+#: operators.py:2094
+msgid "Unlock"
+msgstr "解锁"
+
+#: operators.py:2046
+msgid "Unreadable hand position."
+msgstr "无法读取手部位置。"
+
+#: operators.py:834
+msgid "Up"
+msgstr "向上"
+
+#: operators.py:1017
+msgid "Use the direction and speed entered"
+msgstr "使用输入的方向和速度"
+
+#: operators.py:193
+msgid "Use the direction and speed entered below"
+msgstr "使用下方输入的方向和速度"
+
+#: operators.py:187
+#: operators.py:1013
+msgid "Velocity"
+msgstr "速度"
+
+#: operators.py:218
+msgid "Vertical acceleration in m/s² (negative = downwards)"
+msgstr "垂直加速度，单位 m/s²（负值 = 向下）"
+
+#: operators.py:2439
+msgid "What to do with the hand that is not driving"
+msgstr "非驱动手的处理方式"
+
+#: operators.py:1946
+msgid "Wireframe sphere empty showing the grab radius"
+msgstr "显示抓取半径的线框球体空物体"
+
+#: panel.py:118
+msgid "no target"
+msgstr "无目标"
+
+#: operators.py:1113
+msgid "visual_transform_apply failed (Object mode required)."
+msgstr "visual_transform_apply 失败（需要物体模式）。"
+
+#: panel.py:308
+msgid "… and %d more."
+msgstr "… 还有 %d 项。"
+
+#: operators.py:765
+msgctxt "Operator"
+msgid "Add Slot"
+msgstr "添加槽位"
+
+#: operators.py:2149
+#: panel.py:431
+msgctxt "Operator"
+msgid "Arm Reach"
+msgstr "手臂伸展距离"
+
+#: operators.py:954
+msgctxt "Operator"
+msgid "Assign to Slot"
+msgstr "指定到槽位"
+
+#: panel.py:232
+msgctxt "Operator"
+msgid "Assign → %s"
+msgstr "指定 → %s"
+
+#: operators.py:2226
+#: panel.py:495
+msgctxt "Operator"
+msgid "Attach Both Hands"
+msgstr "双手附着"
+
+#: operators.py:1099
+msgctxt "Operator"
+msgid "Bake Visual Transform"
+msgstr "烘焙视觉变换"
+
+#: operators.py:713
+msgctxt "Operator"
+msgid "Clear Setup"
+msgstr "清除设置"
+
+#: panel.py:418
+msgctxt "Operator"
+msgid "Disable"
+msgstr "禁用"
+
+#: operators.py:2188
+msgctxt "Operator"
+msgid "Disable Grip Zone"
+msgstr "禁用抓握区域"
+
+#: panel.py:416
+msgctxt "Operator"
+msgid "Enable"
+msgstr "启用"
+
+#: operators.py:2067
+msgctxt "Operator"
+msgid "Enable Grip Zone"
+msgstr "启用抓握区域"
+
+#: operators.py:857
+msgctxt "Operator"
+msgid "From Selection"
+msgstr "从选中项"
+
+#: panel.py:305
+msgctxt "Operator"
+msgid "Go"
+msgstr "执行"
+
+#: operators.py:2552
+msgctxt "Operator"
+msgid "Go to Transfer"
+msgstr "转到转移"
+
+#: operators.py:2088
+#: panel.py:424
+msgctxt "Operator"
+msgid "Lock"
+msgstr "锁定"
+
+#: operators.py:2429
+msgctxt "Operator"
+msgid "Master Hand"
+msgstr "主控手"
+
+#: operators.py:829
+msgctxt "Operator"
+msgid "Move Slot"
+msgstr "移动槽位"
+
+#: panel.py:290
+msgctxt "Operator"
+msgid "Next"
+msgstr "下一个"
+
+#: operators.py:909
+msgctxt "Operator"
+msgid "Pick Prop"
+msgstr "拾取道具"
+
+#: panel.py:288
+msgctxt "Operator"
+msgid "Previous"
+msgstr "上一个"
+
+#: operators.py:2566
+msgctxt "Operator"
+msgid "Previous / Next Transfer"
+msgstr "上一个/下一个转移"
+
+#: operators.py:986
+#: panel.py:240
+msgctxt "Operator"
+msgid "Release"
+msgstr "释放"
+
+#: operators.py:2291
+#: panel.py:497
+msgctxt "Operator"
+msgid "Release Both Hands"
+msgstr "释放双手"
+
+#: operators.py:931
+msgctxt "Operator"
+msgid "Reload from ph_slots"
+msgstr "从 ph_slots 重新加载"
+
+#: operators.py:801
+msgctxt "Operator"
+msgid "Remove Slot"
+msgstr "移除槽位"
+
+#: panel.py:331
+msgctxt "Operator"
+msgid "Resync"
+msgstr "重新同步"
+
+#: panel.py:452
+msgctxt "Operator"
+msgid "Set %s pose"
+msgstr "设置 %s 姿势"
+
+#: operators.py:2018
+msgctxt "Operator"
+msgid "Set Grip Pose"
+msgstr "设置握持姿势"
+
+#: operators.py:627
+msgctxt "Operator"
+msgid "Setup Prop"
+msgstr "设置道具"
+
+#: operators.py:1938
+msgctxt "Operator"
+msgid "Setup Two-Hand Grip"
+msgstr "设置双手握持"
+
+#: operators.py:2362
+msgctxt "Operator"
+msgid "Switch to Two-Handed"
+msgstr "切换到双手"
+
+#: panel.py:159
+msgctxt "Operator"
+msgid "Sync"
+msgstr "同步"
+
+#: operators.py:1007
+msgctxt "Operator"
+msgid "Throw"
+msgstr "抛出"
+
+#: panel.py:241
+msgctxt "Operator"
+msgid "Throw…"
+msgstr "抛出…"
+
+#: panel.py:426
+msgctxt "Operator"
+msgid "Unlock"
+msgstr "解锁"
+
+#: operators.py:892
+msgctxt "Operator"
+msgid "Use Active Object"
+msgstr "使用活动物体"
+
+#: panel.py:499
+msgctxt "Operator"
+msgid "→ Switch to Two-Handed"
+msgstr "→ 切换到双手"

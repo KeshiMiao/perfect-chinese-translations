@@ -1,0 +1,972 @@
+# perfect-chinese: 1
+# id: print_prep
+# kind: addon
+# module: bl_ext.blender_org.print_prep
+# name: Print Prep
+# name_zh: 打印准备工具
+# translator: KeshiMiao
+# category: Object
+# supported_versions: >=5.1.1
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: properties/blender_properties.py:102
+msgid "(Recommended) Use keyframes to preserve \n            object location before moving them"
+msgstr "（推荐）移动物体前使用关键帧保留\n            物体位置"
+
+#: properties/blender_properties.py:275
+msgid "(Recommended) fastest solver that works only on \n                manifold meshes but gives better results"
+msgstr "（推荐）最快的求解器，仅适用于\n                流形网格，但结果更好"
+
+#: operators/modal_move_hot_end_to_cursor.py:84
+#: operators/modal_move_hot_end_to_cursor.py:87
+msgid "/"
+msgstr "/"
+
+#: panels/print_prep_main.py:29
+msgid "3D Print"
+msgstr "3D 打印"
+
+#: ui_functions/active_cutter_object.py:58
+#: ui_functions/cutters_for_active_object.py:32
+msgid ":"
+msgstr "："
+
+#: properties/blender_properties.py:110
+#: ui_functions/hot_end_settings.py:46
+msgid "Activate Bed Slinger"
+msgstr "启用热床滑移"
+
+#: properties/blender_properties.py:73
+msgid "Activate Face Align"
+msgstr "启用面对齐"
+
+#: ui_functions/active_and_selected_objects.py:29
+msgid "Active Object"
+msgstr "活动物体"
+
+#: ui_functions/active_and_selected_objects.py:41
+msgid "Active Object is not selected"
+msgstr "活动物体未选中"
+
+#: properties/blender_properties.py:68
+#: ui_functions/cutter_settings.py:117
+msgid "Add Material to Cutter"
+msgstr "为切割体添加材质"
+
+#: ui_functions/cutter_settings.py:134
+msgid "Add to Name"
+msgstr "添加到名称"
+
+#: operators/modal_move_hot_end_to_cursor.py:93
+msgid "Adjust X"
+msgstr "调整 X"
+
+#: operators/modal_move_hot_end_to_cursor.py:97
+msgid "Adjust Y"
+msgstr "调整 Y"
+
+#: operators/modal_move_hot_end_to_cursor.py:100
+msgid "Adjust Z"
+msgstr "调整 Z"
+
+#: custom_classes/affected_objects_group.py:25
+#: operators/remove_cutter.py:39
+msgid "Affected Object"
+msgstr "受影响物体"
+
+#: properties/blender_properties.py:406
+msgid "Affected Objects Coll Indx"
+msgstr "受影响物体集合索引"
+
+#: properties/blender_properties.py:412
+msgid "Affected Objects Collection"
+msgstr "受影响物体集合"
+
+#: properties/blender_properties.py:412
+msgid "Affected Objects and Cutter Objects"
+msgstr "受影响物体与切割体物体"
+
+#: properties/blender_properties.py:134
+msgid "Amount gap between the cut object and cutter for 3D print"
+msgstr "3D 打印时切割物体与切割体之间的间隙量"
+
+#: operators/smart_pack_beds.py:60
+#: ui_functions/object_placement.py:163
+msgid "Bed Edge Spacing"
+msgstr "热床边距"
+
+#: operators/smart_pack_beds.py:72
+msgid "Bed Length X"
+msgstr "热床长度 X"
+
+#: operators/smart_pack_beds.py:83
+msgid "Bed Length Y"
+msgstr "热床长度 Y"
+
+#: ui_functions/cutter_settings.py:77
+msgid "Bool Solver"
+msgstr "布尔求解器"
+
+#: properties/blender_properties.py:269
+msgid "Boolean Solver"
+msgstr "布尔求解器"
+
+#: ui_functions/printer_proxy.py:74
+#: ui_functions/printer_proxy.py:96
+msgid "Clip End"
+msgstr "裁剪终点"
+
+#: ui_functions/printer_proxy.py:67
+#: ui_functions/printer_proxy.py:89
+msgid "Clip Start"
+msgstr "裁剪起点"
+
+#: operators/smart_pack_beds.py:94
+#: properties/blender_properties.py:222
+msgid "Color Match"
+msgstr "颜色匹配"
+
+#: properties/blender_properties.py:237
+msgid "Color of the Cutter Material"
+msgstr "切割体材质的颜色"
+
+#: properties/blender_properties.py:406
+msgid "Current affected object"
+msgstr "当前受影响物体"
+
+#: operators/add_or_update_fdm_material.py:39
+msgid "Custom Color"
+msgstr "自定义颜色"
+
+#: ui_functions/cutter_settings.py:42
+msgid "Cut Direction"
+msgstr "切割方向"
+
+#: ui_functions/cutter_settings.py:65
+msgid "Cut Gap with Rim Only"
+msgstr "仅边缘处切割间隙"
+
+#: panels/cut_object_settings.py:27
+msgid "Cut Object Settings"
+msgstr "切割物体设置"
+
+#: properties/blender_properties.py:53
+msgid "Cut from Outside Only (Rim)"
+msgstr "仅从外侧切割（边缘）"
+
+#: properties/blender_properties.py:53
+msgid "Cut from the outside surfaces only (recommended)"
+msgstr "仅从外表面切割（推荐）"
+
+#: properties/blender_properties.py:134
+msgid "Cutter Gap"
+msgstr "切割体间隙"
+
+#: ui_functions/cutter_settings.py:116
+msgid "Cutter Material"
+msgstr "切割体材质"
+
+#: custom_classes/affected_objects_group.py:32
+#: operators/delete_cutter_from_all_affected_objects.py:33
+msgid "Cutter Object"
+msgstr "切割体物体"
+
+#: panels/cutter_object_settings.py:25
+msgid "Cutter Object Settings"
+msgstr "切割体物体设置"
+
+#: ui_functions/print_prep_main_panel.py:29
+msgid "Cutter Operation"
+msgstr "切割体操作"
+
+#: ui_functions/cutter_settings.py:37
+msgid "Cutter Settings"
+msgstr "切割体设置"
+
+#: custom_classes/addon_preferences.py:44
+#: ui_functions/cutter_settings.py:133
+msgid "Cutter Suffix"
+msgstr "切割体后缀"
+
+#: ui_functions/cutter_settings.py:98
+msgid "Cutter Visibility"
+msgstr "切割体可见性"
+
+#: custom_classes/addon_preferences.py:26
+msgid "Cutter_Suffix"
+msgstr "Cutter_Suffix"
+
+#: properties/blender_properties.py:347
+msgid "EDGE"
+msgstr "EDGE"
+
+#: properties/blender_properties.py:368
+msgid "EDGE_MIDPOINT"
+msgstr "EDGE_MIDPOINT"
+
+#: properties/blender_properties.py:375
+msgid "EDGE_PERPENDICULAR"
+msgstr "EDGE_PERPENDICULAR"
+
+#: properties/blender_properties.py:368
+msgid "Edge Center Snap to the middle of edges"
+msgstr "边中心吸附到边的中点"
+
+#: properties/blender_properties.py:375
+msgid "Edge Perpendicular Snap to the nearest point on an edge"
+msgstr "边垂直吸附到边上最近的点"
+
+#: properties/blender_properties.py:347
+msgid "Edge Snap to edges"
+msgstr "边吸附到边"
+
+#: ui_functions/object_placement.py:64
+msgid "End Frame"
+msgstr "结束帧"
+
+#: properties/blender_properties.py:45
+#: ui_functions/cutter_settings.py:57
+msgid "Even Thickness"
+msgstr "均匀厚度"
+
+#: properties/blender_properties.py:283
+msgid "Exact"
+msgstr "精确"
+
+#: properties/blender_properties.py:354
+msgid "FACE"
+msgstr "FACE"
+
+#: properties/blender_properties.py:382
+msgid "FACE_MIDPOINT"
+msgstr "FACE_MIDPOINT"
+
+#: ui_functions/object_placement.py:40
+msgid "Face Align (Origins)"
+msgstr "面对齐（原点）"
+
+#: properties/blender_properties.py:382
+msgid "Face Center Snap to the middle of faces"
+msgstr "面中心吸附到面的中点"
+
+#: properties/blender_properties.py:354
+msgid "Face Snap by projecting onto faces"
+msgstr "通过投影到面进行面吸附"
+
+#: operators/modal_move_hot_end_to_cursor.py:89
+msgid "Finish"
+msgstr "完成"
+
+#: properties/blender_properties.py:122
+msgid "First keyframe key for print prep"
+msgstr "打印准备的第一个关键帧"
+
+#: properties/blender_properties.py:290
+msgid "Float"
+msgstr "浮点"
+
+#: custom_classes/addon_preferences.py:37
+msgid "Found on 3D Viewport"
+msgstr "在 3D 视图中找到"
+
+#: properties/blender_properties.py:333
+msgid "GRID"
+msgstr "栅格"
+
+#: ui_functions/cutter_settings.py:50
+msgid "Gap"
+msgstr "间隙"
+
+#: properties/blender_properties.py:249
+msgid "Gap Direction"
+msgstr "间隙方向"
+
+#: operators/smart_pack_beds.py:36
+msgid "Gap between objects"
+msgstr "物体之间的间隙"
+
+#: properties/blender_properties.py:166
+msgid "Gap between objects when packing"
+msgstr "打包时物体之间的间隙"
+
+#: properties/blender_properties.py:249
+msgid "Gap direction: either grow or shrink the cutter object"
+msgstr "间隙方向：增大或缩小切割器物体"
+
+#: properties/blender_properties.py:333
+msgid "Grid Snap to grid"
+msgstr "栅格吸附到栅格"
+
+#: operators/smart_pack_beds.py:47
+#: ui_functions/object_placement.py:156
+msgid "Group Spacing"
+msgstr "组间距"
+
+#: properties/blender_properties.py:253
+msgid "Grow"
+msgstr "增大"
+
+#: operators/smart_pack_beds.py:83
+msgid "Height of the Print Bed"
+msgstr "打印床高度"
+
+#: properties/blender_properties.py:63
+#: ui_functions/cutter_settings.py:107
+msgid "Hide from Render"
+msgstr "从渲染中隐藏"
+
+#: properties/blender_properties.py:58
+#: ui_functions/cutter_settings.py:99
+msgid "Hide from Viewport"
+msgstr "从视图中隐藏"
+
+#: properties/blender_properties.py:63
+msgid "Hide the Cutter from rendering after being created"
+msgstr "创建后从渲染中隐藏切割器"
+
+#: properties/blender_properties.py:58
+msgid "Hide the Cutter from the Viewport after being created"
+msgstr "创建后从视图中隐藏切割器"
+
+#: panels/hot_end_settings.py:25
+msgid "Hot End"
+msgstr "热端"
+
+#: operators/modal_move_hot_end_to_cursor.py:196
+#: operators/modal_move_hot_end_to_cursor.py:207
+msgid "Hot End Move Finished"
+msgstr "热端移动完成"
+
+#: properties/blender_properties.py:222
+msgid "How much color affects object grouping during packing.\n0% = No matching\n100% = Exact color match"
+msgstr "颜色在打包时对物体分组的影响程度。\n0% = 不匹配\n100% = 颜色完全匹配"
+
+#: properties/blender_properties.py:326
+msgid "INCREMENT"
+msgstr "增量"
+
+#: properties/blender_properties.py:326
+msgid "Increment Snap to increments"
+msgstr "增量吸附到增量"
+
+#: properties/blender_properties.py:116
+#: ui_functions/hot_end_settings.py:54
+msgid "Invert Bed Slinger"
+msgstr "反转热床移动式"
+
+#: properties/blender_properties.py:128
+msgid "Last keyframe key for print prep"
+msgstr "打印准备的最后一个关键帧"
+
+#: ui_functions/printer_proxy.py:60
+msgid "Length"
+msgstr "长度"
+
+#: properties/blender_properties.py:45
+msgid "Maintain thickness by adjusting for \n            sharp corners (slow, disable when not needed)"
+msgstr "通过针对尖角进行调整来保持厚度（较慢，不需要时请禁用）"
+
+#: properties/blender_properties.py:68
+msgid "Make a New Material for the Cutter Object"
+msgstr "为切割器物体创建新材质"
+
+#: properties/blender_properties.py:110
+msgid "Make build plate bed slinger move with hot end"
+msgstr "使打印床随热端移动"
+
+#: properties/blender_properties.py:275
+msgid "Manifold"
+msgstr "流形"
+
+#: properties/blender_properties.py:237
+#: ui_functions/cutter_settings.py:125
+msgid "Material Color"
+msgstr "材质颜色"
+
+#: panels/material_settings.py:25
+msgid "Material Settings"
+msgstr "材质设置"
+
+#: ui_functions/cutter_settings.py:89
+msgid "Materials"
+msgstr "材质"
+
+#: operators/modal_move_hot_end_to_cursor.py:79
+#: operators/modal_move_hot_end_to_cursor.py:81
+msgid "Move Hot End"
+msgstr "移动热端"
+
+#: operators/modal_move_hot_end_to_cursor.py:147
+#: operators/modal_move_hot_end_to_cursor.py:156
+msgid "Moving Hot End to Cursor."
+msgstr "正在将热端移动到光标。"
+
+#: custom_classes/addon_preferences.py:38
+msgid "N-Panel Category: 3D Print"
+msgstr "N 面板类别：3D 打印"
+
+#: ui_functions/active_and_selected_objects.py:46
+msgid "No Active Object"
+msgstr "无活动物体"
+
+#: panels/object_placement.py:25
+msgid "Object Placement"
+msgstr "物体放置"
+
+#: panels/object_selection.py:27
+msgid "Object Selection"
+msgstr "物体选择"
+
+#: operators/smart_pack_beds.py:36
+#: ui_functions/object_placement.py:149
+msgid "Object Spacing"
+msgstr "物体间距"
+
+#: ui_functions/active_cutter_object.py:58
+msgid "Objects cut by"
+msgstr "被切割的物体"
+
+#: ui_functions/cutters_for_active_object.py:32
+msgid "Objects cutting"
+msgstr "切割物体"
+
+#: properties/blender_properties.py:253
+msgid "Offset by growing the cutter object larger"
+msgstr "通过增大切割器物体来偏移"
+
+#: properties/blender_properties.py:260
+msgid "Offset by shrinking the cutter object smaller"
+msgstr "通过缩小切割器物体来偏移"
+
+#: properties/blender_properties.py:82
+msgid "Original Origin State"
+msgstr "原始原点状态"
+
+#: properties/blender_properties.py:97
+msgid "Original Snap Align Rotation"
+msgstr "原始吸附对齐旋转"
+
+#: properties/blender_properties.py:322
+msgid "Original Snap Elements Base"
+msgstr "原始吸附元素基准"
+
+#: properties/blender_properties.py:87
+msgid "Original Use Snap"
+msgstr "原始启用吸附"
+
+#: properties/blender_properties.py:92
+msgid "Original Use Snap Translate"
+msgstr "原始启用吸附移动"
+
+#: properties/blender_properties.py:392
+msgid "Palette used in the print prep extension"
+msgstr "打印准备扩展中使用的调色板"
+
+#: properties/blender_properties.py:392
+msgid "Palette_Prop"
+msgstr "Palette_Prop"
+
+#: custom_classes/addon_preferences.py:39
+msgid "Panel Name: Print Prep"
+msgstr "面板名称：打印准备"
+
+#: custom_classes/addon_preferences.py:26
+msgid "Pick the Suffix for the Cutter (default:\".Bool_Cutter\")"
+msgstr "选择切割器的后缀（默认：\".Bool_Cutter\"）"
+
+#: ui_functions/object_placement.py:170
+msgid "Print Bed X"
+msgstr "打印床 X"
+
+#: ui_functions/object_placement.py:177
+msgid "Print Bed Y"
+msgstr "打印床 Y"
+
+#: panels/print_prep_main.py:25
+msgid "Print Prep"
+msgstr "打印准备"
+
+#: properties/blender_properties.py:128
+msgid "Print Prep End Frame"
+msgstr "打印准备结束帧"
+
+#: properties/blender_properties.py:122
+msgid "Print Prep Start Frame"
+msgstr "打印准备起始帧"
+
+#: panels/printer_proxy.py:25
+msgid "Printer Proxy"
+msgstr "打印机代理"
+
+#: properties/blender_properties.py:144
+msgid "Random Transform X"
+msgstr "随机变换 X"
+
+#: properties/blender_properties.py:155
+msgid "Random Transform Y"
+msgstr "随机变换 Y"
+
+#: ui_functions/object_placement.py:111
+msgid "Random X"
+msgstr "随机 X"
+
+#: ui_functions/object_placement.py:118
+msgid "Random Y"
+msgstr "随机 Y"
+
+#: ui_functions/object_placement.py:32
+msgid "Requires Object Mode (Affects Origins)"
+msgstr "需要物体模式（影响原点）"
+
+#: properties/blender_properties.py:116
+msgid "Reverse build plate movement with hot end"
+msgstr "反转热端与打印床的相对移动"
+
+#: ui_functions/printer_proxy.py:82
+msgid "Scene Camera"
+msgstr "场景摄像机"
+
+#: ui_functions/printer_proxy.py:104
+msgid "Select a scene camera for clip settings"
+msgstr "选择场景摄像机以进行裁剪设置"
+
+#: ui_functions/active_and_selected_objects.py:50
+msgid "Selected Objects"
+msgstr "选中物体"
+
+#: properties/blender_properties.py:304
+msgid "Selects the Material Transfer on \n                the Boolean Solver Option for the cutter"
+msgstr "在切割对象的布尔求解器选项中选中材质传递"
+
+#: panels/setup_for_cutting.py:25
+msgid "Setup for Cutting"
+msgstr "切割设置"
+
+#: properties/blender_properties.py:260
+msgid "Shrink"
+msgstr "收缩"
+
+#: properties/blender_properties.py:290
+msgid "Simple solver with good performance \n                without overlapping geometry"
+msgstr "性能良好且不会产生重叠几何体的简单求解器"
+
+#: properties/blender_properties.py:283
+msgid "Slower solver with the best results for coplanar faces"
+msgstr "速度较慢但处理共面面片效果最佳的求解器"
+
+#: properties/blender_properties.py:200
+msgid "Smart Pack Bed Length X"
+msgstr "智能排布打印床长度 X"
+
+#: properties/blender_properties.py:211
+msgid "Smart Pack Bed Length Y"
+msgstr "智能排布打印床长度 Y"
+
+#: properties/blender_properties.py:189
+msgid "Smart Pack Bed Spacing"
+msgstr "智能排布打印床间距"
+
+#: properties/blender_properties.py:177
+msgid "Smart Pack Group Spacing"
+msgstr "智能排布组间距"
+
+#: properties/blender_properties.py:166
+msgid "Smart Pack Object Spacing"
+msgstr "智能排布物体间距"
+
+#: properties/blender_properties.py:269
+msgid "Solver method for the boolean modifier (manifold is recommended)"
+msgstr "布尔修改器的求解方法（推荐流形）"
+
+#: operators/smart_pack_beds.py:47
+msgid "Spacing between object groups"
+msgstr "物体组之间的间距"
+
+#: properties/blender_properties.py:177
+msgid "Spacing between object groups when packing"
+msgstr "排列时物体组之间的间距"
+
+#: operators/smart_pack_beds.py:60
+#: properties/blender_properties.py:189
+msgid "Spacing from edge of print bed"
+msgstr "距打印床边缘的间距"
+
+#: ui_functions/object_placement.py:58
+msgid "Start Frame"
+msgstr "起始帧"
+
+#: operators/add_or_update_fdm_material.py:39
+msgid "The custom color of the color attribute"
+msgstr "颜色属性的自定义颜色"
+
+#: operators/delete_cutter_from_all_affected_objects.py:33
+msgid "The cutter object to remove"
+msgstr "要移除的切割对象"
+
+#: operators/select_cutter_object.py:38
+msgid "The cutter object to select"
+msgstr "要选择的切割对象"
+
+#: operators/remove_cutter.py:39
+msgid "The object affected by the cutter"
+msgstr "受切割对象影响的物体"
+
+#: custom_classes/affected_objects_group.py:32
+msgid "The object performing the cutting"
+msgstr "执行切割的物体"
+
+#: operators/deselect_object.py:33
+msgid "The object to deselect"
+msgstr "要取消选择的物体"
+
+#: operators/remove_cutter.py:31
+msgid "The object to remove as a cutter"
+msgstr "要作为切割对象移除的物体"
+
+#: operators/select_affected_object.py:31
+msgid "The object to select"
+msgstr "要选择的物体"
+
+#: operators/select_affected_objects_of_cutter.py:34
+msgid "The object to use as a cutter"
+msgstr "要用作切割对象的物体"
+
+#: properties/blender_properties.py:322
+msgid "The prior element base before being modified"
+msgstr "修改前的元素基准"
+
+#: properties/blender_properties.py:97
+msgid "The prior snap align rotation toggle before being modified"
+msgstr "修改前的吸附对齐旋转开关状态"
+
+#: properties/blender_properties.py:87
+msgid "The prior snap toggle before being modified"
+msgstr "修改前的吸附开关状态"
+
+#: properties/blender_properties.py:92
+msgid "The prior snap translate toggle before being modified"
+msgstr "修改前的吸附平移开关状态"
+
+#: properties/blender_properties.py:82
+msgid "The prior state before being modified"
+msgstr "修改前的状态"
+
+#: operators/activate_object.py:31
+msgid "The selected object to activate"
+msgstr "要激活的选中物体"
+
+#: custom_classes/affected_objects_group.py:25
+msgid "This object is affected by the cutter object"
+msgstr "此物体受切割对象影响"
+
+#: properties/blender_properties.py:400
+msgid "Toggle Show Hide"
+msgstr "切换显示/隐藏"
+
+#: properties/blender_properties.py:400
+msgid "Toggle visibility of the cutter after creation"
+msgstr "创建后切换切割对象的可见性"
+
+#: properties/blender_properties.py:304
+msgid "Transfer"
+msgstr "传递"
+
+#: properties/blender_properties.py:300
+msgid "Transfer Material"
+msgstr "传递材质"
+
+#: properties/blender_properties.py:300
+msgid "Transfer the material from the cutter"
+msgstr "从切割对象传递材质"
+
+#: properties/blender_properties.py:73
+msgid "Turn on Face Center Snapping with Align Rotation \n            while using Affect Only Origins temporarily"
+msgstr "临时使用“仅影响原点”时，开启带对齐旋转的面中心吸附"
+
+#: ui_functions/printer_proxy.py:53
+msgid "Unit Scale"
+msgstr "单位比例"
+
+#: ui_functions/printer_proxy.py:46
+msgid "Unit System"
+msgstr "单位系统"
+
+#: ui_functions/cutter_settings.py:32
+msgid "Use Active Object to Cut Selected Objects (with gap)"
+msgstr "使用活动物体切割选中物体（留间隙）"
+
+#: properties/blender_properties.py:102
+#: ui_functions/object_placement.py:47
+msgid "Use Keyframes"
+msgstr "使用关键帧"
+
+#: properties/blender_properties.py:144
+#: properties/blender_properties.py:155
+msgid "Used with Random Transform operator"
+msgstr "与随机变换操作符一起使用"
+
+#: properties/blender_properties.py:340
+msgid "VERTEX"
+msgstr "顶点"
+
+#: properties/blender_properties.py:361
+msgid "VOLUME"
+msgstr "体积"
+
+#: properties/blender_properties.py:340
+msgid "Vertex Snap to vertices"
+msgstr "顶点吸附到顶点"
+
+#: panels/video_tutorials.py:25
+msgid "Video Tutorials"
+msgstr "视频教程"
+
+#: properties/blender_properties.py:361
+msgid "Volume Snap to volume"
+msgstr "体积吸附到体积"
+
+#: operators/smart_pack_beds.py:72
+msgid "Width of the Print Bed"
+msgstr "打印床宽度"
+
+#: properties/blender_properties.py:200
+msgid "Width of the Print Bed in the X Direction"
+msgstr "打印床在 X 方向的宽度"
+
+#: properties/blender_properties.py:211
+msgid "Width of the Print Bed in the Y Direction"
+msgstr "打印床在 Y 方向的宽度"
+
+#: operators/activate_object.py:28
+msgctxt "Operator"
+msgid "Activate Object"
+msgstr "激活物体"
+
+#: ui_functions/material_settings.py:103
+msgctxt "Operator"
+msgid "Add or Update FDM Material"
+msgstr "添加或更新 FDM 材质"
+
+#: ui_functions/printer_proxy.py:32
+msgctxt "Operator"
+msgid "Append Printer"
+msgstr "追加打印机"
+
+#: operators/append_printer_proxy.py:26
+msgctxt "Operator"
+msgid "Append Printer Proxy"
+msgstr "追加打印机代理"
+
+#: operators/append_printer_proxy.py:27
+msgctxt "Operator"
+msgid "Append a printer proxy collection to the scene.\n        There is a build-plate-only collection for organizing objects.\n        And, there is a proxy character to use with the add-on for learning"
+msgstr "向场景追加打印机代理集合。\n        其中有一个仅包含打印床的集合，用于整理物体。\n        还有一个代理角色，可用于学习该插件。"
+
+#: operators/move_to_world_origin_and_clear_rotation.py:29
+msgctxt "Operator"
+msgid "Clear mesh object(s) rotation and move to world origin"
+msgstr "清除网格物体的旋转并移至世界原点"
+
+#: ui_functions/active_cutter_object.py:45
+msgctxt "Operator"
+msgid "Delete and Remove Cutter"
+msgstr "删除并移除切割器"
+
+#: operators/delete_cutter_from_all_affected_objects.py:30
+msgctxt "Operator"
+msgid "Delete and Remove Cutter from all Affected Objects"
+msgstr "从所有受影响物体中删除并移除切割器"
+
+#: operators/delete_cutter_from_all_affected_objects.py:31
+msgctxt "Operator"
+msgid "Delete the cutter & remove from all affected objects"
+msgstr "删除切割器并从所有受影响物体中移除"
+
+#: operators/deselect_object.py:30
+msgctxt "Operator"
+msgid "Deselect Object"
+msgstr "取消选择物体"
+
+#: operators/deselect_object.py:31
+msgctxt "Operator"
+msgid "Deselect the object"
+msgstr "取消选择该物体"
+
+#: ui_functions/use_active_to_cut_selected.py:27
+msgctxt "Operator"
+msgid "Duplicate Active + Cut Selected"
+msgstr "复制活动物体并切割选中物体"
+
+#: operators/use_active_to_cut_selected.py:27
+msgctxt "Operator"
+msgid "Duplicates the active object as a cutter for selected objects. \n        Use cutter settings on the N-Panel to customize the cutter. \n        Options include adding solidify gap or shrinkage, \n        boolean solver, using materials in the cutter, \n        and changing the cutter material color"
+msgstr "将活动物体复制为用于选中物体的切割器。\n        使用 N 面板上的切割器设置自定义切割器。\n        选项包括添加实体化间隙或收缩、\n        布尔求解器、在切割器中使用材质，\n        以及更改切割器材质颜色"
+
+#: ui_functions/material_settings.py:51
+msgctxt "Operator"
+msgid "Go to Object Mode"
+msgstr "进入物体模式"
+
+#: ui_functions/material_settings.py:60
+#: ui_functions/material_settings.py:72
+msgctxt "Operator"
+msgid "Go to Vertex Paint Mode"
+msgstr "进入顶点绘制模式"
+
+#: operators/set_vertex_paint_mode.py:29
+msgctxt "Operator"
+msgid "Go to Vertext Paint Mode"
+msgstr "进入顶点绘制模式"
+
+#: operators/modal_move_hot_end_to_cursor.py:36
+#: operators/move_hot_end_to_cursor.py:31
+msgctxt "Operator"
+msgid "Move Hot End to 3D Cursor"
+msgstr "将热端移至 3D 光标"
+
+#: operators/modal_move_hot_end_to_cursor.py:31
+#: operators/move_hot_end_to_cursor.py:26
+msgctxt "Operator"
+msgid "Move Hot End to the location of the 3D Cursor\n        Activates the auto_plate to move Hot End and Build Plate\n        The 3D Cursor will move to y = 0.0 to sync with Hot End"
+msgstr "将热端移至 3D 光标位置\n        激活 auto_plate 以移动热端和打印床\n        3D 光标将移至 y = 0.0，以与热端同步"
+
+#: ui_functions/object_placement.py:81
+msgctxt "Operator"
+msgid "Move to Print Bed (Origin)"
+msgstr "移至打印床（原点）"
+
+#: operators/move_to_world_origin_and_clear_rotation.py:28
+msgctxt "Operator"
+msgid "Move to World Origin and Clear Rotation"
+msgstr "移至世界原点并清除旋转"
+
+#: ui_functions/object_placement.py:136
+msgctxt "Operator"
+msgid "Pack Selected on Print Bed (Experimental)"
+msgstr "将选中物体打包到打印床上（实验性）"
+
+#: ui_functions/hot_end_settings.py:62
+msgctxt "Operator"
+msgid "Parent Selected to Print Bed"
+msgstr "将选中物体设为打印床的子级"
+
+#: operators/parent_to_print_bed.py:29
+msgctxt "Operator"
+msgid "Parent selected objects to the print bed"
+msgstr "将选中物体设为打印床的子级"
+
+#: operators/parent_to_print_bed.py:28
+msgctxt "Operator"
+msgid "Parent to Print Bed"
+msgstr "设为打印床的子级"
+
+#: ui_functions/object_placement.py:94
+msgctxt "Operator"
+msgid "Randomize Transform"
+msgstr "随机变换"
+
+#: operators/remove_cutter.py:28
+msgctxt "Operator"
+msgid "Remove Cutter"
+msgstr "移除切割器"
+
+#: operators/remove_cutter.py:29
+msgctxt "Operator"
+msgid "Remove the Cutter from the Object"
+msgstr "从物体中移除切割器"
+
+#: ui_functions/active_cutter_object.py:37
+msgctxt "Operator"
+msgid "Select Affected Objects"
+msgstr "选择受影响物体"
+
+#: operators/select_affected_objects_of_cutter.py:31
+msgctxt "Operator"
+msgid "Select Affected Objects of Cutter"
+msgstr "选择切割器的受影响物体"
+
+#: operators/select_cutter_object.py:28
+msgctxt "Operator"
+msgid "Select Cutter Object"
+msgstr "选择切割器物体"
+
+#: operators/select_affected_objects_of_cutter.py:32
+msgctxt "Operator"
+msgid "Select all affected objects of the Cutter Object"
+msgstr "选择切割器物体的所有受影响物体"
+
+#: operators/select_affected_object.py:28
+#: operators/select_affected_object.py:29
+msgctxt "Operator"
+msgid "Select the Affected Object"
+msgstr "选择受影响物体"
+
+#: operators/select_cutter_object.py:29
+msgctxt "Operator"
+msgid "Select the Cutter Object affecting the Active Object \n        (turns off Hide & Hide Select in order to see the object)\n\n        Note: object displays as bounding box for ease of distinction"
+msgstr "选择影响活动物体的切割器物体\n        （关闭隐藏和隐藏选择以查看该物体）\n\n        注意：为便于区分，物体会显示为边界框"
+
+#: operators/set_units_and_3d_view_clipping.py:26
+#: ui_functions/printer_proxy.py:39
+msgctxt "Operator"
+msgid "Set Units and 3D View Clipping"
+msgstr "设置单位和 3D 视图裁剪"
+
+#: operators/activate_object.py:29
+msgctxt "Operator"
+msgid "Set as Active Object"
+msgstr "设为活动物体"
+
+#: operators/set_units_and_3d_view_clipping.py:27
+msgctxt "Operator"
+msgid "Set up scene unit settings and viewport clipping \n        System = Metric \n        Length = Meters \n        Scale = 1.0 \n        3D View Clip Start = 1 \n        3D View Clip End = 10,000 \n        If a scene camera is set then camera clip settings will also be set"
+msgstr "设置场景单位设置和视图裁剪\n        单位系统 = 公制\n        长度 = 米\n        缩放 = 1.0\n        3D 视图裁剪起点 = 1\n        3D 视图裁剪终点 = 10,000\n        如果设置了场景相机，也会设置相机裁剪设置"
+
+#: operators/smart_pack_beds.py:30
+msgctxt "Operator"
+msgid "Smart Pack"
+msgstr "智能打包"
+
+#: operators/smart_pack_beds.py:31
+msgctxt "Operator"
+msgid "Smartly pack mesh objects to print bed using \n\n        color attribute colors to group objects by same color"
+msgstr "利用颜色属性的颜色将同色物体分组，智能打包网格物体到打印床"
+
+#: ui_functions/hot_end_settings.py:31
+msgctxt "Operator"
+msgid "Snap Hot End to 3D Cursor"
+msgstr "将热端吸附到 3D 光标"
+
+#: operators/update_cutter_affected_objects_collection.py:30
+msgctxt "Operator"
+msgid "Update Cutter Affected Objects Collection"
+msgstr "更新切割器受影响物体集合"
+
+#: operators/add_or_update_fdm_material.py:30
+msgctxt "Operator"
+msgid "Update FDM Material"
+msgstr "更新 FDM 材质"
+
+#: operators/update_cutter_affected_objects_collection.py:31
+msgctxt "Operator"
+msgid "Updates the collection to display all \n        affected objects of the cutter object"
+msgstr "更新集合以显示切割器物体的所有受影响物体"
+
+#: operators/use_active_to_cut_selected.py:26
+msgctxt "Operator"
+msgid "Use Active to Cut Selected"
+msgstr "使用活动物体切割选中物体"
+
+#: operators/set_vertex_paint_mode.py:28
+msgctxt "Operator"
+msgid "Vertex Paint"
+msgstr "顶点绘制"
+
+#: operators/add_or_update_fdm_material.py:31
+msgctxt "Operator"
+msgid "WARNING: Removes and replaces existing materials. \n        Add an FDM material to the selected object(s). \n        This will also add a color attribute. \n        If the material exists then it will update the color attritbute color \n        from the custom color on the N-Panel"
+msgstr "警告：移除并替换现有材质。\n        为选中物体添加 FDM 材质。\n        这也会添加颜色属性。\n        如果材质已存在，则会根据 N 面板上的自定义颜色更新颜色属性颜色"

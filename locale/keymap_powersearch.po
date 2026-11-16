@@ -1,0 +1,112 @@
+# perfect-chinese: 1
+# id: keymap_powersearch
+# kind: addon
+# module: bl_ext.blender_org.Keymap_Powersearch
+# name: Keymap Powersearch
+# name_zh: 快捷键强力搜索
+# translator: KeshiMiao
+# category: User Interface
+# supported_versions: >=5.0.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:1255
+msgid "'Enter/Return' to confirm search"
+msgstr "按“Enter/Return”确认搜索"
+
+#: __init__.py:1243
+msgid "- 'Name' and 'Key-Binding' toggles give the same result."
+msgstr "- “名称”和“按键绑定”切换项结果相同。"
+
+#: __init__.py:1241
+msgid "- A query with only exclusions or -/ will return empty."
+msgstr "- 仅包含排除项或 -/ 的查询将返回空结果。"
+
+#: __init__.py:1233
+msgid "- Combine keymap, add-on and operator names, parameters and keys into the native keymap search field."
+msgstr "- 将键位映射、插件和操作的名称、参数及按键合并到原生键位映射搜索框中。"
+
+#: __init__.py:1238
+msgid "- Exact match:    \"Local View\",    \"Vertex Paint\",    \"Z\"...    *Key combos: \"ctrl alt Z\" = \"alt Z ctrl\""
+msgstr "- 精确匹配：“局部视图”、“顶点绘制”、“Z”…… *组合键：“ctrl alt Z” = “alt Z ctrl”"
+
+#: __init__.py:1234
+msgid "- Meta-tokens:       isoff                              = activation state"
+msgstr "- 元标记：isoff = 激活状态"
+
+#: __init__.py:1240
+msgid "- OR-grouping:    /pan /orbit view,    mesh /shrink /resize..."
+msgstr "- OR 分组：/pan /orbit view，mesh /shrink /resize……"
+
+#: __init__.py:1242
+msgid "- Single letters and modifier-key words match key-bindings only."
+msgstr "- 单个字母和修饰键词仅匹配按键绑定。"
+
+#: __init__.py:1239
+msgid "- Subtractive search:    snap -modal,    1 -numpad,    mouse -drag,    addn -umod,    -AnyWord..."
+msgstr "- 排除式搜索：snap -modal，1 -numpad，mouse -drag，addn -umod，-AnyWord……"
+
+#: __init__.py:1
+msgid "Combine and exclude names, keys, origin and operator parameters"
+msgstr "合并与排除名称、按键、来源和操作参数"
+
+#: __init__.py:1
+msgid "Interface"
+msgstr "界面"
+
+#: __init__.py:1
+msgid "Keymap Powersearch"
+msgstr "Keymap Powersearch"
+
+#: __init__.py:1038
+msgid "Keymap Powersearch hit an error and fell back to native search."
+msgstr "Keymap Powersearch 遇到错误，已回退到原生搜索。"
+
+#: __init__.py:1151
+msgid "Preferences"
+msgstr "偏好设置"
+
+#: __init__.py:1039
+msgid "See the System Console for details."
+msgstr "详情请参阅系统控制台。"
+
+#: __init__.py:1236
+msgid "ntv    addn    rphn        = operator origin (native, add-on, orphan)"
+msgstr "ntv    addn    rphn        = 操作来源（原生、插件、孤立）"
+
+#: __init__.py:1235
+msgid "oppar                            = operator parameters included"
+msgstr "oppar                            = 包含操作参数"
+
+#: __init__.py:1237
+msgid "umod   udef                 = user customization"
+msgstr "umod   udef                 = 用户自定义"
+
+#: __init__.py:1024
+#: __init__.py:1206
+msgctxt "Operator"
+msgid "Add New"
+msgstr "新建"
+
+#: __init__.py:1207
+msgctxt "Operator"
+msgid "Add key map item"
+msgstr "添加键位映射项"
+
+#: __init__.py:1084
+msgctxt "Operator"
+msgid "Export..."
+msgstr "导出..."
+
+#: __init__.py:1083
+msgctxt "Operator"
+msgid "Import..."
+msgstr "导入..."
+
+#: __init__.py:1016
+msgctxt "Operator"
+msgid "Restore"
+msgstr "恢复"

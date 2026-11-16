@@ -1,0 +1,164 @@
+# perfect-chinese: 1
+# id: pcam_solver
+# kind: addon
+# module: bl_ext.blender_org.pcam_solver
+# name: PCamSolver
+# name_zh: 伪三维相机解算
+# translator: KeshiMiao
+# category: Tracking
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: solver_plane.py:1028
+msgid "3D Solve needs a mesh Depth Reference."
+msgstr "3D 解算需要网格深度参考。"
+
+#: solver_plane.py:522
+msgid "Alignment"
+msgstr "对齐"
+
+#: solver_plane.py:529
+msgid "Auto Lens"
+msgstr "自动镜头"
+
+#: solver_plane.py:526
+msgid "Camera"
+msgstr "摄像机"
+
+#: solver_plane.py:539
+msgid "Camera and Movie Clip are required."
+msgstr "需要摄像机和影片剪辑。"
+
+#: solver_plane.py:677
+#: solver_plane.py:876
+msgid "Could not fit the adjusted plane on the Reference Frame."
+msgstr "无法在参考帧上拟合调整后的平面。"
+
+#: solver_plane.py:786
+msgid "Depth Reference has no usable height."
+msgstr "深度参考没有可用的高度。"
+
+#: solver_plane.py:647
+#: solver_plane.py:775
+msgid "Depth Reference must be a four-corner plane."
+msgstr "深度参考必须是四角平面。"
+
+#: solver_plane.py:587
+msgid "Depth Reference must be a four-vertex mesh plane for Plane Track alignment."
+msgstr "深度参考必须是用于平面跟踪对齐的四顶点网格平面。"
+
+#: solver_plane.py:970
+msgid "Depth Reference must be the four-corner plane created by Align Camera & Plane."
+msgstr "深度参考必须是由“对齐摄像机与平面”创建的四角平面。"
+
+#: solver_plane.py:519
+msgid "Dimensions"
+msgstr "尺寸"
+
+#: solver_plane.py:529
+msgid "Estimate focal length from the known width and height before aligning"
+msgstr "对齐前根据已知宽度和高度估算焦距"
+
+#: solver_plane.py:525
+msgid "Floor"
+msgstr "地面"
+
+#: solver_plane.py:517
+msgid "Height"
+msgstr "高度"
+
+#: solver_plane.py:526
+msgid "Keep the camera pose and align the plane"
+msgstr "保持摄像机姿态并对齐平面"
+
+#: solver_plane.py:590
+msgid "Linked Depth Reference cannot be edited for Plane Track alignment."
+msgstr "已链接的深度参考无法编辑用于平面跟踪对齐。"
+
+#: solver_plane.py:933
+msgid "No usable 3D camera poses were fitted in the bake range."
+msgstr "在烘焙范围内没有拟合出可用的 3D 摄像机姿态。"
+
+#: solver_plane.py:1113
+msgid "No usable 3D object poses were fitted in the bake range."
+msgstr "在烘焙范围内没有拟合出可用的 3D 物体姿态。"
+
+#: solver_plane.py:710
+msgid "No usable Plane Track focal frames were fitted in the bake range."
+msgstr "在烘焙范围内没有拟合出可用的平面跟踪焦距帧。"
+
+#: solver_plane.py:525
+msgid "Place a horizontal plane at the origin and align the camera"
+msgstr "在原点放置水平平面并对齐摄像机"
+
+#: solver_plane.py:524
+msgid "Place a vertical plane at the origin and align the camera"
+msgstr "在原点放置垂直平面并对齐摄像机"
+
+#: solver_plane.py:509
+msgid "Plane Height"
+msgstr "平面高度"
+
+#: solver_plane.py:811
+msgid "Plane Track needs valid corners beyond the Reference Frame."
+msgstr "平面跟踪需要超出参考帧的有效角点。"
+
+#: solver_plane.py:512
+msgid "Plane Width"
+msgstr "平面宽度"
+
+#: solver_plane.py:509
+msgid "Plane height in scene units"
+msgstr "平面高度（场景单位）"
+
+#: solver_plane.py:512
+msgid "Plane width in scene units"
+msgstr "平面宽度（场景单位）"
+
+#: solver_plane.py:670
+#: solver_plane.py:780
+msgid "Reference Frame needs a valid Plane Track marker."
+msgstr "参考帧需要有效的平面跟踪标记。"
+
+#: solver_plane.py:1007
+#: solver_plane.py:1081
+msgid "Reference Frame needs four tracks hitting the Depth Reference."
+msgstr "参考帧需要四个命中深度参考的跟踪。"
+
+#: solver_plane.py:515
+msgid "Size Mode"
+msgstr "尺寸模式"
+
+#: solver_plane.py:519
+msgid "Specify both dimensions and refit to the corners"
+msgstr "指定两个尺寸并重新拟合到角点"
+
+#: solver_plane.py:517
+msgid "Specify height and infer width"
+msgstr "指定高度并推断宽度"
+
+#: solver_plane.py:518
+msgid "Specify width and infer height"
+msgstr "指定宽度并推断高度"
+
+#: solver_plane.py:524
+msgid "Wall"
+msgstr "墙壁"
+
+#: solver_plane.py:518
+msgid "Width"
+msgstr "宽度"
+
+#: solver_plane.py:505
+msgctxt "Operator"
+msgid "Align Camera and Plane"
+msgstr "对齐摄像机与平面"
+
+#: solver_plane.py:506
+msgctxt "Operator"
+msgid "Align the camera and Depth Reference to Plane Track corners on the current frame"
+msgstr "将摄像机和深度参考对齐到当前帧的平面跟踪角点"

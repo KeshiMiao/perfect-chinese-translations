@@ -1,0 +1,277 @@
+# perfect-chinese: 1
+# id: sculpt_pose_chain_tool
+# kind: addon
+# module: bl_ext.blender_org.sculpt_pose_chain_tool
+# name: Sculpt Pose Chain Tool
+# name_zh: 雕刻姿态链工具
+# translator: KeshiMiao
+# category: Sculpt
+# supported_versions: >=4.3.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:1858
+msgid "1. Set Max Points, click Activate."
+msgstr "1. 设置最大点数，点击激活。"
+
+#: __init__.py:1859
+msgid "2. Click mesh to place points."
+msgstr "2. 点击网格以放置点。"
+
+#: __init__.py:1866
+msgid "3. Drag anchor to move tree."
+msgstr "3. 拖动锚点以移动树。"
+
+#: __init__.py:1871
+msgid "4. Clear Points resets. Apply bakes it."
+msgstr "4. 清除点可重置，应用可烘焙。"
+
+#: __init__.py:1335
+msgid "A pose chain is already active"
+msgstr "姿势链已激活"
+
+#: __init__.py:1890
+msgid "Backspace or Ctrl+Z:"
+msgstr "退格键或 Ctrl+Z："
+
+#: __init__.py:1861
+msgid "Backspace/Ctrl+Z: undo point"
+msgstr "退格键/Ctrl+Z：撤销点"
+
+#: __init__.py:1864
+msgid "Blue points = chain is ready."
+msgstr "蓝色点 = 链已就绪。"
+
+#: __init__.py:189
+msgid "Bone to visualize with Preview Bone Influence, below."
+msgstr "要用下方「预览骨骼影响」可视化的骨骼。"
+
+#: __init__.py:1860
+msgid "Click a point to branch off it."
+msgstr "点击一个点以从其分支。"
+
+#: __init__.py:1887
+msgid "Click an existing point to branch from it"
+msgstr "点击现有点以从其分支"
+
+#: __init__.py:1406
+msgid "Click didn't hit the mesh"
+msgstr "点击未命中网格"
+
+#: __init__.py:1868
+msgid "Click empty space to sculpt."
+msgstr "点击空白处进行雕刻。"
+
+#: __init__.py:1869
+msgid "Ctrl+Z undoes a pose change."
+msgstr "Ctrl+Z 撤销姿势更改。"
+
+#: __init__.py:1897
+msgid "Ctrl+Z undoes the last pose change"
+msgstr "Ctrl+Z 撤销上一次姿势更改"
+
+#: __init__.py:201
+msgid "Debug Logging"
+msgstr "调试日志"
+
+#: __init__.py:1867
+msgid "Drag a point to rotate its branch."
+msgstr "拖动一个点以旋转其分支。"
+
+#: __init__.py:1862
+msgid "Enter: finish  Esc: cancel"
+msgstr "Enter：完成  Esc：取消"
+
+#: __init__.py:1451
+msgid "Failed to build the pose chain rig   see System Console"
+msgstr "无法构建姿势链绑定   请查看系统控制台"
+
+#: __init__.py:177
+msgid "Falloff Softness"
+msgstr "衰减柔和度"
+
+#: __init__.py:1855
+msgid "How This Works"
+msgstr "工作原理"
+
+#: __init__.py:177
+msgid "How gradually weight fades near a joint or bone tip. Low values can leave dead zones with no weight. Higher values smooth it out. Updates live."
+msgstr "权重在关节或骨骼末端附近逐渐淡出的程度。较低的值可能留下无权重的死区。较高的值使其更平滑。实时更新。"
+
+#: __init__.py:183
+msgid "How much a bone shares weight with its direct parent and children. 0 keeps each section fully independent. 1 blends joints smoothly. Updates live."
+msgstr "骨骼与其直接父级和子级共享权重的程度。0 使每个部分完全独立。1 使关节平滑混合。实时更新。"
+
+#: __init__.py:171
+msgid "How wide a bone's influence reaches from its line. Raise for thicker limbs, lower if it reaches into a neighbor's area. Updates live."
+msgstr "骨骼影响从其线条延伸的宽度。四肢较粗时调高，若延伸到邻近区域则调低。实时更新。"
+
+#: __init__.py:161
+msgid "Idle"
+msgstr "空闲"
+
+#: __init__.py:183
+msgid "Joint Blend"
+msgstr "关节混合"
+
+#: __init__.py:1901
+msgid "Live-adjust weighting (updates the mesh directly):"
+msgstr "实时调整权重（直接更新网格）："
+
+#: __init__.py:168
+msgid "Max Points"
+msgstr "最大点数"
+
+#: __init__.py:1771
+msgid "No armature modifier found to apply"
+msgstr "未找到可应用的骨架修改器"
+
+#: __init__.py:1433
+msgid "No points to undo"
+msgstr "没有可撤销的点"
+
+#: __init__.py:1504
+msgid "Nothing left to undo"
+msgstr "没有可撤销的操作"
+
+#: __init__.py:1422
+msgid "Place at least 2 points (anchor + 1) before finishing"
+msgstr "完成前请至少放置 2 个点（锚点 + 1）"
+
+#: __init__.py:162
+msgid "Placing"
+msgstr "放置中"
+
+#: __init__.py:1737
+msgid "Points cleared, mesh restored"
+msgstr "点已清除，网格已恢复"
+
+#: __init__.py:1831
+msgid "Pose Chain"
+msgstr "姿势链"
+
+#: __init__.py:1828
+msgid "Pose Chain Tool"
+msgstr "姿势链工具"
+
+#: __init__.py:1785
+msgid "Pose applied to mesh"
+msgstr "姿势已应用到网格"
+
+#: __init__.py:189
+msgid "Preview Bone"
+msgstr "预览骨骼"
+
+#: __init__.py:1908
+msgid "Preview a bone's weight influence:"
+msgstr "预览骨骼的权重影响："
+
+#: __init__.py:201
+msgid "Print detailed weighting info to the console. Off by default for performance. Turn on to troubleshoot."
+msgstr "将详细权重信息输出到控制台。出于性能考虑默认关闭。开启以进行故障排查。"
+
+#: __init__.py:163
+msgid "Ready"
+msgstr "就绪"
+
+#: __init__.py:1838
+msgid "Select a mesh object"
+msgstr "选择一个网格物体"
+
+#: __init__.py:198
+msgid "Show Help"
+msgstr "显示帮助"
+
+#: __init__.py:195
+msgid "Show Point Numbers"
+msgstr "显示点编号"
+
+#: __init__.py:195
+msgid "Show the 1/2/3... order label on each point marker"
+msgstr "在每个点标记上显示 1/2/3... 顺序标签"
+
+#: __init__.py:198
+msgid "Show the how-to-use instructions in this panel"
+msgstr "在此面板中显示使用说明"
+
+#: __init__.py:168
+msgid "Total points in the whole tree, including branches."
+msgstr "整个树中的总点数，包括分支。"
+
+#: __init__.py:171
+msgid "Weight Falloff"
+msgstr "权重衰减"
+
+#: __init__.py:1891
+msgid "undo the last point"
+msgstr "撤销上一个点"
+
+#: __init__.py:1882
+msgctxt "Operator"
+msgid "Activate"
+msgstr "激活"
+
+#: __init__.py:1320
+msgctxt "Operator"
+msgid "Activate Pose Chain"
+msgstr "激活姿势链"
+
+#: __init__.py:1915
+msgctxt "Operator"
+msgid "Apply"
+msgstr "应用"
+
+#: __init__.py:1743
+msgctxt "Operator"
+msgid "Apply Deformations"
+msgstr "应用形变"
+
+#: __init__.py:1744
+msgctxt "Operator"
+msgid "Bake the current pose permanently into the mesh and remove the temporary rig"
+msgstr "将当前姿势永久烘焙到网格中并移除临时绑定"
+
+#: __init__.py:1892
+msgctxt "Operator"
+msgid "Cancel"
+msgstr "取消"
+
+#: __init__.py:1709
+msgctxt "Operator"
+msgid "Cancel Placement"
+msgstr "取消放置"
+
+#: __init__.py:1710
+msgctxt "Operator"
+msgid "Cancel point placement without building a chain"
+msgstr "取消点放置而不构建链"
+
+#: __init__.py:1726
+#: __init__.py:1914
+msgctxt "Operator"
+msgid "Clear Points"
+msgstr "清除点"
+
+#: __init__.py:1321
+msgctxt "Operator"
+msgid "Click the mesh to place chain points (anchor first). Click an EXISTING point to branch a new chain off of it. Once built, click any point anytime to pose it (clicking elsewhere still sculpts normally). Use Clear Points / Apply in the N-panel to finish."
+msgstr "点击网格以放置链点（先放置锚点）。点击已存在的点可从其上分支新链。构建完成后，随时点击任意点即可为其摆姿势（点击其他位置仍会正常雕刻）。使用 N 面板中的清除点 / 应用来完成。"
+
+#: __init__.py:1791
+#: __init__.py:1910
+msgctxt "Operator"
+msgid "Preview Bone Influence"
+msgstr "预览骨骼影响"
+
+#: __init__.py:1727
+msgctxt "Operator"
+msgid "Remove chain points and the temporary rig WITHOUT keeping any deformation"
+msgstr "移除链点和临时绑定，且不保留任何形变"
+
+#: __init__.py:1792
+msgctxt "Operator"
+msgid "Switch to Weight Paint mode showing exactly which vertices the selected bone currently influences and how strongly   lets you check Weight Falloff/Falloff Softness directly on the mesh instead of guessing"
+msgstr "切换到权重绘制模式，准确显示选中骨骼当前影响哪些顶点及影响强度，让你直接在网格上检查权重衰减/衰减柔和度，无需靠猜"

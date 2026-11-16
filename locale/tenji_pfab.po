@@ -1,0 +1,270 @@
+# perfect-chinese: 1
+# id: tenji_pfab
+# kind: addon
+# module: bl_ext.blender_org.tenji_pfab
+# name: Tenji P-Fab:Japanese Braille
+# name_zh: 日文盲文投影
+# translator: KeshiMiao
+# category: Add Mesh
+# supported_versions: >=5.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:71
+msgid "1マス"
+msgstr "1 格"
+
+#: __init__.py:81
+msgid "1行のセル数"
+msgstr "每行格数"
+
+#: __init__.py:85
+msgid "1行のセル数で並べる"
+msgstr "按每行格数排列"
+
+#: __init__.py:71
+msgid "2マス"
+msgstr "2 格"
+
+#: __init__.py:357
+#: __init__.py:401
+msgid "Tenji"
+msgstr "Tenji"
+
+#: __init__.py:365
+msgid "① モデルを選択してください"
+msgstr "① 请选择模型"
+
+#: __init__.py:367
+msgid "② 面を正面に向けて押す"
+msgstr "② 将面朝向正面后按下"
+
+#: __init__.py:369
+msgid "③ テキストを入力してください"
+msgstr "③ 请输入文本"
+
+#: __init__.py:71
+msgid "この語の後ろを1マス空ける"
+msgstr "此词后空 1 格"
+
+#: __init__.py:71
+msgid "この語の後ろを2マス空ける"
+msgstr "此词后空 2 格"
+
+#: __init__.py:70
+msgid "この語の後ろを空けない"
+msgstr "此词后不空格"
+
+#: __init__.py:70
+msgid "なし"
+msgstr "无"
+
+#: __init__.py:87
+msgid "オン: 分かち書きの空白を点字の規則で自動で入れる。オフ: テキストに手で入れた空白だけを使う"
+msgstr "开启：按盲文规则自动添加分词空格。关闭：仅使用文本中手动输入的空白"
+
+#: __init__.py:417
+msgid "サイズ"
+msgstr "尺寸"
+
+#: __init__.py:85
+msgid "セルを左から並べ、1行のセル数に達したら折り返す(語の途中でも折り返す)"
+msgstr "从左排列格子，达到每行格数后换行（可在词中间换行）"
+
+#: __init__.py:92
+msgid "セル間 (mm)"
+msgstr "格间距 (mm)"
+
+#: __init__.py:75
+msgid "テキスト"
+msgstr "文本"
+
+#: __init__.py:89
+msgid "テキストや設定を変えるたびに、分かち書き・点字変換・モデル上の生成をやり直す。重いモデルでは、オフのまま「更新」を使う"
+msgstr "每次更改文本或设置时，都会重新进行分词、盲文转换和模型上的生成。对于较重的模型，请保持关闭并使用“更新”"
+
+#: __init__.py:86
+msgid "中央揃え"
+msgstr "居中"
+
+#: __init__.py:80
+msgid "作業中の点字"
+msgstr "当前盲文"
+
+#: __init__.py:97
+msgid "出力サイズ (mm)"
+msgstr "输出尺寸 (mm)"
+
+#: __init__.py:375
+msgid "右の列: 語の後ろの空白(個別に指定)"
+msgstr "右列：词后的空白（单独指定）"
+
+#: __init__.py:96
+msgid "埋め込み (mm)"
+msgstr "嵌入 (mm)"
+
+#: __init__.py:78
+msgid "対象モデル"
+msgstr "目标模型"
+
+#: __init__.py:97
+msgid "対象モデルの最長辺を出力時に何mmにするか。0=シーン単位をそのまま使う"
+msgstr "输出时目标模型最长边设为多少毫米。0=直接使用场景单位"
+
+#: __init__.py:86
+msgid "左揃え"
+msgstr "左对齐"
+
+#: __init__.py:68
+msgid "後ろの空白"
+msgstr "词后空白"
+
+#: __init__.py:79
+msgid "投影枠(Empty)"
+msgstr "投影框 (Empty)"
+
+#: __init__.py:82
+msgid "折り返し"
+msgstr "换行"
+
+#: __init__.py:410
+msgid "枠"
+msgstr "框"
+
+#: __init__.py:353
+msgid "点字"
+msgstr "盲文"
+
+#: __init__.py:84
+msgid "点字の規則で折り返す"
+msgstr "按盲文规则换行"
+
+#: __init__.py:70
+msgid "点字の規則で決める"
+msgstr "按盲文规则确定"
+
+#: __init__.py:94
+msgid "点径 (mm)"
+msgstr "点径 (mm)"
+
+#: __init__.py:91
+msgid "点間 (mm)"
+msgstr "点间距 (mm)"
+
+#: __init__.py:95
+msgid "点高さ (mm)"
+msgstr "点高 (mm)"
+
+#: __init__.py:374
+msgid "空白はテキストに直接入力できる"
+msgstr "可直接在文本中输入空格"
+
+#: __init__.py:87
+msgid "空白を自動で入れる"
+msgstr "自动添加空格"
+
+#: __init__.py:70
+msgid "自動"
+msgstr "自动"
+
+#: __init__.py:89
+msgid "自動で更新"
+msgstr "自动更新"
+
+#: __init__.py:93
+msgid "行間 (mm)"
+msgstr "行间距 (mm)"
+
+#: __init__.py:397
+msgid "詳細(対象・枠)"
+msgstr "详细（目标・框）"
+
+#: __init__.py:84
+msgid "語を行にまたがせない。長すぎる語は音節で切り、行末に「ー」を付ける"
+msgstr "不让词跨行。过长的词按音节切分，并在行末加上“ー”"
+
+#: __init__.py:62
+msgid "読み"
+msgstr "读音"
+
+#: __init__.py:99
+msgid "警告角度(°)"
+msgstr "警告角度 (°)"
+
+#: __init__.py:86
+msgid "配置"
+msgstr "放置"
+
+#: __init__.py:282
+msgctxt "Operator"
+msgid "いまのテキストと設定で、分かち書き・点字変換・モデル上の生成をやり直す"
+msgstr "使用当前文本和设置，重新进行分词、盲文转换和模型上的生成"
+
+#: __init__.py:182
+msgctxt "Operator"
+msgid "テキストを分かち書きして読み一覧を作り直す(手で直した読み・空白はリセットされる)"
+msgstr "对文本进行分词并重建读音列表（手动修改的读音和空白将被重置）"
+
+#: __init__.py:299
+msgctxt "Operator"
+msgid "今の点字を確定して残し(Tenji_Label という名前の通常のメッシュになる)、テキストを空にして新しい点字を作り始める。対象モデル・枠・サイズの設定はそのまま使う。確定しないと、次の更新で今の点字は上書きされる"
+msgstr "确定并保留当前盲文（成为名为 Tenji_Label 的普通网格），清空文本并开始创建新盲文。目标模型、框、尺寸设置保持不变。如果不确定，下次更新会覆盖当前盲文"
+
+#: __init__.py:268
+msgctxt "Operator"
+msgid "対象モデル(詳細で指定)に対して、今の3Dビューの向きに投影枠を合わせる"
+msgstr "让投影框按当前 3D 视图方向对齐到目标模型（在“详细”中指定）"
+
+#: __init__.py:195
+msgctxt "Operator"
+msgid "対象モデルの上に Empty を置く。ローカル -Z が投影方向、+X が読む方向、-Y が次の行"
+msgstr "在目标模型上放置 Empty。本地 -Z 为投影方向，+X 为阅读方向，-Y 为下一行"
+
+#: __init__.py:194
+msgctxt "Operator"
+msgid "投影枠を作成"
+msgstr "创建投影框"
+
+#: __init__.py:298
+msgctxt "Operator"
+msgid "新規点字"
+msgstr "新建盲文"
+
+#: __init__.py:281
+#: __init__.py:385
+msgctxt "Operator"
+msgid "更新"
+msgstr "更新"
+
+#: __init__.py:323
+msgctxt "Operator"
+msgid "検証(逆読み)"
+msgstr "验证（反向读取）"
+
+#: __init__.py:324
+msgctxt "Operator"
+msgid "生成されたメッシュから点を読み戻し、期待する点字と一致するか確認する"
+msgstr "从生成的网格中读回点，并检查是否与预期盲文一致"
+
+#: __init__.py:267
+msgctxt "Operator"
+msgid "視点から枠を作成"
+msgstr "从视图创建框"
+
+#: __init__.py:181
+msgctxt "Operator"
+msgid "読みを作り直す"
+msgstr "重建读音"
+
+#: __init__.py:246
+msgctxt "Operator"
+msgid "選択モデルに点字作成"
+msgstr "在所选模型上创建盲文"
+
+#: __init__.py:247
+msgctxt "Operator"
+msgid "選択中のモデルの、今 3Dビューの中央に見えている場所に点字を作る。画面の右が読む方向、下が次の行、奥の面に向かって載る。載せたい面を正面に向けてから押す。もう一度押すと、今の点字をその場所へ移す"
+msgstr "在所选模型当前 3D 视图中央可见的位置创建盲文。屏幕右侧为阅读方向，下方为下一行，朝向后面的面放置。先将想要放置的面朝向正面再按下。再次按下会将当前盲文移动到该位置"

@@ -1,0 +1,281 @@
+# perfect-chinese: 1
+# id: scenetrace
+# kind: addon
+# module: bl_ext.blender_org.scenetrace
+# name: SceneTrace
+# name_zh: 场景追踪
+# translator: KeshiMiao
+# category: 
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: ui.py:315
+msgid "Attribution coverage"
+msgstr "归因覆盖率"
+
+#: ui.py:345
+msgid "Baseline B  ·  Current C"
+msgstr "基线 B  ·  当前 C"
+
+#: ui.py:568
+#: ui.py:614
+msgid "Benchmark setup"
+msgstr "基准测试设置"
+
+#: ui.py:609
+msgid "Bottom"
+msgstr "底部"
+
+#: ui.py:597
+msgid "Calibration runs"
+msgstr "校准运行次数"
+
+#: ui.py:598
+msgid "Capture modifier timings"
+msgstr "捕获修改器耗时"
+
+#: ui.py:287
+msgid "Changed object"
+msgstr "已更改物体"
+
+#: ui.py:604
+msgid "Compact timeline"
+msgstr "紧凑时间轴"
+
+#: ui.py:497
+msgid "Current performance"
+msgstr "当前性能"
+
+#: ui.py:593
+msgid "End"
+msgstr "结束"
+
+#: ui.py:117
+msgid "End frame must be greater than or equal to start frame"
+msgstr "结束帧必须大于或等于起始帧"
+
+#: ui.py:606
+msgid "Graph Position"
+msgstr "图表位置"
+
+#: ui.py:169
+msgid "Invalid frame range"
+msgstr "无效的帧范围"
+
+#: ui.py:478
+msgid "Legacy baseline · variance unknown"
+msgstr "旧版基线 · 方差未知"
+
+#: ui.py:276
+msgid "Likely contributors"
+msgstr "可能的影响因素"
+
+#: ui.py:414
+msgid "Likely source"
+msgstr "可能的来源"
+
+#: ui.py:291
+msgid "Measured modifier timing"
+msgstr "实测修改器耗时"
+
+#: ui.py:600
+msgid "Min frame delta ms"
+msgstr "最小帧差值（毫秒）"
+
+#: ui.py:480
+msgid "No baseline yet"
+msgstr "尚无基线"
+
+#: ui.py:327
+msgid "No measured modifier timing signal explains the frame regression."
+msgstr "没有实测修改器耗时信号能解释该帧性能回退。"
+
+#: ui.py:469
+msgid "Performance regression testing"
+msgstr "性能回退测试"
+
+#: ui.py:344
+msgid "Performance timeline"
+msgstr "性能时间轴"
+
+#: ui.py:609
+msgid "Place graph at the bottom of the usable viewport"
+msgstr "将图表放在可用视图的底部"
+
+#: ui.py:609
+msgid "Place graph at the top of the usable viewport"
+msgstr "将图表放在可用视图的顶部"
+
+#: ui.py:606
+msgid "Place the viewport performance graph above or below the scene"
+msgstr "将视图性能图表放在场景上方或下方"
+
+#: ui.py:525
+msgid "Regression pattern"
+msgstr "回退模式"
+
+#: ui.py:599
+msgid "Regression threshold %"
+msgstr "回退阈值 %"
+
+#: ui.py:595
+msgid "Repeats"
+msgstr "重复次数"
+
+#: ui.py:144
+#: ui.py:200
+msgid "Run a benchmark first"
+msgstr "请先运行基准测试"
+
+#: ui.py:166
+msgid "Save the .blend file before calibrating a baseline"
+msgstr "校准基线前请先保存 .blend 文件"
+
+#: ui.py:306
+msgid "Scene evidence"
+msgstr "场景证据"
+
+#: ui.py:454
+#: ui.py:458
+msgid "SceneTrace"
+msgstr "SceneTrace"
+
+#: ui.py:613
+msgid "Show technical evidence"
+msgstr "显示技术证据"
+
+#: ui.py:592
+msgid "Start"
+msgstr "起始"
+
+#: ui.py:594
+msgid "Step"
+msgstr "步长"
+
+#: ui.py:601
+msgid "Target FPS"
+msgstr "目标 FPS"
+
+#: ui.py:542
+msgid "Technical evidence"
+msgstr "技术证据"
+
+#: ui.py:517
+msgid "Timeline"
+msgstr "时间轴"
+
+#: ui.py:609
+msgid "Top"
+msgstr "顶部"
+
+#: ui.py:605
+msgid "Viewport performance graph"
+msgstr "视图性能图表"
+
+#: ui.py:596
+msgid "Warmups"
+msgstr "预热次数"
+
+#: ui.py:440
+msgid "Within expected variation"
+msgstr "在预期波动范围内"
+
+#: ui.py:444
+msgid "Within regression threshold"
+msgstr "在回退阈值内"
+
+#: ui.py:557
+msgid "Worst regressed frames"
+msgstr "回退最严重的帧"
+
+#: ui.py:160
+#: ui.py:584
+msgctxt "Operator"
+msgid "Calibrate Baseline"
+msgstr "校准基线"
+
+#: ui.py:489
+msgctxt "Operator"
+msgid "Create Baseline"
+msgstr "创建基线"
+
+#: ui.py:194
+msgctxt "Operator"
+msgid "Export Latest Report"
+msgstr "导出最新报告"
+
+#: ui.py:223
+msgctxt "Operator"
+msgid "Focus Object"
+msgstr "聚焦物体"
+
+#: ui.py:510
+msgctxt "Operator"
+msgid "Hide Viewport Graph"
+msgstr "隐藏视图图表"
+
+#: ui.py:213
+msgctxt "Operator"
+msgid "Jump"
+msgstr "跳转"
+
+#: ui.py:112
+msgctxt "Operator"
+msgid "Measure scene evaluation wall time across the configured frame range"
+msgstr "测量配置帧范围内场景求值的实际耗时"
+
+#: ui.py:138
+#: ui.py:583
+msgctxt "Operator"
+msgid "Quick Baseline"
+msgstr "快速基线"
+
+#: ui.py:485
+msgctxt "Operator"
+msgid "Re-test vs Baseline"
+msgstr "对照基线重新测试"
+
+#: ui.py:486
+msgctxt "Operator"
+msgid "Recalibrate"
+msgstr "重新校准"
+
+#: ui.py:111
+#: ui.py:488
+msgctxt "Operator"
+msgid "Run Benchmark"
+msgstr "运行基准测试"
+
+#: ui.py:161
+msgctxt "Operator"
+msgid "Run several full benchmarks, learn normal variance, and save an aggregated baseline"
+msgstr "运行多次完整基准测试，学习正常波动，并保存聚合基线"
+
+#: ui.py:139
+msgctxt "Operator"
+msgid "Save the latest run as a one-run baseline; useful for fast tests but it cannot learn run-to-run noise"
+msgstr "将最新运行保存为单次基线；适合快速测试，但无法学习运行间噪声"
+
+#: ui.py:510
+msgctxt "Operator"
+msgid "Show Viewport Graph"
+msgstr "显示视图图表"
+
+#: ui.py:247
+msgctxt "Operator"
+msgid "Show or hide the baseline/current performance graph in the 3D Viewport"
+msgstr "在 3D 视图中显示或隐藏基线/当前性能图表"
+
+#: ui.py:246
+msgctxt "Operator"
+msgid "Toggle Performance Graph"
+msgstr "切换性能图表"
+
+#: ui.py:195
+msgctxt "Operator"
+msgid "Write the latest benchmark and comparison to .scenetrace/latest.json"
+msgstr "将最新基准测试和对比写入 .scenetrace/latest.json"

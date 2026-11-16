@@ -1,0 +1,631 @@
+# perfect-chinese: 1
+# id: mesh_expression_retargeter
+# kind: addon
+# module: bl_ext.blender_org.mesh_expression_retargeter
+# name: Mesh Expression Retargeter
+# name_zh: 网格表情重定向
+# translator: KeshiMiao
+# category: Animation
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:3118
+msgid "1. Overlap Source and Target."
+msgstr "1. 让源和目标重叠。"
+
+#: __init__.py:3112
+msgid "1. Put Source in neutral."
+msgstr "1. 将源设为中性姿态。"
+
+#: __init__.py:3113
+msgid "2. Load/create correspondences."
+msgstr "2. 加载/创建对应关系。"
+
+#: __init__.py:3119
+msgid "2. Put Source in neutral."
+msgstr "2. 将源设为中性姿态。"
+
+#: __init__.py:3120
+msgid "3. Build Surface Map."
+msgstr "3. 构建表面映射。"
+
+#: __init__.py:3114
+msgid "3. Fit / Build Transfer Map."
+msgstr "3. 拟合/构建传递映射。"
+
+#: __init__.py:3121
+msgid "4. Change Source deformation."
+msgstr "4. 更改源变形。"
+
+#: __init__.py:3115
+msgid "4. Change Source expression."
+msgstr "4. 更改源表情。"
+
+#: __init__.py:3116
+#: __init__.py:3122
+msgid "5. Transfer to Target shape key."
+msgstr "5. 传递到目标形态键。"
+
+#: __init__.py:3125
+msgid "6. Save as MPFB Expression to keep it."
+msgstr "6. 保存为 MPFB 表情以保留。"
+
+#: __init__.py:996
+msgid "Add to MPFB Library"
+msgstr "添加到 MPFB 库"
+
+#: __init__.py:1047
+msgid "Among candidate surfaces facing the target vertex, prefer the one whose normal agrees with the vertex's own normal. Keeps a closed mouth's inner and outer sheets (and other coincident double surfaces) from binding to each other across the gap, without the over-culling of a global opposed-normal rejection"
+msgstr "在朝向目标顶点的候选表面中，优先选择法线与顶点自身法线一致的表面。可避免闭合嘴巴的内外层（以及其他重合的双层表面）跨间隙相互绑定，同时不会像全局反向法线剔除那样过度剔除"
+
+#: __init__.py:1102
+msgid "Anchors influence only within the Influence Radius (compact Wendland falloff to zero): lip markers move the lips and a small halo of skin, and never pull distant vertices. Beyond the radius the mesh keeps its neutral shape"
+msgstr "锚点仅在影响半径内产生作用（紧凑的 Wendland 衰减至零）：唇部标记只移动嘴唇及周围一小圈皮肤，绝不会拉扯远处顶点。超出半径的网格保持中性形状"
+
+#: __init__.py:990
+msgid "Author"
+msgstr "作者"
+
+#: __init__.py:990
+msgid "Author stored in the expression file"
+msgstr "存储在表情文件中的作者"
+
+#: __init__.py:1034
+msgid "Bind Visible Surfaces Only"
+msgstr "仅绑定可见表面"
+
+#: __init__.py:1034
+msgid "Bind each target vertex to the nearest source surface that faces it (front-facing = visible from that point); if the closest triangle is a backface, the next-nearest front-facing one is used instead. Inner mouth bags, nostril bags and eyelid folds then bind to their own visible sheet instead of gluing to a facing surface across the gap"
+msgstr "将每个目标顶点绑定到朝向它的最近源表面（正面 = 从该点可见）；如果最近的三角形是背面，则改用次近的正面三角形。这样口腔内袋、鼻孔内袋和眼睑褶皱会绑定到自身可见的表面，而不会跨间隙粘到对面的表面上"
+
+#: __init__.py:2337
+msgid "Build the transfer map first while Source is neutral."
+msgstr "请先在源为中性姿态时构建传递映射。"
+
+#: __init__.py:1517
+msgid "Bundled mappings cannot be replaced. Load it and save a new one instead."
+msgstr "内置映射无法替换。请加载它，然后另存为新映射。"
+
+#: __init__.py:1646
+msgid "Bundled mappings ship with the add-on and cannot be deleted."
+msgstr "内置映射随插件提供，无法删除。"
+
+#: __init__.py:1539
+msgid "Choose Source and Target meshes before loading."
+msgstr "加载前请先选择源网格和目标网格。"
+
+#: __init__.py:1447
+msgid "Choose Source and Target meshes before saving."
+msgstr "保存前请先选择源网格和目标网格。"
+
+#: __init__.py:2019
+#: __init__.py:2512
+msgid "Choose Source and Target meshes."
+msgstr "请选择源网格和目标网格。"
+
+#: __init__.py:2825
+msgid "Choose a Target mesh."
+msgstr "请选择目标网格。"
+
+#: __init__.py:1261
+#: __init__.py:1402
+msgid "Choose both Source and Target meshes."
+msgstr "请同时选择源网格和目标网格。"
+
+#: __init__.py:1426
+msgid "Cleared all correspondences."
+msgstr "已清除所有对应关系。"
+
+#: __init__.py:1179
+msgid "Click correspondence markers to delete their pairs"
+msgstr "点击对应标记以删除其配对"
+
+#: __init__.py:984
+msgid "Comma-separated tags stored in the expression file"
+msgstr "存储在表情文件中的逗号分隔标签"
+
+#: __init__.py:1072
+msgid "Comma-separated vertex group names to exclude from the transfer map (left unmapped / frozen at Basis). Prefilled with MPFB basemesh helper groups (tongue, teeth, eyes, eyelashes, joint cubes, hair helpers); unknown names are ignored, so edit the list for other meshes or clear it"
+msgstr "以逗号分隔的顶点组名称，将从传递映射中排除（保持未映射/冻结在 Basis）。已预填 MPFB 基础网格的辅助组（舌头、牙齿、眼睛、睫毛、关节方块、毛发辅助）；未知名称会被忽略，因此可针对其他网格编辑此列表或将其清空"
+
+#: __init__.py:1091
+msgid "Comma-separated vertex group names to influence: when set, only vertices in these groups are mapped and everything else stays at Basis. Empty = all vertices (minus Excluded Groups). Unknown names are ignored"
+msgstr "以逗号分隔的要影响的顶点组名称：设置后仅映射这些组中的顶点，其余顶点保持在 Basis。留空 = 所有顶点（减去排除的顶点组）。未知名称会被忽略"
+
+#: __init__.py:1251
+msgid "Delete correspondence pairs instead of creating them"
+msgstr "删除对应配对而不是创建配对"
+
+#: __init__.py:1386
+msgid "Deleted last correspondence."
+msgstr "已删除最后一个对应关系。"
+
+#: __init__.py:1113
+msgid "Distance over which an anchor's influence falls to zero. ~4cm covers lips plus a natural skin halo around them. Add more markers to widen coverage instead of raising this"
+msgstr "锚点影响衰减至零的距离。约 4cm 可覆盖嘴唇及其周围自然的皮肤光晕。要扩大覆盖范围请添加更多标记，而不是提高此值"
+
+#: __init__.py:1072
+msgid "Excluded Vertex Groups"
+msgstr "排除的顶点组"
+
+#: __init__.py:978
+msgid "Expression File"
+msgstr "表情文件"
+
+#: __init__.py:1126
+msgid "Expression Scale"
+msgstr "表情缩放"
+
+#: __init__.py:2969
+#: __init__.py:3057
+msgid "Expression Transfer"
+msgstr "表情传递"
+
+#: __init__.py:3090
+msgid "File Details"
+msgstr "文件详情"
+
+#: __init__.py:978
+msgid "Filename for the saved MPFB expression. Blank uses the shape key name."
+msgstr "保存的 MPFB 表情的文件名。留空则使用形态键名称。"
+
+#: __init__.py:1134
+msgid "Fill motion for unmapped vertices from their mapped neighbours (mesh-Laplacian smoothing, fading out over a dozen edge rings). Removes frozen/moved seam artefacts at the edge of the mapped region; distant geometry stays neutral and excluded vertex groups stay frozen"
+msgstr "用已映射的相邻顶点为未映射顶点填充运动（网格拉普拉斯平滑，在十几个边环范围内逐渐衰减）。可消除映射区域边缘冻结/移动的接缝伪影；远处几何体保持中性，排除的顶点组保持冻结"
+
+#: __init__.py:3028
+msgid "Fit"
+msgstr "拟合"
+
+#: __init__.py:1159
+msgid "Fit Smoothness"
+msgstr "拟合平滑度"
+
+#: __init__.py:1023
+msgid "Freeze target vertices inside the mouth cavity (their normals face into the cavity, unlike the outer lip skin). Heuristic: can freeze real lip skin near the rim; prefer Excluded Vertex Groups and Bind Visible Surfaces Only when possible"
+msgstr "冻结口腔内部的目标顶点（其法线朝向腔内，与外唇皮肤不同）。启发式方法：可能冻结靠近边缘的真实唇部皮肤；如有可能，请优先使用排除的顶点组和仅绑定可见表面"
+
+#: __init__.py:940
+msgid "How Source and Target correspondence is established"
+msgstr "源与目标对应关系的建立方式"
+
+#: __init__.py:1002
+msgid "Ignore target vertices farther than this from the fitted source surface. 0 means unlimited."
+msgstr "忽略距拟合后的源表面超过此距离的目标顶点。0 表示不限。"
+
+#: __init__.py:1091
+msgid "Included Vertex Groups"
+msgstr "包含的顶点组"
+
+#: __init__.py:1113
+msgid "Influence Radius"
+msgstr "影响半径"
+
+#: __init__.py:1010
+msgid "Leave target vertices unmapped when the surface they bind to faces away from their own sheet (opposed normals). This is what kept an MPFB target's upper inner lip stuck to the lower inner lip: the two sheets touch across the mouth gap and plain nearest-surface projection flips between them. Only same-facing, surface-connected projections move; disable to restore plain nearest-surface behaviour"
+msgstr "当目标顶点绑定到的表面背对其自身表面（法线相反）时，让其保持未映射。这正是 MPFB 目标的上内唇粘住下内唇的原因：两层表面在口腔间隙处相接触，而普通的最近表面投影会在两者之间来回切换。只有朝向一致且表面相连的投影才会移动；禁用可恢复普通的最近表面行为"
+
+#: __init__.py:1102
+msgid "Local Anchor Influence"
+msgstr "局部锚点影响"
+
+#: __init__.py:3102
+msgid "MPFB expressions not available"
+msgstr "MPFB 表情不可用"
+
+#: __init__.py:3094
+msgid "MPFB found: set Target to an MPFB basemesh"
+msgstr "已找到 MPFB：请将目标设为 MPFB 基础网格"
+
+#: __init__.py:2662
+msgid "MPFB is not installed."
+msgstr "未安装 MPFB。"
+
+#: __init__.py:944
+msgid "Manual Correspondences"
+msgstr "手动对应关系"
+
+#: __init__.py:2063
+msgid "Manual Correspondences mode needs at least 4 pairs. Facial transfers usually benefit from 12-30+."
+msgstr "手动对应关系模式至少需要 4 对。面部传递通常建议 12-30 对以上。"
+
+#: __init__.py:3015
+msgid "Mapping Library"
+msgstr "映射库"
+
+#: __init__.py:940
+#: __init__.py:2976
+msgid "Mapping Method"
+msgstr "映射方法"
+
+#: __init__.py:1185
+msgid "Mapping Name"
+msgstr "映射名称"
+
+#: __init__.py:1059
+msgid "Match Inner Mouth"
+msgstr "匹配口腔内部"
+
+#: __init__.py:1002
+msgid "Max Fit Distance"
+msgstr "最大拟合距离"
+
+#: __init__.py:2965
+msgid "Mesh Expression Retargeter"
+msgstr "网格表情重定向器"
+
+#: __init__.py:966
+msgid "Mesh that will receive the transferred expression"
+msgstr "将接收所传递表情的网格"
+
+#: __init__.py:2980
+msgid "Meshes"
+msgstr "网格"
+
+#: __init__.py:959
+msgid "Neutral/expression donor mesh"
+msgstr "中性/表情供体网格"
+
+#: __init__.py:3047
+msgid "No landmark pairs are required."
+msgstr "无需特征点对。"
+
+#: __init__.py:1543
+#: __init__.py:1642
+msgid "No saved mapping selected."
+msgstr "未选择已保存的映射。"
+
+#: __init__.py:3045
+msgid "Overlapping Surface Mapping"
+msgstr "重叠表面映射"
+
+#: __init__.py:949
+msgid "Overlapping Surfaces"
+msgstr "重叠表面"
+
+#: __init__.py:1174
+msgid "Pairing Mode"
+msgstr "配对模式"
+
+#: __init__.py:1314
+msgid "Pairing mode off."
+msgstr "配对模式已关闭。"
+
+#: __init__.py:1299
+msgid "Pairing mode: click Source, then matching Target point; repeat. Esc/right-click exits."
+msgstr "配对模式：点击源，再点击匹配的目标点；重复此操作。按 Esc 或右键退出。"
+
+#: __init__.py:1047
+msgid "Prefer Same-Facing Bindings"
+msgstr "优先同向绑定"
+
+#: __init__.py:1023
+msgid "Protect Mouth Interior"
+msgstr "保护口腔内部"
+
+#: __init__.py:996
+msgid "Refresh the MPFB expression library so the saved file appears immediately"
+msgstr "刷新 MPFB 表情库，使保存的文件立即显示"
+
+#: __init__.py:1010
+msgid "Reject Across-Gap Bindings"
+msgstr "拒绝跨间隙绑定"
+
+#: __init__.py:1146
+msgid "Relax Mapped Motion"
+msgstr "松弛映射运动"
+
+#: __init__.py:1179
+msgid "Remove Mode"
+msgstr "移除模式"
+
+#: __init__.py:1251
+msgid "Remove Only"
+msgstr "仅移除"
+
+#: __init__.py:1274
+msgid "Remove mode on: click a marker to delete its pair."
+msgstr "移除模式已开启：点击标记以删除其配对。"
+
+#: __init__.py:1283
+msgid "Remove mode: click a correspondence marker to delete that pair. Esc/right-click exits."
+msgstr "移除模式：点击对应标记以删除该配对。按 Esc 或右键退出。"
+
+#: __init__.py:1265
+msgid "Run pairing mode from the 3D View."
+msgstr "请从 3D 视图运行配对模式。"
+
+#: __init__.py:1406
+msgid "Run remove mode from the 3D View."
+msgstr "请从 3D 视图运行移除模式。"
+
+#: __init__.py:2803
+msgid "Runtime transfer map cleared. Saved mappings and correspondence pairs remain."
+msgstr "运行时传递映射已清除。已保存的映射和对应点对保留。"
+
+#: __init__.py:1190
+msgid "Saved Mapping"
+msgstr "已保存的映射"
+
+#: __init__.py:1565
+msgid "Saved mapping contains no correspondence pairs."
+msgstr "已保存的映射不含对应点对。"
+
+#: __init__.py:1548
+msgid "Saved mapping file could not be found."
+msgstr "找不到已保存的映射文件。"
+
+#: __init__.py:1126
+msgid "Scale the transferred deformation"
+msgstr "缩放所传递的变形"
+
+#: __init__.py:1513
+msgid "Select a saved mapping first."
+msgstr "请先选择已保存的映射。"
+
+#: __init__.py:973
+msgid "Shape Key"
+msgstr "形态键"
+
+#: __init__.py:1168
+msgid "Show Correspondences"
+msgstr "显示对应关系"
+
+#: __init__.py:1159
+msgid "Small regularization value for the landmark warp. Increase slightly only if fitting is unstable."
+msgstr "特征点变形的正则化值，保持较小。仅在拟合不稳定时略微增大。"
+
+#: __init__.py:1134
+msgid "Smooth Unmapped Fill"
+msgstr "平滑未映射填充"
+
+#: __init__.py:1146
+msgid "Smooth the transferred motion across mapped vertices (anchors and excluded groups pinned). Nearest-triangle binding is per-vertex, so adjacent target verts can bind to opposite sides of a sharp static/moving seam on the source (inner mouth bag beside the moving outer lip), producing spikes. This relaxes those binding discontinuities without softening the expression"
+msgstr "在已映射顶点之间平滑所传递的运动（锚点和排除组固定）。最近三角形绑定是逐顶点的，因此相邻目标顶点可能绑定到源上静止/运动突变接缝的两侧（如运动外唇旁的口腔内袋），产生尖刺。此选项可松弛这些绑定不连续，而不会软化表情"
+
+#: __init__.py:959
+msgid "Source Mesh"
+msgstr "源网格"
+
+#: __init__.py:3046
+msgid "Source and Target must already overlap."
+msgstr "源与目标必须已经重叠。"
+
+#: __init__.py:2581
+msgid "Source has no non-Basis shape keys to transfer."
+msgstr "源没有可传递的非 Basis 形态键。"
+
+#: __init__.py:2043
+msgid "Source mesh has no usable polygon surface."
+msgstr "源网格没有可用的多边形表面。"
+
+#: __init__.py:2351
+msgid "Source topology changed after mapping."
+msgstr "映射后源拓扑已改变。"
+
+#: __init__.py:984
+msgid "Tags"
+msgstr "标签"
+
+#: __init__.py:966
+msgid "Target Mesh"
+msgstr "目标网格"
+
+#: __init__.py:2743
+msgid "Target has no non-Basis shape keys to export."
+msgstr "目标没有可导出的非 Basis 形态键。"
+
+#: __init__.py:2671
+msgid "Target has no shape keys. Transfer first."
+msgstr "目标没有形态键。请先传递。"
+
+#: __init__.py:2667
+msgid "Target must be an MPFB basemesh."
+msgstr "目标必须是 MPFB 基础网格。"
+
+#: __init__.py:2344
+msgid "The runtime transfer map belongs to different Source/Target objects."
+msgstr "运行时传递映射属于不同的源/目标物体。"
+
+#: __init__.py:1451
+msgid "There are no correspondence pairs to save."
+msgstr "没有可保存的对应点对。"
+
+#: __init__.py:1560
+msgid "This is not a recognized mapping file."
+msgstr "这不是可识别的映射文件。"
+
+#: __init__.py:2355
+msgid "This runtime map was not built with Manual Correspondences. Rebuild the map."
+msgstr "此运行时映射并非使用手动对应关系构建。请重建映射。"
+
+#: __init__.py:944
+msgid "Use manually paired Source/Target vertices and an RBF fit. Meshes may be anywhere."
+msgstr "使用手动配对的源/目标顶点和 RBF 拟合。网格可位于任意位置。"
+
+#: __init__.py:949
+msgid "Use nearest-surface correspondence directly. Source and Target must already overlap spatially."
+msgstr "直接使用最近表面对应关系。源与目标必须在空间上已经重叠。"
+
+#: __init__.py:1059
+msgid "When the Source names an inner-mouth bag (GNM head's 'mouth_sock') and the Target is an MPFB basemesh, bind the target's cavity-facing vertices to that bag and its outer vertices to the skin. Keeps the outer lip from gluing to the inner bag and vice versa, which otherwise folds the mouth corners. Ignored when the Source has no inner-mouth group"
+msgstr "当源命名了口腔内袋（GNM 头部的 'mouth_sock'）且目标是 MPFB 基础网格时，将目标朝向口腔的顶点绑定到该内袋，将其外部顶点绑定到皮肤。可避免外唇与内袋相互粘连，否则会使嘴角折叠。源没有口腔内组时忽略"
+
+#: __init__.py:3109
+msgid "Workflow"
+msgstr "工作流程"
+
+#: __init__.py:3054
+msgctxt "Operator"
+msgid "Build Surface Map"
+msgstr "构建表面映射"
+
+#: __init__.py:2005
+msgctxt "Operator"
+msgid "Build Transfer Map"
+msgstr "构建传递映射"
+
+#: __init__.py:2006
+msgctxt "Operator"
+msgid "Capture current Source as neutral and build the Source-to-Target deformation map"
+msgstr "将当前源捕获为中性状态，并构建从源到目标的变形映射"
+
+#: __init__.py:1414
+#: __init__.py:3004
+msgctxt "Operator"
+msgid "Clear All"
+msgstr "全部清除"
+
+#: __init__.py:2796
+msgctxt "Operator"
+msgid "Clear Runtime Transfer Map"
+msgstr "清除运行时传递映射"
+
+#: __init__.py:2797
+msgctxt "Operator"
+msgid "Clear the fitted runtime map; saved landmark mappings are unaffected"
+msgstr "清除已拟合的运行时映射；已保存的特征点映射不受影响"
+
+#: __init__.py:1394
+msgctxt "Operator"
+msgid "Click a correspondence marker to delete that pair, leaving the rest of the list untouched. Esc or right-click to stop."
+msgstr "点击对应标记以删除该配对，列表其余部分保持不变。按 Esc 或右键停止。"
+
+#: __init__.py:1245
+msgctxt "Operator"
+msgid "Continuously click Source then Target to create correspondence pairs"
+msgstr "连续点击源再点击目标以创建对应点对"
+
+#: __init__.py:1376
+#: __init__.py:3003
+msgctxt "Operator"
+msgid "Delete Last"
+msgstr "删除最后一个"
+
+#: __init__.py:1635
+#: __init__.py:3025
+msgctxt "Operator"
+msgid "Delete Selected"
+msgstr "删除所选"
+
+#: __init__.py:2997
+msgctxt "Operator"
+msgid "Enter Pairing Mode"
+msgstr "进入配对模式"
+
+#: __init__.py:2997
+msgctxt "Operator"
+msgid "Exit Pairing Mode"
+msgstr "退出配对模式"
+
+#: __init__.py:3041
+msgctxt "Operator"
+msgid "Fit / Build Transfer Map"
+msgstr "拟合 / 构建传递映射"
+
+#: __init__.py:1529
+#: __init__.py:3022
+msgctxt "Operator"
+msgid "Load Selected"
+msgstr "加载所选"
+
+#: __init__.py:1530
+msgctxt "Operator"
+msgid "Load the selected saved correspondence mapping"
+msgstr "加载所选的已保存对应关系映射"
+
+#: __init__.py:1244
+msgctxt "Operator"
+msgid "Pairing Mode"
+msgstr "配对模式"
+
+#: __init__.py:2724
+msgctxt "Operator"
+msgid "Project every non-Basis Target shape key onto MPFB's ARKit face units and write one MPFB expression per key. Requires MPFB and an MPFB basemesh as Target."
+msgstr "将所有非 Basis 的目标形态键投影到 MPFB 的 ARKit 面部单元上，并为每个键写入一个 MPFB 表情。需要 MPFB，且目标须为 MPFB 基础网格。"
+
+#: __init__.py:2680
+msgctxt "Operator"
+msgid "Project the Target shape key onto MPFB's ARKit face units and write it as an MPFB expression. Requires MPFB and an MPFB basemesh as Target."
+msgstr "将目标形态键投影到 MPFB 的 ARKit 面部单元上，并写为 MPFB 表情。需要 MPFB，且目标须为 MPFB 基础网格。"
+
+#: __init__.py:1393
+#: __init__.py:3008
+msgctxt "Operator"
+msgid "Remove Pair"
+msgstr "移除配对"
+
+#: __init__.py:3008
+msgctxt "Operator"
+msgid "Removing - Esc to stop"
+msgstr "正在移除 - 按 Esc 停止"
+
+#: __init__.py:1506
+#: __init__.py:3023
+msgctxt "Operator"
+msgid "Replace Selected"
+msgstr "替换所选"
+
+#: __init__.py:2812
+#: __init__.py:3070
+msgctxt "Operator"
+msgid "Reset Target to Neutral"
+msgstr "将目标重置为中性"
+
+#: __init__.py:2813
+msgctxt "Operator"
+msgid "Return the Target to its rest face without collapsing it: zero MPFB '!ex-' face units and this addon's transferred expressions, while keeping identity/modeling morphs and the Basis. The MPFB equivalent of resetting the GNM head"
+msgstr "将目标恢复到静止面部而不使其塌陷：将 MPFB 的“!ex-”面部单元和本插件传递的表情归零，同时保留身份/建模形态与 Basis。相当于对 GNM 头部执行重置的 MPFB 版本。"
+
+#: __init__.py:2723
+#: __init__.py:3083
+msgctxt "Operator"
+msgid "Save All as MPFB Expressions"
+msgstr "全部保存为 MPFB 表情"
+
+#: __init__.py:1436
+msgctxt "Operator"
+msgid "Save Mapping"
+msgstr "保存映射"
+
+#: __init__.py:3017
+msgctxt "Operator"
+msgid "Save New Mapping"
+msgstr "保存新映射"
+
+#: __init__.py:2679
+#: __init__.py:3079
+msgctxt "Operator"
+msgid "Save as MPFB Expression"
+msgstr "保存为 MPFB 表情"
+
+#: __init__.py:1437
+msgctxt "Operator"
+msgid "Save current correspondence pairs as a named reusable mapping"
+msgstr "将当前对应配对保存为具名可复用映射"
+
+#: __init__.py:2560
+#: __init__.py:3066
+msgctxt "Operator"
+msgid "Transfer All Shape Keys"
+msgstr "传递所有形态键"
+
+#: __init__.py:2502
+#: __init__.py:3062
+msgctxt "Operator"
+msgid "Transfer Current Expression"
+msgstr "传递当前表情"
+
+#: __init__.py:2561
+msgctxt "Operator"
+msgid "Transfer every non-Basis Source shape key to Target, preserving names and creating Blender-style numbered names when a name already exists"
+msgstr "将所有非 Basis 的源形态键传递到目标，保留名称，若名称已存在则创建 Blender 风格的编号名称"
+
+#: __init__.py:2503
+msgctxt "Operator"
+msgid "Transfer the Source mesh's current deformation onto Target as a shape key"
+msgstr "将源网格当前的形变作为形态键传递到目标"

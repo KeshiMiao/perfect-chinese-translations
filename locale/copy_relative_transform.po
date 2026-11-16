@@ -1,0 +1,117 @@
+# perfect-chinese: 1
+# id: copy_relative_transform
+# kind: addon
+# module: bl_ext.blender_org.copy_relative_transform
+# name: Copy Relative Transform
+# name_zh: 相对变换复制
+# translator: KeshiMiao
+# category: 3D View
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: Copy Relative Transform/operators.py:80
+#: Copy Relative Transform/operators.py:185
+msgid "Location"
+msgstr "位置"
+
+#: Copy Relative Transform/operators.py:52
+#: Copy Relative Transform/operators.py:100
+msgid "No active object"
+msgstr "无活动物体"
+
+#: Copy Relative Transform/operators.py:110
+#: Copy Relative Transform/operators.py:228
+msgid "No copied transform found — run Copy first"
+msgstr "未找到已复制的变换 — 请先执行复制"
+
+#: Copy Relative Transform/operators.py:180
+msgid "Object used as the reference frame for the paste"
+msgstr "用作粘贴参考坐标系的物体"
+
+#: Copy Relative Transform/operators.py:57
+#: Copy Relative Transform/operators.py:105
+msgid "Operator must be run from a 3D View"
+msgstr "操作符必须在 3D 视图中运行"
+
+#: Copy Relative Transform/operators.py:220
+msgid "Pick a reference object"
+msgstr "选择参考物体"
+
+#: Copy Relative Transform/operators.py:180
+#: Copy Relative Transform/operators.py:201
+msgid "Reference"
+msgstr "参考"
+
+#: Copy Relative Transform/operators.py:223
+msgid "Reference must be different from the active object"
+msgstr "参考物体必须与活动物体不同"
+
+#: Copy Relative Transform/ui.py:13
+msgid "Relative Transform"
+msgstr "相对变换"
+
+#: Copy Relative Transform/operators.py:81
+#: Copy Relative Transform/operators.py:186
+msgid "Rotation"
+msgstr "旋转"
+
+#: Copy Relative Transform/operators.py:82
+#: Copy Relative Transform/operators.py:187
+msgid "Scale"
+msgstr "缩放"
+
+#: Copy Relative Transform/operators.py:154
+msgid "Select exactly two objects (active + reference)"
+msgstr "请准确选择两个物体（活动物体 + 参考物体）"
+
+#: Copy Relative Transform/operators.py:66
+msgid "View-relative transform copied"
+msgstr "已复制视图相对变换"
+
+#: Copy Relative Transform/operators.py:129
+msgid "View-relative transform pasted"
+msgstr "已粘贴视图相对变换"
+
+#: Copy Relative Transform/operators.py:139
+msgctxt "Operator"
+msgid "Copy Object-Relative Transform"
+msgstr "复制物体相对变换"
+
+#: Copy Relative Transform/operators.py:35
+msgctxt "Operator"
+msgid "Copy View-Relative Transform"
+msgstr "复制视图相对变换"
+
+#: Copy Relative Transform/operators.py:172
+msgctxt "Operator"
+msgid "Paste Object-Relative Transform"
+msgstr "粘贴物体相对变换"
+
+#: Copy Relative Transform/operators.py:72
+msgctxt "Operator"
+msgid "Paste View-Relative Transform"
+msgstr "粘贴视图相对变换"
+
+#: Copy Relative Transform/operators.py:173
+msgctxt "Operator"
+msgid "Place the active object at the stored offset from the other selected object (the reference). Location, Rotation and Scale can be toggled individually"
+msgstr "将活动物体放置到相对于另一选中物体（参考）的已存储偏移处。位置、旋转和缩放可单独切换"
+
+#: Copy Relative Transform/operators.py:73
+msgctxt "Operator"
+msgid "Place the selected object at the stored position in the current viewport or camera view. Location, Rotation and Scale can be toggled individually"
+msgstr "将选中物体放置到当前视图或相机视图中的已存储位置。位置、旋转和缩放可单独切换"
+
+#: Copy Relative Transform/operators.py:140
+msgctxt "Operator"
+msgid "Store how the active object is offset from the other selected object (the reference)"
+msgstr "存储活动物体相对于另一选中物体（参考）的偏移方式"
+
+#: Copy Relative Transform/operators.py:36
+msgctxt "Operator"
+msgid "Store the selected object's position in the current viewport or camera view"
+msgstr "存储选中物体在当前视图或相机视图中的位置"

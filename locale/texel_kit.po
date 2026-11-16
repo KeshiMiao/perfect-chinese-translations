@@ -1,0 +1,240 @@
+# perfect-chinese: 1
+# id: texel_kit
+# kind: addon
+# module: bl_ext.blender_org.texel_kit
+# name: Texel Kit
+# name_zh: 纹素工具
+# translator: KeshiMiao
+# category: UV
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: ops.py:91
+msgid "Active object has no UV map"
+msgstr "当前物体没有 UV 贴图"
+
+#: props.py:32
+msgid "Black and white grid"
+msgstr "黑白网格"
+
+#: ui.py:66
+msgid "Check"
+msgstr "检查"
+
+#: props.py:33
+msgid "Color Grid"
+msgstr "彩色网格"
+
+#: props.py:33
+msgid "Colored grid with letters, shows rotation"
+msgstr "带字母的彩色网格，可显示旋转"
+
+#: ops.py:105
+msgid "Density"
+msgstr "密度"
+
+#: props.py:35
+msgid "Heatmap counts faces within this range of the target as on target"
+msgstr "热力图将目标值此范围内的面视为达标"
+
+#: props.py:27
+msgid "In Edit Mode, only work on selected faces"
+msgstr "在编辑模式下仅处理选中的面"
+
+#: ops.py:105
+msgid "Leave at -1 to use the panel's target"
+msgstr "保持 -1 以使用面板中的目标值"
+
+#: props.py:25
+msgid "Measured"
+msgstr "已测量"
+
+#: ops.py:68
+msgid "No UV map or no faces to measure"
+msgstr "没有 UV 贴图或没有可测量的面"
+
+#: ui.py:23
+msgid "Not measured"
+msgstr "未测量"
+
+#: props.py:31
+msgid "Pattern"
+msgstr "图案"
+
+#: props.py:29
+msgid "Per Island"
+msgstr "按孤岛"
+
+#: props.py:11
+msgid "Pixels per centimeter"
+msgstr "像素/厘米"
+
+#: props.py:13
+msgid "Pixels per foot"
+msgstr "像素/英尺"
+
+#: props.py:12
+msgid "Pixels per inch"
+msgstr "像素/英寸"
+
+#: props.py:10
+msgid "Pixels per meter"
+msgstr "像素/米"
+
+#: props.py:29
+msgid "Scale every UV island to the target on its own. Off keeps islands in proportion"
+msgstr "单独将每个 UV 孤岛缩放到目标值。关闭则保持孤岛间比例"
+
+#: props.py:27
+msgid "Selected Faces Only"
+msgstr "仅选中的面"
+
+#: ops.py:359
+msgid "Set a target density first"
+msgstr "请先设置目标密度"
+
+#: props.py:21
+msgid "Size"
+msgstr "大小"
+
+#: props.py:23
+msgid "Target"
+msgstr "目标"
+
+#: props.py:23
+msgid "Target density in the chosen unit"
+msgstr "以所选单位表示的目标密度"
+
+#: ops.py:116
+msgid "Target density must be above zero"
+msgstr "目标密度必须大于零"
+
+#: ui.py:55
+#: ui.py:77
+msgid "Texel Density"
+msgstr "纹素密度"
+
+#: ui.py:59
+#: ui.py:70
+msgid "Texel Kit"
+msgstr "Texel Kit"
+
+#: props.py:19
+msgid "Texture"
+msgstr "纹理"
+
+#: props.py:19
+msgid "Texture resolution the density is measured against"
+msgstr "用于计算密度的纹理分辨率"
+
+#: props.py:35
+msgid "Tolerance"
+msgstr "容差"
+
+#: props.py:32
+msgid "UV Grid"
+msgstr "UV 网格"
+
+#: props.py:22
+msgid "Unit"
+msgstr "单位"
+
+#: props.py:11
+msgid "px/cm"
+msgstr "px/cm"
+
+#: props.py:13
+msgid "px/ft"
+msgstr "px/ft"
+
+#: props.py:12
+msgid "px/in"
+msgstr "px/in"
+
+#: props.py:10
+msgid "px/m"
+msgstr "px/m"
+
+#: ui.py:46
+msgctxt "Operator"
+msgid "Checker"
+msgstr "棋盘格"
+
+#: ops.py:384
+msgctxt "Operator"
+msgid "Clear Heatmap"
+msgstr "清除热力图"
+
+#: ops.py:348
+msgctxt "Operator"
+msgid "Color faces by density: blue is too low, green is on target, red is too high"
+msgstr "按密度为面上色：蓝色偏低，绿色达标，红色偏高"
+
+#: ops.py:54
+msgctxt "Operator"
+msgid "Measure"
+msgstr "测量"
+
+#: ops.py:55
+msgctxt "Operator"
+msgid "Measure the texel density of the active object, or its selected faces in Edit Mode"
+msgstr "测量当前物体的纹素密度，在编辑模式下测量其选中的面"
+
+#: ops.py:78
+msgctxt "Operator"
+msgid "Pick From Active"
+msgstr "从当前物体获取"
+
+#: ops.py:147
+msgctxt "Operator"
+msgid "Preset"
+msgstr "预设"
+
+#: ui.py:46
+msgctxt "Operator"
+msgid "Remove Checker"
+msgstr "移除棋盘格"
+
+#: ops.py:385
+msgctxt "Operator"
+msgid "Remove the heatmap colors and restore the viewport color mode"
+msgstr "移除热力图颜色并恢复视图颜色模式"
+
+#: ops.py:102
+msgctxt "Operator"
+msgid "Scale UVs of the selected objects (or selected faces in Edit Mode) to the target density"
+msgstr "将选中物体（或编辑模式下选中的面）的 UV 缩放到目标密度"
+
+#: ops.py:101
+msgctxt "Operator"
+msgid "Set Density"
+msgstr "设置密度"
+
+#: ops.py:148
+msgctxt "Operator"
+msgid "Set the target density"
+msgstr "设置目标密度"
+
+#: ops.py:347
+msgctxt "Operator"
+msgid "Show Heatmap"
+msgstr "显示热力图"
+
+#: ops.py:206
+msgctxt "Operator"
+msgid "Swap materials on the selected objects for a checker texture, or put the originals back"
+msgstr "将选中物体的材质替换为棋盘格纹理，或恢复原始材质"
+
+#: ops.py:205
+msgctxt "Operator"
+msgid "Toggle Checker"
+msgstr "切换棋盘格"
+
+#: ops.py:79
+msgctxt "Operator"
+msgid "Use the active object's current density as the target"
+msgstr "使用当前物体的现有密度作为目标"

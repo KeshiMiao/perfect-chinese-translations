@@ -1,0 +1,622 @@
+# perfect-chinese: 1
+# id: mat_baker
+# kind: addon
+# module: bl_ext.blender_org.mat_baker
+# name: Mat-Baker
+# name_zh: 材质烘焙器
+# translator: KeshiMiao
+# category: Bake
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:2258
+msgid "* fixed value, no texture"
+msgstr "* 固定值，无纹理"
+
+#: __init__.py:1100
+msgid "1024 x 1024 px"
+msgstr "1024 x 1024 像素"
+
+#: __init__.py:1100
+msgid "1K"
+msgstr "1K"
+
+#: __init__.py:1101
+msgid "2048 x 2048 px"
+msgstr "2048 x 2048 像素"
+
+#: __init__.py:1098
+msgid "256 x 256 px"
+msgstr "256 x 256 像素"
+
+#: __init__.py:1101
+msgid "2K"
+msgstr "2K"
+
+#: __init__.py:1102
+msgid "4096 x 4096 px"
+msgstr "4096 x 4096 像素"
+
+#: __init__.py:1102
+msgid "4K"
+msgstr "4K"
+
+#: __init__.py:1099
+msgid "512 x 512 px"
+msgstr "512 x 512 像素"
+
+#: __init__.py:1103
+msgid "8192 x 8192 px (needs a lot of RAM)"
+msgstr "8192 x 8192 像素（需要大量内存）"
+
+#: __init__.py:1103
+msgid "8K"
+msgstr "8K"
+
+#: __init__.py:2408
+msgid "A flat plane has no occluders:"
+msgstr "平面没有遮挡物："
+
+#: __init__.py:2462
+msgid "AO / Curvature / Height"
+msgstr "AO / 曲率 / 高度"
+
+#: __init__.py:1167
+msgid "AO Method"
+msgstr "AO 方法"
+
+#: __init__.py:1179
+msgid "AO Radius"
+msgstr "AO 半径"
+
+#: __init__.py:1175
+msgid "AO Relief"
+msgstr "AO 浮雕"
+
+#: __init__.py:1183
+msgid "AO Strength"
+msgstr "AO 强度"
+
+#: __init__.py:1061
+msgid "Active Object"
+msgstr "活动物体"
+
+#: __init__.py:1035
+msgid "Advanced"
+msgstr "高级"
+
+#: __init__.py:1044
+msgid "Albedo + Normal + AO + Metallic-Smoothness packed"
+msgstr "反照率 + 法线 + AO + 金属度-光滑度 打包"
+
+#: __init__.py:1045
+msgid "Albedo + Normal + Mask map packed"
+msgstr "反照率 + 法线 + 遮罩贴图 打包"
+
+#: __init__.py:1138
+msgid "Albedo instead of BaseColor"
+msgstr "用反照率代替基础色"
+
+#: __init__.py:1047
+msgid "All maps, including curvature, plus ORM"
+msgstr "所有贴图（含曲率）加 ORM"
+
+#: __init__.py:77
+#: __init__.py:2398
+msgid "Ambient Occlusion"
+msgstr "环境光遮蔽"
+
+#: __init__.py:1170
+msgid "Approximate AO from the height map. Best for flat tileable textures; needs a Displacement or Bump node"
+msgstr "从高度贴图近似 AO。最适合平面可平铺纹理；需要位移或凹凸节点"
+
+#: __init__.py:2464
+msgid "Bake Settings"
+msgstr "烘焙设置"
+
+#: __init__.py:1067
+msgid "Bake Target"
+msgstr "烘焙目标"
+
+#: __init__.py:1070
+msgid "Bake each material onto a temporary plane with a 0-1 UV map. Best for tileable texture packs"
+msgstr "将每个材质烘焙到带 0-1 UV 贴图的临时平面。最适合可平铺纹理包"
+
+#: __init__.py:1072
+msgid "Bake every material of the object into ONE set of images using the object's UV map. For models with many materials; the UV layout must not overlap"
+msgstr "使用物体的 UV 贴图，将物体的每个材质烘焙到同一组图像中。适用于多材质模型；UV 布局不得重叠"
+
+#: __init__.py:2357
+msgid "Bake target"
+msgstr "烘焙目标"
+
+#: __init__.py:77
+msgid "Base Color"
+msgstr "基础色"
+
+#: __init__.py:1043
+msgid "BaseColor + Normal (DirectX) + ORM packed"
+msgstr "基础色 + 法线（DirectX）+ ORM 打包"
+
+#: __init__.py:1046
+msgid "BaseColor + Normal + ORM packed"
+msgstr "基础色 + 法线 + ORM 打包"
+
+#: __init__.py:1137
+msgid "BaseColor, Normal, Roughness, Metallic, Height, AO, ..."
+msgstr "基础色、法线、粗糙度、金属度、高度、AO、..."
+
+#: __init__.py:1116
+msgid "Bit Depth"
+msgstr "位深度"
+
+#: __init__.py:1128
+msgid "Blender, Unity, glTF, Godot"
+msgstr "Blender, Unity, glTF, Godot"
+
+#: __init__.py:77
+msgid "Curvature"
+msgstr "曲率"
+
+#: __init__.py:2411
+msgid "Curvature (from height)"
+msgstr "曲率（来自高度）"
+
+#: __init__.py:1186
+msgid "Curvature Radius"
+msgstr "曲率半径"
+
+#: __init__.py:1190
+msgid "Curvature Strength"
+msgstr "曲率强度"
+
+#: __init__.py:1048
+msgid "Custom"
+msgstr "自定义"
+
+#: __init__.py:1184
+msgid "Cycles AO Samples"
+msgstr "Cycles AO 采样数"
+
+#: __init__.py:1171
+msgid "Cycles Bake"
+msgstr "Cycles 烘焙"
+
+#: __init__.py:1196
+msgid "Cycles samples per pixel (anti-aliasing of the baked maps)"
+msgstr "Cycles 每像素采样数（烘焙贴图的抗锯齿）"
+
+#: __init__.py:1129
+msgid "DirectX (-Y)"
+msgstr "DirectX (-Y)"
+
+#: __init__.py:1158
+msgid "Do not write a packed texture"
+msgstr "不写入打包纹理"
+
+#: __init__.py:1121
+msgid "EXR only (PNG/TIFF fall back to 16-bit)"
+msgstr "仅 EXR（PNG/TIFF 回退到 16 位）"
+
+#: __init__.py:77
+msgid "Emission"
+msgstr "自发光"
+
+#: __init__.py:2287
+msgid "Empty slots are baked as default grey"
+msgstr "空插槽烘焙为默认灰色"
+
+#: __init__.py:1047
+msgid "Everything"
+msgstr "全部"
+
+#: __init__.py:1063
+msgid "Everything in the File"
+msgstr "文件中的全部内容"
+
+#: __init__.py:1058
+msgid "Export"
+msgstr "导出"
+
+#: __init__.py:2337
+msgid "Exporting ..."
+msgstr "正在导出 ..."
+
+#: __init__.py:1186
+msgid "Feature size for curvature, as a fraction of the tile width (small = fine edges)"
+msgstr "曲率特征尺寸，为平铺宽度的比例（小 = 细边缘）"
+
+#: __init__.py:1070
+msgid "Flat Plane (one set per material)"
+msgstr "平面（每个材质一组）"
+
+#: __init__.py:1062
+msgid "Flat Plane: every material on the selected objects. Whole Object: each selected object"
+msgstr "平面：所选物体上的每个材质。整个物体：每个所选物体"
+
+#: __init__.py:1063
+msgid "Flat Plane: every node-based material. Whole Object: every mesh object in the scene"
+msgstr "平面：每个基于节点的材质。整个物体：场景中的每个网格物体"
+
+#: __init__.py:1061
+msgid "Flat Plane: the active object's active material. Whole Object: the active object"
+msgstr "平面：活动物体的活动材质。整个物体：活动物体"
+
+#: __init__.py:1112
+msgid "Float, linear, untouched data"
+msgstr "浮点、线性、未改动数据"
+
+#: __init__.py:1054
+msgid "Folder"
+msgstr "文件夹"
+
+#: __init__.py:1107
+msgid "Format"
+msgstr "格式"
+
+#: __init__.py:1170
+msgid "From Height"
+msgstr "从高度"
+
+#: __init__.py:1042
+msgid "Generic / Blender"
+msgstr "通用 / Blender"
+
+#: __init__.py:77
+msgid "Height"
+msgstr "高度"
+
+#: __init__.py:1179
+msgid "How far occluders are searched for, as a fraction of the tile width"
+msgstr "遮挡物的搜索距离，以图块宽度的比例表示"
+
+#: __init__.py:1175
+msgid "How tall the height map is, as a fraction of the tile width (bigger = deeper AO)"
+msgstr "高度图的高度，以图块宽度的比例表示（越大 = AO 越深）"
+
+#: __init__.py:1206
+msgid "Keep Images in Blender"
+msgstr "在 Blender 中保留图像"
+
+#: __init__.py:1206
+msgid "Keep the baked images in this .blend instead of deleting them after saving"
+msgstr "将烘焙后的图像保留在此 .blend 中，而不是在保存后删除"
+
+#: __init__.py:2461
+msgid "Maps & Packing"
+msgstr "贴图与打包"
+
+#: __init__.py:1200
+msgid "Margin"
+msgstr "边距"
+
+#: __init__.py:2460
+msgid "Mat-Baker"
+msgstr "Mat-Baker"
+
+#: __init__.py:2211
+msgid "Mat-Baker works fully offline. It only writes to the folder you choose."
+msgstr "Mat-Baker 完全离线运行，只会写入您选择的文件夹。"
+
+#: __init__.py:77
+msgid "Metallic"
+msgstr "金属度"
+
+#: __init__.py:2400
+msgid "Method"
+msgstr "方法"
+
+#: __init__.py:1031
+msgid "Mode"
+msgstr "模式"
+
+#: __init__.py:1138
+msgid "Name_Albedo"
+msgstr "Name_Albedo"
+
+#: __init__.py:1139
+msgid "Name_BC / _N / _R"
+msgstr "Name_BC / _N / _R"
+
+#: __init__.py:1137
+msgid "Name_BaseColor"
+msgstr "Name_BaseColor"
+
+#: __init__.py:1134
+msgid "Naming"
+msgstr "命名"
+
+#: __init__.py:2153
+msgid "No export recorded yet in this session."
+msgstr "本次会话尚未记录导出。"
+
+#: __init__.py:2245
+msgid "No top-level Principled BSDF"
+msgstr "没有顶层 Principled BSDF"
+
+#: __init__.py:1158
+msgid "None"
+msgstr "无"
+
+#: __init__.py:77
+msgid "Normal"
+msgstr "法线"
+
+#: __init__.py:1125
+msgid "Normal Y"
+msgstr "法线 Y"
+
+#: __init__.py:1191
+msgid "Normalize Height"
+msgstr "归一化高度"
+
+#: __init__.py:2086
+msgid "Nothing was exported (see the system console for details)."
+msgstr "未导出任何内容（详见系统控制台）。"
+
+#: __init__.py:1159
+msgid "ORM"
+msgstr "ORM"
+
+#: __init__.py:77
+msgid "Opacity"
+msgstr "不透明度"
+
+#: __init__.py:1112
+msgid "OpenEXR"
+msgstr "OpenEXR"
+
+#: __init__.py:1128
+msgid "OpenGL (+Y)"
+msgstr "OpenGL (+Y)"
+
+#: __init__.py:2463
+msgid "Output"
+msgstr "输出"
+
+#: __init__.py:2354
+msgid "Output folder"
+msgstr "输出文件夹"
+
+#: __init__.py:1110
+msgid "PNG"
+msgstr "PNG"
+
+#: __init__.py:1120
+msgid "PNG/TIFF: 16-bit integer. EXR: half float"
+msgstr "PNG/TIFF：16 位整数。EXR：半浮点"
+
+#: __init__.py:1155
+msgid "Packed Texture"
+msgstr "打包纹理"
+
+#: __init__.py:2387
+msgid "Packed texture"
+msgstr "打包纹理"
+
+#: __init__.py:1089
+msgid "Plane Size"
+msgstr "平面尺寸"
+
+#: __init__.py:2031
+msgid "Preparing ..."
+msgstr "正在准备……"
+
+#: __init__.py:1039
+#: __init__.py:2350
+msgid "Preset"
+msgstr "预设"
+
+#: __init__.py:1034
+msgid "Preset + resolution + one button"
+msgstr "预设 + 分辨率 + 一键操作"
+
+#: __init__.py:2344
+msgid "Press Esc to cancel"
+msgstr "按 Esc 取消"
+
+#: __init__.py:2198
+msgid "Print progress details to the system console (useful when reporting a problem)"
+msgstr "将进度详细信息打印到系统控制台（报告问题时很有用）"
+
+#: __init__.py:2403
+#: __init__.py:2413
+msgid "Radius"
+msgstr "半径"
+
+#: __init__.py:1171
+msgid "Real ray-traced AO using the World's Ambient Occlusion settings. Needs real geometry (use 'Whole Object')"
+msgstr "使用世界环境光遮蔽设置的真实光线追踪 AO，需要真实几何体（请使用“整个物体”）"
+
+#: __init__.py:2402
+msgid "Relief"
+msgstr "浮雕"
+
+#: __init__.py:1095
+#: __init__.py:2352
+msgid "Resolution"
+msgstr "分辨率"
+
+#: __init__.py:77
+msgid "Roughness"
+msgstr "粗糙度"
+
+#: __init__.py:1196
+#: __init__.py:2406
+msgid "Samples"
+msgstr "采样"
+
+#: __init__.py:2277
+msgid "Select a mesh object"
+msgstr "选择一个网格物体"
+
+#: __init__.py:2319
+msgid "Select an object that has a material"
+msgstr "选择带有材质的物体"
+
+#: __init__.py:1062
+msgid "Selected Objects"
+msgstr "选定物体"
+
+#: __init__.py:1042
+msgid "Separate maps, OpenGL normals"
+msgstr "分离贴图，OpenGL 法线"
+
+#: __init__.py:1139
+msgid "Short Unreal-style suffixes"
+msgstr "简短的 Unreal 风格后缀"
+
+#: __init__.py:1035
+msgid "Show every setting"
+msgstr "显示所有设置"
+
+#: __init__.py:1034
+msgid "Simple"
+msgstr "简单"
+
+#: __init__.py:1089
+msgid "Size of the temporary plane. 2 m matches Blender's default plane, so materials that use Object coordinates look the same as in your viewport"
+msgstr "临时平面的尺寸。2 米与 Blender 默认平面一致，因此使用物体坐标的材质看起来与视图中相同"
+
+#: __init__.py:2404
+#: __init__.py:2414
+msgid "Strength"
+msgstr "强度"
+
+#: __init__.py:1191
+msgid "Stretch the height map to use the full 0-1 range (the original range is stored in the JSON manifest)"
+msgstr "拉伸高度图以使用完整的 0-1 范围（原始范围存储在 JSON 清单中）"
+
+#: __init__.py:1201
+msgid "Subfolder per Material"
+msgstr "每种材质一个子文件夹"
+
+#: __init__.py:1111
+msgid "TIFF"
+msgstr "TIFF"
+
+#: __init__.py:1078
+msgid "The model uses UV tiles beyond the 0-1 square (UDIM). Every tile is baked at the chosen resolution and saved as its own file: Name_BaseColor.1001.png, .1002.png, ... AO is baked with Cycles; Curvature and Normalize Height are not available"
+msgstr "模型使用了超出 0-1 范围的 UV 分块（UDIM）。每个分块都按所选分辨率烘焙，并保存为独立文件：Name_BaseColor.1001.png、.1002.png……AO 使用 Cycles 烘焙；曲率和归一化高度不可用"
+
+#: __init__.py:1078
+msgid "UDIM Tiles"
+msgstr "UDIM 分块"
+
+#: __init__.py:2297
+msgid "UDIM: AO via Cycles, no Curvature"
+msgstr "UDIM：AO 通过 Cycles，无曲率"
+
+#: __init__.py:1084
+#: __init__.py:2362
+msgid "UV Map"
+msgstr "UV 贴图"
+
+#: __init__.py:1084
+msgid "UV map used by Whole Object baking (empty = the object's active UV map). It must be one non-overlapping layout shared by all materials"
+msgstr "整体物体烘焙所用的 UV 贴图（留空 = 物体的活动 UV 贴图）。它必须是所有材质共用的一个不重叠布局"
+
+#: __init__.py:1045
+msgid "Unity HDRP"
+msgstr "Unity HDRP"
+
+#: __init__.py:1160
+msgid "Unity HDRP Mask"
+msgstr "Unity HDRP 遮罩"
+
+#: __init__.py:1161
+msgid "Unity Metallic-Smoothness"
+msgstr "Unity 金属度-光滑度"
+
+#: __init__.py:1044
+msgid "Unity URP / Built-in"
+msgstr "Unity URP / 内置管线"
+
+#: __init__.py:1043
+msgid "Unreal Engine"
+msgstr "Unreal Engine"
+
+#: __init__.py:1129
+msgid "Unreal Engine, 3ds Max"
+msgstr "Unreal Engine、3ds Max"
+
+#: __init__.py:2198
+msgid "Verbose Console Output"
+msgstr "详细控制台输出"
+
+#: __init__.py:1054
+msgid "Where the texture pack is written ('//' is relative to the .blend file)"
+msgstr "纹理包写入位置（“//” 相对于 .blend 文件）"
+
+#: __init__.py:1072
+msgid "Whole Object (all materials in one set)"
+msgstr "整体物体（所有材质合并为一套）"
+
+#: __init__.py:1202
+msgid "Write <material>_pbr.json with resolution, normal convention, file names and height info"
+msgstr "写入 <material>_pbr.json，包含分辨率、法线约定、文件名和高度信息"
+
+#: __init__.py:1202
+msgid "Write JSON Manifest"
+msgstr "写入 JSON 清单"
+
+#: __init__.py:1048
+msgid "You changed the maps/packing/normal settings"
+msgstr "你更改了贴图/打包/法线设置"
+
+#: __init__.py:1046
+msgid "glTF / Godot / Three.js"
+msgstr "glTF / Godot / Three.js"
+
+#: __init__.py:2409
+msgid "use \"Whole Object\" in Bake Settings."
+msgstr "在烘焙设置中使用“整体物体”。"
+
+#: __init__.py:1969
+msgctxt "Operator"
+msgid "Bake the procedural material(s) into a PBR texture pack on disk (Esc cancels)"
+msgstr "将程序化材质烘焙为磁盘上的 PBR 纹理包（Esc 取消）"
+
+#: __init__.py:2143
+msgctxt "Operator"
+msgid "Build a Principled material from the last exported files (assign it to an object to check the result)"
+msgstr "根据上次导出的文件构建 Principled 材质（将其指定给物体以检查结果）"
+
+#: __init__.py:2142
+msgctxt "Operator"
+msgid "Create Preview Material"
+msgstr "创建预览材质"
+
+#: __init__.py:2209
+msgctxt "Operator"
+msgid "Documentation"
+msgstr "文档"
+
+#: __init__.py:1968
+msgctxt "Operator"
+msgid "Export PBR Texture Pack"
+msgstr "导出 PBR 纹理包"
+
+#: __init__.py:2369
+msgctxt "Operator"
+msgid "Export Texture Pack"
+msgstr "导出纹理包"
+
+#: __init__.py:2375
+msgctxt "Operator"
+msgid "Open Folder"
+msgstr "打开文件夹"
+
+#: __init__.py:2376
+msgctxt "Operator"
+msgid "Preview Material"
+msgstr "预览材质"
+
+#: __init__.py:2210
+msgctxt "Operator"
+msgid "Report an Issue"
+msgstr "报告问题"

@@ -1,0 +1,547 @@
+# perfect-chinese: 1
+# id: only_blends_mixer
+# kind: addon
+# module: bl_ext.blender_org.only_blends_mixer
+# name: OnlyBlends.Mixer
+# name_zh: 声音混合器
+# translator: KeshiMiao
+# category: Node
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: nodes/sample_nodes/edit_node.py:26
+msgid "ADSR"
+msgstr "ADSR"
+
+#: nodes/sample_nodes/edit_node.py:30
+msgid "Accumulate"
+msgstr "累加"
+
+#: nodes/sample_nodes/edit_node.py:30
+msgid "Accumulates a sound by summing over positive input differences thus generating a monotonic sigal. If additivity is set to true negative input differences get added too, but positive ones with a factor of two. Note that with additivity the signal is not monotonic anymore."
+msgstr "通过对正的输入差值求和来累加声音，从而生成单调信号。若开启可加性，负的输入差值也会被加入，但正的输入差值会乘以二。注意启用可加性后信号不再是单调的。"
+
+#: obc_custom_nodes/node_editor/operators.py:291
+#: obc_custom_nodes/nodes/util_nodes/math_node.py:10
+msgid "Add"
+msgstr "相加"
+
+#: nodes/sample_nodes/edit_node.py:28
+msgid "Adds a more complex delay to Sample. Synth Buttons"
+msgstr "为 Sample 添加更复杂的延迟。合成器按钮"
+
+#: nodes/sample_nodes/edit_node.py:22
+msgid "Adds delay to Sample"
+msgstr "为 Sample 添加延迟"
+
+#: nodes/sample_nodes/edit_node.py:26
+msgid "Attack-Decay-Sustain-Release envelopes the volume of a sound. Note: there is currently no way to trigger the release with this API."
+msgstr "攻击-衰减-延音-释音包络控制声音的音量。注意：当前此 API 无法触发释音。"
+
+#: obc_custom_nodes/sockets/basic_sockets.py:162
+#: obc_custom_nodes/sockets/basic_sockets.py:164
+msgid "Bool"
+msgstr "布尔值"
+
+#: obc_custom_nodes/nodes/basic_nodes.py:132
+msgid "Boolean"
+msgstr "布尔"
+
+#: nodes/sample_nodes/edit_node.py:45
+msgid "Cache"
+msgstr "缓存"
+
+#: nodes/sample_nodes/edit_node.py:45
+msgid "Caches a sound into RAM."
+msgstr "将声音缓存到内存。"
+
+#: nodes/sample_nodes/edit_node.py:14
+msgid "Changes the pitch of a sound with a specific factor."
+msgstr "以特定系数改变声音的音高。"
+
+#: nodes/sample_nodes/edit_node.py:13
+msgid "Changes the volume of a sound."
+msgstr "改变声音的音量。"
+
+#: obc_custom_nodes/nodes/util_nodes/compare_node.py:8
+msgid "Compare / Bool"
+msgstr "比较 / 布尔"
+
+#: obc_custom_nodes/node_editor/menus.py:9
+msgid "Constants"
+msgstr "常量"
+
+#: nodes/sample_nodes/sample_to_sound_node.py:24
+msgid "Container"
+msgstr "容器"
+
+#: nodes/sample_nodes/oscillator_node.py:15
+msgid "Creates a sawtooth sound which plays a sawtooth wave."
+msgstr "创建播放锯齿波的锯齿波声音。"
+
+#: nodes/sample_nodes/edit_node.py:35
+msgid "Creates a second order highpass filter based on the transfer function"
+msgstr "基于传递函数创建二阶高通滤波。"
+
+#: nodes/sample_nodes/edit_node.py:36
+msgid "Creates a second order lowpass filter based on the transfer function"
+msgstr "基于传递函数创建二阶低通滤波。"
+
+#: nodes/sample_nodes/oscillator_node.py:16
+msgid "Creates a silence sound which plays simple silence."
+msgstr "创建播放简单静音的静音声音。"
+
+#: nodes/sample_nodes/oscillator_node.py:17
+msgid "Creates a sine sound which plays a sine wave."
+msgstr "创建播放正弦波的正弦声音。"
+
+#: nodes/sample_nodes/oscillator_node.py:18
+msgid "Creates a square sound which plays a square wave."
+msgstr "创建播放方波的方波声音。"
+
+#: nodes/sample_nodes/oscillator_node.py:19
+msgid "Creates a triangle sound which plays a triangle wave."
+msgstr "创建播放三角波的三角波声音。"
+
+#: nodes/sample_nodes/edit_node.py:177
+#: nodes/sample_nodes/oscillator_node.py:76
+msgid "Debug Infos:"
+msgstr "调试信息："
+
+#: nodes/sample_nodes/edit_node.py:22
+msgid "Delay"
+msgstr "延迟"
+
+#: obc_custom_nodes/nodes/util_nodes/math_node.py:13
+msgid "Divide"
+msgstr "相除"
+
+#: obc_custom_nodes/nodes/object_nodes/duplicate_object_node.py:22
+msgid "Duplicate Object"
+msgstr "复制物体"
+
+#: nodes/sample_nodes/edit_node.py:10
+msgid "Edit Sample"
+msgstr "编辑 Sample"
+
+#: nodes/sample_nodes/edit_node.py:28
+msgid "Envelope"
+msgstr "包络"
+
+#: obc_custom_nodes/nodes/util_nodes/math_node.py:16
+msgid "Equal"
+msgstr "等于"
+
+#: nodes/sample_nodes/edit_node.py:23
+msgid "Fadein"
+msgstr "淡入"
+
+#: nodes/sample_nodes/edit_node.py:24
+msgid "Fadeout"
+msgstr "淡出"
+
+#: nodes/sample_nodes/edit_node.py:24
+msgid "Fades a Sample in by lowering the volume linearly in the given time interval."
+msgstr "在给定时间区间内线性降低音量，使 Sample 淡入。"
+
+#: nodes/sample_nodes/edit_node.py:23
+msgid "Fades a Sample in by raising the volume linearly in the given time interval"
+msgstr "在给定时间区间内线性提高音量，使 Sample 淡入。"
+
+#: obc_custom_nodes/sockets/basic_sockets.py:117
+#: obc_custom_nodes/sockets/basic_sockets.py:119
+msgid "Float"
+msgstr "浮点值"
+
+#: obc_custom_nodes/node_editor/menus.py:56
+msgid "Geometry Nodes"
+msgstr "几何节点"
+
+#: obc_custom_nodes/nodes/util_nodes/math_node.py:14
+msgid "Greater Than"
+msgstr "大于"
+
+#: obc_custom_nodes/node_editor/menus.py:32
+#: obc_custom_nodes/node_editor/operators.py:381
+msgid "Group"
+msgstr "组"
+
+#: obc_custom_nodes/node_editor/operators.py:380
+msgid "Group Sockets"
+msgstr "组插口"
+
+#: nodes/sample_nodes/edit_node.py:35
+msgid "Highpass"
+msgstr "高通"
+
+#: obc_custom_nodes/sockets/import_socket.py:10
+msgid "Import File"
+msgstr "导入文件"
+
+#: nodes/midi_nodes/import_midi_node.py:41
+msgid "Import MIDI"
+msgstr "导入 MIDI"
+
+#: obc_custom_nodes/sockets/import_socket.py:11
+msgid "Import Path"
+msgstr "导入路径"
+
+#: nodes/sample_nodes/import_sound_node.py:40
+msgid "Import Sound"
+msgstr "导入声音"
+
+#: obc_custom_nodes/node_editor/menus.py:22
+#: obc_custom_nodes/node_editor/operators.py:303
+msgid "Input"
+msgstr "输入"
+
+#: obc_custom_nodes/nodes/basic_nodes.py:112
+#: obc_custom_nodes/sockets/basic_sockets.py:130
+msgid "Integer"
+msgstr "整数"
+
+#: nodes/sample_nodes/edit_node.py:18
+msgid "Join"
+msgstr "合并"
+
+#: nodes/sample_nodes/edit_node.py:181
+#: nodes/sample_nodes/object_to_sample_node.py:83
+msgid "Length:"
+msgstr "长度："
+
+#: obc_custom_nodes/nodes/util_nodes/math_node.py:15
+msgid "Less Than"
+msgstr "小于"
+
+#: nodes/sample_nodes/edit_node.py:38
+msgid "Limit"
+msgstr "限制"
+
+#: nodes/sample_nodes/edit_node.py:38
+msgid "Limits a sample within a specific start and end time."
+msgstr "将 Sample 限制在特定的开始和结束时间之内。"
+
+#: nodes/sample_nodes/edit_node.py:39
+msgid "Loop"
+msgstr "循环"
+
+#: nodes/sample_nodes/edit_node.py:39
+msgid "Loops a Sample"
+msgstr "循环播放 Sample"
+
+#: nodes/sample_nodes/edit_node.py:36
+msgid "Lowpass"
+msgstr "低通"
+
+#: sockets/midi_socket.py:8
+#: sockets/midi_socket.py:9
+msgid "MIDI"
+msgstr "MIDI"
+
+#: nodes/midi_nodes/midi_track.py:77
+msgid "MIDI to Track Object"
+msgstr "将 MIDI 转为轨道物体"
+
+#: nodes/sample_nodes/edit_node.py:15
+msgid "Makes a threshold wave out of an audio wave by setting all samples with a amplitude >= threshold to 1, all <= -threshold to -1 and all between to 0."
+msgstr "通过将振幅 >= 阈值的所有采样设为 1、所有 <= -阈值的采样设为 -1、其余设为 0，从音频波形生成阈值波形。"
+
+#: obc_custom_nodes/nodes/util_nodes/math_node.py:8
+msgid "Math"
+msgstr "数学"
+
+#: nodes/sample_nodes/object_to_sample_node.py:14
+msgid "Mesh"
+msgstr "网格"
+
+#: __init__.py:74
+msgid "Midi"
+msgstr "MIDI"
+
+#: nodes/sample_nodes/edit_node.py:19
+msgid "Mix"
+msgstr "混合"
+
+#: __init__.py:52
+msgid "Mixer"
+msgstr "混音器"
+
+#: nodes/sample_nodes/edit_node.py:19
+msgid "Mixes two Samples"
+msgstr "混合两个采样"
+
+#: obc_custom_nodes/nodes/object_nodes/modifier_control_node.py:118
+msgid "Modifier Control"
+msgstr "修改器控制"
+
+#: nodes/sample_nodes/edit_node.py:20
+msgid "Modulate"
+msgstr "调制"
+
+#: nodes/sample_nodes/edit_node.py:20
+msgid "Modulates two Samples"
+msgstr "调制两个采样"
+
+#: obc_custom_nodes/nodes/util_nodes/math_node.py:12
+msgid "Multiply"
+msgstr "相乘"
+
+#: obc_custom_nodes/node_editor/operators.py:423
+msgid "Name"
+msgstr "名称"
+
+#: obc_custom_nodes/node_editor/operators.py:136
+msgid "No nodes selected"
+msgstr "未选择节点"
+
+#: obc_custom_nodes/node_editor/node_tree.py:39
+#: obc_custom_nodes/nodes/group_nodes/group_node.py:85
+msgid "Node Tree"
+msgstr "节点树"
+
+#: nodes/midi_nodes/note_node.py:8
+#: nodes/midi_nodes/note_node.py:13
+msgid "Note"
+msgstr "音符"
+
+#: obc_custom_nodes/nodes/basic_nodes.py:93
+#: obc_custom_nodes/sockets/basic_sockets.py:96
+msgid "Object"
+msgstr "物体"
+
+#: nodes/sample_nodes/object_to_sample_node.py:10
+msgid "Object To Sample"
+msgstr "物体转采样"
+
+#: nodes/sample_nodes/edit_node.py:49
+#: nodes/sample_nodes/object_to_sample_node.py:16
+msgid "Operation"
+msgstr "操作"
+
+#: nodes/sample_nodes/oscillator_node.py:13
+msgid "Oscillator"
+msgstr "振荡器"
+
+#: obc_custom_nodes/node_editor/operators.py:304
+msgid "Output"
+msgstr "输出"
+
+#: nodes/sample_nodes/edit_node.py:41
+msgid "Pingpong"
+msgstr "乒乓"
+
+#: nodes/sample_nodes/edit_node.py:14
+msgid "Pitch"
+msgstr "音高"
+
+#: nodes/sample_nodes/edit_node.py:41
+msgid "Plays a sound forward and then backward. This is like joining a sound with its reverse."
+msgstr "先正向播放声音再反向播放。这相当于把声音与它的反向版本拼接起来。"
+
+#: nodes/sample_nodes/edit_node.py:43
+msgid "Plays a sound reversed"
+msgstr "反向播放声音"
+
+#: nodes/sample_nodes/edit_node.py:18
+msgid "Plays two Samples in sequence"
+msgstr "依次播放两个采样"
+
+#: nodes/sample_nodes/object_to_sample_node.py:13
+msgid "Point Cloud"
+msgstr "点云"
+
+#: obc_custom_nodes/node_editor/menus.py:43
+msgid "Realtime"
+msgstr "实时"
+
+#: obc_custom_nodes/nodes/util_nodes/realtime_value_node.py:8
+msgid "Realtime Value"
+msgstr "实时值"
+
+#: nodes/sample_nodes/edit_node.py:47
+msgid "Resample"
+msgstr "重采样"
+
+#: nodes/sample_nodes/edit_node.py:47
+msgid "Resamples the sound."
+msgstr "对声音进行重采样。"
+
+#: nodes/sample_nodes/edit_node.py:43
+msgid "Reverse"
+msgstr "反向"
+
+#: __init__.py:28
+#: sockets/sample_socket.py:15
+msgid "Sample"
+msgstr "采样"
+
+#: nodes/geometry/sample_to_object.py:19
+msgid "Sample To Object"
+msgstr "采样转物体"
+
+#: nodes/sample_nodes/sample_to_sound_node.py:21
+msgid "Sample To Sound"
+msgstr "采样转声音"
+
+#: nodes/sample_nodes/oscillator_node.py:15
+msgid "Sawtooth"
+msgstr "锯齿波"
+
+#: obc_custom_nodes/nodes/util_nodes/scene_info_node.py:14
+msgid "Scene Info"
+msgstr "场景信息"
+
+#: nodes/sample_nodes/oscillator_node.py:16
+msgid "Silence"
+msgstr "静音"
+
+#: nodes/sample_nodes/oscillator_node.py:17
+msgid "Sine"
+msgstr "正弦波"
+
+#: obc_custom_nodes/nodes/util_nodes/compare_node.py:17
+#: obc_custom_nodes/nodes/util_nodes/realtime_value_node.py:11
+msgid "Socket Type"
+msgstr "插槽类型"
+
+#: obc_custom_nodes/sockets/basic_sockets.py:72
+msgid "Socket Type CNT"
+msgstr "插槽类型 CNT"
+
+#: __init__.py:42
+#: sockets/sample_socket.py:31
+msgid "Sound"
+msgstr "声音"
+
+#: nodes/sample_nodes/sound_to_sample_node.py:10
+msgid "Sound To Sample"
+msgstr "声音转采样"
+
+#: __init__.py:64
+#: sockets/sample_socket.py:46
+msgid "Speaker"
+msgstr "扬声器"
+
+#: nodes/speaker_nodes/speaker_data_node.py:17
+msgid "Speaker Data"
+msgstr "扬声器数据"
+
+#: nodes/speaker_nodes/speaker_link_node.py:18
+msgid "Speaker Link"
+msgstr "扬声器链接"
+
+#: nodes/sample_nodes/oscillator_node.py:18
+msgid "Square"
+msgstr "方波"
+
+#: obc_custom_nodes/nodes/basic_nodes.py:122
+#: obc_custom_nodes/sockets/basic_sockets.py:143
+msgid "String"
+msgstr "字符串"
+
+#: obc_custom_nodes/nodes/util_nodes/math_node.py:11
+msgid "Subtract"
+msgstr "相减"
+
+#: nodes/sample_nodes/edit_node.py:44
+msgid "Sum"
+msgstr "求和"
+
+#: nodes/sample_nodes/edit_node.py:44
+msgid "Sums the samples of a sound."
+msgstr "对一个声音的采样求和。"
+
+#: obc_custom_nodes/nodes/util_nodes/switch_node.py:7
+msgid "Switch"
+msgstr "切换"
+
+#: nodes/sample_nodes/edit_node.py:15
+msgid "Threshold"
+msgstr "阈值"
+
+#: nodes/sample_nodes/track_sample_node.py:97
+msgid "Track Sample"
+msgstr "跟踪采样"
+
+#: nodes/sample_nodes/oscillator_node.py:19
+msgid "Triangle"
+msgstr "三角波"
+
+#: obc_custom_nodes/node_editor/operators.py:428
+msgid "Type"
+msgstr "类型"
+
+#: nodes/sample_nodes/object_to_sample_node.py:14
+msgid "Use Mesh Domain from Geometry data to create a Sample"
+msgstr "使用几何数据的网格域创建采样"
+
+#: nodes/sample_nodes/object_to_sample_node.py:13
+msgid "Use Pointcloud Domain from Geometry data to create a Sample"
+msgstr "使用几何数据的点云域创建采样"
+
+#: obc_custom_nodes/node_editor/menus.py:65
+msgid "Util"
+msgstr "实用工具"
+
+#: obc_custom_nodes/nodes/basic_nodes.py:102
+msgid "Value"
+msgstr "值"
+
+#: nodes/sample_nodes/edit_node.py:13
+msgid "Volume"
+msgstr "音量"
+
+#: nodes/sample_nodes/oscillator_node.py:21
+msgid "Waveform"
+msgstr "波形"
+
+#: obc_custom_nodes/node_editor/operators.py:300
+msgctxt "Operator"
+msgid "Add Interface Socket"
+msgstr "添加接口插槽"
+
+#: obc_custom_nodes/node_editor/operators.py:122
+msgctxt "Operator"
+msgid "Create a group from selected nodes"
+msgstr "从选定节点创建组"
+
+#: obc_custom_nodes/node_editor/operators.py:253
+msgctxt "Operator"
+msgid "Enter/Exit Group"
+msgstr "进入/退出组"
+
+#: nodes/midi_nodes/import_midi_node.py:12
+#: nodes/sample_nodes/import_sound_node.py:11
+msgctxt "Operator"
+msgid "Import"
+msgstr "导入"
+
+#: obc_custom_nodes/node_editor/operators.py:294
+msgctxt "Operator"
+msgid "Input"
+msgstr "输入"
+
+#: obc_custom_nodes/node_editor/menus.py:78
+#: obc_custom_nodes/node_editor/operators.py:121
+msgctxt "Operator"
+msgid "Make Group"
+msgstr "建立组"
+
+#: obc_custom_nodes/node_editor/operators.py:295
+msgctxt "Operator"
+msgid "Output"
+msgstr "输出"
+
+#: obc_custom_nodes/node_editor/operators.py:323
+msgctxt "Operator"
+msgid "Remove Selected Interface Item"
+msgstr "移除选中的接口项"
+
+#: obc_custom_nodes/node_editor/operators.py:254
+msgctxt "Operator"
+msgid "Toggle entering/exiting a custom group node with Tab"
+msgstr "使用 Tab 键切换进入/退出自定义组节点"

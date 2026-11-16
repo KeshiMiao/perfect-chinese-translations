@@ -1,0 +1,229 @@
+# perfect-chinese: 1
+# id: hair_net
+# kind: addon
+# module: bl_ext.blender_org.hair_net
+# name: Hair Net
+# name_zh: 毛发网格转换
+# translator: KeshiMiao
+# category: Physics
+# supported_versions: >=5.0.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: hair_net/data.py:22
+msgid "Active"
+msgstr "活动"
+
+#: hair_net/data.py:22
+msgid "Add the guide hairs to the active particle system. Requires an existing particle system to be active."
+msgstr "将引导毛发添加到活动粒子系统。需要现有粒子系统处于活动状态。"
+
+#: hair_net/ui.py:62
+msgid "Advanced Features"
+msgstr "高级功能"
+
+#: hair_net/data.py:55
+msgid "Configuration Mode"
+msgstr "配置模式"
+
+#: hair_net/data.py:25
+msgid "Copy"
+msgstr "复制"
+
+#: hair_net/hair_net.py:659
+msgid "Could not create particle. Please see the Troubleshooting section of the README"
+msgstr "无法创建粒子。请参阅 README 的疑难解答部分"
+
+#: hair_net/data.py:25
+msgid "Creates a new particle system with copied particle settings. Changes to these settings will not affect current particle systems."
+msgstr "使用复制的粒子设置创建新粒子系统。对这些设置的更改不会影响当前粒子系统。"
+
+#: hair_net/data.py:23
+msgid "Creates a new particle system with new particle settings."
+msgstr "使用新的粒子设置创建新粒子系统。"
+
+#: hair_net/data.py:24
+msgid "Creates a new particle system with settings linked to existing particle settings. Any changes made to these settings will also change all other particle systems with the same settings."
+msgstr "创建新粒子系统，其设置链接到现有粒子设置。对这些设置的任何更改也会影响所有使用相同设置的其他粒子系统。"
+
+#: hair_net/data.py:75
+msgid "Curve Resolution"
+msgstr "曲线分辨率"
+
+#: hair_net/ui.py:110
+msgid "Curve Settings:"
+msgstr "曲线设置："
+
+#: hair_net/ui.py:78
+msgid "General Settings:"
+msgstr "常规设置："
+
+#: hair_net/ui.py:135
+msgid "Guide Hairs:"
+msgstr "引导毛发："
+
+#: hair_net/ui.py:12
+#: hair_net/ui.py:16
+msgid "Hair Net"
+msgstr "Hair Net"
+
+#: hair_net/data.py:91
+msgid "Hair Net Info"
+msgstr "Hair Net 信息"
+
+#: hair_net/ui.py:119
+msgid "Hair Objects"
+msgstr "毛发物体"
+
+#: hair_net/ui.py:134
+msgid "Hair Source:"
+msgstr "毛发来源："
+
+#: hair_net/data.py:60
+msgid "Hide Proxies"
+msgstr "隐藏代理"
+
+#: hair_net/data.py:60
+msgid "Hide proxy hair after conversion into particle hair."
+msgstr "转换为粒子毛发后隐藏代理毛发。"
+
+#: hair_net/data.py:91
+msgid "In order to use the add-on, select all of the objects you want to use as hair guides, then select the object you want the hair to grow from.For more info, please see the ReadMe"
+msgstr "要使用此插件，请选择所有要用作毛发引导的物体，然后选择毛发要生长自的物体。更多信息请参阅 README"
+
+#: hair_net/data.py:24
+msgid "Link"
+msgstr "链接"
+
+#: hair_net/data.py:50
+msgid "Link Proxies To Collection"
+msgstr "将代理链接到集合"
+
+#: hair_net/data.py:83
+msgid "Max Hair Keys"
+msgstr "最大毛发关键点"
+
+#: hair_net/ui.py:49
+msgid "Name"
+msgstr "名称"
+
+#: hair_net/data.py:23
+msgid "New"
+msgstr "新建"
+
+#: hair_net/hair_net.py:117
+msgid "No valid proxy objects selected."
+msgstr "未选择有效的代理物体。"
+
+#: hair_net/data.py:30
+msgid "Particle Settings"
+msgstr "粒子设置"
+
+#: hair_net/data.py:35
+msgid "Particle Settings Name"
+msgstr "粒子设置名称"
+
+#: hair_net/ui.py:39
+msgid "Particle System Settings:"
+msgstr "粒子系统设置："
+
+#: hair_net/data.py:30
+msgid "Particle settings to be copied to the new particle system. If you want to generate new settings, leave this blank"
+msgstr "要复制到新粒子系统的粒子设置。如果要生成新设置，请留空"
+
+#: hair_net/hair_net.py:72
+msgid "Please ensure the active object has at least one face."
+msgstr "请确保活动物体至少有一个面。"
+
+#: hair_net/hair_net.py:68
+msgid "Please ensure the active object is capable of hosting a particle system."
+msgstr "请确保活动物体能够承载粒子系统。"
+
+#: hair_net/hair_net.py:65
+msgid "Please select at least one valid hair proxy object."
+msgstr "请至少选择一个有效的毛发代理物体。"
+
+#: hair_net/data.py:40
+msgid "Proxy Collection Name"
+msgstr "代理集合名称"
+
+#: hair_net/data.py:45
+msgid "Root Locator"
+msgstr "发根定位器"
+
+#: hair_net/data.py:70
+msgid "Root Select Mode"
+msgstr "发根选择模式"
+
+#: hair_net/ui.py:94
+msgid "Root Settings:"
+msgstr "发根设置："
+
+#: hair_net/data.py:65
+msgid "Root Snap Mode"
+msgstr "发根吸附模式"
+
+#: hair_net/data.py:45
+msgid "Select an object to use as an indicator for which side of the hair should be the root. This is the location of the transform in the viewport when \"bounding box center\" is selected as the objects transform pivot point. This is overridden by root select mode when it applies."
+msgstr "选择一个物体作为指示器，以确定毛发哪一端应作为发根。当物体的变换轴心点选择“边界框中心”时，这就是视口中变换的位置。适用时，该设置会被发根选择模式覆盖。"
+
+#: hair_net/data.py:40
+msgid "The name of the collection that proxies should be added to."
+msgstr "代理应添加到的集合名称。"
+
+#: hair_net/data.py:70
+msgid "This is a tool to fix reversed roots. When checked, selected vertices on hairs will be prioritized for determining roots. Seams on sheet mesh override this. Doesn't support objects with multiple meshes or curves with multiple splines."
+msgstr "这是用于修复反向发根的工具。勾选后，毛发上选中的顶点将优先用于确定发根。片状网格上的缝合线会覆盖此项。不支持包含多个网格的物体或包含多条样条的曲线。"
+
+#: hair_net/data.py:75
+msgid "This is number is the the number of hair keys HairNet will create for each control point on the curve. If it's set to 0, the resolution on each individual curve will be used. Does not affect \"Curves\" objects. See \"Curve Resolution\" and \"\"Curve\" vs \"Curves\"\" in the README for more information"
+msgstr "此数字是 HairNet 将为曲线上的每个控制点创建的毛发关键点数量。如果设为 0，则使用每条单独曲线的分辨率。不影响“Curves”物体。更多信息请参阅 README 中的“曲线分辨率”及“Curve”与“Curves”部分。"
+
+#: hair_net/data.py:83
+msgid "This prevents the tool from getting stuck in an endless iteration. Set this value to a little above what you would expec the maximum number of keys to be for any given particle"
+msgstr "这可防止工具陷入无限迭代。请将此值设为略高于任意给定粒子预期最大关键点数量的值"
+
+#: hair_net/hair_net.py:146
+msgid "What in the...? How'd you even do this?."
+msgstr "怎么回事……？你到底是怎么做到的？"
+
+#: hair_net/data.py:65
+msgid "When enabled the particle roots will be snapped to the mesh of the hair source object."
+msgstr "启用后，粒子发根将吸附到毛发来源物体的网格上。"
+
+#: hair_net/data.py:50
+#: hair_net/data.py:55
+msgid "When selected, only the initial report phase of HairNet will execute. It will output if the active object is valid, which particle system will be used, and valid and invalid proxy objects in the info box. This is useful if you have a slow computer and a lot of objects to convert."
+msgstr "选中后，HairNet 仅执行初始报告阶段。它会在信息框中输出活动物体是否有效、将使用哪个粒子系统，以及有效和无效的代理物体。如果计算机较慢且要转换大量物体，这会很有用。"
+
+#: hair_net/hair_net.py:135
+msgid "You need to have an active particle system on the object to add to an existing hair system."
+msgstr "物体上需要有活动的粒子系统，才能添加到现有毛发系统。"
+
+#: hair_net/ui.py:34
+msgctxt "Operator"
+msgid "Convert to Hair Particles"
+msgstr "转换为毛发粒子"
+
+#: hair_net/hair_net.py:23
+msgctxt "Operator"
+msgid "Hair Net"
+msgstr "Hair Net"
+
+#: hair_net/ui.py:146
+msgctxt "Operator"
+msgid "Hair Net README"
+msgstr "Hair Net README"
+
+#: hair_net/ui.py:147
+msgctxt "Operator"
+msgid "Links to Hair Net README."
+msgstr "链接到 Hair Net README。"
+
+#: hair_net/hair_net.py:25
+msgctxt "Operator"
+msgid "Turns proxy hair into particle hair."
+msgstr "将代理毛发转换为粒子毛发。"

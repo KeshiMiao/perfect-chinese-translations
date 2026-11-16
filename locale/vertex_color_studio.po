@@ -1,0 +1,270 @@
+# perfect-chinese: 1
+# id: vertex_color_studio
+# kind: addon
+# module: bl_ext.blender_org.vertex_color_studio
+# name: Vertex Color Studio
+# name_zh: 顶点颜色工作室
+# translator: KeshiMiao
+# category: Paint
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: core.py:43
+msgid "32-bit floating-point color channels"
+msgstr "32 位浮点颜色通道"
+
+#: core.py:44
+msgid "8-bit color channels with lower precision"
+msgstr "精度较低的 8 位颜色通道"
+
+#: ui.py:73
+msgid "Active Face"
+msgstr "活动面"
+
+#: ui.py:73
+msgid "Active Object"
+msgstr "活动物体"
+
+#: core.py:62
+msgid "Add matching colors to the current selection"
+msgstr "将匹配颜色添加到当前选择"
+
+#: ui.py:131
+msgid "Advanced"
+msgstr "高级"
+
+#: core.py:34
+msgid "Attribute Name"
+msgstr "属性名称"
+
+#: core.py:25
+#: ui.py:16
+msgid "Color"
+msgstr "颜色"
+
+#: core.py:44
+msgid "Color (Byte)"
+msgstr "颜色（字节）"
+
+#: core.py:43
+msgid "Color (Float)"
+msgstr "颜色（浮点）"
+
+#: core.py:66
+msgid "Color Tolerance"
+msgstr "颜色容差"
+
+#: core.py:34
+msgid "Color attribute to create or update"
+msgstr "要创建或更新的颜色属性"
+
+#: core.py:25
+msgid "Color written to every color element on the selected meshes"
+msgstr "写入所选网格上每个颜色元素的颜色"
+
+#: core.py:48
+msgid "Domain"
+msgstr "域"
+
+#: core.py:62
+msgid "Extend"
+msgstr "扩展"
+
+#: core.py:52
+msgid "Face Corner"
+msgstr "面角"
+
+#: core.py:57
+msgid "How matching colors affect the current selection"
+msgstr "匹配颜色如何影响当前选择"
+
+#: ui.py:94
+msgid "Matching Color"
+msgstr "匹配颜色"
+
+#: core.py:66
+msgid "Maximum per-channel difference allowed when matching colors"
+msgstr "匹配颜色时允许的每通道最大差异"
+
+#: core.py:48
+msgid "Mesh elements that store the applied color"
+msgstr "存储所应用颜色的网格元素"
+
+#: operators.py:277
+msgid "No matching faces found"
+msgstr "未找到匹配面"
+
+#: operators.py:342
+msgid "No separate selected mesh data to update"
+msgstr "没有可更新的独立选中网格数据"
+
+#: core.py:53
+msgid "Point (Vertex)"
+msgstr "点（顶点）"
+
+#: core.py:61
+msgid "Replace"
+msgstr "替换"
+
+#: core.py:61
+msgid "Replace the current selection with matching colors"
+msgstr "用匹配颜色替换当前选择"
+
+#: ui.py:44
+msgid "Select one or more mesh objects"
+msgstr "选择一个或多个网格物体"
+
+#: core.py:57
+msgid "Selection"
+msgstr "选择"
+
+#: core.py:39
+msgid "Storage type used when applying colors"
+msgstr "应用颜色时使用的存储类型"
+
+#: core.py:52
+msgid "Store a separate color at each face corner"
+msgstr "在每个面角存储单独的颜色"
+
+#: core.py:53
+msgid "Store one color per vertex, shared by adjacent faces"
+msgstr "每个顶点存储一种颜色，由相邻面共享"
+
+#: core.py:39
+msgid "Type"
+msgstr "类型"
+
+#: ui.py:12
+msgid "Vertex Color Studio"
+msgstr "顶点颜色工作室"
+
+#: operators.py:393
+msgid "Vertex color preview disabled"
+msgstr "顶点颜色预览已禁用"
+
+#: operators.py:398
+msgid "Vertex color preview enabled"
+msgstr "顶点颜色预览已启用"
+
+#: operators.py:308
+#: ui.py:88
+msgctxt "Operator"
+msgid "Active to Selected"
+msgstr "活动项到选中项"
+
+#: operators.py:45
+#: ui.py:53
+msgctxt "Operator"
+msgid "Apply to Selected"
+msgstr "应用到选中项"
+
+#: ui.py:53
+msgctxt "Operator"
+msgid "Apply to Selected Faces"
+msgstr "应用到选中面"
+
+#: operators.py:46
+msgctxt "Operator"
+msgid "Color selected objects, or selected faces while in Edit Mode"
+msgstr "为选中物体上色，或在编辑模式下为选中面上色"
+
+#: operators.py:163
+msgctxt "Operator"
+msgid "Delete every color attribute from the selected mesh objects"
+msgstr "删除选中网格物体上的所有颜色属性"
+
+#: ui.py:108
+msgctxt "Operator"
+msgid "Disable Preview"
+msgstr "禁用预览"
+
+#: operators.py:215
+#: ui.py:80
+msgctxt "Operator"
+msgid "Get Active"
+msgstr "获取活动项"
+
+#: ui.py:80
+msgctxt "Operator"
+msgid "Get Face"
+msgstr "获取面"
+
+#: operators.py:96
+msgctxt "Operator"
+msgid "Give every visible mesh object a separate random color, or every disconnected visible mesh island while in Edit Mode"
+msgstr "为每个可见网格物体分配单独的随机颜色，或在编辑模式下为每个不连通的可见网格孤岛分配单独的随机颜色"
+
+#: operators.py:368
+#: ui.py:108
+msgctxt "Operator"
+msgid "Preview Vertex Colors"
+msgstr "预览顶点颜色"
+
+#: operators.py:95
+msgctxt "Operator"
+msgid "Randomize Visible Colors"
+msgstr "随机化可见颜色"
+
+#: ui.py:66
+msgctxt "Operator"
+msgid "Randomize Visible Islands"
+msgstr "随机化可见孤岛"
+
+#: ui.py:66
+msgctxt "Operator"
+msgid "Randomize Visible Objects"
+msgstr "随机化可见物体"
+
+#: operators.py:162
+msgctxt "Operator"
+msgid "Remove All Vertex Colors"
+msgstr "移除所有顶点颜色"
+
+#: ui.py:119
+msgctxt "Operator"
+msgid "Remove Colors from Edit Meshes"
+msgstr "从编辑网格中移除颜色"
+
+#: ui.py:119
+msgctxt "Operator"
+msgid "Remove Colors from Selected Objects"
+msgstr "从选中物体中移除颜色"
+
+#: operators.py:216
+msgctxt "Operator"
+msgid "Sample color from the active object or selected Edit Mode face"
+msgstr "从活动物体或编辑模式下选中的面采样颜色"
+
+#: operators.py:309
+msgctxt "Operator"
+msgid "Sample the active object's average vertex color and apply it to the other selected mesh objects"
+msgstr "采样活动物体的平均顶点颜色，并将其应用到其他选中的网格物体"
+
+#: operators.py:249
+msgctxt "Operator"
+msgid "Select Matching Color"
+msgstr "选择匹配颜色"
+
+#: ui.py:99
+msgctxt "Operator"
+msgid "Select Matching Faces"
+msgstr "选择匹配面"
+
+#: ui.py:99
+msgctxt "Operator"
+msgid "Select Matching Objects"
+msgstr "选择匹配物体"
+
+#: operators.py:250
+msgctxt "Operator"
+msgid "Select objects matching the active object's color, or faces matching the active face color in multi-object Edit Mode"
+msgstr "选择与活动物体颜色匹配的物体，或在多物体编辑模式下选择与活动面颜色匹配的面"
+
+#: operators.py:369
+msgctxt "Operator"
+msgid "Toggle vertex color preview in this viewport"
+msgstr "切换此视口中的顶点颜色预览"

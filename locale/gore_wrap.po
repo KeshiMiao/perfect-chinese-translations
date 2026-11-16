@@ -1,0 +1,564 @@
+# perfect-chinese: 1
+# id: gore_wrap
+# kind: addon
+# module: bl_ext.blender_org.gore_wrap
+# name: Gore Wrap
+# name_zh: 网格条带展开
+# translator: KeshiMiao
+# category: Mesh
+# supported_versions: >=4.5.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: properties.py:269
+msgid "Add a 'defects' layer outlining each flagged piece, so you can see what is at risk before cutting. Delete or hide that layer before you cut"
+msgstr "添加一个“defects”图层，勾勒出每个被标记的裁片，以便在切割前查看风险。切割前请删除或隐藏该图层"
+
+#: properties.py:161
+msgid "Add a separate labels layer numbering the strips in wrap order (exclude it from cutting)"
+msgstr "添加单独的标签图层，按包裹顺序为裁片条编号（切割时排除该图层）"
+
+#: ui.py:244
+msgid "Advice is stale"
+msgstr "建议已过期"
+
+#: properties.py:295
+msgid "Along Surface"
+msgstr "沿表面"
+
+#: properties.py:275
+msgid "Also box the pieces no placement can fix, in a separate cyan 'defects-intrinsic' layer. Those rectangles are cuttable too: delete or hide that layer before you cut"
+msgstr "还用单独的青色“defects-intrinsic”图层框出无法通过摆放修复的裁片。这些矩形也可切割：切割前请删除或隐藏该图层"
+
+#: properties.py:224
+msgid "Also search up and down the strip, not just around the object. Slower, and it moves what the base and top cuts pass through"
+msgstr "还会沿裁片条上下搜索，而不只绕物体搜索。速度更慢，且会改变底部和顶部切割经过的位置"
+
+#: properties.py:115
+msgid "Angular width of each gore, derived from the strip count"
+msgstr "每个裁片的角宽，由裁片条数量推导"
+
+#: properties.py:205
+msgid "Automatic"
+msgstr "自动"
+
+#: properties.py:126
+msgid "Averaged"
+msgstr "平均"
+
+#: ui.py:127
+msgid "Best placement is no better than this one"
+msgstr "最佳摆放并不优于当前摆放"
+
+#: properties.py:313
+msgid "Bottom Circumference"
+msgstr "底部周长"
+
+#: properties.py:146
+msgid "Bottom Crop"
+msgstr "底部裁剪"
+
+#: properties.py:308
+msgid "Calibrate By"
+msgstr "校准依据"
+
+#: ui.py:265
+msgid "Changes how the design reads"
+msgstr "改变图案的呈现效果"
+
+#: properties.py:176
+msgid "Check Tiling"
+msgstr "检查平铺"
+
+#: operators.py:784
+msgid "Choose a pattern SVG first."
+msgstr "请先选择图案 SVG。"
+
+#: operators.py:553
+#: operators.py:711
+msgid "Choose a pattern SVG or turn off Fill With Pattern."
+msgstr "请选择图案 SVG，或关闭“用图案填充”。"
+
+#: properties.py:262
+msgid "Corner Angle (deg)"
+msgstr "拐角角度（度）"
+
+#: properties.py:253
+msgid "Custom"
+msgstr "自定义"
+
+#: properties.py:262
+msgid "Custom mode: keep a join as a sharp corner only if the path turns by more than this many degrees; gentler bends are smoothed into one curve"
+msgstr "自定义模式：仅当路径转折超过此角度数时，才将接合处保留为尖角；更平缓的弯折会平滑为一条曲线"
+
+#: properties.py:257
+msgid "Custom mode: maximum deviation of the fitted curves from the true warped shape"
+msgstr "自定义模式：拟合曲线与真实变形形状的最大偏差"
+
+#: properties.py:251
+msgid "Cutter Resolution"
+msgstr "切割器分辨率"
+
+#: ui.py:99
+msgid "Deeper than the object is tall"
+msgstr "比物体高度更深"
+
+#: operators.py:392
+msgid "Derived dimension is zero; re-run Preview."
+msgstr "推导尺寸为零；请重新运行预览。"
+
+#: properties.py:146
+msgid "Discard everything below this height (mesh units)"
+msgstr "丢弃此高度以下的所有内容（网格单位）"
+
+#: properties.py:287
+msgid "Distance From Top (mm)"
+msgstr "距顶部距离（毫米）"
+
+#: properties.py:295
+msgid "Distance up the strip itself, as measured on the flat pattern"
+msgstr "沿裁片条自身的距离，按展开图案测量"
+
+#: properties.py:156
+msgid "Douglas-Peucker simplification tolerance"
+msgstr "Douglas-Peucker 简化容差"
+
+#: properties.py:128
+msgid "Each gore fitted to its own angular sector of the scan"
+msgstr "每个裁片适配扫描件各自的角扇区"
+
+#: operators.py:384
+msgid "Enter a positive measured value."
+msgstr "请输入正的测量值。"
+
+#: properties.py:251
+msgid "Exact fidelity for precise cutting (0.00625 mm, 5°)"
+msgstr "精确切割所需的高保真（0.00625 毫米，5°）"
+
+#: properties.py:249
+msgid "Fewest nodes, smoothest cut; keeps real corners (0.1 mm, 30°)"
+msgstr "节点最少、切割最平滑；保留真实拐角（0.1 毫米，30°）"
+
+#: properties.py:167
+msgid "Fill With Pattern"
+msgstr "用图案填充"
+
+#: properties.py:239
+msgid "Fit the warped pattern to smooth cubic bezier curves so the cutter does not stutter through many tiny line segments"
+msgstr "将变形图案拟合为平滑的三次贝塞尔曲线，避免切割器因大量细小线段而卡顿"
+
+#: properties.py:128
+msgid "Fitted"
+msgstr "拟合"
+
+#: ui.py:267
+msgid "Gain is mostly the coverage it removes"
+msgstr "增益主要来自它去除的覆盖范围"
+
+#: properties.py:151
+msgid "Gaussian smoothing of the radius profile, in bands"
+msgstr "按条带对半径轮廓进行高斯平滑"
+
+#: ui.py:47
+msgid "Gore 1 = green, wind toward orange (gore 2)"
+msgstr "裁片 1 = 绿色，向橙色（裁片 2）方向缠绕"
+
+#: ui.py:28
+#: ui.py:32
+msgid "Gore Wrap"
+msgstr "Gore Wrap"
+
+#: properties.py:311
+msgid "Height"
+msgstr "高度"
+
+#: properties.py:244
+msgid "How aggressively to simplify the warped pattern into smooth cutter curves"
+msgstr "将变形图案简化为平滑切割曲线的强度"
+
+#: properties.py:287
+msgid "How far down from the top of the object the pattern ends"
+msgstr "图案从物体顶部向下结束的位置"
+
+#: properties.py:110
+msgid "How many gore strips to cut the object into"
+msgstr "将物体切成多少条裁片"
+
+#: properties.py:189
+msgid "How many times the pattern tiles around the full circumference (fit exactly, for seamlessness)"
+msgstr "图案沿整个周长平铺的次数（精确适配以实现无缝）"
+
+#: properties.py:291
+msgid "How the distance from the top is measured"
+msgstr "距顶部距离的测量方式"
+
+#: properties.py:201
+msgid "How the pattern is positioned on the gores"
+msgstr "图案在裁片上的定位方式"
+
+#: properties.py:275
+msgid "Include All Cuts Under Threshold"
+msgstr "包含阈值以下的所有切割"
+
+#: properties.py:194
+msgid "Invert Pattern"
+msgstr "反转图案"
+
+#: properties.py:282
+msgid "Limit Pattern Height"
+msgstr "限制图案高度"
+
+#: properties.py:208
+msgid "Manual"
+msgstr "手动"
+
+#: properties.py:269
+msgid "Mark Defects in Export"
+msgstr "在导出中标记缺陷"
+
+#: properties.py:312
+msgid "Max Diameter"
+msgstr "最大直径"
+
+#: properties.py:176
+msgid "Measure how well the pattern joins itself when it repeats, whenever the pattern file changes. Runs in the background with a progress bar; turn it off to skip it and check by hand instead"
+msgstr "每当图案文件更改时，测量图案重复时自身接合的效果。会在后台显示进度条运行；关闭后可跳过并改为手动检查"
+
+#: properties.py:291
+msgid "Measured"
+msgstr "测量值"
+
+#: properties.py:317
+msgid "Measured (mm)"
+msgstr "测量值（毫米）"
+
+#: properties.py:211
+msgid "Min Fragment Area (mm²)"
+msgstr "最小碎片面积（平方毫米）"
+
+#: properties.py:217
+msgid "Min Fragment Width (mm)"
+msgstr "最小碎片宽度（毫米）"
+
+#: ui.py:238
+msgid "Minutes, not seconds. Esc cancels."
+msgstr "需要几分钟而非几秒。按 Esc 取消。"
+
+#: properties.py:123
+msgid "Mode"
+msgstr "模式"
+
+#: properties.py:297
+msgid "Model Height"
+msgstr "模型高度"
+
+#: properties.py:303
+msgid "Multiplier from mesh units to millimeters"
+msgstr "网格单位到毫米的倍数"
+
+#: properties.py:217
+msgid "Narrowest piece that survives regardless of how long it is. Kept low: it is a guard against hair-thin slivers, not the main test. Floored at 0.10 mm, below which an exact threshold is not achievable"
+msgstr "无论多长都能保留的最窄碎片。保持较低：它用于防止极细的碎片，并非主要判定。下限为 0.10 毫米，低于此值无法实现精确阈值"
+
+#: operators.py:915
+msgid "No advice row selected."
+msgstr "未选择建议行。"
+
+#: ui.py:115
+msgid "Not optimized"
+msgstr "未优化"
+
+#: properties.py:161
+msgid "Number Strips"
+msgstr "为条带编号"
+
+#: properties.py:126
+msgid "One averaged gore shape repeated for every strip"
+msgstr "每个条带都重复使用一个平均拼片形状"
+
+#: properties.py:156
+msgid "Outline Tolerance (mm)"
+msgstr "轮廓容差（毫米）"
+
+#: ui.py:78
+msgid "Pattern"
+msgstr "图案"
+
+#: properties.py:172
+msgid "Pattern SVG"
+msgstr "图案 SVG"
+
+#: ui.py:186
+msgid "Pattern tiles cleanly"
+msgstr "图案可无缝平铺"
+
+#: operators.py:814
+msgid "Pattern tiles cleanly both ways."
+msgstr "图案两个方向均可无缝平铺。"
+
+#: properties.py:208
+msgid "Place the pattern by hand"
+msgstr "手动放置图案"
+
+#: properties.py:201
+msgid "Placement"
+msgstr "放置"
+
+#: ui.py:222
+msgid "Placement Advisor"
+msgstr "放置建议"
+
+#: ui.py:117
+msgid "Placement is stale"
+msgstr "放置已过期"
+
+#: ui.py:51
+msgid "Quality"
+msgstr "质量"
+
+#: properties.py:317
+msgid "Real measured value of the chosen dimension"
+msgstr "所选尺寸的实际测量值"
+
+#: properties.py:189
+msgid "Repeats Around"
+msgstr "环绕重复次数"
+
+#: properties.py:235
+msgid "Rise (mm)"
+msgstr "上升高度（毫米）"
+
+#: ui.py:196
+msgid "Rise will be limited to keep the seam out"
+msgstr "将限制上升高度以避开接缝"
+
+#: properties.py:139
+msgid "Rotate which sector is gore 1 (degrees, counter-clockwise from +X seen from above), to align the start with a landmark on the object. Fitted mode only"
+msgstr "旋转以改变哪个扇区作为拼片 1（度，俯视时从 +X 轴逆时针），使起点与物体上的标记对齐。仅限拟合模式"
+
+#: properties.py:230
+msgid "Rotation"
+msgstr "旋转"
+
+#: operators.py:381
+msgid "Run Preview first to read dimensions."
+msgstr "请先运行预览以读取尺寸。"
+
+#: ui.py:72
+msgid "Run Preview to read dimensions"
+msgstr "运行预览以读取尺寸"
+
+#: ui.py:64
+msgid "Scale"
+msgstr "缩放"
+
+#: properties.py:303
+msgid "Scale Factor"
+msgstr "缩放系数"
+
+#: properties.py:133
+msgid "Seam Offset (mm)"
+msgstr "接缝偏移（毫米）"
+
+#: properties.py:172
+msgid "Seamless (tileable) pattern as an SVG file"
+msgstr "无缝（可平铺）图案的 SVG 文件"
+
+#: properties.py:205
+msgid "Search for a placement that leaves fewer defects: small or disconnected pieces of material"
+msgstr "搜索产生更少缺陷的放置方式：细小或断开的材料碎片"
+
+#: properties.py:313
+msgid "Set scale from a measured bottom circumference"
+msgstr "根据实测底部周长设置缩放"
+
+#: properties.py:312
+msgid "Set scale from a measured diameter"
+msgstr "根据实测直径设置缩放"
+
+#: properties.py:311
+msgid "Set scale from a measured height"
+msgstr "根据实测高度设置缩放"
+
+#: properties.py:253
+msgid "Set the tolerance and corner angle by hand"
+msgstr "手动设置容差和拐角角度"
+
+#: properties.py:133
+msgid "Signed edge allowance: positive overlaps neighbors, negative leaves a gap, zero is a butt joint"
+msgstr "带符号的边缘余量：正值与相邻边缘重叠，负值留出间隙，零为对接"
+
+#: properties.py:244
+msgid "Simplify Mode"
+msgstr "简化模式"
+
+#: properties.py:257
+msgid "Simplify Tol (mm)"
+msgstr "简化容差（毫米）"
+
+#: properties.py:224
+msgid "Slide Vertically"
+msgstr "垂直滑动"
+
+#: properties.py:235
+msgid "Slide the pattern up the strip"
+msgstr "沿条带向上滑动图案"
+
+#: properties.py:211
+msgid "Smallest piece of material that survives weeding, transfer and the blast; the search avoids leaving anything smaller"
+msgstr "能承受排废、转移和喷砂的最小材料碎片；搜索会避免留下更小的碎片"
+
+#: properties.py:239
+msgid "Smooth to Curves"
+msgstr "平滑为曲线"
+
+#: properties.py:151
+msgid "Smoothing"
+msgstr "平滑"
+
+#: properties.py:230
+msgid "Spin the pattern around the object (degrees); the tiling repeats every 360 / Repeats Around"
+msgstr "让图案绕物体旋转（度）；平铺每隔 360 / 环绕重复次数 重复一次"
+
+#: properties.py:139
+msgid "Start Angle"
+msgstr "起始角度"
+
+#: properties.py:282
+msgid "Stop the pattern short of the top of the object and close it off with a straight cut parallel to the bottom"
+msgstr "让图案在物体顶部之前停止，并用平行于底部的直切收尾"
+
+#: properties.py:115
+msgid "Strip Angle"
+msgstr "条带角度"
+
+#: properties.py:110
+msgid "Strip Count"
+msgstr "条带数量"
+
+#: properties.py:120
+#: ui.py:39
+msgid "Strips"
+msgstr "条带"
+
+#: properties.py:194
+msgid "Treat the pattern's filled shapes as the holes and everything around them as material. The cut is the same either way; this is what the placement search and the defects layer measure"
+msgstr "将图案的填充形状视为孔洞，其周围的一切视为材料。两种方式的切割结果相同；放置搜索和缺陷图层以此为判定依据"
+
+#: ui.py:234
+msgid "Turn on Fill With Pattern"
+msgstr "启用「用图案填充」"
+
+#: properties.py:297
+msgid "Vertical drop on the object; a domed or flared top covers more surface than height, and the cut follows accordingly"
+msgstr "物体上的垂直落差；穹顶或外扩的顶部覆盖的表面大于高度，切割会相应调整"
+
+#: properties.py:249
+msgid "Visual"
+msgstr "视觉"
+
+#: properties.py:167
+msgid "Warp a seamless vector pattern to fill each gore, added as a separate layer in the exported SVG"
+msgstr "变形无缝矢量图案以填充每个拼片，作为单独图层添加到导出的 SVG 中"
+
+#: ui.py:212
+msgid "won't fit"
+msgstr "无法适配"
+
+#: operators.py:905
+msgctxt "Operator"
+msgid "Adopt this row's settings. The placement is cleared, so run Optimize Placement again afterward"
+msgstr "采用此行的设置。放置将被清除，因此之后需再次运行优化放置"
+
+#: operators.py:373
+msgctxt "Operator"
+msgid "Apply Measured Scale"
+msgstr "应用实测缩放"
+
+#: operators.py:904
+msgctxt "Operator"
+msgid "Apply These Settings"
+msgstr "应用这些设置"
+
+#: operators.py:327
+msgctxt "Operator"
+msgid "Build a simplified surface overlay and update dimensions"
+msgstr "构建简化的表面叠加层并更新尺寸"
+
+#: operators.py:773
+msgctxt "Operator"
+msgid "Check Tiling"
+msgstr "检查平铺"
+
+#: operators.py:675
+msgctxt "Operator"
+msgid "Export SVG"
+msgstr "导出 SVG"
+
+#: operators.py:986
+msgctxt "Operator"
+msgid "Full Advice Table"
+msgstr "完整建议表"
+
+#: operators.py:961
+msgctxt "Operator"
+msgid "Gore Wrap"
+msgstr "Gore Wrap"
+
+#: operators.py:676
+msgctxt "Operator"
+msgid "Lay out the gores on the mat and write an SVG"
+msgstr "在工作垫上排布裁片并写入 SVG"
+
+#: operators.py:774
+msgctxt "Operator"
+msgid "Measure how well the pattern joins itself where it repeats, around the object and up the strip"
+msgstr "测量图案在重复处的拼接吻合程度：沿物体环绕和沿条带向上"
+
+#: operators.py:535
+msgctxt "Operator"
+msgid "Optimize Placement"
+msgstr "优化排布"
+
+#: operators.py:821
+msgctxt "Operator"
+msgid "Placement Advisor"
+msgstr "排布顾问"
+
+#: operators.py:326
+msgctxt "Operator"
+msgid "Preview Gores"
+msgstr "预览裁片"
+
+#: operators.py:374
+msgctxt "Operator"
+msgid "Rescale output so the chosen dimension matches the measured value"
+msgstr "缩放输出，使所选尺寸与测量值一致"
+
+#: operators.py:536
+msgctxt "Operator"
+msgid "Search for a pattern placement that leaves fewer defects: small or disconnected pieces of material along the gore cuts"
+msgstr "搜索缺陷更少的图案排布：沿裁片切缝出现的小块或断开的材质碎片"
+
+#: operators.py:987
+msgctxt "Operator"
+msgid "Show every column of the advisor's results"
+msgstr "显示顾问结果的所有列"
+
+#: operators.py:962
+msgctxt "Operator"
+msgid "Show what the last run warned about"
+msgstr "显示上次运行的警告"
+
+#: operators.py:822
+msgctxt "Operator"
+msgid "Sweep strip count, Repeats Around and the height limit to find which setting would leave fewer defects"
+msgstr "遍历条带数量、环绕重复次数和高度限制，找出缺陷更少的设置"
+
+#: operators.py:1030
+msgctxt "Operator"
+msgid "Use"
+msgstr "使用"

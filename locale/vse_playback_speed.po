@@ -1,0 +1,301 @@
+# perfect-chinese: 1
+# id: vse_playback_speed
+# kind: addon
+# module: bl_ext.blender_org.vse_playback_speed
+# name: VSE Playback Speed
+# name_zh: 序列播放速度
+# translator: KeshiMiao
+# category: Sequencer
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: playback.py:1923
+msgid "%"
+msgstr "%"
+
+#: silence.py:725
+msgid "After cutting a pause, paint a green bar from the start up to the cut so finished regions are obvious"
+msgstr "剪切停顿后，从起点到剪切处涂上绿色条，让已完成区域一目了然"
+
+#: silence.py:710
+msgid "Also mark timeline regions that have no sound strip at all"
+msgstr "同时标记时间线上完全没有声音条带的区域"
+
+#: silence.py:715
+#: silence.py:747
+msgid "Color Strips"
+msgstr "彩色条带"
+
+#: silence.py:710
+#: silence.py:746
+msgid "Include Missing Audio"
+msgstr "包含缺失音频"
+
+#: silence.py:835
+msgid "Jump to the next pause"
+msgstr "跳转到下一个停顿"
+
+#: silence.py:836
+msgid "Jump to the previous pause"
+msgstr "跳转到上一个停顿"
+
+#: playback.py:1850
+msgid "Keep Playing After Jump"
+msgstr "跳转后继续播放"
+
+#: silence.py:775
+msgid "Long videos are scanned in 1-minute chunks."
+msgstr "长视频按 1 分钟分段扫描。"
+
+#: silence.py:725
+msgid "Mark Edited After Cut"
+msgstr "剪切后标记为已编辑"
+
+#: silence.py:687
+msgid "Mark pauses that last at least this many seconds"
+msgstr "标记持续时间至少为这么多秒的停顿"
+
+#: silence.py:720
+#: silence.py:748
+msgid "Markers"
+msgstr "标记"
+
+#: silence.py:687
+#: silence.py:744
+msgid "Minimum Length"
+msgstr "最小长度"
+
+#: silence.py:835
+msgid "Next"
+msgstr "下一个"
+
+#: silence.py:845
+msgid "No pause marks. Run Detect Pauses first"
+msgstr "没有停顿标记。请先运行检测停顿"
+
+#: silence.py:906
+msgid "No sequencer"
+msgstr "没有序列编辑器"
+
+#: silence.py:890
+msgid "Only cut selected pause strips"
+msgstr "仅剪切选中的停顿条带"
+
+#: silence.py:1077
+#: silence.py:1080
+msgid "Pause"
+msgstr "停顿"
+
+#: silence.py:924
+msgid "Pause has no duration. Stretch the red strip, then cut"
+msgstr "停顿没有时长。请拉长红色条带后再剪切"
+
+#: playback.py:1935
+#: silence.py:1018
+msgid "Pauses"
+msgstr "停顿"
+
+#: silence.py:715
+msgid "Place red flag strips on a free channel (hidden in the preview)"
+msgstr "在空闲通道上放置红色标记条带（在预览中隐藏）"
+
+#: silence.py:720
+msgid "Place timeline markers at the start of each pause"
+msgstr "在每个停顿的起点放置时间线标记"
+
+#: silence.py:971
+msgid "Playhead is at the start"
+msgstr "播放头位于起点"
+
+#: playback.py:1830
+msgid "Preview playback speed as a percentage (100% = realtime)"
+msgstr "预览播放速度百分比（100% = 实时）"
+
+#: playback.py:1818
+#: playback.py:1842
+msgid "Preview playback speed in 0.25× steps"
+msgstr "以 0.25× 为步进调整预览播放速度"
+
+#: silence.py:836
+msgid "Previous"
+msgstr "上一个"
+
+#: silence.py:696
+msgid "RMS level treated as silence. Raise this if quiet room tone is still counted as speech"
+msgstr "被视为静音的 RMS 电平。如果安静的环境底噪仍被当作语音，请调高此值"
+
+#: silence.py:1091
+msgid "Remove this pause from the edit"
+msgstr "从编辑中移除此停顿"
+
+#: silence.py:915
+msgid "Select a red pause strip, or park the playhead on one"
+msgstr "选择一个红色停顿条带，或将播放头停在其上"
+
+#: silence.py:890
+msgid "Selected Only"
+msgstr "仅选中项"
+
+#: __init__.py:3
+msgid "Sequencer"
+msgstr "序列编辑器"
+
+#: silence.py:696
+#: silence.py:745
+msgid "Silence Threshold"
+msgstr "静音阈值"
+
+#: __init__.py:3
+msgid "Smooth preview playback speed (no skipped frames) as native sliders in the timeline, plus silence/pause detection for cutting dead air"
+msgstr "以时间线中的原生滑块实现平滑的预览播放速度（不丢帧），以及用于剪掉无声段的静音/停顿检测"
+
+#: playback.py:1818
+#: playback.py:1830
+msgid "Speed"
+msgstr "速度"
+
+#: __init__.py:3
+msgid "VSE Playback Speed"
+msgstr "VSE 播放速度"
+
+#: playback.py:1850
+msgid "When you move the playhead during preview, continue from the new frame instead of pausing"
+msgstr "预览时移动播放头，会从新帧继续播放而不是暂停"
+
+#: playback.py:1927
+msgctxt "Operator"
+msgid "1×"
+msgstr "1×"
+
+#: playback.py:1863
+msgctxt "Operator"
+msgid "Change preview playback speed by 0.25×"
+msgstr "以 0.25× 改变预览播放速度"
+
+#: silence.py:979
+msgctxt "Operator"
+msgid "Clear Edited Marks"
+msgstr "清除已编辑标记"
+
+#: silence.py:816
+#: silence.py:1099
+msgctxt "Operator"
+msgid "Clear Pause Marks"
+msgstr "清除停顿标记"
+
+#: silence.py:1004
+msgctxt "Operator"
+msgid "Cut All Pauses and Close Gaps"
+msgstr "剪切所有停顿并闭合间隙"
+
+#: playback.py:1933
+#: silence.py:1066
+msgctxt "Operator"
+msgid "Cut Pause"
+msgstr "剪切停顿"
+
+#: silence.py:883
+#: silence.py:1042
+msgctxt "Operator"
+msgid "Cut Pause and Close Gap"
+msgstr "剪切停顿并闭合间隙"
+
+#: silence.py:1004
+msgctxt "Operator"
+msgid "Cut Selected Pause and Close Gap"
+msgstr "剪切选中的停顿并闭合间隙"
+
+#: silence.py:884
+msgctxt "Operator"
+msgid "Delete the selected pause from the timeline and ripple the following strips left. Trim the red pause strip first if needed"
+msgstr "从时间线删除选中的停顿，并将后续条带向左平移。如有需要，请先修剪红色停顿条带"
+
+#: silence.py:737
+#: silence.py:1098
+msgctxt "Operator"
+msgid "Detect Pauses"
+msgstr "检测停顿"
+
+#: silence.py:738
+msgctxt "Operator"
+msgid "Find regions with no audio or only very quiet audio and mark them on the timeline"
+msgstr "查找没有音频或音频极安静的区域，并在时间线上标记"
+
+#: silence.py:829
+msgctxt "Operator"
+msgid "Jump to Pause"
+msgstr "跳转到停顿"
+
+#: silence.py:958
+msgctxt "Operator"
+msgid "Mark Edited to Playhead"
+msgstr "标记已编辑至播放头"
+
+#: silence.py:830
+msgctxt "Operator"
+msgid "Move the playhead to the next or previous marked pause"
+msgstr "将播放头移到下一个或上一个已标记的停顿"
+
+#: silence.py:999
+msgctxt "Operator"
+msgid "Next Pause"
+msgstr "下一个停顿"
+
+#: playback.py:1862
+msgctxt "Operator"
+msgid "Nudge Playback Speed"
+msgstr "微调播放速度"
+
+#: silence.py:959
+msgctxt "Operator"
+msgid "Paint a green bar from the start of the timeline to the playhead so finished regions stand out"
+msgstr "从时间线起点到播放头涂上绿色条，让已完成区域更醒目"
+
+#: playback.py:1889
+msgctxt "Operator"
+msgid "Pause"
+msgstr "暂停"
+
+#: playback.py:1890
+msgctxt "Operator"
+msgid "Pause sped-up / slowed-down preview playback"
+msgstr "暂停加速/减速的预览播放"
+
+#: silence.py:1000
+msgctxt "Operator"
+msgid "Previous Pause"
+msgstr "上一个停顿"
+
+#: silence.py:817
+msgctxt "Operator"
+msgid "Remove pause color strips and markers created by Detect Pauses"
+msgstr "移除检测停顿创建的停顿彩色条带和标记"
+
+#: silence.py:980
+msgctxt "Operator"
+msgid "Remove the green edited-region bars"
+msgstr "移除绿色的已编辑区域条"
+
+#: playback.py:1877
+msgctxt "Operator"
+msgid "Reset Playback Speed"
+msgstr "重置播放速度"
+
+#: silence.py:861
+msgctxt "Operator"
+msgid "Select Pause Strips"
+msgstr "选择停顿条带"
+
+#: silence.py:862
+msgctxt "Operator"
+msgid "Select the red pause flag strips so they can be cut or deleted"
+msgstr "选择红色暂停标记条，以便剪切或删除"
+
+#: playback.py:1878
+msgctxt "Operator"
+msgid "Set preview playback speed back to 1×"
+msgstr "将预览播放速度重置为 1×"

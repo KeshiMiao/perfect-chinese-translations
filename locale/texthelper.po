@@ -1,0 +1,1547 @@
+# perfect-chinese: 1
+# id: texthelper
+# kind: addon
+# module: bl_ext.blender_org.TextHelper
+# name: Text Helper
+# name_zh: 文本助手
+# translator: KeshiMiao
+# category: 3D View
+# supported_versions: >=5.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: utils/font_loader.py:204
+msgid "-Bold"
+msgstr "-粗体"
+
+#: utils/font_loader.py:204
+msgid "-BoldItalic"
+msgstr "-粗斜体"
+
+#: utils/font_loader.py:204
+msgid "-Italic"
+msgstr "-斜体"
+
+#: preferences.py:287
+msgid "About"
+msgstr "关于"
+
+#: preferences.py:126
+msgid "Accent Color"
+msgstr "强调色"
+
+#: preferences.py:126
+msgid "Accent color for the viewport HUD and pickers"
+msgstr "视图 HUD 和取色器的强调色"
+
+#: utils/font_language.py:14
+msgid "All"
+msgstr "全部"
+
+#: ops/font_list.py:189
+msgid "All favorites"
+msgstr "全部收藏"
+
+#: ops/font_list.py:180
+msgid "All font families"
+msgstr "全部字体家族"
+
+#: ops/font_list.py:196
+msgid "All font types"
+msgstr "全部字体类型"
+
+#: utils/font_language.py:14
+msgid "All languages"
+msgstr "全部语言"
+
+#: props.py:171
+#: ops/text.py:171
+msgid "All lowercase letters"
+msgstr "全部小写字母"
+
+#: props.py:170
+#: ops/text.py:170
+msgid "All uppercase letters"
+msgstr "全部大写字母"
+
+#: preferences.py:187
+msgid "Always group by OpenType typographic/font family name (name table IDs 16/1)"
+msgstr "始终按 OpenType 排版/字体家族名称分组（名称表 ID 16/1）"
+
+#: preferences.py:156
+msgid "Apply the highlighted font while hovering or navigating the font list"
+msgstr "悬停或浏览字体列表时应用高亮的字体"
+
+#: utils/font_language.py:20
+msgid "Arabic"
+msgstr "阿拉伯语"
+
+#: utils/font_language.py:20
+msgid "Arabic script"
+msgstr "阿拉伯文"
+
+#: preferences.py:105
+msgid "Auto Layout Frame"
+msgstr "自动布局框架"
+
+#: preferences.py:85
+msgid "Auto-Show Floating Toolbar"
+msgstr "自动显示浮动工具栏"
+
+#: preferences.py:85
+msgid "Automatically display the floating toolbar when a text object is selected"
+msgstr "选中文本物体时自动显示浮动工具栏"
+
+#: utils/font_family.py:67
+#: utils/font_family.py:68
+msgid "Black"
+msgstr "黑色"
+
+#: preferences.py:131
+msgid "Blue"
+msgstr "蓝色"
+
+#: preferences.py:131
+msgid "Blue accent"
+msgstr "蓝色强调色"
+
+#: ops/format.py:25
+#: utils/font_family.py:60
+msgid "Bold"
+msgstr "粗体"
+
+#: utils/font_family.py:10
+#: utils/font_family.py:12
+msgid "Bold Italic"
+msgstr "粗斜体"
+
+#: utils/font_family.py:54
+#: utils/font_family.py:55
+msgid "Book"
+msgstr "常规"
+
+#: ops/format.py:75
+msgid "Bottom"
+msgstr "底部"
+
+#: ops/format.py:74
+msgid "Bottom Baseline"
+msgstr "底部基线"
+
+#: ops/font_list.py:102
+msgid "Built-in font preview not supported yet"
+msgstr "尚不支持内置字体预览"
+
+#: ops/format.py:46
+#: ops/format.py:73
+msgid "Center"
+msgstr "居中"
+
+#: ops/format.py:98
+#: ops/format.py:144
+msgid "Character"
+msgstr "字符"
+
+#: ops/spacing_menus.py:12
+msgid "Character Spacing"
+msgstr "字符间距"
+
+#: preferences.py:206
+msgid "Characters rendered inside each font thumbnail"
+msgstr "每个字体缩略图中渲染的字符"
+
+#: utils/font_language.py:17
+msgid "Chinese"
+msgstr "中文"
+
+#: utils/font_language.py:17
+msgid "Chinese (Han characters)"
+msgstr "中文（汉字）"
+
+#: ops/font_list.py:266
+msgid "Click refresh to load system fonts"
+msgstr "点击刷新以加载系统字体"
+
+#: props.py:148
+msgid "Column Order"
+msgstr "列顺序"
+
+#: preferences.py:105
+msgid "Create a layout frame automatically when adding new text"
+msgstr "添加新文本时自动创建布局框架"
+
+#: ops/font_list.py:343
+msgid "Current: {}"
+msgstr "当前：{}"
+
+#: preferences.py:135
+msgid "Custom"
+msgstr "自定义"
+
+#: preferences.py:140
+msgid "Custom Accent"
+msgstr "自定义强调色"
+
+#: preferences.py:140
+msgid "Custom HUD accent color"
+msgstr "自定义 HUD 强调色"
+
+#: preferences.py:217
+msgid "Custom Text"
+msgstr "自定义文本"
+
+#: props.py:322
+msgid "Custom preview phrase shown in the viewport font picker"
+msgstr "视图字体选择器中显示的自定义预览短语"
+
+#: props.py:169
+#: ops/text.py:169
+msgid "Default"
+msgstr "默认"
+
+#: preferences.py:267
+msgid "Default visible line count for the N-panel textbox (you can still drag the bottom edge to resize)"
+msgstr "N 面板文本框默认可见行数（仍可拖动底边调整大小）"
+
+#: utils/font_family.py:29
+#: utils/font_family.py:30
+msgid "DemiBold"
+msgstr "半粗体"
+
+#: preferences.py:97
+msgid "Distance from the top of the 3D viewport to the floating toolbar (pixels)"
+msgstr "3D 视图顶部到浮动工具栏的距离（像素）"
+
+#: panels/sidebar.py:218
+msgid "Double-click empty space to exit edit mode"
+msgstr "双击空白区域退出编辑模式"
+
+#: preferences.py:290
+msgid "Easy text input & font management with a viewport floating toolbar."
+msgstr "便捷的文本输入与字体管理，带视图浮动工具栏。"
+
+#: ops/orientation.py:18
+msgid "Edit text in horizontal rows"
+msgstr "按水平行编辑文本"
+
+#: ops/orientation.py:19
+msgid "Edit text in vertical columns"
+msgstr "按垂直列编辑文本"
+
+#: panels/sidebar.py:217
+msgid "Editing in viewport"
+msgstr "在视图中编辑"
+
+#: panels/toolbar.py:162
+msgid "Enable strikethrough first"
+msgstr "请先启用删除线"
+
+#: utils/font_language.py:15
+msgid "English"
+msgstr "英语"
+
+#: utils/font_language.py:15
+msgid "English (Latin script)"
+msgstr "英文（拉丁文）"
+
+#: ops/font_list.py:253
+msgid "Enter preview text…"
+msgstr "输入预览文本…"
+
+#: props.py:293
+msgid "Expanded slider row below the floating toolbar"
+msgstr "浮动工具栏下方的展开滑块行"
+
+#: utils/font_family.py:16
+#: utils/font_family.py:17
+msgid "ExtraBold"
+msgstr "特粗体"
+
+#: utils/font_family.py:36
+#: utils/font_family.py:37
+msgid "ExtraLight"
+msgstr "特细体"
+
+#: preferences.py:167
+msgid "Family Name"
+msgstr "家族名称"
+
+#: preferences.py:255
+msgid "Favorite Font Families"
+msgstr "收藏的字体家族"
+
+#: props.py:264
+msgid "Favorites Only"
+msgstr "仅收藏"
+
+#: ops/font_list.py:189
+msgid "Favorites only"
+msgstr "仅收藏"
+
+#: preferences.py:166
+#: preferences.py:197
+msgid "File Name"
+msgstr "文件名"
+
+#: props.py:316
+msgid "Filter fonts by supported writing system"
+msgstr "按支持的书写系统筛选字体"
+
+#: props.py:300
+#: ops/font_search_input.py:57
+msgid "Filter the system font list"
+msgstr "筛选系统字体列表"
+
+#: props.py:153
+#: ops/orientation.py:44
+msgid "First line is leftmost; Enter adds a column to the right"
+msgstr "首行在最左侧；回车在右侧添加一列"
+
+#: props.py:152
+#: ops/orientation.py:43
+msgid "First line is rightmost; Enter adds a column to the left"
+msgstr "首行在最右侧；回车在左侧添加一列"
+
+#: preferences.py:79
+msgid "Floating Toolbar"
+msgstr "浮动工具栏"
+
+#: preferences.py:130
+msgid "Follow System"
+msgstr "跟随系统"
+
+#: ops/fonts.py:107
+#: panels/toolbar.py:72
+msgid "Font"
+msgstr "字体"
+
+#: props.py:299
+msgid "Font Index"
+msgstr "字体索引"
+
+#: preferences.py:218
+msgid "Font Name"
+msgstr "字体名称"
+
+#: preferences.py:162
+msgid "Font Name Display"
+msgstr "字体名称显示"
+
+#: props.py:322
+msgid "Font Picker Preview"
+msgstr "字体选择器预览"
+
+#: preferences.py:150
+msgid "Font Preview Icons"
+msgstr "字体预览图标"
+
+#: props.py:306
+msgid "Font Sort"
+msgstr "字体排序"
+
+#: panels/toolbar.py:110
+msgid "Font Weight"
+msgstr "字重"
+
+#: preferences.py:360
+msgid "Font search index: {:d} cached"
+msgstr "字体搜索索引：已缓存 {:d} 项"
+
+#: preferences.py:323
+msgid "Fonts"
+msgstr "字体"
+
+#: preferences.py:168
+msgid "Full Name"
+msgstr "全名"
+
+#: preferences.py:239
+msgid "Generated preview image height in pixels"
+msgstr "生成的预览图像高度（像素）"
+
+#: preferences.py:231
+msgid "Generated preview image width in pixels"
+msgstr "生成的预览图像宽度（像素）"
+
+#: utils/font_language.py:21
+msgid "Greek"
+msgstr "希腊语"
+
+#: utils/font_language.py:21
+msgid "Greek script"
+msgstr "希腊文"
+
+#: preferences.py:192
+msgid "Group by PostScript name before the last hyphen (GenYoGothic2-B → GenYoGothic2)"
+msgstr "按最后一个连字符前的 PostScript 名称分组（GenYoGothic2-B → GenYoGothic2）"
+
+#: preferences.py:197
+msgid "Group by file name after stripping -Bold, -Light, and similar suffixes"
+msgstr "去除 -Bold、-Light 等后缀后按文件名分组"
+
+#: props.py:293
+msgid "HUD Expand Panel"
+msgstr "HUD 展开面板"
+
+#: props.py:110
+msgid "HUD Offset X"
+msgstr "HUD 偏移 X"
+
+#: props.py:116
+msgid "HUD Offset Y"
+msgstr "HUD 偏移 Y"
+
+#: preferences.py:118
+msgid "HUD Safe Margin"
+msgstr "HUD 安全边距"
+
+#: preferences.py:110
+msgid "HUD Scale"
+msgstr "HUD 缩放"
+
+#: props.py:127
+msgid "HUD User Shown"
+msgstr "HUD 用户显示"
+
+#: panels/sidebar.py:130
+msgid "Halfwidth characters: {}"
+msgstr "半角字符：{}"
+
+#: preferences.py:91
+msgid "Header Toolbar"
+msgstr "标题栏工具栏"
+
+#: utils/font_family.py:64
+#: utils/font_family.py:65
+msgid "Heavy"
+msgstr "特粗"
+
+#: utils/font_language.py:22
+msgid "Hebrew"
+msgstr "希伯来语"
+
+#: utils/font_language.py:22
+msgid "Hebrew script"
+msgstr "希伯来文"
+
+#: props.py:254
+msgid "Hide Unsupported Fonts"
+msgstr "隐藏不支持的字体"
+
+#: ops/font_list.py:173
+msgid "Hide unsupported"
+msgstr "隐藏不支持的"
+
+#: props.py:143
+#: ops/orientation.py:18
+msgid "Horizontal"
+msgstr "水平"
+
+#: props.py:158
+msgid "Horizontal input in N-panel: each line is one vertical column"
+msgstr "N 面板中的水平输入：每行对应一个竖排"
+
+#: props.py:139
+msgid "Horizontal rows or vertical columns (transposed in body)"
+msgstr "水平行或垂直列（主体中会转置）"
+
+#: props.py:143
+msgid "Horizontal text input"
+msgstr "水平文本输入"
+
+#: preferences.py:174
+msgid "How font files are merged into one family with multiple weights. OpenType uses the name-table family (matches Family Name display); File Name parses weight suffixes from file names (-Bold, -Light, etc.)"
+msgstr "字体文件如何合并为一个包含多个字重的家族。OpenType 使用名称表中的家族（与家族名称显示一致）；文件名从文件名解析字重后缀（-Bold、-Light 等）"
+
+#: preferences.py:162
+msgid "How font names appear in lists, the font picker, HUD, and header toolbar"
+msgstr "字体名称在列表、字体选择器、HUD 和标题栏工具栏中的显示方式"
+
+#: preferences.py:247
+msgid "How large each font preview appears in the sidebar list"
+msgstr "侧边栏列表中每个字体预览的大小"
+
+#: preferences.py:348
+#: ops/font_list.py:276
+msgid "Indexing font names… {:d}/{:d}"
+msgstr "正在索引字体名称… {:d}/{:d}"
+
+#: ops/format.py:26
+#: utils/font_family.py:70
+msgid "Italic"
+msgstr "斜体"
+
+#: preferences.py:255
+msgid "JSON list of favorite font family keys"
+msgstr "收藏字体家族键的 JSON 列表"
+
+#: preferences.py:261
+msgid "JSON list of recently applied font family keys"
+msgstr "最近应用字体家族键的 JSON 列表"
+
+#: utils/font_language.py:18
+msgid "Japanese"
+msgstr "日语"
+
+#: utils/font_language.py:18
+msgid "Japanese (kana and kanji)"
+msgstr "日语（假名与汉字）"
+
+#: ops/format.py:48
+msgid "Justify"
+msgstr "两端对齐"
+
+#: preferences.py:118
+msgid "Keep the floating toolbar this many pixels away from the 3D viewport edges (N/T panels shrink the usable area automatically)"
+msgstr "浮动工具栏与 3D 视图边缘保持此像素距离（N/T 面板会自动缩小可用区域）"
+
+#: utils/font_language.py:19
+msgid "Korean"
+msgstr "韩语"
+
+#: utils/font_language.py:19
+msgid "Korean (Hangul)"
+msgstr "韩语（谚文）"
+
+#: ops/font_language.py:44
+msgid "Language"
+msgstr "语言"
+
+#: utils/font_language.py:16
+msgid "Latin"
+msgstr "拉丁语"
+
+#: utils/font_language.py:16
+msgid "Latin script"
+msgstr "拉丁文"
+
+#: ops/format.py:45
+msgid "Left"
+msgstr "左"
+
+#: props.py:153
+#: ops/orientation.py:44
+msgid "Left to Right"
+msgstr "从左到右"
+
+#: props.py:110
+#: props.py:116
+msgid "Legacy HUD drag offset (migrated to the text object; not used for new data)"
+msgstr "旧版 HUD 拖动偏移（已迁移到文本物体；不用于新数据）"
+
+#: props.py:165
+msgid "Letter case transform for the text content"
+msgstr "文本内容的大小写转换"
+
+#: utils/font_family.py:42
+#: utils/font_family.py:43
+msgid "Light"
+msgstr "细体"
+
+#: ops/format.py:100
+#: ops/format.py:147
+msgid "Line"
+msgstr "行"
+
+#: ops/spacing_menus.py:31
+msgid "Line Height"
+msgstr "行高"
+
+#: preferences.py:247
+msgid "List Preview Scale"
+msgstr "列表预览缩放"
+
+#: ops/font_list.py:268
+msgid "Loading fonts…"
+msgstr "正在加载字体…"
+
+#: props.py:186
+msgid "Logical strikethrough toggle (mutually exclusive with underline)"
+msgstr "逻辑删除线开关（与下划线互斥）"
+
+#: props.py:181
+msgid "Logical underline toggle (mutually exclusive with strikethrough)"
+msgstr "逻辑下划线开关（与删除线互斥）"
+
+#: props.py:171
+#: ops/text.py:171
+msgid "Lowercase"
+msgstr "小写"
+
+#: preferences.py:130
+msgid "Match Blender interface theme colors (tool header)"
+msgstr "匹配 Blender 界面主题颜色（工具标题栏）"
+
+#: preferences.py:275
+msgid "Maximum characters for N-panel multi-line text input (Blender hard cap is 50,000)"
+msgstr "N 面板多行文本输入的最大字符数（Blender 硬性上限为 50,000）"
+
+#: preferences.py:223
+msgid "Maximum point size used when rendering the thumbnail image"
+msgstr "渲染缩略图时使用的最大点尺寸"
+
+#: utils/font_family.py:57
+#: utils/font_family.py:58
+msgid "Medium"
+msgstr "中等"
+
+#: props.py:259
+msgid "Multi-Weight Fonts Only"
+msgstr "仅多字重字体"
+
+#: preferences.py:275
+msgid "Multi-line Character Limit"
+msgstr "多行字符限制"
+
+#: utils/ui_textbox.py:213
+msgid "Multi-line textbox requires Blender 5.2+"
+msgstr "多行文本框需要 Blender 5.2+"
+
+#: ops/font_list.py:180
+msgid "Multi-weight only"
+msgstr "仅多字重"
+
+#: preferences.py:267
+msgid "N-Panel Textbox Lines"
+msgstr "N 面板文本框行数"
+
+#: props.py:104
+msgid "Name"
+msgstr "名称"
+
+#: props.py:311
+msgid "Name A-Z"
+msgstr "名称 A-Z"
+
+#: props.py:312
+msgid "Name Z-A"
+msgstr "名称 Z-A"
+
+#: panels/toolbar.py:126
+msgid "No font weight information available"
+msgstr "无可用字重信息"
+
+#: ops/font_list.py:309
+msgid "No matching fonts. Try turning off filters."
+msgstr "没有匹配的字体。请尝试关闭筛选器。"
+
+#: panels/sidebar.py:124
+msgid "Non-monospaced font — columns may misalign"
+msgstr "非等宽字体 — 各列可能无法对齐"
+
+#: utils/font_family.py:48
+#: utils/font_family.py:49
+msgid "Normal"
+msgstr "常规"
+
+#: props.py:269
+msgid "Only list OpenType variable font files"
+msgstr "仅列出 OpenType 可变字体文件"
+
+#: props.py:264
+msgid "Only list font families marked as favorites"
+msgstr "仅列出标记为收藏的字体家族"
+
+#: props.py:259
+msgid "Only list font families that have more than one weight on disk"
+msgstr "仅列出磁盘上具有多个字重的字体家族"
+
+#: props.py:254
+msgid "Only list fonts that contain every non-space character in the preview text"
+msgstr "仅列出包含预览文本中所有非空格字符的字体"
+
+#: preferences.py:187
+msgid "OpenType Family"
+msgstr "OpenType 家族"
+
+#: preferences.py:182
+msgid "OpenType First"
+msgstr "优先 OpenType"
+
+#: preferences.py:132
+msgid "Orange"
+msgstr "橙色"
+
+#: preferences.py:132
+msgid "Orange accent"
+msgstr "橙色强调色"
+
+#: props.py:169
+#: ops/text.py:169
+msgid "Original letter casing"
+msgstr "原始大小写"
+
+#: props.py:199
+msgid "Panel Buffer A"
+msgstr "面板缓冲区 A"
+
+#: props.py:213
+msgid "Panel Buffer Active"
+msgstr "面板缓冲区活动"
+
+#: props.py:206
+msgid "Panel Buffer B"
+msgstr "面板缓冲区 B"
+
+#: props.py:218
+msgid "Panel Buffer Lines"
+msgstr "面板缓冲区行数"
+
+#: props.py:223
+msgid "Panel Buffer Mode"
+msgstr "面板缓冲区模式"
+
+#: ops/format.py:101
+#: ops/format.py:148
+msgid "Paragraph"
+msgstr "段落"
+
+#: props.py:105
+msgid "Path"
+msgstr "路径"
+
+#: preferences.py:134
+msgid "Pink"
+msgstr "粉色"
+
+#: preferences.py:134
+msgid "Pink accent"
+msgstr "粉色强调色"
+
+#: preferences.py:169
+msgid "PostScript Name"
+msgstr "PostScript 名称"
+
+#: preferences.py:192
+msgid "PostScript Prefix"
+msgstr "PostScript 前缀"
+
+#: props.py:133
+msgid "Pre Bold Size"
+msgstr "预加粗尺寸"
+
+#: preferences.py:182
+msgid "Prefer PostScript name prefix (e.g. GenYoGothic2), then OpenType family, then file name"
+msgstr "优先使用 PostScript 名称前缀（例如 GenYoGothic2），其次是 OpenType 家族，最后是文件名"
+
+#: preferences.py:212
+msgid "Preview Content"
+msgstr "预览内容"
+
+#: preferences.py:223
+msgid "Preview Font Size"
+msgstr "预览字体大小"
+
+#: preferences.py:206
+msgid "Preview Text"
+msgstr "预览文本"
+
+#: preferences.py:156
+msgid "Preview While Browsing"
+msgstr "浏览时预览"
+
+#: ops/font_list.py:114
+msgid "Preview loading…"
+msgstr "正在加载预览…"
+
+#: preferences.py:133
+msgid "Purple"
+msgstr "紫色"
+
+#: preferences.py:133
+msgid "Purple accent"
+msgstr "紫色强调色"
+
+#: preferences.py:261
+msgid "Recent Font Families"
+msgstr "最近的字体家族"
+
+#: props.py:310
+msgid "Recently Used"
+msgstr "最近使用"
+
+#: utils/font_family.py:45
+#: utils/font_family.py:46
+msgid "Regular"
+msgstr "常规"
+
+#: ops/format.py:47
+msgid "Right"
+msgstr "右"
+
+#: props.py:152
+#: ops/orientation.py:43
+msgid "Right to Left"
+msgstr "从右到左"
+
+#: utils/font_family.py:51
+#: utils/font_family.py:52
+msgid "Roman"
+msgstr "罗马体"
+
+#: utils/font_language.py:24
+msgid "Russian"
+msgstr "俄语"
+
+#: utils/font_language.py:24
+msgid "Russian (Cyrillic script)"
+msgstr "俄语（西里尔文）"
+
+#: props.py:316
+msgid "Script Filter"
+msgstr "文字系统筛选"
+
+#: props.py:300
+#: ops/font_search_input.py:57
+msgid "Search Fonts"
+msgstr "搜索字体"
+
+#: ops/font_search_input.py:72
+msgid "Search fonts (IME supported)"
+msgstr "搜索字体（支持输入法）"
+
+#: ops/fonts.py:116
+msgid "Select a text object first"
+msgstr "请先选择一个文本物体"
+
+#: panels/sidebar.py:241
+msgid "Select a text object to edit."
+msgstr "请选择要编辑的文本物体。"
+
+#: utils/font_family.py:26
+#: utils/font_family.py:28
+msgid "SemiBold"
+msgstr "半粗体"
+
+#: utils/font_family.py:20
+#: utils/font_family.py:21
+msgid "Semilight"
+msgstr "半细体"
+
+#: ops/format.py:146
+#: ops/format.py:174
+msgid "Shear"
+msgstr "倾斜"
+
+#: props.py:122
+msgid "Show HUD"
+msgstr "显示 HUD"
+
+#: ops/font_list.py:173
+msgid "Show all fonts"
+msgstr "显示所有字体"
+
+#: preferences.py:91
+msgid "Show formatting controls in the 3D Viewport header when a text object is selected"
+msgstr "选中文本物体时在 3D 视图标题栏中显示格式控制项"
+
+#: props.py:310
+msgid "Show recently applied font families first"
+msgstr "优先显示最近使用的字体系列"
+
+#: preferences.py:150
+msgid "Show rendered font thumbnails beside each name in the font list"
+msgstr "在字体列表中每个名称旁显示渲染的字体缩略图"
+
+#: props.py:122
+msgid "Show the floating toolbar for this text object in the viewport"
+msgstr "在视图中显示此文本物体的浮动工具栏"
+
+#: preferences.py:79
+msgid "Show the floating toolbar near selected text in the 3D viewport"
+msgstr "在 3D 视图中选中文本附近显示浮动工具栏"
+
+#: preferences.py:318
+msgid "Sidebar"
+msgstr "侧边栏"
+
+#: ops/format.py:143
+#: ops/format.py:171
+msgid "Size"
+msgstr "大小"
+
+#: props.py:311
+msgid "Sort fonts by name ascending"
+msgstr "按名称升序排列字体"
+
+#: props.py:312
+msgid "Sort fonts by name descending"
+msgstr "按名称降序排列字体"
+
+#: props.py:306
+msgid "Sort order for the system font list"
+msgstr "系统字体列表的排序方式"
+
+#: props.py:175
+msgid "Stored original text before case transform"
+msgstr "大小写转换前保存的原始文本"
+
+#: props.py:133
+msgid "Stored size before faux-bold enlargement"
+msgstr "伪粗体放大前保存的大小"
+
+#: props.py:191
+#: ops/format.py:149
+msgid "Strike Pos"
+msgstr "删除线位置"
+
+#: ops/format.py:28
+msgid "Strikethrough"
+msgstr "删除线"
+
+#: props.py:186
+msgid "Strikethrough Enabled"
+msgstr "启用删除线"
+
+#: props.py:109
+msgid "Style"
+msgstr "样式"
+
+#: ops/fonts.py:127
+msgid "Style slots (bold / italic)"
+msgstr "样式槽（粗体 / 斜体）"
+
+#: props.py:165
+#: panels/toolbar.py:28
+msgid "Text Case"
+msgstr "文本大小写"
+
+#: props.py:175
+msgid "Text Case Snapshot"
+msgstr "文本大小写快照"
+
+#: panels/sidebar.py:203
+#: panels/sidebar.py:204
+msgid "Text Helper"
+msgstr "文本助手"
+
+#: preferences.py:216
+msgid "Text Object"
+msgstr "文本物体"
+
+#: props.py:139
+msgid "Text Orientation"
+msgstr "文本方向"
+
+#: ops/presets.py:11
+msgid "Text Style Preset"
+msgstr "文本样式预设"
+
+#: utils/font_language.py:23
+msgid "Thai"
+msgstr "泰语"
+
+#: utils/font_language.py:23
+msgid "Thai script"
+msgstr "泰文"
+
+#: utils/font_family.py:39
+#: utils/font_family.py:40
+msgid "Thin"
+msgstr "细体"
+
+#: preferences.py:239
+msgid "Thumbnail Height"
+msgstr "缩略图高度"
+
+#: preferences.py:231
+msgid "Thumbnail Width"
+msgstr "缩略图宽度"
+
+#: preferences.py:97
+msgid "Toolbar Offset"
+msgstr "工具栏偏移"
+
+#: ops/format.py:71
+msgid "Top"
+msgstr "顶部"
+
+#: ops/format.py:72
+msgid "Top Baseline"
+msgstr "顶部基线"
+
+#: ops/font_list.py:303
+msgid "Type in search to narrow results…"
+msgstr "输入搜索内容以缩小结果范围…"
+
+#: utils/font_family.py:33
+#: utils/font_family.py:34
+msgid "UltraLight"
+msgstr "超细体"
+
+#: ops/format.py:27
+msgid "Underline"
+msgstr "下划线"
+
+#: props.py:181
+msgid "Underline Enabled"
+msgstr "启用下划线"
+
+#: props.py:170
+#: ops/text.py:170
+msgid "Uppercase"
+msgstr "大写"
+
+#: preferences.py:216
+msgid "Use characters from the active text object"
+msgstr "使用活动文本物体中的字符"
+
+#: preferences.py:167
+msgid "Use the OpenType family name (default; prefers localized CJK names when available)"
+msgstr "使用 OpenType 家族名称（默认；有本地化中日韩名称时优先使用）"
+
+#: preferences.py:169
+msgid "Use the PostScript font name"
+msgstr "使用 PostScript 字体名称"
+
+#: preferences.py:135
+msgid "Use the custom color below"
+msgstr "使用下方的自定义颜色"
+
+#: preferences.py:218
+msgid "Use the font file display name"
+msgstr "使用字体文件的显示名称"
+
+#: preferences.py:166
+msgid "Use the font file name"
+msgstr "使用字体文件名"
+
+#: preferences.py:168
+msgid "Use the full font name from the name table"
+msgstr "使用名称表中的完整字体名称"
+
+#: preferences.py:217
+msgid "Use the preview text below"
+msgstr "使用下方的预览文本"
+
+#: props.py:127
+msgid "User explicitly enabled the floating toolbar while auto-show is off"
+msgstr "用户在自动显示关闭时显式启用了浮动工具栏"
+
+#: props.py:269
+msgid "Variable Fonts Only"
+msgstr "仅可变字体"
+
+#: ops/font_list.py:196
+msgid "Variable fonts"
+msgstr "可变字体"
+
+#: props.py:144
+#: ops/orientation.py:19
+msgid "Vertical"
+msgstr "垂直"
+
+#: props.py:158
+msgid "Vertical Source"
+msgstr "垂直来源"
+
+#: props.py:191
+msgid "Vertical line position used when strikethrough is enabled"
+msgstr "启用删除线时使用的垂直线位置"
+
+#: props.py:144
+msgid "Vertical text input"
+msgstr "垂直文本输入"
+
+#: preferences.py:305
+msgid "Viewport"
+msgstr "视图"
+
+#: preferences.py:110
+msgid "Viewport HUD display scale"
+msgstr "视图 HUD 显示比例"
+
+#: preferences.py:174
+msgid "Weight Grouping"
+msgstr "字重分组"
+
+#: preferences.py:212
+msgid "What to render inside the thumbnail"
+msgstr "缩略图内渲染的内容"
+
+#: props.py:148
+msgid "Where the first typed column appears; Enter adds the next column"
+msgstr "首次输入的列出现的位置；按回车添加下一列"
+
+#: ops/format.py:99
+#: ops/format.py:145
+msgid "Word"
+msgstr "单词"
+
+#: ops/spacing_menus.py:48
+msgid "Word Spacing"
+msgstr "单词间距"
+
+#: preferences.py:301
+msgid "•"
+msgstr "•"
+
+#: ops/text.py:47
+#: panels/sidebar.py:242
+msgctxt "Operator"
+msgid "Add Text"
+msgstr "添加文本"
+
+#: ops/format.py:193
+msgctxt "Operator"
+msgid "Add Text Frame"
+msgstr "添加文本框"
+
+#: ops/format.py:194
+msgctxt "Operator"
+msgid "Add a layout frame for wrapping and truncating text"
+msgstr "添加用于文本换行和截断的布局框"
+
+#: ops/text.py:48
+msgctxt "Operator"
+msgid "Add a new text object in the 3D viewport with optional layout frame"
+msgstr "在 3D 视图中添加新的文本物体，可选布局框"
+
+#: ops/font_favorites.py:17
+msgctxt "Operator"
+msgid "Add or remove this font family from favorites"
+msgstr "将此字体家族添加到收藏或从中移除"
+
+#: ops/format.py:92
+msgctxt "Operator"
+msgid "Adjust Spacing"
+msgstr "调整间距"
+
+#: ops/font_list.py:541
+msgctxt "Operator"
+msgid "Apply Font"
+msgstr "应用字体"
+
+#: ops/presets.py:27
+msgctxt "Operator"
+msgid "Apply Text Preset"
+msgstr "应用文本预设"
+
+#: ops/presets.py:28
+msgctxt "Operator"
+msgid "Apply a typography preset to font size, spacing, and alignment"
+msgstr "将排版预设应用到字号、间距和对齐"
+
+#: ops/font_list.py:542
+msgctxt "Operator"
+msgid "Apply this font to the selected text"
+msgstr "将此字体应用到选中的文本"
+
+#: ops/fonts.py:23
+msgctxt "Operator"
+msgid "Browse Font File"
+msgstr "浏览字体文件"
+
+#: panels/toolbar.py:106
+msgctxt "Operator"
+msgid "Browse font file…"
+msgstr "浏览字体文件…"
+
+#: ops/fonts.py:124
+msgctxt "Operator"
+msgid "Browse other font file…"
+msgstr "浏览其他字体文件…"
+
+#: panels/sidebar.py:107
+msgctxt "Operator"
+msgid "Clear"
+msgstr "清除"
+
+#: ops/text.py:76
+msgctxt "Operator"
+msgid "Clear Text"
+msgstr "清除文本"
+
+#: ops/text.py:77
+msgctxt "Operator"
+msgid "Clear all characters from the active text object"
+msgstr "清除活动文本物体中的所有字符"
+
+#: ops/font_list.py:371
+msgctxt "Operator"
+msgid "Clear cached thumbnails and rebuild them with current preview settings"
+msgstr "清除缓存的缩略图并使用当前预览设置重新生成"
+
+#: ops/font_list.py:383
+msgctxt "Operator"
+msgid "Clear persisted font-name metadata and rebuild it in the background"
+msgstr "清除已保存的字体名称元数据并在后台重建"
+
+#: ops/font_list.py:595
+msgctxt "Operator"
+msgid "Clear search text and restore sort, script filter, and filter chips to defaults"
+msgstr "清除搜索文本并将排序、书写系统过滤和过滤标签恢复为默认值"
+
+#: ops/orientation.py:79
+msgctxt "Operator"
+msgid "Convert halfwidth characters to fullwidth for better CJK alignment"
+msgstr "将半角字符转换为全角，以便更好地对齐中日韩文本"
+
+#: ops/hud_modal.py:846
+msgctxt "Operator"
+msgid "Display the floating text toolbar below the selected text in the 3D viewport"
+msgstr "在 3D 视图中将浮动文本工具栏显示在选中文本下方"
+
+#: ops/text.py:16
+msgctxt "Operator"
+msgid "Edit Text"
+msgstr "编辑文本"
+
+#: ops/hud_modal.py:798
+msgctxt "Operator"
+msgid "Ensure HUD Modal"
+msgstr "确保 HUD 模态运行"
+
+#: ops/hud_modal.py:799
+msgctxt "Operator"
+msgid "Ensure the HUD modal operator is running"
+msgstr "确保 HUD 模态操作符正在运行"
+
+#: ops/text.py:17
+msgctxt "Operator"
+msgid "Enter in-viewport text editing mode"
+msgstr "进入视图内文本编辑模式"
+
+#: ops/font_language.py:15
+msgctxt "Operator"
+msgid "Filter the font list by script or language"
+msgstr "按书写系统或语言过滤字体列表"
+
+#: panels/sidebar.py:133
+msgctxt "Operator"
+msgid "Fix"
+msgstr "修复"
+
+#: ops/orientation.py:78
+msgctxt "Operator"
+msgid "Fix Halfwidth Characters"
+msgstr "修复半角字符"
+
+#: ops/font_list.py:406
+msgctxt "Operator"
+msgid "Font Picker"
+msgstr "字体选择器"
+
+#: ops/font_list.py:469
+msgctxt "Operator"
+msgid "Font Weight Picker"
+msgstr "字重选择器"
+
+#: preferences.py:335
+#: ops/font_list.py:226
+msgctxt "Operator"
+msgid "Force Refresh Previews"
+msgstr "强制刷新预览"
+
+#: utils/header_picker_modal.py:150
+msgctxt "Operator"
+msgid "Header Font Picker Hover"
+msgstr "标题栏字体选择器悬停"
+
+#: ops/hud_modal.py:828
+msgctxt "Operator"
+msgid "Hide Floating Toolbar"
+msgstr "隐藏浮动工具栏"
+
+#: ops/hud_modal.py:829
+msgctxt "Operator"
+msgid "Hide the floating toolbar for this text object"
+msgstr "隐藏此文本物体的浮动工具栏"
+
+#: panels/sidebar.py:73
+msgctxt "Operator"
+msgid "Horizontal"
+msgstr "水平"
+
+#: ops/text.py:124
+msgctxt "Operator"
+msgid "Import Text File"
+msgstr "导入文本文件"
+
+#: ops/format.py:93
+msgctxt "Operator"
+msgid "Increase or decrease character, word, line, or paragraph spacing"
+msgstr "增加或减少字符、单词、行或段落间距"
+
+#: ops/orientation.py:62
+msgctxt "Operator"
+msgid "Insert Column Break"
+msgstr "插入分栏符"
+
+#: panels/sidebar.py:96
+msgctxt "Operator"
+msgid "Left to Right"
+msgstr "从左到右"
+
+#: ops/fonts.py:24
+msgctxt "Operator"
+msgid "Load a .ttf/.otf font from disk and assign it to the text"
+msgstr "从磁盘加载 .ttf/.otf 字体并指定给文本"
+
+#: ops/text.py:125
+msgctxt "Operator"
+msgid "Load text from a .txt file into the active text object"
+msgstr "从 .txt 文件加载文本到活动文本物体"
+
+#: ops/fonts.py:66
+msgctxt "Operator"
+msgid "Open Blender's font browser when the 3D View context is required"
+msgstr "需要 3D 视图上下文时打开 Blender 的字体浏览器"
+
+#: ops/fonts.py:65
+msgctxt "Operator"
+msgid "Open Font (Blender)"
+msgstr "打开字体（Blender）"
+
+#: ops/fonts.py:120
+msgctxt "Operator"
+msgid "Open Font Picker"
+msgstr "打开字体选择器"
+
+#: ops/font_list.py:407
+msgctxt "Operator"
+msgid "Open or close the viewport GPU font picker"
+msgstr "打开或关闭视图 GPU 字体选择器"
+
+#: ops/presets.py:58
+msgctxt "Operator"
+msgid "Open or close the viewport GPU style preset picker"
+msgstr "打开或关闭视图 GPU 样式预设选择器"
+
+#: ops/font_list.py:470
+msgctxt "Operator"
+msgid "Open or close the viewport font weight picker"
+msgstr "打开或关闭视图字体字重选择器"
+
+#: panels/sidebar.py:106
+msgctxt "Operator"
+msgid "Paste"
+msgstr "粘贴"
+
+#: ops/text.py:95
+msgctxt "Operator"
+msgid "Paste into Text"
+msgstr "粘贴到文本"
+
+#: utils/header_picker_modal.py:151
+msgctxt "Operator"
+msgid "Preview fonts while hovering the header font or weight list"
+msgstr "悬停在标题栏字体或字重列表上时预览字体"
+
+#: ops/font_list.py:382
+msgctxt "Operator"
+msgid "Rebuild Font Search Index"
+msgstr "重建字体搜索索引"
+
+#: preferences.py:364
+msgctxt "Operator"
+msgid "Rebuild Index"
+msgstr "重建索引"
+
+#: ops/font_list.py:370
+msgctxt "Operator"
+msgid "Regenerate Font Previews"
+msgstr "重新生成字体预览"
+
+#: ops/text.py:96
+msgctxt "Operator"
+msgid "Replace text content with the system clipboard"
+msgstr "用系统剪贴板替换文本内容"
+
+#: ops/font_list.py:349
+msgctxt "Operator"
+msgid "Rescan system font folders, clear failed-load caches, and rebuild font preview thumbnails"
+msgstr "重新扫描系统字体文件夹，清除加载失败缓存，并重建字体预览缩略图"
+
+#: panels/toolbar.py:171
+msgctxt "Operator"
+msgid "Reset"
+msgstr "重置"
+
+#: ops/font_list.py:594
+msgctxt "Operator"
+msgid "Reset Font Filters"
+msgstr "重置字体过滤器"
+
+#: ops/format.py:165
+msgctxt "Operator"
+msgid "Reset Format Value"
+msgstr "重置格式值"
+
+#: ops/hud_modal.py:869
+msgctxt "Operator"
+msgid "Reset HUD Position"
+msgstr "重置 HUD 位置"
+
+#: ops/format.py:166
+msgctxt "Operator"
+msgid "Reset font size or spacing to the current style preset default"
+msgstr "将字体大小或间距重置为当前样式预设的默认值"
+
+#: ops/fonts.py:95
+msgctxt "Operator"
+msgid "Restore the default Bfont when no custom font is linked"
+msgstr "未链接自定义字体时恢复默认 Bfont"
+
+#: ops/hud_modal.py:870
+msgctxt "Operator"
+msgid "Return this text object's floating toolbar to its default position"
+msgstr "将此文本物体的浮动工具栏恢复到默认位置"
+
+#: panels/sidebar.py:90
+msgctxt "Operator"
+msgid "Right to Left"
+msgstr "从右到左"
+
+#: ops/hud_modal.py:441
+msgctxt "Operator"
+msgid "Run the viewport HUD modal handler for toolbar and pickers"
+msgstr "运行视图 HUD 模态处理器以处理工具栏和选择器"
+
+#: utils/header_toolbar.py:116
+msgctxt "Operator"
+msgid "S"
+msgstr "S"
+
+#: ops/font_search_input.py:37
+msgctxt "Operator"
+msgid "Search Fonts"
+msgstr "搜索字体"
+
+#: ops/orientation.py:37
+msgctxt "Operator"
+msgid "Set Column Order"
+msgstr "设置列顺序"
+
+#: ops/font_language.py:14
+msgctxt "Operator"
+msgid "Set Font Language Filter"
+msgstr "设置字体语言过滤器"
+
+#: ops/format.py:137
+msgctxt "Operator"
+msgid "Set Spacing Value"
+msgstr "设置间距值"
+
+#: ops/format.py:39
+msgctxt "Operator"
+msgid "Set Text Alignment"
+msgstr "设置文本对齐"
+
+#: ops/text.py:163
+msgctxt "Operator"
+msgid "Set Text Case"
+msgstr "设置文本大小写"
+
+#: ops/orientation.py:12
+msgctxt "Operator"
+msgid "Set Text Orientation"
+msgstr "设置文本朝向"
+
+#: ops/format.py:65
+msgctxt "Operator"
+msgid "Set Vertical Alignment"
+msgstr "设置垂直对齐"
+
+#: ops/format.py:138
+msgctxt "Operator"
+msgid "Set font size, spacing, shear, or strikethrough position to an exact value"
+msgstr "将字体大小、间距、倾斜或删除线位置设为精确值"
+
+#: ops/format.py:40
+msgctxt "Operator"
+msgid "Set horizontal text alignment (left, center, right, or justify)"
+msgstr "设置水平文本对齐（左对齐、居中、右对齐或两端对齐）"
+
+#: ops/format.py:66
+msgctxt "Operator"
+msgid "Set vertical text alignment within the object bounds"
+msgstr "在物体边界内设置垂直文本对齐"
+
+#: ops/orientation.py:38
+msgctxt "Operator"
+msgid "Set whether new vertical columns are added left or right"
+msgstr "设置新垂直列是向左还是向右添加"
+
+#: ops/hud_modal.py:845
+msgctxt "Operator"
+msgid "Show Floating Toolbar"
+msgstr "显示浮动工具栏"
+
+#: ops/hud_modal.py:886
+msgctxt "Operator"
+msgid "Show or hide the floating toolbar in the 3D viewport"
+msgstr "在 3D 视图中显示或隐藏浮动工具栏"
+
+#: ops/orientation.py:63
+msgctxt "Operator"
+msgid "Start a new column in vertical text layout"
+msgstr "在垂直文本布局中开始新列"
+
+#: ops/presets.py:57
+msgctxt "Operator"
+msgid "Style Preset Picker"
+msgstr "样式预设选择器"
+
+#: ops/orientation.py:13
+msgctxt "Operator"
+msgid "Switch between horizontal and vertical text layout"
+msgstr "在水平与垂直文本布局之间切换"
+
+#: ops/hud_modal.py:440
+msgctxt "Operator"
+msgid "Text Helper HUD"
+msgstr "Text Helper HUD"
+
+#: ops/hud_modal.py:885
+msgctxt "Operator"
+msgid "Toggle Floating Toolbar"
+msgstr "切换浮动工具栏"
+
+#: ops/font_favorites.py:16
+msgctxt "Operator"
+msgid "Toggle Font Favorite"
+msgstr "切换字体收藏"
+
+#: ops/format.py:208
+msgctxt "Operator"
+msgid "Toggle Text Overflow"
+msgstr "切换文本溢出"
+
+#: ops/format.py:19
+msgctxt "Operator"
+msgid "Toggle Text Style"
+msgstr "切换文本样式"
+
+#: ops/format.py:20
+msgctxt "Operator"
+msgid "Toggle bold, italic, underline, or strikethrough on selected text"
+msgstr "对选中文本切换粗体、斜体、下划线或删除线"
+
+#: ops/format.py:209
+msgctxt "Operator"
+msgid "Toggle text overflow between clip and expand to fit"
+msgstr "在裁剪与扩展适应之间切换文本溢出"
+
+#: ops/text.py:164
+msgctxt "Operator"
+msgid "Transform text to default, uppercase, or lowercase"
+msgstr "将文本转换为默认、大写或小写"
+
+#: ops/font_search_input.py:38
+msgctxt "Operator"
+msgid "Type to filter fonts (native field, supports IME / Chinese input)"
+msgstr "输入以过滤字体（原生字段，支持输入法 / 中文输入）"
+
+#: ops/fonts.py:94
+msgctxt "Operator"
+msgid "Unlink Font"
+msgstr "取消链接字体"
+
+#: panels/sidebar.py:79
+msgctxt "Operator"
+msgid "Vertical"
+msgstr "垂直"

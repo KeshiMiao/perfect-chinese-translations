@@ -1,0 +1,601 @@
+# perfect-chinese: 1
+# id: io_scene_ortho4xp_mesh
+# kind: addon
+# module: bl_ext.blender_org.io_scene_ortho4xp_mesh
+# name: X-Plane DSF and Ortho4XP Mesh
+# name_zh: X-Plane地形与网格导入
+# translator: KeshiMiao
+# category: Import-Export
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:2536
+msgid "%d faces textured, %d without a cell"
+msgstr "%d 个面已贴图，%d 个无单元格"
+
+#: __init__.py:2534
+msgid "%d of %d cells used by faces"
+msgstr "%d / %d 个单元格被面使用"
+
+#: __init__.py:2546
+msgid "%d sea overlay cell(s)"
+msgstr "%d 个海面叠加单元格"
+
+#: __init__.py:2539
+msgid "%d texture(s) loaded%s"
+msgstr "已加载 %d 个纹理%s"
+
+#: __init__.py:2506
+msgid "%d verts, %d faces"
+msgstr "%d 个顶点，%d 个面"
+
+#: __init__.py:2561
+msgid "%s"
+msgstr "%s"
+
+#: __init__.py:2555
+msgid "%s seam edge(s) from the UV islands"
+msgstr "从 UV 孤岛生成 %s 条缝合边"
+
+#: __init__.py:2523
+msgid "%s: %d"
+msgstr "%s：%d"
+
+#: __init__.py:2154
+msgid "'MeshVersionFormatted 1.30', '{:.7f}' coordinates, 2-column normals -- what 1.30 wrote"
+msgstr "'MeshVersionFormatted 1.30'、'{:.7f}' 坐标、2 列法线——1.30 所写的内容"
+
+#: __init__.py:2151
+msgid "'MeshVersionFormatted 2', '{:.15f}' coordinates, 3-column normals -- what a current 1.4 build writes"
+msgstr "'MeshVersionFormatted 2'、'{:.15f}' 坐标、3 列法线——当前 1.4 构建所写的内容"
+
+#: __init__.py:2539
+msgid ", capped at %d px"
+msgstr "，上限 %d 像素"
+
+#: __init__.py:1676
+msgid ".osm file"
+msgstr ".osm 文件"
+
+#: __init__.py:2514
+msgid "?"
+msgstr "？"
+
+#: __init__.py:1859
+msgid "Additionally apply them as custom split normals so the shading matches the tile"
+msgstr "同时将其应用为自定义拆分法线，使着色与瓦片一致"
+
+#: __init__.py:1918
+msgid "After the terrain UVs are written, mark the borders between UV islands as seams -- Blender's UV > Seams from Islands, so the seams show up in the 3D viewport and 'Select Linked' / 'Rip' pick a whole ortho cell. The cell borders are adjacent faces that sample different orthophotos, so this is what tells the cells apart. Needs the UV layer, so it is skipped when 'Terrain textures (.ter)' is off"
+msgstr "写入地形 UV 后，将 UV 孤岛之间的边界标记为缝合边——即 Blender 的 UV > 从孤岛创建缝合边，使缝合边显示在 3D 视图中，并让「选择相连」/「撕裂」能选中整个正射单元格。单元格边界是采样不同正射影像的相邻面，正因如此才能区分单元格。需要 UV 层，因此关闭「地形纹理 (.ter)」时会跳过"
+
+#: __init__.py:1510
+msgid "Airport limit"
+msgstr "机场限制"
+
+#: __init__.py:1491
+msgid "Airports"
+msgstr "机场"
+
+#: __init__.py:1692
+msgid "Also draw forest boundaries. A Global Scenery tile holds thousands of forest polygons (~9,000 on +45-111), so it is off by default"
+msgstr "同时绘制森林边界。一个 Global Scenery 瓦片包含数千个森林多边形（+45-111 上约 9,000 个），因此默认关闭"
+
+#: __init__.py:1684
+msgid "Also import the DSF's polygons as plain boundaries (edges, no faces, no texture): .pol and .fac polygons and legacy class names become closed outlines, .lin line features open polylines, all draped on the terrain. Separate object, <tile>_polygons"
+msgstr "同时将 DSF 的多边形导入为纯边界（边，无面，无纹理）：.pol 和 .fac 多边形及旧式类名变为闭合轮廓，.lin 线要素为开放折线，全部贴合地形。独立物体，<tile>_polygons"
+
+#: __init__.py:2514
+msgid "CRLF"
+msgstr "CRLF"
+
+#: __init__.py:2165
+msgid "CRLF (Windows)"
+msgstr "CRLF（Windows）"
+
+#: __init__.py:2165
+msgid "Carriage return + line feed"
+msgstr "回车 + 换行"
+
+#: __init__.py:1491
+msgid "Comma-separated airport identifiers to import (KLVM, 29S, ...). Leave empty to take the airports inside the scene's tile (DSF or .mesh), or every airport in the file when there is no tile"
+msgstr "要导入的机场标识符，以逗号分隔（KLVM、29S……）。留空则取场景瓦片（DSF 或 .mesh）内的机场，无瓦片时取文件中的所有机场"
+
+#: __init__.py:2130
+msgid "Custom origin"
+msgstr "自定义原点"
+
+#: __init__.py:1859
+msgid "Custom split normals"
+msgstr "自定义拆分法线"
+
+#: __init__.py:1656
+msgid "Decode each terrain texture and downscale it to at most this many pixels (0 = native size). A DSF tile references dozens of terrain types, and X-Plane's own textures are 1024-4096 px"
+msgstr "解码每个地形纹理并缩小到最多这么多像素（0 = 原始大小）。一个 DSF 瓦片引用数十种地形类型，X-Plane 自带的纹理为 1024-4096 像素"
+
+#: __init__.py:1896
+msgid "Decode each texture and downscale it to at most this many pixels (0 = leave at native size). A 4096x2560 orthophoto costs ~250 MB once Blender decodes it and a ZL18 tile has ~1000 cells, so 1024-2048 keeps a whole tile viewable"
+msgstr "解码每个纹理并缩小到最多这么多像素（0 = 保持原始大小）。一张 4096x2560 的正射影像在 Blender 解码后约占 250 MB，而 ZL18 瓦片约有 1000 个单元格，因此 1024-2048 可让整个瓦片保持可查看"
+
+#: __init__.py:2169
+msgid "Derive the normals from the edited geometry instead of writing back the nx, ny imported from the file. Needed after moving vertices -- the DSF builder bakes these normals into the tile's normal map"
+msgstr "从编辑后的几何体推导法线，而不是写回从文件中导入的 nx、ny。移动顶点后需要此项——DSF 构建器会将这些法线烘焙进瓦片的法线贴图"
+
+#: __init__.py:1862
+msgid "Do not store normals; export will recompute them from geometry"
+msgstr "不存储法线；导出时将根据几何体重算"
+
+#: __init__.py:2401
+msgid "Enable"
+msgstr "启用"
+
+#: __init__.py:2119
+msgid "Export only the selected mesh objects (otherwise every mesh carrying a mesh_georef)"
+msgstr "仅导出选中的网格物体（否则导出所有带有 mesh_georef 的网格）"
+
+#: __init__.py:1649
+msgid "Extra texture roots"
+msgstr "额外纹理根目录"
+
+#: __init__.py:1662
+msgid "Feed each texture from a Z projection of the vertex positions instead of the baked UV layer, so the ground texture stays nailed to the map while vertices move — the same behaviour the .mesh importer offers"
+msgstr "用顶点位置的 Z 投影为每个纹理提供坐标，而不是烘焙的 UV 层，这样顶点移动时地面纹理仍固定在图上——与 .mesh 导入器的行为相同"
+
+#: __init__.py:1908
+msgid "Feed every texture from a Z-axis projection of the vertex positions instead of the baked UV layer, so the orthophoto stays nailed to the map while you drag vertices around -- the same thing X-Plane does with the same tile. The UV layer is still written (Workbench's solid view and other tools read it) and can be re-anchored with 'Projected UVs' after editing"
+msgstr "用顶点位置的 Z 轴投影为每个纹理提供坐标，而不是烘焙的 UV 层，这样拖动顶点时正射影像仍固定在图上——与 X-Plane 处理同一瓦片的方式相同。UV 层仍会写入（Workbench 的实体视图和其他工具会读取它），编辑后可用「投影 UV」重新锚定"
+
+#: __init__.py:2143
+msgid "File flavour"
+msgstr "文件版本"
+
+#: __init__.py:1642
+msgid "Folder containing 'Resources/default scenery', used to resolve the DSF's lib/... terrain references. Leave empty to walk up from the .dsf"
+msgstr "包含 'Resources/default scenery' 的文件夹，用于解析 DSF 的 lib/... 地形引用。留空则从 .dsf 逐级向上查找"
+
+#: __init__.py:1884
+msgid "Folder holding the tile's .ter files; leave empty to use the 'terrain' folder next to the .mesh"
+msgstr "存放瓦片 .ter 文件的文件夹；留空则使用 .mesh 旁的 'terrain' 文件夹"
+
+#: __init__.py:2128
+msgid "From the object (mesh_georef)"
+msgstr "来自物体（mesh_georef）"
+
+#: __init__.py:2125
+msgid "Georeference"
+msgstr "地理参考"
+
+#: __init__.py:1620
+msgid "Give every terrain definition (the DSF's TERT table) its own material slot, so the ground the sim renders per type is visible in Blender"
+msgstr "为每个地形定义（DSF 的 TERT 表）分配独立的材质槽，以便在 Blender 中看到模拟器按类型渲染的地面"
+
+#: __init__.py:1866
+msgid "Give every triangle attribute (water, sea, runway, ...) its own material slot with a viewport colour, so the water cuts and airport flattening are visible at a glance. Skipped when terrain textures are imported: a face has one material slot, and the orthophoto wins"
+msgstr "为每个三角形属性（水、海、跑道……）分配带视图颜色的独立材质槽，让水域切割和机场平整一目了然。导入地形纹理时跳过：一个面只有一个材质槽，正射影像优先"
+
+#: __init__.py:1505
+msgid "Grid (m)"
+msgstr "网格 (m)"
+
+#: __init__.py:1516
+msgid "Height above the surface so the pavement is visible instead of z-fighting with it"
+msgstr "高出表面的高度，使路面可见而不与其发生 Z 冲突"
+
+#: __init__.py:1862
+msgid "Ignore"
+msgstr "忽略"
+
+#: __init__.py:1692
+msgid "Include forest areas (.for)"
+msgstr "包含森林区域 (.for)"
+
+#: __init__.py:2128
+msgid "Inverse of the projection stored when the tile was imported"
+msgstr "导入瓦片时存储的投影的逆变换"
+
+#: __init__.py:1856
+msgid "Keep as attribute (fast)"
+msgstr "保留为属性（快速）"
+
+#: __init__.py:2149
+msgid "Keep the flavour of the imported tile"
+msgstr "保持导入瓦片的文件版本"
+
+#: __init__.py:2163
+msgid "Keep whatever the imported file used"
+msgstr "保持导入文件所用的设置"
+
+#: __init__.py:2514
+msgid "LF"
+msgstr "LF"
+
+#: __init__.py:2166
+msgid "LF (Unix/macOS)"
+msgstr "LF（Unix/macOS）"
+
+#: __init__.py:2139
+msgid "Latitude of the south-west corner of the 1x1 degree tile"
+msgstr "1x1 度瓦片西南角的纬度"
+
+#: __init__.py:1516
+msgid "Lift (m)"
+msgstr "抬升 (m)"
+
+#: __init__.py:2159
+msgid "Line endings"
+msgstr "换行符"
+
+#: __init__.py:2166
+msgid "Line feed only"
+msgstr "仅换行"
+
+#: __init__.py:1705
+msgid "List the objects / polygons / vector networks / raster layers that were parsed but not imported (out of scope: this add-on imports the terrain mesh)"
+msgstr "列出已解析但未导入的物体 / 多边形 / 矢量网络 / 栅格图层（超出范围：此插件仅导入地形网格）"
+
+#: __init__.py:1889
+msgid "Load images for at most this many cells, the cells owning the most faces first (0 = every cell). Materials, metadata and UVs are created for all of them either way; only the image is skipped"
+msgstr "最多为这么多个单元格加载图像，优先加载拥有最多面的单元格（0 = 全部单元格）。无论哪种情况，都会为所有单元格创建材质、元数据和 UV；仅跳过图像"
+
+#: __init__.py:2135
+msgid "Longitude of the south-west corner of the 1x1 degree tile"
+msgstr "1x1 度瓦片西南角的经度"
+
+#: __init__.py:1699
+msgid "Mark the borders between terrain-type UV islands as seams. Off by default: a DSF tile has hundreds of terrain types and the edge sort costs seconds on a 500k-triangle tile"
+msgstr "将地形类型 UV 孤岛之间的边界标记为缝合边。默认关闭：一个 DSF 瓦片有数百种地形类型，在 50 万三角面的瓦片上排序边需要数秒"
+
+#: __init__.py:1620
+msgid "Material per terrain definition"
+msgstr "每个地形定义一个材质"
+
+#: __init__.py:1866
+msgid "Material slot per triangle attribute"
+msgstr "按三角形属性分配材质槽"
+
+#: __init__.py:1656
+#: __init__.py:1896
+msgid "Max texture size"
+msgstr "最大纹理尺寸"
+
+#: __init__.py:1889
+msgid "Max textures"
+msgstr "最大纹理数"
+
+#: __init__.py:2208
+msgid "No 'mesh_georef' on the selected meshes. Import a .mesh first, or switch Georeference to 'Custom origin' and enter the tile corner."
+msgstr "所选网格上没有 'mesh_georef'。请先导入 .mesh，或将「地理参考」切换为「自定义原点」并输入瓦片角点。"
+
+#: __init__.py:2468
+msgid "No Ortho4XP tile mesh to mark"
+msgstr "没有可标记的 Ortho4XP 瓦片网格"
+
+#: __init__.py:2406
+msgid "No Ortho4XP tile mesh to project"
+msgstr "没有可投影的 Ortho4XP 瓦片网格"
+
+#: __init__.py:2440
+msgid "No Ortho4XP tile mesh to reproject"
+msgstr "没有可重新投影的 Ortho4XP 瓦片网格"
+
+#: __init__.py:2499
+msgid "No Ortho4XP tile selected"
+msgstr "未选择 Ortho4XP 瓦片"
+
+#: __init__.py:2188
+msgid "No mesh objects to export. Import a .mesh first, or tick 'Selected objects only' and select the meshes to write."
+msgstr "没有可导出的网格物体。请先导入 .mesh，或勾选「仅选中物体」并选择要写入的网格。"
+
+#: __init__.py:1649
+msgid "Optional; separated by ':' (';' on Windows). Additional folders searched for terrain textures, for scenery packages that ship their own"
+msgstr "可选；用 ':' 分隔（Windows 上用 ';'）。搜索地形纹理的附加文件夹，用于自带纹理的地景包"
+
+#: __init__.py:2490
+msgid "Ortho4XP"
+msgstr "Ortho4XP"
+
+#: __init__.py:2154
+msgid "Ortho4XP 1.30"
+msgstr "Ortho4XP 1.30"
+
+#: __init__.py:2151
+msgid "Ortho4XP 1.4 (v2)"
+msgstr "Ortho4XP 1.4 (v2)"
+
+#: __init__.py:2486
+msgid "Ortho4XP Mesh"
+msgstr "Ortho4XP 网格"
+
+#: __init__.py:2159
+msgid "Ortho4XP writes the file in text mode, so a Windows build produces CRLF"
+msgstr "Ortho4XP 以文本模式写入文件，因此 Windows 版本会产生 CRLF"
+
+#: __init__.py:1684
+msgid "Polygon outlines"
+msgstr "多边形轮廓"
+
+#: __init__.py:1662
+#: __init__.py:1908
+msgid "Project textures along Z (fixed map)"
+msgstr "沿 Z 轴投影纹理（固定映射）"
+
+#: __init__.py:1875
+msgid "Read the .ter files of the tile next to the .mesh, work out which ortho cell each face belongs to from their LOAD_CENTER footprints, give every cell its own material and UV-map each face once over its own cell. Turn off for a geometry-only import"
+msgstr "读取 .mesh 旁的 .ter 文件，根据 LOAD_CENTER 覆盖范围判断每个面属于哪个正射影像单元格，为每个单元格分配独立材质，并将每个面在其所属单元格上做一次 UV 映射。关闭则仅导入几何体"
+
+#: __init__.py:2169
+msgid "Recompute normals"
+msgstr "重新计算法线"
+
+#: __init__.py:1929
+msgid "Report non-standard input"
+msgstr "报告非标准输入"
+
+#: __init__.py:1705
+msgid "Report skipped content"
+msgstr "报告跳过的内容"
+
+#: __init__.py:1929
+msgid "Report skipped sections, non-zero vertex references and line endings"
+msgstr "报告跳过的段、非零顶点引用和行尾符"
+
+#: __init__.py:1627
+msgid "Resolve each terrain definition to its .ter (or bitmap) and load its BASE_TEX / NORMAL_TEX into the material. Built-in types such as terrain_Water have no file on disk and are reported separately"
+msgstr "将每个地形定义解析到其 .ter（或位图），并将其 BASE_TEX / NORMAL_TEX 加载到材质中。terrain_Water 等内置类型在磁盘上没有文件，将单独报告"
+
+#: __init__.py:1510
+msgid "Safety valve: without identifiers and without a tile, refuse a file that holds more airports than this instead of building thousands of pavements (the full worldwide apt.dat has ~40,000)"
+msgstr "安全阀：既无标识符又无瓦片时，若文件中的机场数超过此值则拒绝处理，以免构建数千条铺面（全球完整的 apt.dat 约有 40,000 个）"
+
+#: __init__.py:2149
+#: __init__.py:2163
+msgid "Same as the source file"
+msgstr "与源文件相同"
+
+#: __init__.py:1669
+msgid "Save the imported polygon boundaries as OSM XML next to the DSF (<dsf>.patch.osm), one way per winding with the X-Plane class in the xplane_class tag, so JOSM can open and edit them"
+msgstr "将导入的多边形边界保存为 DSF 旁的 OSM XML（<dsf>.patch.osm），每个绕序一个 way，X-Plane 类别写在 xplane_class 标签中，以便 JOSM 打开和编辑"
+
+#: __init__.py:1699
+#: __init__.py:1918
+msgid "Seams from UV islands"
+msgstr "从 UV 孤岛标记缝合线"
+
+#: __init__.py:2119
+msgid "Selected objects only"
+msgstr "仅选中物体"
+
+#: __init__.py:1681
+msgid "Shade the terrain smooth (it looks faceted otherwise)"
+msgstr "将地形着色为平滑（否则会显得有棱角）"
+
+#: __init__.py:1903
+msgid "Shade the tile smooth (terrain looks faceted otherwise)"
+msgstr "将瓦片着色为平滑（否则地形会显得有棱角）"
+
+#: __init__.py:1681
+#: __init__.py:1903
+msgid "Smooth shading"
+msgstr "平滑着色"
+
+#: __init__.py:1856
+msgid "Store nx, ny in a 'mesh_normals' attribute, leave shading to Blender's geometric normals"
+msgstr "将 nx、ny 存入 'mesh_normals' 属性，着色交由 Blender 的几何法线处理"
+
+#: __init__.py:1505
+msgid "Target edge length: smaller follows the terrain more closely and costs more triangles"
+msgstr "目标边长：越小越贴合地形，三角形也越多"
+
+#: __init__.py:1884
+msgid "Terrain folder"
+msgstr "地形文件夹"
+
+#: __init__.py:1627
+#: __init__.py:1875
+msgid "Terrain textures (.ter)"
+msgstr "地形纹理（.ter）"
+
+#: __init__.py:1849
+msgid "The file stores only the horizontal components (nx, ny) of each normal, rounded to 2 decimals. 'Attribute only' keeps them for a faithful export without changing the shading; 'Custom split normals' also makes Blender shade with them; 'Ignore' drops them (export then recomputes them)"
+msgstr "文件仅存储每个法线的水平分量（nx、ny），保留两位小数。「仅属性」会保留它们以便忠实导出而不改变着色；「自定义拆分法线」还会让 Blender 用它们着色；「忽略」会丢弃它们（导出时会重新计算）"
+
+#: __init__.py:2219
+msgid "The selected meshes belong to different tiles (lon0/lat0 differ). One .mesh covers a single 1x1 degree tile -- export one tile at a time."
+msgstr "所选网格属于不同的瓦片（lon0/lat0 不同）。一个 .mesh 只覆盖单个 1x1 度瓦片——请一次导出一个瓦片。"
+
+#: __init__.py:2502
+msgid "Tile %s"
+msgstr "瓦片 %s"
+
+#: __init__.py:2139
+msgid "Tile south latitude"
+msgstr "瓦片南纬"
+
+#: __init__.py:2135
+msgid "Tile west longitude"
+msgstr "瓦片西经"
+
+#: __init__.py:1635
+msgid "UVs from the .ter mapping"
+msgstr "来自 .ter 映射的 UV"
+
+#: __init__.py:2548
+msgid "UVs in %s (%s of %s loop(s))"
+msgstr "%s 中的 UV（%s / %s 个循环）"
+
+#: __init__.py:1497
+msgid "Use the scene's tile"
+msgstr "使用场景的瓦片"
+
+#: __init__.py:2130
+msgid "Use the tile origin entered below (for meshes modelled from scratch in Blender)"
+msgstr "使用下方输入的瓦片原点（用于在 Blender 中从头建模的网格）"
+
+#: __init__.py:1849
+msgid "Vertex normals"
+msgstr "顶点法线"
+
+#: __init__.py:1497
+msgid "When a tile is in the scene (a DSF import or an Ortho4XP .mesh import), take the airports inside it and drape the pavement onto its terrain. Off, or with no tile, the pavement is placed flat at each airport's own elevation — apt.dat does not need a terrain import to work"
+msgstr "当场景中存在瓦片（导入 DSF 或 Ortho4XP .mesh）时，取其中的机场并将铺面披覆到其地形上。关闭或无瓦片时，铺面会平放在各机场自身的高程处——apt.dat 无需导入地形即可使用"
+
+#: __init__.py:2125
+msgid "Where the local->WGS84 projection comes from"
+msgstr "局部坐标到 WGS84 投影的来源"
+
+#: __init__.py:1676
+msgid "Where to write the .osm; leave empty for <dsf>.patch.osm next to the DSF"
+msgstr ".osm 的写入位置；留空则写入 DSF 旁的 <dsf>.patch.osm"
+
+#: __init__.py:2143
+msgid "Which writer's formatting to reproduce. Both flavours hold identical geometry; they differ in the header version string, the decimals on coordinates and whether the normal block has a (literal 0) third column"
+msgstr "要复现哪个写入器的格式。两种风格保存的几何体相同；区别在于头部版本字符串、坐标小数位，以及法线块是否有（字面 0 的）第三列"
+
+#: __init__.py:1669
+msgid "Write .osm"
+msgstr "写入 .osm"
+
+#: __init__.py:2177
+msgid "Write a literal 0 as the third normal component, as Ortho4XP 1.4 does. Only affects the v2 flavour: the 1.30 flavour has no third column"
+msgstr "按 Ortho4XP 1.4 的做法，将第三法线分量写为字面 0。仅影响 v2 风格：1.30 风格没有第三列"
+
+#: __init__.py:1635
+msgid "Write one UV layer from each terrain type's .ter — the PROJECTED metres-per-texture scale, or its LOAD_CENTER footprint. Without it the textures have no UVs to sample"
+msgstr "为每种地形类型的 .ter 写入一个 UV 层——PROJECTED 的每纹理米数比例，或它的 LOAD_CENTER 覆盖范围。没有它，纹理就没有可采样的 UV"
+
+#: __init__.py:2570
+msgid "X east, Y north, Z up"
+msgstr "X 向东，Y 向北，Z 向上"
+
+#: __init__.py:1642
+msgid "X-Plane root"
+msgstr "X-Plane 根目录"
+
+#: __init__.py:2561
+msgid "Z axis, fixed on the map"
+msgstr "Z 轴，固定映射"
+
+#: __init__.py:2177
+msgid "Zero third normal component"
+msgstr "第三法线分量为零"
+
+#: __init__.py:2561
+msgid "baked UV layer"
+msgstr "烘焙的 UV 层"
+
+#: __init__.py:2504
+msgid "lon %.0f..%.0f  lat %.0f..%.0f"
+msgstr "经度 %.0f..%.0f  纬度 %.0f..%.0f"
+
+#: __init__.py:2544
+msgid "no texture image loaded"
+msgstr "未加载纹理图像"
+
+#: __init__.py:2514
+msgid "source v%s [%s], %s"
+msgstr "源 v%s [%s]，%s"
+
+#: __init__.py:2533
+msgid "terrain textures:"
+msgstr "地形纹理："
+
+#: __init__.py:2560
+msgid "texture projection:"
+msgstr "纹理投影："
+
+#: __init__.py:1559
+msgid "the pavements have no boundary to place"
+msgstr "路面没有可放置的边界"
+
+#: __init__.py:2521
+msgid "triangle attributes:"
+msgstr "三角形属性："
+
+#: __init__.py:2569
+msgid "vertex coords are metres:"
+msgstr "顶点坐标为米："
+
+#: __init__.py:2548
+#: __init__.py:2555
+msgid "{:,}"
+msgstr "{:,}"
+
+#: __init__.py:2113
+msgctxt "Operator"
+msgid "Export Ortho4XP Mesh"
+msgstr "导出 Ortho4XP 网格"
+
+#: __init__.py:2396
+msgctxt "Operator"
+msgid "Feed the tile's textures from a Z-axis projection of the vertex positions (fixed map) or put them back on the baked UV layer"
+msgstr "通过顶点位置的 Z 轴投影（固定贴图）为瓦片提供纹理，或将纹理放回烘焙的 UV 层"
+
+#: __init__.py:2565
+msgctxt "Operator"
+msgid "Fix to map"
+msgstr "固定到贴图"
+
+#: __init__.py:1843
+msgctxt "Operator"
+msgid "Import Ortho4XP Mesh"
+msgstr "导入 Ortho4XP 网格"
+
+#: __init__.py:1614
+msgctxt "Operator"
+msgid "Import X-Plane DSF"
+msgstr "导入 X-Plane DSF"
+
+#: __init__.py:1485
+msgctxt "Operator"
+msgid "Import X-Plane apt.dat (pavement)"
+msgstr "导入 X-Plane apt.dat（路面）"
+
+#: __init__.py:2458
+msgctxt "Operator"
+msgid "Mark every edge whose two faces hand it different UVs -- what Blender's UV > Seams from Islands does, which on a tile are the borders between ortho cells. Computed on the datablock, so unlike the menu item it needs no edit mode round trip and no second copy of the mesh"
+msgstr "标记两侧面 UV 不同的所有边——即 Blender 的 UV > 从孤岛标记缝合线 所做之事，在瓦片上就是正交单元之间的边界。在数据块上计算，因此与菜单项不同，无需往返编辑模式，也无需复制第二份网格"
+
+#: __init__.py:2581
+#: __init__.py:2590
+msgctxt "Operator"
+msgid "Ortho4XP Mesh (.mesh)"
+msgstr "Ortho4XP 网格（.mesh）"
+
+#: __init__.py:2429
+msgctxt "Operator"
+msgid "Projected UVs"
+msgstr "投影 UV"
+
+#: __init__.py:2430
+msgctxt "Operator"
+msgid "Recompute the XPlaneProjected UV layer from where the vertices are now (uv = position * scale + offset, per cell). Rendered views use the Z projection and do not need this; Workbench's solid view, the UV editor and anything else reading the UV layer do, after geometry has been moved"
+msgstr "根据顶点当前位置重新计算 XPlaneProjected UV 层（uv = 位置 * 缩放 + 偏移，逐单元）。渲染视图使用 Z 投影，不需要此项；而 Workbench 的实体视图、UV 编辑器及其他读取 UV 层的功能在几何体移动后需要"
+
+#: __init__.py:2457
+msgctxt "Operator"
+msgid "Seams from Islands"
+msgstr "从孤岛标记缝合线"
+
+#: __init__.py:2566
+msgctxt "Operator"
+msgid "Use UVs"
+msgstr "使用 UV"
+
+#: __init__.py:2583
+msgctxt "Operator"
+msgid "X-Plane DSF (terrain, .dsf)"
+msgstr "X-Plane DSF（地形，.dsf）"
+
+#: __init__.py:2585
+msgctxt "Operator"
+msgid "X-Plane apt.dat (pavement, .dat)"
+msgstr "X-Plane apt.dat（路面，.dat）"
+
+#: __init__.py:2395
+msgctxt "Operator"
+msgid "Z-axis projection"
+msgstr "Z 轴投影"

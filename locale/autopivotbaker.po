@@ -1,0 +1,182 @@
+# perfect-chinese: 1
+# id: autopivotbaker
+# kind: addon
+# module: bl_ext.blender_org.autopivotbaker
+# name: Auto Pivot Baker
+# name_zh: 自动轴心烘焙
+# translator: KeshiMiao
+# category: Import-Export
+# supported_versions: >=5.0.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: ui/panel.py:8
+msgid "APB"
+msgstr "APB"
+
+#: operators/op_gn_handler.py:13
+msgid "APB Geometry Nodes are already loaded"
+msgstr "APB 几何节点已加载"
+
+#: operators/op_gn_handler.py:11
+msgid "APB Geometry Nodes loaded"
+msgstr "已加载 APB 几何节点"
+
+#: operators/op_gn_handler.py:23
+msgid "APB Geometry Nodes unloaded"
+msgstr "已卸载 APB 几何节点"
+
+#: ui/panel.py:27
+msgid "Advanced"
+msgstr "高级"
+
+#: ui/panel.py:4
+msgid "Auto Pivot Baker"
+msgstr "Auto Pivot Baker"
+
+#: properties/addon_properties.py:16
+msgid "Bake data for Unity"
+msgstr "为 Unity 烘焙数据"
+
+#: properties/addon_properties.py:15
+msgid "Bake data for Unreal Engine"
+msgstr "为 Unreal Engine 烘焙数据"
+
+#: ui/panel.py:14
+msgid "Baking Settings"
+msgstr "烘焙设置"
+
+#: properties/addon_properties.py:26
+msgid "Bottom Center"
+msgstr "底部中心"
+
+#: properties/addon_properties.py:25
+msgid "Center"
+msgstr "中心"
+
+#: properties/addon_properties.py:21
+msgid "Choose the origin of the combined mesh"
+msgstr "选择合并网格的原点"
+
+#: properties/addon_properties.py:5
+msgid "Collection"
+msgstr "集合"
+
+#: properties/addon_properties.py:5
+msgid "Collection contaning the separate objects to bake"
+msgstr "包含要烘焙的独立物体的集合"
+
+#: properties/addon_properties.py:38
+msgid "Export Folder"
+msgstr "导出文件夹"
+
+#: properties/addon_properties.py:32
+msgid "Export Mesh"
+msgstr "导出网格"
+
+#: properties/addon_properties.py:32
+msgid "Export the baked mesh as an FBX. Export settings are based on the selected target engine"
+msgstr "将烘焙后的网格导出为 FBX。导出设置基于所选目标引擎"
+
+#: operators/op_baker.py:26
+msgid "Failed to bake pivot data."
+msgstr "烘焙轴心数据失败。"
+
+#: operators/op_baker.py:32
+msgid "Failed to export FBX."
+msgstr "导出 FBX 失败。"
+
+#: properties/addon_properties.py:38
+msgid "Folder where the baked FBX will be exported"
+msgstr "烘焙后的 FBX 将导出到此文件夹"
+
+#: properties/addon_properties.py:21
+msgid "Mesh Origin"
+msgstr "网格原点"
+
+#: operators/op_baker.py:13
+msgid "No collection selected."
+msgstr "未选择集合。"
+
+#: operators/op_gn_handler.py:25
+msgid "No unused APB Geometry Nodes to unload"
+msgstr "没有可卸载的未使用 APB 几何节点"
+
+#: properties/addon_properties.py:11
+msgid "Target Engine"
+msgstr "目标引擎"
+
+#: properties/addon_properties.py:11
+msgid "Target game engine for the baked data"
+msgstr "烘焙数据的目标游戏引擎"
+
+#: properties/addon_properties.py:26
+msgid "The origin is at the bottom center of the geometry"
+msgstr "原点位于几何体的底部中心"
+
+#: properties/addon_properties.py:25
+msgid "The origin is at the center of the geometry"
+msgstr "原点位于几何体的中心"
+
+#: properties/addon_properties.py:27
+msgid "The origin is at the top center of the geometry"
+msgstr "原点位于几何体的顶部中心"
+
+#: operators/op_baker.py:17
+msgid "The selected collection contains no mesh objects."
+msgstr "所选集合不包含网格物体。"
+
+#: properties/addon_properties.py:27
+msgid "Top Center"
+msgstr "顶部中心"
+
+#: properties/addon_properties.py:16
+msgid "Unity"
+msgstr "Unity"
+
+#: properties/addon_properties.py:15
+msgid "Unreal"
+msgstr "Unreal"
+
+#: operators/op_baker.py:6
+msgctxt "Operator"
+msgid "Bake Pivot"
+msgstr "烘焙轴心"
+
+#: operators/op_baker.py:7
+msgctxt "Operator"
+msgid "Bake pivot data"
+msgstr "烘焙轴心数据"
+
+#: ui/panel.py:29
+msgctxt "Operator"
+msgid "Load APB Geometry Nodes"
+msgstr "加载 APB 几何节点"
+
+#: operators/op_gn_handler.py:6
+msgctxt "Operator"
+msgid "Load Geometry Nodes"
+msgstr "加载几何节点"
+
+#: operators/op_gn_handler.py:7
+msgctxt "Operator"
+msgid "Load the APB Geometry Nodes into the current Blender file"
+msgstr "将 APB 几何节点加载到当前 Blender 文件"
+
+#: operators/op_gn_handler.py:19
+msgctxt "Operator"
+msgid "Remove unused APB Geometry Nodes from the current Blender file"
+msgstr "从当前 Blender 文件中移除未使用的 APB 几何节点"
+
+#: ui/panel.py:30
+msgctxt "Operator"
+msgid "Unload APB Geometry Nodes"
+msgstr "卸载 APB 几何节点"
+
+#: operators/op_gn_handler.py:18
+msgctxt "Operator"
+msgid "Unload Geometry Nodes"
+msgstr "卸载几何节点"

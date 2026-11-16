@@ -1,0 +1,42 @@
+# perfect-chinese: 1
+# id: original_node_labels
+# kind: addon
+# module: bl_ext.blender_org.original_node_labels
+# name: Node Original Labels
+# name_zh: 节点原始标签
+# translator: KeshiMiao
+# category: Node
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: session.py:50
+msgid "Draw the original label above every node that has a custom label. Applies to this Blender session only; the default comes from the add-on preferences"
+msgstr "在每个带有自定义标签的节点上方绘制原始标签。仅对本次 Blender 会话生效；默认值来自插件偏好设置"
+
+#: __init__.py:32
+msgid "Orig. Label"
+msgstr "原始标签"
+
+#: ui.py:30
+msgid "Original Label"
+msgstr "原始标签"
+
+#: session.py:50
+msgid "Show Orig. Labels"
+msgstr "显示原始标签"
+
+#: preferences.py:32
+msgid "Show original node labels by default (changeable per session in N-Panel, Node tab)"
+msgstr "默认显示节点原始标签（可在 N 面板的「节点」选项卡中按会话更改）"
+
+#: __init__.py:32
+msgid "The label Blender would show for this node if it had no custom label"
+msgstr "如果该节点没有自定义标签，Blender 将为此节点显示的标签"
+
+#: preferences.py:32
+msgid "Whether the overlay starts out enabled when Blender launches. The checkbox in the node editor's sidebar overrides this for the current session without changing this setting"
+msgstr "Blender 启动时叠加层是否默认启用。节点编辑器侧栏中的复选框可在当前会话中覆盖此项，而不更改该设置"

@@ -1,0 +1,161 @@
+# perfect-chinese: 1
+# id: landxml_tin_importer
+# kind: addon
+# module: bl_ext.blender_org.landxml_tin_importer
+# name: LandXML TIN Importer
+# name_zh: 三角网地形导入
+# translator: KeshiMiao
+# category: 
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:43
+msgid "Cancel the import if Blender does not retain the parsed LandXML vertex and face counts"
+msgstr "若 Blender 未保留解析出的 LandXML 顶点数和面数，则取消导入"
+
+#: __init__.py:48
+msgid "Coordinate order used by the LandXML <P> point values"
+msgstr "LandXML <P> 点值使用的坐标顺序"
+
+#: __init__.py:53
+msgid "Easting, Northing, Elevation"
+msgstr "东坐标、北坐标、高程"
+
+#: __init__.py:128
+msgid "Import completed"
+msgstr "导入完成"
+
+#: __init__.py:25
+msgid "International Feet"
+msgstr "国际英尺"
+
+#: __init__.py:52
+msgid "LandXML 1.2 standard order; most Civil 3D exports"
+msgstr "LandXML 1.2 标准顺序；大多数 Civil 3D 导出"
+
+#: __init__.py:164
+msgid "LandXML TIN differs from its imported geometry snapshot"
+msgstr "LandXML TIN 与导入的几何快照不一致"
+
+#: __init__.py:166
+msgid "LandXML TIN matches its imported geometry snapshot"
+msgstr "LandXML TIN 与导入的几何快照一致"
+
+#: __init__.py:20
+msgid "Linear units used by the LandXML point coordinates"
+msgstr "LandXML 点坐标使用的长度单位"
+
+#: __init__.py:24
+msgid "Meters"
+msgstr "米"
+
+#: __init__.py:53
+msgid "Non-standard order; use if the terrain appears mirrored or rotated"
+msgstr "非标准顺序；若地形出现镜像或旋转请使用"
+
+#: __init__.py:52
+msgid "Northing, Easting, Elevation"
+msgstr "北坐标、东坐标、高程"
+
+#: __init__.py:26
+msgid "One foot equals 1200/3937 meters"
+msgstr "1 英尺等于 1200/3937 米"
+
+#: __init__.py:25
+msgid "One foot equals exactly 0.3048 meters"
+msgstr "1 英尺精确等于 0.3048 米"
+
+#: __init__.py:40
+msgid "Pivot Easting"
+msgstr "枢轴东坐标"
+
+#: __init__.py:42
+msgid "Pivot Elevation"
+msgstr "枢轴高程"
+
+#: __init__.py:41
+msgid "Pivot Northing"
+msgstr "枢轴北坐标"
+
+#: __init__.py:48
+msgid "Point Order"
+msgstr "点顺序"
+
+#: __init__.py:30
+msgid "Shift Near Origin"
+msgstr "平移到原点附近"
+
+#: __init__.py:20
+msgid "Source Units"
+msgstr "源单位"
+
+#: __init__.py:24
+msgid "Source coordinates are meters"
+msgstr "源坐标为米"
+
+#: __init__.py:137
+msgid "Source topology validated"
+msgstr "源拓扑已验证"
+
+#: __init__.py:139
+msgid "Source topology validation was skipped"
+msgstr "已跳过源拓扑验证"
+
+#: __init__.py:30
+msgid "Subtract one shared minimum Easting/Northing while retaining source elevation"
+msgstr "减去共同的最小东坐标/北坐标，保留源高程"
+
+#: __init__.py:26
+msgid "US Survey Feet"
+msgstr "美国测量英尺"
+
+#: __init__.py:35
+msgid "Use Survey Pivot"
+msgstr "使用测量枢轴"
+
+#: __init__.py:35
+msgid "Use the supplied source Easting, Northing, and Elevation as the local mesh origin"
+msgstr "使用提供的源东坐标、北坐标和高程作为局部网格原点"
+
+#: __init__.py:43
+msgid "Validate Original TIN Faces"
+msgstr "验证原始 TIN 面"
+
+#: __init__.py:152
+msgctxt "Operator"
+msgid "Compare the raw mesh to its authoritative LandXML import fingerprint"
+msgstr "将原始网格与其权威的 LandXML 导入指纹进行对比"
+
+#: __init__.py:13
+msgctxt "Operator"
+msgid "Import LandXML TIN Surface"
+msgstr "导入 LandXML TIN 表面"
+
+#: __init__.py:14
+msgctxt "Operator"
+msgid "Import authoritative LandXML Points and Faces as Blender meshes"
+msgstr "将权威的 LandXML 点和面导入为 Blender 网格"
+
+#: __init__.py:111
+msgctxt "Operator"
+msgid "LandXML Import Validation"
+msgstr "LandXML 导入验证"
+
+#: __init__.py:171
+msgctxt "Operator"
+msgid "LandXML TIN Surface (.xml)"
+msgstr "LandXML TIN 表面 (.xml)"
+
+#: __init__.py:112
+msgctxt "Operator"
+msgid "Show the import validation summary"
+msgstr "显示导入验证摘要"
+
+#: __init__.py:151
+msgctxt "Operator"
+msgid "Validate LandXML TIN Integrity"
+msgstr "验证 LandXML TIN 完整性"

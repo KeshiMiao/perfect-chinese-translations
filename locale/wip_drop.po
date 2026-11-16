@@ -1,0 +1,281 @@
+# perfect-chinese: 1
+# id: wip_drop
+# kind: addon
+# module: bl_ext.blender_org.wip_drop
+# name: WIP Drop
+# name_zh: 进度分享
+# translator: KeshiMiao
+# category: Render
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: preferences.py:76
+msgid "Add render info"
+msgstr "添加渲染信息"
+
+#: __init__.py:32
+msgid "Also send the previous image of the WIP folder, side by side"
+msgstr "同时并排发送 WIP 文件夹中的上一张图像"
+
+#: __init__.py:32
+msgid "Before / after"
+msgstr "之前 / 之后"
+
+#: operators.py:45
+msgid "Before / after needs a saved .blend and “Keep a copy of each image”"
+msgstr "「之前 / 之后」需要已保存的 .blend 文件和「保留每张图像的副本」"
+
+#: operators.py:27
+#: preferences.py:90
+msgid "Channels"
+msgstr "频道"
+
+#: preferences.py:26
+msgid "Discord channel settings > Integrations > Webhooks > Copy Webhook URL"
+msgstr "Discord 频道设置 > 整合 > Webhooks > 复制 Webhook URL"
+
+#: preferences.py:72
+msgid "Display name"
+msgstr "显示名称"
+
+#: preferences.py:15
+msgid "Drag a rectangle anywhere in the Blender window to choose what to send"
+msgstr "在 Blender 窗口任意位置拖动矩形以选择要发送的内容"
+
+#: preferences.py:15
+msgid "Draw a Frame"
+msgstr "绘制边框"
+
+#: preferences.py:78
+msgid "Format"
+msgstr "格式"
+
+#: operators.py:18
+#: operators.py:76
+msgid "Image"
+msgstr "图像"
+
+#: preferences.py:80
+msgid "JPEG"
+msgstr "JPEG"
+
+#: preferences.py:74
+msgid "Keep a copy of each image"
+msgstr "保留每张图像的副本"
+
+#: preferences.py:13
+msgid "Last Render"
+msgstr "上次渲染"
+
+#: ui.py:39
+msgid "Last sends"
+msgstr "最近发送"
+
+#: preferences.py:80
+msgid "Lighter, slightly compressed"
+msgstr "体积更小，轻微压缩"
+
+#: preferences.py:82
+msgid "Longest side of the sent image in pixels, 0 keeps the original size"
+msgstr "发送图像最长边的像素数，0 表示保持原始尺寸"
+
+#: preferences.py:79
+msgid "Lossless, heavier"
+msgstr "无损，体积更大"
+
+#: preferences.py:82
+msgid "Max size"
+msgstr "最大尺寸"
+
+#: __init__.py:28
+#: preferences.py:32
+msgid "Message"
+msgstr "消息"
+
+#: preferences.py:25
+msgid "Name"
+msgstr "名称"
+
+#: preferences.py:72
+msgid "Name shown on Discord as the author of the posts"
+msgstr "在 Discord 上显示为帖子作者的名称"
+
+#: operators.py:25
+msgid "No frame drawn yet"
+msgstr "尚未绘制边框"
+
+#: operators.py:23
+msgid "No render yet: press F12"
+msgstr "尚无渲染：按 F12"
+
+#: preferences.py:79
+msgid "PNG"
+msgstr "PNG"
+
+#: preferences.py:28
+msgid "Post to this channel on the next publish"
+msgstr "下次发布时发送到此频道"
+
+#: ui.py:21
+msgid "Publish WIP"
+msgstr "发布 WIP"
+
+#: preferences.py:84
+msgid "Publish after each render"
+msgstr "每次渲染后发布"
+
+#: preferences.py:16
+msgid "Same Frame"
+msgstr "相同边框"
+
+#: preferences.py:74
+msgid "Save every sent image in a WIP folder next to the .blend file"
+msgstr "将每张发送的图像保存在 .blend 文件旁的 WIP 文件夹中"
+
+#: operators.py:49
+#: preferences.py:101
+msgid "Saved messages"
+msgstr "已保存的消息"
+
+#: preferences.py:28
+msgid "Send here"
+msgstr "发送到此"
+
+#: preferences.py:84
+msgid "Send the image to the selected channels every time a render (F12) finishes"
+msgstr "每次渲染（F12）完成时将图像发送到所选频道"
+
+#: preferences.py:16
+msgid "Send the same rectangle as last time"
+msgstr "发送与上次相同的矩形"
+
+#: ui.py:36
+msgid "Shortcut: {}"
+msgstr "快捷键：{}"
+
+#: __init__.py:29
+msgid "Spoiler"
+msgstr "剧透"
+
+#: preferences.py:14
+msgid "The 3D Viewport without grid, outlines or panels; only the camera frame in camera view"
+msgstr "不含网格、轮廓线或面板的 3D 视图；仅显示相机视图中的相机边框"
+
+#: preferences.py:13
+msgid "The image of the last F12 render, with the scene color management"
+msgstr "上次 F12 渲染的图像，使用场景色彩管理"
+
+#: __init__.py:29
+msgid "The image stays blurred on Discord until clicked"
+msgstr "图像在 Discord 上保持模糊，直到被点击"
+
+#: preferences.py:98
+msgid "This is not a Discord webhook URL"
+msgstr "这不是 Discord Webhook URL"
+
+#: preferences.py:14
+msgid "Viewport"
+msgstr "视图"
+
+#: ui.py:54
+msgid "WIP"
+msgstr "WIP"
+
+#: preferences.py:26
+msgid "Webhook URL"
+msgstr "Webhook URL"
+
+#: preferences.py:76
+msgid "Write the render engine, samples and resolution under the image"
+msgstr "在图像下方写入渲染引擎、采样数和分辨率"
+
+#: preferences.py:116
+msgctxt "Operator"
+msgid "Add"
+msgstr "添加"
+
+#: operators.py:33
+msgctxt "Operator"
+msgid "Add a Discord channel"
+msgstr "添加 Discord 频道"
+
+#: preferences.py:117
+msgctxt "Operator"
+msgid "Add an item to the list"
+msgstr "向列表添加项目"
+
+#: operators.py:186
+msgctxt "Operator"
+msgid "Drag a rectangle in the Blender window, then it is sent to your Discord channels"
+msgstr "在 Blender 窗口中拖动矩形，然后将其发送到 Discord 频道"
+
+#: operators.py:185
+msgctxt "Operator"
+msgid "Draw a Frame"
+msgstr "绘制边框"
+
+#: operators.py:137
+msgctxt "Operator"
+msgid "Open WIP Folder"
+msgstr "打开 WIP 文件夹"
+
+#: operators.py:138
+msgctxt "Operator"
+msgid "Open the folder where the sent images are kept"
+msgstr "打开保存已发送图像的文件夹"
+
+#: operators.py:114
+msgctxt "Operator"
+msgid "Post a short test message to the selected channel to check its webhook"
+msgstr "向所选频道发送一条简短的测试消息以检查其 Webhook"
+
+#: ui.py:30
+msgctxt "Operator"
+msgid "Publish"
+msgstr "发布"
+
+#: operators.py:73
+#: ui.py:16
+msgctxt "Operator"
+msgid "Publish WIP"
+msgstr "发布 WIP"
+
+#: operators.py:59
+msgctxt "Operator"
+msgid "Put this saved message in the message box"
+msgstr "将此已保存的消息放入消息框"
+
+#: preferences.py:133
+msgctxt "Operator"
+msgid "Remove"
+msgstr "移除"
+
+#: preferences.py:134
+msgctxt "Operator"
+msgid "Remove the selected item"
+msgstr "移除所选项目"
+
+#: operators.py:74
+msgctxt "Operator"
+msgid "Send the last render, the viewport or a frame you draw to your Discord channels"
+msgstr "将上次渲染、视图或绘制的边框发送到 Discord 频道"
+
+#: ui.py:16
+#: ui.py:30
+msgctxt "Operator"
+msgid "Sending…"
+msgstr "正在发送…"
+
+#: operators.py:113
+msgctxt "Operator"
+msgid "Test Channel"
+msgstr "测试频道"
+
+#: operators.py:58
+msgctxt "Operator"
+msgid "Use Saved Message"
+msgstr "使用已保存的消息"

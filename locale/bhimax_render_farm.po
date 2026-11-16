@@ -1,0 +1,666 @@
+# perfect-chinese: 1
+# id: bhimax_render_farm
+# kind: addon
+# module: bl_ext.blender_org.bhimax_render_farm
+# name: BHiMAX Render Farm
+# name_zh: 渲染农场
+# translator: KeshiMiao
+# category: Render
+# supported_versions: >=5.1.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:815
+msgid "%d file(s), %d frame(s)  >  %s"
+msgstr "%d 个文件，%d 帧  >  %s"
+
+#: __init__.py:1315
+msgid "%d file(s), %d frame(s)%s"
+msgstr "%d 个文件，%d 帧%s"
+
+#: __init__.py:1272
+#: __init__.py:1274
+msgid "%d-%d"
+msgstr "%d-%d"
+
+#: __init__.py:1315
+msgid "(+%d not read yet)"
+msgstr "（+%d 尚未读取）"
+
+#: __init__.py:213
+msgid "0 = automatic"
+msgstr "0 = 自动"
+
+#: __init__.py:1295
+msgid "1. Choose what to render"
+msgstr "1. 选择要渲染的内容"
+
+#: __init__.py:1326
+msgid "2. Render"
+msgstr "2. 渲染"
+
+#: __init__.py:216
+msgid "A worker silent for this long loses its chunks to other workers"
+msgstr "工作节点静默超过此时间后，其分块将转交给其他工作节点"
+
+#: __init__.py:1304
+msgid "Add the open file, or pick .blend files."
+msgstr "添加当前打开的文件，或选择 .blend 文件。"
+
+#: __init__.py:192
+#: __init__.py:1379
+msgid "Advanced"
+msgstr "高级"
+
+#: __init__.py:214
+msgid "Allow Auto-Run Scripts"
+msgstr "允许自动运行脚本"
+
+#: __init__.py:1399
+msgid "BHiMAX"
+msgstr "BHiMAX"
+
+#: __init__.py:1286
+msgid "BHiMAX Farm"
+msgstr "BHiMAX 农场"
+
+#: __init__.py:1282
+msgid "BHiMAX Render Farm"
+msgstr "BHiMAX 渲染农场"
+
+#: __init__.py:206
+msgid "Blender Executable"
+msgstr "Blender 可执行文件"
+
+#: __init__.py:171
+msgid "CPU"
+msgstr "CPU"
+
+#: __init__.py:213
+msgid "CPU Threads"
+msgstr "CPU 线程"
+
+#: __init__.py:146
+msgid "Camera"
+msgstr "摄像机"
+
+#: __init__.py:164
+msgid "Chunk Size"
+msgstr "分块大小"
+
+#: __init__.py:1100
+msgid "Could not start the monitor server"
+msgstr "无法启动监视服务器"
+
+#: __init__.py:141
+msgid "Current file"
+msgstr "当前文件"
+
+#: __init__.py:150
+#: __init__.py:185
+msgid "Custom"
+msgstr "自定义"
+
+#: __init__.py:150
+msgid "Custom start / end / step"
+msgstr "自定义起始 / 结束 / 步长"
+
+#: __init__.py:174
+msgid "Cycles"
+msgstr "Cycles"
+
+#: __init__.py:170
+msgid "Device"
+msgstr "设备"
+
+#: __init__.py:174
+msgid "EEVEE"
+msgstr "EEVEE"
+
+#: __init__.py:147
+msgid "Empty = all enabled view layers"
+msgstr "留空 = 所有启用的视图层"
+
+#: __init__.py:163
+msgid "Empty = file name"
+msgstr "留空 = 文件名"
+
+#: __init__.py:146
+msgid "Empty = scene camera"
+msgstr "留空 = 场景摄像机"
+
+#: __init__.py:145
+msgid "Empty = the file's active scene"
+msgstr "留空 = 文件的当前场景"
+
+#: __init__.py:142
+msgid "Enabled"
+msgstr "已启用"
+
+#: __init__.py:154
+msgid "End"
+msgstr "结束"
+
+#: __init__.py:172
+#: __init__.py:173
+msgid "Engine"
+msgstr "引擎"
+
+#: __init__.py:162
+#: __init__.py:794
+msgid "Farm"
+msgstr "农场"
+
+#: __init__.py:199
+msgid "Farm Folder"
+msgstr "农场文件夹"
+
+#: __init__.py:140
+msgid "File"
+msgstr "文件"
+
+#: __init__.py:149
+msgid "File Range"
+msgstr "文件范围"
+
+#: __init__.py:1374
+msgid "Folder for 'Render on This PC' (optional):"
+msgstr "「在本机渲染」的文件夹（可选）："
+
+#: __init__.py:201
+msgid "Folder for the local background queue (empty = temp folder)"
+msgstr "本地后台队列的文件夹（留空 = 临时文件夹）"
+
+#: __init__.py:1372
+msgid "Folder shared by all PCs (for the farm):"
+msgstr "所有电脑共享的文件夹（用于农场）："
+
+#: __init__.py:210
+msgid "Force CPU"
+msgstr "强制使用 CPU"
+
+#: __init__.py:210
+msgid "Force GPU"
+msgstr "强制使用 GPU"
+
+#: __init__.py:179
+#: __init__.py:180
+msgid "Format"
+msgstr "格式"
+
+#: __init__.py:148
+msgid "Frames"
+msgstr "帧"
+
+#: __init__.py:831
+msgid "Frames per Task"
+msgstr "每个任务的帧数"
+
+#: __init__.py:164
+msgid "Frames per chunk; a chunk is the unit a worker claims"
+msgstr "每个分块的帧数；分块是工作节点领取的单位"
+
+#: __init__.py:826
+msgid "Frames will be saved in the farm 'renders' folder instead."
+msgstr "帧将改为保存到农场的“renders”文件夹中。"
+
+#: __init__.py:171
+#: __init__.py:184
+msgid "From File"
+msgstr "从文件"
+
+#: __init__.py:210
+msgid "From Job/File"
+msgstr "从任务/文件"
+
+#: __init__.py:171
+msgid "GPU"
+msgstr "GPU"
+
+#: __init__.py:211
+msgid "GPU API"
+msgstr "GPU API"
+
+#: __init__.py:678
+msgid "Include Subfolders"
+msgstr "包含子文件夹"
+
+#: __init__.py:182
+msgid "JPEG"
+msgstr "JPEG"
+
+#: __init__.py:163
+#: __init__.py:829
+msgid "Job Name"
+msgstr "任务名称"
+
+#: __init__.py:1113
+msgid "Let paused workers take chunks again"
+msgstr "允许已暂停的工作节点再次领取分块"
+
+#: __init__.py:162
+#: __init__.py:794
+msgid "Local"
+msgstr "本地"
+
+#: __init__.py:201
+msgid "Local Queue Folder"
+msgstr "本地队列文件夹"
+
+#: __init__.py:162
+msgid "Local background queue"
+msgstr "本地后台队列"
+
+#: __init__.py:832
+msgid "Max Retries"
+msgstr "最大重试次数"
+
+#: __init__.py:166
+msgid "Max Tries"
+msgstr "最大尝试次数"
+
+#: __init__.py:161
+msgid "Monitor"
+msgstr "监视器"
+
+#: __init__.py:220
+msgid "Monitor Refresh (s)"
+msgstr "监视器刷新 (秒)"
+
+#: __init__.py:162
+msgid "Network farm folder"
+msgstr "网络农场文件夹"
+
+#: __init__.py:1354
+msgid "No workers online"
+msgstr "无在线工作机"
+
+#: __init__.py:191
+msgid "Open Monitor After Submitting"
+msgstr "提交后打开监视器"
+
+#: __init__.py:181
+msgid "OpenEXR"
+msgstr "OpenEXR"
+
+#: __init__.py:181
+msgid "OpenEXR MultiLayer"
+msgstr "OpenEXR 多图层"
+
+#: __init__.py:183
+#: __init__.py:844
+msgid "Output"
+msgstr "输出"
+
+#: __init__.py:825
+msgid "Output folder can't be used: %s"
+msgstr "无法使用输出文件夹：%s"
+
+#: __init__.py:835
+msgid "Override file settings (optional):"
+msgstr "覆盖文件设置（可选）："
+
+#: __init__.py:189
+msgid "Overrides"
+msgstr "覆盖"
+
+#: __init__.py:181
+msgid "PNG"
+msgstr "PNG"
+
+#: __init__.py:204
+msgid "Parallel worker processes started by this addon"
+msgstr "此插件启动的并行工作进程"
+
+#: __init__.py:214
+msgid "Pass --enable-autoexec to renders (needed for drivers/scripts in some files)"
+msgstr "向渲染传递 --enable-autoexec（某些文件中的驱动器/脚本需要）"
+
+#: __init__.py:207
+msgid "Path Map"
+msgstr "路径映射"
+
+#: __init__.py:1112
+msgid "Pause All"
+msgstr "全部暂停"
+
+#: __init__.py:1261
+msgid "Press refresh (re-read file) to load all details"
+msgstr "按刷新（重新读取文件）以加载所有详细信息"
+
+#: __init__.py:165
+#: __init__.py:830
+msgid "Priority"
+msgstr "优先级"
+
+#: __init__.py:868
+msgid "Queue is empty"
+msgstr "队列为空"
+
+#: __init__.py:1203
+msgid "Reading file..."
+msgstr "正在读取文件..."
+
+#: __init__.py:834
+msgid "Render Device"
+msgstr "渲染设备"
+
+#: __init__.py:1341
+msgid "Render PCs (workers)"
+msgstr "渲染电脑（工作机）"
+
+#: __init__.py:1336
+msgid "Render farm needs a Farm Folder (see Settings)"
+msgstr "渲染农场需要农场文件夹（见设置）"
+
+#: __init__.py:218
+msgid "Render in a visible Blender window"
+msgstr "在可见的 Blender 窗口中渲染"
+
+#: __init__.py:151
+msgid "Render only the file's current frame (or the custom start)"
+msgstr "仅渲染文件的当前帧（或自定义起始帧）"
+
+#: __init__.py:177
+#: __init__.py:178
+msgid "Resolution %"
+msgstr "分辨率 %"
+
+#: __init__.py:1113
+msgid "Resume All"
+msgstr "全部继续"
+
+#: __init__.py:175
+#: __init__.py:176
+msgid "Samples"
+msgstr "采样"
+
+#: __init__.py:168
+msgid "Save a copy of the current file into the job so later edits do not affect it"
+msgstr "将当前文件副本保存到任务中，以便后续编辑不影响它"
+
+#: __init__.py:145
+msgid "Scene"
+msgstr "场景"
+
+#: __init__.py:193
+msgid "Selected File"
+msgstr "选定文件"
+
+#: __init__.py:1320
+msgid "Selected:"
+msgstr "已选："
+
+#: __init__.py:940
+msgid "Set the Farm Folder first"
+msgstr "请先设置农场文件夹"
+
+#: __init__.py:800
+msgid "Set the Farm Folder first (open Settings at the bottom of this panel)"
+msgstr "请先设置农场文件夹（打开此面板底部的设置）"
+
+#: __init__.py:856
+msgid "Set the Farm Folder in the addon preferences"
+msgstr "在插件偏好设置中设置农场文件夹"
+
+#: __init__.py:188
+#: __init__.py:1369
+msgid "Settings"
+msgstr "设置"
+
+#: __init__.py:199
+msgid "Shared folder every PC can reach, e.g. \\\\server\\farm or Z:\\farm"
+msgstr "每台电脑都能访问的共享文件夹，例如 \\\\server\\farm 或 Z:\\farm"
+
+#: __init__.py:151
+msgid "Single Frame"
+msgstr "单帧"
+
+#: __init__.py:167
+msgid "Skip Existing Frames"
+msgstr "跳过已存在的帧"
+
+#: __init__.py:168
+msgid "Snapshot Current File"
+msgstr "快照当前文件"
+
+#: __init__.py:216
+msgid "Stale Timeout (s)"
+msgstr "过期超时 (秒)"
+
+#: __init__.py:153
+#: __init__.py:910
+msgid "Start"
+msgstr "起始"
+
+#: __init__.py:155
+msgid "Step"
+msgstr "步长"
+
+#: __init__.py:910
+msgid "Stop"
+msgstr "停止"
+
+#: __init__.py:1114
+msgid "Stop All"
+msgstr "全部停止"
+
+#: __init__.py:924
+msgid "Stop requested"
+msgstr "已请求停止"
+
+#: __init__.py:182
+msgid "TIFF"
+msgstr "TIFF"
+
+#: __init__.py:187
+msgid "Template"
+msgstr "模板"
+
+#: __init__.py:185
+msgid "Template with {farm} {job} {file} {scene}"
+msgstr "模板：{farm} {job} {file} {scene}"
+
+#: __init__.py:803
+msgid "The queue is empty - add the open file or some .blend files first"
+msgstr "队列为空 - 请先添加打开的文件或一些 .blend 文件"
+
+#: __init__.py:1303
+msgid "The queue is empty."
+msgstr "队列为空。"
+
+#: __init__.py:207
+msgid "This PC's view of shared paths: LOCAL=>FARM;LOCAL2=>FARM2 (e.g. Z:\\=>\\\\server\\share\\)"
+msgstr "此电脑的共享路径视图：LOCAL=>FARM;LOCAL2=>FARM2（例如 Z:\\=>\\\\server\\share\\）"
+
+#: __init__.py:184
+msgid "Use each file's own output path"
+msgstr "使用每个文件自身的输出路径"
+
+#: __init__.py:149
+msgid "Use the frame range stored in the file"
+msgstr "使用文件中存储的帧范围"
+
+#: __init__.py:147
+msgid "View Layer"
+msgstr "视图层"
+
+#: __init__.py:174
+msgid "Workbench"
+msgstr "工作台"
+
+#: __init__.py:209
+msgid "Worker Device"
+msgstr "工作机设备"
+
+#: __init__.py:203
+msgid "Worker Name"
+msgstr "工作机名称"
+
+#: __init__.py:190
+msgid "Workers"
+msgstr "工作机"
+
+#: __init__.py:1112
+msgid "Workers finish their current chunk, then stop taking new ones"
+msgstr "工作机完成当前分块后，将不再接收新分块"
+
+#: __init__.py:1114
+msgid "Workers on every PC exit (restart them by logging in again or running run_worker.cmd)"
+msgstr "每台 PC 上的工作进程都会退出（重新登录或运行 run_worker.cmd 可重启）"
+
+#: __init__.py:204
+msgid "Workers on this PC"
+msgstr "本机的工作进程"
+
+#: __init__.py:218
+msgid "Workers open a normal Blender window to render each task instead of rendering in the background"
+msgstr "工作进程会打开普通 Blender 窗口来渲染每个任务，而不是在后台渲染"
+
+#: __init__.py:1320
+msgid "open file"
+msgstr "打开文件"
+
+#: __init__.py:626
+msgctxt "Operator"
+msgid "Add Current File"
+msgstr "添加当前文件"
+
+#: __init__.py:652
+msgctxt "Operator"
+msgid "Add Files"
+msgstr "添加文件"
+
+#: __init__.py:675
+msgctxt "Operator"
+msgid "Add Folder"
+msgstr "添加文件夹"
+
+#: __init__.py:676
+msgctxt "Operator"
+msgid "Add every .blend file in a folder"
+msgstr "添加文件夹中的所有 .blend 文件"
+
+#: __init__.py:653
+msgctxt "Operator"
+msgid "Add one or more .blend files"
+msgstr "添加一个或多个 .blend 文件"
+
+#: __init__.py:627
+msgctxt "Operator"
+msgid "Add the currently open file (with its live, unsaved state) to the queue"
+msgstr "将当前打开的文件（包含未保存的实时状态）添加到队列"
+
+#: __init__.py:1110
+msgctxt "Operator"
+msgid "All Workers"
+msgstr "所有工作进程"
+
+#: __init__.py:1089
+#: __init__.py:1420
+msgctxt "Operator"
+msgid "BHiMAX Farm Monitor"
+msgstr "BHiMAX 农场监视器"
+
+#: __init__.py:712
+msgctxt "Operator"
+msgid "Clear Queue"
+msgstr "清空队列"
+
+#: __init__.py:793
+msgctxt "Operator"
+msgid "Create render jobs from the queue"
+msgstr "从队列创建渲染任务"
+
+#: __init__.py:933
+msgctxt "Operator"
+msgid "Export Worker Kit"
+msgstr "导出工作进程工具包"
+
+#: __init__.py:1299
+msgctxt "Operator"
+msgid "Files"
+msgstr "文件"
+
+#: __init__.py:1300
+msgctxt "Operator"
+msgid "Folder"
+msgstr "文件夹"
+
+#: __init__.py:751
+msgctxt "Operator"
+msgid "Load Queue"
+msgstr "加载队列"
+
+#: __init__.py:1298
+msgctxt "Operator"
+msgid "Open File"
+msgstr "打开文件"
+
+#: __init__.py:1090
+msgctxt "Operator"
+msgid "Open the farm monitor in your web browser (a page that only this PC can reach)"
+msgstr "在网页浏览器中打开农场监视器（仅本机可访问的页面）"
+
+#: __init__.py:721
+msgctxt "Operator"
+msgid "Re-read File Info"
+msgstr "重新读取文件信息"
+
+#: __init__.py:722
+msgctxt "Operator"
+msgid "Re-scan the selected file for scenes, frame range and output path"
+msgstr "重新扫描所选文件的场景、帧范围和输出路径"
+
+#: __init__.py:700
+msgctxt "Operator"
+msgid "Remove"
+msgstr "移除"
+
+#: __init__.py:1329
+msgctxt "Operator"
+msgid "Render on This PC"
+msgstr "在本机渲染"
+
+#: __init__.py:733
+msgctxt "Operator"
+msgid "Save Queue"
+msgstr "保存队列"
+
+#: __init__.py:1332
+msgctxt "Operator"
+msgid "Send to Render Farm"
+msgstr "发送到渲染农场"
+
+#: __init__.py:1364
+msgctxt "Operator"
+msgid "Set Up Other PCs (export kit)"
+msgstr "设置其他 PC（导出工具包）"
+
+#: __init__.py:1356
+msgctxt "Operator"
+msgid "Start Worker Here"
+msgstr "在此启动工作进程"
+
+#: __init__.py:1358
+msgctxt "Operator"
+msgid "Stop"
+msgstr "停止"
+
+#: __init__.py:792
+msgctxt "Operator"
+msgid "Submit"
+msgstr "提交"
+
+#: __init__.py:909
+msgctxt "Operator"
+msgid "Worker"
+msgstr "工作进程"
+
+#: __init__.py:934
+msgctxt "Operator"
+msgid "Write the worker script and launchers into the farm folder. On each other PC run install_worker_autostart.bat once"
+msgstr "将工作进程脚本和启动器写入农场文件夹。在每台其他 PC 上运行一次 install_worker_autostart.bat"

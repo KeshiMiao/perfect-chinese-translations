@@ -1,0 +1,625 @@
+# perfect-chinese: 1
+# id: l0c_vertex_group_util
+# kind: addon
+# module: bl_ext.blender_org.l0c_vertex_group_util
+# name: [xxxL0C] Vertex Group Util
+# name_zh: 顶点组工具
+# translator: KeshiMiao
+# category: Mesh
+# supported_versions: >=5.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: ops_batch.py:70
+#: ops_batch.py:350
+msgid "Action"
+msgstr "操作"
+
+#: ops_batch.py:110
+msgid "Add Prefix"
+msgstr "添加前缀"
+
+#: ops_batch.py:111
+msgid "Add Suffix"
+msgstr "添加后缀"
+
+#: ops_select.py:94
+msgid "Add to the current selection instead of replacing it"
+msgstr "添加到当前选择，而不是替换它"
+
+#: ops_sort.py:14
+msgid "All"
+msgstr "全部"
+
+#: ops_sort.py:129
+msgid "Also treat groups that only have zero weights as empty"
+msgstr "同时将仅含零权重的组也视为空组"
+
+#: ops_batch.py:353
+msgid "Assign"
+msgstr "指定"
+
+#: ui.py:175
+msgid "Auto Normalize"
+msgstr "自动归一化"
+
+#: ui.py:112
+msgid "Batch Operations"
+msgstr "批量操作"
+
+#: ops_sort.py:123
+msgid "By Bone"
+msgstr "按骨骼"
+
+#: ui.py:105
+msgid "By Dictionary"
+msgstr "按字典"
+
+#: ui.py:66
+msgid "By Dictionary (All)"
+msgstr "按字典（全部）"
+
+#: ui.py:59
+msgid "By Dictionary (Selected Only)"
+msgstr "按字典（仅选中）"
+
+#: ops_select.py:22
+msgid "Check all groups"
+msgstr "勾选所有组"
+
+#: ops_batch.py:421
+msgid "Clear the weights of the existing group before copying"
+msgstr "复制前清除现有组的权重"
+
+#: ops_batch.py:408
+msgid "Copy the weights of the nearest vertex in world space"
+msgstr "复制世界空间中最近顶点的权重"
+
+#: ops_batch.py:239
+msgid "Copy the weights of the source group mirrored on the X axis"
+msgstr "复制源组在 X 轴上镜像的权重"
+
+#: ops_batch.py:406
+msgid "Copy to the vertices with the same index. Objects with a different vertex count are skipped"
+msgstr "复制到索引相同的顶点。顶点数不同的物体将被跳过"
+
+#: ops_batch.py:240
+msgid "Create the group by name only without copying weights"
+msgstr "仅按名称创建组，不复制权重"
+
+#: ops_batch.py:356
+msgid "Deselect"
+msgstr "取消选择"
+
+#: ops_select.py:23
+msgid "Deselect All"
+msgstr "全部取消选择"
+
+#: ops_sort.py:181
+msgid "Dictionary"
+msgstr "字典"
+
+#: ops_sort.py:52
+msgid "Direction"
+msgstr "方向"
+
+#: ops_sort.py:57
+msgid "Down"
+msgstr "向下"
+
+#: ops_batch.py:240
+msgid "Empty Group"
+msgstr "空组"
+
+#: ops_sort.py:125
+msgid "Empty Groups Last"
+msgstr "空组置后"
+
+#: ops_batch.py:418
+msgid "Existing Groups"
+msgstr "现有组"
+
+#: ops_select.py:94
+msgid "Extend"
+msgstr "扩展"
+
+#: ops_batch.py:119
+msgid "Find"
+msgstr "查找"
+
+#: ops_batch.py:243
+msgid "Find opposite vertices by mesh connectivity instead of position"
+msgstr "按网格连通性而非位置查找对侧顶点"
+
+#: ops_batch.py:115
+msgid "Flip L/R"
+msgstr "左右翻转"
+
+#: state.py:37
+msgid "Include this group in batch operations and sorting"
+msgstr "将此组纳入批量操作和排序"
+
+#: ops_select.py:24
+msgid "Invert"
+msgstr "反转"
+
+#: ops_batch.py:75
+msgid "Invert Lock"
+msgstr "反转锁定"
+
+#: ops_select.py:24
+msgid "Invert the checks"
+msgstr "反转勾选状态"
+
+#: ops_select.py:90
+msgid "L"
+msgstr "左"
+
+#: ops_batch.py:422
+msgid "Leave existing groups unchanged"
+msgstr "保持现有组不变"
+
+#: ops_batch.py:73
+msgid "Lock"
+msgstr "锁定"
+
+#: ops_batch.py:403
+msgid "Mapping"
+msgstr "映射"
+
+#: ops_batch.py:425
+msgid "Match Source Order"
+msgstr "匹配源顺序"
+
+#: ops_sort.py:123
+msgid "Match the order of the armature's bones"
+msgstr "匹配骨架骨骼的顺序"
+
+#: ops_batch.py:411
+msgid "Max Distance"
+msgstr "最大距离"
+
+#: ops_batch.py:107
+#: ops_sort.py:120
+msgid "Method"
+msgstr "方法"
+
+#: ops_batch.py:239
+msgid "Mirror on X Axis"
+msgstr "在 X 轴镜像"
+
+#: ops_sort.py:125
+msgid "Move groups with no assigned weights to the end"
+msgstr "将未指定权重的组移到末尾"
+
+#: ops_batch.py:408
+msgid "Nearest Vertex"
+msgstr "最近顶点"
+
+#: ui.py:75
+msgid "No dictionaries are registered. Register one in the Preferences."
+msgstr "未注册任何字典。请在偏好设置中注册。"
+
+#: ops_batch.py:425
+msgid "Order the copied groups in the target the same way as in the source"
+msgstr "使目标中复制的组顺序与源一致"
+
+#: ops_batch.py:421
+msgid "Overwrite"
+msgstr "覆盖"
+
+#: ops_sort.py:95
+msgid "Position"
+msgstr "位置"
+
+#: ops_sort.py:95
+msgid "Position of the first moved group. 1 is the top"
+msgstr "第一个移动的组的位置。1 为顶部"
+
+#: ops_select.py:91
+msgid "R"
+msgstr "右"
+
+#: ops_batch.py:121
+msgid "Regular Expression"
+msgstr "正则表达式"
+
+#: ops_batch.py:354
+msgid "Remove"
+msgstr "移除"
+
+#: ops_batch.py:112
+msgid "Remove Prefix"
+msgstr "移除前缀"
+
+#: ops_batch.py:113
+msgid "Remove Suffix"
+msgstr "移除后缀"
+
+#: ops_batch.py:114
+msgid "Replace"
+msgstr "替换"
+
+#: prefs.py:67
+msgid "Replace Default Vertex Group Panel"
+msgstr "替换默认顶点组面板"
+
+#: ops_batch.py:120
+msgid "Replace With"
+msgstr "替换为"
+
+#: ops_sort.py:124
+msgid "Reverse"
+msgstr "反向"
+
+#: ops_sort.py:124
+msgid "Reverse the order"
+msgstr "反转顺序"
+
+#: ops_sort.py:128
+#: ops_sort.py:182
+msgid "Scope"
+msgstr "范围"
+
+#: ops_batch.py:355
+msgid "Select"
+msgstr "选择"
+
+#: ops_select.py:22
+msgid "Select All"
+msgstr "全选"
+
+#: state.py:37
+msgid "Selected"
+msgstr "已选"
+
+#: ops_sort.py:13
+msgid "Selected Only"
+msgstr "仅所选"
+
+#: ui.py:18
+msgid "Show Selected Only"
+msgstr "仅显示所选"
+
+#: ui.py:18
+msgid "Show only checked groups"
+msgstr "仅显示已勾选的组"
+
+#: ops_select.py:87
+msgid "Side"
+msgstr "侧"
+
+#: ops_batch.py:422
+msgid "Skip"
+msgstr "跳过"
+
+#: ui.py:85
+msgid "Sort"
+msgstr "排序"
+
+#: ops_sort.py:14
+msgid "Sort all groups"
+msgstr "排序所有组"
+
+#: ops_sort.py:13
+msgid "Sort only within the positions the selected groups occupy"
+msgstr "仅在所选组占据的位置内排序"
+
+#: prefs.py:81
+msgid "Sorting Dictionaries"
+msgstr "排序字典"
+
+#: prefs.py:47
+msgid "Source File"
+msgstr "源文件"
+
+#: ops_batch.py:118
+msgid "Text"
+msgstr "文本"
+
+#: ops_sort.py:58
+msgid "To Bottom"
+msgstr "移至底部"
+
+#: ops_sort.py:55
+msgid "To Top"
+msgstr "移至顶部"
+
+#: ops_batch.py:243
+msgid "Topology Mirror"
+msgstr "拓扑镜像"
+
+#: ops_sort.py:129
+msgid "Treat Zero Weights as Empty"
+msgstr "将零权重视为空"
+
+#: prefs.py:67
+msgid "Turn this off to restore the default panel"
+msgstr "关闭此项以恢复默认面板"
+
+#: ops_select.py:23
+msgid "Uncheck all groups"
+msgstr "取消勾选所有组"
+
+#: ops_batch.py:74
+msgid "Unlock"
+msgstr "解锁"
+
+#: ops_sort.py:56
+msgid "Up"
+msgstr "上移"
+
+#: ops_batch.py:406
+msgid "Vertex Index"
+msgstr "顶点索引"
+
+#: ops_batch.py:411
+msgid "Vertices farther than this are not copied to. 0 means no limit"
+msgstr "距离超过此值的顶点不会被复制。0 表示不限制"
+
+#: ui.py:174
+msgid "Weight"
+msgstr "权重"
+
+#: ops_batch.py:236
+msgid "Weights"
+msgstr "权重"
+
+#: prefs.py:104
+msgid "and {count} more lines"
+msgstr "以及另外 {count} 行"
+
+#: ui.py:167
+msgid "{count} Selected Groups"
+msgstr "已选 {count} 个组"
+
+#: prefs.py:61
+msgid "{count} lines"
+msgstr "{count} 行"
+
+#: ui.py:158
+#: ui.py:183
+msgctxt "Operator"
+msgid "Assign"
+msgstr "指定"
+
+#: ui.py:108
+msgctxt "Operator"
+msgid "By Bone Hierarchy (All)"
+msgstr "按骨骼层级（全部）"
+
+#: ops_select.py:16
+msgctxt "Operator"
+msgid "Change the checks of the vertex groups at once"
+msgstr "一次性更改顶点组的勾选状态"
+
+#: ops_batch.py:400
+msgctxt "Operator"
+msgid "Copy the selected groups with their weights to the other selected mesh objects"
+msgstr "将所选组及其权重复制到其他选中的网格物体"
+
+#: ops_batch.py:399
+msgctxt "Operator"
+msgid "Copy to Other Objects"
+msgstr "复制到其他物体"
+
+#: ui.py:118
+msgctxt "Operator"
+msgid "Copy to Other Objects..."
+msgstr "复制到其他物体..."
+
+#: ops_batch.py:229
+msgctxt "Operator"
+msgid "Create Opposite Groups"
+msgstr "创建对侧组"
+
+#: ui.py:117
+msgctxt "Operator"
+msgid "Create Opposite Groups..."
+msgstr "创建对侧组..."
+
+#: ops_batch.py:230
+msgctxt "Operator"
+msgid "Create opposite-side groups from the selected L/R groups and place each one right after its source group"
+msgstr "从所选 L/R 组创建对侧组，并将每个组紧接在其源组之后"
+
+#: ui.py:124
+msgctxt "Operator"
+msgid "Delete"
+msgstr "删除"
+
+#: ops_batch.py:36
+msgctxt "Operator"
+msgid "Delete Selected Groups"
+msgstr "删除所选组"
+
+#: ops_batch.py:37
+msgctxt "Operator"
+msgid "Delete the selected vertex groups"
+msgstr "删除所选的顶点组"
+
+#: ui.py:162
+#: ui.py:187
+msgctxt "Operator"
+msgid "Deselect"
+msgstr "取消选择"
+
+#: prefs.py:204
+msgctxt "Operator"
+msgid "Export Dictionary"
+msgstr "导出字典"
+
+#: prefs.py:205
+msgctxt "Operator"
+msgid "Export the active dictionary to a CSV file"
+msgstr "将活动字典导出为 CSV 文件"
+
+#: prefs.py:124
+msgctxt "Operator"
+msgid "Import Dictionary"
+msgstr "导入字典"
+
+#: prefs.py:125
+msgctxt "Operator"
+msgid "Import a CSV file and register it as a sorting dictionary"
+msgstr "导入 CSV 文件并将其注册为排序字典"
+
+#: ops_select.py:133
+msgctxt "Operator"
+msgid "Include this group in batch operations and sorting"
+msgstr "将此组纳入批量操作和排序"
+
+#: ui.py:195
+msgctxt "Operator"
+msgid "Invert"
+msgstr "反转"
+
+#: ui.py:122
+msgctxt "Operator"
+msgid "Invert Lock"
+msgstr "反转锁定"
+
+#: ui.py:198
+msgctxt "Operator"
+msgid "L"
+msgstr "L"
+
+#: ui.py:120
+msgctxt "Operator"
+msgid "Lock"
+msgstr "锁定"
+
+#: ops_batch.py:67
+msgctxt "Operator"
+msgid "Lock Selected Groups"
+msgstr "锁定所选组"
+
+#: ops_sort.py:49
+msgctxt "Operator"
+msgid "Move Selected Groups"
+msgstr "移动所选组"
+
+#: ui.py:89
+msgctxt "Operator"
+msgid "Move Selected to Position..."
+msgstr "将所选移至位置..."
+
+#: ops_sort.py:92
+msgctxt "Operator"
+msgid "Move the selected groups to the given position, keeping their relative order"
+msgstr "将所选组移到指定位置，保持其相对顺序"
+
+#: ops_sort.py:91
+msgctxt "Operator"
+msgid "Move to Position"
+msgstr "移至位置"
+
+#: ui.py:199
+msgctxt "Operator"
+msgid "R"
+msgstr "R"
+
+#: ui.py:196
+msgctxt "Operator"
+msgid "Range"
+msgstr "范围"
+
+#: prefs.py:156
+msgctxt "Operator"
+msgid "Reload Dictionary"
+msgstr "重新加载词典"
+
+#: prefs.py:157
+msgctxt "Operator"
+msgid "Reload the dictionary from its source CSV file"
+msgstr "从源 CSV 文件重新加载词典"
+
+#: ui.py:159
+#: ui.py:184
+msgctxt "Operator"
+msgid "Remove"
+msgstr "移除"
+
+#: prefs.py:186
+msgctxt "Operator"
+msgid "Remove Dictionary"
+msgstr "移除词典"
+
+#: prefs.py:187
+msgctxt "Operator"
+msgid "Remove the active dictionary from the list. The CSV file is not deleted"
+msgstr "从列表中移除活动词典。CSV 文件不会被删除"
+
+#: ops_batch.py:103
+msgctxt "Operator"
+msgid "Rename Selected Groups"
+msgstr "重命名所选组"
+
+#: ops_batch.py:104
+msgctxt "Operator"
+msgid "Rename the selected vertex groups at once"
+msgstr "一次性重命名所选顶点组"
+
+#: ui.py:116
+msgctxt "Operator"
+msgid "Rename..."
+msgstr "重命名…"
+
+#: ui.py:161
+#: ui.py:186
+msgctxt "Operator"
+msgid "Select"
+msgstr "选择"
+
+#: ops_select.py:55
+msgctxt "Operator"
+msgid "Select Range"
+msgstr "选择范围"
+
+#: ops_select.py:15
+msgctxt "Operator"
+msgid "Select Vertex Groups"
+msgstr "选择顶点组"
+
+#: ops_select.py:84
+msgctxt "Operator"
+msgid "Select by L/R"
+msgstr "按左/右选择"
+
+#: ops_select.py:56
+msgctxt "Operator"
+msgid "Set the groups from the active group to the last toggled group to the same check state as the last toggled group"
+msgstr "将活动组到上次切换的组之间的组设为与上次切换的组相同的勾选状态"
+
+#: ops_sort.py:117
+msgctxt "Operator"
+msgid "Sort Vertex Groups"
+msgstr "排序顶点组"
+
+#: ops_sort.py:174
+msgctxt "Operator"
+msgid "Sort by Dictionary"
+msgstr "按词典排序"
+
+#: ops_sort.py:175
+msgctxt "Operator"
+msgid "Sort by the line order of a dictionary registered in the Preferences. Groups not in the dictionary go to the end"
+msgstr "按首选项中登记的词典行序排序。不在词典中的组排到末尾"
+
+#: ops_select.py:132
+msgctxt "Operator"
+msgid "Toggle Selection"
+msgstr "切换选择"
+
+#: ui.py:121
+msgctxt "Operator"
+msgid "Unlock"
+msgstr "解锁"
+
+#: ops_batch.py:347
+msgctxt "Operator"
+msgid "Vertex Operations on Selected Groups"
+msgstr "对所选组执行顶点操作"

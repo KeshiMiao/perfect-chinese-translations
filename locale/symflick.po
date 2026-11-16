@@ -1,0 +1,252 @@
+# perfect-chinese: 1
+# id: symflick
+# kind: addon
+# module: bl_ext.blender_org.symflick
+# name: Symflick
+# name_zh: 轴向对称快切
+# translator: KeshiMiao
+# category: Mesh
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: constants.py:28
+msgid "+X"
+msgstr "+X"
+
+#: constants.py:30
+msgid "+Y"
+msgstr "+Y"
+
+#: constants.py:32
+msgid "+Z"
+msgstr "+Z"
+
+#: constants.py:29
+msgid "-X"
+msgstr "-X"
+
+#: constants.py:31
+msgid "-Y"
+msgstr "-Y"
+
+#: constants.py:33
+msgid "-Z"
+msgstr "-Z"
+
+#: preferences.py:45
+msgid "A vertex counts as symmetric if a partner exists within this distance of its mirrored position"
+msgstr "如果顶点在其镜像位置的此距离内存在配对顶点，则该顶点视为对称"
+
+#: preferences.py:22
+msgid "Act on the whole mesh. Turn off to affect only the geometry currently selected"
+msgstr "作用于整个网格。关闭后仅影响当前选中的几何体"
+
+#: ops_flick.py:44
+msgid "Add or update a bisecting Mirror modifier"
+msgstr "添加或更新二分镜像修改器"
+
+#: preferences.py:28
+msgid "After a whole-mesh symmetrize, dissolve the flat / redundant part of the center edge loop. Curved detail at the seam is kept"
+msgstr "对整个网格执行对称化后，融并中心循环边的平坦/多余部分。接缝处的弯曲细节会保留"
+
+#: preferences.py:71
+msgid "Axes follow the transform orientation (Global / Local); the mirror plane passes through the pivot point."
+msgstr "轴跟随变换方向（全局/局部）；镜像平面穿过枢轴点。"
+
+#: ops_inspect.py:20
+msgid "Axis"
+msgstr "轴"
+
+#: ops_flick.py:65
+msgid "Axis (Kept Side)"
+msgstr "轴（保留侧）"
+
+#: ops_flick.py:42
+msgid "Bake symmetry into the mesh and weld the seam"
+msgstr "将对称烘焙进网格并焊接接缝"
+
+#: preferences.py:40
+msgid "Default number of copies for Radial Flick"
+msgstr "径向轻拂的默认副本数"
+
+#: preferences.py:87
+#: preferences.py:106
+msgid "Default: Alt + X in Edit Mode (Mesh). Edit under Preferences > Keymap."
+msgstr "默认：编辑模式（网格）下 Alt + X。可在 偏好设置 > 键位映射 中修改。"
+
+#: ops_flick.py:69
+#: ops_inspect.py:27
+msgid "Global"
+msgstr "全局"
+
+#: preferences.py:35
+msgid "HUD Ring Size"
+msgstr "HUD 环大小"
+
+#: preferences.py:45
+msgid "Inspector Tolerance"
+msgstr "检查器容差"
+
+#: constants.py:28
+msgid "Keep the +X side"
+msgstr "保留 +X 侧"
+
+#: constants.py:30
+msgid "Keep the +Y side"
+msgstr "保留 +Y 侧"
+
+#: constants.py:32
+msgid "Keep the +Z side"
+msgstr "保留 +Z 侧"
+
+#: constants.py:29
+msgid "Keep the -X side"
+msgstr "保留 -X 侧"
+
+#: constants.py:31
+msgid "Keep the -Y side"
+msgstr "保留 -Y 侧"
+
+#: constants.py:33
+msgid "Keep the -Z side"
+msgstr "保留 -Z 侧"
+
+#: preferences.py:64
+msgid "Keymap"
+msgstr "键位映射"
+
+#: ops_flick.py:70
+#: ops_inspect.py:27
+msgid "Local"
+msgstr "局部"
+
+#: ops_flick.py:73
+#: preferences.py:15
+msgid "Merge Distance"
+msgstr "合并距离"
+
+#: ops_flick.py:44
+msgid "Mirror (Non-Destructive)"
+msgstr "镜像（非破坏性）"
+
+#: preferences.py:66
+msgid "Mirror Flick and Radial Flick have no key by default - click their blank binding above to assign one."
+msgstr "镜像轻拂和径向轻拂默认没有快捷键——点击上方空白绑定进行分配。"
+
+#: ops_flick.py:39
+msgid "Mode"
+msgstr "模式"
+
+#: keymap.py:15
+#: keymap.py:16
+msgid "NONE"
+msgstr "无"
+
+#: ops_flick.py:119
+msgid "No 3D view data available"
+msgstr "没有可用的 3D 视图数据"
+
+#: ops_flick.py:53
+msgid "Number of copies around the axis"
+msgstr "绕轴副本数"
+
+#: ops_flick.py:70
+msgid "Object-axis mirror plane"
+msgstr "物体轴镜像平面"
+
+#: ops_flick.py:67
+#: ops_inspect.py:25
+msgid "Orientation"
+msgstr "方向"
+
+#: preferences.py:35
+msgid "Pixel radius of the flick ring"
+msgstr "轻拂环的像素半径"
+
+#: ops_flick.py:46
+msgid "Radial (Destructive)"
+msgstr "径向（破坏性）"
+
+#: ops_flick.py:53
+#: preferences.py:40
+msgid "Radial Count"
+msgstr "径向数量"
+
+#: ops_flick.py:57
+msgid "Radius"
+msgstr "半径"
+
+#: ops_flick.py:51
+#: preferences.py:28
+msgid "Remove Redundant Center"
+msgstr "移除多余中心"
+
+#: ops_flick.py:46
+msgid "Rotate welded copies of the mesh around the axis"
+msgstr "绕轴旋转焊接后的网格副本"
+
+#: ops_flick.py:57
+msgid "Slide the copies toward (-) or away from (+) the rotation axis before spinning. 0 keeps them where they are"
+msgstr "旋转前让副本朝旋转轴（-）或远离旋转轴（+）滑动。0 表示保持原位"
+
+#: ops_flick.py:42
+msgid "Symmetrize (Destructive)"
+msgstr "对称化（破坏性）"
+
+#: preferences.py:69
+msgid "Symmetry Inspector: mesh.symflick_inspect (bind via Preferences > Keymap if wanted)."
+msgstr "对称检查器：mesh.symflick_inspect（如需绑定，请前往 偏好设置 > 键位映射）。"
+
+#: ops_inspect.py:30
+msgid "Tolerance"
+msgstr "容差"
+
+#: preferences.py:15
+msgid "Vertices this close to the mirror plane are welded into one seam. Adjustable live with the scroll wheel while the HUD is open, and afterward in the F9 panel"
+msgstr "距离镜像平面在此范围内的顶点会焊接为一条接缝。HUD 打开时可用滚轮实时调整，之后可在 F9 面板中调整"
+
+#: ops_flick.py:77
+#: preferences.py:22
+msgid "Whole Mesh"
+msgstr "整个网格"
+
+#: ops_flick.py:69
+msgid "World-aligned mirror plane"
+msgstr "世界对齐的镜像平面"
+
+#: keymap.py:14
+#: ops_inspect.py:22
+msgid "X"
+msgstr "X"
+
+#: ops_inspect.py:22
+msgid "Y"
+msgstr "Y"
+
+#: ops_inspect.py:22
+msgid "Z"
+msgstr "Z"
+
+#: ops_flick.py:486
+msgctxt "Operator"
+msgid "Mirror Flick"
+msgstr "镜像轻拂"
+
+#: ops_flick.py:496
+msgctxt "Operator"
+msgid "Radial Flick"
+msgstr "径向轻拂"
+
+#: ops_flick.py:476
+msgctxt "Operator"
+msgid "Symmetrize Flick"
+msgstr "对称化轻拂"
+
+#: ops_inspect.py:17
+msgctxt "Operator"
+msgid "Symmetry Inspector"
+msgstr "对称检查器"

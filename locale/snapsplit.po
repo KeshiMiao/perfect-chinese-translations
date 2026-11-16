@@ -1,0 +1,743 @@
+# perfect-chinese: 1
+# id: snapsplit
+# kind: addon
+# module: bl_ext.blender_org.snapsplit
+# name: SnapSplit
+# name_zh: 吸附分割
+# translator: KeshiMiao
+# category: 
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: snapsplit/ops_split.py:2138
+msgid "0 = all planes per object, 1 = only largest"
+msgstr "0 = 每个物体的所有平面，1 = 仅最大平面"
+
+#: snapsplit/profiles.py:450
+msgid "Add a ring of snap spheres around the Custom Connector, using Custom Width as the reference axis"
+msgstr "围绕自定义连接器添加一圈卡扣球，以自定义宽度为参考轴"
+
+#: snapsplit/ui.py:402
+msgid "Alignment"
+msgstr "对齐"
+
+#: snapsplit/profiles.py:262
+msgid "Anti-rotation joint"
+msgstr "防旋转接头"
+
+#: snapsplit/profiles.py:575
+#: snapsplit/profiles.py:603
+msgid "Auto"
+msgstr "自动"
+
+#: snapsplit/profiles.py:598
+msgid "Auto stretches along the Dovetail Width axis and trims to the outer sides; X/Y/Z force overshoot along that world axis if it lies in the seam plane; None uses the manually configured Dovetail Length"
+msgstr "自动沿燕尾宽度轴拉伸并裁剪到外侧；X/Y/Z 在该世界轴位于接缝平面内时强制超出；None 使用手动配置的燕尾长度"
+
+#: snapsplit/profiles.py:251
+msgid "Automatically close seams after splitting. With hollow/inner shell: precise outer/inner loop fill; without hollow: simple fill. May increase runtime."
+msgstr "拆分后自动封闭接缝。有中空/内壳时：精确填充外/内环；无中空时：简单填充。可能增加运行时间。"
+
+#: snapsplit/profiles.py:603
+msgid "Automatically stretch along the Dovetail Width axis and trim to the outer sides"
+msgstr "自动沿燕尾宽度轴拉伸并裁剪到外侧"
+
+#: snapsplit/ui.py:236
+msgid "Base size"
+msgstr "基础尺寸"
+
+#: snapsplit/profiles.py:251
+#: snapsplit/ui.py:96
+msgid "Cap seams during split"
+msgstr "拆分时封闭接缝"
+
+#: snapsplit/profiles.py:577
+msgid "Center block(s) with margins"
+msgstr "带边距的居中块"
+
+#: snapsplit/profiles.py:577
+msgid "Centered"
+msgstr "居中"
+
+#: snapsplit/profiles.py:406
+#: snapsplit/ui.py:191
+msgid "Chamfer (mm)"
+msgstr "倒角 (mm)"
+
+#: snapsplit/ui.py:147
+msgid "Columns"
+msgstr "列数"
+
+#: snapsplit/ui.py:118
+msgid "Connections"
+msgstr "连接"
+
+#: snapsplit/profiles.py:258
+#: snapsplit/ui.py:125
+msgid "Connector Type"
+msgstr "连接器类型"
+
+#: snapsplit/profiles.py:264
+msgid "Connector with snap spheres"
+msgstr "带卡扣球的连接器"
+
+#: snapsplit/profiles.py:287
+#: snapsplit/ui.py:143
+msgid "Connectors per Seam"
+msgstr "每条接缝的连接器数"
+
+#: snapsplit/prefs.py:37
+msgid "Create a collection for parts ready to export"
+msgstr "为可导出的部件创建集合"
+
+#: snapsplit/prefs.py:37
+msgid "Create export collection"
+msgstr "创建导出集合"
+
+#: snapsplit/profiles.py:267
+msgid "Custom Connector"
+msgstr "自定义连接器"
+
+#: snapsplit/profiles.py:441
+#: snapsplit/ui.py:311
+msgid "Custom Depth (mm)"
+msgstr "自定义深度 (mm)"
+
+#: snapsplit/profiles.py:432
+#: snapsplit/ui.py:309
+msgid "Custom Length (mm)"
+msgstr "自定义长度 (mm)"
+
+#: snapsplit/profiles.py:423
+#: snapsplit/ui.py:307
+msgid "Custom Width (mm)"
+msgstr "自定义宽度 (mm)"
+
+#: snapsplit/profiles.py:261
+msgid "Cylinder Pin"
+msgstr "圆柱销"
+
+#: snapsplit/profiles.py:381
+msgid "Cylinder pin radial segments (visual smoothness)"
+msgstr "圆柱销径向分段（视觉平滑度）"
+
+#: snapsplit/prefs.py:32
+msgid "Default Profile"
+msgstr "默认配置"
+
+#: snapsplit/prefs.py:32
+msgid "Default material/printer profile"
+msgstr "默认材料/打印机配置"
+
+#: snapsplit/profiles.py:346
+msgid "Diameter of snap spheres"
+msgstr "卡扣球直径"
+
+#: snapsplit/profiles.py:276
+msgid "Distribute connectors along a line or a grid across the seam face"
+msgstr "沿直线或网格在接缝面上分布连接器"
+
+#: snapsplit/profiles.py:281
+msgid "Distribute connectors in a grid over the seam face"
+msgstr "在接缝面上以网格分布连接器"
+
+#: snapsplit/profiles.py:276
+#: snapsplit/ui.py:127
+msgid "Distribution"
+msgstr "分布"
+
+#: snapsplit/profiles.py:263
+msgid "Dovetail"
+msgstr "燕尾"
+
+#: snapsplit/profiles.py:487
+#: snapsplit/ui.py:243
+msgid "Dovetail Depth (mm)"
+msgstr "燕尾深度 (mm)"
+
+#: snapsplit/profiles.py:478
+#: snapsplit/ui.py:241
+msgid "Dovetail Length (mm)"
+msgstr "燕尾长度 (mm)"
+
+#: snapsplit/profiles.py:470
+#: snapsplit/ui.py:238
+msgid "Dovetail Width (mm)"
+msgstr "燕尾宽度 (mm)"
+
+#: snapsplit/profiles.py:261
+msgid "Dowel pin + socket"
+msgstr "定位销 + 销孔"
+
+#: snapsplit/profiles.py:304
+msgid "Edge margin along the seam (and perpendicular in GRID) as percentage of part length (0–40% recommended)"
+msgstr "沿接缝的边缘边距（GRID 中为垂直方向），按部件长度的百分比（建议 0–40%）"
+
+#: snapsplit/ui.py:389
+msgid "Effective:"
+msgstr "有效值："
+
+#: snapsplit/profiles.py:450
+#: snapsplit/ui.py:330
+msgid "Enable Snap Spheres"
+msgstr "启用卡扣球"
+
+#: snapsplit/profiles.py:326
+msgid "Exchange the roles of the two parts: the pin sits in the other part and the socket is cut into this one. Also flips the insertion direction"
+msgstr "交换两个部件的角色：销位于另一个部件中，销孔切入此部件。同时翻转插入方向"
+
+#: snapsplit/ops_align.py:330
+msgid "Face A Index"
+msgstr "面 A 索引"
+
+#: snapsplit/ops_align.py:329
+msgid "Face A Object"
+msgstr "面 A 物体"
+
+#: snapsplit/ops_align.py:332
+msgid "Face B Index"
+msgstr "面 B 索引"
+
+#: snapsplit/ops_align.py:331
+msgid "Face B Object"
+msgstr "面 B 物体"
+
+#: snapsplit/profiles.py:576
+msgid "Fixed"
+msgstr "固定"
+
+#: snapsplit/ui.py:394
+msgid "For tight fit, reduce tolerance; for easy assembly, increase."
+msgstr "紧密配合请减小公差；便于装配请增大。"
+
+#: snapsplit/profiles.py:604
+msgid "Force overshoot along world X, if it lies in the seam plane"
+msgstr "若世界 X 轴位于接缝平面内，强制沿其超出"
+
+#: snapsplit/profiles.py:605
+msgid "Force overshoot along world Y, if it lies in the seam plane"
+msgstr "若世界 Y 轴位于接缝平面内，强制沿其超出"
+
+#: snapsplit/profiles.py:606
+msgid "Force overshoot along world Z, if it lies in the seam plane"
+msgstr "若世界 Z 轴位于接缝平面内，强制沿其超出"
+
+#: snapsplit/ui.py:255
+#: snapsplit/ui.py:323
+msgid "Forces hard-side cut along this axis."
+msgstr "强制沿此轴进行硬边切割。"
+
+#: snapsplit/profiles.py:281
+msgid "Grid"
+msgstr "网格"
+
+#: snapsplit/profiles.py:618
+#: snapsplit/ui.py:260
+msgid "Hard-side Cut"
+msgstr "硬边切割"
+
+#: snapsplit/ui.py:90
+msgid "High part count may be slow"
+msgstr "部件数量多时可能较慢"
+
+#: snapsplit/profiles.py:355
+msgid "How far spheres protrude from side surface"
+msgstr "球体从侧面突出的距离"
+
+#: snapsplit/profiles.py:571
+msgid "How the dovetail spans along the seam"
+msgstr "燕尾沿接缝的延伸方式"
+
+#: snapsplit/ops_split.py:2147
+msgid "If exactly two edges are selected in Edit Mode, use them as seeds only (no auto-detection)."
+msgstr "若在编辑模式下恰好选中两条边，则仅将其用作种子（不自动检测）。"
+
+#: snapsplit/profiles.py:459
+#: snapsplit/ui.py:173
+msgid "Insert Depth (%)"
+msgstr "插入深度 (%)"
+
+#: snapsplit/profiles.py:478
+msgid "Length along seam plane (local v)"
+msgstr "沿接缝平面的长度（局部 v）"
+
+#: snapsplit/profiles.py:280
+msgid "Line"
+msgstr "直线"
+
+#: snapsplit/profiles.py:318
+#: snapsplit/ui.py:159
+msgid "Live Preview"
+msgstr "实时预览"
+
+#: snapsplit/profiles.py:304
+#: snapsplit/profiles.py:584
+msgid "Margin (%)"
+msgstr "边距 (%)"
+
+#: snapsplit/profiles.py:507
+#: snapsplit/ui.py:367
+msgid "Material Profiles"
+msgstr "材质配置"
+
+#: snapsplit/ops_split.py:2138
+msgid "Max planes"
+msgstr "最大平面数"
+
+#: snapsplit/profiles.py:415
+msgid "Mesh object from this scene used as connector shape. Its local Z axis is treated as the insertion direction; it will be rescaled to the Width/Length/Depth values below."
+msgstr "使用此场景中的网格物体作为连接件形状。其局部 Z 轴视为插入方向；将按下方宽度/长度/深度值重新缩放。"
+
+#: snapsplit/profiles.py:547
+msgid "More alignment settings"
+msgstr "更多对齐设置"
+
+#: snapsplit/profiles.py:534
+msgid "More connection settings"
+msgstr "更多连接设置"
+
+#: snapsplit/profiles.py:528
+msgid "More segmentation settings"
+msgstr "更多分割设置"
+
+#: snapsplit/profiles.py:540
+msgid "More tolerance settings"
+msgstr "更多公差设置"
+
+#: snapsplit/profiles.py:602
+msgid "None"
+msgstr "无"
+
+#: snapsplit/profiles.py:241
+#: snapsplit/ui.py:87
+msgid "Number of Parts"
+msgstr "部件数量"
+
+#: snapsplit/profiles.py:241
+msgid "Number of desired segments (cut planes = parts - 1)"
+msgstr "所需分段数（切割平面 = 部件数 - 1）"
+
+#: snapsplit/profiles.py:295
+msgid "Number of rows for grid distribution"
+msgstr "网格分布的排数"
+
+#: snapsplit/profiles.py:337
+msgid "Number of snap spheres per side/around"
+msgstr "每侧/周围的卡扣球数量"
+
+#: snapsplit/__init__.py:23
+msgid "Object"
+msgstr "物体"
+
+#: snapsplit/profiles.py:635
+#: snapsplit/ui.py:298
+msgid "Offset along Length (mm)"
+msgstr "沿长度偏移 (mm)"
+
+#: snapsplit/profiles.py:626
+#: snapsplit/ui.py:296
+msgid "Offset along Width (mm)"
+msgstr "沿宽度偏移 (mm)"
+
+#: snapsplit/profiles.py:214
+msgid "Offset of the cutting plane along the split axis (positive in axis direction)"
+msgstr "切割平面沿分割轴的偏移（沿轴方向为正）"
+
+#: snapsplit/profiles.py:635
+msgid "Offset within the cut plane along the length (v) axis to shift the dovetail pattern"
+msgstr "在切割平面内沿长度 (v) 轴的偏移，用于移动燕尾图案"
+
+#: snapsplit/profiles.py:626
+msgid "Offset within the cut plane along the width (u) axis to shift the dovetail pattern"
+msgstr "在切割平面内沿宽度 (u) 轴的偏移，用于移动燕尾图案"
+
+#: snapsplit/ops_split.py:2134
+msgid "Only selected objects"
+msgstr "仅选中物体"
+
+#: snapsplit/profiles.py:514
+msgid "Overrides material profile (0 = use profile value)"
+msgstr "覆盖材质配置（0 = 使用配置值）"
+
+#: snapsplit/profiles.py:495
+msgid "Percentage by which the tip is narrower than the base"
+msgstr "尖端比基部窄的百分比"
+
+#: snapsplit/profiles.py:459
+msgid "Percentage of connector length recessed into part A"
+msgstr "连接件嵌入部件 A 的长度百分比"
+
+#: snapsplit/ui.py:410
+msgid "Pick faces in Object Mode (A = target, B = moving)"
+msgstr "在物体模式下拾取面（A = 目标，B = 移动）"
+
+#: snapsplit/ops_align.py:619
+msgid "Picks cleared"
+msgstr "已清除拾取"
+
+#: snapsplit/profiles.py:365
+#: snapsplit/ui.py:169
+msgid "Pin Diameter (mm)"
+msgstr "销直径 (mm)"
+
+#: snapsplit/profiles.py:373
+#: snapsplit/ui.py:171
+msgid "Pin Length (mm)"
+msgstr "销长度 (mm)"
+
+#: snapsplit/profiles.py:280
+msgid "Place connectors along a line in the seam face"
+msgstr "沿接缝面中的一条线放置连接件"
+
+#: snapsplit/ui.py:292
+#: snapsplit/ui.py:341
+msgid "Placement"
+msgstr "放置"
+
+#: snapsplit/ui.py:59
+msgid "Please re-enable the Add-on."
+msgstr "请重新启用该插件。"
+
+#: snapsplit/profiles.py:618
+msgid "Prefer sharp side cut for dovetail socket/slot"
+msgstr "燕尾槽/槽口优先使用尖角侧切"
+
+#: snapsplit/ui.py:380
+msgid "Profile:"
+msgstr "配置："
+
+#: snapsplit/profiles.py:355
+#: snapsplit/ui.py:202
+msgid "Protrusion (mm)"
+msgstr "凸出量 (mm)"
+
+#: snapsplit/profiles.py:262
+msgid "Rectangular Tenon"
+msgstr "矩形榫"
+
+#: snapsplit/profiles.py:265
+msgid "Rectangular tenon with snap spheres"
+msgstr "带卡扣球的矩形榫"
+
+#: snapsplit/ops_split.py:2147
+msgid "Require exactly two seed edges"
+msgstr "需要恰好两条种子边"
+
+#: snapsplit/profiles.py:645
+#: snapsplit/ui.py:300
+msgid "Rotation in plane (deg)"
+msgstr "平面内旋转 (度)"
+
+#: snapsplit/profiles.py:645
+msgid "Rotation within the cut plane to orient the dovetail pattern"
+msgstr "在切割平面内旋转以定向燕尾图案"
+
+#: snapsplit/ui.py:149
+msgid "Rows"
+msgstr "排数"
+
+#: snapsplit/profiles.py:295
+msgid "Rows (GRID)"
+msgstr "排数 (网格)"
+
+#: snapsplit/ui.py:68
+msgid "Segmentation"
+msgstr "分割"
+
+#: snapsplit/profiles.py:381
+#: snapsplit/ui.py:177
+msgid "Segments"
+msgstr "分段"
+
+#: snapsplit/profiles.py:507
+msgid "Select a material profile to auto-fill tolerance per side"
+msgstr "选择材质配置以自动填充每侧公差"
+
+#: snapsplit/profiles.py:415
+#: snapsplit/ui.py:305
+msgid "Select connector object"
+msgstr "选择连接件物体"
+
+#: snapsplit/ops_split.py:2143
+msgid "Select only (no fill)"
+msgstr "仅选择（不填充）"
+
+#: snapsplit/profiles.py:318
+msgid "Show a live wireframe preview of connector placement (LINE/GRID) for the current selection. Capped at 200 preview objects for performance."
+msgstr "为当前选择显示连接件放置（直线/网格）的实时线框预览。出于性能考虑，预览物体上限为 200 个。"
+
+#: snapsplit/profiles.py:547
+msgid "Show advanced alignment options"
+msgstr "显示高级对齐选项"
+
+#: snapsplit/profiles.py:534
+msgid "Show advanced connection/geometry options"
+msgstr "显示高级连接/几何选项"
+
+#: snapsplit/profiles.py:528
+msgid "Show advanced segmentation options"
+msgstr "显示高级分割选项"
+
+#: snapsplit/profiles.py:540
+msgid "Show advanced tolerance options"
+msgstr "显示高级公差选项"
+
+#: snapsplit/profiles.py:234
+#: snapsplit/ui.py:79
+msgid "Show split preview"
+msgstr "显示分割预览"
+
+#: snapsplit/profiles.py:234
+msgid "Show temporary orange planes at planned cut positions"
+msgstr "在计划切割位置显示临时橙色平面"
+
+#: snapsplit/profiles.py:559
+#: snapsplit/ui.py:250
+msgid "Signed Taper (%)"
+msgstr "有符号锥度 (%)"
+
+#: snapsplit/profiles.py:559
+msgid "Signed taper along insertion. Positive widens, negative narrows. If non-zero, overrides plain taper."
+msgstr "沿插入方向的有符号锥度。正值变宽，负值变窄。若非零，则覆盖普通锥度。"
+
+#: snapsplit/profiles.py:266
+msgid "Snap Dovetail"
+msgstr "卡扣燕尾"
+
+#: snapsplit/profiles.py:264
+msgid "Snap Pin"
+msgstr "卡扣销"
+
+#: snapsplit/profiles.py:265
+msgid "Snap Tenon"
+msgstr "卡扣榫"
+
+#: snapsplit/ui.py:197
+#: snapsplit/ui.py:222
+msgid "Snap spheres:"
+msgstr "卡扣球："
+
+#: snapsplit/ui.py:44
+#: snapsplit/ui.py:45
+msgid "SnapSplit"
+msgstr "SnapSplit"
+
+#: snapsplit/__init__.py:23
+msgid "SnapSplit  Print-ready segmentation with connectors"
+msgstr "SnapSplit 可直接打印的带连接件分割"
+
+#: snapsplit/ui.py:58
+msgid "SnapSplit properties not available."
+msgstr "SnapSplit 属性不可用。"
+
+#: snapsplit/profiles.py:598
+#: snapsplit/ui.py:253
+msgid "Span Axis"
+msgstr "跨距轴"
+
+#: snapsplit/profiles.py:571
+msgid "Span Mode"
+msgstr "跨距模式"
+
+#: snapsplit/profiles.py:346
+#: snapsplit/ui.py:200
+msgid "Sphere Diameter (mm)"
+msgstr "球体直径 (mm)"
+
+#: snapsplit/profiles.py:337
+#: snapsplit/ui.py:198
+msgid "Spheres per side"
+msgstr "每侧球体数"
+
+#: snapsplit/profiles.py:223
+#: snapsplit/ui.py:75
+msgid "Split Axis"
+msgstr "分割轴"
+
+#: snapsplit/profiles.py:214
+#: snapsplit/ui.py:94
+msgid "Split Offset (mm)"
+msgstr "分割偏移 (mm)"
+
+#: snapsplit/profiles.py:226
+msgid "Split along X"
+msgstr "沿 X 分割"
+
+#: snapsplit/profiles.py:227
+msgid "Split along Y"
+msgstr "沿 Y 分割"
+
+#: snapsplit/profiles.py:228
+msgid "Split along Z"
+msgstr "沿 Z 分割"
+
+#: snapsplit/__init__.py:23
+msgid "Split meshes into printable parts and generate fitting connectors for 3D printing."
+msgstr "将网格分割为可打印部件，并生成适合 3D 打印的配合连接件。"
+
+#: snapsplit/profiles.py:326
+#: snapsplit/ui.py:130
+msgid "Swap Pin / Socket"
+msgstr "交换销 / 孔"
+
+#: snapsplit/profiles.py:495
+msgid "Taper (%)"
+msgstr "锥度 (%)"
+
+#: snapsplit/profiles.py:263
+msgid "Tapered wedge connector"
+msgstr "锥形楔连接件"
+
+#: snapsplit/profiles.py:266
+msgid "Tapered wedge connector with snap spheres"
+msgstr "带卡扣球的锥形楔连接件"
+
+#: snapsplit/profiles.py:423
+msgid "Target size along the object's local X axis"
+msgstr "沿物体局部 X 轴的目标尺寸"
+
+#: snapsplit/profiles.py:432
+msgid "Target size along the object's local Y axis"
+msgstr "沿物体局部 Y 轴的目标尺寸"
+
+#: snapsplit/profiles.py:441
+msgid "Target size along the object's local Z axis (insertion depth)"
+msgstr "沿物体局部 Z 轴的目标尺寸（插入深度）"
+
+#: snapsplit/profiles.py:398
+#: snapsplit/ui.py:210
+msgid "Tenon Depth (mm)"
+msgstr "榫头深度 (mm)"
+
+#: snapsplit/profiles.py:390
+#: snapsplit/ui.py:208
+msgid "Tenon Width (mm)"
+msgstr "榫头宽度 (mm)"
+
+#: snapsplit/ui.py:103
+msgid "To close existing seams, run 'Cap seams now'."
+msgstr "要封闭现有接缝，请运行「立即封盖接缝」。"
+
+#: snapsplit/ui.py:360
+msgid "Tolerance"
+msgstr "容差"
+
+#: snapsplit/profiles.py:514
+#: snapsplit/ui.py:373
+msgid "Tolerance per Face (mm)"
+msgstr "每面容差 (mm)"
+
+#: snapsplit/profiles.py:584
+msgid "Trim percentage at both ends of seam span"
+msgstr "接缝跨距两端的修剪百分比"
+
+#: snapsplit/ui.py:350
+msgid "Unsupported connector type"
+msgstr "不支持的连接件类型"
+
+#: snapsplit/profiles.py:576
+msgid "Use a fixed repeating spacing"
+msgstr "使用固定的重复间距"
+
+#: snapsplit/profiles.py:267
+msgid "Use another mesh object from the scene as connector shape"
+msgstr "使用场景中的另一个网格物体作为连接件形状"
+
+#: snapsplit/profiles.py:575
+msgid "Use full edge-to-edge span of the seam"
+msgstr "使用接缝的完整边到边跨距"
+
+#: snapsplit/profiles.py:602
+msgid "Use the manually configured Dovetail Length; only trim edges if Hard-side Cut is enabled"
+msgstr "使用手动配置的燕尾长度；仅在启用硬边切割时修剪边缘"
+
+#: snapsplit/profiles.py:226
+#: snapsplit/profiles.py:604
+msgid "X"
+msgstr "X"
+
+#: snapsplit/profiles.py:227
+#: snapsplit/profiles.py:605
+msgid "Y"
+msgstr "Y"
+
+#: snapsplit/profiles.py:228
+#: snapsplit/profiles.py:606
+msgid "Z"
+msgstr "Z"
+
+#: snapsplit/ops_connectors.py:4002
+#: snapsplit/ui.py:135
+msgctxt "Operator"
+msgid "Add connectors"
+msgstr "添加连接件"
+
+#: snapsplit/ui.py:80
+msgctxt "Operator"
+msgid "Adjust"
+msgstr "调整"
+
+#: snapsplit/ops_split.py:1199
+msgctxt "Operator"
+msgid "Adjust split axis"
+msgstr "调整分割轴"
+
+#: snapsplit/ops_align.py:498
+#: snapsplit/ui.py:434
+msgctxt "Operator"
+msgid "Align Faces"
+msgstr "对齐面"
+
+#: snapsplit/ops_connectors.py:4003
+msgctxt "Operator"
+msgid "Batch-place connectors between all adjacent selected parts using current settings."
+msgstr "使用当前设置在所有相邻的已选部件之间批量放置连接件。"
+
+#: snapsplit/ops_split.py:2130
+#: snapsplit/ui.py:100
+msgctxt "Operator"
+msgid "Cap seams now"
+msgstr "立即封盖接缝"
+
+#: snapsplit/ops_align.py:592
+msgctxt "Operator"
+msgid "Clear Picks"
+msgstr "清除拾取"
+
+#: snapsplit/ops_split.py:2131
+msgctxt "Operator"
+msgid "Fill between exactly two split edge loops (outer+inner) per plane. Seeds preferred."
+msgstr "在每个平面上于正好两条分割边循环（外+内）之间填充。优先使用种子。"
+
+#: snapsplit/ops_connectors.py:3351
+msgctxt "Operator"
+msgid "Interactively place a connector (pin/tenon/dovetail) by clicking on the seam plane between two parts."
+msgstr "通过点击两个部件之间的接缝平面，交互式放置连接件（销/榫头/燕尾）。"
+
+#: snapsplit/ops_align.py:342
+#: snapsplit/ui.py:428
+msgctxt "Operator"
+msgid "Pick Face A"
+msgstr "拾取面 A"
+
+#: snapsplit/ops_align.py:395
+#: snapsplit/ui.py:429
+msgctxt "Operator"
+msgid "Pick Face B"
+msgstr "拾取面 B"
+
+#: snapsplit/ops_connectors.py:3350
+#: snapsplit/ui.py:136
+msgctxt "Operator"
+msgid "Place connectors (click)"
+msgstr "放置连接件（点击）"
+
+#: snapsplit/ops_split.py:1862
+#: snapsplit/ui.py:106
+msgctxt "Operator"
+msgid "Planar Split"
+msgstr "平面分割"

@@ -1,0 +1,597 @@
+# perfect-chinese: 1
+# id: image_region_transform
+# kind: addon
+# module: bl_ext.blender_org.image_region_transform
+# name: Image Region Transform
+# name_zh: 图像区域变换
+# translator: KeshiMiao
+# category: Paint
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: image_region_transform/_op_select.py:415
+#: image_region_transform/_op_select.py:478
+msgid "Area outside the image"
+msgstr "图像外区域"
+
+#: image_region_transform/_ui.py:145
+msgid "Base outline opacity"
+msgstr "基础轮廓不透明度"
+
+#: image_region_transform/_ui.py:126
+msgid "Bicubic, balanced — the default"
+msgstr "双三次，均衡 — 默认"
+
+#: image_region_transform/_op_select.py:74
+msgid "Box"
+msgstr "盒式"
+
+#: image_region_transform/_ui.py:398
+msgid "Buttons:"
+msgstr "按钮："
+
+#: image_region_transform/_ui.py:126
+msgid "Catmull-Rom"
+msgstr "Catmull-Rom"
+
+#: image_region_transform/_op_select.py:75
+msgid "Click a polyline"
+msgstr "点击折线"
+
+#: image_region_transform/_op_select_warp.py:203
+#: image_region_transform/_ops_misc.py:568
+msgid "Clipboard is empty"
+msgstr "剪贴板为空"
+
+#: image_region_transform/_ui.py:346
+msgid "Clipboard: %dx%d from %s"
+msgstr "剪贴板：%dx%d，来自 %s"
+
+#: image_region_transform/_ui.py:349
+msgid "Clipboard: empty"
+msgstr "剪贴板：空"
+
+#: image_region_transform/_op_select_shape.py:81
+msgid "Contour edit redone"
+msgstr "已重做轮廓编辑"
+
+#: image_region_transform/_op_select_shape.py:60
+msgid "Contour edit undone"
+msgstr "已撤销轮廓编辑"
+
+#: image_region_transform/_mixins.py:475
+msgid "Contour edited"
+msgstr "轮廓已编辑"
+
+#: image_region_transform/_op_select_shape.py:70
+msgid "Contour removed"
+msgstr "轮廓已移除"
+
+#: image_region_transform/_op_select_shape.py:62
+#: image_region_transform/_op_select_shape.py:83
+msgid "Contour state lost"
+msgstr "轮廓状态丢失"
+
+#: image_region_transform/_ui.py:372
+msgid "Ctrl (drawing) — Snap to borders and UV vertices"
+msgstr "Ctrl（绘制时）— 吸附到边界和 UV 顶点"
+
+#: image_region_transform/_ui.py:378
+msgid "Ctrl — Snap 1°/1%"
+msgstr "Ctrl — 吸附 1°/1%"
+
+#: image_region_transform/_ui.py:384
+msgid "Ctrl — Snap; double-Ctrl — Free vertex"
+msgstr "Ctrl — 吸附；双击 Ctrl — 自由顶点"
+
+#: image_region_transform/_ui.py:395
+msgid "Ctrl+C — Copy"
+msgstr "Ctrl+C — 复制"
+
+#: image_region_transform/_ui.py:379
+msgid "Ctrl+Shift — Snap 5°/5%"
+msgstr "Ctrl+Shift — 吸附 5°/5%"
+
+#: image_region_transform/_ui.py:391
+msgid "Ctrl+Shift+Z — Redo step"
+msgstr "Ctrl+Shift+Z — 重做一步"
+
+#: image_region_transform/_ui.py:396
+msgid "Ctrl+V — Paste"
+msgstr "Ctrl+V — 粘贴"
+
+#: image_region_transform/_ui.py:390
+msgid "Ctrl+Z — Undo step"
+msgstr "Ctrl+Z — 撤销一步"
+
+#: image_region_transform/_ui.py:394
+msgid "Del — Fill"
+msgstr "Del — 填充"
+
+#: image_region_transform/_op_select.py:74
+msgid "Drag a rectangle"
+msgstr "拖动矩形"
+
+#: image_region_transform/_op_select.py:418
+msgid "Drag to select the region"
+msgstr "拖动以选择区域"
+
+#: image_region_transform/_op_select.py:537
+msgid "Draw cancelled — the previous region stays"
+msgstr "绘制已取消 — 保留上一个区域"
+
+#: image_region_transform/_ui.py:132
+msgid "Edge softening"
+msgstr "边缘柔化"
+
+#: image_region_transform/_op_select.py:431
+#: image_region_transform/_op_select.py:483
+msgid "Empty area"
+msgstr "空白区域"
+
+#: image_region_transform/_ui.py:388
+msgid "Enter / Transform Border — to pixels"
+msgstr "Enter / 变换边界 — 到像素"
+
+#: image_region_transform/_ui.py:392
+msgid "Enter — Apply All"
+msgstr "Enter — 全部应用"
+
+#: image_region_transform/_ui.py:393
+msgid "Esc — Cancel / Exit"
+msgstr "Esc — 取消 / 退出"
+
+#: image_region_transform/_ui.py:81
+msgid "Fill color"
+msgstr "填充颜色"
+
+#: image_region_transform/_op_select.py:298
+msgid "Finish or cancel the drag first"
+msgstr "请先完成或取消拖动"
+
+#: image_region_transform/_ui.py:374
+msgid "G — Move"
+msgstr "G — 移动"
+
+#: image_region_transform/_ui.py:387
+msgid "G/R/S + handles edit the CONTOUR"
+msgstr "G/R/S + 控制柄编辑轮廓"
+
+#: image_region_transform/_ui.py:382
+msgid "Handles — Stretch"
+msgstr "控制柄 — 拉伸"
+
+#: image_region_transform/_ui.py:132
+msgid "How much hard pixel edges are smoothed when the transform rotates, shears or warps: 0% keeps the hardest possible edges (a staircase may show on rotated hard edges), 100% gives smooth antialiased edges. Applies to the final result and the preview; plain moves are never softened"
+msgstr "变换旋转、剪切或扭曲时硬像素边缘的平滑程度：0% 保持最硬的边缘（旋转的硬边缘可能出现锯齿），100% 得到平滑的抗锯齿边缘。应用于最终结果和预览；纯移动永不柔化"
+
+#: image_region_transform/_ui.py:312
+#: image_region_transform/_ui.py:315
+msgid "Image Region Transform"
+msgstr "图像区域变换"
+
+#: image_region_transform/_ui.py:290
+msgid "Instructions: the guide file is missing from the package"
+msgstr "说明：包中缺少指南文件"
+
+#: image_region_transform/_ui.py:116
+msgid "Interpolation used when applying transforms and for the live preview. Catmull-Rom: bicubic, balanced. Lanczos-3: windowed sinc, sharpest, slight ripple on hard edges. Mitchell-Netravali: softest, least ringing, but NOT pixel-exact — even a plain move blurs ~11% (the filter is approximating). A pure integer move is pixel-exact with Catmull-Rom and Lanczos-3"
+msgstr "应用变换和实时预览时使用的插值。Catmull-Rom：双三次，均衡。Lanczos-3：加窗 sinc，最锐利，硬边缘有轻微波纹。Mitchell-Netravali：最柔和，振铃最少，但非像素精确 — 即使纯移动也会模糊约 11%（滤波器为近似）。纯整数移动在 Catmull-Rom 和 Lanczos-3 下像素精确"
+
+#: image_region_transform/_ops_misc.py:287
+msgid "Kind"
+msgstr "类型"
+
+#: image_region_transform/_ui.py:371
+msgid "LMB — Create contour"
+msgstr "左键 — 创建轮廓"
+
+#: image_region_transform/_ui.py:389
+msgid "LMB — Fix Step"
+msgstr "左键 — 修正一步"
+
+#: image_region_transform/_ui.py:127
+msgid "Lanczos-3"
+msgstr "Lanczos-3"
+
+#: image_region_transform/_ops_misc.py:847
+msgid "Last border restored"
+msgstr "已恢复上一个边界"
+
+#: image_region_transform/_ui.py:128
+msgid "Mitchell-Netravali"
+msgstr "Mitchell-Netravali"
+
+#: image_region_transform/_op_select_edit.py:425
+#: image_region_transform/_op_select_edit.py:444
+msgid "Move the mouse first"
+msgstr "请先移动鼠标"
+
+#: image_region_transform/_op_select.py:467
+msgid "Need 3+ points"
+msgstr "需要 3 个以上点"
+
+#: image_region_transform/_op_select.py:98
+#: image_region_transform/_ops_misc.py:91
+msgid "No editor area"
+msgstr "没有编辑器区域"
+
+#: image_region_transform/_op_select_edit.py:277
+#: image_region_transform/_op_select_edit.py:311
+msgid "No image"
+msgstr "无图像"
+
+#: image_region_transform/_op_select_edit.py:88
+msgid "No pending steps to apply"
+msgstr "没有可应用的待处理步骤"
+
+#: image_region_transform/_mixins.py:767
+msgid "No region"
+msgstr "无区域"
+
+#: image_region_transform/_op_select_shape.py:100
+msgid "No selection"
+msgstr "无选择"
+
+#: image_region_transform/_op_select_edit.py:153
+#: image_region_transform/_op_select_edit.py:161
+msgid "Nothing to redo"
+msgstr "无可重做"
+
+#: image_region_transform/_op_select_edit.py:183
+#: image_region_transform/_ops_misc.py:873
+msgid "Nothing to undo"
+msgstr "无可撤销"
+
+#: image_region_transform/_ui.py:155
+msgid "Opacity of the GREEN live-frame outline of a transform session (move / rotate / scale / stretch / warp and the pasted region). 0% hides the transform frame completely"
+msgstr "变换会话（移动 / 旋转 / 缩放 / 拉伸 / 扭曲以及粘贴区域）的绿色实时边框轮廓不透明度。0% 完全隐藏变换框"
+
+#: image_region_transform/_ui.py:90
+msgid "Opacity of the transformed content preview while moving / rotating / scaling / stretching (1.0 — fully opaque, lower — more of the base image shows through for precise positioning)"
+msgstr "移动 / 旋转 / 缩放 / 拉伸时变换内容预览的不透明度（1.0 — 完全不透明，更低 — 露出更多基础图像以便精确定位）"
+
+#: image_region_transform/_ui.py:167
+msgid "Opacity of the white mesh UV wireframe the addon draws over the region while a contour is active (drawn on top of everything; the editor's own dark wires are hidden while a contour is alive and come back afterwards). 0% shows the editor's own wires again"
+msgstr "轮廓激活时插件在区域上绘制的白色网格 UV 线框的不透明度（绘制在最上层；轮廓存在时编辑器的深色线框被隐藏，之后恢复）。0% 重新显示编辑器自身的线框"
+
+#: image_region_transform/_ui.py:145
+msgid "Opacity of the yellow BASE outline of a BUILT selection (the contour being drawn is always bright). 0% hides the base outline completely"
+msgstr "已构建选择的黄色基础轮廓不透明度（正在绘制的轮廓始终高亮）。0% 完全隐藏基础轮廓"
+
+#: image_region_transform/_op_select_edit.py:190
+msgid "Paste cancelled"
+msgstr "粘贴已取消"
+
+#: image_region_transform/_op_select_edit.py:442
+#: image_region_transform/_ops_misc.py:680
+msgid "Pasted — Enter applies"
+msgstr "已粘贴 — Enter 应用"
+
+#: image_region_transform/_op_select_warp.py:190
+msgid "Pending transforms applied"
+msgstr "已应用待处理的变换"
+
+#: image_region_transform/_ui.py:75
+msgid "Pixels pushed off one edge appear on the opposite side (tileable textures). Toggle with W during a move"
+msgstr "像素从一侧推出后会出现在对侧（可平铺纹理）。移动时按 W 切换"
+
+#: image_region_transform/_op_select.py:75
+msgid "Polygonal"
+msgstr "多边形"
+
+#: image_region_transform/_ui.py:90
+msgid "Preview opacity"
+msgstr "预览不透明度"
+
+#: image_region_transform/_ui.py:375
+msgid "R — Rotate (frame center)"
+msgstr "R — 旋转（画面中心）"
+
+#: image_region_transform/_op_select_edit.py:159
+#: image_region_transform/_ops_misc.py:934
+msgid "Redone"
+msgstr "已重做"
+
+#: image_region_transform/_op_select_edit.py:139
+#: image_region_transform/_op_select_shape.py:421
+msgid "Region copied"
+msgstr "已复制区域"
+
+#: image_region_transform/_op_select.py:679
+msgid "Region deactivated"
+msgstr "区域已停用"
+
+#: image_region_transform/_op_select.py:701
+msgid "Region deactivated — Ctrl+Z brings it back"
+msgstr "区域已停用 — Ctrl+Z 可恢复"
+
+#: image_region_transform/_op_select.py:158
+msgid "Region edit: G/R/S, drag handles"
+msgstr "区域编辑：G/R/S，拖动手柄"
+
+#: image_region_transform/_op_select_edit.py:128
+#: image_region_transform/_op_select_shape.py:410
+msgid "Region filled"
+msgstr "已填充区域"
+
+#: image_region_transform/_op_select.py:120
+msgid "Region is parked - re-select the Region tool"
+msgstr "区域已挂起 - 请重新选择区域工具"
+
+#: image_region_transform/_ops_misc.py:664
+msgid "Region pasted"
+msgstr "已粘贴区域"
+
+#: image_region_transform/_op_select.py:164
+#: image_region_transform/_op_select.py:516
+msgid "Region ready: G/R/S edit the contour, Enter — transform"
+msgstr "区域就绪：G/R/S 编辑轮廓，Enter — 变换"
+
+#: image_region_transform/_op_select.py:763
+#: image_region_transform/_ops_misc.py:806
+msgid "Region restored"
+msgstr "区域已恢复"
+
+#: image_region_transform/_op_select_shape.py:484
+msgid "Region tool closed"
+msgstr "区域工具已关闭"
+
+#: image_region_transform/_ui.py:116
+msgid "Resampling kernel"
+msgstr "重采样核"
+
+#: image_region_transform/_ui.py:400
+msgid "Restore Region (Ctrl+Z) — bring the contour"
+msgstr "恢复区域 (Ctrl+Z) — 取回轮廓"
+
+#: image_region_transform/_ops_misc.py:290
+msgid "Rotate"
+msgstr "旋转"
+
+#: image_region_transform/_ops_misc.py:290
+msgid "Rotate around the center"
+msgstr "绕中心旋转"
+
+#: image_region_transform/_ui.py:376
+msgid "S — Scale (frame center)"
+msgstr "S — 缩放（画面中心）"
+
+#: image_region_transform/_ops_misc.py:291
+msgid "Scale"
+msgstr "缩放"
+
+#: image_region_transform/_ops_misc.py:291
+msgid "Scale around the center"
+msgstr "绕中心缩放"
+
+#: image_region_transform/_ui.py:102
+msgid "Shadow background opacity"
+msgstr "阴影背景不透明度"
+
+#: image_region_transform/_ui.py:377
+msgid "Shift + Corner — Proportional scale"
+msgstr "Shift + 角点 — 等比缩放"
+
+#: image_region_transform/_ui.py:386
+msgid "Shift — 45° Line (Polygonal Region)"
+msgstr "Shift — 45° 直线（多边形区域）"
+
+#: image_region_transform/_ui.py:128
+msgid "Softest, least ringing; plain moves blur slightly"
+msgstr "最柔和、振铃最少；普通移动会轻微模糊"
+
+#: image_region_transform/_ops_misc.py:516
+msgid "Source image is gone"
+msgstr "源图像已丢失"
+
+#: image_region_transform/_op_select_edit.py:452
+#: image_region_transform/_ops_misc.py:274
+msgid "Step moved — Enter applies"
+msgstr "步骤已移动 — Enter 应用"
+
+#: image_region_transform/_op_select_edit.py:149
+#: image_region_transform/_ops_misc.py:928
+msgid "Step redone"
+msgstr "步骤已重做"
+
+#: image_region_transform/_op_select_stretch.py:310
+msgid "Step stretched — Enter applies"
+msgstr "步骤已拉伸 — Enter 应用"
+
+#: image_region_transform/_op_select_edit.py:170
+#: image_region_transform/_ops_misc.py:879
+msgid "Step undone"
+msgstr "步骤已撤销"
+
+#: image_region_transform/_op_select_warp.py:156
+msgid "Step warped — Enter applies"
+msgstr "步骤已扭曲 — Enter 应用"
+
+#: image_region_transform/_op_select.py:71
+msgid "Style"
+msgstr "样式"
+
+#: image_region_transform/_ui.py:81
+msgid "The color that fills the spot left by a moved region"
+msgstr "填充移动区域后所留空缺的颜色"
+
+#: image_region_transform/_op_select_edit.py:135
+#: image_region_transform/_op_select_shape.py:92
+msgid "The contour is fully outside the image"
+msgstr "轮廓完全在图像外"
+
+#: image_region_transform/_op_select.py:737
+#: image_region_transform/_ops_misc.py:769
+msgid "The image is gone"
+msgstr "图像已丢失"
+
+#: image_region_transform/_ops_misc.py:826
+msgid "The image of the last border is gone"
+msgstr "上一个边界的图像已丢失"
+
+#: image_region_transform/_op_select_edit.py:75
+#: image_region_transform/_op_select_shape.py:378
+msgid "The region is in another editor"
+msgstr "区域位于另一个编辑器中"
+
+#: image_region_transform/_op_select.py:113
+msgid "The region tool is active in another editor"
+msgstr "区域工具在另一个编辑器中处于活动状态"
+
+#: image_region_transform/_op_select_edit.py:320
+#: image_region_transform/_op_select_edit.py:486
+msgid "The selection is on another image"
+msgstr "选区位于另一张图像上"
+
+#: image_region_transform/_ui.py:399
+msgid "Transform Border — to the pixel phase"
+msgstr "变换边界 — 到像素相位"
+
+#: image_region_transform/_ui.py:155
+msgid "Transform outline opacity"
+msgstr "变换轮廓不透明度"
+
+#: image_region_transform/_op_select_shape.py:120
+#: image_region_transform/_ui.py:233
+msgid "Transform: G move, R rotate, S scale"
+msgstr "变换：G 移动，R 旋转，S 缩放"
+
+#: image_region_transform/_op_select_edit.py:96
+#: image_region_transform/_op_select_edit.py:409
+msgid "Transforms applied"
+msgstr "已应用变换"
+
+#: image_region_transform/_mixins.py:335
+#: image_region_transform/_op_select_edit.py:112
+msgid "Transforms cancelled"
+msgstr "变换已取消"
+
+#: image_region_transform/_ui.py:167
+msgid "UV wireframe opacity"
+msgstr "UV 线框不透明度"
+
+#: image_region_transform/_op_select_edit.py:181
+#: image_region_transform/_ops_misc.py:886
+msgid "Undone"
+msgstr "已撤销"
+
+#: image_region_transform/_ui.py:383
+msgid "Vertices — Warp"
+msgstr "顶点 — 扭曲"
+
+#: image_region_transform/_ui.py:102
+msgid "Virtual dimming of the base texture while the region tool is active - from the first contour click until the tool is left, transform steps included: the whole image darkens so the contour and the transformed content stay readable. 0% disables the shadow completely"
+msgstr "区域工具活动时对基础纹理进行虚拟调暗 - 从第一次点击轮廓开始，直到离开该工具（包括变换步骤）：整张图像会变暗，使轮廓和变换后的内容保持可读。0% 会完全禁用阴影"
+
+#: image_region_transform/_ui.py:381
+msgid "W — Wrap"
+msgstr "W — 环绕"
+
+#: image_region_transform/_ui.py:127
+msgid "Windowed sinc, sharpest"
+msgstr "窗函数 sinc，最锐利"
+
+#: image_region_transform/_ui.py:75
+msgid "Wrap at edges"
+msgstr "边缘环绕"
+
+#: image_region_transform/_ui.py:380
+msgid "X/Y — Axis lock (steps + drags)"
+msgstr "X/Y — 轴锁定（步骤 + 拖动）"
+
+#: image_region_transform/_ui.py:401
+msgid "back after a tool switch"
+msgstr "切换工具后返回"
+
+#: image_region_transform/_ui.py:262
+#: image_region_transform/_ui.py:363
+msgctxt "Operator"
+msgid "Instructions"
+msgstr "说明"
+
+#: image_region_transform/_ops_misc.py:812
+#: image_region_transform/_ui.py:334
+msgctxt "Operator"
+msgid "Last Border"
+msgstr "上一个边界"
+
+#: image_region_transform/_ui.py:284
+msgctxt "Operator"
+msgid "Open Instructions"
+msgstr "打开说明"
+
+#: image_region_transform/_ui.py:357
+msgctxt "Operator"
+msgid "Open Instructions (RU / EN)"
+msgstr "打开说明（RU / EN）"
+
+#: image_region_transform/_ops_misc.py:954
+msgctxt "Operator"
+msgid "Region Apply Transforms"
+msgstr "应用区域变换"
+
+#: image_region_transform/_ops_misc.py:506
+msgctxt "Operator"
+msgid "Region Copy"
+msgstr "复制区域"
+
+#: image_region_transform/_ops_misc.py:691
+msgctxt "Operator"
+msgid "Region Deselect"
+msgstr "取消选择区域"
+
+#: image_region_transform/_ops_misc.py:725
+msgctxt "Operator"
+msgid "Region Fill"
+msgstr "填充区域"
+
+#: image_region_transform/_ops_misc.py:77
+msgctxt "Operator"
+msgid "Region Move"
+msgstr "移动区域"
+
+#: image_region_transform/_ops_misc.py:526
+msgctxt "Operator"
+msgid "Region Paste"
+msgstr "粘贴区域"
+
+#: image_region_transform/_ops_misc.py:906
+msgctxt "Operator"
+msgid "Region Redo"
+msgstr "重做区域"
+
+#: image_region_transform/_ops_misc.py:756
+msgctxt "Operator"
+msgid "Region Revive"
+msgstr "恢复区域"
+
+#: image_region_transform/_ops_misc.py:284
+msgctxt "Operator"
+msgid "Region Rotate/Scale"
+msgstr "旋转/缩放区域"
+
+#: image_region_transform/_op_select.py:68
+msgctxt "Operator"
+msgid "Region Select"
+msgstr "选择区域"
+
+#: image_region_transform/_ops_misc.py:859
+msgctxt "Operator"
+msgid "Region Undo"
+msgstr "撤销区域"
+
+#: image_region_transform/_ui.py:340
+msgctxt "Operator"
+msgid "Restore Region (Ctrl+Z)"
+msgstr "还原区域 (Ctrl+Z)"
+
+#: image_region_transform/_ui.py:190
+#: image_region_transform/_ui.py:331
+msgctxt "Operator"
+msgid "Transform Border"
+msgstr "变换边框"

@@ -1,0 +1,166 @@
+# perfect-chinese: 1
+# id: blender2ue_rig_exporter
+# kind: addon
+# module: bl_ext.blender_org.blender2ue_rig_exporter
+# name: Rig UE5 Exporter
+# name_zh: UE5 绑定导出
+# translator: KeshiMiao
+# category: Import-Export
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: ui.py:33
+msgid "Actions"
+msgstr "动作"
+
+#: properties.py:33
+msgid "Add Root Bone"
+msgstr "添加根骨骼"
+
+#: properties.py:33
+msgid "Add a root bone if not present (required by UE)"
+msgstr "如果没有则添加根骨骼（UE 必需）"
+
+#: properties.py:27
+msgid "Adjust bone orientations for UE coordinate system"
+msgstr "调整骨骼朝向以适配 UE 坐标系"
+
+#: ui.py:59
+msgid "Advanced Settings"
+msgstr "高级设置"
+
+#: __init__.py:6
+msgid "Blender to UE Rig Converter"
+msgstr "Blender 到 UE 骨骼转换器"
+
+#: ui.py:23
+msgid "Conversion Settings"
+msgstr "转换设置"
+
+#: __init__.py:6
+msgid "Convert GLB rigged models to UE-compatible skeletal meshes"
+msgstr "将 GLB 绑定模型转换为 UE 兼容的骨骼网格"
+
+#: properties.py:66
+msgid "Encode Skin Weights (8-bit)"
+msgstr "编码蒙皮权重（8 位）"
+
+#: properties.py:66
+msgid "Encode skin weights to UE's 8-bit format"
+msgstr "将蒙皮权重编码为 UE 的 8 位格式"
+
+#: properties.py:54
+msgid "Export Animations"
+msgstr "导出动画"
+
+#: operators.py:178
+msgid "Export failed"
+msgstr "导出失败"
+
+#: properties.py:27
+msgid "Fix Bone Orientation"
+msgstr "修正骨骼朝向"
+
+#: __init__.py:6
+msgid "Import-Export"
+msgstr "导入-导出"
+
+#: properties.py:54
+msgid "Include animations in export"
+msgstr "导出时包含动画"
+
+#: properties.py:48
+msgid "Keep custom bone properties from source"
+msgstr "保留源文件中的自定义骨骼属性"
+
+#: operators.py:33
+#: operators.py:90
+msgid "No armature selected"
+msgstr "未选择骨架"
+
+#: operators.py:149
+msgid "No objects selected"
+msgstr "未选择物体"
+
+#: properties.py:13
+msgid "Output FBX"
+msgstr "输出 FBX"
+
+#: properties.py:13
+msgid "Path to output FBX file for UE import"
+msgstr "用于 UE 导入的输出 FBX 文件路径"
+
+#: properties.py:48
+msgid "Preserve Custom Properties"
+msgstr "保留自定义属性"
+
+#: properties.py:21
+msgid "Rename bones to match UE naming conventions (e.g., pelvis, spine_01)"
+msgstr "重命名骨骼以匹配 UE 命名规范（例如 pelvis、spine_01）"
+
+#: properties.py:39
+msgid "Scale Factor"
+msgstr "缩放系数"
+
+#: properties.py:39
+msgid "Scale factor for UE (increase if model is too small in UE)"
+msgstr "UE 缩放系数（若模型在 UE 中过小则增大）"
+
+#: ui.py:48
+msgid "Selected Objects:"
+msgstr "已选物体："
+
+#: properties.py:60
+msgid "Split by Material"
+msgstr "按材质拆分"
+
+#: properties.py:60
+msgid "Split mesh into sections by material (UE requirement)"
+msgstr "按材质将网格拆分为多个部分（UE 要求）"
+
+#: ui.py:15
+#: ui.py:63
+msgid "UE Rig"
+msgstr "UE 骨骼"
+
+#: ui.py:11
+msgid "UE Rig Converter"
+msgstr "UE 骨骼转换器"
+
+#: properties.py:21
+msgid "Use UE Naming Conventions"
+msgstr "使用 UE 命名规范"
+
+#: ui.py:37
+msgctxt "Operator"
+msgid "Convert"
+msgstr "转换"
+
+#: operators.py:68
+msgctxt "Operator"
+msgid "Convert to UE Format"
+msgstr "转换为 UE 格式"
+
+#: ui.py:42
+msgctxt "Operator"
+msgid "Export FBX"
+msgstr "导出 FBX"
+
+#: operators.py:118
+msgctxt "Operator"
+msgid "Export FBX for UE"
+msgstr "为 UE 导出 FBX"
+
+#: ui.py:36
+msgctxt "Operator"
+msgid "Validate"
+msgstr "验证"
+
+#: operators.py:25
+msgctxt "Operator"
+msgid "Validate Rig"
+msgstr "验证骨骼"

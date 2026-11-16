@@ -1,0 +1,228 @@
+# perfect-chinese: 1
+# id: loop_noise
+# kind: addon
+# module: bl_ext.blender_org.loop_noise
+# name: Loop Noise
+# name_zh: 循环噪波
+# translator: KeshiMiao
+# category: Animation
+# supported_versions: >=4.5.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: operators.py:264
+msgid "Add Loop Noise to every component (e.g. X, Y and Z), each with its own Phase"
+msgstr "为每个分量（如 X、Y 和 Z）添加循环噪波，每个分量都有自己的相位"
+
+#: operators.py:264
+msgid "All Components"
+msgstr "所有分量"
+
+#: operators.py:255
+msgid "Amplitude of the noise, in the property's units"
+msgstr "噪波振幅，单位为属性单位"
+
+#: ui.py:129
+msgid "Auto: {:d} per loop"
+msgstr "自动：每个循环 {:d}"
+
+#: ui.py:91
+msgid "Blend In"
+msgstr "混合入"
+
+#: props.py:118
+msgid "Blend between a pure sine wave (0) and pure noise (1). The overall amount of motion stays the same"
+msgstr "在纯正弦波 (0) 和纯噪波 (1) 之间混合。整体运动量保持不变"
+
+#: props.py:129
+msgid "Cycles"
+msgstr "循环"
+
+#: ui.py:140
+msgid "Cycles repeats {:g} frames, loop is {:d}"
+msgstr "循环重复 {:g} 帧，循环长度为 {:d}"
+
+#: operators.py:260
+#: props.py:93
+msgid "End"
+msgstr "结束"
+
+#: ui.py:135
+msgid "End must be after Loop Start"
+msgstr "结束必须晚于循环起点"
+
+#: operators.py:259
+#: props.py:86
+msgid "First frame of the loop"
+msgstr "循环的第一帧"
+
+#: operators.py:110
+msgid "Keep Phase"
+msgstr "保持相位"
+
+#: operators.py:110
+msgid "Keep each curve's own Phase (new Loop Noises get a random one), so the curves don't move in unison"
+msgstr "保持每条曲线自己的相位（新的循环噪波会获得随机相位），这样曲线不会同步运动"
+
+#: props.py:101
+msgid "Keep looping before and after the frame range, across the scene range"
+msgstr "在帧范围前后继续循环，覆盖场景范围"
+
+#: operators.py:260
+msgid "Last frame of the loop. The frame after it repeats Loop Start exactly"
+msgstr "循环的最后一帧。其后的帧会精确重复循环起点"
+
+#: props.py:93
+msgid "Last frame of the loop. The frame after it repeats Start exactly, so playing Start to End in a loop is seamless"
+msgstr "循环的最后一帧。其后的帧会精确重复起点，因此从起点到结束循环播放是无缝的"
+
+#: ui.py:31
+msgid "Loop Noise"
+msgstr "循环噪波"
+
+#: operators.py:259
+#: ui.py:71
+msgid "Loop Start"
+msgstr "循环起点"
+
+#: ui.py:30
+msgid "Modifiers"
+msgstr "修改器"
+
+#: operators.py:70
+msgid "No editable animation F-Curves"
+msgstr "没有可编辑的动画 F-曲线"
+
+#: props.py:108
+msgid "Noise samples stored per frame. Values between samples are interpolated linearly"
+msgstr "噪波采样按帧存储。采样值之间线性插值"
+
+#: operators.py:46
+msgid "Only Active"
+msgstr "仅活动"
+
+#: operators.py:46
+msgid "Only add Loop Noise to the active F-Curve, otherwise to all selected ones"
+msgstr "仅向活动 F-曲线添加循环噪波，否则添加到所有选中的 F-曲线"
+
+#: ui.py:92
+msgid "Out"
+msgstr "输出"
+
+#: operators.py:312
+msgid "Property not found"
+msgstr "未找到属性"
+
+#: props.py:118
+msgid "Randomness"
+msgstr "随机性"
+
+#: ui.py:115
+msgid "Randomness {:.2f}"
+msgstr "随机性 {:.2f}"
+
+#: props.py:101
+msgid "Repeat"
+msgstr "重复"
+
+#: ui.py:84
+msgid "Restrict Frame Range"
+msgstr "限制帧范围"
+
+#: ui.py:75
+msgid "Samples"
+msgstr "采样"
+
+#: props.py:108
+msgid "Samples per Frame"
+msgstr "每帧采样数"
+
+#: operators.py:251
+msgid "Scale"
+msgstr "缩放"
+
+#: operators.py:251
+msgid "Scaling (in time) of the noise"
+msgstr "噪波在时间上的缩放"
+
+#: operators.py:135
+msgid "Select the F-Curves to copy to as well"
+msgstr "同时选择要复制到的 F-曲线"
+
+#: ui.py:110
+msgid "Sine Blend"
+msgstr "正弦混合"
+
+#: props.py:129
+msgid "Sine waves per loop. 0 picks the count closest to the noise's tempo, set by Scale"
+msgstr "每个循环的正弦波数量。0 会选择最接近噪波速度（由缩放设置）的数量"
+
+#: operators.py:339
+msgid "Skipped driven components: a driver overrides animation"
+msgstr "跳过受驱动分量：驱动器会覆盖动画"
+
+#: operators.py:341
+msgid "Some components can't be keyframed"
+msgstr "某些分量无法插入关键帧"
+
+#: props.py:86
+#: ui.py:88
+msgid "Start"
+msgstr "起点"
+
+#: operators.py:255
+msgid "Strength"
+msgstr "强度"
+
+#: operators.py:274
+msgid "This property can't take Loop Noise"
+msgstr "此属性无法使用循环噪波"
+
+#: operators.py:42
+#: operators.py:234
+msgctxt "Operator"
+msgid "Add Loop Noise"
+msgstr "添加循环噪波"
+
+#: operators.py:43
+msgctxt "Operator"
+msgid "Add noise that loops seamlessly over a frame range"
+msgstr "添加在帧范围内无缝循环的噪波"
+
+#: operators.py:235
+msgctxt "Operator"
+msgid "Add noise that loops seamlessly over a frame range to this property. Creates its F-Curve with one key if it isn't animated yet"
+msgstr "向此属性添加在帧范围内无缝循环的噪波。如果尚未动画化，则用一个关键帧创建其 F-曲线"
+
+#: operators.py:102
+msgctxt "Operator"
+msgid "Copy to Selected"
+msgstr "复制到选中项"
+
+#: operators.py:103
+msgctxt "Operator"
+msgid "Give the other selected F-Curves this Loop Noise's settings. Curves without a Loop Noise get one, others have their first one updated"
+msgstr "将此循环噪波的设置赋予其他选中的 F-曲线。没有循环噪波的曲线会获得一个，其他曲线则更新其第一个循环噪波"
+
+#: operators.py:347
+msgctxt "Operator"
+msgid "Match Cycle"
+msgstr "匹配循环"
+
+#: operators.py:81
+msgctxt "Operator"
+msgid "Remove Loop Noise"
+msgstr "移除循环噪波"
+
+#: operators.py:82
+msgctxt "Operator"
+msgid "Remove this Loop Noise from the active F-Curve"
+msgstr "从活动 F-曲线移除此循环噪波"
+
+#: operators.py:348
+msgctxt "Operator"
+msgid "Set the loop range to the cycle the Cycles modifier repeats (first to last key)"
+msgstr "将循环范围设置为循环修改器重复的周期（从第一个关键帧到最后一个关键帧）"

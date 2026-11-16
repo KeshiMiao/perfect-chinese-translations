@@ -1,0 +1,152 @@
+# perfect-chinese: 1
+# id: nk_combine_bake
+# kind: addon
+# module: bl_ext.blender_org.nk_combine_bake
+# name: NK Combine & Bake
+# name_zh: NK合并烘焙
+# translator: KeshiMiao
+# category: Material
+# supported_versions: >=4.5.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:535
+msgid "Alpha"
+msgstr "Alpha"
+
+#: __init__.py:521
+msgid "Bake Margin (px)"
+msgstr "烘焙边距（像素）"
+
+#: __init__.py:530
+msgid "Base Color"
+msgstr "基础色"
+
+#: __init__.py:828
+msgid "Channels"
+msgstr "通道"
+
+#: __init__.py:805
+msgid "Combine & Bake"
+msgstr "合并并烘焙"
+
+#: __init__.py:1
+msgid "Combines the selected objects, creates one shared UV map and bakes all materials into one material with basic textures"
+msgstr "合并所选物体，创建一张共享 UV 贴图，并将所有材质烘焙为带基础纹理的单一材质"
+
+#: __init__.py:519
+msgid "Cycles samples used for baking (edge anti-aliasing)"
+msgstr "用于烘焙的 Cycles 采样数（边缘抗锯齿）"
+
+#: __init__.py:534
+msgid "Emission"
+msgstr "自发光"
+
+#: __init__.py:576
+msgid "Enable at least one channel to bake"
+msgstr "请至少启用一个通道进行烘焙"
+
+#: __init__.py:526
+msgid "Fresh unwrap (more, smaller islands)"
+msgstr "全新展开（更多、更小的孤岛）"
+
+#: __init__.py:541
+msgid "Hide Originals"
+msgstr "隐藏原始物体"
+
+#: __init__.py:542
+msgid "If empty, textures are packed into the .blend file"
+msgstr "若为空，纹理将打包进 .blend 文件"
+
+#: __init__.py:528
+msgid "Island Margin (px)"
+msgstr "孤岛边距（像素）"
+
+#: __init__.py:524
+msgid "Keeps the original UV islands, equalizes texel density and packs tightly"
+msgstr "保留原始 UV 孤岛，统一纹素密度并紧密排布"
+
+#: __init__.py:1
+msgid "Material"
+msgstr "材质"
+
+#: __init__.py:531
+msgid "Metallic"
+msgstr "金属度"
+
+#: __init__.py:809
+msgid "NK Bake"
+msgstr "NK 烘焙"
+
+#: __init__.py:1
+msgid "NK Combine & Bake (single UV + single material)"
+msgstr "NK 合并并烘焙（单一 UV + 单一材质）"
+
+#: __init__.py:514
+msgid "Name"
+msgstr "名称"
+
+#: __init__.py:533
+msgid "Normal"
+msgstr "法线"
+
+#: __init__.py:524
+msgid "Repack original UVs"
+msgstr "重新排布原始 UV"
+
+#: __init__.py:515
+msgid "Resolution"
+msgstr "分辨率"
+
+#: __init__.py:532
+msgid "Roughness"
+msgstr "粗糙度"
+
+#: __init__.py:519
+msgid "Samples"
+msgstr "采样"
+
+#: __init__.py:568
+msgid "Select at least one mesh object"
+msgstr "请至少选择一个网格物体"
+
+#: __init__.py:529
+msgid "Smart UV Angle"
+msgstr "智能 UV 角度"
+
+#: __init__.py:526
+msgid "Smart UV Project"
+msgstr "智能 UV 投影"
+
+#: __init__.py:536
+msgid "Split into Materials"
+msgstr "拆分为多个材质"
+
+#: __init__.py:536
+msgid "Split the model into this many materials, each with its own texture set (more effective resolution). Original material slots are grouped by surface area"
+msgstr "将模型拆分为此数量的材质，每个材质拥有独立纹理集（有效分辨率更高）。原始材质槽按表面积分组"
+
+#: __init__.py:542
+msgid "Texture Folder"
+msgstr "纹理文件夹"
+
+#: __init__.py:821
+msgid "UV"
+msgstr "UV"
+
+#: __init__.py:522
+msgid "UV Layout"
+msgstr "UV 布局"
+
+#: __init__.py:553
+msgctxt "Operator"
+msgid "Combine & Bake"
+msgstr "合并并烘焙"
+
+#: __init__.py:554
+msgctxt "Operator"
+msgid "Creates one object with a shared UV map and a single material with baked textures from the selected objects"
+msgstr "从所选物体创建一个物体，使用共享 UV 贴图和烘焙了纹理的单一材质"

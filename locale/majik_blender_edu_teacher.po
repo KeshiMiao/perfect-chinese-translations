@@ -1,0 +1,305 @@
+# perfect-chinese: 1
+# id: majik_blender_edu_teacher
+# kind: addon
+# module: bl_ext.blender_org.majik_blender_edu_teacher
+# name: Majik Blender Edu
+# name_zh: Majik教学校验
+# translator: KeshiMiao
+# category: Pipeline
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: core/properties.py:58
+msgid "AES (Default)"
+msgstr "AES（默认）"
+
+#: ui/panel.py:130
+msgid "Action Logs"
+msgstr "操作日志"
+
+#: operators/logs.py:36
+msgid "Action logs exported"
+msgstr "操作日志已导出"
+
+#: core/properties.py:36
+msgid "Assigned student identifier"
+msgstr "已分配的学生标识符"
+
+#: core/properties.py:45
+msgid "Decrypt"
+msgstr "解密"
+
+#: ui/panel.py:95
+msgid "Decryption / Review"
+msgstr "解密 / 审查"
+
+#: __init__.py:1
+msgid "Education"
+msgstr "教育"
+
+#: core/properties.py:45
+msgid "Encrypt"
+msgstr "加密"
+
+#: operators/students/controls.py:146
+msgid "Encrypted logs exported"
+msgstr "加密日志已导出"
+
+#: operators/students/controls.py:78
+msgid "Encrypted submission not found"
+msgstr "未找到加密的提交"
+
+#: ui/panel.py:63
+msgid "Encryption / Signing"
+msgstr "加密 / 签名"
+
+#: ui/panel.py:100
+msgid "Enter the Teacher Key to decrypt and review."
+msgstr "输入教师密钥以解密并审查。"
+
+#: operators/crypto.py:166
+msgid "Invalid Teacher Key or decryption failed"
+msgstr "教师密钥无效或解密失败"
+
+#: operators/logs.py:25
+msgid "Logs integrity check failed! Some logs may be tampered."
+msgstr "日志完整性检查失败！部分日志可能已被篡改。"
+
+#: __init__.py:1
+msgid "Majik Blender Edu"
+msgstr "Majik Blender Edu"
+
+#: ui/panel.py:23
+msgid "Majik Blender Edu (Mode Selector)"
+msgstr "Majik Blender Edu（模式选择器）"
+
+#: __init__.py:1
+msgid "Majik Blender Edu is a submission integrity and student activity tracking addon for Blender designed to help educators verify a student's work."
+msgstr "Majik Blender Edu 是一款用于 Blender 的提交完整性与学生活动跟踪插件，旨在帮助教育工作者核实学生的工作。"
+
+#: ui/panel.py:144
+msgid "Majik Blender Edu – Student"
+msgstr "Majik Blender Edu – 学生"
+
+#: ui/panel.py:45
+msgid "Majik Blender Edu – Teacher"
+msgstr "Majik Blender Edu – 教师"
+
+#: core/properties.py:43
+msgid "Mode"
+msgstr "模式"
+
+#: operators/students/controls.py:119
+msgid "No encrypted logs available to export"
+msgstr "没有可导出的加密日志"
+
+#: operators/crypto.py:145
+msgid "No encrypted submission found"
+msgstr "未找到加密的提交"
+
+#: operators/logs.py:21
+msgid "No logs available to export"
+msgstr "没有可导出的日志"
+
+#: ui/panel.py:113
+msgid "No submission signature was found."
+msgstr "未找到提交签名。"
+
+#: core/properties.py:12
+msgid "Object Name"
+msgstr "物体名称"
+
+#: ui/panel.py:178
+msgid "Please set a Student ID and ensure the file is prepared by the teacher."
+msgstr "请设置学生 ID，并确保文件已由教师准备。"
+
+#: ui/panel.py:67
+msgid "Protect Selected Geometry Only"
+msgstr "仅保护选定的几何体"
+
+#: core/properties.py:55
+#: ui/panel.py:90
+msgid "Security Mode"
+msgstr "安全模式"
+
+#: operators/students/controls.py:85
+msgid "Session started"
+msgstr "会话已开始"
+
+#: operators/students/controls.py:101
+msgid "Session stopped and saved"
+msgstr "会话已停止并保存"
+
+#: core/properties.py:29
+msgid "Student"
+msgstr "学生"
+
+#: core/properties.py:36
+#: ui/panel.py:66
+msgid "Student ID"
+msgstr "学生 ID"
+
+#: operators/students/controls.py:69
+msgid "Student ID required"
+msgstr "需要学生 ID"
+
+#: operators/crypto.py:229
+msgid "Submission reset successfully"
+msgstr "提交已成功重置"
+
+#: core/properties.py:29
+msgid "Teacher"
+msgstr "教师"
+
+#: core/properties.py:33
+#: ui/panel.py:65
+msgid "Teacher Key"
+msgstr "教师密钥"
+
+#: operators/crypto.py:60
+msgid "Teacher Key and Student ID are required"
+msgstr "需要教师密钥和学生 ID"
+
+#: ui/panel.py:114
+msgid "This file cannot be verified."
+msgstr "无法验证此文件。"
+
+#: ui/panel.py:112
+msgid "This project is NOT encrypted."
+msgstr "此项目未加密。"
+
+#: ui/panel.py:99
+msgid "This project is encrypted."
+msgstr "此项目已加密。"
+
+#: core/properties.py:58
+msgid "Use AES encryption with cryptography"
+msgstr "使用 cryptography 进行 AES 加密"
+
+#: core/properties.py:27
+msgid "User Mode"
+msgstr "用户模式"
+
+#: operators/locked_objects.py:12
+msgctxt "Operator"
+msgid "Add Selected Object"
+msgstr "添加选定物体"
+
+#: operators/locked_objects.py:13
+msgctxt "Operator"
+msgid "Add currently selected mesh objects to the locked objects list"
+msgstr "将当前选定的网格物体添加到锁定物体列表"
+
+#: operators/keys.py:17
+msgctxt "Operator"
+msgid "Automatically generate a secure random teacher key"
+msgstr "自动生成安全的随机教师密钥"
+
+#: operators/locked_objects.py:43
+msgctxt "Operator"
+msgid "Clear List"
+msgstr "清空列表"
+
+#: operators/crypto.py:206
+msgctxt "Operator"
+msgid "Completely remove encryption and logs"
+msgstr "完全移除加密和日志"
+
+#: operators/crypto.py:128
+msgctxt "Operator"
+msgid "Decrypt & Validate"
+msgstr "解密并验证"
+
+#: operators/crypto.py:129
+msgctxt "Operator"
+msgid "Decrypt the submission and validate integrity"
+msgstr "解密提交并验证完整性"
+
+#: operators/logs.py:12
+msgctxt "Operator"
+msgid "Download Action Logs (JSON)"
+msgstr "下载操作日志（JSON）"
+
+#: operators/students/controls.py:110
+msgctxt "Operator"
+msgid "Download Encrypted Logs (JSON)"
+msgstr "下载加密日志（JSON）"
+
+#: operators/keys.py:28
+msgctxt "Operator"
+msgid "Download Key"
+msgstr "下载密钥"
+
+#: operators/keys.py:30
+msgctxt "Operator"
+msgid "Download the current Teacher Key as a JSON file"
+msgstr "将当前教师密钥下载为 JSON 文件"
+
+#: operators/logs.py:14
+msgctxt "Operator"
+msgid "Download the current action logs as a JSON file"
+msgstr "将当前操作日志下载为 JSON 文件"
+
+#: operators/crypto.py:38
+msgctxt "Operator"
+msgid "Encrypt & Apply Signature"
+msgstr "加密并应用签名"
+
+#: operators/crypto.py:39
+msgctxt "Operator"
+msgid "Encrypt the submission and apply integrity signature"
+msgstr "加密提交并应用完整性签名"
+
+#: operators/keys.py:16
+msgctxt "Operator"
+msgid "Generate Key"
+msgstr "生成密钥"
+
+#: operators/keys.py:44
+msgctxt "Operator"
+msgid "Import Key"
+msgstr "导入密钥"
+
+#: operators/keys.py:46
+msgctxt "Operator"
+msgid "Import a Teacher Key from a JSON file"
+msgstr "从 JSON 文件导入教师密钥"
+
+#: operators/locked_objects.py:29
+msgctxt "Operator"
+msgid "Remove Selected"
+msgstr "移除选定项"
+
+#: operators/locked_objects.py:44
+msgctxt "Operator"
+msgid "Remove all objects from the locked objects list"
+msgstr "从锁定物体列表中移除所有物体"
+
+#: operators/locked_objects.py:30
+msgctxt "Operator"
+msgid "Remove the selected object from the locked objects list"
+msgstr "从锁定物体列表中移除所选物体"
+
+#: operators/crypto.py:205
+msgctxt "Operator"
+msgid "Reset Key"
+msgstr "重置密钥"
+
+#: operators/students/controls.py:56
+msgctxt "Operator"
+msgid "Start / Stop Session"
+msgstr "开始/停止会话"
+
+#: operators/students/controls.py:57
+msgctxt "Operator"
+msgid "Start or stop the logging session"
+msgstr "开始或停止记录会话"
+
+#: operators/students/controls.py:31
+msgctxt "Operator"
+msgid "Student Monitor"
+msgstr "学生监控"

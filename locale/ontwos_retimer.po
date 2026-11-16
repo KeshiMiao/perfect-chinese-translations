@@ -1,0 +1,315 @@
+# perfect-chinese: 1
+# id: ontwos_retimer
+# kind: addon
+# module: bl_ext.blender_org.ontwos_retimer
+# name: On-Twos Retimer
+# name_zh: 二帧重定时
+# translator: KeshiMiao
+# category: Animation
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:1082
+msgid "'Unlock Physics' first, then re-bake."
+msgstr "请先「解锁物理」，再重新烘焙。"
+
+#: __init__.py:1081
+msgid "-> 2. apply on-N. Mistakes: Ctrl+Z; to redo step 1,"
+msgstr "-> 2. 应用 On-N。操作失误：Ctrl+Z；要重做第 1 步，"
+
+#: __init__.py:496
+msgid "After baking, mute all constraints on baked bones and disable the rigid body world for a deterministic, re-jump-safe pure keyframe animation; the driven motion is already sampled into the keyframes, no active constraints needed (unlock and re-bake anytime)"
+msgstr "烘焙后，静音已烘焙骨骼上的所有约束并禁用刚体世界，以获得确定性的、可安全重新跳转的纯关键帧动画；驱动运动已采样到关键帧中，无需活动约束（可随时解锁并重新烘焙）"
+
+#: __init__.py:34
+msgid "Animation"
+msgstr "动画"
+
+#: __init__.py:34
+msgid "Bake constraint/physics-driven bone poses into keyframes, then decimate + hold every N frames (on-twos / on-threes)."
+msgstr "将约束/物理驱动的骨骼姿态烘焙为关键帧，然后抽帧并每隔 N 帧保持（二拍 / 三拍）。"
+
+#: __init__.py:1052
+msgid "Bones' is for MMD rigs (needs MMD Tools)."
+msgstr "「骨骼」适用于 MMD 骨架（需要 MMD Tools）。"
+
+#: __init__.py:502
+msgid "Default off: driven motion is baked into keyframes, pose is deterministic and jumping back resets. On: adds another active damping layer on top of the keyframes (softer / bigger swing, but playback, pause and re-jump are not deterministic and may not return to the start)"
+msgstr "默认关闭：驱动运动已烘焙进关键帧，姿态具有确定性，跳回会重置。开启：在关键帧之上再加一层活动阻尼（更柔和 / 摆动更大，但播放、暂停和重新跳转都不具确定性，且可能无法回到起始状态）"
+
+#: __init__.py:527
+msgid "Dense Baked Curves Only"
+msgstr "仅密集烘焙曲线"
+
+#: __init__.py:481
+msgid "End Frame"
+msgstr "结束帧"
+
+#: __init__.py:1080
+msgid "Flow: select armature -> 1. bake poses -> keyframes"
+msgstr "流程：选择骨架 -> 1. 烘焙姿态 -> 关键帧"
+
+#: __init__.py:508
+msgid "Force-mute all constraints on baked bones (same lock as the default, explicit confirmation); for a clean, predictable on-N hold"
+msgstr "强制静音已烘焙骨骼上的所有约束（与默认锁定相同，需明确确认）；以获得干净、可预测的 On-N 保持"
+
+#: __init__.py:508
+msgid "Freeze All (mute all constraints)"
+msgstr "全部冻结（静音所有约束）"
+
+#: __init__.py:466
+msgid "Hold a pose every N frames (on-twos=2, on-threes=3)"
+msgstr "每隔 N 帧保持一个姿态（二拍=2，三拍=3）"
+
+#: __init__.py:532
+msgid "In Pose Mode, only process curves of the currently selected bones"
+msgstr "在姿态模式下，仅处理当前选中骨骼的曲线"
+
+#: __init__.py:491
+msgid "Include Child Chains"
+msgstr "包含子级链"
+
+#: __init__.py:502
+msgid "Keep Damping as Active Constraint (non-deterministic)"
+msgstr "保留阻尼为活动约束（非确定性）"
+
+#: __init__.py:496
+msgid "Lock after Bake (drivers baked in)"
+msgstr "烘焙后锁定（驱动器已烘焙）"
+
+#: __init__.py:521
+msgid "MMD Physics Detection"
+msgstr "MMD 物理检测"
+
+#: __init__.py:487
+msgid "MMD Rigid-Track Bones"
+msgstr "MMD 刚体跟踪骨骼"
+
+#: __init__.py:799
+msgid "No bones matched the target: select bones in Pose Mode (or enable 'Include Child Chains' to grab whole chains) or switch 'Target Bones' to 'MMD Rigid-Track Bones'"
+msgstr "没有骨骼匹配目标：请在姿态模式下选择骨骼（或启用「包含子级链」以获取整条链），或将「目标骨骼」切换为「MMD 刚体跟踪骨骼」"
+
+#: __init__.py:723
+msgid "No bones to bake"
+msgstr "没有可烘焙的骨骼"
+
+#: __init__.py:842
+#: __init__.py:892
+msgid "No matching bone channel curves (select an armature with an action first)"
+msgstr "没有匹配的骨骼通道曲线（请先选择带动作的骨架）"
+
+#: __init__.py:972
+msgid "No on-N effect found to remove (confirm an armature with an action is selected and the range is correct; without a backup there should at least be stepped modifiers or constant keys in range)"
+msgstr "未找到可移除的 On-N 效果（请确认已选择带动作的骨架且范围正确；没有备份时，范围内至少应有步进修改器或常量关键帧）"
+
+#: __init__.py:466
+msgid "On-N"
+msgstr "On-N"
+
+#: __init__.py:1016
+msgid "On-Twos"
+msgstr "二拍"
+
+#: __init__.py:34
+#: __init__.py:1012
+msgid "On-Twos Retimer"
+msgstr "On-Twos Retimer"
+
+#: __init__.py:487
+msgid "Only bake bones with 'mmd_tools_rigid_track' constraints (MMD rigs, requires MMD Tools)"
+msgstr "仅烘焙带有 'mmd_tools_rigid_track' 约束的骨骼（MMD 骨架，需要 MMD Tools）"
+
+#: __init__.py:486
+msgid "Only bake the bones selected in Pose Mode (default)"
+msgstr "仅烘焙姿态模式下选中的骨骼（默认）"
+
+#: __init__.py:527
+msgid "Only process curves that look like baked (dense) animation, judged by the curve's own covered range, to avoid touching hand-keyed animation"
+msgstr "仅处理看起来像烘焙（密集）动画的曲线，依据曲线自身覆盖的范围判断，以免影响手动关键帧动画"
+
+#: __init__.py:473
+msgid "Phase Offset"
+msgstr "相位偏移"
+
+#: __init__.py:666
+#: __init__.py:793
+msgid "Select an armature object first"
+msgstr "请先选择一个骨架物体"
+
+#: __init__.py:486
+msgid "Selected Bones"
+msgstr "选中骨骼"
+
+#: __init__.py:532
+msgid "Selected Bones Only"
+msgstr "仅选中骨骼"
+
+#: __init__.py:480
+msgid "Start Frame"
+msgstr "起始帧"
+
+#: __init__.py:1033
+msgid "Step 1 · Bake Poses → Bone Keyframes"
+msgstr "第 1 步 · 烘焙姿态 → 骨骼关键帧"
+
+#: __init__.py:1057
+msgid "Step 2 · On-N Hold"
+msgstr "第 2 步 · On-N 保持"
+
+#: __init__.py:537
+msgid "Stepped Mode (like F-Curve editor)"
+msgstr "步进模式（类似曲线编辑器）"
+
+#: __init__.py:473
+msgid "Stepping grid phase (usually 0; adjust to offset from the character's main on-N grid, taken modulo N)"
+msgstr "步进网格相位（通常为 0；调整以偏移角色的主 On-N 网格，按 N 取模）"
+
+#: __init__.py:483
+msgid "Target Bones"
+msgstr "目标骨骼"
+
+#: __init__.py:1069
+msgid "Tip: 'Remove On-N' removes the applied effect: exact restore from"
+msgstr "提示：「移除 On-N」可移除已应用的效果：从以下位置精确还原"
+
+#: __init__.py:1045
+msgid "Tip: 'Two-Pass Bake' keeps the soft damping look and stays"
+msgstr "提示：「两遍烘焙」保留柔和阻尼外观并保持"
+
+#: __init__.py:513
+msgid "Two-Pass Bake (damping look + deterministic)"
+msgstr "两遍烘焙（阻尼外观 + 确定性）"
+
+#: __init__.py:513
+msgid "Two-pass bake: ① write 'driven motion + damping' into keyframes and mute rigid constraints; ② with the rigid body world off, sample and fix the 'keyframes + active damping' display pose into keyframes, then fully lock. Keeps the soft look while staying deterministic and re-jump-safe (more stable than keeping active damping; divergent frames are clamped and reported)"
+msgstr "两遍烘焙：① 将「驱动运动 + 阻尼」写入关键帧并静音刚体约束；② 在刚体世界关闭的情况下，采样并将「关键帧 + 活动阻尼」的显示姿态固定到关键帧中，然后完全锁定。保留柔和外观的同时保持确定性和重新跳转安全性（比保留活动阻尼更稳定；发散帧会被钳制并报告）"
+
+#: __init__.py:537
+msgid "Use a stepped F-modifier (step size = N) on all target bone channels for on-N holds, matching what you would do by hand with 'select all channels -> Stepped interpolation -> step size'; not limited by dense/physics filters, all channels step together, non-destructive (remove the modifier to restore)"
+msgstr "在所有目标骨骼通道上使用步进 F 修改器（步长 = N）实现 On-N 保持，等同于手动「全选通道 -> 步进插值 -> 步长」；不受密集/物理过滤限制，所有通道一起步进，非破坏性（移除修改器即可还原）"
+
+#: __init__.py:521
+msgid "When enabled, only process curves of bones detected as MMD physics-driven (requires MMD data on the armature / MMD Tools). Disabled by default so the tool works on any rig"
+msgstr "启用后，仅处理被检测为由 MMD 物理驱动的骨骼曲线（需要骨架上的 MMD 数据 / MMD Tools）。默认关闭，以便该工具适用于任何骨架"
+
+#: __init__.py:491
+msgid "When enabled, selecting a parent bone in Pose Mode automatically includes its entire child chain (e.g. select the hip to grab the whole leg chain)"
+msgstr "启用后，在姿态模式下选择父级骨骼会自动包含其整条子级链（例如选择髋部即可获取整条腿链）"
+
+#: __init__.py:1048
+msgid "and fully locks; tick 'Keep Damping' only for an extra active"
+msgstr "并完全锁定；仅在需要额外活动时勾选「保留阻尼」"
+
+#: __init__.py:1074
+msgid "and only touches target bones (never hand-keyed ones)."
+msgstr "且仅影响目标骨骼（绝不涉及手动关键帧的骨骼）。"
+
+#: __init__.py:1070
+msgid "backup when available (backup saves with the file and survives"
+msgstr "在可用时备份（备份随文件保存并在……后仍保留"
+
+#: __init__.py:1049
+msgid "damping layer (non-deterministic). 'Include Child Chains'"
+msgstr "阻尼层（非确定性）。「包含子级链」"
+
+#: __init__.py:1047
+msgid "default bake writes driven motion + damping into keyframes"
+msgstr "默认烘焙将驱动运动 + 阻尼写入关键帧"
+
+#: __init__.py:1046
+msgid "deterministic (recommended, no jump-back reset issue); the"
+msgstr "确定性（推荐，无跳回重置问题）；该"
+
+#: __init__.py:1050
+msgid "grabs whole chains from a parent bone; the highlight button"
+msgstr "从父级骨骼获取整条链；高亮按钮"
+
+#: __init__.py:1073
+msgid "matches doing it by hand (select all channels -> stepped -> size N)"
+msgstr "等同于手动操作（全选通道 -> 步进 -> 步长 N）"
+
+#: __init__.py:1071
+msgid "restarts); otherwise generic removal - remove stepped modifiers,"
+msgstr "重启）；否则为通用移除——移除步进修改器，"
+
+#: __init__.py:1051
+msgid "shows exactly which bones would be baked. 'MMD Rigid-Track"
+msgstr "精确显示将烘焙哪些骨骼。「MMD 刚体跟踪"
+
+#: __init__.py:1072
+msgid "smooth constant keys, target bones only. 'Stepped Mode'"
+msgstr "平滑常量关键帧，仅目标骨骼。「步进模式」"
+
+#: __init__.py:870
+msgctxt "Operator"
+msgid "Apply On-N (decimate + hold)"
+msgstr "应用 On-N（抽帧 + 保持）"
+
+#: __init__.py:650
+msgctxt "Operator"
+msgid "Bake Poses → Bone Keyframes"
+msgstr "烘焙姿态 → 骨骼关键帧"
+
+#: __init__.py:831
+msgctxt "Operator"
+msgid "Count the keyframes that would be removed and the curves that would be affected, without modifying anything"
+msgstr "统计将被移除的关键帧及受影响的曲线，不做任何修改"
+
+#: __init__.py:871
+msgctxt "Operator"
+msgid "Decimate the baked keyframes of the selected objects/bones and set constant interpolation for the on-N hold (Ctrl+Z undoable)"
+msgstr "精简所选物体/骨骼的烘焙关键帧，并为 On-N 保持设置恒定插值（可按 Ctrl+Z 撤销）"
+
+#: __init__.py:781
+msgctxt "Operator"
+msgid "Highlight Target Bones"
+msgstr "高亮目标骨骼"
+
+#: __init__.py:830
+msgctxt "Operator"
+msgid "Preview Stats (no changes)"
+msgstr "预览统计（不做更改）"
+
+#: __init__.py:931
+msgctxt "Operator"
+msgid "Remove On-N (restore)"
+msgstr "移除 On-N（恢复）"
+
+#: __init__.py:932
+msgctxt "Operator"
+msgid "Remove the applied on-N effect: first tries exact restore from the backup taken before 'Apply On-N' (backup is saved with the file and survives restarts); without a backup, falls back to a generic method - remove stepped modifiers and smooth constant keys in range (target bones only, never hand-keyed bones)."
+msgstr "移除已应用的 On-N 效果：先尝试从「应用 On-N」前所做的备份精确恢复（备份随文件保存，重启后仍然存在）；若无备份，则回退到通用方法——移除阶梯式修改器并平滑范围内的恒定关键帧（仅限目标骨骼，绝不处理手动打关键帧的骨骼）。"
+
+#: __init__.py:782
+msgctxt "Operator"
+msgid "Select (highlight) in Pose Mode the bones the current target setting would affect, without modifying anything"
+msgstr "在姿态模式下选择（高亮）当前目标设置会影响到的骨骼，不修改任何内容"
+
+#: __init__.py:991
+msgctxt "Operator"
+msgid "Set the processing range to the current scene frame range"
+msgstr "将处理范围设为当前场景帧范围"
+
+#: __init__.py:745
+msgctxt "Operator"
+msgid "Unlock Physics"
+msgstr "解锁物理"
+
+#: __init__.py:746
+msgctxt "Operator"
+msgid "Unmute all muted constraints on the selected armatures and re-enable the rigid body world, removing baked bone keyframes to fully return to driven motion (Ctrl+Z undoable)"
+msgstr "取消所选骨架中所有已静音约束的静音，并重新启用刚体世界，同时移除烘焙的骨骼关键帧以完全恢复为驱动运动（可按 Ctrl+Z 撤销）"
+
+#: __init__.py:990
+msgctxt "Operator"
+msgid "Use Scene Frame Range"
+msgstr "使用场景帧范围"
+
+#: __init__.py:651
+msgctxt "Operator"
+msgid "Write the constraint/physics-evaluated bone pose per frame into bone keyframes, producing dense keyframes ready for decimation (Ctrl+Z undoable)"
+msgstr "将约束/物理计算出的骨骼姿态逐帧写入骨骼关键帧，生成可精简的密集关键帧（可按 Ctrl+Z 撤销）"

@@ -1,0 +1,614 @@
+# perfect-chinese: 1
+# id: vecbake
+# kind: addon
+# module: bl_ext.blender_org.vecbake
+# name: VecBake
+# name_zh: 矢量烘焙
+# translator: KeshiMiao
+# category: Import-Export
+# supported_versions: >=5.1.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:233
+msgid "A translucent material does not hide its own far side: its back faces survive the backface cull and its edges survive hidden-line removal. Only that material -- solid geometry elsewhere stays solid. Needs Material Alpha to have found some transparency"
+msgstr "半透明材质不会遮挡自身的远侧：其背面通过背面剔除保留，边缘通过隐藏线移除保留。仅该材质如此——其他实体几何仍为实体。需要材质 Alpha 已检测到某种透明"
+
+#: __init__.py:90
+msgid "All Cameras"
+msgstr "所有摄像机"
+
+#: __init__.py:94
+msgid "Also write each JSON and Lottie bake played backwards, as <name>.rev.json. The reverse is a transform of the baked keyframes, so it costs no extra bake time. Both directions share the same resting SVGs. Nothing is written for the animated SVG, whose player runs the timeline backwards already -- turn this on only for a consumer that cannot"
+msgstr "同时将每个 JSON 和 Lottie 烘焙结果倒放写出，文件名为 <name>.rev.json。反向是对已烘焙关键帧的变换，因此不会增加烘焙时间。两个方向共用相同的静态 SVG。动画 SVG 不写出任何内容，其播放器已经会倒放时间轴——仅当使用方无法倒放时才开启此项"
+
+#: __init__.py:300
+msgid "Always Crease Edges"
+msgstr "始终绘制折痕边"
+
+#: __init__.py:295
+msgid "Always Freestyle Edges"
+msgstr "始终绘制 Freestyle 边"
+
+#: __init__.py:327
+msgid "Ambient"
+msgstr "环境光"
+
+#: __init__.py:198
+msgid "Angle"
+msgstr "角度"
+
+#: __init__.py:370
+msgid "Animated SVG"
+msgstr "动画 SVG"
+
+#: __init__.py:411
+msgid "Audit"
+msgstr "检查"
+
+#: __init__.py:412
+msgid "Audit summary"
+msgstr "检查摘要"
+
+#: __init__.py:314
+msgid "Auto"
+msgstr "自动"
+
+#: __init__.py:358
+msgid "Auto Precision"
+msgstr "自动精度"
+
+#: __init__.py:232
+msgid "Backface Cull"
+msgstr "背面剔除"
+
+#: __init__.py:90
+msgid "Bake once from every camera in the scene instead of just the active one. Output files are suffixed with the camera name"
+msgstr "从场景中的每个摄像机各烘焙一次，而不仅限于活动摄像机。输出文件会附加摄像机名称后缀"
+
+#: __init__.py:423
+msgid "Baking"
+msgstr "烘焙"
+
+#: __init__.py:213
+msgid "Bend only where the line turns by less than the threshold, measured on screen in 2D. Corners stay sharp"
+msgstr "只在线条转角小于阈值的部位弯曲，以屏幕 2D 测量。拐角保持尖锐"
+
+#: __init__.py:207
+msgid "Bend through every point. A baked circle comes out round instead of faceted"
+msgstr "穿每个点弯曲。烘焙出的圆会圆滑，而不是有棱角"
+
+#: __init__.py:216
+msgid "Blender Shading"
+msgstr "Blender 着色"
+
+#: __init__.py:185
+msgid "Blender Smooth by Angle"
+msgstr "Blender 按角度平滑"
+
+#: __init__.py:329
+msgid "Chain Edges"
+msgstr "串联边"
+
+#: __init__.py:84
+#: __init__.py:88
+msgid "Collection"
+msgstr "集合"
+
+#: __init__.py:311
+msgid "Colour From"
+msgstr "颜色来源"
+
+#: __init__.py:277
+msgid "Colour for every stroke. Override per object with a 'vecbake_stroke' custom property"
+msgstr "所有描边的颜色。可通过 'vecbake_stroke' 自定义属性按物体覆盖"
+
+#: __init__.py:260
+msgid "Coverage grid cell size for Cull Hidden. Smaller sees narrower gaps and costs more. Raise it if the bake is slow, lower it if something visible went missing"
+msgstr "剔除隐藏的覆盖网格单元大小。越小越能发现更窄的缝隙，开销也越大。烘焙慢就调大；有可见内容丢失就调小"
+
+#: __init__.py:260
+msgid "Cull Detail"
+msgstr "剔除细节"
+
+#: __init__.py:240
+msgid "Cull Hidden"
+msgstr "剔除隐藏"
+
+#: __init__.py:249
+msgid "Cull Hidden Strokes"
+msgstr "剔除隐藏描边"
+
+#: __init__.py:239
+msgid "Cull Offscreen"
+msgstr "剔除屏幕外"
+
+#: __init__.py:226
+msgid "Curve Angle"
+msgstr "曲线角度"
+
+#: __init__.py:203
+msgid "Curves"
+msgstr "曲线"
+
+#: __init__.py:291
+msgid "Darken"
+msgstr "变暗"
+
+#: __init__.py:286
+msgid "Darkened version of the colour of the face each edge borders, so outlines tint with their surface"
+msgstr "取每条边相邻面的颜色并变暗，使轮廓带有其表面的色调"
+
+#: __init__.py:363
+msgid "Decimals"
+msgstr "小数位数"
+
+#: __init__.py:358
+msgid "Derive stored coordinate precision from the tolerance. Keeping 0.01px precision when the tolerance is 4px just stores digits nobody can see"
+msgstr "根据容差推导存储坐标精度。容差为 4px 时还保留 0.01px 精度，只会存储没人看得见的数字"
+
+#: __init__.py:344
+msgid "Dissolve"
+msgstr "融并"
+
+#: __init__.py:167
+msgid "Draw an object face by face, rather than as one merged silhouette, when its own depth range covers this much of the scene's. A merged fill carries one depth per frame, so a body reaching from the front of the scene to the back cannot be ordered against the fittings bolted to it -- the pairs contradict, and breaking the cycle spends a constraint that was right. Its faces each span little depth and order cleanly. Zero switches the test off"
+msgstr "当物体自身的深度范围覆盖场景的这一比例时，逐面绘制该物体，而不是作为一个合并轮廓。合并填充每帧只带一个深度，因此一个从场景前方延伸到后方的物体会无法与固定在其上的配件正确排序——这些配对相互矛盾，打破循环会消耗原本正确的约束。它的各个面深度跨度小，排序干净。零会关闭该测试"
+
+#: __init__.py:203
+msgid "Draw curves through the baked points instead of straight lines. Costs no extra data -- the control points are derived from the points either side"
+msgstr "通过烘焙点绘制曲线，而不是直线。不增加额外数据——控制点由两侧的点推导得出"
+
+#: __init__.py:295
+msgid "Draw every edge marked Freestyle in the mesh, whatever the edge mode would have selected. They are still depth sorted, so fills can still cover them"
+msgstr "绘制网格中所有标记为 Freestyle 的边，无论边模式原本会选择什么。它们仍按深度排序，因此填充仍可覆盖它们"
+
+#: __init__.py:300
+msgid "Draw every edge with a crease value above zero, whatever the edge mode would have selected"
+msgstr "绘制所有折痕值大于零的边，无论边模式原本会选择什么"
+
+#: __init__.py:240
+msgid "Drop fills that stay behind other fills in every frame. Backface and offscreen culling never remove a wall standing directly behind another wall, which in a dense scene is most of the geometry. Cuts the file and the bake, and cuts Resolve Paint Order hardest of all. Approximate: it works from a coverage grid, so something visible only through a very narrow gap can be missed"
+msgstr "丢弃在所有帧中都位于其他填充后面的填充。背面剔除和屏幕外剔除从不会移除直接站在另一面墙后的墙，而在密集场景中这占了大部分几何体。可减小文件和烘焙开销，其中对解析绘制顺序的削减最大。近似：它基于覆盖网格工作，因此只能通过极窄缝隙看见的内容可能会被漏掉"
+
+#: __init__.py:119
+msgid "Drop interior points within this many pixels from outlines built only of edges with fewer than two faces. Applies to fill outlines and stroke chains alike, so it works with Strokes off. Outlines along shared edges are left alone, and so is a merged fill. Zero uses the global Dissolve"
+msgstr "丢弃仅由少于两个面的边构成的轮廓中，距离轮廓这么多像素以内的内部点。适用于填充轮廓和描边链，因此即使关闭描边也有效。沿共享边的轮廓不受影响，合并填充也不受影响。零表示使用全局融并"
+
+#: __init__.py:344
+msgid "Drop interior vertices while the drawn outline never moves more than this many pixels, in any frame. A straight rail built from many segments collapses to two points. Applies to stroke chains and to fill outlines along loose edges, so it does something with Strokes off"
+msgstr "在任意帧中，只要绘制出的轮廓移动不超过这么多像素，就丢弃内部顶点。由多段构成的直栏杆会收缩为两个点。适用于描边链和沿松散边的填充轮廓，因此即使关闭描边也有效"
+
+#: __init__.py:178
+msgid "Edges"
+msgstr "边"
+
+#: __init__.py:181
+msgid "Edges touching a front-facing face. The usual choice"
+msgstr "接触正朝向面的边。常用选择"
+
+#: __init__.py:364
+msgid "Element IDs"
+msgstr "元素 ID"
+
+#: __init__.py:386
+msgid "Embed States"
+msgstr "嵌入状态"
+
+#: __init__.py:105
+msgid "End"
+msgstr "结束"
+
+#: __init__.py:972
+msgid "Esc to cancel"
+msgstr "按 Esc 取消"
+
+#: __init__.py:192
+msgid "Every edge, see-through"
+msgstr "所有边，可透视"
+
+#: __init__.py:82
+msgid "Every visible mesh, curve, text and surface in the scene"
+msgstr "场景中所有可见的网格、曲线、文本和曲面"
+
+#: __init__.py:321
+msgid "Fill"
+msgstr "填充"
+
+#: __init__.py:118
+msgid "Fills"
+msgstr "填充"
+
+#: __init__.py:285
+msgid "Fixed"
+msgstr "固定"
+
+#: __init__.py:368
+msgid "Folder"
+msgstr "文件夹"
+
+#: __init__.py:216
+msgid "Follow the object's own shading: shade-smooth curves throughout, shade-flat stays straight, and Smooth by Angle uses its angle against the 3D shape"
+msgstr "跟随物体自身的着色：平滑着色时全程使用曲线，平直着色保持直线，按角度平滑则根据其相对于 3D 形状的角度决定"
+
+#: __init__.py:94
+msgid "Forward + Reverse"
+msgstr "正向 + 反向"
+
+#: __init__.py:413
+msgid "Frames"
+msgstr "帧"
+
+#: __init__.py:115
+msgid "Height"
+msgstr "高度"
+
+#: __init__.py:181
+msgid "Hidden Line"
+msgstr "隐藏线"
+
+#: __init__.py:143
+msgid "How close two endpoints must be to count as the same point. A clean split leaves them identical; raise this only if a modifier or an applied transform has moved one side"
+msgstr "两个端点要多接近才算同一点。干净拆分后它们应完全一致；仅当修改器或已应用变换移动了一侧时才调高"
+
+#: __init__.py:339
+msgid "How far off straight a chain may bend to continue through a junction. Lower keeps only near-collinear continuations"
+msgstr "链条穿过交叉点时允许偏离直线的程度。值越低只保留近似共线的延续"
+
+#: __init__.py:226
+msgid "How far the line may turn at a point and still be drawn as a curve. Measured in 2D on screen, across every frame -- a point that is a corner in any frame stays a corner in all of them, so the shape cannot pop as the camera moves"
+msgstr "线条在某点处允许转折多大角度仍作为曲线绘制。在屏幕上以 2D 测量，跨所有帧——任一帧中是拐角的点在所有帧中都是拐角，因此镜头移动时形状不会跳变"
+
+#: __init__.py:291
+msgid "How far to push the material colour towards black for the stroke"
+msgstr "描边材质颜色向黑色压暗的程度"
+
+#: __init__.py:413
+msgid "How many frames to sample, spread evenly across the range. Every overlap pixel in each is tested, so this is the whole cost -- start low and raise it if something looks suspicious"
+msgstr "在范围内均匀采样的帧数。会检测每帧中的每个重叠像素，因此这就是全部开销——从低值开始，若发现可疑再提高"
+
+#: __init__.py:270
+msgid "How many processes share out Resolve Paint Order, which is most of a dense bake. Zero uses one per core, less one for Blender. Set it to 1 to run the pass in Blender itself -- slower, and the way to check a result the pool produced"
+msgstr "有多少进程分担「解析绘制顺序」，这是密集烘焙的主要开销。0 表示每核心一个进程，并为 Blender 留出一个。设为 1 则在 Blender 自身中运行该阶段——较慢，可用于检查进程池产生的结果"
+
+#: __init__.py:158
+msgid "How much outline a merged silhouette made of several pieces may draw where the object has none, between keyframes and in view, summed over the clip, before it is drawn face by face instead. A piece appearing or points sliding across a corner draw line through empty space. Zero switches the test off"
+msgstr "由多个部件合并成的轮廓在物体本无轮廓之处（关键帧之间及视图内）允许绘制多少轮廓，按整个片段累计，超过则改为逐面绘制。部件出现或点滑过拐角会在空白处画线。0 表示关闭该检测"
+
+#: __init__.py:148
+msgid "How much worse a merged outline may be than drawing the object's faces before it is drawn face by face instead. Both are measured against the true silhouette halfway between two keyframes, where nothing is stored. A part that turns edge-on can go from a pentagon to a triangle in one frame, and no outline survives that -- its faces do. Zero merges whatever rings"
+msgstr "合并轮廓比绘制物体各面差多少，超过则改为逐面绘制。两者都以两个关键帧中间（未存储任何数据之处）的真实轮廓为基准衡量。转成侧向的部件可能在一帧内从五边形变成三角形，没有轮廓能承受这种变化——它的面可以。0 表示任意环都合并"
+
+#: __init__.py:386
+msgid "Include the resting-state SVGs inside the .lerpa. They gzip to a few KB and remove the need to ship matching files alongside"
+msgstr "将静止状态 SVG 包含在 .lerpa 内。压缩后只有几 KB，无需随附匹配的文件"
+
+#: __init__.py:406
+msgid "Last Result"
+msgstr "上次结果"
+
+#: __init__.py:334
+msgid "Let chains run straight through junctions. An X in the mesh is four edges, but strokes may overlap for free in a vector renderer, so it ships as two crossing polylines instead"
+msgstr "允许链条直线穿过交叉点。网格中的 X 是四条边，但描边在矢量渲染器中可以随意重叠，因此输出为两条交叉折线"
+
+#: __init__.py:325
+msgid "Light"
+msgstr "光照"
+
+#: __init__.py:185
+msgid "Like Sharp Edges, but the angle is the object's own Smooth by Angle modifier, so the strokes match the edges the viewport shades hard. Shade-flat faces are outlined all round; a fully shade-smooth object keeps only its silhouette"
+msgstr "类似「锐边」，但角度取自物体自身的「按角度平滑」修改器，因此描边与视图中着色为硬边的边一致。平直着色面会完整描边；完全平滑着色的物体只保留轮廓"
+
+#: __init__.py:119
+msgid "Loose Edge Thinning"
+msgstr "孤立边稀疏化"
+
+#: __init__.py:380
+msgid "Lottie"
+msgstr "Lottie"
+
+#: __init__.py:286
+msgid "Material"
+msgstr "材质"
+
+#: __init__.py:305
+msgid "Material Alpha"
+msgstr "材质 Alpha"
+
+#: __init__.py:304
+msgid "Material Colours"
+msgstr "材质颜色"
+
+#: __init__.py:317
+msgid "Material viewport display colour"
+msgstr "材质视图显示颜色"
+
+#: __init__.py:339
+msgid "Max Turn"
+msgstr "最大转角"
+
+#: __init__.py:352
+msgid "Max error of the interpolated playback, in pixels. This is what trades file size against accuracy. Only bites once you sample more densely than the motion needs"
+msgstr "插值播放的最大误差，单位为像素。它决定文件大小与精度之间的取舍。只有在采样密度超过运动所需时才会起作用"
+
+#: __init__.py:158
+msgid "Merge False Outline"
+msgstr "合并虚假轮廓"
+
+#: __init__.py:128
+msgid "Merge Fills"
+msgstr "合并填充"
+
+#: __init__.py:148
+msgid "Merge Slack"
+msgstr "合并容差"
+
+#: __init__.py:329
+msgid "Merge runs of edges that meet end to end into single polylines. Only merges edges drawn identically in every frame, so it cannot reveal hidden geometry. Gives fewer elements and real line joins"
+msgstr "将由首尾相接的边组成的连续段合并为单条折线。只合并在每一帧中绘制方式相同的边，因此不会暴露隐藏几何。可减少元素数量并获得真正的线条连接"
+
+#: __init__.py:198
+msgid "Minimum angle between two faces for their shared edge to count as a crease. Higher keeps only the hardest edges. Edges marked Sharp in the mesh are always kept"
+msgstr "两个面之间的最小夹角，达到该角度的公共边才算作折痕。值越高只保留最硬的边。网格中标记为「锐边」的边始终保留"
+
+#: __init__.py:323
+msgid "Modulate fill colour by face normal"
+msgstr "按面法线调制填充颜色"
+
+#: __init__.py:369
+msgid "Name"
+msgstr "名称"
+
+#: __init__.py:887
+msgid "Needs Fills — strokes use hidden-line removal"
+msgstr "需要填充——描边使用隐藏线移除"
+
+#: __init__.py:660
+#: __init__.py:747
+msgid "No output format selected."
+msgstr "未选择输出格式。"
+
+#: __init__.py:206
+msgid "Off"
+msgstr "关闭"
+
+#: __init__.py:285
+msgid "One colour for every stroke"
+msgstr "所有描边使用单一颜色"
+
+#: __init__.py:128
+msgid "One filled outline per object instead of one fill per face. For parts that only need to read as a silhouette. Override per object with a vecbake_merge_fill custom property"
+msgstr "每个物体使用一个填充轮廓，而不是每个面一个填充。适用于只需呈现为剪影的部件。可通过 vecbake_merge_fill 自定义属性按物体覆盖"
+
+#: __init__.py:381
+msgid "One plain .svg of the scene at the current frame, with no animation in it. On its own it bakes that frame only, so it is quick whatever the frame range says"
+msgstr "当前帧场景的单个普通 .svg，不含动画。单独使用时只烘焙该帧，因此无论帧范围如何都很快"
+
+#: __init__.py:370
+msgid "One self-contained .svg per camera: a real SVG that renders anywhere, carrying the animation and both resting states inside it. This is what the web player consumes"
+msgstr "每个相机一个自包含 .svg：可在任何地方渲染的真正 SVG，内部携带动画和两种静止状态。这是网页播放器所读取的文件"
+
+#: __init__.py:182
+msgid "Only creases sharper than the angle threshold, plus silhouette and open edges. The way to get a dense mesh down to a few hundred strokes"
+msgstr "只保留比角度阈值更尖锐的折痕，以及轮廓和开放边。这是将密集网格降到几百条描边的方法"
+
+#: __init__.py:270
+msgid "Order Workers"
+msgstr "排序进程"
+
+#: __init__.py:375
+msgid "Player JSON"
+msgstr "播放器 JSON"
+
+#: __init__.py:390
+msgid "Preview Page"
+msgstr "预览页面"
+
+#: __init__.py:316
+msgid "Principled BSDF base colour"
+msgstr "原理化 BSDF 基础色"
+
+#: __init__.py:421
+#: __init__.py:422
+msgid "Progress"
+msgstr "进度"
+
+#: __init__.py:397
+msgid "Readable JSON"
+msgstr "可读 JSON"
+
+#: __init__.py:113
+msgid "Render Resolution"
+msgstr "渲染分辨率"
+
+#: __init__.py:265
+msgid "Resolve Paint Order"
+msgstr "解析绘制顺序"
+
+#: __init__.py:377
+msgid "Resting SVGs"
+msgstr "静止状态 SVG"
+
+#: __init__.py:377
+msgid "Resting states as separate .svg files. Already inside the .lerpa unless you turn that off"
+msgstr "将静止状态保存为单独的 .svg 文件。除非关闭该选项，它们已包含在 .lerpa 内"
+
+#: __init__.py:106
+msgid "Sample every Nth frame. The reducer removes redundant keys anyway; raise this only for very long bakes. The end frame is always sampled even when the step does not divide the range, so the clip lands where the camera move does"
+msgstr "每隔 N 帧采样。精简器本来就会移除冗余关键帧；仅在非常长的烘焙中才提高该值。即使步长不能整除范围，也始终采样结束帧，因此片段会落在镜头运动的终点"
+
+#: __init__.py:103
+msgid "Scene Frame Range"
+msgstr "场景帧范围"
+
+#: __init__.py:213
+msgid "Screen Angle"
+msgstr "屏幕角度"
+
+#: __init__.py:233
+msgid "See Through"
+msgstr "透视"
+
+#: __init__.py:83
+msgid "Selected"
+msgstr "已选"
+
+#: __init__.py:323
+msgid "Shade Fills"
+msgstr "填充着色"
+
+#: __init__.py:316
+msgid "Shader"
+msgstr "着色器"
+
+#: __init__.py:314
+msgid "Shader base colour when it has been set, otherwise the viewport display colour"
+msgstr "着色器已设置时使用其基础色，否则使用视图显示颜色"
+
+#: __init__.py:182
+msgid "Sharp Edges"
+msgstr "锐边"
+
+#: __init__.py:364
+msgid "Ship stable per-element ids for hit-testing and data binding"
+msgstr "输出稳定的逐元素 ID，用于命中测试和数据绑定"
+
+#: __init__.py:191
+msgid "Silhouette"
+msgstr "轮廓"
+
+#: __init__.py:191
+msgid "Silhouette and open edges only -- far fewer strokes"
+msgstr "仅轮廓和开放边——描边数量少得多"
+
+#: __init__.py:207
+msgid "Smooth"
+msgstr "平滑"
+
+#: __init__.py:79
+msgid "Source"
+msgstr "来源"
+
+#: __init__.py:167
+msgid "Split Deep Bodies"
+msgstr "拆分深层主体"
+
+#: __init__.py:104
+msgid "Start"
+msgstr "开始"
+
+#: __init__.py:106
+msgid "Step"
+msgstr "步长"
+
+#: __init__.py:381
+msgid "Still SVG"
+msgstr "静态 SVG"
+
+#: __init__.py:206
+msgid "Straight segments between every point, as baked"
+msgstr "每个点之间为直线段，与烘焙结果一致"
+
+#: __init__.py:277
+msgid "Stroke Colour"
+msgstr "描边颜色"
+
+#: __init__.py:282
+msgid "Stroke From"
+msgstr "描边来源"
+
+#: __init__.py:117
+msgid "Strokes"
+msgstr "描边"
+
+#: __init__.py:305
+msgid "Take fill opacity from the material too: the Principled Alpha socket, or the viewport colour's alpha, matching wherever the colour itself came from. Turn off to make every fill solid however it is authored"
+msgstr "也从材质获取填充不透明度：Principled Alpha 插槽，或视图颜色的 alpha，取决于颜色本身来自何处。关闭后所有填充均为实心，无论其如何设定"
+
+#: __init__.py:375
+msgid "The bare track data, without the resting states"
+msgstr "纯轨道数据，不含静止状态"
+
+#: __init__.py:84
+msgid "The meshes, curves, texts and surfaces in one collection"
+msgstr "同一集合中的网格、曲线、文本和曲面"
+
+#: __init__.py:83
+msgid "The selected meshes, curves, texts and surfaces"
+msgstr "选中的网格、曲线、文本和曲面"
+
+#: __init__.py:334
+msgid "Through Crossings"
+msgstr "穿过交叉处"
+
+#: __init__.py:352
+msgid "Tolerance"
+msgstr "容差"
+
+#: __init__.py:135
+msgid "Treat an open edge that exactly meets an open edge on another object as the interior edge it really is, and judge it by the angle between the two faces like any other. Splitting a part so its pieces each merge is the cheapest way to cut fills, and without this it costs a line down every cut: the halves still touch, but each sees an open border and draws it"
+msgstr "将另一物体上恰好相接的开放边视为其真正的内部边，并按两个面之间的夹角像其他边一样判定。拆分部件使各块各自合并是减少填充最省事的方式，若没有此选项，每条切缝都会多出一条线：两半仍然相接，但各自看到开放边界并绘制出来"
+
+#: __init__.py:784
+#: __init__.py:788
+msgid "VecBake"
+msgstr "VecBake"
+
+#: __init__.py:689
+msgid "VecBake: cancelled"
+msgstr "VecBake：已取消"
+
+#: __init__.py:317
+msgid "Viewport"
+msgstr "视图"
+
+#: __init__.py:82
+msgid "Visible"
+msgstr "可见"
+
+#: __init__.py:143
+msgid "Weld Distance"
+msgstr "焊接距离"
+
+#: __init__.py:135
+msgid "Weld Seams"
+msgstr "焊接接缝"
+
+#: __init__.py:114
+#: __init__.py:281
+msgid "Width"
+msgstr "宽度"
+
+#: __init__.py:192
+msgid "Wireframe"
+msgstr "线框"
+
+#: __init__.py:265
+msgid "Work out true occlusion order per frame using plane tests instead of centroid depth. Costs bake time, nothing at runtime, and stops large floors slicing through objects standing on them"
+msgstr "使用平面测试而非质心深度来计算每帧的真实遮挡顺序。会增加烘焙时间，运行时不耗时，并可防止大型地板切穿其上的物体"
+
+#: __init__.py:390
+msgid "Write a self-contained .preview.html next to the bake. Double-click it and the animation plays -- scrubber, per-group colours, and a click-to-identify readout. The runtime is inlined, so it needs no server, no build and no network, and it still works emailed to someone else"
+msgstr "在烘焙结果旁写入一个自包含的 .preview.html。双击即可播放动画——进度条、按组着色，以及点击识别的读数。运行时已内联，因此无需服务器、无需构建、无需网络，即使通过邮件发给他人也仍可运行"
+
+#: __init__.py:397
+msgid "Write the JSON payload indented, one value per line, instead of with every space stripped out. For reading or diffing a bake by hand: it changes nothing a player sees, and costs two to four times the file size -- Lottie the worst of them. Gzip narrows that to well under half, but never to nothing. Ship the compact form"
+msgstr "以缩进方式写入 JSON 数据，每行一个值，而不是去掉所有空格。便于手动阅读或对比烘焙结果：不影响播放器所见，但文件大小增加两到四倍——Lottie 最严重。Gzip 可将其压缩到远低于一半，但绝不会归零。发布时请用紧凑形式"
+
+#: __init__.py:550
+msgctxt "Operator"
+msgid "Analyze"
+msgstr "分析"
+
+#: __init__.py:647
+msgctxt "Operator"
+msgid "Bake & Export"
+msgstr "烘焙并导出"
+
+#: __init__.py:591
+msgctxt "Operator"
+msgid "Check Occlusion"
+msgstr "检查遮挡"

@@ -1,0 +1,147 @@
+# perfect-chinese: 1
+# id: deform_to_corrective
+# kind: addon
+# module: bl_ext.blender_org.deform_to_corrective
+# name: Deform to Corrective
+# name_zh: 变形转修正
+# translator: KeshiMiao
+# category: 
+# supported_versions: >=5.0.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:431
+msgid "A selected Deformation Modifier no longer exists."
+msgstr "选定的变形修改器已不存在。"
+
+#: __init__.py:411
+msgid "Active mesh has no vertices."
+msgstr "活动网格没有顶点。"
+
+#: __init__.py:402
+msgid "Active object must be a mesh."
+msgstr "活动物体必须是网格。"
+
+#: __init__.py:250
+#: __init__.py:828
+msgid "Advanced"
+msgstr "高级"
+
+#: __init__.py:435
+msgid "All selected Deformation Modifiers must be below the Rig Modifier in the stack."
+msgstr "所有选定的变形修改器在堆栈中必须位于绑定修改器下方。"
+
+#: __init__.py:767
+msgid "Deform"
+msgstr "变形"
+
+#: __init__.py:763
+msgid "Deform to Corrective"
+msgstr "变形转校正"
+
+#: __init__.py:788
+msgid "Deformation Modifiers"
+msgstr "变形修改器"
+
+#: __init__.py:896
+msgid "Deformation Selection"
+msgstr "变形选择"
+
+#: __init__.py:837
+msgid "Epsilon"
+msgstr "Epsilon"
+
+#: __init__.py:231
+msgid "Iterations"
+msgstr "迭代次数"
+
+#: __init__.py:891
+msgid "Manual Deformation Selection"
+msgstr "手动变形选择"
+
+#: __init__.py:225
+msgid "Name for the baked editable corrective Shape Key"
+msgstr "烘焙后可编辑校正形态键的名称"
+
+#: __init__.py:422
+msgid "No deformation modifiers selected. Enable/select at least one in the Deform N-panel."
+msgstr "未选择变形修改器。请在变形 N 面板中启用/选择至少一个。"
+
+#: __init__.py:809
+msgid "No enabled supported deformers found"
+msgstr "未找到已启用的受支持变形器"
+
+#: __init__.py:239
+msgid "Numerical Jacobian probe size as a fraction of the Basis bounding-box diagonal"
+msgstr "数值雅可比探针大小，以基础形态包围盒对角线的比例表示"
+
+#: __init__.py:225
+msgid "Output Shape Key"
+msgstr "输出形态键"
+
+#: __init__.py:406
+msgid "Output Shape Key name cannot be empty."
+msgstr "输出形态键名称不能为空。"
+
+#: __init__.py:239
+msgid "Probe Epsilon"
+msgstr "探针 Epsilon"
+
+#: __init__.py:231
+msgid "Refinement iterations for the numerical inverse solve"
+msgstr "数值逆求解的细化迭代次数"
+
+#: __init__.py:219
+msgid "Rig Modifier"
+msgstr "绑定修改器"
+
+#: __init__.py:219
+msgid "Rig/pre-deform anchor. Auto prefers the first enabled Armature modifier"
+msgstr "绑定/预变形锚点。自动优先选择第一个启用的骨架修改器"
+
+#: __init__.py:418
+msgid "Selected Rig Modifier no longer exists."
+msgstr "选定的绑定修改器已不存在。"
+
+#: __init__.py:807
+msgid "_"
+msgstr "_"
+
+#: __init__.py:789
+msgctxt "Operator"
+msgid "All Enabled"
+msgstr "所有已启用"
+
+#: __init__.py:387
+msgctxt "Operator"
+msgid "Capture the combined current result of the selected deformation modifiers and bake it as one editable Shape Key while compensating for the live rig stack"
+msgstr "捕获选定变形修改器的当前合并结果并烘焙为一个可编辑形态键，同时补偿当前绑定堆栈"
+
+#: __init__.py:333
+msgctxt "Operator"
+msgid "Include or exclude this deformation modifier from the corrective bake"
+msgstr "在校正烘焙中包含或排除此变形修改器"
+
+#: __init__.py:386
+#: __init__.py:842
+msgctxt "Operator"
+msgid "Save as Corrective"
+msgstr "保存为校正"
+
+#: __init__.py:370
+msgctxt "Operator"
+msgid "Select All Enabled"
+msgstr "选择所有已启用"
+
+#: __init__.py:332
+msgctxt "Operator"
+msgid "Toggle Deformation Modifier"
+msgstr "切换变形修改器"
+
+#: __init__.py:371
+msgctxt "Operator"
+msgid "Use all currently enabled supported deformation modifiers after the rig"
+msgstr "使用绑定之后所有当前已启用的受支持变形修改器"

@@ -1,0 +1,673 @@
+# perfect-chinese: 1
+# id: render_queque
+# kind: addon
+# module: bl_ext.blender_org.render_queque
+# name: Render Queque
+# name_zh: 批量渲染队列
+# translator: KeshiMiao
+# category: Render
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:224
+msgid "16 bits por canal"
+msgstr "每通道 16 位"
+
+#: __init__.py:223
+msgid "8 bits por canal"
+msgstr "每通道 8 位"
+
+#: __init__.py:1550
+msgid ":"
+msgstr "："
+
+#: __init__.py:674
+msgid "AO"
+msgstr "AO"
+
+#: __init__.py:641
+msgid "Activa la reduccion de ruido (denoising) del motor de render seleccionado"
+msgstr "启用所选渲染引擎的降噪"
+
+#: __init__.py:529
+msgid "Activo"
+msgstr "进行中"
+
+#: __init__.py:534
+msgid "Archivo .blend"
+msgstr ".blend 文件"
+
+#: __init__.py:558
+msgid "Añade automaticamente la extension correcta (.png, .jpg, etc.) al nombre del archivo de salida"
+msgstr "自动为输出文件名添加正确的扩展名（.png、.jpg 等）"
+
+#: __init__.py:216
+msgid "BW"
+msgstr "黑白"
+
+#: __init__.py:1252
+msgid "Bajar"
+msgstr "下移"
+
+#: __init__.py:1665
+msgid "Base"
+msgstr "基础"
+
+#: __init__.py:580
+msgid "Bits por canal de color. No todos los valores estan disponibles para todos los formatos"
+msgstr "颜色每通道位数。并非所有值都适用于所有格式"
+
+#: __init__.py:563
+msgid "Cache Result"
+msgstr "缓存结果"
+
+#: __init__.py:574
+msgid "Canales de color de la imagen de salida"
+msgstr "输出图像的颜色通道"
+
+#: __init__.py:232
+msgid "Cancelado"
+msgstr "已取消"
+
+#: __init__.py:574
+msgid "Color"
+msgstr "颜色"
+
+#: __init__.py:663
+msgid "Color base (albedo) de las superficies difusas"
+msgstr "漫射表面的基础色（反照率）"
+
+#: __init__.py:669
+msgid "Color base de las superficies con transmision"
+msgstr "透射表面的基础色"
+
+#: __init__.py:666
+msgid "Color base de las superficies glossy"
+msgstr "光泽表面的基础色"
+
+#: __init__.py:218
+msgid "Color con canal alfa (transparencia)"
+msgstr "带 Alpha 通道的颜色（透明度）"
+
+#: __init__.py:217
+msgid "Color sin canal alfa"
+msgstr "不带 Alpha 通道的颜色"
+
+#: __init__.py:654
+msgid "Combined"
+msgstr "合成"
+
+#: __init__.py:230
+msgid "Completado"
+msgstr "已完成"
+
+#: __init__.py:586
+msgid "Compresion"
+msgstr "压缩"
+
+#: __init__.py:673
+msgid "Contribucion de luz del entorno / World"
+msgstr "环境 / 世界光照贡献"
+
+#: __init__.py:659
+msgid "Coordenadas UV visibles en cada pixel"
+msgstr "每个像素可见的 UV 坐标"
+
+#: __init__.py:596
+msgid "Crea un archivo vacio (placeholder) antes de renderizar cada frame, util para renders distribuidos en red"
+msgstr "渲染每个帧前创建空占位文件，适用于网络分布式渲染"
+
+#: __init__.py:200
+msgid "Cycles"
+msgstr "Cycles"
+
+#: __init__.py:1579
+msgid "DONE"
+msgstr "完成"
+
+#: __init__.py:641
+msgid "Denoise"
+msgstr "降噪"
+
+#: __init__.py:692
+msgid "Detener la cola si hay error"
+msgstr "出错时停止队列"
+
+#: __init__.py:663
+msgid "Diffuse Color"
+msgstr "漫射颜色"
+
+#: __init__.py:661
+msgid "Diffuse Direct"
+msgstr "漫射直接"
+
+#: __init__.py:662
+msgid "Diffuse Indirect"
+msgstr "漫射间接"
+
+#: __init__.py:657
+msgid "Direccion de las normales de superficie en cada pixel"
+msgstr "每个像素的表面法线方向"
+
+#: __init__.py:655
+msgid "Distancia de cada pixel a la camara"
+msgstr "每个像素到相机的距离"
+
+#: __init__.py:621
+msgid "Divisor del FPS, usado para tasas fraccionarias como 23.976 o 29.97 (NTSC). Dejar en 1.0 para tasas enteras"
+msgstr "FPS 除数，用于 23.976 或 29.97 (NTSC) 等分数帧率。整数帧率保持 1.0"
+
+#: __init__.py:1583
+msgid "ERROR"
+msgstr "错误"
+
+#: __init__.py:201
+msgid "Eevee"
+msgstr "EEVEE"
+
+#: __init__.py:202
+msgid "Eevee (Legacy)"
+msgstr "EEVEE（旧版）"
+
+#: __init__.py:539
+msgid "Elige la escena del archivo que quieres renderizar (por ejemplo si el archivo tiene una escena 'Intro' y otra 'Cuerpo'). Si lo dejas vacio, se usa la escena que ya estaba activa cuando se guardo el archivo. Usa el boton de refrescar para actualizar esta lista"
+msgstr "选择要渲染的文件场景（例如文件包含“Intro”和“Cuerpo”场景）。留空则使用文件保存时激活的场景。使用刷新按钮更新此列表"
+
+#: __init__.py:672
+msgid "Emission"
+msgstr "发光"
+
+#: __init__.py:703
+msgid "English"
+msgstr "英语"
+
+#: __init__.py:673
+msgid "Environment"
+msgstr "环境"
+
+#: __init__.py:231
+msgid "Error"
+msgstr "错误"
+
+#: __init__.py:216
+msgid "Escala de grises"
+msgstr "灰度"
+
+#: __init__.py:539
+msgid "Escena a Renderizar"
+msgstr "要渲染的场景"
+
+#: __init__.py:702
+msgid "Español"
+msgstr "西班牙语"
+
+#: __init__.py:212
+msgid "Exporta directamente un video mp4 (H264) en vez de imagenes sueltas"
+msgstr "直接导出 mp4 (H264) 视频，而不是单张图像"
+
+#: __init__.py:212
+msgid "FFmpeg Video (mp4)"
+msgstr "FFmpeg 视频 (mp4)"
+
+#: __init__.py:620
+msgid "FPS"
+msgstr "FPS"
+
+#: __init__.py:621
+msgid "FPS Base"
+msgstr "基础 FPS"
+
+#: __init__.py:558
+msgid "File Extensions"
+msgstr "文件扩展名"
+
+#: __init__.py:568
+msgid "Formato"
+msgstr "格式"
+
+#: __init__.py:568
+msgid "Formato de archivo de la imagen o video de salida"
+msgstr "输出图像或视频的文件格式"
+
+#: __init__.py:620
+msgid "Fotogramas por segundo de la animacion"
+msgstr "动画的每秒帧数"
+
+#: __init__.py:627
+msgid "Frame Final"
+msgstr "结束帧"
+
+#: __init__.py:626
+msgid "Frame Inicial"
+msgstr "起始帧"
+
+#: __init__.py:666
+msgid "Glossy Color"
+msgstr "光泽颜色"
+
+#: __init__.py:664
+msgid "Glossy Direct"
+msgstr "光泽直接"
+
+#: __init__.py:665
+msgid "Glossy Indirect"
+msgstr "光泽间接"
+
+#: __init__.py:563
+msgid "Guarda una copia del resultado del render en cache (puede no estar disponible en todas las versiones de Blender)"
+msgstr "保存渲染结果的缓存副本（可能并非所有 Blender 版本可用）"
+
+#: __init__.py:698
+msgid "Idioma / Language"
+msgstr "语言"
+
+#: __init__.py:698
+msgid "Idioma de los textos, botones y mensajes del addon"
+msgstr "插件文本、按钮和消息的语言"
+
+#: __init__.py:670
+msgid "Iluminacion directa dentro de volumenes"
+msgstr "体积内直接光照"
+
+#: __init__.py:671
+msgid "Iluminacion indirecta dentro de volumenes"
+msgstr "体积内间接光照"
+
+#: __init__.py:654
+msgid "Imagen final combinada (el render normal a color)"
+msgstr "最终合成图像（普通彩色渲染）"
+
+#: __init__.py:208
+msgid "Imagenes JPEG comprimidas, sin canal alfa"
+msgstr "压缩 JPEG 图像，无 Alpha 通道"
+
+#: __init__.py:207
+msgid "Imagenes PNG, con soporte de canal alfa"
+msgstr "PNG 图像，支持 Alpha 通道"
+
+#: __init__.py:211
+msgid "Imagenes TIFF sin perdida de calidad"
+msgstr "无损 TIFF 图像"
+
+#: __init__.py:209
+msgid "Imagenes de alto rango dinamico (HDR), ideal para compositing"
+msgstr "高动态范围（HDR）图像，适合合成"
+
+#: __init__.py:208
+msgid "JPEG"
+msgstr "JPEG"
+
+#: __init__.py:543
+msgid "Lista interna de escenas encontradas en el archivo (se usa para el buscador de escenas)"
+msgstr "文件中找到的场景内部列表（用于场景搜索）"
+
+#: __init__.py:661
+msgid "Luz difusa directa"
+msgstr "漫射直接光照"
+
+#: __init__.py:662
+msgid "Luz difusa indirecta (rebotes)"
+msgstr "漫射间接光照（反弹）"
+
+#: __init__.py:672
+msgid "Luz emitida por materiales emisivos"
+msgstr "自发光材质发出的光照"
+
+#: __init__.py:667
+msgid "Luz transmitida (refraccion) directa"
+msgstr "透射直接光照（折射）"
+
+#: __init__.py:668
+msgid "Luz transmitida por rebotes indirectos"
+msgstr "透射间接光照（反弹）"
+
+#: __init__.py:656
+msgid "Mist"
+msgstr "雾"
+
+#: __init__.py:702
+msgid "Mostrar el addon en español"
+msgstr "以西班牙语显示插件"
+
+#: __init__.py:630
+msgid "Motor"
+msgstr "渲染引擎"
+
+#: __init__.py:630
+msgid "Motor de render a usar para este archivo"
+msgstr "此文件使用的渲染引擎"
+
+#: __init__.py:586
+msgid "Nivel de compresion (0-100). Aplica a formatos como PNG y OpenEXR"
+msgstr "压缩级别（0-100）。适用于 PNG 和 OpenEXR 等格式"
+
+#: __init__.py:1752
+msgid "Nombre con el que se guardara el nuevo preset de resolucion"
+msgstr "保存新分辨率预设时使用的名称"
+
+#: __init__.py:1752
+msgid "Nombre del Preset"
+msgstr "预设名称"
+
+#: __init__.py:657
+msgid "Normal"
+msgstr "法向"
+
+#: __init__.py:636
+msgid "Numero de muestras de render. Mas samples = mejor calidad (menos ruido) pero mas tiempo de render"
+msgstr "渲染采样数。采样越多，质量越好（噪点越少），但渲染时间越长"
+
+#: __init__.py:209
+msgid "OpenEXR"
+msgstr "OpenEXR"
+
+#: __init__.py:210
+msgid "OpenEXR MultiLayer"
+msgstr "OpenEXR 多图层"
+
+#: __init__.py:552
+msgid "Output"
+msgstr "输出"
+
+#: __init__.py:591
+msgid "Overwrite"
+msgstr "覆盖"
+
+#: __init__.py:1577
+msgid "PENDING"
+msgstr "待处理"
+
+#: __init__.py:207
+msgid "PNG"
+msgstr "PNG"
+
+#: __init__.py:674
+msgid "Pass de Ambient Occlusion"
+msgstr "环境光遮蔽通道"
+
+#: __init__.py:656
+msgid "Pass de niebla, basado en la configuracion de Mist del World"
+msgstr "雾通道，基于世界环境的雾设置"
+
+#: __init__.py:675
+msgid "Pass de sombras"
+msgstr "阴影通道"
+
+#: __init__.py:228
+msgid "Pendiente"
+msgstr "待处理"
+
+#: __init__.py:610
+msgid "Pixel Aspect X"
+msgstr "像素纵横比 X"
+
+#: __init__.py:615
+msgid "Pixel Aspect Y"
+msgstr "像素纵横比 Y"
+
+#: __init__.py:596
+msgid "Placeholders"
+msgstr "占位符"
+
+#: __init__.py:605
+msgid "Porcentaje de escala sobre la resolucion base (100% = resolucion completa)"
+msgstr "相对于基础分辨率的缩放百分比（100% = 完整分辨率）"
+
+#: __init__.py:626
+msgid "Primer frame que se va a renderizar"
+msgstr "要渲染的起始帧"
+
+#: __init__.py:580
+msgid "Profundidad de Color"
+msgstr "色彩深度"
+
+#: __init__.py:1578
+msgid "RENDERING"
+msgstr "渲染中"
+
+#: __init__.py:217
+msgid "RGB"
+msgstr "RGB"
+
+#: __init__.py:218
+msgid "RGBA"
+msgstr "RGBA"
+
+#: __init__.py:664
+msgid "Reflejos especulares directos"
+msgstr "光泽直接反射"
+
+#: __init__.py:665
+msgid "Reflejos especulares por rebotes indirectos"
+msgstr "光泽间接反射"
+
+#: __init__.py:610
+msgid "Relacion de aspecto horizontal de cada pixel (usar 1 salvo formatos de TV con pixeles no cuadrados)"
+msgstr "每个像素的水平纵横比（使用 1，除非是采用非方形像素的电视格式）"
+
+#: __init__.py:615
+msgid "Relacion de aspecto vertical de cada pixel (usar 1 salvo formatos de TV con pixeles no cuadrados)"
+msgstr "每个像素的垂直纵横比（使用 1，除非是采用非方形像素的电视格式）"
+
+#: __init__.py:1524
+#: __init__.py:1528
+msgid "Render Queque"
+msgstr "Render Queque"
+
+#: __init__.py:229
+msgid "Renderizando"
+msgstr "渲染中"
+
+#: __init__.py:200
+msgid "Renderizar con Cycles"
+msgstr "使用 Cycles 渲染"
+
+#: __init__.py:201
+msgid "Renderizar con Eevee (Blender 4.2+)"
+msgstr "使用 EEVEE 渲染（Blender 4.2+）"
+
+#: __init__.py:202
+msgid "Renderizar con Eevee Legacy (Blender < 4.2)"
+msgstr "使用 EEVEE Legacy 渲染（Blender < 4.2）"
+
+#: __init__.py:203
+msgid "Renderizar con Workbench"
+msgstr "使用 Workbench 渲染"
+
+#: __init__.py:605
+msgid "Res %"
+msgstr "分辨率 %"
+
+#: __init__.py:603
+msgid "Res X"
+msgstr "分辨率 X"
+
+#: __init__.py:604
+msgid "Res Y"
+msgstr "分辨率 Y"
+
+#: __init__.py:603
+msgid "Resolucion horizontal en pixeles"
+msgstr "水平分辨率（像素）"
+
+#: __init__.py:604
+msgid "Resolucion vertical en pixeles"
+msgstr "垂直分辨率（像素）"
+
+#: __init__.py:1473
+msgid "Resolution Presets"
+msgstr "分辨率预设"
+
+#: __init__.py:534
+msgid "Ruta al archivo .blend que se va a renderizar"
+msgstr "要渲染的 .blend 文件路径"
+
+#: __init__.py:552
+msgid "Ruta y prefijo de salida para las imagenes renderizadas. Blender añade el numero de frame automaticamente al final del nombre"
+msgstr "渲染图像的输出路径和前缀。Blender 会自动在名称末尾添加帧号"
+
+#: __init__.py:636
+msgid "Samples"
+msgstr "采样"
+
+#: __init__.py:675
+msgid "Shadow"
+msgstr "阴影"
+
+#: __init__.py:703
+msgid "Show the addon in English"
+msgstr "以英文显示插件"
+
+#: __init__.py:648
+msgid "Si esta activo, se aplican los passes marcados abajo. Si esta apagado, se respetan los passes ya configurados en el archivo original"
+msgstr "如果启用，则应用下方勾选的通道。如果关闭，则保留原始文件中已配置的通道"
+
+#: __init__.py:529
+msgid "Si esta desactivado, este elemento se salta al iniciar la cola (no se elimina, solo se ignora)"
+msgstr "如果禁用，启动队列时会跳过此元素（不会删除，只是忽略）"
+
+#: __init__.py:692
+msgid "Si un archivo falla o su proceso de render crashea, detiene toda la cola en vez de continuar con el siguiente elemento"
+msgstr "如果某个文件失败或其渲染进程崩溃，则停止整个队列，而不是继续处理下一个元素"
+
+#: __init__.py:591
+msgid "Sobrescribe archivos existentes al renderizar"
+msgstr "渲染时覆盖现有文件"
+
+#: __init__.py:648
+msgid "Sobrescribir Passes"
+msgstr "覆盖通道"
+
+#: __init__.py:1252
+msgid "Subir"
+msgstr "上移"
+
+#: __init__.py:211
+msgid "TIFF"
+msgstr "TIFF"
+
+#: __init__.py:669
+msgid "Transmission Color"
+msgstr "透射颜色"
+
+#: __init__.py:667
+msgid "Transmission Direct"
+msgstr "透射直接"
+
+#: __init__.py:668
+msgid "Transmission Indirect"
+msgstr "透射间接"
+
+#: __init__.py:659
+msgid "UV"
+msgstr "UV"
+
+#: __init__.py:627
+msgid "Ultimo frame que se va a renderizar"
+msgstr "要渲染的最后一帧"
+
+#: __init__.py:210
+msgid "Un solo archivo EXR con todos los passes activados como capas separadas"
+msgstr "单个 EXR 文件，所有启用的通道作为独立图层"
+
+#: __init__.py:712
+msgid "Usa el panel lateral (tecla N) en la Vista 3D, pestaña 'Render Queque'."
+msgstr "使用 3D 视图中的侧边栏（N 键），'Render Queque' 选项卡。"
+
+#: __init__.py:658
+msgid "Vector"
+msgstr "向量"
+
+#: __init__.py:658
+msgid "Vectores de movimiento, usados para motion blur en compositing"
+msgstr "运动向量，用于合成中的运动模糊"
+
+#: __init__.py:670
+msgid "Volume Direct"
+msgstr "体积直接"
+
+#: __init__.py:671
+msgid "Volume Indirect"
+msgstr "体积间接"
+
+#: __init__.py:203
+msgid "Workbench"
+msgstr "Workbench"
+
+#: __init__.py:655
+msgid "Z"
+msgstr "Z"
+
+#: __init__.py:1177
+msgctxt "Operator"
+msgid "Actualizar desde archivo"
+msgstr "从文件更新"
+
+#: __init__.py:1379
+msgctxt "Operator"
+msgid "Aplicar Preset de Resolucion"
+msgstr "应用分辨率预设"
+
+#: __init__.py:1124
+msgctxt "Operator"
+msgid "Añadir archivo actual"
+msgstr "添加当前文件"
+
+#: __init__.py:1080
+msgctxt "Operator"
+msgid "Añadir archivo(s) .blend"
+msgstr "添加 .blend 文件"
+
+#: __init__.py:1352
+msgctxt "Operator"
+msgid "Detener y Cancelar"
+msgstr "停止并取消"
+
+#: __init__.py:1267
+msgctxt "Operator"
+msgid "Duplicar elemento"
+msgstr "复制元素"
+
+#: __init__.py:1234
+msgctxt "Operator"
+msgid "Eliminar elemento"
+msgstr "删除元素"
+
+#: __init__.py:1204
+msgctxt "Operator"
+msgid "Generar Vista Previa"
+msgstr "生成预览"
+
+#: __init__.py:1425
+msgctxt "Operator"
+msgid "Guardar Preset de Resolucion"
+msgstr "保存分辨率预设"
+
+#: __init__.py:1326
+msgctxt "Operator"
+msgid "Iniciar Cola de Render"
+msgstr "启动渲染队列"
+
+#: __init__.py:1249
+msgctxt "Operator"
+msgid "Mover elemento"
+msgstr "移动元素"
+
+#: __init__.py:1456
+msgctxt "Operator"
+msgid "Quitar Preset de Resolucion"
+msgstr "移除分辨率预设"
+
+#: __init__.py:1297
+msgctxt "Operator"
+msgid "Quitar completados"
+msgstr "移除已完成"
+
+#: __init__.py:1312
+msgctxt "Operator"
+msgid "Reiniciar estados"
+msgstr "重置状态"

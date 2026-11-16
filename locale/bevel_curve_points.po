@@ -1,0 +1,295 @@
+# perfect-chinese: 1
+# id: bevel_curve_points
+# kind: addon
+# module: bl_ext.blender_org.bevel_curve_points
+# name: Curve Forge
+# name_zh: 曲线锻造
+# translator: KeshiMiao
+# category: Modeling
+# supported_versions: >=5.0.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: bevel.py:133
+msgid "Amount"
+msgstr "数量"
+
+#: bevel.py:147
+msgid "Amount Type"
+msgstr "数量类型"
+
+#: merge_operators.py:20
+msgid "At Active"
+msgstr "在活动点"
+
+#: merge_operators.py:19
+msgid "At Center"
+msgstr "在中心"
+
+#: bevel.py:133
+msgid "Bevel radius or offset in local curve units"
+msgstr "以局部曲线单位表示的倒角半径或偏移"
+
+#: bevel.py:144
+msgid "Chamfer"
+msgstr "倒角"
+
+#: slide.py:21
+msgid "Clamp"
+msgstr "钳制"
+
+#: ui.py:72
+msgid "Click a shortcut to change it; expand its row for modifiers."
+msgstr "点击快捷键即可更改；展开其行可设置修饰键。"
+
+#: edge_to_curve.py:32
+msgid "Convert to Mesh"
+msgstr "转换为网格"
+
+#: ui.py:66
+msgid "Curve Edit Mode shortcuts"
+msgstr "曲线编辑模式快捷键"
+
+#: edge_to_curve.py:24
+msgid "Depth (Local Units)"
+msgstr "深度（局部单位）"
+
+#: bevel.py:150
+msgid "Distance to trim along each side of the original curve"
+msgstr "沿原始曲线每侧修剪的距离"
+
+#: ui.py:57
+msgid "Enable the custom move binding and repeated-key slide; disable to use Blender's native move"
+msgstr "启用自定义移动绑定和重复按键滑动；禁用则使用 Blender 原生移动"
+
+#: slide.py:19
+msgid "Factor"
+msgstr "系数"
+
+#: edge_to_curve.py:26
+msgid "Fill Caps"
+msgstr "填充封盖"
+
+#: edge_to_curve.py:30
+msgid "Flat"
+msgstr "平直"
+
+#: slide.py:19
+msgid "Fraction of the neighboring segment; negative slides towards the previous point"
+msgstr "相邻线段的比例；负值向前一个点滑动"
+
+#: edge_to_curve.py:28
+msgid "Keep Original"
+msgstr "保留原始"
+
+#: merge_operators.py:18
+msgid "Merge"
+msgstr "合并"
+
+#: merge_operators.py:109
+msgid "Merge Curve Points"
+msgstr "合并曲线点"
+
+#: merge_operators.py:19
+msgid "Merge at the average position of selected control points"
+msgstr "在所选控制点的平均位置合并"
+
+#: merge_operators.py:20
+msgid "Merge at the control point selected last"
+msgstr "在最后选择的控制点处合并"
+
+#: slide.py:16
+msgid "Mode"
+msgstr "模式"
+
+#: slide.py:17
+msgid "Move"
+msgstr "移动"
+
+#: slide.py:17
+msgid "Move selected curve points freely"
+msgstr "自由移动所选曲线点"
+
+#: slide.py:20
+msgid "Movement in world coordinates"
+msgstr "按世界坐标移动"
+
+#: bevel.py:137
+msgid "Number of segments in each new bevel"
+msgstr "每个新倒角的段数"
+
+#: bevel.py:150
+#: bevel.py:316
+msgid "Offset"
+msgstr "偏移"
+
+#: edge_to_curve.py:28
+msgid "Preserve each spline's original shading"
+msgstr "保留每条样条的原始着色"
+
+#: edge_to_curve.py:24
+msgid "Profile radius in local curve units"
+msgstr "以局部曲线单位表示的轮廓半径"
+
+#: bevel.py:316
+msgid "RADIUS"
+msgstr "半径"
+
+#: bevel.py:149
+#: bevel.py:316
+msgid "Radius"
+msgstr "半径"
+
+#: bevel.py:149
+msgid "Radius of the rounded corner; approximate for curved segments"
+msgstr "圆角半径；曲线段为近似值"
+
+#: edge_to_curve.py:25
+msgid "Resolution"
+msgstr "分辨率"
+
+#: bevel.py:143
+msgid "Round"
+msgstr "圆角"
+
+#: edge_to_curve.py:262
+msgid "Run this tool in the 3D viewport"
+msgstr "在 3D 视图中运行此工具"
+
+#: bevel.py:137
+msgid "Segments"
+msgstr "段数"
+
+#: slide.py:76
+#: slide.py:143
+msgid "Select a control point with a visible, nonzero neighboring segment"
+msgstr "选择一个具有可见且非零相邻线段的控制点"
+
+#: bevel.py:169
+msgid "Select corner control points on a Bezier or poly spline; endpoints and smooth points are skipped"
+msgstr "在贝塞尔或多段线样条上选择角点控制点；端点和平滑点会被跳过"
+
+#: edge_to_curve.py:250
+msgid "Select mesh edges in Edit Mode, or use F9 to adjust the last result"
+msgstr "在编辑模式下选择网格边，或按 F9 调整上次结果"
+
+#: edge_to_curve.py:27
+msgid "Shading"
+msgstr "着色"
+
+#: bevel.py:141
+msgid "Shape"
+msgstr "形状"
+
+#: slide.py:18
+msgid "Slide"
+msgstr "滑动"
+
+#: slide.py:18
+msgid "Slide selected points along their original neighboring segments"
+msgstr "沿原始相邻线段滑动所选点"
+
+#: edge_to_curve.py:29
+msgid "Smooth"
+msgstr "平滑"
+
+#: edge_to_curve.py:29
+msgid "Smooth every spline"
+msgstr "平滑每条样条"
+
+#: bevel.py:143
+msgid "Smooth tangent fillet; circular approximation on straight corners"
+msgstr "平滑切线圆角；直拐角处采用圆形近似"
+
+#: slide.py:21
+msgid "Stop at neighboring control points"
+msgstr "在相邻控制点处停止"
+
+#: bevel.py:144
+msgid "Straight cut across each corner"
+msgstr "在每个拐角处直线切割"
+
+#: slide.py:152
+msgid "The selected point is behind the viewport camera"
+msgstr "所选点位于视图相机后方"
+
+#: edge_to_curve.py:31
+msgid "Tilt Offset"
+msgstr "倾斜偏移"
+
+#: ui.py:57
+msgid "Use Curve Forge Move / Slide shortcut"
+msgstr "使用 Curve Forge 移动/滑动快捷键"
+
+#: edge_to_curve.py:30
+msgid "Use flat shading on every spline"
+msgstr "对每条样条使用平直着色"
+
+#: ui.py:82
+#: ui.py:102
+msgctxt "Operator"
+msgid "Adjust Curve Thickness"
+msgstr "调整曲线厚度"
+
+#: bevel.py:129
+msgctxt "Operator"
+msgid "Bevel Curve Points"
+msgstr "倒角曲线点"
+
+#: bevel.py:130
+msgctxt "Operator"
+msgid "Bevel selected curve corners: mouse sets radius, wheel changes segments"
+msgstr "对所选曲线拐角倒角：鼠标设置半径，滚轮更改段数"
+
+#: merge_operators.py:119
+msgctxt "Operator"
+msgid "Choose whether to merge selected points at their center or at the active point"
+msgstr "选择在中心还是活动点合并所选点"
+
+#: edge_to_curve.py:21
+msgctxt "Operator"
+msgid "Copy selected mesh edges to a curve, or adjust an existing curve's thickness"
+msgstr "将所选网格边复制为曲线，或调整现有曲线的厚度"
+
+#: edge_to_curve.py:20
+msgctxt "Operator"
+msgid "Edge to Thick Curve"
+msgstr "边转换为厚曲线"
+
+#: merge_operators.py:14
+msgctxt "Operator"
+msgid "Merge Curve Points"
+msgstr "合并曲线点"
+
+#: merge_operators.py:118
+msgctxt "Operator"
+msgid "Merge Curve Points Menu"
+msgstr "合并曲线点菜单"
+
+#: merge_operators.py:15
+msgctxt "Operator"
+msgid "Merge selected control points at their center or at the active point"
+msgstr "在中心或活动点处合并选中的控制点"
+
+#: slide.py:322
+msgctxt "Operator"
+msgid "Move / Slide Curve Points"
+msgstr "移动/滑动曲线点"
+
+#: slide.py:323
+msgctxt "Operator"
+msgid "Move selected curve points; repeat the move key to slide along the curve"
+msgstr "移动选中的曲线点；重复按移动键可沿曲线滑动"
+
+#: slide.py:331
+msgctxt "Operator"
+msgid "Slide Curve Points"
+msgstr "滑动曲线点"
+
+#: slide.py:332
+msgctxt "Operator"
+msgid "Slide selected control points along their original neighboring curve segments"
+msgstr "沿原始相邻曲线段滑动选中的控制点"

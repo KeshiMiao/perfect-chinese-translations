@@ -1,0 +1,515 @@
+# perfect-chinese: 1
+# id: photometric_light_plus
+# kind: addon
+# module: bl_ext.blender_org.photometric_light_plus
+# name: Photometric Light Plus
+# name_zh: 光度学灯光
+# translator: KeshiMiao
+# category: Lighting
+# supported_versions: >=4.5.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: ui.py:86
+msgid "-"
+msgstr "-"
+
+#: properties.py:201
+msgid "32 x 48 segments"
+msgstr "32 x 48 段"
+
+#: properties.py:202
+msgid "48 x 72 segments"
+msgstr "48 x 72 段"
+
+#: properties.py:203
+msgid "72 x 120 segments"
+msgstr "72 x 120 段"
+
+#: properties.py:68
+msgid "Absolute IES"
+msgstr "绝对 IES"
+
+#: operators.py:359
+msgid "Active Light Only"
+msgstr "仅活动灯光"
+
+#: operators.py:316
+msgid "All Lights"
+msgstr "所有灯光"
+
+#: properties.py:149
+msgid "Always"
+msgstr "始终"
+
+#: properties.py:149
+msgid "Always draw the halo"
+msgstr "始终绘制光晕"
+
+#: operators.py:148
+msgid "At 3D Cursor"
+msgstr "在 3D 游标处"
+
+#: properties.py:180
+msgid "Base opacity of the surfaces facing the viewer"
+msgstr "面向观察者的表面的基础不透明度"
+
+#: ui.py:108
+msgid "Beam (deg)"
+msgstr "光束（度）"
+
+#: properties.py:139
+msgid "Beam Angle"
+msgstr "光束角度"
+
+#: properties.py:102
+msgid "Blender (683 lm/W)"
+msgstr "Blender（683 lm/W）"
+
+#: properties.py:57
+msgid "Bumped whenever the IES payload changes, invalidates caches"
+msgstr "每当 IES 载荷变化时递增，并使缓存失效"
+
+#: properties.py:214
+#: ui.py:160
+msgid "Color"
+msgstr "颜色"
+
+#: operators.py:126
+msgid "Color temperature used when the IES file does not declare one"
+msgstr "IES 文件未声明色温时使用的色温"
+
+#: properties.py:128
+msgid "Computed Lumens"
+msgstr "计算流明"
+
+#: properties.py:180
+msgid "Core"
+msgstr "核心"
+
+#: properties.py:115
+#: properties.py:219
+msgid "Custom"
+msgstr "自定义"
+
+#: properties.py:120
+msgid "Custom luminous efficacy"
+msgstr "自定义发光效能"
+
+#: properties.py:80
+msgid "Declared"
+msgstr "声明值"
+
+#: ui.py:106
+msgid "Declared (lm)"
+msgstr "声明值（lm）"
+
+#: properties.py:133
+msgid "Declared Lumens"
+msgstr "声明流明"
+
+#: properties.py:148
+msgid "Draw the halo only while the light is selected"
+msgstr "仅在灯光被选中时绘制光晕"
+
+#: ui.py:74
+msgid "EEVEE ignores IES, use Cycles to render it"
+msgstr "EEVEE 忽略 IES，请使用 Cycles 渲染"
+
+#: properties.py:98
+msgid "Efficacy"
+msgstr "效能"
+
+#: ui.py:105
+msgid "Flux (lm)"
+msgstr "光通量（lm）"
+
+#: properties.py:143
+msgid "Halo"
+msgstr "光晕"
+
+#: properties.py:224
+msgid "Halo Color"
+msgstr "光晕颜色"
+
+#: operators.py:140
+msgid "Halo Size"
+msgstr "光晕大小"
+
+#: properties.py:42
+msgid "Has IES"
+msgstr "有 IES"
+
+#: properties.py:203
+msgid "High"
+msgstr "高"
+
+#: properties.py:172
+msgid "Higher values concentrate the glow on the silhouette"
+msgstr "数值越高，光晕越集中在轮廓上"
+
+#: properties.py:64
+msgid "How the light power is derived from the photometric data"
+msgstr "如何从光度数据推导灯光功率"
+
+#: properties.py:47
+msgid "IES Data"
+msgstr "IES 数据"
+
+#: ui.py:63
+msgid "IES data still stored outside this .blend"
+msgstr "IES 数据仍存储在此 .blend 之外"
+
+#: ui.py:47
+msgid "IES node found, not managed yet"
+msgstr "找到 IES 节点，尚未管理"
+
+#: properties.py:75
+msgid "Integrate the candela distribution over the sphere (recommended)"
+msgstr "在球面上对坎德拉分布进行积分（推荐）"
+
+#: properties.py:75
+msgid "Integrated"
+msgstr "积分"
+
+#: operators.py:133
+#: properties.py:90
+msgid "Intensity"
+msgstr "强度"
+
+#: properties.py:47
+msgid "Internal text data-block holding the IES payload"
+msgstr "保存 IES 载荷的内部文本数据块"
+
+#: operators.py:121
+msgid "Leave empty to use the file name"
+msgstr "留空以使用文件名"
+
+#: properties.py:68
+msgid "Let the IES node carry the absolute candela values and keep the light power as a pure multiplier. Physically exact. Recommended"
+msgstr "让 IES 节点承载绝对坎德拉值，并将灯光功率保持为纯乘数。物理精确。推荐"
+
+#: properties.py:218
+msgid "Light"
+msgstr "灯光"
+
+#: operators.py:121
+msgid "Light Name"
+msgstr "灯光名称"
+
+#: properties.py:201
+msgid "Low"
+msgstr "低"
+
+#: properties.py:108
+msgid "Luminous efficacy of radiation for the light color temperature, models the radiant power of a real lamp and gives a much higher wattage"
+msgstr "针对灯光色温的辐射发光效能，模拟真实灯具的辐射功率，并给出高得多的瓦数"
+
+#: properties.py:98
+msgid "Luminous efficacy used to turn lumens into Blender watts"
+msgstr "用于将流明转换为 Blender 瓦数的发光效能"
+
+#: properties.py:133
+msgid "Luminous flux declared in the IES header"
+msgstr "IES 头部声明的光通量"
+
+#: properties.py:128
+msgid "Luminous flux used for the power computation"
+msgstr "用于功率计算的光通量"
+
+#: ui.py:89
+msgid "MISSING"
+msgstr "缺失"
+
+#: properties.py:85
+msgid "Manual"
+msgstr "手动"
+
+#: properties.py:243
+msgid "Master switch for every photometric halo in the viewport"
+msgstr "视图中所有光度光晕的总开关"
+
+#: ui.py:107
+msgid "Max (cd)"
+msgstr "最大值（cd）"
+
+#: properties.py:138
+msgid "Max Candela"
+msgstr "最大坎德拉"
+
+#: properties.py:102
+msgid "Maximum luminous efficacy, consistent with how Blender reads watts as photometric units. Recommended"
+msgstr "最大发光效能，与 Blender 将瓦数解释为光度单位的方式一致。推荐"
+
+#: properties.py:202
+msgid "Medium"
+msgstr "中"
+
+#: operators.py:133
+#: properties.py:90
+msgid "Multiplier applied to the computed light power"
+msgstr "应用于计算出的灯光功率的乘数"
+
+#: operators.py:116
+msgid "Name From Luminaire"
+msgstr "从灯具命名"
+
+#: properties.py:147
+msgid "Never draw the halo"
+msgstr "从不绘制光晕"
+
+#: operators.py:199
+msgid "No IES file selected"
+msgstr "未选择 IES 文件"
+
+#: ui.py:52
+msgid "No IES payload on this light"
+msgstr "此灯光没有 IES 数据"
+
+#: operators.py:330
+msgid "No light to process"
+msgstr "没有可处理的灯光"
+
+#: operators.py:409
+msgid "No valid IES payload on this light"
+msgstr "此灯光没有有效的 IES 数据"
+
+#: properties.py:147
+msgid "Off"
+msgstr "关闭"
+
+#: properties.py:163
+msgid "Opacity"
+msgstr "不透明度"
+
+#: properties.py:52
+msgid "Original file name, kept for reference only"
+msgstr "原始文件名，仅供参照"
+
+#: properties.py:163
+msgid "Overall strength of the halo"
+msgstr "光晕的整体强度"
+
+#: properties.py:208
+msgid "Overlay meridians and parallels on the halo"
+msgstr "在光晕上叠加经线和纬线"
+
+#: operators.py:495
+msgid "Photometric File (.ies / .ldt)"
+msgstr "光度文件（.ies / .ldt）"
+
+#: ui.py:117
+msgid "Photometric Halo"
+msgstr "光度光晕"
+
+#: ui.py:22
+msgid "Photometric Light"
+msgstr "光度灯光"
+
+#: ui.py:168
+msgid "Photometric Lights"
+msgstr "光度灯光"
+
+#: properties.py:140
+msgid "Photometry Info"
+msgstr "光度信息"
+
+#: properties.py:57
+msgid "Photometry Version"
+msgstr "光度版本"
+
+#: ui.py:80
+msgid "Photometry not evaluated yet"
+msgstr "尚未计算光度"
+
+#: operators.py:148
+msgid "Place the light at the 3D cursor instead of the world origin"
+msgstr "将灯光放置在 3D 游标处，而非世界原点"
+
+#: properties.py:64
+msgid "Power Mode"
+msgstr "功率模式"
+
+#: operators.py:316
+msgid "Process every light of the view layer instead of the active one"
+msgstr "处理视图图层中的所有灯光，而非仅活动灯光"
+
+#: operators.py:359
+msgid "Process only the light shown in the properties editor"
+msgstr "仅处理属性编辑器中显示的灯光"
+
+#: properties.py:154
+msgid "Radius of the halo at maximum intensity, in meters"
+msgstr "最大强度时光晕的半径，单位为米"
+
+#: operators.py:140
+msgid "Radius of the viewport halo, in meters"
+msgstr "视图光晕的半径，单位为米"
+
+#: properties.py:197
+msgid "Resolution"
+msgstr "分辨率"
+
+#: properties.py:172
+msgid "Rim Falloff"
+msgstr "边缘衰减"
+
+#: properties.py:148
+msgid "Selected"
+msgstr "已选中"
+
+#: properties.py:189
+msgid "Shape Gamma"
+msgstr "形状伽马"
+
+#: properties.py:189
+msgid "Shapes the radius response, higher values inflate weak lobes"
+msgstr "调整半径响应，数值越大弱波瓣越膨胀"
+
+#: properties.py:243
+msgid "Show Photometric Halos"
+msgstr "显示光度光晕"
+
+#: properties.py:154
+msgid "Size"
+msgstr "大小"
+
+#: ui.py:85
+msgid "Source"
+msgstr "来源"
+
+#: properties.py:52
+msgid "Source File"
+msgstr "源文件"
+
+#: properties.py:214
+msgid "Source of the halo color"
+msgstr "光晕颜色的来源"
+
+#: properties.py:108
+msgid "Spectral (LER)"
+msgstr "光谱（LER）"
+
+#: ui.py:88
+msgid "Stored As"
+msgstr "存储为"
+
+#: operators.py:116
+msgid "Take the light name from the IES keyword block when available"
+msgstr "可用时从 IES 关键字块中获取灯光名称"
+
+#: operators.py:126
+msgid "Temperature"
+msgstr "色温"
+
+#: properties.py:197
+msgid "Tessellation density of the halo"
+msgstr "光晕的细分密度"
+
+#: ui.py:172
+msgid "Tool"
+msgstr "工具"
+
+#: properties.py:42
+msgid "True when this light carries an internal IES payload"
+msgstr "此灯光包含内部 IES 数据时为真"
+
+#: properties.py:219
+msgid "Use a custom color"
+msgstr "使用自定义颜色"
+
+#: properties.py:115
+msgid "Use a user defined lm/W value"
+msgstr "使用用户定义的 lm/W 值"
+
+#: properties.py:218
+msgid "Use the light color"
+msgstr "使用灯光颜色"
+
+#: properties.py:80
+msgid "Use the lumens declared in the IES header"
+msgstr "使用 IES 文件头中声明的流明值"
+
+#: properties.py:85
+msgid "Use the wattage currently set on the light"
+msgstr "使用灯光当前设置的瓦数"
+
+#: properties.py:143
+msgid "When the photometric halo is drawn in the viewport"
+msgstr "在视图中绘制光度光晕时"
+
+#: properties.py:208
+msgid "Wireframe"
+msgstr "线框"
+
+#: properties.py:120
+msgid "lm/W"
+msgstr "lm/W"
+
+#: ui.py:180
+msgctxt "Operator"
+msgid "Add Photometric Light"
+msgstr "添加光度灯光"
+
+#: ui.py:48
+msgctxt "Operator"
+msgid "Adopt This Light"
+msgstr "采用此灯光"
+
+#: operators.py:456
+msgctxt "Operator"
+msgid "Copy Halo Settings To Selected"
+msgstr "复制光晕设置到选中项"
+
+#: operators.py:100
+msgctxt "Operator"
+msgid "Create a point light from an IES or EULUMDAT file. EULUMDAT files are converted to IES on import and stored inside the .blend"
+msgstr "从 IES 或 EULUMDAT 文件创建点灯光。EULUMDAT 文件在导入时转换为 IES 并存储在 .blend 中"
+
+#: ui.py:53
+msgctxt "Operator"
+msgid "Load IES / LDT File"
+msgstr "加载 IES / LDT 文件"
+
+#: operators.py:356
+msgctxt "Operator"
+msgid "Pack All IES Data"
+msgstr "打包所有 IES 数据"
+
+#: operators.py:99
+msgctxt "Operator"
+msgid "Photometric Light (.ies / .ldt)"
+msgstr "光度灯光（.ies / .ldt）"
+
+#: ui.py:184
+msgctxt "Operator"
+msgid "Reload All"
+msgstr "全部重新加载"
+
+#: operators.py:313
+msgctxt "Operator"
+msgid "Reload Photometry"
+msgstr "重新加载光度"
+
+#: ui.py:112
+msgctxt "Operator"
+msgid "Replace"
+msgstr "替换"
+
+#: operators.py:265
+msgctxt "Operator"
+msgid "Replace Photometric File"
+msgstr "替换光度文件"
+
+#: ui.py:67
+msgctxt "Operator"
+msgid "Store Inside The File"
+msgstr "存储在文件内"
+
+#: operators.py:398
+msgctxt "Operator"
+msgid "Validate IES Data"
+msgstr "验证 IES 数据"

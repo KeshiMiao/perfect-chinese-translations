@@ -1,0 +1,259 @@
+# perfect-chinese: 1
+# id: soundplanes
+# kind: addon
+# module: bl_ext.blender_org.soundPlanes
+# name: Sound Planes
+# name_zh: 声场平面
+# translator: KeshiMiao
+# category: Sequencer
+# supported_versions: >=5.0.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: SoundPlanes/ui.py:114
+msgid "(0 = scene range)"
+msgstr "（0 = 场景范围）"
+
+#: SoundPlanes/ui.py:27
+msgid "Add a set to begin."
+msgstr "添加一个集以开始。"
+
+#: SoundPlanes/__init__.py:7
+msgid "Add sound strips in the VSE when objects cross planes"
+msgstr "当物体穿过平面时在 VSE 中添加声音片段"
+
+#: SoundPlanes/props.py:96
+msgid "Adds per-strip random variation to the computed volume when a sound is placed.\nApplied as a multiplier: volume *= uniform(1-r, 1+r)\n0 = no randomness."
+msgstr "放置声音时，为计算出的音量添加逐片段的随机变化。\n以乘数方式应用：volume *= uniform(1-r, 1+r)\n0 = 无随机性。"
+
+#: SoundPlanes/props.py:51
+msgid "Auto-Clear Set Channels"
+msgstr "自动清除集通道"
+
+#: SoundPlanes/props.py:116
+msgid "Channel Max"
+msgstr "通道上限"
+
+#: SoundPlanes/props.py:109
+msgid "Channel Start"
+msgstr "通道起始"
+
+#: SoundPlanes/ops_items.py:100
+msgid "Could not create plane."
+msgstr "无法创建平面。"
+
+#: SoundPlanes/props.py:132
+msgid "End"
+msgstr "结束"
+
+#: SoundPlanes/props.py:61
+msgid "Expand"
+msgstr "展开"
+
+#: SoundPlanes/props.py:61
+msgid "Expand/collapse this set in the UI (independent of Process)"
+msgstr "在界面中展开/折叠此集（与「处理」无关）"
+
+#: SoundPlanes/props.py:20
+msgid "Finite area comes from the object's local bounds (scale is respected). Plane normal is local +Z."
+msgstr "有限区域来自物体的局部边界（考虑缩放）。平面法线为局部 +Z。"
+
+#: SoundPlanes/ui.py:109
+msgid "Global Timing"
+msgstr "全局时间"
+
+#: SoundPlanes/props.py:116
+msgid "Highest VSE channel this set may use"
+msgstr "此集可使用的最高 VSE 通道"
+
+#: SoundPlanes/props.py:40
+msgid "If enabled, this set will be processed by 'Analyze & Add Sounds'. Multiple sets can be processed at the same time.\nIf disabled, this set is ignored by the analyzer but remains fully editable in the UI."
+msgstr "启用后，此集将由「分析并添加声音」处理。可同时处理多个集。\n禁用后，分析器会忽略此集，但仍可在界面中完全编辑。"
+
+#: SoundPlanes/props.py:31
+msgid "Internal identifier used to tag generated strips"
+msgstr "用于标记生成片段的内部标识符"
+
+#: SoundPlanes/ops_items.py:25
+#: SoundPlanes/ops_items.py:81
+msgid "Invalid set."
+msgstr "无效的集。"
+
+#: SoundPlanes/props.py:109
+msgid "Lowest VSE channel this set may use"
+msgstr "此集可使用的最低 VSE 通道"
+
+#: SoundPlanes/props.py:133
+msgid "Min Gap (frames)"
+msgstr "最小间隔（帧）"
+
+#: SoundPlanes/props.py:85
+msgid "Multiplier applied to the measured crossing speed used for volume. Final speed = raw_speed * speed_multiplier."
+msgstr "应用于测量所得穿越速度的乘数，用于音量。最终速度 = raw_speed * speed_multiplier。"
+
+#: SoundPlanes/props.py:38
+msgid "Name"
+msgstr "名称"
+
+#: SoundPlanes/ops_analyze.py:271
+msgid "No crossings found for processed sets. (Try flipping a plane: rotate 180°.)"
+msgstr "已处理的集未找到穿越。（试试翻转平面：旋转 180°。）"
+
+#: SoundPlanes/ui.py:78
+msgid "No objects."
+msgstr "无物体。"
+
+#: SoundPlanes/ui.py:106
+msgid "No planes."
+msgstr "无平面。"
+
+#: SoundPlanes/ops_analyze.py:114
+msgid "No runnable sets are enabled for processing. Enable 'Process' on at least one set and ensure it has folder + objects + planes."
+msgstr "没有启用可运行的集进行处理。请至少在一个集上启用「处理」，并确保它具有文件夹 + 物体 + 平面。"
+
+#: SoundPlanes/props.py:16
+msgid "Object"
+msgstr "物体"
+
+#: SoundPlanes/ui.py:60
+msgid "Objects"
+msgstr "物体"
+
+#: SoundPlanes/ui.py:21
+msgid "Only sets with 'Process' enabled are analyzed."
+msgstr "仅分析启用了「处理」的集。"
+
+#: SoundPlanes/ui.py:82
+msgid "Planes"
+msgstr "平面"
+
+#: SoundPlanes/props.py:40
+#: SoundPlanes/ui.py:32
+msgid "Process"
+msgstr "处理"
+
+#: SoundPlanes/__init__.py:7
+msgid "Sequencer"
+msgstr "序列编辑器"
+
+#: SoundPlanes/ops_items.py:76
+msgid "Size"
+msgstr "大小"
+
+#: SoundPlanes/props.py:67
+msgid "Sound Folder"
+msgstr "声音文件夹"
+
+#: SoundPlanes/__init__.py:7
+#: SoundPlanes/ui.py:6
+msgid "Sound Planes"
+msgstr "声音平面"
+
+#: SoundPlanes/ui.py:18
+msgid "Sound Sets"
+msgstr "声音集"
+
+#: SoundPlanes/props.py:85
+msgid "Speed Multiplier"
+msgstr "速度乘数"
+
+#: SoundPlanes/props.py:131
+msgid "Start"
+msgstr "起始"
+
+#: SoundPlanes/ops_analyze.py:73
+msgid "Start must be less than End."
+msgstr "起始必须小于结束。"
+
+#: SoundPlanes/props.py:20
+msgid "Trigger Plane"
+msgstr "触发平面"
+
+#: SoundPlanes/props.py:31
+msgid "UID"
+msgstr "UID"
+
+#: SoundPlanes/props.py:73
+msgid "Velocity Factor"
+msgstr "速度系数"
+
+#: SoundPlanes/props.py:96
+msgid "Volume Randomness"
+msgstr "音量随机性"
+
+#: SoundPlanes/props.py:73
+msgid "Volume blend uses:\nvol = max(0, speed) * vf + base - (base * vf)\n(vf=0 keeps base, vf=1 uses speed as volume)"
+msgstr "音量混合使用：\nvol = max(0, speed) * vf + base - (base * vf)\n（vf=0 保持基础值，vf=1 使用速度作为音量）"
+
+#: SoundPlanes/props.py:51
+msgid "When running 'Analyze & Add Sounds', automatically remove previously generated Sound Planes strips for THIS set (tagged strips) in this set's channel range before adding new ones."
+msgstr "运行「分析并添加声音」时，在添加新片段前自动移除此集通道范围内先前生成的 Sound Planes 片段（已标记的片段）。"
+
+#: SoundPlanes/ui.py:83
+msgctxt "Operator"
+msgid "Add Plane"
+msgstr "添加平面"
+
+#: SoundPlanes/ui.py:61
+#: SoundPlanes/ui.py:89
+msgctxt "Operator"
+msgid "Add Selected"
+msgstr "添加所选"
+
+#: SoundPlanes/ops_items.py:17
+msgctxt "Operator"
+msgid "Add Selected Objects"
+msgstr "添加所选物体"
+
+#: SoundPlanes/ops_items.py:116
+msgctxt "Operator"
+msgid "Add Selected as Planes"
+msgstr "将所选添加为平面"
+
+#: SoundPlanes/ops_sets.py:11
+msgctxt "Operator"
+msgid "Add Sound Set"
+msgstr "添加声音集"
+
+#: SoundPlanes/ops_items.py:72
+msgctxt "Operator"
+msgid "Add Trigger Plane"
+msgstr "添加触发平面"
+
+#: SoundPlanes/ops_analyze.py:58
+msgctxt "Operator"
+msgid "Analyze Process Sets & Add Sounds"
+msgstr "分析处理集并添加声音"
+
+#: SoundPlanes/ops_analyze.py:59
+msgctxt "Operator"
+msgid "Analyze animation and add random sound strips ONLY for Sound Sets with 'Process' enabled (multiple sets can be processed)."
+msgstr "分析动画并仅为启用了「处理」的声音集添加随机声音片段（可处理多个集）。"
+
+#: SoundPlanes/ops_items.py:41
+msgctxt "Operator"
+msgid "Clear Objects"
+msgstr "清除物体"
+
+#: SoundPlanes/ops_items.py:155
+msgctxt "Operator"
+msgid "Clear Planes"
+msgstr "清除平面"
+
+#: SoundPlanes/ops_items.py:56
+msgctxt "Operator"
+msgid "Remove Object"
+msgstr "移除物体"
+
+#: SoundPlanes/ops_items.py:170
+msgctxt "Operator"
+msgid "Remove Plane"
+msgstr "移除平面"
+
+#: SoundPlanes/ops_sets.py:41
+msgctxt "Operator"
+msgid "Remove Sound Set"
+msgstr "移除声音集"

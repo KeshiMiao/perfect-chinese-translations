@@ -1,0 +1,442 @@
+# perfect-chinese: 1
+# id: custombackupfolder
+# kind: addon
+# module: bl_ext.blender_org.custombackupfolder
+# name: Custom Backup Folder
+# name_zh: 自定义备份文件夹
+# translator: KeshiMiao
+# category: System
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:15
+msgid "3D View"
+msgstr "3D 视图"
+
+#: __init__.py:15
+msgid "A backup tool with convenient tools"
+msgstr "带有便捷工具的备份工具"
+
+#: addon/op_ui.py:257
+msgid "A name of the main file"
+msgstr "主文件的名称"
+
+#: addon/op_ui.py:191
+msgid "A number of temporary backup files.\nTakes over the built-in \"Save Versions\" in Preferences for the purpose of this addon."
+msgstr "临时备份文件的数量。\n本插件会接管偏好设置中内置的“保存版本”。"
+
+#: addon/op_ui.py:68
+#: addon/op_ui.py:88
+msgid "All project files"
+msgstr "所有项目文件"
+
+#: addon/op_ui.py:205
+msgid "Auto Clean"
+msgstr "自动清理"
+
+#: addon/op_ui.py:205
+msgid "Automatically clean up a backup folder on save.\nOnly the current file is affected"
+msgstr "保存时自动清理备份文件夹。\n仅影响当前文件"
+
+#: addon/op_ui.py:200
+msgid "Backup Folder Name"
+msgstr "备份文件夹名称"
+
+#: addon/op_maintain.py:113
+msgid "Backup continuity fixed"
+msgstr "备份连续性已修复"
+
+#: addon/op_ui.py:257
+msgid "Base Name"
+msgstr "基础名称"
+
+#: addon/op_ui.py:25
+#: addon/op_ui.py:141
+msgid "CBF"
+msgstr "CBF"
+
+#: addon/op_ui.py:75
+msgid "Clean up a backup folder"
+msgstr "清理备份文件夹"
+
+#: addon/op_ui.py:241
+msgid "Controls Blender behaviour if changes in the current Save Version could be lost after\nclosing the file. Note! Regardless of this option, the main file is always protected."
+msgstr "控制关闭文件后当前保存版本中的更改可能丢失时 Blender 的行为。\n注意！无论此选项如何，主文件始终受保护。"
+
+#: addon/op_ui.py:61
+#: addon/op_ui.py:81
+msgid "Current project file"
+msgstr "当前项目文件"
+
+#: __init__.py:15
+#: addon/op_ui.py:22
+msgid "Custom Backup Folder"
+msgstr "自定义备份文件夹"
+
+#: addon/op_report.py:38
+msgid "Custom Interface!"
+msgstr "自定义界面！"
+
+#: addon/op_ui.py:247
+msgid "Enforce"
+msgstr "强制"
+
+#: addon/op_ui.py:247
+msgid "Enforce checking against changes"
+msgstr "强制检查更改"
+
+#: addon/op_maintain.py:28
+#: addon/op_maintain.py:57
+msgid "Error cleaning up a backup folder"
+msgstr "清理备份文件夹时出错"
+
+#: addon/op_file.py:34
+#: addon/op_file.py:127
+msgid "File Path"
+msgstr "文件路径"
+
+#: addon/op_ui.py:235
+msgid "File Size"
+msgstr "文件大小"
+
+#: addon/op_ui.py:108
+msgid "Fix backup integrity"
+msgstr "修复备份完整性"
+
+#: addon/op_ui.py:241
+msgid "Guard backups"
+msgstr "保护备份"
+
+#: addon/op_ui.py:172
+msgid "Guard backups:"
+msgstr "保护备份："
+
+#: addon/op_ui.py:236
+msgid "Hash File MD5"
+msgstr "文件 MD5 哈希"
+
+#: addon/op_ui.py:237
+msgid "Hash File SHA1"
+msgstr "文件 SHA1 哈希"
+
+#: addon/op_ui.py:211
+msgid "If this option is enabled, the renaming process can overwrite existing files."
+msgstr "启用此选项后，重命名过程可以覆盖现有文件。"
+
+#: addon/op_ui.py:246
+msgid "Ignore"
+msgstr "忽略"
+
+#: addon/op_ui.py:246
+msgid "Ignore changes"
+msgstr "忽略更改"
+
+#: addon/op_ui.py:251
+msgid "Is Save Versions Changed"
+msgstr "保存版本是否已更改"
+
+#: addon/op_maintain.py:146
+msgid "List of orphaned Save Versions not linked to any Blender file:"
+msgstr "未链接到任何 Blender 文件的孤立保存版本列表："
+
+#: addon/op_ui.py:54
+msgid "Move Saved Versions"
+msgstr "移动已保存版本"
+
+#: addon/op_ui.py:166
+msgid "Navigate to Backup"
+msgstr "转到备份"
+
+#: addon/op_maintain.py:153
+msgid "No orphans found"
+msgstr "未找到孤立项"
+
+#: addon/op_maintain.py:53
+msgid "Nothing to process"
+msgstr "没有可处理的内容"
+
+#: addon/op_ui.py:211
+msgid "Overwrite Renamed Files"
+msgstr "覆盖已重命名文件"
+
+#: addon/op_ui.py:217
+msgid "Pause"
+msgstr "暂停"
+
+#: addon/op_file.py:60
+#: addon/op_file.py:144
+msgid "Please, open a project file"
+msgstr "请打开一个项目文件"
+
+#: addon/op_ui.py:114
+msgid "Press button to fix backups"
+msgstr "按下按钮修复备份"
+
+#: addon/op_ui.py:95
+msgid "Rename Save Versions"
+msgstr "重命名保存版本"
+
+#: addon/op_ui.py:127
+msgid "Report backup folder size"
+msgstr "报告备份文件夹大小"
+
+#: addon/op_ui.py:183
+msgid "Report backup size"
+msgstr "报告备份大小"
+
+#: addon/op_ui.py:121
+#: addon/op_ui.py:177
+msgid "Reports"
+msgstr "报告"
+
+#: addon/op_ui.py:191
+msgid "Save Versions"
+msgstr "保存版本"
+
+#: addon/op_ui.py:224
+msgid "Save Versions Bckup"
+msgstr "保存版本备份"
+
+#: addon/op_maintain.py:99
+msgid "Save Versions not found"
+msgstr "未找到保存版本"
+
+#: addon/op_ui.py:47
+msgid "Search for Save Versions"
+msgstr "搜索保存版本"
+
+#: addon/op_ui.py:230
+msgid "Select a backup verification method\nAny hash-related algorithm will take longer on save"
+msgstr "选择备份验证方法\n任何与哈希相关的算法都会延长保存时间"
+
+#: addon/op_ui.py:101
+msgid "Select any Save Version"
+msgstr "选择任意保存版本"
+
+#: addon/op_ui.py:134
+msgid "Show list of orphans"
+msgstr "显示孤立项列表"
+
+#: addon/op_file.py:54
+msgid "Successfully renamed Save Versions"
+msgstr "已成功重命名保存版本"
+
+#: addon/op_file.py:290
+msgid "The next Save Version does not exist"
+msgstr "下一个保存版本不存在"
+
+#: addon/op_file.py:238
+msgid "The previous Save Version does not exist"
+msgstr "上一个保存版本不存在"
+
+#: addon/op_maintain.py:24
+#: addon/op_maintain.py:47
+msgid "This operation requires a project file to be opened"
+msgstr "此操作需要打开项目文件"
+
+#: addon/op_file.py:46
+#: addon/op_file.py:83
+msgid "This operation requires an opened file"
+msgstr "此操作需要打开一个文件"
+
+#: addon/op_file.py:184
+#: addon/op_file.py:235
+msgid "Unsaved session. Please save your progress"
+msgstr "未保存的会话。请保存你的进度"
+
+#: addon/op_maintain.py:102
+msgid "Valid backup integrity"
+msgstr "备份完整性有效"
+
+#: addon/op_ui.py:230
+msgid "Verification method"
+msgstr "验证方法"
+
+#: addon/op_ui.py:217
+msgid "When enabled, addon will not process Save Versions"
+msgstr "启用后，插件将不处理保存版本"
+
+#: addon/op_ui.py:49
+#: addon/op_ui.py:168
+msgctxt "Operator"
+msgid "Browse"
+msgstr "浏览"
+
+#: addon/op_file.py:120
+msgctxt "Operator"
+msgid "Browse Current"
+msgstr "浏览当前"
+
+#: addon/op_file.py:156
+msgctxt "Operator"
+msgid "Browse backup folder for the other Save Versions"
+msgstr "浏览其他保存版本的备份文件夹"
+
+#: addon/op_ui.py:83
+msgctxt "Operator"
+msgid "Clean"
+msgstr "清理"
+
+#: addon/op_ui.py:90
+msgctxt "Operator"
+msgid "Clean All"
+msgstr "全部清理"
+
+#: addon/op_maintain.py:13
+msgctxt "Operator"
+msgid "Clean a backup folder keeping only the necessary number of Save Versions\nOnly project related files are affected"
+msgstr "清理备份文件夹，仅保留所需数量的保存版本\n仅影响项目相关文件"
+
+#: addon/op_maintain.py:36
+msgctxt "Operator"
+msgid "Clean up the backup folder keeping only necessary number of Save Versions\nAll files are affected"
+msgstr "清理备份文件夹，仅保留所需数量的保存版本\n影响所有文件"
+
+#: addon/op_maintain.py:12
+#: addon/op_maintain.py:35
+msgctxt "Operator"
+msgid "CleanUpBackupfolder"
+msgstr "CleanUpBackupfolder"
+
+#: addon/op_maintain.py:64
+#: addon/op_ui.py:116
+msgctxt "Operator"
+msgid "Fix"
+msgstr "修复"
+
+#: addon/op_maintain.py:65
+msgctxt "Operator"
+msgid "Fix discontinued Save Versions"
+msgstr "修复已中断的保存版本"
+
+#: addon/op_report.py:26
+msgctxt "Operator"
+msgid "Issue report"
+msgstr "问题报告"
+
+#: addon/op_maintain.py:118
+msgctxt "Operator"
+msgid "List of orphans"
+msgstr "孤立文件列表"
+
+#: addon/op_ui.py:63
+msgctxt "Operator"
+msgid "Move"
+msgstr "移动"
+
+#: addon/op_ui.py:70
+msgctxt "Operator"
+msgid "Move All"
+msgstr "全部移动"
+
+#: addon/op_file.py:94
+msgctxt "Operator"
+msgid "Move All Files"
+msgstr "移动所有文件"
+
+#: addon/op_file.py:95
+msgctxt "Operator"
+msgid "Move all Saved Versions to a custom backup folder.\nAll files are sorted in the reverse order by a modification date"
+msgstr "将所有保存版本移动到自定义备份文件夹。\n所有文件按修改日期倒序排列"
+
+#: addon/op_file.py:71
+msgctxt "Operator"
+msgid "Move files"
+msgstr "移动文件"
+
+#: addon/op_file.py:72
+msgctxt "Operator"
+msgid "Move project related Saved Versions to a custom backup folder\nFiles are sorted by a modification date"
+msgstr "将项目相关的保存版本移动到自定义备份文件夹\n文件按修改日期排序"
+
+#: addon/op_file.py:246
+#: addon/op_ui.py:40
+msgctxt "Operator"
+msgid "Next"
+msgstr "下一个"
+
+#: addon/op_ui.py:11
+msgctxt "Operator"
+msgid "Open Addon Preferences"
+msgstr "打开插件偏好设置"
+
+#: addon/op_file.py:155
+msgctxt "Operator"
+msgid "Open File"
+msgstr "打开文件"
+
+#: addon/op_ui.py:32
+msgctxt "Operator"
+msgid "Open Preferences"
+msgstr "打开偏好设置"
+
+#: addon/op_file.py:121
+msgctxt "Operator"
+msgid "Open file window to browse Save Versions in a backup folder"
+msgstr "打开文件窗口以浏览备份文件夹中的保存版本"
+
+#: addon/op_file.py:247
+msgctxt "Operator"
+msgid "Open next Save Version up to the current file"
+msgstr "打开当前文件之后的下一个保存版本"
+
+#: addon/op_file.py:193
+msgctxt "Operator"
+msgid "Open previous Save Version"
+msgstr "打开上一个保存版本"
+
+#: addon/op_file.py:192
+#: addon/op_ui.py:39
+msgctxt "Operator"
+msgid "Previous"
+msgstr "上一个"
+
+#: addon/op_ui.py:103
+msgctxt "Operator"
+msgid "Rename"
+msgstr "重命名"
+
+#: addon/op_ui.py:129
+#: addon/op_ui.py:185
+msgctxt "Operator"
+msgid "Report"
+msgstr "报告"
+
+#: addon/op_report.py:25
+msgctxt "Operator"
+msgid "ReportStatus"
+msgstr "ReportStatus"
+
+#: addon/op_file.py:24
+msgctxt "Operator"
+msgid "Select File"
+msgstr "选择文件"
+
+#: addon/op_file.py:25
+msgctxt "Operator"
+msgid "Select one file from a sequence of Save Versions or Cancel\nThis process will rename the whole sequence of files and associate the files\nback with the project file."
+msgstr "从一系列保存版本中选择一个文件，或取消\n此过程将重命名整个文件序列，并将这些文件\n重新关联到项目文件。"
+
+#: addon/op_ui.py:136
+msgctxt "Operator"
+msgid "Show"
+msgstr "显示"
+
+#: addon/op_maintain.py:120
+msgctxt "Operator"
+msgid "Shows a list of Save Version not associated with any existing project files"
+msgstr "显示未与任何现有项目文件关联的保存版本列表"
+
+#: addon/op_report.py:43
+msgctxt "Operator"
+msgid "SumUpBackups"
+msgstr "SumUpBackups"
+
+#: addon/op_report.py:44
+msgctxt "Operator"
+msgid "Summary of the backup folder\nReport of the total size of all existing Save Versions.\nDisplays two sums: a sum of project related files, all files."
+msgstr "备份文件夹摘要\n报告所有现有保存版本的总大小。\n显示两个总和：项目相关文件总和、所有文件总和。"

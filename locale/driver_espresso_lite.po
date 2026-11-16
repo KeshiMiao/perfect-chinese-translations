@@ -1,0 +1,3175 @@
+# perfect-chinese: 1
+# id: driver_espresso_lite
+# kind: addon
+# module: bl_ext.blender_org.driver_espresso_lite
+# name: Driver Espresso Lite
+# name_zh: 驱动配方精简版
+# translator: KeshiMiao
+# category: Animation
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: ui/views/panels.py:1272
+msgid "%.4g"
+msgstr "%.4g"
+
+#: ui/actions/operators.py:389
+msgid "%d driver(s) point at a missing property and will be skipped"
+msgstr "%d 个驱动器指向缺失的属性，将被跳过"
+
+#: ui/actions/bake_applied.py:464
+#: ui/actions/operators.py:756
+msgid "%d driver(s) x %d frames = %d keyframes"
+msgstr "%d 个驱动器 × %d 帧 = %d 个关键帧"
+
+#: ui/actions/operators.py:384
+msgid "%d drivers x %d frames = %d keyframes"
+msgstr "%d 个驱动器 × %d 帧 = %d 个关键帧"
+
+#: ui/views/panels.py:1864
+msgid "%d selected %s%s > %s"
+msgstr "%d 个已选 %s%s > %s"
+
+#: ui/views/panels.py:504
+msgid "%d templates match"
+msgstr "匹配 %d 个模板"
+
+#: ui/actions/driver_manager.py:1217
+msgid "%s (%d)"
+msgstr "%s（%d）"
+
+#: ui/actions/bake_applied.py:463
+msgid "...and %d more"
+msgstr "……还有 %d 个"
+
+#: ui/views/panels.py:1272
+msgid "/"
+msgstr "/"
+
+#: ui/views/panels.py:504
+msgid "1 template matches"
+msgstr "匹配 1 个模板"
+
+#: ui/views/panels.py:1083
+msgid "A"
+msgstr "A"
+
+#: ui/actions/driver_manager.py:762
+msgid "A checked driver no longer exists; nothing was changed."
+msgstr "已勾选的驱动器已不存在；未做任何更改。"
+
+#: ui/views/panels.py:2650
+msgid "A listed effect is read-only."
+msgstr "列出的效果是只读的。"
+
+#: ui/actions/operators.py:322
+msgid "A live driver overrides the keyframes on its own channel, so the drivers must either go or be muted for a bake to be visible"
+msgstr "实时驱动器会覆盖其自身通道上的关键帧，因此必须移除或静音驱动器，烘焙才可见"
+
+#: ui/state/props.py:2091
+msgid "A motion you choose from anywhere in the scene, whatever is active"
+msgstr "从场景任意位置选择的运动，无论当前活动的是什么"
+
+#: ui/views/panels.py:772
+msgid "ADVANCED"
+msgstr "高级"
+
+#: ui/views/guided_apply.py:36
+msgid "ALTERNATIVES"
+msgstr "备选方案"
+
+#: ui/views/panels.py:2851
+msgid "APPLIED EFFECTS"
+msgstr "已应用效果"
+
+#: ui/views/panels.py:87
+#: ui/views/panels.py:1859
+msgid "APPLIES TO"
+msgstr "应用于"
+
+#: ui/views/panels.py:1748
+msgid "APPLY"
+msgstr "应用"
+
+#: ui/views/panels.py:1841
+msgid "APPLY & MANAGE"
+msgstr "应用并管理"
+
+#: ui/state/props.py:2159
+msgid "Active"
+msgstr "活动"
+
+#: ui/state/props.py:2088
+msgid "Active Driver"
+msgstr "活动驱动器"
+
+#: ui/actions/operators.py:311
+msgid "Active Object Only"
+msgstr "仅活动物体"
+
+#: ui/state/props.py:2192
+msgid "Active Target"
+msgstr "活动目标"
+
+#: ui/state/props.py:2149
+msgid "Active Target Array Index"
+msgstr "活动目标数组索引"
+
+#: ui/state/props.py:2143
+msgid "Active Target Data Path"
+msgstr "活动目标数据路径"
+
+#: ui/state/props.py:2134
+msgid "Active Target Owner"
+msgstr "活动目标所有者"
+
+#: __init__.py:22
+msgid "Adaptive"
+msgstr "自适应"
+
+#: ui/state/props.py:1858
+msgid "Additional Open"
+msgstr "附加展开"
+
+#: __init__.py:151
+#: __init__.py:202
+msgid "Advanced Controls"
+msgstr "高级控制"
+
+#: ui/state/props.py:1864
+msgid "Advanced Output Open"
+msgstr "高级输出展开"
+
+#: ui/state/props.py:1863
+msgid "Advanced Timing Open"
+msgstr "高级时序展开"
+
+#: ui/actions/operators.py:322
+msgid "Afterwards"
+msgstr "之后"
+
+#: ui/actions/driver_manager.py:719
+#: ui/state/props.py:173
+msgid "All"
+msgstr "全部"
+
+#: ui/state/props.py:2161
+msgid "All stamped Espresso motions and healthy generated setups in the current scene"
+msgstr "当前场景中所有已标记的 Espresso 运动和有效的生成设置"
+
+#: ui/actions/operators.py:873
+msgid "Also clear drivers on the delta location, rotation, and scale channels"
+msgstr "同时清除增量位置、旋转和缩放通道上的驱动器"
+
+#: __init__.py:27
+msgid "Always Ask"
+msgstr "始终询问"
+
+#: __init__.py:1
+msgid "Animation"
+msgstr "动画"
+
+#: __init__.py:77
+msgid "Append each parameter's underlying expression token to its label, and show which maths token a friendly parameter feeds (Seconds per revolution → TURNS). Nothing is hidden without it — only defaulted well"
+msgstr "将每个参数底层表达式标记追加到标签，并显示友好参数对应的数学标记（每转秒数 → TURNS）。没有它也不会隐藏任何内容——只是默认值会更好"
+
+#: ui/state/props.py:1634
+msgid "Applied Effect Token"
+msgstr "已应用效果标记"
+
+#: ui/state/props.py:1865
+msgid "Applied Effects Cached Count"
+msgstr "已应用效果缓存数量"
+
+#: ui/state/props.py:1871
+msgid "Applied Effects Cached Label"
+msgstr "已应用效果缓存标签"
+
+#: ui/state/props.py:1882
+msgid "Applied Effects Open"
+msgstr "已应用效果展开"
+
+#: ui/state/props.py:1876
+msgid "Applied Effects Scene Cached Count"
+msgstr "已应用效果场景缓存数量"
+
+#: ui/state/props.py:2159
+msgid "Applied drivers, motion sets, and generated setups related to the active object and selected nodes"
+msgstr "与活动物体和所选节点相关的已应用驱动器、运动集和生成设置"
+
+#: ui/views/panels.py:1056
+msgid "Applied effect:"
+msgstr "已应用效果："
+
+#: ui/state/props.py:1920
+msgid "Apply & Manage Open"
+msgstr "应用并管理展开"
+
+#: __init__.py:194
+msgid "Apply Conflicts"
+msgstr "应用冲突"
+
+#: ui/menus/context_menu.py:1035
+#: ui/menus/context_menu.py:1259
+msgid "Apply Driver on OK"
+msgstr "确定时应用驱动器"
+
+#: __init__.py:106
+msgid "Apply Target History Size"
+msgstr "应用目标历史大小"
+
+#: __init__.py:236
+#: ui/state/props.py:2102
+msgid "Apply Target Memory"
+msgstr "应用目标内存"
+
+#: __init__.py:100
+msgid "Apply Target Memory Mode"
+msgstr "应用目标内存模式"
+
+#: ui/menus/context_menu.py:1610
+msgid "Apply Template"
+msgstr "应用模板"
+
+#: ui/menus/context_menu.py:1100
+msgid "Apply target lost — please re-open the popup from the right-click menu."
+msgstr "应用目标已丢失 — 请从右键菜单重新打开弹窗。"
+
+#: ui/state/props.py:1620
+msgid "Array Index"
+msgstr "数组索引"
+
+#: ui/state/props.py:2149
+msgid "Array index of the explicitly picked driver target (-1 = scalar/no array index)"
+msgstr "显式选取的驱动器目标的数组索引（-1 = 标量/无数组索引）"
+
+#: ui/views/guided_apply.py:47
+msgid "Authored variant"
+msgstr "创作变体"
+
+#: __init__.py:29
+msgid "Auto-layer When Supported"
+msgstr "支持时自动分层"
+
+#: __init__.py:28
+msgid "Auto-replace Espresso Effects"
+msgstr "自动替换 Espresso 效果"
+
+#: __init__.py:249
+#: __init__.py:255
+msgid "BLANK1"
+msgstr "BLANK1"
+
+#: ui/state/props.py:1639
+msgid "Badge"
+msgstr "标记"
+
+#: ui/actions/driver_manager.py:943
+msgid "Bake"
+msgstr "烘焙"
+
+#: ui/actions/operators.py:464
+msgid "Bake Peaks"
+msgstr "烘焙峰值"
+
+#: ui/actions/operators.py:456
+msgid "Bake every Nth frame. 1 keys every frame - keep it at 1 for hard-edged templates like strobes, where thinning would drop the shape"
+msgstr "每隔 N 帧烘焙。1 表示每帧插入关键帧——对于频闪等硬边模板请保持为 1，抽帧会丢失形状"
+
+#: ui/actions/operators.py:318
+msgid "Bake every Nth frame. Keep at 1 for hard-edged motion"
+msgstr "每隔 N 帧烘焙。硬边运动请保持为 1"
+
+#: ui/actions/driver_manager.py:943
+msgid "Bake the complete applied effect"
+msgstr "烘焙完整的已应用效果"
+
+#: ui/state/props.py:1636
+msgid "Bakeable"
+msgstr "可烘焙"
+
+#: ui/actions/operators.py:689
+msgid "Bakes frames %d to %d"
+msgstr "烘焙第 %d 帧到第 %d 帧"
+
+#: ui/views/visualizer.py:25
+msgid "Bars"
+msgstr "条形图"
+
+#: ui/state/props.py:1635
+msgid "Batch Eligible"
+msgstr "可批处理"
+
+#: ui/actions/operators.py:523
+msgid "Begin the bake at the playhead instead of the Start field, so scrubbing to a moment and baking needs no retyping"
+msgstr "从播放头而不是“起始”字段开始烘焙，拖到某一时刻即可烘焙，无需重新输入"
+
+#: __init__.py:161
+msgid "Behavior"
+msgstr "行为"
+
+#: ui/views/visualizer.py:27
+msgid "Bipolar chart mirrored around the zero/center line"
+msgstr "围绕零/中心线镜像的双极图表"
+
+#: catalogue/core/taxonomy.py:78
+msgid "Blink & Strobe"
+msgstr "闪烁与频闪"
+
+#: __init__.py:30
+msgid "Block conflicts rather than opening a confirmation prompt"
+msgstr "阻止冲突而不弹出确认提示"
+
+#: catalogue/core/frozen_records.py:18
+#: catalogue/core/frozen_records.py:21
+msgid "Bounded"
+msgstr "有界"
+
+#: ui/state/props.py:1790
+msgid "Built expression and destination metadata for every channel in the current template"
+msgstr "已为当前模板中的每个通道构建表达式和目标元数据"
+
+#: ui/state/props.py:2172
+msgid "Cached rows for the Driver Target UIList — repopulated from the active object's actual drivers whenever they change"
+msgstr "驱动器目标 UIList 的缓存行——每当活动物体的实际驱动器发生变化时重新填充"
+
+#: catalogue/core/taxonomy.py:78
+msgid "Candle & Fire"
+msgstr "蜡烛与火焰"
+
+#: __init__.py:63
+msgid "Carry Manual Values Across Matching Parameters"
+msgstr "在匹配的参数之间保留手动值"
+
+#: ui/state/props.py:1622
+#: ui/state/props.py:1701
+msgid "Category"
+msgstr "类别"
+
+#: ui/views/panels.py:2106
+msgid "Channel"
+msgstr "通道"
+
+#: ui/state/props.py:1796
+msgid "Channel currently shown in the graph preview"
+msgstr "当前在图表预览中显示的通道"
+
+#: ui/state/props.py:1891
+msgid "Choose a motion and set its parameters; Preview remains in its own panel"
+msgstr "选择运动并设置其参数；预览保留在独立面板中"
+
+#: ui/state/live_controls.py:1912
+msgid "Choose a motion in the scene"
+msgstr "在场景中选择一个运动"
+
+#: ui/views/panels.py:89
+msgid "Choose a target property"
+msgstr "选择目标属性"
+
+#: ui/views/panels.py:1067
+msgid "Choose applied effect"
+msgstr "选择已应用效果"
+
+#: __init__.py:100
+msgid "Choose whether Driver Espresso remembers one newest target, separate slots by apply mode, or a recent-history list"
+msgstr "选择 Driver Espresso 是记住一个最新目标、按应用模式分隔槽位，还是使用最近历史列表"
+
+#: ui/state/props.py:1941
+msgid "Choose whether the template keeps scene time or restarts locally from the property's current value"
+msgstr "选择模板保留场景时间，还是从该属性的当前值局部重新开始"
+
+#: ui/state/props.py:1719
+msgid "Choose whether these controls prepare the next apply or edit a selected applied effect"
+msgstr "选择这些控件是准备下一次应用，还是编辑选中的已应用效果"
+
+#: ui/state/props.py:1947
+#: ui/views/panels.py:1818
+msgid "Clamp"
+msgstr "钳制"
+
+#: ui/state/live_controls.py:1423
+#: ui/state/live_controls.py:1508
+msgid "Clamp to 0–1"
+msgstr "钳制到 0–1"
+
+#: ui/views/panels.py:1272
+msgid "Clamp:"
+msgstr "钳制："
+
+#: ui/actions/driver_manager.py:944
+#: ui/actions/driver_manager.py:1112
+msgid "Clear"
+msgstr "清除"
+
+#: ui/actions/operators.py:1167
+msgid "Clear remembered motion channels"
+msgstr "清除已记住的运动通道"
+
+#: ui/actions/driver_manager.py:721
+msgid "Clear the driver-target selection"
+msgstr "清除驱动器目标选择"
+
+#: catalogue/core/taxonomy.py:78
+msgid "Colour Cycling"
+msgstr "颜色循环"
+
+#: ui/state/props.py:1815
+msgid "Compact Level"
+msgstr "紧凑级别"
+
+#: ui/state/props.py:1826
+msgid "Compact Mode"
+msgstr "紧凑模式"
+
+#: ui/state/props.py:1826
+msgid "Compatibility flag for the compact panel view. The header cycles Normal, Compact L1, and Compact L2; existing files with this flag enabled open in Compact L1"
+msgstr "紧凑面板视图的兼容性标志。标题栏会在正常、紧凑 L1 和紧凑 L2 之间循环；启用此标志的现有文件会以紧凑 L1 打开"
+
+#: __init__.py:68
+msgid "Conflict Handling"
+msgstr "冲突处理"
+
+#: catalogue/core/taxonomy.py:78
+msgid "Continuous"
+msgstr "连续"
+
+#: ui/state/live_controls.py:1844
+#: ui/state/live_controls.py:1861
+msgid "Controller"
+msgstr "控制器"
+
+#: ui/state/live_controls.py:1412
+#: ui/state/live_controls.py:1498
+msgid "Controller Name"
+msgstr "控制器名称"
+
+#: ui/actions/operators.py:1197
+msgid "Convert remembered Motion Set to one property?"
+msgstr "将记住的运动集转换为单个属性？"
+
+#: ui/actions/operators.py:1213
+msgid "Convert the remembered property into a Motion Set?"
+msgstr "将记住的属性转换为运动集？"
+
+#: ui/state/props.py:2049
+msgid "Copied Driver Expression"
+msgstr "已复制驱动器表达式"
+
+#: ui/state/props.py:2051
+msgid "Copied Driver Label"
+msgstr "已复制驱动器标签"
+
+#: ui/state/props.py:2052
+msgid "Copied Driver Rest Mode"
+msgstr "已复制驱动器静止模式"
+
+#: ui/state/props.py:2050
+msgid "Copied Driver Template"
+msgstr "已复制驱动器模板"
+
+#: ui/menus/context_menu.py:1304
+msgid "Could not remember this input source."
+msgstr "无法记住此输入源。"
+
+#: ui/state/live_controls.py:1662
+msgid "Create or select a controller first."
+msgstr "请先创建或选择一个控制器。"
+
+#: ui/state/live_controls.py:1558
+msgid "Current Source"
+msgstr "当前来源"
+
+#: ui/state/props.py:2075
+msgid "Custom Reset Value"
+msgstr "自定义重置值"
+
+#: ui/state/live_controls.py:1896
+msgid "Custom Value"
+msgstr "自定义值"
+
+#: ui/views/panels.py:2179
+msgid "DISPLAY SETTINGS"
+msgstr "显示设置"
+
+#: ui/state/props.py:1619
+msgid "Data Path"
+msgstr "数据路径"
+
+#: ui/state/props.py:2143
+msgid "Data path of the explicitly picked driver target"
+msgstr "显式选择的驱动器目标的数据路径"
+
+#: ui/actions/operators.py:325
+msgid "Delete the drivers once their values are keyed"
+msgstr "为驱动器值插入关键帧后删除驱动器"
+
+#: ui/state/props.py:1629
+msgid "Descriptor Key"
+msgstr "描述符键"
+
+#: ui/actions/operators.py:1163
+msgid "Destination Channel"
+msgstr "目标通道"
+
+#: ui/menus/context_menu.py:1244
+#: ui/state/props.py:1994
+msgid "Detailed"
+msgstr "详细"
+
+#: __init__.py:136
+msgid "Diagnostics"
+msgstr "诊断"
+
+#: ui/actions/driver_manager.py:1079
+msgid "Dialog"
+msgstr "对话框"
+
+#: ui/views/panels.py:2115
+msgid "Disabled - will not receive a driver on the next apply"
+msgstr "已禁用 - 下次应用时不会接收驱动器"
+
+#: ui/state/props.py:1802
+msgid "Disabled Motion Channels"
+msgstr "已禁用的运动通道"
+
+#: ui/views/panels.py:2122
+msgid "Disabled channels are per-template and remembered across sessions."
+msgstr "已禁用的通道按模板区分，并跨会话记忆。"
+
+#: ui/state/props.py:1983
+msgid "Display Settings"
+msgstr "显示设置"
+
+#: ui/state/props.py:1966
+msgid "Draw the template's own expression, ignoring Rest Start and clamp - the shape as authored"
+msgstr "绘制模板自身的表达式，忽略静止起点和钳制 - 即原始设计的形状"
+
+#: ui/state/props.py:2044
+msgid "Draw the waveform as a text curve instead of a rendered image. Cheapest on slower PCs."
+msgstr "以文本曲线而非渲染图像绘制波形。在较慢的电脑上开销最低。"
+
+#: ui/state/props.py:1962
+msgid "Draw what will actually be applied, including Rest Start and any clamp - it holds before the apply frame, starts from the target's current value, and stops at the limits"
+msgstr "绘制实际将应用的效果，包括静止起点和任何钳制 - 在应用帧之前保持，从目标当前值开始，并在限制处停止"
+
+#: __init__.py:1
+msgid "Driver Espresso Lite"
+msgstr "Driver Espresso Lite"
+
+#: ui/state/props.py:1769
+#: ui/state/props.py:1770
+msgid "Driver Espresso template parameter. Hover the parameter label for template-specific meaning, default, and range."
+msgstr "Driver Espresso 模板参数。将鼠标悬停在参数标签上可查看模板特定的含义、默认值和范围。"
+
+#: ui/state/props.py:2177
+msgid "Driver Target Active Row"
+msgstr "驱动器目标活动行"
+
+#: ui/state/props.py:2172
+msgid "Driver Target Items"
+msgstr "驱动器目标项"
+
+#: __init__.py:232
+msgid "Driver Target Picker"
+msgstr "驱动器目标选择器"
+
+#: ui/actions/operators.py:1080
+msgid "Driver expression applied."
+msgstr "已应用驱动器表达式。"
+
+#: ui/actions/operators.py:52
+msgid "Driver expression copied."
+msgstr "已复制驱动器表达式。"
+
+#: __init__.py:163
+msgid "Driver-target picker and apply-target memory"
+msgstr "驱动器目标选择器和应用目标记忆"
+
+#: ui/state/props.py:2080
+msgid "Drivers that receive this controller. A switch control reads 0 as the rest value and 1 as the template animation; a blend control reads 0 as rest, 0.5 as a blend of the two, and 1 as full animation"
+msgstr "接收此控制器的驱动器。开关控制将 0 读取为静止值、1 读取为模板动画；混合控制将 0 读取为静止、0.5 读取为两者的混合、1 读取为完整动画"
+
+#: __init__.py:23
+msgid "Dropdown Only"
+msgstr "仅下拉菜单"
+
+#: ui/actions/operators.py:501
+msgid "Duration"
+msgstr "持续时间"
+
+#: ui/views/panels.py:1795
+msgid "Duration:"
+msgstr "持续时间："
+
+#: catalogue/core/taxonomy.py:78
+msgid "Ease"
+msgstr "缓动"
+
+#: catalogue/core/taxonomy.py:78
+msgid "Eased"
+msgstr "已缓动"
+
+#: ui/state/props.py:2041
+msgid "Edit Expression"
+msgstr "编辑表达式"
+
+#: ui/state/props.py:1724
+msgid "Edit the selected applied effect. The saved identifier stays LIVE."
+msgstr "编辑选定的已应用效果。保存的标识符保持 LIVE。"
+
+#: ui/state/props.py:1723
+msgid "Edit values used the next time this motion is applied"
+msgstr "编辑下次应用此运动时使用的值"
+
+#: ui/state/props.py:1632
+msgid "Editable"
+msgstr "可编辑"
+
+#: ui/state/props.py:2042
+msgid "Editable driver expression used while Edit Expression is on"
+msgstr "开启编辑表达式时使用的可编辑驱动器表达式"
+
+#: ui/views/panels.py:1766
+msgid "Editing expression"
+msgstr "正在编辑表达式"
+
+#: ui/actions/bake_applied.py:449
+#: ui/actions/bake_applied.py:504
+msgid "Effect"
+msgstr "效果"
+
+#: ui/state/props.py:1630
+msgid "Effect Code"
+msgstr "效果代码"
+
+#: ui/state/props.py:1633
+msgid "Effect Kind"
+msgstr "效果类型"
+
+#: ui/state/props.py:2155
+msgid "Effect Scope"
+msgstr "效果范围"
+
+#: __init__.py:43
+msgid "Enable Advanced Controls"
+msgstr "启用高级控制"
+
+#: __init__.py:86
+msgid "Enable Driver Target Picker"
+msgstr "启用驱动器目标选择器"
+
+#: ui/actions/operators.py:317
+#: ui/actions/operators.py:453
+msgid "End"
+msgstr "结束"
+
+#: ui/state/props.py:1995
+msgid "Enlarge or shrink the graph image in the panel without changing its visible value range"
+msgstr "在面板中放大或缩小图形图像，而不改变其可见值范围"
+
+#: ui/state/props.py:2090
+msgid "Entire Motion Set"
+msgstr "整个运动集"
+
+#: ui/menus/context_menu.py:1224
+#: ui/views/panels.py:1757
+msgid "Error"
+msgstr "错误"
+
+#: ui/state/props.py:2118
+msgid "Espresso Apply Target"
+msgstr "Espresso 应用目标"
+
+#: ui/state/props.py:2059
+msgid "Espresso Controller Bindings"
+msgstr "Espresso 控制器绑定"
+
+#: ui/state/props.py:2058
+msgid "Espresso Controllers"
+msgstr "Espresso 控制器"
+
+#: ui/state/props.py:2057
+msgid "Espresso Input Source"
+msgstr "Espresso 输入源"
+
+#: ui/actions/operators.py:1485
+msgid "Espresso input source cleared."
+msgstr "已清除 Espresso 输入源。"
+
+#: ui/menus/context_menu.py:786
+msgid "Espresso target cleared."
+msgstr "已清除 Espresso 目标。"
+
+#: ui/state/props.py:1962
+msgid "Evaluation"
+msgstr "求值"
+
+#: ui/state/props.py:2090
+msgid "Every channel in the most recently applied Espresso Motion Set"
+msgstr "最近应用的 Espresso 运动集中的所有通道"
+
+#: ui/actions/operators.py:310
+msgid "Every driver reachable from the selected objects"
+msgstr "从选定物体可访问的所有驱动器"
+
+#: ui/actions/operators.py:312
+msgid "Every object in the scene, plus scene and world drivers"
+msgstr "场景中的所有物体，以及场景和世界驱动器"
+
+#: ui/views/panels.py:315
+msgid "Every preset is on the shelf"
+msgstr "所有预设均已就绪"
+
+#: ui/state/props.py:1858
+msgid "Expand or collapse additional controls"
+msgstr "展开或折叠附加控制"
+
+#: ui/state/props.py:1915
+msgid "Expand or collapse settings for the selected layout or motion"
+msgstr "展开或折叠选定布局或运动的设置"
+
+#: ui/state/props.py:1853
+msgid "Expand or collapse spatial controls"
+msgstr "展开或折叠空间控制"
+
+#: ui/state/props.py:1864
+msgid "Expand or collapse the advanced output controls section"
+msgstr "展开或折叠高级输出控制部分"
+
+#: ui/state/props.py:1863
+msgid "Expand or collapse the advanced timing controls section"
+msgstr "展开或折叠高级时间控制部分"
+
+#: ui/state/props.py:1882
+msgid "Expand or collapse the applied effects list and scope tabs"
+msgstr "展开或折叠已应用效果列表和范围标签"
+
+#: ui/state/props.py:1920
+msgid "Expand or collapse the apply and manage buttons"
+msgstr "展开或折叠应用和管理按钮"
+
+#: ui/state/props.py:1940
+msgid "Expand or collapse the generated expression preview"
+msgstr "展开或折叠生成的表达式预览"
+
+#: ui/state/props.py:1847
+msgid "Expand or collapse the template parameters section"
+msgstr "展开或折叠模板参数部分"
+
+#: ui/state/props.py:1846
+msgid "Expand or collapse the template variants section"
+msgstr "展开或折叠模板变体部分"
+
+#: ui/state/props.py:1848
+msgid "Expand or collapse timing controls"
+msgstr "展开或折叠时间控制"
+
+#: ui/menus/context_menu.py:1048
+msgid "Expand the target inspector to show the technical path and channel scope"
+msgstr "展开目标检查器以显示技术路径和通道范围"
+
+#: ui/menus/context_menu.py:1053
+msgid "Expand the template variants as a compact grid"
+msgstr "将模板变体展开为紧凑网格"
+
+#: ui/state/props.py:1788
+msgid "Expression"
+msgstr "表达式"
+
+#: ui/state/props.py:2042
+msgid "Expression (editable)"
+msgstr "表达式（可编辑）"
+
+#: __init__.py:20
+msgid "Featured"
+msgstr "精选"
+
+#: ui/views/visualizer.py:26
+msgid "Filled"
+msgstr "填充"
+
+#: ui/views/visualizer.py:26
+msgid "Filled area chart under the curve"
+msgstr "曲线下方的填充面积图"
+
+#: ui/state/props.py:1701
+msgid "Filter templates by animation/use-case family"
+msgstr "按动画/用途类别筛选模板"
+
+#: ui/actions/operators.py:450
+msgid "First frame to bake"
+msgstr "烘焙起始帧"
+
+#: ui/state/props.py:2023
+msgid "Fixed Scale"
+msgstr "固定缩放"
+
+#: ui/views/panels.py:2149
+msgid "GRAPH"
+msgstr "图形"
+
+#: ui/state/props.py:174
+#: ui/views/panels.py:600
+msgid "Generic"
+msgstr "通用"
+
+#: ui/menus/context_menu.py:803
+msgid "Give each object its own copy of a shared material. A shared material is one datablock and is evaluated once, so without this every object would show the identical value"
+msgstr "为每个物体提供共享材质的独立副本。共享材质是一个数据块且只求值一次，因此若不这样做，每个物体都会显示相同的值"
+
+#: ui/menus/context_menu.py:1225
+#: ui/state/props.py:1958
+msgid "Graph"
+msgstr "图形"
+
+#: ui/state/props.py:2191
+msgid "Graph the expression you are currently editing"
+msgstr "为当前正在编辑的表达式绘制图形"
+
+#: ui/state/props.py:2192
+msgid "Graph the real, already-applied expression on the current active driver target"
+msgstr "为当前活动驱动器目标上已实际应用的表达式绘制图形"
+
+#: ui/state/props.py:1628
+msgid "Group Key"
+msgstr "组键"
+
+#: ui/state/props.py:2041
+msgid "Hand-edit the generated expression instead of building it from parameters"
+msgstr "手动编辑生成的表达式，而不是通过参数构建"
+
+#: __init__.py:164
+msgid "Help"
+msgstr "帮助"
+
+#: ui/views/panels.py:2715
+msgid "Hidden and excluded hosts stay listed and operable."
+msgstr "隐藏和排除的宿主仍会列出并保持可操作。"
+
+#: __init__.py:119
+msgid "Hide Pinned Presets from the Dropdown"
+msgstr "从下拉菜单中隐藏已固定的预设"
+
+#: __init__.py:23
+msgid "Hide the quick-access buttons and use the Master Presets dropdown instead"
+msgstr "隐藏快速访问按钮，改用主预设下拉菜单"
+
+#: ui/state/props.py:1977
+msgid "Highest value the applied driver may ever output"
+msgstr "已应用驱动器可能输出的最大值"
+
+#: ui/state/props.py:1947
+msgid "Hold the applied result between a minimum and a maximum. Templates that swing both ways around the resting value can otherwise carry the target somewhere it should never go - a wobble on a light strength of 10 dipping below zero. Set Min 0 and it can never go negative"
+msgstr "将应用结果限制在最小值和最大值之间。围绕静止值双向摆动的模板否则可能把目标带到不该去的地方——灯光强度 10 上的抖动会降到零以下。将最小值设为 0，它就永远不会变成负值"
+
+#: __init__.py:68
+msgid "How Driver Espresso handles an existing effect on the channels being applied"
+msgstr "Driver Espresso 如何处理所应用通道上的现有效果"
+
+#: ui/actions/operators.py:474
+msgid "How close the thinned curve must stay to the original, as a percentage of the motion's own range. 1% is faithful and still removes most keys; lower it if a shape you care about softens, raise it for fewer keys"
+msgstr "精简后的曲线与原曲线必须保持多接近，以运动自身范围的百分比表示。1% 保真且仍能移除大多数关键帧；若你关心的形状变软则降低该值，想要更少关键帧则提高该值"
+
+#: ui/actions/operators.py:501
+msgid "How many frames to bake, counting from Start. The start frame is included, so a duration of 1 bakes one frame"
+msgstr "从起始帧开始计数烘焙多少帧。起始帧包含在内，因此时长为 1 时烘焙一帧"
+
+#: __init__.py:106
+msgid "How many successful apply targets to keep when Recent History mode is enabled"
+msgstr "启用最近历史模式时保留多少个成功应用目标"
+
+#: ui/actions/operators.py:482
+msgid "How many times to re-examine the curve looking for keys it can still remove. 1 is quick and already handles most motion; 2 is the recommended balance; 5 works hardest on complex curves. Raising it never loses accuracy - it only costs time - and a curve that has settled stops early regardless of the number set here"
+msgstr "重新检查曲线以寻找仍可移除的关键帧的次数。1 速度快且已能处理大多数运动；2 是推荐的平衡值；5 对复杂曲线处理最卖力。提高该值不会损失精度——只会耗费时间——而已稳定的曲线无论此处设置多少都会提前停止"
+
+#: __init__.py:113
+msgid "How the Master Preset shelf chooses which buttons to show"
+msgstr "主预设架如何选择显示哪些按钮"
+
+#: __init__.py:164
+msgid "How the add-on works"
+msgstr "该插件的运作方式"
+
+#: ui/state/props.py:2034
+msgid "How to draw the expression preview"
+msgstr "如何绘制表达式预览"
+
+#: ui/state/props.py:1623
+msgid "Icon"
+msgstr "图标"
+
+#: ui/actions/operators.py:873
+msgid "Include Delta Transforms"
+msgstr "包含 Delta 变换"
+
+#: ui/state/props.py:1642
+msgid "Include this applied target in manager batch actions"
+msgstr "将此已应用目标纳入管理器批量操作"
+
+#: ui/state/props.py:2177
+msgid "Index of the selected row in the Driver Target list"
+msgstr "驱动器目标列表中选中行的索引"
+
+#: ui/state/live_controls.py:1413
+#: ui/state/live_controls.py:1499
+msgid "Input Interpretation"
+msgstr "输入解释"
+
+#: ui/views/source_display.py:85
+msgid "Input detected, but unavailable"
+msgstr "检测到输入，但不可用"
+
+#: ui/state/props.py:2123
+msgid "Internal: the template being left, held across one switch"
+msgstr "内部：正在离开的模板，在一次切换期间保持"
+
+#: ui/actions/driver_manager.py:720
+#: ui/state/live_controls.py:1422
+msgid "Invert"
+msgstr "反转"
+
+#: ui/actions/driver_manager.py:720
+msgid "Invert the selected applied effects and driver channels"
+msgstr "反转选中的已应用效果和驱动器通道"
+
+#: ui/views/panels.py:2665
+msgid "Its generated resources are no longer in the scene."
+msgstr "其生成的资源已不在场景中。"
+
+#: ui/views/panels.py:2695
+msgid "Its host or driver is missing."
+msgstr "其宿主或驱动器缺失。"
+
+#: apply/core/target_memory.py:19
+msgid "Keep a short newest-first list of successful apply targets"
+msgstr "保留一个按最新优先排列的成功应用目标简短列表"
+
+#: apply/core/target_memory.py:18
+msgid "Keep separate newest targets for template apply and copied-driver apply"
+msgstr "为模板应用和复制驱动器应用分别保留最新的目标"
+
+#: ui/actions/operators.py:326
+msgid "Keep the drivers but switch them off, so they can be re-enabled later"
+msgstr "保留驱动器但将其关闭，以便之后重新启用"
+
+#: ui/actions/operators.py:464
+msgid "Key the moments that carry the motion - turns, peaks, and the corners where movement meets a hold - and interpolate between them, instead of keying every frame. An eased open-hold-close needs about six keys this way rather than one per frame. Motion that genuinely changes every frame, such as vibration, is left dense"
+msgstr "为承载运动的关键时刻打关键帧——转向、峰值以及运动与保持相接的拐角——并在它们之间插值，而不是每帧都打关键帧。一个缓入的打开-保持-关闭这样大约需要六个关键帧，而不是每帧一个。真正每帧都在变化的运动（如振动）则保持密集"
+
+#: ui/state/props.py:1691
+msgid "Kind"
+msgstr "类型"
+
+#: ui/state/props.py:1621
+msgid "Label"
+msgstr "标签"
+
+#: ui/state/props.py:2160
+msgid "Last"
+msgstr "最后"
+
+#: ui/state/props.py:2166
+msgid "Last Applied Effect Token"
+msgstr "最后应用的效果标记"
+
+#: ui/state/props.py:2103
+msgid "Last Apply Status"
+msgstr "上次应用状态"
+
+#: ui/state/props.py:2108
+msgid "Last Apply Status Dismissed"
+msgstr "上次应用状态已关闭"
+
+#: ui/state/props.py:2128
+msgid "Last Template"
+msgstr "上次模板"
+
+#: ui/actions/operators.py:755
+msgid "Last apply"
+msgstr "上次应用"
+
+#: ui/actions/operators.py:453
+msgid "Last frame to bake (always included)"
+msgstr "烘焙结束帧（始终包含）"
+
+#: ui/state/props.py:1865
+msgid "Last known Applied Effects count for the collapsed panel header"
+msgstr "折叠面板标题所用已记录的应用效果数量"
+
+#: ui/state/props.py:1871
+msgid "Last known Applied Effects header label, written during discovery"
+msgstr "已记录的应用效果标题标签，在发现过程中写入"
+
+#: ui/state/props.py:1876
+msgid "Last known Scene-scope effect count, used when Active is empty"
+msgstr "已记录的场景范围效果数量，在活动为空时使用"
+
+#: __init__.py:29
+msgid "Layer a different effect only when the target explicitly supports layering"
+msgstr "仅当目标明确支持分层时才叠加其他效果"
+
+#: ui/actions/driver_manager.py:608
+msgid "Layers resolve from top to bottom."
+msgstr "图层自上而下解析。"
+
+#: __init__.py:119
+msgid "Leave the presets already on the shelf out of the dropdown, so it lists only the ones you cannot already reach. Off by default: the dropdown then shows the whole set with the shelf entries pinned, which keeps their order and makes it obvious what is already there"
+msgstr "将已在架上的预设从下拉菜单中排除，只列出尚未获取的预设。默认关闭：此时下拉菜单显示完整集合，架上条目固定显示，既保持其顺序，也清楚标示已有内容"
+
+#: ui/state/props.py:2011
+msgid "Let Zoom change the horizontal time window"
+msgstr "允许缩放改变水平时间窗口"
+
+#: ui/state/props.py:2017
+msgid "Let Zoom change the vertical value window"
+msgstr "允许缩放改变垂直数值窗口"
+
+#: ui/state/props.py:2044
+msgid "Lightweight Preview"
+msgstr "轻量预览"
+
+#: ui/views/visualizer.py:24
+msgid "Line"
+msgstr "线条"
+
+#: ui/views/visualizer.py:24
+msgid "Line graph of the curve"
+msgstr "曲线的折线图"
+
+#: ui/state/props.py:1724
+msgid "Live"
+msgstr "实时"
+
+#: ui/views/panels.py:341
+msgid "Live Effect"
+msgstr "实时效果"
+
+#: ui/state/props.py:1732
+msgid "Live Parameter Binding Key"
+msgstr "实时参数绑定键"
+
+#: ui/state/props.py:1729
+msgid "Live Parameter Status"
+msgstr "实时参数状态"
+
+#: ui/actions/operators.py:1503
+msgid "Live parameters reloaded for the active setup."
+msgstr "已为活动设置重新加载实时参数。"
+
+#: catalogue/core/frozen_records.py:28
+#: catalogue/core/frozen_records.py:29
+msgid "Loopable"
+msgstr "可循环"
+
+#: ui/state/props.py:1972
+msgid "Lowest value the applied driver may ever output"
+msgstr "已应用驱动器可能输出的最低值"
+
+#: ui/views/panels.py:1748
+msgid "MOTION CHANNELS"
+msgstr "运动通道"
+
+#: __init__.py:224
+msgid "Main panel sections"
+msgstr "主面板区块"
+
+#: ui/views/panels.py:271
+msgid "Master Presets"
+msgstr "主预设"
+
+#: __init__.py:210
+msgid "Master Presets Display"
+msgstr "主预设显示"
+
+#: ui/actions/operators.py:511
+msgid "Match Motion Length"
+msgstr "匹配运动长度"
+
+#: ui/state/props.py:1977
+#: ui/views/panels.py:1822
+msgid "Max"
+msgstr "最大"
+
+#: ui/views/panels.py:1278
+msgid "Max %.4g"
+msgstr "最大 %.4g"
+
+#: ui/state/props.py:1640
+msgid "Member Count"
+msgstr "成员数量"
+
+#: ui/state/props.py:1972
+#: ui/views/panels.py:1821
+msgid "Min"
+msgstr "最小"
+
+#: ui/views/panels.py:1277
+msgid "Min %.4g"
+msgstr "最小 %.4g"
+
+#: ui/views/visualizer.py:27
+msgid "Mirror"
+msgstr "镜像"
+
+#: ui/views/panels.py:2427
+msgid "Missing driver"
+msgstr "缺少驱动器"
+
+#: ui/views/source_display.py:106
+msgid "Missing or renamed"
+msgstr "缺失或已重命名"
+
+#: __init__.py:113
+msgid "Mode"
+msgstr "模式"
+
+#: ui/views/panels.py:1112
+msgid "Modified since last update"
+msgstr "自上次更新后已修改"
+
+#: __init__.py:21
+msgid "Most Used"
+msgstr "最常用"
+
+#: ui/state/props.py:1891
+msgid "Motion"
+msgstr "运动"
+
+#: ui/state/props.py:1790
+msgid "Motion Channel Previews"
+msgstr "运动通道预览"
+
+#: ui/actions/operators.py:120
+msgid "Motion channel expression copied."
+msgstr "已复制运动通道表达式。"
+
+#: ui/state/live_controls.py:1911
+msgid "Motion:"
+msgstr "运动："
+
+#: ui/actions/driver_manager.py:567
+msgid "Mute"
+msgstr "静音"
+
+#: ui/actions/operators.py:326
+msgid "Mute Drivers"
+msgstr "静音驱动器"
+
+#: ui/state/props.py:2060
+msgid "Named Espresso Controller used for this driver or motion scope"
+msgstr "用于此驱动器或运动范围的命名 Espresso 控制器"
+
+#: ui/state/props.py:1905
+msgid "Named input controllers and live control"
+msgstr "命名输入控制器与实时控制"
+
+#: ui/state/props.py:1691
+msgid "Narrow the category list to generic shapes or to tailored real-world behaviours"
+msgstr "将类别列表缩小为通用形状或定制的真实行为"
+
+#: ui/views/panels.py:2675
+msgid "Native animation remains. Espresso settings are read-only."
+msgstr "原生动画保留。Espresso 设置为只读。"
+
+#: ui/state/props.py:1641
+msgid "Nest Depth"
+msgstr "嵌套深度"
+
+#: __init__.py:30
+msgid "Never Prompt"
+msgstr "从不提示"
+
+#: ui/menus/context_menu.py:1374
+msgid "New:"
+msgstr "新建："
+
+#: ui/actions/bake_applied.py:125
+msgid "No Driver Espresso motion was found"
+msgstr "未找到 Driver Espresso 运动"
+
+#: ui/state/live_controls.py:1937
+msgid "No Espresso Controller attached"
+msgstr "未附加 Espresso 控制器"
+
+#: ui/views/source_display.py:82
+msgid "No Espresso Input detected"
+msgstr "未检测到 Espresso 输入"
+
+#: ui/state/live_controls.py:1458
+msgid "No Espresso Input selected"
+msgstr "未选择 Espresso 输入"
+
+#: ui/menus/context_menu.py:837
+msgid "No active object to take the property from."
+msgstr "没有可从中获取属性的活动物体。"
+
+#: ui/actions/bake_applied.py:473
+#: ui/actions/bake_applied.py:573
+msgid "No applied motion was selected."
+msgstr "未选择已应用的运动。"
+
+#: ui/menus/context_menu.py:949
+msgid "No array property family found for multi-apply."
+msgstr "未找到可用于多重应用的数组属性系列。"
+
+#: ui/menus/context_menu.py:1475
+msgid "No array property found for this template's channels."
+msgstr "未找到此模板通道对应的数组属性。"
+
+#: ui/state/live_controls.py:1903
+msgid "No audited Template Baseline for this template."
+msgstr "此模板没有经审核的模板基准。"
+
+#: ui/views/panels.py:2074
+msgid "No channel expressions are available."
+msgstr "没有可用的通道表达式。"
+
+#: ui/views/panels.py:348
+msgid "No compatible Live effects"
+msgstr "没有兼容的实时效果"
+
+#: ui/views/panels.py:1630
+msgid "No compatible sibling channels."
+msgstr "没有兼容的同级通道。"
+
+#: ui/state/live_controls.py:1932
+msgid "No compatible target selected"
+msgstr "未选择兼容的目标"
+
+#: ui/state/live_controls.py:1811
+msgid "No controller selected — it may have already been removed."
+msgstr "未选择控制器 — 它可能已被移除。"
+
+#: ui/state/live_controls.py:1538
+msgid "No controller selected."
+msgstr "未选择控制器。"
+
+#: ui/menus/context_menu.py:623
+#: ui/menus/context_menu.py:1001
+msgid "No drivable UI property found."
+msgstr "未找到可驱动的界面属性。"
+
+#: ui/menus/context_menu.py:832
+msgid "No drivable property found here."
+msgstr "此处未找到可驱动的属性。"
+
+#: ui/state/live_controls.py:1622
+msgid "No driver-backed motions in this scene"
+msgstr "此场景中没有由驱动器驱动的运动"
+
+#: ui/actions/operators.py:378
+#: ui/actions/operators.py:397
+msgid "No drivers found in this scope."
+msgstr "此范围内未找到驱动器。"
+
+#: ui/views/panels.py:2680
+msgid "No effects on the active object."
+msgstr "活动物体上没有效果。"
+
+#: ui/views/source_display.py:165
+msgid "No input source selected"
+msgstr "未选择输入源"
+
+#: ui/views/panels.py:2697
+msgid "No last effect is remembered."
+msgstr "未记住上次效果。"
+
+#: ui/actions/operators.py:1713
+#: ui/views/panels.py:3080
+msgid "No parameter info available."
+msgstr "没有可用的参数信息。"
+
+#: ui/views/panels.py:940
+msgid "No parameters needed."
+msgstr "无需参数。"
+
+#: ui/views/panels.py:2699
+msgid "No recorded effects in this scene."
+msgstr "此场景中没有已记录的效果。"
+
+#: ui/views/guided_apply.py:41
+msgid "No related alternatives for this template."
+msgstr "此模板没有相关的替代项。"
+
+#: ui/actions/operators.py:768
+msgid "No remembered apply to bake."
+msgstr "没有可用于烘焙的已记住应用。"
+
+#: ui/views/panels.py:500
+msgid "No templates match"
+msgstr "没有匹配的模板"
+
+#: ui/actions/operators.py:926
+msgid "No transform drivers on the selection."
+msgstr "所选内容上没有变换驱动器。"
+
+#: ui/menus/context_menu.py:1290
+msgid "No usable input property found."
+msgstr "未找到可用的输入属性。"
+
+#: ui/actions/driver_manager.py:721
+msgid "None"
+msgstr "无"
+
+#: ui/menus/context_menu.py:892
+msgid "None of the selected objects has that property."
+msgstr "所选物体都没有该属性。"
+
+#: ui/actions/operators.py:265
+msgid "None of the selection has that property."
+msgstr "所选内容都没有该属性。"
+
+#: ui/views/source_display.py:108
+msgid "Not set"
+msgstr "未设置"
+
+#: ui/actions/operators.py:1968
+msgid "Note"
+msgstr "注意"
+
+#: ui/actions/bake_applied.py:125
+msgid "Nothing applied"
+msgstr "未应用任何内容"
+
+#: ui/views/panels.py:1067
+msgid "Nothing applied in this scope"
+msgstr "此范围内未应用任何内容"
+
+#: ui/actions/driver_manager.py:1199
+msgid "Nothing invalid in this scope."
+msgstr "此范围内没有无效项。"
+
+#: ui/actions/driver_manager.py:1232
+msgid "Nothing ticked; nothing cleared."
+msgstr "没有勾选项；未清除任何内容。"
+
+#: ui/actions/operators.py:215
+msgid "Nothing to drive. Right-click the property you want and choose \"Use as Espresso Target\", or use \"Apply to Selected Objects\" from that same menu."
+msgstr "没有可驱动的目标。右键点击所需属性并选择“用作 Espresso 目标”，或从同一菜单中选择“应用到所选物体”。"
+
+#: ui/views/panels.py:1281
+msgid "Now %.4g"
+msgstr "当前 %.4g"
+
+#: ui/views/visualizer.py:28
+msgid "Numeric analysis: range, cycles, shape, cursor value"
+msgstr "数值分析：范围、周期、形状、游标值"
+
+#: ui/views/panels.py:406
+msgid "OUTPUT"
+msgstr "输出"
+
+#: ui/state/props.py:2134
+msgid "Object name of the explicitly picked driver target (empty = no explicit pick)"
+msgstr "显式选取的驱动器目标的物体名称（空 = 未显式选取）"
+
+#: ui/menus/context_menu.py:1371
+msgid "Old:"
+msgstr "旧："
+
+#: ui/state/live_controls.py:1421
+#: ui/state/live_controls.py:1506
+msgid "On Threshold"
+msgstr "开启阈值"
+
+#: catalogue/core/taxonomy.py:78
+msgid "One-shot"
+msgstr "一次性"
+
+#: ui/state/props.py:2088
+msgid "Only the active driver target"
+msgstr "仅活动驱动器目标"
+
+#: ui/actions/operators.py:311
+msgid "Only the active object and its data"
+msgstr "仅活动物体及其数据"
+
+#: ui/actions/driver_manager.py:1220
+msgid "Only ticked findings are cleared. Undo restores everything."
+msgstr "仅清除已勾选的发现项。撤销可恢复所有内容。"
+
+#: ui/views/panels.py:2685
+msgid "Open Scene to manage recorded effects."
+msgstr "打开场景以管理已记录的效果。"
+
+#: ui/actions/driver_manager.py:942
+msgid "Open the complete applied effect's Live settings"
+msgstr "打开完整已应用效果的实时设置"
+
+#: ui/actions/driver_manager.py:569
+#: ui/actions/driver_manager.py:613
+msgid "Order"
+msgstr "顺序"
+
+#: ui/state/props.py:1898
+msgid "Organize"
+msgstr "整理"
+
+#: __init__.py:53
+msgid "Output Controls"
+msgstr "输出控制"
+
+#: ui/state/props.py:1988
+#: ui/views/panels.py:1622
+msgid "Overlay"
+msgstr "叠加"
+
+#: ui/state/props.py:1988
+msgid "Overlay compatible sibling channels that share this unit and meaning"
+msgstr "叠加共享同一单位和含义的兼容同级通道"
+
+#: ui/state/props.py:1625
+msgid "Owner ID Name"
+msgstr "所有者 ID 名称"
+
+#: ui/state/props.py:1624
+msgid "Owner ID Type"
+msgstr "所有者 ID 类型"
+
+#: ui/state/props.py:1626
+msgid "Owner Path"
+msgstr "所有者路径"
+
+#: ui/views/panels.py:1026
+msgid "PARAMETERS"
+msgstr "参数"
+
+#: ui/state/props.py:1815
+msgid "Panel density: 0 normal, 1 hides secondary sections, 2 keeps only template controls and applicable actions"
+msgstr "面板密度：0 正常，1 隐藏次要部分，2 仅保留模板控件和适用的操作"
+
+#: __init__.py:219
+msgid "Panels"
+msgstr "面板"
+
+#: __init__.py:162
+msgid "Panels & Channels"
+msgstr "面板与通道"
+
+#: ui/state/props.py:1719
+msgid "Parameter Mode"
+msgstr "参数模式"
+
+#: __init__.py:198
+msgid "Parameters"
+msgstr "参数"
+
+#: ui/state/props.py:1847
+msgid "Parameters Open"
+msgstr "参数展开"
+
+#: ui/actions/operators.py:482
+msgid "Passes"
+msgstr "遍数"
+
+#: ui/state/props.py:2129
+msgid "Pending Template"
+msgstr "待定模板"
+
+#: catalogue/core/taxonomy.py:78
+msgid "Pendulum"
+msgstr "单摆"
+
+#: ui/state/props.py:1802
+msgid "Per-template channel toggles: {template_id: [channel_id, ...]}. Keyed by template so a channel id shared by many templates (\"rotation_x\" is common) never leaks a toggle from one template into an unrelated one that happens to reuse the same id"
+msgstr "按模板区分的通道开关：{template_id: [channel_id, ...]}。以模板为键，这样许多模板共用的通道 id（“rotation_x”很常见）不会把一个模板的开关泄漏到恰好复用同一 id 的无关模板中"
+
+#: catalogue/core/frozen_records.py:18
+#: catalogue/core/frozen_records.py:21
+msgid "Periodic"
+msgstr "周期性"
+
+#: ui/menus/context_menu.py:1299
+msgid "Pick one channel of this array property as the Espresso input."
+msgstr "选择此数组属性的一个通道作为 Espresso 输入。"
+
+#: ui/menus/context_menu.py:1353
+msgid "Pick one usable scalar property or array channel."
+msgstr "选择一个可用的标量属性或数组通道。"
+
+#: ui/actions/driver_manager.py:1080
+msgid "Pinned"
+msgstr "已固定"
+
+#: ui/state/props.py:1749
+msgid "Pinned Applied Effect"
+msgstr "已固定的已应用效果"
+
+#: ui/state/props.py:1755
+msgid "Pinned Applied Effect Label"
+msgstr "已固定的已应用效果标签"
+
+#: ui/state/props.py:1752
+msgid "Pinned Applied Effect Scope"
+msgstr "已固定的已应用效果范围"
+
+#: ui/state/props.py:1738
+msgid "Pinned Live Entry"
+msgstr "已固定的实时条目"
+
+#: ui/state/props.py:1741
+msgid "Pinned Live Label"
+msgstr "已固定的实时标签"
+
+#: ui/state/props.py:1735
+msgid "Pinned Live Template"
+msgstr "已固定的实时模板"
+
+#: ui/menus/context_menu.py:1105
+msgid "Popup closed without applying. Use Copy Expression or Copy Driver from the preview."
+msgstr "弹出窗口已关闭，未应用。请使用预览中的「复制表达式」或「复制驱动器」。"
+
+#: ui/actions/operators.py:474
+msgid "Precision"
+msgstr "精度"
+
+#: ui/state/props.py:1898
+msgid "Prepare layouts and manage applied effects"
+msgstr "准备布局并管理已应用效果"
+
+#: ui/views/panels.py:383
+#: ui/views/panels.py:384
+msgid "Presets"
+msgstr "预设"
+
+#: ui/views/panels.py:2999
+msgid "Preview"
+msgstr "预览"
+
+#: ui/state/props.py:1835
+msgid "Preview Compact Level"
+msgstr "预览紧凑级别"
+
+#: __init__.py:131
+msgid "Preview Panel"
+msgstr "预览面板"
+
+#: ui/state/props.py:2187
+msgid "Preview View"
+msgstr "预览视图"
+
+#: ui/state/props.py:1835
+msgid "Preview panel density: 0 normal, 1 keeps graph controls, 2 shows only the graph"
+msgstr "预览面板密度：0 正常，1 保留图表控件，2 仅显示图表"
+
+#: ui/views/panels.py:2433
+msgid "Read-only"
+msgstr "只读"
+
+#: apply/core/target_memory.py:19
+msgid "Recent History"
+msgstr "最近历史"
+
+#: ui/state/props.py:2043
+msgid "Recents"
+msgstr "最近"
+
+#: ui/state/live_controls.py:1984
+msgid "Recorded binding is damaged."
+msgstr "记录的绑定已损坏。"
+
+#: ui/state/live_controls.py:1984
+msgid "Recorded binding is damaged: espctl_ is missing."
+msgstr "记录的绑定已损坏：缺少 espctl_。"
+
+#: ui/state/props.py:2089
+msgid "Related Pair"
+msgstr "相关配对"
+
+#: ui/state/live_controls.py:1529
+msgid "Relink from Current Espresso Input"
+msgstr "从当前 Espresso 输入重新链接"
+
+#: __init__.py:95
+msgid "Remember Apply Targets"
+msgstr "记住应用目标"
+
+#: __init__.py:58
+msgid "Remember Template-Only Parameter State"
+msgstr "记住仅模板参数状态"
+
+#: apply/core/target_memory.py:17
+msgid "Remember one newest successful apply target"
+msgstr "记住一个最新的成功应用目标"
+
+#: ui/actions/operators.py:1163
+msgid "Remembered motion channel that receives the single-property recipe"
+msgstr "记住的接收单属性配方的运动通道"
+
+#: ui/state/props.py:1637
+msgid "Removable"
+msgstr "可移除"
+
+#: ui/actions/operators.py:325
+msgid "Remove Drivers"
+msgstr "移除驱动器"
+
+#: ui/actions/driver_manager.py:944
+msgid "Remove the complete applied effect and owned resources"
+msgstr "移除完整的已应用效果及所属资源"
+
+#: ui/views/panels.py:2659
+msgid "Remove the leftover or reapply the effect."
+msgstr "移除残留内容或重新应用效果。"
+
+#: ui/actions/operators.py:1167
+msgid "Remove the other channels owned by the remembered Motion Set after conversion"
+msgstr "转换后移除记住的运动集所拥有的其他通道"
+
+#: ui/menus/context_menu.py:1369
+msgid "Replace the remembered Espresso input?"
+msgstr "替换记住的 Espresso 输入？"
+
+#: ui/state/live_controls.py:1529
+msgid "Replace this controller's source with the property currently marked Use as Espresso Input"
+msgstr "将此控制器的源替换为当前标记为「用作 Espresso 输入」的属性"
+
+#: ui/state/live_controls.py:1894
+msgid "Reset"
+msgstr "重置"
+
+#: ui/state/props.py:2065
+msgid "Reset Mode"
+msgstr "重置模式"
+
+#: ui/state/live_controls.py:1424
+#: ui/state/live_controls.py:1509
+msgid "Response"
+msgstr "响应"
+
+#: ui/state/props.py:1941
+msgid "Rest Start"
+msgstr "静止起点"
+
+#: ui/views/panels.py:1801
+msgid "Rest Start:"
+msgstr "静止起点："
+
+#: ui/views/panels.py:1947
+msgid "Right-click a colour to drive all channels"
+msgstr "右键单击颜色以驱动所有通道"
+
+#: ui/menus/context_menu.py:759
+msgid "Right-click a property on an object."
+msgstr "右键单击物体上的属性。"
+
+#: ui/menus/context_menu.py:1080
+msgid "Right-click a property to open the floating panel for it."
+msgstr "右键单击属性以打开其浮动面板。"
+
+#: ui/state/props.py:1627
+msgid "Row Kind"
+msgstr "行类型"
+
+#: ui/views/panels.py:1084
+msgid "S"
+msgstr "S"
+
+#: ui/state/props.py:1982
+msgid "Sample the expression and draw the compact waveform preview"
+msgstr "采样表达式并绘制紧凑波形预览"
+
+#: ui/menus/context_menu.py:1058
+msgid "Sample the expression and draw the waveform preview in this popup"
+msgstr "采样表达式并在此弹出窗口中绘制波形预览"
+
+#: ui/state/props.py:1995
+#: ui/views/panels.py:2203
+msgid "Scale"
+msgstr "缩放"
+
+#: ui/state/props.py:2023
+msgid "Scale the graph against the template's default look instead of auto-fitting to the curve. With this on, raising a parameter's amplitude visibly grows the wave and lowering it shrinks it; off, the graph always fills the box so only the shape is shown"
+msgstr "按模板默认外观缩放图表，而非自动适配曲线。开启后，提高参数振幅波形会明显变大，降低则变小；关闭时，图表始终填满方框，仅显示形状"
+
+#: ui/state/props.py:2161
+msgid "Scene"
+msgstr "场景"
+
+#: ui/state/props.py:2091
+#: ui/state/props.py:2099
+msgid "Scene Motion"
+msgstr "场景运动"
+
+#: ui/state/live_controls.py:1615
+msgid "Scene Motions"
+msgstr "场景运动"
+
+#: ui/actions/operators.py:307
+#: ui/state/live_controls.py:1904
+msgid "Scope"
+msgstr "范围"
+
+#: ui/state/props.py:1718
+msgid "Search"
+msgstr "搜索"
+
+#: ui/state/props.py:1718
+msgid "Search template names, categories, descriptions, and use cases"
+msgstr "搜索模板名称、类别、描述和用例"
+
+#: __init__.py:157
+msgid "Section"
+msgstr "分区"
+
+#: ui/state/live_controls.py:1764
+msgid "Select a controller first."
+msgstr "请先选择一个控制器。"
+
+#: ui/actions/operators.py:886
+msgid "Select an object, or bones in Pose Mode."
+msgstr "选择物体，或姿态模式下的骨骼。"
+
+#: ui/actions/driver_manager.py:719
+msgid "Select every removable applied effect or driver channel"
+msgstr "选择所有可移除的已应用效果或驱动器通道"
+
+#: ui/actions/operators.py:204
+msgid "Select the objects to apply to. Without a nominated target only lights can be applied to."
+msgstr "选择要应用到的物体。未指定目标时只能应用到灯光。"
+
+#: ui/state/props.py:1642
+msgid "Selected"
+msgstr "已选中"
+
+#: ui/state/props.py:1796
+msgid "Selected Motion Channel"
+msgstr "选中的运动通道"
+
+#: ui/actions/operators.py:310
+msgid "Selected Objects"
+msgstr "选中物体"
+
+#: apply/core/target_memory.py:18
+msgid "Separate by Apply Mode"
+msgstr "按应用模式分离"
+
+#: catalogue/core/taxonomy.py:78
+msgid "Sequence & Stagger"
+msgstr "序列与交错"
+
+#: catalogue/core/taxonomy.py:78
+msgid "Sequenced & Chase"
+msgstr "序列与追逐"
+
+#: ui/actions/operators.py:495
+msgid "Set the range as a start frame and a length, instead of a start and an end frame"
+msgstr "将范围设为起始帧和长度，而非起始帧和结束帧"
+
+#: ui/actions/driver_manager.py:942
+#: ui/views/panels.py:2525
+msgid "Settings"
+msgstr "设置"
+
+#: ui/state/props.py:1915
+msgid "Settings Open"
+msgstr "打开设置"
+
+#: ui/state/props.py:1723
+msgid "Setup"
+msgstr "初始设置"
+
+#: ui/state/props.py:1940
+msgid "Show Formula"
+msgstr "显示公式"
+
+#: ui/menus/context_menu.py:1058
+#: ui/state/props.py:1982
+msgid "Show Graph"
+msgstr "显示图表"
+
+#: __init__.py:77
+msgid "Show Raw Parameters"
+msgstr "显示原始参数"
+
+#: ui/state/props.py:1744
+msgid "Show Settings"
+msgstr "显示设置"
+
+#: ui/menus/context_menu.py:1048
+msgid "Show Target Detail"
+msgstr "显示目标详情"
+
+#: ui/menus/context_menu.py:1053
+msgid "Show Variants"
+msgstr "显示变体"
+
+#: ui/state/props.py:1702
+msgid "Show a broad shelf inside crowded categories without changing global search"
+msgstr "在拥挤的分类中显示宽泛选项栏，而不更改全局搜索"
+
+#: ui/state/props.py:1983
+msgid "Show display-only preview choices such as style, scale, and overlay"
+msgstr "显示仅用于预览的选项，如样式、缩放和叠加"
+
+#: ui/state/props.py:173
+msgid "Show every category"
+msgstr "显示所有分类"
+
+#: __init__.py:136
+msgid "Show internal controller names and binding details in the Input Controller panel"
+msgstr "在输入控制器面板中显示内部控制器名称和绑定详情"
+
+#: ui/state/props.py:175
+msgid "Show only the categories calibrated to real-world behaviours"
+msgstr "仅显示针对真实世界行为校准的分类"
+
+#: ui/state/props.py:174
+msgid "Show only the categories of raw shapes you give the meaning to"
+msgstr "仅显示由你赋予含义的原始形状分类"
+
+#: ui/state/props.py:1744
+msgid "Show or hide structure and motion settings below the applied effects list"
+msgstr "显示或隐藏已应用效果列表下方的结构和运动设置"
+
+#: __init__.py:141
+msgid "Show related templates and the suggested paired template for the current selection"
+msgstr "显示相关模板以及当前选择的建议配对模板"
+
+#: ui/actions/driver_manager.py:544
+msgid "Show settings first."
+msgstr "先显示设置。"
+
+#: __init__.py:151
+msgid "Show the ADVANCED box for templates that expose timing and output controls"
+msgstr "为提供时序和输出控件的模板显示高级框"
+
+#: __init__.py:43
+msgid "Show the ADVANCED section in the Driver Espresso panel for supported templates"
+msgstr "在支持的模板的 Driver Espresso 面板中显示高级部分"
+
+#: __init__.py:53
+msgid "Show the OUTPUT sub-group inside the Advanced Controls section"
+msgstr "显示高级控制部分内的输出子组"
+
+#: __init__.py:48
+msgid "Show the TIMING sub-group inside the Advanced Controls section"
+msgstr "显示高级控制部分内的时序子组"
+
+#: __init__.py:20
+msgid "Show the first three Master Presets chosen by the template author"
+msgstr "显示模板作者选择的前三个主预设"
+
+#: __init__.py:86
+msgid "Show the per-object driver list and the Active Target toggle in the Preview graph. Disable to bypass this feature and restore single-selection mode from the Drivers Editor"
+msgstr "在预览图表中显示逐物体驱动器列表和“活动目标”开关。禁用后将绕过此功能，并恢复驱动器编辑器中的单选模式"
+
+#: __init__.py:131
+msgid "Show the standalone Preview panel with the waveform graph"
+msgstr "显示带波形图表的独立预览面板"
+
+#: __init__.py:146
+msgid "Show the subcategory row that narrows a crowded category before you pick a template"
+msgstr "显示用于在挑选模板前缩小拥挤分类范围的子分类行"
+
+#: __init__.py:21
+msgid "Show the three Master Presets you use most often for this template"
+msgstr "显示此模板最常用的三个主预设"
+
+#: apply/core/target_memory.py:17
+msgid "Single Last Target"
+msgstr "单一最后目标"
+
+#: ui/actions/driver_manager.py:568
+msgid "Solo"
+msgstr "单独"
+
+#: ui/state/live_controls.py:1457
+#: ui/state/props.py:1966
+msgid "Source"
+msgstr "源"
+
+#: catalogue/core/taxonomy.py:78
+msgid "Sparkle & Flicker"
+msgstr "闪耀与闪烁"
+
+#: ui/state/props.py:1853
+msgid "Spatial Open"
+msgstr "空间打开"
+
+#: ui/menus/context_menu.py:803
+msgid "Split Shared Materials"
+msgstr "拆分共享材质"
+
+#: ui/state/props.py:2166
+msgid "Stable pointer used by the Last Applied Effect scope"
+msgstr "供“最后应用效果”作用域使用的稳定指针"
+
+#: ui/actions/operators.py:316
+#: ui/actions/operators.py:450
+msgid "Start"
+msgstr "起始"
+
+#: ui/actions/operators.py:523
+msgid "Start at Current Frame"
+msgstr "从当前帧开始"
+
+#: ui/actions/operators.py:659
+msgid "Start at Current Frame (%d)"
+msgstr "从当前帧开始 (%d)"
+
+#: __init__.py:22
+msgid "Start with Featured, then swap to Most Used as you click"
+msgstr "从“精选”开始，点击后切换为“最常用”"
+
+#: ui/views/visualizer.py:28
+msgid "Stats"
+msgstr "统计"
+
+#: ui/actions/operators.py:318
+#: ui/actions/operators.py:456
+msgid "Step"
+msgstr "步长"
+
+#: __init__.py:27
+msgid "Stop before replacing an existing effect and let the user choose a route"
+msgstr "在替换现有效果前停止，并让用户选择路径"
+
+#: __init__.py:95
+msgid "Store the most recent successful apply target so Update Last Target can reapply later"
+msgstr "存储最近一次成功应用的目标，以便“更新最后目标”稍后重新应用"
+
+#: ui/state/props.py:2034
+msgid "Style"
+msgstr "样式"
+
+#: ui/state/props.py:1702
+#: ui/views/panels.py:496
+msgid "Subcategory"
+msgstr "子分类"
+
+#: __init__.py:146
+msgid "Subcategory Filter"
+msgstr "子分类筛选"
+
+#: ui/state/props.py:2133
+msgid "Suspend Navigation Updates"
+msgstr "暂停导航更新"
+
+#: ui/state/props.py:2130
+msgid "Suspend Parameter Updates"
+msgstr "暂停参数更新"
+
+#: ui/state/props.py:1887
+msgid "Switch between choosing a motion, organizing applied effects, and input controllers inside the Espresso panel"
+msgstr "在 Espresso 面板内，在选择运动、整理已应用效果和输入控制器之间切换"
+
+#: ui/state/props.py:2123
+msgid "Switching From"
+msgstr "切换自"
+
+#: ui/state/live_controls.py:1925
+msgid "TARGET CONTROL STATUS"
+msgstr "目标控制状态"
+
+#: ui/views/panels.py:1748
+msgid "TEMPLATE EXPRESSION"
+msgstr "模板表达式"
+
+#: ui/views/panels.py:406
+msgid "TIMING"
+msgstr "时序"
+
+#: ui/state/props.py:175
+#: ui/views/panels.py:600
+msgid "Tailored"
+msgstr "定制"
+
+#: __init__.py:163
+msgid "Targets"
+msgstr "目标"
+
+#: ui/state/props.py:1708
+#: ui/state/props.py:2191
+msgid "Template"
+msgstr "模板"
+
+#: ui/state/props.py:1631
+msgid "Template ID"
+msgstr "模板 ID"
+
+#: ui/state/props.py:2122
+msgid "Template Memory"
+msgstr "模板记忆"
+
+#: __init__.py:189
+msgid "Template Switching"
+msgstr "模板切换"
+
+#: ui/state/props.py:1846
+msgid "Template Variants Open"
+msgstr "打开模板变体"
+
+#: ui/actions/driver_manager.py:888
+#: ui/views/panels.py:986
+msgid "Template is no longer available."
+msgstr "模板已不可用。"
+
+#: __init__.py:161
+msgid "Template switching, parameters, advanced controls, master presets"
+msgstr "模板切换、参数、高级控制、主预设"
+
+#: __init__.py:1
+msgid "Template-driven builder for native Blender motion systems."
+msgstr "用于 Blender 原生运动系统的模板驱动构建器。"
+
+#: ui/menus/context_menu.py:1188
+#: ui/views/panels.py:570
+msgid "Template:"
+msgstr "模板："
+
+#: ui/actions/operators.py:1968
+msgid "Text shown in this icon's tooltip"
+msgstr "此图标工具提示中显示的文本"
+
+#: ui/state/live_controls.py:1583
+msgid "That controller no longer exists — it may have been removed or undone."
+msgstr "该控制器已不存在——可能已被移除或撤销。"
+
+#: ui/actions/operators.py:69
+#: ui/actions/operators.py:117
+msgid "That motion channel is no longer available."
+msgstr "该运动通道已不可用。"
+
+#: ui/state/live_controls.py:1646
+msgid "That motion no longer resolves in this scene."
+msgstr "该运动在当前场景中已无法解析。"
+
+#: ui/menus/context_menu.py:766
+msgid "That property is not on this object, its data, or its materials, so it cannot be found on other objects."
+msgstr "该属性不在该物体、其数据或其材质上，因此无法在其他物体上找到。"
+
+#: ui/actions/driver_manager.py:589
+#: ui/actions/driver_manager.py:622
+msgid "The Motion Stack no longer resolves."
+msgstr "运动堆栈已无法解析。"
+
+#: ui/state/props.py:2089
+msgid "The active driver and the current template's declared paired variant"
+msgstr "活动驱动器以及当前模板声明的配对变体"
+
+#: ui/views/panels.py:2648
+#: ui/views/panels.py:2658
+msgid "The applied driver is missing."
+msgstr "已应用的驱动器缺失。"
+
+#: ui/actions/driver_manager.py:905
+msgid "The applied effect changed while the editor was open."
+msgstr "编辑器打开期间，已应用的效果发生了更改。"
+
+#: ui/actions/driver_manager.py:962
+#: ui/actions/operators.py:1522
+msgid "The applied effect no longer resolves."
+msgstr "已应用的效果已无法解析。"
+
+#: ui/actions/driver_manager.py:873
+msgid "The applied settings record is no longer available."
+msgstr "已应用的设置记录已不可用。"
+
+#: ui/views/panels.py:2664
+msgid "The applied setup is missing."
+msgstr "已应用的设置缺失。"
+
+#: ui/state/props.py:2160
+msgid "The channels of your most recent remembered apply"
+msgstr "你最近一次记住的应用操作的通道"
+
+#: ui/actions/operators.py:1214
+msgid "The complete channel plan will be applied to its owning Object."
+msgstr "完整通道方案将应用到其所属物体。"
+
+#: ui/menus/context_menu.py:1387
+msgid "The input relink context is no longer available."
+msgstr "输入重新链接上下文已不可用。"
+
+#: ui/actions/operators.py:783
+msgid "The last apply's channels could not be located to bake."
+msgstr "无法找到上次应用的通道以进行烘焙。"
+
+#: ui/views/panels.py:2694
+msgid "The last effect no longer resolves."
+msgstr "上一个效果已无法解析。"
+
+#: ui/views/panels.py:2671
+msgid "The last effect was baked to keyframes."
+msgstr "上一个效果已烘焙为关键帧。"
+
+#: ui/menus/context_menu.py:1745
+msgid "The new drivers could not be located to bake."
+msgstr "无法找到新驱动器以进行烘焙。"
+
+#: ui/actions/driver_manager.py:556
+msgid "The pinned applied effect no longer resolves."
+msgstr "固定的已应用效果已无法解析。"
+
+#: ui/views/panels.py:2543
+msgid "The selected effect no longer resolves."
+msgstr "选中的效果已无法解析。"
+
+#: ui/state/live_controls.py:1941
+msgid "The target has no recorded controller layer."
+msgstr "该目标没有记录的控制器层。"
+
+#: ui/state/live_controls.py:1941
+msgid "The target has no recorded espctl_ controller layer."
+msgstr "该目标没有记录的 espctl_ 控制器层。"
+
+#: ui/actions/driver_manager.py:866
+msgid "This driver has no editable Espresso metadata."
+msgstr "此驱动器没有可编辑的 Espresso 元数据。"
+
+#: ui/actions/driver_manager.py:640
+msgid "This editor currently requires one resolved target channel."
+msgstr "此编辑器当前需要一个已解析的目标通道。"
+
+#: ui/actions/driver_manager.py:593
+msgid "This effect is not a Motion Stack."
+msgstr "此效果不是运动堆栈。"
+
+#: ui/actions/driver_manager.py:910
+msgid "This older applied effect has no editable target record."
+msgstr "此较旧的已应用效果没有可编辑的目标记录。"
+
+#: __init__.py:48
+msgid "Timing Controls"
+msgstr "时间控制"
+
+#: ui/state/props.py:1848
+msgid "Timing Open"
+msgstr "打开时间控制"
+
+#: ui/state/live_controls.py:1433
+#: ui/state/live_controls.py:1517
+msgid "Transition"
+msgstr "过渡"
+
+#: ui/state/live_controls.py:1443
+#: ui/state/live_controls.py:1526
+msgid "Transition Duration"
+msgstr "过渡时长"
+
+#: ui/actions/operators.py:1467
+msgid "Unknown variant."
+msgstr "未知变体。"
+
+#: __init__.py:28
+msgid "Update the same effect and replace a different managed Espresso effect"
+msgstr "更新同一效果并替换另一个受管理的 Espresso 效果"
+
+#: ui/actions/operators.py:495
+msgid "Use Duration"
+msgstr "使用时长"
+
+#: ui/state/props.py:1994
+msgid "Use a taller graph with min/mid/max guides and cursor stats"
+msgstr "使用更高的图表，带最小/中间/最大参考线和光标统计"
+
+#: ui/actions/operators.py:511
+msgid "Use the loaded motion's own measured length as the duration. Unavailable for motion that never ends or never repeats, which has no length to match"
+msgstr "使用已加载运动自身测得的长度作为时长。对于永不结束或永不重复的运动不可用，因为它们没有可匹配的长度"
+
+#: ui/menus/context_menu.py:1222
+#: ui/state/props.py:1813
+msgid "Valid"
+msgstr "有效"
+
+#: ui/state/props.py:1814
+msgid "Validation"
+msgstr "验证"
+
+#: ui/state/props.py:2075
+msgid "Value produced when the controller is fully disabled"
+msgstr "控制器完全禁用时产生的值"
+
+#: ui/state/props.py:2065
+msgid "Value used when the controller disables or reduces the driver"
+msgstr "控制器禁用或减弱驱动器时使用的值"
+
+#: ui/state/props.py:2121
+msgid "Variant Memory"
+msgstr "变体记忆"
+
+#: __init__.py:141
+msgid "Variants"
+msgstr "变体"
+
+#: ui/views/visualizer.py:25
+msgid "Vertical bars sampled across the frame range"
+msgstr "在帧范围内采样的竖条"
+
+#: ui/state/props.py:1638
+msgid "Visible"
+msgstr "可见"
+
+#: catalogue/core/taxonomy.py:78
+msgid "Waveform"
+msgstr "波形"
+
+#: ui/actions/driver_manager.py:566
+msgid "Weight"
+msgstr "权重"
+
+#: ui/state/props.py:2187
+msgid "What the Preview graph samples"
+msgstr "预览图表采样的内容"
+
+#: ui/state/props.py:1958
+msgid "What the preview graph draws"
+msgstr "预览图表绘制的内容"
+
+#: ui/menus/context_menu.py:1035
+msgid "When enabled, clicking OK applies the current Espresso template to the property you right-clicked"
+msgstr "启用后，点击“确定”会将当前 Espresso 模板应用到右键点击的属性"
+
+#: __init__.py:63
+msgid "When switching templates, shared parameters such as Minimum, Maximum, Period, or Speed follow the most recently edited manual value"
+msgstr "切换模板时，最小值、最大值、周期或速度等共享参数会沿用最近一次手动编辑的值"
+
+#: __init__.py:58
+msgid "When you return to a template, restore values for parameters that are unique to that template"
+msgstr "返回模板时，恢复该模板特有参数的值"
+
+#: ui/state/props.py:2155
+msgid "Whether Applied Effects shows the active scope, last applied effect, or scene-wide applied effects"
+msgstr "“已应用效果”显示的是活动范围、上次应用的效果，还是场景范围内的已应用效果"
+
+#: ui/actions/bake_applied.py:504
+msgid "Which applied effect to bake"
+msgstr "要烘焙哪个已应用效果"
+
+#: ui/actions/bake_applied.py:594
+msgid "Which applied effect to remove"
+msgstr "要移除哪个已应用效果"
+
+#: ui/actions/bake_applied.py:532
+msgid "Which applied scene effect to bake"
+msgstr "要烘焙哪个已应用的场景效果"
+
+#: ui/actions/bake_applied.py:619
+msgid "Which applied scene effect to remove"
+msgstr "要移除哪个已应用的场景效果"
+
+#: __init__.py:157
+msgid "Which group of preferences to show"
+msgstr "要显示哪组偏好设置"
+
+#: __init__.py:162
+msgid "Which panels and sections are shown, and how channels render"
+msgstr "显示哪些面板和区域，以及通道如何渲染"
+
+#: ui/actions/operators.py:312
+msgid "Whole Scene"
+msgstr "整个场景"
+
+#: ui/actions/bake_applied.py:566
+msgid "Will remove:"
+msgstr "将移除："
+
+#: ui/state/props.py:1887
+msgid "Workspace"
+msgstr "工作区"
+
+#: ui/actions/driver_manager.py:1079
+msgid "Write the preset into the open settings dialog"
+msgstr "将预设写入打开的设置对话框"
+
+#: ui/actions/driver_manager.py:1080
+msgid "Write the preset into the pinned applied settings"
+msgstr "将预设写入固定的已应用设置"
+
+#: ui/state/props.py:2011
+#: ui/views/panels.py:2135
+msgid "X"
+msgstr "X"
+
+#: ui/state/props.py:2017
+#: ui/views/panels.py:2139
+msgid "Y"
+msgstr "Y"
+
+#: ui/state/props.py:2001
+#: ui/views/panels.py:2131
+msgid "Zoom"
+msgstr "缩放"
+
+#: ui/state/props.py:2001
+msgid "Zoom the graph horizontally through time and vertically through values. Values below 1 zoom out; values above 1 zoom in while keeping the graph's start frame fixed"
+msgstr "沿时间水平缩放图表，沿数值垂直缩放。小于 1 的值缩小；大于 1 的值放大，同时保持图表起始帧不变"
+
+#: ui/views/panels.py:606
+msgid "·"
+msgstr "·"
+
+#: ui/views/panels.py:374
+msgctxt "Operator"
+msgid "%s · %s"
+msgstr "%s · %s"
+
+#: ui/menus/context_menu.py:595
+msgctxt "Operator"
+msgid "Add a driver and apply the template currently configured in Driver Espresso"
+msgstr "添加驱动器并应用 Driver Espresso 中当前配置的模板"
+
+#: ui/menus/context_menu.py:922
+msgctxt "Operator"
+msgid "Add drivers and apply the current Driver Espresso template to every value in this arrayed property"
+msgstr "添加驱动器，并将当前 Driver Espresso 模板应用到该数组属性的每个值"
+
+#: ui/views/panels.py:3058
+msgctxt "Operator"
+msgid "Advanced Parameter Info"
+msgstr "高级参数信息"
+
+#: ui/views/panels.py:2814
+msgctxt "Operator"
+msgid "All"
+msgstr "全部"
+
+#: ui/actions/driver_manager.py:932
+msgctxt "Operator"
+msgid "Applied Effect"
+msgstr "已应用效果"
+
+#: ui/menus/context_menu.py:594
+msgctxt "Operator"
+msgid "Apply Current Template"
+msgstr "应用当前模板"
+
+#: ui/menus/context_menu.py:921
+msgctxt "Operator"
+msgid "Apply Current Template (Multi)"
+msgstr "应用当前模板（多个）"
+
+#: ui/menus/context_menu.py:1542
+msgctxt "Operator"
+msgid "Apply Multi"
+msgstr "应用多个"
+
+#: ui/menus/context_menu.py:1461
+msgctxt "Operator"
+msgid "Apply Template Channels"
+msgstr "应用模板通道"
+
+#: ui/actions/operators.py:1542
+msgctxt "Operator"
+msgid "Apply a Master Preset that sets several parameters together to reproduce one named feel in a single click"
+msgstr "应用主预设，它会同时设置多个参数，一键复现某种命名的感觉"
+
+#: ui/actions/driver_manager.py:1072
+msgctxt "Operator"
+msgid "Apply a named preset to these applied-effect settings"
+msgstr "将命名预设应用到这些已应用效果设置"
+
+#: ui/menus/context_menu.py:1706
+msgctxt "Operator"
+msgid "Apply and Bake Template"
+msgstr "应用并烘焙模板"
+
+#: ui/menus/context_menu.py:1707
+msgctxt "Operator"
+msgid "Apply the current Driver Espresso template to this property, then immediately bake it to keyframes - one step from template to frozen animation"
+msgstr "将当前 Driver Espresso 模板应用到此属性，然后立即烘焙为关键帧——从模板一步到冻结动画"
+
+#: ui/menus/context_menu.py:1543
+msgctxt "Operator"
+msgid "Apply the current recipe across the whole property; motion recipes keep their individual channel expressions"
+msgstr "将当前配方应用到整个属性；运动配方保留各自的通道表达式"
+
+#: ui/actions/driver_manager.py:743
+msgctxt "Operator"
+msgid "Apply the current single-property template to every checked real driver"
+msgstr "将当前单属性模板应用到每个已勾选的实际驱动器"
+
+#: ui/menus/context_menu.py:811
+msgctxt "Operator"
+msgid "Apply the current template to this same property on every selected object. Each object gets its own driver, and any position or distance variables are bound to that object rather than to the active one"
+msgstr "将当前模板应用到每个选中物体的同一属性。每个物体获得自己的驱动器，任何位置或距离变量都绑定到该物体而不是活动物体"
+
+#: ui/actions/operators.py:996
+msgctxt "Operator"
+msgid "Apply the expression to the active driver target (or a specific driver when invoked from a Driver Target list row)"
+msgstr "将表达式应用到活动驱动器目标（或从驱动器目标列表行调用时的特定驱动器）"
+
+#: ui/actions/operators.py:182
+msgctxt "Operator"
+msgid "Apply this lighting template to the Power of every selected light. Each light gets its own driver"
+msgstr "将此照明模板应用到每个选中灯光的功率。每个灯光获得自己的驱动器"
+
+#: ui/views/panels.py:1913
+msgctxt "Operator"
+msgid "Apply to %d %s%s"
+msgstr "应用到 %d 个 %s%s"
+
+#: ui/views/panels.py:1913
+msgctxt "Operator"
+msgid "Apply to Selected"
+msgstr "应用到所选"
+
+#: ui/actions/operators.py:995
+msgctxt "Operator"
+msgid "Apply to Selected Driver"
+msgstr "应用到所选驱动器"
+
+#: ui/actions/operators.py:181
+msgctxt "Operator"
+msgid "Apply to Selected Lights"
+msgstr "应用到所选灯光"
+
+#: ui/menus/context_menu.py:801
+msgctxt "Operator"
+msgid "Apply to Selected Objects"
+msgstr "应用到所选物体"
+
+#: ui/state/live_controls.py:1654
+msgctxt "Operator"
+msgid "Attach / Update Controller"
+msgstr "附加 / 更新控制器"
+
+#: ui/state/live_controls.py:1636
+msgctxt "Operator"
+msgid "Attach the controller to this motion, wherever it lives in the scene"
+msgstr "将控制器附加到此运动，无论它位于场景何处"
+
+#: ui/state/live_controls.py:1655
+msgctxt "Operator"
+msgid "Attach the selected controller to the chosen driver scope"
+msgstr "将所选控制器附加到选定的驱动器范围"
+
+#: ui/views/panels.py:2491
+msgctxt "Operator"
+msgid "Bake %s"
+msgstr "烘焙 %s"
+
+#: ui/actions/operators.py:299
+msgctxt "Operator"
+msgid "Bake Drivers to Keyframes"
+msgstr "将驱动器烘焙为关键帧"
+
+#: ui/menus/context_menu.py:1680
+msgctxt "Operator"
+msgid "Bake Drivers to Keyframes…"
+msgstr "将驱动器烘焙为关键帧…"
+
+#: ui/actions/operators.py:709
+msgctxt "Operator"
+msgid "Bake Last Drivers"
+msgstr "烘焙上次驱动器"
+
+#: ui/views/panels.py:1993
+msgctxt "Operator"
+msgid "Bake Last Drivers…"
+msgstr "烘焙上次驱动器…"
+
+#: ui/views/panels.py:1993
+msgctxt "Operator"
+msgid "Bake Last Driver…"
+msgstr "烘焙上次驱动器…"
+
+#: ui/actions/bake_applied.py:496
+msgctxt "Operator"
+msgid "Bake Motion"
+msgstr "烘焙运动"
+
+#: ui/views/panels.py:2022
+msgctxt "Operator"
+msgid "Bake Motion…"
+msgstr "烘焙运动…"
+
+#: ui/actions/bake_applied.py:524
+msgctxt "Operator"
+msgid "Bake Scene Motion"
+msgstr "烘焙场景运动"
+
+#: ui/views/panels.py:2041
+msgctxt "Operator"
+msgid "Bake Scene Motion…"
+msgstr "烘焙场景运动…"
+
+#: ui/actions/operators.py:710
+msgctxt "Operator"
+msgid "Bake the drivers from the last apply to plain keyframes and remove them, without re-applying the template first"
+msgstr "将上次应用产生的驱动器烘焙为普通关键帧并移除它们，无需先重新应用模板"
+
+#: ui/state/live_controls.py:1706
+msgctxt "Operator"
+msgid "Capture the current result and pause this Controller without deleting its driver setup"
+msgstr "捕获当前结果并暂停此控制器，而不删除其驱动器设置"
+
+#: ui/state/live_controls.py:1635
+msgctxt "Operator"
+msgid "Choose Scene Motion"
+msgstr "选择场景运动"
+
+#: ui/actions/bake_applied.py:588
+#: ui/views/panels.py:2028
+msgctxt "Operator"
+msgid "Clear Applied Motion"
+msgstr "清除已应用运动"
+
+#: ui/actions/operators.py:1474
+msgctxt "Operator"
+msgid "Clear Espresso Input"
+msgstr "清除 Espresso 输入"
+
+#: ui/menus/context_menu.py:781
+msgctxt "Operator"
+msgid "Clear Espresso Target"
+msgstr "清除 Espresso 目标"
+
+#: ui/views/panels.py:2801
+msgctxt "Operator"
+msgid "Clear Invalid"
+msgstr "清除无效"
+
+#: ui/views/panels.py:2801
+msgctxt "Operator"
+msgid "Clear Invalid (%d)"
+msgstr "清除无效 (%d)"
+
+#: ui/actions/driver_manager.py:1165
+msgctxt "Operator"
+msgid "Clear Invalid Motions"
+msgstr "清除无效运动"
+
+#: ui/views/panels.py:1981
+msgctxt "Operator"
+msgid "Clear Last Driver"
+msgstr "清除上一个驱动器"
+
+#: ui/views/panels.py:1981
+msgctxt "Operator"
+msgid "Clear Last Drivers"
+msgstr "清除上一组驱动器"
+
+#: ui/actions/bake_applied.py:612
+#: ui/views/panels.py:2047
+msgctxt "Operator"
+msgid "Clear Scene Motion"
+msgstr "清除场景运动"
+
+#: ui/actions/operators.py:1804
+#: ui/views/panels.py:501
+msgctxt "Operator"
+msgid "Clear Search"
+msgstr "清除搜索"
+
+#: ui/views/panels.py:1888
+msgctxt "Operator"
+msgid "Clear Target"
+msgstr "清除目标"
+
+#: ui/actions/operators.py:865
+#: ui/views/panels.py:1965
+msgctxt "Operator"
+msgid "Clear Transform Drivers"
+msgstr "清除变换驱动器"
+
+#: ui/actions/operators.py:1805
+msgctxt "Operator"
+msgid "Clear the search box and go back to browsing by category"
+msgstr "清除搜索框并返回按类别浏览"
+
+#: ui/views/panels.py:3157
+msgctxt "Operator"
+msgid "Compact Mode"
+msgstr "紧凑模式"
+
+#: ui/state/live_controls.py:1494
+msgctxt "Operator"
+msgid "Configure Espresso Controller"
+msgstr "配置 Espresso 控制器"
+
+#: ui/menus/context_menu.py:1032
+msgctxt "Operator"
+msgid "Configure Espresso Driver"
+msgstr "配置 Espresso 驱动器"
+
+#: ui/views/panels.py:2109
+msgctxt "Operator"
+msgid "Copy"
+msgstr "复制"
+
+#: ui/actions/operators.py:954
+#: ui/menus/context_menu.py:1239
+msgctxt "Operator"
+msgid "Copy Driver"
+msgstr "复制驱动器"
+
+#: ui/actions/operators.py:46
+#: ui/menus/context_menu.py:1238
+msgctxt "Operator"
+msgid "Copy Expression"
+msgstr "复制表达式"
+
+#: ui/actions/operators.py:108
+msgctxt "Operator"
+msgid "Copy Motion Channel"
+msgstr "复制运动通道"
+
+#: ui/actions/operators.py:955
+msgctxt "Operator"
+msgid "Copy the current Espresso expression for pasting from the Driver Espresso right-click menu"
+msgstr "复制当前 Espresso 表达式，以便从 Driver Espresso 右键菜单中粘贴"
+
+#: ui/actions/operators.py:47
+msgctxt "Operator"
+msgid "Copy the generated driver expression"
+msgstr "复制生成的驱动器表达式"
+
+#: ui/actions/operators.py:109
+msgctxt "Operator"
+msgid "Copy this channel's complete generated expression"
+msgstr "复制此通道完整的生成表达式"
+
+#: ui/state/live_controls.py:1408
+msgctxt "Operator"
+msgid "Create Espresso Controller"
+msgstr "创建 Espresso 控制器"
+
+#: ui/state/live_controls.py:1847
+msgctxt "Operator"
+msgid "Create New Controller from Input"
+msgstr "从输入创建新控制器"
+
+#: ui/state/live_controls.py:1409
+msgctxt "Operator"
+msgid "Create a reusable controller from the current Espresso Input"
+msgstr "从当前 Espresso 输入创建可复用控制器"
+
+#: ui/views/panels.py:2500
+msgctxt "Operator"
+msgid "Delete %s"
+msgstr "删除 %s"
+
+#: ui/state/live_controls.py:1800
+msgctxt "Operator"
+msgid "Delete Espresso Controller"
+msgstr "删除 Espresso 控制器"
+
+#: ui/state/live_controls.py:1801
+msgctxt "Operator"
+msgid "Delete this controller and restore every driver it controls"
+msgstr "删除此控制器并恢复它所控制的所有驱动器"
+
+#: ui/actions/operators.py:1965
+msgctxt "Operator"
+msgid "Details"
+msgstr "详情"
+
+#: ui/state/live_controls.py:1705
+#: ui/state/live_controls.py:2033
+msgctxt "Operator"
+msgid "Disable & Hold"
+msgstr "禁用并保持"
+
+#: ui/views/panels.py:3218
+msgctxt "Operator"
+msgid "Dismiss Last Result"
+msgstr "关闭上次结果"
+
+#: ui/menus/context_menu.py:1462
+msgctxt "Operator"
+msgid "Drive each component of this property with its matching channel from the current multi-channel template"
+msgstr "用当前多通道模板中的匹配通道驱动此属性的每个分量"
+
+#: ui/views/panels.py:3234
+msgctxt "Operator"
+msgid "Driver Espresso Preferences"
+msgstr "Driver Espresso 偏好设置"
+
+#: ui/actions/driver_manager.py:848
+msgctxt "Operator"
+msgid "Edit Applied Driver"
+msgstr "编辑已应用驱动器"
+
+#: ui/actions/driver_manager.py:575
+msgctxt "Operator"
+msgid "Edit native Motion Stack order, weight, mute and solo controls"
+msgstr "编辑原生运动堆栈的顺序、权重、静音和独奏控制"
+
+#: ui/actions/operators.py:1510
+msgctxt "Operator"
+msgid "Edit this applied effect with the Live settings"
+msgstr "使用实时设置编辑此已应用效果"
+
+#: ui/actions/driver_manager.py:933
+msgctxt "Operator"
+msgid "Edit, bake or remove this applied effect"
+msgstr "编辑、烘焙或移除此已应用效果"
+
+#: ui/state/live_controls.py:1397
+msgctxt "Operator"
+msgid "Espresso Input"
+msgstr "Espresso 输入"
+
+#: ui/views/panels.py:3049
+msgctxt "Operator"
+msgid "Expand or collapse the advanced controls section"
+msgstr "展开或折叠高级控制区域"
+
+#: ui/actions/driver_manager.py:1166
+msgctxt "Operator"
+msgid "Find records whose drivers are gone, and drivers of ours with no record, in the current Applied Effects scope -- then clear the ones you tick"
+msgstr "在当前“已应用效果”范围内查找驱动器已丢失的记录，以及没有记录的本插件驱动器，然后清除勾选项"
+
+#: ui/actions/operators.py:1927
+msgctxt "Operator"
+msgid "Forget Last Target"
+msgstr "忘记上次目标"
+
+#: ui/actions/operators.py:1475
+msgctxt "Operator"
+msgid "Forget the property currently used as the Espresso input source"
+msgstr "忘记当前用作 Espresso 输入源的属性"
+
+#: ui/actions/bake_applied.py:497
+msgctxt "Operator"
+msgid "Freeze motion already applied to the selected object(s) into plain keyframes. Pick one effect by name or bake them all"
+msgstr "将已应用到所选物体的运动冻结为普通关键帧。按名称选择一个效果，或全部烘焙"
+
+#: ui/actions/bake_applied.py:525
+msgctxt "Operator"
+msgid "Freeze motion applied to the scene itself - world and compositor effects that belong to no object in the outliner"
+msgstr "冻结应用到场景本身的运动——世界和合成器效果，它们不属于大纲视图中的任何物体"
+
+#: ui/views/panels.py:3219
+msgctxt "Operator"
+msgid "Hide the last apply result until the next operation"
+msgstr "隐藏上次应用结果，直到下一次操作"
+
+#: ui/actions/operators.py:79
+msgctxt "Operator"
+msgid "Include or exclude this channel the next time this template is applied. A disabled channel gets no driver at all - whatever is already on that property (hand-keyed or otherwise) is left alone"
+msgstr "下次应用此模板时包含或排除此通道。禁用的通道完全不会获得驱动器——该属性上已有的内容（手动关键帧或其他内容）保持不变"
+
+#: ui/views/source_display.py:133
+msgctxt "Operator"
+msgid "Input Source"
+msgstr "输入源"
+
+#: ui/views/panels.py:2815
+msgctxt "Operator"
+msgid "Invert"
+msgstr "反转"
+
+#: ui/views/panels.py:1913
+msgctxt "Operator"
+msgid "Light"
+msgstr "灯光"
+
+#: ui/actions/operators.py:1492
+msgctxt "Operator"
+msgid "Load the active object's generated setup into the Live controls"
+msgstr "将活动对象的生成设置加载到实时控制中"
+
+#: ui/actions/driver_manager.py:574
+msgctxt "Operator"
+msgid "Motion Stack Settings"
+msgstr "运动堆栈设置"
+
+#: ui/actions/operators.py:1730
+msgctxt "Operator"
+msgid "Navigate Template"
+msgstr "导航模板"
+
+#: ui/views/panels.py:2816
+msgctxt "Operator"
+msgid "None"
+msgstr "无"
+
+#: ui/views/panels.py:1913
+msgctxt "Operator"
+msgid "Object"
+msgstr "物体"
+
+#: ui/views/panels.py:3235
+msgctxt "Operator"
+msgid "Open Driver Espresso addon preferences"
+msgstr "打开 Driver Espresso 插件偏好设置"
+
+#: ui/menus/context_menu.py:1688
+msgctxt "Operator"
+msgid "Open Espresso Panel (Floating)"
+msgstr "打开 Espresso 面板（浮动）"
+
+#: ui/menus/context_menu.py:1033
+msgctxt "Operator"
+msgid "Open a floating Driver Espresso panel to configure a template, copy it, or apply it to the clicked property"
+msgstr "打开浮动的 Driver Espresso 面板，以配置模板、复制模板或将其应用到所点击的属性"
+
+#: ui/actions/driver_manager.py:849
+msgctxt "Operator"
+msgid "Open this applied effect's settings without changing the browsed template"
+msgstr "打开此已应用效果的设置，而不更改正在浏览的模板"
+
+#: ui/views/panels.py:2831
+msgctxt "Operator"
+msgid "Overwrite %d Selected"
+msgstr "覆盖选中的 %d 项"
+
+#: ui/actions/driver_manager.py:742
+msgctxt "Operator"
+msgid "Overwrite Selected Driver Targets"
+msgstr "覆盖所选驱动器目标"
+
+#: ui/actions/operators.py:1690
+msgctxt "Operator"
+msgid "Parameter Info"
+msgstr "参数信息"
+
+#: ui/menus/context_menu.py:984
+msgctxt "Operator"
+msgid "Paste Copied Driver"
+msgstr "粘贴已复制的驱动器"
+
+#: ui/menus/context_menu.py:985
+msgctxt "Operator"
+msgid "Paste the template driver you most recently copied from Driver Espresso"
+msgstr "粘贴你最近从 Driver Espresso 复制的模板驱动器"
+
+#: ui/views/panels.py:3196
+msgctxt "Operator"
+msgid "Preview Compact Mode"
+msgstr "预览紧凑模式"
+
+#: ui/views/panels.py:3124
+msgctxt "Operator"
+msgid "Preview Mode"
+msgstr "预览模式"
+
+#: ui/actions/operators.py:58
+msgctxt "Operator"
+msgid "Preview Motion Channel"
+msgstr "预览运动通道"
+
+#: ui/views/preview_activity.py:50
+msgctxt "Operator"
+msgid "Preview Pointer Watch"
+msgstr "预览指针监视"
+
+#: ui/actions/operators.py:1159
+msgctxt "Operator"
+msgid "Reapply the current Driver Espresso expression to the most recently remembered target"
+msgstr "将当前 Driver Espresso 表达式重新应用到最近记住的目标"
+
+#: ui/views/guided_apply.py:63
+msgctxt "Operator"
+msgid "Recent: %s"
+msgstr "最近：%s"
+
+#: ui/actions/driver_manager.py:537
+msgctxt "Operator"
+msgid "Refresh Pinned Effect Settings"
+msgstr "刷新已固定效果设置"
+
+#: ui/menus/context_menu.py:1313
+msgctxt "Operator"
+msgid "Relink Espresso Input & Applied Drivers"
+msgstr "重新链接 Espresso 输入与已应用驱动器"
+
+#: ui/actions/operators.py:1491
+#: ui/views/panels.py:1106
+msgctxt "Operator"
+msgid "Reload Live Parameters"
+msgstr "重新加载实时参数"
+
+#: ui/actions/driver_manager.py:538
+msgctxt "Operator"
+msgid "Reload the current native values for the pinned applied effect"
+msgstr "重新加载已固定应用效果的当前原生值"
+
+#: ui/menus/context_menu.py:734
+msgctxt "Operator"
+msgid "Remember this property as the one to drive when applying to a selection. Each selected object gets its own driver on its own equivalent of this property"
+msgstr "记住此属性，以便应用到选中项时驱动它。每个选中物体都会在各自的等效属性上获得自己的驱动器"
+
+#: ui/state/live_controls.py:1686
+#: ui/state/live_controls.py:2026
+msgctxt "Operator"
+msgid "Remove Control"
+msgstr "移除控制"
+
+#: ui/actions/operators.py:1903
+msgctxt "Operator"
+msgid "Remove Driver on Last Target"
+msgstr "移除最后目标上的驱动器"
+
+#: ui/actions/operators.py:1821
+msgctxt "Operator"
+msgid "Remove Selected Driver"
+msgstr "移除选中的驱动器"
+
+#: ui/actions/driver_manager.py:803
+msgctxt "Operator"
+msgid "Remove Selected Driver Targets"
+msgstr "移除选中的驱动器目标"
+
+#: ui/actions/bake_applied.py:589
+msgctxt "Operator"
+msgid "Remove applied motion and the drivers it created"
+msgstr "移除已应用的运动及其创建的驱动器"
+
+#: ui/actions/driver_manager.py:804
+msgctxt "Operator"
+msgid "Remove every checked real driver and safely clean unreferenced Espresso resources"
+msgstr "移除每个已勾选的真实驱动器，并安全清理未引用的 Espresso 资源"
+
+#: ui/actions/operators.py:866
+msgctxt "Operator"
+msgid "Remove every driver on the transform channels of the selected objects, or of the selected bones in Pose Mode. Clears drivers whatever created them. The transforms keep the values the drivers last set"
+msgstr "移除选中物体变换通道上的每个驱动器，或在姿态模式下移除选中骨骼变换通道上的每个驱动器。清除驱动器，无论由谁创建。变换将保留驱动器最后设定的值"
+
+#: ui/actions/bake_applied.py:613
+msgctxt "Operator"
+msgid "Remove scene-owned motion without touching motion applied to selected objects"
+msgstr "移除场景自有运动，不影响应用到选中物体的运动"
+
+#: ui/state/live_controls.py:1687
+msgctxt "Operator"
+msgid "Remove the controller layer and restore the original driver exactly"
+msgstr "移除控制器层并精确恢复原始驱动器"
+
+#: ui/actions/operators.py:1822
+msgctxt "Operator"
+msgid "Remove the driver from the active driver target (or a specific driver when invoked from a Driver Target list row)"
+msgstr "从活动驱动器目标中移除驱动器（当从驱动器目标列表行调用时，则移除特定驱动器）"
+
+#: ui/actions/operators.py:1904
+msgctxt "Operator"
+msgid "Remove the driver(s) from the most recently remembered apply target"
+msgstr "从最近记住的应用目标中移除驱动器"
+
+#: ui/state/live_controls.py:1495
+msgctxt "Operator"
+msgid "Rename, reconfigure, or relink the selected controller"
+msgstr "重命名、重新配置或重新链接选中的控制器"
+
+#: ui/menus/context_menu.py:1314
+msgctxt "Operator"
+msgid "Replace the remembered Espresso input and update matching Espresso driver variables on the active object"
+msgstr "替换记住的 Espresso 输入，并更新活动物体上匹配的 Espresso 驱动器变量"
+
+#: ui/state/live_controls.py:1748
+msgctxt "Operator"
+msgid "Replace this controller's stored source with the current Espresso Input and relink every attached driver"
+msgstr "用当前 Espresso 输入替换此控制器存储的源，并重新链接每个附加驱动器"
+
+#: ui/views/panels.py:3091
+msgctxt "Operator"
+msgid "Reset Advanced Parameter"
+msgstr "重置高级参数"
+
+#: ui/actions/operators.py:1625
+msgctxt "Operator"
+msgid "Reset Parameter"
+msgstr "重置参数"
+
+#: ui/actions/operators.py:1659
+msgctxt "Operator"
+msgid "Reset Template Defaults"
+msgstr "重置模板默认值"
+
+#: ui/actions/operators.py:1660
+msgctxt "Operator"
+msgid "Reset all parameters in the current template to their original template defaults"
+msgstr "将当前模板中的所有参数重置为其原始模板默认值"
+
+#: ui/views/panels.py:3092
+msgctxt "Operator"
+msgid "Reset this advanced parameter to the selected template's default value"
+msgstr "将此高级参数重置为所选模板的默认值"
+
+#: ui/actions/operators.py:1626
+msgctxt "Operator"
+msgid "Reset this parameter to the selected template's default value"
+msgstr "将此参数重置为所选模板的默认值"
+
+#: ui/state/live_controls.py:1727
+msgctxt "Operator"
+msgid "Restore the captured Controller driver exactly"
+msgstr "精确恢复捕获的控制器驱动器"
+
+#: ui/state/live_controls.py:2038
+msgctxt "Operator"
+msgid "Resume"
+msgstr "继续"
+
+#: ui/state/live_controls.py:1726
+msgctxt "Operator"
+msgid "Resume Controller"
+msgstr "继续控制器"
+
+#: ui/state/live_controls.py:1398
+msgctxt "Operator"
+msgid "Right-click a property and choose Use as Espresso Input"
+msgstr "右键单击属性并选择“用作 Espresso 输入”"
+
+#: ui/actions/operators.py:300
+msgctxt "Operator"
+msgid "Sample every driven channel over a frame range and write plain keyframes. Finds drivers on shape keys, materials, node sockets, lights and bones, not just on the objects themselves"
+msgstr "在帧范围内采样每个受驱动通道并写入普通关键帧。可查找形态键、材质、节点插槽、灯光和骨骼上的驱动器，而不仅是物体本身上的驱动器"
+
+#: ui/actions/operators.py:1509
+msgctxt "Operator"
+msgid "Select Applied Effect"
+msgstr "选择已应用效果"
+
+#: ui/actions/driver_manager.py:666
+msgctxt "Operator"
+msgid "Select Applied Effect Group"
+msgstr "选择已应用效果组"
+
+#: ui/actions/driver_manager.py:715
+msgctxt "Operator"
+msgid "Select Applied Effects"
+msgstr "选择已应用效果"
+
+#: ui/actions/operators.py:1764
+msgctxt "Operator"
+msgid "Select Template"
+msgstr "选择模板"
+
+#: ui/actions/driver_manager.py:667
+msgctxt "Operator"
+msgid "Select or clear every removable entry nested under this motion"
+msgstr "选择或清除此运动下嵌套的每个可移除条目"
+
+#: ui/actions/operators.py:1765
+msgctxt "Operator"
+msgid "Select this template"
+msgstr "选择此模板"
+
+#: ui/actions/driver_manager.py:1071
+msgctxt "Operator"
+msgid "Set Applied Settings Preset"
+msgstr "设置已应用设置预设"
+
+#: ui/actions/operators.py:1541
+msgctxt "Operator"
+msgid "Set Master Preset"
+msgstr "设置主预设"
+
+#: ui/actions/operators.py:1585
+msgctxt "Operator"
+msgid "Set Preset"
+msgstr "设置预设"
+
+#: ui/actions/operators.py:1586
+msgctxt "Operator"
+msgid "Set a parameter to a preset value"
+msgstr "将参数设置为预设值"
+
+#: ui/views/source_display.py:111
+msgctxt "Operator"
+msgid "Show"
+msgstr "显示"
+
+#: ui/actions/driver_manager.py:511
+msgctxt "Operator"
+msgid "Show or hide settings below the list. Select a layout or motion to edit it."
+msgstr "显示或隐藏列表下方的设置。选择布局或运动以进行编辑。"
+
+#: ui/views/panels.py:3059
+msgctxt "Operator"
+msgid "Show template-specific help for this advanced parameter"
+msgstr "显示此高级参数的模板专用帮助"
+
+#: ui/actions/operators.py:1691
+msgctxt "Operator"
+msgid "Show template-specific help for this parameter"
+msgstr "显示此参数的模板专用帮助"
+
+#: ui/views/source_display.py:134
+msgctxt "Operator"
+msgid "Show the property behind this input"
+msgstr "显示此输入背后的属性"
+
+#: ui/actions/operators.py:59
+msgctxt "Operator"
+msgid "Show this channel in the expression and graph preview"
+msgstr "在表达式和图形预览中显示此通道"
+
+#: ui/actions/driver_manager.py:510
+msgctxt "Operator"
+msgid "Show/Hide Settings"
+msgstr "显示/隐藏设置"
+
+#: ui/actions/operators.py:1731
+msgctxt "Operator"
+msgid "Step to the previous or next template in the current list"
+msgstr "在当前列表中步进到上一个或下一个模板"
+
+#: ui/actions/operators.py:1928
+msgctxt "Operator"
+msgid "Stop remembering what was last applied, without touching any driver. Use this when the remembered target blocks the template you want next - a multi-channel apply cannot receive a single-channel template"
+msgstr "停止记住上次应用的内容，而不改动任何驱动器。当记住的目标阻止你使用下一个所需模板时使用此功能——多通道应用无法接收单通道模板"
+
+#: ui/actions/operators.py:1442
+msgctxt "Operator"
+msgid "Switch Variant"
+msgstr "切换变体"
+
+#: ui/views/panels.py:3125
+msgctxt "Operator"
+msgid "Switch between Text Preview and Pixel Preview"
+msgstr "在文本预览和像素预览之间切换"
+
+#: ui/actions/operators.py:1443
+msgctxt "Operator"
+msgid "Switch to a related template and remember current values"
+msgstr "切换到相关模板并记住当前值"
+
+#: ui/views/panels.py:3048
+msgctxt "Operator"
+msgid "Toggle Advanced Controls"
+msgstr "切换高级控制"
+
+#: ui/actions/operators.py:78
+msgctxt "Operator"
+msgid "Toggle Motion Channel"
+msgstr "切换运动通道"
+
+#: ui/actions/driver_manager.py:651
+msgctxt "Operator"
+msgid "Toggle Motion Group"
+msgstr "切换运动组"
+
+#: ui/views/source_display.py:122
+msgctxt "Operator"
+msgid "Update"
+msgstr "更新"
+
+#: ui/state/live_controls.py:1747
+msgctxt "Operator"
+msgid "Update Input Source"
+msgstr "更新输入源"
+
+#: ui/actions/operators.py:1158
+#: ui/views/panels.py:1712
+msgctxt "Operator"
+msgid "Update Last Target"
+msgstr "更新上次目标"
+
+#: ui/views/panels.py:1712
+msgctxt "Operator"
+msgid "Update Last Targets"
+msgstr "更新上次目标"
+
+#: ui/menus/context_menu.py:1278
+msgctxt "Operator"
+msgid "Use as Espresso Input"
+msgstr "用作 Espresso 输入"
+
+#: ui/menus/context_menu.py:733
+msgctxt "Operator"
+msgid "Use as Espresso Target"
+msgstr "用作 Espresso 目标"
+
+#: ui/menus/context_menu.py:1279
+msgctxt "Operator"
+msgid "Use this property as the input source for templates such as Dead Zone, Threshold, and Remap"
+msgstr "将此属性用作死区、阈值和重映射等模板的输入源"

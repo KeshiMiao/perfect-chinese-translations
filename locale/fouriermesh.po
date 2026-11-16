@@ -1,0 +1,79 @@
+# perfect-chinese: 1
+# id: fouriermesh
+# kind: addon
+# module: bl_ext.blender_org.fouriermesh
+# name: FourierMesh
+# name_zh: 傅里叶网格平滑
+# translator: KeshiMiao
+# category: Mesh
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:4
+#: ui.py:9
+msgid "FourierMesh"
+msgstr "FourierMesh"
+
+#: __init__.py:4
+msgid "Graph-Laplacian spectral smoothing and eigenmode visualization for meshes"
+msgstr "用于网格的图拉普拉斯谱平滑与特征模态可视化"
+
+#: __init__.py:4
+msgid "Mesh"
+msgstr "网格"
+
+#: operators.py:102
+#: operators.py:181
+msgid "Mesh has no vertices"
+msgstr "网格没有顶点"
+
+#: operators.py:162
+msgid "Mode"
+msgstr "模态"
+
+#: operators.py:78
+msgid "Modes (k)"
+msgstr "模态数 (k)"
+
+#: operators.py:85
+#: operators.py:169
+msgid "Normalized Laplacian"
+msgstr "归一化拉普拉斯"
+
+#: operators.py:78
+msgid "Number of low-frequency Laplacian modes to keep (clamped to the vertex count)"
+msgstr "要保留的低频拉普拉斯模态数量（上限为顶点数）"
+
+#: ui.py:20
+msgid "Select a mesh object"
+msgstr "请选择一个网格物体"
+
+#: ui.py:23
+msgid "Switch to Object Mode"
+msgstr "切换到物体模式"
+
+#: ui.py:32
+msgid "Tune k / mode in the redo panel (F9)"
+msgstr "在调整上一步操作面板 (F9) 中调整 k / 模态"
+
+#: operators.py:85
+msgid "Use the symmetric normalized Laplacian instead of the combinatorial one"
+msgstr "使用对称归一化拉普拉斯而非组合拉普拉斯"
+
+#: operators.py:162
+msgid "Which eigenvector (frequency) to paint; higher = finer detail"
+msgstr "要绘制的特征向量（频率）；数值越大细节越精细"
+
+#: operators.py:75
+msgctxt "Operator"
+msgid "Spectral Smooth"
+msgstr "谱平滑"
+
+#: operators.py:159
+msgctxt "Operator"
+msgid "Visualize Eigenmode"
+msgstr "可视化特征模态"

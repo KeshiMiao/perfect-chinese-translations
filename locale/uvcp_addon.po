@@ -1,0 +1,157 @@
+# perfect-chinese: 1
+# id: uvcp_addon
+# kind: addon
+# module: bl_ext.blender_org.uvcp_addon
+# name: UV Coordinate Palette
+# name_zh: UV坐标调色板
+# translator: KeshiMiao
+# category: UV
+# supported_versions: >=5.1.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:72
+msgid "Collection of saved UV coordinates"
+msgstr "已保存 UV 坐标的集合"
+
+#: __init__.py:69
+msgid "Color"
+msgstr "颜色"
+
+#: __init__.py:74
+msgid "Cols"
+msgstr "列数"
+
+#: __init__.py:75
+msgid "Height scale factor for palette items"
+msgstr "调色板项目的高度缩放系数"
+
+#: __init__.py:73
+msgid "Index of the currently active palette item"
+msgstr "当前活动调色板项目的索引"
+
+#: __init__.py:74
+msgid "Maximum number of columns (actual count adapts to panel width)"
+msgstr "最大列数（实际列数随面板宽度自适应）"
+
+#: __init__.py:67
+msgid "Name"
+msgstr "名称"
+
+#: __init__.py:67
+msgid "Name of the palette item"
+msgstr "调色板项目的名称"
+
+#: __init__.py:1
+msgid "Provides a 2D coordinate palette within UV space, enabling precise color selection from gradient textures where every pixel defines a value shift"
+msgstr "在 UV 空间内提供 2D 坐标调色板，可从渐变纹理中精确选取颜色，其中每个像素都定义了一个值偏移"
+
+#: __init__.py:69
+msgid "Sampled color at these UV coordinates"
+msgstr "这些 UV 坐标处的采样颜色"
+
+#: __init__.py:75
+msgid "Scale"
+msgstr "缩放"
+
+#: __init__.py:73
+msgid "Selected Index"
+msgstr "选中索引"
+
+#: __init__.py:68
+msgid "Stored 2D UV coordinates"
+msgstr "存储的 2D UV 坐标"
+
+#: __init__.py:1
+msgid "UV"
+msgstr "UV"
+
+#: __init__.py:181
+msgid "UV Coord Palette (UVCP)"
+msgstr "UV 坐标调色板 (UVCP)"
+
+#: __init__.py:1
+msgid "UV Coordinate Palette"
+msgstr "UV 坐标调色板"
+
+#: __init__.py:180
+msgid "UV Tool"
+msgstr "UV 工具"
+
+#: __init__.py:83
+msgctxt "Operator"
+msgid "Add"
+msgstr "添加"
+
+#: __init__.py:84
+msgctxt "Operator"
+msgid "Add the current UV cursor position and sample its color"
+msgstr "添加当前 UV 光标位置并采样其颜色"
+
+#: __init__.py:129
+#: __init__.py:252
+msgctxt "Operator"
+msgid "Copy"
+msgstr "复制"
+
+#: __init__.py:130
+msgctxt "Operator"
+msgid "Copy the selected UV coordinates to the clipboard"
+msgstr "将选中的 UV 坐标复制到剪贴板"
+
+#: __init__.py:99
+#: __init__.py:254
+msgctxt "Operator"
+msgid "Delete"
+msgstr "删除"
+
+#: __init__.py:250
+#: __init__.py:259
+msgctxt "Operator"
+msgid "Left"
+msgstr "左移"
+
+#: __init__.py:159
+msgctxt "Operator"
+msgid "Move"
+msgstr "移动"
+
+#: __init__.py:160
+msgctxt "Operator"
+msgid "Move the selected item previous or next position in the palette list"
+msgstr "在调色板列表中将选中项目移到上一个或下一个位置"
+
+#: __init__.py:142
+#: __init__.py:253
+msgctxt "Operator"
+msgid "Paste"
+msgstr "粘贴"
+
+#: __init__.py:143
+msgctxt "Operator"
+msgid "Paste UV coordinates from the clipboard to the selected item"
+msgstr "将剪贴板中的 UV 坐标粘贴到选中项目"
+
+#: __init__.py:100
+msgctxt "Operator"
+msgid "Remove the currently selected UV coordinate from the palette"
+msgstr "从调色板中移除当前选中的 UV 坐标"
+
+#: __init__.py:251
+#: __init__.py:260
+msgctxt "Operator"
+msgid "Right"
+msgstr "右移"
+
+#: __init__.py:111
+msgctxt "Operator"
+msgid "Snap"
+msgstr "吸附"
+
+#: __init__.py:112
+msgctxt "Operator"
+msgid "Snap the 2D UV cursor to this saved coordinate"
+msgstr "将 2D UV 光标吸附到此保存的坐标"

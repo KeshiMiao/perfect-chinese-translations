@@ -1,0 +1,134 @@
+# perfect-chinese: 1
+# id: frames_per_beat
+# kind: addon
+# module: bl_ext.blender_org.frames_per_beat
+# name: Frames Per Beat
+# name_zh: 每拍帧数
+# translator: KeshiMiao
+# category: Animation
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:80
+msgid "BPM"
+msgstr "BPM"
+
+#: __init__.py:27
+msgid "BPM must be greater than 0"
+msgstr "BPM 必须大于 0"
+
+#: __init__.py:134
+msgid "Beat Markers"
+msgstr "节拍标记"
+
+#: __init__.py:119
+msgid "Beats Per Measure"
+msgstr "每小节拍数"
+
+#: __init__.py:80
+msgid "Beats per minute of the track"
+msgstr "曲目的每分钟节拍数"
+
+#: __init__.py:109
+msgid "Clear Existing Markers"
+msgstr "清除现有标记"
+
+#: __init__.py:104
+msgid "End Frame"
+msgstr "结束帧"
+
+#: __init__.py:157
+msgid "End Frame (0 = scene end)"
+msgstr "结束帧（0 = 场景结束）"
+
+#: __init__.py:33
+msgid "End frame must be greater than start frame"
+msgstr "结束帧必须大于起始帧"
+
+#: __init__.py:92
+msgid "FPS"
+msgstr "FPS"
+
+#: __init__.py:30
+msgid "FPS must be greater than 0"
+msgstr "FPS 必须大于 0"
+
+#: __init__.py:99
+msgid "Frame to place the first beat marker"
+msgstr "放置第一个节拍标记的帧"
+
+#: __init__.py:104
+msgid "Frame to stop placing markers (0 = use scene end frame)"
+msgstr "停止放置标记的帧（0 = 使用场景结束帧）"
+
+#: __init__.py:138
+msgid "Frames Per Beat"
+msgstr "每拍帧数"
+
+#: __init__.py:92
+msgid "Frames per second used to calculate beat spacing (ignored if using scene FPS)"
+msgstr "用于计算节拍间隔的每秒帧数（使用场景 FPS 时忽略）"
+
+#: __init__.py:114
+msgid "Give the first beat of each measure a distinct label (e.g. 1.1, 2.1)"
+msgstr "为每小节的第一拍设置不同标签（例如 1.1、2.1）"
+
+#: __init__.py:114
+msgid "Label Downbeats"
+msgstr "标注强拍"
+
+#: __init__.py:126
+msgid "Marker Name"
+msgstr "标记名称"
+
+#: __init__.py:119
+msgid "Number of beats per measure, used for downbeat labeling"
+msgstr "每小节拍数，用于强拍标注"
+
+#: __init__.py:126
+msgid "Prefix used for marker names"
+msgstr "标记名称使用的前缀"
+
+#: __init__.py:109
+msgid "Remove all existing markers before adding new ones"
+msgstr "添加新标记前移除所有现有标记"
+
+#: __init__.py:99
+msgid "Start Frame"
+msgstr "起始帧"
+
+#: __init__.py:38
+msgid "This BPM/FPS combination produces less than 1 frame per beat"
+msgstr "此 BPM/FPS 组合产生的每拍帧数小于 1"
+
+#: __init__.py:87
+msgid "Use Scene FPS"
+msgstr "使用场景 FPS"
+
+#: __init__.py:87
+msgid "Use the scene's render FPS instead of a custom value"
+msgstr "使用场景渲染 FPS 而非自定义值"
+
+#: __init__.py:13
+msgctxt "Operator"
+msgid "Add Beat Markers"
+msgstr "添加节拍标记"
+
+#: __init__.py:66
+msgctxt "Operator"
+msgid "Clear All Markers"
+msgstr "清除所有标记"
+
+#: __init__.py:14
+msgctxt "Operator"
+msgid "Create timeline markers at each beat"
+msgstr "在每个节拍处创建时间线标记"
+
+#: __init__.py:67
+msgctxt "Operator"
+msgid "Remove all timeline markers in the scene"
+msgstr "移除场景中的所有时间线标记"

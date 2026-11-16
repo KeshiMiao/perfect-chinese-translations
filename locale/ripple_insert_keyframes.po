@@ -1,0 +1,210 @@
+# perfect-chinese: 1
+# id: ripple_insert_keyframes
+# kind: addon
+# module: bl_ext.blender_org.ripple_insert_keyframes
+# name: Ripple
+# name_zh: 波纹
+# translator: KeshiMiao
+# category: Animation
+# supported_versions: >=5.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:971
+msgid "'To Frame' must be greater than 'From Frame'"
+msgstr "“结束帧”必须大于“起始帧”"
+
+#: __init__.py:1123
+msgid "'To' must be greater than 'From'"
+msgstr "“结束”必须大于“起始”"
+
+#: __init__.py:746
+msgid "Adjust Scene End Frame"
+msgstr "调整场景结束帧"
+
+#: __init__.py:1134
+msgid "Affect"
+msgstr "影响"
+
+#: __init__.py:751
+msgid "After an Insert, key the selected objects' existing animation channels at the newly emptied frame"
+msgstr "插入后，在新建的空帧上为所选物体已有的动画通道打关键帧"
+
+#: __init__.py:741
+msgid "All Scenes"
+msgstr "所有场景"
+
+#: __init__.py:741
+msgid "Apply to every scene in the file, not just the active one"
+msgstr "应用到文件中的所有场景，而非仅活动场景"
+
+#: __init__.py:757
+msgid "Before moving anything, split every NLA strip crossing the target frame using Blender's own split operator and verify it worked. If a strip cannot be split, the operation stops without changing anything. Switching this off skips splitting entirely, leaving crossing strips where they are"
+msgstr "移动任何内容前，先用 Blender 自带的拆分操作拆分所有跨越目标帧的 NLA 片段并验证结果。若某片段无法拆分，操作将中止且不做任何更改。关闭此项则完全跳过拆分，跨越的片段保持原样"
+
+#: __init__.py:1114
+msgid "Cut"
+msgstr "剪切"
+
+#: __init__.py:715
+msgid "End of the range to remove (exclusive)"
+msgstr "要移除范围的结束（不含）"
+
+#: __init__.py:698
+msgid "Everything at or after this frame is shifted"
+msgstr "此帧及之后的所有内容都会移动"
+
+#: __init__.py:709
+msgid "From Frame"
+msgstr "起始帧"
+
+#: __init__.py:736
+msgid "Grease Pencil Frames"
+msgstr "蜡笔帧"
+
+#: __init__.py:746
+msgid "Grow or shrink the scene end frame to match the change"
+msgstr "扩展或收缩场景结束帧以匹配更改"
+
+#: __init__.py:721
+msgid "Include F-Curve keyframes and driver curves"
+msgstr "包括 F 曲线关键帧和驱动器曲线"
+
+#: __init__.py:736
+msgid "Include Grease Pencil frame timing"
+msgstr "包括蜡笔帧时间"
+
+#: __init__.py:726
+msgid "Include Nonlinear Animation strips"
+msgstr "包括非线性动画片段"
+
+#: __init__.py:731
+msgid "Include timeline markers, including camera-bound ones"
+msgstr "包括时间线标记，含绑定到摄像机的标记"
+
+#: __init__.py:1096
+msgid "Insert"
+msgstr "插入"
+
+#: __init__.py:698
+msgid "Insert At Frame"
+msgstr "插入帧"
+
+#: __init__.py:751
+msgid "Key Selected At Insert Frame"
+msgstr "在插入帧为所选打关键帧"
+
+#: __init__.py:721
+msgid "Keyframes & Drivers"
+msgstr "关键帧与驱动器"
+
+#: __init__.py:694
+msgid "Message"
+msgstr "消息"
+
+#: __init__.py:726
+msgid "NLA Strips"
+msgstr "NLA 片段"
+
+#: __init__.py:1107
+msgid "Negative shift can overlap data"
+msgstr "负向移动可能导致数据重叠"
+
+#: __init__.py:835
+msgid "No NLA strips cross that frame"
+msgstr "没有 NLA 片段跨越该帧"
+
+#: __init__.py:1163
+msgid "No errors from the last run"
+msgstr "上次运行无错误"
+
+#: __init__.py:704
+msgid "Positive opens up space, negative closes a gap"
+msgstr "正值腾出空间，负值闭合间隙"
+
+#: __init__.py:757
+msgid "Pre-Split NLA With Blender's Splitter"
+msgstr "用 Blender 拆分器预拆分 NLA"
+
+#: __init__.py:1085
+#: __init__.py:1089
+msgid "Ripple"
+msgstr "波纹"
+
+#: __init__.py:704
+msgid "Shift By (Frames)"
+msgstr "移动量（帧）"
+
+#: __init__.py:866
+msgid "Shift amount is 0 - nothing to do"
+msgstr "移动量为 0 - 无需操作"
+
+#: __init__.py:767
+msgid "Show Errors"
+msgstr "显示错误"
+
+#: __init__.py:709
+msgid "Start of the range to remove (inclusive)"
+msgstr "要移除范围的开始（含）"
+
+#: __init__.py:731
+msgid "Timeline & Camera Markers"
+msgstr "时间线与摄像机标记"
+
+#: __init__.py:715
+msgid "To Frame"
+msgstr "结束帧"
+
+#: __init__.py:799
+msgctxt "Operator"
+msgid "Clear Errors"
+msgstr "清除错误"
+
+#: __init__.py:800
+msgctxt "Operator"
+msgid "Clear the Ripple error log"
+msgstr "清除波纹错误日志"
+
+#: __init__.py:787
+msgctxt "Operator"
+msgid "Copy the current playhead position into this field"
+msgstr "将当前播放头位置复制到此字段"
+
+#: __init__.py:849
+msgctxt "Operator"
+msgid "Insert & Ripple Shift"
+msgstr "插入并波纹移动"
+
+#: __init__.py:955
+msgctxt "Operator"
+msgid "Remove everything between the From and To frames - keyframes, NLA strips, markers and grease pencil frames - then pull everything after it back to close the gap"
+msgstr "移除起始帧与结束帧之间的所有内容 - 关键帧、NLA 片段、标记和蜡笔帧 - 然后将之后的所有内容前移以闭合间隙"
+
+#: __init__.py:954
+msgctxt "Operator"
+msgid "Ripple Cut"
+msgstr "波纹剪切"
+
+#: __init__.py:850
+msgctxt "Operator"
+msgid "Shift every keyframe, driver, NLA strip, marker and grease pencil frame at or after the chosen frame, opening up clean space. NLA strips crossing the frame are split first"
+msgstr "移动所选帧及之后的所有关键帧、驱动器、NLA 片段、标记和蜡笔帧，腾出干净的空间。跨越该帧的 NLA 片段会先被拆分"
+
+#: __init__.py:810
+msgctxt "Operator"
+msgid "Split NLA Strips Only"
+msgstr "仅拆分 NLA 片段"
+
+#: __init__.py:811
+msgctxt "Operator"
+msgid "Split any NLA strip crossing the Insert frame using Blender's own split, without moving anything. Useful for checking the split on its own before running a full Insert"
+msgstr "使用 Blender 自带的拆分功能拆分所有跨越插入帧的 NLA 片段，不移动任何内容。适合在完整插入前单独检查拆分效果"
+
+#: __init__.py:786
+#: __init__.py:1099
+msgctxt "Operator"
+msgid "Use Current Frame"
+msgstr "使用当前帧"

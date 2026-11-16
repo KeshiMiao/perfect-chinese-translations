@@ -1,0 +1,272 @@
+# perfect-chinese: 1
+# id: auto_paint_boundaries
+# kind: addon
+# module: bl_ext.blender_org.auto_paint_boundaries
+# name: Auto Paint Boundaries
+# name_zh: 自动绘制边界
+# translator: KeshiMiao
+# category: Paint
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: panel.py:78
+msgid "(e.g. Subdivision Surface) require"
+msgstr "（例如表面细分）需要"
+
+#: __init__.py:114
+#: __init__.py:192
+msgid "Angle"
+msgstr "角度"
+
+#: panel.py:30
+msgid "Auto Boundaries"
+msgstr "自动边界"
+
+#: __init__.py:103
+#: __init__.py:186
+msgid "Bevel Weight"
+msgstr "倒角权重"
+
+#: panel.py:328
+msgid "Boundaries"
+msgstr "边界"
+
+#: panel.py:181
+msgid "Boundary Delimiters"
+msgstr "边界限定项"
+
+#: panel.py:249
+msgid "Boundary Masks"
+msgstr "边界遮罩"
+
+#: __init__.py:237
+msgid "Boundary Types:"
+msgstr "边界类型："
+
+#: __init__.py:73
+msgid "Constrain to the single clicked face"
+msgstr "限制到单击的单个面"
+
+#: __init__.py:98
+#: __init__.py:183
+msgid "Crease Edges"
+msgstr "折痕边"
+
+#: panel.py:111
+#: panel.py:216
+msgid "Edge Attributes"
+msgstr "边属性"
+
+#: panel.py:236
+msgid "Edit > Preferences > Keymap"
+msgstr "编辑 > 偏好设置 > 键位映射"
+
+#: __init__.py:158
+msgid "Enable Boundaries"
+msgstr "启用边界"
+
+#: __init__.py:61
+msgid "Enable boundary-aware painting. Brush strokes are automatically constrained to a connected face region based on the active boundary types"
+msgstr "启用边界感知绘制。笔刷笔画将根据活动边界类型自动限制到连通面区域"
+
+#: __init__.py:108
+msgid "Expand to the entire disconnected mesh piece (no boundary)"
+msgstr "扩展到整个不连通的网格块（无边界）"
+
+#: __init__.py:93
+#: __init__.py:180
+msgid "Face Set"
+msgstr "面集"
+
+#: __init__.py:143
+msgid "Internal mesh attribute key (set once at creation)"
+msgstr "内部网格属性键（创建时设置一次）"
+
+#: __init__.py:123
+msgid "Keep the face mask between brush strokes instead of clearing it automatically after each stroke.\nWhen pinned, Shift+Click adds regions and Ctrl+Click subtracts them"
+msgstr "在笔刷笔画之间保留面遮罩，而不是每次笔画后自动清除。\n固定时，Shift+Click 添加区域，Ctrl+Click 减去区域"
+
+#: __init__.py:61
+msgid "Limit to Faces"
+msgstr "限制到面"
+
+#: __init__.py:114
+msgid "Maximum angle between face normals before the boundary stops"
+msgstr "边界停止前，面法向之间的最大角度"
+
+#: __init__.py:108
+#: __init__.py:189
+msgid "Mesh Island"
+msgstr "网格孤岛"
+
+#: panel.py:77
+#: panel.py:278
+msgid "Modifiers that change face count"
+msgstr "会改变面数的修改器"
+
+#: __init__.py:142
+msgid "Name"
+msgstr "名称"
+
+#: __init__.py:88
+#: __init__.py:177
+msgid "Normal Angle"
+msgstr "法向角度"
+
+#: __init__.py:123
+#: __init__.py:163
+msgid "Pin Mask Area"
+msgstr "固定遮罩区域"
+
+#: panel.py:74
+#: panel.py:275
+msgid "Pin Mask Area required!"
+msgstr "需要固定遮罩区域！"
+
+#: panel.py:79
+msgid "Pin Mask Area to be enabled, or"
+msgstr "需要启用固定遮罩区域，或"
+
+#: panel.py:335
+msgid "Pin Masks"
+msgstr "固定遮罩"
+
+#: panel.py:81
+#: panel.py:281
+msgid "Pin will be auto-enabled on use."
+msgstr "使用时将自动启用固定。"
+
+#: panel.py:131
+#: panel.py:287
+msgid "Saved Masks"
+msgstr "已保存遮罩"
+
+#: __init__.py:78
+#: __init__.py:171
+msgid "Sharp Edges"
+msgstr "锐边"
+
+#: __init__.py:205
+msgid "Shortcuts"
+msgstr "快捷键"
+
+#: __init__.py:73
+#: __init__.py:168
+msgid "Single Face"
+msgstr "单个面"
+
+#: __init__.py:158
+msgid "Start with boundary-aware painting enabled"
+msgstr "启动时启用边界感知绘制"
+
+#: __init__.py:163
+msgid "Start with mask pinning enabled"
+msgstr "启动时启用遮罩固定"
+
+#: __init__.py:231
+msgid "Startup Defaults"
+msgstr "启动默认值"
+
+#: __init__.py:83
+msgid "Stop at UV seam edges"
+msgstr "在 UV 缝合线处停止"
+
+#: __init__.py:78
+msgid "Stop at edges marked as sharp"
+msgstr "在标记为锐边的边处停止"
+
+#: __init__.py:103
+msgid "Stop at edges with bevel weight"
+msgstr "在具有倒角权重的边处停止"
+
+#: __init__.py:98
+msgid "Stop at edges with crease weight"
+msgstr "在具有折痕权重的边处停止"
+
+#: __init__.py:93
+msgid "Stop at face-set boundaries"
+msgstr "在面集边界处停止"
+
+#: __init__.py:88
+msgid "Stop where neighbouring face normals diverge"
+msgstr "在相邻面法向发散处停止"
+
+#: panel.py:99
+#: panel.py:204
+msgid "Surface"
+msgstr "表面"
+
+#: panel.py:235
+msgid "Tip: Assign hotkeys in"
+msgstr "提示：在以下位置分配快捷键"
+
+#: panel.py:29
+#: panel.py:130
+msgid "Tool"
+msgstr "工具"
+
+#: panel.py:87
+#: panel.py:192
+msgid "Topology"
+msgstr "拓扑"
+
+#: __init__.py:83
+#: __init__.py:174
+msgid "UV Seams"
+msgstr "UV 缝合线"
+
+#: panel.py:80
+msgid "apply the modifiers first."
+msgstr "请先应用修改器。"
+
+#: panel.py:280
+msgid "or apply the modifiers first."
+msgstr "或先应用修改器。"
+
+#: panel.py:279
+msgid "require Pin Mask Area enabled,"
+msgstr "需要启用固定遮罩区域，"
+
+#: delimiter.py:193
+msgctxt "Operator"
+msgid "Auto-Select Boundary Region"
+msgstr "自动选择边界区域"
+
+#: delimiter.py:317
+msgctxt "Operator"
+msgid "Clear Selection"
+msgstr "清除选择"
+
+#: masks.py:116
+msgctxt "Operator"
+msgid "Load Mask"
+msgstr "加载遮罩"
+
+#: masks.py:198
+msgctxt "Operator"
+msgid "Overwrite Mask"
+msgstr "覆盖遮罩"
+
+#: masks.py:161
+msgctxt "Operator"
+msgid "Remove Mask"
+msgstr "移除遮罩"
+
+#: masks.py:68
+msgctxt "Operator"
+msgid "Save Mask"
+msgstr "保存遮罩"
+
+#: delimiter.py:342
+msgctxt "Operator"
+msgid "Toggle Auto Boundaries"
+msgstr "切换自动边界"
+
+#: delimiter.py:372
+msgctxt "Operator"
+msgid "Toggle Pin Mask Area"
+msgstr "切换固定遮罩区域"

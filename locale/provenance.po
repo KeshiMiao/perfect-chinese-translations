@@ -1,0 +1,210 @@
+# perfect-chinese: 1
+# id: provenance
+# kind: addon
+# module: bl_ext.blender_org.provenance
+# name: Provenance
+# name_zh: 资产溯源
+# translator: KeshiMiao
+# category: Pipeline
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: provenance/__init__.py:724
+msgid "Also write a readable .txt"
+msgstr "同时写入可读的 .txt"
+
+#: provenance/__init__.py:411
+msgid "Asset Name"
+msgstr "资产名称"
+
+#: provenance/__init__.py:645
+#: provenance/__init__.py:654
+msgid "Asset has no published versions"
+msgstr "资产没有已发布的版本"
+
+#: provenance/__init__.py:213
+msgid "Author"
+msgstr "作者"
+
+#: provenance/__init__.py:416
+msgid "Comma-separated tags"
+msgstr "以逗号分隔的标签"
+
+#: provenance/__init__.py:425
+msgid "Directory to search for missing files during relink"
+msgstr "重新链接时搜索缺失文件的目录"
+
+#: provenance/__init__.py:208
+#: provenance/__init__.py:406
+msgid "Directory where published assets are stored"
+msgstr "存储已发布资产的目录"
+
+#: provenance/__init__.py:512
+msgid "Initialize the vault first"
+msgstr "请先初始化库"
+
+#: provenance/__init__.py:1174
+msgid "Library"
+msgstr "库"
+
+#: provenance/__init__.py:1209
+msgid "Link Surgery"
+msgstr "链接修复"
+
+#: provenance/__init__.py:22
+msgid "Local-first versioned asset vault with dependency reports and broken-link surgery"
+msgstr "本地优先的版本化资产库，含依赖报告与断链修复"
+
+#: provenance/__init__.py:213
+msgid "Name stamped into asset metadata"
+msgstr "写入资产元数据的名称"
+
+#: provenance/__init__.py:411
+msgid "Name under which the selection will be published"
+msgstr "所选内容发布时使用的名称"
+
+#: provenance/__init__.py:1197
+msgid "No external textures"
+msgstr "无外部纹理"
+
+#: provenance/__init__.py:1215
+msgid "No missing files"
+msgstr "无缺失文件"
+
+#: provenance/__init__.py:527
+msgid "No objects selected to publish"
+msgstr "未选择要发布的物体"
+
+#: provenance/__init__.py:1143
+#: provenance/__init__.py:1146
+msgid "Provenance"
+msgstr "Provenance"
+
+#: provenance/__init__.py:22
+msgid "Provenance — Versioned Asset Library"
+msgstr "Provenance — 版本化资产库"
+
+#: provenance/__init__.py:1165
+msgid "Publish"
+msgstr "发布"
+
+#: provenance/__init__.py:1225
+msgid "Report"
+msgstr "报告"
+
+#: provenance/__init__.py:425
+msgid "Search Directory"
+msgstr "搜索目录"
+
+#: provenance/__init__.py:777
+msgid "Set a vault root first"
+msgstr "请先设置库根目录"
+
+#: provenance/__init__.py:451
+msgid "Set a vault root in addon preferences or settings first"
+msgstr "请先在插件偏好设置或设置中设定库根目录"
+
+#: provenance/__init__.py:1158
+msgid "Set vault root in preferences"
+msgstr "在偏好设置中设定库根目录"
+
+#: provenance/__init__.py:22
+msgid "System"
+msgstr "系统"
+
+#: provenance/__init__.py:416
+msgid "Tags"
+msgstr "标签"
+
+#: provenance/__init__.py:973
+msgid "That asset has no readable metadata"
+msgstr "该资产没有可读的元数据"
+
+#: provenance/__init__.py:977
+msgid "That is the only version. Use Delete Asset And All Versions to remove the asset itself."
+msgstr "这是唯一的版本。要移除资产本身，请使用「删除资产及所有版本」。"
+
+#: provenance/__init__.py:1156
+msgid "Vault"
+msgstr "库"
+
+#: provenance/__init__.py:208
+#: provenance/__init__.py:406
+msgid "Vault Root"
+msgstr "库根目录"
+
+#: provenance/__init__.py:636
+msgid "Vault not initialized"
+msgstr "库未初始化"
+
+#: provenance/__init__.py:722
+msgid "Where to write the report"
+msgstr "报告写入位置"
+
+#: provenance/__init__.py:724
+msgid "Write a second, human-readable copy next to the CSV"
+msgstr "在 CSV 旁另写一份人类可读的副本"
+
+#: provenance/__init__.py:1205
+msgctxt "Operator"
+msgid "All"
+msgstr "全部"
+
+#: provenance/__init__.py:868
+msgctxt "Operator"
+msgid "Delete Asset And All Versions"
+msgstr "删除资产及所有版本"
+
+#: provenance/__init__.py:941
+msgctxt "Operator"
+msgid "Delete This Version"
+msgstr "删除此版本"
+
+#: provenance/__init__.py:718
+msgctxt "Operator"
+msgid "Export Dependency Report"
+msgstr "导出依赖报告"
+
+#: provenance/__init__.py:445
+msgctxt "Operator"
+msgid "Initialize Vault"
+msgstr "初始化库"
+
+#: provenance/__init__.py:629
+msgctxt "Operator"
+msgid "Insert Into Scene"
+msgstr "插入到场景"
+
+#: provenance/__init__.py:1204
+msgctxt "Operator"
+msgid "One"
+msgstr "单个"
+
+#: provenance/__init__.py:767
+msgctxt "Operator"
+msgid "Pack Textures Into Vault"
+msgstr "将纹理打包进库"
+
+#: provenance/__init__.py:494
+msgctxt "Operator"
+msgid "Publish Version"
+msgstr "发布版本"
+
+#: provenance/__init__.py:461
+msgctxt "Operator"
+msgid "Refresh"
+msgstr "刷新"
+
+#: provenance/__init__.py:1056
+msgctxt "Operator"
+msgid "Relink Missing Files"
+msgstr "重新链接缺失文件"
+
+#: provenance/__init__.py:1020
+msgctxt "Operator"
+msgid "Scan Broken Links"
+msgstr "扫描断链"

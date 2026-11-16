@@ -1,0 +1,380 @@
+# perfect-chinese: 1
+# id: auto_pose_tool
+# kind: addon
+# module: bl_ext.blender_org.auto_pose_tool
+# name: Auto Pose Tool
+# name_zh: 自动摆姿工具
+# translator: KeshiMiao
+# category: Animation
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:74
+msgid "A bone or object becomes a Rotate control when its name contains one of these texts. Separate them with commas; upper/lower case does not matter. Used by Auto mode and by Auto-Detect Entire Rig"
+msgstr "当骨骼或物体的名称包含以下任一文本时，它将成为旋转控制。用逗号分隔；不区分大小写。用于自动模式和自动检测整个骨架"
+
+#: __init__.py:84
+msgid "A bone or object becomes a Scale control when its name contains one of these texts. Separate them with commas; upper/lower case does not matter. Checked before the Rotate list"
+msgstr "当骨骼或物体的名称包含以下任一文本时，它将成为缩放控制。用逗号分隔；不区分大小写。在旋转列表之前检查"
+
+#: __init__.py:2023
+msgid "Also tweak everything parented below the bone/object under the cursor, each around its own pivot (curls a tail or an FK arm)"
+msgstr "同时调整光标下骨骼/物体下方所有父级关联的内容，各自绕自身轴心（弯曲尾巴或 FK 手臂）"
+
+#: __init__.py:1
+msgid "Animation"
+msgstr "动画"
+
+#: __init__.py:2370
+msgid "Assign Pose Tool"
+msgstr "指定姿态工具"
+
+#: __init__.py:2342
+msgid "Assign to Selected Bones:"
+msgstr "指定给选中的骨骼："
+
+#: __init__.py:2342
+msgid "Assign to Selected Objects:"
+msgstr "指定给选中的物体："
+
+#: __init__.py:54
+#: __init__.py:67
+msgid "Auto"
+msgstr "自动"
+
+#: __init__.py:225
+msgid "Auto-detect by name (comma separated). Everything else is Move."
+msgstr "按名称自动检测（逗号分隔）。其余均为移动。"
+
+#: __init__.py:123
+msgid "Bone and Children"
+msgstr "骨骼及子级"
+
+#: __init__.py:53
+msgid "Bones without an assigned tool are ignored"
+msgstr "未指定工具的骨骼将被忽略"
+
+#: __init__.py:2255
+msgid "Clear"
+msgstr "清除"
+
+#: __init__.py:138
+msgid "Cursor Returns After Rotate / Scale"
+msgstr "旋转/缩放后光标返回"
+
+#: __init__.py:164
+msgid "Depth Step"
+msgstr "深度步长"
+
+#: __init__.py:53
+#: __init__.py:66
+msgid "Do Nothing"
+msgstr "不做任何操作"
+
+#: __init__.py:104
+msgid "Double-Tap Resets Bone"
+msgstr "双击重置骨骼"
+
+#: __init__.py:2310
+msgid "Double-tap R and hold: trackball"
+msgstr "双击 R 并按住：轨迹球"
+
+#: __init__.py:2312
+msgid "Double-tap Space and hold: trackball"
+msgstr "双击空格并按住：轨迹球"
+
+#: __init__.py:2291
+msgid "Enable Pose Tool"
+msgstr "启用姿态工具"
+
+#: __init__.py:2408
+msgid "Enable or disable the Pose Tool hotkey in Pose Mode and Object Mode"
+msgstr "启用或禁用姿态模式与物体模式下的姿态工具快捷键"
+
+#: __init__.py:208
+msgid "Hold G / R / S for Another Tool"
+msgstr "按住 G / R / S 使用其他工具"
+
+#: __init__.py:2309
+msgid "Hold G / R / S for another tool"
+msgstr "按住 G / R / S 使用其他工具"
+
+#: __init__.py:2311
+msgid "Hold Space: Move <-> Rotate"
+msgstr "按住空格：移动 <-> 旋转"
+
+#: __init__.py:154
+msgid "Hold the right mouse button and drag up or right (away), down or left (closer); hold Shift for fine control. On a Rotate control right-drag rotates freely (trackball) instead. A right click without dragging still cancels"
+msgstr "按住鼠标右键并向上或向右拖动（远离）、向下或向左拖动（靠近）；按住 Shift 可精细控制。在旋转控制上，右键拖动则自由旋转（轨迹球）。仅右键单击而不拖动仍会取消"
+
+#: __init__.py:291
+msgid "Hotkey not found - restart Blender"
+msgstr "未找到快捷键 - 请重启 Blender"
+
+#: __init__.py:247
+msgid "Hotkeys (hold to tweak, release to confirm):"
+msgstr "快捷键（按住调整，释放确认）："
+
+#: __init__.py:1
+msgid "Hover a bone or object and hold a key to move/rotate/scale it. Release to confirm. Double-tap to reset."
+msgstr "将鼠标悬停在骨骼或物体上并按住按键以移动/旋转/缩放它。释放以确认。双击以重置。"
+
+#: __init__.py:164
+msgid "How far it moves, as a share of the distance to the view: per wheel step, or per 20 pixels of right-drag"
+msgstr "移动距离，以到视图距离的比例表示：每格滚轮，或每 20 像素右键拖动"
+
+#: __init__.py:244
+msgid "Invert"
+msgstr "反转"
+
+#: __init__.py:173
+msgid "Invert Depth"
+msgstr "反转深度"
+
+#: __init__.py:94
+msgid "Min Cursor Distance"
+msgstr "最小光标距离"
+
+#: __init__.py:2252
+msgid "Move"
+msgstr "移动"
+
+#: __init__.py:147
+msgid "Move In Depth"
+msgstr "沿深度移动"
+
+#: __init__.py:67
+msgid "Move by default, Rotate or Scale when the object's name contains one of the texts set in the add-on preferences"
+msgstr "默认移动，当物体名称包含插件偏好设置中设定的任一文本时旋转或缩放"
+
+#: __init__.py:159
+msgid "No depth movement"
+msgstr "无深度移动"
+
+#: __init__.py:122
+msgid "Nothing"
+msgstr "无"
+
+#: __init__.py:199
+msgid "Nothing Under Cursor: Use Last"
+msgstr "光标下无内容：使用上一个"
+
+#: __init__.py:66
+msgid "Objects without an assigned tool are ignored"
+msgstr "未指定工具的物体将被忽略"
+
+#: __init__.py:159
+msgid "Off"
+msgstr "关闭"
+
+#: __init__.py:125
+msgid "One level up and down again: everything that shares the parent of the bone under the cursor, with all that is parented below. Triple-tap one finger to reset all fingers of the hand. The parent itself is left alone"
+msgstr "上一级再下一级：与光标下骨骼共享父级的所有内容，及其下方所有父级关联的内容。用一根手指三击以重置手的所有手指。父级本身不受影响"
+
+#: __init__.py:188
+msgid "Pick Bones You Cannot See"
+msgstr "选取看不见的骨骼"
+
+#: __init__.py:179
+msgid "Pick Radius"
+msgstr "选取半径"
+
+#: __init__.py:1
+#: __init__.py:2284
+msgid "Pose Tool"
+msgstr "姿态工具"
+
+#: __init__.py:104
+msgid "Pressing the hotkey twice quickly resets location, rotation and scale of the bone or object under the cursor - or of everything selected, if the one under the cursor is part of a selection of several. The speed is Blender's double click speed (Preferences > Input)"
+msgstr "快速按两次快捷键会重置光标下骨骼或物体的位置、旋转和缩放——如果光标下的对象是多个选中项之一，则重置所有选中项。速度采用 Blender 的双击速度（偏好设置 > 输入）"
+
+#: __init__.py:2298
+msgid "Release to confirm, RMB to cancel"
+msgstr "释放确认，右键取消"
+
+#: __init__.py:154
+msgid "Right-Drag"
+msgstr "右键拖动"
+
+#: __init__.py:2315
+msgid "Right-drag up/right: away, down/left: closer"
+msgstr "右键向上/向右拖动：远离，向下/向左：靠近"
+
+#: __init__.py:74
+#: __init__.py:2253
+msgid "Rotate"
+msgstr "旋转"
+
+#: __init__.py:94
+msgid "Rotate and Scale get twitchy when the cursor sits right on the pivot. If the cursor is closer than this, it is pushed away to this distance when the tweak starts. 0 = never move the cursor"
+msgstr "当光标正好位于轴心上时，旋转和缩放会变得不稳定。如果光标距离小于此值，开始调整时会将其推开到此距离。0 = 从不移动光标"
+
+#: __init__.py:2316
+msgid "Rotate controls: right-drag = trackball"
+msgstr "旋转控制：右键拖动 = 轨迹球"
+
+#: __init__.py:84
+#: __init__.py:2254
+msgid "Scale"
+msgstr "缩放"
+
+#: __init__.py:158
+msgid "Scroll Wheel"
+msgstr "滚轮"
+
+#: __init__.py:2318
+msgid "Scroll wheel: push away / pull closer"
+msgstr "滚轮：推远/拉近"
+
+#: __init__.py:125
+msgid "Siblings and Children"
+msgstr "同级及子级"
+
+#: __init__.py:173
+msgid "Swap the direction: drag down or left / wheel down pushes away"
+msgstr "交换方向：向下或向左拖动 / 滚轮向下推远"
+
+#: __init__.py:123
+msgid "The bone under the cursor and everything parented below it"
+msgstr "光标下的骨骼及其下方所有父级关联的内容"
+
+#: __init__.py:2249
+msgid "Tool"
+msgstr "工具"
+
+#: __init__.py:115
+msgid "Triple-Tap Resets"
+msgstr "三击重置"
+
+#: __init__.py:122
+msgid "Triple-tap is not used"
+msgstr "不使用三击"
+
+#: __init__.py:2305
+msgid "Triple-tap to reset siblings + children"
+msgstr "三击以重置同级 + 子级"
+
+#: __init__.py:2303
+msgid "Triple-tap to reset the whole limb"
+msgstr "连按三次重置整个肢体"
+
+#: __init__.py:49
+msgid "Unassigned Bones"
+msgstr "未分配的骨骼"
+
+#: __init__.py:62
+msgid "Unassigned Objects"
+msgstr "未分配的物体"
+
+#: __init__.py:2408
+msgid "Use Pose Tool"
+msgstr "使用姿态工具"
+
+#: __init__.py:130
+msgid "Walks up the parents until the chain branches (e.g. hand > forearm > upper arm > shoulder, stopping below the chest), then resets everything below that bone"
+msgstr "沿父级向上直到骨骼链分叉（例如 手 > 前臂 > 上臂 > 肩，停在胸部以下），然后重置该骨骼以下的所有内容"
+
+#: __init__.py:115
+msgid "What pressing the hotkey three times quickly resets (needs Double-Tap Resets). With several bones/objects selected it is done for each of them"
+msgstr "快速按三次热键时重置的内容（需要「双击重置」）。选中多个骨骼/物体时对每个分别执行"
+
+#: __init__.py:62
+msgid "What the hotkey does in Object Mode on an object that has no tool assigned"
+msgstr "热键在物体模式下对未分配工具的物体执行的操作"
+
+#: __init__.py:49
+msgid "What the hotkey does on a bone that has no tool assigned"
+msgstr "热键对未分配工具的骨骼执行的操作"
+
+#: __init__.py:158
+msgid "Wheel up pushes away, wheel down pulls closer"
+msgstr "滚轮向上推远，滚轮向下拉近"
+
+#: __init__.py:188
+msgid "When no bone is under the cursor, find one anyway: over the character mesh, the bone that moves that part of the mesh; with bones not shown in the viewport, the bone whose shape is under or nearest to the cursor. Bones in hidden bone collections are never picked"
+msgstr "当光标下没有骨骼时，仍尝试查找：在角色网格上，取驱动该部分网格的骨骼；当骨骼在视图中不显示时，取形状位于光标下或离光标最近的骨骼。隐藏骨骼集合中的骨骼永远不会被选中"
+
+#: __init__.py:179
+msgid "When the cursor is not exactly on a bone, take the nearest bone within this distance. 0 = only exact hits"
+msgstr "当光标未精确落在骨骼上时，选取此距离内最近的骨骼。0 = 仅精确命中"
+
+#: __init__.py:199
+msgid "When the hotkey is pressed over empty space, tweak the bone/object used last, with the same tool, instead of doing nothing"
+msgstr "在空白处按下热键时，用相同的工具调整上次使用的骨骼/物体，而不是什么都不做"
+
+#: __init__.py:138
+msgid "When the hotkey is released on a Rotate or Scale bone/object, the mouse pointer jumps back to where it was when the hotkey was pressed"
+msgstr "在旋转或缩放的骨骼/物体上松开热键时，鼠标指针跳回按下热键时的位置"
+
+#: __init__.py:147
+msgid "While the hotkey is held, push the bone/object away from the view or pull it closer, along the line of sight, so it stays under the cursor"
+msgstr "按住热键时，沿视线方向将骨骼/物体推远或拉近，使其保持在光标下方"
+
+#: __init__.py:2023
+msgid "Whole Hierarchy Below"
+msgstr "下方整个层级"
+
+#: __init__.py:130
+msgid "Whole Limb"
+msgstr "整个肢体"
+
+#: __init__.py:2321
+msgid "Works in Pose Mode and Object Mode"
+msgstr "适用于姿态模式和物体模式"
+
+#: __init__.py:54
+msgid "Works without setting up the rig: Move by default, Rotate or Scale when the bone's name contains one of the texts set in the add-on preferences"
+msgstr "无需设置绑定即可使用：默认移动，当骨骼名称包含插件偏好设置中设定的文本时旋转或缩放"
+
+#: __init__.py:2246
+msgctxt "Operator"
+msgid "Assign Pose Tool"
+msgstr "分配姿态工具"
+
+#: __init__.py:2220
+msgctxt "Operator"
+msgid "Auto-Detect Entire Rig"
+msgstr "自动检测整个绑定"
+
+#: __init__.py:2347
+#: __init__.py:2382
+msgctxt "Operator"
+msgid "Clear"
+msgstr "清除"
+
+#: __init__.py:2344
+#: __init__.py:2378
+msgctxt "Operator"
+msgid "Move"
+msgstr "移动"
+
+#: __init__.py:2020
+msgctxt "Operator"
+msgid "Pose Tool"
+msgstr "姿态工具"
+
+#: __init__.py:1672
+msgctxt "Operator"
+msgid "Pose Tool (key watcher)"
+msgstr "姿态工具（按键监视）"
+
+#: __init__.py:1181
+msgctxt "Operator"
+msgid "Reset Transforms (Pose Tool)"
+msgstr "重置变换（姿态工具）"
+
+#: __init__.py:2345
+#: __init__.py:2379
+msgctxt "Operator"
+msgid "Rotate"
+msgstr "旋转"
+
+#: __init__.py:2346
+#: __init__.py:2380
+msgctxt "Operator"
+msgid "Scale"
+msgstr "缩放"

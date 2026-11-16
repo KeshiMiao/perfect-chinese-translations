@@ -1,0 +1,1455 @@
+# perfect-chinese: 1
+# id: fit_the_camera
+# kind: addon
+# module: bl_ext.blender_org.fit_the_camera
+# name: FTC – Fit The Camera
+# name_zh: 照片相机匹配
+# translator: KeshiMiao
+# category: Camera
+# supported_versions: >=5.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: props.py:20
+#: props.py:390
+msgid "+X"
+msgstr "+X"
+
+#: props.py:22
+#: props.py:392
+msgid "+Y"
+msgstr "+Y"
+
+#: props.py:24
+msgid "+Z"
+msgstr "+Z"
+
+#: props.py:21
+#: props.py:391
+msgid "-X"
+msgstr "-X"
+
+#: props.py:23
+#: props.py:393
+msgid "-Y"
+msgstr "-Y"
+
+#: props.py:25
+msgid "-Z"
+msgstr "-Z"
+
+#: props.py:566
+msgid "1 m"
+msgstr "1 米"
+
+#: props.py:563
+msgid "10 cm"
+msgstr "10 厘米"
+
+#: props.py:569
+msgid "10 m"
+msgstr "10 米"
+
+#: props.py:567
+msgid "2 m"
+msgstr "2 米"
+
+#: props.py:564
+msgid "20 cm"
+msgstr "20 厘米"
+
+#: props.py:168
+msgid "35 mm Equivalent"
+msgstr "35 毫米等效焦距"
+
+#: props.py:568
+msgid "5 m"
+msgstr "5 米"
+
+#: props.py:565
+msgid "50 cm"
+msgstr "50 厘米"
+
+#: props.py:544
+msgid "A cube of known size standing on the reference plane: drag its top handle until it matches something of that height in the photo"
+msgstr "已知尺寸的立方体立在参考平面上：拖动其顶部手柄，直到它与照片中该高度的物体匹配"
+
+#: props.py:550
+msgid "A known length between two points of a plane (Measured On), or a height above it"
+msgstr "平面上两点之间的已知长度（测量基准面），或该平面上方的高度"
+
+#: report.py:278
+msgid "A readable page (.md)"
+msgstr "可读页面（.md）"
+
+#: ops_render.py:408
+msgid "Active Object"
+msgstr "活动物体"
+
+#: ui.py:123
+msgid "Active camera '{}' is not the view camera"
+msgstr "活动相机“{}”不是视图相机"
+
+#: props.py:760
+#: ui.py:294
+msgid "Align to Scene"
+msgstr "对齐到场景"
+
+#: props.py:767
+msgid "Aligned To"
+msgstr "对齐到"
+
+#: props.py:210
+msgid "Altitude"
+msgstr "高度角"
+
+#: props.py:306
+msgid "Angle Uncertainty"
+msgstr "角度不确定度"
+
+#: ops_modal.py:803
+msgid "Axis"
+msgstr "轴"
+
+#: props.py:468
+msgid "Calibrate from parallel lines converging to 1, 2 or 3 vanishing points"
+msgstr "根据汇聚到 1、2 或 3 个灭点的平行线进行校准"
+
+#: props.py:469
+msgid "Calibrate from the four corners of a rectangle of known size"
+msgstr "根据已知尺寸矩形的四个角进行校准"
+
+#: props.py:470
+msgid "Calibrate from the horizon line and the camera height"
+msgstr "根据地平线和相机高度进行校准"
+
+#: props.py:749
+msgid "Calibrated plane used for the rectangle, the grid, the scale cube and the scene alignment"
+msgstr "校准平面，用于矩形、网格、比例立方体和场景对齐"
+
+#: ui.py:203
+msgid "Calibration"
+msgstr "校准"
+
+#: ops_modal.py:520
+msgid "Calibration ended: its 3D view was closed"
+msgstr "校准已结束：其 3D 视图已关闭"
+
+#: ops_load.py:224
+#: ops_load.py:330
+msgid "Camera"
+msgstr "相机"
+
+#: ui.py:168
+msgid "Camera Data"
+msgstr "相机数据"
+
+#: props.py:300
+#: props.py:681
+msgid "Camera Height"
+msgstr "相机高度"
+
+#: ops_load.py:224
+msgid "Camera that receives the photo: a new one, or one of the scene (its photo is replaced)"
+msgstr "接收照片的相机：新建一个，或使用场景中的一个（其照片会被替换）"
+
+#: ops_load.py:330
+msgid "Camera with a photo to work on"
+msgstr "带有可处理照片的相机"
+
+#: ui.py:131
+msgid "Camera: {}"
+msgstr "相机：{}"
+
+#: ops_load.py:269
+msgid "Cannot read the image"
+msgstr "无法读取图像"
+
+#: ops_render.py:349
+msgid "Catcher"
+msgstr "捕捉器"
+
+#: props.py:713
+msgid "Center"
+msgstr "中心"
+
+#: props.py:328
+msgid "Check with a Shadow"
+msgstr "用阴影检查"
+
+#: ops_hdri.py:653
+msgid "Click the sun in the HDRI · Shift: magnifier · Enter: apply · Esc: cancel · ×: the photo's sun (Fit Sun)"
+msgstr "点击 HDRI 中的太阳 · Shift：放大镜 · Enter：应用 · Esc：取消 · ×：照片中的太阳（适配太阳）"
+
+#: props.py:363
+msgid "Compass"
+msgstr "罗盘"
+
+#: props.py:211
+msgid "Compass bearing of the view, degrees clockwise from north"
+msgstr "视图的罗盘方位角，自正北顺时针的度数"
+
+#: props.py:322
+msgid "Computed from the date, time and place of the shot, with the scene north"
+msgstr "根据拍摄的日期、时间和地点计算，采用场景正北"
+
+#: ui.py:186
+msgid "Cropped image: 35 mm equivalent taken on the uncropped 4:3 sensor"
+msgstr "裁剪图像：按未裁剪的 4:3 传感器折算的 35 毫米等效焦距"
+
+#: props.py:559
+msgid "Cube Size"
+msgstr "立方体尺寸"
+
+#: props.py:566
+msgid "Cube edge of 1 m"
+msgstr "棱长 1 米的立方体"
+
+#: props.py:563
+msgid "Cube edge of 10 cm"
+msgstr "棱长 10 厘米的立方体"
+
+#: props.py:569
+msgid "Cube edge of 10 m"
+msgstr "棱长 10 米的立方体"
+
+#: props.py:567
+msgid "Cube edge of 2 m"
+msgstr "棱长 2 米的立方体"
+
+#: props.py:564
+msgid "Cube edge of 20 cm"
+msgstr "棱长 20 厘米的立方体"
+
+#: props.py:568
+msgid "Cube edge of 5 m"
+msgstr "棱长 5 米的立方体"
+
+#: props.py:565
+msgid "Cube edge of 50 cm"
+msgstr "棱长 50 厘米的立方体"
+
+#: props.py:570
+#: props.py:575
+msgid "Custom Size"
+msgstr "自定义尺寸"
+
+#: report.py:279
+msgid "Data for other programs (.json)"
+msgstr "供其他程序使用的数据（.json）"
+
+#: props.py:322
+msgid "Date and Place"
+msgstr "日期和地点"
+
+#: props.py:241
+msgid "Day"
+msgstr "日"
+
+#: props.py:241
+msgid "Day of the shot"
+msgstr "拍摄日期"
+
+#: props.py:398
+msgid "Declination"
+msgstr "赤纬"
+
+#: props.py:211
+msgid "Direction"
+msgstr "方向"
+
+#: props.py:219
+msgid "Direction Reference"
+msgstr "方向参考"
+
+#: props.py:593
+msgid "Direction of the reference distance: along the reference plane both ends lie on the plane, anywhere on it; along its normal it is a height above the first end"
+msgstr "参考距离的方向：沿参考平面时，两端都位于该平面上，可在平面上任意位置；沿其法线时，为第一端点上方的高度"
+
+#: ui.py:316
+msgid "Display"
+msgstr "显示"
+
+#: props.py:301
+msgid "Distance to Origin"
+msgstr "到原点的距离"
+
+#: props.py:714
+msgid "Drag the principal point in the viewport"
+msgstr "在视图中拖动主点"
+
+#: props.py:156
+msgid "EXIF orientation (1 = upright)"
+msgstr "EXIF 方向（1 = 正立）"
+
+#: props.py:559
+#: props.py:575
+msgid "Edge length of the scale cube"
+msgstr "比例立方体的边长"
+
+#: props.py:422
+msgid "Elevation Correction"
+msgstr "仰角校正"
+
+#: ui.py:199
+msgid "Enter focal length + sensor width, or the 35 mm equivalent"
+msgstr "输入焦距 + 传感器宽度，或 35 mm 等效焦距"
+
+#: props.py:570
+msgid "Enter the edge length"
+msgstr "输入边长"
+
+#: props.py:696
+msgid "Enter the heading by hand"
+msgstr "手动输入朝向"
+
+#: props.py:34
+msgid "Entered by hand"
+msgstr "手动输入"
+
+#: ui.py:111
+#: ui.py:443
+msgid "FTC"
+msgstr "FTC"
+
+#: report.py:274
+msgid "File format of the report"
+msgstr "报告的文件格式"
+
+#: ops_render.py:298
+msgid "Film: Transparent"
+msgstr "胶片：透明"
+
+#: props.py:631
+msgid "First Side"
+msgstr "第一边"
+
+#: ui.py:399
+msgid "Fit Sun"
+msgstr "匹配太阳"
+
+#: ui.py:112
+msgid "Fit The Camera"
+msgstr "匹配相机"
+
+#: props.py:775
+msgid "Flip"
+msgstr "翻转"
+
+#: props.py:623
+#: props.py:753
+msgid "Floor or any horizontal plane"
+msgstr "地面或任意水平面"
+
+#: props.py:295
+msgid "Focal (px)"
+msgstr "焦距（像素）"
+
+#: props.py:158
+#: props.py:296
+msgid "Focal Length"
+msgstr "焦距"
+
+#: props.py:305
+msgid "Focal Uncertainty"
+msgstr "焦距不确定度"
+
+#: props.py:168
+msgid "Focal length equivalent on a 36x24 mm frame"
+msgstr "36×24 mm 画幅的等效焦距"
+
+#: ops_load.py:298
+msgid "Focal length not found in the image metadata"
+msgstr "图像元数据中未找到焦距"
+
+#: ui.py:103
+msgid "Focal length unknown: solved from the guides"
+msgstr "焦距未知：由参考线解算"
+
+#: props.py:441
+msgid "Follow the Sun"
+msgstr "跟随太阳"
+
+#: props.py:724
+msgid "Force zero roll"
+msgstr "强制滚转为零"
+
+#: report.py:274
+msgid "Format"
+msgstr "格式"
+
+#: props.py:738
+msgid "Freeze Guides"
+msgstr "冻结参考线"
+
+#: props.py:33
+#: props.py:695
+msgid "From EXIF"
+msgstr "来自 EXIF"
+
+#: props.py:368
+msgid "From a shadow in the photo (shadow handles in Calibrate Shadow) and the sun of the date and place"
+msgstr "根据照片中的阴影（校准阴影中的阴影控制柄）以及日期和地点的太阳"
+
+#: props.py:363
+msgid "From the compass direction of the photo (EXIF), rarely written by Android phones"
+msgstr "根据照片的罗盘方向（EXIF），Android 手机很少写入"
+
+#: props.py:739
+msgid "Grid"
+msgstr "网格"
+
+#: props.py:740
+msgid "Grid Opacity"
+msgstr "网格不透明度"
+
+#: props.py:342
+msgid "Ground"
+msgstr "地面"
+
+#: props.py:311
+msgid "Guide Fit"
+msgstr "参考线拟合"
+
+#: props.py:510
+msgid "Guide lines of vanishing point 1 (2 to 6): more lines average out the placement errors"
+msgstr "消失点 1 的参考线（2 到 6）：线条越多，越能平均放置误差"
+
+#: props.py:519
+msgid "Guide lines of vanishing point 2 (2 to 6): more lines average out the placement errors"
+msgstr "消失点 2 的参考线（2 到 6）：线条越多，越能平均放置误差"
+
+#: props.py:528
+msgid "Guide lines of vanishing point 3 (2 to 6): more lines average out the placement errors"
+msgstr "消失点 3 的参考线（2 到 6）：线条越多，越能平均放置误差"
+
+#: props.py:661
+msgid "Guides Only"
+msgstr "仅参考线"
+
+#: props.py:439
+msgid "HDRI image fitted by Fit HDRI"
+msgstr "由“匹配 HDRI”拟合的 HDRI 图像"
+
+#: props.py:701
+msgid "Heading of the camera, clockwise from +Y"
+msgstr "相机朝向，从 +Y 顺时针"
+
+#: props.py:155
+msgid "Height"
+msgstr "高度"
+
+#: props.py:681
+msgid "Height of the camera above the ground"
+msgstr "相机离地高度"
+
+#: ops_render.py:38
+#: ops_render.py:350
+msgid "Holdout"
+msgstr "保持"
+
+#: props.py:470
+msgid "Horizon"
+msgstr "地平线"
+
+#: props.py:298
+msgid "Horizontal FOV"
+msgstr "水平视场角"
+
+#: props.py:250
+msgid "Hour"
+msgstr "小时"
+
+#: props.py:540
+msgid "How the real-world size of the scene is set"
+msgstr "场景真实尺寸的设置方式"
+
+#: props.py:358
+msgid "How the sun is placed around the scene (its height comes from the date)"
+msgstr "太阳围绕场景的放置方式（其高度来自日期）"
+
+#: props.py:459
+#: ui.py:321
+msgid "Image"
+msgstr "图像"
+
+#: ui.py:145
+msgid "Image stored rotated (EXIF orientation {})"
+msgstr "图像以旋转状态存储（EXIF 方向 {}）"
+
+#: report.py:279
+msgid "JSON"
+msgstr "JSON"
+
+#: props.py:441
+msgid "Keep the World HDRI on the sun when the sun moves (north, time). Fit HDRI turns it on; turning the HDRI's Mapping by hand turns it off"
+msgstr "太阳移动时（北方、时间），让世界 HDRI 保持对准太阳。匹配 HDRI 会开启此项；手动调整 HDRI 的映射会关闭此项"
+
+#: props.py:655
+msgid "Known + Guides"
+msgstr "已知 + 参考线"
+
+#: props.py:662
+msgid "Known Only"
+msgstr "仅已知"
+
+#: props.py:469
+msgid "Known Rectangle"
+msgstr "已知矩形"
+
+#: props.py:367
+msgid "Landmark"
+msgstr "地标"
+
+#: props.py:190
+msgid "Latitude"
+msgstr "纬度"
+
+#: props.py:153
+msgid "Lens"
+msgstr "镜头"
+
+#: props.py:350
+msgid "Light"
+msgstr "灯光"
+
+#: props.py:510
+#: props.py:519
+msgid "Lines"
+msgstr "线条"
+
+#: props.py:732
+msgid "Live Update"
+msgstr "实时更新"
+
+#: props.py:250
+msgid "Local hour of the shot"
+msgstr "拍摄当地小时"
+
+#: props.py:738
+msgid "Lock the guides against accidental edits"
+msgstr "锁定参考线以防误编辑"
+
+#: props.py:178
+msgid "Long side of the camera sensor, as in its specifications (for cropped photos too)"
+msgstr "相机传感器长边，按规格填写（裁切照片也适用）"
+
+#: props.py:199
+msgid "Longitude"
+msgstr "经度"
+
+#: ui.py:197
+msgid "Look up the specifications of: {}"
+msgstr "查询以下设备的规格：{}"
+
+#: props.py:398
+msgid "Magnetic declination at the place, east positive: added to a magnetic compass direction (look it up for the place and year)"
+msgstr "该地磁偏角，东为正：加到磁罗盘方向上（按地点和年份查询）"
+
+#: props.py:151
+msgid "Make"
+msgstr "品牌"
+
+#: props.py:34
+#: props.py:696
+msgid "Manual"
+msgstr "手动"
+
+#: props.py:725
+msgid "Manual tilt from the horizon handle; reset when the guides change"
+msgstr "通过地平线手柄手动倾斜；参考线改变时重置"
+
+#: props.py:366
+msgid "Map"
+msgstr "地图"
+
+#: report.py:278
+msgid "Markdown"
+msgstr "Markdown"
+
+#: props.py:616
+msgid "Measured On"
+msgstr "测量依据"
+
+#: props.py:323
+msgid "Measured on a shadow in the photo: no date, place or north needed"
+msgstr "根据照片中的阴影测量：无需日期、地点或北方"
+
+#: props.py:259
+msgid "Minute"
+msgstr "分钟"
+
+#: props.py:259
+msgid "Minute of the shot"
+msgstr "拍摄分钟"
+
+#: props.py:32
+msgid "Missing"
+msgstr "缺失"
+
+#: props.py:462
+msgid "Mode"
+msgstr "模式"
+
+#: props.py:152
+msgid "Model"
+msgstr "型号"
+
+#: props.py:232
+msgid "Month"
+msgstr "月份"
+
+#: props.py:232
+msgid "Month of the shot"
+msgstr "拍摄月份"
+
+#: ops_load.py:230
+msgid "Name After Photo"
+msgstr "按照片命名"
+
+#: ops_load.py:230
+msgid "Name the new camera after the photo file (otherwise \"FTC Camera\")"
+msgstr "用照片文件名命名新相机（否则为“FTC Camera”）"
+
+#: ui.py:105
+#: ui.py:247
+msgid "Needs the focal length (Camera Data)"
+msgstr "需要焦距（摄像机数据）"
+
+#: props.py:21
+msgid "Negative X axis"
+msgstr "负 X 轴"
+
+#: props.py:23
+msgid "Negative Y axis"
+msgstr "负 Y 轴"
+
+#: props.py:25
+msgid "Negative Z axis"
+msgstr "负 Z 轴"
+
+#: ops_orientation.py:101
+msgid "No 3D view to create the orientation from"
+msgstr "没有可用于创建朝向的 3D 视图"
+
+#: ops_render.py:46
+msgid "No Role"
+msgstr "无角色"
+
+#: ops_sun.py:394
+msgid "No date, time or place found in the photo"
+msgstr "照片中未找到日期、时间或地点"
+
+#: ui.py:127
+msgid "No scene camera: load an image to create one"
+msgstr "场景中没有摄像机：加载图像以创建一个"
+
+#: ops_modal.py:335
+msgid "No shadow handles in use: choose Sun From Shadow, North Shadow or Check with a Shadow"
+msgstr "未使用阴影手柄：请选择“从阴影获取太阳”、“北方阴影”或“用阴影检查”"
+
+#: props.py:145
+msgid "Normalised image position"
+msgstr "归一化图像位置"
+
+#: props.py:358
+#: props.py:450
+msgid "North"
+msgstr "北方"
+
+#: props.py:410
+msgid "North Correction"
+msgstr "北方校正"
+
+#: props.py:32
+msgid "Not found in the image metadata"
+msgstr "未在图像元数据中找到"
+
+#: props.py:475
+msgid "Number of vanishing points to draw"
+msgstr "要绘制的消失点数量"
+
+#: ui.py:393
+msgid "Object Roles"
+msgstr "物体角色"
+
+#: ops_render.py:408
+msgid "Object selected in the roles list"
+msgstr "在角色列表中选择的物体"
+
+#: props.py:479
+msgid "One vanishing point: needs the focal length and the horizon direction"
+msgstr "一个消失点：需要焦距和地平线方向"
+
+#: ops_render.py:269
+msgid "Only the CG and its shadows on a transparent background, to composite in another program"
+msgstr "仅输出透明背景上的 CG 及其阴影，用于在其他程序中合成"
+
+#: ops_modal.py:283
+msgid "Only the shadow handles of Fit Sun: the guides are hidden and the camera is not changed"
+msgstr "仅显示 Fit Sun 的阴影手柄：隐藏参考线，不更改摄像机"
+
+#: props.py:740
+msgid "Opacity of the verification grid"
+msgstr "验证网格的不透明度"
+
+#: props.py:156
+msgid "Orientation"
+msgstr "朝向"
+
+#: props.py:460
+msgid "Original image file"
+msgstr "原始图像文件"
+
+#: ops_render.py:260
+msgid "Output"
+msgstr "输出"
+
+#: ops_render.py:264
+msgid "Over the Photo"
+msgstr "在照片上"
+
+#: ui.py:470
+msgid "Pick a Sun light or add one: FTC turns it towards the sun"
+msgstr "选择太阳光或添加一个：FTC 会将其转向太阳"
+
+#: props.py:373
+msgid "Pick the scene axis the sun comes from, then turn it by eye until the CG shadows match the photo"
+msgstr "选择太阳来自的场景轴，然后目视旋转，直到 CG 阴影与照片匹配"
+
+#: props.py:302
+msgid "Pitch"
+msgstr "俯仰"
+
+#: props.py:725
+msgid "Pitch Correction"
+msgstr "俯仰校正"
+
+#: props.py:760
+msgid "Place the reference plane on the stored scene target (3D cursor, face or object)"
+msgstr "将参考平面放到已存储的场景目标上（3D 光标、面或物体）"
+
+#: props.py:616
+msgid "Plane through the origin that holds the reference distance: both ends along an axis of it, or a height along its normal from the first end"
+msgstr "穿过原点且承载参考距离的平面：两端沿其某条轴，或从第一端沿其法线量取高度"
+
+#: props.py:337
+msgid "Plane through the origin where the tip of the shadow lies (the foot is always on the ground)"
+msgstr "穿过原点且阴影尖端所在的平面（脚点始终在地面上）"
+
+#: props.py:709
+msgid "Point of the image hit by the optical axis"
+msgstr "光轴在图像上的命中点"
+
+#: ops_hdri.py:724
+msgid "Point of the sun on the HDRI (0..1, origin bottom-left); negative: let FTC find it"
+msgstr "HDRI 上太阳的位置（0..1，原点在左下角）；负值：让 FTC 查找"
+
+#: props.py:435
+msgid "Point of the sun on the HDRI picked by Fit HDRI (0..1, origin bottom-left)"
+msgstr "Fit HDRI 选定的 HDRI 上太阳位置（0..1，原点在左下角）"
+
+#: props.py:145
+msgid "Position"
+msgstr "位置"
+
+#: props.py:20
+msgid "Positive X axis"
+msgstr "X 轴正向"
+
+#: props.py:22
+msgid "Positive Y axis"
+msgstr "Y 轴正向"
+
+#: props.py:24
+msgid "Positive Z axis"
+msgstr "Z 轴正向"
+
+#: props.py:709
+msgid "Principal Point"
+msgstr "主点"
+
+#: props.py:713
+msgid "Principal point at the image centre"
+msgstr "主点在图像中心"
+
+#: props.py:768
+msgid "Quarter turns of the reference plane about its normal on the target"
+msgstr "参考平面绕其在目标上的法线旋转的四分之一圈数"
+
+#: ui.py:444
+msgid "Raise"
+msgstr "抬高"
+
+#: props.py:422
+msgid "Raises (or lowers) the sun from the height of the date and time: adjust it until the CG shadows are as long as in the photo (it makes up for small calibration and clock errors)"
+msgstr "从日期和时间对应的高度抬高（或降低）太阳：调整它，直到 CG 阴影与照片中一样长（可弥补轻微的校准和时钟误差）"
+
+#: props.py:33
+msgid "Read from the image metadata"
+msgstr "从图像元数据读取"
+
+#: props.py:158
+msgid "Real focal length of the lens"
+msgstr "镜头的真实焦距"
+
+#: props.py:607
+msgid "Real length between the two reference handles"
+msgstr "两个参考手柄之间的真实长度"
+
+#: props.py:631
+msgid "Real length of the rectangle's first side (corner 1 to 2), along the reference plane's first axis: X on XY and XZ, Y on YZ"
+msgstr "矩形第一条边（角 1 到 2）的真实长度，沿参考平面的第一轴：XY 和 XZ 上为 X，YZ 上为 Y"
+
+#: props.py:641
+msgid "Real length of the rectangle's second side (corner 2 to 3), along the reference plane's second axis: Y on XY, Z on XZ and YZ"
+msgstr "矩形第二条边（角 2 到 3）的真实长度，沿参考平面的第二轴：XY 上为 Y，XZ 和 YZ 上为 Z"
+
+#: props.py:593
+msgid "Reference Axis"
+msgstr "参考轴"
+
+#: props.py:550
+msgid "Reference Distance"
+msgstr "参考距离"
+
+#: props.py:607
+msgid "Reference Length"
+msgstr "参考长度"
+
+#: props.py:749
+msgid "Reference Plane"
+msgstr "参考平面"
+
+#: ops_modal.py:840
+msgid "Remove"
+msgstr "移除"
+
+#: ops_render.py:46
+msgid "Remove the role: the object is rendered normally"
+msgstr "移除角色：物体将正常渲染"
+
+#: props.py:310
+msgid "Removed Roll"
+msgstr "已移除滚转"
+
+#: ui.py:378
+msgid "Render"
+msgstr "渲染"
+
+#: ops_modal.py:350
+#: ops_modal.py:760
+msgid "Render height changed to the image's aspect ratio"
+msgstr "渲染高度已按图像宽高比更改"
+
+#: ops_render.py:372
+msgid "Render role"
+msgstr "渲染角色"
+
+#: ui.py:151
+msgid "Render size has another aspect than the image: Apply or Calibrate fixes it"
+msgstr "渲染尺寸的宽高比与图像不同：应用或校准可修复"
+
+#: props.py:366
+#: props.py:367
+msgid "Replaced by Side"
+msgstr "已由侧面替换"
+
+#: ui.py:341
+msgid "Results"
+msgstr "结果"
+
+#: ops_render.py:372
+msgid "Role"
+msgstr "角色"
+
+#: props.py:303
+msgid "Roll"
+msgstr "滚转"
+
+#: props.py:768
+msgid "Rotation"
+msgstr "旋转"
+
+#: props.py:540
+msgid "Scale"
+msgstr "缩放"
+
+#: props.py:544
+#: props.py:584
+msgid "Scale Cube"
+msgstr "缩放立方体"
+
+#: props.py:382
+msgid "Scene axis the sun comes from: the shadows in the photo fall the other way (-Y is usually behind the camera)"
+msgstr "太阳来自的场景轴：照片中的阴影朝相反方向落下（-Y 通常在相机后方）"
+
+#: ui.py:386
+msgid "Scene not set up for the photo: use Prepare Render"
+msgstr "场景未针对照片设置：请使用准备渲染"
+
+#: props.py:767
+msgid "Scene target of the alignment"
+msgstr "对齐的场景目标"
+
+#: props.py:267
+msgid "Second"
+msgstr "秒"
+
+#: props.py:641
+msgid "Second Side"
+msgstr "第二条边"
+
+#: props.py:267
+msgid "Second of the shot"
+msgstr "拍摄时刻的秒"
+
+#: ops_align.py:120
+msgid "Select one face (or make one face active)"
+msgstr "选择一个面（或使一个面成为活动面）"
+
+#: props.py:297
+msgid "Sensor"
+msgstr "传感器"
+
+#: props.py:178
+msgid "Sensor Width"
+msgstr "传感器宽度"
+
+#: props.py:323
+#: props.py:368
+msgid "Shadow"
+msgstr "阴影"
+
+#: ops_render.py:30
+#: ops_render.py:394
+msgid "Shadow Catcher"
+msgstr "阴影捕捉器"
+
+#: props.py:337
+msgid "Shadow On"
+msgstr "阴影开启"
+
+#: ops_modal.py:283
+msgid "Shadow Only"
+msgstr "仅阴影"
+
+#: props.py:584
+msgid "Show the cube of known size on the reference plane, to check the scale by eye (known rectangle and horizon)"
+msgstr "在参考平面上显示已知尺寸的立方体，以便目测检查比例（已知矩形和地平线）"
+
+#: props.py:450
+msgid "Show the scene north and the sun direction on the ground through the origin while calibrating"
+msgstr "校准时在地面上通过原点显示场景北方和太阳方向"
+
+#: props.py:328
+msgid "Show the shadow handles (foot and top of something vertical, tip of its shadow) to check the north and the sun's height: the × marks where the Fit Sun sun puts the shadow tip"
+msgstr "显示阴影手柄（垂直物体的底部和顶部、其阴影尖端）以检查北方和太阳高度：× 标记 Fit Sun 太阳放置阴影尖端的位置"
+
+#: props.py:739
+msgid "Show the verification grid on the reference plane"
+msgstr "在参考平面上显示验证网格"
+
+#: props.py:373
+msgid "Side"
+msgstr "边"
+
+#: ui.py:253
+#: ui.py:254
+msgid "Side {}"
+msgstr "边 {}"
+
+#: props.py:715
+msgid "Solve"
+msgstr "求解"
+
+#: ui.py:245
+msgid "Solve needs three vanishing points: using the centre"
+msgstr "求解需要三个灭点：使用中心"
+
+#: props.py:661
+msgid "Solve the focal length from the guides, ignoring Camera Data"
+msgstr "从辅助线求解焦距，忽略相机数据"
+
+#: ui.py:101
+msgid "Solved principal point: the focal length comes from the guides"
+msgstr "已求解主点：焦距来自辅助线"
+
+#: props.py:460
+msgid "Source"
+msgstr "来源"
+
+#: ops_render.py:38
+msgid "Stand-in for a real object in front: shows the photo and hides the CG objects behind it. It still casts shadows: turn off Object > Visibility > Shadow if its shadow is already in the photo"
+msgstr "前方真实物体的替身：显示照片并隐藏其后的 CG 物体。它仍会投射阴影：如果照片中已有其阴影，请关闭 物体 > 可见性 > 阴影"
+
+#: ops_render.py:30
+msgid "Stand-in for a real surface of the photo: shows the photo, receives the shadows and light of the CG objects and hides what is behind it (Cycles only)"
+msgstr "照片中真实表面的替身：显示照片，接收 CG 物体的阴影和光照，并隐藏其后的内容（仅 Cycles）"
+
+#: props.py:655
+msgid "Start from the focal length in Camera Data and let the guides correct it as far as they measure it; when it is unknown, solve it from the guides"
+msgstr "从相机数据中的焦距开始，让辅助线在可测量范围内校正它；当未知时，从辅助线求解"
+
+#: props.py:724
+msgid "Straighten Horizon"
+msgstr "拉直地平线"
+
+#: props.py:317
+msgid "Sun From"
+msgstr "太阳来源"
+
+#: props.py:382
+msgid "Sun From Axis"
+msgstr "太阳来源轴"
+
+#: ops_hdri.py:724
+msgid "Sun Point"
+msgstr "太阳点"
+
+#: props.py:350
+msgid "Sun light that FTC turns towards the sun of the photo (only its rotation is changed)"
+msgstr "FTC 将其转向照片中太阳方向的太阳光（仅改变其旋转）"
+
+#: ops_render.py:277
+msgid "Switch the render engine to Cycles: EEVEE has no shadow catcher"
+msgstr "将渲染引擎切换为 Cycles：EEVEE 没有阴影捕捉器"
+
+#: props.py:219
+msgid "T = true north, M = magnetic north"
+msgstr "T = 真北，M = 磁北"
+
+#: ops_render.py:264
+msgid "The CG over the photo, with the shadows on the shadow catchers: the final image"
+msgstr "CG 叠加在照片上，阴影落在阴影捕捉器上：最终图像"
+
+#: props.py:288
+msgid "The GPS time and the camera clock disagree"
+msgstr "GPS 时间与相机时钟不一致"
+
+#: ops_load.py:257
+msgid "The chosen camera is no longer in the scene"
+msgstr "所选相机已不在场景中"
+
+#: ops_align.py:135
+msgid "The face has no area: select another face"
+msgstr "该面没有面积：请选择另一个面"
+
+#: props.py:342
+msgid "The ground: plane XY through the origin"
+msgstr "地面：穿过原点的 XY 平面"
+
+#: ops_load.py:296
+msgid "The image is stored rotated: use 'Make Upright Copy' in Camera Data"
+msgstr "图像以旋转状态存储：请在相机数据中使用“制作直立副本”"
+
+#: ops_load.py:389
+msgid "The photo cannot be read: is its file missing?"
+msgstr "无法读取照片：文件是否丢失？"
+
+#: props.py:600
+msgid "The reference length runs along X"
+msgstr "参考长度沿 X 轴"
+
+#: props.py:601
+msgid "The reference length runs along Y"
+msgstr "参考长度沿 Y 轴"
+
+#: props.py:602
+msgid "The reference length runs along Z"
+msgstr "参考长度沿 Z 轴"
+
+#: props.py:390
+msgid "The sun comes from the +X side"
+msgstr "太阳来自 +X 侧"
+
+#: props.py:392
+msgid "The sun comes from the +Y side"
+msgstr "太阳来自 +Y 侧"
+
+#: props.py:391
+msgid "The sun comes from the -X side"
+msgstr "太阳来自 -X 侧"
+
+#: props.py:393
+msgid "The sun comes from the -Y side"
+msgstr "太阳来自 -Y 侧"
+
+#: props.py:287
+msgid "The time is the GPS time (UTC) of the photo"
+msgstr "时间为照片的 GPS 时间（UTC）"
+
+#: props.py:343
+msgid "The wall XZ through the origin: put the origin where the wall meets the ground"
+msgstr "穿过原点的 XZ 墙面：将原点放在墙与地面的交线处"
+
+#: props.py:344
+msgid "The wall YZ through the origin: put the origin where the wall meets the ground"
+msgstr "穿过原点的 YZ 墙面：将原点放在墙与地面的交线处"
+
+#: props.py:671
+#: ui.py:232
+msgid "Third Axis Line"
+msgstr "第三轴线"
+
+#: props.py:715
+msgid "Three vanishing points only: solve it as their orthocentre (unstable when one is far away)"
+msgstr "仅三个灭点：按它们的垂心求解（当一个灭点很远时不稳定）"
+
+#: props.py:481
+msgid "Three vanishing points: solves focal length and principal point"
+msgstr "三个灭点：求解焦距和主点"
+
+#: props.py:276
+msgid "Time zone of the local time, daylight saving included (e.g. +2 for Italy in summer)"
+msgstr "本地时间的时区，包含夏令时（例如意大利夏季为 +2）"
+
+#: ui.py:583
+msgid "Tools"
+msgstr "工具"
+
+#: ops_render.py:269
+msgid "Transparent"
+msgstr "透明"
+
+#: ui.py:443
+msgid "Turn"
+msgstr "旋转"
+
+#: props.py:775
+msgid "Turn the reference plane over on the target"
+msgstr "将参考平面翻转到目标上"
+
+#: props.py:410
+msgid "Turns the sun about the vertical (with the compass: the scene north): adjust it until the CG shadows match the photo; phone compasses are often 5-15° off"
+msgstr "绕垂直轴旋转太阳（用罗盘确定场景北方）：调整到 CG 阴影与照片匹配；手机罗盘常有 5-15° 误差"
+
+#: props.py:480
+msgid "Two vanishing points: solves the focal length"
+msgstr "两个灭点：求解焦距"
+
+#: ui.py:416
+msgid "UTC"
+msgstr "UTC"
+
+#: props.py:276
+msgid "UTC Offset"
+msgstr "UTC 偏移"
+
+#: ops_render.py:277
+msgid "Use Cycles"
+msgstr "使用 Cycles"
+
+#: ui.py:312
+msgid "Use Stored Target"
+msgstr "使用已存目标"
+
+#: props.py:662
+msgid "Use the focal length in Camera Data as it is: the guides only set the orientation"
+msgstr "直接使用相机数据中的焦距：参考线仅设置方向"
+
+#: props.py:695
+msgid "Use the image direction from GPS metadata"
+msgstr "使用 GPS 元数据中的图像方向"
+
+#: ops_modal.py:839
+msgid "Vanishing Point"
+msgstr "灭点"
+
+#: props.py:486
+msgid "Vanishing Point 1"
+msgstr "灭点 1"
+
+#: props.py:496
+msgid "Vanishing Point 2"
+msgstr "灭点 2"
+
+#: props.py:503
+msgid "Vanishing Point 3"
+msgstr "灭点 3"
+
+#: props.py:468
+#: props.py:475
+msgid "Vanishing Points"
+msgstr "灭点"
+
+#: props.py:299
+msgid "Vertical FOV"
+msgstr "垂直视场角"
+
+#: ops_render.py:297
+msgid "View Transform: Standard, the photo unchanged"
+msgstr "视图变换：Standard，照片不变"
+
+#: props.py:343
+msgid "Wall XZ"
+msgstr "XZ 墙"
+
+#: props.py:344
+msgid "Wall YZ"
+msgstr "YZ 墙"
+
+#: props.py:625
+#: props.py:755
+msgid "Wall facing +X, with Z up"
+msgstr "墙面朝向 +X，Z 轴向上"
+
+#: props.py:624
+#: props.py:754
+msgid "Wall facing -Y, with Z up"
+msgstr "墙面朝向 -Y，Z 轴向上"
+
+#: props.py:462
+msgid "What in the image defines the camera"
+msgstr "图像中定义相机的依据"
+
+#: ops_render.py:260
+msgid "What the render gives"
+msgstr "渲染结果"
+
+#: props.py:690
+msgid "Where the camera heading comes from"
+msgstr "相机朝向的来源"
+
+#: props.py:317
+msgid "Where the direction of the sun comes from"
+msgstr "太阳方向的来源"
+
+#: props.py:651
+msgid "Where the focal length comes from (vanishing points and rectangle)"
+msgstr "焦距的来源（灭点和矩形）"
+
+#: props.py:199
+msgid "Where the photo was taken, degrees east (negative west); a city is close enough for the sun"
+msgstr "照片拍摄地，东经度数（西经为负）；对太阳而言城市级精度足够"
+
+#: props.py:190
+msgid "Where the photo was taken, degrees north (negative south); a city is close enough for the sun"
+msgstr "照片拍摄地，北纬度数（南纬为负）；对太阳而言城市级精度足够"
+
+#: props.py:154
+msgid "Width"
+msgstr "宽度"
+
+#: props.py:671
+msgid "With two vanishing points, add one line along the third axis (e.g. a vertical edge): it joins the calibration and keeps that axis on the image"
+msgstr "使用两个灭点时，沿第三轴添加一条线（例如一条垂直边）：它会加入校准，并使该轴在图像上保持正确"
+
+#: props.py:486
+msgid "World axis of the first guide pair: + runs along its first guide, from the first handle to the second (the arrow)"
+msgstr "第一对参考线的世界轴：+ 沿其第一条参考线，从第一个手柄指向第二个（箭头）"
+
+#: props.py:496
+msgid "World axis of the second guide pair, or of the axis line with one vanishing point"
+msgstr "第二组参考线对（或带单个灭点的轴线）的世界轴"
+
+#: props.py:503
+msgid "World axis of the third guide pair (follows from the first two)"
+msgstr "第三组参考线对的世界轴（由前两组决定）"
+
+#: props.py:732
+msgid "Write the camera on every change while calibrating"
+msgstr "校准时每次更改都写入相机"
+
+#: props.py:600
+msgid "X"
+msgstr "X"
+
+#: props.py:623
+#: props.py:753
+msgid "XY"
+msgstr "XY"
+
+#: props.py:624
+#: props.py:754
+msgid "XZ"
+msgstr "XZ"
+
+#: props.py:601
+msgid "Y"
+msgstr "Y"
+
+#: props.py:625
+#: props.py:755
+msgid "YZ"
+msgstr "YZ"
+
+#: props.py:304
+#: props.py:690
+msgid "Yaw"
+msgstr "偏航"
+
+#: props.py:223
+msgid "Year"
+msgstr "年份"
+
+#: props.py:223
+msgid "Year of the shot"
+msgstr "拍摄年份"
+
+#: props.py:602
+msgid "Z"
+msgstr "Z"
+
+#: props.py:440
+msgid "Z turn last given to the HDRI by FTC (radians)"
+msgstr "FTC 上次赋予 HDRI 的 Z 轴旋转（弧度）"
+
+#: ui.py:194
+msgid "{} not in the image metadata"
+msgstr "{} 不在图像元数据中"
+
+#: draw.py:478
+msgctxt "FTC"
+msgid "Sun"
+msgstr "太阳"
+
+#: ops_align.py:83
+msgctxt "Operator"
+msgid "3D Cursor"
+msgstr "3D 游标"
+
+#: ops_modal.py:830
+msgctxt "Operator"
+msgid "Add a guide line to this vanishing point (up to 6), between its first two lines: more lines average out the placement errors"
+msgstr "给此灭点添加一条参考线（最多 6 条），位于其前两条线之间：线条越多，越能平均化放置误差"
+
+#: ops_modal.py:745
+msgctxt "Operator"
+msgid "Apply"
+msgstr "应用"
+
+#: ops_modal.py:280
+#: ui.py:273
+msgctxt "Operator"
+msgid "Calibrate"
+msgstr "校准"
+
+#: ui.py:530
+msgctxt "Operator"
+msgid "Calibrate Shadow"
+msgstr "校准阴影"
+
+#: report.py:270
+msgctxt "Operator"
+msgid "Export Report"
+msgstr "导出报告"
+
+#: ops_orientation.py:87
+msgctxt "Operator"
+msgid "FTC Orientation"
+msgstr "FTC 方向"
+
+#: ops_hdri.py:720
+msgctxt "Operator"
+msgid "Fit HDRI"
+msgstr "适配 HDRI"
+
+#: ops_align.py:195
+msgctxt "Operator"
+msgid "Flip"
+msgstr "翻转"
+
+#: ops_modal.py:800
+msgctxt "Operator"
+msgid "Flip Axis Direction"
+msgstr "翻转轴方向"
+
+#: ops_modal.py:836
+msgctxt "Operator"
+msgid "Guide Lines"
+msgstr "参考线"
+
+#: ops_load.py:220
+msgctxt "Operator"
+msgid "Load Image"
+msgstr "加载图像"
+
+#: ops_load.py:375
+msgctxt "Operator"
+msgid "Make Upright Copy"
+msgstr "创建直立副本"
+
+#: ops_orientation.py:81
+msgctxt "Operator"
+msgid "Make the \"FTC\" transform orientation (the photo's calibrated axes, also after Align to Scene) the viewport's orientation: gizmo, G/R/S axes and snapping follow the photo. Click again to go back to Global"
+msgstr "将“FTC”变换方向（照片校准后的坐标轴，执行“对齐到场景”后也如此）设为视图方向：控件、G/R/S 轴和吸附都跟随照片。再次点击返回全局"
+
+#: ops_sun.py:346
+msgctxt "Operator"
+msgid "New Sun"
+msgstr "新建太阳"
+
+#: ops_render.py:257
+msgctxt "Operator"
+msgid "Prepare Render"
+msgstr "准备渲染"
+
+#: ops_align.py:97
+msgctxt "Operator"
+msgid "Put the reference plane on the selection. Edit Mode: the active face (centre, first edge as X, normal); with a known rectangle on a 4-sided face its size is taken from the face. Object Mode: the active object's location and rotation"
+msgstr "将参考平面放到选中项上。编辑模式：活动面（中心、第一条边为 X 轴、法线）；若四边面上有已知矩形，则从其获取尺寸。物体模式：活动物体的位置和旋转"
+
+#: ops_sun.py:378
+msgctxt "Operator"
+msgid "Read from Photo"
+msgstr "从照片读取"
+
+#: ops_modal.py:772
+msgctxt "Operator"
+msgid "Reset Guides"
+msgstr "重置参考线"
+
+#: ops_align.py:173
+msgctxt "Operator"
+msgid "Rotate 90°"
+msgstr "旋转 90°"
+
+#: report.py:265
+msgctxt "Operator"
+msgid "Save the calibration report: focal length, sensor, field of view, camera position and rotation, accuracy, guide fit, the source of every input and the sun, as Markdown or JSON"
+msgstr "保存校准报告：焦距、传感器、视场、相机位置与旋转、精度、参考线拟合、每个输入和太阳的来源，格式为 Markdown 或 JSON"
+
+#: ops_align.py:155
+msgctxt "Operator"
+msgid "Scene Origin"
+msgstr "场景原点"
+
+#: ops_align.py:103
+msgctxt "Operator"
+msgid "Selection"
+msgstr "选中项"
+
+#: ops_render.py:369
+msgctxt "Operator"
+msgid "Set Role of Selected"
+msgstr "设置选中项的角色"
+
+#: ui.py:273
+#: ui.py:530
+msgctxt "Operator"
+msgid "Stop Calibrating"
+msgstr "停止校准"
+
+#: ops_hdri.py:715
+msgctxt "Operator"
+msgid "Turn the World's HDRI about Z so that its sun takes the direction of the photo's sun: click the sun on the HDRI (FTC proposes the brightest spot), Enter applies"
+msgstr "绕 Z 轴旋转世界的 HDRI，使其太阳朝向照片中太阳的方向：在 HDRI 上点击太阳（FTC 会建议最亮点），按 Enter 应用"
+
+#: ops_load.py:326
+msgctxt "Operator"
+msgid "Use Camera"
+msgstr "使用相机"
+
+#: report.py:326
+msgctxt "Tooltip"
+msgid "Report saved: {}"
+msgstr "报告已保存：{}"
+
+#: ops_hdri.py:764
+msgctxt "Tooltip"
+msgid "The HDRI's sun is {:+.0f}° off the photo's in elevation: the shadows will not have the same length"
+msgstr "HDRI 的太阳仰角与照片中的太阳相差 {:+.0f}°：阴影长度将不同"

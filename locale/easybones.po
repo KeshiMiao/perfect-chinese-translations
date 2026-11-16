@@ -1,0 +1,327 @@
+# perfect-chinese: 1
+# id: easybones
+# kind: addon
+# module: bl_ext.blender_org.easybones
+# name: EasyBones
+# name_zh: 简易骨骼
+# translator: KeshiMiao
+# category: Rigging
+# supported_versions: >=5.0.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:355
+#: __init__.py:664
+msgid "Active"
+msgstr "活动"
+
+#: __init__.py:656
+#: __init__.py:777
+msgid "Armature"
+msgstr "骨架"
+
+#: __init__.py:777
+msgid "Armature that EasyBones creates and edits bones in"
+msgstr "EasyBones 用于创建和编辑骨骼的骨架"
+
+#: __init__.py:787
+msgid "Clone Layer / Copy Transform only touch the selected bones"
+msgstr "克隆层 / 复制变换仅作用于选中的骨骼"
+
+#: __init__.py:354
+msgid "Create a new bone"
+msgstr "创建新骨骼"
+
+#: __init__.py:627
+#: __init__.py:643
+msgid "EasyBones"
+msgstr "EasyBones"
+
+#: __init__.py:617
+msgid "EasyBones Select"
+msgstr "EasyBones 选择"
+
+#: __init__.py:789
+msgid "Follow"
+msgstr "跟随"
+
+#: __init__.py:511
+#: __init__.py:781
+msgid "From"
+msgstr "从"
+
+#: __init__.py:789
+msgid "How Prev/Next walk the chain"
+msgstr "上一个/下一个在链中的遍历方式"
+
+#: __init__.py:357
+msgid "Invert"
+msgstr "反转"
+
+#: __init__.py:238
+#: __init__.py:321
+msgid "Name"
+msgstr "名称"
+
+#: __init__.py:238
+#: __init__.py:321
+msgid "Name for the new bone"
+msgstr "新骨骼的名称"
+
+#: __init__.py:781
+msgid "Name prefix of the bones Clone Layer / Copy Transform take (e.g. DEF)"
+msgstr "克隆层 / 复制变换所取骨骼的名称前缀（例如 DEF）"
+
+#: __init__.py:511
+msgid "Name prefix of the bones to take"
+msgstr "要取用的骨骼的名称前缀"
+
+#: __init__.py:784
+msgid "Name prefix of their counterparts, e.g. ORG. Clone Layer also puts the copies in a bone collection with this name"
+msgstr "对应骨骼的名称前缀，例如 ORG。克隆层还会把副本放入以此命名的骨骼集合"
+
+#: __init__.py:512
+msgid "Name prefix that replaces it on the counterpart bones"
+msgstr "在对应骨骼上替换它的名称前缀"
+
+#: __init__.py:791
+msgid "Naming"
+msgstr "命名"
+
+#: __init__.py:354
+msgid "New"
+msgstr "新建"
+
+#: __init__.py:792
+msgid "Next goes to the first child, Prev to the parent"
+msgstr "下一个跳到第一个子级，上一个跳到父级"
+
+#: __init__.py:216
+#: __init__.py:452
+msgid "No active bone"
+msgstr "无活动骨骼"
+
+#: __init__.py:415
+msgid "No mesh to return to. First select a mesh and flip from there"
+msgstr "没有可返回的网格。请先选择一个网格并从那里切换"
+
+#: __init__.py:220
+msgid "No vertices selected"
+msgstr "未选中顶点"
+
+#: __init__.py:513
+msgid "Only consider selected bones"
+msgstr "仅考虑选中的骨骼"
+
+#: __init__.py:745
+msgid "Panel Category"
+msgstr "面板类别"
+
+#: __init__.py:792
+msgid "Parenting"
+msgstr "父级"
+
+#: __init__.py:687
+msgid "Place Bones"
+msgstr "放置骨骼"
+
+#: __init__.py:791
+msgid "Prev/Next step through the number in the bone name (spine.01 -> spine.02) and cycle: the last goes back to the first"
+msgstr "上一个/下一个按骨骼名称中的编号步进（spine.01 -> spine.02）并循环：最后一个回到第一个"
+
+#: __init__.py:355
+msgid "Refit the active bone (connected neighbors follow)"
+msgstr "重新适配活动骨骼（相连的相邻骨骼随之调整）"
+
+#: __init__.py:709
+msgid "Rig Layers"
+msgstr "绑定层"
+
+#: __init__.py:646
+msgid "Rigging"
+msgstr "绑定"
+
+#: __init__.py:668
+msgid "Select Bone"
+msgstr "选择骨骼"
+
+#: __init__.py:513
+#: __init__.py:787
+msgid "Selected Only"
+msgstr "仅选中项"
+
+#: __init__.py:527
+msgid "Set different From and To prefixes"
+msgstr "设置不同的“从”和“到”前缀"
+
+#: __init__.py:751
+msgid "Set the category to show EasyBones panel:"
+msgstr "设置显示 EasyBones 面板的类别："
+
+#: __init__.py:745
+msgid "Sidebar tab the EasyBones panel appears in"
+msgstr "EasyBones 面板所在的侧边栏标签"
+
+#: __init__.py:357
+msgid "Swap head and tail"
+msgstr "交换头尾"
+
+#: __init__.py:353
+msgid "Target"
+msgstr "目标"
+
+#: __init__.py:512
+#: __init__.py:784
+msgid "To"
+msgstr "到"
+
+#: __init__.py:726
+msgctxt "Operator"
+msgid "Clone Layer"
+msgstr "克隆层"
+
+#: __init__.py:727
+msgctxt "Operator"
+msgid "Copy Transform"
+msgstr "复制变换"
+
+#: __init__.py:658
+msgctxt "Operator"
+msgid "EDIT_MESH"
+msgstr "EDIT_MESH"
+
+#: __init__.py:539
+msgctxt "Operator"
+msgid "EasyBones Clone Layer"
+msgstr "EasyBones 克隆层"
+
+#: __init__.py:581
+msgctxt "Operator"
+msgid "EasyBones Copy Transform"
+msgstr "EasyBones 复制变换"
+
+#: __init__.py:319
+msgctxt "Operator"
+msgid "EasyBones Extend"
+msgstr "EasyBones 延伸"
+
+#: __init__.py:390
+msgctxt "Operator"
+msgid "EasyBones Flip"
+msgstr "EasyBones 切换"
+
+#: __init__.py:260
+msgctxt "Operator"
+msgid "EasyBones Head"
+msgstr "EasyBones 头部"
+
+#: __init__.py:298
+msgctxt "Operator"
+msgid "EasyBones Move"
+msgstr "EasyBones 移动"
+
+#: __init__.py:236
+msgctxt "Operator"
+msgid "EasyBones New"
+msgstr "EasyBones 新建"
+
+#: __init__.py:473
+msgctxt "Operator"
+msgid "EasyBones Select Mirror"
+msgstr "EasyBones 选择镜像"
+
+#: __init__.py:492
+msgctxt "Operator"
+msgid "EasyBones Select Next"
+msgstr "EasyBones 选择下一个"
+
+#: __init__.py:501
+msgctxt "Operator"
+msgid "EasyBones Select Previous"
+msgstr "EasyBones 选择上一个"
+
+#: __init__.py:351
+msgctxt "Operator"
+msgid "EasyBones Span"
+msgstr "EasyBones 跨越"
+
+#: __init__.py:279
+msgctxt "Operator"
+msgid "EasyBones Tail"
+msgstr "EasyBones 尾部"
+
+#: __init__.py:633
+#: __init__.py:700
+msgctxt "Operator"
+msgid "Extend"
+msgstr "延伸"
+
+#: __init__.py:634
+#: __init__.py:658
+msgctxt "Operator"
+msgid "Flip to Armature"
+msgstr "切换到骨架"
+
+#: __init__.py:658
+msgctxt "Operator"
+msgid "Flip to Mesh"
+msgstr "切换到网格"
+
+#: __init__.py:638
+#: __init__.py:703
+msgctxt "Operator"
+msgid "Head"
+msgstr "头"
+
+#: __init__.py:623
+msgctxt "Operator"
+msgid "Mirror"
+msgstr "镜像"
+
+#: __init__.py:683
+msgctxt "Operator"
+msgid "Mirror (.L / .R)"
+msgstr "镜像（.L / .R）"
+
+#: __init__.py:636
+#: __init__.py:705
+msgctxt "Operator"
+msgid "Move"
+msgstr "移动"
+
+#: __init__.py:632
+#: __init__.py:699
+msgctxt "Operator"
+msgid "New"
+msgstr "新建"
+
+#: __init__.py:622
+#: __init__.py:682
+msgctxt "Operator"
+msgid "Next"
+msgstr "下一个"
+
+#: __init__.py:681
+msgctxt "Operator"
+msgid "Prev"
+msgstr "上一个"
+
+#: __init__.py:621
+msgctxt "Operator"
+msgid "Previous"
+msgstr "上一个"
+
+#: __init__.py:635
+#: __init__.py:701
+msgctxt "Operator"
+msgid "Span"
+msgstr "跨度"
+
+#: __init__.py:639
+#: __init__.py:704
+msgctxt "Operator"
+msgid "Tail"
+msgstr "尾部"

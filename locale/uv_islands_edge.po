@@ -1,0 +1,533 @@
+# perfect-chinese: 1
+# id: uv_islands_edge
+# kind: addon
+# module: bl_ext.blender_org.uv_islands_edge
+# name: UV Islands Edge
+# name_zh: 纹理岛边缘
+# translator: KeshiMiao
+# category: UV
+# supported_versions: >=5.0.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: Uv_islands_Edge/__init__.py:1722
+msgid "Actions"
+msgstr "操作"
+
+#: Uv_islands_Edge/__init__.py:1581
+msgid "Active Tile"
+msgstr "活动瓦片"
+
+#: Uv_islands_Edge/__init__.py:1544
+msgid "Allow Island Rotation"
+msgstr "允许孤岛旋转"
+
+#: Uv_islands_Edge/__init__.py:1549
+msgid "Allow Island Scaling"
+msgstr "允许孤岛缩放"
+
+#: Uv_islands_Edge/__init__.py:1544
+msgid "Allow the packer to rotate islands to achieve tighter packing density"
+msgstr "允许打包器旋转孤岛以获得更紧密的打包密度"
+
+#: Uv_islands_Edge/__init__.py:1549
+msgid "Allow the packer to scale islands uniformly to fit the layout"
+msgstr "允许打包器均匀缩放孤岛以适配布局"
+
+#: Uv_islands_Edge/__init__.py:1522
+msgid "Allowed angle deviation (in degrees) between each face's UV grain and the model's real vertical (Z) axis before it is flagged as Rotated/Horizontal. Evaluated per-face, not against the island's average"
+msgstr "每个面的 UV 纹理方向与模型真实垂直轴 (Z) 之间允许的角度偏差（度），超出则标记为旋转/水平。逐面评估，而非与孤岛平均值比较"
+
+#: Uv_islands_Edge/__init__.py:1503
+msgid "Analyze and display the directional alignment and winding order of UV island faces"
+msgstr "分析并显示 UV 孤岛面的方向对齐与绕序"
+
+#: Uv_islands_Edge/__init__.py:1517
+msgid "Arrow Size"
+msgstr "箭头大小"
+
+#: Uv_islands_Edge/__init__.py:1575
+msgid "Assign a distinct color to each tile automatically"
+msgstr "自动为每个瓦片分配不同的颜色"
+
+#: Uv_islands_Edge/__init__.py:1432
+msgid "Auto Detect"
+msgstr "自动检测"
+
+#: Uv_islands_Edge/__init__.py:1575
+msgid "Automatic Colors"
+msgstr "自动颜色"
+
+#: Uv_islands_Edge/__init__.py:1539
+msgid "Automatically flip mirrored UV islands before running pack execution"
+msgstr "执行打包前自动翻转镜像的 UV 孤岛"
+
+#: Uv_islands_Edge/__init__.py:1432
+msgid "Automatically recalculate contours right after a transform ends"
+msgstr "变换结束后自动重新计算轮廓"
+
+#: Uv_islands_Edge/__init__.py:1571
+msgid "Choose whether UDIM tile colors (island fill and grid) are generated automatically or set manually per tile"
+msgstr "选择 UDIM 瓦片颜色（孤岛填充和网格）是自动生成还是按瓦片手动设置"
+
+#: Uv_islands_Edge/__init__.py:1492
+msgid "Choose whether to display only the heatmap colors or include orientation flags"
+msgstr "选择仅显示热力图颜色还是包含方向标记"
+
+#: Uv_islands_Edge/__init__.py:1420
+msgid "Color"
+msgstr "颜色"
+
+#: Uv_islands_Edge/__init__.py:1442
+msgid "Color when an island is near another"
+msgstr "孤岛靠近另一孤岛时的颜色"
+
+#: Uv_islands_Edge/__init__.py:1437
+#: Uv_islands_Edge/__init__.py:1645
+msgid "Contour"
+msgstr "轮廓"
+
+#: Uv_islands_Edge/__init__.py:1532
+msgid "Contour Distance"
+msgstr "轮廓距离"
+
+#: Uv_islands_Edge/__init__.py:1618
+#: Uv_islands_Edge/__init__.py:1844
+msgid "Contour of UV Islands"
+msgstr "UV 孤岛轮廓"
+
+#: Uv_islands_Edge/__init__.py:1050
+msgid "Contours cleared: %d entry(s) removed"
+msgstr "已清除轮廓：移除了 %d 项"
+
+#: Uv_islands_Edge/__init__.py:1477
+msgid "Coordinate rounding precision used for welding and matching UV vertices"
+msgstr "用于焊接和匹配 UV 顶点的坐标取整精度"
+
+#: Uv_islands_Edge/__init__.py:1576
+msgid "Custom Colors"
+msgstr "自定义颜色"
+
+#: Uv_islands_Edge/__init__.py:1534
+#: Uv_islands_Edge/__init__.py:1538
+msgid "Custom Margin"
+msgstr "自定义边距"
+
+#: Uv_islands_Edge/__init__.py:1492
+msgid "Display Mode"
+msgstr "显示模式"
+
+#: Uv_islands_Edge/__init__.py:1566
+msgid "Display islands from every detected UDIM tile at the same time"
+msgstr "同时显示所有检测到的 UDIM 瓦片中的孤岛"
+
+#: Uv_islands_Edge/__init__.py:1508
+msgid "Display letter labels (H, V, R, M) on top of face orientation arrows"
+msgstr "在面方向箭头上方显示字母标签（H、V、R、M）"
+
+#: Uv_islands_Edge/__init__.py:1457
+msgid "Distance"
+msgstr "距离"
+
+#: Uv_islands_Edge/__init__.py:1462
+msgid "Distance threshold to trigger the 'Near' and 'Overlap' color highlights"
+msgstr "触发「靠近」和「重叠」颜色高亮的距离阈值"
+
+#: Uv_islands_Edge/__init__.py:1457
+msgid "Distance to offset the contour from the UV island boundaries"
+msgstr "轮廓相对 UV 孤岛边界的偏移距离"
+
+#: Uv_islands_Edge/__init__.py:1561
+msgid "Draw tile boundary squares and tile numbers over the UV editor"
+msgstr "在 UV 编辑器上绘制瓦片边界方框和瓦片编号"
+
+#: Uv_islands_Edge/__init__.py:1427
+msgid "Enable"
+msgstr "启用"
+
+#: Uv_islands_Edge/__init__.py:1484
+msgid "Enable Heatmap"
+msgstr "启用热力图"
+
+#: Uv_islands_Edge/__init__.py:1556
+msgid "Enable UDIM Tiles"
+msgstr "启用 UDIM 瓦片"
+
+#: Uv_islands_Edge/__init__.py:1556
+msgid "Enable UDIM tile detection: groups islands by tile, shows a distinct color per tile and enables the tile list and report export"
+msgstr "启用 UDIM 瓦片检测：按瓦片对孤岛分组，为每个瓦片显示不同颜色，并启用瓦片列表和报告导出"
+
+#: Uv_islands_Edge/__init__.py:1427
+msgid "Enable the UV Islands Edge overlay in the UV Editor"
+msgstr "在 UV 编辑器中启用 UV Islands Edge 叠加层"
+
+#: Uv_islands_Edge/__init__.py:1503
+#: Uv_islands_Edge/__init__.py:1690
+msgid "Face Orientation"
+msgstr "面方向"
+
+#: Uv_islands_Edge/__init__.py:1077
+msgid "Faces belonging to a UV island that overlaps another island"
+msgstr "属于与另一孤岛重叠的 UV 孤岛的面"
+
+#: Uv_islands_Edge/__init__.py:1076
+msgid "Faces whose UV grain deviates from the model's real vertical (Z) axis (Rotated / R)"
+msgstr "UV 纹理方向偏离模型真实垂直轴 (Z) 的面（旋转 / R）"
+
+#: Uv_islands_Edge/__init__.py:1075
+msgid "Faces whose UV winding is reversed (Mirrored / M)"
+msgstr "UV 绕序反转的面（镜像 / M）"
+
+#: Uv_islands_Edge/__init__.py:1684
+msgid "Far"
+msgstr "远端"
+
+#: Uv_islands_Edge/__init__.py:1491
+msgid "Far Color"
+msgstr "远端颜色"
+
+#: Uv_islands_Edge/__init__.py:1539
+msgid "Fix Mirrored Before Pack"
+msgstr "打包前修复镜像"
+
+#: Uv_islands_Edge/__init__.py:1072
+msgid "Flag"
+msgstr "标记"
+
+#: Uv_islands_Edge/__init__.py:1497
+msgid "Heatmap + Flags"
+msgstr "热力图 + 标记"
+
+#: Uv_islands_Edge/__init__.py:1496
+msgid "Heatmap Only"
+msgstr "仅热力图"
+
+#: Uv_islands_Edge/__init__.py:1665
+msgid "Heatmap Options"
+msgstr "热力图选项"
+
+#: Uv_islands_Edge/__init__.py:1447
+msgid "Highlight color used when a UV island truly overlaps another"
+msgstr "UV 孤岛确实与另一孤岛重叠时使用的高亮颜色"
+
+#: Uv_islands_Edge/__init__.py:1513
+#: Uv_islands_Edge/__init__.py:1708
+msgid "Horizontal (H)"
+msgstr "水平 (H)"
+
+#: Uv_islands_Edge/__init__.py:1415
+msgid "Islands"
+msgstr "孤岛"
+
+#: Uv_islands_Edge/__init__.py:1452
+msgid "Line thickness for the drawn contours"
+msgstr "绘制轮廓的线条粗细"
+
+#: Uv_islands_Edge/__init__.py:1576
+msgid "Manually choose the color for each tile from the tile list"
+msgstr "从瓦片列表中手动为每个瓦片选择颜色"
+
+#: Uv_islands_Edge/__init__.py:1529
+msgid "Margin Source"
+msgstr "边距来源"
+
+#: Uv_islands_Edge/__init__.py:1485
+msgid "Max Heatmap Distance"
+msgstr "最大热力图距离"
+
+#: Uv_islands_Edge/__init__.py:1485
+msgid "Maximum distance threshold for the proximity heatmap visualization"
+msgstr "邻近热力图可视化的最大距离阈值"
+
+#: Uv_islands_Edge/__init__.py:1472
+msgid "Min island segments"
+msgstr "孤岛最少分段数"
+
+#: Uv_islands_Edge/__init__.py:1472
+msgid "Minimum number of edge segments an island must have to be processed"
+msgstr "孤岛必须具有的最小边分段数才会被处理"
+
+#: Uv_islands_Edge/__init__.py:1075
+#: Uv_islands_Edge/__init__.py:1417
+msgid "Mirrored"
+msgstr "镜像"
+
+#: Uv_islands_Edge/__init__.py:1516
+#: Uv_islands_Edge/__init__.py:1713
+msgid "Mirrored (M)"
+msgstr "镜像 (M)"
+
+#: Uv_islands_Edge/__init__.py:1646
+#: Uv_islands_Edge/__init__.py:1683
+msgid "Near"
+msgstr "邻近"
+
+#: Uv_islands_Edge/__init__.py:1442
+msgid "Near Color"
+msgstr "邻近颜色"
+
+#: Uv_islands_Edge/__init__.py:1808
+msgid "No UDIM tiles detected yet. Recalculate contours."
+msgstr "尚未检测到 UDIM 平铺。请重新计算轮廓。"
+
+#: Uv_islands_Edge/__init__.py:1050
+msgid "No cached contours found."
+msgstr "未找到缓存的轮廓。"
+
+#: Uv_islands_Edge/__init__.py:1467
+msgid "Only Selected"
+msgstr "仅选中"
+
+#: Uv_islands_Edge/__init__.py:1467
+msgid "Only calculate and draw contours for selected objects in edit mode"
+msgstr "仅计算并绘制编辑模式下选中物体的轮廓"
+
+#: Uv_islands_Edge/__init__.py:1653
+msgid "Options (optimizations)"
+msgstr "选项（优化）"
+
+#: Uv_islands_Edge/__init__.py:1419
+msgid "Out of Range"
+msgstr "超出范围"
+
+#: Uv_islands_Edge/__init__.py:1437
+msgid "Outline color for standard non-overlapping UV islands"
+msgstr "标准非重叠 UV 孤岛的轮廓颜色"
+
+#: Uv_islands_Edge/__init__.py:1647
+msgid "Overlap"
+msgstr "重叠"
+
+#: Uv_islands_Edge/__init__.py:1447
+msgid "Overlap Color"
+msgstr "重叠颜色"
+
+#: Uv_islands_Edge/__init__.py:1077
+#: Uv_islands_Edge/__init__.py:1416
+msgid "Overlapping"
+msgstr "重叠"
+
+#: Uv_islands_Edge/__init__.py:1462
+#: Uv_islands_Edge/__init__.py:1533
+msgid "Proximity Threshold"
+msgstr "邻近阈值"
+
+#: Uv_islands_Edge/__init__.py:1742
+msgid "Quick fix"
+msgstr "快速修复"
+
+#: Uv_islands_Edge/__init__.py:1816
+msgid "Report"
+msgstr "报告"
+
+#: Uv_islands_Edge/__init__.py:1076
+msgid "Rotated"
+msgstr "已旋转"
+
+#: Uv_islands_Edge/__init__.py:1515
+#: Uv_islands_Edge/__init__.py:1712
+msgid "Rotated (R)"
+msgstr "已旋转 (R)"
+
+#: Uv_islands_Edge/__init__.py:1522
+msgid "Rotation Tolerance (deg)"
+msgstr "旋转容差（度）"
+
+#: Uv_islands_Edge/__init__.py:1517
+msgid "Scale factor for the directional orientation arrows displayed on faces"
+msgstr "面上显示的方向箭头缩放系数"
+
+#: Uv_islands_Edge/__init__.py:1566
+msgid "Show All Tiles"
+msgstr "显示所有平铺"
+
+#: Uv_islands_Edge/__init__.py:1508
+msgid "Show Labels"
+msgstr "显示标签"
+
+#: Uv_islands_Edge/__init__.py:1561
+msgid "Show UDIM Grid"
+msgstr "显示 UDIM 网格"
+
+#: Uv_islands_Edge/__init__.py:1497
+msgid "Show heatmap contours along with directional orientation flags"
+msgstr "显示热力图轮廓及方向朝向标记"
+
+#: Uv_islands_Edge/__init__.py:1496
+msgid "Show only proximity heatmap contours"
+msgstr "仅显示邻近热力图轮廓"
+
+#: Uv_islands_Edge/__init__.py:1748
+msgid "Smart Packing Integration"
+msgstr "智能打包集成"
+
+#: Uv_islands_Edge/__init__.py:1735
+msgid "Smart selection"
+msgstr "智能选择"
+
+#: Uv_islands_Edge/__init__.py:1418
+msgid "Spanning"
+msgstr "跨平铺"
+
+#: Uv_islands_Edge/__init__.py:1534
+msgid "Specify a separate distinct layout margin"
+msgstr "指定单独且独立的布局边距"
+
+#: Uv_islands_Edge/__init__.py:1452
+msgid "Thickness"
+msgstr "厚度"
+
+#: Uv_islands_Edge/__init__.py:1414
+msgid "Tile"
+msgstr "平铺"
+
+#: Uv_islands_Edge/__init__.py:1571
+msgid "Tile Color Mode"
+msgstr "平铺颜色模式"
+
+#: Uv_islands_Edge/__init__.py:1804
+msgid "Tiles"
+msgstr "平铺"
+
+#: Uv_islands_Edge/__init__.py:1778
+msgid "UDIM Tiles"
+msgstr "UDIM 平铺"
+
+#: Uv_islands_Edge/__init__.py:1622
+#: Uv_islands_Edge/__init__.py:1669
+msgid "UV Islands Edge"
+msgstr "UV Islands Edge"
+
+#: Uv_islands_Edge/__init__.py:1477
+msgid "UV Precision"
+msgstr "UV 精度"
+
+#: Uv_islands_Edge/__init__.py:1533
+msgid "Use collision safety threshold distance"
+msgstr "使用碰撞安全阈值距离"
+
+#: Uv_islands_Edge/__init__.py:1532
+msgid "Use global outline separation offset value"
+msgstr "使用全局轮廓分离偏移值"
+
+#: Uv_islands_Edge/__init__.py:1514
+#: Uv_islands_Edge/__init__.py:1709
+msgid "Vertical (V)"
+msgstr "垂直 (V)"
+
+#: Uv_islands_Edge/__init__.py:1490
+msgid "Very Near Color"
+msgstr "极近颜色"
+
+#: Uv_islands_Edge/__init__.py:1039
+#: Uv_islands_Edge/__init__.py:1662
+msgctxt "Operator"
+msgid "Clear contours"
+msgstr "清除轮廓"
+
+#: Uv_islands_Edge/__init__.py:1040
+msgctxt "Operator"
+msgid "Clear contours cached inside memory"
+msgstr "清除内存中缓存的轮廓"
+
+#: Uv_islands_Edge/__init__.py:1361
+msgctxt "Operator"
+msgid "Display islands from every detected UDIM tile at the same time"
+msgstr "同时显示每个检测到的 UDIM 平铺中的孤岛"
+
+#: Uv_islands_Edge/__init__.py:1383
+#: Uv_islands_Edge/__init__.py:1817
+msgctxt "Operator"
+msgid "Export Report"
+msgstr "导出报告"
+
+#: Uv_islands_Edge/__init__.py:1384
+msgctxt "Operator"
+msgid "Export a text report with island counts and detected problems (overlaps, mirrored faces, tile-spanning islands) per UDIM tile"
+msgstr "导出文本报告，包含每个 UDIM 平铺的孤岛数量及检测到的问题（重叠、镜像面、跨平铺孤岛）"
+
+#: Uv_islands_Edge/__init__.py:1138
+#: Uv_islands_Edge/__init__.py:1745
+msgctxt "Operator"
+msgid "Fix Mirrored Faces"
+msgstr "修复镜像面"
+
+#: Uv_islands_Edge/__init__.py:1139
+msgctxt "Operator"
+msgid "Flip the normals of all faces currently flagged as Mirrored (M)"
+msgstr "翻转所有当前标记为镜像 (M) 的面的法线"
+
+#: Uv_islands_Edge/__init__.py:1056
+msgctxt "Operator"
+msgid "Force optimization scan for all islands"
+msgstr "强制对所有孤岛执行优化扫描"
+
+#: Uv_islands_Edge/__init__.py:1775
+msgctxt "Operator"
+msgid "Pack Islands (Smart)"
+msgstr "打包孤岛（智能）"
+
+#: Uv_islands_Edge/__init__.py:1183
+msgctxt "Operator"
+msgid "Pack each UDIM tile's islands independently (never crossing tiles) and grow the margin automatically until every island respects the Proximity Threshold"
+msgstr "独立打包每个 UDIM 平铺中的孤岛（绝不跨平铺），并自动增大边距，直到每个孤岛都满足邻近阈值"
+
+#: Uv_islands_Edge/__init__.py:1055
+#: Uv_islands_Edge/__init__.py:1661
+msgctxt "Operator"
+msgid "Recalculate contours"
+msgstr "重新计算轮廓"
+
+#: Uv_islands_Edge/__init__.py:1813
+msgctxt "Operator"
+msgid "Refresh"
+msgstr "刷新"
+
+#: Uv_islands_Edge/__init__.py:1370
+msgctxt "Operator"
+msgid "Reset Tile Colors"
+msgstr "重置平铺颜色"
+
+#: Uv_islands_Edge/__init__.py:1371
+msgctxt "Operator"
+msgid "Reset every UDIM tile color back to the automatic palette"
+msgstr "将每个 UDIM 平铺的颜色重置为自动调色板"
+
+#: Uv_islands_Edge/__init__.py:1069
+msgctxt "Operator"
+msgid "Select Faces by Flag"
+msgstr "按标记选择面"
+
+#: Uv_islands_Edge/__init__.py:1737
+msgctxt "Operator"
+msgid "Select Mirrored"
+msgstr "选择镜像面"
+
+#: Uv_islands_Edge/__init__.py:1739
+msgctxt "Operator"
+msgid "Select Overlapping"
+msgstr "选择重叠面"
+
+#: Uv_islands_Edge/__init__.py:1738
+msgctxt "Operator"
+msgid "Select Rotated"
+msgstr "选择已旋转面"
+
+#: Uv_islands_Edge/__init__.py:1360
+#: Uv_islands_Edge/__init__.py:1812
+msgctxt "Operator"
+msgid "Show All Tiles"
+msgstr "显示所有平铺"
+
+#: Uv_islands_Edge/__init__.py:1182
+msgctxt "Operator"
+msgid "Smart Pack Islands"
+msgstr "智能打包孤岛"
+
+#: Uv_islands_Edge/__init__.py:1851
+msgctxt "Operator"
+msgid "Web / GitHub"
+msgstr "网页 / GitHub"

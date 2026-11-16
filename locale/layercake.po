@@ -1,0 +1,187 @@
+# perfect-chinese: 1
+# id: layercake
+# kind: addon
+# module: bl_ext.blender_org.layercake
+# name: LayerCake
+# name_zh: 渲染层合成
+# translator: KeshiMiao
+# category: Compositing
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: operators.py:50
+#: operators.py:432
+msgid "Add a Cryptomatte picker for the Material layer, when present on the source"
+msgstr "当源中存在材质层时，为其添加 Cryptomatte 拾取器"
+
+#: operators.py:45
+#: operators.py:427
+msgid "Add a Cryptomatte picker for the Object layer, when present on the source"
+msgstr "当源中存在物体层时，为其添加 Cryptomatte 拾取器"
+
+#: operators.py:407
+msgid "All Sources"
+msgstr "所有源"
+
+#: operators.py:35
+#: operators.py:417
+msgid "Auto-enable Missing Passes"
+msgstr "自动启用缺失通道"
+
+#: operators.py:407
+msgid "Build an independent LayerCake for every Render Layers / EXR node in the tree, instead of only the selected one"
+msgstr "为节点树中的每个渲染层 / EXR 节点各构建独立的 LayerCake，而不仅是选中的那个"
+
+#: operators.py:60
+#: operators.py:442
+msgid "Connect Viewer"
+msgstr "连接查看器"
+
+#: ui.py:115
+msgid "Cryptomatte"
+msgstr "Cryptomatte"
+
+#: operators.py:55
+#: operators.py:437
+msgid "Exclude Environment from the sum and keep alpha, matching a transparent-film render"
+msgstr "从总和中排除环境并保留 alpha，以匹配透明胶片渲染"
+
+#: operators.py:40
+#: operators.py:422
+msgid "Expose Extra Passes"
+msgstr "暴露额外通道"
+
+#: operators.py:55
+#: operators.py:437
+msgid "Film Transparent"
+msgstr "胶片透明"
+
+#: ui.py:121
+msgid "IDs"
+msgstr "ID"
+
+#: operators.py:30
+#: operators.py:412
+msgid "Include Source in Group"
+msgstr "在组中包含源"
+
+#: ui.py:19
+#: ui.py:23
+msgid "LayerCake"
+msgstr "LayerCake"
+
+#: ui.py:45
+msgid "LayerCakes built: %d"
+msgstr "已构建 LayerCake：%d"
+
+#: operators.py:50
+#: operators.py:432
+msgid "Material"
+msgstr "材质"
+
+#: operators.py:786
+msgid "No LayerCake group found in this tree."
+msgstr "此节点树中未找到 LayerCake 组。"
+
+#: operators.py:478
+msgid "No Render Layers / EXR nodes found in this tree."
+msgstr "此节点树中未找到渲染层 / EXR 节点。"
+
+#: operators.py:471
+msgid "No compositor node tree active."
+msgstr "没有活动的合成器节点树。"
+
+#: operators.py:502
+msgid "Nothing was built."
+msgstr "未构建任何内容。"
+
+#: operators.py:45
+#: operators.py:427
+msgid "Object"
+msgstr "物体"
+
+#: operators.py:35
+#: operators.py:417
+msgid "On Render Layers: switch on the view-layer passes needed for the reconstruction (requires a re-render)"
+msgstr "在渲染层上：开启重建所需的视图层通道（需要重新渲染）"
+
+#: operators.py:40
+#: operators.py:422
+msgid "Pass AO / Depth / Normal / Vector / Mist / Index … through as named group outputs"
+msgstr "将 AO / 深度 / 法线 / 矢量 / 雾 / 索引…作为命名的组输出传递"
+
+#: operators.py:30
+#: operators.py:412
+msgid "Put a copy of the Render Layers / EXR node inside the LayerCake group so it is fully self-contained, instead of feeding it from the outside"
+msgstr "在 LayerCake 组内放置渲染层 / EXR 节点的副本，使其完全自包含，而不是从外部输入"
+
+#: operators.py:767
+msgid "Remove All"
+msgstr "全部移除"
+
+#: operators.py:767
+msgid "Remove every LayerCake in the tree, not just the selected one"
+msgstr "移除节点树中的所有 LayerCake，而不仅是选中的那个"
+
+#: ui.py:85
+msgid "Render Layers or multilayer EXR"
+msgstr "渲染层或多层 EXR"
+
+#: operators.py:483
+msgid "Select a Render Layers / EXR node, or a LayerCake group to update."
+msgstr "选择渲染层 / EXR 节点，或要更新的 LayerCake 组。"
+
+#: ui.py:47
+msgid "Selected: %s \"%s\""
+msgstr "已选择：%s \"%s\""
+
+#: operators.py:65
+#: operators.py:447
+msgid "Set As Composite Output"
+msgstr "设为合成输出"
+
+#: ui.py:44
+msgid "Sources: %d Render Layers · %d EXR"
+msgstr "源：%d 个渲染层 · %d 个 EXR"
+
+#: operators.py:447
+msgid "When run on the scene's top compositor, route Combined to the Group Output"
+msgstr "在场景顶层合成器上运行时，将合并连接到组输出"
+
+#: operators.py:65
+msgid "When run on the scene's top compositor, route Combined to the Group Output (single source only — with several sources the output is ambiguous)"
+msgstr "在场景顶层合成器上运行时，将合并连接到组输出（仅限单一源——多个源时输出不明确）"
+
+#: operators.py:60
+#: operators.py:442
+msgid "Wire the Combined result into a Viewer node for instant feedback"
+msgstr "将合并结果连接到查看器节点以即时查看"
+
+#: operators.py:404
+msgctxt "Operator"
+msgid "Bake Combined"
+msgstr "烘焙合并"
+
+#: ui.py:118
+msgctxt "Operator"
+msgid "Pick %s"
+msgstr "拾取 %s"
+
+#: operators.py:876
+msgctxt "Operator"
+msgid "Pick Cryptomatte"
+msgstr "拾取 Cryptomatte"
+
+#: ui.py:103
+msgctxt "Operator"
+msgid "Remove All LayerCakes"
+msgstr "移除所有 LayerCake"
+
+#: operators.py:764
+msgctxt "Operator"
+msgid "Remove LayerCake"
+msgstr "移除 LayerCake"

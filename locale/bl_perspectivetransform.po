@@ -1,0 +1,158 @@
+# perfect-chinese: 1
+# id: bl_perspectivetransform
+# kind: addon
+# module: bl_ext.blender_org.BL_PerspectiveTransform
+# name: BL Perspective Transform
+# name_zh: 透视变换
+# translator: KeshiMiao
+# category: Sequencer
+# supported_versions: >=5.0.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: operators/perspective_defaults.py:84
+msgid "Anisotropic"
+msgstr "各向异性"
+
+#: operators/perspective_defaults.py:83
+msgid "Bicubic"
+msgstr "双三次"
+
+#: operators/perspective_defaults.py:82
+msgid "Bilinear"
+msgstr "双线性"
+
+#: operators/perspective_defaults.py:215
+msgid "Corner position on the source image"
+msgstr "源图像上的角点位置"
+
+#: operators/perspective_operators.py:291
+msgid "Corners do not form a convex shape"
+msgstr "各角点未构成凸形"
+
+#: operators/perspective_defaults.py:83
+msgid "Cubic interpolation between source pixels"
+msgstr "在源像素之间进行三次插值"
+
+#: __init__.py:36
+msgid "Distort a strip by dragging its corner handles"
+msgstr "通过拖拽角点手柄扭曲片段"
+
+#: __init__.py:61
+msgid "Drag a corner to begin"
+msgstr "拖拽一个角点以开始"
+
+#: operators/perspective_defaults.py:274
+#: operators/perspective_operators.py:273
+msgid "Filter"
+msgstr "过滤"
+
+#: operators/perspective_defaults.py:84
+msgid "Filter along the direction the image is stretched"
+msgstr "沿图像拉伸方向过滤"
+
+#: operators/perspective_defaults.py:82
+msgid "Linear interpolation between source pixels"
+msgstr "在源像素之间进行线性插值"
+
+#: operators/perspective_defaults.py:274
+msgid "Method used to resample the image the corners are pinned to"
+msgstr "对固定角点所用的图像进行重采样的方法"
+
+#: operators/perspective_defaults.py:81
+msgid "Nearest"
+msgstr "最近邻"
+
+#: operators/perspective_defaults.py:81
+msgid "No interpolation, nearest source pixel"
+msgstr "不插值，使用最近的源像素"
+
+#: operators/perspective_operators.py:166
+msgid "No single corner can make this shape convex - use Reset Perspective"
+msgstr "仅移动单个角点无法使此形状成为凸形 - 请使用重置透视"
+
+#: operators/perspective_operators.py:140
+msgid "No strip to repair"
+msgstr "没有可修复的片段"
+
+#: operators/perspective_operators.py:249
+msgid "Node group has no Corner Pin node"
+msgstr "节点组中没有 Corner Pin 节点"
+
+#: __init__.py:35
+#: operators/perspective_operators.py:206
+msgid "Perspective"
+msgstr "透视"
+
+#: gizmos/perspective_handles_gizmo.py:375
+msgid "Perspective Transform Handles"
+msgstr "透视变换手柄"
+
+#: __init__.py:49
+msgid "Select a transformable strip"
+msgstr "选择可变换的片段"
+
+#: __init__.py:54
+msgid "Strip is not visible at this frame"
+msgstr "该片段在此帧不可见"
+
+#: operators/perspective_operators.py:292
+msgid "This cannot be rendered; move a corner back"
+msgstr "无法渲染；请将角点移回"
+
+#: operators/perspective_operators.py:281
+msgid "X"
+msgstr "X"
+
+#: operators/perspective_operators.py:282
+msgid "Y"
+msgstr "Y"
+
+#: operators/perspective_operators.py:42
+msgctxt "Operator"
+msgid "Activate the perspective corner handle tool"
+msgstr "激活透视角点手柄工具"
+
+#: operators/perspective_operators.py:92
+msgctxt "Operator"
+msgid "Clear Perspective"
+msgstr "清除透视"
+
+#: operators/perspective_operators.py:111
+msgctxt "Operator"
+msgid "Make Convex"
+msgstr "使其成为凸形"
+
+#: operators/perspective_operators.py:59
+msgctxt "Operator"
+msgid "Move the corners back to the image rectangle, keeping the modifier"
+msgstr "将角点移回图像矩形，同时保留修改器"
+
+#: operators/perspective_operators.py:112
+msgctxt "Operator"
+msgid "Move the nearest corner back until the four form a convex shape the Corner Pin can render"
+msgstr "移回最近的角点，直到四个角点构成 Corner Pin 可渲染的凸形"
+
+#: __init__.py:72
+#: __init__.py:80
+msgctxt "Operator"
+msgid "Perspective"
+msgstr "透视"
+
+#: operators/perspective_operators.py:93
+msgctxt "Operator"
+msgid "Remove the perspective modifier from the selected strips"
+msgstr "从所选片段中移除透视修改器"
+
+#: __init__.py:59
+msgctxt "Operator"
+msgid "Reset"
+msgstr "重置"
+
+#: operators/perspective_operators.py:58
+msgctxt "Operator"
+msgid "Reset Perspective"
+msgstr "重置透视"

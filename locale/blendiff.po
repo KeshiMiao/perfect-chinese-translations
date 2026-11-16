@@ -1,0 +1,404 @@
+# perfect-chinese: 1
+# id: blendiff
+# kind: addon
+# module: bl_ext.blender_org.blendiff
+# name: BlenDiff
+# name_zh: 工程差异
+# translator: KeshiMiao
+# category: Pipeline
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: ui/operators.py:231
+msgid "A short name for this snapshot (e.g. 'Before rigging')"
+msgstr "此快照的简短名称（例如“绑定前”）"
+
+#: export/diff_result.py:39
+msgid "Added"
+msgstr "新增"
+
+#: ui/merge_panel.py:68
+msgid "Base"
+msgstr "基准"
+
+#: ui/merge_panel.py:245
+msgid "Base Snapshot"
+msgstr "基准快照"
+
+#: __init__.py:50
+#: ui/merge_panel.py:54
+msgid "BlenDiff"
+msgstr "BlenDiff"
+
+#: ui/operators.py:219
+msgid "BlenDiff: Cleared."
+msgstr "BlenDiff：已清除。"
+
+#: ui/operators.py:193
+msgid "BlenDiff: No Snapshot A found. Capture one first."
+msgstr "BlenDiff：未找到快照 A。请先捕获一个。"
+
+#: ui/operators.py:478
+#: ui/operators.py:495
+msgid "BlenDiff: No diff result to export. Run a diff first."
+msgstr "BlenDiff：没有可导出的差异结果。请先运行差异比较。"
+
+#: ui/operators.py:293
+#: ui/operators.py:439
+msgid "BlenDiff: No snapshot ID provided."
+msgstr "BlenDiff：未提供快照 ID。"
+
+#: ui/operators.py:607
+msgid "BlenDiff: No three-way diff result found."
+msgstr "BlenDiff：未找到三方差异结果。"
+
+#: ui/operators.py:660
+msgid "BlenDiff: No three-way diff result."
+msgstr "BlenDiff：没有三方差异结果。"
+
+#: ui/operators.py:665
+msgid "BlenDiff: Not all conflicts resolved yet."
+msgstr "BlenDiff：并非所有冲突都已解决。"
+
+#: ui/operators.py:546
+msgid "BlenDiff: Pick a snapshot for Base, Version A and Version B."
+msgstr "BlenDiff：请为基准、版本 A 和版本 B 选择快照。"
+
+#: ui/operators.py:334
+msgid "BlenDiff: Pick two different snapshots."
+msgstr "BlenDiff：请选择两个不同的快照。"
+
+#: ui/operators.py:331
+msgid "BlenDiff: Pick two snapshots to compare."
+msgstr "BlenDiff：请选择两个快照进行比较。"
+
+#: ui/operators.py:248
+msgid "BlenDiff: Please save your .blend file before using snapshot history."
+msgstr "BlenDiff：使用快照历史前请先保存 .blend 文件。"
+
+#: ui/operators.py:481
+#: ui/operators.py:499
+msgid "BlenDiff: Please save your .blend file first."
+msgstr "BlenDiff：请先保存 .blend 文件。"
+
+#: ui/operators.py:538
+msgid "BlenDiff: Save your .blend file first."
+msgstr "BlenDiff：请先保存 .blend 文件。"
+
+#: ui/operators.py:177
+msgid "BlenDiff: Snapshot A captured."
+msgstr "BlenDiff：已捕获快照 A。"
+
+#: ui/operators.py:452
+msgid "BlenDiff: Snapshot deleted."
+msgstr "BlenDiff：快照已删除。"
+
+#: ui/operators.py:385
+msgid "BlenDiff: Snapshot not found."
+msgstr "BlenDiff：未找到快照。"
+
+#: ui/operators.py:457
+msgid "BlenDiff: That snapshot was already deleted."
+msgstr "BlenDiff：该快照已被删除。"
+
+#: ui/merge_panel.py:178
+msgid "Cannot be applied automatically"
+msgstr "无法自动应用"
+
+#: export/diff_result.py:43
+msgid "Collections"
+msgstr "集合"
+
+#: ui/panels.py:193
+msgid "Compare Two Snapshots"
+msgstr "比较两个快照"
+
+#: export/diff_result.py:47
+msgid "Constraints"
+msgstr "约束"
+
+#: export/diff_result.py:48
+msgid "Custom Props"
+msgstr "自定义属性"
+
+#: ui/panels.py:203
+msgid "Diff Results"
+msgstr "差异结果"
+
+#: export/diff_result.py:50
+msgid "Drivers"
+msgstr "驱动器"
+
+#: export/diff_result.py:49
+msgid "F-Curves"
+msgstr "F 曲线"
+
+#: ui/panels.py:71
+msgid "From"
+msgstr "从"
+
+#: ui/autosave.py:59
+msgid "How many automatic snapshots to keep. The oldest are dropped beyond this. Snapshots you took by hand are never pruned"
+msgstr "保留多少个自动快照。超出此数量时将丢弃最旧的。手动创建的快照永远不会被清理"
+
+#: ui/autosave.py:59
+msgid "Keep"
+msgstr "保留"
+
+#: ui/operators.py:231
+msgid "Label"
+msgstr "标签"
+
+#: export/diff_result.py:41
+msgid "Modified"
+msgstr "已修改"
+
+#: export/diff_result.py:51
+msgid "NLA"
+msgstr "NLA"
+
+#: ui/panels.py:221
+msgid "No diff result available."
+msgstr "没有可用的差异结果。"
+
+#: ui/panels.py:143
+msgid "No snapshots saved yet."
+msgstr "尚未保存任何快照。"
+
+#: ui/merge_panel.py:250
+msgid "One of the two versions to merge"
+msgstr "要合并的两个版本之一"
+
+#: export/diff_result.py:46
+msgid "Parents"
+msgstr "父级"
+
+#: ui/panels.py:104
+msgid "Quick Diff (in-memory)"
+msgstr "快速差异（内存中）"
+
+#: export/diff_result.py:40
+msgid "Removed"
+msgstr "已移除"
+
+#: export/diff_result.py:42
+msgid "Renamed"
+msgstr "已重命名"
+
+#: export/diff_result.py:44
+msgid "Render"
+msgstr "渲染"
+
+#: ui/merge_panel.py:62
+#: ui/panels.py:115
+msgid "Save your .blend file first"
+msgstr "请先保存 .blend 文件"
+
+#: __init__.py:50
+msgid "Scene"
+msgstr "场景"
+
+#: export/diff_result.py:52
+msgid "Scene Props"
+msgstr "场景属性"
+
+#: ui/merge_panel.py:66
+msgid "Select Snapshots"
+msgstr "选择快照"
+
+#: __init__.py:50
+msgid "Semantic scene diff, snapshot history, and assisted merge for .blend files"
+msgstr "面向 .blend 文件的语义场景差异、快照历史与辅助合并"
+
+#: ui/panels.py:113
+#: ui/panels.py:123
+msgid "Snapshot History"
+msgstr "快照历史"
+
+#: ui/autosave.py:50
+msgid "Snapshot on save"
+msgstr "保存时创建快照"
+
+#: ui/autosave.py:77
+msgid "Snapshots you take by hand are never pruned."
+msgstr "手动创建的快照永远不会被清理。"
+
+#: ui/autosave.py:50
+msgid "Take a snapshot automatically every time the .blend is saved. Automatic snapshots are pruned; the ones you take by hand are not"
+msgstr "每次保存 .blend 时自动创建快照。自动快照会被清理；手动创建的快照则不会"
+
+#: ui/panels.py:71
+msgid "The earlier snapshot, treated as the before state"
+msgstr "较早的快照，视为变更前状态"
+
+#: ui/panels.py:76
+msgid "The later snapshot, treated as the after state"
+msgstr "较晚的快照，视为变更后状态"
+
+#: ui/merge_panel.py:255
+msgid "The other version to merge"
+msgstr "要合并的另一个版本"
+
+#: ui/merge_panel.py:245
+msgid "The snapshot both versions grew from"
+msgstr "两个版本共同源自的快照"
+
+#: ui/merge_panel.py:50
+msgid "Three-Way Merge"
+msgstr "三方合并"
+
+#: ui/panels.py:76
+msgid "To"
+msgstr "到"
+
+#: ui/merge_panel.py:69
+#: ui/merge_panel.py:250
+msgid "Version A"
+msgstr "版本 A"
+
+#: ui/merge_panel.py:70
+#: ui/merge_panel.py:255
+msgid "Version B"
+msgstr "版本 B"
+
+#: export/diff_result.py:45
+msgid "World"
+msgstr "世界"
+
+#: ui/merge_panel.py:171
+msgid "✓ Auto-resolved (same change)"
+msgstr "✓ 已自动解决（相同更改）"
+
+#: ui/operators.py:650
+msgctxt "Operator"
+msgid "Apply Merge"
+msgstr "应用合并"
+
+#: ui/operators.py:651
+msgctxt "Operator"
+msgid "Apply all resolved conflict decisions to the scene"
+msgstr "将所有已解决的冲突决策应用到场景"
+
+#: ui/merge_panel.py:200
+msgctxt "Operator"
+msgid "Base"
+msgstr "基准"
+
+#: ui/operators.py:170
+msgctxt "Operator"
+msgid "Capture Snapshot A"
+msgstr "捕获快照 A"
+
+#: ui/operators.py:211
+msgctxt "Operator"
+msgid "Clear Results"
+msgstr "清除结果"
+
+#: ui/operators.py:212
+msgctxt "Operator"
+msgid "Clear snapshot A and diff results from memory"
+msgstr "从内存中清除快照 A 和差异结果"
+
+#: ui/operators.py:188
+msgctxt "Operator"
+msgid "Compare Snapshot A to the current scene state"
+msgstr "将快照 A 与当前场景状态比较"
+
+#: ui/operators.py:320
+msgctxt "Operator"
+msgid "Compare Snapshots"
+msgstr "比较快照"
+
+#: ui/operators.py:532
+msgctxt "Operator"
+msgid "Compare base vs version A vs version B to find conflicts"
+msgstr "比较基准、版本 A 与版本 B 以找出冲突"
+
+#: ui/operators.py:287
+msgctxt "Operator"
+msgid "Compare this saved snapshot to the current scene"
+msgstr "将此已保存的快照与当前场景比较"
+
+#: ui/operators.py:321
+msgctxt "Operator"
+msgid "Compare two saved snapshots, without involving the current scene"
+msgstr "比较两个已保存的快照，不涉及当前场景"
+
+#: ui/operators.py:429
+msgctxt "Operator"
+msgid "Delete Snapshot"
+msgstr "删除快照"
+
+#: ui/operators.py:286
+msgctxt "Operator"
+msgid "Diff Against This Snapshot"
+msgstr "与此快照比较差异"
+
+#: ui/operators.py:466
+msgctxt "Operator"
+msgid "Export HTML Report"
+msgstr "导出 HTML 报告"
+
+#: ui/operators.py:430
+msgctxt "Operator"
+msgid "Permanently delete this snapshot from the .blendiff file"
+msgstr "从 .blendiff 文件中永久删除此快照"
+
+#: ui/operators.py:366
+msgctxt "Operator"
+msgid "Restore This Snapshot"
+msgstr "恢复此快照"
+
+#: ui/operators.py:187
+msgctxt "Operator"
+msgid "Run Diff"
+msgstr "运行差异比较"
+
+#: ui/operators.py:531
+msgctxt "Operator"
+msgid "Run Three-Way Diff"
+msgstr "运行三方差异比较"
+
+#: ui/operators.py:228
+msgctxt "Operator"
+msgid "Save Snapshot"
+msgstr "保存快照"
+
+#: ui/operators.py:229
+msgctxt "Operator"
+msgid "Save a named, timestamped snapshot to the .blendiff file next to your .blend"
+msgstr "将带名称和时间戳的快照保存到 .blend 旁的 .blendiff 文件中"
+
+#: ui/operators.py:467
+msgctxt "Operator"
+msgid "Save the diff result as a shareable HTML file"
+msgstr "将差异结果保存为可共享的 HTML 文件"
+
+#: ui/operators.py:171
+msgctxt "Operator"
+msgid "Serialise the current scene state as the base for diffing"
+msgstr "将当前场景状态序列化为差异比较的基准"
+
+#: ui/operators.py:597
+msgctxt "Operator"
+msgid "Set Resolution"
+msgstr "设置分辨率"
+
+#: ui/merge_panel.py:188
+msgctxt "Operator"
+msgid "Use A"
+msgstr "使用 A"
+
+#: ui/merge_panel.py:194
+msgctxt "Operator"
+msgid "Use B"
+msgstr "使用 B"
+
+#: ui/operators.py:367
+msgctxt "Operator"
+msgid "Write this snapshot's values back over the current scene. Objects are not created or deleted"
+msgstr "将此快照的值写回当前场景。不会创建或删除物体"

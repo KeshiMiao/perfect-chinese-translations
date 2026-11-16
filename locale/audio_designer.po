@@ -1,0 +1,1167 @@
+# perfect-chinese: 1
+# id: audio_designer
+# kind: addon
+# module: bl_ext.blender_org.audio_designer
+# name: Audio System Designer
+# name_zh: 扩声系统设计
+# translator: KeshiMiao
+# category: Scene
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: bl/ui.py:371
+msgid "(phase-aware)"
+msgstr "（相位感知）"
+
+#: bl/props.py:174
+msgid "+X"
+msgstr "+X"
+
+#: bl/props.py:174
+msgid "+Y"
+msgstr "+Y"
+
+#: bl/props.py:174
+msgid "-X"
+msgstr "-X"
+
+#: bl/props.py:174
+msgid "-Y"
+msgstr "-Y"
+
+#: bl/props.py:178
+msgid "0 = bounding box of the surfaces"
+msgstr "0 = 表面的包围盒"
+
+#: bl/props.py:118
+msgid "1/3 octave, phase-aware"
+msgstr "1/3 倍频程，相位感知"
+
+#: __init__.py:4
+msgid "3D View"
+msgstr "3D 视图"
+
+#: bl/props.py:94
+msgid "Absorption"
+msgstr "吸声"
+
+#: bl/ui.py:266
+msgid "Acoustic Simulation"
+msgstr "声学模拟"
+
+#: bl/volume.py:360
+msgid "Add a volume region first."
+msgstr "请先添加体积区域。"
+
+#: bl/props.py:140
+msgid "Additive (glow)"
+msgstr "叠加（发光）"
+
+#: bl/props.py:112
+msgid "Air absorption"
+msgstr "空气吸收"
+
+#: bl/props.py:111
+msgid "Air pressure (kPa)"
+msgstr "气压（kPa）"
+
+#: bl/props.py:170
+msgid "All visible meshes"
+msgstr "所有可见网格"
+
+#: bl/volume.py:417
+msgid "All voxels fall below the 'Hide below' threshold."
+msgstr "所有体素均低于“低于则隐藏”阈值。"
+
+#: bl/props.py:140
+msgid "Alpha"
+msgstr "Alpha"
+
+#: bl/props.py:104
+msgid "Always"
+msgstr "始终"
+
+#: bl/arrays.py:129
+msgid "An array needs at least two cabinets."
+msgstr "阵列至少需要两个音箱。"
+
+#: bl/props.py:89
+msgid "Analysis radius"
+msgstr "分析半径"
+
+#: bl/arrays.py:148
+#: bl/arrays.py:185
+msgid "Array model is missing from the library."
+msgstr "库中缺少该阵列模型。"
+
+#: bl/ui.py:271
+msgid "Atmosphere"
+msgstr "大气"
+
+#: bl/props.py:163
+msgid "Attenuate direct and reflected paths that cross geometry"
+msgstr "衰减穿过几何体的直达声与反射声路径"
+
+#: bl/ui.py:54
+msgid "Audience"
+msgstr "观众区"
+
+#: bl/props.py:172
+msgid "Audience direction"
+msgstr "观众区方向"
+
+#: bl/props.py:83
+msgid "Audience far"
+msgstr "观众区远端"
+
+#: bl/props.py:84
+msgid "Audience floor Z"
+msgstr "观众区地面 Z"
+
+#: bl/props.py:82
+msgid "Audience near"
+msgstr "观众区近端"
+
+#: bl/ui.py:40
+msgid "Audio Designer"
+msgstr "音频设计器"
+
+#: bl/ui.py:336
+msgid "Audio Probes"
+msgstr "音频探针"
+
+#: __init__.py:4
+msgid "Audio System Designer"
+msgstr "音频系统设计器"
+
+#: bl/props.py:103
+msgid "Auto"
+msgstr "自动"
+
+#: bl/props.py:128
+msgid "Auto range"
+msgstr "自动范围"
+
+#: bl/props.py:135
+msgid "Auto range: shown span below the loudest voxel"
+msgstr "自动范围：在最响体素以下显示的跨度"
+
+#: bl/props.py:98
+msgid "Auto surfaces"
+msgstr "自动表面"
+
+#: bl/ui.py:227
+msgid "Auto: surface per face from material name and orientation"
+msgstr "自动：根据材质名称与朝向为每个面指定表面"
+
+#: bl/props.py:149
+#: bl/ui.py:327
+msgid "Axes"
+msgstr "坐标轴"
+
+#: bl/props.py:182
+msgid "Background noise dB(A)"
+msgstr "背景噪声 dB(A)"
+
+#: bl/props.py:126
+#: bl/ui.py:254
+msgid "Band"
+msgstr "频段"
+
+#: bl/props.py:140
+msgid "Blend"
+msgstr "混合"
+
+#: bl/props.py:180
+msgid "Bounding box fill"
+msgstr "包围盒填充"
+
+#: bl/props.py:123
+msgid "Broadband (unweighted)"
+msgstr "宽带（不计权）"
+
+#: bl/arrays.py:66
+msgid "Cabinets"
+msgstr "音箱"
+
+#: bl/props.py:115
+msgid "Calculation"
+msgstr "计算"
+
+#: bl/props.py:29
+msgid "Cardioid (inverted rear)"
+msgstr "心形指向（后向反相）"
+
+#: bl/operators.py:260
+#: bl/props.py:206
+msgid "Category"
+msgstr "类别"
+
+#: bl/auto.py:45
+#: bl/operators.py:73
+msgid "Cell size"
+msgstr "单元尺寸"
+
+#: bl/operators.py:225
+msgid "Choose a surface first."
+msgstr "请先选择一个表面。"
+
+#: bl/props.py:118
+msgid "Complex summation with delay and polarity. Needed for subwoofer and array interaction"
+msgstr "带延时与极性的复数求和。用于超低音与阵列的相互作用"
+
+#: bl/props.py:132
+msgid "Cone band"
+msgstr "锥形频段"
+
+#: bl/props.py:131
+msgid "Cone length"
+msgstr "锥形长度"
+
+#: bl/props.py:85
+msgid "Configuration"
+msgstr "配置"
+
+#: bl/props.py:86
+msgid "Count"
+msgstr "数量"
+
+#: bl/operators.py:274
+msgid "Coverage is held at the nominal angle above this frequency and widens below"
+msgstr "高于此频率时覆盖范围保持标称角度，低于此频率则变宽"
+
+#: bl/props.py:30
+msgid "Custom"
+msgstr "自定义"
+
+#: bl/props.py:93
+msgid "Custom absorption"
+msgstr "自定义吸声"
+
+#: bl/operators.py:277
+msgid "Datasheet URL"
+msgstr "数据表 URL"
+
+#: bl/props.py:60
+msgid "Delay (ms)"
+msgstr "延时（ms）"
+
+#: bl/ui.py:161
+msgid "Delay/polarity of each sub: select it and edit under Selected Speaker."
+msgstr "每个超低音的延时/极性：选中后在“选中音箱”下编辑。"
+
+#: bl/operators.py:72
+msgid "Depth"
+msgstr "深度"
+
+#: bl/operators.py:264
+msgid "Depth (mm)"
+msgstr "深度（mm）"
+
+#: bl/props.py:172
+msgid "Direction new speakers and arrays face"
+msgstr "新扬声器与阵列的朝向"
+
+#: bl/props.py:142
+msgid "Display"
+msgstr "显示"
+
+#: bl/props.py:150
+msgid "Distance from the focus at which planes fade, as a fraction of the region size"
+msgstr "平面开始淡出的焦点距离，以区域大小的比例表示"
+
+#: bl/props.py:78
+msgid "Downward tilt of the first cabinet"
+msgstr "首个箱体的向下倾角"
+
+#: bl/props.py:57
+msgid "Drive level relative to the model's maximum SPL at 1 m"
+msgstr "驱动电平，相对于型号在 1 米处的最大 SPL"
+
+#: bl/props.py:135
+msgid "Dynamic range (dB)"
+msgstr "动态范围（dB）"
+
+#: bl/props.py:28
+msgid "End-fire"
+msgstr "端射"
+
+#: bl/props.py:170
+msgid "Every visible mesh except speakers, receivers and helpers"
+msgstr "除扬声器、接收器和辅助对象外的所有可见网格"
+
+#: bl/ui.py:256
+msgid "Eyring"
+msgstr "Eyring"
+
+#: bl/props.py:175
+msgid "Face the centre of the receiver surfaces"
+msgstr "朝向接收面的中心"
+
+#: bl/props.py:152
+msgid "Far plane opacity"
+msgstr "远平面不透明度"
+
+#: bl/props.py:158
+msgid "First and second order"
+msgstr "一阶和二阶"
+
+#: bl/props.py:158
+msgid "First order"
+msgstr "一阶"
+
+#: bl/props.py:150
+msgid "Focus falloff"
+msgstr "焦点衰减"
+
+#: bl/props.py:144
+msgid "Fog"
+msgstr "雾"
+
+#: bl/props.py:146
+msgid "Fog and slices"
+msgstr "雾和切片"
+
+#: bl/prefs.py:10
+msgid "Folder scanned recursively for loudspeaker .json definitions, in addition to the built-in library"
+msgstr "除内置库外，还会递归扫描此文件夹以查找扬声器 .json 定义"
+
+#: bl/props.py:29
+msgid "Forward sub plus inverted, delayed rear-facing sub per column"
+msgstr "每列包含一个前向超低音和一个反相、延时的后向超低音"
+
+#: bl/props.py:138
+msgid "Fraction of the colour range under which voxels are hidden"
+msgstr "低于颜色范围该比例的体素将被隐藏"
+
+#: bl/props.py:127
+msgid "Frequency"
+msgstr "频率"
+
+#: bl/operators.py:77
+msgid "Grid too dense (over 250k cells). Increase cell size."
+msgstr "网格过于密集（超过 25 万个单元）。请增大单元尺寸。"
+
+#: bl/props.py:187
+msgid "Ground Z"
+msgstr "地面 Z"
+
+#: bl/props.py:186
+msgid "Ground plane"
+msgstr "地平面"
+
+#: bl/props.py:27
+msgid "Ground stack (broadside)"
+msgstr "地面堆叠（宽边）"
+
+#: bl/props.py:188
+msgid "Ground surface"
+msgstr "地面"
+
+#: bl/ui.py:167
+msgid "Heatmap tip: Calculation = 1/3 octave, Map = Single band, 40-100 Hz."
+msgstr "热力图提示：计算 = 1/3 倍频程，映射 = 单频段，40-100 Hz。"
+
+#: bl/operators.py:263
+msgid "Height (mm)"
+msgstr "高度（mm）"
+
+#: bl/props.py:113
+msgid "Height above each receiver face"
+msgstr "每个接收面上方的高度"
+
+#: bl/props.py:138
+msgid "Hide below"
+msgstr "隐藏低于"
+
+#: bl/operators.py:268
+msgid "High limit (Hz)"
+msgstr "上限（Hz）"
+
+#: bl/operators.py:272
+msgid "Horizontal (deg)"
+msgstr "水平（度）"
+
+#: bl/operators.py:270
+msgid "Horizontal x vertical angle below"
+msgstr "水平 x 垂直角度（下方）"
+
+#: bl/auto.py:48
+msgid "Ignore areas smaller than (m²)"
+msgstr "忽略小于此面积（m²）的区域"
+
+#: bl/props.py:161
+msgid "Ignore faces smaller than"
+msgstr "忽略小于此面积的面"
+
+#: bl/props.py:117
+msgid "Incoherent. Robust for wide-band coverage"
+msgstr "非相干。对宽带覆盖更稳健"
+
+#: bl/props.py:186
+msgid "Infinite reflecting floor"
+msgstr "无限反射地面"
+
+#: bl/arrays.py:67
+msgid "Initial splay"
+msgstr "初始张开角"
+
+#: bl/props.py:63
+msgid "Invert polarity"
+msgstr "反转极性"
+
+#: bl/props.py:57
+msgid "Level (dB re max)"
+msgstr "电平（dB，相对最大值）"
+
+#: bl/props.py:92
+msgid "Library surface used for reflections"
+msgstr "用于反射的库表面"
+
+#: bl/ui.py:103
+msgid "Line Array"
+msgstr "线阵列"
+
+#: bl/props.py:23
+msgid "Line array"
+msgstr "线阵列"
+
+#: bl/operators.py:275
+msgid "Line array: cabinet side angle (deg)"
+msgstr "线阵列：箱体侧向角度（度）"
+
+#: bl/operators.py:276
+msgid "Line array: max splay (deg)"
+msgstr "线阵列：最大张开角（度）"
+
+#: bl/props.py:101
+#: bl/props.py:113
+msgid "Listening height"
+msgstr "听音高度"
+
+#: __init__.py:4
+msgid "Loudspeaker library, placement and free-field SPL prediction for live sound design"
+msgstr "用于现场扩声设计的扬声器库、摆位和自由场 SPL 预测"
+
+#: bl/operators.py:267
+msgid "Low limit (Hz)"
+msgstr "下限（Hz）"
+
+#: bl/operators.py:258
+#: bl/props.py:205
+msgid "Manufacturer"
+msgstr "制造商"
+
+#: bl/operators.py:284
+msgid "Manufacturer and model are required."
+msgstr "制造商和型号为必填项。"
+
+#: bl/props.py:121
+msgid "Map"
+msgstr "映射"
+
+#: bl/operators.py:266
+msgid "Max SPL at 1 m (dB)"
+msgstr "1 米处最大 SPL（dB）"
+
+#: bl/props.py:130
+msgid "Max dB"
+msgstr "最大 dB"
+
+#: bl/auto.py:46
+msgid "Max slope"
+msgstr "最大斜率"
+
+#: bl/arrays.py:111
+msgid "Maximum cabinet count reached."
+msgstr "已达到最大箱体数量。"
+
+#: bl/props.py:169
+msgid "Meshes with a surface"
+msgstr "带表面的网格"
+
+#: bl/props.py:129
+msgid "Min dB"
+msgstr "最小 dB"
+
+#: bl/operators.py:259
+msgid "Model"
+msgstr "型号"
+
+#: bl/props.py:56
+msgid "Model ID"
+msgstr "型号 ID"
+
+#: bl/ui.py:330
+msgid "Move the Slice Focus empty (snap it to surfaces) to light up planes."
+msgstr "移动“切片焦点”空物体（将其吸附到表面）以点亮平面。"
+
+#: bl/props.py:158
+msgid "Much slower"
+msgstr "慢得多"
+
+#: bl/props.py:64
+msgid "Mute"
+msgstr "静音"
+
+#: bl/ui.py:283
+msgid "Needs surfaces. Uses noise level and room settings from Room Acoustics."
+msgstr "需要表面。使用「房间声学」中的噪声级和房间设置。"
+
+#: bl/props.py:104
+msgid "Never"
+msgstr "从不"
+
+#: bl/arrays.py:189
+msgid "No active speakers in this array."
+msgstr "此阵列中没有启用的扬声器。"
+
+#: bl/ui.py:347
+msgid "No active speakers."
+msgstr "没有启用的扬声器。"
+
+#: bl/arrays.py:301
+msgid "No active subwoofers in this array."
+msgstr "此阵列中没有启用的超低音音箱。"
+
+#: bl/auto.py:56
+msgid "No meshes to analyse."
+msgstr "没有可分析的网格。"
+
+#: bl/operators.py:147
+msgid "No receiver surfaces. Add a receiver area first."
+msgstr "没有接收面。请先添加接收区域。"
+
+#: bl/volume.py:390
+msgid "No signal in the region."
+msgstr "该区域内无信号。"
+
+#: bl/operators.py:144
+#: bl/volume.py:364
+msgid "No simulation-capable speakers in the scene."
+msgstr "场景中没有支持模拟的扬声器。"
+
+#: bl/report.py:273
+msgid "No speakers in the scene."
+msgstr "场景中没有扬声器。"
+
+#: bl/auto.py:62
+msgid "No walkable surfaces found. Check the slope limit and that faces point up."
+msgstr "未找到可行走表面。请检查坡度限制以及面是否朝上。"
+
+#: bl/operators.py:270
+msgid "Nominal coverage"
+msgstr "标称覆盖"
+
+#: bl/props.py:22
+msgid "None"
+msgstr "无"
+
+#: bl/props.py:167
+msgid "Occluders"
+msgstr "遮挡物"
+
+#: bl/props.py:163
+msgid "Occlusion"
+msgstr "遮挡"
+
+#: bl/props.py:94
+msgid "Octave bands 63 Hz to 8 kHz"
+msgstr "倍频程 63 Hz 至 8 kHz"
+
+#: bl/props.py:117
+msgid "Octave bands, power sum"
+msgstr "倍频程，功率求和"
+
+#: bl/ui.py:390
+msgid "One PDF: speakers and angles, arrays, room acoustics,"
+msgstr "单个 PDF：扬声器与角度、阵列、房间声学，"
+
+#: bl/props.py:169
+msgid "Only meshes that were given a surface block sound"
+msgstr "仅已指定表面的网格才阻挡声音"
+
+#: bl/auto.py:109
+msgid "Only meshes without a surface"
+msgstr "仅没有表面的网格"
+
+#: bl/props.py:159
+msgid "Only the largest triangles take part in second order"
+msgstr "仅最大的三角形参与二阶"
+
+#: bl/auto.py:50
+msgid "Only under a roof"
+msgstr "仅在屋顶下"
+
+#: bl/props.py:137
+msgid "Opacity"
+msgstr "不透明度"
+
+#: bl/props.py:152
+msgid "Opacity of planes far from the focus"
+msgstr "远离焦点的平面的不透明度"
+
+#: bl/props.py:157
+msgid "Order"
+msgstr "阶数"
+
+#: bl/operators.py:269
+msgid "Pattern"
+msgstr "指向性"
+
+#: bl/operators.py:274
+msgid "Pattern control from (Hz)"
+msgstr "指向性控制起始 (Hz)"
+
+#: bl/props.py:98
+msgid "Pick a surface per face from Blender material names (glass, curtain, carpet...) and orientation"
+msgstr "按 Blender 材质名称（玻璃、窗帘、地毯等）和朝向为每个面选择表面"
+
+#: bl/props.py:148
+msgid "Planes per axis"
+msgstr "每轴平面数"
+
+#: bl/ui.py:285
+msgid "Point-source cabinets: treat results above ~1.5 kHz as indicative."
+msgstr "点声源音箱：约 1.5 kHz 以上的结果仅供参考。"
+
+#: bl/props.py:30
+msgid "Position and set delay/polarity manually; recipe is not applied"
+msgstr "手动定位并设置延时/极性；不应用预设方案"
+
+#: bl/props.py:76
+msgid "Position of this cabinet within its array"
+msgstr "此音箱在阵列中的位置"
+
+#: bl/props.py:22
+msgid "Probe"
+msgstr "探针"
+
+#: bl/props.py:104
+msgid "Raise every face"
+msgstr "抬高所有面"
+
+#: bl/props.py:103
+msgid "Raise floor-like faces only; vertical faces stay where they are"
+msgstr "仅抬高类地面，垂直面保持原位"
+
+#: bl/props.py:23
+msgid "Receiver"
+msgstr "接收器"
+
+#: bl/props.py:155
+msgid "Reflections"
+msgstr "反射"
+
+#: bl/props.py:110
+msgid "Relative humidity (%)"
+msgstr "相对湿度 (%)"
+
+#: bl/props.py:90
+#: bl/ui.py:385
+msgid "Report"
+msgstr "报告"
+
+#: bl/ui.py:240
+msgid "Room Acoustics"
+msgstr "房间声学"
+
+#: bl/props.py:178
+msgid "Room volume override (m³)"
+msgstr "房间体积覆盖 (m³)"
+
+#: bl/props.py:124
+msgid "STI (estimate)"
+msgstr "STI（估算）"
+
+#: bl/volume.py:367
+msgid "STI is only available on receiver surfaces. Choose another map."
+msgstr "STI 仅适用于接收面。请选择其他图。"
+
+#: bl/ui.py:262
+msgid "STI: direct + diffuse tail + noise. No masking; not IEC-compliant."
+msgstr "STI：直达声 + 扩散尾音 + 噪声。无掩蔽效应；不符合 IEC 标准。"
+
+#: bl/ui.py:255
+msgid "Sabine"
+msgstr "赛宾"
+
+#: bl/props.py:165
+msgid "Scales the per-band attenuation of a blocked path"
+msgstr "缩放被阻挡路径的各频段衰减"
+
+#: bl/props.py:96
+msgid "Scattering"
+msgstr "散射"
+
+#: bl/props.py:209
+msgid "Search"
+msgstr "搜索"
+
+#: bl/auto.py:48
+msgid "Seat tops, props and trim"
+msgstr "座椅顶部、道具和装饰"
+
+#: bl/props.py:159
+msgid "Second-order reflectors"
+msgstr "二阶反射体"
+
+#: bl/operators.py:52
+msgid "Select a loudspeaker model first."
+msgstr "请先选择扬声器型号。"
+
+#: bl/arrays.py:72
+msgid "Select a simulation-capable line array model in the library."
+msgstr "在库中选择支持模拟的线阵列型号。"
+
+#: bl/arrays.py:219
+msgid "Select a simulation-capable subwoofer model in the library."
+msgstr "在库中选择支持模拟的超低音音箱型号。"
+
+#: bl/ui.py:81
+msgid "Selected Speaker"
+msgstr "选定扬声器"
+
+#: bl/ui.py:261
+msgid "Set Map to STI (estimate) under Acoustic Simulation for a speech map."
+msgstr "在「声学模拟」下将「图」设为 STI（估算）以生成语音图。"
+
+#: bl/props.py:165
+msgid "Shadow strength"
+msgstr "阴影强度"
+
+#: bl/props.py:96
+msgid "Share of reflected energy that is not specular"
+msgstr "非镜面反射能量所占比例"
+
+#: bl/props.py:180
+msgid "Share of the bounding box that is air"
+msgstr "包围盒中空气所占比例"
+
+#: bl/props.py:60
+msgid "Signal delay. Shifts phase in coherent mode, arrival time everywhere"
+msgstr "信号延迟。相干模式下改变相位，各处改变到达时间"
+
+#: bl/props.py:124
+msgid "Single band"
+msgstr "单频段"
+
+#: bl/auto.py:50
+msgid "Skip surfaces with nothing above them (outdoor tops of walls and roofs)"
+msgstr "跳过上方无物的表面（墙体与屋顶的室外顶面）"
+
+#: bl/props.py:25
+msgid "Slice focus"
+msgstr "切片焦点"
+
+#: bl/props.py:145
+msgid "Slice planes"
+msgstr "切片平面"
+
+#: bl/props.py:144
+msgid "Smooth ray-marched volume"
+msgstr "平滑光线步进体积"
+
+#: bl/props.py:88
+msgid "Spacing"
+msgstr "间距"
+
+#: bl/props.py:22
+msgid "Speaker"
+msgstr "扬声器"
+
+#: bl/ui.py:49
+msgid "Speaker Library"
+msgstr "扬声器库"
+
+#: bl/ui.py:236
+msgid "Specular reflections and shadowing only. No diffraction, no diffuse field."
+msgstr "仅镜面反射与阴影。无衍射，无扩散声场。"
+
+#: bl/props.py:155
+msgid "Specular reflections from surfaces"
+msgstr "来自表面的镜面反射"
+
+#: bl/props.py:124
+msgid "Speech intelligibility estimate, needs surfaces"
+msgstr "语音清晰度估算，需要表面"
+
+#: bl/props.py:80
+msgid "Splay (deg)"
+msgstr "张角（度）"
+
+#: bl/ui.py:121
+msgid "Splay below each cabinet (deg)"
+msgstr "每个音箱下方的张角（度）"
+
+#: bl/props.py:145
+msgid "Stacks of cut planes whose opacity follows the Slice Focus empty"
+msgstr "不透明度跟随「切片焦点」空物体的堆叠剖切平面"
+
+#: bl/auto.py:46
+msgid "Steeper faces are not walkable"
+msgstr "更陡的面不可行走"
+
+#: bl/props.py:86
+msgid "Subs (broadside/end-fire) or columns (cardioid)"
+msgstr "超低音（横向/端射）或音柱（心形指向）"
+
+#: bl/props.py:28
+msgid "Subs in depth, delayed towards the front"
+msgstr "超低音纵向排列，向前方延时"
+
+#: bl/props.py:27
+msgid "Subs side by side, no delay"
+msgstr "超低音并排，无延时"
+
+#: bl/ui.py:146
+msgid "Subwoofer Array"
+msgstr "超低音阵列"
+
+#: bl/props.py:24
+msgid "Subwoofer array"
+msgstr "超低音阵列"
+
+#: bl/arrays.py:279
+msgid "Subwoofer model is missing from the library."
+msgstr "库中缺少该超低音型号。"
+
+#: bl/operators.py:271
+msgid "Subwoofer, cardioid"
+msgstr "超低音，心形指向"
+
+#: bl/operators.py:271
+msgid "Subwoofer, near omni"
+msgstr "超低音，近全指向"
+
+#: bl/props.py:92
+#: bl/props.py:210
+msgid "Surface"
+msgstr "表面"
+
+#: bl/ui.py:190
+msgid "Surfaces"
+msgstr "表面"
+
+#: bl/props.py:109
+msgid "Temperature (°C)"
+msgstr "温度（°C）"
+
+#: bl/props.py:161
+msgid "Tiny details barely reflect"
+msgstr "微小细节几乎不反射"
+
+#: bl/props.py:78
+msgid "Top cabinet tilt"
+msgstr "顶部音箱倾角"
+
+#: bl/props.py:175
+msgid "Towards receivers"
+msgstr "朝向接收点"
+
+#: bl/props.py:104
+msgid "Use the faces exactly as they are"
+msgstr "按原样使用这些面"
+
+#: bl/props.py:93
+msgid "Use the values below instead of the library surface"
+msgstr "使用下方数值替代库中的表面"
+
+#: bl/prefs.py:10
+msgid "User library folder"
+msgstr "用户库文件夹"
+
+#: bl/ui.py:331
+msgid "Uses the Calculation and Map chosen under Acoustic Simulation."
+msgstr "使用「声学模拟」下选定的计算与映射。"
+
+#: bl/ui.py:171
+msgid "Venue and Audience"
+msgstr "场地与观众"
+
+#: bl/operators.py:273
+msgid "Vertical (deg)"
+msgstr "垂直（度）"
+
+#: bl/ui.py:332
+msgid "Viewport overlay; not a renderable volume."
+msgstr "视图叠加层；不是可渲染的体积。"
+
+#: bl/operators.py:61
+msgid "Visual-only model: it will be ignored by simulations."
+msgstr "仅视觉模型：模拟时会忽略。"
+
+#: bl/props.py:24
+msgid "Volume region"
+msgstr "体积区域"
+
+#: bl/ui.py:303
+msgid "Volumetric Field"
+msgstr "体积场"
+
+#: bl/props.py:134
+msgid "Voxel size"
+msgstr "体素大小"
+
+#: bl/operators.py:265
+msgid "Weight (kg)"
+msgstr "重量（kg）"
+
+#: bl/operators.py:71
+msgid "Width"
+msgstr "宽度"
+
+#: bl/operators.py:262
+msgid "Width (mm)"
+msgstr "宽度（mm）"
+
+#: bl/props.py:123
+msgid "dB(A)"
+msgstr "dB(A)"
+
+#: bl/props.py:123
+msgid "dB(C)"
+msgstr "dB(C)"
+
+#: bl/ui.py:391
+msgid "receiver and fog images, probes, surfaces, data sources."
+msgstr "接收点与雾图像、探头、表面、数据源。"
+
+#: bl/operators.py:119
+msgctxt "Operator"
+msgid "Add Audio Probe"
+msgstr "添加音频探头"
+
+#: bl/arrays.py:103
+msgctxt "Operator"
+msgid "Add Cabinet"
+msgstr "添加音箱"
+
+#: bl/arrays.py:62
+msgctxt "Operator"
+msgid "Add Line Array"
+msgstr "添加线阵列"
+
+#: bl/operators.py:68
+msgctxt "Operator"
+msgid "Add Receiver Area"
+msgstr "添加接收区域"
+
+#: bl/volume.py:335
+msgctxt "Operator"
+msgid "Add Slice Focus"
+msgstr "添加切片焦点"
+
+#: bl/arrays.py:212
+msgctxt "Operator"
+msgid "Add Subwoofer Array"
+msgstr "添加超低音阵列"
+
+#: bl/volume.py:317
+msgctxt "Operator"
+msgid "Add Volume Region"
+msgstr "添加体积区域"
+
+#: bl/auto.py:131
+msgctxt "Operator"
+msgid "Aim Selected At Audience"
+msgstr "将选中项对准观众"
+
+#: bl/arrays.py:176
+msgctxt "Operator"
+msgid "Analyse Array"
+msgstr "分析阵列"
+
+#: bl/arrays.py:288
+msgctxt "Operator"
+msgid "Analyse Subwoofer Array"
+msgstr "分析超低音阵列"
+
+#: bl/operators.py:214
+msgctxt "Operator"
+msgid "Assign Surface"
+msgstr "指定表面"
+
+#: bl/auto.py:39
+msgctxt "Operator"
+msgid "Auto Receiver From Scene"
+msgstr "从场景自动生成接收点"
+
+#: bl/arrays.py:139
+msgctxt "Operator"
+msgid "Auto Splay"
+msgstr "自动张角"
+
+#: bl/auto.py:104
+msgctxt "Operator"
+msgid "Auto-assign Surfaces"
+msgstr "自动分配表面"
+
+#: bl/volume.py:318
+msgctxt "Operator"
+msgid "Box that bounds the volumetric field. Move, scale and rotate it; make it thin for a slice"
+msgstr "包围体积场的盒体。可移动、缩放和旋转；调薄后可用作切片"
+
+#: bl/operators.py:328
+msgctxt "Operator"
+msgid "Build / Update Coverage Cones"
+msgstr "构建/更新覆盖锥"
+
+#: bl/arrays.py:63
+msgctxt "Operator"
+msgid "Build a line array from the selected library model (category: line array)"
+msgstr "从选中的库模型构建线阵列（类别：线阵列）"
+
+#: bl/arrays.py:213
+msgctxt "Operator"
+msgid "Build a subwoofer array with the delay and polarity recipe from the selected library subwoofer"
+msgstr "使用所选库超低音音箱的延时与极性配方构建超低音阵列"
+
+#: bl/operators.py:134
+msgctxt "Operator"
+msgid "Calculate Coverage"
+msgstr "计算覆盖"
+
+#: bl/auto.py:157
+msgctxt "Operator"
+msgid "Calculate Room Acoustics"
+msgstr "计算房间声学"
+
+#: bl/volume.py:352
+msgctxt "Operator"
+msgid "Calculate Volumetric Field"
+msgstr "计算体积场"
+
+#: bl/operators.py:316
+msgctxt "Operator"
+msgid "Clear Heatmap"
+msgstr "清除热力图"
+
+#: bl/operators.py:241
+msgctxt "Operator"
+msgid "Clear Surface"
+msgstr "清除表面"
+
+#: bl/volume.py:433
+msgctxt "Operator"
+msgid "Clear Volumetric Field"
+msgstr "清除体积场"
+
+#: bl/operators.py:254
+msgctxt "Operator"
+msgid "Create a library entry from datasheet figures. The polar shape is modelled from the nominal coverage, so the entry is marked as an approximation"
+msgstr "根据数据表数值创建库条目。指向性图形由标称覆盖范围建模，因此该条目标记为近似值"
+
+#: bl/operators.py:89
+msgctxt "Operator"
+msgid "Duplicate the selected mesh (raised 2 cm) as a receiver surface. Every face centre becomes a listening point, so subdivide the source mesh for resolution"
+msgstr "将所选网格复制（抬高 2 厘米）为接收面。每个面中心都会成为听音点，因此请细分源网格以提高分辨率"
+
+#: bl/volume.py:336
+msgctxt "Operator"
+msgid "Empty that controls the slice planes: planes near it are opaque and the others fade. Snap it to surfaces with Blender's snapping"
+msgstr "控制切片平面的空物体：靠近它的平面不透明，其他平面淡出。使用 Blender 的吸附将其吸附到表面"
+
+#: bl/volume.py:353
+msgctxt "Operator"
+msgid "Evaluate the selected map on a 3D grid inside the volume region"
+msgstr "在体积区域内的 3D 网格上评估所选映射"
+
+#: bl/report.py:255
+msgctxt "Operator"
+msgid "Export Report (PDF)"
+msgstr "导出报告 (PDF)"
+
+#: bl/auto.py:40
+msgctxt "Operator"
+msgid "Find the walkable, upward-facing surfaces of the selected meshes (or all visible meshes) and build a receiver from them. Steps and raked seating work because connected faces are grouped into islands before small details are discarded"
+msgstr "查找所选网格（或所有可见网格）中可行走的朝上表面，并据此构建接收器。台阶和阶梯式座椅也可用，因为相连的面会先分组为孤岛，再舍弃细小细节"
+
+#: bl/operators.py:135
+msgctxt "Operator"
+msgid "Free-field prediction on all receiver surfaces. Not validated"
+msgstr "对所有接收面进行自由场预测。未验证"
+
+#: bl/arrays.py:289
+msgctxt "Operator"
+msgid "Front-to-back levels on a horizontal ring around the array (phase-aware, this array alone)"
+msgstr "阵列周围水平环上的前后向电平（考虑相位，仅此阵列）"
+
+#: bl/operators.py:215
+msgctxt "Operator"
+msgid "Give the selected meshes the chosen library surface so they reflect sound"
+msgstr "为所选网格指定选定的库表面，使其反射声音"
+
+#: bl/auto.py:105
+msgctxt "Operator"
+msgid "Mark meshes so each face gets a surface from its Blender material name (glass, curtain, carpet, seat...) or, failing that, from its orientation (floor, ceiling, wall)"
+msgstr "标记网格，使每个面根据其 Blender 材质名称（玻璃、窗帘、地毯、座椅……）获得表面，若无匹配则根据其朝向（地面、天花板、墙壁）"
+
+#: bl/operators.py:253
+msgctxt "Operator"
+msgid "New Speaker From Datasheet"
+msgstr "从数据表新建扬声器"
+
+#: bl/report.py:256
+msgctxt "Operator"
+msgid "One readable PDF with the speakers and their angles, arrays, room acoustics, receiver and fog images, audio probes, surfaces and data sources"
+msgstr "生成一份易读的 PDF，包含扬声器及其角度、阵列、房间声学、接收器与雾图、音频探针、表面和数据源"
+
+#: bl/operators.py:44
+msgctxt "Operator"
+msgid "Place Speaker"
+msgstr "放置扬声器"
+
+#: bl/auto.py:158
+msgctxt "Operator"
+msgid "RT60 per octave band (Sabine and Eyring) from the surface-assigned meshes, plus air absorption. Volume is the override or the bounding box of the surfaces"
+msgstr "根据已分配表面的网格计算各倍频程的 RT60（Sabine 与 Eyring），并计入空气吸收。体积取覆盖值或表面的包围盒"
+
+#: bl/arrays.py:268
+msgctxt "Operator"
+msgid "Rebuild From Recipe"
+msgstr "按配方重建"
+
+#: bl/operators.py:88
+msgctxt "Operator"
+msgid "Receiver From Selected Mesh"
+msgstr "从所选网格生成接收器"
+
+#: bl/arrays.py:269
+msgctxt "Operator"
+msgid "Recreate the subwoofers from the configuration. Manual changes to the units are lost"
+msgstr "根据配置重新创建超低音音箱。对单元的手动更改将丢失"
+
+#: bl/operators.py:30
+msgctxt "Operator"
+msgid "Reload Library"
+msgstr "重新加载库"
+
+#: bl/arrays.py:122
+msgctxt "Operator"
+msgid "Remove Bottom Cabinet"
+msgstr "移除底部箱体"
+
+#: bl/arrays.py:140
+msgctxt "Operator"
+msgid "Suggest splay angles that aim the cabinets at evenly spaced points between the near and far audience distances. Geometric suggestion only"
+msgstr "建议张开角度，使各箱体对准近场与远场观众距离之间等间距的点。仅为几何建议"
+
+#: bl/auto.py:132
+msgctxt "Operator"
+msgid "Turn the selected speakers and arrays to face the audience direction set in the Speaker Library"
+msgstr "将所选扬声器和阵列转向扬声器库中设置的观众方向"
+
+#: bl/arrays.py:177
+msgctxt "Operator"
+msgid "Weight, size and level drop along the audience line (octave power sum, this array alone)"
+msgstr "沿观众线的重量、尺寸和电平下降（倍频程功率求和，仅此阵列）"
+
+#: bl/operators.py:329
+msgctxt "Operator"
+msgid "Wire cones at the -6 dB coverage angles of the selected band, parented to each speaker"
+msgstr "在所选频段的 -6 dB 覆盖角度处绘制线框锥体，并父级到各扬声器"

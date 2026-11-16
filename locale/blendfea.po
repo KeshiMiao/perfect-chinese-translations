@@ -1,0 +1,450 @@
+# perfect-chinese: 1
+# id: blendfea
+# kind: addon
+# module: bl_ext.blender_org.blendfea
+# name: VoxelSim FEA - Linear FEA
+# name_zh: 体素线性有限元
+# translator: KeshiMiao
+# category: Mesh
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: ui.py:148
+msgid "-"
+msgstr "-"
+
+#: operators.py:297
+msgid "Active object is not a mesh"
+msgstr "活动物体不是网格"
+
+#: operators.py:326
+msgid "Add Load"
+msgstr "添加载荷"
+
+#: operators.py:320
+msgid "Add Support"
+msgstr "添加支撑"
+
+#: properties.py:276
+msgid "Aluminum"
+msgstr "铝"
+
+#: properties.py:38
+msgid "Always numpy on one process, using the BLAS thread pool (see CPU Threads below)"
+msgstr "始终在单一进程中使用 numpy，并使用 BLAS 线程池（见下方 CPU 线程）"
+
+#: properties.py:34
+msgid "Auto (recommended)"
+msgstr "自动（推荐）"
+
+#: properties.py:258
+msgid "BLAS/worker-process thread count. 0 = automatic (all logical cores minus one)"
+msgstr "BLAS/工作进程线程数。0 = 自动（所有逻辑核心减一）"
+
+#: properties.py:354
+msgid "Bands"
+msgstr "色带"
+
+#: properties.py:38
+msgid "CPU (single process)"
+msgstr "CPU（单进程）"
+
+#: properties.py:258
+msgid "CPU Threads"
+msgstr "CPU 线程"
+
+#: properties.py:250
+msgid "Compute"
+msgstr "计算"
+
+#: properties.py:344
+msgid "Contour"
+msgstr "等值线"
+
+#: ui.py:196
+msgid "Convergence"
+msgstr "收敛"
+
+#: properties.py:325
+msgid "Cross-Section (3D)"
+msgstr "剖面（3D）"
+
+#: properties.py:279
+msgid "Custom"
+msgstr "自定义"
+
+#: properties.py:344
+msgid "Discrete color bands, like elevation contour lines: every value within a band gets the SAME flat color, with a crisp edge wherever the band changes -- the classic FEA 'banded contour' plot. Band count set below"
+msgstr "离散色带，类似等高线：同一色带内的所有数值使用相同的纯色，色带交界处边缘锐利——经典的 FEA「色带等值图」。色带数量在下方设置"
+
+#: properties.py:318
+msgid "Displacement"
+msgstr "位移"
+
+#: properties.py:392
+msgid "Draw a directional arrow at every load object (pointing along its force vector) and a fixed-support hatch mark at every support object (one hatch patch per locked X/Y/Z axis), directly in the 3D viewport. Purely a visual aid -- turn off if you find it cluttered"
+msgstr "直接在 3D 视图中在每个载荷物体处绘制方向箭头（沿其力矢量），并在每个支撑物体处绘制固定支撑斜线标记（每个锁定的 X/Y/Z 轴一个斜线块）。纯属视觉辅助——觉得杂乱可关闭"
+
+#: properties.py:285
+#: ui.py:144
+msgid "E"
+msgstr "E"
+
+#: properties.py:279
+msgid "Enter your own E / Poisson / yield values"
+msgstr "输入你自己的 E / 泊松比 / 屈服值"
+
+#: properties.py:190
+msgid "Force"
+msgstr "力"
+
+#: ui.py:111
+msgid "Force (N; e.g. 100 kN, 2.5 MN):"
+msgstr "力（N；例如 100 kN、2.5 MN）："
+
+#: properties.py:190
+msgid "Force direction and magnitude in NEWTONS (N), X/Y/Z. It scales the reported stress and safety factor directly. Example: (0, 0, -100) is 100 N straight down"
+msgstr "力的大小（牛顿，N）和方向 X/Y/Z。它直接缩放所报告的应力和安全系数。例如：(0, 0, -100) 表示竖直向下 100 N"
+
+#: properties.py:340
+msgid "Full-resolution color gradient -- every voxel cell (surface results) or cube (cross-section) gets its own exact color along a smooth blue-to-red scale"
+msgstr "全分辨率颜色渐变——每个体素单元（表面结果）或立方体（剖面）都沿平滑的蓝到红刻度获得自己的精确颜色"
+
+#: ui.py:145
+msgid "GPa"
+msgstr "GPa"
+
+#: properties.py:277
+msgid "Generic ABS engineering plastic"
+msgstr "通用 ABS 工程塑料"
+
+#: properties.py:278
+msgid "Generic polypropylene"
+msgstr "通用聚丙烯"
+
+#: properties.py:276
+msgid "Generic structural aluminum"
+msgstr "通用结构铝"
+
+#: properties.py:275
+msgid "Generic structural steel"
+msgstr "通用结构钢"
+
+#: properties.py:225
+msgid "Grid Samples"
+msgstr "网格采样"
+
+#: properties.py:311
+msgid "Hide every result object"
+msgstr "隐藏所有结果物体"
+
+#: properties.py:336
+msgid "How the stress/displacement/safety color scale is rendered. Purely a display setting -- re-colors the last solve's results instantly, no re-run needed"
+msgstr "应力/位移/安全系数颜色刻度的渲染方式。纯属显示设置——即时为上次求解的结果重新着色，无需重新运行"
+
+#: properties.py:272
+msgid "Isotropic material preset. Applying a preset (button below) copies reference values into the editable fields -- pick Custom to enter your own from a datasheet"
+msgstr "各向同性材料预设。应用预设（下方按钮）会将参考值复制到可编辑字段——选择「自定义」可从数据表输入你自己的值"
+
+#: ui.py:195
+msgid "Legend"
+msgstr "图例"
+
+#: properties.py:182
+msgid "Load mesh"
+msgstr "载荷网格"
+
+#: ui.py:100
+msgid "Loads"
+msgstr "载荷"
+
+#: ui.py:151
+msgid "MPa"
+msgstr "MPa"
+
+#: properties.py:272
+#: ui.py:123
+msgid "Material"
+msgstr "材料"
+
+#: operators.py:381
+msgid "Need at least one support and one load"
+msgstr "至少需要一个支撑和一个载荷"
+
+#: properties.py:311
+msgid "None"
+msgstr "无"
+
+#: properties.py:354
+msgid "Number of discrete color bands when Shading is set to Contour"
+msgstr "当着色设为等值线时的离散色带数量"
+
+#: properties.py:204
+#: ui.py:67
+msgid "Part"
+msgstr "零件"
+
+#: properties.py:234
+msgid "Partial Voxels"
+msgstr "部分体素"
+
+#: properties.py:34
+msgid "Pick CPU or GPU automatically from problem size: small grids stay on the CPU (a GPU would be slower once you count transfer overhead), larger grids move to the GPU (GPU edition only)"
+msgstr "根据问题规模自动选择 CPU 或 GPU：小网格留在 CPU（计入传输开销后 GPU 反而更慢），较大的网格转到 GPU（仅 GPU 版）"
+
+#: properties.py:340
+msgid "Pixel"
+msgstr "像素"
+
+#: properties.py:277
+msgid "Plastic (ABS)"
+msgstr "塑料（ABS）"
+
+#: properties.py:278
+msgid "Plastic (PP)"
+msgstr "塑料（PP）"
+
+#: properties.py:291
+msgid "Poisson"
+msgstr "泊松比"
+
+#: properties.py:291
+msgid "Poisson's ratio (how much the material bulges sideways when compressed)"
+msgstr "泊松比（材料受压时横向膨胀的程度）"
+
+#: properties.py:133
+msgid "Prevent movement along X at this support. Turn off to allow the part to slide along X here (e.g. a roller)"
+msgstr "阻止此支撑沿 X 移动。关闭可允许零件在此处沿 X 滑动（例如滚轮）"
+
+#: properties.py:137
+msgid "Prevent movement along Y at this support"
+msgstr "阻止此支撑沿 Y 移动"
+
+#: properties.py:140
+msgid "Prevent movement along Z at this support"
+msgstr "阻止此支撑沿 Z 移动"
+
+#: properties.py:263
+msgid "Print the chosen compute backend, device/worker counts, BLAS thread count and CG iteration/convergence info to the console (Window > Toggle System Console)"
+msgstr "将所选计算后端、设备/工作进程数、BLAS 线程数以及 CG 迭代/收敛信息打印到控制台（窗口 > 切换系统控制台）"
+
+#: properties.py:217
+msgid "Resolution"
+msgstr "分辨率"
+
+#: ui.py:202
+msgid "Run"
+msgstr "运行"
+
+#: ui.py:214
+msgid "Running - press ESC to cancel"
+msgstr "运行中 - 按 ESC 取消"
+
+#: properties.py:321
+msgid "Safety Factor"
+msgstr "安全系数"
+
+#: operators.py:378
+msgid "Set a part first"
+msgstr "请先设置零件"
+
+#: ui.py:157
+msgid "Settings"
+msgstr "设置"
+
+#: properties.py:336
+msgid "Shading"
+msgstr "着色"
+
+#: properties.py:367
+msgid "Show Convergence Plot"
+msgstr "显示收敛图"
+
+#: properties.py:392
+msgid "Show Force/Support Symbols"
+msgstr "显示力/支撑符号"
+
+#: properties.py:362
+msgid "Show Legend"
+msgstr "显示图例"
+
+#: properties.py:307
+msgid "Show Result"
+msgstr "显示结果"
+
+#: properties.py:373
+msgid "Show Setup (Part / Supports / Loads)"
+msgstr "显示设置（零件/支撑/载荷）"
+
+#: properties.py:244
+msgid "Show compute backend detail (thread count, device status). Auto-opens when you pick a non-Auto Compute mode"
+msgstr "显示计算后端详情（线程数、设备状态）。选择非「自动」计算模式时自动展开"
+
+#: properties.py:382
+msgid "Show support/load helper objects as wireframe as soon as they're assigned (the previous, always-on behaviour). Turn off to leave newly-assigned helpers at whatever display they already had. Turning this off also forces every already-wireframed helper back to solid immediately"
+msgstr "支撑/载荷辅助物体一经指定即以线框显示（即此前的常开行为）。关闭后，新指定的辅助物体保持其原有显示方式。关闭此项还会立即将所有已线框化的辅助物体恢复为实体显示"
+
+#: properties.py:367
+msgid "Show the CG residual-vs-iteration overlay while solving, and leave the finished curve on screen afterwards"
+msgstr "求解时显示 CG 残差随迭代变化的叠加图，完成后将最终曲线保留在屏幕上"
+
+#: properties.py:362
+msgid "Show the on-screen color-scale legend in the 3D viewport while a result is visible"
+msgstr "结果可见时，在 3D 视图中显示屏幕上的颜色刻度图例"
+
+#: properties.py:373
+msgid "Show the part and the support/load helper objects in the viewport. Automatically turned off right after a solve finishes, since they only ever cover the result overlay -- toggle back on to edit the setup and re-run"
+msgstr "在视图中显示零件及支撑/载荷辅助物体。求解完成后会自动关闭，因为它们只会遮挡结果叠加显示——重新开启即可编辑设置并再次运行"
+
+#: properties.py:225
+msgid "Solve on this many slightly shifted voxel grids and report the median with its range. Which voxels count as material depends on where the grid falls on the part; with few voxels across a wall one grid alone can be off by tens of percent. 1 = single grid (fastest)"
+msgstr "在此数量的略微偏移的体素网格上求解，并报告中位数及其范围。哪些体素算作材料取决于网格相对零件的位置；当壁厚方向体素数很少时，单个网格的误差可达数十个百分点。1 = 单网格（最快）"
+
+#: properties.py:275
+msgid "Steel"
+msgstr "钢"
+
+#: properties.py:126
+msgid "Support mesh"
+msgstr "支撑网格"
+
+#: ui.py:74
+msgid "Supports & Loads"
+msgstr "支撑与载荷"
+
+#: ui.py:85
+msgid "Supports (bearings)"
+msgstr "支撑（支座）"
+
+#: properties.py:318
+msgid "Surface mesh colored by displacement magnitude in mm (blue = least movement, red = most)"
+msgstr "按位移大小（单位 mm）着色的表面网格（蓝色 = 位移最小，红色 = 位移最大）"
+
+#: properties.py:321
+msgid "Surface mesh colored by safety factor = yield / von Mises stress (blue/green = safe, red = at or below yield). Requires Yield Strength > 0"
+msgstr "按安全系数 = 屈服强度 / von Mises 应力着色的表面网格（蓝色/绿色 = 安全，红色 = 达到或低于屈服）。需要屈服强度 > 0"
+
+#: properties.py:312
+msgid "Surface mesh colored by von Mises stress (blue = low, red = high). The color scale ignores the top ~1% of elements (the singular stress spikes that always sit right at point loads/supports on a voxel grid); the true unclamped max is still reported in the status line and the legend"
+msgstr "按 von Mises 应力着色的表面网格（蓝色 = 低，红色 = 高）。色标忽略最高的约 1% 单元（在体素网格上，这些奇异应力尖峰总是出现在点载荷/支撑处）；未截断的真实最大值仍会显示在状态行和图例中"
+
+#: ui.py:82
+msgid "Symbols"
+msgstr "符号"
+
+#: properties.py:204
+msgid "The actual part to analyze -- this IS the analysis domain, voxelized and solved exactly as modeled (no material added or removed). Must be a closed (watertight) mesh"
+msgstr "要分析的实际零件——它就是分析域，按建模原样体素化并求解（不增加或移除材料）。必须是封闭（水密）网格"
+
+#: properties.py:263
+msgid "Verbose solver log"
+msgstr "详细求解器日志"
+
+#: properties.py:312
+msgid "Von Mises Stress"
+msgstr "von Mises 应力"
+
+#: ui.py:37
+#: ui.py:60
+msgid "VoxelSim FEA"
+msgstr "VoxelSim FEA"
+
+#: properties.py:325
+msgid "VoxelSimFEA_StressCloud: one real, colored cube per active voxel (von Mises stress), near-zero elements dropped, with a Geometry Nodes clip plane (VoxelSimFEA_ClipPlane Empty) so you can slice into the part"
+msgstr "VoxelSimFEA_StressCloud：每个活动体素对应一个真实的着色立方体（von Mises 应力），丢弃接近零的单元，并带有几何节点剖切平面（VoxelSimFEA_ClipPlane 空物体），以便剖切查看零件内部"
+
+#: properties.py:217
+msgid "Voxels along the part's longest edge. Higher = finer stress detail but much slower and more memory (cost grows roughly with the cube). 40-64 is a good start; raise for thin features the coarse grid might miss"
+msgstr "沿零件最长边的体素数。数值越高，应力细节越精细，但速度更慢、内存占用更大（开销大致按三次方增长）。建议从 40-64 开始；对于粗网格可能漏掉的薄结构可适当提高"
+
+#: properties.py:234
+msgid "Weight each voxel's stiffness by the fraction of it that lies inside the part, instead of a plain inside/outside test. More accurate displacements on coarse grids, in particular with Grid Samples = 1; costs extra voxelization time"
+msgstr "按体素位于零件内部的比例来加权其刚度，而不是简单判断在内部还是外部。在粗网格上位移更准确，尤其是网格采样 = 1 时；会增加体素化时间"
+
+#: properties.py:182
+msgid "Where an external force is applied. The force is spread over the grid nodes inside this mesh. Place a small closed mesh overlapping the part where the load acts"
+msgstr "施加外力的位置。力会分布到该网格内部的网格节点上。在载荷作用处放置一个与零件重叠的小型封闭网格"
+
+#: properties.py:126
+msgid "Where the part is held / anchored. Grid nodes inside this mesh are clamped. Place a small closed mesh overlapping the part where it is actually supported"
+msgstr "零件被固定/锚定的位置。该网格内部的网格节点会被约束。在实际支撑处放置一个与零件重叠的小型封闭网格"
+
+#: properties.py:250
+msgid "Which compute backend the solver uses for its one linear solve. Auto is right for almost everyone"
+msgstr "求解器进行单次线性求解时使用的计算后端。几乎所有情况下用「自动」即可"
+
+#: properties.py:307
+msgid "Which single result object is visible right now -- every result from the last solve stays available in the 'VoxelSim FEA Results' collection, this just switches which one is shown (and drives the on-screen legend)"
+msgstr "当前显示哪一个结果物体——上次求解的每个结果都保留在 'VoxelSim FEA Results' 集合中，此项只是切换显示哪一个（并同时控制屏幕图例）"
+
+#: properties.py:382
+msgid "Wireframe Helper-Objects"
+msgstr "线框辅助物体"
+
+#: properties.py:133
+#: ui.py:112
+msgid "X"
+msgstr "X"
+
+#: properties.py:137
+#: ui.py:113
+msgid "Y"
+msgstr "Y"
+
+#: properties.py:296
+#: ui.py:150
+msgid "Yield Strength"
+msgstr "屈服强度"
+
+#: properties.py:296
+msgid "Yield strength in MEGAPASCALS (MPa), used only to compute the safety-factor result (yield / von Mises stress). Set to 0 to disable the safety-factor result"
+msgstr "屈服强度，单位兆帕（MPa），仅用于计算安全系数结果（屈服强度 / von Mises 应力）。设为 0 可禁用安全系数结果"
+
+#: properties.py:285
+msgid "Young's modulus in GIGAPASCALS (GPa). It sets the absolute displacement and stress scale. 1 GPa = 1000 MPa = 1e9 Pa"
+msgstr "杨氏模量，单位吉帕（GPa）。它决定位移和应力的绝对量级。1 GPa = 1000 MPa = 1e9 Pa"
+
+#: properties.py:140
+#: ui.py:114
+msgid "Z"
+msgstr "Z"
+
+#: operators.py:346
+msgctxt "Operator"
+msgid "Apply Preset"
+msgstr "应用预设"
+
+#: operators.py:347
+msgctxt "Operator"
+msgid "Copy the selected preset's reference E (GPa) / Poisson / yield strength (MPa) into the editable fields below"
+msgstr "将所选预设的参考 E（GPa）/ 泊松比 / 屈服强度（MPa）复制到下方可编辑字段中"
+
+#: operators.py:332
+msgctxt "Operator"
+msgid "Remove"
+msgstr "移除"
+
+#: operators.py:372
+#: ui.py:211
+msgctxt "Operator"
+msgid "Run FEA"
+msgstr "运行 FEA"
+
+#: operators.py:291
+msgctxt "Operator"
+msgid "Set Part from Active"
+msgstr "从活动物体设置零件"
+
+#: operators.py:292
+msgctxt "Operator"
+msgid "Use the active object as the part to analyze"
+msgstr "将活动物体用作要分析的零件"
+
+#: operators.py:373
+msgctxt "Operator"
+msgid "Voxelize the part and solve in the background"
+msgstr "在后台对零件进行体素化并求解"

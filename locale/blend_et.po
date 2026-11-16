@@ -1,0 +1,740 @@
+# perfect-chinese: 1
+# id: blend_et
+# kind: addon
+# module: bl_ext.blender_org.blend_et
+# name: BlendET
+# name_zh: 科学可视化工具
+# translator: KeshiMiao
+# category: Add Mesh
+# supported_versions: >=4.5.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: volume/props.py:29
+msgid ".npy / .npz"
+msgstr ".npy / .npz"
+
+#: fieldlines/props.py:18
+msgid ".npz"
+msgstr ".npz"
+
+#: pointcloud/props.py:19
+msgid ".npz / .csv"
+msgstr ".npz / .csv"
+
+#: volume/props.py:19
+msgid ".vdb"
+msgstr ".vdb"
+
+#: volume/props.py:121
+msgid "5% highs"
+msgstr "5% 高值"
+
+#: volume/props.py:115
+msgid "5% lows"
+msgstr "5% 低值"
+
+#: volume/ui.py:50
+msgid "5% quantiles"
+msgstr "5% 分位数"
+
+#: fieldlines/props.py:55
+msgid "Along XY plane"
+msgstr "沿 XY 平面"
+
+#: fieldlines/props.py:56
+msgid "Along XZ plane"
+msgstr "沿 XZ 平面"
+
+#: fieldlines/props.py:57
+msgid "Along YZ plane"
+msgstr "沿 YZ 平面"
+
+#: annotations/ui.py:5
+msgid "Annotations"
+msgstr "注释"
+
+#: volume/props.py:44
+msgid "Array is (X, Y, Z)"
+msgstr "数组为 (X, Y, Z)"
+
+#: volume/props.py:47
+msgid "Array is (X, Z, Y)"
+msgstr "数组为 (X, Z, Y)"
+
+#: volume/props.py:48
+msgid "Array is (Y, X, Z)"
+msgstr "数组为 (Y, X, Z)"
+
+#: volume/props.py:45
+msgid "Array is (Y, Z, X)"
+msgstr "数组为 (Y, Z, X)"
+
+#: volume/props.py:46
+msgid "Array is (Z, X, Y)"
+msgstr "数组为 (Z, X, Y)"
+
+#: volume/props.py:43
+msgid "Array is (Z, Y, X)"
+msgstr "数组为 (Z, Y, X)"
+
+#: volume/props.py:39
+msgid "Axis order"
+msgstr "轴顺序"
+
+#: tools/props.py:5
+msgid "Background color"
+msgstr "背景色"
+
+#: tools/props.py:5
+msgid "Background color for the scene"
+msgstr "场景的背景色"
+
+#: annotations/ui.py:8
+#: fieldlines/ui.py:12
+msgid "BlendET"
+msgstr "BlendET"
+
+#: fieldlines/props.py:31
+msgid "Both"
+msgstr "两者"
+
+#: annotations/operators.py:40
+#: annotations/operators.py:80
+msgid "Cannot access data of an object"
+msgstr "无法访问物体的数据"
+
+#: utilities/materials.py:23
+#: utilities/materials.py:61
+msgid "Colormap"
+msgstr "颜色映射"
+
+#: fieldlines/operators.py:208
+#: pointcloud/operators.py:112
+msgid "Colormap reversed"
+msgstr "反转颜色映射"
+
+#: fieldlines/ui.py:50
+msgid "Coordinates are in units of the number of cells"
+msgstr "坐标以单元数为单位"
+
+#: tools/operators.py:26
+msgid "Could not access Cycles preferences"
+msgstr "无法访问 Cycles 偏好设置"
+
+#: tools/operators.py:23
+msgid "Could not access user preferences"
+msgstr "无法访问用户偏好设置"
+
+#: fieldlines/operators.py:54
+msgid "Could not identify x, y, z keys in the .npz file"
+msgstr "无法识别 .npz 文件中的 x、y、z 键"
+
+#: volume/props.py:57
+msgid "Crop array: maximum X index (exclusive)"
+msgstr "裁剪数组：最大 X 索引（不含）"
+
+#: volume/props.py:67
+msgid "Crop array: maximum Y index (exclusive)"
+msgstr "裁剪数组：最大 Y 索引（不含）"
+
+#: volume/props.py:77
+msgid "Crop array: maximum Z index (exclusive)"
+msgstr "裁剪数组：最大 Z 索引（不含）"
+
+#: volume/props.py:52
+msgid "Crop array: minimum X index (inclusive)"
+msgstr "裁剪数组：最小 X 索引（含）"
+
+#: volume/props.py:62
+msgid "Crop array: minimum Y index (inclusive)"
+msgstr "裁剪数组：最小 Y 索引（含）"
+
+#: volume/props.py:72
+msgid "Crop array: minimum Z index (inclusive)"
+msgstr "裁剪数组：最小 Z 索引（含）"
+
+#: fieldlines/props.py:86
+msgid "Crop arrays: maximum X index (exclusive)"
+msgstr "裁剪数组：最大 X 索引（不含）"
+
+#: fieldlines/props.py:96
+msgid "Crop arrays: maximum Y index (exclusive)"
+msgstr "裁剪数组：最大 Y 索引（不含）"
+
+#: fieldlines/props.py:106
+msgid "Crop arrays: maximum Z index (exclusive)"
+msgstr "裁剪数组：最大 Z 索引（不含）"
+
+#: fieldlines/props.py:81
+msgid "Crop arrays: minimum X index (inclusive)"
+msgstr "裁剪数组：最小 X 索引（含）"
+
+#: fieldlines/props.py:91
+msgid "Crop arrays: minimum Y index (inclusive)"
+msgstr "裁剪数组：最小 Y 索引（含）"
+
+#: fieldlines/props.py:101
+msgid "Crop arrays: minimum Z index (inclusive)"
+msgstr "裁剪数组：最小 Z 索引（含）"
+
+#: fieldlines/ui.py:60
+#: volume/ui.py:91
+msgid "Crop indices"
+msgstr "裁剪索引"
+
+#: fieldlines/operators.py:81
+#: volume/operators.py:209
+msgid "Cropped array is empty."
+msgstr "裁剪后的数组为空。"
+
+#: fieldlines/props.py:58
+msgid "Custom seed"
+msgstr "自定义种子"
+
+#: fieldlines/props.py:76
+msgid "Custom seed label"
+msgstr "自定义种子标签"
+
+#: fieldlines/operators.py:107
+msgid "Custom seed points not implemented yet"
+msgstr "自定义种子点尚未实现"
+
+#: fieldlines/props.py:58
+msgid "Custom seed points provided in the .npz file"
+msgstr ".npz 文件中提供的自定义种子点"
+
+#: volume/props.py:34
+msgid "Dataset key inside .npz (leave empty for .npy)"
+msgstr ".npz 内的数据集键（.npy 请留空）"
+
+#: fieldlines/props.py:70
+msgid "Displacement of the seed plane along the axis normal in cells"
+msgstr "种子平面沿轴法线方向的位移（以单元计）"
+
+#: tools/ui.py:15
+msgid "Enable CUDA/HIP/OneAPI support in Preferences before proceeding."
+msgstr "请先在偏好设置中启用 CUDA/HIP/OneAPI 支持。"
+
+#: tools/operators.py:45
+msgid "Failed to access scene view settings"
+msgstr "无法访问场景视图设置"
+
+#: tools/operators.py:70
+msgid "Failed to access world node tree"
+msgstr "无法访问世界节点树"
+
+#: annotations/operators.py:30
+#: annotations/operators.py:70
+msgid "Failed to create empty object"
+msgstr "无法创建空物体"
+
+#: fieldlines/props.py:23
+msgid "Field prefix"
+msgstr "字段前缀"
+
+#: fieldlines/props.py:27
+msgid "Fieldline integration direction"
+msgstr "场线积分方向"
+
+#: fieldlines/ui.py:9
+msgid "Fieldline material"
+msgstr "场线材质"
+
+#: fieldlines/ui.py:40
+msgid "Fieldlines"
+msgstr "场线"
+
+#: volume/operators.py:180
+msgid "File must be .npy or .npz"
+msgstr "文件必须为 .npy 或 .npz"
+
+#: volume/props.py:127
+#: volume/ui.py:54
+msgid "Histogram"
+msgstr "直方图"
+
+#: volume/props.py:132
+msgid "Histogram Ready"
+msgstr "直方图已就绪"
+
+#: volume/props.py:127
+msgid "Histogram preview image"
+msgstr "直方图预览图像"
+
+#: fieldlines/props.py:31
+msgid "Integrate in both directions"
+msgstr "双向积分"
+
+#: fieldlines/props.py:33
+msgid "Integrate in negative direction only"
+msgstr "仅负方向积分"
+
+#: fieldlines/props.py:32
+msgid "Integrate in positive direction only"
+msgstr "仅正方向积分"
+
+#: fieldlines/props.py:27
+msgid "Integration direction"
+msgstr "积分方向"
+
+#: fieldlines/ui.py:75
+msgid "Integration settings"
+msgstr "积分设置"
+
+#: fieldlines/props.py:37
+msgid "Integration step"
+msgstr "积分步长"
+
+#: fieldlines/props.py:37
+msgid "Integration step size (in units of cells)"
+msgstr "积分步长（以单元为单位）"
+
+#: fieldlines/operators.py:110
+msgid "Invalid seed points option"
+msgstr "无效的种子点选项"
+
+#: fieldlines/props.py:76
+msgid "Label for the custom seed points in the .npz file"
+msgstr ".npz 文件中自定义种子点的标签"
+
+#: volume/props.py:121
+msgid "Largest 5% of imported NumPy data"
+msgstr "导入的 NumPy 数据中最大的 5%"
+
+#: volume/props.py:109
+msgid "Largest value of imported NumPy data"
+msgstr "导入的 NumPy 数据的最大值"
+
+#: annotations/operators.py:119
+msgid "Material cannot use node trees"
+msgstr "材质无法使用节点树"
+
+#: fieldlines/props.py:44
+msgid "Max iterations"
+msgstr "最大迭代次数"
+
+#: volume/props.py:109
+msgid "Max value"
+msgstr "最大值"
+
+#: fieldlines/props.py:44
+msgid "Maximum number of integration iterations"
+msgstr "最大积分迭代次数"
+
+#: volume/props.py:103
+msgid "Min value"
+msgstr "最小值"
+
+#: fieldlines/props.py:33
+msgid "Minus"
+msgstr "减"
+
+#: volume/props.py:34
+msgid "NPZ field"
+msgstr "NPZ 字段"
+
+#: fieldlines/operators.py:226
+#: pointcloud/operators.py:130
+msgid "No active material on the selected object."
+msgstr "所选物体没有激活的材质。"
+
+#: annotations/operators.py:22
+#: annotations/operators.py:62
+msgid "No active scene found"
+msgstr "未找到激活的场景"
+
+#: pointcloud/operators.py:30
+msgid "No pointcloud file path specified"
+msgstr "未指定点云文件路径"
+
+#: fieldlines/ui.py:49
+msgid "NumPy → Fieldlines (.npz)"
+msgstr "NumPy → 场线（.npz）"
+
+#: volume/ui.py:86
+msgid "NumPy → Volume (.npy / .npz)"
+msgstr "NumPy → 体积（.npy / .npz）"
+
+#: pointcloud/ui.py:49
+msgid "NumPy/CSV → Pointcloud (.npz/.csv)"
+msgstr "NumPy/CSV → 点云（.npz/.csv）"
+
+#: fieldlines/props.py:62
+msgid "Number of seed points along each axis"
+msgstr "每个轴上的种子点数量"
+
+#: volume/props.py:39
+msgid "Order of axes in the input array"
+msgstr "输入数组中轴的顺序"
+
+#: volume/props.py:19
+msgid "Path to .vdb file for volume rendering"
+msgstr "用于体积渲染的 .vdb 文件路径"
+
+#: pointcloud/props.py:19
+msgid "Path to a .npz or .csv file for pointcloud rendering"
+msgstr "用于点云渲染的 .npz 或 .csv 文件路径"
+
+#: volume/props.py:29
+msgid "Path to a 3D NumPy array file"
+msgstr "3D NumPy 数组文件路径"
+
+#: fieldlines/props.py:18
+msgid "Path to a 3D NumPy dictionary file with the data"
+msgstr "包含数据的 3D NumPy 字典文件路径"
+
+#: volume/operators.py:138
+msgid "Pick a valid .npy /.npz file first."
+msgstr "请先选择一个有效的 .npy/.npz 文件。"
+
+#: volume/operators.py:71
+msgid "Please pick a valid .vdb file first."
+msgstr "请先选择一个有效的 .vdb 文件。"
+
+#: fieldlines/props.py:32
+msgid "Plus"
+msgstr "加"
+
+#: pointcloud/ui.py:40
+msgid "Pointcloud"
+msgstr "点云"
+
+#: pointcloud/ui.py:9
+msgid "Pointcloud material"
+msgstr "点云材质"
+
+#: fieldlines/props.py:23
+msgid "Prefix used to take field components: {prefix}x, {prefix}y, {prefix}z"
+msgstr "用于提取场分量的前缀：{prefix}x、{prefix}y、{prefix}z"
+
+#: fieldlines/props.py:51
+msgid "Preset for seed points"
+msgstr "种子点预设"
+
+#: volume/ui.py:61
+msgid "Quantiles shown with red lines"
+msgstr "用红线显示的分位数"
+
+#: utilities/materials.py:34
+#: utilities/materials.py:64
+msgid "Reverse colormap"
+msgstr "反转颜色映射"
+
+#: utilities/materials.py:34
+msgid "Reverse the selected colormap (like Matplotlib _r)"
+msgstr "反转所选颜色映射（类似 Matplotlib 的 _r）"
+
+#: fieldlines/props.py:70
+msgid "Seed plane displacement"
+msgstr "种子平面位移"
+
+#: fieldlines/props.py:51
+msgid "Seed points"
+msgstr "种子点"
+
+#: fieldlines/ui.py:81
+msgid "Seed points settings"
+msgstr "种子点设置"
+
+#: fieldlines/props.py:62
+msgid "Seed resolution"
+msgstr "种子分辨率"
+
+#: volume/props.py:115
+msgid "Smallest 5% of imported NumPy data"
+msgstr "导入的 NumPy 数据中最小的 5%"
+
+#: volume/props.py:103
+msgid "Smallest value of imported NumPy data"
+msgstr "导入的 NumPy 数据的最小值"
+
+#: volume/props.py:24
+msgid "Store .vdb filepath relative to this .blend"
+msgstr "存储相对于此 .blend 的 .vdb 文件路径"
+
+#: volume/props.py:24
+msgid "Store relative path"
+msgstr "存储相对路径"
+
+#: tools/ui.py:5
+msgid "Tools"
+msgstr "工具"
+
+#: volume/props.py:132
+msgid "True if histogram comes from NumPy import"
+msgstr "直方图来自 NumPy 导入时为真"
+
+#: annotations/props.py:5
+#: fieldlines/props.py:13
+msgid "UUID"
+msgstr "UUID"
+
+#: annotations/props.py:5
+msgid "UUID for the annotation object"
+msgstr "标注物体的 UUID"
+
+#: fieldlines/props.py:13
+msgid "UUID for the fieldlines"
+msgstr "场线的 UUID"
+
+#: pointcloud/props.py:13
+msgid "UUID for the pointcloud object"
+msgstr "点云物体的 UUID"
+
+#: volume/props.py:13
+msgid "UUID for the volume object"
+msgstr "体积物体的 UUID"
+
+#: pointcloud/operators.py:63
+msgid "Unsupported file format. Please use .npz or .csv"
+msgstr "不支持的文件格式。请使用 .npz 或 .csv"
+
+#: volume/ui.py:80
+msgid "VDB → Volume (.vdb)"
+msgstr "VDB → 体积（.vdb）"
+
+#: volume/ui.py:42
+msgid "Value ranges"
+msgstr "值范围"
+
+#: volume/ui.py:65
+msgid "Volume Rendering"
+msgstr "体积渲染"
+
+#: volume/ui.py:10
+msgid "Volume material"
+msgstr "体积材质"
+
+#: fieldlines/props.py:86
+#: volume/props.py:57
+msgid "X max"
+msgstr "X 最大值"
+
+#: fieldlines/props.py:81
+#: volume/props.py:52
+msgid "X min"
+msgstr "X 最小值"
+
+#: fieldlines/props.py:55
+msgid "XY plane"
+msgstr "XY 平面"
+
+#: volume/props.py:44
+msgid "XYZ"
+msgstr "XYZ"
+
+#: fieldlines/props.py:56
+msgid "XZ plane"
+msgstr "XZ 平面"
+
+#: volume/props.py:47
+msgid "XZY"
+msgstr "XZY"
+
+#: fieldlines/props.py:96
+#: volume/props.py:67
+msgid "Y max"
+msgstr "Y 最大值"
+
+#: fieldlines/props.py:91
+#: volume/props.py:62
+msgid "Y min"
+msgstr "Y 最小值"
+
+#: volume/props.py:48
+msgid "YXZ"
+msgstr "YXZ"
+
+#: fieldlines/props.py:57
+msgid "YZ plane"
+msgstr "YZ 平面"
+
+#: volume/props.py:45
+msgid "YZX"
+msgstr "YZX"
+
+#: fieldlines/props.py:106
+#: volume/props.py:77
+msgid "Z max"
+msgstr "Z 最大值"
+
+#: fieldlines/props.py:101
+#: volume/props.py:72
+msgid "Z min"
+msgstr "Z 最小值"
+
+#: volume/props.py:46
+msgid "ZXY"
+msgstr "ZXY"
+
+#: volume/props.py:43
+msgid "ZYX (common)"
+msgstr "ZYX（常用）"
+
+#: volume/ui.py:46
+msgid "min/max"
+msgstr "最小/最大"
+
+#: volume/operators.py:147
+msgid "pyopenvdb is not installed in Blender's Python. Install into Blender's Python and try again."
+msgstr "Blender 的 Python 中未安装 pyopenvdb。请安装到 Blender 的 Python 中后重试。"
+
+#: fieldlines/operators.py:86
+msgid "x, y, z data have different shapes"
+msgstr "x、y、z 数据的形状不同"
+
+#: annotations/operators.py:57
+msgctxt "Operator"
+msgid "Add a customizable arrow mesh"
+msgstr "添加可自定义的箭头网格"
+
+#: annotations/operators.py:99
+msgctxt "Operator"
+msgid "Add a customizable axes indicator mesh"
+msgstr "添加可自定义的坐标轴指示器网格"
+
+#: annotations/operators.py:17
+msgctxt "Operator"
+msgid "Add a customizable mesh for representing the axes of the grid"
+msgstr "添加用于表示网格坐标轴的可自定义网格"
+
+#: annotations/operators.py:56
+msgctxt "Operator"
+msgid "Add arrow"
+msgstr "添加箭头"
+
+#: annotations/operators.py:98
+msgctxt "Operator"
+msgid "Add axes"
+msgstr "添加坐标轴"
+
+#: annotations/operators.py:16
+msgctxt "Operator"
+msgid "Add axes grid"
+msgstr "添加坐标轴网格"
+
+#: tools/operators.py:82
+msgctxt "Operator"
+msgid "Clear Unused Data"
+msgstr "清除未使用数据"
+
+#: fieldlines/operators.py:19
+msgctxt "Operator"
+msgid "Create Fieldlines from NumPy file"
+msgstr "从 NumPy 文件创建场线"
+
+#: pointcloud/operators.py:19
+msgctxt "Operator"
+msgid "Create Pointcloud"
+msgstr "创建点云"
+
+#: fieldlines/operators.py:218
+msgctxt "Operator"
+msgid "Create a basic material for the fieldlines rendering or reset the existing one"
+msgstr "为场线渲染创建基础材质，或重置现有材质"
+
+#: pointcloud/operators.py:122
+msgctxt "Operator"
+msgid "Create a basic material for the pointcloud rendering or reset the existing one"
+msgstr "为点云渲染创建基础材质，或重置现有材质"
+
+#: volume/operators.py:43
+msgctxt "Operator"
+msgid "Create a basic material for volume rendering or reset the existing one"
+msgstr "为体积渲染创建基础材质，或重置现有材质"
+
+#: fieldlines/operators.py:20
+msgctxt "Operator"
+msgid "Create a new fieldline object"
+msgstr "创建新的场线物体"
+
+#: pointcloud/operators.py:20
+msgctxt "Operator"
+msgid "Create a pointcloud from the selected data file"
+msgstr "从选中的数据文件创建点云"
+
+#: fieldlines/operators.py:217
+msgctxt "Operator"
+msgid "Create or Reset Fieldline Material"
+msgstr "创建或重置场线材质"
+
+#: pointcloud/operators.py:121
+msgctxt "Operator"
+msgid "Create or Reset Pointcloud Material"
+msgstr "创建或重置点云材质"
+
+#: volume/operators.py:42
+msgctxt "Operator"
+msgid "Create or Reset Volume Material"
+msgstr "创建或重置体积材质"
+
+#: tools/operators.py:36
+msgctxt "Operator"
+msgid "Fix Colors"
+msgstr "修复颜色"
+
+#: tools/operators.py:37
+msgctxt "Operator"
+msgid "Fix color management settings for scientific visualization"
+msgstr "修复科学可视化的颜色管理设置"
+
+#: volume/operators.py:95
+msgctxt "Operator"
+msgid "Import .npy/.npz as volume"
+msgstr "将 .npy/.npz 导入为体积"
+
+#: volume/operators.py:60
+msgctxt "Operator"
+msgid "Import .vdb as volume"
+msgstr "将 .vdb 导入为体积"
+
+#: volume/operators.py:61
+msgctxt "Operator"
+msgid "Import a .vdb file and create a volume object"
+msgstr "导入 .vdb 文件并创建体积物体"
+
+#: volume/operators.py:96
+msgctxt "Operator"
+msgid "Load a 3D NumPy array (.npy/.npz) and create a Volume object via OpenVDB"
+msgstr "加载 3D NumPy 数组（.npy/.npz），并通过 OpenVDB 创建体积物体"
+
+#: tools/operators.py:83
+msgctxt "Operator"
+msgid "Remove all unused data blocks from the blend file"
+msgstr "从 blend 文件中移除所有未使用的数据块"
+
+#: fieldlines/operators.py:197
+#: pointcloud/operators.py:101
+msgctxt "Operator"
+msgid "Reverse colormap"
+msgstr "反转颜色映射"
+
+#: fieldlines/operators.py:198
+#: pointcloud/operators.py:102
+msgctxt "Operator"
+msgid "Reverse the active material's colormap"
+msgstr "反转活动材质的颜色映射"
+
+#: tools/operators.py:53
+msgctxt "Operator"
+msgid "Set Background Color"
+msgstr "设置背景颜色"
+
+#: tools/operators.py:54
+msgctxt "Operator"
+msgid "Set background color for the scene"
+msgstr "设置场景的背景颜色"
+
+#: tools/operators.py:9
+msgctxt "Operator"
+msgid "Switch render engine to Cycles"
+msgstr "将渲染引擎切换为 Cycles"
+
+#: tools/operators.py:8
+msgctxt "Operator"
+msgid "Switch to Cycles"
+msgstr "切换到 Cycles"

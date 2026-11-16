@@ -1,0 +1,639 @@
+# perfect-chinese: 1
+# id: uvgami
+# kind: addon
+# module: bl_ext.blender_org.uvgami
+# name: UVgami Lite
+# name_zh: UVgami精简版
+# translator: KeshiMiao
+# category: UV
+# supported_versions: >=5.1.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: src/ui/panels.py:167
+msgid "(stalled)"
+msgstr "（已停滞）"
+
+#: src/ops/grid.py:26
+msgid "Added UV grid"
+msgstr "已添加 UV 网格"
+
+#: src/ui/panels.py:405
+msgid "Advanced"
+msgstr "高级"
+
+#: src/ui/panels.py:524
+msgid "Area Operators"
+msgstr "区域操作"
+
+#: src/engines/optcuts/__init__.py:18
+msgid "Auto"
+msgstr "自动"
+
+#: src/ui/props.py:284
+msgid "Auto Grid"
+msgstr "自动网格"
+
+#: src/ui/props.py:284
+msgid "Automatically add a UV grid after unwrapping"
+msgstr "展开后自动添加 UV 网格"
+
+#: src/ui/props.py:304
+msgid "Automatically pack UVs after each unwrap finishes"
+msgstr "每次展开完成后自动打包 UV"
+
+#: src/ui/props.py:338
+msgid "Automatically save the Blender file before unwrapping"
+msgstr "展开前自动保存 Blender 文件"
+
+#: src/ui/props.py:338
+msgid "Autosave"
+msgstr "自动保存"
+
+#: src/ops/start.py:113
+msgid "Autosave is turned on. Save the file before starting UVgami"
+msgstr "自动保存已开启。开始 UVgami 前请保存文件"
+
+#: src/ui/props.py:299
+msgid "Average Islands Scale"
+msgstr "平均孤岛缩放"
+
+#: src/ui/props.py:140
+msgid "Balanced"
+msgstr "均衡"
+
+#: src/ops/stop.py:168
+msgid "Cancelled"
+msgstr "已取消"
+
+#: src/ops/viewer.py:97
+msgid "Click to exit viewer"
+msgstr "点击退出查看器"
+
+#: src/ui/props.py:273
+msgid "Colour"
+msgstr "颜色"
+
+#: src/ui/props.py:273
+msgid "Coloured UV grid"
+msgstr "彩色 UV 网格"
+
+#: src/ui/props.py:295
+msgid "Combine UVs"
+msgstr "合并 UV"
+
+#: src/ui/panels.py:266
+msgid "Concurrent"
+msgstr "并发"
+
+#: src/ops/stop.py:59
+msgid "Could not stop unwrap"
+msgstr "无法停止展开"
+
+#: src/engines/optcuts/__init__.py:20
+msgid "Cut seams on sharp features before the engine runs"
+msgstr "在引擎运行前于锐利特征处切割接缝"
+
+#: src/ui/props.py:348
+msgid "Display a progress bar in the 3D view and UV editor during an unwrap"
+msgstr "展开期间在 3D 视图和 UV 编辑器中显示进度条"
+
+#: src/ui/panels.py:249
+#: src/ui/props.py:124
+msgid "Engine"
+msgstr "引擎"
+
+#: src/ui/props.py:388
+msgid "Engines"
+msgstr "引擎"
+
+#: src/ui/panels.py:530
+msgid "Expand Area"
+msgstr "扩展区域"
+
+#: src/ui/panels.py:278
+msgid "Faces"
+msgstr "面"
+
+#: src/ui/props.py:141
+msgid "Fewer Seams"
+msgstr "较少接缝"
+
+#: src/ui/props.py:141
+msgid "Fewest seams, with visible stretching"
+msgstr "接缝最少，但会出现可见拉伸"
+
+#: src/ops/start.py:40
+msgid "Finish or cancel the current unwrap first"
+msgstr "请先完成或取消当前展开"
+
+#: src/ui/props.py:359
+msgid "General"
+msgstr "常规"
+
+#: src/ops/part_overrides.py:183
+msgid "Global"
+msgstr "全局"
+
+#: src/ui/panels.py:460
+msgid "Grid"
+msgstr "网格"
+
+#: src/ui/props.py:268
+msgid "Grid Type"
+msgstr "网格类型"
+
+#: src/ui/props.py:175
+msgid "Grow the selected area by this many face rings to affect a larger area"
+msgstr "按此面环数扩展所选区域，以影响更大范围"
+
+#: src/engines/optcuts/__init__.py:20
+msgid "Hard Surface"
+msgstr "硬表面"
+
+#: src/ui/props.py:220
+msgid "Higher values put fewer seams on the painted faces and make the unwrap slower"
+msgstr "数值越大，绘制面上的接缝越少，展开也越慢"
+
+#: src/ui/props.py:161
+msgid "How many meshes to unwrap at the same time"
+msgstr "同时展开的网格数量"
+
+#: src/ui/panels.py:514
+msgid "Island Operators"
+msgstr "孤岛操作"
+
+#: src/ops/part_overrides.py:207
+#: src/ui/panels.py:332
+msgid "Keep UVs"
+msgstr "保留 UV"
+
+#: src/ui/props.py:153
+msgid "Keep quads and n-gons in the output. The engine never cuts a seam across a face, so every one is rebuilt"
+msgstr "在输出中保留四边形和多边形。引擎不会跨面切割接缝，因此每个面都会被重建"
+
+#: src/ops/part_overrides.py:207
+msgid "Leave these parts out of the unwrap and keep their UV map"
+msgstr "将这些部分排除在展开之外并保留其 UV 贴图"
+
+#: src/ui/props.py:135
+msgid "Less Stretch"
+msgstr "较少拉伸"
+
+#: src/engines/optcuts/__init__.py:19
+msgid "Let the engine place every seam"
+msgstr "由引擎放置所有接缝"
+
+#: src/ui/props.py:140
+msgid "Low stretching with moderate seams"
+msgstr "拉伸小，接缝适中"
+
+#: src/ui/props.py:135
+msgid "Lowest stretching, most seams. Slowest"
+msgstr "拉伸最小，接缝最多。速度最慢"
+
+#: src/ui/panels.py:582
+msgid "Margin"
+msgstr "边距"
+
+#: src/ui/props.py:168
+msgid "Maximum time in minutes for each unwrap. Set to 0 to disable"
+msgstr "每次展开的最长时间（分钟）。设为 0 则禁用"
+
+#: src/ui/props.py:230
+msgid "Mirror the UV map across the symmetry plane of a symmetrical mesh. Has no effect on a mesh that isn't symmetrical"
+msgstr "沿对称网格的对称平面镜像 UV 贴图。对非对称网格无效"
+
+#: src/ui/panels.py:592
+msgid "Misc"
+msgstr "杂项"
+
+#: src/engines/optcuts/__init__.py:26
+#: src/engines/optcuts/__init__.py:61
+msgid "Mode"
+msgstr "模式"
+
+#: src/ops/guides.py:63
+#: src/ops/part_overrides.py:292
+msgid "No object selected"
+msgstr "未选择物体"
+
+#: src/ui/props.py:272
+msgid "Normal UV grid"
+msgstr "普通 UV 网格"
+
+#: src/engines/optcuts/__init__.py:19
+msgid "Organic"
+msgstr "有机"
+
+#: src/ui/panels.py:565
+msgid "Pack"
+msgstr "打包"
+
+#: src/ui/props.py:304
+msgid "Pack After Unwrap"
+msgstr "展开后打包"
+
+#: src/ui/props.py:295
+msgid "Pack UVs of all selected objects into a single UV map"
+msgstr "将所有选中物体的 UV 打包到单个 UV 贴图"
+
+#: src/engines/optcuts/__init__.py:18
+msgid "Pick Organic or Hard Surface for each loose part by its shape"
+msgstr "根据形状为每个松散部分选择有机或硬表面"
+
+#: src/ui/panels.py:64
+msgid "Press ESC to exit viewer"
+msgstr "按 ESC 退出查看器"
+
+#: src/ui/props.py:131
+msgid "Priority"
+msgstr "优先级"
+
+#: src/ui/props.py:348
+msgid "Progress Bar"
+msgstr "进度条"
+
+#: src/ui/props.py:276
+msgid "Resolution"
+msgstr "分辨率"
+
+#: src/ui/props.py:299
+msgid "Scale UV islands based on their actual size"
+msgstr "按实际大小缩放 UV 孤岛"
+
+#: src/utils/mesh.py:241
+msgid "Selected object has zero polygons"
+msgstr "所选物体没有多边形"
+
+#: src/utils/mesh.py:237
+msgid "Selected object is not a mesh"
+msgstr "所选物体不是网格"
+
+#: src/ui/panels.py:539
+msgid "Settings"
+msgstr "设置"
+
+#: src/ui/props.py:343
+msgid "Show Popup"
+msgstr "显示弹窗"
+
+#: src/ui/props.py:343
+msgid "Show a popup when all meshes are finished unwrapping"
+msgstr "所有网格展开完成后显示弹窗"
+
+#: src/ui/panels.py:289
+msgid "Speed"
+msgstr "速度"
+
+#: src/ui/props.py:145
+msgid "Split each Organic part into regions that are unwrapped separately"
+msgstr "将每个有机部分分割为单独展开的区域"
+
+#: src/ui/props.py:184
+msgid "Stack repeated mesh pieces by only unwrapping one and copying it"
+msgstr "仅展开一个重复网格块并复制它，以堆叠重复网格块"
+
+#: src/ui/panels.py:390
+msgid "Strength"
+msgstr "强度"
+
+#: src/ui/props.py:230
+msgid "Symmetry"
+msgstr "对称"
+
+#: src/ui/props.py:276
+msgid "The resolution of the grid texture in pixels"
+msgstr "网格纹理的分辨率（像素）"
+
+#: src/ui/props.py:287
+msgid "The space between UV islands"
+msgstr "UV 孤岛之间的间距"
+
+#: src/ui/props.py:268
+msgid "The type of grid material to add"
+msgstr "要添加的网格材质类型"
+
+#: src/ui/props.py:124
+msgid "The unwrapping engine to use"
+msgstr "要使用的展开引擎"
+
+#: src/ui/props.py:309
+msgid "Transfer the UV map from the output mesh to the original input mesh"
+msgstr "将 UV 贴图从输出网格传递到原始输入网格"
+
+#: src/ui/props.py:196
+msgid "Triangle count of the decimated copy"
+msgstr "简化副本的三角形数量"
+
+#: src/ui/props.py:272
+msgid "UV"
+msgstr "UV"
+
+#: src/ops/stop.py:137
+#: src/ops/stop.py:190
+msgid "UV unwrap cancelled"
+msgstr "UV 展开已取消"
+
+#: src/ui/panels.py:217
+#: src/ui/panels.py:292
+msgid "UVgami"
+msgstr "UVgami"
+
+#: src/ui/props.py:188
+msgid "Unwrap a low poly copy of each part over the face count, then transfer the seams to the original. Much faster for high poly meshes"
+msgstr "对超过面数的每个部分展开低多边形副本，然后将接缝传递到原始网格。对高多边形网格快得多"
+
+#: src/ops/part_overrides.py:183
+msgid "Use the Mode setting above"
+msgstr "使用上方的模式设置"
+
+#: src/ui/props.py:150
+msgid "Use the UV map on the mesh as input"
+msgstr "使用网格上的 UV 贴图作为输入"
+
+#: src/ui/props.py:203
+msgid "Use the painted weights to change the unwrap"
+msgstr "使用绘制的权重来改变展开"
+
+#: src/ui/panels.py:352
+msgid "Weights"
+msgstr "权重"
+
+#: src/engines/optcuts/__init__.py:26
+msgid "Whether seams are cut on sharp features or all placed by the engine. Edit Parts overrides this for single parts"
+msgstr "接缝是在锐利特征处切割还是全部由引擎放置。编辑部分会为单个部分覆盖此设置"
+
+#: src/ops/part_overrides.py:200
+msgid "Whether seams on these parts follow sharp features"
+msgstr "这些部分的接缝是否跟随锐利特征"
+
+#: src/ui/props.py:131
+msgid "Whether to aim for less stretching or fewer seams"
+msgstr "是以减少拉伸还是减少接缝为目标"
+
+#: src/ops/misc.py:43
+msgctxt "Operator"
+msgid "Active Setting"
+msgstr "活动设置"
+
+#: src/ops/grid.py:10
+msgctxt "Operator"
+msgid "Add Grid"
+msgstr "添加网格"
+
+#: src/ops/grid.py:11
+msgctxt "Operator"
+msgid "Add grid material to all selected meshes"
+msgstr "为所有所选网格添加网格材质"
+
+#: src/ops/stop.py:100
+#: src/ops/stop.py:143
+msgctxt "Operator"
+msgid "Cancel"
+msgstr "取消"
+
+#: src/ops/stop.py:174
+msgctxt "Operator"
+msgid "Cancel All"
+msgstr "全部取消"
+
+#: src/ops/stop.py:101
+msgctxt "Operator"
+msgid "Cancel UV unwrap"
+msgstr "取消 UV 展开"
+
+#: src/ops/stop.py:175
+msgctxt "Operator"
+msgid "Cancel all active UV unwraps"
+msgstr "取消所有活动的 UV 展开"
+
+#: src/ops/stop.py:144
+msgctxt "Operator"
+msgid "Cancel this preseed or proxy finish"
+msgstr "取消此预置或代理完成"
+
+#: src/ops/guides.py:188
+msgctxt "Operator"
+msgid "Clear"
+msgstr "清除"
+
+#: src/ops/guides.py:189
+msgctxt "Operator"
+msgid "Clear the painted weights"
+msgstr "清除绘制的权重"
+
+#: src/ops/fix_tools.py:609
+msgctxt "Operator"
+msgid "Combine Islands"
+msgstr "合并孤岛"
+
+#: src/ops/info.py:9
+msgctxt "Operator"
+msgid "Dismiss"
+msgstr "关闭"
+
+#: src/ops/guides.py:56
+msgctxt "Operator"
+msgid "Draw"
+msgstr "绘制"
+
+#: src/ops/part_overrides.py:282
+msgctxt "Operator"
+msgid "Edit Parts"
+msgstr "编辑部分"
+
+#: src/ops/guides.py:169
+msgctxt "Operator"
+msgid "Exit"
+msgstr "退出"
+
+#: src/ops/part_overrides.py:345
+msgctxt "Operator"
+msgid "Exit Edit Parts"
+msgstr "退出编辑部分"
+
+#: src/ops/auto_preview.py:371
+msgctxt "Operator"
+msgid "Exit Preview"
+msgstr "退出预览"
+
+#: src/ops/misc.py:26
+msgctxt "Operator"
+msgid "Expand"
+msgstr "展开"
+
+#: src/ops/misc.py:27
+msgctxt "Operator"
+msgid "Expand or collapse joined mesh details"
+msgstr "展开或折叠合并网格的详细信息"
+
+#: src/ops/guides.py:170
+msgctxt "Operator"
+msgid "Go back to previous mode"
+msgstr "返回上一模式"
+
+#: src/ops/part_overrides.py:346
+msgctxt "Operator"
+msgid "Go back to the previous mode"
+msgstr "返回上一模式"
+
+#: src/ops/info.py:10
+msgctxt "Operator"
+msgid "Hide the result of the last unwrap"
+msgstr "隐藏上次展开的结果"
+
+#: src/ops/info.py:22
+msgctxt "Operator"
+msgid "Log"
+msgstr "日志"
+
+#: src/ops/misc.py:74
+msgctxt "Operator"
+msgid "Open UVgami preferences"
+msgstr "打开 UVgami 偏好设置"
+
+#: src/ops/pack.py:44
+msgctxt "Operator"
+msgid "Pack"
+msgstr "打包"
+
+#: src/ops/pack.py:45
+msgctxt "Operator"
+msgid "Pack UVs with Blender's packer"
+msgstr "使用 Blender 的打包工具打包 UV"
+
+#: src/ops/guides.py:57
+msgctxt "Operator"
+msgid "Paint the weights that change the unwrap. Red is weighted"
+msgstr "绘制改变展开的权重。红色为已加权"
+
+#: src/ops/misc.py:73
+#: src/ui/panels.py:605
+msgctxt "Operator"
+msgid "Preferences"
+msgstr "偏好设置"
+
+#: src/ops/auto_preview.py:334
+msgctxt "Operator"
+msgid "Preview"
+msgstr "预览"
+
+#: src/ops/fix_tools.py:591
+msgctxt "Operator"
+msgid "Re-unwrap the island under the selected face(s)"
+msgstr "重新展开所选面所属的孤岛"
+
+#: src/ops/fix_tools.py:711
+msgctxt "Operator"
+msgid "Re-unwrap the selected faces with cuts if necessary"
+msgstr "如有必要，带切割重新展开所选面"
+
+#: src/ops/fix_tools.py:716
+msgctxt "Operator"
+msgid "Relax Area"
+msgstr "松弛区域"
+
+#: src/ops/fix_tools.py:598
+msgctxt "Operator"
+msgid "Relax Island"
+msgstr "松弛孤岛"
+
+#: src/ops/fix_tools.py:599
+msgctxt "Operator"
+msgid "Relax the island under the selected faces to reduce stretching without changing its seams"
+msgstr "松弛所选面所在的孤岛以减少拉伸，同时不改变其缝合线"
+
+#: src/ops/fix_tools.py:717
+msgctxt "Operator"
+msgid "Relax the selected faces to reduce stretching"
+msgstr "松弛所选面以减少拉伸"
+
+#: src/ops/grid.py:32
+msgctxt "Operator"
+msgid "Remove Grid"
+msgstr "移除网格"
+
+#: src/ops/grid.py:33
+msgctxt "Operator"
+msgid "Remove grid material from all selected meshes"
+msgstr "从所有所选网格中移除网格材质"
+
+#: src/ops/misc.py:62
+#: src/ui/props.py:378
+msgctxt "Operator"
+msgid "Reset Settings"
+msgstr "重置设置"
+
+#: src/ops/misc.py:63
+msgctxt "Operator"
+msgid "Reset all settings to their default values"
+msgstr "将所有设置重置为默认值"
+
+#: src/ops/fix_tools.py:610
+msgctxt "Operator"
+msgid "Select a face on two islands to re-unwrap them as one island"
+msgstr "在两个孤岛上各选一个面，将它们重新展开为一个孤岛"
+
+#: src/ops/part_overrides.py:283
+msgctxt "Operator"
+msgid "Select loose parts in Edit Mode and give them their own unwrap settings. Clicking a face selects its whole part"
+msgstr "在编辑模式下选择松散部分，并为其设置独立的展开参数。点击一个面会选中其整个部分"
+
+#: src/ops/info.py:23
+msgctxt "Operator"
+msgid "Show the info in a text editor, where it can be selected"
+msgstr "在文本编辑器中显示信息，以便进行选择"
+
+#: src/ops/auto_preview.py:335
+msgctxt "Operator"
+msgid "Show the settings the unwrap uses for the active mesh: the mode of each part, the region borders, the symmetry plane and the decimated parts"
+msgstr "显示展开对当前活动网格所用的设置：每个部分的模式、区域边界、对称平面以及简化后的部分"
+
+#: src/ops/viewer.py:54
+msgctxt "Operator"
+msgid "Show the unwrap live in the UV editor"
+msgstr "在 UV 编辑器中实时显示展开结果"
+
+#: src/ops/start.py:24
+msgctxt "Operator"
+msgid "Start UV unwrap process"
+msgstr "开始 UV 展开过程"
+
+#: src/ops/stop.py:44
+msgctxt "Operator"
+msgid "Stop"
+msgstr "停止"
+
+#: src/ops/stop.py:45
+msgctxt "Operator"
+msgid "Stop UV unwrap"
+msgstr "停止 UV 展开"
+
+#: src/ops/auto_preview.py:372
+msgctxt "Operator"
+msgid "Stop the preview and remove it from the viewport"
+msgstr "停止预览并将其从视图中移除"
+
+#: src/ops/start.py:23
+msgctxt "Operator"
+msgid "Unwrap"
+msgstr "展开"
+
+#: src/ops/fix_tools.py:710
+msgctxt "Operator"
+msgid "Unwrap Area"
+msgstr "展开区域"
+
+#: src/ops/fix_tools.py:590
+msgctxt "Operator"
+msgid "Unwrap Island"
+msgstr "展开孤岛"
+
+#: src/ops/viewer.py:53
+msgctxt "Operator"
+msgid "View Unwrap"
+msgstr "查看展开"

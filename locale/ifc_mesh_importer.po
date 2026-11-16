@@ -1,0 +1,246 @@
+# perfect-chinese: 1
+# id: ifc_mesh_importer
+# kind: addon
+# module: bl_ext.blender_org.ifc_mesh_importer
+# name: IFC Mesh Importer
+# name_zh: IFC网格导入器
+# translator: KeshiMiao
+# category: Import-Export
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: operators.py:161
+msgid "All or Nothing"
+msgstr "全有或全无"
+
+#: operators.py:101
+msgid "Angular Deflection"
+msgstr "角度偏差"
+
+#: operators.py:206
+msgid "Another IFC import is already running"
+msgstr "另一个 IFC 导入已在运行"
+
+#: operators.py:160
+msgid "Continue and report elements that could not be imported"
+msgstr "继续并报告无法导入的元素"
+
+#: preferences.py:19
+msgid "Debug Logging"
+msgstr "调试日志记录"
+
+#: operators.py:139
+msgid "Distance in meters beyond which automatic recentering is applied"
+msgstr "超过此距离（米）后自动重新居中"
+
+#: operators.py:156
+msgid "Element Errors"
+msgstr "元素错误"
+
+#: operators.py:75
+msgid "Geometry Engine"
+msgstr "几何引擎"
+
+#: operators.py:68
+#: preferences.py:12
+msgid "Geometry Workers"
+msgstr "几何工作线程"
+
+#: operators.py:147
+msgid "How imported objects are organized into collections"
+msgstr "导入的物体如何组织到集合中"
+
+#: operators.py:156
+msgid "How recoverable errors in individual IFC elements are handled"
+msgstr "如何处理单个 IFC 元素中的可恢复错误"
+
+#: operators.py:79
+msgid "Hybrid (Recommended)"
+msgstr "混合（推荐）"
+
+#: ui.py:16
+msgid "IFC"
+msgstr "IFC"
+
+#: ui.py:12
+msgid "IFC Mesh Importer"
+msgstr "IFC 网格导入器"
+
+#: operators.py:151
+msgid "IFC Spatial Hierarchy"
+msgstr "IFC 空间层级"
+
+#: operators.py:317
+msgid "IFC import cancelled; partial data removed"
+msgstr "IFC 导入已取消；部分数据已移除"
+
+#: operators.py:68
+msgid "IfcOpenShell geometry threads; zero selects automatically"
+msgstr "IfcOpenShell 几何线程数；0 表示自动选择"
+
+#: operators.py:215
+msgid "IfcOpenShell is unavailable; install a platform release package of this extension"
+msgstr "IfcOpenShell 不可用；请安装此扩展的对应平台发布包"
+
+#: ui.py:23
+msgid "IfcOpenShell unavailable"
+msgstr "IfcOpenShell 不可用"
+
+#: operators.py:437
+msgid "Import IFC model"
+msgstr "导入 IFC 模型"
+
+#: operators.py:110
+msgid "Import Property Sets"
+msgstr "导入属性集"
+
+#: operators.py:115
+msgid "Instance repeated mapped geometry to reduce memory use"
+msgstr "实例化重复的映射几何体以减少内存占用"
+
+#: operators.py:160
+msgid "Keep Valid Elements"
+msgstr "保留有效元素"
+
+#: operators.py:135
+msgid "Keep absolute IFC placement coordinates"
+msgstr "保留 IFC 绝对放置坐标"
+
+#: operators.py:120
+msgid "Keep source normals and split vertices where needed for faithful shading"
+msgstr "保留源法线，并在需要时拆分顶点以保证着色准确"
+
+#: operators.py:130
+msgid "Large Coordinates"
+msgstr "大坐标"
+
+#: operators.py:92
+msgid "Linear Deflection"
+msgstr "线性偏差"
+
+#: operators.py:101
+msgid "Maximum angular tessellation deviation"
+msgstr "最大角度细分偏差"
+
+#: operators.py:92
+msgid "Maximum tessellation chord deviation in meters"
+msgstr "最大细分弦偏差（米）"
+
+#: operators.py:151
+msgid "Nest project, site, building, storey, and space collections"
+msgstr "嵌套项目、场地、建筑、楼层和空间集合"
+
+#: operators.py:84
+msgid "OpenCascade"
+msgstr "OpenCascade"
+
+#: operators.py:147
+msgid "Organization"
+msgstr "组织方式"
+
+#: operators.py:152
+msgid "Place every imported object in one collection"
+msgstr "将所有导入的物体放入一个集合"
+
+#: operators.py:135
+msgid "Preserve Coordinates"
+msgstr "保留坐标"
+
+#: operators.py:120
+msgid "Preserve IFC Normals"
+msgstr "保留 IFC 法线"
+
+#: ui.py:37
+msgid "Press Esc to cancel"
+msgstr "按 Esc 取消"
+
+#: operators.py:130
+msgid "Protect viewport precision while retaining the original offset as metadata"
+msgstr "保护视图精度，同时将原始偏移保留为元数据"
+
+#: operators.py:134
+msgid "Recenter Automatically"
+msgstr "自动重新居中"
+
+#: operators.py:139
+msgid "Recenter Threshold"
+msgstr "重新居中阈值"
+
+#: ifcopenshell_backend.py:245
+#: ifcopenshell_backend.py:246
+msgid "RelatingObject"
+msgstr "RelatingObject"
+
+#: ifcopenshell_backend.py:244
+msgid "RelatingStructure"
+msgstr "RelatingStructure"
+
+#: preferences.py:29
+msgid "Release packages must include a compatible IfcOpenShell wheel"
+msgstr "发布包必须包含兼容的 IfcOpenShell wheel"
+
+#: operators.py:161
+msgid "Remove the entire model if any element fails"
+msgstr "任一元素失败时移除整个模型"
+
+#: operators.py:115
+msgid "Reuse Identical Meshes"
+msgstr "复用相同的网格"
+
+#: operators.py:125
+msgid "Run Blender mesh validation after tessellation"
+msgstr "细分后运行 Blender 网格验证"
+
+#: operators.py:210
+msgid "Select an existing .ifc file"
+msgstr "选择一个现有的 .ifc 文件"
+
+#: operators.py:134
+msgid "Shift models with distant coordinates near the origin"
+msgstr "将坐标过远的模型平移到原点附近"
+
+#: operators.py:152
+msgid "Single Collection"
+msgstr "单一集合"
+
+#: operators.py:110
+msgid "Store IFC property sets and quantities as JSON custom data"
+msgstr "将 IFC 属性集和数量存储为 JSON 自定义数据"
+
+#: operators.py:75
+msgid "Tessellation engine used for IFC representations"
+msgstr "用于 IFC 表示的细分引擎"
+
+#: operators.py:79
+msgid "Use fast CGAL Simple with OpenCascade fallback"
+msgstr "使用快速 CGAL Simple，并以 OpenCascade 作为回退"
+
+#: operators.py:84
+msgid "Use the most compatible engine for advanced curved geometry"
+msgstr "为高级曲面几何体使用兼容性最高的引擎"
+
+#: operators.py:125
+msgid "Validate Meshes"
+msgstr "验证网格"
+
+#: preferences.py:12
+msgid "Worker threads used by IfcOpenShell; zero selects automatically"
+msgstr "IfcOpenShell 使用的工作线程数；0 表示自动选择"
+
+#: preferences.py:19
+msgid "Write more detailed diagnostics to the extension user directory"
+msgstr "将更详细的诊断信息写入扩展用户目录"
+
+#: operators.py:62
+msgctxt "Operator"
+msgid "Import IFC"
+msgstr "导入 IFC"
+
+#: __init__.py:9
+msgctxt "Operator"
+msgid "Industry Foundation Classes (.ifc)"
+msgstr "工业基础类 (.ifc)"

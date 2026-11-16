@@ -1,0 +1,268 @@
+# perfect-chinese: 1
+# id: nk_auto_ik
+# kind: addon
+# module: bl_ext.blender_org.nk_auto_ik
+# name: NK Auto IK
+# name_zh: 自动IK
+# translator: KeshiMiao
+# category: Rigging
+# supported_versions: >=4.5.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:714
+msgid "+X"
+msgstr "+X"
+
+#: __init__.py:713
+msgid "+Y"
+msgstr "+Y"
+
+#: __init__.py:714
+msgid "-X"
+msgstr "-X"
+
+#: __init__.py:713
+msgid "-Y"
+msgstr "-Y"
+
+#: __init__.py:725
+msgid "Adds an 'IK' property on the control (1 = IK, 0 = FK) driving the constraints"
+msgstr "在控制器上添加一个“IK”属性（1 = IK，0 = FK）来驱动约束"
+
+#: __init__.py:696
+msgid "Arm"
+msgstr "手臂"
+
+#: __init__.py:704
+msgid "Arms"
+msgstr "手臂"
+
+#: __init__.py:713
+#: __init__.py:728
+msgid "Auto"
+msgstr "自动"
+
+#: __init__.py:710
+msgid "Character Front"
+msgstr "角色正面"
+
+#: __init__.py:727
+msgid "Control Parent"
+msgstr "控制器父级"
+
+#: __init__.py:724
+msgid "Control Shapes"
+msgstr "控制器形状"
+
+#: __init__.py:729
+msgid "Controls have no parent"
+msgstr "控制器没有父级"
+
+#: __init__.py:720
+msgid "Degrees. Straight limbs need a slight bend, otherwise Blender's IK refuses to bend them"
+msgstr "度。笔直的肢体需要轻微弯曲，否则 Blender 的 IK 不会使其弯曲"
+
+#: __init__.py:713
+msgid "Detect from feet / names"
+msgstr "从脚部 / 名称检测"
+
+#: __init__.py:1
+msgid "Detects legs and arms in an armature (or uses bones you pick) and builds working IK controls with automatically chosen bend direction, pole target, pole angle and joint limits"
+msgstr "检测骨架中的腿和手臂（或使用你选择的骨骼），并自动选择弯曲方向、极向目标、极向角度和关节限制，创建可用的 IK 控制器"
+
+#: __init__.py:700
+#: __init__.py:977
+msgid "End"
+msgstr "末端"
+
+#: __init__.py:700
+msgid "Foot / hand bone (optional); follows the IK control rotation"
+msgstr "脚 / 手骨骼（可选）；跟随 IK 控制器的旋转"
+
+#: __init__.py:723
+msgid "IK Stretch"
+msgstr "IK 拉伸"
+
+#: __init__.py:725
+msgid "IK/FK Switch"
+msgstr "IK/FK 切换"
+
+#: __init__.py:718
+msgid "Joint Limits"
+msgstr "关节限制"
+
+#: __init__.py:697
+msgid "Left"
+msgstr "左"
+
+#: __init__.py:696
+msgid "Leg"
+msgstr "腿"
+
+#: __init__.py:705
+msgid "Legs"
+msgstr "腿"
+
+#: __init__.py:718
+msgid "Locks knees/elbows as a hinge that bends in one direction only"
+msgstr "将膝盖/肘部锁定为只能单向弯曲的铰链"
+
+#: __init__.py:699
+#: __init__.py:976
+msgid "Lower"
+msgstr "下段"
+
+#: __init__.py:720
+msgid "Minimum Bend (deg)"
+msgstr "最小弯曲角度（度）"
+
+#: __init__.py:716
+msgid "Multiple of the limb length"
+msgstr "肢体长度的倍数"
+
+#: __init__.py:1
+#: __init__.py:940
+msgid "NK Auto IK"
+msgstr "NK Auto IK"
+
+#: __init__.py:944
+msgid "NK IK"
+msgstr "NK IK"
+
+#: __init__.py:800
+msgid "No limbs found to build IK for."
+msgstr "未找到可构建 IK 的肢体。"
+
+#: __init__.py:729
+msgid "None"
+msgstr "无"
+
+#: __init__.py:980
+msgid "Options"
+msgstr "选项"
+
+#: __init__.py:728
+msgid "Parent controls to the root bone if the rig has one"
+msgstr "如果绑定有根骨骼，则将控制器父级设为根骨骼"
+
+#: __init__.py:706
+msgid "Pick Bones Manually"
+msgstr "手动选择骨骼"
+
+#: __init__.py:716
+msgid "Pole Distance"
+msgstr "极向距离"
+
+#: __init__.py:1
+msgid "Rigging"
+msgstr "绑定"
+
+#: __init__.py:697
+msgid "Right"
+msgstr "右"
+
+#: __init__.py:951
+msgid "Select an armature"
+msgstr "选择一个骨架"
+
+#: __init__.py:897
+msgid "Selected bones are not a 2-3 bone parent>child chain; pick bones in the list."
+msgstr "所选骨骼不是 2-3 根父>子骨骼链；请在列表中选择骨骼。"
+
+#: __init__.py:699
+msgid "Shin / forearm bone (the IK constraint goes here)"
+msgstr "小腿 / 前臂骨骼（IK 约束添加在此处）"
+
+#: __init__.py:697
+msgid "Side"
+msgstr "侧"
+
+#: __init__.py:698
+msgid "Thigh / upper arm bone"
+msgstr "大腿 / 上臂骨骼"
+
+#: __init__.py:696
+msgid "Type"
+msgstr "类型"
+
+#: __init__.py:698
+#: __init__.py:975
+msgid "Upper"
+msgstr "上段"
+
+#: __init__.py:706
+msgid "Use the bones listed below instead of automatic detection"
+msgstr "使用下方列出的骨骼，而不是自动检测"
+
+#: __init__.py:710
+msgid "World axis the character faces; Auto detects it from the feet"
+msgstr "角色朝向的世界轴；自动会从脚部检测"
+
+#: __init__.py:867
+msgctxt "Operator"
+msgid "Add Limb"
+msgstr "添加肢体"
+
+#: __init__.py:868
+msgctxt "Operator"
+msgid "Adds a manual limb. If 2-3 connected parent>child bones are selected they are used to fill Upper / Lower / End"
+msgstr "添加手动肢体。如果选中 2-3 根相连的父>子骨骼，将用于填充上段 / 下段 / 末端"
+
+#: __init__.py:758
+msgctxt "Operator"
+msgid "Analyzes the armature and shows the limbs and bend directions that would be used (changes nothing)"
+msgstr "分析骨架并显示将使用的肢体和弯曲方向（不做任何更改）"
+
+#: __init__.py:781
+msgctxt "Operator"
+msgid "Create IK"
+msgstr "创建 IK"
+
+#: __init__.py:782
+msgctxt "Operator"
+msgid "Creates IK controls and pole targets with automatically chosen settings"
+msgstr "使用自动选择的设置创建 IK 控制器和极向目标"
+
+#: __init__.py:757
+msgctxt "Operator"
+msgid "Detect Limbs"
+msgstr "检测肢体"
+
+#: __init__.py:916
+msgctxt "Operator"
+msgid "Fill From Detection"
+msgstr "从检测结果填充"
+
+#: __init__.py:818
+msgctxt "Operator"
+msgid "Remove Generated IK"
+msgstr "移除生成的 IK"
+
+#: __init__.py:904
+msgctxt "Operator"
+msgid "Remove Limb"
+msgstr "移除肢体"
+
+#: __init__.py:819
+msgctxt "Operator"
+msgid "Removes the controls, constraints and limits created by this add-on"
+msgstr "移除此插件创建的控制器、约束和限制"
+
+#: __init__.py:917
+msgctxt "Operator"
+msgid "Replaces the manual list with the automatically detected limbs, so you can correct them"
+msgstr "用自动检测的肢体替换手动列表，以便你进行修正"
+
+#: __init__.py:839
+msgctxt "Operator"
+msgid "Restore Pre-bend"
+msgstr "恢复预弯曲"
+
+#: __init__.py:840
+msgctxt "Operator"
+msgid "Restores the slight knee/elbow bend used as the IK starting point (use it if a limb stopped bending after clearing transforms)"
+msgstr "恢复作为 IK 起始点的轻微膝盖/肘部弯曲（如果清除变换后肢体不再弯曲，请使用此项）"

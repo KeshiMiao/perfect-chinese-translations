@@ -1,0 +1,559 @@
+# perfect-chinese: 1
+# id: polyshell_builder
+# kind: addon
+# module: bl_ext.blender_org.polyshell_builder
+# name: Polyshell Builder
+# name_zh: 多面壳构建器
+# translator: KeshiMiao
+# category: 3D View
+# supported_versions: >=4.5.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: ui.py:56
+msgid "1. Sculpture"
+msgstr "1. 雕塑"
+
+#: properties.py:102
+msgid "2-Key Threshold (mm)"
+msgstr "双键阈值 (mm)"
+
+#: ui.py:69
+msgid "2. Printer"
+msgstr "2. 打印机"
+
+#: properties.py:103
+msgid "3-Key Threshold (mm)"
+msgstr "三键阈值 (mm)"
+
+#: ui.py:88
+msgid "3. Print Bed"
+msgstr "3. 打印床"
+
+#: ui.py:162
+msgid "4. Generate"
+msgstr "4. 生成"
+
+#: ui.py:167
+msgid "5. Output"
+msgstr "5. 输出"
+
+#: properties.py:41
+msgid "6.35 mm; widest glue face and room for full-depth alignment features"
+msgstr "6.35 mm；最宽的粘合面，并为全深度对齐特征留出空间"
+
+#: properties.py:104
+msgid "A crossing key must rise at least this steeply to print without support"
+msgstr "交叉键至少以该倾角上升，才能无支撑打印"
+
+#: properties.py:209
+msgid "Auto"
+msgstr "自动"
+
+#: properties.py:191
+msgid "Auto-Split Oversize Panels"
+msgstr "自动拆分超大面板"
+
+#: properties.py:55
+msgid "Auto-Triangulate Bent Faces"
+msgstr "自动三角化弯曲面"
+
+#: properties.py:70
+msgid "Auto-Tune From Printer"
+msgstr "根据打印机自动调校"
+
+#: ui.py:107
+msgid "Auto-Tune sets the greyed values; turn it off to edit them."
+msgstr "自动调校会设置灰显值；关闭后可编辑这些值。"
+
+#: properties.py:40
+msgid "Balanced skin scaled to the sculpture size"
+msgstr "平衡蒙皮按雕塑尺寸缩放"
+
+#: ui.py:90
+msgid "Bed X"
+msgstr "打印床 X"
+
+#: properties.py:187
+msgid "Bed X (mm)"
+msgstr "打印床 X (mm)"
+
+#: ui.py:91
+msgid "Bed Y"
+msgstr "打印床 Y"
+
+#: properties.py:188
+msgid "Bed Y (mm)"
+msgstr "打印床 Y (mm)"
+
+#: properties.py:173
+msgid "Bold Font File"
+msgstr "粗体字体文件"
+
+#: properties.py:144
+msgid "Corner Relief (mm)"
+msgstr "拐角让位 (mm)"
+
+#: properties.py:42
+msgid "Custom"
+msgstr "自定义"
+
+#: properties.py:70
+msgid "Derive clearances, key sizes, label sizes, and reliefs from the sculpture size, nozzle, and layer height. Turn off to edit every value by hand"
+msgstr "根据雕塑尺寸、喷嘴和层高推导间隙、键尺寸、标签尺寸和让位/浮雕。关闭后可手动编辑所有值"
+
+#: properties.py:155
+msgid "Dihedral angles below this are treated as this value so razor edges cannot produce runaway miters"
+msgstr "低于此值的二面角按此值处理，避免锋利边缘产生失控斜接"
+
+#: properties.py:218
+msgid "Disable Edge"
+msgstr "禁用边"
+
+#: properties.py:210
+msgid "Disable keys"
+msgstr "禁用键"
+
+#: properties.py:63
+msgid "Display Scene in Millimeters"
+msgstr "以毫米显示场景"
+
+#: properties.py:39
+msgid "Economy"
+msgstr "经济"
+
+#: ui.py:171
+msgid "Explode"
+msgstr "爆炸"
+
+#: properties.py:201
+msgid "Explode Distance"
+msgstr "爆炸距离"
+
+#: operators.py:327
+msgid "Exported the assembly PDF."
+msgstr "已导出装配 PDF。"
+
+#: properties.py:90
+msgid "Extra room for glue and for printers that swell corners"
+msgstr "为胶水和拐角膨胀的打印机预留额外空间"
+
+#: ui.py:73
+msgid "Fit"
+msgstr "配合"
+
+#: properties.py:217
+msgid "Flip Male / Female"
+msgstr "翻转公母"
+
+#: ui.py:168
+msgid "Folder"
+msgstr "文件夹"
+
+#: ui.py:94
+msgid "Gap"
+msgstr "间隙"
+
+#: ui.py:115
+msgid "Glue Alignment"
+msgstr "粘合对齐"
+
+#: properties.py:133
+msgid "Height of the square rim held before the miter starts. Keeps the first layers of the exterior edge printable instead of tapering to a feather"
+msgstr "斜接开始前保留的方形边沿高度。让外边缘最初几层保持可打印，而不是收窄成羽状"
+
+#: ui.py:139
+msgid "Interior Labels"
+msgstr "内部标签"
+
+#: properties.py:120
+msgid "Inward-folding edges have no shared interior volume, so no printed key can cross them without support. Add guide rails plus a separate printed spline instead"
+msgstr "向内折叠的边没有共享内部体积，因此打印键无法无支撑穿过。请改用导轨加单独打印的花键"
+
+#: properties.py:97
+msgid "Joint Clearance (mm)"
+msgstr "接头间隙 (mm)"
+
+#: properties.py:85
+msgid "Joint Fit"
+msgstr "接头配合"
+
+#: properties.py:165
+msgid "Joint Label Height (mm)"
+msgstr "接头标签高度 (mm)"
+
+#: properties.py:219
+msgid "Key 1 Slide"
+msgstr "键 1 滑动"
+
+#: properties.py:220
+msgid "Key 2 Slide"
+msgstr "键 2 滑动"
+
+#: properties.py:221
+msgid "Key 3 Slide"
+msgstr "键 3 滑动"
+
+#: properties.py:206
+msgid "Key Count"
+msgstr "键数量"
+
+#: properties.py:99
+msgid "Key Depth (mm)"
+msgstr "键深度 (mm)"
+
+#: properties.py:100
+msgid "Key Height (mm)"
+msgstr "键高度 (mm)"
+
+#: properties.py:98
+msgid "Key Width (mm)"
+msgstr "键宽度 (mm)"
+
+#: properties.py:166
+msgid "Label Relief (mm)"
+msgstr "标签浮雕 (mm)"
+
+#: properties.py:144
+msgid "Largest distance a mitered corner may run from its mesh vertex before it is cut back, so acute corners end blunt instead of in a fragile spike. Hidden overlaps between panels at a vertex are trimmed exactly regardless"
+msgstr "斜接拐角在回切前可偏离其网格顶点的最大距离，使锐角以钝头结束，而不是形成脆弱尖刺。无论如何，顶点处面板之间的隐藏重叠都会被精确修剪"
+
+#: properties.py:24
+msgid "Largest finished sculpture dimension in millimeters"
+msgstr "成品雕塑的最大尺寸，单位为毫米"
+
+#: ui.py:72
+msgid "Layer"
+msgstr "层"
+
+#: properties.py:82
+msgid "Layer Height (mm)"
+msgstr "层高 (mm)"
+
+#: properties.py:90
+msgid "Loose"
+msgstr "松散"
+
+#: ui.py:93
+msgid "Margin"
+msgstr "边距"
+
+#: properties.py:111
+msgid "Maximum Cradle Lift (mm)"
+msgstr "最大托架抬升 (mm)"
+
+#: properties.py:24
+msgid "Maximum Dimension (mm)"
+msgstr "最大尺寸 (mm)"
+
+#: properties.py:104
+msgid "Minimum Printable Angle"
+msgstr "最小可打印角度"
+
+#: properties.py:191
+msgid "Non-destructively add panel seams until every piece fits the usable print bed"
+msgstr "以非破坏性方式添加面板接缝，直到每一块都能放入可用打印床"
+
+#: ui.py:71
+msgid "Nozzle"
+msgstr "喷嘴"
+
+#: properties.py:79
+msgid "Nozzle (mm)"
+msgstr "喷嘴 (mm)"
+
+#: properties.py:211
+msgid "One key"
+msgstr "单键"
+
+#: properties.py:173
+msgid "Optional TTF or OTF file; leave blank to use Arial Bold or a platform bold-sans fallback"
+msgstr "可选 TTF 或 OTF 文件；留空则使用 Arial Bold 或平台粗体无衬线回退字体"
+
+#: properties.py:133
+msgid "Outer Edge Relief (mm)"
+msgstr "外边缘浮雕 (mm)"
+
+#: properties.py:198
+msgid "Output Folder"
+msgstr "输出文件夹"
+
+#: ui.py:170
+msgid "PDF"
+msgstr "PDF"
+
+#: properties.py:200
+msgid "PDF Name"
+msgstr "PDF 名称"
+
+#: properties.py:164
+msgid "Panel Label Height (mm)"
+msgstr "面板标签高度 (mm)"
+
+#: properties.py:32
+msgid "Panel Thickness"
+msgstr "面板厚度"
+
+#: properties.py:47
+msgid "Panel depth; alignment and label geometry is added above its interior"
+msgstr "面板深度；对齐和标签几何体添加在其内部上方"
+
+#: properties.py:190
+msgid "Part Gap (mm)"
+msgstr "零件间隙 (mm)"
+
+#: properties.py:101
+msgid "Pocket Wall (mm)"
+msgstr "凹槽壁 (mm)"
+
+#: ui.py:34
+msgid "Polyshell"
+msgstr "Polyshell"
+
+#: ui.py:30
+msgid "Polyshell Builder"
+msgstr "Polyshell Builder"
+
+#: operators.py:355
+msgid "Polyshell Builder build and export complete."
+msgstr "Polyshell Builder 构建并导出完成。"
+
+#: ui.py:169
+msgid "Prefix"
+msgstr "前缀"
+
+#: properties.py:166
+msgid "Raised letter height above the interior skin; 0.6 mm gives three layers at 0.2 mm layer height"
+msgstr "凸起字母高出内表皮的高度；0.2 mm 层高下 0.6 mm 为三层"
+
+#: properties.py:41
+msgid "Rigid (1/4 in)"
+msgstr "刚性 (1/4 in)"
+
+#: properties.py:199
+msgid "STL Prefix"
+msgstr "STL 前缀"
+
+#: properties.py:189
+msgid "Safety Margin (mm)"
+msgstr "安全边距 (mm)"
+
+#: ui.py:149
+msgid "Selected Edge Override"
+msgstr "选中边覆盖"
+
+#: properties.py:42
+msgid "Set the thickness by hand"
+msgstr "手动设置厚度"
+
+#: properties.py:63
+msgid "Set this scene to Metric millimeter display so generated physical dimensions read correctly in Blender"
+msgstr "将此场景设为公制毫米显示，以便生成的物理尺寸在 Blender 中正确读取"
+
+#: properties.py:155
+msgid "Sharpest Miter (deg)"
+msgstr "最锐斜接 (deg)"
+
+#: ui.py:127
+msgid "Shell Relief"
+msgstr "外壳浮雕"
+
+#: properties.py:203
+msgid "Show Advanced Settings"
+msgstr "显示高级设置"
+
+#: properties.py:47
+msgid "Skin Thickness (mm)"
+msgstr "表皮厚度 (mm)"
+
+#: properties.py:89
+msgid "Slides together by hand and stays put"
+msgstr "手动滑合后保持固定"
+
+#: properties.py:88
+msgid "Snug"
+msgstr "紧密"
+
+#: properties.py:130
+msgid "Spline Height (mm)"
+msgstr "样条高度 (mm)"
+
+#: properties.py:129
+msgid "Spline Reach (mm)"
+msgstr "样条范围 (mm)"
+
+#: properties.py:128
+msgid "Spline Width (mm)"
+msgstr "样条宽度 (mm)"
+
+#: ui.py:133
+msgid "Splines"
+msgstr "样条"
+
+#: properties.py:120
+msgid "Splines On Inward Edges"
+msgstr "内边上的样条"
+
+#: properties.py:55
+msgid "Split faces that are not flat or not convex into triangles, without changing the source mesh. Off: such faces stop validation so you can fix them by hand"
+msgstr "将不平整或非凸的面拆分为三角形，而不更改源网格。关闭：此类面会停止验证，以便手动修复"
+
+#: properties.py:40
+#: properties.py:89
+msgid "Standard"
+msgstr "标准"
+
+#: properties.py:225
+#: ui.py:41
+msgid "Status"
+msgstr "状态"
+
+#: properties.py:111
+msgid "Tallest support ramp allowed under a crossing key before the edge switches to a spline"
+msgstr "在边切换为样条前，交叉键下方允许的最高支撑斜坡"
+
+#: properties.py:32
+msgid "Thicker panels widen the mitered glue face between neighbors, which is what actually holds the assembled angle"
+msgstr "更厚的面板会加宽相邻面板之间的斜接胶合面，实际维持组装角度的正是它"
+
+#: ui.py:59
+msgid "Thickness"
+msgstr "厚度"
+
+#: properties.py:39
+msgid "Thinnest usable skin; least filament, least angular control"
+msgstr "可用的最薄表皮；耗材最少，角度控制最弱"
+
+#: properties.py:213
+msgid "Three keys"
+msgstr "三键"
+
+#: properties.py:88
+msgid "Tight press fit; needs a well-calibrated printer"
+msgstr "紧密压配；需要校准良好的打印机"
+
+#: properties.py:212
+msgid "Two keys"
+msgstr "两键"
+
+#: properties.py:209
+msgid "Use edge-length thresholds"
+msgstr "使用边长阈值"
+
+#: ui.py:158
+msgctxt "Operator"
+msgid "Apply"
+msgstr "应用"
+
+#: operators.py:396
+msgctxt "Operator"
+msgid "Apply Edge Override"
+msgstr "应用边覆盖"
+
+#: operators.py:397
+msgctxt "Operator"
+msgid "Apply these values to every selected source edge"
+msgstr "将这些值应用到每个选中的源边"
+
+#: operators.py:335
+msgctxt "Operator"
+msgid "Build & Export Everything"
+msgstr "构建并导出全部"
+
+#: ui.py:159
+msgctxt "Operator"
+msgid "Clear"
+msgstr "清除"
+
+#: operators.py:422
+msgctxt "Operator"
+msgid "Clear Edge Override"
+msgstr "清除边覆盖"
+
+#: operators.py:256
+msgctxt "Operator"
+msgid "Create mitered shells, glue-alignment keys, cradles, splines, and interior labels"
+msgstr "创建斜接外壳、胶合对齐键、托架、样条和内部标签"
+
+#: operators.py:320
+msgctxt "Operator"
+msgid "Export PDF Guide"
+msgstr "导出 PDF 指南"
+
+#: operators.py:302
+msgctxt "Operator"
+msgid "Export STL Plates"
+msgstr "导出 STL 打印板"
+
+#: operators.py:255
+msgctxt "Operator"
+msgid "Generate Printable Panels"
+msgstr "生成可打印面板"
+
+#: ui.py:157
+msgctxt "Operator"
+msgid "Load"
+msgstr "加载"
+
+#: operators.py:364
+msgctxt "Operator"
+msgid "Load Edge Override"
+msgstr "加载边覆盖"
+
+#: operators.py:365
+msgctxt "Operator"
+msgid "Load override values from the active selected source edge"
+msgstr "从当前选中的源边加载覆盖值"
+
+#: operators.py:280
+msgctxt "Operator"
+msgid "Nest onto Print Plates"
+msgstr "排布到打印板"
+
+#: operators.py:281
+msgctxt "Operator"
+msgid "Nest panels onto print beds using geometry-derived rotations; splines go on their own plates"
+msgstr "使用由几何推导的旋转将面板排布到打印床上；样条单独放到自己的板上"
+
+#: ui.py:174
+msgctxt "Operator"
+msgid "PDF Guide"
+msgstr "PDF 指南"
+
+#: operators.py:423
+msgctxt "Operator"
+msgid "Restore automatic settings on every selected source edge"
+msgstr "恢复每个选定源边的自动设置"
+
+#: ui.py:173
+msgctxt "Operator"
+msgid "STL Plates"
+msgstr "STL 板"
+
+#: operators.py:206
+msgctxt "Operator"
+msgid "Scale a non-destructive preview, auto-tune thickness for this mesh, and flag faces that cannot fit the bed"
+msgstr "缩放非破坏性预览，为此网格自动调整厚度，并标记无法放入打印床的面"
+
+#: operators.py:205
+msgctxt "Operator"
+msgid "Validate & Preview"
+msgstr "验证并预览"
+
+#: operators.py:336
+msgctxt "Operator"
+msgid "Validate, generate, nest, and export STL plates, the PDF guide, and a build report"
+msgstr "验证、生成、排布并导出 STL 板、PDF 指南和构建报告"
+
+#: operators.py:303
+msgctxt "Operator"
+msgid "Write one millimeter-scale STL per print plate, replacing plates left over from earlier exports"
+msgstr "为每个打印板写入一个毫米级 STL，替换先前导出遗留的板"
+
+#: operators.py:321
+msgctxt "Operator"
+msgid "Write the exploded view, unfolded assembly map sheets, and spline index"
+msgstr "写入爆炸视图、展开的装配图页和样条索引"

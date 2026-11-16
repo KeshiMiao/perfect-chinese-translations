@@ -1,0 +1,125 @@
+# perfect-chinese: 1
+# id: dynamic_skinning
+# kind: addon
+# module: bl_ext.blender_org.dynamic_skinning
+# name: Dynamic Skinning
+# name_zh: 动态蒙皮
+# translator: KeshiMiao
+# category: Animation
+# supported_versions: >=4.4.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:23
+msgid "Amplitude A"
+msgstr "振幅 A"
+
+#: __init__.py:23
+msgid "Amplitude of the oscillations (driven by the changes of velocity)"
+msgstr "振荡振幅（由速度变化驱动）"
+
+#: __init__.py:27
+msgid "Bend γ"
+msgstr "弯曲 γ"
+
+#: __init__.py:21
+msgid "Damping time of the oscillations (s)"
+msgstr "振荡阻尼时间（秒）"
+
+#: __init__.py:21
+msgid "Damping τ (s)"
+msgstr "阻尼 τ（秒）"
+
+#: __init__.py:25
+msgid "Drag D"
+msgstr "拖拽 D"
+
+#: __init__.py:119
+msgid "Dyn. Skinning"
+msgstr "动态蒙皮"
+
+#: __init__.py:116
+#: __init__.py:126
+msgid "Dynamic Skinning"
+msgstr "动态蒙皮"
+
+#: __init__.py:17
+msgid "Dynamic skinning: drag and oscillations"
+msgstr "动态蒙皮：拖拽与振荡"
+
+#: __init__.py:19
+msgid "Frequency f (Hz)"
+msgstr "频率 f（Hz）"
+
+#: __init__.py:19
+msgid "Frequency of the oscillations (Hz)"
+msgstr "振荡频率（Hz）"
+
+#: __init__.py:25
+msgid "Lag during the motion (proportional to the velocity)"
+msgstr "运动过程中的滞后（与速度成正比）"
+
+#: __init__.py:27
+msgid "Magnitude of the bend (multiplies the DS_bend vertex group, 0.5 without group)"
+msgstr "弯曲强度（乘以 DS_bend 顶点组，无顶点组时为 0.5）"
+
+#: __init__.py:99
+msgid "Not running: click Reset"
+msgstr "未运行：点击重置"
+
+#: __init__.py:15
+msgid "Oscillation"
+msgstr "振荡"
+
+#: __init__.py:16
+msgid "Oscillation off"
+msgstr "振荡关闭"
+
+#: __init__.py:17
+msgid "Oscillation on"
+msgstr "振荡开启"
+
+#: __init__.py:53
+msgid "Select a mesh with an Armature modifier"
+msgstr "选择带骨架修改器的网格"
+
+#: __init__.py:91
+msgid "Select a rigged mesh"
+msgstr "选择已绑定的网格"
+
+#: __init__.py:16
+msgid "Velocity skinning: drag only, without oscillations"
+msgstr "速度蒙皮：仅拖拽，无振荡"
+
+#: __init__.py:47
+msgctxt "Operator"
+msgid "Add the dynamic skinning to the mesh (Geometry Nodes modifier after the Armature)"
+msgstr "为网格添加动态蒙皮（在骨架修改器之后添加几何节点修改器）"
+
+#: __init__.py:65
+msgctxt "Operator"
+msgid "Disable"
+msgstr "禁用"
+
+#: __init__.py:46
+msgctxt "Operator"
+msgid "Enable"
+msgstr "启用"
+
+#: __init__.py:79
+msgctxt "Operator"
+msgid "Recompute the weights from the current rig, and stop the oscillations"
+msgstr "根据当前绑定重新计算权重，并停止振荡"
+
+#: __init__.py:66
+msgctxt "Operator"
+msgid "Remove the dynamic skinning from the mesh"
+msgstr "从网格中移除动态蒙皮"
+
+#: __init__.py:78
+msgctxt "Operator"
+msgid "Reset"
+msgstr "重置"

@@ -1,0 +1,480 @@
+# perfect-chinese: 1
+# id: scene_retimer
+# kind: addon
+# module: bl_ext.blender_org.scene_retimer
+# name: Scene Retimer
+# name_zh: 场景重定时
+# translator: KeshiMiao
+# category: Animation
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: ui.py:28
+msgid "%+d"
+msgstr "%+d"
+
+#: ui.py:166
+msgid "%d frames long"
+msgstr "%d 帧长"
+
+#: ui.py:21
+msgid "%d-%d"
+msgstr "%d-%d"
+
+#: ui.py:221
+msgid ","
+msgstr ","
+
+#: ui.py:34
+msgid "--"
+msgstr "--"
+
+#: ops.py:641
+msgid "A range is set to Selected Only but nothing is selected"
+msgstr "有范围设为仅所选，但未选择任何物体"
+
+#: ui.py:252
+msgid "Affect:"
+msgstr "影响："
+
+#: ops.py:451
+#: ops.py:526
+msgid "All Ranges"
+msgstr "所有范围"
+
+#: __init__.py:1
+msgid "Animation"
+msgstr "动画"
+
+#: ui.py:221
+msgid "Both markers moved on: %s"
+msgstr "两个标记均已移动到：%s"
+
+#: ui.py:113
+msgid "Building '%s'"
+msgstr "正在构建「%s」"
+
+#: props.py:183
+msgid "Drag To Retime"
+msgstr "拖动以重定时"
+
+#: props.py:141
+msgid "Enabled"
+msgstr "启用"
+
+#: props.py:102
+#: props.py:118
+msgid "End"
+msgstr "结束"
+
+#: ops.py:204
+msgid "End Frame"
+msgstr "结束帧"
+
+#: props.py:209
+msgid "Extend Scene Range"
+msgstr "扩展场景范围"
+
+#: props.py:118
+msgid "Frame of this range's end marker"
+msgstr "此范围结束标记所在的帧"
+
+#: props.py:114
+msgid "Frame of this range's start marker"
+msgstr "此范围起始标记所在的帧"
+
+#: ui.py:170
+msgid "Frames"
+msgstr "帧"
+
+#: props.py:204
+msgid "Grease Pencil"
+msgstr "蜡笔"
+
+#: props.py:209
+msgid "Grow the scene end frame if the animation gets longer"
+msgstr "动画变长时延长场景结束帧"
+
+#: ui.py:223
+msgid "If you meant to relocate the range,"
+msgstr "如果你想移动此范围的位置，"
+
+#: props.py:141
+msgid "Include this range when applying"
+msgstr "应用时包含此范围"
+
+#: ops.py:202
+#: props.py:100
+msgid "Label"
+msgstr "标签"
+
+#: ops.py:227
+#: ops.py:394
+msgid "Label cannot be empty"
+msgstr "标签不能为空"
+
+#: props.py:154
+msgid "Limit this range to the selected objects instead of the whole scene. Note: mixing filtered and unfiltered ranges can desync objects, so it is applied as a separate pass"
+msgstr "将此范围限制为所选物体而非整个场景。注意：混用过滤与未过滤的范围可能导致物体不同步，因此会作为单独的一遍应用"
+
+#: props.py:166
+msgid "Marker name prefix that identifies retime markers. Pair them by giving both markers the same label and a _1 / _2 suffix, e.g. RET_impact_1 and RET_impact_2"
+msgstr "用于标识重定时标记的标记名前缀。给两个标记相同的标签并加上 _1 / _2 后缀即可配对，例如 RET_impact_1 和 RET_impact_2"
+
+#: ops.py:508
+msgid "Marker not found"
+msgstr "未找到标记"
+
+#: ui.py:198
+msgid "Marker problems:"
+msgstr "标记问题："
+
+#: props.py:194
+msgid "Move other timeline markers along with the animation"
+msgstr "随动画一起移动其他时间线标记"
+
+#: ops.py:332
+msgid "Move to a different frame before closing the range"
+msgstr "在关闭范围前先移动到其他帧"
+
+#: props.py:199
+msgid "NLA Strips"
+msgstr "NLA 片段"
+
+#: props.py:123
+msgid "New Duration"
+msgstr "新时长"
+
+#: ops.py:374
+msgid "New Label"
+msgstr "新标签"
+
+#: ops.py:536
+msgid "No keyframes in the scene to snap to"
+msgstr "场景中没有可吸附的关键帧"
+
+#: ui.py:204
+msgid "No retime ranges yet."
+msgstr "尚无重定时范围。"
+
+#: ui.py:118
+msgid "Opened at %d, now at %d (%d frames)"
+msgstr "开始于 %d，现为 %d（%d 帧）"
+
+#: props.py:103
+msgid "Original Duration"
+msgstr "原始时长"
+
+#: ops.py:232
+msgid "Range must be at least one frame long"
+msgstr "范围长度至少为一帧"
+
+#: ops.py:633
+msgid "Ranges overlap -- they cannot be retimed together"
+msgstr "范围重叠——无法一起重定时"
+
+#: ui.py:268
+msgid "Retime"
+msgstr "重定时"
+
+#: props.py:204
+msgid "Retime Grease Pencil drawing frames"
+msgstr "对蜡笔绘制帧重定时"
+
+#: props.py:199
+msgid "Retime NLA strip boundaries"
+msgstr "对 NLA 片段边界重定时"
+
+#: ui.py:41
+msgid "Retime Range Specials"
+msgstr "重定时范围特殊操作"
+
+#: __init__.py:1
+msgid "Retime whole-scene animation using tagged marker pairs"
+msgstr "使用带标签的标记对重定时整个场景的动画"
+
+#: props.py:146
+msgid "Ripple"
+msgstr "波纹"
+
+#: props.py:131
+#: ui.py:171
+msgid "Scale"
+msgstr "缩放"
+
+#: __init__.py:1
+#: ui.py:265
+msgid "Scene Retimer"
+msgstr "场景重定时器"
+
+#: ui.py:248
+msgid "Scene length change: %+d frames"
+msgstr "场景长度变化：%+d 帧"
+
+#: ui.py:127
+msgid "Scrub to another frame first"
+msgstr "请先拖动到其他帧"
+
+#: props.py:154
+msgid "Selected Only"
+msgstr "仅所选"
+
+#: props.py:146
+msgid "Shift every keyframe after this range so the rest of the animation keeps its timing. Disable to retime in place"
+msgstr "平移此范围之后的每个关键帧，使其余动画保持原有时间。禁用则就地重定时"
+
+#: props.py:101
+#: props.py:114
+msgid "Start"
+msgstr "起始"
+
+#: ops.py:203
+msgid "Start Frame"
+msgstr "起始帧"
+
+#: ui.py:185
+msgid "Tag"
+msgstr "标签"
+
+#: props.py:166
+msgid "Tag Prefix"
+msgstr "标签前缀"
+
+#: props.py:123
+msgid "Target length of this range in frames"
+msgstr "此范围的目标长度（帧）"
+
+#: props.py:131
+msgid "Time multiplier. 2.0 is twice as slow, 0.5 twice as fast"
+msgstr "时间倍率。2.0 为慢一倍，0.5 为快一倍"
+
+#: props.py:183
+msgid "Turn the closing marker of each range into a live handle. Drag it in the timeline to set the new duration; drag the opening marker to slide the whole range. Nothing is baked until you press Apply"
+msgstr "将每个范围的结束标记变为实时控制柄。在时间线中拖动它可设置新时长；拖动起始标记可整体平移范围。按下「应用」前不会烘焙"
+
+#: props.py:194
+msgid "Untagged Markers"
+msgstr "无标签标记"
+
+#: ui.py:205
+msgid "Use Initialize Range above, or"
+msgstr "使用上方的初始化范围，或"
+
+#: ui.py:224
+msgid "commit the markers as the new source:"
+msgstr "将标记提交为新的源："
+
+#: ui.py:206
+msgid "name markers %sname_start / %sname_end"
+msgstr "命名标记 %sname_start / %sname_end"
+
+#: ops.py:195
+msgctxt "Operator"
+msgid "Add Retime Range"
+msgstr "添加重定时范围"
+
+#: ops.py:602
+msgctxt "Operator"
+msgid "Apply Retime"
+msgstr "应用重定时"
+
+#: ops.py:352
+msgctxt "Operator"
+msgid "Cancel"
+msgstr "取消"
+
+#: ui.py:91
+msgctxt "Operator"
+msgid "Commit Active To New Range"
+msgstr "将活动项提交为新范围"
+
+#: ui.py:95
+msgctxt "Operator"
+msgid "Commit All To New Range"
+msgstr "全部提交为新范围"
+
+#: ops.py:442
+#: ui.py:225
+msgctxt "Operator"
+msgid "Commit To New Range"
+msgstr "提交为新范围"
+
+#: ops.py:196
+msgctxt "Operator"
+msgid "Create a tagged marker pair. Defaults to the preview range, or the current frame plus the given length"
+msgstr "创建一对带标记的标记点。默认使用预览范围，或当前帧加上指定长度"
+
+#: ops.py:563
+msgctxt "Operator"
+msgid "Delete All Ranges"
+msgstr "删除所有范围"
+
+#: ops.py:254
+msgctxt "Operator"
+msgid "Delete this range's marker pair from the timeline"
+msgstr "从时间轴删除此范围的标记对"
+
+#: ui.py:59
+msgctxt "Operator"
+msgid "Disable All"
+msgstr "全部禁用"
+
+#: ops.py:353
+msgctxt "Operator"
+msgid "Discard the half-built range and remove its opening marker"
+msgstr "放弃未完成的范围并移除其起始标记"
+
+#: ops.py:307
+msgctxt "Operator"
+msgid "Drop the opening marker at the current frame. Scrub to where the range should end, then press Set Range End to close it"
+msgstr "在当前帧放置起始标记。拖动到范围应结束的位置，然后按「设置范围终点」将其闭合"
+
+#: ui.py:56
+msgctxt "Operator"
+msgid "Enable All"
+msgstr "全部启用"
+
+#: ops.py:306
+msgctxt "Operator"
+msgid "Initialize Range"
+msgstr "初始化范围"
+
+#: ui.py:132
+msgctxt "Operator"
+msgid "Initialize Range At %d"
+msgstr "在 %d 处初始化范围"
+
+#: ops.py:271
+msgctxt "Operator"
+msgid "Jump To Range"
+msgstr "跳转到范围"
+
+#: ops.py:520
+msgctxt "Operator"
+msgid "Move this range's markers onto the nearest existing keyframe, so the range lines up with the animation instead of landing between keys"
+msgstr "将此范围的标记移到最近的现有关键帧上，使范围与动画对齐，而不是落在关键帧之间"
+
+#: ops.py:585
+msgctxt "Operator"
+msgid "Preview Range Covers All"
+msgstr "预览范围覆盖全部"
+
+#: ops.py:182
+msgctxt "Operator"
+msgid "Refresh Ranges"
+msgstr "刷新范围"
+
+#: ops.py:253
+msgctxt "Operator"
+msgid "Remove Retime Range"
+msgstr "移除重定时范围"
+
+#: ops.py:564
+msgctxt "Operator"
+msgid "Remove every tagged marker pair from the timeline"
+msgstr "从时间轴移除所有带标记的标记对"
+
+#: ops.py:370
+msgctxt "Operator"
+msgid "Rename Range"
+msgstr "重命名范围"
+
+#: ops.py:371
+msgctxt "Operator"
+msgid "Rename this range and both of its markers"
+msgstr "重命名此范围及其两个标记"
+
+#: ops.py:183
+msgctxt "Operator"
+msgid "Rescan the timeline markers for tagged retime pairs"
+msgstr "重新扫描时间轴标记以查找带标记的重定时对"
+
+#: ui.py:86
+msgctxt "Operator"
+msgid "Reset All Values"
+msgstr "重置所有值"
+
+#: ops.py:292
+msgctxt "Operator"
+msgid "Reset Values"
+msgstr "重置值"
+
+#: ops.py:603
+msgctxt "Operator"
+msgid "Retime the scene using the enabled ranges. This edits keyframes destructively -- undo works, but save first on a big scene"
+msgstr "使用已启用的范围对场景进行重定时。此操作会破坏性编辑关键帧——撤销有效，但大型场景请先保存"
+
+#: ui.py:68
+msgctxt "Operator"
+msgid "Ripple All Off"
+msgstr "全部关闭涟漪"
+
+#: ui.py:65
+msgctxt "Operator"
+msgid "Ripple All On"
+msgstr "全部开启涟漪"
+
+#: ops.py:491
+msgctxt "Operator"
+msgid "Select Marker"
+msgstr "选择标记"
+
+#: ops.py:492
+msgctxt "Operator"
+msgid "Select this range's start or end marker and jump to it. Useful when two ranges' markers land on the same frame and are impossible to click apart in the timeline"
+msgstr "选择此范围的起始或结束标记并跳转到它。当两个范围的标记落在同一帧、在时间轴中无法分开点击时很有用"
+
+#: ui.py:78
+msgctxt "Operator"
+msgid "Selected Only: All Off"
+msgstr "仅选中项：全部关闭"
+
+#: ui.py:74
+msgctxt "Operator"
+msgid "Selected Only: All On"
+msgstr "仅选中项：全部开启"
+
+#: ops.py:425
+msgctxt "Operator"
+msgid "Set Flag"
+msgstr "设置标志"
+
+#: ui.py:124
+msgctxt "Operator"
+msgid "Set Range End"
+msgstr "设置范围终点"
+
+#: ops.py:293
+msgctxt "Operator"
+msgid "Set every range back to a 1.0 scale"
+msgstr "将所有范围恢复为 1.0 缩放"
+
+#: ops.py:272
+msgctxt "Operator"
+msgid "Set the preview range and playhead to this retime range"
+msgstr "将预览范围和播放头设置为此重定时范围"
+
+#: ops.py:586
+msgctxt "Operator"
+msgid "Set the preview range to span every retime range"
+msgstr "将预览范围设置为跨越所有重定时范围"
+
+#: ui.py:50
+msgctxt "Operator"
+msgid "Snap All To Keyframes"
+msgstr "全部吸附到关键帧"
+
+#: ops.py:519
+#: ui.py:47
+msgctxt "Operator"
+msgid "Snap Markers To Keyframes"
+msgstr "将标记吸附到关键帧"
+
+#: ops.py:443
+msgctxt "Operator"
+msgid "Treat where the markers are RIGHT NOW as the new source range and reset the retime to 1.0. Use this in drag mode when you moved both markers to a different beat and want to start over from there, rather than have that move interpreted as a retime"
+msgstr "将标记当前位置视为新的源范围，并将重定时重置为 1.0。在拖拽模式下，当你把两个标记移到不同的节拍并希望从那里重新开始时使用此项，而不是把该移动解释为重定时"

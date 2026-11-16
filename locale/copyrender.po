@@ -1,0 +1,117 @@
+# perfect-chinese: 1
+# id: copyrender
+# kind: addon
+# module: bl_ext.blender_org.copyrender
+# name: CopyRender
+# name_zh: 复制渲染设置
+# translator: KeshiMiao
+# category: Render
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:444
+msgid "Apply on Open"
+msgstr "打开时应用"
+
+#: __init__.py:275
+msgid "Clipboard does not contain valid JSON."
+msgstr "剪贴板不包含有效的 JSON。"
+
+#: __init__.py:270
+msgid "Clipboard is empty."
+msgstr "剪贴板为空。"
+
+#: __init__.py:259
+msgid "Copy to clipboard failed."
+msgstr "复制到剪贴板失败。"
+
+#: __init__.py:361
+msgid "CopyRender"
+msgstr "CopyRender"
+
+#: __init__.py:168
+msgid "Data does not contain a valid render settings package."
+msgstr "数据不包含有效的渲染设置包。"
+
+#: __init__.py:439
+msgid "External .json render-settings file to apply when this .blend is opened"
+msgstr "打开此 .blend 时要应用的外部 .json 渲染设置文件"
+
+#: __init__.py:380
+msgid "Linked"
+msgstr "已链接"
+
+#: __init__.py:335
+msgid "Linked render settings applied."
+msgstr "已应用链接的渲染设置。"
+
+#: __init__.py:444
+msgid "Re-apply the linked settings file every time this .blend file is opened"
+msgstr "每次打开此 .blend 文件时重新应用链接的设置文件"
+
+#: __init__.py:256
+msgid "Render settings copied."
+msgstr "已复制渲染设置。"
+
+#: __init__.py:315
+msgid "Render settings loaded and linked."
+msgstr "渲染设置已加载并链接。"
+
+#: __init__.py:439
+msgid "Settings File"
+msgstr "设置文件"
+
+#: __init__.py:376
+msgid "Sync via File"
+msgstr "通过文件同步"
+
+#: __init__.py:320
+msgctxt "Operator"
+msgid "Apply Linked Settings Now"
+msgstr "立即应用链接的设置"
+
+#: __init__.py:383
+msgctxt "Operator"
+msgid "Apply Now"
+msgstr "立即应用"
+
+#: __init__.py:302
+msgctxt "Operator"
+msgid "Apply render settings from a .json file and link it, so it re-applies every time this .blend is opened"
+msgstr "从 .json 文件应用渲染设置并链接它，以便每次打开此 .blend 时重新应用"
+
+#: __init__.py:242
+#: __init__.py:391
+msgctxt "Operator"
+msgid "Copy Render Settings"
+msgstr "复制渲染设置"
+
+#: __init__.py:301
+msgctxt "Operator"
+msgid "Load & Link Settings File"
+msgstr "加载并链接设置文件"
+
+#: __init__.py:264
+#: __init__.py:392
+msgctxt "Operator"
+msgid "Paste Render Settings"
+msgstr "粘贴渲染设置"
+
+#: __init__.py:321
+msgctxt "Operator"
+msgid "Re-read the linked settings file and apply it without reopening the .blend"
+msgstr "重新读取链接的设置文件并应用，无需重新打开 .blend"
+
+#: __init__.py:283
+msgctxt "Operator"
+msgid "Save Settings to File"
+msgstr "将设置保存到文件"
+
+#: __init__.py:284
+msgctxt "Operator"
+msgid "Write this scene's render settings to a shared .json file other .blend files can link to"
+msgstr "将此场景的渲染设置写入共享的 .json 文件，供其他 .blend 文件链接"

@@ -1,0 +1,160 @@
+# perfect-chinese: 1
+# id: io_mesh_threejs_objectloader
+# kind: addon
+# module: bl_ext.blender_org.io_mesh_threejs_objectloader
+# name: three.js ObjectLoader
+# name_zh: three.js 对象加载
+# translator: KeshiMiao
+# category: Import-Export
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:1076
+msgid "Arrange along X"
+msgstr "沿 X 轴排列"
+
+#: __init__.py:908
+msgid "BufferGeometry, scene hierarchy, materials"
+msgstr "BufferGeometry、场景层级、材质"
+
+#: __init__.py:925
+msgid "Create separate geometries for each material"
+msgstr "为每个材质创建独立几何体"
+
+#: __init__.py:913
+msgid "Decimal Precision"
+msgstr "小数精度"
+
+#: __init__.py:935
+msgid "Export UV coordinates (needed for textures)"
+msgstr "导出 UV 坐标（纹理需要）"
+
+#: __init__.py:945
+msgid "Export each selected object to a separate JSON file in the same directory"
+msgstr "将每个选中物体导出为同一目录下的独立 JSON 文件"
+
+#: __init__.py:904
+msgid "Export for three.js Format 3 (legacy Geometry) or Format 4+ (ObjectLoader)"
+msgstr "导出为 three.js 格式 3（旧版 Geometry）或格式 4+（ObjectLoader）"
+
+#: __init__.py:920
+msgid "Export only selected objects"
+msgstr "仅导出选中物体"
+
+#: __init__.py:930
+msgid "Export per-corner normals (larger, but required for correct lighting)"
+msgstr "导出按角法线（文件更大，但正确光照需要）"
+
+#: __init__.py:940
+msgid "Export vertex color attribute 'color' (saves a lot if disabled)"
+msgstr "导出顶点颜色属性 'color'（禁用可大幅减小体积）"
+
+#: __init__.py:909
+msgid "Format 3 (Legacy Geometry)"
+msgstr "格式 3（旧版 Geometry）"
+
+#: __init__.py:908
+msgid "Format 4+ (ObjectLoader)"
+msgstr "格式 4+（ObjectLoader）"
+
+#: __init__.py:904
+msgid "Format version"
+msgstr "格式版本"
+
+#: __init__.py:18
+msgid "Import-Export"
+msgstr "导入-导出"
+
+#: __init__.py:18
+msgid "Import/Export three.js ObjectLoader format 4+ (JSON)"
+msgstr "导入/导出 three.js ObjectLoader 格式 4+（JSON）"
+
+#: __init__.py:950
+msgid "Indent JSON for readability (larger file). Off = compact output, minimal size"
+msgstr "缩进 JSON 以便阅读（文件更大）。关闭 = 紧凑输出，体积最小"
+
+#: __init__.py:984
+msgid "No mesh objects for Format 3 export"
+msgstr "格式 3 导出没有网格物体"
+
+#: __init__.py:979
+msgid "No objects to export"
+msgstr "没有可导出的物体"
+
+#: __init__.py:930
+msgid "Normals"
+msgstr "法线"
+
+#: __init__.py:913
+msgid "Number of decimal places for float values"
+msgstr "浮点值的小数位数"
+
+#: __init__.py:945
+msgid "One file per object"
+msgstr "每个物体一个文件"
+
+#: __init__.py:950
+msgid "Pretty print"
+msgstr "美化输出"
+
+#: __init__.py:920
+msgid "Selected Objects Only"
+msgstr "仅选中物体"
+
+#: __init__.py:925
+msgid "Split by Material"
+msgstr "按材质拆分"
+
+#: __init__.py:18
+msgid "Three.js ObjectLoader"
+msgstr "Three.js ObjectLoader"
+
+#: __init__.py:935
+msgid "UVs"
+msgstr "UV"
+
+#: __init__.py:940
+msgid "Vertex Colors"
+msgstr "顶点颜色"
+
+#: __init__.py:1076
+msgid "When importing multiple files, place each model along X with spacing by average bbox size"
+msgstr "导入多个文件时，沿 X 轴排列每个模型，间距按平均包围盒尺寸"
+
+#: __init__.py:1125
+msgid "three.js Options"
+msgstr "three.js 选项"
+
+#: __init__.py:909
+msgid "vertices, normals, faces at root (io_three style)"
+msgstr "顶点、法线、面置于根节点（io_three 风格）"
+
+#: __init__.py:899
+msgctxt "Operator"
+msgid "Export selected objects to three.js ObjectLoader JSON format 4+"
+msgstr "将选中物体导出为 three.js ObjectLoader JSON 格式 4+"
+
+#: __init__.py:898
+msgctxt "Operator"
+msgid "Export three.js ObjectLoader"
+msgstr "导出 three.js ObjectLoader"
+
+#: __init__.py:1069
+msgctxt "Operator"
+msgid "Import three.js ObjectLoader"
+msgstr "导入 three.js ObjectLoader"
+
+#: __init__.py:1070
+msgctxt "Operator"
+msgid "Import three.js ObjectLoader JSON format 4+ (multi-select supported)"
+msgstr "导入 three.js ObjectLoader JSON 格式 4+（支持多选）"
+
+#: __init__.py:1156
+#: __init__.py:1164
+msgctxt "Operator"
+msgid "three.js ObjectLoader (.json)"
+msgstr "three.js ObjectLoader (.json)"

@@ -1,0 +1,247 @@
+# perfect-chinese: 1
+# id: reforge
+# kind: addon
+# module: bl_ext.blender_org.reforge
+# name: Reforge
+# name_zh: 场景重铸
+# translator: KeshiMiao
+# category: 
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: ui.py:84
+msgid "Affects Objects + used Materials."
+msgstr "影响物体及所用材质。"
+
+#: ui.py:112
+msgid "Bake Color Texture (PNG)"
+msgstr "烘焙颜色贴图 (PNG)"
+
+#: ui.py:116
+msgid "Bake Padding"
+msgstr "烘焙边距"
+
+#: ui.py:115
+msgid "Bake Resolution"
+msgstr "烘焙分辨率"
+
+#: ui.py:111
+msgid "Bake:"
+msgstr "烘焙："
+
+#: settings.py:12
+msgid "Clear"
+msgstr "清除"
+
+#: settings.py:16
+msgid "Collection Name"
+msgstr "集合名称"
+
+#: settings.py:40
+msgid "Collision group"
+msgstr "碰撞组"
+
+#: settings.py:41
+msgid "Collision mask"
+msgstr "碰撞掩码"
+
+#: settings.py:28
+msgid "Collisions Dir"
+msgstr "碰撞目录"
+
+#: settings.py:21
+msgid "Default Material"
+msgstr "默认材质"
+
+#: ui.py:108
+msgid "Defold Material"
+msgstr "Defold 材质"
+
+#: settings.py:15
+msgid "Defold Project Root"
+msgstr "Defold 项目根目录"
+
+#: ui.py:109
+msgid "Defold Texture"
+msgstr "Defold 贴图"
+
+#: ui.py:107
+msgid "Defold:"
+msgstr "Defold："
+
+#: settings.py:46
+msgid "Detect duplicates (.001, .002, etc -> base name)"
+msgstr "检测重复项（.001、.002 等 → 基础名称）"
+
+#: settings.py:8
+msgid "Export"
+msgstr "导出"
+
+#: settings.py:19
+msgid "Export Textures to Defold Project"
+msgstr "将贴图导出到 Defold 项目"
+
+#: settings.py:18
+msgid "Export Visible Only"
+msgstr "仅导出可见项"
+
+#: settings.py:10
+msgid "Folders"
+msgstr "文件夹"
+
+#: settings.py:42
+msgid "Group (empty = root)"
+msgstr "组（留空 = 根）"
+
+#: __init__.py:1
+msgid "Import-Export"
+msgstr "导入-导出"
+
+#: settings.py:24
+msgid "Models Dir"
+msgstr "模型目录"
+
+#: ui.py:101
+msgid "No active material"
+msgstr "无活动材质"
+
+#: operators.py:290
+#: operators.py:361
+msgid "No objects in scene"
+msgstr "场景中没有物体"
+
+#: operators.py:240
+#: operators.py:321
+msgid "No objects selected"
+msgstr "未选择物体"
+
+#: operators.py:265
+#: operators.py:341
+msgid "No visible objects found"
+msgstr "未找到可见物体"
+
+#: settings.py:33
+msgid "Overwrite collision_group"
+msgstr "覆盖 collision_group"
+
+#: settings.py:34
+msgid "Overwrite collision_mask"
+msgstr "覆盖 collision_mask"
+
+#: settings.py:32
+msgid "Overwrite defold_collision"
+msgstr "覆盖 defold_collision"
+
+#: settings.py:35
+msgid "Overwrite defold_group"
+msgstr "覆盖 defold_group"
+
+#: settings.py:31
+msgid "Overwrite defold_prototype"
+msgstr "覆盖 defold_prototype"
+
+#: settings.py:36
+msgid "Overwrite group_center"
+msgstr "覆盖 group_center"
+
+#: ui.py:64
+msgid "Overwrite:"
+msgstr "覆盖："
+
+#: settings.py:25
+msgid "Prefabs Dir"
+msgstr "预制体目录"
+
+#: settings.py:9
+msgid "Quick Export"
+msgstr "快速导出"
+
+#: __init__.py:1
+#: ui.py:13
+msgid "Reforge"
+msgstr "Reforge"
+
+#: __init__.py:1
+msgid "Reforge Blender scenes into Defold assets and collections."
+msgstr "将 Blender 场景重铸为 Defold 资源和集合。"
+
+#: ui.py:83
+msgid "Removes ONLY exporter-created properties."
+msgstr "仅移除导出器创建的属性。"
+
+#: settings.py:26
+msgid "Scenes Dir"
+msgstr "场景目录"
+
+#: settings.py:39
+msgid "Set defold_collision"
+msgstr "设置 defold_collision"
+
+#: settings.py:43
+msgid "Set group_center"
+msgstr "设置 group_center"
+
+#: settings.py:27
+msgid "Textures Dir"
+msgstr "贴图目录"
+
+#: settings.py:11
+msgid "Tools"
+msgstr "工具"
+
+#: ui.py:38
+msgid "Update assets without regenerating scene:"
+msgstr "更新资源而不重新生成场景："
+
+#: ui.py:55
+msgid "Write OBJECT custom properties:"
+msgstr "写入物体自定义属性："
+
+#: operators.py:234
+msgctxt "Operator"
+msgid "1) Set Props (Selected)"
+msgstr "1) 设置属性（选中）"
+
+#: operators.py:259
+msgctxt "Operator"
+msgid "2) Set Props (Visible)"
+msgstr "2) 设置属性（可见）"
+
+#: operators.py:284
+msgctxt "Operator"
+msgid "3) Set Props (All)"
+msgstr "3) 设置属性（全部）"
+
+#: operators.py:352
+msgctxt "Operator"
+msgid "Clear Export Props (All)"
+msgstr "清除导出属性（全部）"
+
+#: operators.py:312
+msgctxt "Operator"
+msgid "Clear Export Props (Selected)"
+msgstr "清除导出属性（选中）"
+
+#: operators.py:332
+msgctxt "Operator"
+msgid "Clear Export Props (Visible)"
+msgstr "清除导出属性（可见）"
+
+#: operators.py:215
+msgctxt "Operator"
+msgid "Export ALL Prototypes (No Scene)"
+msgstr "导出所有原型（无场景）"
+
+#: operators.py:196
+msgctxt "Operator"
+msgid "Export Selected Prototype (No Scene)"
+msgstr "导出选中的原型（无场景）"
+
+#: operators.py:180
+msgctxt "Operator"
+msgid "Generate Scene (.collection)"
+msgstr "生成场景 (.collection)"

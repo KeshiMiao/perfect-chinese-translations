@@ -1,0 +1,450 @@
+# perfect-chinese: 1
+# id: stmap_exporter
+# kind: addon
+# module: bl_ext.blender_org.stmap_exporter
+# name: STMap Exporter
+# name_zh: 畸变图导出器
+# translator: KeshiMiao
+# category: Tracking
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:521
+msgid "AE Displacement"
+msgstr "AE 置换"
+
+#: __init__.py:580
+msgid "Additional uniform pixel padding added to the Auto bounding box"
+msgstr "添加到自动边界框的额外均匀像素边距"
+
+#: __init__.py:1246
+msgid "After Effects Displacement:"
+msgstr "After Effects 置换："
+
+#: __init__.py:1259
+msgid "Auto BBox Limits:"
+msgstr "自动边界框限制："
+
+#: __init__.py:559
+msgid "Auto Expansion"
+msgstr "自动扩展"
+
+#: __init__.py:559
+msgid "Automatically calculate bounding box based on distortion"
+msgstr "根据畸变自动计算边界框"
+
+#: __init__.py:533
+msgid "Checkerboard Guides"
+msgstr "棋盘格参考线"
+
+#: __init__.py:516
+msgid "Choose which map format to export"
+msgstr "选择要导出的映射格式"
+
+#: __init__.py:592
+msgid "Codec"
+msgstr "编解码器"
+
+#: __init__.py:588
+#: __init__.py:603
+msgid "Color Depth"
+msgstr "色彩深度"
+
+#: __init__.py:588
+msgid "Color depth for OpenEXR files (32-bit Float recommended for accurate STMaps)"
+msgstr "OpenEXR 文件的色彩深度（建议使用 32 位浮点以获得准确的 STMap）"
+
+#: __init__.py:603
+msgid "Color depth for standard image formats"
+msgstr "标准图像格式的色彩深度"
+
+#: __init__.py:592
+msgid "Compression method for OpenEXR files"
+msgstr "OpenEXR 文件的压缩方式"
+
+#: __init__.py:621
+msgid "Custom Max Horizontal Displacement value for After Effects"
+msgstr "自定义 After Effects 的最大水平位移值"
+
+#: __init__.py:624
+msgid "Custom Max Vertical Displacement value for After Effects"
+msgstr "自定义 After Effects 的最大垂直位移值"
+
+#: __init__.py:560
+msgid "Custom Resolution"
+msgstr "自定义分辨率"
+
+#: __init__.py:545
+msgid "Custom base output height in pixels"
+msgstr "自定义基础输出高度（像素）"
+
+#: __init__.py:542
+msgid "Custom base output width in pixels"
+msgstr "自定义基础输出宽度（像素）"
+
+#: __init__.py:570
+msgid "Custom overscan height in pixels"
+msgstr "自定义过扫描高度（像素）"
+
+#: __init__.py:567
+msgid "Custom overscan width in pixels"
+msgstr "自定义过扫描宽度（像素）"
+
+#: __init__.py:513
+msgid "Custom prefix string for exported files"
+msgstr "导出文件的自定义前缀字符串"
+
+#: __init__.py:596
+msgid "DWAA"
+msgstr "DWAA"
+
+#: __init__.py:596
+msgid "DWAB"
+msgstr "DWAB"
+
+#: __init__.py:506
+msgid "Directory to export maps. Leave empty to save next to the .blend file"
+msgstr "导出映射的目录。留空则保存到 .blend 文件旁"
+
+#: __init__.py:521
+msgid "Export After Effects Displacement Maps"
+msgstr "导出 After Effects 置换贴图"
+
+#: __init__.py:1146
+msgid "Export Contents"
+msgstr "导出内容"
+
+#: __init__.py:506
+msgid "Export Path"
+msgstr "导出路径"
+
+#: __init__.py:522
+msgid "Export both standard STMaps and After Effects Displacement Maps"
+msgstr "同时导出标准 STMap 和 After Effects 置换贴图"
+
+#: __init__.py:533
+msgid "Export grayscale checkerboard grids to visualize the distortion effect"
+msgstr "导出灰度棋盘格网格以可视化畸变效果"
+
+#: __init__.py:520
+msgid "Export standard STMaps"
+msgstr "导出标准 STMap"
+
+#: __init__.py:530
+msgid "Export the redistort direction for the selected map type"
+msgstr "导出所选映射类型的再畸变方向"
+
+#: __init__.py:527
+msgid "Export the undistort direction for the selected map type"
+msgstr "导出所选映射类型的去畸变方向"
+
+#: __init__.py:580
+msgid "Extra Padding (px)"
+msgstr "额外边距（像素）"
+
+#: __init__.py:590
+msgid "Float (Full)"
+msgstr "浮点（完整）"
+
+#: __init__.py:590
+msgid "Float (Half)"
+msgstr "浮点（半）"
+
+#: __init__.py:584
+msgid "Format"
+msgstr "格式"
+
+#: __init__.py:1235
+msgid "Format Settings:"
+msgstr "格式设置："
+
+#: __init__.py:536
+msgid "Grid Count (X)"
+msgstr "网格数量（X）"
+
+#: __init__.py:545
+#: __init__.py:570
+msgid "Height"
+msgstr "高度"
+
+#: __init__.py:584
+msgid "Image format for the exported STMaps (OpenEXR highly recommended)"
+msgstr "导出 STMap 的图像格式（强烈建议使用 OpenEXR）"
+
+#: __init__.py:768
+msgid "Invalid BBox or resolution too high."
+msgstr "边界框无效或分辨率过高。"
+
+#: __init__.py:548
+msgid "Lock"
+msgstr "锁定"
+
+#: __init__.py:573
+msgid "Lock Aspect"
+msgstr "锁定宽高比"
+
+#: __init__.py:548
+msgid "Lock aspect ratio to the original clip's dimensions"
+msgstr "将宽高比锁定为原始剪辑的尺寸"
+
+#: __init__.py:573
+msgid "Lock aspect ratio when scaling overscan resolution"
+msgstr "缩放过扫描分辨率时锁定宽高比"
+
+#: __init__.py:516
+msgid "Map Type"
+msgstr "映射类型"
+
+#: __init__.py:621
+msgid "Max H"
+msgstr "最大 H"
+
+#: __init__.py:624
+msgid "Max V"
+msgstr "最大 V"
+
+#: __init__.py:577
+msgid "Maximum allowed auto-expansion relative to the base resolution to prevent OOM errors"
+msgstr "相对于基础分辨率允许的最大自动扩展，以防止内存不足错误"
+
+#: __init__.py:556
+msgid "Mode"
+msgstr "模式"
+
+#: __init__.py:982
+msgid "No export options selected."
+msgstr "未选择导出选项。"
+
+#: __init__.py:594
+msgid "None"
+msgstr "无"
+
+#: __init__.py:536
+msgid "Number of checker squares along the image width"
+msgstr "沿图像宽度方向的棋盘格数量"
+
+#: __init__.py:586
+msgid "OpenEXR"
+msgstr "OpenEXR"
+
+#: __init__.py:627
+#: __init__.py:1229
+msgid "Options"
+msgstr "选项"
+
+#: __init__.py:539
+msgid "Override Base Res"
+msgstr "覆盖基础分辨率"
+
+#: __init__.py:539
+msgid "Override the base resolution instead of using the clip's original resolution"
+msgstr "覆盖基础分辨率，而不使用剪辑的原始分辨率"
+
+#: __init__.py:553
+msgid "Overscan"
+msgstr "过扫描"
+
+#: __init__.py:577
+msgid "Overscan Limit (%)"
+msgstr "过扫描限制（%）"
+
+#: __init__.py:564
+msgid "Overscan percentage relative to base resolution"
+msgstr "相对于基础分辨率的过扫描百分比"
+
+#: __init__.py:595
+msgid "PIZ"
+msgstr "PIZ"
+
+#: __init__.py:586
+msgid "PNG"
+msgstr "PNG"
+
+#: __init__.py:615
+msgid "Pixel step used when rounding AE displacement max values"
+msgstr "对 AE 位移最大值取整时使用的像素步长"
+
+#: __init__.py:776
+msgid "Please save your .blend file first, or specify an absolute export path."
+msgstr "请先保存 .blend 文件，或指定绝对导出路径。"
+
+#: __init__.py:594
+msgid "Pxr24"
+msgstr "Pxr24"
+
+#: __init__.py:595
+msgid "RLE"
+msgstr "RLE"
+
+#: __init__.py:530
+msgid "Redistort"
+msgstr "重新扭曲"
+
+#: __init__.py:607
+msgid "Remap Redistort UVs to a strict 0.0-1.0 range based on the expanded bounding box. Useful for non-floating point formats (PNG/TIFF) to prevent clipping negative values"
+msgstr "基于扩展后的边界框，将重新扭曲 UV 重映射到严格的 0.0-1.0 范围。适用于非浮点格式（PNG/TIFF），可防止负值被裁剪"
+
+#: __init__.py:607
+msgid "Remap to [0-1] (BBox)"
+msgstr "重映射到 [0-1]（边界框）"
+
+#: __init__.py:612
+msgid "Round Up Auto Max"
+msgstr "自动最大值向上取整"
+
+#: __init__.py:612
+msgid "Round calculated AE displacement max values up to a clean pixel step"
+msgstr "将计算出的 AE 位移最大值向上取整到整齐的像素步长"
+
+#: __init__.py:520
+msgid "STMap"
+msgstr "STMap"
+
+#: __init__.py:522
+msgid "STMap + AE Displacement"
+msgstr "STMap + AE 位移"
+
+#: __init__.py:1095
+msgid "STMap Exporter"
+msgstr "STMap 导出器"
+
+#: __init__.py:1024
+#: __init__.py:1073
+msgid "STMap Presets"
+msgstr "STMap 预设"
+
+#: __init__.py:564
+msgid "Scale (%)"
+msgstr "缩放 (%)"
+
+#: __init__.py:556
+msgid "Select how to determine the overscan resolution"
+msgstr "选择如何确定过扫描分辨率"
+
+#: __init__.py:598
+msgid "Set B Channel to 1.0"
+msgstr "将 B 通道设为 1.0"
+
+#: __init__.py:560
+msgid "Set a specific overscan resolution"
+msgstr "设置特定的过扫描分辨率"
+
+#: __init__.py:553
+msgid "Show Overscan / BBox settings"
+msgstr "显示过扫描 / 边界框设置"
+
+#: __init__.py:627
+msgid "Show advanced format settings"
+msgstr "显示高级格式设置"
+
+#: __init__.py:615
+msgid "Step"
+msgstr "步长"
+
+#: __init__.py:586
+msgid "TIFF"
+msgstr "TIFF"
+
+#: __init__.py:1099
+msgid "Track"
+msgstr "跟踪"
+
+#: __init__.py:527
+msgid "Undistort"
+msgstr "去畸变"
+
+#: __init__.py:618
+msgid "Use Custom Max"
+msgstr "使用自定义最大值"
+
+#: __init__.py:510
+msgid "Use Custom Name"
+msgstr "使用自定义名称"
+
+#: __init__.py:510
+msgid "Use a custom prefix for the exported files instead of the clip name"
+msgstr "使用自定义前缀作为导出文件前缀，而不是片段名称"
+
+#: __init__.py:618
+msgid "Use manually specified AE Max Horizontal/Vertical Displacement values"
+msgstr "使用手动指定的 AE 最大水平/垂直位移值"
+
+#: __init__.py:1128
+msgid "Warning: Zero distortion values."
+msgstr "警告：畸变值为零。"
+
+#: __init__.py:542
+#: __init__.py:567
+msgid "Width"
+msgstr "宽度"
+
+#: __init__.py:598
+msgid "Write 1.0 to the EXR blue channel for better compatibility when using the map inside Blender"
+msgstr "将 1.0 写入 EXR 蓝色通道，以提高在 Blender 内使用该映射时的兼容性"
+
+#: __init__.py:594
+msgid "ZIP"
+msgstr "ZIP"
+
+#: __init__.py:595
+msgid "ZIPS"
+msgstr "ZIPS"
+
+#: __init__.py:1033
+msgctxt "Operator"
+msgid "Add STMap Preset"
+msgstr "添加 STMap 预设"
+
+#: __init__.py:667
+msgctxt "Operator"
+msgid "Apply Overscan to Scene"
+msgstr "将过扫描应用到场景"
+
+#: __init__.py:668
+msgctxt "Operator"
+msgid "Apply overscan resolution to Scene render settings and scale active Camera sensor"
+msgstr "将过扫描分辨率应用到场景渲染设置，并缩放活动相机的传感器"
+
+#: __init__.py:1220
+msgctxt "Operator"
+msgid "Apply to Scene"
+msgstr "应用到场景"
+
+#: __init__.py:736
+msgctxt "Operator"
+msgid "Calculate and export selected STMaps and Checker Grids"
+msgstr "计算并导出选中的 STMap 和棋盘格"
+
+#: __init__.py:654
+msgctxt "Operator"
+msgid "Copy"
+msgstr "复制"
+
+#: __init__.py:735
+msgctxt "Operator"
+msgid "Export Maps"
+msgstr "导出映射"
+
+#: __init__.py:635
+msgctxt "Operator"
+msgid "Reset to Original Resolution"
+msgstr "重置为原始分辨率"
+
+#: __init__.py:1221
+msgctxt "Operator"
+msgid "Restore"
+msgstr "恢复"
+
+#: __init__.py:701
+msgctxt "Operator"
+msgid "Restore Scene Res"
+msgstr "恢复场景分辨率"
+
+#: __init__.py:702
+msgctxt "Operator"
+msgid "Restore Scene render resolution and camera sensor to base footage values"
+msgstr "将场景渲染分辨率和相机传感器恢复为基础素材值"

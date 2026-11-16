@@ -1,0 +1,1123 @@
+# perfect-chinese: 1
+# id: keycraft_midi
+# kind: addon
+# module: bl_ext.blender_org.keycraft_midi
+# name: KeyCraft MIDI
+# name_zh: MIDI键盘构建
+# translator: KeshiMiao
+# category: System
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:534
+msgid "%d existing keys — MIDI ready"
+msgstr "%d 个现有琴键 — MIDI 就绪"
+
+#: __init__.py:548
+msgid "%s  to  %s"
+msgstr "%s 至 %s"
+
+#: __init__.py:101
+msgid "+X"
+msgstr "+X"
+
+#: __init__.py:101
+msgid "+Y"
+msgstr "+Y"
+
+#: __init__.py:101
+msgid "+Z"
+msgstr "+Z"
+
+#: __init__.py:102
+msgid "-X"
+msgstr "-X"
+
+#: __init__.py:102
+msgid "-Y"
+msgstr "-Y"
+
+#: __init__.py:102
+msgid "-Z"
+msgstr "-Z"
+
+#: performance_ui.py:38
+msgid "0 accepts all channels; 1–16 selects one"
+msgstr "0 接受所有通道；1–16 选择单个通道"
+
+#: performance_ui.py:55
+msgid "0 accepts all staves; MusicXML uses numbered staves within each part"
+msgstr "0 接受所有谱表；MusicXML 在每个声部内使用编号谱表"
+
+#: __init__.py:221
+msgid "0 listens to all MIDI channels; 1–16 selects one"
+msgstr "0 监听所有 MIDI 通道；1–16 选择单个通道"
+
+#: performance_ui.py:57
+msgid "1 is original tempo; 2 is twice as fast"
+msgstr "1 为原始速度；2 为两倍速"
+
+#: performance_ui.py:231
+msgid ":"
+msgstr "："
+
+#: __init__.py:154
+msgid "Add White-Key Underbody"
+msgstr "添加白键底板"
+
+#: __init__.py:166
+msgid "Add editable text on each key; note names in the Outliner are always included"
+msgstr "在每个琴键上添加可编辑文本；大纲视图中的音名始终包含"
+
+#: __init__.py:154
+msgid "Add the deeper white section below each key; it moves with the key when pressed"
+msgstr "添加每个琴键下方较深的白色部分；按下时随琴键一同移动"
+
+#: performance_ui.py:49
+msgid "All manuals respond to the same incoming notes"
+msgstr "所有键盘均响应相同的输入音符"
+
+#: __init__.py:116
+msgid "Alternating whole-tone rows; every second row repeats the same MIDI notes"
+msgstr "交替的全音行；每隔一行重复相同的 MIDI 音符"
+
+#: performance_ui.py:443
+msgid "Animation only; no audio is generated"
+msgstr "仅动画；不生成音频"
+
+#: __init__.py:232
+msgid "Assign Notes By"
+msgstr "音符分配方式"
+
+#: __init__.py:233
+msgid "Assign consecutive MIDI notes along the chosen world axis"
+msgstr "沿所选世界轴分配连续的 MIDI 音符"
+
+#: performance_ui.py:59
+msgid "Audiveris Launcher"
+msgstr "Audiveris 启动器"
+
+#: performance_ui.py:47
+msgid "Back Offset (mm)"
+msgstr "后偏移 (mm)"
+
+#: __init__.py:211
+msgid "Black Length (%)"
+msgstr "黑键长度 (%)"
+
+#: __init__.py:150
+msgid "Black Length / White"
+msgstr "黑键长度 / 白键"
+
+#: __init__.py:168
+msgid "Black Note Names"
+msgstr "黑键音名"
+
+#: __init__.py:214
+msgid "Black Rise (%)"
+msgstr "黑键凸起 (%)"
+
+#: __init__.py:151
+msgid "Black Rise / White Thickness"
+msgstr "黑键凸起 / 白键厚度"
+
+#: __init__.py:161
+msgid "Black Tip Radius"
+msgstr "黑键顶端半径"
+
+#: __init__.py:199
+msgid "Black Tip Radius (mm)"
+msgstr "黑键顶端半径 (mm)"
+
+#: __init__.py:208
+msgid "Black Width (%)"
+msgstr "黑键宽度 (%)"
+
+#: __init__.py:149
+msgid "Black Width / White"
+msgstr "黑键宽度 / 白键"
+
+#: __init__.py:126
+msgid "C through E dark; F through B light, including accidentals"
+msgstr "C 到 E 为深色；F 到 B 为浅色，包括变音键"
+
+#: __init__.py:132
+msgid "Center spacing between notes two semitones apart; neighboring rows shift by half this amount"
+msgstr "相隔两个半音的音符中心间距；相邻行偏移此值的一半"
+
+#: __init__.py:589
+#: __init__.py:630
+msgid "Change values, then Update Keyboard"
+msgstr "修改数值后更新键盘"
+
+#: __init__.py:221
+msgid "Channel"
+msgstr "通道"
+
+#: performance_ui.py:396
+msgid "Channel 0 layers beds; separate channels split them"
+msgstr "通道 0 将底板叠层；分开的通道将其拆分"
+
+#: __init__.py:678
+msgid "Channel and transpose use the Multiple Keybeds list"
+msgstr "通道和移调使用「多重键盘」列表"
+
+#: performance_ui.py:474
+msgid "Check pitches and rhythm before creating animation"
+msgstr "创建动画前检查音高和节奏"
+
+#: performance_ui.py:105
+msgid "Choose a keyboard in the main KeyCraft panel first."
+msgstr "请先在主 KeyCraft 面板中选择一个键盘。"
+
+#: __init__.py:627
+msgid "Clearance around each black-key cutout"
+msgstr "每个黑键开孔周围的间隙"
+
+#: __init__.py:629
+msgid "Clearance follows the white-key gap"
+msgstr "间隙跟随白键间距"
+
+#: __init__.py:30
+msgid "Click Refresh to find MIDI devices"
+msgstr "点击刷新以查找 MIDI 设备"
+
+#: __init__.py:114
+msgid "Compact stepped cap-style keys; visual geometry, not a print-ready retrofit"
+msgstr "紧凑阶梯键帽式琴键；仅为可视化几何体，并非可直接打印的改装件"
+
+#: __init__.py:42
+msgid "Connect a MIDI keyboard and click Refresh"
+msgstr "连接 MIDI 键盘并点击刷新"
+
+#: performance_ui.py:410
+msgid "Creates new beds using current key dimensions"
+msgstr "使用当前琴键尺寸创建新底板"
+
+#: __init__.py:162
+msgid "Custom Black-Key Clearance"
+msgstr "自定义黑键间隙"
+
+#: __init__.py:570
+msgid "Dimensions and Travel"
+msgstr "尺寸与行程"
+
+#: __init__.py:660
+msgid "Directions use world axes at binding"
+msgstr "方向在绑定时使用世界坐标轴"
+
+#: performance_ui.py:101
+msgid "Disconnect MIDI before editing routes."
+msgstr "编辑路由前请断开 MIDI。"
+
+#: performance_ui.py:298
+msgid "Disconnect live MIDI before playing the Timeline."
+msgstr "播放时间线前请断开实时 MIDI。"
+
+#: __init__.py:683
+msgid "Disconnect to finish, then play the Timeline"
+msgstr "断开以完成，然后播放时间线"
+
+#: __init__.py:184
+msgid "Distance from the finished white tip back to the underbody front; 0 brings it to the tip"
+msgstr "从成品白键顶端向后到底板前端的距离；0 表示贴近顶端"
+
+#: __init__.py:187
+msgid "Distance from the rear pivot forward to the underbody rear; smaller values extend farther back"
+msgstr "从后部支点向前到底板后端的距离；数值越小向后延伸越远"
+
+#: __init__.py:152
+msgid "Edge Rounding"
+msgstr "边缘圆角"
+
+#: __init__.py:180
+msgid "Edge Rounding (mm)"
+msgstr "边缘圆角 (mm)"
+
+#: performance_ui.py:37
+msgid "Enabled"
+msgstr "启用"
+
+#: __init__.py:537
+msgid "Existing Key Travel Scale"
+msgstr "现有琴键行程比例"
+
+#: __init__.py:245
+msgid "Existing Origin"
+msgstr "现有原点"
+
+#: __init__.py:533
+msgid "Existing keyboard"
+msgstr "现有键盘"
+
+#: __init__.py:374
+msgid "Existing keys are rigged for MIDI and recording"
+msgstr "现有琴键已绑定用于 MIDI 和录制"
+
+#: __init__.py:193
+msgid "Extend the Synth white-key tip toward the player, beyond White Length"
+msgstr "将合成器白键前端朝演奏者延伸，超出白键长度"
+
+#: __init__.py:158
+msgid "Extra Depth"
+msgstr "额外深度"
+
+#: __init__.py:190
+msgid "Extra Depth (mm)"
+msgstr "额外深度 (mm)"
+
+#: __init__.py:108
+#: __init__.py:231
+msgid "First MIDI Note"
+msgstr "首个 MIDI 音符"
+
+#: __init__.py:126
+msgid "Five-Seven"
+msgstr "五七"
+
+#: __init__.py:168
+msgid "Flats (Db)"
+msgstr "降号 (Db)"
+
+#: __init__.py:165
+msgid "Front Clearance"
+msgstr "前端间隙"
+
+#: __init__.py:205
+msgid "Front Clearance (mm)"
+msgstr "前端间隙 (mm)"
+
+#: __init__.py:242
+msgid "Front Direction"
+msgstr "前方方向"
+
+#: __init__.py:156
+msgid "Front Inset"
+msgstr "前端内缩"
+
+#: __init__.py:184
+msgid "Front Inset (mm)"
+msgstr "前端内缩 (mm)"
+
+#: __init__.py:144
+msgid "Full front face with a rounded edge"
+msgstr "完整前表面带圆角边缘"
+
+#: __init__.py:148
+msgid "Gap"
+msgstr "间隙"
+
+#: __init__.py:178
+msgid "Gap (mm)"
+msgstr "间隙 (mm)"
+
+#: __init__.py:205
+msgid "Gap from the black-key front to the white-key shoulder in plan view; changes cutout length"
+msgstr "俯视图中从黑键前端到白键肩部的间隙；会改变切口长度"
+
+#: __init__.py:202
+msgid "Gap on each side of a black key, measured in plan view at its widest part; changes the white cutout"
+msgstr "黑键两侧的间隙，在俯视图中按其最宽处测量；会改变白键切口"
+
+#: __init__.py:241
+msgid "Hinge Axis"
+msgstr "铰链轴"
+
+#: __init__.py:190
+msgid "How far the underbody extends below the normal white-key thickness"
+msgstr "下琴体在正常白键厚度下方的延伸距离"
+
+#: __init__.py:612
+msgid "Insets shorten the body from each end"
+msgstr "内缩量会从两端缩短琴体"
+
+#: performance_ui.py:59
+msgid "Installed Audiveris executable or supported launcher; recognition runs locally"
+msgstr "已安装的 Audiveris 可执行文件或受支持的启动器；识别在本地运行"
+
+#: __init__.py:112
+msgid "Janko - Classic"
+msgstr "Janko - 经典"
+
+#: __init__.py:114
+msgid "Janko - DIY-style Caps"
+msgstr "Janko - DIY 风格键帽"
+
+#: __init__.py:113
+msgid "Janko - Slim"
+msgstr "Janko - 纤薄"
+
+#: __init__.py:684
+msgid "Keep Timeline playback stopped for live MIDI"
+msgstr "使用实时 MIDI 时保持时间线停止播放"
+
+#: __init__.py:124
+msgid "Key Colors"
+msgstr "琴键颜色"
+
+#: __init__.py:141
+msgid "Key Shape"
+msgstr "琴键形状"
+
+#: __init__.py:594
+msgid "Key Shapes and Clearances"
+msgstr "琴键形状与间隙"
+
+#: __init__.py:139
+msgid "Key Thickness (mm)"
+msgstr "琴键厚度 (mm)"
+
+#: __init__.py:153
+msgid "Key Travel"
+msgstr "琴键行程"
+
+#: __init__.py:182
+msgid "Key Travel (mm)"
+msgstr "琴键行程 (mm)"
+
+#: __init__.py:128
+msgid "Key Width (mm)"
+msgstr "琴键宽度 (mm)"
+
+#: __init__.py:555
+msgid "Key count = distinct MIDI notes"
+msgstr "琴键数 = 不同 MIDI 音符数"
+
+#: __init__.py:519
+#: __init__.py:573
+msgid "KeyCraft"
+msgstr "KeyCraft"
+
+#: __init__.py:515
+msgid "KeyCraft MIDI"
+msgstr "KeyCraft MIDI"
+
+#: __init__.py:395
+msgid "KeyCraft rig removed; original key meshes kept"
+msgstr "KeyCraft 绑定已移除；保留原始琴键网格"
+
+#: performance_ui.py:36
+msgid "Keybed"
+msgstr "键床"
+
+#: __init__.py:217
+msgid "Keyboard"
+msgstr "键盘"
+
+#: __init__.py:106
+msgid "Keyboard Name"
+msgstr "键盘名称"
+
+#: __init__.py:319
+msgid "Keyboard updated; shared-note animation retained"
+msgstr "键盘已更新；保留共享音符动画"
+
+#: performance_ui.py:49
+msgid "Layer Together"
+msgstr "叠加"
+
+#: performance_ui.py:400
+msgid "Layered Organ Manuals"
+msgstr "分层管风琴手键盘"
+
+#: __init__.py:110
+msgid "Layout"
+msgstr "布局"
+
+#: __init__.py:665
+msgid "Live MIDI and Recording"
+msgstr "实时 MIDI 与录制"
+
+#: performance_ui.py:382
+msgid "Live MIDI and scores use the current keyboard"
+msgstr "实时 MIDI 和乐谱使用当前键盘"
+
+#: performance_ui.py:50
+msgid "Loaded Score"
+msgstr "已加载乐谱"
+
+#: performance_ui.py:228
+msgid "Loaded score"
+msgstr "已加载乐谱"
+
+#: __init__.py:590
+msgid "Local sizes shown in millimeters"
+msgstr "本地尺寸以毫米显示"
+
+#: __init__.py:236
+msgid "Low to High"
+msgstr "从低到高"
+
+#: performance_ui.py:38
+msgid "MIDI Channel"
+msgstr "MIDI 通道"
+
+#: __init__.py:220
+msgid "MIDI Input"
+msgstr "MIDI 输入"
+
+#: __init__.py:234
+msgid "MIDI_Note Property"
+msgstr "MIDI_Note 属性"
+
+#: performance_ui.py:48
+msgid "Manual Routing"
+msgstr "手动路由"
+
+#: performance_ui.py:45
+msgid "Manuals"
+msgstr "手键盘"
+
+#: performance_ui.py:48
+msgid "Manuals listen to channels 1, 2, 3…"
+msgstr "手键盘监听通道 1、2、3…"
+
+#: __init__.py:535
+msgid "Model geometry is protected from rebuilding"
+msgstr "模型几何体受保护，不会被重建"
+
+#: __init__.py:239
+msgid "Move Down"
+msgstr "下移"
+
+#: __init__.py:239
+msgid "Move each key along the selected press direction"
+msgstr "沿所选按下方向移动每个琴键"
+
+#: performance_ui.py:372
+msgid "Multiple Keybeds"
+msgstr "多个键床"
+
+#: performance_ui.py:41
+msgid "MusicXML staff number; 0 means all. MIDI files do not carry staff numbers"
+msgstr "MusicXML 谱表编号；0 表示全部。MIDI 文件不包含谱表编号"
+
+#: __init__.py:113
+msgid "Narrow stepped keys with accessible space between neighboring notes"
+msgstr "窄阶梯式琴键，相邻音符之间留有可触及的间距"
+
+#: __init__.py:125
+msgid "Naturals light; sharps and flats dark"
+msgstr "本位音浅色；升音和降音深色"
+
+#: __init__.py:250
+msgid "Negative"
+msgstr "负"
+
+#: __init__.py:42
+msgid "No MIDI inputs found"
+msgstr "未找到 MIDI 输入"
+
+#: __init__.py:30
+msgid "No input selected"
+msgstr "未选择输入"
+
+#: __init__.py:565
+msgid "Note"
+msgstr "音符"
+
+#: __init__.py:235
+msgid "Note Names"
+msgstr "音符名称"
+
+#: __init__.py:107
+msgid "Number of Keys"
+msgstr "琴键数量"
+
+#: __init__.py:127
+msgid "One whole-tone group light and the other dark"
+msgstr "一组全音浅色，另一组深色"
+
+#: performance_ui.py:60
+msgid "Optional folder for new recognition results"
+msgstr "新识别结果的可选文件夹"
+
+#: __init__.py:227
+msgid "Pedal Holds Keys"
+msgstr "踏板保持琴键"
+
+#: __init__.py:211
+msgid "Percentage of white-key length"
+msgstr "白键长度的百分比"
+
+#: __init__.py:208
+msgid "Percentage of white-key width"
+msgstr "白键宽度的百分比"
+
+#: __init__.py:142
+msgid "Piano"
+msgstr "钢琴"
+
+#: __init__.py:111
+msgid "Piano / Synth"
+msgstr "钢琴 / 合成器"
+
+#: __init__.py:125
+msgid "Piano Note Colors"
+msgstr "钢琴音符颜色"
+
+#: __init__.py:243
+msgid "Pivot Position"
+msgstr "枢轴位置"
+
+#: __init__.py:244
+msgid "Place a hinge at the back of each key using its world-space bounds"
+msgstr "使用世界空间边界在每个琴键后部放置铰链"
+
+#: __init__.py:218
+msgid "Play Multiple Keybeds"
+msgstr "播放多个键盘"
+
+#: performance_ui.py:57
+msgid "Playback Speed"
+msgstr "播放速度"
+
+#: __init__.py:233
+msgid "Position"
+msgstr "位置"
+
+#: __init__.py:250
+msgid "Positive"
+msgstr "正"
+
+#: __init__.py:644
+msgid "Preserves your modeled key shapes"
+msgstr "保留你建模的琴键形状"
+
+#: __init__.py:566
+msgid "Press"
+msgstr "按下"
+
+#: __init__.py:249
+msgid "Press Angle"
+msgstr "按下角度"
+
+#: __init__.py:240
+msgid "Press Direction"
+msgstr "按下方向"
+
+#: __init__.py:237
+msgid "Press Motion"
+msgstr "按下动作"
+
+#: __init__.py:223
+msgid "Press Time"
+msgstr "按下时间"
+
+#: performance_ui.py:456
+msgid "Printed sheet music → MusicXML, using Audiveris"
+msgstr "纸质乐谱 → MusicXML，使用 Audiveris"
+
+#: __init__.py:621
+msgid "Radius 0: no added tip curve"
+msgstr "半径 0：不添加尖端曲线"
+
+#: __init__.py:235
+msgid "Read a scientific note name such as C4 or Db4 from Note or the object name"
+msgstr "从音符或物体名称读取科学音名，如 C4 或 Db4"
+
+#: __init__.py:157
+msgid "Rear Inset"
+msgstr "后部内缩"
+
+#: __init__.py:187
+msgid "Rear Inset (mm)"
+msgstr "后部内缩 (mm)"
+
+#: __init__.py:244
+msgid "Rear of Each Key"
+msgstr "每个琴键的后部"
+
+#: performance_ui.py:60
+msgid "Recognition Folder"
+msgstr "识别文件夹"
+
+#: __init__.py:229
+msgid "Record Press and Velocity from the current frame using elapsed time; arm before connecting"
+msgstr "使用经过时间从当前帧记录按下与力度；连接前先启用"
+
+#: __init__.py:229
+msgid "Record to Keyframes"
+msgstr "记录为关键帧"
+
+#: __init__.py:453
+msgid "Refresh and select a MIDI input first"
+msgstr "请先刷新并选择 MIDI 输入"
+
+#: __init__.py:224
+msgid "Release Time"
+msgstr "释放时间"
+
+#: performance_ui.py:237
+msgid "Review pitches and rhythms after PDF/photo recognition."
+msgstr "PDF/照片识别后检查音高和节奏。"
+
+#: __init__.py:634
+msgid "Rig an Existing Key Model"
+msgstr "为现有琴键模型绑定"
+
+#: __init__.py:214
+msgid "Rise above white keys as a percentage of their thickness"
+msgstr "高出白键的高度，按其厚度百分比计"
+
+#: __init__.py:238
+msgid "Rotate at Rear"
+msgstr "在后部旋转"
+
+#: __init__.py:238
+msgid "Rotate each key around a rear hinge"
+msgstr "让每个琴键绕后部铰链旋转"
+
+#: __init__.py:250
+msgid "Rotation Direction"
+msgstr "旋转方向"
+
+#: __init__.py:196
+msgid "Round the Synth top/front edge; 0 adds no tip curve. General Edge Rounding still applies"
+msgstr "对合成器顶部/前缘进行圆角；0 不添加尖端曲线。通用边缘圆角仍然生效"
+
+#: __init__.py:199
+msgid "Round the black-key top/front edge; 0 adds no tip curve. General Edge Rounding still applies"
+msgstr "对黑键顶部/前缘进行圆角；0 不添加尖端曲线。通用边缘圆角仍然生效"
+
+#: __init__.py:218
+msgid "Route live MIDI or score animation to every enabled keybed in Multiple Keybeds"
+msgstr "将实时 MIDI 或乐谱动画发送到「多个键盘」中所有启用的键盘"
+
+#: __init__.py:137
+msgid "Row Rise (mm)"
+msgstr "行升高 (mm)"
+
+#: __init__.py:135
+msgid "Row Spacing (mm)"
+msgstr "行间距 (mm)"
+
+#: __init__.py:108
+msgid "Scientific pitch notation: MIDI 60 = C4; 24 = C1"
+msgstr "科学音高记谱：MIDI 60 = C4；24 = C1"
+
+#: performance_ui.py:51
+msgid "Score File"
+msgstr "乐谱文件"
+
+#: performance_ui.py:40
+#: performance_ui.py:54
+msgid "Score Part / Track"
+msgstr "乐谱声部 / 轨道"
+
+#: performance_ui.py:41
+#: performance_ui.py:55
+msgid "Score Staff"
+msgstr "乐谱谱表"
+
+#: performance_ui.py:420
+msgid "Score and MIDI File Animation"
+msgstr "乐谱与 MIDI 文件动画"
+
+#: __init__.py:337
+msgid "Select a generated KeyCraft keyboard or one of its keys"
+msgstr "选择一个生成的 KeyCraft 键盘或其某个琴键"
+
+#: performance_ui.py:416
+msgid "Select each manual to customize its keys"
+msgstr "选择各手键盘以自定义其琴键"
+
+#: __init__.py:643
+msgid "Select separate key mesh objects"
+msgstr "选择单独的琴键网格物体"
+
+#: performance_ui.py:48
+msgid "Separate Channels"
+msgstr "分离通道"
+
+#: __init__.py:162
+msgid "Set the side and front gaps around black keys independently of the white-to-white gap"
+msgstr "独立于白键间距设置黑键周围的侧面和前部间隙"
+
+#: __init__.py:168
+msgid "Sharps (C#)"
+msgstr "升号 (C#)"
+
+#: performance_ui.py:447
+msgid "Sheet Music PDF / Photo"
+msgstr "乐谱 PDF / 照片"
+
+#: __init__.py:222
+msgid "Shift incoming MIDI notes in semitones"
+msgstr "以半音为单位移调输入的 MIDI 音符"
+
+#: performance_ui.py:39
+msgid "Shift incoming notes for this bed in semitones"
+msgstr "以半音为单位移调此键床的输入音符"
+
+#: __init__.py:164
+msgid "Side Clearance"
+msgstr "侧边间隙"
+
+#: __init__.py:202
+msgid "Side Clearance (mm)"
+msgstr "侧边间隙 (mm)"
+
+#: performance_ui.py:56
+msgid "Start Frame"
+msgstr "起始帧"
+
+#: __init__.py:682
+msgid "Starts at current frame; uses elapsed time"
+msgstr "从当前帧开始；使用已用时间"
+
+#: __init__.py:142
+msgid "Stepped white keys and tapered raised black keys"
+msgstr "阶梯状白键与锥形凸起黑键"
+
+#: __init__.py:450
+msgid "Stop Timeline playback before connecting MIDI"
+msgstr "连接 MIDI 前请停止时间线播放"
+
+#: __init__.py:561
+msgid "Switch to Object Mode to build keys"
+msgstr "切换到物体模式以构建琴键"
+
+#: __init__.py:143
+msgid "Synth"
+msgstr "合成器"
+
+#: __init__.py:143
+msgid "Thin front lip with a recessed underside"
+msgstr "薄前唇，底部凹陷"
+
+#: performance_ui.py:108
+msgid "This keybed is already in the routing list."
+msgstr "此键床已在路由列表中。"
+
+#: __init__.py:193
+msgid "Tip Extension (mm)"
+msgstr "尖端延伸 (mm)"
+
+#: __init__.py:614
+msgid "Tip Shapes"
+msgstr "尖端形状"
+
+#: __init__.py:130
+msgid "Touch Length (mm)"
+msgstr "触控长度 (mm)"
+
+#: __init__.py:116
+msgid "Touch Rows"
+msgstr "触控行数"
+
+#: __init__.py:111
+msgid "Traditional staggered white and black keys"
+msgstr "传统交错白键与黑键"
+
+#: __init__.py:222
+#: performance_ui.py:39
+msgid "Transpose"
+msgstr "移调"
+
+#: __init__.py:247
+msgid "Travel (mm)"
+msgstr "行程 (mm)"
+
+#: __init__.py:234
+msgid "Use each selected object's integer MIDI_Note custom property"
+msgstr "使用每个选中物体的整数 MIDI_Note 自定义属性"
+
+#: __init__.py:225
+msgid "Use incoming note velocity to vary press depth; off gives full travel for each note"
+msgstr "使用输入音符力度改变按下深度；关闭时每个音符均为完整行程"
+
+#: __init__.py:245
+msgid "Use the object origin as the hinge position"
+msgstr "使用物体原点作为铰链位置"
+
+#: performance_ui.py:40
+msgid "Used for score files; live MIDI uses channel and transpose"
+msgstr "用于乐谱文件；实时 MIDI 使用通道和移调"
+
+#: performance_ui.py:438
+msgid "Uses Press/Release Time from Live MIDI settings"
+msgstr "使用实时 MIDI 设置中的按下/释放时间"
+
+#: __init__.py:225
+msgid "Velocity Affects Depth"
+msgstr "力度影响深度"
+
+#: performance_ui.py:46
+msgid "Vertical Spacing (mm)"
+msgstr "垂直间距 (mm)"
+
+#: __init__.py:166
+msgid "Visible Editable Labels"
+msgstr "可见可编辑标签"
+
+#: __init__.py:144
+msgid "Waterfall"
+msgstr "瀑布式"
+
+#: __init__.py:227
+msgid "When enabled, CC64 holds the animated keys down; off tracks physical key releases"
+msgstr "启用时，CC64 保持动画琴键按下；关闭时跟随实际琴键释放"
+
+#: __init__.py:146
+msgid "White Length"
+msgstr "白键长度"
+
+#: __init__.py:174
+msgid "White Length (mm)"
+msgstr "白键长度 (mm)"
+
+#: __init__.py:147
+msgid "White Thickness"
+msgstr "白键厚度"
+
+#: __init__.py:176
+msgid "White Thickness (mm)"
+msgstr "白键厚度 (mm)"
+
+#: __init__.py:159
+msgid "White Tip Extension"
+msgstr "白键尖端延伸"
+
+#: __init__.py:160
+msgid "White Tip Radius"
+msgstr "白键尖端半径"
+
+#: __init__.py:196
+msgid "White Tip Radius (mm)"
+msgstr "白键尖端半径 (mm)"
+
+#: __init__.py:145
+msgid "White Width"
+msgstr "白键宽度"
+
+#: __init__.py:172
+msgid "White Width (mm)"
+msgstr "白键宽度 (mm)"
+
+#: __init__.py:620
+msgid "White tip controls use the Synth shape"
+msgstr "白键尖端控件使用合成器形状"
+
+#: __init__.py:132
+msgid "Whole-Tone Pitch (mm)"
+msgstr "全音间距 (mm)"
+
+#: __init__.py:127
+msgid "Whole-Tone Rows"
+msgstr "全音行数"
+
+#: __init__.py:112
+msgid "Wide touch pads on alternating whole-tone rows; each note has one shared lever"
+msgstr "交错全音行上的宽触控垫；每个音符共用一个拨杆"
+
+#: __init__.py:241
+msgid "X"
+msgstr "X"
+
+#: __init__.py:241
+msgid "Y"
+msgstr "Y"
+
+#: __init__.py:241
+msgid "Z"
+msgstr "Z"
+
+#: performance_ui.py:134
+msgctxt "Operator"
+msgid "61-Key Waterfall Preset"
+msgstr "61 键瀑布式预设"
+
+#: performance_ui.py:96
+msgctxt "Operator"
+msgid "Add Current Keybed"
+msgstr "添加当前键床"
+
+#: __init__.py:362
+msgctxt "Operator"
+msgid "Add KeyCraft Press, MIDI, and recording controls to the selected key meshes"
+msgstr "为选中的琴键网格添加 KeyCraft 按压、MIDI 和录制控件"
+
+#: performance_ui.py:181
+msgctxt "Operator"
+msgid "Apply Manual Spacing"
+msgstr "应用手动间距"
+
+#: __init__.py:307
+msgctxt "Operator"
+msgid "Apply these dimensions to the target; shared notes retain animation, removed notes are deleted"
+msgstr "将这些尺寸应用到目标；共有音符保留动画，移除的音符将被删除"
+
+#: performance_ui.py:457
+msgctxt "Operator"
+msgid "Audiveris Installation Instructions"
+msgstr "Audiveris 安装说明"
+
+#: performance_ui.py:364
+msgctxt "Operator"
+msgid "Cancel Recognition"
+msgstr "取消识别"
+
+#: __init__.py:439
+msgctxt "Operator"
+msgid "Connect MIDI"
+msgstr "连接 MIDI"
+
+#: __init__.py:284
+msgctxt "Operator"
+msgid "Create Keyboard"
+msgstr "创建键盘"
+
+#: performance_ui.py:150
+msgctxt "Operator"
+msgid "Create Organ Manuals"
+msgstr "创建管风琴手键盘"
+
+#: performance_ui.py:261
+msgctxt "Operator"
+msgid "Create Score Animation"
+msgstr "创建乐谱动画"
+
+#: __init__.py:285
+msgctxt "Operator"
+msgid "Create a new labeled keyboard at the 3D cursor"
+msgstr "在 3D 光标处创建带标签的新键盘"
+
+#: performance_ui.py:151
+msgctxt "Operator"
+msgid "Create an organ stack using the current key dimensions; each manual remains independently editable"
+msgstr "使用当前琴键尺寸创建管风琴键盘组；每个手键盘仍可独立编辑"
+
+#: performance_ui.py:262
+msgctxt "Operator"
+msgid "Create native Press keyframes from the loaded score on every enabled routed keybed; retain prior actions"
+msgstr "从已加载的乐谱在所有启用的已路由键床上创建原生 Press 关键帧；保留先前的动作"
+
+#: __init__.py:469
+msgctxt "Operator"
+msgid "Disconnect / Finish Recording"
+msgstr "断开 / 结束录制"
+
+#: __init__.py:426
+msgctxt "Operator"
+msgid "Find MIDI keyboards connected to Windows"
+msgstr "查找连接到 Windows 的 MIDI 键盘"
+
+#: __init__.py:403
+msgctxt "Operator"
+msgid "Frame Keyboard"
+msgstr "框选键盘"
+
+#: performance_ui.py:471
+msgctxt "Operator"
+msgid "Import"
+msgstr "导入"
+
+#: performance_ui.py:202
+msgctxt "Operator"
+msgid "Import MIDI / MusicXML"
+msgstr "导入 MIDI / MusicXML"
+
+#: __init__.py:348
+msgctxt "Operator"
+msgid "Keyboard Range Preset"
+msgstr "键盘范围预设"
+
+#: __init__.py:500
+msgctxt "Operator"
+msgid "Learn Lowest Key"
+msgstr "学习最低键"
+
+#: performance_ui.py:294
+msgctxt "Operator"
+msgid "Play / Pause Animation"
+msgstr "播放 / 暂停动画"
+
+#: __init__.py:501
+msgctxt "Operator"
+msgid "Press your lowest physical key once to align its MIDI note with the model’s lowest key"
+msgstr "按下您实体键盘上最低的一个键，使其 MIDI 音符与模型的最低键对齐"
+
+#: performance_ui.py:339
+msgctxt "Operator"
+msgid "Recognize PDF / Photo"
+msgstr "识别 PDF / 照片"
+
+#: __init__.py:425
+msgctxt "Operator"
+msgid "Refresh MIDI Inputs"
+msgstr "刷新 MIDI 输入"
+
+#: __init__.py:482
+msgctxt "Operator"
+msgid "Release All Keys"
+msgstr "释放所有按键"
+
+#: __init__.py:483
+msgctxt "Operator"
+msgid "Release stuck MIDI notes immediately"
+msgstr "立即释放卡住的 MIDI 音符"
+
+#: __init__.py:382
+msgctxt "Operator"
+msgid "Remove KeyCraft Rig"
+msgstr "移除 KeyCraft 绑定"
+
+#: performance_ui.py:120
+msgctxt "Operator"
+msgid "Remove Keybed from Routing"
+msgstr "从路由中移除键床"
+
+#: __init__.py:383
+msgctxt "Operator"
+msgid "Remove the imported-key pivot rig and restore original parenting; key meshes are kept"
+msgstr "移除导入键的轴心绑定并恢复原始父级关系；保留按键网格"
+
+#: performance_ui.py:182
+msgctxt "Operator"
+msgid "Reposition the selected organ’s keybed roots without rebuilding their keys"
+msgstr "重新定位所选管风琴的键床根节点，而不重建其按键"
+
+#: performance_ui.py:470
+msgctxt "Operator"
+msgid "Review"
+msgstr "审阅"
+
+#: __init__.py:361
+msgctxt "Operator"
+msgid "Rig Selected Keys"
+msgstr "为所选按键绑定"
+
+#: performance_ui.py:220
+msgctxt "Operator"
+msgid "Score Notes and Warnings"
+msgstr "乐谱音符与警告"
+
+#: __init__.py:328
+msgctxt "Operator"
+msgid "Select a KeyCraft key or its root to load that keyboard into this panel"
+msgstr "选择 KeyCraft 按键或其根节点，以将该键盘加载到此面板"
+
+#: __init__.py:404
+msgctxt "Operator"
+msgid "Select and frame the target keyboard in the 3D viewport"
+msgstr "在 3D 视图中选择并框选目标键盘"
+
+#: performance_ui.py:135
+msgctxt "Operator"
+msgid "Set the next build to C2–C7 waterfall keys; current geometry is unchanged"
+msgstr "将下一次构建设为 C2–C7 瀑布式按键；当前几何体不变"
+
+#: __init__.py:306
+msgctxt "Operator"
+msgid "Update Keyboard"
+msgstr "更新键盘"
+
+#: __init__.py:327
+msgctxt "Operator"
+msgid "Use Selected Keyboard"
+msgstr "使用所选键盘"

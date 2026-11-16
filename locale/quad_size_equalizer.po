@@ -1,0 +1,358 @@
+# perfect-chinese: 1
+# id: quad_size_equalizer
+# kind: addon
+# module: bl_ext.blender_org.quad_size_equalizer
+# name: Quad Size Equalizer (Community)
+# name_zh: 四边面尺寸均衡社区版
+# translator: KeshiMiao
+# category: Mesh
+# supported_versions: >=5.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:619
+msgid "Added QSE Fine Displacement. Pattern Scale / Fine Amount / Displacement are on the modifier."
+msgstr "已添加 QSE 精细置换。图案缩放 / 精细量 / 置换在修改器上。"
+
+#: __init__.py:339
+msgid "After equalizing, convert every face to triangles. Best for displacement and cloth; keep off if you still want quads"
+msgstr "均衡后将所有面转换为三角面。最适合置换和布料；若仍想保留四边面请关闭"
+
+#: __init__.py:290
+msgid "Aim for the shortest edges (ignores the smallest 2% as outliers)"
+msgstr "以最短边为目标（忽略最小的 2% 作为离群值）"
+
+#: __init__.py:4
+msgid "Community edition: subdivide large quads until they match the smaller ones, without changing the object's shape and without T-junctions. Mesh tool — run after Subdivision / Bevel, before Displace or cloth."
+msgstr "社区版：细分较大的四边面直至与较小的面匹配，不改变物体形状且不产生 T 形接点。网格工具 — 在细分 / 倒角之后、置换或布料之前运行。"
+
+#: __init__.py:326
+msgid "Each pass halves remaining long edges. 6 = up to 64 splits per edge"
+msgstr "每次迭代将剩余长边减半。6 = 每条边最多 64 次分割"
+
+#: __init__.py:303
+msgid "Edges longer than this percentile (times tolerance) are split. Lower = denser, closer to the smallest quads"
+msgstr "长于此百分位的边（乘以容差）会被分割。数值越低 = 越密集，越接近最小的四边面"
+
+#: __init__.py:318
+msgid "Edges may stay this many times longer than the target. 1.0 is strict, 1.3 is a good default"
+msgstr "边可保持为目标长度的这么多倍。1.0 为严格，1.3 是合适的默认值"
+
+#: __init__.py:376
+msgid "Equalize after Subdivision/Bevel and apply those modifiers. Displace and other later modifiers stay on the object"
+msgstr "在细分/倒角后均衡并应用这些修改器。置换及其他后续修改器保留在物体上"
+
+#: __init__.py:359
+msgid "Equalize faces outside the vertex group instead"
+msgstr "改为均衡顶点组之外的面"
+
+#: __init__.py:617
+msgid "Geometry Nodes test displacement already on the object"
+msgstr "物体上已有的几何节点测试置换"
+
+#: __init__.py:354
+#: __init__.py:752
+msgid "Group"
+msgstr "组"
+
+#: __init__.py:280
+msgid "How the target edge length is chosen"
+msgstr "目标边长如何选取"
+
+#: __init__.py:359
+#: __init__.py:754
+msgid "Invert"
+msgstr "反转"
+
+#: __init__.py:326
+#: __init__.py:741
+msgid "Iterations"
+msgstr "迭代次数"
+
+#: __init__.py:722
+msgid "Keep the equalized mesh, then remove it."
+msgstr "保留均衡后的网格，然后再将其移除。"
+
+#: __init__.py:383
+msgid "Last Faces"
+msgstr "上次面数"
+
+#: __init__.py:385
+msgid "Last Max Edge"
+msgstr "上次最大边"
+
+#: __init__.py:384
+msgid "Last Min Edge"
+msgstr "上次最小边"
+
+#: __init__.py:382
+msgid "Last Ratio"
+msgstr "上次比率"
+
+#: __init__.py:387
+msgid "Last Status"
+msgstr "上次状态"
+
+#: __init__.py:386
+msgid "Last Target"
+msgstr "上次目标"
+
+#: __init__.py:737
+msgid "Length"
+msgstr "长度"
+
+#: __init__.py:271
+msgid "Lower Iterations or Vertex Limit if Blender felt stuck."
+msgstr "如果 Blender 卡顿，请降低迭代次数或顶点上限。"
+
+#: __init__.py:295
+msgid "Manual Length"
+msgstr "手动长度"
+
+#: __init__.py:284
+msgid "Match Smaller Faces"
+msgstr "匹配较小面"
+
+#: __init__.py:290
+msgid "Match Smallest Edges"
+msgstr "匹配最小边"
+
+#: __init__.py:4
+msgid "Mesh"
+msgstr "网格"
+
+#: __init__.py:280
+#: __init__.py:733
+msgid "Mode"
+msgstr "模式"
+
+#: __init__.py:428
+#: __init__.py:470
+msgid "Nothing to equalize"
+msgstr "没有可均衡的内容"
+
+#: __init__.py:721
+msgid "Old Geometry Nodes placeholder"
+msgstr "旧的几何节点占位符"
+
+#: __init__.py:546
+msgid "Old Geometry Nodes placeholder removed"
+msgstr "已移除旧的几何节点占位符"
+
+#: __init__.py:354
+msgid "Only equalize faces in this vertex group. Empty = whole mesh"
+msgstr "仅均衡此顶点组中的面。留空 = 整个网格"
+
+#: __init__.py:303
+#: __init__.py:735
+msgid "Percentile"
+msgstr "百分位"
+
+#: __init__.py:806
+msgid "QSE"
+msgstr "QSE"
+
+#: __init__.py:786
+#: __init__.py:802
+msgid "Quad Size Equalizer"
+msgstr "四边面尺寸均衡器"
+
+#: __init__.py:4
+msgid "Quad Size Equalizer (Community)"
+msgstr "四边面尺寸均衡器（社区版）"
+
+#: __init__.py:364
+msgid "Relax on Surface"
+msgstr "在表面松弛"
+
+#: __init__.py:705
+msgid "Select at least one edge"
+msgstr "请至少选择一条边"
+
+#: __init__.py:651
+msgid "Select faces (or vertices) first"
+msgstr "请先选择面（或顶点）"
+
+#: __init__.py:364
+msgid "Slide vertices on the original surface after splitting to even leftover 2:1 jumps. Tiny shape change possible"
+msgstr "分割后在原始表面上滑动顶点，以抹平残留的 2:1 跳变。可能产生轻微形状变化"
+
+#: __init__.py:370
+msgid "Split edges longer than 2× the target and collapse edges shorter than 0.8× so quads stay closer to uniform size"
+msgstr "分割长于目标 2 倍的边，并塌陷短于 0.8 倍的边，使四边面尺寸更趋一致"
+
+#: __init__.py:345
+msgid "Stop refining beyond this many vertices. 0 = no limit. Type a larger value if the slider stops too early"
+msgstr "超过此顶点数后停止细化。0 = 不限制。若滑块过早停止，请输入更大的值"
+
+#: __init__.py:311
+msgid "Target Length"
+msgstr "目标长度"
+
+#: __init__.py:311
+msgid "Target edge length in scene units (Manual mode)"
+msgstr "以场景单位表示的目标边长（手动模式）"
+
+#: __init__.py:577
+msgid "Test material assigned (Displacement and Bump). Use Cycles; Displacement-only looks faceted and is unsupported in EEVEE."
+msgstr "已指定测试材质（置换和凹凸）。请使用 Cycles；仅用置换会显得有棱面，EEVEE 不支持。"
+
+#: __init__.py:269
+msgid "This can take a while and use a lot of RAM."
+msgstr "这可能需要一些时间并占用大量内存。"
+
+#: __init__.py:318
+#: __init__.py:740
+msgid "Tolerance"
+msgstr "容差"
+
+#: __init__.py:339
+msgid "Triangulate All"
+msgstr "全部三角化"
+
+#: __init__.py:333
+msgid "Triangulate N-gons"
+msgstr "三角化多边面"
+
+#: __init__.py:333
+msgid "Triangulate n-gons (caps, poles) so they can be refined. Off keeps caps intact and avoids sliver triangles"
+msgstr "三角化多边面（封盖、极点）以便细化。关闭则保持封盖完整并避免细长三角形"
+
+#: __init__.py:370
+msgid "Uniform Size"
+msgstr "统一尺寸"
+
+#: __init__.py:376
+msgid "Use Modifiers"
+msgstr "使用修改器"
+
+#: __init__.py:295
+msgid "Use a fixed target edge length in scene units"
+msgstr "使用以场景单位表示的固定目标边长"
+
+#: __init__.py:284
+msgid "Use a percentile of current edge lengths so tiny outliers do not force the whole mesh to explode"
+msgstr "使用当前边长的百分位，避免极小的离群值导致整个网格爆炸式细分"
+
+#: __init__.py:345
+#: __init__.py:742
+msgid "Vertex Limit"
+msgstr "顶点上限"
+
+#: __init__.py:587
+msgctxt "Operator"
+msgid "Add Displacement Test (Geometry Nodes)"
+msgstr "添加置换测试（几何节点）"
+
+#: __init__.py:552
+msgctxt "Operator"
+msgid "Add Displacement Test Material"
+msgstr "添加置换测试材质"
+
+#: __init__.py:588
+msgctxt "Operator"
+msgid "Add a Geometry Nodes modifier with the same fine Voronoi/Noise/Ridge pattern as the test material. Vertices move along normals so you can check topology in the viewport"
+msgstr "添加带与测试材质相同的精细 Voronoi/噪波/脊线图案的几何节点修改器。顶点沿法线移动，便于在视图中检查拓扑"
+
+#: __init__.py:761
+msgctxt "Operator"
+msgid "Apply"
+msgstr "应用"
+
+#: __init__.py:392
+msgctxt "Operator"
+msgid "Apply Quad Size Equalizer"
+msgstr "应用四边面尺寸均衡器"
+
+#: __init__.py:506
+msgctxt "Operator"
+msgid "Apply the leftover Geometry Nodes placeholder onto the mesh, then remove it"
+msgstr "将残留的几何节点占位符应用到网格上，然后将其移除"
+
+#: __init__.py:553
+msgctxt "Operator"
+msgid "Assign a fine procedural displacement material. Use Cycles rendered view — uneven topology shows as blotchy detail"
+msgstr "指定一个精细的程序化置换材质。使用 Cycles 渲染视图——不均匀的拓扑会显现为斑块细节"
+
+#: __init__.py:669
+msgctxt "Operator"
+msgid "Clear QSE Selection"
+msgstr "清除 QSE 选择"
+
+#: __init__.py:441
+msgctxt "Operator"
+msgid "Create a new object with the equalized mesh. The original stays unchanged"
+msgstr "用均衡后的网格创建新物体。原物体保持不变"
+
+#: __init__.py:630
+msgctxt "Operator"
+msgid "Create vertex group 'QSE' from selected faces and only equalize those"
+msgstr "从选中面创建顶点组「QSE」，仅均衡这些面"
+
+#: __init__.py:756
+msgctxt "Operator"
+msgid "Edges"
+msgstr "边"
+
+#: __init__.py:670
+msgctxt "Operator"
+msgid "Equalize the whole mesh again"
+msgstr "再次均衡整个网格"
+
+#: __init__.py:440
+msgctxt "Operator"
+msgid "Equalize to Copy"
+msgstr "均衡到副本"
+
+#: __init__.py:755
+msgctxt "Operator"
+msgid "Faces"
+msgstr "面"
+
+#: __init__.py:770
+msgctxt "Operator"
+msgid "GN Displace"
+msgstr "几何节点置换"
+
+#: __init__.py:723
+msgctxt "Operator"
+msgid "Keep Result & Remove"
+msgstr "保留结果并移除"
+
+#: __init__.py:629
+msgctxt "Operator"
+msgid "QSE: Faces to Vertex Group"
+msgstr "QSE：面转顶点组"
+
+#: __init__.py:687
+msgctxt "Operator"
+msgid "QSE: Selected Edge as Target"
+msgstr "QSE：以选中边为目标"
+
+#: __init__.py:505
+msgctxt "Operator"
+msgid "Remove Old Geometry Nodes"
+msgstr "移除旧的几何节点"
+
+#: __init__.py:765
+msgctxt "Operator"
+msgid "Test Material"
+msgstr "测试材质"
+
+#: __init__.py:762
+msgctxt "Operator"
+msgid "To Copy"
+msgstr "到副本"
+
+#: __init__.py:688
+msgctxt "Operator"
+msgid "Use the shortest selected edge as the target length (Manual mode)"
+msgstr "使用最短的选中边作为目标长度（手动模式）"
+
+#: __init__.py:393
+msgctxt "Operator"
+msgid "Write equalized topology onto this mesh. Enable Use Modifiers to include Subdivision/Bevel first"
+msgstr "将均衡后的拓扑写入此网格。先启用「使用修改器」以包含细分/倒角"

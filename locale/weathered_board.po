@@ -1,0 +1,585 @@
+# perfect-chinese: 1
+# id: weathered_board
+# kind: addon
+# module: bl_ext.blender_org.weathered_board
+# name: Weathered Board
+# name_zh: 风化木板
+# translator: KeshiMiao
+# category: Add Mesh
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: ui_panel.py:260
+msgid "."
+msgstr "."
+
+#: operators.py:282
+msgid "0 = sharp corner, 1 = as round as the board allows"
+msgstr "0 = 尖角，1 = 板材允许的最大圆角"
+
+#: operators.py:276
+msgid "All 12 edges"
+msgstr "全部 12 条边"
+
+#: operators.py:276
+msgid "All Edges"
+msgstr "所有边"
+
+#: properties.py:296
+msgid "Amount of cracks (checks): straight splits along the long faces and radial cracks on the ends. 0 = none; 1 = about 6 per metre and 4 per end"
+msgstr "裂缝（干裂）数量：长面上的直线开裂以及端部的径向裂纹。0 = 无；1 = 每米约 6 条、每端约 4 条"
+
+#: properties.py:373
+msgid "Applying a preset also sets Length, Width and Thickness to the preset's board. Off = keep your size and take only the look"
+msgstr "应用预设时也会把长度、宽度和厚度设为该预设的板材尺寸。关闭 = 保持你的尺寸，只采用外观"
+
+#: properties.py:338
+msgid "Auto Detail Boost"
+msgstr "自动细节增强"
+
+#: properties.py:38
+msgid "Back"
+msgstr "背面"
+
+#: properties.py:36
+msgid "Bottom"
+msgstr "底面"
+
+#: operators.py:556
+msgid "Built-in presets can't be removed."
+msgstr "内置预设无法删除。"
+
+#: properties.py:283
+msgid "Carving depth on the two ends, in full-size mm, when Separate End Depth is on"
+msgstr "启用“分离端部深度”时，两端的雕刻深度，单位：实际尺寸 mm"
+
+#: properties.py:38
+msgid "Centre the end rings on the back edge of each end"
+msgstr "将端部年轮的中心对齐到每个端部的后边"
+
+#: properties.py:36
+msgid "Centre the end rings on the bottom edge of each end"
+msgstr "将端部年轮的中心对齐到每个端部的底边"
+
+#: properties.py:37
+msgid "Centre the end rings on the front edge of each end"
+msgstr "将端部年轮的中心对齐到每个端部的前边"
+
+#: properties.py:35
+msgid "Centre the end rings on the top edge of each end"
+msgstr "将端部年轮的中心对齐到每个端部的顶边"
+
+#: properties.py:296
+msgid "Checks"
+msgstr "干裂"
+
+#: properties.py:367
+msgid "Colour boards by their pattern in the viewport: light earlywood, dark ridges, darker knots and cracks, grey for faces that won't be weathered"
+msgstr "在视图中按图案为板材着色：浅色早材、深色脊线、更深的节疤与裂纹，不会风化的面显示为灰色"
+
+#: properties.py:355
+msgid "Count"
+msgstr "数量"
+
+#: properties.py:235
+msgid "Depth (mm)"
+msgstr "深度（mm）"
+
+#: properties.py:323
+#: ui_panel.py:230
+msgid "Detail Boost"
+msgstr "细节增强"
+
+#: ui_panel.py:230
+msgid "Detail Boost (min)"
+msgstr "细节增强（最小值）"
+
+#: properties.py:265
+msgid "Distance between the semicircular rings on the board ends, in full-size mm"
+msgstr "板材端部半圆年轮之间的距离，单位：实际尺寸 mm"
+
+#: properties.py:34
+msgid "Each end picks its own edge, usually the top or bottom, so the arcs span the width"
+msgstr "每个端部自行选择边，通常是顶边或底边，使弧线横跨宽度"
+
+#: properties.py:240
+msgid "Edge Margin (mm)"
+msgstr "边缘边距（mm）"
+
+#: ui_panel.py:138
+msgid "Edge Rounding"
+msgstr "边缘圆角"
+
+#: operators.py:272
+msgid "Edges"
+msgstr "边"
+
+#: operators.py:278
+msgid "End A Edges"
+msgstr "端部 A 边"
+
+#: operators.py:279
+msgid "End B Edges"
+msgstr "端部 B 边"
+
+#: properties.py:269
+msgid "End Centre"
+msgstr "端部中心"
+
+#: properties.py:283
+msgid "End Depth (mm)"
+msgstr "端部深度（mm）"
+
+#: properties.py:265
+msgid "End Ring Spacing (mm)"
+msgstr "端部年轮间距（mm）"
+
+#: properties.py:273
+msgid "End Wobble"
+msgstr "端部波动"
+
+#: ui_panel.py:198
+msgid "Ends"
+msgstr "端部"
+
+#: properties.py:323
+msgid "Exaggerate ring spacing and carving depth by this factor, so the grain shows at small scales. With Auto Detail Boost on, this is the minimum"
+msgstr "用此系数放大年轮间距和雕刻深度，使木纹在小尺度下也可见。开启自动细节增强时，此值为最小值"
+
+#: properties.py:328
+msgid "Export a much lighter mesh with the same shape, for FreeCAD or other CAD. The shape moves by at most about 0.01 mm, well below what a printer shows"
+msgstr "导出形状相同但轻得多的网格，供 FreeCAD 或其他 CAD 使用。形状最多偏移约 0.01 mm，远低于打印机能呈现的程度"
+
+#: properties.py:31
+#: core/presets.py:52
+msgid "FDM"
+msgstr "FDM"
+
+#: ui_panel.py:121
+msgid "Faces to weather"
+msgstr "要风化的面"
+
+#: properties.py:287
+msgid "Fewest knots per board. Each board picks a number between Min and Max. The grain flows around knots and their hard cores stand proud"
+msgstr "每块板的最少节疤数。每块板会在最小值和最大值之间取一个数。木纹绕过节疤，其硬核凸起"
+
+#: properties.py:31
+msgid "Filament printer: sets Resolution to 0.1 mm and Smallest Feature to 0.4 mm"
+msgstr "线材打印机：将分辨率设为 0.1 mm，最小特征设为 0.4 mm"
+
+#: properties.py:37
+msgid "Front"
+msgstr "正面"
+
+#: properties.py:201
+msgid "Full-size actual thickness, before scaling. A nominal 2x is 1.5 in thick, a nominal 1x is 0.75 in"
+msgstr "缩放前的实际厚度（实际尺寸）。公称 2x 的厚度为 1.5 英寸，公称 1x 的厚度为 0.75 英寸"
+
+#: properties.py:196
+msgid "Full-size actual width, before scaling. Use the actual size, not the nominal one: a nominal 1x6 is 5.5 in wide"
+msgstr "缩放前的实际宽度（实际尺寸）。请使用实际尺寸而非公称尺寸：公称 1x6 的宽度为 5.5 英寸"
+
+#: properties.py:192
+msgid "Full-size length of the real board, before scaling (e.g. 96 for an 8 ft board)"
+msgstr "缩放前真实板材的实际长度（例如 8 英尺板为 96）"
+
+#: properties.py:278
+msgid "Give the ends their own carving depth instead of using Depth. End grain often weathers more deeply than the faces"
+msgstr "让端部使用单独的雕刻深度，而不是使用“深度”。端面木纹通常比板面风化得更深"
+
+#: operators.py:519
+msgid "Give the preset a name."
+msgstr "为预设命名。"
+
+#: properties.py:260
+msgid "Grain Waviness"
+msgstr "木纹波动"
+
+#: properties.py:273
+msgid "Hand-made unevenness in the end rings. 0 = perfect, evenly spaced semicircles; 1 = up to half a ring of wobble"
+msgstr "端部年轮的手工不均匀度。0 = 完美、等距的半圆；1 = 最多半个年轮的波动"
+
+#: properties.py:235
+msgid "How deep the worn grooves between the grain ridges go, in full-size mm. Detail Boost multiplies it; it never goes past a quarter of the thickness"
+msgstr "木纹脊线之间磨损凹槽的深度，单位：实际尺寸 mm。细节增强会乘以该值；深度不会超过厚度的四分之一"
+
+#: properties.py:355
+msgid "How many boards Add Weathered Board creates at once, side by side, each with its own pattern"
+msgstr "“添加风化板”一次并排创建多少块板材，每块都有各自的图案"
+
+#: properties.py:260
+msgid "How much the grain lines on the long faces wander. 0 = smooth, regular grain; 1 = wavy, irregular grain"
+msgstr "长面上木纹线的游走程度。0 = 平滑、规则的木纹；1 = 波浪状、不规则的木纹"
+
+#: properties.py:301
+msgid "How unevenly the wear varies over the board. 0 = even wear everywhere; 1 = some sheltered areas barely worn at all"
+msgstr "板材上磨损变化的不均匀程度。0 = 各处磨损均匀；1 = 一些遮蔽区域几乎不磨损"
+
+#: core/presets.py:52
+msgid "IN"
+msgstr "IN"
+
+#: properties.py:26
+msgid "Inches"
+msgstr "英寸"
+
+#: properties.py:292
+msgid "Knots Max"
+msgstr "节疤最大值"
+
+#: properties.py:287
+msgid "Knots Min"
+msgstr "节疤最小值"
+
+#: ui_panel.py:251
+msgid "Last check"
+msgstr "上次检查"
+
+#: properties.py:192
+msgid "Length"
+msgstr "长度"
+
+#: properties.py:26
+msgid "Length, width and thickness are entered in inches"
+msgstr "长度、宽度和厚度以英寸输入"
+
+#: properties.py:27
+msgid "Length, width and thickness are entered in millimetres"
+msgstr "长度、宽度和厚度以毫米输入"
+
+#: properties.py:362
+msgid "Live Update"
+msgstr "实时更新"
+
+#: properties.py:350
+msgid "Lock Seed"
+msgstr "锁定种子"
+
+#: operators.py:277
+msgid "Long Edges"
+msgstr "长边"
+
+#: ui_panel.py:188
+msgid "Long faces"
+msgstr "长面"
+
+#: core/presets.py:52
+msgid "MM"
+msgstr "毫米"
+
+#: properties.py:333
+msgid "Max Triangles"
+msgstr "最大三角形数"
+
+#: properties.py:27
+msgid "Millimetres"
+msgstr "毫米"
+
+#: properties.py:206
+msgid "Model scale as 1:N. The full-size board is divided by N, e.g. 48 for O scale (1:48), 87 for HO (1:87), 1 for full size"
+msgstr "模型比例 1:N。实际尺寸的木板会除以 N，例如 O 比例 (1:48) 用 48，HO (1:87) 用 87，实际尺寸用 1。"
+
+#: properties.py:292
+msgid "Most knots per board. Set Min and Max to 0 for no knots"
+msgstr "每块木板上的最大节疤数。将最小值和最大值设为 0 即可不生成节疤。"
+
+#: operators.py:504
+msgid "Name"
+msgstr "名称"
+
+#: operators.py:504
+msgid "Name for the preset. Saving under an existing name replaces it"
+msgstr "预设的名称。使用已有名称保存会替换该预设。"
+
+#: operators.py:462
+msgid "Name of the preset to apply"
+msgstr "要应用的预设名称"
+
+#: operators.py:541
+msgid "Name of the saved preset to delete"
+msgstr "要删除的已保存预设的名称"
+
+#: properties.py:245
+msgid "Narrowest growth ring on the long faces, in full-size mm. Smaller = finer, denser grain lines"
+msgstr "长面上最窄的生长轮，以实际尺寸毫米为单位。更小 = 木纹线更细、更密。"
+
+#: ui_panel.py:89
+msgid "New board settings"
+msgstr "新木板设置"
+
+#: properties.py:345
+msgid "Number that picks this board's random pattern. The same seed and settings always give the same board; New Seed picks a fresh one"
+msgstr "用于选出该木板随机图案的数字。相同的种子和设置始终生成相同的木板；新种子会随机选一个新种子。"
+
+#: operators.py:369
+msgid "One File per Board"
+msgstr "每块木板一个文件"
+
+#: properties.py:301
+msgid "Patchiness"
+msgstr "斑驳度"
+
+#: operators.py:462
+#: operators.py:541
+msgid "Preset"
+msgstr "预设"
+
+#: ui_panel.py:95
+#: ui_panel.py:266
+msgid "Presets"
+msgstr "预设"
+
+#: properties.py:373
+msgid "Presets Set Size"
+msgstr "预设集大小"
+
+#: properties.py:308
+msgid "Printer"
+msgstr "打印机"
+
+#: ui_panel.py:211
+msgid "Printing"
+msgstr "打印"
+
+#: core/presets.py:52
+msgid "RANDOM"
+msgstr "随机"
+
+#: core/presets.py:52
+msgid "RESIN"
+msgstr "树脂"
+
+#: properties.py:338
+msgid "Raise the boost just enough that the rings are big enough to carve and print at this scale. Off = use Detail Boost exactly"
+msgstr "提高增强值，刚好让年轮大到足以在此比例下雕刻和打印。关闭 = 精确使用细节增强。"
+
+#: properties.py:34
+msgid "Random"
+msgstr "随机"
+
+#: ui_panel.py:127
+msgid "Randomness"
+msgstr "随机度"
+
+#: properties.py:362
+msgid "Rebuild the selected board automatically shortly after you change a setting. Turn off to change several settings, then click Regenerate"
+msgstr "更改设置后稍后自动重建选中的木板。关闭后可更改多项设置，然后点击重新生成。"
+
+#: ui_panel.py:288
+msgid "Remove Saved Preset"
+msgstr "移除已保存预设"
+
+#: properties.py:30
+msgid "Resin"
+msgstr "树脂"
+
+#: properties.py:30
+msgid "Resin printer: sets Resolution to 0.05 mm and Smallest Feature to 0.1 mm"
+msgstr "树脂打印机：将分辨率设为 0.05 毫米，最小特征设为 0.1 毫米。"
+
+#: properties.py:313
+msgid "Resolution (mm)"
+msgstr "分辨率（毫米）"
+
+#: properties.py:255
+msgid "Ridge Sharpness"
+msgstr "脊线锐度"
+
+#: properties.py:250
+msgid "Ring Spacing Max (mm)"
+msgstr "年轮间距最大值（毫米）"
+
+#: properties.py:245
+msgid "Ring Spacing Min (mm)"
+msgstr "年轮间距最小值（毫米）"
+
+#: ui_panel.py:65
+msgid "Rings too fine for this Resolution:"
+msgstr "年轮相对于此分辨率过细："
+
+#: operators.py:282
+msgid "Rounding"
+msgstr "圆角"
+
+#: properties.py:206
+msgid "Scale 1:"
+msgstr "比例 1："
+
+#: properties.py:345
+msgid "Seed"
+msgstr "种子"
+
+#: ui_panel.py:89
+msgid "Selected board"
+msgstr "选中的木板"
+
+#: properties.py:278
+msgid "Separate End Depth"
+msgstr "分开端部深度"
+
+#: properties.py:255
+msgid "Shape of the grain ridges. 0 = soft, rolling waves; 1 = narrow, crisp ridges between wide, scooped grooves"
+msgstr "木纹脊线的形状。0 = 柔和起伏的波浪；1 = 宽阔凹槽之间有窄而清晰的脊线。"
+
+#: properties.py:367
+msgid "Show Grain Pattern"
+msgstr "显示木纹图案"
+
+#: properties.py:328
+msgid "Simplify Mesh"
+msgstr "简化网格"
+
+#: ui_panel.py:111
+msgid "Size (full size)"
+msgstr "尺寸（实际尺寸）"
+
+#: properties.py:318
+msgid "Smallest Feature (mm)"
+msgstr "最小特征（毫米）"
+
+#: properties.py:318
+msgid "Smallest detail your printer can reliably reproduce, in mm. Used by Auto Detail Boost and Check Printability"
+msgstr "打印机可稳定再现的最小细节，单位为毫米。用于自动细节增强和检查可打印性。"
+
+#: properties.py:313
+msgid "Spacing between mesh points on the printed board, in mm. Smaller = finer detail but a heavier mesh and slower builds"
+msgstr "打印木板上网格点之间的间距，单位为毫米。更小 = 细节更精细，但网格更重、构建更慢。"
+
+#: core/presets.py:52
+msgid "TOP"
+msgstr "顶部"
+
+#: operators.py:278
+msgid "The 4 edges around end A (the left end)"
+msgstr "端 A（左端）周围的 4 条边"
+
+#: operators.py:279
+msgid "The 4 edges around end B (the right end)"
+msgstr "端 B（右端）周围的 4 条边"
+
+#: operators.py:277
+msgid "The 4 edges that run the length of the board"
+msgstr "沿木板长度方向的 4 条边"
+
+#: properties.py:379
+msgid "The preset last applied to these settings"
+msgstr "最后应用于这些设置的预设"
+
+#: properties.py:201
+msgid "Thickness"
+msgstr "厚度"
+
+#: properties.py:35
+msgid "Top"
+msgstr "顶部"
+
+#: properties.py:333
+msgid "Triangle count to simplify down to. On an 8 ft board 20,000 stays within about 0.009 mm of the full mesh; 10,000 (within 0.015 mm) converts faster"
+msgstr "简化后的三角形数量。在 8 英尺木板上，20,000 与完整网格的偏差约在 0.009 毫米以内；10,000（偏差在 0.015 毫米以内）转换更快。"
+
+#: properties.py:308
+msgid "Type of 3D printer. Choosing one sets sensible Resolution and Smallest Feature values, which you can then adjust"
+msgstr "3D 打印机类型。选择一种会设置合理的分辨率和最小特征值，之后你可以再调整。"
+
+#: properties.py:188
+msgid "Units"
+msgstr "单位"
+
+#: properties.py:188
+msgid "Units for Length, Width and Thickness. Weathering settings are always in millimetres"
+msgstr "长度、宽度和厚度的单位。风化设置始终以毫米为单位。"
+
+#: properties.py:350
+msgid "Use the seed above for new boards instead of a random one, to repeat a board you liked"
+msgstr "为新木板使用上方的种子而非随机种子，以重现你喜欢的木板。"
+
+#: ui_panel.py:72
+#: ui_panel.py:76
+msgid "Weathered Board"
+msgstr "风化木板"
+
+#: ui_panel.py:167
+msgid "Weathering"
+msgstr "风化"
+
+#: properties.py:269
+msgid "Which edge of each end the semicircular rings are centred on"
+msgstr "每端半圆环所居中的边"
+
+#: operators.py:272
+msgid "Which edges to set"
+msgstr "要设置的边"
+
+#: properties.py:250
+msgid "Widest growth ring on the long faces, in full-size mm. Rings vary between Min and Max, like fast and slow growth years"
+msgstr "长面上最宽的生长轮，以实际尺寸毫米计。生长轮在最小值与最大值之间变化，如同快生年与慢生年"
+
+#: properties.py:196
+msgid "Width"
+msgstr "宽度"
+
+#: properties.py:240
+msgid "Width of a smooth, unworn border around each weathered face, in full-size mm. 0 = the wear runs right out over the edges"
+msgstr "每个风化面周围平滑未磨损边框的宽度，以实际尺寸毫米计。0 = 磨损一直延伸到边缘"
+
+#: operators.py:369
+msgid "Write each board to its own file, named after the file name chosen plus the board's name"
+msgstr "将每块木板写入单独的文件，文件名由所选文件名加木板名称组成"
+
+#: ui_panel.py:66
+msgid "carving fades. Use Auto Detail Boost."
+msgstr "雕刻渐隐。使用自动细节增强。"
+
+#: operators.py:171
+msgctxt "Operator"
+msgid "Add Weathered Board"
+msgstr "添加风化木板"
+
+#: operators.py:459
+msgctxt "Operator"
+msgid "Apply Preset"
+msgstr "应用预设"
+
+#: operators.py:330
+msgctxt "Operator"
+msgid "Check Printability"
+msgstr "检查可打印性"
+
+#: operators.py:366
+msgctxt "Operator"
+msgid "Export STL"
+msgstr "导出 STL"
+
+#: operators.py:237
+msgctxt "Operator"
+msgid "New Seed"
+msgstr "新建随机种子"
+
+#: operators.py:216
+msgctxt "Operator"
+msgid "Regenerate"
+msgstr "重新生成"
+
+#: operators.py:539
+msgctxt "Operator"
+msgid "Remove Preset"
+msgstr "移除预设"
+
+#: operators.py:502
+msgctxt "Operator"
+msgid "Save Preset"
+msgstr "保存预设"
+
+#: operators.py:269
+msgctxt "Operator"
+msgid "Set Edge Rounding"
+msgstr "设置边缘倒圆"
+
+#: ui_panel.py:299
+msgctxt "Operator"
+msgid "Weathered Board"
+msgstr "风化木板"

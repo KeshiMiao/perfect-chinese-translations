@@ -1,0 +1,241 @@
+# perfect-chinese: 1
+# id: node_orthogonalizer
+# kind: addon
+# module: bl_ext.blender_org.node_orthogonalizer
+# name: Node Orthogonalizer
+# name_zh: 节点正交连线
+# translator: KeshiMiao
+# category: Node
+# supported_versions: >=5.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:1192
+msgid "Automatic All Nodes"
+msgstr "自动处理全部节点"
+
+#: __init__.py:1429
+msgid "Automatic Delay"
+msgstr "自动延迟"
+
+#: __init__.py:1198
+msgid "Automatic Invocation"
+msgstr "自动调用"
+
+#: __init__.py:1424
+msgid "Automatic Squaring"
+msgstr "自动直角化"
+
+#: __init__.py:1436
+msgid "Automatically Process All Nodes"
+msgstr "自动处理所有节点"
+
+#: __init__.py:23
+msgid "Automatically routes Blender node links with clean right-angle turns"
+msgstr "自动将 Blender 节点连线布设为整洁的直角转折"
+
+#: __init__.py:1424
+msgid "Automatically square selected noodles after nodes or links change"
+msgstr "节点或连线变化后，自动将选中的连线直角化"
+
+#: __init__.py:1244
+msgid "Choose a clear tree or a shorter-link compact layout"
+msgstr "选择清晰的树状布局，或连线更短的紧凑布局"
+
+#: __init__.py:1248
+msgid "Clear left-to-right dependency columns"
+msgstr "清晰的从左到右依赖列"
+
+#: __init__.py:1253
+msgid "Column Gap"
+msgstr "列间距"
+
+#: __init__.py:1249
+msgid "Compact"
+msgstr "紧凑"
+
+#: __init__.py:1267
+msgid "Create 90-Degree Routes"
+msgstr "创建 90 度路径"
+
+#: __init__.py:1187
+msgid "Distance which overlapping noodles from different node outputs will hopefully be separated by."
+msgstr "来自不同节点输出的重叠连线希望被分开的间距。"
+
+#: __init__.py:1253
+msgid "Horizontal space between dependency columns"
+msgstr "依赖列之间的水平间距"
+
+#: __init__.py:1177
+msgid "How off-axis a noodle must be before it is operated on."
+msgstr "连线偏离轴向多少后才会被处理。"
+
+#: __init__.py:1335
+msgid "I/O Gap"
+msgstr "I/O 间距"
+
+#: __init__.py:1192
+msgid "Internal flag used by automatic mode to process all linked nodes"
+msgstr "自动模式用于处理所有已连接节点的内部标志"
+
+#: __init__.py:1198
+msgid "Internal flag used to keep automatic edits lightweight"
+msgstr "用于保持自动编辑轻量的内部标志"
+
+#: __init__.py:1249
+msgid "Keep dependency columns closer to linked nodes"
+msgstr "让依赖列更贴近相连的节点"
+
+#: __init__.py:1244
+msgid "Layout"
+msgstr "布局"
+
+#: __init__.py:1328
+msgid "Link Margin"
+msgstr "连接边距"
+
+#: __init__.py:1182
+msgid "Maximum distance existing reroute nodes will be nudged to try to align them before adding new reroute nodes."
+msgstr "在添加新转接节点前，现有转接节点可被微调以尝试对齐的最大距离。"
+
+#: __init__.py:1335
+msgid "Minimum gap when multiple group interface nodes exist"
+msgstr "存在多个组接口节点时的最小间距"
+
+#: __init__.py:1382
+msgid "No active node tree"
+msgstr "没有活动的节点树"
+
+#: __init__.py:23
+msgid "Node"
+msgstr "节点"
+
+#: __init__.py:23
+#: __init__.py:1368
+msgid "Node Orthogonalizer"
+msgstr "节点直角化"
+
+#: __init__.py:1187
+msgid "Noodle Margin"
+msgstr "连线边距"
+
+#: __init__.py:1182
+msgid "Nudge Limit"
+msgstr "微调上限"
+
+#: __init__.py:1383
+msgid "Open a material, compositor, or geometry tree"
+msgstr "打开材质、合成器或几何节点树"
+
+#: __init__.py:1387
+msgid "Organize Layout"
+msgstr "整理布局"
+
+#: __init__.py:1267
+msgid "Orthogonalize links after arranging; disabled by default for large groups"
+msgstr "整理后将连线直角化；大型组默认禁用"
+
+#: __init__.py:1367
+msgid "Orthogonalizer"
+msgstr "直角化"
+
+#: __init__.py:1609
+msgid "Orthogonalizer Center Offset"
+msgstr "直角化中心偏移"
+
+#: __init__.py:1597
+msgid "Orthogonalizer Reroute"
+msgstr "直角化转接"
+
+#: __init__.py:1601
+msgid "Orthogonalizer X Lock"
+msgstr "直角化 X 轴锁定"
+
+#: __init__.py:1605
+msgid "Orthogonalizer Y Lock"
+msgstr "直角化 Y 轴锁定"
+
+#: __init__.py:1436
+msgid "Process the whole active tree after every edit; leave disabled for best performance on large node groups"
+msgstr "每次编辑后处理整个活动节点树；在大型节点组中保持禁用以获得最佳性能"
+
+#: __init__.py:1260
+msgid "Row Gap"
+msgstr "行间距"
+
+#: __init__.py:1429
+msgid "Seconds to wait after a change before squaring noodles"
+msgstr "更改后等待多少秒再将连线直角化"
+
+#: __init__.py:1292
+msgid "Select connected nodes or a frame before organizing this complex tree"
+msgstr "整理此复杂节点树前，请先选择相连的节点或框"
+
+#: __init__.py:1328
+msgid "Space between group interface nodes and their neighbours"
+msgstr "组接口节点与其相邻节点之间的间距"
+
+#: __init__.py:1357
+msgid "This tree has no linked Group Input or Output"
+msgstr "此节点树没有连接的组输入或组输出"
+
+#: __init__.py:1177
+msgid "Tolerance"
+msgstr "容差"
+
+#: __init__.py:1248
+msgid "Tree"
+msgstr "节点树"
+
+#: __init__.py:1260
+msgid "Vertical space between nodes in one column"
+msgstr "同一列中节点之间的垂直间距"
+
+#: __init__.py:1238
+msgctxt "Operator"
+msgid "Arrange selected connected nodes as a dependency tree; when fewer than two nodes are selected, arrange the active tree"
+msgstr "将选中的相连节点按依赖树排列；选中少于两个节点时，排列活动节点树"
+
+#: __init__.py:1393
+msgctxt "Operator"
+msgid "Compact Selected by Distance"
+msgstr "按距离紧凑排列所选"
+
+#: __init__.py:1404
+msgctxt "Operator"
+msgid "Create 90-Degree Routes"
+msgstr "创建 90 度路径"
+
+#: __init__.py:1172
+msgctxt "Operator"
+msgid "Forces all non-locked noodles connect to selected nodes to be         straight lines with right-angle connections where necessary"
+msgstr "强制所有连接到所选节点的未锁定连线成为直线，必要时使用直角连接"
+
+#: __init__.py:1323
+msgctxt "Operator"
+msgid "Move Group Input and Group Output beside the nodes they actually serve"
+msgstr "将组输入和组输出移动到其实际服务的节点旁边"
+
+#: __init__.py:1171
+msgctxt "Operator"
+msgid "Node Orthogonalize"
+msgstr "节点直角化"
+
+#: __init__.py:1322
+#: __init__.py:1398
+msgctxt "Operator"
+msgid "Optimize Group Input / Output"
+msgstr "优化组输入 / 输出"
+
+#: __init__.py:1237
+msgctxt "Operator"
+msgid "Organize Node Tree"
+msgstr "整理节点树"
+
+#: __init__.py:1388
+msgctxt "Operator"
+msgid "Tree Layout (Selected)"
+msgstr "树状布局（所选）"

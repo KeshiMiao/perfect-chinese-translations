@@ -1,0 +1,230 @@
+# perfect-chinese: 1
+# id: sync_ld
+# kind: addon
+# module: bl_ext.blender_org.sync_ld
+# name: Sync LD
+# name_zh: 镜头畸变同步
+# translator: KeshiMiao
+# category: Camera
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: properties.py:77
+msgid "Angular clipping margin in degrees"
+msgstr "角度裁剪边距（度）"
+
+#: properties.py:21
+msgid "Auto"
+msgstr "自动"
+
+#: ui.py:415
+msgid "Camera"
+msgstr "摄像机"
+
+#: properties.py:86
+msgid "Camera Fit Details"
+msgstr "摄像机拟合详情"
+
+#: properties.py:87
+msgid "Clip Fit Details"
+msgstr "影片剪辑拟合详情"
+
+#: ui.py:302
+msgid "Corner"
+msgstr "角点"
+
+#: properties.py:28
+msgid "Distorted"
+msgstr "畸变"
+
+#: properties.py:35
+#: properties.py:67
+msgid "Error"
+msgstr "错误"
+
+#: properties.py:89
+msgid "Error Vectors"
+msgstr "误差向量"
+
+#: properties.py:77
+msgid "FOV Margin"
+msgstr "视场边距"
+
+#: ui.py:382
+msgid "Fisheye Lens Polynomial"
+msgstr "鱼眼镜头多项式"
+
+#: properties.py:28
+msgid "Fisheye Lens Polynomial projection"
+msgstr "鱼眼镜头多项式投影"
+
+#: properties.py:23
+msgid "Fit to sensor height"
+msgstr "适配传感器高度"
+
+#: properties.py:22
+msgid "Fit to sensor width"
+msgstr "适配传感器宽度"
+
+#: properties.py:21
+msgid "Fit to the render aspect"
+msgstr "适配渲染宽高比"
+
+#: properties.py:88
+msgid "Heat Map"
+msgstr "热力图"
+
+#: properties.py:22
+msgid "Horizontal"
+msgstr "水平"
+
+#: ui.py:301
+msgid "Maximum"
+msgstr "最大值"
+
+#: ui.py:300
+msgid "Mean"
+msgstr "平均值"
+
+#: properties.py:51
+msgid "Movie Clip"
+msgstr "影片剪辑"
+
+#: properties.py:32
+msgid "No fitted projection is available"
+msgstr "没有可用的拟合投影"
+
+#: properties.py:32
+#: ui.py:427
+msgid "Not Synced"
+msgstr "未同步"
+
+#: properties.py:34
+msgid "Out of Sync"
+msgstr "不同步"
+
+#: ui.py:380
+msgid "Perspective"
+msgstr "透视"
+
+#: properties.py:27
+msgid "Perspective projection"
+msgstr "透视投影"
+
+#: ui.py:308
+msgid "Polynomial may fold over near the frame edge."
+msgstr "多项式可能在画面边缘附近折叠。"
+
+#: properties.py:56
+msgid "Projection"
+msgstr "投影"
+
+#: ui.py:299
+msgid "RMS"
+msgstr "RMS"
+
+#: properties.py:69
+msgid "Render Snapshot"
+msgstr "渲染快照"
+
+#: properties.py:71
+msgid "Sampling Grid"
+msgstr "采样网格"
+
+#: ui.py:358
+msgid "Source"
+msgstr "源"
+
+#: properties.py:85
+#: ui.py:390
+msgid "Source Details"
+msgstr "源详情"
+
+#: properties.py:68
+msgid "Source Snapshot"
+msgstr "源快照"
+
+#: properties.py:34
+msgid "Source calibration has changed"
+msgstr "源校准已更改"
+
+#: properties.py:33
+msgid "Source calibration matches the fitted projection"
+msgstr "源校准与拟合投影匹配"
+
+#: properties.py:61
+msgid "Status"
+msgstr "状态"
+
+#: ui.py:406
+msgid "Sync LD"
+msgstr "Sync LD"
+
+#: ui.py:342
+#: ui.py:402
+msgid "Sync Lens Distortion"
+msgstr "同步镜头畸变"
+
+#: properties.py:33
+msgid "Synced"
+msgstr "已同步"
+
+#: ui.py:369
+msgid "Tangential distortion is approximated."
+msgstr "切向畸变已近似处理。"
+
+#: properties.py:35
+msgid "The latest sync attempt failed"
+msgstr "最近一次同步尝试失败"
+
+#: properties.py:27
+msgid "Undistorted"
+msgstr "无畸变"
+
+#: properties.py:90
+msgid "Vector Scale"
+msgstr "向量缩放"
+
+#: properties.py:23
+msgid "Vertical"
+msgstr "垂直"
+
+#: ui.py:240
+msgctxt "Operator"
+msgid "Distorted"
+msgstr "畸变"
+
+#: operators.py:182
+msgctxt "Operator"
+msgid "Fit the selected MovieClip calibration to this camera"
+msgstr "将所选影片剪辑校准拟合到当前摄像机"
+
+#: operators.py:210
+msgctxt "Operator"
+msgid "Set Projection"
+msgstr "设置投影"
+
+#: operators.py:211
+msgctxt "Operator"
+msgid "Switch between the stored projection states"
+msgstr "在已存储的投影状态之间切换"
+
+#: operators.py:181
+#: operators.py:229
+msgctxt "Operator"
+msgid "Sync Lens Distortion"
+msgstr "同步镜头畸变"
+
+#: ui.py:234
+msgctxt "Operator"
+msgid "Undistorted"
+msgstr "无畸变"
+
+#: operators.py:230
+msgctxt "Operator"
+msgid "Use the active clip and synchronize the scene camera"
+msgstr "使用活动剪辑并同步场景摄像机"

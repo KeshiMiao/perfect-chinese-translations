@@ -1,0 +1,791 @@
+# perfect-chinese: 1
+# id: nodot_names
+# kind: addon
+# module: bl_ext.blender_org.nodot_names
+# name: NoDot Names
+# name_zh: 命名规范
+# translator: KeshiMiao
+# category: Pipeline
+# supported_versions: >=4.5.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: NoDot_Names/ui.py:263
+msgid "Active naming convention preset"
+msgstr "当前命名规范预设"
+
+#: NoDot_Names/__init__.py:952
+#: NoDot_Names/ui.py:171
+msgid "Affix Tools"
+msgstr "词缀工具"
+
+#: NoDot_Names/__init__.py:864
+msgid "After Number"
+msgstr "编号之后"
+
+#: NoDot_Names/__init__.py:856
+msgid "After Preset Prefix"
+msgstr "预设前缀之后"
+
+#: NoDot_Names/__init__.py:848
+#: NoDot_Names/__init__.py:905
+msgid "All"
+msgstr "全部"
+
+#: NoDot_Names/__init__.py:905
+msgid "All datablocks"
+msgstr "所有数据块"
+
+#: NoDot_Names/__init__.py:848
+msgid "All objects in file"
+msgstr "文件中的所有物体"
+
+#: NoDot_Names/ops.py:113
+msgid "Apply both prefix and suffix"
+msgstr "同时应用前缀和后缀"
+
+#: NoDot_Names/ops.py:111
+msgid "Apply only prefix"
+msgstr "仅应用前缀"
+
+#: NoDot_Names/ops.py:112
+msgid "Apply only suffix"
+msgstr "仅应用后缀"
+
+#: NoDot_Names/__init__.py:1019
+msgid "Armatures"
+msgstr "骨架"
+
+#: NoDot_Names/__init__.py:873
+#: NoDot_Names/ui.py:220
+msgid "Base Name"
+msgstr "基础名称"
+
+#: NoDot_Names/ui.py:290
+msgid "Base Name Case"
+msgstr "基础名称大小写"
+
+#: NoDot_Names/__init__.py:967
+#: NoDot_Names/ui.py:228
+msgid "Batch Rename"
+msgstr "批量重命名"
+
+#: NoDot_Names/__init__.py:863
+msgid "Before Number"
+msgstr "编号之前"
+
+#: NoDot_Names/__init__.py:855
+msgid "Before Preset Prefix"
+msgstr "预设前缀之前"
+
+#: NoDot_Names/ops.py:113
+msgid "Both"
+msgstr "两者"
+
+#: NoDot_Names/__init__.py:884
+msgid "Branch"
+msgstr "分支"
+
+#: NoDot_Names/__init__.py:884
+msgid "Cascading names (Arm_L, Arm_L_Upper, Arm_L_Hand) - for skeletal hierarchy"
+msgstr "级联名称（Arm_L、Arm_L_Upper、Arm_L_Hand）—— 用于骨骼层级"
+
+#: NoDot_Names/__init__.py:1000
+#: NoDot_Names/ui.py:336
+msgid "Case"
+msgstr "大小写"
+
+#: NoDot_Names/__init__.py:883
+msgid "Chain"
+msgstr "链"
+
+#: NoDot_Names/__init__.py:879
+msgid "Chain: sequential index for controls/bones. Branch: cascading part names"
+msgstr "链：为控制器/骨骼使用连续索引。分支：级联部件名称"
+
+#: NoDot_Names/__init__.py:1020
+msgid "Collections"
+msgstr "集合"
+
+#: NoDot_Names/ui.py:300
+msgid "Comma-separated prefixes to skip (e.g. zenuv, myaddon_). Built-in: zenuv, zenbbq, decalmachine, fluent, substance"
+msgstr "要跳过的前缀，用逗号分隔（例如 zenuv, myaddon_）。内置：zenuv, zenbbq, decalmachine, fluent, substance"
+
+#: NoDot_Names/__init__.py:990
+#: NoDot_Names/__init__.py:1049
+msgid "Custom"
+msgstr "自定义"
+
+#: NoDot_Names/ui.py:269
+msgid "Custom Presets"
+msgstr "自定义预设"
+
+#: NoDot_Names/__init__.py:994
+#: NoDot_Names/ui.py:288
+msgid "Custom Separator"
+msgstr "自定义分隔符"
+
+#: NoDot_Names/__init__.py:988
+#: NoDot_Names/ui.py:282
+msgid "Dash (-)"
+msgstr "短横线 (-)"
+
+#: NoDot_Names/ui.py:116
+msgid "Data Types"
+msgstr "数据类型"
+
+#: NoDot_Names/__init__.py:987
+#: NoDot_Names/ui.py:281
+msgid "Dot (.)"
+msgstr "点 (.)"
+
+#: NoDot_Names/__init__.py:957
+#: NoDot_Names/ui.py:194
+msgid "Duplicate + Replace"
+msgstr "复制 + 替换"
+
+#: NoDot_Names/__init__.py:946
+msgid "Filter violations by name or collection type"
+msgstr "按名称或集合类型过滤违规项"
+
+#: NoDot_Names/__init__.py:822
+#: NoDot_Names/__init__.py:910
+msgid "Find"
+msgstr "查找"
+
+#: NoDot_Names/ui.py:241
+msgid "Find (regex)"
+msgstr "查找（正则）"
+
+#: NoDot_Names/__init__.py:910
+msgid "Find text to replace. Plain text is literal. For regex, wrap pattern in braces: {pattern}. Examples: {\\.\\d{3}$}, {^(SM_|M_|T_)}, {(_low|_high)$}. Use capture groups for replacements like \\1, \\2."
+msgstr "要替换的查找文本。纯文本按字面匹配。正则表达式需用花括号包裹模式：{pattern}。示例：{\\.\\d{3}$}、{^(SM_|M_|T_)}、{(_low|_high)$}。替换时可使用捕获组，如 \\1、\\2。"
+
+#: NoDot_Names/__init__.py:897
+msgid "Find/replace with regex"
+msgstr "使用正则查找/替换"
+
+#: NoDot_Names/__init__.py:962
+#: NoDot_Names/ui.py:211
+msgid "Hierarchy Rename"
+msgstr "层级重命名"
+
+#: NoDot_Names/ui.py:300
+#: NoDot_Names/ui.py:325
+msgid "Ignore Prefixes"
+msgstr "忽略前缀"
+
+#: NoDot_Names/__init__.py:1013
+msgid "Images"
+msgstr "图像"
+
+#: NoDot_Names/__init__.py:868
+msgid "Keep duplicated objects linked to the same object data"
+msgstr "保持复制出的物体链接到同一物体数据"
+
+#: NoDot_Names/__init__.py:868
+#: NoDot_Names/ui.py:205
+msgid "Linked Data"
+msgstr "链接数据"
+
+#: NoDot_Names/ui.py:270
+msgid "Live Rename New Data"
+msgstr "实时重命名新数据"
+
+#: NoDot_Names/ui.py:92
+#: NoDot_Names/ui.py:317
+msgid "Live Rename: OFF"
+msgstr "实时重命名：关"
+
+#: NoDot_Names/ui.py:92
+#: NoDot_Names/ui.py:317
+msgid "Live Rename: ON"
+msgstr "实时重命名：开"
+
+#: NoDot_Names/ops.py:648
+msgid "Loaded selected preset into editor"
+msgstr "已将所选预设加载到编辑器"
+
+#: NoDot_Names/__init__.py:1011
+msgid "Materials"
+msgstr "材质"
+
+#: NoDot_Names/__init__.py:1010
+msgid "Meshes"
+msgstr "网格"
+
+#: NoDot_Names/__init__.py:879
+#: NoDot_Names/__init__.py:894
+msgid "Mode"
+msgstr "模式"
+
+#: NoDot_Names/__init__.py:977
+msgid "Name of the convention profile being edited"
+msgstr "正在编辑的规范配置名称"
+
+#: NoDot_Names/__init__.py:972
+#: NoDot_Names/ui.py:329
+msgid "Naming Convention Editor"
+msgstr "命名规范编辑器"
+
+#: NoDot_Names/__init__.py:20
+msgid "Naming conventions, presets, validation, hierarchy rename, and batch rename with prefix rules, regex, and token templates"
+msgstr "命名规范、预设、验证、层级重命名，以及支持前缀规则、正则和令牌模板的批量重命名"
+
+#: NoDot_Names/ops.py:139
+msgid "No target objects found"
+msgstr "未找到目标物体"
+
+#: NoDot_Names/__init__.py:20
+msgid "NoDot Names"
+msgstr "NoDot Names"
+
+#: NoDot_Names/ui.py:78
+#: NoDot_Names/ui.py:81
+msgid "Nodot"
+msgstr "Nodot"
+
+#: NoDot_Names/ui.py:270
+msgid "Normalize names as soon as new datablocks are created"
+msgstr "新建数据块后立即规范化名称"
+
+#: NoDot_Names/ui.py:289
+msgid "Number Padding"
+msgstr "编号补零"
+
+#: NoDot_Names/__init__.py:1014
+msgid "Objects + Mesh Data"
+msgstr "物体 + 网格数据"
+
+#: NoDot_Names/ops.py:761
+msgid "Only custom presets can be deleted"
+msgstr "只能删除自定义预设"
+
+#: NoDot_Names/__init__.py:847
+msgid "Only selected objects"
+msgstr "仅选中的物体"
+
+#: NoDot_Names/__init__.py:888
+msgid "Optional prefix (e.g. CTRL_, MCH_, DEF_). Leave empty to use preset"
+msgstr "可选前缀（例如 CTRL_、MCH_、DEF_）。留空则使用预设"
+
+#: NoDot_Names/__init__.py:999
+#: NoDot_Names/ui.py:335
+msgid "Padding"
+msgstr "填充"
+
+#: NoDot_Names/__init__.py:856
+msgid "Place custom prefix after preset prefix"
+msgstr "将自定义前缀放在预设前缀之后"
+
+#: NoDot_Names/__init__.py:855
+msgid "Place custom prefix before preset prefix"
+msgstr "将自定义前缀放在预设前缀之前"
+
+#: NoDot_Names/__init__.py:864
+msgid "Place suffix after trailing numeric index"
+msgstr "将后缀放在末尾数字索引之后"
+
+#: NoDot_Names/__init__.py:863
+msgid "Place suffix before trailing numeric index"
+msgstr "将后缀放在末尾数字索引之前"
+
+#: NoDot_Names/__init__.py:832
+#: NoDot_Names/__init__.py:888
+msgid "Prefix"
+msgstr "前缀"
+
+#: NoDot_Names/__init__.py:852
+#: NoDot_Names/ui.py:182
+msgid "Prefix Placement"
+msgstr "前缀位置"
+
+#: NoDot_Names/ui.py:339
+msgid "Prefix Rules"
+msgstr "前缀规则"
+
+#: NoDot_Names/__init__.py:832
+msgid "Prefix to add to object names"
+msgstr "添加到物体名称的前缀"
+
+#: NoDot_Names/__init__.py:1003
+#: NoDot_Names/ui.py:293
+msgid "Preserve"
+msgstr "保留"
+
+#: NoDot_Names/ui.py:102
+#: NoDot_Names/ui.py:263
+msgid "Preset"
+msgstr "预设"
+
+#: NoDot_Names/ops.py:399
+msgid "Preset Name"
+msgstr "预设名称"
+
+#: NoDot_Names/ui.py:331
+msgid "Profile"
+msgstr "配置"
+
+#: NoDot_Names/__init__.py:977
+msgid "Profile Name"
+msgstr "配置名称"
+
+#: NoDot_Names/ui.py:111
+msgid "Project Validator"
+msgstr "项目校验器"
+
+#: NoDot_Names/__init__.py:897
+msgid "Regex"
+msgstr "正则表达式"
+
+#: NoDot_Names/ui.py:167
+msgid "Rename Tools"
+msgstr "重命名工具"
+
+#: NoDot_Names/__init__.py:827
+#: NoDot_Names/__init__.py:921
+msgid "Replace"
+msgstr "替换"
+
+#: NoDot_Names/__init__.py:921
+msgid "Replacement text for regex matches. Use backreferences like \\\\1, \\\\2 from capture groups in Find. Examples: '_' or 'SM_\\\\1'. Leave empty to remove matches."
+msgstr "正则匹配项的替换文本。使用「查找」中捕获组的反向引用，如 \\1、\\2。示例：'_' 或 'SM_\\1'。留空则删除匹配项。"
+
+#: NoDot_Names/__init__.py:827
+msgid "Replacement text used in duplicated object names"
+msgstr "用于复制物体名称的替换文本"
+
+#: NoDot_Names/__init__.py:873
+msgid "Root name for hierarchy (e.g. Arm_L, Spine, Prop_Chair)"
+msgstr "层级根名称（例如 Arm_L、Spine、Prop_Chair）"
+
+#: NoDot_Names/ops.py:584
+msgid "Run validator first"
+msgstr "请先运行校验器"
+
+#: NoDot_Names/ui.py:164
+msgid "Run validator to scan for violations"
+msgstr "运行校验器以扫描违规项"
+
+#: NoDot_Names/__init__.py:844
+#: NoDot_Names/__init__.py:902
+msgid "Scope"
+msgstr "范围"
+
+#: NoDot_Names/__init__.py:946
+msgid "Search"
+msgstr "搜索"
+
+#: NoDot_Names/ops.py:60
+msgid "Select at least one object"
+msgstr "请至少选择一个物体"
+
+#: NoDot_Names/ops.py:226
+msgid "Select at least one root object (no parent)"
+msgstr "请至少选择一个根物体（无父级）"
+
+#: NoDot_Names/ops.py:502
+msgid "Select one or more violations (use checkboxes)"
+msgstr "请选择一个或多个违规项（使用复选框）"
+
+#: NoDot_Names/__init__.py:847
+#: NoDot_Names/__init__.py:906
+msgid "Selected"
+msgstr "已选中"
+
+#: NoDot_Names/__init__.py:906
+msgid "Selected objects only"
+msgstr "仅选中物体"
+
+#: NoDot_Names/__init__.py:983
+#: NoDot_Names/ui.py:332
+msgid "Separator"
+msgstr "分隔符"
+
+#: NoDot_Names/ui.py:276
+msgid "Separator between the base name and numeric suffix"
+msgstr "基础名称与数字后缀之间的分隔符"
+
+#: NoDot_Names/__init__.py:883
+msgid "Sequential index (Ctrl_Spine_01, Ctrl_Spine_02) - for control/bone chains"
+msgstr "连续索引（Ctrl_Spine_01、Ctrl_Spine_02）——用于控制器/骨骼链"
+
+#: NoDot_Names/__init__.py:952
+msgid "Show/hide affix tools"
+msgstr "显示/隐藏词缀工具"
+
+#: NoDot_Names/__init__.py:967
+msgid "Show/hide batch rename tools"
+msgstr "显示/隐藏批量重命名工具"
+
+#: NoDot_Names/__init__.py:957
+msgid "Show/hide duplicate+replace tools"
+msgstr "显示/隐藏复制并替换工具"
+
+#: NoDot_Names/__init__.py:962
+msgid "Show/hide hierarchy rename tools"
+msgstr "显示/隐藏层级重命名工具"
+
+#: NoDot_Names/__init__.py:972
+msgid "Show/hide naming convention editor"
+msgstr "显示/隐藏命名规范编辑器"
+
+#: NoDot_Names/__init__.py:941
+msgid "Show/hide validator data-type filter options"
+msgstr "显示/隐藏校验器数据类型筛选选项"
+
+#: NoDot_Names/__init__.py:989
+#: NoDot_Names/ui.py:283
+msgid "Space ( )"
+msgstr "空格 ( )"
+
+#: NoDot_Names/__init__.py:838
+#: NoDot_Names/ops.py:112
+msgid "Suffix"
+msgstr "后缀"
+
+#: NoDot_Names/__init__.py:860
+#: NoDot_Names/ui.py:184
+msgid "Suffix Placement"
+msgstr "后缀位置"
+
+#: NoDot_Names/ui.py:276
+msgid "Suffix Separator"
+msgstr "后缀分隔符"
+
+#: NoDot_Names/__init__.py:838
+msgid "Suffix to add before trailing numeric sequence (e.g. _low)"
+msgstr "添加到末尾数字序列之前的后缀（例如 _low）"
+
+#: NoDot_Names/__init__.py:20
+msgid "System"
+msgstr "系统"
+
+#: NoDot_Names/__init__.py:898
+#: NoDot_Names/__init__.py:931
+msgid "Template"
+msgstr "模板"
+
+#: NoDot_Names/__init__.py:822
+msgid "Text to find in duplicated object names before replacement"
+msgstr "替换前在复制物体名称中查找的文本"
+
+#: NoDot_Names/__init__.py:1012
+msgid "Textures"
+msgstr "纹理"
+
+#: NoDot_Names/__init__.py:1006
+#: NoDot_Names/ui.py:296
+msgid "Title"
+msgstr "标题"
+
+#: NoDot_Names/__init__.py:898
+msgid "Token-based template"
+msgstr "基于令牌的模板"
+
+#: NoDot_Names/__init__.py:931
+msgid "Tokens: {type}, {basename}, {index}, {sep}"
+msgstr "令牌：{type}、{basename}、{index}、{sep}"
+
+#: NoDot_Names/__init__.py:1004
+#: NoDot_Names/ui.py:294
+msgid "UPPER"
+msgstr "大写"
+
+#: NoDot_Names/__init__.py:986
+#: NoDot_Names/ui.py:280
+msgid "Underscore (_)"
+msgstr "下划线 (_)"
+
+#: NoDot_Names/ui.py:282
+msgid "Use '-' as separator"
+msgstr "使用 '-' 作为分隔符"
+
+#: NoDot_Names/ui.py:281
+msgid "Use '.' as separator (Blender default)"
+msgstr "使用 '.' 作为分隔符（Blender 默认）"
+
+#: NoDot_Names/ui.py:280
+msgid "Use '_' as separator"
+msgstr "使用 '_' 作为分隔符"
+
+#: NoDot_Names/ui.py:283
+msgid "Use a space as separator"
+msgstr "使用空格作为分隔符"
+
+#: NoDot_Names/__init__.py:1049
+msgid "Use settings below"
+msgstr "使用下方设置"
+
+#: NoDot_Names/ui.py:284
+msgid "Use your own separator"
+msgstr "使用自定义分隔符"
+
+#: NoDot_Names/__init__.py:941
+msgid "Validator Data Types"
+msgstr "校验器数据类型"
+
+#: NoDot_Names/ui.py:186
+msgctxt "Operator"
+msgid "Add Prefix"
+msgstr "添加前缀"
+
+#: NoDot_Names/ui.py:188
+msgctxt "Operator"
+msgid "Add Suffix"
+msgstr "添加后缀"
+
+#: NoDot_Names/ops.py:105
+msgctxt "Operator"
+msgid "Add prefix/suffix to object names (suffix is inserted before numeric suffix)"
+msgstr "为物体名称添加前缀/后缀（后缀插入在数字后缀之前）"
+
+#: NoDot_Names/ui.py:148
+msgctxt "Operator"
+msgid "All"
+msgstr "全部"
+
+#: NoDot_Names/ops.py:104
+msgctxt "Operator"
+msgid "Apply Affix"
+msgstr "应用词缀"
+
+#: NoDot_Names/ops.py:357
+msgctxt "Operator"
+msgid "Apply Batch Rename"
+msgstr "应用批量重命名"
+
+#: NoDot_Names/ops.py:358
+msgctxt "Operator"
+msgid "Apply the previewed renames"
+msgstr "应用预览的重命名"
+
+#: NoDot_Names/ui.py:108
+msgctxt "Operator"
+msgid "Apply to File"
+msgstr "应用到文件"
+
+#: NoDot_Names/ops.py:42
+msgctxt "Operator"
+msgid "Convert existing duplicate suffixes to this add-on's convention"
+msgstr "将现有重复后缀转换为本插件的规范"
+
+#: NoDot_Names/ops.py:640
+msgctxt "Operator"
+msgid "Copy selected preset rules into the naming convention editor"
+msgstr "将所选预设规则复制到命名规范编辑器"
+
+#: NoDot_Names/ops.py:749
+msgctxt "Operator"
+msgid "Delete Preset"
+msgstr "删除预设"
+
+#: NoDot_Names/ops.py:750
+msgctxt "Operator"
+msgid "Delete the selected custom preset"
+msgstr "删除所选自定义预设"
+
+#: NoDot_Names/ops.py:552
+msgctxt "Operator"
+msgid "Deselect All"
+msgstr "取消全选"
+
+#: NoDot_Names/ops.py:553
+msgctxt "Operator"
+msgid "Deselect all violations in the report"
+msgstr "取消选择报告中的所有违规项"
+
+#: NoDot_Names/ops.py:53
+msgctxt "Operator"
+msgid "Duplicate + Replace Text"
+msgstr "复制 + 替换文本"
+
+#: NoDot_Names/ops.py:54
+msgctxt "Operator"
+msgid "Duplicate selected objects and rename by replacing text while preserving numeric sequence"
+msgstr "复制所选物体并通过替换文本重命名，同时保留数字序列"
+
+#: NoDot_Names/ui.py:372
+msgctxt "Operator"
+msgid "Export .ndot"
+msgstr "导出 .ndot"
+
+#: NoDot_Names/ops.py:671
+msgctxt "Operator"
+msgid "Export .ndot Profile"
+msgstr "导出 .ndot 配置"
+
+#: NoDot_Names/ops.py:566
+msgctxt "Operator"
+msgid "Export Report"
+msgstr "导出报告"
+
+#: NoDot_Names/ops.py:672
+msgctxt "Operator"
+msgid "Export the editor rules as a shareable .ndot profile"
+msgstr "将编辑器规则导出为可共享的 .ndot 配置"
+
+#: NoDot_Names/ops.py:567
+msgctxt "Operator"
+msgid "Export violation report to a text file for sharing or tracking"
+msgstr "将违规报告导出为文本文件，以便共享或跟踪"
+
+#: NoDot_Names/ui.py:142
+msgctxt "Operator"
+msgid "Fix All"
+msgstr "全部修复"
+
+#: NoDot_Names/ops.py:170
+msgctxt "Operator"
+msgid "Fix All Violations"
+msgstr "修复所有违规项"
+
+#: NoDot_Names/ops.py:492
+#: NoDot_Names/ui.py:150
+msgctxt "Operator"
+msgid "Fix Selected"
+msgstr "修复所选"
+
+#: NoDot_Names/ops.py:493
+msgctxt "Operator"
+msgid "Fix all selected violations in the report"
+msgstr "修复报告中所有选中的违规项"
+
+#: NoDot_Names/ops.py:216
+msgctxt "Operator"
+msgid "Hierarchy Rename"
+msgstr "层级重命名"
+
+#: NoDot_Names/ui.py:107
+#: NoDot_Names/ui.py:371
+msgctxt "Operator"
+msgid "Import .ndot"
+msgstr "导入 .ndot"
+
+#: NoDot_Names/ops.py:697
+msgctxt "Operator"
+msgid "Import .ndot Profile"
+msgstr "导入 .ndot 配置"
+
+#: NoDot_Names/ops.py:721
+msgctxt "Operator"
+msgid "Import Preset"
+msgstr "导入预设"
+
+#: NoDot_Names/ops.py:722
+msgctxt "Operator"
+msgid "Import preset from .ndot profile file"
+msgstr "从 .ndot 配置文件导入预设"
+
+#: NoDot_Names/ui.py:368
+msgctxt "Operator"
+msgid "Load Preset"
+msgstr "加载预设"
+
+#: NoDot_Names/ops.py:639
+msgctxt "Operator"
+msgid "Load Selected Preset"
+msgstr "加载所选预设"
+
+#: NoDot_Names/ops.py:698
+msgctxt "Operator"
+msgid "Load editor rules from a .ndot profile file"
+msgstr "从 .ndot 配置文件加载编辑器规则"
+
+#: NoDot_Names/ui.py:149
+msgctxt "Operator"
+msgid "None"
+msgstr "无"
+
+#: NoDot_Names/ops.py:41
+msgctxt "Operator"
+msgid "Normalize Existing Names"
+msgstr "规范化现有名称"
+
+#: NoDot_Names/ops.py:314
+msgctxt "Operator"
+msgid "Preview"
+msgstr "预览"
+
+#: NoDot_Names/ops.py:315
+msgctxt "Operator"
+msgid "Preview renames without applying"
+msgstr "预览重命名而不应用"
+
+#: NoDot_Names/ui.py:223
+msgctxt "Operator"
+msgid "Rename Hierarchy"
+msgstr "重命名层级"
+
+#: NoDot_Names/ops.py:171
+msgctxt "Operator"
+msgid "Rename all datablocks that violate the active naming convention"
+msgstr "重命名所有违反当前命名规范的数据块"
+
+#: NoDot_Names/ops.py:605
+msgctxt "Operator"
+msgid "Rename existing datablocks to match the currently selected preset"
+msgstr "重命名现有数据块以匹配当前所选预设"
+
+#: NoDot_Names/ops.py:217
+msgctxt "Operator"
+msgid "Rename parent and children using rigging conventions: Chain mode for control/bone chains, Branch mode for skeletal hierarchy"
+msgstr "使用绑定规范重命名父级和子级：链模式用于控制器/骨骼链，分支模式用于骨骼层级"
+
+#: NoDot_Names/ui.py:141
+msgctxt "Operator"
+msgid "Run"
+msgstr "运行"
+
+#: NoDot_Names/ops.py:480
+msgctxt "Operator"
+msgid "Run Project Validator"
+msgstr "运行项目验证器"
+
+#: NoDot_Names/ui.py:369
+msgctxt "Operator"
+msgid "Save As Preset"
+msgstr "另存为预设"
+
+#: NoDot_Names/ops.py:654
+msgctxt "Operator"
+msgid "Save Editor As Preset"
+msgstr "将编辑器另存为预设"
+
+#: NoDot_Names/ops.py:395
+msgctxt "Operator"
+msgid "Save Preset"
+msgstr "保存预设"
+
+#: NoDot_Names/ops.py:396
+msgctxt "Operator"
+msgid "Save current convention as a named preset"
+msgstr "将当前规范保存为命名预设"
+
+#: NoDot_Names/ops.py:655
+msgctxt "Operator"
+msgid "Save editor rules as a custom preset and make it active"
+msgstr "将编辑器规则保存为自定义预设并设为活动"
+
+#: NoDot_Names/ops.py:481
+msgctxt "Operator"
+msgid "Scan all datablocks and generate a detailed naming violation report"
+msgstr "扫描所有数据块并生成详细的命名违规报告"
+
+#: NoDot_Names/ops.py:538
+msgctxt "Operator"
+msgid "Select All"
+msgstr "全选"
+
+#: NoDot_Names/ops.py:539
+msgctxt "Operator"
+msgid "Select all violations in the report"
+msgstr "选择报告中的所有违规项"
+
+#: NoDot_Names/ops.py:604
+msgctxt "Operator"
+msgid "Switch File To Preset"
+msgstr "将文件切换为预设"

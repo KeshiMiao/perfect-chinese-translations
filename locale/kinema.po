@@ -1,0 +1,1567 @@
+# perfect-chinese: 1
+# id: kinema
+# kind: addon
+# module: bl_ext.blender_org.kinema
+# name: Kinema
+# name_zh: 机器人动画绑定
+# translator: KeshiMiao
+# category: Import-Export
+# supported_versions: >=5.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: ops/import_robot.py:370
+msgid "\"\""
+msgstr "\"\""
+
+#: vendor/jaxls/_visualization.py:23
+msgid "#4a90d9"
+msgstr "#4a90d9"
+
+#: vendor/jaxls/_visualization.py:23
+msgid "#4ad94a"
+msgstr "#4ad94a"
+
+#: vendor/jaxls/_visualization.py:34
+msgid "#6666cc"
+msgstr "#6666cc"
+
+#: vendor/jaxls/_visualization.py:35
+msgid "#66cc66"
+msgstr "#66cc66"
+
+#: vendor/jaxls/_visualization.py:38
+msgid "#66cccc"
+msgstr "#66cccc"
+
+#: vendor/jaxls/_visualization.py:40
+msgid "#8033cc"
+msgstr "#8033cc"
+
+#: vendor/jaxls/_visualization.py:23
+msgid "#a8d5ff"
+msgstr "#a8d5ff"
+
+#: vendor/jaxls/_visualization.py:23
+msgid "#a8ffa8"
+msgstr "#a8ffa8"
+
+#: vendor/jaxls/_visualization.py:33
+msgid "#cc6666"
+msgstr "#cc6666"
+
+#: vendor/jaxls/_visualization.py:37
+msgid "#cc66cc"
+msgstr "#cc66cc"
+
+#: vendor/jaxls/_visualization.py:36
+msgid "#cc8033"
+msgstr "#cc8033"
+
+#: vendor/jaxls/_visualization.py:39
+msgid "#cccc66"
+msgstr "#cccc66"
+
+#: vendor/jaxls/_visualization.py:23
+msgid "#d94aa8"
+msgstr "#d94aa8"
+
+#: vendor/jaxls/_visualization.py:23
+msgid "#d9a84a"
+msgstr "#d9a84a"
+
+#: vendor/jaxls/_visualization.py:23
+msgid "#ffa8e4"
+msgstr "#ffa8e4"
+
+#: vendor/jaxls/_visualization.py:23
+msgid "#ffe4a8"
+msgstr "#ffe4a8"
+
+#: ops/tcp.py:42
+msgid "3D Cursor"
+msgstr "3D 游标"
+
+#: ops/import_robot.py:371
+msgid "A default may still be too late to apply; see the docs."
+msgstr "默认值可能仍应用得太晚；请参阅文档。"
+
+#: prefs.py:21
+msgid "A directory holding ROS packages"
+msgstr "包含 ROS 包的目录"
+
+#: ui/panel.py:603
+msgid "A track, turntable, positioner or spindle"
+msgstr "轨道、转台、变位机或主轴"
+
+#: ui/panel.py:1091
+msgid "Active Bone"
+msgstr "活动骨骼"
+
+#: ops/waypoints.py:650
+msgid "Active Waypoint"
+msgstr "活动航点"
+
+#: ops/ik.py:416
+msgid "Add Elbow Swivel"
+msgstr "添加肘部旋转"
+
+#: ops/ik.py:46
+msgid "Add IK Target"
+msgstr "添加 IK 目标"
+
+#: ops/ik.py:417
+msgid "Add a ring on the shoulder-to-wrist line that swings the elbow of a redundant arm while the tool stays put"
+msgstr "在肩到腕连线上添加圆环，使冗余臂的肘部摆动而工具保持不动"
+
+#: ops/import_robot.py:73
+msgid "Add a tool-centre-point marker at the end of the chain"
+msgstr "在链末端添加工具中心点标记"
+
+#: ops/ik.py:434
+msgid "Add an IK target first"
+msgstr "请先添加 IK 目标"
+
+#: ops/import_robot.py:51
+msgid "Add limit constraints from the URDF. Turn off to pose past a robot's real limits for a shot"
+msgstr "从 URDF 添加限制约束。关闭后可超出机器人真实限制摆姿势，用于镜头"
+
+#: ui/panel.py:721
+msgid "Adds a keyframable control at the tool."
+msgstr "在工具处添加可设关键帧的控制"
+
+#: ops/ik.py:207
+msgid "Aim the solver at this bone. Everything above it in the chain stays free; everything below it stops being solved. If the target is already animated, this keys the change on the current frame"
+msgstr "让求解器以该骨骼为目标。链中其上方部分保持自由；其下方部分停止求解。如果目标已有动画，这会在当前帧为更改设置关键帧"
+
+#: ops/import_robot.py:64
+msgid "Also load the robot's collision geometry, into its own collection that starts hidden. These are the coarse hulls a planner uses, not what the robot looks like"
+msgstr "同时加载机器人的碰撞几何体到其自身集合中，该集合初始隐藏。这些是规划器使用的粗略外壳，不是机器人的外观"
+
+#: ui/panel.py:772
+msgid "An arm reaches a pose several ways."
+msgstr "机械臂可通过多种方式到达同一姿势。"
+
+#: ops/ik.py:361
+msgid "Apply Solution"
+msgstr "应用解"
+
+#: ops/import_dae.py:35
+msgid "Apply Unit Scale"
+msgstr "应用单位缩放"
+
+#: ops/import_dae.py:43
+msgid "Apply Up Axis"
+msgstr "应用上轴"
+
+#: ops/pose.py:171
+msgid "At File Origin"
+msgstr "在文件原点"
+
+#: ops/attach.py:440
+msgid "Attach"
+msgstr "附加"
+
+#: ops/attach.py:444
+msgid "Attach a linked copy of an object"
+msgstr "附加物体的关联副本"
+
+#: ops/attach.py:445
+msgid "Attach an instance of a collection"
+msgstr "附加集合实例"
+
+#: ops/attach.py:294
+msgid "Attach to Bone"
+msgstr "附加到骨骼"
+
+#: ops/attach.py:455
+#: ops/attach.py:462
+msgid "Attachment"
+msgstr "附加"
+
+#: ops/external_axes.py:1037
+msgid "Axis"
+msgstr "轴"
+
+#: ops/ik.py:746
+msgid "Bake IK to Keyframes"
+msgstr "将 IK 烘焙为关键帧"
+
+#: ops/attach.py:283
+#: ops/ik.py:214
+msgid "Bone"
+msgstr "骨骼"
+
+#: ops/import_robot.py:44
+msgid "Bone Size"
+msgstr "骨骼大小"
+
+#: ui/panel.py:440
+msgid "Bones"
+msgstr "骨骼"
+
+#: ui/panel.py:73
+msgid "Catalog Pick"
+msgstr "选择目录"
+
+#: ui/panel.py:68
+msgid "Category"
+msgstr "类别"
+
+#: ops/ik.py:760
+msgid "Clear Existing Keys"
+msgstr "清除现有关键帧"
+
+#: ui/panel.py:130
+msgid "Clone command copied to clipboard:"
+msgstr "克隆命令已复制到剪贴板："
+
+#: ops/attach.py:298
+#: ops/attach.py:445
+msgid "Collection"
+msgstr "集合"
+
+#: ops/attach.py:462
+msgid "Collection to instance on this bone"
+msgstr "要在此骨骼上实例化的集合"
+
+#: ui/panel.py:763
+msgid "Configuration"
+msgstr "配置"
+
+#: ops/external_axes.py:844
+msgid "Continuous"
+msgstr "连续"
+
+#: ops/ik.py:279
+msgid "Could not key the IK target bone"
+msgstr "无法为 IK 目标骨骼设置关键帧"
+
+#: ops/ik.py:325
+#: ops/ik.py:439
+msgid "Could not prepare a solver for this rig"
+msgstr "无法为此绑定准备求解器"
+
+#: ops/import_robot.py:73
+msgid "Create TCP"
+msgstr "创建 TCP"
+
+#: ops/ik.py:47
+msgid "Create a keyframable IK control at the tool centre point"
+msgstr "在工具中心点创建可设关键帧的 IK 控制"
+
+#: ops/external_axes.py:685
+msgid "Custom"
+msgstr "自定义"
+
+#: prefs.py:136
+msgid "Debug Logging"
+msgstr "调试日志"
+
+#: prefs.py:118
+msgid "Default Solver"
+msgstr "默认求解器"
+
+#: ops/ik.py:147
+msgid "Delete the IK control and return the rig to plain FK"
+msgstr "删除 IK 控制器，将绑定恢复为纯 FK"
+
+#: ops/ik.py:586
+msgid "Delete the swivel; the arm solves on the tool alone"
+msgstr "删除旋转控制；手臂仅根据工具求解"
+
+#: ops/waypoints.py:379
+msgid "Delete this waypoint and its marker"
+msgstr "删除此路点及其标记"
+
+#: prefs.py:154
+msgid "Dependencies"
+msgstr "依赖项"
+
+#: ops/attach.py:344
+msgid "Detach"
+msgstr "分离"
+
+#: ops/external_axes.py:840
+msgid "Direction"
+msgstr "方向"
+
+#: ops/ik.py:755
+msgid "Disable Live IK"
+msgstr "禁用实时 IK"
+
+#: ops/import_robot.py:44
+msgid "Display size of the joint controls. 0 picks one from the robot's scale"
+msgstr "关节控制器的显示大小。设为 0 时根据机器人比例自动选取"
+
+#: ops/waypoints.py:178
+msgid "DoF"
+msgstr "自由度"
+
+#: ops/ik.py:423
+msgid "Elbow"
+msgstr "肘部"
+
+#: ui/panel.py:1119
+msgid "Elbow Strength"
+msgstr "肘部强度"
+
+#: ui/panel.py:798
+msgid "Elbow Swivel"
+msgstr "肘部旋转"
+
+#: ops/ik.py:753
+msgid "End"
+msgstr "结束"
+
+#: ops/import_robot.py:51
+msgid "Enforce Joint Limits"
+msgstr "强制关节限制"
+
+#: ui/panel.py:575
+msgid "External Axes"
+msgstr "外部轴"
+
+#: ops/external_axes.py:964
+msgid "External axis base: calculated from the current"
+msgstr "外部轴基座：根据当前计算"
+
+#: ops/external_axes.py:974
+msgid "External axis offset: calculated from the current"
+msgstr "外部轴偏移：根据当前计算"
+
+#: ops/external_axes.py:860
+msgid "Fastest it may move; the Velocity Limits check warns past it. Zero for none"
+msgstr "最大移动速度；超过时速度限制检查会发出警告。0 表示不限制"
+
+#: ops/external_axes.py:864
+msgid "Fastest it may turn, per second; the Velocity Limits check warns past it. Zero for none"
+msgstr "最大转动速度（每秒）；超过时速度限制检查会发出警告。0 表示不限制"
+
+#: ui/panel.py:68
+msgid "Filter the catalog by robot type"
+msgstr "按机器人类型筛选目录"
+
+#: ops/ik.py:301
+msgid "Find Solutions"
+msgstr "查找解"
+
+#: ui/panel.py:158
+msgid "Find a Robot"
+msgstr "查找机器人"
+
+#: ops/waypoints.py:644
+msgid "First and last frame the last Generate Motion wrote"
+msgstr "上次生成运动所写入的起始帧和结束帧"
+
+#: prefs.py:187
+msgid "For a cell whose macros live in a different repository from its robots."
+msgstr "用于宏与其机器人位于不同仓库的工作单元。"
+
+#: ops/waypoints.py:144
+msgid "Frame"
+msgstr "帧"
+
+#: ops/tcp.py:168
+msgid "From the parent joint's mounting flange, or its link frame where it has none"
+msgstr "从父关节的安装法兰算起，若无则从其连杆坐标系算起"
+
+#: ops/waypoints.py:418
+msgid "Generate Motion"
+msgstr "生成运动"
+
+#: ops/external_axes.py:897
+msgid "Generate simple geometry for it, for when there is no model of the real one"
+msgstr "为它生成简单几何体，用于没有真实模型的情况"
+
+#: ops/waypoints.py:644
+msgid "Generated Range"
+msgstr "生成范围"
+
+#: ops/waypoints.py:346
+msgid "Go To Waypoint"
+msgstr "转到路点"
+
+#: ui/panel.py:1136
+msgid "Hold"
+msgstr "保持"
+
+#: ops/external_axes.py:893
+msgid "Hold for IK"
+msgstr "IK 保持"
+
+#: ops/import_dae.py:35
+msgid "Honour the file's <unit meter> tag. CAD exporters often write millimetres; without this the mesh arrives 1000x too large"
+msgstr "遵循文件的 <unit meter> 标签。CAD 导出器常以毫米为单位；不启用此项时网格会大 1000 倍"
+
+#: ui/panel.py:1119
+msgid "How firmly the swivel holds the elbow at its angle, against the tool's own weight of 50. On an arm with a spherical shoulder and wrist the elbow's goal is exactly reachable, so this barely matters: the arm7 fixture keeps its tool within 0.0003 mm from 0.5 to 20. On an arm whose links are offset the goal is only close -- watch the solve readout for tool error if you raise it"
+msgstr "旋转控制将肘部保持在其角度的力度，以对抗工具自身 50 的重量。对于球形肩部和腕部的手臂，肘部目标可精确到达，因此这项几乎不重要：arm7 夹具在 0.5 到 20 之间时工具误差保持在 0.0003 毫米以内。对于连杆有偏移的手臂，目标只是接近——若调高此值，请留意求解读数中的工具误差"
+
+#: ops/ik.py:307
+msgid "How many starting configurations to try. More finds more"
+msgstr "尝试的起始配置数量。越多找到的解越多"
+
+#: ops/waypoints.py:152
+msgid "How the robot arrives here from the previous waypoint"
+msgstr "机器人如何从上一个路点到达此处"
+
+#: ui/panel.py:1078
+msgid "IK Target Bone"
+msgstr "IK 目标骨骼"
+
+#: ops/ik.py:173
+msgid "IK target removed"
+msgstr "IK 目标已移除"
+
+#: ops/velocity.py:268
+msgid "Ignore Velocity Limits"
+msgstr "忽略速度限制"
+
+#: ops/import_robot.py:64
+msgid "Import Collision Meshes"
+msgstr "导入碰撞网格"
+
+#: ops/import_robot.py:59
+msgid "Import Meshes"
+msgstr "导入网格"
+
+#: ui/panel.py:163
+msgid "Import Options"
+msgstr "导入选项"
+
+#: ui/panel.py:173
+msgid "Import one, or select an existing rig."
+msgstr "导入一个，或选择现有绑定。"
+
+#: ui/panel.py:78
+msgid "Include entries reviewed as duplicates, broken or partially supported. Off, only the recommended entry for each robot shows"
+msgstr "包含被评定为重复、损坏或部分支持的条目。关闭时，每个机器人仅显示推荐的条目"
+
+#: ops/ik.py:365
+#: ops/waypoints.py:324
+msgid "Index"
+msgstr "索引"
+
+#: ops/pose.py:45
+msgid "Insert a keyframe on every joint channel at the current frame"
+msgstr "在当前帧为所有关节通道插入关键帧"
+
+#: ui/panel.py:708
+msgid "Inverse Kinematics"
+msgstr "反向运动学"
+
+#: ops/external_axes.py:878
+msgid "Its orientation there, as roll, pitch and yaw about fixed X, Y and Z"
+msgstr "其在该处的朝向，以绕固定 X、Y、Z 轴的翻滚、俯仰和偏航表示"
+
+#: ui/panel.py:1146
+msgid "Joint bone the tool centre point rides"
+msgstr "工具中心点所依附的关节骨骼"
+
+#: ops/pose.py:279
+msgid "Joint bone to place the TCP on. Empty uses the active bone"
+msgstr "放置 TCP 的关节骨骼。留空则使用活动骨骼"
+
+#: ops/waypoints.py:175
+msgid "Joints"
+msgstr "关节"
+
+#: ui/panel.py:188
+msgid "Joints (FK)"
+msgstr "关节（FK）"
+
+#: ops/pose.py:38
+msgid "Joints reset to rest pose"
+msgstr "关节已重置为静止姿势"
+
+#: ops/waypoints.py:347
+msgid "Jump to this waypoint's frame and restore the exact configuration it was taught in, rather than whichever solution the solver picks today"
+msgstr "跳到此路点的帧并恢复其示教时的确切配置，而不是求解器当前选择的解"
+
+#: ops/attach.py:350
+msgid "Keep the Object"
+msgstr "保留物体"
+
+#: ops/external_axes.py:685
+msgid "Keep the fields as they are and set everything yourself"
+msgstr "保持字段不变，全部自行设置"
+
+#: ui/panel.py:1136
+msgid "Keep this joint where you put it while IK solves the rest -- a rail, gantry axis or turntable you position by hand. Drag the joint's own bone and the arm follows with the tool held"
+msgstr "保持此关节在你放置的位置，由 IK 求解其余部分——可手动定位的导轨、龙门轴或转台。拖动该关节自身的骨骼，手臂会保持工具跟随"
+
+#: ops/pose.py:44
+msgid "Key All Joints"
+msgstr "为所有关节插入关键帧"
+
+#: ops/ik.py:269
+msgid "Key IK Target Bone"
+msgstr "为 IK 目标骨骼插入关键帧"
+
+#: ops/waypoints.py:419
+msgid "Key the robot through its waypoints in frame order: joint channels for joint moves, the IK target for linear ones"
+msgstr "按帧顺序为机器人沿路点插入关键帧：关节移动使用关节通道，直线移动使用 IK 目标"
+
+#: ops/ik.py:270
+msgid "Keyframe which bone IK aims at, so a shot can hand the goal from one bone to another part-way through"
+msgstr "为 IK 瞄准的骨骼插入关键帧，使一个镜头中可中途将目标从一根骨骼移交到另一根骨骼"
+
+#: ui/panel.py:148
+msgid "Kinema"
+msgstr "Kinema"
+
+#: ui/panel.py:116
+msgid "Kinema does not download robots."
+msgstr "Kinema 不下载机器人。"
+
+#: prefs.py:169
+msgid "Kinema falls back to the NumPy solver; IK quality is reduced."
+msgstr "Kinema 回退到 NumPy 求解器；IK 质量会降低。"
+
+#: prefs.py:203
+msgid "Kinema: solver stack loaded"
+msgstr "Kinema：求解器栈已加载"
+
+#: ui/panel.py:63
+msgid "Last Import"
+msgstr "上次导入"
+
+#: ops/attach.py:350
+msgid "Leave the attachment in the scene, unparented. Off deletes it, which is what clearing a row's picker does"
+msgstr "将附件保留在场景中并取消父级。关闭则删除它，这与清除某行选择器的效果相同"
+
+#: ui/panel.py:1069
+msgid "Lightweight damped least squares"
+msgstr "轻量级阻尼最小二乘"
+
+#: prefs.py:123
+msgid "Lightweight damped least squares; no JAX required"
+msgstr "轻量级阻尼最小二乘；无需 JAX"
+
+#: ui/panel.py:1068
+msgid "Limit- and singularity-aware nonlinear solver"
+msgstr "考虑限位与奇异点的非线性求解器"
+
+#: ops/external_axes.py:699
+msgid "Linear"
+msgstr "直线"
+
+#: ui/panel.py:567
+msgid "Linear moves need an IK target"
+msgstr "直线移动需要 IK 目标"
+
+#: ops/waypoints.py:435
+msgid "Linear moves need an IK target; add one, or set those waypoints to Joint"
+msgstr "直线移动需要 IK 目标；请添加一个，或将这些路点设为关节"
+
+#: ops/pose.py:110
+msgid "Link meshes were already in place"
+msgstr "连杆网格已在原位"
+
+#: ui/panel.py:1059
+msgid "Live IK"
+msgstr "实时 IK"
+
+#: ops/import_robot.py:59
+msgid "Load the robot's visual geometry and parent it to the rig"
+msgstr "加载机器人的可视几何体并将其父级设为骨架"
+
+#: ops/external_axes.py:871
+#: ops/external_axes.py:882
+msgid "Location"
+msgstr "位置"
+
+#: ops/external_axes.py:848
+#: ops/external_axes.py:854
+msgid "Lower"
+msgstr "下移"
+
+#: ops/attach.py:410
+msgid "Make this bone's attachment the active object, ready to move"
+msgstr "将此骨骼的附件设为活动物体，随时可移动"
+
+#: ops/waypoints.py:179
+msgid "Marker"
+msgstr "标记"
+
+#: ui/panel.py:220
+msgid "Meshes are off the rig"
+msgstr "网格已脱离骨架"
+
+#: ui/panel.py:1100
+msgid "Meshes at File Origin"
+msgstr "网格位于文件原点"
+
+#: ui/panel.py:63
+msgid "Most recently imported robot description"
+msgstr "最近导入的机器人描述"
+
+#: ops/external_axes.py:837
+msgid "Motion"
+msgstr "运动"
+
+#: ops/external_axes.py:833
+msgid "Mount"
+msgstr "挂载"
+
+#: ops/waypoints.py:152
+msgid "Move"
+msgstr "移动"
+
+#: ui/panel.py:1100
+msgid "Move every link mesh to the coordinates its own file uses, so it can be edited and exported as a drop-in replacement. The rig's kinematics still work, but the meshes no longer follow the bones correctly -- turn this off before posing"
+msgstr "将每个连杆网格移动到其自身文件使用的坐标，以便作为直接替换品进行编辑和导出。骨架的运动学仍然有效，但网格不再正确跟随骨骼——摆姿势前请关闭此选项"
+
+#: ops/ik.py:215
+msgid "Move the IK control onto the new tip, so the arm does not jump"
+msgstr "将 IK 控制器移到新的末端，以免手臂跳动"
+
+#: ops/ik.py:180
+msgid "Move the IK control onto the tool's current position, so switching from FK posing to IK does not jerk the arm"
+msgstr "将 IK 控制器移到工具的当前位置，以免从 FK 摆姿势切换到 IK 时手臂猛跳"
+
+#: ops/pose.py:514
+msgid "Move the marker straight away, rather than only clearing the fields"
+msgstr "立即移动标记，而不是仅清空字段"
+
+#: ui/panel.py:601
+msgid "Move them in Joints (FK)"
+msgstr "在关节（FK）中移动它们"
+
+#: ops/external_axes.py:829
+#: ops/waypoints.py:139
+msgid "Name"
+msgstr "名称"
+
+#: ui/panel.py:1070
+msgid "No IK; pose the joints directly"
+msgstr "无 IK；直接摆关节"
+
+#: prefs.py:124
+msgid "No IK; the rig behaves as a plain FK armature"
+msgstr "无 IK；骨架表现为普通 FK 骨架"
+
+#: ops/attach.py:363
+msgid "No Kinema rig selected"
+msgstr "未选择 Kinema 骨架"
+
+#: ops/attach.py:303
+msgid "No Kinema rig to attach to"
+msgstr "没有可附加的 Kinema 骨架"
+
+#: ops/pose.py:199
+msgid "No Kinema rig to move"
+msgstr "没有可移动的 Kinema 骨架"
+
+#: ui/panel.py:625
+msgid "No TCP on this rig"
+msgstr "此骨架没有 TCP"
+
+#: ops/ik.py:346
+msgid "No configuration reached that pose. It may be out of reach"
+msgstr "没有配置能达到该姿势。可能超出可达范围"
+
+#: ops/external_axes.py:844
+msgid "No end stops: it can turn any number of times"
+msgstr "无限位：可任意圈数旋转"
+
+#: ops/import_dae.py:84
+msgid "No geometry found"
+msgstr "未找到几何体"
+
+#: ops/ik.py:802
+msgid "No joints to bake on this rig"
+msgstr "此骨架上没有可烘焙的关节"
+
+#: ops/import_robot.py:294
+msgid "No robot picked"
+msgstr "未选取机器人"
+
+#: ui/panel.py:172
+msgid "No robot selected"
+msgstr "未选择机器人"
+
+#: ops/ik.py:372
+msgid "No solutions found yet"
+msgstr "尚未找到解"
+
+#: ops/velocity.py:213
+msgid "No velocity limits in that file"
+msgstr "该文件中没有速度限制"
+
+#: ui/panel.py:283
+msgid "No velocity limits on this rig"
+msgstr "此骨架上没有速度限制"
+
+#: ops/waypoints.py:358
+msgid "No waypoint to go to"
+msgstr "没有可前往的路点"
+
+#: ops/waypoints.py:387
+msgid "No waypoint to remove"
+msgstr "没有可移除的路点"
+
+#: ops/waypoints.py:330
+msgid "No waypoint to update"
+msgstr "没有可更新的路点"
+
+#: prefs.py:123
+#: ui/panel.py:1069
+msgid "NumPy"
+msgstr "NumPy"
+
+#: ops/attach.py:444
+#: ops/tcp.py:176
+msgid "Object"
+msgstr "物体"
+
+#: ops/tcp.py:44
+msgid "Object Origin"
+msgstr "物体原点"
+
+#: ops/attach.py:455
+msgid "Object to attach to this bone, as a linked copy"
+msgstr "要作为链接副本附加到此骨骼的物体"
+
+#: prefs.py:124
+#: ui/panel.py:1070
+msgid "Off"
+msgstr "关闭"
+
+#: ops/tcp.py:41
+msgid "Offset"
+msgstr "偏移"
+
+#: ui/panel.py:477
+msgid "Offset from the Bone"
+msgstr "相对骨骼的偏移"
+
+#: ops/pose.py:171
+msgid "On sends the meshes to file coordinates; off returns them"
+msgstr "开启会将网格送到文件坐标；关闭则将其返回"
+
+#: ui/panel.py:830
+msgid "Only the PyRoki solver swings it"
+msgstr "只有 PyRoki 求解器会摆动它"
+
+#: ui/panel.py:846
+msgid "Over budget; live updates paused"
+msgstr "超出预算；实时更新已暂停"
+
+#: prefs.py:172
+msgid "Package Search Paths"
+msgstr "包搜索路径"
+
+#: ui/panel.py:663
+#: ui/panel.py:1146
+msgid "Parent Bone"
+msgstr "父级骨骼"
+
+#: ops/tcp.py:161
+msgid "Parent Joint"
+msgstr "父级关节"
+
+#: prefs.py:21
+msgid "Path"
+msgstr "路径"
+
+#: ops/pose.py:290
+msgid "Pick a bone in the Tool Centre Point panel, or make one active in Pose or Edit mode"
+msgstr "在工具中心点面板中选择骨骼，或在姿态模式或编辑模式中激活一根骨骼"
+
+#: ui/panel.py:697
+msgid "Pick a parent bone first"
+msgstr "请先选择父级骨骼"
+
+#: ops/tcp.py:165
+msgid "Place By"
+msgstr "放置方式"
+
+#: ops/pose.py:274
+msgid "Place the tool-centre-point marker on a joint bone, offset by the rig's tool offset from that joint's mounting flange -- or its link frame where it has none"
+msgstr "将工具中心点标记放在关节骨骼上，按绑定从该关节安装法兰起的工具偏移进行偏移——没有法兰时则使用其连杆坐标系"
+
+#: ops/external_axes.py:897
+msgid "Placeholder"
+msgstr "占位符"
+
+#: ops/waypoints.py:173
+msgid "Pose"
+msgstr "姿态"
+
+#: ops/ik.py:362
+msgid "Pose the robot in this configuration"
+msgstr "按此配置为机器人摆姿"
+
+#: ui/panel.py:547
+msgid "Pose the robot, then Record"
+msgstr "为机器人摆姿，然后录制"
+
+#: ops/external_axes.py:893
+msgid "Position it by hand and let IK solve the arm from where it stands"
+msgstr "手动放置它，让 IK 从当前位置求解手臂"
+
+#: ops/external_axes.py:825
+msgid "Preset"
+msgstr "预设"
+
+#: prefs.py:136
+msgid "Print solver diagnostics to the system console"
+msgstr "将求解器诊断信息打印到系统控制台"
+
+#: ops/attach.py:295
+msgid "Put a linked copy of an object or collection on this bone"
+msgstr "将物体或集合的关联副本放到此骨骼上"
+
+#: ops/pose.py:69
+msgid "Put every link mesh back where the importer placed it, undoing a stray grab. Objects you attached yourself are left alone"
+msgstr "将所有连杆网格放回导入器放置的位置，撤销误拖拽。你自己附加的物体保持不变"
+
+#: ops/tcp.py:44
+msgid "Put the TCP on an object's origin: an empty, or the tool mesh"
+msgstr "将 TCP 放到物体原点：空物体或工具网格"
+
+#: ops/tcp.py:42
+msgid "Put the TCP where the 3D cursor is. Snap the cursor to a tool vertex first with Shift+S"
+msgstr "将 TCP 放到 3D 光标处。先用 Shift+S 将光标吸附到工具顶点"
+
+#: prefs.py:122
+#: ui/panel.py:1068
+msgid "PyRoki"
+msgstr "PyRoki"
+
+#: ui/panel.py:952
+msgid "PyRoki ready"
+msgstr "PyRoki 已就绪"
+
+#: ui/panel.py:954
+msgid "PyRoki unavailable"
+msgstr "PyRoki 不可用"
+
+#: ui/panel.py:851
+msgid "PyRoki unavailable for this rig:"
+msgstr "此绑定无法使用 PyRoki："
+
+#: ui/panel.py:856
+msgid "PyRoki waits until the edit is done"
+msgstr "PyRoki 会等到编辑完成"
+
+#: ops/pose.py:514
+msgid "Re-place the TCP"
+msgstr "重新放置 TCP"
+
+#: ops/waypoints.py:322
+msgid "Re-record this waypoint from the robot's current pose"
+msgstr "根据机器人当前姿态重新录制此路点"
+
+#: ops/waypoints.py:283
+msgid "Record Waypoint"
+msgstr "录制路点"
+
+#: ops/waypoints.py:284
+msgid "Record the robot's current pose as a waypoint on the current frame, storing both the tool pose and the joint configuration"
+msgstr "将机器人当前姿态录制为当前帧上的路点，同时存储工具姿态和关节配置"
+
+#: ui/panel.py:819
+msgid "Release a held joint to use it again"
+msgstr "释放已保持的关节以便再次使用"
+
+#: ops/ik.py:585
+msgid "Remove Elbow Swivel"
+msgstr "移除肘部旋转"
+
+#: ops/ik.py:146
+msgid "Remove IK Target"
+msgstr "移除 IK 目标"
+
+#: ops/waypoints.py:378
+msgid "Remove Waypoint"
+msgstr "移除路点"
+
+#: ops/ik.py:760
+msgid "Remove existing joint keyframes in the range before baking"
+msgstr "烘焙前移除范围内的现有关节关键帧"
+
+#: ops/pose.py:68
+msgid "Reset Meshes"
+msgstr "重置网格"
+
+#: ops/attach.py:391
+msgid "Reset Offset"
+msgstr "重置偏移"
+
+#: ops/pose.py:508
+msgid "Reset Tool Offset"
+msgstr "重置工具偏移"
+
+#: ops/pose.py:29
+msgid "Rest Pose"
+msgstr "静止姿态"
+
+#: ops/pose.py:30
+msgid "Return every joint to zero, the robot's URDF rest configuration"
+msgstr "将所有关节归零，即机器人的 URDF 静止配置"
+
+#: ops/attach.py:282
+#: ops/pose.py:177
+msgid "Rig"
+msgstr "绑定"
+
+#: ops/pose.py:177
+msgid "Rig to move. Empty uses the active one"
+msgstr "要移动的绑定。为空时使用活动绑定"
+
+#: ops/import_robot.py:262
+msgid "Robot"
+msgstr "机器人"
+
+#: ui/panel.py:73
+msgid "Robot most recently looked up in the catalog"
+msgstr "最近在目录中查找的机器人"
+
+#: ops/tcp.py:172
+msgid "Roll, pitch and yaw about that frame's fixed X, Y and Z"
+msgstr "绕该坐标系的固定 X、Y、Z 轴进行横滚、俯仰和偏航"
+
+#: ops/external_axes.py:700
+msgid "Rotary"
+msgstr "旋转"
+
+#: ops/import_dae.py:43
+msgid "Rotate the file's up axis to Blender's Z-up. Disable only for files that declare Y-up but are authored Z-up"
+msgstr "将文件的上轴旋转到 Blender 的 Z 轴向上。仅对声明 Y 轴向上但实际按 Z 轴向上制作的文件禁用"
+
+#: ops/external_axes.py:878
+#: ops/external_axes.py:889
+msgid "Rotation"
+msgstr "旋转"
+
+#: ui/panel.py:486
+msgid "Rotation Mode"
+msgstr "旋转模式"
+
+#: ui/panel.py:1091
+msgid "Row highlighted in the Bones list"
+msgstr "骨骼列表中高亮的行"
+
+#: ops/waypoints.py:650
+msgid "Row highlighted in the Waypoints list"
+msgstr "路点列表中高亮的行"
+
+#: ops/ik.py:302
+msgid "Search for other arm configurations that reach the same tool pose, so you can pick the one that reads best on camera"
+msgstr "搜索可到达同一工具姿态的其他手臂配置，以便选择在镜头中效果最佳的一种"
+
+#: prefs.py:183
+msgid "Searched in addition to the repository holding the file."
+msgstr "除包含该文件的仓库外也会搜索。"
+
+#: ops/ik.py:307
+msgid "Seeds"
+msgstr "种子"
+
+#: ops/attach.py:409
+msgid "Select Attachment"
+msgstr "选择附着物"
+
+#: ops/ik.py:206
+msgid "Set IK Target Bone"
+msgstr "设置 IK 目标骨骼"
+
+#: ops/pose.py:273
+msgid "Set TCP"
+msgstr "设置 TCP"
+
+#: ops/ik.py:422
+msgid "Shoulder"
+msgstr "肩部"
+
+#: ui/panel.py:78
+msgid "Show All Variants"
+msgstr "显示所有变体"
+
+#: prefs.py:122
+msgid "Singularity- and limit-aware solver (recommended)"
+msgstr "考虑奇异点和限制的求解器（推荐）"
+
+#: ops/attach.py:392
+msgid "Sit the attachment exactly on the bone, with no offset"
+msgstr "将附件精确置于骨骼上，不留偏移"
+
+#: ops/external_axes.py:901
+msgid "Size"
+msgstr "尺寸"
+
+#: prefs.py:128
+msgid "Skip a live IK update if the previous solve took longer than this, to keep the viewport responsive on very high-DoF rigs"
+msgstr "若上次求解耗时超过此值则跳过实时 IK 更新，以在极高自由度绑定上保持视图流畅"
+
+#: ops/external_axes.py:699
+msgid "Slides along its direction"
+msgstr "沿其方向滑动"
+
+#: ops/ik.py:179
+msgid "Snap IK to Tool"
+msgstr "将 IK 吸附到工具"
+
+#: ops/ik.py:215
+msgid "Snap the Control"
+msgstr "吸附控制器"
+
+#: ops/tcp.py:237
+msgid "Snap the cursor to a tool vertex with Shift+S"
+msgstr "按 Shift+S 将游标吸附到工具顶点"
+
+#: ui/panel.py:1113
+msgid "Solution"
+msgstr "解"
+
+#: prefs.py:128
+msgid "Solve Budget (ms)"
+msgstr "求解预算（毫秒）"
+
+#: ui/panel.py:1059
+msgid "Solve continuously as the IK target moves"
+msgstr "IK 目标移动时持续求解"
+
+#: ops/ik.py:747
+msgid "Solve every frame and key the joints, so the animation plays back without Kinema installed"
+msgstr "逐帧求解并为关节打关键帧，使动画在未安装 Kinema 时也能播放"
+
+#: ui/panel.py:944
+#: ui/panel.py:1064
+msgid "Solver"
+msgstr "求解器"
+
+#: ui/panel.py:958
+msgid "Solver loading…"
+msgstr "求解器加载中…"
+
+#: ui/panel.py:857
+msgid "Solving on NumPy meanwhile"
+msgstr "暂用 NumPy 求解"
+
+#: prefs.py:168
+msgid "Some dependencies are unavailable."
+msgstr "部分依赖不可用。"
+
+#: ops/attach.py:297
+msgid "Source"
+msgstr "来源"
+
+#: ops/ik.py:752
+msgid "Start"
+msgstr "起始"
+
+#: ops/external_axes.py:825
+msgid "Start from a common axis; every field can still be changed"
+msgstr "从常用轴开始；每个字段仍可修改"
+
+#: ops/ik.py:366
+#: ops/ik.py:754
+msgid "Step"
+msgstr "步长"
+
+#: ops/velocity.py:268
+msgid "Stop flagging joints that move faster than their velocity limit, in the panel and in the viewport"
+msgstr "停止在面板和视图中标记移动速度超过其速度限制的关节"
+
+#: ops/tcp.py:249
+msgid "Stored as an offset from the TCP zero:"
+msgstr "以相对 TCP 零点的偏移存储："
+
+#: ops/import_robot.py:78
+msgid "Substitution arguments for a xacro file, in the syntax the xacro command line takes: name:=ur5e ur_type:=ur5e. Ignored for a plain URDF or MJCF"
+msgstr "xacro 文件的替换参数，语法与 xacro 命令行一致：name:=ur5e ur_type:=ur5e。对普通 URDF 或 MJCF 将被忽略"
+
+#: ui/panel.py:814
+msgid "Swivel"
+msgstr "自转"
+
+#: ops/ik.py:619
+msgid "Swivel removed"
+msgstr "已移除自转"
+
+#: ops/external_axes.py:974
+msgid "TCP"
+msgstr "TCP"
+
+#: ops/tcp.py:180
+msgid "Take the orientation from the cursor or object too, not only the location"
+msgstr "同时采用游标或物体的朝向，而不只是位置"
+
+#: ui/panel.py:743
+msgid "Target Bone"
+msgstr "目标骨骼"
+
+#: ops/ik.py:226
+msgid "That bone is not part of this rig's chain"
+msgstr "该骨骼不属于此绑定的链"
+
+#: ops/external_axes.py:889
+msgid "That orientation, as roll, pitch and yaw about fixed X, Y and Z"
+msgstr "该朝向，以绕固定 X、Y、Z 的横滚、俯仰和偏航表示"
+
+#: ops/waypoints.py:179
+msgid "The Empty showing this waypoint in the viewport"
+msgstr "在视图中显示此路点的空物体"
+
+#: ops/external_axes.py:840
+msgid "The axis it moves along or turns about, in its base placement"
+msgstr "其移动或转动所绕的轴，基于其基准放置"
+
+#: ops/tcp.py:161
+msgid "The joint bone the TCP rides; offsets are from its mounting flange"
+msgstr "TCP 所依附的关节骨骼；偏移以其安装法兰为基准"
+
+#: ops/external_axes.py:829
+msgid "The joint's name, which is also its bone's and its slider's"
+msgstr "关节名称，同时也是其骨骼和滑块的名称"
+
+#: ops/tcp.py:176
+msgid "The object whose origin the TCP goes on"
+msgstr "TCP 所对齐到其原点的物体"
+
+#: ops/external_axes.py:901
+msgid "The placeholder's width: a rail's, or a turntable's diameter"
+msgstr "占位物的宽度：导轨的宽度或转台的直径"
+
+#: ops/ik.py:483
+msgid "The shoulder and wrist coincide in the current pose; unfold the arm first"
+msgstr "当前姿态下肩部和腕部重合；请先展开机械臂"
+
+#: ops/ik.py:469
+msgid "The shoulder and wrist joints coincide"
+msgstr "肩关节和腕关节重合"
+
+#: ui/panel.py:784
+msgid "The target moved; search again"
+msgstr "目标已移动；请重新搜索"
+
+#: ops/ik.py:388
+msgid "These solutions were found for a different chain"
+msgstr "这些解是为另一条链求得的"
+
+#: ops/ik.py:153
+#: ops/ik.py:190
+msgid "This rig has no IK target"
+msgstr "此绑定没有 IK 目标"
+
+#: ops/ik.py:776
+msgid "This rig has no IK target to bake"
+msgstr "此绑定没有可烘焙的 IK 目标"
+
+#: ops/ik.py:320
+msgid "This rig has no IK target to search around"
+msgstr "此绑定没有可围绕搜索的 IK 目标"
+
+#: ops/ik.py:53
+msgid "This rig has no TCP; create one first"
+msgstr "此绑定没有 TCP；请先创建一个"
+
+#: ops/waypoints.py:294
+msgid "This rig has no joints to record"
+msgstr "此绑定没有可记录的关节"
+
+#: ops/pose.py:97
+msgid "This rig has no link meshes"
+msgstr "此绑定没有连杆网格"
+
+#: ui/panel.py:200
+msgid "This rig has no movable joints"
+msgstr "此绑定没有可动关节"
+
+#: ops/ik.py:592
+msgid "This rig has no swivel"
+msgstr "此绑定没有自转"
+
+#: ops/pose.py:205
+msgid "This rig was imported before Kinema recorded what it baked into each mesh; re-import it to be able to export its meshes"
+msgstr "此绑定导入时，Kinema 尚未记录烘焙到各网格中的内容；请重新导入以导出其网格"
+
+#: ops/pose.py:91
+msgid "This rig's meshes were imported before Kinema recorded where they belong; re-import it to be able to reset them"
+msgstr "此绑定的网格导入时，Kinema 尚未记录其归属；请重新导入以重置它们"
+
+#: ui/panel.py:610
+msgid "Tool Centre Point"
+msgstr "工具中心点"
+
+#: ui/panel.py:669
+#: ui/panel.py:1156
+msgid "Tool Offset"
+msgstr "工具偏移"
+
+#: ui/panel.py:1167
+msgid "Tool Rotation"
+msgstr "工具旋转"
+
+#: ops/pose.py:530
+msgid "Tool offset cleared"
+msgstr "已清除工具偏移"
+
+#: ui/panel.py:1167
+msgid "Tool orientation from the same frame, as roll, pitch and yaw about fixed X, Y and Z -- the convention URDF uses"
+msgstr "同一坐标系下的工具朝向，以绕固定 X、Y、Z 的横滚、俯仰和偏航表示——即 URDF 所用的约定"
+
+#: ui/panel.py:1156
+msgid "Tool position from the mounting flange (tool0), or from the joint's link frame where it has none"
+msgstr "工具位置，以安装法兰（tool0）为基准；若没有法兰则以关节的连杆坐标系为基准"
+
+#: ops/external_axes.py:860
+#: ops/external_axes.py:864
+msgid "Top Speed"
+msgstr "最高速度"
+
+#: ops/ik.py:755
+msgid "Turn the live solver off afterwards, so the baked keys are what plays"
+msgstr "之后关闭实时求解器，使烘焙的关键帧生效"
+
+#: ops/external_axes.py:700
+msgid "Turns about its direction"
+msgstr "绕其方向转动"
+
+#: ops/tcp.py:41
+msgid "Type a location and rotation from the parent joint's TCP zero"
+msgstr "输入相对父关节 TCP 零点的位置和旋转"
+
+#: ops/attach.py:345
+msgid "Unparent this bone's attachment, leaving it in the scene exactly where it appears"
+msgstr "取消此骨骼附件的父级，使其保留在场景中的原位置"
+
+#: ops/waypoints.py:321
+msgid "Update Waypoint"
+msgstr "更新路点"
+
+#: ops/external_axes.py:851
+#: ops/external_axes.py:857
+msgid "Upper"
+msgstr "上部"
+
+#: ops/tcp.py:180
+msgid "Use Its Rotation"
+msgstr "使用其旋转"
+
+#: ui/panel.py:956
+#: ui/panel.py:959
+msgid "Using NumPy fallback"
+msgstr "使用 NumPy 回退"
+
+#: ui/panel.py:259
+msgid "Velocity Limits"
+msgstr "速度限制"
+
+#: ui/panel.py:531
+msgid "Waypoints"
+msgstr "路点"
+
+#: ops/external_axes.py:833
+msgid "What the axis carries, and what it is placed from"
+msgstr "轴承载的对象，以及它基于什么放置"
+
+#: ops/waypoints.py:139
+msgid "What this point is for: home, approach, pick, drop"
+msgstr "该点的用途：原位、接近、抓取、放置"
+
+#: ops/waypoints.py:144
+msgid "When the robot should be at this waypoint. This is what orders the job -- there is no separate list order"
+msgstr "机器人应到达该路点的时间。任务顺序由此决定——没有单独的列表顺序"
+
+#: ops/external_axes.py:871
+msgid "Where the axis sits, from the current robot base -- under any axis already beneath the robot -- or from the tool frame, on the tool"
+msgstr "轴的位置：从当前机器人基座算起——位于机器人下方已有轴之下——或从工具坐标系算起，位于工具上"
+
+#: ops/external_axes.py:882
+msgid "Where what it carries sits on its moving part: the current robot base, or the TCP. Anything but zero moves it there"
+msgstr "其所承载对象位于运动部件上的位置：当前机器人基座，或 TCP。非零值会将其移到该处"
+
+#: ops/attach.py:440
+msgid "Whether this bone takes an object or a whole collection"
+msgstr "该骨骼承载单个物体还是整个集合"
+
+#: ui/panel.py:1064
+msgid "Which IK backend drives this rig"
+msgstr "由哪个 IK 后端驱动该绑定"
+
+#: prefs.py:118
+msgid "Which IK backend new robot rigs start with"
+msgstr "新建机器人绑定默认使用的 IK 后端"
+
+#: ui/panel.py:1078
+msgid "Which joint bone the solver aims at, by index. -1 aims at the tool centre point. Keyframable, so a shot can hand the goal from one bone to another"
+msgstr "求解器瞄准的关节骨骼索引。-1 表示瞄准工具中心点。可设置关键帧，因此一个镜头中目标可交由另一根骨骼接力"
+
+#: ui/panel.py:1113
+msgid "Which of the configurations found is currently applied"
+msgstr "当前应用的是已找到的哪个配置"
+
+#: ops/ik.py:424
+msgid "Wrist"
+msgstr "腕部"
+
+#: ops/import_robot.py:78
+msgid "Xacro Arguments"
+msgstr "Xacro 参数"
+
+#: ops/pose.py:509
+msgid "Zero the tool offset, putting the TCP exactly on the selected joint's mounting flange -- or its link frame where it has none"
+msgstr "将工具偏移归零，使 TCP 正好落在所选关节的安装法兰上——若该关节没有法兰，则落在其连杆坐标系上"
+
+#: prefs.py:40
+msgid "a whole drive cannot be searched"
+msgstr "无法搜索整个驱动器"
+
+#: ui/panel.py:135
+msgid "file unknown; look inside after cloning"
+msgstr "文件未知；克隆后查看其中内容"
+
+#: ops/external_axes.py:964
+#: ops/external_axes.py:974
+msgid "robot base"
+msgstr "机器人基座"
+
+#: ops/external_axes.py:964
+msgid "tool frame"
+msgstr "工具坐标系"
+
+#: ui/panel.py:312
+msgid "— : play or step a frame to measure"
+msgstr "—：播放或单步一帧以测量"
+
+#: ui/panel.py:804
+msgctxt "Operator"
+msgid "Add Elbow Swivel"
+msgstr "添加肘部回转"
+
+#: ops/external_axes.py:822
+msgctxt "Operator"
+msgid "Add External Axis"
+msgstr "添加外部轴"
+
+#: ui/panel.py:604
+msgctxt "Operator"
+msgid "Add External Axis…"
+msgstr "添加外部轴…"
+
+#: ui/panel.py:720
+msgctxt "Operator"
+msgid "Add IK Target"
+msgstr "添加 IK 目标"
+
+#: prefs.py:61
+msgctxt "Operator"
+msgid "Add Package Search Path"
+msgstr "添加包搜索路径"
+
+#: prefs.py:62
+msgctxt "Operator"
+msgid "Add a directory to search for ROS packages"
+msgstr "添加用于搜索 ROS 包的目录"
+
+#: ui/panel.py:754
+msgctxt "Operator"
+msgid "Bake to Keyframes"
+msgstr "烘焙为关键帧"
+
+#: ops/import_robot.py:253
+msgctxt "Operator"
+msgid "Browse Robot Catalog"
+msgstr "浏览机器人目录"
+
+#: ops/import_robot.py:134
+msgctxt "Operator"
+msgid "Build Robot Rig"
+msgstr "构建机器人绑定"
+
+#: ops/import_robot.py:305
+msgctxt "Operator"
+msgid "Build a Kinema rig from a local URDF or xacro file"
+msgstr "从本地 URDF 或 xacro 文件构建 Kinema 绑定"
+
+#: ops/import_dae.py:96
+msgctxt "Operator"
+msgid "COLLADA (.dae)"
+msgstr "COLLADA (.dae)"
+
+#: prefs.py:195
+msgctxt "Operator"
+msgid "Check Kinema Dependencies"
+msgstr "检查 Kinema 依赖"
+
+#: ops/tcp.py:158
+msgctxt "Operator"
+msgid "Edit TCP"
+msgstr "编辑 TCP"
+
+#: ui/panel.py:657
+msgctxt "Operator"
+msgid "Edit TCP…"
+msgstr "编辑 TCP…"
+
+#: ui/panel.py:768
+msgctxt "Operator"
+msgid "Find Solutions"
+msgstr "查找解"
+
+#: ui/panel.py:558
+msgctxt "Operator"
+msgid "Generate Motion"
+msgstr "生成运动"
+
+#: ops/import_dae.py:21
+msgctxt "Operator"
+msgid "Import COLLADA"
+msgstr "导入 COLLADA"
+
+#: ops/import_robot.py:304
+msgctxt "Operator"
+msgid "Import URDF"
+msgstr "导入 URDF"
+
+#: ui/panel.py:155
+msgctxt "Operator"
+msgid "Import URDF File…"
+msgstr "导入 URDF 文件…"
+
+#: ops/import_dae.py:22
+msgctxt "Operator"
+msgid "Import a COLLADA .dae mesh (restores support removed in Blender 5.0)"
+msgstr "导入 COLLADA .dae 网格（恢复 Blender 5.0 中移除的支持）"
+
+#: ui/panel.py:205
+msgctxt "Operator"
+msgid "Key All"
+msgstr "全部插入关键帧"
+
+#: ops/velocity.py:191
+msgctxt "Operator"
+msgid "Load Joint Limits"
+msgstr "加载关节限制"
+
+#: ui/panel.py:284
+#: ui/panel.py:313
+msgctxt "Operator"
+msgid "Load Joint Limits…"
+msgstr "加载关节限制…"
+
+#: ops/pose.py:165
+msgctxt "Operator"
+msgid "Meshes at File Origin"
+msgstr "网格位于文件原点"
+
+#: ui/panel.py:700
+msgctxt "Operator"
+msgid "Move TCP to Active Bone"
+msgstr "将 TCP 移至活动骨骼"
+
+#: ops/pose.py:166
+msgctxt "Operator"
+msgid "Move every link mesh to the coordinates its file was authored in, for editing and re-export. Turn off to put them back on the rig"
+msgstr "将每个连杆网格移至其文件创作时的坐标，以便编辑和重新导出。关闭后将其放回绑定上"
+
+#: ops/import_robot.py:287
+#: ui/panel.py:137
+msgctxt "Operator"
+msgid "Open Repository"
+msgstr "打开仓库"
+
+#: ops/import_robot.py:288
+msgctxt "Operator"
+msgid "Open this robot's source repository in your web browser"
+msgstr "在网页浏览器中打开该机器人的源仓库"
+
+#: ops/import_robot.py:135
+msgctxt "Operator"
+msgid "Parse and rig a robot description"
+msgstr "解析机器人描述并创建绑定"
+
+#: ui/panel.py:657
+msgctxt "Operator"
+msgid "Place TCP…"
+msgstr "放置 TCP…"
+
+#: prefs.py:155
+#: ui/panel.py:961
+msgctxt "Operator"
+msgid "Re-check"
+msgstr "重新检查"
+
+#: prefs.py:196
+msgctxt "Operator"
+msgid "Re-import the solver stack and refresh the status list"
+msgstr "重新导入求解器栈并刷新状态列表"
+
+#: ops/velocity.py:192
+msgctxt "Operator"
+msgid "Read velocity limits from a MoveIt or ros2_control joint_limits.yaml. They replace the robot description's, joint by joint"
+msgstr "从 MoveIt 或 ros2_control 的 joint_limits.yaml 读取速度限制。它们会逐个关节替换机器人描述中的限制"
+
+#: ui/panel.py:542
+msgctxt "Operator"
+msgid "Record"
+msgstr "录制"
+
+#: ui/panel.py:831
+msgctxt "Operator"
+msgid "Remove"
+msgstr "移除"
+
+#: ops/external_axes.py:1034
+msgctxt "Operator"
+msgid "Remove External Axis"
+msgstr "移除外部轴"
+
+#: prefs.py:74
+msgctxt "Operator"
+msgid "Remove Package Search Path"
+msgstr "移除包搜索路径"
+
+#: prefs.py:75
+msgctxt "Operator"
+msgid "Remove the selected search path"
+msgstr "移除所选搜索路径"
+
+#: ui/panel.py:489
+#: ui/panel.py:675
+msgctxt "Operator"
+msgid "Reset"
+msgstr "重置"
+
+#: ui/panel.py:212
+msgctxt "Operator"
+msgid "Reset Meshes"
+msgstr "重置网格"
+
+#: ui/panel.py:204
+msgctxt "Operator"
+msgid "Rest Pose"
+msgstr "静止姿态"
+
+#: ops/import_robot.py:413
+msgctxt "Operator"
+msgid "Robot URDF (.urdf/.xacro)"
+msgstr "机器人 URDF (.urdf/.xacro)"
+
+#: ops/import_robot.py:254
+msgctxt "Operator"
+msgid "Search 186 robot descriptions and copy the git command to download one"
+msgstr "搜索 186 个机器人描述，并复制下载其中一个的 git 命令"
+
+#: ui/panel.py:117
+msgctxt "Operator"
+msgid "Search Catalog…"
+msgstr "搜索目录…"
+
+#: ui/panel.py:748
+msgctxt "Operator"
+msgid "Snap to Tool"
+msgstr "吸附到工具"
+
+#: ui/panel.py:543
+msgctxt "Operator"
+msgid "Update"
+msgstr "更新"

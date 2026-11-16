@@ -1,0 +1,304 @@
+# perfect-chinese: 1
+# id: uvo_overlays
+# kind: addon
+# module: bl_ext.blender_org.uvo_overlays
+# name: UVO
+# name_zh: 动态UV叠加
+# translator: KeshiMiao
+# category: UV
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: props.py:374
+msgid "10 px"
+msgstr "10 px"
+
+#: props.py:375
+msgid "12 px"
+msgstr "12 px"
+
+#: props.py:376
+msgid "16 px"
+msgstr "16 px"
+
+#: props.py:370
+msgid "2 px"
+msgstr "2 px"
+
+#: props.py:377
+msgid "24 px"
+msgstr "24 px"
+
+#: props.py:378
+msgid "32 px"
+msgstr "32 px"
+
+#: props.py:371
+msgid "4 px"
+msgstr "4 px"
+
+#: props.py:372
+msgid "6 px"
+msgstr "6 px"
+
+#: props.py:373
+msgid "8 px"
+msgstr "8 px"
+
+#: props.py:393
+msgid "Both"
+msgstr "两者"
+
+#: props.py:395
+msgid "Checker"
+msgstr "棋盘格"
+
+#: props.py:307
+msgid "Color each UV island distinctly"
+msgstr "为每个 UV 孤岛分配不同颜色"
+
+#: __init__.py:287
+msgid "Debug Logging"
+msgstr "调试日志"
+
+#: props.py:280
+msgid "Density"
+msgstr "密度"
+
+#: props.py:287
+msgid "Display unit for Texel Density"
+msgstr "纹素密度的显示单位"
+
+#: props.py:353
+msgid "Each UDIM tile is independent — no coordinate folding. Use when each tile bakes to a separate texture."
+msgstr "每个 UDIM 瓦片相互独立——不折叠坐标。当每个瓦片烘焙到单独纹理时使用。"
+
+#: ui.py:18
+msgid "Enable Overlays first"
+msgstr "请先启用叠加层"
+
+#: ui.py:22
+msgid "Enter Edit Mode to use"
+msgstr "进入编辑模式后使用"
+
+#: props.py:349
+msgid "Fold all UV tiles into (0,1) before detection — finds overlaps between islands placed in different tiles that share the same texel space. Use for tiling/repeating textures."
+msgstr "检测前将所有 UV 瓦片折叠到 (0,1)——可找到位于不同瓦片但共享同一纹素空间的孤岛之间的重叠。用于平铺/重复纹理。"
+
+#: props.py:394
+msgid "Heatmap"
+msgstr "热力图"
+
+#: props.py:261
+msgid "Height"
+msgstr "高度"
+
+#: props.py:331
+msgid "Highlight overlapping UV islands"
+msgstr "高亮重叠的 UV 孤岛"
+
+#: props.py:322
+msgid "How to assign colors to UV islands"
+msgstr "如何为 UV 孤岛分配颜色"
+
+#: props.py:275
+msgid "Internal Texel Density (ALWAYS stored in px/m)"
+msgstr "内部纹素密度（始终以 px/m 存储）"
+
+#: props.py:331
+#: ui.py:67
+msgid "Intersect"
+msgstr "相交"
+
+#: props.py:337
+msgid "Intersect overlay opacity"
+msgstr "相交叠加层不透明度"
+
+#: props.py:326
+msgid "Island"
+msgstr "孤岛"
+
+#: props.py:268
+msgid "Keep texture width and height in sync"
+msgstr "保持纹理宽度和高度同步"
+
+#: props.py:268
+msgid "Link Resolutions"
+msgstr "链接分辨率"
+
+#: props.py:367
+msgid "Minimum padding distance between islands in pixels"
+msgstr "孤岛之间的最小间距（像素）"
+
+#: props.py:322
+#: props.py:390
+msgid "Mode"
+msgstr "模式"
+
+#: props.py:301
+msgid "Mute Overlays"
+msgstr "静音叠加层"
+
+#: ui.py:48
+msgid "No active object"
+msgstr "无活动物体"
+
+#: props.py:325
+msgid "Object"
+msgstr "物体"
+
+#: ui.py:126
+msgid "Objects have different texture settings"
+msgstr "物体具有不同的纹理设置"
+
+#: props.py:325
+msgid "One color per object"
+msgstr "每个物体一种颜色"
+
+#: props.py:326
+msgid "One color per topologically connected island"
+msgstr "每个拓扑相连的孤岛一种颜色"
+
+#: props.py:313
+#: props.py:337
+msgid "Opacity"
+msgstr "不透明度"
+
+#: props.py:360
+#: props.py:367
+msgid "Padding"
+msgstr "间距"
+
+#: ui.py:92
+msgid "Padding:"
+msgstr "间距："
+
+#: props.py:291
+msgid "Pixels per Centimeter"
+msgstr "像素/厘米"
+
+#: props.py:290
+msgid "Pixels per Meter"
+msgstr "像素/米"
+
+#: __init__.py:287
+msgid "Print [UVO] debug messages to the system console, including worker file logs and rebuild timing"
+msgstr "将 [UVO] 调试消息打印到系统控制台，包括工作线程文件日志和重建耗时"
+
+#: props.py:393
+msgid "Show heatmap and checker grid simultaneously"
+msgstr "同时显示热力图和棋盘格"
+
+#: props.py:360
+msgid "Show padding zones — highlights islands whose padding areas overlap, indicating potential mipmap bleed"
+msgstr "显示间距区域——高亮间距区域重叠的孤岛，表示可能存在 mipmap 渗色"
+
+#: props.py:394
+msgid "Smooth color gradient — blue (compressed) to red (stretched)"
+msgstr "平滑颜色渐变——蓝色（压缩）到红色（拉伸）"
+
+#: props.py:384
+#: ui.py:96
+msgid "Stretch"
+msgstr "拉伸"
+
+#: props.py:401
+msgid "Stretch overlay opacity"
+msgstr "拉伸叠加层不透明度"
+
+#: props.py:280
+msgid "Target Texel Density"
+msgstr "目标纹素密度"
+
+#: props.py:301
+msgid "Temporarily hide all overlays without changing settings"
+msgstr "临时隐藏所有叠加层，不更改设置"
+
+#: ui.py:27
+msgid "Texture Setup"
+msgstr "纹理设置"
+
+#: props.py:261
+msgid "Texture height (used by all overlays that work in pixel space)"
+msgstr "纹理高度（供所有基于像素空间的叠加层使用）"
+
+#: props.py:254
+msgid "Texture width (used by all overlays that work in pixel space)"
+msgstr "纹理宽度（供所有基于像素空间的叠加层使用）"
+
+#: props.py:349
+msgid "Tiled"
+msgstr "平铺"
+
+#: props.py:353
+msgid "UDIM"
+msgstr "UDIM"
+
+#: props.py:307
+#: ui.py:52
+msgid "UV ID"
+msgstr "UV ID"
+
+#: ui.py:5
+msgid "UV ID Overlay"
+msgstr "UV ID 叠加层"
+
+#: props.py:313
+msgid "UV ID overlay transparency"
+msgstr "UV ID 叠加层透明度"
+
+#: props.py:346
+msgid "UV Mode"
+msgstr "UV 模式"
+
+#: props.py:287
+msgid "Unit"
+msgstr "单位"
+
+#: props.py:384
+msgid "Visualize texel density deviation from a target value"
+msgstr "可视化纹素密度与目标值的偏差"
+
+#: props.py:395
+msgid "Warped grid that deforms with UV distortion"
+msgstr "随 UV 扭曲而变形的网格"
+
+#: props.py:390
+msgid "Which visual layers to display for the stretch overlay"
+msgstr "拉伸叠加层要显示的视觉图层"
+
+#: props.py:254
+msgid "Width"
+msgstr "宽度"
+
+#: props.py:291
+msgid "px/cm"
+msgstr "px/cm"
+
+#: props.py:290
+msgid "px/m"
+msgstr "px/m"
+
+#: ops.py:31
+msgctxt "Operator"
+msgid "Calculate the actual texel density of the selected UV island and write it into the Stretch target field"
+msgstr "计算所选 UV 孤岛的实际纹素密度，并写入拉伸目标值字段"
+
+#: ops.py:19
+msgctxt "Operator"
+msgid "Refresh UV ID Overlay"
+msgstr "刷新 UV ID 叠加层"
+
+#: ops.py:30
+msgctxt "Operator"
+msgid "Sample Texel Density"
+msgstr "采样纹素密度"
+
+#: ops.py:8
+msgctxt "Operator"
+msgid "UV Overlays"
+msgstr "UV 叠加层"

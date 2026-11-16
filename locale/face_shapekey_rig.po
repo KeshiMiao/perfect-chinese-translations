@@ -1,0 +1,4991 @@
+# perfect-chinese: 1
+# id: face_shapekey_rig
+# kind: addon
+# module: bl_ext.blender_org.face_shapekey_rig
+# name: Face Shape Key Rig
+# name_zh: 面部形态键绑定
+# translator: KeshiMiao
+# category: 
+# supported_versions: >=5.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: face_shapekey_rig/face_ui.py:1966
+#: face_shapekey_rig/face_ui.py:2288
+msgid "%d"
+msgstr "%d"
+
+#: face_shapekey_rig/core.py:7068
+msgid "%d fr"
+msgstr "%d 帧"
+
+#: face_shapekey_rig/atlas.py:3612
+#: face_shapekey_rig/atlas.py:4014
+msgid "%d-%d"
+msgstr "%d-%d"
+
+#: face_shapekey_rig/face_ui.py:1862
+msgid "%d개"
+msgstr "%d 个"
+
+#: face_shapekey_rig/face_ui.py:158
+msgid "%s  %s"
+msgstr "%s  %s"
+
+#: face_shapekey_rig/panels.py:232
+msgid "%s %s"
+msgstr "%s %s"
+
+#: face_shapekey_rig/face_ui.py:465
+msgid "'%s' 마커를 만들고 '%s' 태그와 연결합니다 (태그가 없으면 같이 만듦)"
+msgstr "创建 '%s' 标记并关联到 '%s' 标签（若标签不存在则一并创建）"
+
+#: face_shapekey_rig/eye.py:2637
+msgid "'머리카락 위로' 복사본 메시를 와이어로 표시합니다 (머리카락 앞에 있는지 확인용)"
+msgstr "以线框显示“头发上方”副本网格（用于检查是否位于头发前面）"
+
+#: face_shapekey_rig/eye.py:2632
+msgid "'머리카락 위로' 파츠가 뷰포트 시점을 따라갑니다. 화면을 돌리는 동안에는 가볍게 두었다가 멈추면 바로 맞춥니다 (렌더와는 무관)"
+msgstr "“头发上方”部件会跟随视图视角。旋转视图时保持轻量，停止后立即对齐（与渲染无关）"
+
+#: face_shapekey_rig/eye.py:2621
+msgid "'머리카락 위로' 파츠가 뷰포트 시점을 얼마나 자주 따라갈지 (렌더와는 무관)"
+msgstr "“头发上方”部件跟随视图视角的频率（与渲染无关）"
+
+#: face_shapekey_rig/eye.py:2605
+msgid "'머리카락 위로' 파츠를 보는 쪽으로 얼마나 앞당길지. 앞머리보다 앞에 올 만큼만 (너무 크면 옆모습에서 반대쪽 파츠가 머리를 뚫고 보일 수 있음)"
+msgstr "“头发上方”部件朝观察方向前移的量。只需前移到刘海之前（过大时，在侧视图中另一侧部件可能穿透头部而可见）"
+
+#: face_shapekey_rig/face_ui.py:2966
+msgid "("
+msgstr "("
+
+#: face_shapekey_rig/atlas.py:4128
+#: face_shapekey_rig/atlas.py:4197
+msgid "(%d)"
+msgstr "(%d)"
+
+#: face_shapekey_rig/face_ui.py:478
+msgid "(%s)"
+msgstr "(%s)"
+
+#: face_shapekey_rig/operators.py:827
+#: face_shapekey_rig/operators.py:836
+msgid "(변경 안 함)"
+msgstr "(不更改)"
+
+#: face_shapekey_rig/panels.py:245
+msgid "(비어 있음)"
+msgstr "(空)"
+
+#: face_shapekey_rig/core.py:5846
+#: face_shapekey_rig/core.py:5855
+msgid "(사용 안 함)"
+msgstr "(不使用)"
+
+#: face_shapekey_rig/atlas.py:3989
+#: face_shapekey_rig/atlas.py:4028
+msgid "(상하 반전)"
+msgstr "(上下翻转)"
+
+#: face_shapekey_rig/eye.py:2641
+msgid "(예전) 머리카락 위 불투명도"
+msgstr "(旧版) 头发上方不透明度"
+
+#: face_shapekey_rig/atlas.py:3989
+#: face_shapekey_rig/atlas.py:4028
+msgid "(좌우 반전)"
+msgstr "(左右翻转)"
+
+#: face_shapekey_rig/face_ui.py:2966
+msgid ")"
+msgstr ")"
+
+#: face_shapekey_rig/panels.py:200
+msgid "+"
+msgstr "+"
+
+#: face_shapekey_rig/face_ui.py:2447
+msgid "+ 로 태그를 만들거나, 파츠를 추가할 때 '새 태그'로 바로 만드세요"
+msgstr "用 + 创建标签，或在添加部件时选择“新建标签”直接创建"
+
+#: face_shapekey_rig/atlas.py:4136
+#: face_shapekey_rig/eye.py:6097
+msgid ","
+msgstr ","
+
+#: face_shapekey_rig/core.py:2436
+#: face_shapekey_rig/eye.py:6097
+msgid "-"
+msgstr "-"
+
+#: face_shapekey_rig/eye.py:2706
+#: face_shapekey_rig/eye.py:4743
+msgid "-X"
+msgstr "-X"
+
+#: face_shapekey_rig/eye.py:2703
+#: face_shapekey_rig/eye.py:4740
+msgid "-Y"
+msgstr "-Y"
+
+#: face_shapekey_rig/eye.py:7595
+msgid "/"
+msgstr "/"
+
+#: face_shapekey_rig/face_ui.py:2012
+msgid "100% 가까이면 앞뒤가 겹쳐 깜빡일 수 있습니다"
+msgstr "接近 100% 时，前后可能重叠并闪烁"
+
+#: face_shapekey_rig/core.py:3057
+msgid "2D 패드"
+msgstr "2D 控制板"
+
+#: face_shapekey_rig/eye.py:7462
+#: face_shapekey_rig/eye.py:7478
+msgid ":"
+msgstr ":"
+
+#: face_shapekey_rig/face_ui.py:2658
+msgid "= %.3f"
+msgstr "= %.3f"
+
+#: face_shapekey_rig/eye.py:7405
+msgid "?"
+msgstr "?"
+
+#: face_shapekey_rig/atlas.py:1936
+#: face_shapekey_rig/atlas.py:2067
+msgid "A"
+msgstr "A"
+
+#: face_shapekey_rig/core.py:2449
+msgid "ARKit"
+msgstr "ARKit"
+
+#: face_shapekey_rig/core.py:2752
+msgid "Blender 설정 'Only Insert Available'이 켜져 있어 컨트롤러 손잡이에 새 키가 들어가지 않습니다"
+msgstr "Blender 设置“Only Insert Available”已启用，无法在控制器手柄上插入新关键帧"
+
+#: face_shapekey_rig/atlas.py:2041
+#: face_shapekey_rig/eye.py:1366
+msgid "Constant"
+msgstr "常量"
+
+#: face_shapekey_rig/atlas.py:1945
+#: face_shapekey_rig/atlas.py:2070
+msgid "E"
+msgstr "E"
+
+#: face_shapekey_rig/core.py:2061
+msgid "English"
+msgstr "英语"
+
+#: face_shapekey_rig/atlas.py:3822
+#: face_shapekey_rig/atlas.py:3865
+msgid "Face Rig"
+msgstr "面部绑定"
+
+#: face_shapekey_rig/atlas.py:1939
+#: face_shapekey_rig/atlas.py:2068
+msgid "I"
+msgstr "I"
+
+#: face_shapekey_rig/face_ui.py:3078
+msgid "L"
+msgstr "L"
+
+#: face_shapekey_rig/core.py:2059
+msgid "Language / 언어"
+msgstr "Language / 语言"
+
+#: face_shapekey_rig/atlas.py:2043
+#: face_shapekey_rig/eye.py:1368
+msgid "Linear"
+msgstr "线性"
+
+#: face_shapekey_rig/operators.py:2310
+msgid "Location"
+msgstr "位置"
+
+#: face_shapekey_rig/atlas.py:1948
+#: face_shapekey_rig/atlas.py:2071
+msgid "O"
+msgstr "O"
+
+#: face_shapekey_rig/face_ui.py:423
+msgid "OK를 누르면 정면 뷰로 바뀌고 바로 얼굴을 클릭해 위치를 찍습니다"
+msgstr "点击“确定”后切换到正视图，然后直接点击面部标记位置"
+
+#: face_shapekey_rig/eye.py:4804
+msgid "RIGHT"
+msgstr "RIGHT"
+
+#: face_shapekey_rig/eye.py:4804
+msgid "Right"
+msgstr "右"
+
+#: face_shapekey_rig/operators.py:2310
+msgid "Rotation"
+msgstr "旋转"
+
+#: face_shapekey_rig/operators.py:2311
+msgid "Scale"
+msgstr "缩放"
+
+#: face_shapekey_rig/atlas.py:2044
+#: face_shapekey_rig/eye.py:1369
+msgid "Spline"
+msgstr "样条"
+
+#: face_shapekey_rig/atlas.py:1942
+#: face_shapekey_rig/atlas.py:2069
+msgid "U"
+msgstr "U"
+
+#: face_shapekey_rig/atlas.py:1843
+msgid "UV Warp 모디파이어"
+msgstr "UV 变形修改器"
+
+#: face_shapekey_rig/atlas.py:1906
+msgid "UV Warp를 이 그룹에만 적용 (얼굴 메시 일부일 때)"
+msgstr "仅将 UV 变形应用于此组（当它是面部网格的一部分时）"
+
+#: face_shapekey_rig/atlas.py:1904
+#: face_shapekey_rig/eye.py:2561
+msgid "UV 맵"
+msgstr "UV 贴图"
+
+#: face_shapekey_rig/eye.py:5513
+msgid "UV 여백"
+msgstr "UV 边距"
+
+#: face_shapekey_rig/atlas.py:1501
+#: face_shapekey_rig/atlas.py:1513
+msgid "X"
+msgstr "X"
+
+#: face_shapekey_rig/core.py:2413
+msgid "X+"
+msgstr "X+"
+
+#: face_shapekey_rig/core.py:2413
+msgid "X−"
+msgstr "X−"
+
+#: face_shapekey_rig/atlas.py:1504
+#: face_shapekey_rig/atlas.py:1516
+msgid "Y"
+msgstr "Y"
+
+#: face_shapekey_rig/core.py:2414
+msgid "Y+"
+msgstr "Y+"
+
+#: face_shapekey_rig/core.py:2414
+msgid "Y−"
+msgstr "Y−"
+
+#: face_shapekey_rig/core.py:2362
+#: face_shapekey_rig/core.py:2769
+msgid "Z"
+msgstr "Z"
+
+#: face_shapekey_rig/panels.py:299
+msgid "iFacialMocap"
+msgstr "iFacialMocap"
+
+#: face_shapekey_rig/core.py:2870
+msgid "iFacialMocap 앱 화면에 표시되는 아이폰의 IP 주소 (같은 와이파이여야 함)"
+msgstr "iFacialMocap 应用屏幕上显示的 iPhone IP 地址（需在同一 Wi-Fi 下）"
+
+#: face_shapekey_rig/atlas_vp.py:748
+#: face_shapekey_rig/layer_vp.py:326
+msgid "pose.bones[\"FP_toggle\"].location[0]"
+msgstr "pose.bones[\"FP_toggle\"].location[0]"
+
+#: face_shapekey_rig/atlas.py:4028
+#: face_shapekey_rig/atlas.py:4111
+msgid "·"
+msgstr "·"
+
+#: face_shapekey_rig/face_ui.py:2257
+msgid "…"
+msgstr "…"
+
+#: face_shapekey_rig/face_ui.py:2017
+msgid "① 얼굴 캔버스"
+msgstr "① 面部画布"
+
+#: face_shapekey_rig/face_ui.py:139
+msgid "① 얼굴 캔버스 · ② 위치 마커 · ③ 스프라이트 시트"
+msgstr "① 面部画布 · ② 位置标记 · ③ 精灵图集"
+
+#: face_shapekey_rig/atlas.py:3881
+msgid "①에서 리그를 먼저 지정하세요"
+msgstr "请在①中先指定骨架"
+
+#: face_shapekey_rig/face_ui.py:2761
+msgid "①에서 캔버스와 리그를 먼저 정하세요"
+msgstr "请在①中先设置画布和骨架"
+
+#: face_shapekey_rig/face_ui.py:2181
+msgid "② 위치 마커"
+msgstr "② 位置标记"
+
+#: face_shapekey_rig/face_ui.py:1201
+msgid "②에서 마커를 먼저 만들면 기준점으로 고를 수 있습니다"
+msgstr "先在②中创建标记，即可将其选为基准点"
+
+#: face_shapekey_rig/face_ui.py:2229
+msgid "③ 스프라이트 시트"
+msgstr "③ 精灵图集"
+
+#: face_shapekey_rig/face_ui.py:141
+#: face_shapekey_rig/face_ui.py:2420
+msgid "④ 캔버스 레이어 (파츠 배치)"
+msgstr "④ 画布图层（部件摆放）"
+
+#: face_shapekey_rig/face_ui.py:2704
+msgid "④·⑥에서 파츠를 고친 뒤 '저장하고 끝내기'"
+msgstr "在④·⑥中修改部件后，点击“保存并结束”"
+
+#: face_shapekey_rig/atlas.py:3964
+msgid "④에서 + → 이 시트의 입 모양 → '입' 태그로 입 파츠를 만드세요"
+msgstr "在④中点击 + → 此图集的嘴型 → 用“嘴”标签创建嘴部部件"
+
+#: face_shapekey_rig/face_ui.py:2678
+msgid "④에서 파츠를 배치한 뒤 표정으로 저장합니다"
+msgstr "在④中摆放部件后，保存为表情"
+
+#: face_shapekey_rig/face_ui.py:142
+#: face_shapekey_rig/face_ui.py:2670
+msgid "⑤ 표정 프리셋"
+msgstr "⑤ 表情预设"
+
+#: face_shapekey_rig/atlas.py:3862
+msgid "⑥ 입 (시퀀스·립싱크)"
+msgstr "⑥ 嘴部（序列·口型同步）"
+
+#: face_shapekey_rig/face_ui.py:143
+msgid "⑥ 입 시퀀스 · 립싱크"
+msgstr "⑥ 嘴部序列 · 口型同步"
+
+#: face_shapekey_rig/core.py:2063
+msgid "中文"
+msgstr "中文"
+
+#: face_shapekey_rig/core.py:2062
+msgid "日本語"
+msgstr "日语"
+
+#: face_shapekey_rig/atlas.py:1495
+#: face_shapekey_rig/atlas.py:1507
+msgid "가로"
+msgstr "水平"
+
+#: face_shapekey_rig/operators.py:402
+#: face_shapekey_rig/operators.py:607
+msgid "가로 → 본 축"
+msgstr "水平 → 骨骼轴"
+
+#: face_shapekey_rig/operators.py:409
+#: face_shapekey_rig/operators.py:611
+msgid "가로 이동량"
+msgstr "水平移动量"
+
+#: face_shapekey_rig/operators.py:467
+#: face_shapekey_rig/operators.py:740
+msgid "가로 회전량 (도)"
+msgstr "水平旋转量（度）"
+
+#: face_shapekey_rig/eye.py:2627
+msgid "가볍게"
+msgstr "轻微"
+
+#: face_shapekey_rig/face_ui.py:2458
+msgid "가운데"
+msgstr "居中"
+
+#: face_shapekey_rig/atlas.py:1981
+msgid "가장자리 잘라내기"
+msgstr "边缘裁剪"
+
+#: face_shapekey_rig/operators.py:2892
+msgid "가져온 리그"
+msgstr "已导入的骨架"
+
+#: face_shapekey_rig/atlas.py:1981
+msgid "각 칸의 테두리를 이만큼 투명하게 잘라냅니다. 칸 모서리의 번호 글씨나 가이드선이 보일 때 사용 (그림이 칸 가운데 있어야 함)"
+msgstr "按此值将各单元格边缘裁成透明。用于单元格角上编号或参考线可见时（图像须居中于单元格）"
+
+#: face_shapekey_rig/face_ui.py:2073
+msgid "감정표현 Plane · 머리 본: %s"
+msgstr "表情平面 · 头部骨骼：%s"
+
+#: face_shapekey_rig/eye.py:2646
+msgid "감정표현 Plane: 켜면 면이 항상 활성 카메라 정면을 봅니다 (위치는 머리를 따라감). 끄면 머리 정면에 고정"
+msgstr "表情平面：开启时平面始终朝向活动摄像机正面（位置跟随头部）；关闭时固定在头部正面"
+
+#: face_shapekey_rig/core.py:2411
+msgid "값"
+msgstr "值"
+
+#: face_shapekey_rig/core.py:2412
+msgid "값 −"
+msgstr "值 −"
+
+#: face_shapekey_rig/operators.py:4207
+msgid "값 단위 오차 한도. 클수록 키가 많이 줄어듭니다"
+msgstr "值单位误差容限。越大，关键帧缩减得越多"
+
+#: face_shapekey_rig/core.py:2878
+msgid "값 떨림 완화. 높을수록 부드럽지만 반응이 느려집니다"
+msgstr "值抖动抑制。越高越平滑，但响应越慢"
+
+#: face_shapekey_rig/atlas.py:4303
+msgid "값을 바꾸면 그 단계가 미리보기됩니다"
+msgstr "更改值会预览该阶段"
+
+#: face_shapekey_rig/operators.py:167
+#: face_shapekey_rig/operators.py:314
+msgid "같은 그룹끼리 목록에서 묶어 표시 (비우면 그룹 없음)"
+msgstr "相同组会在列表中分组显示（留空则无分组）"
+
+#: face_shapekey_rig/face_ui.py:2531
+msgid "같은 태그로 같은 자리에 폴더를 하나 더 만들면 둘 중 하나만 켜집니다"
+msgstr "在同一位置用相同标签再创建一个文件夹，则两者只能启用其一"
+
+#: face_shapekey_rig/core.py:2944
+msgid "갸웃 →"
+msgstr "歪头 →"
+
+#: face_shapekey_rig/core.py:2951
+msgid "갸웃 방향 반전"
+msgstr "反转歪头方向"
+
+#: face_shapekey_rig/atlas.py:1834
+msgid "격자 (행=표정, 열=입)"
+msgstr "网格（行=表情，列=嘴部）"
+
+#: face_shapekey_rig/atlas.py:2087
+msgid "격자 이미지 칸 전환 (텍스처 표정·립싱크)"
+msgstr "网格图像单元格切换（纹理表情·口型同步）"
+
+#: face_shapekey_rig/atlas.py:1900
+msgid "격자로 그린 스프라이트 시트 이미지"
+msgstr "按网格绘制的精灵图集图像"
+
+#: face_shapekey_rig/face_ui.py:2575
+msgid "겹치기"
+msgstr "叠加"
+
+#: face_shapekey_rig/eye.py:2591
+msgid "고른 눈의 시선 패드와 칸 값을 그대로 씁니다 (같은 이름의 파츠끼리). 오른쪽 눈을 왼쪽 눈에 연결할 때"
+msgstr "直接使用所选眼睛的视线控制板和单元格值（仅限同名部件）。用于将右眼连接到左眼时"
+
+#: face_shapekey_rig/face_ui.py:2843
+msgid "고른 칸이 키프레임과 상관없이 계속 보입니다. 끝나면 꼭 끄세요"
+msgstr "所选单元格会无视关键帧持续显示。完成后请务必关闭"
+
+#: face_shapekey_rig/eye.py:2304
+#: face_shapekey_rig/eye.py:2805
+msgid "곱하기"
+msgstr "正片叠底"
+
+#: face_shapekey_rig/atlas.py:4014
+msgid "공통값 (움직이면 이 칸만 저장)"
+msgstr "公共值（移动时仅保存此单元格）"
+
+#: face_shapekey_rig/face_ui.py:482
+msgid "괄호 = 그 태그가 지금 쓰는 마커"
+msgstr "括号 = 该标签当前使用的标记"
+
+#: face_shapekey_rig/core.py:2922
+msgid "구간 앞뒤로 이만큼의 프레임에 걸쳐 부드럽게 전환"
+msgstr "在区间前后用这么多帧平滑过渡"
+
+#: face_shapekey_rig/operators.py:397
+#: face_shapekey_rig/operators.py:602
+msgid "구동 방식"
+msgstr "驱动方式"
+
+#: face_shapekey_rig/eye.py:2302
+msgid "그 색으로 칠함 (명암 없어짐)"
+msgstr "填充为该颜色（无明暗）"
+
+#: face_shapekey_rig/eye.py:2693
+#: face_shapekey_rig/operators.py:167
+msgid "그룹"
+msgstr "组"
+
+#: face_shapekey_rig/face_ui.py:1763
+msgid "그룹 선택 무시하고 전부 적용"
+msgstr "忽略组选择并全部应用"
+
+#: face_shapekey_rig/eye.py:2688
+msgid "그룹만 적용"
+msgstr "仅应用组"
+
+#: face_shapekey_rig/face_ui.py:2980
+msgid "그림"
+msgstr "图像"
+
+#: face_shapekey_rig/atlas.py:1973
+msgid "그림 가로 크기 (종횡비 고정을 끈 경우)"
+msgstr "图像宽度（关闭锁定宽高比时）"
+
+#: face_shapekey_rig/atlas.py:1977
+msgid "그림 세로 크기 (종횡비 고정을 끈 경우)"
+msgstr "图像高度（关闭锁定宽高比时）"
+
+#: face_shapekey_rig/atlas.py:1964
+#: face_shapekey_rig/atlas.py:1992
+msgid "그림 크기"
+msgstr "图像尺寸"
+
+#: face_shapekey_rig/atlas.py:2022
+msgid "그림을 데칼 위에서 위아래로 이동 (칸 높이 대비 %)"
+msgstr "在贴花上上下移动图像（相对单元格高度 %）"
+
+#: face_shapekey_rig/atlas.py:2018
+msgid "그림을 데칼 위에서 좌우로 이동 (칸 너비 대비 %)"
+msgstr "在贴花上左右移动图像（相对单元格宽度 %）"
+
+#: face_shapekey_rig/eye.py:1349
+msgid "기본 위치 Y"
+msgstr "默认位置 Y"
+
+#: face_shapekey_rig/eye.py:1346
+msgid "기본 크기"
+msgstr "默认尺寸"
+
+#: face_shapekey_rig/operators.py:170
+#: face_shapekey_rig/operators.py:317
+msgid "기존 그룹"
+msgstr "现有组"
+
+#: face_shapekey_rig/operators.py:170
+#: face_shapekey_rig/operators.py:317
+msgid "기존 그룹/컬렉션에서 골라 채웁니다"
+msgstr "从现有组/集合中选择并填充"
+
+#: face_shapekey_rig/eye.py:1329
+#: face_shapekey_rig/face_ui.py:1149
+msgid "기준 마커"
+msgstr "基准标记"
+
+#: face_shapekey_rig/atlas.py:1453
+msgid "기준 칸"
+msgstr "基准单元格"
+
+#: face_shapekey_rig/eye.py:2339
+#: face_shapekey_rig/face_ui.py:2654
+msgid "깊이 (패럴랙스)"
+msgstr "深度（视差）"
+
+#: face_shapekey_rig/face_ui.py:2665
+msgid "깊이 있는 파츠 %d개"
+msgstr "带深度的部件 %d 个"
+
+#: face_shapekey_rig/core.py:2938
+msgid "끄덕임 →"
+msgstr "点头 →"
+
+#: face_shapekey_rig/core.py:2947
+msgid "끄덕임 방향 반전"
+msgstr "反转点头方向"
+
+#: face_shapekey_rig/operators.py:837
+msgid "끔"
+msgstr "关"
+
+#: face_shapekey_rig/operators.py:1595
+msgid "끝 프레임"
+msgstr "结束帧"
+
+#: face_shapekey_rig/operators.py:1067
+msgid "내용"
+msgstr "内容"
+
+#: face_shapekey_rig/core.py:2874
+msgid "녹화"
+msgstr "录制"
+
+#: face_shapekey_rig/core.py:2891
+msgid "녹화 시작 버튼을 누른 뒤 재생까지의 대기 시간 (0 = 즉시 시작)"
+msgstr "按下开始录制按钮后到播放前的等待时间（0 = 立即开始）"
+
+#: face_shapekey_rig/face_ui.py:662
+#: face_shapekey_rig/face_ui.py:663
+msgid "눈"
+msgstr "眼睛"
+
+#: face_shapekey_rig/eye.py:2591
+#: face_shapekey_rig/eye.py:7478
+msgid "다른 눈 따라가기"
+msgstr "跟随另一只眼睛"
+
+#: face_shapekey_rig/eye.py:2240
+msgid "다른 레이어와 같은 칸 번호를 씁니다 (예: 속눈썹이 흰자의 깜빡임 단계를 따라감). 두 시트의 칸 배치가 같아야 합니다"
+msgstr "使用与其他图层相同的单元格编号（例如：睫毛跟随眼白的眨眼阶段）。两个图集的单元格布局必须相同"
+
+#: face_shapekey_rig/layer_vp.py:1212
+msgid "다른 버전의 이 애드온이 함께 켜져 있습니다"
+msgstr "同时启用了此插件的另一个版本"
+
+#: face_shapekey_rig/atlas.py:1918
+msgid "다른 스프라이트 시트의 행(표정)을 그대로 따라갑니다. 얼굴 표정과 범고래 표정을 한 번에 바꿀 때 사용"
+msgstr "完全跟随另一张精灵图集的行（表情）。用于同时更改面部表情和虎鲸表情"
+
+#: face_shapekey_rig/eye.py:7344
+msgid "다시 만들기"
+msgstr "重新创建"
+
+#: face_shapekey_rig/atlas.py:2041
+#: face_shapekey_rig/eye.py:1366
+msgid "다음 키까지 값 그대로 (뚝 바뀜)"
+msgstr "保持值直到下一个关键帧（突变）"
+
+#: face_shapekey_rig/atlas.py:1488
+msgid "단계"
+msgstr "阶段"
+
+#: face_shapekey_rig/atlas.py:1492
+msgid "단계 크기/위치"
+msgstr "阶段大小/位置"
+
+#: face_shapekey_rig/atlas.py:1472
+#: face_shapekey_rig/atlas.py:4238
+msgid "단일 입"
+msgstr "单个嘴"
+
+#: face_shapekey_rig/atlas.py:1456
+#: face_shapekey_rig/atlas.py:1490
+msgid "닫힘"
+msgstr "闭合"
+
+#: face_shapekey_rig/atlas.py:1492
+msgid "닫힘/반/열림 단계마다 칸의 크기와 위치를 따로 보정"
+msgstr "为闭合/半开/张开各阶段分别校正单元格大小和位置"
+
+#: face_shapekey_rig/eye.py:2814
+msgid "닷지"
+msgstr "减淡"
+
+#: face_shapekey_rig/panels.py:384
+msgid "대기 중 (앱/와이파이/IP 확인)"
+msgstr "等待中（检查应用/Wi-Fi/IP）"
+
+#: face_shapekey_rig/core.py:2450
+msgid "대상"
+msgstr "目标"
+
+#: face_shapekey_rig/core.py:2858
+#: face_shapekey_rig/operators.py:388
+msgid "대상 리그"
+msgstr "目标骨架"
+
+#: face_shapekey_rig/core.py:2862
+msgid "대상 본"
+msgstr "目标骨骼"
+
+#: face_shapekey_rig/operators.py:391
+#: face_shapekey_rig/operators.py:598
+msgid "대상 본 1"
+msgstr "目标骨骼 1"
+
+#: face_shapekey_rig/operators.py:394
+#: face_shapekey_rig/operators.py:600
+msgid "대상 본 2 (선택)"
+msgstr "目标骨骼 2（可选）"
+
+#: face_shapekey_rig/atlas.py:1897
+#: face_shapekey_rig/eye.py:2560
+msgid "대상 오브젝트"
+msgstr "目标物体"
+
+#: face_shapekey_rig/operators.py:1750
+msgid "대상 컬렉션"
+msgstr "目标集合"
+
+#: face_shapekey_rig/operators.py:1125
+msgid "대상 텍스트"
+msgstr "目标文本"
+
+#: face_shapekey_rig/eye.py:1333
+msgid "대칭"
+msgstr "对称"
+
+#: face_shapekey_rig/eye.py:2267
+msgid "대칭 복사"
+msgstr "镜像复制"
+
+#: face_shapekey_rig/eye.py:2277
+msgid "대칭 복사된 반대쪽만 (원본 숨김). 윙크처럼 반대쪽 눈에만 쓸 때"
+msgstr "仅显示镜像复制的另一侧（隐藏原侧）。用于像单眼眨眼一样只作用于另一只眼睛时"
+
+#: face_shapekey_rig/eye.py:2273
+msgid "대칭 복사일 때 어느 쪽을 보일지. 리그 프로퍼티라 키·표정 프리셋·파츠 폴더에 들어갑니다"
+msgstr "镜像复制时显示哪一侧。它是骨架属性，会包含在键、表情预设和部件文件夹中"
+
+#: face_shapekey_rig/eye.py:2810
+msgid "더하기 (선형 닷지)"
+msgstr "相加（线性减淡）"
+
+#: face_shapekey_rig/eye.py:2302
+msgid "덮기"
+msgstr "覆盖"
+
+#: face_shapekey_rig/eye.py:6413
+msgid "덮어쓰기"
+msgstr "覆写"
+
+#: face_shapekey_rig/eye.py:2267
+msgid "데칼 가운데를 기준으로 반대쪽에 거울처럼 하나 더 그립니다 (땀방울, 빗금 등). 리그 프로퍼티라 키·표정 프리셋·파츠 폴더에 들어갑니다"
+msgstr "以贴花中心为基准，在对侧像镜子一样再绘制一个（汗滴、斜线等）。它是骨架属性，会包含在键、表情预设和部件文件夹中"
+
+#: face_shapekey_rig/atlas.py:1843
+msgid "데칼 오브젝트용. 머티리얼을 건드리지 않음"
+msgstr "用于贴花物体。不修改材质"
+
+#: face_shapekey_rig/atlas.py:1964
+msgid "데칼 위에서 그림이 보이는 크기. 줄여도 옆 칸이 침범하지 않습니다 (칸 밖은 투명 처리). 투명 배경 설정이 되어 있어야 잘림이 적용됩니다"
+msgstr "图像在贴花上的显示大小。即使缩小，相邻单元格也不会侵入（单元格外部按透明处理）。必须启用透明背景设置才会应用裁剪"
+
+#: face_shapekey_rig/atlas.py:3297
+msgid "도프시트·그래프 에디터에서 선택해 둔 키프레임만 (이 입)"
+msgstr "仅限在摄影表/曲线编辑器中选中的关键帧（此嘴）"
+
+#: face_shapekey_rig/eye.py:6962
+msgid "도프시트·그래프 에디터에서 선택해 둔 키프레임만 (이 파츠)"
+msgstr "仅限在摄影表/曲线编辑器中选中的关键帧（此部件）"
+
+#: face_shapekey_rig/eye.py:2627
+msgid "돌리는 동안은 그대로, 멈추면 맞춤 (가장 가벼움)"
+msgstr "旋转时保持原样，停止时对齐（最轻量）"
+
+#: face_shapekey_rig/core.py:2941
+msgid "돌림 →"
+msgstr "旋转 →"
+
+#: face_shapekey_rig/core.py:2949
+msgid "돌림 방향 반전"
+msgstr "反转旋转方向"
+
+#: face_shapekey_rig/atlas.py:2085
+msgid "드라이버 방식"
+msgstr "驱动器方式"
+
+#: face_shapekey_rig/atlas.py:1927
+msgid "드라이버 방식처럼 모음마다 지정한 입 칸으로 바뀝니다"
+msgstr "像驱动器方式一样，每个元音切换到指定的嘴部单元格"
+
+#: face_shapekey_rig/eye.py:2596
+msgid "따라가는 눈의 시선 좌우를 뒤집습니다 (데칼 UV가 좌우 반전되어 있을 때)"
+msgstr "翻转跟随眼睛的视线左右（贴花 UV 已左右反转时）"
+
+#: face_shapekey_rig/eye.py:2600
+msgid "따라가는 눈의 파츠를 전부 좌우 반전해서 사용"
+msgstr "跟随眼睛的部件全部左右翻转使用"
+
+#: face_shapekey_rig/eye.py:2596
+msgid "따라갈 때 좌우 반전"
+msgstr "跟随时左右翻转"
+
+#: face_shapekey_rig/core.py:2858
+msgid "따라갈 본이 있는 아마추어 (캐릭터 리그)"
+msgstr "带有跟随骨骼的骨架（角色绑定）"
+
+#: face_shapekey_rig/eye.py:5508
+msgid "띄우기"
+msgstr "弹出"
+
+#: face_shapekey_rig/core.py:2839
+#: face_shapekey_rig/operators.py:419
+msgid "라벨"
+msgstr "标签"
+
+#: face_shapekey_rig/operators.py:539
+msgid "라벨을 셰이프 키(또는 대상 본) 이름으로 채웁니다"
+msgstr "用形态键（或目标骨骼）名称填充标签"
+
+#: face_shapekey_rig/face_ui.py:2013
+msgid "렌더 카메라 기준: 다른 각도로 보면 납작해 보임"
+msgstr "以渲染摄像机为基准：从其他角度看会显得扁平"
+
+#: face_shapekey_rig/core.py:2824
+msgid "리그"
+msgstr "绑定"
+
+#: face_shapekey_rig/eye.py:7427
+msgid "리그를 먼저 지정하세요"
+msgstr "请先指定绑定"
+
+#: face_shapekey_rig/atlas.py:2056
+msgid "립싱크 방식"
+msgstr "口型同步方式"
+
+#: face_shapekey_rig/operators.py:3733
+msgid "립싱크 사운드 음소거"
+msgstr "口型同步声音静音"
+
+#: face_shapekey_rig/atlas.py:1834
+msgid "립싱크가 열만 바꿉니다. 표정마다 닫힘/반/열림을 가로로 배치"
+msgstr "口型同步只改变张口。每个表情横向排列闭合/半开/张开"
+
+#: face_shapekey_rig/atlas.py:2053
+msgid "립싱크에 사용"
+msgstr "用于口型同步"
+
+#: face_shapekey_rig/operators.py:3733
+msgid "립싱크용 사운드가 함께 울려 이중으로 들리는 것을 막습니다"
+msgstr "防止口型同步用的声音同时播放而造成重听"
+
+#: face_shapekey_rig/eye.py:2175
+msgid "마스크"
+msgstr "遮罩"
+
+#: face_shapekey_rig/face_ui.py:421
+msgid "마커"
+msgstr "标记"
+
+#: face_shapekey_rig/eye.py:2353
+msgid "마커 기준"
+msgstr "以标记为基准"
+
+#: face_shapekey_rig/eye.py:1358
+msgid "마커 추가 창에서: 이 태그의 기준을 새 마커로"
+msgstr "在添加标记窗口中：将此标签的基准设为新标记"
+
+#: face_shapekey_rig/eye.py:2679
+msgid "마커 표시"
+msgstr "显示标记"
+
+#: face_shapekey_rig/face_ui.py:1143
+#: face_shapekey_rig/face_ui.py:1689
+msgid "만든 뒤 한중일 입력 창을 띄워 이름을 씁니다 (Blender에서 한글 입력이 안 될 때)"
+msgstr "创建后弹出中日韩输入窗口来命名（Blender 无法输入韩文时）"
+
+#: face_shapekey_rig/atlas.py:3585
+msgid "만들 칸 (행, 열)"
+msgstr "要创建的格子（行、列）"
+
+#: face_shapekey_rig/eye.py:7343
+#: face_shapekey_rig/preset_vp.py:643
+msgid "만들기"
+msgstr "创建"
+
+#: face_shapekey_rig/layer_vp.py:1093
+msgid "만들기/갱신"
+msgstr "创建/更新"
+
+#: face_shapekey_rig/atlas.py:1932
+msgid "말하는 중 소리가 작을 때 (행, 열). -1 = 표정 칸 그대로"
+msgstr "说话中声音较小时（行、列）。-1 = 与表情格子相同"
+
+#: face_shapekey_rig/atlas.py:4277
+msgid "말할 때 쓸 입:"
+msgstr "说话时使用的嘴："
+
+#: face_shapekey_rig/atlas.py:1925
+msgid "말할 때 입"
+msgstr "说话时的嘴"
+
+#: face_shapekey_rig/face_ui.py:3004
+msgid "말할 때 입은 ⑥ 시퀀스·립싱크로 바뀝니다"
+msgstr "说话时的嘴会改为 ⑥ 序列·口型同步"
+
+#: face_shapekey_rig/atlas.py:4247
+msgid "말할 때도 이 입 그대로 (뻐끔 안 함)"
+msgstr "说话时也保持此嘴形（不张合）"
+
+#: face_shapekey_rig/atlas.py:1472
+msgid "말할 때도 이 입을 그대로 둡니다 (뻐끔거리지 않음). '나머지 표정 전부'의 입으로 바뀌지 않게 할 때 사용"
+msgstr "说话时也保持此嘴形（不张合）。用于避免切换为「其余全部表情」的嘴形"
+
+#: face_shapekey_rig/eye.py:2623
+msgid "매 프레임 따라감. 가장 부드럽지만 화면을 돌릴 때마다 씬 전체가 다시 계산되어 무거움"
+msgstr "每帧跟随。最平滑，但每次旋转视图都会重新计算整个场景，较为卡顿"
+
+#: face_shapekey_rig/panels.py:391
+msgid "매핑 (ARKit → 컨트롤러)"
+msgstr "映射（ARKit → 控制器）"
+
+#: face_shapekey_rig/face_ui.py:134
+msgid "머리 납작하게 (카메라 기준)"
+msgstr "压扁头部（以摄像机为基准）"
+
+#: face_shapekey_rig/core.py:2827
+#: face_shapekey_rig/eye.py:5738
+msgid "머리 본"
+msgstr "头部骨骼"
+
+#: face_shapekey_rig/core.py:2933
+msgid "머리 회전 반영 정도. 방향이 반대면 음수로"
+msgstr "头部旋转的反映程度。方向相反时使用负值"
+
+#: face_shapekey_rig/core.py:2930
+msgid "머리 회전을 따라 돌 본 (예: c_head.x, neck)"
+msgstr "跟随头部旋转转动的骨骼（例如：c_head.x、neck）"
+
+#: face_shapekey_rig/core.py:2927
+msgid "머리 회전을 적용할 본이 있는 아마추어"
+msgstr "包含要应用头部旋转骨骼的骨架"
+
+#: face_shapekey_rig/panels.py:368
+msgid "머리/목 회전"
+msgstr "头部/颈部旋转"
+
+#: face_shapekey_rig/eye.py:2346
+msgid "머리카락 위 불투명도"
+msgstr "头发上方不透明度"
+
+#: face_shapekey_rig/eye.py:1339
+#: face_shapekey_rig/eye.py:2335
+msgid "머리카락 위로"
+msgstr "头发上方"
+
+#: face_shapekey_rig/eye.py:2641
+msgid "머리카락 위로 보이는 부분의 진하기 (1 = 완전히 위, 0.5 = 머리카락이 비쳐 보임)"
+msgstr "显示在头发上方的部分的浓度（1 = 完全在上方，0.5 = 头发透出）"
+
+#: face_shapekey_rig/eye.py:2346
+msgid "머리카락 위로 보이는 부분의 진하기 (1 = 완전히 위, 0.5 = 머리카락이 비쳐 보임). 가려지지 않은 부분은 그대로"
+msgstr "显示在头发上方的部分的浓度（1 = 完全在上方，0.5 = 头发透出）。未被遮挡的部分保持不变"
+
+#: face_shapekey_rig/atlas.py:1845
+msgid "머티리얼 Mapping 노드"
+msgstr "材质映射（Mapping）节点"
+
+#: face_shapekey_rig/face_ui.py:2189
+#: face_shapekey_rig/face_ui.py:2237
+msgid "먼저 ①에서 얼굴 캔버스를 만드세요"
+msgstr "请先在 ① 中创建脸部画布"
+
+#: face_shapekey_rig/face_ui.py:2433
+msgid "먼저 ③에서 스프라이트 시트를 추가하세요"
+msgstr "请先在 ③ 中添加精灵图集"
+
+#: face_shapekey_rig/core.py:2462
+#: face_shapekey_rig/core.py:2957
+msgid "메시"
+msgstr "网格"
+
+#: face_shapekey_rig/atlas.py:4237
+msgid "메인으로 사용"
+msgstr "作为主项使用"
+
+#: face_shapekey_rig/face_ui.py:2097
+msgid "면을 더하거나(Shift+클릭) 빼고 적용"
+msgstr "添加面（Shift+点击）或减去面并应用"
+
+#: face_shapekey_rig/eye.py:2289
+#: face_shapekey_rig/eye.py:2820
+msgid "명도"
+msgstr "明度"
+
+#: face_shapekey_rig/eye.py:2303
+msgid "명암은 두고 색상·채도만 바꿈"
+msgstr "保留明暗，仅改变颜色·饱和度"
+
+#: face_shapekey_rig/eye.py:6414
+msgid "모두 보이기"
+msgstr "全部显示"
+
+#: face_shapekey_rig/face_ui.py:2590
+msgid "모든 '머리카락 위로' 파츠 공통"
+msgstr "所有「头发上方」部件通用"
+
+#: face_shapekey_rig/core.py:2839
+msgid "모든 라벨 텍스트 표시/숨김"
+msgstr "显示/隐藏所有标签文本"
+
+#: face_shapekey_rig/eye.py:2611
+msgid "모든 레이어의 깊이(패럴랙스)에 곱하는 값. 0이면 끔"
+msgstr "与所有图层的深度（视差）相乘的值。为 0 时关闭"
+
+#: face_shapekey_rig/eye.py:2200
+msgid "모든 입 칸에 공통으로 적용되는 배치 값 펼치기"
+msgstr "展开应用于所有嘴部格子的通用布局值"
+
+#: face_shapekey_rig/core.py:2443
+msgid "모음"
+msgstr "元音"
+
+#: face_shapekey_rig/atlas.py:1842
+#: face_shapekey_rig/atlas.py:1927
+msgid "모음 (A/I/U/E/O)"
+msgstr "元音（A/I/U/E/O）"
+
+#: face_shapekey_rig/atlas.py:1842
+msgid "모음별로 다른 칸"
+msgstr "每个元音不同的格子"
+
+#: face_shapekey_rig/core.py:2927
+msgid "목 리그"
+msgstr "颈部绑定"
+
+#: face_shapekey_rig/core.py:2930
+msgid "목 본"
+msgstr "颈部骨骼"
+
+#: face_shapekey_rig/eye.py:2693
+msgid "목록에 이 그룹 파츠만 표시"
+msgstr "在列表中仅显示此组部件"
+
+#: face_shapekey_rig/operators.py:419
+msgid "목록에 표시할 이름 (비우면 대상 본 이름)"
+msgstr "列表中显示的名称（留空则使用目标骨骼名称）"
+
+#: face_shapekey_rig/operators.py:4103
+msgid "무음 임계값"
+msgstr "静音阈值"
+
+#: face_shapekey_rig/core.py:2888
+msgid "미리보기 도식의 표시 배율"
+msgstr "预览示意图的显示比例"
+
+#: face_shapekey_rig/atlas.py:4189
+msgid "미리보기 중 (프레임을 옮기면 꺼짐)"
+msgstr "预览中（移动帧时关闭）"
+
+#: face_shapekey_rig/core.py:2888
+msgid "미리보기 크기"
+msgstr "预览大小"
+
+#: face_shapekey_rig/core.py:2436
+msgid "미지정 (입 다묾)"
+msgstr "未指定（闭嘴）"
+
+#: face_shapekey_rig/atlas.py:2034
+#: face_shapekey_rig/eye.py:2664
+msgid "바꾸면 자동 키"
+msgstr "更改时自动关键帧"
+
+#: face_shapekey_rig/eye.py:2312
+msgid "바꿀 색"
+msgstr "要更改的颜色"
+
+#: face_shapekey_rig/atlas.py:1490
+msgid "반"
+msgstr "半"
+
+#: face_shapekey_rig/atlas.py:1459
+#: face_shapekey_rig/atlas.py:2059
+msgid "반 열림"
+msgstr "半开"
+
+#: face_shapekey_rig/atlas.py:2061
+#: face_shapekey_rig/atlas.py:4095
+msgid "반 열림 기준"
+msgstr "半开阈值"
+
+#: face_shapekey_rig/core.py:2947
+#: face_shapekey_rig/core.py:2949
+msgid "반전"
+msgstr "反转"
+
+#: face_shapekey_rig/atlas.py:3585
+msgid "반전 그림을 둘 칸. 보통 이미지에서 비어 있는 칸"
+msgstr "放置反转图像的单元格。通常是图像中的空白单元格"
+
+#: face_shapekey_rig/eye.py:2813
+msgid "밝게"
+msgstr "变亮"
+
+#: face_shapekey_rig/atlas.py:1902
+#: face_shapekey_rig/eye.py:2300
+msgid "방식"
+msgstr "方式"
+
+#: face_shapekey_rig/operators.py:149
+msgid "방향"
+msgstr "方向"
+
+#: face_shapekey_rig/operators.py:152
+#: face_shapekey_rig/operators.py:550
+msgid "방향 반전"
+msgstr "方向反转"
+
+#: face_shapekey_rig/core.py:2468
+#: face_shapekey_rig/core.py:2963
+msgid "배율"
+msgstr "缩放"
+
+#: face_shapekey_rig/eye.py:7548
+msgid "배치"
+msgstr "放置"
+
+#: face_shapekey_rig/face_ui.py:3034
+#: face_shapekey_rig/face_ui.py:3037
+msgid "배치 (마커 기준)"
+msgstr "放置（以标记为基准）"
+
+#: face_shapekey_rig/core.py:2830
+msgid "배치 모드"
+msgstr "放置模式"
+
+#: face_shapekey_rig/atlas.py:1922
+msgid "배치 방식"
+msgstr "放置方式"
+
+#: face_shapekey_rig/atlas.py:1906
+msgid "버텍스 그룹"
+msgstr "顶点组"
+
+#: face_shapekey_rig/eye.py:2815
+msgid "번"
+msgstr "编号"
+
+#: face_shapekey_rig/atlas.py:1841
+msgid "벌림 3단계"
+msgstr "张开 3 档"
+
+#: face_shapekey_rig/atlas.py:3295
+#: face_shapekey_rig/eye.py:6960
+msgid "범위"
+msgstr "范围"
+
+#: face_shapekey_rig/operators.py:838
+msgid "범위 적용"
+msgstr "应用范围"
+
+#: face_shapekey_rig/atlas.py:2039
+#: face_shapekey_rig/atlas.py:4111
+msgid "보간"
+msgstr "插值"
+
+#: face_shapekey_rig/eye.py:7014
+msgid "보간 적용"
+msgstr "应用插值"
+
+#: face_shapekey_rig/face_ui.py:3099
+msgid "보간은 태그마다 따로 저장됩니다 (같은 태그 파츠끼리 공유)"
+msgstr "插值按标签分别保存（相同标签的部件共享）"
+
+#: face_shapekey_rig/face_ui.py:2523
+msgid "보이기"
+msgstr "显示"
+
+#: face_shapekey_rig/eye.py:2273
+msgid "보일 쪽"
+msgstr "显示侧"
+
+#: face_shapekey_rig/eye.py:2625
+msgid "보통"
+msgstr "正常"
+
+#: face_shapekey_rig/eye.py:2277
+msgid "복사본만"
+msgstr "仅副本"
+
+#: face_shapekey_rig/core.py:3058
+msgid "본 패드"
+msgstr "骨骼板"
+
+#: face_shapekey_rig/operators.py:397
+#: face_shapekey_rig/operators.py:602
+msgid "본을 이동시킬지, 제자리에서 회전시킬지"
+msgstr "移动骨骼，还是在原地旋转"
+
+#: face_shapekey_rig/core.py:2910
+msgid "볼륨"
+msgstr "体积"
+
+#: face_shapekey_rig/eye.py:2623
+msgid "부드럽게"
+msgstr "平滑"
+
+#: face_shapekey_rig/atlas.py:2044
+#: face_shapekey_rig/eye.py:1369
+msgid "부드럽게 가속·감속 (Bezier)"
+msgstr "平滑加速·减速（Bezier）"
+
+#: face_shapekey_rig/eye.py:2194
+#: face_shapekey_rig/face_ui.py:2563
+msgid "부모"
+msgstr "父级"
+
+#: face_shapekey_rig/eye.py:2186
+msgid "부모 HSV"
+msgstr "父级 HSV"
+
+#: face_shapekey_rig/face_ui.py:2390
+msgid "부모 따라감"
+msgstr "跟随父级"
+
+#: face_shapekey_rig/eye.py:2190
+msgid "부모 색 덮기"
+msgstr "父级颜色覆盖"
+
+#: face_shapekey_rig/face_ui.py:2566
+msgid "부모 색 따라가기"
+msgstr "跟随父级颜色"
+
+#: face_shapekey_rig/eye.py:2194
+msgid "부모 파츠를 고르면 부모의 위치·회전·크기·불투명도·색(HSV·색 덮기)·시선을 그대로 따라갑니다 (자식은 부모 바로 위에 그려짐). 지정할 때 그림은 제자리 유지"
+msgstr "选择父级部件后，将原样跟随父级的位置、旋转、大小、不透明度、颜色（HSV/颜色覆盖）和视线（子级绘制在父级正上方）。指定时图像保持原位"
+
+#: face_shapekey_rig/face_ui.py:2642
+msgid "부모(%s)의 위치·시선을 따라갑니다"
+msgstr "跟随父级（%s）的位置和视线"
+
+#: face_shapekey_rig/eye.py:2190
+msgid "부모(조상)의 색 덮기(컬러 오버레이)를 이 파츠에도 적용합니다. 켜면 이 파츠도 부모와 같은 색으로 덮입니다"
+msgstr "将父级（祖先）的颜色覆盖（颜色叠加）应用于此部件。开启后，此部件也会被覆盖为与父级相同的颜色"
+
+#: face_shapekey_rig/eye.py:2186
+msgid "부모(조상)의 색조·채도·명도 조정을 이 파츠에도 적용합니다. 하이라이트처럼 원래 색을 지켜야 하는 파츠는 끄세요"
+msgstr "将父级（祖先）的色相、饱和度、明度调整应用于此部件。像高光这类需要保持原色的部件请关闭"
+
+#: face_shapekey_rig/face_ui.py:2581
+msgid "부모에게서 물려받음:"
+msgstr "从父级继承："
+
+#: face_shapekey_rig/eye.py:7564
+#: face_shapekey_rig/face_ui.py:2909
+msgid "불투명도"
+msgstr "不透明度"
+
+#: face_shapekey_rig/eye.py:3368
+msgid "뷰포트 가볍게"
+msgstr "视图轻量化"
+
+#: face_shapekey_rig/atlas.py:1466
+msgid "뷰포트 리그에 표시"
+msgstr "在视图绑定中显示"
+
+#: face_shapekey_rig/eye.py:2234
+#: face_shapekey_rig/face_ui.py:145
+msgid "뷰포트 컨트롤러"
+msgstr "视图控制器"
+
+#: face_shapekey_rig/face_ui.py:2724
+msgid "뷰포트 컨트롤러 (표정 목록)"
+msgstr "视图控制器（表情列表）"
+
+#: face_shapekey_rig/atlas.py:1466
+msgid "뷰포트 컨트롤러의 격자 아래에 이 시퀀스 전용 슬라이더를 추가합니다 (닫힘/반/열림, 단일 입이면 끔/켬). 메인 시퀀스는 항상 표시됩니다"
+msgstr "在视图控制器的网格下方添加此序列专用滑块（闭合/半开/张开；单口型时为关/开）。主序列始终显示"
+
+#: face_shapekey_rig/core.py:2452
+msgid "뷰포트 패널 컨트롤러를 움직임 (키프레임은 핸들에 기록)"
+msgstr "移动视图面板控制器（关键帧记录在手柄上）"
+
+#: face_shapekey_rig/eye.py:2679
+msgid "뷰포트에 위치 마커를 표시합니다"
+msgstr "在视图中显示位置标记"
+
+#: face_shapekey_rig/eye.py:2234
+msgid "뷰포트에 이 파츠의 시트 격자를 띄웁니다. 노란 테두리를 끌면 칸이 바뀝니다 (칸이 2개 이상인 파츠만)"
+msgstr "在视图中显示此部件的图集网格。拖动黄色边框可切换单元格（仅限 2 个及以上单元格的部件）"
+
+#: face_shapekey_rig/core.py:2834
+msgid "뷰포트에서 패널이 있는 다른 리그를 선택하면 이 패널 설정(컨트롤러 목록/프리셋/모캡/립싱크)을 그 캐릭터의 것으로 자동 전환합니다"
+msgstr "在视图中选择另一个带面板的绑定时，会自动将此面板设置（控制器列表/预设/动作捕捉/口型同步）切换为该角色的设置"
+
+#: face_shapekey_rig/atlas_vp.py:1314
+msgid "뷰포트의 Show Overlays를 꺼도 컨트롤러(표정 목록/시선 패드 등)를 보이게 합니다. 화면 표시용이며 렌더에는 나오지 않습니다"
+msgstr "关闭视图的显示叠加层后仍显示控制器（表情列表/视线板等）。仅用于屏幕显示，不会出现在渲染中"
+
+#: face_shapekey_rig/atlas.py:4427
+msgid "블렌드 파일 기준 상대 경로로 저장 (폴더째 옮겨도 유지)"
+msgstr "以 Blend 文件为基准保存为相对路径（整个文件夹移动后仍有效）"
+
+#: face_shapekey_rig/core.py:2922
+msgid "블렌딩"
+msgstr "混合"
+
+#: face_shapekey_rig/operators.py:819
+msgid "비우고 적용하면 그룹에서 빠집니다"
+msgstr "清空并应用后会从组中移除"
+
+#: face_shapekey_rig/atlas.py:1904
+msgid "비우면 활성 UV 맵"
+msgstr "留空则使用活动 UV 贴图"
+
+#: face_shapekey_rig/face_ui.py:1140
+msgid "비워 두면 '태그 이름 + 번호'로 자동으로 붙습니다"
+msgstr "留空则自动命名为“标签名称 + 编号”"
+
+#: face_shapekey_rig/eye.py:2811
+msgid "빼기"
+msgstr "减去"
+
+#: face_shapekey_rig/operators.py:828
+msgid "사용"
+msgstr "使用"
+
+#: face_shapekey_rig/operators.py:4110
+msgid "사운드 스트립 추가"
+msgstr "添加声音片段"
+
+#: face_shapekey_rig/core.py:2916
+msgid "사운드 스트립이 시작할 프레임"
+msgstr "声音片段起始帧"
+
+#: face_shapekey_rig/core.py:2967
+#: face_shapekey_rig/eye.py:6413
+msgid "삭제"
+msgstr "删除"
+
+#: face_shapekey_rig/core.py:3057
+msgid "상/하/좌/우 방향별 연결"
+msgstr "上/下/左/右方向分别连接"
+
+#: face_shapekey_rig/atlas.py:4427
+#: face_shapekey_rig/face_ui.py:827
+msgid "상대 경로"
+msgstr "相对路径"
+
+#: face_shapekey_rig/eye.py:2670
+msgid "상하"
+msgstr "上下"
+
+#: face_shapekey_rig/atlas.py:2009
+#: face_shapekey_rig/atlas.py:3588
+msgid "상하 반전"
+msgstr "上下翻转"
+
+#: face_shapekey_rig/operators.py:1545
+msgid "새 이름"
+msgstr "新名称"
+
+#: face_shapekey_rig/face_ui.py:1139
+#: face_shapekey_rig/face_ui.py:1196
+msgid "새 태그 이름"
+msgstr "新标签名称"
+
+#: face_shapekey_rig/face_ui.py:2464
+msgid "새 파츠 기본값"
+msgstr "新部件默认值"
+
+#: face_shapekey_rig/eye.py:1346
+msgid "새 파츠 크기 (1 = 캔버스 전체)"
+msgstr "新部件大小（1 = 整个画布）"
+
+#: face_shapekey_rig/eye.py:1349
+msgid "새 파츠를 마커보다 위(+)/아래(-)에 놓기"
+msgstr "将新部件放在标记上方（+）/下方（-）"
+
+#: face_shapekey_rig/eye.py:1353
+msgid "새 파츠를 이 태그의 가장 아래 파츠 모양으로 클리핑하고 그 바로 위에 놓습니다 (예: 눈동자 → 흰자 태그)"
+msgstr "将新部件裁剪为此标签最下方部件的形状，并放在其正上方（例如：瞳孔 → 眼白标签）"
+
+#: face_shapekey_rig/eye.py:1333
+msgid "새 파츠의 '대칭 복사'를 켠 채로 추가"
+msgstr "添加新部件时开启“镜像复制”"
+
+#: face_shapekey_rig/eye.py:1336
+msgid "새 파츠의 '시선 따라 이동'을 켠 채로 추가"
+msgstr "添加新部件时开启“跟随视线移动”"
+
+#: face_shapekey_rig/eye.py:6412
+msgid "새 폴더"
+msgstr "新建文件夹"
+
+#: face_shapekey_rig/eye.py:2297
+#: face_shapekey_rig/layer_vp.py:1358
+msgid "색"
+msgstr "颜色"
+
+#: face_shapekey_rig/eye.py:2294
+#: face_shapekey_rig/face_ui.py:2632
+msgid "색 덮기"
+msgstr "覆盖颜色"
+
+#: face_shapekey_rig/face_ui.py:2613
+msgid "색 맞추기"
+msgstr "匹配颜色"
+
+#: face_shapekey_rig/face_ui.py:2627
+msgid "색 칸을 누르면 Hex(784343 등)로 입력할 수 있습니다"
+msgstr "点击颜色栏可按 Hex（784343 等）输入"
+
+#: face_shapekey_rig/eye.py:2819
+#: face_shapekey_rig/operators.py:175
+msgid "색상"
+msgstr "颜色"
+
+#: face_shapekey_rig/operators.py:174
+#: face_shapekey_rig/operators.py:321
+msgid "색상 사용"
+msgstr "使用颜色"
+
+#: face_shapekey_rig/eye.py:2303
+msgid "색상만"
+msgstr "仅颜色"
+
+#: face_shapekey_rig/eye.py:2282
+#: face_shapekey_rig/eye.py:2817
+msgid "색조"
+msgstr "色相"
+
+#: face_shapekey_rig/eye.py:2282
+msgid "색조 이동 (-0.5~0.5 = -180°~180°)"
+msgstr "色相偏移（-0.5~0.5 = -180°~180°）"
+
+#: face_shapekey_rig/eye.py:7573
+#: face_shapekey_rig/face_ui.py:2602
+msgid "색조/채도/명도"
+msgstr "色相/饱和度/明度"
+
+#: face_shapekey_rig/face_ui.py:2092
+msgid "선택 영역 수정 중"
+msgstr "正在编辑选区"
+
+#: face_shapekey_rig/face_ui.py:2171
+msgid "선택된 면이 없습니다"
+msgstr "没有选中的面"
+
+#: face_shapekey_rig/eye.py:7440
+#: face_shapekey_rig/face_ui.py:2049
+msgid "선택된 면이 없습니다. 얼굴 앞면을 면 선택하세요"
+msgstr "没有选中的面。请用面选择选中脸部正面"
+
+#: face_shapekey_rig/operators.py:909
+msgid "선택됨: %d개"
+msgstr "已选择：%d 个"
+
+#: face_shapekey_rig/core.py:2834
+msgid "선택한 리그 자동 전환"
+msgstr "自动切换所选绑定"
+
+#: face_shapekey_rig/atlas.py:3297
+#: face_shapekey_rig/eye.py:6962
+msgid "선택한 키프레임만"
+msgstr "仅所选关键帧"
+
+#: face_shapekey_rig/eye.py:2809
+msgid "선형 라이트"
+msgstr "线性光"
+
+#: face_shapekey_rig/panels.py:32
+msgid "설정"
+msgstr "设置"
+
+#: face_shapekey_rig/atlas.py:4378
+msgid "설정이 바뀌었습니다. '적용'을 눌러 주세요"
+msgstr "设置已更改。请点击“应用”"
+
+#: face_shapekey_rig/core.py:2459
+msgid "성분"
+msgstr "分量"
+
+#: face_shapekey_rig/eye.py:2305
+msgid "세기"
+msgstr "强度"
+
+#: face_shapekey_rig/face_ui.py:2010
+msgid "세기는 리그 프로퍼티라 키를 넣을 수 있습니다 (I)"
+msgstr "强度是绑定属性，可插入关键帧（I）"
+
+#: face_shapekey_rig/atlas.py:1498
+#: face_shapekey_rig/atlas.py:1510
+msgid "세로"
+msgstr "垂直"
+
+#: face_shapekey_rig/operators.py:406
+#: face_shapekey_rig/operators.py:609
+msgid "세로 → 본 축"
+msgstr "垂直 → 骨骼轴"
+
+#: face_shapekey_rig/operators.py:414
+#: face_shapekey_rig/operators.py:614
+msgid "세로 이동량"
+msgstr "垂直移动量"
+
+#: face_shapekey_rig/operators.py:471
+#: face_shapekey_rig/operators.py:744
+msgid "세로 회전량 (도)"
+msgstr "垂直旋转量（度）"
+
+#: face_shapekey_rig/core.py:2454
+#: face_shapekey_rig/core.py:2465
+msgid "셰이프 키"
+msgstr "形态键"
+
+#: face_shapekey_rig/core.py:2454
+msgid "셰이프 키 값을 직접 움직임 (패널 컨트롤러 불필요)"
+msgstr "直接调整形态键值（无需面板控制器）"
+
+#: face_shapekey_rig/core.py:2462
+msgid "셰이프 키 대상일 때: 키가 있는 메시"
+msgstr "作为形态键目标时：带有形态键的网格"
+
+#: face_shapekey_rig/atlas.py:2085
+msgid "셰이프 키 슬라이더/패드 컨트롤러 (기존 Face Rig)"
+msgstr "形态键滑块/触控板控制器（现有 Face Rig）"
+
+#: face_shapekey_rig/operators.py:539
+msgid "셰이프 키 이름 복사"
+msgstr "复制形态键名称"
+
+#: face_shapekey_rig/core.py:2845
+msgid "셰이프 키 이름에서 오른쪽을 뜻하는 부분 (예: (Right), .R, _right)"
+msgstr "形态键名称中表示右侧的部分（例如：(Right)、.R、_right）"
+
+#: face_shapekey_rig/core.py:2842
+msgid "셰이프 키 이름에서 왼쪽을 뜻하는 부분 (예: (Left), .L, _left)"
+msgstr "形态键名称中表示左侧的部分（例如：(Left)、.L、_left）"
+
+#: face_shapekey_rig/operators.py:145
+#: face_shapekey_rig/operators.py:269
+msgid "셰이프 키를 가져올 메시 (기본 = 설정의 얼굴 메시)"
+msgstr "要从中获取形态键的网格（默认 = 设置中的脸部网格）"
+
+#: face_shapekey_rig/eye.py:2808
+msgid "소프트 라이트"
+msgstr "柔光"
+
+#: face_shapekey_rig/layer_vp.py:1159
+msgid "손잡이"
+msgstr "控制柄"
+
+#: face_shapekey_rig/core.py:2885
+msgid "수신 미리보기"
+msgstr "接收预览"
+
+#: face_shapekey_rig/panels.py:382
+msgid "수신 중"
+msgstr "接收中"
+
+#: face_shapekey_rig/core.py:2885
+msgid "수신 중인 표정 값을 뷰포트에 도식으로 표시"
+msgstr "将接收中的表情值以图示显示在视口"
+
+#: face_shapekey_rig/panels.py:385
+msgid "숫자키 1~9 = 표정 프리셋, 0 = 기본 표정"
+msgstr "数字键 1~9 = 表情预设，0 = 基础表情"
+
+#: face_shapekey_rig/atlas.py:1913
+msgid "쉼표로 구분 (예: 기본, 화남, 반짝, 당황)"
+msgstr "用逗号分隔（例如：基础、生气、闪亮、慌张）"
+
+#: face_shapekey_rig/atlas.py:1915
+msgid "쉼표로 구분 (예: 닫힘, 반, 열림)"
+msgstr "用逗号分隔（例如：闭合、半开、张开）"
+
+#: face_shapekey_rig/operators.py:843
+msgid "스냅 적용"
+msgstr "应用吸附"
+
+#: face_shapekey_rig/core.py:2878
+#: face_shapekey_rig/operators.py:4107
+msgid "스무딩"
+msgstr "平滑"
+
+#: face_shapekey_rig/panels.py:339
+msgid "스크럽 소리"
+msgstr "擦洗声音"
+
+#: face_shapekey_rig/eye.py:2806
+msgid "스크린"
+msgstr "屏幕"
+
+#: face_shapekey_rig/operators.py:1126
+msgid "스포이드"
+msgstr "吸管"
+
+#: face_shapekey_rig/atlas.py:2087
+msgid "스프라이트 방식"
+msgstr "精灵方式"
+
+#: face_shapekey_rig/face_ui.py:147
+msgid "스프라이트 방식 작업 단계"
+msgstr "精灵方式工作步骤"
+
+#: face_shapekey_rig/core.py:3055
+msgid "슬라이더 (가로)"
+msgstr "滑块（水平）"
+
+#: face_shapekey_rig/core.py:3056
+msgid "슬라이더 (세로)"
+msgstr "滑块（垂直）"
+
+#: face_shapekey_rig/core.py:2411
+msgid "슬라이더 값 (반전/양방향 자동 반영)"
+msgstr "滑块值（自动反映反转/双向）"
+
+#: face_shapekey_rig/core.py:2963
+msgid "슬라이더 값에 곱해질 배율 (음수 = 반대로 움직임)"
+msgstr "与滑块值相乘的倍率（负数 = 反向移动）"
+
+#: face_shapekey_rig/core.py:2459
+msgid "슬라이더는 '값', 패드는 방향 성분을 고르세요"
+msgstr "滑块选“值”，方向板选方向分量"
+
+#: face_shapekey_rig/core.py:5861
+msgid "슬롯에 연결된 A/I/U/E/O 키의 방향을 읽어 자동 매핑"
+msgstr "读取插槽中 A/I/U/E/O 键的方向并自动映射"
+
+#: face_shapekey_rig/eye.py:1336
+#: face_shapekey_rig/eye.py:7482
+msgid "시선"
+msgstr "视线"
+
+#: face_shapekey_rig/face_ui.py:144
+#: face_shapekey_rig/face_ui.py:2293
+msgid "시선 (눈동자 이동)"
+msgstr "视线（眼球移动）"
+
+#: face_shapekey_rig/eye.py:2246
+#: face_shapekey_rig/face_ui.py:2645
+msgid "시선 따라 이동"
+msgstr "跟随视线移动"
+
+#: face_shapekey_rig/eye.py:2250
+msgid "시선 이동량 배율 (하이라이트를 덜/더 움직일 때)"
+msgstr "视线移动量倍率（让高光移动更少/更多时）"
+
+#: face_shapekey_rig/face_ui.py:2645
+msgid "시선 추가 이동"
+msgstr "视线额外移动"
+
+#: face_shapekey_rig/eye.py:2246
+msgid "시선 패드를 움직이면 이 레이어가 따라 움직입니다 (눈동자, 하이라이트)"
+msgstr "移动视线板时，此图层会跟随移动（眼球、高光）"
+
+#: face_shapekey_rig/core.py:2916
+#: face_shapekey_rig/operators.py:1594
+msgid "시작 프레임"
+msgstr "起始帧"
+
+#: face_shapekey_rig/eye.py:2632
+msgid "시점 따라가기"
+msgstr "跟随视角"
+
+#: face_shapekey_rig/operators.py:4110
+msgid "시퀀서에 오디오를 넣어 재생 시 소리가 같이 나오게 합니다"
+msgstr "将音频放入序列编辑器，使播放时同时发声"
+
+#: face_shapekey_rig/atlas.py:1929
+#: face_shapekey_rig/atlas.py:4197
+msgid "시퀀스"
+msgstr "序列"
+
+#: face_shapekey_rig/atlas.py:3898
+msgid "시퀀스(닫힘·반·열림) → 립싱크 순서로 설정하세요"
+msgstr "请按序列（闭合·半开·张开）→ 唇形同步的顺序设置"
+
+#: face_shapekey_rig/atlas.py:4214
+msgid "시퀀스를 하나 이상 만들면 쓸 수 있습니다"
+msgstr "创建一个以上序列后即可使用"
+
+#: face_shapekey_rig/face_ui.py:1136
+msgid "시트"
+msgstr "图集"
+
+#: face_shapekey_rig/atlas.py:3912
+msgid "시트의 '립싱크에 사용'을 켜 주세요"
+msgstr "请开启图集的“用于唇形同步”"
+
+#: face_shapekey_rig/eye.py:2324
+msgid "시트의 칸 하나를 골라 배치"
+msgstr "选择图集中的一个格子进行放置"
+
+#: face_shapekey_rig/atlas.py:1362
+msgid "썸네일에서 칸을 고릅니다"
+msgstr "从缩略图中选择格子"
+
+#: face_shapekey_rig/face_ui.py:2224
+msgid "쓰는 태그:"
+msgstr "使用的标签："
+
+#: face_shapekey_rig/operators.py:2893
+msgid "씬 설정만 복구"
+msgstr "仅恢复场景设置"
+
+#: face_shapekey_rig/face_ui.py:2068
+msgid "씬에 활성 카메라가 없습니다"
+msgstr "场景中没有活动摄像机"
+
+#: face_shapekey_rig/atlas.py:1936
+msgid "아 (행, 열)"
+msgstr "啊（行、列）"
+
+#: face_shapekey_rig/face_ui.py:2352
+msgid "아래"
+msgstr "下方"
+
+#: face_shapekey_rig/operators.py:273
+#: face_shapekey_rig/operators.py:531
+msgid "아래 (Y-)"
+msgstr "下方（Y-）"
+
+#: face_shapekey_rig/eye.py:2258
+msgid "아래 레이어들과 섞는 방식 (포토샵 레이어 혼합 모드)"
+msgstr "与下方图层混合的方式（Photoshop 图层混合模式）"
+
+#: face_shapekey_rig/eye.py:2579
+msgid "아래 범위"
+msgstr "下方范围"
+
+#: face_shapekey_rig/operators.py:151
+msgid "아래→위"
+msgstr "下→上"
+
+#: face_shapekey_rig/face_ui.py:2915
+#: face_shapekey_rig/face_ui.py:2943
+msgid "아래서"
+msgstr "从下方"
+
+#: face_shapekey_rig/core.py:3056
+msgid "아래에서 위로 0~1"
+msgstr "从下到上 0~1"
+
+#: face_shapekey_rig/eye.py:5737
+#: face_shapekey_rig/eye.py:6057
+msgid "아마추어"
+msgstr "骨架"
+
+#: face_shapekey_rig/core.py:2870
+msgid "아이폰 IP"
+msgstr "iPhone IP"
+
+#: face_shapekey_rig/layer_vp.py:1214
+msgid "안내 글자·표시가 겹쳐 보이는 원인입니다. 하나만 켜 두세요"
+msgstr "这是提示文字/标记重叠显示的原因。请只开启一个"
+
+#: face_shapekey_rig/eye.py:2335
+msgid "앞머리 등 다른 메시에 가려져도 이 파츠가 위로 보입니다 (눈썹 등). 보는 쪽으로 살짝 앞당긴 복사본을 그립니다"
+msgstr "即使被刘海等其他网格遮挡，此部件也会显示在上方（眉毛等）。绘制略微向观察方向前移的副本"
+
+#: face_shapekey_rig/eye.py:5742
+msgid "앞으로"
+msgstr "向前"
+
+#: face_shapekey_rig/eye.py:2605
+msgid "앞으로 당기는 거리"
+msgstr "向前拉近的距离"
+
+#: face_shapekey_rig/eye.py:2637
+msgid "앞쪽 복사본 위치 보기"
+msgstr "查看前方副本位置"
+
+#: face_shapekey_rig/core.py:2874
+msgid "애니메이션 재생 중일 때 매핑된 핸들에 키프레임을 기록합니다 (스페이스바로 재생하며 연기하세요)"
+msgstr "动画播放期间，在映射的控制柄上记录关键帧（按空格键播放并表演）"
+
+#: face_shapekey_rig/operators.py:162
+#: face_shapekey_rig/operators.py:280
+msgid "앵커 스냅 임계값"
+msgstr "锚点吸附阈值"
+
+#: face_shapekey_rig/core.py:2412
+msgid "양방향 슬라이더의 음수 방향으로"
+msgstr "朝向双向滑块的负方向"
+
+#: face_shapekey_rig/eye.py:2275
+msgid "양쪽"
+msgstr "两侧"
+
+#: face_shapekey_rig/eye.py:2812
+msgid "어둡게"
+msgstr "变暗"
+
+#: face_shapekey_rig/eye.py:2304
+msgid "어둡게 물들임"
+msgstr "暗色染色"
+
+#: face_shapekey_rig/atlas.py:1448
+msgid "어떤 표정에서 말하든 이 시퀀스의 입을 씁니다 (전용 시퀀스가 있는 표정만 예외). 메인은 하나만 가능"
+msgstr "无论从哪个表情说话，都使用此序列的嘴形（仅有专用序列的表情除外）。只能有一个主序列"
+
+#: face_shapekey_rig/atlas.py:4240
+msgid "어떤 표정에서 말하든 이 입을 씀"
+msgstr "无论什么表情说话都用这个嘴"
+
+#: face_shapekey_rig/core.py:2822
+msgid "얼굴 메시"
+msgstr "面部网格"
+
+#: face_shapekey_rig/eye.py:7434
+msgid "얼굴 메시 편집 모드에서 눈~입 면을 고르고 누르세요"
+msgstr "在面部网格编辑模式中选择眼睛到嘴部的面，然后点击"
+
+#: face_shapekey_rig/eye.py:2701
+#: face_shapekey_rig/face_ui.py:2039
+msgid "얼굴 방향"
+msgstr "面部方向"
+
+#: face_shapekey_rig/eye.py:5742
+msgid "얼굴 앞쪽으로 띄우는 거리 (Plane 크기 대비). 앞머리보다 앞에 오게"
+msgstr "向面部前方浮起的距离（相对于平面大小）。使其位于刘海前面"
+
+#: face_shapekey_rig/eye.py:7413
+msgid "얼굴 캔버스 (눈·입 파츠)"
+msgstr "面部画布（眼睛·嘴部件）"
+
+#: face_shapekey_rig/atlas.py:1847
+msgid "얼굴 캔버스 레이어"
+msgstr "面部画布图层"
+
+#: face_shapekey_rig/atlas.py:4040
+msgid "얼굴 캔버스 입은 ④ 입 파츠의 '배치 (이 칸만)'에서 칸별로 맞추는 것을 권합니다"
+msgstr "面部画布嘴建议在 ④ 嘴部件的“布局（仅此格）”中逐格调整"
+
+#: face_shapekey_rig/eye.py:5739
+msgid "얼굴 캔버스 크기의 몇 배로 만들지"
+msgstr "面部画布大小的倍数"
+
+#: face_shapekey_rig/atlas.py:1847
+msgid "얼굴 캔버스의 '입' 레이어로 그립니다. 모디파이어/노드를 따로 만들지 않고 캔버스 머티리얼이 이 시트를 읽습니다"
+msgstr "使用面部画布的“嘴”图层绘制。无需单独创建修改器/节点，画布材质会读取此图集"
+
+#: face_shapekey_rig/atlas.py:4385
+msgid "얼굴 캔버스의 입 레이어로 그려집니다 (배치는 얼굴 캔버스 패널에서)"
+msgstr "将绘制到面部画布的嘴图层（布局在面部画布面板中设置）"
+
+#: face_shapekey_rig/eye.py:2339
+msgid "얼굴 표면보다 얼마나 안쪽(+)/바깥쪽(-)에 있는 것처럼 보일지. 고개를 돌리면 깊은 레이어가 표면보다 덜 따라와 입체감이 생깁니다 (예: 홍채 0.01, 동공 0.02, 하이라이트 -0.005). 자식은 부모 깊이에 더해집니다"
+msgstr "相对于面部表面看起来向内(+)/向外(-)的程度。转动头部时，较深图层会比表面跟随得更少，从而产生立体感（例如：虹膜 0.01、瞳孔 0.02、高光 -0.005）。子级会叠加到父级深度上"
+
+#: face_shapekey_rig/eye.py:5508
+msgid "얼굴 표면에서 띄우는 거리 (선택 영역 높이 대비 %). 깜빡이면(Z-fighting) 조금 올리세요"
+msgstr "距面部表面的偏移距离（相对于选中区域高度的百分比）。若闪烁（Z-fighting），请稍微调高"
+
+#: face_shapekey_rig/eye.py:6102
+msgid "얼굴·머리카락·모자 등 같이 눌릴 메시를 선택하고 누르세요"
+msgstr "选择面部、头发、帽子等要一起压缩的网格，然后点击"
+
+#: face_shapekey_rig/eye.py:2615
+msgid "얼굴에서 띄우기"
+msgstr "从面部浮起"
+
+#: face_shapekey_rig/eye.py:2705
+#: face_shapekey_rig/eye.py:4742
+msgid "얼굴이 +X를 봄 (정면 = 숫자패드 3)"
+msgstr "面部朝向 +X（正面 = 数字小键盘 3）"
+
+#: face_shapekey_rig/eye.py:2704
+#: face_shapekey_rig/eye.py:4741
+msgid "얼굴이 +Y를 봄 (정면 = Ctrl+숫자패드 1)"
+msgstr "面部朝向 +Y（正面 = Ctrl+数字小键盘 1）"
+
+#: face_shapekey_rig/eye.py:2706
+#: face_shapekey_rig/eye.py:4743
+msgid "얼굴이 -X를 봄 (정면 = Ctrl+숫자패드 3)"
+msgstr "面部朝向 -X（正面 = Ctrl+数字小键盘 3）"
+
+#: face_shapekey_rig/eye.py:2703
+#: face_shapekey_rig/eye.py:4740
+msgid "얼굴이 -Y를 봄 (정면 = 숫자패드 1). Blender 기본"
+msgstr "面部朝向 -Y（正面 = 数字小键盘 1）。Blender 默认"
+
+#: face_shapekey_rig/atlas.py:1945
+msgid "에 (행, 열)"
+msgstr "在（行，列）"
+
+#: face_shapekey_rig/atlas.py:4042
+msgid "여기 %는 칸 창 안에서 확대라 100%를 넘기면 가장자리가 잘릴 수 있습니다"
+msgstr "此处的 % 是单元格窗口内缩放，超过 100% 时边缘可能会被裁切"
+
+#: face_shapekey_rig/face_ui.py:3116
+msgid "여기 값은 모든 칸에 똑같이 적용되고, 키·애니메이션은 이 값에 들어갑니다"
+msgstr "此处的值会同样应用到所有单元格，关键帧/动画会写入此值"
+
+#: face_shapekey_rig/core.py:2905
+msgid "여기서 고른 오디오만 재생됩니다 (나머지 사운드는 자동 음소거). 립싱크 분석용 오디오와 따로 조절됩니다"
+msgstr "仅播放此处选择的音频（其余声音自动静音）。它与口型同步分析用音频分开调节"
+
+#: face_shapekey_rig/eye.py:2222
+msgid "여러 파츠를 골라 속성을 한꺼번에 조절합니다"
+msgstr "选择多个部件可一次调整属性"
+
+#: face_shapekey_rig/core.py:5877
+msgid "역할"
+msgstr "作用"
+
+#: face_shapekey_rig/operators.py:210
+#: face_shapekey_rig/operators.py:757
+msgid "연쇄 드라이버"
+msgstr "链式驱动器"
+
+#: face_shapekey_rig/core.py:2957
+msgid "연쇄 셰이프 키가 있는 메시 (기본 = 설정의 얼굴 메시)"
+msgstr "带有链式形态键的网格（默认 = 设置中的面部网格）"
+
+#: face_shapekey_rig/operators.py:179
+#: face_shapekey_rig/operators.py:618
+msgid "연쇄 추가"
+msgstr "添加链"
+
+#: face_shapekey_rig/atlas.py:2050
+msgid "열"
+msgstr "列"
+
+#: face_shapekey_rig/atlas.py:1909
+#: face_shapekey_rig/eye.py:2170
+msgid "열 (가로 칸 수)"
+msgstr "列（横向格数）"
+
+#: face_shapekey_rig/atlas.py:1915
+msgid "열 이름"
+msgstr "列名称"
+
+#: face_shapekey_rig/atlas.py:1463
+#: face_shapekey_rig/atlas.py:1491
+msgid "열림"
+msgstr "张开"
+
+#: face_shapekey_rig/atlas.py:2064
+#: face_shapekey_rig/atlas.py:4096
+msgid "열림 기준"
+msgstr "张开基准"
+
+#: face_shapekey_rig/atlas.py:1948
+msgid "오 (행, 열)"
+msgstr "五（行，列）"
+
+#: face_shapekey_rig/atlas.py:3910
+msgid "오디오 립싱크"
+msgstr "音频口型同步"
+
+#: face_shapekey_rig/atlas.py:2053
+msgid "오디오 립싱크를 굽을 때 이 시트의 열(입)에도 키를 넣습니다"
+msgstr "烘焙音频口型同步时，也会在此图集的列（嘴）中插入关键帧"
+
+#: face_shapekey_rig/panels.py:345
+msgid "오디오: 파일 없음"
+msgstr "音频：无文件"
+
+#: face_shapekey_rig/core.py:5847
+msgid "오른눈 감기"
+msgstr "右眼闭合"
+
+#: face_shapekey_rig/core.py:5857
+msgid "오른눈 눈동자 패드"
+msgstr "右眼瞳孔控制板"
+
+#: face_shapekey_rig/core.py:5849
+msgid "오른눈썹 (위/아래)"
+msgstr "右眉毛（上/下）"
+
+#: face_shapekey_rig/face_ui.py:2345
+msgid "오른쪽"
+msgstr "右侧"
+
+#: face_shapekey_rig/operators.py:275
+#: face_shapekey_rig/operators.py:533
+msgid "오른쪽 (X+)"
+msgstr "右侧（X+）"
+
+#: face_shapekey_rig/eye.py:2564
+msgid "오른쪽 범위"
+msgstr "右侧范围"
+
+#: face_shapekey_rig/face_ui.py:2918
+#: face_shapekey_rig/face_ui.py:2946
+msgid "오른쪽에서"
+msgstr "从右侧"
+
+#: face_shapekey_rig/eye.py:2807
+msgid "오버레이"
+msgstr "叠加层"
+
+#: face_shapekey_rig/atlas_vp.py:1314
+msgid "오버레이 꺼도 표시"
+msgstr "关闭叠加层时也显示"
+
+#: face_shapekey_rig/face_ui.py:2598
+msgid "오버레이가 아직 없습니다"
+msgstr "还没有叠加层"
+
+#: face_shapekey_rig/face_ui.py:162
+msgid "완료"
+msgstr "完成"
+
+#: face_shapekey_rig/core.py:5847
+msgid "왼눈 감기"
+msgstr "左眼闭合"
+
+#: face_shapekey_rig/core.py:5856
+msgid "왼눈 눈동자 패드"
+msgstr "左眼瞳孔控制板"
+
+#: face_shapekey_rig/core.py:5848
+msgid "왼눈썹 (위/아래)"
+msgstr "左眉毛（上/下）"
+
+#: face_shapekey_rig/face_ui.py:2348
+msgid "왼쪽"
+msgstr "左侧"
+
+#: face_shapekey_rig/operators.py:274
+#: face_shapekey_rig/operators.py:532
+msgid "왼쪽 (X-)"
+msgstr "左侧（X-）"
+
+#: face_shapekey_rig/eye.py:2574
+msgid "왼쪽 범위"
+msgstr "左侧范围"
+
+#: face_shapekey_rig/operators.py:151
+msgid "왼쪽→오른쪽"
+msgstr "左→右"
+
+#: face_shapekey_rig/face_ui.py:2917
+#: face_shapekey_rig/face_ui.py:2945
+msgid "왼쪽에서"
+msgstr "从左侧"
+
+#: face_shapekey_rig/core.py:3055
+msgid "왼쪽에서 오른쪽으로 0~1"
+msgstr "从左到右 0~1"
+
+#: face_shapekey_rig/panels.py:51
+msgid "우"
+msgstr "右"
+
+#: face_shapekey_rig/atlas.py:1942
+msgid "우 (행, 열)"
+msgstr "右（行，列）"
+
+#: face_shapekey_rig/operators.py:277
+#: face_shapekey_rig/operators.py:535
+msgid "우상 (대각)"
+msgstr "右上（对角）"
+
+#: face_shapekey_rig/core.py:2845
+msgid "우측 포함식"
+msgstr "右侧包含式"
+
+#: face_shapekey_rig/operators.py:279
+#: face_shapekey_rig/operators.py:537
+msgid "우하 (대각)"
+msgstr "右下（对角）"
+
+#: face_shapekey_rig/operators.py:595
+msgid "움직일 본이 들어있는 아마추어"
+msgstr "包含要移动骨骼的骨架"
+
+#: face_shapekey_rig/operators.py:388
+msgid "움직일 본이 들어있는 아마추어 (설정의 리그와 달라도 됨)"
+msgstr "包含要移动骨骼的骨架（可与设置的绑定不同）"
+
+#: face_shapekey_rig/face_ui.py:2639
+msgid "움직임"
+msgstr "运动"
+
+#: face_shapekey_rig/eye.py:2276
+msgid "원래 놓은 쪽만 (복사본 숨김)"
+msgstr "仅原始放置侧（隐藏副本）"
+
+#: face_shapekey_rig/eye.py:2309
+msgid "원래 색"
+msgstr "原始颜色"
+
+#: face_shapekey_rig/face_ui.py:3078
+msgid "원본 = 화면 오른쪽, 복사본 = 화면 왼쪽"
+msgstr "原始 = 屏幕右侧，副本 = 屏幕左侧"
+
+#: face_shapekey_rig/face_ui.py:3078
+msgid "원본 = 화면 왼쪽, 복사본 = 화면 오른쪽"
+msgstr "原始 = 屏幕左侧，副本 = 屏幕右侧"
+
+#: face_shapekey_rig/atlas.py:3612
+msgid "원본 칸:"
+msgstr "原始格："
+
+#: face_shapekey_rig/eye.py:2275
+msgid "원본과 복사본 모두"
+msgstr "原始和副本全部"
+
+#: face_shapekey_rig/eye.py:2276
+msgid "원본만"
+msgstr "仅原始"
+
+#: face_shapekey_rig/face_ui.py:2349
+msgid "위"
+msgstr "上"
+
+#: face_shapekey_rig/face_ui.py:3118
+msgid "위 '배치'는 이 값 + 칸별 보정입니다"
+msgstr "上方‘放置’为此值 + 每格校正"
+
+#: face_shapekey_rig/operators.py:272
+#: face_shapekey_rig/operators.py:530
+msgid "위 (Y+)"
+msgstr "上（Y+）"
+
+#: face_shapekey_rig/eye.py:2569
+msgid "위 범위"
+msgstr "上方范围"
+
+#: face_shapekey_rig/eye.py:7504
+msgid "위가 앞 (위에 있을수록 앞에 그려짐)"
+msgstr "上方在前（越靠上绘制越靠前）"
+
+#: face_shapekey_rig/eye.py:2587
+msgid "위아래 같게"
+msgstr "上下相同"
+
+#: face_shapekey_rig/core.py:2938
+msgid "위아래 끄덕임(피치)을 보낼 본 로컬 축"
+msgstr "用于传递上下点头（俯仰）的骨骼局部轴"
+
+#: face_shapekey_rig/face_ui.py:2914
+#: face_shapekey_rig/face_ui.py:2942
+msgid "위에서"
+msgstr "从上方"
+
+#: face_shapekey_rig/atlas.py:4267
+msgid "위쪽 칸별 크기/위치와 같은 값"
+msgstr "与上方各格大小/位置相同的值"
+
+#: face_shapekey_rig/eye.py:1301
+msgid "위치"
+msgstr "位置"
+
+#: face_shapekey_rig/operators.py:399
+#: face_shapekey_rig/operators.py:604
+msgid "위치 (이동)"
+msgstr "位置（移动）"
+
+#: face_shapekey_rig/atlas.py:2012
+#: face_shapekey_rig/atlas.py:2018
+msgid "위치 X"
+msgstr "位置 X"
+
+#: face_shapekey_rig/atlas.py:2015
+#: face_shapekey_rig/atlas.py:2022
+msgid "위치 Y"
+msgstr "位置 Y"
+
+#: face_shapekey_rig/atlas.py:1841
+msgid "음량으로 닫힘/반 열림/열림 전환"
+msgstr "按音量切换闭合/半开/张开"
+
+#: face_shapekey_rig/core.py:2913
+msgid "음소거"
+msgstr "静音"
+
+#: face_shapekey_rig/operators.py:611
+#: face_shapekey_rig/operators.py:614
+msgid "음수 = 반대 방향"
+msgstr "负值 = 相反方向"
+
+#: face_shapekey_rig/operators.py:553
+msgid "음수로 하면 양방향 슬라이더가 됩니다 (중앙=0)"
+msgstr "设为负值会变成双向滑块（中央=0）"
+
+#: face_shapekey_rig/operators.py:156
+msgid "음수로 하면 양방향 슬라이더가 됩니다 (중앙=0). 셰이프 키 자체의 Range Min도 음수여야 합니다"
+msgstr "设为负值会变成双向滑块（中央=0）。形态键自身的 Range Min 也必须为负值"
+
+#: face_shapekey_rig/atlas.py:1939
+msgid "이 (행, 열)"
+msgstr "该（行，列）"
+
+#: face_shapekey_rig/core.py:2456
+msgid "이 ARKit 값이 움직일 컨트롤러"
+msgstr "此 ARKit 值要驱动的控制器"
+
+#: face_shapekey_rig/atlas.py:2061
+msgid "이 개방도 이상이면 반 열림"
+msgstr "达到此张开度及以上为半开"
+
+#: face_shapekey_rig/atlas.py:2064
+msgid "이 개방도 이상이면 열림"
+msgstr "达到此张开度及以上为张开"
+
+#: face_shapekey_rig/eye.py:2262
+msgid "이 레이어 그림을 데칼 안에서 좌우로 뒤집습니다. 리그 프로퍼티라 키·표정 프리셋·파츠 폴더에 들어갑니다"
+msgstr "在贴花内左右翻转此图层图像。它是绑定属性，会进入关键帧、表情预设和部件文件夹"
+
+#: face_shapekey_rig/eye.py:2175
+msgid "이 레이어가 보일 영역. 고른 레이어(예: 흰자)의 지금 칸 모양 안에서만 보입니다"
+msgstr "此图层的可见区域。仅在所选图层（例如眼白）当前格形状内可见"
+
+#: face_shapekey_rig/eye.py:2332
+msgid "이 레이어로 그릴 입 스프라이트 시트"
+msgstr "用此图层绘制的嘴部精灵图集"
+
+#: face_shapekey_rig/eye.py:1358
+msgid "이 마커 사용"
+msgstr "使用此标记"
+
+#: face_shapekey_rig/face_ui.py:473
+msgid "이 마커를 쓸 태그 (선택 안 해도 됨)"
+msgstr "使用此标记的标签（可不选）"
+
+#: face_shapekey_rig/operators.py:290
+#: face_shapekey_rig/operators.py:293
+msgid "이 방향 키에만 곱해질 배율 (전체 배율과 곱해짐)"
+msgstr "仅乘到此方向键的倍率（会与整体倍率相乘）"
+
+#: face_shapekey_rig/core.py:2960
+msgid "이 슬라이더 값에 배율을 곱해 함께 움직일 셰이프 키"
+msgstr "按此滑块值乘以倍率一起驱动的形态键"
+
+#: face_shapekey_rig/operators.py:179
+#: face_shapekey_rig/operators.py:618
+msgid "이 슬라이더 값을 따라 함께 움직일 셰이프 키를 추가합니다"
+msgstr "添加跟随此滑块值一起移动的形态键"
+
+#: face_shapekey_rig/operators.py:213
+#: face_shapekey_rig/operators.py:760
+msgid "이 슬라이더를 따라 움직일 키를 + 로 추가"
+msgstr "点击 + 添加要随此滑块移动的形态键"
+
+#: face_shapekey_rig/atlas.py:1448
+msgid "이 시퀀스를 메인으로 사용"
+msgstr "将此序列用作主序列"
+
+#: face_shapekey_rig/atlas.py:3944
+msgid "이 시트를 그리는 입 파츠가 없습니다 — 미리보기·시퀀스가 화면에 안 보입니다"
+msgstr "没有绘制此图集的嘴部部件 — 预览和序列不会显示在屏幕上"
+
+#: face_shapekey_rig/atlas.py:3300
+msgid "이 입의 모든 키"
+msgstr "此嘴部的所有关键帧"
+
+#: face_shapekey_rig/atlas.py:3300
+msgid "이 입의 위치·크기·회전·불투명도·크롭 키 전부"
+msgstr "此嘴部的位置、大小、旋转、不透明度、裁剪关键帧全部"
+
+#: face_shapekey_rig/atlas.py:4251
+msgid "이 입의 크기/위치"
+msgstr "此嘴部的大小/位置"
+
+#: face_shapekey_rig/face_ui.py:3037
+msgid "이 칸 %d-%d"
+msgstr "此格 %d-%d"
+
+#: face_shapekey_rig/atlas.py:3989
+#: face_shapekey_rig/atlas.py:4028
+msgid "이 칸 = %d-%d 그림"
+msgstr "此格 = %d-%d 图像"
+
+#: face_shapekey_rig/atlas.py:4014
+msgid "이 칸 전용 값"
+msgstr "此格专用值"
+
+#: face_shapekey_rig/atlas.py:1453
+msgid "이 칸이 표정으로 선택되어 있을 때 (행, 열)"
+msgstr "当此格被选为表情时（行，列）"
+
+#: face_shapekey_rig/eye.py:1339
+msgid "이 태그 파츠가 앞머리 등에 가려져도 위로 보이게 (지금 있는 파츠에도 바로 적용)"
+msgstr "让此标签部件即使被刘海等遮挡也显示在上层（立即应用到现有部件）"
+
+#: face_shapekey_rig/eye.py:1343
+msgid "이 태그 파츠는 ⑥의 입 시퀀스·립싱크로 칸이 바뀝니다"
+msgstr "此标签部件会随 ⑥ 的嘴部序列和口型同步切换格"
+
+#: face_shapekey_rig/eye.py:1364
+msgid "이 태그 파츠에 키를 넣을 때 쓸 보간 방법 (위치·크기·회전·불투명도·크롭). 태그마다 따로 저장. 칸(그림) 키는 항상 Constant"
+msgstr "为此标签部件插入关键帧时使用的插值方法（位置、大小、旋转、不透明度、裁剪）。按标签分别保存。格（图像）关键帧始终为 Constant"
+
+#: face_shapekey_rig/eye.py:1329
+msgid "이 태그 파츠의 위치 X/Y가 이 마커로부터의 거리가 됩니다"
+msgstr "此标签部件的位置 X/Y 将变为距此标记的距离"
+
+#: face_shapekey_rig/eye.py:6965
+msgid "이 파츠의 모든 키"
+msgstr "此部件的所有关键帧"
+
+#: face_shapekey_rig/eye.py:2167
+msgid "이 파츠의 스프라이트 시트 (칸 = 파츠의 상태)"
+msgstr "此部件的精灵图集（格 = 部件状态）"
+
+#: face_shapekey_rig/eye.py:6965
+msgid "이 파츠의 위치·크기·회전·불투명도·크롭 키 전부"
+msgstr "此部件的位置、大小、旋转、不透明度、裁剪关键帧全部"
+
+#: face_shapekey_rig/face_ui.py:3034
+msgid "이 표정"
+msgstr "此表情"
+
+#: face_shapekey_rig/atlas.py:4244
+msgid "이 표정일 때만 사용"
+msgstr "仅在该表情时使用"
+
+#: face_shapekey_rig/operators.py:152
+msgid "이동 방향을 반대로 (가로: 오른쪽→왼쪽, 세로: 위→아래). 원점은 항상 값 0"
+msgstr "反转移动方向（水平：右→左，垂直：上→下）。原点始终为值 0"
+
+#: face_shapekey_rig/operators.py:550
+msgid "이동 방향을 반대로 (원점은 항상 값 0)"
+msgstr "反转移动方向（原点始终为值 0）"
+
+#: face_shapekey_rig/eye.py:2250
+msgid "이동 배율"
+msgstr "移动倍率"
+
+#: face_shapekey_rig/operators.py:858
+msgid "이동량 적용"
+msgstr "应用移动量"
+
+#: face_shapekey_rig/atlas.py:1446
+#: face_shapekey_rig/atlas.py:1895
+msgid "이름"
+msgstr "名称"
+
+#: face_shapekey_rig/face_ui.py:462
+msgid "이미 있는 '%s' 마커에 '%s' 태그를 연결합니다"
+msgstr "为已有的 '%s' 标记关联 '%s' 标签"
+
+#: face_shapekey_rig/atlas.py:1900
+#: face_shapekey_rig/eye.py:2167
+msgid "이미지"
+msgstr "图像"
+
+#: face_shapekey_rig/atlas.py:1845
+msgid "이미지 텍스처 앞에 Mapping 노드를 넣어 이동"
+msgstr "在图像纹理前插入映射节点进行移动"
+
+#: face_shapekey_rig/eye.py:7591
+msgid "이미지를 고르세요"
+msgstr "请选择图像"
+
+#: face_shapekey_rig/atlas.py:1958
+#: face_shapekey_rig/atlas.py:4128
+msgid "일괄 조절"
+msgstr "批量调整"
+
+#: face_shapekey_rig/eye.py:2804
+msgid "일반"
+msgstr "常规"
+
+#: face_shapekey_rig/atlas.py:2043
+#: face_shapekey_rig/eye.py:1368
+msgid "일정한 속도로 변함"
+msgstr "以恒定速度变化"
+
+#: face_shapekey_rig/face_ui.py:143
+#: face_shapekey_rig/face_ui.py:664
+msgid "입"
+msgstr "嘴"
+
+#: face_shapekey_rig/eye.py:2325
+msgid "입 (스프라이트 시트)"
+msgstr "嘴（精灵图集）"
+
+#: face_shapekey_rig/eye.py:1343
+msgid "입 (시퀀스·립싱크)"
+msgstr "嘴（序列·口型同步）"
+
+#: face_shapekey_rig/core.py:5850
+msgid "입 A (아)"
+msgstr "嘴 A（啊）"
+
+#: face_shapekey_rig/core.py:5851
+msgid "입 E (에)"
+msgstr "嘴 E（诶）"
+
+#: face_shapekey_rig/core.py:5850
+msgid "입 I (이)"
+msgstr "嘴 I（衣）"
+
+#: face_shapekey_rig/core.py:5852
+msgid "입 O (오)"
+msgstr "嘴 O（哦）"
+
+#: face_shapekey_rig/core.py:5851
+msgid "입 U (우)"
+msgstr "嘴 U（乌）"
+
+#: face_shapekey_rig/atlas.py:2072
+msgid "입 모양이 이보다 짧게 바뀌면 앞 모양에 합칩니다. 2 = 애니메이션식 on twos"
+msgstr "嘴形变化短于此值则并入前一个形状。2 = 动画式 on twos"
+
+#: face_shapekey_rig/operators.py:4100
+msgid "입 벌림 배율"
+msgstr "张嘴幅度倍率"
+
+#: face_shapekey_rig/eye.py:2325
+msgid "입 스프라이트 시트를 그대로 그림 (시퀀스·립싱크·뷰포트 컨트롤러가 그대로 동작)"
+msgstr "直接绘制嘴部精灵图集（序列、口型同步、视图控制器仍照常工作）"
+
+#: face_shapekey_rig/eye.py:2332
+msgid "입 시트"
+msgstr "嘴图集"
+
+#: face_shapekey_rig/operators.py:4107
+msgid "입 움직임 완화. 높을수록 부드럽지만 둔해집니다"
+msgstr "嘴部运动平滑。值越高越平滑但越迟钝"
+
+#: face_shapekey_rig/eye.py:2200
+msgid "입 전체 배치"
+msgstr "嘴部整体布局"
+
+#: face_shapekey_rig/atlas.py:2034
+msgid "입 칸을 고르거나 입 배치(위치·크기·회전·불투명도·크롭), 시퀀스 선택·말하기 값을 바꾸면 현재 프레임에 키를 바로 넣습니다 (꺼져 있어도 Blender 자동 키가 켜져 있으면 칸은 삽입)"
+msgstr "选择嘴部单元格，或更改嘴部布局（位置·大小·旋转·不透明度·裁剪）、序列选择·说话值时，会直接在当前帧插入关键帧（即使关闭，若 Blender 自动关键帧开启，仍会插入单元格）"
+
+#: face_shapekey_rig/atlas.py:2039
+msgid "입 키를 넣을 때 쓸 보간 방법 (입 전체의 위치·크기·회전·불투명도·크롭). 칸·시퀀스·말하기 키는 항상 Constant"
+msgstr "插入嘴部关键帧时使用的插值方式（整个嘴部的位置·大小·旋转·不透明度·裁剪）。单元格·序列·说话关键帧始终为常量"
+
+#: face_shapekey_rig/atlas.py:3887
+msgid "입 파츠 추가 방법"
+msgstr "嘴部部件添加方式"
+
+#: face_shapekey_rig/atlas.py:3955
+msgid "입 파츠는 '%s' 시트를 그리고 있습니다. 옮기면 이 시트는 지워집니다"
+msgstr "嘴部部件正在绘制 '%s' 图集。移动后将删除此图集"
+
+#: face_shapekey_rig/face_ui.py:2596
+msgid "입 파츠는 지원하지 않습니다"
+msgstr "不支持嘴部部件"
+
+#: face_shapekey_rig/core.py:5861
+msgid "입 패드 (모음 자동 배치)"
+msgstr "嘴部面板（元音自动布局）"
+
+#: face_shapekey_rig/face_ui.py:1143
+#: face_shapekey_rig/face_ui.py:1689
+msgid "입력 창으로 이름 쓰기"
+msgstr "在输入框中输入名称"
+
+#: face_shapekey_rig/panels.py:416
+msgid "자동 매핑(마법봉) 또는 +로 추가하세요"
+msgstr "请使用自动映射（魔棒）或 + 添加"
+
+#: face_shapekey_rig/eye.py:2651
+msgid "자동 정렬"
+msgstr "自动对齐"
+
+#: face_shapekey_rig/eye.py:1353
+msgid "자동 클리핑"
+msgstr "自动裁剪"
+
+#: face_shapekey_rig/eye.py:2199
+msgid "자식 펼치기"
+msgstr "展开子级"
+
+#: face_shapekey_rig/atlas.py:1836
+msgid "자유 배치"
+msgstr "自由布局"
+
+#: face_shapekey_rig/atlas.py:1456
+msgid "작게 벌린 칸 (행, 열). -1 = 기준 칸 그대로"
+msgstr "小间距单元格（行、列）。-1 = 保持基准单元格不变"
+
+#: face_shapekey_rig/atlas.py:2083
+#: face_shapekey_rig/atlas.py:3819
+msgid "작업 방식"
+msgstr "工作方式"
+
+#: face_shapekey_rig/core.py:2905
+msgid "재생 오디오"
+msgstr "播放音频"
+
+#: face_shapekey_rig/panels.py:353
+msgid "재생 오디오 (스페이스바)"
+msgstr "播放音频（空格键）"
+
+#: face_shapekey_rig/core.py:2913
+msgid "재생 오디오만 잠시 끕니다 (립싱크 편집기 소리는 유지)"
+msgstr "仅暂时关闭播放音频（保留口型同步编辑器声音）"
+
+#: face_shapekey_rig/core.py:2910
+msgid "재생 오디오의 볼륨"
+msgstr "播放音频音量"
+
+#: face_shapekey_rig/panels.py:284
+msgid "저장된 프리셋이 없습니다"
+msgstr "没有已保存的预设"
+
+#: face_shapekey_rig/face_ui.py:1586
+msgid "저장하고 끝내기"
+msgstr "保存并结束"
+
+#: face_shapekey_rig/face_ui.py:1587
+msgid "저장하고 이 프레임에 키"
+msgstr "保存并在此帧插入关键帧"
+
+#: face_shapekey_rig/eye.py:1361
+msgid "적용"
+msgstr "应用"
+
+#: face_shapekey_rig/eye.py:6097
+msgid "적용할 메시:"
+msgstr "要应用的网格："
+
+#: face_shapekey_rig/face_ui.py:3107
+msgid "전체 배치 (모든 칸 공통)"
+msgstr "整体布局（所有单元格通用）"
+
+#: face_shapekey_rig/eye.py:6414
+msgid "전체 보기"
+msgstr "查看全部"
+
+#: face_shapekey_rig/operators.py:4100
+msgid "전체 입 벌림 강도"
+msgstr "整体张嘴强度"
+
+#: face_shapekey_rig/eye.py:6412
+msgid "전환"
+msgstr "切换"
+
+#: face_shapekey_rig/layer_vp.py:1093
+msgid "정렬"
+msgstr "对齐"
+
+#: face_shapekey_rig/panels.py:420
+msgid "조작법"
+msgstr "操作方法"
+
+#: face_shapekey_rig/eye.py:2322
+msgid "종류"
+msgstr "类型"
+
+#: face_shapekey_rig/atlas.py:1482
+#: face_shapekey_rig/atlas.py:1970
+msgid "종횡비 고정"
+msgstr "锁定宽高比"
+
+#: face_shapekey_rig/atlas.py:2002
+#: face_shapekey_rig/eye.py:2218
+msgid "종횡비 고정 (이 칸)"
+msgstr "锁定宽高比（此单元格）"
+
+#: face_shapekey_rig/eye.py:2366
+msgid "종횡비 고정 중: 세로를 바꾸면 가로도 같은 비율로"
+msgstr "锁定宽高比时：更改高度会按相同比例更改宽度"
+
+#: face_shapekey_rig/panels.py:50
+msgid "좌"
+msgstr "左"
+
+#: face_shapekey_rig/operators.py:276
+#: face_shapekey_rig/operators.py:534
+msgid "좌상 (대각)"
+msgstr "左上（对角）"
+
+#: face_shapekey_rig/eye.py:2668
+msgid "좌우"
+msgstr "左右"
+
+#: face_shapekey_rig/eye.py:2584
+msgid "좌우 같게"
+msgstr "左右相同"
+
+#: face_shapekey_rig/core.py:2944
+msgid "좌우 갸웃(롤)을 보낼 본 로컬 축"
+msgstr "发送左右歪头（滚转）的骨骼局部轴"
+
+#: face_shapekey_rig/core.py:2941
+msgid "좌우 돌림(요)을 보낼 본 로컬 축"
+msgstr "发送左右转头（偏航）的骨骼局部轴"
+
+#: face_shapekey_rig/atlas.py:2006
+#: face_shapekey_rig/atlas.py:3589
+msgid "좌우 반전"
+msgstr "左右翻转"
+
+#: face_shapekey_rig/core.py:2842
+msgid "좌측 포함식"
+msgstr "左侧包含式"
+
+#: face_shapekey_rig/operators.py:278
+#: face_shapekey_rig/operators.py:536
+msgid "좌하 (대각)"
+msgstr "左下（对角）"
+
+#: face_shapekey_rig/face_ui.py:139
+msgid "준비"
+msgstr "准备"
+
+#: face_shapekey_rig/atlas.py:1459
+msgid "중간 칸 (행, 열). -1 = 열림 칸 사용"
+msgstr "中间格（行、列）。-1 = 使用打开的单元格"
+
+#: face_shapekey_rig/face_ui.py:2887
+msgid "지금 칸(빨간 버튼)의 배치를 바꾸면 체크한 칸도 같이 바뀝니다"
+msgstr "更改当前格（红色按钮）的布局时，勾选的格也会一起改变"
+
+#: face_shapekey_rig/atlas.py:4175
+msgid "지금 칸(빨간 버튼)의 크기·위치·반전을 바꾸면 체크한 칸도 같이 바뀝니다"
+msgstr "更改当前格（红色按钮）的大小、位置、翻转时，勾选的格也会一起改变"
+
+#: face_shapekey_rig/atlas.py:2002
+msgid "지금 칸만 종횡비를 고정하거나 풉니다 (칸마다 따로). 일괄 조절로 체크한 칸에도 같이 적용"
+msgstr "仅锁定或解除当前格的纵横比（每格单独）。批量调整也会应用到勾选的格"
+
+#: face_shapekey_rig/atlas.py:1992
+msgid "지금 칸의 그림 크기 (칸마다 따로가 꺼져 있으면 공통)"
+msgstr "当前格的图像大小（关闭每格单独时则为通用）"
+
+#: face_shapekey_rig/atlas.py:2009
+msgid "지금 칸의 그림을 위아래로 뒤집습니다"
+msgstr "上下翻转当前格的图像"
+
+#: face_shapekey_rig/atlas.py:2006
+msgid "지금 칸의 그림을 좌우로 뒤집습니다"
+msgstr "左右翻转当前格的图像"
+
+#: face_shapekey_rig/face_ui.py:2096
+msgid "지금 캔버스 영역이 선택되어 있습니다"
+msgstr "当前已选择画布区域"
+
+#: face_shapekey_rig/eye.py:7345
+#: face_shapekey_rig/layer_vp.py:1094
+msgid "지우기"
+msgstr "清除"
+
+#: face_shapekey_rig/core.py:2465
+msgid "직접 움직일 셰이프 키"
+msgstr "要直接移动的形态键"
+
+#: face_shapekey_rig/eye.py:2816
+msgid "차이"
+msgstr "差异"
+
+#: face_shapekey_rig/eye.py:2286
+#: face_shapekey_rig/eye.py:2818
+msgid "채도"
+msgstr "饱和度"
+
+#: face_shapekey_rig/core.py:2967
+msgid "체크하고 OK를 누르면 이 연쇄가 삭제됩니다"
+msgstr "勾选并点击 OK 将删除此链"
+
+#: face_shapekey_rig/layer_vp.py:1311
+msgid "초"
+msgstr "秒"
+
+#: face_shapekey_rig/eye.py:2625
+msgid "초당 약 12번 따라감 (조금 끊겨 보이지만 가벼움)"
+msgstr "每秒约跟随 12 次（略显卡顿但更轻量）"
+
+#: face_shapekey_rig/operators.py:4103
+msgid "최대 음량 대비 이 비율 아래면 입을 다뭅니다"
+msgstr "低于相对最大音量的此比例时闭嘴"
+
+#: face_shapekey_rig/operators.py:160
+#: face_shapekey_rig/operators.py:556
+msgid "최댓값"
+msgstr "最大值"
+
+#: face_shapekey_rig/atlas.py:2072
+msgid "최소 유지 (프레임)"
+msgstr "最小保持（帧）"
+
+#: face_shapekey_rig/operators.py:156
+#: face_shapekey_rig/operators.py:553
+msgid "최솟값"
+msgstr "最小值"
+
+#: face_shapekey_rig/panels.py:93
+msgid "추가된 컨트롤러가 없습니다"
+msgstr "没有已添加的控制器"
+
+#: face_shapekey_rig/face_ui.py:423
+msgid "추가하고 바로 찍기"
+msgstr "添加并立即捕捉"
+
+#: face_shapekey_rig/operators.py:848
+msgid "축 적용"
+msgstr "应用轴"
+
+#: face_shapekey_rig/face_ui.py:1588
+msgid "취소"
+msgstr "取消"
+
+#: face_shapekey_rig/face_ui.py:1993
+msgid "카메라:"
+msgstr "相机："
+
+#: face_shapekey_rig/core.py:2891
+msgid "카운트다운 (초)"
+msgstr "倒计时（秒）"
+
+#: face_shapekey_rig/atlas.py:1961
+#: face_shapekey_rig/eye.py:2371
+msgid "칸"
+msgstr "格"
+
+#: face_shapekey_rig/eye.py:2353
+msgid "칸 가운데(= 마커 + 위치)를 기준으로 크기·회전"
+msgstr "以格中心（= 标记 + 位置）为基准进行大小、旋转"
+
+#: face_shapekey_rig/eye.py:2240
+#: face_shapekey_rig/eye.py:7595
+msgid "칸 따라가기"
+msgstr "跟随格"
+
+#: face_shapekey_rig/face_ui.py:1006
+msgid "칸 배치가 같아야 파츠 번호가 유지됩니다"
+msgstr "格布局必须相同才能保持部件编号"
+
+#: face_shapekey_rig/atlas.py:4170
+#: face_shapekey_rig/face_ui.py:2882
+msgid "칸 번호 버튼 = 그 칸을 뷰포트에 보기 · 체크 = 일괄 조절"
+msgstr "格编号按钮 = 在视口中查看该格 · 勾选 = 批量调整"
+
+#: face_shapekey_rig/atlas.py:4028
+msgid "칸 비우기로 해제"
+msgstr "清空格以取消"
+
+#: face_shapekey_rig/atlas_vp.py:1264
+msgid "칸 수/이미지가 바뀌었습니다. 컨트롤러를 갱신하세요"
+msgstr "格数量/图像已改变。请更新控制器"
+
+#: face_shapekey_rig/atlas.py:1958
+msgid "칸 썸네일 격자를 펼쳐 일괄 조절할 칸을 고릅니다"
+msgstr "展开格缩略图网格，选择要批量调整的格"
+
+#: face_shapekey_rig/eye.py:2355
+msgid "칸 안에 그려진 그림의 가운데를 기준으로 크기·회전"
+msgstr "以格内绘制图像的中心为基准进行大小、旋转"
+
+#: face_shapekey_rig/atlas.py:1836
+msgid "칸 하나를 표정으로 고르고, 말할 때 입은 모음 또는 시퀀스로 지정합니다"
+msgstr "选择一个格作为表情，说话时的嘴型指定为元音或序列"
+
+#: face_shapekey_rig/atlas.py:1987
+msgid "칸마다 따로"
+msgstr "每格单独"
+
+#: face_shapekey_rig/eye.py:7530
+msgid "칸은 입 시트(시퀀스·립싱크·뷰포트 컨트롤러)로 바뀝니다"
+msgstr "格将切换为嘴型表（序列、唇同步、视图控制器）"
+
+#: face_shapekey_rig/face_ui.py:2274
+msgid "칸을 잘라 파츠 번호를 매기는 중…"
+msgstr "正在切分格并分配部件编号…"
+
+#: face_shapekey_rig/atlas.py:1897
+msgid "칸이 바뀔 오브젝트 (입 데칼, 범고래 얼굴 등)"
+msgstr "格切换的目标物体（嘴部贴花、虎鲸脸等）"
+
+#: face_shapekey_rig/core.py:2851
+msgid "캐릭터 따라다니기"
+msgstr "跟随角色"
+
+#: face_shapekey_rig/eye.py:2701
+msgid "캐릭터 얼굴이 바라보는 축. 캔버스 정면 투영 UV와 마커 찍기 화면 방향의 기준이 됩니다"
+msgstr "角色脸部朝向的轴。作为画布正面投影 UV 和标记捕捉屏幕方向的基准"
+
+#: face_shapekey_rig/face_ui.py:150
+msgid "캔버스"
+msgstr "画布"
+
+#: face_shapekey_rig/eye.py:5513
+msgid "캔버스 가장자리 여백 (파츠가 테두리에 잘리지 않게)"
+msgstr "画布边缘留白（避免部件被边框裁切）"
+
+#: face_shapekey_rig/eye.py:1301
+msgid "캔버스 위 위치 (0~1, 정면 기준). 다시 찍거나 숫자로 조절"
+msgstr "画布上的位置（0~1，以正面为基准）。重新捕捉或用数值调整"
+
+#: face_shapekey_rig/face_ui.py:136
+msgid "캔버스 추가 (모자 얼굴 · 감정표현 Plane)"
+msgstr "添加画布（帽子脸、表情平面）"
+
+#: face_shapekey_rig/face_ui.py:2114
+msgid "캔버스(%s)를 선택하면 켜집니다"
+msgstr "选择画布（%s）时启用"
+
+#: face_shapekey_rig/eye.py:3368
+msgid "캔버스가 얼굴의 서브디비전 없이 같은 변형(아마추어·셰이프 키)만 따라가게 합니다. 리그를 움직이거나 재생할 때 훨씬 가볍고(얼굴 GPU 서브디비전도 다시 켜짐), 렌더에서는 지금처럼 실제 얼굴 표면에 딱 맞습니다. 뷰포트에서는 파츠가 얼굴에서 아주 살짝 더 떠 보일 수 있습니다"
+msgstr "让画布在不使用脸部细分的情况下，只跟随相同变形（骨架、形态键）。移动或播放骨架时轻量得多（脸部 GPU 细分也会重新开启），渲染时仍像现在一样贴合真实脸部表面。视口中部件可能会看起来比脸部稍微更浮起"
+
+#: face_shapekey_rig/eye.py:6104
+msgid "캔버스는 얼굴을 따라가므로 고르지 않아도 됩니다"
+msgstr "画布会跟随脸部，因此无需选择"
+
+#: face_shapekey_rig/eye.py:2615
+msgid "캔버스를 얼굴 표면에서 띄우는 거리. 비스듬히 볼 때 피부가 줄무늬처럼 비쳐 보이면(Z-fighting) 조금 올리세요"
+msgstr "画布偏离脸部表面的距离。斜视时若皮肤出现条纹（Z-fighting），请稍微调高"
+
+#: face_shapekey_rig/panels.py:330
+msgid "캘리브레이션 적용 중"
+msgstr "正在应用校准"
+
+#: face_shapekey_rig/core.py:2456
+#: face_shapekey_rig/face_ui.py:145
+msgid "컨트롤러"
+msgstr "控制器"
+
+#: face_shapekey_rig/panels.py:64
+msgid "컨트롤러 목록"
+msgstr "控制器列表"
+
+#: face_shapekey_rig/eye.py:2651
+msgid "컨트롤러가 생기거나 크기가 바뀌면 기본 배치로 다시 쌓습니다. 직접 옮긴 자리를 지키려면 끄세요"
+msgstr "新增控制器或改变大小时，会按默认布局重新堆叠。要保留手动移动的位置，请关闭"
+
+#: face_shapekey_rig/operators.py:1126
+msgid "컨트롤러를 고르면 그 색을 그대로 따옵니다"
+msgstr "选择控制器时会沿用其颜色"
+
+#: face_shapekey_rig/operators.py:3356
+msgid "컨트롤러마다 역할을 고르세요"
+msgstr "为每个控制器选择角色"
+
+#: face_shapekey_rig/core.py:2830
+msgid "컨트롤러의 틀을 선택해서 G/R/S로 자유롭게 배치합니다. 끄면 다시 핸들 조작 모드로 돌아갑니다"
+msgstr "选择控制器边框后，可用 G/R/S 自由摆放。关闭后返回控制柄操作模式"
+
+#: face_shapekey_rig/operators.py:1688
+msgid "컬렉션 이름"
+msgstr "集合名称"
+
+#: face_shapekey_rig/eye.py:2587
+msgid "켜면 아래 범위 = 위 범위 (보통 아래를 조금 더 크게)"
+msgstr "开启后，下方范围 = 上方范围（通常下方稍大）"
+
+#: face_shapekey_rig/eye.py:2688
+msgid "켜면 아래에서 고른 그룹(태그)만 바꿉니다 ('화난 눈 + 웃는 입'처럼 섞기). 끄면 표정 전체를 바꿉니다"
+msgstr "开启后只更改下方选中的组（标签）（如“生气的眼睛 + 微笑的嘴”混搭）。关闭后更改整个表情"
+
+#: face_shapekey_rig/eye.py:2584
+msgid "켜면 왼쪽 범위 = 오른쪽 범위"
+msgstr "开启后，左侧范围 = 右侧范围"
+
+#: face_shapekey_rig/eye.py:2600
+msgid "켜면 이 눈은 자기 파츠 목록 대신 따라가는 눈의 파츠 전체를 좌우로 뒤집어 씁니다. 왼눈만 세팅하면 됩니다"
+msgstr "开启后，这只眼睛不使用自己的部件列表，而是将所跟随眼睛的全部部件左右翻转后使用。只需设置左眼"
+
+#: face_shapekey_rig/eye.py:2360
+msgid "켜면 지금 가로세로 비율을 그대로 지킨 채 가로·세로가 같이 커지고 작아집니다. 꺼도 모양은 그대로"
+msgstr "开启后，在保持当前宽高比的同时，宽和高会一起放大缩小。关闭后形状不变"
+
+#: face_shapekey_rig/eye.py:2218
+msgid "켜면 지금 가로세로 비율을 그대로 지킨 채 가로나 세로를 바꿀 때 둘이 같이 커지고 작아집니다 (이 입 칸만)"
+msgstr "开启后，在保持当前宽高比的同时，改变宽或高时两者会一起放大缩小（仅此嘴部格子）"
+
+#: face_shapekey_rig/atlas.py:1482
+#: face_shapekey_rig/atlas.py:1970
+msgid "켜면 크기 하나로 가로·세로를 같이, 끄면 따로 조절"
+msgstr "开启后用一个大小同时调整宽高，关闭后分别调整"
+
+#: face_shapekey_rig/atlas.py:1987
+msgid "켜면 크기/위치를 칸마다 따로 기억합니다 (손대지 않은 칸은 공통값). 끄면 모든 칸이 공통값을 씁니다"
+msgstr "开启后按格子分别记住大小/位置（未改动的格子使用公共值）。关闭后所有格子使用公共值"
+
+#: face_shapekey_rig/atlas.py:2029
+#: face_shapekey_rig/eye.py:2229
+msgid "켜면 키프레임을 무시하고 고른 칸을 계속 보여 줍니다 (칸을 골라도 키가 들어가지 않음). 칸별 배치를 조절할 때 켜고, 끝나면 끄세요"
+msgstr "开启后忽略关键帧并持续显示所选格子（选择格子时也不会插入关键帧）。调整逐格子布局时开启，完成后关闭"
+
+#: face_shapekey_rig/face_ui.py:2533
+msgid "켜짐/꺼짐은 키·표정 프리셋에 들어갑니다"
+msgstr "开启/关闭状态会包含在关键帧和表情预设中"
+
+#: face_shapekey_rig/operators.py:837
+msgid "켬"
+msgstr "开启"
+
+#: face_shapekey_rig/atlas.py:1463
+msgid "크게 벌린 칸 (행, 열). -1 = 반 열림 칸 사용"
+msgstr "大幅张开的格子（行、列）。-1 = 使用半开格子"
+
+#: face_shapekey_rig/atlas.py:1431
+#: face_shapekey_rig/operators.py:1068
+msgid "크기"
+msgstr "大小"
+
+#: face_shapekey_rig/eye.py:5739
+msgid "크기 (얼굴 대비)"
+msgstr "大小（相对脸部）"
+
+#: face_shapekey_rig/panels.py:349
+msgid "크기: %s · 길이: %s"
+msgstr "大小：%s · 长度：%s"
+
+#: face_shapekey_rig/face_ui.py:2075
+msgid "크기·위치는 오브젝트를 직접 옮기거나 S로 조절해도 됩니다"
+msgstr "大小和位置也可以直接移动物体或用 S 调整"
+
+#: face_shapekey_rig/eye.py:2351
+#: face_shapekey_rig/face_ui.py:3062
+msgid "크기·회전 기준"
+msgstr "大小和旋转基准"
+
+#: face_shapekey_rig/face_ui.py:2889
+msgid "크기는 같은 비율로, 위치·회전은 움직인 만큼"
+msgstr "大小按相同比例，位置和旋转按移动量"
+
+#: face_shapekey_rig/atlas.py:4177
+msgid "크기는 같은 비율로, 위치는 움직인 만큼"
+msgstr "大小按相同比例，位置按移动量"
+
+#: face_shapekey_rig/face_ui.py:2911
+#: face_shapekey_rig/face_ui.py:2938
+msgid "크롭 (그림 영역 기준으로 잘라내기)"
+msgstr "裁剪（按图像区域裁切）"
+
+#: face_shapekey_rig/eye.py:7540
+#: face_shapekey_rig/face_ui.py:2576
+msgid "클리핑 마스크"
+msgstr "剪贴蒙版"
+
+#: face_shapekey_rig/face_ui.py:1766
+msgid "키 넣기"
+msgstr "插入关键帧"
+
+#: face_shapekey_rig/face_ui.py:2475
+msgid "키 보간"
+msgstr "关键帧插值"
+
+#: face_shapekey_rig/face_ui.py:2966
+msgid "키프레임 멈춤"
+msgstr "关键帧暂停"
+
+#: face_shapekey_rig/face_ui.py:2702
+msgid "키프레임은 잠시 멈춰 있고, 키는 들어가지 않습니다"
+msgstr "关键帧暂时暂停，且不会插入关键帧"
+
+#: face_shapekey_rig/operators.py:525
+msgid "타입"
+msgstr "类型"
+
+#: face_shapekey_rig/eye.py:2317
+#: face_shapekey_rig/face_ui.py:1138
+msgid "태그"
+msgstr "标签"
+
+#: face_shapekey_rig/face_ui.py:2443
+msgid "태그 (그룹)"
+msgstr "标签（组）"
+
+#: face_shapekey_rig/face_ui.py:147
+msgid "탭"
+msgstr "选项卡"
+
+#: face_shapekey_rig/atlas.py:3998
+#: face_shapekey_rig/atlas.py:4063
+msgid "투명 배경 설정을 눌러야 칸 밖이 잘립니다"
+msgstr "需点击透明背景设置，格子外才会被裁切"
+
+#: face_shapekey_rig/layer_vp.py:1158
+msgid "틀"
+msgstr "边框"
+
+#: face_shapekey_rig/panels.py:347
+msgid "파일:"
+msgstr "文件："
+
+#: face_shapekey_rig/eye.py:2324
+#: face_shapekey_rig/face_ui.py:141
+msgid "파츠"
+msgstr "部件"
+
+#: face_shapekey_rig/face_ui.py:2257
+msgid "파츠 %d개"
+msgstr "部件 %d 个"
+
+#: face_shapekey_rig/eye.py:2317
+msgid "파츠 그룹. 그 태그의 기준 마커 위치에 놓입니다"
+msgstr "部件组。会放在该标签的基准标记位置"
+
+#: face_shapekey_rig/eye.py:2294
+msgid "파츠 그림 위에 한 색을 덮습니다 (모양·투명도는 그대로)"
+msgstr "在部件图像上覆盖一种颜色（形状和透明度不变）"
+
+#: face_shapekey_rig/eye.py:2254
+msgid "파츠 보이기/숨기기. 키를 넣을 수 있고(Constant) 표정 프리셋에도 저장됩니다. 부모를 숨기면 자식도 숨겨집니다"
+msgstr "显示/隐藏部件。可以插入关键帧（Constant），也会保存到表情预设。隐藏父级会同时隐藏子级"
+
+#: face_shapekey_rig/face_ui.py:1140
+#: face_shapekey_rig/face_ui.py:1189
+msgid "파츠 이름"
+msgstr "部件名称"
+
+#: face_shapekey_rig/eye.py:7498
+msgid "파츠 전체를 좌우 반전해서 사용"
+msgstr "将整个部件左右翻转后使用"
+
+#: face_shapekey_rig/eye.py:2355
+msgid "파츠 중심"
+msgstr "部件中心"
+
+#: face_shapekey_rig/eye.py:2655
+msgid "파츠 키를 넣을 때 쓸 보간 방법 (위치·크기·회전·불투명도·크롭). 칸(그림) 키는 항상 Constant"
+msgstr "插入部件关键帧时使用的插值方法（位置、大小、旋转、不透明度、裁剪）。格子（图像）关键帧始终为 Constant"
+
+#: face_shapekey_rig/eye.py:6479
+msgid "파츠 폴더"
+msgstr "部件文件夹"
+
+#: face_shapekey_rig/eye.py:7498
+msgid "파츠:"
+msgstr "部件："
+
+#: face_shapekey_rig/eye.py:7519
+msgid "파츠가 없습니다. + 로 흰자부터 추가하세요"
+msgstr "没有部件。请用 + 从眼白开始添加"
+
+#: face_shapekey_rig/face_ui.py:2541
+msgid "파츠를 고른 뒤 '부모'를 이 폴더로 바꾸면 들어옵니다"
+msgstr "选择部件后，将“父级”改为该文件夹即可移入"
+
+#: face_shapekey_rig/eye.py:2328
+msgid "파츠를 묶는 폴더 (그림 없음). 같은 태그·같은 자리의 폴더끼리는 하나만 켜집니다"
+msgstr "用于归组部件的文件夹（无图像）。相同标签、相同位置的文件夹中只会启用一个"
+
+#: face_shapekey_rig/eye.py:2664
+msgid "파츠의 칸·위치·크기·회전·불투명도·크롭이나 시선, 표정을 바꾸면 현재 프레임에 키를 바로 넣습니다"
+msgstr "更改部件的格子、位置、大小、旋转、不透明度、裁剪或视线、表情时，会立即在当前帧插入关键帧"
+
+#: face_shapekey_rig/core.py:2452
+msgid "패널"
+msgstr "面板"
+
+#: face_shapekey_rig/core.py:2827
+msgid "패널 높이 기준이 될 본 (예: c_head.x)"
+msgstr "作为面板高度基准的骨骼（例如：c_head.x）"
+
+#: face_shapekey_rig/operators.py:2893
+msgid "패널 리로드와 라벨 재생성 없이 컬렉션/프리셋/모캡/립싱크 설정만 복구합니다"
+msgstr "不重新加载面板或重建标签，仅恢复集合/预设/动捕/口型同步设置"
+
+#: face_shapekey_rig/core.py:2765
+msgid "패널 위치 (그랩 바)"
+msgstr "面板位置（拖拽条）"
+
+#: face_shapekey_rig/core.py:2851
+msgid "패널(그랩 바)과 뷰포트 컨트롤러가 아래 본을 따라다니며 지금의 상대 위치를 계속 유지합니다. 캐릭터가 움직여도 옆에 붙어 있습니다 (켜면 리그의 c_pos·root 본을 자동으로 고름)"
+msgstr "面板（拖拽条）和视图控制器会跟随下方骨骼，并持续保持当前的相对位置。角色移动时也会贴在旁边（开启后会自动选择绑定中的 c_pos 和 root 骨骼）"
+
+#: face_shapekey_rig/operators.py:1890
+msgid "패널이 따라갈 본"
+msgstr "面板要跟随的骨骼"
+
+#: face_shapekey_rig/core.py:2862
+msgid "패널이 따라갈 본 (보통 머리 본)"
+msgstr "面板跟随的骨骼（通常是头部骨骼）"
+
+#: face_shapekey_rig/core.py:2414
+msgid "패드 아래로"
+msgstr "摇杆向下"
+
+#: face_shapekey_rig/core.py:2413
+msgid "패드 오른쪽으로"
+msgstr "摇杆向右"
+
+#: face_shapekey_rig/core.py:2413
+msgid "패드 왼쪽으로"
+msgstr "摇杆向左"
+
+#: face_shapekey_rig/core.py:2414
+msgid "패드 위로"
+msgstr "摇杆向上"
+
+#: face_shapekey_rig/eye.py:2579
+msgid "패드를 아래 끝까지 밀었을 때 눈동자가 움직이는 거리 (캔버스 높이 대비)"
+msgstr "将摇杆推到底部时，瞳孔移动的距离（相对于画布高度）"
+
+#: face_shapekey_rig/eye.py:2564
+msgid "패드를 오른쪽 끝까지 밀었을 때 눈동자가 움직이는 거리 (캔버스 폭 대비. 0.03 = 3%)"
+msgstr "将摇杆推到最右侧时，瞳孔移动的距离（相对于画布宽度。0.03 = 3%）"
+
+#: face_shapekey_rig/eye.py:2574
+msgid "패드를 왼쪽 끝까지 밀었을 때 눈동자가 움직이는 거리 (캔버스 폭 대비. 0.03 = 3%)"
+msgstr "将摇杆推到最左侧时，瞳孔移动的距离（相对于画布宽度。0.03 = 3%）"
+
+#: face_shapekey_rig/eye.py:2569
+msgid "패드를 위 끝까지 밀었을 때 눈동자가 움직이는 거리 (캔버스 높이 대비)"
+msgstr "将摇杆推到顶部时，瞳孔移动的距离（相对于画布高度）"
+
+#: face_shapekey_rig/operators.py:285
+#: face_shapekey_rig/operators.py:562
+msgid "패드의 모든 값에 곱해질 배율 (예: 0.5 = 절반 강도, 음수 = 반대 방향)"
+msgstr "乘以摇杆所有数值的倍率（例如 0.5 = 一半强度，负数 = 反向）"
+
+#: face_shapekey_rig/eye.py:2611
+msgid "패럴랙스 강도"
+msgstr "视差强度"
+
+#: face_shapekey_rig/atlas.py:2029
+#: face_shapekey_rig/eye.py:2229
+msgid "편집 모드"
+msgstr "编辑模式"
+
+#: face_shapekey_rig/face_ui.py:2836
+msgid "편집 모드 (키프레임 무시)"
+msgstr "编辑模式（忽略关键帧）"
+
+#: face_shapekey_rig/face_ui.py:2836
+msgid "편집 모드 켜짐 (%d-%d 고정)"
+msgstr "编辑模式已开启（%d-%d 固定）"
+
+#: face_shapekey_rig/face_ui.py:1586
+msgid "편집 시작"
+msgstr "开始编辑"
+
+#: face_shapekey_rig/eye.py:2328
+msgid "폴더"
+msgstr "文件夹"
+
+#: face_shapekey_rig/face_ui.py:2536
+msgid "폴더 안 파츠"
+msgstr "文件夹中的部件"
+
+#: face_shapekey_rig/eye.py:2475
+msgid "폴더 이름"
+msgstr "文件夹名称"
+
+#: face_shapekey_rig/eye.py:2254
+msgid "표시"
+msgstr "显示"
+
+#: face_shapekey_rig/face_ui.py:142
+msgid "표정"
+msgstr "表情"
+
+#: face_shapekey_rig/atlas.py:1929
+msgid "표정 칸마다 닫힘/반/열림 칸 시퀀스를 번갈아 씁니다"
+msgstr "每个表情格交替使用闭/半/开格的序列"
+
+#: face_shapekey_rig/atlas.py:4218
+msgid "표정 칸을 고른 뒤 + 로 시퀀스 추가, 또는 마법봉으로 위아래 자동 생성"
+msgstr "选择表情格后，用 + 添加序列，或用魔棒自动生成上下序列"
+
+#: face_shapekey_rig/panels.py:269
+msgid "표정 프리셋"
+msgstr "表情预设"
+
+#: face_shapekey_rig/eye.py:1361
+msgid "표정 프리셋을 적용할 때 이 그룹 포함"
+msgstr "应用表情预设时包含此组"
+
+#: face_shapekey_rig/core.py:2881
+msgid "프리셋 블렌딩 (초)"
+msgstr "预设混合（秒）"
+
+#: face_shapekey_rig/operators.py:1467
+msgid "프리셋 이름"
+msgstr "预设名称"
+
+#: face_shapekey_rig/core.py:2881
+msgid "프리셋 전환에 걸리는 시간. 0이면 즉시 전환"
+msgstr "预设切换所需时间。0 为立即切换"
+
+#: face_shapekey_rig/face_ui.py:2699
+#: face_shapekey_rig/face_ui.py:2966
+msgid "프리셋 편집 중:"
+msgstr "正在编辑预设："
+
+#: face_shapekey_rig/face_ui.py:3050
+msgid "프리셋 편집 중: 여기서 바꾼 값은 이 표정에만 저장됩니다 (칸 보정은 그대로)"
+msgstr "正在编辑预设：此处更改的值仅保存到此表情（格校正保持不变）"
+
+#: face_shapekey_rig/face_ui.py:2735
+msgid "프리셋을 하나 이상 저장하면 만들 수 있습니다"
+msgstr "保存至少一个预设后才能创建"
+
+#: face_shapekey_rig/core.py:2061
+msgid "한국어"
+msgstr "韩语"
+
+#: face_shapekey_rig/face_ui.py:165
+msgid "할 일"
+msgstr "待办"
+
+#: face_shapekey_rig/operators.py:600
+msgid "함께 움직일 두 번째 본"
+msgstr "要一起移动的第二根骨骼"
+
+#: face_shapekey_rig/operators.py:394
+msgid "함께 움직일 두 번째 본 (양눈 동시 제어용, 비우면 1개만)"
+msgstr "要一起移动的第二根骨骼（用于同时控制双眼，留空则仅一个）"
+
+#: face_shapekey_rig/face_ui.py:2528
+msgid "함께 전환되는 폴더:"
+msgstr "一起切换的文件夹："
+
+#: face_shapekey_rig/eye.py:2222
+msgid "함께 조절"
+msgstr "一起调整"
+
+#: face_shapekey_rig/eye.py:2258
+msgid "합성 모드"
+msgstr "合成模式"
+
+#: face_shapekey_rig/eye.py:2646
+msgid "항상 카메라를 봄"
+msgstr "始终面向摄像机"
+
+#: face_shapekey_rig/operators.py:828
+msgid "해제"
+msgstr "解除"
+
+#: face_shapekey_rig/core.py:3058
+msgid "핸들 XY로 본(눈알 타겟 등)의 위치를 움직임"
+msgstr "用控制柄 XY 移动骨骼（如眼球目标等）的位置"
+
+#: face_shapekey_rig/operators.py:406
+msgid "핸들 상하 이동을 대상 본의 어느 로컬 축으로 보낼지"
+msgstr "控制柄上下移动映射到目标骨骼的哪个局部轴"
+
+#: face_shapekey_rig/operators.py:402
+msgid "핸들 좌우 이동을 대상 본의 어느 로컬 축으로 보낼지. 본을 G로 움직여 눈이 좌우로 도는 축을 고르세요"
+msgstr "控制柄左右移动映射到目标骨骼的哪个局部轴。用 G 移动骨骼，选择眼睛左右转动的轴"
+
+#: face_shapekey_rig/operators.py:598
+msgid "핸들을 따라 움직일 본"
+msgstr "跟随控制柄移动的骨骼"
+
+#: face_shapekey_rig/operators.py:391
+msgid "핸들을 따라 움직일 본 (예: c_eye_target.l)"
+msgstr "跟随控制柄移动的骨骼（例如：c_eye_target.l）"
+
+#: face_shapekey_rig/operators.py:409
+msgid "핸들을 오른쪽 끝까지 밀었을 때 본이 이동하는 거리. 음수 = 반대 방향"
+msgstr "将控制柄推到最右端时骨骼移动的距离。负数 = 相反方向"
+
+#: face_shapekey_rig/operators.py:414
+msgid "핸들을 위 끝까지 밀었을 때 본이 이동하는 거리. 음수 = 반대 방향"
+msgstr "将控制柄推到最上端时骨骼移动的距离。负数 = 相反方向"
+
+#: face_shapekey_rig/operators.py:558
+msgid "핸들이 앵커 반경 안이면 위치와 값이 고정 (0 = 끄기)"
+msgstr "控制柄在锚点半径内时，位置和数值固定（0 = 关闭）"
+
+#: face_shapekey_rig/operators.py:280
+#: face_shapekey_rig/operators.py:422
+msgid "핸들이 앵커(모서리/변 중앙/중앙) 반경 안이면 위치와 값이 앵커에 고정됩니다. 이동 범위 대비 비율 (0=끄기)"
+msgstr "控制柄在锚点（角/边中点/中心）半径内时，位置和数值会固定到锚点。相对于移动范围的比例（0=关闭）"
+
+#: face_shapekey_rig/operators.py:162
+msgid "핸들이 앵커(시작/중간/끝) 반경 안이면 위치와 값이 고정 (0 = 스냅 끄기)"
+msgstr "控制柄在锚点（起点/中间/终点）半径内时，位置和数值固定（0 = 关闭吸附）"
+
+#: face_shapekey_rig/atlas.py:2048
+msgid "행"
+msgstr "行"
+
+#: face_shapekey_rig/atlas.py:1911
+#: face_shapekey_rig/eye.py:2172
+msgid "행 (세로 칸 수)"
+msgstr "行（纵向格数）"
+
+#: face_shapekey_rig/atlas.py:1918
+msgid "행 따라가기"
+msgstr "跟随行"
+
+#: face_shapekey_rig/atlas.py:1913
+msgid "행 이름"
+msgstr "行名称"
+
+#: face_shapekey_rig/atlas.py:4073
+msgid "행을 따라감:"
+msgstr "跟随行："
+
+#: face_shapekey_rig/operators.py:4207
+msgid "허용 오차"
+msgstr "容差"
+
+#: face_shapekey_rig/face_ui.py:1766
+msgid "현재 프레임에 Constant 키를 넣어 이 프레임부터 표정이 바뀌게 합니다"
+msgstr "在当前帧插入常量关键帧，使表情从此帧开始变化"
+
+#: face_shapekey_rig/panels.py:348
+msgid "형식:"
+msgstr "格式："
+
+#: face_shapekey_rig/eye.py:2621
+msgid "화면 돌릴 때"
+msgstr "旋转视图时"
+
+#: face_shapekey_rig/eye.py:7563
+#: face_shapekey_rig/face_ui.py:2908
+msgid "회전"
+msgstr "旋转"
+
+#: face_shapekey_rig/operators.py:400
+#: face_shapekey_rig/operators.py:605
+msgid "회전 (머리 기준)"
+msgstr "旋转（以头部为基准）"
+
+#: face_shapekey_rig/core.py:2933
+msgid "회전 배율"
+msgstr "旋转倍率"
+
+#: face_shapekey_rig/core.py:7062
+msgctxt "Operator"
+msgid "%d"
+msgstr "%d"
+
+#: face_shapekey_rig/atlas.py:4164
+msgctxt "Operator"
+msgid "%d-%d"
+msgstr "%d-%d"
+
+#: face_shapekey_rig/eye.py:6750
+msgctxt "Operator"
+msgid "'머리카락 위로' 파츠 자리에서 지금 보는 쪽으로 광선을 쏴서 앞머리까지의 거리를 재고, 앞으로 당기는 거리를 그보다 조금 크게 맞춥니다"
+msgstr "从“头发上方”部件位置沿当前视角方向发射射线，测量到刘海的间距，并把前拉距离设为略大于该值"
+
+#: face_shapekey_rig/eye.py:7221
+msgctxt "Operator"
+msgid "'원래 색'이 '바꿀 색'이 되도록 색조·채도·명도 값을 계산해 넣습니다. 비슷한 색의 명암도 같이 따라 바뀜"
+msgstr "计算并填入色相、饱和度、明度值，使“原色”变为“目标色”。相近颜色的明暗也会随之改变"
+
+#: face_shapekey_rig/atlas.py:3925
+msgctxt "Operator"
+msgid "(고급) 별도 데칼"
+msgstr "（高级）单独贴花"
+
+#: face_shapekey_rig/atlas.py:3903
+msgctxt "Operator"
+msgid "(고급) 별도 입 데칼에 시트 추가"
+msgstr "（高级）为单独嘴部贴花添加图集"
+
+#: face_shapekey_rig/face_ui.py:2176
+msgctxt "Operator"
+msgid "(고급) 선택한 메시를 그대로 캔버스로"
+msgstr "（高级）直接将所选网格用作画布"
+
+#: face_shapekey_rig/face_ui.py:2267
+msgctxt "Operator"
+msgid "(적용됨)"
+msgstr "（已应用）"
+
+#: face_shapekey_rig/eye.py:6494
+msgctxt "Operator"
+msgid "-"
+msgstr "-"
+
+#: face_shapekey_rig/atlas.py:4569
+msgctxt "Operator"
+msgid "0-1, 2-3, 4-5행... 두 행씩 묶어서, 위 칸 = 열림, 아래 칸 = 닫힘 시퀀스를 만듭니다. 두 칸 모두 그림이 있는 곳만 (투명 배경 이미지 기준)"
+msgstr "按 0-1、2-3、4-5 行……每两行一组，上格 = 张开、下格 = 闭合来生成序列。仅限两格都有图案的位置（以透明背景图像为准）"
+
+#: face_shapekey_rig/operators.py:264
+msgctxt "Operator"
+msgid "2D 패드 추가"
+msgstr "添加 2D 控制板"
+
+#: face_shapekey_rig/operators.py:2887
+msgctxt "Operator"
+msgid "Append 한 리그에서 캐릭터 설정을 복구합니다. 컨트롤러는 새로 만들지 않고 기존 본의 설정을 그대로 사용합니다"
+msgstr "从追加的绑定中恢复角色设置。不会新建控制器，而是沿用现有骨骼的设置"
+
+#: face_shapekey_rig/operators.py:3189
+msgctxt "Operator"
+msgid "Calibrate (중립 캡처)"
+msgstr "校准（中性捕获）"
+
+#: face_shapekey_rig/atlas.py:3774
+msgctxt "Operator"
+msgid "Constant 보간 정리"
+msgstr "清理常量插值"
+
+#: face_shapekey_rig/operators.py:1290
+msgctxt "Operator"
+msgid "JSON 레이아웃을 불러와 패널을 구성합니다. 같은 이름의 셰이프 키에 자동 연결되며, 없는 키의 컨트롤러는 건너뜁니다"
+msgstr "导入 JSON 布局并构建面板。会自动连接到同名形态键，并跳过不存在键的控制器"
+
+#: face_shapekey_rig/operators.py:2280
+msgctxt "Operator"
+msgid "Only Insert Available 끄기"
+msgstr "关闭 Only Insert Available"
+
+#: face_shapekey_rig/operators.py:2281
+msgctxt "Operator"
+msgid "Preferences → Animation → Keyframes의 'Only Insert Available'을 끕니다. 켜져 있으면 키가 한 번도 없던 본(컨트롤러 손잡이 등)에 I로 키를 넣을 수 없습니다"
+msgstr "关闭 偏好设置 → 动画 → 关键帧 中的“Only Insert Available”。若开启，就无法给从未有过关键帧的骨骼（控制器手柄等）用 I 插入关键帧"
+
+#: face_shapekey_rig/atlas.py:3131
+msgctxt "Operator"
+msgid "UV를 첫 칸에 맞추기"
+msgstr "将 UV 适配到第一格"
+
+#: face_shapekey_rig/operators.py:3075
+msgctxt "Operator"
+msgid "iFacialMocap 수신을 시작합니다. 아이폰과 PC가 같은 와이파이에 있어야 하며, 앱이 켜져 있어야 합니다"
+msgstr "开始接收 iFacialMocap。iPhone 与 PC 必须处于同一 Wi-Fi，且应用需保持开启"
+
+#: face_shapekey_rig/operators.py:3123
+msgctxt "Operator"
+msgid "iFacialMocap 수신을 중지합니다"
+msgstr "停止接收 iFacialMocap"
+
+#: face_shapekey_rig/operators.py:3460
+msgctxt "Operator"
+msgid "iFacialMocap 캡처 중 숫자키로 표정 프리셋을 적용합니다 (1~9 = 프리셋 순번, 0 = 기본 표정). 캡처 중이 아니면 숫자키는 원래 기능대로 동작합니다"
+msgstr "在 iFacialMocap 捕获期间用数字键应用表情预设（1~9 = 预设序号，0 = 默认表情）。不在捕获时，数字键按原功能工作"
+
+#: face_shapekey_rig/operators.py:4202
+msgctxt "Operator"
+msgid "mocap 녹화로 촘촘히 박힌 키프레임을 모양을 유지하는 한도 안에서 줄입니다 (핸들 위치·목 회전·셰이프 키 값). 그래프 에디터에서 손질하기 쉬워집니다"
+msgstr "减少动作捕捉录制产生的大量关键帧，并在保持形状的范围内精简（手柄位置、颈部旋转、形态键值）。便于在曲线编辑器中编辑"
+
+#: face_shapekey_rig/atlas.py:3960
+msgctxt "Operator"
+msgid "④ 입 파츠에 이 시트 연결"
+msgstr "将图集连接到 ④ 嘴部部件"
+
+#: face_shapekey_rig/atlas.py:3736
+msgctxt "Operator"
+msgid "④의 입 파츠가 이 시트를 그리도록 연결합니다 (시퀀스·미리보기·립싱크가 화면에 보이려면 필요)"
+msgstr "连接 ④ 的嘴部部件以绘制此图集（需用于在屏幕上显示序列、预览和唇形同步）"
+
+#: face_shapekey_rig/eye.py:6749
+msgctxt "Operator"
+msgid "가림 거리 재서 맞추기"
+msgstr "测量遮挡距离并适配"
+
+#: face_shapekey_rig/face_ui.py:2366
+msgctxt "Operator"
+msgid "가운데"
+msgstr "居中"
+
+#: face_shapekey_rig/face_ui.py:796
+#: face_shapekey_rig/face_ui.py:2267
+msgctxt "Operator"
+msgid "가장자리 흰 선 제거"
+msgstr "移除边缘白线"
+
+#: face_shapekey_rig/operators.py:1169
+msgctxt "Operator"
+msgid "각 텍스트에서 가장 가까운 컨트롤러를 찾아 그 색을 자동으로 적용합니다 (색상을 사용하는 컨트롤러 기준)"
+msgstr "为每个文本查找最近的控制器并自动应用其颜色（基于使用颜色的控制器）"
+
+#: face_shapekey_rig/operators.py:3280
+msgctxt "Operator"
+msgid "간단 자동 설정"
+msgstr "简单自动设置"
+
+#: face_shapekey_rig/eye.py:5731
+#: face_shapekey_rig/face_ui.py:2162
+msgctxt "Operator"
+msgid "감정표현 Plane 만들기"
+msgstr "创建表情平面"
+
+#: face_shapekey_rig/face_ui.py:820
+msgctxt "Operator"
+msgid "격자로 그린 스프라이트 시트 이미지를 불러와 행·열로 자르고 파츠 번호를 매깁니다"
+msgstr "导入按网格绘制的精灵图集图像，按行、列切分并编号部件"
+
+#: face_shapekey_rig/operators.py:3840
+msgctxt "Operator"
+msgid "구간 적용 (다시 굽기)"
+msgstr "应用区间（重新烘焙）"
+
+#: face_shapekey_rig/operators.py:3540
+msgctxt "Operator"
+msgid "구간으로 이동"
+msgstr "跳转到区间"
+
+#: face_shapekey_rig/eye.py:7246
+msgctxt "Operator"
+msgid "그림에서 찾기"
+msgstr "从图像中查找"
+
+#: face_shapekey_rig/layer_vp.py:1139
+msgctxt "Operator"
+msgid "기본 배치로 정렬"
+msgstr "按默认布局排列"
+
+#: face_shapekey_rig/operators.py:3028
+msgctxt "Operator"
+msgid "기본값으로 되돌리기"
+msgstr "恢复默认值"
+
+#: face_shapekey_rig/eye.py:7442
+msgctxt "Operator"
+msgid "기존 메시를 캔버스로"
+msgstr "使用现有网格作为画布"
+
+#: face_shapekey_rig/face_ui.py:694
+msgctxt "Operator"
+msgid "기초 태그 넣기"
+msgstr "添加基础标签"
+
+#: face_shapekey_rig/atlas.py:4191
+#: face_shapekey_rig/layer_vp.py:1219
+msgctxt "Operator"
+msgid "끄기"
+msgstr "关闭"
+
+#: face_shapekey_rig/face_ui.py:2137
+msgctxt "Operator"
+msgid "내보내기"
+msgstr "导出"
+
+#: face_shapekey_rig/face_ui.py:3649
+msgctxt "Operator"
+msgid "내보낸 .zip을 지금 고른 캔버스에 덮어씁니다. 이 캔버스의 기존 파츠·프리셋·입 시트·컨트롤러는 지워집니다 (Ctrl+Z로 되돌릴 수 있음)"
+msgstr "将导出的 .zip 覆盖到当前选中的画布。此画布现有的部件、预设、嘴部图集和控制器将被删除（可用 Ctrl+Z 撤销）"
+
+#: face_shapekey_rig/operators.py:3134
+msgctxt "Operator"
+msgid "녹화 시작"
+msgstr "开始录制"
+
+#: face_shapekey_rig/operators.py:4201
+msgctxt "Operator"
+msgid "녹화 커브 단순화"
+msgstr "简化录制曲线"
+
+#: face_shapekey_rig/eye.py:7154
+msgctxt "Operator"
+msgid "눈 데칼의 UV를 0~1 정사각형 안에 꽉 차게 맞춥니다 (가로세로 비율 유지, 가운데 정렬). 파츠 위치/크기의 기준이 데칼 전체가 됩니다"
+msgstr "将眼睛贴花的 UV 适配到 0~1 的正方形内并铺满（保持宽高比、居中对齐）。部件位置/大小将以整个贴花为基准"
+
+#: face_shapekey_rig/eye.py:6231
+msgctxt "Operator"
+msgid "눈 머티리얼·시선 패드를 지우고 원래 머티리얼로 되돌립니다 (키는 유지)"
+msgstr "删除眼睛材质和视线控制板，并恢复为原材质（保留形态键）"
+
+#: face_shapekey_rig/eye.py:6230
+msgctxt "Operator"
+msgid "눈 삭제"
+msgstr "删除眼睛"
+
+#: face_shapekey_rig/eye.py:4709
+msgctxt "Operator"
+msgid "눈 추가"
+msgstr "添加眼睛"
+
+#: face_shapekey_rig/face_ui.py:695
+msgctxt "Operator"
+msgid "눈·눈썹·입·감정표현 태그와 눈·입 마커를 없는 것만 추가합니다"
+msgstr "仅添加缺少的眼睛、眉毛、嘴、表情标签以及眼睛、嘴标记"
+
+#: face_shapekey_rig/layer_vp.py:1182
+msgctxt "Operator"
+msgid "다른 사본 끄기"
+msgstr "关闭其他副本"
+
+#: face_shapekey_rig/atlas.py:3483
+msgctxt "Operator"
+msgid "다른 칸 그림 연결 모두 비우기"
+msgstr "清空所有其他格子的图像连接"
+
+#: face_shapekey_rig/atlas.py:4034
+msgctxt "Operator"
+msgid "다른 칸 그림 연결 모두 비우기 (%d칸)"
+msgstr "清空所有其他格子的图像连接（%d 格）"
+
+#: face_shapekey_rig/face_ui.py:2263
+msgctxt "Operator"
+msgid "다른 파일로"
+msgstr "另存为其他文件"
+
+#: face_shapekey_rig/face_ui.py:973
+msgctxt "Operator"
+msgid "다른 파일로 바꾸기"
+msgstr "切换到其他文件"
+
+#: face_shapekey_rig/face_ui.py:2323
+#: face_shapekey_rig/face_ui.py:2739
+msgctxt "Operator"
+msgid "다시 만들기"
+msgstr "重新创建"
+
+#: face_shapekey_rig/face_ui.py:2261
+msgctxt "Operator"
+msgid "다시 불러오기"
+msgstr "重新加载"
+
+#: face_shapekey_rig/face_ui.py:1062
+msgctxt "Operator"
+msgid "다시 자르기"
+msgstr "重新切分"
+
+#: face_shapekey_rig/face_ui.py:2213
+msgctxt "Operator"
+msgid "다시 찍기"
+msgstr "重新捕获"
+
+#: face_shapekey_rig/operators.py:4090
+msgctxt "Operator"
+msgid "대사 녹음(WAV/MP3/OGG/FLAC)을 분석해 A/I/U/E/O 립싱크 키프레임을 자동 생성합니다. '간단 자동 설정'의 입 매핑을 그대로 사용하므로 먼저 매핑을 만들어 두세요"
+msgstr "分析台词录音（WAV/MP3/OGG/FLAC）并自动生成 A/I/U/E/O 唇形同步关键帧。会直接使用“简单自动设置”的嘴部映射，因此请先创建映射"
+
+#: face_shapekey_rig/atlas.py:3132
+msgctxt "Operator"
+msgid "대상의 UV(버텍스 그룹이 있으면 그 부분만)를 좌상단 첫 칸 크기로 맞춥니다"
+msgstr "将目标的 UV（若有顶点组则仅该部分）适配到左上角第一格的大小"
+
+#: face_shapekey_rig/eye.py:7153
+msgctxt "Operator"
+msgid "데칼 UV를 0~1로 펴기"
+msgstr "展开贴花 UV 到 0~1"
+
+#: face_shapekey_rig/atlas.py:3088
+msgctxt "Operator"
+msgid "데칼 머티리얼을 이미지 알파로 투명하게 만듭니다 (Transparent + Mix Shader 삽입, Blended 렌더, 그림자 끄기). 얼굴 본체 머티리얼에는 쓰지 마세요"
+msgstr "用图像 Alpha 使贴花材质透明（插入 Transparent + Mix Shader，混合渲染，关闭阴影）。不要用于脸部主体材质"
+
+#: face_shapekey_rig/atlas.py:3009
+msgctxt "Operator"
+msgid "드라이버·모디파이어·노드와 리그 값을 모두 제거합니다 (키프레임은 유지)"
+msgstr "移除所有驱动器、修改器、节点和绑定值（保留关键帧）"
+
+#: face_shapekey_rig/face_ui.py:939
+msgctxt "Operator"
+msgid "디스크의 시트 이미지 파일을 다시 읽습니다 (다른 프로그램에서 고친 뒤 사용)"
+msgstr "重新读取磁盘上的图集图像文件（在其他程序中修改后使用）"
+
+#: face_shapekey_rig/operators.py:1289
+msgctxt "Operator"
+msgid "레이아웃 가져오기"
+msgstr "导入布局"
+
+#: face_shapekey_rig/operators.py:1213
+msgctxt "Operator"
+msgid "레이아웃 내보내기"
+msgstr "导出布局"
+
+#: face_shapekey_rig/operators.py:3817
+msgctxt "Operator"
+msgid "립싱크 사운드 제거"
+msgstr "移除口型同步声音"
+
+#: face_shapekey_rig/operators.py:3556
+msgctxt "Operator"
+msgid "립싱크 편집기 열기"
+msgstr "打开口型同步编辑器"
+
+#: face_shapekey_rig/face_ui.py:534
+msgctxt "Operator"
+msgid "마커 삭제"
+msgstr "删除标记"
+
+#: face_shapekey_rig/face_ui.py:292
+msgctxt "Operator"
+msgid "마커 찍기"
+msgstr "放置标记"
+
+#: face_shapekey_rig/face_ui.py:416
+msgctxt "Operator"
+msgid "마커 추가"
+msgstr "添加标记"
+
+#: face_shapekey_rig/face_ui.py:535
+msgctxt "Operator"
+msgid "마커를 지웁니다. 이 마커를 쓰던 태그는 얼굴 가운데 기준이 됩니다"
+msgstr "删除此标记。使用该标记的标签将以脸部中心为基准"
+
+#: face_shapekey_rig/atlas.py:3556
+msgctxt "Operator"
+msgid "말하기 미리보기"
+msgstr "说话预览"
+
+#: face_shapekey_rig/operators.py:4286
+msgctxt "Operator"
+msgid "매핑 삭제"
+msgstr "删除映射"
+
+#: face_shapekey_rig/operators.py:4276
+msgctxt "Operator"
+msgid "매핑 추가"
+msgstr "添加映射"
+
+#: face_shapekey_rig/eye.py:6051
+msgctxt "Operator"
+msgid "머리 납작하게 (카메라 기준)"
+msgstr "压扁头部（以摄像机为基准）"
+
+#: face_shapekey_rig/eye.py:6199
+msgctxt "Operator"
+msgid "머리 납작하게 지우기"
+msgstr "清除头部压扁"
+
+#: face_shapekey_rig/operators.py:1885
+msgctxt "Operator"
+msgid "머리에 부착"
+msgstr "附着到头部"
+
+#: face_shapekey_rig/eye.py:5179
+msgctxt "Operator"
+msgid "메시 수정 후 정리"
+msgstr "网格修改后清理"
+
+#: face_shapekey_rig/layer_vp.py:1305
+msgctxt "Operator"
+msgid "몇 초 동안 애드온이 쓰는 시간을 함수별로 잽니다. 누른 뒤 렉이 나는 동작(화면 돌리기·재생·컨트롤러 끌기 등)을 평소처럼 하세요. 결과는 블렌드 파일 옆 fskr_perf.txt와 텍스트 편집기의 FSKR_perf.txt에 저장됩니다"
+msgstr "按函数测量插件在数秒内耗费的时间。按下后请照常执行会卡顿的操作（旋转视图、播放、拖动控制器等）。结果保存到 .blend 文件旁的 fskr_perf.txt 和文本编辑器中的 FSKR_perf.txt"
+
+#: face_shapekey_rig/eye.py:6200
+msgctxt "Operator"
+msgid "모든 메시에서 납작하게 모디파이어를 지웁니다"
+msgstr "移除所有网格上的压扁修改器"
+
+#: face_shapekey_rig/operators.py:2788
+msgctxt "Operator"
+msgid "모든 컨트롤러/라벨/위젯과 셰이프 키 드라이버를 제거합니다"
+msgstr "移除所有控制器、标签、控件以及形态键驱动器"
+
+#: face_shapekey_rig/operators.py:3029
+msgctxt "Operator"
+msgid "모든 컨트롤러를 저장된 기본값으로 되돌립니다. 저장된 기본값이 없으면 0으로 (키프레임은 지우지 않음)"
+msgstr "将所有控制器恢复为保存的默认值。若没有保存的默认值则设为 0（不删除关键帧）"
+
+#: face_shapekey_rig/eye.py:6508
+msgctxt "Operator"
+msgid "모든 파츠 보이기"
+msgstr "显示所有部件"
+
+#: face_shapekey_rig/operators.py:2609
+msgctxt "Operator"
+msgid "목록에서 컨트롤러 순서를 위/아래로 이동합니다 (같은 그룹 안에서, Shift = 맨 위/맨 아래로)"
+msgstr "在列表中向上/向下移动控制器顺序（同一组内，Shift = 移到最上/最下）"
+
+#: face_shapekey_rig/operators.py:3190
+msgctxt "Operator"
+msgid "무표정으로 카메라를 정면으로 본 상태에서 누르세요. 지금 값을 기준(0)으로 저장해서 이후 수신값을 보정합니다. 씬에 저장되어 다음에도 유지됩니다"
+msgstr "请保持无表情并正面朝向摄像机时按下。将当前值保存为基准（0），用于校正之后接收的值。保存在场景中，下次仍然有效"
+
+#: face_shapekey_rig/operators.py:1007
+msgctxt "Operator"
+msgid "반대쪽 자동 생성"
+msgstr "自动生成另一侧"
+
+#: face_shapekey_rig/atlas.py:3579
+msgctxt "Operator"
+msgid "반전 칸 만들기"
+msgstr "创建反转格"
+
+#: face_shapekey_rig/panels.py:81
+msgctxt "Operator"
+msgid "배치 모드"
+msgstr "摆放模式"
+
+#: face_shapekey_rig/operators.py:2354
+msgctxt "Operator"
+msgid "배치 모드 끄기"
+msgstr "关闭摆放模式"
+
+#: face_shapekey_rig/operators.py:2355
+msgctxt "Operator"
+msgid "배치 모드를 끕니다 (ESC 또는 우클릭)"
+msgstr "关闭摆放模式（ESC 或右键）"
+
+#: face_shapekey_rig/operators.py:2068
+msgctxt "Operator"
+msgid "배치 모드에서 G로 틀을 이동합니다. Shift를 누르는 동안 다른 틀 모서리에 스냅됩니다"
+msgstr "在摆放模式中按 G 移动框。按住 Shift 时吸附到其他框的角"
+
+#: face_shapekey_rig/operators.py:2379
+msgctxt "Operator"
+msgid "배치 모드에서 선택된 틀의 변 화살표를 드래그해 그 변만 이동합니다. Ctrl을 누르는 동안 다른 틀 모서리에 스냅됩니다"
+msgstr "在摆放模式中拖动所选框的边箭头，只移动该边。按住 Ctrl 时吸附到其他框的角"
+
+#: face_shapekey_rig/operators.py:2642
+msgctxt "Operator"
+msgid "배치 순서로 정렬"
+msgstr "按摆放顺序排序"
+
+#: face_shapekey_rig/eye.py:7126
+msgctxt "Operator"
+msgid "배치 초기화"
+msgstr "重置摆放"
+
+#: face_shapekey_rig/face_ui.py:3058
+msgctxt "Operator"
+msgid "배치 켜기 (머티리얼 다시 만들기)"
+msgstr "开启摆放（重新创建材质）"
+
+#: face_shapekey_rig/operators.py:2378
+msgctxt "Operator"
+msgid "변 크기 조절"
+msgstr "调整边尺寸"
+
+#: face_shapekey_rig/operators.py:2303
+msgctxt "Operator"
+msgid "변형 지우기 (컨트롤러 보호)"
+msgstr "清除变形（保护控制器）"
+
+#: face_shapekey_rig/atlas.py:3289
+#: face_shapekey_rig/eye.py:6955
+msgctxt "Operator"
+msgid "보간 적용"
+msgstr "应用插值"
+
+#: face_shapekey_rig/operators.py:3221
+msgctxt "Operator"
+msgid "보정 해제"
+msgstr "取消校正"
+
+#: face_shapekey_rig/operators.py:382
+msgctxt "Operator"
+msgid "본 패드 추가"
+msgstr "添加骨骼板"
+
+#: face_shapekey_rig/face_ui.py:2139
+msgctxt "Operator"
+msgid "불러오기 (덮어쓰기)"
+msgstr "加载（覆盖）"
+
+#: face_shapekey_rig/operators.py:2643
+msgctxt "Operator"
+msgid "뷰포트 배치 위치(위→아래, 왼쪽→오른쪽) 순서대로 목록 순서를 자동 정렬합니다 (그룹별)"
+msgstr "按视图中的摆放位置（从上到下、从左到右）自动排序列表顺序（按组）"
+
+#: face_shapekey_rig/operators.py:2043
+msgctxt "Operator"
+msgid "뷰포트 색상 다시 불러오기"
+msgstr "重新加载视图颜色"
+
+#: face_shapekey_rig/layer_vp.py:1087
+msgctxt "Operator"
+msgid "뷰포트 컨트롤러"
+msgstr "视图控制器"
+
+#: face_shapekey_rig/atlas_vp.py:1250
+#: face_shapekey_rig/layer_vp.py:1132
+msgctxt "Operator"
+msgid "뷰포트 컨트롤러 갱신"
+msgstr "更新视图控制器"
+
+#: face_shapekey_rig/atlas.py:4211
+#: face_shapekey_rig/atlas_vp.py:1192
+msgctxt "Operator"
+msgid "뷰포트 컨트롤러 만들기"
+msgstr "创建视图控制器"
+
+#: face_shapekey_rig/atlas_vp.py:1224
+msgctxt "Operator"
+msgid "뷰포트 컨트롤러 삭제"
+msgstr "删除视图控制器"
+
+#: face_shapekey_rig/operators.py:1820
+msgctxt "Operator"
+msgid "뷰포트 패널 리로드"
+msgstr "重新加载视图面板"
+
+#: face_shapekey_rig/eye.py:7339
+msgctxt "Operator"
+msgid "뷰포트에 시선 패드(눈동자 컨트롤러)를 만들거나 다시 만들거나 지웁니다"
+msgstr "在视图中创建、重建或删除视线板（眼球控制器）"
+
+#: face_shapekey_rig/operators.py:1970
+msgctxt "Operator"
+msgid "뷰포트에 크로스헤어가 나타납니다. 클릭한 위치에 패널이 생성되고, 이미 있으면 패널 전체가 그곳으로 이동합니다. 우클릭/ESC = 취소"
+msgstr "视图中会出现十字准线。点击位置将创建面板；若已存在，整个面板会移动到该处。右键/ESC = 取消"
+
+#: face_shapekey_rig/preset_vp.py:639
+msgctxt "Operator"
+msgid "뷰포트에 표정 목록 컨트롤러를 만들거나 다시 만들거나 지웁니다. 손잡이를 끌어 표정을 고릅니다"
+msgstr "在视图中创建、重建或删除表情列表控制器。拖动把手选择表情"
+
+#: face_shapekey_rig/face_ui.py:293
+msgctxt "Operator"
+msgid "뷰포트에서 얼굴 캔버스 위를 클릭해 이 마커의 위치를 정합니다 (정면 뷰 권장)"
+msgstr "在视图中点击脸部画布来设定此标记的位置（建议使用正视图）"
+
+#: face_shapekey_rig/operators.py:2681
+msgctxt "Operator"
+msgid "뷰포트에서 이 컨트롤러를 선택합니다 (배치 모드면 틀을 선택)"
+msgstr "在视图中选择此控制器（若在摆放模式则选择框）"
+
+#: face_shapekey_rig/face_ui.py:4547
+msgctxt "Operator"
+msgid "뷰포트에서 자유 변형"
+msgstr "在视图中自由变形"
+
+#: face_shapekey_rig/face_ui.py:3054
+msgctxt "Operator"
+msgid "뷰포트에서 자유 변형 (Ctrl+T)"
+msgstr "在视图中自由变形（Ctrl+T）"
+
+#: face_shapekey_rig/operators.py:3557
+msgctxt "Operator"
+msgid "브라우저에 전용 립싱크 편집기를 엽니다. 파형과 모음 구간을 보며 구간을 클릭해 A/I/U/E/O를 바꾸고, 적용을 누르면 Blender에 다시 굽습니다"
+msgstr "在浏览器中打开专用口型同步编辑器。查看波形和元音区间，点击区间切换 A/I/U/E/O，点击应用即可重新烘焙到 Blender"
+
+#: face_shapekey_rig/operators.py:265
+msgctxt "Operator"
+msgid "상/하/좌/우 방향별로 셰이프 키를 연결한 XY 패드를 추가합니다. 같은 키를 상+하(또는 좌+우)에 넣으면 -1~1 풀레인지로 동작합니다"
+msgstr "添加按上/下/左/右方向分别连接形态键的 XY 板。若同一键放入上+下（或左+右），则以 -1~1 全域范围运作"
+
+#: face_shapekey_rig/face_ui.py:2157
+msgctxt "Operator"
+msgid "새 캔버스 만들기"
+msgstr "新建画布"
+
+#: face_shapekey_rig/operators.py:1685
+msgctxt "Operator"
+msgid "새 컬렉션을 만듭니다. 체크한 컨트롤러가 있으면 바로 담습니다"
+msgstr "新建集合。若有勾选的控制器则直接放入"
+
+#: face_shapekey_rig/eye.py:6295
+msgctxt "Operator"
+msgid "새 파츠 레이어를 맨 앞에 추가합니다"
+msgstr "在最前面添加新部件图层"
+
+#: face_shapekey_rig/eye.py:6324
+msgctxt "Operator"
+msgid "새 폴더"
+msgstr "新建文件夹"
+
+#: face_shapekey_rig/eye.py:6499
+msgctxt "Operator"
+msgid "새 폴더 (지금 보이는 파츠로)"
+msgstr "新建文件夹（使用当前可见的部件）"
+
+#: face_shapekey_rig/eye.py:7220
+msgctxt "Operator"
+msgid "색조/채도/명도 계산"
+msgstr "计算色相/饱和度/明度"
+
+#: face_shapekey_rig/eye.py:7203
+msgctxt "Operator"
+msgid "색조/채도/명도 초기화"
+msgstr "重置色相/饱和度/明度"
+
+#: face_shapekey_rig/operators.py:1746
+msgctxt "Operator"
+msgid "선택 → 컬렉션"
+msgstr "选择 → 集合"
+
+#: face_shapekey_rig/eye.py:5366
+msgctxt "Operator"
+msgid "선택 영역 수정"
+msgstr "编辑选区"
+
+#: face_shapekey_rig/eye.py:5226
+msgctxt "Operator"
+msgid "선택 영역 적용"
+msgstr "应用选区"
+
+#: face_shapekey_rig/eye.py:4710
+msgctxt "Operator"
+msgid "선택한 눈 데칼 메시에 파츠 레이어 합성 머티리얼을 만듭니다"
+msgstr "为选中的眼睛贴花网格创建部件图层合成材质"
+
+#: face_shapekey_rig/face_ui.py:2003
+msgctxt "Operator"
+msgid "선택한 메시 추가"
+msgstr "添加选中的网格"
+
+#: face_shapekey_rig/eye.py:6052
+msgctxt "Operator"
+msgid "선택한 메시(얼굴·머리카락·모자 등)를 카메라 시선 방향으로 눌러 2D 그림처럼 보이게 합니다. 캔버스 파츠도 같이 눌립니다. 렌더 카메라 기준 연출"
+msgstr "沿相机视线方向压平选中的网格（脸部、头发、帽子等），使其看起来像 2D 画面。画布部件也会一同压平。按渲染相机进行设置"
+
+#: face_shapekey_rig/operators.py:2304
+msgctxt "Operator"
+msgid "선택한 본의 위치/회전/크기를 지웁니다. 캐릭터 본과 함께 선택된 Face Rig 컨트롤러(FP_…)는 그대로 둡니다. 컨트롤러만 선택했을 때는 평소처럼 지웁니다"
+msgstr "清除选中骨骼的位置/旋转/缩放。与角色骨骼一起选中的 Face Rig 控制器（FP_…）保持不变。仅选中控制器时，按常规清除"
+
+#: face_shapekey_rig/operators.py:142
+msgctxt "Operator"
+msgid "선택한 셰이프 키를 조절하는 1D 슬라이더를 추가합니다"
+msgstr "为选中的形态键添加 1D 滑块用于调节"
+
+#: face_shapekey_rig/atlas.py:2968
+msgctxt "Operator"
+msgid "선택한 오브젝트(입/눈 데칼 등)에 격자 이미지 칸 전환을 추가합니다"
+msgstr "为选中物体（嘴/眼贴花等）添加网格图像单元格切换"
+
+#: face_shapekey_rig/operators.py:3782
+msgctxt "Operator"
+msgid "선택한 재생 오디오를 제거합니다 (시퀀서 스트립만 해당). 립싱크 데이터는 그대로 남습니다"
+msgstr "移除选中的播放音频（仅限序列编辑器片段）。口型同步数据保持不变"
+
+#: face_shapekey_rig/eye.py:6325
+msgctxt "Operator"
+msgid "선택한 파츠 자리에 폴더를 만들고 그 파츠를 넣습니다. 같은 태그·같은 자리의 폴더끼리는 하나만 켜져서, 예를 들어 '일반 눈'과 '폭소 눈' 폴더를 눈 하나로 전환할 수 있습니다"
+msgstr "在选中部件的位置创建文件夹并将该部件放入其中。相同标签、相同位置的文件夹中只会启用一个，例如可用一只眼睛在“普通眼”和“大笑眼”文件夹之间切换"
+
+#: face_shapekey_rig/eye.py:6606
+msgctxt "Operator"
+msgid "선택한 파츠를 그림·값·키프레임까지 똑같이 복제해 바로 위에 놓습니다 (이름 뒤에 .001)"
+msgstr "完全复制选中部件（包括图像、数值和关键帧）并放在其正上方（名称后加 .001）"
+
+#: face_shapekey_rig/layer_vp.py:1304
+msgctxt "Operator"
+msgid "성능 측정"
+msgstr "性能测量"
+
+#: face_shapekey_rig/layer_vp.py:1341
+msgctxt "Operator"
+msgid "성능 측정 (8초)"
+msgstr "性能测量（8 秒）"
+
+#: face_shapekey_rig/operators.py:1588
+msgctxt "Operator"
+msgid "셰이프 키 베이크 (익스포트용)"
+msgstr "烘焙形态键（用于导出）"
+
+#: face_shapekey_rig/operators.py:1867
+msgctxt "Operator"
+msgid "셰이프 키 이름 동기화"
+msgstr "同步形态键名称"
+
+#: face_shapekey_rig/operators.py:3237
+msgctxt "Operator"
+msgid "셰이프 키 이름과 ARKit 이름을 비교해 매핑을 자동으로 채웁니다 (기존 매핑은 교체). 눈동자 패드 등은 수동으로 추가하세요"
+msgstr "将形态键名称与 ARKit 名称比较并自动填充映射（替换现有映射）。瞳孔垫片等请手动添加"
+
+#: face_shapekey_rig/operators.py:1868
+msgctxt "Operator"
+msgid "셰이프 키 이름을 바꾼 뒤 실행하세요. 드라이버가 실제로 연결된 키 이름을 읽어 목록/메타데이터를 갱신합니다"
+msgstr "重命名形态键后运行。会读取驱动器实际连接的键名称并更新列表/元数据"
+
+#: face_shapekey_rig/eye.py:6818
+msgctxt "Operator"
+msgid "순서 바꾸기"
+msgstr "交换顺序"
+
+#: face_shapekey_rig/operators.py:2608
+msgctxt "Operator"
+msgid "순서 이동"
+msgstr "移动顺序"
+
+#: face_shapekey_rig/face_ui.py:405
+msgctxt "Operator"
+msgid "숫자패드 1처럼 얼굴 정면 뷰로 바꾸고 캔버스를 화면 가운데로 (얼굴 방향 설정 반영)"
+msgstr "像数字键盘 1 一样切换到脸部正视图，并将画布置于屏幕中央（反映脸部朝向设置）"
+
+#: face_shapekey_rig/operators.py:2067
+msgctxt "Operator"
+msgid "스냅 이동"
+msgstr "吸附移动"
+
+#: face_shapekey_rig/operators.py:3723
+msgctxt "Operator"
+msgid "스페이스바로 재생할 때 들리는 오디오를 시퀀서에 추가합니다. 립싱크 분석용 오디오와는 별개라 여기서 볼륨/음소거/시작 프레임만 따로 조절할 수 있습니다"
+msgstr "将按空格键播放时听到的音频添加到序列编辑器。它与口型同步分析音频分开，因此可在此单独调整音量/静音/起始帧"
+
+#: face_shapekey_rig/atlas.py:3791
+msgctxt "Operator"
+msgid "스프라이트 립싱크 다시 굽기"
+msgstr "重新烘焙精灵口型同步"
+
+#: face_shapekey_rig/atlas.py:3008
+msgctxt "Operator"
+msgid "스프라이트 시트 삭제"
+msgstr "删除精灵图集"
+
+#: face_shapekey_rig/atlas.py:2967
+msgctxt "Operator"
+msgid "스프라이트 시트 추가"
+msgstr "添加精灵图集"
+
+#: face_shapekey_rig/atlas.py:3775
+msgctxt "Operator"
+msgid "스프라이트 시트 키를 모두 Constant 보간으로 바꿉니다 (칸 사이가 섞이는 문제 방지)"
+msgstr "将所有精灵图集关键帧改为常量插值（防止单元格之间混合）"
+
+#: face_shapekey_rig/operators.py:141
+msgctxt "Operator"
+msgid "슬라이더 추가"
+msgstr "添加滑块"
+
+#: face_shapekey_rig/eye.py:7371
+msgctxt "Operator"
+msgid "시선 미리보기"
+msgstr "视线预览"
+
+#: face_shapekey_rig/eye.py:7291
+msgctxt "Operator"
+msgid "시선 초기화"
+msgstr "重置视线"
+
+#: face_shapekey_rig/eye.py:7338
+msgctxt "Operator"
+msgid "시선 컨트롤러"
+msgstr "视线控制器"
+
+#: face_shapekey_rig/face_ui.py:2318
+msgctxt "Operator"
+msgid "시선 컨트롤러 만들기"
+msgstr "创建视线控制器"
+
+#: face_shapekey_rig/operators.py:3135
+msgctxt "Operator"
+msgid "시작 프레임으로 이동해 카운트다운 후 재생과 녹화를 시작합니다. 다시 누르면 취소/정지되고, End Frame에 도달하면 자동으로 멈춥니다"
+msgstr "移动到起始帧，倒计时后开始播放和录制。再次按下可取消/停止，到达结束帧后自动停止"
+
+#: face_shapekey_rig/operators.py:3818
+msgctxt "Operator"
+msgid "시퀀서에 넣은 립싱크 사운드 스트립을 제거합니다. 타임라인 스크럽 시 소리가 나지 않게 됩니다"
+msgstr "移除放入序列编辑器的口型同步声音片段。拖动时间轴时将不再发声"
+
+#: face_shapekey_rig/atlas.py:3655
+msgctxt "Operator"
+msgid "시퀀스 미리보기"
+msgstr "序列预览"
+
+#: face_shapekey_rig/atlas.py:4550
+msgctxt "Operator"
+msgid "시퀀스 삭제"
+msgstr "删除序列"
+
+#: face_shapekey_rig/atlas.py:3949
+msgctxt "Operator"
+msgid "시퀀스를 '%s' 시트로 옮기기 (추천)"
+msgstr "将序列移动到“%s”图集（推荐）"
+
+#: face_shapekey_rig/atlas.py:3686
+msgctxt "Operator"
+msgid "시퀀스를 입 파츠의 시트로 옮기기"
+msgstr "将序列移动到嘴部部件的图集"
+
+#: face_shapekey_rig/face_ui.py:890
+msgctxt "Operator"
+msgid "시트 삭제"
+msgstr "删除图集"
+
+#: face_shapekey_rig/face_ui.py:819
+msgctxt "Operator"
+msgid "시트 추가"
+msgstr "添加图集"
+
+#: face_shapekey_rig/face_ui.py:891
+msgctxt "Operator"
+msgid "시트를 목록에서 뺍니다 (이미 배치한 파츠는 그대로)"
+msgstr "从列表中移除图集（已放置的部件保持不变）"
+
+#: face_shapekey_rig/face_ui.py:1132
+msgctxt "Operator"
+msgid "시트에서 파츠를 고르고 태그를 정해 캔버스에 올립니다. 태그의 기준 마커 위치에 놓입니다"
+msgstr "从图集中选择部件并指定标签，放到画布上。会放在标签的基准标记位置"
+
+#: face_shapekey_rig/atlas.py:3115
+msgctxt "Operator"
+msgid "썸네일 갱신"
+msgstr "刷新缩略图"
+
+#: face_shapekey_rig/operators.py:2863
+msgctxt "Operator"
+msgid "씬 설정(컬렉션/프리셋/모캡/립싱크/라벨)을 리그에 저장합니다. 다른 파일에서 리그와 메시를 Append 한 뒤 '캐릭터 가져오기'로 복구하세요. 파일 저장 시 자동 갱신됩니다"
+msgstr "将场景设置（集合/预设/动作捕捉/口型同步/标签）保存到绑定中。在其他文件中追加绑定和网格后，用“导入角色”恢复。保存文件时会自动更新"
+
+#: face_shapekey_rig/eye.py:5227
+msgctxt "Operator"
+msgid "얼굴 메시 편집 모드에서 새로 고른 면으로 캔버스 메시만 바꿉니다. 파츠·마커·프리셋·설정과 그림 위치는 그대로 (같은 정면 UV를 이어서 씀)"
+msgstr "在脸部网格编辑模式下，仅将画布网格更换为新选择的面。部件、标记、预设、设置和图像位置保持不变（继续使用相同正面的 UV）"
+
+#: face_shapekey_rig/eye.py:5732
+msgctxt "Operator"
+msgid "얼굴 앞에 머리보다 넓은 평면 캔버스를 만들어 머리 본에 붙입니다. 분노 마크처럼 얼굴 밖으로 나가는 감정표현용. 파츠·태그·프리셋은 다른 캔버스와 같이 씁니다"
+msgstr "在脸部前方创建比头更宽的平面画布，并附着到头部骨骼上。用于愤怒符号等超出脸部的表情。部件、标签、预设与其他画布共用"
+
+#: face_shapekey_rig/eye.py:5466
+msgctxt "Operator"
+msgid "얼굴 움직임에 다시 붙이기"
+msgstr "重新附着到脸部运动"
+
+#: face_shapekey_rig/face_ui.py:404
+msgctxt "Operator"
+msgid "얼굴 정면 보기"
+msgstr "脸部正视图"
+
+#: face_shapekey_rig/eye.py:5501
+msgctxt "Operator"
+msgid "얼굴 캔버스 만들기"
+msgstr "创建脸部画布"
+
+#: face_shapekey_rig/operators.py:3074
+msgctxt "Operator"
+msgid "연결 시작"
+msgstr "开始连接"
+
+#: face_shapekey_rig/eye.py:5451
+msgctxt "Operator"
+msgid "영역 수정을 그만두고 캔버스를 다시 보이게 합니다"
+msgstr "停止编辑选区并重新显示画布"
+
+#: face_shapekey_rig/atlas.py:3484
+msgctxt "Operator"
+msgid "예전 '반전 칸 만들기'로 다른 칸 그림을 가져다 쓰던 칸을 모두 원래 칸으로 되돌립니다 (그 칸의 크기·위치도 지움)"
+msgstr "将所有曾通过旧版“创建翻转单元格”借用其他单元格图像的单元格恢复为原始单元格（同时清除该单元格的尺寸/位置）"
+
+#: face_shapekey_rig/operators.py:4089
+msgctxt "Operator"
+msgid "오디오 립싱크 생성"
+msgstr "生成音频口型同步"
+
+#: face_shapekey_rig/atlas.py:4568
+msgctxt "Operator"
+msgid "위아래 시퀀스 자동 생성"
+msgstr "自动生成上下序列"
+
+#: face_shapekey_rig/eye.py:6819
+msgctxt "Operator"
+msgid "위에 있을수록 앞에 그려집니다"
+msgstr "越靠上绘制越靠前"
+
+#: face_shapekey_rig/eye.py:7127
+msgctxt "Operator"
+msgid "위치 0, 크기 1, 회전 0, 불투명도 1로 되돌립니다"
+msgstr "将位置恢复为 0、大小恢复为 1、旋转恢复为 0、不透明度恢复为 1"
+
+#: face_shapekey_rig/atlas.py:3509
+msgctxt "Operator"
+msgid "이 값을 모든 칸에"
+msgstr "将此值应用到所有格子"
+
+#: face_shapekey_rig/operators.py:3541
+msgctxt "Operator"
+msgid "이 구간의 시작 프레임으로 이동합니다"
+msgstr "跳转到此区间的起始帧"
+
+#: face_shapekey_rig/atlas.py:3656
+msgctxt "Operator"
+msgid "이 시퀀스의 단계를 지금 바로 보여 줍니다 (키는 넣지 않음). 기준 칸으로 표정이 바뀌며, '끄기'로 말하기를 끕니다"
+msgstr "立即预览此序列的步骤（不插入关键帧）。表情会切换到基准格子，选择“关闭”可关闭说话"
+
+#: face_shapekey_rig/atlas_vp.py:1225
+msgctxt "Operator"
+msgid "이 시트의 뷰포트 컨트롤러를 지웁니다 (칸 키는 유지)"
+msgstr "删除此图集的视图控制器（保留格子关键帧）"
+
+#: face_shapekey_rig/atlas.py:3687
+msgctxt "Operator"
+msgid "이 시트의 시퀀스를 ④ 입 파츠가 그리는 시트로 옮기고, 이 시트는 지웁니다 (같은 입 그림을 쓰는 시트끼리)"
+msgstr "将此图集的序列移到 ④ 嘴部部件所绘制的图集，并删除此图集（仅限使用同一嘴部图像的图集）"
+
+#: face_shapekey_rig/face_ui.py:974
+msgctxt "Operator"
+msgid "이 시트의 이미지를 다른 파일로 바꿉니다. 이 시트에서 올린 파츠와 입 시퀀스도 새 이미지를 씁니다"
+msgstr "将此图集的图像替换为其他文件。从此图集加载的部件和嘴部序列也将使用新图像"
+
+#: face_shapekey_rig/atlas_vp.py:1193
+msgctxt "Operator"
+msgid "이 시트의 칸을 뷰포트에서 고르는 격자 패드(+ 말하기 슬라이더)를 드라이버 방식 패널에 만듭니다"
+msgstr "在驱动器方式面板中创建网格板（+ 说话滑块），用于在视图中选择此图集的格子"
+
+#: face_shapekey_rig/atlas.py:3557
+msgctxt "Operator"
+msgid "이 입 모양을 지금 바로 보여 줍니다 (키는 넣지 않음). '끄기'로 표정 칸으로 돌아갑니다"
+msgstr "立即预览此嘴型（不插入关键帧）。选择“关闭”会返回表情格子"
+
+#: face_shapekey_rig/atlas.py:4104
+msgctxt "Operator"
+msgid "이 입 키 넣기"
+msgstr "插入此嘴部关键帧"
+
+#: face_shapekey_rig/eye.py:7308
+msgctxt "Operator"
+msgid "이 칸 배치 되돌리기"
+msgstr "还原此格子布局"
+
+#: face_shapekey_rig/atlas.py:3369
+#: face_shapekey_rig/eye.py:7695
+msgctxt "Operator"
+msgid "이 칸 보기"
+msgstr "查看此格子"
+
+#: face_shapekey_rig/ime.py:495
+msgctxt "Operator"
+msgid "이 칸에 넣을 글자를 작은 입력 창에서 씁니다 (Blender에서 한글·일본어·중국어 입력이 안 될 때). 엔터 = 넣기, Esc = 취소"
+msgstr "在小输入窗口中输入要放入此格子的文字（当 Blender 无法输入韩文、日文、中文时）。Enter = 应用，Esc = 取消"
+
+#: face_shapekey_rig/eye.py:7635
+msgctxt "Operator"
+msgid "이 칸을 일괄 조절할 칸으로 체크합니다. 지금 칸의 배치를 바꾸면 체크한 칸들도 같이 바뀝니다 (크기는 같은 비율, 위치·회전은 움직인 만큼)"
+msgstr "将此格子勾选为批量调整的格子。更改当前格子的布局时，已勾选的格子也会随之变化（大小按相同比例，位置和旋转按移动量）"
+
+#: face_shapekey_rig/atlas.py:3404
+msgctxt "Operator"
+msgid "이 칸을 일괄 조절할 칸으로 체크합니다. 지금 칸의 크기·위치를 바꾸면 체크한 칸들도 같이 바뀝니다 (크기는 같은 비율, 위치는 움직인 만큼)"
+msgstr "将此格子勾选为批量调整的格子。更改当前格子的大小和位置时，已勾选的格子也会随之变化（大小按相同比例，位置按移动量）"
+
+#: face_shapekey_rig/eye.py:7696
+msgctxt "Operator"
+msgid "이 칸을 지금 칸으로 만들어 뷰포트에 바로 보여 줍니다 (자동 키가 켜져 있으면 키도 들어감). 배치는 이 칸 기준으로 조절됩니다"
+msgstr "将此格子设为当前格子并立即在视图中显示（若自动关键帧已开启，也会插入关键帧）。布局将以此格子为基准调整"
+
+#: face_shapekey_rig/atlas.py:3370
+msgctxt "Operator"
+msgid "이 칸을 지금 칸으로 만들어 뷰포트에 바로 보여 줍니다 (자동 키가 켜져 있으면 키도 들어감). 크기·위치는 이 칸 기준으로 조절됩니다"
+msgstr "将此格子设为当前格子并立即在视图中显示（若自动关键帧已开启，也会插入关键帧）。大小和位置将以此格子为基准调整"
+
+#: face_shapekey_rig/operators.py:2723
+msgctxt "Operator"
+msgid "이 컨트롤러와 연결된 드라이버를 제거합니다 (셰이프 키는 유지). 체크된 항목이 2개 이상이면 체크된 것들을 한꺼번에 삭제합니다"
+msgstr "移除此控制器关联的驱动器（保留形态键）。若勾选项目有 2 个或以上，则一次性删除勾选的项目"
+
+#: face_shapekey_rig/operators.py:2228
+msgctxt "Operator"
+msgid "이 탭의 컨트롤러만 배치 모드로: 틀을 선택해 옮길 수 있습니다. 다시 누르거나 ESC/우클릭으로 끕니다"
+msgstr "仅将此选项卡的控制器切换到布局模式：可选择并移动框架。再次按下或按 ESC/右键单击可关闭"
+
+#: face_shapekey_rig/face_ui.py:3086
+msgctxt "Operator"
+msgid "이 파츠 키 넣기"
+msgstr "插入此部件关键帧"
+
+#: face_shapekey_rig/eye.py:6505
+msgctxt "Operator"
+msgid "이 폴더 삭제"
+msgstr "删除此文件夹"
+
+#: face_shapekey_rig/face_ui.py:2550
+msgctxt "Operator"
+msgid "이 폴더 키 넣기"
+msgstr "为此文件夹插入关键帧"
+
+#: face_shapekey_rig/eye.py:6380
+#: face_shapekey_rig/face_ui.py:2518
+msgctxt "Operator"
+msgid "이 폴더로 전환"
+msgstr "切换到此文件夹"
+
+#: face_shapekey_rig/eye.py:6381
+msgctxt "Operator"
+msgid "이 폴더를 켜고 같은 태그·같은 자리의 다른 폴더는 끕니다 ('바꾸면 자동 키'가 켜져 있으면 키도 넣음)"
+msgstr "启用此文件夹，并关闭具有相同标签、相同位置的其他文件夹（若开启了“更改时自动关键帧”，也会插入关键帧）"
+
+#: face_shapekey_rig/face_ui.py:1758
+msgctxt "Operator"
+msgid "이 표정을 적용하고 현재 프레임에 키를 넣습니다 (이 프레임부터 표정이 바뀜)"
+msgstr "应用此表情并在当前帧插入关键帧（表情从此帧开始变化）"
+
+#: face_shapekey_rig/atlas.py:3290
+msgctxt "Operator"
+msgid "이미 넣은 입 배치 키에 지금 고른 보간 방법을 적용합니다 (선택한 키프레임만 / 이 입의 모든 키)"
+msgstr "将当前选择的插值方法应用到已插入的嘴部布局关键帧（仅所选关键帧 / 此嘴部的所有关键帧）"
+
+#: face_shapekey_rig/eye.py:6956
+msgctxt "Operator"
+msgid "이미 넣은 키에 지금 고른 보간 방법을 적용합니다 (선택한 키프레임만 / 이 파츠의 모든 키)"
+msgstr "将当前选择的插值方法应用到已插入的关键帧（仅所选关键帧 / 此部件的所有关键帧）"
+
+#: face_shapekey_rig/face_ui.py:938
+msgctxt "Operator"
+msgid "이미지 다시 불러오기"
+msgstr "重新加载图像"
+
+#: face_shapekey_rig/atlas.py:4419
+msgctxt "Operator"
+msgid "이미지 불러오기"
+msgstr "加载图像"
+
+#: face_shapekey_rig/atlas.py:3116
+msgctxt "Operator"
+msgid "이미지를 칸 단위로 잘라 선택 그리드 썸네일을 만듭니다"
+msgstr "将图像按格子切分，并创建可选网格缩略图"
+
+#: face_shapekey_rig/atlas.py:3338
+#: face_shapekey_rig/eye.py:6842
+msgctxt "Operator"
+msgid "이전/다음 칸"
+msgstr "上一个/下一个格子"
+
+#: face_shapekey_rig/operators.py:812
+msgctxt "Operator"
+msgid "일괄 수정 (체크된 항목)"
+msgstr "批量修改（勾选项目）"
+
+#: face_shapekey_rig/atlas.py:3403
+#: face_shapekey_rig/eye.py:7634
+msgctxt "Operator"
+msgid "일괄 조절할 칸"
+msgstr "要批量调整的格子"
+
+#: face_shapekey_rig/atlas.py:3266
+msgctxt "Operator"
+msgid "입 키 넣기"
+msgstr "插入嘴部关键帧"
+
+#: face_shapekey_rig/atlas.py:3735
+msgctxt "Operator"
+msgid "입 파츠에 연결"
+msgstr "连接到嘴部部件"
+
+#: face_shapekey_rig/operators.py:3236
+msgctxt "Operator"
+msgid "자동 매핑"
+msgstr "自动映射"
+
+#: face_shapekey_rig/operators.py:1063
+msgctxt "Operator"
+msgid "자유 배치 가능한 라벨 텍스트를 만듭니다. 오브젝트 모드에서 G/S로 배치·크기 조절, Tab으로 내용 수정, 폰트는 폰트 속성에서"
+msgstr "创建可自由摆放的标签文本。在物体模式下用 G/S 调整位置和大小，用 Tab 修改内容，字体在字体属性中设置"
+
+#: face_shapekey_rig/face_ui.py:4566
+msgctxt "Operator"
+msgid "자유 변형 (Ctrl+T)"
+msgstr "自由变换 (Ctrl+T)"
+
+#: face_shapekey_rig/operators.py:3781
+msgctxt "Operator"
+msgid "재생 오디오 제거"
+msgstr "移除播放音频"
+
+#: face_shapekey_rig/operators.py:3722
+msgctxt "Operator"
+msgid "재생 오디오 추가"
+msgstr "添加播放音频"
+
+#: face_shapekey_rig/operators.py:1821
+msgctxt "Operator"
+msgid "저장된 설정으로 모든 컨트롤러를 다시 구성합니다. 위젯/드라이버/토글 연결을 최신 버전 방식으로 재적용합니다"
+msgstr "根据已保存的设置重新构建所有控制器。以最新版本的方式重新应用控件、驱动器、切换连接"
+
+#: face_shapekey_rig/operators.py:1503
+msgctxt "Operator"
+msgid "저장된 표정 프리셋을 컨트롤러에 적용합니다"
+msgstr "将已保存的表情预设应用到控制器"
+
+#: face_shapekey_rig/face_ui.py:2707
+#: face_shapekey_rig/face_ui.py:2969
+msgctxt "Operator"
+msgid "저장하고 끝내기"
+msgstr "保存并完成"
+
+#: face_shapekey_rig/face_ui.py:2712
+#: face_shapekey_rig/face_ui.py:2974
+msgctxt "Operator"
+msgid "저장하고 이 프레임에 키"
+msgstr "保存并在此帧插入关键帧"
+
+#: face_shapekey_rig/face_ui.py:2101
+msgctxt "Operator"
+msgid "적용"
+msgstr "应用"
+
+#: face_shapekey_rig/atlas.py:3056
+msgctxt "Operator"
+msgid "적용 (드라이버 재구성)"
+msgstr "应用（重建驱动器）"
+
+#: face_shapekey_rig/eye.py:6273
+msgctxt "Operator"
+msgid "적용 (머티리얼 재구성)"
+msgstr "应用（重建材质）"
+
+#: face_shapekey_rig/face_ui.py:2005
+msgctxt "Operator"
+msgid "전부 지우기"
+msgstr "全部清除"
+
+#: face_shapekey_rig/eye.py:6488
+msgctxt "Operator"
+msgid "전체 보기 (폴더 없이)"
+msgstr "查看全部（不含文件夹）"
+
+#: face_shapekey_rig/face_ui.py:1857
+msgctxt "Operator"
+msgid "전환"
+msgstr "切换"
+
+#: face_shapekey_rig/operators.py:1008
+msgctxt "Operator"
+msgid "좌/우 포함식을 바꿔 반대쪽 셰이프 키를 찾아, 같은 설정과 색상으로 반대쪽 컨트롤러를 만듭니다 (위치는 패널 중심 기준 미러). 체크된 항목이 2개 이상이면 체크된 것들을 한꺼번에 미러합니다"
+msgstr "切换左/右包含条件，查找对侧形态键，并创建具有相同设置和颜色的对侧控制器（位置以面板中心为基准镜像）。若勾选项目有 2 个或以上，则一次性镜像勾选的项目"
+
+#: face_shapekey_rig/eye.py:6791
+msgctxt "Operator"
+msgid "중심 다시 잡기"
+msgstr "重新居中"
+
+#: face_shapekey_rig/operators.py:3122
+msgctxt "Operator"
+msgid "중지"
+msgstr "停止"
+
+#: face_shapekey_rig/face_ui.py:3603
+msgctxt "Operator"
+msgid "지금 고른 캔버스의 파츠·태그·마커·시트·표정 프리셋·입 시퀀스·립싱크 설정과 속성값, 시트 이미지(원본 해상도)를 .zip 하나로 저장합니다 (키프레임 제외)"
+msgstr "将当前所选画布的部件、标签、标记、图集、表情预设、嘴部序列、唇形同步设置和属性值，以及图集图像（原始分辨率）保存为一个 .zip 文件（不含关键帧）"
+
+#: face_shapekey_rig/eye.py:6792
+msgctxt "Operator"
+msgid "지금 보이는 칸의 그림으로 파츠 중심을 다시 계산합니다 (그림 위치는 그대로)"
+msgstr "根据当前可见格子的图像重新计算部件中心（图像位置保持不变）"
+
+#: face_shapekey_rig/face_ui.py:1681
+msgctxt "Operator"
+msgid "지금 보이는 파츠 배치(칸·위치·크기·회전·불투명도, 입 칸)를 표정으로 저장합니다"
+msgstr "将当前可见的部件布局（格子、位置、大小、旋转、不透明度、嘴部格子）保存为表情"
+
+#: face_shapekey_rig/eye.py:6502
+msgctxt "Operator"
+msgid "지금 보이는 파츠로 덮어쓰기"
+msgstr "用当前可见的部件覆盖"
+
+#: face_shapekey_rig/operators.py:3699
+msgctxt "Operator"
+msgid "지금 보이는 패널 위치를 기준으로 다시 묶습니다. 캐릭터나 패널을 옮긴 뒤 위치가 어긋났을 때 누르세요"
+msgstr "以当前可见的面板位置为基准重新绑定。移动角色或面板后位置错位时请点击"
+
+#: face_shapekey_rig/atlas.py:4521
+msgctxt "Operator"
+msgid "지금 선택된 칸을 기준 칸으로 하는 시퀀스를 추가합니다 (열림 = 기준 칸). 닫힘 칸을 지정해 주세요"
+msgstr "添加以当前所选格子为基准格子的序列（张开 = 基准格子）。请指定闭合格子"
+
+#: face_shapekey_rig/eye.py:6186
+msgctxt "Operator"
+msgid "지금 씬의 활성 카메라를 기준으로 누르게 합니다"
+msgstr "以当前场景的活动相机为基准进行按压"
+
+#: face_shapekey_rig/eye.py:7247
+msgctxt "Operator"
+msgid "지금 칸 그림에서 가장 많이 쓰인 색을 '원래 색'으로 넣습니다 (스포이트는 화면 색이라 조명·색 관리 때문에 틀릴 수 있음)"
+msgstr "将当前格图像中使用最多的颜色作为“原始颜色”填入（吸管取的是屏幕颜色，可能因照明和色彩管理而不准确）"
+
+#: face_shapekey_rig/atlas.py:3459
+msgctxt "Operator"
+msgid "지금 칸에 저장된 크기·위치·반전과 다른 칸 그림 연결을 모두 지우고, 이미지에 그려진 원래 칸으로 되돌립니다 (이미지 파일은 건드리지 않음)"
+msgstr "清除当前格保存的大小、位置、翻转以及与其他格图像的连接，恢复为图像中绘制的原始格（不会改动图像文件）"
+
+#: face_shapekey_rig/atlas.py:3539
+msgctxt "Operator"
+msgid "지금 칸으로 지정"
+msgstr "设为当前格"
+
+#: face_shapekey_rig/atlas.py:3580
+msgctxt "Operator"
+msgid "지금 칸의 그림을 뒤집어서 다른 칸 번호로 씁니다. 이미지에 반전 그림을 따로 그릴 필요가 없습니다"
+msgstr "翻转当前格的图像并用作其他格编号。无需在图像中单独绘制翻转图像"
+
+#: face_shapekey_rig/eye.py:7309
+msgctxt "Operator"
+msgid "지금 칸의 칸별 배치(위치·크기·회전·불투명도·크롭)를 지워 전체 배치 값으로 되돌립니다 (일괄 조절로 체크한 칸도 같이)"
+msgstr "清除当前格的逐格布局（位置、大小、旋转、不透明度、裁剪），恢复为全局布局值（通过批量调整勾选的格也会一并处理）"
+
+#: face_shapekey_rig/atlas.py:3510
+msgctxt "Operator"
+msgid "지금 칸의 크기/위치를 공통값으로 만들고 다른 칸의 개별 설정을 모두 지웁니다"
+msgstr "将当前格的大小/位置设为公共值，并清除其他格的所有单独设置"
+
+#: face_shapekey_rig/operators.py:3007
+msgctxt "Operator"
+msgid "지금의 컨트롤러 위치들을 기본 표정으로 저장합니다. '기본값으로 되돌리기'가 이 상태로 복원합니다"
+msgstr "将当前控制器位置保存为默认表情。“恢复默认值”会恢复到此状态"
+
+#: face_shapekey_rig/face_ui.py:2326
+#: face_shapekey_rig/face_ui.py:2741
+msgctxt "Operator"
+msgid "지우기"
+msgstr "清除"
+
+#: face_shapekey_rig/face_ui.py:2213
+msgctxt "Operator"
+msgid "찍기"
+msgstr "捕获"
+
+#: face_shapekey_rig/operators.py:813
+msgctxt "Operator"
+msgid "체크된 컨트롤러들을 한 번에 수정합니다 (체크된 항목의 연필 버튼으로 열림). 같은 타입끼리만 가능하며, 값이 서로 다른 항목은 '(다수 선택됨)'으로 표시됩니다"
+msgstr "同时编辑已勾选的控制器（通过已勾选项目的铅笔按钮打开）。仅限相同类型；值不同的项目会显示为“(多选)”"
+
+#: face_shapekey_rig/operators.py:1747
+msgctxt "Operator"
+msgid "체크한 컨트롤러들을 선택한 컬렉션에 넣거나 뺍니다"
+msgstr "将勾选的控制器加入或移出所选集合"
+
+#: face_shapekey_rig/eye.py:5450
+#: face_shapekey_rig/face_ui.py:2709
+msgctxt "Operator"
+msgid "취소"
+msgstr "取消"
+
+#: face_shapekey_rig/layer_vp.py:1341
+msgctxt "Operator"
+msgid "측정 중…"
+msgstr "测量中…"
+
+#: face_shapekey_rig/eye.py:6185
+msgctxt "Operator"
+msgid "카메라 다시 연결"
+msgstr "重新连接摄像机"
+
+#: face_shapekey_rig/atlas.py:3458
+#: face_shapekey_rig/atlas.py:4020
+msgctxt "Operator"
+msgid "칸 비우기"
+msgstr "清空格"
+
+#: face_shapekey_rig/atlas.py:3162
+msgctxt "Operator"
+msgid "칸 키프레임"
+msgstr "格关键帧"
+
+#: face_shapekey_rig/operators.py:2886
+msgctxt "Operator"
+msgid "캐릭터 가져오기"
+msgstr "导入角色"
+
+#: face_shapekey_rig/operators.py:2862
+msgctxt "Operator"
+msgid "캐릭터 이동 준비"
+msgstr "准备移动角色"
+
+#: face_shapekey_rig/face_ui.py:3602
+msgctxt "Operator"
+msgid "캔버스 내보내기"
+msgstr "导出画布"
+
+#: face_shapekey_rig/eye.py:5180
+msgctxt "Operator"
+msgid "캔버스 메시를 직접 고친 뒤(Extrude·정점 이동 등) 누르세요. 늘린 면에 같은 정면 UV를 이어 주고, 얼굴에 다시 붙입니다. 기존 파츠·마커 위치는 그대로"
+msgstr "手动修改画布网格后（挤出、移动顶点等）请按此按钮。为拉伸出的面延续相同正面 UV，并重新贴合到脸部。现有部件和标记位置保持不变"
+
+#: face_shapekey_rig/face_ui.py:3648
+msgctxt "Operator"
+msgid "캔버스 불러오기 (덮어쓰기)"
+msgstr "加载画布（覆盖）"
+
+#: face_shapekey_rig/eye.py:5467
+msgctxt "Operator"
+msgid "캔버스가 얼굴 메시의 최종 모양(아마추어·셰이프 키)을 그대로 따라가게 다시 붙입니다. 리그에 캔버스를 따로 바인드해서 일그러질 때 누르세요 (캔버스의 아마추어 모디파이어는 지워짐)"
+msgstr "重新贴合画布，使其跟随脸部网格的最终形状（骨架和形态键）。当画布单独绑定到骨架而出现扭曲时请按此按钮（画布的骨架修改器会被移除）"
+
+#: face_shapekey_rig/eye.py:5367
+msgctxt "Operator"
+msgid "캔버스를 잠시 숨기고 얼굴 메시를 편집 모드로 엽니다. 지금 캔버스 영역이 미리 선택되어 있으니 면을 더하거나 빼고 '적용'을 누르세요"
+msgstr "暂时隐藏画布并将脸部网格打开到编辑模式。当前画布区域已预先选中，请添加或删除面后按“应用”"
+
+#: face_shapekey_rig/operators.py:3222
+msgctxt "Operator"
+msgid "캘리브레이션 보정을 지우고 원본 수신값을 사용합니다"
+msgstr "清除校准修正并使用原始接收值"
+
+#: face_shapekey_rig/operators.py:3459
+msgctxt "Operator"
+msgid "캡처 중 프리셋 적용"
+msgstr "捕获时应用预设"
+
+#: face_shapekey_rig/operators.py:2722
+msgctxt "Operator"
+msgid "컨트롤러 삭제"
+msgstr "删除控制器"
+
+#: face_shapekey_rig/operators.py:2680
+msgctxt "Operator"
+msgid "컨트롤러 선택"
+msgstr "选择控制器"
+
+#: face_shapekey_rig/operators.py:520
+msgctxt "Operator"
+msgid "컨트롤러 수정"
+msgstr "编辑控制器"
+
+#: face_shapekey_rig/operators.py:2227
+#: face_shapekey_rig/operators.py:2261
+msgctxt "Operator"
+msgid "컨트롤러 위치 옮기기 (배치 모드)"
+msgstr "移动控制器位置（摆放模式）"
+
+#: face_shapekey_rig/operators.py:3281
+msgctxt "Operator"
+msgid "컨트롤러마다 역할(눈 감기/눈썹/입 모음/눈동자)을 고르면 ARKit 매핑을 자동으로 만들어 줍니다. 이름으로 미리 추측해서 채워둡니다"
+msgstr "为每个控制器选择角色（闭眼/眉毛/嘴部收拢/瞳孔）后，会自动创建 ARKit 映射。会根据名称预先推测并填入"
+
+#: face_shapekey_rig/operators.py:1723
+msgctxt "Operator"
+msgid "컬렉션 삭제"
+msgstr "删除集合"
+
+#: face_shapekey_rig/operators.py:1684
+msgctxt "Operator"
+msgid "컬렉션 추가"
+msgstr "添加集合"
+
+#: face_shapekey_rig/operators.py:1724
+msgctxt "Operator"
+msgid "컬렉션을 없애고 소속 컨트롤러를 컬렉션 밖으로 뺍니다 (컨트롤러는 유지)"
+msgstr "删除集合并将所属控制器移出集合（控制器保留）"
+
+#: face_shapekey_rig/face_ui.py:2518
+msgctxt "Operator"
+msgid "켜져 있음"
+msgstr "已开启"
+
+#: face_shapekey_rig/face_ui.py:1857
+msgctxt "Operator"
+msgid "켜짐"
+msgstr "开启"
+
+#: face_shapekey_rig/eye.py:7052
+msgctxt "Operator"
+msgid "키 삽입"
+msgstr "插入关键帧"
+
+#: face_shapekey_rig/face_ui.py:1581
+msgctxt "Operator"
+msgid "키프레임을 잠시 멈추고 고른 프리셋(표정)의 파츠를 그대로 고칩니다. 끝나면 '저장하고 끝내기' 또는 '취소'"
+msgstr "暂时暂停关键帧，直接修改所选预设（表情）的部件。完成后选择“保存并结束”或“取消”"
+
+#: face_shapekey_rig/operators.py:521
+msgctxt "Operator"
+msgid "타입/방향/셰이프 키/라벨을 변경합니다"
+msgstr "更改类型/方向/形态键/标签"
+
+#: face_shapekey_rig/face_ui.py:712
+msgctxt "Operator"
+msgid "태그 삭제"
+msgstr "删除标签"
+
+#: face_shapekey_rig/face_ui.py:629
+msgctxt "Operator"
+msgid "태그 추가"
+msgstr "添加标签"
+
+#: face_shapekey_rig/face_ui.py:713
+msgctxt "Operator"
+msgid "태그를 지웁니다. 이 태그였던 파츠는 '태그 없음'(얼굴 가운데 기준)이 됩니다"
+msgstr "删除标签。原本属于此标签的部件将变为“无标签”（以脸部中心为基准）"
+
+#: face_shapekey_rig/operators.py:1120
+msgctxt "Operator"
+msgid "텍스트 색상"
+msgstr "文本颜色"
+
+#: face_shapekey_rig/operators.py:1168
+msgctxt "Operator"
+msgid "텍스트 색상 자동"
+msgstr "文本颜色自动"
+
+#: face_shapekey_rig/operators.py:1062
+msgctxt "Operator"
+msgid "텍스트 추가"
+msgstr "添加文本"
+
+#: face_shapekey_rig/operators.py:1121
+msgctxt "Operator"
+msgid "텍스트(라벨)의 색상을 변경합니다. 포즈 모드에서도 대상 텍스트를 골라 적용할 수 있고, 컨트롤러 색을 따올 수 있습니다"
+msgstr "更改文本（标签）的颜色。在姿态模式下也可以选择目标文本并应用，还可以采用控制器颜色"
+
+#: face_shapekey_rig/atlas.py:3087
+msgctxt "Operator"
+msgid "투명 배경 설정"
+msgstr "设置透明背景"
+
+#: face_shapekey_rig/operators.py:1784
+msgctxt "Operator"
+msgid "틀/핸들에 남은 포즈 회전을 초기화해 배치 모드 화살표와 스냅을 정상화합니다 (위치·크기·값은 유지)"
+msgstr "初始化边框/控制柄上残留的姿态旋转，使摆放模式箭头和吸附恢复正常（位置、大小和值保持不变）"
+
+#: face_shapekey_rig/atlas.py:4420
+msgctxt "Operator"
+msgid "파일에서 스프라이트 시트 이미지를 불러와 바로 적용합니다 (대상 머티리얼의 기존 시트 이미지도 교체)"
+msgstr "从文件加载精灵图集图像并立即应用（目标材质的现有图集图像也会被替换）"
+
+#: face_shapekey_rig/face_ui.py:797
+msgctxt "Operator"
+msgid "파츠 가장자리에 얇은 흰 선이 보일 때. 투명한 곳에 숨어 있는 흰색을 그림 색으로 채웁니다 (그림·투명도는 그대로). 고친 이미지는 .blend 안에 저장됩니다"
+msgstr "当部件边缘出现细白线时使用。用图像颜色填充隐藏在透明区域中的白色（图像和透明度保持不变）。修改后的图像会保存在 .blend 中"
+
+#: face_shapekey_rig/layer_vp.py:1088
+msgctxt "Operator"
+msgid "파츠 격자·입·표정 목록·시선 패드를 뷰포트에 만들거나 갱신하거나 정렬하거나 지웁니다"
+msgstr "在视图中创建、更新、排序或删除部件栅格、嘴、表情列表和视线板"
+
+#: face_shapekey_rig/face_ui.py:630
+msgctxt "Operator"
+msgid "파츠 그룹(태그)을 만듭니다. 기준 마커와 새 파츠의 기본값(대칭·시선·입·크기)을 정합니다"
+msgstr "创建部件组（标签）。设置基准标记和新部件的默认值（对称、视线、嘴、大小）"
+
+#: face_shapekey_rig/eye.py:6605
+msgctxt "Operator"
+msgid "파츠 복제"
+msgstr "复制部件"
+
+#: face_shapekey_rig/eye.py:6514
+msgctxt "Operator"
+msgid "파츠 삭제"
+msgstr "删除部件"
+
+#: face_shapekey_rig/eye.py:6294
+#: face_shapekey_rig/face_ui.py:1131
+msgctxt "Operator"
+msgid "파츠 추가"
+msgstr "添加部件"
+
+#: face_shapekey_rig/eye.py:6408
+msgctxt "Operator"
+msgid "파츠 폴더"
+msgstr "部件文件夹"
+
+#: face_shapekey_rig/face_ui.py:417
+msgctxt "Operator"
+msgid "파츠를 놓을 기준점을 추가합니다. 눈·눈썹·입·감정표현을 고르거나 + 로 이름을 직접 정합니다"
+msgstr "添加用于放置部件的基准点。选择眼睛、眉毛、嘴、情绪表情，或用 + 自定义名称"
+
+#: face_shapekey_rig/operators.py:1214
+msgctxt "Operator"
+msgid "패널 레이아웃(컨트롤러/텍스트/컬렉션)을 JSON으로 저장합니다"
+msgstr "将面板布局（控制器/文本/集合）保存为 JSON"
+
+#: face_shapekey_rig/operators.py:1969
+msgctxt "Operator"
+msgid "패널 위치 지정"
+msgstr "设置面板位置"
+
+#: face_shapekey_rig/operators.py:2787
+msgctxt "Operator"
+msgid "패널 전체 제거"
+msgstr "移除所有面板"
+
+#: face_shapekey_rig/operators.py:1783
+msgctxt "Operator"
+msgid "패널 정렬 복구"
+msgstr "恢复面板排列"
+
+#: face_shapekey_rig/operators.py:1886
+msgctxt "Operator"
+msgid "패널을 본에 붙이기 (해제하려면 본을 비우고 실행)"
+msgstr "将面板附加到骨骼（要解除，请清空骨骼后执行）"
+
+#: face_shapekey_rig/eye.py:7372
+msgctxt "Operator"
+msgid "패드를 끝까지 밀어 범위를 확인합니다 (키는 넣지 않음)"
+msgstr "将控制板推到极限以检查范围（不插入关键帧）"
+
+#: face_shapekey_rig/eye.py:5502
+msgctxt "Operator"
+msgid "편집 모드에서 고른 얼굴 면을 복사해 살짝 띄운 '얼굴 캔버스'를 만듭니다. 정면 투영 UV, 얼굴과 같은 변형(아마추어·셰이프 키)을 따라가며, 눈·입 파츠를 이 메시 하나에 조립합니다"
+msgstr "在编辑模式下复制所选脸部面，创建一个稍微抬起的「脸部画布」。使用正面投影 UV，跟随与脸部相同的变形（骨架·形态键），并将眼睛/嘴部部件组装到这个网格上"
+
+#: face_shapekey_rig/operators.py:3841
+msgctxt "Operator"
+msgid "편집한 모음 구간대로 립싱크 키프레임을 다시 굽습니다"
+msgstr "按照编辑后的元音区间重新烘焙唇形同步关键帧"
+
+#: face_shapekey_rig/face_ui.py:4548
+msgctxt "Operator"
+msgid "포토샵 Ctrl+T처럼 뷰포트에서 파츠를 옮기고(안쪽 드래그), 크기를 바꾸고(모서리·변), 돌립니다(위 동그라미·바깥). Enter 확정 · Esc 취소. Shift = 비율 유지/15° 단위, Alt = 기준점 기준 크기"
+msgstr "像 Photoshop 的 Ctrl+T 一样，在视图中移动部件（内侧拖动）、缩放（角/边）、旋转（上方圆圈/外侧）。Enter 确认 · Esc 取消。Shift = 保持比例/15° 步进，Alt = 以基准点缩放"
+
+#: face_shapekey_rig/operators.py:3052
+msgctxt "Operator"
+msgid "표정 전체 키프레임"
+msgstr "表情整体关键帧"
+
+#: face_shapekey_rig/atlas.py:3540
+msgctxt "Operator"
+msgid "표정 칸 피커에서 지금 고른 칸을 이 모음의 입으로 지정합니다"
+msgstr "将表情格子选择器中当前选中的格子指定为该元音的嘴型"
+
+#: face_shapekey_rig/preset_vp.py:638
+msgctxt "Operator"
+msgid "표정 컨트롤러"
+msgstr "表情控制器"
+
+#: face_shapekey_rig/face_ui.py:2732
+msgctxt "Operator"
+msgid "표정 컨트롤러 만들기"
+msgstr "创建表情控制器"
+
+#: face_shapekey_rig/operators.py:1541
+msgctxt "Operator"
+msgid "표정 프리셋의 이름을 바꿉니다"
+msgstr "重命名表情预设"
+
+#: face_shapekey_rig/operators.py:1589
+msgctxt "Operator"
+msgid "프레임 구간의 드라이버 값을 셰이프 키 키프레임으로 굽고 드라이버를 제거합니다. FBX/VRM 익스포트 전에 사용하세요. 패널 복구는 '뷰포트 패널 리로드'"
+msgstr "将帧区间的驱动器值烘焙为形态键关键帧并移除驱动器。请在导出 FBX/VRM 前使用。恢复面板请使用「重新加载视图面板」"
+
+#: face_shapekey_rig/face_ui.py:1801
+#: face_shapekey_rig/operators.py:1571
+msgctxt "Operator"
+msgid "프리셋 삭제"
+msgstr "删除预设"
+
+#: face_shapekey_rig/operators.py:1540
+msgctxt "Operator"
+msgid "프리셋 이름 변경"
+msgstr "重命名预设"
+
+#: face_shapekey_rig/face_ui.py:1680
+#: face_shapekey_rig/operators.py:1463
+msgctxt "Operator"
+msgid "프리셋 저장"
+msgstr "保存预设"
+
+#: face_shapekey_rig/operators.py:1502
+msgctxt "Operator"
+msgid "프리셋 적용"
+msgstr "应用预设"
+
+#: face_shapekey_rig/face_ui.py:1757
+msgctxt "Operator"
+msgid "프리셋 적용 + 키"
+msgstr "应用预设 + 关键帧"
+
+#: face_shapekey_rig/face_ui.py:1580
+#: face_shapekey_rig/face_ui.py:2718
+msgctxt "Operator"
+msgid "프리셋 편집"
+msgstr "编辑预设"
+
+#: face_shapekey_rig/face_ui.py:1660
+#: face_shapekey_rig/ime.py:494
+msgctxt "Operator"
+msgid "한중일 입력 창"
+msgstr "中日韩输入窗口"
+
+#: face_shapekey_rig/face_ui.py:1661
+msgctxt "Operator"
+msgid "한중일 입력 창(작은 브라우저)을 띄워 이 칸에 글자를 씁니다. 넣으면 이 창의 칸에 바로 들어갑니다"
+msgstr "打开中日韩输入窗口（小浏览器）以在此格子中写字。插入后会直接进入此窗口的格子中"
+
+#: face_shapekey_rig/layer_vp.py:1183
+msgctxt "Operator"
+msgid "함께 켜져 있는 다른 버전의 Face Shape Key Rig를 끕니다. 두 개가 켜져 있으면 안내 글자·표시가 겹쳐 그려집니다"
+msgstr "关闭同时启用的其他版本 Face Shape Key Rig。若启用两个，提示文字/标识会重叠绘制"
+
+#: face_shapekey_rig/atlas.py:3993
+msgctxt "Operator"
+msgid "해제"
+msgstr "解除"
+
+#: face_shapekey_rig/operators.py:383
+msgctxt "Operator"
+msgid "핸들의 XY 이동으로 리그의 본(눈알 타겟 등)을 움직이는 2D 패드를 추가합니다. 본을 2개 넣으면 동시에 움직입니다 (양눈). 눈마다 따로 만들려면 본 1개씩 + 미러를 쓰세요"
+msgstr "添加一个 2D 控制板，通过手柄的 XY 移动来移动绑定中的骨骼（眼球目标等）。放入 2 根骨骼时会同时移动（双眼）。若要每只眼单独控制，请每只眼用 1 根骨骼 + 镜像"
+
+#: face_shapekey_rig/face_ui.py:1063
+msgctxt "Operator"
+msgid "행·열을 바꾼 뒤 칸을 다시 잘라 파츠 번호를 매깁니다"
+msgstr "更改行/列后重新切分格子并编号部件"
+
+#: face_shapekey_rig/operators.py:3006
+msgctxt "Operator"
+msgid "현재 값을 기본값으로 저장"
+msgstr "将当前值保存为默认值"
+
+#: face_shapekey_rig/atlas.py:3792
+msgctxt "Operator"
+msgid "현재 립싱크 구간으로 입 칸 키만 다시 굽습니다"
+msgstr "仅按当前唇形同步区间重新烘焙嘴部格子关键帧"
+
+#: face_shapekey_rig/operators.py:2044
+msgctxt "Operator"
+msgid "현재 뷰포트 컨트롤러의 실제 본 색상을 읽어 목록 스와치와 메타데이터에 동기화합니다 (애드온 재설치 후 색이 어긋날 때)"
+msgstr "读取当前视图控制器骨骼的实际颜色，并同步到列表色块和元数据（重装插件后颜色不一致时使用）"
+
+#: face_shapekey_rig/atlas.py:3057
+msgctxt "Operator"
+msgid "현재 설정대로 모디파이어/노드와 드라이버를 다시 만듭니다"
+msgstr "按当前设置重新创建修改器/节点和驱动器"
+
+#: face_shapekey_rig/operators.py:3698
+msgctxt "Operator"
+msgid "현재 위치로 고정"
+msgstr "固定到当前位置"
+
+#: face_shapekey_rig/atlas.py:4520
+msgctxt "Operator"
+msgid "현재 칸 기준으로 시퀀스 추가"
+msgstr "基于当前格子添加序列"
+
+#: face_shapekey_rig/atlas.py:3163
+msgctxt "Operator"
+msgid "현재 칸 번호에 Constant 키를 삽입합니다. 키는 데칼이 아니라 리그 오브젝트에 들어가므로, 타임라인에서 보려면 리그를 선택하거나 'Only Show Selected'를 끄세요"
+msgstr "在当前格子编号插入 Constant 关键帧。关键帧不会进入贴花，而是进入绑定物体；要在时间线中查看，请选择绑定或关闭「Only Show Selected」"
+
+#: face_shapekey_rig/operators.py:1464
+msgctxt "Operator"
+msgid "현재 컨트롤러 값들을 표정 프리셋으로 저장합니다"
+msgstr "将当前控制器值保存为表情预设"
+
+#: face_shapekey_rig/operators.py:3053
+msgctxt "Operator"
+msgid "현재 프레임에 모든 컨트롤러의 키프레임을 삽입합니다"
+msgstr "在当前帧插入所有控制器的关键帧"
+
+#: face_shapekey_rig/atlas.py:3267
+msgctxt "Operator"
+msgid "현재 프레임에 입 키를 넣습니다: 칸(그림)·시퀀스·말하기 (Constant) + 입 전체 배치 (고른 보간). 키는 리그 오브젝트에 들어갑니다"
+msgstr "在当前帧插入嘴部关键帧：格子（图片）·序列·说话（Constant）+ 整嘴布局（所选插值）。关键帧会进入绑定物体"
+
+#: face_shapekey_rig/eye.py:7053
+msgctxt "Operator"
+msgid "현재 프레임에 키를 넣습니다"
+msgstr "在当前帧插入关键帧"

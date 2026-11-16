@@ -1,0 +1,101 @@
+# perfect-chinese: 1
+# id: frame_range_renderer
+# kind: addon
+# module: bl_ext.blender_org.frame_range_renderer
+# name: Frame Range Renderer
+# name_zh: 帧范围渲染器
+# translator: KeshiMiao
+# category: 
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: frame_range_renderer/__init__.py:185
+msgid "Background render cancelled."
+msgstr "后台渲染已取消。"
+
+#: frame_range_renderer/__init__.py:1
+#: frame_range_renderer/__init__.py:196
+msgid "Frame Range Renderer"
+msgstr "帧范围渲染器"
+
+#: frame_range_renderer/__init__.py:212
+#: frame_range_renderer/__init__.py:251
+msgid "Frames"
+msgstr "帧"
+
+#: frame_range_renderer/__init__.py:251
+msgid "Frames to render. Use '-' for ranges and ',' to separate. E.g. '1,2,5-6,12-16'"
+msgstr "要渲染的帧。使用 '-' 表示范围，用 ',' 分隔。例如 '1,2,5-6,12-16'"
+
+#: frame_range_renderer/__init__.py:187
+msgid "No background render is running."
+msgstr "没有正在运行的后台渲染。"
+
+#: frame_range_renderer/__init__.py:105
+msgid "No valid frames found in the input."
+msgstr "在输入中未找到有效帧。"
+
+#: frame_range_renderer/__init__.py:222
+msgid "No valid frames."
+msgstr "无有效帧。"
+
+#: frame_range_renderer/__init__.py:110
+msgid "Please save the .blend file before rendering."
+msgstr "请在渲染前保存 .blend 文件。"
+
+#: frame_range_renderer/__init__.py:1
+msgid "Render"
+msgstr "渲染"
+
+#: frame_range_renderer/__init__.py:1
+msgid "Render non-sequential frame ranges in background with full compositor File Output support."
+msgstr "在后台渲染非连续帧范围，完整支持合成器文件输出。"
+
+#: frame_range_renderer/__init__.py:209
+#: frame_range_renderer/__init__.py:256
+msgid "Scene"
+msgstr "场景"
+
+#: frame_range_renderer/__init__.py:256
+msgid "Select which scene to render"
+msgstr "选择要渲染的场景"
+
+#: frame_range_renderer/__init__.py:178
+#: frame_range_renderer/__init__.py:231
+msgctxt "Operator"
+msgid "Cancel Render"
+msgstr "取消渲染"
+
+#: frame_range_renderer/__init__.py:83
+msgctxt "Operator"
+msgid "Clear"
+msgstr "清除"
+
+#: frame_range_renderer/__init__.py:84
+msgctxt "Operator"
+msgid "Clear the frame range input"
+msgstr "清除帧范围输入"
+
+#: frame_range_renderer/__init__.py:94
+msgctxt "Operator"
+msgid "Render Frame Ranges"
+msgstr "渲染帧范围"
+
+#: frame_range_renderer/__init__.py:95
+msgctxt "Operator"
+msgid "Render every frame defined in the text field above for the selected scene in a background Blender instance, with full compositor File Output support."
+msgstr "在后台 Blender 实例中渲染上方文本框中定义的所选场景的每一帧，完整支持合成器文件输出。"
+
+#: frame_range_renderer/__init__.py:233
+msgctxt "Operator"
+msgid "Render in Background"
+msgstr "在后台渲染"
+
+#: frame_range_renderer/__init__.py:179
+msgctxt "Operator"
+msgid "Terminate the background Blender render process"
+msgstr "终止后台 Blender 渲染进程"

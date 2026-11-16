@@ -1,0 +1,136 @@
+# perfect-chinese: 1
+# id: render_webhook
+# kind: addon
+# module: bl_ext.blender_org.render_webhook
+# name: Render Webhook
+# name_zh: 渲染网络钩子
+# translator: KeshiMiao
+# category: Render
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:62
+msgid "...on canceling a render job"
+msgstr "……取消渲染任务时"
+
+#: __init__.py:67
+msgid "...on completion of render job"
+msgstr "……渲染任务完成时"
+
+#: __init__.py:72
+msgid "...on initialization of a render job"
+msgstr "……渲染任务初始化时"
+
+#: __init__.py:87
+msgid "...on printing render statistics"
+msgstr "……打印渲染统计信息时"
+
+#: __init__.py:77
+msgid "...on render (after)"
+msgstr "……渲染后"
+
+#: __init__.py:82
+msgid "...on render (before)"
+msgstr "……渲染前"
+
+#: __init__.py:92
+msgid "...on writing a render frame (directly after the frame is written)"
+msgstr "……写入渲染帧时（帧写入后立即）"
+
+#: __init__.py:120
+msgid "After Render Frame Written"
+msgstr "渲染帧写入后"
+
+#: __init__.py:119
+msgid "After Render Statistics"
+msgstr "渲染统计后"
+
+#: __init__.py:117
+msgid "After rendering a frame"
+msgstr "渲染一帧后"
+
+#: __init__.py:118
+msgid "Before rendering a frame"
+msgstr "渲染一帧前"
+
+#: __init__.py:39
+msgid "Discord"
+msgstr "Discord"
+
+#: __init__.py:56
+msgid "Enable Render Webhook"
+msgstr "启用渲染 Webhook"
+
+#: __init__.py:110
+msgid "Execute on these events:"
+msgstr "在这些事件上执行："
+
+#: __init__.py:27
+msgid "Failed to send the Webhook. Check the console for further information."
+msgstr "发送 Webhook 失败。请查看控制台获取更多信息。"
+
+#: __init__.py:56
+msgid "Hook up the webhook to the render_complete handler."
+msgstr "将 Webhook 连接到 render_complete 处理程序。"
+
+#: __init__.py:39
+msgid "Message is sent as a Discord Embed"
+msgstr "消息以 Discord 嵌入形式发送"
+
+#: __init__.py:40
+msgid "Message is sent in text form"
+msgstr "消息以文本形式发送"
+
+#: __init__.py:114
+msgid "On Render Job Cancelled"
+msgstr "渲染任务取消时"
+
+#: __init__.py:115
+msgid "On Render Job Completed"
+msgstr "渲染任务完成时"
+
+#: __init__.py:116
+msgid "On Render Job started"
+msgstr "渲染任务开始时"
+
+#: __init__.py:49
+msgid "Online Access is not enabled in Blender!"
+msgstr "Blender 中未启用在线访问！"
+
+#: __init__.py:1
+msgid "Render"
+msgstr "渲染"
+
+#: __init__.py:1
+#: __init__.py:99
+msgid "Render Webhook"
+msgstr "渲染 Webhook"
+
+#: __init__.py:1
+msgid "Sends a message after render events to a webhook"
+msgstr "渲染事件后向 Webhook 发送消息"
+
+#: __init__.py:40
+msgid "Slack"
+msgstr "Slack"
+
+#: __init__.py:32
+msgid "URL to a webhook endpoint"
+msgstr "Webhook 端点 URL"
+
+#: __init__.py:36
+msgid "Webhook Type"
+msgstr "Webhook 类型"
+
+#: __init__.py:32
+msgid "Webhook URL"
+msgstr "Webhook URL"
+
+#: __init__.py:21
+msgctxt "Operator"
+msgid "Send a test message to saved webhook"
+msgstr "向已保存的 Webhook 发送测试消息"

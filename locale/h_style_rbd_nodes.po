@@ -1,0 +1,258 @@
+# perfect-chinese: 1
+# id: h_style_rbd_nodes
+# kind: addon
+# module: bl_ext.blender_org.h_style_rbd_nodes
+# name: H-Style RBD Nodes
+# name_zh: 刚体破碎节点
+# translator: KeshiMiao
+# category: Physics
+# supported_versions: >=5.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: ui.py:445
+msgid "Adds a Geometry Nodes modifier"
+msgstr "添加几何节点修改器"
+
+#: ui.py:424
+msgid "Bake {n} Objects Together"
+msgstr "一起烘焙 {n} 个物体"
+
+#: ui.py:400
+msgid "Blender Axes"
+msgstr "Blender 坐标轴"
+
+#: ui.py:399
+msgid "Data converted to Unity axes (-x, z, -y); mesh exported with Apply Transform"
+msgstr "数据转换为 Unity 坐标轴（-x、z、-y）；网格以「应用变换」导出"
+
+#: ui.py:400
+msgid "Data left in Blender axes"
+msgstr "数据保留在 Blender 坐标轴"
+
+#: ui.py:524
+msgid "Example scenes and the manual are on GitHub"
+msgstr "示例场景和手册位于 GitHub"
+
+#: ui.py:118
+msgid "Existing Pieces"
+msgstr "现有碎块"
+
+#: ui.py:117
+msgid "Fracture"
+msgstr "破碎"
+
+#: ui.py:488
+msgid "H-Style RBD"
+msgstr "H-Style RBD"
+
+#: ui.py:485
+#: ui.py:500
+msgid "H-Style RBD Nodes"
+msgstr "H-Style RBD 节点"
+
+#: ui.py:378
+msgid "Keep Rig in Scene"
+msgstr "在场景中保留绑定"
+
+#: ui.py:378
+msgid "Leave the generated armature and skinned mesh in the scene"
+msgstr "将生成的骨架和蒙皮网格保留在场景中"
+
+#: ui.py:451
+msgid "Mesh is not closed"
+msgstr "网格未闭合"
+
+#: ui.py:442
+msgid "New RBD network:"
+msgstr "新建 RBD 网络："
+
+#: ui.py:475
+msgid "No RBD Bullet Solver node:"
+msgstr "没有 RBD Bullet Solver 节点："
+
+#: ui.py:116
+msgid "Pieces"
+msgstr "碎块"
+
+#: ui.py:177
+#: ui.py:503
+msgid "RBD"
+msgstr "RBD"
+
+#: ui.py:479
+msgid "RBD Bullet Solver"
+msgstr "RBD Bullet Solver"
+
+#: ui.py:493
+#: ui.py:512
+msgid "Select a mesh object"
+msgstr "选择一个网格物体"
+
+#: ui.py:398
+msgid "Target"
+msgstr "目标"
+
+#: ui.py:254
+msgid "The mesh is closed"
+msgstr "网格已闭合"
+
+#: ui.py:118
+msgid "The object is already modelled in pieces (bricks, planks): RBD Assemble takes its loose parts as the pieces, RBD Constraints From Rules glues the ones that touch"
+msgstr "物体已按碎块建模（砖块、木板）：RBD Assemble 将其松散部件作为碎块，RBD Constraints From Rules 粘合相互接触的部件"
+
+#: ui.py:117
+msgid "The object is one solid model: RBD Material Fracture cuts it into pieces"
+msgstr "物体是单一实体模型：RBD Material Fracture 将其切割成碎块"
+
+#: ui.py:399
+msgid "Unity"
+msgstr "Unity"
+
+#: ui.py:452
+msgid "Weld, close holes or Solidify"
+msgstr "焊接、封闭孔洞或实体化"
+
+#: ui.py:476
+msgid "add one to simulate (Add > RBD)"
+msgstr "添加一个以进行模拟（添加 > RBD）"
+
+#: ui.py:446
+msgid "with the RBD nodes wired up"
+msgstr "并连接好 RBD 节点"
+
+#: ui.py:471
+msgid "{name} from 3D Cursor"
+msgstr "从 3D 光标创建 {name}"
+
+#: ui.py:430
+msgid "{pieces} pieces, {frames} frames"
+msgstr "{pieces} 个碎块，{frames} 帧"
+
+#: ui.py:137
+msgctxt "Operator"
+msgid "Add RBD Node"
+msgstr "添加 RBD 节点"
+
+#: ui.py:138
+msgctxt "Operator"
+msgid "Add this RBD node to the node tree"
+msgstr "将此 RBD 节点添加到节点树"
+
+#: ui.py:427
+msgctxt "Operator"
+msgid "Bake"
+msgstr "烘焙"
+
+#: ui.py:271
+msgctxt "Operator"
+msgid "Bake Simulation"
+msgstr "烘焙模拟"
+
+#: ui.py:364
+msgctxt "Operator"
+msgid "Baked motion as an animated mesh (.abc)"
+msgstr "将烘焙的运动导出为动画网格（.abc）"
+
+#: ui.py:453
+msgctxt "Operator"
+msgid "Check Again"
+msgstr "再次检查"
+
+#: ui.py:240
+msgctxt "Operator"
+msgid "Check Mesh"
+msgstr "检查网格"
+
+#: ui.py:313
+msgctxt "Operator"
+msgid "Delete the baked motion: the solver node passes its input on again"
+msgstr "删除烘焙的运动：解算器节点将再次传递其输入"
+
+#: ui.py:526
+msgctxt "Operator"
+msgid "Example Scenes"
+msgstr "示例场景"
+
+#: ui.py:363
+msgctxt "Operator"
+msgid "Export Alembic"
+msgstr "导出 Alembic"
+
+#: ui.py:374
+msgctxt "Operator"
+msgid "Export FBX (Bones)"
+msgstr "导出 FBX（骨骼）"
+
+#: ui.py:394
+msgctxt "Operator"
+msgid "Export VAT"
+msgstr "导出 VAT"
+
+#: ui.py:443
+msgctxt "Operator"
+msgid "Fracture This Object"
+msgstr "破碎此物体"
+
+#: ui.py:312
+msgctxt "Operator"
+msgid "Free Bake"
+msgstr "释放烘焙"
+
+#: ui.py:199
+msgctxt "Operator"
+msgid "From 3D Cursor"
+msgstr "从 3D 光标"
+
+#: ui.py:112
+msgctxt "Operator"
+msgid "Give the active object a Geometry Nodes modifier with the RBD nodes wired up. Open the Geometry Nodes editor to add to it"
+msgstr "为活动物体添加一个连接好 RBD 节点的几何节点修改器。打开几何节点编辑器以继续添加"
+
+#: ui.py:241
+msgctxt "Operator"
+msgid "Look for open edges on the mesh that goes into the fracture. A fracture needs a closed, welded volume"
+msgstr "检查进入破碎的网格上的开放边。破碎需要闭合、焊接的实体"
+
+#: ui.py:375
+msgctxt "Operator"
+msgid "One bone per piece, skinned mesh, baked animation (.fbx) for game engines"
+msgstr "每碎块一根骨骼、蒙皮网格、烘焙动画（.fbx），用于游戏引擎"
+
+#: ui.py:111
+msgctxt "Operator"
+msgid "RBD Network"
+msgstr "RBD 网络"
+
+#: ui.py:427
+msgctxt "Operator"
+msgid "Re-Bake"
+msgstr "重新烘焙"
+
+#: ui.py:395
+msgctxt "Operator"
+msgid "Rigid-body vertex animation textures: mesh .fbx, two .exr textures and a .json. The shader and scripts for Unity are a separate download"
+msgstr "刚体顶点动画纹理：网格 .fbx、两个 .exr 纹理和一个 .json。Unity 的着色器和脚本需单独下载"
+
+#: ui.py:272
+msgctxt "Operator"
+msgid "Run the RBD Bullet Solver node of the active object and store the result on it. Other selected objects that have a solver node are simulated in the same world, so they collide with each other"
+msgstr "运行活动物体的 RBD Bullet Solver 节点并将结果存储在其上。其他选定且带解算器节点的物体将在同一世界中模拟，因此会相互碰撞"
+
+#: ui.py:200
+msgctxt "Operator"
+msgid "Set this position of the node to where the 3D cursor is (converted to the space of the object)"
+msgstr "将此节点的位置设为 3D 光标所在位置（转换到物体的空间）"
+
+#: ui.py:444
+msgctxt "Operator"
+msgid "Use Its Loose Parts"
+msgstr "使用其松散部件"
+
+#: ui.py:527
+msgctxt "Operator"
+msgid "User Manual"
+msgstr "用户手册"

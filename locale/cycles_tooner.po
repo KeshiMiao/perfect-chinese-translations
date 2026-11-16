@@ -1,0 +1,209 @@
+# perfect-chinese: 1
+# id: cycles_tooner
+# kind: addon
+# module: bl_ext.blender_org.cycles_tooner
+# name: CyclesTooner
+# name_zh: 卡通着色转换
+# translator: KeshiMiao
+# category: Material
+# supported_versions: >=4.5.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:94
+#: operators_outline.py:1278
+msgid "Base outline thickness in Blender units"
+msgstr "以 Blender 单位表示的描边基础厚度"
+
+#: __init__.py:84
+#: operators_outline.py:1236
+msgid "Color applied to the selected model's outline"
+msgstr "应用到所选模型描边的颜色"
+
+#: __init__.py:11
+msgid "Convert EEVEE toon avatars to Toon BSDF for Cycles"
+msgstr "将 EEVEE 卡通角色转换为 Cycles 的 Toon BSDF"
+
+#: ui.py:17
+msgid "Convert toon materials to Toon BSDF and manage outlines for Cycles"
+msgstr "将卡通材质转换为 Toon BSDF 并管理 Cycles 的描边"
+
+#: __init__.py:11
+#: ui.py:16
+msgid "CyclesTooner"
+msgstr "CyclesTooner"
+
+#: __init__.py:131
+#: ui.py:68
+msgid "Emission"
+msgstr "自发光"
+
+#: __init__.py:138
+#: ui.py:70
+msgid "Emission Factor"
+msgstr "自发光系数"
+
+#: __init__.py:138
+msgid "How much of the Emission shader is mixed in. 0 keeps the Toon shading and 1 shows the unshaded color"
+msgstr "混合多少自发光着色器。0 保留卡通着色，1 显示无着色颜色"
+
+#: __init__.py:11
+msgid "Material"
+msgstr "材质"
+
+#: __init__.py:131
+msgid "Mix an Emission shader into this CyclesTooner material so that it keeps its color in shade"
+msgstr "将自发光着色器混合到此 CyclesTooner 材质，使其在阴影中保持颜色"
+
+#: __init__.py:124
+#: ui.py:67
+msgid "No Shadow"
+msgstr "无阴影"
+
+#: __init__.py:66
+#: __init__.py:104
+msgid "Opacity"
+msgstr "不透明度"
+
+#: __init__.py:66
+#: operators_converter.py:1787
+msgid "Opacity applied to selected toon materials"
+msgstr "应用到所选卡通材质的不透明度"
+
+#: __init__.py:104
+msgid "Opacity for this CyclesTooner material"
+msgstr "此 CyclesTooner 材质的不透明度"
+
+#: __init__.py:84
+#: operators_outline.py:1236
+msgid "Outline Color"
+msgstr "描边颜色"
+
+#: __init__.py:94
+#: operators_outline.py:1278
+msgid "Outline Thickness"
+msgstr "描边厚度"
+
+#: __init__.py:75
+#: __init__.py:114
+msgid "Smooth"
+msgstr "平滑"
+
+#: __init__.py:75
+#: operators_converter.py:1826
+msgid "Smooth value applied to selected toon materials"
+msgstr "应用到所选卡通材质的平滑值"
+
+#: __init__.py:114
+msgid "Smooth value for this CyclesTooner material"
+msgstr "此 CyclesTooner 材质的平滑值"
+
+#: __init__.py:124
+msgid "Stop this CyclesTooner material from casting shadows in Cycles"
+msgstr "阻止此 CyclesTooner 材质在 Cycles 中投射阴影"
+
+#: ui.py:25
+msgid "Tool"
+msgstr "工具"
+
+#: operators_outline.py:925
+#: ui.py:77
+msgctxt "Operator"
+msgid "Add Outline"
+msgstr "添加描边"
+
+#: operators_converter.py:1782
+#: ui.py:48
+msgctxt "Operator"
+msgid "Apply Opacity"
+msgstr "应用不透明度"
+
+#: operators_outline.py:1231
+#: ui.py:89
+msgctxt "Operator"
+msgid "Apply Outline Color"
+msgstr "应用描边颜色"
+
+#: operators_outline.py:1273
+#: ui.py:94
+msgctxt "Operator"
+msgid "Apply Outline Thickness"
+msgstr "应用描边厚度"
+
+#: operators_converter.py:1821
+#: ui.py:52
+msgctxt "Operator"
+msgid "Apply Smooth"
+msgstr "应用平滑"
+
+#: operators_converter.py:1823
+msgctxt "Operator"
+msgid "Apply the Smooth value to the converted materials of the selected objects and their descendants"
+msgstr "将平滑值应用到所选物体及其子级转换后的材质"
+
+#: operators_outline.py:1275
+msgctxt "Operator"
+msgid "Apply the base thickness to the selected model's outline"
+msgstr "将基础厚度应用到所选模型的描边"
+
+#: operators_converter.py:1784
+msgctxt "Operator"
+msgid "Apply the opacity to the converted materials of the selected objects and their descendants"
+msgstr "将不透明度应用到所选物体及其子级转换后的材质"
+
+#: operators_outline.py:1233
+msgctxt "Operator"
+msgid "Apply the outline color to the selected model's outline"
+msgstr "将描边颜色应用到所选模型的描边"
+
+#: operators_converter.py:1306
+#: ui.py:37
+msgctxt "Operator"
+msgid "Convert"
+msgstr "转换"
+
+#: operators_converter.py:1308
+msgctxt "Operator"
+msgid "Convert the materials of the selected objects and their descendants to Toon BSDF for Cycles"
+msgstr "将所选物体及其子级的材质转换为 Cycles 的 Toon BSDF"
+
+#: operators_outline.py:927
+msgctxt "Operator"
+msgid "Create an inverted-hull outline for the model that contains the selected object. Intended for models converted by CyclesTooner"
+msgstr "为包含所选物体的模型创建反转外壳描边。适用于由 CyclesTooner 转换的模型"
+
+#: operators_outline.py:1316
+msgctxt "Operator"
+msgid "Rebuild the outline sources from the model's current render visibility"
+msgstr "根据模型的当前渲染可见性重建描边源"
+
+#: operators_outline.py:1314
+#: ui.py:81
+msgctxt "Operator"
+msgid "Refresh Outline"
+msgstr "刷新描边"
+
+#: operators_outline.py:1416
+#: ui.py:85
+msgctxt "Operator"
+msgid "Remove Outline"
+msgstr "移除描边"
+
+#: operators_outline.py:1418
+msgctxt "Operator"
+msgid "Remove the selected model's outline and its unused data"
+msgstr "移除所选模型的描边及其未使用的数据"
+
+#: operators_converter.py:1640
+msgctxt "Operator"
+msgid "Restore converted materials to Principled BSDF. Materials converted from other shaders become a simplified Principled BSDF"
+msgstr "将转换后的材质恢复为原理化 BSDF。从其他着色器转换的材质将变为简化的原理化 BSDF"
+
+#: operators_converter.py:1638
+#: ui.py:41
+msgctxt "Operator"
+msgid "Revert"
+msgstr "恢复"

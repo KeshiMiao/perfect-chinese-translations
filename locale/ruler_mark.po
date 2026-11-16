@@ -1,0 +1,294 @@
+# perfect-chinese: 1
+# id: ruler_mark
+# kind: addon
+# module: bl_ext.blender_org.ruler_mark
+# name: Ruler Mark
+# name_zh: 标尺标记
+# translator: KeshiMiao
+# category: 3D View
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:680
+msgid "(keep the Measure tool active)"
+msgstr "（保持测量工具处于激活状态）"
+
+#: __init__.py:689
+msgid "(last)"
+msgstr "（最后一个）"
+
+#: __init__.py:602
+msgid "Active object is not a curve"
+msgstr "活动物体不是曲线"
+
+#: __init__.py:643
+msgid "All rulers cleared"
+msgstr "已清除所有标尺"
+
+#: __init__.py:415
+msgid "Angle of the ruler in the XY plane from +X"
+msgstr "标尺在 XY 平面内与 +X 的夹角"
+
+#: __init__.py:427
+msgid "Arc length"
+msgstr "弧长"
+
+#: __init__.py:421
+msgid "At"
+msgstr "位于"
+
+#: __init__.py:424
+msgid "Both ends"
+msgstr "两端"
+
+#: __init__.py:424
+msgid "Both the start and end points"
+msgstr "起点和终点两端"
+
+#: __init__.py:533
+msgid "Click a ruler line  (Esc to cancel)"
+msgstr "点击标尺线（Esc 取消）"
+
+#: __init__.py:528
+msgid "Draw a ruler first"
+msgstr "请先绘制标尺"
+
+#: __init__.py:679
+msgid "Draw a ruler with Measure"
+msgstr "使用测量工具绘制标尺"
+
+#: __init__.py:447
+#: __init__.py:466
+msgid "Draw a ruler with the Measure tool first"
+msgstr "请先使用测量工具绘制标尺"
+
+#: __init__.py:431
+msgid "Edges length"
+msgstr "边长度"
+
+#: __init__.py:425
+msgid "Empty size"
+msgstr "空物体尺寸"
+
+#: __init__.py:423
+msgid "End"
+msgstr "终点"
+
+#: __init__.py:617
+msgid "Enter Edit Mode on a mesh"
+msgstr "进入网格的编辑模式"
+
+#: __init__.py:415
+msgid "Horizontal"
+msgstr "水平"
+
+#: __init__.py:412
+msgid "Length"
+msgstr "长度"
+
+#: __init__.py:412
+msgid "Length of the selected ruler (edit to move its end)"
+msgstr "所选标尺的长度（编辑可移动其端点）"
+
+#: __init__.py:567
+msgid "No ruler selected"
+msgstr "未选择标尺"
+
+#: __init__.py:548
+msgid "No ruler there - click closer to a line"
+msgstr "此处没有标尺——请点击更靠近线的位置"
+
+#: __init__.py:633
+msgid "No rulers to clear"
+msgstr "没有可清除的标尺"
+
+#: __init__.py:1
+msgid "Object"
+msgstr "物体"
+
+#: __init__.py:423
+msgid "Only the ruler's end point"
+msgstr "仅标尺的端点"
+
+#: __init__.py:705
+msgid "Place mark at selected ruler:"
+msgstr "在所选标尺处放置标记："
+
+#: __init__.py:1
+msgid "Rides on the native Measure tool: pick any ruler, edit its length/angle from a panel (live), and drop a vertex or Empty at its end. Also shows the arc length of the active curve (Bezier / Poly / NURBS)."
+msgstr "基于内置测量工具：选取任意标尺，在面板中实时编辑其长度/角度，并在其端点放置顶点或空物体。还会显示活动曲线（贝塞尔/多边形/NURBS）的弧长。"
+
+#: __init__.py:653
+msgid "Ruler"
+msgstr "标尺"
+
+#: __init__.py:1
+#: __init__.py:649
+msgid "Ruler Mark"
+msgstr "标尺标记"
+
+#: __init__.py:689
+msgid "Ruler {} / {}{}"
+msgstr "标尺 {} / {}{}"
+
+#: __init__.py:671
+msgid "Selected edges: {}"
+msgstr "所选边：{}"
+
+#: __init__.py:418
+msgid "Tilt of the ruler up out of the XY plane"
+msgstr "标尺离开 XY 平面的倾斜角"
+
+#: __init__.py:427
+msgid "Total world-space arc length of the active curve object's splines"
+msgstr "活动曲线物体各样条的全局空间总弧长"
+
+#: __init__.py:431
+msgid "Total world-space length of the selected edges (mesh Edit Mode)"
+msgstr "所选边的全局空间总长度（网格编辑模式）"
+
+#: __init__.py:418
+msgid "Vertical"
+msgstr "垂直"
+
+#: __init__.py:441
+msgctxt "Operator"
+msgid "Add a vertex (to a 'Marks' mesh) at the selected ruler's end"
+msgstr "在所选标尺的端点添加顶点（添加到“Marks”网格）"
+
+#: __init__.py:626
+#: __init__.py:716
+msgctxt "Operator"
+msgid "Clear all rulers"
+msgstr "清除所有标尺"
+
+#: __init__.py:524
+msgctxt "Operator"
+msgid "Click a ruler line in the viewport to select it for editing"
+msgstr "在视图中点击标尺线以选中并编辑"
+
+#: __init__.py:693
+msgctxt "Operator"
+msgid "Click a ruler…"
+msgstr "点击标尺…"
+
+#: __init__.py:596
+msgctxt "Operator"
+msgid "Copy curve length"
+msgstr "复制曲线长度"
+
+#: __init__.py:611
+msgctxt "Operator"
+msgid "Copy edges length"
+msgstr "复制边长度"
+
+#: __init__.py:665
+#: __init__.py:674
+msgctxt "Operator"
+msgid "Copy length"
+msgstr "复制长度"
+
+#: __init__.py:597
+msgctxt "Operator"
+msgid "Copy the active curve's arc length to the clipboard"
+msgstr "将活动曲线的弧长复制到剪贴板"
+
+#: __init__.py:612
+msgctxt "Operator"
+msgid "Copy the total length of the selected edges to the clipboard"
+msgstr "将所选边的总长度复制到剪贴板"
+
+#: __init__.py:460
+msgctxt "Operator"
+msgid "Drop an Empty at the selected ruler's end"
+msgstr "在所选标尺的端点放置空物体"
+
+#: __init__.py:710
+msgctxt "Operator"
+msgid "Empty"
+msgstr "空物体"
+
+#: __init__.py:459
+msgctxt "Operator"
+msgid "Empty at ruler"
+msgstr "在标尺处放置空物体"
+
+#: __init__.py:512
+msgctxt "Operator"
+msgid "Follow last"
+msgstr "跟随最新"
+
+#: __init__.py:696
+msgctxt "Operator"
+msgid "Last"
+msgstr "最新"
+
+#: __init__.py:693
+msgctxt "Operator"
+msgid "Pick in viewport"
+msgstr "在视图中拾取"
+
+#: __init__.py:523
+msgctxt "Operator"
+msgid "Pick ruler"
+msgstr "拾取标尺"
+
+#: __init__.py:480
+msgctxt "Operator"
+msgid "Push the edited ruler back to the on-screen Measure gizmo (re-activates the Measure tool so it reloads the data)"
+msgstr "将编辑后的标尺推送回屏幕上的测量控件（重新激活测量工具以重新加载数据）"
+
+#: __init__.py:627
+msgctxt "Operator"
+msgid "Remove every ruler from the RulerData3D layer"
+msgstr "从 RulerData3D 图层中移除所有标尺"
+
+#: __init__.py:559
+msgctxt "Operator"
+msgid "Ruler to mesh line"
+msgstr "标尺转网格线"
+
+#: __init__.py:714
+msgctxt "Operator"
+msgid "Ruler → mesh line"
+msgstr "标尺 → 网格线"
+
+#: __init__.py:513
+msgctxt "Operator"
+msgid "Select the most recently drawn ruler (and keep following new ones)"
+msgstr "选择最近绘制的标尺（并持续跟随新建的标尺）"
+
+#: __init__.py:496
+msgctxt "Operator"
+msgid "Select the previous / next ruler"
+msgstr "选择上一个/下一个标尺"
+
+#: __init__.py:495
+msgctxt "Operator"
+msgid "Step ruler"
+msgstr "切换标尺"
+
+#: __init__.py:560
+msgctxt "Operator"
+msgid "Turn the selected ruler into a real mesh line (edges through all its points - 2 for a straight ruler, 3 for a protractor) and remove the ruler"
+msgstr "将所选标尺转换为实际网格线（穿过其所有点的边——直尺为 2 条，量角器为 3 条）并移除该标尺"
+
+#: __init__.py:479
+#: __init__.py:702
+msgctxt "Operator"
+msgid "Update viewport"
+msgstr "更新视图"
+
+#: __init__.py:709
+msgctxt "Operator"
+msgid "Vertex"
+msgstr "顶点"
+
+#: __init__.py:440
+msgctxt "Operator"
+msgid "Vertex at ruler"
+msgstr "标尺处顶点"

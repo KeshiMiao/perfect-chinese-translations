@@ -1,0 +1,217 @@
+# perfect-chinese: 1
+# id: flattice
+# kind: addon
+# module: bl_ext.blender_org.flattice
+# name: Flattice
+# name_zh: 透视变形控制
+# translator: KeshiMiao
+# category: Object
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:334
+msgid "Active Flattice"
+msgstr "活动 Flattice"
+
+#: __init__.py:734
+msgid "Already tracking this camera"
+msgstr "已跟踪此摄像机"
+
+#: __init__.py:723
+msgid "Camera property missing"
+msgstr "摄像机属性缺失"
+
+#: __init__.py:340
+msgid "Control points along the camera-depth axis (W).\nHigher values allow non-linear depth control\nwhen manually edited in Lattice Edit Mode"
+msgstr "沿摄像机深度轴（W）的控制点。\n数值越高，在晶格编辑模式下手动编辑时\n可实现非线性深度控制"
+
+#: __init__.py:665
+msgid "Create"
+msgstr "创建"
+
+#: __init__.py:756
+msgid "Danger Zone"
+msgstr "危险区域"
+
+#: __init__.py:340
+msgid "Depth Resolution"
+msgstr "深度分辨率"
+
+#: __init__.py:721
+msgid "Flatten"
+msgstr "压平"
+
+#: __init__.py:704
+msgid "Flatten Control"
+msgstr "压平控制"
+
+#: __init__.py:645
+#: __init__.py:649
+msgid "Flattice"
+msgstr "Flattice"
+
+#: __init__.py:678
+msgid "Flattice Manager"
+msgstr "Flattice 管理器"
+
+#: __init__.py:599
+msgid "No active Flattice to remove."
+msgstr "没有可移除的活动 Flattice。"
+
+#: __init__.py:524
+msgid "No active Flattice — create one first."
+msgstr "没有活动 Flattice — 请先创建一个。"
+
+#: __init__.py:454
+#: __init__.py:485
+msgid "No active Flattice."
+msgstr "没有活动 Flattice。"
+
+#: __init__.py:714
+msgid "No camera constraint found on lattice"
+msgstr "晶格上未找到摄像机约束"
+
+#: __init__.py:377
+#: __init__.py:492
+msgid "No camera found in the scene."
+msgstr "场景中未找到摄像机。"
+
+#: __init__.py:747
+msgid "No objects attached"
+msgstr "未附加物体"
+
+#: __init__.py:459
+msgid "No objects attached to this Flattice."
+msgstr "此 Flattice 未附加任何物体。"
+
+#: __init__.py:349
+msgid "Pick a different camera for this Flattice to track"
+msgstr "为此 Flattice 选择要跟踪的其他摄像机"
+
+#: __init__.py:372
+msgid "Select at least one mesh object first."
+msgstr "请先至少选择一个网格物体。"
+
+#: __init__.py:334
+msgid "Select which lattice to use as the active Flattice (lattice objects only)"
+msgstr "选择要用作活动 Flattice 的晶格（仅限晶格物体）"
+
+#: __init__.py:349
+#: __init__.py:730
+msgid "Switch Camera"
+msgstr "切换摄像机"
+
+#: __init__.py:711
+msgid "Tracking:"
+msgstr "跟踪："
+
+#: __init__.py:698
+msgid "Viewport only — renders still flatten"
+msgstr "仅视图 — 渲染仍会压平"
+
+#: __init__.py:749
+msgctxt "Operator"
+msgid "Add Selected"
+msgstr "添加所选"
+
+#: __init__.py:513
+msgctxt "Operator"
+msgid "Add Selected to Flattice"
+msgstr "将所选添加到 Flattice"
+
+#: __init__.py:514
+msgctxt "Operator"
+msgid "Add selected mesh objects to the active Flattice.\nIf an object already has a 'Flattice' modifier its target is updated\nrather than stacking a second modifier"
+msgstr "将所选网格物体添加到活动 Flattice。\n如果物体已有「Flattice」修改器，则更新其目标，\n而不是再叠加一个修改器"
+
+#: __init__.py:363
+msgctxt "Operator"
+msgid "Build a camera-tracking flatten lattice around the selected mesh objects"
+msgstr "围绕所选网格物体构建摄像机跟踪压平晶格"
+
+#: __init__.py:362
+#: __init__.py:668
+msgctxt "Operator"
+msgid "Create Flattice"
+msgstr "创建 Flattice"
+
+#: __init__.py:668
+msgctxt "Operator"
+msgid "Create New Flattice"
+msgstr "创建新 Flattice"
+
+#: __init__.py:588
+msgctxt "Operator"
+msgid "Delete the active Flattice lattice, remove all associated modifiers, and clean up the camera's flatten property. Auto-selects another lattice in the scene if one exists"
+msgstr "删除活动 Flattice 晶格，移除所有关联修改器，并清理摄像机的压平属性。如果场景中存在其他晶格，将自动选择其中一个"
+
+#: __init__.py:659
+msgctxt "Operator"
+msgid "Documentation"
+msgstr "文档"
+
+#: __init__.py:689
+msgctxt "Operator"
+msgid "Effect: Viewport Off"
+msgstr "效果：视图关闭"
+
+#: __init__.py:689
+msgctxt "Operator"
+msgid "Effect: Viewport On"
+msgstr "效果：视图开启"
+
+#: __init__.py:444
+msgctxt "Operator"
+msgid "Enable/disable the Flattice deformation in the viewport.\nRenders are unaffected — this only mutes the Lattice modifiers\nso you can model and navigate against the undeformed geometry"
+msgstr "在视图中启用/禁用 Flattice 变形。\n不影响渲染 — 此操作仅静音晶格修改器，\n以便针对未变形几何体进行建模和导航"
+
+#: __init__.py:634
+msgctxt "Operator"
+msgid "Flattice Documentation"
+msgstr "Flattice 文档"
+
+#: __init__.py:635
+msgctxt "Operator"
+msgid "Open the Flattice user guide in your browser"
+msgstr "在浏览器中打开 Flattice 用户指南"
+
+#: __init__.py:475
+msgctxt "Operator"
+msgid "Rebuild the camera property and the shape-key driver for the active\nFlattice. Use if the Flatten slider stops affecting the mesh — e.g.\nafter appending, duplicating, or deleting the driver by hand"
+msgstr "为活动 Flattice 重建摄像机属性和形态键驱动器。\n如果压平滑块不再影响网格 — 例如在追加、复制\n或手动删除驱动器后 — 可使用此操作"
+
+#: __init__.py:587
+#: __init__.py:759
+msgctxt "Operator"
+msgid "Remove Flattice"
+msgstr "移除 Flattice"
+
+#: __init__.py:750
+msgctxt "Operator"
+msgid "Remove Selected"
+msgstr "移除所选"
+
+#: __init__.py:565
+msgctxt "Operator"
+msgid "Remove Selected from Flattice"
+msgstr "从 Flattice 移除所选"
+
+#: __init__.py:566
+msgctxt "Operator"
+msgid "Remove the Flattice modifier from currently selected mesh objects"
+msgstr "从当前所选网格物体移除 Flattice 修改器"
+
+#: __init__.py:474
+#: __init__.py:724
+msgctxt "Operator"
+msgid "Repair Link"
+msgstr "修复链接"
+
+#: __init__.py:443
+msgctxt "Operator"
+msgid "Toggle Flattice Effect"
+msgstr "切换 Flattice 效果"

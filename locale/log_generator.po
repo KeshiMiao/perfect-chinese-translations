@@ -1,0 +1,502 @@
+# perfect-chinese: 1
+# id: log_generator
+# kind: addon
+# module: bl_ext.blender_org.log_generator
+# name: Log Generator
+# name_zh: 原木生成器
+# translator: KeshiMiao
+# category: Add Mesh
+# supported_versions: >=4.5.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: properties.py:267
+msgid "Alternate Butts"
+msgstr "交替根端"
+
+#: properties.py:232
+#: ui.py:224
+msgid "Arrangement"
+msgstr "排列"
+
+#: properties.py:279
+msgid "As high as a green log of this species floats: light cedar rides high, oak barely floats"
+msgstr "与这种树种的湿原木漂浮高度一致：轻质雪松浮得高，橡木几乎不浮"
+
+#: ui.py:208
+msgid "Bark"
+msgstr "树皮"
+
+#: properties.py:132
+msgid "Bark Style"
+msgstr "树皮样式"
+
+#: ui.py:134
+msgid "Bark relief is too fine to print; it shows in colour only."
+msgstr "树皮凹凸太细，打印不出来；仅以颜色体现。"
+
+#: ui.py:308
+msgid "Build Options"
+msgstr "生成选项"
+
+#: properties.py:238
+msgid "Car Load"
+msgstr "车厢装载"
+
+#: properties.py:252
+msgid "Car Width By"
+msgstr "车厢宽度依据"
+
+#: properties.py:198
+msgid "Carved Growth Rings"
+msgstr "雕刻年轮"
+
+#: properties.py:290
+msgid "Coarse"
+msgstr "粗糙"
+
+#: properties.py:282
+msgid "Custom"
+msgstr "自定义"
+
+#: properties.py:198
+msgid "Cut the growth rings into the sawn ends as shallow grooves, like weathered end grain, so they show on a print and take a drybrush. Adds triangles to the end faces"
+msgstr "将年轮刻入锯切端面形成浅槽，如同风化的端面纹理，使其在打印件上可见并便于干扫。会增加端面三角形。"
+
+#: properties.py:281
+msgid "Cut through the middle"
+msgstr "从中间切开"
+
+#: properties.py:309
+msgid "Default STL file name; {species} and {scale} are filled in"
+msgstr "默认 STL 文件名；{species} 和 {scale} 会自动填入"
+
+#: properties.py:287
+msgid "Detail"
+msgstr "细节"
+
+#: ui.py:295
+msgid "Drain Hole (mm)"
+msgstr "排液孔（毫米）"
+
+#: ui.py:274
+msgid "Each log is its own object."
+msgstr "每根原木都是独立物体。"
+
+#: properties.py:293
+msgid "Each log is kept under about this many triangles; big logs at large scales are made coarser to fit"
+msgstr "每根原木控制在约此三角形数以内；大比例的大原木会变粗糙以适配"
+
+#: properties.py:282
+msgid "Enter how much of the diameter shows"
+msgstr "输入直径露出的比例"
+
+#: properties.py:147
+msgid "Enter the log's real-world size and let the scale make the model, or enter the model log's size directly"
+msgstr "输入原木的真实尺寸并由比例生成模型，或直接输入模型原木尺寸"
+
+#: properties.py:156
+msgid "Feet / Inches"
+msgstr "英尺 / 英寸"
+
+#: properties.py:309
+msgid "File Name"
+msgstr "文件名"
+
+#: properties.py:292
+msgid "Fine"
+msgstr "精细"
+
+#: properties.py:287
+msgid "Finest mesh detail. Bark is resolved as finely as this allows"
+msgstr "最精细网格细节。树皮细节达到此设置允许的最高精细度"
+
+#: ui.py:266
+msgid "Flat bottom stands on the 3D cursor;"
+msgstr "平底放在 3D 光标上；"
+
+#: properties.py:240
+msgid "Floating Half Logs"
+msgstr "漂浮半原木"
+
+#: ui.py:72
+msgid "Generating logs, please wait..."
+msgstr "正在生成原木，请稍候..."
+
+#: properties.py:252
+msgid "Give the car's width at real size (scaled down) or as the model's width"
+msgstr "按真实尺寸（缩放后）或按模型宽度输入车厢宽度"
+
+#: operators.py:308
+msgid "Give the preset a name."
+msgstr "为预设命名。"
+
+#: properties.py:196
+msgid "Give the sawn ends a slightly uneven surface"
+msgstr "让锯切端面略微不平整"
+
+#: properties.py:291
+msgid "Good for renders and FDM printing: 0.15 mm"
+msgstr "适合渲染和 FDM 打印：0.15 毫米"
+
+#: ui.py:198
+msgid "Groove Depth (mm)"
+msgstr "凹槽深度（毫米）"
+
+#: properties.py:215
+msgid "Growth rings carved from the pith to the bark. Real logs have far more; at model scale 8 to 20 read well"
+msgstr "从髓心到树皮雕刻年轮。真实原木年轮多得多；模型比例下 8 到 20 条效果较好"
+
+#: properties.py:281
+msgid "Half Log"
+msgstr "半原木"
+
+#: ui.py:299
+msgid "Half logs are left open underneath."
+msgstr "半原木底部保持敞开。"
+
+#: properties.py:203
+#: ui.py:280
+msgid "Hollow"
+msgstr "空心"
+
+#: properties.py:242
+msgid "How many logs to make. Each one is a little different: length, diameter, taper, bark, limbs and flare"
+msgstr "要生成多少根原木。每根都略有不同：长度、直径、锥度、树皮、枝杈和外扩"
+
+#: properties.py:276
+msgid "How much of each log shows above the water"
+msgstr "每根原木露出水面的比例"
+
+#: properties.py:270
+msgid "Join for Printing"
+msgstr "合并以打印"
+
+#: properties.py:270
+msgid "Join the stacked logs into one solid object for 3D printing. The logs sink into each other slightly (Overlap) so they print as one piece"
+msgstr "将堆叠的原木合并为一个实体物体以便 3D 打印。原木彼此略微陷入（重叠），从而作为一件打印"
+
+#: properties.py:203
+msgid "Leave the inside of each log empty, to save resin or filament and print faster. The walls are at least Wall Thickness everywhere, under the deepest bark furrow and behind the sawn ends"
+msgstr "每根原木内部留空，以节省树脂或耗材并加快打印。各处壁厚至少为“壁厚”值，包括最深树皮沟下方和锯切端面后方"
+
+#: properties.py:156
+msgid "Lengths in feet, diameters in inches"
+msgstr "长度用英尺，直径用英寸"
+
+#: properties.py:157
+msgid "Lengths in metres, diameters in centimetres"
+msgstr "长度用米，直径用厘米"
+
+#: properties.py:302
+msgid "Lock Seed"
+msgstr "锁定种子"
+
+#: ui.py:58
+msgid "Log Generator"
+msgstr "原木生成器"
+
+#: ui.py:33
+msgid "Log Presets"
+msgstr "原木预设"
+
+#: ui.py:52
+msgid "Logs"
+msgstr "原木"
+
+#: properties.py:240
+msgid "Logs cut flat at the waterline, to stand on a surface painted as water; each its own object"
+msgstr "在水线处切平的原木，可立在涂成水面的表面上；每根都是独立物体"
+
+#: properties.py:238
+msgid "Logs stacked in a pyramid, longest at the bottom, for a log car or a log deck at the mill"
+msgstr "金字塔式堆叠的原木，最长者在底部，用于运木车或锯木厂的原木堆场"
+
+#: ui.py:257
+msgid "Longest logs go on the bottom."
+msgstr "最长的原木放在底部。"
+
+#: properties.py:262
+msgid "Max Rows"
+msgstr "最大行数"
+
+#: properties.py:293
+msgid "Max Triangles per Log"
+msgstr "每根原木最大三角形数"
+
+#: properties.py:291
+msgid "Medium"
+msgstr "中等"
+
+#: properties.py:157
+msgid "Metres / cm"
+msgstr "米 / 厘米"
+
+#: properties.py:256
+msgid "Model"
+msgstr "模型"
+
+#: properties.py:152
+msgid "Model Size"
+msgstr "模型尺寸"
+
+#: properties.py:159
+msgid "Model Units"
+msgstr "模型单位"
+
+#: properties.py:139
+msgid "Model railroad scale. Sets the model size from the prototype size, and the size of the bark detail"
+msgstr "模型铁路比例。根据原型尺寸设置模型尺寸，以及树皮细节大小"
+
+#: properties.py:163
+msgid "Model sizes in inches"
+msgstr "模型尺寸用英寸"
+
+#: properties.py:162
+msgid "Model sizes in millimetres"
+msgstr "模型尺寸（毫米）"
+
+#: properties.py:262
+msgid "Most rows of logs in the stack"
+msgstr "堆垛中原木的最大层数"
+
+#: properties.py:145
+msgid "N in 1:N for a custom scale"
+msgstr "自定义比例中 1:N 的 N"
+
+#: operators.py:297
+msgid "Name"
+msgstr "名称"
+
+#: ui.py:40
+msgid "No log presets saved yet"
+msgstr "尚未保存原木预设"
+
+#: operators.py:252
+msgid "Nothing to export: select logs made by Log Generator."
+msgstr "无可导出内容：请选择由 Log Generator 生成的原木。"
+
+#: properties.py:242
+msgid "Number of Logs"
+msgstr "原木数量"
+
+#: properties.py:298
+msgid "Number that picks the random bark, limbs and variation. Generate shows the seed it used here; the same seed and settings always give the same logs"
+msgstr "用于选取随机树皮、枝杈和变化的数字。生成时会在此显示所用种子；相同的种子和设置始终生成相同的原木"
+
+#: operators.py:229
+msgid "One File per Log"
+msgstr "每根原木一个文件"
+
+#: properties.py:236
+msgid "One or more logs side by side at the 3D cursor, each its own object"
+msgstr "在 3D 游标处并排生成一根或多根原木，各自为独立物体"
+
+#: ui.py:254
+msgid "Overlap (mm)"
+msgstr "重叠（毫米）"
+
+#: properties.py:255
+msgid "Prototype"
+msgstr "原型"
+
+#: properties.py:151
+msgid "Prototype Size"
+msgstr "原型尺寸"
+
+#: properties.py:153
+msgid "Prototype Units"
+msgstr "原型单位"
+
+#: properties.py:290
+msgid "Quick previews and big loads: 0.4 mm"
+msgstr "快速预览和大批量装载：0.4 毫米"
+
+#: properties.py:145
+msgid "Ratio 1:"
+msgstr "比例 1:"
+
+#: properties.py:151
+msgid "Real-world length and diameter, scaled down"
+msgstr "真实长度和直径，按比例缩小"
+
+#: properties.py:255
+msgid "Real-world width in feet or metres"
+msgstr "真实宽度，以英尺或米为单位"
+
+#: properties.py:292
+msgid "Resin printing: 0.08 mm"
+msgstr "树脂打印：0.08 毫米"
+
+#: properties.py:215
+msgid "Rings"
+msgstr "年轮"
+
+#: ui.py:201
+msgid "Rings show in Material Preview and Rendered"
+msgstr "年轮在材质预览和渲染视图中显示"
+
+#: properties.py:196
+msgid "Rough Saw Cut"
+msgstr "粗糙锯切"
+
+#: operators.py:297
+msgid "Saving under an existing name replaces it"
+msgstr "使用现有名称保存将替换该预设"
+
+#: properties.py:139
+msgid "Scale"
+msgstr "比例"
+
+#: properties.py:298
+msgid "Seed"
+msgstr "种子"
+
+#: properties.py:236
+msgid "Separate Logs"
+msgstr "独立原木"
+
+#: properties.py:232
+msgid "Separate logs, a stacked load for a log car or mill deck, or half logs to float on painted water"
+msgstr "独立的原木、供运木车或制材场堆台使用的堆垛装载，或可漂浮在彩绘水面上的半圆木"
+
+#: ui.py:174
+msgid "Shape"
+msgstr "形状"
+
+#: ui.py:271
+msgid "Side by side along Y, resting on the 3D cursor."
+msgstr "沿 Y 轴并排，置于 3D 游标上。"
+
+#: properties.py:147
+msgid "Size By"
+msgstr "尺寸依据"
+
+#: properties.py:128
+#: properties.py:279
+msgid "Species"
+msgstr "树种"
+
+#: ui.py:141
+msgid "Species and Size"
+msgstr "树种和尺寸"
+
+#: ui.py:215
+msgid "Style"
+msgstr "样式"
+
+#: properties.py:132
+msgid "The bark pattern; normally the species' own"
+msgstr "树皮图案；通常为该树种自带的"
+
+#: ui.py:301
+msgid "The drain hole is on the underside,"
+msgstr "排水孔位于底部，"
+
+#: properties.py:256
+msgid "The model car's width in mm or inches"
+msgstr "模型车厢的宽度，单位为毫米或英寸"
+
+#: properties.py:152
+msgid "The model log's own length and diameter"
+msgstr "模型原木自身的长度和直径"
+
+#: ui.py:167
+msgid "The scale still sets the bark size."
+msgstr "比例仍决定树皮尺寸。"
+
+#: properties.py:128
+msgid "Tree species: sets the bark, wood colours, flare, limbs and how the log floats"
+msgstr "树种：决定树皮、木材颜色、根部膨大、枝杈以及原木的漂浮方式"
+
+#: properties.py:267
+msgid "Turn every other log end for end, as loaders did to balance the load"
+msgstr "每隔一根原木调头放置，如同装车工为平衡载荷所做的那样"
+
+#: ui.py:156
+msgid "Units"
+msgstr "单位"
+
+#: properties.py:159
+msgid "Units for model sizes. Changing it converts the values"
+msgstr "模型尺寸的单位。更改后会转换数值"
+
+#: properties.py:153
+msgid "Units for real-world sizes. Changing it converts the values"
+msgstr "真实尺寸的单位。更改后会转换数值"
+
+#: properties.py:302
+msgid "Use the seed above instead of a random one, to repeat logs you liked"
+msgstr "使用上方种子而非随机种子，以重现喜欢的原木"
+
+#: ui.py:292
+msgid "Wall Thickness (mm)"
+msgstr "壁厚（毫米）"
+
+#: properties.py:276
+msgid "Waterline"
+msgstr "水线"
+
+#: operators.py:229
+msgid "Write each log to its own file, named after the file name chosen plus the log's name. A joined car load is one log here"
+msgstr "将每根原木写入单独文件，以所选文件名加原木名称命名。合并的整车装载在此算作一根原木"
+
+#: ui.py:267
+msgid "glue it to water painted on a flat surface."
+msgstr "将其粘到平面上绘制的水面。"
+
+#: ui.py:302
+msgid "halfway along the log."
+msgstr "沿原木中部。"
+
+#: ui.py:202
+msgid "view, or Solid view with Color: Attribute."
+msgstr "视图，或使用「颜色：属性」的实体视图。"
+
+#: operators.py:277
+msgctxt "Operator"
+msgid "Apply Log Preset"
+msgstr "应用原木预设"
+
+#: operators.py:325
+msgctxt "Operator"
+msgid "Delete Log Preset"
+msgstr "删除原木预设"
+
+#: operators.py:226
+msgctxt "Operator"
+msgid "Export STL"
+msgstr "导出 STL"
+
+#: operators.py:106
+msgctxt "Operator"
+msgid "Generate Logs"
+msgstr "生成原木"
+
+#: operators.py:158
+msgctxt "Operator"
+msgid "Load Settings From Selected"
+msgstr "从选中项载入设置"
+
+#: operators.py:199
+msgctxt "Operator"
+msgid "New Seed"
+msgstr "新种子"
+
+#: operators.py:118
+msgctxt "Operator"
+msgid "Regenerate Selected"
+msgstr "重新生成选中项"
+
+#: operators.py:296
+msgctxt "Operator"
+msgid "Save Log Preset"
+msgstr "保存原木预设"
+
+#: operators.py:213
+msgctxt "Operator"
+msgid "Use Typical Size"
+msgstr "使用典型尺寸"

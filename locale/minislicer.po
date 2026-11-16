@@ -1,0 +1,191 @@
+# perfect-chinese: 1
+# id: minislicer
+# kind: addon
+# module: bl_ext.blender_org.minislicer
+# name: MiniSlicer
+# name_zh: 迷你切片器
+# translator: KeshiMiao
+# category: Object
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:545
+msgid "1 unit = 1 mm"
+msgstr "1 单位 = 1 毫米"
+
+#: __init__.py:519
+msgid "Bottom Exposure (s)"
+msgstr "底层曝光（秒）"
+
+#: __init__.py:517
+msgid "Bottom Layers"
+msgstr "底层数"
+
+#: __init__.py:531
+msgid "Bottom Lift (mm)"
+msgstr "底层抬升（毫米）"
+
+#: __init__.py:533
+msgid "Bottom Lift Speed"
+msgstr "底层抬升速度"
+
+#: __init__.py:524
+msgid "Bottom Light-off (s)"
+msgstr "底层熄灯延迟（秒）"
+
+#: __init__.py:604
+msgid "Does not fit the plate!"
+msgstr "超出打印平台！"
+
+#: __init__.py:506
+msgid "Draws the printer plate and height in the viewport (the part is auto-centered when slicing)"
+msgstr "在视图中绘制打印平台和高度（切片时部件会自动居中）"
+
+#: __init__.py:515
+msgid "Exposure (s)"
+msgstr "曝光（秒）"
+
+#: ctb.py:41
+#: phz.py:34
+msgid "H"
+msgstr "H"
+
+#: __init__.py:512
+msgid "Height of each layer in mm"
+msgstr "每层高度（毫米）"
+
+#: ctb.py:29
+#: ctb.py:31
+msgid "I"
+msgstr "I"
+
+#: __init__.py:550
+msgid "Layer"
+msgstr "层"
+
+#: __init__.py:512
+msgid "Layer Height (mm)"
+msgstr "层高（毫米）"
+
+#: __init__.py:550
+msgid "Layer shown in the viewer"
+msgstr "查看器中显示的层"
+
+#: __init__.py:526
+msgid "Lift Height (mm)"
+msgstr "抬升高度（毫米）"
+
+#: __init__.py:528
+msgid "Lift Speed (mm/min)"
+msgstr "抬升速度（毫米/分）"
+
+#: __init__.py:522
+msgid "Light-off Delay (s)"
+msgstr "熄灯延迟（秒）"
+
+#: __init__.py:574
+#: __init__.py:577
+msgid "MiniSlicer"
+msgstr "MiniSlicer"
+
+#: __init__.py:538
+msgid "Mirror Image in X"
+msgstr "沿 X 轴镜像图像"
+
+#: __init__.py:594
+#: __init__.py:658
+msgid "No model prepared"
+msgstr "未准备模型"
+
+#: __init__.py:500
+msgid "Phrozen printer model (resolution, plate and file format)"
+msgstr "Phrozen 打印机型号（分辨率、平台和文件格式）"
+
+#: __init__.py:643
+msgid "Pixel: %d × %d µm"
+msgstr "像素：%d × %d µm"
+
+#: __init__.py:500
+msgid "Printer"
+msgstr "打印机"
+
+#: __init__.py:538
+msgid "Required on Phrozen LCD printers (lcd_mirror)"
+msgstr "Phrozen LCD 打印机需启用（lcd_mirror）"
+
+#: __init__.py:535
+msgid "Retract Speed"
+msgstr "回退速度"
+
+#: __init__.py:548
+msgid "Scale (%)"
+msgstr "缩放（%）"
+
+#: __init__.py:543
+msgid "Scene units (m → mm)"
+msgstr "场景单位（米 → 毫米）"
+
+#: __init__.py:506
+msgid "Show Build Volume"
+msgstr "显示构建体积"
+
+#: __init__.py:545
+msgid "Treats each Blender unit as one millimeter"
+msgstr "将每个 Blender 单位视为一毫米"
+
+#: __init__.py:541
+msgid "Units"
+msgstr "单位"
+
+#: __init__.py:543
+msgid "Uses Blender units: 1 m = 1000 mm"
+msgstr "使用 Blender 单位：1 米 = 1000 毫米"
+
+#: __init__.py:634
+msgctxt "Operator"
+msgid "Export .%s"
+msgstr "导出 .%s"
+
+#: __init__.py:418
+msgctxt "Operator"
+msgid "Export for Printer"
+msgstr "导出打印机文件"
+
+#: __init__.py:359
+msgctxt "Operator"
+msgid "Load / Refresh Model"
+msgstr "加载/刷新模型"
+
+#: __init__.py:405
+msgctxt "Operator"
+msgid "Moves the layer viewer one layer"
+msgstr "将层查看器移动一层"
+
+#: __init__.py:384
+msgctxt "Operator"
+msgid "Open Layer Viewer"
+msgstr "打开层查看器"
+
+#: __init__.py:385
+msgctxt "Operator"
+msgid "Opens a window with the image of the selected layer"
+msgstr "打开显示所选层图像的窗口"
+
+#: __init__.py:419
+msgctxt "Operator"
+msgid "Slices the active object and saves the printer file"
+msgstr "切片活动物体并保存打印机文件"
+
+#: __init__.py:404
+msgctxt "Operator"
+msgid "Step Layer"
+msgstr "步进层"
+
+#: __init__.py:360
+msgctxt "Operator"
+msgid "Takes the active object (with modifiers applied) and prepares it for slicing"
+msgstr "获取活动物体（应用修改器后）并准备切片"

@@ -1,0 +1,855 @@
+# perfect-chinese: 1
+# id: keyboard_layout_emulation
+# kind: addon
+# module: bl_ext.blender_org.keyboard_layout_emulation
+# name: Keyboard Layout Emulation
+# name_zh: 键盘布局模拟
+# translator: KeshiMiao
+# category: User Interface
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: keyboard_layout.py:409
+msgid "AZERTY"
+msgstr "AZERTY"
+
+#: operators.py:582
+msgid "Add"
+msgstr "添加"
+
+#: preferences.py:699
+msgid "Alert button style"
+msgstr "警告按钮样式"
+
+#: ui.py:337
+msgid "Allow conflicts"
+msgstr "允许冲突"
+
+#: preferences.py:707
+msgid "Allow key conflicts in input layout"
+msgstr "允许输入布局中的按键冲突"
+
+#: preferences.py:707
+msgid "Allow key conflicts in the input layout.\n\nIf enabled, key conflicts in the input layout will be allowed, since we record from which key was originally remapped every shortcut.\nSome keyboard layouts may be impossible to express in Blender without key conflicts due to the limited character range supported by Blender's keymap system."
+msgstr "允许输入布局中的按键冲突。\n\n如果启用，将允许输入布局中的按键冲突，因为我们会记录每个快捷键最初是从哪个按键重新映射的。\n由于 Blender 的键位映射系统支持的字符范围有限，某些键盘布局可能无法在不产生按键冲突的情况下在 Blender 中表达。"
+
+#: preferences.py:621
+msgid "Allow non-QWERTY target layouts"
+msgstr "允许非 QWERTY 目标布局"
+
+#: operators.py:572
+msgid "Automatically apply/revert emulation to match imported settings."
+msgstr "自动应用/还原模拟以匹配导入的设置。"
+
+#: preferences.py:700
+msgid "Blue"
+msgstr "蓝色"
+
+#: preferences.py:485
+msgid "By default, keyboard layout emulation is automatically reverted whenever you disable/uninstall the Keyboard Layout Emulation extension.\n\nOnly uncheck this option if you want to uninstall the extension while keeping the remapped keymaps as they are"
+msgstr "默认情况下，当你禁用/卸载键盘布局模拟扩展时，键盘布局模拟会自动还原。\n\n仅当你希望在卸载扩展时保留重新映射后的键位映射时，才取消勾选此选项。"
+
+#: operators.py:193
+#: operators.py:204
+msgid "Cannot delete built-in layout"
+msgstr "无法删除内置布局"
+
+#: operators.py:207
+msgid "Cannot delete layout while applied to keymaps. Revert first."
+msgstr "布局已应用于键位映射时无法删除。请先还原。"
+
+#: operators.py:682
+msgid "Cannot edit built-in layout."
+msgstr "无法编辑内置布局。"
+
+#: operators.py:685
+msgid "Cannot modify layout while applied to keymaps. Revert first."
+msgstr "布局已应用于键位映射时无法修改。请先还原。"
+
+#: operators.py:420
+msgid "Cannot modify layout while emulation is active. Revert emulation first."
+msgstr "模拟已启用时无法修改布局。请先还原模拟。"
+
+#: operators.py:257
+msgid "Cannot rename built-in layout"
+msgstr "无法重命名内置布局"
+
+#: operators.py:260
+msgid "Cannot rename layout while applied to keymaps. Revert first."
+msgstr "布局已应用于键位映射时无法重命名。请先还原。"
+
+#: operators.py:151
+msgid "Cannot use built-in layout name"
+msgstr "无法使用内置布局名称"
+
+#: keyboard_layout.py:407
+msgid "Colemak"
+msgstr "Colemak"
+
+#: keyboard_layout.py:407
+msgid "Colemak keyboard layout"
+msgstr "Colemak 键盘布局"
+
+#: preferences.py:1049
+msgid "Custom Layouts"
+msgstr "自定义布局"
+
+#: preferences.py:747
+msgid "Custom Layouts (JSON)"
+msgstr "自定义布局 (JSON)"
+
+#: preferences.py:726
+msgid "Debug"
+msgstr "调试"
+
+#: preferences.py:998
+msgid "Debug add-on preferences"
+msgstr "调试插件偏好设置"
+
+#: ui.py:202
+#: ui.py:207
+msgid "Delay"
+msgstr "延迟"
+
+#: preferences.py:638
+msgid "Delay for emulation reapply on preferences update"
+msgstr "偏好设置更新时重新应用模拟的延迟"
+
+#: preferences.py:655
+msgid "Delay for emulation reapply on restart"
+msgstr "重新启动时重新应用模拟的延迟"
+
+#: preferences.py:700
+msgid "Depressed button style"
+msgstr "按下按钮样式"
+
+#: ui.py:210
+msgid "Detect add-on installation"
+msgstr "检测插件安装"
+
+#: preferences.py:666
+msgid "Detect changes to installed add-ons and automatically reapply emulation.\nThis ensures that the keyboard shortcuts of newly installed add-ons are immediately remapped.\n\nChanges are detected by polling the set of active add-ons on a timer, but only while the 'Preferences > Add-ons' or the 'Preferences > Get Extensions' panels are updated, so this setting should not negatively affect performance"
+msgstr "检测已安装插件的变化并自动重新应用模拟。\n这可确保新安装插件的快捷键会立即重新映射。\n\n变化通过定时轮询已启用插件集合来检测，但仅在“偏好设置 > 插件”或“偏好设置 > 获取扩展”面板更新时进行，因此此设置不应负面影响性能"
+
+#: preferences.py:666
+msgid "Detect changes to installed add-ons to reapply emulation"
+msgstr "检测已安装插件的变化以重新应用模拟"
+
+#: preferences.py:686
+msgid "Display warning banner"
+msgstr "显示警告横幅"
+
+#: operators.py:579
+msgid "Do not import custom layouts from file"
+msgstr "不从文件导入自定义布局"
+
+#: keyboard_layout.py:406
+msgid "Dvorak"
+msgstr "Dvorak"
+
+#: preferences.py:475
+msgid "Edit Keyboard Layout"
+msgstr "编辑键盘布局"
+
+#: preferences.py:740
+msgid "Emulation active"
+msgstr "模拟已启用"
+
+#: preferences.py:723
+msgid "Error"
+msgstr "错误"
+
+#: operators.py:544
+msgid "Export filters"
+msgstr "导出过滤器"
+
+#: operators.py:308
+msgid "Exported Layout"
+msgstr "导出的布局"
+
+#: operators.py:314
+#: operators.py:383
+msgid "File Path"
+msgstr "文件路径"
+
+#: keyboard_layout.py:409
+msgid "French AZERTY keyboard layout.\nDoes not remap `'`, `[`, `]` and `.` due to Blender's inability to represent internally accents/dollar/colon keys."
+msgstr "法语 AZERTY 键盘布局。\n由于 Blender 无法在内部表示重音符号/美元符号/冒号键，因此不会重新映射 `'`、`[`、`]` 和 `.`。"
+
+#: keyboard_layout.py:410
+msgid "German QWERTZ keyboard layout.\nDoes not remap any keys with accentuated characters due to Blender's inability to represent them internally."
+msgstr "德语 QWERTZ 键盘布局。\n由于 Blender 无法在内部表示这些字符，因此不会重新映射任何带重音符号的按键。"
+
+#: preferences.py:979
+msgid "Go to 'Preferences > Keymap'"
+msgstr "转到“偏好设置 > 键位映射”"
+
+#: preferences.py:701
+msgid "Gray"
+msgstr "灰色"
+
+#: preferences.py:692
+msgid "Height of large warning button"
+msgstr "大型警告按钮的高度"
+
+#: preferences.py:692
+msgid "Height of the large warning button displayed above the keymaps preferences prompting to revert emulation"
+msgstr "显示在键位映射偏好设置上方、提示还原模拟的大型警告按钮的高度"
+
+#: preferences.py:686
+msgid "Hide the warning banner prompting to revert emulation before editing keymaps"
+msgstr "隐藏编辑键位映射前提示还原模拟的警告横幅"
+
+#: operators.py:577
+msgid "How should custom layouts be imported from the imported preferences"
+msgstr "应如何从导入的偏好设置中导入自定义布局"
+
+#: operators.py:630
+msgid "Import custom layouts"
+msgstr "导入自定义布局"
+
+#: operators.py:572
+msgid "Import emulation status"
+msgstr "导入模拟状态"
+
+#: operators.py:582
+msgid "Import only custom layouts with names not already defined"
+msgstr "仅导入名称尚未定义的自定义布局"
+
+#: operators.py:462
+#: operators.py:626
+msgid "Import options"
+msgstr "导入选项"
+
+#: operators.py:588
+msgid "Import preferences locked by emulation"
+msgstr "导入被模拟锁定的偏好设置"
+
+#: operators.py:594
+msgid "Import remapped keymaps"
+msgstr "导入重新映射的键位映射"
+
+#: operators.py:514
+msgid "Include all custom layouts defined in the 'Preferences > Keymap' panel"
+msgstr "包含“偏好设置 > 键位映射”面板中定义的所有自定义布局"
+
+#: operators.py:514
+msgid "Include custom layouts"
+msgstr "包含自定义布局"
+
+#: operators.py:519
+msgid "Include remapped keymaps"
+msgstr "包含重新映射的键位映射"
+
+#: preferences.py:725
+msgid "Info"
+msgstr "信息"
+
+#: preferences.py:533
+msgid "Input Keyboard Layout"
+msgstr "输入键盘布局"
+
+#: ui.py:212
+msgid "Interval"
+msgstr "间隔"
+
+#: operators.py:440
+msgid "Invalid mapping values; must be strings"
+msgstr "映射值无效；必须是字符串"
+
+#: operators.py:763
+msgid "Invalid preferences property specified."
+msgstr "指定的偏好设置属性无效。"
+
+#: operators.py:433
+msgid "JSON must be an object of {physical: mapped}"
+msgstr "JSON 必须是 {physical: mapped} 形式的对象"
+
+#: preferences.py:845
+msgid "Journal of remapped keymap items per keyconfig (JSON) (do not edit!)"
+msgstr "每个键位配置的重映射键位表项日志（JSON）（请勿编辑！）"
+
+#: operators.py:790
+msgid "Key"
+msgstr "按键"
+
+#: preferences.py:480
+#: ui.py:171
+msgid "Keyboard layout emulation preferences"
+msgstr "键盘布局模拟偏好设置"
+
+#: preferences.py:697
+msgid "Large warning button style"
+msgstr "大号警告按钮样式"
+
+#: preferences.py:591
+msgid "Last input keyboard layout selected by the user, either built-in or custom."
+msgstr "用户上次选择的输入键盘布局，内置或自定义。"
+
+#: preferences.py:606
+msgid "Last target keyboard layout selected by the user, either built-in or custom."
+msgstr "用户上次选择的目标键盘布局，内置或自定义。"
+
+#: operators.py:177
+#: operators.py:233
+msgid "Layout"
+msgstr "布局"
+
+#: operators.py:376
+msgid "Layout Name"
+msgstr "布局名称"
+
+#: operators.py:148
+msgid "Layout name is empty"
+msgstr "布局名称为空"
+
+#: operators.py:177
+#: operators.py:233
+msgid "Layout to delete"
+msgstr "要删除的布局"
+
+#: operators.py:660
+msgid "Layout to edit"
+msgstr "要编辑的布局"
+
+#: operators.py:308
+msgid "Layout to export"
+msgstr "要导出的布局"
+
+#: operators.py:127
+msgid "Layout to use as template"
+msgstr "用作模板的布局"
+
+#: operators.py:154
+msgid "Layout with that name already exists"
+msgstr "该名称的布局已存在"
+
+#: operators.py:577
+msgid "Layouts"
+msgstr "布局"
+
+#: preferences.py:527
+msgid "Listening Key"
+msgstr "监听按键"
+
+#: preferences.py:715
+msgid "Log errors, warning or debug information to the Blender's System Console"
+msgstr "将错误、警告或调试信息记录到 Blender 的系统控制台"
+
+#: preferences.py:725
+msgid "Log errors, warnings and info messages"
+msgstr "记录错误、警告和信息消息"
+
+#: preferences.py:726
+msgid "Log everything, including debug messages"
+msgstr "记录所有内容，包括调试消息"
+
+#: preferences.py:715
+msgid "Log messages"
+msgstr "记录消息"
+
+#: preferences.py:723
+msgid "Log only errors"
+msgstr "仅记录错误"
+
+#: preferences.py:724
+msgid "Log only errors and warnings"
+msgstr "仅记录错误和警告"
+
+#: ui.py:194
+msgid "Logging"
+msgstr "日志"
+
+#: preferences.py:721
+msgid "Logging level"
+msgstr "日志级别"
+
+#: preferences.py:721
+msgid "Logging level of messages displayed in the Blender's System Console"
+msgstr "在 Blender 系统控制台中显示的消息的日志级别"
+
+#: preferences.py:621
+msgid "Most users will never need to use a non-QWERTY target layout.\n\nChanging the target keyboard layout is disabled by default to make the UI easier to understand for new users"
+msgstr "大多数用户永远不需要使用非 QWERTY 目标布局。\n\n为了让新用户更容易理解界面，默认禁用更改目标键盘布局"
+
+#: operators.py:133
+#: operators.py:239
+msgid "Name"
+msgstr "名称"
+
+#: operators.py:376
+msgid "Name of the layout to import (will replace any existing layout with the same name)"
+msgstr "要导入的布局名称（将替换任何同名的现有布局）"
+
+#: operators.py:133
+msgid "Name of the new layout"
+msgstr "新布局的名称"
+
+#: operators.py:239
+msgid "New name for the layout"
+msgstr "布局的新名称"
+
+#: operators.py:264
+msgid "New name is empty"
+msgstr "新名称为空"
+
+#: operators.py:579
+msgid "No"
+msgstr "否"
+
+#: operators.py:347
+#: operators.py:409
+msgid "No file path provided"
+msgstr "未提供文件路径"
+
+#: operators.py:201
+#: operators.py:254
+msgid "No layout selected"
+msgstr "未选择布局"
+
+#: operators.py:679
+msgid "No physical key or layout specified."
+msgstr "未指定物理按键或布局。"
+
+#: operators.py:768
+msgid "No subkey specified."
+msgstr "未指定子键。"
+
+#: preferences.py:701
+msgid "Normal button style"
+msgstr "普通按钮样式"
+
+#: operators.py:588
+msgid "ONLY FOR DEBUG. Import preferences that are usually locked while emulation is active even when emulation is active."
+msgstr "仅用于调试。即使在模拟启用时，也导入通常在模拟启用期间锁定的偏好设置。"
+
+#: operators.py:594
+msgid "ONLY FOR DEBUG. Import the journal of remapped keymaps."
+msgstr "仅用于调试。导入重映射键位映射的日志。"
+
+#: operators.py:519
+msgid "ONLY FOR DEBUG. Include the journal of remapped keymaps."
+msgstr "仅用于调试。包含重映射键位映射的日志。"
+
+#: operators.py:550
+#: operators.py:636
+msgid "Options for debug only"
+msgstr "仅用于调试的选项"
+
+#: operators.py:502
+msgid "Path to export the add-on preferences JSON"
+msgstr "导出插件偏好设置 JSON 的路径"
+
+#: operators.py:314
+msgid "Path to export the layout JSON"
+msgstr "导出布局 JSON 的路径"
+
+#: operators.py:560
+msgid "Path to import the add-on preferences JSON from"
+msgstr "导入插件偏好设置 JSON 的路径"
+
+#: operators.py:383
+msgid "Path to import the layout JSON from"
+msgstr "导入布局 JSON 的路径"
+
+#: operators.py:659
+msgid "Physical Key"
+msgstr "物理按键"
+
+#: preferences.py:676
+msgid "Polling interval for detecting changes to installed add-ons"
+msgstr "检测已安装插件变更的轮询间隔"
+
+#: preferences.py:676
+msgid "Polling interval used to detect installed add-ons.\n\nRegardless of this setting, polling only occurs while the 'Preferences > Add-ons' or the 'Preferences > Get Extensions' panels are being updated.\nSet to 0 to poll on every draw call of the panel."
+msgstr "用于检测已安装插件的轮询间隔。\n\n无论此设置如何，仅在「偏好设置 > 插件」或「偏好设置 > 获取扩展」面板更新时才会轮询。\n设为 0 可在面板每次绘制时轮询。"
+
+#: preferences.py:1023
+msgid "Preferences"
+msgstr "偏好设置"
+
+#: operators.py:751
+msgid "Preferences Property"
+msgstr "偏好设置属性"
+
+#: preferences.py:591
+msgid "Preferred input keyboard layout"
+msgstr "首选输入键盘布局"
+
+#: preferences.py:606
+msgid "Preferred target keyboard layout"
+msgstr "首选目标键盘布局"
+
+#: operators.py:751
+msgid "Property to edit within the preferences"
+msgstr "要在偏好设置中编辑的属性"
+
+#: keyboard_layout.py:404
+msgid "QWERTY"
+msgstr "QWERTY"
+
+#: keyboard_layout.py:410
+msgid "QWERTZ"
+msgstr "QWERTZ"
+
+#: preferences.py:630
+msgid "Reapply automatically from preferences"
+msgstr "从偏好设置自动重新应用"
+
+#: ui.py:200
+msgid "Reapply automatically here"
+msgstr "在此处自动重新应用"
+
+#: preferences.py:630
+msgid "Reapply emulation automatically anytime pending keymaps are detected when the 'Preferences > Keymap' panel is updated.\n\nThis can be disruptive if you plan to edit the keymap while emulation is active, but it can help automatically fix some glitchy keyboard shortcuts that Blender tends to reset while you edit others (e.g., `node.duplicate_move`)"
+msgstr "当「偏好设置 > 键位映射」面板更新后检测到待处理的键位映射时，自动重新应用模拟。\n\n如果你计划在模拟启用期间编辑键位映射，这可能会造成干扰，但它有助于自动修复 Blender 在你编辑其他快捷键时倾向重置的一些异常快捷键（例如 `node.duplicate_move`）"
+
+#: preferences.py:646
+msgid "Reapply emulation on reload/restart"
+msgstr "重新加载/重启时重新应用模拟"
+
+#: ui.py:205
+msgid "Reapply emulation on restart"
+msgstr "重启时重新应用模拟"
+
+#: preferences.py:646
+msgid "Reapply emulation whenever Blender is restarted and after a new file is loaded.\nThis ensures that other add-on's keyboard shortcuts are reliably remapped.\n\nRemapped shortcuts are tracked to avoid remapping the same shortcut twice"
+msgstr "每当 Blender 重启以及加载新文件后重新应用模拟。\n这能确保其他插件的键盘快捷键也能可靠地重新映射。\n\n已重新映射的快捷键会被跟踪，以避免对同一快捷键重复映射"
+
+#: preferences.py:699
+msgid "Red"
+msgstr "红色"
+
+#: preferences.py:1087
+msgid "Remapped keymaps"
+msgstr "已重新映射的键位映射"
+
+#: operators.py:713
+msgid "Remapping cancelled"
+msgstr "已取消重新映射"
+
+#: operators.py:581
+msgid "Replace"
+msgstr "替换"
+
+#: operators.py:581
+msgid "Replace custom layouts with layouts from file, erasing any currently defined layouts"
+msgstr "用文件中的布局替换自定义布局，并清除当前已定义的所有布局"
+
+#: operators.py:76
+msgid "Request confirmation"
+msgstr "请求确认"
+
+#: preferences.py:485
+msgid "Revert keyboard layout emulation when disabling/uninstalling this extension."
+msgstr "禁用/卸载此扩展时还原键盘布局模拟。"
+
+#: preferences.py:747
+msgid "Serialized keyboard layout mappings (name -> us_qwerty_key -> layout_key)"
+msgstr "序列化的键盘布局映射（name -> us_qwerty_key -> layout_key）"
+
+#: preferences.py:845
+msgid "Serialized table of remapped items per keyconfig (keyconfig_name -> keymap -> operator -> keymap_item + remap_info)"
+msgstr "按键位配置序列化的重新映射项表格（keyconfig_name -> keymap -> operator -> keymap_item + remap_info）"
+
+#: preferences.py:497
+msgid "Show Add-on Preferences Debug"
+msgstr "显示插件偏好设置调试信息"
+
+#: preferences.py:502
+msgid "Show Custom Layouts Debug"
+msgstr "显示自定义布局调试信息"
+
+#: preferences.py:507
+msgid "Show Preferences Debug"
+msgstr "显示偏好设置调试信息"
+
+#: preferences.py:517
+msgid "Show Remapped Keymaps Debug"
+msgstr "显示已重新映射键位映射调试信息"
+
+#: preferences.py:491
+msgid "Show Uninstall options"
+msgstr "显示卸载选项"
+
+#: operators.py:76
+msgid "Show a confirmation dialog before reverting layout emulation"
+msgstr "还原布局模拟前显示确认对话框"
+
+#: preferences.py:491
+#: preferences.py:497
+msgid "Show content"
+msgstr "显示内容"
+
+#: preferences.py:475
+msgid "Show the keyboard layout editor.\n\nA red button indicates that the selected layout contains conflicts."
+msgstr "显示键盘布局编辑器。\n\n红色按钮表示所选布局存在冲突。"
+
+#: preferences.py:480
+msgid "Show the preferences panel"
+msgstr "显示偏好设置面板"
+
+#: ui.py:190
+msgid "Size"
+msgstr "大小"
+
+#: keyboard_layout.py:406
+msgid "Standard US-Dvorak keyboard layout.\nThe `'` key is represented as `\"` due to Blender's inability to represent it distinctly."
+msgstr "标准美式 Dvorak 键盘布局。\n由于 Blender 无法单独表示 `'` 键，因此以 `\"` 表示。"
+
+#: keyboard_layout.py:404
+msgid "Standard US-QWERTY keyboard layout"
+msgstr "标准美式 QWERTY 键盘布局"
+
+#: preferences.py:697
+msgid "Style of the large warning button displayed above the keymaps preferences prompting to revert emulation"
+msgstr "显示在键位映射偏好设置上方、提示还原模拟的大型警告按钮样式"
+
+#: operators.py:746
+msgid "Subkey"
+msgstr "子键"
+
+#: operators.py:746
+msgid "Subkey to toggle"
+msgstr "要切换的子键"
+
+#: preferences.py:512
+msgid "Subkeys expanded in the debug display of custom layouts"
+msgstr "在自定义布局调试显示中展开的子键"
+
+#: preferences.py:512
+msgid "Subkeys expanded in the debug display of custom layouts, newline separated"
+msgstr "在自定义布局调试显示中展开的子键，以换行分隔"
+
+#: preferences.py:522
+msgid "Subkeys expanded in the debug display of remapped keymaps"
+msgstr "在已重新映射键位映射调试显示中展开的子键"
+
+#: preferences.py:522
+msgid "Subkeys expanded in the debug display of remapped keymaps, newline separated"
+msgstr "在已重新映射键位映射调试显示中展开的子键，以换行分隔"
+
+#: preferences.py:545
+msgid "Target Keyboard Layout"
+msgstr "目标键盘布局"
+
+#: preferences.py:545
+msgid "Target Keyboard Layout.\nMost users will only ever need to set this to QWERTY.\n\nOnly specify a different value if you want to adapt your input keyboard layout to a keymap preset that was designed for a distinct, non-QWERTY, keyboard layout.\n\nBy default, editing the target layout is restricted to make the UI easier to understand for new users. Open the preferences (top right corner) if you really need a non-QWERTY target keyboad layout"
+msgstr "目标键盘布局。\n大多数用户只需将其设为 QWERTY。\n\n仅当你希望将输入键盘布局适配到为其他非 QWERTY 键盘布局设计的键位映射预设时，才需要指定不同的值。\n\n默认情况下，目标布局的编辑受到限制，以便新手更容易理解界面。如果你确实需要非 QWERTY 的目标键盘布局，请打开偏好设置（右上角）"
+
+#: operators.py:127
+msgid "Template"
+msgstr "模板"
+
+#: preferences.py:655
+msgid "Time to wait to reapply emulation a second time after restart (it is always applied immediately at least once).\nThis setting exists to ensure that keyboard shortcuts registered later by add-ons are also reliably remapped.\nIndividual shortcuts are tracked to avoid remapping the same shortcut twice.\nSet to 0 to only reapply once"
+msgstr "重启后等待再次重新应用模拟的时间（始终会立即应用至少一次）。\n此设置用于确保插件稍后注册的键盘快捷键也能可靠地重新映射。\n会跟踪各个快捷键，以避免对同一快捷键重复映射。\n设为 0 则仅重新应用一次"
+
+#: preferences.py:638
+msgid "Time to wait to reapply emulation from the moment pending keymaps are detected when the 'Preferences > Keymap' panel is updated"
+msgstr "从「偏好设置 > 键位映射」面板更新后检测到待处理键位映射的时刻起，等待重新应用模拟的时间"
+
+#: preferences.py:1163
+msgid "Uninstall options"
+msgstr "卸载选项"
+
+#: preferences.py:1179
+msgid "Uninstall options are not saved. They will reset the next time you restart Blender."
+msgstr "卸载选项不会被保存。下次重启 Blender 时将重置。"
+
+#: operators.py:580
+msgid "Update"
+msgstr "更新"
+
+#: operators.py:580
+msgid "Update custom layouts from file, without deleting any layouts currently defined with other names"
+msgstr "从文件更新自定义布局，不删除当前以其他名称定义的所有布局"
+
+#: preferences.py:724
+msgid "Warn"
+msgstr "警告"
+
+#: ui.py:186
+msgid "Warning button"
+msgstr "警告按钮"
+
+#: preferences.py:740
+msgid "Whether the user has enabled keyboard layout emulation, and keys should be remapped when possible. Editing the keyboard layout is also disabled while emulation is active"
+msgstr "用户是否已启用键盘布局模拟，以及是否应尽可能重新映射按键。模拟启用时键盘布局的编辑也会被禁用"
+
+#: preferences.py:527
+msgid "Which key button is currently waiting for input in the keyboard layout editor, if any"
+msgstr "键盘布局编辑器中当前等待输入的按键按钮（如果有）"
+
+#: operators.py:26
+msgctxt "Operator"
+msgid "Apply Layout Emulation"
+msgstr "应用布局模拟"
+
+#: operators.py:656
+msgctxt "Operator"
+msgid "Assign Key Mapping"
+msgstr "指定按键映射"
+
+#: operators.py:787
+#: operators.py:788
+msgctxt "Operator"
+msgid "Cannot remap this key"
+msgstr "无法重新映射此按键"
+
+#: operators.py:798
+msgctxt "Operator"
+msgid "Choose an input keyboard layout to emulate"
+msgstr "选择要模拟的输入键盘布局"
+
+#: operators.py:125
+msgctxt "Operator"
+msgid "Define a new keyboard layout"
+msgstr "定义新的键盘布局"
+
+#: operators.py:171
+msgctxt "Operator"
+msgid "Delete Keyboard Layout"
+msgstr "删除键盘布局"
+
+#: operators.py:657
+msgctxt "Operator"
+msgid "Edit key assignment for this emulated layout"
+msgstr "编辑此模拟布局的按键分配"
+
+#: operators.py:744
+msgctxt "Operator"
+msgid "Expand item"
+msgstr "展开项"
+
+#: operators.py:305
+msgctxt "Operator"
+msgid "Export JSON"
+msgstr "导出 JSON"
+
+#: operators.py:498
+msgctxt "Operator"
+msgid "Export KLE Add-on Preferences"
+msgstr "导出 KLE 插件偏好设置"
+
+#: preferences.py:1073
+#: ui.py:251
+msgctxt "Operator"
+msgid "Export layout..."
+msgstr "导出布局..."
+
+#: operators.py:499
+msgctxt "Operator"
+msgid "Export the add-on preferences to a JSON file"
+msgstr "将插件偏好设置导出到 JSON 文件"
+
+#: operators.py:306
+msgctxt "Operator"
+msgid "Export the current layout mapping to a JSON file"
+msgstr "将当前布局映射导出到 JSON 文件"
+
+#: preferences.py:1011
+msgctxt "Operator"
+msgid "Export..."
+msgstr "导出..."
+
+#: ui.py:175
+msgctxt "Operator"
+msgid "Help"
+msgstr "帮助"
+
+#: operators.py:373
+msgctxt "Operator"
+msgid "Import JSON"
+msgstr "导入 JSON"
+
+#: operators.py:556
+msgctxt "Operator"
+msgid "Import KLE Add-on Preferences"
+msgstr "导入 KLE 插件偏好设置"
+
+#: operators.py:374
+msgctxt "Operator"
+msgid "Import a layout mapping from a JSON file.\n\nBy default, it will overwrite this layout"
+msgstr "从 JSON 文件导入布局映射。\n\n默认情况下，将覆盖此布局"
+
+#: operators.py:557
+msgctxt "Operator"
+msgid "Import add-on preferences from a JSON file"
+msgstr "从 JSON 文件导入插件偏好设置"
+
+#: preferences.py:1070
+#: ui.py:247
+msgctxt "Operator"
+msgid "Import layout..."
+msgstr "导入布局…"
+
+#: preferences.py:1006
+msgctxt "Operator"
+msgid "Import..."
+msgstr "导入…"
+
+#: operators.py:825
+msgctxt "Operator"
+msgid "Keyboard Layout Emulation"
+msgstr "键盘布局模拟"
+
+#: ui.py:345
+msgctxt "Operator"
+msgid "Keyboard layout emulation is active. Consider reverting it before editing keymaps."
+msgstr "键盘布局模拟已启用。建议在编辑键位映射前先还原。"
+
+#: operators.py:814
+msgctxt "Operator"
+msgid "Keyboard layout emulation persistently modifies your keymap.\nYou must revert the active emulation before changing/editing which keyboard layout to emulate"
+msgstr "键盘布局模拟会持续修改你的键位映射。\n在更改/编辑要模拟的键盘布局之前，必须先还原当前启用的模拟"
+
+#: preferences.py:981
+#: ui.py:174
+msgctxt "Operator"
+msgid "More info"
+msgstr "更多信息"
+
+#: operators.py:124
+msgctxt "Operator"
+msgid "New Keyboard Layout"
+msgstr "新建键盘布局"
+
+#: operators.py:172
+msgctxt "Operator"
+msgid "Remove the currently selected input keyboard layout.\nYou can only remove user-defined keyboard layouts"
+msgstr "移除当前选中的输入键盘布局。\n只能移除用户自定义的键盘布局"
+
+#: operators.py:230
+msgctxt "Operator"
+msgid "Rename Keyboard Layout"
+msgstr "重命名键盘布局"
+
+#: operators.py:231
+msgctxt "Operator"
+msgid "Rename this keyboard layout."
+msgstr "重命名此键盘布局。"
+
+#: ui.py:156
+msgctxt "Operator"
+msgid "Revert"
+msgstr "还原"
+
+#: operators.py:74
+msgctxt "Operator"
+msgid "Revert Layout Emulation"
+msgstr "还原布局模拟"
+
+#: operators.py:813
+msgctxt "Operator"
+msgid "Revert the active emulation to change layout"
+msgstr "还原当前启用的模拟以更改布局"
+
+#: operators.py:743
+msgctxt "Operator"
+msgid "Show Content"
+msgstr "显示内容"

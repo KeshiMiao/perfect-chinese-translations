@@ -1,0 +1,908 @@
+# perfect-chinese: 1
+# id: tree_wind_paint
+# kind: addon
+# module: bl_ext.blender_org.tree_wind_paint
+# name: Tree Wind Paint
+# name_zh: 树木风动绘制
+# translator: KeshiMiao
+# category: Paint
+# supported_versions: >=4.5.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: props.py:205
+msgid "1 is linear, higher keeps the gradient low until near its end"
+msgstr "1 为线性；数值越高，渐变在接近末端前保持越低"
+
+#: ops_channel.py:26
+#: ops_uv.py:267
+msgid "A"
+msgstr "A"
+
+#: props.py:224
+msgid "A circle on the screen: everything inside it as seen"
+msgstr "屏幕上的圆形：其中可见的所有内容"
+
+#: props.py:225
+msgid "A sphere in 3D around the point on the surface where the drag starts"
+msgstr "以表面上开始拖动处点为中心的 3D 球体"
+
+#: props.py:134
+msgid "AO Range"
+msgstr "AO 范围"
+
+#: props.py:142
+msgid "AO on Leaves"
+msgstr "叶片上的 AO"
+
+#: ops_uv.py:273
+#: props.py:217
+msgid "Add"
+msgstr "添加"
+
+#: preferences.py:68
+msgid "Alembic and USD export as rendered: turn off Wind on this tree for them"
+msgstr "Alembic 和 USD 按渲染结果导出：为它们关闭此树的风"
+
+#: props.py:118
+msgid "All Faces"
+msgstr "所有面"
+
+#: ops_gradient.py:207
+msgid "Along a line, inside a cylinder around it"
+msgstr "沿一条线，位于其周围的圆柱内"
+
+#: ops_uv.py:260
+msgid "Along the line"
+msgstr "沿线"
+
+#: props.py:48
+msgid "Alpha 1: no shading on leaves"
+msgstr "Alpha 1：叶片无明暗"
+
+#: ops_channel.py:26
+msgid "Alpha: ambient occlusion"
+msgstr "Alpha：环境光遮蔽"
+
+#: ops_uv.py:267
+msgid "Ambient occlusion"
+msgstr "环境光遮蔽"
+
+#: props.py:203
+msgid "Ambient occlusion: every copy of a card gets the same value"
+msgstr "环境光遮蔽：每张卡片的所有副本获得相同值"
+
+#: ui.py:234
+msgid "At rest when stopped: safe to export"
+msgstr "停止时保持静止：可安全导出"
+
+#: ui.py:102
+msgid "Attribute:"
+msgstr "属性："
+
+#: props.py:35
+msgid "Auto"
+msgstr "自动"
+
+#: ops_channel.py:25
+#: ops_uv.py:266
+msgid "B"
+msgstr "B"
+
+#: props.py:47
+msgid "Baked AO"
+msgstr "烘焙 AO"
+
+#: props.py:39
+msgid "Bare Branches"
+msgstr "无叶枝"
+
+#: props.py:38
+msgid "Bark"
+msgstr "树皮"
+
+#: props.py:166
+msgid "Bend Curve"
+msgstr "弯曲曲线"
+
+#: ops_uv.py:271
+#: props.py:214
+msgid "Blend"
+msgstr "混合"
+
+#: ops_channel.py:25
+msgid "Blue: branch bend"
+msgstr "蓝色：枝条弯曲"
+
+#: ops_uv.py:266
+#: props.py:202
+msgid "Branch bend"
+msgstr "枝条弯曲"
+
+#: props.py:170
+msgid "Branches with no leaves on them or on anything they carry get no blue gradient: they keep the blue of the point they grow from (0 on the trunk)"
+msgstr "其上或其承载的任何东西上都没有叶子的枝条不会获得蓝色渐变：它们保持生长点处的蓝色（树干上为 0）"
+
+#: props.py:227
+msgid "Brush Radius"
+msgstr "笔刷半径"
+
+#: props.py:155
+msgid "Brush Value"
+msgstr "笔刷值"
+
+#: props.py:35
+msgid "By the name (leaf, needle... are leaves; dead, dry... are bare branches; bark, trunk, branch... are bark), otherwise by shape: small loose islands are leaves"
+msgstr "按名称判断（leaf、needle…… 为叶片；dead、dry…… 为无叶枝；bark、trunk、branch…… 为树皮），否则按形状：小而松散的孤岛视为叶片"
+
+#: props.py:116
+msgid "Card Under Cursor"
+msgstr "光标下的卡片"
+
+#: ops_channel.py:54
+#: ops_channel.py:257
+msgid "Channel"
+msgstr "通道"
+
+#: ui.py:116
+msgid "Channel view: Object Mode only"
+msgstr "通道视图：仅物体模式"
+
+#: props.py:224
+msgid "Circle"
+msgstr "圆形"
+
+#: props.py:233
+msgid "Color Preview"
+msgstr "颜色预览"
+
+#: props.py:196
+msgid "Copy the alpha channel"
+msgstr "复制 Alpha 通道"
+
+#: props.py:195
+msgid "Copy the blue channel"
+msgstr "复制蓝色通道"
+
+#: props.py:194
+msgid "Copy the green channel"
+msgstr "复制绿色通道"
+
+#: props.py:193
+msgid "Copy the red channel"
+msgstr "复制红色通道"
+
+#: ops_uv.py:268
+#: props.py:205
+msgid "Curve"
+msgstr "曲线"
+
+#: props.py:241
+msgid "Cylinder Radius"
+msgstr "圆柱半径"
+
+#: props.py:39
+msgid "Dead or leafless branches: no leaf hangs on them and they do not bend"
+msgstr "枯死或无叶的枝条：其上不挂叶片，也不弯曲"
+
+#: ops_uv.py:257
+msgid "End"
+msgstr "结束"
+
+#: ops_uv.py:270
+msgid "End Value"
+msgstr "结束值"
+
+#: props.py:118
+msgid "Every face shown in the UV editor"
+msgstr "UV 编辑器中显示的每个面"
+
+#: ops_channel.py:258
+msgid "Extend"
+msgstr "扩展"
+
+#: props.py:177
+msgid "Flutter Curve"
+msgstr "飘动曲线"
+
+#: props.py:184
+msgid "Fork Max Angle"
+msgstr "分叉最大角度"
+
+#: props.py:180
+msgid "Fork Ratio"
+msgstr "分叉比例"
+
+#: props.py:49
+msgid "From Red"
+msgstr "来自红通道"
+
+#: ops_channel.py:24
+#: ops_uv.py:265
+msgid "G"
+msgstr "G"
+
+#: ops_channel.py:201
+msgid "Gamma"
+msgstr "伽马"
+
+#: ops_channel.py:24
+msgid "Green: time offset"
+msgstr "绿色：时间偏移"
+
+#: props.py:137
+msgid "Ground Gradient"
+msgstr "地面渐变"
+
+#: props.py:230
+msgid "Hardness"
+msgstr "硬度"
+
+#: preferences.py:54
+msgid "Hotkeys are not available in this session"
+msgstr "此会话中无法使用快捷键"
+
+#: preferences.py:44
+msgid "Hotkeys: UV Editor"
+msgstr "快捷键：UV 编辑器"
+
+#: props.py:134
+msgid "How far occluders count, as a share of tree height"
+msgstr "遮挡物的影响距离，按树高比例计"
+
+#: props.py:214
+msgid "How the brush and the gradients combine with the channel (the same as the brush blend in the header)"
+msgstr "笔刷和渐变如何与通道混合（与标题栏中的笔刷混合方式相同）"
+
+#: ui.py:322
+#: ui.py:416
+msgid "How to Use"
+msgstr "使用方法"
+
+#: preferences.py:57
+msgid "In Vertex Paint, X and Ctrl+X are Blender's own keys"
+msgstr "在顶点绘制模式中，X 和 Ctrl+X 是 Blender 自带的快捷键"
+
+#: ops_channel.py:221
+msgid "Input"
+msgstr "输入"
+
+#: ops_channel.py:197
+msgid "Input Black"
+msgstr "输入黑色"
+
+#: ops_channel.py:199
+msgid "Input White"
+msgstr "输入白色"
+
+#: preferences.py:39
+msgid "Interface"
+msgstr "界面"
+
+#: ops_channel.py:208
+msgid "Invert"
+msgstr "反转"
+
+#: props.py:145
+msgid "Leaf AO"
+msgstr "叶片 AO"
+
+#: props.py:41
+msgid "Leaf cards"
+msgstr "叶片卡片"
+
+#: ops_uv.py:264
+#: props.py:200
+msgid "Leaf flutter"
+msgstr "叶片颤动"
+
+#: props.py:170
+msgid "Leafless Branches Don't Bend"
+msgstr "无叶枝条不弯曲"
+
+#: props.py:42
+msgid "Leave these faces unpainted"
+msgstr "不绘制这些面"
+
+#: props.py:41
+msgid "Leaves"
+msgstr "叶片"
+
+#: ops_gradient.py:207
+#: ops_uv.py:260
+msgid "Linear"
+msgstr "线性"
+
+#: ui.py:241
+msgid "Manual Paint by Channel"
+msgstr "按通道手动绘制"
+
+#: ui.py:81
+msgid "Materials"
+msgstr "材质"
+
+#: ops_channel.py:201
+msgid "Midtones: above 1 brighter, below 1 darker"
+msgstr "中间调：大于 1 变亮，小于 1 变暗"
+
+#: props.py:189
+msgid "Min Branch"
+msgstr "最小枝条"
+
+#: ops_gradient.py:205
+#: ops_uv.py:258
+msgid "Mode"
+msgstr "模式"
+
+#: ops_uv.py:273
+#: props.py:218
+msgid "Multiply"
+msgstr "相乘"
+
+#: ui.py:83
+msgid "No materials: roles are guessed by shape"
+msgstr "无材质：按形状推断角色"
+
+#: ui.py:226
+msgid "No short repeat at these speeds"
+msgstr "这些速度下不会出现短促重复"
+
+#: props.py:48
+msgid "None"
+msgstr "无"
+
+#: preferences.py:61
+msgid "Notes"
+msgstr "注释"
+
+#: props.py:184
+msgid "Only a branch growing upward within this angle of vertical can split the trunk; a long branch going sideways (pines, firs) is just a branch"
+msgstr "只有在此与竖直方向夹角范围内向上生长的枝条才能分叉出树干；横向生长的长枝条（松树、冷杉）就只是枝条"
+
+#: props.py:116
+msgid "Only the UV island the drag starts on, on every leaf that shares its UVs"
+msgstr "仅限拖拽起始所在的 UV 孤岛，作用于所有共享该 UV 的叶片"
+
+#: props.py:238
+msgid "Opacity"
+msgstr "不透明度"
+
+#: props.py:238
+msgid "Opacity of the color preview: lower it to see the texture through"
+msgstr "颜色预览的不透明度：调低可透出纹理"
+
+#: ops_gradient.py:208
+msgid "Out from a point, inside a circle or a sphere"
+msgstr "从一点向外，在圆或球内"
+
+#: ops_uv.py:261
+msgid "Out from the start point, inside a circle"
+msgstr "从起点向外，在圆内"
+
+#: ops_channel.py:226
+msgid "Output"
+msgstr "输出"
+
+#: ops_channel.py:204
+msgid "Output Black"
+msgstr "输出黑色"
+
+#: ops_channel.py:206
+msgid "Output White"
+msgstr "输出白色"
+
+#: ui.py:289
+msgid "Paint by UV"
+msgstr "按 UV 绘制"
+
+#: ui.py:251
+#: ui.py:356
+msgid "Painting {:s} of {:s}"
+msgstr "正在绘制 {:s} / {:s}"
+
+#: props.py:174
+msgid "Phase Seed"
+msgstr "相位种子"
+
+#: ui.py:120
+msgid "Preview: turn on RGB for export"
+msgstr "预览：导出时请开启 RGB"
+
+#: ops_channel.py:23
+#: ops_uv.py:264
+msgid "R"
+msgstr "R"
+
+#: ops_gradient.py:208
+#: ops_uv.py:261
+msgid "Radial"
+msgstr "径向"
+
+#: props.py:227
+msgid "Radius of the UV brush on the screen ([ and ] while painting)"
+msgstr "UV 笔刷在屏幕上的半径（绘制时按 [ 和 ]）"
+
+#: props.py:241
+msgid "Radius of the cylinder the linear gradient paints in (mouse wheel while dragging)"
+msgstr "线性渐变绘制的圆柱半径（拖拽时用鼠标滚轮）"
+
+#: ops_channel.py:23
+msgid "Red: leaf flutter"
+msgstr "红色：叶片颤动"
+
+#: ui.py:229
+msgid "Repeats every {:.2f} s ({:d} frames)"
+msgstr "每 {:.2f} 秒重复一次（{:d} 帧）"
+
+#: ops_uv.py:273
+#: props.py:216
+msgid "Replace"
+msgstr "替换"
+
+#: ops_uv.py:274
+#: props.py:208
+msgid "Scope"
+msgstr "范围"
+
+#: props.py:160
+msgid "Second Value"
+msgstr "第二个值"
+
+#: ops_channel.py:150
+msgid "Seed"
+msgstr "种子"
+
+#: ui.py:75
+msgid "Select a tree mesh"
+msgstr "选择一个树木网格"
+
+#: ui.py:138
+msgid "Settings"
+msgstr "设置"
+
+#: props.py:222
+msgid "Shape"
+msgstr "形状"
+
+#: props.py:230
+msgid "Share of the brush radius painted at full strength; it fades out beyond"
+msgstr "以全强度绘制的笔刷半径占比，超出后逐渐衰减"
+
+#: props.py:189
+msgid "Shorter tips (share of tree height) are bark bumps, not branches"
+msgstr "更短的尖端（占树高的比例）视为树皮凸起，不是枝条"
+
+#: props.py:233
+msgid "Show in the UV editor the faces the UV tools paint, filled with the picked channel as a grey. Copies of a card that lie on top of each other are drawn once"
+msgstr "在 UV 编辑器中显示 UV 工具绘制的面，以所选通道的灰度填充。相互重叠的卡片副本只绘制一次"
+
+#: props.py:174
+msgid "Shuffles the green values"
+msgstr "打乱绿色通道的值"
+
+#: preferences.py:23
+msgid "Sidebar Tab"
+msgstr "侧边栏标签"
+
+#: props.py:42
+msgid "Skip"
+msgstr "跳过"
+
+#: props.py:225
+msgid "Sphere"
+msgstr "球体"
+
+#: ops_uv.py:256
+msgid "Start"
+msgstr "起点"
+
+#: ops_uv.py:269
+msgid "Start Value"
+msgstr "起始值"
+
+#: props.py:166
+msgid "Steepness of the blue gradient: 1 is linear, higher keeps the bend near the tips"
+msgstr "蓝色渐变的陡峭度：1 为线性，数值越高弯曲越靠近尖端"
+
+#: props.py:177
+msgid "Steepness of the red gradient from the leaf stem to its tip"
+msgstr "从叶柄到叶尖的红色渐变陡峭度"
+
+#: preferences.py:65
+msgid "TWP_* colour attributes are helpers: turn on R G B (or Show Wind Colors) before export"
+msgstr "TWP_* 颜色属性只是辅助：导出前请开启 R G B（或“显示风颜色”）"
+
+#: preferences.py:23
+msgid "Tab of the 3D View and UV editor sidebars the panels sit in"
+msgstr "面板所在的标签页：3D 视图和 UV 编辑器侧栏"
+
+#: preferences.py:64
+msgid "The AO bake uses Cycles; other objects are hidden while it bakes"
+msgstr "AO 烘焙使用 Cycles；烘焙时其他物体会被隐藏"
+
+#: props.py:47
+msgid "The baked ambient occlusion, as on the bark"
+msgstr "烘焙的环境光遮蔽，如树皮上的"
+
+#: props.py:49
+msgid "The leaf's red channel (flutter: 0 at the stem, 1 at the tip), so the leaf is darker toward the branch"
+msgstr "叶片的红色通道（飘动：叶柄处为 0，叶尖处为 1），因此叶片越靠近树枝越暗"
+
+#: props.py:217
+msgid "The new value is added to the old one"
+msgstr "新值加到旧值上"
+
+#: props.py:216
+msgid "The new value replaces the old one"
+msgstr "新值替换旧值"
+
+#: props.py:218
+msgid "The old value is multiplied by the new one"
+msgstr "旧值乘以新值"
+
+#: props.py:160
+msgid "The second brush value (X swaps the two)"
+msgstr "第二个笔刷值（按 X 交换两者）"
+
+#: ui.py:203
+msgid "The tree moves only while playing"
+msgstr "仅在播放时树木才移动"
+
+#: props.py:180
+msgid "The trunk ends at the first branch at least this long compared to the rest of the trunk; 0 keeps the whole longest path as trunk"
+msgstr "树干在第一个长度（相对树干其余部分）至少达到此值的分支处结束；0 表示整条最长路径都作为树干"
+
+#: preferences.py:67
+msgid "The wind preview moves the tree only while the timeline plays"
+msgstr "风预览仅在时间线播放时移动树木"
+
+#: ops_channel.py:199
+msgid "This value and higher become the output white"
+msgstr "此值及更高值变为输出白色"
+
+#: ops_channel.py:197
+msgid "This value and lower become the output black"
+msgstr "此值及更低值变为输出黑色"
+
+#: ops_uv.py:265
+#: props.py:201
+msgid "Time offset"
+msgstr "时间偏移"
+
+#: ui.py:160
+msgid "Tree Structure"
+msgstr "树结构"
+
+#: ui.py:59
+#: ui.py:60
+msgid "Tree Wind"
+msgstr "树风"
+
+#: preferences.py:31
+msgid "Tree Wind Paint"
+msgstr "树风绘制"
+
+#: props.py:38
+msgid "Trunk and branches"
+msgstr "树干与树枝"
+
+#: ops_channel.py:208
+msgid "Turn the result over: black becomes white (after the levels)"
+msgstr "反转结果：黑变白（在色阶之后）"
+
+#: ui.py:202
+msgid "UNIGINE mesh_base formula"
+msgstr "UNIGINE mesh_base 公式"
+
+#: props.py:137
+msgid "Up to this share of tree height the alpha darkens toward the ground (0: no ground gradient)"
+msgstr "在树木高度的这一比例以内，alpha 向地面变暗（0：无地面渐变）"
+
+#: props.py:155
+msgid "Value the brush paints into the channel (X swaps it with the second value)"
+msgstr "笔刷绘制到通道中的值（按 X 与第二个值交换）"
+
+#: ops_channel.py:204
+msgid "Value the input black becomes"
+msgstr "输入黑色映射为的值"
+
+#: ops_channel.py:206
+msgid "Value the input white becomes"
+msgstr "输入白色映射为的值"
+
+#: props.py:145
+msgid "What the leaves get in the alpha channel"
+msgstr "叶片在 alpha 通道中获得的内容"
+
+#: props.py:266
+msgid "What these faces are for wind painting"
+msgstr "这些面在风绘制中的用途"
+
+#: ui.py:222
+msgid "Wind"
+msgstr "风"
+
+#: ui.py:180
+msgid "Wind Preview"
+msgstr "风预览"
+
+#: props.py:266
+msgid "Wind Role"
+msgstr "风角色"
+
+#: ui.py:102
+msgid "WindColor (new)"
+msgstr "WindColor（新建）"
+
+#: props.py:128
+msgid "Write and show the blue channel (branch bend)"
+msgstr "写入并显示蓝色通道（树枝弯曲）"
+
+#: props.py:126
+msgid "Write and show the green channel (time offset)"
+msgstr "写入并显示绿色通道（时间偏移）"
+
+#: props.py:124
+msgid "Write and show the red channel (leaf flutter)"
+msgstr "写入并显示红色通道（叶片飘动）"
+
+#: props.py:130
+msgid "Write the alpha channel: ambient occlusion baked with Cycles, darker toward the ground (the Crysis convention: A = AO)"
+msgstr "写入 alpha 通道：使用 Cycles 烘焙的环境光遮蔽，越靠近地面越暗（Crysis 惯例：A = AO）"
+
+#: props.py:142
+msgid "Write the shading into leaves too; off: leaves get alpha 1 (no shading)"
+msgstr "也将明暗写入叶片；关闭时叶片 alpha 为 1（无明暗）"
+
+#: ui.py:258
+#: ui.py:367
+msgid "X: swap · Ctrl+X: fill"
+msgstr "X：交换 · Ctrl+X：填充"
+
+#: ui.py:97
+msgid "by shape"
+msgstr "按形状"
+
+#: ui.py:97
+msgid "→"
+msgstr "→"
+
+#: ui.py:110
+msgctxt "Operator"
+msgid "All"
+msgstr "全部"
+
+#: ui.py:274
+msgctxt "Operator"
+msgid "Apply"
+msgstr "应用"
+
+#: ops_channel.py:92
+msgctxt "Operator"
+msgid "Apply Channel"
+msgstr "应用通道"
+
+#: ops_autopaint.py:47
+msgctxt "Operator"
+msgid "Auto Paint"
+msgstr "自动绘制"
+
+#: ui.py:375
+msgctxt "Operator"
+msgid "Brush"
+msgstr "笔刷"
+
+#: ops_channel.py:122
+msgctxt "Operator"
+msgid "Cancel"
+msgstr "取消"
+
+#: ops_uv.py:69
+msgctxt "Operator"
+msgid "Copy the colour of the selected faces to every face of the same material whose corners sit at the same UV points, i.e. to all copies of the same piece (a leaf card, a twig...). Select the painted copy in Edit Mode or with face selection masking"
+msgstr "将选中面的颜色复制到同一材质下所有角点位于相同 UV 点的面，即同一部件的所有副本（叶片卡片、细枝……）。在编辑模式下或用面选择遮罩选中已绘制的副本"
+
+#: ops_uv.py:68
+msgctxt "Operator"
+msgid "Copy to Same UV"
+msgstr "复制到相同 UV"
+
+#: ops_uv.py:252
+msgctxt "Operator"
+msgid "Drag across a card in the UV editor: the channel goes from the brush value at the start to the second value at the end, on every copy of that card"
+msgstr "在 UV 编辑器中拖过一张卡片：该通道从起点处的笔刷值渐变到终点处的第二个值，并作用于该卡片的所有副本"
+
+#: ops_gradient.py:200
+msgctxt "Operator"
+msgid "Drag in the viewport: the channel goes from the brush value at the start to the second value at the end"
+msgstr "在视图中拖动：该通道从起点处的笔刷值渐变到终点处的第二个值"
+
+#: ops_channel.py:123
+msgctxt "Operator"
+msgid "Drop the painted grey; the channel keeps its old values"
+msgstr "丢弃绘制得到的灰色；通道保留原有值"
+
+#: ops_uv.py:400
+msgctxt "Operator"
+msgid "Fill"
+msgstr "填充"
+
+#: ops_uv.py:401
+msgctxt "Operator"
+msgid "Fill the faces shown in the UV editor with the brush value, in the picked channel and blend (Ctrl+X)"
+msgstr "用笔刷值填充 UV 编辑器中显示的面，作用于所选通道和混合方式（Ctrl+X）"
+
+#: preferences.py:35
+msgctxt "Operator"
+msgid "GitHub"
+msgstr "GitHub"
+
+#: ops_channel.py:146
+msgctxt "Operator"
+msgid "Give every loose part of the mesh its own random value between the brush value and the second value (only the selected parts with selection masking)"
+msgstr "为网格的每个独立部分赋予笔刷值与第二个值之间的随机值（使用选择遮罩时仅限选中的部分）"
+
+#: ops_gradient.py:199
+msgctxt "Operator"
+msgid "Gradient"
+msgstr "渐变"
+
+#: ops_channel.py:192
+msgctxt "Operator"
+msgid "Levels"
+msgstr "色阶"
+
+#: ops_channel.py:193
+msgctxt "Operator"
+msgid "Levels of the channel being painted: input black and white points, gamma, output range (only the selection with selection masking)"
+msgstr "正在绘制的通道的色阶：输入黑场和白场、gamma、输出范围（使用选择遮罩时仅限所选内容）"
+
+#: ui.py:262
+#: ui.py:371
+msgctxt "Operator"
+msgid "Linear"
+msgstr "线性"
+
+#: wind_preview.py:558
+msgctxt "Operator"
+msgid "Loop Frame Range"
+msgstr "循环帧范围"
+
+#: ops_channel.py:49
+msgctxt "Operator"
+msgid "Paint Channel"
+msgstr "绘制通道"
+
+#: ops_autopaint.py:120
+msgctxt "Operator"
+msgid "Paint each found branch and the leaves hanging on it in its own colour into a separate attribute, to check how the tree was understood"
+msgstr "将检测到的每根树枝及其附着的树叶各自用一种颜色绘制到独立属性中，以检查树的解析结果"
+
+#: ops_uv_brush.py:182
+msgctxt "Operator"
+msgid "Paint the channel with the mouse in the UV editor: every copy of the card under the brush is painted too. [ ] resize, Esc or right click: done"
+msgstr "在 UV 编辑器中用鼠标绘制该通道：笔刷下卡片的每份副本也会一并绘制。[ ] 调整大小，Esc 或右键：完成"
+
+#: ops_channel.py:50
+msgctxt "Operator"
+msgid "Paint this channel alone as greyscale in Vertex Paint; Apply writes it back without touching the other channels"
+msgstr "在顶点绘制中仅以灰度绘制该通道；应用会将其写回，不影响其他通道"
+
+#: ops_autopaint.py:48
+msgctxt "Operator"
+msgid "Paint wind colours from the tree's structure: B bends branches toward their tips, G gives each big branch its own time offset, R makes leaf tips flutter"
+msgstr "根据树的结构绘制风颜色：B 使树枝朝末端弯曲，G 为每根大树枝设置各自的时间偏移，R 使树叶末端颤动"
+
+#: ops_channel.py:252
+msgctxt "Operator"
+msgid "Pick Channel"
+msgstr "选择通道"
+
+#: ui.py:195
+msgctxt "Operator"
+msgid "Play Wind"
+msgstr "播放风动"
+
+#: wind_preview.py:467
+msgctxt "Operator"
+msgid "Play the tree's wind in the viewport as UNIGINE moves it, from its wind colours; press again to stop. The tree moves only while the timeline plays, so exports always get it at rest"
+msgstr "在视口中按 UNIGINE 的驱动方式播放树的风动，依据其风颜色；再次按下停止。树仅在时间轴播放时运动，因此导出时始终处于静止状态"
+
+#: ui.py:264
+#: ui.py:373
+msgctxt "Operator"
+msgid "Radial"
+msgstr "径向"
+
+#: ops_channel.py:145
+msgctxt "Operator"
+msgid "Randomize Parts"
+msgstr "随机化部件"
+
+#: wind_preview.py:543
+msgctxt "Operator"
+msgid "Remove Wind Preview"
+msgstr "移除风预览"
+
+#: wind_preview.py:559
+msgctxt "Operator"
+msgid "Set the scene's frame range to one full repeat of the wind, so playback and renders loop"
+msgstr "将场景帧范围设为一个完整的风循环，使播放和渲染可循环"
+
+#: ops_autopaint.py:119
+msgctxt "Operator"
+msgid "Show Branches"
+msgstr "显示树枝"
+
+#: ops_channel.py:306
+msgctxt "Operator"
+msgid "Show Wind Colors"
+msgstr "显示风颜色"
+
+#: ops_channel.py:253
+msgctxt "Operator"
+msgid "Show and paint only this channel. Shift: add it to the channels already on (or take it off)"
+msgstr "仅显示并绘制该通道。Shift：将其加入已开启的通道（或取消）"
+
+#: ops_channel.py:307
+msgctxt "Operator"
+msgid "Show the wind colours themselves in the viewport and remove the helper attributes of Show Branches and of the channel view, ready for export"
+msgstr "在视口中显示风颜色本身，并移除显示树枝和通道视图的辅助属性，以便导出"
+
+#: ui.py:195
+msgctxt "Operator"
+msgid "Stop"
+msgstr "停止"
+
+#: ops_channel.py:293
+msgctxt "Operator"
+msgid "Swap Values"
+msgstr "交换数值"
+
+#: ops_channel.py:294
+msgctxt "Operator"
+msgid "Swap the brush value and the second value (X in Vertex Paint)"
+msgstr "交换笔刷值与第二个值（顶点绘制中为 X）"
+
+#: wind_preview.py:544
+msgctxt "Operator"
+msgid "Take the wind preview modifier off this tree (its values are kept)"
+msgstr "从此树移除风预览修改器（其数值会保留）"
+
+#: ops_uv_brush.py:181
+msgctxt "Operator"
+msgid "UV Brush"
+msgstr "UV 笔刷"
+
+#: ops_uv.py:251
+msgctxt "Operator"
+msgid "UV Gradient"
+msgstr "UV 渐变"
+
+#: wind_preview.py:527
+msgctxt "Operator"
+msgid "Whether this tree moves with the wind while the timeline plays, and in renders"
+msgstr "此树是否在时间轴播放时及渲染中随风运动"
+
+#: wind_preview.py:466
+msgctxt "Operator"
+msgid "Wind Preview"
+msgstr "风预览"
+
+#: wind_preview.py:526
+msgctxt "Operator"
+msgid "Wind on This Tree"
+msgstr "此树的风动"
+
+#: ui.py:208
+msgctxt "Operator"
+msgid "Wind on this tree"
+msgstr "此树的风动"
+
+#: ops_channel.py:93
+msgctxt "Operator"
+msgid "Write the painted grey back into its channel and remove the temporary attribute"
+msgstr "将绘制的灰度写回其通道并移除临时属性"

@@ -1,0 +1,176 @@
+# perfect-chinese: 1
+# id: blender_video_player
+# kind: addon
+# module: bl_ext.blender_org.blender_video_player
+# name: Tutorial Viewer (Online & Local)
+# name_zh: 教程播放器
+# translator: KeshiMiao
+# category: Import-Export
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: properties.py:75
+msgid "A YouTube or other site video, or a direct link"
+msgstr "YouTube 或其他网站的视频，或直链"
+
+#: properties.py:76
+msgid "A video file on your computer"
+msgstr "你电脑上的视频文件"
+
+#: properties.py:18
+msgid "Add the player's controls to the 3D Viewport sidebar as well, to pause or seek without leaving what you are modelling. The player itself always plays in the Image Editor"
+msgstr "将播放器控件也添加到 3D 视图边栏，这样建模时无需离开当前界面即可暂停或拖动进度。播放器本身始终在图像编辑器中播放"
+
+#: properties.py:18
+msgid "Also show the panel in the 3D Viewport"
+msgstr "同时在 3D 视图中显示面板"
+
+#: properties.py:56
+msgid "Audio volume of the video"
+msgstr "视频的音量"
+
+#: operators.py:54
+msgid "Enter a URL"
+msgstr "输入 URL"
+
+#: properties.py:85
+msgid "File"
+msgstr "文件"
+
+#: operators.py:38
+msgid "File doesn't look like a video; trying anyway"
+msgstr "文件看起来不像视频，仍尝试播放"
+
+#: properties.py:75
+msgid "Internet URL"
+msgstr "网络 URL"
+
+#: properties.py:76
+msgid "Local file"
+msgstr "本地文件"
+
+#: operators.py:35
+msgid "Local file does not exist"
+msgstr "本地文件不存在"
+
+#: operators.py:190
+msgid "No URL"
+msgstr "无 URL"
+
+#: panel.py:30
+msgid "Online access is disabled"
+msgstr "在线访问已禁用"
+
+#: properties.py:85
+msgid "Path to a local video file"
+msgstr "本地视频文件的路径"
+
+#: properties.py:49
+msgid "Position"
+msgstr "位置"
+
+#: properties.py:49
+msgid "Position in the video (drag to scrub)"
+msgstr "视频中的位置（拖动以浏览）"
+
+#: properties.py:92
+msgid "Progress"
+msgstr "进度"
+
+#: panel.py:65
+msgid "Respect ToS and copyright."
+msgstr "请遵守服务条款与版权。"
+
+#: operators.py:148
+msgid "Seconds"
+msgstr "秒"
+
+#: properties.py:72
+msgid "Source"
+msgstr "来源"
+
+#: properties.py:91
+msgid "Status"
+msgstr "状态"
+
+#: operators.py:51
+msgid "That doesn't look like a URL (use http:// or https://)"
+msgstr "这看起来不像 URL（请使用 http:// 或 https://）"
+
+#: properties.py:80
+msgid "URL"
+msgstr "URL"
+
+#: panel.py:66
+msgid "Use your own, CC, or public-domain content."
+msgstr "请使用你自己的、CC 或公有领域的内容。"
+
+#: panel.py:18
+msgid "Video"
+msgstr "视频"
+
+#: panel.py:16
+msgid "Video Player"
+msgstr "视频播放器"
+
+#: properties.py:80
+msgid "Video link (YouTube, Vimeo, direct link, etc.)"
+msgstr "视频链接（YouTube、Vimeo、直链等）"
+
+#: properties.py:56
+msgid "Volume"
+msgstr "音量"
+
+#: operators.py:146
+msgctxt "Operator"
+msgid "Jump backward/forward in the video"
+msgstr "在视频中向后/向前跳转"
+
+#: operators.py:19
+msgctxt "Operator"
+msgid "Load & Play"
+msgstr "加载并播放"
+
+#: operators.py:20
+msgctxt "Operator"
+msgid "Load a local file, or download a URL, and open it in the player"
+msgstr "加载本地文件或下载 URL，并在播放器中打开"
+
+#: operators.py:181
+msgctxt "Operator"
+msgid "Open in Browser"
+msgstr "在浏览器中打开"
+
+#: operators.py:182
+msgctxt "Operator"
+msgid "Open the URL in your web browser (fallback for sites the downloader can't handle)"
+msgstr "在网页浏览器中打开该 URL（用于下载器无法处理的网站）"
+
+#: operators.py:128
+msgctxt "Operator"
+msgid "Play / Pause"
+msgstr "播放/暂停"
+
+#: operators.py:145
+msgctxt "Operator"
+msgid "Seek"
+msgstr "跳转"
+
+#: operators.py:162
+msgctxt "Operator"
+msgid "Stop playback, remove the video and its audio strip from the scene, and restore the timeline and sync settings from before the load"
+msgstr "停止播放，从场景中移除视频及其音频条，并恢复加载前的时间线与同步设置"
+
+#: operators.py:129
+msgctxt "Operator"
+msgid "Toggle video playback (with audio). The video runs on its own clock: your timeline keeps working normally"
+msgstr "切换视频播放（含音频）。视频按自己的时钟运行：你的时间线仍正常工作"
+
+#: operators.py:161
+msgctxt "Operator"
+msgid "Unload Video"
+msgstr "卸载视频"

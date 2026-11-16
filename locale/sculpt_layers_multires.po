@@ -1,0 +1,393 @@
+# perfect-chinese: 1
+# id: sculpt_layers_multires
+# kind: addon
+# module: bl_ext.blender_org.sculpt_layers_multires
+# name: Sculpt Layers for Multires
+# name_zh: 多级精度雕刻图层
+# translator: KeshiMiao
+# category: Sculpt
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: sculpt_layers_multires/ui.py:105
+msgid "1. Setup"
+msgstr "1. 设置"
+
+#: sculpt_layers_multires/ui.py:167
+msgid "2. Layers – check boxes to multi-select"
+msgstr "2. 图层 – 勾选复选框可多选"
+
+#: sculpt_layers_multires/properties.py:51
+msgid "Active Layer"
+msgstr "活动图层"
+
+#: sculpt_layers_multires/operators.py:873
+msgid "Already at the bottom of sculpt layers"
+msgstr "已在雕刻图层的最底部"
+
+#: sculpt_layers_multires/operators.py:782
+msgid "Already at the top of sculpt layers"
+msgstr "已在雕刻图层的最顶部"
+
+#: sculpt_layers_multires/operators.py:679
+msgid "Also Delete Object"
+msgstr "同时删除物体"
+
+#: sculpt_layers_multires/properties.py:56
+msgid "Automatically enter Sculpt mode upon every new layer creation"
+msgstr "每次创建新图层时自动进入雕刻模式"
+
+#: sculpt_layers_multires/ui.py:56
+msgid "Base"
+msgstr "基础"
+
+#: sculpt_layers_multires/operators.py:417
+msgid "Base has no Multires levels to remove."
+msgstr "基础没有可移除的多级精度级别。"
+
+#: sculpt_layers_multires/operators.py:998
+#: sculpt_layers_multires/operators.py:1074
+msgid "Base has no Multiresolution modifier"
+msgstr "基础没有多级精度修改器"
+
+#: sculpt_layers_multires/operators.py:770
+#: sculpt_layers_multires/operators.py:861
+msgid "Base, Shell Layer, and Layer_00 are pinned and cannot be moved."
+msgstr "基础、外壳图层和 Layer_00 已固定，无法移动。"
+
+#: sculpt_layers_multires/operators.py:692
+msgid "Cannot remove Base or Layer_00 this way."
+msgstr "无法通过这种方式移除基础或 Layer_00。"
+
+#: sculpt_layers_multires/operators.py:695
+msgid "Cannot remove Layer Shell (template for new layers)."
+msgstr "无法移除外壳图层（新图层的模板）。"
+
+#: sculpt_layers_multires/operators.py:218
+msgid "Could not fully erase displacement; Base may still have sculpt data."
+msgstr "无法完全清除置换；基础可能仍有雕刻数据。"
+
+#: sculpt_layers_multires/properties.py:56
+msgid "Enter Sculpt mode automatically"
+msgstr "自动进入雕刻模式"
+
+#: sculpt_layers_multires/properties.py:26
+msgid "Hidden clean Multires template; new layers are duplicated from this"
+msgstr "隐藏的干净多级精度模板；新图层由此复制而来"
+
+#: sculpt_layers_multires/properties.py:69
+msgid "Highest Multires level of Base when Layer_00 was created"
+msgstr "创建 Layer_00 时基础的最高多级精度级别"
+
+#: sculpt_layers_multires/properties.py:31
+msgid "Include this layer when using Apply Selected Layers"
+msgstr "使用“应用所选图层”时包含此图层"
+
+#: sculpt_layers_multires/properties.py:24
+msgid "Is Base"
+msgstr "是基础"
+
+#: sculpt_layers_multires/properties.py:25
+#: sculpt_layers_multires/properties.py:26
+msgid "Is Shell Layer"
+msgstr "是外壳图层"
+
+#: sculpt_layers_multires/operators.py:949
+#: sculpt_layers_multires/operators.py:1011
+msgid "Layer object is missing"
+msgstr "图层物体缺失"
+
+#: sculpt_layers_multires/operators.py:515
+msgid "Layer_00 could not be created."
+msgstr "无法创建 Layer_00。"
+
+#: sculpt_layers_multires/operators.py:957
+msgid "Layer_00 is a template — pick a sculpt layer."
+msgstr "Layer_00 是模板 — 请选择一个雕刻图层。"
+
+#: sculpt_layers_multires/properties.py:22
+msgid "Name"
+msgstr "名称"
+
+#: sculpt_layers_multires/operators.py:684
+#: sculpt_layers_multires/operators.py:761
+msgid "No Base for this mesh. Select it and click Set as Base."
+msgstr "此网格没有基础。选中它并点击“设为基础”。"
+
+#: sculpt_layers_multires/operators.py:1064
+#: sculpt_layers_multires/operators.py:1158
+msgid "No Base registered"
+msgstr "未注册基础"
+
+#: sculpt_layers_multires/operators.py:484
+msgid "No Base set for this mesh. Select it and click 'Set as Base'."
+msgstr "此网格未设置基础。选中它并点击“设为基础”。"
+
+#: sculpt_layers_multires/operators.py:489
+msgid "No Base set. Click 'Set as Base' first."
+msgstr "未设置基础。请先点击“设为基础”。"
+
+#: sculpt_layers_multires/operators.py:988
+msgid "No Base. Use 'Set as Base' first."
+msgstr "没有基础。请先使用“设为基础”。"
+
+#: sculpt_layers_multires/operators.py:1003
+msgid "No layer selected in the list"
+msgstr "列表中未选择图层"
+
+#: sculpt_layers_multires/operators.py:1176
+msgid "No sculpt layers checked. Tick the checkbox on layers to apply."
+msgstr "未勾选任何雕刻图层。勾选图层上的复选框以应用。"
+
+#: sculpt_layers_multires/properties.py:23
+msgid "Object"
+msgstr "物体"
+
+#: sculpt_layers_multires/operators.py:100
+#: sculpt_layers_multires/operators.py:185
+msgid "Object has no sculpt_layers property"
+msgstr "物体没有 sculpt_layers 属性"
+
+#: sculpt_layers_multires/properties.py:61
+msgid "Offset Distance"
+msgstr "偏移距离"
+
+#: sculpt_layers_multires/ui.py:227
+msgid "Options"
+msgstr "选项"
+
+#: sculpt_layers_multires/__init__.py:2
+msgid "Sculpt"
+msgstr "雕刻"
+
+#: sculpt_layers_multires/ui.py:80
+msgid "Sculpt Layers"
+msgstr "雕刻图层"
+
+#: sculpt_layers_multires/__init__.py:2
+#: sculpt_layers_multires/ui.py:76
+msgid "Sculpt Layers for Multires"
+msgstr "多级精度雕刻图层"
+
+#: sculpt_layers_multires/__init__.py:2
+msgid "Sculpt Layers for Multires — per-mesh multi-layer Multires sculpting"
+msgstr "多级精度雕刻图层 — 每个网格的多图层多级精度雕刻"
+
+#: sculpt_layers_multires/operators.py:73
+#: sculpt_layers_multires/operators.py:174
+msgid "Select a mesh object first"
+msgstr "请先选择一个网格物体"
+
+#: sculpt_layers_multires/ui.py:163
+msgid "Select a mesh → Set as Base to start"
+msgstr "选择网格 → 设为基础以开始"
+
+#: sculpt_layers_multires/operators.py:177
+msgid "Select a normal mesh (not a Base or sculpt layer)."
+msgstr "选择一个普通网格（不是基础或雕刻图层）。"
+
+#: sculpt_layers_multires/operators.py:1008
+msgid "Select a sculpt layer in the list first"
+msgstr "请先在列表中选择一个雕刻图层"
+
+#: sculpt_layers_multires/ui.py:110
+msgid "Select the original mesh to Set as Base"
+msgstr "选择原始网格以设为基础"
+
+#: sculpt_layers_multires/properties.py:31
+msgid "Selected"
+msgstr "已选择"
+
+#: sculpt_layers_multires/operators.py:340
+#: sculpt_layers_multires/operators.py:404
+msgid "Set as Base first."
+msgstr "请先设为基础。"
+
+#: sculpt_layers_multires/properties.py:36
+msgid "Shape-key influence on Shell Layer (-5 to 5). Change this value, then click Apply Layer / Apply Selected to replace the shape key and update the Base."
+msgstr "外壳图层上形态键的影响（-5 到 5）。更改此值后，点击“应用图层/应用所选”以替换形态键并更新基础。"
+
+#: sculpt_layers_multires/operators.py:1067
+msgid "Shell Layer is missing"
+msgstr "外壳图层缺失"
+
+#: sculpt_layers_multires/operators.py:1161
+msgid "Shell Layer is missing. Add a sculpt layer first."
+msgstr "外壳图层缺失。请先添加一个雕刻图层。"
+
+#: sculpt_layers_multires/operators.py:991
+msgid "Shell Layer missing. Add a sculpt layer first."
+msgstr "外壳图层缺失。请先添加一个雕刻图层。"
+
+#: sculpt_layers_multires/properties.py:36
+msgid "Strength"
+msgstr "强度"
+
+#: sculpt_layers_multires/operators.py:344
+msgid "Subdivide is locked after the first layer is created."
+msgstr "创建第一个图层后，细分将被锁定。"
+
+#: sculpt_layers_multires/ui.py:142
+msgid "Subdivide only from this Panel"
+msgstr "仅从此面板细分"
+
+#: sculpt_layers_multires/operators.py:408
+msgid "Unsubdivide is locked after the first layer is created."
+msgstr "创建第一个图层后，反细分将被锁定。"
+
+#: sculpt_layers_multires/properties.py:61
+msgid "X offset from the previous layer (default: Base X size × 1.5)"
+msgstr "相对于上一图层的 X 偏移（默认：基础 X 尺寸 × 1.5）"
+
+#: sculpt_layers_multires/operators.py:478
+msgctxt "Operator"
+msgid "Add Sculpt Layer"
+msgstr "添加雕刻图层"
+
+#: sculpt_layers_multires/operators.py:1050
+#: sculpt_layers_multires/ui.py:219
+msgctxt "Operator"
+msgid "Apply All Layers → Base"
+msgstr "应用所有图层 → 基础"
+
+#: sculpt_layers_multires/operators.py:974
+msgctxt "Operator"
+msgid "Apply Layer → Base"
+msgstr "应用图层 → 基础"
+
+#: sculpt_layers_multires/operators.py:1144
+#: sculpt_layers_multires/ui.py:214
+msgctxt "Operator"
+msgid "Apply Selected Layers → Base"
+msgstr "应用所选图层 → 基础"
+
+#: sculpt_layers_multires/ui.py:209
+msgctxt "Operator"
+msgid "Apply This Layer → Base"
+msgstr "应用此图层 → 基础"
+
+#: sculpt_layers_multires/operators.py:1248
+msgctxt "Operator"
+msgid "Clear Layer List"
+msgstr "清空层列表"
+
+#: sculpt_layers_multires/operators.py:156
+#: sculpt_layers_multires/ui.py:116
+msgctxt "Operator"
+msgid "Convert to Layer"
+msgstr "转换为层"
+
+#: sculpt_layers_multires/ui.py:188
+msgctxt "Operator"
+msgid "Deselect All"
+msgstr "取消全选"
+
+#: sculpt_layers_multires/operators.py:1233
+msgctxt "Operator"
+msgid "Deselect All Layers"
+msgstr "取消选择所有层"
+
+#: sculpt_layers_multires/operators.py:157
+msgctxt "Operator"
+msgid "For Mesh That Already has Displacement"
+msgstr "用于已有置换的网格"
+
+#: sculpt_layers_multires/ui.py:192
+msgctxt "Operator"
+msgid "Hide All"
+msgstr "隐藏全部"
+
+#: sculpt_layers_multires/operators.py:1415
+msgctxt "Operator"
+msgid "Hide All Layers"
+msgstr "隐藏所有层"
+
+#: sculpt_layers_multires/operators.py:846
+msgctxt "Operator"
+msgid "Move Layer Down"
+msgstr "下移层"
+
+#: sculpt_layers_multires/operators.py:755
+msgctxt "Operator"
+msgid "Move Layer Up"
+msgstr "上移层"
+
+#: sculpt_layers_multires/operators.py:676
+msgctxt "Operator"
+msgid "Remove Layer"
+msgstr "移除层"
+
+#: sculpt_layers_multires/ui.py:187
+msgctxt "Operator"
+msgid "Select All"
+msgstr "全选"
+
+#: sculpt_layers_multires/operators.py:1213
+msgctxt "Operator"
+msgid "Select All Layers"
+msgstr "选择所有层"
+
+#: sculpt_layers_multires/operators.py:935
+msgctxt "Operator"
+msgid "Select in Viewport"
+msgstr "在视图中选择"
+
+#: sculpt_layers_multires/operators.py:53
+#: sculpt_layers_multires/ui.py:124
+msgctxt "Operator"
+msgid "Set as Base"
+msgstr "设为基础层"
+
+#: sculpt_layers_multires/ui.py:113
+msgctxt "Operator"
+msgid "Set as Base (blocked)"
+msgstr "设为基础层（已阻止）"
+
+#: sculpt_layers_multires/ui.py:191
+msgctxt "Operator"
+msgid "Show All"
+msgstr "显示全部"
+
+#: sculpt_layers_multires/operators.py:1436
+msgctxt "Operator"
+msgid "Show All Layers"
+msgstr "显示所有层"
+
+#: sculpt_layers_multires/ui.py:145
+msgctxt "Operator"
+msgid "Subdivide"
+msgstr "细分"
+
+#: sculpt_layers_multires/operators.py:324
+msgctxt "Operator"
+msgid "Subdivide Base"
+msgstr "细分基础"
+
+#: sculpt_layers_multires/ui.py:200
+msgctxt "Operator"
+msgid "Switch & Sculpt"
+msgstr "切换并雕刻"
+
+#: sculpt_layers_multires/operators.py:1366
+msgctxt "Operator"
+msgid "Toggle Hide"
+msgstr "切换隐藏"
+
+#: sculpt_layers_multires/ui.py:146
+msgctxt "Operator"
+msgid "Unsubdivide"
+msgstr "取消细分"
+
+#: sculpt_layers_multires/operators.py:389
+msgctxt "Operator"
+msgid "Unsubdivide Base"
+msgstr "取消细分基础"
+
+#: sculpt_layers_multires/operators.py:1263
+msgctxt "Operator"
+msgid "Update List"
+msgstr "更新列表"

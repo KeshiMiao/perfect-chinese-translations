@@ -1,0 +1,463 @@
+# perfect-chinese: 1
+# id: animal_animator
+# kind: addon
+# module: bl_ext.blender_org.animal_animator
+# name: Animal Animator
+# name_zh: 动物动画库
+# translator: KeshiMiao
+# category: Animation
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: ui.py:27
+msgid "%s %df%s"
+msgstr "%s %df%s"
+
+#: ui.py:99
+#: ui.py:186
+msgid "(%s)"
+msgstr "(%s)"
+
+#: ui.py:129
+msgid "... narrow the search to see more"
+msgstr "…缩小搜索范围以查看更多"
+
+#: core/composer.py:11
+msgid "AUTO"
+msgstr "自动"
+
+#: ops.py:251
+msgid "Add at least one pose key"
+msgstr "至少添加一个姿态关键帧"
+
+#: props.py:67
+msgid "Add to current pose"
+msgstr "添加到当前姿态"
+
+#: ui.py:227
+msgid "All built animations are stashed as NLA strips."
+msgstr "所有生成的动画都存为 NLA 片段。"
+
+#: props.py:61
+msgid "Animal"
+msgstr "动物"
+
+#: ui.py:52
+#: ui.py:55
+msgid "Animal Animator"
+msgstr "Animal Animator"
+
+#: props.py:58
+msgid "Animal armature to pose/animate"
+msgstr "用于摆姿态/制作动画的动物骨架"
+
+#: ui.py:177
+msgid "Animations"
+msgstr "动画"
+
+#: core/composer.py:11
+msgid "BACK"
+msgstr "返回"
+
+#: props.py:36
+msgid "Bone"
+msgstr "骨骼"
+
+#: ui.py:213
+msgid "Built animations (%d) — click to view:"
+msgstr "生成的动画（%d）— 点击查看："
+
+#: core/composer.py:11
+msgid "CUBIC"
+msgstr "三次"
+
+#: props.py:51
+msgid "Comma-separated pose references, e.g. H_STEP_LIFT.L, LOOK.R:0.5"
+msgstr "以逗号分隔的姿态引用，例如 H_STEP_LIFT.L, LOOK.R:0.5"
+
+#: props.py:12
+msgid "Constant speed"
+msgstr "匀速"
+
+#: ops.py:89
+msgid "Could not confidently detect the animal; pick one and use Apply"
+msgstr "无法可靠识别动物；请手动选择并点击应用"
+
+#: core/composer.py:11
+msgid "EASE_IN"
+msgstr "缓入"
+
+#: core/composer.py:11
+msgid "EASE_IN_OUT"
+msgstr "缓入缓出"
+
+#: core/composer.py:11
+msgid "EASE_OUT"
+msgstr "缓出"
+
+#: props.py:54
+msgid "Ease"
+msgstr "缓动"
+
+#: props.py:13
+msgid "Ease in"
+msgstr "缓入"
+
+#: props.py:15
+msgid "Ease in-out"
+msgstr "缓入缓出"
+
+#: props.py:14
+msgid "Ease out"
+msgstr "缓出"
+
+#: props.py:16
+msgid "Elastic settle"
+msgstr "弹性回稳"
+
+#: ui.py:226
+msgid "Export: use File > Export (FBX/glTF)."
+msgstr "导出：使用 文件 > 导出（FBX/glTF）。"
+
+#: props.py:17
+msgid "Fast impact arrival"
+msgstr "快速冲击到达"
+
+#: props.py:72
+msgid "Filter"
+msgstr "过滤"
+
+#: props.py:63
+msgid "Filter poses by name/category"
+msgstr "按名称/类别过滤姿态"
+
+#: props.py:50
+msgid "Frame"
+msgstr "帧"
+
+#: props.py:79
+msgid "Frames"
+msgstr "帧"
+
+#: props.py:75
+msgid "Global pose intensity for built actions"
+msgstr "生成动作的全局姿态强度"
+
+#: ui.py:113
+msgid "Infl"
+msgstr "影响"
+
+#: props.py:65
+msgid "Influence"
+msgstr "影响"
+
+#: props.py:75
+msgid "Intensity"
+msgstr "强度"
+
+#: ui.py:69
+msgid "Key Bones"
+msgstr "关键骨骼"
+
+#: core/composer.py:11
+msgid "LINEAR"
+msgstr "线性"
+
+#: props.py:12
+msgid "Linear"
+msgstr "线性"
+
+#: props.py:80
+msgid "Loop"
+msgstr "循环"
+
+#: ui.py:149
+msgid "Motion Builder (poses → animation)"
+msgstr "动作构建器（姿态 → 动画）"
+
+#: props.py:78
+msgid "Name"
+msgstr "名称"
+
+#: ops.py:160
+#: ops.py:310
+msgid "No key bones mapped - run Detect Animal"
+msgstr "未映射关键骨骼 - 请运行检测动物"
+
+#: ops.py:323
+msgid "Nothing selected"
+msgstr "未选择任何内容"
+
+#: props.py:16
+msgid "Overshoot"
+msgstr "过冲"
+
+#: ui.py:81
+#: ui.py:106
+msgid "Pick a rig above"
+msgstr "请在上方选择一个绑定"
+
+#: ops.py:85
+#: ops.py:111
+msgid "Pick an armature first"
+msgstr "请先选择一个骨架"
+
+#: props.py:73
+msgid "Playback speed multiplier baked into built actions"
+msgstr "烘焙到生成动作中的播放速度倍率"
+
+#: ops.py:191
+msgid "Pose name"
+msgstr "姿态名称"
+
+#: ui.py:173
+msgid "Pose refs: NAME, NAME.R, NAME:0.5, +NAME (additive)"
+msgstr "姿态引用：NAME, NAME.R, NAME:0.5, +NAME（叠加）"
+
+#: props.py:51
+#: ui.py:89
+msgid "Poses"
+msgstr "姿态"
+
+#: core/composer.py:11
+msgid "QUART"
+msgstr "四次"
+
+#: props.py:58
+msgid "Rig"
+msgstr "绑定"
+
+#: core/composer.py:11
+msgid "SINE"
+msgstr "正弦"
+
+#: ops.py:241
+msgid "Save to my animation library"
+msgstr "保存到我的动画库"
+
+#: props.py:63
+msgid "Search"
+msgstr "搜索"
+
+#: props.py:11
+msgid "Sine"
+msgstr "正弦"
+
+#: props.py:35
+msgid "Slot"
+msgstr "槽"
+
+#: props.py:15
+msgid "Slow both ends"
+msgstr "两端缓动"
+
+#: props.py:14
+msgid "Slow end"
+msgstr "末端缓动"
+
+#: props.py:13
+msgid "Slow start"
+msgstr "慢速开始"
+
+#: props.py:11
+msgid "Smooth in/out"
+msgstr "平滑缓入/缓出"
+
+#: props.py:17
+msgid "Snap"
+msgstr "吸附"
+
+#: props.py:73
+msgid "Speed"
+msgstr "速度"
+
+#: props.py:67
+msgid "Stack on top of the current pose instead of replacing it"
+msgstr "叠加到当前姿势上，而不是替换它"
+
+#: props.py:37
+msgid "Weight"
+msgstr "权重"
+
+#: ui.py:27
+msgid "↻"
+msgstr "↻"
+
+#: ui.py:133
+msgctxt "Operator"
+msgid "(L)"
+msgstr "(L)"
+
+#: ui.py:136
+msgctxt "Operator"
+msgid "(R)"
+msgstr "(R)"
+
+#: ops.py:212
+msgctxt "Operator"
+msgid "Add Key"
+msgstr "添加关键帧"
+
+#: ops.py:295
+msgctxt "Operator"
+msgid "Add Selected Animations"
+msgstr "添加所选动画"
+
+#: ui.py:197
+msgctxt "Operator"
+msgid "All"
+msgstr "全部"
+
+#: ui.py:65
+msgctxt "Operator"
+msgid "Apply"
+msgstr "应用"
+
+#: ops.py:104
+msgctxt "Operator"
+msgid "Apply Animal Type"
+msgstr "应用动物类型"
+
+#: ops.py:140
+msgctxt "Operator"
+msgid "Apply Pose"
+msgstr "应用姿势"
+
+#: ops.py:141
+msgctxt "Operator"
+msgid "Apply a library pose to the rig"
+msgstr "将库中的姿势应用到骨架"
+
+#: ops.py:237
+msgctxt "Operator"
+msgid "Build Motion"
+msgstr "构建运动"
+
+#: ops.py:296
+msgctxt "Operator"
+msgid "Build a Blender Action for every checked animation"
+msgstr "为每个勾选的动画构建 Blender 动作"
+
+#: ops.py:357
+msgctxt "Operator"
+msgid "Build the highlighted animation and play it"
+msgstr "构建高亮动画并播放"
+
+#: ops.py:175
+msgctxt "Operator"
+msgid "Clear the pose back to rest"
+msgstr "清除姿势，恢复静止"
+
+#: ops.py:238
+msgctxt "Operator"
+msgid "Compose an animation from the pose keys and interpolate"
+msgstr "根据姿势关键帧合成动画并进行插值"
+
+#: ops.py:432
+msgctxt "Operator"
+msgid "Delete Animation"
+msgstr "删除动画"
+
+#: ops.py:78
+msgctxt "Operator"
+msgid "Detect Animal"
+msgstr "检测动物"
+
+#: ops.py:79
+msgctxt "Operator"
+msgid "Detect which animal rig this is and fill the key-bone mapping"
+msgstr "检测此动物骨架并填充关键骨骼映射"
+
+#: ops.py:55
+msgctxt "Operator"
+msgid "Import FBX (mesh + rig)"
+msgstr "导入 FBX（网格 + 骨架）"
+
+#: ops.py:56
+msgctxt "Operator"
+msgid "Import an FBX and auto-detect which animal rig it is"
+msgstr "导入 FBX 并自动检测动物骨架类型"
+
+#: ops.py:410
+msgctxt "Operator"
+msgid "Make this built animation the active one (clears any leftover pose from other animations first)"
+msgstr "将此已构建动画设为活动动画（先清除其他动画残留的姿势）"
+
+#: ui.py:199
+msgctxt "Operator"
+msgid "None"
+msgstr "无"
+
+#: ops.py:356
+msgctxt "Operator"
+msgid "Preview"
+msgstr "预览"
+
+#: ops.py:371
+msgctxt "Operator"
+msgid "Rebuild All Built"
+msgstr "重建所有已构建动画"
+
+#: ops.py:372
+msgctxt "Operator"
+msgid "Rebuild every built animation from the current library definitions - run this after updating the add-on"
+msgstr "根据当前库定义重建所有已构建动画——更新插件后运行此操作"
+
+#: ops.py:275
+msgctxt "Operator"
+msgid "Refresh List"
+msgstr "刷新列表"
+
+#: ops.py:225
+msgctxt "Operator"
+msgid "Remove Key"
+msgstr "移除关键帧"
+
+#: ops.py:433
+msgctxt "Operator"
+msgid "Remove this built animation (the library entry stays)"
+msgstr "移除此已构建动画（库条目保留）"
+
+#: ops.py:174
+msgctxt "Operator"
+msgid "Reset Pose"
+msgstr "重置姿势"
+
+#: ops.py:188
+msgctxt "Operator"
+msgid "Save Current Pose"
+msgstr "保存当前姿势"
+
+#: ops.py:124
+msgctxt "Operator"
+msgid "Save Key Bones"
+msgstr "保存关键骨骼"
+
+#: ops.py:189
+msgctxt "Operator"
+msgid "Save the current viewport pose into your pose library"
+msgstr "将当前视图中的姿势保存到姿势库"
+
+#: ops.py:284
+msgctxt "Operator"
+msgid "Select"
+msgstr "选择"
+
+#: ops.py:409
+msgctxt "Operator"
+msgid "Show Animation"
+msgstr "显示动画"
+
+#: ops.py:125
+msgctxt "Operator"
+msgid "Store edited slot->bone assignments on the armature"
+msgstr "将编辑后的槽位->骨骼分配存储到骨架"
+
+#: ops.py:105
+msgctxt "Operator"
+msgid "Use the selected animal and rebuild the key-bone mapping"
+msgstr "使用所选动物并重建关键骨骼映射"

@@ -1,0 +1,4783 @@
+# perfect-chinese: 1
+# id: curiomesh
+# kind: addon
+# module: bl_ext.blender_org.curiomesh
+# name: CurioMesh
+# name_zh: 四边面重拓扑
+# translator: KeshiMiao
+# category: Mesh
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: hard_surface.py:28
+msgid "% of Face"
+msgstr "面百分比"
+
+#: guided.py:3777
+#: guided.py:3784
+msgid "(removed)"
+msgstr "（已移除）"
+
+#: guided.py:388
+msgid "+"
+msgstr "+"
+
+#: ui.py:203
+msgid ","
+msgstr ","
+
+#: guided.py:388
+msgid "-"
+msgstr "-"
+
+#: game_export.py:162
+msgid "."
+msgstr "."
+
+#: overlay.py:293
+msgid "..."
+msgstr "..."
+
+#: region.py:1055
+msgid "0 = match the surrounding quads"
+msgstr "0 = 匹配周围的四边面"
+
+#: issue_panel.py:143
+msgid "1 goes to the next bad spot, -1 to the one before"
+msgstr "1 前往下一个问题点，-1 前往上一个"
+
+#: segment_goals.py:1581
+msgid "1 goes to the next part, -1 to the one before"
+msgstr "1 前往下一部分，-1 前往上一部分"
+
+#: panel.py:1059
+msgid "1. Choose a preset & place points"
+msgstr "1. 选择预设并放置点"
+
+#: region.py:975
+msgid "1. Pick the part to redo"
+msgstr "1. 选择要重做的部分"
+
+#: region.py:1050
+msgid "2. Choose the new quads"
+msgstr "2. 选择新的四边面"
+
+#: panel.py:1092
+msgid "2. Watch the live preview"
+msgstr "2. 查看实时预览"
+
+#: panel.py:1116
+msgid "3. Lock, redraw, apply"
+msgstr "3. 锁定、重绘、应用"
+
+#: region.py:1057
+msgid "3. Preview, then apply"
+msgstr "3. 预览后应用"
+
+#: segments.py:971
+msgid "?"
+msgstr "?"
+
+#: region.py:703
+msgid "A 3 x 3 x 3 lattice you can reshape"
+msgstr "可重塑的 3 x 3 x 3 晶格"
+
+#: guided.py:336
+msgid "A box, a sphere, a lattice or any closed mesh that marks a part to redo"
+msgstr "用于标记要重做部分的立方体、球体、晶格或任意封闭网格"
+
+#: guided.py:3436
+msgid "A box, a sphere, or the shapes you have selected"
+msgstr "立方体、球体或所选形状"
+
+#: region.py:703
+msgid "A box, or a 3 x 3 x 3 lattice you can reshape to fit the part to redo"
+msgstr "立方体，或可重塑以贴合待重做部分的 3 x 3 x 3 晶格"
+
+#: segment_goals.py:53
+msgid "A clean quad sheet: even rows and few poles, so it bends well. Judged mainly on its topology score"
+msgstr "整洁的四边面片：行列均匀、极点少，弯曲效果好。主要依据拓扑评分评判"
+
+#: guided.py:345
+msgid "A curve, a Grease Pencil drawing, or a mesh made of edges only. The quads are made to follow it"
+msgstr "曲线、蜡笔手绘或仅由边构成的网格。四边面会沿其生成"
+
+#: guided.py:65
+msgid "A line across a joint or crease: several evenly spaced loops so the mesh bends without pinching"
+msgstr "跨关节或折痕的线：生成多条均匀间隔的环，使网格弯曲时不夹紧"
+
+#: guided.py:64
+msgid "A loop or flow line drawn by hand: it becomes real continuous edge loops of regular quads, with the poles outside it"
+msgstr "手绘的环线或走向线：会成为由规则四边面组成的真实连续边环，极点位于其外侧"
+
+#: seglive.py:68
+msgid "A part smaller than this share of its loose piece joins its neighbour"
+msgstr "小于所属松散块此比例的部分会并入相邻部分"
+
+#: region.py:47
+msgid "A regular grid. Cleanest when the region has four clear sides; otherwise it is laid out and closed to quads"
+msgstr "规则网格。区域有四条清晰边时最整洁；否则会布局并封闭为四边面"
+
+#: profiles.py:16
+msgid "A regular grid. Needs a part with one open edge loop; a closed part falls back to Auto"
+msgstr "规则网格。需要具有一个开放边环的部分；封闭部分会回退为自动"
+
+#: guided.py:3436
+msgid "A round shape you can move and scale"
+msgstr "可移动和缩放的圆形形状"
+
+#: guided.py:78
+msgid "A share of the faces your mesh has now"
+msgstr "当前网格面数的比例"
+
+#: __init__.py:249
+msgid "A stopped job keeps its finished parts in the add-on's user folder, so Start resumes it."
+msgstr "停止的任务会将已完成部分保留在插件的用户文件夹中，因此点击开始可继续。"
+
+#: guided.py:63
+msgid "A thin line the quads follow, like a panel line"
+msgstr "四边面沿其生成的细线，例如面板线"
+
+#: region.py:41
+msgid "Add"
+msgstr "添加"
+
+#: region.py:1014
+msgid "Add a cage, then move it over the part"
+msgstr "添加一个笼，然后将其移到该部分上方"
+
+#: region.py:560
+msgid "Add a ring of quads along jagged borders so quads next to the seam stay well shaped"
+msgstr "沿锯齿边界添加一圈四边面，使接缝旁的四边面保持良好形状"
+
+#: region.py:41
+msgid "Add the faces inside this cage to the region"
+msgstr "将此笼内的面添加到区域"
+
+#: panel.py:582
+msgid "Adjust"
+msgstr "调整"
+
+#: panel.py:1143
+#: region.py:1104
+msgid "Advanced"
+msgstr "高级"
+
+#: __init__.py:86
+msgid "Advanced Tab"
+msgstr "高级选项卡"
+
+#: guided.py:372
+msgid "Aim"
+msgstr "目标"
+
+#: guided.py:287
+msgid "Aim for a number of faces instead of a look; the result then says how much the look changed"
+msgstr "以目标面数而非外观为准；结果会说明外观变化程度"
+
+#: guided.py:286
+msgid "Aim for a share of your faces instead of a look; the result then says how much the look changed"
+msgstr "以目标面数占比而非外观为准；结果会说明外观变化程度"
+
+#: segments.py:860
+msgid "All"
+msgstr "全部"
+
+#: ui.py:617
+msgid "All Measurements"
+msgstr "所有测量"
+
+#: segment_goals.py:54
+msgid "All quads of an even size that follow the surface, ready for a Subdivision modifier"
+msgstr "全部为尺寸均匀、贴合表面的四边面，可直接用于细分曲面修改器"
+
+#: profiles.py:23
+msgid "All quads where the shape allows it (extra faces are added to close the rest)"
+msgstr "在形状允许处全部使用四边面（其余部分会添加额外面来封闭）"
+
+#: operators.py:68
+msgid "Allow rebuilding of dirty closed scans. Small holes and thin sheets may change"
+msgstr "允许重建不干净的封闭扫描。小孔和薄片可能会改变"
+
+#: operators.py:53
+msgid "Allow voxel repair before remeshing a leaky or noisy scan"
+msgstr "允许在重网格化有泄漏或噪声的扫描前进行体素修复"
+
+#: operators.py:176
+#: ui.py:54
+msgid "Also line up with the main bending directions of the surface"
+msgstr "同时对齐表面的主要弯曲方向"
+
+#: guided.py:292
+msgid "Also redraws messy patches as grids and evens out the quads. Tidiest; adds a few minutes"
+msgstr "还会将杂乱面片重绘为网格并均匀四边面。最整洁；会多花几分钟"
+
+#: region.py:561
+msgid "Always"
+msgstr "始终"
+
+#: region.py:561
+msgid "Always add a ring of quads along the border"
+msgstr "始终沿边界添加一圈四边面"
+
+#: guided.py:3436
+#: region.py:703
+msgid "An Empty cube you can move and scale"
+msgstr "可移动和缩放的立方体空物体"
+
+#: guided.py:79
+msgid "An exact number of faces to aim for"
+msgstr "要达成的精确面数"
+
+#: operators.py:181
+#: ui.py:59
+msgid "Analysis Detail"
+msgstr "分析细节"
+
+#: guided.py:108
+#: panel.py:29
+msgid "Animation"
+msgstr "动画"
+
+#: operators.py:201
+#: ui.py:79
+msgid "Apply Modifiers First"
+msgstr "先应用修改器"
+
+#: game_export.py:51
+msgid "As baked"
+msgstr "按烘焙结果"
+
+#: operators.py:178
+#: ui.py:56
+msgid "Attempts"
+msgstr "尝试次数"
+
+#: region.py:568
+#: region.py:993
+msgid "Attribute"
+msgstr "属性"
+
+#: guided.py:88
+#: guided.py:363
+msgid "Auto"
+msgstr "自动"
+
+#: operators.py:37
+msgid "Auto (same as Atlas-Q)"
+msgstr "自动（同 Atlas-Q）"
+
+#: guided.py:71
+msgid "Auto Segments"
+msgstr "自动分段"
+
+#: guided.py:358
+#: region.py:604
+msgid "Auto-Update"
+msgstr "自动更新"
+
+#: guided.py:449
+msgid "Avoid Poles"
+msgstr "避免极点"
+
+#: __init__.py:97
+msgid "Background Blender Processes"
+msgstr "后台 Blender 进程"
+
+#: __init__.py:142
+msgid "Background Opacity"
+msgstr "背景不透明度"
+
+#: __init__.py:203
+msgid "Background Processes"
+msgstr "后台进程"
+
+#: guided.py:378
+msgid "Bad Faces"
+msgstr "问题面"
+
+#: panel.py:783
+#: panel.py:806
+msgid "Bake"
+msgstr "烘焙"
+
+#: operators.py:74
+msgid "Bake Colour"
+msgstr "烘焙颜色"
+
+#: guided.py:443
+msgid "Bake Detail"
+msgstr "烘焙细节"
+
+#: operators.py:197
+#: ui.py:75
+msgid "Bake If UVs Fail"
+msgstr "UV 失败时烘焙"
+
+#: operators.py:199
+#: ui.py:77
+msgid "Bake Margin"
+msgstr "烘焙边距"
+
+#: guided.py:444
+#: operators.py:198
+msgid "Bake Size"
+msgstr "烘焙尺寸"
+
+#: guided.py:100
+msgid "Bake a normal map and the base color into one new material with new UVs. Press Update after choosing it: Auto Segments then ignores the old UV seams and needs fewer faces"
+msgstr "将法线贴图和基础色烘焙到一个带新 UV 的新材质中。选择后按“更新”：自动分段将忽略旧 UV 接缝并需要更少的面"
+
+#: operators.py:74
+msgid "Bake the base colour of the source onto the result"
+msgstr "将源的基础色烘焙到结果上"
+
+#: operators.py:201
+#: ui.py:79
+msgid "Bake the source's modifiers into the mesh before remeshing"
+msgstr "重网格化前将源的修改器烘焙到网格中"
+
+#: guided.py:278
+#: guided.py:282
+msgid "Balanced"
+msgstr "均衡"
+
+#: guided.py:354
+msgid "Base Quads"
+msgstr "基础四边面"
+
+#: __init__.py:47
+#: __init__.py:81
+msgid "Batch"
+msgstr "批量"
+
+#: guided.py:380
+msgid "Beside"
+msgstr "旁边"
+
+#: ladder.py:559
+msgid "Bigger"
+msgstr "更大"
+
+#: ladder.py:476
+msgid "Bigger quads"
+msgstr "更大的四边面"
+
+#: operators.py:26
+msgid "Blender's built-in QuadriFlow remesher. Fast and tidy on clean, closed meshes"
+msgstr "Blender 内置的 QuadriFlow 重网格器。在干净、封闭的网格上快速且整洁"
+
+#: profiles.py:15
+msgid "Blender's own QuadriFlow on each part. Even flowing quads on smooth organic parts; it can fail on thin or open parts (Auto is used then)"
+msgstr "对每个部分使用 Blender 自带的 QuadriFlow。在平滑的有机部分上生成均匀流畅的四边面；在薄或开放的部分可能失败（此时使用自动）"
+
+#: game_export.py:50
+msgid "Blender, Unity, Godot, Roblox, glTF"
+msgstr "Blender、Unity、Godot、Roblox、glTF"
+
+#: panel.py:33
+msgid "Blockout"
+msgstr "粗模"
+
+#: guided.py:108
+msgid "Bodies and creatures that bend: like Character, and Auto Segments asks for Deformation Lines across the joints"
+msgstr "会弯曲的身体和生物：类似角色，自动分段会要求跨关节绘制变形线"
+
+#: region.py:599
+msgid "Border Ring"
+msgstr "边界环"
+
+#: seglive.py:70
+msgid "Border Smoothness"
+msgstr "边界平滑度"
+
+#: guided.py:425
+msgid "Both Sides"
+msgstr "两侧"
+
+#: overlay.py:68
+msgid "Bottom Left"
+msgstr "左下"
+
+#: overlay.py:69
+msgid "Bottom Right"
+msgstr "右下"
+
+#: ui.py:117
+msgid "Boundary Edges"
+msgstr "边界边"
+
+#: ui.py:118
+#: ui.py:145
+msgid "Boundary Loops"
+msgstr "边界循环"
+
+#: guided.py:3436
+#: region.py:703
+msgid "Box"
+msgstr "盒体"
+
+#: segment_goals.py:1266
+msgid "Brush over the border of the selected segment to move it outwards. Ctrl paints the other way"
+msgstr "在所选分段的边界上涂抹，使其向外移动。按住 Ctrl 反向涂抹"
+
+#: segment_goals.py:1267
+msgid "Brush over the selected segment to give its faces to the neighbours beside them. Ctrl paints the other way"
+msgstr "在所选分段上涂抹，将其面分配给旁边的相邻分段。按住 Ctrl 反向涂抹"
+
+#: guided.py:386
+msgid "Builds one half and mirrors it, so both sides match exactly. Used only when the mesh really is symmetric, unless Symmetrize is on"
+msgstr "构建一半并镜像，使两侧完全一致。仅在网格确实对称时使用，除非开启对称化"
+
+#: region.py:703
+msgid "Cage"
+msgstr "笼"
+
+#: region.py:38
+msgid "Cages"
+msgstr "笼"
+
+#: region.py:1016
+msgid "Cages combine from top to bottom"
+msgstr "笼从上到下合并"
+
+#: guided.py:59
+msgid "Calm"
+msgstr "平稳"
+
+#: ui.py:130
+msgid "Candidates"
+msgstr "候选"
+
+#: operators.py:191
+#: ui.py:69
+msgid "Carry colours, weights and other mesh data over to the new mesh"
+msgstr "将颜色、权重和其他网格数据转移到新网格"
+
+#: operators.py:170
+#: ui.py:48
+msgid "Change this for a different but repeatable result"
+msgstr "更改此项以获得不同但可重复的结果"
+
+#: guided.py:104
+msgid "Character"
+msgstr "角色"
+
+#: ui.py:360
+msgid "Checks holes, sharp edges and scale."
+msgstr "检查孔洞、锐边和缩放。"
+
+#: operators.py:50
+msgid "Choose from the measured topology, borders, sharp features, scale and texture state"
+msgstr "根据测得的拓扑、边界、锐利特征、缩放和纹理状态进行选择"
+
+#: panel.py:1036
+msgid "Classic Guided"
+msgstr "经典引导"
+
+#: guided.py:451
+msgid "Classic Guided, Whole Mesh: makes every face a quad. Off is faster on big meshes and leaves a few triangles"
+msgstr "经典引导，整个网格：使每个面都成为四边面。关闭时在大网格上更快，但会留下少量三角面"
+
+#: guided.py:427
+msgid "Classic Guided: draws each point's reach and the outline of the area it covers"
+msgstr "经典引导：绘制每个点的作用范围及其覆盖区域的外轮廓"
+
+#: guided.py:450
+msgid "Classic Guided: edges sharper than this angle count as hard edges and are kept"
+msgstr "经典引导：角度大于此值的边视为硬边并保留"
+
+#: guided.py:446
+msgid "Classic Guided: how many passes settle the new quads onto your surface. More follows it closer, slower"
+msgstr "经典引导：新四边面贴合表面的迭代次数。数值越大贴合越紧，速度越慢"
+
+#: guided.py:452
+msgid "Classic Guided: how many points Auto-suggest places"
+msgstr "经典引导：自动建议放置多少个点"
+
+#: guided.py:350
+msgid "Classic Guided: shows the point cage and keeps a live preview of the new quads beside your mesh"
+msgstr "经典引导：显示点笼，并在网格旁实时预览新四边面"
+
+#: guided.py:351
+msgid "Classic Guided: the starting quad size, point type and fill style for this kind of mesh"
+msgstr "经典引导：此类网格的初始四边面大小、点类型和填充样式"
+
+#: ui.py:211
+msgid "Classic Remesh"
+msgstr "经典重网格"
+
+#: hard_surface.py:114
+msgid "Clean Panels"
+msgstr "清理面板"
+
+#: guided.py:365
+#: operators.py:193
+msgid "Cleanup"
+msgstr "清理"
+
+#: __init__.py:44
+#: __init__.py:74
+msgid "Cleanup & Output"
+msgstr "清理与输出"
+
+#: panel.py:883
+msgid "Cleanup, one by one"
+msgstr "逐个清理"
+
+#: panel.py:674
+msgid "Click a part in the list or in the viewport"
+msgstr "在列表或视图中点击一个部分"
+
+#: segment_goals.py:1515
+msgid "Click a part, or press Next: worst first"
+msgstr "点击一个部分，或按“下一个”：最差的优先"
+
+#: ui.py:247
+msgid "Click an object in the viewport."
+msgstr "在视图中点击一个物体。"
+
+#: flowedit.py:534
+msgid "Click the middle of an eye: a closed ring round it, and one on the other eye when Both Sides is on"
+msgstr "点击眼睛中部：围绕它生成一个闭合环，启用“两侧”时另一只眼睛也会生成"
+
+#: flowedit.py:535
+msgid "Click the middle of the mouth: a closed ring round the lips"
+msgstr "点击嘴部中部：围绕嘴唇生成一个闭合环"
+
+#: flowedit.py:536
+msgid "Click the middle of the mouth: two lines from beside the nose round the mouth corners, the fold that creases in a smile"
+msgstr "点击嘴部中部：从鼻子两侧绕过嘴角的两条线，即微笑时皱起的褶线"
+
+#: ui.py:252
+msgid "Click your own mesh to remesh it."
+msgstr "点击你自己的网格以重新网格化。"
+
+#: ui.py:86
+msgid "Colour triangles and n-gons on the active mesh and mark poles with dots (colours: add-on Preferences)"
+msgstr "为活动网格上的三角面和 N 边形着色，并用点标记极点（颜色：插件偏好设置）"
+
+#: guided.py:377
+msgid "Colours each part by how much it changed: purple not at all, yellow the most. Readable with colour blindness"
+msgstr "按变化程度为每个部分着色：紫色表示没有变化，黄色表示变化最大。色盲用户也可辨识"
+
+#: guided.py:337
+msgid "Combine"
+msgstr "合并"
+
+#: __init__.py:64
+msgid "Compact Panels"
+msgstr "紧凑面板"
+
+#: ui.py:116
+msgid "Component Euler Values"
+msgstr "分量欧拉值"
+
+#: ui.py:134
+msgid "Component Sampling"
+msgstr "分量采样"
+
+#: ui.py:115
+msgid "Connected Components"
+msgstr "连通分量"
+
+#: operators.py:72
+msgid "Copy UVs across, then project from the original surface where needed"
+msgstr "复制 UV 过来，然后在需要时从原始表面投影"
+
+#: __init__.py:109
+msgid "Corner"
+msgstr "角"
+
+#: guided.py:400
+msgid "Crease"
+msgstr "折痕"
+
+#: seglive.py:69
+msgid "Crease Strength"
+msgstr "折痕强度"
+
+#: operators.py:79
+msgid "Create a remeshed object and keep the original"
+msgstr "创建重新网格化的物体并保留原始物体"
+
+#: fix_select.py:292
+#: panel.py:303
+msgid "CurioMesh"
+msgstr "CurioMesh"
+
+#: panel.py:850
+#: region.py:1024
+msgid "CurioMesh Advanced"
+msgstr "CurioMesh 高级"
+
+#: guided.py:285
+msgid "Custom %"
+msgstr "自定义 %"
+
+#: panel.py:510
+msgid "Custom: your own settings from the Advanced tab"
+msgstr "自定义：使用“高级”选项卡中的自有设置"
+
+#: __init__.py:212
+msgid "Dashboard (HUD)"
+msgstr "仪表板（HUD）"
+
+#: __init__.py:49
+#: __init__.py:83
+msgid "Debug"
+msgstr "调试"
+
+#: operators.py:203
+#: ui.py:81
+msgid "Debug Console Logs"
+msgstr "调试控制台日志"
+
+#: guided.py:65
+msgid "Deformation"
+msgstr "形变"
+
+#: guided.py:397
+msgid "Deformation Lines"
+msgstr "形变线"
+
+#: ui.py:120
+msgid "Degenerate Faces"
+msgstr "退化面"
+
+#: guided.py:56
+#: guided.py:364
+msgid "Detail"
+msgstr "细节"
+
+#: panel.py:1085
+msgid "Detail = smaller quads, Calm = bigger,"
+msgstr "细节 = 更小的四边形，平静 = 更大的，"
+
+#: guided.py:402
+#: panel.py:406
+msgid "Detail Markers"
+msgstr "细节标记"
+
+#: panel.py:974
+msgid "Detailed"
+msgstr "详细"
+
+#: __init__.py:48
+#: __init__.py:82
+msgid "Diagnostics"
+msgstr "诊断"
+
+#: game_export.py:50
+msgid "DirectX (green down)"
+msgstr "DirectX（绿色向下）"
+
+#: region.py:602
+msgid "Direction the new quads follow"
+msgstr "新四边形遵循的方向"
+
+#: operators.py:176
+#: ui.py:54
+msgid "Direction the quads follow: smoothed flow, or also the surface curvature (about 1.5x slower)"
+msgstr "四边形遵循的方向：平滑流向，或同时考虑表面曲率（约慢 1.5 倍）"
+
+#: operators.py:53
+msgid "Dirty Closed Scan"
+msgstr "脏闭合扫描"
+
+#: hard_surface.py:107
+#: hard_surface.py:119
+msgid "Distance"
+msgstr "距离"
+
+#: hard_surface.py:118
+msgid "Distance In"
+msgstr "向内距离"
+
+#: __init__.py:116
+msgid "Distance from the left or right edge, in pixels. 70 keeps clear of the toolbar"
+msgstr "距左边缘或右边缘的距离，单位为像素。70 可避开工具栏"
+
+#: __init__.py:125
+msgid "Distance from the top or bottom edge, in pixels"
+msgstr "距顶部或底部边缘的距离，单位为像素"
+
+#: region.py:582
+msgid "Distance over which quad size changes from the surrounding quads to the target size. 0 uses twice the quad size"
+msgstr "四边形尺寸从周围四边形过渡到目标尺寸的距离。0 表示使用两倍四边形尺寸"
+
+#: guided.py:3058
+msgid "Don't ask again this session"
+msgstr "本次会话中不再询问"
+
+#: __init__.py:156
+msgid "Dot Size"
+msgstr "点大小"
+
+#: operators.py:15
+msgid "Draft"
+msgstr "草稿"
+
+#: operators.py:169
+#: ui.py:47
+msgid "Draft is fast with light cleanup; Hero spends more time on cleanup and checks"
+msgstr "草稿模式快速且清理较轻；英雄模式会在清理和检查上花更多时间"
+
+#: flowedit.py:377
+msgid "Draw"
+msgstr "绘制"
+
+#: flowedit.py:380
+msgid "Draw Edge"
+msgstr "绘制边"
+
+#: flowedit.py:378
+msgid "Draw Flow"
+msgstr "绘制流向"
+
+#: flowedit.py:379
+msgid "Draw Ring"
+msgstr "绘制环"
+
+#: flowedit.py:380
+msgid "Draw a line that must become a run of edges exactly (a crease, a panel line)"
+msgstr "绘制一条必须精确成为一串边的线（折痕、面板线）"
+
+#: flowedit.py:378
+msgid "Draw a line the rows of quads should run along (across a forehead, along an arm)"
+msgstr "绘制一条四边形行应沿其延伸的线（横跨额头、沿手臂）"
+
+#: flowedit.py:379
+msgid "Draw a loop round something (an eye, the mouth, a hole, a bolt): it becomes a closed edge loop with rings of quads round it"
+msgstr "围绕某物（眼睛、嘴、孔、螺栓）绘制一个环：它会变成一条闭合边循环，周围环绕若干圈四边形"
+
+#: flowedit.py:377
+msgid "Draw a stroke and it is recognised: a closed loop becomes a Ring, a line along a sharp crease an Edge, any other line a Flow line"
+msgstr "绘制一笔即可自动识别：闭合环变为“环”，沿锐利折痕的线变为“边”，其他线变为“流向线”"
+
+#: guided.py:422
+msgid "Draws each edge loop of the result in its own colour, and its poles (points where 3 or 5+ edges meet) as dots"
+msgstr "以各自颜色绘制结果中的每条边循环，并用点绘制其极点（3 条或 5 条以上边交汇的点）"
+
+#: ui.py:113
+msgid "Duplicate Faces"
+msgstr "重复面"
+
+#: guided.py:429
+msgid "Each Part Its Own Object"
+msgstr "每个部分独立为物体"
+
+#: ui.py:526
+msgid "Each mesh runs in one go: Esc stops between meshes"
+msgstr "每个网格一次性运行：Esc 在网格之间停止"
+
+#: guided.py:70
+msgid "Each point is its own area with its own density and fill style. They are remeshed one at a time"
+msgstr "每个点都有自己的区域、密度和填充样式。它们会逐个重网格"
+
+#: __init__.py:209
+msgid "Each uses its own memory and ends with the job. Off by default."
+msgstr "每个都使用自己的内存，并随任务结束。默认关闭。"
+
+#: guided.py:64
+msgid "Edge Loop"
+msgstr "循环边"
+
+#: guided.py:395
+#: panel.py:370
+msgid "Edge Loops"
+msgstr "循环边"
+
+#: region.py:573
+msgid "Edge length of the new quads inside the region. 0 matches the quads around the region"
+msgstr "区域内新四边面的边长。0 表示与区域周围的四边面匹配"
+
+#: guided.py:57
+msgid "Edge loops ring around the point (eyes, mouth, elbows): the quads flow around it"
+msgstr "循环边围绕点成环（眼睛、嘴、肘部）：四边面围绕其流动"
+
+#: operators.py:172
+#: ui.py:50
+msgid "Edges sharper than this angle (in degrees) count as creases and are kept"
+msgstr "角度比此值（度）更锐利的边视为折痕并保留"
+
+#: panel.py:745
+msgid "Edit Parts"
+msgstr "编辑部分"
+
+#: panel.py:724
+msgid "Edit parts..."
+msgstr "编辑部分…"
+
+#: guided.py:368
+msgid "Effort"
+msgstr "计算量"
+
+#: ui.py:126
+msgid "Elapsed ms"
+msgstr "耗时 ms"
+
+#: game_export.py:141
+#: panel.py:859
+msgid "Engine"
+msgstr "引擎"
+
+#: batch.py:31
+msgid "Error"
+msgstr "错误"
+
+#: ui.py:119
+msgid "Euler Characteristic"
+msgstr "欧拉示性数"
+
+#: hard_surface.py:115
+msgid "Even Cylinders"
+msgstr "均匀圆柱"
+
+#: guided.py:279
+msgid "Even Rows"
+msgstr "均匀行"
+
+#: region.py:590
+msgid "Even out jagged region borders by whole quads, with no notches or spikes"
+msgstr "用整四边面平整锯齿状区域边界，不留缺口或尖刺"
+
+#: ladder.py:481
+msgid "Even rows"
+msgstr "均匀行"
+
+#: guided.py:279
+msgid "Even, square quads in long rows. The look changes a little more and small sharp detail softens"
+msgstr "长行中均匀的方形四边面。外观变化稍大，细小的锐利细节会变柔和"
+
+#: guided.py:437
+msgid "Evens out the quads after the search, closer to hand-made. Slow, and the shape changes a little more"
+msgstr "搜索后均匀化四边面，更接近手工制作。较慢，形状变化稍大"
+
+#: profiles.py:22
+msgid "Every face is a triangle"
+msgstr "每个面都是三角形"
+
+#: hard_surface.py:24
+msgid "Every hard edge is marked Sharp and given full Crease on Apply. Good for game assets: no extra faces, and a Subdivision Surface still keeps the edges sharp"
+msgstr "应用时每条硬边都标记为锐边并获得完整折痕。适合游戏资产：无额外面，细分曲面仍保持边缘锐利"
+
+#: segments.py:860
+msgid "Every part"
+msgstr "每个部分"
+
+#: guided.py:287
+msgid "Exact Face Count"
+msgstr "精确面数"
+
+#: ui.py:144
+msgid "Exact Topology"
+msgstr "精确拓扑"
+
+#: guided.py:435
+msgid "Experimental, Low Poly on scans you will bake: judges the look after baking, so far fewer faces remain. Can leave thin slivers; check the result"
+msgstr "实验性：用于要烘焙的扫描的低多边形，按烘焙后的外观判断，因此保留的面少得多。可能留下细长薄片；请检查结果"
+
+#: __init__.py:91
+msgid "Experimental: shows Draw on the mesh under Shape the flow. Draw rings, flow lines and edges on a finished result and the quads around each stroke are redone"
+msgstr "实验性：在“塑造流向”下的网格上显示“绘制”。在完成结果上绘制环、流向线和边，笔画周围的四边面会重做"
+
+#: ui.py:110
+msgid "Extraordinary Ratio"
+msgstr "异常顶点比例"
+
+#: ui.py:109
+msgid "Extraordinary Verts"
+msgstr "异常顶点"
+
+#: flowedit.py:534
+msgid "Eye Ring"
+msgstr "眼部环"
+
+#: game_export.py:49
+msgid "FBX"
+msgstr "FBX"
+
+#: game_export.py:49
+msgid "FBX with PNG maps next to it"
+msgstr "FBX 及旁边的 PNG 贴图"
+
+#: guided.py:79
+msgid "Face Count"
+msgstr "面数"
+
+#: region.py:36
+#: region.py:569
+msgid "Face Set"
+msgstr "面集"
+
+#: batch.py:25
+#: guided.py:375
+msgid "Faces"
+msgstr "面"
+
+#: guided.py:374
+msgid "Faces Left"
+msgstr "剩余面数"
+
+#: region.py:38
+msgid "Faces inside the cages and volumes in the list (a box or lattice you move over the part)"
+msgstr "列表中笼和体积内的面（在部件上移动的盒或晶格）"
+
+#: guided.py:442
+msgid "Faces of the lightest LOD, as a share of your mesh's faces"
+msgstr "最轻 LOD 的面数，占网格面数的比例"
+
+#: guided.py:441
+msgid "Faces of the middle LOD, as a share of your mesh's faces"
+msgstr "中间 LOD 的面数，占网格面数的比例"
+
+#: guided.py:440
+msgid "Faces of the most detailed LOD, as a share of your mesh's faces"
+msgstr "最精细 LOD 的面数，占网格面数的比例"
+
+#: region.py:36
+msgid "Faces that share one Face Set number (sculpt Face Sets, or any whole-number face attribute)"
+msgstr "共享同一面集编号的面（雕刻面集或任意整数面属性）"
+
+#: region.py:570
+msgid "Faces weighted 0.5 or more in this group form the region"
+msgstr "该组中权重为 0.5 或以上的面构成区域"
+
+#: region.py:37
+msgid "Faces whose average vertex-group weight is at least 0.5"
+msgstr "平均顶点组权重至少为 0.5 的面"
+
+#: region.py:1002
+msgid "Faces with weight 0.5 or more"
+msgstr "权重为 0.5 或以上的面"
+
+#: ui.py:507
+msgid "Failed"
+msgstr "失败"
+
+#: ui.py:507
+msgid "Failed:"
+msgstr "失败："
+
+#: segment_goals.py:52
+msgid "Far fewer faces. The seam keeps its vertices, so go lower on the whole mesh first for a coarser seam"
+msgstr "面数少得多。缝合处会保留其顶点，因此若要更粗糙的缝合，请先降低整个网格的面数"
+
+#: operators.py:15
+msgid "Fast preview remesh with light cleanup. Halves the face target"
+msgstr "快速预览重网格，带轻度清理。面数目标减半"
+
+#: operators.py:44
+msgid "Favour crisp features and patch borders (machines, props)"
+msgstr "优先清晰特征和面片边界（机械、道具）"
+
+#: operators.py:46
+msgid "Favour keeping material and UV seam borders intact"
+msgstr "优先保持材质和 UV 缝合边界完整"
+
+#: operators.py:45
+msgid "Favour robustness on noisy or broken input"
+msgstr "优先对噪声或破损输入的鲁棒性"
+
+#: operators.py:43
+msgid "Favour smooth, flowing edge loops (characters, creatures, scans)"
+msgstr "优先平滑流畅的循环边（角色、生物、扫描）"
+
+#: operators.py:172
+#: ui.py:50
+msgid "Feature Angle"
+msgstr "特征角"
+
+#: __init__.py:43
+#: __init__.py:73
+msgid "Features to Keep"
+msgstr "保留特征"
+
+#: guided.py:107
+msgid "Few quads, spent only where it matters"
+msgstr "少量四边面，仅用在关键处"
+
+#: segment_goals.py:51
+msgid "Fewer faces where the surface allows it: quads that keep the shape, with no regard for rows"
+msgstr "在表面允许处减少面数：保持形状的四边面，不考虑行"
+
+#: guided.py:59
+msgid "Fewer, bigger quads near the point (flat or boring areas). Also cuts a hole in the region of Points Only"
+msgstr "点附近（平坦或单调区域）使用更少、更大的四边面。还会在“仅点”区域中挖洞"
+
+#: guided.py:277
+msgid "Fewest Faces"
+msgstr "最少面数"
+
+#: ladder.py:480
+msgid "Fewest faces"
+msgstr "最少面数"
+
+#: profiles.py:18
+msgid "Field Rows"
+msgstr "场行数"
+
+#: game_export.py:142
+msgid "File"
+msgstr "文件"
+
+#: guided.py:183
+#: guided.py:353
+msgid "Fill Style"
+msgstr "填充样式"
+
+#: region.py:562
+msgid "Fill straight up to the border (the 0.6 preview behaviour before this option)"
+msgstr "一直填充到边界（此选项之前的 0.6 预览行为）"
+
+#: guided.py:88
+msgid "Find the mirror plane (X, Y or Z). It is used only when the mesh is symmetric enough"
+msgstr "查找镜像平面（X、Y 或 Z）。仅在网格足够对称时使用"
+
+#: panel.py:725
+msgid "Finder..."
+msgstr "查找..."
+
+#: panel.py:597
+#: panel.py:899
+msgid "Fine-tune"
+msgstr "微调"
+
+#: panel.py:566
+msgid "Fine-tune..."
+msgstr "微调..."
+
+#: panel.py:791
+msgid "Finish"
+msgstr "完成"
+
+#: region.py:607
+msgid "Fit Target"
+msgstr "适配目标"
+
+#: fix_select.py:242
+#: panel.py:729
+msgid "Fix"
+msgstr "修复"
+
+#: fix_select.py:288
+msgid "Fix Selection"
+msgstr "修复选择"
+
+#: guided.py:448
+msgid "Flat Area Size"
+msgstr "平坦区域大小"
+
+#: profiles.py:14
+msgid "Flat Quads"
+msgstr "平坦四边形"
+
+#: operators.py:32
+msgid "Flat Quads (huge quads on flat areas)"
+msgstr "平坦四边形（在平坦区域生成巨大的四边形）"
+
+#: profiles.py:14
+msgid "Flat areas become one big quad each, then the rest is paired. Fewest faces on hard-surface and architecture"
+msgstr "平坦区域各变成一个大的四边形，其余部分再配对。在硬表面和建筑上得到最少面数"
+
+#: operators.py:175
+#: ui.py:53
+msgid "Flatness"
+msgstr "平坦度"
+
+#: operators.py:176
+#: region.py:46
+msgid "Flow"
+msgstr "流向"
+
+#: __init__.py:91
+msgid "Flow Editor (Experimental)"
+msgstr "流向编辑器（实验性）"
+
+#: guided.py:425
+msgid "Flow Editor: a clicked eye ring also goes on the other side, mirrored across the middle of your mesh (always on when the result is mirrored)"
+msgstr "流向编辑器：点击的眼部环也会出现在另一侧，沿网格中部镜像（结果为镜像时始终开启）"
+
+#: guided.py:424
+msgid "Flow Editor: how wide a clicked eye ring, mouth ring or nose-to-mouth shape is. 0 picks a size from your mesh"
+msgstr "流向编辑器：点击的眼部环、嘴部环或鼻到嘴形状的宽度。0 表示根据网格自动选取大小"
+
+#: guided.py:423
+msgid "Flow Editor: redo the quads around each stroke as soon as you draw, move or erase it. Off: strokes are only kept for the next Start"
+msgstr "流向编辑器：绘制、移动或擦除笔画后立即重做其周围的四边形。关闭时，笔画只保留到下次开始"
+
+#: profiles.py:17
+msgid "Flow Fill"
+msgstr "流向填充"
+
+#: panel.py:378
+msgid "Flow Lines"
+msgstr "流向线"
+
+#: guided.py:3307
+msgid "Folder"
+msgstr "文件夹"
+
+#: operators.py:176
+#: region.py:557
+msgid "Follow Curvature"
+msgstr "跟随曲率"
+
+#: guided.py:432
+msgid "For rough scans (rock, ground): judges bumps on average. Far fewer faces; bumps smaller than a few pixels are lost"
+msgstr "适用于粗糙扫描（岩石、地面）：按平均值判断凹凸。面数少得多；小于几个像素的凹凸会丢失"
+
+#: operators.py:173
+#: ui.py:51
+msgid "Force every face to be a quad, even if shape accuracy suffers"
+msgstr "强制每个面都是四边形，即使形状精度受损"
+
+#: hardware.py:32
+msgid "Full"
+msgstr "完整"
+
+#: panel.py:27
+msgid "Game"
+msgstr "游戏"
+
+#: guided.py:107
+msgid "Game LOD"
+msgstr "游戏 LOD"
+
+#: operators.py:42
+msgid "General purpose pairing that follows sharp features"
+msgstr "跟随尖锐特征的通用配对"
+
+#: guided.py:373
+msgid "Give the face count as a share of your faces or as a number"
+msgstr "以面的占比或具体数字指定面数"
+
+#: operators.py:16
+msgid "Good quality at a sensible speed. The right choice most of the time"
+msgstr "质量良好，速度合理。大多数情况下都是正确选择"
+
+#: region.py:47
+msgid "Grid"
+msgstr "栅格"
+
+#: profiles.py:16
+msgid "Grid Fill"
+msgstr "栅格填充"
+
+#: guided.py:403
+msgid "Group"
+msgstr "组"
+
+#: fix_select.py:283
+#: segment_goals.py:1266
+msgid "Grow"
+msgstr "扩展"
+
+#: guided.py:63
+#: guided.py:345
+msgid "Guide"
+msgstr "引导"
+
+#: __init__.py:51
+#: __init__.py:85
+msgid "Guided"
+msgstr "引导式"
+
+#: __init__.py:240
+msgid "Guided Points"
+msgstr "引导点"
+
+#: guided.py:350
+msgid "Guided Preview"
+msgstr "引导预览"
+
+#: ui.py:83
+#: ui.py:292
+msgid "HUD"
+msgstr "HUD"
+
+#: __init__.py:103
+msgid "HUD On in New Scenes"
+msgstr "新场景中开启 HUD"
+
+#: guided.py:450
+#: hard_surface.py:117
+msgid "Hard Edge Angle"
+msgstr "硬边角度"
+
+#: hard_surface.py:101
+#: hard_surface.py:116
+msgid "Hard Edges"
+msgstr "硬边"
+
+#: operators.py:44
+#: panel.py:460
+msgid "Hard Surface"
+msgstr "硬表面"
+
+#: operators.py:52
+msgid "Hard Surface / Features"
+msgstr "硬表面 / 特征"
+
+#: hard_surface.py:23
+msgid "Hard edges are only shaded hard, as before"
+msgstr "硬边仅按硬着色处理，与之前相同"
+
+#: guided.py:105
+msgid "Hard-Surface Prop"
+msgstr "硬表面道具"
+
+#: __init__.py:224
+#: ui.py:86
+msgid "Heatmap"
+msgstr "热力图"
+
+#: operators.py:17
+msgid "Hero"
+msgstr "主角"
+
+#: hard_surface.py:25
+msgid "Holding Edges"
+msgstr "保持边"
+
+#: operators.py:179
+#: ui.py:57
+msgid "Holes & Shells"
+msgstr "孔洞与壳体"
+
+#: operators.py:196
+#: ui.py:74
+msgid "How UVs and textures are carried over to the new mesh"
+msgstr "UV 和纹理如何转移到新网格上"
+
+#: guided.py:448
+msgid "How big quads inside flat areas may get. Left makes them smaller and more even; right fewer and longer. Reruns the search"
+msgstr "平坦区域内四边形可以多大。向左更小更均匀；向右更少更长。会重新运行搜索"
+
+#: guided.py:367
+msgid "How close to your mesh the result must look, as the share of the view that may change. Lower keeps more faces; higher gives a rougher, lighter mesh"
+msgstr "结果与网格的接近程度，以可变化的视图占比表示。越低保留越多面；越高网格越粗糙、越轻"
+
+#: guided.py:364
+msgid "How close to your mesh the result stays. More detail keeps more faces"
+msgstr "结果与网格的接近程度。细节越多保留的面越多"
+
+#: guided.py:370
+msgid "How each part's faces are made. Auto suits nearly every mesh; you can give each part its own method after the search"
+msgstr "各部件面的生成方式。自动适合几乎所有网格；搜索后可给每个部件单独指定方法"
+
+#: operators.py:175
+#: ui.py:53
+msgid "How far a surface may bump away from flat and still become one big quad, as a percent of the mesh size. Higher gives fewer faces and less detail"
+msgstr "表面偏离平面后仍能成为一个大四边面的程度，以网格尺寸的百分比计。越高面越少、细节越少"
+
+#: region.py:807
+msgid "How far each point moves toward its smoothed spot on every pass: 0 not at all, 1 all the way"
+msgstr "每轮中每个点向平滑位置移动的程度：0 为不移动，1 为完全移动"
+
+#: guided.py:181
+msgid "How far the point reaches (object-space units)"
+msgstr "点的影响范围（物体空间单位）"
+
+#: guided.py:2684
+msgid "How far the point reaches, in scene units. 0 picks a size from the mesh type"
+msgstr "点的影响范围，以场景单位计。0 表示根据网格类型自动选择大小"
+
+#: operators.py:193
+#: ui.py:71
+msgid "How hard to tidy leftover triangles, n-gons and bad corners (0 = off, 1 = strongest)"
+msgstr "整理残留三角面、N 边形和不良角的强度（0 = 关闭，1 = 最强）"
+
+#: guided.py:368
+msgid "How hard to work this computer. Light keeps Blender smooth while it works; Full finishes soonest; Auto picks from your cores and free memory"
+msgstr "电脑的工作强度。轻量可让 Blender 在工作时保持流畅；完整最快完成；自动根据核心数和可用内存选择"
+
+#: guided.py:361
+msgid "How many Multires levels to add. Each level has four times the faces of the one below it"
+msgstr "要添加的多级精度级别数。每一级的面数是其下一级的四倍"
+
+#: operators.py:178
+#: ui.py:56
+msgid "How many candidate results are built and compared; the best one wins. More is slower"
+msgstr "构建并比较多少个候选结果；最佳者胜出。更多会更慢"
+
+#: operators.py:181
+#: ui.py:59
+msgid "How many faces are sampled when scanning very large meshes. More is slower and more exact"
+msgstr "扫描超大网格时采样多少个面。更多会更慢也更精确"
+
+#: guided.py:382
+msgid "How many faces the selected parts get when you press Redo. The middle keeps the quad size they have now"
+msgstr "按下重做时，所选部分得到的面数。中间值保持当前的四边面大小"
+
+#: guided.py:374
+msgid "How many faces to end up with, as a share of your mesh's faces now. 25% turns 40,000 faces into about 10,000"
+msgstr "最终面数，占当前网格面数的比例。25% 会把 40,000 面变成约 10,000 面"
+
+#: guided.py:375
+msgid "How many faces to end up with. The result lands within about 10% of it unless the parts can't go that low"
+msgstr "最终面数。结果会落在大约 10% 误差内，除非各部分无法降到那么低"
+
+#: guided.py:396
+msgid "How many parallel loops each drawn line makes: the line itself plus one more on each side is 3"
+msgstr "每条绘制的线生成多少条平行循环边：线本身加两侧各一条为 3"
+
+#: guided.py:398
+msgid "How many parallel loops each joint line makes. 3 is the least that bends well; use more across a big joint"
+msgstr "每条关节线生成多少条平行循环边。3 是能良好弯曲的最小值；大关节处可使用更多"
+
+#: seglive.py:66
+msgid "How many parts the mesh is cut into. Left finds only the big parts, right also the small ones; locked parts stay"
+msgstr "网格会被切成多少部分。左侧只找大部件，右侧也会找小部件；锁定的部分保持不变"
+
+#: guided.py:428
+msgid "How many sides each cylinder and ball has (small parts get half). More sides look rounder and cost faces"
+msgstr "每个圆柱和球体有多少条边（小部件减半）。边越多越圆，但更耗面"
+
+#: operators.py:171
+#: ui.py:49
+msgid "How many starting points PairClosure tries. More is slower and usually cleaner"
+msgstr "PairClosure 尝试多少个起始点。更多会更慢，但通常更干净"
+
+#: region.py:806
+msgid "How many times the points are smoothed and settled back on the surface. More follows it closer, slower"
+msgstr "点被平滑并重新贴合到表面的次数。更多会更贴合表面，但更慢"
+
+#: guided.py:413
+msgid "How much more of the look Tidy Up may change, in percent, on top of the result as it was"
+msgstr "在原有结果之上，整理最多可额外改变外观的百分比"
+
+#: seglive.py:70
+msgid "How much part borders are rounded off where no crease holds them. Right: smoother, rounder borders"
+msgstr "在没有折痕约束处，部件边界的圆滑程度。右侧：更平滑、更圆的边界"
+
+#: seglive.py:69
+msgid "How much sharp edges split the mesh into parts. More: every crease becomes a part border"
+msgstr "锐边将网格分割成部件的程度。更多：每条折痕都会成为部件边界"
+
+#: guided.py:365
+msgid "How much tidying runs after the search. More is tidier and takes longer"
+msgstr "搜索后执行多少整理。更多更整洁，但耗时更长"
+
+#: guided.py:447
+msgid "How readily round, smooth areas become rows of quads that follow their curve. Right finds more of them and adds faces. Reruns the search"
+msgstr "圆形平滑区域有多容易变成沿其曲率排列的四边面行。右侧会找到更多并增加面。会重新运行搜索"
+
+#: __init__.py:142
+msgid "How solid the dashboard background is. Text always stays fully opaque"
+msgstr "仪表板背景的实心程度。文本始终保持完全不透明"
+
+#: guided.py:405
+msgid "How strongly the marks move faces. 1 keeps about four times as many faces under More Detail as under Less Detail"
+msgstr "标记移动面的强度。1 时，“更多细节”下的面数约为“更少细节”下的四倍"
+
+#: guided.py:182
+msgid "How strongly the point changes the quad size: 1 = about three times smaller (or bigger for Calm) at the centre"
+msgstr "点改变四边面大小的强度：1 = 中心处约缩小到三分之一（Calm 时则放大到三倍）"
+
+#: operators.py:168
+#: ui.py:46
+msgid "How the new quads are built. Smart (Atlas-Q) measures the mesh, then tries several solvers and keeps the best"
+msgstr "新四边面的构建方式。智能（Atlas-Q）会测量网格，然后尝试多种求解器并保留最佳结果"
+
+#: region.py:567
+msgid "How the part to redo is chosen"
+msgstr "重做部分的选取方式"
+
+#: guided.py:369
+msgid "How the quads are laid out. Fewest Faces follows the shape; Even Rows makes tidy rows of square quads but changes the look a little more"
+msgstr "四边面的布局方式。最少面数会跟随形状；均匀行会生成整齐的方形四边面行，但会稍微更多地改变外观"
+
+#: guided.py:383
+msgid "How the selected parts' quads are made when their Use is Reduce or Low Poly"
+msgstr "当所选部分的用途为缩减或低多边形时，其四边面的生成方式"
+
+#: guided.py:337
+msgid "How this shape joins the ones above it. They are worked out from top to bottom, so start with a Union"
+msgstr "此形状如何与上方形状结合。它们会从上到下计算，因此请以并集开始"
+
+#: operators.py:197
+#: ui.py:75
+msgid "If UV transfer fails, bake the colour into a new texture instead"
+msgstr "如果 UV 传递失败，则改为将颜色烘焙到新纹理"
+
+#: operators.py:194
+#: ui.py:72
+msgid "If the mesh is too broken to remesh, rebuild it through voxels first (can close small holes)"
+msgstr "如果网格破损严重而无法重网格化，先通过体素重建（可封闭小孔）"
+
+#: region.py:593
+msgid "Ignore Specks"
+msgstr "忽略碎屑"
+
+#: region.py:593
+msgid "Ignore region specks and fill holes up to this many faces"
+msgstr "忽略区域碎屑，并填充最多这么多面的孔洞"
+
+#: region.py:51
+msgid "In a Copy"
+msgstr "在副本中"
+
+#: region.py:50
+msgid "In the Mesh"
+msgstr "在网格中"
+
+#: ui.py:142
+msgid "Input Faces"
+msgstr "输入面"
+
+#: panel.py:946
+msgid "Inside Shapes"
+msgstr "形状内部"
+
+#: guided.py:426
+msgid "Inside the shapes: left makes fewer, bigger, tidier quads; the middle keeps the quad size; right makes smaller quads with more detail"
+msgstr "形状内部：左侧生成更少、更大、更整齐的四边面；中间保持四边面大小；右侧生成更小、细节更多的四边面"
+
+#: guided.py:84
+msgid "Intersect"
+msgstr "相交"
+
+#: ui.py:114
+msgid "Invalid Quads"
+msgstr "无效四边面"
+
+#: panel.py:1022
+msgid "Issue Reports"
+msgstr "问题报告"
+
+#: region.py:806
+msgid "Iterations"
+msgstr "迭代"
+
+#: panel.py:383
+msgid "Joint Lines"
+msgstr "关节线"
+
+#: guided.py:435
+msgid "Judge After Baking (Experimental)"
+msgstr "烘焙后判断（实验性）"
+
+#: operators.py:191
+#: ui.py:69
+msgid "Keep Attributes"
+msgstr "保留属性"
+
+#: guided.py:430
+msgid "Keep Copies as Instances"
+msgstr "将副本保留为实例"
+
+#: guided.py:3181
+msgid "Keep Copies as Instances was not used: this result has no exact copies, or it is baked, mirrored, tidied or repaired"
+msgstr "未使用“将副本保留为实例”：此结果没有完全相同的副本，或者已被烘焙、镜像、整理或修复"
+
+#: operators.py:202
+#: ui.py:80
+msgid "Keep Debug Objects"
+msgstr "保留调试物体"
+
+#: guided.py:74
+msgid "Keep Detail"
+msgstr "保留细节"
+
+#: guided.py:372
+msgid "Keep Detail aims for a look; Reduce To aims for a face count and then tells you how much the look changed"
+msgstr "保留细节以目标外观为准；缩减到以目标面数为目标，然后告诉你外观改变了多少"
+
+#: guided.py:282
+msgid "Keep Most"
+msgstr "保留大部分"
+
+#: operators.py:188
+#: ui.py:66
+msgid "Keep Open Borders"
+msgstr "保留开放边界"
+
+#: operators.py:187
+#: ui.py:65
+msgid "Keep Sharp Edges"
+msgstr "保留锐边"
+
+#: guided.py:388
+msgid "Keep Side"
+msgstr "保留侧边"
+
+#: guided.py:439
+#: operators.py:189
+msgid "Keep UV Seams"
+msgstr "保留 UV 缝合线"
+
+#: guided.py:282
+msgid "Keep a Lot"
+msgstr "保留很多"
+
+#: segment_goals.py:50
+msgid "Keep as Is"
+msgstr "保持原样"
+
+#: guided.py:58
+msgid "Keep hard edges near the point; the quads are smaller and the creases are not rounded off"
+msgstr "在点附近保留硬边；四边面更小，折痕不会被圆滑掉"
+
+#: operators.py:54
+msgid "Keep intentional open borders and never close the mesh with voxels"
+msgstr "保留有意保留的开放边界，且绝不使用体素封闭网格"
+
+#: operators.py:187
+#: ui.py:65
+msgid "Keep marked sharp edges and hard creases as quad edge lines"
+msgstr "将标记的锐利边和硬折痕保留为四边形边线"
+
+#: region.py:43
+msgid "Keep only region faces that are also inside this cage"
+msgstr "仅保留同时位于此笼内的区域面"
+
+#: guided.py:84
+msgid "Keep only the faces that the shapes above it and this shape both cover"
+msgstr "仅保留上方形状与此形状共同覆盖的面"
+
+#: operators.py:52
+msgid "Keep persistent sharp edges, UV seams and material borders"
+msgstr "保留持续的锐利边、UV 接缝和材质边界"
+
+#: guided.py:98
+msgid "Keep the UVs and materials of your mesh. No textures are made"
+msgstr "保留网格的 UV 和材质。不生成纹理"
+
+#: game_export.py:51
+msgid "Keep the baked size"
+msgstr "保留烘焙尺寸"
+
+#: operators.py:202
+#: ui.py:80
+msgid "Keep the intermediate meshes the solver creates, for troubleshooting"
+msgstr "保留求解器创建的中间网格，用于排查问题"
+
+#: operators.py:188
+#: ui.py:66
+msgid "Keep the outline of open surfaces in place"
+msgstr "保持开放表面的轮廓位置不变"
+
+#: profiles.py:24
+msgid "Keep the paired quads and leave the leftover triangles: no closing, so no extra faces"
+msgstr "保留成对的四边形，留下剩余三角形：不封闭，因此不产生额外面"
+
+#: guided.py:74
+msgid "Keep what you can see: the fewest faces that still look like your mesh, within Detail"
+msgstr "保留可见内容：在“细节”范围内，用仍像你网格的最少面数"
+
+#: guided.py:99
+msgid "Keep your materials and add a baked normal map, so the fine shape still shows"
+msgstr "保留材质并添加烘焙法线贴图，使精细形状仍能显示"
+
+#: guided.py:402
+msgid "Keeps more faces where you marked More Detail and fewer where you marked Less Detail. Paint the marks or place marker balls"
+msgstr "在标记“更多细节”处保留更多面，在标记“细节较少”处保留更少面。可绘制标记或放置标记球"
+
+#: guided.py:439
+msgid "Keeps quads inside each piece of your UV map so textures stay in place. Can double the faces; for game assets, baking is usually better"
+msgstr "使四边形保留在 UV 贴图的每个分块内，让纹理保持在原位。可能使面数翻倍；对于游戏资产，通常烘焙更好"
+
+#: flowedit.py:393
+#: flowedit.py:616
+msgid "Kind"
+msgstr "类型"
+
+#: panel.py:825
+msgid "LOD Set"
+msgstr "LOD 集"
+
+#: panel.py:785
+msgid "LOD set..."
+msgstr "LOD 集…"
+
+#: guided.py:440
+msgid "LOD0"
+msgstr "LOD0"
+
+#: guided.py:441
+msgid "LOD1"
+msgstr "LOD1"
+
+#: guided.py:442
+msgid "LOD2"
+msgstr "LOD2"
+
+#: guided.py:75
+msgid "Land on a face count you pick (a percent of your faces, or a number). It then tells you how much the view changed, so you can judge it"
+msgstr "达到你指定的面数（你面数的百分比或具体数值）。随后会显示视图变化程度，便于判断"
+
+#: seglive.py:67
+msgid "Largest Part"
+msgstr "最大部件"
+
+#: game_export.py:145
+msgid "Largest Texture"
+msgstr "最大纹理"
+
+#: ui.py:192
+msgid "Last attempt failed"
+msgstr "上次尝试失败"
+
+#: ui.py:192
+msgid "Last result"
+msgstr "上次结果"
+
+#: region.py:703
+msgid "Lattice"
+msgstr "晶格"
+
+#: profiles.py:18
+msgid "Lays long rows of quads over each part from a direction field, along its long creases. Most organized, with more shape change on busy parts. Parts it can't do well use Auto. Up to 30,000 quads per part"
+msgstr "按方向场沿长折痕在每个部件上铺设长排四边形。最整齐，但复杂部件上形状变化更大。无法处理好的部件使用自动。每个部件最多 30,000 个四边形"
+
+#: guided.py:411
+msgid "Lays out the same faces more tidily: fewer messy spots, straighter rows. Costs a little detail; the line below shows how much"
+msgstr "更整齐地排布相同面：杂乱处更少，排数更直。会损失一点细节；下方一行显示损失多少"
+
+#: hard_surface.py:23
+msgid "Leave"
+msgstr "保留"
+
+#: guided.py:434
+msgid "Leave Out Hidden Pieces"
+msgstr "排除隐藏部件"
+
+#: region.py:51
+msgid "Leave your mesh untouched and write the result into a copy"
+msgstr "保持网格不变，将结果写入副本"
+
+#: guided.py:434
+msgid "Leaves out loose pieces that no camera outside the model can see. The result says how many were left out"
+msgstr "排除模型外部相机都看不到的松散部件。结果会说明排除了多少个"
+
+#: ui.py:203
+msgid "Left over:"
+msgstr "剩余："
+
+#: guided.py:410
+msgid "Left: fewest faces, quads follow the shape. Right: even rows of square quads, with more faces and a little softer detail"
+msgstr "左侧：面数最少，四边形随形状。右侧：均匀的方形四边形行列，面数更多且细节稍柔和"
+
+#: guided.py:409
+msgid "Left: smaller quads that keep more detail. Right: bigger quads and fewer faces. Each stop is a full result; Work Out Other Sizes makes them in short steps while you keep working"
+msgstr "左侧：更小的四边形，保留更多细节。右侧：更大的四边形和更少的面。每个档位都是完整结果；计算其他尺寸会在你继续工作时分小步生成"
+
+#: guided.py:3687
+#: guided.py:3750
+msgid "Less Detail"
+msgstr "细节较少"
+
+#: guided.py:404
+msgid "Less Group"
+msgstr "较少分组"
+
+#: __init__.py:97
+msgid "Lets CurioMesh start background copies of this Blender (never any other program) for Use Several Cores and for Even Rows, which runs QuadriFlow on whole pieces there so this Blender stays usable and Stop works. They end with the job. Off: everything runs inside this Blender and Even Rows is not available"
+msgstr "允许 CurioMesh 为“使用多个核心”和“均匀行”启动此 Blender 的后台副本（绝不启动任何其他程序）；后者在那里对整块运行 QuadriFlow，使当前 Blender 保持可用且“停止”有效。它们会随任务结束。关闭：一切都在此 Blender 内运行，且“均匀行”不可用"
+
+#: guided.py:361
+msgid "Levels"
+msgstr "级别"
+
+#: hardware.py:30
+msgid "Light"
+msgstr "轻量"
+
+#: guided.py:282
+msgid "Lighter"
+msgstr "更轻"
+
+#: guided.py:282
+msgid "Lightest"
+msgstr "最轻"
+
+#: guided.py:397
+msgid "Lines drawn across a joint (elbow, knee, mouth corner) become evenly spaced loops, so the mesh bends without pinching"
+msgstr "横跨关节（肘、膝、嘴角）绘制的线会变成均匀间隔的环，使网格弯曲时不产生夹挤"
+
+#: guided.py:395
+msgid "Lines you draw (round an eye or the mouth) become real edge loops with even rows of quads beside them"
+msgstr "绘制的线（围绕眼睛或嘴）会变成真正的边循环，旁边有均匀的四边形行列"
+
+#: guided.py:423
+#: ui.py:92
+msgid "Live"
+msgstr "实时"
+
+#: panel.py:1093
+msgid "Live Preview & Cage"
+msgstr "实时预览与笼"
+
+#: ui.py:315
+msgid "Live: waiting for a change..."
+msgstr "实时：等待更改…"
+
+#: ui.py:123
+msgid "Local Quad Manifold Valid"
+msgstr "局部四边形流形有效"
+
+#: guided.py:178
+#: guided.py:2685
+msgid "Location"
+msgstr "位置"
+
+#: operators.py:41
+msgid "Look at the mesh and choose a style"
+msgstr "查看网格并选择一种样式"
+
+#: guided.py:57
+msgid "Loop"
+msgstr "循环"
+
+#: panel.py:1086
+msgid "Loop = rings around, Sharp = keep edges"
+msgstr "循环 = 环绕成环，锐利 = 保留边"
+
+#: guided.py:422
+msgid "Loop Flow"
+msgstr "循环流向"
+
+#: guided.py:399
+msgid "Loop Gap"
+msgstr "循环间隙"
+
+#: guided.py:396
+#: guided.py:398
+msgid "Loops"
+msgstr "循环"
+
+#: panel.py:28
+#: segment_goals.py:52
+msgid "Low Poly"
+msgstr "低多边形"
+
+#: overlay.py:68
+msgid "Lower left of the viewport (clear of the toolbar)"
+msgstr "视图左下角（避开工具栏）"
+
+#: overlay.py:69
+msgid "Lower right of the viewport (clear of the sidebar)"
+msgstr "视图右下角（避开侧栏）"
+
+#: guided.py:360
+msgid "Makes a clean low mesh and, on Apply, Multires levels that bring your shape back. Animate or export level 0; your mesh is only read"
+msgstr "生成干净的低面网格，并在应用时创建可恢复形状的多级细分级别。动画或导出级别 0；你的网格只会被读取"
+
+#: guided.py:391
+msgid "Makes the quads follow the curves in the list, such as a line along a panel. The curves are laid onto the mesh"
+msgstr "使四边形沿列表中的曲线排列，例如沿面板的一条线。曲线会铺到网格上"
+
+#: hard_surface.py:24
+msgid "Mark Sharp + Crease"
+msgstr "标记锐边 + 折痕"
+
+#: __init__.py:46
+#: __init__.py:80
+msgid "Materials & UVs"
+msgstr "材质与 UV"
+
+#: ui.py:125
+msgid "Materials Preserved"
+msgstr "保留材质"
+
+#: ui.py:133
+msgid "Max Sample Error / Diagonal"
+msgstr "最大采样误差 / 对角线"
+
+#: guided.py:351
+msgid "Mesh Type"
+msgstr "网格类型"
+
+#: ui.py:138
+msgid "Message"
+msgstr "消息"
+
+#: operators.py:45
+msgid "Messy Scan"
+msgstr "杂乱扫描"
+
+#: guided.py:370
+#: guided.py:383
+msgid "Method"
+msgstr "方法"
+
+#: hard_surface.py:29
+msgid "Millimetres"
+msgstr "毫米"
+
+#: ui.py:121
+msgid "Min Scaled Jacobian"
+msgstr "最小缩放雅可比"
+
+#: guided.py:386
+#: panel.py:478
+msgid "Mirror"
+msgstr "镜像"
+
+#: operators.py:190
+#: ui.py:68
+msgid "Mirror Symmetry"
+msgstr "镜像对称"
+
+#: guided.py:89
+msgid "Mirror across the plane facing X"
+msgstr "沿朝向 X 的平面镜像"
+
+#: guided.py:90
+msgid "Mirror across the plane facing Y"
+msgstr "沿朝向 Y 的平面镜像"
+
+#: guided.py:91
+msgid "Mirror across the plane facing Z"
+msgstr "沿朝向 Z 的平面镜像"
+
+#: guided.py:387
+msgid "Mirrors even when the two sides differ, so the result is exactly symmetric. Differences on the other side are lost"
+msgstr "即使两侧不同也会镜像，因此结果完全对称。另一侧的差异会丢失"
+
+#: profiles.py:24
+msgid "Mixed"
+msgstr "混合"
+
+#: panel.py:501
+msgid "More Uses"
+msgstr "更多用途"
+
+#: guided.py:56
+msgid "More, smaller quads around the point (eyes, fingers, a face)"
+msgstr "在点周围生成更多更小的四边形（眼睛、手指、面部）"
+
+#: guided.py:412
+#: guided.py:413
+msgid "Most Detail Loss"
+msgstr "细节损失最多"
+
+#: game_export.py:144
+msgid "Most Triangles"
+msgstr "三角形最多"
+
+#: flowedit.py:535
+msgid "Mouth Ring"
+msgstr "嘴部环"
+
+#: guided.py:360
+msgid "Multires Detail"
+msgstr "多级精度细节"
+
+#: ui.py:106
+msgid "N-gons"
+msgstr "N 边形"
+
+#: segment_goals.py:1124
+msgid "Name"
+msgstr "名称"
+
+#: __init__.py:58
+msgid "Name of the tab in the 3D Viewport sidebar (N panel) that holds CurioMesh"
+msgstr "3D 视图侧栏（N 面板）中 CurioMesh 所在选项卡的名称"
+
+#: region.py:568
+msgid "Name of the whole-number face attribute (sculpt Face Sets use .sculpt_face_set)"
+msgstr "整数面属性的名称（雕刻面集使用 .sculpt_face_set）"
+
+#: panel.py:959
+msgid "Needs a finished result"
+msgstr "需要已完成的结果"
+
+#: ui.py:361
+msgid "Never changes your mesh."
+msgstr "绝不会更改你的网格。"
+
+#: segment_goals.py:1265
+msgid "New"
+msgstr "新建"
+
+#: guided.py:94
+#: operators.py:79
+msgid "New Object"
+msgstr "新建物体"
+
+#: operators.py:200
+#: ui.py:78
+msgid "New Object keeps your original; Replace overwrites its mesh"
+msgstr "新建物体保留原物体；替换会覆盖其网格"
+
+#: guided.py:355
+msgid "New Point Type"
+msgstr "新点类型"
+
+#: guided.py:356
+msgid "New Radius"
+msgstr "新半径"
+
+#: guided.py:357
+msgid "New Strength"
+msgstr "新强度"
+
+#: panel.py:1088
+msgid "Next"
+msgstr "下一个"
+
+#: panel.py:1112
+msgid "Next spot to fix"
+msgstr "下一个要修复的位置"
+
+#: panel.py:281
+msgid "Next: try the sliders below, then Apply"
+msgstr "下一步：尝试下方滑块，然后应用"
+
+#: issue_panel.py:330
+#: panel.py:633
+msgid "No bad spots found"
+msgstr "未发现不良位置"
+
+#: guided.py:290
+msgid "No extra tidying after the search. Fastest"
+msgstr "搜索后不做额外整理。最快"
+
+#: region.py:987
+msgid "No faces selected yet"
+msgstr "尚未选择面"
+
+#: profiles.py:19
+msgid "No pairing at all: the reduced triangles as they are. About twice the faces of the same shape in quads"
+msgstr "完全不配对：保留简化后的三角形。面数约为同一形状四边形版本的两倍"
+
+#: segments.py:860
+msgid "No part"
+msgstr "无部件"
+
+#: segments.py:583
+msgid "No part could be put back"
+msgstr "无法放回任何部件"
+
+#: seglive.py:67
+msgid "No part grows past this share of its loose piece. 100% leaves the size to Part Detail"
+msgstr "任何部件都不会超过其松散块的这个占比。100% 时大小交给“部件细节”决定"
+
+#: guided.py:2697
+msgid "No surface found"
+msgstr "未找到表面"
+
+#: ui.py:203
+msgid "No triangles or n-gons left"
+msgstr "没有剩余三角形或 N 边形"
+
+#: guided.py:106
+msgid "Noisy scans: broad strokes, smoothed curvature, flowing quads"
+msgstr "噪点扫描：大笔触、平滑曲率、流畅四边形"
+
+#: ui.py:111
+#: ui.py:146
+msgid "Non-Manifold Edges"
+msgstr "非流形边"
+
+#: ui.py:112
+msgid "Non-Manifold Vertices"
+msgstr "非流形顶点"
+
+#: operators.py:75
+#: segments.py:860
+msgid "None"
+msgstr "无"
+
+#: guided.py:179
+#: guided.py:291
+msgid "Normal"
+msgstr "法线"
+
+#: guided.py:100
+msgid "Normal + Color"
+msgstr "法线 + 颜色"
+
+#: guided.py:445
+msgid "Normal + Color: bakes onto this many sets of maps, each its own material, so a big model keeps detail"
+msgstr "法线 + 颜色：烘焙到这么多组贴图，每组各自一个材质，因此大型模型也能保留细节"
+
+#: game_export.py:143
+#: guided.py:99
+msgid "Normal Map"
+msgstr "法线贴图"
+
+#: flowedit.py:536
+msgid "Nose to Mouth"
+msgstr "鼻到嘴"
+
+#: panel.py:911
+msgid "Not checked yet"
+msgstr "尚未检查"
+
+#: guided.py:1343
+msgid "Nothing changed on the preview: fix an area in Edit Mode first"
+msgstr "预览没有变化：请先在编辑模式中修复一个区域"
+
+#: panel.py:211
+msgid "Nothing changes until you press Apply"
+msgstr "按下“应用”之前不会发生任何变化"
+
+#: region.py:1083
+msgid "Nothing changes until you press Apply."
+msgstr "按下“应用”之前不会发生任何变化。"
+
+#: ui.py:604
+msgid "Nothing measured yet."
+msgstr "尚未测量任何内容。"
+
+#: guided.py:3166
+msgid "Nothing to apply"
+msgstr "无可应用内容"
+
+#: game_export.py:49
+msgid "OBJ"
+msgstr "OBJ"
+
+#: game_export.py:49
+msgid "OBJ and MTL with PNG maps next to it"
+msgstr "OBJ 和 MTL，旁边带 PNG 贴图"
+
+#: batch.py:23
+msgid "Object"
+msgstr "物体"
+
+#: guided.py:87
+#: guided.py:98
+msgid "Off"
+msgstr "关闭"
+
+#: __init__.py:116
+#: __init__.py:218
+msgid "Offset X"
+msgstr "X 偏移"
+
+#: __init__.py:125
+#: __init__.py:219
+msgid "Offset Y"
+msgstr "Y 偏移"
+
+#: operators.py:37
+msgid "Older name for Smart: Atlas-Q, kept so old files still work"
+msgstr "Smart 的旧名称：Atlas-Q，保留以兼容旧文件"
+
+#: hard_surface.py:25
+msgid "On Apply, a loop is added on both sides of every hard edge, close to it, so a Subdivision Surface keeps the edge sharp without creases. Adds faces along every hard edge; use it for a mesh you will subdivide"
+msgstr "应用时，在每条硬边两侧各添加一条靠近它的循环边，使细分曲面无需折痕也能保持边缘锐利。沿每条硬边增加面；用于将要细分的网格"
+
+#: guided.py:443
+msgid "On Apply, bakes your mesh's fine detail into textures on the result. Can take minutes"
+msgstr "应用时，将网格的精细细节烘焙到结果的贴图中。可能需要数分钟"
+
+#: guided.py:401
+msgid "On Apply, marks the middle loop of each joint line as sharp edges"
+msgstr "应用时，将每条关节线的中间循环边标记为锐边"
+
+#: guided.py:400
+msgid "On Apply, marks the middle loop of each joint line with an edge crease, for Subdivision Surface"
+msgstr "应用时，用边折痕标记每条关节线的中间循环边，供细分曲面使用"
+
+#: guided.py:429
+msgid "On Apply, writes one object per loose part of your mesh instead of one merged mesh"
+msgstr "应用时，为网格的每个松散部分输出一个物体，而不是一个合并网格"
+
+#: ladder.py:559
+msgid "On: bigger quads on the selected parts (fewer faces). Off: smaller quads (more faces)"
+msgstr "开：所选部分使用更大的四边形（面更少）。关：更小的四边形（面更多）"
+
+#: guided.py:3687
+#: guided.py:3750
+msgid "On: bigger quads there (Less Detail). Off: smaller quads there (More Detail)"
+msgstr "开：该处四边形更大（细节更少）。关：该处四边形更小（细节更多）"
+
+#: game_export.py:49
+msgid "One file with the textures inside"
+msgstr "单个文件，内含贴图"
+
+#: operators.py:54
+msgid "Open Fragment"
+msgstr "打开片段"
+
+#: game_export.py:50
+msgid "OpenGL (green up)"
+msgstr "OpenGL（绿色向上）"
+
+#: region.py:552
+msgid "Operation"
+msgstr "操作"
+
+#: panel.py:470
+msgid "Options"
+msgstr "选项"
+
+#: panel.py:221
+msgid "Options..."
+msgstr "选项..."
+
+#: operators.py:43
+msgid "Organic"
+msgstr "有机"
+
+#: operators.py:51
+msgid "Organic / General"
+msgstr "有机 / 常规"
+
+#: guided.py:104
+msgid "Organic bodies and faces: Detail points, flowing quads"
+msgstr "有机身体与面部：细节点、流动四边形"
+
+#: panel.py:972
+msgid "Organized"
+msgstr "规整"
+
+#: guided.py:426
+msgid "Organized / Detailed"
+msgstr "规整 / 详细"
+
+#: guided.py:380
+msgid "Original"
+msgstr "原始"
+
+#: batch.py:24
+#: guided.py:371
+msgid "Output"
+msgstr "输出"
+
+#: guided.py:380
+msgid "Over"
+msgstr "上叠"
+
+#: region.py:43
+msgid "Overlap"
+msgstr "重叠"
+
+#: operators.py:80
+msgid "Overwrite the selected object's mesh"
+msgstr "覆盖所选物体的网格"
+
+#: seglive.py:71
+msgid "Paint Size"
+msgstr "绘制大小"
+
+#: segment_goals.py:1265
+msgid "Paint a new segment"
+msgstr "绘制新分段"
+
+#: guided.py:378
+msgid "Paints in red the faces that point inward, sink into your mesh, cross or fold over others"
+msgstr "用红色绘制朝内、陷入网格、与其他面交叉或折叠的面"
+
+#: __init__.py:45
+#: __init__.py:77
+msgid "PairClosure"
+msgstr "PairClosure"
+
+#: operators.py:27
+#: operators.py:55
+msgid "PairClosure (pure quads)"
+msgstr "PairClosure（纯四边形）"
+
+#: ui.py:451
+msgid "PairClosure Options"
+msgstr "PairClosure 选项"
+
+#: operators.py:173
+#: ui.py:51
+msgid "PairClosure Pure Quads"
+msgstr "PairClosure 纯四边形"
+
+#: operators.py:171
+#: ui.py:49
+msgid "PairClosure Starts"
+msgstr "PairClosure 起始点"
+
+#: operators.py:174
+#: ui.py:52
+msgid "PairClosure Style"
+msgstr "PairClosure 样式"
+
+#: profiles.py:13
+msgid "Pairing"
+msgstr "配对"
+
+#: operators.py:27
+msgid "Pairs triangles into quads along the surface flow, then closes any leftovers so every face is a quad. Always finishes, but makes more poles"
+msgstr "沿表面流将三角形配对成四边形，然后闭合所有剩余部分，使每个面都是四边形。总会完成，但会产生更多极点"
+
+#: profiles.py:13
+msgid "Pairs triangles into quads from more starting points, so quads come out more even. Slower, a few more faces"
+msgstr "从更多起点将三角形配对成四边形，因此四边形更均匀。速度较慢，面稍多"
+
+#: __init__.py:189
+msgid "Panels"
+msgstr "面板"
+
+#: issue_panel.py:249
+msgid "Part"
+msgstr "部分"
+
+#: guided.py:376
+msgid "Part Colors"
+msgstr "部分颜色"
+
+#: seglive.py:66
+msgid "Part Detail"
+msgstr "部分细节"
+
+#: panel.py:759
+msgid "Part Finder"
+msgstr "部分查找器"
+
+#: panel.py:712
+msgid "Parts"
+msgstr "部分"
+
+#: panel.py:707
+msgid "Parts appear when the search is done"
+msgstr "搜索完成后部分会出现"
+
+#: segment_goals.py:1481
+msgid "Parts are not ready yet"
+msgstr "部分尚未就绪"
+
+#: region.py:581
+msgid "Pattern of the new quads"
+msgstr "新四边形的模式"
+
+#: guided.py:353
+msgid "Pattern of the new quads in a region: Flow follows the surface, Grid is a regular grid"
+msgstr "区域中新四边形的模式：流线跟随表面，网格为规则网格"
+
+#: guided.py:183
+msgid "Pattern of the new quads in this area (Work Areas only)"
+msgstr "此区域中新四边形的模式（仅工作区域）"
+
+#: guided.py:78
+msgid "Percent"
+msgstr "百分比"
+
+#: hardware.py:29
+msgid "Pick Light, Normal or Full from this computer's cores and free memory"
+msgstr "根据本机核心与可用内存选择轻量、普通或完整"
+
+#: panel.py:135
+msgid "Pick a mesh to start"
+msgstr "选择一个网格开始"
+
+#: region.py:1000
+msgid "Pick a vertex group"
+msgstr "选择一个顶点组"
+
+#: operators.py:199
+#: ui.py:77
+msgid "Pixels of padding around UV islands when baking"
+msgstr "烘焙时 UV 孤岛周围填充的像素数"
+
+#: guided.py:184
+msgid "Placed by Auto-suggest (replaced when you suggest again)"
+msgstr "由自动建议放置（再次建议时替换）"
+
+#: guided.py:390
+msgid "Plane Offset"
+msgstr "平面偏移"
+
+#: guided.py:69
+msgid "Points Only"
+msgstr "仅点"
+
+#: batch.py:28
+msgid "Poles"
+msgstr "极点"
+
+#: operators.py:63
+msgid "Preserve"
+msgstr "保留"
+
+#: operators.py:179
+#: ui.py:57
+msgid "Preserve keeps holes, open borders and separate parts as they are. Repair may close holes and drop thin sheets"
+msgstr "保留会保持孔洞、开放边界和分离部件原样。修复可能封闭孔洞并丢弃薄片"
+
+#: operators.py:244
+msgid "Preset"
+msgstr "预设"
+
+#: guided.py:428
+msgid "Primitive Sides"
+msgstr "图元边数"
+
+#: operators.py:203
+msgid "Print step-by-step details to the system console"
+msgstr "将逐步详细信息打印到系统控制台"
+
+#: ui.py:81
+msgid "Print step-by-step details to the system console, and keep a few troubleshooting values as custom properties on the result object"
+msgstr "将逐步详细信息打印到系统控制台，并将少量故障排查值作为自定义属性保留在结果物体上"
+
+#: ui.py:140
+msgid "Profile"
+msgstr "轮廓"
+
+#: operators.py:72
+msgid "Project UVs"
+msgstr "投影 UV"
+
+#: operators.py:195
+#: ui.py:73
+msgid "Project the new vertices back onto the original surface to keep fine detail"
+msgstr "将新顶点投影回原始表面以保留细节"
+
+#: guided.py:105
+msgid "Props with hard edges: Sharp points, grid-like quads"
+msgstr "硬边道具：尖锐点、网格状四边形"
+
+#: guided.py:451
+#: operators.py:180
+msgid "Pure Quads"
+msgstr "纯四边形"
+
+#: panel.py:578
+msgid "Purple: not changed, yellow: changed most"
+msgstr "紫色：未更改，黄色：更改最多"
+
+#: panel.py:961
+msgid "Put a shape over a part to redo it live:"
+msgstr "在部件上放置一个形状以实时重做："
+
+#: guided.py:95
+msgid "Put the result into your object (Undo restores it)"
+msgstr "将结果放入你的物体（撤销可恢复）"
+
+#: guided.py:389
+msgid "Puts the mirror plane where you say, in object space, instead of finding it"
+msgstr "在物体空间中按指定位置放置镜像平面，而不是自动查找"
+
+#: batch.py:26
+#: ui.py:107
+msgid "Quad Ratio"
+msgstr "四边形比例"
+
+#: guided.py:409
+#: panel.py:536
+msgid "Quad Size"
+msgstr "四边形大小"
+
+#: region.py:46
+msgid "Quad loops that follow the surface and the seam (best for organic shapes)"
+msgstr "沿表面和接缝的四边形循环（最适合有机形状）"
+
+#: profiles.py:17
+msgid "Quad loops that follow the surface. Needs a part with one open edge loop; a closed part falls back to Auto"
+msgstr "沿表面的四边形循环。需要一个带开放边循环的部件；封闭部件会回退到自动"
+
+#: operators.py:26
+#: profiles.py:15
+msgid "QuadriFlow"
+msgstr "QuadriFlow"
+
+#: profiles.py:23
+#: ui.py:104
+msgid "Quads"
+msgstr "四边形"
+
+#: region.py:557
+msgid "Quads also line up with the main bending directions of the surface; about 1.5x slower"
+msgstr "四边形还会与表面的主要弯曲方向对齐；约慢 1.5 倍"
+
+#: region.py:556
+msgid "Quads follow a smoothed flow pinned to sharp edges and borders (fast, default)"
+msgstr "四边形沿平滑流线排列，并固定在锐边和边界上（快速，默认）"
+
+#: operators.py:169
+#: ui.py:47
+msgid "Quality"
+msgstr "质量"
+
+#: guided.py:290
+msgid "Quick"
+msgstr "快速"
+
+#: ui.py:131
+msgid "RMS Error / Diagonal"
+msgstr "RMS 误差 / 对角线"
+
+#: guided.py:181
+#: guided.py:2684
+msgid "Radius"
+msgstr "半径"
+
+#: operators.py:170
+#: ui.py:48
+msgid "Random Seed"
+msgstr "随机种子"
+
+#: guided.py:356
+msgid "Reach of the next point (scroll while placing). 0 picks a size from the mesh"
+msgstr "下一个点的范围（放置时滚动）。0 表示从网格中选择大小"
+
+#: region.py:604
+msgid "Rebuild the preview automatically when you move a cage or change a setting"
+msgstr "移动笼或更改设置时自动重建预览"
+
+#: guided.py:358
+msgid "Rebuild the preview shortly after you change a point or a setting"
+msgstr "在更改点或设置后稍等片刻重建预览"
+
+#: guided.py:291
+#: guided.py:438
+msgid "Rebuilds the small spots where faces point inward, fold or cross. Adds up to a minute; recommended"
+msgstr "重建面朝内、折叠或交叉的小区域。最多增加一分钟；推荐"
+
+#: ui.py:141
+msgid "Recommended"
+msgstr "推荐"
+
+#: operators.py:21
+msgid "Recommended. Atlas-Q measures your mesh, builds a simplified copy at the target size, tries several solvers and keeps the best result that passes the quad checks"
+msgstr "推荐。Atlas-Q 会测量你的网格，按目标大小构建简化副本，尝试多个求解器，并保留通过四边形检查的最佳结果"
+
+#: guided.py:406
+msgid "Redo Inside Shapes"
+msgstr "重做形状内部"
+
+#: guided.py:438
+msgid "Redo Rough Spots"
+msgstr "重做粗糙区域"
+
+#: guided.py:82
+msgid "Redo the faces inside this shape, in addition to the shapes above it"
+msgstr "除上方形状外，还重做此形状内部的面"
+
+#: guided.py:394
+msgid "Redoes only the faces selected in Edit Mode and leaves the rest exactly as it is"
+msgstr "仅重做编辑模式下选中的面，其余部分保持原样"
+
+#: guided.py:406
+msgid "Redoes the result inside the shapes, live; everything outside stays as it is. Move or resize a shape and the quads follow"
+msgstr "实时重做形状内部的结果；外部一切保持原样。移动或调整形状大小时，四边形会跟随"
+
+#: guided.py:3585
+msgid "Redraw"
+msgstr "重绘"
+
+#: guided.py:436
+msgid "Redraw Messy Quads"
+msgstr "重绘杂乱四边形"
+
+#: guided.py:436
+msgid "Redraws messy patches as plain grids of quads. Much tidier loops; adds a minute or two, and can stall on models of many loose pieces"
+msgstr "将杂乱区域重绘为普通四边形网格。循环更整齐；会增加一两分钟，并且在包含许多松散部件的模型上可能卡住"
+
+#: segment_goals.py:51
+msgid "Reduce"
+msgstr "减少"
+
+#: guided.py:373
+msgid "Reduce By"
+msgstr "减少量"
+
+#: guided.py:75
+msgid "Reduce To"
+msgstr "减少至"
+
+#: segment_goals.py:55
+msgid "Reduced triangles, not paired. About twice the faces of the same shape in quads"
+msgstr "减少后的三角形，未配对。面数约为同一形状四边形版本的两倍"
+
+#: region.py:567
+msgid "Region From"
+msgstr "区域来源"
+
+#: __init__.py:233
+msgid "Region Preview"
+msgstr "区域预览"
+
+#: ui.py:240
+msgid "Region preview in progress"
+msgstr "区域预览进行中"
+
+#: __init__.py:50
+#: __init__.py:84
+msgid "Regions"
+msgstr "区域"
+
+#: operators.py:63
+msgid "Reject any result that changes the number of holes, open borders or separate parts, or whether the mesh is closed"
+msgstr "拒绝任何改变孔洞数量、开放边界或分离部件，或改变网格封闭状态的结果"
+
+#: operators.py:180
+#: ui.py:58
+msgid "Reject results that still contain triangles or badly shaped quads. Turn off to keep the best attempt even with a few triangles"
+msgstr "拒绝仍包含三角形或形状不佳四边形的结果。关闭后可保留最佳尝试，即使含有少量三角形"
+
+#: region.py:596
+msgid "Relax-and-project passes that settle the new quads onto the original surface"
+msgstr "松弛并投影遍数，使新四边形贴合原始表面"
+
+#: operators.py:55
+msgid "Reliable all-quad fallback. Splits bow-tie corners safely, but makes more poles and a looser face count"
+msgstr "可靠的全四边形回退方案。安全拆分蝴蝶结角，但会产生更多极点，面数控制更宽松"
+
+#: guided.py:352
+msgid "Remesh"
+msgstr "重网格"
+
+#: guided.py:69
+msgid "Remesh only inside the point spheres; the rest of the mesh stays exactly as it is"
+msgstr "仅在点球体内重网格；网格其余部分保持原样"
+
+#: guided.py:68
+msgid "Remesh the whole mesh; the points change the quad size across it"
+msgstr "重新网格化整个网格；各点会改变周围的四边形大小"
+
+#: region.py:42
+msgid "Remove"
+msgstr "移除"
+
+#: region.py:42
+msgid "Remove the faces inside this cage from the region"
+msgstr "从区域中移除该笼内的面"
+
+#: operators.py:68
+msgid "Repair"
+msgstr "修复"
+
+#: guided.py:430
+msgid "Repeated parts become linked copies that cost no extra geometry; the copies share UVs. Off makes one merged mesh"
+msgstr "重复部分会成为关联副本，不额外消耗几何体；副本共享 UV。关闭则合并为一个网格"
+
+#: operators.py:80
+msgid "Replace"
+msgstr "替换"
+
+#: guided.py:95
+msgid "Replace Mesh"
+msgstr "替换网格"
+
+#: guided.py:3585
+msgid "Replace the chosen curve of the list with the next stroke"
+msgstr "用下一笔画替换列表中选中的曲线"
+
+#: region.py:50
+msgid "Replace the region inside your mesh (Undo restores it)"
+msgstr "替换网格内部的区域（撤销可恢复）"
+
+#: issue_panel.py:328
+msgid "Reports need a finished result"
+msgstr "报告需要已完成的结果"
+
+#: guided.py:431
+#: operators.py:200
+msgid "Result"
+msgstr "结果"
+
+#: guided.py:3347
+msgid "Result File"
+msgstr "结果文件"
+
+#: region.py:599
+msgid "Ring of quads along the region border that keeps seam quads well shaped"
+msgstr "沿区域边界的四边形环，可保持接缝四边形形状良好"
+
+#: fix_select.py:283
+msgid "Rings of faces around a rough selection that are checked too"
+msgstr "粗略选择周围也会被检查的面环"
+
+#: guided.py:432
+msgid "Rough As Texture"
+msgstr "粗糙度用作纹理"
+
+#: operators.py:167
+#: ui.py:45
+msgid "Roughly how many faces the new mesh should have (a quad counts as one face)"
+msgstr "新网格大致应有的面数（一个四边形计为一个面）"
+
+#: guided.py:354
+msgid "Roughly how many quads the whole mesh would get with no points. The points make some areas denser or coarser than this"
+msgstr "无控制点时整个网格大致会得到的四边形数量。控制点会让部分区域比这更密或更疏"
+
+#: guided.py:410
+#: panel.py:542
+msgid "Rows"
+msgstr "行数"
+
+#: guided.py:447
+msgid "Rows on Round Areas"
+msgstr "圆形区域上的行数"
+
+#: ui.py:261
+msgid "Runs in one go: Blender is busy until it is done"
+msgstr "一次性运行：完成前 Blender 会一直忙碌"
+
+#: ui.py:143
+msgid "Sampled Faces"
+msgstr "采样面"
+
+#: __init__.py:246
+msgid "Saved Progress"
+msgstr "已保存的进度"
+
+#: __init__.py:134
+msgid "Scale"
+msgstr "缩放"
+
+#: __init__.py:41
+#: __init__.py:69
+msgid "Scan"
+msgstr "扫描"
+
+#: guided.py:106
+msgid "Scan / Photogrammetry"
+msgstr "扫描 / 摄影测量"
+
+#: ui.py:129
+msgid "Scan Profile"
+msgstr "扫描配置"
+
+#: operators.py:177
+#: ui.py:55
+msgid "Scan Type"
+msgstr "扫描类型"
+
+#: panel.py:32
+msgid "Sculpt"
+msgstr "雕刻"
+
+#: region.py:995
+msgid "Sculpt Face Sets work out of the box."
+msgstr "雕刻面集可直接使用。"
+
+#: region.py:582
+msgid "Seam Blend"
+msgstr "接缝混合"
+
+#: __init__.py:167
+msgid "Seam Width"
+msgstr "接缝宽度"
+
+#: panel.py:839
+msgid "Searches once, then makes 3 sizes"
+msgstr "搜索一次，然后生成 3 种尺寸"
+
+#: ui.py:289
+msgid "See it"
+msgstr "查看"
+
+#: segment_goals.py:1565
+msgid "Segment"
+msgstr "分段"
+
+#: guided.py:3445
+msgid "Select a box, lattice or closed mesh first (not the source mesh)"
+msgstr "请先选择一个立方体、晶格或封闭网格（不是源网格）"
+
+#: region.py:903
+msgid "Select a closed loop of open (hole) edges"
+msgstr "选择开放（孔洞）边的闭合环"
+
+#: guided.py:3512
+msgid "Select a curve, a Grease Pencil drawing or an edge-only mesh first"
+msgstr "请先选择曲线、蜡笔绘制或仅含边的网格"
+
+#: region.py:633
+#: region.py:651
+msgid "Select a mesh"
+msgstr "选择网格"
+
+#: operators.py:208
+#: operators.py:292
+msgid "Select a mesh object first."
+msgstr "请先选择网格物体。"
+
+#: panel.py:1058
+#: region.py:1046
+msgid "Select a mesh to begin"
+msgstr "选择网格以开始"
+
+#: fix_select.py:297
+msgid "Select a rough area (or nothing for all)"
+msgstr "选择粗略区域（不选则为全部）"
+
+#: region.py:981
+msgid "Select faces in Edit Mode"
+msgstr "在编辑模式下选择面"
+
+#: segment_goals.py:1286
+msgid "Select one segment first"
+msgstr "请先选择一个分段"
+
+#: ui.py:528
+msgid "Select several meshes, then press the button."
+msgstr "选择多个网格，然后按下按钮。"
+
+#: guided.py:2865
+msgid "Select some preview faces in Edit Mode first"
+msgstr "请先在编辑模式下选择一些预览面"
+
+#: guided.py:2904
+msgid "Select the strip of preview faces in Edit Mode first"
+msgstr "请先在编辑模式下选择预览面带"
+
+#: guided.py:3436
+msgid "Selected"
+msgstr "已选择"
+
+#: guided.py:394
+#: panel.py:369
+msgid "Selected Faces Only"
+msgstr "仅选中的面"
+
+#: region.py:35
+msgid "Selection"
+msgstr "选择"
+
+#: guided.py:389
+msgid "Set Plane"
+msgstr "设置平面"
+
+#: guided.py:366
+msgid "Settings"
+msgstr "设置"
+
+#: operators.py:192
+#: ui.py:70
+msgid "Shade the result smooth"
+msgstr "将结果着色为平滑"
+
+#: flowedit.py:533
+#: guided.py:336
+msgid "Shape"
+msgstr "形状"
+
+#: guided.py:424
+msgid "Shape Size"
+msgstr "形状大小"
+
+#: panel.py:424
+msgid "Shape the Flow"
+msgstr "塑造流向"
+
+#: panel.py:220
+msgid "Shape the flow..."
+msgstr "塑造流向..."
+
+#: guided.py:286
+msgid "Share of Faces"
+msgstr "面占比"
+
+#: guided.py:58
+#: guided.py:401
+msgid "Sharp"
+msgstr "锐利"
+
+#: ui.py:147
+msgid "Sharp Coverage"
+msgstr "锐利覆盖"
+
+#: guided.py:427
+msgid "Show Cage"
+msgstr "显示笼"
+
+#: panel.py:1010
+msgid "Show It How"
+msgstr "演示如何操作"
+
+#: __init__.py:84
+msgid "Show the Regions panel"
+msgstr "显示「区域」面板"
+
+#: __init__.py:81
+msgid "Show the batch remesh panel"
+msgstr "显示批量重网格面板"
+
+#: __init__.py:74
+msgid "Show the cleanup and output panel"
+msgstr "显示清理与输出面板"
+
+#: __init__.py:77
+msgid "Show the extra options of the PairClosure method (it pairs triangles into quads)"
+msgstr "显示 PairClosure 方法的额外选项（将三角形配对成四边形）"
+
+#: __init__.py:70
+msgid "Show the extra options of the Smart method"
+msgstr "显示智能方法的额外选项"
+
+#: __init__.py:73
+msgid "Show the features-to-keep panel"
+msgstr "显示保留特征面板"
+
+#: __init__.py:85
+msgid "Show the main CurioMesh panel"
+msgstr "显示 CurioMesh 主面板"
+
+#: __init__.py:80
+msgid "Show the materials and UVs panel"
+msgstr "显示材质与 UV 面板"
+
+#: __init__.py:82
+msgid "Show the measurements panel"
+msgstr "显示测量面板"
+
+#: __init__.py:69
+msgid "Show the panel that checks your mesh for holes and sharp edges and suggests a method"
+msgstr "显示检查网格孔洞与锐边并推荐方法的面板"
+
+#: __init__.py:83
+msgid "Show the panel with extra switches for finding problems"
+msgstr "显示带查找问题额外开关的面板"
+
+#: ui.py:83
+msgid "Show the quad-quality dashboard in the 3D viewport (position and size: add-on Preferences)"
+msgstr "在 3D 视图中显示四边形质量仪表板（位置与大小：插件偏好设置）"
+
+#: __init__.py:197
+msgid "Show these panels"
+msgstr "显示这些面板"
+
+#: __init__.py:86
+msgid "Shows the CurioMesh Advanced tab: every setting and the classic tools. You never need it for a good result"
+msgstr "显示 CurioMesh 高级选项卡：所有设置和经典工具。要获得好结果无需使用"
+
+#: guided.py:379
+msgid "Shows the edges of the result"
+msgstr "显示结果的边"
+
+#: segment_goals.py:1267
+msgid "Shrink"
+msgstr "收缩"
+
+#: game_export.py:145
+msgid "Shrinks textures so none is larger than this. Only used by Custom"
+msgstr "缩小纹理，使任何纹理都不大于此值。仅由自定义使用"
+
+#: __init__.py:58
+msgid "Sidebar Tab"
+msgstr "侧边栏选项卡"
+
+#: operators.py:51
+msgid "Simplify to the target size, then compare several QuadriFlow candidates"
+msgstr "简化到目标大小，然后比较多个 QuadriFlow 候选"
+
+#: __init__.py:134
+msgid "Size of the dashboard (on top of Blender's Resolution Scale)"
+msgstr "仪表板大小（叠加在 Blender 的分辨率缩放之上）"
+
+#: __init__.py:156
+msgid "Size of the pole dots in pixels (5+-edge poles are drawn larger still)"
+msgstr "极点圆点的像素大小（5 边及以上极点绘制得更大）"
+
+#: operators.py:75
+msgid "Skip UVs and textures"
+msgstr "跳过 UV 和纹理"
+
+#: panel.py:456
+msgid "Slow: also builds the levels on Apply. Bake in Finish"
+msgstr "慢：应用时还会构建各层级。在完成时烘焙"
+
+#: operators.py:17
+msgid "Slowest, tries more candidates and cleans up harder. Use for final assets"
+msgstr "最慢，尝试更多候选并更彻底地清理。用于最终资产"
+
+#: __init__.py:64
+msgid "Smaller panels: fewer section labels and no explanatory text. Handy on small screens"
+msgstr "更小的面板：更少的区段标签且无说明文字。适合小屏幕"
+
+#: ladder.py:475
+msgid "Smaller quads"
+msgstr "更小的四边形"
+
+#: seglive.py:68
+msgid "Smallest Part"
+msgstr "最小部分"
+
+#: operators.py:21
+msgid "Smart (Atlas-Q)"
+msgstr "智能 (Atlas-Q)"
+
+#: __init__.py:42
+#: __init__.py:70
+msgid "Smart Solver"
+msgstr "智能求解器"
+
+#: ui.py:381
+msgid "Smart Solver (Atlas-Q)"
+msgstr "智能求解器 (Atlas-Q)"
+
+#: operators.py:176
+#: region.py:556
+msgid "Smooth"
+msgstr "平滑"
+
+#: operators.py:192
+#: ui.py:70
+msgid "Smooth Shading"
+msgstr "平滑着色"
+
+#: operators.py:176
+#: ui.py:54
+msgid "Smoothed flow pinned to sharp edges and borders"
+msgstr "平滑后的流向固定在锐边和边界上"
+
+#: operators.py:195
+#: ui.py:73
+msgid "Snap to Original"
+msgstr "吸附到原始"
+
+#: guided.py:87
+msgid "Solve the whole mesh"
+msgstr "求解整个网格"
+
+#: fix_select.py:282
+msgid "Source"
+msgstr "来源"
+
+#: guided.py:3436
+msgid "Sphere"
+msgstr "球体"
+
+#: game_export.py:144
+msgid "Split meshes into pieces of at most this many triangles. 0 keeps them whole"
+msgstr "将网格拆分为最多包含此数量三角形的块。0 表示保持完整"
+
+#: guided.py:71
+msgid "Splits the mesh into parts, finds the fewest faces that still look the same (checked by camera), then makes quads. Blender stays usable while it works"
+msgstr "将网格拆分为多个部分，找出外观仍然相同的最少面数（由相机检查），然后生成四边形。处理时 Blender 仍可正常使用"
+
+#: issue_panel.py:112
+#: issue_panel.py:124
+msgid "Spot"
+msgstr "聚光灯"
+
+#: guided.py:363
+msgid "Start looks at your mesh and picks the Use for it, then says what it picked and why. Pick another tile to choose yourself"
+msgstr "开始会查看你的网格并为其选择用途，然后说明所选内容及原因。选择其他图块可自行选择"
+
+#: __init__.py:208
+msgid "Starts background copies of this Blender for Use Several Cores and Even Rows."
+msgstr "为「使用多核」和「均匀行」启动此 Blender 的后台副本。"
+
+#: ui.py:136
+msgid "Status"
+msgstr "状态"
+
+#: issue_panel.py:143
+#: segment_goals.py:1581
+msgid "Step"
+msgstr "步长"
+
+#: guided.py:3162
+msgid "Still working: wait for the job to finish or press Stop"
+msgstr "仍在处理：请等待任务完成或按停止"
+
+#: guided.py:412
+msgid "Stops Tidy Up before the look changes by more than the amount next to it"
+msgstr "在观感变化超过旁边数值前停止 Tidy Up"
+
+#: region.py:590
+msgid "Straighten Seam"
+msgstr "拉直接缝"
+
+#: ui.py:128
+msgid "Strategy"
+msgstr "策略"
+
+#: guided.py:182
+#: guided.py:405
+msgid "Strength"
+msgstr "强度"
+
+#: guided.py:357
+msgid "Strength of the next point (Shift + scroll while placing)"
+msgstr "下一个点的强度（放置时按住 Shift 滚动）"
+
+#: guided.py:369
+msgid "Style"
+msgstr "样式"
+
+#: panel.py:30
+msgid "Subdiv"
+msgstr "细分"
+
+#: segment_goals.py:54
+msgid "Subdivision"
+msgstr "细分"
+
+#: guided.py:83
+msgid "Subtract"
+msgstr "减去"
+
+#: batch.py:30
+msgid "Success"
+msgstr "成功"
+
+#: guided.py:184
+msgid "Suggested"
+msgstr "建议"
+
+#: guided.py:452
+msgid "Suggestions"
+msgstr "建议"
+
+#: guided.py:446
+#: region.py:596
+msgid "Surface Fit Passes"
+msgstr "表面拟合遍数"
+
+#: guided.py:179
+msgid "Surface direction at the point"
+msgstr "该点处的表面方向"
+
+#: region.py:607
+msgid "Surface that Fit to Surface snaps to. Empty: another selected mesh, otherwise the mesh itself"
+msgstr "「贴合到表面」所吸附的表面。留空时：若选中了其他网格则用该网格，否则用此网格本身"
+
+#: guided.py:387
+msgid "Symmetrize"
+msgstr "对称化"
+
+#: guided.py:83
+msgid "Take the faces inside this shape out of what the shapes above it cover"
+msgstr "将此形状内部的面从上方的形状所覆盖的范围中移除"
+
+#: ui.py:148
+msgid "Target Edge Scale"
+msgstr "目标边缩放"
+
+#: ui.py:108
+msgid "Target Error"
+msgstr "目标误差"
+
+#: operators.py:167
+#: ui.py:45
+msgid "Target Faces"
+msgstr "目标面数"
+
+#: guided.py:445
+msgid "Texture Sets"
+msgstr "纹理集"
+
+#: operators.py:198
+#: ui.py:76
+msgid "Texture size in pixels used when baking"
+msgstr "烘焙时使用的纹理尺寸（像素）"
+
+#: operators.py:46
+msgid "Textured"
+msgstr "带纹理"
+
+#: operators.py:196
+#: ui.py:74
+msgid "Textures"
+msgstr "纹理"
+
+#: panel.py:103
+msgid "The Use to pick, or AUTO to let Start pick one"
+msgstr "要选取的用途，或 AUTO 让 Start 自行选择"
+
+#: profiles.py:12
+msgid "The camera decides how many faces each part keeps, then pairs triangles into quads and closes the rest"
+msgstr "由相机决定每个部件保留多少面，然后把三角形配对成四边形，并封闭其余部分"
+
+#: guided.py:399
+msgid "The distance between two loops of a drawn line, in object units. 0 picks about one quad"
+msgstr "所绘线的两条环线间距，以物体单位计。0 表示约一个四边形"
+
+#: region.py:35
+msgid "The faces you selected in Edit Mode"
+msgstr "在编辑模式下选中的面"
+
+#: guided.py:277
+msgid "The fewest faces that hold the look you asked for. Quads follow the shape, so some can look slanted"
+msgstr "保持你所需外观的最少面数。四边形会随形状变化，因此有些可能看起来是斜的"
+
+#: game_export.py:142
+msgid "The file type to write. Only used by Custom"
+msgstr "要写入的文件类型。仅在「自定义」时使用"
+
+#: guided.py:3307
+msgid "The folder the job is written into"
+msgstr "任务写入的文件夹"
+
+#: hard_surface.py:29
+msgid "The loops sit this far from the edge everywhere, in millimetres of the scene's units"
+msgstr "环线与边缘各处的距离，以场景单位的毫米计"
+
+#: hard_surface.py:28
+msgid "The loops sit this share of the next face's width from the edge, so small parts get small gaps"
+msgstr "环线与边缘的距离为下一个面宽度的这一比例，因此小部件得到小间距"
+
+#: segment_goals.py:1124
+msgid "The new name of the part"
+msgstr "部件的新名称"
+
+#: issue_panel.py:132
+msgid "The preview is gone: run Auto again"
+msgstr "预览已消失：请再次运行「自动」"
+
+#: guided.py:380
+msgid "The result sits next to your mesh"
+msgstr "结果位于你的网格旁边"
+
+#: guided.py:380
+msgid "The result sits on your mesh, which is drawn over it as a white wireframe"
+msgstr "结果位于你的网格上，网格以白色线框叠加绘制"
+
+#: guided.py:3347
+msgid "The result.npz file the other computer made"
+msgstr "另一台电脑生成的 result.npz 文件"
+
+#: guided.py:278
+msgid "The same look with far fewer messy points, for more faces"
+msgstr "外观相同但杂乱点少得多，面数更多"
+
+#: guided.py:366
+msgid "The settings the result was made with, to change them and start again"
+msgstr "生成结果所用的设置，可修改后重新开始"
+
+#: guided.py:388
+msgid "The side with larger coordinates"
+msgstr "坐标较大的一侧"
+
+#: guided.py:388
+msgid "The side with more surface"
+msgstr "表面较多的一侧"
+
+#: guided.py:388
+msgid "The side with smaller coordinates"
+msgstr "坐标较小的一侧"
+
+#: segments.py:860
+msgid "The ten parts that changed most"
+msgstr "变化最大的十个部件"
+
+#: hardware.py:31
+msgid "The usual balance between speed and keeping Blender responsive"
+msgstr "速度与保持 Blender 响应性之间的常规平衡"
+
+#: guided.py:404
+msgid "The vertex group of the mesh that holds the Less Detail paint"
+msgstr "网格中存放「减少细节」绘制的顶点组"
+
+#: guided.py:403
+msgid "The vertex group of the mesh that holds the More Detail paint"
+msgstr "网格中存放「增加细节」绘制的顶点组"
+
+#: __init__.py:250
+msgid "They are cleared when the job finishes, or 3 days after it was stopped."
+msgstr "任务完成时或停止后 3 天清除。"
+
+#: __init__.py:167
+msgid "Thickness of the seam outline in pixels"
+msgstr "接缝轮廓的粗细（像素）"
+
+#: panel.py:934
+msgid "This Computer"
+msgstr "此电脑"
+
+#: ui.py:250
+msgid "This is a preview object"
+msgstr "这是预览物体"
+
+#: panel.py:331
+msgid "This mesh has no faces to reduce"
+msgstr "此网格没有可减化的面"
+
+#: operators.py:211
+msgid "This mesh has no faces to remesh."
+msgstr "此网格没有可重拓扑的面。"
+
+#: issue_panel.py:230
+msgid "This part could not be put back"
+msgstr "无法恢复此部件"
+
+#: issue_panel.py:192
+msgid "This spot is not on a part that can be redone"
+msgstr "此位置不在可重做的部件上"
+
+#: guided.py:292
+msgid "Thorough"
+msgstr "彻底"
+
+#: panel.py:436
+msgid "Tidiness"
+msgstr "整洁度"
+
+#: guided.py:437
+msgid "Tidy Quads"
+msgstr "整齐四边形"
+
+#: guided.py:411
+#: panel.py:553
+msgid "Tidy Up"
+msgstr "整理"
+
+#: batch.py:29
+msgid "Time ms"
+msgstr "时间（毫秒）"
+
+#: guided.py:376
+msgid "Tints each part of the result in its own colour, so you can see where the parts are"
+msgstr "为结果的每个部件着以不同颜色，便于看清各部件的分布"
+
+#: region.py:1096
+msgid "Tools"
+msgstr "工具"
+
+#: overlay.py:70
+msgid "Top Left"
+msgstr "左上"
+
+#: overlay.py:71
+msgid "Top Right"
+msgstr "右上"
+
+#: ui.py:135
+msgid "Topology Proof"
+msgstr "拓扑验证"
+
+#: ui.py:207
+msgid "Topology not verified (see Diagnostics)"
+msgstr "拓扑未验证（见「诊断」）"
+
+#: operators.py:73
+msgid "Transfer Only"
+msgstr "仅传递"
+
+#: operators.py:189
+#: ui.py:67
+msgid "Treat UV seams as edges to preserve so textures stay clean"
+msgstr "将 UV 接缝视为需保留的边，以保持纹理干净"
+
+#: batch.py:27
+#: profiles.py:22
+msgid "Triangles"
+msgstr "三角形"
+
+#: segment_goals.py:1554
+msgid "Tried (click to go back):"
+msgstr "已尝试（点击返回）："
+
+#: segment_goals.py:55
+msgid "Tris"
+msgstr "三角面"
+
+#: profiles.py:19
+msgid "Tris Only"
+msgstr "仅三角面"
+
+#: segments.py:912
+msgid "Try"
+msgstr "尝试"
+
+#: operators.py:174
+#: ui.py:52
+msgid "Tune PairClosure for the kind of model: organic, hard-surface, messy scan or textured"
+msgstr "根据模型类型调整「成对封闭」：有机体、硬表面、杂乱扫描或带纹理"
+
+#: guided.py:449
+msgid "Turns edges so rows of quads keep going past poles (points where 3 or 5+ edges meet). Off: about a fifth more poles, a touch more detail"
+msgstr "旋转边，使四边形行越过极点（3 条或 5 条以上边相交的点）继续延伸。关闭：极点约多五分之一，细节略多"
+
+#: operators.py:32
+msgid "Turns flat areas into one big quad each and spends the faces on detail instead. Best on ships, hard-surface props and architecture. The target limits what's left after the flat areas: a flat plate becomes one quad whatever the target"
+msgstr "将平坦区域各自变为一个大四边形，把面数用在细节上。最适合飞船、硬表面道具和建筑。目标面数限制平坦区域之后剩余的部分：平坦板件无论目标多少都变成一个四边形"
+
+#: guided.py:180
+#: guided.py:346
+msgid "Type"
+msgstr "类型"
+
+#: guided.py:285
+msgid "Type how much of the view may change yourself"
+msgstr "自行输入视图允许变化的程度"
+
+#: guided.py:355
+msgid "Type of the next point you place (keys 1-4 while placing)"
+msgstr "下一个放置的点的类型（放置时按 1-4 键）"
+
+#: ui.py:137
+msgid "UV Status"
+msgstr "UV 状态"
+
+#: ui.py:124
+msgid "UV Valid"
+msgstr "UV 有效"
+
+#: guided.py:82
+msgid "Union"
+msgstr "并集"
+
+#: game_export.py:50
+msgid "Unreal, CryEngine, O3DE"
+msgstr "Unreal、CryEngine、O3DE"
+
+#: overlay.py:70
+msgid "Upper left of the viewport"
+msgstr "视图左上角"
+
+#: overlay.py:71
+msgid "Upper right of the viewport (clear of the navigation gizmo)"
+msgstr "视图右上角（避开导航控件）"
+
+#: guided.py:359
+#: guided.py:381
+msgid "Use"
+msgstr "使用"
+
+#: operators.py:73
+msgid "Use Blender's data transfer only (fastest)"
+msgstr "仅使用 Blender 的数据传递（最快）"
+
+#: guided.py:391
+msgid "Use Guide Curves"
+msgstr "使用引导曲线"
+
+#: guided.py:433
+msgid "Use Several Cores"
+msgstr "使用多核"
+
+#: hardware.py:32
+msgid "Use as much of the computer as it takes to finish soonest. Blender is sluggish while it runs"
+msgstr "尽可能占用计算机资源以最快完成。运行期间 Blender 会变卡"
+
+#: ui.py:242
+msgid "Use the Regions panel to apply it."
+msgstr "使用「区域」面板来应用。"
+
+#: panel.py:299
+msgid "Use the main path"
+msgstr "使用主路径"
+
+#: operators.py:190
+#: ui.py:68
+msgid "Use the mesh's symmetry so both halves match"
+msgstr "利用网格的对称性，使两半保持一致"
+
+#: guided.py:3436
+msgid "Use the other objects you have selected (boxes, lattices, closed meshes)"
+msgstr "使用你选中的其他物体（立方体、晶格、封闭网格）"
+
+#: region.py:37
+#: region.py:570
+msgid "Vertex Group"
+msgstr "顶点组"
+
+#: panel.py:186
+msgid "View Change"
+msgstr "视图变化"
+
+#: region.py:551
+msgid "Volume"
+msgstr "体积"
+
+#: operators.py:194
+#: ui.py:72
+msgid "Voxel Repair Fallback"
+msgstr "体素修复回退"
+
+#: ui.py:149
+msgid "Warning"
+msgstr "警告"
+
+#: guided.py:362
+msgid "What Auto picked for this mesh and why"
+msgstr "自动模式为此网格选择了什么以及原因"
+
+#: panel.py:152
+msgid "What is it for?"
+msgstr "它有什么用？"
+
+#: panel.py:887
+msgid "What is kept"
+msgstr "保留的内容"
+
+#: guided.py:3505
+#: guided.py:3584
+msgid "What the quads do with the line: follow it, build edge loops along it, or bend evenly across it"
+msgstr "四边形沿线的处理方式：跟随它、沿它构建边循环，或均匀地横跨它弯曲"
+
+#: guided.py:346
+msgid "What the quads do with this curve"
+msgstr "四边形对此曲线的处理方式"
+
+#: guided.py:381
+msgid "What the selected parts are for when you press Redo"
+msgstr "按下「重做」时所选部分的用途"
+
+#: guided.py:180
+msgid "What this point asks for"
+msgstr "此点的要求"
+
+#: guided.py:359
+msgid "What you will do with the result. Each choice sets the Detail, layout and kind of faces for you"
+msgstr "结果的用途。每种选择都会为你设定细节、布局和面类型"
+
+#: guided.py:431
+msgid "Where Apply writes the result: a new object, or into your own object (Undo brings yours back)"
+msgstr "「应用」将结果写入何处：新物体，或你自己的物体（撤销可恢复你的物体）"
+
+#: guided.py:377
+msgid "Where It Changed"
+msgstr "发生变化的位置"
+
+#: guided.py:390
+msgid "Where the mirror plane crosses the axis, in object space"
+msgstr "镜像平面在物体空间中与轴相交的位置"
+
+#: region.py:603
+msgid "Where the new quads are written"
+msgstr "新四边形的写入位置"
+
+#: guided.py:178
+msgid "Where the point sits on the surface (object space)"
+msgstr "点在表面上的位置（物体空间）"
+
+#: guided.py:380
+msgid "Where your own mesh is shown: next to the result, or under it as a white wireframe"
+msgstr "你自己的网格显示位置：在结果旁边，或在结果下方作为白色线框"
+
+#: __init__.py:103
+msgid "Whether the viewport dashboard starts on in scenes that have not used CurioMesh yet. Off by default: press HUD in the panel to show it"
+msgstr "在尚未使用 CurioMesh 的场景中，视图仪表板是否默认开启。默认关闭：按面板中的 HUD 来显示"
+
+#: segments.py:860
+msgid "Which"
+msgstr "哪一个"
+
+#: region.py:569
+msgid "Which Face Set number to redo"
+msgstr "重做哪个面集合编号"
+
+#: issue_panel.py:112
+#: issue_panel.py:124
+msgid "Which bad spot, 0 is the worst"
+msgstr "哪个坏点，0 是最差的"
+
+#: __init__.py:109
+msgid "Which corner of the viewport the dashboard sits in"
+msgstr "仪表板位于视图的哪个角落"
+
+#: segments.py:912
+msgid "Which earlier result of this part to switch to; 0 is the first"
+msgstr "切换到此部分的哪个较早结果；0 是第一个"
+
+#: fix_select.py:242
+msgid "Which fix to run on the bad faces"
+msgstr "对坏面运行哪种修复"
+
+#: game_export.py:141
+msgid "Which game engine the files are for. It sets the file type, normal map kind, scale and size limits"
+msgstr "文件用于哪个游戏引擎。它会设定文件类型、法线贴图类型、缩放和尺寸限制"
+
+#: guided.py:388
+msgid "Which half is built and then mirrored"
+msgstr "构建然后镜像哪一半"
+
+#: guided.py:371
+msgid "Which kind of faces the result has: all triangles, all quads, or quads with the leftover triangles kept"
+msgstr "结果的面类型：全三角形、全四边形，或保留剩余三角形的四边形"
+
+#: guided.py:2683
+msgid "Which kind of point to add: Detail, Loop, Sharp or Calm"
+msgstr "添加哪种点：细节、循环、锐利或平缓"
+
+#: issue_panel.py:249
+msgid "Which part to switch back; -1 for every part showing your own faces"
+msgstr "切换回哪个部分；-1 表示每个部分都显示你自己的面"
+
+#: segments.py:860
+msgid "Which parts to select: all, none, the ten that changed most, or every part of one kind"
+msgstr "选择哪些部分：全部、无、变化最大的十个，或某一类型的每个部分"
+
+#: operators.py:177
+#: ui.py:55
+msgid "Which plan Smart (Atlas-Q) follows. Auto picks one from the measured mesh"
+msgstr "智能（Atlas-Q）遵循哪种方案。自动会根据测量到的网格选择一个"
+
+#: operators.py:244
+msgid "Which quality preset to load: Draft (fast), Balanced or Hero (slowest, best)"
+msgstr "加载哪种质量预设：草图（快）、均衡或英雄（最慢、最佳）"
+
+#: guided.py:352
+msgid "Which tool rebuilds the mesh. Auto Segments is the main path; the other three are the older point tools in the Advanced tab"
+msgstr "哪个工具重建网格。自动分段是主路径；其他三个是「高级」标签页中较早的点工具"
+
+#: game_export.py:143
+msgid "Which way the normal map's green channel points: OpenGL (Blender, Unity, Godot) or DirectX (Unreal). Only used by Custom"
+msgstr "法线贴图绿色通道的方向：OpenGL（Blender、Unity、Godot）或 DirectX（Unreal）。仅由「自定义」使用"
+
+#: guided.py:68
+msgid "Whole Mesh"
+msgstr "整个网格"
+
+#: guided.py:362
+msgid "Why"
+msgstr "原因"
+
+#: guided.py:444
+msgid "Width and height of the baked textures. Bigger is sharper and slower"
+msgstr "烘焙纹理的宽度和高度。越大越清晰也越慢"
+
+#: guided.py:379
+msgid "Wireframe"
+msgstr "线框"
+
+#: guided.py:70
+msgid "Work Areas"
+msgstr "作业区域"
+
+#: hardware.py:30
+msgid "Work in small steps and leave most of the computer free: short slices with long gaps, fewer camera rays, smaller pieces held in memory. Slower, and the view check is coarser"
+msgstr "小步处理并让计算机大部分保持空闲：短时间片配长间隔、更少的相机射线、内存中保留更小的分块。速度较慢，视图检查也更粗略"
+
+#: panel.py:230
+msgid "Working: you can keep using Blender"
+msgstr "处理中：您可以继续使用 Blender"
+
+#: guided.py:433
+msgid "Works on several parts at once in background copies of Blender. Faster on big meshes; uses more memory. Needs Background Blender Processes on in the add-on preferences"
+msgstr "在 Blender 后台副本中同时处理多个部分。大网格上更快；占用更多内存。需在插件偏好设置中开启后台 Blender 进程"
+
+#: guided.py:2685
+msgid "World-space spot (0,0,0 uses the 3D cursor)"
+msgstr "世界空间点（0,0,0 使用 3D 游标）"
+
+#: segments.py:860
+msgid "Worst 10"
+msgstr "最差 10 个"
+
+#: guided.py:94
+msgid "Write the result to a new object called <name>_Retopo"
+msgstr "将结果写入名为 <name>_Retopo 的新物体"
+
+#: guided.py:89
+msgid "X"
+msgstr "X"
+
+#: guided.py:90
+msgid "Y"
+msgstr "Y"
+
+#: panel.py:997
+msgid "You've fixed something like this before:"
+msgstr "您之前修复过类似的问题："
+
+#: segment_goals.py:50
+msgid "Your original faces, unchanged except for the row along the seam, which joins the neighbours"
+msgstr "您的原始面，除沿接缝的一行（与相邻面连接）外保持不变"
+
+#: fix_select.py:282
+msgid "Your original mesh: says which way is out and gives the surface moved corners go back on"
+msgstr "您的原始网格：指示外部方向，并提供移动的角点回归的表面"
+
+#: guided.py:91
+msgid "Z"
+msgstr "Z"
+
+#: game_export.py:49
+msgid "glTF (.glb)"
+msgstr "glTF (.glb)"
+
+#: ui.py:122
+msgid "p95 Aspect Ratio"
+msgstr "p95 长宽比"
+
+#: ui.py:132
+msgid "p95 Error / Diagonal"
+msgstr "p95 误差 / 对角线"
+
+#: segments.py:971
+msgid "the same"
+msgstr "相同"
+
+#: guided.py:3747
+msgctxt "Operator"
+msgid "A marker ball at the 3D cursor. Scale it to change its reach"
+msgstr "3D 游标处的标记球。缩放以改变其作用范围"
+
+#: guided.py:3746
+msgctxt "Operator"
+msgid "Add Detail Marker"
+msgstr "添加细节标记"
+
+#: guided.py:2737
+msgctxt "Operator"
+msgid "Add Empty Point"
+msgstr "添加空物体点"
+
+#: guided.py:3853
+msgctxt "Operator"
+msgid "Add Multires Detail"
+msgstr "添加多级精度细节"
+
+#: guided.py:2679
+msgctxt "Operator"
+msgid "Add Point"
+msgstr "添加点"
+
+#: region.py:699
+msgctxt "Operator"
+msgid "Add Region Cage"
+msgstr "添加区域框架"
+
+#: guided.py:3501
+#: panel.py:374
+msgctxt "Operator"
+msgid "Add Selected"
+msgstr "添加所选"
+
+#: guided.py:3432
+msgctxt "Operator"
+msgid "Add Shape"
+msgstr "添加形状"
+
+#: region.py:753
+msgctxt "Operator"
+msgid "Add Volume"
+msgstr "添加体积"
+
+#: region.py:700
+msgctxt "Operator"
+msgid "Add a box or lattice around your selection (or the 3D cursor). Move and scale it so it covers the part to redo"
+msgstr "在所选内容（或 3D 游标）周围添加盒或晶格。移动并缩放使其覆盖要重做的部分"
+
+#: guided.py:3433
+msgctxt "Operator"
+msgid "Add a shape that marks a part of the result to redo. Move and scale it over the part; shapes over your original mesh work too"
+msgstr "添加标记结果中要重做部分的形状。将其移动并缩放到该部分上；放在原始网格上的形状同样有效"
+
+#: guided.py:2738
+msgctxt "Operator"
+msgid "Add a sphere Empty at the 3D cursor as a point. Move and scale it like any object; its size is the radius. Custom properties curiomesh_kind and curiomesh_strength set the type and strength"
+msgstr "在 3D 游标处添加球体空物体作为点。像任何物体一样移动和缩放；其大小即半径。自定义属性 curiomesh_kind 和 curiomesh_strength 设定类型和强度"
+
+#: guided.py:2680
+msgctxt "Operator"
+msgid "Add an importance point at the 3D cursor, snapped to the surface of the active mesh"
+msgstr "在 3D 游标处添加重要性点，吸附到活动网格的表面"
+
+#: guided.py:1425
+msgctxt "Operator"
+msgid "Add the fixes in a file somebody shared to your own. Ones you already have are skipped"
+msgstr "将他人分享文件中的修复添加到自己的文件。已有的修复会跳过"
+
+#: region.py:754
+msgctxt "Operator"
+msgid "Add the other selected empties, lattices or closed meshes as region volumes (or an empty slot)"
+msgstr "将其他选中的空物体、晶格或封闭网格添加为区域体积（或一个空槽位）"
+
+#: operators.py:285
+#: ui.py:357
+msgctxt "Operator"
+msgid "Analyze Mesh"
+msgstr "分析网格"
+
+#: guided.py:3137
+#: panel.py:780
+msgctxt "Operator"
+msgid "Apply"
+msgstr "应用"
+
+#: guided.py:1377
+msgctxt "Operator"
+msgid "Apply Known Fix"
+msgstr "应用已知修复"
+
+#: region.py:642
+msgctxt "Operator"
+msgid "Apply Region"
+msgstr "应用区域"
+
+#: panel.py:1064
+msgctxt "Operator"
+msgid "Auto-suggest"
+msgstr "自动建议"
+
+#: guided.py:2764
+msgctxt "Operator"
+msgid "Auto-suggest Points"
+msgstr "自动建议点"
+
+#: panel.py:412
+msgctxt "Operator"
+msgid "Ball +"
+msgstr "球 +"
+
+#: panel.py:413
+msgctxt "Operator"
+msgid "Ball -"
+msgstr "球 -"
+
+#: batch.py:141
+msgctxt "Operator"
+msgid "Batch Remesh Selected"
+msgstr "批量重网格化所选"
+
+#: segment_goals.py:1546
+msgctxt "Operator"
+msgid "Bigger Quads"
+msgstr "增大四边形"
+
+#: ladder.py:556
+msgctxt "Operator"
+msgid "Bigger or smaller quads on the selected parts only; the rest stays as it is"
+msgstr "仅对所选部分增大或减小四边形，其余保持不变"
+
+#: panel.py:687
+msgctxt "Operator"
+msgid "Bigger quads"
+msgstr "增大四边形"
+
+#: panel.py:963
+msgctxt "Operator"
+msgid "Box"
+msgstr "盒"
+
+#: region.py:1006
+msgctxt "Operator"
+msgid "Box Cage"
+msgstr "盒状框架"
+
+#: guided.py:3344
+msgctxt "Operator"
+msgid "Bring the result.npz of an exported job back as the preview of the selected mesh, then press Apply"
+msgstr "将导出作业的 result.npz 载回为所选网格的预览，然后按应用"
+
+#: region.py:628
+msgctxt "Operator"
+msgid "Build the new quads for the region and show them as a preview. The seam (orange) never moves; nothing is changed until you Apply"
+msgstr "为该区域构建新的四边形并作为预览显示。接缝（橙色）永不移动；在您应用之前不会更改任何内容"
+
+#: guided.py:3239
+#: region.py:1073
+msgctxt "Operator"
+msgid "Cancel"
+msgstr "取消"
+
+#: region.py:687
+msgctxt "Operator"
+msgid "Cancel Region Preview"
+msgstr "取消区域预览"
+
+#: flowedit.py:613
+msgctxt "Operator"
+msgid "Change To"
+msgstr "更改为"
+
+#: guided.py:3289
+msgctxt "Operator"
+msgid "Check This Computer"
+msgstr "检查此计算机"
+
+#: operators.py:286
+msgctxt "Operator"
+msgid "Check holes, sharp features and scale, and recommend a method. Does not change the mesh"
+msgstr "检查孔洞、锐利特征和缩放，并推荐方法。不更改网格"
+
+#: fix_select.py:224
+msgctxt "Operator"
+msgid "Check the selected faces (and the rings around them) and leave only the bad ones selected. Nothing selected: the whole mesh"
+msgstr "检查所选面（及其周围的环），仅保留不好的面为选中状态。未选择任何内容时：整个网格"
+
+#: guided.py:3725
+msgctxt "Operator"
+msgid "Clear"
+msgstr "清除"
+
+#: guided.py:2726
+msgctxt "Operator"
+msgid "Clear Points"
+msgstr "清除点"
+
+#: __init__.py:258
+msgctxt "Operator"
+msgid "Clear Saved Progress"
+msgstr "清除已保存的进度"
+
+#: flowedit.py:450
+msgctxt "Operator"
+msgid "Click a stroke on your mesh to take it away; the quads there go back to how they were. Right click, Enter or Esc: done"
+msgstr "在网格上点击一笔即可移除；那里的四边形恢复原样。右键、Enter 或 Esc：完成"
+
+#: guided.py:2554
+msgctxt "Operator"
+msgid "Click or drag on the mesh to add an area; it is remeshed right away. Over an area: scroll for size, Shift+scroll for density, F for fill style"
+msgstr "在网格上点击或拖动以添加区域；会立即重新网格化。在区域上：滚轮调整大小，Shift+滚轮调整密度，F 切换填充样式"
+
+#: flowedit.py:484
+msgctxt "Operator"
+msgid "Click the middle of a hole, bolt or eye and drag out to size: a clean circle laid on your mesh becomes a Ring. Hold Shift while dragging for an ellipse. Right click, Enter or Esc: done"
+msgstr "点击孔洞、螺栓或眼睛的中心并拖出大小：贴合在网格上的干净圆环将成为环。拖动时按住 Shift 得到椭圆。右键、Enter 或 Esc：完成"
+
+#: guided.py:2545
+msgctxt "Operator"
+msgid "Click the surface to add a point. Ctrl+click removes one, scroll sets the radius, Shift+scroll the strength, keys 1-4 pick Detail / Loop / Sharp / Calm, Enter or Esc finishes"
+msgstr "点击表面添加点。Ctrl+点击移除点，滚轮设置半径，Shift+滚轮设置强度，按键 1-4 选择 细节 / 循环 / 锐利 / 平滑，Enter 或 Esc 完成"
+
+#: overlay.py:703
+msgctxt "Operator"
+msgid "Colour the mesh: triangles red, n-gons purple, 3-edge poles blue dots, 5+-edge poles larger orange dots (colours editable in Preferences)"
+msgstr "为网格上色：三角形为红色，N 边形为紫色，3 边极点显示为蓝点，5 边及以上极点显示为更大的橙色点（颜色可在偏好设置中修改）"
+
+#: issue_panel.py:305
+msgctxt "Operator"
+msgid "Compare With Report..."
+msgstr "与报告比较…"
+
+#: game_export.py:237
+msgctxt "Operator"
+msgid "CurioMesh Game Asset (.fbx/.glb/.obj)"
+msgstr "CurioMesh 游戏资产 (.fbx/.glb/.obj)"
+
+#: guided.py:3726
+msgctxt "Operator"
+msgid "Delete all Detail Markers: both paint groups and the marker balls"
+msgstr "删除所有细节标记：包括绘制组和标记球"
+
+#: __init__.py:259
+msgctxt "Operator"
+msgid "Delete the finished parts that stopped jobs keep so Start can resume them. A job that runs now keeps going"
+msgstr "删除已停止的任务为让 Start 能继续而保留的已完成部分。当前运行的任务会继续进行"
+
+#: panel.py:787
+msgctxt "Operator"
+msgid "Discard result"
+msgstr "丢弃结果"
+
+#: region.py:688
+msgctxt "Operator"
+msgid "Discard the preview and show your original mesh again"
+msgstr "丢弃预览并重新显示原始网格"
+
+#: flowedit.py:389
+msgctxt "Operator"
+msgid "Draw"
+msgstr "绘制"
+
+#: guided.py:3581
+msgctxt "Operator"
+msgid "Draw Guide"
+msgstr "绘制引导线"
+
+#: panel.py:386
+msgctxt "Operator"
+msgid "Draw Joint"
+msgstr "绘制关节"
+
+#: panel.py:381
+msgctxt "Operator"
+msgid "Draw Line"
+msgstr "绘制直线"
+
+#: panel.py:373
+msgctxt "Operator"
+msgid "Draw Loops"
+msgstr "绘制循环边"
+
+#: segment_goals.py:1199
+msgctxt "Operator"
+msgid "Draw a line across a part to cut it in two, through to the back. Both halves are locked; Esc cancels"
+msgstr "在部件上画一条线将其切成两半，一直贯穿到背面。两半都会被锁定；Esc 取消"
+
+#: guided.py:3582
+msgctxt "Operator"
+msgid "Draw a stroke on the mesh with the left mouse button held; each stroke becomes a curve in the list. Right click, Enter or Esc finishes"
+msgstr "按住鼠标左键在网格上画一笔；每一笔都会在列表中成为一条曲线。右键、Enter 或 Esc 完成"
+
+#: panel.py:365
+msgctxt "Operator"
+msgid "Draw on the mesh"
+msgstr "在网格上绘制"
+
+#: flowedit.py:390
+msgctxt "Operator"
+msgid "Draw on your mesh with the left mouse button held. Each stroke reshapes the quads around it. F, R, E right after a stroke change it to Flow, Ring or Edge. Right click, Enter or Esc: done"
+msgstr "按住鼠标左键在网格上绘制。每一笔会重塑其周围的四边形。一笔结束后立即按 F、R、E 可将其改为 流线、环 或 边。右键、Enter 或 Esc：完成"
+
+#: flowedit.py:646
+msgctxt "Operator"
+msgid "Edge"
+msgstr "边"
+
+#: guided.py:3657
+msgctxt "Operator"
+msgid "Edit Curve"
+msgstr "编辑曲线"
+
+#: panel.py:989
+msgctxt "Operator"
+msgid "Edit Preview"
+msgstr "编辑预览"
+
+#: region.py:984
+msgctxt "Operator"
+msgid "Enter Edit Mode"
+msgstr "进入编辑模式"
+
+#: guided.py:2815
+msgctxt "Operator"
+msgid "Enter Edit Mode on the preview so you can select faces to lock or a strip to redraw"
+msgstr "在预览上进入编辑模式，以便选择要锁定的面或要重绘的条带"
+
+#: flowedit.py:449
+msgctxt "Operator"
+msgid "Erase"
+msgstr "擦除"
+
+#: flowedit.py:628
+msgctxt "Operator"
+msgid "Erase All"
+msgstr "全部擦除"
+
+#: guided.py:1412
+msgctxt "Operator"
+msgid "Export Fixes"
+msgstr "导出修复"
+
+#: panel.py:929
+msgctxt "Operator"
+msgid "Export Job"
+msgstr "导出任务"
+
+#: guided.py:3303
+msgctxt "Operator"
+msgid "Export Job For Another Computer"
+msgstr "导出任务至其他计算机"
+
+#: game_export.py:135
+msgctxt "Operator"
+msgid "Export for Game Engine"
+msgstr "导出为游戏引擎"
+
+#: panel.py:774
+msgctxt "Operator"
+msgid "Export for game..."
+msgstr "导出为游戏…"
+
+#: flowedit.py:651
+msgctxt "Operator"
+msgid "Eye"
+msgstr "眼睛"
+
+#: region.py:886
+msgctxt "Operator"
+msgid "Fill Loop"
+msgstr "填充循环"
+
+#: region.py:887
+msgctxt "Operator"
+msgid "Fill each selected closed hole loop with an all-quad patch that follows the surrounding curvature"
+msgstr "用遵循周围曲率的全四边形面片填充每个选定的封闭孔洞循环"
+
+#: fix_select.py:223
+msgctxt "Operator"
+msgid "Find Bad Faces"
+msgstr "查找问题面"
+
+#: region.py:799
+msgctxt "Operator"
+msgid "Fit to Surface"
+msgstr "贴合表面"
+
+#: fix_select.py:239
+msgctxt "Operator"
+msgid "Fix"
+msgstr "修复"
+
+#: fix_select.py:303
+msgctxt "Operator"
+msgid "Fix All"
+msgstr "全部修复"
+
+#: fix_select.py:240
+msgctxt "Operator"
+msgid "Fix only the bad faces in the selected area this way"
+msgstr "仅以这种方式修复所选区域中的问题面"
+
+#: flowedit.py:644
+msgctxt "Operator"
+msgid "Flow"
+msgstr "流线"
+
+#: guided.py:1439
+msgctxt "Operator"
+msgid "Forget Kept Fixes"
+msgstr "忘记保留的修复"
+
+#: guided.py:2879
+msgctxt "Operator"
+msgid "Forget all locked faces and rebuild everything from your mesh"
+msgstr "忘记所有锁定的面并从你的网格重新构建全部"
+
+#: guided.py:2928
+#: segments.py:943
+msgctxt "Operator"
+msgid "Frame"
+msgstr "框显"
+
+#: guided.py:3854
+msgctxt "Operator"
+msgid "Give the active mesh (your cage, from any tool or by hand) Multires levels that follow the other selected mesh. The selected mesh is only read"
+msgstr "为活动网格（你的笼形网格，来自任何工具或手动制作）提供跟随其他所选网格的多级精度级别。所选网格仅被读取"
+
+#: segment_goals.py:1121
+msgctxt "Operator"
+msgid "Gives the selected part a name of your own"
+msgstr "为所选部分指定自定义名称"
+
+#: guided.py:3684
+msgctxt "Operator"
+msgid "Go to Weight Paint on the mesh with a vertex group for the markers. Paint red where you want more (or fewer) quads, then leave Weight Paint (Tab) and press Start. Turns on unified weight in the tool settings and sets the brush weight to 1"
+msgstr "在网格上进入权重绘制，并使用标记的顶点组。在需要更多（或更少）四边形的位置涂红，然后退出权重绘制（Tab）并按 Start。会启用工具设置中的统一权重并将笔刷权重设为 1"
+
+#: segment_goals.py:1578
+msgctxt "Operator"
+msgid "Go to the next or previous part, worst first, and move the view to it"
+msgstr "转到下一个或上一个部件（最差的优先），并将视图移动到该部件"
+
+#: issue_panel.py:141
+msgctxt "Operator"
+msgid "Goes to the next (or previous) bad spot, worst first, and moves the view to it"
+msgstr "转到下一个（或上一个）问题点（最差的优先），并将视图移动到该处"
+
+#: segment_goals.py:1498
+msgctxt "Operator"
+msgid "Grow"
+msgstr "扩大"
+
+#: panel.py:507
+msgctxt "Operator"
+msgid "Hard Surface"
+msgstr "硬表面"
+
+#: ui.py:293
+msgctxt "Operator"
+msgid "Heatmap"
+msgstr "热力图"
+
+#: panel.py:508
+msgctxt "Operator"
+msgid "Hulls"
+msgstr "外壳"
+
+#: guided.py:1424
+msgctxt "Operator"
+msgid "Import Fixes"
+msgstr "导入修复"
+
+#: guided.py:3343
+msgctxt "Operator"
+msgid "Import Job Result"
+msgstr "导入任务结果"
+
+#: panel.py:930
+msgctxt "Operator"
+msgid "Import Result"
+msgstr "导入结果"
+
+#: issue_panel.py:205
+msgctxt "Operator"
+msgid "Keep Original Here"
+msgstr "在此保留原始"
+
+#: segments.py:562
+msgctxt "Operator"
+msgid "Keep Original Where Bad"
+msgstr "在问题处保留原始"
+
+#: guided.py:2858
+msgctxt "Operator"
+msgid "Keep the faces selected on the preview exactly as they are; later updates rebuild only the rest, around them"
+msgstr "将预览上选定的面完全保持原样；之后的更新只会在它们周围重建其余部分"
+
+#: region.py:1007
+msgctxt "Operator"
+msgid "Lattice Cage"
+msgstr "晶格笼"
+
+#: panel.py:410
+msgctxt "Operator"
+msgid "Less Here"
+msgstr "此处减少"
+
+#: issue_panel.py:306
+msgctxt "Operator"
+msgid "Loads an older report and shows which of its bad spots are fixed, still there, or new"
+msgstr "加载较早的报告，并显示其中哪些问题点已修复、仍然存在或是新增的"
+
+#: segment_goals.py:1104
+#: segment_goals.py:1496
+msgctxt "Operator"
+msgid "Lock"
+msgstr "锁定"
+
+#: guided.py:2857
+msgctxt "Operator"
+msgid "Lock Faces"
+msgstr "锁定面"
+
+#: segment_goals.py:1496
+msgctxt "Operator"
+msgid "Locked"
+msgstr "已锁定"
+
+#: segment_goals.py:1105
+msgctxt "Operator"
+msgid "Locks the selected parts, so size changes keep them face for face. Parts you merge, split or paint are locked for you"
+msgstr "锁定选中的部件，使尺寸变化时仍逐面对应。你合并、拆分或绘制的部件会自动锁定"
+
+#: guided.py:1364
+msgctxt "Operator"
+msgid "Look for Known Fixes"
+msgstr "查找已知修复"
+
+#: guided.py:1365
+msgctxt "Operator"
+msgid "Look in this result for patches that match a fix you remembered"
+msgstr "在此结果中查找与你记住的修复匹配的补丁"
+
+#: guided.py:3875
+msgctxt "Operator"
+msgid "Looks at your mesh and this computer, picks the Use, then starts. It says what it picked and why; nothing changes until you press Apply"
+msgstr "检查你的网格和这台电脑，选择用途后开始。它会说明所选内容及原因；在你按“应用”前不会更改任何内容"
+
+#: guided.py:3095
+msgctxt "Operator"
+msgid "Make LOD Set"
+msgstr "生成 LOD 集"
+
+#: segment_goals.py:1143
+msgctxt "Operator"
+msgid "Make a Part"
+msgstr "创建部件"
+
+#: guided.py:3096
+msgctxt "Operator"
+msgid "Make three new objects named for game engines (_LOD0, _LOD1, _LOD2), each a Reduce To of your mesh at the percents here. LODs this button made before for this mesh are replaced (Ctrl+Z brings them back). Only the first needs the full search. Uses your UV and bake settings"
+msgstr "创建三个以游戏引擎命名的新物体（_LOD0、_LOD1、_LOD2），每个都是按此处百分比对你的网格执行“缩减至”的结果。此前用此按钮为此网格生成的 LOD 会被替换（Ctrl+Z 可恢复）。只有第一个需要完整搜索。使用你的 UV 和烘焙设置"
+
+#: segment_goals.py:1064
+msgctxt "Operator"
+msgid "Makes the selected parts one (Shift+click two while reviewing, then M). The merged part is locked, so size changes keep it"
+msgstr "将选中的部件合并为一个（查看时按住 Shift 单击两个部件，然后按 M）。合并后的部件会被锁定，因此调整尺寸时仍会保持原样"
+
+#: ui.py:602
+msgctxt "Operator"
+msgid "Measure Active Mesh"
+msgstr "测量活动网格"
+
+#: operators.py:317
+msgctxt "Operator"
+msgid "Measure Mesh"
+msgstr "测量网格"
+
+#: operators.py:318
+msgctxt "Operator"
+msgid "Measure the active mesh (quad ratio, poles, holes, UVs) and list the results below"
+msgstr "测量活动网格（四边形比例、极点、孔洞、UV）并在下方列出结果"
+
+#: segment_goals.py:1063
+msgctxt "Operator"
+msgid "Merge"
+msgstr "合并"
+
+#: panel.py:409
+msgctxt "Operator"
+msgid "More Here"
+msgstr "此处更多"
+
+#: flowedit.py:652
+msgctxt "Operator"
+msgid "Mouth"
+msgstr "嘴部"
+
+#: guided.py:2929
+msgctxt "Operator"
+msgid "Move the 3D view to the next spot worth fixing"
+msgstr "将 3D 视图移到下一个值得修复的位置"
+
+#: segments.py:944
+msgctxt "Operator"
+msgid "Moves the 3D view to the selected parts"
+msgstr "将 3D 视图移到选中部件"
+
+#: issue_panel.py:110
+msgctxt "Operator"
+msgid "Moves the 3D view to this bad spot and highlights it"
+msgstr "将 3D 视图移到这个有问题的地方并高亮显示"
+
+#: segment_goals.py:1460
+msgctxt "Operator"
+msgid "Multires Detail"
+msgstr "多级精度细节"
+
+#: segment_goals.py:1541
+msgctxt "Operator"
+msgid "Multires Detail: follows your mesh"
+msgstr "多级精度细节：跟随你的网格"
+
+#: segment_goals.py:1541
+msgctxt "Operator"
+msgid "Multires Detail: off here"
+msgstr "多级精度细节：此处关闭"
+
+#: segment_goals.py:1511
+msgctxt "Operator"
+msgid "Next"
+msgstr "下一个"
+
+#: issue_panel.py:140
+msgctxt "Operator"
+msgid "Next Issue"
+msgstr "下一个问题"
+
+#: segment_goals.py:1577
+msgctxt "Operator"
+msgid "Next Part"
+msgstr "下一个部件"
+
+#: flowedit.py:653
+msgctxt "Operator"
+msgid "Nose-Mouth"
+msgstr "鼻-嘴"
+
+#: segment_goals.py:1461
+msgctxt "Operator"
+msgid "On Apply, the selected parts follow your mesh in the Multires levels. Off, they keep their own shape at every level"
+msgstr "应用时，选中部件会在多级精度各级中跟随你的网格。关闭时，它们在各级中保持自身形状"
+
+#: guided.py:3683
+#: seglive.py:312
+msgctxt "Operator"
+msgid "Paint"
+msgstr "绘制"
+
+#: segment_goals.py:1501
+msgctxt "Operator"
+msgid "Paint New"
+msgstr "绘制新部件"
+
+#: seglive.py:264
+msgctxt "Operator"
+msgid "Paint Size"
+msgstr "绘制大小"
+
+#: segment_goals.py:1261
+msgctxt "Operator"
+msgid "Paint a new part on the mesh with the left mouse button. [ and ] change the brush; Enter ends, Esc cancels"
+msgstr "用鼠标左键在网格上绘制新部件。[ 和 ] 可切换笔刷；Enter 结束，Esc 取消"
+
+#: operators.py:233
+msgctxt "Operator"
+msgid "Pick a quality preset"
+msgstr "选择质量预设"
+
+#: panel.py:100
+msgctxt "Operator"
+msgid "Pick what you will do with the result"
+msgstr "选择结果的用途"
+
+#: flowedit.py:483
+msgctxt "Operator"
+msgid "Place Circle"
+msgstr "放置圆形"
+
+#: guided.py:2544
+#: panel.py:1063
+msgctxt "Operator"
+msgid "Place Points"
+msgstr "放置点"
+
+#: flowedit.py:530
+msgctxt "Operator"
+msgid "Place Shape"
+msgstr "放置形状"
+
+#: guided.py:2765
+msgctxt "Operator"
+msgid "Place points at high-curvature spots, hard edges and small holes (eyes, mouths). Edit them afterwards; suggesting again replaces the earlier suggestions"
+msgstr "在高曲率位置、硬边和小孔洞（眼睛、嘴部）处放置点。之后可编辑它们；再次生成建议会替换之前的建议"
+
+#: region.py:1063
+msgctxt "Operator"
+msgid "Preview"
+msgstr "预览"
+
+#: region.py:627
+msgctxt "Operator"
+msgid "Preview Region"
+msgstr "预览区域"
+
+#: segment_goals.py:1510
+msgctxt "Operator"
+msgid "Previous"
+msgstr "上一个"
+
+#: issue_panel.py:245
+msgctxt "Operator"
+msgid "Put Reduced Back"
+msgstr "放回缩减结果"
+
+#: __init__.py:274
+msgctxt "Operator"
+msgid "Put every CurioMesh preference (tab name, panels, dashboard, colours) back to its default"
+msgstr "将 CurioMesh 的所有偏好设置（标签页名称、面板、仪表板、颜色）恢复为默认值"
+
+#: panel.py:635
+#: panel.py:662
+msgctxt "Operator"
+msgid "Put reduced back"
+msgstr "放回缩减结果"
+
+#: guided.py:1378
+msgctxt "Operator"
+msgid "Put the closest remembered fix in. A camera looks at the spot from six sides first and the fix is dropped if it makes the spot look further from your original"
+msgstr "应用最接近的已记住修复。摄像机会先从六个方向查看该位置；如果修复让该位置看起来更偏离你的原始结果，则放弃该修复"
+
+#: segment_goals.py:1092
+msgctxt "Operator"
+msgid "Puts the parts back as they were before the last merge, split, grow, shrink or paint (Ctrl+Z while reviewing)"
+msgstr "将部件恢复到上次合并、拆分、扩展、收缩或绘制之前的状态（查看时按 Ctrl+Z）"
+
+#: segments.py:563
+msgctxt "Operator"
+msgid "Puts your own faces back on every part with bad faces. Each part can be switched back from its card"
+msgstr "在所有存在不良面的部件上恢复你自己的面。每个部件都可以从其卡片切换回来"
+
+#: issue_panel.py:206
+msgctxt "Operator"
+msgid "Puts your own faces back on the part under this spot. It asks first; Put Reduced Back undoes it"
+msgstr "恢复此位置下部件上你自己的面。会先询问；“放回缩减结果”可撤销"
+
+#: ladder.py:555
+msgctxt "Operator"
+msgid "Quad Size of Selected"
+msgstr "选中项的四边形大小"
+
+#: operators.py:232
+msgctxt "Operator"
+msgid "Quality Preset"
+msgstr "质量预设"
+
+#: guided.py:3290
+msgctxt "Operator"
+msgid "Read your cores and memory, time a short test, and count the loose pieces of the selected mesh, so the panel can say how big this job is for this PC"
+msgstr "读取你的核心数和内存，运行一次短测试并计时，统计选中网格的松散块数量，以便面板说明这项任务对这台电脑来说有多大"
+
+#: guided.py:2896
+msgctxt "Operator"
+msgid "Rebuild only the faces selected on the preview (a strip or loop of faces) with the region tool. The rest of the preview is frozen afterwards"
+msgstr "使用区域工具仅重建预览中选中的面（一条面带或面循环）。之后预览的其余部分会被冻结"
+
+#: guided.py:2789
+msgctxt "Operator"
+msgid "Rebuild the preview now, even when it is too big for automatic updates. Whole Mesh and Points Only run in one go: Blender is busy until they are done"
+msgstr "立即重建预览，即使它太大而无法自动更新。“整个网格”和“仅点”会一次运行：在它们完成之前 Blender 会一直忙碌"
+
+#: panel.py:690
+#: segment_goals.py:1400
+msgctxt "Operator"
+msgid "Redo"
+msgstr "重做"
+
+#: issue_panel.py:175
+msgctxt "Operator"
+msgid "Redo This Spot"
+msgstr "重做此位置"
+
+#: panel.py:276
+#: panel.py:655
+msgctxt "Operator"
+msgid "Redo this spot"
+msgstr "重做此位置"
+
+#: guided.py:2895
+msgctxt "Operator"
+msgid "Redraw Strip"
+msgstr "重绘条带"
+
+#: region.py:1063
+msgctxt "Operator"
+msgid "Refresh Preview"
+msgstr "刷新预览"
+
+#: region.py:800
+msgctxt "Operator"
+msgid "Relax vertices along the surface and snap them back onto it; open borders (and unselected vertices in Edit Mode) stay put"
+msgstr "沿表面松弛顶点并将其吸附回表面；开放边界（以及编辑模式中未选中的顶点）保持不动"
+
+#: issue_panel.py:176
+msgctxt "Operator"
+msgid "Remakes the part under this spot with smaller quads, which usually clears folded or crossing faces. The old version stays in the part's tries"
+msgstr "用更小的四边形重建此位置下的部件，通常可清除折叠或交叉的面。旧版本会保留在该部件的尝试记录中"
+
+#: segment_goals.py:1401
+msgctxt "Operator"
+msgid "Remakes the selected parts for this Use; only they change and their borders stay. Every result stays in the part's tries"
+msgstr "为此用途重建选中的部件；只有它们会改变，其边界保持不变。每个结果都会保留在该部件的尝试记录中"
+
+#: segments.py:883
+msgctxt "Operator"
+msgid "Remakes the selected parts with this method; the rest stays. Every result stays in the part's tries"
+msgstr "用此方法重做所选部分；其余保持不变。每个结果都保留在该部分的尝试记录中"
+
+#: panel.py:990
+msgctxt "Operator"
+msgid "Remember"
+msgstr "记住"
+
+#: guided.py:1324
+msgctxt "Operator"
+msgid "Remember This Fix"
+msgstr "记住此修复"
+
+#: guided.py:1325
+msgctxt "Operator"
+msgid "Remember the area you fixed by hand on the preview, and offer the same fix where the pattern shows up again. Kept on this mesh (custom property curiomesh_kept, saved in the .blend) and in the add-on's user folder; nothing is uploaded"
+msgstr "记住你在预览中手动修复的区域，并在相同模式再次出现时提供相同的修复。保存在此网格上（自定义属性 curiomesh_kept，存于 .blend）以及插件的用户文件夹中；不会上传任何内容"
+
+#: batch.py:142
+msgctxt "Operator"
+msgid "Remesh every selected mesh with the current settings and save one JSON report. Each mesh is remeshed in one go, so Blender is busy while it runs; Esc stops between meshes"
+msgstr "用当前设置重网格化所有选中的网格，并保存一份 JSON 报告。每个网格一次性完成，因此运行期间 Blender 会忙碌；按 Esc 可在网格之间停止"
+
+#: operators.py:163
+msgctxt "Operator"
+msgid "Remesh to Quads"
+msgstr "重网格化为四边面"
+
+#: guided.py:3523
+msgctxt "Operator"
+msgid "Remove Guide"
+msgstr "移除引导"
+
+#: guided.py:2713
+msgctxt "Operator"
+msgid "Remove Point"
+msgstr "移除点"
+
+#: guided.py:3481
+msgctxt "Operator"
+msgid "Remove Shape"
+msgstr "移除形状"
+
+#: region.py:771
+msgctxt "Operator"
+msgid "Remove Volume"
+msgstr "移除体积"
+
+#: guided.py:2727
+msgctxt "Operator"
+msgid "Remove every point from the mesh (tagged empties stay)"
+msgstr "移除网格中的所有点（带标记的空物体保留）"
+
+#: region.py:772
+msgctxt "Operator"
+msgid "Remove the highlighted volume from the list (the object stays)"
+msgstr "从列表中移除高亮的体积（物体保留）"
+
+#: guided.py:2714
+msgctxt "Operator"
+msgid "Remove the point selected in the list"
+msgstr "移除列表中选中的点"
+
+#: guided.py:3240
+msgctxt "Operator"
+msgid "Remove the preview and keep your mesh as it was. Your points and guides stay"
+msgstr "移除预览并保持网格原样。你的点和引导会保留"
+
+#: segment_goals.py:1502
+msgctxt "Operator"
+msgid "Rename"
+msgstr "重命名"
+
+#: segment_goals.py:1120
+msgctxt "Operator"
+msgid "Rename Part"
+msgstr "重命名部分"
+
+#: issue_panel.py:324
+msgctxt "Operator"
+msgid "Report a Problem (opens browser)"
+msgstr "报告问题（打开浏览器）"
+
+#: __init__.py:273
+msgctxt "Operator"
+msgid "Reset CurioMesh Preferences"
+msgstr "重置 CurioMesh 偏好设置"
+
+#: segment_goals.py:1608
+msgctxt "Operator"
+msgid "Review Parts"
+msgstr "检查部分"
+
+#: panel.py:716
+msgctxt "Operator"
+msgid "Review parts in the viewport"
+msgstr "在视图中检查部分"
+
+#: flowedit.py:645
+msgctxt "Operator"
+msgid "Ring"
+msgstr "环"
+
+#: issue_panel.py:281
+msgctxt "Operator"
+msgid "Save Issue Report"
+msgstr "保存问题报告"
+
+#: guided.py:1413
+msgctxt "Operator"
+msgid "Save a copy of your remembered fixes to share. They hold quad patterns and shape numbers only, no mesh"
+msgstr "保存一份记住的修复副本以便分享。其中只包含四边面模式和形状编号，不含网格"
+
+#: issue_panel.py:282
+msgctxt "Operator"
+msgid "Saves the list of bad spots to a file you pick, so a later run can be compared with it"
+msgstr "将问题点列表保存到你选择的文件，以便后续运行与之比较"
+
+#: issue_panel.py:121
+msgctxt "Operator"
+msgid "Select"
+msgstr "选择"
+
+#: guided.py:2814
+msgctxt "Operator"
+msgid "Select Faces on Preview"
+msgstr "在预览中选择面"
+
+#: segments.py:856
+msgctxt "Operator"
+msgid "Select Parts"
+msgstr "选择部分"
+
+#: guided.py:3658
+msgctxt "Operator"
+msgid "Select the chosen curve and open it in Edit Mode: move its points, or press G to move all of it. The preview follows. Tab back to the mesh when done"
+msgstr "选中选定的曲线并进入编辑模式：移动其点，或按 G 移动整条曲线。预览会跟随。完成后按 Tab 返回网格"
+
+#: issue_panel.py:122
+msgctxt "Operator"
+msgid "Select the faces of this problem spot in Edit Mode"
+msgstr "在编辑模式下选择此问题点的面"
+
+#: panel.py:965
+msgctxt "Operator"
+msgid "Selected"
+msgstr "已选中"
+
+#: segments.py:857
+msgctxt "Operator"
+msgid "Selects all the parts, none, the ten that changed most, or every part of one kind"
+msgstr "选择所有部分、无、变化最大的十个，或某一类型的每个部分"
+
+#: overlay.py:702
+msgctxt "Operator"
+msgid "Show Quality Heatmap"
+msgstr "显示质量热力图"
+
+#: panel.py:277
+msgctxt "Operator"
+msgid "Show me"
+msgstr "显示给我"
+
+#: segment_goals.py:1499
+msgctxt "Operator"
+msgid "Shrink"
+msgstr "收缩"
+
+#: segment_goals.py:1547
+msgctxt "Operator"
+msgid "Smaller Quads"
+msgstr "更小的四边面"
+
+#: panel.py:686
+msgctxt "Operator"
+msgid "Smaller quads"
+msgstr "更小的四边面"
+
+#: panel.py:964
+msgctxt "Operator"
+msgid "Sphere"
+msgstr "球体"
+
+#: segment_goals.py:1198
+msgctxt "Operator"
+msgid "Split"
+msgstr "拆分"
+
+#: segment_goals.py:1077
+msgctxt "Operator"
+msgid "Split in Two"
+msgstr "一分为二"
+
+#: segment_goals.py:1078
+msgctxt "Operator"
+msgid "Splits the selected part in two along its most natural border. Both halves are locked"
+msgstr "沿最自然的边界将所选部分一分为二。两半都会被锁定"
+
+#: guided.py:3251
+#: panel.py:207
+msgctxt "Operator"
+msgid "Start"
+msgstr "开始"
+
+#: guided.py:3252
+msgctxt "Operator"
+msgid "Start Auto Segments on the selected mesh. A bar shows the progress; Blender stays responsive between short steps and Stop works any time. Starting again throws away the areas you fixed"
+msgstr "在所选网格上启动自动分段。进度条显示进度；Blender 在短暂步骤之间保持响应，可随时停止。再次开始会丢弃你修复的区域"
+
+#: panel.py:207
+msgctxt "Operator"
+msgid "Start again"
+msgstr "重新开始"
+
+#: guided.py:3874
+msgctxt "Operator"
+msgid "Start with Auto"
+msgstr "以自动开始"
+
+#: guided.py:3406
+msgctxt "Operator"
+msgid "Stop"
+msgstr "停止"
+
+#: guided.py:3383
+msgctxt "Operator"
+msgid "Stop Working Out Sizes"
+msgstr "停止计算尺寸"
+
+#: guided.py:1440
+msgctxt "Operator"
+msgid "Stop putting the fixes you made by hand back on this mesh when you press Start again. Your remembered library is not touched"
+msgstr "再次按开始时，不再将你手动做的修复重新应用到此网格。已记住的库不受影响"
+
+#: panel.py:716
+msgctxt "Operator"
+msgid "Stop reviewing (Esc)"
+msgstr "停止检查（Esc）"
+
+#: guided.py:3407
+msgctxt "Operator"
+msgid "Stop the work that is running now. Stopping the search throws its partial result away; stopping a redo inside the shapes brings back the result from before it"
+msgstr "停止当前正在运行的工作。停止搜索会丢弃其部分结果；停止形状内的重做会恢复到之前的结果"
+
+#: guided.py:3384
+msgctxt "Operator"
+msgid "Stop working out more sizes for the sliders. The sizes already made stay; Start again to work out the rest"
+msgstr "停止为滑块计算更多尺寸。已计算的尺寸会保留；重新开始以计算其余部分"
+
+#: segments.py:909
+msgctxt "Operator"
+msgid "Switch the selected part back to this result. It is shown at once; the whole-object check follows in short steps while you keep working"
+msgstr "将所选部分切换回此结果。会立即显示；整体检查会在你继续工作时分步进行"
+
+#: issue_panel.py:246
+msgctxt "Operator"
+msgid "Switches the parts that got your own faces back to the reduced faces they had before Keep Original"
+msgstr "将应用了你自己的面的部分切换回保留原始之前的精简面"
+
+#: flowedit.py:629
+msgctxt "Operator"
+msgid "Take away every Flow Editor stroke; the result goes back to how it was before you drew"
+msgstr "移除所有 Flow Editor 笔触；结果恢复到绘制之前的状态"
+
+#: guided.py:3524
+msgctxt "Operator"
+msgid "Take the chosen guide out of the list. A curve drawn with Draw Guide is deleted with it; your own curves stay"
+msgstr "从列表中移除选定的引导。用绘制引导绘制的曲线会一并删除；你自己的曲线会保留"
+
+#: guided.py:3482
+msgctxt "Operator"
+msgid "Take the chosen shape out of the list. A box or sphere made here is deleted with it; your own meshes stay"
+msgstr "从列表中移除选定的形状。在此创建的立方体或球体会一并删除；你自己的网格会保留"
+
+#: segment_goals.py:1144
+msgctxt "Operator"
+msgid "The faces inside the shapes in the list become a new part. Union, Subtract and Intersect combine the shapes"
+msgstr "列表中形状内部的面会成为新部分。并集、差集和交集用于组合形状"
+
+#: operators.py:164
+msgctxt "Operator"
+msgid "Turn the active mesh into clean quads at the target face count. Runs in one go, like Blender's Remesh: Blender is busy until it is done (about 10-20 seconds on a 20,000-60,000-face mesh). Undo restores the original"
+msgstr "将活动网格转为目标面数的干净四边面。像 Blender 的重网格一样一次性运行：完成前 Blender 会忙碌（20,000-60,000 面的网格约需 10-20 秒）。撤销可恢复原始状态"
+
+#: segment_goals.py:1091
+msgctxt "Operator"
+msgid "Undo Edit"
+msgstr "撤销编辑"
+
+#: guided.py:2878
+msgctxt "Operator"
+msgid "Unlock All"
+msgstr "全部解锁"
+
+#: guided.py:2788
+#: panel.py:1098
+msgctxt "Operator"
+msgid "Update"
+msgstr "更新"
+
+#: segments.py:908
+msgctxt "Operator"
+msgid "Use This Result"
+msgstr "使用此结果"
+
+#: guided.py:3502
+msgctxt "Operator"
+msgid "Use the selected curves, Grease Pencil drawings or edge-only meshes as guide curves (or as Deformation Lines)"
+msgstr "将选中的曲线、蜡笔绘图或仅含边的网格用作引导曲线（或用作变形线）"
+
+#: issue_panel.py:109
+#: panel.py:651
+msgctxt "Operator"
+msgid "View"
+msgstr "查看"
+
+#: segment_goals.py:1609
+msgctxt "Operator"
+msgid "Walks the parts in the viewport: hover to see one, click for its options, arrow keys go worst first. Esc leaves and keeps everything"
+msgstr "在视图中逐个查看各个部分：悬停可查看其中一个，点击可查看其选项，方向键从最差的开始。按 Esc 退出并保留全部内容"
+
+#: panel.py:99
+msgctxt "Operator"
+msgid "What Is It For"
+msgstr "用途"
+
+#: guided.py:2553
+msgctxt "Operator"
+msgid "Work Live"
+msgstr "实时工作"
+
+#: guided.py:3394
+msgctxt "Operator"
+msgid "Work Out Other Sizes"
+msgstr "计算其他尺寸"
+
+#: guided.py:3395
+msgctxt "Operator"
+msgid "Work out the other sizes for the Quad Size and Rows sliders in short steps. This can take several minutes; it uses about a third of Blender's time, and single steps last about half a second on a 60,000-face mesh, up to about 1.5 seconds with Field Rows or on bigger meshes. Stop Working Out Sizes ends it at any time"
+msgstr "以较小的步长计算“四边形大小”和“行数”滑块的其他尺寸。这可能需要几分钟；它会占用 Blender 约三分之一的时间，在 60,000 面的网格上单步约需半秒，使用 Field Rows 或在更大的网格上则最多约 1.5 秒。“停止计算尺寸”可随时结束"
+
+#: guided.py:3304
+msgctxt "Operator"
+msgid "Write a folder with this mesh, your settings and a script, to run the same search on a stronger computer. You copy it there; nothing is uploaded"
+msgstr "写出一个包含此网格、你的设置和一个脚本的文件夹，以便在更强的电脑上运行相同的搜索。由你自行复制到那里；不会上传任何内容"
+
+#: guided.py:3138
+msgctxt "Operator"
+msgid "Write the preview as <name>_Retopo (or into your object, see Result). Undo restores"
+msgstr "将预览写出为 <name>_Retopo（或写入你的物体，见“结果”）。撤销可恢复"
+
+#: region.py:643
+msgctxt "Operator"
+msgid "Write the previewed quads into your mesh (or a copy, see Result). Undo restores it"
+msgstr "将预览的四边形写入你的网格（或副本，见“结果”）。撤销可恢复"
+
+#: game_export.py:136
+msgctxt "Operator"
+msgid "Write the selected meshes and their baked textures for a game engine, with the normal map, scale, texture size and triangle limit that engine needs"
+msgstr "将选中的网格及其烘焙纹理导出给游戏引擎，包含该引擎所需的法线贴图、缩放、纹理尺寸和三角面数限制"

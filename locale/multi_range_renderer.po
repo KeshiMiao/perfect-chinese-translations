@@ -1,0 +1,79 @@
+# perfect-chinese: 1
+# id: multi_range_renderer
+# kind: addon
+# module: bl_ext.blender_org.multi_range_renderer
+# name: Multi Range Renderer
+# name_zh: 多区间渲染
+# translator: KeshiMiao
+# category: Render
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:245
+msgid "A Multi Range Render is already in progress."
+msgstr "多范围渲染已在进行中。"
+
+#: __init__.py:53
+msgid "Enter frame ranges (e.g., 200-230, 340-493) or single frames (200, 340)"
+msgstr "输入帧范围（例如 200-230、340-493）或单帧（200、340）"
+
+#: __init__.py:53
+#: __init__.py:354
+msgid "Frame Ranges"
+msgstr "帧范围"
+
+#: __init__.py:343
+msgid "Multi Range Renderer"
+msgstr "多范围渲染器"
+
+#: __init__.py:369
+msgid "No cameras found in the scene."
+msgstr "场景中未找到摄像机。"
+
+#: __init__.py:262
+msgid "No cameras selected. Enable 'Use Camera' on at least one camera."
+msgstr "未选择摄像机。请至少在一个摄像机上启用「使用摄像机」。"
+
+#: __init__.py:59
+msgid "Optional output directory (leave blank to use current render filepath)"
+msgstr "可选输出目录（留空则使用当前渲染文件路径）"
+
+#: __init__.py:59
+#: __init__.py:372
+msgid "Output Folder"
+msgstr "输出文件夹"
+
+#: __init__.py:267
+msgid "Please save the .blend file first."
+msgstr "请先保存 .blend 文件。"
+
+#: __init__.py:376
+msgid "Rendering in progress — ESC to cancel."
+msgstr "正在渲染 — 按 ESC 取消。"
+
+#: __init__.py:359
+msgid "Select Cameras:"
+msgstr "选择摄像机："
+
+#: __init__.py:47
+msgid "Use Camera"
+msgstr "使用摄像机"
+
+#: __init__.py:47
+msgid "Use this camera for multi-range rendering"
+msgstr "使用此摄像机进行多范围渲染"
+
+#: __init__.py:140
+#: __init__.py:385
+msgctxt "Operator"
+msgid "Multi Range Render"
+msgstr "多范围渲染"
+
+#: __init__.py:141
+msgctxt "Operator"
+msgid "Render selected frames for chosen cameras in the visible render window (sequential, non-blocking)"
+msgstr "在可见渲染窗口中为所选摄像机渲染选定帧（按顺序、非阻塞）"

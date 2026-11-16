@@ -1,0 +1,138 @@
+# perfect-chinese: 1
+# id: fbxscale
+# kind: addon
+# module: bl_ext.blender_org.fbxscale
+# name: FBX Scale Report
+# name_zh: FBX缩放报告
+# translator: KeshiMiao
+# category: Import-Export
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: core/scan.py:191
+msgid "#14532d"
+msgstr "#14532d"
+
+#: core/scan.py:191
+msgid "#1e3a5f"
+msgstr "#1e3a5f"
+
+#: core/scan.py:191
+msgid "#78350f"
+msgstr "#78350f"
+
+#: core/scan.py:191
+msgid "#7f1d1d"
+msgstr "#7f1d1d"
+
+#: core/scan.py:191
+msgid "#dbeafe"
+msgstr "#dbeafe"
+
+#: core/scan.py:191
+msgid "#dcfce7"
+msgstr "#dcfce7"
+
+#: core/scan.py:191
+msgid "#fee2e2"
+msgstr "#fee2e2"
+
+#: core/scan.py:191
+msgid "#fef3c7"
+msgstr "#fef3c7"
+
+#: ui.py:74
+msgid "Asset folders are usually nested by category, so this is on by default; an unfinished scan that silently misses a subfolder is worse than a slow one"
+msgstr "资源文件夹通常按类别嵌套，因此默认开启；漏掉子文件夹的扫描比慢一点的扫描更糟"
+
+#: ui.py:256
+msgid "Changes nothing."
+msgstr "不做任何修改。"
+
+#: ui.py:223
+msgid "FBX Scale"
+msgstr "FBX 缩放"
+
+#: ui.py:219
+msgid "FBX Scale Report"
+msgstr "FBX 缩放报告"
+
+#: ui.py:88
+msgid "File limit"
+msgstr "文件数上限"
+
+#: ui.py:68
+msgid "Folder"
+msgstr "文件夹"
+
+#: ui.py:68
+msgid "Folder to scan for FBX files"
+msgstr "要扫描 FBX 文件的文件夹"
+
+#: ui.py:250
+msgid "Full report: window → system console"
+msgstr "完整报告：窗口 → 系统控制台"
+
+#: ui.py:83
+msgid "Hide the files that are fine, so the report fits on screen"
+msgstr "隐藏正常的文件，让报告能在一屏内显示"
+
+#: ui.py:74
+msgid "Include subfolders"
+msgstr "包含子文件夹"
+
+#: ui.py:83
+msgid "Only problems"
+msgstr "仅显示问题"
+
+#: ui.py:255
+msgid "Reads the scale each file declares."
+msgstr "读取每个文件声明的缩放。"
+
+#: ui.py:230
+msgid "Scanning module failed to load."
+msgstr "扫描模块加载失败。"
+
+#: ui.py:260
+msgid "Set to hide files that are fine."
+msgstr "已设置为隐藏正常的文件。"
+
+#: ui.py:88
+msgid "Stop after this many files, and say so. Guards against pointing the tool at a whole drive"
+msgstr "扫描到这么多文件后停止并说明。防止把工具指向整个驱动器"
+
+#: ui.py:123
+msgid "The scanning module did not load."
+msgstr "扫描模块未加载。"
+
+#: ui.py:257
+msgid "The summary appears here after a scan."
+msgstr "扫描后摘要会显示在这里。"
+
+#: ui.py:254
+msgid "What this does"
+msgstr "功能说明"
+
+#: ui.py:194
+msgctxt "Operator"
+msgid "Open the console"
+msgstr "打开控制台"
+
+#: ui.py:195
+msgctxt "Operator"
+msgid "Open the console window with the full report. Same as Window → Toggle System Console, but without looking for it"
+msgstr "打开带完整报告的控制台窗口。等同于 窗口 → 切换系统控制台，但无需自行查找"
+
+#: ui.py:109
+msgctxt "Operator"
+msgid "Read the unit scale declared inside every FBX file in a folder, and report the ones that are wrong. Nothing is modified"
+msgstr "读取文件夹中每个 FBX 文件内声明的单位缩放，并报告有问题的文件。不会修改任何内容"
+
+#: ui.py:108
+msgctxt "Operator"
+msgid "Scan for FBX scale problems"
+msgstr "扫描 FBX 缩放问题"

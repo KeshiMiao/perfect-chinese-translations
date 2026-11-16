@@ -1,0 +1,106 @@
+# perfect-chinese: 1
+# id: topolyx
+# kind: addon
+# module: bl_ext.blender_org.topolyx
+# name: Topolyx Import/Export
+# name_zh: Topolyx导入导出
+# translator: KeshiMiao
+# category: Import-Export
+# supported_versions: >=5.1.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: topolyx_export_operator.py:105
+msgid "Attribute Options"
+msgstr "属性选项"
+
+#: topolyx_export_operator.py:64
+msgid "Auto Assign Semantics"
+msgstr "自动分配语义"
+
+#: topolyx_export_operator.py:64
+msgid "Automatically detect POSITION, DIRECTION, NORMAL, ROTATION, TANGENT, COLOR semantics from attribute names"
+msgstr "根据属性名称自动检测 POSITION、DIRECTION、NORMAL、ROTATION、TANGENT、COLOR 语义"
+
+#: topolyx_export_operator.py:52
+msgid "Comma-separated list of attribute names to skip during export"
+msgstr "导出时要跳过的属性名称列表（以逗号分隔）"
+
+#: topolyx_export_operator.py:99
+msgid "Coordinate System"
+msgstr "坐标系"
+
+#: topolyx_export_operator.py:46
+msgid "Exclude Hidden/Internal Attributes"
+msgstr "排除隐藏/内部属性"
+
+#: topolyx_export_operator.py:52
+msgid "Excluded Attributes"
+msgstr "排除的属性"
+
+#: topolyx_export_operator.py:40
+msgid "Export Attributes"
+msgstr "导出属性"
+
+#: topolyx_export_operator.py:40
+msgid "Export mesh attributes such as UV maps, vertex colors, and custom attributes"
+msgstr "导出网格属性，如 UV 贴图、顶点颜色和自定义属性"
+
+#: topolyx_export_operator.py:26
+msgid "Export only selected mesh objects"
+msgstr "仅导出选中的网格物体"
+
+#: topolyx_import_operator.py:26
+msgid "Import Attributes"
+msgstr "导入属性"
+
+#: topolyx_export_operator.py:32
+msgid "Meters per Unit"
+msgstr "每单位米数"
+
+#: topolyx_export_operator.py:125
+msgid "No mesh objects to export"
+msgstr "没有可导出的网格物体"
+
+#: topolyx_export_operator.py:58
+msgid "Remove Semantic Prefix"
+msgstr "移除语义前缀"
+
+#: topolyx_import_operator.py:26
+msgid "Restore mesh attributes such as UV maps, vertex colors, and custom attributes"
+msgstr "恢复网格属性，如 UV 贴图、顶点颜色和自定义属性"
+
+#: topolyx_export_operator.py:32
+msgid "Scale factor: how many meters one unit represents in the target coordinate system"
+msgstr "缩放系数：目标坐标系中一个单位代表多少米"
+
+#: topolyx_export_operator.py:26
+msgid "Selection Only"
+msgstr "仅选中项"
+
+#: topolyx_export_operator.py:46
+msgid "Skip attributes with names starting with '.' and known internal attributes such as 'position'"
+msgstr "跳过名称以“.”开头以及已知内部属性（如“position”）的属性"
+
+#: topolyx_export_operator.py:58
+msgid "Strip semantic prefixes (e.g. DIRECTION_) from attribute names in the exported file"
+msgstr "从导出文件中的属性名称中去掉语义前缀（如 DIRECTION_）"
+
+#: topolyx_export_operator.py:15
+msgctxt "Operator"
+msgid "Export Topolyx"
+msgstr "导出 Topolyx"
+
+#: topolyx_import_operator.py:15
+msgctxt "Operator"
+msgid "Import Topolyx"
+msgstr "导入 Topolyx"
+
+#: __init__.py:14
+#: __init__.py:21
+msgctxt "Operator"
+msgid "Topolyx (.tlyx)"
+msgstr "Topolyx (.tlyx)"
