@@ -1,0 +1,485 @@
+# perfect-chinese: 1
+# id: omi_physics_body_gltf_extension
+# kind: addon
+# module: bl_ext.blender_org.omi_physics_body_gltf_extension
+# name: OMI Physics Body glTF Extension
+# name_zh: OMI物理体glTF扩展
+# translator: KeshiMiao
+# category: Import-Export
+# supported_versions: >=5.0.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:755
+msgid "- OMI_physics_body  (per-node, motion + collider)"
+msgstr "- OMI_physics_body（逐节点，运动 + 碰撞体）"
+
+#: __init__.py:754
+msgid "- OMI_physics_shape (root, deduplicated shapes)"
+msgstr "- OMI_physics_shape（根级，去重后的形状）"
+
+#: __init__.py:1186
+msgid "All collision objects have uniform scale"
+msgstr "所有碰撞物体均为均匀缩放"
+
+#: __init__.py:742
+msgid "An ancestor has non-uniform scale"
+msgstr "某个父级具有非均匀缩放"
+
+#: __init__.py:697
+msgid "Analyze"
+msgstr "分析"
+
+#: __init__.py:625
+msgid "Angular Velocity"
+msgstr "角速度"
+
+#: __init__.py:842
+msgid "Angular Velocity (rad/s):"
+msgstr "角速度（rad/s）："
+
+#: __init__.py:1035
+msgid "Auto-fit collision from object dimensions"
+msgstr "根据物体尺寸自动适配碰撞体"
+
+#: __init__.py:1037
+msgid "Auto-fit not available for this shape type (or object has no dimensions)"
+msgstr "此形状类型无法自动适配（或物体没有尺寸）"
+
+#: __init__.py:1151
+msgid "Bake not supported for this shape type"
+msgstr "此形状类型不支持烘焙"
+
+#: __init__.py:1155
+msgid "Baked scale into shape; object scale reset to (1,1,1)"
+msgstr "已将缩放烘焙到形状中；物体缩放已重置为 (1,1,1)"
+
+#: __init__.py:764
+msgid "Body"
+msgstr "刚体"
+
+#: __init__.py:502
+msgid "Body Type"
+msgstr "刚体类型"
+
+#: __init__.py:612
+msgid "Body mass in kg (only emitted when body_type=dynamic)"
+msgstr "刚体质量，单位 kg（仅当 body_type=dynamic 时导出）"
+
+#: __init__.py:536
+msgid "Box"
+msgstr "盒体"
+
+#: __init__.py:549
+msgid "Box Size"
+msgstr "盒体尺寸"
+
+#: __init__.py:975
+msgid "Box Size:"
+msgstr "盒体尺寸："
+
+#: __init__.py:536
+msgid "Box primitive (size in local units)"
+msgstr "盒体基元（尺寸以局部单位计）"
+
+#: __init__.py:539
+msgid "Capsule"
+msgstr "胶囊体"
+
+#: __init__.py:604
+msgid "Capsule Axis"
+msgstr "胶囊体轴向"
+
+#: __init__.py:597
+msgid "Capsule Height"
+msgstr "胶囊体高度"
+
+#: __init__.py:590
+msgid "Capsule Radius"
+msgstr "胶囊体半径"
+
+#: __init__.py:539
+msgid "Capsule primitive (radius + height)"
+msgstr "胶囊体基元（半径 + 高度）"
+
+#: __init__.py:590
+msgid "Capsule radius (Godot CapsuleShape3D.radius)"
+msgstr "胶囊体半径（Godot CapsuleShape3D.radius）"
+
+#: __init__.py:1148
+msgid "Capsule radius used geometric mean of non-axis scales"
+msgstr "胶囊体半径取非轴向缩放的几何平均值"
+
+#: __init__.py:632
+#: __init__.py:856
+msgid "Center of Mass"
+msgstr "质心"
+
+#: __init__.py:877
+msgid "Center of Mass Offset:"
+msgstr "质心偏移："
+
+#: __init__.py:632
+msgid "Center-of-mass offset in local space"
+msgstr "局部空间中的质心偏移"
+
+#: __init__.py:1014
+msgid "Compound/group node (no own shape)"
+msgstr "复合/组节点（无自身形状）"
+
+#: __init__.py:540
+msgid "Convex Hull"
+msgstr "凸包"
+
+#: __init__.py:540
+msgid "Convex hull shape derived from the object mesh"
+msgstr "由物体网格生成的凸包形状"
+
+#: __init__.py:538
+msgid "Cylinder"
+msgstr "圆柱体"
+
+#: __init__.py:582
+msgid "Cylinder Axis"
+msgstr "圆柱体轴向"
+
+#: __init__.py:575
+msgid "Cylinder Height"
+msgstr "圆柱体高度"
+
+#: __init__.py:568
+msgid "Cylinder Radius"
+msgstr "圆柱体半径"
+
+#: __init__.py:538
+msgid "Cylinder primitive (radius + height)"
+msgstr "圆柱体基元（半径 + 高度）"
+
+#: __init__.py:568
+msgid "Cylinder radius (Godot CylinderShape3D.radius)"
+msgstr "圆柱体半径（Godot CylinderShape3D.radius）"
+
+#: __init__.py:1135
+msgid "Cylinder radius used geometric mean of non-axis scales"
+msgstr "圆柱体半径取非轴向缩放的几何平均值"
+
+#: __init__.py:639
+msgid "Diagonal of the inertia tensor (kg·m²) on X/Y/Z axes"
+msgstr "惯性张量在 X/Y/Z 轴上的对角线（kg·m²）"
+
+#: __init__.py:512
+msgid "Dynamic"
+msgstr "动态"
+
+#: __init__.py:512
+msgid "Dynamic body (RigidBody3D in Godot)"
+msgstr "动态刚体（Godot 中的 RigidBody3D）"
+
+#: __init__.py:517
+msgid "Emit a `trigger` block instead of (or alongside) a `collider` block. Maps to Godot Area3D. If both a collider and a trigger shape are enabled, both blocks are emitted (compound)."
+msgstr "输出 `trigger` 块而非 `collider` 块（或两者兼有）。映射到 Godot Area3D。若同时启用了碰撞体和触发器形状，则两个块都会输出（复合）。"
+
+#: __init__.py:787
+msgid "Enable to export as OMI_physics_body"
+msgstr "启用后导出为 OMI_physics_body"
+
+#: __init__.py:3
+msgid "Export OMI_physics_body and OMI_physics_shape glTF extensions for Godot 4.x (replaces deprecated OMI_collider). Supports primitive collision shapes: box, sphere, cylinder, capsule, convex, trimesh. Includes a non-uniform-scale validator + baker because Godot's CollisionShape3D warns and misbehaves on non-uniform scale. Viewport sidebar UI with collapsible Analyze/Body/Shape panels."
+msgstr "为 Godot 4.x 导出 OMI_physics_body 和 OMI_physics_shape glTF 扩展（取代已弃用的 OMI_collider）。支持基元碰撞形状：盒体、球体、圆柱体、胶囊体、凸包、三角网格。包含非均匀缩放校验器与烘焙器，因为 Godot 的 CollisionShape3D 在非均匀缩放下会发出警告并出错。视图侧栏界面，含可折叠的“分析/刚体/形状”面板。"
+
+#: __init__.py:753
+msgid "Exports:"
+msgstr "导出："
+
+#: __init__.py:743
+msgid "Fix the parent's scale, or parent this object to the root"
+msgstr "修正父级的缩放，或将此物体设为根级子物体"
+
+#: __init__.py:739
+msgid "For convex/trimesh, apply scale via Ctrl+A > Scale"
+msgstr "对于凸包/三角网格，请通过 Ctrl+A > 缩放 应用缩放"
+
+#: __init__.py:549
+msgid "Full extents of the box on X/Y/Z (Godot BoxShape3D.size)"
+msgstr "盒体在 X/Y/Z 上的完整尺寸（Godot BoxShape3D.size）"
+
+#: __init__.py:788
+msgid "Godot will auto-import as CollisionObject3D"
+msgstr "Godot 将自动导入为 CollisionObject3D"
+
+#: __init__.py:731
+msgid "Godot will warn + physics will be wrong"
+msgstr "Godot 会警告，且物理表现会出错"
+
+#: __init__.py:3
+msgid "Import-Export"
+msgstr "导入-导出"
+
+#: __init__.py:891
+msgid "Inertia"
+msgstr "惯性"
+
+#: __init__.py:639
+msgid "Inertia Diagonal"
+msgstr "惯性对角线"
+
+#: __init__.py:913
+msgid "Inertia Diagonal (kg·m²):"
+msgstr "惯性对角线（kg·m²）："
+
+#: __init__.py:646
+msgid "Inertia Orientation"
+msgstr "惯性朝向"
+
+#: __init__.py:923
+msgid "Inertia Orientation (quaternion):"
+msgstr "惯性朝向（四元数）："
+
+#: __init__.py:646
+msgid "Inertia-tensor orientation as quaternion (x, y, z, w)"
+msgstr "惯性张量朝向，以四元数表示 (x, y, z, w)"
+
+#: __init__.py:625
+msgid "Initial angular velocity (rad/s) on X/Y/Z axes"
+msgstr "X/Y/Z 轴上的初始角速度（rad/s）"
+
+#: __init__.py:618
+msgid "Initial linear velocity (m/s)"
+msgstr "初始线速度（m/s）"
+
+#: __init__.py:668
+msgid "Internal: stores the object's display_bounds_type before Is Collision forced it."
+msgstr "内部：在“是否为碰撞体”强制覆盖前，保存物体的 display_bounds_type。"
+
+#: __init__.py:663
+msgid "Internal: stores the object's display_type before Is Collision forced it."
+msgstr "内部：在“是否为碰撞体”强制覆盖前，保存物体的 display_type。"
+
+#: __init__.py:487
+msgid "Is Collision"
+msgstr "是否为碰撞体"
+
+#: __init__.py:517
+msgid "Is Trigger"
+msgstr "是否为触发器"
+
+#: __init__.py:511
+msgid "Kinematic"
+msgstr "运动学"
+
+#: __init__.py:511
+msgid "Kinematic body (AnimatableBody3D in Godot)"
+msgstr "运动学刚体（Godot 中的 AnimatableBody3D）"
+
+#: __init__.py:618
+msgid "Linear Velocity"
+msgstr "线速度"
+
+#: __init__.py:832
+msgid "Linear Velocity (m/s):"
+msgstr "线速度（m/s）："
+
+#: __init__.py:487
+msgid "Mark this object as a physics body for glTF export. The object will be exported with the OMI_physics_body extension and (if a shape is configured) referenced from the root OMI_physics_shape shapes array. Godot will automatically import it as a CollisionObject3D + CollisionShape3D. When enabled, the shape dimensions are auto-fitted from the object's bounding box."
+msgstr "将此物体标记为用于 glTF 导出的物理刚体。物体将带着 OMI_physics_body 扩展导出，并且（若已配置形状）由根级 OMI_physics_shape 的 shapes 数组引用。Godot 会自动将其导入为 CollisionObject3D + CollisionShape3D。启用时，形状尺寸会根据物体的边界框自动适配。"
+
+#: __init__.py:612
+msgid "Mass"
+msgstr "质量"
+
+#: __init__.py:542
+msgid "No collider shape (compound/group node only)"
+msgstr "无碰撞体形状（仅复合/组节点）"
+
+#: __init__.py:542
+msgid "None"
+msgstr "无"
+
+#: __init__.py:701
+#: __init__.py:768
+msgid "OMI Physics"
+msgstr "OMI 物理"
+
+#: __init__.py:3
+msgid "OMI Physics Body glTF Extension"
+msgstr "OMI 物理刚体 glTF 扩展"
+
+#: __init__.py:502
+msgid "OMI_physics_body.motion.type. Godot 4.x only honours 'static', 'kinematic' and 'dynamic'. Use the Trigger toggle below for Area3D-style trigger volumes."
+msgstr "OMI_physics_body.motion.type。Godot 4.x 仅识别 'static'、'kinematic' 和 'dynamic'。Area3D 风格的触发体积请使用下方的“触发器”开关。"
+
+#: __init__.py:528
+msgid "OMI_physics_shape.shapes[].type. When changed, the new shape's dimensions are auto-fitted from the object's bounding box (for primitive shapes only)."
+msgstr "OMI_physics_shape.shapes[].type。更改后，新形状的尺寸会根据物体边界框自动适配（仅限基元形状）。"
+
+#: __init__.py:1080
+msgid "Reset not available for this shape type"
+msgstr "此形状类型无法重置"
+
+#: __init__.py:668
+msgid "Saved Display Bounds Type"
+msgstr "已保存的显示边界类型"
+
+#: __init__.py:663
+msgid "Saved Display Type"
+msgstr "已保存的显示类型"
+
+#: __init__.py:720
+msgid "Scale Check (Godot requirement)"
+msgstr "缩放检查（Godot 要求）"
+
+#: __init__.py:939
+msgid "Shape"
+msgstr "形状"
+
+#: __init__.py:528
+msgid "Shape Type"
+msgstr "形状类型"
+
+#: __init__.py:1082
+msgid "Shape reset to defaults"
+msgstr "形状已重置为默认值"
+
+#: __init__.py:537
+msgid "Sphere"
+msgstr "球体"
+
+#: __init__.py:559
+msgid "Sphere Radius"
+msgstr "球体半径"
+
+#: __init__.py:537
+msgid "Sphere primitive (single radius)"
+msgstr "球体图元（单一半径）"
+
+#: __init__.py:559
+msgid "Sphere radius (Godot SphereShape3D.radius)"
+msgstr "球体半径（Godot SphereShape3D.radius）"
+
+#: __init__.py:1122
+msgid "Sphere scaled non-uniformly: used max axis for radius"
+msgstr "球体非均匀缩放：已使用最大轴作为半径"
+
+#: __init__.py:510
+msgid "Static"
+msgstr "静态"
+
+#: __init__.py:510
+msgid "Static body (StaticBody3D in Godot)"
+msgstr "静态物体（Godot 中的 StaticBody3D）"
+
+#: __init__.py:582
+#: __init__.py:604
+msgid "Stored for spec-compliance; Godot assumes Y so bake rotation if X/Z"
+msgstr "为符合规范而存储；Godot 假定为 Y 轴，若为 X/Z 轴请烘焙旋转"
+
+#: __init__.py:597
+msgid "Total capsule height incl. caps (Godot CapsuleShape3D.height)"
+msgstr "胶囊总高度（含两端）（Godot CapsuleShape3D.height）"
+
+#: __init__.py:575
+msgid "Total cylinder height (Godot CylinderShape3D.height)"
+msgstr "圆柱总高度（Godot CylinderShape3D.height）"
+
+#: __init__.py:541
+msgid "Triangle-mesh shape derived from the object mesh"
+msgstr "由物体网格生成的三角网格形状"
+
+#: __init__.py:541
+msgid "Trimesh"
+msgstr "三角网格"
+
+#: __init__.py:1006
+msgid "Uses this object's mesh as convex hull"
+msgstr "使用此物体的网格作为凸包"
+
+#: __init__.py:1010
+msgid "Uses this object's mesh as triangle mesh"
+msgstr "使用此物体的网格作为三角网格"
+
+#: __init__.py:802
+msgid "Velocity"
+msgstr "速度"
+
+#: __init__.py:932
+msgid "W"
+msgstr "W"
+
+#: __init__.py:757
+msgid "WARNING: glTF addon not enabled!"
+msgstr "警告：未启用 glTF 插件！"
+
+#: __init__.py:1008
+#: __init__.py:1012
+msgid "WARNING: object has no mesh!"
+msgstr "警告：物体没有网格！"
+
+#: __init__.py:835
+#: __init__.py:845
+msgid "X"
+msgstr "X"
+
+#: __init__.py:837
+#: __init__.py:847
+msgid "Y"
+msgstr "Y"
+
+#: __init__.py:839
+#: __init__.py:849
+msgid "Z"
+msgstr "Z"
+
+#: __init__.py:1023
+msgctxt "Operator"
+msgid "Auto-Fit Collision from Object"
+msgstr "从物体自动适配碰撞"
+
+#: __init__.py:998
+msgctxt "Operator"
+msgid "Auto-Fit from Object"
+msgstr "从物体自动适配"
+
+#: __init__.py:735
+#: __init__.py:1092
+msgctxt "Operator"
+msgid "Bake Scale into Shape"
+msgstr "将缩放烘焙到形状"
+
+#: __init__.py:1093
+msgctxt "Operator"
+msgid "Multiply the collision shape's size/radius/height by the object's local scale, then reset the object's scale to (1, 1, 1). This prevents Godot's non-uniform-scale warning on the imported CollisionShape3D."
+msgstr "将碰撞形状的尺寸/半径/高度乘以物体的局部缩放，然后将物体缩放重置为 (1, 1, 1)。这可避免 Godot 对导入的 CollisionShape3D 发出非均匀缩放警告。"
+
+#: __init__.py:1048
+msgctxt "Operator"
+msgid "Reset Shape to Defaults"
+msgstr "将形状重置为默认值"
+
+#: __init__.py:1049
+msgctxt "Operator"
+msgid "Reset the collision shape's dimensions to sane defaults (box=1,1,1; sphere=0.5; cylinder=0.5/1.0; capsule=0.5/1.0). Useful after editing the object's mesh if you don't want to re-run Auto-Fit."
+msgstr "将碰撞形状的尺寸重置为合理默认值（盒=1,1,1；球=0.5；圆柱=0.5/1.0；胶囊=0.5/1.0）。在编辑物体网格后不想重新运行自动适配时很有用。"
+
+#: __init__.py:1001
+msgctxt "Operator"
+msgid "Reset to Defaults"
+msgstr "重置为默认值"
+
+#: __init__.py:1166
+msgctxt "Operator"
+msgid "Scan all collision-enabled objects in the scene and report any with non-uniform local or world scale (Godot will warn about them)."
+msgstr "扫描场景中所有启用碰撞的物体，并报告局部或世界缩放非均匀的物体（Godot 会对其发出警告）。"
+
+#: __init__.py:1024
+msgctxt "Operator"
+msgid "Set the collision shape dimensions from the object's bounding box"
+msgstr "根据物体的边界框设置碰撞形状尺寸"
+
+#: __init__.py:747
+#: __init__.py:1165
+msgctxt "Operator"
+msgid "Validate All Collision Objects"
+msgstr "验证所有碰撞物体"

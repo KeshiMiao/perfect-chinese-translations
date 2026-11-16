@@ -1,0 +1,155 @@
+# perfect-chinese: 1
+# id: marchingcube
+# kind: addon
+# module: bl_ext.blender_org.marchingcube
+# name: Marching Cube
+# name_zh: 移动立方体
+# translator: KeshiMiao
+# category: Add Mesh
+# supported_versions: >=5.1.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: MarchingCubeMesh.py:89
+msgid "A helper function"
+msgstr "A 辅助函数"
+
+#: MarchingCubeMesh.py:53
+msgid "Argument forwarded to skimage. Flips the normals by defining if Object was greater than Exterior, or Exterior was greater than Object."
+msgstr "传递给 skimage 的参数。通过定义物体大于外部还是外部大于物体来翻转法线。"
+
+#: MarchingCubeMesh.py:56
+msgid "Ascent"
+msgstr "上升"
+
+#: MarchingCubeMesh.py:75
+msgid "Attach External to This Object"
+msgstr "将外部物体附加到该物体"
+
+#: MarchingCubeMesh.py:94
+msgid "B helper function"
+msgstr "B 辅助函数"
+
+#: MarchingCubeMesh.py:34
+msgid "Box Size"
+msgstr "盒体大小"
+
+#: MarchingCubeMesh.py:99
+msgid "C helper function"
+msgstr "C 辅助函数"
+
+#: MarchingCubeMesh.py:60
+msgid "Close Boundaries"
+msgstr "封闭边界"
+
+#: MarchingCubeMesh.py:57
+msgid "Descent"
+msgstr "下降"
+
+#: MarchingCubeMesh.py:89
+msgid "Equation for a=F(x,y,z). Also available: constants c0, c1, c2."
+msgstr "a=F(x,y,z) 的方程。还可使用：常量 c0、c1、c2。"
+
+#: MarchingCubeMesh.py:94
+msgid "Equation for b=F(x,y,z). Also available: constants c0, c1, c2. Functions: a"
+msgstr "b=F(x,y,z) 的方程。还可使用：常量 c0、c1、c2。函数：a"
+
+#: MarchingCubeMesh.py:99
+msgid "Equation for c=F(x,y,z). Also available: constants c0, c1, c2. Functions: a, b"
+msgstr "c=F(x,y,z) 的方程。还可使用：常量 c0、c1、c2。函数：a、b"
+
+#: MarchingCubeMesh.py:104
+msgid "Equation for f=F(x,y,z). Also available: Constants: c0, c1, c2. Functions: a, b, c"
+msgstr "f=F(x,y,z) 的方程。还可使用：常量：c0、c1、c2。函数：a、b、c"
+
+#: MarchingCubeMesh.py:109
+msgid "Equation for g=F(x,y,z). Also available: Constants: c0, c1, c2. Functions: a, b, c, f"
+msgstr "g=F(x,y,z) 的方程。还可使用：常量：c0、c1、c2。函数：a、b、c、f"
+
+#: MarchingCubeMesh.py:114
+msgid "Equation for h=F(x,y,z). Also available: Constants: c0, c1, c2. Functions: a, b, c, f, g"
+msgstr "h=F(x,y,z) 的方程。还可使用：常量：c0、c1、c2。函数：a、b、c、f、g"
+
+#: MarchingCubeMesh.py:24
+msgid "Equation for phi(x, y, z) = IsoLevel.\nAlso available: constants c0, c1, c2 and helper functions: a, b, c, f, g, h\nSupported math functions: sin, cos, tan, arcsin, arccos, arctan, arctan2, sinh, cosh, tanh, abs, sqrt, exp, log, log10, log1p, where"
+msgstr "phi(x, y, z) = IsoLevel 的方程。\n还可使用：常量 c0、c1、c2 和辅助函数：a、b、c、f、g、h\n支持的数学函数：sin、cos、tan、arcsin、arccos、arctan、arctan2、sinh、cosh、tanh、abs、sqrt、exp、log、log10、log1p、where"
+
+#: MarchingCubeMesh.py:56
+msgid "Exterior was greater than object."
+msgstr "外部大于物体。"
+
+#: MarchingCubeMesh.py:66
+msgid "External Intersect Object"
+msgstr "外部相交物体"
+
+#: MarchingCubeMesh.py:104
+msgid "F helper function"
+msgstr "F 辅助函数"
+
+#: MarchingCubeMesh.py:109
+msgid "G helper function"
+msgstr "G 辅助函数"
+
+#: MarchingCubeMesh.py:53
+msgid "Gradient direction"
+msgstr "梯度方向"
+
+#: MarchingCubeMesh.py:114
+msgid "H helper function"
+msgstr "H 辅助函数"
+
+#: MarchingCubeMesh.py:81
+msgid "Helper constants, used as c0, c1, c2 in functions."
+msgstr "辅助常量，在函数中用作 c0、c1、c2。"
+
+#: MarchingCubeMesh.py:60
+msgid "If the surface intersect the domain boundaries, generate caps to close the surface."
+msgstr "如果曲面与域边界相交，则生成封盖以封闭曲面。"
+
+#: MarchingCubeMesh.py:48
+msgid "Iso Level"
+msgstr "等值级别"
+
+#: MarchingCubeMesh.py:24
+msgid "Level set Equation"
+msgstr "水平集方程"
+
+#: MarchingCubeMesh.py:66
+msgid "Name of another Marching Cube Object to intersect with (uses minimum of the two scalar fields)."
+msgstr "用于相交的另一个 Marching Cube 物体的名称（使用两个标量场的最小值）。"
+
+#: MarchingCubeMesh.py:57
+msgid "Object was greater than exterior."
+msgstr "物体大于外部。"
+
+#: MarchingCubeMesh.py:75
+msgid "Place the external object relative to this object local frame instead of world space. This object Location and Rotation are applied on top of the external object own transform, so the external shape follows this object instead of staying where it sits in the scene."
+msgstr "将外部物体相对此物体的局部坐标系放置，而非世界空间。此物体的位置和旋转会叠加在外部物体自身变换之上，因此外部形状会跟随此物体，而不是停留在场景中的原位。"
+
+#: MarchingCubeMesh.py:63
+msgid "Positive closing bounds"
+msgstr "正向封闭边界"
+
+#: MarchingCubeMesh.py:41
+msgid "Resolution"
+msgstr "分辨率"
+
+#: MarchingCubeMesh.py:63
+msgid "Use +1e6 instead of -1e6 when closing bounds."
+msgstr "封闭边界时使用 +1e6 而不是 -1e6。"
+
+#: MarchingCubeMesh.py:72
+msgid "Use Maximum for intersection"
+msgstr "相交时使用最大值"
+
+#: MarchingCubeMesh.py:72
+msgid "Use mathematical Maximum instead of Minimum for external object interaction."
+msgstr "与外部物体交互时使用数学最大值而不是最小值。"
+
+#: MarchingCubeMesh.py:15
+msgctxt "Operator"
+msgid "Marching Cube Surface"
+msgstr "Marching Cube 曲面"

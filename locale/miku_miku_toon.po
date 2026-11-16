@@ -1,0 +1,902 @@
+# perfect-chinese: 1
+# id: miku_miku_toon
+# kind: addon
+# module: bl_ext.blender_org.miku_miku_toon
+# name: MikuMikuToon
+# name_zh: MikuMiku卡通着色
+# translator: KeshiMiao
+# category: Material
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: mmt_seethrough.py:823
+msgid "%d eye materials, %d hair materials"
+msgstr "%d 个眼睛材质，%d 个头发材质"
+
+#: mmt_glow.py:934
+msgid "%s: strength %.2f | threshold %.2f | size %.0f | aura %.2f | gain %.0f"
+msgstr "%s：强度 %.2f | 阈值 %.2f | 大小 %.0f | 光晕 %.2f | 增益 %.0f"
+
+#: __init__.py:220
+msgid "1. One click"
+msgstr "1. 一键"
+
+#: __init__.py:244
+msgid "2. Common"
+msgstr "2. 常用"
+
+#: __init__.py:272
+msgid "3. Advanced (only if you know why)"
+msgstr "3. 高级（仅在你知道原因时）"
+
+#: mmt_seethrough.py:796
+msgid "4. 眼透 (see through the fringe, optional)"
+msgstr "4. 眼透（透过刘海，可选）"
+
+#: __init__.py:284
+msgid "Additive Sphere Strength"
+msgstr "叠加球面强度"
+
+#: mmt_glow.py:934
+msgid "Aura"
+msgstr "光晕"
+
+#: __init__.py:1038
+#: __init__.py:1050
+msgid "Bool"
+msgstr "布尔"
+
+#: mmt_glowsrc.py:499
+msgid "Brightness"
+msgstr "亮度"
+
+#: mmt_glowsrc.py:498
+msgid "Colour"
+msgstr "颜色"
+
+#: __init__.py:281
+msgid "Contrast"
+msgstr "对比度"
+
+#: mmt_glow.py:925
+msgid "Current: %s"
+msgstr "当前：%s"
+
+#: __init__.py:287
+msgid "Detail Normal (hair / metal)"
+msgstr "细节法线（头发 / 金属）"
+
+#: __init__.py:247
+msgid "Eye-through Settings"
+msgstr "眼透设置"
+
+#: __init__.py:1044
+#: __init__.py:1047
+msgid "Float"
+msgstr "浮点"
+
+#: __init__.py:1039
+#: __init__.py:1052
+msgid "FloatVector"
+msgstr "浮点向量"
+
+#: mmt_seethrough.py:826
+msgid "Force opaque eyes (switch this on if the eye-through does nothing)"
+msgstr "强制不透明眼睛（若眼透无效请开启此项）"
+
+#: mmt_seethrough.py:806
+msgid "Fringe Shadow"
+msgstr "刘海阴影"
+
+#: mmt_glow.py:934
+msgid "Gain"
+msgstr "增益"
+
+#: mmt_glow.py:921
+msgid "Game Glow Presets"
+msgstr "游戏发光预设"
+
+#: mmt_glowsrc.py:411
+msgid "Glow Brightness"
+msgstr "发光亮度"
+
+#: mmt_glowsrc.py:415
+msgid "Glow Brightness (legacy)"
+msgstr "发光亮度（旧版）"
+
+#: __init__.py:256
+#: mmt_glowsrc.py:419
+msgid "Glow Colour"
+msgstr "发光颜色"
+
+#: __init__.py:254
+msgid "Glow Settings"
+msgstr "发光设置"
+
+#: mmt_glowsrc.py:497
+msgid "Glow colour / brightness"
+msgstr "发光颜色 / 亮度"
+
+#: mmt_seethrough.py:813
+msgid "Hair Shadow"
+msgstr "头发阴影"
+
+#: __init__.py:298
+msgid "Hide expression face layers"
+msgstr "隐藏表情面部层"
+
+#: mmt_i18n.py:630
+msgid "Interface translation is off, so add-on text stays English: Preferences > Interface > Translation > Interface"
+msgstr "界面翻译已关闭，因此插件文本保持英文：偏好设置 > 界面 > 翻译 > 界面"
+
+#: mmt_glowsrc.py:407
+msgid "Live Preview"
+msgstr "实时预览"
+
+#: mmt_glowsrc.py:502
+#: mmt_seethrough.py:814
+msgid "Live Preview (show it in the 3D view)"
+msgstr "实时预览（在 3D 视图中显示）"
+
+#: mmt_i18n.py:140
+msgid "MMT投影阴影_Beauty"
+msgstr "MMT投影阴影_Beauty"
+
+#: __init__.py:1
+msgid "Material"
+msgstr "材质"
+
+#: mmt_seethrough.py:846
+msgid "Material Names (fix them here if the detection is wrong)"
+msgstr "材质名称（若识别有误可在此修正）"
+
+#: __init__.py:1
+msgid "MikuMikuToon"
+msgstr "MikuMikuToon"
+
+#: __init__.py:133
+msgid "MikuMikuToon Toon"
+msgstr "MikuMikuToon 卡通"
+
+#: __init__.py:148
+msgid "MikuMikuToon: panel draw error, see the console"
+msgstr "MikuMikuToon：面板绘制错误，请查看控制台"
+
+#: __init__.py:114
+msgid "Mode"
+msgstr "模式"
+
+#: mmt_cycles.py:14
+#: mmt_cycles.py:31
+msgid "NodeSocketColor"
+msgstr "NodeSocketColor"
+
+#: mmt_cycles.py:15
+#: mmt_cycles.py:22
+msgid "NodeSocketFloat"
+msgstr "NodeSocketFloat"
+
+#: mmt_cycles.py:31
+#: mmt_shading.py:34
+msgid "NodeSocketShader"
+msgstr "NodeSocketShader"
+
+#: mmt_glowsrc.py:415
+msgid "Old knob, kept so older files keep loading"
+msgstr "旧参数，保留以便旧文件继续加载"
+
+#: __init__.py:262
+msgid "Outline Settings"
+msgstr "描边设置"
+
+#: mmt_outline.py:122
+msgid "Outline Thickness"
+msgstr "描边粗细"
+
+#: mmt_glowsrc.py:411
+msgid "Overall glow brightness; 0 mutes the glow but keeps the colours"
+msgstr "整体发光亮度；0 会关闭发光但保留颜色"
+
+#: mmt_glowsrc.py:419
+msgid "Overall glow colour; only the glow is tinted, the character is untouched"
+msgstr "整体发光颜色；仅对发光着色，不影响角色本身"
+
+#: mmt_glow.py:932
+msgid "Per-model falloff (recommended)"
+msgstr "按模型衰减（推荐）"
+
+#: __init__.py:167
+msgid "Renders go through the Video Sequencer (%d strips): the compositor is skipped,"
+msgstr "渲染经过视频序列编辑器（%d 个片段）：将跳过合成器，"
+
+#: __init__.py:116
+msgid "Replace [Model] Materials"
+msgstr "替换 [模型] 材质"
+
+#: __init__.py:117
+msgid "Replace a Single [Material]"
+msgstr "替换单个 [材质]"
+
+#: mmt_seethrough.py:804
+msgid "See Through (0 = off, 1 = fully visible)"
+msgstr "透视（0 = 关闭，1 = 完全可见）"
+
+#: __init__.py:237
+msgid "Shadow Color"
+msgstr "阴影颜色"
+
+#: __init__.py:238
+msgid "Shadow Lit Color"
+msgstr "阴影受光颜色"
+
+#: __init__.py:240
+msgid "Shadow Softness"
+msgstr "阴影柔和度"
+
+#: __init__.py:239
+msgid "Shadow Threshold"
+msgstr "阴影阈值"
+
+#: __init__.py:234
+msgid "Shadow Toon (EEVEE lights and shadows)"
+msgstr "卡通阴影（EEVEE 灯光与阴影）"
+
+#: __init__.py:235
+msgid "Shadow Toon (EEVEE shadows)"
+msgstr "卡通阴影（EEVEE 阴影）"
+
+#: __init__.py:241
+msgid "Shadow on Face"
+msgstr "面部阴影"
+
+#: mmt_glowsrc.py:407
+msgid "Show the glow in the 3D view while you work (view only, the render is unchanged)"
+msgstr "在 3D 视图中显示发光以便查看（仅视图，渲染不变）"
+
+#: mmt_glow.py:934
+msgid "Size"
+msgstr "大小"
+
+#: mmt_seethrough.py:808
+msgid "Softness (blur around the eyes, 0 = sharp)"
+msgstr "柔和度（眼睛周围模糊，0 = 锐利）"
+
+#: __init__.py:290
+#: mmt_glow.py:934
+msgid "Strength"
+msgstr "强度"
+
+#: mmt_glow.py:934
+#: mmt_glowsrc.py:500
+msgid "Threshold"
+msgstr "阈值"
+
+#: __init__.py:137
+msgid "Toon"
+msgstr "卡通"
+
+#: __init__.py:277
+msgid "Toon Mode"
+msgstr "卡通模式"
+
+#: __init__.py:276
+msgid "Toon Shading"
+msgstr "卡通着色"
+
+#: __init__.py:1
+msgid "Toon shading for MMD / FBX models: reads the native materials, one-click apply, outline, eye shadow, glow."
+msgstr "为 MMD / FBX 模型提供卡通着色：读取原生材质，一键应用，描边、眼部阴影、发光。"
+
+#: mmt_outline.py:125
+msgid "Use One Outline Colour"
+msgstr "使用单一描边颜色"
+
+#: mmt_seethrough.py:810
+msgid "X Offset"
+msgstr "X 偏移"
+
+#: mmt_seethrough.py:811
+msgid "Y Offset"
+msgstr "Y 偏移"
+
+#: __init__.py:231
+msgid "back to the raw model"
+msgstr "返回原始模型"
+
+#: __init__.py:572
+msgid "cannot build the compositor node tree"
+msgstr "无法构建合成器节点树"
+
+#: __init__.py:251
+msgid "could not draw the eye-through controls: %s"
+msgstr "无法绘制眼透控件：%s"
+
+#: __init__.py:259
+msgid "could not draw the glow controls: %s"
+msgstr "无法绘制发光控件：%s"
+
+#: __init__.py:266
+msgid "could not draw the outline controls: %s"
+msgstr "无法绘制描边控件：%s"
+
+#: __init__.py:750
+msgid "detail normal is off: the links were removed and the generated image deleted"
+msgstr "细节法线已关闭：已移除连接并删除生成的图像"
+
+#: __init__.py:363
+msgid "detail normal is on but no hair or metal material was recognised, nothing was wired"
+msgstr "细节法线已开启，但未识别到头发或金属材质，未连接任何节点"
+
+#: __init__.py:225
+msgid "keep highlights from clipping"
+msgstr "防止高光过曝"
+
+#: mmt_seethrough.py:817
+msgid "no eye material recognised yet - press Eyes again"
+msgstr "尚未识别到眼睛材质 - 请再次点击眼睛"
+
+#: mmt_seethrough.py:820
+msgid "no hair material recognised: the fringe shadow will be empty"
+msgstr "未识别到头发材质：刘海阴影将为空"
+
+#: __init__.py:754
+msgid "no hair or metal material recognised (by name and MMD sphere mode), nothing was wired"
+msgstr "未识别到头发或金属材质（按名称和 MMD 球面模式），未连接任何内容"
+
+#: mmt_names.py:271
+msgid "no material recognised (the material names are not the usual MMD ones)"
+msgstr "未识别到材质（材质名称不是常见的 MMD 名称）"
+
+#: __init__.py:512
+msgid "no material with 'eye shadow' in its name was found"
+msgstr "未找到名称中包含“眼影”的材质"
+
+#: __init__.py:324
+msgid "nothing could be applied"
+msgstr "无法应用任何内容"
+
+#: mmt_glow.py:917
+msgid "press 'Add Glow' to make highlights bloom"
+msgstr "按下“添加辉光”让高光泛光"
+
+#: __init__.py:667
+#: __init__.py:687
+msgid "select a model first"
+msgstr "请先选择模型"
+
+#: __init__.py:338
+msgid "select a model first (MMD or FBX, object mode), or switch the mode to a single material"
+msgstr "请先选择模型（MMD 或 FBX，物体模式），或将模式切换为单一材质"
+
+#: __init__.py:429
+#: __init__.py:936
+msgid "select an MMD model first (object mode), or switch the mode to a single material"
+msgstr "请先选择 MMD 模型（物体模式），或将模式切换为单一材质"
+
+#: __init__.py:527
+msgid "select the meshes to outline in object mode"
+msgstr "请在物体模式下选择要描边的网格"
+
+#: __init__.py:224
+msgid "select the model, press this once"
+msgstr "选择模型，然后按一次此按钮"
+
+#: __init__.py:169
+msgid "so glow does not show up in renders."
+msgstr "使辉光不出现在渲染中"
+
+#: mmt_seethrough.py:830
+msgid "some packs keep the eye materials blended; EEVEE writes no mask for those, so the effect looks dead - this option fixes that"
+msgstr "某些资源包会保持眼部材质混合；EEVEE 不会为这些材质写入遮罩，导致效果失效——此选项可修复"
+
+#: mmt_seethrough.py:835
+msgid "the eyes and brows can show through the fringe, with a shadow band"
+msgstr "眼睛和眉毛可透过刘海显示，并带有阴影带"
+
+#: __init__.py:610
+msgid "the scene has no glow node"
+msgstr "场景中没有辉光节点"
+
+#: __init__.py:559
+msgid "the scene has no outline to remove (neither the MMD edge preview nor a built outline)"
+msgstr "场景中没有可移除的描边（既没有 MMD 边缘预览，也没有已构建的描边）"
+
+#: __init__.py:538
+msgid "the selected meshes already have the edge preview"
+msgstr "所选网格已有边缘预览"
+
+#: __init__.py:533
+msgid "the selected meshes contain no MMD model (the outline reads the MMD material edge colour)"
+msgstr "所选网格不包含 MMD 模型（描边读取 MMD 材质的边缘颜色）"
+
+#: __init__.py:769
+msgid "the self-check found problems; the full report was printed to the system console (Window -> Toggle System Console)"
+msgstr "自检发现问题；完整报告已输出到系统控制台（窗口 -> 切换系统控制台）"
+
+#: __init__.py:767
+msgid "the self-check is all green; the full report was printed to the system console"
+msgstr "自检全部通过；完整报告已输出到系统控制台"
+
+#: __init__.py:642
+msgid "the sequencer is not in the way"
+msgstr "序列编辑器未造成干扰"
+
+#: __init__.py:722
+msgid "these materials still use an old shading group: run One-Click Toon again to get the contrast knob"
+msgstr "这些材质仍使用旧的着色组：再次运行“一键卡通”以获取对比度滑块"
+
+#: mmt_glowsrc.py:501
+msgid "threshold: only pixels brighter than this glow"
+msgstr "阈值：仅亮度高于此值的像素产生辉光"
+
+#: mmt_i18n.py:135
+msgid "★不在"
+msgstr "★不在"
+
+#: mmt_i18n.py:129
+msgid "★不齐"
+msgstr "★不齐"
+
+#: mmt_i18n.py:64
+msgid "、"
+msgstr "、"
+
+#: mmt_i18n.py:419
+msgid "乘算"
+msgstr "乘算"
+
+#: mmt_i18n.py:89
+msgid "亮度"
+msgstr "亮度"
+
+#: mmt_i18n.py:92
+msgid "冷调"
+msgstr "冷调"
+
+#: mmt_i18n.py:121
+msgid "几何数据"
+msgstr "几何数据"
+
+#: mmt_names.py:13
+#: mmt_names.py:49
+msgid "前发"
+msgstr "前发"
+
+#: mmt_names.py:13
+#: mmt_names.py:49
+msgid "前髪"
+msgstr "前发"
+
+#: mmt_i18n.py:322
+msgid "加算"
+msgstr "加算"
+
+#: mmt_i18n.py:46
+msgid "卡渲"
+msgstr "卡渲"
+
+#: mmt_i18n.py:358
+msgid "去饱和"
+msgstr "去饱和"
+
+#: mmt_i18n.py:91
+msgid "反差"
+msgstr "对比度"
+
+#: mmt_names.py:13
+#: mmt_names.py:49
+msgid "发"
+msgstr "发"
+
+#: mmt_names.py:13
+msgid "发1"
+msgstr "发1"
+
+#: mmt_i18n.py:130
+msgid "图像"
+msgstr "图像"
+
+#: mmt_i18n.py:460
+msgid "在"
+msgstr "在"
+
+#: mmt_i18n.py:118
+msgid "增益"
+msgstr "增益"
+
+#: mmt_i18n.py:85
+msgid "外发光"
+msgstr "外发光"
+
+#: mmt_i18n.py:199
+msgid "大小"
+msgstr "大小"
+
+#: mmt_i18n.py:330
+msgid "已挂上"
+msgstr "已挂载"
+
+#: mmt_i18n.py:78
+msgid "应用"
+msgstr "应用"
+
+#: mmt_i18n.py:209
+msgid "强度"
+msgstr "强度"
+
+#: mmt_names.py:59
+msgid "影"
+msgstr "阴影"
+
+#: mmt_i18n.py:94
+msgid "损毁"
+msgstr "损坏"
+
+#: mmt_i18n.py:28
+msgid "描边"
+msgstr "描边"
+
+#: mmt_i18n.py:454
+msgid "操作符"
+msgstr "操作符"
+
+#: mmt_i18n.py:443
+msgid "无"
+msgstr "无"
+
+#: mmt_i18n.py:232
+msgid "明度"
+msgstr "明度"
+
+#: mmt_i18n.py:200
+msgid "柔化"
+msgstr "柔化"
+
+#: mmt_i18n.py:165
+msgid "模式"
+msgstr "模式"
+
+#: mmt_i18n.py:33
+msgid "泛光"
+msgstr "泛光"
+
+#: mmt_i18n.py:95
+msgid "深度"
+msgstr "深度"
+
+#: mmt_i18n.py:164
+msgid "混合"
+msgstr "混合"
+
+#: mmt_names.py:13
+msgid "目"
+msgstr "眼睛"
+
+#: mmt_names.py:13
+#: mmt_names.py:49
+msgid "眉毛"
+msgstr "眉毛"
+
+#: mmt_names.py:13
+msgid "眉睫"
+msgstr "眉睫"
+
+#: mmt_names.py:13
+msgid "眼睛"
+msgstr "眼睛"
+
+#: mmt_i18n.py:195
+msgid "着色"
+msgstr "着色"
+
+#: mmt_names.py:13
+#: mmt_names.py:49
+msgid "睫毛"
+msgstr "睫毛"
+
+#: mmt_names.py:13
+msgid "睫眉"
+msgstr "睫眉"
+
+#: mmt_i18n.py:362
+msgid "磁盘"
+msgstr "磁盘"
+
+#: mmt_i18n.py:345
+msgid "类"
+msgstr "类"
+
+#: mmt_i18n.py:208
+msgid "级数"
+msgstr "级数"
+
+#: mmt_i18n.py:105
+msgid "置换"
+msgstr "置换"
+
+#: mmt_i18n.py:107
+msgid "自发光"
+msgstr "自发光"
+
+#: mmt_i18n.py:128
+msgid "色调"
+msgstr "色调"
+
+#: mmt_i18n.py:131
+msgid "色阶"
+msgstr "色阶"
+
+#: mmt_i18n.py:132
+msgid "色阶数"
+msgstr "色阶数"
+
+#: mmt_i18n.py:186
+msgid "转接点"
+msgstr "转接点"
+
+#: mmt_i18n.py:143
+msgid "运算"
+msgstr "运算"
+
+#: mmt_i18n.py:144
+msgid "运算.001"
+msgstr "运算.001"
+
+#: mmt_i18n.py:145
+msgid "运算.002"
+msgstr "运算.002"
+
+#: mmt_i18n.py:146
+msgid "运算.003"
+msgstr "运算.003"
+
+#: mmt_i18n.py:147
+msgid "运算.004"
+msgstr "运算.004"
+
+#: mmt_i18n.py:148
+msgid "运算.005"
+msgstr "运算.005"
+
+#: mmt_i18n.py:149
+msgid "运算.006"
+msgstr "运算.006"
+
+#: mmt_i18n.py:150
+msgid "运算.007"
+msgstr "运算.007"
+
+#: mmt_i18n.py:151
+msgid "运算.008"
+msgstr "运算.008"
+
+#: mmt_i18n.py:152
+msgid "运算.009"
+msgstr "运算.009"
+
+#: mmt_i18n.py:153
+msgid "运算.010"
+msgstr "运算.010"
+
+#: mmt_i18n.py:154
+msgid "运算.011"
+msgstr "运算.011"
+
+#: mmt_i18n.py:223
+msgid "透明"
+msgstr "透明"
+
+#: mmt_i18n.py:212
+msgid "阈值"
+msgstr "阈值"
+
+#: mmt_names.py:13
+#: mmt_names.py:49
+msgid "顏"
+msgstr "顏"
+
+#: mmt_names.py:13
+#: mmt_names.py:49
+msgid "颜"
+msgstr "颜"
+
+#: __init__.py:299
+msgid "颜2/颜3/颜4: on some models they cover the eye white; turn on and click one-click again"
+msgstr "颜2/颜3/颜4：某些模型上会遮住眼白；开启后再点一次一键卡通"
+
+#: mmt_i18n.py:32
+#: mmt_i18n.py:90
+msgid "颜色"
+msgstr "颜色"
+
+#: mmt_i18n.py:191
+msgid "饱和度"
+msgstr "饱和度"
+
+#: mmt_names.py:49
+msgid "髪"
+msgstr "髪"
+
+#: mmt_i18n.py:348
+msgid "齐全"
+msgstr "齐全"
+
+#: __init__.py:567
+#: mmt_glow.py:915
+msgctxt "Operator"
+msgid "Add Glow"
+msgstr "添加辉光"
+
+#: __init__.py:282
+#: __init__.py:285
+msgctxt "Operator"
+msgid "Apply"
+msgstr "应用"
+
+#: __init__.py:678
+msgctxt "Operator"
+msgid "Apply Additive Sphere Strength"
+msgstr "应用叠加球体强度"
+
+#: __init__.py:698
+msgctxt "Operator"
+msgid "Apply Contrast"
+msgstr "应用对比度"
+
+#: __init__.py:733
+msgctxt "Operator"
+msgid "Apply Detail Normal"
+msgstr "应用细节法线"
+
+#: __init__.py:587
+msgctxt "Operator"
+msgid "Apply Glow Preset"
+msgstr "应用辉光预设"
+
+#: __init__.py:308
+msgctxt "Operator"
+msgid "Apply Look"
+msgstr "应用外观"
+
+#: __init__.py:655
+msgctxt "Operator"
+msgid "Apply Outline Settings"
+msgstr "应用描边设置"
+
+#: __init__.py:330
+msgctxt "Operator"
+msgid "Apply Toon Preset"
+msgstr "应用卡通预设"
+
+#: mmt_seethrough.py:859
+msgctxt "Operator"
+msgid "Eyes (see through the fringe)"
+msgstr "眼睛（透过刘海显示）"
+
+#: __init__.py:522
+msgctxt "Operator"
+msgid "MMD Edge Preview"
+msgstr "MMD 边缘预览"
+
+#: __init__.py:503
+msgctxt "Operator"
+msgid "MMD Set Eye Shadow"
+msgstr "MMD 设置眼影"
+
+#: __init__.py:223
+#: __init__.py:922
+msgctxt "Operator"
+msgid "One-Click Toon"
+msgstr "一键卡通"
+
+#: __init__.py:760
+msgctxt "Operator"
+msgid "Print Self-Check Report"
+msgstr "打印自检报告"
+
+#: mmt_seethrough.py:829
+msgctxt "Operator"
+msgid "Re-apply Eyes"
+msgstr "重新应用眼睛"
+
+#: __init__.py:279
+msgctxt "Operator"
+msgid "Re-apply Toon Shading"
+msgstr "重新应用卡通着色"
+
+#: mmt_names.py:260
+msgctxt "Operator"
+msgid "Re-detect Materials"
+msgstr "重新检测材质"
+
+#: __init__.py:546
+msgctxt "Operator"
+msgid "Remove Edge Preview"
+msgstr "移除边缘预览"
+
+#: __init__.py:605
+#: mmt_glow.py:912
+msgctxt "Operator"
+msgid "Remove Glow"
+msgstr "移除辉光"
+
+#: __init__.py:229
+#: __init__.py:854
+msgctxt "Operator"
+msgid "Restore Original Model"
+msgstr "还原原始模型"
+
+#: __init__.py:293
+msgctxt "Operator"
+msgid "Set Eye Shadow"
+msgstr "设置眼影"
+
+#: __init__.py:416
+msgctxt "Operator"
+msgid "Toon Shading"
+msgstr "卡通着色"
+
+#: mmt_seethrough.py:801
+msgctxt "Operator"
+msgid "Turn Off"
+msgstr "关闭"
+
+#: mmt_seethrough.py:889
+msgctxt "Operator"
+msgid "Turn Off Eyes"
+msgstr "关闭眼睛"
+
+#: __init__.py:172
+#: __init__.py:629
+msgctxt "Operator"
+msgid "Turn Off Sequencer"
+msgstr "关闭序列编辑器"
+
+#: __init__.py:761
+msgctxt "Operator"
+msgid "checks whether the panel / operators / scene properties / render pre-handler are all present and prints the full report to the system console"
+msgstr "检查面板、操作符、场景属性、渲染前置处理器是否齐全，并将完整报告打印到系统控制台"
+
+#: mmt_names.py:261
+msgctxt "Operator"
+msgid "guess the face / hair / eye / brow / lash materials by name on the selected model"
+msgstr "根据名称在所选模型上推测脸部、头发、眼睛、眉毛、睫毛材质"
+
+#: mmt_seethrough.py:860
+msgctxt "Operator"
+msgid "make the eyes and brows show through the hair: writes the three masks, builds the compositor group and wires it in"
+msgstr "让眼睛和眉毛透过头发显示：写入三个遮罩，构建合成器节点组并接入"
+
+#: __init__.py:417
+msgctxt "Operator"
+msgid "one click: read the native MMD materials, apply the toon preset, build the MMD edge preview. A failing step is reported on its own and does not affect the others"
+msgstr "一键：读取原生 MMD 材质，应用卡通预设，构建 MMD 边缘预览。失败的步骤会单独报告，不影响其他步骤"
+
+#: mmt_seethrough.py:890
+msgctxt "Operator"
+msgid "remove the see-through nodes and restore the hair and the view layer"
+msgstr "移除透视节点并还原头发和视图层"
+
+#: __init__.py:923
+msgctxt "Operator"
+msgid "the beginner button: toon shading with outline, then eye-through, then glow. A failing step is reported on its own and never cancels the others"
+msgstr "新手按钮：带描边的卡通着色，然后眼透，然后辉光。失败的步骤会单独报告，绝不会取消其他步骤"
+
+#: __init__.py:855
+msgctxt "Operator"
+msgid "turn every MikuMikuToon effect off and put the materials back to how the MMD model looked before the first one-click toon"
+msgstr "关闭所有 MikuMikuToon 效果，并将材质恢复到首次一键卡通前的 MMD 模型状态"
+
+#: __init__.py:630
+msgctxt "Operator"
+msgid "when the Video Sequencer is on and has strips, renders go through it and the compositor (glow) is skipped; this turns that post-processing step off"
+msgstr "当视频序列编辑器开启且有片段时，渲染会经过它并跳过合成器（辉光）；此操作关闭该后处理步骤"
+
+#: mmt_seethrough.py:800
+msgctxt "Operator"
+msgid "眼透"
+msgstr "眼透"

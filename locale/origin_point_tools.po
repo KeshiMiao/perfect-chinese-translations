@@ -1,0 +1,675 @@
+# perfect-chinese: 1
+# id: origin_point_tools
+# kind: addon
+# module: bl_ext.blender_org.origin_point_tools
+# name: Origin Master Tools
+# name_zh: 原点大师工具
+# translator: KeshiMiao
+# category: 3D View
+# supported_versions: >=5.0.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: ui.py:25
+#: ui.py:26
+msgid "+"
+msgstr "+"
+
+#: core.py:47
+msgid "+X"
+msgstr "+X"
+
+#: core.py:49
+msgid "+Y"
+msgstr "+Y"
+
+#: core.py:51
+msgid "+Z"
+msgstr "+Z"
+
+#: ui.py:25
+#: ui.py:26
+msgid "-"
+msgstr "-"
+
+#: core.py:46
+msgid "-X"
+msgstr "-X"
+
+#: core.py:48
+msgid "-Y"
+msgstr "-Y"
+
+#: core.py:50
+msgid "-Z"
+msgstr "-Z"
+
+#: ui.py:122
+msgid "27-Point Bounds Grid"
+msgstr "27 点边界网格"
+
+#: operators.py:372
+msgid "Action"
+msgstr "操作"
+
+#: core.py:21
+msgid "Active Element"
+msgstr "活动元素"
+
+#: core.py:36
+msgid "Active Target"
+msgstr "活动目标"
+
+#: core.py:21
+msgid "Active vertex, edge midpoint, or face center"
+msgstr "活动顶点、边中点或面中心"
+
+#: ui.py:155
+msgid "Advanced Selection Center (Edit Mode)"
+msgstr "高级选中项中心（编辑模式）"
+
+#: core.py:123
+msgid "Align the local X axis"
+msgstr "对齐局部 X 轴"
+
+#: core.py:124
+msgid "Align the local Y axis"
+msgstr "对齐局部 Y 轴"
+
+#: core.py:125
+msgid "Align the local Z axis"
+msgstr "对齐局部 Z 轴"
+
+#: operators.py:311
+msgid "Align to the active edge direction"
+msgstr "对齐到活动边方向"
+
+#: operators.py:310
+msgid "Align to the active face normal"
+msgstr "对齐到活动面法向"
+
+#: core.py:120
+msgid "Alignment Axis"
+msgstr "对齐轴"
+
+#: operators.py:361
+msgid "Apply Offset"
+msgstr "应用偏移"
+
+#: core.py:108
+msgid "Average of all geometry vertices"
+msgstr "所有几何顶点的平均值"
+
+#: core.py:19
+msgid "Average position of all selected vertices"
+msgstr "所有选中顶点的平均位置"
+
+#: core.py:75
+msgid "Axis Space"
+msgstr "轴空间"
+
+#: core.py:81
+msgid "Batch Mode"
+msgstr "批量模式"
+
+#: ui.py:30
+msgid "Bottom Layer (-Z)"
+msgstr "底层（-Z）"
+
+#: core.py:20
+msgid "Bounding Box"
+msgstr "边界框"
+
+#: core.py:109
+msgid "Bounds"
+msgstr "边界"
+
+#: core.py:34
+msgid "Calculate a separate target for every object"
+msgstr "为每个物体单独计算目标"
+
+#: core.py:86
+msgid "Calculate targets from the evaluated mesh including modifiers"
+msgstr "从包含修改器的求值网格计算目标"
+
+#: core.py:41
+msgid "Center"
+msgstr "中心"
+
+#: core.py:70
+msgid "Center Method"
+msgstr "中心方式"
+
+#: core.py:41
+msgid "Center between minimum and maximum"
+msgstr "最小值与最大值之间的中心"
+
+#: core.py:109
+msgid "Center of the geometry bounding box"
+msgstr "几何边界框的中心"
+
+#: core.py:20
+msgid "Center of the selected geometry bounds"
+msgstr "选中几何边界的中心"
+
+#: core.py:145
+msgid "Clickable Gizmos"
+msgstr "可点击控件"
+
+#: core.py:35
+msgid "Combined"
+msgstr "合并"
+
+#: core.py:92
+msgid "Contact Direction"
+msgstr "接触方向"
+
+#: core.py:151
+msgid "Copied Origin"
+msgstr "已复制的原点"
+
+#: operators.py:395
+msgid "Copied the active origin"
+msgstr "已复制活动原点"
+
+#: operators.py:358
+msgid "Copy Origin"
+msgstr "复制原点"
+
+#: operators.py:358
+msgid "Copy the active origin position"
+msgstr "复制活动原点的位置"
+
+#: ui.py:65
+#: ui.py:199
+msgid "Created by Ares PINAR"
+msgstr "作者：Ares PINAR"
+
+#: operators.py:352
+msgid "Cursor to Origin"
+msgstr "游标到原点"
+
+#: core.py:30
+msgid "Custom"
+msgstr "自定义"
+
+#: operators.py:186
+msgid "Direction"
+msgstr "方向"
+
+#: core.py:97
+msgid "Distance from the extreme point included in the contact area"
+msgstr "从接触区域内的极限点算起的距离"
+
+#: core.py:139
+msgid "Draw all 27 bounding points in the viewport"
+msgstr "在视图中绘制全部 27 个边界点"
+
+#: operators.py:311
+msgid "Edge"
+msgstr "边"
+
+#: core.py:23
+msgid "Edge Length Weighted"
+msgstr "按边长加权"
+
+#: core.py:23
+msgid "Edge midpoints weighted by edge length"
+msgstr "按边长加权的边中点"
+
+#: ui.py:89
+msgid "Edit Mode - Selected Geometry"
+msgstr "编辑模式 - 选中几何"
+
+#: operators.py:307
+msgid "Element"
+msgstr "元素"
+
+#: operators.py:310
+msgid "Face"
+msgstr "面"
+
+#: core.py:22
+msgid "Face Area Weighted"
+msgstr "按面积加权"
+
+#: core.py:22
+msgid "Face centers weighted by face area"
+msgstr "按面面积加权的面中心"
+
+#: core.py:105
+msgid "Geometry Center"
+msgstr "几何中心"
+
+#: ui.py:173
+msgid "Geometry and Mass"
+msgstr "几何与质量"
+
+#: operators.py:354
+msgid "Geometry to Origin"
+msgstr "几何到原点"
+
+#: core.py:28
+msgid "Global"
+msgstr "全局"
+
+#: core.py:86
+msgid "Include Modifiers"
+msgstr "包含修改器"
+
+#: core.py:34
+msgid "Individual"
+msgstr "单独"
+
+#: core.py:129
+msgid "Keep child objects at their current world transforms while aligning"
+msgstr "对齐时保持子物体当前的世界变换"
+
+#: core.py:27
+msgid "Local"
+msgstr "局部"
+
+#: core.py:42
+msgid "Maximum"
+msgstr "最大值"
+
+#: core.py:42
+msgid "Maximum bound"
+msgstr "最大边界"
+
+#: core.py:19
+#: core.py:108
+msgid "Median"
+msgstr "中位点"
+
+#: ui.py:29
+msgid "Middle Layer (Z Center)"
+msgstr "中间层（Z 中心）"
+
+#: core.py:40
+msgid "Minimum"
+msgstr "最小值"
+
+#: core.py:40
+msgid "Minimum bound"
+msgstr "最小边界"
+
+#: operators.py:354
+msgid "Move geometry to the current origin"
+msgstr "将几何移动到当前原点"
+
+#: operators.py:355
+msgid "Move origins to surface center of mass"
+msgstr "将原点移动到表面质心"
+
+#: operators.py:353
+msgid "Move origins to the chosen geometry center"
+msgstr "将原点移动到所选几何中心"
+
+#: operators.py:356
+msgid "Move origins to volume center of mass"
+msgstr "将原点移动到体积质心"
+
+#: operators.py:357
+msgid "Move selected origins to the active object's origin"
+msgstr "将选中原点移动到活动物体的原点"
+
+#: operators.py:359
+msgid "Move selected origins to the copied position"
+msgstr "将选中原点移动到已复制的位置"
+
+#: operators.py:351
+msgid "Move selected origins to world coordinates 0, 0, 0"
+msgstr "将选中原点移动到世界坐标 0, 0, 0"
+
+#: operators.py:352
+msgid "Move the 3D Cursor to the active origin"
+msgstr "将 3D 游标移动到活动原点"
+
+#: operators.py:389
+msgid "Moved the 3D Cursor to the active origin"
+msgstr "已将 3D 游标移动到活动原点"
+
+#: ui.py:96
+msgid "Multiple items: selection center"
+msgstr "多个项目：选中项中心"
+
+#: core.py:46
+msgid "Negative X direction"
+msgstr "负 X 方向"
+
+#: core.py:48
+msgid "Negative Y direction"
+msgstr "负 Y 方向"
+
+#: core.py:50
+msgid "Negative Z direction"
+msgstr "负 Z 方向"
+
+#: ui.py:99
+msgid "Object Mode - Bounds"
+msgstr "物体模式 - 边界框"
+
+#: core.py:113
+msgid "Offset added to the current origin"
+msgstr "添加到当前原点的偏移"
+
+#: operators.py:361
+msgid "Offset selected origins by the entered XYZ values"
+msgstr "按输入的 XYZ 值偏移所选原点"
+
+#: ui.py:95
+msgid "One item: element center"
+msgstr "单个元素：元素中心"
+
+#: ui.py:163
+msgid "Orientation Alignment (Edit Mode)"
+msgstr "朝向对齐（编辑模式）"
+
+#: ui.py:74
+msgid "Origin"
+msgstr "原点"
+
+#: ui.py:225
+msgid "Origin Bounds Gizmos"
+msgstr "原点边界框 gizmo"
+
+#: ui.py:64
+#: ui.py:70
+msgid "Origin Master Tools"
+msgstr "Origin Master Tools"
+
+#: core.py:113
+msgid "Origin Offset"
+msgstr "原点偏移"
+
+#: ui.py:147
+msgid "Origin Utilities"
+msgstr "原点工具"
+
+#: operators.py:357
+msgid "Origin to Active"
+msgstr "原点到活动项"
+
+#: operators.py:353
+msgid "Origin to Geometry"
+msgstr "原点到几何中心"
+
+#: operators.py:351
+msgid "Origin to World Center"
+msgstr "原点到世界中心"
+
+#: operators.py:359
+msgid "Paste Origin"
+msgstr "粘贴原点"
+
+#: ui.py:66
+msgid "Pie Menu: Shift + Alt + O"
+msgstr "饼菜单：Shift + Alt + O"
+
+#: core.py:139
+msgid "Point Preview"
+msgstr "点预览"
+
+#: core.py:47
+msgid "Positive X direction"
+msgstr "正 X 方向"
+
+#: core.py:49
+msgid "Positive Y direction"
+msgstr "正 Y 方向"
+
+#: core.py:51
+msgid "Positive Z direction"
+msgstr "正 Z 方向"
+
+#: core.py:129
+msgid "Preserve Children"
+msgstr "保留子级"
+
+#: ui.py:82
+msgid "Quick Tools - Object / Edit Mode"
+msgstr "快捷工具 - 物体/编辑模式"
+
+#: operators.py:360
+msgid "Restore Previous"
+msgstr "恢复上一个"
+
+#: operators.py:360
+msgid "Restore the previous origin position"
+msgstr "恢复上一个原点位置"
+
+#: ui.py:196
+msgid "Select a mesh object"
+msgstr "请选择一个网格物体"
+
+#: core.py:137
+msgid "Show 27-Point Grid"
+msgstr "显示 27 点网格"
+
+#: core.py:138
+msgid "Show Utilities"
+msgstr "显示工具"
+
+#: core.py:145
+msgid "Show clickable 27-point origin gizmos in the viewport"
+msgstr "在视图中显示可点击的 27 点原点 gizmo"
+
+#: operators.py:355
+msgid "Surface Center of Mass"
+msgstr "表面质心"
+
+#: core.py:97
+msgid "Tolerance"
+msgstr "容差"
+
+#: ui.py:28
+msgid "Top Layer (+Z)"
+msgstr "顶层（+Z）"
+
+#: core.py:35
+msgid "Treat all selected objects as one world-space group"
+msgstr "将所有选中物体视为一个世界空间组"
+
+#: ui.py:137
+msgid "True Contact Center"
+msgstr "真实接触中心"
+
+#: core.py:27
+msgid "Use each object's local axes"
+msgstr "使用各物体的局部轴"
+
+#: core.py:30
+msgid "Use the active custom transform orientation"
+msgstr "使用活动的自定义变换朝向"
+
+#: core.py:36
+msgid "Use the active object's target for every selected object"
+msgstr "对每个选中物体使用活动物体的目标"
+
+#: core.py:29
+msgid "Use the current 3D View orientation"
+msgstr "使用当前 3D 视图朝向"
+
+#: core.py:28
+msgid "Use world axes"
+msgstr "使用世界轴"
+
+#: core.py:29
+msgid "View"
+msgstr "视图"
+
+#: operators.py:356
+msgid "Volume Center of Mass"
+msgstr "体积质心"
+
+#: core.py:123
+#: core.py:134
+msgid "X"
+msgstr "X"
+
+#: core.py:124
+#: core.py:135
+msgid "Y"
+msgstr "Y"
+
+#: core.py:125
+#: core.py:136
+msgid "Z"
+msgstr "Z"
+
+#: ui.py:107
+msgctxt "Operator"
+msgid "+X Right"
+msgstr "+X 右"
+
+#: ui.py:113
+msgctxt "Operator"
+msgid "+Y Back"
+msgstr "+Y 后"
+
+#: ui.py:119
+msgctxt "Operator"
+msgid "+Z Top"
+msgstr "+Z 顶"
+
+#: ui.py:105
+msgctxt "Operator"
+msgid "-X Left"
+msgstr "-X 左"
+
+#: ui.py:111
+msgctxt "Operator"
+msgid "-Y Front"
+msgstr "-Y 前"
+
+#: ui.py:117
+msgctxt "Operator"
+msgid "-Z Bottom"
+msgstr "-Z 底"
+
+#: operators.py:303
+msgctxt "Operator"
+msgid "Align Origin to Selection"
+msgstr "对齐原点到选中项"
+
+#: ui.py:169
+msgctxt "Operator"
+msgid "Align to Edge"
+msgstr "对齐到边"
+
+#: ui.py:167
+msgctxt "Operator"
+msgid "Align to Face"
+msgstr "对齐到面"
+
+#: ui.py:157
+msgctxt "Operator"
+msgid "Apply Advanced Center"
+msgstr "应用高级中心"
+
+#: operators.py:135
+msgctxt "Operator"
+msgid "Apply Advanced Selection Center"
+msgstr "应用高级选中项中心"
+
+#: operators.py:212
+msgctxt "Operator"
+msgid "Average all extreme vertices within the tolerance to find a true contact center"
+msgstr "对容差内的所有极值顶点取平均，以求得真实接触中心"
+
+#: ui.py:213
+msgctxt "Operator"
+msgid "Bottom (-Z)"
+msgstr "底部（-Z）"
+
+#: ui.py:209
+msgctxt "Operator"
+msgid "Left (-X)"
+msgstr "左侧（-X）"
+
+#: operators.py:183
+msgctxt "Operator"
+msgid "Move origins to a bounding box side center"
+msgstr "将原点移动到边界框某一侧的中心"
+
+#: operators.py:152
+msgctxt "Operator"
+msgid "Move origins to the selected 27-point bounding box position"
+msgstr "将原点移动到选定的 27 点边界框位置"
+
+#: operators.py:275
+msgctxt "Operator"
+msgid "Move selected mesh origins to the 3D Cursor in Object Mode or Edit Mode"
+msgstr "在物体模式或编辑模式下将选中网格的原点移动到 3D 光标"
+
+#: operators.py:117
+msgctxt "Operator"
+msgid "Move the origin to one selected vertex, edge midpoint, or face center; use the selection center when multiple elements are selected"
+msgstr "将原点移动到选中的单个顶点、边中点或面中心；选中多个元素时使用选中项中心"
+
+#: operators.py:304
+msgctxt "Operator"
+msgid "Move the origin to the active element and align a local axis while preserving geometry"
+msgstr "将原点移动到活动元素并对齐某一局部轴，同时保持几何体不变"
+
+#: operators.py:369
+msgctxt "Operator"
+msgid "Origin Utility"
+msgstr "原点工具"
+
+#: operators.py:274
+msgctxt "Operator"
+msgid "Origin to 3D Cursor"
+msgstr "原点到 3D 光标"
+
+#: operators.py:182
+msgctxt "Operator"
+msgid "Origin to Bounds"
+msgstr "原点到边界框"
+
+#: operators.py:151
+msgctxt "Operator"
+msgid "Origin to Bounds Point"
+msgstr "原点到边界框点"
+
+#: operators.py:211
+#: ui.py:140
+msgctxt "Operator"
+msgid "Origin to Contact Area"
+msgstr "原点到接触区域"
+
+#: ui.py:84
+#: ui.py:217
+msgctxt "Operator"
+msgid "Origin to Cursor"
+msgstr "原点到光标"
+
+#: ui.py:90
+#: ui.py:218
+msgctxt "Operator"
+msgid "Origin to Selected"
+msgstr "原点到选中元素"
+
+#: operators.py:116
+msgctxt "Operator"
+msgid "Origin to Selection"
+msgstr "原点到选中项"
+
+#: ui.py:211
+msgctxt "Operator"
+msgid "Right (+X)"
+msgstr "右侧（+X）"
+
+#: ui.py:215
+msgctxt "Operator"
+msgid "Top (+Z)"
+msgstr "顶部（+Z）"
+
+#: operators.py:136
+msgctxt "Operator"
+msgid "Use the selected advanced center calculation for the current mesh selection"
+msgstr "对当前网格选择使用选定的高级中心计算"

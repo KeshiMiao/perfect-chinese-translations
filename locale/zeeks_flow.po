@@ -1,0 +1,298 @@
+# perfect-chinese: 1
+# id: zeeks_flow
+# kind: addon
+# module: bl_ext.blender_org.zeeks_flow
+# name: Zeeks Flow
+# name_zh: Zeeks缓动曲线
+# translator: KeshiMiao
+# category: Animation
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: __init__.py:1
+msgid "AE-Flow style interactive Bezier easing graph for F-Curve keyframes."
+msgstr "用于 F 曲线关键帧的 AE-Flow 风格交互式贝塞尔缓动图表。"
+
+#: __init__.py:1
+msgid "Animation"
+msgstr "动画"
+
+#: properties.py:130
+#: ui_panel.py:33
+msgid "Auto Apply"
+msgstr "自动应用"
+
+#: ui_panel.py:22
+msgid "Drag the dots in the"
+msgstr "在编辑器"
+
+#: properties.py:146
+msgid "Ease in and out"
+msgstr "缓入缓出"
+
+#: properties.py:147
+msgid "Ease in only"
+msgstr "仅缓入"
+
+#: properties.py:148
+msgid "Ease out only"
+msgstr "仅缓出"
+
+#: properties.py:143
+msgid "Easing Direction"
+msgstr "缓动方向"
+
+#: operators.py:284
+msgid "Easing applied!"
+msgstr "已应用缓动！"
+
+#: properties.py:155
+msgid "End X"
+msgstr "结束 X"
+
+#: properties.py:156
+msgid "End Y"
+msgstr "结束 Y"
+
+#: properties.py:160
+msgid "Graph Size"
+msgstr "图表大小"
+
+#: properties.py:158
+msgid "Graph X"
+msgstr "图表 X"
+
+#: properties.py:159
+msgid "Graph Y"
+msgstr "图表 Y"
+
+#: properties.py:161
+#: ui_panel.py:43
+msgid "HUD Opacity"
+msgstr "HUD 不透明度"
+
+#: properties.py:147
+msgid "In"
+msgstr "缓入"
+
+#: properties.py:146
+msgid "In-Out"
+msgstr "缓入缓出"
+
+#: properties.py:122
+msgid "Incoming handle X"
+msgstr "入向手柄 X"
+
+#: properties.py:126
+msgid "Incoming handle Y"
+msgstr "入向手柄 Y"
+
+#: properties.py:130
+msgid "Instantly apply easing to selected keyframes while dragging"
+msgstr "拖动时立即对所选关键帧应用缓动"
+
+#: ui_panel.py:21
+msgid "Interactive Graph"
+msgstr "交互式图表"
+
+#: properties.py:136
+msgid "Limit Mode"
+msgstr "限制模式"
+
+#: ui_panel.py:39
+msgid "Limit Mode (1.25)"
+msgstr "限制模式 (1.25)"
+
+#: properties.py:136
+msgid "Limit coordinates to range -1.25 to 1.25"
+msgstr "将坐标限制在 -1.25 到 1.25 范围内"
+
+#: properties.py:104
+msgid "Name"
+msgstr "名称"
+
+#: operators.py:332
+msgid "Name cannot be empty!"
+msgstr "名称不能为空！"
+
+#: ui_panel.py:71
+msgid "Native Interpolations"
+msgstr "原生插值"
+
+#: operators.py:351
+msgid "No preset selected!"
+msgstr "未选择预设！"
+
+#: operators.py:280
+#: operators.py:314
+msgid "No selected keyframes found!"
+msgstr "未找到所选关键帧！"
+
+#: properties.py:161
+msgid "Opacity of the HUD overlay backgrounds (percent)"
+msgstr "HUD 叠加背景的不透明度（百分比）"
+
+#: properties.py:148
+msgid "Out"
+msgstr "缓出"
+
+#: properties.py:114
+msgid "Outgoing handle X"
+msgstr "出向手柄 X"
+
+#: properties.py:118
+msgid "Outgoing handle Y"
+msgstr "出向手柄 Y"
+
+#: properties.py:114
+msgid "P1 X"
+msgstr "P1 X"
+
+#: properties.py:118
+msgid "P1 Y"
+msgstr "P1 Y"
+
+#: properties.py:122
+msgid "P2 X"
+msgstr "P2 X"
+
+#: properties.py:126
+msgid "P2 Y"
+msgstr "P2 Y"
+
+#: properties.py:172
+msgid "Preset Index"
+msgstr "预设索引"
+
+#: operators.py:326
+msgid "Preset Name"
+msgstr "预设名称"
+
+#: ui_panel.py:54
+msgid "Quick Presets"
+msgstr "快速预设"
+
+#: ui_panel.py:86
+msgid "Saved Presets"
+msgstr "已保存预设"
+
+#: operators.py:396
+msgid "Settings reset to defaults"
+msgstr "设置已重置为默认值"
+
+#: properties.py:153
+msgid "Start X"
+msgstr "起始 X"
+
+#: properties.py:154
+msgid "Start Y"
+msgstr "起始 Y"
+
+#: properties.py:105
+msgid "X1"
+msgstr "X1"
+
+#: properties.py:107
+msgid "X2"
+msgstr "X2"
+
+#: properties.py:106
+msgid "Y1"
+msgstr "Y1"
+
+#: properties.py:108
+msgid "Y2"
+msgstr "Y2"
+
+#: __init__.py:1
+#: ui_panel.py:6
+msgid "Zeeks Flow"
+msgstr "Zeeks Flow"
+
+#: ui_panel.py:23
+msgid "bottom-left of the editor."
+msgstr "左下角拖动圆点。"
+
+#: ui_panel.py:35
+msgctxt "Operator"
+msgid "Apply"
+msgstr "应用"
+
+#: operators.py:269
+msgctxt "Operator"
+msgid "Apply Easing"
+msgstr "应用缓动"
+
+#: operators.py:306
+msgctxt "Operator"
+msgid "Apply Special Interpolation"
+msgstr "应用特殊插值"
+
+#: ui_panel.py:81
+msgctxt "Operator"
+msgid "Back"
+msgstr "回弹"
+
+#: ui_panel.py:79
+msgctxt "Operator"
+msgid "Bounce"
+msgstr "弹跳"
+
+#: ui_panel.py:60
+msgctxt "Operator"
+msgid "Ease In"
+msgstr "缓入"
+
+#: ui_panel.py:57
+msgctxt "Operator"
+msgid "Ease In-Out"
+msgstr "缓入缓出"
+
+#: ui_panel.py:63
+msgctxt "Operator"
+msgid "Ease Out"
+msgstr "缓出"
+
+#: ui_panel.py:77
+msgctxt "Operator"
+msgid "Elastic"
+msgstr "弹性"
+
+#: ui_panel.py:66
+msgctxt "Operator"
+msgid "Linear"
+msgstr "线性"
+
+#: operators.py:344
+msgctxt "Operator"
+msgid "Remove Preset"
+msgstr "移除预设"
+
+#: operators.py:363
+msgctxt "Operator"
+msgid "Reset Settings"
+msgstr "重置设置"
+
+#: ui_panel.py:47
+msgctxt "Operator"
+msgid "Reset to Defaults"
+msgstr "重置为默认值"
+
+#: operators.py:324
+msgctxt "Operator"
+msgid "Save Preset"
+msgstr "保存预设"
+
+#: operators.py:290
+msgctxt "Operator"
+msgid "Set Preset"
+msgstr "设置预设"
+
+#: operators.py:85
+msgctxt "Operator"
+msgid "Zeeks Flow: Graph Interaction"
+msgstr "Zeeks Flow：图表交互"

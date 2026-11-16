@@ -1,0 +1,252 @@
+# perfect-chinese: 1
+# id: vmc_link
+# kind: addon
+# module: bl_ext.blender_org.vmc_link
+# name: VMC Link
+# name_zh: VMC链接
+# translator: KeshiMiao
+# category: System
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: main.py:1648
+msgid "Advanced"
+msgstr "高级"
+
+#: main.py:577
+msgid "Append"
+msgstr "追加"
+
+#: main.py:538
+msgid "Apply Bone Translation"
+msgstr "应用骨骼位移"
+
+#: main.py:529
+msgid "Apply Rate (Hz)"
+msgstr "应用频率 (Hz)"
+
+#: main.py:538
+msgid "Apply the per-bone translation from VMC as well as the rotation, measured against the first pose received so the sender's own rest offsets are not added to your rig. Some senders animate humanoid bones by rotation alone, so this has no effect with them."
+msgstr "除旋转外，同时应用 VMC 的逐骨骼位移。位移以收到的第一个姿势为基准测量，因此发送端自身的静止偏移不会叠加到你的骨架上。有些发送端仅通过旋转驱动人形骨骼，此时该选项无效。"
+
+#: main.py:583
+msgid "Armature"
+msgstr "骨架"
+
+#: main.py:560
+msgid "Auto Blend Mapping"
+msgstr "自动形态键映射"
+
+#: main.py:549
+msgid "Autofill Bones"
+msgstr "自动填充骨骼"
+
+#: main.py:510
+msgid "Choose which interface the UDP receiver binds to"
+msgstr "选择 UDP 接收器绑定的接口"
+
+#: main.py:1619
+msgid "Connected"
+msgstr "已连接"
+
+#: __init__.py:66
+msgid "Connection Defaults"
+msgstr "连接默认值"
+
+#: main.py:522
+msgid "Custom Address"
+msgstr "自定义地址"
+
+#: main.py:522
+msgid "Custom local address/interface to bind UDP receiver to"
+msgstr "绑定 UDP 接收器的自定义本地地址/接口"
+
+#: __init__.py:41
+msgid "Default Address"
+msgstr "默认地址"
+
+#: __init__.py:55
+msgid "Default Apply Rate (Hz)"
+msgstr "默认应用频率 (Hz)"
+
+#: __init__.py:47
+msgid "Default Port"
+msgstr "默认端口"
+
+#: __init__.py:47
+msgid "Default UDP port used by VMC Link"
+msgstr "VMC Link 使用的默认 UDP 端口"
+
+#: __init__.py:55
+msgid "Default apply/update rate used by VMC Link"
+msgstr "VMC Link 使用的默认应用/更新频率"
+
+#: __init__.py:41
+msgid "Default local address/interface used by VMC Link"
+msgstr "VMC Link 使用的默认本地地址/接口"
+
+#: main.py:575
+msgid "Delete every previously recorded key before recording"
+msgstr "录制前删除之前记录的所有关键帧"
+
+#: main.py:1621
+msgid "Disconnected"
+msgstr "未连接"
+
+#: main.py:591
+msgid "Face Mesh"
+msgstr "面部网格"
+
+#: main.py:529
+msgid "How often to apply received transforms to the rig"
+msgstr "将接收到的变换应用到骨架的频率"
+
+#: main.py:577
+msgid "Keep existing keys and layer the new take on top of them"
+msgstr "保留现有关键帧，并将新录制叠加在其上"
+
+#: main.py:1676
+msgid "Manual blend mapping"
+msgstr "手动形态键映射"
+
+#: main.py:1659
+msgid "Manual bone mapping"
+msgstr "手动骨骼映射"
+
+#: main.py:560
+msgid "Match incoming VMC blend channels to shape keys by name, including the built-in alias list. Turn off to drive only the shape keys named under Manual blend mapping and leave every other key alone"
+msgstr "按名称将传入的 VMC 混合通道与形态键匹配，包括内置别名列表。关闭后仅驱动“手动形态键映射”中指定的形态键，其他键保持不变"
+
+#: main.py:549
+msgid "Match incoming VMC bones to the rig by name, including the built-in alias list. Turn off to drive only the bones named under Manual bone mapping and leave every other bone alone"
+msgstr "按名称将传入的 VMC 骨骼与骨架匹配，包括内置别名列表。关闭后仅驱动“手动骨骼映射”中指定的骨骼，其他骨骼保持不变"
+
+#: main.py:591
+msgid "Mesh object that contains shape keys"
+msgstr "包含形态键的网格物体"
+
+#: __init__.py:94
+msgid "Missing dependency: python-osc"
+msgstr "缺少依赖项：python-osc"
+
+#: main.py:571
+msgid "On Record"
+msgstr "录制时"
+
+#: main.py:501
+msgid "Port"
+msgstr "端口"
+
+#: main.py:1530
+msgid "Rebuilt mapping"
+msgstr "已重建映射"
+
+#: main.py:510
+msgid "Receive On"
+msgstr "接收开启"
+
+#: main.py:1624
+msgid "Receiver Config"
+msgstr "接收器配置"
+
+#: __init__.py:99
+msgid "Receiver module failed to load."
+msgstr "接收器模块加载失败。"
+
+#: __init__.py:7
+msgid "Receives OSC/VMC and applies to armature/shapekeys"
+msgstr "接收 OSC/VMC 并应用到骨架/形态键"
+
+#: main.py:1587
+msgid "Recording started"
+msgstr "已开始录制"
+
+#: main.py:1589
+msgid "Recording stopped"
+msgstr "已停止录制"
+
+#: main.py:575
+msgid "Replace All"
+msgstr "全部替换"
+
+#: main.py:1665
+msgid "Select Armature to enable bone picker"
+msgstr "选择骨架以启用骨骼选择器"
+
+#: main.py:1682
+msgid "Select Face Mesh with shape keys"
+msgstr "选择含形态键的面部网格"
+
+#: main.py:600
+msgid "Show Advanced"
+msgstr "显示高级选项"
+
+#: main.py:600
+msgid "Show advanced mapping and diagnostics options"
+msgstr "显示高级映射与诊断选项"
+
+#: __init__.py:7
+msgid "System"
+msgstr "系统"
+
+#: main.py:583
+msgid "Target armature to drive"
+msgstr "要驱动的目标骨架"
+
+#: main.py:1634
+msgid "Targets"
+msgstr "目标"
+
+#: __init__.py:102
+msgid "Try disabling/enabling the extension."
+msgstr "尝试禁用/启用该扩展。"
+
+#: main.py:501
+msgid "UDP port to listen on for VMC/OSC"
+msgstr "监听 VMC/OSC 的 UDP 端口"
+
+#: __init__.py:7
+#: __init__.py:83
+msgid "VMC Link"
+msgstr "VMC Link"
+
+#: main.py:1400
+msgid "VMC Link receiver stopped"
+msgstr "VMC Link 接收器已停止"
+
+#: main.py:1617
+msgid "Waiting for connection"
+msgstr "等待连接"
+
+#: main.py:571
+msgid "What to do with previously recorded keyframes when a new recording starts"
+msgstr "新录制开始时如何处理之前记录的关键帧"
+
+#: main.py:1537
+msgctxt "Operator"
+msgid "Clear Overrides"
+msgstr "清除覆盖"
+
+#: main.py:1414
+msgctxt "Operator"
+msgid "Create Dummy Armature"
+msgstr "创建虚拟骨架"
+
+#: main.py:1526
+msgctxt "Operator"
+msgid "Rebuild Mapping"
+msgstr "重建映射"
+
+#: main.py:1392
+msgctxt "Operator"
+msgid "Toggle Receiver"
+msgstr "切换接收器"
+
+#: main.py:1565
+msgctxt "Operator"
+msgid "Toggle Recording"
+msgstr "切换录制"

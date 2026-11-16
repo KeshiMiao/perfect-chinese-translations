@@ -1,0 +1,272 @@
+# perfect-chinese: 1
+# id: freepicker
+# kind: addon
+# module: bl_ext.blender_org.freepicker
+# name: FreePicker
+# name_zh: 自由选择器
+# translator: KeshiMiao
+# category: Rigging
+# supported_versions: >=5.0.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: FreePicker/__init__.py:1
+msgid "A fully self-contained picker with custom Pose/Object sets and a floating editable panel."
+msgstr "完全独立的拾取器，带自定义姿态/物体选择集和可编辑浮动面板。"
+
+#: FreePicker/core.py:1
+msgid "A fully self-contained picker: its own Pose-mode bone sets and Object-mode sets (does NOT use Blender's native Bone Selection Sets, so it will not conflict or share data with other addons such as 'Quick Selection Sets'), drawn as a floating panel with an Edit Mode that lets you drag and resize each button freely to build a custom picker layout."
+msgstr "完全独立的拾取器：拥有自己的姿态模式骨骼选择集和物体模式选择集（不使用 Blender 原生的骨骼选择集，因此不会与其他插件（如“Quick Selection Sets”）冲突或共享数据），以浮动面板形式绘制，并提供编辑模式，可自由拖动和调整每个按钮大小，以构建自定义拾取器布局。"
+
+#: FreePicker/operators.py:552
+#: FreePicker/operators.py:636
+msgid "Action"
+msgstr "动作"
+
+#: FreePicker/operators.py:27
+#: FreePicker/operators.py:420
+msgid "Active object is not an armature"
+msgstr "活动物体不是骨架"
+
+#: FreePicker/operators.py:846
+#: FreePicker/ui.py:26
+msgid "Button"
+msgstr "按钮"
+
+#: FreePicker/operators.py:363
+msgid "Can't delete buttons that come from the linked rig. Delete them in the rig's own file instead."
+msgstr "无法删除来自链接绑定的按钮。请在绑定自身文件中删除它们。"
+
+#: FreePicker/operators.py:558
+msgid "Cancel"
+msgstr "取消"
+
+#: FreePicker/operators.py:620
+msgid "Cancel Import"
+msgstr "取消导入"
+
+#: FreePicker/operators.py:558
+msgid "Cancel this import"
+msgstr "取消此次导入"
+
+#: FreePicker/operators.py:555
+#: FreePicker/operators.py:617
+msgid "Choose Action"
+msgstr "选择动作"
+
+#: FreePicker/operators.py:617
+msgid "Choose how to handle the existing picker"
+msgstr "选择如何处理现有拾取器"
+
+#: FreePicker/operators.py:613
+msgid "Choose what to do with the current picker buttons"
+msgstr "选择如何处理当前拾取器按钮"
+
+#: FreePicker/operators.py:635
+msgid "Choose whether to export a backup first."
+msgstr "选择是否先导出备份。"
+
+#: FreePicker/core.py:304
+msgid "Circle"
+msgstr "圆形"
+
+#: FreePicker/operators.py:745
+msgid "Could not delete the existing picker buttons"
+msgstr "无法删除现有拾取器按钮"
+
+#: FreePicker/operators.py:557
+msgid "Delete current picker buttons, then import the new JSON"
+msgstr "删除当前拾取器按钮，然后导入新的 JSON"
+
+#: FreePicker/operators.py:619
+msgid "Delete the current picker and import the new one"
+msgstr "删除当前拾取器并导入新的拾取器"
+
+#: FreePicker/operators.py:620
+msgid "Do not import the file"
+msgstr "不导入文件"
+
+#: FreePicker/operators.py:618
+msgid "Export the current picker before replacing it"
+msgstr "替换前导出当前拾取器"
+
+#: FreePicker/operators.py:556
+msgid "Export the current picker, then import the new JSON"
+msgstr "导出当前拾取器，然后导入新的 JSON"
+
+#: FreePicker/operators.py:654
+msgid "File contains no selection sets"
+msgstr "文件不包含选择集"
+
+#: FreePicker/__init__.py:1
+#: FreePicker/core.py:1
+msgid "FreePicker"
+msgstr "FreePicker"
+
+#: FreePicker/operators.py:613
+msgid "Import Action"
+msgstr "导入动作"
+
+#: FreePicker/operators.py:31
+#: FreePicker/operators.py:139
+msgid "No bones selected"
+msgstr "未选择骨骼"
+
+#: FreePicker/operators.py:66
+#: FreePicker/operators.py:160
+msgid "No objects selected"
+msgstr "未选择物体"
+
+#: FreePicker/operators.py:706
+#: FreePicker/operators.py:796
+msgid "No sets could be imported -- no matching names found"
+msgstr "无法导入任何选择集——未找到匹配名称"
+
+#: FreePicker/operators.py:90
+#: FreePicker/operators.py:114
+msgid "Only usable in Object Mode or Pose Mode"
+msgstr "仅可在物体模式或姿态模式中使用"
+
+#: FreePicker/panel.py:94
+#: FreePicker/ui.py:124
+msgid "Open this from a 3D Viewport"
+msgstr "请从 3D 视图打开"
+
+#: FreePicker/operators.py:572
+msgid "Picker buttons already exist."
+msgstr "拾取器按钮已存在。"
+
+#: FreePicker/operators.py:557
+#: FreePicker/operators.py:619
+msgid "Replace"
+msgstr "替换"
+
+#: FreePicker/__init__.py:1
+#: FreePicker/core.py:1
+msgid "Rigging"
+msgstr "绑定"
+
+#: FreePicker/operators.py:556
+msgid "Save"
+msgstr "保存"
+
+#: FreePicker/operators.py:618
+msgid "Save Existing, Then Replace"
+msgstr "保存现有内容，然后替换"
+
+#: FreePicker/core.py:312
+#: FreePicker/core.py:335
+msgid "Set Name"
+msgstr "选择集名称"
+
+#: FreePicker/operators.py:874
+#: FreePicker/ui.py:53
+msgid "Shape"
+msgstr "形状"
+
+#: FreePicker/operators.py:555
+msgid "Show the import choices"
+msgstr "显示导入选项"
+
+#: FreePicker/core.py:303
+msgid "Square"
+msgstr "正方形"
+
+#: FreePicker/core.py:313
+#: FreePicker/core.py:336
+msgid "Tag Color"
+msgstr "标签颜色"
+
+#: FreePicker/operators.py:634
+msgid "This will replace your current picker."
+msgstr "这将替换当前拾取器。"
+
+#: FreePicker/core.py:305
+msgid "Triangle"
+msgstr "三角形"
+
+#: FreePicker/operators.py:123
+msgctxt "Operator"
+msgid "Add Selected To Set"
+msgstr "将所选添加到选择集"
+
+#: FreePicker/operators.py:18
+msgctxt "Operator"
+msgid "Add Selection Set"
+msgstr "添加选择集"
+
+#: FreePicker/operators.py:579
+msgctxt "Operator"
+msgid "Cancel Import"
+msgstr "取消导入"
+
+#: FreePicker/operators.py:338
+msgctxt "Operator"
+msgid "Delete Button"
+msgstr "删除按钮"
+
+#: FreePicker/operators.py:263
+#: FreePicker/operators.py:898
+msgctxt "Operator"
+msgid "Duplicate Button"
+msgstr "复制按钮"
+
+#: FreePicker/operators.py:549
+msgctxt "Operator"
+msgid "Existing Picker Found"
+msgstr "发现现有拾取器"
+
+#: FreePicker/operators.py:385
+msgctxt "Operator"
+msgid "Export Selection Sets"
+msgstr "导出选择集"
+
+#: FreePicker/__init__.py:39
+#: FreePicker/panel.py:50
+msgctxt "Operator"
+msgid "FreePicker"
+msgstr "FreePicker"
+
+#: FreePicker/operators.py:608
+msgctxt "Operator"
+msgid "Import Selection Sets"
+msgstr "导入选择集"
+
+#: FreePicker/operators.py:182
+msgctxt "Operator"
+msgid "Remove Selected From Set"
+msgstr "从选择集中移除所选"
+
+#: FreePicker/operators.py:870
+#: FreePicker/ui.py:49
+msgctxt "Operator"
+msgid "Rename"
+msgstr "重命名"
+
+#: FreePicker/operators.py:824
+msgctxt "Operator"
+msgid "Rename Button"
+msgstr "重命名按钮"
+
+#: FreePicker/operators.py:576
+msgctxt "Operator"
+msgid "Replace"
+msgstr "替换"
+
+#: FreePicker/operators.py:573
+msgctxt "Operator"
+msgid "Save"
+msgstr "保存"
+
+#: FreePicker/operators.py:97
+msgctxt "Operator"
+msgid "Select"
+msgstr "选择"
+
+#: FreePicker/operators.py:239
+msgctxt "Operator"
+msgid "Set Button Shape"
+msgstr "设置按钮形状"

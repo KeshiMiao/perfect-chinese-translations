@@ -1,0 +1,206 @@
+# perfect-chinese: 1
+# id: pascal
+# kind: addon
+# module: bl_ext.blender_org.pascal
+# name: Pascal
+# name_zh: Pascal场景导入
+# translator: KeshiMiao
+# category: Import-Export
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: importer.py:372
+msgid "Add a sky and sun, frame a camera, and switch the viewport to rendered shading"
+msgstr "添加天空和太阳，构图相机，并将视图切换为渲染着色"
+
+#: preferences.py:58
+msgid "Add a sky and sun, frame a camera, and switch the viewport to rendered shading after each import"
+msgstr "每次导入后添加天空和太阳，构图相机，并将视图切换为渲染着色"
+
+#: preferences.py:31
+msgid "Allowed origins"
+msgstr "允许的来源"
+
+#: preferences.py:31
+msgid "Comma-separated web origins allowed to send scenes to Blender"
+msgstr "允许向 Blender 发送场景的网页来源，以逗号分隔"
+
+#: lighting.py:344
+msgid "Cycles"
+msgstr "Cycles"
+
+#: lighting.py:30
+msgid "Daylight"
+msgstr "日光"
+
+#: lighting.py:343
+msgid "EEVEE"
+msgstr "EEVEE"
+
+#: lighting.py:30
+msgid "Golden hour"
+msgstr "黄金时刻"
+
+#: ui.py:78
+msgid "Import a Pascal scene first"
+msgstr "请先导入 Pascal 场景"
+
+#: lighting.py:342
+msgid "Keep current"
+msgstr "保持当前"
+
+#: lighting.py:342
+msgid "Leave the render engine as it is"
+msgstr "保持渲染引擎不变"
+
+#: preferences.py:46
+msgid "Lighting"
+msgstr "光照"
+
+#: preferences.py:37
+msgid "Listen for the Pascal editor on startup"
+msgstr "启动时监听 Pascal 编辑器"
+
+#: preferences.py:21
+msgid "Listener port"
+msgstr "监听端口"
+
+#: preferences.py:46
+msgid "Look applied by Set up lighting"
+msgstr "「设置光照」应用的观感"
+
+#: preferences.py:21
+msgid "Loopback port the Pascal editor sends scenes to (falls back to the next few ports when taken). The editor looks for the add-on on this port and the four after it; takes effect next time the listener starts"
+msgstr "Pascal 编辑器发送场景所用的回环端口（被占用时回退到后续几个端口）。编辑器会在此端口及其后四个端口上查找插件；下次启动监听时生效"
+
+#: lighting.py:30
+msgid "Night"
+msgstr "夜晚"
+
+#: ui.py:108
+msgid "Not listening"
+msgstr "未监听"
+
+#: preferences.py:73
+msgid "Origins that call Blender while not allowed show up in the Pascal sidebar tab with an Allow button."
+msgstr "未获允许就调用 Blender 的来源会显示在 Pascal 侧边栏标签中，并带有「允许」按钮。"
+
+#: lighting.py:30
+msgid "Overcast"
+msgstr "阴天"
+
+#: ui.py:86
+#: ui.py:89
+msgid "Pascal"
+msgstr "Pascal"
+
+#: lighting.py:30
+msgid "Physical sky"
+msgstr "物理天空"
+
+#: importer.py:377
+msgid "Polish materials"
+msgstr "优化材质"
+
+#: preferences.py:41
+msgid "Polish materials on import"
+msgstr "导入时优化材质"
+
+#: preferences.py:52
+msgid "Render engine"
+msgstr "渲染引擎"
+
+#: importer.py:367
+msgid "Replace an earlier import of the same Pascal project instead of adding a copy"
+msgstr "替换同一 Pascal 项目的先前导入，而不是添加副本"
+
+#: importer.py:367
+msgid "Replace previous import"
+msgstr "替换先前导入"
+
+#: importer.py:372
+msgid "Set up lighting"
+msgstr "设置光照"
+
+#: preferences.py:58
+msgid "Set up lighting on import"
+msgstr "导入时设置光照"
+
+#: lighting.py:344
+msgid "Switch to Cycles for path-traced renders"
+msgstr "切换到 Cycles 进行路径追踪渲染"
+
+#: lighting.py:343
+msgid "Switch to EEVEE for an instant real-time preview"
+msgstr "切换到 EEVEE 以获得即时实时预览"
+
+#: preferences.py:41
+msgid "Turn see-through surfaces into glass, wire cutout alpha on leaf textures, calm the site ground"
+msgstr "将透明表面转为玻璃，为叶片纹理接入镂空 Alpha，平缓场地地面"
+
+#: importer.py:377
+msgid "Turn see-through surfaces into glass, wire cutout alpha, calm the site ground"
+msgstr "将透明表面转为玻璃，接入镂空 Alpha，平缓场地地面"
+
+#: ui.py:117
+msgid "Wants to send scenes:"
+msgstr "请求发送场景："
+
+#: preferences.py:52
+msgid "Whether Set up lighting switches the render engine"
+msgstr "「设置光照」是否切换渲染引擎"
+
+#: ui.py:121
+msgctxt "Operator"
+msgid "Allow"
+msgstr "允许"
+
+#: ui.py:45
+msgctxt "Operator"
+msgid "Allow origin"
+msgstr "允许来源"
+
+#: ui.py:72
+msgctxt "Operator"
+msgid "Apply lighting preset"
+msgstr "应用光照预设"
+
+#: ui.py:59
+msgctxt "Operator"
+msgid "Ignore"
+msgstr "忽略"
+
+#: ui.py:93
+msgctxt "Operator"
+msgid "Import Pascal scene"
+msgstr "导入 Pascal 场景"
+
+#: ui.py:109
+msgctxt "Operator"
+msgid "Listen for the Pascal editor"
+msgstr "监听 Pascal 编辑器"
+
+#: importer.py:362
+#: ui.py:11
+msgctxt "Operator"
+msgid "Pascal scene (.glb)"
+msgstr "Pascal 场景（.glb）"
+
+#: ui.py:18
+msgctxt "Operator"
+msgid "Start listening"
+msgstr "开始监听"
+
+#: ui.py:106
+msgctxt "Operator"
+msgid "Stop"
+msgstr "停止"
+
+#: ui.py:34
+msgctxt "Operator"
+msgid "Stop listening"
+msgstr "停止监听"

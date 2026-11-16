@@ -1,0 +1,211 @@
+# perfect-chinese: 1
+# id: explode
+# kind: addon
+# module: bl_ext.blender_org.expLODe
+# name: expLODe
+# name_zh: 细节层级自动化
+# translator: KeshiMiao
+# category: Import-Export
+# supported_versions: >=4.2.0
+# updated_at: 2026-11-16
+msgid ""
+msgstr ""
+"Language: zh_HANS\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: core/as_blender_plugin.py:166
+#: core/as_blender_plugin.py:178
+msgid "-X Axis"
+msgstr "-X 轴"
+
+#: core/as_blender_plugin.py:167
+#: core/as_blender_plugin.py:179
+msgid "-Y Axis"
+msgstr "-Y 轴"
+
+#: core/as_blender_plugin.py:168
+#: core/as_blender_plugin.py:180
+msgid "-Z Axis"
+msgstr "-Z 轴"
+
+#: core/as_blender_plugin.py:128
+msgid "Active Collection Only"
+msgstr "仅活动集合"
+
+#: core/as_blender_plugin.py:146
+msgid "Add Leaf Bones"
+msgstr "添加末端骨骼"
+
+#: core/as_blender_plugin.py:185
+msgid "Add binormal and tangent vectors, together with normal they form the tangent space (tris/quads only). Meshes with N-gons won't export tangents unless the option Triangulate Faces is enabled"
+msgstr "添加副法线和切线向量，它们与法线共同构成切线空间（仅限三角面/四边面）。除非启用「三角化面」选项，否则含 N 边形面的网格不会导出切线"
+
+#: core/as_blender_plugin.py:337
+msgid "Additional LOD meshes to generate and export"
+msgstr "要生成并导出的额外 LOD 网格"
+
+#: core/as_blender_plugin.py:39
+msgid "Angle Limit"
+msgstr "角度限制"
+
+#: core/as_blender_plugin.py:146
+msgid "Append a final bone to the end of each chain to specify last bone length (use this when you intend to edit the armature from exported data)"
+msgstr "在每个链的末端附加一根最终骨骼以指定末根骨骼长度（当您打算基于导出数据编辑骨架时使用）"
+
+#: core/as_blender_plugin.py:207
+msgid "Armatures"
+msgstr "骨架"
+
+#: core/as_blender_plugin.py:211
+msgid "Bone Axes"
+msgstr "骨骼轴向"
+
+#: core/as_blender_plugin.py:30
+msgid "Collapse Decimate"
+msgstr "塌陷精简"
+
+#: core/as_blender_plugin.py:153
+msgid "Convert all faces to triangles. This is necessary for exporting tangents in meshes with N-gons. Otherwise Unity will show a warning when importing tangents in these meshes"
+msgstr "将所有面转换为三角形。对于含 N 边形面的网格，导出切线时必须如此。否则 Unity 导入这些网格的切线时会显示警告"
+
+#: core/as_blender_plugin.py:301
+msgid "Export FBX"
+msgstr "导出 FBX"
+
+#: core/as_blender_plugin.py:128
+msgid "Export objects in the active collection only (and its children)."
+msgstr "仅导出活动集合中的物体（及其子级）。"
+
+#: core/as_blender_plugin.py:134
+msgid "Export selected objects only."
+msgstr "仅导出选中的物体。"
+
+#: core/as_blender_plugin.py:185
+msgid "Export tangents"
+msgstr "导出切线"
+
+#: __init__.py:3
+msgid "Import-Export"
+msgstr "导入-导出"
+
+#: core/as_blender_plugin.py:46
+msgid "Iterations"
+msgstr "迭代次数"
+
+#: core/as_blender_plugin.py:69
+msgid "LOD Editor:"
+msgstr "LOD 编辑器："
+
+#: __init__.py:3
+msgid "LOD generation and export as FBX"
+msgstr "生成 LOD 并导出为 FBX"
+
+#: core/as_blender_plugin.py:337
+msgid "LODs"
+msgstr "LOD"
+
+#: core/as_blender_plugin.py:225
+msgid "LODs:"
+msgstr "LOD："
+
+#: core/as_blender_plugin.py:202
+msgid "Meshes"
+msgstr "网格"
+
+#: core/as_blender_plugin.py:85
+msgid "None"
+msgstr "无"
+
+#: core/as_blender_plugin.py:140
+msgid "Only Deform Bones"
+msgstr "仅形变骨骼"
+
+#: core/as_blender_plugin.py:140
+msgid "Only write deforming bones (and non-deforming ones when they have deforming children)"
+msgstr "仅写入形变骨骼（非形变骨骼若有形变子级也一并写入）"
+
+#: core/as_blender_plugin.py:28
+msgid "Planar Decimate"
+msgstr "平面精简"
+
+#: core/as_blender_plugin.py:39
+msgid "Planar Modifier Angle Limit"
+msgstr "平面修改器角度限制"
+
+#: core/as_blender_plugin.py:161
+#: core/as_blender_plugin.py:215
+msgid "Primary"
+msgstr "主"
+
+#: core/as_blender_plugin.py:173
+#: core/as_blender_plugin.py:220
+msgid "Secondary"
+msgstr "次"
+
+#: core/as_blender_plugin.py:134
+msgid "Selected Objects Only"
+msgstr "仅选中物体"
+
+#: core/as_blender_plugin.py:197
+msgid "Selection"
+msgstr "选择"
+
+#: core/as_blender_plugin.py:153
+msgid "Triangulate Faces"
+msgstr "三角化面"
+
+#: core/as_blender_plugin.py:29
+msgid "Unsubdivide Decimate"
+msgstr "反细分精简"
+
+#: core/as_blender_plugin.py:163
+#: core/as_blender_plugin.py:175
+msgid "X Axis"
+msgstr "X 轴"
+
+#: core/as_blender_plugin.py:164
+#: core/as_blender_plugin.py:176
+msgid "Y Axis"
+msgstr "Y 轴"
+
+#: core/as_blender_plugin.py:165
+#: core/as_blender_plugin.py:177
+msgid "Z Axis"
+msgstr "Z 轴"
+
+#: core/as_blender_plugin.py:49
+msgid "collapse ratio"
+msgstr "塌陷比例"
+
+#: __init__.py:3
+msgid "expLODe"
+msgstr "expLODe"
+
+#: core/as_blender_plugin.py:23
+msgid "name of the LOD and the suffix of the LOD mesh on export"
+msgstr "LOD 的名称，同时也是导出时 LOD 网格的后缀"
+
+#: core/as_blender_plugin.py:312
+msgctxt "Operator"
+msgid "Add Item"
+msgstr "添加项"
+
+#: core/as_blender_plugin.py:117
+msgctxt "Operator"
+msgid "Export FBX"
+msgstr "导出 FBX"
+
+#: core/as_blender_plugin.py:345
+msgctxt "Operator"
+msgid "FBX (Unity-compatible, with LOD)"
+msgstr "FBX（Unity 兼容，带 LOD）"
+
+#: core/as_blender_plugin.py:344
+msgctxt "Operator"
+msgid "FBX (with LOD)"
+msgstr "FBX（带 LOD）"
+
+#: core/as_blender_plugin.py:322
+msgctxt "Operator"
+msgid "Remove Item"
+msgstr "移除项"
